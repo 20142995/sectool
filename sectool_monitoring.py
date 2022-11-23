@@ -110,7 +110,7 @@ for type_1 in data:
             message = data[type_1][type_2][url].get('release_message')
             if time.mktime(time.strptime(date, "%Y-%m-%d %H:%M:%S")) > time.mktime((datetime.datetime.now() - datetime.timedelta(days=7)).timetuple()):
                 md += '| {} | [{}]({}) | {} | {} | {} |\n'.format(type_2, name,
-                                                                  url, date, version, message.replace('\n', ' '))
+                                                                  url, date, version, message.replace('\r\n', '<br>').replace('\n', '<br>'))
 
 md += '## 近7天commit提交记录\n'
 md += '| 类型| 项目名称 | 提交时间 | 更新内容 |\n'
@@ -121,9 +121,9 @@ for type_1 in data:
             author, name = url[19:].split('/', 1)
             date = data[type_1][type_2][url].get('commit_date')
             message = data[type_1][type_2][url].get('commit_message')
-            if time.mktime(time.strptime(date, "%Y-%m-%d %H:%M:%S")) > time.mktime((datetime.datetime.now() - datetime.timedelta(days=7)).timetuple()):
+            if time.mktime(time.strptime(date, "%Y-%m-%d %H:%M:%S")) > time.mktime((datetime.datetime.now() - datetime.timedelta(days=1)).timetuple()):
                 md += '| {} | [{}]({}) | {} | {} |\n'.format(type_2,
-                                                             name, url, date, message.replace('\n', ' '))
+                                                             name, url, date, message.replace('\r\n', '<br>').replace('\n', '<br>'))
 
 md += '## 所有项目\n'
 for type_1 in data:
@@ -136,7 +136,7 @@ for type_1 in data:
             for url in data[type_1][type_2]:
                 author, name = url[19:].split('/', 1)
                 md += '| [{}]({}) | {} | {} | {} | {} |\n'.format(name, url, author, data[type_1][type_2][url].get('commit_date',
-                                                                                                                   ''), data[type_1][type_2][url].get('release_version', ''), data[type_1][type_2][url].get('description', '').replace('\n', ' '))
+                                                                                                                   ''), data[type_1][type_2][url].get('release_version', ''), data[type_1][type_2][url].get('description', '').replace('\r\n', '<br>').replace('\n', '<br>'))
 
 with open("README.md", 'w', encoding='utf8') as fd:
     fd.write(md)
