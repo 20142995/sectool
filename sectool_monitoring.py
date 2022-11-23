@@ -123,11 +123,11 @@ if msg:
     requests.post(url, json=_data, headers=headers)
 
 # 更新README.md
-md = '[TOC]\n'
+md = ''
 if msg:
     md += '## 更新记录\n'
     md += '| 项目名称 | 变更类型 | 变更内容 |\n'
-    md += '| :----: | :----: | :---- |\n'
+    md += '| :---- | :---- | :---- |\n'
     for name, url, change_type, message in msg:
         md += '| [{}]({}) | {} | {} |\n'.format(name, url,
                                                 change_type, message.replace('\n', '</br>'))
@@ -135,7 +135,7 @@ md += '## 所有项目\n'
 for _type in data:
     md += '### {}\n'.format(_type)
     md += '| 项目名称 | 作者 | 最近提交时间 | 版本 | 项目描述 |\n'
-    md += '| :----: | :----: | :----: | :---- | :---- |\n'
+    md += '| :---- | :---- | :---- | :---- | :---- |\n'
     for url in data[_type]:
         author, name = url[19:].split('/', 1)
         md += '| [{}]({}) | {} | {} | {} | {} |\n'.format(name, url, author, data[_type][url].get('commit_date',
