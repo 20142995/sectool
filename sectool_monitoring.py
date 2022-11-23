@@ -3,33 +3,33 @@
 
 import os
 import json
-import re
 import time
 import requests
+import datetime
 requests.packages.urllib3.disable_warnings()
-
-DINGTALK_TOKEN = os.getenv('DINGTALK_TOKEN')
-GH_TOKEN = os.getenv('GH_TOKEN')
-
-
-def send_text(text, token):
-    headers = {'Content-Type': 'application/json'}
-    data = {"msgtype": "text", "text": {"content": text},
-            "at": {"atMobiles": [], "isAtAll": False}, }
-    url = "https://oapi.dingtalk.com/robot/send?access_token={}".format(token)
-    r = requests.post(url, json=data, headers=headers)
-    return r.json()
-
 
 # 项目
 repos = '''
-半自动化漏洞利用工具|https://github.com/lz520520/railgun
-半自动化漏洞利用工具|https://github.com/gobysec/Goby
-数据库利用工具|https://github.com/SafeGroceryStore/MDUT
-数据库利用工具|https://github.com/Liqunkit/LiqunKit_
-数据库利用工具|https://github.com/n0b0dyCN/redis-rogue-server
-Shell管理工具|https://github.com/rebeyond/Behinder
-Shell管理工具|https://github.com/BeichenDream/Godzilla
+信息收集|子域名收集|https://github.com/projectdiscovery/subfinder
+信息收集|目录扫描|https://github.com/maurosoria/dirsearch
+信息收集|指纹识别|https://github.com/EdgeSecurityTeam/EHole
+信息收集|端口扫描|https://github.com/4dogs-cn/TXPortMap
+漏洞发现&利用|半自动化漏洞利用|https://github.com/lz520520/railgun
+漏洞发现&利用|半自动化漏洞利用|https://github.com/gobysec/Goby
+漏洞发现&利用|半自动漏洞扫描|https://github.com/chaitin/xray
+漏洞发现&利用|数据库利用|https://github.com/SafeGroceryStore/MDUT
+漏洞发现&利用|数据库利用|https://github.com/Liqunkit/LiqunKit_
+漏洞发现&利用|数据库利用|https://github.com/n0b0dyCN/redis-rogue-server
+漏洞发现&利用|Shell管理|https://github.com/rebeyond/Behinder
+漏洞发现&利用|Shell管理|https://github.com/BeichenDream/Godzilla
+漏洞发现&利用|中间件漏洞利用|https://github.com/tpt11fb/AttackTomcat
+漏洞发现&利用|重点CMS利用|https://github.com/LittleBear4/OA-EXPTOOL
+漏洞发现&利用|漏洞检测利用仓库|https://github.com/ybdt/poc-hub
+漏洞发现&利用|poc&exp编写辅助|https://github.com/smallfox233/ExpToPocsuite3
+内网渗透|密码提取|https://github.com/Potato-py/getIntrInfo
+'''
+repos = '''
+信息收集|子域名收集|https://github.com/projectdiscovery/subfinder
 '''
 data = {}
 # 读取历史
@@ -43,103 +43,100 @@ if os.path.exists(data_file):
 else:
     with open(data_file, 'w', encoding='utf-8') as f:
         json.dump(data, f, ensure_ascii=False, indent=4)
+
 for repo in repos.split('\n'):
     if '|' in repo:
-        _type, url = repo.split('|', 1)
-        data.setdefault(_type, {})
-        data[_type].setdefault(url, {})
+        type_1, type_2, url = repo.split('|', 2)
+        data.setdefault(type_1, {})
+        data[type_1].setdefault(type_2, {})
+        data[type_1][type_2].setdefault(url, {})
 
+data_change = {}
 # 更新数据
-headers = {"Authorization": "token {}".format(GH_TOKEN)}
-for _type in data:
-    for url in data[_type]:
-        print(url)
-        name = url[19:]
-        # 项目描述
-        try:
-            rj1 = requests.get('https://api.github.com/repos/{}'.format(name),
-                               headers=headers, verify=False).json()
-            description = rj1['description']
-            if description is None:
-                description = ''
-            if data[_type][url].get('description', '') != description:
-                data[_type][url]['description_change'] = True
-            data[_type][url]['description'] = description
-            time.sleep(0.1)
-        except:
-            pass
-        # 最近提交
-        try:
-            rj2 = requests.get('https://api.github.com/repos/{}/commits'.format(name),
-                               headers=headers, verify=False).json()
-            for commit in rj2[:1]:
+headers = {"Authorization": "token {}".format(os.getenv('GH_TOKEN'))}
+for type_1 in data:
+    for type_2 in data[type_1]:
+        for url in data[type_1][type_2]:
+            print(url)
+            name = url[19:]
+            # 项目描述
+            try:
+                rj1 = requests.get('https://api.github.com/repos/{}'.format(name),
+                                   headers=headers, verify=False).json()
+                description = rj1['description']
+                if description is None:
+                    description = ''
+                data[type_1][type_2][url]['description'] = description
+                time.sleep(0.1)
+            except:
+                pass
+            # 最近提交
+            try:
+                rj2 = requests.get('https://api.github.com/repos/{}/commits'.format(name),
+                                   headers=headers, verify=False).json()
+                for commit in rj2[:1]:
+                    date = time.strftime("%Y-%m-%d %H:%M:%S", time.strptime(
+                        commit['commit']['committer']['date'], "%Y-%m-%dT%H:%M:%SZ"))
+                    data[type_1][type_2][url]['commit_date'] = date
+                    data[type_1][type_2][url]['commit_message'] = commit['commit']['message']
+                time.sleep(0.1)
+            except:
+                pass
+            # release版本
+            try:
+                rj3 = requests.get('https://api.github.com/repos/{}/releases/latest'.format(
+                    name), headers=headers, verify=False).json()
                 date = time.strftime("%Y-%m-%d %H:%M:%S", time.strptime(
-                    commit['commit']['committer']['date'], "%Y-%m-%dT%H:%M:%SZ"))
-                if data[_type][url].get('commit_date', '') != date:
-                    data[_type][url]['commit_change'] = True
-                data[_type][url]['commit_date'] = date
-                data[_type][url]['commit_message'] = commit['commit']['message']
-            time.sleep(0.1)
-        except:
-            pass
-        # 最近release版本
-        try:
-            rj3 = requests.get('https://api.github.com/repos/{}/releases/latest'.format(
-                name), headers=headers, verify=False).json()
-            release_version = rj3['name']
-            if data[_type][url].get('release_version', '') != release_version:
-                data[_type][url]['release_version_change'] = True
-            data[_type][url]['release_version'] = release_version
-            time.sleep(0.1)
-        except:
-            pass
-# 提取更新记录
-msg = []
-for _type in data:
-    for url in data[_type]:
-        author, name = url[19:].split('/', 1)
-        if data[_type][url].get('description_change', False):
-            msg.append([name, url, "description", data[_type]
-                       [url].get('description', '')])
-            data[_type][url]['description_change'] = False
-        if data[_type][url].get('commit_change', False):
-            msg.append([name, url, "commit", "{}:{}".format(data[_type][url].get(
-                'commit_date', ''), data[_type][url].get('commit_message', ''))])
-            data[_type][url]['commit_change'] = False
-        if data[_type][url].get('release_version_change', False):
-            msg.append([name, url, "release", data[_type]
-                       [url].get('release_version', '')])
-            data[_type][url]['release_version_change'] = False
-# 钉钉通知
-if msg:
-    text = ''
-    for _, url, change_type, message in msg:
-        text += 'URL:{}\n{}:{}\n'.format(url, change_type, message)
-    headers = {'Content-Type': 'application/json'}
-    _data = {"msgtype": "text", "text": {"content": text},
-             "at": {"atMobiles": [], "isAtAll": False}, }
-    url = "https://oapi.dingtalk.com/robot/send?access_token={}".format(
-        DINGTALK_TOKEN)
-    requests.post(url, json=_data, headers=headers)
+                    rj3['published_at'], "%Y-%m-%dT%H:%M:%SZ"))
+                release_version = rj3['name']
+                data[type_1][type_2][url]['release_version'] = release_version
+                data[type_1][type_2][url]['release_date'] = date
+                data[type_1][type_2][url]['release_message'] = rj3['body']
+                time.sleep(0.1)
+            except:
+                pass
 
 # 更新README.md
 md = ''
-if msg:
-    md += '## 更新记录\n'
-    md += '| 项目名称 | 变更类型 | 变更内容 |\n'
-    md += '| :---- | :---- | :---- |\n'
-    for name, url, change_type, message in msg:
-        md += '| [{}]({}) | {} | {} |\n'.format(name, url,
-                                                change_type, message.replace('\n', '</br>'))
+md += '## 近7天release更新记录\n'
+md += '| 类型| 项目名称 | 更新时间 | 版本 | 更新内容 |\n'
+md += '| :---- | :---- | :---- | :---- | :---- |\n'
+for type_1 in data:
+    for type_2 in data[type_1]:
+        for url in data[type_1][type_2]:
+            author, name = url[19:].split('/', 1)
+            date = data[type_1][type_2][url].get('release_date')
+            version = data[type_1][type_2][url].get('release_version')
+            message = data[type_1][type_2][url].get('release_message')
+            if time.mktime(time.strptime(date, "%Y-%m-%d %H:%M:%S")) > time.mktime((datetime.datetime.now() - datetime.timedelta(days=7)).timetuple()):
+                md += '| {} | [{}]({}) | {} | {} | {} |\n'.format(type_2, name,
+                                                                  url, date, version, message.replace('\n', '<br>')[:50])
+
+md += '## 近7天commit提交记录\n'
+md += '| 类型| 项目名称 | 提交时间 | 更新内容 |\n'
+md += '| :---- | :---- | :---- | :---- |\n'
+for type_1 in data:
+    for type_2 in data[type_1]:
+        for url in data[type_1][type_2]:
+            author, name = url[19:].split('/', 1)
+            date = data[type_1][type_2][url].get('commit_date')
+            message = data[type_1][type_2][url].get('commit_message')
+            if time.mktime(time.strptime(date, "%Y-%m-%d %H:%M:%S")) > time.mktime((datetime.datetime.now() - datetime.timedelta(days=7)).timetuple()):
+                md += '| {} | [{}]({}) | {} | {} |\n'.format(type_2,
+                                                             name, url, date, message.replace('\n', '<br>')[:50])
+
 md += '## 所有项目\n'
-for _type in data:
-    md += '### {}\n'.format(_type)
-    md += '| 项目名称 | 作者 | 最近提交时间 | 版本 | 项目描述 |\n'
-    md += '| :---- | :---- | :---- | :---- | :---- |\n'
-    for url in data[_type]:
-        author, name = url[19:].split('/', 1)
-        md += '| [{}]({}) | {} | {} | {} | {} |\n'.format(name, url, author, data[_type][url].get('commit_date',
-                                                                                                  ''), data[_type][url].get('release_version', ''), data[_type][url].get('description', ''))
+for type_1 in data:
+    md += '### {}\n'.format(type_1)
+    for type_2 in data[type_1]:
+        md += '#### {}\n'.format(type_2)
+        for url in data[type_1][type_2]:
+            md += '| 项目名称 | 作者 | 最近提交时间 | 版本 | 项目描述 |\n'
+            md += '| :---- | :---- | :---- | :---- | :---- |\n'
+            for url in data[type_1][type_2]:
+                author, name = url[19:].split('/', 1)
+                md += '| [{}]({}) | {} | {} | {} | {} |\n'.format(name, url, author, data[type_1][type_2][url].get('commit_date',
+                                                                                                                   ''), data[type_1][type_2][url].get('release_version', ''), data[type_1][type_2][url].get('description', '').replace('\n', '<br>')[:50])
 
 with open("README.md", 'w', encoding='utf8') as fd:
     fd.write(md)

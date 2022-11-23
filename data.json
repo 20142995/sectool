@@ -1,66 +1,14 @@
 {
-    "半自动化漏洞利用工具": {
-        "https://github.com/lz520520/railgun": {
-            "description": "",
-            "commit_change": false,
-            "commit_date": "2022-08-22 05:20:08",
-            "commit_message": "Merge pull request #41 from lz520520/branch1\n\nupdate: README.md",
-            "release_version_change": false,
-            "release_version": "v1.4.6"
-        },
-        "https://github.com/gobysec/Goby": {
-            "description_change": false,
-            "description": "Attack surface mapping",
-            "commit_change": false,
-            "commit_date": "2021-11-22 11:19:16",
-            "commit_message": "Add files via upload",
-            "release_version_change": false,
-            "release_version": "Goby Beta1.9.325"
-        }
-    },
-    "数据库利用工具": {
-        "https://github.com/SafeGroceryStore/MDUT": {
-            "description_change": false,
-            "description": "MDUT - Multiple Database Utilization Tools",
-            "commit_change": false,
-            "commit_date": "2022-10-13 05:34:29",
-            "commit_message": "Merge pull request #53 from ren-jq101/main\n\nfix(sec): upgrade fastjson to 1.2.83",
-            "release_version_change": false,
-            "release_version": "v2.1.1"
-        },
-        "https://github.com/Liqunkit/LiqunKit_": {
-            "description_change": false,
-            "description": "下架",
-            "commit_change": false,
-            "commit_date": "2022-01-21 08:11:55",
-            "commit_message": "Update README.md"
-        },
-        "https://github.com/n0b0dyCN/redis-rogue-server": {
-            "description_change": false,
-            "description": "Redis(<=5.0.5) RCE",
-            "commit_change": false,
-            "commit_date": "2022-10-13 03:29:51",
-            "commit_message": "Merge pull request #8 from julioxus/feature/include-password\n\nincluding optional password authentication"
-        }
-    },
-    "Shell管理工具": {
-        "https://github.com/rebeyond/Behinder": {
-            "description_change": false,
-            "description": "“冰蝎”动态二进制加密网站管理客户端",
-            "commit_change": false,
-            "commit_date": "2022-08-23 02:50:39",
-            "commit_message": "Update README.md\n\n新增传输协议详解参考链接",
-            "release_version_change": false,
-            "release_version": "Behinder_v4.0.5"
-        },
-        "https://github.com/BeichenDream/Godzilla": {
-            "description_change": false,
-            "description": "哥斯拉",
-            "commit_change": false,
-            "commit_date": "2021-11-01 08:57:30",
-            "commit_message": "Update application.config",
-            "release_version_change": false,
-            "release_version": "v4.0.1-godzilla"
+    "信息收集": {
+        "子域名收集": {
+            "https://github.com/projectdiscovery/subfinder": {
+                "description": "Subfinder is a subdomain discovery tool that discovers valid subdomains for websites. Designed as a passive framework to be useful for bug bounties and safe for penetration testing.",
+                "commit_date": "2022-11-17 14:37:23",
+                "commit_message": "Merge pull request #712 from projectdiscovery/dev\n\nv2.5.5",
+                "release_version": "v2.5.5",
+                "release_date": "2022-11-17 14:52:04",
+                "release_message": "## What's Changed\r\n\r\n* Added hunter source by @Mzack9999 in https://github.com/projectdiscovery/subfinder/pull/680\r\n* Added recon.cloud source by @Mzack9999 in https://github.com/projectdiscovery/subfinder/pull/679\r\n* Added the library usage example by @forgedhallpass in https://github.com/projectdiscovery/subfinder/pull/693\r\n* Added callback function by @ShubhamRasal in https://github.com/projectdiscovery/subfinder/pull/699\r\n* Added dynamic year ranges for commoncrawl by @vzamanillo in https://github.com/projectdiscovery/subfinder/pull/687\r\n* Fixed crtsh email values by @vzamanillo in https://github.com/projectdiscovery/subfinder/pull/676\r\n* Fixed source tests, added crtsh with recursion by @vzamanillo in https://github.com/projectdiscovery/subfinder/pull/702\r\n* Fixed Segfault crash by @r0nk in https://github.com/projectdiscovery/subfinder/pull/672\r\n* Removed sonar source by @vzamanillo in https://github.com/projectdiscovery/subfinder/pull/701\r\n\r\n## New Contributors\r\n* @r0nk made their first contribution in https://github.com/projectdiscovery/subfinder/pull/672\r\n* @ShubhamRasal made their first contribution in https://github.com/projectdiscovery/subfinder/pull/699\r\n\r\n**Full Changelog**: https://github.com/projectdiscovery/subfinder/compare/v2.5.4...v2.5.5\r\n"
+            }
         }
     }
 }
