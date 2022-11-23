@@ -110,7 +110,7 @@ for type_1 in data:
             message = data[type_1][type_2][url].get('release_message')
             if time.mktime(time.strptime(date, "%Y-%m-%d %H:%M:%S")) > time.mktime((datetime.datetime.now() - datetime.timedelta(days=7)).timetuple()):
                 md += '| {} | [{}]({}) | {} | {} | {} |\n'.format(type_2, name,
-                                                                  url, date, version, message.replace('\n', '<br>')[:50])
+                                                                  url, date, version, message.replace('\n', ' '))
 
 md += '## 近7天commit提交记录\n'
 md += '| 类型| 项目名称 | 提交时间 | 更新内容 |\n'
@@ -123,7 +123,7 @@ for type_1 in data:
             message = data[type_1][type_2][url].get('commit_message')
             if time.mktime(time.strptime(date, "%Y-%m-%d %H:%M:%S")) > time.mktime((datetime.datetime.now() - datetime.timedelta(days=7)).timetuple()):
                 md += '| {} | [{}]({}) | {} | {} |\n'.format(type_2,
-                                                             name, url, date, message.replace('\n', '<br>')[:50])
+                                                             name, url, date, message.replace('\n', ' '))
 
 md += '## 所有项目\n'
 for type_1 in data:
@@ -136,7 +136,7 @@ for type_1 in data:
             for url in data[type_1][type_2]:
                 author, name = url[19:].split('/', 1)
                 md += '| [{}]({}) | {} | {} | {} | {} |\n'.format(name, url, author, data[type_1][type_2][url].get('commit_date',
-                                                                                                                   ''), data[type_1][type_2][url].get('release_version', ''), data[type_1][type_2][url].get('description', '').replace('\n', '<br>')[:50])
+                                                                                                                   ''), data[type_1][type_2][url].get('release_version', ''), data[type_1][type_2][url].get('description', '').replace('\n', ' '))
 
 with open("README.md", 'w', encoding='utf8') as fd:
     fd.write(md)
