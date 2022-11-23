@@ -104,6 +104,7 @@ for type_1 in data:
         for url in data[type_1][type_2]:
             author, name = url[19:].split('/', 1)
             date = data[type_1][type_2][url].get('release_date')
+            if not date:continue
             version = data[type_1][type_2][url].get('release_version')
             message = data[type_1][type_2][url].get('release_message')
             if time.mktime(time.strptime(date, "%Y-%m-%d %H:%M:%S")) > time.mktime((datetime.datetime.now() - datetime.timedelta(days=7)).timetuple()):
@@ -118,8 +119,9 @@ for type_1 in data:
         for url in data[type_1][type_2]:
             author, name = url[19:].split('/', 1)
             date = data[type_1][type_2][url].get('commit_date')
+            if not date:continue
             message = data[type_1][type_2][url].get('commit_message')
-            if time.mktime(time.strptime(date, "%Y-%m-%d %H:%M:%S")) > time.mktime((datetime.datetime.now() - datetime.timedelta(days=1)).timetuple()):
+            if time.mktime(time.strptime(date, "%Y-%m-%d %H:%M:%S")) > time.mktime((datetime.datetime.now() - datetime.timedelta(days=7)).timetuple()):
                 md += '| {} | [{}]({}) | {} | {} |\n'.format(type_2,
                                                              name, url, date, message.replace('\r\n', '<br>').replace('\n', '<br>'))
 
