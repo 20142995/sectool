@@ -25,6 +25,11 @@ def send_text(text, token):
 repos = '''
 半自动化漏洞利用工具|https://github.com/lz520520/railgun
 半自动化漏洞利用工具|https://github.com/gobysec/Goby
+数据库利用工具|https://github.com/SafeGroceryStore/MDUT
+数据库利用工具|https://github.com/Liqunkit/LiqunKit_
+数据库利用工具|https://github.com/n0b0dyCN/redis-rogue-server
+Shell管理工具|https://github.com/rebeyond/Behinder
+Shell管理工具|https://github.com/BeichenDream/Godzilla
 '''
 data = {}
 # 读取历史
@@ -118,7 +123,7 @@ if msg:
     requests.post(url, json=_data, headers=headers)
 
 # 更新README.md
-md = ''
+md = '[TOC]\n'
 if msg:
     md += '## 更新记录\n'
     md += '| 项目名称 | 并更类型 | 并更内容 |\n'
@@ -126,6 +131,7 @@ if msg:
     for name, url, change_type, message in msg:
         md += '| [{}]({}) | {} | {} |\n'.format(name, url,
                                                 change_type, message.replace('\n', '</br>'))
+md += '## 所有项目\n'
 for _type in data:
     md += '### {}\n'.format(_type)
     md += '| 项目名称 | 作者 | 最近提交时间 | 版本 | 项目描述 |\n'
