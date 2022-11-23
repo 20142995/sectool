@@ -126,7 +126,7 @@ if msg:
 md = '[TOC]\n'
 if msg:
     md += '## 更新记录\n'
-    md += '| 项目名称 | 并更类型 | 并更内容 |\n'
+    md += '| 项目名称 | 变更类型 | 变更内容 |\n'
     md += '| :----: | :----: | :---- |\n'
     for name, url, change_type, message in msg:
         md += '| [{}]({}) | {} | {} |\n'.format(name, url,
