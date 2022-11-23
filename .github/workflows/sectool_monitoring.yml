@@ -23,7 +23,6 @@ jobs:
         pip install requests
     - name: sectool monitoring
       env: 
-         DINGTALK_TOKEN: ${{ secrets.DINGTALK_TOKEN }}
          GH_TOKEN: ${{ secrets.GH_TOKEN }}
       run: |
         python sectool_monitoring.py

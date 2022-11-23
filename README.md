@@ -5,7 +5,9 @@
 ## 近7天commit提交记录
 | 类型| 项目名称 | 提交时间 | 更新内容 |
 | :---- | :---- | :---- | :---- |
+| 子域名收集 | [subfinder](https://github.com/projectdiscovery/subfinder) | 2022-11-17 14:37:23 | Merge pull request #712 from projectdiscovery/dev<br><br>v2.5.5 |
 | 目录扫描 | [dirsearch](https://github.com/maurosoria/dirsearch) | 2022-11-23 13:31:50 | Merge pull request #1248 from drego85/patch-12<br><br>Useful Files and Directory for the SIMOGEO FileManager exploit |
+| 重点CMS利用 | [OA-EXPTOOL](https://github.com/LittleBear4/OA-EXPTOOL) | 2022-11-17 09:28:39 | Update main.py |
 ## 所有项目
 ### 信息收集
 #### 子域名收集
@@ -30,10 +32,6 @@
 | :---- | :---- | :---- | :---- | :---- |
 | [railgun](https://github.com/lz520520/railgun) | lz520520 | 2022-08-22 05:20:08 | v1.4.6 |  |
 | [Goby](https://github.com/gobysec/Goby) | gobysec | 2021-11-22 11:19:16 | Goby Beta1.9.325 | Attack surface mapping |
-| 项目名称 | 作者 | 最近提交时间 | 版本 | 项目描述 |
-| :---- | :---- | :---- | :---- | :---- |
-| [railgun](https://github.com/lz520520/railgun) | lz520520 | 2022-08-22 05:20:08 | v1.4.6 |  |
-| [Goby](https://github.com/gobysec/Goby) | gobysec | 2021-11-22 11:19:16 | Goby Beta1.9.325 | Attack surface mapping |
 #### 半自动漏洞扫描
 | 项目名称 | 作者 | 最近提交时间 | 版本 | 项目描述 |
 | :---- | :---- | :---- | :---- | :---- |
@@ -44,21 +42,7 @@
 | [MDUT](https://github.com/SafeGroceryStore/MDUT) | SafeGroceryStore | 2022-10-13 05:34:29 | v2.1.1 | MDUT - Multiple Database Utilization Tools |
 | [LiqunKit_](https://github.com/Liqunkit/LiqunKit_) | Liqunkit | 2022-01-21 08:11:55 |  | 下架 |
 | [redis-rogue-server](https://github.com/n0b0dyCN/redis-rogue-server) | n0b0dyCN | 2022-10-13 03:29:51 |  | Redis(<=5.0.5) RCE |
-| 项目名称 | 作者 | 最近提交时间 | 版本 | 项目描述 |
-| :---- | :---- | :---- | :---- | :---- |
-| [MDUT](https://github.com/SafeGroceryStore/MDUT) | SafeGroceryStore | 2022-10-13 05:34:29 | v2.1.1 | MDUT - Multiple Database Utilization Tools |
-| [LiqunKit_](https://github.com/Liqunkit/LiqunKit_) | Liqunkit | 2022-01-21 08:11:55 |  | 下架 |
-| [redis-rogue-server](https://github.com/n0b0dyCN/redis-rogue-server) | n0b0dyCN | 2022-10-13 03:29:51 |  | Redis(<=5.0.5) RCE |
-| 项目名称 | 作者 | 最近提交时间 | 版本 | 项目描述 |
-| :---- | :---- | :---- | :---- | :---- |
-| [MDUT](https://github.com/SafeGroceryStore/MDUT) | SafeGroceryStore | 2022-10-13 05:34:29 | v2.1.1 | MDUT - Multiple Database Utilization Tools |
-| [LiqunKit_](https://github.com/Liqunkit/LiqunKit_) | Liqunkit | 2022-01-21 08:11:55 |  | 下架 |
-| [redis-rogue-server](https://github.com/n0b0dyCN/redis-rogue-server) | n0b0dyCN | 2022-10-13 03:29:51 |  | Redis(<=5.0.5) RCE |
 #### Shell管理
-| 项目名称 | 作者 | 最近提交时间 | 版本 | 项目描述 |
-| :---- | :---- | :---- | :---- | :---- |
-| [Behinder](https://github.com/rebeyond/Behinder) | rebeyond | 2022-08-23 02:50:39 | Behinder_v4.0.5 | “冰蝎”动态二进制加密网站管理客户端 |
-| [Godzilla](https://github.com/BeichenDream/Godzilla) | BeichenDream | 2021-11-01 08:57:30 | v4.0.1-godzilla | 哥斯拉 |
 | 项目名称 | 作者 | 最近提交时间 | 版本 | 项目描述 |
 | :---- | :---- | :---- | :---- | :---- |
 | [Behinder](https://github.com/rebeyond/Behinder) | rebeyond | 2022-08-23 02:50:39 | Behinder_v4.0.5 | “冰蝎”动态二进制加密网站管理客户端 |
