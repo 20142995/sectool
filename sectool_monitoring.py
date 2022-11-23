@@ -95,8 +95,9 @@ for type_1 in data:
                 pass
 
 # 更新README.md
+n = 7
 md = ''
-md += '## 近7天release更新记录\n'
+md += '## 近{}天release更新记录\n'.format(n)
 md += '| 类型| 项目名称 | 更新时间 | 版本 | 更新内容 |\n'
 md += '| :---- | :---- | :---- | :---- | :---- |\n'
 for type_1 in data:
@@ -104,14 +105,16 @@ for type_1 in data:
         for url in data[type_1][type_2]:
             author, name = url[19:].split('/', 1)
             date = data[type_1][type_2][url].get('release_date')
-            if not date:continue
+            if not date:
+                continue
             version = data[type_1][type_2][url].get('release_version')
             message = data[type_1][type_2][url].get('release_message')
-            if time.mktime(time.strptime(date, "%Y-%m-%d %H:%M:%S")) > time.mktime((datetime.datetime.now() - datetime.timedelta(days=7)).timetuple()):
+            if time.mktime(time.strptime(date, "%Y-%m-%d %H:%M:%S")) > time.mktime((datetime.datetime.now() - datetime.timedelta(days=n)).timetuple()):
                 md += '| {} | [{}]({}) | {} | {} | {} |\n'.format(type_2, name,
                                                                   url, date, version, message.replace('\r\n', '<br>').replace('\n', '<br>'))
 
-md += '## 近7天commit提交记录\n'
+
+md += '## 近{}天commit提交记录\n'.format(n)
 md += '| 类型| 项目名称 | 提交时间 | 更新内容 |\n'
 md += '| :---- | :---- | :---- | :---- |\n'
 for type_1 in data:
@@ -119,9 +122,10 @@ for type_1 in data:
         for url in data[type_1][type_2]:
             author, name = url[19:].split('/', 1)
             date = data[type_1][type_2][url].get('commit_date')
-            if not date:continue
+            if not date:
+                continue
             message = data[type_1][type_2][url].get('commit_message')
-            if time.mktime(time.strptime(date, "%Y-%m-%d %H:%M:%S")) > time.mktime((datetime.datetime.now() - datetime.timedelta(days=7)).timetuple()):
+            if time.mktime(time.strptime(date, "%Y-%m-%d %H:%M:%S")) > time.mktime((datetime.datetime.now() - datetime.timedelta(days=n)).timetuple()):
                 md += '| {} | [{}]({}) | {} | {} |\n'.format(type_2,
                                                              name, url, date, message.replace('\r\n', '<br>').replace('\n', '<br>'))
 
