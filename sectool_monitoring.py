@@ -55,7 +55,6 @@ headers = {"Authorization": "token {}".format(os.getenv('GH_TOKEN'))}
 for type_1 in data:
     for type_2 in data[type_1]:
         for url in data[type_1][type_2]:
-            print(url)
             name = url[19:]
             # 项目描述
             try:
