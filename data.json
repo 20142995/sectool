@@ -1,0 +1,12 @@
+{
+    "半自动化漏洞利用工具": {
+        "https://github.com/lz520520/railgun": {
+            "description": "",
+            "commit_change": false,
+            "commit_date": "2022-08-22 05:20:08",
+            "commit_message": "Merge pull request #41 from lz520520/branch1\n\nupdate: README.md",
+            "release_version_change": false,
+            "release_version": "v1.4.6"
+        }
+    }
+}
