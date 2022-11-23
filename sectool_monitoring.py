@@ -28,9 +28,7 @@ repos = '''
 漏洞发现&利用|poc&exp编写辅助|https://github.com/smallfox233/ExpToPocsuite3
 内网渗透|密码提取|https://github.com/Potato-py/getIntrInfo
 '''
-repos = '''
-信息收集|子域名收集|https://github.com/projectdiscovery/subfinder
-'''
+
 data = {}
 # 读取历史
 data_file = 'data.json'
