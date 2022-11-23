@@ -24,6 +24,7 @@ def send_text(text, token):
 # 项目
 repos = '''
 半自动化漏洞利用工具|https://github.com/lz520520/railgun
+半自动化漏洞利用工具|https://github.com/gobysec/Goby
 '''
 data = {}
 # 读取历史
