@@ -48,7 +48,17 @@ repos = '''
 漏洞发现&利用|中间件&框架漏洞利用|https://github.com/mrknow001/fastjson_rec_exploit
 漏洞发现&利用|中间件&框架漏洞利用|https://github.com/joaomatosf/jexboss
 漏洞发现&利用|中间件&框架漏洞扫描|https://github.com/rabbitmask/WeblogicScan
+漏洞发现&利用|中间件&框架漏洞扫描|https://github.com/woodpecker-appstore/weblogic-infodetector
+漏洞发现&利用|中间件&框架漏洞利用|https://github.com/0nise/weblogic-framework
+漏洞发现&利用|中间件&框架漏洞利用|https://github.com/threedr3am/dubbo-exp
+漏洞发现&利用|中间件&框架漏洞利用|https://github.com/Accenture
+漏洞发现&利用|中间件&框架漏洞扫描|https://github.com/0x48piraj/Jiraffe
+漏洞发现&利用|中间件&框架漏洞利用|https://github.com/xwuyi/STS2G
+漏洞发现&利用|中间件&框架漏洞利用|https://github.com/HatBoy/Struts2-Scan
+漏洞发现&利用|中间件&框架漏洞利用|https://github.com/kozmer/log4j-shell-poc
+
 漏洞发现&利用|中间件&框架漏洞扫描|https://github.com/Weik1/Artillery
+
 
 漏洞发现&利用|重点CMS利用|https://github.com/LittleBear4/OA-EXPTOOL
 
