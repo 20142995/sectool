@@ -295,7 +295,10 @@ for type_1 in data:
         md += '| 项目名称 | 作者 | 最近提交时间 | 版本 | 项目描述 |\n'
         md += '| :---- | :---- | :---- | :---- | :---- |\n'
         for url in data[type_1][type_2]:
-            author, name = url[19:].split('/', 1)
+            try:
+                author, name = url[19:].split('/', 1)
+            except:
+                continue
             md += '| [{}]({}) | {} | {} | {} | {} |\n'.format(name, url, author, data[type_1][type_2][url].get('commit_date',
                                                                                                                ''), data[type_1][type_2][url].get('release_version', ''), data[type_1][type_2][url].get('description', '').replace('\r\n', '<br>').replace('\n', '<br>'))
 
