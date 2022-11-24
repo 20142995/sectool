@@ -33,7 +33,15 @@ repos = '''
 
 漏洞发现&利用|数据库利用|https://github.com/SafeGroceryStore/MDUT
 漏洞发现&利用|数据库利用|https://github.com/Liqunkit/LiqunKit_
+漏洞发现&利用|数据库利用|https://github.com/uknowsec/SharpSQLTools
+漏洞发现&利用|数据库利用|https://github.com/blackarrowsec/mssqlproxy
+漏洞发现&利用|数据库利用|https://github.com/quentinhardy/odat
 漏洞发现&利用|数据库利用|https://github.com/n0b0dyCN/redis-rogue-server
+漏洞发现&利用|数据库利用|https://github.com/Ridter/redis-rce
+漏洞发现&利用|数据库利用|https://github.com/yuyan-sec/RedisEXP
+漏洞发现&利用|数据库利用|https://github.com/zyylhn/redis_rce
+
+
 
 漏洞发现&利用|Shell管理|https://github.com/rebeyond/Behinder
 漏洞发现&利用|Shell管理|https://github.com/BeichenDream/Godzilla
@@ -61,6 +69,44 @@ repos = '''
 
 
 漏洞发现&利用|重点CMS利用|https://github.com/LittleBear4/OA-EXPTOOL
+漏洞发现&利用|重点CMS利用|https://github.com/Summer177/seeyon_exp
+漏洞发现&利用|重点CMS利用|https://github.com/God-Ok/SeeyonExploit-GUI
+漏洞发现&利用|重点CMS利用|https://github.com/xinyu2428/TDOA_RCE
+漏洞发现&利用|重点CMS利用|https://github.com/yuanhaiGreg/LandrayExploit
+漏洞发现&利用|重点CMS利用|https://github.com/z1un/weaver_exp
+漏洞发现&利用|重点CMS利用|https://github.com/Tas9er/EgGateWayGetShell
+漏洞发现&利用|重点CMS利用|https://github.com/Dionach/CMSmap
+漏洞发现&利用|重点CMS利用|https://github.com/blackbinn/wprecon
+漏洞发现&利用|重点CMS利用|https://github.com/rastating/wordpress-exploit-framework
+漏洞发现&利用|重点CMS利用|https://github.com/wpscanteam/wpscan
+漏洞发现&利用|重点CMS利用|https://github.com/n00py/WPForce
+漏洞发现&利用|重点CMS利用|https://github.com/zangcc/Aazhen-v3.1
+漏洞发现&利用|重点CMS利用|https://github.com/Lotus6/ThinkphpGUI
+漏洞发现&利用|重点CMS利用|https://github.com/bewhale/thinkphp_gui_tools
+
+漏洞发现&利用|信息泄露利用|https://github.com/UzJu/Cloud-Bucket-Leak-Detection-Tools
+漏洞发现&利用|信息泄露利用|https://github.com/wyzxxz/aksk_tool
+漏洞发现&利用|信息泄露利用|https://github.com/lijiejie/swagger-exp
+漏洞发现&利用|信息泄露利用|https://github.com/jayus0821/swagger-hack
+漏洞发现&利用|信息泄露利用|https://github.com/wyzxxz/heapdump_tool
+漏洞发现&利用|信息泄露利用|https://github.com/rtcatc/Packer-Fuzzer
+漏洞发现&利用|信息泄露利用|https://github.com/BugScanTeam/GitHack
+漏洞发现&利用|信息泄露利用|https://github.com/kost/dvcs-ripper.git
+漏洞发现&利用|信息泄露利用|https://github.com/lijiejie/ds_store_exp
+漏洞发现&利用|信息泄露利用|https://github.com/admintony/svnExploit
+漏洞发现&利用|信息泄露利用|https://github.com/arthaud/git-dumper
+漏洞发现&利用|信息泄露利用|https://github.com/obheda12/GitDorker
+漏洞发现&利用|信息泄露利用|https://github.com/m4ll0k/SecretFinder
+漏洞发现&利用|信息泄露利用|https://github.com/KathanP19/JSFScan.sh
+漏洞发现&利用|信息泄露利用|https://github.com/Ice3man543/SubOver
+
+
+漏洞发现&利用|口令爆破|https://github.com/i11us0ry/goon
+漏洞发现&利用|口令爆破|https://github.com/shack2/SNETCracker
+漏洞发现&利用|口令爆破|https://github.com/koutto/web-brutator
+漏洞发现&利用|口令爆破|https://github.com/yzddmr6/WebCrack
+漏洞发现&利用|口令爆破|https://github.com/kitabisa/ssb
+
 
 漏洞发现&利用|漏洞检测利用仓库|https://github.com/ybdt/poc-hub
 漏洞发现&利用|漏洞检测利用仓库|https://github.com/Threekiii/Awesome-Exploit
@@ -75,6 +121,23 @@ repos = '''
 工具&插件|Burpsuite插件|https://github.com/NeoTheCapt/PowerScanner
 工具&插件|Burpsuite插件|https://github.com/F6JO/RouteVulScan
 工具&插件|Burpsuite插件|https://github.com/metaStor/SpringScan
+工具&插件|Burpsuite插件|https://github.com/Mr-xn/BurpSuite-collections
+工具&插件|Burpsuite插件|https://github.com/pmiaowu/BurpShiroPassiveScan
+工具&插件|Burpsuite插件|https://github.com/pmiaowu/BurpFastJsonScan
+工具&插件|Burpsuite插件|https://github.com/zilong3033/fastjsonScan
+工具&插件|Burpsuite插件|https://github.com/gh0stkey/HaE
+工具&插件|Burpsuite插件|https://github.com/bit4woo/domain_hunter_pro
+工具&插件|Burpsuite插件|https://github.com/Acmesec/Sylas
+工具&插件|Burpsuite插件|https://github.com/BishopFox/GadgetProbe
+工具&插件|Burpsuite插件|https://github.com/synacktiv/HopLa
+工具&插件|Burpsuite插件|https://github.com/f0ng/captcha-killer-modified
+工具&插件|Burpsuite插件|https://github.com/whwlsfb/BurpCrypto
+工具&插件|Burpsuite插件|https://github.com/f0ng/autoDecoder
+工具&插件|Burpsuite插件|https://github.com/TheKingOfDuck/burpFakeIP
+工具&插件|Burpsuite插件|https://github.com/nccgroup/AutoRepeater
+工具&插件|Burpsuite插件|https://github.com/portswigger/http-request-smuggler
+
+
 工具&插件|xray|https://github.com/zema1/yarx
 工具&插件|xray|https://github.com/phith0n/xray-poc-generation
 工具&插件|pocsuite3|https://github.com/smallfox233/ExpToPocsuite3
