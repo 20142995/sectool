@@ -32,5 +32,5 @@ jobs:
         git config --global user.email "test"
         git config --global user.name "test"
         git add .
-        git commit -m "Github Action Auto Updated"
+        git commit --allow-empty -m "Github Action Auto Updated"
         git push
