@@ -14,13 +14,28 @@ repos = '''
 信息收集|资产测绘采集|https://github.com/xzajyjs/ThunderSearch
 
 信息收集|子域名收集|https://github.com/projectdiscovery/subfinder
+信息收集|子域名收集|https://github.com/knownsec/ksubdomain
+信息收集|子域名收集|https://github.com/shmilylty/OneForAll
+信息收集|子域名收集|https://github.com/LangziFun/LangSrcCurise
+信息收集|子域名收集|https://github.com/gwen001/github-subdomains
+信息收集|子域名收集|https://github.com/euphrat1ca/LayerDomainFinder
+信息收集|子域名收集|https://github.com/yunxu1/dnsub
 
 信息收集|目录扫描|https://github.com/maurosoria/dirsearch
 信息收集|目录扫描|https://github.com/pingc0y/URLFinder
+信息收集|目录扫描|https://github.com/epi052/feroxbuster
+信息收集|目录扫描|https://github.com/ffuf/ffuf
+信息收集|目录扫描|https://github.com/H4ckForJob/dirmap
+信息收集|目录扫描|https://github.com/deibit/cansina
+信息收集|目录扫描|https://github.com/ReddyyZ/urlbrute
+信息收集|目录扫描|https://github.com/foryujian/yjdirscan
+信息收集|目录扫描|https://github.com/hunyaio/yuhScan
+信息收集|目录扫描|https://github.com/jaeles-project/gospider
 
 信息收集|指纹识别|https://github.com/EdgeSecurityTeam/EHole
 
 信息收集|端口扫描|https://github.com/4dogs-cn/TXPortMap
+信息收集|端口扫描|https://github.com/projectdiscovery/naabu
 
 漏洞发现&利用|半自动化漏洞利用|https://github.com/lz520520/railgun
 漏洞发现&利用|半自动化漏洞利用|https://github.com/gobysec/Goby
@@ -40,8 +55,6 @@ repos = '''
 漏洞发现&利用|数据库利用|https://github.com/Ridter/redis-rce
 漏洞发现&利用|数据库利用|https://github.com/yuyan-sec/RedisEXP
 漏洞发现&利用|数据库利用|https://github.com/zyylhn/redis_rce
-
-
 
 漏洞发现&利用|Shell管理|https://github.com/rebeyond/Behinder
 漏洞发现&利用|Shell管理|https://github.com/BeichenDream/Godzilla
@@ -141,6 +154,16 @@ repos = '''
 工具&插件|xray|https://github.com/zema1/yarx
 工具&插件|xray|https://github.com/phith0n/xray-poc-generation
 工具&插件|pocsuite3|https://github.com/smallfox233/ExpToPocsuite3
+
+工具&插件|浏览器扩展|https://github.com/LasCC/Hack-Tools
+工具&插件|浏览器扩展|https://github.com/FelisCatus/SwitchyOmega
+工具&插件|浏览器扩展|https://github.com/filedescriptor/untrusted-types
+工具&插件|浏览器扩展|https://github.com/fofapro/fofa_view
+工具&插件|浏览器扩展|https://github.com/ninoseki/mitaka
+工具&插件|浏览器扩展|https://github.com/cnrstar/anti-honeypot
+工具&插件|浏览器扩展|https://github.com/v8blink/Chromium-based-XSS-Taint-Tracking
+
+
 '''
 
 data = {}
