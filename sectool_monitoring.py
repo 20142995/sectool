@@ -255,7 +255,10 @@ md += '| :---- | :---- | :---- | :---- | :---- |\n'
 for type_1 in data:
     for type_2 in data[type_1]:
         for url in data[type_1][type_2]:
-            author, name = url[19:].split('/', 1)
+            try:
+                author, name = url[19:].split('/', 1)
+            except:
+                continue
             date = data[type_1][type_2][url].get('release_date')
             if not date:
                 continue
@@ -272,7 +275,10 @@ md += '| :---- | :---- | :---- | :---- |\n'
 for type_1 in data:
     for type_2 in data[type_1]:
         for url in data[type_1][type_2]:
-            author, name = url[19:].split('/', 1)
+            try:
+                author, name = url[19:].split('/', 1)
+            except:
+                continue
             date = data[type_1][type_2][url].get('commit_date')
             if not date:
                 continue
