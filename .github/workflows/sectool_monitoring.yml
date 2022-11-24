@@ -24,6 +24,7 @@ jobs:
     - name: sectool monitoring
       env: 
          GH_TOKEN: ${{ secrets.GH_TOKEN }}
+         DINGTALK_TOKEN: ${{ secrets.DINGTALK_TOKEN }}
       run: |
         python sectool_monitoring.py
     - name: Commit and push if changed
@@ -32,5 +33,5 @@ jobs:
         git config --global user.email "test"
         git config --global user.name "test"
         git add .
-        git commit --allow-empty -m "Github Action Auto Updated"
+        git commit --allow-empty -m "Auto Updated"
         git push

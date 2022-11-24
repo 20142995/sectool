@@ -10,8 +10,8 @@ requests.packages.urllib3.disable_warnings()
 
 # 项目
 repos = '''
-信息收集|聚合测绘平台搜索|https://github.com/ExpLangcn/InfoSearchAll
-信息收集|聚合测绘平台搜索|https://github.com/xzajyjs/ThunderSearch
+信息收集|资产测绘采集|https://github.com/ExpLangcn/InfoSearchAll
+信息收集|资产测绘采集|https://github.com/xzajyjs/ThunderSearch
 信息收集|子域名收集|https://github.com/projectdiscovery/subfinder
 信息收集|目录扫描|https://github.com/maurosoria/dirsearch
 信息收集|目录扫描|https://github.com/pingc0y/URLFinder
@@ -100,6 +100,13 @@ for type_1 in data:
                 date = time.strftime("%Y-%m-%d %H:%M:%S", time.strptime(
                     rj3['published_at'], "%Y-%m-%dT%H:%M:%SZ"))
                 release_version = rj3['name']
+                if data[type_1][type_2][url].get('release_version','') != release_version:
+                    headers = {'Content-Type': 'application/json'}
+                    data = {"msgtype": "text", "text": {"content": "{}\n\n版本升级:{}-{}".format(url,data[type_1][type_2][url].get('release_version',''),release_version)},
+                            "at": {"atMobiles": [], "isAtAll": False}, }
+                    url = "https://oapi.dingtalk.com/robot/send?access_token={}".format(os.getenv('DINGTALK_TOKEN'))
+                    requests.post(url, json=data, headers=headers)
+
                 data[type_1][type_2][url]['release_version'] = release_version
                 data[type_1][type_2][url]['release_date'] = date
                 data[type_1][type_2][url]['release_message'] = rj3['body']
