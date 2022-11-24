@@ -38,11 +38,17 @@ repos = '''
 漏洞发现&利用|Shell管理|https://github.com/rebeyond/Behinder
 漏洞发现&利用|Shell管理|https://github.com/BeichenDream/Godzilla
 
-漏洞发现&利用|中间件漏洞利用|https://github.com/tpt11fb/AttackTomcat
-漏洞发现&利用|中间件漏洞利用|https://github.com/Weik1/Artillery
-漏洞发现&利用|中间件漏洞利用|https://github.com/SummerSec/SpringExploit
-漏洞发现&利用|中间件漏洞利用|https://github.com/wyzxxz/shiro_rce_tool
-漏洞发现&利用|中间件漏洞利用|https://github.com/SummerSec/ShiroAttack2
+漏洞发现&利用|中间件&框架漏洞利用|https://github.com/tpt11fb/AttackTomcat
+漏洞发现&利用|中间件&框架漏洞利用|https://github.com/SummerSec/SpringExploit
+漏洞发现&利用|中间件&框架漏洞利用|https://github.com/wyzxxz/shiro_rce_tool
+漏洞发现&利用|中间件&框架漏洞利用|https://github.com/SummerSec/ShiroAttack2
+漏洞发现&利用|中间件&框架漏洞利用|https://github.com/j1anFen/shiro_attack
+漏洞发现&利用|中间件&框架漏洞利用|https://github.com/c0ny1/FastjsonExploit
+漏洞发现&利用|中间件&框架漏洞利用|https://github.com/wyzxxz/fastjson_rce_tool
+漏洞发现&利用|中间件&框架漏洞利用|https://github.com/mrknow001/fastjson_rec_exploit
+漏洞发现&利用|中间件&框架漏洞利用|https://github.com/joaomatosf/jexboss
+漏洞发现&利用|中间件&框架漏洞扫描|https://github.com/rabbitmask/WeblogicScan
+漏洞发现&利用|中间件&框架漏洞扫描|https://github.com/Weik1/Artillery
 
 漏洞发现&利用|重点CMS利用|https://github.com/LittleBear4/OA-EXPTOOL
 
