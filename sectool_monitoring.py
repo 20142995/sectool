@@ -8,7 +8,20 @@ import requests
 import datetime
 requests.packages.urllib3.disable_warnings()
 
-# 项目
+# 读取version历史
+versions = {}
+version_file = 'version.json'
+if os.path.exists(version_file):
+    try:
+        version = json.loads(open(version_file, 'r', encoding='utf8').read())
+    except:
+        with open(version_file, 'w', encoding='utf-8') as f:
+            json.dump(versions, f, ensure_ascii=False, indent=4)
+else:
+    with open(version_file, 'w', encoding='utf-8') as f:
+        json.dump(versions, f, ensure_ascii=False, indent=4)
+
+# 项目清单
 repos = '''
 信息收集|资产测绘采集|https://github.com/ExpLangcn/InfoSearchAll
 信息收集|资产测绘采集|https://github.com/xzajyjs/ThunderSearch
@@ -165,20 +178,12 @@ repos = '''
 
 
 '''
-
+# repos = '''
+# 漏洞发现&利用|半自动漏洞扫描|https://github.com/chaitin/xray
+# 漏洞发现&利用|半自动漏洞扫描|https://github.com/projectdiscovery/nuclei
+# '''
+# 处理项目清单格式
 data = {}
-# 读取历史
-data_file = 'data.json'
-if os.path.exists(data_file):
-    try:
-        data = json.loads(open(data_file, 'r', encoding='utf8').read())
-    except:
-        with open(data_file, 'w', encoding='utf-8') as f:
-            json.dump(data, f, ensure_ascii=False, indent=4)
-else:
-    with open(data_file, 'w', encoding='utf-8') as f:
-        json.dump(data, f, ensure_ascii=False, indent=4)
-
 for repo in repos.split('\n'):
     if '|' in repo:
         type_1, type_2, url = repo.split('|', 2)
@@ -186,12 +191,13 @@ for repo in repos.split('\n'):
         data[type_1].setdefault(type_2, {})
         data[type_1][type_2].setdefault(url, {})
 
-data_change = {}
 # 更新数据
 headers = {"Authorization": "token {}".format(os.getenv('GH_TOKEN'))}
+
 for type_1 in data:
     for type_2 in data[type_1]:
         for url in data[type_1][type_2]:
+            print(url)
             name = url[19:]
             # 项目描述
             try:
@@ -223,12 +229,14 @@ for type_1 in data:
                 date = time.strftime("%Y-%m-%d %H:%M:%S", time.strptime(
                     rj3['published_at'], "%Y-%m-%dT%H:%M:%SZ"))
                 release_version = rj3['name']
-                if data[type_1][type_2][url].get('release_version','') != release_version:
+                if versions.get(url, '') != release_version:
                     headers = {'Content-Type': 'application/json'}
-                    data = {"msgtype": "text", "text": {"content": "{}\n\n版本升级:{}-{}".format(url,data[type_1][type_2][url].get('release_version',''),release_version)},
-                            "at": {"atMobiles": [], "isAtAll": False}, }
-                    url = "https://oapi.dingtalk.com/robot/send?access_token={}".format(os.getenv('DINGTALK_TOKEN'))
-                    requests.post(url, json=data, headers=headers)
+                    _data = {"msgtype": "text", "text": {"content": "{}\n\n版本升级:{}-{}".format(url, versions.get(url, ''), release_version)},
+                             "at": {"atMobiles": [], "isAtAll": False}, }
+                    _url = "https://oapi.dingtalk.com/robot/send?access_token={}".format(
+                        os.getenv('DINGTALK_TOKEN'))
+                    requests.post(_url, json=_data, headers=headers)
+                    versions[url] = release_version
 
                 data[type_1][type_2][url]['release_version'] = release_version
                 data[type_1][type_2][url]['release_date'] = date
@@ -243,6 +251,7 @@ md = ''
 md += '## 近{}天release更新记录\n'.format(n)
 md += '| 类型| 项目名称 | 更新时间 | 版本 | 更新内容 |\n'
 md += '| :---- | :---- | :---- | :---- | :---- |\n'
+
 for type_1 in data:
     for type_2 in data[type_1]:
         for url in data[type_1][type_2]:
@@ -257,7 +266,7 @@ for type_1 in data:
                                                                   url, date, version, message.replace('\r\n', '<br>').replace('\n', '<br>'))
 
 
-md += '## 近{}天commit提交记录\n'.format(n)
+md += '## 近{}天commit提交记录\n'.format(7)
 md += '| 类型| 项目名称 | 提交时间 | 更新内容 |\n'
 md += '| :---- | :---- | :---- | :---- |\n'
 for type_1 in data:
@@ -282,11 +291,11 @@ for type_1 in data:
         for url in data[type_1][type_2]:
             author, name = url[19:].split('/', 1)
             md += '| [{}]({}) | {} | {} | {} | {} |\n'.format(name, url, author, data[type_1][type_2][url].get('commit_date',
-                                                                                                                ''), data[type_1][type_2][url].get('release_version', ''), data[type_1][type_2][url].get('description', '').replace('\r\n', '<br>').replace('\n', '<br>'))
+                                                                                                               ''), data[type_1][type_2][url].get('release_version', ''), data[type_1][type_2][url].get('description', '').replace('\r\n', '<br>').replace('\n', '<br>'))
 
 with open("README.md", 'w', encoding='utf8') as fd:
     fd.write(md)
 
-# 写入历史
-with open(data_file, 'w', encoding='utf-8') as f:
-    json.dump(data, f, ensure_ascii=False, indent=4)
+# 写入version历史
+with open(version_file, 'w', encoding='utf-8') as f:
+    json.dump(versions, f, ensure_ascii=False, indent=4)
