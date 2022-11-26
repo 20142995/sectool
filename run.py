@@ -127,6 +127,7 @@ repos = '''
 漏洞发现&利用|漏洞检测利用仓库|https://github.com/Threekiii/Awesome-Exploit
 
 内网渗透|密码提取|https://github.com/Potato-py/getIntrInfo
+内网渗透|密码提取|https://github.com/passer-W/FinalShell-Decoder
 
 相关资源|工具集成环境|https://github.com/makoto56/penetration-suite-toolkit
 
