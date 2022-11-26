@@ -167,10 +167,10 @@ repos = '''
 
 
 '''
-repos = '''
-漏洞发现&利用|半自动化漏洞利用|https://github.com/lz520520/railgun
-漏洞发现&利用|半自动漏洞扫描|https://github.com/projectdiscovery/nuclei
-'''
+# repos = '''
+# 漏洞发现&利用|半自动化漏洞利用|https://github.com/lz520520/railgun
+# 漏洞发现&利用|半自动漏洞扫描|https://github.com/projectdiscovery/nuclei
+# '''
 
 # 读取data历史
 data = {}
