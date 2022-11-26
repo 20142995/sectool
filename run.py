@@ -3,13 +3,11 @@
 
 from github_help import GithubClient
 import datetime
-import requests
 import time
 import os
 import json
 import sys
 sys.dont_write_bytecode = True
-requests.packages.urllib3.disable_warnings()
 
 
 # 项目清单
