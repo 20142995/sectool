@@ -1,25 +1,16 @@
 #!/usr/bin/env python3
 # -*- coding: UTF-8 -*-
 
+from github_help import GithubClient
+import datetime
+import requests
+import time
 import os
 import json
-import time
-import requests
-import datetime
+import sys
+sys.dont_write_bytecode = True
 requests.packages.urllib3.disable_warnings()
 
-# 读取version历史
-versions = {}
-version_file = 'version.json'
-if os.path.exists(version_file):
-    try:
-        version = json.loads(open(version_file, 'r', encoding='utf8').read())
-    except:
-        with open(version_file, 'w', encoding='utf-8') as f:
-            json.dump(versions, f, ensure_ascii=False, indent=4)
-else:
-    with open(version_file, 'w', encoding='utf-8') as f:
-        json.dump(versions, f, ensure_ascii=False, indent=4)
 
 # 项目清单
 repos = '''
@@ -85,7 +76,6 @@ repos = '''
 漏洞发现&利用|中间件&框架漏洞扫描|https://github.com/woodpecker-appstore/weblogic-infodetector
 漏洞发现&利用|中间件&框架漏洞利用|https://github.com/0nise/weblogic-framework
 漏洞发现&利用|中间件&框架漏洞利用|https://github.com/threedr3am/dubbo-exp
-漏洞发现&利用|中间件&框架漏洞利用|https://github.com/Accenture
 漏洞发现&利用|中间件&框架漏洞扫描|https://github.com/0x48piraj/Jiraffe
 漏洞发现&利用|中间件&框架漏洞利用|https://github.com/xwuyi/STS2G
 漏洞发现&利用|中间件&框架漏洞利用|https://github.com/HatBoy/Struts2-Scan
@@ -182,129 +172,106 @@ repos = '''
 # 漏洞发现&利用|半自动漏洞扫描|https://github.com/chaitin/xray
 # 漏洞发现&利用|半自动漏洞扫描|https://github.com/projectdiscovery/nuclei
 # '''
-# 处理项目清单格式
+
+# 读取data历史
 data = {}
+data_file = 'data.json'
+if os.path.exists(data_file):
+    try:
+        data = json.loads(open(data_file, 'r', encoding='utf8').read())
+    except:
+        with open(data_file, 'w', encoding='utf-8') as f:
+            json.dump(data, f, ensure_ascii=False, indent=4)
+else:
+    with open(data_file, 'w', encoding='utf-8') as f:
+        json.dump(data, f, ensure_ascii=False, indent=4)
+# 处理项目清单格式
 for repo in repos.split('\n'):
     if '|' in repo:
         type_1, type_2, url = repo.split('|', 2)
+        try:
+            url[19:].split('/', 1)
+        except:
+            print('repo error', url)
         data.setdefault(type_1, {})
         data[type_1].setdefault(type_2, {})
         data[type_1][type_2].setdefault(url, {})
 
 # 更新数据
-headers = {"Authorization": "token {}".format(os.getenv('GH_TOKEN'))}
-
+gc = GithubClient(os.getenv('GH_TOKEN'))
 for type_1 in data:
     for type_2 in data[type_1]:
         for url in data[type_1][type_2]:
-            print(url)
-            name = url[19:]
-            # 项目描述
+            if gc.limit > 0:
+                print('[{}] {}'.format(gc.limit, url))
+            else:
+                continue
+            author, repo = url[19:].split('/', 1)
+            item = data[type_1][type_2][url]
             try:
-                rj1 = requests.get('https://api.github.com/repos/{}'.format(name),
-                                   headers=headers, verify=False).json()
-                description = rj1['description']
-                if description is None:
-                    description = ''
-                data[type_1][type_2][url]['description'] = description
-                time.sleep(0.1)
-            except:
-                pass
-            # 最近提交
-            try:
-                rj2 = requests.get('https://api.github.com/repos/{}/commits'.format(name),
-                                   headers=headers, verify=False).json()
-                for commit in rj2[:1]:
-                    date = time.strftime("%Y-%m-%d %H:%M:%S", time.strptime(
-                        commit['commit']['committer']['date'], "%Y-%m-%dT%H:%M:%SZ"))
-                    data[type_1][type_2][url]['commit_date'] = date
-                    data[type_1][type_2][url]['commit_message'] = commit['commit']['message']
-                time.sleep(0.1)
-            except:
-                pass
-            # release版本
-            try:
-                rj3 = requests.get('https://api.github.com/repos/{}/releases/latest'.format(
-                    name), headers=headers, verify=False).json()
-                date = time.strftime("%Y-%m-%d %H:%M:%S", time.strptime(
-                    rj3['published_at'], "%Y-%m-%dT%H:%M:%SZ"))
-                release_version = rj3['name']
-                if versions.get(url, '') != release_version:
-                    headers = {'Content-Type': 'application/json'}
-                    _data = {"msgtype": "text", "text": {"content": "{}\n\n版本升级:{}-{}".format(url, versions.get(url, ''), release_version)},
-                             "at": {"atMobiles": [], "isAtAll": False}, }
-                    _url = "https://oapi.dingtalk.com/robot/send?access_token={}".format(
-                        os.getenv('DINGTALK_TOKEN'))
-                    requests.post(_url, json=_data, headers=headers)
-                    versions[url] = release_version
-
-                data[type_1][type_2][url]['release_version'] = release_version
-                data[type_1][type_2][url]['release_date'] = date
-                data[type_1][type_2][url]['release_message'] = rj3['body']
-                time.sleep(0.1)
+                rs1 = gc.repos(author, repo)
+                item['created_at'] = time.strftime("%Y-%m-%d %H:%M:%S", time.strptime(rs1.get(
+                    'created_at', ''), "%Y-%m-%dT%H:%M:%SZ")) if rs1.get('created_at') else ''
+                item['description'] = rs1.get('description', '')
+                rs2 = gc.repos_commits(author, repo)
+                item['commit_date'] = time.strftime("%Y-%m-%d %H:%M:%S", time.strptime(
+                    rs2[0]['commit']['committer']['date'], "%Y-%m-%dT%H:%M:%SZ")) if rs2[0]['commit']['committer']['date'] else ''
+                item['commit_message'] = rs2[0]['commit']['message']
+                rs3 = gc.repos_releases_latest(author, repo)
+                item['release_tag'] = rs3['tag_name']
+                item['release_date'] = time.strftime("%Y-%m-%d %H:%M:%S", time.strptime(
+                    rs3['published_at'], "%Y-%m-%dT%H:%M:%SZ")) if rs3.get('published_at') else ''
+                item['release_message'] = rs3['body']
             except:
                 pass
 
 # 更新README.md
 n = 7
-md = ''
-md += '## 近{}天release更新记录\n'.format(n)
-md += '| 类型| 项目名称 | 更新时间 | 版本 | 更新内容 |\n'
-md += '| :---- | :---- | :---- | :---- | :---- |\n'
+
+release_md = '''
+## 近{}天release更新记录
+| 类型| 项目名称 | 更新时间 | 版本 | 更新内容 |
+| :---- | :---- | :---- | :---- | :---- |
+'''.format(n)
+
+commit_md = '''
+## 近{}天commit提交记录
+| 类型| 项目名称 | 提交时间 | 更新内容 |
+| :---- | :---- | :---- | :---- |
+'''.format(n)
+
+total_md = '## 所有项目\n'
 
 for type_1 in data:
+    total_md += '### {}\n'.format(type_1)
     for type_2 in data[type_1]:
+        total_md += '#### {}\n'.format(type_2)
+        total_md += '| 项目名称 | 作者 | 创建时间| 最近提交时间 | 版本 | 项目描述 |\n'
+        total_md += '| :---- | :---- | :---- | :---- | :---- | :---- |\n'
         for url in data[type_1][type_2]:
-            try:
-                author, name = url[19:].split('/', 1)
-            except:
+            print('to_md', url)
+            item = data[type_1][type_2][url]
+            author, repo = url[19:].split('/', 1)
+            release_date = item.get('release_date')
+            if not release_date:
                 continue
-            date = data[type_1][type_2][url].get('release_date')
-            if not date:
+            if time.mktime(time.strptime(release_date, "%Y-%m-%d %H:%M:%S")) > time.mktime((datetime.datetime.now() - datetime.timedelta(days=n)).timetuple()):
+                release_md += '| {} | [{}]({}) | {} | {} | {} |\n'.format(
+                    type_2, repo, url, release_date, item['release_tag'],
+                    item['release_message'].replace('\r\n', '<br>').replace('\n', '<br>'))
+            commit_date = item.get('commit_date')
+            if not commit_date:
                 continue
-            version = data[type_1][type_2][url].get('release_version')
-            message = data[type_1][type_2][url].get('release_message')
-            if time.mktime(time.strptime(date, "%Y-%m-%d %H:%M:%S")) > time.mktime((datetime.datetime.now() - datetime.timedelta(days=n)).timetuple()):
-                md += '| {} | [{}]({}) | {} | {} | {} |\n'.format(type_2, name,
-                                                                  url, date, version, message.replace('\r\n', '<br>').replace('\n', '<br>'))
-
-
-md += '## 近{}天commit提交记录\n'.format(7)
-md += '| 类型| 项目名称 | 提交时间 | 更新内容 |\n'
-md += '| :---- | :---- | :---- | :---- |\n'
-for type_1 in data:
-    for type_2 in data[type_1]:
-        for url in data[type_1][type_2]:
-            try:
-                author, name = url[19:].split('/', 1)
-            except:
-                continue
-            date = data[type_1][type_2][url].get('commit_date')
-            if not date:
-                continue
-            message = data[type_1][type_2][url].get('commit_message')
-            if time.mktime(time.strptime(date, "%Y-%m-%d %H:%M:%S")) > time.mktime((datetime.datetime.now() - datetime.timedelta(days=n)).timetuple()):
-                md += '| {} | [{}]({}) | {} | {} |\n'.format(type_2,
-                                                             name, url, date, message.replace('\r\n', '<br>').replace('\n', '<br>'))
-
-md += '## 所有项目\n'
-for type_1 in data:
-    md += '### {}\n'.format(type_1)
-    for type_2 in data[type_1]:
-        md += '#### {}\n'.format(type_2)
-        md += '| 项目名称 | 作者 | 最近提交时间 | 版本 | 项目描述 |\n'
-        md += '| :---- | :---- | :---- | :---- | :---- |\n'
-        for url in data[type_1][type_2]:
-            try:
-                author, name = url[19:].split('/', 1)
-            except:
-                continue
-            md += '| [{}]({}) | {} | {} | {} | {} |\n'.format(name, url, author, data[type_1][type_2][url].get('commit_date',
-                                                                                                               ''), data[type_1][type_2][url].get('release_version', ''), data[type_1][type_2][url].get('description', '').replace('\r\n', '<br>').replace('\n', '<br>'))
+            if time.mktime(time.strptime(commit_date, "%Y-%m-%d %H:%M:%S")) > time.mktime((datetime.datetime.now() - datetime.timedelta(days=n)).timetuple()):
+                commit_md += '| {} | [{}]({}) | {} | {} |\n'.format(
+                    type_2, repo, url, commit_date, item['commit_message'].replace('\r\n', '<br>').replace('\n', '<br>'))
+            total_md += '| [{}]({}) | {} | {} | {} | {} | {} |\n'.format(
+                repo, url, author, item['created_at'], item['commit_date'],
+                item['release_tag'], item['description'].replace('\r\n', '<br>').replace('\n', '<br>'))
 
 with open("README.md", 'w', encoding='utf8') as fd:
-    fd.write(md)
+    fd.write(release_md + commit_md + total_md)
 
-# 写入version历史
-with open(version_file, 'w', encoding='utf-8') as f:
-    json.dump(versions, f, ensure_ascii=False, indent=4)
+# 写入data历史
+with open(data_file, 'w', encoding='utf-8') as f:
+    json.dump(data, f, ensure_ascii=False, indent=4)
