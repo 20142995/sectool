@@ -19,6 +19,17 @@
                 "release_date": "2022-11-07 21:04:01",
                 "release_message": "- Fixed gomod file - https://github.com/projectdiscovery/nuclei/commit/de8571e726fad9b7c5bb213b39b398315e7034b5"
             }
+        },
+        "半自动化漏洞利用": {
+            "https://github.com/lz520520/railgun": {
+                "created_at": "2020-08-31 00:52:43",
+                "description": "",
+                "commit_date": "2022-08-22 05:20:08",
+                "commit_message": "Merge pull request #41 from lz520520/branch1\n\nupdate: README.md",
+                "release_tag": "v1.4.6",
+                "release_date": "2022-08-22 05:14:50",
+                "release_message": "1. 漏洞利用\r\n  a. 优化插件刷新功能\r\n  b. shiro利用优化\r\n2. 编码模块重构\r\n  a. 分页可编排功能基本完成\r\n  b. 完成从文件读写操作\r\n  c. 编码使用说明（UI功能已完成，说明也基本完善）\r\n  d. 新编码\r\n    [X] zip编码\r\n    [X] language编码\r\n  [X] 优化编码禁用效果\r\n\r\n\r\n解压密码railgun"
+            }
         }
     }
 }

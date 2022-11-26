@@ -7,6 +7,7 @@ import time
 import os
 import json
 import sys
+import traceback
 sys.dont_write_bytecode = True
 
 
@@ -166,10 +167,10 @@ repos = '''
 
 
 '''
-# repos = '''
-# 漏洞发现&利用|半自动漏洞扫描|https://github.com/chaitin/xray
-# 漏洞发现&利用|半自动漏洞扫描|https://github.com/projectdiscovery/nuclei
-# '''
+repos = '''
+漏洞发现&利用|半自动化漏洞利用|https://github.com/lz520520/railgun
+漏洞发现&利用|半自动漏洞扫描|https://github.com/projectdiscovery/nuclei
+'''
 
 # 读取data历史
 data = {}
@@ -208,20 +209,23 @@ for type_1 in data:
             item = data[type_1][type_2][url]
             try:
                 rs1 = gc.repos(author, repo)
-                item['created_at'] = time.strftime("%Y-%m-%d %H:%M:%S", time.strptime(rs1.get(
-                    'created_at', ''), "%Y-%m-%dT%H:%M:%SZ")) if rs1.get('created_at') else ''
-                item['description'] = rs1.get('description', '')
+                item['created_at'] = time.strftime("%Y-%m-%d %H:%M:%S", time.strptime(
+                    rs1['created_at'], "%Y-%m-%dT%H:%M:%SZ")) if rs1.get('created_at') else ''
+                item['description'] = rs1['description'] if rs1.get(
+                    'description') else ''
                 rs2 = gc.repos_commits(author, repo)
                 item['commit_date'] = time.strftime("%Y-%m-%d %H:%M:%S", time.strptime(
                     rs2[0]['commit']['committer']['date'], "%Y-%m-%dT%H:%M:%SZ")) if rs2[0]['commit']['committer']['date'] else ''
-                item['commit_message'] = rs2[0]['commit']['message']
+                item['commit_message'] = rs2[0]['commit']['message'] if rs2[0]['commit']['message'] else ''
                 rs3 = gc.repos_releases_latest(author, repo)
-                item['release_tag'] = rs3['tag_name']
+                item['release_tag'] = rs3['tag_name'] if rs3.get(
+                    'tag_name') else ''
                 item['release_date'] = time.strftime("%Y-%m-%d %H:%M:%S", time.strptime(
                     rs3['published_at'], "%Y-%m-%dT%H:%M:%SZ")) if rs3.get('published_at') else ''
-                item['release_message'] = rs3['body']
+                item['release_message'] = rs3['body'] if rs3.get(
+                    'body') else ''
             except:
-                pass
+                traceback.print_exc()
 
 # 更新README.md
 n = 7
@@ -248,24 +252,27 @@ for type_1 in data:
         total_md += '| :---- | :---- | :---- | :---- | :---- | :---- |\n'
         for url in data[type_1][type_2]:
             print('to_md', url)
-            item = data[type_1][type_2][url]
-            author, repo = url[19:].split('/', 1)
-            release_date = item.get('release_date')
-            if not release_date:
-                continue
-            if time.mktime(time.strptime(release_date, "%Y-%m-%d %H:%M:%S")) > time.mktime((datetime.datetime.now() - datetime.timedelta(days=n)).timetuple()):
-                release_md += '| {} | [{}]({}) | {} | {} | {} |\n'.format(
-                    type_2, repo, url, release_date, item['release_tag'],
-                    item['release_message'].replace('\r\n', '<br>').replace('\n', '<br>'))
-            commit_date = item.get('commit_date')
-            if not commit_date:
-                continue
-            if time.mktime(time.strptime(commit_date, "%Y-%m-%d %H:%M:%S")) > time.mktime((datetime.datetime.now() - datetime.timedelta(days=n)).timetuple()):
-                commit_md += '| {} | [{}]({}) | {} | {} |\n'.format(
-                    type_2, repo, url, commit_date, item['commit_message'].replace('\r\n', '<br>').replace('\n', '<br>'))
-            total_md += '| [{}]({}) | {} | {} | {} | {} | {} |\n'.format(
-                repo, url, author, item['created_at'], item['commit_date'],
-                item['release_tag'], item['description'].replace('\r\n', '<br>').replace('\n', '<br>'))
+            try:
+                item = data[type_1][type_2][url]
+                author, repo = url[19:].split('/', 1)
+                release_date = item.get('release_date')
+                if not release_date:
+                    continue
+                if time.mktime(time.strptime(release_date, "%Y-%m-%d %H:%M:%S")) > time.mktime((datetime.datetime.now() - datetime.timedelta(days=n)).timetuple()):
+                    release_md += '| {} | [{}]({}) | {} | {} | {} |\n'.format(
+                        type_2, repo, url, release_date, item['release_tag'],
+                        item['release_message'].replace('\r\n', '<br>').replace('\n', '<br>'))
+                commit_date = item.get('commit_date')
+                if not commit_date:
+                    continue
+                if time.mktime(time.strptime(commit_date, "%Y-%m-%d %H:%M:%S")) > time.mktime((datetime.datetime.now() - datetime.timedelta(days=n)).timetuple()):
+                    commit_md += '| {} | [{}]({}) | {} | {} |\n'.format(
+                        type_2, repo, url, commit_date, item['commit_message'].replace('\r\n', '<br>').replace('\n', '<br>'))
+                total_md += '| [{}]({}) | {} | {} | {} | {} | {} |\n'.format(
+                    repo, url, author, item['created_at'], item['commit_date'],
+                    item['release_tag'], item['description'].replace('\r\n', '<br>').replace('\n', '<br>'))
+            except:
+                traceback.print_exc()
 
 with open("README.md", 'w', encoding='utf8') as fd:
     fd.write(release_md + commit_md + total_md)
