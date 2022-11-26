@@ -4,7 +4,7 @@
 ## 近7天commit提交记录
 | 类型| 项目名称 | 提交时间 | 更新内容 |
 | :---- | :---- | :---- | :---- |
-| 子域名收集 | [OneForAll](https://github.com/shmilylty/OneForAll) | 2022-11-22 07:52:18 | fixed #176 |
+| 子域名收集 | [OneForAll](https://github.com/shmilylty/OneForAll) | 2022-11-26 02:32:16 | 解决#286 |
 | 目录扫描 | [dirsearch](https://github.com/maurosoria/dirsearch) | 2022-11-23 13:31:50 | Merge pull request #1248 from drego85/patch-12<br><br>Useful Files and Directory for the SIMOGEO FileManager exploit |
 ## 所有项目
 ### 信息收集
@@ -18,7 +18,7 @@
 | :---- | :---- | :---- | :---- | :---- |
 | [subfinder](https://github.com/projectdiscovery/subfinder) | projectdiscovery | 2022-11-17 14:37:23 | v2.5.5 | Subfinder is a subdomain discovery tool that discovers valid subdomains for websites. Designed as a passive framework to be useful for bug bounties and safe for penetration testing. |
 | [ksubdomain](https://github.com/knownsec/ksubdomain) | knownsec | 2022-02-07 06:18:30 | v0.7 | 无状态子域名爆破工具 |
-| [OneForAll](https://github.com/shmilylty/OneForAll) | shmilylty | 2022-11-22 07:52:18 | OneForAll v0.4.5 | OneForAll是一款功能强大的子域收集工具 |
+| [OneForAll](https://github.com/shmilylty/OneForAll) | shmilylty | 2022-11-26 02:32:16 | OneForAll v0.4.5 | OneForAll是一款功能强大的子域收集工具 |
 | [LangSrcCurise](https://github.com/LangziFun/LangSrcCurise) | LangziFun | 2021-01-14 04:32:06 |  | SRC子域名资产监控 |
 | [github-subdomains](https://github.com/gwen001/github-subdomains) | gwen001 | 2022-11-17 20:37:34 |  | Find subdomains on GitHub. |
 | [LayerDomainFinder](https://github.com/euphrat1ca/LayerDomainFinder) | euphrat1ca | 2019-07-17 07:46:03 | Layer5.0 SAINTSEC | Layer子域名挖掘机 |
@@ -43,7 +43,7 @@
 #### 端口扫描
 | 项目名称 | 作者 | 最近提交时间 | 版本 | 项目描述 |
 | :---- | :---- | :---- | :---- | :---- |
-| [TXPortMap](https://github.com/4dogs-cn/TXPortMap) | 4dogs-cn | 2021-12-10 11:35:55 |  | Port Scanner & Banner Identify From TianXiang |
+| [TXPortMap](https://github.com/4dogs-cn/TXPortMap) | 4dogs-cn | 2021-12-10 11:35:55 | 项目迁移 | Port Scanner & Banner Identify From TianXiang |
 | [naabu](https://github.com/projectdiscovery/naabu) | projectdiscovery |  |  |  |
 ### 漏洞发现&利用
 #### 半自动化漏洞利用
