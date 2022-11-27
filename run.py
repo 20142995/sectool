@@ -23,7 +23,8 @@ with open('repos.md','r',encoding='utf8') as fr:
                 type_1, type_2, url = repo.split('|')[1:4]
                 url[19:].split('/', 1)
             except:
-                print('repo error', repo)
+                print('[repo error]', repo)
+                continue
             data.setdefault(type_1, {})
             data[type_1].setdefault(type_2, {})
             data[type_1][type_2].setdefault(url, {})
