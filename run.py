@@ -149,7 +149,7 @@ for type_1 in data:
                 traceback.print_exc()
 
 # 更新README.md
-n = 7
+n = 100
 
 release_md = '''
 ## 近{}天release更新记录
@@ -186,11 +186,11 @@ for type_1 in data:
                 if release_date:
                     if time.mktime(time.strptime(release_date, "%Y-%m-%d %H:%M:%S")) > time.mktime((datetime.datetime.now() - datetime.timedelta(days=n)).timetuple()):
                         release_md += '| {} | [{}]({}) | {} | {} | {} |\n'.format(
-                            type_2, repo, url, release_date, release_tag, release_message.replace('\r\n', '<br>').replace('\n', '<br>'))
+                            type_2, repo, url, release_date, release_tag, '<br>'.join(cut(release_message.replace('\r\n', ' ').replace('\n', ' '),25)))
                 if commit_date:
                     if time.mktime(time.strptime(commit_date, "%Y-%m-%d %H:%M:%S")) > time.mktime((datetime.datetime.now() - datetime.timedelta(days=n)).timetuple()):
                         commit_md += '| {} | [{}]({}) | {} | {} |\n'.format(
-                            type_2, repo, url, commit_date, commit_message.replace('\r\n', '<br>').replace('\n', '<br>'))
+                            type_2, repo, url, commit_date, '<br>'.join(cut(commit_message.replace('\r\n', ' ').replace('\n', ' '),25)))
                 total_md += '| [{}]({}) {} | {} | {} |\n'.format(repo, url, release_tag,
                                                                  commit_date, '<br>'.join(cut(description.replace('\r\n', ' ').replace('\n', ' '),25)))
             except:
