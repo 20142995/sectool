@@ -172,7 +172,7 @@ def parse(x, y): return "<br>".join(split(re.sub('\s+', '', x), y))
 for type_1 in data:
     total_md += f'### {type_1}\n'
     for type_2 in data[type_1]:
-        total_md += f'#### {type_2}\n| 项目名称/版本| 提交时间 | 项目描述 |\n| :---- | :---- | :---- |\n'
+        total_md += f'#### {type_2}\n| 项目名称 | 版本 | 项目描述 |\n| :---- | :---- | :---- |\n'
         for url in data[type_1][type_2]:
             print(f'[to_md] {url}')
             try:
@@ -191,7 +191,7 @@ for type_1 in data:
                 if commit_date:
                     if time.mktime(time.strptime(commit_date, "%Y-%m-%d %H:%M:%S")) > time.mktime((datetime.datetime.now() - datetime.timedelta(days=n)).timetuple()):
                         commit_md += f'| [{repo}]({url}) | {commit_date} | {commit_message} |\n'
-                total_md += f'| [{repo}]({url}) {release_tag} | {commit_date} | {description} |\n'
+                total_md += f'| [{repo}]({url}) | {release_tag} | {description} |\n'
             except:
                 print(f'[fail 2] {url}')
                 traceback.print_exc()
