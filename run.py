@@ -179,12 +179,12 @@ for type_1 in data:
                 item = data[type_1][type_2][url]
                 author, repo = url[19:].split('/', 1)
                 created_at = item.get('created_at', '')
-                description = parse(item.get('description', ''), 25)
+                description = parse(item.get('description', ''), 20)
                 release_tag = item.get('release_tag', '')
                 release_date = item.get('release_date', '')
                 release_message = parse(item.get('release_message', ''), 20)
                 commit_date = item.get('commit_date', '')
-                commit_message = parse(item.get('commit_message', ''), 20)
+                commit_message = parse(item.get('commit_message', ''), 25)
                 if release_date:
                     if time.mktime(time.strptime(release_date, "%Y-%m-%d %H:%M:%S")) > time.mktime((datetime.datetime.now() - datetime.timedelta(days=n)).timetuple()):
                         release_md += f'| [{repo}]({url}) | {release_date} | {release_tag} | {release_message} |\n'
