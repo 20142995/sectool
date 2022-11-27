@@ -196,7 +196,7 @@ for type_1 in data:
                 traceback.print_exc()
 
 with open("README.md", 'w', encoding='utf8') as fd:
-    fd.write(release_md + commit_md + total_md)
+    fd.write("# 更新时间 {}\n".format(time.strftime("%Y-%m-%d %H:%M:%S"))+release_md + commit_md + total_md)
 
 # 写入data
 with open(data_file, 'w', encoding='utf-8') as f:
