@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: UTF-8 -*-
 
+from github_help import GithubClient
 import datetime
 import time
 import os
@@ -8,7 +9,6 @@ import json
 import sys
 import traceback
 sys.dont_write_bytecode = True
-from github_help import GithubClient
 
 
 # 项目清单
@@ -224,7 +224,7 @@ for type_1 in data:
                     rs3['published_at'], "%Y-%m-%dT%H:%M:%SZ")) if rs3.get('published_at') else ''
                 item['release_message'] = rs3.get('body')
             except:
-                print('[fail 1]',url)
+                print('[fail 1]', url)
                 traceback.print_exc()
 
 # 更新README.md
@@ -256,27 +256,24 @@ for type_1 in data:
                 item = data[type_1][type_2][url]
                 author, repo = url[19:].split('/', 1)
                 created_at = item.get('created_at')
-                description = item.get('description','')
+                description = item.get('description', '')
                 release_tag = item.get('release_tag')
                 release_date = item.get('release_date')
-                release_message = item.get('release_message','')
+                release_message = item.get('release_message', '')
                 commit_date = item.get('commit_date')
-                commit_message = item.get('commit_message','')
+                commit_message = item.get('commit_message', '')
                 if release_date:
                     if time.mktime(time.strptime(release_date, "%Y-%m-%d %H:%M:%S")) > time.mktime((datetime.datetime.now() - datetime.timedelta(days=n)).timetuple()):
                         release_md += '| {} | [{}]({}) | {} | {} | {} |\n'.format(
-                            type_2, repo, url, release_date, release_tag,
-                            release_message.replace('\r\n', '<br>').replace('\n', '<br>'))
-                
+                            type_2, repo, url, release_date, release_tag, release_message.replace('\r\n', '<br>').replace('\n', '<br>'))
                 if commit_date:
                     if time.mktime(time.strptime(commit_date, "%Y-%m-%d %H:%M:%S")) > time.mktime((datetime.datetime.now() - datetime.timedelta(days=n)).timetuple()):
                         commit_md += '| {} | [{}]({}) | {} | {} |\n'.format(
                             type_2, repo, url, commit_date, commit_message.replace('\r\n', '<br>').replace('\n', '<br>'))
-                total_md += '| [{}]({}) | {} | {} | {} | {} | {} |\n'.format(
-                    repo, url, author, created_at, commit_date,
-                    release_tag, description.replace('\r\n', '<br>').replace('\n', '<br>'))
+                total_md += '| [{}]({}) | {} | {} | {} | {} | {} |\n'.format(repo, url, author, created_at,
+                                                                             commit_date, release_tag, description.replace('\r\n', '<br>').replace('\n', '<br>'))
             except:
-                print('[fail 2]',url)
+                print('[fail 2]', url)
                 traceback.print_exc()
 
 with open("README.md", 'w', encoding='utf8') as fd:
