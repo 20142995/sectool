@@ -10,19 +10,11 @@ import traceback
 sys.dont_write_bytecode = True
 from github_help import GithubClient
 
-# 读取data历史
+# 保存数据
 data = {}
 data_file = 'data.json'
-if os.path.exists(data_file):
-    try:
-        data = json.loads(open(data_file, 'r', encoding='utf8').read())
-    except:
-        with open(data_file, 'w', encoding='utf-8') as f:
-            json.dump(data, f, ensure_ascii=False, indent=4)
-else:
-    with open(data_file, 'w', encoding='utf-8') as f:
-        json.dump(data, f, ensure_ascii=False, indent=4)
-# # 项目清单
+
+# 项目清单
 with open('repos.md','r',encoding='utf8') as fr:
     repos = fr.readlines()
     for repo in repos[1:]:
