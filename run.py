@@ -18,7 +18,7 @@ class GithubClient:
     def __init__(self, token):
         self.url = 'https://api.github.com'
         self.headers = {
-            'Authorization': 'Bearer {}'.format(token),
+            'Authorization': f'Bearer {token}',
             'Connection': 'close',
             'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.119 Safari/537.36'
         }
@@ -56,7 +56,7 @@ class GithubClient:
     def repos(self, author, repo):
         '''项目信息'''
         try:
-            _, _, rs = self.connect("GET", '/repos/{}/{}'.format(author, repo))
+            _, _, rs = self.connect("GET", f'/repos/{author}/{repo}')
             return rs
         except:
             return {}
@@ -65,7 +65,7 @@ class GithubClient:
         '''项目commit信息'''
         try:
             _, _, rs = self.connect(
-                "GET", '/repos/{}/{}/commits'.format(author, repo))
+                "GET", f'/repos/{author}/{repo}/commits')
             if isinstance(rs, dict):
                 if rs.get('message', '') == 'Moved Permanently' and 'url' in rs:
                     _, _, rs1 = self.connect("GET", rs['url'][18:])
@@ -81,7 +81,7 @@ class GithubClient:
         '''项目最新release'''
         try:
             _, _, rs = self.connect(
-                "GET", '/repos/{}/{}/releases/latest'.format(author, repo))
+                "GET", f'/repos/{author}/{repo}/releases/latest')
             return rs
         except:
             return {}
@@ -94,8 +94,6 @@ class GithubClient:
         except:
             pass
 
-def cut(obj, sec):
-    return 
 
 # 保存数据
 data = {}
@@ -109,10 +107,10 @@ with open('repos.md', 'r', encoding='utf8') as fr:
             try:
                 type_1, type_2, url = repo.split('|')[1:4]
             except:
-                print('[repo error]', repo)
+                print(f'[repo error] {repo}')
                 continue
             if len(url[19:].split('/', 1)) != 2:
-                print('[url error]', url)
+                print(f'[url error] {url}')
                 continue
             data.setdefault(type_1, {})
             data[type_1].setdefault(type_2, {})
@@ -125,7 +123,7 @@ for type_1 in data:
     for type_2 in data[type_1]:
         for url in data[type_1][type_2]:
             if gc.limit > 0:
-                print('[{}] {}'.format(gc.limit, url))
+                print(f'[{gc.limit}] {url}')
             else:
                 continue
             author, repo = url[19:].split('/', 1)
@@ -152,52 +150,55 @@ for type_1 in data:
 # 更新README.md
 n = 1000
 
-release_md = '''
-## 近{}天release更新记录
-| 类型| 项目名称 | 更新时间 | 版本 | 更新内容 |
-| :---- | :---- | :---- | :---- | :---- |
-'''.format(n)
-
-commit_md = '''
-## 近{}天commit提交记录
-| 类型| 项目名称 | 提交时间 | 更新内容 |
+release_md = f'''
+## 近{n}天release更新记录
+| 项目名称 | 更新时间 | 版本 | 更新内容 |
 | :---- | :---- | :---- | :---- |
-'''.format(n)
+'''
+
+commit_md = f'''
+## 近{n}天commit提交记录
+| 项目名称 | 提交时间 | 更新内容 |
+| :---- | :---- | :---- |
+'''
 
 total_md = '## 所有项目\n'
-split = lambda x,y:[x[i:i+y] for i in range(0,len(x),y)]
-parse = lambda x,y:"<br>".join(split(re.sub('\s{2,100}',' ',x),y))
+def split(x, y): return [x[i:i+y] for i in range(0, len(x), y)]
+
+
+def parse(x, y): return "<br>".join(split(re.sub('\s{2,100}', ' ', x), y))
+
+
 for type_1 in data:
-    total_md += '### {}\n'.format(type_1)
+    total_md += f'### {type_1}\n'
     for type_2 in data[type_1]:
-        total_md += '#### {}\n'.format(type_2)
-        total_md += '| 项目名称/版本| 提交时间 | 项目描述 |\n'
-        total_md += '| :---- | :---- | :---- |\n'
+        total_md += f'#### {type_2}\n| 项目名称/版本| 提交时间 | 项目描述 |\n| :---- | :---- | :---- |\n'
         for url in data[type_1][type_2]:
-            print('to_md', url)
+            print(f'[to_md] {url}')
             try:
                 item = data[type_1][type_2][url]
                 author, repo = url[19:].split('/', 1)
                 created_at = item.get('created_at', '')
-                description = parse(item.get('description', ''),25)
+                description = parse(item.get('description', ''), 25)
                 release_tag = item.get('release_tag', '')
                 release_date = item.get('release_date', '')
-                release_message = parse(item.get('release_message', ''),25)
+                release_message = parse(item.get('release_message', ''), 25)
                 commit_date = item.get('commit_date', '')
-                commit_message = parse(item.get('commit_message', ''),25)
+                commit_message = parse(item.get('commit_message', ''), 25)
                 if release_date:
                     if time.mktime(time.strptime(release_date, "%Y-%m-%d %H:%M:%S")) > time.mktime((datetime.datetime.now() - datetime.timedelta(days=n)).timetuple()):
-                        release_md += '| {} | [{}]({}) | {} | {} | {} |\n'.format(type_2, repo, url, release_date, release_tag, release_message)
+                        release_md += f'| [{repo}]({url}) | {release_date} | {release_tag} | {release_message} |\n'
                 if commit_date:
                     if time.mktime(time.strptime(commit_date, "%Y-%m-%d %H:%M:%S")) > time.mktime((datetime.datetime.now() - datetime.timedelta(days=n)).timetuple()):
-                        commit_md += '| {} | [{}]({}) | {} | {} |\n'.format(type_2, repo, url, commit_date, commit_message)
-                total_md += '| [{}]({}) {} | {} | {} |\n'.format(repo, url, release_tag,commit_date, description)
+                        commit_md += f'| [{repo}]({url}) | {commit_date} | {commit_message} |\n'
+                total_md += f'| [{repo}]({url}) {release_tag} | {commit_date} | {description} |\n'
             except:
-                print('[fail 2]', url)
+                print(f'[fail 2] {url}')
                 traceback.print_exc()
 
 with open("README.md", 'w', encoding='utf8') as fd:
-    fd.write("# 更新时间 {}\n".format(time.strftime("%Y-%m-%d %H:%M:%S"))+release_md + commit_md + total_md)
+    fd.write("# 更新于 {}\n".format(time.strftime("%Y-%m-%d %H:%M:%S")) +
+             release_md + commit_md + total_md)
 
 # 写入data
 with open(data_file, 'w', encoding='utf-8') as f:
