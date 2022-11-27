@@ -166,7 +166,7 @@ total_md = '## 所有项目\n'
 def split(x, y): return [x[i:i+y] for i in range(0, len(x), y)]
 
 
-def parse(x, y): return "<br>".join(split(re.sub('\s{2,100}', ' ', x), y))
+def parse(x, y): return "<br>".join(split(re.sub('\s+', '', x), y))
 
 
 for type_1 in data:

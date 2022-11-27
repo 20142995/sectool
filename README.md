@@ -1,14 +1,14 @@
-# 更新于 2022-11-27 19:30:41
+# 更新于 2022-11-27 19:31:23
 
 ## 近1000天release更新记录
 | 项目名称 | 更新时间 | 版本 | 更新内容 |
 | :---- | :---- | :---- | :---- |
-| [InfoSearchAll](https://github.com/ExpLangcn/InfoSearchAll) | 2022-06-16 08:39:08 | V1.2 | **2022.6.16** - 多线程查<br>询 - 修复卡顿问题 #1 - 统一语法<br>支持 #2 - 多语法组合查询支持 #2<br> - JDK8适配 #6 **注：由于三<br>个平台的部分语法不同，所以无法统一查询，<br>例如你可以使用FOFA的语法进行查询，但<br>是你使用了Quake没有的语法那么就不会<br>显示Quake的结果，其他平台同理，程序<br>默认使用FOFA语法，你在搜索框输入FO<br>FA语法，程序会转换成其他平台的语法进行<br>联合查询，当然你也可以使用其他平台语法。<br>** |
+| [InfoSearchAll](https://github.com/ExpLangcn/InfoSearchAll) | 2022-06-16 08:39:08 | V1.2 | **2022.6.16**-多线程查询-<br>修复卡顿问题#1-统一语法支持#2-多语<br>法组合查询支持#2-JDK8适配#6**<br>注：由于三个平台的部分语法不同，所以无法<br>统一查询，例如你可以使用FOFA的语法进<br>行查询，但是你使用了Quake没有的语法<br>那么就不会显示Quake的结果，其他平台<br>同理，程序默认使用FOFA语法，你在搜索<br>框输入FOFA语法，程序会转换成其他平台<br>的语法进行联合查询，当然你也可以使用其他<br>平台语法。** |
 
 ## 近1000天commit提交记录
 | 项目名称 | 提交时间 | 更新内容 |
 | :---- | :---- | :---- |
-| [InfoSearchAll](https://github.com/ExpLangcn/InfoSearchAll) | 2022-10-26 08:28:16 | Update README.md |
+| [InfoSearchAll](https://github.com/ExpLangcn/InfoSearchAll) | 2022-10-26 08:28:16 | UpdateREADME.md |
 ## 所有项目
 ### 信息收集
 #### 资产测绘采集
