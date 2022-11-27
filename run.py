@@ -100,13 +100,13 @@ data = {}
 data_file = 'data.json'
 if os.path.exists(data_file):
     try:
-        data = json.loads(open(data_file,'r',encoding='utf8').read())
+        data = json.loads(open(data_file, 'r', encoding='utf8').read())
     except:
-        with open(data_file, 'w',encoding='utf-8') as f:
-            json.dump(data, f,ensure_ascii=False,indent = 4)
+        with open(data_file, 'w', encoding='utf-8') as f:
+            json.dump(data, f, ensure_ascii=False, indent=4)
 else:
-    with open(data_file, 'w',encoding='utf-8') as f:
-        json.dump(data, f,ensure_ascii=False,indent = 4)
+    with open(data_file, 'w', encoding='utf-8') as f:
+        json.dump(data, f, ensure_ascii=False, indent=4)
 # 项目清单
 with open('repos.md', 'r', encoding='utf8') as fr:
     repos = fr.readlines()
@@ -172,8 +172,10 @@ commit_md = f'''
 
 total_md = '## 所有项目\n'
 
+
 def chr_len2(s):
     return int((len(s.encode('utf-8')) - len(s))/2 + len(s))
+
 
 def parse(x, y):
     s = ''
@@ -185,6 +187,7 @@ def parse(x, y):
             n = 0
         s += i
     return s
+
 
 releases = []
 commits = []
@@ -198,28 +201,32 @@ for type_1 in data:
             try:
                 item = data[type_1][type_2][url]
                 author, repo = url[19:].split('/', 1)
-                repo = parse(repo,20)
-                created_at = parse(item.get('created_at'),25)
+                repo = parse(repo, 20)
+                created_at = parse(item.get('created_at'), 25)
                 description = parse(item.get('description'), 65)
-                release_tag = parse(item.get('release_tag'),10)
-                release_date = parse(item.get('release_date'),25)
+                release_tag = parse(item.get('release_tag'), 10)
+                release_date = parse(item.get('release_date'), 25)
                 release_message = parse(item.get('release_message'), 40)
-                commit_date = parse(item.get('commit_date'),25)
+                commit_date = parse(item.get('commit_date'), 25)
                 commit_message = parse(item.get('commit_message'), 55)
                 if release_date:
                     if time.mktime(time.strptime(release_date, "%Y-%m-%d %H:%M:%S")) > time.mktime((datetime.datetime.now() - datetime.timedelta(days=n)).timetuple()):
-                        releases.append([release_date,repo,url,release_tag,release_message])
+                        releases.append(
+                            [release_date, repo, url, release_tag, release_message])
                 if commit_date:
                     if time.mktime(time.strptime(commit_date, "%Y-%m-%d %H:%M:%S")) > time.mktime((datetime.datetime.now() - datetime.timedelta(days=n)).timetuple()):
-                        commits.append([commit_date,repo,url,commit_message])
+                        commits.append(
+                            [commit_date, repo, url, commit_message])
                 total_md += f'| [{repo}]({url}) | {release_tag} | {description} |\n'
             except:
                 print(f'[fail 2] {url}')
                 traceback.print_exc()
-releases = sorted(releases,key = lambda x:x[0],reverse = True)
-release_md += '\n'.join(['|' + '|'.join(i) + '|' for i in releases])
-commits = sorted(releases,key = lambda x:x[0],reverse = True)
-commit_md += '\n'.join(['|' + '|'.join(i) + '|' for i in commits])
+releases = sorted(releases, key=lambda x: x[0], reverse=True)
+release_md += '\n'.join([f'|{release_date}|[{repo}]({url})|{release_tag}|{release_message}|' for release_date,
+                        repo, url, release_tag, release_message in releases])
+commits = sorted(commits, key=lambda x: x[0], reverse=True)
+commit_md += '\n'.join([f'|{commit_date}|[{repo}]({url})|{commit_message}|' for commit_date,
+                       repo, url, commit_message in commits])
 
 with open("README.md", 'w', encoding='utf8') as fd:
     fd.write("# 更新于 {}\n".format(datetime.datetime.utcnow().replace(tzinfo=datetime.timezone.utc).astimezone(datetime.timezone(datetime.timedelta(hours=8), name='Asia/Shanghai',)).strftime('%Y-%m-%d %H:%M:%S')) +
