@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: UTF-8 -*-
 
-from github_help import GithubClient
 import datetime
 import time
 import os
@@ -9,6 +8,7 @@ import json
 import sys
 import traceback
 sys.dont_write_bytecode = True
+from github_help import GithubClient
 
 
 # 项目清单
