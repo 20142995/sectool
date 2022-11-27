@@ -40,14 +40,20 @@ repos = '''
 信息收集|端口扫描|https://github.com/4dogs-cn/TXPortMap
 信息收集|端口扫描|https://github.com/projectdiscovery/naabu
 
+
+
 漏洞发现&利用|半自动化漏洞利用|https://github.com/lz520520/railgun
 漏洞发现&利用|半自动化漏洞利用|https://github.com/gobysec/Goby
 
+漏洞发现&利用|半自动漏洞扫描|https://github.com/lijiejie/EasyPen
 漏洞发现&利用|半自动漏洞扫描|https://github.com/chaitin/xray
+漏洞发现&利用|半自动漏洞扫描|https://github.com/w-digital-scanner/w13scan
 漏洞发现&利用|半自动漏洞扫描|https://github.com/d3ckx1/Fvuln
 漏洞发现&利用|半自动漏洞扫描|https://github.com/projectdiscovery/nuclei
 漏洞发现&利用|半自动漏洞扫描|https://github.com/zan8in/afrog
 漏洞发现&利用|半自动漏洞扫描|https://github.com/zhzyker/vulmap
+
+漏洞发现&利用|漏洞扫描框架|https://github.com/knownsec/pocsuite3
 
 漏洞发现&利用|数据库利用|https://github.com/SafeGroceryStore/MDUT
 漏洞发现&利用|数据库利用|https://github.com/Liqunkit/LiqunKit_
@@ -171,7 +177,8 @@ repos = '''
 工具&插件|浏览器扩展|https://github.com/ninoseki/mitaka
 工具&插件|浏览器扩展|https://github.com/cnrstar/anti-honeypot
 工具&插件|浏览器扩展|https://github.com/v8blink/Chromium-based-XSS-Taint-Tracking
-
+CTF杂项|图片隐写|https://github.com/Giotino/stegsolve
+CTF杂项|图片隐写|https://github.com/ww23/BlindWatermark
 
 '''
 # repos = '''
