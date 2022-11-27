@@ -80,8 +80,6 @@ for type_1 in data:
     total_md += '### {}\n'.format(type_1)
     for type_2 in data[type_1]:
         total_md += '#### {}\n'.format(type_2)
-        # total_md += '| 项目名称 | 作者 | 创建时间| 最近提交时间 | 版本 | 项目描述 |\n'
-        # total_md += '| :---- | :---- | :---- | :---- | :---- | :---- |\n'
         total_md += '| 项目名称| 最近提交时间 | 版本 | 项目描述 |\n'
         total_md += '| :---- | :---- | :---- | :---- |\n'
         for url in data[type_1][type_2]:
