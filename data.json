@@ -50,7 +50,7 @@
         "半自动化漏洞利用": {
             "https://github.com/lz520520/railgun": {
                 "created_at": "2020-08-31 00:52:43",
-                "description": "",
+                "description": null,
                 "commit_date": "2022-08-22 05:20:08",
                 "commit_message": "Merge pull request #41 from lz520520/branch1\n\nupdate: README.md",
                 "release_tag": "v1.4.6",
@@ -82,9 +82,9 @@
                 "description": "下架",
                 "commit_date": "2022-01-21 08:11:55",
                 "commit_message": "Update README.md",
-                "release_tag": "",
+                "release_tag": null,
                 "release_date": "",
-                "release_message": ""
+                "release_message": null
             },
             "https://github.com/uknowsec/SharpSQLTools": {
                 "created_at": "2019-10-18 01:55:23",
@@ -118,27 +118,27 @@
                 "description": "Redis(<=5.0.5) RCE",
                 "commit_date": "2022-10-13 03:29:51",
                 "commit_message": "Merge pull request #8 from julioxus/feature/include-password\n\nincluding optional password authentication",
-                "release_tag": "",
+                "release_tag": null,
                 "release_date": "",
-                "release_message": ""
+                "release_message": null
             },
             "https://github.com/Ridter/redis-rce": {
                 "created_at": "2019-07-08 14:05:30",
                 "description": "Redis 4.x/5.x RCE",
                 "commit_date": "2021-11-30 14:55:59",
                 "commit_message": "Merge pull request #2 from yeahx/fixAuthBug\n\nfix auth bug when target is enable auth",
-                "release_tag": "",
+                "release_tag": null,
                 "release_date": "",
-                "release_message": ""
+                "release_message": null
             },
             "https://github.com/yuyan-sec/RedisEXP": {
                 "created_at": "2022-03-19 14:41:00",
                 "description": "Redis 漏洞利用工具",
                 "commit_date": "2022-09-10 06:47:57",
                 "commit_message": "Update Redis.go",
-                "release_tag": "",
+                "release_tag": null,
                 "release_date": "",
-                "release_message": ""
+                "release_message": null
             },
             "https://github.com/zyylhn/redis_rce": {
                 "created_at": "2022-03-16 15:02:08",
@@ -194,9 +194,9 @@
                 "description": "shiro 反序列 命令执行辅助检测工具",
                 "commit_date": "2022-08-17 09:35:07",
                 "commit_message": "Update README.md",
-                "release_tag": "",
+                "release_tag": null,
                 "release_date": "",
-                "release_message": ""
+                "release_message": null
             },
             "https://github.com/SummerSec/ShiroAttack2": {
                 "created_at": "2021-06-13 03:44:13",
@@ -221,66 +221,75 @@
                 "description": "Fastjson vulnerability quickly exploits the framework（fastjson漏洞快速利用框架）",
                 "commit_date": "2020-03-06 07:48:16",
                 "commit_message": "Merge pull request #7 from HelloCoCooo/master\n\nFix dependency conflict issue",
-                "release_tag": "",
+                "release_tag": null,
                 "release_date": "",
-                "release_message": ""
+                "release_message": null
             },
             "https://github.com/wyzxxz/fastjson_rce_tool": {
                 "created_at": "",
-                "description": ""
+                "description": null,
+                "release_tag": null,
+                "release_date": "",
+                "release_message": null
             },
             "https://github.com/mrknow001/fastjson_rec_exploit": {
                 "created_at": "2020-07-10 08:02:48",
                 "description": "fastjson一键命令执行",
                 "commit_date": "2020-07-21 13:50:22",
                 "commit_message": "Update README.md",
-                "release_tag": "",
+                "release_tag": null,
                 "release_date": "",
-                "release_message": ""
+                "release_message": null
             },
             "https://github.com/joaomatosf/jexboss": {
                 "created_at": "2014-11-30 16:56:15",
                 "description": "JexBoss: Jboss (and Java Deserialization Vulnerabilities) verify and EXploitation Tool",
                 "commit_date": "2017-03-28 01:34:04",
                 "commit_message": "* Added DNS gadget (to check for bugs in app with simple dns lookup). Usage: --gadget dns --dns test.yourdomain.com\n* Fixed bug when running with python3",
-                "release_tag": "",
+                "release_tag": null,
                 "release_date": "",
-                "release_message": ""
+                "release_message": null
             },
             "https://github.com/0nise/weblogic-framework": {
                 "created_at": "",
-                "description": ""
+                "description": null,
+                "release_tag": null,
+                "release_date": "",
+                "release_message": null
             },
             "https://github.com/threedr3am/dubbo-exp": {
                 "created_at": "2021-12-26 04:52:47",
                 "description": "dubbo学习demo，之前删了，重新上传。",
                 "commit_date": "2022-10-12 08:48:36",
                 "commit_message": "update README.md",
-                "release_tag": "",
+                "release_tag": null,
                 "release_date": "",
-                "release_message": ""
+                "release_message": null
             },
             "https://github.com/xwuyi/STS2G": {
                 "created_at": "",
-                "description": ""
+                "description": null,
+                "release_tag": null,
+                "release_date": "",
+                "release_message": null
             },
             "https://github.com/HatBoy/Struts2-Scan": {
                 "created_at": "2018-07-12 15:04:44",
                 "description": "Struts2全漏洞扫描利用工具",
                 "commit_date": "2020-12-23 09:04:37",
                 "commit_message": "Merge pull request #17 from fengsec/master\n\nUpdate Struts2Scan.py",
-                "release_tag": "",
+                "release_tag": null,
                 "release_date": "",
-                "release_message": ""
+                "release_message": null
             },
             "https://github.com/kozmer/log4j-shell-poc": {
                 "created_at": "2021-12-10 23:19:28",
                 "description": "A Proof-Of-Concept for the CVE-2021-44228 vulnerability. ",
                 "commit_date": "2022-01-22 14:55:02",
                 "commit_message": "Add license file\n\nIn response to issue #64",
-                "release_tag": "",
+                "release_tag": null,
                 "release_date": "",
-                "release_message": ""
+                "release_message": null
             }
         },
         "中间件&框架漏洞扫描": {
@@ -289,9 +298,9 @@
                 "description": "Weblogic一键漏洞检测工具，V1.5，更新时间：20200730",
                 "commit_date": "2022-01-26 02:56:25",
                 "commit_message": "请求缺少content-type，服务端返回415错误的问题（感谢@lif3reb00t）",
-                "release_tag": "",
+                "release_tag": null,
                 "release_date": "",
-                "release_message": ""
+                "release_message": null
             },
             "https://github.com/woodpecker-appstore/weblogic-infodetector": {
                 "created_at": "2021-04-01 04:32:50",
@@ -336,18 +345,18 @@
                 "description": "致远OA综合利用工具",
                 "commit_date": "2021-06-03 08:03:40",
                 "commit_message": "Update README.md",
-                "release_tag": "",
+                "release_tag": null,
                 "release_date": "",
-                "release_message": ""
+                "release_message": null
             },
             "https://github.com/God-Ok/SeeyonExploit-GUI": {
                 "created_at": "2021-07-20 14:42:05",
                 "description": "致远OA综合利用工具V1.0",
                 "commit_date": "2021-07-07 15:01:16",
                 "commit_message": "Update README.md",
-                "release_tag": "",
+                "release_tag": null,
                 "release_date": "",
-                "release_message": ""
+                "release_message": null
             },
             "https://github.com/xinyu2428/TDOA_RCE": {
                 "created_at": "2021-03-01 07:18:29",
@@ -372,31 +381,34 @@
                 "description": "泛微OA漏洞综合利用脚本",
                 "commit_date": "2021-06-28 19:02:37",
                 "commit_message": "Fix Bugs",
-                "release_tag": "",
+                "release_tag": null,
                 "release_date": "",
-                "release_message": ""
+                "release_message": null
             },
             "https://github.com/Tas9er/EgGateWayGetShell": {
                 "created_at": "2021-01-14 01:04:48",
                 "description": "Code By:Tas9er",
                 "commit_date": "2021-01-14 01:05:29",
                 "commit_message": "Code By:Tas9er",
-                "release_tag": "",
+                "release_tag": null,
                 "release_date": "",
-                "release_message": ""
+                "release_message": null
             },
             "https://github.com/Dionach/CMSmap": {
                 "created_at": "2018-09-20 06:55:41",
                 "description": "CMSmap is a python open source CMS scanner that automates the process of detecting security flaws of the most popular CMSs. ",
                 "commit_date": "2018-10-26 18:45:03",
                 "commit_message": "Fixes #3",
-                "release_tag": "",
+                "release_tag": null,
                 "release_date": "",
-                "release_message": ""
+                "release_message": null
             },
             "https://github.com/blackbinn/wprecon": {
                 "created_at": "",
-                "description": ""
+                "description": null,
+                "release_tag": null,
+                "release_date": "",
+                "release_message": null
             },
             "https://github.com/rastating/wordpress-exploit-framework": {
                 "created_at": "2015-11-27 22:13:52",
@@ -427,7 +439,10 @@
             },
             "https://github.com/zangcc/Aazhen-v3.1": {
                 "created_at": "",
-                "description": ""
+                "description": null,
+                "release_tag": null,
+                "release_date": "",
+                "release_message": null
             },
             "https://github.com/Lotus6/ThinkphpGUI": {
                 "created_at": "2021-06-22 15:01:04",
@@ -463,36 +478,36 @@
                 "description": "AK资源管理工具，阿里云/腾讯云/华为云/AWS/UCLOUD/京东云/七牛云存储  AccessKey AccessKeySecret，利用AK获取资源信息和操作资源，ECS/CVM/E2/UHOST/ECI执行命令，OSS/COS/S3管理，RDS/DB管理，域名管理，添加RAM/CAM/IAM账号等",
                 "commit_date": "2022-11-08 06:43:32",
                 "commit_message": "Update README.md",
-                "release_tag": "",
+                "release_tag": null,
                 "release_date": "",
-                "release_message": ""
+                "release_message": null
             },
             "https://github.com/lijiejie/swagger-exp": {
                 "created_at": "2021-03-23 06:46:21",
                 "description": "A Swagger API Exploit",
                 "commit_date": "2022-08-08 07:07:03",
                 "commit_message": "bind 127.0.0.1",
-                "release_tag": "",
+                "release_tag": null,
                 "release_date": "",
-                "release_message": ""
+                "release_message": null
             },
             "https://github.com/jayus0821/swagger-hack": {
                 "created_at": "2021-02-01 11:49:51",
                 "description": "自动化爬取并自动测试所有swagger接口",
                 "commit_date": "2021-08-02 05:39:49",
                 "commit_message": "Update README.md",
-                "release_tag": "",
+                "release_tag": null,
                 "release_date": "",
-                "release_message": ""
+                "release_message": null
             },
             "https://github.com/wyzxxz/heapdump_tool": {
                 "created_at": "2021-08-06 02:48:31",
                 "description": "heapdump敏感信息查询工具，例如查找 spring heapdump中的密码明文，AK,SK等",
                 "commit_date": "2022-08-17 09:34:10",
                 "commit_message": "Update README.md",
-                "release_tag": "",
+                "release_tag": null,
                 "release_date": "",
-                "release_message": ""
+                "release_message": null
             },
             "https://github.com/rtcatc/Packer-Fuzzer": {
                 "created_at": "2020-09-30 20:21:15",
@@ -508,67 +523,70 @@
                 "description": ".git 泄漏利用工具，可还原历史版本",
                 "commit_date": "2020-02-25 10:15:10",
                 "commit_message": "Merge pull request #7 from Medicean/master\n\n修复 .git/logs/ 目录默认不会创建导致 logs 记录丢失的问题",
-                "release_tag": "",
+                "release_tag": null,
                 "release_date": "",
-                "release_message": ""
+                "release_message": null
             },
             "https://github.com/kost/dvcs-ripper.git": {
                 "created_at": "",
-                "description": ""
+                "description": null,
+                "release_tag": null,
+                "release_date": "",
+                "release_message": null
             },
             "https://github.com/lijiejie/ds_store_exp": {
                 "created_at": "2017-01-24 11:48:50",
                 "description": "A .DS_Store file disclosure exploit.   It parses .DS_Store file and downloads files recursively.",
                 "commit_date": "2022-06-16 02:22:00",
                 "commit_message": "add is_valid_name",
-                "release_tag": "",
+                "release_tag": null,
                 "release_date": "",
-                "release_message": ""
+                "release_message": null
             },
             "https://github.com/admintony/svnExploit": {
                 "created_at": "2018-02-06 09:43:26",
                 "description": "SvnExploit支持SVN源代码泄露全版本Dump源码",
                 "commit_date": "2019-10-17 01:09:21",
                 "commit_message": "Update readme.md",
-                "release_tag": "",
+                "release_tag": null,
                 "release_date": "",
-                "release_message": ""
+                "release_message": null
             },
             "https://github.com/arthaud/git-dumper": {
                 "created_at": "2017-03-31 03:39:53",
                 "description": "A tool to dump a git repository from a website",
                 "commit_date": "2022-05-07 04:39:31",
                 "commit_message": "Support more recent version of dulwich (thanks to #33)",
-                "release_tag": "",
+                "release_tag": null,
                 "release_date": "",
-                "release_message": ""
+                "release_message": null
             },
             "https://github.com/obheda12/GitDorker": {
                 "created_at": "2020-07-13 01:11:46",
                 "description": "A Python program to scrape secrets from GitHub through usage of a large repository of dorks.",
                 "commit_date": "2021-05-07 06:11:57",
                 "commit_message": "Update README.md",
-                "release_tag": "",
+                "release_tag": null,
                 "release_date": "",
-                "release_message": ""
+                "release_message": null
             },
             "https://github.com/m4ll0k/SecretFinder": {
                 "created_at": "2020-06-08 10:50:12",
                 "description": "SecretFinder - A python script for find sensitive data (apikeys, accesstoken,jwt,..) and search anything on javascript files ",
                 "commit_date": "2021-06-26 07:43:14",
                 "commit_message": "Merge pull request #50 from ryansonshine/aws-access-key-fix\n\nFix for aws access key id",
-                "release_tag": "",
+                "release_tag": null,
                 "release_date": "",
-                "release_message": ""
+                "release_message": null
             },
             "https://github.com/KathanP19/JSFScan.sh": {
                 "created_at": "2020-06-30 06:05:32",
                 "description": "Automation for javascript recon in bug bounty. ",
                 "commit_date": "2022-11-04 03:20:29",
                 "commit_message": "Merge pull request #38 from jamboro/jacmo_targetescape\n\nUpdate JSFScan.sh",
-                "release_tag": "",
+                "release_tag": null,
                 "release_date": "",
-                "release_message": ""
+                "release_message": null
             },
             "https://github.com/Ice3man543/SubOver": {
                 "created_at": "2018-02-04 09:49:46",
@@ -604,22 +622,25 @@
                 "description": "Fast Modular Web Interfaces Bruteforcer",
                 "commit_date": "2021-11-16 14:29:28",
                 "commit_message": "Minor improvement in module standardform",
-                "release_tag": "",
+                "release_tag": null,
                 "release_date": "",
-                "release_message": ""
+                "release_message": null
             },
             "https://github.com/yzddmr6/WebCrack": {
                 "created_at": "2019-08-20 03:39:16",
                 "description": "WebCrack是一款web后台弱口令/万能密码批量检测工具，在工具中导入后台地址即可进行自动化检测。",
                 "commit_date": "2021-09-07 12:19:54",
                 "commit_message": "bug fix\n\nadd __init__.py",
-                "release_tag": "",
+                "release_tag": null,
                 "release_date": "",
-                "release_message": ""
+                "release_message": null
             },
             "https://github.com/kitabisa/ssb": {
                 "created_at": "",
-                "description": ""
+                "description": null,
+                "release_tag": null,
+                "release_date": "",
+                "release_message": null
             }
         },
         "漏洞检测利用仓库": {
@@ -628,18 +649,18 @@
                 "description": "漏洞检测、漏洞利用",
                 "commit_date": "2022-10-24 16:38:39",
                 "commit_message": "Create .gitignore",
-                "release_tag": "",
+                "release_tag": null,
                 "release_date": "",
-                "release_message": ""
+                "release_message": null
             },
             "https://github.com/Threekiii/Awesome-Exploit": {
                 "created_at": "2022-04-22 02:08:08",
                 "description": "一个漏洞利用工具仓库",
                 "commit_date": "2022-10-11 03:03:21",
                 "commit_message": "更新Apisix/CVE-2021-45232/apisix_dashboard_rce.py",
-                "release_tag": "",
+                "release_tag": null,
                 "release_date": "",
-                "release_message": ""
+                "release_message": null
             }
         }
     },
@@ -697,18 +718,18 @@
                 "description": "SRC子域名资产监控",
                 "commit_date": "2021-01-14 04:32:06",
                 "commit_message": "修改说明文档",
-                "release_tag": "",
+                "release_tag": null,
                 "release_date": "",
-                "release_message": ""
+                "release_message": null
             },
             "https://github.com/gwen001/github-subdomains": {
                 "created_at": "2020-07-24 06:54:29",
                 "description": "Find subdomains on GitHub.",
                 "commit_date": "2022-11-17 20:37:34",
                 "commit_message": "license&readme",
-                "release_tag": "",
+                "release_tag": null,
                 "release_date": "",
-                "release_message": ""
+                "release_message": null
             },
             "https://github.com/euphrat1ca/LayerDomainFinder": {
                 "created_at": "2019-07-17 07:34:49",
@@ -744,9 +765,9 @@
                 "description": "类似JSFinder的golang实现，一款用于快速提取检测页面中JS与URL的工具，更快更全更舒服",
                 "commit_date": "2022-10-25 05:55:08",
                 "commit_message": "2022/10/25更新",
-                "release_tag": "",
+                "release_tag": null,
                 "release_date": "",
-                "release_message": ""
+                "release_message": null
             },
             "https://github.com/epi052/feroxbuster": {
                 "created_at": "2020-08-22 15:36:19",
@@ -771,9 +792,9 @@
                 "description": "An advanced web directory & file scanning tool that will be more powerful than DirBuster, Dirsearch, cansina, and Yu Jian.一个高级web目录、文件扫描工具，功能将会强于DirBuster、Dirsearch、cansina、御剑。",
                 "commit_date": "2022-06-01 08:21:11",
                 "commit_message": "Merge pull request #73 from kylincodelab/lazynms-patch-1\n\nUpdate IPy.py 解决issues #74",
-                "release_tag": "",
+                "release_tag": null,
                 "release_date": "",
-                "release_message": ""
+                "release_message": null
             },
             "https://github.com/deibit/cansina": {
                 "created_at": "2013-02-21 19:52:13",
@@ -860,9 +881,9 @@
                 "description": "收集内部网信息。包括：浏览器书签、密码和浏览历史记录、cookie。Wifi信息和密码。主机信息。",
                 "commit_date": "2022-10-08 07:32:58",
                 "commit_message": "Update README.md",
-                "release_tag": "",
+                "release_tag": null,
                 "release_date": "",
-                "release_message": ""
+                "release_message": null
             },
             "https://github.com/passer-W/FinalShell-Decoder": {
                 "created_at": "2022-04-06 07:11:25",
@@ -902,9 +923,9 @@
                 "description": "一个红队知识仓库",
                 "commit_date": "2022-11-16 01:59:50",
                 "commit_message": "更新cheatsheets/攻防渗透常用命令速查.md",
-                "release_tag": "",
+                "release_tag": null,
                 "release_date": "",
-                "release_message": ""
+                "release_message": null
             }
         }
     },
@@ -942,9 +963,9 @@
                 "description": "有关burpsuite的插件(非商店),文章以及使用技巧的收集(此项目不再提供burpsuite破解文件,如需要请在博客mrxn.net下载)---Collection of burpsuite plugins (non-stores), articles and tips for using Burpsuite, no crack version file",
                 "commit_date": "2022-11-25 14:53:59",
                 "commit_message": "add BpScan\n\n一款用于辅助渗透测试工程师日常渗透测试的Burp被动漏扫插件(SpringSpiderScan、Log4jScan和FastJsonScan)",
-                "release_tag": "",
+                "release_tag": null,
                 "release_date": "",
-                "release_message": ""
+                "release_message": null
             },
             "https://github.com/pmiaowu/BurpShiroPassiveScan": {
                 "created_at": "2020-07-15 07:12:16",
@@ -966,7 +987,10 @@
             },
             "https://github.com/zilong3033/fastjsonScan": {
                 "created_at": "",
-                "description": ""
+                "description": null,
+                "release_tag": null,
+                "release_date": "",
+                "release_message": null
             },
             "https://github.com/gh0stkey/HaE": {
                 "created_at": "2020-03-24 10:12:50",
@@ -1027,9 +1051,9 @@
                 "description": "BurpCrypto is a collection of burpsuite encryption plug-ins, support AES/RSA/DES/ExecJs(execute JS encryption code in burpsuite). 支持多种加密算法或直接执行JS代码的用于爆破前端加密的BurpSuite插件",
                 "commit_date": "2022-06-21 03:48:18",
                 "commit_message": "fix JCE authenticate fail error.",
-                "release_tag": "",
+                "release_tag": null,
                 "release_date": "",
-                "release_message": ""
+                "release_message": null
             },
             "https://github.com/f0ng/autoDecoder": {
                 "created_at": "2022-03-26 10:13:56",
@@ -1054,18 +1078,18 @@
                 "description": "Automated HTTP Request Repeating With Burp Suite",
                 "commit_date": "2020-10-08 21:22:46",
                 "commit_message": "Merge pull request #69 from Lz1y/master\n\nUpdate Condition.java",
-                "release_tag": "",
+                "release_tag": null,
                 "release_date": "",
-                "release_message": ""
+                "release_message": null
             },
             "https://github.com/portswigger/http-request-smuggler": {
                 "created_at": "2019-07-30 14:41:18",
-                "description": "",
+                "description": null,
                 "commit_date": "2022-11-18 14:26:29",
                 "commit_message": "BApp Store update",
-                "release_tag": "",
+                "release_tag": null,
                 "release_date": "",
-                "release_message": ""
+                "release_message": null
             }
         },
         "xray": {
@@ -1083,9 +1107,9 @@
                 "description": "🧬 辅助生成 XRay YAML POC",
                 "commit_date": "2019-08-23 08:21:38",
                 "commit_message": "add a newline for expression",
-                "release_tag": "",
+                "release_tag": null,
                 "release_date": "",
-                "release_message": ""
+                "release_message": null
             }
         },
         "pocsuite3": {
@@ -1120,7 +1144,7 @@
             },
             "https://github.com/filedescriptor/untrusted-types": {
                 "created_at": "2020-11-15 09:49:44",
-                "description": "",
+                "description": null,
                 "commit_date": "2021-10-12 17:37:56",
                 "commit_message": "URL encode settings redirect",
                 "release_tag": "1.1.1",
@@ -1150,9 +1174,9 @@
                 "description": "一款可以检测WEB蜜罐并阻断请求的Chrome插件",
                 "commit_date": "2020-10-30 02:59:02",
                 "commit_message": "Merge pull request #8 from jhhd88/patch-4\n\n更新黑名单",
-                "release_tag": "",
+                "release_tag": null,
                 "release_date": "",
-                "release_message": ""
+                "release_message": null
             },
             "https://github.com/v8blink/Chromium-based-XSS-Taint-Tracking": {
                 "created_at": "2022-04-30 01:01:32",
