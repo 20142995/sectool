@@ -11,6 +11,7 @@ import requests
 
 requests.packages.urllib3.disable_warnings()
 
+
 class GithubClient:
 
     def __init__(self, token):
@@ -113,7 +114,7 @@ with open('repos.md', 'r', encoding='utf8') as fr:
             data.setdefault(type_1, {})
             data[type_1].setdefault(type_2, {})
             data[type_1][type_2].setdefault(url, {})
-        break
+        # break
 
 # 更新数据
 gc = GithubClient(os.getenv('GH_TOKEN'))
@@ -166,8 +167,8 @@ for type_1 in data:
     total_md += '### {}\n'.format(type_1)
     for type_2 in data[type_1]:
         total_md += '#### {}\n'.format(type_2)
-        total_md += '| 项目名称| 最近提交时间 | 版本 | 项目描述 |\n'
-        total_md += '| :---- | :---- | :---- | :---- |\n'
+        total_md += '| 项目名称/版本| 提交时间 | 项目描述 |\n'
+        total_md += '| :---- | :---- | :---- |\n'
         for url in data[type_1][type_2]:
             print('to_md', url)
             try:
@@ -188,8 +189,8 @@ for type_1 in data:
                     if time.mktime(time.strptime(commit_date, "%Y-%m-%d %H:%M:%S")) > time.mktime((datetime.datetime.now() - datetime.timedelta(days=n)).timetuple()):
                         commit_md += '| {} | [{}]({}) | {} | {} |\n'.format(
                             type_2, repo, url, commit_date, commit_message.replace('\r\n', '<br>').replace('\n', '<br>'))
-                total_md += '| [{}]({}) | {} | {} | {} |\n'.format(repo, url, commit_date,
-                                                                   release_tag, description.replace('\r\n', '<br>').replace('\n', '<br>'))
+                total_md += '| [{}]({}) {} | {} | {} |\n'.format(repo, url, release_tag,
+                                                                 commit_date, description.replace('\r\n', '<br>').replace('\n', '<br>'))
             except:
                 print('[fail 2]', url)
                 traceback.print_exc()
@@ -197,6 +198,6 @@ for type_1 in data:
 with open("README.md", 'w', encoding='utf8') as fd:
     fd.write(release_md + commit_md + total_md)
 
-# 写入data历史
+# 写入data
 with open(data_file, 'w', encoding='utf-8') as f:
     json.dump(data, f, ensure_ascii=False, indent=4)
