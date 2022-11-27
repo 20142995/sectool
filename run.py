@@ -260,20 +260,26 @@ for type_1 in data:
             try:
                 item = data[type_1][type_2][url]
                 author, repo = url[19:].split('/', 1)
+                created_at = item.get('created_at')
+                description = item.get('description','')
+                release_tag = item.get('release_tag')
                 release_date = item.get('release_date')
+                release_message = item.get('release_message','')
+                commit_date = item.get('commit_date')
+                commit_message = item.get('commit_message','')
                 if release_date:
                     if time.mktime(time.strptime(release_date, "%Y-%m-%d %H:%M:%S")) > time.mktime((datetime.datetime.now() - datetime.timedelta(days=n)).timetuple()):
                         release_md += '| {} | [{}]({}) | {} | {} | {} |\n'.format(
-                            type_2, repo, url, release_date, item.get('release_tag'),
-                            item.get('release_message','').replace('\r\n', '<br>').replace('\n', '<br>'))
-                commit_date = item.get('commit_date')
+                            type_2, repo, url, release_date, release_tag,
+                            release_message.replace('\r\n', '<br>').replace('\n', '<br>'))
+                
                 if commit_date:
                     if time.mktime(time.strptime(commit_date, "%Y-%m-%d %H:%M:%S")) > time.mktime((datetime.datetime.now() - datetime.timedelta(days=n)).timetuple()):
                         commit_md += '| {} | [{}]({}) | {} | {} |\n'.format(
-                            type_2, repo, url, commit_date, item.get('commit_message','').replace('\r\n', '<br>').replace('\n', '<br>'))
+                            type_2, repo, url, commit_date, commit_message.replace('\r\n', '<br>').replace('\n', '<br>'))
                 total_md += '| [{}]({}) | {} | {} | {} | {} | {} |\n'.format(
-                    repo, url, author, item.get('created_at'), item.get('commit_date'),
-                    item.get('release_tag'), item.get('description','').replace('\r\n', '<br>').replace('\n', '<br>'))
+                    repo, url, author, created_at, commit_date,
+                    release_tag, description.replace('\r\n', '<br>').replace('\n', '<br>'))
             except:
                 traceback.print_exc()
 
