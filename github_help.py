@@ -61,9 +61,16 @@ class GithubClient:
         try:
             _, _, rs = self.connect(
                 "GET", '/repos/{}/{}/commits'.format(author, repo))
-            return rs
+            if isinstance(rs,dict):
+                if rs.get('message','') == 'Moved Permanently' and 'url' in rs:
+                    _, _, rs1 = self.connect("GET", rs['url'][18:])
+                    if isinstance(rs1,list):
+                        return rs1
+            elif isinstance(rs,list):
+                return rs
         except:
-            return []
+            pass
+        return []
 
     def repos_releases_latest(self, author, repo):
         '''项目最新release'''
