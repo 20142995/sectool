@@ -172,16 +172,19 @@ commit_md = f'''
 
 total_md = '## 所有项目\n'
 
+def chr_len2(s):
+    return int((len(s.encode('utf-8')) - len(s))/2 + len(s))
 
 def parse(x, y):
     s = ''
     n = 0
     for i in re.sub('\s{2,}', '', x if x else ''):
-        n += int((len(i.encode('utf-8')) - len(i))/2 + len(i))
-        if n > y:
-            break
+        n += chr_len2(i)
+        if n >= y:
+            s += '<br>'
+            n = 0
         s += i
-    return s + '...' if int((len(s.encode('utf-8')) - len(s))/2 + len(s)) == y else s
+    return s
 
 
 for type_1 in data:
@@ -193,9 +196,10 @@ for type_1 in data:
             try:
                 item = data[type_1][type_2][url]
                 author, repo = url[19:].split('/', 1)
+                repo = parse(repo,20)
                 created_at = parse(item.get('created_at'),25)
                 description = parse(item.get('description'), 50)
-                release_tag = parse(item.get('release_tag'),25)
+                release_tag = parse(item.get('release_tag'),10)
                 release_date = parse(item.get('release_date'),25)
                 release_message = parse(item.get('release_message'), 40)
                 commit_date = parse(item.get('commit_date'),25)
