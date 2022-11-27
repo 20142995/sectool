@@ -98,7 +98,15 @@ class GithubClient:
 # 保存数据
 data = {}
 data_file = 'data.json'
-
+if os.path.exists(data_file):
+    try:
+        data = json.loads(open(data_file,'r',encoding='utf8').read())
+    except:
+        with open(data_file, 'w',encoding='utf-8') as f:
+            json.dump(data, f,ensure_ascii=False,indent = 4)
+else:
+    with open(data_file, 'w',encoding='utf-8') as f:
+        json.dump(data, f,ensure_ascii=False,indent = 4)
 # 项目清单
 with open('repos.md', 'r', encoding='utf8') as fr:
     repos = fr.readlines()
@@ -165,10 +173,15 @@ commit_md = f'''
 total_md = '## 所有项目\n'
 
 
-def split(x, y): return [x[i:i+y] for i in range(0, len(x), y)]
-
-
-def parse(x, y): return "<br>".join(split(re.sub('\s+', '', x), y))
+def parse(x, y):
+    s = ''
+    n = 0
+    for i in re.sub('\s{2,}', '', x if x else ''):
+        n += int((len(i.encode('utf-8')) - len(i))/2 + len(i))
+        if n > y:
+            break
+        s += i
+    return s + '...' if int((len(s.encode('utf-8')) - len(s))/2 + len(s)) == y else s
 
 
 for type_1 in data:
@@ -180,13 +193,13 @@ for type_1 in data:
             try:
                 item = data[type_1][type_2][url]
                 author, repo = url[19:].split('/', 1)
-                created_at = item.get('created_at', '')
-                description = parse(item.get('description', ''), 25)
-                release_tag = item.get('release_tag', '')
-                release_date = item.get('release_date', '')
-                release_message = parse(item.get('release_message', ''), 20)
-                commit_date = item.get('commit_date', '')
-                commit_message = parse(item.get('commit_message', ''), 25)
+                created_at = parse(item.get('created_at'),25)
+                description = parse(item.get('description'), 50)
+                release_tag = parse(item.get('release_tag'),25)
+                release_date = parse(item.get('release_date'),25)
+                release_message = parse(item.get('release_message'), 40)
+                commit_date = parse(item.get('commit_date'),25)
+                commit_message = parse(item.get('commit_message'), 50)
                 if release_date:
                     if time.mktime(time.strptime(release_date, "%Y-%m-%d %H:%M:%S")) > time.mktime((datetime.datetime.now() - datetime.timedelta(days=n)).timetuple()):
                         release_md += f'| {release_date} | [{repo}]({url}) | {release_tag} | {release_message} |\n'
