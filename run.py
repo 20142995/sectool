@@ -212,22 +212,19 @@ for type_1 in data:
                 rs1 = gc.repos(author, repo)
                 item['created_at'] = time.strftime("%Y-%m-%d %H:%M:%S", time.strptime(
                     rs1['created_at'], "%Y-%m-%dT%H:%M:%SZ")) if rs1.get('created_at') else ''
-                item['description'] = rs1['description'] if rs1.get(
-                    'description') else ''
+                item['description'] = rs1.get('description')
                 rs2 = gc.repos_commits(author, repo)
                 for rs in rs2[:1]:
                     item['commit_date'] = time.strftime("%Y-%m-%d %H:%M:%S", time.strptime(
                         rs['commit']['committer']['date'], "%Y-%m-%dT%H:%M:%SZ")) if rs['commit']['committer']['date'] else ''
                     item['commit_message'] = rs['commit']['message'] if rs['commit']['message'] else ''
                 rs3 = gc.repos_releases_latest(author, repo)
-                item['release_tag'] = rs3['tag_name'] if rs3.get(
-                    'tag_name') else ''
+                item['release_tag'] = rs3.get('tag_name')
                 item['release_date'] = time.strftime("%Y-%m-%d %H:%M:%S", time.strptime(
                     rs3['published_at'], "%Y-%m-%dT%H:%M:%SZ")) if rs3.get('published_at') else ''
-                item['release_message'] = rs3['body'] if rs3.get(
-                    'body') else ''
+                item['release_message'] = rs3.get('body')
             except:
-                print('[error]',url)
+                print('[fail 1]',url)
                 traceback.print_exc()
 
 # 更新README.md
@@ -279,6 +276,7 @@ for type_1 in data:
                     repo, url, author, created_at, commit_date,
                     release_tag, description.replace('\r\n', '<br>').replace('\n', '<br>'))
             except:
+                print('[fail 2]',url)
                 traceback.print_exc()
 
 with open("README.md", 'w', encoding='utf8') as fd:
