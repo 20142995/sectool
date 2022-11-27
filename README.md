@@ -6,6 +6,7 @@
 ## 近7天commit提交记录
 | 类型| 项目名称 | 提交时间 | 更新内容 |
 | :---- | :---- | :---- | :---- |
+| 半自动漏洞扫描 | [afrog](https://github.com/zan8in/afrog) | 2022-11-27 03:38:42 | update CVE-2022-36883 |
 | 子域名收集 | [OneForAll](https://github.com/shmilylty/OneForAll) | 2022-11-26 02:32:16 | 解决#286 |
 | 目录扫描 | [dirsearch](https://github.com/maurosoria/dirsearch) | 2022-11-23 13:31:50 | Merge pull request #1248 from drego85/patch-12<br><br>Useful Files and Directory for the SIMOGEO FileManager exploit |
 | Burpsuite插件 | [BurpSuite-collections](https://github.com/Mr-xn/BurpSuite-collections) | 2022-11-25 14:53:59 | add BpScan<br><br>一款用于辅助渗透测试工程师日常渗透测试的Burp被动漏扫插件(SpringSpiderScan、Log4jScan和FastJsonScan) |
@@ -18,7 +19,7 @@
 | [xray](https://github.com/chaitin/xray) | chaitin | 2019-06-10 07:16:37 | 2022-10-31 02:32:49 | 1.9.3 | 一款完善的安全评估工具，支持常见 web 安全问题扫描和自定义 poc | 使用之前务必先阅读文档 |
 | [nuclei](https://github.com/projectdiscovery/nuclei) | projectdiscovery | 2020-04-03 18:47:11 | 2022-11-17 10:29:05 | v2.7.9 | Fast and customizable vulnerability scanner based on simple YAML based DSL. |
 | [Fvuln](https://github.com/d3ckx1/Fvuln) | d3ckx1 | 2021-09-26 14:05:11 | 2022-09-18 11:14:42 | Fvuln_v1.4.8 | F-vuln（全称：Find-Vulnerability）是为了自己工作方便专门编写的一款自动化工具，主要适用于日常安全服务、渗透测试人员和RedTeam红队人员，它集合的功能包括：存活IP探测、开放端口探测、web服务探测、web漏洞扫描、smb爆破、ssh爆破、ftp爆破、mssql爆破等其他数据库爆破工作以及大量web漏洞检测模块。 |
-| [afrog](https://github.com/zan8in/afrog) | zan8in | 2022-02-24 06:00:32 | 2022-11-11 10:03:44 | v2.0.0 | afrog 是一款性能卓越、快速稳定、PoC 可定制化的漏洞扫描工具 - A tool for finding vulnerabilities |
+| [afrog](https://github.com/zan8in/afrog) | zan8in | 2022-02-24 06:00:32 | 2022-11-27 03:38:42 | v2.0.0 | afrog 是一款性能卓越、快速稳定、PoC 可定制化的漏洞扫描工具 - A tool for finding vulnerabilities |
 | [vulmap](https://github.com/zhzyker/vulmap) | zhzyker | 2020-10-09 06:34:36 | 2022-04-13 13:23:54 | v0.9 | Vulmap 是一款 web 漏洞扫描和验证工具, 可对 webapps 进行漏洞扫描, 并且具备漏洞验证功能 |
 #### 半自动化漏洞利用
 | 项目名称 | 作者 | 创建时间| 最近提交时间 | 版本 | 项目描述 |

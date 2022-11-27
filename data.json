@@ -31,8 +31,8 @@
             "https://github.com/zan8in/afrog": {
                 "created_at": "2022-02-24 06:00:32",
                 "description": "afrog 是一款性能卓越、快速稳定、PoC 可定制化的漏洞扫描工具 - A tool for finding vulnerabilities",
-                "commit_date": "2022-11-11 10:03:44",
-                "commit_message": "delete fmt.println",
+                "commit_date": "2022-11-27 03:38:42",
+                "commit_message": "update CVE-2022-36883",
                 "release_tag": "v2.0.0",
                 "release_date": "2022-11-10 15:27:37",
                 "release_message": "**Full Changelog**: https://github.com/zan8in/afrog/compare/v1.3.9...v2.0.0\r\n\r\n- 修复 afrog 后台执行命令失败 BUG\r\n- 优化 afrog 稳定性，完善 URL 存活验证和扫描进度检查\r\n- 优化 afrog 用户体验，控制台进度显示新增 hosts、closed、time\r\n- 感谢 交流群@腊子鸡 及时反馈新版本【严重】漏洞，该漏洞由 target 黑名单逻辑判断不严谨导致，现已修复并上传至GITHUB，请大家广而告之并重新下载"
