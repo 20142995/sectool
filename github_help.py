@@ -63,7 +63,7 @@ class GithubClient:
                 "GET", '/repos/{}/{}/commits'.format(author, repo))
             return rs
         except:
-            return {}
+            return []
 
     def repos_releases_latest(self, author, repo):
         '''项目最新release'''
