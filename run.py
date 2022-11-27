@@ -19,7 +19,7 @@ with open('repos.md','r',encoding='utf8') as fr:
     repos = fr.readlines()
     for repo in repos[1:]:
         if '|' in repo:
-            _, type_1, type_2, url, _ = repo.split('|')
+            type_1, type_2, url = repo.split('|')[1:4]
             try:
                 url[19:].split('/', 1)
             except:
