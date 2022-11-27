@@ -93,6 +93,8 @@ class GithubClient:
         except:
             pass
 
+def cut(obj, sec):
+    return [obj[i:i+sec] for i in range(0,len(obj),sec)]
 
 # 保存数据
 data = {}
@@ -114,7 +116,7 @@ with open('repos.md', 'r', encoding='utf8') as fr:
             data.setdefault(type_1, {})
             data[type_1].setdefault(type_2, {})
             data[type_1][type_2].setdefault(url, {})
-        # break
+        break
 
 # 更新数据
 gc = GithubClient(os.getenv('GH_TOKEN'))
@@ -190,7 +192,7 @@ for type_1 in data:
                         commit_md += '| {} | [{}]({}) | {} | {} |\n'.format(
                             type_2, repo, url, commit_date, commit_message.replace('\r\n', '<br>').replace('\n', '<br>'))
                 total_md += '| [{}]({}) {} | {} | {} |\n'.format(repo, url, release_tag,
-                                                                 commit_date, description.replace('\r\n', '<br>').replace('\n', '<br>'))
+                                                                 commit_date, '<br>'.join(cut(description.replace('\r\n', ' ').replace('\n', ' '),20)))
             except:
                 print('[fail 2]', url)
                 traceback.print_exc()
