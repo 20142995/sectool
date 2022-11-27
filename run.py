@@ -179,7 +179,7 @@ for type_1 in data:
                 item = data[type_1][type_2][url]
                 author, repo = url[19:].split('/', 1)
                 created_at = item.get('created_at', '')
-                description = parse(item.get('description', ''), 20)
+                description = parse(item.get('description', ''), 25)
                 release_tag = item.get('release_tag', '')
                 release_date = item.get('release_date', '')
                 release_message = parse(item.get('release_message', ''), 20)
