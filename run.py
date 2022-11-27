@@ -21,9 +21,12 @@ with open('repos.md','r',encoding='utf8') as fr:
         if '|' in repo:
             try:
                 type_1, type_2, url = repo.split('|')[1:4]
-                url[19:].split('/', 1)
+                
             except:
                 print('[repo error]', repo)
+                continue
+            if len(url[19:].split('/', 1)) != 2:
+                print('[url error]', url)
                 continue
             data.setdefault(type_1, {})
             data[type_1].setdefault(type_2, {})
