@@ -149,7 +149,7 @@ for type_1 in data:
                 traceback.print_exc()
 
 # 更新README.md
-n = 100
+n = 1000
 
 release_md = '''
 ## 近{}天release更新记录
