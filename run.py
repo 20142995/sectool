@@ -186,6 +186,8 @@ def parse(x, y):
         s += i
     return s
 
+releases = []
+commits = []
 
 for type_1 in data:
     total_md += f'### {type_1}\n'
@@ -206,14 +208,18 @@ for type_1 in data:
                 commit_message = parse(item.get('commit_message'), 55)
                 if release_date:
                     if time.mktime(time.strptime(release_date, "%Y-%m-%d %H:%M:%S")) > time.mktime((datetime.datetime.now() - datetime.timedelta(days=n)).timetuple()):
-                        release_md += f'| {release_date} | [{repo}]({url}) | {release_tag} | {release_message} |\n'
+                        releases.append([release_date,repo,url,release_tag,release_message])
                 if commit_date:
                     if time.mktime(time.strptime(commit_date, "%Y-%m-%d %H:%M:%S")) > time.mktime((datetime.datetime.now() - datetime.timedelta(days=n)).timetuple()):
-                        commit_md += f'| {commit_date} | [{repo}]({url}) | {commit_message} |\n'
+                        commits.append([commit_date,repo,url,commit_message])
                 total_md += f'| [{repo}]({url}) | {release_tag} | {description} |\n'
             except:
                 print(f'[fail 2] {url}')
                 traceback.print_exc()
+releases = sorted(releases,key = lambda x:x[0],reverse = True)
+release_md += '\n'.join(['|' + '|'.join(i) + '|' for i in releases])
+commits = sorted(releases,key = lambda x:x[0],reverse = True)
+commit_md += '\n'.join(['|' + '|'.join(i) + '|' for i in commits])
 
 with open("README.md", 'w', encoding='utf8') as fd:
     fd.write("# 更新于 {}\n".format(datetime.datetime.utcnow().replace(tzinfo=datetime.timezone.utc).astimezone(datetime.timezone(datetime.timedelta(hours=8), name='Asia/Shanghai',)).strftime('%Y-%m-%d %H:%M:%S')) +
