@@ -151,6 +151,13 @@ repos = '''
 工具&插件|Burpsuite插件|https://github.com/TheKingOfDuck/burpFakeIP
 工具&插件|Burpsuite插件|https://github.com/nccgroup/AutoRepeater
 工具&插件|Burpsuite插件|https://github.com/portswigger/http-request-smuggler
+工具&插件|Burpsuite插件|https://github.com/silentsignal/burp-requests
+工具&插件|Burpsuite插件|https://github.com/zzzskd/CORSScanner
+工具&插件|Burpsuite插件|https://github.com/skisw/fastjson-exp
+工具&插件|Burpsuite插件|https://github.com/weujieytt/HostHeaderAttack
+工具&插件|Burpsuite插件|https://github.com/bit4woo/knife
+工具&插件|Burpsuite插件|https://github.com/f0ng/log4j2burpscanner
+工具&插件|Burpsuite插件|https://github.com/c0ny1/passive-scan-client
 
 
 工具&插件|xray|https://github.com/zema1/yarx
