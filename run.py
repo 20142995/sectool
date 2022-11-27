@@ -31,7 +31,6 @@ with open('repos.md','r',encoding='utf8') as fr:
             data[type_1].setdefault(type_2, {})
             data[type_1][type_2].setdefault(url, {})
 
-
 # 更新数据
 gc = GithubClient(os.getenv('GH_TOKEN'))
 for type_1 in data:
