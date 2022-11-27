@@ -227,6 +227,7 @@ for type_1 in data:
                 item['release_message'] = rs3['body'] if rs3.get(
                     'body') else ''
             except:
+                print('[error]',url)
                 traceback.print_exc()
 
 # 更新README.md
