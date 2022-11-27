@@ -68,19 +68,19 @@ repos = '''
 漏洞发现&利用|中间件&框架漏洞利用|https://github.com/SummerSec/ShiroAttack2
 漏洞发现&利用|中间件&框架漏洞利用|https://github.com/j1anFen/shiro_attack
 漏洞发现&利用|中间件&框架漏洞利用|https://github.com/c0ny1/FastjsonExploit
-漏洞发现&利用|中间件&框架漏洞利用|https://github.com/wyzxxz/fastjson_rce_tool
 漏洞发现&利用|中间件&框架漏洞利用|https://github.com/mrknow001/fastjson_rec_exploit
 漏洞发现&利用|中间件&框架漏洞利用|https://github.com/joaomatosf/jexboss
 漏洞发现&利用|中间件&框架漏洞扫描|https://github.com/rabbitmask/WeblogicScan
 漏洞发现&利用|中间件&框架漏洞扫描|https://github.com/woodpecker-appstore/weblogic-infodetector
-漏洞发现&利用|中间件&框架漏洞利用|https://github.com/0nise/weblogic-framework
+漏洞发现&利用|中间件&框架漏洞利用|https://github.com/dream0x01/weblogic-framework
 漏洞发现&利用|中间件&框架漏洞利用|https://github.com/threedr3am/dubbo-exp
 漏洞发现&利用|中间件&框架漏洞扫描|https://github.com/0x48piraj/Jiraffe
-漏洞发现&利用|中间件&框架漏洞利用|https://github.com/xwuyi/STS2G
+漏洞发现&利用|中间件&框架漏洞利用|https://github.com/xfiftyone/STS2G
 漏洞发现&利用|中间件&框架漏洞利用|https://github.com/HatBoy/Struts2-Scan
 漏洞发现&利用|中间件&框架漏洞利用|https://github.com/kozmer/log4j-shell-poc
-
 漏洞发现&利用|中间件&框架漏洞扫描|https://github.com/Weik1/Artillery
+
+漏洞发现&利用|漏洞利用辅助|https://github.com/wyzxxz/jndi_tool
 
 
 漏洞发现&利用|重点CMS利用|https://github.com/LittleBear4/OA-EXPTOOL
@@ -94,8 +94,8 @@ repos = '''
 漏洞发现&利用|重点CMS利用|https://github.com/blackbinn/wprecon
 漏洞发现&利用|重点CMS利用|https://github.com/rastating/wordpress-exploit-framework
 漏洞发现&利用|重点CMS利用|https://github.com/wpscanteam/wpscan
-漏洞发现&利用|重点CMS利用|https://github.com/n00py/WPForce
-漏洞发现&利用|重点CMS利用|https://github.com/zangcc/Aazhen-v3.1
+漏洞发现&利用|重点CMS利用|https://github.com/AngraTeam/wprecon
+漏洞发现&利用|重点CMS利用|https://github.com/zangcc/Aazhen-RexHa
 漏洞发现&利用|重点CMS利用|https://github.com/Lotus6/ThinkphpGUI
 漏洞发现&利用|重点CMS利用|https://github.com/bewhale/thinkphp_gui_tools
 
@@ -106,7 +106,7 @@ repos = '''
 漏洞发现&利用|信息泄露利用|https://github.com/wyzxxz/heapdump_tool
 漏洞发现&利用|信息泄露利用|https://github.com/rtcatc/Packer-Fuzzer
 漏洞发现&利用|信息泄露利用|https://github.com/BugScanTeam/GitHack
-漏洞发现&利用|信息泄露利用|https://github.com/kost/dvcs-ripper.git
+漏洞发现&利用|信息泄露利用|https://github.com/kost/dvcs-ripper
 漏洞发现&利用|信息泄露利用|https://github.com/lijiejie/ds_store_exp
 漏洞发现&利用|信息泄露利用|https://github.com/admintony/svnExploit
 漏洞发现&利用|信息泄露利用|https://github.com/arthaud/git-dumper
@@ -120,7 +120,7 @@ repos = '''
 漏洞发现&利用|口令爆破|https://github.com/shack2/SNETCracker
 漏洞发现&利用|口令爆破|https://github.com/koutto/web-brutator
 漏洞发现&利用|口令爆破|https://github.com/yzddmr6/WebCrack
-漏洞发现&利用|口令爆破|https://github.com/kitabisa/ssb
+漏洞发现&利用|口令爆破|https://github.com/pwnesia/ssb
 
 
 漏洞发现&利用|漏洞检测利用仓库|https://github.com/ybdt/poc-hub
@@ -140,7 +140,6 @@ repos = '''
 工具&插件|Burpsuite插件|https://github.com/Mr-xn/BurpSuite-collections
 工具&插件|Burpsuite插件|https://github.com/pmiaowu/BurpShiroPassiveScan
 工具&插件|Burpsuite插件|https://github.com/pmiaowu/BurpFastJsonScan
-工具&插件|Burpsuite插件|https://github.com/zilong3033/fastjsonScan
 工具&插件|Burpsuite插件|https://github.com/gh0stkey/HaE
 工具&插件|Burpsuite插件|https://github.com/bit4woo/domain_hunter_pro
 工具&插件|Burpsuite插件|https://github.com/Acmesec/Sylas
