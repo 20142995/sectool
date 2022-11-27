@@ -17,7 +17,7 @@ data_file = 'data.json'
 # 项目清单
 with open('repos.md','r',encoding='utf8') as fr:
     repos = fr.readlines()
-    for repo in repos[1:]:
+    for repo in repos[2:]:
         if '|' in repo:
             try:
                 type_1, type_2, url = repo.split('|')[1:4]
