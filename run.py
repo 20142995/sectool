@@ -273,7 +273,7 @@ for type_1 in data:
                             type_2, repo, url, commit_date, item['commit_message'].replace('\r\n', '<br>').replace('\n', '<br>'))
                 total_md += '| [{}]({}) | {} | {} | {} | {} | {} |\n'.format(
                     repo, url, author, item['created_at'], item.get('commit_date'),
-                    item['release_tag'], item['description'].replace('\r\n', '<br>').replace('\n', '<br>'))
+                    item.get('release_tag'), item['description'].replace('\r\n', '<br>').replace('\n', '<br>'))
             except:
                 traceback.print_exc()
 
