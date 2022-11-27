@@ -164,6 +164,7 @@ commit_md = f'''
 
 total_md = '## 所有项目\n'
 
+
 def split(x, y): return [x[i:i+y] for i in range(0, len(x), y)]
 
 
@@ -198,7 +199,7 @@ for type_1 in data:
                 traceback.print_exc()
 
 with open("README.md", 'w', encoding='utf8') as fd:
-    fd.write("# 更新于 {}\n".format(time.strftime("%Y-%m-%d %H:%M:%S")) +
+    fd.write("# 更新于 {}\n".format(datetime.datetime.utcnow().replace(tzinfo=datetime.timezone.utc).astimezone(datetime.timezone(datetime.timedelta(hours=8), name='Asia/Shanghai',)).strftime('%Y-%m-%d %H:%M:%S')) +
              release_md + commit_md + total_md)
 
 # 写入data
