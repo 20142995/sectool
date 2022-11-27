@@ -152,13 +152,13 @@ n = 30
 
 release_md = f'''
 ## 近{n}天release更新记录
-| 项目名称 | 更新时间 | 版本 | 更新内容 |
+| 更新时间 | 项目名称 | 版本 | 更新内容 |
 | :---- | :---- | :---- | :---- |
 '''
 
 commit_md = f'''
 ## 近{n}天commit提交记录
-| 项目名称 | 提交时间 | 更新内容 |
+| 提交时间 | 项目名称 | 更新内容 |
 | :---- | :---- | :---- |
 '''
 
@@ -187,10 +187,10 @@ for type_1 in data:
                 commit_message = parse(item.get('commit_message', ''), 25)
                 if release_date:
                     if time.mktime(time.strptime(release_date, "%Y-%m-%d %H:%M:%S")) > time.mktime((datetime.datetime.now() - datetime.timedelta(days=n)).timetuple()):
-                        release_md += f'| [{repo}]({url}) | {release_date} | {release_tag} | {release_message} |\n'
+                        release_md += f'| {release_date} | [{repo}]({url}) | {release_tag} | {release_message} |\n'
                 if commit_date:
                     if time.mktime(time.strptime(commit_date, "%Y-%m-%d %H:%M:%S")) > time.mktime((datetime.datetime.now() - datetime.timedelta(days=n)).timetuple()):
-                        commit_md += f'| [{repo}]({url}) | {commit_date} | {commit_message} |\n'
+                        commit_md += f'| {commit_date} | [{repo}]({url}) | {commit_message} |\n'
                 total_md += f'| [{repo}]({url}) | {release_tag} | {description} |\n'
             except:
                 print(f'[fail 2] {url}')
