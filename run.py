@@ -215,13 +215,10 @@ for type_1 in data:
                 item['description'] = rs1['description'] if rs1.get(
                     'description') else ''
                 rs2 = gc.repos_commits(author, repo)
-                if rs2:
+                for rs in rs2[:1]:
                     item['commit_date'] = time.strftime("%Y-%m-%d %H:%M:%S", time.strptime(
-                        rs2[0]['commit']['committer']['date'], "%Y-%m-%dT%H:%M:%SZ")) if rs2[0]['commit']['committer']['date'] else ''
-                    item['commit_message'] = rs2[0]['commit']['message'] if rs2[0]['commit']['message'] else ''
-                else:
-                    item['commit_date'] = ''
-                    item['commit_message'] = ''
+                        rs['commit']['committer']['date'], "%Y-%m-%dT%H:%M:%SZ")) if rs['commit']['committer']['date'] else ''
+                    item['commit_message'] = rs['commit']['message'] if rs['commit']['message'] else ''
                 rs3 = gc.repos_releases_latest(author, repo)
                 item['release_tag'] = rs3['tag_name'] if rs3.get(
                     'tag_name') else ''
