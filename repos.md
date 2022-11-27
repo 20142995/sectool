@@ -138,4 +138,4 @@
 |工具&插件|浏览器扩展|https://github.com/cnrstar/anti-honeypot|
 |工具&插件|浏览器扩展|https://github.com/v8blink/Chromium-based-XSS-Taint-Tracking|
 |CTF杂项|图片隐写|https://github.com/Giotino/stegsolve|
-|CTF杂项|图片隐写|https://github.com/ww23/BlindWatermark
+|CTF杂项|图片隐写|https://github.com/ww23/BlindWatermark|
