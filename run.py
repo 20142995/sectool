@@ -248,19 +248,21 @@ for type_1 in data:
     total_md += '### {}\n'.format(type_1)
     for type_2 in data[type_1]:
         total_md += '#### {}\n'.format(type_2)
-        total_md += '| 项目名称 | 作者 | 创建时间| 最近提交时间 | 版本 | 项目描述 |\n'
-        total_md += '| :---- | :---- | :---- | :---- | :---- | :---- |\n'
+        # total_md += '| 项目名称 | 作者 | 创建时间| 最近提交时间 | 版本 | 项目描述 |\n'
+        # total_md += '| :---- | :---- | :---- | :---- | :---- | :---- |\n'
+        total_md += '| 项目名称| 最近提交时间 | 版本 | 项目描述 |\n'
+        total_md += '| :---- | :---- | :---- | :---- |\n'
         for url in data[type_1][type_2]:
             print('to_md', url)
             try:
                 item = data[type_1][type_2][url]
                 author, repo = url[19:].split('/', 1)
-                created_at = item.get('created_at')
+                created_at = item.get('created_at', '')
                 description = item.get('description', '')
-                release_tag = item.get('release_tag')
-                release_date = item.get('release_date')
+                release_tag = item.get('release_tag', '')
+                release_date = item.get('release_date', '')
                 release_message = item.get('release_message', '')
-                commit_date = item.get('commit_date')
+                commit_date = item.get('commit_date', '')
                 commit_message = item.get('commit_message', '')
                 if release_date:
                     if time.mktime(time.strptime(release_date, "%Y-%m-%d %H:%M:%S")) > time.mktime((datetime.datetime.now() - datetime.timedelta(days=n)).timetuple()):
@@ -270,8 +272,7 @@ for type_1 in data:
                     if time.mktime(time.strptime(commit_date, "%Y-%m-%d %H:%M:%S")) > time.mktime((datetime.datetime.now() - datetime.timedelta(days=n)).timetuple()):
                         commit_md += '| {} | [{}]({}) | {} | {} |\n'.format(
                             type_2, repo, url, commit_date, commit_message.replace('\r\n', '<br>').replace('\n', '<br>'))
-                total_md += '| [{}]({}) | {} | {} | {} | {} | {} |\n'.format(repo, url, author, created_at,
-                                                                             commit_date, release_tag, description.replace('\r\n', '<br>').replace('\n', '<br>'))
+                total_md += '| [{}]({}) | {} | {} | {} |\n'.format(repo, url,commit_date, release_tag, description.replace('\r\n', '<br>').replace('\n', '<br>'))
             except:
                 print('[fail 2]', url)
                 traceback.print_exc()
