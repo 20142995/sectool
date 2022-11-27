@@ -270,7 +270,7 @@ for type_1 in data:
                 if commit_date:
                     if time.mktime(time.strptime(commit_date, "%Y-%m-%d %H:%M:%S")) > time.mktime((datetime.datetime.now() - datetime.timedelta(days=n)).timetuple()):
                         commit_md += '| {} | [{}]({}) | {} | {} |\n'.format(
-                            type_2, repo, url, commit_date, item['commit_message'].replace('\r\n', '<br>').replace('\n', '<br>'))
+                            type_2, repo, url, commit_date, item.get('commit_message','').replace('\r\n', '<br>').replace('\n', '<br>'))
                 total_md += '| [{}]({}) | {} | {} | {} | {} | {} |\n'.format(
                     repo, url, author, item.get('created_at'), item.get('commit_date'),
                     item.get('release_tag'), item.get('description','').replace('\r\n', '<br>').replace('\n', '<br>'))
