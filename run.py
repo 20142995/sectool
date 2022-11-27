@@ -192,7 +192,7 @@ for type_1 in data:
                         commit_md += '| {} | [{}]({}) | {} | {} |\n'.format(
                             type_2, repo, url, commit_date, commit_message.replace('\r\n', '<br>').replace('\n', '<br>'))
                 total_md += '| [{}]({}) {} | {} | {} |\n'.format(repo, url, release_tag,
-                                                                 commit_date, '<br>'.join(cut(description.replace('\r\n', ' ').replace('\n', ' '),20)))
+                                                                 commit_date, '<br>'.join(cut(description.replace('\r\n', ' ').replace('\n', ' '),25)))
             except:
                 print('[fail 2]', url)
                 traceback.print_exc()
