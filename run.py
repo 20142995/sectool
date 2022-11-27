@@ -264,16 +264,16 @@ for type_1 in data:
                 if release_date:
                     if time.mktime(time.strptime(release_date, "%Y-%m-%d %H:%M:%S")) > time.mktime((datetime.datetime.now() - datetime.timedelta(days=n)).timetuple()):
                         release_md += '| {} | [{}]({}) | {} | {} | {} |\n'.format(
-                            type_2, repo, url, release_date, item['release_tag'],
-                            item['release_message'].replace('\r\n', '<br>').replace('\n', '<br>'))
+                            type_2, repo, url, release_date, item.get('release_tag'),
+                            item.get('release_message','').replace('\r\n', '<br>').replace('\n', '<br>'))
                 commit_date = item.get('commit_date')
                 if commit_date:
                     if time.mktime(time.strptime(commit_date, "%Y-%m-%d %H:%M:%S")) > time.mktime((datetime.datetime.now() - datetime.timedelta(days=n)).timetuple()):
                         commit_md += '| {} | [{}]({}) | {} | {} |\n'.format(
                             type_2, repo, url, commit_date, item['commit_message'].replace('\r\n', '<br>').replace('\n', '<br>'))
                 total_md += '| [{}]({}) | {} | {} | {} | {} | {} |\n'.format(
-                    repo, url, author, item['created_at'], item.get('commit_date'),
-                    item.get('release_tag'), item['description'].replace('\r\n', '<br>').replace('\n', '<br>'))
+                    repo, url, author, item.get('created_at'), item.get('commit_date'),
+                    item.get('release_tag'), item.get('description','').replace('\r\n', '<br>').replace('\n', '<br>'))
             except:
                 traceback.print_exc()
 
