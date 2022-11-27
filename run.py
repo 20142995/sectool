@@ -182,9 +182,9 @@ for type_1 in data:
                 description = parse(item.get('description', ''), 25)
                 release_tag = item.get('release_tag', '')
                 release_date = item.get('release_date', '')
-                release_message = parse(item.get('release_message', ''), 25)
+                release_message = parse(item.get('release_message', ''), 20)
                 commit_date = item.get('commit_date', '')
-                commit_message = parse(item.get('commit_message', ''), 25)
+                commit_message = parse(item.get('commit_message', ''), 20)
                 if release_date:
                     if time.mktime(time.strptime(release_date, "%Y-%m-%d %H:%M:%S")) > time.mktime((datetime.datetime.now() - datetime.timedelta(days=n)).timetuple()):
                         release_md += f'| [{repo}]({url}) | {release_date} | {release_tag} | {release_message} |\n'
