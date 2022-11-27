@@ -221,7 +221,7 @@ for type_1 in data:
                             rs['commit']['committer']['date'], "%Y-%m-%dT%H:%M:%SZ")) if rs['commit']['committer']['date'] else ''
                         item['commit_message'] = rs['commit']['message'] if rs['commit']['message'] else ''
                 except:
-                    print('error',author, repo)
+                    print('error',author, repo,rs2)
                 rs3 = gc.repos_releases_latest(author, repo)
                 item['release_tag'] = rs3['tag_name'] if rs3.get(
                     'tag_name') else ''
