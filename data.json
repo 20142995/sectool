@@ -395,9 +395,9 @@
                 "description": "“冰蝎”动态二进制加密网站管理客户端",
                 "commit_date": "2022-08-23 02:50:39",
                 "commit_message": "Update README.md\n\n新增传输协议详解参考链接",
-                "release_tag": "Behinder_v4.0.5",
-                "release_date": "2022-08-18 11:56:35",
-                "release_message": "### 2022.8.18 v4.0.5 更新日志\r\n\r\n1. 修复了内存马植入功能的一些bug；\r\n\r\n"
+                "release_tag": "Behinder_v4.0.6",
+                "release_date": "2022-11-28 17:47:44",
+                "release_message": "\r\n### 2022.11.28 v4.0.6 更新日志\r\n\r\n1.修复了Tomcat10中内存马植入无法连接的问题；\r\n2.修复了asp版本内置传输协议的连接问题；\r\n3.修复了传输协议在恢复默认时会出现错误的问题；\r\n4.内置了Javafx库，修复了各类因为Javafx环境无法运行的问题；\r\n5.修复了客户端兼容性问题，客户端兼容Java8至Java19；\r\n6.新增“默认”连接模式，兼容冰蝎3默认服务端；\r\n7.其他的一些优化。\r\n"
             },
             "https://github.com/BeichenDream/Godzilla": {
                 "created_at": "2020-08-17 17:27:56",

@@ -1,8 +1,9 @@
-# 更新于 2022-11-29 01:17:52
+# 更新于 2022-11-29 02:22:25
 
 ## 近30天release更新记录
 | 更新时间 | 项目名称 | 版本 | 更新内容 |
 | :---- | :---- | :---- | :---- |
+|2022-11-28 17:47:44|[Behinder](https://github.com/rebeyond/Behinder)|Behinder_<br>v4.0.6|### 2022.11.28 v4.0.6 更新日志1.修复了T<br>omcat10中内存马植入无法连接的问题；2.修<br>复了asp版本内置传输协议的连接问题；3.修复<br>了传输协议在恢复默认时会出现错误的问题；4<br>.内置了Javafx库，修复了各类因为Javafx环<br>境无法运行的问题；5.修复了客户端兼容性问<br>题，客户端兼容Java8至Java19；6.新增“默认<br>”连接模式，兼容冰蝎3默认服务端；7.其他的<br>一些优化。|
 |2022-11-27 10:27:08|[github-subdomains](https://github.com/gwen001/github-subdomains)|v1.1.0||
 |2022-11-23 03:58:28|[BpScan](https://github.com/EASY233/BpScan)|1.0.0|1、修复log4j poc编码问题2、修复dnslog平<br>台请求错误的问题3、其他bug修复|
 |2022-11-22 10:33:20|[log4j2burpscanner](https://github.com/f0ng/log4j2burpscanner)|0.20.1|# 0.20.1更新## 2022-11-22修复`.`替换参<br>数的问题|
@@ -123,7 +124,7 @@
 #### Shell管理
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
-| [Behinder](https://github.com/rebeyond/Behinder) | Behinder_<br>v4.0.5 | “冰蝎”动态二进制加密网站管理客户端 |
+| [Behinder](https://github.com/rebeyond/Behinder) | Behinder_<br>v4.0.6 | “冰蝎”动态二进制加密网站管理客户端 |
 | [Godzilla](https://github.com/BeichenDream/Godzilla) | v4.0.1-go<br>dzilla | 哥斯拉 |
 #### 中间件&框架漏洞利用
 | 项目名称 | 版本 | 项目描述 |
