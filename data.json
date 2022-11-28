@@ -914,6 +914,134 @@
                 "release_tag": null,
                 "release_date": "",
                 "release_message": null
+            },
+            "https://github.com/zhzyker/exphub": {
+                "created_at": "2020-04-01 09:33:35",
+                "description": "Exphub[漏洞利用脚本库] 包括Webloigc、Struts2、Tomcat、Nexus、Solr、Jboss、Drupal的漏洞利用脚本，最新添加CVE-2020-14882、CVE-2020-11444、CVE-2020-10204、CVE-2020-10199、CVE-2020-1938、CVE-2020-2551、CVE-2020-2555、CVE-2020-2883、CVE-2019-17558、CVE-2019-6340",
+                "commit_date": "2021-04-04 09:13:57",
+                "commit_message": "Update readme.md",
+                "release_tag": null,
+                "release_date": "",
+                "release_message": null
+            },
+            "https://github.com/wjl110/CVE-Master": {
+                "created_at": "2022-09-17 02:49:35",
+                "description": "收集本人自接触渗透测试用于漏洞验证的所有热门CVE、POC、CNVD攻击有效载荷+测试工具+FUZZ,一个仓库满足许多攻击测试场景,开箱即用.",
+                "commit_date": "2022-09-18 14:43:11",
+                "commit_message": "Create CNAME",
+                "release_tag": "v1.0.1",
+                "release_date": "2022-09-23 05:29:35",
+                "release_message": "Kali Windows Res包括了常见的shell ,木马 , jsp , php , 后台 , fuzz , 弱口令 , 爆破密码 , 和一些小工具"
+            }
+        },
+        "漏洞文库": {
+            "https://github.com/BaizeSec/bylibrary": {
+                "created_at": "2020-10-20 12:47:33",
+                "description": "白阁文库是白泽Sec安全团队维护的一个漏洞POC和EXP公开项目",
+                "commit_date": "2022-08-15 14:27:05",
+                "commit_message": "update",
+                "release_tag": null,
+                "release_date": "",
+                "release_message": null
+            },
+            "https://github.com/PeiQi0/PeiQi-WIKI-Book": {
+                "created_at": "2022-03-12 12:38:56",
+                "description": "面向网络安全从业者的知识文库🍃",
+                "commit_date": "2022-11-08 13:54:32",
+                "commit_message": "CTF夺旗: Misc: 文件修复,压缩包破解,图片隐写,音频隐写:tada:",
+                "release_tag": "PeiQi-WIKI-Book-2022-03-20",
+                "release_date": "2022-03-16 06:04:23",
+                "release_message": "PeiQi-WIKI-Book-2022-03-20 \r\n\r\n编译好的HTML源码打包，可以更简单的搭建在Web服务器中"
+            },
+            "https://github.com/Ares-X/VulWiki": {
+                "created_at": "2020-10-13 04:00:43",
+                "description": "VulWiki",
+                "commit_date": "2021-03-09 08:16:32",
+                "commit_message": "add sangfor",
+                "release_tag": null,
+                "release_date": "",
+                "release_message": null
+            },
+            "https://github.com/cckuailong/vulbase": {
+                "created_at": "2021-08-28 03:42:39",
+                "description": "各大漏洞文库合集",
+                "commit_date": "2021-10-05 01:04:37",
+                "commit_message": "add wx",
+                "release_tag": null,
+                "release_date": "",
+                "release_message": null
+            },
+            "https://github.com/Threekiii/Awesome-POC": {
+                "created_at": "2022-02-20 06:43:22",
+                "description": "一个各类漏洞POC知识库",
+                "commit_date": "2022-10-24 02:22:22",
+                "commit_message": "更新漏洞库：网络设备漏洞/",
+                "release_tag": null,
+                "release_date": "",
+                "release_message": null
+            },
+            "https://github.com/Threekiii/Vulnerability-Wiki": {
+                "created_at": "2022-04-29 05:36:33",
+                "description": "一个综合漏洞知识库，集成了Vulhub、Peiqi、Edge、0sec、Wooyun等开源漏洞库",
+                "commit_date": "2022-11-25 08:53:43",
+                "commit_message": "更新漏洞",
+                "release_tag": "v1.0",
+                "release_date": "2022-07-15 01:58:00",
+                "release_message": "Vulnerability-Wiki项目中docs-0sec的打包文件，下载后于主项目docs-0sec文件夹下解压即可。\r\n\r\n\r\n"
+            },
+            "https://github.com/heise5yuetian/yougar0.github.io": {
+                "created_at": "2021-03-31 16:01:32",
+                "description": "漏洞知识库",
+                "commit_date": "2021-03-31 10:57:28",
+                "commit_message": "新增CVE",
+                "release_tag": null,
+                "release_date": "",
+                "release_message": null
+            },
+            "https://github.com/Threekiii/Vulhub-Reproduce": {
+                "created_at": "2022-03-03 08:38:29",
+                "description": "一个Vulhub漏洞复现知识库",
+                "commit_date": "2022-11-25 08:53:03",
+                "commit_message": "YApi NoSQL注入导致远程命令执行漏洞.md",
+                "release_tag": null,
+                "release_date": "",
+                "release_message": null
+            },
+            "https://github.com/DVPNET/Report_Public": {
+                "created_at": "2021-01-12 05:52:07",
+                "description": " DVPNET 公开漏洞知识库",
+                "commit_date": "2021-06-10 06:26:03",
+                "commit_message": "Add files via upload",
+                "release_tag": null,
+                "release_date": "",
+                "release_message": null
+            },
+            "https://github.com/light-Life/BUG-Pocket": {
+                "created_at": "2021-07-06 11:23:54",
+                "description": "小型漏洞库，提供FOFA语法及批量脚本，具体利用法请参考别的漏洞库，共4种类型47项",
+                "commit_date": "2021-07-31 02:01:39",
+                "commit_message": "Update ShopNC.py",
+                "release_tag": null,
+                "release_date": "",
+                "release_message": null
+            },
+            "https://github.com/ScarecrowSec/WiKi": {
+                "created_at": "2021-07-10 15:17:58",
+                "description": "稻草人安全团队漏洞库",
+                "commit_date": "2021-07-24 07:10:31",
+                "commit_message": "Update SUMMARY.md",
+                "release_tag": null,
+                "release_date": "",
+                "release_message": null
+            },
+            "https://github.com/Cuerz/PoC-ExP": {
+                "created_at": "2022-07-18 01:35:04",
+                "description": "【漏洞Poc知识库】一个网络安全爱好者对网络上一些已知漏洞payload的收录，持续更新。并编写了利用脚本，可用于日常学习或批量的src漏洞挖掘",
+                "commit_date": "2022-09-23 05:22:17",
+                "commit_message": "安恒明御防火墙未授权",
+                "release_tag": null,
+                "release_date": "",
+                "release_message": null
             }
         }
     },
@@ -1189,6 +1317,15 @@
                 "release_tag": "0.3.0",
                 "release_date": "2021-07-28 03:46:18",
                 "release_message": "1. 增加请求转发间隔时间 (thx @gh0stkey)\r\n2. Update the regex pattern for Domain filter (thx @Danyang Song)\r\n3. fixed a bug about the handle of GET request (thx @podm1n)"
+            },
+            "https://github.com/EASY233/BpScan": {
+                "created_at": "2022-11-23 03:47:41",
+                "description": "一款用于辅助渗透测试工程师日常渗透测试的Burp被动漏扫插件",
+                "commit_date": "2022-11-25 11:42:34",
+                "commit_message": "update",
+                "release_tag": "1.0.0",
+                "release_date": "2022-11-23 03:58:28",
+                "release_message": "1、修复log4j poc编码问题\r\n2、修复dnslog平台请求错误的问题\r\n3、其他bug修复"
             }
         },
         "xray": {
@@ -1285,6 +1422,17 @@
                 "release_tag": "v0.3",
                 "release_date": "2022-06-05 23:29:09",
                 "release_message": "# location 可配置  \r\n允许修改或者 hook location 属性。如下图  \r\n![](https://github.com/v8blink/Chromium-based-XSS-Taint-Tracking/blob/main/images/V0.3-location-configurable.png)"
+            }
+        },
+        "pocassist": {
+            "https://github.com/jweny/pocassistdb": {
+                "created_at": "2021-06-16 09:56:49",
+                "description": "database of pocassist（漏洞库）",
+                "commit_date": "2021-07-09 10:11:13",
+                "commit_message": "Update db for 1.0.2",
+                "release_tag": "1.0.2",
+                "release_date": "2021-07-09 10:14:03",
+                "release_message": "pocassist v1.0.2 数据库 \r\n\r\n重新开放"
             }
         }
     },

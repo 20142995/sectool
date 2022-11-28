@@ -1,9 +1,10 @@
-# 更新于 2022-11-28 13:17:36
+# 更新于 2022-11-28 14:23:22
 
 ## 近30天release更新记录
 | 更新时间 | 项目名称 | 版本 | 更新内容 |
 | :---- | :---- | :---- | :---- |
 |2022-11-27 10:27:08|[github-subdomains](https://github.com/gwen001/github-subdomains)|v1.1.0||
+|2022-11-23 03:58:28|[BpScan](https://github.com/EASY233/BpScan)|1.0.0|1、修复log4j poc编码问题2、修复dnslog平<br>台请求错误的问题3、其他bug修复|
 |2022-11-22 10:33:20|[log4j2burpscanner](https://github.com/f0ng/log4j2burpscanner)|0.20.1|# 0.20.1更新## 2022-11-22修复`.`替换参<br>数的问题|
 |2022-11-20 09:04:40|[knife](https://github.com/bit4woo/knife)|v2.1|融合U2C和Chinese2个Tab，让它们都可以支<br>持切换编码新增功能：从JS中查找URL路径后，<br>拼接BaseURL并请求其他小的更新、bug修复## <br>What's Changed* Bump gson from 2.3.1 to <br>2.8.9 by @dependabot in https://github.c<br>om/bit4woo/knife/pull/45* Bump commons-t<br>ext from 1.6 to 1.10.0 by @dependabot in<br> https://github.com/bit4woo/knife/pull/5<br>3## New Contributors* @dependabot made t<br>heir first contribution in https://githu<br>b.com/bit4woo/knife/pull/45**Full Change<br>log**: https://github.com/bit4woo/knife/<br>compare/v2.0...v2.1|
 |2022-11-18 09:37:35|[domain_hunter_pro](https://github.com/bit4woo/domain_hunter_pro)|v1.9-alph<br>a|**这是重构版本，与旧版本不兼容！！！这<br>是重构版本，与旧版本不兼容！！！这是重构<br>版本，与旧版本不兼容！！！**重新设计了数<br>据库的表结构，尽量提升数据库读写效率重新<br>设计了数据对象、UI、数据库之间的数据同步<br>逻辑重新设计了数据存储的基础类，保证线程<br>安全重新设计了table中model类的部分逻辑，<br>减少内存占用优化了数据对象的字段，尽量减<br>小每个数据对象的内存占用优化了数据提取的<br>正则表达式和逻辑优化了根域名、网段作控制<br>目标范围的逻辑优化了当根域名、网段变化时<br>，数据的刷新逻辑优化了数据数据加载逻辑其<br>他各种逻辑优化、bug修改总之就是大动作，和<br>旧版本不兼容，可能存在潜在bug（虽然我已经<br>试用一段时间，排除了很多bug），所以发布一<br>个alpha版本在正式版本之前。欢迎试用提交bu<br>g，使用时建议创建新的项目数据库，不要使<br>用旧数据库文件。|
@@ -24,6 +25,9 @@
 |2022-11-27 03:38:42|[afrog](https://github.com/zan8in/afrog)|update CVE-2022-36883|
 |2022-11-26 02:32:16|[OneForAll](https://github.com/shmilylty/OneForAll)|解决#286|
 |2022-11-25 14:53:59|[BurpSuite-collectio<br>ns](https://github.com/Mr-xn/BurpSuite-collections)|add BpScan一款用于辅助渗透测试工程师日常渗透测试的Burp<br>被动漏扫插件(SpringSpiderScan、Log4jScan和FastJsonScan)|
+|2022-11-25 11:42:34|[BpScan](https://github.com/EASY233/BpScan)|update|
+|2022-11-25 08:53:43|[Vulnerability-Wiki](https://github.com/Threekiii/Vulnerability-Wiki)|更新漏洞|
+|2022-11-25 08:53:03|[Vulhub-Reproduce](https://github.com/Threekiii/Vulhub-Reproduce)|YApi NoSQL注入导致远程命令执行漏洞.md|
 |2022-11-23 13:31:50|[dirsearch](https://github.com/maurosoria/dirsearch)|Merge pull request #1248 from drego85/patch-12Useful F<br>iles and Directory for the SIMOGEO FileManager exploit|
 |2022-11-22 18:59:04|[pocsuite3](https://github.com/knownsec/pocsuite3)|Merge pull request #341 from 13ph03nix/fix/console-use<br>-commandfix: use command in console mode use absolute p<br>ath|
 |2022-11-22 08:23:43|[log4j2burpscanner](https://github.com/f0ng/log4j2burpscanner)|Update README-zh-CN.md|
@@ -41,6 +45,7 @@
 |2022-11-15 09:05:50|[AttackTomcat](https://github.com/tpt11fb/AttackTomcat)|Create README.md|
 |2022-11-15 05:41:53|[autoDecoder](https://github.com/f0ng/autoDecoder)|Update README.md|
 |2022-11-11 14:18:43|[Packer-Fuzzer](https://github.com/rtcatc/Packer-Fuzzer)|v1.4.13 update config|
+|2022-11-08 13:54:32|[PeiQi-WIKI-Book](https://github.com/PeiQi0/PeiQi-WIKI-Book)|CTF夺旗: Misc: 文件修复,压缩包破解,图片隐写,音频隐写:t<br>ada:|
 |2022-11-08 12:25:49|[ThunderSearch](https://github.com/xzajyjs/ThunderSearch)|update to v2.3.2|
 |2022-11-08 06:43:32|[aksk_tool](https://github.com/wyzxxz/aksk_tool)|Update README.md|
 |2022-11-04 03:20:29|[JSFScan.sh](https://github.com/KathanP19/JSFScan.sh)|Merge pull request #38 from jamboro/jacmo_targetescape<br>Update JSFScan.sh|
@@ -196,6 +201,23 @@
 | :---- | :---- | :---- |
 | [poc-hub](https://github.com/ybdt/poc-hub) |  | 漏洞检测、漏洞利用 |
 | [Awesome-Exploit](https://github.com/Threekiii/Awesome-Exploit) |  | 一个漏洞利用工具仓库 |
+| [exphub](https://github.com/zhzyker/exphub) |  | Exphub[漏洞利用脚本库] 包括Webloigc、Struts2、Tomcat、Nexus、Sol<br>r、Jboss、Drupal的漏洞利用脚本，最新添加CVE-2020-14882、CVE-2020-<br>11444、CVE-2020-10204、CVE-2020-10199、CVE-2020-1938、CVE-2020-25<br>51、CVE-2020-2555、CVE-2020-2883、CVE-2019-17558、CVE-2019-6340 |
+| [CVE-Master](https://github.com/wjl110/CVE-Master) | v1.0.1 | 收集本人自接触渗透测试用于漏洞验证的所有热门CVE、POC、CNVD攻击有<br>效载荷+测试工具+FUZZ,一个仓库满足许多攻击测试场景,开箱即用. |
+#### 漏洞文库
+| 项目名称 | 版本 | 项目描述 |
+| :---- | :---- | :---- |
+| [bylibrary](https://github.com/BaizeSec/bylibrary) |  | 白阁文库是白泽Sec安全团队维护的一个漏洞POC和EXP公开项目 |
+| [PeiQi-WIKI-Book](https://github.com/PeiQi0/PeiQi-WIKI-Book) | PeiQi-WIK<br>I-Book-202<br>2-03-20 | 面向网络安全从业者的知识文库🍃 |
+| [VulWiki](https://github.com/Ares-X/VulWiki) |  | VulWiki |
+| [vulbase](https://github.com/cckuailong/vulbase) |  | 各大漏洞文库合集 |
+| [Awesome-POC](https://github.com/Threekiii/Awesome-POC) |  | 一个各类漏洞POC知识库 |
+| [Vulnerability-Wiki](https://github.com/Threekiii/Vulnerability-Wiki) | v1.0 | 一个综合漏洞知识库，集成了Vulhub、Peiqi、Edge、0sec、Wooyun等开<br>源漏洞库 |
+| [yougar0.github.io](https://github.com/heise5yuetian/yougar0.github.io) |  | 漏洞知识库 |
+| [Vulhub-Reproduce](https://github.com/Threekiii/Vulhub-Reproduce) |  | 一个Vulhub漏洞复现知识库 |
+| [Report_Public](https://github.com/DVPNET/Report_Public) |  |  DVPNET 公开漏洞知识库 |
+| [BUG-Pocket](https://github.com/light-Life/BUG-Pocket) |  | 小型漏洞库，提供FOFA语法及批量脚本，具体利用法请参考别的漏洞库，<br>共4种类型47项 |
+| [WiKi](https://github.com/ScarecrowSec/WiKi) |  | 稻草人安全团队漏洞库 |
+| [PoC-ExP](https://github.com/Cuerz/PoC-ExP) |  | 【漏洞Poc知识库】一个网络安全爱好者对网络上一些已知漏洞payload的<br>收录，持续更新。并编写了利用脚本，可用于日常学习或批量的src漏洞挖<br>掘 |
 ### 内网渗透
 #### 密码提取
 | 项目名称 | 版本 | 项目描述 |
@@ -240,6 +262,7 @@
 | [knife](https://github.com/bit4woo/knife) | v2.1 | A burp extension that add some useful function toContext Menu 添<br>加一些右键菜单让burp用起来更顺畅 |
 | [log4j2burpscanner](https://github.com/f0ng/log4j2burpscanner) | 0.20.1 | CVE-2021-44228 Log4j2 BurpSuite Scanner,Customize ceye.io api or<br> other apis,including internal networks |
 | [passive-scan-client](https://github.com/c0ny1/passive-scan-client) | 0.3.0 | Burp被动扫描流量转发插件 |
+| [BpScan](https://github.com/EASY233/BpScan) | 1.0.0 | 一款用于辅助渗透测试工程师日常渗透测试的Burp被动漏扫插件 |
 #### xray
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
@@ -259,6 +282,10 @@
 | [mitaka](https://github.com/ninoseki/mitaka) | v0.93.0 | A browser extension for OSINT search |
 | [anti-honeypot](https://github.com/cnrstar/anti-honeypot) |  | 一款可以检测WEB蜜罐并阻断请求的Chrome插件 |
 | [Chromium-based-XSS-<br>Taint-Tracking](https://github.com/v8blink/Chromium-based-XSS-Taint-Tracking) | v0.3 | Cyclops 是一款具有 XSS 检测功能的浏览器 |
+#### pocassist
+| 项目名称 | 版本 | 项目描述 |
+| :---- | :---- | :---- |
+| [pocassistdb](https://github.com/jweny/pocassistdb) | 1.0.2 | database of pocassist（漏洞库） |
 ### CTF杂项
 #### 图片隐写
 | 项目名称 | 版本 | 项目描述 |
