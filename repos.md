@@ -140,3 +140,12 @@
 |CTF杂项|图片隐写|https://github.com/Giotino/stegsolve|
 |CTF杂项|图片隐写|https://github.com/ww23/BlindWatermark|
 |工具&插件|Burpsuite插件|https://github.com/EASY233/BpScan|
+|漏洞发现&利用|漏洞文库|https://github.com/BaizeSec/bylibrary|
+|漏洞发现&利用|漏洞文库|https://github.com/PeiQi0/PeiQi-WIKI-Book|
+|漏洞发现&利用|漏洞文库|https://github.com/Ares-X/VulWiki|
+|漏洞发现&利用|漏洞文库|https://github.com/cckuailong/vulbase|
+|漏洞发现&利用|漏洞文库|https://github.com/Threekiii/Awesome-POC|
+|漏洞发现&利用|漏洞文库|https://github.com/Threekiii/Vulnerability-Wiki|
+|漏洞发现&利用|漏洞文库|https://github.com/heise5yuetian/yougar0.github.io|
+|工具&插件|pocassist|https://github.com/jweny/pocassistdb|
+|漏洞发现&利用|漏洞文库|https://github.com/Threekiii/Vulhub-Reproduce|
