@@ -290,9 +290,9 @@
                 "description": "Vulmap 是一款 web 漏洞扫描和验证工具, 可对 webapps 进行漏洞扫描, 并且具备漏洞验证功能",
                 "commit_date": "2022-04-13 13:23:54",
                 "commit_message": "fofa.info",
-                "release_tag": "v0.9",
-                "release_date": "2021-09-01 03:07:31",
-                "release_message": "remove exploit"
+                "release_tag": "v0.8",
+                "release_date": "2021-08-22 04:53:22",
+                "release_message": "* 支持扫描 [dismap](https://github.com/zhzyker/dismap) 识别结果文件 `-f output.txt`\r\n* 种类新增 coremail, ecology, eyou, qianxin, ruijie 漏洞\r\n* POC新增 Apache OFBiz CVE-2021-29200 CVE-2021-30128\r\n* POC新增 Apache Solr CVE-2021-27905 \r\n* POC新增 Fastjson 回显 VER-1224-2  VER-1224-3\r\n* POC新增 Oracle Weblogic CVE-2016-0638 CVE-2018-3191 CVE-2019-2890\r\n***\r\n* Support scanning [dismap](https://github.com/zhzyker/dismap) recognition result file `-f output.txt`\r\n* Added coremail, ecology, eyou, qianxin, ruijie vulnerabilities in categories\r\n* POC added Apache OFBiz CVE-2021-29200 CVE-2021-30128\r\n* POC added Apache Solr CVE-2021-27905\r\n* POC added Fastjson echo VER-1224-2 VER-1224-3\r\n* POC added Oracle Weblogic CVE-2016-0638 CVE-2018-3191 CVE-2019-2890"
             }
         },
         "漏洞扫描框架": {
