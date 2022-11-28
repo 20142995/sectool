@@ -33,7 +33,6 @@
 |漏洞发现&利用|半自动漏洞扫描|https://github.com/zhzyker/vulmap|
 |漏洞发现&利用|漏洞扫描框架|https://github.com/knownsec/pocsuite3|
 |漏洞发现&利用|数据库利用|https://github.com/SafeGroceryStore/MDUT|
-|漏洞发现&利用|数据库利用|https://github.com/Liqunkit/LiqunKit_|
 |漏洞发现&利用|数据库利用|https://github.com/uknowsec/SharpSQLTools|
 |漏洞发现&利用|数据库利用|https://github.com/blackarrowsec/mssqlproxy|
 |漏洞发现&利用|数据库利用|https://github.com/quentinhardy/odat|
