@@ -149,3 +149,9 @@
 |漏洞发现&利用|漏洞文库|https://github.com/heise5yuetian/yougar0.github.io|
 |工具&插件|pocassist|https://github.com/jweny/pocassistdb|
 |漏洞发现&利用|漏洞文库|https://github.com/Threekiii/Vulhub-Reproduce|
+|漏洞发现&利用|漏洞检测利用仓库|https://github.com/zhzyker/exphub|
+|漏洞发现&利用|漏洞文库|https://github.com/DVPNET/Report_Public|
+|漏洞发现&利用|漏洞文库|https://github.com/light-Life/BUG-Pocket|
+|漏洞发现&利用|漏洞文库|https://github.com/ScarecrowSec/WiKi|
+|漏洞发现&利用|漏洞文库|https://github.com/Cuerz/PoC-ExP|
+|漏洞发现&利用|漏洞检测利用仓库|https://github.com/wjl110/CVE-Master|
