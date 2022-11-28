@@ -1,4 +1,4 @@
-# 更新于 2022-11-28 19:15:44
+# 更新于 2022-11-28 20:34:32
 
 ## 近30天release更新记录
 | 更新时间 | 项目名称 | 版本 | 更新内容 |
@@ -103,7 +103,7 @@
 | [Fvuln](https://github.com/d3ckx1/Fvuln) | Fvuln_v1.<br>4.8 | F-vuln（全称：Find-Vulnerability）是为了自己工作方便专门编写的一<br>款自动化工具，主要适用于日常安全服务、渗透测试人员和RedTeam红队人<br>员，它集合的功能包括：存活IP探测、开放端口探测、web服务探测、web漏<br>洞扫描、smb爆破、ssh爆破、ftp爆破、mssql爆破等其他数据库爆破工作以<br>及大量web漏洞检测模块。 |
 | [nuclei](https://github.com/projectdiscovery/nuclei) | v2.7.9 | Fast and customizable vulnerability scanner based on simple YAML<br> based DSL. |
 | [afrog](https://github.com/zan8in/afrog) | v2.0.0 | afrog 是一款性能卓越、快速稳定、PoC 可定制化的漏洞扫描工具 - A t<br>ool for finding vulnerabilities |
-| [vulmap](https://github.com/zhzyker/vulmap) | v0.8 | Vulmap 是一款 web 漏洞扫描和验证工具, 可对 webapps 进行漏洞扫描,<br> 并且具备漏洞验证功能 |
+| [vulmap](https://github.com/zhzyker/vulmap) | v0.9 | Vulmap 是一款 web 漏洞扫描和验证工具, 可对 webapps 进行漏洞扫描,<br> 并且具备漏洞验证功能 |
 #### 漏洞扫描框架
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
