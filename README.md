@@ -1,4 +1,4 @@
-# 更新于 2022-11-28 15:18:10
+# 更新于 2022-11-28 16:23:33
 
 ## 近30天release更新记录
 | 更新时间 | 项目名称 | 版本 | 更新内容 |
@@ -199,7 +199,7 @@
 #### 漏洞检测利用仓库
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
-| [poc-hub](https://github.com/ybdt/poc-hub) |  | 漏洞检测、漏洞利用 |
+| [poc-hub](https://github.com/ybdt/poc-hub) |  | 漏洞复现、漏洞检测 |
 | [Awesome-Exploit](https://github.com/Threekiii/Awesome-Exploit) |  | 一个漏洞利用工具仓库 |
 | [exphub](https://github.com/zhzyker/exphub) |  | Exphub[漏洞利用脚本库] 包括Webloigc、Struts2、Tomcat、Nexus、Sol<br>r、Jboss、Drupal的漏洞利用脚本，最新添加CVE-2020-14882、CVE-2020-<br>11444、CVE-2020-10204、CVE-2020-10199、CVE-2020-1938、CVE-2020-25<br>51、CVE-2020-2555、CVE-2020-2883、CVE-2019-17558、CVE-2019-6340 |
 | [CVE-Master](https://github.com/wjl110/CVE-Master) | v1.0.1 | 收集本人自接触渗透测试用于漏洞验证的所有热门CVE、POC、CNVD攻击有<br>效载荷+测试工具+FUZZ,一个仓库满足许多攻击测试场景,开箱即用. |

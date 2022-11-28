@@ -899,7 +899,7 @@
         "漏洞检测利用仓库": {
             "https://github.com/ybdt/poc-hub": {
                 "created_at": "2020-09-03 04:47:40",
-                "description": "漏洞检测、漏洞利用",
+                "description": "漏洞复现、漏洞检测",
                 "commit_date": "2022-10-24 16:38:39",
                 "commit_message": "Create .gitignore",
                 "release_tag": null,
