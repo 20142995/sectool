@@ -171,3 +171,5 @@
 |漏洞发现&利用|中间件&框架漏洞利用|https://github.com/0x727/SpringBootExploit|
 |漏洞发现&利用|漏洞扫描框架|https://github.com/qianxiao996/FrameScan-GUI|
 |CTF综合|知识库|https://github.com/kitezzzGrim/CTF-Note|
+|相关资源|知识库|https://github.com/CYJoe-Cyclone/PenetrationTesttips|
+|信息收集|综合|https://github.com/zhzyker/dismap|
