@@ -19,6 +19,7 @@
 |信息收集|目录扫描|https://github.com/foryujian/yjdirscan|
 |信息收集|目录扫描|https://github.com/hunyaio/yuhScan|
 |信息收集|目录扫描|https://github.com/jaeles-project/gospider|
+|信息收集|目录扫描|https://github.com/chaitin/rad|
 |信息收集|指纹识别|https://github.com/EdgeSecurityTeam/EHole|
 |信息收集|端口扫描|https://github.com/4dogs-cn/TXPortMap|
 |信息收集|端口扫描|https://github.com/projectdiscovery/naabu|
