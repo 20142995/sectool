@@ -164,3 +164,8 @@
 |CTF杂项|编码解码|https://github.com/ht0Ruial/TomatoTools|
 |漏洞发现&利用|数据库利用|https://github.com/1n7erface/RequestTemplate|
 |漏洞发现&利用|半自动漏洞扫描|https://github.com/tr0uble-mAker/POC-bomber|
+|漏洞发现&利用|漏洞扫描框架|https://github.com/Guoke324/Godscan|
+|相关资源|知识库|https://github.com/12306Bro/Threathunting-book|
+|漏洞发现&利用|漏洞利用辅助|https://github.com/frohoff/ysoserial|
+|相关资源|优秀开源项目集合|https://github.com/lintstar/About-Attack|
+|漏洞发现&利用|中间件&框架漏洞利用|https://github.com/0x727/SpringBootExploit|
