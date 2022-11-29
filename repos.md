@@ -169,3 +169,5 @@
 |漏洞发现&利用|漏洞利用辅助|https://github.com/frohoff/ysoserial|
 |相关资源|优秀开源项目集合|https://github.com/lintstar/About-Attack|
 |漏洞发现&利用|中间件&框架漏洞利用|https://github.com/0x727/SpringBootExploit|
+|漏洞发现&利用|漏洞扫描框架|https://github.com/qianxiao996/FrameScan-GUI|
+|CTF综合|知识库|https://github.com/kitezzzGrim/CTF-Note|
