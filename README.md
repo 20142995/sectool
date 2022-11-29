@@ -1,4 +1,4 @@
-# 更新于 2022-11-29 16:24:37
+# 更新于 2022-11-29 17:19:08
 
 ## 近30天release更新记录
 | 更新时间 | 项目名称 | 版本 | 更新内容 |
@@ -269,7 +269,7 @@
 | [About-Attack](https://github.com/lintstar/About-Attack) |  | 一个旨在通过应用场景 / 标签对 Github 红队向工具 / 资源进行分类收<br>集，降低红队技术门槛的手册【持续更新】 |
 | [RedTeamTools](https://github.com/FiveAourThe/RedTeamTools) |  | 分享红队常用的工具 |
 ### 工具&插件
-#### Burpsuite插件
+#### Burpsuite
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
 | [PowerScanner](https://github.com/NeoTheCapt/PowerScanner) | 1.1.3 | 面向HW的红队半自动扫描器 |
@@ -325,6 +325,10 @@
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
 | [Library-POC](https://github.com/luck-ying/Library-POC) |  | 基于Pocsuite3、goby编写的漏洞poc&exp存档 |
+#### volatility
+| 项目名称 | 版本 | 项目描述 |
+| :---- | :---- | :---- |
+| [tool-for-CTF](https://github.com/ruokeqx/tool-for-CTF) |  | Virtual machine configuration for CTF |
 ### CTF杂项
 #### 图片隐写
 | 项目名称 | 版本 | 项目描述 |
