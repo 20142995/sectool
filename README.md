@@ -1,4 +1,4 @@
-# 更新于 2022-11-29 13:16:58
+# 更新于 2022-11-29 14:23:37
 
 ## 近30天release更新记录
 | 更新时间 | 项目名称 | 版本 | 更新内容 |
@@ -21,10 +21,10 @@
 ## 近30天commit提交记录
 | 提交时间 | 项目名称 | 更新内容 |
 | :---- | :---- | :---- |
+|2022-11-29 05:51:59|[afrog](https://github.com/zan8in/afrog)|update 60 pocs|
 |2022-11-29 02:41:57|[aksk_tool](https://github.com/wyzxxz/aksk_tool)|Update README.md|
 |2022-11-27 10:25:20|[github-subdomains](https://github.com/gwen001/github-subdomains)|readme|
 |2022-11-27 07:02:42|[knife](https://github.com/bit4woo/knife)|update|
-|2022-11-27 03:38:42|[afrog](https://github.com/zan8in/afrog)|update CVE-2022-36883|
 |2022-11-26 02:32:16|[OneForAll](https://github.com/shmilylty/OneForAll)|解决#286|
 |2022-11-25 14:53:59|[BurpSuite-collectio<br>ns](https://github.com/Mr-xn/BurpSuite-collections)|add BpScan一款用于辅助渗透测试工程师日常渗透测试的Burp<br>被动漏扫插件(SpringSpiderScan、Log4jScan和FastJsonScan)|
 |2022-11-25 11:42:34|[BpScan](https://github.com/EASY233/BpScan)|update|
