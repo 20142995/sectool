@@ -158,3 +158,5 @@
 |相关资源|优秀开源项目集合|https://github.com/knownsec/404StarLink|
 |相关资源|优秀开源项目集合|https://github.com/We5ter/Scanners-Box|
 |相关资源|优秀开源项目集合|https://github.com/guchangan1/All-Defense-Tool|
+|CTF杂项|流量分析|https://github.com/WangYihang/UsbMiceDataHacker|
+|CTF杂项|流量分析|https://github.com/WangYihang/UsbKeyboardDataHacker|
