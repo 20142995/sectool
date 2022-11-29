@@ -161,3 +161,5 @@
 |CTF杂项|流量分析|https://github.com/WangYihang/UsbMiceDataHacker|
 |CTF杂项|流量分析|https://github.com/WangYihang/UsbKeyboardDataHacker|
 |信息收集|目录扫描|https://github.com/chaitin/rad|
+|CTF杂项|编码解码|https://github.com/ht0Ruial/TomatoTools|
+|漏洞发现&利用|数据库利用|https://github.com/1n7erface/RequestTemplate|
