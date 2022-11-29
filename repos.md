@@ -19,7 +19,6 @@
 |信息收集|目录扫描|https://github.com/foryujian/yjdirscan|
 |信息收集|目录扫描|https://github.com/hunyaio/yuhScan|
 |信息收集|目录扫描|https://github.com/jaeles-project/gospider|
-|信息收集|目录扫描|https://github.com/chaitin/rad|
 |信息收集|指纹识别|https://github.com/EdgeSecurityTeam/EHole|
 |信息收集|端口扫描|https://github.com/4dogs-cn/TXPortMap|
 |信息收集|端口扫描|https://github.com/projectdiscovery/naabu|
@@ -161,3 +160,4 @@
 |相关资源|优秀开源项目集合|https://github.com/guchangan1/All-Defense-Tool|
 |CTF杂项|流量分析|https://github.com/WangYihang/UsbMiceDataHacker|
 |CTF杂项|流量分析|https://github.com/WangYihang/UsbKeyboardDataHacker|
+|信息收集|目录扫描|https://github.com/chaitin/rad|
