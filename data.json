@@ -175,6 +175,15 @@
                 "release_tag": "v1.1.6",
                 "release_date": "2021-06-27 07:19:44",
                 "release_message": "Refactor and fixes some bugs."
+            },
+            "https://github.com/chaitin/rad": {
+                "created_at": "2020-08-12 01:55:30",
+                "description": null,
+                "commit_date": "2021-04-30 12:14:50",
+                "commit_message": "Update README.md",
+                "release_tag": "0.4",
+                "release_date": "2021-04-30 12:11:44",
+                "release_message": "⚠️该版本配置与之前（0.3/0.2/0.1）版本不兼容，请保存旧的配置后重新生成配置。\r\n\r\n+ 优化爬取效果，更强力更全面的页面分析能力，更优策略。\r\n+ 优化调度，爬取过程更快速顺畅。\r\n+ 将过滤分为`加入爬取队列`、`发送请求`、`输出结果`三部分配置，可以方便的控制各个环节的过滤。\r\n+ 体验细节优化。"
             }
         },
         "指纹识别": {
@@ -206,6 +215,17 @@
                 "release_tag": "v2.1.1",
                 "release_date": "2022-10-25 21:49:53",
                 "release_message": "## What's Changed\r\n\r\n* Added **ASN input** support by @ShubhamRasal in https://github.com/projectdiscovery/naabu/pull/445\r\n```console\r\necho AS15133 | naabu\r\n```\r\n* Added **host exclusion** by open **port threshold** by @parrasajad in https://github.com/projectdiscovery/naabu/pull/416\r\n```console\r\necho AS15133 | naabu -pts 100\r\n```\r\n* Added **automatic host discovery** support by @Mzack9999 in https://github.com/projectdiscovery/naabu/pull/418\r\n* Added documentation for using [naabu as library](https://github.com/projectdiscovery/naabu#using-naabu-as-library) by @Mzack9999 in https://github.com/projectdiscovery/naabu/pull/446\r\n\r\n## New Contributors\r\n* @ShubhamRasal made their first contribution in https://github.com/projectdiscovery/naabu/pull/445\r\n\r\n**Full Changelog**: https://github.com/projectdiscovery/naabu/compare/v2.1.0...v2.1.1"
+            }
+        },
+        "综合": {
+            "https://github.com/zhzyker/dismap": {
+                "created_at": "2021-07-24 12:37:45",
+                "description": "Asset discovery and identification tools 快速识别 Web 指纹信息，定位资产类型。辅助红队快速定位目标资产信息，辅助蓝队发现疑似脆弱点",
+                "commit_date": "2022-06-16 09:31:58",
+                "commit_message": "Merge pull request #23 from zhzyker/version-0.4\n\nVersion 0.4",
+                "release_tag": "v0.4",
+                "release_date": "2022-06-16 10:13:59",
+                "release_message": "* Optimize concurrency strategy to improve speed (https://github.com/zhzyker/dismap/commit/a2a779f512fc02984a909f359b644154b8855d64)\r\n* Optimize json output (https://github.com/zhzyker/dismap/commit/a2a779f512fc02984a909f359b644154b8855d64) https://github.com/zhzyker/dismap/issues/19\r\n* Added giop protocol identification rules (https://github.com/zhzyker/dismap/commit/edcf125ffac50c0555ead1791d8688b3477d10ce)\r\n* Added web fingerprinting rules\r\n\r\n***\r\n\r\n* 优化并发策略，理论上扫描速度+50% (https://github.com/zhzyker/dismap/commit/a2a779f512fc02984a909f359b644154b8855d64)\r\n* 优化 json 输出 (https://github.com/zhzyker/dismap/commit/a2a779f512fc02984a909f359b644154b8855d64) https://github.com/zhzyker/dismap/issues/19\r\n* 新增 giop 协议识别 (https://github.com/zhzyker/dismap/commit/edcf125ffac50c0555ead1791d8688b3477d10ce)\r\n* 新增 web 指纹识别规则\r\n\r\n```BASH\r\n#MD5SUM  \r\ned45058d0b4b1a488908003d11566d3f  dismap-0.4-darwin-amd64\r\nd5d8662a35b9d02cd60edbcb6a4d832a  dismap-0.4-darwin-arm64\r\ne62e4e4f17fc14316ff78de7735c1cbc  dismap-0.4-linux-amd64\r\n33ac2c467e3efede0d883f3d5a08281e  dismap-0.4-linux-arm64\r\nd759431d0fcb55881fc3e2afbb1f55d6  dismap-0.4-windows-amd64.exe\r\n545704128fb9faef774037b143d80f0a  dismap-0.4-windows-x86.exe\r\n```"
             }
         }
     },
@@ -293,6 +313,15 @@
                 "release_tag": "v0.9",
                 "release_date": "2021-09-01 03:07:31",
                 "release_message": "remove exploit"
+            },
+            "https://github.com/tr0uble-mAker/POC-bomber": {
+                "created_at": "2021-11-26 04:21:02",
+                "description": "利用大量高威胁poc/exp快速获取目标权限，用于渗透和红队快速打点",
+                "commit_date": "2022-09-13 04:17:10",
+                "commit_message": "新增POC   Dahua IPC/VTH/VTO devices Authentication Bypas(CVE-2021-33044)",
+                "release_tag": "v2.0.2-POC-bomber",
+                "release_date": "2022-04-25 13:17:00",
+                "release_message": "v2.0.2-POC-bomber"
             }
         },
         "漏洞扫描框架": {
@@ -304,6 +333,24 @@
                 "release_tag": "v2.0.1",
                 "release_date": "2022-11-09 00:28:07",
                 "release_message": "* 修复 words 匹配器表达式执行的问题 #333, thanks @soapffz\r\n* 修复模版中包含中文异常捕获的问题 #334, thanks @izj007\r\n* 提高模版的鲁棒性\r\n* 支持 digest_username 和 digest_password，用于 http 认证\r\n* 支持 negative 反向匹配器\r\n---\r\n\r\n* fix words matcher expression execution #333, thanks @soapffz\r\n* fix catch binascii ValueError Exception #334, thanks @izj007\r\n* improve template robustness\r\n* support digest_username and digest_password\r\n* support negative matchers"
+            },
+            "https://github.com/Guoke324/Godscan": {
+                "created_at": "2021-09-17 07:08:20",
+                "description": "Godscan 是一款python编写的具有图形化界面的漏洞检测框架，可以之定义漏洞检测 poc ，主要是帮助安全测试者，更好的去记录和整理历史漏洞，以便更好的进行漏洞检测，提高工作效率！",
+                "commit_date": "2021-09-18 00:52:20",
+                "commit_message": "Update README.md",
+                "release_tag": "Godscan",
+                "release_date": "2021-09-18 01:09:41",
+                "release_message": ""
+            },
+            "https://github.com/qianxiao996/FrameScan-GUI": {
+                "created_at": "2019-10-06 10:21:49",
+                "description": "FrameScan-GUI 一款python3和Pyqt编写的具有图形化界面的cms漏洞检测框架。",
+                "commit_date": "2022-09-20 02:28:33",
+                "commit_message": "v1.4.2",
+                "release_tag": "v1.4.2",
+                "release_date": "2022-09-20 02:39:28",
+                "release_message": "1、修复同一个分类下漏洞名称相同插件个数不一致的问题\r\n2、增加插件中动态数据debug、error、info信息\r\n3、调用pyc、py、pyd文件统一封装为函数。\r\n4、插件增加动态输出参数\r\n5、增加漏洞扫描界面 双击浏览器打开链接\r\n6、UI界面修改，去除引入文件按钮，可直接复制到界面\r\n7、插件管理增加模糊搜索。\r\n8、增加全局变量参数，可在do_poc存入数据。do_exp 取出数据使用。方便使用，如shiro反序列化漏洞。do_poc检测处漏洞，可存放key到全局变量。直接在do_exp中使用。\r\n9、插件调用第三方文件，如Jar 路径优化。示例代码见md文件\r\n10、增加Modules文件夹，第三方模块可放置在此位置。直接import引用\r\n11、查看插件处增加编辑插件功能。\r\n12、修改网络插件更新功能，重写web接口。文件夹：update_web\r\n13、其他BUG优化"
             }
         },
         "数据库利用": {
@@ -387,6 +434,15 @@
                 "release_tag": "v0.1.0",
                 "release_date": "2022-03-16 15:20:38",
                 "release_message": "redis主从复制rce和lua沙箱逃逸rce快速利用"
+            },
+            "https://github.com/1n7erface/RequestTemplate": {
+                "created_at": "2022-04-01 17:26:22",
+                "description": "双语双端内网扫描以及验证工具",
+                "commit_date": "2022-11-28 09:04:11",
+                "commit_message": "Update README.md",
+                "release_tag": "v1.1.0",
+                "release_date": "2022-11-28 08:58:17",
+                "release_message": "2022.11.28 17:00\r\n这一次更新时隔一个月,我还是只更新了Golang的扫描端。\r\n我觉得这次更新是我迄今为止最满意的一次更新，因为我将程序的架构进行了翻新重构。解决了很多在以往我觉得是\"bug\"的细节，虽然在运行时不会出现异常，但是架构始终让我不太满意。这次我在爆破模块与端口扫描增加了“调度中心“的角色。详细的细节我可能会发文章叙述。\r\n各位及时给出评价。\r\n注：mac在更新13之后不能使用压缩过后的文件，不知道为啥，在此我提供未压缩的文件。见：App"
             }
         },
         "Shell管理": {
@@ -526,6 +582,15 @@
                 "release_tag": null,
                 "release_date": "",
                 "release_message": null
+            },
+            "https://github.com/0x727/SpringBootExploit": {
+                "created_at": "2021-10-22 03:11:17",
+                "description": "项目是根据LandGrey/SpringBootVulExploit清单编写，目的hvv期间快速利用漏洞、降低漏洞利用门槛。",
+                "commit_date": "2022-11-07 02:30:45",
+                "commit_message": "Update README.md\n\nupdate image links",
+                "release_tag": "1.3",
+                "release_date": "2022-04-17 13:53:26",
+                "release_message": "[更新1.3版本，支持SpringCloudGatewayRCE CVE-2022-22947](https://github.com/0x727/SpringBootExploit/commit/e9dcb1b3e4ea55f753e2a6b4e0078bb01a3ae8cf)\r\n目前仅仅支持小马，NettyMemshell和SpringRequestMappingMemshell 参考 文章https://gv7.me/articles/2022/the-spring-cloud-gateway-inject-memshell-through-spel-expressions/\r\n "
             }
         },
         "中间件&框架漏洞扫描": {
@@ -575,6 +640,15 @@
                 "release_tag": null,
                 "release_date": "",
                 "release_message": null
+            },
+            "https://github.com/frohoff/ysoserial": {
+                "created_at": "2015-01-28 07:13:55",
+                "description": "A proof-of-concept tool for generating payloads that exploit unsafe Java object deserialization.",
+                "commit_date": "2022-07-16 19:09:00",
+                "commit_message": "fix other download links (#191)",
+                "release_tag": "v0.0.6",
+                "release_date": "2022-06-29 01:46:51",
+                "release_message": ""
             }
         },
         "重点CMS利用": {
@@ -932,6 +1006,22 @@
                 "release_tag": "v1.0.1",
                 "release_date": "2022-09-23 05:29:35",
                 "release_message": "Kali Windows Res包括了常见的shell ,木马 , jsp , php , 后台 , fuzz , 弱口令 , 爆破密码 , 和一些小工具"
+            },
+            "https://github.com/helloexp/0day": {
+                "created_at": "2022-04-07 04:28:29",
+                "description": "各种CMS、各种平台、各种系统、各种软件漏洞的EXP、POC ,该项目将持续更新",
+                "commit_date": "2022-10-31 07:16:34",
+                "commit_message": "add Webmin 1.996 RCE (Authenticated) exp，优化目录",
+                "release_tag": null,
+                "release_date": "",
+                "release_message": null
+            },
+            "https://github.com/1n7erface/PocList\n": {
+                "created_at": "",
+                "description": null,
+                "release_tag": null,
+                "release_date": "",
+                "release_message": null
             }
         },
         "漏洞文库": {
@@ -1064,6 +1154,15 @@
                 "release_tag": "V1.0",
                 "release_date": "2022-04-06 07:26:10",
                 "release_message": ""
+            },
+            "https://github.com/dzxs/Xdecrypt": {
+                "created_at": "2017-12-08 08:52:14",
+                "description": "Xshell Xftp password decrypt",
+                "commit_date": "2022-04-14 10:46:50",
+                "commit_message": "Merge pull request #2 from b1tg/master",
+                "release_tag": null,
+                "release_date": "",
+                "release_message": null
             }
         }
     },
@@ -1094,6 +1193,71 @@
                 "description": "一个红队知识仓库",
                 "commit_date": "2022-11-16 01:59:50",
                 "commit_message": "更新cheatsheets/攻防渗透常用命令速查.md",
+                "release_tag": null,
+                "release_date": "",
+                "release_message": null
+            },
+            "https://github.com/12306Bro/Threathunting-book": {
+                "created_at": "2019-07-10 08:44:30",
+                "description": "Threat hunting Web Windows AD linux ATT&CK TTPs",
+                "commit_date": "2022-11-27 13:26:17",
+                "commit_message": "Update README.md",
+                "release_tag": null,
+                "release_date": "",
+                "release_message": null
+            },
+            "https://github.com/CYJoe-Cyclone/PenetrationTesttips": {
+                "created_at": "2021-10-15 02:14:12",
+                "description": "渗透测试Tips - Version1.3",
+                "commit_date": "2021-10-15 02:33:11",
+                "commit_message": "Update README.md",
+                "release_tag": null,
+                "release_date": "",
+                "release_message": null
+            }
+        },
+        "优秀开源项目集合": {
+            "https://github.com/knownsec/404StarLink": {
+                "created_at": "2020-11-17 08:10:18",
+                "description": "404StarLink - 推荐优质、有意义、有趣、坚持维护的安全开源项目",
+                "commit_date": "2022-11-28 03:47:48",
+                "commit_message": "weekly update at 2022-11-28",
+                "release_tag": null,
+                "release_date": "",
+                "release_message": null
+            },
+            "https://github.com/We5ter/Scanners-Box": {
+                "created_at": "2016-12-24 16:07:50",
+                "description": "A powerful and open-source toolkit for hackers and security automation - 安全行业从业者自研开源扫描器合辑",
+                "commit_date": "2022-11-15 11:01:06",
+                "commit_message": "[+]anouarbensaad/vulnx",
+                "release_tag": null,
+                "release_date": "",
+                "release_message": null
+            },
+            "https://github.com/guchangan1/All-Defense-Tool": {
+                "created_at": "2022-04-25 11:45:06",
+                "description": "本项目集成了全网优秀的攻防武器工具项目，包含自动化利用，子域名、目录扫描、端口扫描等信息收集工具，各大中间件、cms漏洞利用工具，爆破工具、内网横向及免杀、社工钓鱼以及应急响应等资料。",
+                "commit_date": "2022-09-12 05:10:43",
+                "commit_message": "更新v2.0",
+                "release_tag": null,
+                "release_date": "",
+                "release_message": null
+            },
+            "https://github.com/lintstar/About-Attack": {
+                "created_at": "2021-08-28 13:32:17",
+                "description": "一个旨在通过应用场景 / 标签对 Github 红队向工具 / 资源进行分类收集，降低红队技术门槛的手册【持续更新】",
+                "commit_date": "2022-01-07 09:53:18",
+                "commit_message": "2022.1.7 Update",
+                "release_tag": null,
+                "release_date": "",
+                "release_message": null
+            },
+            "https://github.com/FiveAourThe/RedTeamTools": {
+                "created_at": "2021-06-10 08:39:24",
+                "description": "分享红队常用的工具",
+                "commit_date": "2021-06-10 08:39:46",
+                "commit_message": "Update README.md",
                 "release_tag": null,
                 "release_date": "",
                 "release_message": null
@@ -1326,6 +1490,15 @@
                 "release_tag": "1.0.0",
                 "release_date": "2022-11-23 03:58:28",
                 "release_message": "1、修复log4j poc编码问题\r\n2、修复dnslog平台请求错误的问题\r\n3、其他bug修复"
+            },
+            "https://github.com/funkyoummp/BurpSuiteCn": {
+                "created_at": "2019-09-18 08:56:29",
+                "description": "Burp Suite  汉化 中文",
+                "commit_date": "2021-01-11 03:27:09",
+                "commit_message": "Update README.md",
+                "release_tag": "V2.0",
+                "release_date": "2020-10-05 17:15:52",
+                "release_message": "BurpSuite 最新翻译版本来啦，支持Burp 2.0~2.9.1\r\n翻译不支持外部翻译。\r\n然后jar文件没混淆，自己反编译。"
             }
         },
         "xray": {
@@ -1434,6 +1607,17 @@
                 "release_date": "2021-07-09 10:14:03",
                 "release_message": "pocassist v1.0.2 数据库 \r\n\r\n重新开放"
             }
+        },
+        "goby": {
+            "https://github.com/luck-ying/Library-POC": {
+                "created_at": "2021-03-21 15:27:57",
+                "description": "基于Pocsuite3、goby编写的漏洞poc&exp存档",
+                "commit_date": "2022-11-03 06:42:04",
+                "commit_message": "Update README.md",
+                "release_tag": null,
+                "release_date": "",
+                "release_message": null
+            }
         }
     },
     "CTF杂项": {
@@ -1455,6 +1639,50 @@
                 "release_tag": "v0.0.3",
                 "release_date": "2019-03-18 12:46:34",
                 "release_message": "* 图片水印解码不再需要原图"
+            }
+        },
+        "流量分析": {
+            "https://github.com/WangYihang/UsbMiceDataHacker": {
+                "created_at": "2017-04-04 21:00:40",
+                "description": "USB鼠标流量包取证工具 , 主要用于绘制鼠标移动以及拖动轨迹",
+                "commit_date": "2020-10-09 06:47:37",
+                "commit_message": "[+] Add requirements.txt and upgrade to python3",
+                "release_tag": null,
+                "release_date": "",
+                "release_message": null
+            },
+            "https://github.com/WangYihang/UsbKeyboardDataHacker": {
+                "created_at": "2017-04-04 19:13:45",
+                "description": "USB键盘流量包取证工具 , 用于恢复用户的击键信息",
+                "commit_date": "2022-09-29 09:14:56",
+                "commit_message": "Merge pull request #6 from hurricane618/patch-2\n\nUpdate UsbKeyboardDataHacker.py",
+                "release_tag": null,
+                "release_date": "",
+                "release_message": null
+            }
+        },
+        "编码解码": {
+            "https://github.com/ht0Ruial/TomatoTools": {
+                "created_at": "2021-05-10 09:40:20",
+                "description": "TomatoTools 一款CTF杂项利器，支持36种常见编码和密码算法的加密和解密，31种密文的分析和识别，支持自动提取flag，自定义插件等。",
+                "commit_date": "2022-07-09 01:38:33",
+                "commit_message": "fix #4",
+                "release_tag": "v1.0.2",
+                "release_date": "2021-11-15 12:53:20",
+                "release_message": "版本说明：\r\n- **自动提flag** 支持设定深度\r\n- **关于** 里增加三个功能开关\r\n- 插件dicts新增replace替换参数\r\n- 新增解密插件 *斜杠ASCII码转换*、*HTML实体编码*\r\n- 修复bug"
+            }
+        }
+    },
+    "CTF综合": {
+        "知识库": {
+            "https://github.com/kitezzzGrim/CTF-Note": {
+                "created_at": "2021-09-13 07:11:15",
+                "description": "CTF笔记：该项目主要记录CTF知识、刷题记录、工具等。",
+                "commit_date": "2022-08-17 09:28:58",
+                "commit_message": "updare",
+                "release_tag": null,
+                "release_date": "",
+                "release_message": null
             }
         }
     }

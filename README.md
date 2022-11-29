@@ -1,9 +1,10 @@
-# 更新于 2022-11-29 14:23:37
+# 更新于 2022-11-29 15:17:03
 
 ## 近30天release更新记录
 | 更新时间 | 项目名称 | 版本 | 更新内容 |
 | :---- | :---- | :---- | :---- |
 |2022-11-28 17:47:44|[Behinder](https://github.com/rebeyond/Behinder)|Behinder_<br>v4.0.6|### 2022.11.28 v4.0.6 更新日志1.修复了T<br>omcat10中内存马植入无法连接的问题；2.修<br>复了asp版本内置传输协议的连接问题；3.修复<br>了传输协议在恢复默认时会出现错误的问题；4<br>.内置了Javafx库，修复了各类因为Javafx环<br>境无法运行的问题；5.修复了客户端兼容性问<br>题，客户端兼容Java8至Java19；6.新增“默认<br>”连接模式，兼容冰蝎3默认服务端；7.其他的<br>一些优化。|
+|2022-11-28 08:58:17|[RequestTemplate](https://github.com/1n7erface/RequestTemplate)|v1.1.0|2022.11.28 17:00这一次更新时隔一个月,我<br>还是只更新了Golang的扫描端。我觉得这次更<br>新是我迄今为止最满意的一次更新，因为我将<br>程序的架构进行了翻新重构。解决了很多在以<br>往我觉得是"bug"的细节，虽然在运行时不会出<br>现异常，但是架构始终让我不太满意。这次我<br>在爆破模块与端口扫描增加了“调度中心“的<br>角色。详细的细节我可能会发文章叙述。各位<br>及时给出评价。注：mac在更新13之后不能使用<br>压缩过后的文件，不知道为啥，在此我提供未<br>压缩的文件。见：App|
 |2022-11-27 10:27:08|[github-subdomains](https://github.com/gwen001/github-subdomains)|v1.1.0||
 |2022-11-23 03:58:28|[BpScan](https://github.com/EASY233/BpScan)|1.0.0|1、修复log4j poc编码问题2、修复dnslog平<br>台请求错误的问题3、其他bug修复|
 |2022-11-22 10:33:20|[log4j2burpscanner](https://github.com/f0ng/log4j2burpscanner)|0.20.1|# 0.20.1更新## 2022-11-22修复`.`替换参<br>数的问题|
@@ -23,6 +24,9 @@
 | :---- | :---- | :---- |
 |2022-11-29 05:51:59|[afrog](https://github.com/zan8in/afrog)|update 60 pocs|
 |2022-11-29 02:41:57|[aksk_tool](https://github.com/wyzxxz/aksk_tool)|Update README.md|
+|2022-11-28 09:04:11|[RequestTemplate](https://github.com/1n7erface/RequestTemplate)|Update README.md|
+|2022-11-28 03:47:48|[404StarLink](https://github.com/knownsec/404StarLink)|weekly update at 2022-11-28|
+|2022-11-27 13:26:17|[Threathunting-book](https://github.com/12306Bro/Threathunting-book)|Update README.md|
 |2022-11-27 10:25:20|[github-subdomains](https://github.com/gwen001/github-subdomains)|readme|
 |2022-11-27 07:02:42|[knife](https://github.com/bit4woo/knife)|update|
 |2022-11-26 02:32:16|[OneForAll](https://github.com/shmilylty/OneForAll)|解决#286|
@@ -44,12 +48,16 @@
 |2022-11-16 09:05:15|[SwitchyOmega](https://github.com/FelisCatus/SwitchyOmega)|Added translation using Weblate (Chinese (Literary))|
 |2022-11-16 03:49:31|[RouteVulScan](https://github.com/F6JO/RouteVulScan)|Update README.md|
 |2022-11-16 01:59:50|[Awesome-Redteam](https://github.com/Threekiii/Awesome-Redteam)|更新cheatsheets/攻防渗透常用命令速查.md|
+|2022-11-15 11:01:06|[Scanners-Box](https://github.com/We5ter/Scanners-Box)|[+]anouarbensaad/vulnx|
 |2022-11-15 09:05:50|[AttackTomcat](https://github.com/tpt11fb/AttackTomcat)|Create README.md|
 |2022-11-15 05:41:53|[autoDecoder](https://github.com/f0ng/autoDecoder)|Update README.md|
 |2022-11-11 14:18:43|[Packer-Fuzzer](https://github.com/rtcatc/Packer-Fuzzer)|v1.4.13 update config|
 |2022-11-08 13:54:32|[PeiQi-WIKI-Book](https://github.com/PeiQi0/PeiQi-WIKI-Book)|CTF夺旗: Misc: 文件修复,压缩包破解,图片隐写,音频隐写:t<br>ada:|
 |2022-11-08 12:25:49|[ThunderSearch](https://github.com/xzajyjs/ThunderSearch)|update to v2.3.2|
+|2022-11-07 02:30:45|[SpringBootExploit](https://github.com/0x727/SpringBootExploit)|Update README.mdupdate image links|
 |2022-11-04 03:20:29|[JSFScan.sh](https://github.com/KathanP19/JSFScan.sh)|Merge pull request #38 from jamboro/jacmo_targetescape<br>Update JSFScan.sh|
+|2022-11-03 06:42:04|[Library-POC](https://github.com/luck-ying/Library-POC)|Update README.md|
+|2022-10-31 07:16:34|[0day](https://github.com/helloexp/0day)|add Webmin 1.996 RCE (Authenticated) exp，优化目录|
 |2022-10-31 02:32:49|[xray](https://github.com/chaitin/xray)|Fix Python3 Flask bug: ImportError: cannot import name<br> 'escape' from 'jinja2' (/usr/local/lib/python3.9/dist-<br>packages/jinja2/__init__.py) (#1680)Signed-off-by: Droi<br>dKali <DroidKali@users.noreply.github.com>Signed-off-by<br>: DroidKali <DroidKali@users.noreply.github.com>Co-auth<br>ored-by: DroidKali <DroidKali@users.noreply.github.com>|## 所有项目
 ### 信息收集
 #### 资产测绘采集
@@ -80,6 +88,7 @@
 | [yjdirscan](https://github.com/foryujian/yjdirscan) | yjdirscan | 御剑目录扫描专业版，简单实用的命令行网站目录扫描工具，支持爬虫、<br>fuzz、自定义字典、字典变量、UA修改、假404自动过滤、扫描控速等功能<br>。 |
 | [yuhScan](https://github.com/hunyaio/yuhScan) | v1.0 | web目录快速扫描工具 |
 | [gospider](https://github.com/jaeles-project/gospider) | v1.1.6 | Gospider - Fast web spider written in Go |
+| [rad](https://github.com/chaitin/rad) | 0.4 |  |
 #### 指纹识别
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
@@ -89,6 +98,10 @@
 | :---- | :---- | :---- |
 | [TXPortMap](https://github.com/4dogs-cn/TXPortMap) | v1.1.2 | Port Scanner & Banner Identify From TianXiang |
 | [naabu](https://github.com/projectdiscovery/naabu) | v2.1.1 | A fast port scanner written in go with a focus on reliability an<br>d simplicity. Designed to be used in combination with other tools<br> for attack surface discovery in bug bounties and pentests |
+#### 综合
+| 项目名称 | 版本 | 项目描述 |
+| :---- | :---- | :---- |
+| [dismap](https://github.com/zhzyker/dismap) | v0.4 | Asset discovery and identification tools 快速识别 Web 指纹信息，<br>定位资产类型。辅助红队快速定位目标资产信息，辅助蓝队发现疑似脆弱点 |
 ### 漏洞发现&利用
 #### 半自动化漏洞利用
 | 项目名称 | 版本 | 项目描述 |
@@ -105,10 +118,13 @@
 | [nuclei](https://github.com/projectdiscovery/nuclei) | v2.7.9 | Fast and customizable vulnerability scanner based on simple YAML<br> based DSL. |
 | [afrog](https://github.com/zan8in/afrog) | v2.0.0 | afrog 是一款性能卓越、快速稳定、PoC 可定制化的漏洞扫描工具 - A t<br>ool for finding vulnerabilities |
 | [vulmap](https://github.com/zhzyker/vulmap) | v0.9 | Vulmap 是一款 web 漏洞扫描和验证工具, 可对 webapps 进行漏洞扫描,<br> 并且具备漏洞验证功能 |
+| [POC-bomber](https://github.com/tr0uble-mAker/POC-bomber) | v2.0.2-PO<br>C-bomber | 利用大量高威胁poc/exp快速获取目标权限，用于渗透和红队快速打点 |
 #### 漏洞扫描框架
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
 | [pocsuite3](https://github.com/knownsec/pocsuite3) | v2.0.1 | pocsuite3 is an open-sourced remote vulnerability testing framew<br>ork developed by the Knownsec 404 Team. |
+| [Godscan](https://github.com/Guoke324/Godscan) | Godscan | Godscan 是一款python编写的具有图形化界面的漏洞检测框架，可以之定<br>义漏洞检测 poc ，主要是帮助安全测试者，更好的去记录和整理历史漏洞<br>，以便更好的进行漏洞检测，提高工作效率！ |
+| [FrameScan-GUI](https://github.com/qianxiao996/FrameScan-GUI) | v1.4.2 | FrameScan-GUI 一款python3和Pyqt编写的具有图形化界面的cms漏洞检测<br>框架。 |
 #### 数据库利用
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
@@ -121,6 +137,7 @@
 | [redis-rce](https://github.com/Ridter/redis-rce) |  | Redis 4.x/5.x RCE |
 | [RedisEXP](https://github.com/yuyan-sec/RedisEXP) |  | Redis 漏洞利用工具 |
 | [redis_rce](https://github.com/zyylhn/redis_rce) | v0.1.0 | Redis primary/secondary replication RCE |
+| [RequestTemplate](https://github.com/1n7erface/RequestTemplate) | v1.1.0 | 双语双端内网扫描以及验证工具 |
 #### Shell管理
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
@@ -142,6 +159,7 @@
 | [STS2G](https://github.com/xfiftyone/STS2G) | 1.0 | Struts2漏洞扫描利用工具 - Golang版. Struts2 Scanner Written in G<br>olang |
 | [Struts2-Scan](https://github.com/HatBoy/Struts2-Scan) |  | Struts2全漏洞扫描利用工具 |
 | [log4j-shell-poc](https://github.com/kozmer/log4j-shell-poc) |  | A Proof-Of-Concept for the CVE-2021-44228 vulnerability.  |
+| [SpringBootExploit](https://github.com/0x727/SpringBootExploit) | 1.3 | 项目是根据LandGrey/SpringBootVulExploit清单编写，目的hvv期间快速<br>利用漏洞、降低漏洞利用门槛。 |
 #### 中间件&框架漏洞扫描
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
@@ -153,6 +171,7 @@
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
 | [jndi_tool](https://github.com/wyzxxz/jndi_tool) |  | JNDI服务利用工具 RMI/LDAP，支持部分场景回显、内存shell，高版本JD<br>K场景下利用等，fastjson rce命令执行，log4j rce命令执行 漏洞检测辅<br>助工具 |
+| [ysoserial](https://github.com/frohoff/ysoserial) | v0.0.6 | A proof-of-concept tool for generating payloads that exploit uns<br>afe Java object deserialization. |
 #### 重点CMS利用
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
@@ -204,6 +223,10 @@
 | [Awesome-Exploit](https://github.com/Threekiii/Awesome-Exploit) |  | 一个漏洞利用工具仓库 |
 | [exphub](https://github.com/zhzyker/exphub) |  | Exphub[漏洞利用脚本库] 包括Webloigc、Struts2、Tomcat、Nexus、Sol<br>r、Jboss、Drupal的漏洞利用脚本，最新添加CVE-2020-14882、CVE-2020-<br>11444、CVE-2020-10204、CVE-2020-10199、CVE-2020-1938、CVE-2020-25<br>51、CVE-2020-2555、CVE-2020-2883、CVE-2019-17558、CVE-2019-6340 |
 | [CVE-Master](https://github.com/wjl110/CVE-Master) | v1.0.1 | 收集本人自接触渗透测试用于漏洞验证的所有热门CVE、POC、CNVD攻击有<br>效载荷+测试工具+FUZZ,一个仓库满足许多攻击测试场景,开箱即用. |
+| [0day](https://github.com/helloexp/0day) |  | 各种CMS、各种平台、各种系统、各种软件漏洞的EXP、POC ,该项目将持<br>续更新 |
+| [PocList
+](https://github.com/1n7erface/PocList
+) |  |  |
 #### 漏洞文库
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
@@ -225,6 +248,7 @@
 | :---- | :---- | :---- |
 | [getIntrInfo](https://github.com/Potato-py/getIntrInfo) |  | 收集内部网信息。包括：浏览器书签、密码和浏览历史记录、cookie。Wi<br>fi信息和密码。主机信息。 |
 | [FinalShell-Decoder](https://github.com/passer-W/FinalShell-Decoder) | V1.0 | FinallShell 密码解密GUI工具 |
+| [Xdecrypt](https://github.com/dzxs/Xdecrypt) |  | Xshell Xftp password decrypt |
 ### 相关资源
 #### 工具集成环境
 | 项目名称 | 版本 | 项目描述 |
@@ -235,6 +259,16 @@
 | :---- | :---- | :---- |
 | [penetration-suite-t<br>oolkit](https://github.com/makoto56/penetration-suite-toolkit) | v3.0 | 本项目制作的初衷是帮助渗透新手快速搭建工作环境，工欲善其事，必先<br>利其器。 |
 | [Awesome-Redteam](https://github.com/Threekiii/Awesome-Redteam) |  | 一个红队知识仓库 |
+| [Threathunting-book](https://github.com/12306Bro/Threathunting-book) |  | Threat hunting Web Windows AD linux ATT&CK TTPs |
+| [PenetrationTesttips](https://github.com/CYJoe-Cyclone/PenetrationTesttips) |  | 渗透测试Tips - Version1.3 |
+#### 优秀开源项目集合
+| 项目名称 | 版本 | 项目描述 |
+| :---- | :---- | :---- |
+| [404StarLink](https://github.com/knownsec/404StarLink) |  | 404StarLink - 推荐优质、有意义、有趣、坚持维护的安全开源项目 |
+| [Scanners-Box](https://github.com/We5ter/Scanners-Box) |  | A powerful and open-source toolkit for hackers and security auto<br>mation - 安全行业从业者自研开源扫描器合辑 |
+| [All-Defense-Tool](https://github.com/guchangan1/All-Defense-Tool) |  | 本项目集成了全网优秀的攻防武器工具项目，包含自动化利用，子域名、<br>目录扫描、端口扫描等信息收集工具，各大中间件、cms漏洞利用工具，爆<br>破工具、内网横向及免杀、社工钓鱼以及应急响应等资料。 |
+| [About-Attack](https://github.com/lintstar/About-Attack) |  | 一个旨在通过应用场景 / 标签对 Github 红队向工具 / 资源进行分类收<br>集，降低红队技术门槛的手册【持续更新】 |
+| [RedTeamTools](https://github.com/FiveAourThe/RedTeamTools) |  | 分享红队常用的工具 |
 ### 工具&插件
 #### Burpsuite插件
 | 项目名称 | 版本 | 项目描述 |
@@ -264,6 +298,7 @@
 | [log4j2burpscanner](https://github.com/f0ng/log4j2burpscanner) | 0.20.1 | CVE-2021-44228 Log4j2 BurpSuite Scanner,Customize ceye.io api or<br> other apis,including internal networks |
 | [passive-scan-client](https://github.com/c0ny1/passive-scan-client) | 0.3.0 | Burp被动扫描流量转发插件 |
 | [BpScan](https://github.com/EASY233/BpScan) | 1.0.0 | 一款用于辅助渗透测试工程师日常渗透测试的Burp被动漏扫插件 |
+| [BurpSuiteCn](https://github.com/funkyoummp/BurpSuiteCn) | V2.0 | Burp Suite汉化 中文 |
 #### xray
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
@@ -287,9 +322,27 @@
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
 | [pocassistdb](https://github.com/jweny/pocassistdb) | 1.0.2 | database of pocassist（漏洞库） |
+#### goby
+| 项目名称 | 版本 | 项目描述 |
+| :---- | :---- | :---- |
+| [Library-POC](https://github.com/luck-ying/Library-POC) |  | 基于Pocsuite3、goby编写的漏洞poc&exp存档 |
 ### CTF杂项
 #### 图片隐写
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
 | [stegsolve](https://github.com/Giotino/stegsolve) | v1.4 |  |
 | [BlindWatermark](https://github.com/ww23/BlindWatermark) | v0.0.3 | Java 盲水印 |
+#### 流量分析
+| 项目名称 | 版本 | 项目描述 |
+| :---- | :---- | :---- |
+| [UsbMiceDataHacker](https://github.com/WangYihang/UsbMiceDataHacker) |  | USB鼠标流量包取证工具 , 主要用于绘制鼠标移动以及拖动轨迹 |
+| [UsbKeyboardDataHack<br>er](https://github.com/WangYihang/UsbKeyboardDataHacker) |  | USB键盘流量包取证工具 , 用于恢复用户的击键信息 |
+#### 编码解码
+| 项目名称 | 版本 | 项目描述 |
+| :---- | :---- | :---- |
+| [TomatoTools](https://github.com/ht0Ruial/TomatoTools) | v1.0.2 | TomatoTools 一款CTF杂项利器，支持36种常见编码和密码算法的加密和<br>解密，31种密文的分析和识别，支持自动提取flag，自定义插件等。 |
+### CTF综合
+#### 知识库
+| 项目名称 | 版本 | 项目描述 |
+| :---- | :---- | :---- |
+| [CTF-Note](https://github.com/kitezzzGrim/CTF-Note) |  | CTF笔记：该项目主要记录CTF知识、刷题记录、工具等。 |
