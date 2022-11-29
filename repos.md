@@ -176,3 +176,5 @@
 |内网渗透|密码提取|https://github.com/dzxs/Xdecrypt|
 |漏洞发现&利用|漏洞检测利用仓库|https://github.com/1n7erface/PocList
 |工具&插件|goby|https://github.com/luck-ying/Library-POC|
+|工具&插件|Burpsuite插件|https://github.com/funkyoummp/BurpSuiteCn|
+|相关资源|优秀开源项目集合|https://github.com/FiveAourThe/RedTeamTools|
