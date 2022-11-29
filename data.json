@@ -299,11 +299,11 @@
             "https://github.com/zan8in/afrog": {
                 "created_at": "2022-02-24 06:00:32",
                 "description": "afrog 是一款性能卓越、快速稳定、PoC 可定制化的漏洞扫描工具 - A tool for finding vulnerabilities",
-                "commit_date": "2022-11-29 13:19:46",
+                "commit_date": "2022-11-29 14:10:07",
                 "commit_message": "update contributors",
-                "release_tag": "v2.0.0",
-                "release_date": "2022-11-10 15:27:37",
-                "release_message": "**Full Changelog**: https://github.com/zan8in/afrog/compare/v1.3.9...v2.0.0\r\n\r\n- 修复 afrog 后台执行命令失败 BUG\r\n- 优化 afrog 稳定性，完善 URL 存活验证和扫描进度检查\r\n- 优化 afrog 用户体验，控制台进度显示新增 hosts、closed、time\r\n- 感谢 交流群@腊子鸡 及时反馈新版本【严重】漏洞，该漏洞由 target 黑名单逻辑判断不严谨导致，现已修复并上传至GITHUB，请大家广而告之并重新下载"
+                "release_tag": "v2.0.1",
+                "release_date": "2022-11-29 13:58:59",
+                "release_message": "**Full Changelog**: https://github.com/zan8in/afrog/compare/v2.0.0...v2.0.1\r\n\r\n紧急发布修复 BUG 的小版本 ~\r\n解决 afrog 线程池经常卡死 BUG（紧急）\r\n\r\n![image](https://user-images.githubusercontent.com/4088460/204548214-ee0247cd-a707-4cd7-8fe7-861852d1bd46.png)\r\n"
             },
             "https://github.com/zhzyker/vulmap": {
                 "created_at": "2020-10-09 06:34:36",

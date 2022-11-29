@@ -1,8 +1,9 @@
-# 更新于 2022-11-29 21:29:25
+# 更新于 2022-11-29 22:18:56
 
 ## 近30天release更新记录
 | 更新时间 | 项目名称 | 版本 | 更新内容 |
 | :---- | :---- | :---- | :---- |
+|2022-11-29 13:58:59|[afrog](https://github.com/zan8in/afrog)|v2.0.1|**Full Changelog**: https://github.com/<br>zan8in/afrog/compare/v2.0.0...v2.0.1紧急<br>发布修复 BUG 的小版本 ~解决 afrog 线程池<br>经常卡死 BUG（紧急）![image](https://user<br>-images.githubusercontent.com/4088460/20<br>4548214-ee0247cd-a707-4cd7-8fe7-861852d1<br>bd46.png)|
 |2022-11-28 17:47:44|[Behinder](https://github.com/rebeyond/Behinder)|Behinder_<br>v4.0.6|### 2022.11.28 v4.0.6 更新日志1.修复了T<br>omcat10中内存马植入无法连接的问题；2.修<br>复了asp版本内置传输协议的连接问题；3.修复<br>了传输协议在恢复默认时会出现错误的问题；4<br>.内置了Javafx库，修复了各类因为Javafx环<br>境无法运行的问题；5.修复了客户端兼容性问<br>题，客户端兼容Java8至Java19；6.新增“默认<br>”连接模式，兼容冰蝎3默认服务端；7.其他的<br>一些优化。|
 |2022-11-28 08:58:17|[RequestTemplate](https://github.com/1n7erface/RequestTemplate)|v1.1.0|2022.11.28 17:00这一次更新时隔一个月,我<br>还是只更新了Golang的扫描端。我觉得这次更<br>新是我迄今为止最满意的一次更新，因为我将<br>程序的架构进行了翻新重构。解决了很多在以<br>往我觉得是"bug"的细节，虽然在运行时不会出<br>现异常，但是架构始终让我不太满意。这次我<br>在爆破模块与端口扫描增加了“调度中心“的<br>角色。详细的细节我可能会发文章叙述。各位<br>及时给出评价。注：mac在更新13之后不能使用<br>压缩过后的文件，不知道为啥，在此我提供未<br>压缩的文件。见：App|
 |2022-11-27 10:27:08|[github-subdomains](https://github.com/gwen001/github-subdomains)|v1.1.0||
@@ -15,14 +16,13 @@
 |2022-11-14 08:01:41|[OA-EXPTOOL](https://github.com/LittleBear4/OA-EXPTOOL)|v0.6|增加打印功能---------------------------<br>----------------------------------------<br>----------------------------------------<br>----------------------------------------<br>增加帆软2017敏感信息泄露poc增加泛微OA_hrm<br>careerApply_sql poc,泛微OA_mysql_config<br>数据库信息泄漏,泛微OA_jquery_filetree,泛<br>微OA_Verify_QuickLogin 泛微OA_signnature_<br>任意文件访问,泛微OA_uploader_OPerate_2022<br>,泛微OA_V10_前台sql增加红帆OA_非医疗版_<br>任意文件上传增加万户OA_document_sql，万户<br>OA DownloadServlet 任意文件读取漏洞增加n<br>c_xbr_rce，用友_U8_f5_sql，用友GRP_u8_up<br>load_data优化优化泛微OA的检测，对检测增<br>加内容判断，提高准确性，优化红帆漏洞poc增<br>加payload，优化蓝凌oa poc的准确性 去掉部<br>分exp，优化通达后台xxs包含漏洞的线程问题<br>，优化万户模块下的poc提高准确性|
 |2022-11-13 11:40:50|[AttackTomcat](https://github.com/tpt11fb/AttackTomcat)|V1||
 |2022-11-11 06:00:52|[autoDecoder](https://github.com/f0ng/autoDecoder)|0.19.0|## 2022.11.11 更新0.19修改了ui，优化了<br>在新版bp上`html`无法解析的问题|
-|2022-11-10 15:27:37|[afrog](https://github.com/zan8in/afrog)|v2.0.0|**Full Changelog**: https://github.com/<br>zan8in/afrog/compare/v1.3.9...v2.0.0- 修<br>复 afrog 后台执行命令失败 BUG- 优化 afrog<br> 稳定性，完善 URL 存活验证和扫描进度检查<br>- 优化 afrog 用户体验，控制台进度显示新<br>增 hosts、closed、time- 感谢 交流群@腊子<br>鸡 及时反馈新版本【严重】漏洞，该漏洞由 t<br>arget 黑名单逻辑判断不严谨导致，现已修复<br>并上传至GITHUB，请大家广而告之并重新下载|
 |2022-11-09 00:28:07|[pocsuite3](https://github.com/knownsec/pocsuite3)|v2.0.1|* 修复 words 匹配器表达式执行的问题 #33<br>3, thanks @soapffz* 修复模版中包含中文异<br>常捕获的问题 #334, thanks @izj007* 提高模<br>版的鲁棒性* 支持 digest_username 和 diges<br>t_password，用于 http 认证* 支持 negativ<br>e 反向匹配器---* fix words matcher expre<br>ssion execution #333, thanks @soapffz* f<br>ix catch binascii ValueError Exception #<br>334, thanks @izj007* improve template ro<br>bustness* support digest_username and di<br>gest_password* support negative matchers|
 |2022-11-08 12:30:23|[ThunderSearch](https://github.com/xzajyjs/ThunderSearch)|v2.3.2|- 增加了部分界面的英文支持- 调整了界面<br>的大小---- Partly english support- Adjust<br>ed the size of the GUI---> md5ThunderSea<br>rch_darwin_universal.zip=20b1888d466e61c<br>ef77a4b42161fd783ThunderSearch_win_x86.z<br>ip=a2cd29776336d1ece4e0d494e676566a|
 |2022-11-07 21:04:01|[nuclei](https://github.com/projectdiscovery/nuclei)|v2.7.9|- Fixed gomod file - https://github.com<br>/projectdiscovery/nuclei/commit/de8571e7<br>26fad9b7c5bb213b39b398315e7034b5|
 ## 近30天commit提交记录
 | 提交时间 | 项目名称 | 更新内容 |
 | :---- | :---- | :---- |
-|2022-11-29 13:19:46|[afrog](https://github.com/zan8in/afrog)|update contributors|
+|2022-11-29 14:10:07|[afrog](https://github.com/zan8in/afrog)|update contributors|
 |2022-11-29 02:41:57|[aksk_tool](https://github.com/wyzxxz/aksk_tool)|Update README.md|
 |2022-11-28 09:04:11|[RequestTemplate](https://github.com/1n7erface/RequestTemplate)|Update README.md|
 |2022-11-28 03:47:48|[404StarLink](https://github.com/knownsec/404StarLink)|weekly update at 2022-11-28|
@@ -116,7 +116,7 @@
 | [w13scan](https://github.com/w-digital-scanner/w13scan) |  | Passive Security Scanner (被动式安全扫描器) |
 | [Fvuln](https://github.com/d3ckx1/Fvuln) | Fvuln_v1.<br>4.8 | F-vuln（全称：Find-Vulnerability）是为了自己工作方便专门编写的一<br>款自动化工具，主要适用于日常安全服务、渗透测试人员和RedTeam红队人<br>员，它集合的功能包括：存活IP探测、开放端口探测、web服务探测、web漏<br>洞扫描、smb爆破、ssh爆破、ftp爆破、mssql爆破等其他数据库爆破工作以<br>及大量web漏洞检测模块。 |
 | [nuclei](https://github.com/projectdiscovery/nuclei) | v2.7.9 | Fast and customizable vulnerability scanner based on simple YAML<br> based DSL. |
-| [afrog](https://github.com/zan8in/afrog) | v2.0.0 | afrog 是一款性能卓越、快速稳定、PoC 可定制化的漏洞扫描工具 - A t<br>ool for finding vulnerabilities |
+| [afrog](https://github.com/zan8in/afrog) | v2.0.1 | afrog 是一款性能卓越、快速稳定、PoC 可定制化的漏洞扫描工具 - A t<br>ool for finding vulnerabilities |
 | [vulmap](https://github.com/zhzyker/vulmap) | v0.9 | Vulmap 是一款 web 漏洞扫描和验证工具, 可对 webapps 进行漏洞扫描,<br> 并且具备漏洞验证功能 |
 | [POC-bomber](https://github.com/tr0uble-mAker/POC-bomber) | v2.0.2-PO<br>C-bomber | 利用大量高威胁poc/exp快速获取目标权限，用于渗透和红队快速打点 |
 #### 漏洞扫描框架
