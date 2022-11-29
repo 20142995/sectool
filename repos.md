@@ -155,9 +155,9 @@
 |漏洞发现&利用|漏洞文库|https://github.com/Cuerz/PoC-ExP|
 |漏洞发现&利用|漏洞检测利用仓库|https://github.com/wjl110/CVE-Master|
 |漏洞发现&利用|漏洞检测利用仓库|https://github.com/helloexp/0day|
-|相关资源|优秀开源项目集合|https://github.com/knownsec/404StarLink|
-|相关资源|优秀开源项目集合|https://github.com/We5ter/Scanners-Box|
-|相关资源|优秀开源项目集合|https://github.com/guchangan1/All-Defense-Tool|
+|相关资源|优秀项目集合|https://github.com/knownsec/404StarLink|
+|相关资源|优秀项目集合|https://github.com/We5ter/Scanners-Box|
+|相关资源|优秀项目集合|https://github.com/guchangan1/All-Defense-Tool|
 |CTF杂项|流量分析|https://github.com/WangYihang/UsbMiceDataHacker|
 |CTF杂项|流量分析|https://github.com/WangYihang/UsbKeyboardDataHacker|
 |信息收集|目录扫描|https://github.com/chaitin/rad|
@@ -167,7 +167,7 @@
 |漏洞发现&利用|漏洞扫描框架|https://github.com/Guoke324/Godscan|
 |相关资源|知识库|https://github.com/12306Bro/Threathunting-book|
 |漏洞发现&利用|漏洞利用辅助|https://github.com/frohoff/ysoserial|
-|相关资源|优秀开源项目集合|https://github.com/lintstar/About-Attack|
+|相关资源|优秀项目集合|https://github.com/lintstar/About-Attack|
 |漏洞发现&利用|中间件&框架漏洞利用|https://github.com/0x727/SpringBootExploit|
 |漏洞发现&利用|漏洞扫描框架|https://github.com/qianxiao996/FrameScan-GUI|
 |CTF综合|知识库|https://github.com/kitezzzGrim/CTF-Note|
@@ -177,4 +177,4 @@
 |漏洞发现&利用|漏洞检测利用仓库|https://github.com/1n7erface/PocList
 |工具&插件|goby|https://github.com/luck-ying/Library-POC|
 |工具&插件|Burpsuite插件|https://github.com/funkyoummp/BurpSuiteCn|
-|相关资源|优秀开源项目集合|https://github.com/FiveAourThe/RedTeamTools|
+|相关资源|优秀项目集合|https://github.com/FiveAourThe/RedTeamTools|
