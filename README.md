@@ -1,4 +1,4 @@
-# 更新于 2022-11-29 20:35:29
+# 更新于 2022-11-29 21:29:25
 
 ## 近30天release更新记录
 | 更新时间 | 项目名称 | 版本 | 更新内容 |
@@ -22,7 +22,7 @@
 ## 近30天commit提交记录
 | 提交时间 | 项目名称 | 更新内容 |
 | :---- | :---- | :---- |
-|2022-11-29 12:19:41|[afrog](https://github.com/zan8in/afrog)|update contributors|
+|2022-11-29 13:19:46|[afrog](https://github.com/zan8in/afrog)|update contributors|
 |2022-11-29 02:41:57|[aksk_tool](https://github.com/wyzxxz/aksk_tool)|Update README.md|
 |2022-11-28 09:04:11|[RequestTemplate](https://github.com/1n7erface/RequestTemplate)|Update README.md|
 |2022-11-28 03:47:48|[404StarLink](https://github.com/knownsec/404StarLink)|weekly update at 2022-11-28|
