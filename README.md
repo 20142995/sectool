@@ -1,4 +1,4 @@
-# 更新于 2022-11-30 21:32:02
+# 更新于 2022-11-30 22:17:16
 
 ## 近30天release更新记录
 | 更新时间 | 项目名称 | 版本 | 更新内容 |
@@ -22,6 +22,7 @@
 ## 近30天commit提交记录
 | 提交时间 | 项目名称 | 更新内容 |
 | :---- | :---- | :---- |
+|2022-11-30 14:07:47|[captcha-killer-modi<br>fied](https://github.com/f0ng/captcha-killer-modified)|Create README.md|
 |2022-11-30 09:21:05|[afrog](https://github.com/zan8in/afrog)|update pocs|
 |2022-11-30 08:35:20|[Vulnerability-Wiki](https://github.com/Threekiii/Vulnerability-Wiki)|更新README.md|
 |2022-11-30 08:34:52|[Vulhub-Reproduce](https://github.com/Threekiii/Vulhub-Reproduce)|更新漏洞|
@@ -41,7 +42,6 @@
 |2022-11-22 08:23:43|[log4j2burpscanner](https://github.com/f0ng/log4j2burpscanner)|Update README-zh-CN.md|
 |2022-11-20 10:24:53|[domain_hunter_pro](https://github.com/bit4woo/domain_hunter_pro)|Update DomainManager.javaCopyOnWriteArraySet 用iterato<br>r的remove反而会出错|
 |2022-11-18 14:26:29|[http-request-smuggl<br>er](https://github.com/portswigger/http-request-smuggler)|BApp Store update|
-|2022-11-18 07:59:12|[captcha-killer-modi<br>fied](https://github.com/f0ng/captcha-killer-modified)|Update README.md|
 |2022-11-17 14:37:23|[subfinder](https://github.com/projectdiscovery/subfinder)|Merge pull request #712 from projectdiscovery/devv2.5.<br>5|
 |2022-11-17 14:27:09|[wpscan](https://github.com/wpscanteam/wpscan)|Merge pull request #1756 from wpscanteam/dependabot/bu<br>ndler/rspec-tw-3.12.0Update rspec requirement from ~> 3<br>.11.0 to ~> 3.12.0|
 |2022-11-17 10:29:05|[nuclei](https://github.com/projectdiscovery/nuclei)|update chinese readme and typo fixes. (#2862)|

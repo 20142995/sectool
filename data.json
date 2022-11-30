@@ -1377,8 +1377,8 @@
             "https://github.com/f0ng/captcha-killer-modified": {
                 "created_at": "2022-03-18 12:41:58",
                 "description": "captcha-killer的修改版，支持关键词识别base64编码的图片，添加免费ocr库，用于验证码爆破，适配新版Burpsuite",
-                "commit_date": "2022-11-18 07:59:12",
-                "commit_message": "Update README.md",
+                "commit_date": "2022-11-30 14:07:47",
+                "commit_message": "Create README.md",
                 "release_tag": "0.16",
                 "release_date": "2022-07-02 04:51:36",
                 "release_message": "【2022-7-2】\r\n优化验证码对于base64的识别#10 ，原因在于base64编码中存在`\\n`，`0.16`版本增加对`\\n`的处理，感谢@DreamAndSun 师傅反馈"
