@@ -1073,8 +1073,8 @@
             "https://github.com/Threekiii/Vulnerability-Wiki": {
                 "created_at": "2022-04-29 05:36:33",
                 "description": "一个综合漏洞知识库，集成了Vulhub、Peiqi、Edge、0sec、Wooyun等开源漏洞库",
-                "commit_date": "2022-11-25 08:53:43",
-                "commit_message": "更新漏洞",
+                "commit_date": "2022-11-30 08:35:20",
+                "commit_message": "更新README.md",
                 "release_tag": "v1.0",
                 "release_date": "2022-07-15 01:58:00",
                 "release_message": "Vulnerability-Wiki项目中docs-0sec的打包文件，下载后于主项目docs-0sec文件夹下解压即可。\r\n\r\n\r\n"
@@ -1091,8 +1091,8 @@
             "https://github.com/Threekiii/Vulhub-Reproduce": {
                 "created_at": "2022-03-03 08:38:29",
                 "description": "一个Vulhub漏洞复现知识库",
-                "commit_date": "2022-11-25 08:53:03",
-                "commit_message": "YApi NoSQL注入导致远程命令执行漏洞.md",
+                "commit_date": "2022-11-30 08:34:52",
+                "commit_message": "更新漏洞",
                 "release_tag": null,
                 "release_date": "",
                 "release_message": null
