@@ -1,4 +1,4 @@
-# 更新于 2022-11-30 09:24:40
+# 更新于 2022-11-30 10:52:04
 
 ## 近30天release更新记录
 | 更新时间 | 项目名称 | 版本 | 更新内容 |
@@ -22,7 +22,7 @@
 ## 近30天commit提交记录
 | 提交时间 | 项目名称 | 更新内容 |
 | :---- | :---- | :---- |
-|2022-11-29 14:40:25|[afrog](https://github.com/zan8in/afrog)|update contributors|
+|2022-11-30 02:33:10|[afrog](https://github.com/zan8in/afrog)|update contributors|
 |2022-11-29 02:41:57|[aksk_tool](https://github.com/wyzxxz/aksk_tool)|Update README.md|
 |2022-11-28 09:04:11|[RequestTemplate](https://github.com/1n7erface/RequestTemplate)|Update README.md|
 |2022-11-28 03:47:48|[404StarLink](https://github.com/knownsec/404StarLink)|weekly update at 2022-11-28|
@@ -57,8 +57,7 @@
 |2022-11-07 02:30:45|[SpringBootExploit](https://github.com/0x727/SpringBootExploit)|Update README.mdupdate image links|
 |2022-11-04 03:20:29|[JSFScan.sh](https://github.com/KathanP19/JSFScan.sh)|Merge pull request #38 from jamboro/jacmo_targetescape<br>Update JSFScan.sh|
 |2022-11-03 06:42:04|[Library-POC](https://github.com/luck-ying/Library-POC)|Update README.md|
-|2022-10-31 07:16:34|[0day](https://github.com/helloexp/0day)|add Webmin 1.996 RCE (Authenticated) exp，优化目录|
-|2022-10-31 02:32:49|[xray](https://github.com/chaitin/xray)|Fix Python3 Flask bug: ImportError: cannot import name<br> 'escape' from 'jinja2' (/usr/local/lib/python3.9/dist-<br>packages/jinja2/__init__.py) (#1680)Signed-off-by: Droi<br>dKali <DroidKali@users.noreply.github.com>Signed-off-by<br>: DroidKali <DroidKali@users.noreply.github.com>Co-auth<br>ored-by: DroidKali <DroidKali@users.noreply.github.com>|## 所有项目
+|2022-10-31 07:16:34|[0day](https://github.com/helloexp/0day)|add Webmin 1.996 RCE (Authenticated) exp，优化目录|## 所有项目
 ### 信息收集
 #### 资产测绘采集
 | 项目名称 | 版本 | 项目描述 |
