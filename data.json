@@ -299,8 +299,8 @@
             "https://github.com/zan8in/afrog": {
                 "created_at": "2022-02-24 06:00:32",
                 "description": "afrog 是一款性能卓越、快速稳定、PoC 可定制化的漏洞扫描工具 - A tool for finding vulnerabilities",
-                "commit_date": "2022-11-30 06:17:57",
-                "commit_message": "update contributors",
+                "commit_date": "2022-11-30 07:30:11",
+                "commit_message": "update poc",
                 "release_tag": "v2.0.1",
                 "release_date": "2022-11-29 13:58:59",
                 "release_message": "**Full Changelog**: https://github.com/zan8in/afrog/compare/v2.0.0...v2.0.1\r\n\r\n紧急发布修复 BUG 的小版本 ~\r\n解决 afrog 线程池经常卡死 BUG（紧急）\r\n\r\n![image](https://user-images.githubusercontent.com/4088460/204548214-ee0247cd-a707-4cd7-8fe7-861852d1bd46.png)\r\n"
@@ -640,6 +640,15 @@
                 "release_tag": "v0.0.6",
                 "release_date": "2022-06-29 01:46:51",
                 "release_message": ""
+            },
+            "https://github.com/tarunkant/Gopherus": {
+                "created_at": "2018-08-11 20:18:39",
+                "description": "This tool generates gopher link for exploiting SSRF and gaining RCE in various servers",
+                "commit_date": "2022-07-11 12:11:56",
+                "commit_message": "Update install.sh",
+                "release_tag": null,
+                "release_date": "",
+                "release_message": null
             }
         },
         "重点CMS利用": {
@@ -1055,8 +1064,8 @@
             "https://github.com/Threekiii/Awesome-POC": {
                 "created_at": "2022-02-20 06:43:22",
                 "description": "一个各类漏洞POC知识库",
-                "commit_date": "2022-10-24 02:22:22",
-                "commit_message": "更新漏洞库：网络设备漏洞/",
+                "commit_date": "2022-11-30 08:14:40",
+                "commit_message": "更新README.md",
                 "release_tag": null,
                 "release_date": "",
                 "release_message": null

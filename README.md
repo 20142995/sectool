@@ -1,4 +1,4 @@
-# 更新于 2022-11-30 15:18:05
+# 更新于 2022-11-30 16:24:52
 
 ## 近30天release更新记录
 | 更新时间 | 项目名称 | 版本 | 更新内容 |
@@ -22,7 +22,8 @@
 ## 近30天commit提交记录
 | 提交时间 | 项目名称 | 更新内容 |
 | :---- | :---- | :---- |
-|2022-11-30 06:17:57|[afrog](https://github.com/zan8in/afrog)|update contributors|
+|2022-11-30 08:14:40|[Awesome-POC](https://github.com/Threekiii/Awesome-POC)|更新README.md|
+|2022-11-30 07:30:11|[afrog](https://github.com/zan8in/afrog)|update poc|
 |2022-11-30 04:06:11|[RedisEXP](https://github.com/yuyan-sec/RedisEXP)|Update README.md|
 |2022-11-29 02:41:57|[aksk_tool](https://github.com/wyzxxz/aksk_tool)|Update README.md|
 |2022-11-28 09:04:11|[RequestTemplate](https://github.com/1n7erface/RequestTemplate)|Update README.md|
@@ -170,6 +171,7 @@
 | :---- | :---- | :---- |
 | [jndi_tool](https://github.com/wyzxxz/jndi_tool) |  | JNDI服务利用工具 RMI/LDAP，支持部分场景回显、内存shell，高版本JD<br>K场景下利用等，fastjson rce命令执行，log4j rce命令执行 漏洞检测辅<br>助工具 |
 | [ysoserial](https://github.com/frohoff/ysoserial) | v0.0.6 | A proof-of-concept tool for generating payloads that exploit uns<br>afe Java object deserialization. |
+| [Gopherus](https://github.com/tarunkant/Gopherus) |  | This tool generates gopher link for exploiting SSRF and gaining <br>RCE in various servers |
 #### 重点CMS利用
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
