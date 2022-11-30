@@ -1,8 +1,9 @@
-# 更新于 2022-11-30 23:20:14
+# 更新于 2022-12-01 00:27:24
 
 ## 近30天release更新记录
 | 更新时间 | 项目名称 | 版本 | 更新内容 |
 | :---- | :---- | :---- | :---- |
+|2022-11-30 15:26:51|[captcha-killer-modi<br>fied](https://github.com/f0ng/captcha-killer-modified)|0.17|【2022-11-30】1. 添加响应提取，针对获取<br>验证码请求中有类似token字段，在登录包的同<br>时需要token校验的情况，在需要token校验的<br>字段使用`@captcha-killer-modified@`<img w<br>idth="650" alt="image" src="https://user<br>-images.githubusercontent.com/48286013/2<br>04822669-7ea6022e-8028-4526-a653-03488a1<br>96d48.png">在intruder中增加校验的参数`@c<br>aptcha-killer-modified@`<img width="573"<br> alt="image" src="https://user-images.gi<br>thubusercontent.com/48286013/204827078-d<br>ddbbd99-9c96-4c77-9542-20c5a5d1b033.png"<br>>在logger或者logger++中可以看到实际请求<<br>img width="638" alt="image" src="https:/<br>/user-images.githubusercontent.com/48286<br>013/204827499-35424d0e-7070-4905-ac4f-46<br>f05a15d49e.png">2. 增加对验证码进行二次<br>处理的案例(验证码为gif图，且验证码具体是<br>在gif图的第二帧，无法直接识别)，见[用法与<br>常见报错](https://github.com/f0ng/captcha<br>-killer-modified/blob/main/FAQ.md)|
 |2022-11-29 13:58:59|[afrog](https://github.com/zan8in/afrog)|v2.0.1|**Full Changelog**: https://github.com/<br>zan8in/afrog/compare/v2.0.0...v2.0.1紧急<br>发布修复 BUG 的小版本 ~解决 afrog 线程池<br>经常卡死 BUG（紧急）![image](https://user<br>-images.githubusercontent.com/4088460/20<br>4548214-ee0247cd-a707-4cd7-8fe7-861852d1<br>bd46.png)|
 |2022-11-28 17:47:44|[Behinder](https://github.com/rebeyond/Behinder)|Behinder_<br>v4.0.6|### 2022.11.28 v4.0.6 更新日志1.修复了T<br>omcat10中内存马植入无法连接的问题；2.修<br>复了asp版本内置传输协议的连接问题；3.修复<br>了传输协议在恢复默认时会出现错误的问题；4<br>.内置了Javafx库，修复了各类因为Javafx环<br>境无法运行的问题；5.修复了客户端兼容性问<br>题，客户端兼容Java8至Java19；6.新增“默认<br>”连接模式，兼容冰蝎3默认服务端；7.其他的<br>一些优化。|
 |2022-11-28 08:58:17|[RequestTemplate](https://github.com/1n7erface/RequestTemplate)|v1.1.0|2022.11.28 17:00这一次更新时隔一个月,我<br>还是只更新了Golang的扫描端。我觉得这次更<br>新是我迄今为止最满意的一次更新，因为我将<br>程序的架构进行了翻新重构。解决了很多在以<br>往我觉得是"bug"的细节，虽然在运行时不会出<br>现异常，但是架构始终让我不太满意。这次我<br>在爆破模块与端口扫描增加了“调度中心“的<br>角色。详细的细节我可能会发文章叙述。各位<br>及时给出评价。注：mac在更新13之后不能使用<br>压缩过后的文件，不知道为啥，在此我提供未<br>压缩的文件。见：App|
@@ -22,7 +23,7 @@
 ## 近30天commit提交记录
 | 提交时间 | 项目名称 | 更新内容 |
 | :---- | :---- | :---- |
-|2022-11-30 15:17:03|[captcha-killer-modi<br>fied](https://github.com/f0ng/captcha-killer-modified)|Update FAQ.md|
+|2022-11-30 15:40:30|[captcha-killer-modi<br>fied](https://github.com/f0ng/captcha-killer-modified)|Delete captcha-killer-modified-jdk14.jar|
 |2022-11-30 09:21:05|[afrog](https://github.com/zan8in/afrog)|update pocs|
 |2022-11-30 08:35:20|[Vulnerability-Wiki](https://github.com/Threekiii/Vulnerability-Wiki)|更新README.md|
 |2022-11-30 08:34:52|[Vulhub-Reproduce](https://github.com/Threekiii/Vulhub-Reproduce)|更新漏洞|
@@ -285,7 +286,7 @@
 | [Sylas](https://github.com/Acmesec/Sylas) | 1.1.1 | 新一代子域名主/被动收集工具 - Subdomain automatic/passive collec<br>tion tool |
 | [GadgetProbe](https://github.com/BishopFox/GadgetProbe) | v1.0 | Probe endpoints consuming Java serialized objects to identify cl<br>asses, libraries, and library versions on remote Java classpaths. |
 | [HopLa](https://github.com/synacktiv/HopLa) | 1.2 |  HopLa Burp Suite Extender plugin -Adds autocompletion support a<br>nd useful payloads in Burp Suite |
-| [captcha-killer-modi<br>fied](https://github.com/f0ng/captcha-killer-modified) | 0.16 | captcha-killer的修改版，支持关键词识别base64编码的图片，添加免费<br>ocr库，用于验证码爆破，适配新版Burpsuite |
+| [captcha-killer-modi<br>fied](https://github.com/f0ng/captcha-killer-modified) | 0.17 | captcha-killer的修改版，支持关键词识别base64编码的图片，添加免费<br>ocr库，用于验证码爆破，适配新版Burpsuite |
 | [BurpCrypto](https://github.com/whwlsfb/BurpCrypto) |  | BurpCrypto is a collection of burpsuite encryption plug-ins, sup<br>port AES/RSA/DES/ExecJs(execute JS encryption code in burpsuite).<br> 支持多种加密算法或直接执行JS代码的用于爆破前端加密的BurpSuite插<br>件 |
 | [autoDecoder](https://github.com/f0ng/autoDecoder) | 0.19.0 | Burp插件，根据自定义来达到对数据包的处理（适用于加解密、爆破等）<br>，类似mitmproxy，不同点在于经过了burp中转 |
 | [burpFakeIP](https://github.com/TheKingOfDuck/burpFakeIP) | 1.1 | 服务端配置错误情况下用于伪造ip地址进行测试的Burp Suite插件 |
