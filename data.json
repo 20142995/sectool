@@ -1480,7 +1480,7 @@
                 "commit_message": "Update FAQ-zh-CN.md",
                 "release_tag": "0.20.1",
                 "release_date": "2022-11-22 10:33:20",
-                "release_message": "# 0.20.1更新\r\n## 2022-11-22\r\n\r\n修复`.`替换参数的问题"
+                "release_message": "# 0.20.1更新\r\n## 2022-11-22\r\n\r\n- 修复`.`替换参数的问题\r\n- 由于版本更新，需要重新加载参数，点击`Restore/Loading latest params`，进行查看，编辑完成点击`Save configuration`即可正常使用"
             },
             "https://github.com/c0ny1/passive-scan-client": {
                 "created_at": "2019-08-08 01:01:28",
