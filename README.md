@@ -1,4 +1,4 @@
-# 更新于 2022-12-01 22:17:31
+# 更新于 2022-12-01 23:20:55
 
 ## 近30天release更新记录
 | 更新时间 | 项目名称 | 版本 | 更新内容 |
@@ -23,6 +23,7 @@
 ## 近30天commit提交记录
 | 提交时间 | 项目名称 | 更新内容 |
 | :---- | :---- | :---- |
+|2022-12-01 14:41:27|[BurpSuite-collectio<br>ns](https://github.com/Mr-xn/BurpSuite-collections)|add passive-scan-client 维护分支|
 |2022-12-01 08:22:30|[log4j2burpscanner](https://github.com/f0ng/log4j2burpscanner)|Update FAQ-zh-CN.md|
 |2022-12-01 07:55:41|[RequestTemplate](https://github.com/1n7erface/RequestTemplate)|Update README.md|
 |2022-11-30 15:40:30|[captcha-killer-modi<br>fied](https://github.com/f0ng/captcha-killer-modified)|Delete captcha-killer-modified-jdk14.jar|
@@ -37,7 +38,6 @@
 |2022-11-27 10:25:20|[github-subdomains](https://github.com/gwen001/github-subdomains)|readme|
 |2022-11-27 07:02:42|[knife](https://github.com/bit4woo/knife)|update|
 |2022-11-26 02:32:16|[OneForAll](https://github.com/shmilylty/OneForAll)|解决#286|
-|2022-11-25 14:53:59|[BurpSuite-collectio<br>ns](https://github.com/Mr-xn/BurpSuite-collections)|add BpScan一款用于辅助渗透测试工程师日常渗透测试的Burp<br>被动漏扫插件(SpringSpiderScan、Log4jScan和FastJsonScan)|
 |2022-11-25 11:42:34|[BpScan](https://github.com/EASY233/BpScan)|update|
 |2022-11-23 13:31:50|[dirsearch](https://github.com/maurosoria/dirsearch)|Merge pull request #1248 from drego85/patch-12Useful F<br>iles and Directory for the SIMOGEO FileManager exploit|
 |2022-11-22 18:59:04|[pocsuite3](https://github.com/knownsec/pocsuite3)|Merge pull request #341 from 13ph03nix/fix/console-use<br>-commandfix: use command in console mode use absolute p<br>ath|

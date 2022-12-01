@@ -1305,8 +1305,8 @@
             "https://github.com/Mr-xn/BurpSuite-collections": {
                 "created_at": "2020-01-25 02:07:37",
                 "description": "有关burpsuite的插件(非商店),文章以及使用技巧的收集(此项目不再提供burpsuite破解文件,如需要请在博客mrxn.net下载)---Collection of burpsuite plugins (non-stores), articles and tips for using Burpsuite, no crack version file",
-                "commit_date": "2022-11-25 14:53:59",
-                "commit_message": "add BpScan\n\n一款用于辅助渗透测试工程师日常渗透测试的Burp被动漏扫插件(SpringSpiderScan、Log4jScan和FastJsonScan)",
+                "commit_date": "2022-12-01 14:41:27",
+                "commit_message": "add passive-scan-client 维护分支",
                 "release_tag": null,
                 "release_date": "",
                 "release_message": null
