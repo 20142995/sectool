@@ -1,4 +1,4 @@
-# 更新于 2022-12-01 15:17:29
+# 更新于 2022-12-01 16:23:48
 
 ## 近30天release更新记录
 | 更新时间 | 项目名称 | 版本 | 更新内容 |
@@ -23,6 +23,8 @@
 ## 近30天commit提交记录
 | 提交时间 | 项目名称 | 更新内容 |
 | :---- | :---- | :---- |
+|2022-12-01 08:22:30|[log4j2burpscanner](https://github.com/f0ng/log4j2burpscanner)|Update FAQ-zh-CN.md|
+|2022-12-01 07:55:41|[RequestTemplate](https://github.com/1n7erface/RequestTemplate)|Update README.md|
 |2022-11-30 15:40:30|[captcha-killer-modi<br>fied](https://github.com/f0ng/captcha-killer-modified)|Delete captcha-killer-modified-jdk14.jar|
 |2022-11-30 09:21:05|[afrog](https://github.com/zan8in/afrog)|update pocs|
 |2022-11-30 08:35:20|[Vulnerability-Wiki](https://github.com/Threekiii/Vulnerability-Wiki)|更新README.md|
@@ -30,7 +32,6 @@
 |2022-11-30 08:14:40|[Awesome-POC](https://github.com/Threekiii/Awesome-POC)|更新README.md|
 |2022-11-30 04:06:11|[RedisEXP](https://github.com/yuyan-sec/RedisEXP)|Update README.md|
 |2022-11-29 02:41:57|[aksk_tool](https://github.com/wyzxxz/aksk_tool)|Update README.md|
-|2022-11-28 09:04:11|[RequestTemplate](https://github.com/1n7erface/RequestTemplate)|Update README.md|
 |2022-11-28 03:47:48|[404StarLink](https://github.com/knownsec/404StarLink)|weekly update at 2022-11-28|
 |2022-11-27 13:26:17|[Threathunting-book](https://github.com/12306Bro/Threathunting-book)|Update README.md|
 |2022-11-27 10:25:20|[github-subdomains](https://github.com/gwen001/github-subdomains)|readme|
@@ -40,7 +41,6 @@
 |2022-11-25 11:42:34|[BpScan](https://github.com/EASY233/BpScan)|update|
 |2022-11-23 13:31:50|[dirsearch](https://github.com/maurosoria/dirsearch)|Merge pull request #1248 from drego85/patch-12Useful F<br>iles and Directory for the SIMOGEO FileManager exploit|
 |2022-11-22 18:59:04|[pocsuite3](https://github.com/knownsec/pocsuite3)|Merge pull request #341 from 13ph03nix/fix/console-use<br>-commandfix: use command in console mode use absolute p<br>ath|
-|2022-11-22 08:23:43|[log4j2burpscanner](https://github.com/f0ng/log4j2burpscanner)|Update README-zh-CN.md|
 |2022-11-20 10:24:53|[domain_hunter_pro](https://github.com/bit4woo/domain_hunter_pro)|Update DomainManager.javaCopyOnWriteArraySet 用iterato<br>r的remove反而会出错|
 |2022-11-18 14:26:29|[http-request-smuggl<br>er](https://github.com/portswigger/http-request-smuggler)|BApp Store update|
 |2022-11-17 14:37:23|[subfinder](https://github.com/projectdiscovery/subfinder)|Merge pull request #712 from projectdiscovery/devv2.5.<br>5|
