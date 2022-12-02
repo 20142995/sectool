@@ -181,3 +181,4 @@
 |工具&插件|volatility|https://github.com/ruokeqx/tool-for-CTF|
 |漏洞发现&利用|漏洞利用辅助|https://github.com/tarunkant/Gopherus|
 |工具&插件|xray|https://github.com/4ra1n/super-xray|
+|CTF杂项|取证分析|https://github.com/axcheron/pyvmx-cracker|
