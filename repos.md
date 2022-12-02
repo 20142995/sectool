@@ -182,3 +182,9 @@
 |漏洞发现&利用|漏洞利用辅助|https://github.com/tarunkant/Gopherus|
 |工具&插件|xray|https://github.com/4ra1n/super-xray|
 |CTF杂项|取证分析|https://github.com/axcheron/pyvmx-cracker|
+|CTF杂项|音频隐写|DTMF脚本地址：https://github.com/ribt/dtmf-decoder|
+|CTF逆向|pyc逆向|https://github.com/AngelKitty/stegosaurus|
+|CTF杂项|图片隐写|https://github.com/livz/cloacked-pixel|
+|CTF杂项|文件分离|https://github.com/chishaxie/BlindWaterMark|
+|CTF杂项|压缩文件分析|https://github.com/AabyssZG/CRC32-Tools|
+|CTFWEB|敏感目录扫描|https://github.com/OrangeWatermelon/ctf-wscan|
