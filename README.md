@@ -1,14 +1,14 @@
-# 更新于 2022-12-02 15:16:11
+# 更新于 2022-12-02 16:22:11
 
 ## 近30天release更新记录
 | 更新时间 | 项目名称 | 版本 | 更新内容 |
 | :---- | :---- | :---- | :---- |
+|2022-12-02 08:08:53|[github-subdomains](https://github.com/gwen001/github-subdomains)|v1.2.0||
 |2022-12-01 13:17:42|[log4j2burpscanner](https://github.com/f0ng/log4j2burpscanner)|0.20.2|# 0.20.2更新## 2022-12-1- 修复`Restore/<br>Loading latest params`导致的`usereplace[<br>.]`参数置空问题，感谢@G0rdita 师傅反馈|
 |2022-11-30 15:26:51|[captcha-killer-modi<br>fied](https://github.com/f0ng/captcha-killer-modified)|0.17|【2022-11-30】1. 添加响应提取，针对获取<br>验证码请求中有类似token字段，在登录包的同<br>时需要token校验的情况，在需要token校验的<br>字段使用`@captcha-killer-modified@`<img w<br>idth="650" alt="image" src="https://user<br>-images.githubusercontent.com/48286013/2<br>04822669-7ea6022e-8028-4526-a653-03488a1<br>96d48.png">在intruder中增加校验的参数`@c<br>aptcha-killer-modified@`<img width="573"<br> alt="image" src="https://user-images.gi<br>thubusercontent.com/48286013/204827078-d<br>ddbbd99-9c96-4c77-9542-20c5a5d1b033.png"<br>>在logger或者logger++中可以看到实际请求<<br>img width="638" alt="image" src="https:/<br>/user-images.githubusercontent.com/48286<br>013/204827499-35424d0e-7070-4905-ac4f-46<br>f05a15d49e.png">2. 增加对验证码进行二次<br>处理的案例(验证码为gif图，且验证码具体是<br>在gif图的第二帧，无法直接识别)，见[用法与<br>常见报错](https://github.com/f0ng/captcha<br>-killer-modified/edit/main/FAQ.md#6-%E9%<br>AA%8C%E8%AF%81%E7%A0%81%E8%BF%9B%E8%A1%8<br>C%E4%BA%8C%E6%AC%A1%E5%A4%84%E7%90%86%E7<br>%9A%84%E6%A1%88%E4%BE%8B%E9%AA%8C%E8%AF%<br>81%E7%A0%81%E4%B8%BAgif%E5%9B%BE%E4%B8%9<br>4%E9%AA%8C%E8%AF%81%E7%A0%81%E5%85%B7%E4<br>%BD%93%E6%98%AF%E5%9C%A8gif%E5%9B%BE%E7%<br>9A%84%E7%AC%AC%E4%BA%8C%E5%B8%A7%E6%97%A<br>0%E6%B3%95%E7%9B%B4%E6%8E%A5%E8%AF%86%E5<br>%88%AB)|
 |2022-11-29 13:58:59|[afrog](https://github.com/zan8in/afrog)|v2.0.1|**Full Changelog**: https://github.com/<br>zan8in/afrog/compare/v2.0.0...v2.0.1紧急<br>发布修复 BUG 的小版本 ~解决 afrog 线程池<br>经常卡死 BUG（紧急）![image](https://user<br>-images.githubusercontent.com/4088460/20<br>4548214-ee0247cd-a707-4cd7-8fe7-861852d1<br>bd46.png)|
 |2022-11-28 17:47:44|[Behinder](https://github.com/rebeyond/Behinder)|Behinder_<br>v4.0.6|### 2022.11.28 v4.0.6 更新日志1.修复了T<br>omcat10中内存马植入无法连接的问题；2.修<br>复了asp版本内置传输协议的连接问题；3.修复<br>了传输协议在恢复默认时会出现错误的问题；4<br>.内置了Javafx库，修复了各类因为Javafx环<br>境无法运行的问题；5.修复了客户端兼容性问<br>题，客户端兼容Java8至Java19；6.新增“默认<br>”连接模式，兼容冰蝎3默认服务端；7.其他的<br>一些优化。|
 |2022-11-28 08:58:17|[RequestTemplate](https://github.com/1n7erface/RequestTemplate)|v1.1.0|2022.11.28 17:00这一次更新时隔一个月,我<br>还是只更新了Golang的扫描端。我觉得这次更<br>新是我迄今为止最满意的一次更新，因为我将<br>程序的架构进行了翻新重构。解决了很多在以<br>往我觉得是"bug"的细节，虽然在运行时不会出<br>现异常，但是架构始终让我不太满意。这次我<br>在爆破模块与端口扫描增加了“调度中心“的<br>角色。详细的细节我可能会发文章叙述。各位<br>及时给出评价。注：mac在更新13之后不能使用<br>压缩过后的文件，不知道为啥，在此我提供未<br>压缩的文件。见：App-arm64darwin-noupx、Ap<br>p-am d64darwin-noupx|
-|2022-11-27 10:27:08|[github-subdomains](https://github.com/gwen001/github-subdomains)|v1.1.0||
 |2022-11-23 03:58:28|[BpScan](https://github.com/EASY233/BpScan)|1.0.0|1、修复log4j poc编码问题2、修复dnslog平<br>台请求错误的问题3、其他bug修复|
 |2022-11-20 09:04:40|[knife](https://github.com/bit4woo/knife)|v2.1|融合U2C和Chinese2个Tab，让它们都可以支<br>持切换编码新增功能：从JS中查找URL路径后，<br>拼接BaseURL并请求其他小的更新、bug修复## <br>What's Changed* Bump gson from 2.3.1 to <br>2.8.9 by @dependabot in https://github.c<br>om/bit4woo/knife/pull/45* Bump commons-t<br>ext from 1.6 to 1.10.0 by @dependabot in<br> https://github.com/bit4woo/knife/pull/5<br>3## New Contributors* @dependabot made t<br>heir first contribution in https://githu<br>b.com/bit4woo/knife/pull/45**Full Change<br>log**: https://github.com/bit4woo/knife/<br>compare/v2.0...v2.1|
 |2022-11-18 09:37:35|[domain_hunter_pro](https://github.com/bit4woo/domain_hunter_pro)|v1.9-alph<br>a|**这是重构版本，与旧版本不兼容！！！这<br>是重构版本，与旧版本不兼容！！！这是重构<br>版本，与旧版本不兼容！！！**重新设计了数<br>据库的表结构，尽量提升数据库读写效率重新<br>设计了数据对象、UI、数据库之间的数据同步<br>逻辑重新设计了数据存储的基础类，保证线程<br>安全重新设计了table中model类的部分逻辑，<br>减少内存占用优化了数据对象的字段，尽量减<br>小每个数据对象的内存占用优化了数据提取的<br>正则表达式和逻辑优化了根域名、网段作控制<br>目标范围的逻辑优化了当根域名、网段变化时<br>，数据的刷新逻辑优化了数据数据加载逻辑其<br>他各种逻辑优化、bug修改总之就是大动作，和<br>旧版本不兼容，可能存在潜在bug（虽然我已经<br>试用一段时间，排除了很多bug），所以发布一<br>个alpha版本在正式版本之前。欢迎试用提交bu<br>g，使用时建议创建新的项目数据库，不要使<br>用旧数据库文件。|
@@ -23,6 +23,7 @@
 ## 近30天commit提交记录
 | 提交时间 | 项目名称 | 更新内容 |
 | :---- | :---- | :---- |
+|2022-12-02 08:08:51|[github-subdomains](https://github.com/gwen001/github-subdomains)|v1.2.0|
 |2022-12-02 06:41:15|[TomatoTools](https://github.com/ht0Ruial/TomatoTools)|fix #7|
 |2022-12-01 14:41:27|[BurpSuite-collectio<br>ns](https://github.com/Mr-xn/BurpSuite-collections)|add passive-scan-client 维护分支|
 |2022-12-01 08:22:30|[log4j2burpscanner](https://github.com/f0ng/log4j2burpscanner)|Update FAQ-zh-CN.md|
@@ -36,7 +37,6 @@
 |2022-11-29 02:41:57|[aksk_tool](https://github.com/wyzxxz/aksk_tool)|Update README.md|
 |2022-11-28 03:47:48|[404StarLink](https://github.com/knownsec/404StarLink)|weekly update at 2022-11-28|
 |2022-11-27 13:26:17|[Threathunting-book](https://github.com/12306Bro/Threathunting-book)|Update README.md|
-|2022-11-27 10:25:20|[github-subdomains](https://github.com/gwen001/github-subdomains)|readme|
 |2022-11-27 07:02:42|[knife](https://github.com/bit4woo/knife)|update|
 |2022-11-26 02:32:16|[OneForAll](https://github.com/shmilylty/OneForAll)|解决#286|
 |2022-11-25 11:42:34|[BpScan](https://github.com/EASY233/BpScan)|update|
@@ -74,7 +74,7 @@
 | [ksubdomain](https://github.com/knownsec/ksubdomain) | v0.7 | 无状态子域名爆破工具 |
 | [OneForAll](https://github.com/shmilylty/OneForAll) | v0.4.5 | OneForAll是一款功能强大的子域收集工具 |
 | [LangSrcCurise](https://github.com/LangziFun/LangSrcCurise) |  | SRC子域名资产监控 |
-| [github-subdomains](https://github.com/gwen001/github-subdomains) | v1.1.0 | Find subdomains on GitHub. |
+| [github-subdomains](https://github.com/gwen001/github-subdomains) | v1.2.0 | Find subdomains on GitHub. |
 | [LayerDomainFinder](https://github.com/euphrat1ca/LayerDomainFinder) | 3 | Layer子域名挖掘机 |
 | [dnsub](https://github.com/yunxu1/dnsub) | v2.1 | dnsub一款好用且强大的子域名扫描工具 |
 #### 目录扫描
