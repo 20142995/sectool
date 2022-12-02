@@ -1,4 +1,4 @@
-# 更新于 2022-12-02 14:21:34
+# 更新于 2022-12-02 15:16:11
 
 ## 近30天release更新记录
 | 更新时间 | 项目名称 | 版本 | 更新内容 |
@@ -23,6 +23,7 @@
 ## 近30天commit提交记录
 | 提交时间 | 项目名称 | 更新内容 |
 | :---- | :---- | :---- |
+|2022-12-02 06:41:15|[TomatoTools](https://github.com/ht0Ruial/TomatoTools)|fix #7|
 |2022-12-01 14:41:27|[BurpSuite-collectio<br>ns](https://github.com/Mr-xn/BurpSuite-collections)|add passive-scan-client 维护分支|
 |2022-12-01 08:22:30|[log4j2burpscanner](https://github.com/f0ng/log4j2burpscanner)|Update FAQ-zh-CN.md|
 |2022-12-01 07:55:41|[RequestTemplate](https://github.com/1n7erface/RequestTemplate)|Update README.md|

@@ -1685,8 +1685,8 @@
             "https://github.com/ht0Ruial/TomatoTools": {
                 "created_at": "2021-05-10 09:40:20",
                 "description": "TomatoTools 一款CTF杂项利器，支持36种常见编码和密码算法的加密和解密，31种密文的分析和识别，支持自动提取flag，自定义插件等。",
-                "commit_date": "2022-07-09 01:38:33",
-                "commit_message": "fix #4",
+                "commit_date": "2022-12-02 06:41:15",
+                "commit_message": "fix #7",
                 "release_tag": "v1.0.2",
                 "release_date": "2021-11-15 12:53:20",
                 "release_message": "版本说明：\r\n- **自动提flag** 支持设定深度\r\n- **关于** 里增加三个功能开关\r\n- 插件dicts新增replace替换参数\r\n- 新增解密插件 *斜杠ASCII码转换*、*HTML实体编码*\r\n- 修复bug"
