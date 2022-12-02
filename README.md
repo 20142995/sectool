@@ -1,4 +1,4 @@
-# 更新于 2022-12-02 16:22:11
+# 更新于 2022-12-02 17:17:15
 
 ## 近30天release更新记录
 | 更新时间 | 项目名称 | 版本 | 更新内容 |
@@ -289,7 +289,7 @@
 | [HopLa](https://github.com/synacktiv/HopLa) | 1.2 |  HopLa Burp Suite Extender plugin -Adds autocompletion support a<br>nd useful payloads in Burp Suite |
 | [captcha-killer-modi<br>fied](https://github.com/f0ng/captcha-killer-modified) | 0.17 | captcha-killer的修改版，支持关键词识别base64编码的图片，添加免费<br>ocr库，用于验证码爆破，适配新版Burpsuite |
 | [BurpCrypto](https://github.com/whwlsfb/BurpCrypto) |  | BurpCrypto is a collection of burpsuite encryption plug-ins, sup<br>port AES/RSA/DES/ExecJs(execute JS encryption code in burpsuite).<br> 支持多种加密算法或直接执行JS代码的用于爆破前端加密的BurpSuite插<br>件 |
-| [autoDecoder](https://github.com/f0ng/autoDecoder) | 0.19.0 | Burp插件，根据自定义来达到对数据包的处理（适用于加解密、爆破等）<br>，类似mitmproxy，不同点在于经过了burp中转 |
+| [autoDecoder](https://github.com/f0ng/autoDecoder) | 0.19.0 | Burp插件，根据自定义来达到对数据包的处理（适用于加解密、爆破等）<br>，类似mitmproxy，不同点在于经过了burp中转，在自动加解密的基础上，<br>不影响APP、网站加解密正常逻辑等。 |
 | [burpFakeIP](https://github.com/TheKingOfDuck/burpFakeIP) | 1.1 | 服务端配置错误情况下用于伪造ip地址进行测试的Burp Suite插件 |
 | [AutoRepeater](https://github.com/nccgroup/AutoRepeater) |  | Automated HTTP Request Repeating With Burp Suite |
 | [http-request-smuggl<br>er](https://github.com/portswigger/http-request-smuggler) |  |  |

@@ -1394,7 +1394,7 @@
             },
             "https://github.com/f0ng/autoDecoder": {
                 "created_at": "2022-03-26 10:13:56",
-                "description": "Burp插件，根据自定义来达到对数据包的处理（适用于加解密、爆破等），类似mitmproxy，不同点在于经过了burp中转",
+                "description": "Burp插件，根据自定义来达到对数据包的处理（适用于加解密、爆破等），类似mitmproxy，不同点在于经过了burp中转，在自动加解密的基础上，不影响APP、网站加解密正常逻辑等。",
                 "commit_date": "2022-11-15 05:41:53",
                 "commit_message": "Update README.md",
                 "release_tag": "0.19.0",
