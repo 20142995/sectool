@@ -1,4 +1,4 @@
-# 更新于 2022-12-02 21:23:46
+# 更新于 2022-12-02 22:15:59
 
 ## 近30天release更新记录
 | 更新时间 | 项目名称 | 版本 | 更新内容 |
@@ -8,6 +8,7 @@
 |2022-11-30 15:26:51|[captcha-killer-modi<br>fied](https://github.com/f0ng/captcha-killer-modified)|0.17|【2022-11-30】1. 添加响应提取，针对获取<br>验证码请求中有类似token字段，在登录包的同<br>时需要token校验的情况，在需要token校验的<br>字段使用`@captcha-killer-modified@`<img w<br>idth="650" alt="image" src="https://user<br>-images.githubusercontent.com/48286013/2<br>04822669-7ea6022e-8028-4526-a653-03488a1<br>96d48.png">在intruder中增加校验的参数`@c<br>aptcha-killer-modified@`<img width="573"<br> alt="image" src="https://user-images.gi<br>thubusercontent.com/48286013/204827078-d<br>ddbbd99-9c96-4c77-9542-20c5a5d1b033.png"<br>>在logger或者logger++中可以看到实际请求<<br>img width="638" alt="image" src="https:/<br>/user-images.githubusercontent.com/48286<br>013/204827499-35424d0e-7070-4905-ac4f-46<br>f05a15d49e.png">2. 增加对验证码进行二次<br>处理的案例(验证码为gif图，且验证码具体是<br>在gif图的第二帧，无法直接识别)，见[用法与<br>常见报错](https://github.com/f0ng/captcha<br>-killer-modified/edit/main/FAQ.md#6-%E9%<br>AA%8C%E8%AF%81%E7%A0%81%E8%BF%9B%E8%A1%8<br>C%E4%BA%8C%E6%AC%A1%E5%A4%84%E7%90%86%E7<br>%9A%84%E6%A1%88%E4%BE%8B%E9%AA%8C%E8%AF%<br>81%E7%A0%81%E4%B8%BAgif%E5%9B%BE%E4%B8%9<br>4%E9%AA%8C%E8%AF%81%E7%A0%81%E5%85%B7%E4<br>%BD%93%E6%98%AF%E5%9C%A8gif%E5%9B%BE%E7%<br>9A%84%E7%AC%AC%E4%BA%8C%E5%B8%A7%E6%97%A<br>0%E6%B3%95%E7%9B%B4%E6%8E%A5%E8%AF%86%E5<br>%88%AB)|
 |2022-11-29 13:58:59|[afrog](https://github.com/zan8in/afrog)|v2.0.1|**Full Changelog**: https://github.com/<br>zan8in/afrog/compare/v2.0.0...v2.0.1紧急<br>发布修复 BUG 的小版本 ~解决 afrog 线程池<br>经常卡死 BUG（紧急）![image](https://user<br>-images.githubusercontent.com/4088460/20<br>4548214-ee0247cd-a707-4cd7-8fe7-861852d1<br>bd46.png)|
 |2022-11-28 17:47:44|[Behinder](https://github.com/rebeyond/Behinder)|Behinder_<br>v4.0.6|### 2022.11.28 v4.0.6 更新日志1.修复了T<br>omcat10中内存马植入无法连接的问题；2.修<br>复了asp版本内置传输协议的连接问题；3.修复<br>了传输协议在恢复默认时会出现错误的问题；4<br>.内置了Javafx库，修复了各类因为Javafx环<br>境无法运行的问题；5.修复了客户端兼容性问<br>题，客户端兼容Java8至Java19；6.新增“默认<br>”连接模式，兼容冰蝎3默认服务端；7.其他的<br>一些优化。|
+|2022-11-28 13:28:57|[super-xray](https://github.com/4ra1n/super-xray)|0.8|## 0.8重要功能更新：可以与`rad`联动；可<br>以为独立反连平台导出配置文件（具体教程参<br>考B站新视频）重要`bug`说明：之前版本有反<br>馈说CPU消耗过高，是因为之前没有停止的逻辑<br>，意味着每运行一次新任务开两个新线程，一<br>个执行一个监视。当执行线程结束，监视线程<br>不会停止，任务过多时导致CPU消耗极高。虽然<br>之前版本可以通过点击强制停止使所有监视线<br>程停下，解决问题。但这种情况需要得到一个<br>合理的解决，这个版本中，主动扫描也有停止<br>扫描的按钮。另外xray团队新增了一个在线生<br>成yaml poc的网站，加了一个直接到达该网站<br>的按钮，配合poc模块的加载本地poc功能比较<br>舒服。最后一个bug是当xray和super-xray在同<br>一个路径的时候，无法保存config.yaml，因此<br>不能加载上次的配置。Bugs:- [important] [<br>公告] CPU消耗过高问题的解决 #69- [importa<br>nt] 当xray和super-xray同目录时不能保存配<br>置 #68- [bug] 查看所有poc界面使用新字体后<br>可能有意外行为 #70Others:- [new feature] <br>添加rad爬虫联动 #22- 为反连平台添加导出配<br>置文件的功能 #59- 控制台使用更好看的字体 <br>#67- 加入跳转在线生成poc的按钮 #66Downlo<br>ad:- super-xray-0.8.jar：普通的Jar包，使<br>用`java -jar`启动- super-xray-0.8-jre-exe<br>.zip：内置JRE的EXE版本，适用于没有安装Ja<br>va的情况- super-xray-0.8-system-jre.exe<br>：使用系统JRE的EXE版本，适用于已有Java环<br>境的情况|
 |2022-11-28 08:58:17|[RequestTemplate](https://github.com/1n7erface/RequestTemplate)|v1.1.0|2022.11.28 17:00这一次更新时隔一个月,我<br>还是只更新了Golang的扫描端。我觉得这次更<br>新是我迄今为止最满意的一次更新，因为我将<br>程序的架构进行了翻新重构。解决了很多在以<br>往我觉得是"bug"的细节，虽然在运行时不会出<br>现异常，但是架构始终让我不太满意。这次我<br>在爆破模块与端口扫描增加了“调度中心“的<br>角色。详细的细节我可能会发文章叙述。各位<br>及时给出评价。注：mac在更新13之后不能使用<br>压缩过后的文件，不知道为啥，在此我提供未<br>压缩的文件。见：App-arm64darwin-noupx、Ap<br>p-am d64darwin-noupx|
 |2022-11-23 03:58:28|[BpScan](https://github.com/EASY233/BpScan)|1.0.0|1、修复log4j poc编码问题2、修复dnslog平<br>台请求错误的问题3、其他bug修复|
 |2022-11-20 09:04:40|[knife](https://github.com/bit4woo/knife)|v2.1|融合U2C和Chinese2个Tab，让它们都可以支<br>持切换编码新增功能：从JS中查找URL路径后，<br>拼接BaseURL并请求其他小的更新、bug修复## <br>What's Changed* Bump gson from 2.3.1 to <br>2.8.9 by @dependabot in https://github.c<br>om/bit4woo/knife/pull/45* Bump commons-t<br>ext from 1.6 to 1.10.0 by @dependabot in<br> https://github.com/bit4woo/knife/pull/5<br>3## New Contributors* @dependabot made t<br>heir first contribution in https://githu<br>b.com/bit4woo/knife/pull/45**Full Change<br>log**: https://github.com/bit4woo/knife/<br>compare/v2.0...v2.1|
@@ -29,6 +30,7 @@
 |2022-12-01 08:22:30|[log4j2burpscanner](https://github.com/f0ng/log4j2burpscanner)|Update FAQ-zh-CN.md|
 |2022-12-01 07:55:41|[RequestTemplate](https://github.com/1n7erface/RequestTemplate)|Update README.md|
 |2022-11-30 15:40:30|[captcha-killer-modi<br>fied](https://github.com/f0ng/captcha-killer-modified)|Delete captcha-killer-modified-jdk14.jar|
+|2022-11-30 10:02:30|[super-xray](https://github.com/4ra1n/super-xray)|bug fix|
 |2022-11-30 09:21:05|[afrog](https://github.com/zan8in/afrog)|update pocs|
 |2022-11-30 08:35:20|[Vulnerability-Wiki](https://github.com/Threekiii/Vulnerability-Wiki)|更新README.md|
 |2022-11-30 08:34:52|[Vulhub-Reproduce](https://github.com/Threekiii/Vulhub-Reproduce)|更新漏洞|
@@ -59,6 +61,7 @@
 |2022-11-08 13:54:32|[PeiQi-WIKI-Book](https://github.com/PeiQi0/PeiQi-WIKI-Book)|CTF夺旗: Misc: 文件修复,压缩包破解,图片隐写,音频隐写:t<br>ada:|
 |2022-11-08 12:25:49|[ThunderSearch](https://github.com/xzajyjs/ThunderSearch)|update to v2.3.2|
 |2022-11-07 02:30:45|[SpringBootExploit](https://github.com/0x727/SpringBootExploit)|Update README.mdupdate image links|
+|2022-11-04 09:26:31|[BlindWaterMark](https://github.com/chishaxie/BlindWaterMark)|Merge pull request #23 from electron-shaders/patch-1Up<br>date README.md|
 |2022-11-04 03:20:29|[JSFScan.sh](https://github.com/KathanP19/JSFScan.sh)|Merge pull request #38 from jamboro/jacmo_targetescape<br>Update JSFScan.sh|
 |2022-11-03 06:42:04|[Library-POC](https://github.com/luck-ying/Library-POC)|Update README.md|## 所有项目
 ### 信息收集
@@ -226,9 +229,6 @@
 | [exphub](https://github.com/zhzyker/exphub) |  | Exphub[漏洞利用脚本库] 包括Webloigc、Struts2、Tomcat、Nexus、Sol<br>r、Jboss、Drupal的漏洞利用脚本，最新添加CVE-2020-14882、CVE-2020-<br>11444、CVE-2020-10204、CVE-2020-10199、CVE-2020-1938、CVE-2020-25<br>51、CVE-2020-2555、CVE-2020-2883、CVE-2019-17558、CVE-2019-6340 |
 | [CVE-Master](https://github.com/wjl110/CVE-Master) | v1.0.1 | 收集本人自接触渗透测试用于漏洞验证的所有热门CVE、POC、CNVD攻击有<br>效载荷+测试工具+FUZZ,一个仓库满足许多攻击测试场景,开箱即用. |
 | [0day](https://github.com/helloexp/0day) |  | 各种CMS、各种平台、各种系统、各种软件漏洞的EXP、POC ,该项目将持<br>续更新 |
-| [PocList
-](https://github.com/1n7erface/PocList
-) |  |  |
 | [PocList](https://github.com/1n7erface/PocList) |  | Alibaba-Nacos-Unauthorized/ApacheDruid-RCE_CVE-2021-25646/MS-Exc<br>hange-SSRF-CVE-2021-26885/Oracle-WebLogic-CVE-2021-2109_RCE/RG-CN<br>VD-2021-14536/RJ-SSL-VPN-UltraVires/Redis-Unauthorized-RCE/TDOA-V<br>11.7-GetOnlineCookie/VMware-vCenter-GetAnyFile/yongyou-GRP-U8-XXE<br>/Oracle-WebLogic-CVE-2020-14883/Oracle-WebLogic-CVE-2020-14882/Ap<br>ache-Solr-GetAnyFile/F5-BIG-IP-CVE-2021-22986/Sonicwall-SSL-VPN-R<br>CE/GitLab-Graphql-CNVD-2021-14193/D-Link-DCS-CVE-2020-25078/WLAN-<br>AP-WEA453e-RCE/360TianQing-Unauthorized/360TianQing-SQLinjection/<br>FanWeiOA-V8-SQLinjection/QiZhiBaoLeiJi-AnyUserLogin/QiAnXin-WangK<br>angFirewall-RCE/金山-V8-终端安全系统/NCCloud-SQLinjection/ShowDoc<br>-RCE |
 #### 漏洞文库
 | 项目名称 | 版本 | 项目描述 |
@@ -307,6 +307,7 @@
 | :---- | :---- | :---- |
 | [yarx](https://github.com/zema1/yarx) | v0.2.0 | An awesome reverse engine for xray poc. | 一个自动化根据 xray po<br>c 生成对应 server 的工具 |
 | [xray-poc-generation](https://github.com/phith0n/xray-poc-generation) |  | 🧬 辅助生成 XRay YAML POC |
+| [super-xray](https://github.com/4ra1n/super-xray) | 0.8 | XRAY GUI Starter (Web Vulnerability Scanner) |
 #### pocsuite3
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
@@ -339,6 +340,7 @@
 | :---- | :---- | :---- |
 | [stegsolve](https://github.com/Giotino/stegsolve) | v1.4 |  |
 | [BlindWatermark](https://github.com/ww23/BlindWatermark) | v0.0.3 | Java 盲水印 |
+| [cloacked-pixel](https://github.com/livz/cloacked-pixel) |  | LSB steganography and detection |
 #### 流量分析
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
@@ -348,8 +350,40 @@
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
 | [TomatoTools](https://github.com/ht0Ruial/TomatoTools) | v1.0.2 | TomatoTools 一款CTF杂项利器，支持36种常见编码和密码算法的加密和<br>解密，31种密文的分析和识别，支持自动提取flag，自定义插件等。 |
+#### 取证分析
+| 项目名称 | 版本 | 项目描述 |
+| :---- | :---- | :---- |
+| [pyvmx-cracker](https://github.com/axcheron/pyvmx-cracker) |  | Simple tool to crack VMware VMX encryption passwords |
+#### 音频隐写
+| 项目名称 | 版本 | 项目描述 |
+| :---- | :---- | :---- |
+| [ribt/dtmf-decoder](DTMF脚本地址：https://github.com/ribt/dtmf-decoder) |  |  |
+#### 文件分离
+| 项目名称 | 版本 | 项目描述 |
+| :---- | :---- | :---- |
+| [BlindWaterMark](https://github.com/chishaxie/BlindWaterMark) |  | 盲水印 by python |
+#### 压缩文件分析
+| 项目名称 | 版本 | 项目描述 |
+| :---- | :---- | :---- |
+| [CRC32-Tools](https://github.com/AabyssZG/CRC32-Tools) | 2.2 | Easy CRC32 Tools，so easy！！！ |
 ### CTF综合
 #### 知识库
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
 | [CTF-Note](https://github.com/kitezzzGrim/CTF-Note) |  | CTF笔记：该项目主要记录CTF知识、刷题记录、工具等。 |
+### CTF逆向
+#### pyc逆向
+| 项目名称 | 版本 | 项目描述 |
+| :---- | :---- | :---- |
+| [stegosaurus](https://github.com/AngelKitty/stegosaurus) | 1.0 | A steganography tool for embedding payloads within Python byteco<br>de. |
+### CTFWEB
+#### 敏感目录
+| 项目名称 | 版本 | 项目描述 |
+| :---- | :---- | :---- |
+| [ctf-wscan](https://github.com/OrangeWatermelon/ctf-wscan) |  | 在kingkaki的项目上进行了修改，改为单线程，可以在任意目录下执行，<br>对重复的请求进行了过滤 |
+| [scrabble](https://github.com/denny0223/scrabble) |  | Simple tool to recover .git folder from remote server |
+### CTF密码学
+#### RSA
+| 项目名称 | 版本 | 项目描述 |
+| :---- | :---- | :---- |
+| [rsa-wiener-attack](https://github.com/pablocelayes/rsa-wiener-attack) |  | A Python implementation of the Wiener attack on RSA public-key e<br>ncryption scheme. |
