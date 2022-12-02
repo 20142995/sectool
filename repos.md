@@ -180,3 +180,4 @@
 |相关资源|优秀项目集合|https://github.com/FiveAourThe/RedTeamTools|
 |工具&插件|volatility|https://github.com/ruokeqx/tool-for-CTF|
 |漏洞发现&利用|漏洞利用辅助|https://github.com/tarunkant/Gopherus|
+|工具&插件|xray|https://github.com/4ra1n/super-xray|
