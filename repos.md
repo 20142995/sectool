@@ -187,4 +187,6 @@
 |CTF杂项|图片隐写|https://github.com/livz/cloacked-pixel|
 |CTF杂项|文件分离|https://github.com/chishaxie/BlindWaterMark|
 |CTF杂项|压缩文件分析|https://github.com/AabyssZG/CRC32-Tools|
-|CTFWEB|敏感目录扫描|https://github.com/OrangeWatermelon/ctf-wscan|
+|CTFWEB|敏感目录|https://github.com/OrangeWatermelon/ctf-wscan|
+|CTFWEB|敏感目录|https://github.com/denny0223/scrabble|
+|CTF密码学|RSA|https://github.com/pablocelayes/rsa-wiener-attack|
