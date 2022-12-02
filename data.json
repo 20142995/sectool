@@ -1806,5 +1806,18 @@
                 "release_message": null
             }
         }
+    },
+    "应急响应": {
+        "web日志分析": {
+            "https://github.com/minhangxiaohui/DecodeSomeJSPWebshell": {
+                "created_at": "2022-02-12 02:05:07",
+                "description": "冰蝎、哥斯拉 jsp webshell通信流量解密器",
+                "commit_date": "2022-10-17 03:28:15",
+                "commit_message": "Update README.md",
+                "release_tag": "v1.2",
+                "release_date": "2022-02-12 02:41:09",
+                "release_message": "v1.2 打包"
+            }
+        }
     }
 }

@@ -1,4 +1,4 @@
-# 更新于 2022-12-02 22:15:59
+# 更新于 2022-12-02 23:16:16
 
 ## 近30天release更新记录
 | 更新时间 | 项目名称 | 版本 | 更新内容 |
@@ -387,3 +387,8 @@
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
 | [rsa-wiener-attack](https://github.com/pablocelayes/rsa-wiener-attack) |  | A Python implementation of the Wiener attack on RSA public-key e<br>ncryption scheme. |
+### 应急响应
+#### web日志分析
+| 项目名称 | 版本 | 项目描述 |
+| :---- | :---- | :---- |
+| [DecodeSomeJSPWebshe<br>ll](https://github.com/minhangxiaohui/DecodeSomeJSPWebshell) | v1.2 | 冰蝎、哥斯拉 jsp webshell通信流量解密器 |
