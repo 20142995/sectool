@@ -1,4 +1,4 @@
-# 更新于 2022-12-04 06:17:01
+# 更新于 2022-12-04 07:17:39
 
 ## 近30天release更新记录
 | 更新时间 | 项目名称 | 版本 | 更新内容 |
@@ -316,7 +316,7 @@
 | :---- | :---- | :---- |
 | [Hack-Tools](https://github.com/LasCC/Hack-Tools) | 0.4.0 | The all-in-one Red Team extension for Web Pentester 🛠 |
 | [SwitchyOmega](https://github.com/FelisCatus/SwitchyOmega) | v2.5.20 | Manage and switch between multiple proxies quickly & easily. |
-| [untrusted-types](https://github.com/filedescriptor/untrusted-types) | 1.1.1 |  |
+| [untrusted-types](https://github.com/filedescriptor/untrusted-types) | 1.1 |  |
 | [fofa_view](https://github.com/fofapro/fofa_view) | v0.0.5 | FOFA Pro view 是一款FOFA Pro 资产展示浏览器插件，目前兼容Chrome<br>、Firefox、Opera。 |
 | [mitaka](https://github.com/ninoseki/mitaka) | v0.93.0 | A browser extension for OSINT search |
 | [anti-honeypot](https://github.com/cnrstar/anti-honeypot) |  | 一款可以检测WEB蜜罐并阻断请求的Chrome插件 |

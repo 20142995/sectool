@@ -1567,9 +1567,9 @@
                 "description": null,
                 "commit_date": "2021-10-12 17:37:56",
                 "commit_message": "URL encode settings redirect",
-                "release_tag": "1.1.1",
-                "release_date": "2021-10-12 17:50:25",
-                "release_message": "- Fixes #8 "
+                "release_tag": "1.1",
+                "release_date": "2021-06-13 20:24:16",
+                "release_message": "- Enable/disable recording button\r\n- Bug fixes"
             },
             "https://github.com/fofapro/fofa_view": {
                 "created_at": "2019-12-28 17:11:26",
