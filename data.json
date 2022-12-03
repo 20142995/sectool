@@ -411,8 +411,8 @@
             "https://github.com/yuyan-sec/RedisEXP": {
                 "created_at": "2022-03-19 14:41:00",
                 "description": "Redis 漏洞利用工具",
-                "commit_date": "2022-11-30 04:06:11",
-                "commit_message": "Update README.md",
+                "commit_date": "2022-12-03 07:13:38",
+                "commit_message": "Update tools.go",
                 "release_tag": null,
                 "release_date": "",
                 "release_message": null

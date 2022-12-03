@@ -1,4 +1,4 @@
-# 更新于 2022-12-03 15:15:51
+# 更新于 2022-12-03 16:20:37
 
 ## 近30天release更新记录
 | 更新时间 | 项目名称 | 版本 | 更新内容 |
@@ -24,6 +24,7 @@
 ## 近30天commit提交记录
 | 提交时间 | 项目名称 | 更新内容 |
 | :---- | :---- | :---- |
+|2022-12-03 07:13:38|[RedisEXP](https://github.com/yuyan-sec/RedisEXP)|Update tools.go|
 |2022-12-03 03:32:16|[afrog](https://github.com/zan8in/afrog)|update pocs|
 |2022-12-02 08:08:51|[github-subdomains](https://github.com/gwen001/github-subdomains)|v1.2.0|
 |2022-12-02 06:41:15|[TomatoTools](https://github.com/ht0Ruial/TomatoTools)|fix #7|
@@ -35,7 +36,6 @@
 |2022-11-30 08:35:20|[Vulnerability-Wiki](https://github.com/Threekiii/Vulnerability-Wiki)|更新README.md|
 |2022-11-30 08:34:52|[Vulhub-Reproduce](https://github.com/Threekiii/Vulhub-Reproduce)|更新漏洞|
 |2022-11-30 08:14:40|[Awesome-POC](https://github.com/Threekiii/Awesome-POC)|更新README.md|
-|2022-11-30 04:06:11|[RedisEXP](https://github.com/yuyan-sec/RedisEXP)|Update README.md|
 |2022-11-29 02:41:57|[aksk_tool](https://github.com/wyzxxz/aksk_tool)|Update README.md|
 |2022-11-28 03:47:48|[404StarLink](https://github.com/knownsec/404StarLink)|weekly update at 2022-11-28|
 |2022-11-27 13:26:17|[Threathunting-book](https://github.com/12306Bro/Threathunting-book)|Update README.md|
