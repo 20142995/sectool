@@ -1,4 +1,4 @@
-# 更新于 2022-12-03 09:16:11
+# 更新于 2022-12-03 10:37:29
 
 ## 近30天release更新记录
 | 更新时间 | 项目名称 | 版本 | 更新内容 |
@@ -24,6 +24,7 @@
 ## 近30天commit提交记录
 | 提交时间 | 项目名称 | 更新内容 |
 | :---- | :---- | :---- |
+|2022-12-03 02:33:55|[afrog](https://github.com/zan8in/afrog)|update pocs|
 |2022-12-02 08:08:51|[github-subdomains](https://github.com/gwen001/github-subdomains)|v1.2.0|
 |2022-12-02 06:41:15|[TomatoTools](https://github.com/ht0Ruial/TomatoTools)|fix #7|
 |2022-12-01 14:41:27|[BurpSuite-collectio<br>ns](https://github.com/Mr-xn/BurpSuite-collections)|add passive-scan-client 维护分支|
@@ -31,7 +32,6 @@
 |2022-12-01 07:55:41|[RequestTemplate](https://github.com/1n7erface/RequestTemplate)|Update README.md|
 |2022-11-30 15:40:30|[captcha-killer-modi<br>fied](https://github.com/f0ng/captcha-killer-modified)|Delete captcha-killer-modified-jdk14.jar|
 |2022-11-30 10:02:30|[super-xray](https://github.com/4ra1n/super-xray)|bug fix|
-|2022-11-30 09:21:05|[afrog](https://github.com/zan8in/afrog)|update pocs|
 |2022-11-30 08:35:20|[Vulnerability-Wiki](https://github.com/Threekiii/Vulnerability-Wiki)|更新README.md|
 |2022-11-30 08:34:52|[Vulhub-Reproduce](https://github.com/Threekiii/Vulhub-Reproduce)|更新漏洞|
 |2022-11-30 08:14:40|[Awesome-POC](https://github.com/Threekiii/Awesome-POC)|更新README.md|
