@@ -299,7 +299,7 @@
             "https://github.com/zan8in/afrog": {
                 "created_at": "2022-02-24 06:00:32",
                 "description": "afrog 是一款性能卓越、快速稳定、PoC 可定制化的漏洞扫描工具 - A tool for finding vulnerabilities",
-                "commit_date": "2022-12-03 02:33:55",
+                "commit_date": "2022-12-03 03:32:16",
                 "commit_message": "update pocs",
                 "release_tag": "v2.0.1",
                 "release_date": "2022-11-29 13:58:59",

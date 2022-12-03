@@ -1,4 +1,4 @@
-# 更新于 2022-12-03 11:19:42
+# 更新于 2022-12-03 12:21:15
 
 ## 近30天release更新记录
 | 更新时间 | 项目名称 | 版本 | 更新内容 |
@@ -24,7 +24,7 @@
 ## 近30天commit提交记录
 | 提交时间 | 项目名称 | 更新内容 |
 | :---- | :---- | :---- |
-|2022-12-03 02:33:55|[afrog](https://github.com/zan8in/afrog)|update pocs|
+|2022-12-03 03:32:16|[afrog](https://github.com/zan8in/afrog)|update pocs|
 |2022-12-02 08:08:51|[github-subdomains](https://github.com/gwen001/github-subdomains)|v1.2.0|
 |2022-12-02 06:41:15|[TomatoTools](https://github.com/ht0Ruial/TomatoTools)|fix #7|
 |2022-12-01 14:41:27|[BurpSuite-collectio<br>ns](https://github.com/Mr-xn/BurpSuite-collections)|add passive-scan-client 维护分支|
