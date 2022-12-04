@@ -1,4 +1,4 @@
-# 更新于 2022-12-04 17:16:57
+# 更新于 2022-12-04 18:17:50
 
 ## 近30天release更新记录
 | 更新时间 | 项目名称 | 版本 | 更新内容 |
@@ -16,6 +16,7 @@
 |2022-11-17 14:52:04|[subfinder](https://github.com/projectdiscovery/subfinder)|v2.5.5|## What's Changed* Added hunter source <br>by @Mzack9999 in https://github.com/proj<br>ectdiscovery/subfinder/pull/680* Added r<br>econ.cloud source by @Mzack9999 in https<br>://github.com/projectdiscovery/subfinder<br>/pull/679* Added the library usage examp<br>le by @forgedhallpass in https://github.<br>com/projectdiscovery/subfinder/pull/693*<br> Added callback function by @ShubhamRasa<br>l in https://github.com/projectdiscovery<br>/subfinder/pull/699* Added dynamic year <br>ranges for commoncrawl by @vzamanillo in<br> https://github.com/projectdiscovery/sub<br>finder/pull/687* Fixed crtsh email value<br>s by @vzamanillo in https://github.com/p<br>rojectdiscovery/subfinder/pull/676* Fixe<br>d source tests, added crtsh with recursi<br>on by @vzamanillo in https://github.com/<br>projectdiscovery/subfinder/pull/702* Fix<br>ed Segfault crash by @r0nk in https://gi<br>thub.com/projectdiscovery/subfinder/pull<br>/672* Removed sonar source by @vzamanill<br>o in https://github.com/projectdiscovery<br>/subfinder/pull/701## New Contributors* <br>@r0nk made their first contribution in h<br>ttps://github.com/projectdiscovery/subfi<br>nder/pull/672* @ShubhamRasal made their <br>first contribution in https://github.com<br>/projectdiscovery/subfinder/pull/699**Fu<br>ll Changelog**: https://github.com/proje<br>ctdiscovery/subfinder/compare/v2.5.4...v<br>2.5.5|
 |2022-11-16 22:53:24|[feroxbuster](https://github.com/epi052/feroxbuster)|v2.7.2|## What's Changed* removed superfluous <br>if statement by @herrcykel in https://gi<br>thub.com/epi052/feroxbuster/pull/580* up<br>graded leaky-bucket to 0.12.1 by @udopro<br>g in https://github.com/epi052/feroxbust<br>er/pull/604* updated dependencies by @ep<br>i052 in https://github.com/epi052/feroxb<br>uster/pull/670* upgraded clap from 3.x t<br>o 4.x by @epi052 in https://github.com/e<br>pi052/feroxbuster/pull/671* 661 fix doub<br>le dir scan by @epi052 in https://github<br>.com/epi052/feroxbuster/pull/672* fixed <br>invalid uri exception during extraction <br>by @epi052 in https://github.com/epi052/<br>feroxbuster/pull/706## New Contributors*<br> @herrcykel made their first contributio<br>n in https://github.com/epi052/feroxbust<br>er/pull/580* @udoprog made their first c<br>ontribution in https://github.com/epi052<br>/feroxbuster/pull/604**Full Changelog**:<br> https://github.com/epi052/feroxbuster/c<br>ompare/2.7.1...v2.7.2|
 |2022-11-14 08:01:41|[OA-EXPTOOL](https://github.com/LittleBear4/OA-EXPTOOL)|v0.6|增加打印功能---------------------------<br>----------------------------------------<br>----------------------------------------<br>----------------------------------------<br>增加帆软2017敏感信息泄露poc增加泛微OA_hrm<br>careerApply_sql poc,泛微OA_mysql_config<br>数据库信息泄漏,泛微OA_jquery_filetree,泛<br>微OA_Verify_QuickLogin 泛微OA_signnature_<br>任意文件访问,泛微OA_uploader_OPerate_2022<br>,泛微OA_V10_前台sql增加红帆OA_非医疗版_<br>任意文件上传增加万户OA_document_sql，万户<br>OA DownloadServlet 任意文件读取漏洞增加n<br>c_xbr_rce，用友_U8_f5_sql，用友GRP_u8_up<br>load_data优化优化泛微OA的检测，对检测增<br>加内容判断，提高准确性，优化红帆漏洞poc增<br>加payload，优化蓝凌oa poc的准确性 去掉部<br>分exp，优化通达后台xxs包含漏洞的线程问题<br>，优化万户模块下的poc提高准确性|
+|2022-11-13 11:40:50|[AttackTomcat](https://github.com/tpt11fb/AttackTomcat)|V1||
 |2022-11-11 06:00:52|[autoDecoder](https://github.com/f0ng/autoDecoder)|0.19.0|## 2022.11.11 更新0.19修改了ui，优化了<br>在新版bp上`html`无法解析的问题|
 |2022-11-09 00:28:07|[pocsuite3](https://github.com/knownsec/pocsuite3)|v2.0.1|* 修复 words 匹配器表达式执行的问题 #33<br>3, thanks @soapffz* 修复模版中包含中文异<br>常捕获的问题 #334, thanks @izj007* 提高模<br>版的鲁棒性* 支持 digest_username 和 diges<br>t_password，用于 http 认证* 支持 negativ<br>e 反向匹配器---* fix words matcher expre<br>ssion execution #333, thanks @soapffz* f<br>ix catch binascii ValueError Exception #<br>334, thanks @izj007* improve template ro<br>bustness* support digest_username and di<br>gest_password* support negative matchers|
 |2022-11-08 12:30:23|[ThunderSearch](https://github.com/xzajyjs/ThunderSearch)|v2.3.2|- 增加了部分界面的英文支持- 调整了界面<br>的大小---- Partly english support- Adjust<br>ed the size of the GUI---> md5ThunderSea<br>rch_darwin_universal.zip=20b1888d466e61c<br>ef77a4b42161fd783ThunderSearch_win_x86.z<br>ip=a2cd29776336d1ece4e0d494e676566a|
@@ -59,8 +60,7 @@
 |2022-11-11 14:18:43|[Packer-Fuzzer](https://github.com/rtcatc/Packer-Fuzzer)|v1.4.13 update config|
 |2022-11-08 13:54:32|[PeiQi-WIKI-Book](https://github.com/PeiQi0/PeiQi-WIKI-Book)|CTF夺旗: Misc: 文件修复,压缩包破解,图片隐写,音频隐写:t<br>ada:|
 |2022-11-08 12:25:49|[ThunderSearch](https://github.com/xzajyjs/ThunderSearch)|update to v2.3.2|
-|2022-11-07 02:30:45|[SpringBootExploit](https://github.com/0x727/SpringBootExploit)|Update README.mdupdate image links|
-|2022-11-04 09:26:31|[BlindWaterMark](https://github.com/chishaxie/BlindWaterMark)|Merge pull request #23 from electron-shaders/patch-1Up<br>date README.md|## 所有项目
+|2022-11-07 02:30:45|[SpringBootExploit](https://github.com/0x727/SpringBootExploit)|Update README.mdupdate image links|## 所有项目
 ### 信息收集
 #### 资产测绘采集
 | 项目名称 | 版本 | 项目描述 |
@@ -147,7 +147,7 @@
 #### 中间件&框架漏洞利用
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
-| [AttackTomcat](https://github.com/tpt11fb/AttackTomcat) |  | Tomcat漏洞利用工具 |
+| [AttackTomcat](https://github.com/tpt11fb/AttackTomcat) | V1 | Tomcat漏洞利用工具 |
 | [SpringExploit](https://github.com/SummerSec/SpringExploit) | 0.1.9 | 🚀 一款为了学习go而诞生的漏洞利用工具 |
 | [shiro_rce_tool](https://github.com/wyzxxz/shiro_rce_tool) |  | shiro 反序列 命令执行辅助检测工具 |
 | [ShiroAttack2](https://github.com/SummerSec/ShiroAttack2) | 4.5.6 | shiro反序列化漏洞综合利用,包含（回显执行命令/注入内存马）修复原<br>版中NoCC的问题 https://github.com/j1anFen/shiro_attack |

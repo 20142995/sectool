@@ -462,9 +462,9 @@
                 "description": "Tomcat漏洞利用工具",
                 "commit_date": "2022-11-15 09:05:50",
                 "commit_message": "Create README.md",
-                "release_tag": null,
-                "release_date": "",
-                "release_message": null
+                "release_tag": "V1",
+                "release_date": "2022-11-13 11:40:50",
+                "release_message": ""
             },
             "https://github.com/SummerSec/SpringExploit": {
                 "created_at": "2022-04-19 03:48:27",
