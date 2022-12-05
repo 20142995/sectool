@@ -1,4 +1,4 @@
-# 更新于 2022-12-05 09:17:49
+# 更新于 2022-12-05 10:43:24
 
 ## 近30天release更新记录
 | 更新时间 | 项目名称 | 版本 | 更新内容 |
@@ -24,6 +24,7 @@
 ## 近30天commit提交记录
 | 提交时间 | 项目名称 | 更新内容 |
 | :---- | :---- | :---- |
+|2022-12-05 01:54:43|[captcha-killer-modi<br>fied](https://github.com/f0ng/captcha-killer-modified)|Update README.md|
 |2022-12-03 07:13:38|[RedisEXP](https://github.com/yuyan-sec/RedisEXP)|Update tools.go|
 |2022-12-03 03:32:16|[afrog](https://github.com/zan8in/afrog)|update pocs|
 |2022-12-02 08:08:51|[github-subdomains](https://github.com/gwen001/github-subdomains)|v1.2.0|
@@ -31,7 +32,6 @@
 |2022-12-01 14:41:27|[BurpSuite-collectio<br>ns](https://github.com/Mr-xn/BurpSuite-collections)|add passive-scan-client 维护分支|
 |2022-12-01 08:22:30|[log4j2burpscanner](https://github.com/f0ng/log4j2burpscanner)|Update FAQ-zh-CN.md|
 |2022-12-01 07:55:41|[RequestTemplate](https://github.com/1n7erface/RequestTemplate)|Update README.md|
-|2022-11-30 15:40:30|[captcha-killer-modi<br>fied](https://github.com/f0ng/captcha-killer-modified)|Delete captcha-killer-modified-jdk14.jar|
 |2022-11-30 10:02:30|[super-xray](https://github.com/4ra1n/super-xray)|bug fix|
 |2022-11-30 08:35:20|[Vulnerability-Wiki](https://github.com/Threekiii/Vulnerability-Wiki)|更新README.md|
 |2022-11-30 08:34:52|[Vulhub-Reproduce](https://github.com/Threekiii/Vulhub-Reproduce)|更新漏洞|
