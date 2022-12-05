@@ -1,4 +1,4 @@
-# 更新于 2022-12-05 12:21:35
+# 更新于 2022-12-05 13:17:49
 
 ## 近30天release更新记录
 | 更新时间 | 项目名称 | 版本 | 更新内容 |
@@ -45,6 +45,7 @@
 |2022-11-25 11:42:34|[BpScan](https://github.com/EASY233/BpScan)|update|
 |2022-11-23 13:31:50|[dirsearch](https://github.com/maurosoria/dirsearch)|Merge pull request #1248 from drego85/patch-12Useful F<br>iles and Directory for the SIMOGEO FileManager exploit|
 |2022-11-22 18:59:04|[pocsuite3](https://github.com/knownsec/pocsuite3)|Merge pull request #341 from 13ph03nix/fix/console-use<br>-commandfix: use command in console mode use absolute p<br>ath|
+|2022-11-22 06:27:28|[vulnerability](https://github.com/lal0ne/vulnerability)|DAR-8000 远程命令执行漏洞|
 |2022-11-20 10:24:53|[domain_hunter_pro](https://github.com/bit4woo/domain_hunter_pro)|Update DomainManager.javaCopyOnWriteArraySet 用iterato<br>r的remove反而会出错|
 |2022-11-18 14:26:29|[http-request-smuggl<br>er](https://github.com/portswigger/http-request-smuggler)|BApp Store update|
 |2022-11-17 14:37:23|[subfinder](https://github.com/projectdiscovery/subfinder)|Merge pull request #712 from projectdiscovery/devv2.5.<br>5|
@@ -227,6 +228,7 @@
 | [CVE-Master](https://github.com/wjl110/CVE-Master) | v1.0.1 | 收集本人自接触渗透测试用于漏洞验证的所有热门CVE、POC、CNVD攻击有<br>效载荷+测试工具+FUZZ,一个仓库满足许多攻击测试场景,开箱即用. |
 | [0day](https://github.com/helloexp/0day) |  | 各种CMS、各种平台、各种系统、各种软件漏洞的EXP、POC ,该项目将持<br>续更新 |
 | [PocList](https://github.com/1n7erface/PocList) |  | Alibaba-Nacos-Unauthorized/ApacheDruid-RCE_CVE-2021-25646/MS-Exc<br>hange-SSRF-CVE-2021-26885/Oracle-WebLogic-CVE-2021-2109_RCE/RG-CN<br>VD-2021-14536/RJ-SSL-VPN-UltraVires/Redis-Unauthorized-RCE/TDOA-V<br>11.7-GetOnlineCookie/VMware-vCenter-GetAnyFile/yongyou-GRP-U8-XXE<br>/Oracle-WebLogic-CVE-2020-14883/Oracle-WebLogic-CVE-2020-14882/Ap<br>ache-Solr-GetAnyFile/F5-BIG-IP-CVE-2021-22986/Sonicwall-SSL-VPN-R<br>CE/GitLab-Graphql-CNVD-2021-14193/D-Link-DCS-CVE-2020-25078/WLAN-<br>AP-WEA453e-RCE/360TianQing-Unauthorized/360TianQing-SQLinjection/<br>FanWeiOA-V8-SQLinjection/QiZhiBaoLeiJi-AnyUserLogin/QiAnXin-WangK<br>angFirewall-RCE/金山-V8-终端安全系统/NCCloud-SQLinjection/ShowDoc<br>-RCE |
+| [vulnerability](https://github.com/lal0ne/vulnerability) |  | 收集、整理、修改互联网上公开的漏洞POC |
 #### 漏洞文库
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
@@ -355,6 +357,7 @@
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
 | [ribt/dtmf-decoder](DTMF脚本地址：https://github.com/ribt/dtmf-decoder) |  |  |
+| [dtmf-decoder](https://github.com/ribt/dtmf-decoder) |  | Extract phone numbers from an audio recording of the dial tones. |
 #### 文件分离
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
@@ -384,6 +387,7 @@
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
 | [rsa-wiener-attack](https://github.com/pablocelayes/rsa-wiener-attack) |  | A Python implementation of the Wiener attack on RSA public-key e<br>ncryption scheme. |
+| [RSA](https://github.com/Mr-Aur0ra/RSA) |  |  |
 ### 应急响应
 #### web日志分析
 | 项目名称 | 版本 | 项目描述 |

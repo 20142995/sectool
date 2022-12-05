@@ -1024,6 +1024,15 @@
                 "release_tag": null,
                 "release_date": "",
                 "release_message": null
+            },
+            "https://github.com/lal0ne/vulnerability": {
+                "created_at": "2022-01-20 02:48:42",
+                "description": "收集、整理、修改互联网上公开的漏洞POC",
+                "commit_date": "2022-11-22 06:27:28",
+                "commit_message": "DAR-8000 远程命令执行漏洞",
+                "release_tag": null,
+                "release_date": "",
+                "release_message": null
             }
         },
         "漏洞文库": {
@@ -1721,6 +1730,15 @@
                 "release_tag": null,
                 "release_date": "",
                 "release_message": null
+            },
+            "https://github.com/ribt/dtmf-decoder": {
+                "created_at": "2019-11-10 18:35:52",
+                "description": "Extract phone numbers from an audio recording of the dial tones.",
+                "commit_date": "2021-01-26 08:05:15",
+                "commit_message": "Merge pull request #4 from OBITORASU/improvements\n\nImprovements to README",
+                "release_tag": null,
+                "release_date": "",
+                "release_message": null
             }
         },
         "文件分离": {
@@ -1801,6 +1819,15 @@
                 "description": "A Python implementation of the Wiener attack on RSA public-key encryption scheme.",
                 "commit_date": "2017-02-25 17:52:55",
                 "commit_message": "Merge pull request #3 from hideov/master\n\nchanged recursions into loops to allow 4096-bit moduli",
+                "release_tag": null,
+                "release_date": "",
+                "release_message": null
+            },
+            "https://github.com/Mr-Aur0ra/RSA": {
+                "created_at": "2019-08-07 02:28:11",
+                "description": null,
+                "commit_date": "2022-08-22 15:31:16",
+                "commit_message": "Delete PKCS1_OAEP模式的RSA directory",
                 "release_tag": null,
                 "release_date": "",
                 "release_message": null
