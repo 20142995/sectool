@@ -191,3 +191,4 @@
 |CTFWEB|敏感目录|https://github.com/denny0223/scrabble|
 |CTF密码学|RSA|https://github.com/pablocelayes/rsa-wiener-attack|
 |应急响应|web日志分析|https://github.com/minhangxiaohui/DecodeSomeJSPWebshell|
+|漏洞发现&利用|漏洞检测利用仓库|https://github.com/lal0ne/vulnerability|
