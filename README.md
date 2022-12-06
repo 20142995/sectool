@@ -1,8 +1,9 @@
-# 更新于 2022-12-05 13:17:49
+# 更新于 2022-12-06 09:04:03
 
 ## 近30天release更新记录
 | 更新时间 | 项目名称 | 版本 | 更新内容 |
 | :---- | :---- | :---- | :---- |
+|2022-12-05 21:08:48|[nuclei](https://github.com/projectdiscovery/nuclei)|v2.8.1|## What's Changed* Fixed https://github<br>.com/projectdiscovery/nuclei/issues/2978|
 |2022-12-02 08:08:53|[github-subdomains](https://github.com/gwen001/github-subdomains)|v1.2.0||
 |2022-12-01 13:17:42|[log4j2burpscanner](https://github.com/f0ng/log4j2burpscanner)|0.20.2|# 0.20.2更新## 2022-12-1- 修复`Restore/<br>Loading latest params`导致的`usereplace[<br>.]`参数置空问题，感谢@G0rdita 师傅反馈|
 |2022-11-30 15:26:51|[captcha-killer-modi<br>fied](https://github.com/f0ng/captcha-killer-modified)|0.17|【2022-11-30】1. 添加响应提取，针对获取<br>验证码请求中有类似token字段，在登录包的同<br>时需要token校验的情况，在需要token校验的<br>字段使用`@captcha-killer-modified@`<img w<br>idth="650" alt="image" src="https://user<br>-images.githubusercontent.com/48286013/2<br>04822669-7ea6022e-8028-4526-a653-03488a1<br>96d48.png">在intruder中增加校验的参数`@c<br>aptcha-killer-modified@`<img width="573"<br> alt="image" src="https://user-images.gi<br>thubusercontent.com/48286013/204827078-d<br>ddbbd99-9c96-4c77-9542-20c5a5d1b033.png"<br>>在logger或者logger++中可以看到实际请求<<br>img width="638" alt="image" src="https:/<br>/user-images.githubusercontent.com/48286<br>013/204827499-35424d0e-7070-4905-ac4f-46<br>f05a15d49e.png">2. 增加对验证码进行二次<br>处理的案例(验证码为gif图，且验证码具体是<br>在gif图的第二帧，无法直接识别)，见[用法与<br>常见报错](https://github.com/f0ng/captcha<br>-killer-modified/edit/main/FAQ.md#6-%E9%<br>AA%8C%E8%AF%81%E7%A0%81%E8%BF%9B%E8%A1%8<br>C%E4%BA%8C%E6%AC%A1%E5%A4%84%E7%90%86%E7<br>%9A%84%E6%A1%88%E4%BE%8B%E9%AA%8C%E8%AF%<br>81%E7%A0%81%E4%B8%BAgif%E5%9B%BE%E4%B8%9<br>4%E9%AA%8C%E8%AF%81%E7%A0%81%E5%85%B7%E4<br>%BD%93%E6%98%AF%E5%9C%A8gif%E5%9B%BE%E7%<br>9A%84%E7%AC%AC%E4%BA%8C%E5%B8%A7%E6%97%A<br>0%E6%B3%95%E7%9B%B4%E6%8E%A5%E8%AF%86%E5<br>%88%AB)|
@@ -20,18 +21,20 @@
 |2022-11-11 06:00:52|[autoDecoder](https://github.com/f0ng/autoDecoder)|0.19.0|## 2022.11.11 更新0.19修改了ui，优化了<br>在新版bp上`html`无法解析的问题|
 |2022-11-09 00:28:07|[pocsuite3](https://github.com/knownsec/pocsuite3)|v2.0.1|* 修复 words 匹配器表达式执行的问题 #33<br>3, thanks @soapffz* 修复模版中包含中文异<br>常捕获的问题 #334, thanks @izj007* 提高模<br>版的鲁棒性* 支持 digest_username 和 diges<br>t_password，用于 http 认证* 支持 negativ<br>e 反向匹配器---* fix words matcher expre<br>ssion execution #333, thanks @soapffz* f<br>ix catch binascii ValueError Exception #<br>334, thanks @izj007* improve template ro<br>bustness* support digest_username and di<br>gest_password* support negative matchers|
 |2022-11-08 12:30:23|[ThunderSearch](https://github.com/xzajyjs/ThunderSearch)|v2.3.2|- 增加了部分界面的英文支持- 调整了界面<br>的大小---- Partly english support- Adjust<br>ed the size of the GUI---> md5ThunderSea<br>rch_darwin_universal.zip=20b1888d466e61c<br>ef77a4b42161fd783ThunderSearch_win_x86.z<br>ip=a2cd29776336d1ece4e0d494e676566a|
-|2022-11-07 21:04:01|[nuclei](https://github.com/projectdiscovery/nuclei)|v2.7.9|- Fixed gomod file - https://github.com<br>/projectdiscovery/nuclei/commit/de8571e7<br>26fad9b7c5bb213b39b398315e7034b5|
 ## 近30天commit提交记录
 | 提交时间 | 项目名称 | 更新内容 |
 | :---- | :---- | :---- |
-|2022-12-05 03:50:25|[Vulnerability-Wiki](https://github.com/Threekiii/Vulnerability-Wiki)|更新漏洞|
+|2022-12-05 21:05:25|[nuclei](https://github.com/projectdiscovery/nuclei)|go mod mismatch / sum fix|
+|2022-12-05 16:15:52|[OA-EXPTOOL](https://github.com/LittleBear4/OA-EXPTOOL)|Update README.md|
+|2022-12-05 12:22:56|[afrog](https://github.com/zan8in/afrog)|add update afrog version|
+|2022-12-05 09:55:25|[Vulnerability-Wiki](https://github.com/Threekiii/Vulnerability-Wiki)|更新漏洞|
+|2022-12-05 09:54:29|[Awesome-Redteam](https://github.com/Threekiii/Awesome-Redteam)|图片本地化|
+|2022-12-05 09:54:08|[Awesome-POC](https://github.com/Threekiii/Awesome-POC)|更新漏洞|
+|2022-12-05 07:02:27|[404StarLink](https://github.com/knownsec/404StarLink)|weekly update at 2022-12-05|
 |2022-12-05 03:27:07|[Vulhub-Reproduce](https://github.com/Threekiii/Vulhub-Reproduce)|更新README.md|
-|2022-12-05 03:21:25|[Awesome-Redteam](https://github.com/Threekiii/Awesome-Redteam)|图片本地化|
-|2022-12-05 03:09:28|[Awesome-POC](https://github.com/Threekiii/Awesome-POC)|更新漏洞|
 |2022-12-05 02:46:35|[OneForAll](https://github.com/shmilylty/OneForAll)|Merge pull request #288 from h3h3da/patch-1Update fiel<br>d.md|
 |2022-12-05 01:54:43|[captcha-killer-modi<br>fied](https://github.com/f0ng/captcha-killer-modified)|Update README.md|
 |2022-12-03 07:13:38|[RedisEXP](https://github.com/yuyan-sec/RedisEXP)|Update tools.go|
-|2022-12-03 03:32:16|[afrog](https://github.com/zan8in/afrog)|update pocs|
 |2022-12-02 08:08:51|[github-subdomains](https://github.com/gwen001/github-subdomains)|v1.2.0|
 |2022-12-02 06:41:15|[TomatoTools](https://github.com/ht0Ruial/TomatoTools)|fix #7|
 |2022-12-01 14:41:27|[BurpSuite-collectio<br>ns](https://github.com/Mr-xn/BurpSuite-collections)|add passive-scan-client 维护分支|
@@ -39,7 +42,6 @@
 |2022-12-01 07:55:41|[RequestTemplate](https://github.com/1n7erface/RequestTemplate)|Update README.md|
 |2022-11-30 10:02:30|[super-xray](https://github.com/4ra1n/super-xray)|bug fix|
 |2022-11-29 02:41:57|[aksk_tool](https://github.com/wyzxxz/aksk_tool)|Update README.md|
-|2022-11-28 03:47:48|[404StarLink](https://github.com/knownsec/404StarLink)|weekly update at 2022-11-28|
 |2022-11-27 13:26:17|[Threathunting-book](https://github.com/12306Bro/Threathunting-book)|Update README.md|
 |2022-11-27 07:02:42|[knife](https://github.com/bit4woo/knife)|update|
 |2022-11-25 11:42:34|[BpScan](https://github.com/EASY233/BpScan)|update|
@@ -50,14 +52,13 @@
 |2022-11-18 14:26:29|[http-request-smuggl<br>er](https://github.com/portswigger/http-request-smuggler)|BApp Store update|
 |2022-11-17 14:37:23|[subfinder](https://github.com/projectdiscovery/subfinder)|Merge pull request #712 from projectdiscovery/devv2.5.<br>5|
 |2022-11-17 14:27:09|[wpscan](https://github.com/wpscanteam/wpscan)|Merge pull request #1756 from wpscanteam/dependabot/bu<br>ndler/rspec-tw-3.12.0Update rspec requirement from ~> 3<br>.11.0 to ~> 3.12.0|
-|2022-11-17 10:29:05|[nuclei](https://github.com/projectdiscovery/nuclei)|update chinese readme and typo fixes. (#2862)|
-|2022-11-17 09:28:39|[OA-EXPTOOL](https://github.com/LittleBear4/OA-EXPTOOL)|Update main.py|
 |2022-11-16 22:53:02|[feroxbuster](https://github.com/epi052/feroxbuster)|Merge branch 'main' of github.com:epi052/feroxbuster|
 |2022-11-16 09:05:15|[SwitchyOmega](https://github.com/FelisCatus/SwitchyOmega)|Added translation using Weblate (Chinese (Literary))|
 |2022-11-16 03:49:31|[RouteVulScan](https://github.com/F6JO/RouteVulScan)|Update README.md|
 |2022-11-15 11:01:06|[Scanners-Box](https://github.com/We5ter/Scanners-Box)|[+]anouarbensaad/vulnx|
 |2022-11-15 09:05:50|[AttackTomcat](https://github.com/tpt11fb/AttackTomcat)|Create README.md|
 |2022-11-15 05:41:53|[autoDecoder](https://github.com/f0ng/autoDecoder)|Update README.md|
+|2022-11-15 01:57:05|[Some-PoC-oR-ExP](https://github.com/coffeehb/Some-PoC-oR-ExP)|Update poc.txt|
 |2022-11-11 14:18:43|[Packer-Fuzzer](https://github.com/rtcatc/Packer-Fuzzer)|v1.4.13 update config|
 |2022-11-08 13:54:32|[PeiQi-WIKI-Book](https://github.com/PeiQi0/PeiQi-WIKI-Book)|CTF夺旗: Misc: 文件修复,压缩包破解,图片隐写,音频隐写:t<br>ada:|
 |2022-11-08 12:25:49|[ThunderSearch](https://github.com/xzajyjs/ThunderSearch)|update to v2.3.2|
@@ -118,7 +119,7 @@
 | [xray](https://github.com/chaitin/xray) | 1.9.3 | 一款完善的安全评估工具，支持常见 web 安全问题扫描和自定义 poc | <br>使用之前务必先阅读文档 |
 | [w13scan](https://github.com/w-digital-scanner/w13scan) |  | Passive Security Scanner (被动式安全扫描器) |
 | [Fvuln](https://github.com/d3ckx1/Fvuln) | Fvuln_v1.<br>4.8 | F-vuln（全称：Find-Vulnerability）是为了自己工作方便专门编写的一<br>款自动化工具，主要适用于日常安全服务、渗透测试人员和RedTeam红队人<br>员，它集合的功能包括：存活IP探测、开放端口探测、web服务探测、web漏<br>洞扫描、smb爆破、ssh爆破、ftp爆破、mssql爆破等其他数据库爆破工作以<br>及大量web漏洞检测模块。 |
-| [nuclei](https://github.com/projectdiscovery/nuclei) | v2.7.9 | Fast and customizable vulnerability scanner based on simple YAML<br> based DSL. |
+| [nuclei](https://github.com/projectdiscovery/nuclei) | v2.8.1 | Fast and customizable vulnerability scanner based on simple YAML<br> based DSL. |
 | [afrog](https://github.com/zan8in/afrog) | v2.0.1 | afrog 是一款性能卓越、快速稳定、PoC 可定制化的漏洞扫描工具 - A t<br>ool for finding vulnerabilities |
 | [vulmap](https://github.com/zhzyker/vulmap) | v0.9 | Vulmap 是一款 web 漏洞扫描和验证工具, 可对 webapps 进行漏洞扫描,<br> 并且具备漏洞验证功能 |
 | [POC-bomber](https://github.com/tr0uble-mAker/POC-bomber) | v2.0.2-PO<br>C-bomber | 利用大量高威胁poc/exp快速获取目标权限，用于渗透和红队快速打点 |
@@ -229,6 +230,7 @@
 | [0day](https://github.com/helloexp/0day) |  | 各种CMS、各种平台、各种系统、各种软件漏洞的EXP、POC ,该项目将持<br>续更新 |
 | [PocList](https://github.com/1n7erface/PocList) |  | Alibaba-Nacos-Unauthorized/ApacheDruid-RCE_CVE-2021-25646/MS-Exc<br>hange-SSRF-CVE-2021-26885/Oracle-WebLogic-CVE-2021-2109_RCE/RG-CN<br>VD-2021-14536/RJ-SSL-VPN-UltraVires/Redis-Unauthorized-RCE/TDOA-V<br>11.7-GetOnlineCookie/VMware-vCenter-GetAnyFile/yongyou-GRP-U8-XXE<br>/Oracle-WebLogic-CVE-2020-14883/Oracle-WebLogic-CVE-2020-14882/Ap<br>ache-Solr-GetAnyFile/F5-BIG-IP-CVE-2021-22986/Sonicwall-SSL-VPN-R<br>CE/GitLab-Graphql-CNVD-2021-14193/D-Link-DCS-CVE-2020-25078/WLAN-<br>AP-WEA453e-RCE/360TianQing-Unauthorized/360TianQing-SQLinjection/<br>FanWeiOA-V8-SQLinjection/QiZhiBaoLeiJi-AnyUserLogin/QiAnXin-WangK<br>angFirewall-RCE/金山-V8-终端安全系统/NCCloud-SQLinjection/ShowDoc<br>-RCE |
 | [vulnerability](https://github.com/lal0ne/vulnerability) |  | 收集、整理、修改互联网上公开的漏洞POC |
+| [Some-PoC-oR-ExP](https://github.com/coffeehb/Some-PoC-oR-ExP) |  | 各种漏洞poc、Exp的收集或编写 |
 #### 漏洞文库
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
@@ -295,7 +297,7 @@
 | [burp-requests](https://github.com/silentsignal/burp-requests) | v0.2.4 | Copy as requests plugin for Burp Suite |
 | [CORSScanner](https://github.com/zzzskd/CORSScanner) |  | CORS 跨域漏洞 burp 插件 |
 | [fastjson-exp](https://github.com/skisw/fastjson-exp) | v1.0.0 | fastjson利用，支持tomcat、spring回显，哥斯拉内存马；回显利用链为<br>dhcp、ibatis、c3p0。 |
-| [HostHeaderAttack](https://github.com/weujieytt/HostHeaderAttack) | 0.1 | 检测host头攻击的Burpsuite被动扫描插件，Burpsuite passive scannin<br>g plugin responsible for detecting host header attack |
+| [HostHeaderAttack](https://github.com/weujieytt/HostHeaderAttack) |  | 检测host头攻击的Burpsuite被动扫描插件，Burpsuite passive scannin<br>g plugin responsible for detecting host header attack |
 | [knife](https://github.com/bit4woo/knife) | v2.1 | A burp extension that add some useful function toContext Menu 添<br>加一些右键菜单让burp用起来更顺畅 |
 | [log4j2burpscanner](https://github.com/f0ng/log4j2burpscanner) | 0.20.2 | CVE-2021-44228 Log4j2 BurpSuite Scanner,Customize ceye.io api or<br> other apis,including internal networks |
 | [passive-scan-client](https://github.com/c0ny1/passive-scan-client) | 0.3.0 | Burp被动扫描流量转发插件 |

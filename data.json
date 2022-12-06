@@ -290,17 +290,17 @@
             "https://github.com/projectdiscovery/nuclei": {
                 "created_at": "2020-04-03 18:47:11",
                 "description": "Fast and customizable vulnerability scanner based on simple YAML based DSL.",
-                "commit_date": "2022-11-17 10:29:05",
-                "commit_message": "update chinese readme and typo fixes. (#2862)",
-                "release_tag": "v2.7.9",
-                "release_date": "2022-11-07 21:04:01",
-                "release_message": "- Fixed gomod file - https://github.com/projectdiscovery/nuclei/commit/de8571e726fad9b7c5bb213b39b398315e7034b5"
+                "commit_date": "2022-12-05 21:05:25",
+                "commit_message": "go mod mismatch / sum fix",
+                "release_tag": "v2.8.1",
+                "release_date": "2022-12-05 21:08:48",
+                "release_message": "## What's Changed\r\n\r\n* Fixed https://github.com/projectdiscovery/nuclei/issues/2978\r\n"
             },
             "https://github.com/zan8in/afrog": {
                 "created_at": "2022-02-24 06:00:32",
                 "description": "afrog 是一款性能卓越、快速稳定、PoC 可定制化的漏洞扫描工具 - A tool for finding vulnerabilities",
-                "commit_date": "2022-12-03 03:32:16",
-                "commit_message": "update pocs",
+                "commit_date": "2022-12-05 12:22:56",
+                "commit_message": "add update afrog version",
                 "release_tag": "v2.0.1",
                 "release_date": "2022-11-29 13:58:59",
                 "release_message": "**Full Changelog**: https://github.com/zan8in/afrog/compare/v2.0.0...v2.0.1\r\n\r\n紧急发布修复 BUG 的小版本 ~\r\n解决 afrog 线程池经常卡死 BUG（紧急）\r\n\r\n![image](https://user-images.githubusercontent.com/4088460/204548214-ee0247cd-a707-4cd7-8fe7-861852d1bd46.png)\r\n"
@@ -655,8 +655,8 @@
             "https://github.com/LittleBear4/OA-EXPTOOL": {
                 "created_at": "2022-10-13 12:31:21",
                 "description": "OA综合利用工具，集合将近20款OA漏洞批量扫描",
-                "commit_date": "2022-11-17 09:28:39",
-                "commit_message": "Update main.py",
+                "commit_date": "2022-12-05 16:15:52",
+                "commit_message": "Update README.md",
                 "release_tag": "v0.6",
                 "release_date": "2022-11-14 08:01:41",
                 "release_message": "增加打印功能\r\n---------------------------------------------------------------------------------------------------------------------------------------------------\r\n增加帆软2017敏感信息泄露poc\r\n增加泛微OA_hrmcareerApply_sql poc,泛微OA_mysql_config数据库信息泄漏,泛微OA_jquery_filetree,泛微OA_Verify_QuickLogin 泛微OA_signnature_任意文件访问,泛微OA_uploader_OPerate_2022,泛微OA_V10_前台sql\r\n增加红帆OA_非医疗版_任意文件上传\r\n增加万户OA_document_sql，万户OA DownloadServlet 任意文件读取漏洞\r\n增加nc_xbr_rce，用友_U8_f5_sql，用友GRP_u8_upload_data\r\n优化优化泛微OA的检测，对检测增加内容判断，提高准确性，优化红帆漏洞poc增加payload，优化蓝凌oa poc的准确性 去掉部分exp，优化通达后台xxs包含漏洞的线程问题，优化万户模块下的poc提高准确性"
@@ -1033,6 +1033,15 @@
                 "release_tag": null,
                 "release_date": "",
                 "release_message": null
+            },
+            "https://github.com/coffeehb/Some-PoC-oR-ExP": {
+                "created_at": "2015-03-13 15:31:35",
+                "description": "各种漏洞poc、Exp的收集或编写",
+                "commit_date": "2022-11-15 01:57:05",
+                "commit_message": "Update poc.txt",
+                "release_tag": null,
+                "release_date": "",
+                "release_message": null
             }
         },
         "漏洞文库": {
@@ -1075,7 +1084,7 @@
             "https://github.com/Threekiii/Awesome-POC": {
                 "created_at": "2022-02-20 06:43:22",
                 "description": "一个各类漏洞POC知识库",
-                "commit_date": "2022-12-05 03:09:28",
+                "commit_date": "2022-12-05 09:54:08",
                 "commit_message": "更新漏洞",
                 "release_tag": null,
                 "release_date": "",
@@ -1084,7 +1093,7 @@
             "https://github.com/Threekiii/Vulnerability-Wiki": {
                 "created_at": "2022-04-29 05:36:33",
                 "description": "一个综合漏洞知识库，集成了Vulhub、Peiqi、Edge、0sec、Wooyun等开源漏洞库",
-                "commit_date": "2022-12-05 03:50:25",
+                "commit_date": "2022-12-05 09:55:25",
                 "commit_message": "更新漏洞",
                 "release_tag": "v1.0",
                 "release_date": "2022-07-15 01:58:00",
@@ -1202,7 +1211,7 @@
             "https://github.com/Threekiii/Awesome-Redteam": {
                 "created_at": "2022-02-08 00:45:03",
                 "description": "一个红队知识仓库",
-                "commit_date": "2022-12-05 03:21:25",
+                "commit_date": "2022-12-05 09:54:29",
                 "commit_message": "图片本地化",
                 "release_tag": null,
                 "release_date": "",
@@ -1231,8 +1240,8 @@
             "https://github.com/knownsec/404StarLink": {
                 "created_at": "2020-11-17 08:10:18",
                 "description": "404StarLink - 推荐优质、有意义、有趣、坚持维护的安全开源项目",
-                "commit_date": "2022-11-28 03:47:48",
-                "commit_message": "weekly update at 2022-11-28",
+                "commit_date": "2022-12-05 07:02:27",
+                "commit_message": "weekly update at 2022-12-05",
                 "release_tag": null,
                 "release_date": "",
                 "release_message": null
@@ -1462,9 +1471,9 @@
                 "description": "检测host头攻击的Burpsuite被动扫描插件，Burpsuite passive scanning plugin responsible for detecting host header attack",
                 "commit_date": "2022-02-26 01:55:18",
                 "commit_message": "Update BurpExtender.java",
-                "release_tag": "0.1",
-                "release_date": "2022-02-23 14:14:01",
-                "release_message": ""
+                "release_tag": null,
+                "release_date": "",
+                "release_message": null
             },
             "https://github.com/bit4woo/knife": {
                 "created_at": "2018-06-12 14:25:18",
