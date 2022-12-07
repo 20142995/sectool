@@ -194,3 +194,4 @@
 |漏洞发现&利用|漏洞检测利用仓库|https://github.com/lal0ne/vulnerability|
 |CTF密码学|RSA|https://github.com/Mr-Aur0ra/RSA|
 |漏洞发现&利用|漏洞检测利用仓库|https://github.com/coffeehb/Some-PoC-oR-ExP|
+|其他|其他|https://github.com/joke2k/faker|
