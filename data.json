@@ -42,8 +42,8 @@
             "https://github.com/shmilylty/OneForAll": {
                 "created_at": "2018-12-10 09:43:37",
                 "description": "OneForAll是一款功能强大的子域收集工具",
-                "commit_date": "2022-12-05 02:46:35",
-                "commit_message": "Merge pull request #288 from h3h3da/patch-1\n\nUpdate field.md",
+                "commit_date": "2022-12-06 07:29:11",
+                "commit_message": "回退",
                 "release_tag": "v0.4.5",
                 "release_date": "2022-07-10 10:16:29",
                 "release_message": "## [0.4.5](https://github.com/shmilylty/oneforall/releases/tag/v0.4.5) - 2022-07-10\r\n- 修复了#254"
@@ -290,8 +290,8 @@
             "https://github.com/projectdiscovery/nuclei": {
                 "created_at": "2020-04-03 18:47:11",
                 "description": "Fast and customizable vulnerability scanner based on simple YAML based DSL.",
-                "commit_date": "2022-12-05 21:05:25",
-                "commit_message": "go mod mismatch / sum fix",
+                "commit_date": "2022-12-06 16:31:22",
+                "commit_message": "removing per project COC in favor of global one (#2983)\n\n* removing per project COC in favor of global one\r\n\r\n* using global security info",
                 "release_tag": "v2.8.1",
                 "release_date": "2022-12-05 21:08:48",
                 "release_message": "## What's Changed\r\n\r\n* Fixed https://github.com/projectdiscovery/nuclei/issues/2978\r\n"
@@ -299,8 +299,8 @@
             "https://github.com/zan8in/afrog": {
                 "created_at": "2022-02-24 06:00:32",
                 "description": "afrog 是一款性能卓越、快速稳定、PoC 可定制化的漏洞扫描工具 - A tool for finding vulnerabilities",
-                "commit_date": "2022-12-05 12:22:56",
-                "commit_message": "add update afrog version",
+                "commit_date": "2022-12-06 08:00:36",
+                "commit_message": "health check",
                 "release_tag": "v2.0.1",
                 "release_date": "2022-11-29 13:58:59",
                 "release_message": "**Full Changelog**: https://github.com/zan8in/afrog/compare/v2.0.0...v2.0.1\r\n\r\n紧急发布修复 BUG 的小版本 ~\r\n解决 afrog 线程池经常卡死 BUG（紧急）\r\n\r\n![image](https://user-images.githubusercontent.com/4088460/204548214-ee0247cd-a707-4cd7-8fe7-861852d1bd46.png)\r\n"
@@ -1084,7 +1084,7 @@
             "https://github.com/Threekiii/Awesome-POC": {
                 "created_at": "2022-02-20 06:43:22",
                 "description": "一个各类漏洞POC知识库",
-                "commit_date": "2022-12-05 09:54:08",
+                "commit_date": "2022-12-06 09:17:54",
                 "commit_message": "更新漏洞",
                 "release_tag": null,
                 "release_date": "",
@@ -1191,22 +1191,22 @@
             "https://github.com/makoto56/penetration-suite-toolkit": {
                 "created_at": "2021-09-03 00:47:14",
                 "description": "本项目制作的初衷是帮助渗透新手快速搭建工作环境，工欲善其事，必先利其器。",
-                "commit_date": "2022-05-26 03:24:23",
+                "commit_date": "2022-12-07 00:14:38",
                 "commit_message": "Update README.md",
-                "release_tag": "v3.0",
+                "release_tag": "v4.0",
                 "release_date": "2022-04-05 16:46:01",
-                "release_message": "Penetration-Suite-Toolkit v3.0\r\n链接：https://pan.xunlei.com/s/VN0C7m2p1mbLDPPu0j_UwRsVA1 \r\n提取码：ehpm\r\n\r\nVMware-for-Test:\r\n链接：https://pan.xunlei.com/s/VN2xlbB9pxTo0bWdgdg5vXUtA1\r\n提取码：fvp3"
+                "release_message": "Penetration Suite Toolkit v4.0：\r\n链接：https://pan.baidu.com/s/1yyHd7jYrNdnzlZe9dl3gdw \r\n提取码：vb5a \r\n\r\n全套虚拟机镜像：\r\n链接：https://pan.xunlei.com/s/VN2xlbB9pxTo0bWdgdg5vXUtA1\r\n提取码：fvp3\r\n\r\n软件安装包：\r\n上传中 ..."
             }
         },
         "知识库": {
             "https://github.com/makoto56/penetration-suite-toolkit": {
                 "created_at": "2021-09-03 00:47:14",
                 "description": "本项目制作的初衷是帮助渗透新手快速搭建工作环境，工欲善其事，必先利其器。",
-                "commit_date": "2022-05-26 03:24:23",
+                "commit_date": "2022-12-07 00:14:38",
                 "commit_message": "Update README.md",
-                "release_tag": "v3.0",
+                "release_tag": "v4.0",
                 "release_date": "2022-04-05 16:46:01",
-                "release_message": "Penetration-Suite-Toolkit v3.0\r\n链接：https://pan.xunlei.com/s/VN0C7m2p1mbLDPPu0j_UwRsVA1 \r\n提取码：ehpm\r\n\r\nVMware-for-Test:\r\n链接：https://pan.xunlei.com/s/VN2xlbB9pxTo0bWdgdg5vXUtA1\r\n提取码：fvp3"
+                "release_message": "Penetration Suite Toolkit v4.0：\r\n链接：https://pan.baidu.com/s/1yyHd7jYrNdnzlZe9dl3gdw \r\n提取码：vb5a \r\n\r\n全套虚拟机镜像：\r\n链接：https://pan.xunlei.com/s/VN2xlbB9pxTo0bWdgdg5vXUtA1\r\n提取码：fvp3\r\n\r\n软件安装包：\r\n上传中 ..."
             },
             "https://github.com/Threekiii/Awesome-Redteam": {
                 "created_at": "2022-02-08 00:45:03",
@@ -1471,9 +1471,9 @@
                 "description": "检测host头攻击的Burpsuite被动扫描插件，Burpsuite passive scanning plugin responsible for detecting host header attack",
                 "commit_date": "2022-02-26 01:55:18",
                 "commit_message": "Update BurpExtender.java",
-                "release_tag": null,
-                "release_date": "",
-                "release_message": null
+                "release_tag": "0.1",
+                "release_date": "2022-02-23 14:14:01",
+                "release_message": ""
             },
             "https://github.com/bit4woo/knife": {
                 "created_at": "2018-06-12 14:25:18",

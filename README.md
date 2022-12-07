@@ -1,4 +1,4 @@
-# 更新于 2022-12-06 09:04:03
+# 更新于 2022-12-07 09:06:37
 
 ## 近30天release更新记录
 | 更新时间 | 项目名称 | 版本 | 更新内容 |
@@ -24,15 +24,17 @@
 ## 近30天commit提交记录
 | 提交时间 | 项目名称 | 更新内容 |
 | :---- | :---- | :---- |
-|2022-12-05 21:05:25|[nuclei](https://github.com/projectdiscovery/nuclei)|go mod mismatch / sum fix|
+|2022-12-07 00:14:38|[penetration-suite-t<br>oolkit](https://github.com/makoto56/penetration-suite-toolkit)|Update README.md|
+|2022-12-07 00:14:38|[penetration-suite-t<br>oolkit](https://github.com/makoto56/penetration-suite-toolkit)|Update README.md|
+|2022-12-06 16:31:22|[nuclei](https://github.com/projectdiscovery/nuclei)|removing per project COC in favor of global one (#2983<br>)* removing per project COC in favor of global one* usi<br>ng global security info|
+|2022-12-06 09:17:54|[Awesome-POC](https://github.com/Threekiii/Awesome-POC)|更新漏洞|
+|2022-12-06 08:00:36|[afrog](https://github.com/zan8in/afrog)|health check|
+|2022-12-06 07:29:11|[OneForAll](https://github.com/shmilylty/OneForAll)|回退|
 |2022-12-05 16:15:52|[OA-EXPTOOL](https://github.com/LittleBear4/OA-EXPTOOL)|Update README.md|
-|2022-12-05 12:22:56|[afrog](https://github.com/zan8in/afrog)|add update afrog version|
 |2022-12-05 09:55:25|[Vulnerability-Wiki](https://github.com/Threekiii/Vulnerability-Wiki)|更新漏洞|
 |2022-12-05 09:54:29|[Awesome-Redteam](https://github.com/Threekiii/Awesome-Redteam)|图片本地化|
-|2022-12-05 09:54:08|[Awesome-POC](https://github.com/Threekiii/Awesome-POC)|更新漏洞|
 |2022-12-05 07:02:27|[404StarLink](https://github.com/knownsec/404StarLink)|weekly update at 2022-12-05|
 |2022-12-05 03:27:07|[Vulhub-Reproduce](https://github.com/Threekiii/Vulhub-Reproduce)|更新README.md|
-|2022-12-05 02:46:35|[OneForAll](https://github.com/shmilylty/OneForAll)|Merge pull request #288 from h3h3da/patch-1Update fiel<br>d.md|
 |2022-12-05 01:54:43|[captcha-killer-modi<br>fied](https://github.com/f0ng/captcha-killer-modified)|Update README.md|
 |2022-12-03 07:13:38|[RedisEXP](https://github.com/yuyan-sec/RedisEXP)|Update tools.go|
 |2022-12-02 08:08:51|[github-subdomains](https://github.com/gwen001/github-subdomains)|v1.2.0|
@@ -257,11 +259,11 @@
 #### 工具集成环境
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
-| [penetration-suite-t<br>oolkit](https://github.com/makoto56/penetration-suite-toolkit) | v3.0 | 本项目制作的初衷是帮助渗透新手快速搭建工作环境，工欲善其事，必先<br>利其器。 |
+| [penetration-suite-t<br>oolkit](https://github.com/makoto56/penetration-suite-toolkit) | v4.0 | 本项目制作的初衷是帮助渗透新手快速搭建工作环境，工欲善其事，必先<br>利其器。 |
 #### 知识库
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
-| [penetration-suite-t<br>oolkit](https://github.com/makoto56/penetration-suite-toolkit) | v3.0 | 本项目制作的初衷是帮助渗透新手快速搭建工作环境，工欲善其事，必先<br>利其器。 |
+| [penetration-suite-t<br>oolkit](https://github.com/makoto56/penetration-suite-toolkit) | v4.0 | 本项目制作的初衷是帮助渗透新手快速搭建工作环境，工欲善其事，必先<br>利其器。 |
 | [Awesome-Redteam](https://github.com/Threekiii/Awesome-Redteam) |  | 一个红队知识仓库 |
 | [Threathunting-book](https://github.com/12306Bro/Threathunting-book) |  | Threat hunting Web Windows AD linux ATT&CK TTPs |
 | [PenetrationTesttips](https://github.com/CYJoe-Cyclone/PenetrationTesttips) |  | 渗透测试Tips - Version1.3 |
@@ -297,7 +299,7 @@
 | [burp-requests](https://github.com/silentsignal/burp-requests) | v0.2.4 | Copy as requests plugin for Burp Suite |
 | [CORSScanner](https://github.com/zzzskd/CORSScanner) |  | CORS 跨域漏洞 burp 插件 |
 | [fastjson-exp](https://github.com/skisw/fastjson-exp) | v1.0.0 | fastjson利用，支持tomcat、spring回显，哥斯拉内存马；回显利用链为<br>dhcp、ibatis、c3p0。 |
-| [HostHeaderAttack](https://github.com/weujieytt/HostHeaderAttack) |  | 检测host头攻击的Burpsuite被动扫描插件，Burpsuite passive scannin<br>g plugin responsible for detecting host header attack |
+| [HostHeaderAttack](https://github.com/weujieytt/HostHeaderAttack) | 0.1 | 检测host头攻击的Burpsuite被动扫描插件，Burpsuite passive scannin<br>g plugin responsible for detecting host header attack |
 | [knife](https://github.com/bit4woo/knife) | v2.1 | A burp extension that add some useful function toContext Menu 添<br>加一些右键菜单让burp用起来更顺畅 |
 | [log4j2burpscanner](https://github.com/f0ng/log4j2burpscanner) | 0.20.2 | CVE-2021-44228 Log4j2 BurpSuite Scanner,Customize ceye.io api or<br> other apis,including internal networks |
 | [passive-scan-client](https://github.com/c0ny1/passive-scan-client) | 0.3.0 | Burp被动扫描流量转发插件 |
