@@ -1,4 +1,4 @@
-# 更新于 2022-12-07 09:06:37
+# 更新于 2022-12-08 09:03:04
 
 ## 近30天release更新记录
 | 更新时间 | 项目名称 | 版本 | 更新内容 |
@@ -6,6 +6,7 @@
 |2022-12-05 21:08:48|[nuclei](https://github.com/projectdiscovery/nuclei)|v2.8.1|## What's Changed* Fixed https://github<br>.com/projectdiscovery/nuclei/issues/2978|
 |2022-12-02 08:08:53|[github-subdomains](https://github.com/gwen001/github-subdomains)|v1.2.0||
 |2022-12-01 13:17:42|[log4j2burpscanner](https://github.com/f0ng/log4j2burpscanner)|0.20.2|# 0.20.2更新## 2022-12-1- 修复`Restore/<br>Loading latest params`导致的`usereplace[<br>.]`参数置空问题，感谢@G0rdita 师傅反馈|
+|2022-11-30 19:12:53|[faker](https://github.com/joke2k/faker)|v15.3.4|See [CHANGELOG.md](https://github.com/j<br>oke2k/faker/blob/refs/tags/v15.3.4/CHANG<br>ELOG.md).|
 |2022-11-30 15:26:51|[captcha-killer-modi<br>fied](https://github.com/f0ng/captcha-killer-modified)|0.17|【2022-11-30】1. 添加响应提取，针对获取<br>验证码请求中有类似token字段，在登录包的同<br>时需要token校验的情况，在需要token校验的<br>字段使用`@captcha-killer-modified@`<img w<br>idth="650" alt="image" src="https://user<br>-images.githubusercontent.com/48286013/2<br>04822669-7ea6022e-8028-4526-a653-03488a1<br>96d48.png">在intruder中增加校验的参数`@c<br>aptcha-killer-modified@`<img width="573"<br> alt="image" src="https://user-images.gi<br>thubusercontent.com/48286013/204827078-d<br>ddbbd99-9c96-4c77-9542-20c5a5d1b033.png"<br>>在logger或者logger++中可以看到实际请求<<br>img width="638" alt="image" src="https:/<br>/user-images.githubusercontent.com/48286<br>013/204827499-35424d0e-7070-4905-ac4f-46<br>f05a15d49e.png">2. 增加对验证码进行二次<br>处理的案例(验证码为gif图，且验证码具体是<br>在gif图的第二帧，无法直接识别)，见[用法与<br>常见报错](https://github.com/f0ng/captcha<br>-killer-modified/edit/main/FAQ.md#6-%E9%<br>AA%8C%E8%AF%81%E7%A0%81%E8%BF%9B%E8%A1%8<br>C%E4%BA%8C%E6%AC%A1%E5%A4%84%E7%90%86%E7<br>%9A%84%E6%A1%88%E4%BE%8B%E9%AA%8C%E8%AF%<br>81%E7%A0%81%E4%B8%BAgif%E5%9B%BE%E4%B8%9<br>4%E9%AA%8C%E8%AF%81%E7%A0%81%E5%85%B7%E4<br>%BD%93%E6%98%AF%E5%9C%A8gif%E5%9B%BE%E7%<br>9A%84%E7%AC%AC%E4%BA%8C%E5%B8%A7%E6%97%A<br>0%E6%B3%95%E7%9B%B4%E6%8E%A5%E8%AF%86%E5<br>%88%AB)|
 |2022-11-29 13:58:59|[afrog](https://github.com/zan8in/afrog)|v2.0.1|**Full Changelog**: https://github.com/<br>zan8in/afrog/compare/v2.0.0...v2.0.1紧急<br>发布修复 BUG 的小版本 ~解决 afrog 线程池<br>经常卡死 BUG（紧急）![image](https://user<br>-images.githubusercontent.com/4088460/20<br>4548214-ee0247cd-a707-4cd7-8fe7-861852d1<br>bd46.png)|
 |2022-11-28 17:47:44|[Behinder](https://github.com/rebeyond/Behinder)|Behinder_<br>v4.0.6|### 2022.11.28 v4.0.6 更新日志1.修复了T<br>omcat10中内存马植入无法连接的问题；2.修<br>复了asp版本内置传输协议的连接问题；3.修复<br>了传输协议在恢复默认时会出现错误的问题；4<br>.内置了Javafx库，修复了各类因为Javafx环<br>境无法运行的问题；5.修复了客户端兼容性问<br>题，客户端兼容Java8至Java19；6.新增“默认<br>”连接模式，兼容冰蝎3默认服务端；7.其他的<br>一些优化。|
@@ -24,24 +25,26 @@
 ## 近30天commit提交记录
 | 提交时间 | 项目名称 | 更新内容 |
 | :---- | :---- | :---- |
-|2022-12-07 00:14:38|[penetration-suite-t<br>oolkit](https://github.com/makoto56/penetration-suite-toolkit)|Update README.md|
-|2022-12-07 00:14:38|[penetration-suite-t<br>oolkit](https://github.com/makoto56/penetration-suite-toolkit)|Update README.md|
+|2022-12-08 00:52:11|[penetration-suite-t<br>oolkit](https://github.com/makoto56/penetration-suite-toolkit)|Update README.md|
+|2022-12-08 00:52:11|[penetration-suite-t<br>oolkit](https://github.com/makoto56/penetration-suite-toolkit)|Update README.md|
+|2022-12-07 21:02:53|[ffuf](https://github.com/ffuf/ffuf)|Fix the ac for good now (#615)|
+|2022-12-07 10:42:38|[captcha-killer-modi<br>fied](https://github.com/f0ng/captcha-killer-modified)|Update FAQ.md|
+|2022-12-07 09:32:23|[Vulnerability-Wiki](https://github.com/Threekiii/Vulnerability-Wiki)|更新漏洞|
+|2022-12-07 07:39:19|[Awesome-POC](https://github.com/Threekiii/Awesome-POC)|更新漏洞|
 |2022-12-06 16:31:22|[nuclei](https://github.com/projectdiscovery/nuclei)|removing per project COC in favor of global one (#2983<br>)* removing per project COC in favor of global one* usi<br>ng global security info|
-|2022-12-06 09:17:54|[Awesome-POC](https://github.com/Threekiii/Awesome-POC)|更新漏洞|
 |2022-12-06 08:00:36|[afrog](https://github.com/zan8in/afrog)|health check|
 |2022-12-06 07:29:11|[OneForAll](https://github.com/shmilylty/OneForAll)|回退|
 |2022-12-05 16:15:52|[OA-EXPTOOL](https://github.com/LittleBear4/OA-EXPTOOL)|Update README.md|
-|2022-12-05 09:55:25|[Vulnerability-Wiki](https://github.com/Threekiii/Vulnerability-Wiki)|更新漏洞|
 |2022-12-05 09:54:29|[Awesome-Redteam](https://github.com/Threekiii/Awesome-Redteam)|图片本地化|
 |2022-12-05 07:02:27|[404StarLink](https://github.com/knownsec/404StarLink)|weekly update at 2022-12-05|
 |2022-12-05 03:27:07|[Vulhub-Reproduce](https://github.com/Threekiii/Vulhub-Reproduce)|更新README.md|
-|2022-12-05 01:54:43|[captcha-killer-modi<br>fied](https://github.com/f0ng/captcha-killer-modified)|Update README.md|
 |2022-12-03 07:13:38|[RedisEXP](https://github.com/yuyan-sec/RedisEXP)|Update tools.go|
 |2022-12-02 08:08:51|[github-subdomains](https://github.com/gwen001/github-subdomains)|v1.2.0|
 |2022-12-02 06:41:15|[TomatoTools](https://github.com/ht0Ruial/TomatoTools)|fix #7|
 |2022-12-01 14:41:27|[BurpSuite-collectio<br>ns](https://github.com/Mr-xn/BurpSuite-collections)|add passive-scan-client 维护分支|
 |2022-12-01 08:22:30|[log4j2burpscanner](https://github.com/f0ng/log4j2burpscanner)|Update FAQ-zh-CN.md|
 |2022-12-01 07:55:41|[RequestTemplate](https://github.com/1n7erface/RequestTemplate)|Update README.md|
+|2022-11-30 19:12:19|[faker](https://github.com/joke2k/faker)|Bump version: 15.3.3 → 15.3.4|
 |2022-11-30 10:02:30|[super-xray](https://github.com/4ra1n/super-xray)|bug fix|
 |2022-11-29 02:41:57|[aksk_tool](https://github.com/wyzxxz/aksk_tool)|Update README.md|
 |2022-11-27 13:26:17|[Threathunting-book](https://github.com/12306Bro/Threathunting-book)|Update README.md|
@@ -50,6 +53,7 @@
 |2022-11-23 13:31:50|[dirsearch](https://github.com/maurosoria/dirsearch)|Merge pull request #1248 from drego85/patch-12Useful F<br>iles and Directory for the SIMOGEO FileManager exploit|
 |2022-11-22 18:59:04|[pocsuite3](https://github.com/knownsec/pocsuite3)|Merge pull request #341 from 13ph03nix/fix/console-use<br>-commandfix: use command in console mode use absolute p<br>ath|
 |2022-11-22 06:27:28|[vulnerability](https://github.com/lal0ne/vulnerability)|DAR-8000 远程命令执行漏洞|
+|2022-11-22 03:32:13|[Intranet_Penetratio<br>n_Tips](https://github.com/Ridter/Intranet_Penetration_Tips)|Merge pull request #12 from we1h0/patch-2fix url|
 |2022-11-20 10:24:53|[domain_hunter_pro](https://github.com/bit4woo/domain_hunter_pro)|Update DomainManager.javaCopyOnWriteArraySet 用iterato<br>r的remove反而会出错|
 |2022-11-18 14:26:29|[http-request-smuggl<br>er](https://github.com/portswigger/http-request-smuggler)|BApp Store update|
 |2022-11-17 14:37:23|[subfinder](https://github.com/projectdiscovery/subfinder)|Merge pull request #712 from projectdiscovery/devv2.5.<br>5|
@@ -61,10 +65,10 @@
 |2022-11-15 09:05:50|[AttackTomcat](https://github.com/tpt11fb/AttackTomcat)|Create README.md|
 |2022-11-15 05:41:53|[autoDecoder](https://github.com/f0ng/autoDecoder)|Update README.md|
 |2022-11-15 01:57:05|[Some-PoC-oR-ExP](https://github.com/coffeehb/Some-PoC-oR-ExP)|Update poc.txt|
+|2022-11-13 13:26:37|[SmsForwarder](https://github.com/pppscn/SmsForwarder)|优化：编辑`通知转发规则`界面，快捷按钮`{{卡槽信息}}`换<br>成`{{通知标题}}`|
 |2022-11-11 14:18:43|[Packer-Fuzzer](https://github.com/rtcatc/Packer-Fuzzer)|v1.4.13 update config|
 |2022-11-08 13:54:32|[PeiQi-WIKI-Book](https://github.com/PeiQi0/PeiQi-WIKI-Book)|CTF夺旗: Misc: 文件修复,压缩包破解,图片隐写,音频隐写:t<br>ada:|
-|2022-11-08 12:25:49|[ThunderSearch](https://github.com/xzajyjs/ThunderSearch)|update to v2.3.2|
-|2022-11-07 02:30:45|[SpringBootExploit](https://github.com/0x727/SpringBootExploit)|Update README.mdupdate image links|## 所有项目
+|2022-11-08 12:25:49|[ThunderSearch](https://github.com/xzajyjs/ThunderSearch)|update to v2.3.2|## 所有项目
 ### 信息收集
 #### 资产测绘采集
 | 项目名称 | 版本 | 项目描述 |
@@ -214,6 +218,7 @@
 | [SecretFinder](https://github.com/m4ll0k/SecretFinder) |  | SecretFinder - A python script for find sensitive data (apikeys,<br> accesstoken,jwt,..) and search anything on javascript files  |
 | [JSFScan.sh](https://github.com/KathanP19/JSFScan.sh) |  | Automation for javascript recon in bug bounty.  |
 | [SubOver](https://github.com/Ice3man543/SubOver) | v1.2 | A Powerful Subdomain Takeover Tool |
+| [JDumpSpider](https://github.com/whwlsfb/JDumpSpider) |  | HeapDump敏感信息提取工具 |
 #### 口令爆破
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
@@ -267,6 +272,7 @@
 | [Awesome-Redteam](https://github.com/Threekiii/Awesome-Redteam) |  | 一个红队知识仓库 |
 | [Threathunting-book](https://github.com/12306Bro/Threathunting-book) |  | Threat hunting Web Windows AD linux ATT&CK TTPs |
 | [PenetrationTesttips](https://github.com/CYJoe-Cyclone/PenetrationTesttips) |  | 渗透测试Tips - Version1.3 |
+| [Intranet_Penetratio<br>n_Tips](https://github.com/Ridter/Intranet_Penetration_Tips) |  | 2018年初整理的一些内网渗透TIPS，后面更新的慢，所以整理出来希望跟<br>小伙伴们一起更新维护~ |
 #### 优秀项目集合
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
@@ -397,3 +403,9 @@
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
 | [DecodeSomeJSPWebshe<br>ll](https://github.com/minhangxiaohui/DecodeSomeJSPWebshell) | v1.2 | 冰蝎、哥斯拉 jsp webshell通信流量解密器 |
+### 其他
+#### 其他
+| 项目名称 | 版本 | 项目描述 |
+| :---- | :---- | :---- |
+| [faker](https://github.com/joke2k/faker) | v15.3.4 | Faker is a Python package that generates fake data for you. |
+| [SmsForwarder](https://github.com/pppscn/SmsForwarder) | v3.1.1 | 短信转发器——监控Android手机短信、来电、APP通知，并根据指定规则<br>转发到其他手机：钉钉群自定义机器人、钉钉企业内机器人、企业微信群机<br>器人、飞书机器人、企业微信应用消息、邮箱、bark、webhook、Telegram<br>机器人、Server酱、PushPlus、手机短信等。包括主动控制服务端与客户端<br>，让你轻松远程发短信、查短信、查通话、查话簿、查电量等。（V3.0 新<br>增）PS.这个APK主要是学习与自用，如有BUG请提ISSUE，同时欢迎大家提PR<br>指正 |
