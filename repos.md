@@ -198,3 +198,6 @@
 |其他|其他|https://github.com/pppscn/SmsForwarder|
 |漏洞发现&利用|信息泄露利用|https://github.com/whwlsfb/JDumpSpider|
 |相关资源|知识库|https://github.com/Ridter/Intranet_Penetration_Tips|
+|CTF杂项|取证分析|https://github.com/Ormicron/chatViewTool|
+|CTF杂项|取证分析|https://github.com/Ormicron/Sharp-dumpkey|
+|CTF杂项|取证分析|https://github.com/wafinfo/Sunflower_get_Password|
