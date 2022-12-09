@@ -201,3 +201,4 @@
 |CTF杂项|取证分析|https://github.com/Ormicron/chatViewTool|
 |CTF杂项|取证分析|https://github.com/Ormicron/Sharp-dumpkey|
 |CTF杂项|取证分析|https://github.com/wafinfo/Sunflower_get_Password|
+|漏洞发现&利用|半自动漏洞扫描|https://github.com/StarCrossPortal/QingTing|
