@@ -4,7 +4,7 @@
             "https://github.com/ExpLangcn/InfoSearchAll": {
                 "created_at": "2022-06-09 10:09:47",
                 "description": "为了方便安全从业人员在使用网络测绘平台进行信息搜集时的效率，本程序集合了多个网络测绘平台，可以快速在多个网络测绘平台搜索信息并且合并展示及导出。",
-                "commit_date": "2022-10-26 08:28:16",
+                "commit_date": "2022-12-08 13:37:18",
                 "commit_message": "Update README.md",
                 "release_tag": "V1.2",
                 "release_date": "2022-06-16 08:39:08",
@@ -89,8 +89,8 @@
             "https://github.com/maurosoria/dirsearch": {
                 "created_at": "2013-04-30 15:57:40",
                 "description": "Web path scanner",
-                "commit_date": "2022-11-23 13:31:50",
-                "commit_message": "Merge pull request #1248 from drego85/patch-12\n\nUseful Files and Directory for the SIMOGEO FileManager exploit",
+                "commit_date": "2022-12-08 06:39:40",
+                "commit_message": "Merge pull request #1250 from maurosoria/shelld3v-patch-3\n\nCorrect default HTTP headers",
                 "release_tag": "v0.4.3",
                 "release_date": "2022-10-05 13:01:24",
                 "release_message": "- Automatically detect the URI scheme (`http` or `https`) if no scheme is provided\r\n- SQLite report format\r\n- Option to overwrite unwanted extensions with selected extensions\r\n- Option to view redirects history when following redirects\r\n- Option to crawl web paths in the responses\r\n- HTTP traffic is saved inside log file\r\n- Capability to save progress and resume later\r\n- Support client certificate\r\n- Maximum size of the log file via configuration\r\n- More accurate"
@@ -290,11 +290,11 @@
             "https://github.com/projectdiscovery/nuclei": {
                 "created_at": "2020-04-03 18:47:11",
                 "description": "Fast and customizable vulnerability scanner based on simple YAML based DSL.",
-                "commit_date": "2022-12-06 16:31:22",
-                "commit_message": "removing per project COC in favor of global one (#2983)\n\n* removing per project COC in favor of global one\r\n\r\n* using global security info",
-                "release_tag": "v2.8.1",
-                "release_date": "2022-12-05 21:08:48",
-                "release_message": "## What's Changed\r\n\r\n* Fixed https://github.com/projectdiscovery/nuclei/issues/2978\r\n"
+                "commit_date": "2022-12-08 18:12:17",
+                "commit_message": "go mod update",
+                "release_tag": "v2.8.2",
+                "release_date": "2022-12-08 18:12:49",
+                "release_message": "## What's Changed\r\n\r\n* Fixed issue with printing `host` instead of `ip` by @tarunKoyalwar in https://github.com/projectdiscovery/nuclei/pull/3002\r\n* Fixed nil crash with input URL edge case by @tarunKoyalwar in https://github.com/projectdiscovery/nuclei/pull/3004\r\n\r\n## New Contributors\r\n* @JaneX8 made their first contribution in https://github.com/projectdiscovery/nuclei/pull/2981\r\n\r\n**Full Changelog**: https://github.com/projectdiscovery/nuclei/compare/v2.8.1...v2.8.2"
             },
             "https://github.com/zan8in/afrog": {
                 "created_at": "2022-02-24 06:00:32",
@@ -1200,7 +1200,7 @@
             "https://github.com/makoto56/penetration-suite-toolkit": {
                 "created_at": "2021-09-03 00:47:14",
                 "description": "本项目制作的初衷是帮助渗透新手快速搭建工作环境，工欲善其事，必先利其器。",
-                "commit_date": "2022-12-08 00:52:11",
+                "commit_date": "2022-12-08 07:00:09",
                 "commit_message": "Update README.md",
                 "release_tag": "v4.0",
                 "release_date": "2022-04-05 16:46:01",
@@ -1211,7 +1211,7 @@
             "https://github.com/makoto56/penetration-suite-toolkit": {
                 "created_at": "2021-09-03 00:47:14",
                 "description": "本项目制作的初衷是帮助渗透新手快速搭建工作环境，工欲善其事，必先利其器。",
-                "commit_date": "2022-12-08 00:52:11",
+                "commit_date": "2022-12-08 07:00:09",
                 "commit_message": "Update README.md",
                 "release_tag": "v4.0",
                 "release_date": "2022-04-05 16:46:01",
@@ -1745,6 +1745,33 @@
                 "description": "Simple tool to crack VMware VMX encryption passwords",
                 "commit_date": "2018-10-03 22:39:46",
                 "commit_message": "fix",
+                "release_tag": null,
+                "release_date": "",
+                "release_message": null
+            },
+            "https://github.com/Ormicron/chatViewTool": {
+                "created_at": "2022-06-16 07:51:00",
+                "description": "基于Java实现的图形化微信聊天记录解密查看器",
+                "commit_date": "2022-06-16 08:47:41",
+                "commit_message": "Update README.md",
+                "release_tag": "BEAT",
+                "release_date": "2022-06-16 07:55:24",
+                "release_message": ""
+            },
+            "https://github.com/Ormicron/Sharp-dumpkey": {
+                "created_at": "2021-12-08 03:43:15",
+                "description": "基于C#实现的获取微信数据库密钥的小工具",
+                "commit_date": "2022-07-19 07:16:16",
+                "commit_message": "Update Program.cs",
+                "release_tag": "1",
+                "release_date": "2021-12-08 04:50:43",
+                "release_message": "编译版本"
+            },
+            "https://github.com/wafinfo/Sunflower_get_Password": {
+                "created_at": "2021-03-11 13:59:12",
+                "description": "一款针对向日葵的识别码和验证码提取工具",
+                "commit_date": "2021-11-01 13:35:40",
+                "commit_message": "Add files via upload",
                 "release_tag": null,
                 "release_date": "",
                 "release_message": null

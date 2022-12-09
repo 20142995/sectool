@@ -1,9 +1,9 @@
-# 更新于 2022-12-08 09:03:04
+# 更新于 2022-12-09 09:05:14
 
 ## 近30天release更新记录
 | 更新时间 | 项目名称 | 版本 | 更新内容 |
 | :---- | :---- | :---- | :---- |
-|2022-12-05 21:08:48|[nuclei](https://github.com/projectdiscovery/nuclei)|v2.8.1|## What's Changed* Fixed https://github<br>.com/projectdiscovery/nuclei/issues/2978|
+|2022-12-08 18:12:49|[nuclei](https://github.com/projectdiscovery/nuclei)|v2.8.2|## What's Changed* Fixed issue with pri<br>nting `host` instead of `ip` by @tarunKo<br>yalwar in https://github.com/projectdisc<br>overy/nuclei/pull/3002* Fixed nil crash <br>with input URL edge case by @tarunKoyalw<br>ar in https://github.com/projectdiscover<br>y/nuclei/pull/3004## New Contributors* @<br>JaneX8 made their first contribution in <br>https://github.com/projectdiscovery/nucl<br>ei/pull/2981**Full Changelog**: https://<br>github.com/projectdiscovery/nuclei/compa<br>re/v2.8.1...v2.8.2|
 |2022-12-02 08:08:53|[github-subdomains](https://github.com/gwen001/github-subdomains)|v1.2.0||
 |2022-12-01 13:17:42|[log4j2burpscanner](https://github.com/f0ng/log4j2burpscanner)|0.20.2|# 0.20.2更新## 2022-12-1- 修复`Restore/<br>Loading latest params`导致的`usereplace[<br>.]`参数置空问题，感谢@G0rdita 师傅反馈|
 |2022-11-30 19:12:53|[faker](https://github.com/joke2k/faker)|v15.3.4|See [CHANGELOG.md](https://github.com/j<br>oke2k/faker/blob/refs/tags/v15.3.4/CHANG<br>ELOG.md).|
@@ -20,18 +20,18 @@
 |2022-11-14 08:01:41|[OA-EXPTOOL](https://github.com/LittleBear4/OA-EXPTOOL)|v0.6|增加打印功能---------------------------<br>----------------------------------------<br>----------------------------------------<br>----------------------------------------<br>增加帆软2017敏感信息泄露poc增加泛微OA_hrm<br>careerApply_sql poc,泛微OA_mysql_config<br>数据库信息泄漏,泛微OA_jquery_filetree,泛<br>微OA_Verify_QuickLogin 泛微OA_signnature_<br>任意文件访问,泛微OA_uploader_OPerate_2022<br>,泛微OA_V10_前台sql增加红帆OA_非医疗版_<br>任意文件上传增加万户OA_document_sql，万户<br>OA DownloadServlet 任意文件读取漏洞增加n<br>c_xbr_rce，用友_U8_f5_sql，用友GRP_u8_up<br>load_data优化优化泛微OA的检测，对检测增<br>加内容判断，提高准确性，优化红帆漏洞poc增<br>加payload，优化蓝凌oa poc的准确性 去掉部<br>分exp，优化通达后台xxs包含漏洞的线程问题<br>，优化万户模块下的poc提高准确性|
 |2022-11-13 11:40:50|[AttackTomcat](https://github.com/tpt11fb/AttackTomcat)|V1||
 |2022-11-11 06:00:52|[autoDecoder](https://github.com/f0ng/autoDecoder)|0.19.0|## 2022.11.11 更新0.19修改了ui，优化了<br>在新版bp上`html`无法解析的问题|
-|2022-11-09 00:28:07|[pocsuite3](https://github.com/knownsec/pocsuite3)|v2.0.1|* 修复 words 匹配器表达式执行的问题 #33<br>3, thanks @soapffz* 修复模版中包含中文异<br>常捕获的问题 #334, thanks @izj007* 提高模<br>版的鲁棒性* 支持 digest_username 和 diges<br>t_password，用于 http 认证* 支持 negativ<br>e 反向匹配器---* fix words matcher expre<br>ssion execution #333, thanks @soapffz* f<br>ix catch binascii ValueError Exception #<br>334, thanks @izj007* improve template ro<br>bustness* support digest_username and di<br>gest_password* support negative matchers|
-|2022-11-08 12:30:23|[ThunderSearch](https://github.com/xzajyjs/ThunderSearch)|v2.3.2|- 增加了部分界面的英文支持- 调整了界面<br>的大小---- Partly english support- Adjust<br>ed the size of the GUI---> md5ThunderSea<br>rch_darwin_universal.zip=20b1888d466e61c<br>ef77a4b42161fd783ThunderSearch_win_x86.z<br>ip=a2cd29776336d1ece4e0d494e676566a|
 ## 近30天commit提交记录
 | 提交时间 | 项目名称 | 更新内容 |
 | :---- | :---- | :---- |
-|2022-12-08 00:52:11|[penetration-suite-t<br>oolkit](https://github.com/makoto56/penetration-suite-toolkit)|Update README.md|
-|2022-12-08 00:52:11|[penetration-suite-t<br>oolkit](https://github.com/makoto56/penetration-suite-toolkit)|Update README.md|
+|2022-12-08 18:12:17|[nuclei](https://github.com/projectdiscovery/nuclei)|go mod update|
+|2022-12-08 13:37:18|[InfoSearchAll](https://github.com/ExpLangcn/InfoSearchAll)|Update README.md|
+|2022-12-08 07:00:09|[penetration-suite-t<br>oolkit](https://github.com/makoto56/penetration-suite-toolkit)|Update README.md|
+|2022-12-08 07:00:09|[penetration-suite-t<br>oolkit](https://github.com/makoto56/penetration-suite-toolkit)|Update README.md|
+|2022-12-08 06:39:40|[dirsearch](https://github.com/maurosoria/dirsearch)|Merge pull request #1250 from maurosoria/shelld3v-patc<br>h-3Correct default HTTP headers|
 |2022-12-07 21:02:53|[ffuf](https://github.com/ffuf/ffuf)|Fix the ac for good now (#615)|
 |2022-12-07 10:42:38|[captcha-killer-modi<br>fied](https://github.com/f0ng/captcha-killer-modified)|Update FAQ.md|
 |2022-12-07 09:32:23|[Vulnerability-Wiki](https://github.com/Threekiii/Vulnerability-Wiki)|更新漏洞|
 |2022-12-07 07:39:19|[Awesome-POC](https://github.com/Threekiii/Awesome-POC)|更新漏洞|
-|2022-12-06 16:31:22|[nuclei](https://github.com/projectdiscovery/nuclei)|removing per project COC in favor of global one (#2983<br>)* removing per project COC in favor of global one* usi<br>ng global security info|
 |2022-12-06 08:00:36|[afrog](https://github.com/zan8in/afrog)|health check|
 |2022-12-06 07:29:11|[OneForAll](https://github.com/shmilylty/OneForAll)|回退|
 |2022-12-05 16:15:52|[OA-EXPTOOL](https://github.com/LittleBear4/OA-EXPTOOL)|Update README.md|
@@ -50,7 +50,6 @@
 |2022-11-27 13:26:17|[Threathunting-book](https://github.com/12306Bro/Threathunting-book)|Update README.md|
 |2022-11-27 07:02:42|[knife](https://github.com/bit4woo/knife)|update|
 |2022-11-25 11:42:34|[BpScan](https://github.com/EASY233/BpScan)|update|
-|2022-11-23 13:31:50|[dirsearch](https://github.com/maurosoria/dirsearch)|Merge pull request #1248 from drego85/patch-12Useful F<br>iles and Directory for the SIMOGEO FileManager exploit|
 |2022-11-22 18:59:04|[pocsuite3](https://github.com/knownsec/pocsuite3)|Merge pull request #341 from 13ph03nix/fix/console-use<br>-commandfix: use command in console mode use absolute p<br>ath|
 |2022-11-22 06:27:28|[vulnerability](https://github.com/lal0ne/vulnerability)|DAR-8000 远程命令执行漏洞|
 |2022-11-22 03:32:13|[Intranet_Penetratio<br>n_Tips](https://github.com/Ridter/Intranet_Penetration_Tips)|Merge pull request #12 from we1h0/patch-2fix url|
@@ -66,9 +65,7 @@
 |2022-11-15 05:41:53|[autoDecoder](https://github.com/f0ng/autoDecoder)|Update README.md|
 |2022-11-15 01:57:05|[Some-PoC-oR-ExP](https://github.com/coffeehb/Some-PoC-oR-ExP)|Update poc.txt|
 |2022-11-13 13:26:37|[SmsForwarder](https://github.com/pppscn/SmsForwarder)|优化：编辑`通知转发规则`界面，快捷按钮`{{卡槽信息}}`换<br>成`{{通知标题}}`|
-|2022-11-11 14:18:43|[Packer-Fuzzer](https://github.com/rtcatc/Packer-Fuzzer)|v1.4.13 update config|
-|2022-11-08 13:54:32|[PeiQi-WIKI-Book](https://github.com/PeiQi0/PeiQi-WIKI-Book)|CTF夺旗: Misc: 文件修复,压缩包破解,图片隐写,音频隐写:t<br>ada:|
-|2022-11-08 12:25:49|[ThunderSearch](https://github.com/xzajyjs/ThunderSearch)|update to v2.3.2|## 所有项目
+|2022-11-11 14:18:43|[Packer-Fuzzer](https://github.com/rtcatc/Packer-Fuzzer)|v1.4.13 update config|## 所有项目
 ### 信息收集
 #### 资产测绘采集
 | 项目名称 | 版本 | 项目描述 |
@@ -125,7 +122,7 @@
 | [xray](https://github.com/chaitin/xray) | 1.9.3 | 一款完善的安全评估工具，支持常见 web 安全问题扫描和自定义 poc | <br>使用之前务必先阅读文档 |
 | [w13scan](https://github.com/w-digital-scanner/w13scan) |  | Passive Security Scanner (被动式安全扫描器) |
 | [Fvuln](https://github.com/d3ckx1/Fvuln) | Fvuln_v1.<br>4.8 | F-vuln（全称：Find-Vulnerability）是为了自己工作方便专门编写的一<br>款自动化工具，主要适用于日常安全服务、渗透测试人员和RedTeam红队人<br>员，它集合的功能包括：存活IP探测、开放端口探测、web服务探测、web漏<br>洞扫描、smb爆破、ssh爆破、ftp爆破、mssql爆破等其他数据库爆破工作以<br>及大量web漏洞检测模块。 |
-| [nuclei](https://github.com/projectdiscovery/nuclei) | v2.8.1 | Fast and customizable vulnerability scanner based on simple YAML<br> based DSL. |
+| [nuclei](https://github.com/projectdiscovery/nuclei) | v2.8.2 | Fast and customizable vulnerability scanner based on simple YAML<br> based DSL. |
 | [afrog](https://github.com/zan8in/afrog) | v2.0.1 | afrog 是一款性能卓越、快速稳定、PoC 可定制化的漏洞扫描工具 - A t<br>ool for finding vulnerabilities |
 | [vulmap](https://github.com/zhzyker/vulmap) | v0.9 | Vulmap 是一款 web 漏洞扫描和验证工具, 可对 webapps 进行漏洞扫描,<br> 并且具备漏洞验证功能 |
 | [POC-bomber](https://github.com/tr0uble-mAker/POC-bomber) | v2.0.2-PO<br>C-bomber | 利用大量高威胁poc/exp快速获取目标权限，用于渗透和红队快速打点 |
@@ -363,6 +360,9 @@
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
 | [pyvmx-cracker](https://github.com/axcheron/pyvmx-cracker) |  | Simple tool to crack VMware VMX encryption passwords |
+| [chatViewTool](https://github.com/Ormicron/chatViewTool) | BEAT | 基于Java实现的图形化微信聊天记录解密查看器 |
+| [Sharp-dumpkey](https://github.com/Ormicron/Sharp-dumpkey) | 1 | 基于C#实现的获取微信数据库密钥的小工具 |
+| [Sunflower_get_Passw<br>ord](https://github.com/wafinfo/Sunflower_get_Password) |  | 一款针对向日葵的识别码和验证码提取工具 |
 #### 音频隐写
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
