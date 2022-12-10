@@ -1,13 +1,13 @@
-# 更新于 2022-12-09 09:05:14
+# 更新于 2022-12-10 09:01:03
 
 ## 近30天release更新记录
 | 更新时间 | 项目名称 | 版本 | 更新内容 |
 | :---- | :---- | :---- | :---- |
+|2022-12-09 02:22:49|[captcha-killer-modi<br>fied](https://github.com/f0ng/captcha-killer-modified)|0.18|【2022-12-9】 0.181. 添加`@captcha@`参<br>数替代验证码，方便在repeater模块内进行测<br>试，感谢微信群师傅@浅笑 提供建议<img widt<br>h="804" alt="image" src="https://user-im<br>ages.githubusercontent.com/48286013/2066<br>09271-5cc8bdcf-2141-4616-9a60-7ab9493f18<br>c2.png">|
+|2022-12-09 01:31:39|[log4j2burpscanner](https://github.com/f0ng/log4j2burpscanner)|0.21.0|# 0.21.0 更新## 2022-12-91. 增加参数 `p<br>refixparam`前缀可控，可输入如`%84$`，造<br>成一些数据库组件解析错误，从而进行log4j2<br>的报错触发<img width="600" alt="image" sr<br>c="https://user-images.githubusercontent<br>.com/48286013/206602178-bb80c887-196d-4f<br>85-a065-44fc47130e8a.png">2. 增加自定义h<br>eader头获取响应结果请求(支持了dnslog.cn<br>等，但是dnslog.cn有PHPSESSID默认过期时间<br>，暂不推荐使用)，举例如 `privatednsRespon<br>seurl` 框内填入以下字段：```HEADERhttp:/<br>/dnslog.cn/getrecords.phpCookie:PHPSESSI<br>D=bmekedlvumo1e9onr6qsd1j2u6```<img widt<br>h="505" alt="image" src="https://user-im<br>ages.githubusercontent.com/48286013/2066<br>53492-77f5e9b1-7c56-49d6-8e5e-0263521e8a<br>d6.png">3. 修复`dnsparam`参数初始化问题<br>，感谢微信群@啊哈师傅反馈|
 |2022-12-08 18:12:49|[nuclei](https://github.com/projectdiscovery/nuclei)|v2.8.2|## What's Changed* Fixed issue with pri<br>nting `host` instead of `ip` by @tarunKo<br>yalwar in https://github.com/projectdisc<br>overy/nuclei/pull/3002* Fixed nil crash <br>with input URL edge case by @tarunKoyalw<br>ar in https://github.com/projectdiscover<br>y/nuclei/pull/3004## New Contributors* @<br>JaneX8 made their first contribution in <br>https://github.com/projectdiscovery/nucl<br>ei/pull/2981**Full Changelog**: https://<br>github.com/projectdiscovery/nuclei/compa<br>re/v2.8.1...v2.8.2|
 |2022-12-02 08:08:53|[github-subdomains](https://github.com/gwen001/github-subdomains)|v1.2.0||
-|2022-12-01 13:17:42|[log4j2burpscanner](https://github.com/f0ng/log4j2burpscanner)|0.20.2|# 0.20.2更新## 2022-12-1- 修复`Restore/<br>Loading latest params`导致的`usereplace[<br>.]`参数置空问题，感谢@G0rdita 师傅反馈|
 |2022-11-30 19:12:53|[faker](https://github.com/joke2k/faker)|v15.3.4|See [CHANGELOG.md](https://github.com/j<br>oke2k/faker/blob/refs/tags/v15.3.4/CHANG<br>ELOG.md).|
-|2022-11-30 15:26:51|[captcha-killer-modi<br>fied](https://github.com/f0ng/captcha-killer-modified)|0.17|【2022-11-30】1. 添加响应提取，针对获取<br>验证码请求中有类似token字段，在登录包的同<br>时需要token校验的情况，在需要token校验的<br>字段使用`@captcha-killer-modified@`<img w<br>idth="650" alt="image" src="https://user<br>-images.githubusercontent.com/48286013/2<br>04822669-7ea6022e-8028-4526-a653-03488a1<br>96d48.png">在intruder中增加校验的参数`@c<br>aptcha-killer-modified@`<img width="573"<br> alt="image" src="https://user-images.gi<br>thubusercontent.com/48286013/204827078-d<br>ddbbd99-9c96-4c77-9542-20c5a5d1b033.png"<br>>在logger或者logger++中可以看到实际请求<<br>img width="638" alt="image" src="https:/<br>/user-images.githubusercontent.com/48286<br>013/204827499-35424d0e-7070-4905-ac4f-46<br>f05a15d49e.png">2. 增加对验证码进行二次<br>处理的案例(验证码为gif图，且验证码具体是<br>在gif图的第二帧，无法直接识别)，见[用法与<br>常见报错](https://github.com/f0ng/captcha<br>-killer-modified/edit/main/FAQ.md#6-%E9%<br>AA%8C%E8%AF%81%E7%A0%81%E8%BF%9B%E8%A1%8<br>C%E4%BA%8C%E6%AC%A1%E5%A4%84%E7%90%86%E7<br>%9A%84%E6%A1%88%E4%BE%8B%E9%AA%8C%E8%AF%<br>81%E7%A0%81%E4%B8%BAgif%E5%9B%BE%E4%B8%9<br>4%E9%AA%8C%E8%AF%81%E7%A0%81%E5%85%B7%E4<br>%BD%93%E6%98%AF%E5%9C%A8gif%E5%9B%BE%E7%<br>9A%84%E7%AC%AC%E4%BA%8C%E5%B8%A7%E6%97%A<br>0%E6%B3%95%E7%9B%B4%E6%8E%A5%E8%AF%86%E5<br>%88%AB)|
 |2022-11-29 13:58:59|[afrog](https://github.com/zan8in/afrog)|v2.0.1|**Full Changelog**: https://github.com/<br>zan8in/afrog/compare/v2.0.0...v2.0.1紧急<br>发布修复 BUG 的小版本 ~解决 afrog 线程池<br>经常卡死 BUG（紧急）![image](https://user<br>-images.githubusercontent.com/4088460/20<br>4548214-ee0247cd-a707-4cd7-8fe7-861852d1<br>bd46.png)|
 |2022-11-28 17:47:44|[Behinder](https://github.com/rebeyond/Behinder)|Behinder_<br>v4.0.6|### 2022.11.28 v4.0.6 更新日志1.修复了T<br>omcat10中内存马植入无法连接的问题；2.修<br>复了asp版本内置传输协议的连接问题；3.修复<br>了传输协议在恢复默认时会出现错误的问题；4<br>.内置了Javafx库，修复了各类因为Javafx环<br>境无法运行的问题；5.修复了客户端兼容性问<br>题，客户端兼容Java8至Java19；6.新增“默认<br>”连接模式，兼容冰蝎3默认服务端；7.其他的<br>一些优化。|
 |2022-11-28 13:28:57|[super-xray](https://github.com/4ra1n/super-xray)|0.8|## 0.8重要功能更新：可以与`rad`联动；可<br>以为独立反连平台导出配置文件（具体教程参<br>考B站新视频）重要`bug`说明：之前版本有反<br>馈说CPU消耗过高，是因为之前没有停止的逻辑<br>，意味着每运行一次新任务开两个新线程，一<br>个执行一个监视。当执行线程结束，监视线程<br>不会停止，任务过多时导致CPU消耗极高。虽然<br>之前版本可以通过点击强制停止使所有监视线<br>程停下，解决问题。但这种情况需要得到一个<br>合理的解决，这个版本中，主动扫描也有停止<br>扫描的按钮。另外xray团队新增了一个在线生<br>成yaml poc的网站，加了一个直接到达该网站<br>的按钮，配合poc模块的加载本地poc功能比较<br>舒服。最后一个bug是当xray和super-xray在同<br>一个路径的时候，无法保存config.yaml，因此<br>不能加载上次的配置。Bugs:- [important] [<br>公告] CPU消耗过高问题的解决 #69- [importa<br>nt] 当xray和super-xray同目录时不能保存配<br>置 #68- [bug] 查看所有poc界面使用新字体后<br>可能有意外行为 #70Others:- [new feature] <br>添加rad爬虫联动 #22- 为反连平台添加导出配<br>置文件的功能 #59- 控制台使用更好看的字体 <br>#67- 加入跳转在线生成poc的按钮 #66Downlo<br>ad:- super-xray-0.8.jar：普通的Jar包，使<br>用`java -jar`启动- super-xray-0.8-jre-exe<br>.zip：内置JRE的EXE版本，适用于没有安装Ja<br>va的情况- super-xray-0.8-system-jre.exe<br>：使用系统JRE的EXE版本，适用于已有Java环<br>境的情况|
@@ -23,17 +23,21 @@
 ## 近30天commit提交记录
 | 提交时间 | 项目名称 | 更新内容 |
 | :---- | :---- | :---- |
+|2022-12-10 01:00:18|[NucleiTP](https://github.com/ExpLangcn/NucleiTP)|更新啦❤️|
+|2022-12-09 21:52:45|[PocOrExp_in_Github](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2022-12-10 05:52:45|
+|2022-12-09 13:53:15|[penetration-suite-t<br>oolkit](https://github.com/makoto56/penetration-suite-toolkit)|Update README.md|
+|2022-12-09 13:53:15|[penetration-suite-t<br>oolkit](https://github.com/makoto56/penetration-suite-toolkit)|Update README.md|
+|2022-12-09 11:22:09|[dirsearch](https://github.com/maurosoria/dirsearch)|Merge pull request #1255 from kylincodelab/masterUpdat<br>e dicc.txt|
+|2022-12-09 07:10:04|[log4j2burpscanner](https://github.com/f0ng/log4j2burpscanner)|Update FAQ-zh-CN.md|
+|2022-12-09 02:48:45|[Vulnerability-Wiki](https://github.com/Threekiii/Vulnerability-Wiki)|更新漏洞|
+|2022-12-09 02:47:17|[Awesome-POC](https://github.com/Threekiii/Awesome-POC)|更新漏洞|
+|2022-12-09 02:20:14|[captcha-killer-modi<br>fied](https://github.com/f0ng/captcha-killer-modified)|Update README.md|
 |2022-12-08 18:12:17|[nuclei](https://github.com/projectdiscovery/nuclei)|go mod update|
 |2022-12-08 13:37:18|[InfoSearchAll](https://github.com/ExpLangcn/InfoSearchAll)|Update README.md|
-|2022-12-08 07:00:09|[penetration-suite-t<br>oolkit](https://github.com/makoto56/penetration-suite-toolkit)|Update README.md|
-|2022-12-08 07:00:09|[penetration-suite-t<br>oolkit](https://github.com/makoto56/penetration-suite-toolkit)|Update README.md|
-|2022-12-08 06:39:40|[dirsearch](https://github.com/maurosoria/dirsearch)|Merge pull request #1250 from maurosoria/shelld3v-patc<br>h-3Correct default HTTP headers|
 |2022-12-07 21:02:53|[ffuf](https://github.com/ffuf/ffuf)|Fix the ac for good now (#615)|
-|2022-12-07 10:42:38|[captcha-killer-modi<br>fied](https://github.com/f0ng/captcha-killer-modified)|Update FAQ.md|
-|2022-12-07 09:32:23|[Vulnerability-Wiki](https://github.com/Threekiii/Vulnerability-Wiki)|更新漏洞|
-|2022-12-07 07:39:19|[Awesome-POC](https://github.com/Threekiii/Awesome-POC)|更新漏洞|
 |2022-12-06 08:00:36|[afrog](https://github.com/zan8in/afrog)|health check|
 |2022-12-06 07:29:11|[OneForAll](https://github.com/shmilylty/OneForAll)|回退|
+|2022-12-05 17:39:40|[RsaCtfTool](https://github.com/RsaCtfTool/RsaCtfTool)|Update number_theory.py|
 |2022-12-05 16:15:52|[OA-EXPTOOL](https://github.com/LittleBear4/OA-EXPTOOL)|Update README.md|
 |2022-12-05 09:54:29|[Awesome-Redteam](https://github.com/Threekiii/Awesome-Redteam)|图片本地化|
 |2022-12-05 07:02:27|[404StarLink](https://github.com/knownsec/404StarLink)|weekly update at 2022-12-05|
@@ -42,10 +46,10 @@
 |2022-12-02 08:08:51|[github-subdomains](https://github.com/gwen001/github-subdomains)|v1.2.0|
 |2022-12-02 06:41:15|[TomatoTools](https://github.com/ht0Ruial/TomatoTools)|fix #7|
 |2022-12-01 14:41:27|[BurpSuite-collectio<br>ns](https://github.com/Mr-xn/BurpSuite-collections)|add passive-scan-client 维护分支|
-|2022-12-01 08:22:30|[log4j2burpscanner](https://github.com/f0ng/log4j2burpscanner)|Update FAQ-zh-CN.md|
 |2022-12-01 07:55:41|[RequestTemplate](https://github.com/1n7erface/RequestTemplate)|Update README.md|
 |2022-11-30 19:12:19|[faker](https://github.com/joke2k/faker)|Bump version: 15.3.3 → 15.3.4|
 |2022-11-30 10:02:30|[super-xray](https://github.com/4ra1n/super-xray)|bug fix|
+|2022-11-29 10:47:06|[QingTing](https://github.com/StarCrossPortal/QingTing)|蜻蜓v2|
 |2022-11-29 02:41:57|[aksk_tool](https://github.com/wyzxxz/aksk_tool)|Update README.md|
 |2022-11-27 13:26:17|[Threathunting-book](https://github.com/12306Bro/Threathunting-book)|Update README.md|
 |2022-11-27 07:02:42|[knife](https://github.com/bit4woo/knife)|update|
@@ -65,7 +69,8 @@
 |2022-11-15 05:41:53|[autoDecoder](https://github.com/f0ng/autoDecoder)|Update README.md|
 |2022-11-15 01:57:05|[Some-PoC-oR-ExP](https://github.com/coffeehb/Some-PoC-oR-ExP)|Update poc.txt|
 |2022-11-13 13:26:37|[SmsForwarder](https://github.com/pppscn/SmsForwarder)|优化：编辑`通知转发规则`界面，快捷按钮`{{卡槽信息}}`换<br>成`{{通知标题}}`|
-|2022-11-11 14:18:43|[Packer-Fuzzer](https://github.com/rtcatc/Packer-Fuzzer)|v1.4.13 update config|## 所有项目
+|2022-11-11 14:18:43|[Packer-Fuzzer](https://github.com/rtcatc/Packer-Fuzzer)|v1.4.13 update config|
+|2022-11-11 08:02:58|[POChouse](https://github.com/DawnFlame/POChouse)|Update README.md|## 所有项目
 ### 信息收集
 #### 资产测绘采集
 | 项目名称 | 版本 | 项目描述 |
@@ -126,6 +131,7 @@
 | [afrog](https://github.com/zan8in/afrog) | v2.0.1 | afrog 是一款性能卓越、快速稳定、PoC 可定制化的漏洞扫描工具 - A t<br>ool for finding vulnerabilities |
 | [vulmap](https://github.com/zhzyker/vulmap) | v0.9 | Vulmap 是一款 web 漏洞扫描和验证工具, 可对 webapps 进行漏洞扫描,<br> 并且具备漏洞验证功能 |
 | [POC-bomber](https://github.com/tr0uble-mAker/POC-bomber) | v2.0.2-PO<br>C-bomber | 利用大量高威胁poc/exp快速获取目标权限，用于渗透和红队快速打点 |
+| [QingTing](https://github.com/StarCrossPortal/QingTing) | v0.3 | 蜻蜓安全一个安全工具编排平台,可以自由编排你的工具流,集成108款工<br>具,包括xray、nmap、awvs等;你可以将喜欢的工具编排成一个场景，快速打<br>造适合自己的安全工作台~ |
 #### 漏洞扫描框架
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
@@ -235,6 +241,8 @@
 | [PocList](https://github.com/1n7erface/PocList) |  | Alibaba-Nacos-Unauthorized/ApacheDruid-RCE_CVE-2021-25646/MS-Exc<br>hange-SSRF-CVE-2021-26885/Oracle-WebLogic-CVE-2021-2109_RCE/RG-CN<br>VD-2021-14536/RJ-SSL-VPN-UltraVires/Redis-Unauthorized-RCE/TDOA-V<br>11.7-GetOnlineCookie/VMware-vCenter-GetAnyFile/yongyou-GRP-U8-XXE<br>/Oracle-WebLogic-CVE-2020-14883/Oracle-WebLogic-CVE-2020-14882/Ap<br>ache-Solr-GetAnyFile/F5-BIG-IP-CVE-2021-22986/Sonicwall-SSL-VPN-R<br>CE/GitLab-Graphql-CNVD-2021-14193/D-Link-DCS-CVE-2020-25078/WLAN-<br>AP-WEA453e-RCE/360TianQing-Unauthorized/360TianQing-SQLinjection/<br>FanWeiOA-V8-SQLinjection/QiZhiBaoLeiJi-AnyUserLogin/QiAnXin-WangK<br>angFirewall-RCE/金山-V8-终端安全系统/NCCloud-SQLinjection/ShowDoc<br>-RCE |
 | [vulnerability](https://github.com/lal0ne/vulnerability) |  | 收集、整理、修改互联网上公开的漏洞POC |
 | [Some-PoC-oR-ExP](https://github.com/coffeehb/Some-PoC-oR-ExP) |  | 各种漏洞poc、Exp的收集或编写 |
+| [POChouse](https://github.com/DawnFlame/POChouse) |  | POC&EXP仓库、hvv弹药库、Nday、1day |
+| [PocOrExp_in_Github](https://github.com/ycdxsb/PocOrExp_in_Github) |  | 聚合Github上已有的Poc或者Exp，CVE信息来自CVE官网。Auto Collect P<br>oc Or Exp from Github by CVE ID. |
 #### 漏洞文库
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
@@ -293,7 +301,7 @@
 | [Sylas](https://github.com/Acmesec/Sylas) | 1.1.1 | 新一代子域名主/被动收集工具 - Subdomain automatic/passive collec<br>tion tool |
 | [GadgetProbe](https://github.com/BishopFox/GadgetProbe) | v1.0 | Probe endpoints consuming Java serialized objects to identify cl<br>asses, libraries, and library versions on remote Java classpaths. |
 | [HopLa](https://github.com/synacktiv/HopLa) | 1.2 |  HopLa Burp Suite Extender plugin -Adds autocompletion support a<br>nd useful payloads in Burp Suite |
-| [captcha-killer-modi<br>fied](https://github.com/f0ng/captcha-killer-modified) | 0.17 | captcha-killer的修改版，支持关键词识别base64编码的图片，添加免费<br>ocr库，用于验证码爆破，适配新版Burpsuite |
+| [captcha-killer-modi<br>fied](https://github.com/f0ng/captcha-killer-modified) | 0.18 | captcha-killer的修改版，支持关键词识别base64编码的图片，添加免费<br>ocr库，用于验证码爆破，适配新版Burpsuite |
 | [BurpCrypto](https://github.com/whwlsfb/BurpCrypto) |  | BurpCrypto is a collection of burpsuite encryption plug-ins, sup<br>port AES/RSA/DES/ExecJs(execute JS encryption code in burpsuite).<br> 支持多种加密算法或直接执行JS代码的用于爆破前端加密的BurpSuite插<br>件 |
 | [autoDecoder](https://github.com/f0ng/autoDecoder) | 0.19.0 | Burp插件，根据自定义来达到对数据包的处理（适用于加解密、爆破等）<br>，类似mitmproxy，不同点在于经过了burp中转，在自动加解密的基础上，<br>不影响APP、网站加解密正常逻辑等。 |
 | [burpFakeIP](https://github.com/TheKingOfDuck/burpFakeIP) | 1.1 | 服务端配置错误情况下用于伪造ip地址进行测试的Burp Suite插件 |
@@ -304,7 +312,7 @@
 | [fastjson-exp](https://github.com/skisw/fastjson-exp) | v1.0.0 | fastjson利用，支持tomcat、spring回显，哥斯拉内存马；回显利用链为<br>dhcp、ibatis、c3p0。 |
 | [HostHeaderAttack](https://github.com/weujieytt/HostHeaderAttack) | 0.1 | 检测host头攻击的Burpsuite被动扫描插件，Burpsuite passive scannin<br>g plugin responsible for detecting host header attack |
 | [knife](https://github.com/bit4woo/knife) | v2.1 | A burp extension that add some useful function toContext Menu 添<br>加一些右键菜单让burp用起来更顺畅 |
-| [log4j2burpscanner](https://github.com/f0ng/log4j2burpscanner) | 0.20.2 | CVE-2021-44228 Log4j2 BurpSuite Scanner,Customize ceye.io api or<br> other apis,including internal networks |
+| [log4j2burpscanner](https://github.com/f0ng/log4j2burpscanner) | 0.21.0 | CVE-2021-44228 Log4j2 BurpSuite Scanner,Customize ceye.io api or<br> other apis,including internal networks |
 | [passive-scan-client](https://github.com/c0ny1/passive-scan-client) | 0.3.0 | Burp被动扫描流量转发插件 |
 | [BpScan](https://github.com/EASY233/BpScan) | 1.0.0 | 一款用于辅助渗透测试工程师日常渗透测试的Burp被动漏扫插件 |
 | [BurpSuiteCn](https://github.com/funkyoummp/BurpSuiteCn) | V2.0 | Burp Suite汉化 中文 |
@@ -340,6 +348,10 @@
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
 | [tool-for-CTF](https://github.com/ruokeqx/tool-for-CTF) |  | Virtual machine configuration for CTF |
+#### nuclei
+| 项目名称 | 版本 | 项目描述 |
+| :---- | :---- | :---- |
+| [NucleiTP](https://github.com/ExpLangcn/NucleiTP) |  | 自动整合全网Nuclei的漏洞POC，实时同步更新最新POC！ |
 ### CTF杂项
 #### 图片隐写
 | 项目名称 | 版本 | 项目描述 |
@@ -366,7 +378,6 @@
 #### 音频隐写
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
-| [ribt/dtmf-decoder](DTMF脚本地址：https://github.com/ribt/dtmf-decoder) |  |  |
 | [dtmf-decoder](https://github.com/ribt/dtmf-decoder) |  | Extract phone numbers from an audio recording of the dial tones. |
 #### 文件分离
 | 项目名称 | 版本 | 项目描述 |
@@ -398,6 +409,7 @@
 | :---- | :---- | :---- |
 | [rsa-wiener-attack](https://github.com/pablocelayes/rsa-wiener-attack) |  | A Python implementation of the Wiener attack on RSA public-key e<br>ncryption scheme. |
 | [RSA](https://github.com/Mr-Aur0ra/RSA) |  |  |
+| [RsaCtfTool](https://github.com/RsaCtfTool/RsaCtfTool) |  | RSA attack tool (mainly for ctf) - retreive private key from wea<br>k public key and/or uncipher data |
 ### 应急响应
 #### web日志分析
 | 项目名称 | 版本 | 项目描述 |
