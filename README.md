@@ -1,4 +1,4 @@
-# 更新于 2022-12-10 09:01:03
+# 更新于 2022-12-11 09:10:52
 
 ## 近30天release更新记录
 | 更新时间 | 项目名称 | 版本 | 更新内容 |
@@ -23,8 +23,9 @@
 ## 近30天commit提交记录
 | 提交时间 | 项目名称 | 更新内容 |
 | :---- | :---- | :---- |
-|2022-12-10 01:00:18|[NucleiTP](https://github.com/ExpLangcn/NucleiTP)|更新啦❤️|
-|2022-12-09 21:52:45|[PocOrExp_in_Github](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2022-12-10 05:52:45|
+|2022-12-11 01:00:17|[NucleiTP](https://github.com/ExpLangcn/NucleiTP)|更新啦❤️|
+|2022-12-10 21:52:39|[PocOrExp_in_Github](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2022-12-11 05:52:39|
+|2022-12-10 15:50:35|[afrog](https://github.com/zan8in/afrog)|update banner|
 |2022-12-09 13:53:15|[penetration-suite-t<br>oolkit](https://github.com/makoto56/penetration-suite-toolkit)|Update README.md|
 |2022-12-09 13:53:15|[penetration-suite-t<br>oolkit](https://github.com/makoto56/penetration-suite-toolkit)|Update README.md|
 |2022-12-09 11:22:09|[dirsearch](https://github.com/maurosoria/dirsearch)|Merge pull request #1255 from kylincodelab/masterUpdat<br>e dicc.txt|
@@ -35,7 +36,6 @@
 |2022-12-08 18:12:17|[nuclei](https://github.com/projectdiscovery/nuclei)|go mod update|
 |2022-12-08 13:37:18|[InfoSearchAll](https://github.com/ExpLangcn/InfoSearchAll)|Update README.md|
 |2022-12-07 21:02:53|[ffuf](https://github.com/ffuf/ffuf)|Fix the ac for good now (#615)|
-|2022-12-06 08:00:36|[afrog](https://github.com/zan8in/afrog)|health check|
 |2022-12-06 07:29:11|[OneForAll](https://github.com/shmilylty/OneForAll)|回退|
 |2022-12-05 17:39:40|[RsaCtfTool](https://github.com/RsaCtfTool/RsaCtfTool)|Update number_theory.py|
 |2022-12-05 16:15:52|[OA-EXPTOOL](https://github.com/LittleBear4/OA-EXPTOOL)|Update README.md|

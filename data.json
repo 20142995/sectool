@@ -299,8 +299,8 @@
             "https://github.com/zan8in/afrog": {
                 "created_at": "2022-02-24 06:00:32",
                 "description": "afrog 是一款性能卓越、快速稳定、PoC 可定制化的漏洞扫描工具 - A tool for finding vulnerabilities",
-                "commit_date": "2022-12-06 08:00:36",
-                "commit_message": "health check",
+                "commit_date": "2022-12-10 15:50:35",
+                "commit_message": "update banner",
                 "release_tag": "v2.0.1",
                 "release_date": "2022-11-29 13:58:59",
                 "release_message": "**Full Changelog**: https://github.com/zan8in/afrog/compare/v2.0.0...v2.0.1\r\n\r\n紧急发布修复 BUG 的小版本 ~\r\n解决 afrog 线程池经常卡死 BUG（紧急）\r\n\r\n![image](https://user-images.githubusercontent.com/4088460/204548214-ee0247cd-a707-4cd7-8fe7-861852d1bd46.png)\r\n"
@@ -1073,8 +1073,8 @@
             "https://github.com/ycdxsb/PocOrExp_in_Github": {
                 "created_at": "2021-04-13 05:46:16",
                 "description": "聚合Github上已有的Poc或者Exp，CVE信息来自CVE官网。Auto Collect Poc Or Exp from Github by CVE ID.",
-                "commit_date": "2022-12-09 21:52:45",
-                "commit_message": "update 2022-12-10 05:52:45",
+                "commit_date": "2022-12-10 21:52:39",
+                "commit_message": "update 2022-12-11 05:52:39",
                 "release_tag": null,
                 "release_date": "",
                 "release_message": null
@@ -1708,7 +1708,7 @@
             "https://github.com/ExpLangcn/NucleiTP": {
                 "created_at": "2022-11-08 13:16:56",
                 "description": "自动整合全网Nuclei的漏洞POC，实时同步更新最新POC！",
-                "commit_date": "2022-12-10 01:00:18",
+                "commit_date": "2022-12-11 01:00:17",
                 "commit_message": "更新啦❤️",
                 "release_tag": null,
                 "release_date": "",
