@@ -1,11 +1,11 @@
-# 更新于 2022-12-11 09:10:52
+# 更新于 2022-12-12 09:06:54
 
 ## 近30天release更新记录
 | 更新时间 | 项目名称 | 版本 | 更新内容 |
 | :---- | :---- | :---- | :---- |
+|2022-12-11 13:04:41|[nuclei](https://github.com/projectdiscovery/nuclei)|v2.8.3|## What's Changed## What's Changed* Fix<br>ed bug to consider clustering with autom<br>atic http probing by @Ice3man543 in http<br>s://github.com/projectdiscovery/nuclei/p<br>ull/3019* Fixed bug to remove blank prot<br>ocol name by @vzamanillo in https://gith<br>ub.com/projectdiscovery/nuclei/pull/2993<br>* Added option to disable request cluste<br>ring by @Ice3man543in https://github.com<br>/projectdiscovery/nuclei/pull/3019* Adde<br>d custom ip to protocol-generated variab<br>les by @Mzack9999 in https://github.com/<br>projectdiscovery/nuclei/pull/3011**Full <br>Changelog**: https://github.com/projectd<br>iscovery/nuclei/compare/v2.8.2...v2.8.3|
 |2022-12-09 02:22:49|[captcha-killer-modi<br>fied](https://github.com/f0ng/captcha-killer-modified)|0.18|【2022-12-9】 0.181. 添加`@captcha@`参<br>数替代验证码，方便在repeater模块内进行测<br>试，感谢微信群师傅@浅笑 提供建议<img widt<br>h="804" alt="image" src="https://user-im<br>ages.githubusercontent.com/48286013/2066<br>09271-5cc8bdcf-2141-4616-9a60-7ab9493f18<br>c2.png">|
 |2022-12-09 01:31:39|[log4j2burpscanner](https://github.com/f0ng/log4j2burpscanner)|0.21.0|# 0.21.0 更新## 2022-12-91. 增加参数 `p<br>refixparam`前缀可控，可输入如`%84$`，造<br>成一些数据库组件解析错误，从而进行log4j2<br>的报错触发<img width="600" alt="image" sr<br>c="https://user-images.githubusercontent<br>.com/48286013/206602178-bb80c887-196d-4f<br>85-a065-44fc47130e8a.png">2. 增加自定义h<br>eader头获取响应结果请求(支持了dnslog.cn<br>等，但是dnslog.cn有PHPSESSID默认过期时间<br>，暂不推荐使用)，举例如 `privatednsRespon<br>seurl` 框内填入以下字段：```HEADERhttp:/<br>/dnslog.cn/getrecords.phpCookie:PHPSESSI<br>D=bmekedlvumo1e9onr6qsd1j2u6```<img widt<br>h="505" alt="image" src="https://user-im<br>ages.githubusercontent.com/48286013/2066<br>53492-77f5e9b1-7c56-49d6-8e5e-0263521e8a<br>d6.png">3. 修复`dnsparam`参数初始化问题<br>，感谢微信群@啊哈师傅反馈|
-|2022-12-08 18:12:49|[nuclei](https://github.com/projectdiscovery/nuclei)|v2.8.2|## What's Changed* Fixed issue with pri<br>nting `host` instead of `ip` by @tarunKo<br>yalwar in https://github.com/projectdisc<br>overy/nuclei/pull/3002* Fixed nil crash <br>with input URL edge case by @tarunKoyalw<br>ar in https://github.com/projectdiscover<br>y/nuclei/pull/3004## New Contributors* @<br>JaneX8 made their first contribution in <br>https://github.com/projectdiscovery/nucl<br>ei/pull/2981**Full Changelog**: https://<br>github.com/projectdiscovery/nuclei/compa<br>re/v2.8.1...v2.8.2|
 |2022-12-02 08:08:53|[github-subdomains](https://github.com/gwen001/github-subdomains)|v1.2.0||
 |2022-11-30 19:12:53|[faker](https://github.com/joke2k/faker)|v15.3.4|See [CHANGELOG.md](https://github.com/j<br>oke2k/faker/blob/refs/tags/v15.3.4/CHANG<br>ELOG.md).|
 |2022-11-29 13:58:59|[afrog](https://github.com/zan8in/afrog)|v2.0.1|**Full Changelog**: https://github.com/<br>zan8in/afrog/compare/v2.0.0...v2.0.1紧急<br>发布修复 BUG 的小版本 ~解决 afrog 线程池<br>经常卡死 BUG（紧急）![image](https://user<br>-images.githubusercontent.com/4088460/20<br>4548214-ee0247cd-a707-4cd7-8fe7-861852d1<br>bd46.png)|
@@ -19,21 +19,20 @@
 |2022-11-16 22:53:24|[feroxbuster](https://github.com/epi052/feroxbuster)|v2.7.2|## What's Changed* removed superfluous <br>if statement by @herrcykel in https://gi<br>thub.com/epi052/feroxbuster/pull/580* up<br>graded leaky-bucket to 0.12.1 by @udopro<br>g in https://github.com/epi052/feroxbust<br>er/pull/604* updated dependencies by @ep<br>i052 in https://github.com/epi052/feroxb<br>uster/pull/670* upgraded clap from 3.x t<br>o 4.x by @epi052 in https://github.com/e<br>pi052/feroxbuster/pull/671* 661 fix doub<br>le dir scan by @epi052 in https://github<br>.com/epi052/feroxbuster/pull/672* fixed <br>invalid uri exception during extraction <br>by @epi052 in https://github.com/epi052/<br>feroxbuster/pull/706## New Contributors*<br> @herrcykel made their first contributio<br>n in https://github.com/epi052/feroxbust<br>er/pull/580* @udoprog made their first c<br>ontribution in https://github.com/epi052<br>/feroxbuster/pull/604**Full Changelog**:<br> https://github.com/epi052/feroxbuster/c<br>ompare/2.7.1...v2.7.2|
 |2022-11-14 08:01:41|[OA-EXPTOOL](https://github.com/LittleBear4/OA-EXPTOOL)|v0.6|增加打印功能---------------------------<br>----------------------------------------<br>----------------------------------------<br>----------------------------------------<br>增加帆软2017敏感信息泄露poc增加泛微OA_hrm<br>careerApply_sql poc,泛微OA_mysql_config<br>数据库信息泄漏,泛微OA_jquery_filetree,泛<br>微OA_Verify_QuickLogin 泛微OA_signnature_<br>任意文件访问,泛微OA_uploader_OPerate_2022<br>,泛微OA_V10_前台sql增加红帆OA_非医疗版_<br>任意文件上传增加万户OA_document_sql，万户<br>OA DownloadServlet 任意文件读取漏洞增加n<br>c_xbr_rce，用友_U8_f5_sql，用友GRP_u8_up<br>load_data优化优化泛微OA的检测，对检测增<br>加内容判断，提高准确性，优化红帆漏洞poc增<br>加payload，优化蓝凌oa poc的准确性 去掉部<br>分exp，优化通达后台xxs包含漏洞的线程问题<br>，优化万户模块下的poc提高准确性|
 |2022-11-13 11:40:50|[AttackTomcat](https://github.com/tpt11fb/AttackTomcat)|V1||
-|2022-11-11 06:00:52|[autoDecoder](https://github.com/f0ng/autoDecoder)|0.19.0|## 2022.11.11 更新0.19修改了ui，优化了<br>在新版bp上`html`无法解析的问题|
 ## 近30天commit提交记录
 | 提交时间 | 项目名称 | 更新内容 |
 | :---- | :---- | :---- |
-|2022-12-11 01:00:17|[NucleiTP](https://github.com/ExpLangcn/NucleiTP)|更新啦❤️|
-|2022-12-10 21:52:39|[PocOrExp_in_Github](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2022-12-11 05:52:39|
+|2022-12-12 01:00:20|[NucleiTP](https://github.com/ExpLangcn/NucleiTP)|更新啦❤️|
+|2022-12-11 20:43:51|[PocOrExp_in_Github](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2022-12-12 04:43:51|
+|2022-12-11 13:00:15|[nuclei](https://github.com/projectdiscovery/nuclei)|Merge pull request #3021 from projectdiscovery/devBugf<br>ix release|
+|2022-12-11 11:22:06|[penetration-suite-t<br>oolkit](https://github.com/makoto56/penetration-suite-toolkit)|Update README.md|
+|2022-12-11 11:22:06|[penetration-suite-t<br>oolkit](https://github.com/makoto56/penetration-suite-toolkit)|Update README.md|
 |2022-12-10 15:50:35|[afrog](https://github.com/zan8in/afrog)|update banner|
-|2022-12-09 13:53:15|[penetration-suite-t<br>oolkit](https://github.com/makoto56/penetration-suite-toolkit)|Update README.md|
-|2022-12-09 13:53:15|[penetration-suite-t<br>oolkit](https://github.com/makoto56/penetration-suite-toolkit)|Update README.md|
 |2022-12-09 11:22:09|[dirsearch](https://github.com/maurosoria/dirsearch)|Merge pull request #1255 from kylincodelab/masterUpdat<br>e dicc.txt|
 |2022-12-09 07:10:04|[log4j2burpscanner](https://github.com/f0ng/log4j2burpscanner)|Update FAQ-zh-CN.md|
 |2022-12-09 02:48:45|[Vulnerability-Wiki](https://github.com/Threekiii/Vulnerability-Wiki)|更新漏洞|
 |2022-12-09 02:47:17|[Awesome-POC](https://github.com/Threekiii/Awesome-POC)|更新漏洞|
 |2022-12-09 02:20:14|[captcha-killer-modi<br>fied](https://github.com/f0ng/captcha-killer-modified)|Update README.md|
-|2022-12-08 18:12:17|[nuclei](https://github.com/projectdiscovery/nuclei)|go mod update|
 |2022-12-08 13:37:18|[InfoSearchAll](https://github.com/ExpLangcn/InfoSearchAll)|Update README.md|
 |2022-12-07 21:02:53|[ffuf](https://github.com/ffuf/ffuf)|Fix the ac for good now (#615)|
 |2022-12-06 07:29:11|[OneForAll](https://github.com/shmilylty/OneForAll)|回退|
@@ -68,9 +67,7 @@
 |2022-11-15 09:05:50|[AttackTomcat](https://github.com/tpt11fb/AttackTomcat)|Create README.md|
 |2022-11-15 05:41:53|[autoDecoder](https://github.com/f0ng/autoDecoder)|Update README.md|
 |2022-11-15 01:57:05|[Some-PoC-oR-ExP](https://github.com/coffeehb/Some-PoC-oR-ExP)|Update poc.txt|
-|2022-11-13 13:26:37|[SmsForwarder](https://github.com/pppscn/SmsForwarder)|优化：编辑`通知转发规则`界面，快捷按钮`{{卡槽信息}}`换<br>成`{{通知标题}}`|
-|2022-11-11 14:18:43|[Packer-Fuzzer](https://github.com/rtcatc/Packer-Fuzzer)|v1.4.13 update config|
-|2022-11-11 08:02:58|[POChouse](https://github.com/DawnFlame/POChouse)|Update README.md|## 所有项目
+|2022-11-13 13:26:37|[SmsForwarder](https://github.com/pppscn/SmsForwarder)|优化：编辑`通知转发规则`界面，快捷按钮`{{卡槽信息}}`换<br>成`{{通知标题}}`|## 所有项目
 ### 信息收集
 #### 资产测绘采集
 | 项目名称 | 版本 | 项目描述 |
@@ -127,7 +124,7 @@
 | [xray](https://github.com/chaitin/xray) | 1.9.3 | 一款完善的安全评估工具，支持常见 web 安全问题扫描和自定义 poc | <br>使用之前务必先阅读文档 |
 | [w13scan](https://github.com/w-digital-scanner/w13scan) |  | Passive Security Scanner (被动式安全扫描器) |
 | [Fvuln](https://github.com/d3ckx1/Fvuln) | Fvuln_v1.<br>4.8 | F-vuln（全称：Find-Vulnerability）是为了自己工作方便专门编写的一<br>款自动化工具，主要适用于日常安全服务、渗透测试人员和RedTeam红队人<br>员，它集合的功能包括：存活IP探测、开放端口探测、web服务探测、web漏<br>洞扫描、smb爆破、ssh爆破、ftp爆破、mssql爆破等其他数据库爆破工作以<br>及大量web漏洞检测模块。 |
-| [nuclei](https://github.com/projectdiscovery/nuclei) | v2.8.2 | Fast and customizable vulnerability scanner based on simple YAML<br> based DSL. |
+| [nuclei](https://github.com/projectdiscovery/nuclei) | v2.8.3 | Fast and customizable vulnerability scanner based on simple YAML<br> based DSL. |
 | [afrog](https://github.com/zan8in/afrog) | v2.0.1 | afrog 是一款性能卓越、快速稳定、PoC 可定制化的漏洞扫描工具 - A t<br>ool for finding vulnerabilities |
 | [vulmap](https://github.com/zhzyker/vulmap) | v0.9 | Vulmap 是一款 web 漏洞扫描和验证工具, 可对 webapps 进行漏洞扫描,<br> 并且具备漏洞验证功能 |
 | [POC-bomber](https://github.com/tr0uble-mAker/POC-bomber) | v2.0.2-PO<br>C-bomber | 利用大量高威胁poc/exp快速获取目标权限，用于渗透和红队快速打点 |
