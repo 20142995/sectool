@@ -299,11 +299,11 @@
             "https://github.com/zan8in/afrog": {
                 "created_at": "2022-02-24 06:00:32",
                 "description": "afrog 是一款性能卓越、快速稳定、PoC 可定制化的漏洞扫描工具 - A tool for finding vulnerabilities",
-                "commit_date": "2022-12-10 15:50:35",
-                "commit_message": "update banner",
-                "release_tag": "v2.0.1",
-                "release_date": "2022-11-29 13:58:59",
-                "release_message": "**Full Changelog**: https://github.com/zan8in/afrog/compare/v2.0.0...v2.0.1\r\n\r\n紧急发布修复 BUG 的小版本 ~\r\n解决 afrog 线程池经常卡死 BUG（紧急）\r\n\r\n![image](https://user-images.githubusercontent.com/4088460/204548214-ee0247cd-a707-4cd7-8fe7-861852d1bd46.png)\r\n"
+                "commit_date": "2022-12-12 12:56:36",
+                "commit_message": "add CNVD-2021-27648",
+                "release_tag": "v2.1.0",
+                "release_date": "2022-12-12 01:09:42",
+                "release_message": "- 新增 -update  将 afrog 引擎更新到最新发布的版本\r\n- 新增 -proxy  使用 http/socks5 代理列表（逗号分隔或文件输入）\r\n- 新增 -rate-limit、concurrency、fingerprint-concurrency、max-host-error、retries、timeout 等参数\r\n- 修复 html 报告（返回多个请求记录）URL 不准确的 BUG\r\n- 优化 banner 展示界面（模仿 nuclei）\r\n- 屏蔽 GoPoc 功能（暂时）"
             },
             "https://github.com/zhzyker/vulmap": {
                 "created_at": "2020-10-09 06:34:36",
@@ -337,8 +337,8 @@
             "https://github.com/knownsec/pocsuite3": {
                 "created_at": "2019-03-15 07:01:04",
                 "description": "pocsuite3 is an open-sourced remote vulnerability testing framework developed by the Knownsec 404 Team.",
-                "commit_date": "2022-11-22 18:59:04",
-                "commit_message": "Merge pull request #341 from 13ph03nix/fix/console-use-command\n\nfix: use command in console mode use absolute path",
+                "commit_date": "2022-12-12 23:26:48",
+                "commit_message": "Merge pull request #347 from 13ph03nix/fix-ipv6\n\nfix: ipv6 compatibility issue in build_url",
                 "release_tag": "v2.0.1",
                 "release_date": "2022-11-09 00:28:07",
                 "release_message": "* 修复 words 匹配器表达式执行的问题 #333, thanks @soapffz\r\n* 修复模版中包含中文异常捕获的问题 #334, thanks @izj007\r\n* 提高模版的鲁棒性\r\n* 支持 digest_username 和 digest_password，用于 http 认证\r\n* 支持 negative 反向匹配器\r\n---\r\n\r\n* fix words matcher expression execution #333, thanks @soapffz\r\n* fix catch binascii ValueError Exception #334, thanks @izj007\r\n* improve template robustness\r\n* support digest_username and digest_password\r\n* support negative matchers"
@@ -1073,8 +1073,8 @@
             "https://github.com/ycdxsb/PocOrExp_in_Github": {
                 "created_at": "2021-04-13 05:46:16",
                 "description": "聚合Github上已有的Poc或者Exp，CVE信息来自CVE官网。Auto Collect Poc Or Exp from Github by CVE ID.",
-                "commit_date": "2022-12-11 20:43:51",
-                "commit_message": "update 2022-12-12 04:43:51",
+                "commit_date": "2022-12-12 20:44:10",
+                "commit_message": "update 2022-12-13 04:44:09",
                 "release_tag": null,
                 "release_date": "",
                 "release_message": null
@@ -1285,8 +1285,8 @@
             "https://github.com/knownsec/404StarLink": {
                 "created_at": "2020-11-17 08:10:18",
                 "description": "404StarLink - 推荐优质、有意义、有趣、坚持维护的安全开源项目",
-                "commit_date": "2022-12-05 07:02:27",
-                "commit_message": "weekly update at 2022-12-05",
+                "commit_date": "2022-12-12 08:24:02",
+                "commit_message": "weekly update at 2022-12-12",
                 "release_tag": null,
                 "release_date": "",
                 "release_message": null
@@ -1708,7 +1708,7 @@
             "https://github.com/ExpLangcn/NucleiTP": {
                 "created_at": "2022-11-08 13:16:56",
                 "description": "自动整合全网Nuclei的漏洞POC，实时同步更新最新POC！",
-                "commit_date": "2022-12-12 01:00:20",
+                "commit_date": "2022-12-13 01:00:18",
                 "commit_message": "更新啦❤️",
                 "release_tag": null,
                 "release_date": "",
@@ -1920,8 +1920,8 @@
             "https://github.com/RsaCtfTool/RsaCtfTool": {
                 "created_at": "2015-03-07 17:29:33",
                 "description": "RSA attack tool (mainly for ctf) - retreive private key from weak public key and/or uncipher data",
-                "commit_date": "2022-12-05 17:39:40",
-                "commit_message": "Update number_theory.py",
+                "commit_date": "2022-12-12 17:49:12",
+                "commit_message": "fix issue #387",
                 "release_tag": null,
                 "release_date": "",
                 "release_message": null

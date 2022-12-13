@@ -1,14 +1,14 @@
-# 更新于 2022-12-12 09:06:54
+# 更新于 2022-12-13 09:09:45
 
 ## 近30天release更新记录
 | 更新时间 | 项目名称 | 版本 | 更新内容 |
 | :---- | :---- | :---- | :---- |
+|2022-12-12 01:09:42|[afrog](https://github.com/zan8in/afrog)|v2.1.0|- 新增 -update将 afrog 引擎更新到最新发<br>布的版本- 新增 -proxy使用 http/socks5 代<br>理列表（逗号分隔或文件输入）- 新增 -rate-<br>limit、concurrency、fingerprint-concurre<br>ncy、max-host-error、retries、timeout 等<br>参数- 修复 html 报告（返回多个请求记录）U<br>RL 不准确的 BUG- 优化 banner 展示界面（<br>模仿 nuclei）- 屏蔽 GoPoc 功能（暂时）|
 |2022-12-11 13:04:41|[nuclei](https://github.com/projectdiscovery/nuclei)|v2.8.3|## What's Changed## What's Changed* Fix<br>ed bug to consider clustering with autom<br>atic http probing by @Ice3man543 in http<br>s://github.com/projectdiscovery/nuclei/p<br>ull/3019* Fixed bug to remove blank prot<br>ocol name by @vzamanillo in https://gith<br>ub.com/projectdiscovery/nuclei/pull/2993<br>* Added option to disable request cluste<br>ring by @Ice3man543in https://github.com<br>/projectdiscovery/nuclei/pull/3019* Adde<br>d custom ip to protocol-generated variab<br>les by @Mzack9999 in https://github.com/<br>projectdiscovery/nuclei/pull/3011**Full <br>Changelog**: https://github.com/projectd<br>iscovery/nuclei/compare/v2.8.2...v2.8.3|
 |2022-12-09 02:22:49|[captcha-killer-modi<br>fied](https://github.com/f0ng/captcha-killer-modified)|0.18|【2022-12-9】 0.181. 添加`@captcha@`参<br>数替代验证码，方便在repeater模块内进行测<br>试，感谢微信群师傅@浅笑 提供建议<img widt<br>h="804" alt="image" src="https://user-im<br>ages.githubusercontent.com/48286013/2066<br>09271-5cc8bdcf-2141-4616-9a60-7ab9493f18<br>c2.png">|
 |2022-12-09 01:31:39|[log4j2burpscanner](https://github.com/f0ng/log4j2burpscanner)|0.21.0|# 0.21.0 更新## 2022-12-91. 增加参数 `p<br>refixparam`前缀可控，可输入如`%84$`，造<br>成一些数据库组件解析错误，从而进行log4j2<br>的报错触发<img width="600" alt="image" sr<br>c="https://user-images.githubusercontent<br>.com/48286013/206602178-bb80c887-196d-4f<br>85-a065-44fc47130e8a.png">2. 增加自定义h<br>eader头获取响应结果请求(支持了dnslog.cn<br>等，但是dnslog.cn有PHPSESSID默认过期时间<br>，暂不推荐使用)，举例如 `privatednsRespon<br>seurl` 框内填入以下字段：```HEADERhttp:/<br>/dnslog.cn/getrecords.phpCookie:PHPSESSI<br>D=bmekedlvumo1e9onr6qsd1j2u6```<img widt<br>h="505" alt="image" src="https://user-im<br>ages.githubusercontent.com/48286013/2066<br>53492-77f5e9b1-7c56-49d6-8e5e-0263521e8a<br>d6.png">3. 修复`dnsparam`参数初始化问题<br>，感谢微信群@啊哈师傅反馈|
 |2022-12-02 08:08:53|[github-subdomains](https://github.com/gwen001/github-subdomains)|v1.2.0||
 |2022-11-30 19:12:53|[faker](https://github.com/joke2k/faker)|v15.3.4|See [CHANGELOG.md](https://github.com/j<br>oke2k/faker/blob/refs/tags/v15.3.4/CHANG<br>ELOG.md).|
-|2022-11-29 13:58:59|[afrog](https://github.com/zan8in/afrog)|v2.0.1|**Full Changelog**: https://github.com/<br>zan8in/afrog/compare/v2.0.0...v2.0.1紧急<br>发布修复 BUG 的小版本 ~解决 afrog 线程池<br>经常卡死 BUG（紧急）![image](https://user<br>-images.githubusercontent.com/4088460/20<br>4548214-ee0247cd-a707-4cd7-8fe7-861852d1<br>bd46.png)|
 |2022-11-28 17:47:44|[Behinder](https://github.com/rebeyond/Behinder)|Behinder_<br>v4.0.6|### 2022.11.28 v4.0.6 更新日志1.修复了T<br>omcat10中内存马植入无法连接的问题；2.修<br>复了asp版本内置传输协议的连接问题；3.修复<br>了传输协议在恢复默认时会出现错误的问题；4<br>.内置了Javafx库，修复了各类因为Javafx环<br>境无法运行的问题；5.修复了客户端兼容性问<br>题，客户端兼容Java8至Java19；6.新增“默认<br>”连接模式，兼容冰蝎3默认服务端；7.其他的<br>一些优化。|
 |2022-11-28 13:28:57|[super-xray](https://github.com/4ra1n/super-xray)|0.8|## 0.8重要功能更新：可以与`rad`联动；可<br>以为独立反连平台导出配置文件（具体教程参<br>考B站新视频）重要`bug`说明：之前版本有反<br>馈说CPU消耗过高，是因为之前没有停止的逻辑<br>，意味着每运行一次新任务开两个新线程，一<br>个执行一个监视。当执行线程结束，监视线程<br>不会停止，任务过多时导致CPU消耗极高。虽然<br>之前版本可以通过点击强制停止使所有监视线<br>程停下，解决问题。但这种情况需要得到一个<br>合理的解决，这个版本中，主动扫描也有停止<br>扫描的按钮。另外xray团队新增了一个在线生<br>成yaml poc的网站，加了一个直接到达该网站<br>的按钮，配合poc模块的加载本地poc功能比较<br>舒服。最后一个bug是当xray和super-xray在同<br>一个路径的时候，无法保存config.yaml，因此<br>不能加载上次的配置。Bugs:- [important] [<br>公告] CPU消耗过高问题的解决 #69- [importa<br>nt] 当xray和super-xray同目录时不能保存配<br>置 #68- [bug] 查看所有poc界面使用新字体后<br>可能有意外行为 #70Others:- [new feature] <br>添加rad爬虫联动 #22- 为反连平台添加导出配<br>置文件的功能 #59- 控制台使用更好看的字体 <br>#67- 加入跳转在线生成poc的按钮 #66Downlo<br>ad:- super-xray-0.8.jar：普通的Jar包，使<br>用`java -jar`启动- super-xray-0.8-jre-exe<br>.zip：内置JRE的EXE版本，适用于没有安装Ja<br>va的情况- super-xray-0.8-system-jre.exe<br>：使用系统JRE的EXE版本，适用于已有Java环<br>境的情况|
 |2022-11-28 08:58:17|[RequestTemplate](https://github.com/1n7erface/RequestTemplate)|v1.1.0|2022.11.28 17:00这一次更新时隔一个月,我<br>还是只更新了Golang的扫描端。我觉得这次更<br>新是我迄今为止最满意的一次更新，因为我将<br>程序的架构进行了翻新重构。解决了很多在以<br>往我觉得是"bug"的细节，虽然在运行时不会出<br>现异常，但是架构始终让我不太满意。这次我<br>在爆破模块与端口扫描增加了“调度中心“的<br>角色。详细的细节我可能会发文章叙述。各位<br>及时给出评价。注：mac在更新13之后不能使用<br>压缩过后的文件，不知道为啥，在此我提供未<br>压缩的文件。见：App-arm64darwin-noupx、Ap<br>p-am d64darwin-noupx|
@@ -22,12 +22,15 @@
 ## 近30天commit提交记录
 | 提交时间 | 项目名称 | 更新内容 |
 | :---- | :---- | :---- |
-|2022-12-12 01:00:20|[NucleiTP](https://github.com/ExpLangcn/NucleiTP)|更新啦❤️|
-|2022-12-11 20:43:51|[PocOrExp_in_Github](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2022-12-12 04:43:51|
+|2022-12-13 01:00:18|[NucleiTP](https://github.com/ExpLangcn/NucleiTP)|更新啦❤️|
+|2022-12-12 23:26:48|[pocsuite3](https://github.com/knownsec/pocsuite3)|Merge pull request #347 from 13ph03nix/fix-ipv6fix: ip<br>v6 compatibility issue in build_url|
+|2022-12-12 20:44:10|[PocOrExp_in_Github](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2022-12-13 04:44:09|
+|2022-12-12 17:49:12|[RsaCtfTool](https://github.com/RsaCtfTool/RsaCtfTool)|fix issue #387|
+|2022-12-12 12:56:36|[afrog](https://github.com/zan8in/afrog)|add CNVD-2021-27648|
+|2022-12-12 08:24:02|[404StarLink](https://github.com/knownsec/404StarLink)|weekly update at 2022-12-12|
 |2022-12-11 13:00:15|[nuclei](https://github.com/projectdiscovery/nuclei)|Merge pull request #3021 from projectdiscovery/devBugf<br>ix release|
 |2022-12-11 11:22:06|[penetration-suite-t<br>oolkit](https://github.com/makoto56/penetration-suite-toolkit)|Update README.md|
 |2022-12-11 11:22:06|[penetration-suite-t<br>oolkit](https://github.com/makoto56/penetration-suite-toolkit)|Update README.md|
-|2022-12-10 15:50:35|[afrog](https://github.com/zan8in/afrog)|update banner|
 |2022-12-09 11:22:09|[dirsearch](https://github.com/maurosoria/dirsearch)|Merge pull request #1255 from kylincodelab/masterUpdat<br>e dicc.txt|
 |2022-12-09 07:10:04|[log4j2burpscanner](https://github.com/f0ng/log4j2burpscanner)|Update FAQ-zh-CN.md|
 |2022-12-09 02:48:45|[Vulnerability-Wiki](https://github.com/Threekiii/Vulnerability-Wiki)|更新漏洞|
@@ -36,10 +39,8 @@
 |2022-12-08 13:37:18|[InfoSearchAll](https://github.com/ExpLangcn/InfoSearchAll)|Update README.md|
 |2022-12-07 21:02:53|[ffuf](https://github.com/ffuf/ffuf)|Fix the ac for good now (#615)|
 |2022-12-06 07:29:11|[OneForAll](https://github.com/shmilylty/OneForAll)|回退|
-|2022-12-05 17:39:40|[RsaCtfTool](https://github.com/RsaCtfTool/RsaCtfTool)|Update number_theory.py|
 |2022-12-05 16:15:52|[OA-EXPTOOL](https://github.com/LittleBear4/OA-EXPTOOL)|Update README.md|
 |2022-12-05 09:54:29|[Awesome-Redteam](https://github.com/Threekiii/Awesome-Redteam)|图片本地化|
-|2022-12-05 07:02:27|[404StarLink](https://github.com/knownsec/404StarLink)|weekly update at 2022-12-05|
 |2022-12-05 03:27:07|[Vulhub-Reproduce](https://github.com/Threekiii/Vulhub-Reproduce)|更新README.md|
 |2022-12-03 07:13:38|[RedisEXP](https://github.com/yuyan-sec/RedisEXP)|Update tools.go|
 |2022-12-02 08:08:51|[github-subdomains](https://github.com/gwen001/github-subdomains)|v1.2.0|
@@ -53,7 +54,6 @@
 |2022-11-27 13:26:17|[Threathunting-book](https://github.com/12306Bro/Threathunting-book)|Update README.md|
 |2022-11-27 07:02:42|[knife](https://github.com/bit4woo/knife)|update|
 |2022-11-25 11:42:34|[BpScan](https://github.com/EASY233/BpScan)|update|
-|2022-11-22 18:59:04|[pocsuite3](https://github.com/knownsec/pocsuite3)|Merge pull request #341 from 13ph03nix/fix/console-use<br>-commandfix: use command in console mode use absolute p<br>ath|
 |2022-11-22 06:27:28|[vulnerability](https://github.com/lal0ne/vulnerability)|DAR-8000 远程命令执行漏洞|
 |2022-11-22 03:32:13|[Intranet_Penetratio<br>n_Tips](https://github.com/Ridter/Intranet_Penetration_Tips)|Merge pull request #12 from we1h0/patch-2fix url|
 |2022-11-20 10:24:53|[domain_hunter_pro](https://github.com/bit4woo/domain_hunter_pro)|Update DomainManager.javaCopyOnWriteArraySet 用iterato<br>r的remove反而会出错|
@@ -125,7 +125,7 @@
 | [w13scan](https://github.com/w-digital-scanner/w13scan) |  | Passive Security Scanner (被动式安全扫描器) |
 | [Fvuln](https://github.com/d3ckx1/Fvuln) | Fvuln_v1.<br>4.8 | F-vuln（全称：Find-Vulnerability）是为了自己工作方便专门编写的一<br>款自动化工具，主要适用于日常安全服务、渗透测试人员和RedTeam红队人<br>员，它集合的功能包括：存活IP探测、开放端口探测、web服务探测、web漏<br>洞扫描、smb爆破、ssh爆破、ftp爆破、mssql爆破等其他数据库爆破工作以<br>及大量web漏洞检测模块。 |
 | [nuclei](https://github.com/projectdiscovery/nuclei) | v2.8.3 | Fast and customizable vulnerability scanner based on simple YAML<br> based DSL. |
-| [afrog](https://github.com/zan8in/afrog) | v2.0.1 | afrog 是一款性能卓越、快速稳定、PoC 可定制化的漏洞扫描工具 - A t<br>ool for finding vulnerabilities |
+| [afrog](https://github.com/zan8in/afrog) | v2.1.0 | afrog 是一款性能卓越、快速稳定、PoC 可定制化的漏洞扫描工具 - A t<br>ool for finding vulnerabilities |
 | [vulmap](https://github.com/zhzyker/vulmap) | v0.9 | Vulmap 是一款 web 漏洞扫描和验证工具, 可对 webapps 进行漏洞扫描,<br> 并且具备漏洞验证功能 |
 | [POC-bomber](https://github.com/tr0uble-mAker/POC-bomber) | v2.0.2-PO<br>C-bomber | 利用大量高威胁poc/exp快速获取目标权限，用于渗透和红队快速打点 |
 | [QingTing](https://github.com/StarCrossPortal/QingTing) | v0.3 | 蜻蜓安全一个安全工具编排平台,可以自由编排你的工具流,集成108款工<br>具,包括xray、nmap、awvs等;你可以将喜欢的工具编排成一个场景，快速打<br>造适合自己的安全工作台~ |
