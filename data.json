@@ -337,11 +337,11 @@
             "https://github.com/knownsec/pocsuite3": {
                 "created_at": "2019-03-15 07:01:04",
                 "description": "pocsuite3 is an open-sourced remote vulnerability testing framework developed by the Knownsec 404 Team.",
-                "commit_date": "2022-12-12 23:26:48",
-                "commit_message": "Merge pull request #347 from 13ph03nix/fix-ipv6\n\nfix: ipv6 compatibility issue in build_url",
-                "release_tag": "v2.0.1",
-                "release_date": "2022-11-09 00:28:07",
-                "release_message": "* 修复 words 匹配器表达式执行的问题 #333, thanks @soapffz\r\n* 修复模版中包含中文异常捕获的问题 #334, thanks @izj007\r\n* 提高模版的鲁棒性\r\n* 支持 digest_username 和 digest_password，用于 http 认证\r\n* 支持 negative 反向匹配器\r\n---\r\n\r\n* fix words matcher expression execution #333, thanks @soapffz\r\n* fix catch binascii ValueError Exception #334, thanks @izj007\r\n* improve template robustness\r\n* support digest_username and digest_password\r\n* support negative matchers"
+                "commit_date": "2022-12-13 03:25:37",
+                "commit_message": "Merge pull request #349 from 13ph03nix/master\n\nchore: bump version to 2.0.2",
+                "release_tag": "v2.0.2",
+                "release_date": "2022-12-13 03:32:05",
+                "release_message": "* 修复 _check 方法中 url 重定向的问题 #337 \r\n* 修复 console 模式下 use 命令使用绝对路径的问题 #341，thanks @S2eTo\r\n* 修复 build_url 兼容 ipv6 的问题 #347，thanks @HomerQing\r\n* 优化 nuclei DSL 表达式执行 #348\r\n\r\n----------------\r\n* fix url redirect problem in _check method #337\r\n* fix use command in console mode can't use absolute path #341, thanks @S2eTo\r\n* fix ipv6 compatibility issue in build_url #347, thanks @HomerQing\r\n* optimize dsl expression execution #348"
             },
             "https://github.com/Guoke324/Godscan": {
                 "created_at": "2021-09-17 07:08:20",
@@ -1073,8 +1073,8 @@
             "https://github.com/ycdxsb/PocOrExp_in_Github": {
                 "created_at": "2021-04-13 05:46:16",
                 "description": "聚合Github上已有的Poc或者Exp，CVE信息来自CVE官网。Auto Collect Poc Or Exp from Github by CVE ID.",
-                "commit_date": "2022-12-12 20:44:10",
-                "commit_message": "update 2022-12-13 04:44:09",
+                "commit_date": "2022-12-13 18:17:11",
+                "commit_message": "update 2022-12-14 02:17:11",
                 "release_tag": null,
                 "release_date": "",
                 "release_message": null
@@ -1686,7 +1686,7 @@
             "https://github.com/luck-ying/Library-POC": {
                 "created_at": "2021-03-21 15:27:57",
                 "description": "基于Pocsuite3、goby编写的漏洞poc&exp存档",
-                "commit_date": "2022-11-03 06:42:04",
+                "commit_date": "2022-12-13 07:14:54",
                 "commit_message": "Update README.md",
                 "release_tag": null,
                 "release_date": "",
@@ -1708,7 +1708,7 @@
             "https://github.com/ExpLangcn/NucleiTP": {
                 "created_at": "2022-11-08 13:16:56",
                 "description": "自动整合全网Nuclei的漏洞POC，实时同步更新最新POC！",
-                "commit_date": "2022-12-13 01:00:18",
+                "commit_date": "2022-12-14 01:00:19",
                 "commit_message": "更新啦❤️",
                 "release_tag": null,
                 "release_date": "",
@@ -1920,8 +1920,8 @@
             "https://github.com/RsaCtfTool/RsaCtfTool": {
                 "created_at": "2015-03-07 17:29:33",
                 "description": "RSA attack tool (mainly for ctf) - retreive private key from weak public key and/or uncipher data",
-                "commit_date": "2022-12-12 17:49:12",
-                "commit_message": "fix issue #387",
+                "commit_date": "2022-12-13 21:39:50",
+                "commit_message": "Update README.md",
                 "release_tag": null,
                 "release_date": "",
                 "release_message": null
