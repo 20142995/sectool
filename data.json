@@ -107,8 +107,8 @@
             "https://github.com/epi052/feroxbuster": {
                 "created_at": "2020-08-22 15:36:19",
                 "description": "A fast, simple, recursive content discovery tool written in Rust.",
-                "commit_date": "2022-11-16 22:53:02",
-                "commit_message": "Merge branch 'main' of github.com:epi052/feroxbuster",
+                "commit_date": "2022-12-14 12:09:50",
+                "commit_message": "Merge pull request #734 from epi052/all-contributors/add-kmanc\n\ndocs: add kmanc as a contributor for bug, and code",
                 "release_tag": "v2.7.2",
                 "release_date": "2022-11-16 22:53:24",
                 "release_message": "## What's Changed\r\n* removed superfluous if statement by @herrcykel in https://github.com/epi052/feroxbuster/pull/580\r\n* upgraded leaky-bucket to 0.12.1 by @udoprog in https://github.com/epi052/feroxbuster/pull/604\r\n* updated dependencies by @epi052 in https://github.com/epi052/feroxbuster/pull/670\r\n* upgraded clap from 3.x to 4.x by @epi052 in https://github.com/epi052/feroxbuster/pull/671\r\n* 661 fix double dir scan by @epi052 in https://github.com/epi052/feroxbuster/pull/672\r\n* fixed invalid uri exception during extraction by @epi052 in https://github.com/epi052/feroxbuster/pull/706\r\n\r\n## New Contributors\r\n* @herrcykel made their first contribution in https://github.com/epi052/feroxbuster/pull/580\r\n* @udoprog made their first contribution in https://github.com/epi052/feroxbuster/pull/604\r\n\r\n**Full Changelog**: https://github.com/epi052/feroxbuster/compare/2.7.1...v2.7.2"
@@ -299,8 +299,8 @@
             "https://github.com/zan8in/afrog": {
                 "created_at": "2022-02-24 06:00:32",
                 "description": "afrog 是一款性能卓越、快速稳定、PoC 可定制化的漏洞扫描工具 - A tool for finding vulnerabilities",
-                "commit_date": "2022-12-12 12:56:36",
-                "commit_message": "add CNVD-2021-27648",
+                "commit_date": "2022-12-14 06:15:49",
+                "commit_message": "add contribution",
                 "release_tag": "v2.1.0",
                 "release_date": "2022-12-12 01:09:42",
                 "release_message": "- 新增 -update  将 afrog 引擎更新到最新发布的版本\r\n- 新增 -proxy  使用 http/socks5 代理列表（逗号分隔或文件输入）\r\n- 新增 -rate-limit、concurrency、fingerprint-concurrency、max-host-error、retries、timeout 等参数\r\n- 修复 html 报告（返回多个请求记录）URL 不准确的 BUG\r\n- 优化 banner 展示界面（模仿 nuclei）\r\n- 屏蔽 GoPoc 功能（暂时）"
@@ -992,8 +992,8 @@
             "https://github.com/ybdt/poc-hub": {
                 "created_at": "2020-09-03 04:47:40",
                 "description": "漏洞复现、漏洞检测",
-                "commit_date": "2022-10-24 16:38:39",
-                "commit_message": "Create .gitignore",
+                "commit_date": "2022-12-14 14:33:59",
+                "commit_message": "整理",
                 "release_tag": null,
                 "release_date": "",
                 "release_message": null
@@ -1046,8 +1046,8 @@
             "https://github.com/lal0ne/vulnerability": {
                 "created_at": "2022-01-20 02:48:42",
                 "description": "收集、整理、修改互联网上公开的漏洞POC",
-                "commit_date": "2022-11-22 06:27:28",
-                "commit_message": "DAR-8000 远程命令执行漏洞",
+                "commit_date": "2022-12-14 05:55:42",
+                "commit_message": "CVE-2022-46169",
                 "release_tag": null,
                 "release_date": "",
                 "release_message": null
@@ -1073,8 +1073,8 @@
             "https://github.com/ycdxsb/PocOrExp_in_Github": {
                 "created_at": "2021-04-13 05:46:16",
                 "description": "聚合Github上已有的Poc或者Exp，CVE信息来自CVE官网。Auto Collect Poc Or Exp from Github by CVE ID.",
-                "commit_date": "2022-12-13 18:17:11",
-                "commit_message": "update 2022-12-14 02:17:11",
+                "commit_date": "2022-12-14 20:46:33",
+                "commit_message": "update 2022-12-15 04:46:33",
                 "release_tag": null,
                 "release_date": "",
                 "release_message": null
@@ -1433,11 +1433,11 @@
             "https://github.com/f0ng/captcha-killer-modified": {
                 "created_at": "2022-03-18 12:41:58",
                 "description": "captcha-killer的修改版，支持关键词识别base64编码的图片，添加免费ocr库，用于验证码爆破，适配新版Burpsuite",
-                "commit_date": "2022-12-09 02:20:14",
-                "commit_message": "Update README.md",
-                "release_tag": "0.18",
-                "release_date": "2022-12-09 02:22:49",
-                "release_message": "【2022-12-9】 0.18\r\n1. 添加`@captcha@`参数替代验证码，方便在repeater模块内进行测试，感谢微信群师傅@浅笑 提供建议\r\n\r\n<img width=\"804\" alt=\"image\" src=\"https://user-images.githubusercontent.com/48286013/206609271-5cc8bdcf-2141-4616-9a60-7ab9493f18c2.png\">\r\n"
+                "commit_date": "2022-12-14 03:27:29",
+                "commit_message": "Update FAQ.md",
+                "release_tag": "0.19",
+                "release_date": "2022-12-14 01:54:06",
+                "release_message": "【2022-12-14】 0.19\r\n1. 增加URL解码、过滤图片编码中的`.`，#20 感谢@yinanzhaobaima 师傅反馈\r\n\r\n\r\n<img width=\"747\" alt=\"image\" src=\"https://user-images.githubusercontent.com/48286013/207485085-4ed8ac8d-55c7-4df1-81a2-c343277a2c16.png\">\r\n"
             },
             "https://github.com/whwlsfb/BurpCrypto": {
                 "created_at": "2020-05-29 02:59:15",
@@ -1708,7 +1708,7 @@
             "https://github.com/ExpLangcn/NucleiTP": {
                 "created_at": "2022-11-08 13:16:56",
                 "description": "自动整合全网Nuclei的漏洞POC，实时同步更新最新POC！",
-                "commit_date": "2022-12-14 01:00:19",
+                "commit_date": "2022-12-15 01:00:17",
                 "commit_message": "更新啦❤️",
                 "release_tag": null,
                 "release_date": "",
@@ -1920,8 +1920,8 @@
             "https://github.com/RsaCtfTool/RsaCtfTool": {
                 "created_at": "2015-03-07 17:29:33",
                 "description": "RSA attack tool (mainly for ctf) - retreive private key from weak public key and/or uncipher data",
-                "commit_date": "2022-12-13 21:39:50",
-                "commit_message": "Update README.md",
+                "commit_date": "2022-12-14 21:06:38",
+                "commit_message": "Simplify factordb attack, fix issue #369",
                 "release_tag": null,
                 "release_date": "",
                 "release_message": null
