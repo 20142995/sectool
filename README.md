@@ -1,8 +1,9 @@
-# 更新于 2022-12-15 09:05:55
+# 更新于 2022-12-16 09:01:15
 
 ## 近30天release更新记录
 | 更新时间 | 项目名称 | 版本 | 更新内容 |
 | :---- | :---- | :---- | :---- |
+|2022-12-15 11:47:23|[super-xray](https://github.com/4ra1n/super-xray)|0.9|## 0.9一个`bug`修复版本，目前功能基本完<br>善Bugs:- [important] [bug] showMessageDia<br>log多屏情况下的位置问题 #76- [important]<br> [bug] 反连平台应该自动配置client属性否<br>则会失效 #72- [important] [bug] 当reverse<br>配置为空但确认配置后无法正常启动 #71- [bu<br>g] 高级配置的某个ui绑定错误 #79- [bug] <br>在线生成的翻译问题 #75 (另外修复多处翻译<br>问题)Others:- [feat] 不输入端口情况下不应<br>该允许开启被动扫描 #77- 构建的System JRE <br>EXE应该对JRE版本进行限制 #73- 打开扫描结<br>果为空时应该给一个提示 #78- 添加一个按钮<br>允许用户清除PoC的设置 #80|
 |2022-12-14 01:54:06|[captcha-killer-modi<br>fied](https://github.com/f0ng/captcha-killer-modified)|0.19|【2022-12-14】 0.191. 增加URL解码、过滤<br>图片编码中的`.`，#20 感谢@yinanzhaobaima <br>师傅反馈<img width="747" alt="image" src=<br>"https://user-images.githubusercontent.c<br>om/48286013/207485085-4ed8ac8d-55c7-4df1<br>-81a2-c343277a2c16.png">|
 |2022-12-13 03:32:05|[pocsuite3](https://github.com/knownsec/pocsuite3)|v2.0.2|* 修复 _check 方法中 url 重定向的问题 #<br>337* 修复 console 模式下 use 命令使用绝<br>对路径的问题 #341，thanks @S2eTo* 修复 bu<br>ild_url 兼容 ipv6 的问题 #347，thanks @H<br>omerQing* 优化 nuclei DSL 表达式执行 #34<br>8----------------* fix url redirect prob<br>lem in _check method #337* fix use comma<br>nd in console mode can't use absolute pa<br>th #341, thanks @S2eTo* fix ipv6 compati<br>bility issue in build_url #347, thanks @<br>HomerQing* optimize dsl expression execu<br>tion #348|
 |2022-12-12 01:09:42|[afrog](https://github.com/zan8in/afrog)|v2.1.0|- 新增 -update将 afrog 引擎更新到最新发<br>布的版本- 新增 -proxy使用 http/socks5 代<br>理列表（逗号分隔或文件输入）- 新增 -rate-<br>limit、concurrency、fingerprint-concurre<br>ncy、max-host-error、retries、timeout 等<br>参数- 修复 html 报告（返回多个请求记录）U<br>RL 不准确的 BUG- 优化 banner 展示界面（<br>模仿 nuclei）- 屏蔽 GoPoc 功能（暂时）|
@@ -11,7 +12,6 @@
 |2022-12-02 08:08:53|[github-subdomains](https://github.com/gwen001/github-subdomains)|v1.2.0||
 |2022-11-30 19:12:53|[faker](https://github.com/joke2k/faker)|v15.3.4|See [CHANGELOG.md](https://github.com/j<br>oke2k/faker/blob/refs/tags/v15.3.4/CHANG<br>ELOG.md).|
 |2022-11-28 17:47:44|[Behinder](https://github.com/rebeyond/Behinder)|Behinder_<br>v4.0.6|### 2022.11.28 v4.0.6 更新日志1.修复了T<br>omcat10中内存马植入无法连接的问题；2.修<br>复了asp版本内置传输协议的连接问题；3.修复<br>了传输协议在恢复默认时会出现错误的问题；4<br>.内置了Javafx库，修复了各类因为Javafx环<br>境无法运行的问题；5.修复了客户端兼容性问<br>题，客户端兼容Java8至Java19；6.新增“默认<br>”连接模式，兼容冰蝎3默认服务端；7.其他的<br>一些优化。|
-|2022-11-28 13:28:57|[super-xray](https://github.com/4ra1n/super-xray)|0.8|## 0.8重要功能更新：可以与`rad`联动；可<br>以为独立反连平台导出配置文件（具体教程参<br>考B站新视频）重要`bug`说明：之前版本有反<br>馈说CPU消耗过高，是因为之前没有停止的逻辑<br>，意味着每运行一次新任务开两个新线程，一<br>个执行一个监视。当执行线程结束，监视线程<br>不会停止，任务过多时导致CPU消耗极高。虽然<br>之前版本可以通过点击强制停止使所有监视线<br>程停下，解决问题。但这种情况需要得到一个<br>合理的解决，这个版本中，主动扫描也有停止<br>扫描的按钮。另外xray团队新增了一个在线生<br>成yaml poc的网站，加了一个直接到达该网站<br>的按钮，配合poc模块的加载本地poc功能比较<br>舒服。最后一个bug是当xray和super-xray在同<br>一个路径的时候，无法保存config.yaml，因此<br>不能加载上次的配置。Bugs:- [important] [<br>公告] CPU消耗过高问题的解决 #69- [importa<br>nt] 当xray和super-xray同目录时不能保存配<br>置 #68- [bug] 查看所有poc界面使用新字体后<br>可能有意外行为 #70Others:- [new feature] <br>添加rad爬虫联动 #22- 为反连平台添加导出配<br>置文件的功能 #59- 控制台使用更好看的字体 <br>#67- 加入跳转在线生成poc的按钮 #66Downlo<br>ad:- super-xray-0.8.jar：普通的Jar包，使<br>用`java -jar`启动- super-xray-0.8-jre-exe<br>.zip：内置JRE的EXE版本，适用于没有安装Ja<br>va的情况- super-xray-0.8-system-jre.exe<br>：使用系统JRE的EXE版本，适用于已有Java环<br>境的情况|
 |2022-11-28 08:58:17|[RequestTemplate](https://github.com/1n7erface/RequestTemplate)|v1.1.0|2022.11.28 17:00这一次更新时隔一个月,我<br>还是只更新了Golang的扫描端。我觉得这次更<br>新是我迄今为止最满意的一次更新，因为我将<br>程序的架构进行了翻新重构。解决了很多在以<br>往我觉得是"bug"的细节，虽然在运行时不会出<br>现异常，但是架构始终让我不太满意。这次我<br>在爆破模块与端口扫描增加了“调度中心“的<br>角色。详细的细节我可能会发文章叙述。各位<br>及时给出评价。注：mac在更新13之后不能使用<br>压缩过后的文件，不知道为啥，在此我提供未<br>压缩的文件。见：App-arm64darwin-noupx、Ap<br>p-am d64darwin-noupx|
 |2022-11-23 03:58:28|[BpScan](https://github.com/EASY233/BpScan)|1.0.0|1、修复log4j poc编码问题2、修复dnslog平<br>台请求错误的问题3、其他bug修复|
 |2022-11-20 09:04:40|[knife](https://github.com/bit4woo/knife)|v2.1|融合U2C和Chinese2个Tab，让它们都可以支<br>持切换编码新增功能：从JS中查找URL路径后，<br>拼接BaseURL并请求其他小的更新、bug修复## <br>What's Changed* Bump gson from 2.3.1 to <br>2.8.9 by @dependabot in https://github.c<br>om/bit4woo/knife/pull/45* Bump commons-t<br>ext from 1.6 to 1.10.0 by @dependabot in<br> https://github.com/bit4woo/knife/pull/5<br>3## New Contributors* @dependabot made t<br>heir first contribution in https://githu<br>b.com/bit4woo/knife/pull/45**Full Change<br>log**: https://github.com/bit4woo/knife/<br>compare/v2.0...v2.1|
@@ -21,12 +21,13 @@
 ## 近30天commit提交记录
 | 提交时间 | 项目名称 | 更新内容 |
 | :---- | :---- | :---- |
-|2022-12-15 01:00:17|[NucleiTP](https://github.com/ExpLangcn/NucleiTP)|更新啦❤️|
-|2022-12-14 21:06:38|[RsaCtfTool](https://github.com/RsaCtfTool/RsaCtfTool)|Simplify factordb attack, fix issue #369|
-|2022-12-14 20:46:33|[PocOrExp_in_Github](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2022-12-15 04:46:33|
+|2022-12-16 01:00:18|[NucleiTP](https://github.com/ExpLangcn/NucleiTP)|更新啦❤️|
+|2022-12-15 21:30:01|[RsaCtfTool](https://github.com/RsaCtfTool/RsaCtfTool)|faster is_cube function|
+|2022-12-15 20:42:41|[PocOrExp_in_Github](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2022-12-16 04:42:41|
+|2022-12-15 11:55:36|[super-xray](https://github.com/4ra1n/super-xray)|readme|
+|2022-12-15 09:39:22|[afrog](https://github.com/zan8in/afrog)|update readme|
 |2022-12-14 14:33:59|[poc-hub](https://github.com/ybdt/poc-hub)|整理|
 |2022-12-14 12:09:50|[feroxbuster](https://github.com/epi052/feroxbuster)|Merge pull request #734 from epi052/all-contributors/a<br>dd-kmancdocs: add kmanc as a contributor for bug, and c<br>ode|
-|2022-12-14 06:15:49|[afrog](https://github.com/zan8in/afrog)|add contribution|
 |2022-12-14 05:55:42|[vulnerability](https://github.com/lal0ne/vulnerability)|CVE-2022-46169|
 |2022-12-14 03:27:29|[captcha-killer-modi<br>fied](https://github.com/f0ng/captcha-killer-modified)|Update FAQ.md|
 |2022-12-13 07:14:54|[Library-POC](https://github.com/luck-ying/Library-POC)|Update README.md|
@@ -51,7 +52,6 @@
 |2022-12-01 14:41:27|[BurpSuite-collectio<br>ns](https://github.com/Mr-xn/BurpSuite-collections)|add passive-scan-client 维护分支|
 |2022-12-01 07:55:41|[RequestTemplate](https://github.com/1n7erface/RequestTemplate)|Update README.md|
 |2022-11-30 19:12:19|[faker](https://github.com/joke2k/faker)|Bump version: 15.3.3 → 15.3.4|
-|2022-11-30 10:02:30|[super-xray](https://github.com/4ra1n/super-xray)|bug fix|
 |2022-11-29 10:47:06|[QingTing](https://github.com/StarCrossPortal/QingTing)|蜻蜓v2|
 |2022-11-29 02:41:57|[aksk_tool](https://github.com/wyzxxz/aksk_tool)|Update README.md|
 |2022-11-27 13:26:17|[Threathunting-book](https://github.com/12306Bro/Threathunting-book)|Update README.md|
@@ -63,11 +63,7 @@
 |2022-11-17 14:37:23|[subfinder](https://github.com/projectdiscovery/subfinder)|Merge pull request #712 from projectdiscovery/devv2.5.<br>5|
 |2022-11-17 14:27:09|[wpscan](https://github.com/wpscanteam/wpscan)|Merge pull request #1756 from wpscanteam/dependabot/bu<br>ndler/rspec-tw-3.12.0Update rspec requirement from ~> 3<br>.11.0 to ~> 3.12.0|
 |2022-11-16 09:05:15|[SwitchyOmega](https://github.com/FelisCatus/SwitchyOmega)|Added translation using Weblate (Chinese (Literary))|
-|2022-11-16 03:49:31|[RouteVulScan](https://github.com/F6JO/RouteVulScan)|Update README.md|
-|2022-11-15 11:01:06|[Scanners-Box](https://github.com/We5ter/Scanners-Box)|[+]anouarbensaad/vulnx|
-|2022-11-15 09:05:50|[AttackTomcat](https://github.com/tpt11fb/AttackTomcat)|Create README.md|
-|2022-11-15 05:41:53|[autoDecoder](https://github.com/f0ng/autoDecoder)|Update README.md|
-|2022-11-15 01:57:05|[Some-PoC-oR-ExP](https://github.com/coffeehb/Some-PoC-oR-ExP)|Update poc.txt|## 所有项目
+|2022-11-16 03:49:31|[RouteVulScan](https://github.com/F6JO/RouteVulScan)|Update README.md|## 所有项目
 ### 信息收集
 #### 资产测绘采集
 | 项目名称 | 版本 | 项目描述 |
@@ -318,7 +314,7 @@
 | :---- | :---- | :---- |
 | [yarx](https://github.com/zema1/yarx) | v0.2.0 | An awesome reverse engine for xray poc. | 一个自动化根据 xray po<br>c 生成对应 server 的工具 |
 | [xray-poc-generation](https://github.com/phith0n/xray-poc-generation) |  | 🧬 辅助生成 XRay YAML POC |
-| [super-xray](https://github.com/4ra1n/super-xray) | 0.8 | XRAY GUI Starter (Web Vulnerability Scanner) |
+| [super-xray](https://github.com/4ra1n/super-xray) | 0.9 | XRAY GUI Starter (Web Vulnerability Scanner) |
 #### pocsuite3
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |

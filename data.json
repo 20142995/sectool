@@ -299,8 +299,8 @@
             "https://github.com/zan8in/afrog": {
                 "created_at": "2022-02-24 06:00:32",
                 "description": "afrog 是一款性能卓越、快速稳定、PoC 可定制化的漏洞扫描工具 - A tool for finding vulnerabilities",
-                "commit_date": "2022-12-14 06:15:49",
-                "commit_message": "add contribution",
+                "commit_date": "2022-12-15 09:39:22",
+                "commit_message": "update readme",
                 "release_tag": "v2.1.0",
                 "release_date": "2022-12-12 01:09:42",
                 "release_message": "- 新增 -update  将 afrog 引擎更新到最新发布的版本\r\n- 新增 -proxy  使用 http/socks5 代理列表（逗号分隔或文件输入）\r\n- 新增 -rate-limit、concurrency、fingerprint-concurrency、max-host-error、retries、timeout 等参数\r\n- 修复 html 报告（返回多个请求记录）URL 不准确的 BUG\r\n- 优化 banner 展示界面（模仿 nuclei）\r\n- 屏蔽 GoPoc 功能（暂时）"
@@ -1073,8 +1073,8 @@
             "https://github.com/ycdxsb/PocOrExp_in_Github": {
                 "created_at": "2021-04-13 05:46:16",
                 "description": "聚合Github上已有的Poc或者Exp，CVE信息来自CVE官网。Auto Collect Poc Or Exp from Github by CVE ID.",
-                "commit_date": "2022-12-14 20:46:33",
-                "commit_message": "update 2022-12-15 04:46:33",
+                "commit_date": "2022-12-15 20:42:41",
+                "commit_message": "update 2022-12-16 04:42:41",
                 "release_tag": null,
                 "release_date": "",
                 "release_message": null
@@ -1588,11 +1588,11 @@
             "https://github.com/4ra1n/super-xray": {
                 "created_at": "2022-11-18 14:52:09",
                 "description": "XRAY GUI Starter (Web Vulnerability Scanner)",
-                "commit_date": "2022-11-30 10:02:30",
-                "commit_message": "bug fix",
-                "release_tag": "0.8",
-                "release_date": "2022-11-28 13:28:57",
-                "release_message": "## 0.8\r\n\r\n重要功能更新：可以与`rad`联动；可以为独立反连平台导出配置文件（具体教程参考B站新视频）\r\n\r\n重要`bug`说明：\r\n\r\n之前版本有反馈说CPU消耗过高，是因为之前没有停止的逻辑，意味着每运行一次新任务开两个新线程，一个执行一个监视。\r\n当执行线程结束，监视线程不会停止，任务过多时导致CPU消耗极高。虽然之前版本可以通过点击强制停止使所有监视线程停下，解决问题。\r\n但这种情况需要得到一个合理的解决，这个版本中，主动扫描也有停止扫描的按钮。 \r\n另外xray团队新增了一个在线生成yaml poc的网站，加了一个直接到达该网站的按钮，配合poc模块的加载本地poc功能比较舒服。\r\n最后一个bug是当xray和super-xray在同一个路径的时候，无法保存config.yaml，因此不能加载上次的配置。\r\n\r\nBugs:\r\n- [important] [公告] CPU消耗过高问题的解决 #69\r\n- [important] 当xray和super-xray同目录时不能保存配置 #68\r\n- [bug] 查看所有poc界面使用新字体后可能有意外行为 #70\r\n\r\nOthers:\r\n- [new feature] 添加rad爬虫联动 #22\r\n- 为反连平台添加导出配置文件的功能 #59\r\n- 控制台使用更好看的字体 #67\r\n- 加入跳转在线生成poc的按钮 #66\r\n\r\nDownload:\r\n- super-xray-0.8.jar：普通的Jar包，使用`java -jar`启动\r\n- super-xray-0.8-jre-exe.zip：内置JRE的EXE版本，适用于没有安装Java的情况\r\n- super-xray-0.8-system-jre.exe：使用系统JRE的EXE版本，适用于已有Java环境的情况"
+                "commit_date": "2022-12-15 11:55:36",
+                "commit_message": "readme",
+                "release_tag": "0.9",
+                "release_date": "2022-12-15 11:47:23",
+                "release_message": "## 0.9\r\n\r\n一个`bug`修复版本，目前功能基本完善\r\n\r\nBugs:\r\n- [important] [bug] showMessageDialog多屏情况下的位置问题 #76\r\n- [important] [bug] 反连平台应该自动配置client属性否则会失效 #72\r\n- [important] [bug] 当reverse配置为空但确认配置后无法正常启动 #71\r\n- [bug] 高级配置的某个ui绑定错误 #79\r\n- [bug] 在线生成的翻译问题 #75 (另外修复多处翻译问题)\r\n\r\nOthers:\r\n- [feat] 不输入端口情况下不应该允许开启被动扫描 #77\r\n- 构建的System JRE EXE应该对JRE版本进行限制 #73\r\n- 打开扫描结果为空时应该给一个提示 #78\r\n- 添加一个按钮允许用户清除PoC的设置 #80"
             }
         },
         "pocsuite3": {
@@ -1708,7 +1708,7 @@
             "https://github.com/ExpLangcn/NucleiTP": {
                 "created_at": "2022-11-08 13:16:56",
                 "description": "自动整合全网Nuclei的漏洞POC，实时同步更新最新POC！",
-                "commit_date": "2022-12-15 01:00:17",
+                "commit_date": "2022-12-16 01:00:18",
                 "commit_message": "更新啦❤️",
                 "release_tag": null,
                 "release_date": "",
@@ -1920,8 +1920,8 @@
             "https://github.com/RsaCtfTool/RsaCtfTool": {
                 "created_at": "2015-03-07 17:29:33",
                 "description": "RSA attack tool (mainly for ctf) - retreive private key from weak public key and/or uncipher data",
-                "commit_date": "2022-12-14 21:06:38",
-                "commit_message": "Simplify factordb attack, fix issue #369",
+                "commit_date": "2022-12-15 21:30:01",
+                "commit_message": "faster is_cube function",
                 "release_tag": null,
                 "release_date": "",
                 "release_message": null
