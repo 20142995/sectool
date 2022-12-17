@@ -1,4 +1,4 @@
-# 更新于 2022-12-16 09:01:15
+# 更新于 2022-12-17 08:59:43
 
 ## 近30天release更新记录
 | 更新时间 | 项目名称 | 版本 | 更新内容 |
@@ -17,15 +17,14 @@
 |2022-11-20 09:04:40|[knife](https://github.com/bit4woo/knife)|v2.1|融合U2C和Chinese2个Tab，让它们都可以支<br>持切换编码新增功能：从JS中查找URL路径后，<br>拼接BaseURL并请求其他小的更新、bug修复## <br>What's Changed* Bump gson from 2.3.1 to <br>2.8.9 by @dependabot in https://github.c<br>om/bit4woo/knife/pull/45* Bump commons-t<br>ext from 1.6 to 1.10.0 by @dependabot in<br> https://github.com/bit4woo/knife/pull/5<br>3## New Contributors* @dependabot made t<br>heir first contribution in https://githu<br>b.com/bit4woo/knife/pull/45**Full Change<br>log**: https://github.com/bit4woo/knife/<br>compare/v2.0...v2.1|
 |2022-11-18 09:37:35|[domain_hunter_pro](https://github.com/bit4woo/domain_hunter_pro)|v1.9-alph<br>a|**这是重构版本，与旧版本不兼容！！！这<br>是重构版本，与旧版本不兼容！！！这是重构<br>版本，与旧版本不兼容！！！**重新设计了数<br>据库的表结构，尽量提升数据库读写效率重新<br>设计了数据对象、UI、数据库之间的数据同步<br>逻辑重新设计了数据存储的基础类，保证线程<br>安全重新设计了table中model类的部分逻辑，<br>减少内存占用优化了数据对象的字段，尽量减<br>小每个数据对象的内存占用优化了数据提取的<br>正则表达式和逻辑优化了根域名、网段作控制<br>目标范围的逻辑优化了当根域名、网段变化时<br>，数据的刷新逻辑优化了数据数据加载逻辑其<br>他各种逻辑优化、bug修改总之就是大动作，和<br>旧版本不兼容，可能存在潜在bug（虽然我已经<br>试用一段时间，排除了很多bug），所以发布一<br>个alpha版本在正式版本之前。欢迎试用提交bu<br>g，使用时建议创建新的项目数据库，不要使<br>用旧数据库文件。|
 |2022-11-17 14:52:04|[subfinder](https://github.com/projectdiscovery/subfinder)|v2.5.5|## What's Changed* Added hunter source <br>by @Mzack9999 in https://github.com/proj<br>ectdiscovery/subfinder/pull/680* Added r<br>econ.cloud source by @Mzack9999 in https<br>://github.com/projectdiscovery/subfinder<br>/pull/679* Added the library usage examp<br>le by @forgedhallpass in https://github.<br>com/projectdiscovery/subfinder/pull/693*<br> Added callback function by @ShubhamRasa<br>l in https://github.com/projectdiscovery<br>/subfinder/pull/699* Added dynamic year <br>ranges for commoncrawl by @vzamanillo in<br> https://github.com/projectdiscovery/sub<br>finder/pull/687* Fixed crtsh email value<br>s by @vzamanillo in https://github.com/p<br>rojectdiscovery/subfinder/pull/676* Fixe<br>d source tests, added crtsh with recursi<br>on by @vzamanillo in https://github.com/<br>projectdiscovery/subfinder/pull/702* Fix<br>ed Segfault crash by @r0nk in https://gi<br>thub.com/projectdiscovery/subfinder/pull<br>/672* Removed sonar source by @vzamanill<br>o in https://github.com/projectdiscovery<br>/subfinder/pull/701## New Contributors* <br>@r0nk made their first contribution in h<br>ttps://github.com/projectdiscovery/subfi<br>nder/pull/672* @ShubhamRasal made their <br>first contribution in https://github.com<br>/projectdiscovery/subfinder/pull/699**Fu<br>ll Changelog**: https://github.com/proje<br>ctdiscovery/subfinder/compare/v2.5.4...v<br>2.5.5|
-|2022-11-16 22:53:24|[feroxbuster](https://github.com/epi052/feroxbuster)|v2.7.2|## What's Changed* removed superfluous <br>if statement by @herrcykel in https://gi<br>thub.com/epi052/feroxbuster/pull/580* up<br>graded leaky-bucket to 0.12.1 by @udopro<br>g in https://github.com/epi052/feroxbust<br>er/pull/604* updated dependencies by @ep<br>i052 in https://github.com/epi052/feroxb<br>uster/pull/670* upgraded clap from 3.x t<br>o 4.x by @epi052 in https://github.com/e<br>pi052/feroxbuster/pull/671* 661 fix doub<br>le dir scan by @epi052 in https://github<br>.com/epi052/feroxbuster/pull/672* fixed <br>invalid uri exception during extraction <br>by @epi052 in https://github.com/epi052/<br>feroxbuster/pull/706## New Contributors*<br> @herrcykel made their first contributio<br>n in https://github.com/epi052/feroxbust<br>er/pull/580* @udoprog made their first c<br>ontribution in https://github.com/epi052<br>/feroxbuster/pull/604**Full Changelog**:<br> https://github.com/epi052/feroxbuster/c<br>ompare/2.7.1...v2.7.2|
 ## 近30天commit提交记录
 | 提交时间 | 项目名称 | 更新内容 |
 | :---- | :---- | :---- |
-|2022-12-16 01:00:18|[NucleiTP](https://github.com/ExpLangcn/NucleiTP)|更新啦❤️|
+|2022-12-17 00:30:20|[NucleiTP](https://github.com/ExpLangcn/NucleiTP)|更新啦❤️|
+|2022-12-16 20:41:52|[PocOrExp_in_Github](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2022-12-17 04:41:52|
+|2022-12-16 16:59:06|[super-xray](https://github.com/4ra1n/super-xray)|readme|
+|2022-12-16 07:32:09|[afrog](https://github.com/zan8in/afrog)|update errors info|
 |2022-12-15 21:30:01|[RsaCtfTool](https://github.com/RsaCtfTool/RsaCtfTool)|faster is_cube function|
-|2022-12-15 20:42:41|[PocOrExp_in_Github](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2022-12-16 04:42:41|
-|2022-12-15 11:55:36|[super-xray](https://github.com/4ra1n/super-xray)|readme|
-|2022-12-15 09:39:22|[afrog](https://github.com/zan8in/afrog)|update readme|
 |2022-12-14 14:33:59|[poc-hub](https://github.com/ybdt/poc-hub)|整理|
 |2022-12-14 12:09:50|[feroxbuster](https://github.com/epi052/feroxbuster)|Merge pull request #734 from epi052/all-contributors/a<br>dd-kmancdocs: add kmanc as a contributor for bug, and c<br>ode|
 |2022-12-14 05:55:42|[vulnerability](https://github.com/lal0ne/vulnerability)|CVE-2022-46169|
@@ -61,9 +60,7 @@
 |2022-11-20 10:24:53|[domain_hunter_pro](https://github.com/bit4woo/domain_hunter_pro)|Update DomainManager.javaCopyOnWriteArraySet 用iterato<br>r的remove反而会出错|
 |2022-11-18 14:26:29|[http-request-smuggl<br>er](https://github.com/portswigger/http-request-smuggler)|BApp Store update|
 |2022-11-17 14:37:23|[subfinder](https://github.com/projectdiscovery/subfinder)|Merge pull request #712 from projectdiscovery/devv2.5.<br>5|
-|2022-11-17 14:27:09|[wpscan](https://github.com/wpscanteam/wpscan)|Merge pull request #1756 from wpscanteam/dependabot/bu<br>ndler/rspec-tw-3.12.0Update rspec requirement from ~> 3<br>.11.0 to ~> 3.12.0|
-|2022-11-16 09:05:15|[SwitchyOmega](https://github.com/FelisCatus/SwitchyOmega)|Added translation using Weblate (Chinese (Literary))|
-|2022-11-16 03:49:31|[RouteVulScan](https://github.com/F6JO/RouteVulScan)|Update README.md|## 所有项目
+|2022-11-17 14:27:09|[wpscan](https://github.com/wpscanteam/wpscan)|Merge pull request #1756 from wpscanteam/dependabot/bu<br>ndler/rspec-tw-3.12.0Update rspec requirement from ~> 3<br>.11.0 to ~> 3.12.0|## 所有项目
 ### 信息收集
 #### 资产测绘采集
 | 项目名称 | 版本 | 项目描述 |

@@ -299,8 +299,8 @@
             "https://github.com/zan8in/afrog": {
                 "created_at": "2022-02-24 06:00:32",
                 "description": "afrog 是一款性能卓越、快速稳定、PoC 可定制化的漏洞扫描工具 - A tool for finding vulnerabilities",
-                "commit_date": "2022-12-15 09:39:22",
-                "commit_message": "update readme",
+                "commit_date": "2022-12-16 07:32:09",
+                "commit_message": "update errors info",
                 "release_tag": "v2.1.0",
                 "release_date": "2022-12-12 01:09:42",
                 "release_message": "- 新增 -update  将 afrog 引擎更新到最新发布的版本\r\n- 新增 -proxy  使用 http/socks5 代理列表（逗号分隔或文件输入）\r\n- 新增 -rate-limit、concurrency、fingerprint-concurrency、max-host-error、retries、timeout 等参数\r\n- 修复 html 报告（返回多个请求记录）URL 不准确的 BUG\r\n- 优化 banner 展示界面（模仿 nuclei）\r\n- 屏蔽 GoPoc 功能（暂时）"
@@ -1073,8 +1073,8 @@
             "https://github.com/ycdxsb/PocOrExp_in_Github": {
                 "created_at": "2021-04-13 05:46:16",
                 "description": "聚合Github上已有的Poc或者Exp，CVE信息来自CVE官网。Auto Collect Poc Or Exp from Github by CVE ID.",
-                "commit_date": "2022-12-15 20:42:41",
-                "commit_message": "update 2022-12-16 04:42:41",
+                "commit_date": "2022-12-16 20:41:52",
+                "commit_message": "update 2022-12-17 04:41:52",
                 "release_tag": null,
                 "release_date": "",
                 "release_message": null
@@ -1588,7 +1588,7 @@
             "https://github.com/4ra1n/super-xray": {
                 "created_at": "2022-11-18 14:52:09",
                 "description": "XRAY GUI Starter (Web Vulnerability Scanner)",
-                "commit_date": "2022-12-15 11:55:36",
+                "commit_date": "2022-12-16 16:59:06",
                 "commit_message": "readme",
                 "release_tag": "0.9",
                 "release_date": "2022-12-15 11:47:23",
@@ -1708,7 +1708,7 @@
             "https://github.com/ExpLangcn/NucleiTP": {
                 "created_at": "2022-11-08 13:16:56",
                 "description": "自动整合全网Nuclei的漏洞POC，实时同步更新最新POC！",
-                "commit_date": "2022-12-16 01:00:18",
+                "commit_date": "2022-12-17 00:30:20",
                 "commit_message": "更新啦❤️",
                 "release_tag": null,
                 "release_date": "",
