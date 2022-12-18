@@ -178,11 +178,12 @@ def chr_len2(s):
 
 
 def parse(x, y):
-    x = re.sub(r'<[^>]+>', '', x if x else '')
+    x = x if x else ''
+    x = re.sub(r'<[^>]+>', '', x)
     x = x.replace('`','')
     s = ''
     n = 0
-    for i in re.sub('\s{2,}', '', x if x else ''):
+    for i in re.sub('\s{2,}', '', x):
         n += chr_len2(i)
         if n >= y:
             s += '<br>'
