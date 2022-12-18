@@ -294,7 +294,7 @@
                 "commit_message": "Merge pull request #3021 from projectdiscovery/dev\n\nBugfix release",
                 "release_tag": "v2.8.3",
                 "release_date": "2022-12-11 13:04:41",
-                "release_message": "## What's Changed\r\n\r\n## What's Changed\r\n\r\n* Fixed bug to consider clustering with automatic http probing by @Ice3man543 in https://github.com/projectdiscovery/nuclei/pull/3019\r\n* Fixed bug to remove blank protocol name by @vzamanillo in https://github.com/projectdiscovery/nuclei/pull/2993\r\n* Added option to disable request clustering by @Ice3man543in https://github.com/projectdiscovery/nuclei/pull/3019\r\n* Added custom ip to protocol-generated variables by @Mzack9999 in https://github.com/projectdiscovery/nuclei/pull/3011\r\n\r\n\r\n**Full Changelog**: https://github.com/projectdiscovery/nuclei/compare/v2.8.2...v2.8.3"
+                "release_message": "## What's Changed\r\n\r\n* Fixed bug to consider clustering with automatic http probing by @Ice3man543 in https://github.com/projectdiscovery/nuclei/pull/3019\r\n* Fixed bug to remove blank protocol name by @vzamanillo in https://github.com/projectdiscovery/nuclei/pull/2993\r\n* Added option to disable request clustering by @Ice3man543in https://github.com/projectdiscovery/nuclei/pull/3019\r\n* Added custom ip to protocol-generated variables by @Mzack9999 in https://github.com/projectdiscovery/nuclei/pull/3011\r\n\r\n\r\n**Full Changelog**: https://github.com/projectdiscovery/nuclei/compare/v2.8.2...v2.8.3"
             },
             "https://github.com/zan8in/afrog": {
                 "created_at": "2022-02-24 06:00:32",
@@ -992,8 +992,8 @@
             "https://github.com/ybdt/poc-hub": {
                 "created_at": "2020-09-03 04:47:40",
                 "description": "漏洞复现、漏洞检测",
-                "commit_date": "2022-12-14 14:33:59",
-                "commit_message": "整理",
+                "commit_date": "2022-12-17 09:57:34",
+                "commit_message": "Update .gitignore",
                 "release_tag": null,
                 "release_date": "",
                 "release_message": null
@@ -1073,8 +1073,8 @@
             "https://github.com/ycdxsb/PocOrExp_in_Github": {
                 "created_at": "2021-04-13 05:46:16",
                 "description": "聚合Github上已有的Poc或者Exp，CVE信息来自CVE官网。Auto Collect Poc Or Exp from Github by CVE ID.",
-                "commit_date": "2022-12-16 20:41:52",
-                "commit_message": "update 2022-12-17 04:41:52",
+                "commit_date": "2022-12-17 20:44:20",
+                "commit_message": "update 2022-12-18 04:44:20",
                 "release_tag": null,
                 "release_date": "",
                 "release_message": null
@@ -1708,7 +1708,7 @@
             "https://github.com/ExpLangcn/NucleiTP": {
                 "created_at": "2022-11-08 13:16:56",
                 "description": "自动整合全网Nuclei的漏洞POC，实时同步更新最新POC！",
-                "commit_date": "2022-12-17 00:30:20",
+                "commit_date": "2022-12-18 01:00:20",
                 "commit_message": "更新啦❤️",
                 "release_tag": null,
                 "release_date": "",

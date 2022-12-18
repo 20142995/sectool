@@ -1,4 +1,4 @@
-# 更新于 2022-12-17 08:59:43
+# 更新于 2022-12-18 09:02:04
 
 ## 近30天release更新记录
 | 更新时间 | 项目名称 | 版本 | 更新内容 |
@@ -7,7 +7,7 @@
 |2022-12-14 01:54:06|[captcha-killer-modi<br>fied](https://github.com/f0ng/captcha-killer-modified)|0.19|【2022-12-14】 0.191. 增加URL解码、过滤<br>图片编码中的`.`，#20 感谢@yinanzhaobaima <br>师傅反馈<img width="747" alt="image" src=<br>"https://user-images.githubusercontent.c<br>om/48286013/207485085-4ed8ac8d-55c7-4df1<br>-81a2-c343277a2c16.png">|
 |2022-12-13 03:32:05|[pocsuite3](https://github.com/knownsec/pocsuite3)|v2.0.2|* 修复 _check 方法中 url 重定向的问题 #<br>337* 修复 console 模式下 use 命令使用绝<br>对路径的问题 #341，thanks @S2eTo* 修复 bu<br>ild_url 兼容 ipv6 的问题 #347，thanks @H<br>omerQing* 优化 nuclei DSL 表达式执行 #34<br>8----------------* fix url redirect prob<br>lem in _check method #337* fix use comma<br>nd in console mode can't use absolute pa<br>th #341, thanks @S2eTo* fix ipv6 compati<br>bility issue in build_url #347, thanks @<br>HomerQing* optimize dsl expression execu<br>tion #348|
 |2022-12-12 01:09:42|[afrog](https://github.com/zan8in/afrog)|v2.1.0|- 新增 -update将 afrog 引擎更新到最新发<br>布的版本- 新增 -proxy使用 http/socks5 代<br>理列表（逗号分隔或文件输入）- 新增 -rate-<br>limit、concurrency、fingerprint-concurre<br>ncy、max-host-error、retries、timeout 等<br>参数- 修复 html 报告（返回多个请求记录）U<br>RL 不准确的 BUG- 优化 banner 展示界面（<br>模仿 nuclei）- 屏蔽 GoPoc 功能（暂时）|
-|2022-12-11 13:04:41|[nuclei](https://github.com/projectdiscovery/nuclei)|v2.8.3|## What's Changed## What's Changed* Fix<br>ed bug to consider clustering with autom<br>atic http probing by @Ice3man543 in http<br>s://github.com/projectdiscovery/nuclei/p<br>ull/3019* Fixed bug to remove blank prot<br>ocol name by @vzamanillo in https://gith<br>ub.com/projectdiscovery/nuclei/pull/2993<br>* Added option to disable request cluste<br>ring by @Ice3man543in https://github.com<br>/projectdiscovery/nuclei/pull/3019* Adde<br>d custom ip to protocol-generated variab<br>les by @Mzack9999 in https://github.com/<br>projectdiscovery/nuclei/pull/3011**Full <br>Changelog**: https://github.com/projectd<br>iscovery/nuclei/compare/v2.8.2...v2.8.3|
+|2022-12-11 13:04:41|[nuclei](https://github.com/projectdiscovery/nuclei)|v2.8.3|## What's Changed* Fixed bug to conside<br>r clustering with automatic http probing<br> by @Ice3man543 in https://github.com/pr<br>ojectdiscovery/nuclei/pull/3019* Fixed b<br>ug to remove blank protocol name by @vza<br>manillo in https://github.com/projectdis<br>covery/nuclei/pull/2993* Added option to<br> disable request clustering by @Ice3man5<br>43in https://github.com/projectdiscovery<br>/nuclei/pull/3019* Added custom ip to pr<br>otocol-generated variables by @Mzack9999<br> in https://github.com/projectdiscovery/<br>nuclei/pull/3011**Full Changelog**: http<br>s://github.com/projectdiscovery/nuclei/c<br>ompare/v2.8.2...v2.8.3|
 |2022-12-09 01:31:39|[log4j2burpscanner](https://github.com/f0ng/log4j2burpscanner)|0.21.0|# 0.21.0 更新## 2022-12-91. 增加参数 `p<br>refixparam`前缀可控，可输入如`%84$`，造<br>成一些数据库组件解析错误，从而进行log4j2<br>的报错触发<img width="600" alt="image" sr<br>c="https://user-images.githubusercontent<br>.com/48286013/206602178-bb80c887-196d-4f<br>85-a065-44fc47130e8a.png">2. 增加自定义h<br>eader头获取响应结果请求(支持了dnslog.cn<br>等，但是dnslog.cn有PHPSESSID默认过期时间<br>，暂不推荐使用)，举例如 `privatednsRespon<br>seurl` 框内填入以下字段：```HEADERhttp:/<br>/dnslog.cn/getrecords.phpCookie:PHPSESSI<br>D=bmekedlvumo1e9onr6qsd1j2u6```<img widt<br>h="505" alt="image" src="https://user-im<br>ages.githubusercontent.com/48286013/2066<br>53492-77f5e9b1-7c56-49d6-8e5e-0263521e8a<br>d6.png">3. 修复`dnsparam`参数初始化问题<br>，感谢微信群@啊哈师傅反馈|
 |2022-12-02 08:08:53|[github-subdomains](https://github.com/gwen001/github-subdomains)|v1.2.0||
 |2022-11-30 19:12:53|[faker](https://github.com/joke2k/faker)|v15.3.4|See [CHANGELOG.md](https://github.com/j<br>oke2k/faker/blob/refs/tags/v15.3.4/CHANG<br>ELOG.md).|
@@ -16,16 +16,15 @@
 |2022-11-23 03:58:28|[BpScan](https://github.com/EASY233/BpScan)|1.0.0|1、修复log4j poc编码问题2、修复dnslog平<br>台请求错误的问题3、其他bug修复|
 |2022-11-20 09:04:40|[knife](https://github.com/bit4woo/knife)|v2.1|融合U2C和Chinese2个Tab，让它们都可以支<br>持切换编码新增功能：从JS中查找URL路径后，<br>拼接BaseURL并请求其他小的更新、bug修复## <br>What's Changed* Bump gson from 2.3.1 to <br>2.8.9 by @dependabot in https://github.c<br>om/bit4woo/knife/pull/45* Bump commons-t<br>ext from 1.6 to 1.10.0 by @dependabot in<br> https://github.com/bit4woo/knife/pull/5<br>3## New Contributors* @dependabot made t<br>heir first contribution in https://githu<br>b.com/bit4woo/knife/pull/45**Full Change<br>log**: https://github.com/bit4woo/knife/<br>compare/v2.0...v2.1|
 |2022-11-18 09:37:35|[domain_hunter_pro](https://github.com/bit4woo/domain_hunter_pro)|v1.9-alph<br>a|**这是重构版本，与旧版本不兼容！！！这<br>是重构版本，与旧版本不兼容！！！这是重构<br>版本，与旧版本不兼容！！！**重新设计了数<br>据库的表结构，尽量提升数据库读写效率重新<br>设计了数据对象、UI、数据库之间的数据同步<br>逻辑重新设计了数据存储的基础类，保证线程<br>安全重新设计了table中model类的部分逻辑，<br>减少内存占用优化了数据对象的字段，尽量减<br>小每个数据对象的内存占用优化了数据提取的<br>正则表达式和逻辑优化了根域名、网段作控制<br>目标范围的逻辑优化了当根域名、网段变化时<br>，数据的刷新逻辑优化了数据数据加载逻辑其<br>他各种逻辑优化、bug修改总之就是大动作，和<br>旧版本不兼容，可能存在潜在bug（虽然我已经<br>试用一段时间，排除了很多bug），所以发布一<br>个alpha版本在正式版本之前。欢迎试用提交bu<br>g，使用时建议创建新的项目数据库，不要使<br>用旧数据库文件。|
-|2022-11-17 14:52:04|[subfinder](https://github.com/projectdiscovery/subfinder)|v2.5.5|## What's Changed* Added hunter source <br>by @Mzack9999 in https://github.com/proj<br>ectdiscovery/subfinder/pull/680* Added r<br>econ.cloud source by @Mzack9999 in https<br>://github.com/projectdiscovery/subfinder<br>/pull/679* Added the library usage examp<br>le by @forgedhallpass in https://github.<br>com/projectdiscovery/subfinder/pull/693*<br> Added callback function by @ShubhamRasa<br>l in https://github.com/projectdiscovery<br>/subfinder/pull/699* Added dynamic year <br>ranges for commoncrawl by @vzamanillo in<br> https://github.com/projectdiscovery/sub<br>finder/pull/687* Fixed crtsh email value<br>s by @vzamanillo in https://github.com/p<br>rojectdiscovery/subfinder/pull/676* Fixe<br>d source tests, added crtsh with recursi<br>on by @vzamanillo in https://github.com/<br>projectdiscovery/subfinder/pull/702* Fix<br>ed Segfault crash by @r0nk in https://gi<br>thub.com/projectdiscovery/subfinder/pull<br>/672* Removed sonar source by @vzamanill<br>o in https://github.com/projectdiscovery<br>/subfinder/pull/701## New Contributors* <br>@r0nk made their first contribution in h<br>ttps://github.com/projectdiscovery/subfi<br>nder/pull/672* @ShubhamRasal made their <br>first contribution in https://github.com<br>/projectdiscovery/subfinder/pull/699**Fu<br>ll Changelog**: https://github.com/proje<br>ctdiscovery/subfinder/compare/v2.5.4...v<br>2.5.5|
 ## 近30天commit提交记录
 | 提交时间 | 项目名称 | 更新内容 |
 | :---- | :---- | :---- |
-|2022-12-17 00:30:20|[NucleiTP](https://github.com/ExpLangcn/NucleiTP)|更新啦❤️|
-|2022-12-16 20:41:52|[PocOrExp_in_Github](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2022-12-17 04:41:52|
+|2022-12-18 01:00:20|[NucleiTP](https://github.com/ExpLangcn/NucleiTP)|更新啦❤️|
+|2022-12-17 20:44:20|[PocOrExp_in_Github](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2022-12-18 04:44:20|
+|2022-12-17 09:57:34|[poc-hub](https://github.com/ybdt/poc-hub)|Update .gitignore|
 |2022-12-16 16:59:06|[super-xray](https://github.com/4ra1n/super-xray)|readme|
 |2022-12-16 07:32:09|[afrog](https://github.com/zan8in/afrog)|update errors info|
 |2022-12-15 21:30:01|[RsaCtfTool](https://github.com/RsaCtfTool/RsaCtfTool)|faster is_cube function|
-|2022-12-14 14:33:59|[poc-hub](https://github.com/ybdt/poc-hub)|整理|
 |2022-12-14 12:09:50|[feroxbuster](https://github.com/epi052/feroxbuster)|Merge pull request #734 from epi052/all-contributors/a<br>dd-kmancdocs: add kmanc as a contributor for bug, and c<br>ode|
 |2022-12-14 05:55:42|[vulnerability](https://github.com/lal0ne/vulnerability)|CVE-2022-46169|
 |2022-12-14 03:27:29|[captcha-killer-modi<br>fied](https://github.com/f0ng/captcha-killer-modified)|Update FAQ.md|
@@ -58,9 +57,7 @@
 |2022-11-25 11:42:34|[BpScan](https://github.com/EASY233/BpScan)|update|
 |2022-11-22 03:32:13|[Intranet_Penetratio<br>n_Tips](https://github.com/Ridter/Intranet_Penetration_Tips)|Merge pull request #12 from we1h0/patch-2fix url|
 |2022-11-20 10:24:53|[domain_hunter_pro](https://github.com/bit4woo/domain_hunter_pro)|Update DomainManager.javaCopyOnWriteArraySet 用iterato<br>r的remove反而会出错|
-|2022-11-18 14:26:29|[http-request-smuggl<br>er](https://github.com/portswigger/http-request-smuggler)|BApp Store update|
-|2022-11-17 14:37:23|[subfinder](https://github.com/projectdiscovery/subfinder)|Merge pull request #712 from projectdiscovery/devv2.5.<br>5|
-|2022-11-17 14:27:09|[wpscan](https://github.com/wpscanteam/wpscan)|Merge pull request #1756 from wpscanteam/dependabot/bu<br>ndler/rspec-tw-3.12.0Update rspec requirement from ~> 3<br>.11.0 to ~> 3.12.0|## 所有项目
+|2022-11-18 14:26:29|[http-request-smuggl<br>er](https://github.com/portswigger/http-request-smuggler)|BApp Store update|## 所有项目
 ### 信息收集
 #### 资产测绘采集
 | 项目名称 | 版本 | 项目描述 |
