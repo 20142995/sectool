@@ -178,7 +178,8 @@ def chr_len2(s):
 
 
 def parse(x, y):
-    x = re.sub(r'<[^>]+>', '', x)
+    x = re.sub(r'<[^>]+>', '', x if x else '')
+    x = x.replace('`','')
     s = ''
     n = 0
     for i in re.sub('\s{2,}', '', x if x else ''):
