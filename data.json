@@ -1073,8 +1073,8 @@
             "https://github.com/ycdxsb/PocOrExp_in_Github": {
                 "created_at": "2021-04-13 05:46:16",
                 "description": "聚合Github上已有的Poc或者Exp，CVE信息来自CVE官网。Auto Collect Poc Or Exp from Github by CVE ID.",
-                "commit_date": "2022-12-17 20:44:20",
-                "commit_message": "update 2022-12-18 04:44:20",
+                "commit_date": "2022-12-18 21:43:54",
+                "commit_message": "update 2022-12-19 05:43:54",
                 "release_tag": null,
                 "release_date": "",
                 "release_message": null
@@ -1256,7 +1256,7 @@
             "https://github.com/12306Bro/Threathunting-book": {
                 "created_at": "2019-07-10 08:44:30",
                 "description": "Threat hunting Web Windows AD linux ATT&CK TTPs",
-                "commit_date": "2022-11-27 13:26:17",
+                "commit_date": "2022-12-18 06:06:34",
                 "commit_message": "Update README.md",
                 "release_tag": null,
                 "release_date": "",
@@ -1388,11 +1388,11 @@
             "https://github.com/gh0stkey/HaE": {
                 "created_at": "2020-03-24 10:12:50",
                 "description": "HaE - Highlighter and Extractor, 赋能白帽 高效作战",
-                "commit_date": "2022-09-26 10:49:35",
-                "commit_message": "Version: 2.4.4 Update",
-                "release_tag": "2.4.4",
-                "release_date": "2022-09-26 10:55:31",
-                "release_message": "HaE 2.4.4 更新内容：\r\n\r\n1. 修复Databoard数据聚合查询面板相似域名匹配出错BUG。"
+                "commit_date": "2022-12-18 08:12:16",
+                "commit_message": "Version: 2.4.5 Update",
+                "release_tag": "2.4.5",
+                "release_date": "2022-12-18 08:14:24",
+                "release_message": "HaE 2.4.5 更新内容：\r\n1. 在线更新配置信息功能添加提示框，防止用户误触导致配置被更新：#91；\r\n2. 数据聚合查询面板添加支持通配符域名查找：#88；\r\n3. 数据聚合查询面板添加清空数据功能，便于用户查看最新数据；\r\n4. 新增规则作用域：`any header`（请求与响应头）、`any body`（请求与响应主体）。"
             },
             "https://github.com/bit4woo/domain_hunter_pro": {
                 "created_at": "2019-01-18 07:15:15",
@@ -1588,8 +1588,8 @@
             "https://github.com/4ra1n/super-xray": {
                 "created_at": "2022-11-18 14:52:09",
                 "description": "XRAY GUI Starter (Web Vulnerability Scanner)",
-                "commit_date": "2022-12-16 16:59:06",
-                "commit_message": "readme",
+                "commit_date": "2022-12-18 09:05:18",
+                "commit_message": "english bug",
                 "release_tag": "0.9",
                 "release_date": "2022-12-15 11:47:23",
                 "release_message": "## 0.9\r\n\r\n一个`bug`修复版本，目前功能基本完善\r\n\r\nBugs:\r\n- [important] [bug] showMessageDialog多屏情况下的位置问题 #76\r\n- [important] [bug] 反连平台应该自动配置client属性否则会失效 #72\r\n- [important] [bug] 当reverse配置为空但确认配置后无法正常启动 #71\r\n- [bug] 高级配置的某个ui绑定错误 #79\r\n- [bug] 在线生成的翻译问题 #75 (另外修复多处翻译问题)\r\n\r\nOthers:\r\n- [feat] 不输入端口情况下不应该允许开启被动扫描 #77\r\n- 构建的System JRE EXE应该对JRE版本进行限制 #73\r\n- 打开扫描结果为空时应该给一个提示 #78\r\n- 添加一个按钮允许用户清除PoC的设置 #80"
@@ -1708,7 +1708,7 @@
             "https://github.com/ExpLangcn/NucleiTP": {
                 "created_at": "2022-11-08 13:16:56",
                 "description": "自动整合全网Nuclei的漏洞POC，实时同步更新最新POC！",
-                "commit_date": "2022-12-18 01:00:20",
+                "commit_date": "2022-12-19 00:30:19",
                 "commit_message": "更新啦❤️",
                 "release_tag": null,
                 "release_date": "",

@@ -1,28 +1,30 @@
-# 更新于 2022-12-18 09:02:04
+# 更新于 2022-12-19 09:00:43
 
 ## 近30天release更新记录
 | 更新时间 | 项目名称 | 版本 | 更新内容 |
 | :---- | :---- | :---- | :---- |
-|2022-12-15 11:47:23|[super-xray](https://github.com/4ra1n/super-xray)|0.9|## 0.9一个`bug`修复版本，目前功能基本完<br>善Bugs:- [important] [bug] showMessageDia<br>log多屏情况下的位置问题 #76- [important]<br> [bug] 反连平台应该自动配置client属性否<br>则会失效 #72- [important] [bug] 当reverse<br>配置为空但确认配置后无法正常启动 #71- [bu<br>g] 高级配置的某个ui绑定错误 #79- [bug] <br>在线生成的翻译问题 #75 (另外修复多处翻译<br>问题)Others:- [feat] 不输入端口情况下不应<br>该允许开启被动扫描 #77- 构建的System JRE <br>EXE应该对JRE版本进行限制 #73- 打开扫描结<br>果为空时应该给一个提示 #78- 添加一个按钮<br>允许用户清除PoC的设置 #80|
-|2022-12-14 01:54:06|[captcha-killer-modi<br>fied](https://github.com/f0ng/captcha-killer-modified)|0.19|【2022-12-14】 0.191. 增加URL解码、过滤<br>图片编码中的`.`，#20 感谢@yinanzhaobaima <br>师傅反馈<img width="747" alt="image" src=<br>"https://user-images.githubusercontent.c<br>om/48286013/207485085-4ed8ac8d-55c7-4df1<br>-81a2-c343277a2c16.png">|
+|2022-12-18 08:14:24|[HaE](https://github.com/gh0stkey/HaE)|2.4.5|HaE 2.4.5 更新内容：1. 在线更新配置信息<br>功能添加提示框，防止用户误触导致配置被更<br>新：#91；2. 数据聚合查询面板添加支持通配<br>符域名查找：#88；3. 数据聚合查询面板添加<br>清空数据功能，便于用户查看最新数据；4. 新<br>增规则作用域：any header（请求与响应头）<br>、any body（请求与响应主体）。|
+|2022-12-15 11:47:23|[super-xray](https://github.com/4ra1n/super-xray)|0.9|## 0.9一个bug修复版本，目前功能基本完善<br>Bugs:- [important] [bug] showMessageDial<br>og多屏情况下的位置问题 #76- [important] <br>[bug] 反连平台应该自动配置client属性否则<br>会失效 #72- [important] [bug] 当reverse配<br>置为空但确认配置后无法正常启动 #71- [bug]<br> 高级配置的某个ui绑定错误 #79- [bug] 在<br>线生成的翻译问题 #75 (另外修复多处翻译问<br>题)Others:- [feat] 不输入端口情况下不应该<br>允许开启被动扫描 #77- 构建的System JRE EX<br>E应该对JRE版本进行限制 #73- 打开扫描结果<br>为空时应该给一个提示 #78- 添加一个按钮允<br>许用户清除PoC的设置 #80|
+|2022-12-14 01:54:06|[captcha-killer-modi<br>fied](https://github.com/f0ng/captcha-killer-modified)|0.19|【2022-12-14】 0.191. 增加URL解码、过滤<br>图片编码中的.，#20 感谢@yinanzhaobaima 师<br>傅反馈|
 |2022-12-13 03:32:05|[pocsuite3](https://github.com/knownsec/pocsuite3)|v2.0.2|* 修复 _check 方法中 url 重定向的问题 #<br>337* 修复 console 模式下 use 命令使用绝<br>对路径的问题 #341，thanks @S2eTo* 修复 bu<br>ild_url 兼容 ipv6 的问题 #347，thanks @H<br>omerQing* 优化 nuclei DSL 表达式执行 #34<br>8----------------* fix url redirect prob<br>lem in _check method #337* fix use comma<br>nd in console mode can't use absolute pa<br>th #341, thanks @S2eTo* fix ipv6 compati<br>bility issue in build_url #347, thanks @<br>HomerQing* optimize dsl expression execu<br>tion #348|
 |2022-12-12 01:09:42|[afrog](https://github.com/zan8in/afrog)|v2.1.0|- 新增 -update将 afrog 引擎更新到最新发<br>布的版本- 新增 -proxy使用 http/socks5 代<br>理列表（逗号分隔或文件输入）- 新增 -rate-<br>limit、concurrency、fingerprint-concurre<br>ncy、max-host-error、retries、timeout 等<br>参数- 修复 html 报告（返回多个请求记录）U<br>RL 不准确的 BUG- 优化 banner 展示界面（<br>模仿 nuclei）- 屏蔽 GoPoc 功能（暂时）|
 |2022-12-11 13:04:41|[nuclei](https://github.com/projectdiscovery/nuclei)|v2.8.3|## What's Changed* Fixed bug to conside<br>r clustering with automatic http probing<br> by @Ice3man543 in https://github.com/pr<br>ojectdiscovery/nuclei/pull/3019* Fixed b<br>ug to remove blank protocol name by @vza<br>manillo in https://github.com/projectdis<br>covery/nuclei/pull/2993* Added option to<br> disable request clustering by @Ice3man5<br>43in https://github.com/projectdiscovery<br>/nuclei/pull/3019* Added custom ip to pr<br>otocol-generated variables by @Mzack9999<br> in https://github.com/projectdiscovery/<br>nuclei/pull/3011**Full Changelog**: http<br>s://github.com/projectdiscovery/nuclei/c<br>ompare/v2.8.2...v2.8.3|
-|2022-12-09 01:31:39|[log4j2burpscanner](https://github.com/f0ng/log4j2burpscanner)|0.21.0|# 0.21.0 更新## 2022-12-91. 增加参数 `p<br>refixparam`前缀可控，可输入如`%84$`，造<br>成一些数据库组件解析错误，从而进行log4j2<br>的报错触发<img width="600" alt="image" sr<br>c="https://user-images.githubusercontent<br>.com/48286013/206602178-bb80c887-196d-4f<br>85-a065-44fc47130e8a.png">2. 增加自定义h<br>eader头获取响应结果请求(支持了dnslog.cn<br>等，但是dnslog.cn有PHPSESSID默认过期时间<br>，暂不推荐使用)，举例如 `privatednsRespon<br>seurl` 框内填入以下字段：```HEADERhttp:/<br>/dnslog.cn/getrecords.phpCookie:PHPSESSI<br>D=bmekedlvumo1e9onr6qsd1j2u6```<img widt<br>h="505" alt="image" src="https://user-im<br>ages.githubusercontent.com/48286013/2066<br>53492-77f5e9b1-7c56-49d6-8e5e-0263521e8a<br>d6.png">3. 修复`dnsparam`参数初始化问题<br>，感谢微信群@啊哈师傅反馈|
+|2022-12-09 01:31:39|[log4j2burpscanner](https://github.com/f0ng/log4j2burpscanner)|0.21.0|# 0.21.0 更新## 2022-12-91. 增加参数 pr<br>efixparam前缀可控，可输入如%84$，造成一<br>些数据库组件解析错误，从而进行log4j2的报<br>错触发2. 增加自定义header头获取响应结果请<br>求(支持了dnslog.cn等，但是dnslog.cn有PHPS<br>ESSID默认过期时间，暂不推荐使用)，举例如<br> privatednsResponseurl 框内填入以下字段<br>：HEADERhttp://dnslog.cn/getrecords.phpCo<br>okie:PHPSESSID=bmekedlvumo1e9onr6qsd1j2u<br>63. 修复dnsparam参数初始化问题，感谢微信<br>群@啊哈师傅反馈|
 |2022-12-02 08:08:53|[github-subdomains](https://github.com/gwen001/github-subdomains)|v1.2.0||
 |2022-11-30 19:12:53|[faker](https://github.com/joke2k/faker)|v15.3.4|See [CHANGELOG.md](https://github.com/j<br>oke2k/faker/blob/refs/tags/v15.3.4/CHANG<br>ELOG.md).|
 |2022-11-28 17:47:44|[Behinder](https://github.com/rebeyond/Behinder)|Behinder_<br>v4.0.6|### 2022.11.28 v4.0.6 更新日志1.修复了T<br>omcat10中内存马植入无法连接的问题；2.修<br>复了asp版本内置传输协议的连接问题；3.修复<br>了传输协议在恢复默认时会出现错误的问题；4<br>.内置了Javafx库，修复了各类因为Javafx环<br>境无法运行的问题；5.修复了客户端兼容性问<br>题，客户端兼容Java8至Java19；6.新增“默认<br>”连接模式，兼容冰蝎3默认服务端；7.其他的<br>一些优化。|
 |2022-11-28 08:58:17|[RequestTemplate](https://github.com/1n7erface/RequestTemplate)|v1.1.0|2022.11.28 17:00这一次更新时隔一个月,我<br>还是只更新了Golang的扫描端。我觉得这次更<br>新是我迄今为止最满意的一次更新，因为我将<br>程序的架构进行了翻新重构。解决了很多在以<br>往我觉得是"bug"的细节，虽然在运行时不会出<br>现异常，但是架构始终让我不太满意。这次我<br>在爆破模块与端口扫描增加了“调度中心“的<br>角色。详细的细节我可能会发文章叙述。各位<br>及时给出评价。注：mac在更新13之后不能使用<br>压缩过后的文件，不知道为啥，在此我提供未<br>压缩的文件。见：App-arm64darwin-noupx、Ap<br>p-am d64darwin-noupx|
 |2022-11-23 03:58:28|[BpScan](https://github.com/EASY233/BpScan)|1.0.0|1、修复log4j poc编码问题2、修复dnslog平<br>台请求错误的问题3、其他bug修复|
 |2022-11-20 09:04:40|[knife](https://github.com/bit4woo/knife)|v2.1|融合U2C和Chinese2个Tab，让它们都可以支<br>持切换编码新增功能：从JS中查找URL路径后，<br>拼接BaseURL并请求其他小的更新、bug修复## <br>What's Changed* Bump gson from 2.3.1 to <br>2.8.9 by @dependabot in https://github.c<br>om/bit4woo/knife/pull/45* Bump commons-t<br>ext from 1.6 to 1.10.0 by @dependabot in<br> https://github.com/bit4woo/knife/pull/5<br>3## New Contributors* @dependabot made t<br>heir first contribution in https://githu<br>b.com/bit4woo/knife/pull/45**Full Change<br>log**: https://github.com/bit4woo/knife/<br>compare/v2.0...v2.1|
-|2022-11-18 09:37:35|[domain_hunter_pro](https://github.com/bit4woo/domain_hunter_pro)|v1.9-alph<br>a|**这是重构版本，与旧版本不兼容！！！这<br>是重构版本，与旧版本不兼容！！！这是重构<br>版本，与旧版本不兼容！！！**重新设计了数<br>据库的表结构，尽量提升数据库读写效率重新<br>设计了数据对象、UI、数据库之间的数据同步<br>逻辑重新设计了数据存储的基础类，保证线程<br>安全重新设计了table中model类的部分逻辑，<br>减少内存占用优化了数据对象的字段，尽量减<br>小每个数据对象的内存占用优化了数据提取的<br>正则表达式和逻辑优化了根域名、网段作控制<br>目标范围的逻辑优化了当根域名、网段变化时<br>，数据的刷新逻辑优化了数据数据加载逻辑其<br>他各种逻辑优化、bug修改总之就是大动作，和<br>旧版本不兼容，可能存在潜在bug（虽然我已经<br>试用一段时间，排除了很多bug），所以发布一<br>个alpha版本在正式版本之前。欢迎试用提交bu<br>g，使用时建议创建新的项目数据库，不要使<br>用旧数据库文件。|
 ## 近30天commit提交记录
 | 提交时间 | 项目名称 | 更新内容 |
 | :---- | :---- | :---- |
-|2022-12-18 01:00:20|[NucleiTP](https://github.com/ExpLangcn/NucleiTP)|更新啦❤️|
-|2022-12-17 20:44:20|[PocOrExp_in_Github](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2022-12-18 04:44:20|
+|2022-12-19 00:30:19|[NucleiTP](https://github.com/ExpLangcn/NucleiTP)|更新啦❤️|
+|2022-12-18 21:43:54|[PocOrExp_in_Github](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2022-12-19 05:43:54|
+|2022-12-18 09:05:18|[super-xray](https://github.com/4ra1n/super-xray)|english bug|
+|2022-12-18 08:12:16|[HaE](https://github.com/gh0stkey/HaE)|Version: 2.4.5 Update|
+|2022-12-18 06:06:34|[Threathunting-book](https://github.com/12306Bro/Threathunting-book)|Update README.md|
 |2022-12-17 09:57:34|[poc-hub](https://github.com/ybdt/poc-hub)|Update .gitignore|
-|2022-12-16 16:59:06|[super-xray](https://github.com/4ra1n/super-xray)|readme|
 |2022-12-16 07:32:09|[afrog](https://github.com/zan8in/afrog)|update errors info|
 |2022-12-15 21:30:01|[RsaCtfTool](https://github.com/RsaCtfTool/RsaCtfTool)|faster is_cube function|
 |2022-12-14 12:09:50|[feroxbuster](https://github.com/epi052/feroxbuster)|Merge pull request #734 from epi052/all-contributors/a<br>dd-kmancdocs: add kmanc as a contributor for bug, and c<br>ode|
@@ -52,12 +54,10 @@
 |2022-11-30 19:12:19|[faker](https://github.com/joke2k/faker)|Bump version: 15.3.3 → 15.3.4|
 |2022-11-29 10:47:06|[QingTing](https://github.com/StarCrossPortal/QingTing)|蜻蜓v2|
 |2022-11-29 02:41:57|[aksk_tool](https://github.com/wyzxxz/aksk_tool)|Update README.md|
-|2022-11-27 13:26:17|[Threathunting-book](https://github.com/12306Bro/Threathunting-book)|Update README.md|
 |2022-11-27 07:02:42|[knife](https://github.com/bit4woo/knife)|update|
 |2022-11-25 11:42:34|[BpScan](https://github.com/EASY233/BpScan)|update|
 |2022-11-22 03:32:13|[Intranet_Penetratio<br>n_Tips](https://github.com/Ridter/Intranet_Penetration_Tips)|Merge pull request #12 from we1h0/patch-2fix url|
-|2022-11-20 10:24:53|[domain_hunter_pro](https://github.com/bit4woo/domain_hunter_pro)|Update DomainManager.javaCopyOnWriteArraySet 用iterato<br>r的remove反而会出错|
-|2022-11-18 14:26:29|[http-request-smuggl<br>er](https://github.com/portswigger/http-request-smuggler)|BApp Store update|## 所有项目
+|2022-11-20 10:24:53|[domain_hunter_pro](https://github.com/bit4woo/domain_hunter_pro)|Update DomainManager.javaCopyOnWriteArraySet 用iterato<br>r的remove反而会出错|## 所有项目
 ### 信息收集
 #### 资产测绘采集
 | 项目名称 | 版本 | 项目描述 |
@@ -283,7 +283,7 @@
 | [BurpSuite-collectio<br>ns](https://github.com/Mr-xn/BurpSuite-collections) |  | 有关burpsuite的插件(非商店),文章以及使用技巧的收集(此项目不再提<br>供burpsuite破解文件,如需要请在博客mrxn.net下载)---Collection of bu<br>rpsuite plugins (non-stores), articles and tips for using Burpsui<br>te, no crack version file |
 | [BurpShiroPassiveSca<br>n](https://github.com/pmiaowu/BurpShiroPassiveScan) | BurpShiro<br>PassiveSca<br>n-2.0.0 | 一款基于BurpSuite的被动式shiro检测插件 |
 | [BurpFastJsonScan](https://github.com/pmiaowu/BurpFastJsonScan) | BurpFastJ<br>sonScan-2.<br>2.2 | 一款基于BurpSuite的被动式FastJson检测插件 |
-| [HaE](https://github.com/gh0stkey/HaE) | 2.4.4 | HaE - Highlighter and Extractor, 赋能白帽 高效作战 |
+| [HaE](https://github.com/gh0stkey/HaE) | 2.4.5 | HaE - Highlighter and Extractor, 赋能白帽 高效作战 |
 | [domain_hunter_pro](https://github.com/bit4woo/domain_hunter_pro) | v1.9-alph<br>a | domain_hunter的高级版本，SRC挖洞、HW打点之必备！自动化资产收集；<br>快速Title获取；外部工具联动；等等 |
 | [Sylas](https://github.com/Acmesec/Sylas) | 1.1.1 | 新一代子域名主/被动收集工具 - Subdomain automatic/passive collec<br>tion tool |
 | [GadgetProbe](https://github.com/BishopFox/GadgetProbe) | v1.0 | Probe endpoints consuming Java serialized objects to identify cl<br>asses, libraries, and library versions on remote Java classpaths. |
