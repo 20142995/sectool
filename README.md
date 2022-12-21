@@ -1,4 +1,4 @@
-# 更新于 2022-12-20 09:03:16
+# 更新于 2022-12-21 09:00:09
 
 ## 近30天release更新记录
 | 更新时间 | 项目名称 | 版本 | 更新内容 |
@@ -15,19 +15,19 @@
 |2022-11-28 17:47:44|[Behinder](https://github.com/rebeyond/Behinder)|Behinder_<br>v4.0.6|### 2022.11.28 v4.0.6 更新日志1.修复了T<br>omcat10中内存马植入无法连接的问题；2.修<br>复了asp版本内置传输协议的连接问题；3.修复<br>了传输协议在恢复默认时会出现错误的问题；4<br>.内置了Javafx库，修复了各类因为Javafx环<br>境无法运行的问题；5.修复了客户端兼容性问<br>题，客户端兼容Java8至Java19；6.新增“默认<br>”连接模式，兼容冰蝎3默认服务端；7.其他的<br>一些优化。|
 |2022-11-28 08:58:17|[RequestTemplate](https://github.com/1n7erface/RequestTemplate)|v1.1.0|2022.11.28 17:00这一次更新时隔一个月,我<br>还是只更新了Golang的扫描端。我觉得这次更<br>新是我迄今为止最满意的一次更新，因为我将<br>程序的架构进行了翻新重构。解决了很多在以<br>往我觉得是"bug"的细节，虽然在运行时不会出<br>现异常，但是架构始终让我不太满意。这次我<br>在爆破模块与端口扫描增加了“调度中心“的<br>角色。详细的细节我可能会发文章叙述。各位<br>及时给出评价。注：mac在更新13之后不能使用<br>压缩过后的文件，不知道为啥，在此我提供未<br>压缩的文件。见：App-arm64darwin-noupx、Ap<br>p-am d64darwin-noupx|
 |2022-11-23 03:58:28|[BpScan](https://github.com/EASY233/BpScan)|1.0.0|1、修复log4j poc编码问题2、修复dnslog平<br>台请求错误的问题3、其他bug修复|
-|2022-11-20 09:04:40|[knife](https://github.com/bit4woo/knife)|v2.1|融合U2C和Chinese2个Tab，让它们都可以支<br>持切换编码新增功能：从JS中查找URL路径后，<br>拼接BaseURL并请求其他小的更新、bug修复## <br>What's Changed* Bump gson from 2.3.1 to <br>2.8.9 by @dependabot in https://github.c<br>om/bit4woo/knife/pull/45* Bump commons-t<br>ext from 1.6 to 1.10.0 by @dependabot in<br> https://github.com/bit4woo/knife/pull/5<br>3## New Contributors* @dependabot made t<br>heir first contribution in https://githu<br>b.com/bit4woo/knife/pull/45**Full Change<br>log**: https://github.com/bit4woo/knife/<br>compare/v2.0...v2.1|
 ## 近30天commit提交记录
 | 提交时间 | 项目名称 | 更新内容 |
 | :---- | :---- | :---- |
-|2022-12-20 01:00:16|[NucleiTP](https://github.com/ExpLangcn/NucleiTP)|更新啦❤️|
-|2022-12-19 20:45:28|[PocOrExp_in_Github](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2022-12-20 04:45:28|
-|2022-12-19 20:17:15|[RsaCtfTool](https://github.com/RsaCtfTool/RsaCtfTool)|update README.md|
+|2022-12-21 00:30:18|[NucleiTP](https://github.com/ExpLangcn/NucleiTP)|更新啦❤️|
+|2022-12-20 20:44:32|[PocOrExp_in_Github](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2022-12-21 04:44:32|
+|2022-12-20 17:47:29|[RsaCtfTool](https://github.com/RsaCtfTool/RsaCtfTool)|Update README.md|
+|2022-12-20 09:22:50|[svnExploit](https://github.com/admintony/svnExploit)|Do not verify the certificate取消对https证书的校验，防<br>止一些https自签名证书dump失败|
+|2022-12-20 08:58:46|[afrog](https://github.com/zan8in/afrog)|update readme|
 |2022-12-19 09:46:09|[super-xray](https://github.com/4ra1n/super-xray)|4876|
 |2022-12-19 06:40:20|[404StarLink](https://github.com/knownsec/404StarLink)|weekly update at 2022-12-19|
 |2022-12-18 08:12:16|[HaE](https://github.com/gh0stkey/HaE)|Version: 2.4.5 Update|
 |2022-12-18 06:06:34|[Threathunting-book](https://github.com/12306Bro/Threathunting-book)|Update README.md|
 |2022-12-17 09:57:34|[poc-hub](https://github.com/ybdt/poc-hub)|Update .gitignore|
-|2022-12-16 07:32:09|[afrog](https://github.com/zan8in/afrog)|update errors info|
 |2022-12-14 12:09:50|[feroxbuster](https://github.com/epi052/feroxbuster)|Merge pull request #734 from epi052/all-contributors/a<br>dd-kmancdocs: add kmanc as a contributor for bug, and c<br>ode|
 |2022-12-14 05:55:42|[vulnerability](https://github.com/lal0ne/vulnerability)|CVE-2022-46169|
 |2022-12-14 03:27:29|[captcha-killer-modi<br>fied](https://github.com/f0ng/captcha-killer-modified)|Update FAQ.md|
@@ -56,8 +56,7 @@
 |2022-11-29 02:41:57|[aksk_tool](https://github.com/wyzxxz/aksk_tool)|Update README.md|
 |2022-11-27 07:02:42|[knife](https://github.com/bit4woo/knife)|update|
 |2022-11-25 11:42:34|[BpScan](https://github.com/EASY233/BpScan)|update|
-|2022-11-22 03:32:13|[Intranet_Penetratio<br>n_Tips](https://github.com/Ridter/Intranet_Penetration_Tips)|Merge pull request #12 from we1h0/patch-2fix url|
-|2022-11-20 10:24:53|[domain_hunter_pro](https://github.com/bit4woo/domain_hunter_pro)|Update DomainManager.javaCopyOnWriteArraySet 用iterato<br>r的remove反而会出错|## 所有项目
+|2022-11-22 03:32:13|[Intranet_Penetratio<br>n_Tips](https://github.com/Ridter/Intranet_Penetration_Tips)|Merge pull request #12 from we1h0/patch-2fix url|## 所有项目
 ### 信息收集
 #### 资产测绘采集
 | 项目名称 | 版本 | 项目描述 |
@@ -115,7 +114,7 @@
 | [w13scan](https://github.com/w-digital-scanner/w13scan) |  | Passive Security Scanner (被动式安全扫描器) |
 | [Fvuln](https://github.com/d3ckx1/Fvuln) | Fvuln_v1.<br>4.8 | F-vuln（全称：Find-Vulnerability）是为了自己工作方便专门编写的一<br>款自动化工具，主要适用于日常安全服务、渗透测试人员和RedTeam红队人<br>员，它集合的功能包括：存活IP探测、开放端口探测、web服务探测、web漏<br>洞扫描、smb爆破、ssh爆破、ftp爆破、mssql爆破等其他数据库爆破工作以<br>及大量web漏洞检测模块。 |
 | [nuclei](https://github.com/projectdiscovery/nuclei) | v2.8.3 | Fast and customizable vulnerability scanner based on simple YAML<br> based DSL. |
-| [afrog](https://github.com/zan8in/afrog) | v2.1.0 | afrog 是一款性能卓越、快速稳定、PoC 可定制化的漏洞扫描工具 - A t<br>ool for finding vulnerabilities |
+| [afrog](https://github.com/zan8in/afrog) | v2.1.0 | A Vulnerability Scanning Tools For Penetration Testing |
 | [vulmap](https://github.com/zhzyker/vulmap) | v0.9 | Vulmap 是一款 web 漏洞扫描和验证工具, 可对 webapps 进行漏洞扫描,<br> 并且具备漏洞验证功能 |
 | [POC-bomber](https://github.com/tr0uble-mAker/POC-bomber) | v2.0.2-PO<br>C-bomber | 利用大量高威胁poc/exp快速获取目标权限，用于渗透和红队快速打点 |
 | [QingTing](https://github.com/StarCrossPortal/QingTing) | v0.3 | 蜻蜓安全一个安全工具编排平台,可以自由编排你的工具流,集成108款工<br>具,包括xray、nmap、awvs等;你可以将喜欢的工具编排成一个场景，快速打<br>造适合自己的安全工作台~ |
