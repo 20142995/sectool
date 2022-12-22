@@ -1,13 +1,13 @@
-# 更新于 2022-12-21 09:00:09
+# 更新于 2022-12-22 09:04:49
 
 ## 近30天release更新记录
 | 更新时间 | 项目名称 | 版本 | 更新内容 |
 | :---- | :---- | :---- | :---- |
+|2022-12-21 09:25:38|[afrog](https://github.com/zan8in/afrog)|v2.1.1|- Fixed a bug with high false positives<br> in fingerprint- Added optional -json op<br>tion for write output in JSON format, eg<br>: -json result.json|
 |2022-12-18 08:14:24|[HaE](https://github.com/gh0stkey/HaE)|2.4.5|HaE 2.4.5 更新内容：1. 在线更新配置信息<br>功能添加提示框，防止用户误触导致配置被更<br>新：#91；2. 数据聚合查询面板添加支持通配<br>符域名查找：#88；3. 数据聚合查询面板添加<br>清空数据功能，便于用户查看最新数据；4. 新<br>增规则作用域：any header（请求与响应头）<br>、any body（请求与响应主体）。|
 |2022-12-15 11:47:23|[super-xray](https://github.com/4ra1n/super-xray)|0.9|## 0.9一个bug修复版本，目前功能基本完善<br>Bugs:- [important] [bug] showMessageDial<br>og多屏情况下的位置问题 #76- [important] <br>[bug] 反连平台应该自动配置client属性否则<br>会失效 #72- [important] [bug] 当reverse配<br>置为空但确认配置后无法正常启动 #71- [bug]<br> 高级配置的某个ui绑定错误 #79- [bug] 在<br>线生成的翻译问题 #75 (另外修复多处翻译问<br>题)Others:- [feat] 不输入端口情况下不应该<br>允许开启被动扫描 #77- 构建的System JRE EX<br>E应该对JRE版本进行限制 #73- 打开扫描结果<br>为空时应该给一个提示 #78- 添加一个按钮允<br>许用户清除PoC的设置 #80|
 |2022-12-14 01:54:06|[captcha-killer-modi<br>fied](https://github.com/f0ng/captcha-killer-modified)|0.19|【2022-12-14】 0.191. 增加URL解码、过滤<br>图片编码中的.，#20 感谢@yinanzhaobaima 师<br>傅反馈|
 |2022-12-13 03:32:05|[pocsuite3](https://github.com/knownsec/pocsuite3)|v2.0.2|* 修复 _check 方法中 url 重定向的问题 #<br>337* 修复 console 模式下 use 命令使用绝<br>对路径的问题 #341，thanks @S2eTo* 修复 bu<br>ild_url 兼容 ipv6 的问题 #347，thanks @H<br>omerQing* 优化 nuclei DSL 表达式执行 #34<br>8----------------* fix url redirect prob<br>lem in _check method #337* fix use comma<br>nd in console mode can't use absolute pa<br>th #341, thanks @S2eTo* fix ipv6 compati<br>bility issue in build_url #347, thanks @<br>HomerQing* optimize dsl expression execu<br>tion #348|
-|2022-12-12 01:09:42|[afrog](https://github.com/zan8in/afrog)|v2.1.0|- 新增 -update将 afrog 引擎更新到最新发<br>布的版本- 新增 -proxy使用 http/socks5 代<br>理列表（逗号分隔或文件输入）- 新增 -rate-<br>limit、concurrency、fingerprint-concurre<br>ncy、max-host-error、retries、timeout 等<br>参数- 修复 html 报告（返回多个请求记录）U<br>RL 不准确的 BUG- 优化 banner 展示界面（<br>模仿 nuclei）- 屏蔽 GoPoc 功能（暂时）|
 |2022-12-11 13:04:41|[nuclei](https://github.com/projectdiscovery/nuclei)|v2.8.3|## What's Changed* Fixed bug to conside<br>r clustering with automatic http probing<br> by @Ice3man543 in https://github.com/pr<br>ojectdiscovery/nuclei/pull/3019* Fixed b<br>ug to remove blank protocol name by @vza<br>manillo in https://github.com/projectdis<br>covery/nuclei/pull/2993* Added option to<br> disable request clustering by @Ice3man5<br>43in https://github.com/projectdiscovery<br>/nuclei/pull/3019* Added custom ip to pr<br>otocol-generated variables by @Mzack9999<br> in https://github.com/projectdiscovery/<br>nuclei/pull/3011**Full Changelog**: http<br>s://github.com/projectdiscovery/nuclei/c<br>ompare/v2.8.2...v2.8.3|
 |2022-12-09 01:31:39|[log4j2burpscanner](https://github.com/f0ng/log4j2burpscanner)|0.21.0|# 0.21.0 更新## 2022-12-91. 增加参数 pr<br>efixparam前缀可控，可输入如%84$，造成一<br>些数据库组件解析错误，从而进行log4j2的报<br>错触发2. 增加自定义header头获取响应结果请<br>求(支持了dnslog.cn等，但是dnslog.cn有PHPS<br>ESSID默认过期时间，暂不推荐使用)，举例如<br> privatednsResponseurl 框内填入以下字段<br>：HEADERhttp://dnslog.cn/getrecords.phpCo<br>okie:PHPSESSID=bmekedlvumo1e9onr6qsd1j2u<br>63. 修复dnsparam参数初始化问题，感谢微信<br>群@啊哈师傅反馈|
 |2022-12-02 08:08:53|[github-subdomains](https://github.com/gwen001/github-subdomains)|v1.2.0||
@@ -18,12 +18,14 @@
 ## 近30天commit提交记录
 | 提交时间 | 项目名称 | 更新内容 |
 | :---- | :---- | :---- |
-|2022-12-21 00:30:18|[NucleiTP](https://github.com/ExpLangcn/NucleiTP)|更新啦❤️|
-|2022-12-20 20:44:32|[PocOrExp_in_Github](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2022-12-21 04:44:32|
-|2022-12-20 17:47:29|[RsaCtfTool](https://github.com/RsaCtfTool/RsaCtfTool)|Update README.md|
+|2022-12-22 01:00:18|[NucleiTP](https://github.com/ExpLangcn/NucleiTP)|更新啦❤️|
+|2022-12-21 21:23:19|[RsaCtfTool](https://github.com/RsaCtfTool/RsaCtfTool)|Update logging.StreamHandler to use sys.stderr instead<br> of sys.stdout|
+|2022-12-21 20:45:24|[PocOrExp_in_Github](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2022-12-22 04:45:24|
+|2022-12-21 20:15:18|[wpscan](https://github.com/wpscanteam/wpscan)|Updates DFs|
+|2022-12-21 11:49:36|[super-xray](https://github.com/4ra1n/super-xray)|UI BUG|
+|2022-12-21 09:10:16|[afrog](https://github.com/zan8in/afrog)|2.1.1|
+|2022-12-21 02:53:43|[All-Defense-Tool](https://github.com/guchangan1/All-Defense-Tool)|更新v2.1|
 |2022-12-20 09:22:50|[svnExploit](https://github.com/admintony/svnExploit)|Do not verify the certificate取消对https证书的校验，防<br>止一些https自签名证书dump失败|
-|2022-12-20 08:58:46|[afrog](https://github.com/zan8in/afrog)|update readme|
-|2022-12-19 09:46:09|[super-xray](https://github.com/4ra1n/super-xray)|4876|
 |2022-12-19 06:40:20|[404StarLink](https://github.com/knownsec/404StarLink)|weekly update at 2022-12-19|
 |2022-12-18 08:12:16|[HaE](https://github.com/gh0stkey/HaE)|Version: 2.4.5 Update|
 |2022-12-18 06:06:34|[Threathunting-book](https://github.com/12306Bro/Threathunting-book)|Update README.md|
@@ -114,7 +116,7 @@
 | [w13scan](https://github.com/w-digital-scanner/w13scan) |  | Passive Security Scanner (被动式安全扫描器) |
 | [Fvuln](https://github.com/d3ckx1/Fvuln) | Fvuln_v1.<br>4.8 | F-vuln（全称：Find-Vulnerability）是为了自己工作方便专门编写的一<br>款自动化工具，主要适用于日常安全服务、渗透测试人员和RedTeam红队人<br>员，它集合的功能包括：存活IP探测、开放端口探测、web服务探测、web漏<br>洞扫描、smb爆破、ssh爆破、ftp爆破、mssql爆破等其他数据库爆破工作以<br>及大量web漏洞检测模块。 |
 | [nuclei](https://github.com/projectdiscovery/nuclei) | v2.8.3 | Fast and customizable vulnerability scanner based on simple YAML<br> based DSL. |
-| [afrog](https://github.com/zan8in/afrog) | v2.1.0 | A Vulnerability Scanning Tools For Penetration Testing |
+| [afrog](https://github.com/zan8in/afrog) | v2.1.1 | A Vulnerability Scanning Tools For Penetration Testing |
 | [vulmap](https://github.com/zhzyker/vulmap) | v0.9 | Vulmap 是一款 web 漏洞扫描和验证工具, 可对 webapps 进行漏洞扫描,<br> 并且具备漏洞验证功能 |
 | [POC-bomber](https://github.com/tr0uble-mAker/POC-bomber) | v2.0.2-PO<br>C-bomber | 利用大量高威胁poc/exp快速获取目标权限，用于渗透和红队快速打点 |
 | [QingTing](https://github.com/StarCrossPortal/QingTing) | v0.3 | 蜻蜓安全一个安全工具编排平台,可以自由编排你的工具流,集成108款工<br>具,包括xray、nmap、awvs等;你可以将喜欢的工具编排成一个场景，快速打<br>造适合自己的安全工作台~ |

@@ -299,11 +299,11 @@
             "https://github.com/zan8in/afrog": {
                 "created_at": "2022-02-24 06:00:32",
                 "description": "A Vulnerability Scanning Tools For Penetration Testing",
-                "commit_date": "2022-12-20 08:58:46",
-                "commit_message": "update readme",
-                "release_tag": "v2.1.0",
-                "release_date": "2022-12-12 01:09:42",
-                "release_message": "- 新增 -update  将 afrog 引擎更新到最新发布的版本\r\n- 新增 -proxy  使用 http/socks5 代理列表（逗号分隔或文件输入）\r\n- 新增 -rate-limit、concurrency、fingerprint-concurrency、max-host-error、retries、timeout 等参数\r\n- 修复 html 报告（返回多个请求记录）URL 不准确的 BUG\r\n- 优化 banner 展示界面（模仿 nuclei）\r\n- 屏蔽 GoPoc 功能（暂时）"
+                "commit_date": "2022-12-21 09:10:16",
+                "commit_message": "2.1.1",
+                "release_tag": "v2.1.1",
+                "release_date": "2022-12-21 09:25:38",
+                "release_message": "- Fixed a bug with high false positives in fingerprint\r\n- Added optional -json option for write output in JSON format, eg: -json result.json \r\n"
             },
             "https://github.com/zhzyker/vulmap": {
                 "created_at": "2020-10-09 06:34:36",
@@ -752,8 +752,8 @@
             "https://github.com/wpscanteam/wpscan": {
                 "created_at": "2012-07-11 20:27:47",
                 "description": "WPScan WordPress security scanner. Written for security professionals and blog maintainers to test the security of their WordPress websites.",
-                "commit_date": "2022-11-17 14:27:09",
-                "commit_message": "Merge pull request #1756 from wpscanteam/dependabot/bundler/rspec-tw-3.12.0\n\nUpdate rspec requirement from ~> 3.11.0 to ~> 3.12.0",
+                "commit_date": "2022-12-21 20:15:18",
+                "commit_message": "Updates DFs",
                 "release_tag": "v3.8.22",
                 "release_date": "2022-04-04 14:04:28",
                 "release_message": "See https://github.com/wpscanteam/CMSScanner/releases/tag/v0.13.8\r\n\r\n- Minor:\r\n  - Better handling of redirection, ie when target http->https (or the opposite), the target URL will be changed to the new one automatically to avoid scanning the http version and getting 301 which could result in items being missed\r\n  - Better handling of unsupported HEAD method by checking for 501 and timeout as well"
@@ -1073,8 +1073,8 @@
             "https://github.com/ycdxsb/PocOrExp_in_Github": {
                 "created_at": "2021-04-13 05:46:16",
                 "description": "聚合Github上已有的Poc或者Exp，CVE信息来自CVE官网。Auto Collect Poc Or Exp from Github by CVE ID.",
-                "commit_date": "2022-12-20 20:44:32",
-                "commit_message": "update 2022-12-21 04:44:32",
+                "commit_date": "2022-12-21 20:45:24",
+                "commit_message": "update 2022-12-22 04:45:24",
                 "release_tag": null,
                 "release_date": "",
                 "release_message": null
@@ -1303,8 +1303,8 @@
             "https://github.com/guchangan1/All-Defense-Tool": {
                 "created_at": "2022-04-25 11:45:06",
                 "description": "本项目集成了全网优秀的攻防武器工具项目，包含自动化利用，子域名、目录扫描、端口扫描等信息收集工具，各大中间件、cms漏洞利用工具，爆破工具、内网横向及免杀、社工钓鱼以及应急响应等资料。",
-                "commit_date": "2022-09-12 05:10:43",
-                "commit_message": "更新v2.0",
+                "commit_date": "2022-12-21 02:53:43",
+                "commit_message": "更新v2.1",
                 "release_tag": null,
                 "release_date": "",
                 "release_message": null
@@ -1588,8 +1588,8 @@
             "https://github.com/4ra1n/super-xray": {
                 "created_at": "2022-11-18 14:52:09",
                 "description": "XRAY GUI Starter (Web Vulnerability Scanner)",
-                "commit_date": "2022-12-19 09:46:09",
-                "commit_message": "4876",
+                "commit_date": "2022-12-21 11:49:36",
+                "commit_message": "UI BUG",
                 "release_tag": "0.9",
                 "release_date": "2022-12-15 11:47:23",
                 "release_message": "## 0.9\r\n\r\n一个`bug`修复版本，目前功能基本完善\r\n\r\nBugs:\r\n- [important] [bug] showMessageDialog多屏情况下的位置问题 #76\r\n- [important] [bug] 反连平台应该自动配置client属性否则会失效 #72\r\n- [important] [bug] 当reverse配置为空但确认配置后无法正常启动 #71\r\n- [bug] 高级配置的某个ui绑定错误 #79\r\n- [bug] 在线生成的翻译问题 #75 (另外修复多处翻译问题)\r\n\r\nOthers:\r\n- [feat] 不输入端口情况下不应该允许开启被动扫描 #77\r\n- 构建的System JRE EXE应该对JRE版本进行限制 #73\r\n- 打开扫描结果为空时应该给一个提示 #78\r\n- 添加一个按钮允许用户清除PoC的设置 #80"
@@ -1708,7 +1708,7 @@
             "https://github.com/ExpLangcn/NucleiTP": {
                 "created_at": "2022-11-08 13:16:56",
                 "description": "自动整合全网Nuclei的漏洞POC，实时同步更新最新POC！",
-                "commit_date": "2022-12-21 00:30:18",
+                "commit_date": "2022-12-22 01:00:18",
                 "commit_message": "更新啦❤️",
                 "release_tag": null,
                 "release_date": "",
@@ -1920,8 +1920,8 @@
             "https://github.com/RsaCtfTool/RsaCtfTool": {
                 "created_at": "2015-03-07 17:29:33",
                 "description": "RSA attack tool (mainly for ctf) - retreive private key from weak public key and/or uncipher data",
-                "commit_date": "2022-12-20 17:47:29",
-                "commit_message": "Update README.md",
+                "commit_date": "2022-12-21 21:23:19",
+                "commit_message": "Update logging.StreamHandler to use sys.stderr instead of sys.stdout",
                 "release_tag": null,
                 "release_date": "",
                 "release_message": null
