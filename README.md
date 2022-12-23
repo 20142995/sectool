@@ -1,4 +1,4 @@
-# 更新于 2022-12-22 09:04:49
+# 更新于 2022-12-23 09:02:20
 
 ## 近30天release更新记录
 | 更新时间 | 项目名称 | 版本 | 更新内容 |
@@ -18,12 +18,12 @@
 ## 近30天commit提交记录
 | 提交时间 | 项目名称 | 更新内容 |
 | :---- | :---- | :---- |
-|2022-12-22 01:00:18|[NucleiTP](https://github.com/ExpLangcn/NucleiTP)|更新啦❤️|
+|2022-12-23 01:00:16|[NucleiTP](https://github.com/ExpLangcn/NucleiTP)|更新啦❤️|
+|2022-12-22 20:47:31|[PocOrExp_in_Github](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2022-12-23 04:47:30|
+|2022-12-22 03:22:36|[afrog](https://github.com/zan8in/afrog)|afrog-pocs 1.7.8|
 |2022-12-21 21:23:19|[RsaCtfTool](https://github.com/RsaCtfTool/RsaCtfTool)|Update logging.StreamHandler to use sys.stderr instead<br> of sys.stdout|
-|2022-12-21 20:45:24|[PocOrExp_in_Github](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2022-12-22 04:45:24|
 |2022-12-21 20:15:18|[wpscan](https://github.com/wpscanteam/wpscan)|Updates DFs|
 |2022-12-21 11:49:36|[super-xray](https://github.com/4ra1n/super-xray)|UI BUG|
-|2022-12-21 09:10:16|[afrog](https://github.com/zan8in/afrog)|2.1.1|
 |2022-12-21 02:53:43|[All-Defense-Tool](https://github.com/guchangan1/All-Defense-Tool)|更新v2.1|
 |2022-12-20 09:22:50|[svnExploit](https://github.com/admintony/svnExploit)|Do not verify the certificate取消对https证书的校验，防<br>止一些https自签名证书dump失败|
 |2022-12-19 06:40:20|[404StarLink](https://github.com/knownsec/404StarLink)|weekly update at 2022-12-19|
@@ -57,8 +57,7 @@
 |2022-11-29 10:47:06|[QingTing](https://github.com/StarCrossPortal/QingTing)|蜻蜓v2|
 |2022-11-29 02:41:57|[aksk_tool](https://github.com/wyzxxz/aksk_tool)|Update README.md|
 |2022-11-27 07:02:42|[knife](https://github.com/bit4woo/knife)|update|
-|2022-11-25 11:42:34|[BpScan](https://github.com/EASY233/BpScan)|update|
-|2022-11-22 03:32:13|[Intranet_Penetratio<br>n_Tips](https://github.com/Ridter/Intranet_Penetration_Tips)|Merge pull request #12 from we1h0/patch-2fix url|## 所有项目
+|2022-11-25 11:42:34|[BpScan](https://github.com/EASY233/BpScan)|update|## 所有项目
 ### 信息收集
 #### 资产测绘采集
 | 项目名称 | 版本 | 项目描述 |
