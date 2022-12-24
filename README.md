@@ -1,12 +1,13 @@
-# 更新于 2022-12-23 09:02:20
+# 更新于 2022-12-24 08:56:20
 
 ## 近30天release更新记录
 | 更新时间 | 项目名称 | 版本 | 更新内容 |
 | :---- | :---- | :---- | :---- |
+|2022-12-23 14:18:52|[captcha-killer-modi<br>fied](https://github.com/f0ng/captcha-killer-modified)|0.20|【2022-12-23】 0.20修复了url识别问题、<br>爆破顺序错乱问题、响应包直接为base64编码<br>导致爆破失败问题，感谢微信群师傅@赵 、@Ki<br>ngfuke |
+|2022-12-23 09:53:06|[super-xray](https://github.com/4ra1n/super-xray)|1.0|## 1.0增加了下载面板，可以一键下载最新<br>版xray和rad并加载；增加了子域名扫描的模块<br>，但仅高级版xray可用。![image](https://us<br>er-images.githubusercontent.com/34726933<br>/209314160-91e7cf37-06dc-435b-ab53-5af92<br>800797b.png)- New Features:- [important]<br> [feat] 自动下载解压最新版xray并加载 #86<br>- [important] [feat] 自动下载解压最新版r<br>ad并加载 #87- [important] [feat] 添加子<br>域名扫描的功能 #85- [important] [feat] 指<br>定多个poc扫描的实现方式 #82- [important] <br>用户可选关闭后保留日志用于调试 #83- [feat<br>] 不配置目标的时候应该禁止主动扫描 #81- <br>[feat] 添加一个rad下载站点按钮 #84- 应该<br>提示用户先输入reverse-http url然后配置服<br>务端 #88介绍视频：https://www.bilibili.co<br>m/video/BV1Zd4y1h7Rf下载：- super-xray-1<br>.0.jar版本是通过java -jar super-xray-1.0<br>.jar启动的- super-xray-1.0-jre-exe.zip是<br>内置了JRE的exe版本- super-xray-1.0-system<br>-jre.exe是使用系统JRE的exe版本|
+|2022-12-23 07:55:00|[railgun](https://github.com/lz520520/railgun)|v1.5.0|重构了不少东西，为了后面快速扩展吧，然<br>后就是新增了mac版，但没做太多测试，遇到问<br>题可以反馈。PS: 解压密码railgunV1.5.01. <br>端口扫描a. 重构指纹探测逻辑，修改为指纹编<br>排方式，可组合串联不同探测方式。b. 增加指<br>纹结果选项，用于标识更准确的协议指纹信息<br>。c. 新增Banner提取指纹信息ssh/mysql/vnc<br>。d. 指纹识别新增，redis/docker/dubbo/jbo<br>ss/mssql/mysql/wmi/smb2/winrm/rmi/rdp/or<br>acle/postgresql/ldap。2. 漏洞利用a. 子选<br>项优化渲染逻辑，可任意多行子选项。3. 辅助<br>模块a. 增加正则测试模块，用于快速测试正则<br>。4. 增加mac版（测试，存在一些UI问题，后<br>续再慢慢解决）a. 修复了mac部分控件异常问<br>题，包括combobox、label等。V1.4.91. 漏洞<br>利用a. 插件中可调用任意编码转换模块的编码<br>，并可自动化生成编码转换代码。b. EXP详细<br>信息支持最大化查看，方便浏览。c. 绝大部分<br>漏洞迁移成插件。2. 暴力破解a. 增加ssh://1<br>92.168.1.1:22格式，可针对不同协议、不同<br>端口调用字典进行爆破。b. 当协议设置成多端<br>口时，支持端口扫描结果同协议多端口发送到<br>爆破模块。ⅰ. 多端口时，格式为ssh://192.1<br>68.1.1:22ⅱ. 单端口时，格式为192.168.1.1<br>3. 所有grid优化成焦点跟随滚轮移动。4. 编<br>码转换a. 增加pinyin：中文转拼音V1.4.81. <br>重构并发框架，简化并发编写，后续扩展模块<br>更快速。2. UI优化，修改为菜单栏切换方式，<br>并可右键独立窗口运行。3. 功能扩展[X] 增加<br>IP查询功能[X] 增加密码生成功能[X] 重构信<br>息提取功能[X] 增加Host碰撞功能4. 暴力破解<br>a. 字典设置UI迁移5. 编码转换a. 新增URL格<br>式化V1.4.71. 漏洞利用a. 增加漏洞利用日志<br>记录，目前仅支持http协议，并支持字段过滤2<br>. 编码转换a. 增加大小写转换：LetterCaseb<br>. 增加NLTMc. 增加json格式化，json转go结<br>构体|
 |2022-12-21 09:25:38|[afrog](https://github.com/zan8in/afrog)|v2.1.1|- Fixed a bug with high false positives<br> in fingerprint- Added optional -json op<br>tion for write output in JSON format, eg<br>: -json result.json|
 |2022-12-18 08:14:24|[HaE](https://github.com/gh0stkey/HaE)|2.4.5|HaE 2.4.5 更新内容：1. 在线更新配置信息<br>功能添加提示框，防止用户误触导致配置被更<br>新：#91；2. 数据聚合查询面板添加支持通配<br>符域名查找：#88；3. 数据聚合查询面板添加<br>清空数据功能，便于用户查看最新数据；4. 新<br>增规则作用域：any header（请求与响应头）<br>、any body（请求与响应主体）。|
-|2022-12-15 11:47:23|[super-xray](https://github.com/4ra1n/super-xray)|0.9|## 0.9一个bug修复版本，目前功能基本完善<br>Bugs:- [important] [bug] showMessageDial<br>og多屏情况下的位置问题 #76- [important] <br>[bug] 反连平台应该自动配置client属性否则<br>会失效 #72- [important] [bug] 当reverse配<br>置为空但确认配置后无法正常启动 #71- [bug]<br> 高级配置的某个ui绑定错误 #79- [bug] 在<br>线生成的翻译问题 #75 (另外修复多处翻译问<br>题)Others:- [feat] 不输入端口情况下不应该<br>允许开启被动扫描 #77- 构建的System JRE EX<br>E应该对JRE版本进行限制 #73- 打开扫描结果<br>为空时应该给一个提示 #78- 添加一个按钮允<br>许用户清除PoC的设置 #80|
-|2022-12-14 01:54:06|[captcha-killer-modi<br>fied](https://github.com/f0ng/captcha-killer-modified)|0.19|【2022-12-14】 0.191. 增加URL解码、过滤<br>图片编码中的.，#20 感谢@yinanzhaobaima 师<br>傅反馈|
 |2022-12-13 03:32:05|[pocsuite3](https://github.com/knownsec/pocsuite3)|v2.0.2|* 修复 _check 方法中 url 重定向的问题 #<br>337* 修复 console 模式下 use 命令使用绝<br>对路径的问题 #341，thanks @S2eTo* 修复 bu<br>ild_url 兼容 ipv6 的问题 #347，thanks @H<br>omerQing* 优化 nuclei DSL 表达式执行 #34<br>8----------------* fix url redirect prob<br>lem in _check method #337* fix use comma<br>nd in console mode can't use absolute pa<br>th #341, thanks @S2eTo* fix ipv6 compati<br>bility issue in build_url #347, thanks @<br>HomerQing* optimize dsl expression execu<br>tion #348|
 |2022-12-11 13:04:41|[nuclei](https://github.com/projectdiscovery/nuclei)|v2.8.3|## What's Changed* Fixed bug to conside<br>r clustering with automatic http probing<br> by @Ice3man543 in https://github.com/pr<br>ojectdiscovery/nuclei/pull/3019* Fixed b<br>ug to remove blank protocol name by @vza<br>manillo in https://github.com/projectdis<br>covery/nuclei/pull/2993* Added option to<br> disable request clustering by @Ice3man5<br>43in https://github.com/projectdiscovery<br>/nuclei/pull/3019* Added custom ip to pr<br>otocol-generated variables by @Mzack9999<br> in https://github.com/projectdiscovery/<br>nuclei/pull/3011**Full Changelog**: http<br>s://github.com/projectdiscovery/nuclei/c<br>ompare/v2.8.2...v2.8.3|
 |2022-12-09 01:31:39|[log4j2burpscanner](https://github.com/f0ng/log4j2burpscanner)|0.21.0|# 0.21.0 更新## 2022-12-91. 增加参数 pr<br>efixparam前缀可控，可输入如%84$，造成一<br>些数据库组件解析错误，从而进行log4j2的报<br>错触发2. 增加自定义header头获取响应结果请<br>求(支持了dnslog.cn等，但是dnslog.cn有PHPS<br>ESSID默认过期时间，暂不推荐使用)，举例如<br> privatednsResponseurl 框内填入以下字段<br>：HEADERhttp://dnslog.cn/getrecords.phpCo<br>okie:PHPSESSID=bmekedlvumo1e9onr6qsd1j2u<br>63. 修复dnsparam参数初始化问题，感谢微信<br>群@啊哈师傅反馈|
@@ -14,16 +15,17 @@
 |2022-11-30 19:12:53|[faker](https://github.com/joke2k/faker)|v15.3.4|See [CHANGELOG.md](https://github.com/j<br>oke2k/faker/blob/refs/tags/v15.3.4/CHANG<br>ELOG.md).|
 |2022-11-28 17:47:44|[Behinder](https://github.com/rebeyond/Behinder)|Behinder_<br>v4.0.6|### 2022.11.28 v4.0.6 更新日志1.修复了T<br>omcat10中内存马植入无法连接的问题；2.修<br>复了asp版本内置传输协议的连接问题；3.修复<br>了传输协议在恢复默认时会出现错误的问题；4<br>.内置了Javafx库，修复了各类因为Javafx环<br>境无法运行的问题；5.修复了客户端兼容性问<br>题，客户端兼容Java8至Java19；6.新增“默认<br>”连接模式，兼容冰蝎3默认服务端；7.其他的<br>一些优化。|
 |2022-11-28 08:58:17|[RequestTemplate](https://github.com/1n7erface/RequestTemplate)|v1.1.0|2022.11.28 17:00这一次更新时隔一个月,我<br>还是只更新了Golang的扫描端。我觉得这次更<br>新是我迄今为止最满意的一次更新，因为我将<br>程序的架构进行了翻新重构。解决了很多在以<br>往我觉得是"bug"的细节，虽然在运行时不会出<br>现异常，但是架构始终让我不太满意。这次我<br>在爆破模块与端口扫描增加了“调度中心“的<br>角色。详细的细节我可能会发文章叙述。各位<br>及时给出评价。注：mac在更新13之后不能使用<br>压缩过后的文件，不知道为啥，在此我提供未<br>压缩的文件。见：App-arm64darwin-noupx、Ap<br>p-am d64darwin-noupx|
-|2022-11-23 03:58:28|[BpScan](https://github.com/EASY233/BpScan)|1.0.0|1、修复log4j poc编码问题2、修复dnslog平<br>台请求错误的问题3、其他bug修复|
 ## 近30天commit提交记录
 | 提交时间 | 项目名称 | 更新内容 |
 | :---- | :---- | :---- |
-|2022-12-23 01:00:16|[NucleiTP](https://github.com/ExpLangcn/NucleiTP)|更新啦❤️|
-|2022-12-22 20:47:31|[PocOrExp_in_Github](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2022-12-23 04:47:30|
+|2022-12-24 00:30:17|[NucleiTP](https://github.com/ExpLangcn/NucleiTP)|更新啦❤️|
+|2022-12-23 23:08:06|[PocOrExp_in_Github](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2022-12-24 07:08:06|
+|2022-12-23 14:17:26|[captcha-killer-modi<br>fied](https://github.com/f0ng/captcha-killer-modified)|Update README.md|
+|2022-12-23 09:45:08|[super-xray](https://github.com/4ra1n/super-xray)|readme|
+|2022-12-23 02:48:41|[vulnerability](https://github.com/lal0ne/vulnerability)|CVE-2022-43571|
 |2022-12-22 03:22:36|[afrog](https://github.com/zan8in/afrog)|afrog-pocs 1.7.8|
 |2022-12-21 21:23:19|[RsaCtfTool](https://github.com/RsaCtfTool/RsaCtfTool)|Update logging.StreamHandler to use sys.stderr instead<br> of sys.stdout|
 |2022-12-21 20:15:18|[wpscan](https://github.com/wpscanteam/wpscan)|Updates DFs|
-|2022-12-21 11:49:36|[super-xray](https://github.com/4ra1n/super-xray)|UI BUG|
 |2022-12-21 02:53:43|[All-Defense-Tool](https://github.com/guchangan1/All-Defense-Tool)|更新v2.1|
 |2022-12-20 09:22:50|[svnExploit](https://github.com/admintony/svnExploit)|Do not verify the certificate取消对https证书的校验，防<br>止一些https自签名证书dump失败|
 |2022-12-19 06:40:20|[404StarLink](https://github.com/knownsec/404StarLink)|weekly update at 2022-12-19|
@@ -31,8 +33,6 @@
 |2022-12-18 06:06:34|[Threathunting-book](https://github.com/12306Bro/Threathunting-book)|Update README.md|
 |2022-12-17 09:57:34|[poc-hub](https://github.com/ybdt/poc-hub)|Update .gitignore|
 |2022-12-14 12:09:50|[feroxbuster](https://github.com/epi052/feroxbuster)|Merge pull request #734 from epi052/all-contributors/a<br>dd-kmancdocs: add kmanc as a contributor for bug, and c<br>ode|
-|2022-12-14 05:55:42|[vulnerability](https://github.com/lal0ne/vulnerability)|CVE-2022-46169|
-|2022-12-14 03:27:29|[captcha-killer-modi<br>fied](https://github.com/f0ng/captcha-killer-modified)|Update FAQ.md|
 |2022-12-13 07:14:54|[Library-POC](https://github.com/luck-ying/Library-POC)|Update README.md|
 |2022-12-13 03:25:37|[pocsuite3](https://github.com/knownsec/pocsuite3)|Merge pull request #349 from 13ph03nix/masterchore: bu<br>mp version to 2.0.2|
 |2022-12-11 13:00:15|[nuclei](https://github.com/projectdiscovery/nuclei)|Merge pull request #3021 from projectdiscovery/devBugf<br>ix release|
@@ -105,7 +105,7 @@
 #### 半自动化漏洞利用
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
-| [railgun](https://github.com/lz520520/railgun) | v1.4.6 |  |
+| [railgun](https://github.com/lz520520/railgun) | v1.5.0 |  |
 | [Goby](https://github.com/gobysec/Goby) | Beta1.9.3<br>25 | Attack surface mapping |
 #### 半自动漏洞扫描
 | 项目名称 | 版本 | 项目描述 |
@@ -288,7 +288,7 @@
 | [Sylas](https://github.com/Acmesec/Sylas) | 1.1.1 | 新一代子域名主/被动收集工具 - Subdomain automatic/passive collec<br>tion tool |
 | [GadgetProbe](https://github.com/BishopFox/GadgetProbe) | v1.0 | Probe endpoints consuming Java serialized objects to identify cl<br>asses, libraries, and library versions on remote Java classpaths. |
 | [HopLa](https://github.com/synacktiv/HopLa) | 1.2 |  HopLa Burp Suite Extender plugin -Adds autocompletion support a<br>nd useful payloads in Burp Suite |
-| [captcha-killer-modi<br>fied](https://github.com/f0ng/captcha-killer-modified) | 0.19 | captcha-killer的修改版，支持关键词识别base64编码的图片，添加免费<br>ocr库，用于验证码爆破，适配新版Burpsuite |
+| [captcha-killer-modi<br>fied](https://github.com/f0ng/captcha-killer-modified) | 0.20 | captcha-killer的修改版，支持关键词识别base64编码的图片，添加免费<br>ocr库，用于验证码爆破，适配新版Burpsuite |
 | [BurpCrypto](https://github.com/whwlsfb/BurpCrypto) |  | BurpCrypto is a collection of burpsuite encryption plug-ins, sup<br>port AES/RSA/DES/ExecJs(execute JS encryption code in burpsuite).<br> 支持多种加密算法或直接执行JS代码的用于爆破前端加密的BurpSuite插<br>件 |
 | [autoDecoder](https://github.com/f0ng/autoDecoder) | 0.19.0 | Burp插件，根据自定义来达到对数据包的处理（适用于加解密、爆破等）<br>，类似mitmproxy，不同点在于经过了burp中转，在自动加解密的基础上，<br>不影响APP、网站加解密正常逻辑等。 |
 | [burpFakeIP](https://github.com/TheKingOfDuck/burpFakeIP) | 1.1 | 服务端配置错误情况下用于伪造ip地址进行测试的Burp Suite插件 |
@@ -308,7 +308,7 @@
 | :---- | :---- | :---- |
 | [yarx](https://github.com/zema1/yarx) | v0.2.0 | An awesome reverse engine for xray poc. | 一个自动化根据 xray po<br>c 生成对应 server 的工具 |
 | [xray-poc-generation](https://github.com/phith0n/xray-poc-generation) |  | 🧬 辅助生成 XRay YAML POC |
-| [super-xray](https://github.com/4ra1n/super-xray) | 0.9 | XRAY GUI Starter (Web Vulnerability Scanner) |
+| [super-xray](https://github.com/4ra1n/super-xray) | 1.0 | XRAY GUI Starter (Web Vulnerability Scanner) |
 #### pocsuite3
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |

@@ -236,9 +236,9 @@
                 "description": null,
                 "commit_date": "2022-08-22 05:20:08",
                 "commit_message": "Merge pull request #41 from lz520520/branch1\n\nupdate: README.md",
-                "release_tag": "v1.4.6",
-                "release_date": "2022-08-22 05:14:50",
-                "release_message": "1. 漏洞利用\r\n  a. 优化插件刷新功能\r\n  b. shiro利用优化\r\n2. 编码模块重构\r\n  a. 分页可编排功能基本完成\r\n  b. 完成从文件读写操作\r\n  c. 编码使用说明（UI功能已完成，说明也基本完善）\r\n  d. 新编码\r\n    [X] zip编码\r\n    [X] language编码\r\n  [X] 优化编码禁用效果\r\n\r\n\r\n解压密码railgun"
+                "release_tag": "v1.5.0",
+                "release_date": "2022-12-23 07:55:00",
+                "release_message": "重构了不少东西，为了后面快速扩展吧，然后就是新增了mac版，但没做太多测试，遇到问题可以反馈。\r\n\r\nPS: 解压密码railgun\r\n\r\n\r\nV1.5.0\r\n1. 端口扫描\r\n  a. 重构指纹探测逻辑，修改为指纹编排方式，可组合串联不同探测方式。\r\n  b. 增加指纹结果选项，用于标识更准确的协议指纹信息。\r\n  c. 新增Banner提取指纹信息ssh/mysql/vnc。\r\n  d. 指纹识别新增，redis/docker/dubbo/jboss/mssql/mysql/wmi/smb2/winrm/rmi/rdp/oracle/postgresql/ldap。\r\n2. 漏洞利用\r\n  a. 子选项优化渲染逻辑，可任意多行子选项。\r\n3. 辅助模块\r\n  a. 增加正则测试模块，用于快速测试正则。\r\n4. 增加mac版（测试，存在一些UI问题，后续再慢慢解决）\r\n  a. 修复了mac部分控件异常问题，包括combobox、label等。\r\n\r\n\r\nV1.4.9\r\n1. 漏洞利用\r\n  a. 插件中可调用任意编码转换模块的编码，并可自动化生成编码转换代码。\r\n  b. EXP详细信息支持最大化查看，方便浏览。\r\n  c. 绝大部分漏洞迁移成插件。\r\n2. 暴力破解\r\n  a. 增加ssh://192.168.1.1:22格式，可针对不同协议、不同端口调用字典进行爆破。\r\n  b. 当协议设置成多端口时，支持端口扫描结果同协议多端口发送到爆破模块。\r\n    ⅰ. 多端口时，格式为ssh://192.168.1.1:22\r\n    ⅱ. 单端口时，格式为192.168.1.1\r\n3. 所有grid优化成焦点跟随滚轮移动。\r\n4. 编码转换\r\n  a. 增加pinyin：中文转拼音\r\n\r\n\r\nV1.4.8\r\n1. 重构并发框架，简化并发编写，后续扩展模块更快速。\r\n2. UI优化，修改为菜单栏切换方式，并可右键独立窗口运行。\r\n3. 功能扩展\r\n  [X] 增加IP查询功能\r\n  [X] 增加密码生成功能\r\n  [X] 重构信息提取功能\r\n  [X] 增加Host碰撞功能\r\n4. 暴力破解\r\n  a. 字典设置UI迁移\r\n5. 编码转换\r\n  a. 新增URL格式化\r\n\r\nV1.4.7\r\n1. 漏洞利用\r\n  a. 增加漏洞利用日志记录，目前仅支持http协议，并支持字段过滤\r\n2. 编码转换\r\n  a. 增加大小写转换：LetterCase\r\n  b. 增加NLTM\r\n  c. 增加json格式化，json转go结构体"
             },
             "https://github.com/gobysec/Goby": {
                 "created_at": "2019-06-03 07:56:11",
@@ -1046,8 +1046,8 @@
             "https://github.com/lal0ne/vulnerability": {
                 "created_at": "2022-01-20 02:48:42",
                 "description": "收集、整理、修改互联网上公开的漏洞POC",
-                "commit_date": "2022-12-14 05:55:42",
-                "commit_message": "CVE-2022-46169",
+                "commit_date": "2022-12-23 02:48:41",
+                "commit_message": "CVE-2022-43571",
                 "release_tag": null,
                 "release_date": "",
                 "release_message": null
@@ -1073,8 +1073,8 @@
             "https://github.com/ycdxsb/PocOrExp_in_Github": {
                 "created_at": "2021-04-13 05:46:16",
                 "description": "聚合Github上已有的Poc或者Exp，CVE信息来自CVE官网。Auto Collect Poc Or Exp from Github by CVE ID.",
-                "commit_date": "2022-12-22 20:47:31",
-                "commit_message": "update 2022-12-23 04:47:30",
+                "commit_date": "2022-12-23 23:08:06",
+                "commit_message": "update 2022-12-24 07:08:06",
                 "release_tag": null,
                 "release_date": "",
                 "release_message": null
@@ -1433,11 +1433,11 @@
             "https://github.com/f0ng/captcha-killer-modified": {
                 "created_at": "2022-03-18 12:41:58",
                 "description": "captcha-killer的修改版，支持关键词识别base64编码的图片，添加免费ocr库，用于验证码爆破，适配新版Burpsuite",
-                "commit_date": "2022-12-14 03:27:29",
-                "commit_message": "Update FAQ.md",
-                "release_tag": "0.19",
-                "release_date": "2022-12-14 01:54:06",
-                "release_message": "【2022-12-14】 0.19\r\n1. 增加URL解码、过滤图片编码中的`.`，#20 感谢@yinanzhaobaima 师傅反馈\r\n\r\n\r\n<img width=\"747\" alt=\"image\" src=\"https://user-images.githubusercontent.com/48286013/207485085-4ed8ac8d-55c7-4df1-81a2-c343277a2c16.png\">\r\n"
+                "commit_date": "2022-12-23 14:17:26",
+                "commit_message": "Update README.md",
+                "release_tag": "0.20",
+                "release_date": "2022-12-23 14:18:52",
+                "release_message": "【2022-12-23】 0.20\r\n\r\n修复了url识别问题、爆破顺序错乱问题、响应包直接为base64编码导致爆破失败问题，感谢微信群师傅@赵 、@Kingfuke "
             },
             "https://github.com/whwlsfb/BurpCrypto": {
                 "created_at": "2020-05-29 02:59:15",
@@ -1588,11 +1588,11 @@
             "https://github.com/4ra1n/super-xray": {
                 "created_at": "2022-11-18 14:52:09",
                 "description": "XRAY GUI Starter (Web Vulnerability Scanner)",
-                "commit_date": "2022-12-21 11:49:36",
-                "commit_message": "UI BUG",
-                "release_tag": "0.9",
-                "release_date": "2022-12-15 11:47:23",
-                "release_message": "## 0.9\r\n\r\n一个`bug`修复版本，目前功能基本完善\r\n\r\nBugs:\r\n- [important] [bug] showMessageDialog多屏情况下的位置问题 #76\r\n- [important] [bug] 反连平台应该自动配置client属性否则会失效 #72\r\n- [important] [bug] 当reverse配置为空但确认配置后无法正常启动 #71\r\n- [bug] 高级配置的某个ui绑定错误 #79\r\n- [bug] 在线生成的翻译问题 #75 (另外修复多处翻译问题)\r\n\r\nOthers:\r\n- [feat] 不输入端口情况下不应该允许开启被动扫描 #77\r\n- 构建的System JRE EXE应该对JRE版本进行限制 #73\r\n- 打开扫描结果为空时应该给一个提示 #78\r\n- 添加一个按钮允许用户清除PoC的设置 #80"
+                "commit_date": "2022-12-23 09:45:08",
+                "commit_message": "readme",
+                "release_tag": "1.0",
+                "release_date": "2022-12-23 09:53:06",
+                "release_message": "## 1.0\r\n\r\n增加了下载面板，可以一键下载最新版xray和rad并加载；增加了子域名扫描的模块，但仅高级版xray可用。\r\n\r\n![image](https://user-images.githubusercontent.com/34726933/209314160-91e7cf37-06dc-435b-ab53-5af92800797b.png)\r\n\r\n- New Features:\r\n- [important] [feat] 自动下载解压最新版xray并加载 #86\r\n- [important] [feat] 自动下载解压最新版rad并加载 #87\r\n- [important] [feat] 添加子域名扫描的功能 #85\r\n- [important] [feat] 指定多个poc扫描的实现方式 #82\r\n- [important] 用户可选关闭后保留日志用于调试 #83\r\n- [feat] 不配置目标的时候应该禁止主动扫描 #81\r\n- [feat] 添加一个rad下载站点按钮 #84\r\n- 应该提示用户先输入reverse-http url然后配置服务端 #88\r\n\r\n\r\n介绍视频：https://www.bilibili.com/video/BV1Zd4y1h7Rf\r\n\r\n下载：\r\n- super-xray-1.0.jar版本是通过`java -jar super-xray-1.0.jar`启动的\r\n- super-xray-1.0-jre-exe.zip是内置了JRE的exe版本\r\n- super-xray-1.0-system-jre.exe是使用系统JRE的exe版本"
             }
         },
         "pocsuite3": {
@@ -1708,7 +1708,7 @@
             "https://github.com/ExpLangcn/NucleiTP": {
                 "created_at": "2022-11-08 13:16:56",
                 "description": "自动整合全网Nuclei的漏洞POC，实时同步更新最新POC！",
-                "commit_date": "2022-12-23 01:00:16",
+                "commit_date": "2022-12-24 00:30:17",
                 "commit_message": "更新啦❤️",
                 "release_tag": null,
                 "release_date": "",
