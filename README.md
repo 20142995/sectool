@@ -1,4 +1,4 @@
-# 更新于 2022-12-26 09:02:20
+# 更新于 2022-12-27 09:02:51
 
 ## 近30天release更新记录
 | 更新时间 | 项目名称 | 版本 | 更新内容 |
@@ -18,17 +18,21 @@
 ## 近30天commit提交记录
 | 提交时间 | 项目名称 | 更新内容 |
 | :---- | :---- | :---- |
-|2022-12-26 00:33:36|[PocOrExp_in_Github](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2022-12-26 08:33:36|
+|2022-12-27 01:00:59|[PocOrExp_in_Github](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2022-12-27 09:00:58|
+|2022-12-26 20:22:12|[wpscan](https://github.com/wpscanteam/wpscan)|Removes ruby 3.2 from build matrix|
+|2022-12-26 07:40:18|[Vulnerability-Wiki](https://github.com/Threekiii/Vulnerability-Wiki)|更新漏洞|
+|2022-12-26 07:31:24|[Vulhub-Reproduce](https://github.com/Threekiii/Vulhub-Reproduce)|更新漏洞|
+|2022-12-26 07:30:58|[Awesome-Redteam](https://github.com/Threekiii/Awesome-Redteam)|更新README.md|
+|2022-12-26 07:30:17|[Awesome-POC](https://github.com/Threekiii/Awesome-POC)|更新漏洞|
+|2022-12-26 03:52:39|[404StarLink](https://github.com/knownsec/404StarLink)|weekly update at 2022-12-26|
+|2022-12-26 03:46:32|[afrog](https://github.com/zan8in/afrog)|add CVE-2018-15531|
 |2022-12-25 13:00:17|[NucleiTP](https://github.com/ExpLangcn/NucleiTP)|更新啦❤️|
 |2022-12-23 14:17:26|[captcha-killer-modi<br>fied](https://github.com/f0ng/captcha-killer-modified)|Update README.md|
 |2022-12-23 09:45:08|[super-xray](https://github.com/4ra1n/super-xray)|readme|
 |2022-12-23 02:48:41|[vulnerability](https://github.com/lal0ne/vulnerability)|CVE-2022-43571|
-|2022-12-22 03:22:36|[afrog](https://github.com/zan8in/afrog)|afrog-pocs 1.7.8|
 |2022-12-21 21:23:19|[RsaCtfTool](https://github.com/RsaCtfTool/RsaCtfTool)|Update logging.StreamHandler to use sys.stderr instead<br> of sys.stdout|
-|2022-12-21 20:15:18|[wpscan](https://github.com/wpscanteam/wpscan)|Updates DFs|
 |2022-12-21 02:53:43|[All-Defense-Tool](https://github.com/guchangan1/All-Defense-Tool)|更新v2.1|
 |2022-12-20 09:22:50|[svnExploit](https://github.com/admintony/svnExploit)|Do not verify the certificate取消对https证书的校验，防<br>止一些https自签名证书dump失败|
-|2022-12-19 06:40:20|[404StarLink](https://github.com/knownsec/404StarLink)|weekly update at 2022-12-19|
 |2022-12-18 08:12:16|[HaE](https://github.com/gh0stkey/HaE)|Version: 2.4.5 Update|
 |2022-12-18 06:06:34|[Threathunting-book](https://github.com/12306Bro/Threathunting-book)|Update README.md|
 |2022-12-17 09:57:34|[poc-hub](https://github.com/ybdt/poc-hub)|Update .gitignore|
@@ -40,14 +44,10 @@
 |2022-12-11 11:22:06|[penetration-suite-t<br>oolkit](https://github.com/makoto56/penetration-suite-toolkit)|Update README.md|
 |2022-12-09 11:22:09|[dirsearch](https://github.com/maurosoria/dirsearch)|Merge pull request #1255 from kylincodelab/masterUpdat<br>e dicc.txt|
 |2022-12-09 07:10:04|[log4j2burpscanner](https://github.com/f0ng/log4j2burpscanner)|Update FAQ-zh-CN.md|
-|2022-12-09 02:48:45|[Vulnerability-Wiki](https://github.com/Threekiii/Vulnerability-Wiki)|更新漏洞|
-|2022-12-09 02:47:17|[Awesome-POC](https://github.com/Threekiii/Awesome-POC)|更新漏洞|
 |2022-12-08 13:37:18|[InfoSearchAll](https://github.com/ExpLangcn/InfoSearchAll)|Update README.md|
 |2022-12-07 21:02:53|[ffuf](https://github.com/ffuf/ffuf)|Fix the ac for good now (#615)|
 |2022-12-06 07:29:11|[OneForAll](https://github.com/shmilylty/OneForAll)|回退|
 |2022-12-05 16:15:52|[OA-EXPTOOL](https://github.com/LittleBear4/OA-EXPTOOL)|Update README.md|
-|2022-12-05 09:54:29|[Awesome-Redteam](https://github.com/Threekiii/Awesome-Redteam)|图片本地化|
-|2022-12-05 03:27:07|[Vulhub-Reproduce](https://github.com/Threekiii/Vulhub-Reproduce)|更新README.md|
 |2022-12-03 07:13:38|[RedisEXP](https://github.com/yuyan-sec/RedisEXP)|Update tools.go|
 |2022-12-02 08:08:51|[github-subdomains](https://github.com/gwen001/github-subdomains)|v1.2.0|
 |2022-12-02 06:41:15|[TomatoTools](https://github.com/ht0Ruial/TomatoTools)|fix #7|

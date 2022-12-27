@@ -299,8 +299,8 @@
             "https://github.com/zan8in/afrog": {
                 "created_at": "2022-02-24 06:00:32",
                 "description": "A Vulnerability Scanning Tools For Penetration Testing",
-                "commit_date": "2022-12-22 03:22:36",
-                "commit_message": "afrog-pocs 1.7.8",
+                "commit_date": "2022-12-26 03:46:32",
+                "commit_message": "add CVE-2018-15531",
                 "release_tag": "v2.1.1",
                 "release_date": "2022-12-21 09:25:38",
                 "release_message": "- Fixed a bug with high false positives in fingerprint\r\n- Added optional -json option for write output in JSON format, eg: -json result.json \r\n"
@@ -752,8 +752,8 @@
             "https://github.com/wpscanteam/wpscan": {
                 "created_at": "2012-07-11 20:27:47",
                 "description": "WPScan WordPress security scanner. Written for security professionals and blog maintainers to test the security of their WordPress websites.",
-                "commit_date": "2022-12-21 20:15:18",
-                "commit_message": "Updates DFs",
+                "commit_date": "2022-12-26 20:22:12",
+                "commit_message": "Removes ruby 3.2 from build matrix",
                 "release_tag": "v3.8.22",
                 "release_date": "2022-04-04 14:04:28",
                 "release_message": "See https://github.com/wpscanteam/CMSScanner/releases/tag/v0.13.8\r\n\r\n- Minor:\r\n  - Better handling of redirection, ie when target http->https (or the opposite), the target URL will be changed to the new one automatically to avoid scanning the http version and getting 301 which could result in items being missed\r\n  - Better handling of unsupported HEAD method by checking for 501 and timeout as well"
@@ -1073,8 +1073,8 @@
             "https://github.com/ycdxsb/PocOrExp_in_Github": {
                 "created_at": "2021-04-13 05:46:16",
                 "description": "聚合Github上已有的Poc或者Exp，CVE信息来自CVE官网。Auto Collect Poc Or Exp from Github by CVE ID.",
-                "commit_date": "2022-12-26 00:33:36",
-                "commit_message": "update 2022-12-26 08:33:36",
+                "commit_date": "2022-12-27 01:00:59",
+                "commit_message": "update 2022-12-27 09:00:58",
                 "release_tag": null,
                 "release_date": "",
                 "release_message": null
@@ -1120,7 +1120,7 @@
             "https://github.com/Threekiii/Awesome-POC": {
                 "created_at": "2022-02-20 06:43:22",
                 "description": "一个各类漏洞POC知识库",
-                "commit_date": "2022-12-09 02:47:17",
+                "commit_date": "2022-12-26 07:30:17",
                 "commit_message": "更新漏洞",
                 "release_tag": null,
                 "release_date": "",
@@ -1129,7 +1129,7 @@
             "https://github.com/Threekiii/Vulnerability-Wiki": {
                 "created_at": "2022-04-29 05:36:33",
                 "description": "一个综合漏洞知识库，集成了Vulhub、Peiqi、Edge、0sec、Wooyun等开源漏洞库",
-                "commit_date": "2022-12-09 02:48:45",
+                "commit_date": "2022-12-26 07:40:18",
                 "commit_message": "更新漏洞",
                 "release_tag": "v1.0",
                 "release_date": "2022-07-15 01:58:00",
@@ -1147,8 +1147,8 @@
             "https://github.com/Threekiii/Vulhub-Reproduce": {
                 "created_at": "2022-03-03 08:38:29",
                 "description": "一个Vulhub漏洞复现知识库",
-                "commit_date": "2022-12-05 03:27:07",
-                "commit_message": "更新README.md",
+                "commit_date": "2022-12-26 07:31:24",
+                "commit_message": "更新漏洞",
                 "release_tag": null,
                 "release_date": "",
                 "release_message": null
@@ -1247,8 +1247,8 @@
             "https://github.com/Threekiii/Awesome-Redteam": {
                 "created_at": "2022-02-08 00:45:03",
                 "description": "一个红队知识仓库",
-                "commit_date": "2022-12-05 09:54:29",
-                "commit_message": "图片本地化",
+                "commit_date": "2022-12-26 07:30:58",
+                "commit_message": "更新README.md",
                 "release_tag": null,
                 "release_date": "",
                 "release_message": null
@@ -1285,8 +1285,8 @@
             "https://github.com/knownsec/404StarLink": {
                 "created_at": "2020-11-17 08:10:18",
                 "description": "404StarLink - 推荐优质、有意义、有趣、坚持维护的安全开源项目",
-                "commit_date": "2022-12-19 06:40:20",
-                "commit_message": "weekly update at 2022-12-19",
+                "commit_date": "2022-12-26 03:52:39",
+                "commit_message": "weekly update at 2022-12-26",
                 "release_tag": null,
                 "release_date": "",
                 "release_message": null
