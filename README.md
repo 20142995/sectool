@@ -1,4 +1,4 @@
-# 更新于 2022-12-27 09:02:51
+# 更新于 2022-12-28 09:00:44
 
 ## 近30天release更新记录
 | 更新时间 | 项目名称 | 版本 | 更新内容 |
@@ -18,7 +18,11 @@
 ## 近30天commit提交记录
 | 提交时间 | 项目名称 | 更新内容 |
 | :---- | :---- | :---- |
-|2022-12-27 01:00:59|[PocOrExp_in_Github](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2022-12-27 09:00:58|
+|2022-12-27 23:25:04|[PocOrExp_in_Github](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2022-12-28 07:25:04|
+|2022-12-27 16:56:33|[super-xray](https://github.com/4ra1n/super-xray)|readme|
+|2022-12-27 11:19:27|[xray](https://github.com/chaitin/xray)|Readme en (#1704)* [add] 添加英文readme* [add] 添加英<br>文版免责声明与license* [update] LICENSE* [update] LICENS<br>E* [update] NaturalizationCo-authored-by: luhan.xu |
+|2022-12-27 09:47:31|[vulnerability](https://github.com/lal0ne/vulnerability)|CVE-2022-41080|
+|2022-12-27 08:34:19|[Threathunting-book](https://github.com/12306Bro/Threathunting-book)|Merge branch 'master' of https://github.com/12306Bro/T<br>hreathunting-book|
 |2022-12-26 20:22:12|[wpscan](https://github.com/wpscanteam/wpscan)|Removes ruby 3.2 from build matrix|
 |2022-12-26 07:40:18|[Vulnerability-Wiki](https://github.com/Threekiii/Vulnerability-Wiki)|更新漏洞|
 |2022-12-26 07:31:24|[Vulhub-Reproduce](https://github.com/Threekiii/Vulhub-Reproduce)|更新漏洞|
@@ -28,13 +32,10 @@
 |2022-12-26 03:46:32|[afrog](https://github.com/zan8in/afrog)|add CVE-2018-15531|
 |2022-12-25 13:00:17|[NucleiTP](https://github.com/ExpLangcn/NucleiTP)|更新啦❤️|
 |2022-12-23 14:17:26|[captcha-killer-modi<br>fied](https://github.com/f0ng/captcha-killer-modified)|Update README.md|
-|2022-12-23 09:45:08|[super-xray](https://github.com/4ra1n/super-xray)|readme|
-|2022-12-23 02:48:41|[vulnerability](https://github.com/lal0ne/vulnerability)|CVE-2022-43571|
 |2022-12-21 21:23:19|[RsaCtfTool](https://github.com/RsaCtfTool/RsaCtfTool)|Update logging.StreamHandler to use sys.stderr instead<br> of sys.stdout|
 |2022-12-21 02:53:43|[All-Defense-Tool](https://github.com/guchangan1/All-Defense-Tool)|更新v2.1|
 |2022-12-20 09:22:50|[svnExploit](https://github.com/admintony/svnExploit)|Do not verify the certificate取消对https证书的校验，防<br>止一些https自签名证书dump失败|
 |2022-12-18 08:12:16|[HaE](https://github.com/gh0stkey/HaE)|Version: 2.4.5 Update|
-|2022-12-18 06:06:34|[Threathunting-book](https://github.com/12306Bro/Threathunting-book)|Update README.md|
 |2022-12-17 09:57:34|[poc-hub](https://github.com/ybdt/poc-hub)|Update .gitignore|
 |2022-12-14 12:09:50|[feroxbuster](https://github.com/epi052/feroxbuster)|Merge pull request #734 from epi052/all-contributors/a<br>dd-kmancdocs: add kmanc as a contributor for bug, and c<br>ode|
 |2022-12-13 07:14:54|[Library-POC](https://github.com/luck-ying/Library-POC)|Update README.md|
@@ -55,8 +56,7 @@
 |2022-12-01 07:55:41|[RequestTemplate](https://github.com/1n7erface/RequestTemplate)|Update README.md|
 |2022-11-30 19:12:19|[faker](https://github.com/joke2k/faker)|Bump version: 15.3.3 → 15.3.4|
 |2022-11-29 10:47:06|[QingTing](https://github.com/StarCrossPortal/QingTing)|蜻蜓v2|
-|2022-11-29 02:41:57|[aksk_tool](https://github.com/wyzxxz/aksk_tool)|Update README.md|
-|2022-11-27 07:02:42|[knife](https://github.com/bit4woo/knife)|update|## 所有项目
+|2022-11-29 02:41:57|[aksk_tool](https://github.com/wyzxxz/aksk_tool)|Update README.md|## 所有项目
 ### 信息收集
 #### 资产测绘采集
 | 项目名称 | 版本 | 项目描述 |
