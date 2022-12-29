@@ -299,8 +299,8 @@
             "https://github.com/zan8in/afrog": {
                 "created_at": "2022-02-24 06:00:32",
                 "description": "A Vulnerability Scanning Tools For Penetration Testing",
-                "commit_date": "2022-12-26 03:46:32",
-                "commit_message": "add CVE-2018-15531",
+                "commit_date": "2022-12-28 08:09:33",
+                "commit_message": "update pocs",
                 "release_tag": "v2.1.1",
                 "release_date": "2022-12-21 09:25:38",
                 "release_message": "- Fixed a bug with high false positives in fingerprint\r\n- Added optional -json option for write output in JSON format, eg: -json result.json \r\n"
@@ -487,7 +487,7 @@
             "https://github.com/wyzxxz/shiro_rce_tool": {
                 "created_at": "2020-01-07 10:47:41",
                 "description": "shiro 反序列 命令执行辅助检测工具",
-                "commit_date": "2022-08-17 09:35:07",
+                "commit_date": "2022-12-28 02:37:14",
                 "commit_message": "Update README.md",
                 "release_tag": null,
                 "release_date": "",
@@ -1073,8 +1073,8 @@
             "https://github.com/ycdxsb/PocOrExp_in_Github": {
                 "created_at": "2021-04-13 05:46:16",
                 "description": "聚合Github上已有的Poc或者Exp，CVE信息来自CVE官网。Auto Collect Poc Or Exp from Github by CVE ID.",
-                "commit_date": "2022-12-27 23:25:04",
-                "commit_message": "update 2022-12-28 07:25:04",
+                "commit_date": "2022-12-28 23:41:37",
+                "commit_message": "update 2022-12-29 07:41:37",
                 "release_tag": null,
                 "release_date": "",
                 "release_message": null
@@ -1129,7 +1129,7 @@
             "https://github.com/Threekiii/Vulnerability-Wiki": {
                 "created_at": "2022-04-29 05:36:33",
                 "description": "一个综合漏洞知识库，集成了Vulhub、Peiqi、Edge、0sec、Wooyun等开源漏洞库",
-                "commit_date": "2022-12-26 07:40:18",
+                "commit_date": "2022-12-28 01:57:57",
                 "commit_message": "更新漏洞",
                 "release_tag": "v1.0",
                 "release_date": "2022-07-15 01:58:00",
@@ -1147,7 +1147,7 @@
             "https://github.com/Threekiii/Vulhub-Reproduce": {
                 "created_at": "2022-03-03 08:38:29",
                 "description": "一个Vulhub漏洞复现知识库",
-                "commit_date": "2022-12-26 07:31:24",
+                "commit_date": "2022-12-28 01:56:21",
                 "commit_message": "更新漏洞",
                 "release_tag": null,
                 "release_date": "",
@@ -1294,8 +1294,8 @@
             "https://github.com/We5ter/Scanners-Box": {
                 "created_at": "2016-12-24 16:07:50",
                 "description": "A powerful and open-source toolkit for hackers and security automation - 安全行业从业者自研开源扫描器合辑",
-                "commit_date": "2022-11-15 11:01:06",
-                "commit_message": "[+]anouarbensaad/vulnx",
+                "commit_date": "2022-12-28 08:10:34",
+                "commit_message": "[+]OJ/gobuster & D3Ext / AORT",
                 "release_tag": null,
                 "release_date": "",
                 "release_message": null
