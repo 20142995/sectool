@@ -107,8 +107,8 @@
             "https://github.com/epi052/feroxbuster": {
                 "created_at": "2020-08-22 15:36:19",
                 "description": "A fast, simple, recursive content discovery tool written in Rust.",
-                "commit_date": "2022-12-14 12:09:50",
-                "commit_message": "Merge pull request #734 from epi052/all-contributors/add-kmanc\n\ndocs: add kmanc as a contributor for bug, and code",
+                "commit_date": "2022-12-29 12:59:34",
+                "commit_message": "Merge pull request #749 from n0kovo/main\n\nFix incorrect username in Contributors",
                 "release_tag": "v2.7.2",
                 "release_date": "2022-11-16 22:53:24",
                 "release_message": "## What's Changed\r\n* removed superfluous if statement by @herrcykel in https://github.com/epi052/feroxbuster/pull/580\r\n* upgraded leaky-bucket to 0.12.1 by @udoprog in https://github.com/epi052/feroxbuster/pull/604\r\n* updated dependencies by @epi052 in https://github.com/epi052/feroxbuster/pull/670\r\n* upgraded clap from 3.x to 4.x by @epi052 in https://github.com/epi052/feroxbuster/pull/671\r\n* 661 fix double dir scan by @epi052 in https://github.com/epi052/feroxbuster/pull/672\r\n* fixed invalid uri exception during extraction by @epi052 in https://github.com/epi052/feroxbuster/pull/706\r\n\r\n## New Contributors\r\n* @herrcykel made their first contribution in https://github.com/epi052/feroxbuster/pull/580\r\n* @udoprog made their first contribution in https://github.com/epi052/feroxbuster/pull/604\r\n\r\n**Full Changelog**: https://github.com/epi052/feroxbuster/compare/2.7.1...v2.7.2"
@@ -299,7 +299,7 @@
             "https://github.com/zan8in/afrog": {
                 "created_at": "2022-02-24 06:00:32",
                 "description": "A Vulnerability Scanning Tools For Penetration Testing",
-                "commit_date": "2022-12-28 08:09:33",
+                "commit_date": "2022-12-29 09:35:03",
                 "commit_message": "update pocs",
                 "release_tag": "v2.1.1",
                 "release_date": "2022-12-21 09:25:38",
@@ -1073,8 +1073,8 @@
             "https://github.com/ycdxsb/PocOrExp_in_Github": {
                 "created_at": "2021-04-13 05:46:16",
                 "description": "聚合Github上已有的Poc或者Exp，CVE信息来自CVE官网。Auto Collect Poc Or Exp from Github by CVE ID.",
-                "commit_date": "2022-12-28 23:41:37",
-                "commit_message": "update 2022-12-29 07:41:37",
+                "commit_date": "2022-12-30 00:39:25",
+                "commit_message": "update 2022-12-30 08:39:24",
                 "release_tag": null,
                 "release_date": "",
                 "release_message": null
@@ -1451,8 +1451,8 @@
             "https://github.com/f0ng/autoDecoder": {
                 "created_at": "2022-03-26 10:13:56",
                 "description": "Burp插件，根据自定义来达到对数据包的处理（适用于加解密、爆破等），类似mitmproxy，不同点在于经过了burp中转，在自动加解密的基础上，不影响APP、网站加解密正常逻辑等。",
-                "commit_date": "2022-11-15 05:41:53",
-                "commit_message": "Update README.md",
+                "commit_date": "2022-12-29 07:04:25",
+                "commit_message": "Add files via upload",
                 "release_tag": "0.19.0",
                 "release_date": "2022-11-11 06:00:52",
                 "release_message": "## 2022.11.11 更新0.19\r\n修改了ui，优化了在新版bp上`html`无法解析的问题"
@@ -1708,7 +1708,7 @@
             "https://github.com/ExpLangcn/NucleiTP": {
                 "created_at": "2022-11-08 13:16:56",
                 "description": "自动整合全网Nuclei的漏洞POC，实时同步更新最新POC！",
-                "commit_date": "2022-12-25 13:00:17",
+                "commit_date": "2022-12-30 01:00:17",
                 "commit_message": "更新啦❤️",
                 "release_tag": null,
                 "release_date": "",
@@ -1920,8 +1920,8 @@
             "https://github.com/RsaCtfTool/RsaCtfTool": {
                 "created_at": "2015-03-07 17:29:33",
                 "description": "RSA attack tool (mainly for ctf) - retreive private key from weak public key and/or uncipher data",
-                "commit_date": "2022-12-21 21:23:19",
-                "commit_message": "Update logging.StreamHandler to use sys.stderr instead of sys.stdout",
+                "commit_date": "2022-12-29 16:51:41",
+                "commit_message": "Merge pull request #390 from MarcoMeinardi/master\n\nFixed linter warnings",
                 "release_tag": null,
                 "release_date": "",
                 "release_message": null
