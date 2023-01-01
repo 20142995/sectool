@@ -299,7 +299,7 @@
             "https://github.com/zan8in/afrog": {
                 "created_at": "2022-02-24 06:00:32",
                 "description": "A Vulnerability Scanning Tools For Penetration Testing",
-                "commit_date": "2022-12-31 00:49:40",
+                "commit_date": "2022-12-31 14:46:44",
                 "commit_message": "update pocs",
                 "release_tag": "v2.1.1",
                 "release_date": "2022-12-21 09:25:38",
@@ -1082,8 +1082,8 @@
             "https://github.com/ycdxsb/PocOrExp_in_Github": {
                 "created_at": "2021-04-13 05:46:16",
                 "description": "聚合Github上已有的Poc或者Exp，CVE信息来自CVE官网。Auto Collect Poc Or Exp from Github by CVE ID.",
-                "commit_date": "2022-12-31 00:44:40",
-                "commit_message": "update 2022-12-31 08:44:40",
+                "commit_date": "2022-12-31 23:40:55",
+                "commit_message": "update 2023-01-01 07:40:54",
                 "release_tag": null,
                 "release_date": "",
                 "release_message": null
@@ -1737,7 +1737,7 @@
             "https://github.com/ExpLangcn/NucleiTP": {
                 "created_at": "2022-11-08 13:16:56",
                 "description": "自动整合全网Nuclei的漏洞POC，实时同步更新最新POC！",
-                "commit_date": "2022-12-31 00:30:16",
+                "commit_date": "2023-01-01 01:00:17",
                 "commit_message": "更新啦❤️",
                 "release_tag": null,
                 "release_date": "",
