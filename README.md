@@ -1,4 +1,4 @@
-# 更新于 2023-01-01 09:11:34
+# 更新于 2023-01-02 09:04:15
 
 ## 近30天release更新记录
 | 更新时间 | 项目名称 | 版本 | 更新内容 |
@@ -12,16 +12,15 @@
 |2022-12-13 03:32:05|[pocsuite3](https://github.com/knownsec/pocsuite3)|v2.0.2|* 修复 _check 方法中 url 重定向的问题 #<br>337* 修复 console 模式下 use 命令使用绝<br>对路径的问题 #341，thanks @S2eTo* 修复 bu<br>ild_url 兼容 ipv6 的问题 #347，thanks @H<br>omerQing* 优化 nuclei DSL 表达式执行 #34<br>8----------------* fix url redirect prob<br>lem in _check method #337* fix use comma<br>nd in console mode can't use absolute pa<br>th #341, thanks @S2eTo* fix ipv6 compati<br>bility issue in build_url #347, thanks @<br>HomerQing* optimize dsl expression execu<br>tion #348|
 |2022-12-11 13:04:41|[nuclei](https://github.com/projectdiscovery/nuclei)|v2.8.3|## What's Changed* Fixed bug to conside<br>r clustering with automatic http probing<br> by @Ice3man543 in https://github.com/pr<br>ojectdiscovery/nuclei/pull/3019* Fixed b<br>ug to remove blank protocol name by @vza<br>manillo in https://github.com/projectdis<br>covery/nuclei/pull/2993* Added option to<br> disable request clustering by @Ice3man5<br>43in https://github.com/projectdiscovery<br>/nuclei/pull/3019* Added custom ip to pr<br>otocol-generated variables by @Mzack9999<br> in https://github.com/projectdiscovery/<br>nuclei/pull/3011**Full Changelog**: http<br>s://github.com/projectdiscovery/nuclei/c<br>ompare/v2.8.2...v2.8.3|
 |2022-12-09 01:31:39|[log4j2burpscanner](https://github.com/f0ng/log4j2burpscanner)|0.21.0|# 0.21.0 更新## 2022-12-91. 增加参数 pr<br>efixparam前缀可控，可输入如%84$，造成一<br>些数据库组件解析错误，从而进行log4j2的报<br>错触发2. 增加自定义header头获取响应结果请<br>求(支持了dnslog.cn等，但是dnslog.cn有PHPS<br>ESSID默认过期时间，暂不推荐使用)，举例如<br> privatednsResponseurl 框内填入以下字段<br>：HEADERhttp://dnslog.cn/getrecords.phpCo<br>okie:PHPSESSID=bmekedlvumo1e9onr6qsd1j2u<br>63. 修复dnsparam参数初始化问题，感谢微信<br>群@啊哈师傅反馈|
-|2022-12-02 08:08:53|[github-subdomains](https://github.com/gwen001/github-subdomains)|v1.2.0||
 ## 近30天commit提交记录
 | 提交时间 | 项目名称 | 更新内容 |
 | :---- | :---- | :---- |
-|2023-01-01 01:00:17|[NucleiTP](https://github.com/ExpLangcn/NucleiTP)|更新啦❤️|
-|2022-12-31 23:40:55|[PocOrExp_in_Github](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-01-01 07:40:54|
-|2022-12-31 14:46:44|[afrog](https://github.com/zan8in/afrog)|update pocs|
+|2023-01-02 01:00:22|[NucleiTP](https://github.com/ExpLangcn/NucleiTP)|更新啦❤️|
+|2023-01-02 00:16:10|[PocOrExp_in_Github](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-01-02 08:16:09|
+|2023-01-01 22:10:26|[RsaCtfTool](https://github.com/RsaCtfTool/RsaCtfTool)|Merge pull request #393 from Skaft/fix-all-anyQuickfix<br> on broken all/any|
+|2023-01-01 11:12:21|[afrog](https://github.com/zan8in/afrog)|update pocs|
 |2022-12-30 07:51:37|[Awesome-Redteam](https://github.com/Threekiii/Awesome-Redteam)|更新README.md|
 |2022-12-30 02:31:42|[feroxbuster](https://github.com/epi052/feroxbuster)|Merge pull request #753 from epi052/all-contributors/a<br>dd-duokebeidocs: add duokebei as a contributor for idea<br>s|
-|2022-12-29 16:51:41|[RsaCtfTool](https://github.com/RsaCtfTool/RsaCtfTool)|Merge pull request #390 from MarcoMeinardi/masterFixed<br> linter warnings|
 |2022-12-29 07:04:25|[autoDecoder](https://github.com/f0ng/autoDecoder)|Add files via upload|
 |2022-12-28 08:10:34|[Scanners-Box](https://github.com/We5ter/Scanners-Box)|[+]OJ/gobuster & D3Ext / AORT|
 |2022-12-28 02:37:14|[shiro_rce_tool](https://github.com/wyzxxz/shiro_rce_tool)|Update README.md|
@@ -50,9 +49,7 @@
 |2022-12-07 21:02:53|[ffuf](https://github.com/ffuf/ffuf)|Fix the ac for good now (#615)|
 |2022-12-06 07:29:11|[OneForAll](https://github.com/shmilylty/OneForAll)|回退|
 |2022-12-05 16:15:52|[OA-EXPTOOL](https://github.com/LittleBear4/OA-EXPTOOL)|Update README.md|
-|2022-12-03 07:13:38|[RedisEXP](https://github.com/yuyan-sec/RedisEXP)|Update tools.go|
-|2022-12-02 08:08:51|[github-subdomains](https://github.com/gwen001/github-subdomains)|v1.2.0|
-|2022-12-02 06:41:15|[TomatoTools](https://github.com/ht0Ruial/TomatoTools)|fix #7|## 所有项目
+|2022-12-03 07:13:38|[RedisEXP](https://github.com/yuyan-sec/RedisEXP)|Update tools.go|## 所有项目
 ### 信息收集
 #### 资产测绘采集
 | 项目名称 | 版本 | 项目描述 |
@@ -309,7 +306,7 @@
 | :---- | :---- | :---- |
 | [yarx](https://github.com/zema1/yarx) | v0.2.0 | An awesome reverse engine for xray poc. | 一个自动化根据 xray po<br>c 生成对应 server 的工具 |
 | [xray-poc-generation](https://github.com/phith0n/xray-poc-generation) |  | 🧬 辅助生成 XRay YAML POC |
-| [super-xray](https://github.com/4ra1n/super-xray) | 1.0 | XRAY GUI Starter (Web Vulnerability Scanner) |
+| [super-xray](https://github.com/4ra1n/super-xray) | 1.0 | Web Vulnerability Scanner XRAY GUI Starter (Web漏洞扫描工具XRAY<br>的GUI启动器，仅是简单的命令行包装) |
 #### pocsuite3
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |

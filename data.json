@@ -299,7 +299,7 @@
             "https://github.com/zan8in/afrog": {
                 "created_at": "2022-02-24 06:00:32",
                 "description": "A Vulnerability Scanning Tools For Penetration Testing",
-                "commit_date": "2022-12-31 14:46:44",
+                "commit_date": "2023-01-01 11:12:21",
                 "commit_message": "update pocs",
                 "release_tag": "v2.1.1",
                 "release_date": "2022-12-21 09:25:38",
@@ -1082,8 +1082,8 @@
             "https://github.com/ycdxsb/PocOrExp_in_Github": {
                 "created_at": "2021-04-13 05:46:16",
                 "description": "聚合Github上已有的Poc或者Exp，CVE信息来自CVE官网。Auto Collect Poc Or Exp from Github by CVE ID.",
-                "commit_date": "2022-12-31 23:40:55",
-                "commit_message": "update 2023-01-01 07:40:54",
+                "commit_date": "2023-01-02 00:16:10",
+                "commit_message": "update 2023-01-02 08:16:09",
                 "release_tag": null,
                 "release_date": "",
                 "release_message": null
@@ -1616,7 +1616,7 @@
             },
             "https://github.com/4ra1n/super-xray": {
                 "created_at": "2022-11-18 14:52:09",
-                "description": "XRAY GUI Starter (Web Vulnerability Scanner)",
+                "description": "Web Vulnerability Scanner XRAY GUI Starter (Web漏洞扫描工具XRAY的GUI启动器，仅是简单的命令行包装)",
                 "commit_date": "2022-12-27 16:56:33",
                 "commit_message": "readme",
                 "release_tag": "1.0",
@@ -1737,7 +1737,7 @@
             "https://github.com/ExpLangcn/NucleiTP": {
                 "created_at": "2022-11-08 13:16:56",
                 "description": "自动整合全网Nuclei的漏洞POC，实时同步更新最新POC！",
-                "commit_date": "2023-01-01 01:00:17",
+                "commit_date": "2023-01-02 01:00:22",
                 "commit_message": "更新啦❤️",
                 "release_tag": null,
                 "release_date": "",
@@ -1949,8 +1949,8 @@
             "https://github.com/RsaCtfTool/RsaCtfTool": {
                 "created_at": "2015-03-07 17:29:33",
                 "description": "RSA attack tool (mainly for ctf) - retreive private key from weak public key and/or uncipher data",
-                "commit_date": "2022-12-29 16:51:41",
-                "commit_message": "Merge pull request #390 from MarcoMeinardi/master\n\nFixed linter warnings",
+                "commit_date": "2023-01-01 22:10:26",
+                "commit_message": "Merge pull request #393 from Skaft/fix-all-any\n\nQuickfix on broken all/any",
                 "release_tag": null,
                 "release_date": "",
                 "release_message": null
