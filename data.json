@@ -290,17 +290,17 @@
             "https://github.com/projectdiscovery/nuclei": {
                 "created_at": "2020-04-03 18:47:11",
                 "description": "Fast and customizable vulnerability scanner based on simple YAML based DSL.",
-                "commit_date": "2022-12-11 13:00:15",
-                "commit_message": "Merge pull request #3021 from projectdiscovery/dev\n\nBugfix release",
-                "release_tag": "v2.8.3",
-                "release_date": "2022-12-11 13:04:41",
-                "release_message": "## What's Changed\r\n\r\n* Fixed bug to consider clustering with automatic http probing by @Ice3man543 in https://github.com/projectdiscovery/nuclei/pull/3019\r\n* Fixed bug to remove blank protocol name by @vzamanillo in https://github.com/projectdiscovery/nuclei/pull/2993\r\n* Added option to disable request clustering by @Ice3man543in https://github.com/projectdiscovery/nuclei/pull/3019\r\n* Added custom ip to protocol-generated variables by @Mzack9999 in https://github.com/projectdiscovery/nuclei/pull/3011\r\n\r\n\r\n**Full Changelog**: https://github.com/projectdiscovery/nuclei/compare/v2.8.2...v2.8.3"
+                "commit_date": "2023-01-02 13:34:08",
+                "commit_message": "Merge pull request #3118 from projectdiscovery/dev\n\nNuclei v2.8.4 (bugfix release)",
+                "release_tag": "v2.8.4",
+                "release_date": "2023-01-02 13:34:59",
+                "release_message": "## What's Changed\r\n\r\n* Added **scan strategy option** by @tarunKoyalwar in https://github.com/projectdiscovery/nuclei/pull/3075\r\n* Added exporter for splunk reporting by @ChrisMandich in https://github.com/projectdiscovery/nuclei/pull/3008\r\n* Added initialization of flags with nil slice by @Mzack9999 in https://github.com/projectdiscovery/nuclei/pull/3089\r\n* Added **YAML inclusion support** by @Mzack9999 in https://github.com/projectdiscovery/nuclei/pull/1767\r\n* Added `stop-at-first-match` for headless protocol by @tarunKoyalwar in https://github.com/projectdiscovery/nuclei/pull/3034\r\n* Added support to query DNS TLSA record by @nothinux in https://github.com/projectdiscovery/nuclei/pull/3054\r\n* Added release announcement to discord server by @ehsandeep in https://github.com/projectdiscovery/nuclei/pull/3120\r\n* Added more error coverage to skip host to scan by @ehsandeep in https://github.com/projectdiscovery/nuclei/pull/3121\r\n* Added skipped host information on default run by @ehsandeep in https://github.com/projectdiscovery/nuclei/pull/3123\r\n* Added template path in json output by @ShubhamRasal in https://github.com/projectdiscovery/nuclei/pull/3093\r\n* Added `ParseFromReader` function by @ShubhamRasal in https://github.com/projectdiscovery/nuclei/pull/3031\r\n* Added cli variables support in SSL Protocol by @xm1k3 in https://github.com/projectdiscovery/nuclei/pull/3069\r\n* Fixed bug to automerge url parameters from input and templates by @tarunKoyalwar in https://github.com/projectdiscovery/nuclei/pull/3010\r\n* Fixed bug in markdown export to break line characters with HTML notation by @vzamanillo in https://github.com/projectdiscovery/nuclei/pull/3014\r\n* Fixed bug with `-resume` option rewriting the output file contents, so previous data removed by @xm1k3 in https://github.com/projectdiscovery/nuclei/pull/2890\r\n* Fixed tlsx ocsp panic by @tarunKoyalwar in https://github.com/projectdiscovery/nuclei/pull/3041\r\n* Fixed workflow templates when creating inputhttp helper by @owenrumney in https://github.com/projectdiscovery/nuclei/pull/3049\r\n* Fixed **memory leak on hmap** with LRU by @Mzack9999 in https://github.com/projectdiscovery/nuclei/pull/3052\r\n* Fixed debug flags do not work correctly with headless templates by @xm1k3 in https://github.com/projectdiscovery/nuclei/pull/3030\r\n* Fixed issue with deny list attribute in file protocol by @Mzack9999 in https://github.com/projectdiscovery/nuclei/pull/3037\r\n* Fixed issue with `-scan-all-ips` option by @tarunKoyalwar in https://github.com/projectdiscovery/nuclei/pull/3080\r\n* Fixed **most go routine leaks** by @Mzack9999 in https://github.com/projectdiscovery/nuclei/pull/3073\r\n* Fixed url input panic by @tarunKoyalwar in https://github.com/projectdiscovery/nuclei/pull/3092\r\n* Fixed golang example input by @jonathanwalker in https://github.com/projectdiscovery/nuclei/pull/3088\r\n* Fixed issue in dsl to avoid unwanted debug print by @Mzack9999 in https://github.com/projectdiscovery/nuclei/pull/2995\r\n* Fixed issue with failed items reporting error in hosterrorscache by @xm1k3 in https://github.com/projectdiscovery/nuclei/pull/3047\r\n* Refactor around the input to type conversion by @vzamanillo in https://github.com/projectdiscovery/nuclei/pull/3007\r\n\r\nIssues closed in release - https://github.com/projectdiscovery/nuclei/milestone/21?closed=1\r\n\r\n## New Contributors\r\n* @shashikarsiddharth made their first contribution in https://github.com/projectdiscovery/nuclei/pull/2876\r\n* @ChrisMandich made their first contribution in https://github.com/projectdiscovery/nuclei/pull/3008\r\n* @jessekelly881 made their first contribution in https://github.com/projectdiscovery/nuclei/pull/2777\r\n* @jonathanwalker made their first contribution in https://github.com/projectdiscovery/nuclei/pull/3088\r\n\r\n**Full Changelog**: https://github.com/projectdiscovery/nuclei/compare/v2.8.3...v2.8.4"
             },
             "https://github.com/zan8in/afrog": {
                 "created_at": "2022-02-24 06:00:32",
                 "description": "A Vulnerability Scanning Tools For Penetration Testing",
-                "commit_date": "2023-01-01 11:12:21",
-                "commit_message": "update pocs",
+                "commit_date": "2023-01-02 10:01:45",
+                "commit_message": "update poc",
                 "release_tag": "v2.1.1",
                 "release_date": "2022-12-21 09:25:38",
                 "release_message": "- Fixed a bug with high false positives in fingerprint\r\n- Added optional -json option for write output in JSON format, eg: -json result.json \r\n"
@@ -1082,8 +1082,8 @@
             "https://github.com/ycdxsb/PocOrExp_in_Github": {
                 "created_at": "2021-04-13 05:46:16",
                 "description": "聚合Github上已有的Poc或者Exp，CVE信息来自CVE官网。Auto Collect Poc Or Exp from Github by CVE ID.",
-                "commit_date": "2023-01-02 00:16:10",
-                "commit_message": "update 2023-01-02 08:16:09",
+                "commit_date": "2023-01-02 23:49:56",
+                "commit_message": "update 2023-01-03 07:49:56",
                 "release_tag": null,
                 "release_date": "",
                 "release_message": null
@@ -1737,7 +1737,7 @@
             "https://github.com/ExpLangcn/NucleiTP": {
                 "created_at": "2022-11-08 13:16:56",
                 "description": "自动整合全网Nuclei的漏洞POC，实时同步更新最新POC！",
-                "commit_date": "2023-01-02 01:00:22",
+                "commit_date": "2023-01-03 01:00:18",
                 "commit_message": "更新啦❤️",
                 "release_tag": null,
                 "release_date": "",
