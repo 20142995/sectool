@@ -116,8 +116,8 @@
             "https://github.com/ffuf/ffuf": {
                 "created_at": "2018-11-08 09:25:49",
                 "description": "Fast web fuzzer written in Go",
-                "commit_date": "2022-12-07 21:02:53",
-                "commit_message": "Fix the ac for good now (#615)",
+                "commit_date": "2023-01-04 09:23:32",
+                "commit_message": "Enhanced rate limiting (#620)\n\n* Enhanced rate limiting\r\n\r\n* Use time.Ticker correctly",
                 "release_tag": "v1.5.0",
                 "release_date": "2022-05-19 06:55:04",
                 "release_message": "## Changelog\n\n5c489ae Prepare for 1.5.0 release (#23)\n1db80d4 Do autocalibration for full path (#22)\n21a19a1 Choose between 'and' and 'or' matching and filtering (#20)\n9fa0a5d Ac rewrite\n\n"
@@ -236,9 +236,9 @@
                 "description": null,
                 "commit_date": "2022-08-22 05:20:08",
                 "commit_message": "Merge pull request #41 from lz520520/branch1\n\nupdate: README.md",
-                "release_tag": "v1.5.0",
-                "release_date": "2022-12-23 07:55:00",
-                "release_message": "重构了不少东西，为了后面快速扩展吧，然后就是新增了mac版，但没做太多测试，遇到问题可以反馈。\r\n\r\nPS: 解压密码railgun\r\n\r\n\r\nV1.5.0\r\n1. 端口扫描\r\n  a. 重构指纹探测逻辑，修改为指纹编排方式，可组合串联不同探测方式。\r\n  b. 增加指纹结果选项，用于标识更准确的协议指纹信息。\r\n  c. 新增Banner提取指纹信息ssh/mysql/vnc。\r\n  d. 指纹识别新增，redis/docker/dubbo/jboss/mssql/mysql/wmi/smb2/winrm/rmi/rdp/oracle/postgresql/ldap。\r\n2. 漏洞利用\r\n  a. 子选项优化渲染逻辑，可任意多行子选项。\r\n3. 辅助模块\r\n  a. 增加正则测试模块，用于快速测试正则。\r\n4. 增加mac版（测试，存在一些UI问题，后续再慢慢解决）\r\n  a. 修复了mac部分控件异常问题，包括combobox、label等。\r\n\r\n\r\nV1.4.9\r\n1. 漏洞利用\r\n  a. 插件中可调用任意编码转换模块的编码，并可自动化生成编码转换代码。\r\n  b. EXP详细信息支持最大化查看，方便浏览。\r\n  c. 绝大部分漏洞迁移成插件。\r\n2. 暴力破解\r\n  a. 增加ssh://192.168.1.1:22格式，可针对不同协议、不同端口调用字典进行爆破。\r\n  b. 当协议设置成多端口时，支持端口扫描结果同协议多端口发送到爆破模块。\r\n    ⅰ. 多端口时，格式为ssh://192.168.1.1:22\r\n    ⅱ. 单端口时，格式为192.168.1.1\r\n3. 所有grid优化成焦点跟随滚轮移动。\r\n4. 编码转换\r\n  a. 增加pinyin：中文转拼音\r\n\r\n\r\nV1.4.8\r\n1. 重构并发框架，简化并发编写，后续扩展模块更快速。\r\n2. UI优化，修改为菜单栏切换方式，并可右键独立窗口运行。\r\n3. 功能扩展\r\n  [X] 增加IP查询功能\r\n  [X] 增加密码生成功能\r\n  [X] 重构信息提取功能\r\n  [X] 增加Host碰撞功能\r\n4. 暴力破解\r\n  a. 字典设置UI迁移\r\n5. 编码转换\r\n  a. 新增URL格式化\r\n\r\nV1.4.7\r\n1. 漏洞利用\r\n  a. 增加漏洞利用日志记录，目前仅支持http协议，并支持字段过滤\r\n2. 编码转换\r\n  a. 增加大小写转换：LetterCase\r\n  b. 增加NLTM\r\n  c. 增加json格式化，json转go结构体"
+                "release_tag": "v1.5.1",
+                "release_date": "2023-01-04 10:50:50",
+                "release_message": "解压密码: railgun\r\n\r\n1. mac版\r\n  a. 修复禁用暗黑主题\r\n  b. exp打印结果颜色错位bug\r\n2. win版\r\n  a. 最小化弹窗bug\r\n3. 进一步重构crud框架。\r\n4. 增加了信息收集模块历史搜索功能，支持灵活的多字段查询。\r\n5. 部分模块可进行同一类多窗口并行操作。"
             },
             "https://github.com/gobysec/Goby": {
                 "created_at": "2019-06-03 07:56:11",
@@ -299,7 +299,7 @@
             "https://github.com/zan8in/afrog": {
                 "created_at": "2022-02-24 06:00:32",
                 "description": "A Vulnerability Scanning Tools For Penetration Testing",
-                "commit_date": "2023-01-03 09:22:35",
+                "commit_date": "2023-01-04 09:05:13",
                 "commit_message": "update poc",
                 "release_tag": "v2.1.1",
                 "release_date": "2022-12-21 09:25:38",
@@ -1082,8 +1082,8 @@
             "https://github.com/ycdxsb/PocOrExp_in_Github": {
                 "created_at": "2021-04-13 05:46:16",
                 "description": "聚合Github上已有的Poc或者Exp，CVE信息来自CVE官网。Auto Collect Poc Or Exp from Github by CVE ID.",
-                "commit_date": "2023-01-04 00:57:53",
-                "commit_message": "update 2023-01-04 08:57:53",
+                "commit_date": "2023-01-05 00:58:38",
+                "commit_message": "update 2023-01-05 08:58:38",
                 "release_tag": null,
                 "release_date": "",
                 "release_message": null
@@ -1737,7 +1737,7 @@
             "https://github.com/ExpLangcn/NucleiTP": {
                 "created_at": "2022-11-08 13:16:56",
                 "description": "自动整合全网Nuclei的漏洞POC，实时同步更新最新POC！",
-                "commit_date": "2023-01-04 01:00:17",
+                "commit_date": "2023-01-05 01:00:03",
                 "commit_message": "更新啦❤️",
                 "release_tag": null,
                 "release_date": "",

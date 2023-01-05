@@ -1,13 +1,13 @@
-# 更新于 2023-01-04 09:02:48
+# 更新于 2023-01-05 09:05:51
 
 ## 近30天release更新记录
 | 更新时间 | 项目名称 | 版本 | 更新内容 |
 | :---- | :---- | :---- | :---- |
+|2023-01-04 10:50:50|[railgun](https://github.com/lz520520/railgun)|v1.5.1|解压密码: railgun1. mac版a. 修复禁用暗<br>黑主题b. exp打印结果颜色错位bug2. win版a.<br> 最小化弹窗bug3. 进一步重构crud框架。4. <br>增加了信息收集模块历史搜索功能，支持灵活<br>的多字段查询。5. 部分模块可进行同一类多窗<br>口并行操作。|
 |2023-01-03 19:18:04|[nuclei](https://github.com/projectdiscovery/nuclei)|v2.8.5|## What's Changed* Fixed host skipping <br>error by @ehsandeep in https://github.co<br>m/projectdiscovery/nuclei/pull/3143* Fix<br>ed bug to include template path of templ<br>ate by @ShubhamRasal in https://github.c<br>om/projectdiscovery/nuclei/pull/3133* Fi<br>xed a bug missing trailing slash by @tar<br>unKoyalwar in https://github.com/project<br>discovery/nuclei/pull/3127* Added stale <br>bot by @ehsandeep in https://github.com/<br>projectdiscovery/nuclei/pull/3137**Full <br>Changelog**: https://github.com/projectd<br>iscovery/nuclei/compare/v2.8.4...v2.8.5|
 |2022-12-30 02:23:54|[feroxbuster](https://github.com/epi052/feroxbuster)|v2.7.3|## What's Changed* FIX 732 ensure --no-<br>state is respected even through --time-l<br>imit by @kmanc in https://github.com/epi<br>052/feroxbuster/pull/733* Fix incorrect <br>username in Contributors by @n0kovo in h<br>ttps://github.com/epi052/feroxbuster/pul<br>l/749* fixed #716; wordlist entries with<br> leading slash are trimmed by @epi052 in<br> https://github.com/epi052/feroxbuster/p<br>ull/750* fixed #743; redirects always sh<br>ow full url as Location by @epi052 in ht<br>tps://github.com/epi052/feroxbuster/pull<br>/750* fixed #748; cancelled scans persis<br>t across ctrl+c by @epi052 in https://gi<br>thub.com/epi052/feroxbuster/pull/750## N<br>ew Contributors* @kmanc made their first<br> contribution in https://github.com/epi0<br>52/feroxbuster/pull/733* @n0kovo made th<br>eir first contribution in https://github<br>.com/epi052/feroxbuster/pull/749**Full C<br>hangelog**: https://github.com/epi052/fe<br>roxbuster/compare/v2.7.2...v2.7.3|
 |2022-12-23 14:18:52|[captcha-killer-modi<br>fied](https://github.com/f0ng/captcha-killer-modified)|0.20|【2022-12-23】 0.20修复了url识别问题、<br>爆破顺序错乱问题、响应包直接为base64编码<br>导致爆破失败问题，感谢微信群师傅@赵 、@Ki<br>ngfuke |
 |2022-12-23 09:53:06|[super-xray](https://github.com/4ra1n/super-xray)|1.0|## 1.0增加了下载面板，可以一键下载最新<br>版xray和rad并加载；增加了子域名扫描的模块<br>，但仅高级版xray可用。![image](https://us<br>er-images.githubusercontent.com/34726933<br>/209314160-91e7cf37-06dc-435b-ab53-5af92<br>800797b.png)- New Features:- [important]<br> [feat] 自动下载解压最新版xray并加载 #86<br>- [important] [feat] 自动下载解压最新版r<br>ad并加载 #87- [important] [feat] 添加子<br>域名扫描的功能 #85- [important] [feat] 指<br>定多个poc扫描的实现方式 #82- [important] <br>用户可选关闭后保留日志用于调试 #83- [feat<br>] 不配置目标的时候应该禁止主动扫描 #81- <br>[feat] 添加一个rad下载站点按钮 #84- 应该<br>提示用户先输入reverse-http url然后配置服<br>务端 #88介绍视频：https://www.bilibili.co<br>m/video/BV1Zd4y1h7Rf下载：- super-xray-1<br>.0.jar版本是通过java -jar super-xray-1.0<br>.jar启动的- super-xray-1.0-jre-exe.zip是<br>内置了JRE的exe版本- super-xray-1.0-system<br>-jre.exe是使用系统JRE的exe版本|
-|2022-12-23 07:55:00|[railgun](https://github.com/lz520520/railgun)|v1.5.0|重构了不少东西，为了后面快速扩展吧，然<br>后就是新增了mac版，但没做太多测试，遇到问<br>题可以反馈。PS: 解压密码railgunV1.5.01. <br>端口扫描a. 重构指纹探测逻辑，修改为指纹编<br>排方式，可组合串联不同探测方式。b. 增加指<br>纹结果选项，用于标识更准确的协议指纹信息<br>。c. 新增Banner提取指纹信息ssh/mysql/vnc<br>。d. 指纹识别新增，redis/docker/dubbo/jbo<br>ss/mssql/mysql/wmi/smb2/winrm/rmi/rdp/or<br>acle/postgresql/ldap。2. 漏洞利用a. 子选<br>项优化渲染逻辑，可任意多行子选项。3. 辅助<br>模块a. 增加正则测试模块，用于快速测试正则<br>。4. 增加mac版（测试，存在一些UI问题，后<br>续再慢慢解决）a. 修复了mac部分控件异常问<br>题，包括combobox、label等。V1.4.91. 漏洞<br>利用a. 插件中可调用任意编码转换模块的编码<br>，并可自动化生成编码转换代码。b. EXP详细<br>信息支持最大化查看，方便浏览。c. 绝大部分<br>漏洞迁移成插件。2. 暴力破解a. 增加ssh://1<br>92.168.1.1:22格式，可针对不同协议、不同<br>端口调用字典进行爆破。b. 当协议设置成多端<br>口时，支持端口扫描结果同协议多端口发送到<br>爆破模块。ⅰ. 多端口时，格式为ssh://192.1<br>68.1.1:22ⅱ. 单端口时，格式为192.168.1.1<br>3. 所有grid优化成焦点跟随滚轮移动。4. 编<br>码转换a. 增加pinyin：中文转拼音V1.4.81. <br>重构并发框架，简化并发编写，后续扩展模块<br>更快速。2. UI优化，修改为菜单栏切换方式，<br>并可右键独立窗口运行。3. 功能扩展[X] 增加<br>IP查询功能[X] 增加密码生成功能[X] 重构信<br>息提取功能[X] 增加Host碰撞功能4. 暴力破解<br>a. 字典设置UI迁移5. 编码转换a. 新增URL格<br>式化V1.4.71. 漏洞利用a. 增加漏洞利用日志<br>记录，目前仅支持http协议，并支持字段过滤2<br>. 编码转换a. 增加大小写转换：LetterCaseb<br>. 增加NLTMc. 增加json格式化，json转go结<br>构体|
 |2022-12-21 09:25:38|[afrog](https://github.com/zan8in/afrog)|v2.1.1|- Fixed a bug with high false positives<br> in fingerprint- Added optional -json op<br>tion for write output in JSON format, eg<br>: -json result.json|
 |2022-12-18 08:14:24|[HaE](https://github.com/gh0stkey/HaE)|2.4.5|HaE 2.4.5 更新内容：1. 在线更新配置信息<br>功能添加提示框，防止用户误触导致配置被更<br>新：#91；2. 数据聚合查询面板添加支持通配<br>符域名查找：#88；3. 数据聚合查询面板添加<br>清空数据功能，便于用户查看最新数据；4. 新<br>增规则作用域：any header（请求与响应头）<br>、any body（请求与响应主体）。|
 |2022-12-13 03:32:05|[pocsuite3](https://github.com/knownsec/pocsuite3)|v2.0.2|* 修复 _check 方法中 url 重定向的问题 #<br>337* 修复 console 模式下 use 命令使用绝<br>对路径的问题 #341，thanks @S2eTo* 修复 bu<br>ild_url 兼容 ipv6 的问题 #347，thanks @H<br>omerQing* 优化 nuclei DSL 表达式执行 #34<br>8----------------* fix url redirect prob<br>lem in _check method #337* fix use comma<br>nd in console mode can't use absolute pa<br>th #341, thanks @S2eTo* fix ipv6 compati<br>bility issue in build_url #347, thanks @<br>HomerQing* optimize dsl expression execu<br>tion #348|
@@ -15,11 +15,12 @@
 ## 近30天commit提交记录
 | 提交时间 | 项目名称 | 更新内容 |
 | :---- | :---- | :---- |
-|2023-01-04 01:00:17|[NucleiTP](https://github.com/ExpLangcn/NucleiTP)|更新啦❤️|
-|2023-01-04 00:57:53|[PocOrExp_in_Github](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-01-04 08:57:53|
+|2023-01-05 01:00:03|[NucleiTP](https://github.com/ExpLangcn/NucleiTP)|更新啦❤️|
+|2023-01-05 00:58:38|[PocOrExp_in_Github](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-01-05 08:58:38|
+|2023-01-04 09:23:32|[ffuf](https://github.com/ffuf/ffuf)|Enhanced rate limiting (#620)* Enhanced rate limiting*<br> Use time.Ticker correctly|
+|2023-01-04 09:05:13|[afrog](https://github.com/zan8in/afrog)|update poc|
 |2023-01-03 19:15:46|[nuclei](https://github.com/projectdiscovery/nuclei)|Merge pull request #3144 from projectdiscovery/devBugf<br>ix release (target skipping)|
 |2023-01-03 13:58:21|[RouteVulScan](https://github.com/F6JO/RouteVulScan)|Update README.md|
-|2023-01-03 09:22:35|[afrog](https://github.com/zan8in/afrog)|update poc|
 |2023-01-03 08:27:35|[JDumpSpider](https://github.com/whwlsfb/JDumpSpider)|add HikariDataSource.|
 |2023-01-03 03:18:50|[404StarLink](https://github.com/knownsec/404StarLink)|weekly update at 2023-01-03|
 |2023-01-01 22:10:26|[RsaCtfTool](https://github.com/RsaCtfTool/RsaCtfTool)|Merge pull request #393 from Skaft/fix-all-anyQuickfix<br> on broken all/any|
@@ -48,9 +49,7 @@
 |2022-12-09 11:22:09|[dirsearch](https://github.com/maurosoria/dirsearch)|Merge pull request #1255 from kylincodelab/masterUpdat<br>e dicc.txt|
 |2022-12-09 07:10:04|[log4j2burpscanner](https://github.com/f0ng/log4j2burpscanner)|Update FAQ-zh-CN.md|
 |2022-12-08 13:37:18|[InfoSearchAll](https://github.com/ExpLangcn/InfoSearchAll)|Update README.md|
-|2022-12-07 21:02:53|[ffuf](https://github.com/ffuf/ffuf)|Fix the ac for good now (#615)|
-|2022-12-06 07:29:11|[OneForAll](https://github.com/shmilylty/OneForAll)|回退|
-|2022-12-05 16:15:52|[OA-EXPTOOL](https://github.com/LittleBear4/OA-EXPTOOL)|Update README.md|## 所有项目
+|2022-12-06 07:29:11|[OneForAll](https://github.com/shmilylty/OneForAll)|回退|## 所有项目
 ### 信息收集
 #### 资产测绘采集
 | 项目名称 | 版本 | 项目描述 |
@@ -98,7 +97,7 @@
 #### 半自动化漏洞利用
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
-| [railgun](https://github.com/lz520520/railgun) | v1.5.0 |  |
+| [railgun](https://github.com/lz520520/railgun) | v1.5.1 |  |
 | [Goby](https://github.com/gobysec/Goby) | Beta1.9.3<br>25 | Attack surface mapping |
 #### 半自动漏洞扫描
 | 项目名称 | 版本 | 项目描述 |
