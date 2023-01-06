@@ -236,9 +236,9 @@
                 "description": null,
                 "commit_date": "2022-08-22 05:20:08",
                 "commit_message": "Merge pull request #41 from lz520520/branch1\n\nupdate: README.md",
-                "release_tag": "v1.5.1",
-                "release_date": "2023-01-04 10:50:50",
-                "release_message": "解压密码: railgun\r\n\r\n1. mac版\r\n  a. 修复禁用暗黑主题\r\n  b. exp打印结果颜色错位bug\r\n2. win版\r\n  a. 最小化弹窗bug\r\n3. 进一步重构crud框架。\r\n4. 增加了信息收集模块历史搜索功能，支持灵活的多字段查询。\r\n5. 部分模块可进行同一类多窗口并行操作。"
+                "release_tag": "v1.5.1-sp1",
+                "release_date": "2023-01-05 08:57:19",
+                "release_message": "1. mac版修复主程序无权限问题\r\n2. win进一步优化修复弹窗报错\r\n3. ip查询异常退出问题修复"
             },
             "https://github.com/gobysec/Goby": {
                 "created_at": "2019-06-03 07:56:11",
@@ -290,16 +290,16 @@
             "https://github.com/projectdiscovery/nuclei": {
                 "created_at": "2020-04-03 18:47:11",
                 "description": "Fast and customizable vulnerability scanner based on simple YAML based DSL.",
-                "commit_date": "2023-01-03 19:15:46",
-                "commit_message": "Merge pull request #3144 from projectdiscovery/dev\n\nBugfix release (target skipping)",
-                "release_tag": "v2.8.5",
-                "release_date": "2023-01-03 19:18:04",
-                "release_message": "## What's Changed\r\n* Fixed host skipping error by @ehsandeep in https://github.com/projectdiscovery/nuclei/pull/3143\r\n* Fixed bug to include template path of template by @ShubhamRasal in https://github.com/projectdiscovery/nuclei/pull/3133\r\n* Fixed a bug missing trailing slash by @tarunKoyalwar in https://github.com/projectdiscovery/nuclei/pull/3127\r\n* Added stale bot by @ehsandeep in https://github.com/projectdiscovery/nuclei/pull/3137\r\n\r\n**Full Changelog**: https://github.com/projectdiscovery/nuclei/compare/v2.8.4...v2.8.5"
+                "commit_date": "2023-01-05 17:05:17",
+                "commit_message": "Merge pull request #3157 from projectdiscovery/dev\n\nNuclei v2.8.6",
+                "release_tag": "v2.8.6",
+                "release_date": "2023-01-05 17:11:54",
+                "release_message": "## What's Changed\r\n* **Fixed encoding issue with key characters** in URL by @tarunKoyalwar in https://github.com/projectdiscovery/nuclei/pull/3150\r\n* **Fixed matched URL in CLI output with rawhttp** by @tarunKoyalwar in https://github.com/projectdiscovery/nuclei/pull/3155\r\n* Fixed file upload in the headless protocol by @Mzack9999 in https://github.com/projectdiscovery/nuclei/pull/3091\r\n* Extended advanced template filtering fields by @Mzack9999 in https://github.com/projectdiscovery/nuclei/pull/3146\r\n* Removed unused code in integration tests by @Mzack9999 in https://github.com/projectdiscovery/nuclei/pull/3134\r\n\r\n\r\n**Full Changelog**: https://github.com/projectdiscovery/nuclei/compare/v2.8.5...v2.8.6"
             },
             "https://github.com/zan8in/afrog": {
                 "created_at": "2022-02-24 06:00:32",
                 "description": "A Vulnerability Scanning Tools For Penetration Testing",
-                "commit_date": "2023-01-04 09:05:13",
+                "commit_date": "2023-01-05 07:56:31",
                 "commit_message": "update poc",
                 "release_tag": "v2.1.1",
                 "release_date": "2022-12-21 09:25:38",
@@ -1082,8 +1082,8 @@
             "https://github.com/ycdxsb/PocOrExp_in_Github": {
                 "created_at": "2021-04-13 05:46:16",
                 "description": "聚合Github上已有的Poc或者Exp，CVE信息来自CVE官网。Auto Collect Poc Or Exp from Github by CVE ID.",
-                "commit_date": "2023-01-05 00:58:38",
-                "commit_message": "update 2023-01-05 08:58:38",
+                "commit_date": "2023-01-05 23:51:17",
+                "commit_message": "update 2023-01-06 07:51:17",
                 "release_tag": null,
                 "release_date": "",
                 "release_message": null
@@ -1480,11 +1480,11 @@
             "https://github.com/f0ng/autoDecoder": {
                 "created_at": "2022-03-26 10:13:56",
                 "description": "Burp插件，根据自定义来达到对数据包的处理（适用于加解密、爆破等），类似mitmproxy，不同点在于经过了burp中转，在自动加解密的基础上，不影响APP、网站加解密正常逻辑等。",
-                "commit_date": "2022-12-29 07:04:25",
-                "commit_message": "Add files via upload",
-                "release_tag": "0.19.0",
-                "release_date": "2022-11-11 06:00:52",
-                "release_message": "## 2022.11.11 更新0.19\r\n修改了ui，优化了在新版bp上`html`无法解析的问题"
+                "commit_date": "2023-01-05 14:58:10",
+                "commit_message": "Update README.md",
+                "release_tag": "0.20",
+                "release_date": "2023-01-05 06:56:12",
+                "release_message": "## 2023.1.5 更新0.20\r\n1. 增加`RSA解密` 一个例子\r\n2. 优化选项卡数据包设置，不影响repeater本身的数据包内容\r\n<table rules=\"none\" align=\"center\">\r\n\t<tr>\r\n\t\t<td>\r\n\t\t\t<center>\r\n   <font color=\"AAAAAA\">解密请求包</font>\r\n\t\t\t\t<img src=\"https://user-images.githubusercontent.com/48286013/210718969-8958c40d-cbee-47e7-8e97-97f6ba17b4e6.png\" width=\"100%\" />\r\n\t\t\t\t<br/>\r\n\t\t\t</center>\r\n\t\t</td>\r\n\t\t<td>\r\n\t\t\t<center>\r\n   <font color=\"AAAAAA\">解密请求包后不影响原请求包</font>\r\n\t\t\t\t<img src=\"https://user-images.githubusercontent.com/48286013/210718946-888dc52f-a882-4026-ba92-2845a7ac81f7.png\" width=\"100%\" />\r\n\t\t\t\t<br/>\r\n\t\t\t</center>\r\n\t\t</td>\r\n\t</tr>\r\n</table>\r\n"
             },
             "https://github.com/TheKingOfDuck/burpFakeIP": {
                 "created_at": "2019-06-05 07:24:35",
@@ -1737,7 +1737,7 @@
             "https://github.com/ExpLangcn/NucleiTP": {
                 "created_at": "2022-11-08 13:16:56",
                 "description": "自动整合全网Nuclei的漏洞POC，实时同步更新最新POC！",
-                "commit_date": "2023-01-05 01:00:03",
+                "commit_date": "2023-01-06 01:00:03",
                 "commit_message": "更新啦❤️",
                 "release_tag": null,
                 "release_date": "",
@@ -1949,8 +1949,8 @@
             "https://github.com/RsaCtfTool/RsaCtfTool": {
                 "created_at": "2015-03-07 17:29:33",
                 "description": "RSA attack tool (mainly for ctf) - retreive private key from weak public key and/or uncipher data",
-                "commit_date": "2023-01-01 22:10:26",
-                "commit_message": "Merge pull request #393 from Skaft/fix-all-any\n\nQuickfix on broken all/any",
+                "commit_date": "2023-01-05 21:54:48",
+                "commit_message": "Update readme",
                 "release_tag": null,
                 "release_date": "",
                 "release_message": null
