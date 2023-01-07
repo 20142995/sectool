@@ -299,11 +299,11 @@
             "https://github.com/zan8in/afrog": {
                 "created_at": "2022-02-24 06:00:32",
                 "description": "A Vulnerability Scanning Tools For Penetration Testing",
-                "commit_date": "2023-01-05 07:56:31",
-                "commit_message": "update poc",
-                "release_tag": "v2.1.1",
-                "release_date": "2022-12-21 09:25:38",
-                "release_message": "- Fixed a bug with high false positives in fingerprint\r\n- Added optional -json option for write output in JSON format, eg: -json result.json \r\n"
+                "commit_date": "2023-01-06 09:51:18",
+                "commit_message": "update afrog",
+                "release_tag": "v2.2.0",
+                "release_date": "2023-01-06 10:04:24",
+                "release_message": "Added optional -onlyfinger/-of option for fingerprint scan only\r\nAdded CEL function ` year`、`shortyear`、`month`、`day `、`timestamp_sencond`, eg: `tongda-oa-api-ali-upload.yaml`\r\nAdded Boolean type attribute `verified` , default false, verified PoC is true\r\nAdded rule attribute `expressions` , a request to verify multiple rules"
             },
             "https://github.com/zhzyker/vulmap": {
                 "created_at": "2020-10-09 06:34:36",
@@ -799,9 +799,9 @@
                 "description": "高危漏洞利用工具",
                 "commit_date": "2022-11-05 08:21:35",
                 "commit_message": "0.4\n\n0.4",
-                "release_tag": "v0.4",
-                "release_date": "2022-11-01 15:33:09",
-                "release_message": "tongdaoa_getdata-RCE (直接执行系统命令)\r\ntongdaoa_apiali-RCE (默认写入冰蝎4.0.3aes)\r\n\r\n网御星云账号密码泄露\r\nyongyou_KSOA_imageUpload-RCE (默认写入冰蝎4.0.3aes)\r\n\r\n\r\n增加多线程"
+                "release_tag": "v0.5",
+                "release_date": "2023-01-06 01:45:10",
+                "release_message": "增加cnvd-2023-00895"
             }
         },
         "信息泄露利用": {
@@ -1082,8 +1082,8 @@
             "https://github.com/ycdxsb/PocOrExp_in_Github": {
                 "created_at": "2021-04-13 05:46:16",
                 "description": "聚合Github上已有的Poc或者Exp，CVE信息来自CVE官网。Auto Collect Poc Or Exp from Github by CVE ID.",
-                "commit_date": "2023-01-05 23:51:17",
-                "commit_message": "update 2023-01-06 07:51:17",
+                "commit_date": "2023-01-07 00:23:34",
+                "commit_message": "update 2023-01-07 08:23:34",
                 "release_tag": null,
                 "release_date": "",
                 "release_message": null
@@ -1737,7 +1737,7 @@
             "https://github.com/ExpLangcn/NucleiTP": {
                 "created_at": "2022-11-08 13:16:56",
                 "description": "自动整合全网Nuclei的漏洞POC，实时同步更新最新POC！",
-                "commit_date": "2023-01-06 01:00:03",
+                "commit_date": "2023-01-07 01:00:03",
                 "commit_message": "更新啦❤️",
                 "release_tag": null,
                 "release_date": "",

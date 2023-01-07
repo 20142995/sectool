@@ -1,27 +1,28 @@
-# 更新于 2023-01-06 09:06:25
+# 更新于 2023-01-07 09:01:46
 
 ## 近30天release更新记录
 | 更新时间 | 项目名称 | 版本 | 更新内容 |
 | :---- | :---- | :---- | :---- |
+|2023-01-06 10:04:24|[afrog](https://github.com/zan8in/afrog)|v2.2.0|Added optional -onlyfinger/-of option f<br>or fingerprint scan onlyAdded CEL functi<br>onyear、shortyear、month、day 、timestam<br>p_sencond, eg: tongda-oa-api-ali-upload.<br>yamlAdded Boolean type attribute verifie<br>d , default false, verified PoC is trueA<br>dded rule attribute expressions , a requ<br>est to verify multiple rules|
+|2023-01-06 01:45:10|[Apt_t00ls](https://github.com/White-hua/Apt_t00ls)|v0.5|增加cnvd-2023-00895|
 |2023-01-05 17:11:54|[nuclei](https://github.com/projectdiscovery/nuclei)|v2.8.6|## What's Changed* **Fixed encoding iss<br>ue with key characters** in URL by @taru<br>nKoyalwar in https://github.com/projectd<br>iscovery/nuclei/pull/3150* **Fixed match<br>ed URL in CLI output with rawhttp** by @<br>tarunKoyalwar in https://github.com/proj<br>ectdiscovery/nuclei/pull/3155* Fixed fil<br>e upload in the headless protocol by @Mz<br>ack9999 in https://github.com/projectdis<br>covery/nuclei/pull/3091* Extended advanc<br>ed template filtering fields by @Mzack99<br>99 in https://github.com/projectdiscover<br>y/nuclei/pull/3146* Removed unused code <br>in integration tests by @Mzack9999 in ht<br>tps://github.com/projectdiscovery/nuclei<br>/pull/3134**Full Changelog**: https://gi<br>thub.com/projectdiscovery/nuclei/compare<br>/v2.8.5...v2.8.6|
 |2023-01-05 08:57:19|[railgun](https://github.com/lz520520/railgun)|v1.5.1-sp<br>1|1. mac版修复主程序无权限问题2. win进一<br>步优化修复弹窗报错3. ip查询异常退出问题修<br>复|
 |2023-01-05 06:56:12|[autoDecoder](https://github.com/f0ng/autoDecoder)|0.20|## 2023.1.5 更新0.201. 增加RSA解密 一个<br>例子2. 优化选项卡数据包设置，不影响repeat<br>er本身的数据包内容解密请求包解密请求包后<br>不影响原请求包|
 |2022-12-30 02:23:54|[feroxbuster](https://github.com/epi052/feroxbuster)|v2.7.3|## What's Changed* FIX 732 ensure --no-<br>state is respected even through --time-l<br>imit by @kmanc in https://github.com/epi<br>052/feroxbuster/pull/733* Fix incorrect <br>username in Contributors by @n0kovo in h<br>ttps://github.com/epi052/feroxbuster/pul<br>l/749* fixed #716; wordlist entries with<br> leading slash are trimmed by @epi052 in<br> https://github.com/epi052/feroxbuster/p<br>ull/750* fixed #743; redirects always sh<br>ow full url as Location by @epi052 in ht<br>tps://github.com/epi052/feroxbuster/pull<br>/750* fixed #748; cancelled scans persis<br>t across ctrl+c by @epi052 in https://gi<br>thub.com/epi052/feroxbuster/pull/750## N<br>ew Contributors* @kmanc made their first<br> contribution in https://github.com/epi0<br>52/feroxbuster/pull/733* @n0kovo made th<br>eir first contribution in https://github<br>.com/epi052/feroxbuster/pull/749**Full C<br>hangelog**: https://github.com/epi052/fe<br>roxbuster/compare/v2.7.2...v2.7.3|
 |2022-12-23 14:18:52|[captcha-killer-modi<br>fied](https://github.com/f0ng/captcha-killer-modified)|0.20|【2022-12-23】 0.20修复了url识别问题、<br>爆破顺序错乱问题、响应包直接为base64编码<br>导致爆破失败问题，感谢微信群师傅@赵 、@Ki<br>ngfuke |
 |2022-12-23 09:53:06|[super-xray](https://github.com/4ra1n/super-xray)|1.0|## 1.0增加了下载面板，可以一键下载最新<br>版xray和rad并加载；增加了子域名扫描的模块<br>，但仅高级版xray可用。![image](https://us<br>er-images.githubusercontent.com/34726933<br>/209314160-91e7cf37-06dc-435b-ab53-5af92<br>800797b.png)- New Features:- [important]<br> [feat] 自动下载解压最新版xray并加载 #86<br>- [important] [feat] 自动下载解压最新版r<br>ad并加载 #87- [important] [feat] 添加子<br>域名扫描的功能 #85- [important] [feat] 指<br>定多个poc扫描的实现方式 #82- [important] <br>用户可选关闭后保留日志用于调试 #83- [feat<br>] 不配置目标的时候应该禁止主动扫描 #81- <br>[feat] 添加一个rad下载站点按钮 #84- 应该<br>提示用户先输入reverse-http url然后配置服<br>务端 #88介绍视频：https://www.bilibili.co<br>m/video/BV1Zd4y1h7Rf下载：- super-xray-1<br>.0.jar版本是通过java -jar super-xray-1.0<br>.jar启动的- super-xray-1.0-jre-exe.zip是<br>内置了JRE的exe版本- super-xray-1.0-system<br>-jre.exe是使用系统JRE的exe版本|
-|2022-12-21 09:25:38|[afrog](https://github.com/zan8in/afrog)|v2.1.1|- Fixed a bug with high false positives<br> in fingerprint- Added optional -json op<br>tion for write output in JSON format, eg<br>: -json result.json|
 |2022-12-18 08:14:24|[HaE](https://github.com/gh0stkey/HaE)|2.4.5|HaE 2.4.5 更新内容：1. 在线更新配置信息<br>功能添加提示框，防止用户误触导致配置被更<br>新：#91；2. 数据聚合查询面板添加支持通配<br>符域名查找：#88；3. 数据聚合查询面板添加<br>清空数据功能，便于用户查看最新数据；4. 新<br>增规则作用域：any header（请求与响应头）<br>、any body（请求与响应主体）。|
 |2022-12-13 03:32:05|[pocsuite3](https://github.com/knownsec/pocsuite3)|v2.0.2|* 修复 _check 方法中 url 重定向的问题 #<br>337* 修复 console 模式下 use 命令使用绝<br>对路径的问题 #341，thanks @S2eTo* 修复 bu<br>ild_url 兼容 ipv6 的问题 #347，thanks @H<br>omerQing* 优化 nuclei DSL 表达式执行 #34<br>8----------------* fix url redirect prob<br>lem in _check method #337* fix use comma<br>nd in console mode can't use absolute pa<br>th #341, thanks @S2eTo* fix ipv6 compati<br>bility issue in build_url #347, thanks @<br>HomerQing* optimize dsl expression execu<br>tion #348|
 |2022-12-09 01:31:39|[log4j2burpscanner](https://github.com/f0ng/log4j2burpscanner)|0.21.0|# 0.21.0 更新## 2022-12-91. 增加参数 pr<br>efixparam前缀可控，可输入如%84$，造成一<br>些数据库组件解析错误，从而进行log4j2的报<br>错触发2. 增加自定义header头获取响应结果请<br>求(支持了dnslog.cn等，但是dnslog.cn有PHPS<br>ESSID默认过期时间，暂不推荐使用)，举例如<br> privatednsResponseurl 框内填入以下字段<br>：HEADERhttp://dnslog.cn/getrecords.phpCo<br>okie:PHPSESSID=bmekedlvumo1e9onr6qsd1j2u<br>63. 修复dnsparam参数初始化问题，感谢微信<br>群@啊哈师傅反馈|
 ## 近30天commit提交记录
 | 提交时间 | 项目名称 | 更新内容 |
 | :---- | :---- | :---- |
-|2023-01-06 01:00:03|[NucleiTP](https://github.com/ExpLangcn/NucleiTP)|更新啦❤️|
-|2023-01-05 23:51:17|[PocOrExp_in_Github](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-01-06 07:51:17|
+|2023-01-07 01:00:03|[NucleiTP](https://github.com/ExpLangcn/NucleiTP)|更新啦❤️|
+|2023-01-07 00:23:34|[PocOrExp_in_Github](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-01-07 08:23:34|
+|2023-01-06 09:51:18|[afrog](https://github.com/zan8in/afrog)|update afrog|
 |2023-01-05 21:54:48|[RsaCtfTool](https://github.com/RsaCtfTool/RsaCtfTool)|Update readme|
 |2023-01-05 17:05:17|[nuclei](https://github.com/projectdiscovery/nuclei)|Merge pull request #3157 from projectdiscovery/devNucl<br>ei v2.8.6|
 |2023-01-05 14:58:10|[autoDecoder](https://github.com/f0ng/autoDecoder)|Update README.md|
-|2023-01-05 07:56:31|[afrog](https://github.com/zan8in/afrog)|update poc|
 |2023-01-04 09:23:32|[ffuf](https://github.com/ffuf/ffuf)|Enhanced rate limiting (#620)* Enhanced rate limiting*<br> Use time.Ticker correctly|
 |2023-01-03 13:58:21|[RouteVulScan](https://github.com/F6JO/RouteVulScan)|Update README.md|
 |2023-01-03 08:27:35|[JDumpSpider](https://github.com/whwlsfb/JDumpSpider)|add HikariDataSource.|
@@ -107,7 +108,7 @@
 | [w13scan](https://github.com/w-digital-scanner/w13scan) |  | Passive Security Scanner (被动式安全扫描器) |
 | [Fvuln](https://github.com/d3ckx1/Fvuln) | Fvuln_v1.<br>4.8 | F-vuln（全称：Find-Vulnerability）是为了自己工作方便专门编写的一<br>款自动化工具，主要适用于日常安全服务、渗透测试人员和RedTeam红队人<br>员，它集合的功能包括：存活IP探测、开放端口探测、web服务探测、web漏<br>洞扫描、smb爆破、ssh爆破、ftp爆破、mssql爆破等其他数据库爆破工作以<br>及大量web漏洞检测模块。 |
 | [nuclei](https://github.com/projectdiscovery/nuclei) | v2.8.6 | Fast and customizable vulnerability scanner based on simple YAML<br> based DSL. |
-| [afrog](https://github.com/zan8in/afrog) | v2.1.1 | A Vulnerability Scanning Tools For Penetration Testing |
+| [afrog](https://github.com/zan8in/afrog) | v2.2.0 | A Vulnerability Scanning Tools For Penetration Testing |
 | [vulmap](https://github.com/zhzyker/vulmap) | v0.9 | Vulmap 是一款 web 漏洞扫描和验证工具, 可对 webapps 进行漏洞扫描,<br> 并且具备漏洞验证功能 |
 | [POC-bomber](https://github.com/tr0uble-mAker/POC-bomber) | v2.0.2-PO<br>C-bomber | 利用大量高威胁poc/exp快速获取目标权限，用于渗透和红队快速打点 |
 | [QingTing](https://github.com/StarCrossPortal/QingTing) | v0.3 | 蜻蜓安全一个安全工具编排平台,可以自由编排你的工具流,集成108款工<br>具,包括xray、nmap、awvs等;你可以将喜欢的工具编排成一个场景，快速打<br>造适合自己的安全工作台~ |
@@ -182,7 +183,7 @@
 | [Aazhen-RexHa](https://github.com/zangcc/Aazhen-RexHa) | Aazhen-Re<br>xHa_Scanne<br>r | 自研JavaFX图形化漏洞扫描工具，支持扫描的漏洞分别是： ThinkPHP-2.<br>x-RCE， ThinkPHP-5.0.23-RCE， ThinkPHP5.0.x-5.0.23通杀RCE， Think<br>PHP5-SQL注入&敏感信息泄露， ThinkPHP 3.x 日志泄露NO.1， ThinkPHP <br>3.x 日志泄露NO.2， ThinkPHP 5.x 数据库信息泄露的漏洞检测，以及批<br>量检测的功能。漏洞POC基本适用ThinkPHP全版本漏洞。 |
 | [ThinkphpGUI](https://github.com/Lotus6/ThinkphpGUI) | 1.3 | Thinkphp(GUI)漏洞利用工具，支持各版本TP漏洞检测，命令执行，getsh<br>ell。 |
 | [thinkphp_gui_tools](https://github.com/bewhale/thinkphp_gui_tools) | v2.4.2 | ThinkPHP漏洞综合利用工具, 图形化界面, 命令执行, 一键getshell, 批<br>量检测, 日志遍历, session包含,宝塔绕过 |
-| [Apt_t00ls](https://github.com/White-hua/Apt_t00ls) | v0.4 | 高危漏洞利用工具 |
+| [Apt_t00ls](https://github.com/White-hua/Apt_t00ls) | v0.5 | 高危漏洞利用工具 |
 #### 信息泄露利用
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
