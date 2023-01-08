@@ -1,4 +1,4 @@
-# 更新于 2023-01-07 09:01:46
+# 更新于 2023-01-08 09:07:50
 
 ## 近30天release更新记录
 | 更新时间 | 项目名称 | 版本 | 更新内容 |
@@ -17,9 +17,9 @@
 ## 近30天commit提交记录
 | 提交时间 | 项目名称 | 更新内容 |
 | :---- | :---- | :---- |
-|2023-01-07 01:00:03|[NucleiTP](https://github.com/ExpLangcn/NucleiTP)|更新啦❤️|
-|2023-01-07 00:23:34|[PocOrExp_in_Github](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-01-07 08:23:34|
-|2023-01-06 09:51:18|[afrog](https://github.com/zan8in/afrog)|update afrog|
+|2023-01-08 01:00:03|[NucleiTP](https://github.com/ExpLangcn/NucleiTP)|更新啦❤️|
+|2023-01-07 22:21:26|[PocOrExp_in_Github](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-01-08 06:21:26|
+|2023-01-07 02:36:25|[afrog](https://github.com/zan8in/afrog)|update console print datetime format|
 |2023-01-05 21:54:48|[RsaCtfTool](https://github.com/RsaCtfTool/RsaCtfTool)|Update readme|
 |2023-01-05 17:05:17|[nuclei](https://github.com/projectdiscovery/nuclei)|Merge pull request #3157 from projectdiscovery/devNucl<br>ei v2.8.6|
 |2023-01-05 14:58:10|[autoDecoder](https://github.com/f0ng/autoDecoder)|Update README.md|
@@ -49,8 +49,7 @@
 |2022-12-11 11:22:06|[penetration-suite-t<br>oolkit](https://github.com/makoto56/penetration-suite-toolkit)|Update README.md|
 |2022-12-11 11:22:06|[penetration-suite-t<br>oolkit](https://github.com/makoto56/penetration-suite-toolkit)|Update README.md|
 |2022-12-09 11:22:09|[dirsearch](https://github.com/maurosoria/dirsearch)|Merge pull request #1255 from kylincodelab/masterUpdat<br>e dicc.txt|
-|2022-12-09 07:10:04|[log4j2burpscanner](https://github.com/f0ng/log4j2burpscanner)|Update FAQ-zh-CN.md|
-|2022-12-08 13:37:18|[InfoSearchAll](https://github.com/ExpLangcn/InfoSearchAll)|Update README.md|## 所有项目
+|2022-12-09 07:10:04|[log4j2burpscanner](https://github.com/f0ng/log4j2burpscanner)|Update FAQ-zh-CN.md|## 所有项目
 ### 信息收集
 #### 资产测绘采集
 | 项目名称 | 版本 | 项目描述 |
