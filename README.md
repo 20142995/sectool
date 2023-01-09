@@ -1,8 +1,9 @@
-# 更新于 2023-01-08 09:07:50
+# 更新于 2023-01-09 09:03:27
 
 ## 近30天release更新记录
 | 更新时间 | 项目名称 | 版本 | 更新内容 |
 | :---- | :---- | :---- | :---- |
+|2023-01-08 08:33:50|[RouteVulScan](https://github.com/F6JO/RouteVulScan)|RouteVulS<br>can1.4|2023-01-08 修改在线更新为追加而不是覆盖<br>2023-01-08 将主域和子域当作第一层路径默<br>认扫描|
 |2023-01-06 10:04:24|[afrog](https://github.com/zan8in/afrog)|v2.2.0|Added optional -onlyfinger/-of option f<br>or fingerprint scan onlyAdded CEL functi<br>onyear、shortyear、month、day 、timestam<br>p_sencond, eg: tongda-oa-api-ali-upload.<br>yamlAdded Boolean type attribute verifie<br>d , default false, verified PoC is trueA<br>dded rule attribute expressions , a requ<br>est to verify multiple rules|
 |2023-01-06 01:45:10|[Apt_t00ls](https://github.com/White-hua/Apt_t00ls)|v0.5|增加cnvd-2023-00895|
 |2023-01-05 17:11:54|[nuclei](https://github.com/projectdiscovery/nuclei)|v2.8.6|## What's Changed* **Fixed encoding iss<br>ue with key characters** in URL by @taru<br>nKoyalwar in https://github.com/projectd<br>iscovery/nuclei/pull/3150* **Fixed match<br>ed URL in CLI output with rawhttp** by @<br>tarunKoyalwar in https://github.com/proj<br>ectdiscovery/nuclei/pull/3155* Fixed fil<br>e upload in the headless protocol by @Mz<br>ack9999 in https://github.com/projectdis<br>covery/nuclei/pull/3091* Extended advanc<br>ed template filtering fields by @Mzack99<br>99 in https://github.com/projectdiscover<br>y/nuclei/pull/3146* Removed unused code <br>in integration tests by @Mzack9999 in ht<br>tps://github.com/projectdiscovery/nuclei<br>/pull/3134**Full Changelog**: https://gi<br>thub.com/projectdiscovery/nuclei/compare<br>/v2.8.5...v2.8.6|
@@ -13,18 +14,18 @@
 |2022-12-23 09:53:06|[super-xray](https://github.com/4ra1n/super-xray)|1.0|## 1.0增加了下载面板，可以一键下载最新<br>版xray和rad并加载；增加了子域名扫描的模块<br>，但仅高级版xray可用。![image](https://us<br>er-images.githubusercontent.com/34726933<br>/209314160-91e7cf37-06dc-435b-ab53-5af92<br>800797b.png)- New Features:- [important]<br> [feat] 自动下载解压最新版xray并加载 #86<br>- [important] [feat] 自动下载解压最新版r<br>ad并加载 #87- [important] [feat] 添加子<br>域名扫描的功能 #85- [important] [feat] 指<br>定多个poc扫描的实现方式 #82- [important] <br>用户可选关闭后保留日志用于调试 #83- [feat<br>] 不配置目标的时候应该禁止主动扫描 #81- <br>[feat] 添加一个rad下载站点按钮 #84- 应该<br>提示用户先输入reverse-http url然后配置服<br>务端 #88介绍视频：https://www.bilibili.co<br>m/video/BV1Zd4y1h7Rf下载：- super-xray-1<br>.0.jar版本是通过java -jar super-xray-1.0<br>.jar启动的- super-xray-1.0-jre-exe.zip是<br>内置了JRE的exe版本- super-xray-1.0-system<br>-jre.exe是使用系统JRE的exe版本|
 |2022-12-18 08:14:24|[HaE](https://github.com/gh0stkey/HaE)|2.4.5|HaE 2.4.5 更新内容：1. 在线更新配置信息<br>功能添加提示框，防止用户误触导致配置被更<br>新：#91；2. 数据聚合查询面板添加支持通配<br>符域名查找：#88；3. 数据聚合查询面板添加<br>清空数据功能，便于用户查看最新数据；4. 新<br>增规则作用域：any header（请求与响应头）<br>、any body（请求与响应主体）。|
 |2022-12-13 03:32:05|[pocsuite3](https://github.com/knownsec/pocsuite3)|v2.0.2|* 修复 _check 方法中 url 重定向的问题 #<br>337* 修复 console 模式下 use 命令使用绝<br>对路径的问题 #341，thanks @S2eTo* 修复 bu<br>ild_url 兼容 ipv6 的问题 #347，thanks @H<br>omerQing* 优化 nuclei DSL 表达式执行 #34<br>8----------------* fix url redirect prob<br>lem in _check method #337* fix use comma<br>nd in console mode can't use absolute pa<br>th #341, thanks @S2eTo* fix ipv6 compati<br>bility issue in build_url #347, thanks @<br>HomerQing* optimize dsl expression execu<br>tion #348|
-|2022-12-09 01:31:39|[log4j2burpscanner](https://github.com/f0ng/log4j2burpscanner)|0.21.0|# 0.21.0 更新## 2022-12-91. 增加参数 pr<br>efixparam前缀可控，可输入如%84$，造成一<br>些数据库组件解析错误，从而进行log4j2的报<br>错触发2. 增加自定义header头获取响应结果请<br>求(支持了dnslog.cn等，但是dnslog.cn有PHPS<br>ESSID默认过期时间，暂不推荐使用)，举例如<br> privatednsResponseurl 框内填入以下字段<br>：HEADERhttp://dnslog.cn/getrecords.phpCo<br>okie:PHPSESSID=bmekedlvumo1e9onr6qsd1j2u<br>63. 修复dnsparam参数初始化问题，感谢微信<br>群@啊哈师傅反馈|
 ## 近30天commit提交记录
 | 提交时间 | 项目名称 | 更新内容 |
 | :---- | :---- | :---- |
-|2023-01-08 01:00:03|[NucleiTP](https://github.com/ExpLangcn/NucleiTP)|更新啦❤️|
-|2023-01-07 22:21:26|[PocOrExp_in_Github](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-01-08 06:21:26|
+|2023-01-09 01:00:03|[NucleiTP](https://github.com/ExpLangcn/NucleiTP)|更新啦❤️|
+|2023-01-09 00:46:55|[PocOrExp_in_Github](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-01-09 08:46:55|
+|2023-01-08 13:08:12|[RouteVulScan](https://github.com/F6JO/RouteVulScan)|Update README.md|
+|2023-01-08 09:46:45|[vulnerability](https://github.com/lal0ne/vulnerability)|CVE-2020-8644|
 |2023-01-07 02:36:25|[afrog](https://github.com/zan8in/afrog)|update console print datetime format|
 |2023-01-05 21:54:48|[RsaCtfTool](https://github.com/RsaCtfTool/RsaCtfTool)|Update readme|
 |2023-01-05 17:05:17|[nuclei](https://github.com/projectdiscovery/nuclei)|Merge pull request #3157 from projectdiscovery/devNucl<br>ei v2.8.6|
 |2023-01-05 14:58:10|[autoDecoder](https://github.com/f0ng/autoDecoder)|Update README.md|
 |2023-01-04 09:23:32|[ffuf](https://github.com/ffuf/ffuf)|Enhanced rate limiting (#620)* Enhanced rate limiting*<br> Use time.Ticker correctly|
-|2023-01-03 13:58:21|[RouteVulScan](https://github.com/F6JO/RouteVulScan)|Update README.md|
 |2023-01-03 08:27:35|[JDumpSpider](https://github.com/whwlsfb/JDumpSpider)|add HikariDataSource.|
 |2023-01-03 03:18:50|[404StarLink](https://github.com/knownsec/404StarLink)|weekly update at 2023-01-03|
 |2022-12-30 07:51:37|[Awesome-Redteam](https://github.com/Threekiii/Awesome-Redteam)|更新README.md|
@@ -35,7 +36,6 @@
 |2022-12-28 01:56:21|[Vulhub-Reproduce](https://github.com/Threekiii/Vulhub-Reproduce)|更新漏洞|
 |2022-12-27 16:56:33|[super-xray](https://github.com/4ra1n/super-xray)|readme|
 |2022-12-27 11:19:27|[xray](https://github.com/chaitin/xray)|Readme en (#1704)* [add] 添加英文readme* [add] 添加英<br>文版免责声明与license* [update] LICENSE* [update] LICENS<br>E* [update] NaturalizationCo-authored-by: luhan.xu |
-|2022-12-27 09:47:31|[vulnerability](https://github.com/lal0ne/vulnerability)|CVE-2022-41080|
 |2022-12-27 08:34:19|[Threathunting-book](https://github.com/12306Bro/Threathunting-book)|Merge branch 'master' of https://github.com/12306Bro/T<br>hreathunting-book|
 |2022-12-26 20:22:12|[wpscan](https://github.com/wpscanteam/wpscan)|Removes ruby 3.2 from build matrix|
 |2022-12-26 07:30:17|[Awesome-POC](https://github.com/Threekiii/Awesome-POC)|更新漏洞|
@@ -47,9 +47,7 @@
 |2022-12-13 07:14:54|[Library-POC](https://github.com/luck-ying/Library-POC)|Update README.md|
 |2022-12-13 03:25:37|[pocsuite3](https://github.com/knownsec/pocsuite3)|Merge pull request #349 from 13ph03nix/masterchore: bu<br>mp version to 2.0.2|
 |2022-12-11 11:22:06|[penetration-suite-t<br>oolkit](https://github.com/makoto56/penetration-suite-toolkit)|Update README.md|
-|2022-12-11 11:22:06|[penetration-suite-t<br>oolkit](https://github.com/makoto56/penetration-suite-toolkit)|Update README.md|
-|2022-12-09 11:22:09|[dirsearch](https://github.com/maurosoria/dirsearch)|Merge pull request #1255 from kylincodelab/masterUpdat<br>e dicc.txt|
-|2022-12-09 07:10:04|[log4j2burpscanner](https://github.com/f0ng/log4j2burpscanner)|Update FAQ-zh-CN.md|## 所有项目
+|2022-12-11 11:22:06|[penetration-suite-t<br>oolkit](https://github.com/makoto56/penetration-suite-toolkit)|Update README.md|## 所有项目
 ### 信息收集
 #### 资产测绘采集
 | 项目名称 | 版本 | 项目描述 |
@@ -276,7 +274,7 @@
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
 | [PowerScanner](https://github.com/NeoTheCapt/PowerScanner) | 1.1.3 | 面向HW的红队半自动扫描器 |
-| [RouteVulScan](https://github.com/F6JO/RouteVulScan) | RouteVulS<br>can1.3 | Burpsuite - Route Vulnerable Scanning 递归式被动检测脆弱路径的bu<br>rp插件 |
+| [RouteVulScan](https://github.com/F6JO/RouteVulScan) | RouteVulS<br>can1.4 | Burpsuite - Route Vulnerable Scanning 递归式被动检测脆弱路径的bu<br>rp插件 |
 | [SpringScan](https://github.com/metaStor/SpringScan) | V1.7 | SpringScan 漏洞检测 Burp插件 |
 | [BurpSuite-collectio<br>ns](https://github.com/Mr-xn/BurpSuite-collections) |  | 有关burpsuite的插件(非商店),文章以及使用技巧的收集(此项目不再提<br>供burpsuite破解文件,如需要请在博客mrxn.net下载)---Collection of bu<br>rpsuite plugins (non-stores), articles and tips for using Burpsui<br>te, no crack version file |
 | [BurpShiroPassiveSca<br>n](https://github.com/pmiaowu/BurpShiroPassiveScan) | BurpShiro<br>PassiveSca<br>n-2.0.0 | 一款基于BurpSuite的被动式shiro检测插件 |

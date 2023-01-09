@@ -1055,8 +1055,8 @@
             "https://github.com/lal0ne/vulnerability": {
                 "created_at": "2022-01-20 02:48:42",
                 "description": "收集、整理、修改互联网上公开的漏洞POC",
-                "commit_date": "2022-12-27 09:47:31",
-                "commit_message": "CVE-2022-41080",
+                "commit_date": "2023-01-08 09:46:45",
+                "commit_message": "CVE-2020-8644",
                 "release_tag": null,
                 "release_date": "",
                 "release_message": null
@@ -1082,8 +1082,8 @@
             "https://github.com/ycdxsb/PocOrExp_in_Github": {
                 "created_at": "2021-04-13 05:46:16",
                 "description": "聚合Github上已有的Poc或者Exp，CVE信息来自CVE官网。Auto Collect Poc Or Exp from Github by CVE ID.",
-                "commit_date": "2023-01-07 22:21:26",
-                "commit_message": "update 2023-01-08 06:21:26",
+                "commit_date": "2023-01-09 00:46:55",
+                "commit_message": "update 2023-01-09 08:46:55",
                 "release_tag": null,
                 "release_date": "",
                 "release_message": null
@@ -1372,11 +1372,11 @@
             "https://github.com/F6JO/RouteVulScan": {
                 "created_at": "2022-06-01 07:07:38",
                 "description": "Burpsuite - Route Vulnerable Scanning 递归式被动检测脆弱路径的burp插件",
-                "commit_date": "2023-01-03 13:58:21",
+                "commit_date": "2023-01-08 13:08:12",
                 "commit_message": "Update README.md",
-                "release_tag": "RouteVulScan1.3",
-                "release_date": "2022-10-18 08:22:11",
-                "release_message": "2022-10-18 添加规则分类，提供可根据个人习惯对规则进行分类处理\r\n2022-10-18 添加规则选择，只对选中的规则进行探测\r\n2022-10-19 修复切换1.3版本的配置文件不兼容问题\r\n2022-10-25 修复一个在特定情况下Edit/Del按钮无效的bug"
+                "release_tag": "RouteVulScan1.4",
+                "release_date": "2023-01-08 08:33:50",
+                "release_message": "2023-01-08 修改在线更新为追加而不是覆盖\r\n2023-01-08 将主域和子域当作第一层路径默认扫描"
             },
             "https://github.com/metaStor/SpringScan": {
                 "created_at": "2022-04-09 04:51:10",
@@ -1737,7 +1737,7 @@
             "https://github.com/ExpLangcn/NucleiTP": {
                 "created_at": "2022-11-08 13:16:56",
                 "description": "自动整合全网Nuclei的漏洞POC，实时同步更新最新POC！",
-                "commit_date": "2023-01-08 01:00:03",
+                "commit_date": "2023-01-09 01:00:03",
                 "commit_message": "更新啦❤️",
                 "release_tag": null,
                 "release_date": "",
