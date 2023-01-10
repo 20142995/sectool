@@ -1,8 +1,10 @@
-# 更新于 2023-01-09 09:03:27
+# 更新于 2023-01-10 09:07:05
 
 ## 近30天release更新记录
 | 更新时间 | 项目名称 | 版本 | 更新内容 |
 | :---- | :---- | :---- | :---- |
+|2023-01-09 19:30:26|[faker](https://github.com/joke2k/faker)|v16.1.0|See [CHANGELOG.md](https://github.com/j<br>oke2k/faker/blob/refs/tags/v16.1.0/CHANG<br>ELOG.md).|
+|2023-01-09 07:30:10|[ExpToPocsuite3](https://github.com/smallfox233/ExpToPocsuite3)|v1.0||
 |2023-01-08 08:33:50|[RouteVulScan](https://github.com/F6JO/RouteVulScan)|RouteVulS<br>can1.4|2023-01-08 修改在线更新为追加而不是覆盖<br>2023-01-08 将主域和子域当作第一层路径默<br>认扫描|
 |2023-01-06 10:04:24|[afrog](https://github.com/zan8in/afrog)|v2.2.0|Added optional -onlyfinger/-of option f<br>or fingerprint scan onlyAdded CEL functi<br>onyear、shortyear、month、day 、timestam<br>p_sencond, eg: tongda-oa-api-ali-upload.<br>yamlAdded Boolean type attribute verifie<br>d , default false, verified PoC is trueA<br>dded rule attribute expressions , a requ<br>est to verify multiple rules|
 |2023-01-06 01:45:10|[Apt_t00ls](https://github.com/White-hua/Apt_t00ls)|v0.5|增加cnvd-2023-00895|
@@ -17,17 +19,19 @@
 ## 近30天commit提交记录
 | 提交时间 | 项目名称 | 更新内容 |
 | :---- | :---- | :---- |
-|2023-01-09 01:00:03|[NucleiTP](https://github.com/ExpLangcn/NucleiTP)|更新啦❤️|
-|2023-01-09 00:46:55|[PocOrExp_in_Github](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-01-09 08:46:55|
+|2023-01-10 01:00:03|[NucleiTP](https://github.com/ExpLangcn/NucleiTP)|更新啦❤️|
+|2023-01-09 23:57:51|[PocOrExp_in_Github](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-01-10 07:57:51|
+|2023-01-09 19:29:53|[faker](https://github.com/joke2k/faker)|Bump version: 16.0.1 → 16.1.0|
+|2023-01-09 07:27:17|[ExpToPocsuite3](https://github.com/smallfox233/ExpToPocsuite3)|Update README.md|
+|2023-01-09 07:11:17|[vulnerability](https://github.com/lal0ne/vulnerability)|CNVD-2021-09650|
+|2023-01-09 03:32:07|[404StarLink](https://github.com/knownsec/404StarLink)|weekly update at 2023-01-09|
 |2023-01-08 13:08:12|[RouteVulScan](https://github.com/F6JO/RouteVulScan)|Update README.md|
-|2023-01-08 09:46:45|[vulnerability](https://github.com/lal0ne/vulnerability)|CVE-2020-8644|
 |2023-01-07 02:36:25|[afrog](https://github.com/zan8in/afrog)|update console print datetime format|
 |2023-01-05 21:54:48|[RsaCtfTool](https://github.com/RsaCtfTool/RsaCtfTool)|Update readme|
 |2023-01-05 17:05:17|[nuclei](https://github.com/projectdiscovery/nuclei)|Merge pull request #3157 from projectdiscovery/devNucl<br>ei v2.8.6|
 |2023-01-05 14:58:10|[autoDecoder](https://github.com/f0ng/autoDecoder)|Update README.md|
 |2023-01-04 09:23:32|[ffuf](https://github.com/ffuf/ffuf)|Enhanced rate limiting (#620)* Enhanced rate limiting*<br> Use time.Ticker correctly|
 |2023-01-03 08:27:35|[JDumpSpider](https://github.com/whwlsfb/JDumpSpider)|add HikariDataSource.|
-|2023-01-03 03:18:50|[404StarLink](https://github.com/knownsec/404StarLink)|weekly update at 2023-01-03|
 |2022-12-30 07:51:37|[Awesome-Redteam](https://github.com/Threekiii/Awesome-Redteam)|更新README.md|
 |2022-12-30 02:31:42|[feroxbuster](https://github.com/epi052/feroxbuster)|Merge pull request #753 from epi052/all-contributors/a<br>dd-duokebeidocs: add duokebei as a contributor for idea<br>s|
 |2022-12-28 08:10:34|[Scanners-Box](https://github.com/We5ter/Scanners-Box)|[+]OJ/gobuster & D3Ext / AORT|
@@ -308,7 +312,7 @@
 #### pocsuite3
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
-| [ExpToPocsuite3](https://github.com/smallfox233/ExpToPocsuite3) | v0.1 | goby exp批量转换为pocsuite3 exp脚本 |
+| [ExpToPocsuite3](https://github.com/smallfox233/ExpToPocsuite3) | v1.0 | goby exp批量转换为pocsuite3 exp脚本 |
 #### 浏览器扩展
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
@@ -402,7 +406,7 @@
 #### 其他
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
-| [faker](https://github.com/joke2k/faker) | v15.3.4 | Faker is a Python package that generates fake data for you. |
+| [faker](https://github.com/joke2k/faker) | v16.1.0 | Faker is a Python package that generates fake data for you. |
 | [SmsForwarder](https://github.com/pppscn/SmsForwarder) | v3.1.1 | 短信转发器——监控Android手机短信、来电、APP通知，并根据指定规则<br>转发到其他手机：钉钉群自定义机器人、钉钉企业内机器人、企业微信群机<br>器人、飞书机器人、企业微信应用消息、邮箱、bark、webhook、Telegram<br>机器人、Server酱、PushPlus、手机短信等。包括主动控制服务端与客户端<br>，让你轻松远程发短信、查短信、查通话、查话簿、查电量等。（V3.0 新<br>增）PS.这个APK主要是学习与自用，如有BUG请提ISSUE，同时欢迎大家提PR<br>指正 |
 ### 安全产品
 #### 威胁检测

@@ -1055,8 +1055,8 @@
             "https://github.com/lal0ne/vulnerability": {
                 "created_at": "2022-01-20 02:48:42",
                 "description": "收集、整理、修改互联网上公开的漏洞POC",
-                "commit_date": "2023-01-08 09:46:45",
-                "commit_message": "CVE-2020-8644",
+                "commit_date": "2023-01-09 07:11:17",
+                "commit_message": "CNVD-2021-09650",
                 "release_tag": null,
                 "release_date": "",
                 "release_message": null
@@ -1082,8 +1082,8 @@
             "https://github.com/ycdxsb/PocOrExp_in_Github": {
                 "created_at": "2021-04-13 05:46:16",
                 "description": "聚合Github上已有的Poc或者Exp，CVE信息来自CVE官网。Auto Collect Poc Or Exp from Github by CVE ID.",
-                "commit_date": "2023-01-09 00:46:55",
-                "commit_message": "update 2023-01-09 08:46:55",
+                "commit_date": "2023-01-09 23:57:51",
+                "commit_message": "update 2023-01-10 07:57:51",
                 "release_tag": null,
                 "release_date": "",
                 "release_message": null
@@ -1294,8 +1294,8 @@
             "https://github.com/knownsec/404StarLink": {
                 "created_at": "2020-11-17 08:10:18",
                 "description": "404StarLink - 推荐优质、有意义、有趣、坚持维护的安全开源项目",
-                "commit_date": "2023-01-03 03:18:50",
-                "commit_message": "weekly update at 2023-01-03",
+                "commit_date": "2023-01-09 03:32:07",
+                "commit_message": "weekly update at 2023-01-09",
                 "release_tag": null,
                 "release_date": "",
                 "release_message": null
@@ -1628,10 +1628,10 @@
             "https://github.com/smallfox233/ExpToPocsuite3": {
                 "created_at": "2022-09-30 15:47:25",
                 "description": "goby exp批量转换为pocsuite3 exp脚本",
-                "commit_date": "2022-10-04 05:59:18",
+                "commit_date": "2023-01-09 07:27:17",
                 "commit_message": "Update README.md",
-                "release_tag": "v0.1",
-                "release_date": "2022-10-02 14:51:28",
+                "release_tag": "v1.0",
+                "release_date": "2023-01-09 07:30:10",
                 "release_message": ""
             }
         },
@@ -1737,7 +1737,7 @@
             "https://github.com/ExpLangcn/NucleiTP": {
                 "created_at": "2022-11-08 13:16:56",
                 "description": "自动整合全网Nuclei的漏洞POC，实时同步更新最新POC！",
-                "commit_date": "2023-01-09 01:00:03",
+                "commit_date": "2023-01-10 01:00:03",
                 "commit_message": "更新啦❤️",
                 "release_tag": null,
                 "release_date": "",
@@ -1975,11 +1975,11 @@
             "https://github.com/joke2k/faker": {
                 "created_at": "2012-11-12 23:00:09",
                 "description": "Faker is a Python package that generates fake data for you.",
-                "commit_date": "2022-11-30 19:12:19",
-                "commit_message": "Bump version: 15.3.3 → 15.3.4",
-                "release_tag": "v15.3.4",
-                "release_date": "2022-11-30 19:12:53",
-                "release_message": "See [CHANGELOG.md](https://github.com/joke2k/faker/blob/refs/tags/v15.3.4/CHANGELOG.md)."
+                "commit_date": "2023-01-09 19:29:53",
+                "commit_message": "Bump version: 16.0.1 → 16.1.0",
+                "release_tag": "v16.1.0",
+                "release_date": "2023-01-09 19:30:26",
+                "release_message": "See [CHANGELOG.md](https://github.com/joke2k/faker/blob/refs/tags/v16.1.0/CHANGELOG.md)."
             },
             "https://github.com/pppscn/SmsForwarder": {
                 "created_at": "2021-02-10 02:23:07",
