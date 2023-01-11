@@ -212,3 +212,12 @@
 |安全产品|威胁检测|https://github.com/RoomaSec/RmEye|
 |应急工具|后门查杀|https://github.com/RoomaSec/RmTools|
 |CTF杂项|取证分析|https://github.com/AdminTest0/SharpWxDump|
+|工具&插件|nessus|https://github.com/Hypdncy/NessusToReport|
+|工具&插件|nessus|https://github.com/FunnyKun/NessusReportInChinese|
+|工具&插件|nessus|https://github.com/nszy007/CN_Nessus_Plugins_Interface|
+|工具&插件|nessus|https://github.com/xxcdd/docker_nessus_unlimited|
+|工具&插件|nessus|https://github.com/starnightcyber/nessus_api|
+|CTF杂项|编码解码|https://github.com/gchq/CyberChef|
+|工具&插件|rsas|https://github.com/biggerwing/nsfocus-rsas-knowledge-base|
+|工具&插件|rsas|https://github.com/autoing/RSAS-Data-Export|
+|工具&插件|rsas|https://github.com/autoing/RSAS-Task-Release|
