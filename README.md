@@ -1,10 +1,11 @@
-# 更新于 2023-01-11 09:06:49
+# 更新于 2023-01-12 09:05:05
 
 ## 近30天release更新记录
 | 更新时间 | 项目名称 | 版本 | 更新内容 |
 | :---- | :---- | :---- | :---- |
 |2023-01-10 17:01:33|[faker](https://github.com/joke2k/faker)|v16.3.0|See [CHANGELOG.md](https://github.com/j<br>oke2k/faker/blob/refs/tags/v16.3.0/CHANG<br>ELOG.md).|
 |2023-01-10 09:29:24|[super-xray](https://github.com/4ra1n/super-xray)|1.1|## 1.12023年1月10日xray更新了1.9.4版本<br>。添加了多个yaml编写的poc以及xstream扫描<br>模块。更新内容：- [important] 支持xray 1.<br>9.4版本 #91- [important] 指定多个POC #92<br>- [bug] 从下载面板得到的xray无法保存设置<br> #89- [bug] 取消选择文件的提示位置有误 #<br>94下载：- super-xray-1.1.jar版本通过java<br> -jar super-xray-1.1.jar启动- super-xray<br>-1.1-jre-exe.zip是内置了JRE的exe版本- su<br>per-xray-1.1-system-jre.exe是使用系统JRE<br>的exe版本|
+|2023-01-10 07:36:28|[NessusToReport](https://github.com/Hypdncy/NessusToReport)|v1.1.1||
 |2023-01-10 07:30:58|[xray](https://github.com/chaitin/xray)|1.9.4|# 更新内容## 插件更新1. 添加[XStream扫<br>描插件](https://docs.xray.cool/#/configra<br>tion/plugins?id=xstream)，支持列表如下（<br>该插件需开启反连平台）- CVE-2021-21344- C<br>VE-2021-21345- CVE-2021-39141- CVE-2021-<br>39144- ...(共29个插件)2. fastjson插件支<br>持cve-2022-25845的检测## POC编写/执行更新<br>1. 新增警告信息，师傅们可以根据警告信息<br>删除检测插件创建的文件等2. 支持在GET，HEA<br>D，OPTION时添加body3. 添加[compare versi<br>on](https://docs.xray.cool/#/guide/poc/f<br>unc?id=版本)函数，可以对匹配出的版本进行<br>对比4. 添加[html实体编码](https://docs.xr<br>ay.cool/#/guide/poc/example/encode/htmlE<br>scape)/[解码](https://docs.xray.cool/#/g<br>uide/poc/example/encode/htmlUnescape)函<br>数5. 添加[java反序列化函数](https://docs.<br>xray.cool/#/guide/poc/example/ysoGadget/<br>javaGadget)6. 添加[hex](https://docs.xra<br>y.cool/#/guide/poc/example/encode/hex)/[<br>hexDecode](https://docs.xray.cool/#/guid<br>e/poc/example/encode/hexDecode)函数## 优<br>化内容1. 优化了反连平台漏洞捕获逻辑，提高<br>了命中率2. 优化了 poc lint 变得更人性化3.<br> yaml脚本支持获取rmi反连平台的链接，具体<br>使用请参考官方文档4. 优化了Struts2检测模<br>块，添加反连确认，减少误报漏报## 修复POC#<br>## 规则优化，规则弱poc-yaml-drawio-cve-2<br>022-1713-ssrfpoc-yaml-h3c-cvm-upload-fil<br>e-uploadpoc-yaml-iis-cve-2017-7269poc-ya<br>ml-74cms-sqli-cve-2020-22209poc-yaml-rep<br>orter-file-readpoc-yaml-wanhu-ezoffice-d<br>ocumentedit-sqlipoc-yaml-joomla-cve-2017<br>-8917-sqlipoc-yaml-iis-cve-2017-7269poc-<br>yaml-emerge-e3-cve-2019-7256poc-yaml-ali<br>baba-nacos-v1-auth-bypasspoc-yaml-wanhu-<br>ezoffice-documentedit-sqlipoc-yaml-magic<br>flow-gateway-main-xp-file-readpoc-yaml-g<br>itblit-cve-2022-31268poc-yaml-phpstudy-n<br>ginx-wrong-resolvepoc-yaml-confluence-cv<br>e-2022-26138poc-yaml-metinfo-lfi-cnvd-20<br>18-13393poc-yaml-zabbix-cve-2019-17382po<br>c-yaml-wordpress-paypal-pro-cve-2020-140<br>92-sqlipoc-yaml-vite-cnvd-2022-44615poc-<br>yaml-phpmyadmin-cve-2018-12613-file-incl<br>usionpoc-yaml-zabbix-cve-2022-23134poc-y<br>aml-ametys-cms-cve-2022-26159### 优化删<br>除（功能与xray的通用插件重复）poc-yaml-ne<br>xusdb-cve-2020-24571-path-traversalpoc-y<br>aml-specoweb-cve-2021-32572-filereadpoc-<br>yaml-tvt-nvms-1000-file-read-cve-2019-20<br>085poc-yaml-zyxel-vmg1312-b10d-cve-2018-<br>19326-path-traversal### 新增无害化处理po<br>c-yaml-fanruan-v9-file-uploadpoc-yaml-h3<br>c-cvm-upload-file-uploadpoc-yaml-seeyon-<br>unauthorized-fileuploadpoc-yaml-thinkcmf<br>-write-shellpoc-yaml-wanhu-oa-officeserv<br>er-file-uploadpoc-yaml-weaver-oa-workrel<br>ate-file-uploadpoc-yaml-yonyou-grp-u8-fi<br>le-uploadpoc-yaml-yonyou-nc-file-accept-<br>uploadpoc-yaml-yonyou-u8c-file-uploadpoc<br>-yaml-zhiyuan-oa-wpsassistservlet-file-u<br>pload## 新增POC 96个poc-yaml-ruijie-file<br>upload-fileupload-rcepoc-yaml-eweaver-oa<br>-mecadminaction-sqlexecpoc-yaml-xxl-job-<br>default-passwordpoc-yaml-wordpress-plugi<br>n-superstorefinder-ssf-social-action-php<br>-sqlipoc-yaml-magento-config-disclosure-<br>info-leakpoc-yaml-ukefu-cnvd-2021-18305-<br>file-readpoc-yaml-ukefu-cnvd-2021-18303-<br>ssrfpoc-yaml-eweaver-eoffice-mainselect-<br>info-leakpoc-yaml-linksys-cnvd-2014-0126<br>0poc-yaml-wordpress-welcart-ecommerce-cv<br>e-2022-41840-path-traversalpoc-yaml-jees<br>ite-userfiles-path-traversalpoc-yaml-yon<br>gyou-nc-iupdateservice-xxepoc-yaml-v-sol<br>-olt-platform-unauth-config-downloadpoc-<br>yaml-ibm-websphere-portal-hcl-cve-2021-2<br>7748-ssrfpoc-yaml-yonyou-nc-uapws-db-inf<br>o-leakpoc-yaml-yonyou-nc-service-info-le<br>akpoc-yaml-yongyou-nc-cloud-fs-sqlipoc-y<br>aml-finecms-filedownloadpoc-yaml-weaver-<br>eoffice-userselect-unauthpoc-yaml-fortin<br>et-cve-2022-40684-auth-bypasspoc-yaml-da<br>pr-dashboard-cve-2022-38817-unauthpoc-ya<br>ml-wordpress-zephyr-project-manager-cve-<br>2022-2840-sqlipoc-yaml-jira-cve-2022-399<br>60-unauthpoc-yaml-qnap-cve-2022-27593-fi<br>leuploadpoc-yaml-wordpress-all-in-one-vi<br>deo-gallery-cve-2022-2633-lfipoc-yaml-at<br>lassian-bitbucket-archive-cve-2022-36804<br>-remote-command-execpoc-yaml-wordpress-s<br>imply-schedule-appointments-cve-2022-237<br>3-unauthpoc-yaml-zoho-manageengine-opman<br>ager-cve-2022-36923poc-yaml-red-hat-free<br>ipa-cve-2022-2414-xxepoc-yaml-wavlink-cv<br>e-2022-2488-rcepoc-yaml-wavlink-cve-2022<br>-34045-info-leakpoc-yaml-wordpress-share<br>aholic-cve-2022-0594-info-leakpoc-yaml-w<br>ordpress-wp-stats-manager-cve-2022-33965<br>-sqlipoc-yaml-opencart-newsletter-custom<br>-popup-sqlipoc-yaml-wordpress-events-mad<br>e-easy-cve-2022-1905-sqlipoc-yaml-wordpr<br>ess-kivicare-cve-2022-0786-sqlipoc-yaml-<br>wordpress-cve-2022-1609-rcepoc-yaml-sola<br>rview-compact-cve-2022-29303-rcepoc-yaml<br>-wordpress-arprice-lite-cve-2022-0867-sq<br>lipoc-yaml-wordpress-fusion-cve-2022-138<br>6-ssrfpoc-yaml-wordpress-nirweb-cve-2022<br>-0781-sqlipoc-yaml-wordpress-metform-cve<br>-2022-1442-info-leakpoc-yaml-wordpress-m<br>apsvg-cve-2022-0592-sqlipoc-yaml-wordpre<br>ss-badgeos-cve-2022-0817-sqlipoc-yaml-wo<br>rdpress-daily-prayer-time-cve-2022-0785-<br>sqlipoc-yaml-wordpress-woo-product-table<br>-cve-2022-1020-rcepoc-yaml-wordpress-doc<br>umentor-cve-2022-0773-sqlipoc-yaml-wordp<br>ress-multiple-shipping-address-woocommer<br>ce-cve-2022-0783-sqlipoc-yaml-gitlab-cve<br>-2022-1162-hardcoded-passwordpoc-yaml-th<br>inkphp-cve-2022-25481-info-leakpoc-yaml-<br>wordpress-cve-2022-0591-ssrfpoc-yaml-wor<br>dpress-simple-link-directory-cve-2022-07<br>60-sqlipoc-yaml-wordpress-ti-woocommerce<br>-wishlist-cve-2022-0412-sqlipoc-yaml-wor<br>dpress-notificationx-cve-2022-0349-sqlip<br>oc-yaml-wordpress-page-views-count-cve-2<br>022-0434-sqlipoc-yaml-wordpress-masterst<br>udy-lms-cve-2022-0441-unauthpoc-yaml-wor<br>dpress-seo-cve-2021-25118-info-leakpoc-y<br>aml-wordpress-perfect-survey-cve-2021-24<br>762-sqlipoc-yaml-wordpress-asgaros-forum<br>-cve-2021-24827-sqlipoc-yaml-tcexam-cve-<br>2021-20114-info-leakpoc-yaml-wordpress-w<br>oocommerce-cve-2021-32789-sqlipoc-yaml-w<br>ordpress-profilepress-cve-2021-34621-una<br>uthpoc-yaml-wordpress-wp-statistics-cve-<br>2021-24340-sqlipoc-yaml-voipmonitor-cve-<br>2021-30461-rcepoc-yaml-rocket-chat-cve-2<br>021-22911-nosqlipoc-yaml-pega-infinity-c<br>ve-2021-27651-unauthpoc-yaml-wordpress-m<br>odern-events-calendar-lite-cve-2021-2414<br>6-info-leakpoc-yaml-afterlogic-webmail-c<br>ve-2021-26294-path-traversalpoc-yaml-wav<br>link-cve-2020-13117-rcepoc-yaml-prestash<br>op-cve-2021-3110-sqlipoc-yaml-cockpit-cv<br>e-2020-35847-nosqlipoc-yaml-cockpit-cve-<br>2020-35848-nosqlipoc-yaml-keycloak-cve-2<br>020-10770-ssrfpoc-yaml-prestashop-cve-20<br>20-26248-sqlipoc-yaml-wordpress-paypal-p<br>ro-cve-2020-14092-sqlipoc-yaml-microstra<br>tegy-cve-2020-11450-info-leakpoc-yaml-ad<br>obe-experience-manager-cve-2019-8086-xxe<br>poc-yaml-blogengine-net-cve-2019-10717-p<br>ath-traversalpoc-yaml-dotcms-cve-2018-17<br>422-url-redirectionpoc-yaml-php-proxy-cv<br>e-2018-19458-filereadpoc-yaml-circarlife<br>-scada-cve-2018-16671-info-leakpoc-yaml-<br>circarlife-scada-cve-2018-16670-info-lea<br>kpoc-yaml-circarlife-scada-cve-2018-1666<br>8-info-leakpoc-yaml-dotnetnuke-cve-2017-<br>0929-ssrfpoc-yaml-orchid-core-vms-cve-20<br>18-10956-path-traversalpoc-yaml-circarli<br>fe-scada-cve-2018-12634-info-leakpoc-yam<br>l-nuuo-nvrmini2-cve-2018-11523-uploadpoc<br>-yaml-jolokia-cve-2018-1000130-code-inje<br>ctionpoc-yaml-fiberhome-cve-2017-15647-p<br>ath-traversalpoc-yaml-opendreambox-cve-2<br>017-14135-rcepoc-yaml-sap-cve-2017-12637<br>-filereadpoc-yaml-glassfish-cve-2017-100<br>0029-lfipoc-yaml-boa-cve-2017-9833-filer<br>eadpoc-yaml-mantisbt-cve-2017-7615-unaut<br>hpoc-yaml-wordpress-cve-2017-5487-info-l<br>eakpoc-yaml-thinkcmf-cve-2018-19898-sqli|
 |2023-01-09 07:30:10|[ExpToPocsuite3](https://github.com/smallfox233/ExpToPocsuite3)|v1.0||
 |2023-01-08 08:33:50|[RouteVulScan](https://github.com/F6JO/RouteVulScan)|RouteVulS<br>can1.4|2023-01-08 修改在线更新为追加而不是覆盖<br>2023-01-08 将主域和子域当作第一层路径默<br>认扫描|
@@ -20,12 +21,14 @@
 ## 近30天commit提交记录
 | 提交时间 | 项目名称 | 更新内容 |
 | :---- | :---- | :---- |
-|2023-01-11 01:04:01|[PocOrExp_in_Github](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-01-11 09:04:01|
-|2023-01-11 01:00:03|[NucleiTP](https://github.com/ExpLangcn/NucleiTP)|更新啦❤️|
-|2023-01-10 17:34:38|[faker](https://github.com/joke2k/faker)|Add marketdata provider (#1772)|
+|2023-01-12 01:00:02|[NucleiTP](https://github.com/ExpLangcn/NucleiTP)|更新啦❤️|
+|2023-01-11 23:58:57|[PocOrExp_in_Github](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-01-12 07:58:57|
+|2023-01-11 15:24:51|[super-xray](https://github.com/4ra1n/super-xray)|readme|
+|2023-01-11 14:37:03|[faker](https://github.com/joke2k/faker)|Update phone number formats for es_ES locale (#1763)* <br>Update spanish phone number formatsAccording to the off<br>icial guide from https://avancedigital.mineco.gob.es/es<br>-ES/Servicios/Numeracion/Documents/Guia_Numeracion.pdf,<br> there are some phone numbers that should be more restr<br>ictive.- Add phone numbers to restrict the creation of <br>invalid numbers- Refactor formats generation to avoid a<br> list of 400+ lines and enhance readability and maintai<br>nability|
+|2023-01-11 09:43:37|[InfoSearchAll](https://github.com/ExpLangcn/InfoSearchAll)|Update README.md|
 |2023-01-10 10:59:45|[http-request-smuggl<br>er](https://github.com/portswigger/http-request-smuggler)|Merge pull request #58 from Hannah-PortSwigger/masterU<br>pdate case statement to state technique.|
-|2023-01-10 09:25:22|[super-xray](https://github.com/4ra1n/super-xray)|new release|
 |2023-01-10 08:01:19|[afrog](https://github.com/zan8in/afrog)|update client line 226|
+|2023-01-10 07:34:19|[NessusToReport](https://github.com/Hypdncy/NessusToReport)|增加tenable.py|
 |2023-01-10 06:13:05|[poc-hub](https://github.com/ybdt/poc-hub)|Update readme.md|
 |2023-01-09 07:27:17|[ExpToPocsuite3](https://github.com/smallfox233/ExpToPocsuite3)|Update README.md|
 |2023-01-09 07:11:17|[vulnerability](https://github.com/lal0ne/vulnerability)|CNVD-2021-09650|
@@ -50,6 +53,7 @@
 |2022-12-21 02:53:43|[All-Defense-Tool](https://github.com/guchangan1/All-Defense-Tool)|更新v2.1|
 |2022-12-20 09:22:50|[svnExploit](https://github.com/admintony/svnExploit)|Do not verify the certificate取消对https证书的校验，防<br>止一些https自签名证书dump失败|
 |2022-12-18 08:12:16|[HaE](https://github.com/gh0stkey/HaE)|Version: 2.4.5 Update|
+|2022-12-17 08:49:13|[SharpWxDump](https://github.com/AdminTest0/SharpWxDump)|Update README.md|
 |2022-12-13 07:14:54|[Library-POC](https://github.com/luck-ying/Library-POC)|Update README.md|
 |2022-12-13 03:25:37|[pocsuite3](https://github.com/knownsec/pocsuite3)|Merge pull request #349 from 13ph03nix/masterchore: bu<br>mp version to 2.0.2|## 所有项目
 ### 信息收集
@@ -85,7 +89,7 @@
 #### 指纹识别
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
-| [EHole](https://github.com/EdgeSecurityTeam/EHole) | 3.0 |  |
+| [EHole](https://github.com/EdgeSecurityTeam/EHole) | 3.0 | EHole(棱洞)3.0 重构版-红队重点攻击系统指纹探测工具 |
 #### 端口扫描
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
@@ -339,6 +343,20 @@
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
 | [NucleiTP](https://github.com/ExpLangcn/NucleiTP) |  | 自动整合全网Nuclei的漏洞POC，实时同步更新最新POC！ |
+#### nessus
+| 项目名称 | 版本 | 项目描述 |
+| :---- | :---- | :---- |
+| [NessusToReport](https://github.com/Hypdncy/NessusToReport) | v1.1.1 | Nessus扫描报告自动化生成工具 |
+| [NessusReportInChine<br>se](https://github.com/FunnyKun/NessusReportInChinese) |  | 半自动化将 Nessus 英文报告（csv格式）生成中文 excel ，中文漏洞库<br>已有700多条常见漏洞，后续再进一步加上新漏洞自动翻译，实现全自动化 |
+| [CN_Nessus_Plugins_I<br>nterface](https://github.com/nszy007/CN_Nessus_Plugins_Interface) | 1 | nessus插件中文查询接口 |
+| [docker_nessus_unlim<br>ited](https://github.com/xxcdd/docker_nessus_unlimited) |  | docker build nessus with unlimited ip |
+| [nessus_api](https://github.com/starnightcyber/nessus_api) |  | Nessus REST API 封装 |
+#### rsas
+| 项目名称 | 版本 | 项目描述 |
+| :---- | :---- | :---- |
+| [nsfocus-rsas-knowle<br>dge-base](https://github.com/biggerwing/nsfocus-rsas-knowledge-base) |  | 绿盟科技漏洞扫描器(RSAS)漏洞库 |
+| [RSAS-Data-Export](https://github.com/autoing/RSAS-Data-Export) | 2022-9-9 | 绿盟极光远程安全评估系统(RSAS)-RSAS漏洞数据导出工具 |
+| [RSAS-Task-Release](https://github.com/autoing/RSAS-Task-Release) | v1.0 | 绿盟极光远程安全评估系统(RSAS)-RSAS批量下任务工具 |
 ### CTF杂项
 #### 图片隐写
 | 项目名称 | 版本 | 项目描述 |
@@ -355,6 +373,7 @@
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
 | [TomatoTools](https://github.com/ht0Ruial/TomatoTools) | v1.0.2 | TomatoTools 一款CTF杂项利器，支持36种常见编码和密码算法的加密和<br>解密，31种密文的分析和识别，支持自动提取flag，自定义插件等。 |
+| [CyberChef](https://github.com/gchq/CyberChef) | v9.55.0 | The Cyber Swiss Army Knife - a web app for encryption, encoding,<br> compression and data analysis |
 #### 取证分析
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
@@ -362,6 +381,7 @@
 | [chatViewTool](https://github.com/Ormicron/chatViewTool) | BEAT | 基于Java实现的图形化微信聊天记录解密查看器 |
 | [Sharp-dumpkey](https://github.com/Ormicron/Sharp-dumpkey) | 1 | 基于C#实现的获取微信数据库密钥的小工具 |
 | [Sunflower_get_Passw<br>ord](https://github.com/wafinfo/Sunflower_get_Password) |  | 一款针对向日葵的识别码和验证码提取工具 |
+| [SharpWxDump](https://github.com/AdminTest0/SharpWxDump) |  | 微信客户端取证，可获取用户个人信息(昵称/账号/手机/邮箱/数据库密<br>钥(用来解密聊天记录))；支持获取多用户信息，不定期更新新版本偏移，<br>目前支持所有新版本、正式版本 |
 #### 音频隐写
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |

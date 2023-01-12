@@ -4,7 +4,7 @@
             "https://github.com/ExpLangcn/InfoSearchAll": {
                 "created_at": "2022-06-09 10:09:47",
                 "description": "为了方便安全从业人员在使用网络测绘平台进行信息搜集时的效率，本程序集合了多个网络测绘平台，可以快速在多个网络测绘平台搜索信息并且合并展示及导出。",
-                "commit_date": "2022-12-08 13:37:18",
+                "commit_date": "2023-01-11 09:43:37",
                 "commit_message": "Update README.md",
                 "release_tag": "V1.2",
                 "release_date": "2022-06-16 08:39:08",
@@ -188,8 +188,8 @@
         },
         "指纹识别": {
             "https://github.com/EdgeSecurityTeam/EHole": {
-                "created_at": "",
-                "description": null,
+                "created_at": "2021-01-15 05:51:57",
+                "description": "EHole(棱洞)3.0 重构版-红队重点攻击系统指纹探测工具",
                 "commit_date": "2022-07-11 08:43:07",
                 "commit_message": "更新 fofa\n\n更新 fofa",
                 "release_tag": "3.0",
@@ -1082,8 +1082,8 @@
             "https://github.com/ycdxsb/PocOrExp_in_Github": {
                 "created_at": "2021-04-13 05:46:16",
                 "description": "聚合Github上已有的Poc或者Exp，CVE信息来自CVE官网。Auto Collect Poc Or Exp from Github by CVE ID.",
-                "commit_date": "2023-01-11 01:04:01",
-                "commit_message": "update 2023-01-11 09:04:01",
+                "commit_date": "2023-01-11 23:58:57",
+                "commit_message": "update 2023-01-12 07:58:57",
                 "release_tag": null,
                 "release_date": "",
                 "release_message": null
@@ -1617,8 +1617,8 @@
             "https://github.com/4ra1n/super-xray": {
                 "created_at": "2022-11-18 14:52:09",
                 "description": "Web Vulnerability Scanner XRAY GUI Starter (Web漏洞扫描工具XRAY的GUI启动器，仅是简单的命令行包装)",
-                "commit_date": "2023-01-10 09:25:22",
-                "commit_message": "new release",
+                "commit_date": "2023-01-11 15:24:51",
+                "commit_message": "readme",
                 "release_tag": "1.1",
                 "release_date": "2023-01-10 09:29:24",
                 "release_message": "## 1.1\r\n\r\n2023年1月10日`xray`更新了`1.9.4`版本。\r\n\r\n添加了多个`yaml`编写的`poc`以及`xstream`扫描模块。\r\n\r\n更新内容：\r\n- [important] 支持xray 1.9.4版本 #91\r\n- [important] 指定多个POC #92\r\n- [bug] 从下载面板得到的xray无法保存设置 #89\r\n- [bug] 取消选择文件的提示位置有误 #94\r\n\r\n下载：\r\n- super-xray-1.1.jar版本通过`java -jar super-xray-1.1.jar`启动\r\n- super-xray-1.1-jre-exe.zip是内置了JRE的exe版本\r\n- super-xray-1.1-system-jre.exe是使用系统JRE的exe版本"
@@ -1737,11 +1737,87 @@
             "https://github.com/ExpLangcn/NucleiTP": {
                 "created_at": "2022-11-08 13:16:56",
                 "description": "自动整合全网Nuclei的漏洞POC，实时同步更新最新POC！",
-                "commit_date": "2023-01-11 01:00:03",
+                "commit_date": "2023-01-12 01:00:02",
                 "commit_message": "更新啦❤️",
                 "release_tag": null,
                 "release_date": "",
                 "release_message": null
+            }
+        },
+        "nessus": {
+            "https://github.com/Hypdncy/NessusToReport": {
+                "created_at": "2020-06-26 19:35:43",
+                "description": "Nessus扫描报告自动化生成工具",
+                "commit_date": "2023-01-10 07:34:19",
+                "commit_message": "增加tenable.py",
+                "release_tag": "v1.1.1",
+                "release_date": "2023-01-10 07:36:28",
+                "release_message": ""
+            },
+            "https://github.com/FunnyKun/NessusReportInChinese": {
+                "created_at": "2018-11-03 13:45:51",
+                "description": "半自动化将 Nessus 英文报告（csv格式）生成中文 excel ，中文漏洞库已有700多条常见漏洞，后续再进一步加上新漏洞自动翻译，实现全自动化",
+                "commit_date": "2018-11-04 05:35:36",
+                "commit_message": "Update README.md",
+                "release_tag": null,
+                "release_date": "",
+                "release_message": null
+            },
+            "https://github.com/nszy007/CN_Nessus_Plugins_Interface": {
+                "created_at": "2022-02-10 07:56:50",
+                "description": "nessus插件中文查询接口",
+                "commit_date": "2022-11-28 02:54:59",
+                "commit_message": "20221125",
+                "release_tag": "1",
+                "release_date": "2022-02-10 08:19:24",
+                "release_message": ""
+            },
+            "https://github.com/xxcdd/docker_nessus_unlimited": {
+                "created_at": "2021-02-06 02:32:44",
+                "description": "docker build nessus with unlimited ip",
+                "commit_date": "2021-08-23 03:18:51",
+                "commit_message": "Merge pull request #2 from xxcdd/8.15.1\n\nadapte 8.15.1 plugins download",
+                "release_tag": null,
+                "release_date": "",
+                "release_message": null
+            },
+            "https://github.com/starnightcyber/nessus_api": {
+                "created_at": "2022-02-12 01:34:45",
+                "description": "Nessus REST API 封装",
+                "commit_date": "2022-02-18 06:34:57",
+                "commit_message": "fix type bug",
+                "release_tag": null,
+                "release_date": "",
+                "release_message": null
+            }
+        },
+        "rsas": {
+            "https://github.com/biggerwing/nsfocus-rsas-knowledge-base": {
+                "created_at": "2019-05-30 06:53:58",
+                "description": "绿盟科技漏洞扫描器(RSAS)漏洞库",
+                "commit_date": "2019-05-30 06:58:39",
+                "commit_message": "Update README.md",
+                "release_tag": null,
+                "release_date": "",
+                "release_message": null
+            },
+            "https://github.com/autoing/RSAS-Data-Export": {
+                "created_at": "2019-04-04 10:35:12",
+                "description": "绿盟极光远程安全评估系统(RSAS)-RSAS漏洞数据导出工具",
+                "commit_date": "2022-10-27 01:52:53",
+                "commit_message": "Update README.md",
+                "release_tag": "2022-9-9",
+                "release_date": "2022-09-09 03:20:59",
+                "release_message": "1、清除任务名称存在的标点符号，以确保能在Windows下创建文件。\r\n2、以导出数据的风险等级命名保存文件。"
+            },
+            "https://github.com/autoing/RSAS-Task-Release": {
+                "created_at": "2019-05-29 17:18:52",
+                "description": "绿盟极光远程安全评估系统(RSAS)-RSAS批量下任务工具",
+                "commit_date": "2022-08-25 05:16:56",
+                "commit_message": "Update README.md",
+                "release_tag": "v1.0",
+                "release_date": "2019-11-25 03:58:02",
+                "release_message": "------\r\n去其糟粕，保留四大核心功能，满足各位大侠的需求：\r\n\r\n* 1、全端口扫描\r\n\r\n* 2、默认端口扫描\r\n\r\n* 3、取消存活扫描\r\n\r\n* 4、定义存活探测端口\r\n------"
             }
         }
     },
@@ -1804,6 +1880,15 @@
                 "release_tag": "v1.0.2",
                 "release_date": "2021-11-15 12:53:20",
                 "release_message": "版本说明：\r\n- **自动提flag** 支持设定深度\r\n- **关于** 里增加三个功能开关\r\n- 插件dicts新增replace替换参数\r\n- 新增解密插件 *斜杠ASCII码转换*、*HTML实体编码*\r\n- 修复bug"
+            },
+            "https://github.com/gchq/CyberChef": {
+                "created_at": "2016-11-28 10:34:07",
+                "description": "The Cyber Swiss Army Knife - a web app for encryption, encoding, compression and data analysis",
+                "commit_date": "2022-12-09 11:40:35",
+                "commit_message": "9.55.0",
+                "release_tag": "v9.55.0",
+                "release_date": "2022-12-09 11:45:17",
+                "release_message": "See the [CHANGELOG](https://github.com/gchq/CyberChef/blob/master/CHANGELOG.md) and [commit messages](https://github.com/gchq/CyberChef/commits/master) for details."
             }
         },
         "取证分析": {
@@ -1839,6 +1924,15 @@
                 "description": "一款针对向日葵的识别码和验证码提取工具",
                 "commit_date": "2021-11-01 13:35:40",
                 "commit_message": "Add files via upload",
+                "release_tag": null,
+                "release_date": "",
+                "release_message": null
+            },
+            "https://github.com/AdminTest0/SharpWxDump": {
+                "created_at": "2022-07-17 14:53:58",
+                "description": "微信客户端取证，可获取用户个人信息(昵称/账号/手机/邮箱/数据库密钥(用来解密聊天记录))；支持获取多用户信息，不定期更新新版本偏移，目前支持所有新版本、正式版本",
+                "commit_date": "2022-12-17 08:49:13",
+                "commit_message": "Update README.md",
                 "release_tag": null,
                 "release_date": "",
                 "release_message": null
@@ -1975,8 +2069,8 @@
             "https://github.com/joke2k/faker": {
                 "created_at": "2012-11-12 23:00:09",
                 "description": "Faker is a Python package that generates fake data for you.",
-                "commit_date": "2023-01-10 17:34:38",
-                "commit_message": "Add marketdata provider (#1772)",
+                "commit_date": "2023-01-11 14:37:03",
+                "commit_message": "Update phone number formats for `es_ES` locale (#1763)\n\n* Update spanish phone number formats\r\n\r\nAccording to the official guide from https://avancedigital.mineco.gob.es/es-ES/Servicios/Numeracion/Documents/Guia_Numeracion.pdf, there are some phone numbers that should be more restrictive.\r\n\r\n- Add phone numbers to restrict the creation of invalid numbers\r\n- Refactor formats generation to avoid a list of 400+ lines and enhance readability and maintainability",
                 "release_tag": "v16.3.0",
                 "release_date": "2023-01-10 17:01:33",
                 "release_message": "See [CHANGELOG.md](https://github.com/joke2k/faker/blob/refs/tags/v16.3.0/CHANGELOG.md)."
