@@ -42,8 +42,8 @@
             "https://github.com/shmilylty/OneForAll": {
                 "created_at": "2018-12-10 09:43:37",
                 "description": "OneForAll是一款功能强大的子域收集工具",
-                "commit_date": "2022-12-06 07:29:11",
-                "commit_message": "回退",
+                "commit_date": "2023-01-12 02:31:07",
+                "commit_message": "Update docker-image.yml\n\n拼写错误",
                 "release_tag": "v0.4.5",
                 "release_date": "2022-07-10 10:16:29",
                 "release_message": "## [0.4.5](https://github.com/shmilylty/oneforall/releases/tag/v0.4.5) - 2022-07-10\r\n- 修复了#254"
@@ -1082,8 +1082,8 @@
             "https://github.com/ycdxsb/PocOrExp_in_Github": {
                 "created_at": "2021-04-13 05:46:16",
                 "description": "聚合Github上已有的Poc或者Exp，CVE信息来自CVE官网。Auto Collect Poc Or Exp from Github by CVE ID.",
-                "commit_date": "2023-01-11 23:58:57",
-                "commit_message": "update 2023-01-12 07:58:57",
+                "commit_date": "2023-01-13 00:02:49",
+                "commit_message": "update 2023-01-13 08:02:49",
                 "release_tag": null,
                 "release_date": "",
                 "release_message": null
@@ -1617,11 +1617,11 @@
             "https://github.com/4ra1n/super-xray": {
                 "created_at": "2022-11-18 14:52:09",
                 "description": "Web Vulnerability Scanner XRAY GUI Starter (Web漏洞扫描工具XRAY的GUI启动器，仅是简单的命令行包装)",
-                "commit_date": "2023-01-11 15:24:51",
-                "commit_message": "readme",
-                "release_tag": "1.1",
-                "release_date": "2023-01-10 09:29:24",
-                "release_message": "## 1.1\r\n\r\n2023年1月10日`xray`更新了`1.9.4`版本。\r\n\r\n添加了多个`yaml`编写的`poc`以及`xstream`扫描模块。\r\n\r\n更新内容：\r\n- [important] 支持xray 1.9.4版本 #91\r\n- [important] 指定多个POC #92\r\n- [bug] 从下载面板得到的xray无法保存设置 #89\r\n- [bug] 取消选择文件的提示位置有误 #94\r\n\r\n下载：\r\n- super-xray-1.1.jar版本通过`java -jar super-xray-1.1.jar`启动\r\n- super-xray-1.1-jre-exe.zip是内置了JRE的exe版本\r\n- super-xray-1.1-system-jre.exe是使用系统JRE的exe版本"
+                "commit_date": "2023-01-12 12:37:33",
+                "commit_message": "line",
+                "release_tag": "1.2",
+                "release_date": "2023-01-12 12:27:30",
+                "release_message": "## 1.2\r\n\r\n升级UI库，添加菜单，简单重构UI并修复了一些BUG\r\n\r\n更新内容：\r\n- [important] [feat] 允许设置并发数量避免发包过多 #107\r\n- [important] [feat] 添加简单的菜单功能 #111\r\n- [feat] 下载面板显示当前的操作系统 #108\r\n- [bug] 高级配置恢复后文件设置没有清除 #110\r\n- [bug] 被动扫描的输出配置逻辑有问题 #105\r\n- [bug] 子域名扫描停止扫描后应该清屏 #106\r\n- [improve] 动态保存设置的并发数量 #109\r\n- [improve] PoC模块应该给出一个简单的介绍 #99\r\n- [improve] 插件模块的UI简单重构 #100\r\n- [improve] 完善页面上的提示信息 #101\r\n- 更新`UI`库`flatlaf`到`3.0`版本\r\n\r\n下载：\r\n- super-xray-1.2.jar版本通过`java -jar super-xray-1.2.jar`启动\r\n- super-xray-1.2-jre-exe.zip是内置了JRE的exe版本\r\n- super-xray-1.2-system-jre.exe是使用系统JRE的exe版本"
             }
         },
         "pocsuite3": {
@@ -1737,7 +1737,7 @@
             "https://github.com/ExpLangcn/NucleiTP": {
                 "created_at": "2022-11-08 13:16:56",
                 "description": "自动整合全网Nuclei的漏洞POC，实时同步更新最新POC！",
-                "commit_date": "2023-01-12 01:00:02",
+                "commit_date": "2023-01-13 01:00:03",
                 "commit_message": "更新啦❤️",
                 "release_tag": null,
                 "release_date": "",
@@ -2069,11 +2069,11 @@
             "https://github.com/joke2k/faker": {
                 "created_at": "2012-11-12 23:00:09",
                 "description": "Faker is a Python package that generates fake data for you.",
-                "commit_date": "2023-01-11 14:37:03",
-                "commit_message": "Update phone number formats for `es_ES` locale (#1763)\n\n* Update spanish phone number formats\r\n\r\nAccording to the official guide from https://avancedigital.mineco.gob.es/es-ES/Servicios/Numeracion/Documents/Guia_Numeracion.pdf, there are some phone numbers that should be more restrictive.\r\n\r\n- Add phone numbers to restrict the creation of invalid numbers\r\n- Refactor formats generation to avoid a list of 400+ lines and enhance readability and maintainability",
-                "release_tag": "v16.3.0",
-                "release_date": "2023-01-10 17:01:33",
-                "release_message": "See [CHANGELOG.md](https://github.com/joke2k/faker/blob/refs/tags/v16.3.0/CHANGELOG.md)."
+                "commit_date": "2023-01-12 21:28:07",
+                "commit_message": "Bump version: 16.3.0 → 16.4.0",
+                "release_tag": "v16.4.0",
+                "release_date": "2023-01-12 21:28:51",
+                "release_message": "See [CHANGELOG.md](https://github.com/joke2k/faker/blob/refs/tags/v16.4.0/CHANGELOG.md)."
             },
             "https://github.com/pppscn/SmsForwarder": {
                 "created_at": "2021-02-10 02:23:07",
