@@ -107,8 +107,8 @@
             "https://github.com/epi052/feroxbuster": {
                 "created_at": "2020-08-22 15:36:19",
                 "description": "A fast, simple, recursive content discovery tool written in Rust.",
-                "commit_date": "2022-12-30 02:31:42",
-                "commit_message": "Merge pull request #753 from epi052/all-contributors/add-duokebei\n\ndocs: add duokebei as a contributor for ideas",
+                "commit_date": "2023-01-13 11:53:18",
+                "commit_message": "Update README.md",
                 "release_tag": "v2.7.3",
                 "release_date": "2022-12-30 02:23:54",
                 "release_message": "## What's Changed\r\n* FIX 732 ensure --no-state is respected even through --time-limit by @kmanc in https://github.com/epi052/feroxbuster/pull/733\r\n* Fix incorrect username in Contributors by @n0kovo in https://github.com/epi052/feroxbuster/pull/749\r\n* fixed #716; wordlist entries with leading slash are trimmed by @epi052 in https://github.com/epi052/feroxbuster/pull/750\r\n* fixed #743; redirects always show full url as Location by @epi052 in https://github.com/epi052/feroxbuster/pull/750\r\n* fixed #748; cancelled scans persist across ctrl+c by @epi052 in https://github.com/epi052/feroxbuster/pull/750\r\n\r\n## New Contributors\r\n* @kmanc made their first contribution in https://github.com/epi052/feroxbuster/pull/733\r\n* @n0kovo made their first contribution in https://github.com/epi052/feroxbuster/pull/749\r\n\r\n**Full Changelog**: https://github.com/epi052/feroxbuster/compare/v2.7.2...v2.7.3"
@@ -236,9 +236,9 @@
                 "description": null,
                 "commit_date": "2022-08-22 05:20:08",
                 "commit_message": "Merge pull request #41 from lz520520/branch1\n\nupdate: README.md",
-                "release_tag": "v1.5.1-sp1",
-                "release_date": "2023-01-05 08:57:19",
-                "release_message": "1. mac版修复主程序无权限问题\r\n2. win进一步优化修复弹窗报错\r\n3. ip查询异常退出问题修复"
+                "release_tag": "v1.5.1-sp2",
+                "release_date": "2023-01-13 10:38:33",
+                "release_message": "1. mac bug解决\r\n2. 漏洞利用日志优化\r\n3. 历史搜索\r\n  a. 增加查询条件\r\n  b. 增加漏洞利用日志\r\n4. 端口扫描\r\n  a. 优化端口列表\r\n  b. 增加邮箱端口指纹识别\r\n5. 暴力破解\r\n  a. 增加pop3/imap/smtp以及其ssl爆破。"
             },
             "https://github.com/gobysec/Goby": {
                 "created_at": "2019-06-03 07:56:11",
@@ -440,9 +440,9 @@
                 "description": "双语双端内网扫描以及验证工具",
                 "commit_date": "2022-12-01 07:55:41",
                 "commit_message": "Update README.md",
-                "release_tag": "v1.1.0",
-                "release_date": "2022-11-28 08:58:17",
-                "release_message": "2022.11.28 17:00\r\n这一次更新时隔一个月,我还是只更新了Golang的扫描端。\r\n我觉得这次更新是我迄今为止最满意的一次更新，因为我将程序的架构进行了翻新重构。解决了很多在以往我觉得是\"bug\"的细节，虽然在运行时不会出现异常，但是架构始终让我不太满意。这次我在爆破模块与端口扫描增加了“调度中心“的角色。详细的细节我可能会发文章叙述。\r\n各位及时给出评价。\r\n注：mac在更新13之后不能使用压缩过后的文件，不知道为啥，在此我提供未压缩的文件。见：App-arm64darwin-noupx、App-am d64darwin-noupx"
+                "release_tag": "v1.1.1",
+                "release_date": "2023-01-13 07:43:44",
+                "release_message": "2023.1.13 13:44\r\n1.通过列出共享解决了部分smb误报的问题。\r\n2.列出ftp文件。\r\n3.通过OXID识别多网卡机器。\r\n"
             }
         },
         "Shell管理": {
@@ -1082,8 +1082,8 @@
             "https://github.com/ycdxsb/PocOrExp_in_Github": {
                 "created_at": "2021-04-13 05:46:16",
                 "description": "聚合Github上已有的Poc或者Exp，CVE信息来自CVE官网。Auto Collect Poc Or Exp from Github by CVE ID.",
-                "commit_date": "2023-01-13 00:02:49",
-                "commit_message": "update 2023-01-13 08:02:49",
+                "commit_date": "2023-01-14 00:04:56",
+                "commit_message": "update 2023-01-14 08:04:56",
                 "release_tag": null,
                 "release_date": "",
                 "release_message": null
@@ -1256,7 +1256,7 @@
             "https://github.com/Threekiii/Awesome-Redteam": {
                 "created_at": "2022-02-08 00:45:03",
                 "description": "一个红队知识仓库",
-                "commit_date": "2022-12-30 07:51:37",
+                "commit_date": "2023-01-13 01:51:22",
                 "commit_message": "更新README.md",
                 "release_tag": null,
                 "release_date": "",
@@ -1616,9 +1616,9 @@
             },
             "https://github.com/4ra1n/super-xray": {
                 "created_at": "2022-11-18 14:52:09",
-                "description": "Web Vulnerability Scanner XRAY GUI Starter (Web漏洞扫描工具XRAY的GUI启动器，仅是简单的命令行包装)",
-                "commit_date": "2023-01-12 12:37:33",
-                "commit_message": "line",
+                "description": "Web漏洞扫描工具XRAY的GUI启动器",
+                "commit_date": "2023-01-13 17:25:22",
+                "commit_message": "CHANGELOG",
                 "release_tag": "1.2",
                 "release_date": "2023-01-12 12:27:30",
                 "release_message": "## 1.2\r\n\r\n升级UI库，添加菜单，简单重构UI并修复了一些BUG\r\n\r\n更新内容：\r\n- [important] [feat] 允许设置并发数量避免发包过多 #107\r\n- [important] [feat] 添加简单的菜单功能 #111\r\n- [feat] 下载面板显示当前的操作系统 #108\r\n- [bug] 高级配置恢复后文件设置没有清除 #110\r\n- [bug] 被动扫描的输出配置逻辑有问题 #105\r\n- [bug] 子域名扫描停止扫描后应该清屏 #106\r\n- [improve] 动态保存设置的并发数量 #109\r\n- [improve] PoC模块应该给出一个简单的介绍 #99\r\n- [improve] 插件模块的UI简单重构 #100\r\n- [improve] 完善页面上的提示信息 #101\r\n- 更新`UI`库`flatlaf`到`3.0`版本\r\n\r\n下载：\r\n- super-xray-1.2.jar版本通过`java -jar super-xray-1.2.jar`启动\r\n- super-xray-1.2-jre-exe.zip是内置了JRE的exe版本\r\n- super-xray-1.2-system-jre.exe是使用系统JRE的exe版本"
@@ -1737,7 +1737,7 @@
             "https://github.com/ExpLangcn/NucleiTP": {
                 "created_at": "2022-11-08 13:16:56",
                 "description": "自动整合全网Nuclei的漏洞POC，实时同步更新最新POC！",
-                "commit_date": "2023-01-13 01:00:03",
+                "commit_date": "2023-01-14 01:00:02",
                 "commit_message": "更新啦❤️",
                 "release_tag": null,
                 "release_date": "",
@@ -2043,8 +2043,8 @@
             "https://github.com/RsaCtfTool/RsaCtfTool": {
                 "created_at": "2015-03-07 17:29:33",
                 "description": "RSA attack tool (mainly for ctf) - retreive private key from weak public key and/or uncipher data",
-                "commit_date": "2023-01-05 21:54:48",
-                "commit_message": "Update readme",
+                "commit_date": "2023-01-13 17:49:24",
+                "commit_message": "add interal sage implementation of quadratic sieve",
                 "release_tag": null,
                 "release_date": "",
                 "release_message": null

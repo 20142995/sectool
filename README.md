@@ -1,8 +1,10 @@
-# 更新于 2023-01-13 09:06:38
+# 更新于 2023-01-14 09:00:45
 
 ## 近30天release更新记录
 | 更新时间 | 项目名称 | 版本 | 更新内容 |
 | :---- | :---- | :---- | :---- |
+|2023-01-13 10:38:33|[railgun](https://github.com/lz520520/railgun)|v1.5.1-sp<br>2|1. mac bug解决2. 漏洞利用日志优化3. 历<br>史搜索a. 增加查询条件b. 增加漏洞利用日志4<br>. 端口扫描a. 优化端口列表b. 增加邮箱端口<br>指纹识别5. 暴力破解a. 增加pop3/imap/smtp<br>以及其ssl爆破。|
+|2023-01-13 07:43:44|[RequestTemplate](https://github.com/1n7erface/RequestTemplate)|v1.1.1|2023.1.13 13:441.通过列出共享解决了部分<br>smb误报的问题。2.列出ftp文件。3.通过OXID<br>识别多网卡机器。|
 |2023-01-12 21:28:51|[faker](https://github.com/joke2k/faker)|v16.4.0|See [CHANGELOG.md](https://github.com/j<br>oke2k/faker/blob/refs/tags/v16.4.0/CHANG<br>ELOG.md).|
 |2023-01-12 12:27:30|[super-xray](https://github.com/4ra1n/super-xray)|1.2|## 1.2升级UI库，添加菜单，简单重构UI并<br>修复了一些BUG更新内容：- [important] [fea<br>t] 允许设置并发数量避免发包过多 #107- [i<br>mportant] [feat] 添加简单的菜单功能 #111<br>- [feat] 下载面板显示当前的操作系统 #108<br>- [bug] 高级配置恢复后文件设置没有清除 #<br>110- [bug] 被动扫描的输出配置逻辑有问题 <br>#105- [bug] 子域名扫描停止扫描后应该清屏<br> #106- [improve] 动态保存设置的并发数量 <br>#109- [improve] PoC模块应该给出一个简单<br>的介绍 #99- [improve] 插件模块的UI简单重<br>构 #100- [improve] 完善页面上的提示信息 #<br>101- 更新UI库flatlaf到3.0版本下载：- sup<br>er-xray-1.2.jar版本通过java -jar super-x<br>ray-1.2.jar启动- super-xray-1.2-jre-exe.<br>zip是内置了JRE的exe版本- super-xray-1.2-<br>system-jre.exe是使用系统JRE的exe版本|
 |2023-01-10 07:36:28|[NessusToReport](https://github.com/Hypdncy/NessusToReport)|v1.1.1||
@@ -12,7 +14,6 @@
 |2023-01-06 10:04:24|[afrog](https://github.com/zan8in/afrog)|v2.2.0|Added optional -onlyfinger/-of option f<br>or fingerprint scan onlyAdded CEL functi<br>onyear、shortyear、month、day 、timestam<br>p_sencond, eg: tongda-oa-api-ali-upload.<br>yamlAdded Boolean type attribute verifie<br>d , default false, verified PoC is trueA<br>dded rule attribute expressions , a requ<br>est to verify multiple rules|
 |2023-01-06 01:45:10|[Apt_t00ls](https://github.com/White-hua/Apt_t00ls)|v0.5|增加cnvd-2023-00895|
 |2023-01-05 17:11:54|[nuclei](https://github.com/projectdiscovery/nuclei)|v2.8.6|## What's Changed* **Fixed encoding iss<br>ue with key characters** in URL by @taru<br>nKoyalwar in https://github.com/projectd<br>iscovery/nuclei/pull/3150* **Fixed match<br>ed URL in CLI output with rawhttp** by @<br>tarunKoyalwar in https://github.com/proj<br>ectdiscovery/nuclei/pull/3155* Fixed fil<br>e upload in the headless protocol by @Mz<br>ack9999 in https://github.com/projectdis<br>covery/nuclei/pull/3091* Extended advanc<br>ed template filtering fields by @Mzack99<br>99 in https://github.com/projectdiscover<br>y/nuclei/pull/3146* Removed unused code <br>in integration tests by @Mzack9999 in ht<br>tps://github.com/projectdiscovery/nuclei<br>/pull/3134**Full Changelog**: https://gi<br>thub.com/projectdiscovery/nuclei/compare<br>/v2.8.5...v2.8.6|
-|2023-01-05 08:57:19|[railgun](https://github.com/lz520520/railgun)|v1.5.1-sp<br>1|1. mac版修复主程序无权限问题2. win进一<br>步优化修复弹窗报错3. ip查询异常退出问题修<br>复|
 |2023-01-05 06:56:12|[autoDecoder](https://github.com/f0ng/autoDecoder)|0.20|## 2023.1.5 更新0.201. 增加RSA解密 一个<br>例子2. 优化选项卡数据包设置，不影响repeat<br>er本身的数据包内容解密请求包解密请求包后<br>不影响原请求包|
 |2022-12-30 02:23:54|[feroxbuster](https://github.com/epi052/feroxbuster)|v2.7.3|## What's Changed* FIX 732 ensure --no-<br>state is respected even through --time-l<br>imit by @kmanc in https://github.com/epi<br>052/feroxbuster/pull/733* Fix incorrect <br>username in Contributors by @n0kovo in h<br>ttps://github.com/epi052/feroxbuster/pul<br>l/749* fixed #716; wordlist entries with<br> leading slash are trimmed by @epi052 in<br> https://github.com/epi052/feroxbuster/p<br>ull/750* fixed #743; redirects always sh<br>ow full url as Location by @epi052 in ht<br>tps://github.com/epi052/feroxbuster/pull<br>/750* fixed #748; cancelled scans persis<br>t across ctrl+c by @epi052 in https://gi<br>thub.com/epi052/feroxbuster/pull/750## N<br>ew Contributors* @kmanc made their first<br> contribution in https://github.com/epi0<br>52/feroxbuster/pull/733* @n0kovo made th<br>eir first contribution in https://github<br>.com/epi052/feroxbuster/pull/749**Full C<br>hangelog**: https://github.com/epi052/fe<br>roxbuster/compare/v2.7.2...v2.7.3|
 |2022-12-23 14:18:52|[captcha-killer-modi<br>fied](https://github.com/f0ng/captcha-killer-modified)|0.20|【2022-12-23】 0.20修复了url识别问题、<br>爆破顺序错乱问题、响应包直接为base64编码<br>导致爆破失败问题，感谢微信群师傅@赵 、@Ki<br>ngfuke |
@@ -20,10 +21,13 @@
 ## 近30天commit提交记录
 | 提交时间 | 项目名称 | 更新内容 |
 | :---- | :---- | :---- |
-|2023-01-13 01:00:03|[NucleiTP](https://github.com/ExpLangcn/NucleiTP)|更新啦❤️|
-|2023-01-13 00:02:49|[PocOrExp_in_Github](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-01-13 08:02:49|
+|2023-01-14 01:00:02|[NucleiTP](https://github.com/ExpLangcn/NucleiTP)|更新啦❤️|
+|2023-01-14 00:04:56|[PocOrExp_in_Github](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-01-14 08:04:56|
+|2023-01-13 17:49:24|[RsaCtfTool](https://github.com/RsaCtfTool/RsaCtfTool)|add interal sage implementation of quadratic sieve|
+|2023-01-13 17:25:22|[super-xray](https://github.com/4ra1n/super-xray)|CHANGELOG|
+|2023-01-13 11:53:18|[feroxbuster](https://github.com/epi052/feroxbuster)|Update README.md|
+|2023-01-13 01:51:22|[Awesome-Redteam](https://github.com/Threekiii/Awesome-Redteam)|更新README.md|
 |2023-01-12 21:28:07|[faker](https://github.com/joke2k/faker)|Bump version: 16.3.0 → 16.4.0|
-|2023-01-12 12:37:33|[super-xray](https://github.com/4ra1n/super-xray)|line|
 |2023-01-12 02:31:07|[OneForAll](https://github.com/shmilylty/OneForAll)|Update docker-image.yml拼写错误|
 |2023-01-11 09:43:37|[InfoSearchAll](https://github.com/ExpLangcn/InfoSearchAll)|Update README.md|
 |2023-01-10 10:59:45|[http-request-smuggl<br>er](https://github.com/portswigger/http-request-smuggler)|Merge pull request #58 from Hannah-PortSwigger/masterU<br>pdate case statement to state technique.|
@@ -34,13 +38,10 @@
 |2023-01-09 07:11:17|[vulnerability](https://github.com/lal0ne/vulnerability)|CNVD-2021-09650|
 |2023-01-09 03:32:07|[404StarLink](https://github.com/knownsec/404StarLink)|weekly update at 2023-01-09|
 |2023-01-08 13:08:12|[RouteVulScan](https://github.com/F6JO/RouteVulScan)|Update README.md|
-|2023-01-05 21:54:48|[RsaCtfTool](https://github.com/RsaCtfTool/RsaCtfTool)|Update readme|
 |2023-01-05 17:05:17|[nuclei](https://github.com/projectdiscovery/nuclei)|Merge pull request #3157 from projectdiscovery/devNucl<br>ei v2.8.6|
 |2023-01-05 14:58:10|[autoDecoder](https://github.com/f0ng/autoDecoder)|Update README.md|
 |2023-01-04 09:23:32|[ffuf](https://github.com/ffuf/ffuf)|Enhanced rate limiting (#620)* Enhanced rate limiting*<br> Use time.Ticker correctly|
 |2023-01-03 08:27:35|[JDumpSpider](https://github.com/whwlsfb/JDumpSpider)|add HikariDataSource.|
-|2022-12-30 07:51:37|[Awesome-Redteam](https://github.com/Threekiii/Awesome-Redteam)|更新README.md|
-|2022-12-30 02:31:42|[feroxbuster](https://github.com/epi052/feroxbuster)|Merge pull request #753 from epi052/all-contributors/a<br>dd-duokebeidocs: add duokebei as a contributor for idea<br>s|
 |2022-12-28 08:10:34|[Scanners-Box](https://github.com/We5ter/Scanners-Box)|[+]OJ/gobuster & D3Ext / AORT|
 |2022-12-28 02:37:14|[shiro_rce_tool](https://github.com/wyzxxz/shiro_rce_tool)|Update README.md|
 |2022-12-28 01:57:57|[Vulnerability-Wiki](https://github.com/Threekiii/Vulnerability-Wiki)|更新漏洞|
@@ -101,7 +102,7 @@
 #### 半自动化漏洞利用
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
-| [railgun](https://github.com/lz520520/railgun) | v1.5.1-sp<br>1 |  |
+| [railgun](https://github.com/lz520520/railgun) | v1.5.1-sp<br>2 |  |
 | [Goby](https://github.com/gobysec/Goby) | Beta1.9.3<br>25 | Attack surface mapping |
 #### 半自动漏洞扫描
 | 项目名称 | 版本 | 项目描述 |
@@ -132,7 +133,7 @@
 | [redis-rce](https://github.com/Ridter/redis-rce) |  | Redis 4.x/5.x RCE |
 | [RedisEXP](https://github.com/yuyan-sec/RedisEXP) |  | Redis 漏洞利用工具 |
 | [redis_rce](https://github.com/zyylhn/redis_rce) | v0.1.0 | Redis primary/secondary replication RCE |
-| [RequestTemplate](https://github.com/1n7erface/RequestTemplate) | v1.1.0 | 双语双端内网扫描以及验证工具 |
+| [RequestTemplate](https://github.com/1n7erface/RequestTemplate) | v1.1.1 | 双语双端内网扫描以及验证工具 |
 #### Shell管理
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
@@ -310,7 +311,7 @@
 | :---- | :---- | :---- |
 | [yarx](https://github.com/zema1/yarx) | v0.2.0 | An awesome reverse engine for xray poc. | 一个自动化根据 xray po<br>c 生成对应 server 的工具 |
 | [xray-poc-generation](https://github.com/phith0n/xray-poc-generation) |  | 🧬 辅助生成 XRay YAML POC |
-| [super-xray](https://github.com/4ra1n/super-xray) | 1.2 | Web Vulnerability Scanner XRAY GUI Starter (Web漏洞扫描工具XRAY<br>的GUI启动器，仅是简单的命令行包装) |
+| [super-xray](https://github.com/4ra1n/super-xray) | 1.2 | Web漏洞扫描工具XRAY的GUI启动器 |
 #### pocsuite3
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
