@@ -1082,8 +1082,8 @@
             "https://github.com/ycdxsb/PocOrExp_in_Github": {
                 "created_at": "2021-04-13 05:46:16",
                 "description": "聚合Github上已有的Poc或者Exp，CVE信息来自CVE官网。Auto Collect Poc Or Exp from Github by CVE ID.",
-                "commit_date": "2023-01-14 00:04:56",
-                "commit_message": "update 2023-01-14 08:04:56",
+                "commit_date": "2023-01-15 00:06:07",
+                "commit_message": "update 2023-01-15 08:06:07",
                 "release_tag": null,
                 "release_date": "",
                 "release_message": null
@@ -1617,7 +1617,7 @@
             "https://github.com/4ra1n/super-xray": {
                 "created_at": "2022-11-18 14:52:09",
                 "description": "Web漏洞扫描工具XRAY的GUI启动器",
-                "commit_date": "2023-01-13 17:25:22",
+                "commit_date": "2023-01-14 15:09:04",
                 "commit_message": "CHANGELOG",
                 "release_tag": "1.2",
                 "release_date": "2023-01-12 12:27:30",
@@ -1675,8 +1675,8 @@
             "https://github.com/ninoseki/mitaka": {
                 "created_at": "2018-02-09 00:13:30",
                 "description": "A browser extension for OSINT search",
-                "commit_date": "2022-09-23 07:03:14",
-                "commit_message": "Merge pull request #692 from ninoseki/v0.93.0\n\nv0.93.0",
+                "commit_date": "2023-01-14 02:03:19",
+                "commit_message": "docs: add hr [skip ci]",
                 "release_tag": "v0.93.0",
                 "release_date": "2022-09-23 07:09:22",
                 "release_message": "- Remove deprecated search services (#690)\r\n- Add an option to disable/enable debug log(#691)"
@@ -1737,7 +1737,7 @@
             "https://github.com/ExpLangcn/NucleiTP": {
                 "created_at": "2022-11-08 13:16:56",
                 "description": "自动整合全网Nuclei的漏洞POC，实时同步更新最新POC！",
-                "commit_date": "2023-01-14 01:00:02",
+                "commit_date": "2023-01-15 01:00:02",
                 "commit_message": "更新啦❤️",
                 "release_tag": null,
                 "release_date": "",
@@ -2043,8 +2043,8 @@
             "https://github.com/RsaCtfTool/RsaCtfTool": {
                 "created_at": "2015-03-07 17:29:33",
                 "description": "RSA attack tool (mainly for ctf) - retreive private key from weak public key and/or uncipher data",
-                "commit_date": "2023-01-13 17:49:24",
-                "commit_message": "add interal sage implementation of quadratic sieve",
+                "commit_date": "2023-01-14 16:02:02",
+                "commit_message": "Merge pull request #396 from jensMF/patch-1\n\nAdded some information to the helptext of timeout",
                 "release_tag": null,
                 "release_date": "",
                 "release_message": null

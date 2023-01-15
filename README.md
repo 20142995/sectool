@@ -1,4 +1,4 @@
-# 更新于 2023-01-14 09:00:45
+# 更新于 2023-01-15 09:07:18
 
 ## 近30天release更新记录
 | 更新时间 | 项目名称 | 版本 | 更新内容 |
@@ -21,10 +21,11 @@
 ## 近30天commit提交记录
 | 提交时间 | 项目名称 | 更新内容 |
 | :---- | :---- | :---- |
-|2023-01-14 01:00:02|[NucleiTP](https://github.com/ExpLangcn/NucleiTP)|更新啦❤️|
-|2023-01-14 00:04:56|[PocOrExp_in_Github](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-01-14 08:04:56|
-|2023-01-13 17:49:24|[RsaCtfTool](https://github.com/RsaCtfTool/RsaCtfTool)|add interal sage implementation of quadratic sieve|
-|2023-01-13 17:25:22|[super-xray](https://github.com/4ra1n/super-xray)|CHANGELOG|
+|2023-01-15 01:00:02|[NucleiTP](https://github.com/ExpLangcn/NucleiTP)|更新啦❤️|
+|2023-01-15 00:06:07|[PocOrExp_in_Github](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-01-15 08:06:07|
+|2023-01-14 16:02:02|[RsaCtfTool](https://github.com/RsaCtfTool/RsaCtfTool)|Merge pull request #396 from jensMF/patch-1Added some <br>information to the helptext of timeout|
+|2023-01-14 15:09:04|[super-xray](https://github.com/4ra1n/super-xray)|CHANGELOG|
+|2023-01-14 02:03:19|[mitaka](https://github.com/ninoseki/mitaka)|docs: add hr [skip ci]|
 |2023-01-13 11:53:18|[feroxbuster](https://github.com/epi052/feroxbuster)|Update README.md|
 |2023-01-13 01:51:22|[Awesome-Redteam](https://github.com/Threekiii/Awesome-Redteam)|更新README.md|
 |2023-01-12 21:28:07|[faker](https://github.com/joke2k/faker)|Bump version: 16.3.0 → 16.4.0|
