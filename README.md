@@ -1,8 +1,9 @@
-# 更新于 2023-01-15 09:07:18
+# 更新于 2023-01-16 09:03:19
 
 ## 近30天release更新记录
 | 更新时间 | 项目名称 | 版本 | 更新内容 |
 | :---- | :---- | :---- | :---- |
+|2023-01-15 18:06:51|[nuclei](https://github.com/projectdiscovery/nuclei)|v2.8.7|## What's Changed* Added **generate_jwt<br>**, **json_minify**, **json_prettify** h<br>elper functions by @dwisiswant0 in https<br>://github.com/projectdiscovery/nuclei/pu<br>ll/3160* Added markdown index file by @x<br>m1k3 in https://github.com/projectdiscov<br>ery/nuclei/pull/3129* Fixed issue with I<br>P input in uncover integration by @tarun<br>Koyalwar in https://github.com/projectdi<br>scovery/nuclei/pull/3186* Fixed hmap sto<br>rage requirement via omitempty by @Mzack<br>9999 in https://github.com/projectdiscov<br>ery/nuclei/pull/3111* Fixed content leng<br>th edge cases by @Mzack9999 in https://g<br>ithub.com/projectdiscovery/nuclei/pull/3<br>147* Added optional timestamp in debug l<br>ogs by @xm1k3 in https://github.com/proj<br>ectdiscovery/nuclei/pull/3110* Moved exa<br>mples to go file by @Mzack9999 in https:<br>//github.com/projectdiscovery/nuclei/pul<br>l/3187**Full Changelog**: https://github<br>.com/projectdiscovery/nuclei/compare/v2.<br>8.6...v2.8.7|
 |2023-01-13 10:38:33|[railgun](https://github.com/lz520520/railgun)|v1.5.1-sp<br>2|1. mac bug解决2. 漏洞利用日志优化3. 历<br>史搜索a. 增加查询条件b. 增加漏洞利用日志4<br>. 端口扫描a. 优化端口列表b. 增加邮箱端口<br>指纹识别5. 暴力破解a. 增加pop3/imap/smtp<br>以及其ssl爆破。|
 |2023-01-13 07:43:44|[RequestTemplate](https://github.com/1n7erface/RequestTemplate)|v1.1.1|2023.1.13 13:441.通过列出共享解决了部分<br>smb误报的问题。2.列出ftp文件。3.通过OXID<br>识别多网卡机器。|
 |2023-01-12 21:28:51|[faker](https://github.com/joke2k/faker)|v16.4.0|See [CHANGELOG.md](https://github.com/j<br>oke2k/faker/blob/refs/tags/v16.4.0/CHANG<br>ELOG.md).|
@@ -13,7 +14,6 @@
 |2023-01-08 08:33:50|[RouteVulScan](https://github.com/F6JO/RouteVulScan)|RouteVulS<br>can1.4|2023-01-08 修改在线更新为追加而不是覆盖<br>2023-01-08 将主域和子域当作第一层路径默<br>认扫描|
 |2023-01-06 10:04:24|[afrog](https://github.com/zan8in/afrog)|v2.2.0|Added optional -onlyfinger/-of option f<br>or fingerprint scan onlyAdded CEL functi<br>onyear、shortyear、month、day 、timestam<br>p_sencond, eg: tongda-oa-api-ali-upload.<br>yamlAdded Boolean type attribute verifie<br>d , default false, verified PoC is trueA<br>dded rule attribute expressions , a requ<br>est to verify multiple rules|
 |2023-01-06 01:45:10|[Apt_t00ls](https://github.com/White-hua/Apt_t00ls)|v0.5|增加cnvd-2023-00895|
-|2023-01-05 17:11:54|[nuclei](https://github.com/projectdiscovery/nuclei)|v2.8.6|## What's Changed* **Fixed encoding iss<br>ue with key characters** in URL by @taru<br>nKoyalwar in https://github.com/projectd<br>iscovery/nuclei/pull/3150* **Fixed match<br>ed URL in CLI output with rawhttp** by @<br>tarunKoyalwar in https://github.com/proj<br>ectdiscovery/nuclei/pull/3155* Fixed fil<br>e upload in the headless protocol by @Mz<br>ack9999 in https://github.com/projectdis<br>covery/nuclei/pull/3091* Extended advanc<br>ed template filtering fields by @Mzack99<br>99 in https://github.com/projectdiscover<br>y/nuclei/pull/3146* Removed unused code <br>in integration tests by @Mzack9999 in ht<br>tps://github.com/projectdiscovery/nuclei<br>/pull/3134**Full Changelog**: https://gi<br>thub.com/projectdiscovery/nuclei/compare<br>/v2.8.5...v2.8.6|
 |2023-01-05 06:56:12|[autoDecoder](https://github.com/f0ng/autoDecoder)|0.20|## 2023.1.5 更新0.201. 增加RSA解密 一个<br>例子2. 优化选项卡数据包设置，不影响repeat<br>er本身的数据包内容解密请求包解密请求包后<br>不影响原请求包|
 |2022-12-30 02:23:54|[feroxbuster](https://github.com/epi052/feroxbuster)|v2.7.3|## What's Changed* FIX 732 ensure --no-<br>state is respected even through --time-l<br>imit by @kmanc in https://github.com/epi<br>052/feroxbuster/pull/733* Fix incorrect <br>username in Contributors by @n0kovo in h<br>ttps://github.com/epi052/feroxbuster/pul<br>l/749* fixed #716; wordlist entries with<br> leading slash are trimmed by @epi052 in<br> https://github.com/epi052/feroxbuster/p<br>ull/750* fixed #743; redirects always sh<br>ow full url as Location by @epi052 in ht<br>tps://github.com/epi052/feroxbuster/pull<br>/750* fixed #748; cancelled scans persis<br>t across ctrl+c by @epi052 in https://gi<br>thub.com/epi052/feroxbuster/pull/750## N<br>ew Contributors* @kmanc made their first<br> contribution in https://github.com/epi0<br>52/feroxbuster/pull/733* @n0kovo made th<br>eir first contribution in https://github<br>.com/epi052/feroxbuster/pull/749**Full C<br>hangelog**: https://github.com/epi052/fe<br>roxbuster/compare/v2.7.2...v2.7.3|
 |2022-12-23 14:18:52|[captcha-killer-modi<br>fied](https://github.com/f0ng/captcha-killer-modified)|0.20|【2022-12-23】 0.20修复了url识别问题、<br>爆破顺序错乱问题、响应包直接为base64编码<br>导致爆破失败问题，感谢微信群师傅@赵 、@Ki<br>ngfuke |
@@ -21,10 +21,12 @@
 ## 近30天commit提交记录
 | 提交时间 | 项目名称 | 更新内容 |
 | :---- | :---- | :---- |
-|2023-01-15 01:00:02|[NucleiTP](https://github.com/ExpLangcn/NucleiTP)|更新啦❤️|
-|2023-01-15 00:06:07|[PocOrExp_in_Github](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-01-15 08:06:07|
+|2023-01-16 01:00:03|[NucleiTP](https://github.com/ExpLangcn/NucleiTP)|更新啦❤️|
+|2023-01-15 21:08:19|[PocOrExp_in_Github](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-01-16 05:08:19|
+|2023-01-15 17:50:24|[nuclei](https://github.com/projectdiscovery/nuclei)|Merge pull request #3193 from projectdiscovery/devnucl<br>ei v2.8.7|
+|2023-01-15 17:20:44|[super-xray](https://github.com/4ra1n/super-xray)|CHANGELOG|
+|2023-01-15 13:45:09|[poc-hub](https://github.com/ybdt/poc-hub)|Update readme.md|
 |2023-01-14 16:02:02|[RsaCtfTool](https://github.com/RsaCtfTool/RsaCtfTool)|Merge pull request #396 from jensMF/patch-1Added some <br>information to the helptext of timeout|
-|2023-01-14 15:09:04|[super-xray](https://github.com/4ra1n/super-xray)|CHANGELOG|
 |2023-01-14 02:03:19|[mitaka](https://github.com/ninoseki/mitaka)|docs: add hr [skip ci]|
 |2023-01-13 11:53:18|[feroxbuster](https://github.com/epi052/feroxbuster)|Update README.md|
 |2023-01-13 01:51:22|[Awesome-Redteam](https://github.com/Threekiii/Awesome-Redteam)|更新README.md|
@@ -34,12 +36,10 @@
 |2023-01-10 10:59:45|[http-request-smuggl<br>er](https://github.com/portswigger/http-request-smuggler)|Merge pull request #58 from Hannah-PortSwigger/masterU<br>pdate case statement to state technique.|
 |2023-01-10 08:01:19|[afrog](https://github.com/zan8in/afrog)|update client line 226|
 |2023-01-10 07:34:19|[NessusToReport](https://github.com/Hypdncy/NessusToReport)|增加tenable.py|
-|2023-01-10 06:13:05|[poc-hub](https://github.com/ybdt/poc-hub)|Update readme.md|
 |2023-01-09 07:27:17|[ExpToPocsuite3](https://github.com/smallfox233/ExpToPocsuite3)|Update README.md|
 |2023-01-09 07:11:17|[vulnerability](https://github.com/lal0ne/vulnerability)|CNVD-2021-09650|
 |2023-01-09 03:32:07|[404StarLink](https://github.com/knownsec/404StarLink)|weekly update at 2023-01-09|
 |2023-01-08 13:08:12|[RouteVulScan](https://github.com/F6JO/RouteVulScan)|Update README.md|
-|2023-01-05 17:05:17|[nuclei](https://github.com/projectdiscovery/nuclei)|Merge pull request #3157 from projectdiscovery/devNucl<br>ei v2.8.6|
 |2023-01-05 14:58:10|[autoDecoder](https://github.com/f0ng/autoDecoder)|Update README.md|
 |2023-01-04 09:23:32|[ffuf](https://github.com/ffuf/ffuf)|Enhanced rate limiting (#620)* Enhanced rate limiting*<br> Use time.Ticker correctly|
 |2023-01-03 08:27:35|[JDumpSpider](https://github.com/whwlsfb/JDumpSpider)|add HikariDataSource.|
@@ -112,7 +112,7 @@
 | [xray](https://github.com/chaitin/xray) | 1.9.4 | 一款完善的安全评估工具，支持常见 web 安全问题扫描和自定义 poc | <br>使用之前务必先阅读文档 |
 | [w13scan](https://github.com/w-digital-scanner/w13scan) |  | Passive Security Scanner (被动式安全扫描器) |
 | [Fvuln](https://github.com/d3ckx1/Fvuln) | Fvuln_v1.<br>4.8 | F-vuln（全称：Find-Vulnerability）是为了自己工作方便专门编写的一<br>款自动化工具，主要适用于日常安全服务、渗透测试人员和RedTeam红队人<br>员，它集合的功能包括：存活IP探测、开放端口探测、web服务探测、web漏<br>洞扫描、smb爆破、ssh爆破、ftp爆破、mssql爆破等其他数据库爆破工作以<br>及大量web漏洞检测模块。 |
-| [nuclei](https://github.com/projectdiscovery/nuclei) | v2.8.6 | Fast and customizable vulnerability scanner based on simple YAML<br> based DSL. |
+| [nuclei](https://github.com/projectdiscovery/nuclei) | v2.8.7 | Fast and customizable vulnerability scanner based on simple YAML<br> based DSL. |
 | [afrog](https://github.com/zan8in/afrog) | v2.2.0 | A Vulnerability Scanning Tools For Penetration Testing |
 | [vulmap](https://github.com/zhzyker/vulmap) | v0.9 | Vulmap 是一款 web 漏洞扫描和验证工具, 可对 webapps 进行漏洞扫描,<br> 并且具备漏洞验证功能 |
 | [POC-bomber](https://github.com/tr0uble-mAker/POC-bomber) | v2.0.2-PO<br>C-bomber | 利用大量高威胁poc/exp快速获取目标权限，用于渗透和红队快速打点 |
