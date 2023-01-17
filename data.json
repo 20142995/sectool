@@ -1082,8 +1082,8 @@
             "https://github.com/ycdxsb/PocOrExp_in_Github": {
                 "created_at": "2021-04-13 05:46:16",
                 "description": "聚合Github上已有的Poc或者Exp，CVE信息来自CVE官网。Auto Collect Poc Or Exp from Github by CVE ID.",
-                "commit_date": "2023-01-15 21:08:19",
-                "commit_message": "update 2023-01-16 05:08:19",
+                "commit_date": "2023-01-17 00:06:38",
+                "commit_message": "update 2023-01-17 08:06:38",
                 "release_tag": null,
                 "release_date": "",
                 "release_message": null
@@ -1294,8 +1294,8 @@
             "https://github.com/knownsec/404StarLink": {
                 "created_at": "2020-11-17 08:10:18",
                 "description": "404StarLink - 推荐优质、有意义、有趣、坚持维护的安全开源项目",
-                "commit_date": "2023-01-09 03:32:07",
-                "commit_message": "weekly update at 2023-01-09",
+                "commit_date": "2023-01-16 03:17:55",
+                "commit_message": "weekly update at 2023-01-16",
                 "release_tag": null,
                 "release_date": "",
                 "release_message": null
@@ -1303,8 +1303,8 @@
             "https://github.com/We5ter/Scanners-Box": {
                 "created_at": "2016-12-24 16:07:50",
                 "description": "A powerful and open-source toolkit for hackers and security automation - 安全行业从业者自研开源扫描器合辑",
-                "commit_date": "2022-12-28 08:10:34",
-                "commit_message": "[+]OJ/gobuster & D3Ext / AORT",
+                "commit_date": "2023-01-16 10:59:37",
+                "commit_message": "[+]kvesta/vesta",
                 "release_tag": null,
                 "release_date": "",
                 "release_message": null
@@ -1617,11 +1617,11 @@
             "https://github.com/4ra1n/super-xray": {
                 "created_at": "2022-11-18 14:52:09",
                 "description": "Web漏洞扫描工具XRAY的GUI启动器",
-                "commit_date": "2023-01-15 17:20:44",
-                "commit_message": "CHANGELOG",
-                "release_tag": "1.2",
-                "release_date": "2023-01-12 12:27:30",
-                "release_message": "## 1.2\r\n\r\n升级UI库，添加菜单，简单重构UI并修复了一些BUG\r\n\r\n更新内容：\r\n- [important] [feat] 允许设置并发数量避免发包过多 #107\r\n- [important] [feat] 添加简单的菜单功能 #111\r\n- [feat] 下载面板显示当前的操作系统 #108\r\n- [bug] 高级配置恢复后文件设置没有清除 #110\r\n- [bug] 被动扫描的输出配置逻辑有问题 #105\r\n- [bug] 子域名扫描停止扫描后应该清屏 #106\r\n- [improve] 动态保存设置的并发数量 #109\r\n- [improve] PoC模块应该给出一个简单的介绍 #99\r\n- [improve] 插件模块的UI简单重构 #100\r\n- [improve] 完善页面上的提示信息 #101\r\n- 更新`UI`库`flatlaf`到`3.0`版本\r\n\r\n下载：\r\n- super-xray-1.2.jar版本通过`java -jar super-xray-1.2.jar`启动\r\n- super-xray-1.2-jre-exe.zip是内置了JRE的exe版本\r\n- super-xray-1.2-system-jre.exe是使用系统JRE的exe版本"
+                "commit_date": "2023-01-16 13:14:58",
+                "commit_message": "#128",
+                "release_tag": "1.3",
+                "release_date": "2023-01-16 11:24:32",
+                "release_message": "## 1.3\r\n\r\nйҮҚеӨ§жӣҙж–°зүҲжң¬пјҡ\r\n- дҝ®еӨҚе®үе…ЁжјҸжҙһ\r\n- AJPжңҚеҠЎжү«жҸҸйқўжқҝ\r\n- ж–°еўһеӨҡдёӘиҸңеҚ•йҖүйЎ№\r\n- еҶ…зҪ®е…ӯж¬ҫе°ҸжёёжҲҸ\r\n\r\nдҝ®еӨҚе®үе…ЁжјҸжҙһпјҡ[GHSA-vgxx-2crp-32vv зү№ж®Ҡжғ…еҶөдёӢзҡ„е®Ңе…ЁжӢ’з»қжңҚеҠЎ](https://github.com/4ra1n/super-xray/security/advisories/GHSA-vgxx-2crp-32vv)\r\n\r\nдҪҝз”Ё`exe`зүҲжң¬еҠ иҪҪ`super-xray`иҮӘиә«е°Ҷдјҡж— йҷҗеҗҜеҠЁпјҢеҜјиҮҙиҖ—е°Ҫж“ҚдҪңзі»з»ҹ`CPU`е’ҢеҶ…еӯҳгҖӮж— йҷҗеҗҜеҠЁеҺҹеӣ жҳҜеҗҜеҠЁж—¶йңҖиҰҒжү§иЎҢд№ӢеүҚдҝқеӯҳзҡ„`xray`и·Ҝеҫ„пјҢеҰӮжһңйҖүжӢ©дәҶ`super-xray.exe`иҮӘиә«дҝқеӯҳеҗҺжҳҫз„¶дјҡеҜјиҮҙжӯ»еҫӘзҺҜгҖӮз”ұдәҺз”ЁжҲ·иҫ“е…Ҙзҡ„еҸҜжү§иЎҢж–Үд»¶жҳҜд»Җд№Ҳеә”иҜҘз”ұз”ЁжҲ·иҙҹиҙЈпјҢдёҖиҲ¬жғ…еҶөдёӢдёҚеә”иҜҘжҳҜе®үе…ЁжјҸжҙһпјҢдҪҶжҳҜз”ЁжҲ·иҫ“е…Ҙ`super-xray`иҮӘиә«еҜјиҮҙзҡ„й—®йўҳеә”иҜҘиў«еӨ„зҗҶгҖӮдәҢиҝӣеҲ¶еҸҜжү§иЎҢж–Үд»¶ж— жі•еҲӨж–ӯе…·дҪ“жҳҜд»Җд№ҲпјҢжүҖд»ҘеҸӘиғҪйҷҗеҲ¶ж–Үд»¶еҗҚз»“еҗҲж–Үд»¶еӨ§е°ҸдәҢиҖ…жқҘйҳІжӯўеҠ иҪҪиҮӘиә«пјҢдҪҶжҳҜз”ЁжҲ·еҠ иҪҪе…¶д»–еҸҜжү§иЎҢж–Үд»¶еҜјиҮҙзҡ„е®үе…Ёй—®йўҳдёҺжң¬йЎ№зӣ®ж— е…ігҖӮ\r\n\r\nжӣҙж–°еҶ…е®№пјҡ\r\n- [important] [security] еҠ иҪҪиҮӘиә«е°ҶдјҡиҖ—е°Ҫж“ҚдҪңзі»з»ҹиө„жәҗ #112\r\n- [important] [feat] еўһеҠ Tomcat AJPжңҚеҠЎжү«жҸҸйқўжқҝ #123\r\n- [important] [feat] ж–°иҸңеҚ•жҳҫзӨәеҪ“еүҚзүҲжң¬е’Ңж”ҜжҢҒxrayжңҖдҪҺзүҲжң¬ #113\r\n- [important] [feat] йӘҢиҜҒsuper-xrayжңҖж–°зүҲжң¬ #114\r\n- [important] [doc] жӣҙж–°READMEдёӯжүҖжңүзҡ„еӣҫзүҮ #121\r\n- [feat] еҠ е…Ҙе…ӯж¬ҫе°ҸжёёжҲҸз”ЁдәҺж‘ёйұј #124\r\n- [feat] еӯҗеҹҹеҗҚжү«жҸҸеҠ е…Ҙе…ій—ӯеҲ йҷӨйҖүйЎ№ #118\r\n- [feat] еә”иҜҘжҸҗдҫӣдёҖдёӘжҢүй’®е…Ғи®ёз”ЁжҲ·еӨҚеҲ¶еҪ“еүҚе‘Ҫд»Ө #127\r\n- [improve] жҹҘзңӢе‘Ҫд»ӨжҢүй’®жҳҫзӨәеҶ…е®№иҝҮй•ҝй—®йўҳ #126\r\n- [improve] е№¶еҸ‘и®ҫзҪ®еә”иҜҘжңүдёҖдёӘдёҠйҷҗе’ҢдёӢйҷҗ #125\r\n- [improve] жҹҗдәӣжғ…еҶөеҗҢжӯҘPoCдјҡеҚЎдҪҸиҫғй•ҝж—¶й—ҙ #122\r\n- [improve] еҠ иҪҪradд№ҹеә”иҜҘеҜ№иҫ“е…Ҙж–Үд»¶иҝӣиЎҢйҷҗеҲ¶ #120\r\n- [improve] ж”ҜжҢҒе…ій—ӯж—¶еҲ йҷӨиў«еҠЁжү«жҸҸз”ҹжҲҗзҡ„caж–Үд»¶ #117\r\n- [improve] еӯҗеҹҹеҗҚжү«жҸҸзҡ„иҫ“е…ҘиҝҮж»Ө #116\r\n- [improve] зҰҒз”ЁеӯҗеҹҹеҗҚжү«жҸҸзҡ„ip-onlyйҖүйЎ№ #119\r\n\r\nдёӢиҪҪпјҡ\r\n- super-xray-1.3.jarзүҲжң¬йҖҡиҝҮ`java -jar super-xray-1.3.jar`еҗҜеҠЁ\r\n- super-xray-1.3-jre-exe.zipжҳҜеҶ…зҪ®дәҶJREзҡ„exeзүҲжң¬\r\n- super-xray-1.3-system-jre.exeжҳҜдҪҝз”Ёзі»з»ҹJREзҡ„exeзүҲжң¬"
             }
         },
         "pocsuite3": {
@@ -1737,7 +1737,7 @@
             "https://github.com/ExpLangcn/NucleiTP": {
                 "created_at": "2022-11-08 13:16:56",
                 "description": "自动整合全网Nuclei的漏洞POC，实时同步更新最新POC！",
-                "commit_date": "2023-01-16 01:00:03",
+                "commit_date": "2023-01-17 01:00:03",
                 "commit_message": "更新啦❤️",
                 "release_tag": null,
                 "release_date": "",
@@ -2043,8 +2043,8 @@
             "https://github.com/RsaCtfTool/RsaCtfTool": {
                 "created_at": "2015-03-07 17:29:33",
                 "description": "RSA attack tool (mainly for ctf) - retreive private key from weak public key and/or uncipher data",
-                "commit_date": "2023-01-14 16:02:02",
-                "commit_message": "Merge pull request #396 from jensMF/patch-1\n\nAdded some information to the helptext of timeout",
+                "commit_date": "2023-01-16 21:48:09",
+                "commit_message": "add classical shor algorithm",
                 "release_tag": null,
                 "release_date": "",
                 "release_message": null
