@@ -170,8 +170,8 @@
             "https://github.com/jaeles-project/gospider": {
                 "created_at": "2020-01-22 05:13:57",
                 "description": "Gospider - Fast web spider written in Go",
-                "commit_date": "2022-05-17 11:00:12",
-                "commit_message": "Merge pull request #46 from adilsoybali/patch-1\n\nUpdate README.md",
+                "commit_date": "2023-01-17 05:49:54",
+                "commit_message": "Merge pull request #59 from aidanhall34/dockerfile\n\nCreated dockerfile and updated README.md",
                 "release_tag": "v1.1.6",
                 "release_date": "2021-06-27 07:19:44",
                 "release_message": "Refactor and fixes some bugs."
@@ -238,16 +238,16 @@
                 "commit_message": "Merge pull request #41 from lz520520/branch1\n\nupdate: README.md",
                 "release_tag": "v1.5.1-sp2",
                 "release_date": "2023-01-13 10:38:33",
-                "release_message": "1. mac bug解决\r\n2. 漏洞利用日志优化\r\n3. 历史搜索\r\n  a. 增加查询条件\r\n  b. 增加漏洞利用日志\r\n4. 端口扫描\r\n  a. 优化端口列表\r\n  b. 增加邮箱端口指纹识别\r\n5. 暴力破解\r\n  a. 增加pop3/imap/smtp以及其ssl爆破。"
+                "release_message": "解压密码 railgun\r\n\r\n1. mac bug解决\r\n2. 漏洞利用日志优化\r\n3. 历史搜索\r\n  a. 增加查询条件\r\n  b. 增加漏洞利用日志\r\n4. 端口扫描\r\n  a. 优化端口列表\r\n  b. 增加邮箱端口指纹识别\r\n5. 暴力破解\r\n  a. 增加pop3/imap/smtp以及其ssl爆破。"
             },
             "https://github.com/gobysec/Goby": {
                 "created_at": "2019-06-03 07:56:11",
                 "description": "Attack surface mapping",
                 "commit_date": "2021-11-22 11:19:16",
                 "commit_message": "Add files via upload",
-                "release_tag": "Beta1.9.325",
-                "release_date": "2022-02-18 10:15:05",
-                "release_message": "# In this update\r\n\r\n•  Add FID: Web feature data to cluster the same assets and quickly locate the original non feature assets\r\n\r\n•  New ip: port scanning format\r\n\r\n•  New extension scoring and sorting\r\n\r\n•  New 2022 dynamic theme\r\n\r\n•  Optimize the time when tip delay occurs\r\n\r\n•  Optimize the process of error reporting guidance and solution\r\n\r\n•  Optimize the format of developer mode printing information\r\n\r\n•  Add some fingerprint data\r\n\r\n•  The scan log keeps the last 10 log files\r\n\r\n•  When the mouse hovers over the asset, the corresponding port number can be displayed\r\n\r\n•  Solve the right sidebar style masking problem\r\n\r\n•  Solve the problem that novice guidance cannot skip\r\n\r\n•  Solve the problem that clicking on the histogram of the asset page is Chinese search\r\n\r\n•  Resolve duplicate Export Report vulnerabilities\r\n\r\n•  Solve the problem of service interruption parsing empty gzip response body and reporting errors\r\n\r\n## FID\r\n\r\n[![HTz6aj.gif](https://s4.ax1x.com/2022/02/18/HTz6aj.gif)](https://imgtu.com/i/HTz6aj)\r\n\r\n## ip: port scanning format\r\n\r\n[![H7S9dH.gif](https://s4.ax1x.com/2022/02/18/H7S9dH.gif)](https://imgtu.com/i/H7S9dH)\r\n\r\n## New extension scoring and sorting\r\n\r\n[![H7SgmD.gif](https://s4.ax1x.com/2022/02/18/H7SgmD.gif)](https://imgtu.com/i/H7SgmD)\r\n\r\n## New 2022 dynamic theme\r\n\r\n[![H7SNmF.gif](https://s4.ax1x.com/2022/02/18/H7SNmF.gif)](https://imgtu.com/i/H7SNmF)\r\n"
+                "release_tag": "Beta2.2.0",
+                "release_date": "2023-01-17 10:55:12",
+                "release_message": "# In this update\r\n## Community version update:\r\n1. New memory shell plugin\r\n2. ShellHub plugin update\r\n3. Vulnerability module added a function to generate deserialization Payload, through the memory shell injection process\r\n4. Five Java deserialization vulnerabilities were added, including \r\n- Bonitasoft Platform serverAPI Deserialization Vulnerability\r\n- Liferay Portal Unauthenticated 7.2.1 C3P0 Deserialization Vulnerability (CVE-2020-7961)\r\n- ManageEngine OpManager Deserialization Vulnerability (CVE-2020-28653)\r\n- Zkteco Shiro Deserialization Vulnerability\r\n- ZOHO ManageEngine Password Manager Pro Deserialization Vulnerability\r\n5. Fixed the problem that the environment variable http_proxy caused Goby to report errors abnormally\r\n6. Goby can now be updated online and vulnerabilities can be updated even if Goby is not in the Mac system Application directory\r\n7. Fixed the problem of occasional white horizontal lines in Goby\r\n8. remove network error report\r\n\r\n## Red team/Enterprise version update content\r\n1. All update content of 2.2.0 community version\r\n2. 20 new deserialization vulnerabilities were added, including \r\n- Apache OFBiz xmlrpc Deserialization Vulnerability (CVE-2020-9496)\r\n- Apereo CAS Before 4.1.7 Deserialization Vulnerability\r\n- Dreamer CMS Shiro Deserialization Vulnerability\r\n- EasyReport Shiro Deserialization Vulnerability\r\n- FEBS Shiro Deserialization Vulnerability\r\n- FH Admin Shiro Deserialization Vulnerability\r\n- FineReport V10 Deserialization RCE Vulnerability\r\n- ForgeRock AM Deserialization Vulnerability (CVE-2021-35464)\r\n- Guns Shiro Deserialization Vulnerability\r\n- J2eeFAST Shiro Deserialization Vulnerability\r\n- JavaWeb_Layui Shiro Deserialization Vulnerability\r\n- Liferay Portal 6.1.1 CE GA2 CB Deserialization Vulnerability\r\n- MCMS Shiro Deserialization Vulnerability (CVE-2022-22928)\r\n- OneBlog Shiro Deserialization Vulnerability\r\n- pb-cms Shiro Deserialization Vulnerability\r\n- QVIS-NVR Camera Management System RCE (CVE-2021-41419)\r\n- RuoYi-plus Shiro Deserialization Vulnerability\r\n- TIMO Shiro Deserialization Vulnerability\r\n- Ysk ERP Shiro Deserialization Vulnerability\r\n\r\n**Zkteco Shiro Deserialization Vulnerability**\r\n\r\n![5s8l2F.gif](https://www.gobies.org/img/Zkteco_Shiro_Deserialization_Vulnerability.gif)\r\n\r\n**Apache OFBiz xmlrpc Deserialization Vulnerability (CVE-2020-9496)**\r\n\r\n![5s8l2F.gif](https://www.gobies.org/img/OneBlog_Shiro_Deserialization_Vulnerability.gif)"
             }
         },
         "半自动漏洞扫描": {
@@ -299,8 +299,8 @@
             "https://github.com/zan8in/afrog": {
                 "created_at": "2022-02-24 06:00:32",
                 "description": "A Vulnerability Scanning Tools For Penetration Testing",
-                "commit_date": "2023-01-10 08:01:19",
-                "commit_message": "update client line 226",
+                "commit_date": "2023-01-17 07:21:51",
+                "commit_message": "CVE-2020-3452",
                 "release_tag": "v2.2.0",
                 "release_date": "2023-01-06 10:04:24",
                 "release_message": "Added optional -onlyfinger/-of option for fingerprint scan only\r\nAdded CEL function ` year`、`shortyear`、`month`、`day `、`timestamp_sencond`, eg: `tongda-oa-api-ali-upload.yaml`\r\nAdded Boolean type attribute `verified` , default false, verified PoC is true\r\nAdded rule attribute `expressions` , a request to verify multiple rules"
@@ -853,8 +853,8 @@
             "https://github.com/rtcatc/Packer-Fuzzer": {
                 "created_at": "2020-09-30 20:21:15",
                 "description": "Packer Fuzzer is a fast and efficient scanner for security detection of websites constructed by javascript module bundler such as Webpack. ",
-                "commit_date": "2022-11-11 14:18:43",
-                "commit_message": "v1.4.13 update config",
+                "commit_date": "2023-01-17 09:41:54",
+                "commit_message": "v1.4.15 更新demo图片",
                 "release_tag": "v1.4",
                 "release_date": "2022-06-19 15:49:02",
                 "release_message": "- v1.4 2022/06/19\r\n\r\n  1. 修复了若干会导致扫描器异常运行的Bug;\r\n\r\n  2. 移除废弃的python扩展内容;\r\n\r\n  3. 优化了HTML报告，现可显示API返回内容长度，并可进行排序;\r\n\r\n  4. 添加了POST和GET请求切换机制；\r\n\r\n  5. 添加了Content-Type请求头的自定义功能;\r\n\r\n  6. 添加了POST请求时的数据内容自定义功能;\r\n\r\n  7. 添加了自定义Api服务器地址的功能。"
@@ -1001,8 +1001,8 @@
             "https://github.com/ybdt/poc-hub": {
                 "created_at": "2020-09-03 04:47:40",
                 "description": "漏洞复现、漏洞检测、漏洞利用",
-                "commit_date": "2023-01-15 13:45:09",
-                "commit_message": "Update readme.md",
+                "commit_date": "2023-01-17 13:26:18",
+                "commit_message": "整理",
                 "release_tag": null,
                 "release_date": "",
                 "release_message": null
@@ -1064,8 +1064,8 @@
             "https://github.com/coffeehb/Some-PoC-oR-ExP": {
                 "created_at": "2015-03-13 15:31:35",
                 "description": "各种漏洞poc、Exp的收集或编写",
-                "commit_date": "2022-11-15 01:57:05",
-                "commit_message": "Update poc.txt",
+                "commit_date": "2023-01-17 06:40:28",
+                "commit_message": "Create CVE-2019-16097.md",
                 "release_tag": null,
                 "release_date": "",
                 "release_message": null
@@ -1082,8 +1082,8 @@
             "https://github.com/ycdxsb/PocOrExp_in_Github": {
                 "created_at": "2021-04-13 05:46:16",
                 "description": "聚合Github上已有的Poc或者Exp，CVE信息来自CVE官网。Auto Collect Poc Or Exp from Github by CVE ID.",
-                "commit_date": "2023-01-17 00:06:38",
-                "commit_message": "update 2023-01-17 08:06:38",
+                "commit_date": "2023-01-18 00:35:35",
+                "commit_message": "update 2023-01-18 08:35:35",
                 "release_tag": null,
                 "release_date": "",
                 "release_message": null
@@ -1462,8 +1462,8 @@
             "https://github.com/f0ng/captcha-killer-modified": {
                 "created_at": "2022-03-18 12:41:58",
                 "description": "captcha-killer的修改版，支持关键词识别base64编码的图片，添加免费ocr库，用于验证码爆破，适配新版Burpsuite",
-                "commit_date": "2022-12-23 14:17:26",
-                "commit_message": "Update README.md",
+                "commit_date": "2023-01-17 15:03:50",
+                "commit_message": "Update FAQ.md",
                 "release_tag": "0.20",
                 "release_date": "2022-12-23 14:18:52",
                 "release_message": "【2022-12-23】 0.20\r\n\r\n修复了url识别问题、爆破顺序错乱问题、响应包直接为base64编码导致爆破失败问题，感谢微信群师傅@赵 、@Kingfuke "
@@ -1737,7 +1737,7 @@
             "https://github.com/ExpLangcn/NucleiTP": {
                 "created_at": "2022-11-08 13:16:56",
                 "description": "自动整合全网Nuclei的漏洞POC，实时同步更新最新POC！",
-                "commit_date": "2023-01-17 01:00:03",
+                "commit_date": "2023-01-18 01:00:03",
                 "commit_message": "更新啦❤️",
                 "release_tag": null,
                 "release_date": "",
@@ -1766,8 +1766,8 @@
             "https://github.com/nszy007/CN_Nessus_Plugins_Interface": {
                 "created_at": "2022-02-10 07:56:50",
                 "description": "nessus插件中文查询接口",
-                "commit_date": "2022-11-28 02:54:59",
-                "commit_message": "20221125",
+                "commit_date": "2023-01-17 03:03:16",
+                "commit_message": "20230113",
                 "release_tag": "1",
                 "release_date": "2022-02-10 08:19:24",
                 "release_message": ""
@@ -2069,11 +2069,11 @@
             "https://github.com/joke2k/faker": {
                 "created_at": "2012-11-12 23:00:09",
                 "description": "Faker is a Python package that generates fake data for you.",
-                "commit_date": "2023-01-12 21:28:07",
-                "commit_message": "Bump version: 16.3.0 → 16.4.0",
-                "release_tag": "v16.4.0",
-                "release_date": "2023-01-12 21:28:51",
-                "release_message": "See [CHANGELOG.md](https://github.com/joke2k/faker/blob/refs/tags/v16.4.0/CHANGELOG.md)."
+                "commit_date": "2023-01-17 19:30:36",
+                "commit_message": "Bump version: 16.5.0 → 16.6.0",
+                "release_tag": "v16.6.0",
+                "release_date": "2023-01-17 19:31:18",
+                "release_message": "See [CHANGELOG.md](https://github.com/joke2k/faker/blob/refs/tags/v16.6.0/CHANGELOG.md)."
             },
             "https://github.com/pppscn/SmsForwarder": {
                 "created_at": "2021-02-10 02:23:07",
