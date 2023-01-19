@@ -1,4 +1,4 @@
-# 更新于 2023-01-18 09:06:34
+# 更新于 2023-01-19 09:06:40
 
 ## 近30天release更新记录
 | 更新时间 | 项目名称 | 版本 | 更新内容 |
@@ -21,24 +21,24 @@
 ## 近30天commit提交记录
 | 提交时间 | 项目名称 | 更新内容 |
 | :---- | :---- | :---- |
-|2023-01-18 01:00:03|[NucleiTP](https://github.com/ExpLangcn/NucleiTP)|更新啦❤️|
-|2023-01-18 00:35:35|[PocOrExp_in_Github](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-01-18 08:35:35|
+|2023-01-19 01:00:03|[NucleiTP](https://github.com/ExpLangcn/NucleiTP)|更新啦❤️|
+|2023-01-19 00:48:36|[PocOrExp_in_Github](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-01-19 08:48:36|
+|2023-01-18 18:06:58|[super-xray](https://github.com/4ra1n/super-xray)|#136|
+|2023-01-18 17:18:34|[RsaCtfTool](https://github.com/RsaCtfTool/RsaCtfTool)|update project, cleanup|
+|2023-01-18 08:16:24|[Awesome-Redteam](https://github.com/Threekiii/Awesome-Redteam)|更新README.md|
+|2023-01-18 01:12:43|[afrog](https://github.com/zan8in/afrog)|Merge pull request #44 from mawangyejizhiyan/mainCVE-2<br>020-13945CVE-2020-3452|
 |2023-01-17 19:30:36|[faker](https://github.com/joke2k/faker)|Bump version: 16.5.0 → 16.6.0|
 |2023-01-17 15:03:50|[captcha-killer-modi<br>fied](https://github.com/f0ng/captcha-killer-modified)|Update FAQ.md|
 |2023-01-17 13:26:18|[poc-hub](https://github.com/ybdt/poc-hub)|整理|
 |2023-01-17 09:41:54|[Packer-Fuzzer](https://github.com/rtcatc/Packer-Fuzzer)|v1.4.15 更新demo图片|
-|2023-01-17 07:21:51|[afrog](https://github.com/zan8in/afrog)|CVE-2020-3452|
 |2023-01-17 06:40:28|[Some-PoC-oR-ExP](https://github.com/coffeehb/Some-PoC-oR-ExP)|Create CVE-2019-16097.md|
 |2023-01-17 05:49:54|[gospider](https://github.com/jaeles-project/gospider)|Merge pull request #59 from aidanhall34/dockerfileCrea<br>ted dockerfile and updated README.md|
 |2023-01-17 03:03:16|[CN_Nessus_Plugins_I<br>nterface](https://github.com/nszy007/CN_Nessus_Plugins_Interface)|20230113|
-|2023-01-16 21:48:09|[RsaCtfTool](https://github.com/RsaCtfTool/RsaCtfTool)|add classical shor algorithm|
-|2023-01-16 13:14:58|[super-xray](https://github.com/4ra1n/super-xray)|#128|
 |2023-01-16 10:59:37|[Scanners-Box](https://github.com/We5ter/Scanners-Box)|[+]kvesta/vesta|
 |2023-01-16 03:17:55|[404StarLink](https://github.com/knownsec/404StarLink)|weekly update at 2023-01-16|
 |2023-01-15 17:50:24|[nuclei](https://github.com/projectdiscovery/nuclei)|Merge pull request #3193 from projectdiscovery/devnucl<br>ei v2.8.7|
 |2023-01-14 02:03:19|[mitaka](https://github.com/ninoseki/mitaka)|docs: add hr [skip ci]|
 |2023-01-13 11:53:18|[feroxbuster](https://github.com/epi052/feroxbuster)|Update README.md|
-|2023-01-13 01:51:22|[Awesome-Redteam](https://github.com/Threekiii/Awesome-Redteam)|更新README.md|
 |2023-01-12 02:31:07|[OneForAll](https://github.com/shmilylty/OneForAll)|Update docker-image.yml拼写错误|
 |2023-01-11 09:43:37|[InfoSearchAll](https://github.com/ExpLangcn/InfoSearchAll)|Update README.md|
 |2023-01-10 10:59:45|[http-request-smuggl<br>er](https://github.com/portswigger/http-request-smuggler)|Merge pull request #58 from Hannah-PortSwigger/masterU<br>pdate case statement to state technique.|
@@ -314,7 +314,7 @@
 | :---- | :---- | :---- |
 | [yarx](https://github.com/zema1/yarx) | v0.2.0 | An awesome reverse engine for xray poc. | 一个自动化根据 xray po<br>c 生成对应 server 的工具 |
 | [xray-poc-generation](https://github.com/phith0n/xray-poc-generation) |  | 🧬 辅助生成 XRay YAML POC |
-| [super-xray](https://github.com/4ra1n/super-xray) | 1.3 | Web漏洞扫描工具XRAY的GUI启动器 |
+| [super-xray](https://github.com/4ra1n/super-xray) | 1.3 | Web漏洞扫描工具XRAY的GUI启动器 (Web Vulnerability Scanner GUI St<br>arter) |
 #### pocsuite3
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |

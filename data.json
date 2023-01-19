@@ -299,8 +299,8 @@
             "https://github.com/zan8in/afrog": {
                 "created_at": "2022-02-24 06:00:32",
                 "description": "A Vulnerability Scanning Tools For Penetration Testing",
-                "commit_date": "2023-01-17 07:21:51",
-                "commit_message": "CVE-2020-3452",
+                "commit_date": "2023-01-18 01:12:43",
+                "commit_message": "Merge pull request #44 from mawangyejizhiyan/main\n\nCVE-2020-13945  CVE-2020-3452",
                 "release_tag": "v2.2.0",
                 "release_date": "2023-01-06 10:04:24",
                 "release_message": "Added optional -onlyfinger/-of option for fingerprint scan only\r\nAdded CEL function ` year`、`shortyear`、`month`、`day `、`timestamp_sencond`, eg: `tongda-oa-api-ali-upload.yaml`\r\nAdded Boolean type attribute `verified` , default false, verified PoC is true\r\nAdded rule attribute `expressions` , a request to verify multiple rules"
@@ -1082,8 +1082,8 @@
             "https://github.com/ycdxsb/PocOrExp_in_Github": {
                 "created_at": "2021-04-13 05:46:16",
                 "description": "聚合Github上已有的Poc或者Exp，CVE信息来自CVE官网。Auto Collect Poc Or Exp from Github by CVE ID.",
-                "commit_date": "2023-01-18 00:35:35",
-                "commit_message": "update 2023-01-18 08:35:35",
+                "commit_date": "2023-01-19 00:48:36",
+                "commit_message": "update 2023-01-19 08:48:36",
                 "release_tag": null,
                 "release_date": "",
                 "release_message": null
@@ -1256,7 +1256,7 @@
             "https://github.com/Threekiii/Awesome-Redteam": {
                 "created_at": "2022-02-08 00:45:03",
                 "description": "一个红队知识仓库",
-                "commit_date": "2023-01-13 01:51:22",
+                "commit_date": "2023-01-18 08:16:24",
                 "commit_message": "更新README.md",
                 "release_tag": null,
                 "release_date": "",
@@ -1616,9 +1616,9 @@
             },
             "https://github.com/4ra1n/super-xray": {
                 "created_at": "2022-11-18 14:52:09",
-                "description": "Web漏洞扫描工具XRAY的GUI启动器",
-                "commit_date": "2023-01-16 13:14:58",
-                "commit_message": "#128",
+                "description": "Web漏洞扫描工具XRAY的GUI启动器 (Web Vulnerability Scanner GUI Starter)",
+                "commit_date": "2023-01-18 18:06:58",
+                "commit_message": "#136",
                 "release_tag": "1.3",
                 "release_date": "2023-01-16 11:24:32",
                 "release_message": "## 1.3\r\n\r\nйҮҚеӨ§жӣҙж–°зүҲжң¬пјҡ\r\n- дҝ®еӨҚе®үе…ЁжјҸжҙһ\r\n- AJPжңҚеҠЎжү«жҸҸйқўжқҝ\r\n- ж–°еўһеӨҡдёӘиҸңеҚ•йҖүйЎ№\r\n- еҶ…зҪ®е…ӯж¬ҫе°ҸжёёжҲҸ\r\n\r\nдҝ®еӨҚе®үе…ЁжјҸжҙһпјҡ[GHSA-vgxx-2crp-32vv зү№ж®Ҡжғ…еҶөдёӢзҡ„е®Ңе…ЁжӢ’з»қжңҚеҠЎ](https://github.com/4ra1n/super-xray/security/advisories/GHSA-vgxx-2crp-32vv)\r\n\r\nдҪҝз”Ё`exe`зүҲжң¬еҠ иҪҪ`super-xray`иҮӘиә«е°Ҷдјҡж— йҷҗеҗҜеҠЁпјҢеҜјиҮҙиҖ—е°Ҫж“ҚдҪңзі»з»ҹ`CPU`е’ҢеҶ…еӯҳгҖӮж— йҷҗеҗҜеҠЁеҺҹеӣ жҳҜеҗҜеҠЁж—¶йңҖиҰҒжү§иЎҢд№ӢеүҚдҝқеӯҳзҡ„`xray`и·Ҝеҫ„пјҢеҰӮжһңйҖүжӢ©дәҶ`super-xray.exe`иҮӘиә«дҝқеӯҳеҗҺжҳҫз„¶дјҡеҜјиҮҙжӯ»еҫӘзҺҜгҖӮз”ұдәҺз”ЁжҲ·иҫ“е…Ҙзҡ„еҸҜжү§иЎҢж–Үд»¶жҳҜд»Җд№Ҳеә”иҜҘз”ұз”ЁжҲ·иҙҹиҙЈпјҢдёҖиҲ¬жғ…еҶөдёӢдёҚеә”иҜҘжҳҜе®үе…ЁжјҸжҙһпјҢдҪҶжҳҜз”ЁжҲ·иҫ“е…Ҙ`super-xray`иҮӘиә«еҜјиҮҙзҡ„й—®йўҳеә”иҜҘиў«еӨ„зҗҶгҖӮдәҢиҝӣеҲ¶еҸҜжү§иЎҢж–Үд»¶ж— жі•еҲӨж–ӯе…·дҪ“жҳҜд»Җд№ҲпјҢжүҖд»ҘеҸӘиғҪйҷҗеҲ¶ж–Үд»¶еҗҚз»“еҗҲж–Үд»¶еӨ§е°ҸдәҢиҖ…жқҘйҳІжӯўеҠ иҪҪиҮӘиә«пјҢдҪҶжҳҜз”ЁжҲ·еҠ иҪҪе…¶д»–еҸҜжү§иЎҢж–Үд»¶еҜјиҮҙзҡ„е®үе…Ёй—®йўҳдёҺжң¬йЎ№зӣ®ж— е…ігҖӮ\r\n\r\nжӣҙж–°еҶ…е®№пјҡ\r\n- [important] [security] еҠ иҪҪиҮӘиә«е°ҶдјҡиҖ—е°Ҫж“ҚдҪңзі»з»ҹиө„жәҗ #112\r\n- [important] [feat] еўһеҠ Tomcat AJPжңҚеҠЎжү«жҸҸйқўжқҝ #123\r\n- [important] [feat] ж–°иҸңеҚ•жҳҫзӨәеҪ“еүҚзүҲжң¬е’Ңж”ҜжҢҒxrayжңҖдҪҺзүҲжң¬ #113\r\n- [important] [feat] йӘҢиҜҒsuper-xrayжңҖж–°зүҲжң¬ #114\r\n- [important] [doc] жӣҙж–°READMEдёӯжүҖжңүзҡ„еӣҫзүҮ #121\r\n- [feat] еҠ е…Ҙе…ӯж¬ҫе°ҸжёёжҲҸз”ЁдәҺж‘ёйұј #124\r\n- [feat] еӯҗеҹҹеҗҚжү«жҸҸеҠ е…Ҙе…ій—ӯеҲ йҷӨйҖүйЎ№ #118\r\n- [feat] еә”иҜҘжҸҗдҫӣдёҖдёӘжҢүй’®е…Ғи®ёз”ЁжҲ·еӨҚеҲ¶еҪ“еүҚе‘Ҫд»Ө #127\r\n- [improve] жҹҘзңӢе‘Ҫд»ӨжҢүй’®жҳҫзӨәеҶ…е®№иҝҮй•ҝй—®йўҳ #126\r\n- [improve] е№¶еҸ‘и®ҫзҪ®еә”иҜҘжңүдёҖдёӘдёҠйҷҗе’ҢдёӢйҷҗ #125\r\n- [improve] жҹҗдәӣжғ…еҶөеҗҢжӯҘPoCдјҡеҚЎдҪҸиҫғй•ҝж—¶й—ҙ #122\r\n- [improve] еҠ иҪҪradд№ҹеә”иҜҘеҜ№иҫ“е…Ҙж–Үд»¶иҝӣиЎҢйҷҗеҲ¶ #120\r\n- [improve] ж”ҜжҢҒе…ій—ӯж—¶еҲ йҷӨиў«еҠЁжү«жҸҸз”ҹжҲҗзҡ„caж–Үд»¶ #117\r\n- [improve] еӯҗеҹҹеҗҚжү«жҸҸзҡ„иҫ“е…ҘиҝҮж»Ө #116\r\n- [improve] зҰҒз”ЁеӯҗеҹҹеҗҚжү«жҸҸзҡ„ip-onlyйҖүйЎ№ #119\r\n\r\nдёӢиҪҪпјҡ\r\n- super-xray-1.3.jarзүҲжң¬йҖҡиҝҮ`java -jar super-xray-1.3.jar`еҗҜеҠЁ\r\n- super-xray-1.3-jre-exe.zipжҳҜеҶ…зҪ®дәҶJREзҡ„exeзүҲжң¬\r\n- super-xray-1.3-system-jre.exeжҳҜдҪҝз”Ёзі»з»ҹJREзҡ„exeзүҲжң¬"
@@ -1737,7 +1737,7 @@
             "https://github.com/ExpLangcn/NucleiTP": {
                 "created_at": "2022-11-08 13:16:56",
                 "description": "自动整合全网Nuclei的漏洞POC，实时同步更新最新POC！",
-                "commit_date": "2023-01-18 01:00:03",
+                "commit_date": "2023-01-19 01:00:03",
                 "commit_message": "更新啦❤️",
                 "release_tag": null,
                 "release_date": "",
@@ -2043,8 +2043,8 @@
             "https://github.com/RsaCtfTool/RsaCtfTool": {
                 "created_at": "2015-03-07 17:29:33",
                 "description": "RSA attack tool (mainly for ctf) - retreive private key from weak public key and/or uncipher data",
-                "commit_date": "2023-01-16 21:48:09",
-                "commit_message": "add classical shor algorithm",
+                "commit_date": "2023-01-18 17:18:34",
+                "commit_message": "update project, cleanup",
                 "release_tag": null,
                 "release_date": "",
                 "release_message": null
