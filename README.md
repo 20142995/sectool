@@ -1,8 +1,9 @@
-# 更新于 2023-01-20 09:05:59
+# 更新于 2023-01-21 09:05:44
 
 ## 近30天release更新记录
 | 更新时间 | 项目名称 | 版本 | 更新内容 |
 | :---- | :---- | :---- | :---- |
+|2023-01-20 18:22:12|[OA-EXPTOOL](https://github.com/LittleBear4/OA-EXPTOOL)|OA-EXPTOO<br>L-v0.7|更新内容如下：1.代理功能已经实装2.日志<br>功能已经载入源码，目前只有一米OA会产生日<br>志（日志第二次调用会产生问题，暂不实装）<br>修复部分poc报错问题，修复通达OAshell的代<br>码错误导致无法连接问题增加泛微OA_doexcel<br>泛微OA_ktree_upload泛微OA_v10_OfficeServe<br>r.phpuploadweaveroa-eoffice8-upload-RCE<br>增加用友：yongyou_KSOA_imageupload|
 |2023-01-19 06:03:37|[super-xray](https://github.com/4ra1n/super-xray)|1.4|## 1.4春节快乐，从该版本以后使用更帅的*<br>*黑暗主题**，并且简单重构了UI解决了重要<br>的问题：CPU占用过高。允许QPS和最大HOST连<br>接数等参数的设置，优化了一些功能更新内容<br>：- [important] [improve] CPU占用较高需要<br>进行优化 #128- [important] [feat] 1.4版本<br>以后将全面适配黑暗主题（更帅一些） #135- <br>[important] [feat] 每秒最大http请求数max<br>_qps参数设置 #137- [bug] 提示文字的翻译<br>有误 #133- [feat] 被动扫描允许自由设置（<br>目前仅支持127） #131- [feat] 最大HOST允许<br>的连接数（降低对服务的影响） #138- [impro<br>ve] 查看搜索PoC时应该排序以提高效率 #134<br>- [improve] 不常用的配置应该都移到高级配<br>置中 #132- [improve] 避免直接使用其他项目<br>的图标 #130- [improve] 删除没有必要的动态<br>皮肤并简单重构UI #136- 使用更好的exe图标-<br> 删除扫雷和弹球（不好玩且与黑暗主题不适<br>配）下载：- super-xray-1.4.jar版本通过jav<br>a -jar super-xray-1.4.jar启动- super-xra<br>y-1.4-jre-exe.zip是内置了JRE的exe版本- s<br>uper-xray-1.4-system-jre.exe是使用系统JR<br>E的exe版本|
 |2023-01-17 19:31:18|[faker](https://github.com/joke2k/faker)|v16.6.0|See [CHANGELOG.md](https://github.com/j<br>oke2k/faker/blob/refs/tags/v16.6.0/CHANG<br>ELOG.md).|
 |2023-01-17 10:55:12|[Goby](https://github.com/gobysec/Goby)|Beta2.2.0|# In this update## Community version up<br>date:1. New memory shell plugin2. ShellH<br>ub plugin update3. Vulnerability module <br>added a function to generate deserializa<br>tion Payload, through the memory shell i<br>njection process4. Five Java deserializa<br>tion vulnerabilities were added, includi<br>ng- Bonitasoft Platform serverAPI Deseri<br>alization Vulnerability- Liferay Portal <br>Unauthenticated 7.2.1 C3P0 Deserializati<br>on Vulnerability (CVE-2020-7961)- Manage<br>Engine OpManager Deserialization Vulnera<br>bility (CVE-2020-28653)- Zkteco Shiro De<br>serialization Vulnerability- ZOHO Manage<br>Engine Password Manager Pro Deserializat<br>ion Vulnerability5. Fixed the problem th<br>at the environment variable http_proxy c<br>aused Goby to report errors abnormally6.<br> Goby can now be updated online and vuln<br>erabilities can be updated even if Goby <br>is not in the Mac system Application dir<br>ectory7. Fixed the problem of occasional<br> white horizontal lines in Goby8. remove<br> network error report## Red team/Enterpr<br>ise version update content1. All update <br>content of 2.2.0 community version2. 20 <br>new deserialization vulnerabilities were<br> added, including- Apache OFBiz xmlrpc D<br>eserialization Vulnerability (CVE-2020-9<br>496)- Apereo CAS Before 4.1.7 Deserializ<br>ation Vulnerability- Dreamer CMS Shiro D<br>eserialization Vulnerability- EasyReport<br> Shiro Deserialization Vulnerability- FE<br>BS Shiro Deserialization Vulnerability- <br>FH Admin Shiro Deserialization Vulnerabi<br>lity- FineReport V10 Deserialization RCE<br> Vulnerability- ForgeRock AM Deserializa<br>tion Vulnerability (CVE-2021-35464)- Gun<br>s Shiro Deserialization Vulnerability- J<br>2eeFAST Shiro Deserialization Vulnerabil<br>ity- JavaWeb_Layui Shiro Deserialization<br> Vulnerability- Liferay Portal 6.1.1 CE <br>GA2 CB Deserialization Vulnerability- MC<br>MS Shiro Deserialization Vulnerability (<br>CVE-2022-22928)- OneBlog Shiro Deseriali<br>zation Vulnerability- pb-cms Shiro Deser<br>ialization Vulnerability- QVIS-NVR Camer<br>a Management System RCE (CVE-2021-41419)<br>- RuoYi-plus Shiro Deserialization Vulne<br>rability- TIMO Shiro Deserialization Vul<br>nerability- Ysk ERP Shiro Deserializatio<br>n Vulnerability**Zkteco Shiro Deserializ<br>ation Vulnerability**![5s8l2F.gif](https<br>://www.gobies.org/img/Zkteco_Shiro_Deser<br>ialization_Vulnerability.gif)**Apache OF<br>Biz xmlrpc Deserialization Vulnerability<br> (CVE-2020-9496)**![5s8l2F.gif](https://<br>www.gobies.org/img/OneBlog_Shiro_Deseria<br>lization_Vulnerability.gif)|
@@ -21,9 +22,11 @@
 ## 近30天commit提交记录
 | 提交时间 | 项目名称 | 更新内容 |
 | :---- | :---- | :---- |
-|2023-01-20 01:00:02|[NucleiTP](https://github.com/ExpLangcn/NucleiTP)|更新啦❤️|
-|2023-01-20 00:59:26|[PocOrExp_in_Github](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-01-20 08:59:26|
-|2023-01-19 06:08:09|[super-xray](https://github.com/4ra1n/super-xray)|after release|
+|2023-01-21 01:00:03|[NucleiTP](https://github.com/ExpLangcn/NucleiTP)|更新啦❤️|
+|2023-01-21 00:08:51|[PocOrExp_in_Github](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-01-21 08:08:51|
+|2023-01-20 18:49:28|[OA-EXPTOOL](https://github.com/LittleBear4/OA-EXPTOOL)|Add files via upload|
+|2023-01-20 16:07:45|[super-xray](https://github.com/4ra1n/super-xray)|#139|
+|2023-01-20 06:45:54|[SmsForwarder](https://github.com/pppscn/SmsForwarder)|整理：通用设置提示优化|
 |2023-01-19 02:33:56|[RsaCtfTool](https://github.com/RsaCtfTool/RsaCtfTool)|update project, cleanup|
 |2023-01-18 08:16:24|[Awesome-Redteam](https://github.com/Threekiii/Awesome-Redteam)|更新README.md|
 |2023-01-18 01:12:43|[afrog](https://github.com/zan8in/afrog)|Merge pull request #44 from mawangyejizhiyan/mainCVE-2<br>020-13945CVE-2020-3452|
@@ -55,8 +58,7 @@
 |2022-12-27 11:19:27|[xray](https://github.com/chaitin/xray)|Readme en (#1704)* [add] 添加英文readme* [add] 添加英<br>文版免责声明与license* [update] LICENSE* [update] LICENS<br>E* [update] NaturalizationCo-authored-by: luhan.xu |
 |2022-12-27 08:34:19|[Threathunting-book](https://github.com/12306Bro/Threathunting-book)|Merge branch 'master' of https://github.com/12306Bro/T<br>hreathunting-book|
 |2022-12-26 20:22:12|[wpscan](https://github.com/wpscanteam/wpscan)|Removes ruby 3.2 from build matrix|
-|2022-12-26 07:30:17|[Awesome-POC](https://github.com/Threekiii/Awesome-POC)|更新漏洞|
-|2022-12-21 02:53:43|[All-Defense-Tool](https://github.com/guchangan1/All-Defense-Tool)|更新v2.1|## 所有项目
+|2022-12-26 07:30:17|[Awesome-POC](https://github.com/Threekiii/Awesome-POC)|更新漏洞|## 所有项目
 ### 信息收集
 #### 资产测绘采集
 | 项目名称 | 版本 | 项目描述 |
@@ -174,7 +176,7 @@
 #### 重点CMS利用
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
-| [OA-EXPTOOL](https://github.com/LittleBear4/OA-EXPTOOL) | v0.6 | OA综合利用工具，集合将近20款OA漏洞批量扫描 |
+| [OA-EXPTOOL](https://github.com/LittleBear4/OA-EXPTOOL) | OA-EXPTOO<br>L-v0.7 | OA综合利用工具，集合将近20款OA漏洞批量扫描 |
 | [seeyon_exp](https://github.com/Summer177/seeyon_exp) |  | 致远OA综合利用工具 |
 | [SeeyonExploit-GUI](https://github.com/God-Ok/SeeyonExploit-GUI) |  | 致远OA综合利用工具V1.0 |
 | [TDOA_RCE](https://github.com/xinyu2428/TDOA_RCE) | v1.0 | 通达OA综合利用工具 |
