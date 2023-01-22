@@ -299,8 +299,8 @@
             "https://github.com/zan8in/afrog": {
                 "created_at": "2022-02-24 06:00:32",
                 "description": "A Vulnerability Scanning Tools For Penetration Testing",
-                "commit_date": "2023-01-18 01:12:43",
-                "commit_message": "Merge pull request #44 from mawangyejizhiyan/main\n\nCVE-2020-13945  CVE-2020-3452",
+                "commit_date": "2023-01-21 02:08:18",
+                "commit_message": "Merge pull request #45 from mawangyejizhiyan/main\n\ncve-2022",
                 "release_tag": "v2.2.0",
                 "release_date": "2023-01-06 10:04:24",
                 "release_message": "Added optional -onlyfinger/-of option for fingerprint scan only\r\nAdded CEL function ` year`、`shortyear`、`month`、`day `、`timestamp_sencond`, eg: `tongda-oa-api-ali-upload.yaml`\r\nAdded Boolean type attribute `verified` , default false, verified PoC is true\r\nAdded rule attribute `expressions` , a request to verify multiple rules"
@@ -1082,8 +1082,8 @@
             "https://github.com/ycdxsb/PocOrExp_in_Github": {
                 "created_at": "2021-04-13 05:46:16",
                 "description": "聚合Github上已有的Poc或者Exp，CVE信息来自CVE官网。Auto Collect Poc Or Exp from Github by CVE ID.",
-                "commit_date": "2023-01-21 00:08:51",
-                "commit_message": "update 2023-01-21 08:08:51",
+                "commit_date": "2023-01-22 00:12:50",
+                "commit_message": "update 2023-01-22 08:12:49",
                 "release_tag": null,
                 "release_date": "",
                 "release_message": null
@@ -1617,8 +1617,8 @@
             "https://github.com/4ra1n/super-xray": {
                 "created_at": "2022-11-18 14:52:09",
                 "description": "Web漏洞扫描工具XRAY的GUI启动器 (Web Vulnerability Scanner GUI Starter)",
-                "commit_date": "2023-01-20 16:07:45",
-                "commit_message": "#139",
+                "commit_date": "2023-01-21 07:26:56",
+                "commit_message": "#140",
                 "release_tag": "1.4",
                 "release_date": "2023-01-19 06:03:37",
                 "release_message": "## 1.4\r\n\r\n春节快乐，从该版本以后使用更帅的**黑暗主题**，并且简单重构了UI\r\n\r\n解决了重要的问题：CPU占用过高。允许QPS和最大HOST连接数等参数的设置，优化了一些功能\r\n\r\n更新内容：\r\n- [important] [improve] CPU占用较高需要进行优化 #128\r\n- [important] [feat] 1.4版本以后将全面适配黑暗主题（更帅一些） #135\r\n- [important] [feat] 每秒最大http请求数max_qps参数设置 #137\r\n- [bug] 提示文字的翻译有误 #133\r\n- [feat] 被动扫描允许自由设置（目前仅支持127） #131\r\n- [feat] 最大HOST允许的连接数（降低对服务的影响） #138\r\n- [improve] 查看搜索PoC时应该排序以提高效率 #134\r\n- [improve] 不常用的配置应该都移到高级配置中 #132\r\n- [improve] 避免直接使用其他项目的图标 #130\r\n- [improve] 删除没有必要的动态皮肤并简单重构UI #136\r\n- 使用更好的exe图标\r\n- 删除扫雷和弹球（不好玩且与黑暗主题不适配）\r\n\r\n下载：\r\n- super-xray-1.4.jar版本通过`java -jar super-xray-1.4.jar`启动\r\n- super-xray-1.4-jre-exe.zip是内置了JRE的exe版本\r\n- super-xray-1.4-system-jre.exe是使用系统JRE的exe版本"
@@ -1737,7 +1737,7 @@
             "https://github.com/ExpLangcn/NucleiTP": {
                 "created_at": "2022-11-08 13:16:56",
                 "description": "自动整合全网Nuclei的漏洞POC，实时同步更新最新POC！",
-                "commit_date": "2023-01-21 01:00:03",
+                "commit_date": "2023-01-22 01:00:03",
                 "commit_message": "更新啦❤️",
                 "release_tag": null,
                 "release_date": "",

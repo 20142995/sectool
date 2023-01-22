@@ -1,4 +1,4 @@
-# 更新于 2023-01-21 09:05:44
+# 更新于 2023-01-22 09:07:12
 
 ## 近30天release更新记录
 | 更新时间 | 项目名称 | 版本 | 更新内容 |
@@ -22,14 +22,14 @@
 ## 近30天commit提交记录
 | 提交时间 | 项目名称 | 更新内容 |
 | :---- | :---- | :---- |
-|2023-01-21 01:00:03|[NucleiTP](https://github.com/ExpLangcn/NucleiTP)|更新啦❤️|
-|2023-01-21 00:08:51|[PocOrExp_in_Github](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-01-21 08:08:51|
+|2023-01-22 01:00:03|[NucleiTP](https://github.com/ExpLangcn/NucleiTP)|更新啦❤️|
+|2023-01-22 00:12:50|[PocOrExp_in_Github](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-01-22 08:12:49|
+|2023-01-21 07:26:56|[super-xray](https://github.com/4ra1n/super-xray)|#140|
+|2023-01-21 02:08:18|[afrog](https://github.com/zan8in/afrog)|Merge pull request #45 from mawangyejizhiyan/maincve-2<br>022|
 |2023-01-20 18:49:28|[OA-EXPTOOL](https://github.com/LittleBear4/OA-EXPTOOL)|Add files via upload|
-|2023-01-20 16:07:45|[super-xray](https://github.com/4ra1n/super-xray)|#139|
 |2023-01-20 06:45:54|[SmsForwarder](https://github.com/pppscn/SmsForwarder)|整理：通用设置提示优化|
 |2023-01-19 02:33:56|[RsaCtfTool](https://github.com/RsaCtfTool/RsaCtfTool)|update project, cleanup|
 |2023-01-18 08:16:24|[Awesome-Redteam](https://github.com/Threekiii/Awesome-Redteam)|更新README.md|
-|2023-01-18 01:12:43|[afrog](https://github.com/zan8in/afrog)|Merge pull request #44 from mawangyejizhiyan/mainCVE-2<br>020-13945CVE-2020-3452|
 |2023-01-17 19:30:36|[faker](https://github.com/joke2k/faker)|Bump version: 16.5.0 → 16.6.0|
 |2023-01-17 15:03:50|[captcha-killer-modi<br>fied](https://github.com/f0ng/captcha-killer-modified)|Update FAQ.md|
 |2023-01-17 13:26:18|[poc-hub](https://github.com/ybdt/poc-hub)|整理|
