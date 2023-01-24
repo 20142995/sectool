@@ -1,4 +1,4 @@
-# 更新于 2023-01-23 09:04:29
+# 更新于 2023-01-24 09:07:22
 
 ## 近30天release更新记录
 | 更新时间 | 项目名称 | 版本 | 更新内容 |
@@ -21,8 +21,8 @@
 ## 近30天commit提交记录
 | 提交时间 | 项目名称 | 更新内容 |
 | :---- | :---- | :---- |
-|2023-01-23 01:00:03|[NucleiTP](https://github.com/ExpLangcn/NucleiTP)|更新啦❤️|
-|2023-01-23 00:14:45|[PocOrExp_in_Github](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-01-23 08:14:45|
+|2023-01-24 01:00:03|[NucleiTP](https://github.com/ExpLangcn/NucleiTP)|更新啦❤️|
+|2023-01-24 00:12:39|[PocOrExp_in_Github](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-01-24 08:12:39|
 |2023-01-21 07:26:56|[super-xray](https://github.com/4ra1n/super-xray)|#140|
 |2023-01-21 02:08:18|[afrog](https://github.com/zan8in/afrog)|Merge pull request #45 from mawangyejizhiyan/maincve-2<br>022|
 |2023-01-20 18:49:28|[OA-EXPTOOL](https://github.com/LittleBear4/OA-EXPTOOL)|Add files via upload|
@@ -145,7 +145,7 @@
 #### 中间件&框架漏洞利用
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
-| [AttackTomcat](https://github.com/tpt11fb/AttackTomcat) | V1 | Tomcat漏洞利用工具 |
+| [AttackTomcat](https://github.com/tpt11fb/AttackTomcat) | V1 | Tomcat常见漏洞GUI利用工具。CVE-2017-12615 PUT文件上传漏洞、tomca<br>t-pass-getshell 弱认证部署war包、弱口令爆破、CVE-2020-1938 Tomcat<br> AJP文件读取/包含 |
 | [SpringExploit](https://github.com/SummerSec/SpringExploit) | 0.1.9 | 🚀 一款为了学习go而诞生的漏洞利用工具 |
 | [shiro_rce_tool](https://github.com/wyzxxz/shiro_rce_tool) |  | shiro 反序列 命令执行辅助检测工具 |
 | [ShiroAttack2](https://github.com/SummerSec/ShiroAttack2) | 4.5.6 | shiro反序列化漏洞综合利用,包含（回显执行命令/注入内存马）修复原<br>版中NoCC的问题 https://github.com/j1anFen/shiro_attack |

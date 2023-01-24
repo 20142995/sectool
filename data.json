@@ -468,7 +468,7 @@
         "中间件&框架漏洞利用": {
             "https://github.com/tpt11fb/AttackTomcat": {
                 "created_at": "2022-11-13 11:01:41",
-                "description": "Tomcat漏洞利用工具",
+                "description": "Tomcat常见漏洞GUI利用工具。CVE-2017-12615 PUT文件上传漏洞、tomcat-pass-getshell 弱认证部署war包、弱口令爆破、CVE-2020-1938 Tomcat AJP文件读取/包含",
                 "commit_date": "2022-11-15 09:05:50",
                 "commit_message": "Create README.md",
                 "release_tag": "V1",
@@ -1082,8 +1082,8 @@
             "https://github.com/ycdxsb/PocOrExp_in_Github": {
                 "created_at": "2021-04-13 05:46:16",
                 "description": "聚合Github上已有的Poc或者Exp，CVE信息来自CVE官网。Auto Collect Poc Or Exp from Github by CVE ID.",
-                "commit_date": "2023-01-23 00:14:45",
-                "commit_message": "update 2023-01-23 08:14:45",
+                "commit_date": "2023-01-24 00:12:39",
+                "commit_message": "update 2023-01-24 08:12:39",
                 "release_tag": null,
                 "release_date": "",
                 "release_message": null
@@ -1737,7 +1737,7 @@
             "https://github.com/ExpLangcn/NucleiTP": {
                 "created_at": "2022-11-08 13:16:56",
                 "description": "自动整合全网Nuclei的漏洞POC，实时同步更新最新POC！",
-                "commit_date": "2023-01-23 01:00:03",
+                "commit_date": "2023-01-24 01:00:03",
                 "commit_message": "更新啦❤️",
                 "release_tag": null,
                 "release_date": "",
