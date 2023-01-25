@@ -1,13 +1,13 @@
-# 更新于 2023-01-24 09:07:22
+# 更新于 2023-01-25 09:01:46
 
 ## 近30天release更新记录
 | 更新时间 | 项目名称 | 版本 | 更新内容 |
 | :---- | :---- | :---- | :---- |
+|2023-01-24 19:34:39|[nuclei](https://github.com/projectdiscovery/nuclei)|v2.8.8|## What's Changed* **Fixed url encoding<br> issues by @tarunKoyalwar** in https://g<br>ithub.com/projectdiscovery/nuclei/pull/3<br>211* **Fixed host spray race condition b<br>y @tarunKoyalwar** in https://github.com<br>/projectdiscovery/nuclei/pull/3213* Fixe<br>d panic crash with non-existent target i<br>nput by @Ice3man543 in https://github.co<br>m/projectdiscovery/nuclei/pull/3205* Fix<br>ed aws signer missing template variables<br> by @tarunKoyalwar in https://github.com<br>/projectdiscovery/nuclei/pull/3206* **Ad<br>ded clustering support for DNS templates<br> by @Ice3man543** in https://github.com/<br>projectdiscovery/nuclei/pull/3204* **Add<br>ed clustering support for TLS templates <br>by @Ice3man543** in https://github.com/p<br>rojectdiscovery/nuclei/pull/3209* Added <br>support for -no-mhe option by @Mzack9999<br> in https://github.com/projectdiscovery/<br>nuclei/pull/3219## New Contributors* @An<br>dreAngelucci made their first contributi<br>on in https://github.com/projectdiscover<br>y/nuclei/pull/3214**Full Changelog**: ht<br>tps://github.com/projectdiscovery/nuclei<br>/compare/v2.8.7...v2.8.8|
+|2023-01-24 16:57:21|[faker](https://github.com/joke2k/faker)|v16.6.1|See [CHANGELOG.md](https://github.com/j<br>oke2k/faker/blob/refs/tags/v16.6.1/CHANG<br>ELOG.md).|
 |2023-01-20 18:22:12|[OA-EXPTOOL](https://github.com/LittleBear4/OA-EXPTOOL)|OA-EXPTOO<br>L-v0.7|更新内容如下：1.代理功能已经实装2.日志<br>功能已经载入源码，目前只有一米OA会产生日<br>志（日志第二次调用会产生问题，暂不实装）<br>修复部分poc报错问题，修复通达OAshell的代<br>码错误导致无法连接问题增加泛微OA_doexcel<br>泛微OA_ktree_upload泛微OA_v10_OfficeServe<br>r.phpuploadweaveroa-eoffice8-upload-RCE<br>增加用友：yongyou_KSOA_imageupload|
 |2023-01-19 06:03:37|[super-xray](https://github.com/4ra1n/super-xray)|1.4|## 1.4春节快乐，从该版本以后使用更帅的*<br>*黑暗主题**，并且简单重构了UI解决了重要<br>的问题：CPU占用过高。允许QPS和最大HOST连<br>接数等参数的设置，优化了一些功能更新内容<br>：- [important] [improve] CPU占用较高需要<br>进行优化 #128- [important] [feat] 1.4版本<br>以后将全面适配黑暗主题（更帅一些） #135- <br>[important] [feat] 每秒最大http请求数max<br>_qps参数设置 #137- [bug] 提示文字的翻译<br>有误 #133- [feat] 被动扫描允许自由设置（<br>目前仅支持127） #131- [feat] 最大HOST允许<br>的连接数（降低对服务的影响） #138- [impro<br>ve] 查看搜索PoC时应该排序以提高效率 #134<br>- [improve] 不常用的配置应该都移到高级配<br>置中 #132- [improve] 避免直接使用其他项目<br>的图标 #130- [improve] 删除没有必要的动态<br>皮肤并简单重构UI #136- 使用更好的exe图标-<br> 删除扫雷和弹球（不好玩且与黑暗主题不适<br>配）下载：- super-xray-1.4.jar版本通过jav<br>a -jar super-xray-1.4.jar启动- super-xra<br>y-1.4-jre-exe.zip是内置了JRE的exe版本- s<br>uper-xray-1.4-system-jre.exe是使用系统JR<br>E的exe版本|
-|2023-01-17 19:31:18|[faker](https://github.com/joke2k/faker)|v16.6.0|See [CHANGELOG.md](https://github.com/j<br>oke2k/faker/blob/refs/tags/v16.6.0/CHANG<br>ELOG.md).|
 |2023-01-17 10:55:12|[Goby](https://github.com/gobysec/Goby)|Beta2.2.0|# In this update## Community version up<br>date:1. New memory shell plugin2. ShellH<br>ub plugin update3. Vulnerability module <br>added a function to generate deserializa<br>tion Payload, through the memory shell i<br>njection process4. Five Java deserializa<br>tion vulnerabilities were added, includi<br>ng- Bonitasoft Platform serverAPI Deseri<br>alization Vulnerability- Liferay Portal <br>Unauthenticated 7.2.1 C3P0 Deserializati<br>on Vulnerability (CVE-2020-7961)- Manage<br>Engine OpManager Deserialization Vulnera<br>bility (CVE-2020-28653)- Zkteco Shiro De<br>serialization Vulnerability- ZOHO Manage<br>Engine Password Manager Pro Deserializat<br>ion Vulnerability5. Fixed the problem th<br>at the environment variable http_proxy c<br>aused Goby to report errors abnormally6.<br> Goby can now be updated online and vuln<br>erabilities can be updated even if Goby <br>is not in the Mac system Application dir<br>ectory7. Fixed the problem of occasional<br> white horizontal lines in Goby8. remove<br> network error report## Red team/Enterpr<br>ise version update content1. All update <br>content of 2.2.0 community version2. 20 <br>new deserialization vulnerabilities were<br> added, including- Apache OFBiz xmlrpc D<br>eserialization Vulnerability (CVE-2020-9<br>496)- Apereo CAS Before 4.1.7 Deserializ<br>ation Vulnerability- Dreamer CMS Shiro D<br>eserialization Vulnerability- EasyReport<br> Shiro Deserialization Vulnerability- FE<br>BS Shiro Deserialization Vulnerability- <br>FH Admin Shiro Deserialization Vulnerabi<br>lity- FineReport V10 Deserialization RCE<br> Vulnerability- ForgeRock AM Deserializa<br>tion Vulnerability (CVE-2021-35464)- Gun<br>s Shiro Deserialization Vulnerability- J<br>2eeFAST Shiro Deserialization Vulnerabil<br>ity- JavaWeb_Layui Shiro Deserialization<br> Vulnerability- Liferay Portal 6.1.1 CE <br>GA2 CB Deserialization Vulnerability- MC<br>MS Shiro Deserialization Vulnerability (<br>CVE-2022-22928)- OneBlog Shiro Deseriali<br>zation Vulnerability- pb-cms Shiro Deser<br>ialization Vulnerability- QVIS-NVR Camer<br>a Management System RCE (CVE-2021-41419)<br>- RuoYi-plus Shiro Deserialization Vulne<br>rability- TIMO Shiro Deserialization Vul<br>nerability- Ysk ERP Shiro Deserializatio<br>n Vulnerability**Zkteco Shiro Deserializ<br>ation Vulnerability**![5s8l2F.gif](https<br>://www.gobies.org/img/Zkteco_Shiro_Deser<br>ialization_Vulnerability.gif)**Apache OF<br>Biz xmlrpc Deserialization Vulnerability<br> (CVE-2020-9496)**![5s8l2F.gif](https://<br>www.gobies.org/img/OneBlog_Shiro_Deseria<br>lization_Vulnerability.gif)|
-|2023-01-15 18:06:51|[nuclei](https://github.com/projectdiscovery/nuclei)|v2.8.7|## What's Changed* Added **generate_jwt<br>**, **json_minify**, **json_prettify** h<br>elper functions by @dwisiswant0 in https<br>://github.com/projectdiscovery/nuclei/pu<br>ll/3160* Added markdown index file by @x<br>m1k3 in https://github.com/projectdiscov<br>ery/nuclei/pull/3129* Fixed issue with I<br>P input in uncover integration by @tarun<br>Koyalwar in https://github.com/projectdi<br>scovery/nuclei/pull/3186* Fixed hmap sto<br>rage requirement via omitempty by @Mzack<br>9999 in https://github.com/projectdiscov<br>ery/nuclei/pull/3111* Fixed content leng<br>th edge cases by @Mzack9999 in https://g<br>ithub.com/projectdiscovery/nuclei/pull/3<br>147* Added optional timestamp in debug l<br>ogs by @xm1k3 in https://github.com/proj<br>ectdiscovery/nuclei/pull/3110* Moved exa<br>mples to go file by @Mzack9999 in https:<br>//github.com/projectdiscovery/nuclei/pul<br>l/3187**Full Changelog**: https://github<br>.com/projectdiscovery/nuclei/compare/v2.<br>8.6...v2.8.7|
 |2023-01-13 10:38:33|[railgun](https://github.com/lz520520/railgun)|v1.5.1-sp<br>2|解压密码 railgun1. mac bug解决2. 漏洞利<br>用日志优化3. 历史搜索a. 增加查询条件b. 增<br>加漏洞利用日志4. 端口扫描a. 优化端口列表b<br>. 增加邮箱端口指纹识别5. 暴力破解a. 增加<br>pop3/imap/smtp以及其ssl爆破。|
 |2023-01-13 07:43:44|[RequestTemplate](https://github.com/1n7erface/RequestTemplate)|v1.1.1|2023.1.13 13:441.通过列出共享解决了部分<br>smb误报的问题。2.列出ftp文件。3.通过OXID<br>识别多网卡机器。|
 |2023-01-10 07:36:28|[NessusToReport](https://github.com/Hypdncy/NessusToReport)|v1.1.1||
@@ -21,15 +21,16 @@
 ## 近30天commit提交记录
 | 提交时间 | 项目名称 | 更新内容 |
 | :---- | :---- | :---- |
-|2023-01-24 01:00:03|[NucleiTP](https://github.com/ExpLangcn/NucleiTP)|更新啦❤️|
-|2023-01-24 00:12:39|[PocOrExp_in_Github](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-01-24 08:12:39|
+|2023-01-25 01:00:02|[NucleiTP](https://github.com/ExpLangcn/NucleiTP)|更新啦❤️|
+|2023-01-25 00:16:25|[PocOrExp_in_Github](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-01-25 08:16:25|
+|2023-01-24 18:01:28|[nuclei](https://github.com/projectdiscovery/nuclei)|Merge pull request #3239 from projectdiscovery/devnucl<br>ei v2.8.8|
+|2023-01-24 16:56:43|[faker](https://github.com/joke2k/faker)|Bump version: 16.6.0 → 16.6.1|
 |2023-01-21 07:26:56|[super-xray](https://github.com/4ra1n/super-xray)|#140|
 |2023-01-21 02:08:18|[afrog](https://github.com/zan8in/afrog)|Merge pull request #45 from mawangyejizhiyan/maincve-2<br>022|
 |2023-01-20 18:49:28|[OA-EXPTOOL](https://github.com/LittleBear4/OA-EXPTOOL)|Add files via upload|
 |2023-01-20 06:45:54|[SmsForwarder](https://github.com/pppscn/SmsForwarder)|整理：通用设置提示优化|
 |2023-01-19 02:33:56|[RsaCtfTool](https://github.com/RsaCtfTool/RsaCtfTool)|update project, cleanup|
 |2023-01-18 08:16:24|[Awesome-Redteam](https://github.com/Threekiii/Awesome-Redteam)|更新README.md|
-|2023-01-17 19:30:36|[faker](https://github.com/joke2k/faker)|Bump version: 16.5.0 → 16.6.0|
 |2023-01-17 15:03:50|[captcha-killer-modi<br>fied](https://github.com/f0ng/captcha-killer-modified)|Update FAQ.md|
 |2023-01-17 13:26:18|[poc-hub](https://github.com/ybdt/poc-hub)|整理|
 |2023-01-17 09:41:54|[Packer-Fuzzer](https://github.com/rtcatc/Packer-Fuzzer)|v1.4.15 更新demo图片|
@@ -38,7 +39,6 @@
 |2023-01-17 03:03:16|[CN_Nessus_Plugins_I<br>nterface](https://github.com/nszy007/CN_Nessus_Plugins_Interface)|20230113|
 |2023-01-16 10:59:37|[Scanners-Box](https://github.com/We5ter/Scanners-Box)|[+]kvesta/vesta|
 |2023-01-16 03:17:55|[404StarLink](https://github.com/knownsec/404StarLink)|weekly update at 2023-01-16|
-|2023-01-15 17:50:24|[nuclei](https://github.com/projectdiscovery/nuclei)|Merge pull request #3193 from projectdiscovery/devnucl<br>ei v2.8.7|
 |2023-01-14 02:03:19|[mitaka](https://github.com/ninoseki/mitaka)|docs: add hr [skip ci]|
 |2023-01-13 11:53:18|[feroxbuster](https://github.com/epi052/feroxbuster)|Update README.md|
 |2023-01-12 02:31:07|[OneForAll](https://github.com/shmilylty/OneForAll)|Update docker-image.yml拼写错误|
@@ -114,7 +114,7 @@
 | [xray](https://github.com/chaitin/xray) | 1.9.4 | 一款完善的安全评估工具，支持常见 web 安全问题扫描和自定义 poc | <br>使用之前务必先阅读文档 |
 | [w13scan](https://github.com/w-digital-scanner/w13scan) |  | Passive Security Scanner (被动式安全扫描器) |
 | [Fvuln](https://github.com/d3ckx1/Fvuln) | Fvuln_v1.<br>4.8 | F-vuln（全称：Find-Vulnerability）是为了自己工作方便专门编写的一<br>款自动化工具，主要适用于日常安全服务、渗透测试人员和RedTeam红队人<br>员，它集合的功能包括：存活IP探测、开放端口探测、web服务探测、web漏<br>洞扫描、smb爆破、ssh爆破、ftp爆破、mssql爆破等其他数据库爆破工作以<br>及大量web漏洞检测模块。 |
-| [nuclei](https://github.com/projectdiscovery/nuclei) | v2.8.7 | Fast and customizable vulnerability scanner based on simple YAML<br> based DSL. |
+| [nuclei](https://github.com/projectdiscovery/nuclei) | v2.8.8 | Fast and customizable vulnerability scanner based on simple YAML<br> based DSL. |
 | [afrog](https://github.com/zan8in/afrog) | v2.2.0 | A Vulnerability Scanning Tools For Penetration Testing |
 | [vulmap](https://github.com/zhzyker/vulmap) | v0.9 | Vulmap 是一款 web 漏洞扫描和验证工具, 可对 webapps 进行漏洞扫描,<br> 并且具备漏洞验证功能 |
 | [POC-bomber](https://github.com/tr0uble-mAker/POC-bomber) | v2.0.2-PO<br>C-bomber | 利用大量高威胁poc/exp快速获取目标权限，用于渗透和红队快速打点 |
@@ -428,7 +428,7 @@
 #### 其他
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
-| [faker](https://github.com/joke2k/faker) | v16.6.0 | Faker is a Python package that generates fake data for you. |
+| [faker](https://github.com/joke2k/faker) | v16.6.1 | Faker is a Python package that generates fake data for you. |
 | [SmsForwarder](https://github.com/pppscn/SmsForwarder) | v3.1.1 | 短信转发器——监控Android手机短信、来电、APP通知，并根据指定规则<br>转发到其他手机：钉钉群自定义机器人、钉钉企业内机器人、企业微信群机<br>器人、飞书机器人、企业微信应用消息、邮箱、bark、webhook、Telegram<br>机器人、Server酱、PushPlus、手机短信等。包括主动控制服务端与客户端<br>，让你轻松远程发短信、查短信、查通话、查话簿、查电量等。（V3.0 新<br>增）PS.这个APK主要是学习与自用，如有BUG请提ISSUE，同时欢迎大家提PR<br>指正 |
 ### 安全产品
 #### 威胁检测
