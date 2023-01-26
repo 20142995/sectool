@@ -89,8 +89,8 @@
             "https://github.com/maurosoria/dirsearch": {
                 "created_at": "2013-04-30 15:57:40",
                 "description": "Web path scanner",
-                "commit_date": "2022-12-09 11:22:09",
-                "commit_message": "Merge pull request #1255 from kylincodelab/master\n\nUpdate dicc.txt",
+                "commit_date": "2023-01-25 14:25:16",
+                "commit_message": "Merge pull request #1268 from ab2pentest/patch-3\n\nAdding swagger v1.0 files",
                 "release_tag": "v0.4.3",
                 "release_date": "2022-10-05 13:01:24",
                 "release_message": "- Automatically detect the URI scheme (`http` or `https`) if no scheme is provided\r\n- SQLite report format\r\n- Option to overwrite unwanted extensions with selected extensions\r\n- Option to view redirects history when following redirects\r\n- Option to crawl web paths in the responses\r\n- HTTP traffic is saved inside log file\r\n- Capability to save progress and resume later\r\n- Support client certificate\r\n- Maximum size of the log file via configuration\r\n- More accurate"
@@ -1082,8 +1082,8 @@
             "https://github.com/ycdxsb/PocOrExp_in_Github": {
                 "created_at": "2021-04-13 05:46:16",
                 "description": "聚合Github上已有的Poc或者Exp，CVE信息来自CVE官网。Auto Collect Poc Or Exp from Github by CVE ID.",
-                "commit_date": "2023-01-25 00:16:25",
-                "commit_message": "update 2023-01-25 08:16:25",
+                "commit_date": "2023-01-26 00:17:17",
+                "commit_message": "update 2023-01-26 08:17:17",
                 "release_tag": null,
                 "release_date": "",
                 "release_message": null
@@ -1737,7 +1737,7 @@
             "https://github.com/ExpLangcn/NucleiTP": {
                 "created_at": "2022-11-08 13:16:56",
                 "description": "自动整合全网Nuclei的漏洞POC，实时同步更新最新POC！",
-                "commit_date": "2023-01-25 01:00:02",
+                "commit_date": "2023-01-26 01:00:03",
                 "commit_message": "更新啦❤️",
                 "release_tag": null,
                 "release_date": "",
