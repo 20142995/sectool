@@ -294,7 +294,7 @@
                 "commit_message": "Merge pull request #3239 from projectdiscovery/dev\n\nnuclei v2.8.8",
                 "release_tag": "v2.8.8",
                 "release_date": "2023-01-24 19:34:39",
-                "release_message": "## What's Changed\r\n\r\n* **Fixed url encoding issues by @tarunKoyalwar** in https://github.com/projectdiscovery/nuclei/pull/3211\r\n* **Fixed host spray race condition by @tarunKoyalwar** in https://github.com/projectdiscovery/nuclei/pull/3213\r\n* Fixed panic crash with non-existent target input by @Ice3man543 in https://github.com/projectdiscovery/nuclei/pull/3205\r\n* Fixed aws signer missing template variables by @tarunKoyalwar in https://github.com/projectdiscovery/nuclei/pull/3206\r\n* **Added clustering support for DNS templates by @Ice3man543** in https://github.com/projectdiscovery/nuclei/pull/3204\r\n* **Added clustering support for TLS templates by @Ice3man543** in https://github.com/projectdiscovery/nuclei/pull/3209\r\n* Added support for `-no-mhe` option by @Mzack9999 in https://github.com/projectdiscovery/nuclei/pull/3219\r\n\r\n## New Contributors\r\n* @AndreAngelucci made their first contribution in https://github.com/projectdiscovery/nuclei/pull/3214\r\n\r\n**Full Changelog**: https://github.com/projectdiscovery/nuclei/compare/v2.8.7...v2.8.8"
+                "release_message": "## What's Changed\r\n\r\n* **Fixed url encoding issues by @tarunKoyalwar** in https://github.com/projectdiscovery/nuclei/pull/3211\r\n* **Fixed host spray race condition by @tarunKoyalwar** in https://github.com/projectdiscovery/nuclei/pull/3213\r\n* Fixed panic crash with non-existent target input by @Ice3man543 in https://github.com/projectdiscovery/nuclei/pull/3205\r\n* Fixed aws signer missing template variables by @tarunKoyalwar in https://github.com/projectdiscovery/nuclei/pull/3206\r\n* **Added clustering support for DNS templates by @Ice3man543** in https://github.com/projectdiscovery/nuclei/pull/3204\r\n* **Added clustering support for TLS templates by @Ice3man543** in https://github.com/projectdiscovery/nuclei/pull/3209\r\n* Added support for `-no-mhe` option by @Mzack9999 in https://github.com/projectdiscovery/nuclei/pull/3219\r\n\r\nIssues closed in release - https://github.com/projectdiscovery/nuclei/milestone/25?closed=1\r\n\r\n## New Contributors\r\n* @AndreAngelucci made their first contribution in https://github.com/projectdiscovery/nuclei/pull/3214\r\n\r\n**Full Changelog**: https://github.com/projectdiscovery/nuclei/compare/v2.8.7...v2.8.8"
             },
             "https://github.com/zan8in/afrog": {
                 "created_at": "2022-02-24 06:00:32",
@@ -1082,8 +1082,8 @@
             "https://github.com/ycdxsb/PocOrExp_in_Github": {
                 "created_at": "2021-04-13 05:46:16",
                 "description": "聚合Github上已有的Poc或者Exp，CVE信息来自CVE官网。Auto Collect Poc Or Exp from Github by CVE ID.",
-                "commit_date": "2023-01-26 00:17:17",
-                "commit_message": "update 2023-01-26 08:17:17",
+                "commit_date": "2023-01-27 00:17:56",
+                "commit_message": "update 2023-01-27 08:17:56",
                 "release_tag": null,
                 "release_date": "",
                 "release_message": null
@@ -1737,7 +1737,7 @@
             "https://github.com/ExpLangcn/NucleiTP": {
                 "created_at": "2022-11-08 13:16:56",
                 "description": "自动整合全网Nuclei的漏洞POC，实时同步更新最新POC！",
-                "commit_date": "2023-01-26 01:00:03",
+                "commit_date": "2023-01-27 01:00:03",
                 "commit_message": "更新啦❤️",
                 "release_tag": null,
                 "release_date": "",
@@ -2043,8 +2043,8 @@
             "https://github.com/RsaCtfTool/RsaCtfTool": {
                 "created_at": "2015-03-07 17:29:33",
                 "description": "RSA attack tool (mainly for ctf) - retreive private key from weak public key and/or uncipher data",
-                "commit_date": "2023-01-19 02:33:56",
-                "commit_message": "update project, cleanup",
+                "commit_date": "2023-01-26 14:12:46",
+                "commit_message": "Merge pull request #399 from mendel3/patch-2\n\nImproving Mac Compatibility",
                 "release_tag": null,
                 "release_date": "",
                 "release_message": null
