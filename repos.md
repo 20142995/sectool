@@ -221,3 +221,10 @@
 |工具&插件|rsas|https://github.com/biggerwing/nsfocus-rsas-knowledge-base|
 |工具&插件|rsas|https://github.com/autoing/RSAS-Data-Export|
 |工具&插件|rsas|https://github.com/autoing/RSAS-Task-Release|
+|工具&插件|nuclei|https://github.com/mlq574/nucleix|
+
+|其他|其他|https://github.com/dbeaver/dbeaver|
+|CTF综合|工具集|https://github.com/Aabyss-Team/CTF-Tools|
+|CTF综合|工具集|https://github.com/Moxin1044/qsnctf-python|
+|CTF逆向|Java反编译|https://github.com/MountCloud/JavaDecompileTool-GUI|
+|CTF综合|工具集|https://github.com/qianxiao996/CTF-Tools|
