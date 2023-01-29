@@ -1,10 +1,11 @@
-# 更新于 2023-01-28 09:04:15
+# 更新于 2023-01-29 09:10:17
 
 ## 近30天release更新记录
 | 更新时间 | 项目名称 | 版本 | 更新内容 |
 | :---- | :---- | :---- | :---- |
 |2023-01-24 19:34:39|[nuclei](https://github.com/projectdiscovery/nuclei)|v2.8.8|## What's Changed* **Fixed url encoding<br> issues by @tarunKoyalwar** in https://g<br>ithub.com/projectdiscovery/nuclei/pull/3<br>211* **Fixed host spray race condition b<br>y @tarunKoyalwar** in https://github.com<br>/projectdiscovery/nuclei/pull/3213* Fixe<br>d panic crash with non-existent target i<br>nput by @Ice3man543 in https://github.co<br>m/projectdiscovery/nuclei/pull/3205* Fix<br>ed aws signer missing template variables<br> by @tarunKoyalwar in https://github.com<br>/projectdiscovery/nuclei/pull/3206* **Ad<br>ded clustering support for DNS templates<br> by @Ice3man543** in https://github.com/<br>projectdiscovery/nuclei/pull/3204* **Add<br>ed clustering support for TLS templates <br>by @Ice3man543** in https://github.com/p<br>rojectdiscovery/nuclei/pull/3209* Added <br>support for -no-mhe option by @Mzack9999<br> in https://github.com/projectdiscovery/<br>nuclei/pull/3219Issues closed in release<br> - https://github.com/projectdiscovery/n<br>uclei/milestone/25?closed=1## New Contri<br>butors* @AndreAngelucci made their first<br> contribution in https://github.com/proj<br>ectdiscovery/nuclei/pull/3214**Full Chan<br>gelog**: https://github.com/projectdisco<br>very/nuclei/compare/v2.8.7...v2.8.8|
 |2023-01-24 16:57:21|[faker](https://github.com/joke2k/faker)|v16.6.1|See [CHANGELOG.md](https://github.com/j<br>oke2k/faker/blob/refs/tags/v16.6.1/CHANG<br>ELOG.md).|
+|2023-01-22 18:20:34|[dbeaver](https://github.com/dbeaver/dbeaver)|22.3.3|- SQL editor:- Output logs viewer now r<br>espects log levels and supports log sear<br>ch- Auto-completion for mixed case schem<br>a name was fixed- Result tabs count mess<br>age was fixed- Auto-completion of cell v<br>alues is now configurable- Query execute<br> time is now populated in statistics (th<br>anks to @bob27aggiustatutto)- Mixed-case<br> variables resolution was fixed- Execute<br> statistics UI was fixed (redundant info<br> was removed)- NPEs during auto-completi<br>on were fixed- Data editor:- Column name<br> ordering in record mode was fixed- Char<br>t type configuration added to the contex<br>t menu- Issue with column focus in conte<br>xt menus was fixed- General UI:- Databas<br>e navigator now respects font size custo<br>mization- Dashboard graphs now support d<br>ark themes- DB2: client application name<br> population was fixed- Exasol: privilege<br>s reading was fixed for SaaS (thanks to <br>@allipatev)- MySQ:/MariaDB: schema privi<br>leges save was fixed (issue with UI refr<br>esh)- Oracle: complex data types resolut<br>ion was fixed for resultsets- PostgreSQL<br>:- Full backup with roles and groups is <br>now supported- View triggers DDL was add<br>ed- Procedure debugger was fixed- Issue <br>with URL-baes connections backup was res<br>olved- Vector data types support was fix<br>ed- Aggregate functions DDL was fixed- R<br>edshift: incorrect schemas info read in <br>different databases was fixed- Snowflake<br>:- Java 17 support has been added- Compl<br>ex DDL statements parser was improved- S<br>QL Server: procedures and functions rena<br>me was fixed- Vertica: comments read can<br> e disabled for all metadata (for perfor<br>mance)|
 |2023-01-20 18:22:12|[OA-EXPTOOL](https://github.com/LittleBear4/OA-EXPTOOL)|OA-EXPTOO<br>L-v0.7|更新内容如下：1.代理功能已经实装2.日志<br>功能已经载入源码，目前只有一米OA会产生日<br>志（日志第二次调用会产生问题，暂不实装）<br>修复部分poc报错问题，修复通达OAshell的代<br>码错误导致无法连接问题增加泛微OA_doexcel<br>泛微OA_ktree_upload泛微OA_v10_OfficeServe<br>r.phpuploadweaveroa-eoffice8-upload-RCE<br>增加用友：yongyou_KSOA_imageupload|
 |2023-01-19 06:03:37|[super-xray](https://github.com/4ra1n/super-xray)|1.4|## 1.4春节快乐，从该版本以后使用更帅的*<br>*黑暗主题**，并且简单重构了UI解决了重要<br>的问题：CPU占用过高。允许QPS和最大HOST连<br>接数等参数的设置，优化了一些功能更新内容<br>：- [important] [improve] CPU占用较高需要<br>进行优化 #128- [important] [feat] 1.4版本<br>以后将全面适配黑暗主题（更帅一些） #135- <br>[important] [feat] 每秒最大http请求数max<br>_qps参数设置 #137- [bug] 提示文字的翻译<br>有误 #133- [feat] 被动扫描允许自由设置（<br>目前仅支持127） #131- [feat] 最大HOST允许<br>的连接数（降低对服务的影响） #138- [impro<br>ve] 查看搜索PoC时应该排序以提高效率 #134<br>- [improve] 不常用的配置应该都移到高级配<br>置中 #132- [improve] 避免直接使用其他项目<br>的图标 #130- [improve] 删除没有必要的动态<br>皮肤并简单重构UI #136- 使用更好的exe图标-<br> 删除扫雷和弹球（不好玩且与黑暗主题不适<br>配）下载：- super-xray-1.4.jar版本通过jav<br>a -jar super-xray-1.4.jar启动- super-xra<br>y-1.4-jre-exe.zip是内置了JRE的exe版本- s<br>uper-xray-1.4-system-jre.exe是使用系统JR<br>E的exe版本|
 |2023-01-17 10:55:12|[Goby](https://github.com/gobysec/Goby)|Beta2.2.0|# In this update## Community version up<br>date:1. New memory shell plugin2. ShellH<br>ub plugin update3. Vulnerability module <br>added a function to generate deserializa<br>tion Payload, through the memory shell i<br>njection process4. Five Java deserializa<br>tion vulnerabilities were added, includi<br>ng- Bonitasoft Platform serverAPI Deseri<br>alization Vulnerability- Liferay Portal <br>Unauthenticated 7.2.1 C3P0 Deserializati<br>on Vulnerability (CVE-2020-7961)- Manage<br>Engine OpManager Deserialization Vulnera<br>bility (CVE-2020-28653)- Zkteco Shiro De<br>serialization Vulnerability- ZOHO Manage<br>Engine Password Manager Pro Deserializat<br>ion Vulnerability5. Fixed the problem th<br>at the environment variable http_proxy c<br>aused Goby to report errors abnormally6.<br> Goby can now be updated online and vuln<br>erabilities can be updated even if Goby <br>is not in the Mac system Application dir<br>ectory7. Fixed the problem of occasional<br> white horizontal lines in Goby8. remove<br> network error report## Red team/Enterpr<br>ise version update content1. All update <br>content of 2.2.0 community version2. 20 <br>new deserialization vulnerabilities were<br> added, including- Apache OFBiz xmlrpc D<br>eserialization Vulnerability (CVE-2020-9<br>496)- Apereo CAS Before 4.1.7 Deserializ<br>ation Vulnerability- Dreamer CMS Shiro D<br>eserialization Vulnerability- EasyReport<br> Shiro Deserialization Vulnerability- FE<br>BS Shiro Deserialization Vulnerability- <br>FH Admin Shiro Deserialization Vulnerabi<br>lity- FineReport V10 Deserialization RCE<br> Vulnerability- ForgeRock AM Deserializa<br>tion Vulnerability (CVE-2021-35464)- Gun<br>s Shiro Deserialization Vulnerability- J<br>2eeFAST Shiro Deserialization Vulnerabil<br>ity- JavaWeb_Layui Shiro Deserialization<br> Vulnerability- Liferay Portal 6.1.1 CE <br>GA2 CB Deserialization Vulnerability- MC<br>MS Shiro Deserialization Vulnerability (<br>CVE-2022-22928)- OneBlog Shiro Deseriali<br>zation Vulnerability- pb-cms Shiro Deser<br>ialization Vulnerability- QVIS-NVR Camer<br>a Management System RCE (CVE-2021-41419)<br>- RuoYi-plus Shiro Deserialization Vulne<br>rability- TIMO Shiro Deserialization Vul<br>nerability- Ysk ERP Shiro Deserializatio<br>n Vulnerability**Zkteco Shiro Deserializ<br>ation Vulnerability**![5s8l2F.gif](https<br>://www.gobies.org/img/Zkteco_Shiro_Deser<br>ialization_Vulnerability.gif)**Apache OF<br>Biz xmlrpc Deserialization Vulnerability<br> (CVE-2020-9496)**![5s8l2F.gif](https://<br>www.gobies.org/img/OneBlog_Shiro_Deseria<br>lization_Vulnerability.gif)|
@@ -21,17 +22,20 @@
 ## 近30天commit提交记录
 | 提交时间 | 项目名称 | 更新内容 |
 | :---- | :---- | :---- |
-|2023-01-28 01:00:03|[NucleiTP](https://github.com/ExpLangcn/NucleiTP)|更新啦❤️|
-|2023-01-28 00:57:47|[RsaCtfTool](https://github.com/RsaCtfTool/RsaCtfTool)|Update pisano_period.py|
-|2023-01-27 22:38:38|[PocOrExp_in_Github](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-01-28 06:38:38|
+|2023-01-29 01:00:02|[NucleiTP](https://github.com/ExpLangcn/NucleiTP)|更新啦❤️|
+|2023-01-28 21:22:49|[PocOrExp_in_Github](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-01-29 05:22:49|
+|2023-01-28 14:34:26|[RouteVulScan](https://github.com/F6JO/RouteVulScan)|Update README.md|
+|2023-01-28 09:17:06|[super-xray](https://github.com/4ra1n/super-xray)|macos app|
+|2023-01-28 08:25:42|[OA-EXPTOOL](https://github.com/LittleBear4/OA-EXPTOOL)|Add files via upload|
+|2023-01-28 07:39:53|[SmsForwarder](https://github.com/pppscn/SmsForwarder)|修复：重启手机自动启动APP时加载配置失败 #233 #245|
+|2023-01-28 07:31:43|[dbeaver](https://github.com/dbeaver/dbeaver)|#18522 Keep datasource's original provider and driver <br>IDs (#18864)|
+|2023-01-28 03:13:41|[RsaCtfTool](https://github.com/RsaCtfTool/RsaCtfTool)|Update pisano_period.py|
 |2023-01-27 17:27:55|[faker](https://github.com/joke2k/faker)|Create FUNDING.yml|
 |2023-01-27 11:08:18|[poc-hub](https://github.com/ybdt/poc-hub)|整理|
-|2023-01-27 08:10:30|[OA-EXPTOOL](https://github.com/LittleBear4/OA-EXPTOOL)|Update README.md|
+|2023-01-26 05:21:12|[CTF-Tools](https://github.com/Aabyss-Team/CTF-Tools)|Update README.md|
 |2023-01-25 14:25:16|[dirsearch](https://github.com/maurosoria/dirsearch)|Merge pull request #1268 from ab2pentest/patch-3Adding<br> swagger v1.0 files|
 |2023-01-24 18:01:28|[nuclei](https://github.com/projectdiscovery/nuclei)|Merge pull request #3239 from projectdiscovery/devnucl<br>ei v2.8.8|
-|2023-01-21 07:26:56|[super-xray](https://github.com/4ra1n/super-xray)|#140|
 |2023-01-21 02:08:18|[afrog](https://github.com/zan8in/afrog)|Merge pull request #45 from mawangyejizhiyan/maincve-2<br>022|
-|2023-01-20 06:45:54|[SmsForwarder](https://github.com/pppscn/SmsForwarder)|整理：通用设置提示优化|
 |2023-01-18 08:16:24|[Awesome-Redteam](https://github.com/Threekiii/Awesome-Redteam)|更新README.md|
 |2023-01-17 15:03:50|[captcha-killer-modi<br>fied](https://github.com/f0ng/captcha-killer-modified)|Update FAQ.md|
 |2023-01-17 09:41:54|[Packer-Fuzzer](https://github.com/rtcatc/Packer-Fuzzer)|v1.4.15 更新demo图片|
@@ -46,9 +50,9 @@
 |2023-01-11 09:43:37|[InfoSearchAll](https://github.com/ExpLangcn/InfoSearchAll)|Update README.md|
 |2023-01-10 10:59:45|[http-request-smuggl<br>er](https://github.com/portswigger/http-request-smuggler)|Merge pull request #58 from Hannah-PortSwigger/masterU<br>pdate case statement to state technique.|
 |2023-01-10 07:34:19|[NessusToReport](https://github.com/Hypdncy/NessusToReport)|增加tenable.py|
+|2023-01-10 07:09:34|[qsnctf-python](https://github.com/Moxin1044/qsnctf-python)|update v:0.0.8.8|
 |2023-01-09 07:27:17|[ExpToPocsuite3](https://github.com/smallfox233/ExpToPocsuite3)|Update README.md|
 |2023-01-09 07:11:17|[vulnerability](https://github.com/lal0ne/vulnerability)|CNVD-2021-09650|
-|2023-01-08 13:08:12|[RouteVulScan](https://github.com/F6JO/RouteVulScan)|Update README.md|
 |2023-01-05 14:58:10|[autoDecoder](https://github.com/f0ng/autoDecoder)|Update README.md|
 |2023-01-04 09:23:32|[ffuf](https://github.com/ffuf/ffuf)|Enhanced rate limiting (#620)* Enhanced rate limiting*<br> Use time.Ticker correctly|
 |2023-01-03 08:27:35|[JDumpSpider](https://github.com/whwlsfb/JDumpSpider)|add HikariDataSource.|## 所有项目
@@ -339,6 +343,7 @@
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
 | [NucleiTP](https://github.com/ExpLangcn/NucleiTP) |  | 自动整合全网Nuclei的漏洞POC，实时同步更新最新POC！ |
+| [nucleix](https://github.com/mlq574/nucleix) |  | 整合nuclei与xray(社区版、自带高级版)，实现被动扫描+poc扫描自动化<br>渗透流程 |
 #### nessus
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
@@ -395,11 +400,21 @@
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
 | [CTF-Note](https://github.com/kitezzzGrim/CTF-Note) |  | CTF笔记：该项目主要记录CTF知识、刷题记录、工具等。 |
+#### 工具集
+| 项目名称 | 版本 | 项目描述 |
+| :---- | :---- | :---- |
+| [CTF-Tools](https://github.com/Aabyss-Team/CTF-Tools) |  | 渊龙Sec安全团队CTF&AWD工具箱 |
+| [qsnctf-python](https://github.com/Moxin1044/qsnctf-python) |  | 青少年CTF的Python包，方便大家调用一些CTF常用功能。 |
+| [CTF-Tools](https://github.com/qianxiao996/CTF-Tools) | v1.3.7 | 一款Python+Pyqt写的CTF编码、解码、加密、解密工具。 |
 ### CTF逆向
 #### pyc逆向
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
 | [stegosaurus](https://github.com/AngelKitty/stegosaurus) | 1.0 | A steganography tool for embedding payloads within Python byteco<br>de. |
+#### Java反编译
+| 项目名称 | 版本 | 项目描述 |
+| :---- | :---- | :---- |
+| [JavaDecompileTool-G<br>UI](https://github.com/MountCloud/JavaDecompileTool-GUI) | V1.2 | Java Decompile Tool GUI-JAVA反编译工具（界面版） |
 ### CTFWEB
 #### 敏感目录
 | 项目名称 | 版本 | 项目描述 |
@@ -424,6 +439,7 @@
 | :---- | :---- | :---- |
 | [faker](https://github.com/joke2k/faker) | v16.6.1 | Faker is a Python package that generates fake data for you. |
 | [SmsForwarder](https://github.com/pppscn/SmsForwarder) | v3.1.1 | 短信转发器——监控Android手机短信、来电、APP通知，并根据指定规则<br>转发到其他手机：钉钉群自定义机器人、钉钉企业内机器人、企业微信群机<br>器人、飞书机器人、企业微信应用消息、邮箱、bark、webhook、Telegram<br>机器人、Server酱、PushPlus、手机短信等。包括主动控制服务端与客户端<br>，让你轻松远程发短信、查短信、查通话、查话簿、查电量等。（V3.0 新<br>增）PS.这个APK主要是学习与自用，如有BUG请提ISSUE，同时欢迎大家提PR<br>指正 |
+| [dbeaver](https://github.com/dbeaver/dbeaver) | 22.3.3 | Free universal database tool and SQL client |
 ### 安全产品
 #### 威胁检测
 | 项目名称 | 版本 | 项目描述 |
