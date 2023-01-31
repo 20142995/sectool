@@ -98,7 +98,7 @@
             "https://github.com/pingc0y/URLFinder": {
                 "created_at": "2022-06-06 10:17:00",
                 "description": "类似JSFinder的golang实现，一款用于快速提取检测页面中JS与URL的工具，更快更全更舒服",
-                "commit_date": "2023-01-29 08:52:47",
+                "commit_date": "2023-01-30 10:19:18",
                 "commit_message": "Update README.md",
                 "release_tag": null,
                 "release_date": "",
@@ -236,9 +236,9 @@
                 "description": null,
                 "commit_date": "2022-08-22 05:20:08",
                 "commit_message": "Merge pull request #41 from lz520520/branch1\n\nupdate: README.md",
-                "release_tag": "v1.5.1-sp2",
-                "release_date": "2023-01-13 10:38:33",
-                "release_message": "解压密码 railgun\r\n\r\n1. mac bug解决\r\n2. 漏洞利用日志优化\r\n3. 历史搜索\r\n  a. 增加查询条件\r\n  b. 增加漏洞利用日志\r\n4. 端口扫描\r\n  a. 优化端口列表\r\n  b. 增加邮箱端口指纹识别\r\n5. 暴力破解\r\n  a. 增加pop3/imap/smtp以及其ssl爆破。"
+                "release_tag": "v1.5.2",
+                "release_date": "2023-01-30 08:25:35",
+                "release_message": "解压密码railgun\r\n\r\n1. 增加gRPC模式，扩展server端\r\n  a. 实现了dnslog，通过客户端可直接管理server，并做了一些优化。\r\n  b. 实现了UDP/TCP的socket反连，通过不同伪装头部来过滤。\r\n  c. 实现了ICMP反连，通过发送特定长度的ping包来过滤。\r\n  d. 实现HTTP/HTTPS server\r\n    ⅰ. HTTP LOG\r\n      1. 增加http 完整请求包记录\r\n    ⅱ. 任意内容和大文件下载\r\n    ⅲ. 扩展服务配置参数，并添加已启动服务信息单独查看窗口。\r\n  e. gRPC完成tls双向认证\r\n  f. 增加鉴权，目前只设置管理员和普通用户。\r\n  g. 历史搜索里，增加查询服务端数据库，目前暂定管理员可查（迁移至gRPC模块）。\r\n  h. 增加单独gRPC模块，可用于gRPC的设置、用户管理以及历史搜索。\r\n2. 编码转换\r\n  a. 将https://github.com/lz520520/encrypt-js 合入，通过Dict2ConsoleJS和ConsoleExtractEncryptPwd两种编码来实现"
             },
             "https://github.com/gobysec/Goby": {
                 "created_at": "2019-06-03 07:56:11",
@@ -1082,8 +1082,8 @@
             "https://github.com/ycdxsb/PocOrExp_in_Github": {
                 "created_at": "2021-04-13 05:46:16",
                 "description": "聚合Github上已有的Poc或者Exp，CVE信息来自CVE官网。Auto Collect Poc Or Exp from Github by CVE ID.",
-                "commit_date": "2023-01-30 00:19:45",
-                "commit_message": "update 2023-01-30 08:19:44",
+                "commit_date": "2023-01-30 22:50:02",
+                "commit_message": "update 2023-01-31 06:50:01",
                 "release_tag": null,
                 "release_date": "",
                 "release_message": null
@@ -1294,8 +1294,8 @@
             "https://github.com/knownsec/404StarLink": {
                 "created_at": "2020-11-17 08:10:18",
                 "description": "404StarLink - 推荐优质、有意义、有趣、坚持维护的安全开源项目",
-                "commit_date": "2023-01-16 03:17:55",
-                "commit_message": "weekly update at 2023-01-16",
+                "commit_date": "2023-01-30 03:38:57",
+                "commit_message": "weekly update at 2023-01-30",
                 "release_tag": null,
                 "release_date": "",
                 "release_message": null
@@ -1617,8 +1617,8 @@
             "https://github.com/4ra1n/super-xray": {
                 "created_at": "2022-11-18 14:52:09",
                 "description": "Web漏洞扫描工具XRAY的GUI启动器 (Web Vulnerability Scanner GUI Starter)",
-                "commit_date": "2023-01-28 09:17:06",
-                "commit_message": "macos app",
+                "commit_date": "2023-01-30 07:49:55",
+                "commit_message": "#142",
                 "release_tag": "1.4",
                 "release_date": "2023-01-19 06:03:37",
                 "release_message": "## 1.4\r\n\r\n春节快乐，从该版本以后使用更帅的**黑暗主题**，并且简单重构了UI\r\n\r\n解决了重要的问题：CPU占用过高。允许QPS和最大HOST连接数等参数的设置，优化了一些功能\r\n\r\n更新内容：\r\n- [important] [improve] CPU占用较高需要进行优化 #128\r\n- [important] [feat] 1.4版本以后将全面适配黑暗主题（更帅一些） #135\r\n- [important] [feat] 每秒最大http请求数max_qps参数设置 #137\r\n- [bug] 提示文字的翻译有误 #133\r\n- [feat] 被动扫描允许自由设置（目前仅支持127） #131\r\n- [feat] 最大HOST允许的连接数（降低对服务的影响） #138\r\n- [improve] 查看搜索PoC时应该排序以提高效率 #134\r\n- [improve] 不常用的配置应该都移到高级配置中 #132\r\n- [improve] 避免直接使用其他项目的图标 #130\r\n- [improve] 删除没有必要的动态皮肤并简单重构UI #136\r\n- 使用更好的exe图标\r\n- 删除扫雷和弹球（不好玩且与黑暗主题不适配）\r\n\r\n下载：\r\n- super-xray-1.4.jar版本通过`java -jar super-xray-1.4.jar`启动\r\n- super-xray-1.4-jre-exe.zip是内置了JRE的exe版本\r\n- super-xray-1.4-system-jre.exe是使用系统JRE的exe版本"
@@ -1737,7 +1737,7 @@
             "https://github.com/ExpLangcn/NucleiTP": {
                 "created_at": "2022-11-08 13:16:56",
                 "description": "自动整合全网Nuclei的漏洞POC，实时同步更新最新POC！",
-                "commit_date": "2023-01-30 01:00:03",
+                "commit_date": "2023-01-31 01:00:03",
                 "commit_message": "更新啦❤️",
                 "release_tag": null,
                 "release_date": "",
@@ -1973,7 +1973,7 @@
             "https://github.com/AabyssZG/CRC32-Tools": {
                 "created_at": "2022-09-18 12:09:14",
                 "description": "Easy CRC32 Tools，so easy！！！",
-                "commit_date": "2022-10-05 07:52:58",
+                "commit_date": "2023-01-30 02:04:17",
                 "commit_message": "Update README.md",
                 "release_tag": "2.2",
                 "release_date": "2022-09-21 02:50:16",
@@ -2127,8 +2127,8 @@
             "https://github.com/pppscn/SmsForwarder": {
                 "created_at": "2021-02-10 02:23:07",
                 "description": "短信转发器——监控Android手机短信、来电、APP通知，并根据指定规则转发到其他手机：钉钉群自定义机器人、钉钉企业内机器人、企业微信群机器人、飞书机器人、企业微信应用消息、邮箱、bark、webhook、Telegram机器人、Server酱、PushPlus、手机短信等。包括主动控制服务端与客户端，让你轻松远程发短信、查短信、查通话、查话簿、查电量等。（V3.0 新增）PS.这个APK主要是学习与自用，如有BUG请提ISSUE，同时欢迎大家提PR指正",
-                "commit_date": "2023-01-29 03:42:10",
-                "commit_message": "升级：androidx组件和kotlin版本",
+                "commit_date": "2023-01-30 01:12:32",
+                "commit_message": "优化：短信/通话转发获取卡槽信息机制（自行备注卡槽SubId对应）#228 #235",
                 "release_tag": "v3.1.1",
                 "release_date": "2022-10-27 13:06:46",
                 "release_message": "PS. 踩着1024的尾巴，提交了3.1.0版本，迟到的程序猿节礼物！\r\n\r\n---\r\n\r\n### 【注意】\r\n* v3.x版本是全新重构开发，可能一开始并不稳定，建议升级前先做好数据备份！（客户端>一键换新机>离线模式>导出）\r\n* 从2.x升级上来耗电异常的，尝试全新安装后导入配置\r\n\r\n### 更新日志\r\n\r\n* 紧急修复：微信小程序端报错“sm4Key must not be null”\r\n* 新增：微信小程序客户端的太阳码\r\n* 新增：`HttpServer`请求/应答报文进行`国密SM4`对称加密传输 【配套`SmsF`微信小程序】\r\n* 新增：`HttpServer`请求/应答报文进行`RSA`非对称加密传输\r\n* 升级：gradle及依赖版本\r\n* 修复：远程控制发送短信时手机号不能包含国家地区代码 (#231)\r\n* 优化：允许自定义客户端与服务端时间容差，避免请求重放攻击 #227\r\n* 优化：提升发送通道多参数分隔的兼容性\r\n* 优化：Bark的消息链接支持URL Scheme #229\r\n* 优化：提升发送通道多参数分隔的兼容性\r\n* 优化：检查合法的URL时支持IPv6地址（例如：主动控制·客户端的服务地址）\r\n* 整理：更新APP通知转发的多重匹配规则示例\r\n* 新增：`webhook`发送通道增加`PUT`/`PATCH`请求方式 #206\r\n* 优化：仅当有WIFI网络时自动检查更新/获取提示\r\n* 新增：自动删除N天前的转发记录（0=禁用，触发机制：每次电量变化时扫描） #224\r\n* 优化：自动消除通知仅消除已匹配的通知 #204（临时方案，重复查询换取准确性）\r\n* 修复：通话转发卡槽信息识别错误\r\n* 精简：去掉美团多渠道打包\r\n* 升级：权限请求框架 XXPermissions\r\n* 修复：极端情况下Gson().fromJson爆空指针错误 #207\r\n* 修复：通过转发日志中重新发送短信时，{{接收时间}}错误 #218\r\n\r\n### APK版本说明：\r\n* universal: 通用版（不在乎安装包大小/懒得选就用这个版本，包含以下4种CPU架构so）\r\n* armeabi-v7a: 32位ARM设备（备用机首选）\r\n* arm64-v8a: 64位ARM设备（主流旗舰机）\r\n* x86: 32位Intel设备\r\n* x86_64: 64/32位Intel设备"
@@ -2136,8 +2136,8 @@
             "https://github.com/dbeaver/dbeaver": {
                 "created_at": "2015-10-21 08:26:28",
                 "description": "Free universal database tool and SQL client",
-                "commit_date": "2023-01-29 14:28:21",
-                "commit_message": "Update CONTRIBUTING.md",
+                "commit_date": "2023-01-30 22:32:33",
+                "commit_message": "#18354 Keep variable rule before parameter rule (#18862)",
                 "release_tag": "22.3.3",
                 "release_date": "2023-01-22 18:20:34",
                 "release_message": "\n                - SQL editor:\n                    - Output logs viewer now respects log levels and supports log search\n                    - Auto-completion for mixed case schema name was fixed\n                    - Result tabs count message was fixed\n                    - Auto-completion of cell values is now configurable\n                    - Query execute time is now populated in statistics (thanks to @bob27aggiustatutto)\n                    - Mixed-case variables resolution was fixed\n                    - Execute statistics UI was fixed (redundant info was removed)\n                    - NPEs during auto-completion were fixed\n                - Data editor:\n                    - Column name ordering in record mode was fixed\n                    - Chart type configuration added to the context menu\n                    - Issue with column focus in context menus was fixed\n                - General UI:\n                    - Database navigator now respects font size customization\n                    - Dashboard graphs now support dark themes\n                - DB2: client application name population was fixed\n                - Exasol: privileges reading was fixed for SaaS (thanks to @allipatev)\n                - MySQ:/MariaDB: schema privileges save was fixed (issue with UI refresh)\n                - Oracle: complex data types resolution was fixed for resultsets\n                - PostgreSQL:\n                    - Full backup with roles and groups is now supported\n                    - View triggers DDL was added\n                    - Procedure debugger was fixed\n                    - Issue with URL-baes connections backup was resolved\n                    - Vector data types support was fixed\n                    - Aggregate functions DDL was fixed\n                - Redshift: incorrect schemas info read in different databases was fixed\n                - Snowflake:\n                    - Java 17 support has been added\n                    - Complex DDL statements parser was improved\n                - SQL Server: procedures and functions rename was fixed\n                - Vertica: comments read can e disabled for all metadata (for performance)\n            "
