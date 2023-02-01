@@ -116,8 +116,8 @@
             "https://github.com/ffuf/ffuf": {
                 "created_at": "2018-11-08 09:25:49",
                 "description": "Fast web fuzzer written in Go",
-                "commit_date": "2023-01-04 09:23:32",
-                "commit_message": "Enhanced rate limiting (#620)\n\n* Enhanced rate limiting\r\n\r\n* Use time.Ticker correctly",
+                "commit_date": "2023-01-31 15:10:08",
+                "commit_message": "Fix jsonlines output while in silent mode (#630)",
                 "release_tag": "v1.5.0",
                 "release_date": "2022-05-19 06:55:04",
                 "release_message": "## Changelog\n\n5c489ae Prepare for 1.5.0 release (#23)\n1db80d4 Do autocalibration for full path (#22)\n21a19a1 Choose between 'and' and 'or' matching and filtering (#20)\n9fa0a5d Ac rewrite\n\n"
@@ -1082,8 +1082,8 @@
             "https://github.com/ycdxsb/PocOrExp_in_Github": {
                 "created_at": "2021-04-13 05:46:16",
                 "description": "聚合Github上已有的Poc或者Exp，CVE信息来自CVE官网。Auto Collect Poc Or Exp from Github by CVE ID.",
-                "commit_date": "2023-01-30 22:50:02",
-                "commit_message": "update 2023-01-31 06:50:01",
+                "commit_date": "2023-02-01 00:20:02",
+                "commit_message": "update 2023-02-01 08:20:01",
                 "release_tag": null,
                 "release_date": "",
                 "release_message": null
@@ -1737,7 +1737,7 @@
             "https://github.com/ExpLangcn/NucleiTP": {
                 "created_at": "2022-11-08 13:16:56",
                 "description": "自动整合全网Nuclei的漏洞POC，实时同步更新最新POC！",
-                "commit_date": "2023-01-31 01:00:03",
+                "commit_date": "2023-02-01 01:00:03",
                 "commit_message": "更新啦❤️",
                 "release_tag": null,
                 "release_date": "",
@@ -2136,8 +2136,8 @@
             "https://github.com/dbeaver/dbeaver": {
                 "created_at": "2015-10-21 08:26:28",
                 "description": "Free universal database tool and SQL client",
-                "commit_date": "2023-01-30 22:32:33",
-                "commit_message": "#18354 Keep variable rule before parameter rule (#18862)",
+                "commit_date": "2023-01-31 18:29:41",
+                "commit_message": "dbeaver/pro#1375 use parent provider id for correct dashboard descrip… (#18877)\n\n* dbeaver/pro#1375 use parent provider id for correct dashboard descriptor; remove unused setting\r\n\r\n* dbeaver/pro#1375 search necessary provider by dashboard provider and providers children\r\n\r\n* dbeaver/pro#1375 code style\r\n\r\n---------\r\n\r\nCo-authored-by: Serge Rider <serge@jkiss.org>",
                 "release_tag": "22.3.3",
                 "release_date": "2023-01-22 18:20:34",
                 "release_message": "\n                - SQL editor:\n                    - Output logs viewer now respects log levels and supports log search\n                    - Auto-completion for mixed case schema name was fixed\n                    - Result tabs count message was fixed\n                    - Auto-completion of cell values is now configurable\n                    - Query execute time is now populated in statistics (thanks to @bob27aggiustatutto)\n                    - Mixed-case variables resolution was fixed\n                    - Execute statistics UI was fixed (redundant info was removed)\n                    - NPEs during auto-completion were fixed\n                - Data editor:\n                    - Column name ordering in record mode was fixed\n                    - Chart type configuration added to the context menu\n                    - Issue with column focus in context menus was fixed\n                - General UI:\n                    - Database navigator now respects font size customization\n                    - Dashboard graphs now support dark themes\n                - DB2: client application name population was fixed\n                - Exasol: privileges reading was fixed for SaaS (thanks to @allipatev)\n                - MySQ:/MariaDB: schema privileges save was fixed (issue with UI refresh)\n                - Oracle: complex data types resolution was fixed for resultsets\n                - PostgreSQL:\n                    - Full backup with roles and groups is now supported\n                    - View triggers DDL was added\n                    - Procedure debugger was fixed\n                    - Issue with URL-baes connections backup was resolved\n                    - Vector data types support was fixed\n                    - Aggregate functions DDL was fixed\n                - Redshift: incorrect schemas info read in different databases was fixed\n                - Snowflake:\n                    - Java 17 support has been added\n                    - Complex DDL statements parser was improved\n                - SQL Server: procedures and functions rename was fixed\n                - Vertica: comments read can e disabled for all metadata (for performance)\n            "
