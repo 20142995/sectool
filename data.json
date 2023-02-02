@@ -89,8 +89,8 @@
             "https://github.com/maurosoria/dirsearch": {
                 "created_at": "2013-04-30 15:57:40",
                 "description": "Web path scanner",
-                "commit_date": "2023-01-29 04:49:56",
-                "commit_message": "Merge pull request #1269 from ab2pentest/patch-4\n\nAdding v2.0 and v3.0 for swagger",
+                "commit_date": "2023-02-01 17:54:42",
+                "commit_message": "Merge pull request #1275 from AkshayraviC09YC47/patch-3\n\nUpdate CONTRIBUTORS.md",
                 "release_tag": "v0.4.3",
                 "release_date": "2022-10-05 13:01:24",
                 "release_message": "- Automatically detect the URI scheme (`http` or `https`) if no scheme is provided\r\n- SQLite report format\r\n- Option to overwrite unwanted extensions with selected extensions\r\n- Option to view redirects history when following redirects\r\n- Option to crawl web paths in the responses\r\n- HTTP traffic is saved inside log file\r\n- Capability to save progress and resume later\r\n- Support client certificate\r\n- Maximum size of the log file via configuration\r\n- More accurate"
@@ -438,7 +438,7 @@
             "https://github.com/1n7erface/RequestTemplate": {
                 "created_at": "2022-04-01 17:26:22",
                 "description": "双语双端内网扫描以及验证工具",
-                "commit_date": "2022-12-01 07:55:41",
+                "commit_date": "2023-02-01 12:26:23",
                 "commit_message": "Update README.md",
                 "release_tag": "v1.1.1",
                 "release_date": "2023-01-13 07:43:44",
@@ -943,8 +943,8 @@
             "https://github.com/whwlsfb/JDumpSpider": {
                 "created_at": "2022-01-05 07:30:39",
                 "description": "HeapDump敏感信息提取工具",
-                "commit_date": "2023-01-03 08:27:35",
-                "commit_message": "add HikariDataSource.",
+                "commit_date": "2023-02-01 04:14:11",
+                "commit_message": "update readme list.",
                 "release_tag": null,
                 "release_date": "",
                 "release_message": null
@@ -1082,8 +1082,8 @@
             "https://github.com/ycdxsb/PocOrExp_in_Github": {
                 "created_at": "2021-04-13 05:46:16",
                 "description": "聚合Github上已有的Poc或者Exp，CVE信息来自CVE官网。Auto Collect Poc Or Exp from Github by CVE ID.",
-                "commit_date": "2023-02-01 00:20:02",
-                "commit_message": "update 2023-02-01 08:20:01",
+                "commit_date": "2023-02-02 00:50:44",
+                "commit_message": "update 2023-02-02 08:50:43",
                 "release_tag": null,
                 "release_date": "",
                 "release_message": null
@@ -1462,11 +1462,11 @@
             "https://github.com/f0ng/captcha-killer-modified": {
                 "created_at": "2022-03-18 12:41:58",
                 "description": "captcha-killer的修改版，支持关键词识别base64编码的图片，添加免费ocr库，用于验证码爆破，适配新版Burpsuite",
-                "commit_date": "2023-01-17 15:03:50",
-                "commit_message": "Update FAQ.md",
-                "release_tag": "0.20",
-                "release_date": "2022-12-23 14:18:52",
-                "release_message": "【2022-12-23】 0.20\r\n\r\n修复了url识别问题、爆破顺序错乱问题、响应包直接为base64编码导致爆破失败问题，感谢微信群师傅@赵 、@Kingfuke "
+                "commit_date": "2023-02-01 03:26:31",
+                "commit_message": "Update README.md",
+                "release_tag": "0.21",
+                "release_date": "2023-02-01 03:28:42",
+                "release_message": "【2023-2-1】 0.21\r\n- 增加默认验证码模板`ddddocr`，适配`codereg.py`\r\n\r\n<img width=\"675\" alt=\"image\" src=\"https://user-images.githubusercontent.com/48286013/215937694-d494a9b9-0b31-4c5c-adf8-0cb24e60f43c.png\">\r\n\r\n- 增加识别结果关键字显示，方便查看关键字是否与验证码对应\r\n<img width=\"493\" alt=\"image\" src=\"https://user-images.githubusercontent.com/48286013/215937812-f43d592e-170b-4fb0-86e4-2f34fc16bb0e.png\">\r\n"
             },
             "https://github.com/whwlsfb/BurpCrypto": {
                 "created_at": "2020-05-29 02:59:15",
@@ -1675,8 +1675,8 @@
             "https://github.com/ninoseki/mitaka": {
                 "created_at": "2018-02-09 00:13:30",
                 "description": "A browser extension for OSINT search",
-                "commit_date": "2023-01-14 02:03:19",
-                "commit_message": "docs: add hr [skip ci]",
+                "commit_date": "2023-02-01 03:39:30",
+                "commit_message": "Merge pull request #698 from zdhenard42/master\n\nAdding my extension to \"Alternatives or Similar Tools\"",
                 "release_tag": "v0.93.0",
                 "release_date": "2022-09-23 07:09:22",
                 "release_message": "- Remove deprecated search services (#690)\r\n- Add an option to disable/enable debug log(#691)"
@@ -1737,7 +1737,7 @@
             "https://github.com/ExpLangcn/NucleiTP": {
                 "created_at": "2022-11-08 13:16:56",
                 "description": "自动整合全网Nuclei的漏洞POC，实时同步更新最新POC！",
-                "commit_date": "2023-02-01 01:00:03",
+                "commit_date": "2023-02-02 01:00:03",
                 "commit_message": "更新啦❤️",
                 "release_tag": null,
                 "release_date": "",
@@ -1973,7 +1973,7 @@
             "https://github.com/AabyssZG/CRC32-Tools": {
                 "created_at": "2022-09-18 12:09:14",
                 "description": "Easy CRC32 Tools，so easy！！！",
-                "commit_date": "2023-01-30 02:04:17",
+                "commit_date": "2023-02-01 01:39:12",
                 "commit_message": "Update README.md",
                 "release_tag": "2.2",
                 "release_date": "2022-09-21 02:50:16",
@@ -2006,8 +2006,8 @@
             "https://github.com/Moxin1044/qsnctf-python": {
                 "created_at": "2023-01-01 01:56:43",
                 "description": "青少年CTF的Python包，方便大家调用一些CTF常用功能。",
-                "commit_date": "2023-01-10 07:09:34",
-                "commit_message": "update v:0.0.8.8",
+                "commit_date": "2023-02-01 12:39:22",
+                "commit_message": "update shodan Api",
                 "release_tag": null,
                 "release_date": "",
                 "release_message": null
@@ -2127,8 +2127,8 @@
             "https://github.com/pppscn/SmsForwarder": {
                 "created_at": "2021-02-10 02:23:07",
                 "description": "短信转发器——监控Android手机短信、来电、APP通知，并根据指定规则转发到其他手机：钉钉群自定义机器人、钉钉企业内机器人、企业微信群机器人、飞书机器人、企业微信应用消息、邮箱、bark、webhook、Telegram机器人、Server酱、PushPlus、手机短信等。包括主动控制服务端与客户端，让你轻松远程发短信、查短信、查通话、查话簿、查电量等。（V3.0 新增）PS.这个APK主要是学习与自用，如有BUG请提ISSUE，同时欢迎大家提PR指正",
-                "commit_date": "2023-01-30 01:12:32",
-                "commit_message": "优化：短信/通话转发获取卡槽信息机制（自行备注卡槽SubId对应）#228 #235",
+                "commit_date": "2023-02-01 03:17:14",
+                "commit_message": "精简：去除美团多渠道打包",
                 "release_tag": "v3.1.1",
                 "release_date": "2022-10-27 13:06:46",
                 "release_message": "PS. 踩着1024的尾巴，提交了3.1.0版本，迟到的程序猿节礼物！\r\n\r\n---\r\n\r\n### 【注意】\r\n* v3.x版本是全新重构开发，可能一开始并不稳定，建议升级前先做好数据备份！（客户端>一键换新机>离线模式>导出）\r\n* 从2.x升级上来耗电异常的，尝试全新安装后导入配置\r\n\r\n### 更新日志\r\n\r\n* 紧急修复：微信小程序端报错“sm4Key must not be null”\r\n* 新增：微信小程序客户端的太阳码\r\n* 新增：`HttpServer`请求/应答报文进行`国密SM4`对称加密传输 【配套`SmsF`微信小程序】\r\n* 新增：`HttpServer`请求/应答报文进行`RSA`非对称加密传输\r\n* 升级：gradle及依赖版本\r\n* 修复：远程控制发送短信时手机号不能包含国家地区代码 (#231)\r\n* 优化：允许自定义客户端与服务端时间容差，避免请求重放攻击 #227\r\n* 优化：提升发送通道多参数分隔的兼容性\r\n* 优化：Bark的消息链接支持URL Scheme #229\r\n* 优化：提升发送通道多参数分隔的兼容性\r\n* 优化：检查合法的URL时支持IPv6地址（例如：主动控制·客户端的服务地址）\r\n* 整理：更新APP通知转发的多重匹配规则示例\r\n* 新增：`webhook`发送通道增加`PUT`/`PATCH`请求方式 #206\r\n* 优化：仅当有WIFI网络时自动检查更新/获取提示\r\n* 新增：自动删除N天前的转发记录（0=禁用，触发机制：每次电量变化时扫描） #224\r\n* 优化：自动消除通知仅消除已匹配的通知 #204（临时方案，重复查询换取准确性）\r\n* 修复：通话转发卡槽信息识别错误\r\n* 精简：去掉美团多渠道打包\r\n* 升级：权限请求框架 XXPermissions\r\n* 修复：极端情况下Gson().fromJson爆空指针错误 #207\r\n* 修复：通过转发日志中重新发送短信时，{{接收时间}}错误 #218\r\n\r\n### APK版本说明：\r\n* universal: 通用版（不在乎安装包大小/懒得选就用这个版本，包含以下4种CPU架构so）\r\n* armeabi-v7a: 32位ARM设备（备用机首选）\r\n* arm64-v8a: 64位ARM设备（主流旗舰机）\r\n* x86: 32位Intel设备\r\n* x86_64: 64/32位Intel设备"
@@ -2136,8 +2136,8 @@
             "https://github.com/dbeaver/dbeaver": {
                 "created_at": "2015-10-21 08:26:28",
                 "description": "Free universal database tool and SQL client",
-                "commit_date": "2023-01-31 18:29:41",
-                "commit_message": "dbeaver/pro#1375 use parent provider id for correct dashboard descrip… (#18877)\n\n* dbeaver/pro#1375 use parent provider id for correct dashboard descriptor; remove unused setting\r\n\r\n* dbeaver/pro#1375 search necessary provider by dashboard provider and providers children\r\n\r\n* dbeaver/pro#1375 code style\r\n\r\n---------\r\n\r\nCo-authored-by: Serge Rider <serge@jkiss.org>",
+                "commit_date": "2023-02-01 19:27:48",
+                "commit_message": "#17242 Numeric value comparison fix (use `=` instead of `>=`) (#18927)",
                 "release_tag": "22.3.3",
                 "release_date": "2023-01-22 18:20:34",
                 "release_message": "\n                - SQL editor:\n                    - Output logs viewer now respects log levels and supports log search\n                    - Auto-completion for mixed case schema name was fixed\n                    - Result tabs count message was fixed\n                    - Auto-completion of cell values is now configurable\n                    - Query execute time is now populated in statistics (thanks to @bob27aggiustatutto)\n                    - Mixed-case variables resolution was fixed\n                    - Execute statistics UI was fixed (redundant info was removed)\n                    - NPEs during auto-completion were fixed\n                - Data editor:\n                    - Column name ordering in record mode was fixed\n                    - Chart type configuration added to the context menu\n                    - Issue with column focus in context menus was fixed\n                - General UI:\n                    - Database navigator now respects font size customization\n                    - Dashboard graphs now support dark themes\n                - DB2: client application name population was fixed\n                - Exasol: privileges reading was fixed for SaaS (thanks to @allipatev)\n                - MySQ:/MariaDB: schema privileges save was fixed (issue with UI refresh)\n                - Oracle: complex data types resolution was fixed for resultsets\n                - PostgreSQL:\n                    - Full backup with roles and groups is now supported\n                    - View triggers DDL was added\n                    - Procedure debugger was fixed\n                    - Issue with URL-baes connections backup was resolved\n                    - Vector data types support was fixed\n                    - Aggregate functions DDL was fixed\n                - Redshift: incorrect schemas info read in different databases was fixed\n                - Snowflake:\n                    - Java 17 support has been added\n                    - Complex DDL statements parser was improved\n                - SQL Server: procedures and functions rename was fixed\n                - Vertica: comments read can e disabled for all metadata (for performance)\n            "
