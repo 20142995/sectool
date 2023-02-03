@@ -116,8 +116,8 @@
             "https://github.com/ffuf/ffuf": {
                 "created_at": "2018-11-08 09:25:49",
                 "description": "Fast web fuzzer written in Go",
-                "commit_date": "2023-01-31 15:10:08",
-                "commit_message": "Fix jsonlines output while in silent mode (#630)",
+                "commit_date": "2023-02-02 16:16:17",
+                "commit_message": "fix: changed usage from version 1.3.0 to version 1.5.0 (#595)",
                 "release_tag": "v1.5.0",
                 "release_date": "2022-05-19 06:55:04",
                 "release_message": "## Changelog\n\n5c489ae Prepare for 1.5.0 release (#23)\n1db80d4 Do autocalibration for full path (#22)\n21a19a1 Choose between 'and' and 'or' matching and filtering (#20)\n9fa0a5d Ac rewrite\n\n"
@@ -420,8 +420,8 @@
             "https://github.com/yuyan-sec/RedisEXP": {
                 "created_at": "2022-03-19 14:41:00",
                 "description": "Redis 漏洞利用工具",
-                "commit_date": "2022-12-03 07:13:38",
-                "commit_message": "Update tools.go",
+                "commit_date": "2023-02-02 08:46:07",
+                "commit_message": "update",
                 "release_tag": null,
                 "release_date": "",
                 "release_message": null
@@ -943,8 +943,8 @@
             "https://github.com/whwlsfb/JDumpSpider": {
                 "created_at": "2022-01-05 07:30:39",
                 "description": "HeapDump敏感信息提取工具",
-                "commit_date": "2023-02-01 04:14:11",
-                "commit_message": "update readme list.",
+                "commit_date": "2023-02-02 02:36:25",
+                "commit_message": "add SpringSecurityUsernamePasswordAuthenticationToken spider.",
                 "release_tag": null,
                 "release_date": "",
                 "release_message": null
@@ -1082,8 +1082,8 @@
             "https://github.com/ycdxsb/PocOrExp_in_Github": {
                 "created_at": "2021-04-13 05:46:16",
                 "description": "聚合Github上已有的Poc或者Exp，CVE信息来自CVE官网。Auto Collect Poc Or Exp from Github by CVE ID.",
-                "commit_date": "2023-02-02 00:50:44",
-                "commit_message": "update 2023-02-02 08:50:43",
+                "commit_date": "2023-02-03 00:52:04",
+                "commit_message": "update 2023-02-03 08:52:03",
                 "release_tag": null,
                 "release_date": "",
                 "release_message": null
@@ -1462,8 +1462,8 @@
             "https://github.com/f0ng/captcha-killer-modified": {
                 "created_at": "2022-03-18 12:41:58",
                 "description": "captcha-killer的修改版，支持关键词识别base64编码的图片，添加免费ocr库，用于验证码爆破，适配新版Burpsuite",
-                "commit_date": "2023-02-01 03:26:31",
-                "commit_message": "Update README.md",
+                "commit_date": "2023-02-02 14:01:28",
+                "commit_message": "Update FAQ.md",
                 "release_tag": "0.21",
                 "release_date": "2023-02-01 03:28:42",
                 "release_message": "【2023-2-1】 0.21\r\n- 增加默认验证码模板`ddddocr`，适配`codereg.py`\r\n\r\n<img width=\"675\" alt=\"image\" src=\"https://user-images.githubusercontent.com/48286013/215937694-d494a9b9-0b31-4c5c-adf8-0cb24e60f43c.png\">\r\n\r\n- 增加识别结果关键字显示，方便查看关键字是否与验证码对应\r\n<img width=\"493\" alt=\"image\" src=\"https://user-images.githubusercontent.com/48286013/215937812-f43d592e-170b-4fb0-86e4-2f34fc16bb0e.png\">\r\n"
@@ -1675,8 +1675,8 @@
             "https://github.com/ninoseki/mitaka": {
                 "created_at": "2018-02-09 00:13:30",
                 "description": "A browser extension for OSINT search",
-                "commit_date": "2023-02-01 03:39:30",
-                "commit_message": "Merge pull request #698 from zdhenard42/master\n\nAdding my extension to \"Alternatives or Similar Tools\"",
+                "commit_date": "2023-02-02 06:50:04",
+                "commit_message": "Merge pull request #694 from ninoseki/renovate/typescript-eslint-monorepo\n\nchore(deps): update typescript-eslint monorepo to v5.44.0",
                 "release_tag": "v0.93.0",
                 "release_date": "2022-09-23 07:09:22",
                 "release_message": "- Remove deprecated search services (#690)\r\n- Add an option to disable/enable debug log(#691)"
@@ -1737,7 +1737,7 @@
             "https://github.com/ExpLangcn/NucleiTP": {
                 "created_at": "2022-11-08 13:16:56",
                 "description": "自动整合全网Nuclei的漏洞POC，实时同步更新最新POC！",
-                "commit_date": "2023-02-02 01:00:03",
+                "commit_date": "2023-02-03 01:00:03",
                 "commit_message": "更新啦❤️",
                 "release_tag": null,
                 "release_date": "",
@@ -2006,8 +2006,8 @@
             "https://github.com/Moxin1044/qsnctf-python": {
                 "created_at": "2023-01-01 01:56:43",
                 "description": "青少年CTF的Python包，方便大家调用一些CTF常用功能。",
-                "commit_date": "2023-02-01 12:39:22",
-                "commit_message": "update shodan Api",
+                "commit_date": "2023-02-02 10:18:31",
+                "commit_message": "update readme",
                 "release_tag": null,
                 "release_date": "",
                 "release_message": null
