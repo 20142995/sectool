@@ -1,8 +1,9 @@
-# 更新于 2023-02-03 09:08:41
+# 更新于 2023-02-04 09:03:40
 
 ## 近30天release更新记录
 | 更新时间 | 项目名称 | 版本 | 更新内容 |
 | :---- | :---- | :---- | :---- |
+|2023-02-03 10:17:50|[passive-scan-client](https://github.com/c0ny1/passive-scan-client)|0.3.1|1. 添加url黑明单2. 添加右键Send to Pass<br>ive Scan Client手动转发thx @i11us0ry |
 |2023-02-01 03:28:42|[captcha-killer-modi<br>fied](https://github.com/f0ng/captcha-killer-modified)|0.21|【2023-2-1】 0.21- 增加默认验证码模板dd<br>ddocr，适配codereg.py- 增加识别结果关键<br>字显示，方便查看关键字是否与验证码对应|
 |2023-01-30 08:25:35|[railgun](https://github.com/lz520520/railgun)|v1.5.2|解压密码railgun1. 增加gRPC模式，扩展ser<br>ver端a. 实现了dnslog，通过客户端可直接管<br>理server，并做了一些优化。b. 实现了UDP/TC<br>P的socket反连，通过不同伪装头部来过滤。c<br>. 实现了ICMP反连，通过发送特定长度的ping<br>包来过滤。d. 实现HTTP/HTTPS serverⅰ. HTT<br>P LOG1. 增加http 完整请求包记录ⅱ. 任意<br>内容和大文件下载ⅲ. 扩展服务配置参数，并<br>添加已启动服务信息单独查看窗口。e. gRPC完<br>成tls双向认证f. 增加鉴权，目前只设置管理<br>员和普通用户。g. 历史搜索里，增加查询服务<br>端数据库，目前暂定管理员可查（迁移至gRPC<br>模块）。h. 增加单独gRPC模块，可用于gRPC的<br>设置、用户管理以及历史搜索。2. 编码转换a.<br> 将https://github.com/lz520520/encrypt-j<br>s 合入，通过Dict2ConsoleJS和ConsoleExtra<br>ctEncryptPwd两种编码来实现|
 |2023-01-24 19:34:39|[nuclei](https://github.com/projectdiscovery/nuclei)|v2.8.8|## What's Changed* **Fixed url encoding<br> issues by @tarunKoyalwar** in https://g<br>ithub.com/projectdiscovery/nuclei/pull/3<br>211* **Fixed host spray race condition b<br>y @tarunKoyalwar** in https://github.com<br>/projectdiscovery/nuclei/pull/3213* Fixe<br>d panic crash with non-existent target i<br>nput by @Ice3man543 in https://github.co<br>m/projectdiscovery/nuclei/pull/3205* Fix<br>ed aws signer missing template variables<br> by @tarunKoyalwar in https://github.com<br>/projectdiscovery/nuclei/pull/3206* **Ad<br>ded clustering support for DNS templates<br> by @Ice3man543** in https://github.com/<br>projectdiscovery/nuclei/pull/3204* **Add<br>ed clustering support for TLS templates <br>by @Ice3man543** in https://github.com/p<br>rojectdiscovery/nuclei/pull/3209* Added <br>support for -no-mhe option by @Mzack9999<br> in https://github.com/projectdiscovery/<br>nuclei/pull/3219Issues closed in release<br> - https://github.com/projectdiscovery/n<br>uclei/milestone/25?closed=1## New Contri<br>butors* @AndreAngelucci made their first<br> contribution in https://github.com/proj<br>ectdiscovery/nuclei/pull/3214**Full Chan<br>gelog**: https://github.com/projectdisco<br>very/nuclei/compare/v2.8.7...v2.8.8|
@@ -22,20 +23,21 @@
 ## 近30天commit提交记录
 | 提交时间 | 项目名称 | 更新内容 |
 | :---- | :---- | :---- |
-|2023-02-03 01:00:03|[NucleiTP](https://github.com/ExpLangcn/NucleiTP)|更新啦❤️|
-|2023-02-03 00:52:04|[PocOrExp_in_Github](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-02-03 08:52:03|
-|2023-02-02 16:16:17|[ffuf](https://github.com/ffuf/ffuf)|fix: changed usage from version 1.3.0 to version 1.5.0<br> (#595)|
-|2023-02-02 14:01:28|[captcha-killer-modi<br>fied](https://github.com/f0ng/captcha-killer-modified)|Update FAQ.md|
-|2023-02-02 10:18:31|[qsnctf-python](https://github.com/Moxin1044/qsnctf-python)|update readme|
+|2023-02-04 01:00:03|[NucleiTP](https://github.com/ExpLangcn/NucleiTP)|更新啦❤️|
+|2023-02-04 00:24:58|[PocOrExp_in_Github](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-02-04 08:24:58|
+|2023-02-03 16:09:26|[qsnctf-python](https://github.com/Moxin1044/qsnctf-python)|fix api.py 421|
+|2023-02-03 10:23:58|[URLFinder](https://github.com/pingc0y/URLFinder)|2023/2/3更新|
+|2023-02-03 10:10:16|[passive-scan-client](https://github.com/c0ny1/passive-scan-client)|恢复默认端口和整理代码符合低版本语法糖|
+|2023-02-03 10:05:05|[dbeaver](https://github.com/dbeaver/dbeaver)|Row paste in empty table fix|
+|2023-02-03 07:09:29|[ffuf](https://github.com/ffuf/ffuf)|Added additional proxy URL verification (#574)* Added <br>additional proxy URL verification* Update pkg/ffuf/opti<br>onsparser.goCo-authored-by: Joona Hoikkala---------Co-a<br>uthored-by: Joona Hoikkala |
+|2023-02-03 05:08:20|[captcha-killer-modi<br>fied](https://github.com/f0ng/captcha-killer-modified)|Update FAQ.md|
 |2023-02-02 08:46:07|[RedisEXP](https://github.com/yuyan-sec/RedisEXP)|update|
 |2023-02-02 06:50:04|[mitaka](https://github.com/ninoseki/mitaka)|Merge pull request #694 from ninoseki/renovate/typescr<br>ipt-eslint-monorepochore(deps): update typescript-eslin<br>t monorepo to v5.44.0|
 |2023-02-02 02:36:25|[JDumpSpider](https://github.com/whwlsfb/JDumpSpider)|add SpringSecurityUsernamePasswordAuthenticationToken <br>spider.|
-|2023-02-01 19:27:48|[dbeaver](https://github.com/dbeaver/dbeaver)|#17242 Numeric value comparison fix (use = instead of <br>>=) (#18927)|
 |2023-02-01 17:54:42|[dirsearch](https://github.com/maurosoria/dirsearch)|Merge pull request #1275 from AkshayraviC09YC47/patch-<br>3Update CONTRIBUTORS.md|
 |2023-02-01 12:26:23|[RequestTemplate](https://github.com/1n7erface/RequestTemplate)|Update README.md|
 |2023-02-01 03:17:14|[SmsForwarder](https://github.com/pppscn/SmsForwarder)|精简：去除美团多渠道打包|
 |2023-02-01 01:39:12|[CRC32-Tools](https://github.com/AabyssZG/CRC32-Tools)|Update README.md|
-|2023-01-30 10:19:18|[URLFinder](https://github.com/pingc0y/URLFinder)|Update README.md|
 |2023-01-30 07:49:55|[super-xray](https://github.com/4ra1n/super-xray)|#142|
 |2023-01-30 03:38:57|[404StarLink](https://github.com/knownsec/404StarLink)|weekly update at 2023-01-30|
 |2023-01-28 14:34:26|[RouteVulScan](https://github.com/F6JO/RouteVulScan)|Update README.md|
@@ -308,7 +310,7 @@
 | [HostHeaderAttack](https://github.com/weujieytt/HostHeaderAttack) | 0.1 | 检测host头攻击的Burpsuite被动扫描插件，Burpsuite passive scannin<br>g plugin responsible for detecting host header attack |
 | [knife](https://github.com/bit4woo/knife) | v2.1 | A burp extension that add some useful function toContext Menu 添<br>加一些右键菜单让burp用起来更顺畅 |
 | [log4j2burpscanner](https://github.com/f0ng/log4j2burpscanner) | 0.21.0 | CVE-2021-44228 Log4j2 BurpSuite Scanner,Customize ceye.io api or<br> other apis,including internal networks |
-| [passive-scan-client](https://github.com/c0ny1/passive-scan-client) | 0.3.0 | Burp被动扫描流量转发插件 |
+| [passive-scan-client](https://github.com/c0ny1/passive-scan-client) | 0.3.1 | Burp被动扫描流量转发插件 |
 | [BpScan](https://github.com/EASY233/BpScan) | 1.0.0 | 一款用于辅助渗透测试工程师日常渗透测试的Burp被动漏扫插件 |
 | [BurpSuiteCn](https://github.com/funkyoummp/BurpSuiteCn) | V2.0 | Burp Suite汉化 中文 |
 #### xray

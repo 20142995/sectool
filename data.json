@@ -98,8 +98,8 @@
             "https://github.com/pingc0y/URLFinder": {
                 "created_at": "2022-06-06 10:17:00",
                 "description": "类似JSFinder的golang实现，一款用于快速提取检测页面中JS与URL的工具，更快更全更舒服",
-                "commit_date": "2023-01-30 10:19:18",
-                "commit_message": "Update README.md",
+                "commit_date": "2023-02-03 10:23:58",
+                "commit_message": "2023/2/3更新",
                 "release_tag": null,
                 "release_date": "",
                 "release_message": null
@@ -116,8 +116,8 @@
             "https://github.com/ffuf/ffuf": {
                 "created_at": "2018-11-08 09:25:49",
                 "description": "Fast web fuzzer written in Go",
-                "commit_date": "2023-02-02 16:16:17",
-                "commit_message": "fix: changed usage from version 1.3.0 to version 1.5.0 (#595)",
+                "commit_date": "2023-02-03 07:09:29",
+                "commit_message": "Added additional proxy URL verification (#574)\n\n* Added additional proxy URL verification\r\n\r\n* Update pkg/ffuf/optionsparser.go\r\n\r\nCo-authored-by: Joona Hoikkala <joohoi@users.noreply.github.com>\r\n\r\n---------\r\n\r\nCo-authored-by: Joona Hoikkala <joohoi@users.noreply.github.com>",
                 "release_tag": "v1.5.0",
                 "release_date": "2022-05-19 06:55:04",
                 "release_message": "## Changelog\n\n5c489ae Prepare for 1.5.0 release (#23)\n1db80d4 Do autocalibration for full path (#22)\n21a19a1 Choose between 'and' and 'or' matching and filtering (#20)\n9fa0a5d Ac rewrite\n\n"
@@ -1082,8 +1082,8 @@
             "https://github.com/ycdxsb/PocOrExp_in_Github": {
                 "created_at": "2021-04-13 05:46:16",
                 "description": "聚合Github上已有的Poc或者Exp，CVE信息来自CVE官网。Auto Collect Poc Or Exp from Github by CVE ID.",
-                "commit_date": "2023-02-03 00:52:04",
-                "commit_message": "update 2023-02-03 08:52:03",
+                "commit_date": "2023-02-04 00:24:58",
+                "commit_message": "update 2023-02-04 08:24:58",
                 "release_tag": null,
                 "release_date": "",
                 "release_message": null
@@ -1462,7 +1462,7 @@
             "https://github.com/f0ng/captcha-killer-modified": {
                 "created_at": "2022-03-18 12:41:58",
                 "description": "captcha-killer的修改版，支持关键词识别base64编码的图片，添加免费ocr库，用于验证码爆破，适配新版Burpsuite",
-                "commit_date": "2023-02-02 14:01:28",
+                "commit_date": "2023-02-03 05:08:20",
                 "commit_message": "Update FAQ.md",
                 "release_tag": "0.21",
                 "release_date": "2023-02-01 03:28:42",
@@ -1570,11 +1570,11 @@
             "https://github.com/c0ny1/passive-scan-client": {
                 "created_at": "2019-08-08 01:01:28",
                 "description": "Burp被动扫描流量转发插件",
-                "commit_date": "2021-07-28 03:44:25",
-                "commit_message": "升级版本到0.3.0",
-                "release_tag": "0.3.0",
-                "release_date": "2021-07-28 03:46:18",
-                "release_message": "1. 增加请求转发间隔时间 (thx @gh0stkey)\r\n2. Update the regex pattern for Domain filter (thx @Danyang Song)\r\n3. fixed a bug about the handle of GET request (thx @podm1n)"
+                "commit_date": "2023-02-03 10:10:16",
+                "commit_message": "恢复默认端口和整理代码符合低版本语法糖",
+                "release_tag": "0.3.1",
+                "release_date": "2023-02-03 10:17:50",
+                "release_message": "1. 添加url黑明单\r\n2. 添加右键`Send to Passive Scan Client`手动转发\r\n\r\nthx @i11us0ry "
             },
             "https://github.com/EASY233/BpScan": {
                 "created_at": "2022-11-23 03:47:41",
@@ -1737,7 +1737,7 @@
             "https://github.com/ExpLangcn/NucleiTP": {
                 "created_at": "2022-11-08 13:16:56",
                 "description": "自动整合全网Nuclei的漏洞POC，实时同步更新最新POC！",
-                "commit_date": "2023-02-03 01:00:03",
+                "commit_date": "2023-02-04 01:00:03",
                 "commit_message": "更新啦❤️",
                 "release_tag": null,
                 "release_date": "",
@@ -2006,8 +2006,8 @@
             "https://github.com/Moxin1044/qsnctf-python": {
                 "created_at": "2023-01-01 01:56:43",
                 "description": "青少年CTF的Python包，方便大家调用一些CTF常用功能。",
-                "commit_date": "2023-02-02 10:18:31",
-                "commit_message": "update readme",
+                "commit_date": "2023-02-03 16:09:26",
+                "commit_message": "fix api.py 421",
                 "release_tag": null,
                 "release_date": "",
                 "release_message": null
@@ -2136,8 +2136,8 @@
             "https://github.com/dbeaver/dbeaver": {
                 "created_at": "2015-10-21 08:26:28",
                 "description": "Free universal database tool and SQL client",
-                "commit_date": "2023-02-01 19:27:48",
-                "commit_message": "#17242 Numeric value comparison fix (use `=` instead of `>=`) (#18927)",
+                "commit_date": "2023-02-03 10:05:05",
+                "commit_message": "Row paste in empty table fix",
                 "release_tag": "22.3.3",
                 "release_date": "2023-01-22 18:20:34",
                 "release_message": "\n                - SQL editor:\n                    - Output logs viewer now respects log levels and supports log search\n                    - Auto-completion for mixed case schema name was fixed\n                    - Result tabs count message was fixed\n                    - Auto-completion of cell values is now configurable\n                    - Query execute time is now populated in statistics (thanks to @bob27aggiustatutto)\n                    - Mixed-case variables resolution was fixed\n                    - Execute statistics UI was fixed (redundant info was removed)\n                    - NPEs during auto-completion were fixed\n                - Data editor:\n                    - Column name ordering in record mode was fixed\n                    - Chart type configuration added to the context menu\n                    - Issue with column focus in context menus was fixed\n                - General UI:\n                    - Database navigator now respects font size customization\n                    - Dashboard graphs now support dark themes\n                - DB2: client application name population was fixed\n                - Exasol: privileges reading was fixed for SaaS (thanks to @allipatev)\n                - MySQ:/MariaDB: schema privileges save was fixed (issue with UI refresh)\n                - Oracle: complex data types resolution was fixed for resultsets\n                - PostgreSQL:\n                    - Full backup with roles and groups is now supported\n                    - View triggers DDL was added\n                    - Procedure debugger was fixed\n                    - Issue with URL-baes connections backup was resolved\n                    - Vector data types support was fixed\n                    - Aggregate functions DDL was fixed\n                - Redshift: incorrect schemas info read in different databases was fixed\n                - Snowflake:\n                    - Java 17 support has been added\n                    - Complex DDL statements parser was improved\n                - SQL Server: procedures and functions rename was fixed\n                - Vertica: comments read can e disabled for all metadata (for performance)\n            "
