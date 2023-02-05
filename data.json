@@ -98,11 +98,11 @@
             "https://github.com/pingc0y/URLFinder": {
                 "created_at": "2022-06-06 10:17:00",
                 "description": "类似JSFinder的golang实现，一款用于快速提取检测页面中JS与URL的工具，更快更全更舒服",
-                "commit_date": "2023-02-03 10:23:58",
-                "commit_message": "2023/2/3更新",
-                "release_tag": null,
-                "release_date": "",
-                "release_message": null
+                "commit_date": "2023-02-04 08:56:24",
+                "commit_message": "Delete URLFinder-linux-amd64",
+                "release_tag": "2023.2.3",
+                "release_date": "2023-02-04 08:54:47",
+                "release_message": "## 2023/2/3 更新\r\n\r\n新增 域名信息展示  \r\n变化 -i配置文件可配置抓取规则等  "
             },
             "https://github.com/epi052/feroxbuster": {
                 "created_at": "2020-08-22 15:36:19",
@@ -116,11 +116,11 @@
             "https://github.com/ffuf/ffuf": {
                 "created_at": "2018-11-08 09:25:49",
                 "description": "Fast web fuzzer written in Go",
-                "commit_date": "2023-02-03 07:09:29",
-                "commit_message": "Added additional proxy URL verification (#574)\n\n* Added additional proxy URL verification\r\n\r\n* Update pkg/ffuf/optionsparser.go\r\n\r\nCo-authored-by: Joona Hoikkala <joohoi@users.noreply.github.com>\r\n\r\n---------\r\n\r\nCo-authored-by: Joona Hoikkala <joohoi@users.noreply.github.com>",
-                "release_tag": "v1.5.0",
-                "release_date": "2022-05-19 06:55:04",
-                "release_message": "## Changelog\n\n5c489ae Prepare for 1.5.0 release (#23)\n1db80d4 Do autocalibration for full path (#22)\n21a19a1 Choose between 'and' and 'or' matching and filtering (#20)\n9fa0a5d Ac rewrite\n\n"
+                "commit_date": "2023-02-04 13:06:35",
+                "commit_message": "Prepare for v2.0 release (#635)",
+                "release_tag": "v2.0.0",
+                "release_date": "2023-02-04 13:58:25",
+                "release_message": "## Changelog\n* 77cc45c Prepare for v2.0 release (#635)\n* c7d0fb5 Gracefully error in case stdin is used for search result (#634)\n* 643f6b8 Scraper functionality (#633)\n* 39c8934 Added additional proxy URL verification (#574)\n* bbb97ab Typo fix (#581)\n* 3b219f2 fix: changed usage from version 1.3.0 to version 1.5.0 (#595)\n* 633893c Change precedence of quiet and JSON output to favour JSON (#570)\n* 0236210 Add homebrew install method (#552)\n* 7bff9e7 Fix time-based matcher (#575)\n* ebb4c44 Sniper template parsing - fixes #579 (#580)\n* 9bddff7 New functionality to map fired blind payloads back to the initial request (#632)\n* b7adc50 Fix jsonlines output while in silent mode (#630)\n* 2ce2217 Enhanced rate limiting (#620)\n* 1a684a9 Fix the ac for good now (#615)\n* 3328a28 Fix linter workflow and autocalibration for lines & words match (#614)\n\n"
             },
             "https://github.com/H4ckForJob/dirmap": {
                 "created_at": "2019-04-11 12:10:16",
@@ -299,11 +299,11 @@
             "https://github.com/zan8in/afrog": {
                 "created_at": "2022-02-24 06:00:32",
                 "description": "A Vulnerability Scanning Tools For Penetration Testing",
-                "commit_date": "2023-01-21 02:08:18",
-                "commit_message": "Merge pull request #45 from mawangyejizhiyan/main\n\ncve-2022",
-                "release_tag": "v2.2.0",
-                "release_date": "2023-01-06 10:04:24",
-                "release_message": "Added optional -onlyfinger/-of option for fingerprint scan only\r\nAdded CEL function ` year`、`shortyear`、`month`、`day `、`timestamp_sencond`, eg: `tongda-oa-api-ali-upload.yaml`\r\nAdded Boolean type attribute `verified` , default false, verified PoC is true\r\nAdded rule attribute `expressions` , a request to verify multiple rules"
+                "commit_date": "2023-02-04 15:13:48",
+                "commit_message": "update mod",
+                "release_tag": "v2.2.1",
+                "release_date": "2023-02-04 14:54:34",
+                "release_message": "Merge many fingerprint pocs into the panel-detect.yaml file to reduce the number of http requests\r\nConsole  print date format, 2023-01-01 changed to 01-01\r\nSimplified afrog-config configuration\r\n\r\nFixed: invalid `-fc` configuration\r\nTip: Configure the `-c` command, which can increase the concurrency speed very quickly\r\n\r\n-----------------------------------------------------------------------------\r\n\r\n将多个 panel 指纹探测合并到文件 panel-detect.yaml，大幅减少 http 请求\r\n精简控制台日期打印，2023-01-01 改为 01-01\r\n精简 afrog-config 配置信息\r\n\r\n解决：`-fc` 命令配置无效问题\r\n提示：配置 `-c` 命令能明显提高扫描速度"
             },
             "https://github.com/zhzyker/vulmap": {
                 "created_at": "2020-10-09 06:34:36",
@@ -1082,8 +1082,8 @@
             "https://github.com/ycdxsb/PocOrExp_in_Github": {
                 "created_at": "2021-04-13 05:46:16",
                 "description": "聚合Github上已有的Poc或者Exp，CVE信息来自CVE官网。Auto Collect Poc Or Exp from Github by CVE ID.",
-                "commit_date": "2023-02-04 00:24:58",
-                "commit_message": "update 2023-02-04 08:24:58",
+                "commit_date": "2023-02-05 00:25:59",
+                "commit_message": "update 2023-02-05 08:25:59",
                 "release_tag": null,
                 "release_date": "",
                 "release_message": null
@@ -1372,11 +1372,11 @@
             "https://github.com/F6JO/RouteVulScan": {
                 "created_at": "2022-06-01 07:07:38",
                 "description": "Burpsuite - Route Vulnerable Scanning 递归式被动检测脆弱路径的burp插件",
-                "commit_date": "2023-01-28 14:34:26",
-                "commit_message": "Update README.md",
+                "commit_date": "2023-02-04 14:36:48",
+                "commit_message": "update 1.4",
                 "release_tag": "RouteVulScan1.4",
                 "release_date": "2023-01-08 08:33:50",
-                "release_message": "2023-01-08 修改在线更新为追加而不是覆盖\r\n2023-01-08 将主域和子域当作第一层路径默认扫描"
+                "release_message": "2023-01-08 修改在线更新为追加而不是覆盖\r\n2023-01-08 将主域和子域当作第一层路径默认扫描\r\n2023-02-04 添加bypass功能"
             },
             "https://github.com/metaStor/SpringScan": {
                 "created_at": "2022-04-09 04:51:10",
@@ -1737,7 +1737,7 @@
             "https://github.com/ExpLangcn/NucleiTP": {
                 "created_at": "2022-11-08 13:16:56",
                 "description": "自动整合全网Nuclei的漏洞POC，实时同步更新最新POC！",
-                "commit_date": "2023-02-04 01:00:03",
+                "commit_date": "2023-02-05 01:00:03",
                 "commit_message": "更新啦❤️",
                 "release_tag": null,
                 "release_date": "",

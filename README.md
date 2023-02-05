@@ -1,8 +1,26 @@
-# 更新于 2023-02-04 09:03:40
+# 更新于 2023-02-05 09:10:37
 
 ## 近30天release更新记录
 | 更新时间 | 项目名称 | 版本 | 更新内容 |
 | :---- | :---- | :---- | :---- |
+|2023-02-04 14:54:34|[afrog](https://github.com/zan8in/afrog)|v2.2.1|Merge many fingerprint pocs into the pa<br>nel-detect.yaml file to reduce the numbe<br>r of http requestsConsoleprint date form<br>at, 2023-01-01 changed to 01-01Simplifie<br>d afrog-config configurationFixed: inval<br>id -fc configurationTip: Configure the -<br>c command, which can increase the concur<br>rency speed very quickly----------------<br>----------------------------------------<br>---------------------将多个 panel 指纹探<br>测合并到文件 panel-detect.yaml，大幅减少 <br>http 请求精简控制台日期打印，2023-01-01 <br>改为 01-01精简 afrog-config 配置信息解决<br>：-fc 命令配置无效问题提示：配置 -c 命令<br>能明显提高扫描速度|
+|2023-02-04 13:58:25|[ffuf](https://github.com/ffuf/ffuf)|v2.0.0|## Changelog
+* 77cc45c Prepare for v2.0<br> release (#635)
+* c7d0fb5 Gracefully err<br>or in case stdin is used for search resu<br>lt (#634)
+* 643f6b8 Scraper functionalit<br>y (#633)
+* 39c8934 Added additional prox<br>y URL verification (#574)
+* bbb97ab Typo<br> fix (#581)
+* 3b219f2 fix: changed usage<br> from version 1.3.0 to version 1.5.0 (#5<br>95)
+* 633893c Change precedence of quiet<br> and JSON output to favour JSON (#570)
+*<br> 0236210 Add homebrew install method (#5<br>52)
+* 7bff9e7 Fix time-based matcher (#5<br>75)
+* ebb4c44 Sniper template parsing - <br>fixes #579 (#580)
+* 9bddff7 New function<br>ality to map fired blind payloads back t<br>o the initial request (#632)
+* b7adc50 F<br>ix jsonlines output while in silent mode<br> (#630)
+* 2ce2217 Enhanced rate limiting<br> (#620)
+* 1a684a9 Fix the ac for good no<br>w (#615)
+* 3328a28 Fix linter workflow a<br>nd autocalibration for lines & words mat<br>ch (#614)|
+|2023-02-04 08:54:47|[URLFinder](https://github.com/pingc0y/URLFinder)|2023.2.3|## 2023/2/3 更新新增 域名信息展示变化 -<br>i配置文件可配置抓取规则等|
 |2023-02-03 10:17:50|[passive-scan-client](https://github.com/c0ny1/passive-scan-client)|0.3.1|1. 添加url黑明单2. 添加右键Send to Pass<br>ive Scan Client手动转发thx @i11us0ry |
 |2023-02-01 03:28:42|[captcha-killer-modi<br>fied](https://github.com/f0ng/captcha-killer-modified)|0.21|【2023-2-1】 0.21- 增加默认验证码模板dd<br>ddocr，适配codereg.py- 增加识别结果关键<br>字显示，方便查看关键字是否与验证码对应|
 |2023-01-30 08:25:35|[railgun](https://github.com/lz520520/railgun)|v1.5.2|解压密码railgun1. 增加gRPC模式，扩展ser<br>ver端a. 实现了dnslog，通过客户端可直接管<br>理server，并做了一些优化。b. 实现了UDP/TC<br>P的socket反连，通过不同伪装头部来过滤。c<br>. 实现了ICMP反连，通过发送特定长度的ping<br>包来过滤。d. 实现HTTP/HTTPS serverⅰ. HTT<br>P LOG1. 增加http 完整请求包记录ⅱ. 任意<br>内容和大文件下载ⅲ. 扩展服务配置参数，并<br>添加已启动服务信息单独查看窗口。e. gRPC完<br>成tls双向认证f. 增加鉴权，目前只设置管理<br>员和普通用户。g. 历史搜索里，增加查询服务<br>端数据库，目前暂定管理员可查（迁移至gRPC<br>模块）。h. 增加单独gRPC模块，可用于gRPC的<br>设置、用户管理以及历史搜索。2. 编码转换a.<br> 将https://github.com/lz520520/encrypt-j<br>s 合入，通过Dict2ConsoleJS和ConsoleExtra<br>ctEncryptPwd两种编码来实现|
@@ -16,20 +34,20 @@
 |2023-01-10 07:36:28|[NessusToReport](https://github.com/Hypdncy/NessusToReport)|v1.1.1||
 |2023-01-10 07:30:58|[xray](https://github.com/chaitin/xray)|1.9.4|# 更新内容## 插件更新1. 添加[XStream扫<br>描插件](https://docs.xray.cool/#/configra<br>tion/plugins?id=xstream)，支持列表如下（<br>该插件需开启反连平台）- CVE-2021-21344- C<br>VE-2021-21345- CVE-2021-39141- CVE-2021-<br>39144- ...(共29个插件)2. fastjson插件支<br>持cve-2022-25845的检测## POC编写/执行更新<br>1. 新增警告信息，师傅们可以根据警告信息<br>删除检测插件创建的文件等2. 支持在GET，HEA<br>D，OPTION时添加body3. 添加[compare versi<br>on](https://docs.xray.cool/#/guide/poc/f<br>unc?id=版本)函数，可以对匹配出的版本进行<br>对比4. 添加[html实体编码](https://docs.xr<br>ay.cool/#/guide/poc/example/encode/htmlE<br>scape)/[解码](https://docs.xray.cool/#/g<br>uide/poc/example/encode/htmlUnescape)函<br>数5. 添加[java反序列化函数](https://docs.<br>xray.cool/#/guide/poc/example/ysoGadget/<br>javaGadget)6. 添加[hex](https://docs.xra<br>y.cool/#/guide/poc/example/encode/hex)/[<br>hexDecode](https://docs.xray.cool/#/guid<br>e/poc/example/encode/hexDecode)函数## 优<br>化内容1. 优化了反连平台漏洞捕获逻辑，提高<br>了命中率2. 优化了 poc lint 变得更人性化3.<br> yaml脚本支持获取rmi反连平台的链接，具体<br>使用请参考官方文档4. 优化了Struts2检测模<br>块，添加反连确认，减少误报漏报## 修复POC#<br>## 规则优化，规则弱poc-yaml-drawio-cve-2<br>022-1713-ssrfpoc-yaml-h3c-cvm-upload-fil<br>e-uploadpoc-yaml-iis-cve-2017-7269poc-ya<br>ml-74cms-sqli-cve-2020-22209poc-yaml-rep<br>orter-file-readpoc-yaml-wanhu-ezoffice-d<br>ocumentedit-sqlipoc-yaml-joomla-cve-2017<br>-8917-sqlipoc-yaml-iis-cve-2017-7269poc-<br>yaml-emerge-e3-cve-2019-7256poc-yaml-ali<br>baba-nacos-v1-auth-bypasspoc-yaml-wanhu-<br>ezoffice-documentedit-sqlipoc-yaml-magic<br>flow-gateway-main-xp-file-readpoc-yaml-g<br>itblit-cve-2022-31268poc-yaml-phpstudy-n<br>ginx-wrong-resolvepoc-yaml-confluence-cv<br>e-2022-26138poc-yaml-metinfo-lfi-cnvd-20<br>18-13393poc-yaml-zabbix-cve-2019-17382po<br>c-yaml-wordpress-paypal-pro-cve-2020-140<br>92-sqlipoc-yaml-vite-cnvd-2022-44615poc-<br>yaml-phpmyadmin-cve-2018-12613-file-incl<br>usionpoc-yaml-zabbix-cve-2022-23134poc-y<br>aml-ametys-cms-cve-2022-26159### 优化删<br>除（功能与xray的通用插件重复）poc-yaml-ne<br>xusdb-cve-2020-24571-path-traversalpoc-y<br>aml-specoweb-cve-2021-32572-filereadpoc-<br>yaml-tvt-nvms-1000-file-read-cve-2019-20<br>085poc-yaml-zyxel-vmg1312-b10d-cve-2018-<br>19326-path-traversal### 新增无害化处理po<br>c-yaml-fanruan-v9-file-uploadpoc-yaml-h3<br>c-cvm-upload-file-uploadpoc-yaml-seeyon-<br>unauthorized-fileuploadpoc-yaml-thinkcmf<br>-write-shellpoc-yaml-wanhu-oa-officeserv<br>er-file-uploadpoc-yaml-weaver-oa-workrel<br>ate-file-uploadpoc-yaml-yonyou-grp-u8-fi<br>le-uploadpoc-yaml-yonyou-nc-file-accept-<br>uploadpoc-yaml-yonyou-u8c-file-uploadpoc<br>-yaml-zhiyuan-oa-wpsassistservlet-file-u<br>pload## 新增POC 96个poc-yaml-ruijie-file<br>upload-fileupload-rcepoc-yaml-eweaver-oa<br>-mecadminaction-sqlexecpoc-yaml-xxl-job-<br>default-passwordpoc-yaml-wordpress-plugi<br>n-superstorefinder-ssf-social-action-php<br>-sqlipoc-yaml-magento-config-disclosure-<br>info-leakpoc-yaml-ukefu-cnvd-2021-18305-<br>file-readpoc-yaml-ukefu-cnvd-2021-18303-<br>ssrfpoc-yaml-eweaver-eoffice-mainselect-<br>info-leakpoc-yaml-linksys-cnvd-2014-0126<br>0poc-yaml-wordpress-welcart-ecommerce-cv<br>e-2022-41840-path-traversalpoc-yaml-jees<br>ite-userfiles-path-traversalpoc-yaml-yon<br>gyou-nc-iupdateservice-xxepoc-yaml-v-sol<br>-olt-platform-unauth-config-downloadpoc-<br>yaml-ibm-websphere-portal-hcl-cve-2021-2<br>7748-ssrfpoc-yaml-yonyou-nc-uapws-db-inf<br>o-leakpoc-yaml-yonyou-nc-service-info-le<br>akpoc-yaml-yongyou-nc-cloud-fs-sqlipoc-y<br>aml-finecms-filedownloadpoc-yaml-weaver-<br>eoffice-userselect-unauthpoc-yaml-fortin<br>et-cve-2022-40684-auth-bypasspoc-yaml-da<br>pr-dashboard-cve-2022-38817-unauthpoc-ya<br>ml-wordpress-zephyr-project-manager-cve-<br>2022-2840-sqlipoc-yaml-jira-cve-2022-399<br>60-unauthpoc-yaml-qnap-cve-2022-27593-fi<br>leuploadpoc-yaml-wordpress-all-in-one-vi<br>deo-gallery-cve-2022-2633-lfipoc-yaml-at<br>lassian-bitbucket-archive-cve-2022-36804<br>-remote-command-execpoc-yaml-wordpress-s<br>imply-schedule-appointments-cve-2022-237<br>3-unauthpoc-yaml-zoho-manageengine-opman<br>ager-cve-2022-36923poc-yaml-red-hat-free<br>ipa-cve-2022-2414-xxepoc-yaml-wavlink-cv<br>e-2022-2488-rcepoc-yaml-wavlink-cve-2022<br>-34045-info-leakpoc-yaml-wordpress-share<br>aholic-cve-2022-0594-info-leakpoc-yaml-w<br>ordpress-wp-stats-manager-cve-2022-33965<br>-sqlipoc-yaml-opencart-newsletter-custom<br>-popup-sqlipoc-yaml-wordpress-events-mad<br>e-easy-cve-2022-1905-sqlipoc-yaml-wordpr<br>ess-kivicare-cve-2022-0786-sqlipoc-yaml-<br>wordpress-cve-2022-1609-rcepoc-yaml-sola<br>rview-compact-cve-2022-29303-rcepoc-yaml<br>-wordpress-arprice-lite-cve-2022-0867-sq<br>lipoc-yaml-wordpress-fusion-cve-2022-138<br>6-ssrfpoc-yaml-wordpress-nirweb-cve-2022<br>-0781-sqlipoc-yaml-wordpress-metform-cve<br>-2022-1442-info-leakpoc-yaml-wordpress-m<br>apsvg-cve-2022-0592-sqlipoc-yaml-wordpre<br>ss-badgeos-cve-2022-0817-sqlipoc-yaml-wo<br>rdpress-daily-prayer-time-cve-2022-0785-<br>sqlipoc-yaml-wordpress-woo-product-table<br>-cve-2022-1020-rcepoc-yaml-wordpress-doc<br>umentor-cve-2022-0773-sqlipoc-yaml-wordp<br>ress-multiple-shipping-address-woocommer<br>ce-cve-2022-0783-sqlipoc-yaml-gitlab-cve<br>-2022-1162-hardcoded-passwordpoc-yaml-th<br>inkphp-cve-2022-25481-info-leakpoc-yaml-<br>wordpress-cve-2022-0591-ssrfpoc-yaml-wor<br>dpress-simple-link-directory-cve-2022-07<br>60-sqlipoc-yaml-wordpress-ti-woocommerce<br>-wishlist-cve-2022-0412-sqlipoc-yaml-wor<br>dpress-notificationx-cve-2022-0349-sqlip<br>oc-yaml-wordpress-page-views-count-cve-2<br>022-0434-sqlipoc-yaml-wordpress-masterst<br>udy-lms-cve-2022-0441-unauthpoc-yaml-wor<br>dpress-seo-cve-2021-25118-info-leakpoc-y<br>aml-wordpress-perfect-survey-cve-2021-24<br>762-sqlipoc-yaml-wordpress-asgaros-forum<br>-cve-2021-24827-sqlipoc-yaml-tcexam-cve-<br>2021-20114-info-leakpoc-yaml-wordpress-w<br>oocommerce-cve-2021-32789-sqlipoc-yaml-w<br>ordpress-profilepress-cve-2021-34621-una<br>uthpoc-yaml-wordpress-wp-statistics-cve-<br>2021-24340-sqlipoc-yaml-voipmonitor-cve-<br>2021-30461-rcepoc-yaml-rocket-chat-cve-2<br>021-22911-nosqlipoc-yaml-pega-infinity-c<br>ve-2021-27651-unauthpoc-yaml-wordpress-m<br>odern-events-calendar-lite-cve-2021-2414<br>6-info-leakpoc-yaml-afterlogic-webmail-c<br>ve-2021-26294-path-traversalpoc-yaml-wav<br>link-cve-2020-13117-rcepoc-yaml-prestash<br>op-cve-2021-3110-sqlipoc-yaml-cockpit-cv<br>e-2020-35847-nosqlipoc-yaml-cockpit-cve-<br>2020-35848-nosqlipoc-yaml-keycloak-cve-2<br>020-10770-ssrfpoc-yaml-prestashop-cve-20<br>20-26248-sqlipoc-yaml-wordpress-paypal-p<br>ro-cve-2020-14092-sqlipoc-yaml-microstra<br>tegy-cve-2020-11450-info-leakpoc-yaml-ad<br>obe-experience-manager-cve-2019-8086-xxe<br>poc-yaml-blogengine-net-cve-2019-10717-p<br>ath-traversalpoc-yaml-dotcms-cve-2018-17<br>422-url-redirectionpoc-yaml-php-proxy-cv<br>e-2018-19458-filereadpoc-yaml-circarlife<br>-scada-cve-2018-16671-info-leakpoc-yaml-<br>circarlife-scada-cve-2018-16670-info-lea<br>kpoc-yaml-circarlife-scada-cve-2018-1666<br>8-info-leakpoc-yaml-dotnetnuke-cve-2017-<br>0929-ssrfpoc-yaml-orchid-core-vms-cve-20<br>18-10956-path-traversalpoc-yaml-circarli<br>fe-scada-cve-2018-12634-info-leakpoc-yam<br>l-nuuo-nvrmini2-cve-2018-11523-uploadpoc<br>-yaml-jolokia-cve-2018-1000130-code-inje<br>ctionpoc-yaml-fiberhome-cve-2017-15647-p<br>ath-traversalpoc-yaml-opendreambox-cve-2<br>017-14135-rcepoc-yaml-sap-cve-2017-12637<br>-filereadpoc-yaml-glassfish-cve-2017-100<br>0029-lfipoc-yaml-boa-cve-2017-9833-filer<br>eadpoc-yaml-mantisbt-cve-2017-7615-unaut<br>hpoc-yaml-wordpress-cve-2017-5487-info-l<br>eakpoc-yaml-thinkcmf-cve-2018-19898-sqli|
 |2023-01-09 07:30:10|[ExpToPocsuite3](https://github.com/smallfox233/ExpToPocsuite3)|v1.0||
-|2023-01-08 08:33:50|[RouteVulScan](https://github.com/F6JO/RouteVulScan)|RouteVulS<br>can1.4|2023-01-08 修改在线更新为追加而不是覆盖<br>2023-01-08 将主域和子域当作第一层路径默<br>认扫描|
-|2023-01-06 10:04:24|[afrog](https://github.com/zan8in/afrog)|v2.2.0|Added optional -onlyfinger/-of option f<br>or fingerprint scan onlyAdded CEL functi<br>onyear、shortyear、month、day 、timestam<br>p_sencond, eg: tongda-oa-api-ali-upload.<br>yamlAdded Boolean type attribute verifie<br>d , default false, verified PoC is trueA<br>dded rule attribute expressions , a requ<br>est to verify multiple rules|
+|2023-01-08 08:33:50|[RouteVulScan](https://github.com/F6JO/RouteVulScan)|RouteVulS<br>can1.4|2023-01-08 修改在线更新为追加而不是覆盖<br>2023-01-08 将主域和子域当作第一层路径默<br>认扫描2023-02-04 添加bypass功能|
 |2023-01-06 01:45:10|[Apt_t00ls](https://github.com/White-hua/Apt_t00ls)|v0.5|增加cnvd-2023-00895|
-|2023-01-05 06:56:12|[autoDecoder](https://github.com/f0ng/autoDecoder)|0.20|## 2023.1.5 更新0.201. 增加RSA解密 一个<br>例子2. 优化选项卡数据包设置，不影响repeat<br>er本身的数据包内容解密请求包解密请求包后<br>不影响原请求包|
 ## 近30天commit提交记录
 | 提交时间 | 项目名称 | 更新内容 |
 | :---- | :---- | :---- |
-|2023-02-04 01:00:03|[NucleiTP](https://github.com/ExpLangcn/NucleiTP)|更新啦❤️|
-|2023-02-04 00:24:58|[PocOrExp_in_Github](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-02-04 08:24:58|
+|2023-02-05 01:00:03|[NucleiTP](https://github.com/ExpLangcn/NucleiTP)|更新啦❤️|
+|2023-02-05 00:25:59|[PocOrExp_in_Github](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-02-05 08:25:59|
+|2023-02-04 15:13:48|[afrog](https://github.com/zan8in/afrog)|update mod|
+|2023-02-04 14:36:48|[RouteVulScan](https://github.com/F6JO/RouteVulScan)|update 1.4|
+|2023-02-04 13:06:35|[ffuf](https://github.com/ffuf/ffuf)|Prepare for v2.0 release (#635)|
+|2023-02-04 08:56:24|[URLFinder](https://github.com/pingc0y/URLFinder)|Delete URLFinder-linux-amd64|
 |2023-02-03 16:09:26|[qsnctf-python](https://github.com/Moxin1044/qsnctf-python)|fix api.py 421|
-|2023-02-03 10:23:58|[URLFinder](https://github.com/pingc0y/URLFinder)|2023/2/3更新|
 |2023-02-03 10:10:16|[passive-scan-client](https://github.com/c0ny1/passive-scan-client)|恢复默认端口和整理代码符合低版本语法糖|
 |2023-02-03 10:05:05|[dbeaver](https://github.com/dbeaver/dbeaver)|Row paste in empty table fix|
-|2023-02-03 07:09:29|[ffuf](https://github.com/ffuf/ffuf)|Added additional proxy URL verification (#574)* Added <br>additional proxy URL verification* Update pkg/ffuf/opti<br>onsparser.goCo-authored-by: Joona Hoikkala---------Co-a<br>uthored-by: Joona Hoikkala |
 |2023-02-03 05:08:20|[captcha-killer-modi<br>fied](https://github.com/f0ng/captcha-killer-modified)|Update FAQ.md|
 |2023-02-02 08:46:07|[RedisEXP](https://github.com/yuyan-sec/RedisEXP)|update|
 |2023-02-02 06:50:04|[mitaka](https://github.com/ninoseki/mitaka)|Merge pull request #694 from ninoseki/renovate/typescr<br>ipt-eslint-monorepochore(deps): update typescript-eslin<br>t monorepo to v5.44.0|
@@ -40,14 +58,12 @@
 |2023-02-01 01:39:12|[CRC32-Tools](https://github.com/AabyssZG/CRC32-Tools)|Update README.md|
 |2023-01-30 07:49:55|[super-xray](https://github.com/4ra1n/super-xray)|#142|
 |2023-01-30 03:38:57|[404StarLink](https://github.com/knownsec/404StarLink)|weekly update at 2023-01-30|
-|2023-01-28 14:34:26|[RouteVulScan](https://github.com/F6JO/RouteVulScan)|Update README.md|
 |2023-01-28 08:25:42|[OA-EXPTOOL](https://github.com/LittleBear4/OA-EXPTOOL)|Add files via upload|
 |2023-01-28 03:13:41|[RsaCtfTool](https://github.com/RsaCtfTool/RsaCtfTool)|Update pisano_period.py|
 |2023-01-27 17:27:55|[faker](https://github.com/joke2k/faker)|Create FUNDING.yml|
 |2023-01-27 11:08:18|[poc-hub](https://github.com/ybdt/poc-hub)|整理|
 |2023-01-26 05:21:12|[CTF-Tools](https://github.com/Aabyss-Team/CTF-Tools)|Update README.md|
 |2023-01-24 18:01:28|[nuclei](https://github.com/projectdiscovery/nuclei)|Merge pull request #3239 from projectdiscovery/devnucl<br>ei v2.8.8|
-|2023-01-21 02:08:18|[afrog](https://github.com/zan8in/afrog)|Merge pull request #45 from mawangyejizhiyan/maincve-2<br>022|
 |2023-01-18 08:16:24|[Awesome-Redteam](https://github.com/Threekiii/Awesome-Redteam)|更新README.md|
 |2023-01-17 09:41:54|[Packer-Fuzzer](https://github.com/rtcatc/Packer-Fuzzer)|v1.4.15 更新demo图片|
 |2023-01-17 06:40:28|[Some-PoC-oR-ExP](https://github.com/coffeehb/Some-PoC-oR-ExP)|Create CVE-2019-16097.md|
@@ -60,8 +76,7 @@
 |2023-01-10 10:59:45|[http-request-smuggl<br>er](https://github.com/portswigger/http-request-smuggler)|Merge pull request #58 from Hannah-PortSwigger/masterU<br>pdate case statement to state technique.|
 |2023-01-10 07:34:19|[NessusToReport](https://github.com/Hypdncy/NessusToReport)|增加tenable.py|
 |2023-01-09 07:27:17|[ExpToPocsuite3](https://github.com/smallfox233/ExpToPocsuite3)|Update README.md|
-|2023-01-09 07:11:17|[vulnerability](https://github.com/lal0ne/vulnerability)|CNVD-2021-09650|
-|2023-01-05 14:58:10|[autoDecoder](https://github.com/f0ng/autoDecoder)|Update README.md|## 所有项目
+|2023-01-09 07:11:17|[vulnerability](https://github.com/lal0ne/vulnerability)|CNVD-2021-09650|## 所有项目
 ### 信息收集
 #### 资产测绘采集
 | 项目名称 | 版本 | 项目描述 |
@@ -82,9 +97,9 @@
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
 | [dirsearch](https://github.com/maurosoria/dirsearch) | v0.4.3 | Web path scanner |
-| [URLFinder](https://github.com/pingc0y/URLFinder) |  | 类似JSFinder的golang实现，一款用于快速提取检测页面中JS与URL的工<br>具，更快更全更舒服 |
+| [URLFinder](https://github.com/pingc0y/URLFinder) | 2023.2.3 | 类似JSFinder的golang实现，一款用于快速提取检测页面中JS与URL的工<br>具，更快更全更舒服 |
 | [feroxbuster](https://github.com/epi052/feroxbuster) | v2.7.3 | A fast, simple, recursive content discovery tool written in Rust<br>. |
-| [ffuf](https://github.com/ffuf/ffuf) | v1.5.0 | Fast web fuzzer written in Go |
+| [ffuf](https://github.com/ffuf/ffuf) | v2.0.0 | Fast web fuzzer written in Go |
 | [dirmap](https://github.com/H4ckForJob/dirmap) |  | An advanced web directory & file scanning tool that will be more<br> powerful than DirBuster, Dirsearch, cansina, and Yu Jian.一个高<br>级web目录、文件扫描工具，功能将会强于DirBuster、Dirsearch、cansina<br>、御剑。 |
 | [cansina](https://github.com/deibit/cansina) | 1.0.0 | Web Content Discovery Tool |
 | [urlbrute](https://github.com/ReddyyZ/urlbrute) | v1.0.2 | Directory/Subdomain scanner developed in GoLang. |
@@ -119,7 +134,7 @@
 | [w13scan](https://github.com/w-digital-scanner/w13scan) |  | Passive Security Scanner (被动式安全扫描器) |
 | [Fvuln](https://github.com/d3ckx1/Fvuln) | Fvuln_v1.<br>4.8 | F-vuln（全称：Find-Vulnerability）是为了自己工作方便专门编写的一<br>款自动化工具，主要适用于日常安全服务、渗透测试人员和RedTeam红队人<br>员，它集合的功能包括：存活IP探测、开放端口探测、web服务探测、web漏<br>洞扫描、smb爆破、ssh爆破、ftp爆破、mssql爆破等其他数据库爆破工作以<br>及大量web漏洞检测模块。 |
 | [nuclei](https://github.com/projectdiscovery/nuclei) | v2.8.8 | Fast and customizable vulnerability scanner based on simple YAML<br> based DSL. |
-| [afrog](https://github.com/zan8in/afrog) | v2.2.0 | A Vulnerability Scanning Tools For Penetration Testing |
+| [afrog](https://github.com/zan8in/afrog) | v2.2.1 | A Vulnerability Scanning Tools For Penetration Testing |
 | [vulmap](https://github.com/zhzyker/vulmap) | v0.9 | Vulmap 是一款 web 漏洞扫描和验证工具, 可对 webapps 进行漏洞扫描,<br> 并且具备漏洞验证功能 |
 | [POC-bomber](https://github.com/tr0uble-mAker/POC-bomber) | v2.0.2-PO<br>C-bomber | 利用大量高威胁poc/exp快速获取目标权限，用于渗透和红队快速打点 |
 | [QingTing](https://github.com/StarCrossPortal/QingTing) | v0.3 | 蜻蜓安全一个安全工具编排平台,可以自由编排你的工具流,集成108款工<br>具,包括xray、nmap、awvs等;你可以将喜欢的工具编排成一个场景，快速打<br>造适合自己的安全工作台~ |
