@@ -116,11 +116,11 @@
             "https://github.com/ffuf/ffuf": {
                 "created_at": "2018-11-08 09:25:49",
                 "description": "Fast web fuzzer written in Go",
-                "commit_date": "2023-02-05 10:15:14",
-                "commit_message": "Fix required go version (#637)",
+                "commit_date": "2023-02-06 09:20:28",
+                "commit_message": "Fix the v2 tagging for go install (#639)",
                 "release_tag": "v2.0.0",
-                "release_date": "2023-02-04 13:58:25",
-                "release_message": "## Changelog\n* 77cc45c Prepare for v2.0 release (#635)\n* c7d0fb5 Gracefully error in case stdin is used for search result (#634)\n* 643f6b8 Scraper functionality (#633)\n* 39c8934 Added additional proxy URL verification (#574)\n* bbb97ab Typo fix (#581)\n* 3b219f2 fix: changed usage from version 1.3.0 to version 1.5.0 (#595)\n* 633893c Change precedence of quiet and JSON output to favour JSON (#570)\n* 0236210 Add homebrew install method (#552)\n* 7bff9e7 Fix time-based matcher (#575)\n* ebb4c44 Sniper template parsing - fixes #579 (#580)\n* 9bddff7 New functionality to map fired blind payloads back to the initial request (#632)\n* b7adc50 Fix jsonlines output while in silent mode (#630)\n* 2ce2217 Enhanced rate limiting (#620)\n* 1a684a9 Fix the ac for good now (#615)\n* 3328a28 Fix linter workflow and autocalibration for lines & words match (#614)\n\n"
+                "release_date": "2023-02-06 09:28:04",
+                "release_message": "## Changelog\n* e952deb Fix the v2 tagging for go install (#639)\n* 19e07c0 Fix required go version (#637)\n* 77cc45c Prepare for v2.0 release (#635)\n* c7d0fb5 Gracefully error in case stdin is used for search result (#634)\n* 643f6b8 Scraper functionality (#633)\n* 39c8934 Added additional proxy URL verification (#574)\n* bbb97ab Typo fix (#581)\n* 3b219f2 fix: changed usage from version 1.3.0 to version 1.5.0 (#595)\n* 633893c Change precedence of quiet and JSON output to favour JSON (#570)\n* 0236210 Add homebrew install method (#552)\n* 7bff9e7 Fix time-based matcher (#575)\n* ebb4c44 Sniper template parsing - fixes #579 (#580)\n* 9bddff7 New functionality to map fired blind payloads back to the initial request (#632)\n* b7adc50 Fix jsonlines output while in silent mode (#630)\n* 2ce2217 Enhanced rate limiting (#620)\n* 1a684a9 Fix the ac for good now (#615)\n* 3328a28 Fix linter workflow and autocalibration for lines & words match (#614)\n\n"
             },
             "https://github.com/H4ckForJob/dirmap": {
                 "created_at": "2019-04-11 12:10:16",
@@ -1001,8 +1001,8 @@
             "https://github.com/ybdt/poc-hub": {
                 "created_at": "2020-09-03 04:47:40",
                 "description": "漏洞复现、漏洞检测、漏洞利用",
-                "commit_date": "2023-02-05 14:01:19",
-                "commit_message": "Update readme.md",
+                "commit_date": "2023-02-06 13:13:40",
+                "commit_message": "整理",
                 "release_tag": null,
                 "release_date": "",
                 "release_message": null
@@ -1055,8 +1055,8 @@
             "https://github.com/lal0ne/vulnerability": {
                 "created_at": "2022-01-20 02:48:42",
                 "description": "收集、整理、修改互联网上公开的漏洞POC",
-                "commit_date": "2023-01-09 07:11:17",
-                "commit_message": "CNVD-2021-09650",
+                "commit_date": "2023-02-06 07:07:53",
+                "commit_message": "CVE-2022-47966",
                 "release_tag": null,
                 "release_date": "",
                 "release_message": null
@@ -1082,8 +1082,8 @@
             "https://github.com/ycdxsb/PocOrExp_in_Github": {
                 "created_at": "2021-04-13 05:46:16",
                 "description": "聚合Github上已有的Poc或者Exp，CVE信息来自CVE官网。Auto Collect Poc Or Exp from Github by CVE ID.",
-                "commit_date": "2023-02-06 00:27:24",
-                "commit_message": "update 2023-02-06 08:27:24",
+                "commit_date": "2023-02-07 00:26:29",
+                "commit_message": "update 2023-02-07 08:26:28",
                 "release_tag": null,
                 "release_date": "",
                 "release_message": null
@@ -1138,7 +1138,7 @@
             "https://github.com/Threekiii/Vulnerability-Wiki": {
                 "created_at": "2022-04-29 05:36:33",
                 "description": "一个综合漏洞知识库，集成了Vulhub、Peiqi、Edge、0sec、Wooyun等开源漏洞库",
-                "commit_date": "2022-12-28 01:57:57",
+                "commit_date": "2023-02-06 01:53:21",
                 "commit_message": "更新漏洞",
                 "release_tag": "v1.0",
                 "release_date": "2022-07-15 01:58:00",
@@ -1156,7 +1156,7 @@
             "https://github.com/Threekiii/Vulhub-Reproduce": {
                 "created_at": "2022-03-03 08:38:29",
                 "description": "一个Vulhub漏洞复现知识库",
-                "commit_date": "2022-12-28 01:56:21",
+                "commit_date": "2023-02-06 01:44:57",
                 "commit_message": "更新漏洞",
                 "release_tag": null,
                 "release_date": "",
@@ -1294,8 +1294,8 @@
             "https://github.com/knownsec/404StarLink": {
                 "created_at": "2020-11-17 08:10:18",
                 "description": "404StarLink - 推荐优质、有意义、有趣、坚持维护的安全开源项目",
-                "commit_date": "2023-01-30 03:38:57",
-                "commit_message": "weekly update at 2023-01-30",
+                "commit_date": "2023-02-06 03:12:09",
+                "commit_message": "weekly update at 2023-02-06",
                 "release_tag": null,
                 "release_date": "",
                 "release_message": null
@@ -1737,7 +1737,7 @@
             "https://github.com/ExpLangcn/NucleiTP": {
                 "created_at": "2022-11-08 13:16:56",
                 "description": "自动整合全网Nuclei的漏洞POC，实时同步更新最新POC！",
-                "commit_date": "2023-02-06 01:00:03",
+                "commit_date": "2023-02-07 01:00:03",
                 "commit_message": "更新啦❤️",
                 "release_tag": null,
                 "release_date": "",
@@ -2092,8 +2092,8 @@
             "https://github.com/RsaCtfTool/RsaCtfTool": {
                 "created_at": "2015-03-07 17:29:33",
                 "description": "RSA attack tool (mainly for ctf) - retreive private key from weak public key and/or uncipher data",
-                "commit_date": "2023-01-28 03:13:41",
-                "commit_message": "Update pisano_period.py",
+                "commit_date": "2023-02-06 21:19:35",
+                "commit_message": "replace logger.info with logger.error on some error messages",
                 "release_tag": null,
                 "release_date": "",
                 "release_message": null
@@ -2136,8 +2136,8 @@
             "https://github.com/dbeaver/dbeaver": {
                 "created_at": "2015-10-21 08:26:28",
                 "description": "Free universal database tool and SQL client",
-                "commit_date": "2023-02-03 10:05:05",
-                "commit_message": "Row paste in empty table fix",
+                "commit_date": "2023-02-06 09:07:58",
+                "commit_message": "Revert \"#17242 Numeric value comparison fix (use `=` instead of `>=`) (#18927)\"\n\nThis reverts commit 961319affe0cc59e6ed767ce6d9fd3efd1ed2274.",
                 "release_tag": "22.3.4",
                 "release_date": "2023-02-05 18:31:19",
                 "release_message": "\n                - ChatGPT integration for smart completion and code generation (as optional extension)\n                - Accessibility:\n                    - Text reader for entity editor was improved\n                    - Text reader for data grid was improved\n                - SQL editor:\n                    - Query generation from human language text was added\n                    - Server output log levels configuration was improved\n                    - Global metadata search was fixed\n                    - Variables resolution is fixed in strings and comments\n                    - Issue with queries with invalid line feeds was resolved\n                - Data editor:\n                    - Grouping panel messages were improved\n                    - Datetime calendar editor was fixed (in panel and inline editor)\n                - Database navigator: issue with rename/refresh was resolved\n                - Dashboards were fixed for inherited databases\n                - Project import now sets DBeaver nature (thanks to @froque\n                - ERD: custom diagram editor was fixed (issue wth missing notes and connections was resolved)\n                - Databricks: table DDL reading was fixed, extra SQL keywords were added (thanks to @mixam24)\n                - DB2 BigSQL: table with RID_BIT columns data reading was fixed (thanks to @bkyle)\n                - MySQL: numeric identifiers quoting was fixed\n                - Netezza: tables/views search query was improved\n                - PostgreSQL:\n                    - Procedures invocation was improved (thanks to @plotn)\n                    - Filter by enum was fixed (thanks to @plotn)\n                - Redshift: triggers DDL reading was fixed\n                - Snowflake: table constraints reading was fixed\n                - We switched to Java 17 so now DBeaver supports all newest JDBC drivers\n            "

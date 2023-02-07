@@ -1,26 +1,28 @@
-# 更新于 2023-02-06 09:02:33
+# 更新于 2023-02-07 09:04:24
 
 ## 近30天release更新记录
 | 更新时间 | 项目名称 | 版本 | 更新内容 |
 | :---- | :---- | :---- | :---- |
+|2023-02-06 09:28:04|[ffuf](https://github.com/ffuf/ffuf)|v2.0.0|## Changelog
+* e952deb Fix the v2 taggi<br>ng for go install (#639)
+* 19e07c0 Fix r<br>equired go version (#637)
+* 77cc45c Prep<br>are for v2.0 release (#635)
+* c7d0fb5 Gr<br>acefully error in case stdin is used for<br> search result (#634)
+* 643f6b8 Scraper <br>functionality (#633)
+* 39c8934 Added add<br>itional proxy URL verification (#574)
+* <br>bbb97ab Typo fix (#581)
+* 3b219f2 fix: c<br>hanged usage from version 1.3.0 to versi<br>on 1.5.0 (#595)
+* 633893c Change precede<br>nce of quiet and JSON output to favour J<br>SON (#570)
+* 0236210 Add homebrew instal<br>l method (#552)
+* 7bff9e7 Fix time-based<br> matcher (#575)
+* ebb4c44 Sniper templat<br>e parsing - fixes #579 (#580)
+* 9bddff7 <br>New functionality to map fired blind pay<br>loads back to the initial request (#632)<br>
+* b7adc50 Fix jsonlines output while in<br> silent mode (#630)
+* 2ce2217 Enhanced r<br>ate limiting (#620)
+* 1a684a9 Fix the ac<br> for good now (#615)
+* 3328a28 Fix linte<br>r workflow and autocalibration for lines<br> & words match (#614)|
 |2023-02-05 18:31:19|[dbeaver](https://github.com/dbeaver/dbeaver)|22.3.4|- ChatGPT integration for smart complet<br>ion and code generation (as optional ext<br>ension)- Accessibility:- Text reader for<br> entity editor was improved- Text reader<br> for data grid was improved- SQL editor:<br>- Query generation from human language t<br>ext was added- Server output log levels <br>configuration was improved- Global metad<br>ata search was fixed- Variables resoluti<br>on is fixed in strings and comments- Iss<br>ue with queries with invalid line feeds <br>was resolved- Data editor:- Grouping pan<br>el messages were improved- Datetime cale<br>ndar editor was fixed (in panel and inli<br>ne editor)- Database navigator: issue wi<br>th rename/refresh was resolved- Dashboar<br>ds were fixed for inherited databases- P<br>roject import now sets DBeaver nature (t<br>hanks to @froque- ERD: custom diagram ed<br>itor was fixed (issue wth missing notes <br>and connections was resolved)- Databrick<br>s: table DDL reading was fixed, extra SQ<br>L keywords were added (thanks to @mixam2<br>4)- DB2 BigSQL: table with RID_BIT colum<br>ns data reading was fixed (thanks to @bk<br>yle)- MySQL: numeric identifiers quoting<br> was fixed- Netezza: tables/views search<br> query was improved- PostgreSQL:- Proced<br>ures invocation was improved (thanks to <br>@plotn)- Filter by enum was fixed (thank<br>s to @plotn)- Redshift: triggers DDL rea<br>ding was fixed- Snowflake: table constra<br>ints reading was fixed- We switched to J<br>ava 17 so now DBeaver supports all newes<br>t JDBC drivers|
 |2023-02-04 14:54:34|[afrog](https://github.com/zan8in/afrog)|v2.2.1|Merge many fingerprint pocs into the pa<br>nel-detect.yaml file to reduce the numbe<br>r of http requestsConsoleprint date form<br>at, 2023-01-01 changed to 01-01Simplifie<br>d afrog-config configurationFixed: inval<br>id -fc configurationTip: Configure the -<br>c command, which can increase the concur<br>rency speed very quickly----------------<br>----------------------------------------<br>---------------------将多个 panel 指纹探<br>测合并到文件 panel-detect.yaml，大幅减少 <br>http 请求精简控制台日期打印，2023-01-01 <br>改为 01-01精简 afrog-config 配置信息解决<br>：-fc 命令配置无效问题提示：配置 -c 命令<br>能明显提高扫描速度|
-|2023-02-04 13:58:25|[ffuf](https://github.com/ffuf/ffuf)|v2.0.0|## Changelog
-* 77cc45c Prepare for v2.0<br> release (#635)
-* c7d0fb5 Gracefully err<br>or in case stdin is used for search resu<br>lt (#634)
-* 643f6b8 Scraper functionalit<br>y (#633)
-* 39c8934 Added additional prox<br>y URL verification (#574)
-* bbb97ab Typo<br> fix (#581)
-* 3b219f2 fix: changed usage<br> from version 1.3.0 to version 1.5.0 (#5<br>95)
-* 633893c Change precedence of quiet<br> and JSON output to favour JSON (#570)
-*<br> 0236210 Add homebrew install method (#5<br>52)
-* 7bff9e7 Fix time-based matcher (#5<br>75)
-* ebb4c44 Sniper template parsing - <br>fixes #579 (#580)
-* 9bddff7 New function<br>ality to map fired blind payloads back t<br>o the initial request (#632)
-* b7adc50 F<br>ix jsonlines output while in silent mode<br> (#630)
-* 2ce2217 Enhanced rate limiting<br> (#620)
-* 1a684a9 Fix the ac for good no<br>w (#615)
-* 3328a28 Fix linter workflow a<br>nd autocalibration for lines & words mat<br>ch (#614)|
 |2023-02-04 08:54:47|[URLFinder](https://github.com/pingc0y/URLFinder)|2023.2.3|## 2023/2/3 更新新增 域名信息展示变化 -<br>i配置文件可配置抓取规则等|
 |2023-02-03 10:17:50|[passive-scan-client](https://github.com/c0ny1/passive-scan-client)|0.3.1|1. 添加url黑明单2. 添加右键Send to Pass<br>ive Scan Client手动转发thx @i11us0ry |
 |2023-02-01 03:28:42|[captcha-killer-modi<br>fied](https://github.com/f0ng/captcha-killer-modified)|0.21|【2023-2-1】 0.21- 增加默认验证码模板dd<br>ddocr，适配codereg.py- 增加识别结果关键<br>字显示，方便查看关键字是否与验证码对应|
@@ -38,18 +40,23 @@
 ## 近30天commit提交记录
 | 提交时间 | 项目名称 | 更新内容 |
 | :---- | :---- | :---- |
-|2023-02-06 01:00:03|[NucleiTP](https://github.com/ExpLangcn/NucleiTP)|更新啦❤️|
+|2023-02-07 01:00:03|[NucleiTP](https://github.com/ExpLangcn/NucleiTP)|更新啦❤️|
+|2023-02-07 00:26:29|[PocOrExp_in_Github](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-02-07 08:26:28|
+|2023-02-06 21:19:35|[RsaCtfTool](https://github.com/RsaCtfTool/RsaCtfTool)|replace logger.info with logger.error on some error me<br>ssages|
+|2023-02-06 13:13:40|[poc-hub](https://github.com/ybdt/poc-hub)|整理|
+|2023-02-06 09:20:28|[ffuf](https://github.com/ffuf/ffuf)|Fix the v2 tagging for go install (#639)|
+|2023-02-06 09:07:58|[dbeaver](https://github.com/dbeaver/dbeaver)|Revert "#17242 Numeric value comparison fix (use = ins<br>tead of >=) (#18927)"This reverts commit 961319affe0cc5<br>9e6ed767ce6d9fd3efd1ed2274.|
+|2023-02-06 07:07:53|[vulnerability](https://github.com/lal0ne/vulnerability)|CVE-2022-47966|
+|2023-02-06 03:12:09|[404StarLink](https://github.com/knownsec/404StarLink)|weekly update at 2023-02-06|
+|2023-02-06 01:53:21|[Vulnerability-Wiki](https://github.com/Threekiii/Vulnerability-Wiki)|更新漏洞|
+|2023-02-06 01:44:57|[Vulhub-Reproduce](https://github.com/Threekiii/Vulhub-Reproduce)|更新漏洞|
 |2023-02-06 00:50:34|[OA-EXPTOOL](https://github.com/LittleBear4/OA-EXPTOOL)|Update Weaver_V9_uploadOperation.py|
-|2023-02-06 00:27:24|[PocOrExp_in_Github](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-02-06 08:27:24|
-|2023-02-05 14:01:19|[poc-hub](https://github.com/ybdt/poc-hub)|Update readme.md|
 |2023-02-05 11:24:30|[SmsForwarder](https://github.com/pppscn/SmsForwarder)|修复：通道测试闪退|
-|2023-02-05 10:15:14|[ffuf](https://github.com/ffuf/ffuf)|Fix required go version (#637)|
 |2023-02-05 07:11:23|[RouteVulScan](https://github.com/F6JO/RouteVulScan)|Update Config_yaml.yaml|
 |2023-02-04 15:13:48|[afrog](https://github.com/zan8in/afrog)|update mod|
 |2023-02-04 08:56:24|[URLFinder](https://github.com/pingc0y/URLFinder)|Delete URLFinder-linux-amd64|
 |2023-02-03 16:09:26|[qsnctf-python](https://github.com/Moxin1044/qsnctf-python)|fix api.py 421|
 |2023-02-03 10:10:16|[passive-scan-client](https://github.com/c0ny1/passive-scan-client)|恢复默认端口和整理代码符合低版本语法糖|
-|2023-02-03 10:05:05|[dbeaver](https://github.com/dbeaver/dbeaver)|Row paste in empty table fix|
 |2023-02-03 05:08:20|[captcha-killer-modi<br>fied](https://github.com/f0ng/captcha-killer-modified)|Update FAQ.md|
 |2023-02-02 08:46:07|[RedisEXP](https://github.com/yuyan-sec/RedisEXP)|update|
 |2023-02-02 06:50:04|[mitaka](https://github.com/ninoseki/mitaka)|Merge pull request #694 from ninoseki/renovate/typescr<br>ipt-eslint-monorepochore(deps): update typescript-eslin<br>t monorepo to v5.44.0|
@@ -58,8 +65,6 @@
 |2023-02-01 12:26:23|[RequestTemplate](https://github.com/1n7erface/RequestTemplate)|Update README.md|
 |2023-02-01 01:39:12|[CRC32-Tools](https://github.com/AabyssZG/CRC32-Tools)|Update README.md|
 |2023-01-30 07:49:55|[super-xray](https://github.com/4ra1n/super-xray)|#142|
-|2023-01-30 03:38:57|[404StarLink](https://github.com/knownsec/404StarLink)|weekly update at 2023-01-30|
-|2023-01-28 03:13:41|[RsaCtfTool](https://github.com/RsaCtfTool/RsaCtfTool)|Update pisano_period.py|
 |2023-01-27 17:27:55|[faker](https://github.com/joke2k/faker)|Create FUNDING.yml|
 |2023-01-26 05:21:12|[CTF-Tools](https://github.com/Aabyss-Team/CTF-Tools)|Update README.md|
 |2023-01-24 18:01:28|[nuclei](https://github.com/projectdiscovery/nuclei)|Merge pull request #3239 from projectdiscovery/devnucl<br>ei v2.8.8|
@@ -74,8 +79,7 @@
 |2023-01-11 09:43:37|[InfoSearchAll](https://github.com/ExpLangcn/InfoSearchAll)|Update README.md|
 |2023-01-10 10:59:45|[http-request-smuggl<br>er](https://github.com/portswigger/http-request-smuggler)|Merge pull request #58 from Hannah-PortSwigger/masterU<br>pdate case statement to state technique.|
 |2023-01-10 07:34:19|[NessusToReport](https://github.com/Hypdncy/NessusToReport)|增加tenable.py|
-|2023-01-09 07:27:17|[ExpToPocsuite3](https://github.com/smallfox233/ExpToPocsuite3)|Update README.md|
-|2023-01-09 07:11:17|[vulnerability](https://github.com/lal0ne/vulnerability)|CNVD-2021-09650|## 所有项目
+|2023-01-09 07:27:17|[ExpToPocsuite3](https://github.com/smallfox233/ExpToPocsuite3)|Update README.md|## 所有项目
 ### 信息收集
 #### 资产测绘采集
 | 项目名称 | 版本 | 项目描述 |
