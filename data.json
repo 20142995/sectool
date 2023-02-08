@@ -664,8 +664,8 @@
             "https://github.com/LittleBear4/OA-EXPTOOL": {
                 "created_at": "2022-10-13 12:31:21",
                 "description": "OA综合利用工具，集合将近20款OA漏洞批量扫描",
-                "commit_date": "2023-02-06 00:50:34",
-                "commit_message": "Update Weaver_V9_uploadOperation.py",
+                "commit_date": "2023-02-07 06:16:20",
+                "commit_message": "Update 泛微OA_v10_upload.py",
                 "release_tag": "OA-EXPTOOL-v0.7",
                 "release_date": "2023-01-20 18:22:12",
                 "release_message": "更新内容如下：\r\n1.代理功能已经实装\r\n2.日志功能已经载入源码，目前只有一米OA会产生日志（日志第二次调用会产生问题，暂不实装）\r\n修复部分poc报错问题，修复通达OAshell的代码错误导致无法连接问题\r\n增加泛微OA_doexcel\r\n泛微OA_ktree_upload\r\n泛微OA_v10_OfficeServer.phpupload\r\nweaveroa-eoffice8-upload-RCE\r\n增加用友：\r\nyongyou_KSOA_imageupload"
@@ -1082,8 +1082,8 @@
             "https://github.com/ycdxsb/PocOrExp_in_Github": {
                 "created_at": "2021-04-13 05:46:16",
                 "description": "聚合Github上已有的Poc或者Exp，CVE信息来自CVE官网。Auto Collect Poc Or Exp from Github by CVE ID.",
-                "commit_date": "2023-02-07 00:26:29",
-                "commit_message": "update 2023-02-07 08:26:28",
+                "commit_date": "2023-02-07 23:33:18",
+                "commit_message": "update 2023-02-08 07:33:18",
                 "release_tag": null,
                 "release_date": "",
                 "release_message": null
@@ -1737,7 +1737,7 @@
             "https://github.com/ExpLangcn/NucleiTP": {
                 "created_at": "2022-11-08 13:16:56",
                 "description": "自动整合全网Nuclei的漏洞POC，实时同步更新最新POC！",
-                "commit_date": "2023-02-07 01:00:03",
+                "commit_date": "2023-02-08 01:00:02",
                 "commit_message": "更新啦❤️",
                 "release_tag": null,
                 "release_date": "",
@@ -2118,11 +2118,11 @@
             "https://github.com/joke2k/faker": {
                 "created_at": "2012-11-12 23:00:09",
                 "description": "Faker is a Python package that generates fake data for you.",
-                "commit_date": "2023-01-27 17:27:55",
-                "commit_message": "Create FUNDING.yml",
-                "release_tag": "v16.6.1",
-                "release_date": "2023-01-24 16:57:21",
-                "release_message": "See [CHANGELOG.md](https://github.com/joke2k/faker/blob/refs/tags/v16.6.1/CHANGELOG.md)."
+                "commit_date": "2023-02-07 20:55:22",
+                "commit_message": "Merge branch 'kity-linuxero-master'",
+                "release_tag": "v16.7.0",
+                "release_date": "2023-02-07 20:37:21",
+                "release_message": "See [CHANGELOG.md](https://github.com/joke2k/faker/blob/refs/tags/v16.7.0/CHANGELOG.md)."
             },
             "https://github.com/pppscn/SmsForwarder": {
                 "created_at": "2021-02-10 02:23:07",
@@ -2136,8 +2136,8 @@
             "https://github.com/dbeaver/dbeaver": {
                 "created_at": "2015-10-21 08:26:28",
                 "description": "Free universal database tool and SQL client",
-                "commit_date": "2023-02-06 09:07:58",
-                "commit_message": "Revert \"#17242 Numeric value comparison fix (use `=` instead of `>=`) (#18927)\"\n\nThis reverts commit 961319affe0cc59e6ed767ce6d9fd3efd1ed2274.",
+                "commit_date": "2023-02-07 16:11:56",
+                "commit_message": "#18751 Respect URL-based configuration (#18981)",
                 "release_tag": "22.3.4",
                 "release_date": "2023-02-05 18:31:19",
                 "release_message": "\n                - ChatGPT integration for smart completion and code generation (as optional extension)\n                - Accessibility:\n                    - Text reader for entity editor was improved\n                    - Text reader for data grid was improved\n                - SQL editor:\n                    - Query generation from human language text was added\n                    - Server output log levels configuration was improved\n                    - Global metadata search was fixed\n                    - Variables resolution is fixed in strings and comments\n                    - Issue with queries with invalid line feeds was resolved\n                - Data editor:\n                    - Grouping panel messages were improved\n                    - Datetime calendar editor was fixed (in panel and inline editor)\n                - Database navigator: issue with rename/refresh was resolved\n                - Dashboards were fixed for inherited databases\n                - Project import now sets DBeaver nature (thanks to @froque\n                - ERD: custom diagram editor was fixed (issue wth missing notes and connections was resolved)\n                - Databricks: table DDL reading was fixed, extra SQL keywords were added (thanks to @mixam24)\n                - DB2 BigSQL: table with RID_BIT columns data reading was fixed (thanks to @bkyle)\n                - MySQL: numeric identifiers quoting was fixed\n                - Netezza: tables/views search query was improved\n                - PostgreSQL:\n                    - Procedures invocation was improved (thanks to @plotn)\n                    - Filter by enum was fixed (thanks to @plotn)\n                - Redshift: triggers DDL reading was fixed\n                - Snowflake: table constraints reading was fixed\n                - We switched to Java 17 so now DBeaver supports all newest JDBC drivers\n            "
