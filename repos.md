@@ -263,3 +263,5 @@
 |内网渗透|漏洞发现|https://github.com/shadow1ng/fscan|
 |信息收集|自动化信息收集|https://github.com/CTF-MissFeng/GoScan|
 |内网渗透|漏洞发现|https://github.com/hack2fun/Gscan|
+|信息收集|自动化信息收集|https://github.com/zongdeiqianxing/Autoscanner|
+|信息收集|自动化信息收集|https://github.com/er10yi/MagiCude|
