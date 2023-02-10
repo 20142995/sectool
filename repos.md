@@ -248,3 +248,12 @@
 |信息收集|企业信息收集|https://github.com/wgpsec/ENScan_GO|
 |信息收集|自动化信息收集|https://github.com/0x727/ShuiZe_0x727|
 |其他|渗透测试报告辅助|https://github.com/0x727/BugRepoter_0x727|
+|工具&插件|cobaltstrike|https://github.com/pandasec888/taowu-cobalt-strike|
+|内网渗透|代理转发|https://github.com/sensepost/reGeorg|
+|漏洞发现&利用|windows提权|https://github.com/BeichenDream/BadPotato|
+|漏洞发现&利用|linux提权|https://github.com/firefart/dirtycow|
+|信息收集|自动化信息收集|https://github.com/wgpsec/DBJ|
+|其他|蜜罐||https://github.com/seccome/Ehoney|
+|漏洞发现&利用|漏洞扫描框架|https://github.com/lijiaxing1997/Gr33k|
+|内网渗透|密码读取|https://github.com/ianxtianxt/SharpDecryptPwd|
+|工具&插件|Burpsuite|https://github.com/smxiazi/NEW_xp_CAPTCHA|
