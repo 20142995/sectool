@@ -228,3 +228,11 @@
 |CTF综合|工具集|https://github.com/Moxin1044/qsnctf-python|
 |CTF逆向|Java反编译|https://github.com/MountCloud/JavaDecompileTool-GUI|
 |CTF综合|工具集|https://github.com/qianxiao996/CTF-Tools|
+|其他|渗透测试报告辅助|https://github.com/Anof-cyber/APTRS|
+
+|相关资源|工具集成环境|https://github.com/Aabyss-Team/CTF-Tools|
+|信息收集|自动化信息收集|https://github.com/SiJiDo/H|
+|工具&插件|arl|https://github.com/loecho-sec/ARL-Finger-ADD|
+|信息收集|自动化信息收集|https://github.com/XTeam-Wing/X-Marshal|
+|信息收集|自动化信息收集|https://github.com/yqcs/heartsk_community|
+|信息收集|自动化信息收集|https://github.com/Arbor01/AnScan|
