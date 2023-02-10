@@ -242,3 +242,9 @@
 |漏洞发现&利用|信息泄露监控|https://github.com/4x99/code6|
 |CTF杂项|图片隐写|https://github.com/RetrO-hash/CTFpics|
 |CTF杂项|图片隐写|https://github.com/zR00t1/ImageStrike|
+|漏洞发现&利用|漏洞利用辅助|https://github.com/lanyi1998/DNSlog-GO|
+|信息收集|自动化信息收集|https://github.com/yogeshojha/rengine|
+|漏洞发现&利用|漏洞利用辅助|https://github.com/chennqqi/godnslog|
+|信息收集|企业信息收集|https://github.com/wgpsec/ENScan_GO|
+|信息收集|自动化信息收集|https://github.com/0x727/ShuiZe_0x727|
+|其他|渗透测试报告辅助|https://github.com/0x727/BugRepoter_0x727|
