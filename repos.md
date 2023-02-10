@@ -257,3 +257,9 @@
 |漏洞发现&利用|漏洞扫描框架|https://github.com/lijiaxing1997/Gr33k|
 |内网渗透|密码读取|https://github.com/ianxtianxt/SharpDecryptPwd|
 |工具&插件|Burpsuite|https://github.com/smxiazi/NEW_xp_CAPTCHA|
+|内网渗透|漏洞发现|https://github.com/inbug-team/InScan|
+|信息收集|自动化信息收集|https://github.com/xundididi/Voyager|
+|内网渗透|漏洞发现|https://github.com/lcvvvv/kscan|
+|内网渗透|漏洞发现|https://github.com/shadow1ng/fscan|
+|信息收集|自动化信息收集|https://github.com/CTF-MissFeng/GoScan|
+|内网渗透|漏洞发现|https://github.com/hack2fun/Gscan|
