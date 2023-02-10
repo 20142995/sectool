@@ -265,3 +265,16 @@
 |内网渗透|漏洞发现|https://github.com/hack2fun/Gscan|
 |信息收集|自动化信息收集|https://github.com/zongdeiqianxing/Autoscanner|
 |信息收集|自动化信息收集|https://github.com/er10yi/MagiCude|
+|信息收集|自动化信息收集|https://github.com/CTF-MissFeng/Watchdog|
+|信息收集|自动化信息收集|https://github.com/TideSec/Tide|
+|信息收集|自动化信息收集|https://github.com/TophantTechnology/ARL|
+|相关资源|工具集成环境|https://github.com/taielab/Taie-RedTeam-OS|
+|信息收集|自动化信息收集|https://github.com/awake1t/linglong|
+|信息收集|自动化信息收集|https://github.com/smallcham/sec-admin|
+|信息收集|自动化信息收集|https://github.com/taomujian/linbing|
+|信息收集|自动化信息收集|https://github.com/XTeam-Wing/Vulcan|
+|信息收集|自动化信息收集|https://github.com/CTF-MissFeng/bayonet|
+|信息收集|自动化信息收集|https://github.com/jeffzh3ng/fuxi|
+|漏洞发现&利用|漏洞扫描框架|https://github.com/opensec-cn/kunpeng|
+|信息收集|自动化信息收集|https://github.com/xuchaoa/WebScan|
+|信息收集|自动化信息收集|https://github.com/ysrc/xunfeng|
