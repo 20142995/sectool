@@ -236,3 +236,9 @@
 |信息收集|自动化信息收集|https://github.com/XTeam-Wing/X-Marshal|
 |信息收集|自动化信息收集|https://github.com/yqcs/heartsk_community|
 |信息收集|自动化信息收集|https://github.com/Arbor01/AnScan|
+|相关资源|工具集成环境|https://github.com/ccc-f/PenKitGui|
+|漏洞发现&利用|漏洞利用辅助|https://github.com/Li4n0/revsuit|
+|信息收集|自动化信息收集|https://github.com/hanc00l/nemo_go|
+|漏洞发现&利用|信息泄露监控|https://github.com/4x99/code6|
+|CTF杂项|图片隐写|https://github.com/RetrO-hash/CTFpics|
+|CTF杂项|图片隐写|https://github.com/zR00t1/ImageStrike|
