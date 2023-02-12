@@ -1,4 +1,4 @@
-# 更新于 2023-02-11 09:00:43
+# 更新于 2023-02-12 09:11:23
 
 ## 近30天release更新记录
 | 更新时间 | 项目名称 | 版本 | 更新内容 |
@@ -17,15 +17,15 @@
 |2023-01-19 06:03:37|[super-xray](https://github.com/4ra1n/super-xray)|1.4|## 1.4春节快乐，从该版本以后使用更帅的*<br>*黑暗主题**，并且简单重构了UI解决了重要<br>的问题：CPU占用过高。允许QPS和最大HOST连<br>接数等参数的设置，优化了一些功能更新内容<br>： - [important] [improve] CPU占用较高需<br>要进行优化 #128 - [important] [feat] 1.4<br>版本以后将全面适配黑暗主题（更帅一些） #1<br>35 - [important] [feat] 每秒最大http请求<br>数max_qps参数设置 #137 - [bug] 提示文字的<br>翻译有误 #133 - [feat] 被动扫描允许自由设<br>置（目前仅支持127） #131 - [feat] 最大HOS<br>T允许的连接数（降低对服务的影响） #138 -<br> [improve] 查看搜索PoC时应该排序以提高效<br>率 #134 - [improve] 不常用的配置应该都移<br>到高级配置中 #132 - [improve] 避免直接使<br>用其他项目的图标 #130 - [improve] 删除没<br>有必要的动态皮肤并简单重构UI #136 - 使用<br>更好的exe图标 - 删除扫雷和弹球（不好玩且<br>与黑暗主题不适配）下载： - super-xray-1.4<br>.jar版本通过java -jar super-xray-1.4.jar<br>启动 - super-xray-1.4-jre-exe.zip是内置了<br>JRE的exe版本 - super-xray-1.4-system-jre<br>.exe是使用系统JRE的exe版本|
 |2023-01-17 10:55:12|[Goby](https://github.com/gobysec/Goby)|Beta2.2.0|# In this update ## Community version u<br>pdate: 1. New memory shell plugin 2. She<br>llHub plugin update 3. Vulnerability mod<br>ule added a function to generate deseria<br>lization Payload, through the memory she<br>ll injection process 4. Five Java deseri<br>alization vulnerabilities were added, in<br>cluding- Bonitasoft Platform serverAPI D<br>eserialization Vulnerability - Liferay P<br>ortal Unauthenticated 7.2.1 C3P0 Deseria<br>lization Vulnerability (CVE-2020-7961) -<br> ManageEngine OpManager Deserialization <br>Vulnerability (CVE-2020-28653) - Zkteco <br>Shiro Deserialization Vulnerability - ZO<br>HO ManageEngine Password Manager Pro Des<br>erialization Vulnerability 5. Fixed the <br>problem that the environment variable ht<br>tp_proxy caused Goby to report errors ab<br>normally 6. Goby can now be updated onli<br>ne and vulnerabilities can be updated ev<br>en if Goby is not in the Mac system Appl<br>ication directory 7. Fixed the problem o<br>f occasional white horizontal lines in G<br>oby 8. remove network error report## Red<br> team/Enterprise version update content <br>1. All update content of 2.2.0 community<br> version 2. 20 new deserialization vulne<br>rabilities were added, including- Apache<br> OFBiz xmlrpc Deserialization Vulnerabil<br>ity (CVE-2020-9496) - Apereo CAS Before <br>4.1.7 Deserialization Vulnerability - Dr<br>eamer CMS Shiro Deserialization Vulnerab<br>ility - EasyReport Shiro Deserialization<br> Vulnerability - FEBS Shiro Deserializat<br>ion Vulnerability - FH Admin Shiro Deser<br>ialization Vulnerability - FineReport V1<br>0 Deserialization RCE Vulnerability - Fo<br>rgeRock AM Deserialization Vulnerability<br> (CVE-2021-35464) - Guns Shiro Deseriali<br>zation Vulnerability - J2eeFAST Shiro De<br>serialization Vulnerability - JavaWeb_La<br>yui Shiro Deserialization Vulnerability <br>- Liferay Portal 6.1.1 CE GA2 CB Deseria<br>lization Vulnerability - MCMS Shiro Dese<br>rialization Vulnerability (CVE-2022-2292<br>8) - OneBlog Shiro Deserialization Vulne<br>rability - pb-cms Shiro Deserialization <br>Vulnerability - QVIS-NVR Camera Manageme<br>nt System RCE (CVE-2021-41419) - RuoYi-p<br>lus Shiro Deserialization Vulnerability <br>- TIMO Shiro Deserialization Vulnerabili<br>ty - Ysk ERP Shiro Deserialization Vulne<br>rability**Zkteco Shiro Deserialization V<br>ulnerability**![5s8l2F.gif](https://www.<br>gobies.org/img/Zkteco_Shiro_Deserializat<br>ion_Vulnerability.gif)**Apache OFBiz xml<br>rpc Deserialization Vulnerability (CVE-2<br>020-9496)**![5s8l2F.gif](https://www.gob<br>ies.org/img/OneBlog_Shiro_Deserializatio<br>n_Vulnerability.gif)|
 |2023-01-13 07:43:44|[RequestTemplate](https://github.com/1n7erface/RequestTemplate)|v1.1.1|2023.1.13 13:44 1.通过列出共享解决了部<br>分smb误报的问题。 2.列出ftp文件。 3.通过O<br>XID识别多网卡机器。 |
-|2023-01-12 06:19:47|[code6](https://github.com/4x99/code6)|1.6.3|### 更新日志 - 修复：[ 任务配置 ] - 任<br>务队列显示与实际执行任务不一致 - 修复：[ <br>任务配置 ] - 扫描间隔大于 60 分钟时，下次<br>扫描时间计算错误（#241） - 优化：[ 移动端<br> ] 查看源码相关操作优化 - 优化：诊断脚本<br> Doctor.php 新增 GitHub API 连通性检查##<br># 升级指南 #### 源码安装 直接拉取最新代<br>码#### Docker 安装 拉取最新代码、创建镜像<br>并启动容器即可#### Docker-Compose 安装 拉<br>取最新代码启动容器即可 |
 ## 近30天commit提交记录
 | 提交时间 | 项目名称 | 更新内容 |
 | :---- | :---- | :---- |
-|2023-02-11 00:45:02|[NucleiTP](https://github.com/ExpLangcn/NucleiTP)|更新啦❤️|
-|2023-02-11 00:30:55|[PocOrExp_in_Github](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-02-11 08:30:55|
-|2023-02-10 14:23:58|[dbeaver](https://github.com/dbeaver/dbeaver)|CB-3072 RM: metadata for removed script still exists (<br>#18858)Implements recursive resource properties removin<br>gCo-authored-by: Iaroslav EmelianovCo-authored-by: Mari<br>naVorobeva21 |
+|2023-02-12 01:00:03|[NucleiTP](https://github.com/ExpLangcn/NucleiTP)|更新啦❤️|
+|2023-02-12 00:31:55|[PocOrExp_in_Github](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-02-12 08:31:55|
+|2023-02-11 11:38:34|[SmsForwarder](https://github.com/pppscn/SmsForwarder)|升级：frpclib 到 v0.47.0|
+|2023-02-11 07:22:08|[dbeaver](https://github.com/dbeaver/dbeaver)|22.3.5 config|
+|2023-02-11 06:57:41|[OA-EXPTOOL](https://github.com/LittleBear4/OA-EXPTOOL)|Update mode.py|
 |2023-02-10 14:14:54|[nuclei](https://github.com/projectdiscovery/nuclei)|Merge pull request #3304 from projectdiscovery/devnucl<br>ei v2.8.9|
-|2023-02-10 13:46:04|[SmsForwarder](https://github.com/pppscn/SmsForwarder)|优化：限定卡槽主键只能输入数字|
 |2023-02-10 12:15:31|[captcha-killer-modi<br>fied](https://github.com/f0ng/captcha-killer-modified)|Update README.md|
 |2023-02-10 09:53:54|[Some-PoC-oR-ExP](https://github.com/coffeehb/Some-PoC-oR-ExP)|Create CVE-2023-25194.md|
 |2023-02-10 05:56:40|[Threathunting-book](https://github.com/12306Bro/Threathunting-book)|delete|
@@ -45,7 +45,6 @@
 |2023-02-08 03:49:42|[ARL](https://github.com/TophantTechnology/ARL)|Merge pull request #480 from chasenz/masterUpdate nucl<br>ei dump|
 |2023-02-08 02:14:56|[SharpWxDump](https://github.com/AdminTest0/SharpWxDump)|Update README.md|
 |2023-02-07 08:22:05|[kscan](https://github.com/lcvvvv/kscan)|[-]修复之前效率极低的去重算法TAT|
-|2023-02-07 06:16:20|[OA-EXPTOOL](https://github.com/LittleBear4/OA-EXPTOOL)|Update 泛微OA_v10_upload.py|
 |2023-02-06 13:13:40|[poc-hub](https://github.com/ybdt/poc-hub)|整理|
 |2023-02-06 09:20:28|[ffuf](https://github.com/ffuf/ffuf)|Fix the v2 tagging for go install (#639)|
 |2023-02-06 07:07:53|[vulnerability](https://github.com/lal0ne/vulnerability)|CVE-2022-47966|
@@ -69,9 +68,7 @@
 |2023-01-17 05:49:54|[gospider](https://github.com/jaeles-project/gospider)|Merge pull request #59 from aidanhall34/dockerfileCrea<br>ted dockerfile and updated README.md|
 |2023-01-17 03:03:16|[CN_Nessus_Plugins_I<br>nterface](https://github.com/nszy007/CN_Nessus_Plugins_Interface)|20230113|
 |2023-01-16 10:59:37|[Scanners-Box](https://github.com/We5ter/Scanners-Box)|[+]kvesta/vesta|
-|2023-01-13 11:53:18|[feroxbuster](https://github.com/epi052/feroxbuster)|Update README.md|
-|2023-01-12 06:18:56|[code6](https://github.com/4x99/code6)|Merge pull request #244 from 4x99/developv1.6.3|
-|2023-01-12 02:31:07|[OneForAll](https://github.com/shmilylty/OneForAll)|Update docker-image.yml拼写错误|## 所有项目
+|2023-01-13 11:53:18|[feroxbuster](https://github.com/epi052/feroxbuster)|Update README.md|## 所有项目
 ### 信息收集
 #### 资产测绘采集
 | 项目名称 | 版本 | 项目描述 |
