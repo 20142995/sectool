@@ -140,17 +140,19 @@ for type_1 in data:
                 rs1 = gc.repos(author, repo)
                 item['created_at'] = time.strftime("%Y-%m-%d %H:%M:%S", time.strptime(
                     rs1['created_at'], "%Y-%m-%dT%H:%M:%SZ")) if rs1.get('created_at') else ''
-                item['description'] = rs1.get('description','').replace('<br>',' ').replace('\r\n',' ').replace('\n',' ')
+                item['description'] = rs1.get('description','') if rs1.get('description','') else ''
+                item['description'] = item['description'].replace('<br>',' ').replace('\r\n',' ').replace('\n',' ')
                 rs2 = gc.repos_commits(author, repo)
                 for rs in rs2[:1]:
                     item['commit_date'] = time.strftime("%Y-%m-%d %H:%M:%S", time.strptime(
                         rs['commit']['committer']['date'], "%Y-%m-%dT%H:%M:%SZ")) if rs['commit']['committer']['date'] else ''
                     item['commit_message'] = rs['commit']['message'] if rs['commit']['message'] else ''
                 rs3 = gc.repos_releases_latest(author, repo)
-                item['release_tag'] = rs3.get('tag_name','').replace('<br>',' ').replace('\r\n',' ').replace('\n',' ')
+                item['release_tag'] = rs3.get('tag_name','')
                 item['release_date'] = time.strftime("%Y-%m-%d %H:%M:%S", time.strptime(
                     rs3['published_at'], "%Y-%m-%dT%H:%M:%SZ")) if rs3.get('published_at') else ''
-                item['release_message'] = rs3.get('body','').replace('<br>',' ').replace('\r\n',' ').replace('\n',' ')
+                item['release_message'] = rs3.get('body','') if rs3.get('body','') else ''
+                item['release_message'] = item['release_message'].replace('<br>',' ').replace('\r\n',' ').replace('\n',' ')
             except:
                 print('[fail 1]', url)
                 traceback.print_exc()
