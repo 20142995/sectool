@@ -322,3 +322,5 @@
 |工具&插件|浏览器扩展|https://github.com/graynjo/Heimdallr|
 |漏洞发现&利用|漏洞利用辅助|https://github.com/sml2h3/ddddocr|
 |漏洞发现&利用|漏洞利用辅助|https://github.com/su18/ysoserial|
+|相关资源|知识库|https://github.com/wwl012345/Vuln-List|
+|漏洞发现&利用|中间件&框架漏洞利用|https://github.com/13exp/SpringBoot-Scan-GUI|
