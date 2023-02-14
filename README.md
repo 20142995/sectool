@@ -1,14 +1,17 @@
-# 更新于 2023-02-13 09:10:23
+# 更新于 2023-02-14 09:10:38
 
 ## 近30天release更新记录
 | 更新时间 | 项目名称 | 版本 | 更新内容 |
 | :---- | :---- | :---- | :---- |
-|2023-02-12 15:05:03|[ENScan_GO](https://github.com/wgpsec/ENScan_GO)|V0.0.8|- 增加JSON导出功能 #41 |
+|2023-02-13 17:23:10|[faker](https://github.com/joke2k/faker)|v17.0.0|See [CHANGELOG.md](https://github.com/j<br>oke2k/faker/blob/refs/tags/v17.0.0/CHANG<br>ELOG.md).|
+|2023-02-13 14:03:48|[SpringBoot-Scan-GUI](https://github.com/13exp/SpringBoot-Scan-GUI)|v1.2.2|针对CVE-2022-22965，增加shell验证减少误<br>报，新增加操作系统识别功能，若需使用，可<br>从菜单【更多】，前往nmap下载使用，识别仅<br>支持单地址|
+|2023-02-13 07:25:06|[murphysec](https://github.com/murphysecurity/murphysec)|v3.0.1||
+|2023-02-13 06:07:53|[rotateproxy](https://github.com/akkuman/rotateproxy)|v0.7.2|## Changelog * 10ddfd1 fix: modernc.org<br>/sqlite 不支持 win 386|
+|2023-02-13 03:33:11|[ENScan_GO](https://github.com/wgpsec/ENScan_GO)|V0.0.9|**bugfix** - 修复JSON导出问题 fix #46 -<br> 修复天眼查日期问题 fix #43 - 修复阿拉丁<br>导出bug fix #30**new** - 增加只在终端显示<br>不导出文件 fix #25|
 |2023-02-10 14:36:44|[nuclei](https://github.com/projectdiscovery/nuclei)|v2.8.9|## What's Changed* **Fixed URL encoding<br> issues in paths by @tarunKoyalwar** in <br>https://github.com/projectdiscovery/nucl<br>ei/pull/3294 * **Fixed panic crash with <br>ratelimit by @tarunKoyalwar** in https:/<br>/github.com/projectdiscovery/nuclei/pull<br>/3257 * Fixed path handling inconsistenc<br>ies by @tarunKoyalwar in https://github.<br>com/projectdiscovery/nuclei/pull/3243 * <br>Fixed data race in templates with payloa<br>ds by @tarunKoyalwar in https://github.c<br>om/projectdiscovery/nuclei/pull/3265 * *<br>*Fixed using httpx as a library for http<br> probing by @Ice3man543** in https://git<br>hub.com/projectdiscovery/nuclei/pull/326<br>1 * Fixed data race in race requests by <br>@tarunKoyalwar in https://github.com/pro<br>jectdiscovery/nuclei/pull/3275 * Fixed p<br>ublish docs workflow by @tarunKoyalwar i<br>n https://github.com/projectdiscovery/nu<br>clei/pull/3296 * Fixed retryablehttp for<br> templates loading by @Mzack9999 in http<br>s://github.com/projectdiscovery/nuclei/p<br>ull/3291 * Fixed aes_cbc helper function<br> update by @Ice3man543 in https://github<br>.com/projectdiscovery/nuclei/pull/3287 *<br> Fixed json schema for extractor attribu<br>te by @Mzack9999 in https://github.com/p<br>rojectdiscovery/nuclei/pull/3240 * **Add<br>ed env variable support in reporting con<br>fig by @xm1k3** in https://github.com/pr<br>ojectdiscovery/nuclei/pull/3188 * Added <br>proxy use in headless binary download by<br> @Mzack9999 in https://github.com/projec<br>tdiscovery/nuclei/pull/3290 * **Added in<br>teractsh payload input support in TLS SN<br>I field by @Mzack9999** in https://githu<br>b.com/projectdiscovery/nuclei/pull/3276I<br>ssues closed in the release - https://gi<br>thub.com/projectdiscovery/nuclei/milesto<br>ne/26?closed=1## New Contributors * @M-F<br>aheem-Khan made their first contribution<br> in https://github.com/projectdiscovery/<br>nuclei/pull/3235 * @galoget made their f<br>irst contribution in https://github.com/<br>projectdiscovery/nuclei/pull/3299**Full <br>Changelog**: https://github.com/projectd<br>iscovery/nuclei/compare/v2.8.8...v2.8.9|
 |2023-02-10 11:17:41|[captcha-killer-modi<br>fied](https://github.com/f0ng/captcha-killer-modified)|0.21-beta|【2023-2-10】 0.21-beta - 优化验证码编<br>码中的\n处理 - 优化@captcha@的判断方式感<br>谢微信群@5ING 、@策马奔腾 师傅反馈|
 |2023-02-10 10:36:38|[veinmind-tools](https://github.com/chaitin/veinmind-tools)|v2.0.0|## Feature + runner cmd优化: 协议化扫描<br>对象 + runner 支持插件参数自定义 + runner<br> 支持扫描 tar 类型镜像 + 插件报告输出优<br>化：支持 cli/json/htm + script.sh => make<br>file + 新增 veinmind-esclate 逃逸检测插<br>件 + veinmind-asset 升级为 veinmind-vuln<br>，支持漏洞扫描 + iac 支持扫描 kubernetes|
 |2023-02-10 03:38:45|[Elkeid](https://github.com/bytedance/Elkeid)|rasp-v2.1<br>.0.8-pre||
-|2023-02-09 21:15:09|[faker](https://github.com/joke2k/faker)|v16.8.1|See [CHANGELOG.md](https://github.com/j<br>oke2k/faker/blob/refs/tags/v16.8.1/CHANG<br>ELOG.md).|
 |2023-02-09 13:53:05|[github-subdomains](https://github.com/gwen001/github-subdomains)|v1.2.2||
 |2023-02-09 03:57:44|[ysoserial](https://github.com/su18/ysoserial)|v1.3|1. 添加 ROME3、CommonsCollectionsK1、Co<br>mmonsCollectionsK2 利用链； 2. 添加 mcl <br>参数，可以指定在 TransformerUtil 中使用 o<br>rg.mozilla.javascript.DefiningClassLoade<br>r； 3. 添加 f 参数，可以指定将输出写在文<br>件中； 4. 更新 BeanShell 在 2.0b4 上的利<br>用链，并用 ScriptEngineManager 的方式对 B<br>eanShell 链支持内存马； 5. 更新 SpringWe<br>bFlux 内存马（目前仅支持 gz 及 cmd）； 6<br>. 添加 SpringEcho 回显方式； 7. 更新 cmd<br>/冰蝎/哥斯拉 动态添加的逻辑使用纯反射编<br>写； 8. **【重要】**移除 Referer 参数，用<br>于校验的 Referer 头部现改为可自定义 Heade<br>r 头部和值，并将校验逻辑由 equals 改为 c<br>ontains；9. 支持自定义传递执行命令的 Hea<br>der 头； 10. 支持自定义 Godzilla key； 1<br>1. 由于打包问题，移除 RenderedImage 利用<br>链及相关依赖； 12. 更新 Executor 内存马使<br>用 CMD_HEADER_STRING 统一 Header； 13. 优<br>化大量代码，修复若干 BUG，更新 ReadMe。|
 |2023-02-06 09:28:04|[ffuf](https://github.com/ffuf/ffuf)|v2.0.0|## Changelog * e952deb Fix the v2 taggi<br>ng for go install (#639) * 19e07c0 Fix r<br>equired go version (#637) * 77cc45c Prep<br>are for v2.0 release (#635) * c7d0fb5 Gr<br>acefully error in case stdin is used for<br> search result (#634) * 643f6b8 Scraper <br>functionality (#633) * 39c8934 Added add<br>itional proxy URL verification (#574) * <br>bbb97ab Typo fix (#581) * 3b219f2 fix: c<br>hanged usage from version 1.3.0 to versi<br>on 1.5.0 (#595) * 633893c Change precede<br>nce of quiet and JSON output to favour J<br>SON (#570) * 0236210 Add homebrew instal<br>l method (#552) * 7bff9e7 Fix time-based<br> matcher (#575) * ebb4c44 Sniper templat<br>e parsing - fixes #579 (#580) * 9bddff7 <br>New functionality to map fired blind pay<br>loads back to the initial request (#632)<br> * b7adc50 Fix jsonlines output while in<br> silent mode (#630) * 2ce2217 Enhanced r<br>ate limiting (#620) * 1a684a9 Fix the ac<br> for good now (#615) * 3328a28 Fix linte<br>r workflow and autocalibration for lines<br> & words match (#614)|
@@ -27,42 +30,48 @@
 ## 近30天commit提交记录
 | 提交时间 | 项目名称 | 更新内容 |
 | :---- | :---- | :---- |
-|2023-02-13 01:00:02|[NucleiTP](https://github.com/ExpLangcn/NucleiTP)|更新啦❤️|
-|2023-02-13 00:03:50|[PocOrExp_in_Github](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-02-13 08:03:50|
-|2023-02-12 15:20:34|[SmsForwarder](https://github.com/pppscn/SmsForwarder)|修复：转发消息遍历发送通道时未跳过已禁用的通道|
-|2023-02-12 14:57:21|[ENScan_GO](https://github.com/wgpsec/ENScan_GO)|修改json导出格式|
-|2023-02-11 07:22:08|[dbeaver](https://github.com/dbeaver/dbeaver)|22.3.5 config|
+|2023-02-14 01:01:06|[PocOrExp_in_Github](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-02-14 09:01:06|
+|2023-02-14 01:00:03|[NucleiTP](https://github.com/ExpLangcn/NucleiTP)|更新啦❤️|
+|2023-02-13 17:18:49|[faker](https://github.com/joke2k/faker)|Bump version: 16.9.0 → 17.0.0|
+|2023-02-13 16:14:54|[dbeaver](https://github.com/dbeaver/dbeaver)|Change defaults for Exasol connections parameters. (#1<br>8945)|
+|2023-02-13 14:40:00|[RsaCtfTool](https://github.com/RsaCtfTool/RsaCtfTool)|Update README.md|
+|2023-02-13 10:33:29|[veinmind-tools](https://github.com/chaitin/veinmind-tools)|fix(veinmind-tools):readme change pic (#186)Co-authore<br>d-by: GiveMeAShell |
+|2023-02-13 09:40:40|[SpringBoot-Scan-GUI](https://github.com/13exp/SpringBoot-Scan-GUI)|Add files via upload|
+|2023-02-13 07:54:52|[SmsForwarder](https://github.com/pppscn/SmsForwarder)|优化：电池状态监听/网络状态监控 在未开启去重时默认开启<br>1秒去重|
+|2023-02-13 07:27:58|[murphysec](https://github.com/murphysecurity/murphysec)|fix: InitLogger should return old context object even <br>in error|
+|2023-02-13 07:06:30|[ysoserial](https://github.com/su18/ysoserial)|更新 BeanShell 和 C3P02 利用链支持 LF 加载本地 class <br>文件功能|
+|2023-02-13 06:49:15|[Awesome-Redteam](https://github.com/Threekiii/Awesome-Redteam)|更新README.md|
+|2023-02-13 06:04:33|[rotateproxy](https://github.com/akkuman/rotateproxy)|fix: modernc.org/sqlite 不支持 win 386|
+|2023-02-13 03:26:39|[ENScan_GO](https://github.com/wgpsec/ENScan_GO)|修复JSON导出问题 fix #46
+修复天眼查日期问题 fix #43
+修<br>复阿拉丁导出bug fix #30
+增加只在终端显示不导出文件 fix #<br>25|
+|2023-02-13 03:10:11|[404StarLink](https://github.com/knownsec/404StarLink)|weekly update at 2023-02-13|
+|2023-02-13 03:07:42|[vulnerability](https://github.com/lal0ne/vulnerability)|CVE-2023-0669|
+|2023-02-13 01:28:57|[afrog](https://github.com/zan8in/afrog)|update poc|
 |2023-02-11 06:57:41|[OA-EXPTOOL](https://github.com/LittleBear4/OA-EXPTOOL)|Update mode.py|
 |2023-02-11 02:08:15|[gshark](https://github.com/madneal/gshark)|Update README.md|
 |2023-02-10 14:14:54|[nuclei](https://github.com/projectdiscovery/nuclei)|Merge pull request #3304 from projectdiscovery/devnucl<br>ei v2.8.9|
 |2023-02-10 12:15:31|[captcha-killer-modi<br>fied](https://github.com/f0ng/captcha-killer-modified)|Update README.md|
 |2023-02-10 09:53:54|[Some-PoC-oR-ExP](https://github.com/coffeehb/Some-PoC-oR-ExP)|Create CVE-2023-25194.md|
-|2023-02-10 09:09:39|[veinmind-tools](https://github.com/chaitin/veinmind-tools)|feat: upgrade (#184)* feat(plugins): upgrade 2.0* feat<br>(docs): readme* fix(runner): Dockerfile---------Co-auth<br>ored-by: GiveMeAShell |
+|2023-02-10 07:42:53|[Vuln-List](https://github.com/wwl012345/Vuln-List)|Update 中间件&框架&平台&第三方服务漏洞.md|
 |2023-02-10 05:56:40|[Threathunting-book](https://github.com/12306Bro/Threathunting-book)|delete|
-|2023-02-09 21:14:13|[faker](https://github.com/joke2k/faker)|Bump version: 16.8.0 → 16.8.1|
-|2023-02-09 16:04:08|[RsaCtfTool](https://github.com/RsaCtfTool/RsaCtfTool)|lift pylint warnings|
 |2023-02-09 13:53:02|[github-subdomains](https://github.com/gwen001/github-subdomains)|v1.2.2|
-|2023-02-09 09:01:29|[afrog](https://github.com/zan8in/afrog)|add pocs|
 |2023-02-09 08:50:43|[geacon_pro](https://github.com/H4de5-7/geacon_pro)|Update README.md|
 |2023-02-09 07:35:06|[Elkeid](https://github.com/bytedance/Elkeid)|Merge pull request #423 from bytedance/rasp/interval_s<br>ettings|
 |2023-02-09 07:22:30|[X-Marshal](https://github.com/XTeam-Wing/X-Marshal)|Update README.md|
 |2023-02-09 07:06:32|[log4j2burpscanner](https://github.com/f0ng/log4j2burpscanner)|Update FAQ-zh-CN.md|
-|2023-02-09 03:45:57|[ysoserial](https://github.com/su18/ysoserial)|更新版本号|
 |2023-02-09 01:11:01|[Vulnerability-Wiki](https://github.com/Threekiii/Vulnerability-Wiki)|更新漏洞|
 |2023-02-09 01:09:59|[Awesome-POC](https://github.com/Threekiii/Awesome-POC)|更新漏洞|
-|2023-02-09 01:09:06|[Awesome-Redteam](https://github.com/Threekiii/Awesome-Redteam)|更新README.md|
 |2023-02-08 23:30:22|[log4j-shell-poc](https://github.com/kozmer/log4j-shell-poc)|:)|
 |2023-02-08 17:56:46|[super-xray](https://github.com/4ra1n/super-xray)|#144 #145|
 |2023-02-08 13:55:17|[QingTing](https://github.com/StarCrossPortal/QingTing)|add code|
-|2023-02-08 11:37:07|[murphysec](https://github.com/murphysecurity/murphysec)|fix: add --json flag use client access-type|
 |2023-02-08 03:49:42|[ARL](https://github.com/TophantTechnology/ARL)|Merge pull request #480 from chasenz/masterUpdate nucl<br>ei dump|
 |2023-02-08 02:14:56|[SharpWxDump](https://github.com/AdminTest0/SharpWxDump)|Update README.md|
 |2023-02-07 08:22:05|[kscan](https://github.com/lcvvvv/kscan)|[-]修复之前效率极低的去重算法TAT|
 |2023-02-06 13:13:40|[poc-hub](https://github.com/ybdt/poc-hub)|整理|
 |2023-02-06 09:20:28|[ffuf](https://github.com/ffuf/ffuf)|Fix the v2 tagging for go install (#639)|
-|2023-02-06 07:07:53|[vulnerability](https://github.com/lal0ne/vulnerability)|CVE-2022-47966|
 |2023-02-06 04:48:56|[cola_dnslog](https://github.com/AbelChe/cola_dnslog)|Merge pull request #26 from AbelChe/1.3.2fix webserver<br> 404|
-|2023-02-06 03:12:09|[404StarLink](https://github.com/knownsec/404StarLink)|weekly update at 2023-02-06|
 |2023-02-06 01:44:57|[Vulhub-Reproduce](https://github.com/Threekiii/Vulhub-Reproduce)|更新漏洞|
 |2023-02-05 15:19:54|[Viper](https://github.com/FunnyWolf/Viper)|update version v1.5.26|
 |2023-02-05 07:11:23|[RouteVulScan](https://github.com/F6JO/RouteVulScan)|Update Config_yaml.yaml|
@@ -167,7 +176,7 @@
 #### 企业信息收集
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
-| [ENScan_GO](https://github.com/wgpsec/ENScan_GO) | V0.0.8 | 一款基于各大企业信息API的工具，解决在遇到的各种针对国内企业信息<br>收集难题。一键收集控股公司ICP备案、APP、小程序、微信公众号等信息聚<br>合导出。 |
+| [ENScan_GO](https://github.com/wgpsec/ENScan_GO) | V0.0.9 | 一款基于各大企业信息API的工具，解决在遇到的各种针对国内企业信息<br>收集难题。一键收集控股公司ICP备案、APP、小程序、微信公众号等信息聚<br>合导出。 |
 ### 漏洞发现&利用
 #### 半自动化漏洞利用
 | 项目名称 | 版本 | 项目描述 |
@@ -234,6 +243,7 @@
 | [Struts2-Scan](https://github.com/HatBoy/Struts2-Scan) |  | Struts2全漏洞扫描利用工具 |
 | [log4j-shell-poc](https://github.com/kozmer/log4j-shell-poc) |  | A Proof-Of-Concept for the CVE-2021-44228 vulnerability.  |
 | [SpringBootExploit](https://github.com/0x727/SpringBootExploit) | 1.3 | 项目是根据LandGrey/SpringBootVulExploit清单编写，目的hvv期间快速<br>利用漏洞、降低漏洞利用门槛。 |
+| [SpringBoot-Scan-GUI](https://github.com/13exp/SpringBoot-Scan-GUI) | v1.2.2 |  |
 #### 中间件&框架漏洞扫描
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
@@ -349,7 +359,7 @@
 #### 代码审计
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
-| [murphysec](https://github.com/murphysecurity/murphysec) | v3.0.0 | An open source tool focused on software supply chain security. <br>墨菲安全专注于软件供应链安全，具备专业的软件成分分析（SCA）、漏洞<br>检测、专业漏洞库。 |
+| [murphysec](https://github.com/murphysecurity/murphysec) | v3.0.1 | An open source tool focused on software supply chain security. <br>墨菲安全专注于软件供应链安全，具备专业的软件成分分析（SCA）、漏洞<br>检测、专业漏洞库。 |
 | [Kunlun-M](https://github.com/LoRexxar/Kunlun-M) | v2.6.5 | KunLun-M是一个完全开源的静态白盒扫描工具，支持PHP、JavaScript的<br>语义扫描，基础安全、组件安全扫描，Chrome Ext\Solidity的基础扫描。 |
 #### 容器漏洞扫描
 | 项目名称 | 版本 | 项目描述 |
@@ -421,6 +431,7 @@
 | [Threathunting-book](https://github.com/12306Bro/Threathunting-book) |  | Threat hunting Web Windows AD linux ATT&CK TTPs |
 | [PenetrationTesttips](https://github.com/CYJoe-Cyclone/PenetrationTesttips) |  | 渗透测试Tips - Version1.3 |
 | [Intranet_Penetratio<br>n_Tips](https://github.com/Ridter/Intranet_Penetration_Tips) |  | 2018年初整理的一些内网渗透TIPS，后面更新的慢，所以整理出来希望跟<br>小伙伴们一起更新维护~ |
+| [Vuln-List](https://github.com/wwl012345/Vuln-List) |  | (持续更新)对网上出现的各种OA、中间件、CMS等漏洞进行整理，主要包<br>括漏洞介绍、漏洞影响版本以及漏洞POC/EXP等，并且会持续更新。 |
 #### 优秀项目集合
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
@@ -433,7 +444,7 @@
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
 | [go_proxy_pool](https://github.com/pingc0y/go_proxy_pool) |  | 无环境依赖开箱即用的代理IP池 |
-| [rotateproxy](https://github.com/akkuman/rotateproxy) | v0.7.1 | 利用fofa搜索socks5开放代理进行代理池轮切的工具 |
+| [rotateproxy](https://github.com/akkuman/rotateproxy) | v0.7.2 | 利用fofa搜索socks5开放代理进行代理池轮切的工具 |
 ### 工具&插件
 #### Burpsuite
 | 项目名称 | 版本 | 项目描述 |
@@ -619,7 +630,7 @@
 #### 其他
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
-| [faker](https://github.com/joke2k/faker) | v16.8.1 | Faker is a Python package that generates fake data for you. |
+| [faker](https://github.com/joke2k/faker) | v17.0.0 | Faker is a Python package that generates fake data for you. |
 | [SmsForwarder](https://github.com/pppscn/SmsForwarder) | v3.1.1 | 短信转发器——监控Android手机短信、来电、APP通知，并根据指定规则<br>转发到其他手机：钉钉群自定义机器人、钉钉企业内机器人、企业微信群机<br>器人、飞书机器人、企业微信应用消息、邮箱、bark、webhook、Telegram<br>机器人、Server酱、PushPlus、手机短信等。包括主动控制服务端与客户端<br>，让你轻松远程发短信、查短信、查通话、查话簿、查电量等。（V3.0 新<br>增）PS.这个APK主要是学习与自用，如有BUG请提ISSUE，同时欢迎大家提PR<br>指正 |
 | [dbeaver](https://github.com/dbeaver/dbeaver) | 22.3.4 | Free universal database tool and SQL client |
 | [MySQLMonitor](https://github.com/TheKingOfDuck/MySQLMonitor) | 1.0 | MySQL实时监控工具(代码审计/黑盒/白盒审计辅助工具) |

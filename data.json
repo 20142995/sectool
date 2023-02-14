@@ -486,11 +486,11 @@
             "https://github.com/wgpsec/ENScan_GO": {
                 "created_at": "2022-01-04 14:07:28",
                 "description": "一款基于各大企业信息API的工具，解决在遇到的各种针对国内企业信息收集难题。一键收集控股公司ICP备案、APP、小程序、微信公众号等信息聚合导出。",
-                "commit_date": "2023-02-12 14:57:21",
-                "commit_message": "修改json导出格式",
-                "release_tag": "V0.0.8",
-                "release_date": "2023-02-12 15:05:03",
-                "release_message": "- 增加JSON导出功能 #41 "
+                "commit_date": "2023-02-13 03:26:39",
+                "commit_message": "修复JSON导出问题 fix #46\n修复天眼查日期问题 fix #43\n修复阿拉丁导出bug fix #30\n增加只在终端显示不导出文件 fix #25",
+                "release_tag": "V0.0.9",
+                "release_date": "2023-02-13 03:33:11",
+                "release_message": "**bugfix** - 修复JSON导出问题 fix #46 - 修复天眼查日期问题 fix #43 - 修复阿拉丁导出bug fix #30  **new** - 增加只在终端显示不导出文件 fix #25"
             }
         }
     },
@@ -564,8 +564,8 @@
             "https://github.com/zan8in/afrog": {
                 "created_at": "2022-02-24 06:00:32",
                 "description": "A Vulnerability Scanning Tools For Penetration Testing",
-                "commit_date": "2023-02-09 09:01:29",
-                "commit_message": "add pocs",
+                "commit_date": "2023-02-13 01:28:57",
+                "commit_message": "update poc",
                 "release_tag": "v2.2.1",
                 "release_date": "2023-02-04 14:54:34",
                 "release_message": "Merge many fingerprint pocs into the panel-detect.yaml file to reduce the number of http requests Console  print date format, 2023-01-01 changed to 01-01 Simplified afrog-config configuration  Fixed: invalid `-fc` configuration Tip: Configure the `-c` command, which can increase the concurrency speed very quickly  -----------------------------------------------------------------------------  将多个 panel 指纹探测合并到文件 panel-detect.yaml，大幅减少 http 请求 精简控制台日期打印，2023-01-01 改为 01-01 精简 afrog-config 配置信息  解决：`-fc` 命令配置无效问题 提示：配置 `-c` 命令能明显提高扫描速度"
@@ -928,6 +928,15 @@
                 "release_tag": "1.3",
                 "release_date": "2022-04-17 13:53:26",
                 "release_message": "[更新1.3版本，支持SpringCloudGatewayRCE CVE-2022-22947](https://github.com/0x727/SpringBootExploit/commit/e9dcb1b3e4ea55f753e2a6b4e0078bb01a3ae8cf) 目前仅仅支持小马，NettyMemshell和SpringRequestMappingMemshell 参考 文章https://gv7.me/articles/2022/the-spring-cloud-gateway-inject-memshell-through-spel-expressions/  "
+            },
+            "https://github.com/13exp/SpringBoot-Scan-GUI": {
+                "created_at": "2023-02-08 13:09:31",
+                "description": "",
+                "commit_date": "2023-02-13 09:40:40",
+                "commit_message": "Add files via upload",
+                "release_tag": "v1.2.2",
+                "release_date": "2023-02-13 14:03:48",
+                "release_message": "针对CVE-2022-22965，增加shell验证减少误报，新增加操作系统识别功能，若需使用，可从菜单【更多】，前往nmap下载使用，识别仅支持单地址"
             }
         },
         "中间件&框架漏洞扫描": {
@@ -1062,8 +1071,8 @@
             "https://github.com/su18/ysoserial": {
                 "created_at": "2021-07-26 01:20:01",
                 "description": "ysoserial for su18",
-                "commit_date": "2023-02-09 03:45:57",
-                "commit_message": "更新版本号",
+                "commit_date": "2023-02-13 07:06:30",
+                "commit_message": "更新 BeanShell 和 C3P02 利用链支持 LF 加载本地 class 文件功能",
                 "release_tag": "v1.3",
                 "release_date": "2023-02-09 03:57:44",
                 "release_message": "1. 添加 ROME3、CommonsCollectionsK1、CommonsCollectionsK2 利用链； 2. 添加 mcl 参数，可以指定在 TransformerUtil 中使用 org.mozilla.javascript.DefiningClassLoader； 3. 添加 f 参数，可以指定将输出写在文件中； 4. 更新 BeanShell 在 2.0b4 上的利用链，并用 ScriptEngineManager 的方式对 BeanShell 链支持内存马； 5. 更新 SpringWebFlux 内存马（目前仅支持 gz 及 cmd）； 6. 添加 SpringEcho 回显方式； 7. 更新 cmd/冰蝎/哥斯拉 动态添加的逻辑使用纯反射编写； 8. **【重要】**移除 Referer 参数，用于校验的 Referer 头部现改为可自定义 Header 头部和值，并将校验逻辑由 equals 改为 contains；  9. 支持自定义传递执行命令的 Header 头； 10. 支持自定义 Godzilla key； 11. 由于打包问题，移除 RenderedImage 利用链及相关依赖； 12. 更新 Executor 内存马使用 CMD_HEADER_STRING 统一 Header； 13. 优化大量代码，修复若干 BUG，更新 ReadMe。"
@@ -1464,8 +1473,8 @@
             "https://github.com/lal0ne/vulnerability": {
                 "created_at": "2022-01-20 02:48:42",
                 "description": "收集、整理、修改互联网上公开的漏洞POC",
-                "commit_date": "2023-02-06 07:07:53",
-                "commit_message": "CVE-2022-47966",
+                "commit_date": "2023-02-13 03:07:42",
+                "commit_message": "CVE-2023-0669",
                 "release_tag": "",
                 "release_date": "",
                 "release_message": ""
@@ -1491,8 +1500,8 @@
             "https://github.com/ycdxsb/PocOrExp_in_Github": {
                 "created_at": "2021-04-13 05:46:16",
                 "description": "聚合Github上已有的Poc或者Exp，CVE信息来自CVE官网。Auto Collect Poc Or Exp from Github by CVE ID.",
-                "commit_date": "2023-02-13 00:03:50",
-                "commit_message": "update 2023-02-13 08:03:50",
+                "commit_date": "2023-02-14 01:01:06",
+                "commit_message": "update 2023-02-14 09:01:06",
                 "release_tag": "",
                 "release_date": "",
                 "release_message": ""
@@ -1665,10 +1674,10 @@
             "https://github.com/murphysecurity/murphysec": {
                 "created_at": "2022-03-16 02:52:33",
                 "description": "An open source tool focused on software supply chain security. 墨菲安全专注于软件供应链安全，具备专业的软件成分分析（SCA）、漏洞检测、专业漏洞库。",
-                "commit_date": "2023-02-08 11:37:07",
-                "commit_message": "fix: add --json flag use client access-type",
-                "release_tag": "v3.0.0",
-                "release_date": "2022-12-30 03:55:27",
+                "commit_date": "2023-02-13 07:27:58",
+                "commit_message": "fix: InitLogger should return old context object even in error",
+                "release_tag": "v3.0.1",
+                "release_date": "2023-02-13 07:25:06",
                 "release_message": ""
             },
             "https://github.com/LoRexxar/Kunlun-M": {
@@ -1685,8 +1694,8 @@
             "https://github.com/chaitin/veinmind-tools": {
                 "created_at": "2022-02-08 08:12:15",
                 "description": "veinmind-tools 是由长亭科技自研，基于 veinmind-sdk 打造的容器安全工具集",
-                "commit_date": "2023-02-10 09:09:39",
-                "commit_message": "feat: upgrade (#184)\n\n* feat(plugins): upgrade 2.0\r\n\r\n* feat(docs): readme\r\n\r\n* fix(runner): Dockerfile\r\n\r\n---------\r\n\r\nCo-authored-by: GiveMeAShell <zhuo.li@chaitin.com>",
+                "commit_date": "2023-02-13 10:33:29",
+                "commit_message": "fix(veinmind-tools):readme change pic (#186)\n\nCo-authored-by: GiveMeAShell <zhuo.li@chaitin.com>",
                 "release_tag": "v2.0.0",
                 "release_date": "2023-02-10 10:36:38",
                 "release_message": "## Feature + runner cmd优化: 协议化扫描对象 + runner 支持插件参数自定义 + runner 支持扫描 tar 类型镜像 + 插件报告输出优化：支持 cli/json/htm + script.sh => makefile + 新增 `veinmind-esclate` 逃逸检测插件 + `veinmind-asset` 升级为 `veinmind-vuln`，支持漏洞扫描 + `iac` 支持扫描 `kubernetes`"
@@ -1938,7 +1947,7 @@
             "https://github.com/Threekiii/Awesome-Redteam": {
                 "created_at": "2022-02-08 00:45:03",
                 "description": "一个红队知识仓库",
-                "commit_date": "2023-02-09 01:09:06",
+                "commit_date": "2023-02-13 06:49:15",
                 "commit_message": "更新README.md",
                 "release_tag": "",
                 "release_date": "",
@@ -1970,14 +1979,23 @@
                 "release_tag": "",
                 "release_date": "",
                 "release_message": ""
+            },
+            "https://github.com/wwl012345/Vuln-List": {
+                "created_at": "2022-03-01 03:07:52",
+                "description": "(持续更新)对网上出现的各种OA、中间件、CMS等漏洞进行整理，主要包括漏洞介绍、漏洞影响版本以及漏洞POC/EXP等，并且会持续更新。",
+                "commit_date": "2023-02-10 07:42:53",
+                "commit_message": "Update 中间件&框架&平台&第三方服务漏洞.md",
+                "release_tag": "",
+                "release_date": "",
+                "release_message": ""
             }
         },
         "优秀项目集合": {
             "https://github.com/knownsec/404StarLink": {
                 "created_at": "2020-11-17 08:10:18",
                 "description": "404StarLink - 推荐优质、有意义、有趣、坚持维护的安全开源项目",
-                "commit_date": "2023-02-06 03:12:09",
-                "commit_message": "weekly update at 2023-02-06",
+                "commit_date": "2023-02-13 03:10:11",
+                "commit_message": "weekly update at 2023-02-13",
                 "release_tag": "",
                 "release_date": "",
                 "release_message": ""
@@ -2032,11 +2050,11 @@
             "https://github.com/akkuman/rotateproxy": {
                 "created_at": "2021-10-18 02:10:27",
                 "description": "利用fofa搜索socks5开放代理进行代理池轮切的工具",
-                "commit_date": "2022-09-01 09:53:26",
-                "commit_message": "feat: support check url and add readme for mac cross compile (#14)\n\nCo-authored-by: yang.yu <yang.yu@chaitin.com>",
-                "release_tag": "v0.7.1",
-                "release_date": "2022-08-18 02:35:51",
-                "release_message": "## Changelog * d9e2837 fix: 修正抛出copybuffer时的错误  "
+                "commit_date": "2023-02-13 06:04:33",
+                "commit_message": "fix: modernc.org/sqlite 不支持 win 386",
+                "release_tag": "v0.7.2",
+                "release_date": "2023-02-13 06:07:53",
+                "release_message": "## Changelog * 10ddfd1 fix: modernc.org/sqlite 不支持 win 386  "
             }
         }
     },
@@ -2446,7 +2464,7 @@
             "https://github.com/ExpLangcn/NucleiTP": {
                 "created_at": "2022-11-08 13:16:56",
                 "description": "自动整合全网Nuclei的漏洞POC，实时同步更新最新POC！",
-                "commit_date": "2023-02-13 01:00:02",
+                "commit_date": "2023-02-14 01:00:03",
                 "commit_message": "更新啦❤️",
                 "release_tag": "",
                 "release_date": "",
@@ -2899,8 +2917,8 @@
             "https://github.com/RsaCtfTool/RsaCtfTool": {
                 "created_at": "2015-03-07 17:29:33",
                 "description": "RSA attack tool (mainly for ctf) - retreive private key from weak public key and/or uncipher data",
-                "commit_date": "2023-02-09 16:04:08",
-                "commit_message": "lift pylint warnings",
+                "commit_date": "2023-02-13 14:40:00",
+                "commit_message": "Update README.md",
                 "release_tag": "",
                 "release_date": "",
                 "release_message": ""
@@ -2925,17 +2943,17 @@
             "https://github.com/joke2k/faker": {
                 "created_at": "2012-11-12 23:00:09",
                 "description": "Faker is a Python package that generates fake data for you.",
-                "commit_date": "2023-02-09 21:14:13",
-                "commit_message": "Bump version: 16.8.0 → 16.8.1",
-                "release_tag": "v16.8.1",
-                "release_date": "2023-02-09 21:15:09",
-                "release_message": "See [CHANGELOG.md](https://github.com/joke2k/faker/blob/refs/tags/v16.8.1/CHANGELOG.md)."
+                "commit_date": "2023-02-13 17:18:49",
+                "commit_message": "Bump version: 16.9.0 → 17.0.0",
+                "release_tag": "v17.0.0",
+                "release_date": "2023-02-13 17:23:10",
+                "release_message": "See [CHANGELOG.md](https://github.com/joke2k/faker/blob/refs/tags/v17.0.0/CHANGELOG.md)."
             },
             "https://github.com/pppscn/SmsForwarder": {
                 "created_at": "2021-02-10 02:23:07",
                 "description": "短信转发器——监控Android手机短信、来电、APP通知，并根据指定规则转发到其他手机：钉钉群自定义机器人、钉钉企业内机器人、企业微信群机器人、飞书机器人、企业微信应用消息、邮箱、bark、webhook、Telegram机器人、Server酱、PushPlus、手机短信等。包括主动控制服务端与客户端，让你轻松远程发短信、查短信、查通话、查话簿、查电量等。（V3.0 新增）PS.这个APK主要是学习与自用，如有BUG请提ISSUE，同时欢迎大家提PR指正",
-                "commit_date": "2023-02-12 15:20:34",
-                "commit_message": "修复：转发消息遍历发送通道时未跳过已禁用的通道",
+                "commit_date": "2023-02-13 07:54:52",
+                "commit_message": "优化：电池状态监听/网络状态监控 在未开启去重时默认开启1秒去重",
                 "release_tag": "v3.1.1",
                 "release_date": "2022-10-27 13:06:46",
                 "release_message": "PS. 踩着1024的尾巴，提交了3.1.0版本，迟到的程序猿节礼物！  ---  ### 【注意】 * v3.x版本是全新重构开发，可能一开始并不稳定，建议升级前先做好数据备份！（客户端>一键换新机>离线模式>导出） * 从2.x升级上来耗电异常的，尝试全新安装后导入配置  ### 更新日志  * 紧急修复：微信小程序端报错“sm4Key must not be null” * 新增：微信小程序客户端的太阳码 * 新增：`HttpServer`请求/应答报文进行`国密SM4`对称加密传输 【配套`SmsF`微信小程序】 * 新增：`HttpServer`请求/应答报文进行`RSA`非对称加密传输 * 升级：gradle及依赖版本 * 修复：远程控制发送短信时手机号不能包含国家地区代码 (#231) * 优化：允许自定义客户端与服务端时间容差，避免请求重放攻击 #227 * 优化：提升发送通道多参数分隔的兼容性 * 优化：Bark的消息链接支持URL Scheme #229 * 优化：提升发送通道多参数分隔的兼容性 * 优化：检查合法的URL时支持IPv6地址（例如：主动控制·客户端的服务地址） * 整理：更新APP通知转发的多重匹配规则示例 * 新增：`webhook`发送通道增加`PUT`/`PATCH`请求方式 #206 * 优化：仅当有WIFI网络时自动检查更新/获取提示 * 新增：自动删除N天前的转发记录（0=禁用，触发机制：每次电量变化时扫描） #224 * 优化：自动消除通知仅消除已匹配的通知 #204（临时方案，重复查询换取准确性） * 修复：通话转发卡槽信息识别错误 * 精简：去掉美团多渠道打包 * 升级：权限请求框架 XXPermissions * 修复：极端情况下Gson().fromJson爆空指针错误 #207 * 修复：通过转发日志中重新发送短信时，{{接收时间}}错误 #218  ### APK版本说明： * universal: 通用版（不在乎安装包大小/懒得选就用这个版本，包含以下4种CPU架构so） * armeabi-v7a: 32位ARM设备（备用机首选） * arm64-v8a: 64位ARM设备（主流旗舰机） * x86: 32位Intel设备 * x86_64: 64/32位Intel设备"
@@ -2943,8 +2961,8 @@
             "https://github.com/dbeaver/dbeaver": {
                 "created_at": "2015-10-21 08:26:28",
                 "description": "Free universal database tool and SQL client",
-                "commit_date": "2023-02-11 07:22:08",
-                "commit_message": "22.3.5 config",
+                "commit_date": "2023-02-13 16:14:54",
+                "commit_message": "Change defaults for Exasol connections parameters. (#18945)",
                 "release_tag": "22.3.4",
                 "release_date": "2023-02-05 18:31:19",
                 "release_message": "                 - ChatGPT integration for smart completion and code generation (as optional extension)                 - Accessibility:                     - Text reader for entity editor was improved                     - Text reader for data grid was improved                 - SQL editor:                     - Query generation from human language text was added                     - Server output log levels configuration was improved                     - Global metadata search was fixed                     - Variables resolution is fixed in strings and comments                     - Issue with queries with invalid line feeds was resolved                 - Data editor:                     - Grouping panel messages were improved                     - Datetime calendar editor was fixed (in panel and inline editor)                 - Database navigator: issue with rename/refresh was resolved                 - Dashboards were fixed for inherited databases                 - Project import now sets DBeaver nature (thanks to @froque                 - ERD: custom diagram editor was fixed (issue wth missing notes and connections was resolved)                 - Databricks: table DDL reading was fixed, extra SQL keywords were added (thanks to @mixam24)                 - DB2 BigSQL: table with RID_BIT columns data reading was fixed (thanks to @bkyle)                 - MySQL: numeric identifiers quoting was fixed                 - Netezza: tables/views search query was improved                 - PostgreSQL:                     - Procedures invocation was improved (thanks to @plotn)                     - Filter by enum was fixed (thanks to @plotn)                 - Redshift: triggers DDL reading was fixed                 - Snowflake: table constraints reading was fixed                 - We switched to Java 17 so now DBeaver supports all newest JDBC drivers             "
