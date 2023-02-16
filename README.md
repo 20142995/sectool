@@ -1,20 +1,20 @@
-# 更新于 2023-02-15 09:08:14
+# 更新于 2023-02-16 09:09:27
 
 ## 近30天release更新记录
 | 更新时间 | 项目名称 | 版本 | 更新内容 |
 | :---- | :---- | :---- | :---- |
-|2023-02-14 13:21:37|[gshark](https://github.com/madneal/gshark)|v1.1.4|## Fixed* 修复无法变更规则状态的问题|
+|2023-02-15 15:59:21|[autoDecoder](https://github.com/f0ng/autoDecoder)|0.22|## 2023.2.15 更新0.22 重大更新 1. 重构U<br>I页面，之前的UI太混乱，花了点时间重构了<br>页面UI2. 增加自带算法加解密的正则提取，当<br>正则表达式有内容时生效，针对两种情况:1. <br>只有请求加密的情况2. 在爆破攻击中，对账号<br>密码加密配置页面原始请求真实请求解密后3. <br>增加接口加解密时的调试页面，方便代码进一<br>步编写正常解密请求包正常解密响应包处理请<br>求头|
+|2023-02-15 10:49:44|[veinmind-tools](https://github.com/chaitin/veinmind-tools)|v2.0.1|## Feature - 支持 arm64 构建## Fix - 修<br>复 Makefile - 修复 veinmind-iac 文件识别<br>问题 - 修复 veinmind-sensitive 扫描过慢问<br>题|
+|2023-02-15 10:17:50|[gshark](https://github.com/madneal/gshark)|v1.1.4|## Fixed* 修复无法变更规则状态的问题 * <br>增加新增 token 的 postman 类型## Added* <br>增加 startSecFilterTask 以及 getTaskStatu<br>sAPI 权限初始化|
+|2023-02-15 02:41:43|[SpringBoot-Scan-GUI](https://github.com/13exp/SpringBoot-Scan-GUI)|v1.2.2|针对CVE-2022-22965，增加shell验证减少误<br>报，新增加操作系统识别功能，若需使用，可<br>从菜单【更多】，前往nmap下载使用，识别仅<br>支持单地址|
 |2023-02-14 09:25:00|[SmsForwarder](https://github.com/pppscn/SmsForwarder)|v3.2.0|PS. 距离上一次1024发版，已经过去快5个月<br>了，期间发生不少事，一直没更新这个项目，<br>不管如何，魔幻的2022年都过去了！感谢大家<br>这2年来的陪伴与支持，祝大家有情人终成眷属<br>，情人节快乐！---### 【注意】* v3.x版本是<br>全新重构开发，可能一开始并不稳定，建议升<br>级前先做好数据备份！（客户端>一键换新机><br>离线模式>导出）* v3.2.0 去除了 mmkv 依赖<br>，采用 SharedPreferences 来保存配置，升级<br>之后通用设置中的配置请重新配置，具体原因<br>参见 [Issue #245](https://github.com/ppps<br>cn/SmsForwarder/issues/245)* 升级完毕后<br>，建议离线导出配置，完全卸载干净全新安装<br>后再导入配置（可以避免一些莫名其妙的玄学<br>问题，例如：耗电异常）---### 更新日志* 新<br>增：短信指令（根据短信指令开关对应功能） <br>#I5YX3F * 新增：监听网络状态变化提醒（AP<br>P通知转发，包名：77777777） #259 * 新增<br>：远程改话簿（方便给老人家添加联系人） #2<br>56 * 新增：远程查询手机定位（方便找回手<br>机/防止老少走丢） #256 * 新增：Socket发送<br>通道（支持MQTT/TCP/UDP协议） #252 * 新增<br>：发送通道 URL Scheme（支持跨应用数据传递<br>）#250 * 新增：自动消除额外APP通知 #232 #<br>248* 优化：短信/通话转发获取卡槽信息机制<br>（自行备注卡槽SubId对应）#228 #235 * 优化<br>：来电转发逻辑 & 新增提醒类型（1.来电挂机<br> 2.去电挂机 3.未接来电 4.来电提醒 5.来电<br>接通 6.去电拨出） * 优化：单个转发规则支<br>持绑定多个发送通道，且支持执行逻辑（全部<br>执行/失败即止/成功即止） #247 * 优化：转<br>发日志列表以原始信息为主，聚合展示转发日<br>志（一对多） * 优化：已安装App信息列表异<br>步加载机制 * 优化：电池状态监听/网络状态<br>监控 在未开启去重时默认开启1秒去重 * 优化<br>：利用BatteryReceiver守护自启动的Frpc (试<br>验) #254* 修复：Android 13 无法授予通知权<br>限 #255 * 修复：重启手机自动启动APP时加载<br>配置失败 #233 #245 * 修复：转发消息遍历发<br>送通道时未跳过已禁用的通道 * 修复：降级An<br>droid Gradle插件版本以兼容4.4 (#249 by N<br>yaMisty)* 升级：andserver到2.1.12（加快w<br>eb端上下行速度等） * 升级：frpclib 到 v0<br>.47.0 * 升级：androidx组件和kotlin版本还<br>有一些细微调整参见github提交记录---### AP<br>K版本说明： * universal: 通用版（不在乎<br>安装包大小/懒得选就用这个版本，包含以下4<br>种CPU架构so） * armeabi-v7a: 32位ARM设备<br>（备用机首选） * arm64-v8a: 64位ARM设备（<br>主流旗舰机） * x86: 32位Intel设备 * x86_6<br>4: 64/32位Intel设备|
-|2023-02-14 08:28:19|[autoDecoder](https://github.com/f0ng/autoDecoder)|0.21|## 2023.2.14 更新0.21 1. 增加burp模块按<br>钮，防止与其他模块(如插件Extender)产生的<br>请求冲突 2. 优化解密读取密文方式，进行URL<br>解码后读取|
 |2023-02-14 05:23:46|[log4j2burpscanner](https://github.com/f0ng/log4j2burpscanner)|0.22.0|# 0.22.0 更新 ## 2023-2-14fix problem #<br>58修复数据包中uri带有完整域名的问题，感<br>谢@0xWi11 师傅反馈|
 |2023-02-13 17:23:10|[faker](https://github.com/joke2k/faker)|v17.0.0|See [CHANGELOG.md](https://github.com/j<br>oke2k/faker/blob/refs/tags/v17.0.0/CHANG<br>ELOG.md).|
-|2023-02-13 14:03:48|[SpringBoot-Scan-GUI](https://github.com/13exp/SpringBoot-Scan-GUI)|v1.2.2|针对CVE-2022-22965，增加shell验证减少误<br>报，新增加操作系统识别功能，若需使用，可<br>从菜单【更多】，前往nmap下载使用，识别仅<br>支持单地址|
 |2023-02-13 07:25:06|[murphysec](https://github.com/murphysecurity/murphysec)|v3.0.1||
 |2023-02-13 06:07:53|[rotateproxy](https://github.com/akkuman/rotateproxy)|v0.7.2|## Changelog * 10ddfd1 fix: modernc.org<br>/sqlite 不支持 win 386|
 |2023-02-13 03:33:11|[ENScan_GO](https://github.com/wgpsec/ENScan_GO)|V0.0.9|**bugfix** - 修复JSON导出问题 fix #46 -<br> 修复天眼查日期问题 fix #43 - 修复阿拉丁<br>导出bug fix #30**new** - 增加只在终端显示<br>不导出文件 fix #25|
 |2023-02-10 14:36:44|[nuclei](https://github.com/projectdiscovery/nuclei)|v2.8.9|## What's Changed* **Fixed URL encoding<br> issues in paths by @tarunKoyalwar** in <br>https://github.com/projectdiscovery/nucl<br>ei/pull/3294 * **Fixed panic crash with <br>ratelimit by @tarunKoyalwar** in https:/<br>/github.com/projectdiscovery/nuclei/pull<br>/3257 * Fixed path handling inconsistenc<br>ies by @tarunKoyalwar in https://github.<br>com/projectdiscovery/nuclei/pull/3243 * <br>Fixed data race in templates with payloa<br>ds by @tarunKoyalwar in https://github.c<br>om/projectdiscovery/nuclei/pull/3265 * *<br>*Fixed using httpx as a library for http<br> probing by @Ice3man543** in https://git<br>hub.com/projectdiscovery/nuclei/pull/326<br>1 * Fixed data race in race requests by <br>@tarunKoyalwar in https://github.com/pro<br>jectdiscovery/nuclei/pull/3275 * Fixed p<br>ublish docs workflow by @tarunKoyalwar i<br>n https://github.com/projectdiscovery/nu<br>clei/pull/3296 * Fixed retryablehttp for<br> templates loading by @Mzack9999 in http<br>s://github.com/projectdiscovery/nuclei/p<br>ull/3291 * Fixed aes_cbc helper function<br> update by @Ice3man543 in https://github<br>.com/projectdiscovery/nuclei/pull/3287 *<br> Fixed json schema for extractor attribu<br>te by @Mzack9999 in https://github.com/p<br>rojectdiscovery/nuclei/pull/3240 * **Add<br>ed env variable support in reporting con<br>fig by @xm1k3** in https://github.com/pr<br>ojectdiscovery/nuclei/pull/3188 * Added <br>proxy use in headless binary download by<br> @Mzack9999 in https://github.com/projec<br>tdiscovery/nuclei/pull/3290 * **Added in<br>teractsh payload input support in TLS SN<br>I field by @Mzack9999** in https://githu<br>b.com/projectdiscovery/nuclei/pull/3276I<br>ssues closed in the release - https://gi<br>thub.com/projectdiscovery/nuclei/milesto<br>ne/26?closed=1## New Contributors * @M-F<br>aheem-Khan made their first contribution<br> in https://github.com/projectdiscovery/<br>nuclei/pull/3235 * @galoget made their f<br>irst contribution in https://github.com/<br>projectdiscovery/nuclei/pull/3299**Full <br>Changelog**: https://github.com/projectd<br>iscovery/nuclei/compare/v2.8.8...v2.8.9|
 |2023-02-10 11:17:41|[captcha-killer-modi<br>fied](https://github.com/f0ng/captcha-killer-modified)|0.21-beta|【2023-2-10】 0.21-beta - 优化验证码编<br>码中的\n处理 - 优化@captcha@的判断方式感<br>谢微信群@5ING 、@策马奔腾 师傅反馈|
-|2023-02-10 10:36:38|[veinmind-tools](https://github.com/chaitin/veinmind-tools)|v2.0.0|## Feature + runner cmd优化: 协议化扫描<br>对象 + runner 支持插件参数自定义 + runner<br> 支持扫描 tar 类型镜像 + 插件报告输出优<br>化：支持 cli/json/htm + script.sh => make<br>file + 新增 veinmind-esclate 逃逸检测插<br>件 + veinmind-asset 升级为 veinmind-vuln<br>，支持漏洞扫描 + iac 支持扫描 kubernetes|
 |2023-02-10 03:38:45|[Elkeid](https://github.com/bytedance/Elkeid)|rasp-v2.1<br>.0.8-pre||
 |2023-02-09 13:53:05|[github-subdomains](https://github.com/gwen001/github-subdomains)|v1.2.2||
 |2023-02-09 03:57:44|[ysoserial](https://github.com/su18/ysoserial)|v1.3|1. 添加 ROME3、CommonsCollectionsK1、Co<br>mmonsCollectionsK2 利用链； 2. 添加 mcl <br>参数，可以指定在 TransformerUtil 中使用 o<br>rg.mozilla.javascript.DefiningClassLoade<br>r； 3. 添加 f 参数，可以指定将输出写在文<br>件中； 4. 更新 BeanShell 在 2.0b4 上的利<br>用链，并用 ScriptEngineManager 的方式对 B<br>eanShell 链支持内存马； 5. 更新 SpringWe<br>bFlux 内存马（目前仅支持 gz 及 cmd）； 6<br>. 添加 SpringEcho 回显方式； 7. 更新 cmd<br>/冰蝎/哥斯拉 动态添加的逻辑使用纯反射编<br>写； 8. **【重要】**移除 Referer 参数，用<br>于校验的 Referer 头部现改为可自定义 Heade<br>r 头部和值，并将校验逻辑由 equals 改为 c<br>ontains；9. 支持自定义传递执行命令的 Hea<br>der 头； 10. 支持自定义 Godzilla key； 1<br>1. 由于打包问题，移除 RenderedImage 利用<br>链及相关依赖； 12. 更新 Executor 内存马使<br>用 CMD_HEADER_STRING 统一 Header； 13. 优<br>化大量代码，修复若干 BUG，更新 ReadMe。|
@@ -33,25 +33,27 @@
 ## 近30天commit提交记录
 | 提交时间 | 项目名称 | 更新内容 |
 | :---- | :---- | :---- |
-|2023-02-15 01:00:03|[NucleiTP](https://github.com/ExpLangcn/NucleiTP)|更新啦❤️|
-|2023-02-15 00:32:56|[PocOrExp_in_Github](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-02-15 08:32:56|
-|2023-02-14 20:43:46|[RsaCtfTool](https://github.com/RsaCtfTool/RsaCtfTool)|fix issue #403|
-|2023-02-14 15:35:41|[dbeaver](https://github.com/dbeaver/dbeaver)|dbeaver/pro#1387 ai enhancements (#18934)* dbeaver/pro<br>#1387 AI modules refactoring + QMDB refactoring* dbeave<br>r/pro#1387 AI completion history model* dbeaver/pro#134<br>6 Fill text from history combo* #15743 Aggregate functi<br>ons DDL read error log* dbeaver/pro#1387 AI completion <br>history model, QMDB API refactoring* dbeaver/pro#1387 A<br>I completion history read/write* dbeaver/pro#1387 AI - <br>history search fix* dbeaver/pro#1387 Code style* Remove<br> redundant debug log* dbeaver/pro#1387 AI enablement pr<br>efs* Mass rows insert performance improve* dbeaver/pro#<br>1387 AI settings redesign* dbeaver/pro#1387 Limit promp<br>t automatically, include source in query comment* dbeav<br>er/pro#1387 Completion popup redesign* dbeaver/pro#1387<br> Fix SQL completion tests* dbeaver/pro#1387 Scope confi<br>g UI. Meta transfer confirmations for each connection.*<br> dbeaver/pro#1387 Scope configuration* dbeaver/pro#1387<br> Scope configuration refactoring. replace active query <br>with new one* dbeaver/pro#1387 Disable refs for now, ad<br>d instructions* Deps update|
+|2023-02-16 01:00:03|[NucleiTP](https://github.com/ExpLangcn/NucleiTP)|更新啦❤️|
+|2023-02-16 00:33:25|[PocOrExp_in_Github](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-02-16 08:33:25|
+|2023-02-15 16:48:37|[RsaCtfTool](https://github.com/RsaCtfTool/RsaCtfTool)|common_factors: simplify logic check for factors|
+|2023-02-15 16:09:20|[dbeaver](https://github.com/dbeaver/dbeaver)|pro#1377 Fonts (#19073)* dbeaver/pro#1377 Add new font<br> category DBeaver Fonts and Monospace font, use Monospa<br>ce font instead of SQL Output font and Hex font* dbeave<br>r/pro#1377 Use Tree and Table font for ItemListControl*<br> dbeaver/pro#1377 Add fonts override and hide in prefer<br>ence page* dbeaver/pro#1377 Refactor font constants|
+|2023-02-15 16:01:13|[RedisEXP](https://github.com/yuyan-sec/RedisEXP)|gopher|
+|2023-02-15 15:59:14|[autoDecoder](https://github.com/f0ng/autoDecoder)|Update README.md|
+|2023-02-15 10:43:34|[veinmind-tools](https://github.com/chaitin/veinmind-tools)|fix(veinmind-sensitive):add filesize limit (#190)Co-au<br>thored-by: GiveMeAShell |
+|2023-02-15 10:15:55|[gshark](https://github.com/madneal/gshark)|add permission initial for two API|
+|2023-02-15 09:46:59|[kscan](https://github.com/lcvvvv/kscan)|[*]修复一个Redis协议爆破的bug，之前可能会存在误报|
+|2023-02-15 03:34:58|[xray](https://github.com/chaitin/xray)|[update] readme|
+|2023-02-15 02:40:09|[SpringBoot-Scan-GUI](https://github.com/13exp/SpringBoot-Scan-GUI)|Delete targets.txt|
+|2023-02-15 02:30:55|[ysoserial](https://github.com/su18/ysoserial)|更新 Jboss Filter 型内存马支持 JBoss-4.2.3.GA|
+|2023-02-15 02:01:21|[SmsForwarder](https://github.com/pppscn/SmsForwarder)|优化：APP通知转发的默认模板去除卡槽主键(SubId)字段|
+|2023-02-15 01:51:40|[Elkeid](https://github.com/bytedance/Elkeid)|update RASP ElkeidData.xlsx|
 |2023-02-14 13:28:52|[BurpSuite-collectio<br>ns](https://github.com/Mr-xn/BurpSuite-collections)|add OutLook: 在已登录Outlook账号后，可以使用该插件自动<br>爬取所有联系人的信息|
-|2023-02-14 13:16:26|[gshark](https://github.com/madneal/gshark)|fix #142|
-|2023-02-14 12:11:59|[ysoserial](https://github.com/su18/ysoserial)|更新 JbossEcho 支持 JBoss-4.2.3.GA|
-|2023-02-14 10:41:14|[xray](https://github.com/chaitin/xray)|[update] readme|
 |2023-02-14 09:38:24|[wpscan](https://github.com/wpscanteam/wpscan)|Merge pull request #1770 from wpscanteam/dependabot/gi<br>thub_actions/docker/build-push-action-4Bump docker/buil<br>d-push-action from 3 to 4|
-|2023-02-14 09:14:18|[SmsForwarder](https://github.com/pppscn/SmsForwarder)|v3.2.0|
-|2023-02-14 08:24:48|[autoDecoder](https://github.com/f0ng/autoDecoder)|Update README.md|
 |2023-02-14 05:21:16|[log4j2burpscanner](https://github.com/f0ng/log4j2burpscanner)|Update README.md|
 |2023-02-14 04:41:01|[All-Defense-Tool](https://github.com/guchangan1/All-Defense-Tool)|更新v2.2|
 |2023-02-14 03:37:28|[dirsearch](https://github.com/maurosoria/dirsearch)|Merge pull request #1278 from ibnudev7/patch-1Update d<br>icc.txt|
-|2023-02-14 03:07:59|[Elkeid](https://github.com/bytedance/Elkeid)|Merge pull request #430 from Smartuu/main切换病毒扫描<br>的任务接口到新接口|
 |2023-02-14 02:38:18|[murphysec](https://github.com/murphysecurity/murphysec)|chore(deps): bump github.com/muesli/termenv from 0.13.<br>0 to 0.14.0 (#121)Bumps [github.com/muesli/termenv](htt<br>ps://github.com/muesli/termenv) from 0.13.0 to 0.14.0.-<br> [Release notes](https://github.com/muesli/termenv/rele<br>ases)- [Commits](https://github.com/muesli/termenv/comp<br>are/v0.13.0...v0.14.0)---updated-dependencies:- depende<br>ncy-name: github.com/muesli/termenvdependency-type: dir<br>ect:productionupdate-type: version-update:semver-minor.<br>..Signed-off-by: dependabot[bot]Co-authored-by: dependa<br>bot[bot] |
 |2023-02-13 17:18:49|[faker](https://github.com/joke2k/faker)|Bump version: 16.9.0 → 17.0.0|
-|2023-02-13 10:33:29|[veinmind-tools](https://github.com/chaitin/veinmind-tools)|fix(veinmind-tools):readme change pic (#186)Co-authore<br>d-by: GiveMeAShell |
-|2023-02-13 09:40:40|[SpringBoot-Scan-GUI](https://github.com/13exp/SpringBoot-Scan-GUI)|Add files via upload|
 |2023-02-13 06:49:15|[Awesome-Redteam](https://github.com/Threekiii/Awesome-Redteam)|更新README.md|
 |2023-02-13 06:04:33|[rotateproxy](https://github.com/akkuman/rotateproxy)|fix: modernc.org/sqlite 不支持 win 386|
 |2023-02-13 03:26:39|[ENScan_GO](https://github.com/wgpsec/ENScan_GO)|修复JSON导出问题 fix #46
@@ -77,7 +79,6 @@
 |2023-02-08 13:55:17|[QingTing](https://github.com/StarCrossPortal/QingTing)|add code|
 |2023-02-08 03:49:42|[ARL](https://github.com/TophantTechnology/ARL)|Merge pull request #480 from chasenz/masterUpdate nucl<br>ei dump|
 |2023-02-08 02:14:56|[SharpWxDump](https://github.com/AdminTest0/SharpWxDump)|Update README.md|
-|2023-02-07 08:22:05|[kscan](https://github.com/lcvvvv/kscan)|[-]修复之前效率极低的去重算法TAT|
 |2023-02-06 13:13:40|[poc-hub](https://github.com/ybdt/poc-hub)|整理|
 |2023-02-06 09:20:28|[ffuf](https://github.com/ffuf/ffuf)|Fix the v2 tagging for go install (#639)|
 |2023-02-06 04:48:56|[cola_dnslog](https://github.com/AbelChe/cola_dnslog)|Merge pull request #26 from AbelChe/1.3.2fix webserver<br> 404|
@@ -88,7 +89,6 @@
 |2023-02-03 16:09:26|[qsnctf-python](https://github.com/Moxin1044/qsnctf-python)|fix api.py 421|
 |2023-02-03 10:10:16|[passive-scan-client](https://github.com/c0ny1/passive-scan-client)|恢复默认端口和整理代码符合低版本语法糖|
 |2023-02-03 07:47:41|[ysomap](https://github.com/wh1t3p1g/ysomap)|fix bug|
-|2023-02-02 08:46:07|[RedisEXP](https://github.com/yuyan-sec/RedisEXP)|update|
 |2023-02-02 06:50:04|[mitaka](https://github.com/ninoseki/mitaka)|Merge pull request #694 from ninoseki/renovate/typescr<br>ipt-eslint-monorepochore(deps): update typescript-eslin<br>t monorepo to v5.44.0|
 |2023-02-02 02:36:25|[JDumpSpider](https://github.com/whwlsfb/JDumpSpider)|add SpringSecurityUsernamePasswordAuthenticationToken <br>spider.|
 |2023-02-01 12:26:23|[RequestTemplate](https://github.com/1n7erface/RequestTemplate)|Update README.md|
@@ -105,8 +105,7 @@
 |2023-01-19 08:59:39|[Heimdallr](https://github.com/graynjo/Heimdallr)|update README|
 |2023-01-17 09:41:54|[Packer-Fuzzer](https://github.com/rtcatc/Packer-Fuzzer)|v1.4.15 更新demo图片|
 |2023-01-17 05:49:54|[gospider](https://github.com/jaeles-project/gospider)|Merge pull request #59 from aidanhall34/dockerfileCrea<br>ted dockerfile and updated README.md|
-|2023-01-17 03:03:16|[CN_Nessus_Plugins_I<br>nterface](https://github.com/nszy007/CN_Nessus_Plugins_Interface)|20230113|
-|2023-01-16 10:59:37|[Scanners-Box](https://github.com/We5ter/Scanners-Box)|[+]kvesta/vesta|## 所有项目
+|2023-01-17 03:03:16|[CN_Nessus_Plugins_I<br>nterface](https://github.com/nszy007/CN_Nessus_Plugins_Interface)|20230113|## 所有项目
 ### 信息收集
 #### 资产测绘采集
 | 项目名称 | 版本 | 项目描述 |
@@ -372,7 +371,7 @@
 #### 容器漏洞扫描
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
-| [veinmind-tools](https://github.com/chaitin/veinmind-tools) | v2.0.0 | veinmind-tools 是由长亭科技自研，基于 veinmind-sdk 打造的容器安<br>全工具集 |
+| [veinmind-tools](https://github.com/chaitin/veinmind-tools) | v2.0.1 | veinmind-tools 是由长亭科技自研，基于 veinmind-sdk 打造的容器安<br>全工具集 |
 #### 容器漏洞利用
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
@@ -470,7 +469,7 @@
 | [HopLa](https://github.com/synacktiv/HopLa) | 1.2 |  HopLa Burp Suite Extender plugin -Adds autocompletion support a<br>nd useful payloads in Burp Suite |
 | [captcha-killer-modi<br>fied](https://github.com/f0ng/captcha-killer-modified) | 0.21-beta | captcha-killer的修改版，支持关键词识别base64编码的图片，添加免费<br>ocr库，用于验证码爆破，适配新版Burpsuite |
 | [BurpCrypto](https://github.com/whwlsfb/BurpCrypto) |  | BurpCrypto is a collection of burpsuite encryption plug-ins, sup<br>port AES/RSA/DES/ExecJs(execute JS encryption code in burpsuite).<br> 支持多种加密算法或直接执行JS代码的用于爆破前端加密的BurpSuite插<br>件 |
-| [autoDecoder](https://github.com/f0ng/autoDecoder) | 0.21 | Burp插件，根据自定义来达到对数据包的处理（适用于加解密、爆破等）<br>，类似mitmproxy，不同点在于经过了burp中转，在自动加解密的基础上，<br>不影响APP、网站加解密正常逻辑等。 |
+| [autoDecoder](https://github.com/f0ng/autoDecoder) | 0.22 | Burp插件，根据自定义来达到对数据包的处理（适用于加解密、爆破等）<br>，类似mitmproxy，不同点在于经过了burp中转，在自动加解密的基础上，<br>不影响APP、网站加解密正常逻辑等。 |
 | [burpFakeIP](https://github.com/TheKingOfDuck/burpFakeIP) | 1.1 | 服务端配置错误情况下用于伪造ip地址进行测试的Burp Suite插件 |
 | [AutoRepeater](https://github.com/nccgroup/AutoRepeater) |  | Automated HTTP Request Repeating With Burp Suite |
 | [http-request-smuggl<br>er](https://github.com/portswigger/http-request-smuggler) |  |  |
