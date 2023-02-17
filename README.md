@@ -1,10 +1,10 @@
-# 更新于 2023-02-16 09:09:27
+# 更新于 2023-02-17 09:13:21
 
 ## 近30天release更新记录
 | 更新时间 | 项目名称 | 版本 | 更新内容 |
 | :---- | :---- | :---- | :---- |
-|2023-02-15 15:59:21|[autoDecoder](https://github.com/f0ng/autoDecoder)|0.22|## 2023.2.15 更新0.22 重大更新 1. 重构U<br>I页面，之前的UI太混乱，花了点时间重构了<br>页面UI2. 增加自带算法加解密的正则提取，当<br>正则表达式有内容时生效，针对两种情况:1. <br>只有请求加密的情况2. 在爆破攻击中，对账号<br>密码加密配置页面原始请求真实请求解密后3. <br>增加接口加解密时的调试页面，方便代码进一<br>步编写正常解密请求包正常解密响应包处理请<br>求头|
-|2023-02-15 10:49:44|[veinmind-tools](https://github.com/chaitin/veinmind-tools)|v2.0.1|## Feature - 支持 arm64 构建## Fix - 修<br>复 Makefile - 修复 veinmind-iac 文件识别<br>问题 - 修复 veinmind-sensitive 扫描过慢问<br>题|
+|2023-02-16 06:25:09|[autoDecoder](https://github.com/f0ng/autoDecoder)|0.22-beta<br>1|## 2023.2.16 更新0.22-beta1 1. 优化了读<br>取密文的时候将\u0000去除的问题 2. 在自带<br>算法中，将请求包加解密、响应包加解密分离<br>开，可以选中加密算法null表示不进行加解密<br>，返回原数据包|
+|2023-02-16 06:14:37|[veinmind-tools](https://github.com/chaitin/veinmind-tools)|v2.0.3|## Fix - 修复 Dockerfile 编写问题|
 |2023-02-15 10:17:50|[gshark](https://github.com/madneal/gshark)|v1.1.4|## Fixed* 修复无法变更规则状态的问题 * <br>增加新增 token 的 postman 类型## Added* <br>增加 startSecFilterTask 以及 getTaskStatu<br>sAPI 权限初始化|
 |2023-02-15 02:41:43|[SpringBoot-Scan-GUI](https://github.com/13exp/SpringBoot-Scan-GUI)|v1.2.2|针对CVE-2022-22965，增加shell验证减少误<br>报，新增加操作系统识别功能，若需使用，可<br>从菜单【更多】，前往nmap下载使用，识别仅<br>支持单地址|
 |2023-02-14 09:25:00|[SmsForwarder](https://github.com/pppscn/SmsForwarder)|v3.2.0|PS. 距离上一次1024发版，已经过去快5个月<br>了，期间发生不少事，一直没更新这个项目，<br>不管如何，魔幻的2022年都过去了！感谢大家<br>这2年来的陪伴与支持，祝大家有情人终成眷属<br>，情人节快乐！---### 【注意】* v3.x版本是<br>全新重构开发，可能一开始并不稳定，建议升<br>级前先做好数据备份！（客户端>一键换新机><br>离线模式>导出）* v3.2.0 去除了 mmkv 依赖<br>，采用 SharedPreferences 来保存配置，升级<br>之后通用设置中的配置请重新配置，具体原因<br>参见 [Issue #245](https://github.com/ppps<br>cn/SmsForwarder/issues/245)* 升级完毕后<br>，建议离线导出配置，完全卸载干净全新安装<br>后再导入配置（可以避免一些莫名其妙的玄学<br>问题，例如：耗电异常）---### 更新日志* 新<br>增：短信指令（根据短信指令开关对应功能） <br>#I5YX3F * 新增：监听网络状态变化提醒（AP<br>P通知转发，包名：77777777） #259 * 新增<br>：远程改话簿（方便给老人家添加联系人） #2<br>56 * 新增：远程查询手机定位（方便找回手<br>机/防止老少走丢） #256 * 新增：Socket发送<br>通道（支持MQTT/TCP/UDP协议） #252 * 新增<br>：发送通道 URL Scheme（支持跨应用数据传递<br>）#250 * 新增：自动消除额外APP通知 #232 #<br>248* 优化：短信/通话转发获取卡槽信息机制<br>（自行备注卡槽SubId对应）#228 #235 * 优化<br>：来电转发逻辑 & 新增提醒类型（1.来电挂机<br> 2.去电挂机 3.未接来电 4.来电提醒 5.来电<br>接通 6.去电拨出） * 优化：单个转发规则支<br>持绑定多个发送通道，且支持执行逻辑（全部<br>执行/失败即止/成功即止） #247 * 优化：转<br>发日志列表以原始信息为主，聚合展示转发日<br>志（一对多） * 优化：已安装App信息列表异<br>步加载机制 * 优化：电池状态监听/网络状态<br>监控 在未开启去重时默认开启1秒去重 * 优化<br>：利用BatteryReceiver守护自启动的Frpc (试<br>验) #254* 修复：Android 13 无法授予通知权<br>限 #255 * 修复：重启手机自动启动APP时加载<br>配置失败 #233 #245 * 修复：转发消息遍历发<br>送通道时未跳过已禁用的通道 * 修复：降级An<br>droid Gradle插件版本以兼容4.4 (#249 by N<br>yaMisty)* 升级：andserver到2.1.12（加快w<br>eb端上下行速度等） * 升级：frpclib 到 v0<br>.47.0 * 升级：androidx组件和kotlin版本还<br>有一些细微调整参见github提交记录---### AP<br>K版本说明： * universal: 通用版（不在乎<br>安装包大小/懒得选就用这个版本，包含以下4<br>种CPU架构so） * armeabi-v7a: 32位ARM设备<br>（备用机首选） * arm64-v8a: 64位ARM设备（<br>主流旗舰机） * x86: 32位Intel设备 * x86_6<br>4: 64/32位Intel设备|
@@ -29,18 +29,22 @@
 |2023-01-30 08:25:35|[railgun](https://github.com/lz520520/railgun)|v1.5.2|解压密码railgun1. 增加gRPC模式，扩展ser<br>ver端a. 实现了dnslog，通过客户端可直接管<br>理server，并做了一些优化。b. 实现了UDP/TC<br>P的socket反连，通过不同伪装头部来过滤。c<br>. 实现了ICMP反连，通过发送特定长度的ping<br>包来过滤。d. 实现HTTP/HTTPS serverⅰ. HTT<br>P LOG1. 增加http 完整请求包记录ⅱ. 任意<br>内容和大文件下载ⅲ. 扩展服务配置参数，并<br>添加已启动服务信息单独查看窗口。e. gRPC完<br>成tls双向认证f. 增加鉴权，目前只设置管理<br>员和普通用户。g. 历史搜索里，增加查询服务<br>端数据库，目前暂定管理员可查（迁移至gRPC<br>模块）。h. 增加单独gRPC模块，可用于gRPC的<br>设置、用户管理以及历史搜索。 2. 编码转换a<br>. 将https://github.com/lz520520/encrypt-<br>js 合入，通过Dict2ConsoleJS和ConsoleExtr<br>actEncryptPwd两种编码来实现|
 |2023-01-20 18:22:12|[OA-EXPTOOL](https://github.com/LittleBear4/OA-EXPTOOL)|OA-EXPTOO<br>L-v0.7|更新内容如下： 1.代理功能已经实装 2.日<br>志功能已经载入源码，目前只有一米OA会产生<br>日志（日志第二次调用会产生问题，暂不实装<br>） 修复部分poc报错问题，修复通达OAshell的<br>代码错误导致无法连接问题 增加泛微OA_doexc<br>el 泛微OA_ktree_upload 泛微OA_v10_Office<br>Server.phpupload weaveroa-eoffice8-uploa<br>d-RCE 增加用友： yongyou_KSOA_imageuploa<br>d|
 |2023-01-19 06:03:37|[super-xray](https://github.com/4ra1n/super-xray)|1.4|## 1.4春节快乐，从该版本以后使用更帅的*<br>*黑暗主题**，并且简单重构了UI解决了重要<br>的问题：CPU占用过高。允许QPS和最大HOST连<br>接数等参数的设置，优化了一些功能更新内容<br>： - [important] [improve] CPU占用较高需<br>要进行优化 #128 - [important] [feat] 1.4<br>版本以后将全面适配黑暗主题（更帅一些） #1<br>35 - [important] [feat] 每秒最大http请求<br>数max_qps参数设置 #137 - [bug] 提示文字的<br>翻译有误 #133 - [feat] 被动扫描允许自由设<br>置（目前仅支持127） #131 - [feat] 最大HOS<br>T允许的连接数（降低对服务的影响） #138 -<br> [improve] 查看搜索PoC时应该排序以提高效<br>率 #134 - [improve] 不常用的配置应该都移<br>到高级配置中 #132 - [improve] 避免直接使<br>用其他项目的图标 #130 - [improve] 删除没<br>有必要的动态皮肤并简单重构UI #136 - 使用<br>更好的exe图标 - 删除扫雷和弹球（不好玩且<br>与黑暗主题不适配）下载： - super-xray-1.4<br>.jar版本通过java -jar super-xray-1.4.jar<br>启动 - super-xray-1.4-jre-exe.zip是内置了<br>JRE的exe版本 - super-xray-1.4-system-jre<br>.exe是使用系统JRE的exe版本|
-|2023-01-17 10:55:12|[Goby](https://github.com/gobysec/Goby)|Beta2.2.0|# In this update ## Community version u<br>pdate: 1. New memory shell plugin 2. She<br>llHub plugin update 3. Vulnerability mod<br>ule added a function to generate deseria<br>lization Payload, through the memory she<br>ll injection process 4. Five Java deseri<br>alization vulnerabilities were added, in<br>cluding- Bonitasoft Platform serverAPI D<br>eserialization Vulnerability - Liferay P<br>ortal Unauthenticated 7.2.1 C3P0 Deseria<br>lization Vulnerability (CVE-2020-7961) -<br> ManageEngine OpManager Deserialization <br>Vulnerability (CVE-2020-28653) - Zkteco <br>Shiro Deserialization Vulnerability - ZO<br>HO ManageEngine Password Manager Pro Des<br>erialization Vulnerability 5. Fixed the <br>problem that the environment variable ht<br>tp_proxy caused Goby to report errors ab<br>normally 6. Goby can now be updated onli<br>ne and vulnerabilities can be updated ev<br>en if Goby is not in the Mac system Appl<br>ication directory 7. Fixed the problem o<br>f occasional white horizontal lines in G<br>oby 8. remove network error report## Red<br> team/Enterprise version update content <br>1. All update content of 2.2.0 community<br> version 2. 20 new deserialization vulne<br>rabilities were added, including- Apache<br> OFBiz xmlrpc Deserialization Vulnerabil<br>ity (CVE-2020-9496) - Apereo CAS Before <br>4.1.7 Deserialization Vulnerability - Dr<br>eamer CMS Shiro Deserialization Vulnerab<br>ility - EasyReport Shiro Deserialization<br> Vulnerability - FEBS Shiro Deserializat<br>ion Vulnerability - FH Admin Shiro Deser<br>ialization Vulnerability - FineReport V1<br>0 Deserialization RCE Vulnerability - Fo<br>rgeRock AM Deserialization Vulnerability<br> (CVE-2021-35464) - Guns Shiro Deseriali<br>zation Vulnerability - J2eeFAST Shiro De<br>serialization Vulnerability - JavaWeb_La<br>yui Shiro Deserialization Vulnerability <br>- Liferay Portal 6.1.1 CE GA2 CB Deseria<br>lization Vulnerability - MCMS Shiro Dese<br>rialization Vulnerability (CVE-2022-2292<br>8) - OneBlog Shiro Deserialization Vulne<br>rability - pb-cms Shiro Deserialization <br>Vulnerability - QVIS-NVR Camera Manageme<br>nt System RCE (CVE-2021-41419) - RuoYi-p<br>lus Shiro Deserialization Vulnerability <br>- TIMO Shiro Deserialization Vulnerabili<br>ty - Ysk ERP Shiro Deserialization Vulne<br>rability**Zkteco Shiro Deserialization V<br>ulnerability**![5s8l2F.gif](https://www.<br>gobies.org/img/Zkteco_Shiro_Deserializat<br>ion_Vulnerability.gif)**Apache OFBiz xml<br>rpc Deserialization Vulnerability (CVE-2<br>020-9496)**![5s8l2F.gif](https://www.gob<br>ies.org/img/OneBlog_Shiro_Deserializatio<br>n_Vulnerability.gif)|
 ## 近30天commit提交记录
 | 提交时间 | 项目名称 | 更新内容 |
 | :---- | :---- | :---- |
-|2023-02-16 01:00:03|[NucleiTP](https://github.com/ExpLangcn/NucleiTP)|更新啦❤️|
-|2023-02-16 00:33:25|[PocOrExp_in_Github](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-02-16 08:33:25|
-|2023-02-15 16:48:37|[RsaCtfTool](https://github.com/RsaCtfTool/RsaCtfTool)|common_factors: simplify logic check for factors|
-|2023-02-15 16:09:20|[dbeaver](https://github.com/dbeaver/dbeaver)|pro#1377 Fonts (#19073)* dbeaver/pro#1377 Add new font<br> category DBeaver Fonts and Monospace font, use Monospa<br>ce font instead of SQL Output font and Hex font* dbeave<br>r/pro#1377 Use Tree and Table font for ItemListControl*<br> dbeaver/pro#1377 Add fonts override and hide in prefer<br>ence page* dbeaver/pro#1377 Refactor font constants|
+|2023-02-17 01:00:03|[NucleiTP](https://github.com/ExpLangcn/NucleiTP)|更新啦❤️|
+|2023-02-17 00:31:15|[PocOrExp_in_Github](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-02-17 08:31:14|
+|2023-02-16 23:34:11|[faker](https://github.com/joke2k/faker)|Add support for Python 3.11 (#1796)|
+|2023-02-16 22:32:42|[RsaCtfTool](https://github.com/RsaCtfTool/RsaCtfTool)|add docstring|
+|2023-02-16 18:40:27|[NessusToReport](https://github.com/Hypdncy/NessusToReport)|nessus_only_ips字段默认空|
+|2023-02-16 16:07:31|[dbeaver](https://github.com/dbeaver/dbeaver)|Fix QM event fire for CE|
+|2023-02-16 10:50:14|[autoDecoder](https://github.com/f0ng/autoDecoder)|Update README.md|
+|2023-02-16 10:28:59|[murphysec](https://github.com/murphysecurity/murphysec)|chore(deps): bump github.com/wk8/go-ordered-map/v2 fro<br>m 2.1.5 to 2.1.6 (#128)Bumps [github.com/wk8/go-ordered<br>-map/v2](https://github.com/wk8/go-ordered-map) from 2.<br>1.5 to 2.1.6.- [Release notes](https://github.com/wk8/g<br>o-ordered-map/releases)- [Changelog](https://github.com<br>/wk8/go-ordered-map/blob/master/CHANGELOG.md)- [Commits<br>](https://github.com/wk8/go-ordered-map/compare/v2.1.5.<br>..v2.1.6)---updated-dependencies:- dependency-name: git<br>hub.com/wk8/go-ordered-map/v2dependency-type: direct:pr<br>oductionupdate-type: version-update:semver-patch...Sign<br>ed-off-by: dependabot[bot]Co-authored-by: dependabot[bo<br>t] |
+|2023-02-16 08:02:56|[0day](https://github.com/helloexp/0day)|optimize dirs|
+|2023-02-16 06:12:55|[veinmind-tools](https://github.com/chaitin/veinmind-tools)|fix(ci): runner dockerfile (#192)|
+|2023-02-16 02:50:31|[feroxbuster](https://github.com/epi052/feroxbuster)|Merge pull request #790 from epi052/all-contributors/a<br>dd-joaocioccadocs: add joaociocca as a contributor for <br>bug, and ideas|
+|2023-02-16 01:36:10|[gshark](https://github.com/madneal/gshark)|remove comments|
 |2023-02-15 16:01:13|[RedisEXP](https://github.com/yuyan-sec/RedisEXP)|gopher|
-|2023-02-15 15:59:14|[autoDecoder](https://github.com/f0ng/autoDecoder)|Update README.md|
-|2023-02-15 10:43:34|[veinmind-tools](https://github.com/chaitin/veinmind-tools)|fix(veinmind-sensitive):add filesize limit (#190)Co-au<br>thored-by: GiveMeAShell |
-|2023-02-15 10:15:55|[gshark](https://github.com/madneal/gshark)|add permission initial for two API|
 |2023-02-15 09:46:59|[kscan](https://github.com/lcvvvv/kscan)|[*]修复一个Redis协议爆破的bug，之前可能会存在误报|
 |2023-02-15 03:34:58|[xray](https://github.com/chaitin/xray)|[update] readme|
 |2023-02-15 02:40:09|[SpringBoot-Scan-GUI](https://github.com/13exp/SpringBoot-Scan-GUI)|Delete targets.txt|
@@ -52,8 +56,6 @@
 |2023-02-14 05:21:16|[log4j2burpscanner](https://github.com/f0ng/log4j2burpscanner)|Update README.md|
 |2023-02-14 04:41:01|[All-Defense-Tool](https://github.com/guchangan1/All-Defense-Tool)|更新v2.2|
 |2023-02-14 03:37:28|[dirsearch](https://github.com/maurosoria/dirsearch)|Merge pull request #1278 from ibnudev7/patch-1Update d<br>icc.txt|
-|2023-02-14 02:38:18|[murphysec](https://github.com/murphysecurity/murphysec)|chore(deps): bump github.com/muesli/termenv from 0.13.<br>0 to 0.14.0 (#121)Bumps [github.com/muesli/termenv](htt<br>ps://github.com/muesli/termenv) from 0.13.0 to 0.14.0.-<br> [Release notes](https://github.com/muesli/termenv/rele<br>ases)- [Commits](https://github.com/muesli/termenv/comp<br>are/v0.13.0...v0.14.0)---updated-dependencies:- depende<br>ncy-name: github.com/muesli/termenvdependency-type: dir<br>ect:productionupdate-type: version-update:semver-minor.<br>..Signed-off-by: dependabot[bot]Co-authored-by: dependa<br>bot[bot] |
-|2023-02-13 17:18:49|[faker](https://github.com/joke2k/faker)|Bump version: 16.9.0 → 17.0.0|
 |2023-02-13 06:49:15|[Awesome-Redteam](https://github.com/Threekiii/Awesome-Redteam)|更新README.md|
 |2023-02-13 06:04:33|[rotateproxy](https://github.com/akkuman/rotateproxy)|fix: modernc.org/sqlite 不支持 win 386|
 |2023-02-13 03:26:39|[ENScan_GO](https://github.com/wgpsec/ENScan_GO)|修复JSON导出问题 fix #46
@@ -102,10 +104,7 @@
 |2023-01-26 05:21:12|[CTF-Tools](https://github.com/Aabyss-Team/CTF-Tools)|Update README.md|
 |2023-01-24 19:13:52|[APTRS](https://github.com/Anof-cyber/APTRS)|Update FUNDING.yml|
 |2023-01-22 01:31:18|[HackBrowserData](https://github.com/moonD4rk/HackBrowserData)|chore: update contributors [skip ci]|
-|2023-01-19 08:59:39|[Heimdallr](https://github.com/graynjo/Heimdallr)|update README|
-|2023-01-17 09:41:54|[Packer-Fuzzer](https://github.com/rtcatc/Packer-Fuzzer)|v1.4.15 更新demo图片|
-|2023-01-17 05:49:54|[gospider](https://github.com/jaeles-project/gospider)|Merge pull request #59 from aidanhall34/dockerfileCrea<br>ted dockerfile and updated README.md|
-|2023-01-17 03:03:16|[CN_Nessus_Plugins_I<br>nterface](https://github.com/nszy007/CN_Nessus_Plugins_Interface)|20230113|## 所有项目
+|2023-01-19 08:59:39|[Heimdallr](https://github.com/graynjo/Heimdallr)|update README|## 所有项目
 ### 信息收集
 #### 资产测绘采集
 | 项目名称 | 版本 | 项目描述 |
@@ -371,7 +370,7 @@
 #### 容器漏洞扫描
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
-| [veinmind-tools](https://github.com/chaitin/veinmind-tools) | v2.0.1 | veinmind-tools 是由长亭科技自研，基于 veinmind-sdk 打造的容器安<br>全工具集 |
+| [veinmind-tools](https://github.com/chaitin/veinmind-tools) | v2.0.3 | veinmind-tools 是由长亭科技自研，基于 veinmind-sdk 打造的容器安<br>全工具集 |
 #### 容器漏洞利用
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
@@ -469,7 +468,7 @@
 | [HopLa](https://github.com/synacktiv/HopLa) | 1.2 |  HopLa Burp Suite Extender plugin -Adds autocompletion support a<br>nd useful payloads in Burp Suite |
 | [captcha-killer-modi<br>fied](https://github.com/f0ng/captcha-killer-modified) | 0.21-beta | captcha-killer的修改版，支持关键词识别base64编码的图片，添加免费<br>ocr库，用于验证码爆破，适配新版Burpsuite |
 | [BurpCrypto](https://github.com/whwlsfb/BurpCrypto) |  | BurpCrypto is a collection of burpsuite encryption plug-ins, sup<br>port AES/RSA/DES/ExecJs(execute JS encryption code in burpsuite).<br> 支持多种加密算法或直接执行JS代码的用于爆破前端加密的BurpSuite插<br>件 |
-| [autoDecoder](https://github.com/f0ng/autoDecoder) | 0.22 | Burp插件，根据自定义来达到对数据包的处理（适用于加解密、爆破等）<br>，类似mitmproxy，不同点在于经过了burp中转，在自动加解密的基础上，<br>不影响APP、网站加解密正常逻辑等。 |
+| [autoDecoder](https://github.com/f0ng/autoDecoder) | 0.22-beta<br>1 | Burp插件，根据自定义来达到对数据包的处理（适用于加解密、爆破等）<br>，类似mitmproxy，不同点在于经过了burp中转，在自动加解密的基础上，<br>不影响APP、网站加解密正常逻辑等。 |
 | [burpFakeIP](https://github.com/TheKingOfDuck/burpFakeIP) | 1.1 | 服务端配置错误情况下用于伪造ip地址进行测试的Burp Suite插件 |
 | [AutoRepeater](https://github.com/nccgroup/AutoRepeater) |  | Automated HTTP Request Repeating With Burp Suite |
 | [http-request-smuggl<br>er](https://github.com/portswigger/http-request-smuggler) |  |  |

@@ -125,8 +125,8 @@
             "https://github.com/epi052/feroxbuster": {
                 "created_at": "2020-08-22 15:36:19",
                 "description": "A fast, simple, recursive content discovery tool written in Rust.",
-                "commit_date": "2023-01-13 11:53:18",
-                "commit_message": "Update README.md",
+                "commit_date": "2023-02-16 02:50:31",
+                "commit_message": "Merge pull request #790 from epi052/all-contributors/add-joaociocca\n\ndocs: add joaociocca as a contributor for bug, and ideas",
                 "release_tag": "v2.7.3",
                 "release_date": "2022-12-30 02:23:54",
                 "release_message": "## What's Changed * FIX 732 ensure --no-state is respected even through --time-limit by @kmanc in https://github.com/epi052/feroxbuster/pull/733 * Fix incorrect username in Contributors by @n0kovo in https://github.com/epi052/feroxbuster/pull/749 * fixed #716; wordlist entries with leading slash are trimmed by @epi052 in https://github.com/epi052/feroxbuster/pull/750 * fixed #743; redirects always show full url as Location by @epi052 in https://github.com/epi052/feroxbuster/pull/750 * fixed #748; cancelled scans persist across ctrl+c by @epi052 in https://github.com/epi052/feroxbuster/pull/750  ## New Contributors * @kmanc made their first contribution in https://github.com/epi052/feroxbuster/pull/733 * @n0kovo made their first contribution in https://github.com/epi052/feroxbuster/pull/749  **Full Changelog**: https://github.com/epi052/feroxbuster/compare/v2.7.2...v2.7.3"
@@ -1455,8 +1455,8 @@
             "https://github.com/helloexp/0day": {
                 "created_at": "2022-04-07 04:28:29",
                 "description": "各种CMS、各种平台、各种系统、各种软件漏洞的EXP、POC ,该项目将持续更新",
-                "commit_date": "2022-10-31 07:16:34",
-                "commit_message": "add Webmin 1.996 RCE (Authenticated) exp，优化目录",
+                "commit_date": "2023-02-16 08:02:56",
+                "commit_message": "optimize dirs",
                 "release_tag": "",
                 "release_date": "",
                 "release_message": ""
@@ -1500,8 +1500,8 @@
             "https://github.com/ycdxsb/PocOrExp_in_Github": {
                 "created_at": "2021-04-13 05:46:16",
                 "description": "聚合Github上已有的Poc或者Exp，CVE信息来自CVE官网。Auto Collect Poc Or Exp from Github by CVE ID.",
-                "commit_date": "2023-02-16 00:33:25",
-                "commit_message": "update 2023-02-16 08:33:25",
+                "commit_date": "2023-02-17 00:31:15",
+                "commit_message": "update 2023-02-17 08:31:14",
                 "release_tag": "",
                 "release_date": "",
                 "release_message": ""
@@ -1630,8 +1630,8 @@
             "https://github.com/madneal/gshark": {
                 "created_at": "2018-03-09 14:16:55",
                 "description": "Scan for sensitive information easily and effectively.",
-                "commit_date": "2023-02-15 10:15:55",
-                "commit_message": "add permission initial for two API",
+                "commit_date": "2023-02-16 01:36:10",
+                "commit_message": "remove comments",
                 "release_tag": "v1.1.4",
                 "release_date": "2023-02-15 10:17:50",
                 "release_message": "## Fixed  * 修复无法变更规则状态的问题 * 增加新增 token 的 postman 类型  ## Added   * 增加 `startSecFilterTask` 以及 `getTaskStatus`  API 权限初始化"
@@ -1674,8 +1674,8 @@
             "https://github.com/murphysecurity/murphysec": {
                 "created_at": "2022-03-16 02:52:33",
                 "description": "An open source tool focused on software supply chain security. 墨菲安全专注于软件供应链安全，具备专业的软件成分分析（SCA）、漏洞检测、专业漏洞库。",
-                "commit_date": "2023-02-14 02:38:18",
-                "commit_message": "chore(deps): bump github.com/muesli/termenv from 0.13.0 to 0.14.0 (#121)\n\nBumps [github.com/muesli/termenv](https://github.com/muesli/termenv) from 0.13.0 to 0.14.0.\r\n- [Release notes](https://github.com/muesli/termenv/releases)\r\n- [Commits](https://github.com/muesli/termenv/compare/v0.13.0...v0.14.0)\r\n\r\n---\r\nupdated-dependencies:\r\n- dependency-name: github.com/muesli/termenv\r\n  dependency-type: direct:production\r\n  update-type: version-update:semver-minor\r\n...\r\n\r\nSigned-off-by: dependabot[bot] <support@github.com>\r\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
+                "commit_date": "2023-02-16 10:28:59",
+                "commit_message": "chore(deps): bump github.com/wk8/go-ordered-map/v2 from 2.1.5 to 2.1.6 (#128)\n\nBumps [github.com/wk8/go-ordered-map/v2](https://github.com/wk8/go-ordered-map) from 2.1.5 to 2.1.6.\r\n- [Release notes](https://github.com/wk8/go-ordered-map/releases)\r\n- [Changelog](https://github.com/wk8/go-ordered-map/blob/master/CHANGELOG.md)\r\n- [Commits](https://github.com/wk8/go-ordered-map/compare/v2.1.5...v2.1.6)\r\n\r\n---\r\nupdated-dependencies:\r\n- dependency-name: github.com/wk8/go-ordered-map/v2\r\n  dependency-type: direct:production\r\n  update-type: version-update:semver-patch\r\n...\r\n\r\nSigned-off-by: dependabot[bot] <support@github.com>\r\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
                 "release_tag": "v3.0.1",
                 "release_date": "2023-02-13 07:25:06",
                 "release_message": ""
@@ -1694,11 +1694,11 @@
             "https://github.com/chaitin/veinmind-tools": {
                 "created_at": "2022-02-08 08:12:15",
                 "description": "veinmind-tools 是由长亭科技自研，基于 veinmind-sdk 打造的容器安全工具集",
-                "commit_date": "2023-02-15 10:43:34",
-                "commit_message": "fix(veinmind-sensitive):add filesize limit (#190)\n\nCo-authored-by: GiveMeAShell <zhuo.li@chaitin.com>",
-                "release_tag": "v2.0.1",
-                "release_date": "2023-02-15 10:49:44",
-                "release_message": "## Feature - 支持 arm64 构建  ## Fix - 修复 Makefile - 修复 `veinmind-iac` 文件识别问题 - 修复 `veinmind-sensitive` 扫描过慢问题"
+                "commit_date": "2023-02-16 06:12:55",
+                "commit_message": "fix(ci): runner dockerfile (#192)",
+                "release_tag": "v2.0.3",
+                "release_date": "2023-02-16 06:14:37",
+                "release_message": "## Fix - 修复 Dockerfile 编写问题"
             }
         },
         "容器漏洞利用": {
@@ -2180,11 +2180,11 @@
             "https://github.com/f0ng/autoDecoder": {
                 "created_at": "2022-03-26 10:13:56",
                 "description": "Burp插件，根据自定义来达到对数据包的处理（适用于加解密、爆破等），类似mitmproxy，不同点在于经过了burp中转，在自动加解密的基础上，不影响APP、网站加解密正常逻辑等。",
-                "commit_date": "2023-02-15 15:59:14",
+                "commit_date": "2023-02-16 10:50:14",
                 "commit_message": "Update README.md",
-                "release_tag": "0.22",
-                "release_date": "2023-02-15 15:59:21",
-                "release_message": "## 2023.2.15 更新0.22 重大更新 1. 重构UI页面，之前的UI太混乱，花了点时间重构了页面UI <img width=\"583\" alt=\"image\" src=\"https://user-images.githubusercontent.com/48286013/219077310-7a17115b-885e-47ba-8aaf-427acb55db8a.png\">  2. 增加自带算法加解密的正则提取，当正则表达式有内容时生效，针对两种情况:  \t1. 只有请求加密的情况 \t2. 在爆破攻击中，对账号密码加密 \t \t配置页面 \t \t<img width=\"307\" alt=\"image\" src=\"https://user-images.githubusercontent.com/48286013/219077933-60e197ed-f940-473e-a394-242aedc1cc41.png\">   \t<img width=\"852\" alt=\"image\" src=\"https://user-images.githubusercontent.com/48286013/219077869-b894b59e-eed3-48ff-bda4-ebf4f231e2e4.png\">  \t \t原始请求 \t \t<img width=\"696\" alt=\"image\" src=\"https://user-images.githubusercontent.com/48286013/219077437-c5e793ee-9061-49ca-aadc-8061f9843c21.png\"> \t \t真实请求 \t \t<img width=\"611\" alt=\"image\" src=\"https://user-images.githubusercontent.com/48286013/219077506-f81555ef-5d8f-44c3-a659-41c6afc0a50f.png\"> \t \t解密后 \t \t<img width=\"628\" alt=\"image\" src=\"https://user-images.githubusercontent.com/48286013/219077634-92366e38-5176-4ee1-b7ad-b7de7bee96cf.png\">   3. 增加接口加解密时的调试页面，方便代码进一步编写  正常解密请求包  <img width=\"771\" alt=\"image\" src=\"https://user-images.githubusercontent.com/48286013/219079024-ef8fb2ce-0286-4a18-9e38-bdbe85ec742c.png\">  正常解密响应包  <img width=\"747\" alt=\"image\" src=\"https://user-images.githubusercontent.com/48286013/219080446-5c135166-63cb-4c2e-ad66-0e57df1a39f2.png\">   处理请求头  <img width=\"759\" alt=\"image\" src=\"https://user-images.githubusercontent.com/48286013/219079094-53e6f652-5038-4242-aa5f-0955310b6998.png\">"
+                "release_tag": "0.22-beta1",
+                "release_date": "2023-02-16 06:25:09",
+                "release_message": "## 2023.2.16 更新0.22-beta1 1. 优化了读取密文的时候将`\\u0000`去除的问题 2. 在自带算法中，将请求包加解密、响应包加解密分离开，可以选中加密算法`null`表示不进行加解密，返回原数据包"
             },
             "https://github.com/TheKingOfDuck/burpFakeIP": {
                 "created_at": "2019-06-05 07:24:35",
@@ -2464,7 +2464,7 @@
             "https://github.com/ExpLangcn/NucleiTP": {
                 "created_at": "2022-11-08 13:16:56",
                 "description": "自动整合全网Nuclei的漏洞POC，实时同步更新最新POC！",
-                "commit_date": "2023-02-16 01:00:03",
+                "commit_date": "2023-02-17 01:00:03",
                 "commit_message": "更新啦❤️",
                 "release_tag": "",
                 "release_date": "",
@@ -2484,8 +2484,8 @@
             "https://github.com/Hypdncy/NessusToReport": {
                 "created_at": "2020-06-26 19:35:43",
                 "description": "Nessus扫描报告自动化生成工具",
-                "commit_date": "2023-01-10 07:34:19",
-                "commit_message": "增加tenable.py",
+                "commit_date": "2023-02-16 18:40:27",
+                "commit_message": "nessus_only_ips字段默认空",
                 "release_tag": "v1.1.1",
                 "release_date": "2023-01-10 07:36:28",
                 "release_message": ""
@@ -2917,8 +2917,8 @@
             "https://github.com/RsaCtfTool/RsaCtfTool": {
                 "created_at": "2015-03-07 17:29:33",
                 "description": "RSA attack tool (mainly for ctf) - retreive private key from weak public key and/or uncipher data",
-                "commit_date": "2023-02-15 16:48:37",
-                "commit_message": "common_factors: simplify logic check for factors",
+                "commit_date": "2023-02-16 22:32:42",
+                "commit_message": "add docstring",
                 "release_tag": "",
                 "release_date": "",
                 "release_message": ""
@@ -2943,8 +2943,8 @@
             "https://github.com/joke2k/faker": {
                 "created_at": "2012-11-12 23:00:09",
                 "description": "Faker is a Python package that generates fake data for you.",
-                "commit_date": "2023-02-13 17:18:49",
-                "commit_message": "Bump version: 16.9.0 → 17.0.0",
+                "commit_date": "2023-02-16 23:34:11",
+                "commit_message": "Add support for Python 3.11 (#1796)",
                 "release_tag": "v17.0.0",
                 "release_date": "2023-02-13 17:23:10",
                 "release_message": "See [CHANGELOG.md](https://github.com/joke2k/faker/blob/refs/tags/v17.0.0/CHANGELOG.md)."
@@ -2961,8 +2961,8 @@
             "https://github.com/dbeaver/dbeaver": {
                 "created_at": "2015-10-21 08:26:28",
                 "description": "Free universal database tool and SQL client",
-                "commit_date": "2023-02-15 16:09:20",
-                "commit_message": "pro#1377 Fonts (#19073)\n\n* dbeaver/pro#1377 Add new font category DBeaver Fonts and Monospace font, use Monospace font instead of SQL Output font and Hex font\r\n\r\n* dbeaver/pro#1377 Use Tree and Table font for ItemListControl\r\n\r\n* dbeaver/pro#1377 Add fonts override and hide in preference page\r\n\r\n* dbeaver/pro#1377 Refactor font constants",
+                "commit_date": "2023-02-16 16:07:31",
+                "commit_message": "Fix QM event fire for CE",
                 "release_tag": "22.3.4",
                 "release_date": "2023-02-05 18:31:19",
                 "release_message": "                 - ChatGPT integration for smart completion and code generation (as optional extension)                 - Accessibility:                     - Text reader for entity editor was improved                     - Text reader for data grid was improved                 - SQL editor:                     - Query generation from human language text was added                     - Server output log levels configuration was improved                     - Global metadata search was fixed                     - Variables resolution is fixed in strings and comments                     - Issue with queries with invalid line feeds was resolved                 - Data editor:                     - Grouping panel messages were improved                     - Datetime calendar editor was fixed (in panel and inline editor)                 - Database navigator: issue with rename/refresh was resolved                 - Dashboards were fixed for inherited databases                 - Project import now sets DBeaver nature (thanks to @froque                 - ERD: custom diagram editor was fixed (issue wth missing notes and connections was resolved)                 - Databricks: table DDL reading was fixed, extra SQL keywords were added (thanks to @mixam24)                 - DB2 BigSQL: table with RID_BIT columns data reading was fixed (thanks to @bkyle)                 - MySQL: numeric identifiers quoting was fixed                 - Netezza: tables/views search query was improved                 - PostgreSQL:                     - Procedures invocation was improved (thanks to @plotn)                     - Filter by enum was fixed (thanks to @plotn)                 - Redshift: triggers DDL reading was fixed                 - Snowflake: table constraints reading was fixed                 - We switched to Java 17 so now DBeaver supports all newest JDBC drivers             "
