@@ -1,8 +1,9 @@
-# 更新于 2023-02-18 09:08:37
+# 更新于 2023-02-19 09:10:32
 
 ## 近30天release更新记录
 | 更新时间 | 项目名称 | 版本 | 更新内容 |
 | :---- | :---- | :---- | :---- |
+|2023-02-18 15:11:13|[super-xray](https://github.com/4ra1n/super-xray)|1.5|## 1.5更新内容： - [important] [improve<br>] 更简洁更好用的新UI #144 - [important] <br>[feat] 支持拖拽xray文件加载 #140 - [impo<br>rtant] [feat] 允许设置日志等级 #146 - [b<br>ug] CPU占用较高问题RAD修复不完善 #139 - <br>[feat] 增加一键修复/还原的功能 #143 - [f<br>eat] 自动检查版本更新并提示 #142 - [impr<br>ove] 反连HTTP URL输入的验证 #145下载： -<br> super-xray-1.5.jar 版本通过java -jar su<br>per-xray-1.5.jar启动 - super-xray-1.5-jr<br>e-exe.zip 是内置了JRE的exe版本 - super-x<br>ray-1.5-system-jre.exe 是使用系统JRE的ex<br>e版本 - Super-Xray.app.zip 是 Mac OS 的 <br>app (测试版可能有bug)|
 |2023-02-17 13:04:31|[RequestTemplate](https://github.com/1n7erface/RequestTemplate)|v1.1.2|2023.2.17 21:00 1.更新了多个模块报错|
 |2023-02-16 06:25:09|[autoDecoder](https://github.com/f0ng/autoDecoder)|0.22-beta<br>1|## 2023.2.16 更新0.22-beta1 1. 优化了读<br>取密文的时候将\u0000去除的问题 2. 在自带<br>算法中，将请求包加解密、响应包加解密分离<br>开，可以选中加密算法null表示不进行加解密<br>，返回原数据包|
 |2023-02-16 06:14:37|[veinmind-tools](https://github.com/chaitin/veinmind-tools)|v2.0.3|## Fix - 修复 Dockerfile 编写问题|
@@ -29,12 +30,12 @@
 |2023-02-03 10:17:50|[passive-scan-client](https://github.com/c0ny1/passive-scan-client)|0.3.1|1. 添加url黑明单 2. 添加右键Send to Pas<br>sive Scan Client手动转发thx @i11us0ry |
 |2023-01-30 08:25:35|[railgun](https://github.com/lz520520/railgun)|v1.5.2|解压密码railgun1. 增加gRPC模式，扩展ser<br>ver端a. 实现了dnslog，通过客户端可直接管<br>理server，并做了一些优化。b. 实现了UDP/TC<br>P的socket反连，通过不同伪装头部来过滤。c<br>. 实现了ICMP反连，通过发送特定长度的ping<br>包来过滤。d. 实现HTTP/HTTPS serverⅰ. HTT<br>P LOG1. 增加http 完整请求包记录ⅱ. 任意<br>内容和大文件下载ⅲ. 扩展服务配置参数，并<br>添加已启动服务信息单独查看窗口。e. gRPC完<br>成tls双向认证f. 增加鉴权，目前只设置管理<br>员和普通用户。g. 历史搜索里，增加查询服务<br>端数据库，目前暂定管理员可查（迁移至gRPC<br>模块）。h. 增加单独gRPC模块，可用于gRPC的<br>设置、用户管理以及历史搜索。 2. 编码转换a<br>. 将https://github.com/lz520520/encrypt-<br>js 合入，通过Dict2ConsoleJS和ConsoleExtr<br>actEncryptPwd两种编码来实现|
 |2023-01-20 18:22:12|[OA-EXPTOOL](https://github.com/LittleBear4/OA-EXPTOOL)|OA-EXPTOO<br>L-v0.7|更新内容如下： 1.代理功能已经实装 2.日<br>志功能已经载入源码，目前只有一米OA会产生<br>日志（日志第二次调用会产生问题，暂不实装<br>） 修复部分poc报错问题，修复通达OAshell的<br>代码错误导致无法连接问题 增加泛微OA_doexc<br>el 泛微OA_ktree_upload 泛微OA_v10_Office<br>Server.phpupload weaveroa-eoffice8-uploa<br>d-RCE 增加用友： yongyou_KSOA_imageuploa<br>d|
-|2023-01-19 06:03:37|[super-xray](https://github.com/4ra1n/super-xray)|1.4|## 1.4春节快乐，从该版本以后使用更帅的*<br>*黑暗主题**，并且简单重构了UI解决了重要<br>的问题：CPU占用过高。允许QPS和最大HOST连<br>接数等参数的设置，优化了一些功能更新内容<br>： - [important] [improve] CPU占用较高需<br>要进行优化 #128 - [important] [feat] 1.4<br>版本以后将全面适配黑暗主题（更帅一些） #1<br>35 - [important] [feat] 每秒最大http请求<br>数max_qps参数设置 #137 - [bug] 提示文字的<br>翻译有误 #133 - [feat] 被动扫描允许自由设<br>置（目前仅支持127） #131 - [feat] 最大HOS<br>T允许的连接数（降低对服务的影响） #138 -<br> [improve] 查看搜索PoC时应该排序以提高效<br>率 #134 - [improve] 不常用的配置应该都移<br>到高级配置中 #132 - [improve] 避免直接使<br>用其他项目的图标 #130 - [improve] 删除没<br>有必要的动态皮肤并简单重构UI #136 - 使用<br>更好的exe图标 - 删除扫雷和弹球（不好玩且<br>与黑暗主题不适配）下载： - super-xray-1.4<br>.jar版本通过java -jar super-xray-1.4.jar<br>启动 - super-xray-1.4-jre-exe.zip是内置了<br>JRE的exe版本 - super-xray-1.4-system-jre<br>.exe是使用系统JRE的exe版本|
 ## 近30天commit提交记录
 | 提交时间 | 项目名称 | 更新内容 |
 | :---- | :---- | :---- |
-|2023-02-18 01:00:03|[NucleiTP](https://github.com/ExpLangcn/NucleiTP)|更新啦❤️|
-|2023-02-18 00:33:07|[PocOrExp_in_Github](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-02-18 08:33:06|
+|2023-02-19 01:00:03|[NucleiTP](https://github.com/ExpLangcn/NucleiTP)|更新啦❤️|
+|2023-02-19 00:33:54|[PocOrExp_in_Github](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-02-19 08:33:54|
+|2023-02-18 16:06:17|[super-xray](https://github.com/4ra1n/super-xray)|macos|
 |2023-02-18 00:01:09|[nuclei](https://github.com/projectdiscovery/nuclei)|chore(deps): bump golang.org/x/net from 0.6.0 to 0.7.0<br> in /v2 (#3337)Bumps [golang.org/x/net](https://github.<br>com/golang/net) from 0.6.0 to 0.7.0.- [Release notes](h<br>ttps://github.com/golang/net/releases)- [Commits](https<br>://github.com/golang/net/compare/v0.6.0...v0.7.0)---upd<br>ated-dependencies:- dependency-name: golang.org/x/netde<br>pendency-type: direct:production...Signed-off-by: depen<br>dabot[bot]Co-authored-by: dependabot[bot] |
 |2023-02-17 23:20:24|[naabu](https://github.com/projectdiscovery/naabu)|Merge pull request #563 from projectdiscovery/dependab<br>ot/go_modules/v2/golang.org/x/net-0.7.0chore(deps): bum<br>p golang.org/x/net from 0.1.0 to 0.7.0 in /v2|
 |2023-02-17 19:38:34|[RsaCtfTool](https://github.com/RsaCtfTool/RsaCtfTool)|Refactor look-up table to create odd and even search o<br>ptions.|
@@ -80,7 +81,6 @@
 |2023-02-09 01:11:01|[Vulnerability-Wiki](https://github.com/Threekiii/Vulnerability-Wiki)|更新漏洞|
 |2023-02-09 01:09:59|[Awesome-POC](https://github.com/Threekiii/Awesome-POC)|更新漏洞|
 |2023-02-08 23:30:22|[log4j-shell-poc](https://github.com/kozmer/log4j-shell-poc)|:)|
-|2023-02-08 17:56:46|[super-xray](https://github.com/4ra1n/super-xray)|#144 #145|
 |2023-02-08 13:55:17|[QingTing](https://github.com/StarCrossPortal/QingTing)|add code|
 |2023-02-08 03:49:42|[ARL](https://github.com/TophantTechnology/ARL)|Merge pull request #480 from chasenz/masterUpdate nucl<br>ei dump|
 |2023-02-08 02:14:56|[SharpWxDump](https://github.com/AdminTest0/SharpWxDump)|Update README.md|
@@ -105,8 +105,7 @@
 |2023-01-26 05:21:12|[CTF-Tools](https://github.com/Aabyss-Team/CTF-Tools)|Update README.md|
 |2023-01-26 05:21:12|[CTF-Tools](https://github.com/Aabyss-Team/CTF-Tools)|Update README.md|
 |2023-01-24 19:13:52|[APTRS](https://github.com/Anof-cyber/APTRS)|Update FUNDING.yml|
-|2023-01-22 01:31:18|[HackBrowserData](https://github.com/moonD4rk/HackBrowserData)|chore: update contributors [skip ci]|
-|2023-01-19 08:59:39|[Heimdallr](https://github.com/graynjo/Heimdallr)|update README|## 所有项目
+|2023-01-22 01:31:18|[HackBrowserData](https://github.com/moonD4rk/HackBrowserData)|chore: update contributors [skip ci]|## 所有项目
 ### 信息收集
 #### 资产测绘采集
 | 项目名称 | 版本 | 项目描述 |
@@ -489,7 +488,7 @@
 | :---- | :---- | :---- |
 | [yarx](https://github.com/zema1/yarx) | v0.2.0 | An awesome reverse engine for xray poc. | 一个自动化根据 xray po<br>c 生成对应 server 的工具 |
 | [xray-poc-generation](https://github.com/phith0n/xray-poc-generation) |  | 🧬 辅助生成 XRay YAML POC |
-| [super-xray](https://github.com/4ra1n/super-xray) | 1.4 | Web漏洞扫描工具XRAY的GUI启动器 (Web Vulnerability Scanner GUI St<br>arter) |
+| [super-xray](https://github.com/4ra1n/super-xray) | 1.5 | Web漏洞扫描工具XRAY的GUI启动器 (Web Vulnerability Scanner GUI St<br>arter) |
 #### pocsuite3
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
