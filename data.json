@@ -134,8 +134,8 @@
             "https://github.com/ffuf/ffuf": {
                 "created_at": "2018-11-08 09:25:49",
                 "description": "Fast web fuzzer written in Go",
-                "commit_date": "2023-02-06 09:20:28",
-                "commit_message": "Fix the v2 tagging for go install (#639)",
+                "commit_date": "2023-02-19 12:41:37",
+                "commit_message": "Fix HTML output (#640)",
                 "release_tag": "v2.0.0",
                 "release_date": "2023-02-06 09:28:04",
                 "release_message": "## Changelog * e952deb Fix the v2 tagging for go install (#639) * 19e07c0 Fix required go version (#637) * 77cc45c Prepare for v2.0 release (#635) * c7d0fb5 Gracefully error in case stdin is used for search result (#634) * 643f6b8 Scraper functionality (#633) * 39c8934 Added additional proxy URL verification (#574) * bbb97ab Typo fix (#581) * 3b219f2 fix: changed usage from version 1.3.0 to version 1.5.0 (#595) * 633893c Change precedence of quiet and JSON output to favour JSON (#570) * 0236210 Add homebrew install method (#552) * 7bff9e7 Fix time-based matcher (#575) * ebb4c44 Sniper template parsing - fixes #579 (#580) * 9bddff7 New functionality to map fired blind payloads back to the initial request (#632) * b7adc50 Fix jsonlines output while in silent mode (#630) * 2ce2217 Enhanced rate limiting (#620) * 1a684a9 Fix the ac for good now (#615) * 3328a28 Fix linter workflow and autocalibration for lines & words match (#614)  "
@@ -721,8 +721,8 @@
             "https://github.com/yuyan-sec/RedisEXP": {
                 "created_at": "2022-03-19 14:41:00",
                 "description": "Redis 漏洞利用工具",
-                "commit_date": "2023-02-15 16:01:13",
-                "commit_message": "gopher",
+                "commit_date": "2023-02-19 16:36:47",
+                "commit_message": "解决支持中文路径",
                 "release_tag": "",
                 "release_date": "",
                 "release_message": ""
@@ -1500,8 +1500,8 @@
             "https://github.com/ycdxsb/PocOrExp_in_Github": {
                 "created_at": "2021-04-13 05:46:16",
                 "description": "聚合Github上已有的Poc或者Exp，CVE信息来自CVE官网。Auto Collect Poc Or Exp from Github by CVE ID.",
-                "commit_date": "2023-02-19 00:33:54",
-                "commit_message": "update 2023-02-19 08:33:54",
+                "commit_date": "2023-02-20 00:34:02",
+                "commit_message": "update 2023-02-20 08:34:02",
                 "release_tag": "",
                 "release_date": "",
                 "release_message": ""
@@ -2464,7 +2464,7 @@
             "https://github.com/ExpLangcn/NucleiTP": {
                 "created_at": "2022-11-08 13:16:56",
                 "description": "自动整合全网Nuclei的漏洞POC，实时同步更新最新POC！",
-                "commit_date": "2023-02-19 01:00:03",
+                "commit_date": "2023-02-20 01:00:03",
                 "commit_message": "更新啦❤️",
                 "release_tag": "",
                 "release_date": "",
@@ -2822,8 +2822,8 @@
             "https://github.com/Moxin1044/qsnctf-python": {
                 "created_at": "2023-01-01 01:56:43",
                 "description": "青少年CTF的Python包，方便大家调用一些CTF常用功能。",
-                "commit_date": "2023-02-03 16:09:26",
-                "commit_message": "fix api.py 421",
+                "commit_date": "2023-02-19 22:09:12",
+                "commit_message": "rarcrack",
                 "release_tag": "",
                 "release_date": "",
                 "release_message": ""
@@ -2917,8 +2917,8 @@
             "https://github.com/RsaCtfTool/RsaCtfTool": {
                 "created_at": "2015-03-07 17:29:33",
                 "description": "RSA attack tool (mainly for ctf) - retreive private key from weak public key and/or uncipher data",
-                "commit_date": "2023-02-17 19:38:34",
-                "commit_message": "Refactor look-up table to create odd and even search options.",
+                "commit_date": "2023-02-19 16:29:58",
+                "commit_message": "Forgot =",
                 "release_tag": "",
                 "release_date": "",
                 "release_message": ""
@@ -2943,8 +2943,8 @@
             "https://github.com/joke2k/faker": {
                 "created_at": "2012-11-12 23:00:09",
                 "description": "Faker is a Python package that generates fake data for you.",
-                "commit_date": "2023-02-16 23:34:11",
-                "commit_message": "Add support for Python 3.11 (#1796)",
+                "commit_date": "2023-02-19 15:49:37",
+                "commit_message": "Minor typos I noticed in comments (#1798)",
                 "release_tag": "v17.0.0",
                 "release_date": "2023-02-13 17:23:10",
                 "release_message": "See [CHANGELOG.md](https://github.com/joke2k/faker/blob/refs/tags/v17.0.0/CHANGELOG.md)."
@@ -2963,9 +2963,9 @@
                 "description": "Free universal database tool and SQL client",
                 "commit_date": "2023-02-17 12:55:04",
                 "commit_message": "Merge branch 'devel' of https://github.com/dbeaver/dbeaver into devel",
-                "release_tag": "22.3.4",
-                "release_date": "2023-02-05 18:31:19",
-                "release_message": "                 - ChatGPT integration for smart completion and code generation (as optional extension)                 - Accessibility:                     - Text reader for entity editor was improved                     - Text reader for data grid was improved                 - SQL editor:                     - Query generation from human language text was added                     - Server output log levels configuration was improved                     - Global metadata search was fixed                     - Variables resolution is fixed in strings and comments                     - Issue with queries with invalid line feeds was resolved                 - Data editor:                     - Grouping panel messages were improved                     - Datetime calendar editor was fixed (in panel and inline editor)                 - Database navigator: issue with rename/refresh was resolved                 - Dashboards were fixed for inherited databases                 - Project import now sets DBeaver nature (thanks to @froque                 - ERD: custom diagram editor was fixed (issue wth missing notes and connections was resolved)                 - Databricks: table DDL reading was fixed, extra SQL keywords were added (thanks to @mixam24)                 - DB2 BigSQL: table with RID_BIT columns data reading was fixed (thanks to @bkyle)                 - MySQL: numeric identifiers quoting was fixed                 - Netezza: tables/views search query was improved                 - PostgreSQL:                     - Procedures invocation was improved (thanks to @plotn)                     - Filter by enum was fixed (thanks to @plotn)                 - Redshift: triggers DDL reading was fixed                 - Snowflake: table constraints reading was fixed                 - We switched to Java 17 so now DBeaver supports all newest JDBC drivers             "
+                "release_tag": "22.3.5",
+                "release_date": "2023-02-19 18:19:13",
+                "release_message": "                 - ChatGPT smart completion:                     - Completion popup UI was improved                     - Metadata scope configuration was added                     - Redundant config options wer removed                 - Data editor:                     - Accessibility support was significantly improved (context menu, additional keyboard shortcuts)                     - Filtering and ordering icons visibility configuration was added again                     - Dictionary viewer was fixed (issue with missing dictionary values)                     - \"Save filters\" button was removed from custom SQL queries results                     - App crash on geometry viewer opening was resolved in the latest version of MacOS                 - SQL editor: query text extraction was fixed (issue with trailing comment after query text)                 - Database backup/restore: issue with external tools running was resolved (Linux)                 - Application fonts were unified. Now we have only Main and Monospace fonts configuration                 - Data transfer: data type mapping now respects type name case (for databases with different default case)                 - Variables support in database tasks was fixed                 - Database tools wizard: redundant task configuration page was removed                 - SQL generator dialog now show progress to avoid UI freeze on big schemas                 - Issue with opening ERD files from disk ws resolved                 - Clickhouse: DDL for array columns was fixed                 - Databricks: additional metadata was added                 - Exasol: default connection parameters were updated (thanks to @allipatev)                 - IRIS (ex Cache): driver version was updated                 - Oracle: stored procedures invocation syntax was improved                 - Snowflake: driver now uses single database connection for all editors (configurable)                 - SQL Server:                     - Driver version was updated to 11.2.3. Trust server certificate option was moved to the main connection page                     - Server messages (printed on raiserror) reading was fixed                     - Multiple resultsets reading was fixed (extra error handling was added)                     - VARCHAR(MAX) data type support was added                 - SQLite: converting binary columns into string representation was fixed             "
             },
             "https://github.com/TheKingOfDuck/MySQLMonitor": {
                 "created_at": "2019-01-16 05:13:33",
