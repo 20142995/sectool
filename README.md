@@ -1,8 +1,9 @@
-# 更新于 2023-02-20 09:09:46
+# 更新于 2023-02-21 09:12:07
 
 ## 近30天release更新记录
 | 更新时间 | 项目名称 | 版本 | 更新内容 |
 | :---- | :---- | :---- | :---- |
+|2023-02-20 16:21:32|[Elkeid](https://github.com/bytedance/Elkeid)|v1.7.0.10<br>-driver-ko<br>-20230220||
 |2023-02-19 18:19:13|[dbeaver](https://github.com/dbeaver/dbeaver)|22.3.5|- ChatGPT smart completion:- Completion<br> popup UI was improved- Metadata scope c<br>onfiguration was added- Redundant config<br> options wer removed- Data editor:- Acce<br>ssibility support was significantly impr<br>oved (context menu, additional keyboard <br>shortcuts)- Filtering and ordering icons<br> visibility configuration was added agai<br>n- Dictionary viewer was fixed (issue wi<br>th missing dictionary values)- "Save fil<br>ters" button was removed from custom SQL<br> queries results- App crash on geometry <br>viewer opening was resolved in the lates<br>t version of MacOS- SQL editor: query te<br>xt extraction was fixed (issue with trai<br>ling comment after query text)- Database<br> backup/restore: issue with external too<br>ls running was resolved (Linux)- Applica<br>tion fonts were unified. Now we have onl<br>y Main and Monospace fonts configuration<br>- Data transfer: data type mapping now r<br>espects type name case (for databases wi<br>th different default case)- Variables su<br>pport in database tasks was fixed- Datab<br>ase tools wizard: redundant task configu<br>ration page was removed- SQL generator d<br>ialog now show progress to avoid UI free<br>ze on big schemas- Issue with opening ER<br>D files from disk ws resolved- Clickhous<br>e: DDL for array columns was fixed- Data<br>bricks: additional metadata was added- E<br>xasol: default connection parameters wer<br>e updated (thanks to @allipatev)- IRIS (<br>ex Cache): driver version was updated- O<br>racle: stored procedures invocation synt<br>ax was improved- Snowflake: driver now u<br>ses single database connection for all e<br>ditors (configurable)- SQL Server:- Driv<br>er version was updated to 11.2.3. Trust <br>server certificate option was moved to t<br>he main connection page- Server messages<br> (printed on raiserror) reading was fixe<br>d- Multiple resultsets reading was fixed<br> (extra error handling was added)- VARCH<br>AR(MAX) data type support was added- SQL<br>ite: converting binary columns into stri<br>ng representation was fixed|
 |2023-02-18 15:11:13|[super-xray](https://github.com/4ra1n/super-xray)|1.5|## 1.5更新内容： - [important] [improve<br>] 更简洁更好用的新UI #144 - [important] <br>[feat] 支持拖拽xray文件加载 #140 - [impo<br>rtant] [feat] 允许设置日志等级 #146 - [b<br>ug] CPU占用较高问题RAD修复不完善 #139 - <br>[feat] 增加一键修复/还原的功能 #143 - [f<br>eat] 自动检查版本更新并提示 #142 - [impr<br>ove] 反连HTTP URL输入的验证 #145下载： -<br> super-xray-1.5.jar 版本通过java -jar su<br>per-xray-1.5.jar启动 - super-xray-1.5-jr<br>e-exe.zip 是内置了JRE的exe版本 - super-x<br>ray-1.5-system-jre.exe 是使用系统JRE的ex<br>e版本 - Super-Xray.app.zip 是 Mac OS 的 <br>app (测试版可能有bug)|
 |2023-02-17 13:04:31|[RequestTemplate](https://github.com/1n7erface/RequestTemplate)|v1.1.2|2023.2.17 21:00 1.更新了多个模块报错|
@@ -18,7 +19,6 @@
 |2023-02-13 03:33:11|[ENScan_GO](https://github.com/wgpsec/ENScan_GO)|V0.0.9|**bugfix** - 修复JSON导出问题 fix #46 -<br> 修复天眼查日期问题 fix #43 - 修复阿拉丁<br>导出bug fix #30**new** - 增加只在终端显示<br>不导出文件 fix #25|
 |2023-02-10 14:36:44|[nuclei](https://github.com/projectdiscovery/nuclei)|v2.8.9|## What's Changed* **Fixed URL encoding<br> issues in paths by @tarunKoyalwar** in <br>https://github.com/projectdiscovery/nucl<br>ei/pull/3294 * **Fixed panic crash with <br>ratelimit by @tarunKoyalwar** in https:/<br>/github.com/projectdiscovery/nuclei/pull<br>/3257 * Fixed path handling inconsistenc<br>ies by @tarunKoyalwar in https://github.<br>com/projectdiscovery/nuclei/pull/3243 * <br>Fixed data race in templates with payloa<br>ds by @tarunKoyalwar in https://github.c<br>om/projectdiscovery/nuclei/pull/3265 * *<br>*Fixed using httpx as a library for http<br> probing by @Ice3man543** in https://git<br>hub.com/projectdiscovery/nuclei/pull/326<br>1 * Fixed data race in race requests by <br>@tarunKoyalwar in https://github.com/pro<br>jectdiscovery/nuclei/pull/3275 * Fixed p<br>ublish docs workflow by @tarunKoyalwar i<br>n https://github.com/projectdiscovery/nu<br>clei/pull/3296 * Fixed retryablehttp for<br> templates loading by @Mzack9999 in http<br>s://github.com/projectdiscovery/nuclei/p<br>ull/3291 * Fixed aes_cbc helper function<br> update by @Ice3man543 in https://github<br>.com/projectdiscovery/nuclei/pull/3287 *<br> Fixed json schema for extractor attribu<br>te by @Mzack9999 in https://github.com/p<br>rojectdiscovery/nuclei/pull/3240 * **Add<br>ed env variable support in reporting con<br>fig by @xm1k3** in https://github.com/pr<br>ojectdiscovery/nuclei/pull/3188 * Added <br>proxy use in headless binary download by<br> @Mzack9999 in https://github.com/projec<br>tdiscovery/nuclei/pull/3290 * **Added in<br>teractsh payload input support in TLS SN<br>I field by @Mzack9999** in https://githu<br>b.com/projectdiscovery/nuclei/pull/3276I<br>ssues closed in the release - https://gi<br>thub.com/projectdiscovery/nuclei/milesto<br>ne/26?closed=1## New Contributors * @M-F<br>aheem-Khan made their first contribution<br> in https://github.com/projectdiscovery/<br>nuclei/pull/3235 * @galoget made their f<br>irst contribution in https://github.com/<br>projectdiscovery/nuclei/pull/3299**Full <br>Changelog**: https://github.com/projectd<br>iscovery/nuclei/compare/v2.8.8...v2.8.9|
 |2023-02-10 11:17:41|[captcha-killer-modi<br>fied](https://github.com/f0ng/captcha-killer-modified)|0.21-beta|【2023-2-10】 0.21-beta - 优化验证码编<br>码中的\n处理 - 优化@captcha@的判断方式感<br>谢微信群@5ING 、@策马奔腾 师傅反馈|
-|2023-02-10 03:38:45|[Elkeid](https://github.com/bytedance/Elkeid)|rasp-v2.1<br>.0.8-pre||
 |2023-02-09 13:53:05|[github-subdomains](https://github.com/gwen001/github-subdomains)|v1.2.2||
 |2023-02-09 03:57:44|[ysoserial](https://github.com/su18/ysoserial)|v1.3|1. 添加 ROME3、CommonsCollectionsK1、Co<br>mmonsCollectionsK2 利用链； 2. 添加 mcl <br>参数，可以指定在 TransformerUtil 中使用 o<br>rg.mozilla.javascript.DefiningClassLoade<br>r； 3. 添加 f 参数，可以指定将输出写在文<br>件中； 4. 更新 BeanShell 在 2.0b4 上的利<br>用链，并用 ScriptEngineManager 的方式对 B<br>eanShell 链支持内存马； 5. 更新 SpringWe<br>bFlux 内存马（目前仅支持 gz 及 cmd）； 6<br>. 添加 SpringEcho 回显方式； 7. 更新 cmd<br>/冰蝎/哥斯拉 动态添加的逻辑使用纯反射编<br>写； 8. **【重要】**移除 Referer 参数，用<br>于校验的 Referer 头部现改为可自定义 Heade<br>r 头部和值，并将校验逻辑由 equals 改为 c<br>ontains；9. 支持自定义传递执行命令的 Hea<br>der 头； 10. 支持自定义 Godzilla key； 1<br>1. 由于打包问题，移除 RenderedImage 利用<br>链及相关依赖； 12. 更新 Executor 内存马使<br>用 CMD_HEADER_STRING 统一 Header； 13. 优<br>化大量代码，修复若干 BUG，更新 ReadMe。|
 |2023-02-06 09:28:04|[ffuf](https://github.com/ffuf/ffuf)|v2.0.0|## Changelog * e952deb Fix the v2 taggi<br>ng for go install (#639) * 19e07c0 Fix r<br>equired go version (#637) * 77cc45c Prep<br>are for v2.0 release (#635) * c7d0fb5 Gr<br>acefully error in case stdin is used for<br> search result (#634) * 643f6b8 Scraper <br>functionality (#633) * 39c8934 Added add<br>itional proxy URL verification (#574) * <br>bbb97ab Typo fix (#581) * 3b219f2 fix: c<br>hanged usage from version 1.3.0 to versi<br>on 1.5.0 (#595) * 633893c Change precede<br>nce of quiet and JSON output to favour J<br>SON (#570) * 0236210 Add homebrew instal<br>l method (#552) * 7bff9e7 Fix time-based<br> matcher (#575) * ebb4c44 Sniper templat<br>e parsing - fixes #579 (#580) * 9bddff7 <br>New functionality to map fired blind pay<br>loads back to the initial request (#632)<br> * b7adc50 Fix jsonlines output while in<br> silent mode (#630) * 2ce2217 Enhanced r<br>ate limiting (#620) * 1a684a9 Fix the ac<br> for good now (#615) * 3328a28 Fix linte<br>r workflow and autocalibration for lines<br> & words match (#614)|
@@ -32,17 +32,22 @@
 ## 近30天commit提交记录
 | 提交时间 | 项目名称 | 更新内容 |
 | :---- | :---- | :---- |
-|2023-02-20 01:00:03|[NucleiTP](https://github.com/ExpLangcn/NucleiTP)|更新啦❤️|
-|2023-02-20 00:34:02|[PocOrExp_in_Github](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-02-20 08:34:02|
+|2023-02-21 01:04:26|[PocOrExp_in_Github](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-02-21 09:04:26|
+|2023-02-21 01:00:03|[NucleiTP](https://github.com/ExpLangcn/NucleiTP)|更新啦❤️|
+|2023-02-20 18:40:41|[RsaCtfTool](https://github.com/RsaCtfTool/RsaCtfTool)|Fix issue #405|
+|2023-02-20 14:38:37|[dbeaver](https://github.com/dbeaver/dbeaver)|dbeaver/pro#1301 Project create wizard fix|
+|2023-02-20 11:50:59|[Elkeid](https://github.com/bytedance/Elkeid)|Possible crash caused by uninitialized structures (#44<br>5)Wrong parameters were given to memeset, thus leads gc<br>ccompiler skipping memset operation (zeroing skipped).K<br>ernels |
+|2023-02-20 09:33:48|[geacon_pro](https://github.com/H4de5-7/geacon_pro)|Update README.md|
+|2023-02-20 08:50:05|[appshark](https://github.com/bytedance/appshark)|serial_Log source field is wrong|
+|2023-02-20 06:54:31|[Kunlun-M](https://github.com/LoRexxar/Kunlun-M)|Merge pull request #224 from LoRexxar/developfixed #22<br>3|
+|2023-02-20 03:41:51|[404StarLink](https://github.com/knownsec/404StarLink)|weekly update at 2023-02-20|
 |2023-02-19 22:09:12|[qsnctf-python](https://github.com/Moxin1044/qsnctf-python)|rarcrack|
 |2023-02-19 16:36:47|[RedisEXP](https://github.com/yuyan-sec/RedisEXP)|解决支持中文路径|
-|2023-02-19 16:29:58|[RsaCtfTool](https://github.com/RsaCtfTool/RsaCtfTool)|Forgot =|
 |2023-02-19 15:49:37|[faker](https://github.com/joke2k/faker)|Minor typos I noticed in comments (#1798)|
 |2023-02-19 12:41:37|[ffuf](https://github.com/ffuf/ffuf)|Fix HTML output (#640)|
 |2023-02-18 16:06:17|[super-xray](https://github.com/4ra1n/super-xray)|macos|
 |2023-02-18 00:01:09|[nuclei](https://github.com/projectdiscovery/nuclei)|chore(deps): bump golang.org/x/net from 0.6.0 to 0.7.0<br> in /v2 (#3337)Bumps [golang.org/x/net](https://github.<br>com/golang/net) from 0.6.0 to 0.7.0.- [Release notes](h<br>ttps://github.com/golang/net/releases)- [Commits](https<br>://github.com/golang/net/compare/v0.6.0...v0.7.0)---upd<br>ated-dependencies:- dependency-name: golang.org/x/netde<br>pendency-type: direct:production...Signed-off-by: depen<br>dabot[bot]Co-authored-by: dependabot[bot] |
 |2023-02-17 23:20:24|[naabu](https://github.com/projectdiscovery/naabu)|Merge pull request #563 from projectdiscovery/dependab<br>ot/go_modules/v2/golang.org/x/net-0.7.0chore(deps): bum<br>p golang.org/x/net from 0.1.0 to 0.7.0 in /v2|
-|2023-02-17 12:55:04|[dbeaver](https://github.com/dbeaver/dbeaver)|Merge branch 'devel' of https://github.com/dbeaver/dbe<br>aver into devel|
 |2023-02-17 03:37:31|[poc-hub](https://github.com/ybdt/poc-hub)|整理|
 |2023-02-17 02:30:41|[feroxbuster](https://github.com/epi052/feroxbuster)|Merge pull request #793 from epi052/all-contributors/a<br>dd-f3rn0sdocs: add f3rn0s as a contributor for bug|
 |2023-02-16 18:40:27|[NessusToReport](https://github.com/Hypdncy/NessusToReport)|nessus_only_ips字段默认空|
@@ -56,7 +61,6 @@
 |2023-02-15 02:40:09|[SpringBoot-Scan-GUI](https://github.com/13exp/SpringBoot-Scan-GUI)|Delete targets.txt|
 |2023-02-15 02:30:55|[ysoserial](https://github.com/su18/ysoserial)|更新 Jboss Filter 型内存马支持 JBoss-4.2.3.GA|
 |2023-02-15 02:01:21|[SmsForwarder](https://github.com/pppscn/SmsForwarder)|优化：APP通知转发的默认模板去除卡槽主键(SubId)字段|
-|2023-02-15 01:51:40|[Elkeid](https://github.com/bytedance/Elkeid)|update RASP ElkeidData.xlsx|
 |2023-02-14 13:28:52|[BurpSuite-collectio<br>ns](https://github.com/Mr-xn/BurpSuite-collections)|add OutLook: 在已登录Outlook账号后，可以使用该插件自动<br>爬取所有联系人的信息|
 |2023-02-14 09:38:24|[wpscan](https://github.com/wpscanteam/wpscan)|Merge pull request #1770 from wpscanteam/dependabot/gi<br>thub_actions/docker/build-push-action-4Bump docker/buil<br>d-push-action from 3 to 4|
 |2023-02-14 05:21:16|[log4j2burpscanner](https://github.com/f0ng/log4j2burpscanner)|Update README.md|
@@ -68,7 +72,6 @@
 修复天眼查日期问题 fix #43
 修<br>复阿拉丁导出bug fix #30
 增加只在终端显示不导出文件 fix #<br>25|
-|2023-02-13 03:10:11|[404StarLink](https://github.com/knownsec/404StarLink)|weekly update at 2023-02-13|
 |2023-02-13 03:07:42|[vulnerability](https://github.com/lal0ne/vulnerability)|CVE-2023-0669|
 |2023-02-13 01:28:57|[afrog](https://github.com/zan8in/afrog)|update poc|
 |2023-02-11 06:57:41|[OA-EXPTOOL](https://github.com/LittleBear4/OA-EXPTOOL)|Update mode.py|
@@ -77,7 +80,6 @@
 |2023-02-10 07:42:53|[Vuln-List](https://github.com/wwl012345/Vuln-List)|Update 中间件&框架&平台&第三方服务漏洞.md|
 |2023-02-10 05:56:40|[Threathunting-book](https://github.com/12306Bro/Threathunting-book)|delete|
 |2023-02-09 13:53:02|[github-subdomains](https://github.com/gwen001/github-subdomains)|v1.2.2|
-|2023-02-09 08:50:43|[geacon_pro](https://github.com/H4de5-7/geacon_pro)|Update README.md|
 |2023-02-09 07:22:30|[X-Marshal](https://github.com/XTeam-Wing/X-Marshal)|Update README.md|
 |2023-02-09 01:11:01|[Vulnerability-Wiki](https://github.com/Threekiii/Vulnerability-Wiki)|更新漏洞|
 |2023-02-09 01:09:59|[Awesome-POC](https://github.com/Threekiii/Awesome-POC)|更新漏洞|
@@ -96,7 +98,6 @@
 |2023-02-02 02:36:25|[JDumpSpider](https://github.com/whwlsfb/JDumpSpider)|add SpringSecurityUsernamePasswordAuthenticationToken <br>spider.|
 |2023-02-01 12:26:23|[RequestTemplate](https://github.com/1n7erface/RequestTemplate)|Update README.md|
 |2023-02-01 01:39:12|[CRC32-Tools](https://github.com/AabyssZG/CRC32-Tools)|Update README.md|
-|2023-01-31 06:43:13|[appshark](https://github.com/bytedance/appshark)|fix ConcurrentModificationException when visit Scene.v<br>().classes|
 |2023-01-30 13:17:30|[WMIHACKER](https://github.com/rootclay/WMIHACKER)|Update README_zh.md|
 |2023-01-30 08:54:59|[BugRepoter_0x727](https://github.com/0x727/BugRepoter_0x727)|V1.15 解决onlyoffice打开文档错误。|
 |2023-01-29 02:01:58|[ddddocr](https://github.com/sml2h3/ddddocr)|Update README.md|
@@ -653,7 +654,7 @@
 #### 主机入侵检测
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
-| [Elkeid](https://github.com/bytedance/Elkeid) | rasp-v2.1<br>.0.8-pre | Elkeid is an open source solution that can meet the security req<br>uirements of various workloads such as hosts, containers and K8s,<br> and serverless. It is derived from ByteDance's internal best pra<br>ctices. |
+| [Elkeid](https://github.com/bytedance/Elkeid) | v1.7.0.10<br>-driver-ko<br>-20230220 | Elkeid is an open source solution that can meet the security req<br>uirements of various workloads such as hosts, containers and K8s,<br> and serverless. It is derived from ByteDance's internal best pra<br>ctices. |
 | [Hades](https://github.com/theSecHunter/Hades) |  | Hades is an cross-platform HIDS with kernel-space data collectio<br>n. |
 #### Web应用防火墙
 | 项目名称 | 版本 | 项目描述 |

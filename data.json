@@ -1500,8 +1500,8 @@
             "https://github.com/ycdxsb/PocOrExp_in_Github": {
                 "created_at": "2021-04-13 05:46:16",
                 "description": "聚合Github上已有的Poc或者Exp，CVE信息来自CVE官网。Auto Collect Poc Or Exp from Github by CVE ID.",
-                "commit_date": "2023-02-20 00:34:02",
-                "commit_message": "update 2023-02-20 08:34:02",
+                "commit_date": "2023-02-21 01:04:26",
+                "commit_message": "update 2023-02-21 09:04:26",
                 "release_tag": "",
                 "release_date": "",
                 "release_message": ""
@@ -1663,8 +1663,8 @@
             "https://github.com/bytedance/appshark": {
                 "created_at": "2022-09-01 03:39:03",
                 "description": "Appshark is a static taint analysis platform to scan vulnerabilities in an Android app.",
-                "commit_date": "2023-01-31 06:43:13",
-                "commit_message": "fix ConcurrentModificationException when visit Scene.v().classes",
+                "commit_date": "2023-02-20 08:50:05",
+                "commit_message": "serial_Log source field is wrong",
                 "release_tag": "v0.1.2",
                 "release_date": "2022-09-22 10:03:10",
                 "release_message": "fix problems running on windows."
@@ -1683,8 +1683,8 @@
             "https://github.com/LoRexxar/Kunlun-M": {
                 "created_at": "2017-09-07 06:25:58",
                 "description": "KunLun-M是一个完全开源的静态白盒扫描工具，支持PHP、JavaScript的语义扫描，基础安全、组件安全扫描，Chrome Ext\\Solidity的基础扫描。",
-                "commit_date": "2022-06-23 08:45:41",
-                "commit_message": "Merge pull request #221 from LoRexxar/develop\n\nupdate 2.6.5",
+                "commit_date": "2023-02-20 06:54:31",
+                "commit_message": "Merge pull request #224 from LoRexxar/develop\n\nfixed #223",
                 "release_tag": "v2.6.5",
                 "release_date": "2022-06-23 08:46:09",
                 "release_message": "- 2022-06-23     - KunLun-M 2.6.5     - 更新了社区化的部署方案，支持使用公开的Server端查看扫描结果，为后续延展提供基础     - 更新了潮汐平台链接，可以使用潮汐平台快速部署体验"
@@ -1994,8 +1994,8 @@
             "https://github.com/knownsec/404StarLink": {
                 "created_at": "2020-11-17 08:10:18",
                 "description": "404StarLink - 推荐优质、有意义、有趣、坚持维护的安全开源项目",
-                "commit_date": "2023-02-13 03:10:11",
-                "commit_message": "weekly update at 2023-02-13",
+                "commit_date": "2023-02-20 03:41:51",
+                "commit_message": "weekly update at 2023-02-20",
                 "release_tag": "",
                 "release_date": "",
                 "release_message": ""
@@ -2464,7 +2464,7 @@
             "https://github.com/ExpLangcn/NucleiTP": {
                 "created_at": "2022-11-08 13:16:56",
                 "description": "自动整合全网Nuclei的漏洞POC，实时同步更新最新POC！",
-                "commit_date": "2023-02-20 01:00:03",
+                "commit_date": "2023-02-21 01:00:03",
                 "commit_message": "更新啦❤️",
                 "release_tag": "",
                 "release_date": "",
@@ -2580,7 +2580,7 @@
             "https://github.com/H4de5-7/geacon_pro": {
                 "created_at": "2022-10-27 12:07:00",
                 "description": "跨平台重构了Cobaltstrike Beacon，适配了大部分Beacon的功能，行为对国内主流杀软免杀，支持4.1以上的版本。 A cross-platform CobaltStrike Beacon bypass anti-virus, supports 4.1+ version.",
-                "commit_date": "2023-02-09 08:50:43",
+                "commit_date": "2023-02-20 09:33:48",
                 "commit_message": "Update README.md",
                 "release_tag": "geacon_pro_v1.3",
                 "release_date": "2023-02-05 15:40:56",
@@ -2917,8 +2917,8 @@
             "https://github.com/RsaCtfTool/RsaCtfTool": {
                 "created_at": "2015-03-07 17:29:33",
                 "description": "RSA attack tool (mainly for ctf) - retreive private key from weak public key and/or uncipher data",
-                "commit_date": "2023-02-19 16:29:58",
-                "commit_message": "Forgot =",
+                "commit_date": "2023-02-20 18:40:41",
+                "commit_message": "Fix issue #405",
                 "release_tag": "",
                 "release_date": "",
                 "release_message": ""
@@ -2961,8 +2961,8 @@
             "https://github.com/dbeaver/dbeaver": {
                 "created_at": "2015-10-21 08:26:28",
                 "description": "Free universal database tool and SQL client",
-                "commit_date": "2023-02-17 12:55:04",
-                "commit_message": "Merge branch 'devel' of https://github.com/dbeaver/dbeaver into devel",
+                "commit_date": "2023-02-20 14:38:37",
+                "commit_message": "dbeaver/pro#1301 Project create wizard fix",
                 "release_tag": "22.3.5",
                 "release_date": "2023-02-19 18:19:13",
                 "release_message": "                 - ChatGPT smart completion:                     - Completion popup UI was improved                     - Metadata scope configuration was added                     - Redundant config options wer removed                 - Data editor:                     - Accessibility support was significantly improved (context menu, additional keyboard shortcuts)                     - Filtering and ordering icons visibility configuration was added again                     - Dictionary viewer was fixed (issue with missing dictionary values)                     - \"Save filters\" button was removed from custom SQL queries results                     - App crash on geometry viewer opening was resolved in the latest version of MacOS                 - SQL editor: query text extraction was fixed (issue with trailing comment after query text)                 - Database backup/restore: issue with external tools running was resolved (Linux)                 - Application fonts were unified. Now we have only Main and Monospace fonts configuration                 - Data transfer: data type mapping now respects type name case (for databases with different default case)                 - Variables support in database tasks was fixed                 - Database tools wizard: redundant task configuration page was removed                 - SQL generator dialog now show progress to avoid UI freeze on big schemas                 - Issue with opening ERD files from disk ws resolved                 - Clickhouse: DDL for array columns was fixed                 - Databricks: additional metadata was added                 - Exasol: default connection parameters were updated (thanks to @allipatev)                 - IRIS (ex Cache): driver version was updated                 - Oracle: stored procedures invocation syntax was improved                 - Snowflake: driver now uses single database connection for all editors (configurable)                 - SQL Server:                     - Driver version was updated to 11.2.3. Trust server certificate option was moved to the main connection page                     - Server messages (printed on raiserror) reading was fixed                     - Multiple resultsets reading was fixed (extra error handling was added)                     - VARCHAR(MAX) data type support was added                 - SQLite: converting binary columns into string representation was fixed             "
@@ -3014,10 +3014,10 @@
             "https://github.com/bytedance/Elkeid": {
                 "created_at": "2020-12-18 03:15:54",
                 "description": "Elkeid is an open source solution that can meet the security requirements of various workloads such as hosts, containers and K8s, and serverless. It is derived from ByteDance's internal best practices.",
-                "commit_date": "2023-02-15 01:51:40",
-                "commit_message": "update RASP ElkeidData.xlsx",
-                "release_tag": "rasp-v2.1.0.8-pre",
-                "release_date": "2023-02-10 03:38:45",
+                "commit_date": "2023-02-20 11:50:59",
+                "commit_message": "Possible crash caused by uninitialized structures (#445)\n\nWrong parameters were given to memeset, thus leads gcc\r\ncompiler skipping memset operation (zeroing skipped).\r\n\r\nKernels < 3.2.6 will be affected, CentOS6 are included.\r\n\r\nSigned-off-by: shenping.matt <shenping.matt@bytedance.com>",
+                "release_tag": "v1.7.0.10-driver-ko-20230220",
+                "release_date": "2023-02-20 16:21:32",
                 "release_message": ""
             },
             "https://github.com/theSecHunter/Hades": {
