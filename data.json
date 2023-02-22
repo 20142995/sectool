@@ -107,8 +107,8 @@
             "https://github.com/maurosoria/dirsearch": {
                 "created_at": "2013-04-30 15:57:40",
                 "description": "Web path scanner",
-                "commit_date": "2023-02-14 03:37:28",
-                "commit_message": "Merge pull request #1278 from ibnudev7/patch-1\n\nUpdate dicc.txt",
+                "commit_date": "2023-02-21 16:11:23",
+                "commit_message": "Merge pull request #1282 from 0x0d3ad/patch-3\n\nUpdate my profile link github",
                 "release_tag": "v0.4.3",
                 "release_date": "2022-10-05 13:01:24",
                 "release_message": "- Automatically detect the URI scheme (`http` or `https`) if no scheme is provided - SQLite report format - Option to overwrite unwanted extensions with selected extensions - Option to view redirects history when following redirects - Option to crawl web paths in the responses - HTTP traffic is saved inside log file - Capability to save progress and resume later - Support client certificate - Maximum size of the log file via configuration - More accurate"
@@ -116,11 +116,11 @@
             "https://github.com/pingc0y/URLFinder": {
                 "created_at": "2022-06-06 10:17:00",
                 "description": "类似JSFinder的golang实现，一款用于快速提取检测页面中JS与URL的工具，更快更全更舒服",
-                "commit_date": "2023-02-04 08:56:24",
-                "commit_message": "Delete URLFinder-linux-amd64",
-                "release_tag": "2023.2.3",
-                "release_date": "2023-02-04 08:54:47",
-                "release_message": "## 2023/2/3 更新  新增 域名信息展示   变化 -i配置文件可配置抓取规则等  "
+                "commit_date": "2023-02-21 03:50:02",
+                "commit_message": "2023/2/21更新",
+                "release_tag": "2023.2.21",
+                "release_date": "2023-02-21 03:59:42",
+                "release_message": "2023/2/21 修复 已知bug"
             },
             "https://github.com/epi052/feroxbuster": {
                 "created_at": "2020-08-22 15:36:19",
@@ -564,8 +564,8 @@
             "https://github.com/zan8in/afrog": {
                 "created_at": "2022-02-24 06:00:32",
                 "description": "A Vulnerability Scanning Tools For Penetration Testing",
-                "commit_date": "2023-02-13 01:28:57",
-                "commit_message": "update poc",
+                "commit_date": "2023-02-21 12:25:28",
+                "commit_message": "update readme && CVE-2023-23752",
                 "release_tag": "v2.2.1",
                 "release_date": "2023-02-04 14:54:34",
                 "release_message": "Merge many fingerprint pocs into the panel-detect.yaml file to reduce the number of http requests Console  print date format, 2023-01-01 changed to 01-01 Simplified afrog-config configuration  Fixed: invalid `-fc` configuration Tip: Configure the `-c` command, which can increase the concurrency speed very quickly  -----------------------------------------------------------------------------  将多个 panel 指纹探测合并到文件 panel-detect.yaml，大幅减少 http 请求 精简控制台日期打印，2023-01-01 改为 01-01 精简 afrog-config 配置信息  解决：`-fc` 命令配置无效问题 提示：配置 `-c` 命令能明显提高扫描速度"
@@ -1044,8 +1044,8 @@
             "https://github.com/wuba/Antenna": {
                 "created_at": "2022-06-15 06:42:25",
                 "description": "Antenna是58同城安全团队打造的一款辅助安全从业人员验证网络中多种漏洞是否存在以及可利用性的工具。其基于带外应用安全测试(OAST)通过任务的形式，将不同漏洞场景检测能力通过插件的形式进行集合，通过与目标进行out-bind的数据通信方式进行辅助检测。",
-                "commit_date": "2022-11-17 10:06:41",
-                "commit_message": "Update README.md",
+                "commit_date": "2023-02-21 14:47:22",
+                "commit_message": "Merge pull request #74 from wuba/develop\n\nDevelop",
                 "release_tag": "v1.2.1",
                 "release_date": "2022-10-18 17:10:22",
                 "release_message": "1、优化HTTP/HTTPS请求处理模块，消息结果展示数据请求报文 2、修复组件模块bug，添加组件代码展示&编辑功能 3、OPEN_API新增domain_contains、content_contains查询关键字 4、优化用户使用体验、更新配置无需再重启docker及系统 5、日常修复了一些bug"
@@ -1455,8 +1455,8 @@
             "https://github.com/helloexp/0day": {
                 "created_at": "2022-04-07 04:28:29",
                 "description": "各种CMS、各种平台、各种系统、各种软件漏洞的EXP、POC ,该项目将持续更新",
-                "commit_date": "2023-02-16 08:02:56",
-                "commit_message": "optimize dirs",
+                "commit_date": "2023-02-21 08:07:00",
+                "commit_message": "update new CVE",
                 "release_tag": "",
                 "release_date": "",
                 "release_message": ""
@@ -1500,8 +1500,8 @@
             "https://github.com/ycdxsb/PocOrExp_in_Github": {
                 "created_at": "2021-04-13 05:46:16",
                 "description": "聚合Github上已有的Poc或者Exp，CVE信息来自CVE官网。Auto Collect Poc Or Exp from Github by CVE ID.",
-                "commit_date": "2023-02-21 01:04:26",
-                "commit_message": "update 2023-02-21 09:04:26",
+                "commit_date": "2023-02-21 22:29:25",
+                "commit_message": "update 2023-02-22 06:29:25",
                 "release_tag": "",
                 "release_date": "",
                 "release_message": ""
@@ -1663,8 +1663,8 @@
             "https://github.com/bytedance/appshark": {
                 "created_at": "2022-09-01 03:39:03",
                 "description": "Appshark is a static taint analysis platform to scan vulnerabilities in an Android app.",
-                "commit_date": "2023-02-20 08:50:05",
-                "commit_message": "serial_Log source field is wrong",
+                "commit_date": "2023-02-21 03:30:58",
+                "commit_message": "update document",
                 "release_tag": "v0.1.2",
                 "release_date": "2022-09-22 10:03:10",
                 "release_message": "fix problems running on windows."
@@ -1694,8 +1694,8 @@
             "https://github.com/chaitin/veinmind-tools": {
                 "created_at": "2022-02-08 08:12:15",
                 "description": "veinmind-tools 是由长亭科技自研，基于 veinmind-sdk 打造的容器安全工具集",
-                "commit_date": "2023-02-16 06:12:55",
-                "commit_message": "fix(ci): runner dockerfile (#192)",
+                "commit_date": "2023-02-21 06:31:25",
+                "commit_message": "fix(ci): secrets (#194)",
                 "release_tag": "v2.0.3",
                 "release_date": "2023-02-16 06:14:37",
                 "release_message": "## Fix - 修复 Dockerfile 编写问题"
@@ -2003,8 +2003,8 @@
             "https://github.com/We5ter/Scanners-Box": {
                 "created_at": "2016-12-24 16:07:50",
                 "description": "A powerful and open-source toolkit for hackers and security automation - 安全行业从业者自研开源扫描器合辑",
-                "commit_date": "2023-01-16 10:59:37",
-                "commit_message": "[+]kvesta/vesta",
+                "commit_date": "2023-02-21 02:04:04",
+                "commit_message": "[+]Cyber-Buddy/APKHunt",
                 "release_tag": "",
                 "release_date": "",
                 "release_message": ""
@@ -2072,8 +2072,8 @@
             "https://github.com/F6JO/RouteVulScan": {
                 "created_at": "2022-06-01 07:07:38",
                 "description": "Burpsuite - Route Vulnerable Scanning 递归式被动检测脆弱路径的burp插件",
-                "commit_date": "2023-02-05 07:11:23",
-                "commit_message": "Update Config_yaml.yaml",
+                "commit_date": "2023-02-21 14:37:50",
+                "commit_message": "Update README.md",
                 "release_tag": "RouteVulScan1.4",
                 "release_date": "2023-01-08 08:33:50",
                 "release_message": "2023-01-08 修改在线更新为追加而不是覆盖 2023-01-08 将主域和子域当作第一层路径默认扫描 2023-02-04 添加bypass功能"
@@ -2464,7 +2464,7 @@
             "https://github.com/ExpLangcn/NucleiTP": {
                 "created_at": "2022-11-08 13:16:56",
                 "description": "自动整合全网Nuclei的漏洞POC，实时同步更新最新POC！",
-                "commit_date": "2023-02-21 01:00:03",
+                "commit_date": "2023-02-22 01:00:03",
                 "commit_message": "更新啦❤️",
                 "release_tag": "",
                 "release_date": "",
@@ -2952,8 +2952,8 @@
             "https://github.com/pppscn/SmsForwarder": {
                 "created_at": "2021-02-10 02:23:07",
                 "description": "短信转发器——监控Android手机短信、来电、APP通知，并根据指定规则转发到其他手机：钉钉群自定义机器人、钉钉企业内机器人、企业微信群机器人、飞书机器人、企业微信应用消息、邮箱、bark、webhook、Telegram机器人、Server酱、PushPlus、手机短信等。包括主动控制服务端与客户端，让你轻松远程发短信、查短信、查通话、查话簿、查电量等。（V3.0 新增）PS.这个APK主要是学习与自用，如有BUG请提ISSUE，同时欢迎大家提PR指正",
-                "commit_date": "2023-02-15 02:01:21",
-                "commit_message": "优化：APP通知转发的默认模板去除卡槽主键(SubId)字段",
+                "commit_date": "2023-02-21 02:58:56",
+                "commit_message": "调整：客户端发送短信，取消对手机号长度检测限制 #264",
                 "release_tag": "v3.2.0",
                 "release_date": "2023-02-14 09:25:00",
                 "release_message": "PS. 距离上一次1024发版，已经过去快5个月了，期间发生不少事，一直没更新这个项目，不管如何，魔幻的2022年都过去了！  感谢大家这2年来的陪伴与支持，祝大家有情人终成眷属，情人节快乐！  ---  ### 【注意】  * v3.x版本是全新重构开发，可能一开始并不稳定，建议升级前先做好数据备份！（客户端>一键换新机>离线模式>导出）  * `v3.2.0` 去除了 `mmkv` 依赖，采用 `SharedPreferences` 来保存配置，升级之后通用设置中的配置请重新配置，具体原因参见 [Issue #245](https://github.com/pppscn/SmsForwarder/issues/245)  * 升级完毕后，建议离线导出配置，完全卸载干净全新安装后再导入配置（可以避免一些莫名其妙的玄学问题，例如：耗电异常）  ---  ### 更新日志  * 新增：短信指令（根据短信指令开关对应功能） #I5YX3F * 新增：监听网络状态变化提醒（APP通知转发，包名：77777777） #259 * 新增：远程改话簿（方便给老人家添加联系人） #256 * 新增：远程查询手机定位（方便找回手机/防止老少走丢） #256 * 新增：Socket发送通道（支持MQTT/TCP/UDP协议） #252 * 新增：发送通道 URL Scheme（支持跨应用数据传递）#250 * 新增：自动消除额外APP通知 #232 #248  * 优化：短信/通话转发获取卡槽信息机制（自行备注卡槽SubId对应）#228 #235 * 优化：来电转发逻辑 & 新增提醒类型（1.来电挂机 2.去电挂机 3.未接来电 4.来电提醒 5.来电接通 6.去电拨出） * 优化：单个转发规则支持绑定多个发送通道，且支持执行逻辑（全部执行/失败即止/成功即止） #247 * 优化：转发日志列表以原始信息为主，聚合展示转发日志（一对多） * 优化：已安装App信息列表异步加载机制 * 优化：电池状态监听/网络状态监控 在未开启去重时默认开启1秒去重 * 优化：利用BatteryReceiver守护自启动的Frpc (试验) #254  * 修复：Android 13 无法授予通知权限 #255 * 修复：重启手机自动启动APP时加载配置失败 #233 #245 * 修复：转发消息遍历发送通道时未跳过已禁用的通道 * 修复：降级Android Gradle插件版本以兼容4.4 (#249 by NyaMisty)  * 升级：andserver到2.1.12（加快web端上下行速度等） * 升级：frpclib 到 v0.47.0 * 升级：androidx组件和kotlin版本  还有一些细微调整参见`github`提交记录  ---  ### APK版本说明： * universal: 通用版（不在乎安装包大小/懒得选就用这个版本，包含以下4种CPU架构so） * armeabi-v7a: 32位ARM设备（备用机首选） * arm64-v8a: 64位ARM设备（主流旗舰机） * x86: 32位Intel设备 * x86_64: 64/32位Intel设备"
@@ -2961,8 +2961,8 @@
             "https://github.com/dbeaver/dbeaver": {
                 "created_at": "2015-10-21 08:26:28",
                 "description": "Free universal database tool and SQL client",
-                "commit_date": "2023-02-20 14:38:37",
-                "commit_message": "dbeaver/pro#1301 Project create wizard fix",
+                "commit_date": "2023-02-21 15:23:57",
+                "commit_message": "Merge branch 'devel' of https://github.com/dbeaver/dbeaver into devel",
                 "release_tag": "22.3.5",
                 "release_date": "2023-02-19 18:19:13",
                 "release_message": "                 - ChatGPT smart completion:                     - Completion popup UI was improved                     - Metadata scope configuration was added                     - Redundant config options wer removed                 - Data editor:                     - Accessibility support was significantly improved (context menu, additional keyboard shortcuts)                     - Filtering and ordering icons visibility configuration was added again                     - Dictionary viewer was fixed (issue with missing dictionary values)                     - \"Save filters\" button was removed from custom SQL queries results                     - App crash on geometry viewer opening was resolved in the latest version of MacOS                 - SQL editor: query text extraction was fixed (issue with trailing comment after query text)                 - Database backup/restore: issue with external tools running was resolved (Linux)                 - Application fonts were unified. Now we have only Main and Monospace fonts configuration                 - Data transfer: data type mapping now respects type name case (for databases with different default case)                 - Variables support in database tasks was fixed                 - Database tools wizard: redundant task configuration page was removed                 - SQL generator dialog now show progress to avoid UI freeze on big schemas                 - Issue with opening ERD files from disk ws resolved                 - Clickhouse: DDL for array columns was fixed                 - Databricks: additional metadata was added                 - Exasol: default connection parameters were updated (thanks to @allipatev)                 - IRIS (ex Cache): driver version was updated                 - Oracle: stored procedures invocation syntax was improved                 - Snowflake: driver now uses single database connection for all editors (configurable)                 - SQL Server:                     - Driver version was updated to 11.2.3. Trust server certificate option was moved to the main connection page                     - Server messages (printed on raiserror) reading was fixed                     - Multiple resultsets reading was fixed (extra error handling was added)                     - VARCHAR(MAX) data type support was added                 - SQLite: converting binary columns into string representation was fixed             "
@@ -3014,10 +3014,10 @@
             "https://github.com/bytedance/Elkeid": {
                 "created_at": "2020-12-18 03:15:54",
                 "description": "Elkeid is an open source solution that can meet the security requirements of various workloads such as hosts, containers and K8s, and serverless. It is derived from ByteDance's internal best practices.",
-                "commit_date": "2023-02-20 11:50:59",
-                "commit_message": "Possible crash caused by uninitialized structures (#445)\n\nWrong parameters were given to memeset, thus leads gcc\r\ncompiler skipping memset operation (zeroing skipped).\r\n\r\nKernels < 3.2.6 will be affected, CentOS6 are included.\r\n\r\nSigned-off-by: shenping.matt <shenping.matt@bytedance.com>",
-                "release_tag": "v1.7.0.10-driver-ko-20230220",
-                "release_date": "2023-02-20 16:21:32",
+                "commit_date": "2023-02-21 11:41:49",
+                "commit_message": "update ci",
+                "release_tag": "v1.7.0.10-driver-ko-20230221_1",
+                "release_date": "2023-02-21 16:32:46",
                 "release_message": ""
             },
             "https://github.com/theSecHunter/Hades": {

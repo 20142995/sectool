@@ -1,9 +1,10 @@
-# 更新于 2023-02-21 09:12:07
+# 更新于 2023-02-22 09:07:42
 
 ## 近30天release更新记录
 | 更新时间 | 项目名称 | 版本 | 更新内容 |
 | :---- | :---- | :---- | :---- |
-|2023-02-20 16:21:32|[Elkeid](https://github.com/bytedance/Elkeid)|v1.7.0.10<br>-driver-ko<br>-20230220||
+|2023-02-21 16:32:46|[Elkeid](https://github.com/bytedance/Elkeid)|v1.7.0.10<br>-driver-ko<br>-20230221_<br>1||
+|2023-02-21 03:59:42|[URLFinder](https://github.com/pingc0y/URLFinder)|2023.2.21|2023/2/21 修复 已知bug|
 |2023-02-19 18:19:13|[dbeaver](https://github.com/dbeaver/dbeaver)|22.3.5|- ChatGPT smart completion:- Completion<br> popup UI was improved- Metadata scope c<br>onfiguration was added- Redundant config<br> options wer removed- Data editor:- Acce<br>ssibility support was significantly impr<br>oved (context menu, additional keyboard <br>shortcuts)- Filtering and ordering icons<br> visibility configuration was added agai<br>n- Dictionary viewer was fixed (issue wi<br>th missing dictionary values)- "Save fil<br>ters" button was removed from custom SQL<br> queries results- App crash on geometry <br>viewer opening was resolved in the lates<br>t version of MacOS- SQL editor: query te<br>xt extraction was fixed (issue with trai<br>ling comment after query text)- Database<br> backup/restore: issue with external too<br>ls running was resolved (Linux)- Applica<br>tion fonts were unified. Now we have onl<br>y Main and Monospace fonts configuration<br>- Data transfer: data type mapping now r<br>espects type name case (for databases wi<br>th different default case)- Variables su<br>pport in database tasks was fixed- Datab<br>ase tools wizard: redundant task configu<br>ration page was removed- SQL generator d<br>ialog now show progress to avoid UI free<br>ze on big schemas- Issue with opening ER<br>D files from disk ws resolved- Clickhous<br>e: DDL for array columns was fixed- Data<br>bricks: additional metadata was added- E<br>xasol: default connection parameters wer<br>e updated (thanks to @allipatev)- IRIS (<br>ex Cache): driver version was updated- O<br>racle: stored procedures invocation synt<br>ax was improved- Snowflake: driver now u<br>ses single database connection for all e<br>ditors (configurable)- SQL Server:- Driv<br>er version was updated to 11.2.3. Trust <br>server certificate option was moved to t<br>he main connection page- Server messages<br> (printed on raiserror) reading was fixe<br>d- Multiple resultsets reading was fixed<br> (extra error handling was added)- VARCH<br>AR(MAX) data type support was added- SQL<br>ite: converting binary columns into stri<br>ng representation was fixed|
 |2023-02-18 15:11:13|[super-xray](https://github.com/4ra1n/super-xray)|1.5|## 1.5更新内容： - [important] [improve<br>] 更简洁更好用的新UI #144 - [important] <br>[feat] 支持拖拽xray文件加载 #140 - [impo<br>rtant] [feat] 允许设置日志等级 #146 - [b<br>ug] CPU占用较高问题RAD修复不完善 #139 - <br>[feat] 增加一键修复/还原的功能 #143 - [f<br>eat] 自动检查版本更新并提示 #142 - [impr<br>ove] 反连HTTP URL输入的验证 #145下载： -<br> super-xray-1.5.jar 版本通过java -jar su<br>per-xray-1.5.jar启动 - super-xray-1.5-jr<br>e-exe.zip 是内置了JRE的exe版本 - super-x<br>ray-1.5-system-jre.exe 是使用系统JRE的ex<br>e版本 - Super-Xray.app.zip 是 Mac OS 的 <br>app (测试版可能有bug)|
 |2023-02-17 13:04:31|[RequestTemplate](https://github.com/1n7erface/RequestTemplate)|v1.1.2|2023.2.17 21:00 1.更新了多个模块报错|
@@ -26,19 +27,27 @@
 |2023-02-05 15:20:55|[Viper](https://github.com/FunnyWolf/Viper)|v1.5.26|## v1.5.26 20230205 ### 优化 - 合并meta<br>sploit-framework 6.3.2版本 (更新多个域渗<br>透模块)### Bugfix - 修复 https://github.c<br>om/FunnyWolf/Viper/issues/93 - 修复 http<br>s://github.com/FunnyWolf/Viper/issues/12<br>0|
 |2023-02-04 14:54:34|[afrog](https://github.com/zan8in/afrog)|v2.2.1|Merge many fingerprint pocs into the pa<br>nel-detect.yaml file to reduce the numbe<br>r of http requests Consoleprint date for<br>mat, 2023-01-01 changed to 01-01 Simplif<br>ied afrog-config configurationFixed: inv<br>alid -fc configuration Tip: Configure th<br>e -c command, which can increase the con<br>currency speed very quickly-------------<br>----------------------------------------<br>------------------------将多个 panel 指<br>纹探测合并到文件 panel-detect.yaml，大幅<br>减少 http 请求 精简控制台日期打印，2023-0<br>1-01 改为 01-01 精简 afrog-config 配置信<br>息解决：-fc 命令配置无效问题 提示：配置 -<br>c 命令能明显提高扫描速度|
 |2023-02-04 12:24:47|[cola_dnslog](https://github.com/AbelChe/cola_dnslog)|v1.3.2|## What's Changed * cola dnslog v1.1.0 <br>by @AbelChe in https://github.com/AbelCh<br>e/cola_dnslog/pull/1 * 1.2.0 by @AbelChe<br> in https://github.com/AbelChe/cola_dnsl<br>og/pull/2 * 1.2.0 by @AbelChe in https:/<br>/github.com/AbelChe/cola_dnslog/pull/4 *<br> cola dnslog v1.2.1 by @AbelChe in https<br>://github.com/AbelChe/cola_dnslog/pull/5<br> * cola dnslog v1.2.2 by @AbelChe in htt<br>ps://github.com/AbelChe/cola_dnslog/pull<br>/6 * cola dnslog v1.2.3 by @AbelChe in h<br>ttps://github.com/AbelChe/cola_dnslog/pu<br>ll/8 * cola dnslog v1.3.0 by @AbelChe in<br> https://github.com/AbelChe/cola_dnslog/<br>pull/9 * cola dnslog v1.3.1 by @AbelChe <br>in https://github.com/AbelChe/cola_dnslo<br>g/pull/10 * cola dnslog v1.3.1 by @AbelC<br>he in https://github.com/AbelChe/cola_dn<br>slog/pull/11 * update readme by @AbelChe<br> in https://github.com/AbelChe/cola_dnsl<br>og/pull/12 * 1.3.1 by @AbelChe in https:<br>//github.com/AbelChe/cola_dnslog/pull/13<br> * change by @AbelChe in https://github.<br>com/AbelChe/cola_dnslog/pull/17 * v1.3.2<br> fix bugs & add new functions by @AbelCh<br>e in https://github.com/AbelChe/cola_dns<br>log/pull/24 * 1.3.2 by @AbelChe in https<br>://github.com/AbelChe/cola_dnslog/pull/2<br>5## New Contributors * @AbelChe made the<br>ir first contribution in https://github.<br>com/AbelChe/cola_dnslog/pull/1**Full Cha<br>ngelog**: https://github.com/AbelChe/col<br>a_dnslog/commits/v1.3.2### ### ### |
-|2023-02-04 08:54:47|[URLFinder](https://github.com/pingc0y/URLFinder)|2023.2.3|## 2023/2/3 更新新增 域名信息展示变化 -<br>i配置文件可配置抓取规则等|
 |2023-02-03 10:17:50|[passive-scan-client](https://github.com/c0ny1/passive-scan-client)|0.3.1|1. 添加url黑明单 2. 添加右键Send to Pas<br>sive Scan Client手动转发thx @i11us0ry |
 |2023-01-30 08:25:35|[railgun](https://github.com/lz520520/railgun)|v1.5.2|解压密码railgun1. 增加gRPC模式，扩展ser<br>ver端a. 实现了dnslog，通过客户端可直接管<br>理server，并做了一些优化。b. 实现了UDP/TC<br>P的socket反连，通过不同伪装头部来过滤。c<br>. 实现了ICMP反连，通过发送特定长度的ping<br>包来过滤。d. 实现HTTP/HTTPS serverⅰ. HTT<br>P LOG1. 增加http 完整请求包记录ⅱ. 任意<br>内容和大文件下载ⅲ. 扩展服务配置参数，并<br>添加已启动服务信息单独查看窗口。e. gRPC完<br>成tls双向认证f. 增加鉴权，目前只设置管理<br>员和普通用户。g. 历史搜索里，增加查询服务<br>端数据库，目前暂定管理员可查（迁移至gRPC<br>模块）。h. 增加单独gRPC模块，可用于gRPC的<br>设置、用户管理以及历史搜索。 2. 编码转换a<br>. 将https://github.com/lz520520/encrypt-<br>js 合入，通过Dict2ConsoleJS和ConsoleExtr<br>actEncryptPwd两种编码来实现|
 ## 近30天commit提交记录
 | 提交时间 | 项目名称 | 更新内容 |
 | :---- | :---- | :---- |
-|2023-02-21 01:04:26|[PocOrExp_in_Github](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-02-21 09:04:26|
-|2023-02-21 01:00:03|[NucleiTP](https://github.com/ExpLangcn/NucleiTP)|更新啦❤️|
+|2023-02-22 01:00:03|[NucleiTP](https://github.com/ExpLangcn/NucleiTP)|更新啦❤️|
+|2023-02-21 22:29:25|[PocOrExp_in_Github](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-02-22 06:29:25|
+|2023-02-21 16:11:23|[dirsearch](https://github.com/maurosoria/dirsearch)|Merge pull request #1282 from 0x0d3ad/patch-3Update my<br> profile link github|
+|2023-02-21 15:23:57|[dbeaver](https://github.com/dbeaver/dbeaver)|Merge branch 'devel' of https://github.com/dbeaver/dbe<br>aver into devel|
+|2023-02-21 14:47:22|[Antenna](https://github.com/wuba/Antenna)|Merge pull request #74 from wuba/developDevelop|
+|2023-02-21 14:37:50|[RouteVulScan](https://github.com/F6JO/RouteVulScan)|Update README.md|
+|2023-02-21 12:25:28|[afrog](https://github.com/zan8in/afrog)|update readme && CVE-2023-23752|
+|2023-02-21 11:41:49|[Elkeid](https://github.com/bytedance/Elkeid)|update ci|
+|2023-02-21 08:07:00|[0day](https://github.com/helloexp/0day)|update new CVE|
+|2023-02-21 06:31:25|[veinmind-tools](https://github.com/chaitin/veinmind-tools)|fix(ci): secrets (#194)|
+|2023-02-21 03:50:02|[URLFinder](https://github.com/pingc0y/URLFinder)|2023/2/21更新|
+|2023-02-21 03:30:58|[appshark](https://github.com/bytedance/appshark)|update document|
+|2023-02-21 02:58:56|[SmsForwarder](https://github.com/pppscn/SmsForwarder)|调整：客户端发送短信，取消对手机号长度检测限制 #264|
+|2023-02-21 02:04:04|[Scanners-Box](https://github.com/We5ter/Scanners-Box)|[+]Cyber-Buddy/APKHunt|
 |2023-02-20 18:40:41|[RsaCtfTool](https://github.com/RsaCtfTool/RsaCtfTool)|Fix issue #405|
-|2023-02-20 14:38:37|[dbeaver](https://github.com/dbeaver/dbeaver)|dbeaver/pro#1301 Project create wizard fix|
-|2023-02-20 11:50:59|[Elkeid](https://github.com/bytedance/Elkeid)|Possible crash caused by uninitialized structures (#44<br>5)Wrong parameters were given to memeset, thus leads gc<br>ccompiler skipping memset operation (zeroing skipped).K<br>ernels |
 |2023-02-20 09:33:48|[geacon_pro](https://github.com/H4de5-7/geacon_pro)|Update README.md|
-|2023-02-20 08:50:05|[appshark](https://github.com/bytedance/appshark)|serial_Log source field is wrong|
 |2023-02-20 06:54:31|[Kunlun-M](https://github.com/LoRexxar/Kunlun-M)|Merge pull request #224 from LoRexxar/developfixed #22<br>3|
 |2023-02-20 03:41:51|[404StarLink](https://github.com/knownsec/404StarLink)|weekly update at 2023-02-20|
 |2023-02-19 22:09:12|[qsnctf-python](https://github.com/Moxin1044/qsnctf-python)|rarcrack|
@@ -53,19 +62,15 @@
 |2023-02-16 18:40:27|[NessusToReport](https://github.com/Hypdncy/NessusToReport)|nessus_only_ips字段默认空|
 |2023-02-16 10:50:14|[autoDecoder](https://github.com/f0ng/autoDecoder)|Update README.md|
 |2023-02-16 10:28:59|[murphysec](https://github.com/murphysecurity/murphysec)|chore(deps): bump github.com/wk8/go-ordered-map/v2 fro<br>m 2.1.5 to 2.1.6 (#128)Bumps [github.com/wk8/go-ordered<br>-map/v2](https://github.com/wk8/go-ordered-map) from 2.<br>1.5 to 2.1.6.- [Release notes](https://github.com/wk8/g<br>o-ordered-map/releases)- [Changelog](https://github.com<br>/wk8/go-ordered-map/blob/master/CHANGELOG.md)- [Commits<br>](https://github.com/wk8/go-ordered-map/compare/v2.1.5.<br>..v2.1.6)---updated-dependencies:- dependency-name: git<br>hub.com/wk8/go-ordered-map/v2dependency-type: direct:pr<br>oductionupdate-type: version-update:semver-patch...Sign<br>ed-off-by: dependabot[bot]Co-authored-by: dependabot[bo<br>t] |
-|2023-02-16 08:02:56|[0day](https://github.com/helloexp/0day)|optimize dirs|
-|2023-02-16 06:12:55|[veinmind-tools](https://github.com/chaitin/veinmind-tools)|fix(ci): runner dockerfile (#192)|
 |2023-02-16 01:36:10|[gshark](https://github.com/madneal/gshark)|remove comments|
 |2023-02-15 09:46:59|[kscan](https://github.com/lcvvvv/kscan)|[*]修复一个Redis协议爆破的bug，之前可能会存在误报|
 |2023-02-15 03:34:58|[xray](https://github.com/chaitin/xray)|[update] readme|
 |2023-02-15 02:40:09|[SpringBoot-Scan-GUI](https://github.com/13exp/SpringBoot-Scan-GUI)|Delete targets.txt|
 |2023-02-15 02:30:55|[ysoserial](https://github.com/su18/ysoserial)|更新 Jboss Filter 型内存马支持 JBoss-4.2.3.GA|
-|2023-02-15 02:01:21|[SmsForwarder](https://github.com/pppscn/SmsForwarder)|优化：APP通知转发的默认模板去除卡槽主键(SubId)字段|
 |2023-02-14 13:28:52|[BurpSuite-collectio<br>ns](https://github.com/Mr-xn/BurpSuite-collections)|add OutLook: 在已登录Outlook账号后，可以使用该插件自动<br>爬取所有联系人的信息|
 |2023-02-14 09:38:24|[wpscan](https://github.com/wpscanteam/wpscan)|Merge pull request #1770 from wpscanteam/dependabot/gi<br>thub_actions/docker/build-push-action-4Bump docker/buil<br>d-push-action from 3 to 4|
 |2023-02-14 05:21:16|[log4j2burpscanner](https://github.com/f0ng/log4j2burpscanner)|Update README.md|
 |2023-02-14 04:41:01|[All-Defense-Tool](https://github.com/guchangan1/All-Defense-Tool)|更新v2.2|
-|2023-02-14 03:37:28|[dirsearch](https://github.com/maurosoria/dirsearch)|Merge pull request #1278 from ibnudev7/patch-1Update d<br>icc.txt|
 |2023-02-13 06:49:15|[Awesome-Redteam](https://github.com/Threekiii/Awesome-Redteam)|更新README.md|
 |2023-02-13 06:04:33|[rotateproxy](https://github.com/akkuman/rotateproxy)|fix: modernc.org/sqlite 不支持 win 386|
 |2023-02-13 03:26:39|[ENScan_GO](https://github.com/wgpsec/ENScan_GO)|修复JSON导出问题 fix #46
@@ -73,7 +78,6 @@
 修<br>复阿拉丁导出bug fix #30
 增加只在终端显示不导出文件 fix #<br>25|
 |2023-02-13 03:07:42|[vulnerability](https://github.com/lal0ne/vulnerability)|CVE-2023-0669|
-|2023-02-13 01:28:57|[afrog](https://github.com/zan8in/afrog)|update poc|
 |2023-02-11 06:57:41|[OA-EXPTOOL](https://github.com/LittleBear4/OA-EXPTOOL)|Update mode.py|
 |2023-02-10 12:15:31|[captcha-killer-modi<br>fied](https://github.com/f0ng/captcha-killer-modified)|Update README.md|
 |2023-02-10 09:53:54|[Some-PoC-oR-ExP](https://github.com/coffeehb/Some-PoC-oR-ExP)|Create CVE-2023-25194.md|
@@ -90,8 +94,6 @@
 |2023-02-06 04:48:56|[cola_dnslog](https://github.com/AbelChe/cola_dnslog)|Merge pull request #26 from AbelChe/1.3.2fix webserver<br> 404|
 |2023-02-06 01:44:57|[Vulhub-Reproduce](https://github.com/Threekiii/Vulhub-Reproduce)|更新漏洞|
 |2023-02-05 15:19:54|[Viper](https://github.com/FunnyWolf/Viper)|update version v1.5.26|
-|2023-02-05 07:11:23|[RouteVulScan](https://github.com/F6JO/RouteVulScan)|Update Config_yaml.yaml|
-|2023-02-04 08:56:24|[URLFinder](https://github.com/pingc0y/URLFinder)|Delete URLFinder-linux-amd64|
 |2023-02-03 10:10:16|[passive-scan-client](https://github.com/c0ny1/passive-scan-client)|恢复默认端口和整理代码符合低版本语法糖|
 |2023-02-03 07:47:41|[ysomap](https://github.com/wh1t3p1g/ysomap)|fix bug|
 |2023-02-02 06:50:04|[mitaka](https://github.com/ninoseki/mitaka)|Merge pull request #694 from ninoseki/renovate/typescr<br>ipt-eslint-monorepochore(deps): update typescript-eslin<br>t monorepo to v5.44.0|
@@ -104,8 +106,7 @@
 |2023-01-27 15:21:16|[Platypus](https://github.com/WangYihang/Platypus)|build(deps): bump cookiejar from 2.1.2 to 2.1.4 in /we<br>b/ttyd (#177)Bumps [cookiejar](https://github.com/bmeck<br>/node-cookiejar) from 2.1.2 to 2.1.4.- [Release notes](<br>https://github.com/bmeck/node-cookiejar/releases)- [Com<br>mits](https://github.com/bmeck/node-cookiejar/commits)-<br>--updated-dependencies:- dependency-name: cookiejardepe<br>ndency-type: indirect...Signed-off-by: dependabot[bot]C<br>o-authored-by: dependabot[bot] |
 |2023-01-26 05:21:12|[CTF-Tools](https://github.com/Aabyss-Team/CTF-Tools)|Update README.md|
 |2023-01-26 05:21:12|[CTF-Tools](https://github.com/Aabyss-Team/CTF-Tools)|Update README.md|
-|2023-01-24 19:13:52|[APTRS](https://github.com/Anof-cyber/APTRS)|Update FUNDING.yml|
-|2023-01-22 01:31:18|[HackBrowserData](https://github.com/moonD4rk/HackBrowserData)|chore: update contributors [skip ci]|## 所有项目
+|2023-01-24 19:13:52|[APTRS](https://github.com/Anof-cyber/APTRS)|Update FUNDING.yml|## 所有项目
 ### 信息收集
 #### 资产测绘采集
 | 项目名称 | 版本 | 项目描述 |
@@ -128,7 +129,7 @@
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
 | [dirsearch](https://github.com/maurosoria/dirsearch) | v0.4.3 | Web path scanner |
-| [URLFinder](https://github.com/pingc0y/URLFinder) | 2023.2.3 | 类似JSFinder的golang实现，一款用于快速提取检测页面中JS与URL的工<br>具，更快更全更舒服 |
+| [URLFinder](https://github.com/pingc0y/URLFinder) | 2023.2.21 | 类似JSFinder的golang实现，一款用于快速提取检测页面中JS与URL的工<br>具，更快更全更舒服 |
 | [feroxbuster](https://github.com/epi052/feroxbuster) | v2.7.3 | A fast, simple, recursive content discovery tool written in Rust<br>. |
 | [ffuf](https://github.com/ffuf/ffuf) | v2.0.0 | Fast web fuzzer written in Go |
 | [dirmap](https://github.com/H4ckForJob/dirmap) |  | An advanced web directory & file scanning tool that will be more<br> powerful than DirBuster, Dirsearch, cansina, and Yu Jian.一个高<br>级web目录、文件扫描工具，功能将会强于DirBuster、Dirsearch、cansina<br>、御剑。 |
@@ -654,7 +655,7 @@
 #### 主机入侵检测
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
-| [Elkeid](https://github.com/bytedance/Elkeid) | v1.7.0.10<br>-driver-ko<br>-20230220 | Elkeid is an open source solution that can meet the security req<br>uirements of various workloads such as hosts, containers and K8s,<br> and serverless. It is derived from ByteDance's internal best pra<br>ctices. |
+| [Elkeid](https://github.com/bytedance/Elkeid) | v1.7.0.10<br>-driver-ko<br>-20230221_<br>1 | Elkeid is an open source solution that can meet the security req<br>uirements of various workloads such as hosts, containers and K8s,<br> and serverless. It is derived from ByteDance's internal best pra<br>ctices. |
 | [Hades](https://github.com/theSecHunter/Hades) |  | Hades is an cross-platform HIDS with kernel-space data collectio<br>n. |
 #### Web应用防火墙
 | 项目名称 | 版本 | 项目描述 |
