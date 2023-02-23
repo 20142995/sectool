@@ -1,14 +1,16 @@
-# 更新于 2023-02-22 09:07:42
+# 更新于 2023-02-23 09:07:57
 
 ## 近30天release更新记录
 | 更新时间 | 项目名称 | 版本 | 更新内容 |
 | :---- | :---- | :---- | :---- |
+|2023-02-22 15:21:08|[subfinder](https://github.com/projectdiscovery/subfinder)|v2.5.6|## What's Changed### New Features* Adde<br>d **digitorus** support as new source by<br> @vzamanillo in https://github.com/proje<br>ctdiscovery/subfinder/pull/696### Bug Fi<br>xes* Fixed outdated deps by @RamanaReddy<br>0M in https://github.com/projectdiscover<br>y/subfinder/pull/762 * Fixed failing cas<br>es by @ShubhamRasal in https://github.co<br>m/projectdiscovery/subfinder/pull/720###<br> Improvements* Improved **crtsh** SQL qu<br>ery by @vzamanillo in https://github.com<br>/projectdiscovery/subfinder/pull/700 * I<br>mproved scan statistics by @owenrumney i<br>n https://github.com/projectdiscovery/su<br>bfinder/pull/727 * Improved ctx param in<br> agent enumerate method by @EndPositive <br>in https://github.com/projectdiscovery/s<br>ubfinder/pull/756Issues closed in releas<br>e - https://github.com/projectdiscovery/<br>subfinder/milestone/5?closed=1## New Con<br>tributors * @owenrumney made their first<br> contribution in https://github.com/proj<br>ectdiscovery/subfinder/pull/727 * @Raman<br>aReddy0M made their first contribution i<br>n https://github.com/projectdiscovery/su<br>bfinder/pull/762 * @EndPositive made the<br>ir first contribution in https://github.<br>com/projectdiscovery/subfinder/pull/756*<br>*Full Changelog**: https://github.com/pr<br>ojectdiscovery/subfinder/compare/v2.5.5.<br>..v2.5.6|
+|2023-02-22 13:35:31|[autoDecoder](https://github.com/f0ng/autoDecoder)|0.23|## 2023.2.22 更新0.23 1. 优化了插件的一<br>些问题 2. 案例移步[autoDecoder-usages](ht<br>tps://github.com/f0ng/autoDecoder-usages<br>)|
+|2023-02-22 09:37:42|[HaE](https://github.com/gh0stkey/HaE)|2.4.6|HaE 2.4.6 更新内容： 1. 加入多线程对数<br>据进行匹配和提取，减少卡顿现象； 2. 变更<br>配置文件更新地址为jsdelivr的CDN节点地址，<br>优化国内用户体验。|
 |2023-02-21 16:32:46|[Elkeid](https://github.com/bytedance/Elkeid)|v1.7.0.10<br>-driver-ko<br>-20230221_<br>1||
 |2023-02-21 03:59:42|[URLFinder](https://github.com/pingc0y/URLFinder)|2023.2.21|2023/2/21 修复 已知bug|
 |2023-02-19 18:19:13|[dbeaver](https://github.com/dbeaver/dbeaver)|22.3.5|- ChatGPT smart completion:- Completion<br> popup UI was improved- Metadata scope c<br>onfiguration was added- Redundant config<br> options wer removed- Data editor:- Acce<br>ssibility support was significantly impr<br>oved (context menu, additional keyboard <br>shortcuts)- Filtering and ordering icons<br> visibility configuration was added agai<br>n- Dictionary viewer was fixed (issue wi<br>th missing dictionary values)- "Save fil<br>ters" button was removed from custom SQL<br> queries results- App crash on geometry <br>viewer opening was resolved in the lates<br>t version of MacOS- SQL editor: query te<br>xt extraction was fixed (issue with trai<br>ling comment after query text)- Database<br> backup/restore: issue with external too<br>ls running was resolved (Linux)- Applica<br>tion fonts were unified. Now we have onl<br>y Main and Monospace fonts configuration<br>- Data transfer: data type mapping now r<br>espects type name case (for databases wi<br>th different default case)- Variables su<br>pport in database tasks was fixed- Datab<br>ase tools wizard: redundant task configu<br>ration page was removed- SQL generator d<br>ialog now show progress to avoid UI free<br>ze on big schemas- Issue with opening ER<br>D files from disk ws resolved- Clickhous<br>e: DDL for array columns was fixed- Data<br>bricks: additional metadata was added- E<br>xasol: default connection parameters wer<br>e updated (thanks to @allipatev)- IRIS (<br>ex Cache): driver version was updated- O<br>racle: stored procedures invocation synt<br>ax was improved- Snowflake: driver now u<br>ses single database connection for all e<br>ditors (configurable)- SQL Server:- Driv<br>er version was updated to 11.2.3. Trust <br>server certificate option was moved to t<br>he main connection page- Server messages<br> (printed on raiserror) reading was fixe<br>d- Multiple resultsets reading was fixed<br> (extra error handling was added)- VARCH<br>AR(MAX) data type support was added- SQL<br>ite: converting binary columns into stri<br>ng representation was fixed|
 |2023-02-18 15:11:13|[super-xray](https://github.com/4ra1n/super-xray)|1.5|## 1.5更新内容： - [important] [improve<br>] 更简洁更好用的新UI #144 - [important] <br>[feat] 支持拖拽xray文件加载 #140 - [impo<br>rtant] [feat] 允许设置日志等级 #146 - [b<br>ug] CPU占用较高问题RAD修复不完善 #139 - <br>[feat] 增加一键修复/还原的功能 #143 - [f<br>eat] 自动检查版本更新并提示 #142 - [impr<br>ove] 反连HTTP URL输入的验证 #145下载： -<br> super-xray-1.5.jar 版本通过java -jar su<br>per-xray-1.5.jar启动 - super-xray-1.5-jr<br>e-exe.zip 是内置了JRE的exe版本 - super-x<br>ray-1.5-system-jre.exe 是使用系统JRE的ex<br>e版本 - Super-Xray.app.zip 是 Mac OS 的 <br>app (测试版可能有bug)|
 |2023-02-17 13:04:31|[RequestTemplate](https://github.com/1n7erface/RequestTemplate)|v1.1.2|2023.2.17 21:00 1.更新了多个模块报错|
-|2023-02-16 06:25:09|[autoDecoder](https://github.com/f0ng/autoDecoder)|0.22-beta<br>1|## 2023.2.16 更新0.22-beta1 1. 优化了读<br>取密文的时候将\u0000去除的问题 2. 在自带<br>算法中，将请求包加解密、响应包加解密分离<br>开，可以选中加密算法null表示不进行加解密<br>，返回原数据包|
 |2023-02-16 06:14:37|[veinmind-tools](https://github.com/chaitin/veinmind-tools)|v2.0.3|## Fix - 修复 Dockerfile 编写问题|
 |2023-02-15 10:17:50|[gshark](https://github.com/madneal/gshark)|v1.1.4|## Fixed* 修复无法变更规则状态的问题 * <br>增加新增 token 的 postman 类型## Added* <br>增加 startSecFilterTask 以及 getTaskStatu<br>sAPI 权限初始化|
 |2023-02-15 02:41:43|[SpringBoot-Scan-GUI](https://github.com/13exp/SpringBoot-Scan-GUI)|v1.2.2|针对CVE-2022-22965，增加shell验证减少误<br>报，新增加操作系统识别功能，若需使用，可<br>从菜单【更多】，前往nmap下载使用，识别仅<br>支持单地址|
@@ -32,16 +34,21 @@
 ## 近30天commit提交记录
 | 提交时间 | 项目名称 | 更新内容 |
 | :---- | :---- | :---- |
-|2023-02-22 01:00:03|[NucleiTP](https://github.com/ExpLangcn/NucleiTP)|更新啦❤️|
-|2023-02-21 22:29:25|[PocOrExp_in_Github](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-02-22 06:29:25|
+|2023-02-22 22:44:44|[PocOrExp_in_Github](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-02-23 06:44:44|
+|2023-02-22 22:15:03|[NucleiTP](https://github.com/ExpLangcn/NucleiTP)|更新啦❤️|
+|2023-02-22 14:51:26|[subfinder](https://github.com/projectdiscovery/subfinder)|Merge pull request #768 from projectdiscovery/devv2.5.<br>6 (maintenance release)|
+|2023-02-22 14:10:16|[dbeaver](https://github.com/dbeaver/dbeaver)|fix(properties): typos in French core properties (#191<br>39)|
+|2023-02-22 13:36:47|[autoDecoder](https://github.com/f0ng/autoDecoder)|Delete autoDecoder例子 directory|
+|2023-02-22 09:36:50|[HaE](https://github.com/gh0stkey/HaE)|Version: 2.4.6 Update|
+|2023-02-22 09:02:18|[go_proxy_pool](https://github.com/pingc0y/go_proxy_pool)|Merge pull request #5 from pingc0y/dependabot/go_modul<br>es/src/golang.org/x/net-0.7.0Bump golang.org/x/net from<br> 0.2.0 to 0.7.0 in /src|
+|2023-02-22 08:57:52|[Antenna](https://github.com/wuba/Antenna)|Merge pull request #76 from wuba/developDevelop|
+|2023-02-22 08:29:41|[fscan](https://github.com/shadow1ng/fscan)|Merge pull request #265 from AgeloVito/mainUpdate eval<br>.go|
+|2023-02-22 06:27:21|[Elkeid](https://github.com/bytedance/Elkeid)|update ko CI, update anolis8 plus|
+|2023-02-22 06:26:25|[veinmind-tools](https://github.com/chaitin/veinmind-tools)|fix(ci): fail-fast (#195)|
 |2023-02-21 16:11:23|[dirsearch](https://github.com/maurosoria/dirsearch)|Merge pull request #1282 from 0x0d3ad/patch-3Update my<br> profile link github|
-|2023-02-21 15:23:57|[dbeaver](https://github.com/dbeaver/dbeaver)|Merge branch 'devel' of https://github.com/dbeaver/dbe<br>aver into devel|
-|2023-02-21 14:47:22|[Antenna](https://github.com/wuba/Antenna)|Merge pull request #74 from wuba/developDevelop|
 |2023-02-21 14:37:50|[RouteVulScan](https://github.com/F6JO/RouteVulScan)|Update README.md|
 |2023-02-21 12:25:28|[afrog](https://github.com/zan8in/afrog)|update readme && CVE-2023-23752|
-|2023-02-21 11:41:49|[Elkeid](https://github.com/bytedance/Elkeid)|update ci|
 |2023-02-21 08:07:00|[0day](https://github.com/helloexp/0day)|update new CVE|
-|2023-02-21 06:31:25|[veinmind-tools](https://github.com/chaitin/veinmind-tools)|fix(ci): secrets (#194)|
 |2023-02-21 03:50:02|[URLFinder](https://github.com/pingc0y/URLFinder)|2023/2/21更新|
 |2023-02-21 03:30:58|[appshark](https://github.com/bytedance/appshark)|update document|
 |2023-02-21 02:58:56|[SmsForwarder](https://github.com/pppscn/SmsForwarder)|调整：客户端发送短信，取消对手机号长度检测限制 #264|
@@ -60,7 +67,6 @@
 |2023-02-17 03:37:31|[poc-hub](https://github.com/ybdt/poc-hub)|整理|
 |2023-02-17 02:30:41|[feroxbuster](https://github.com/epi052/feroxbuster)|Merge pull request #793 from epi052/all-contributors/a<br>dd-f3rn0sdocs: add f3rn0s as a contributor for bug|
 |2023-02-16 18:40:27|[NessusToReport](https://github.com/Hypdncy/NessusToReport)|nessus_only_ips字段默认空|
-|2023-02-16 10:50:14|[autoDecoder](https://github.com/f0ng/autoDecoder)|Update README.md|
 |2023-02-16 10:28:59|[murphysec](https://github.com/murphysecurity/murphysec)|chore(deps): bump github.com/wk8/go-ordered-map/v2 fro<br>m 2.1.5 to 2.1.6 (#128)Bumps [github.com/wk8/go-ordered<br>-map/v2](https://github.com/wk8/go-ordered-map) from 2.<br>1.5 to 2.1.6.- [Release notes](https://github.com/wk8/g<br>o-ordered-map/releases)- [Changelog](https://github.com<br>/wk8/go-ordered-map/blob/master/CHANGELOG.md)- [Commits<br>](https://github.com/wk8/go-ordered-map/compare/v2.1.5.<br>..v2.1.6)---updated-dependencies:- dependency-name: git<br>hub.com/wk8/go-ordered-map/v2dependency-type: direct:pr<br>oductionupdate-type: version-update:semver-patch...Sign<br>ed-off-by: dependabot[bot]Co-authored-by: dependabot[bo<br>t] |
 |2023-02-16 01:36:10|[gshark](https://github.com/madneal/gshark)|remove comments|
 |2023-02-15 09:46:59|[kscan](https://github.com/lcvvvv/kscan)|[*]修复一个Redis协议爆破的bug，之前可能会存在误报|
@@ -116,7 +122,7 @@
 #### 子域名收集
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
-| [subfinder](https://github.com/projectdiscovery/subfinder) | v2.5.5 | Subfinder is a subdomain discovery tool that discovers valid sub<br>domains for websites. Designed as a passive framework to be usefu<br>l for bug bounties and safe for penetration testing. |
+| [subfinder](https://github.com/projectdiscovery/subfinder) | v2.5.6 | Subfinder is a subdomain discovery tool that discovers valid sub<br>domains for websites. Designed as a passive framework to be usefu<br>l for bug bounties and safe for penetration testing. |
 | [ksubdomain](https://github.com/knownsec/ksubdomain) | v0.7 | 无状态子域名爆破工具 |
 | [OneForAll](https://github.com/shmilylty/OneForAll) | v0.4.5 | OneForAll是一款功能强大的子域收集工具 |
 | [LangSrcCurise](https://github.com/LangziFun/LangSrcCurise) |  | SRC子域名资产监控 |
@@ -463,14 +469,14 @@
 | [BurpSuite-collectio<br>ns](https://github.com/Mr-xn/BurpSuite-collections) |  | 有关burpsuite的插件(非商店),文章以及使用技巧的收集(此项目不再提<br>供burpsuite破解文件,如需要请在博客mrxn.net下载)---Collection of bu<br>rpsuite plugins (non-stores), articles and tips for using Burpsui<br>te, no crack version file |
 | [BurpShiroPassiveSca<br>n](https://github.com/pmiaowu/BurpShiroPassiveScan) | BurpShiro<br>PassiveSca<br>n-2.0.0 | 一款基于BurpSuite的被动式shiro检测插件 |
 | [BurpFastJsonScan](https://github.com/pmiaowu/BurpFastJsonScan) | BurpFastJ<br>sonScan-2.<br>2.2 | 一款基于BurpSuite的被动式FastJson检测插件 |
-| [HaE](https://github.com/gh0stkey/HaE) | 2.4.5 | HaE - Highlighter and Extractor, 赋能白帽 高效作战 |
+| [HaE](https://github.com/gh0stkey/HaE) | 2.4.6 | HaE - Highlighter and Extractor, 赋能白帽 高效作战 |
 | [domain_hunter_pro](https://github.com/bit4woo/domain_hunter_pro) | v1.9-alph<br>a | domain_hunter的高级版本，SRC挖洞、HW打点之必备！自动化资产收集；<br>快速Title获取；外部工具联动；等等 |
 | [Sylas](https://github.com/Acmesec/Sylas) | 1.1.1 | 新一代子域名主/被动收集工具 - Subdomain automatic/passive collec<br>tion tool |
 | [GadgetProbe](https://github.com/BishopFox/GadgetProbe) | v1.0 | Probe endpoints consuming Java serialized objects to identify cl<br>asses, libraries, and library versions on remote Java classpaths. |
 | [HopLa](https://github.com/synacktiv/HopLa) | 1.2 |  HopLa Burp Suite Extender plugin -Adds autocompletion support a<br>nd useful payloads in Burp Suite |
 | [captcha-killer-modi<br>fied](https://github.com/f0ng/captcha-killer-modified) | 0.21-beta | captcha-killer的修改版，支持关键词识别base64编码的图片，添加免费<br>ocr库，用于验证码爆破，适配新版Burpsuite |
 | [BurpCrypto](https://github.com/whwlsfb/BurpCrypto) |  | BurpCrypto is a collection of burpsuite encryption plug-ins, sup<br>port AES/RSA/DES/ExecJs(execute JS encryption code in burpsuite).<br> 支持多种加密算法或直接执行JS代码的用于爆破前端加密的BurpSuite插<br>件 |
-| [autoDecoder](https://github.com/f0ng/autoDecoder) | 0.22-beta<br>1 | Burp插件，根据自定义来达到对数据包的处理（适用于加解密、爆破等）<br>，类似mitmproxy，不同点在于经过了burp中转，在自动加解密的基础上，<br>不影响APP、网站加解密正常逻辑等。 |
+| [autoDecoder](https://github.com/f0ng/autoDecoder) | 0.23 | Burp插件，根据自定义来达到对数据包的处理（适用于加解密、爆破等）<br>，类似mitmproxy，不同点在于经过了burp中转，在自动加解密的基础上，<br>不影响APP、网站加解密正常逻辑等。 |
 | [burpFakeIP](https://github.com/TheKingOfDuck/burpFakeIP) | 1.1 | 服务端配置错误情况下用于伪造ip地址进行测试的Burp Suite插件 |
 | [AutoRepeater](https://github.com/nccgroup/AutoRepeater) |  | Automated HTTP Request Repeating With Burp Suite |
 | [http-request-smuggl<br>er](https://github.com/portswigger/http-request-smuggler) |  |  |

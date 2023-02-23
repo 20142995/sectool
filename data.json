@@ -24,11 +24,11 @@
             "https://github.com/projectdiscovery/subfinder": {
                 "created_at": "2018-03-31 09:44:57",
                 "description": "Subfinder is a subdomain discovery tool that discovers valid subdomains for websites. Designed as a passive framework to be useful for bug bounties and safe for penetration testing.",
-                "commit_date": "2022-11-17 14:37:23",
-                "commit_message": "Merge pull request #712 from projectdiscovery/dev\n\nv2.5.5",
-                "release_tag": "v2.5.5",
-                "release_date": "2022-11-17 14:52:04",
-                "release_message": "## What's Changed  * Added hunter source by @Mzack9999 in https://github.com/projectdiscovery/subfinder/pull/680 * Added recon.cloud source by @Mzack9999 in https://github.com/projectdiscovery/subfinder/pull/679 * Added the library usage example by @forgedhallpass in https://github.com/projectdiscovery/subfinder/pull/693 * Added callback function by @ShubhamRasal in https://github.com/projectdiscovery/subfinder/pull/699 * Added dynamic year ranges for commoncrawl by @vzamanillo in https://github.com/projectdiscovery/subfinder/pull/687 * Fixed crtsh email values by @vzamanillo in https://github.com/projectdiscovery/subfinder/pull/676 * Fixed source tests, added crtsh with recursion by @vzamanillo in https://github.com/projectdiscovery/subfinder/pull/702 * Fixed Segfault crash by @r0nk in https://github.com/projectdiscovery/subfinder/pull/672 * Removed sonar source by @vzamanillo in https://github.com/projectdiscovery/subfinder/pull/701  ## New Contributors * @r0nk made their first contribution in https://github.com/projectdiscovery/subfinder/pull/672 * @ShubhamRasal made their first contribution in https://github.com/projectdiscovery/subfinder/pull/699  **Full Changelog**: https://github.com/projectdiscovery/subfinder/compare/v2.5.4...v2.5.5 "
+                "commit_date": "2023-02-22 14:51:26",
+                "commit_message": "Merge pull request #768 from projectdiscovery/dev\n\nv2.5.6 (maintenance release)",
+                "release_tag": "v2.5.6",
+                "release_date": "2023-02-22 15:21:08",
+                "release_message": "## What's Changed  ### New Features  * Added **digitorus** support as new source by @vzamanillo in https://github.com/projectdiscovery/subfinder/pull/696  ### Bug Fixes  * Fixed outdated deps by @RamanaReddy0M in https://github.com/projectdiscovery/subfinder/pull/762 * Fixed failing cases by @ShubhamRasal in https://github.com/projectdiscovery/subfinder/pull/720  ### Improvements  * Improved **crtsh** SQL query by @vzamanillo in https://github.com/projectdiscovery/subfinder/pull/700 * Improved scan statistics by @owenrumney in https://github.com/projectdiscovery/subfinder/pull/727 * Improved `ctx` param in agent enumerate method by @EndPositive in https://github.com/projectdiscovery/subfinder/pull/756  Issues closed in release - https://github.com/projectdiscovery/subfinder/milestone/5?closed=1  ## New Contributors * @owenrumney made their first contribution in https://github.com/projectdiscovery/subfinder/pull/727 * @RamanaReddy0M made their first contribution in https://github.com/projectdiscovery/subfinder/pull/762 * @EndPositive made their first contribution in https://github.com/projectdiscovery/subfinder/pull/756  **Full Changelog**: https://github.com/projectdiscovery/subfinder/compare/v2.5.5...v2.5.6"
             },
             "https://github.com/knownsec/ksubdomain": {
                 "created_at": "2020-08-21 07:29:04",
@@ -1044,8 +1044,8 @@
             "https://github.com/wuba/Antenna": {
                 "created_at": "2022-06-15 06:42:25",
                 "description": "Antenna是58同城安全团队打造的一款辅助安全从业人员验证网络中多种漏洞是否存在以及可利用性的工具。其基于带外应用安全测试(OAST)通过任务的形式，将不同漏洞场景检测能力通过插件的形式进行集合，通过与目标进行out-bind的数据通信方式进行辅助检测。",
-                "commit_date": "2023-02-21 14:47:22",
-                "commit_message": "Merge pull request #74 from wuba/develop\n\nDevelop",
+                "commit_date": "2023-02-22 08:57:52",
+                "commit_message": "Merge pull request #76 from wuba/develop\n\nDevelop",
                 "release_tag": "v1.2.1",
                 "release_date": "2022-10-18 17:10:22",
                 "release_message": "1、优化HTTP/HTTPS请求处理模块，消息结果展示数据请求报文 2、修复组件模块bug，添加组件代码展示&编辑功能 3、OPEN_API新增domain_contains、content_contains查询关键字 4、优化用户使用体验、更新配置无需再重启docker及系统 5、日常修复了一些bug"
@@ -1500,8 +1500,8 @@
             "https://github.com/ycdxsb/PocOrExp_in_Github": {
                 "created_at": "2021-04-13 05:46:16",
                 "description": "聚合Github上已有的Poc或者Exp，CVE信息来自CVE官网。Auto Collect Poc Or Exp from Github by CVE ID.",
-                "commit_date": "2023-02-21 22:29:25",
-                "commit_message": "update 2023-02-22 06:29:25",
+                "commit_date": "2023-02-22 22:44:44",
+                "commit_message": "update 2023-02-23 06:44:44",
                 "release_tag": "",
                 "release_date": "",
                 "release_message": ""
@@ -1694,8 +1694,8 @@
             "https://github.com/chaitin/veinmind-tools": {
                 "created_at": "2022-02-08 08:12:15",
                 "description": "veinmind-tools 是由长亭科技自研，基于 veinmind-sdk 打造的容器安全工具集",
-                "commit_date": "2023-02-21 06:31:25",
-                "commit_message": "fix(ci): secrets (#194)",
+                "commit_date": "2023-02-22 06:26:25",
+                "commit_message": "fix(ci): fail-fast (#195)",
                 "release_tag": "v2.0.3",
                 "release_date": "2023-02-16 06:14:37",
                 "release_message": "## Fix - 修复 Dockerfile 编写问题"
@@ -1834,8 +1834,8 @@
             "https://github.com/shadow1ng/fscan": {
                 "created_at": "2020-11-13 16:35:20",
                 "description": "一款内网综合扫描工具，方便一键自动化、全方位漏扫扫描。",
-                "commit_date": "2022-12-14 01:58:09",
-                "commit_message": "Merge pull request #252 from ruishawn/dev2\n\nfix: 精简打印日志模块冗余代码",
+                "commit_date": "2023-02-22 08:29:41",
+                "commit_message": "Merge pull request #265 from AgeloVito/main\n\nUpdate eval.go",
                 "release_tag": "1.8.2",
                 "release_date": "2022-11-19 09:14:24",
                 "release_message": "加入hash碰撞、wmiiexec无回显命令执行  "
@@ -2041,8 +2041,8 @@
             "https://github.com/pingc0y/go_proxy_pool": {
                 "created_at": "2022-11-14 07:00:52",
                 "description": "无环境依赖开箱即用的代理IP池",
-                "commit_date": "2022-11-22 09:50:10",
-                "commit_message": "2022/11/22更新",
+                "commit_date": "2023-02-22 09:02:18",
+                "commit_message": "Merge pull request #5 from pingc0y/dependabot/go_modules/src/golang.org/x/net-0.7.0\n\nBump golang.org/x/net from 0.2.0 to 0.7.0 in /src",
                 "release_tag": "",
                 "release_date": "",
                 "release_message": ""
@@ -2117,11 +2117,11 @@
             "https://github.com/gh0stkey/HaE": {
                 "created_at": "2020-03-24 10:12:50",
                 "description": "HaE - Highlighter and Extractor, 赋能白帽 高效作战",
-                "commit_date": "2022-12-18 08:12:16",
-                "commit_message": "Version: 2.4.5 Update",
-                "release_tag": "2.4.5",
-                "release_date": "2022-12-18 08:14:24",
-                "release_message": "HaE 2.4.5 更新内容： 1. 在线更新配置信息功能添加提示框，防止用户误触导致配置被更新：#91； 2. 数据聚合查询面板添加支持通配符域名查找：#88； 3. 数据聚合查询面板添加清空数据功能，便于用户查看最新数据； 4. 新增规则作用域：`any header`（请求与响应头）、`any body`（请求与响应主体）。"
+                "commit_date": "2023-02-22 09:36:50",
+                "commit_message": "Version: 2.4.6 Update",
+                "release_tag": "2.4.6",
+                "release_date": "2023-02-22 09:37:42",
+                "release_message": "HaE 2.4.6 更新内容： 1. 加入多线程对数据进行匹配和提取，减少卡顿现象； 2. 变更配置文件更新地址为`jsdelivr`的CDN节点地址，优化国内用户体验。"
             },
             "https://github.com/bit4woo/domain_hunter_pro": {
                 "created_at": "2019-01-18 07:15:15",
@@ -2180,11 +2180,11 @@
             "https://github.com/f0ng/autoDecoder": {
                 "created_at": "2022-03-26 10:13:56",
                 "description": "Burp插件，根据自定义来达到对数据包的处理（适用于加解密、爆破等），类似mitmproxy，不同点在于经过了burp中转，在自动加解密的基础上，不影响APP、网站加解密正常逻辑等。",
-                "commit_date": "2023-02-16 10:50:14",
-                "commit_message": "Update README.md",
-                "release_tag": "0.22-beta1",
-                "release_date": "2023-02-16 06:25:09",
-                "release_message": "## 2023.2.16 更新0.22-beta1 1. 优化了读取密文的时候将`\\u0000`去除的问题 2. 在自带算法中，将请求包加解密、响应包加解密分离开，可以选中加密算法`null`表示不进行加解密，返回原数据包"
+                "commit_date": "2023-02-22 13:36:47",
+                "commit_message": "Delete autoDecoder例子 directory",
+                "release_tag": "0.23",
+                "release_date": "2023-02-22 13:35:31",
+                "release_message": "## 2023.2.22 更新0.23 1. 优化了插件的一些问题 2. 案例移步[autoDecoder-usages](https://github.com/f0ng/autoDecoder-usages)"
             },
             "https://github.com/TheKingOfDuck/burpFakeIP": {
                 "created_at": "2019-06-05 07:24:35",
@@ -2464,7 +2464,7 @@
             "https://github.com/ExpLangcn/NucleiTP": {
                 "created_at": "2022-11-08 13:16:56",
                 "description": "自动整合全网Nuclei的漏洞POC，实时同步更新最新POC！",
-                "commit_date": "2023-02-22 01:00:03",
+                "commit_date": "2023-02-22 22:15:03",
                 "commit_message": "更新啦❤️",
                 "release_tag": "",
                 "release_date": "",
@@ -2961,8 +2961,8 @@
             "https://github.com/dbeaver/dbeaver": {
                 "created_at": "2015-10-21 08:26:28",
                 "description": "Free universal database tool and SQL client",
-                "commit_date": "2023-02-21 15:23:57",
-                "commit_message": "Merge branch 'devel' of https://github.com/dbeaver/dbeaver into devel",
+                "commit_date": "2023-02-22 14:10:16",
+                "commit_message": "fix(properties): typos in French core properties (#19139)",
                 "release_tag": "22.3.5",
                 "release_date": "2023-02-19 18:19:13",
                 "release_message": "                 - ChatGPT smart completion:                     - Completion popup UI was improved                     - Metadata scope configuration was added                     - Redundant config options wer removed                 - Data editor:                     - Accessibility support was significantly improved (context menu, additional keyboard shortcuts)                     - Filtering and ordering icons visibility configuration was added again                     - Dictionary viewer was fixed (issue with missing dictionary values)                     - \"Save filters\" button was removed from custom SQL queries results                     - App crash on geometry viewer opening was resolved in the latest version of MacOS                 - SQL editor: query text extraction was fixed (issue with trailing comment after query text)                 - Database backup/restore: issue with external tools running was resolved (Linux)                 - Application fonts were unified. Now we have only Main and Monospace fonts configuration                 - Data transfer: data type mapping now respects type name case (for databases with different default case)                 - Variables support in database tasks was fixed                 - Database tools wizard: redundant task configuration page was removed                 - SQL generator dialog now show progress to avoid UI freeze on big schemas                 - Issue with opening ERD files from disk ws resolved                 - Clickhouse: DDL for array columns was fixed                 - Databricks: additional metadata was added                 - Exasol: default connection parameters were updated (thanks to @allipatev)                 - IRIS (ex Cache): driver version was updated                 - Oracle: stored procedures invocation syntax was improved                 - Snowflake: driver now uses single database connection for all editors (configurable)                 - SQL Server:                     - Driver version was updated to 11.2.3. Trust server certificate option was moved to the main connection page                     - Server messages (printed on raiserror) reading was fixed                     - Multiple resultsets reading was fixed (extra error handling was added)                     - VARCHAR(MAX) data type support was added                 - SQLite: converting binary columns into string representation was fixed             "
@@ -3014,8 +3014,8 @@
             "https://github.com/bytedance/Elkeid": {
                 "created_at": "2020-12-18 03:15:54",
                 "description": "Elkeid is an open source solution that can meet the security requirements of various workloads such as hosts, containers and K8s, and serverless. It is derived from ByteDance's internal best practices.",
-                "commit_date": "2023-02-21 11:41:49",
-                "commit_message": "update ci",
+                "commit_date": "2023-02-22 06:27:21",
+                "commit_message": "update ko CI, update anolis8 plus",
                 "release_tag": "v1.7.0.10-driver-ko-20230221_1",
                 "release_date": "2023-02-21 16:32:46",
                 "release_message": ""
