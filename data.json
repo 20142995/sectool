@@ -528,8 +528,8 @@
             "https://github.com/chaitin/xray": {
                 "created_at": "2019-06-10 07:16:37",
                 "description": "一款完善的安全评估工具，支持常见 web 安全问题扫描和自定义 poc | 使用之前务必先阅读文档",
-                "commit_date": "2023-02-15 03:34:58",
-                "commit_message": "[update] readme",
+                "commit_date": "2023-02-23 07:36:27",
+                "commit_message": "[fix] 文档地址",
                 "release_tag": "1.9.4",
                 "release_date": "2023-01-10 07:30:58",
                 "release_message": "# 更新内容  ## 插件更新  1. 添加[XStream扫描插件](https://docs.xray.cool/#/configration/plugins?id=xstream)，支持列表如下（该插件需开启反连平台）    - CVE-2021-21344    - CVE-2021-21345    - CVE-2021-39141    - CVE-2021-39144    - ...(共29个插件) 2. fastjson插件支持cve-2022-25845的检测  ## POC编写/执行更新  1. 新增警告信息，师傅们可以根据警告信息删除检测插件创建的文件等 2. 支持在GET，HEAD，OPTION时添加body 3. 添加[compare version](https://docs.xray.cool/#/guide/poc/func?id=版本)函数，可以对匹配出的版本进行对比 4. 添加[html实体编码](https://docs.xray.cool/#/guide/poc/example/encode/htmlEscape)/[解码](https://docs.xray.cool/#/guide/poc/example/encode/htmlUnescape)函数 5. 添加[java反序列化函数](https://docs.xray.cool/#/guide/poc/example/ysoGadget/javaGadget) 6. 添加[hex](https://docs.xray.cool/#/guide/poc/example/encode/hex)/[hexDecode](https://docs.xray.cool/#/guide/poc/example/encode/hexDecode)函数  ## 优化内容  1. 优化了反连平台漏洞捕获逻辑，提高了命中率 2. 优化了 poc lint 变得更人性化 3. yaml脚本支持获取rmi反连平台的链接，具体使用请参考官方文档 4. 优化了Struts2检测模块，添加反连确认，减少误报漏报  ## 修复POC ### 规则优化，规则弱 ``` poc-yaml-drawio-cve-2022-1713-ssrf poc-yaml-h3c-cvm-upload-file-upload poc-yaml-iis-cve-2017-7269 poc-yaml-74cms-sqli-cve-2020-22209 poc-yaml-reporter-file-read poc-yaml-wanhu-ezoffice-documentedit-sqli poc-yaml-joomla-cve-2017-8917-sqli poc-yaml-iis-cve-2017-7269 poc-yaml-emerge-e3-cve-2019-7256 poc-yaml-alibaba-nacos-v1-auth-bypass poc-yaml-wanhu-ezoffice-documentedit-sqli poc-yaml-magicflow-gateway-main-xp-file-read poc-yaml-gitblit-cve-2022-31268 poc-yaml-phpstudy-nginx-wrong-resolve poc-yaml-confluence-cve-2022-26138 poc-yaml-metinfo-lfi-cnvd-2018-13393 poc-yaml-zabbix-cve-2019-17382 poc-yaml-wordpress-paypal-pro-cve-2020-14092-sqli poc-yaml-vite-cnvd-2022-44615 poc-yaml-phpmyadmin-cve-2018-12613-file-inclusion poc-yaml-zabbix-cve-2022-23134 poc-yaml-ametys-cms-cve-2022-26159 ```  ### 优化删除（功能与xray的通用插件重复） ``` poc-yaml-nexusdb-cve-2020-24571-path-traversal poc-yaml-specoweb-cve-2021-32572-fileread poc-yaml-tvt-nvms-1000-file-read-cve-2019-20085 poc-yaml-zyxel-vmg1312-b10d-cve-2018-19326-path-traversal ```  ### 新增无害化处理 ``` poc-yaml-fanruan-v9-file-upload poc-yaml-h3c-cvm-upload-file-upload poc-yaml-seeyon-unauthorized-fileupload poc-yaml-thinkcmf-write-shell poc-yaml-wanhu-oa-officeserver-file-upload poc-yaml-weaver-oa-workrelate-file-upload poc-yaml-yonyou-grp-u8-file-upload poc-yaml-yonyou-nc-file-accept-upload poc-yaml-yonyou-u8c-file-upload poc-yaml-zhiyuan-oa-wpsassistservlet-file-upload ```  ## 新增POC 96个 ``` poc-yaml-ruijie-fileupload-fileupload-rce poc-yaml-eweaver-oa-mecadminaction-sqlexec poc-yaml-xxl-job-default-password poc-yaml-wordpress-plugin-superstorefinder-ssf-social-action-php-sqli poc-yaml-magento-config-disclosure-info-leak poc-yaml-ukefu-cnvd-2021-18305-file-read poc-yaml-ukefu-cnvd-2021-18303-ssrf poc-yaml-eweaver-eoffice-mainselect-info-leak poc-yaml-linksys-cnvd-2014-01260 poc-yaml-wordpress-welcart-ecommerce-cve-2022-41840-path-traversal poc-yaml-jeesite-userfiles-path-traversal poc-yaml-yongyou-nc-iupdateservice-xxe poc-yaml-v-sol-olt-platform-unauth-config-download poc-yaml-ibm-websphere-portal-hcl-cve-2021-27748-ssrf poc-yaml-yonyou-nc-uapws-db-info-leak poc-yaml-yonyou-nc-service-info-leak poc-yaml-yongyou-nc-cloud-fs-sqli poc-yaml-finecms-filedownload poc-yaml-weaver-eoffice-userselect-unauth poc-yaml-fortinet-cve-2022-40684-auth-bypass poc-yaml-dapr-dashboard-cve-2022-38817-unauth poc-yaml-wordpress-zephyr-project-manager-cve-2022-2840-sqli poc-yaml-jira-cve-2022-39960-unauth poc-yaml-qnap-cve-2022-27593-fileupload poc-yaml-wordpress-all-in-one-video-gallery-cve-2022-2633-lfi poc-yaml-atlassian-bitbucket-archive-cve-2022-36804-remote-command-exec poc-yaml-wordpress-simply-schedule-appointments-cve-2022-2373-unauth poc-yaml-zoho-manageengine-opmanager-cve-2022-36923 poc-yaml-red-hat-freeipa-cve-2022-2414-xxe poc-yaml-wavlink-cve-2022-2488-rce poc-yaml-wavlink-cve-2022-34045-info-leak poc-yaml-wordpress-shareaholic-cve-2022-0594-info-leak poc-yaml-wordpress-wp-stats-manager-cve-2022-33965-sqli poc-yaml-opencart-newsletter-custom-popup-sqli poc-yaml-wordpress-events-made-easy-cve-2022-1905-sqli poc-yaml-wordpress-kivicare-cve-2022-0786-sqli poc-yaml-wordpress-cve-2022-1609-rce poc-yaml-solarview-compact-cve-2022-29303-rce poc-yaml-wordpress-arprice-lite-cve-2022-0867-sqli poc-yaml-wordpress-fusion-cve-2022-1386-ssrf poc-yaml-wordpress-nirweb-cve-2022-0781-sqli poc-yaml-wordpress-metform-cve-2022-1442-info-leak poc-yaml-wordpress-mapsvg-cve-2022-0592-sqli poc-yaml-wordpress-badgeos-cve-2022-0817-sqli poc-yaml-wordpress-daily-prayer-time-cve-2022-0785-sqli poc-yaml-wordpress-woo-product-table-cve-2022-1020-rce poc-yaml-wordpress-documentor-cve-2022-0773-sqli poc-yaml-wordpress-multiple-shipping-address-woocommerce-cve-2022-0783-sqli poc-yaml-gitlab-cve-2022-1162-hardcoded-password poc-yaml-thinkphp-cve-2022-25481-info-leak poc-yaml-wordpress-cve-2022-0591-ssrf poc-yaml-wordpress-simple-link-directory-cve-2022-0760-sqli poc-yaml-wordpress-ti-woocommerce-wishlist-cve-2022-0412-sqli poc-yaml-wordpress-notificationx-cve-2022-0349-sqli poc-yaml-wordpress-page-views-count-cve-2022-0434-sqli poc-yaml-wordpress-masterstudy-lms-cve-2022-0441-unauth poc-yaml-wordpress-seo-cve-2021-25118-info-leak poc-yaml-wordpress-perfect-survey-cve-2021-24762-sqli poc-yaml-wordpress-asgaros-forum-cve-2021-24827-sqli poc-yaml-tcexam-cve-2021-20114-info-leak poc-yaml-wordpress-woocommerce-cve-2021-32789-sqli poc-yaml-wordpress-profilepress-cve-2021-34621-unauth poc-yaml-wordpress-wp-statistics-cve-2021-24340-sqli poc-yaml-voipmonitor-cve-2021-30461-rce poc-yaml-rocket-chat-cve-2021-22911-nosqli poc-yaml-pega-infinity-cve-2021-27651-unauth poc-yaml-wordpress-modern-events-calendar-lite-cve-2021-24146-info-leak poc-yaml-afterlogic-webmail-cve-2021-26294-path-traversal poc-yaml-wavlink-cve-2020-13117-rce poc-yaml-prestashop-cve-2021-3110-sqli poc-yaml-cockpit-cve-2020-35847-nosqli poc-yaml-cockpit-cve-2020-35848-nosqli poc-yaml-keycloak-cve-2020-10770-ssrf poc-yaml-prestashop-cve-2020-26248-sqli poc-yaml-wordpress-paypal-pro-cve-2020-14092-sqli poc-yaml-microstrategy-cve-2020-11450-info-leak poc-yaml-adobe-experience-manager-cve-2019-8086-xxe poc-yaml-blogengine-net-cve-2019-10717-path-traversal poc-yaml-dotcms-cve-2018-17422-url-redirection poc-yaml-php-proxy-cve-2018-19458-fileread poc-yaml-circarlife-scada-cve-2018-16671-info-leak poc-yaml-circarlife-scada-cve-2018-16670-info-leak poc-yaml-circarlife-scada-cve-2018-16668-info-leak poc-yaml-dotnetnuke-cve-2017-0929-ssrf poc-yaml-orchid-core-vms-cve-2018-10956-path-traversal poc-yaml-circarlife-scada-cve-2018-12634-info-leak poc-yaml-nuuo-nvrmini2-cve-2018-11523-upload poc-yaml-jolokia-cve-2018-1000130-code-injection poc-yaml-fiberhome-cve-2017-15647-path-traversal poc-yaml-opendreambox-cve-2017-14135-rce poc-yaml-sap-cve-2017-12637-fileread poc-yaml-glassfish-cve-2017-1000029-lfi poc-yaml-boa-cve-2017-9833-fileread poc-yaml-mantisbt-cve-2017-7615-unauth poc-yaml-wordpress-cve-2017-5487-info-leak poc-yaml-thinkcmf-cve-2018-19898-sqli ```"
@@ -1044,8 +1044,8 @@
             "https://github.com/wuba/Antenna": {
                 "created_at": "2022-06-15 06:42:25",
                 "description": "Antenna是58同城安全团队打造的一款辅助安全从业人员验证网络中多种漏洞是否存在以及可利用性的工具。其基于带外应用安全测试(OAST)通过任务的形式，将不同漏洞场景检测能力通过插件的形式进行集合，通过与目标进行out-bind的数据通信方式进行辅助检测。",
-                "commit_date": "2023-02-22 08:57:52",
-                "commit_message": "Merge pull request #76 from wuba/develop\n\nDevelop",
+                "commit_date": "2023-02-23 08:35:19",
+                "commit_message": "Merge pull request #78 from wuba/develop\n\nDevelop",
                 "release_tag": "v1.2.1",
                 "release_date": "2022-10-18 17:10:22",
                 "release_message": "1、优化HTTP/HTTPS请求处理模块，消息结果展示数据请求报文 2、修复组件模块bug，添加组件代码展示&编辑功能 3、OPEN_API新增domain_contains、content_contains查询关键字 4、优化用户使用体验、更新配置无需再重启docker及系统 5、日常修复了一些bug"
@@ -1473,8 +1473,8 @@
             "https://github.com/lal0ne/vulnerability": {
                 "created_at": "2022-01-20 02:48:42",
                 "description": "收集、整理、修改互联网上公开的漏洞POC",
-                "commit_date": "2023-02-13 03:07:42",
-                "commit_message": "CVE-2023-0669",
+                "commit_date": "2023-02-23 02:19:14",
+                "commit_message": "CVE-2023-23752",
                 "release_tag": "",
                 "release_date": "",
                 "release_message": ""
@@ -1500,8 +1500,8 @@
             "https://github.com/ycdxsb/PocOrExp_in_Github": {
                 "created_at": "2021-04-13 05:46:16",
                 "description": "聚合Github上已有的Poc或者Exp，CVE信息来自CVE官网。Auto Collect Poc Or Exp from Github by CVE ID.",
-                "commit_date": "2023-02-22 22:44:44",
-                "commit_message": "update 2023-02-23 06:44:44",
+                "commit_date": "2023-02-23 21:28:38",
+                "commit_message": "update 2023-02-24 05:28:38",
                 "release_tag": "",
                 "release_date": "",
                 "release_message": ""
@@ -1663,8 +1663,8 @@
             "https://github.com/bytedance/appshark": {
                 "created_at": "2022-09-01 03:39:03",
                 "description": "Appshark is a static taint analysis platform to scan vulnerabilities in an Android app.",
-                "commit_date": "2023-02-21 03:30:58",
-                "commit_message": "update document",
+                "commit_date": "2023-02-23 05:56:50",
+                "commit_message": "support pattern filed match.",
                 "release_tag": "v0.1.2",
                 "release_date": "2022-09-22 10:03:10",
                 "release_message": "fix problems running on windows."
@@ -1694,11 +1694,11 @@
             "https://github.com/chaitin/veinmind-tools": {
                 "created_at": "2022-02-08 08:12:15",
                 "description": "veinmind-tools 是由长亭科技自研，基于 veinmind-sdk 打造的容器安全工具集",
-                "commit_date": "2023-02-22 06:26:25",
-                "commit_message": "fix(ci): fail-fast (#195)",
-                "release_tag": "v2.0.3",
-                "release_date": "2023-02-16 06:14:37",
-                "release_message": "## Fix - 修复 Dockerfile 编写问题"
+                "commit_date": "2023-02-23 10:38:12",
+                "commit_message": "fix(runner): repeat scan obj (#200)",
+                "release_tag": "v2.0.4",
+                "release_date": "2023-02-23 10:38:47",
+                "release_message": "## Fix - 修复镜像重复扫描问题"
             }
         },
         "容器漏洞利用": {
@@ -2384,8 +2384,8 @@
             "https://github.com/ninoseki/mitaka": {
                 "created_at": "2018-02-09 00:13:30",
                 "description": "A browser extension for OSINT search",
-                "commit_date": "2023-02-02 06:50:04",
-                "commit_message": "Merge pull request #694 from ninoseki/renovate/typescript-eslint-monorepo\n\nchore(deps): update typescript-eslint monorepo to v5.44.0",
+                "commit_date": "2023-02-23 10:01:11",
+                "commit_message": "Merge pull request #704 from security-companion/master\n\nUpdate Readme",
                 "release_tag": "v0.93.0",
                 "release_date": "2022-09-23 07:09:22",
                 "release_message": "- Remove deprecated search services (#690) - Add an option to disable/enable debug log(#691)"
@@ -2442,7 +2442,7 @@
             "https://github.com/luck-ying/Library-POC": {
                 "created_at": "2021-03-21 15:27:57",
                 "description": "基于Pocsuite3、goby编写的漏洞poc&exp存档",
-                "commit_date": "2022-12-13 07:14:54",
+                "commit_date": "2023-02-23 09:31:05",
                 "commit_message": "Update README.md",
                 "release_tag": "",
                 "release_date": "",
@@ -2464,7 +2464,7 @@
             "https://github.com/ExpLangcn/NucleiTP": {
                 "created_at": "2022-11-08 13:16:56",
                 "description": "自动整合全网Nuclei的漏洞POC，实时同步更新最新POC！",
-                "commit_date": "2023-02-22 22:15:03",
+                "commit_date": "2023-02-24 01:00:03",
                 "commit_message": "更新啦❤️",
                 "release_tag": "",
                 "release_date": "",
@@ -2917,8 +2917,8 @@
             "https://github.com/RsaCtfTool/RsaCtfTool": {
                 "created_at": "2015-03-07 17:29:33",
                 "description": "RSA attack tool (mainly for ctf) - retreive private key from weak public key and/or uncipher data",
-                "commit_date": "2023-02-20 18:40:41",
-                "commit_message": "Fix issue #405",
+                "commit_date": "2023-02-23 21:59:37",
+                "commit_message": "Update partial_d.sage",
                 "release_tag": "",
                 "release_date": "",
                 "release_message": ""
@@ -2943,8 +2943,8 @@
             "https://github.com/joke2k/faker": {
                 "created_at": "2012-11-12 23:00:09",
                 "description": "Faker is a Python package that generates fake data for you.",
-                "commit_date": "2023-02-19 15:49:37",
-                "commit_message": "Minor typos I noticed in comments (#1798)",
+                "commit_date": "2023-02-23 17:12:03",
+                "commit_message": "Add argument validation to `pybool()` (#1797)",
                 "release_tag": "v17.0.0",
                 "release_date": "2023-02-13 17:23:10",
                 "release_message": "See [CHANGELOG.md](https://github.com/joke2k/faker/blob/refs/tags/v17.0.0/CHANGELOG.md)."
@@ -2952,8 +2952,8 @@
             "https://github.com/pppscn/SmsForwarder": {
                 "created_at": "2021-02-10 02:23:07",
                 "description": "短信转发器——监控Android手机短信、来电、APP通知，并根据指定规则转发到其他手机：钉钉群自定义机器人、钉钉企业内机器人、企业微信群机器人、飞书机器人、企业微信应用消息、邮箱、bark、webhook、Telegram机器人、Server酱、PushPlus、手机短信等。包括主动控制服务端与客户端，让你轻松远程发短信、查短信、查通话、查话簿、查电量等。（V3.0 新增）PS.这个APK主要是学习与自用，如有BUG请提ISSUE，同时欢迎大家提PR指正",
-                "commit_date": "2023-02-21 02:58:56",
-                "commit_message": "调整：客户端发送短信，取消对手机号长度检测限制 #264",
+                "commit_date": "2023-02-23 07:55:06",
+                "commit_message": "优化：一键换新机·导出/导入通用设置的机制\n优化：手动重启app的方式",
                 "release_tag": "v3.2.0",
                 "release_date": "2023-02-14 09:25:00",
                 "release_message": "PS. 距离上一次1024发版，已经过去快5个月了，期间发生不少事，一直没更新这个项目，不管如何，魔幻的2022年都过去了！  感谢大家这2年来的陪伴与支持，祝大家有情人终成眷属，情人节快乐！  ---  ### 【注意】  * v3.x版本是全新重构开发，可能一开始并不稳定，建议升级前先做好数据备份！（客户端>一键换新机>离线模式>导出）  * `v3.2.0` 去除了 `mmkv` 依赖，采用 `SharedPreferences` 来保存配置，升级之后通用设置中的配置请重新配置，具体原因参见 [Issue #245](https://github.com/pppscn/SmsForwarder/issues/245)  * 升级完毕后，建议离线导出配置，完全卸载干净全新安装后再导入配置（可以避免一些莫名其妙的玄学问题，例如：耗电异常）  ---  ### 更新日志  * 新增：短信指令（根据短信指令开关对应功能） #I5YX3F * 新增：监听网络状态变化提醒（APP通知转发，包名：77777777） #259 * 新增：远程改话簿（方便给老人家添加联系人） #256 * 新增：远程查询手机定位（方便找回手机/防止老少走丢） #256 * 新增：Socket发送通道（支持MQTT/TCP/UDP协议） #252 * 新增：发送通道 URL Scheme（支持跨应用数据传递）#250 * 新增：自动消除额外APP通知 #232 #248  * 优化：短信/通话转发获取卡槽信息机制（自行备注卡槽SubId对应）#228 #235 * 优化：来电转发逻辑 & 新增提醒类型（1.来电挂机 2.去电挂机 3.未接来电 4.来电提醒 5.来电接通 6.去电拨出） * 优化：单个转发规则支持绑定多个发送通道，且支持执行逻辑（全部执行/失败即止/成功即止） #247 * 优化：转发日志列表以原始信息为主，聚合展示转发日志（一对多） * 优化：已安装App信息列表异步加载机制 * 优化：电池状态监听/网络状态监控 在未开启去重时默认开启1秒去重 * 优化：利用BatteryReceiver守护自启动的Frpc (试验) #254  * 修复：Android 13 无法授予通知权限 #255 * 修复：重启手机自动启动APP时加载配置失败 #233 #245 * 修复：转发消息遍历发送通道时未跳过已禁用的通道 * 修复：降级Android Gradle插件版本以兼容4.4 (#249 by NyaMisty)  * 升级：andserver到2.1.12（加快web端上下行速度等） * 升级：frpclib 到 v0.47.0 * 升级：androidx组件和kotlin版本  还有一些细微调整参见`github`提交记录  ---  ### APK版本说明： * universal: 通用版（不在乎安装包大小/懒得选就用这个版本，包含以下4种CPU架构so） * armeabi-v7a: 32位ARM设备（备用机首选） * arm64-v8a: 64位ARM设备（主流旗舰机） * x86: 32位Intel设备 * x86_64: 64/32位Intel设备"
@@ -2961,8 +2961,8 @@
             "https://github.com/dbeaver/dbeaver": {
                 "created_at": "2015-10-21 08:26:28",
                 "description": "Free universal database tool and SQL client",
-                "commit_date": "2023-02-22 14:10:16",
-                "commit_message": "fix(properties): typos in French core properties (#19139)",
+                "commit_date": "2023-02-23 18:06:26",
+                "commit_message": "#15519 Use separate connection for sql console if it was set in settings (#19134)",
                 "release_tag": "22.3.5",
                 "release_date": "2023-02-19 18:19:13",
                 "release_message": "                 - ChatGPT smart completion:                     - Completion popup UI was improved                     - Metadata scope configuration was added                     - Redundant config options wer removed                 - Data editor:                     - Accessibility support was significantly improved (context menu, additional keyboard shortcuts)                     - Filtering and ordering icons visibility configuration was added again                     - Dictionary viewer was fixed (issue with missing dictionary values)                     - \"Save filters\" button was removed from custom SQL queries results                     - App crash on geometry viewer opening was resolved in the latest version of MacOS                 - SQL editor: query text extraction was fixed (issue with trailing comment after query text)                 - Database backup/restore: issue with external tools running was resolved (Linux)                 - Application fonts were unified. Now we have only Main and Monospace fonts configuration                 - Data transfer: data type mapping now respects type name case (for databases with different default case)                 - Variables support in database tasks was fixed                 - Database tools wizard: redundant task configuration page was removed                 - SQL generator dialog now show progress to avoid UI freeze on big schemas                 - Issue with opening ERD files from disk ws resolved                 - Clickhouse: DDL for array columns was fixed                 - Databricks: additional metadata was added                 - Exasol: default connection parameters were updated (thanks to @allipatev)                 - IRIS (ex Cache): driver version was updated                 - Oracle: stored procedures invocation syntax was improved                 - Snowflake: driver now uses single database connection for all editors (configurable)                 - SQL Server:                     - Driver version was updated to 11.2.3. Trust server certificate option was moved to the main connection page                     - Server messages (printed on raiserror) reading was fixed                     - Multiple resultsets reading was fixed (extra error handling was added)                     - VARCHAR(MAX) data type support was added                 - SQLite: converting binary columns into string representation was fixed             "
@@ -3014,10 +3014,10 @@
             "https://github.com/bytedance/Elkeid": {
                 "created_at": "2020-12-18 03:15:54",
                 "description": "Elkeid is an open source solution that can meet the security requirements of various workloads such as hosts, containers and K8s, and serverless. It is derived from ByteDance's internal best practices.",
-                "commit_date": "2023-02-22 06:27:21",
-                "commit_message": "update ko CI, update anolis8 plus",
-                "release_tag": "v1.7.0.10-driver-ko-20230221_1",
-                "release_date": "2023-02-21 16:32:46",
+                "commit_date": "2023-02-23 05:58:13",
+                "commit_message": "Merge pull request #439 from Hackerl/main\n\nupdate asyncio library for golang eBPF probe",
+                "release_tag": "rasp-v2.1.0.9-pre",
+                "release_date": "2023-02-23 06:15:44",
                 "release_message": ""
             },
             "https://github.com/theSecHunter/Hades": {
