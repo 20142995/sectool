@@ -1,9 +1,11 @@
-# 更新于 2023-02-24 09:07:54
+# 更新于 2023-02-25 09:09:16
 
 ## 近30天release更新记录
 | 更新时间 | 项目名称 | 版本 | 更新内容 |
 | :---- | :---- | :---- | :---- |
-|2023-02-23 10:38:47|[veinmind-tools](https://github.com/chaitin/veinmind-tools)|v2.0.4|## Fix - 修复镜像重复扫描问题|
+|2023-02-24 21:45:07|[faker](https://github.com/joke2k/faker)|v17.3.0|See [CHANGELOG.md](https://github.com/j<br>oke2k/faker/blob/refs/tags/v17.3.0/CHANG<br>ELOG.md).|
+|2023-02-24 10:05:04|[Antenna](https://github.com/wuba/Antenna)|v1.3.0|1. 优化监听组件管理，将DNS等监听组件进<br>程通过supervisor统一管理 2. 优化平台管理<br>配置界面，新增保存平台七天内请求消息与DNS<br>解析配置功能 3. 平台支持DNS_REBINDING能力<br>(仅对平台管理员开放)|
+|2023-02-24 04:12:38|[veinmind-tools](https://github.com/chaitin/veinmind-tools)|v2.0.5|## Fix - 修改插件发现目录|
 |2023-02-23 06:15:44|[Elkeid](https://github.com/bytedance/Elkeid)|rasp-v2.1<br>.0.9-pre||
 |2023-02-22 15:21:08|[subfinder](https://github.com/projectdiscovery/subfinder)|v2.5.6|## What's Changed### New Features* Adde<br>d **digitorus** support as new source by<br> @vzamanillo in https://github.com/proje<br>ctdiscovery/subfinder/pull/696### Bug Fi<br>xes* Fixed outdated deps by @RamanaReddy<br>0M in https://github.com/projectdiscover<br>y/subfinder/pull/762 * Fixed failing cas<br>es by @ShubhamRasal in https://github.co<br>m/projectdiscovery/subfinder/pull/720###<br> Improvements* Improved **crtsh** SQL qu<br>ery by @vzamanillo in https://github.com<br>/projectdiscovery/subfinder/pull/700 * I<br>mproved scan statistics by @owenrumney i<br>n https://github.com/projectdiscovery/su<br>bfinder/pull/727 * Improved ctx param in<br> agent enumerate method by @EndPositive <br>in https://github.com/projectdiscovery/s<br>ubfinder/pull/756Issues closed in releas<br>e - https://github.com/projectdiscovery/<br>subfinder/milestone/5?closed=1## New Con<br>tributors * @owenrumney made their first<br> contribution in https://github.com/proj<br>ectdiscovery/subfinder/pull/727 * @Raman<br>aReddy0M made their first contribution i<br>n https://github.com/projectdiscovery/su<br>bfinder/pull/762 * @EndPositive made the<br>ir first contribution in https://github.<br>com/projectdiscovery/subfinder/pull/756*<br>*Full Changelog**: https://github.com/pr<br>ojectdiscovery/subfinder/compare/v2.5.5.<br>..v2.5.6|
 |2023-02-22 13:35:31|[autoDecoder](https://github.com/f0ng/autoDecoder)|0.23|## 2023.2.22 更新0.23 1. 优化了插件的一<br>些问题 2. 案例移步[autoDecoder-usages](ht<br>tps://github.com/f0ng/autoDecoder-usages<br>)|
@@ -16,7 +18,6 @@
 |2023-02-15 02:41:43|[SpringBoot-Scan-GUI](https://github.com/13exp/SpringBoot-Scan-GUI)|v1.2.2|针对CVE-2022-22965，增加shell验证减少误<br>报，新增加操作系统识别功能，若需使用，可<br>从菜单【更多】，前往nmap下载使用，识别仅<br>支持单地址|
 |2023-02-14 09:25:00|[SmsForwarder](https://github.com/pppscn/SmsForwarder)|v3.2.0|PS. 距离上一次1024发版，已经过去快5个月<br>了，期间发生不少事，一直没更新这个项目，<br>不管如何，魔幻的2022年都过去了！感谢大家<br>这2年来的陪伴与支持，祝大家有情人终成眷属<br>，情人节快乐！---### 【注意】* v3.x版本是<br>全新重构开发，可能一开始并不稳定，建议升<br>级前先做好数据备份！（客户端>一键换新机><br>离线模式>导出）* v3.2.0 去除了 mmkv 依赖<br>，采用 SharedPreferences 来保存配置，升级<br>之后通用设置中的配置请重新配置，具体原因<br>参见 [Issue #245](https://github.com/ppps<br>cn/SmsForwarder/issues/245)* 升级完毕后<br>，建议离线导出配置，完全卸载干净全新安装<br>后再导入配置（可以避免一些莫名其妙的玄学<br>问题，例如：耗电异常）---### 更新日志* 新<br>增：短信指令（根据短信指令开关对应功能） <br>#I5YX3F * 新增：监听网络状态变化提醒（AP<br>P通知转发，包名：77777777） #259 * 新增<br>：远程改话簿（方便给老人家添加联系人） #2<br>56 * 新增：远程查询手机定位（方便找回手<br>机/防止老少走丢） #256 * 新增：Socket发送<br>通道（支持MQTT/TCP/UDP协议） #252 * 新增<br>：发送通道 URL Scheme（支持跨应用数据传递<br>）#250 * 新增：自动消除额外APP通知 #232 #<br>248* 优化：短信/通话转发获取卡槽信息机制<br>（自行备注卡槽SubId对应）#228 #235 * 优化<br>：来电转发逻辑 & 新增提醒类型（1.来电挂机<br> 2.去电挂机 3.未接来电 4.来电提醒 5.来电<br>接通 6.去电拨出） * 优化：单个转发规则支<br>持绑定多个发送通道，且支持执行逻辑（全部<br>执行/失败即止/成功即止） #247 * 优化：转<br>发日志列表以原始信息为主，聚合展示转发日<br>志（一对多） * 优化：已安装App信息列表异<br>步加载机制 * 优化：电池状态监听/网络状态<br>监控 在未开启去重时默认开启1秒去重 * 优化<br>：利用BatteryReceiver守护自启动的Frpc (试<br>验) #254* 修复：Android 13 无法授予通知权<br>限 #255 * 修复：重启手机自动启动APP时加载<br>配置失败 #233 #245 * 修复：转发消息遍历发<br>送通道时未跳过已禁用的通道 * 修复：降级An<br>droid Gradle插件版本以兼容4.4 (#249 by N<br>yaMisty)* 升级：andserver到2.1.12（加快w<br>eb端上下行速度等） * 升级：frpclib 到 v0<br>.47.0 * 升级：androidx组件和kotlin版本还<br>有一些细微调整参见github提交记录---### AP<br>K版本说明： * universal: 通用版（不在乎<br>安装包大小/懒得选就用这个版本，包含以下4<br>种CPU架构so） * armeabi-v7a: 32位ARM设备<br>（备用机首选） * arm64-v8a: 64位ARM设备（<br>主流旗舰机） * x86: 32位Intel设备 * x86_6<br>4: 64/32位Intel设备|
 |2023-02-14 05:23:46|[log4j2burpscanner](https://github.com/f0ng/log4j2burpscanner)|0.22.0|# 0.22.0 更新 ## 2023-2-14fix problem #<br>58修复数据包中uri带有完整域名的问题，感<br>谢@0xWi11 师傅反馈|
-|2023-02-13 17:23:10|[faker](https://github.com/joke2k/faker)|v17.0.0|See [CHANGELOG.md](https://github.com/j<br>oke2k/faker/blob/refs/tags/v17.0.0/CHANG<br>ELOG.md).|
 |2023-02-13 07:25:06|[murphysec](https://github.com/murphysecurity/murphysec)|v3.0.1||
 |2023-02-13 06:07:53|[rotateproxy](https://github.com/akkuman/rotateproxy)|v0.7.2|## Changelog * 10ddfd1 fix: modernc.org<br>/sqlite 不支持 win 386|
 |2023-02-13 03:33:11|[ENScan_GO](https://github.com/wgpsec/ENScan_GO)|V0.0.9|**bugfix** - 修复JSON导出问题 fix #46 -<br> 修复天眼查日期问题 fix #43 - 修复阿拉丁<br>导出bug fix #30**new** - 增加只在终端显示<br>不导出文件 fix #25|
@@ -34,41 +35,45 @@
 ## 近30天commit提交记录
 | 提交时间 | 项目名称 | 更新内容 |
 | :---- | :---- | :---- |
-|2023-02-24 01:00:03|[NucleiTP](https://github.com/ExpLangcn/NucleiTP)|更新啦❤️|
-|2023-02-23 21:59:37|[RsaCtfTool](https://github.com/RsaCtfTool/RsaCtfTool)|Update partial_d.sage|
-|2023-02-23 21:28:38|[PocOrExp_in_Github](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-02-24 05:28:38|
-|2023-02-23 18:06:26|[dbeaver](https://github.com/dbeaver/dbeaver)|#15519 Use separate connection for sql console if it w<br>as set in settings (#19134)|
-|2023-02-23 17:12:03|[faker](https://github.com/joke2k/faker)|Add argument validation to pybool() (#1797)|
-|2023-02-23 10:38:12|[veinmind-tools](https://github.com/chaitin/veinmind-tools)|fix(runner): repeat scan obj (#200)|
+|2023-02-25 01:00:03|[NucleiTP](https://github.com/ExpLangcn/NucleiTP)|更新啦❤️|
+|2023-02-24 22:29:50|[PocOrExp_in_Github](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-02-25 06:29:50|
+|2023-02-24 22:20:02|[RsaCtfTool](https://github.com/RsaCtfTool/RsaCtfTool)|Update README.md|
+|2023-02-24 22:02:13|[subfinder](https://github.com/projectdiscovery/subfinder)|Merge pull request #771 from olearycrew/brendan-fix-do<br>cker-build|
+|2023-02-24 21:38:17|[faker](https://github.com/joke2k/faker)|Bump version: 17.2.0 → 17.3.0|
+|2023-02-24 19:11:23|[qsnctf-python](https://github.com/Moxin1044/qsnctf-python)|GO_CqHTTP|
+|2023-02-24 14:23:06|[dbeaver](https://github.com/dbeaver/dbeaver)|#19013 Navigator tree font change fix (#19118)|
+|2023-02-24 13:51:27|[BurpSuite-collectio<br>ns](https://github.com/Mr-xn/BurpSuite-collections)|add OneScan：一个递归目录扫描的BurpSuite插件|
+|2023-02-24 13:25:09|[ysomap](https://github.com/wh1t3p1g/ysomap)|update|
+|2023-02-24 09:56:52|[Antenna](https://github.com/wuba/Antenna)|Merge pull request #80 from wuba/developDevelop|
+|2023-02-24 08:50:16|[nemo_go](https://github.com/hanc00l/nemo_go)|Fix: nmap portscan for multi targets|
+|2023-02-24 08:33:14|[afrog](https://github.com/zan8in/afrog)|CVE-2017-5487|
+|2023-02-24 08:22:11|[naabu](https://github.com/projectdiscovery/naabu)|Merge pull request #571 from projectdiscovery/devnaabu<br> v2.1.2|
+|2023-02-24 06:58:54|[Intranet_Penetratio<br>n_Tips](https://github.com/Ridter/Intranet_Penetration_Tips)|增加Exchange利用|
+|2023-02-24 06:16:52|[geacon_pro](https://github.com/H4de5-7/geacon_pro)|Update README_zh.md|
+|2023-02-24 05:15:44|[vulnerability](https://github.com/lal0ne/vulnerability)|CVE-2021-21974|
+|2023-02-24 04:11:54|[veinmind-tools](https://github.com/chaitin/veinmind-tools)|fix(image): fix error plugin dir (#201)|
 |2023-02-23 10:01:11|[mitaka](https://github.com/ninoseki/mitaka)|Merge pull request #704 from security-companion/master<br>Update Readme|
 |2023-02-23 09:31:05|[Library-POC](https://github.com/luck-ying/Library-POC)|Update README.md|
-|2023-02-23 08:35:19|[Antenna](https://github.com/wuba/Antenna)|Merge pull request #78 from wuba/developDevelop|
 |2023-02-23 07:55:06|[SmsForwarder](https://github.com/pppscn/SmsForwarder)|优化：一键换新机·导出/导入通用设置的机制
 优化：手动重<br>启app的方式|
 |2023-02-23 07:36:27|[xray](https://github.com/chaitin/xray)|[fix] 文档地址|
 |2023-02-23 05:58:13|[Elkeid](https://github.com/bytedance/Elkeid)|Merge pull request #439 from Hackerl/mainupdate asynci<br>o library for golang eBPF probe|
 |2023-02-23 05:56:50|[appshark](https://github.com/bytedance/appshark)|support pattern filed match.|
-|2023-02-23 02:19:14|[vulnerability](https://github.com/lal0ne/vulnerability)|CVE-2023-23752|
-|2023-02-22 14:51:26|[subfinder](https://github.com/projectdiscovery/subfinder)|Merge pull request #768 from projectdiscovery/devv2.5.<br>6 (maintenance release)|
 |2023-02-22 13:36:47|[autoDecoder](https://github.com/f0ng/autoDecoder)|Delete autoDecoder例子 directory|
 |2023-02-22 09:36:50|[HaE](https://github.com/gh0stkey/HaE)|Version: 2.4.6 Update|
 |2023-02-22 09:02:18|[go_proxy_pool](https://github.com/pingc0y/go_proxy_pool)|Merge pull request #5 from pingc0y/dependabot/go_modul<br>es/src/golang.org/x/net-0.7.0Bump golang.org/x/net from<br> 0.2.0 to 0.7.0 in /src|
 |2023-02-22 08:29:41|[fscan](https://github.com/shadow1ng/fscan)|Merge pull request #265 from AgeloVito/mainUpdate eval<br>.go|
 |2023-02-21 16:11:23|[dirsearch](https://github.com/maurosoria/dirsearch)|Merge pull request #1282 from 0x0d3ad/patch-3Update my<br> profile link github|
 |2023-02-21 14:37:50|[RouteVulScan](https://github.com/F6JO/RouteVulScan)|Update README.md|
-|2023-02-21 12:25:28|[afrog](https://github.com/zan8in/afrog)|update readme && CVE-2023-23752|
 |2023-02-21 08:07:00|[0day](https://github.com/helloexp/0day)|update new CVE|
 |2023-02-21 03:50:02|[URLFinder](https://github.com/pingc0y/URLFinder)|2023/2/21更新|
 |2023-02-21 02:04:04|[Scanners-Box](https://github.com/We5ter/Scanners-Box)|[+]Cyber-Buddy/APKHunt|
-|2023-02-20 09:33:48|[geacon_pro](https://github.com/H4de5-7/geacon_pro)|Update README.md|
 |2023-02-20 06:54:31|[Kunlun-M](https://github.com/LoRexxar/Kunlun-M)|Merge pull request #224 from LoRexxar/developfixed #22<br>3|
 |2023-02-20 03:41:51|[404StarLink](https://github.com/knownsec/404StarLink)|weekly update at 2023-02-20|
-|2023-02-19 22:09:12|[qsnctf-python](https://github.com/Moxin1044/qsnctf-python)|rarcrack|
 |2023-02-19 16:36:47|[RedisEXP](https://github.com/yuyan-sec/RedisEXP)|解决支持中文路径|
 |2023-02-19 12:41:37|[ffuf](https://github.com/ffuf/ffuf)|Fix HTML output (#640)|
 |2023-02-18 16:06:17|[super-xray](https://github.com/4ra1n/super-xray)|macos|
 |2023-02-18 00:01:09|[nuclei](https://github.com/projectdiscovery/nuclei)|chore(deps): bump golang.org/x/net from 0.6.0 to 0.7.0<br> in /v2 (#3337)Bumps [golang.org/x/net](https://github.<br>com/golang/net) from 0.6.0 to 0.7.0.- [Release notes](h<br>ttps://github.com/golang/net/releases)- [Commits](https<br>://github.com/golang/net/compare/v0.6.0...v0.7.0)---upd<br>ated-dependencies:- dependency-name: golang.org/x/netde<br>pendency-type: direct:production...Signed-off-by: depen<br>dabot[bot]Co-authored-by: dependabot[bot] |
-|2023-02-17 23:20:24|[naabu](https://github.com/projectdiscovery/naabu)|Merge pull request #563 from projectdiscovery/dependab<br>ot/go_modules/v2/golang.org/x/net-0.7.0chore(deps): bum<br>p golang.org/x/net from 0.1.0 to 0.7.0 in /v2|
 |2023-02-17 03:37:31|[poc-hub](https://github.com/ybdt/poc-hub)|整理|
 |2023-02-17 02:30:41|[feroxbuster](https://github.com/epi052/feroxbuster)|Merge pull request #793 from epi052/all-contributors/a<br>dd-f3rn0sdocs: add f3rn0s as a contributor for bug|
 |2023-02-16 18:40:27|[NessusToReport](https://github.com/Hypdncy/NessusToReport)|nessus_only_ips字段默认空|
@@ -77,7 +82,6 @@
 |2023-02-15 09:46:59|[kscan](https://github.com/lcvvvv/kscan)|[*]修复一个Redis协议爆破的bug，之前可能会存在误报|
 |2023-02-15 02:40:09|[SpringBoot-Scan-GUI](https://github.com/13exp/SpringBoot-Scan-GUI)|Delete targets.txt|
 |2023-02-15 02:30:55|[ysoserial](https://github.com/su18/ysoserial)|更新 Jboss Filter 型内存马支持 JBoss-4.2.3.GA|
-|2023-02-14 13:28:52|[BurpSuite-collectio<br>ns](https://github.com/Mr-xn/BurpSuite-collections)|add OutLook: 在已登录Outlook账号后，可以使用该插件自动<br>爬取所有联系人的信息|
 |2023-02-14 09:38:24|[wpscan](https://github.com/wpscanteam/wpscan)|Merge pull request #1770 from wpscanteam/dependabot/gi<br>thub_actions/docker/build-push-action-4Bump docker/buil<br>d-push-action from 3 to 4|
 |2023-02-14 05:21:16|[log4j2burpscanner](https://github.com/f0ng/log4j2burpscanner)|Update README.md|
 |2023-02-14 04:41:01|[All-Defense-Tool](https://github.com/guchangan1/All-Defense-Tool)|更新v2.2|
@@ -104,7 +108,6 @@
 |2023-02-06 01:44:57|[Vulhub-Reproduce](https://github.com/Threekiii/Vulhub-Reproduce)|更新漏洞|
 |2023-02-05 15:19:54|[Viper](https://github.com/FunnyWolf/Viper)|update version v1.5.26|
 |2023-02-03 10:10:16|[passive-scan-client](https://github.com/c0ny1/passive-scan-client)|恢复默认端口和整理代码符合低版本语法糖|
-|2023-02-03 07:47:41|[ysomap](https://github.com/wh1t3p1g/ysomap)|fix bug|
 |2023-02-02 02:36:25|[JDumpSpider](https://github.com/whwlsfb/JDumpSpider)|add SpringSecurityUsernamePasswordAuthenticationToken <br>spider.|
 |2023-02-01 12:26:23|[RequestTemplate](https://github.com/1n7erface/RequestTemplate)|Update README.md|
 |2023-02-01 01:39:12|[CRC32-Tools](https://github.com/AabyssZG/CRC32-Tools)|Update README.md|
@@ -276,7 +279,7 @@
 | [DNSlog-GO](https://github.com/lanyi1998/DNSlog-GO) | 1.5.2 | DNSLog-GO 是一款golang编写的监控 DNS 解析记录的工具，自带WEB界面 |
 | [godnslog](https://github.com/chennqqi/godnslog) | v0.7.0 | An exquisite dns&http log server for verify SSRF/XXE/RFI/RCE vul<br>nerability  |
 | [ysomap](https://github.com/wh1t3p1g/ysomap) | v0.1.3 | A helpful Java Deserialization exploit framework. |
-| [Antenna](https://github.com/wuba/Antenna) | v1.2.1 | Antenna是58同城安全团队打造的一款辅助安全从业人员验证网络中多种<br>漏洞是否存在以及可利用性的工具。其基于带外应用安全测试(OAST)通过任<br>务的形式，将不同漏洞场景检测能力通过插件的形式进行集合，通过与目标<br>进行out-bind的数据通信方式进行辅助检测。 |
+| [Antenna](https://github.com/wuba/Antenna) | v1.3.0 | Antenna是58同城安全团队打造的一款辅助安全从业人员验证网络中多种<br>漏洞是否存在以及可利用性的工具。其基于带外应用安全测试(OAST)通过任<br>务的形式，将不同漏洞场景检测能力通过插件的形式进行集合，通过与目标<br>进行out-bind的数据通信方式进行辅助检测。 |
 | [cola_dnslog](https://github.com/AbelChe/cola_dnslog) | v1.3.2 | Cola Dnslog v1.3.2 更加强大的dnslog平台/无回显漏洞探测辅助平台 <br>完全开源 dnslog httplog ldaplog rmilog 支持dns http ldap rmi等协议<br> 提供API调用方式便于与其他工具结合 支持钉钉机器人、Bark等提醒 支<br>持docker一键部署 后端完全使用python实现 前端基于vue-element-admin<br>二开 |
 | [ddddocr](https://github.com/sml2h3/ddddocr) |  | 带带弟弟 通用验证码识别OCR pypi版 |
 | [ysoserial](https://github.com/su18/ysoserial) | v1.3 | ysoserial for su18 |
@@ -379,7 +382,7 @@
 #### 容器漏洞扫描
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
-| [veinmind-tools](https://github.com/chaitin/veinmind-tools) | v2.0.4 | veinmind-tools 是由长亭科技自研，基于 veinmind-sdk 打造的容器安<br>全工具集 |
+| [veinmind-tools](https://github.com/chaitin/veinmind-tools) | v2.0.5 | veinmind-tools 是由长亭科技自研，基于 veinmind-sdk 打造的容器安<br>全工具集 |
 #### 容器漏洞利用
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
@@ -645,7 +648,7 @@
 #### 其他
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
-| [faker](https://github.com/joke2k/faker) | v17.0.0 | Faker is a Python package that generates fake data for you. |
+| [faker](https://github.com/joke2k/faker) | v17.3.0 | Faker is a Python package that generates fake data for you. |
 | [SmsForwarder](https://github.com/pppscn/SmsForwarder) | v3.2.0 | 短信转发器——监控Android手机短信、来电、APP通知，并根据指定规则<br>转发到其他手机：钉钉群自定义机器人、钉钉企业内机器人、企业微信群机<br>器人、飞书机器人、企业微信应用消息、邮箱、bark、webhook、Telegram<br>机器人、Server酱、PushPlus、手机短信等。包括主动控制服务端与客户端<br>，让你轻松远程发短信、查短信、查通话、查话簿、查电量等。（V3.0 新<br>增）PS.这个APK主要是学习与自用，如有BUG请提ISSUE，同时欢迎大家提PR<br>指正 |
 | [dbeaver](https://github.com/dbeaver/dbeaver) | 22.3.5 | Free universal database tool and SQL client |
 | [MySQLMonitor](https://github.com/TheKingOfDuck/MySQLMonitor) | 1.0 | MySQL实时监控工具(代码审计/黑盒/白盒审计辅助工具) |

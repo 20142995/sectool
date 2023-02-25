@@ -24,8 +24,8 @@
             "https://github.com/projectdiscovery/subfinder": {
                 "created_at": "2018-03-31 09:44:57",
                 "description": "Subfinder is a subdomain discovery tool that discovers valid subdomains for websites. Designed as a passive framework to be useful for bug bounties and safe for penetration testing.",
-                "commit_date": "2023-02-22 14:51:26",
-                "commit_message": "Merge pull request #768 from projectdiscovery/dev\n\nv2.5.6 (maintenance release)",
+                "commit_date": "2023-02-24 22:02:13",
+                "commit_message": "Merge pull request #771 from olearycrew/brendan-fix-docker-build",
                 "release_tag": "v2.5.6",
                 "release_date": "2023-02-22 15:21:08",
                 "release_message": "## What's Changed  ### New Features  * Added **digitorus** support as new source by @vzamanillo in https://github.com/projectdiscovery/subfinder/pull/696  ### Bug Fixes  * Fixed outdated deps by @RamanaReddy0M in https://github.com/projectdiscovery/subfinder/pull/762 * Fixed failing cases by @ShubhamRasal in https://github.com/projectdiscovery/subfinder/pull/720  ### Improvements  * Improved **crtsh** SQL query by @vzamanillo in https://github.com/projectdiscovery/subfinder/pull/700 * Improved scan statistics by @owenrumney in https://github.com/projectdiscovery/subfinder/pull/727 * Improved `ctx` param in agent enumerate method by @EndPositive in https://github.com/projectdiscovery/subfinder/pull/756  Issues closed in release - https://github.com/projectdiscovery/subfinder/milestone/5?closed=1  ## New Contributors * @owenrumney made their first contribution in https://github.com/projectdiscovery/subfinder/pull/727 * @RamanaReddy0M made their first contribution in https://github.com/projectdiscovery/subfinder/pull/762 * @EndPositive made their first contribution in https://github.com/projectdiscovery/subfinder/pull/756  **Full Changelog**: https://github.com/projectdiscovery/subfinder/compare/v2.5.5...v2.5.6"
@@ -237,8 +237,8 @@
             "https://github.com/projectdiscovery/naabu": {
                 "created_at": "2020-01-21 10:56:32",
                 "description": "A fast port scanner written in go with a focus on reliability and simplicity. Designed to be used in combination with other tools for attack surface discovery in bug bounties and pentests",
-                "commit_date": "2023-02-17 23:20:24",
-                "commit_message": "Merge pull request #563 from projectdiscovery/dependabot/go_modules/v2/golang.org/x/net-0.7.0\n\nchore(deps): bump golang.org/x/net from 0.1.0 to 0.7.0 in /v2",
+                "commit_date": "2023-02-24 08:22:11",
+                "commit_message": "Merge pull request #571 from projectdiscovery/dev\n\nnaabu v2.1.2",
                 "release_tag": "v2.1.1",
                 "release_date": "2022-10-25 21:49:53",
                 "release_message": "## What's Changed  * Added **ASN input** support by @ShubhamRasal in https://github.com/projectdiscovery/naabu/pull/445 ```console echo AS15133 | naabu ``` * Added **host exclusion** by open **port threshold** by @parrasajad in https://github.com/projectdiscovery/naabu/pull/416 ```console echo AS15133 | naabu -pts 100 ``` * Added **automatic host discovery** support by @Mzack9999 in https://github.com/projectdiscovery/naabu/pull/418 * Added documentation for using [naabu as library](https://github.com/projectdiscovery/naabu#using-naabu-as-library) by @Mzack9999 in https://github.com/projectdiscovery/naabu/pull/446  ## New Contributors * @ShubhamRasal made their first contribution in https://github.com/projectdiscovery/naabu/pull/445  **Full Changelog**: https://github.com/projectdiscovery/naabu/compare/v2.1.0...v2.1.1"
@@ -304,11 +304,11 @@
             "https://github.com/hanc00l/nemo_go": {
                 "created_at": "2021-07-29 08:13:25",
                 "description": "Nemo是用来进行自动化信息收集的一个简单平台，通过集成常用的信息收集工具和技术，实现对内网及互联网资产信息的自动收集，提高隐患排查和渗透测试的工作效率，用Go语言完全重构了原Python版本。",
-                "commit_date": "2023-01-11 11:27:16",
-                "commit_message": "修复删除关键词bug",
+                "commit_date": "2023-02-24 08:50:16",
+                "commit_message": "Fix: nmap portscan for multi targets",
                 "release_tag": "v2.8.3",
                 "release_date": "2022-12-12 09:22:35",
-                "release_message": "1、Fix：修复Httpx库使用leveldb时，缓存不释放导致的内存泄露；修复XSCAN任务的taskId未能显示、漏洞扫描任务结果不能在maintask正常显示。 2、Update： 增加fofa结果的关键词全局过滤； 增加按worker的CPU及内存数量设置不同的性能模式； 从源代码中移除xray与nuclei的二进制文件（会打包进release的tar包中）"
+                "release_message": "1、Fix：修复Httpx库使用leveldb时，缓存不释放导致的内存泄露；修复XSCAN任务的taskId未能显示、漏洞扫描任务结果不能在maintask正常显示；使用nmap扫描多个目标可能导致的不正确执行 2、Update： 增加fofa结果的关键词全局过滤； 增加按worker的CPU及内存数量设置不同的性能模式； 从源代码中移除xray与nuclei的二进制文件（会打包进release的tar包中） 支持导入gogo扫描结果文件 daemon_worker可以通过命令行手动进行同步（方便部署）"
             },
             "https://github.com/yogeshojha/rengine": {
                 "created_at": "2020-05-03 12:13:12",
@@ -564,8 +564,8 @@
             "https://github.com/zan8in/afrog": {
                 "created_at": "2022-02-24 06:00:32",
                 "description": "A Vulnerability Scanning Tools For Penetration Testing",
-                "commit_date": "2023-02-21 12:25:28",
-                "commit_message": "update readme && CVE-2023-23752",
+                "commit_date": "2023-02-24 08:33:14",
+                "commit_message": "CVE-2017-5487",
                 "release_tag": "v2.2.1",
                 "release_date": "2023-02-04 14:54:34",
                 "release_message": "Merge many fingerprint pocs into the panel-detect.yaml file to reduce the number of http requests Console  print date format, 2023-01-01 changed to 01-01 Simplified afrog-config configuration  Fixed: invalid `-fc` configuration Tip: Configure the `-c` command, which can increase the concurrency speed very quickly  -----------------------------------------------------------------------------  将多个 panel 指纹探测合并到文件 panel-detect.yaml，大幅减少 http 请求 精简控制台日期打印，2023-01-01 改为 01-01 精简 afrog-config 配置信息  解决：`-fc` 命令配置无效问题 提示：配置 `-c` 命令能明显提高扫描速度"
@@ -1035,8 +1035,8 @@
             "https://github.com/wh1t3p1g/ysomap": {
                 "created_at": "2020-02-08 12:59:32",
                 "description": "A helpful Java Deserialization exploit framework.",
-                "commit_date": "2023-02-03 07:47:41",
-                "commit_message": "fix bug",
+                "commit_date": "2023-02-24 13:25:09",
+                "commit_message": "update",
                 "release_tag": "v0.1.3",
                 "release_date": "2022-04-15 14:25:17",
                 "release_message": "Update: - 新增若干payloads、bullets，目前共计 `[+] exploits(12) payloads(31) bullets(36)` - 支持设置编码器、输出方式、serialVersionUid、序列器类型，具体方法见wiki  MD5 (cli/target/ysomap.jar) = d4e72def5bfd8ab1d341a6b71caf16c0  感谢如下小伙伴的提交 XD [@orleven](https://github.com/orleven)、[@G0doot](https://github.com/G0doot)、[@BeichenDream](https://github.com/BeichenDream)、[@sf197](https://github.com/sf197)"
@@ -1044,11 +1044,11 @@
             "https://github.com/wuba/Antenna": {
                 "created_at": "2022-06-15 06:42:25",
                 "description": "Antenna是58同城安全团队打造的一款辅助安全从业人员验证网络中多种漏洞是否存在以及可利用性的工具。其基于带外应用安全测试(OAST)通过任务的形式，将不同漏洞场景检测能力通过插件的形式进行集合，通过与目标进行out-bind的数据通信方式进行辅助检测。",
-                "commit_date": "2023-02-23 08:35:19",
-                "commit_message": "Merge pull request #78 from wuba/develop\n\nDevelop",
-                "release_tag": "v1.2.1",
-                "release_date": "2022-10-18 17:10:22",
-                "release_message": "1、优化HTTP/HTTPS请求处理模块，消息结果展示数据请求报文 2、修复组件模块bug，添加组件代码展示&编辑功能 3、OPEN_API新增domain_contains、content_contains查询关键字 4、优化用户使用体验、更新配置无需再重启docker及系统 5、日常修复了一些bug"
+                "commit_date": "2023-02-24 09:56:52",
+                "commit_message": "Merge pull request #80 from wuba/develop\n\nDevelop",
+                "release_tag": "v1.3.0",
+                "release_date": "2023-02-24 10:05:04",
+                "release_message": "1. 优化监听组件管理，将DNS等监听组件进程通过supervisor统一管理 2. 优化平台管理配置界面，新增保存平台七天内请求消息与DNS解析配置功能 3. 平台支持DNS_REBINDING能力(仅对平台管理员开放)"
             },
             "https://github.com/AbelChe/cola_dnslog": {
                 "created_at": "2022-07-30 09:30:31",
@@ -1473,8 +1473,8 @@
             "https://github.com/lal0ne/vulnerability": {
                 "created_at": "2022-01-20 02:48:42",
                 "description": "收集、整理、修改互联网上公开的漏洞POC",
-                "commit_date": "2023-02-23 02:19:14",
-                "commit_message": "CVE-2023-23752",
+                "commit_date": "2023-02-24 05:15:44",
+                "commit_message": "CVE-2021-21974",
                 "release_tag": "",
                 "release_date": "",
                 "release_message": ""
@@ -1500,8 +1500,8 @@
             "https://github.com/ycdxsb/PocOrExp_in_Github": {
                 "created_at": "2021-04-13 05:46:16",
                 "description": "聚合Github上已有的Poc或者Exp，CVE信息来自CVE官网。Auto Collect Poc Or Exp from Github by CVE ID.",
-                "commit_date": "2023-02-23 21:28:38",
-                "commit_message": "update 2023-02-24 05:28:38",
+                "commit_date": "2023-02-24 22:29:50",
+                "commit_message": "update 2023-02-25 06:29:50",
                 "release_tag": "",
                 "release_date": "",
                 "release_message": ""
@@ -1694,11 +1694,11 @@
             "https://github.com/chaitin/veinmind-tools": {
                 "created_at": "2022-02-08 08:12:15",
                 "description": "veinmind-tools 是由长亭科技自研，基于 veinmind-sdk 打造的容器安全工具集",
-                "commit_date": "2023-02-23 10:38:12",
-                "commit_message": "fix(runner): repeat scan obj (#200)",
-                "release_tag": "v2.0.4",
-                "release_date": "2023-02-23 10:38:47",
-                "release_message": "## Fix - 修复镜像重复扫描问题"
+                "commit_date": "2023-02-24 04:11:54",
+                "commit_message": "fix(image): fix error plugin dir (#201)",
+                "release_tag": "v2.0.5",
+                "release_date": "2023-02-24 04:12:38",
+                "release_message": "## Fix - 修改插件发现目录"
             }
         },
         "容器漏洞利用": {
@@ -1974,8 +1974,8 @@
             "https://github.com/Ridter/Intranet_Penetration_Tips": {
                 "created_at": "2019-01-29 12:23:51",
                 "description": "2018年初整理的一些内网渗透TIPS，后面更新的慢，所以整理出来希望跟小伙伴们一起更新维护~",
-                "commit_date": "2022-11-22 03:32:13",
-                "commit_message": "Merge pull request #12 from we1h0/patch-2\n\nfix url",
+                "commit_date": "2023-02-24 06:58:54",
+                "commit_message": "增加Exchange利用",
                 "release_tag": "",
                 "release_date": "",
                 "release_message": ""
@@ -2090,8 +2090,8 @@
             "https://github.com/Mr-xn/BurpSuite-collections": {
                 "created_at": "2020-01-25 02:07:37",
                 "description": "有关burpsuite的插件(非商店),文章以及使用技巧的收集(此项目不再提供burpsuite破解文件,如需要请在博客mrxn.net下载)---Collection of burpsuite plugins (non-stores), articles and tips for using Burpsuite, no crack version file",
-                "commit_date": "2023-02-14 13:28:52",
-                "commit_message": "add OutLook: 在已登录Outlook账号后，可以使用该  插件自动爬取所有联系人的信息",
+                "commit_date": "2023-02-24 13:51:27",
+                "commit_message": "add OneScan：一个递归目录扫描的BurpSuite插件",
                 "release_tag": "",
                 "release_date": "",
                 "release_message": ""
@@ -2464,7 +2464,7 @@
             "https://github.com/ExpLangcn/NucleiTP": {
                 "created_at": "2022-11-08 13:16:56",
                 "description": "自动整合全网Nuclei的漏洞POC，实时同步更新最新POC！",
-                "commit_date": "2023-02-24 01:00:03",
+                "commit_date": "2023-02-25 01:00:03",
                 "commit_message": "更新啦❤️",
                 "release_tag": "",
                 "release_date": "",
@@ -2580,8 +2580,8 @@
             "https://github.com/H4de5-7/geacon_pro": {
                 "created_at": "2022-10-27 12:07:00",
                 "description": "跨平台重构了Cobaltstrike Beacon，适配了大部分Beacon的功能，行为对国内主流杀软免杀，支持4.1以上的版本。 A cross-platform CobaltStrike Beacon bypass anti-virus, supports 4.1+ version.",
-                "commit_date": "2023-02-20 09:33:48",
-                "commit_message": "Update README.md",
+                "commit_date": "2023-02-24 06:16:52",
+                "commit_message": "Update README_zh.md",
                 "release_tag": "geacon_pro_v1.3",
                 "release_date": "2023-02-05 15:40:56",
                 "release_message": "2023.2.3 v1.3 更新日志  1.新增unhook(ntdll.dll,kernel32.dll,kernelbase.dll) 2.新增argue欺骗 3.修复了drives部分情况下错误、keylogger中文会乱码、dllinject远程注入失败、自删除部分情况下失败、upload时在原文件基础上append的BUG 4.将os.Exit(0)修改为return，避免转换成反射型dll注入后退出宿主进程 5.优化代码结构与sysinfo的显示"
@@ -2822,8 +2822,8 @@
             "https://github.com/Moxin1044/qsnctf-python": {
                 "created_at": "2023-01-01 01:56:43",
                 "description": "青少年CTF的Python包，方便大家调用一些CTF常用功能。",
-                "commit_date": "2023-02-19 22:09:12",
-                "commit_message": "rarcrack",
+                "commit_date": "2023-02-24 19:11:23",
+                "commit_message": "GO_CqHTTP",
                 "release_tag": "",
                 "release_date": "",
                 "release_message": ""
@@ -2917,8 +2917,8 @@
             "https://github.com/RsaCtfTool/RsaCtfTool": {
                 "created_at": "2015-03-07 17:29:33",
                 "description": "RSA attack tool (mainly for ctf) - retreive private key from weak public key and/or uncipher data",
-                "commit_date": "2023-02-23 21:59:37",
-                "commit_message": "Update partial_d.sage",
+                "commit_date": "2023-02-24 22:20:02",
+                "commit_message": "Update README.md",
                 "release_tag": "",
                 "release_date": "",
                 "release_message": ""
@@ -2943,11 +2943,11 @@
             "https://github.com/joke2k/faker": {
                 "created_at": "2012-11-12 23:00:09",
                 "description": "Faker is a Python package that generates fake data for you.",
-                "commit_date": "2023-02-23 17:12:03",
-                "commit_message": "Add argument validation to `pybool()` (#1797)",
-                "release_tag": "v17.0.0",
-                "release_date": "2023-02-13 17:23:10",
-                "release_message": "See [CHANGELOG.md](https://github.com/joke2k/faker/blob/refs/tags/v17.0.0/CHANGELOG.md)."
+                "commit_date": "2023-02-24 21:38:17",
+                "commit_message": "Bump version: 17.2.0 → 17.3.0",
+                "release_tag": "v17.3.0",
+                "release_date": "2023-02-24 21:45:07",
+                "release_message": "See [CHANGELOG.md](https://github.com/joke2k/faker/blob/refs/tags/v17.3.0/CHANGELOG.md)."
             },
             "https://github.com/pppscn/SmsForwarder": {
                 "created_at": "2021-02-10 02:23:07",
@@ -2961,8 +2961,8 @@
             "https://github.com/dbeaver/dbeaver": {
                 "created_at": "2015-10-21 08:26:28",
                 "description": "Free universal database tool and SQL client",
-                "commit_date": "2023-02-23 18:06:26",
-                "commit_message": "#15519 Use separate connection for sql console if it was set in settings (#19134)",
+                "commit_date": "2023-02-24 14:23:06",
+                "commit_message": "#19013 Navigator tree font change fix (#19118)",
                 "release_tag": "22.3.5",
                 "release_date": "2023-02-19 18:19:13",
                 "release_message": "                 - ChatGPT smart completion:                     - Completion popup UI was improved                     - Metadata scope configuration was added                     - Redundant config options wer removed                 - Data editor:                     - Accessibility support was significantly improved (context menu, additional keyboard shortcuts)                     - Filtering and ordering icons visibility configuration was added again                     - Dictionary viewer was fixed (issue with missing dictionary values)                     - \"Save filters\" button was removed from custom SQL queries results                     - App crash on geometry viewer opening was resolved in the latest version of MacOS                 - SQL editor: query text extraction was fixed (issue with trailing comment after query text)                 - Database backup/restore: issue with external tools running was resolved (Linux)                 - Application fonts were unified. Now we have only Main and Monospace fonts configuration                 - Data transfer: data type mapping now respects type name case (for databases with different default case)                 - Variables support in database tasks was fixed                 - Database tools wizard: redundant task configuration page was removed                 - SQL generator dialog now show progress to avoid UI freeze on big schemas                 - Issue with opening ERD files from disk ws resolved                 - Clickhouse: DDL for array columns was fixed                 - Databricks: additional metadata was added                 - Exasol: default connection parameters were updated (thanks to @allipatev)                 - IRIS (ex Cache): driver version was updated                 - Oracle: stored procedures invocation syntax was improved                 - Snowflake: driver now uses single database connection for all editors (configurable)                 - SQL Server:                     - Driver version was updated to 11.2.3. Trust server certificate option was moved to the main connection page                     - Server messages (printed on raiserror) reading was fixed                     - Multiple resultsets reading was fixed (extra error handling was added)                     - VARCHAR(MAX) data type support was added                 - SQLite: converting binary columns into string representation was fixed             "
