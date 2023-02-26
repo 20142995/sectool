@@ -239,9 +239,9 @@
                 "description": "A fast port scanner written in go with a focus on reliability and simplicity. Designed to be used in combination with other tools for attack surface discovery in bug bounties and pentests",
                 "commit_date": "2023-02-24 08:22:11",
                 "commit_message": "Merge pull request #571 from projectdiscovery/dev\n\nnaabu v2.1.2",
-                "release_tag": "v2.1.1",
-                "release_date": "2022-10-25 21:49:53",
-                "release_message": "## What's Changed  * Added **ASN input** support by @ShubhamRasal in https://github.com/projectdiscovery/naabu/pull/445 ```console echo AS15133 | naabu ``` * Added **host exclusion** by open **port threshold** by @parrasajad in https://github.com/projectdiscovery/naabu/pull/416 ```console echo AS15133 | naabu -pts 100 ``` * Added **automatic host discovery** support by @Mzack9999 in https://github.com/projectdiscovery/naabu/pull/418 * Added documentation for using [naabu as library](https://github.com/projectdiscovery/naabu#using-naabu-as-library) by @Mzack9999 in https://github.com/projectdiscovery/naabu/pull/446  ## New Contributors * @ShubhamRasal made their first contribution in https://github.com/projectdiscovery/naabu/pull/445  **Full Changelog**: https://github.com/projectdiscovery/naabu/compare/v2.1.0...v2.1.1"
+                "release_tag": "v2.1.2",
+                "release_date": "2023-02-25 20:54:24",
+                "release_message": "## What's Changed  * Added UDP based PORT scan by @Mzack9999 in https://github.com/projectdiscovery/naabu/pull/460 * Added proxy support to connect scan by @Mzack9999 in https://github.com/projectdiscovery/naabu/pull/529 * Added support for optional reverse ptr by @Mzack9999 in https://github.com/projectdiscovery/naabu/pull/530 * Added documentation to use naabu as library by @ShubhamRasal in https://github.com/projectdiscovery/naabu/pull/469 * Fixed stats on exit by @Mzack9999 in https://github.com/projectdiscovery/naabu/pull/538 * Fixed failing race condition test by @xm1k3 in https://github.com/projectdiscovery/naabu/pull/485 * Fixed issue with nmap flag input by @xm1k3 in https://github.com/projectdiscovery/naabu/pull/487 * Fixed wrong boolean check on verify option by @MiracleLau in https://github.com/projectdiscovery/naabu/pull/519 * Updated freeport with pd fork #471 by @foxcores in https://github.com/projectdiscovery/naabu/pull/478 * Updated helpers libraries by @edoardottt in https://github.com/projectdiscovery/naabu/pull/466 * Improved duplicate debug messages on scanned ips by @Mzack9999 in https://github.com/projectdiscovery/naabu/pull/522 * Removed unused MapKeysToSliceInt by @xm1k3 in https://github.com/projectdiscovery/naabu/pull/534  Issues closed in release - https://github.com/projectdiscovery/naabu/milestone/5?closed=1  ## New Contributors * @edoardottt made their first contribution in https://github.com/projectdiscovery/naabu/pull/466 * @foxcores made their first contribution in https://github.com/projectdiscovery/naabu/pull/478 * @xm1k3 made their first contribution in https://github.com/projectdiscovery/naabu/pull/485 * @MiracleLau made their first contribution in https://github.com/projectdiscovery/naabu/pull/519  **Full Changelog**: https://github.com/projectdiscovery/naabu/compare/v2.1.1...v2.1.2"
             },
             "https://github.com/redtoolskobe/scaninfo": {
                 "created_at": "2021-11-05 04:59:07",
@@ -1044,11 +1044,11 @@
             "https://github.com/wuba/Antenna": {
                 "created_at": "2022-06-15 06:42:25",
                 "description": "Antenna是58同城安全团队打造的一款辅助安全从业人员验证网络中多种漏洞是否存在以及可利用性的工具。其基于带外应用安全测试(OAST)通过任务的形式，将不同漏洞场景检测能力通过插件的形式进行集合，通过与目标进行out-bind的数据通信方式进行辅助检测。",
-                "commit_date": "2023-02-24 09:56:52",
-                "commit_message": "Merge pull request #80 from wuba/develop\n\nDevelop",
-                "release_tag": "v1.3.0",
-                "release_date": "2023-02-24 10:05:04",
-                "release_message": "1. 优化监听组件管理，将DNS等监听组件进程通过supervisor统一管理 2. 优化平台管理配置界面，新增保存平台七天内请求消息与DNS解析配置功能 3. 平台支持DNS_REBINDING能力(仅对平台管理员开放)"
+                "commit_date": "2023-02-25 16:37:32",
+                "commit_message": "测试新actions_15",
+                "release_tag": "v1.3.1",
+                "release_date": "2023-02-25 16:53:39",
+                "release_message": "1.Readme 新增DNS Rebinding功能演示文档，支持并优化了DNS 缓存的逻辑 2.优化了平台消息处理模块的逻辑，减少了数据库的请求数量 3.修复了平台配置的一些bug "
             },
             "https://github.com/AbelChe/cola_dnslog": {
                 "created_at": "2022-07-30 09:30:31",
@@ -1500,8 +1500,8 @@
             "https://github.com/ycdxsb/PocOrExp_in_Github": {
                 "created_at": "2021-04-13 05:46:16",
                 "description": "聚合Github上已有的Poc或者Exp，CVE信息来自CVE官网。Auto Collect Poc Or Exp from Github by CVE ID.",
-                "commit_date": "2023-02-24 22:29:50",
-                "commit_message": "update 2023-02-25 06:29:50",
+                "commit_date": "2023-02-25 21:30:16",
+                "commit_message": "update 2023-02-26 05:30:16",
                 "release_tag": "",
                 "release_date": "",
                 "release_message": ""
@@ -2307,7 +2307,7 @@
         "xray": {
             "https://github.com/zema1/yarx": {
                 "created_at": "2021-11-11 09:43:21",
-                "description": "An awesome reverse engine for xray poc. | 一个自动化根据 xray poc 生成对应 server 的工具",
+                "description": "An awesome reverse engine for xray poc. | 一个自动化根据 xray poc 生成对应靶站的工具",
                 "commit_date": "2021-11-30 08:37:42",
                 "commit_message": "feat: new relase",
                 "release_tag": "v0.2.0",
@@ -2464,7 +2464,7 @@
             "https://github.com/ExpLangcn/NucleiTP": {
                 "created_at": "2022-11-08 13:16:56",
                 "description": "自动整合全网Nuclei的漏洞POC，实时同步更新最新POC！",
-                "commit_date": "2023-02-25 01:00:03",
+                "commit_date": "2023-02-26 01:15:02",
                 "commit_message": "更新啦❤️",
                 "release_tag": "",
                 "release_date": "",
@@ -2580,7 +2580,7 @@
             "https://github.com/H4de5-7/geacon_pro": {
                 "created_at": "2022-10-27 12:07:00",
                 "description": "跨平台重构了Cobaltstrike Beacon，适配了大部分Beacon的功能，行为对国内主流杀软免杀，支持4.1以上的版本。 A cross-platform CobaltStrike Beacon bypass anti-virus, supports 4.1+ version.",
-                "commit_date": "2023-02-24 06:16:52",
+                "commit_date": "2023-02-25 08:15:59",
                 "commit_message": "Update README_zh.md",
                 "release_tag": "geacon_pro_v1.3",
                 "release_date": "2023-02-05 15:40:56",
@@ -2822,11 +2822,11 @@
             "https://github.com/Moxin1044/qsnctf-python": {
                 "created_at": "2023-01-01 01:56:43",
                 "description": "青少年CTF的Python包，方便大家调用一些CTF常用功能。",
-                "commit_date": "2023-02-24 19:11:23",
-                "commit_message": "GO_CqHTTP",
-                "release_tag": "",
-                "release_date": "",
-                "release_message": ""
+                "commit_date": "2023-02-26 00:31:50",
+                "commit_message": "更新版本到0.0.8.9",
+                "release_tag": "0.0.8.9",
+                "release_date": "2023-02-26 00:35:49",
+                "release_message": "更新了之前版本不存在的Web请求timeout导致扫描时间过长，在0.0.8.9版本已修复此问题。 您甚至可以指定timeout，感谢问题反馈！"
             },
             "https://github.com/qianxiao996/CTF-Tools": {
                 "created_at": "2020-01-07 05:58:51",
@@ -2961,8 +2961,8 @@
             "https://github.com/dbeaver/dbeaver": {
                 "created_at": "2015-10-21 08:26:28",
                 "description": "Free universal database tool and SQL client",
-                "commit_date": "2023-02-24 14:23:06",
-                "commit_message": "#19013 Navigator tree font change fix (#19118)",
+                "commit_date": "2023-02-25 14:12:56",
+                "commit_message": "23.0 config",
                 "release_tag": "22.3.5",
                 "release_date": "2023-02-19 18:19:13",
                 "release_message": "                 - ChatGPT smart completion:                     - Completion popup UI was improved                     - Metadata scope configuration was added                     - Redundant config options wer removed                 - Data editor:                     - Accessibility support was significantly improved (context menu, additional keyboard shortcuts)                     - Filtering and ordering icons visibility configuration was added again                     - Dictionary viewer was fixed (issue with missing dictionary values)                     - \"Save filters\" button was removed from custom SQL queries results                     - App crash on geometry viewer opening was resolved in the latest version of MacOS                 - SQL editor: query text extraction was fixed (issue with trailing comment after query text)                 - Database backup/restore: issue with external tools running was resolved (Linux)                 - Application fonts were unified. Now we have only Main and Monospace fonts configuration                 - Data transfer: data type mapping now respects type name case (for databases with different default case)                 - Variables support in database tasks was fixed                 - Database tools wizard: redundant task configuration page was removed                 - SQL generator dialog now show progress to avoid UI freeze on big schemas                 - Issue with opening ERD files from disk ws resolved                 - Clickhouse: DDL for array columns was fixed                 - Databricks: additional metadata was added                 - Exasol: default connection parameters were updated (thanks to @allipatev)                 - IRIS (ex Cache): driver version was updated                 - Oracle: stored procedures invocation syntax was improved                 - Snowflake: driver now uses single database connection for all editors (configurable)                 - SQL Server:                     - Driver version was updated to 11.2.3. Trust server certificate option was moved to the main connection page                     - Server messages (printed on raiserror) reading was fixed                     - Multiple resultsets reading was fixed (extra error handling was added)                     - VARCHAR(MAX) data type support was added                 - SQLite: converting binary columns into string representation was fixed             "

@@ -1,10 +1,12 @@
-# 更新于 2023-02-25 09:09:16
+# 更新于 2023-02-26 09:17:28
 
 ## 近30天release更新记录
 | 更新时间 | 项目名称 | 版本 | 更新内容 |
 | :---- | :---- | :---- | :---- |
+|2023-02-26 00:35:49|[qsnctf-python](https://github.com/Moxin1044/qsnctf-python)|0.0.8.9|更新了之前版本不存在的Web请求timeout导<br>致扫描时间过长，在0.0.8.9版本已修复此问题<br>。 您甚至可以指定timeout，感谢问题反馈！|
+|2023-02-25 20:54:24|[naabu](https://github.com/projectdiscovery/naabu)|v2.1.2|## What's Changed* Added UDP based PORT<br> scan by @Mzack9999 in https://github.co<br>m/projectdiscovery/naabu/pull/460 * Adde<br>d proxy support to connect scan by @Mzac<br>k9999 in https://github.com/projectdisco<br>very/naabu/pull/529 * Added support for <br>optional reverse ptr by @Mzack9999 in ht<br>tps://github.com/projectdiscovery/naabu/<br>pull/530 * Added documentation to use na<br>abu as library by @ShubhamRasal in https<br>://github.com/projectdiscovery/naabu/pul<br>l/469 * Fixed stats on exit by @Mzack999<br>9 in https://github.com/projectdiscovery<br>/naabu/pull/538 * Fixed failing race con<br>dition test by @xm1k3 in https://github.<br>com/projectdiscovery/naabu/pull/485 * Fi<br>xed issue with nmap flag input by @xm1k3<br> in https://github.com/projectdiscovery/<br>naabu/pull/487 * Fixed wrong boolean che<br>ck on verify option by @MiracleLau in ht<br>tps://github.com/projectdiscovery/naabu/<br>pull/519 * Updated freeport with pd fork<br> #471 by @foxcores in https://github.com<br>/projectdiscovery/naabu/pull/478 * Updat<br>ed helpers libraries by @edoardottt in h<br>ttps://github.com/projectdiscovery/naabu<br>/pull/466 * Improved duplicate debug mes<br>sages on scanned ips by @Mzack9999 in ht<br>tps://github.com/projectdiscovery/naabu/<br>pull/522 * Removed unused MapKeysToSlice<br>Int by @xm1k3 in https://github.com/proj<br>ectdiscovery/naabu/pull/534Issues closed<br> in release - https://github.com/project<br>discovery/naabu/milestone/5?closed=1## N<br>ew Contributors * @edoardottt made their<br> first contribution in https://github.co<br>m/projectdiscovery/naabu/pull/466 * @fox<br>cores made their first contribution in h<br>ttps://github.com/projectdiscovery/naabu<br>/pull/478 * @xm1k3 made their first cont<br>ribution in https://github.com/projectdi<br>scovery/naabu/pull/485 * @MiracleLau mad<br>e their first contribution in https://gi<br>thub.com/projectdiscovery/naabu/pull/519<br>**Full Changelog**: https://github.com/p<br>rojectdiscovery/naabu/compare/v2.1.1...v<br>2.1.2|
+|2023-02-25 16:53:39|[Antenna](https://github.com/wuba/Antenna)|v1.3.1|1.Readme 新增DNS Rebinding功能演示文档<br>，支持并优化了DNS 缓存的逻辑 2.优化了平台<br>消息处理模块的逻辑，减少了数据库的请求数<br>量 3.修复了平台配置的一些bug |
 |2023-02-24 21:45:07|[faker](https://github.com/joke2k/faker)|v17.3.0|See [CHANGELOG.md](https://github.com/j<br>oke2k/faker/blob/refs/tags/v17.3.0/CHANG<br>ELOG.md).|
-|2023-02-24 10:05:04|[Antenna](https://github.com/wuba/Antenna)|v1.3.0|1. 优化监听组件管理，将DNS等监听组件进<br>程通过supervisor统一管理 2. 优化平台管理<br>配置界面，新增保存平台七天内请求消息与DNS<br>解析配置功能 3. 平台支持DNS_REBINDING能力<br>(仅对平台管理员开放)|
 |2023-02-24 04:12:38|[veinmind-tools](https://github.com/chaitin/veinmind-tools)|v2.0.5|## Fix - 修改插件发现目录|
 |2023-02-23 06:15:44|[Elkeid](https://github.com/bytedance/Elkeid)|rasp-v2.1<br>.0.9-pre||
 |2023-02-22 15:21:08|[subfinder](https://github.com/projectdiscovery/subfinder)|v2.5.6|## What's Changed### New Features* Adde<br>d **digitorus** support as new source by<br> @vzamanillo in https://github.com/proje<br>ctdiscovery/subfinder/pull/696### Bug Fi<br>xes* Fixed outdated deps by @RamanaReddy<br>0M in https://github.com/projectdiscover<br>y/subfinder/pull/762 * Fixed failing cas<br>es by @ShubhamRasal in https://github.co<br>m/projectdiscovery/subfinder/pull/720###<br> Improvements* Improved **crtsh** SQL qu<br>ery by @vzamanillo in https://github.com<br>/projectdiscovery/subfinder/pull/700 * I<br>mproved scan statistics by @owenrumney i<br>n https://github.com/projectdiscovery/su<br>bfinder/pull/727 * Improved ctx param in<br> agent enumerate method by @EndPositive <br>in https://github.com/projectdiscovery/s<br>ubfinder/pull/756Issues closed in releas<br>e - https://github.com/projectdiscovery/<br>subfinder/milestone/5?closed=1## New Con<br>tributors * @owenrumney made their first<br> contribution in https://github.com/proj<br>ectdiscovery/subfinder/pull/727 * @Raman<br>aReddy0M made their first contribution i<br>n https://github.com/projectdiscovery/su<br>bfinder/pull/762 * @EndPositive made the<br>ir first contribution in https://github.<br>com/projectdiscovery/subfinder/pull/756*<br>*Full Changelog**: https://github.com/pr<br>ojectdiscovery/subfinder/compare/v2.5.5.<br>..v2.5.6|
@@ -35,21 +37,21 @@
 ## 近30天commit提交记录
 | 提交时间 | 项目名称 | 更新内容 |
 | :---- | :---- | :---- |
-|2023-02-25 01:00:03|[NucleiTP](https://github.com/ExpLangcn/NucleiTP)|更新啦❤️|
-|2023-02-24 22:29:50|[PocOrExp_in_Github](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-02-25 06:29:50|
+|2023-02-26 01:15:02|[NucleiTP](https://github.com/ExpLangcn/NucleiTP)|更新啦❤️|
+|2023-02-26 00:31:50|[qsnctf-python](https://github.com/Moxin1044/qsnctf-python)|更新版本到0.0.8.9|
+|2023-02-25 21:30:16|[PocOrExp_in_Github](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-02-26 05:30:16|
+|2023-02-25 16:37:32|[Antenna](https://github.com/wuba/Antenna)|测试新actions_15|
+|2023-02-25 14:12:56|[dbeaver](https://github.com/dbeaver/dbeaver)|23.0 config|
+|2023-02-25 08:15:59|[geacon_pro](https://github.com/H4de5-7/geacon_pro)|Update README_zh.md|
 |2023-02-24 22:20:02|[RsaCtfTool](https://github.com/RsaCtfTool/RsaCtfTool)|Update README.md|
 |2023-02-24 22:02:13|[subfinder](https://github.com/projectdiscovery/subfinder)|Merge pull request #771 from olearycrew/brendan-fix-do<br>cker-build|
 |2023-02-24 21:38:17|[faker](https://github.com/joke2k/faker)|Bump version: 17.2.0 → 17.3.0|
-|2023-02-24 19:11:23|[qsnctf-python](https://github.com/Moxin1044/qsnctf-python)|GO_CqHTTP|
-|2023-02-24 14:23:06|[dbeaver](https://github.com/dbeaver/dbeaver)|#19013 Navigator tree font change fix (#19118)|
 |2023-02-24 13:51:27|[BurpSuite-collectio<br>ns](https://github.com/Mr-xn/BurpSuite-collections)|add OneScan：一个递归目录扫描的BurpSuite插件|
 |2023-02-24 13:25:09|[ysomap](https://github.com/wh1t3p1g/ysomap)|update|
-|2023-02-24 09:56:52|[Antenna](https://github.com/wuba/Antenna)|Merge pull request #80 from wuba/developDevelop|
 |2023-02-24 08:50:16|[nemo_go](https://github.com/hanc00l/nemo_go)|Fix: nmap portscan for multi targets|
 |2023-02-24 08:33:14|[afrog](https://github.com/zan8in/afrog)|CVE-2017-5487|
 |2023-02-24 08:22:11|[naabu](https://github.com/projectdiscovery/naabu)|Merge pull request #571 from projectdiscovery/devnaabu<br> v2.1.2|
 |2023-02-24 06:58:54|[Intranet_Penetratio<br>n_Tips](https://github.com/Ridter/Intranet_Penetration_Tips)|增加Exchange利用|
-|2023-02-24 06:16:52|[geacon_pro](https://github.com/H4de5-7/geacon_pro)|Update README_zh.md|
 |2023-02-24 05:15:44|[vulnerability](https://github.com/lal0ne/vulnerability)|CVE-2021-21974|
 |2023-02-24 04:11:54|[veinmind-tools](https://github.com/chaitin/veinmind-tools)|fix(image): fix error plugin dir (#201)|
 |2023-02-23 10:01:11|[mitaka](https://github.com/ninoseki/mitaka)|Merge pull request #704 from security-companion/master<br>Update Readme|
@@ -114,9 +116,7 @@
 |2023-01-30 13:17:30|[WMIHACKER](https://github.com/rootclay/WMIHACKER)|Update README_zh.md|
 |2023-01-30 08:54:59|[BugRepoter_0x727](https://github.com/0x727/BugRepoter_0x727)|V1.15 解决onlyoffice打开文档错误。|
 |2023-01-29 02:01:58|[ddddocr](https://github.com/sml2h3/ddddocr)|Update README.md|
-|2023-01-27 15:21:16|[Platypus](https://github.com/WangYihang/Platypus)|build(deps): bump cookiejar from 2.1.2 to 2.1.4 in /we<br>b/ttyd (#177)Bumps [cookiejar](https://github.com/bmeck<br>/node-cookiejar) from 2.1.2 to 2.1.4.- [Release notes](<br>https://github.com/bmeck/node-cookiejar/releases)- [Com<br>mits](https://github.com/bmeck/node-cookiejar/commits)-<br>--updated-dependencies:- dependency-name: cookiejardepe<br>ndency-type: indirect...Signed-off-by: dependabot[bot]C<br>o-authored-by: dependabot[bot] |
-|2023-01-26 05:21:12|[CTF-Tools](https://github.com/Aabyss-Team/CTF-Tools)|Update README.md|
-|2023-01-26 05:21:12|[CTF-Tools](https://github.com/Aabyss-Team/CTF-Tools)|Update README.md|## 所有项目
+|2023-01-27 15:21:16|[Platypus](https://github.com/WangYihang/Platypus)|build(deps): bump cookiejar from 2.1.2 to 2.1.4 in /we<br>b/ttyd (#177)Bumps [cookiejar](https://github.com/bmeck<br>/node-cookiejar) from 2.1.2 to 2.1.4.- [Release notes](<br>https://github.com/bmeck/node-cookiejar/releases)- [Com<br>mits](https://github.com/bmeck/node-cookiejar/commits)-<br>--updated-dependencies:- dependency-name: cookiejardepe<br>ndency-type: indirect...Signed-off-by: dependabot[bot]C<br>o-authored-by: dependabot[bot] |## 所有项目
 ### 信息收集
 #### 资产测绘采集
 | 项目名称 | 版本 | 项目描述 |
@@ -158,7 +158,7 @@
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
 | [TXPortMap](https://github.com/4dogs-cn/TXPortMap) | v1.1.2 | Port Scanner & Banner Identify From TianXiang |
-| [naabu](https://github.com/projectdiscovery/naabu) | v2.1.1 | A fast port scanner written in go with a focus on reliability an<br>d simplicity. Designed to be used in combination with other tools<br> for attack surface discovery in bug bounties and pentests |
+| [naabu](https://github.com/projectdiscovery/naabu) | v2.1.2 | A fast port scanner written in go with a focus on reliability an<br>d simplicity. Designed to be used in combination with other tools<br> for attack surface discovery in bug bounties and pentests |
 | [scaninfo](https://github.com/redtoolskobe/scaninfo) | v1.1.0 | fast scan for redtools |
 #### 综合
 | 项目名称 | 版本 | 项目描述 |
@@ -279,7 +279,7 @@
 | [DNSlog-GO](https://github.com/lanyi1998/DNSlog-GO) | 1.5.2 | DNSLog-GO 是一款golang编写的监控 DNS 解析记录的工具，自带WEB界面 |
 | [godnslog](https://github.com/chennqqi/godnslog) | v0.7.0 | An exquisite dns&http log server for verify SSRF/XXE/RFI/RCE vul<br>nerability  |
 | [ysomap](https://github.com/wh1t3p1g/ysomap) | v0.1.3 | A helpful Java Deserialization exploit framework. |
-| [Antenna](https://github.com/wuba/Antenna) | v1.3.0 | Antenna是58同城安全团队打造的一款辅助安全从业人员验证网络中多种<br>漏洞是否存在以及可利用性的工具。其基于带外应用安全测试(OAST)通过任<br>务的形式，将不同漏洞场景检测能力通过插件的形式进行集合，通过与目标<br>进行out-bind的数据通信方式进行辅助检测。 |
+| [Antenna](https://github.com/wuba/Antenna) | v1.3.1 | Antenna是58同城安全团队打造的一款辅助安全从业人员验证网络中多种<br>漏洞是否存在以及可利用性的工具。其基于带外应用安全测试(OAST)通过任<br>务的形式，将不同漏洞场景检测能力通过插件的形式进行集合，通过与目标<br>进行out-bind的数据通信方式进行辅助检测。 |
 | [cola_dnslog](https://github.com/AbelChe/cola_dnslog) | v1.3.2 | Cola Dnslog v1.3.2 更加强大的dnslog平台/无回显漏洞探测辅助平台 <br>完全开源 dnslog httplog ldaplog rmilog 支持dns http ldap rmi等协议<br> 提供API调用方式便于与其他工具结合 支持钉钉机器人、Bark等提醒 支<br>持docker一键部署 后端完全使用python实现 前端基于vue-element-admin<br>二开 |
 | [ddddocr](https://github.com/sml2h3/ddddocr) |  | 带带弟弟 通用验证码识别OCR pypi版 |
 | [ysoserial](https://github.com/su18/ysoserial) | v1.3 | ysoserial for su18 |
@@ -497,7 +497,7 @@
 #### xray
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
-| [yarx](https://github.com/zema1/yarx) | v0.2.0 | An awesome reverse engine for xray poc. | 一个自动化根据 xray po<br>c 生成对应 server 的工具 |
+| [yarx](https://github.com/zema1/yarx) | v0.2.0 | An awesome reverse engine for xray poc. | 一个自动化根据 xray po<br>c 生成对应靶站的工具 |
 | [xray-poc-generation](https://github.com/phith0n/xray-poc-generation) |  | 🧬 辅助生成 XRay YAML POC |
 | [super-xray](https://github.com/4ra1n/super-xray) | 1.5 | Web漏洞扫描工具XRAY的GUI启动器 (Web Vulnerability Scanner GUI St<br>arter) |
 #### pocsuite3
@@ -614,7 +614,7 @@
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
 | [CTF-Tools](https://github.com/Aabyss-Team/CTF-Tools) |  | 渊龙Sec安全团队CTF&AWD工具箱 |
-| [qsnctf-python](https://github.com/Moxin1044/qsnctf-python) |  | 青少年CTF的Python包，方便大家调用一些CTF常用功能。 |
+| [qsnctf-python](https://github.com/Moxin1044/qsnctf-python) | 0.0.8.9 | 青少年CTF的Python包，方便大家调用一些CTF常用功能。 |
 | [CTF-Tools](https://github.com/qianxiao996/CTF-Tools) | v1.3.7 | 一款Python+Pyqt写的CTF编码、解码、加密、解密工具。 |
 ### CTF逆向
 #### pyc逆向
