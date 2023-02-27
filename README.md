@@ -1,8 +1,10 @@
-# 更新于 2023-02-26 09:17:28
+# 更新于 2023-02-27 09:10:13
 
 ## 近30天release更新记录
 | 更新时间 | 项目名称 | 版本 | 更新内容 |
 | :---- | :---- | :---- | :---- |
+|2023-02-26 13:06:58|[go_proxy_pool](https://github.com/pingc0y/go_proxy_pool)|2022.11.2<br>2|2022.11.22|
+|2023-02-26 07:27:26|[mitaka](https://github.com/ninoseki/mitaka)|v1.0.0|- Migrate to the Manifest V3 (#703) - R<br>eplace Mocha, Chai and Sinon with Jest (<br>#703) |
 |2023-02-26 00:35:49|[qsnctf-python](https://github.com/Moxin1044/qsnctf-python)|0.0.8.9|更新了之前版本不存在的Web请求timeout导<br>致扫描时间过长，在0.0.8.9版本已修复此问题<br>。 您甚至可以指定timeout，感谢问题反馈！|
 |2023-02-25 20:54:24|[naabu](https://github.com/projectdiscovery/naabu)|v2.1.2|## What's Changed* Added UDP based PORT<br> scan by @Mzack9999 in https://github.co<br>m/projectdiscovery/naabu/pull/460 * Adde<br>d proxy support to connect scan by @Mzac<br>k9999 in https://github.com/projectdisco<br>very/naabu/pull/529 * Added support for <br>optional reverse ptr by @Mzack9999 in ht<br>tps://github.com/projectdiscovery/naabu/<br>pull/530 * Added documentation to use na<br>abu as library by @ShubhamRasal in https<br>://github.com/projectdiscovery/naabu/pul<br>l/469 * Fixed stats on exit by @Mzack999<br>9 in https://github.com/projectdiscovery<br>/naabu/pull/538 * Fixed failing race con<br>dition test by @xm1k3 in https://github.<br>com/projectdiscovery/naabu/pull/485 * Fi<br>xed issue with nmap flag input by @xm1k3<br> in https://github.com/projectdiscovery/<br>naabu/pull/487 * Fixed wrong boolean che<br>ck on verify option by @MiracleLau in ht<br>tps://github.com/projectdiscovery/naabu/<br>pull/519 * Updated freeport with pd fork<br> #471 by @foxcores in https://github.com<br>/projectdiscovery/naabu/pull/478 * Updat<br>ed helpers libraries by @edoardottt in h<br>ttps://github.com/projectdiscovery/naabu<br>/pull/466 * Improved duplicate debug mes<br>sages on scanned ips by @Mzack9999 in ht<br>tps://github.com/projectdiscovery/naabu/<br>pull/522 * Removed unused MapKeysToSlice<br>Int by @xm1k3 in https://github.com/proj<br>ectdiscovery/naabu/pull/534Issues closed<br> in release - https://github.com/project<br>discovery/naabu/milestone/5?closed=1## N<br>ew Contributors * @edoardottt made their<br> first contribution in https://github.co<br>m/projectdiscovery/naabu/pull/466 * @fox<br>cores made their first contribution in h<br>ttps://github.com/projectdiscovery/naabu<br>/pull/478 * @xm1k3 made their first cont<br>ribution in https://github.com/projectdi<br>scovery/naabu/pull/485 * @MiracleLau mad<br>e their first contribution in https://gi<br>thub.com/projectdiscovery/naabu/pull/519<br>**Full Changelog**: https://github.com/p<br>rojectdiscovery/naabu/compare/v2.1.1...v<br>2.1.2|
 |2023-02-25 16:53:39|[Antenna](https://github.com/wuba/Antenna)|v1.3.1|1.Readme 新增DNS Rebinding功能演示文档<br>，支持并优化了DNS 缓存的逻辑 2.优化了平台<br>消息处理模块的逻辑，减少了数据库的请求数<br>量 3.修复了平台配置的一些bug |
@@ -37,9 +39,12 @@
 ## 近30天commit提交记录
 | 提交时间 | 项目名称 | 更新内容 |
 | :---- | :---- | :---- |
-|2023-02-26 01:15:02|[NucleiTP](https://github.com/ExpLangcn/NucleiTP)|更新啦❤️|
+|2023-02-27 01:00:03|[NucleiTP](https://github.com/ExpLangcn/NucleiTP)|更新啦❤️|
+|2023-02-26 20:35:53|[PocOrExp_in_Github](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-02-27 04:35:53|
+|2023-02-26 13:10:45|[go_proxy_pool](https://github.com/pingc0y/go_proxy_pool)|Delete src directory|
+|2023-02-26 07:24:32|[mitaka](https://github.com/ninoseki/mitaka)|Merge pull request #708 from ninoseki/change-packagech<br>ore: use plasmo build--zip for packaging [skip ci]|
+|2023-02-26 02:15:19|[Platypus](https://github.com/WangYihang/Platypus)|feat(termite): support connect via domain|
 |2023-02-26 00:31:50|[qsnctf-python](https://github.com/Moxin1044/qsnctf-python)|更新版本到0.0.8.9|
-|2023-02-25 21:30:16|[PocOrExp_in_Github](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-02-26 05:30:16|
 |2023-02-25 16:37:32|[Antenna](https://github.com/wuba/Antenna)|测试新actions_15|
 |2023-02-25 14:12:56|[dbeaver](https://github.com/dbeaver/dbeaver)|23.0 config|
 |2023-02-25 08:15:59|[geacon_pro](https://github.com/H4de5-7/geacon_pro)|Update README_zh.md|
@@ -54,7 +59,6 @@
 |2023-02-24 06:58:54|[Intranet_Penetratio<br>n_Tips](https://github.com/Ridter/Intranet_Penetration_Tips)|增加Exchange利用|
 |2023-02-24 05:15:44|[vulnerability](https://github.com/lal0ne/vulnerability)|CVE-2021-21974|
 |2023-02-24 04:11:54|[veinmind-tools](https://github.com/chaitin/veinmind-tools)|fix(image): fix error plugin dir (#201)|
-|2023-02-23 10:01:11|[mitaka](https://github.com/ninoseki/mitaka)|Merge pull request #704 from security-companion/master<br>Update Readme|
 |2023-02-23 09:31:05|[Library-POC](https://github.com/luck-ying/Library-POC)|Update README.md|
 |2023-02-23 07:55:06|[SmsForwarder](https://github.com/pppscn/SmsForwarder)|优化：一键换新机·导出/导入通用设置的机制
 优化：手动重<br>启app的方式|
@@ -63,7 +67,6 @@
 |2023-02-23 05:56:50|[appshark](https://github.com/bytedance/appshark)|support pattern filed match.|
 |2023-02-22 13:36:47|[autoDecoder](https://github.com/f0ng/autoDecoder)|Delete autoDecoder例子 directory|
 |2023-02-22 09:36:50|[HaE](https://github.com/gh0stkey/HaE)|Version: 2.4.6 Update|
-|2023-02-22 09:02:18|[go_proxy_pool](https://github.com/pingc0y/go_proxy_pool)|Merge pull request #5 from pingc0y/dependabot/go_modul<br>es/src/golang.org/x/net-0.7.0Bump golang.org/x/net from<br> 0.2.0 to 0.7.0 in /src|
 |2023-02-22 08:29:41|[fscan](https://github.com/shadow1ng/fscan)|Merge pull request #265 from AgeloVito/mainUpdate eval<br>.go|
 |2023-02-21 16:11:23|[dirsearch](https://github.com/maurosoria/dirsearch)|Merge pull request #1282 from 0x0d3ad/patch-3Update my<br> profile link github|
 |2023-02-21 14:37:50|[RouteVulScan](https://github.com/F6JO/RouteVulScan)|Update README.md|
@@ -115,8 +118,7 @@
 |2023-02-01 01:39:12|[CRC32-Tools](https://github.com/AabyssZG/CRC32-Tools)|Update README.md|
 |2023-01-30 13:17:30|[WMIHACKER](https://github.com/rootclay/WMIHACKER)|Update README_zh.md|
 |2023-01-30 08:54:59|[BugRepoter_0x727](https://github.com/0x727/BugRepoter_0x727)|V1.15 解决onlyoffice打开文档错误。|
-|2023-01-29 02:01:58|[ddddocr](https://github.com/sml2h3/ddddocr)|Update README.md|
-|2023-01-27 15:21:16|[Platypus](https://github.com/WangYihang/Platypus)|build(deps): bump cookiejar from 2.1.2 to 2.1.4 in /we<br>b/ttyd (#177)Bumps [cookiejar](https://github.com/bmeck<br>/node-cookiejar) from 2.1.2 to 2.1.4.- [Release notes](<br>https://github.com/bmeck/node-cookiejar/releases)- [Com<br>mits](https://github.com/bmeck/node-cookiejar/commits)-<br>--updated-dependencies:- dependency-name: cookiejardepe<br>ndency-type: indirect...Signed-off-by: dependabot[bot]C<br>o-authored-by: dependabot[bot] |## 所有项目
+|2023-01-29 02:01:58|[ddddocr](https://github.com/sml2h3/ddddocr)|Update README.md|## 所有项目
 ### 信息收集
 #### 资产测绘采集
 | 项目名称 | 版本 | 项目描述 |
@@ -461,7 +463,7 @@
 #### 代理池
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
-| [go_proxy_pool](https://github.com/pingc0y/go_proxy_pool) |  | 无环境依赖开箱即用的代理IP池 |
+| [go_proxy_pool](https://github.com/pingc0y/go_proxy_pool) | 2022.11.2<br>2 | 无环境依赖开箱即用的代理IP池 |
 | [rotateproxy](https://github.com/akkuman/rotateproxy) | v0.7.2 | 利用fofa搜索socks5开放代理进行代理池轮切的工具 |
 ### 工具&插件
 #### Burpsuite
@@ -511,7 +513,7 @@
 | [SwitchyOmega](https://github.com/FelisCatus/SwitchyOmega) | v2.5.20 | Manage and switch between multiple proxies quickly & easily. |
 | [untrusted-types](https://github.com/filedescriptor/untrusted-types) | 1.1.1 |  |
 | [fofa_view](https://github.com/fofapro/fofa_view) | v0.0.5 | FOFA Pro view 是一款FOFA Pro 资产展示浏览器插件，目前兼容Chrome<br>、Firefox、Opera。 |
-| [mitaka](https://github.com/ninoseki/mitaka) | v0.93.0 | A browser extension for OSINT search |
+| [mitaka](https://github.com/ninoseki/mitaka) | v1.0.0 | A browser extension for OSINT search |
 | [anti-honeypot](https://github.com/cnrstar/anti-honeypot) |  | 一款可以检测WEB蜜罐并阻断请求的Chrome插件 |
 | [Chromium-based-XSS-<br>Taint-Tracking](https://github.com/v8blink/Chromium-based-XSS-Taint-Tracking) | v0.3 | Cyclops 是一款具有 XSS 检测功能的浏览器 |
 | [Zoomeye-Tools](https://github.com/knownsec/Zoomeye-Tools) |  | Zoomeye Tools是配合Zoomeye使用的Chrome插件 |

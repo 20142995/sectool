@@ -241,7 +241,7 @@
                 "commit_message": "Merge pull request #571 from projectdiscovery/dev\n\nnaabu v2.1.2",
                 "release_tag": "v2.1.2",
                 "release_date": "2023-02-25 20:54:24",
-                "release_message": "## What's Changed  * Added UDP based PORT scan by @Mzack9999 in https://github.com/projectdiscovery/naabu/pull/460 * Added proxy support to connect scan by @Mzack9999 in https://github.com/projectdiscovery/naabu/pull/529 * Added support for optional reverse ptr by @Mzack9999 in https://github.com/projectdiscovery/naabu/pull/530 * Added documentation to use naabu as library by @ShubhamRasal in https://github.com/projectdiscovery/naabu/pull/469 * Fixed stats on exit by @Mzack9999 in https://github.com/projectdiscovery/naabu/pull/538 * Fixed failing race condition test by @xm1k3 in https://github.com/projectdiscovery/naabu/pull/485 * Fixed issue with nmap flag input by @xm1k3 in https://github.com/projectdiscovery/naabu/pull/487 * Fixed wrong boolean check on verify option by @MiracleLau in https://github.com/projectdiscovery/naabu/pull/519 * Updated freeport with pd fork #471 by @foxcores in https://github.com/projectdiscovery/naabu/pull/478 * Updated helpers libraries by @edoardottt in https://github.com/projectdiscovery/naabu/pull/466 * Improved duplicate debug messages on scanned ips by @Mzack9999 in https://github.com/projectdiscovery/naabu/pull/522 * Removed unused MapKeysToSliceInt by @xm1k3 in https://github.com/projectdiscovery/naabu/pull/534  Issues closed in release - https://github.com/projectdiscovery/naabu/milestone/5?closed=1  ## New Contributors * @edoardottt made their first contribution in https://github.com/projectdiscovery/naabu/pull/466 * @foxcores made their first contribution in https://github.com/projectdiscovery/naabu/pull/478 * @xm1k3 made their first contribution in https://github.com/projectdiscovery/naabu/pull/485 * @MiracleLau made their first contribution in https://github.com/projectdiscovery/naabu/pull/519  **Full Changelog**: https://github.com/projectdiscovery/naabu/compare/v2.1.1...v2.1.2"
+                "release_message": "## What's Changed  * Added UDP based PORT scan by @Mzack9999 in https://github.com/projectdiscovery/naabu/pull/460 * Added proxy support to connect scan by @Mzack9999 in https://github.com/projectdiscovery/naabu/pull/529 * Added support for optional reverse ptr by @Mzack9999 in https://github.com/projectdiscovery/naabu/pull/530 * Added documentation to use naabu as library by @ShubhamRasal in https://github.com/projectdiscovery/naabu/pull/469 * Fixed stats on exit by @Mzack9999 in https://github.com/projectdiscovery/naabu/pull/538 * Fixed failing race condition test by @xm1k3 in https://github.com/projectdiscovery/naabu/pull/485 * Fixed issue with nmap flag input by @xm1k3 in https://github.com/projectdiscovery/naabu/pull/487 * Fixed wrong boolean check on verify option by @MiracleLau in https://github.com/projectdiscovery/naabu/pull/519 * Updated freeport with pd fork #471 by @foxcores in https://github.com/projectdiscovery/naabu/pull/478 * Updated helpers libraries by @edoardottt in https://github.com/projectdiscovery/naabu/pull/466 * Improved duplicate debug messages on scanned ips by @Mzack9999 in https://github.com/projectdiscovery/naabu/pull/522 * Removed unused `MapKeysToSliceInt` by @xm1k3 in https://github.com/projectdiscovery/naabu/pull/534  Issues closed in release - https://github.com/projectdiscovery/naabu/milestone/5?closed=1  ## New Contributors * @edoardottt made their first contribution in https://github.com/projectdiscovery/naabu/pull/466 * @foxcores made their first contribution in https://github.com/projectdiscovery/naabu/pull/478 * @xm1k3 made their first contribution in https://github.com/projectdiscovery/naabu/pull/485 * @MiracleLau made their first contribution in https://github.com/projectdiscovery/naabu/pull/519  **Full Changelog**: https://github.com/projectdiscovery/naabu/compare/v2.1.1...v2.1.2"
             },
             "https://github.com/redtoolskobe/scaninfo": {
                 "created_at": "2021-11-05 04:59:07",
@@ -786,8 +786,8 @@
             "https://github.com/WangYihang/Platypus": {
                 "created_at": "2018-08-14 08:59:09",
                 "description": ":hammer: A modern multiple reverse shell sessions manager written in go",
-                "commit_date": "2023-01-27 15:21:16",
-                "commit_message": "build(deps): bump cookiejar from 2.1.2 to 2.1.4 in /web/ttyd (#177)\n\nBumps [cookiejar](https://github.com/bmeck/node-cookiejar) from 2.1.2 to 2.1.4.\r\n- [Release notes](https://github.com/bmeck/node-cookiejar/releases)\r\n- [Commits](https://github.com/bmeck/node-cookiejar/commits)\r\n\r\n---\r\nupdated-dependencies:\r\n- dependency-name: cookiejar\r\n  dependency-type: indirect\r\n...\r\n\r\nSigned-off-by: dependabot[bot] <support@github.com>\r\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
+                "commit_date": "2023-02-26 02:15:19",
+                "commit_message": "feat(termite): support connect via domain",
                 "release_tag": "v1.5.0",
                 "release_date": "2021-07-16 18:45:19",
                 "release_message": ""
@@ -1500,8 +1500,8 @@
             "https://github.com/ycdxsb/PocOrExp_in_Github": {
                 "created_at": "2021-04-13 05:46:16",
                 "description": "聚合Github上已有的Poc或者Exp，CVE信息来自CVE官网。Auto Collect Poc Or Exp from Github by CVE ID.",
-                "commit_date": "2023-02-25 21:30:16",
-                "commit_message": "update 2023-02-26 05:30:16",
+                "commit_date": "2023-02-26 20:35:53",
+                "commit_message": "update 2023-02-27 04:35:53",
                 "release_tag": "",
                 "release_date": "",
                 "release_message": ""
@@ -2041,11 +2041,11 @@
             "https://github.com/pingc0y/go_proxy_pool": {
                 "created_at": "2022-11-14 07:00:52",
                 "description": "无环境依赖开箱即用的代理IP池",
-                "commit_date": "2023-02-22 09:02:18",
-                "commit_message": "Merge pull request #5 from pingc0y/dependabot/go_modules/src/golang.org/x/net-0.7.0\n\nBump golang.org/x/net from 0.2.0 to 0.7.0 in /src",
-                "release_tag": "",
-                "release_date": "",
-                "release_message": ""
+                "commit_date": "2023-02-26 13:10:45",
+                "commit_message": "Delete src directory",
+                "release_tag": "2022.11.22",
+                "release_date": "2023-02-26 13:06:58",
+                "release_message": "2022.11.22"
             },
             "https://github.com/akkuman/rotateproxy": {
                 "created_at": "2021-10-18 02:10:27",
@@ -2384,11 +2384,11 @@
             "https://github.com/ninoseki/mitaka": {
                 "created_at": "2018-02-09 00:13:30",
                 "description": "A browser extension for OSINT search",
-                "commit_date": "2023-02-23 10:01:11",
-                "commit_message": "Merge pull request #704 from security-companion/master\n\nUpdate Readme",
-                "release_tag": "v0.93.0",
-                "release_date": "2022-09-23 07:09:22",
-                "release_message": "- Remove deprecated search services (#690) - Add an option to disable/enable debug log(#691)"
+                "commit_date": "2023-02-26 07:24:32",
+                "commit_message": "Merge pull request #708 from ninoseki/change-package\n\nchore: use plasmo build  --zip for packaging [skip ci]",
+                "release_tag": "v1.0.0",
+                "release_date": "2023-02-26 07:27:26",
+                "release_message": "- Migrate to the Manifest V3 (#703) - Replace Mocha, Chai and Sinon with Jest (#703) "
             },
             "https://github.com/cnrstar/anti-honeypot": {
                 "created_at": "2020-08-16 14:24:29",
@@ -2464,7 +2464,7 @@
             "https://github.com/ExpLangcn/NucleiTP": {
                 "created_at": "2022-11-08 13:16:56",
                 "description": "自动整合全网Nuclei的漏洞POC，实时同步更新最新POC！",
-                "commit_date": "2023-02-26 01:15:02",
+                "commit_date": "2023-02-27 01:00:03",
                 "commit_message": "更新啦❤️",
                 "release_tag": "",
                 "release_date": "",
