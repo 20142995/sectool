@@ -125,8 +125,8 @@
             "https://github.com/epi052/feroxbuster": {
                 "created_at": "2020-08-22 15:36:19",
                 "description": "A fast, simple, recursive content discovery tool written in Rust.",
-                "commit_date": "2023-02-17 02:30:41",
-                "commit_message": "Merge pull request #793 from epi052/all-contributors/add-f3rn0s\n\ndocs: add f3rn0s as a contributor for bug",
+                "commit_date": "2023-02-27 01:50:41",
+                "commit_message": "Merge pull request #794 from epi052/784-content-based-auto-filtering\n\nContent-based auto filtering",
                 "release_tag": "v2.7.3",
                 "release_date": "2022-12-30 02:23:54",
                 "release_message": "## What's Changed * FIX 732 ensure --no-state is respected even through --time-limit by @kmanc in https://github.com/epi052/feroxbuster/pull/733 * Fix incorrect username in Contributors by @n0kovo in https://github.com/epi052/feroxbuster/pull/749 * fixed #716; wordlist entries with leading slash are trimmed by @epi052 in https://github.com/epi052/feroxbuster/pull/750 * fixed #743; redirects always show full url as Location by @epi052 in https://github.com/epi052/feroxbuster/pull/750 * fixed #748; cancelled scans persist across ctrl+c by @epi052 in https://github.com/epi052/feroxbuster/pull/750  ## New Contributors * @kmanc made their first contribution in https://github.com/epi052/feroxbuster/pull/733 * @n0kovo made their first contribution in https://github.com/epi052/feroxbuster/pull/749  **Full Changelog**: https://github.com/epi052/feroxbuster/compare/v2.7.2...v2.7.3"
@@ -786,8 +786,8 @@
             "https://github.com/WangYihang/Platypus": {
                 "created_at": "2018-08-14 08:59:09",
                 "description": ":hammer: A modern multiple reverse shell sessions manager written in go",
-                "commit_date": "2023-02-26 02:15:19",
-                "commit_message": "feat(termite): support connect via domain",
+                "commit_date": "2023-02-28 00:18:27",
+                "commit_message": "build(deps): bump http-cache-semantics in /web/frontend (#180)\n\nBumps [http-cache-semantics](https://github.com/kornelski/http-cache-semantics) from 4.1.0 to 4.1.1.\r\n- [Release notes](https://github.com/kornelski/http-cache-semantics/releases)\r\n- [Commits](https://github.com/kornelski/http-cache-semantics/compare/v4.1.0...v4.1.1)\r\n\r\n---\r\nupdated-dependencies:\r\n- dependency-name: http-cache-semantics\r\n  dependency-type: indirect\r\n...\r\n\r\nSigned-off-by: dependabot[bot] <support@github.com>\r\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
                 "release_tag": "v1.5.0",
                 "release_date": "2021-07-16 18:45:19",
                 "release_message": ""
@@ -1071,8 +1071,8 @@
             "https://github.com/su18/ysoserial": {
                 "created_at": "2021-07-26 01:20:01",
                 "description": "ysoserial for su18",
-                "commit_date": "2023-02-15 02:30:55",
-                "commit_message": "更新 Jboss Filter 型内存马支持 JBoss-4.2.3.GA",
+                "commit_date": "2023-02-27 14:13:21",
+                "commit_message": "更新 Struts2 回显及 Action 内存马",
                 "release_tag": "v1.3",
                 "release_date": "2023-02-09 03:57:44",
                 "release_message": "1. 添加 ROME3、CommonsCollectionsK1、CommonsCollectionsK2 利用链； 2. 添加 mcl 参数，可以指定在 TransformerUtil 中使用 org.mozilla.javascript.DefiningClassLoader； 3. 添加 f 参数，可以指定将输出写在文件中； 4. 更新 BeanShell 在 2.0b4 上的利用链，并用 ScriptEngineManager 的方式对 BeanShell 链支持内存马； 5. 更新 SpringWebFlux 内存马（目前仅支持 gz 及 cmd）； 6. 添加 SpringEcho 回显方式； 7. 更新 cmd/冰蝎/哥斯拉 动态添加的逻辑使用纯反射编写； 8. **【重要】**移除 Referer 参数，用于校验的 Referer 头部现改为可自定义 Header 头部和值，并将校验逻辑由 equals 改为 contains；  9. 支持自定义传递执行命令的 Header 头； 10. 支持自定义 Godzilla key； 11. 由于打包问题，移除 RenderedImage 利用链及相关依赖； 12. 更新 Executor 内存马使用 CMD_HEADER_STRING 统一 Header； 13. 优化大量代码，修复若干 BUG，更新 ReadMe。"
@@ -1473,8 +1473,8 @@
             "https://github.com/lal0ne/vulnerability": {
                 "created_at": "2022-01-20 02:48:42",
                 "description": "收集、整理、修改互联网上公开的漏洞POC",
-                "commit_date": "2023-02-24 05:15:44",
-                "commit_message": "CVE-2021-21974",
+                "commit_date": "2023-02-27 02:18:43",
+                "commit_message": "CVE-2023-21839",
                 "release_tag": "",
                 "release_date": "",
                 "release_message": ""
@@ -1500,8 +1500,8 @@
             "https://github.com/ycdxsb/PocOrExp_in_Github": {
                 "created_at": "2021-04-13 05:46:16",
                 "description": "聚合Github上已有的Poc或者Exp，CVE信息来自CVE官网。Auto Collect Poc Or Exp from Github by CVE ID.",
-                "commit_date": "2023-02-26 20:35:53",
-                "commit_message": "update 2023-02-27 04:35:53",
+                "commit_date": "2023-02-27 22:01:42",
+                "commit_message": "update 2023-02-28 06:01:42",
                 "release_tag": "",
                 "release_date": "",
                 "release_message": ""
@@ -1994,8 +1994,8 @@
             "https://github.com/knownsec/404StarLink": {
                 "created_at": "2020-11-17 08:10:18",
                 "description": "404StarLink - 推荐优质、有意义、有趣、坚持维护的安全开源项目",
-                "commit_date": "2023-02-20 03:41:51",
-                "commit_message": "weekly update at 2023-02-20",
+                "commit_date": "2023-02-27 03:04:57",
+                "commit_message": "weekly update at 2023-02-27",
                 "release_tag": "",
                 "release_date": "",
                 "release_message": ""
@@ -2464,7 +2464,7 @@
             "https://github.com/ExpLangcn/NucleiTP": {
                 "created_at": "2022-11-08 13:16:56",
                 "description": "自动整合全网Nuclei的漏洞POC，实时同步更新最新POC！",
-                "commit_date": "2023-02-27 01:00:03",
+                "commit_date": "2023-02-28 01:00:03",
                 "commit_message": "更新啦❤️",
                 "release_tag": "",
                 "release_date": "",
@@ -2961,8 +2961,8 @@
             "https://github.com/dbeaver/dbeaver": {
                 "created_at": "2015-10-21 08:26:28",
                 "description": "Free universal database tool and SQL client",
-                "commit_date": "2023-02-25 14:12:56",
-                "commit_message": "23.0 config",
+                "commit_date": "2023-02-27 16:02:11",
+                "commit_message": "dbeaver/pro#1447 tags and fields now read for entire duration, fix localdatetime in date editor (#19195)",
                 "release_tag": "22.3.5",
                 "release_date": "2023-02-19 18:19:13",
                 "release_message": "                 - ChatGPT smart completion:                     - Completion popup UI was improved                     - Metadata scope configuration was added                     - Redundant config options wer removed                 - Data editor:                     - Accessibility support was significantly improved (context menu, additional keyboard shortcuts)                     - Filtering and ordering icons visibility configuration was added again                     - Dictionary viewer was fixed (issue with missing dictionary values)                     - \"Save filters\" button was removed from custom SQL queries results                     - App crash on geometry viewer opening was resolved in the latest version of MacOS                 - SQL editor: query text extraction was fixed (issue with trailing comment after query text)                 - Database backup/restore: issue with external tools running was resolved (Linux)                 - Application fonts were unified. Now we have only Main and Monospace fonts configuration                 - Data transfer: data type mapping now respects type name case (for databases with different default case)                 - Variables support in database tasks was fixed                 - Database tools wizard: redundant task configuration page was removed                 - SQL generator dialog now show progress to avoid UI freeze on big schemas                 - Issue with opening ERD files from disk ws resolved                 - Clickhouse: DDL for array columns was fixed                 - Databricks: additional metadata was added                 - Exasol: default connection parameters were updated (thanks to @allipatev)                 - IRIS (ex Cache): driver version was updated                 - Oracle: stored procedures invocation syntax was improved                 - Snowflake: driver now uses single database connection for all editors (configurable)                 - SQL Server:                     - Driver version was updated to 11.2.3. Trust server certificate option was moved to the main connection page                     - Server messages (printed on raiserror) reading was fixed                     - Multiple resultsets reading was fixed (extra error handling was added)                     - VARCHAR(MAX) data type support was added                 - SQLite: converting binary columns into string representation was fixed             "
@@ -3016,8 +3016,8 @@
                 "description": "Elkeid is an open source solution that can meet the security requirements of various workloads such as hosts, containers and K8s, and serverless. It is derived from ByteDance's internal best practices.",
                 "commit_date": "2023-02-23 05:58:13",
                 "commit_message": "Merge pull request #439 from Hackerl/main\n\nupdate asyncio library for golang eBPF probe",
-                "release_tag": "rasp-v2.1.0.9-pre",
-                "release_date": "2023-02-23 06:15:44",
+                "release_tag": "scanner-v2.2.0.0_20230227",
+                "release_date": "2023-02-27 04:13:59",
                 "release_message": ""
             },
             "https://github.com/theSecHunter/Hades": {

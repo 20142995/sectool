@@ -1,8 +1,9 @@
-# 更新于 2023-02-27 09:10:13
+# 更新于 2023-02-28 09:09:52
 
 ## 近30天release更新记录
 | 更新时间 | 项目名称 | 版本 | 更新内容 |
 | :---- | :---- | :---- | :---- |
+|2023-02-27 04:13:59|[Elkeid](https://github.com/bytedance/Elkeid)|scanner-v<br>2.2.0.0_20<br>230227||
 |2023-02-26 13:06:58|[go_proxy_pool](https://github.com/pingc0y/go_proxy_pool)|2022.11.2<br>2|2022.11.22|
 |2023-02-26 07:27:26|[mitaka](https://github.com/ninoseki/mitaka)|v1.0.0|- Migrate to the Manifest V3 (#703) - R<br>eplace Mocha, Chai and Sinon with Jest (<br>#703) |
 |2023-02-26 00:35:49|[qsnctf-python](https://github.com/Moxin1044/qsnctf-python)|0.0.8.9|更新了之前版本不存在的Web请求timeout导<br>致扫描时间过长，在0.0.8.9版本已修复此问题<br>。 您甚至可以指定timeout，感谢问题反馈！|
@@ -10,7 +11,6 @@
 |2023-02-25 16:53:39|[Antenna](https://github.com/wuba/Antenna)|v1.3.1|1.Readme 新增DNS Rebinding功能演示文档<br>，支持并优化了DNS 缓存的逻辑 2.优化了平台<br>消息处理模块的逻辑，减少了数据库的请求数<br>量 3.修复了平台配置的一些bug |
 |2023-02-24 21:45:07|[faker](https://github.com/joke2k/faker)|v17.3.0|See [CHANGELOG.md](https://github.com/j<br>oke2k/faker/blob/refs/tags/v17.3.0/CHANG<br>ELOG.md).|
 |2023-02-24 04:12:38|[veinmind-tools](https://github.com/chaitin/veinmind-tools)|v2.0.5|## Fix - 修改插件发现目录|
-|2023-02-23 06:15:44|[Elkeid](https://github.com/bytedance/Elkeid)|rasp-v2.1<br>.0.9-pre||
 |2023-02-22 15:21:08|[subfinder](https://github.com/projectdiscovery/subfinder)|v2.5.6|## What's Changed### New Features* Adde<br>d **digitorus** support as new source by<br> @vzamanillo in https://github.com/proje<br>ctdiscovery/subfinder/pull/696### Bug Fi<br>xes* Fixed outdated deps by @RamanaReddy<br>0M in https://github.com/projectdiscover<br>y/subfinder/pull/762 * Fixed failing cas<br>es by @ShubhamRasal in https://github.co<br>m/projectdiscovery/subfinder/pull/720###<br> Improvements* Improved **crtsh** SQL qu<br>ery by @vzamanillo in https://github.com<br>/projectdiscovery/subfinder/pull/700 * I<br>mproved scan statistics by @owenrumney i<br>n https://github.com/projectdiscovery/su<br>bfinder/pull/727 * Improved ctx param in<br> agent enumerate method by @EndPositive <br>in https://github.com/projectdiscovery/s<br>ubfinder/pull/756Issues closed in releas<br>e - https://github.com/projectdiscovery/<br>subfinder/milestone/5?closed=1## New Con<br>tributors * @owenrumney made their first<br> contribution in https://github.com/proj<br>ectdiscovery/subfinder/pull/727 * @Raman<br>aReddy0M made their first contribution i<br>n https://github.com/projectdiscovery/su<br>bfinder/pull/762 * @EndPositive made the<br>ir first contribution in https://github.<br>com/projectdiscovery/subfinder/pull/756*<br>*Full Changelog**: https://github.com/pr<br>ojectdiscovery/subfinder/compare/v2.5.5.<br>..v2.5.6|
 |2023-02-22 13:35:31|[autoDecoder](https://github.com/f0ng/autoDecoder)|0.23|## 2023.2.22 更新0.23 1. 优化了插件的一<br>些问题 2. 案例移步[autoDecoder-usages](ht<br>tps://github.com/f0ng/autoDecoder-usages<br>)|
 |2023-02-22 09:37:42|[HaE](https://github.com/gh0stkey/HaE)|2.4.6|HaE 2.4.6 更新内容： 1. 加入多线程对数<br>据进行匹配和提取，减少卡顿现象； 2. 变更<br>配置文件更新地址为jsdelivr的CDN节点地址，<br>优化国内用户体验。|
@@ -39,14 +39,18 @@
 ## 近30天commit提交记录
 | 提交时间 | 项目名称 | 更新内容 |
 | :---- | :---- | :---- |
-|2023-02-27 01:00:03|[NucleiTP](https://github.com/ExpLangcn/NucleiTP)|更新啦❤️|
-|2023-02-26 20:35:53|[PocOrExp_in_Github](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-02-27 04:35:53|
+|2023-02-28 01:00:03|[NucleiTP](https://github.com/ExpLangcn/NucleiTP)|更新啦❤️|
+|2023-02-28 00:18:27|[Platypus](https://github.com/WangYihang/Platypus)|build(deps): bump http-cache-semantics in /web/fronten<br>d (#180)Bumps [http-cache-semantics](https://github.com<br>/kornelski/http-cache-semantics) from 4.1.0 to 4.1.1.- <br>[Release notes](https://github.com/kornelski/http-cache<br>-semantics/releases)- [Commits](https://github.com/korn<br>elski/http-cache-semantics/compare/v4.1.0...v4.1.1)---u<br>pdated-dependencies:- dependency-name: http-cache-seman<br>ticsdependency-type: indirect...Signed-off-by: dependab<br>ot[bot]Co-authored-by: dependabot[bot] |
+|2023-02-27 22:01:42|[PocOrExp_in_Github](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-02-28 06:01:42|
+|2023-02-27 16:02:11|[dbeaver](https://github.com/dbeaver/dbeaver)|dbeaver/pro#1447 tags and fields now read for entire d<br>uration, fix localdatetime in date editor (#19195)|
+|2023-02-27 14:13:21|[ysoserial](https://github.com/su18/ysoserial)|更新 Struts2 回显及 Action 内存马|
+|2023-02-27 03:04:57|[404StarLink](https://github.com/knownsec/404StarLink)|weekly update at 2023-02-27|
+|2023-02-27 02:18:43|[vulnerability](https://github.com/lal0ne/vulnerability)|CVE-2023-21839|
+|2023-02-27 01:50:41|[feroxbuster](https://github.com/epi052/feroxbuster)|Merge pull request #794 from epi052/784-content-based-<br>auto-filteringContent-based auto filtering|
 |2023-02-26 13:10:45|[go_proxy_pool](https://github.com/pingc0y/go_proxy_pool)|Delete src directory|
 |2023-02-26 07:24:32|[mitaka](https://github.com/ninoseki/mitaka)|Merge pull request #708 from ninoseki/change-packagech<br>ore: use plasmo build--zip for packaging [skip ci]|
-|2023-02-26 02:15:19|[Platypus](https://github.com/WangYihang/Platypus)|feat(termite): support connect via domain|
 |2023-02-26 00:31:50|[qsnctf-python](https://github.com/Moxin1044/qsnctf-python)|更新版本到0.0.8.9|
 |2023-02-25 16:37:32|[Antenna](https://github.com/wuba/Antenna)|测试新actions_15|
-|2023-02-25 14:12:56|[dbeaver](https://github.com/dbeaver/dbeaver)|23.0 config|
 |2023-02-25 08:15:59|[geacon_pro](https://github.com/H4de5-7/geacon_pro)|Update README_zh.md|
 |2023-02-24 22:20:02|[RsaCtfTool](https://github.com/RsaCtfTool/RsaCtfTool)|Update README.md|
 |2023-02-24 22:02:13|[subfinder](https://github.com/projectdiscovery/subfinder)|Merge pull request #771 from olearycrew/brendan-fix-do<br>cker-build|
@@ -57,7 +61,6 @@
 |2023-02-24 08:33:14|[afrog](https://github.com/zan8in/afrog)|CVE-2017-5487|
 |2023-02-24 08:22:11|[naabu](https://github.com/projectdiscovery/naabu)|Merge pull request #571 from projectdiscovery/devnaabu<br> v2.1.2|
 |2023-02-24 06:58:54|[Intranet_Penetratio<br>n_Tips](https://github.com/Ridter/Intranet_Penetration_Tips)|增加Exchange利用|
-|2023-02-24 05:15:44|[vulnerability](https://github.com/lal0ne/vulnerability)|CVE-2021-21974|
 |2023-02-24 04:11:54|[veinmind-tools](https://github.com/chaitin/veinmind-tools)|fix(image): fix error plugin dir (#201)|
 |2023-02-23 09:31:05|[Library-POC](https://github.com/luck-ying/Library-POC)|Update README.md|
 |2023-02-23 07:55:06|[SmsForwarder](https://github.com/pppscn/SmsForwarder)|优化：一键换新机·导出/导入通用设置的机制
@@ -74,19 +77,16 @@
 |2023-02-21 03:50:02|[URLFinder](https://github.com/pingc0y/URLFinder)|2023/2/21更新|
 |2023-02-21 02:04:04|[Scanners-Box](https://github.com/We5ter/Scanners-Box)|[+]Cyber-Buddy/APKHunt|
 |2023-02-20 06:54:31|[Kunlun-M](https://github.com/LoRexxar/Kunlun-M)|Merge pull request #224 from LoRexxar/developfixed #22<br>3|
-|2023-02-20 03:41:51|[404StarLink](https://github.com/knownsec/404StarLink)|weekly update at 2023-02-20|
 |2023-02-19 16:36:47|[RedisEXP](https://github.com/yuyan-sec/RedisEXP)|解决支持中文路径|
 |2023-02-19 12:41:37|[ffuf](https://github.com/ffuf/ffuf)|Fix HTML output (#640)|
 |2023-02-18 16:06:17|[super-xray](https://github.com/4ra1n/super-xray)|macos|
 |2023-02-18 00:01:09|[nuclei](https://github.com/projectdiscovery/nuclei)|chore(deps): bump golang.org/x/net from 0.6.0 to 0.7.0<br> in /v2 (#3337)Bumps [golang.org/x/net](https://github.<br>com/golang/net) from 0.6.0 to 0.7.0.- [Release notes](h<br>ttps://github.com/golang/net/releases)- [Commits](https<br>://github.com/golang/net/compare/v0.6.0...v0.7.0)---upd<br>ated-dependencies:- dependency-name: golang.org/x/netde<br>pendency-type: direct:production...Signed-off-by: depen<br>dabot[bot]Co-authored-by: dependabot[bot] |
 |2023-02-17 03:37:31|[poc-hub](https://github.com/ybdt/poc-hub)|整理|
-|2023-02-17 02:30:41|[feroxbuster](https://github.com/epi052/feroxbuster)|Merge pull request #793 from epi052/all-contributors/a<br>dd-f3rn0sdocs: add f3rn0s as a contributor for bug|
 |2023-02-16 18:40:27|[NessusToReport](https://github.com/Hypdncy/NessusToReport)|nessus_only_ips字段默认空|
 |2023-02-16 10:28:59|[murphysec](https://github.com/murphysecurity/murphysec)|chore(deps): bump github.com/wk8/go-ordered-map/v2 fro<br>m 2.1.5 to 2.1.6 (#128)Bumps [github.com/wk8/go-ordered<br>-map/v2](https://github.com/wk8/go-ordered-map) from 2.<br>1.5 to 2.1.6.- [Release notes](https://github.com/wk8/g<br>o-ordered-map/releases)- [Changelog](https://github.com<br>/wk8/go-ordered-map/blob/master/CHANGELOG.md)- [Commits<br>](https://github.com/wk8/go-ordered-map/compare/v2.1.5.<br>..v2.1.6)---updated-dependencies:- dependency-name: git<br>hub.com/wk8/go-ordered-map/v2dependency-type: direct:pr<br>oductionupdate-type: version-update:semver-patch...Sign<br>ed-off-by: dependabot[bot]Co-authored-by: dependabot[bo<br>t] |
 |2023-02-16 01:36:10|[gshark](https://github.com/madneal/gshark)|remove comments|
 |2023-02-15 09:46:59|[kscan](https://github.com/lcvvvv/kscan)|[*]修复一个Redis协议爆破的bug，之前可能会存在误报|
 |2023-02-15 02:40:09|[SpringBoot-Scan-GUI](https://github.com/13exp/SpringBoot-Scan-GUI)|Delete targets.txt|
-|2023-02-15 02:30:55|[ysoserial](https://github.com/su18/ysoserial)|更新 Jboss Filter 型内存马支持 JBoss-4.2.3.GA|
 |2023-02-14 09:38:24|[wpscan](https://github.com/wpscanteam/wpscan)|Merge pull request #1770 from wpscanteam/dependabot/gi<br>thub_actions/docker/build-push-action-4Bump docker/buil<br>d-push-action from 3 to 4|
 |2023-02-14 05:21:16|[log4j2burpscanner](https://github.com/f0ng/log4j2burpscanner)|Update README.md|
 |2023-02-14 04:41:01|[All-Defense-Tool](https://github.com/guchangan1/All-Defense-Tool)|更新v2.2|
@@ -667,7 +667,7 @@
 #### 主机入侵检测
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
-| [Elkeid](https://github.com/bytedance/Elkeid) | rasp-v2.1<br>.0.9-pre | Elkeid is an open source solution that can meet the security req<br>uirements of various workloads such as hosts, containers and K8s,<br> and serverless. It is derived from ByteDance's internal best pra<br>ctices. |
+| [Elkeid](https://github.com/bytedance/Elkeid) | scanner-v<br>2.2.0.0_20<br>230227 | Elkeid is an open source solution that can meet the security req<br>uirements of various workloads such as hosts, containers and K8s,<br> and serverless. It is derived from ByteDance's internal best pra<br>ctices. |
 | [Hades](https://github.com/theSecHunter/Hades) |  | Hades is an cross-platform HIDS with kernel-space data collectio<br>n. |
 #### Web应用防火墙
 | 项目名称 | 版本 | 项目描述 |
