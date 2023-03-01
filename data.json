@@ -125,11 +125,11 @@
             "https://github.com/epi052/feroxbuster": {
                 "created_at": "2020-08-22 15:36:19",
                 "description": "A fast, simple, recursive content discovery tool written in Rust.",
-                "commit_date": "2023-02-27 01:50:41",
-                "commit_message": "Merge pull request #794 from epi052/784-content-based-auto-filtering\n\nContent-based auto filtering",
-                "release_tag": "v2.7.3",
-                "release_date": "2022-12-30 02:23:54",
-                "release_message": "## What's Changed * FIX 732 ensure --no-state is respected even through --time-limit by @kmanc in https://github.com/epi052/feroxbuster/pull/733 * Fix incorrect username in Contributors by @n0kovo in https://github.com/epi052/feroxbuster/pull/749 * fixed #716; wordlist entries with leading slash are trimmed by @epi052 in https://github.com/epi052/feroxbuster/pull/750 * fixed #743; redirects always show full url as Location by @epi052 in https://github.com/epi052/feroxbuster/pull/750 * fixed #748; cancelled scans persist across ctrl+c by @epi052 in https://github.com/epi052/feroxbuster/pull/750  ## New Contributors * @kmanc made their first contribution in https://github.com/epi052/feroxbuster/pull/733 * @n0kovo made their first contribution in https://github.com/epi052/feroxbuster/pull/749  **Full Changelog**: https://github.com/epi052/feroxbuster/compare/v2.7.2...v2.7.3"
+                "commit_date": "2023-02-28 21:55:12",
+                "commit_message": "Merge pull request #801 from epi052/all-contributors/add-Luoooio\n\ndocs: add Luoooio as a contributor for ideas",
+                "release_tag": "v2.8.0",
+                "release_date": "2023-02-28 21:59:33",
+                "release_message": "## What's Changed * Fixes #761 | Updated Dockerfile and CONTRIBUTING docs by @aidanhall34 in https://github.com/epi052/feroxbuster/pull/762 * fixed bug in extractor that wasn't correctly comparing extracted domains * fixed bug in Makefile * fixed auto-bail icon; wasn't displaying properly on some terminals * added visual cues for auto-tune's rate adjustments * added visual cue when auto-bail is triggered * when Content-Length header is missing or 0, now check the body length as well in case that differs * fixed issue where auto-tune wasn't adjusting upward as often as it should have been * added new methods for auto-detecting 404-like responses * swapped ssdeep for simhash when creating similarity filters * changed default allowed statuses to 'All Status Codes', new 404 detection should filter out what's unimportant and allow more responses through (i.e. apis) * resume scan starts from offset in wordlist when a directory scan was partially complete * docs: add aidanhall34 as a contributor for code, and infra by @allcontributors in https://github.com/epi052/feroxbuster/pull/764 * docs: add hakdogpinas as a contributor for ideas by @allcontributors in https://github.com/epi052/feroxbuster/pull/752 * docs: add duokebei as a contributor for ideas by @allcontributors in https://github.com/epi052/feroxbuster/pull/753 * docs: add joaociocca as a contributor for bug, and ideas by @allcontributors in https://github.com/epi052/feroxbuster/pull/790 * docs: add f3rn0s as a contributor for bug by @allcontributors in https://github.com/epi052/feroxbuster/pull/793 * docs: add pich4ya as a contributor for ideas by @allcontributors in https://github.com/epi052/feroxbuster/pull/799 * docs: add xaeroborg as a contributor for ideas by @allcontributors in https://github.com/epi052/feroxbuster/pull/800 * docs: add Luoooio as a contributor for ideas by @allcontributors in https://github.com/epi052/feroxbuster/pull/801  ## New Contributors * @aidanhall34 made their first contribution in https://github.com/epi052/feroxbuster/pull/762  **Full Changelog**: https://github.com/epi052/feroxbuster/compare/v2.7.3...v2.8.0"
             },
             "https://github.com/ffuf/ffuf": {
                 "created_at": "2018-11-08 09:25:49",
@@ -1044,8 +1044,8 @@
             "https://github.com/wuba/Antenna": {
                 "created_at": "2022-06-15 06:42:25",
                 "description": "Antenna是58同城安全团队打造的一款辅助安全从业人员验证网络中多种漏洞是否存在以及可利用性的工具。其基于带外应用安全测试(OAST)通过任务的形式，将不同漏洞场景检测能力通过插件的形式进行集合，通过与目标进行out-bind的数据通信方式进行辅助检测。",
-                "commit_date": "2023-02-25 16:37:32",
-                "commit_message": "测试新actions_15",
+                "commit_date": "2023-02-28 14:17:14",
+                "commit_message": "fix delete taskconfigitem bug",
                 "release_tag": "v1.3.1",
                 "release_date": "2023-02-25 16:53:39",
                 "release_message": "1.Readme 新增DNS Rebinding功能演示文档，支持并优化了DNS 缓存的逻辑 2.优化了平台消息处理模块的逻辑，减少了数据库的请求数量 3.修复了平台配置的一些bug "
@@ -1071,8 +1071,8 @@
             "https://github.com/su18/ysoserial": {
                 "created_at": "2021-07-26 01:20:01",
                 "description": "ysoserial for su18",
-                "commit_date": "2023-02-27 14:13:21",
-                "commit_message": "更新 Struts2 回显及 Action 内存马",
+                "commit_date": "2023-02-28 08:49:28",
+                "commit_message": "更新 ReadMe 中的图片链接错误",
                 "release_tag": "v1.3",
                 "release_date": "2023-02-09 03:57:44",
                 "release_message": "1. 添加 ROME3、CommonsCollectionsK1、CommonsCollectionsK2 利用链； 2. 添加 mcl 参数，可以指定在 TransformerUtil 中使用 org.mozilla.javascript.DefiningClassLoader； 3. 添加 f 参数，可以指定将输出写在文件中； 4. 更新 BeanShell 在 2.0b4 上的利用链，并用 ScriptEngineManager 的方式对 BeanShell 链支持内存马； 5. 更新 SpringWebFlux 内存马（目前仅支持 gz 及 cmd）； 6. 添加 SpringEcho 回显方式； 7. 更新 cmd/冰蝎/哥斯拉 动态添加的逻辑使用纯反射编写； 8. **【重要】**移除 Referer 参数，用于校验的 Referer 头部现改为可自定义 Header 头部和值，并将校验逻辑由 equals 改为 contains；  9. 支持自定义传递执行命令的 Header 头； 10. 支持自定义 Godzilla key； 11. 由于打包问题，移除 RenderedImage 利用链及相关依赖； 12. 更新 Executor 内存马使用 CMD_HEADER_STRING 统一 Header； 13. 优化大量代码，修复若干 BUG，更新 ReadMe。"
@@ -1428,8 +1428,8 @@
             "https://github.com/Threekiii/Awesome-Exploit": {
                 "created_at": "2022-04-22 02:08:08",
                 "description": "一个漏洞利用工具仓库",
-                "commit_date": "2022-10-11 03:03:21",
-                "commit_message": "更新Apisix/CVE-2021-45232/apisix_dashboard_rce.py",
+                "commit_date": "2023-02-28 06:05:45",
+                "commit_message": "更新CVE-2023-21839 Exploit",
                 "release_tag": "",
                 "release_date": "",
                 "release_message": ""
@@ -1455,8 +1455,8 @@
             "https://github.com/helloexp/0day": {
                 "created_at": "2022-04-07 04:28:29",
                 "description": "各种CMS、各种平台、各种系统、各种软件漏洞的EXP、POC ,该项目将持续更新",
-                "commit_date": "2023-02-21 08:07:00",
-                "commit_message": "update new CVE",
+                "commit_date": "2023-02-28 08:55:23",
+                "commit_message": "optimize directory",
                 "release_tag": "",
                 "release_date": "",
                 "release_message": ""
@@ -1500,8 +1500,8 @@
             "https://github.com/ycdxsb/PocOrExp_in_Github": {
                 "created_at": "2021-04-13 05:46:16",
                 "description": "聚合Github上已有的Poc或者Exp，CVE信息来自CVE官网。Auto Collect Poc Or Exp from Github by CVE ID.",
-                "commit_date": "2023-02-27 22:01:42",
-                "commit_message": "update 2023-02-28 06:01:42",
+                "commit_date": "2023-02-28 21:32:45",
+                "commit_message": "update 2023-03-01 05:32:44",
                 "release_tag": "",
                 "release_date": "",
                 "release_message": ""
@@ -1547,7 +1547,7 @@
             "https://github.com/Threekiii/Awesome-POC": {
                 "created_at": "2022-02-20 06:43:22",
                 "description": "一个各类漏洞POC知识库",
-                "commit_date": "2023-02-09 01:09:59",
+                "commit_date": "2023-02-28 09:36:35",
                 "commit_message": "更新漏洞",
                 "release_tag": "",
                 "release_date": "",
@@ -1556,8 +1556,8 @@
             "https://github.com/Threekiii/Vulnerability-Wiki": {
                 "created_at": "2022-04-29 05:36:33",
                 "description": "一个综合漏洞知识库，集成了Vulhub、Peiqi、Edge、0sec、Wooyun等开源漏洞库",
-                "commit_date": "2023-02-09 01:11:01",
-                "commit_message": "更新漏洞",
+                "commit_date": "2023-02-28 09:55:39",
+                "commit_message": "更新README.md",
                 "release_tag": "v1.0",
                 "release_date": "2022-07-15 01:58:00",
                 "release_message": "Vulnerability-Wiki项目中docs-0sec的打包文件，下载后于主项目docs-0sec文件夹下解压即可。   "
@@ -1574,7 +1574,7 @@
             "https://github.com/Threekiii/Vulhub-Reproduce": {
                 "created_at": "2022-03-03 08:38:29",
                 "description": "一个Vulhub漏洞复现知识库",
-                "commit_date": "2023-02-06 01:44:57",
+                "commit_date": "2023-02-28 09:34:30",
                 "commit_message": "更新漏洞",
                 "release_tag": "",
                 "release_date": "",
@@ -2090,8 +2090,8 @@
             "https://github.com/Mr-xn/BurpSuite-collections": {
                 "created_at": "2020-01-25 02:07:37",
                 "description": "有关burpsuite的插件(非商店),文章以及使用技巧的收集(此项目不再提供burpsuite破解文件,如需要请在博客mrxn.net下载)---Collection of burpsuite plugins (non-stores), articles and tips for using Burpsuite, no crack version file",
-                "commit_date": "2023-02-24 13:51:27",
-                "commit_message": "add OneScan：一个递归目录扫描的BurpSuite插件",
+                "commit_date": "2023-02-28 14:00:08",
+                "commit_message": "add npscrack：蓝队利器、溯源反制、NPS 漏洞利用、NPS exp、NPS poc、一键利用的BurpSuite插件\n\n最新版（202212之后）激活项目",
                 "release_tag": "",
                 "release_date": "",
                 "release_message": ""
@@ -2464,7 +2464,7 @@
             "https://github.com/ExpLangcn/NucleiTP": {
                 "created_at": "2022-11-08 13:16:56",
                 "description": "自动整合全网Nuclei的漏洞POC，实时同步更新最新POC！",
-                "commit_date": "2023-02-28 01:00:03",
+                "commit_date": "2023-03-01 01:15:03",
                 "commit_message": "更新啦❤️",
                 "release_tag": "",
                 "release_date": "",
@@ -2917,8 +2917,8 @@
             "https://github.com/RsaCtfTool/RsaCtfTool": {
                 "created_at": "2015-03-07 17:29:33",
                 "description": "RSA attack tool (mainly for ctf) - retreive private key from weak public key and/or uncipher data",
-                "commit_date": "2023-02-24 22:20:02",
-                "commit_message": "Update README.md",
+                "commit_date": "2023-02-28 22:01:20",
+                "commit_message": "simplify pollard p-1 attack",
                 "release_tag": "",
                 "release_date": "",
                 "release_message": ""
@@ -2943,11 +2943,11 @@
             "https://github.com/joke2k/faker": {
                 "created_at": "2012-11-12 23:00:09",
                 "description": "Faker is a Python package that generates fake data for you.",
-                "commit_date": "2023-02-24 21:38:17",
-                "commit_message": "Bump version: 17.2.0 → 17.3.0",
-                "release_tag": "v17.3.0",
-                "release_date": "2023-02-24 21:45:07",
-                "release_message": "See [CHANGELOG.md](https://github.com/joke2k/faker/blob/refs/tags/v17.3.0/CHANGELOG.md)."
+                "commit_date": "2023-02-28 20:41:18",
+                "commit_message": "Bump version: 17.3.0 → 17.4.0",
+                "release_tag": "v17.4.0",
+                "release_date": "2023-02-28 20:45:42",
+                "release_message": "See [CHANGELOG.md](https://github.com/joke2k/faker/blob/refs/tags/v17.4.0/CHANGELOG.md)."
             },
             "https://github.com/pppscn/SmsForwarder": {
                 "created_at": "2021-02-10 02:23:07",
@@ -2961,8 +2961,8 @@
             "https://github.com/dbeaver/dbeaver": {
                 "created_at": "2015-10-21 08:26:28",
                 "description": "Free universal database tool and SQL client",
-                "commit_date": "2023-02-27 16:02:11",
-                "commit_message": "dbeaver/pro#1447 tags and fields now read for entire duration, fix localdatetime in date editor (#19195)",
+                "commit_date": "2023-02-28 19:36:56",
+                "commit_message": "#19191 fix Postgres Explain Plan execution parameters saving (#19197)\n\n* #19191 fix Postgres Explain Plan execution parameters saving\r\n\r\n* #19191 remove \"summary\" option from explain plan; fix \"timing\"",
                 "release_tag": "22.3.5",
                 "release_date": "2023-02-19 18:19:13",
                 "release_message": "                 - ChatGPT smart completion:                     - Completion popup UI was improved                     - Metadata scope configuration was added                     - Redundant config options wer removed                 - Data editor:                     - Accessibility support was significantly improved (context menu, additional keyboard shortcuts)                     - Filtering and ordering icons visibility configuration was added again                     - Dictionary viewer was fixed (issue with missing dictionary values)                     - \"Save filters\" button was removed from custom SQL queries results                     - App crash on geometry viewer opening was resolved in the latest version of MacOS                 - SQL editor: query text extraction was fixed (issue with trailing comment after query text)                 - Database backup/restore: issue with external tools running was resolved (Linux)                 - Application fonts were unified. Now we have only Main and Monospace fonts configuration                 - Data transfer: data type mapping now respects type name case (for databases with different default case)                 - Variables support in database tasks was fixed                 - Database tools wizard: redundant task configuration page was removed                 - SQL generator dialog now show progress to avoid UI freeze on big schemas                 - Issue with opening ERD files from disk ws resolved                 - Clickhouse: DDL for array columns was fixed                 - Databricks: additional metadata was added                 - Exasol: default connection parameters were updated (thanks to @allipatev)                 - IRIS (ex Cache): driver version was updated                 - Oracle: stored procedures invocation syntax was improved                 - Snowflake: driver now uses single database connection for all editors (configurable)                 - SQL Server:                     - Driver version was updated to 11.2.3. Trust server certificate option was moved to the main connection page                     - Server messages (printed on raiserror) reading was fixed                     - Multiple resultsets reading was fixed (extra error handling was added)                     - VARCHAR(MAX) data type support was added                 - SQLite: converting binary columns into string representation was fixed             "
@@ -3014,8 +3014,8 @@
             "https://github.com/bytedance/Elkeid": {
                 "created_at": "2020-12-18 03:15:54",
                 "description": "Elkeid is an open source solution that can meet the security requirements of various workloads such as hosts, containers and K8s, and serverless. It is derived from ByteDance's internal best practices.",
-                "commit_date": "2023-02-23 05:58:13",
-                "commit_message": "Merge pull request #439 from Hackerl/main\n\nupdate asyncio library for golang eBPF probe",
+                "commit_date": "2023-02-28 07:01:07",
+                "commit_message": "Merge pull request #454 from bytedance/rasp/fix/bpf_auto",
                 "release_tag": "scanner-v2.2.0.0_20230227",
                 "release_date": "2023-02-27 04:13:59",
                 "release_message": ""
@@ -3076,8 +3076,8 @@
             "https://github.com/RoomaSec/RmTools": {
                 "created_at": "2022-08-23 05:07:04",
                 "description": "蓝队应急工具",
-                "commit_date": "2022-10-21 06:16:16",
-                "commit_message": "Update README.md",
+                "commit_date": "2023-02-28 07:33:37",
+                "commit_message": "1\n\n1",
                 "release_tag": "",
                 "release_date": "",
                 "release_message": ""

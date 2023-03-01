@@ -1,15 +1,16 @@
-# 更新于 2023-02-28 09:09:52
+# 更新于 2023-03-01 09:18:15
 
 ## 近30天release更新记录
 | 更新时间 | 项目名称 | 版本 | 更新内容 |
 | :---- | :---- | :---- | :---- |
+|2023-02-28 21:59:33|[feroxbuster](https://github.com/epi052/feroxbuster)|v2.8.0|## What's Changed * Fixes #761 | Update<br>d Dockerfile and CONTRIBUTING docs by @a<br>idanhall34 in https://github.com/epi052/<br>feroxbuster/pull/762 * fixed bug in extr<br>actor that wasn't correctly comparing ex<br>tracted domains * fixed bug in Makefile <br>* fixed auto-bail icon; wasn't displayin<br>g properly on some terminals * added vis<br>ual cues for auto-tune's rate adjustment<br>s * added visual cue when auto-bail is t<br>riggered * when Content-Length header is<br> missing or 0, now check the body length<br> as well in case that differs * fixed is<br>sue where auto-tune wasn't adjusting upw<br>ard as often as it should have been * ad<br>ded new methods for auto-detecting 404-l<br>ike responses * swapped ssdeep for simha<br>sh when creating similarity filters * ch<br>anged default allowed statuses to 'All S<br>tatus Codes', new 404 detection should f<br>ilter out what's unimportant and allow m<br>ore responses through (i.e. apis) * resu<br>me scan starts from offset in wordlist w<br>hen a directory scan was partially compl<br>ete * docs: add aidanhall34 as a contrib<br>utor for code, and infra by @allcontribu<br>tors in https://github.com/epi052/feroxb<br>uster/pull/764 * docs: add hakdogpinas a<br>s a contributor for ideas by @allcontrib<br>utors in https://github.com/epi052/ferox<br>buster/pull/752 * docs: add duokebei as <br>a contributor for ideas by @allcontribut<br>ors in https://github.com/epi052/feroxbu<br>ster/pull/753 * docs: add joaociocca as <br>a contributor for bug, and ideas by @all<br>contributors in https://github.com/epi05<br>2/feroxbuster/pull/790 * docs: add f3rn0<br>s as a contributor for bug by @allcontri<br>butors in https://github.com/epi052/fero<br>xbuster/pull/793 * docs: add pich4ya as <br>a contributor for ideas by @allcontribut<br>ors in https://github.com/epi052/feroxbu<br>ster/pull/799 * docs: add xaeroborg as a<br> contributor for ideas by @allcontributo<br>rs in https://github.com/epi052/feroxbus<br>ter/pull/800 * docs: add Luoooio as a co<br>ntributor for ideas by @allcontributors <br>in https://github.com/epi052/feroxbuster<br>/pull/801## New Contributors * @aidanhal<br>l34 made their first contribution in htt<br>ps://github.com/epi052/feroxbuster/pull/<br>762**Full Changelog**: https://github.co<br>m/epi052/feroxbuster/compare/v2.7.3...v2<br>.8.0|
+|2023-02-28 20:45:42|[faker](https://github.com/joke2k/faker)|v17.4.0|See [CHANGELOG.md](https://github.com/j<br>oke2k/faker/blob/refs/tags/v17.4.0/CHANG<br>ELOG.md).|
 |2023-02-27 04:13:59|[Elkeid](https://github.com/bytedance/Elkeid)|scanner-v<br>2.2.0.0_20<br>230227||
 |2023-02-26 13:06:58|[go_proxy_pool](https://github.com/pingc0y/go_proxy_pool)|2022.11.2<br>2|2022.11.22|
 |2023-02-26 07:27:26|[mitaka](https://github.com/ninoseki/mitaka)|v1.0.0|- Migrate to the Manifest V3 (#703) - R<br>eplace Mocha, Chai and Sinon with Jest (<br>#703) |
 |2023-02-26 00:35:49|[qsnctf-python](https://github.com/Moxin1044/qsnctf-python)|0.0.8.9|更新了之前版本不存在的Web请求timeout导<br>致扫描时间过长，在0.0.8.9版本已修复此问题<br>。 您甚至可以指定timeout，感谢问题反馈！|
 |2023-02-25 20:54:24|[naabu](https://github.com/projectdiscovery/naabu)|v2.1.2|## What's Changed* Added UDP based PORT<br> scan by @Mzack9999 in https://github.co<br>m/projectdiscovery/naabu/pull/460 * Adde<br>d proxy support to connect scan by @Mzac<br>k9999 in https://github.com/projectdisco<br>very/naabu/pull/529 * Added support for <br>optional reverse ptr by @Mzack9999 in ht<br>tps://github.com/projectdiscovery/naabu/<br>pull/530 * Added documentation to use na<br>abu as library by @ShubhamRasal in https<br>://github.com/projectdiscovery/naabu/pul<br>l/469 * Fixed stats on exit by @Mzack999<br>9 in https://github.com/projectdiscovery<br>/naabu/pull/538 * Fixed failing race con<br>dition test by @xm1k3 in https://github.<br>com/projectdiscovery/naabu/pull/485 * Fi<br>xed issue with nmap flag input by @xm1k3<br> in https://github.com/projectdiscovery/<br>naabu/pull/487 * Fixed wrong boolean che<br>ck on verify option by @MiracleLau in ht<br>tps://github.com/projectdiscovery/naabu/<br>pull/519 * Updated freeport with pd fork<br> #471 by @foxcores in https://github.com<br>/projectdiscovery/naabu/pull/478 * Updat<br>ed helpers libraries by @edoardottt in h<br>ttps://github.com/projectdiscovery/naabu<br>/pull/466 * Improved duplicate debug mes<br>sages on scanned ips by @Mzack9999 in ht<br>tps://github.com/projectdiscovery/naabu/<br>pull/522 * Removed unused MapKeysToSlice<br>Int by @xm1k3 in https://github.com/proj<br>ectdiscovery/naabu/pull/534Issues closed<br> in release - https://github.com/project<br>discovery/naabu/milestone/5?closed=1## N<br>ew Contributors * @edoardottt made their<br> first contribution in https://github.co<br>m/projectdiscovery/naabu/pull/466 * @fox<br>cores made their first contribution in h<br>ttps://github.com/projectdiscovery/naabu<br>/pull/478 * @xm1k3 made their first cont<br>ribution in https://github.com/projectdi<br>scovery/naabu/pull/485 * @MiracleLau mad<br>e their first contribution in https://gi<br>thub.com/projectdiscovery/naabu/pull/519<br>**Full Changelog**: https://github.com/p<br>rojectdiscovery/naabu/compare/v2.1.1...v<br>2.1.2|
 |2023-02-25 16:53:39|[Antenna](https://github.com/wuba/Antenna)|v1.3.1|1.Readme 新增DNS Rebinding功能演示文档<br>，支持并优化了DNS 缓存的逻辑 2.优化了平台<br>消息处理模块的逻辑，减少了数据库的请求数<br>量 3.修复了平台配置的一些bug |
-|2023-02-24 21:45:07|[faker](https://github.com/joke2k/faker)|v17.3.0|See [CHANGELOG.md](https://github.com/j<br>oke2k/faker/blob/refs/tags/v17.3.0/CHANG<br>ELOG.md).|
 |2023-02-24 04:12:38|[veinmind-tools](https://github.com/chaitin/veinmind-tools)|v2.0.5|## Fix - 修改插件发现目录|
 |2023-02-22 15:21:08|[subfinder](https://github.com/projectdiscovery/subfinder)|v2.5.6|## What's Changed### New Features* Adde<br>d **digitorus** support as new source by<br> @vzamanillo in https://github.com/proje<br>ctdiscovery/subfinder/pull/696### Bug Fi<br>xes* Fixed outdated deps by @RamanaReddy<br>0M in https://github.com/projectdiscover<br>y/subfinder/pull/762 * Fixed failing cas<br>es by @ShubhamRasal in https://github.co<br>m/projectdiscovery/subfinder/pull/720###<br> Improvements* Improved **crtsh** SQL qu<br>ery by @vzamanillo in https://github.com<br>/projectdiscovery/subfinder/pull/700 * I<br>mproved scan statistics by @owenrumney i<br>n https://github.com/projectdiscovery/su<br>bfinder/pull/727 * Improved ctx param in<br> agent enumerate method by @EndPositive <br>in https://github.com/projectdiscovery/s<br>ubfinder/pull/756Issues closed in releas<br>e - https://github.com/projectdiscovery/<br>subfinder/milestone/5?closed=1## New Con<br>tributors * @owenrumney made their first<br> contribution in https://github.com/proj<br>ectdiscovery/subfinder/pull/727 * @Raman<br>aReddy0M made their first contribution i<br>n https://github.com/projectdiscovery/su<br>bfinder/pull/762 * @EndPositive made the<br>ir first contribution in https://github.<br>com/projectdiscovery/subfinder/pull/756*<br>*Full Changelog**: https://github.com/pr<br>ojectdiscovery/subfinder/compare/v2.5.5.<br>..v2.5.6|
 |2023-02-22 13:35:31|[autoDecoder](https://github.com/f0ng/autoDecoder)|0.23|## 2023.2.22 更新0.23 1. 优化了插件的一<br>些问题 2. 案例移步[autoDecoder-usages](ht<br>tps://github.com/f0ng/autoDecoder-usages<br>)|
@@ -39,23 +40,30 @@
 ## 近30天commit提交记录
 | 提交时间 | 项目名称 | 更新内容 |
 | :---- | :---- | :---- |
-|2023-02-28 01:00:03|[NucleiTP](https://github.com/ExpLangcn/NucleiTP)|更新啦❤️|
+|2023-03-01 01:15:03|[NucleiTP](https://github.com/ExpLangcn/NucleiTP)|更新啦❤️|
+|2023-02-28 22:01:20|[RsaCtfTool](https://github.com/RsaCtfTool/RsaCtfTool)|simplify pollard p-1 attack|
+|2023-02-28 21:55:12|[feroxbuster](https://github.com/epi052/feroxbuster)|Merge pull request #801 from epi052/all-contributors/a<br>dd-Luoooiodocs: add Luoooio as a contributor for ideas|
+|2023-02-28 21:32:45|[PocOrExp_in_Github](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-03-01 05:32:44|
+|2023-02-28 20:41:18|[faker](https://github.com/joke2k/faker)|Bump version: 17.3.0 → 17.4.0|
+|2023-02-28 19:36:56|[dbeaver](https://github.com/dbeaver/dbeaver)|#19191 fix Postgres Explain Plan execution parameters <br>saving (#19197)* #19191 fix Postgres Explain Plan execu<br>tion parameters saving* #19191 remove "summary" option <br>from explain plan; fix "timing"|
+|2023-02-28 14:17:14|[Antenna](https://github.com/wuba/Antenna)|fix delete taskconfigitem bug|
+|2023-02-28 14:00:08|[BurpSuite-collectio<br>ns](https://github.com/Mr-xn/BurpSuite-collections)|add npscrack：蓝队利器、溯源反制、NPS 漏洞利用、NPS ex<br>p、NPS poc、一键利用的BurpSuite插件最新版（202212之后）<br>激活项目|
+|2023-02-28 09:55:39|[Vulnerability-Wiki](https://github.com/Threekiii/Vulnerability-Wiki)|更新README.md|
+|2023-02-28 09:36:35|[Awesome-POC](https://github.com/Threekiii/Awesome-POC)|更新漏洞|
+|2023-02-28 09:34:30|[Vulhub-Reproduce](https://github.com/Threekiii/Vulhub-Reproduce)|更新漏洞|
+|2023-02-28 08:55:23|[0day](https://github.com/helloexp/0day)|optimize directory|
+|2023-02-28 08:49:28|[ysoserial](https://github.com/su18/ysoserial)|更新 ReadMe 中的图片链接错误|
+|2023-02-28 07:33:37|[RmTools](https://github.com/RoomaSec/RmTools)|11|
+|2023-02-28 07:01:07|[Elkeid](https://github.com/bytedance/Elkeid)|Merge pull request #454 from bytedance/rasp/fix/bpf_au<br>to|
+|2023-02-28 06:05:45|[Awesome-Exploit](https://github.com/Threekiii/Awesome-Exploit)|更新CVE-2023-21839 Exploit|
 |2023-02-28 00:18:27|[Platypus](https://github.com/WangYihang/Platypus)|build(deps): bump http-cache-semantics in /web/fronten<br>d (#180)Bumps [http-cache-semantics](https://github.com<br>/kornelski/http-cache-semantics) from 4.1.0 to 4.1.1.- <br>[Release notes](https://github.com/kornelski/http-cache<br>-semantics/releases)- [Commits](https://github.com/korn<br>elski/http-cache-semantics/compare/v4.1.0...v4.1.1)---u<br>pdated-dependencies:- dependency-name: http-cache-seman<br>ticsdependency-type: indirect...Signed-off-by: dependab<br>ot[bot]Co-authored-by: dependabot[bot] |
-|2023-02-27 22:01:42|[PocOrExp_in_Github](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-02-28 06:01:42|
-|2023-02-27 16:02:11|[dbeaver](https://github.com/dbeaver/dbeaver)|dbeaver/pro#1447 tags and fields now read for entire d<br>uration, fix localdatetime in date editor (#19195)|
-|2023-02-27 14:13:21|[ysoserial](https://github.com/su18/ysoserial)|更新 Struts2 回显及 Action 内存马|
 |2023-02-27 03:04:57|[404StarLink](https://github.com/knownsec/404StarLink)|weekly update at 2023-02-27|
 |2023-02-27 02:18:43|[vulnerability](https://github.com/lal0ne/vulnerability)|CVE-2023-21839|
-|2023-02-27 01:50:41|[feroxbuster](https://github.com/epi052/feroxbuster)|Merge pull request #794 from epi052/784-content-based-<br>auto-filteringContent-based auto filtering|
 |2023-02-26 13:10:45|[go_proxy_pool](https://github.com/pingc0y/go_proxy_pool)|Delete src directory|
 |2023-02-26 07:24:32|[mitaka](https://github.com/ninoseki/mitaka)|Merge pull request #708 from ninoseki/change-packagech<br>ore: use plasmo build--zip for packaging [skip ci]|
 |2023-02-26 00:31:50|[qsnctf-python](https://github.com/Moxin1044/qsnctf-python)|更新版本到0.0.8.9|
-|2023-02-25 16:37:32|[Antenna](https://github.com/wuba/Antenna)|测试新actions_15|
 |2023-02-25 08:15:59|[geacon_pro](https://github.com/H4de5-7/geacon_pro)|Update README_zh.md|
-|2023-02-24 22:20:02|[RsaCtfTool](https://github.com/RsaCtfTool/RsaCtfTool)|Update README.md|
 |2023-02-24 22:02:13|[subfinder](https://github.com/projectdiscovery/subfinder)|Merge pull request #771 from olearycrew/brendan-fix-do<br>cker-build|
-|2023-02-24 21:38:17|[faker](https://github.com/joke2k/faker)|Bump version: 17.2.0 → 17.3.0|
-|2023-02-24 13:51:27|[BurpSuite-collectio<br>ns](https://github.com/Mr-xn/BurpSuite-collections)|add OneScan：一个递归目录扫描的BurpSuite插件|
 |2023-02-24 13:25:09|[ysomap](https://github.com/wh1t3p1g/ysomap)|update|
 |2023-02-24 08:50:16|[nemo_go](https://github.com/hanc00l/nemo_go)|Fix: nmap portscan for multi targets|
 |2023-02-24 08:33:14|[afrog](https://github.com/zan8in/afrog)|CVE-2017-5487|
@@ -66,14 +74,12 @@
 |2023-02-23 07:55:06|[SmsForwarder](https://github.com/pppscn/SmsForwarder)|优化：一键换新机·导出/导入通用设置的机制
 优化：手动重<br>启app的方式|
 |2023-02-23 07:36:27|[xray](https://github.com/chaitin/xray)|[fix] 文档地址|
-|2023-02-23 05:58:13|[Elkeid](https://github.com/bytedance/Elkeid)|Merge pull request #439 from Hackerl/mainupdate asynci<br>o library for golang eBPF probe|
 |2023-02-23 05:56:50|[appshark](https://github.com/bytedance/appshark)|support pattern filed match.|
 |2023-02-22 13:36:47|[autoDecoder](https://github.com/f0ng/autoDecoder)|Delete autoDecoder例子 directory|
 |2023-02-22 09:36:50|[HaE](https://github.com/gh0stkey/HaE)|Version: 2.4.6 Update|
 |2023-02-22 08:29:41|[fscan](https://github.com/shadow1ng/fscan)|Merge pull request #265 from AgeloVito/mainUpdate eval<br>.go|
 |2023-02-21 16:11:23|[dirsearch](https://github.com/maurosoria/dirsearch)|Merge pull request #1282 from 0x0d3ad/patch-3Update my<br> profile link github|
 |2023-02-21 14:37:50|[RouteVulScan](https://github.com/F6JO/RouteVulScan)|Update README.md|
-|2023-02-21 08:07:00|[0day](https://github.com/helloexp/0day)|update new CVE|
 |2023-02-21 03:50:02|[URLFinder](https://github.com/pingc0y/URLFinder)|2023/2/21更新|
 |2023-02-21 02:04:04|[Scanners-Box](https://github.com/We5ter/Scanners-Box)|[+]Cyber-Buddy/APKHunt|
 |2023-02-20 06:54:31|[Kunlun-M](https://github.com/LoRexxar/Kunlun-M)|Merge pull request #224 from LoRexxar/developfixed #22<br>3|
@@ -103,22 +109,18 @@
 |2023-02-10 05:56:40|[Threathunting-book](https://github.com/12306Bro/Threathunting-book)|delete|
 |2023-02-09 13:53:02|[github-subdomains](https://github.com/gwen001/github-subdomains)|v1.2.2|
 |2023-02-09 07:22:30|[X-Marshal](https://github.com/XTeam-Wing/X-Marshal)|Update README.md|
-|2023-02-09 01:11:01|[Vulnerability-Wiki](https://github.com/Threekiii/Vulnerability-Wiki)|更新漏洞|
-|2023-02-09 01:09:59|[Awesome-POC](https://github.com/Threekiii/Awesome-POC)|更新漏洞|
 |2023-02-08 23:30:22|[log4j-shell-poc](https://github.com/kozmer/log4j-shell-poc)|:)|
 |2023-02-08 13:55:17|[QingTing](https://github.com/StarCrossPortal/QingTing)|add code|
 |2023-02-08 03:49:42|[ARL](https://github.com/TophantTechnology/ARL)|Merge pull request #480 from chasenz/masterUpdate nucl<br>ei dump|
 |2023-02-08 02:14:56|[SharpWxDump](https://github.com/AdminTest0/SharpWxDump)|Update README.md|
 |2023-02-06 04:48:56|[cola_dnslog](https://github.com/AbelChe/cola_dnslog)|Merge pull request #26 from AbelChe/1.3.2fix webserver<br> 404|
-|2023-02-06 01:44:57|[Vulhub-Reproduce](https://github.com/Threekiii/Vulhub-Reproduce)|更新漏洞|
 |2023-02-05 15:19:54|[Viper](https://github.com/FunnyWolf/Viper)|update version v1.5.26|
 |2023-02-03 10:10:16|[passive-scan-client](https://github.com/c0ny1/passive-scan-client)|恢复默认端口和整理代码符合低版本语法糖|
 |2023-02-02 02:36:25|[JDumpSpider](https://github.com/whwlsfb/JDumpSpider)|add SpringSecurityUsernamePasswordAuthenticationToken <br>spider.|
 |2023-02-01 12:26:23|[RequestTemplate](https://github.com/1n7erface/RequestTemplate)|Update README.md|
 |2023-02-01 01:39:12|[CRC32-Tools](https://github.com/AabyssZG/CRC32-Tools)|Update README.md|
 |2023-01-30 13:17:30|[WMIHACKER](https://github.com/rootclay/WMIHACKER)|Update README_zh.md|
-|2023-01-30 08:54:59|[BugRepoter_0x727](https://github.com/0x727/BugRepoter_0x727)|V1.15 解决onlyoffice打开文档错误。|
-|2023-01-29 02:01:58|[ddddocr](https://github.com/sml2h3/ddddocr)|Update README.md|## 所有项目
+|2023-01-30 08:54:59|[BugRepoter_0x727](https://github.com/0x727/BugRepoter_0x727)|V1.15 解决onlyoffice打开文档错误。|## 所有项目
 ### 信息收集
 #### 资产测绘采集
 | 项目名称 | 版本 | 项目描述 |
@@ -142,7 +144,7 @@
 | :---- | :---- | :---- |
 | [dirsearch](https://github.com/maurosoria/dirsearch) | v0.4.3 | Web path scanner |
 | [URLFinder](https://github.com/pingc0y/URLFinder) | 2023.2.21 | 类似JSFinder的golang实现，一款用于快速提取检测页面中JS与URL的工<br>具，更快更全更舒服 |
-| [feroxbuster](https://github.com/epi052/feroxbuster) | v2.7.3 | A fast, simple, recursive content discovery tool written in Rust<br>. |
+| [feroxbuster](https://github.com/epi052/feroxbuster) | v2.8.0 | A fast, simple, recursive content discovery tool written in Rust<br>. |
 | [ffuf](https://github.com/ffuf/ffuf) | v2.0.0 | Fast web fuzzer written in Go |
 | [dirmap](https://github.com/H4ckForJob/dirmap) |  | An advanced web directory & file scanning tool that will be more<br> powerful than DirBuster, Dirsearch, cansina, and Yu Jian.一个高<br>级web目录、文件扫描工具，功能将会强于DirBuster、Dirsearch、cansina<br>、御剑。 |
 | [cansina](https://github.com/deibit/cansina) | 1.0.0 | Web Content Discovery Tool |
@@ -650,7 +652,7 @@
 #### 其他
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
-| [faker](https://github.com/joke2k/faker) | v17.3.0 | Faker is a Python package that generates fake data for you. |
+| [faker](https://github.com/joke2k/faker) | v17.4.0 | Faker is a Python package that generates fake data for you. |
 | [SmsForwarder](https://github.com/pppscn/SmsForwarder) | v3.2.0 | 短信转发器——监控Android手机短信、来电、APP通知，并根据指定规则<br>转发到其他手机：钉钉群自定义机器人、钉钉企业内机器人、企业微信群机<br>器人、飞书机器人、企业微信应用消息、邮箱、bark、webhook、Telegram<br>机器人、Server酱、PushPlus、手机短信等。包括主动控制服务端与客户端<br>，让你轻松远程发短信、查短信、查通话、查话簿、查电量等。（V3.0 新<br>增）PS.这个APK主要是学习与自用，如有BUG请提ISSUE，同时欢迎大家提PR<br>指正 |
 | [dbeaver](https://github.com/dbeaver/dbeaver) | 22.3.5 | Free universal database tool and SQL client |
 | [MySQLMonitor](https://github.com/TheKingOfDuck/MySQLMonitor) | 1.0 | MySQL实时监控工具(代码审计/黑盒/白盒审计辅助工具) |
