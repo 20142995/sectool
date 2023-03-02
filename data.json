@@ -1046,9 +1046,9 @@
                 "description": "Antenna是58同城安全团队打造的一款辅助安全从业人员验证网络中多种漏洞是否存在以及可利用性的工具。其基于带外应用安全测试(OAST)通过任务的形式，将不同漏洞场景检测能力通过插件的形式进行集合，通过与目标进行out-bind的数据通信方式进行辅助检测。",
                 "commit_date": "2023-02-28 14:17:14",
                 "commit_message": "fix delete taskconfigitem bug",
-                "release_tag": "v1.3.1",
-                "release_date": "2023-02-25 16:53:39",
-                "release_message": "1.Readme 新增DNS Rebinding功能演示文档，支持并优化了DNS 缓存的逻辑 2.优化了平台消息处理模块的逻辑，减少了数据库的请求数量 3.修复了平台配置的一些bug "
+                "release_tag": "v1.3.2",
+                "release_date": "2023-03-01 06:20:26",
+                "release_message": "1、优化了任务模块功能逻辑 2、修复python3.6版本不支持socket解析ip的bug"
             },
             "https://github.com/AbelChe/cola_dnslog": {
                 "created_at": "2022-07-30 09:30:31",
@@ -1500,8 +1500,8 @@
             "https://github.com/ycdxsb/PocOrExp_in_Github": {
                 "created_at": "2021-04-13 05:46:16",
                 "description": "聚合Github上已有的Poc或者Exp，CVE信息来自CVE官网。Auto Collect Poc Or Exp from Github by CVE ID.",
-                "commit_date": "2023-02-28 21:32:45",
-                "commit_message": "update 2023-03-01 05:32:44",
+                "commit_date": "2023-03-01 21:32:41",
+                "commit_message": "update 2023-03-02 05:32:41",
                 "release_tag": "",
                 "release_date": "",
                 "release_message": ""
@@ -1694,8 +1694,8 @@
             "https://github.com/chaitin/veinmind-tools": {
                 "created_at": "2022-02-08 08:12:15",
                 "description": "veinmind-tools 是由长亭科技自研，基于 veinmind-sdk 打造的容器安全工具集",
-                "commit_date": "2023-02-24 04:11:54",
-                "commit_message": "fix(image): fix error plugin dir (#201)",
+                "commit_date": "2023-03-01 08:59:22",
+                "commit_message": "fix(veinmind-escalate): cap check (#196)\n\n* fix(veinmind-escalate):optimize CAPABILITY check\r\n\r\nfix(veinmind-escalate):delete useless part\r\n\r\n* fix(veinmind-escalate):fix rule\r\n\r\nfix(veinmind-escalate):fix rule\r\n\r\n---------\r\n\r\nCo-authored-by: GiveMeAShell <zhuo.li@chaitin.com>",
                 "release_tag": "v2.0.5",
                 "release_date": "2023-02-24 04:12:38",
                 "release_message": "## Fix - 修改插件发现目录"
@@ -2126,8 +2126,8 @@
             "https://github.com/bit4woo/domain_hunter_pro": {
                 "created_at": "2019-01-18 07:15:15",
                 "description": "domain_hunter的高级版本，SRC挖洞、HW打点之必备！自动化资产收集；快速Title获取；外部工具联动；等等",
-                "commit_date": "2022-11-20 10:24:53",
-                "commit_message": "Update DomainManager.java\n\nCopyOnWriteArraySet 用iterator的remove反而会出错",
+                "commit_date": "2023-02-28 09:33:33",
+                "commit_message": "grep ports from masscan result",
                 "release_tag": "v1.9-alpha",
                 "release_date": "2022-11-18 09:37:35",
                 "release_message": "**这是重构版本，与旧版本不兼容！！！ 这是重构版本，与旧版本不兼容！！！ 这是重构版本，与旧版本不兼容！！！**  重新设计了数据库的表结构，尽量提升数据库读写效率 重新设计了数据对象、UI、数据库之间的数据同步逻辑 重新设计了数据存储的基础类，保证线程安全 重新设计了table中model类的部分逻辑，减少内存占用  优化了数据对象的字段，尽量减小每个数据对象的内存占用 优化了数据提取的正则表达式和逻辑 优化了根域名、网段作控制目标范围的逻辑 优化了当根域名、网段变化时，数据的刷新逻辑 优化了数据数据加载逻辑 其他各种逻辑优化、bug修改  总之就是大动作，和旧版本不兼容，可能存在潜在bug（虽然我已经试用一段时间，排除了很多bug），所以发布一个alpha版本在正式版本之前。  欢迎试用提交bug，使用时建议创建新的项目数据库，不要使用旧数据库文件。"
@@ -2464,7 +2464,7 @@
             "https://github.com/ExpLangcn/NucleiTP": {
                 "created_at": "2022-11-08 13:16:56",
                 "description": "自动整合全网Nuclei的漏洞POC，实时同步更新最新POC！",
-                "commit_date": "2023-03-01 01:15:03",
+                "commit_date": "2023-03-02 01:00:03",
                 "commit_message": "更新啦❤️",
                 "release_tag": "",
                 "release_date": "",
@@ -2917,8 +2917,8 @@
             "https://github.com/RsaCtfTool/RsaCtfTool": {
                 "created_at": "2015-03-07 17:29:33",
                 "description": "RSA attack tool (mainly for ctf) - retreive private key from weak public key and/or uncipher data",
-                "commit_date": "2023-02-28 22:01:20",
-                "commit_message": "simplify pollard p-1 attack",
+                "commit_date": "2023-03-01 19:56:56",
+                "commit_message": "simplify pisano_period.py",
                 "release_tag": "",
                 "release_date": "",
                 "release_message": ""
@@ -2943,11 +2943,11 @@
             "https://github.com/joke2k/faker": {
                 "created_at": "2012-11-12 23:00:09",
                 "description": "Faker is a Python package that generates fake data for you.",
-                "commit_date": "2023-02-28 20:41:18",
-                "commit_message": "Bump version: 17.3.0 → 17.4.0",
-                "release_tag": "v17.4.0",
-                "release_date": "2023-02-28 20:45:42",
-                "release_message": "See [CHANGELOG.md](https://github.com/joke2k/faker/blob/refs/tags/v17.4.0/CHANGELOG.md)."
+                "commit_date": "2023-03-01 20:08:05",
+                "commit_message": "Bump version: 17.4.0 → 17.5.0",
+                "release_tag": "v17.5.0",
+                "release_date": "2023-03-01 20:11:44",
+                "release_message": "See [CHANGELOG.md](https://github.com/joke2k/faker/blob/refs/tags/v17.5.0/CHANGELOG.md)."
             },
             "https://github.com/pppscn/SmsForwarder": {
                 "created_at": "2021-02-10 02:23:07",
@@ -2961,8 +2961,8 @@
             "https://github.com/dbeaver/dbeaver": {
                 "created_at": "2015-10-21 08:26:28",
                 "description": "Free universal database tool and SQL client",
-                "commit_date": "2023-02-28 19:36:56",
-                "commit_message": "#19191 fix Postgres Explain Plan execution parameters saving (#19197)\n\n* #19191 fix Postgres Explain Plan execution parameters saving\r\n\r\n* #19191 remove \"summary\" option from explain plan; fix \"timing\"",
+                "commit_date": "2023-03-01 17:48:28",
+                "commit_message": "CB-3162 add opensearch driver (#19194)\n\n* CB-3162 add opensearch driver\r\n\r\n* CB-3162 add opensearch driver license\r\n\r\n---------\r\n\r\nCo-authored-by: mr-anton-t <42037741+mr-anton-t@users.noreply.github.com>",
                 "release_tag": "22.3.5",
                 "release_date": "2023-02-19 18:19:13",
                 "release_message": "                 - ChatGPT smart completion:                     - Completion popup UI was improved                     - Metadata scope configuration was added                     - Redundant config options wer removed                 - Data editor:                     - Accessibility support was significantly improved (context menu, additional keyboard shortcuts)                     - Filtering and ordering icons visibility configuration was added again                     - Dictionary viewer was fixed (issue with missing dictionary values)                     - \"Save filters\" button was removed from custom SQL queries results                     - App crash on geometry viewer opening was resolved in the latest version of MacOS                 - SQL editor: query text extraction was fixed (issue with trailing comment after query text)                 - Database backup/restore: issue with external tools running was resolved (Linux)                 - Application fonts were unified. Now we have only Main and Monospace fonts configuration                 - Data transfer: data type mapping now respects type name case (for databases with different default case)                 - Variables support in database tasks was fixed                 - Database tools wizard: redundant task configuration page was removed                 - SQL generator dialog now show progress to avoid UI freeze on big schemas                 - Issue with opening ERD files from disk ws resolved                 - Clickhouse: DDL for array columns was fixed                 - Databricks: additional metadata was added                 - Exasol: default connection parameters were updated (thanks to @allipatev)                 - IRIS (ex Cache): driver version was updated                 - Oracle: stored procedures invocation syntax was improved                 - Snowflake: driver now uses single database connection for all editors (configurable)                 - SQL Server:                     - Driver version was updated to 11.2.3. Trust server certificate option was moved to the main connection page                     - Server messages (printed on raiserror) reading was fixed                     - Multiple resultsets reading was fixed (extra error handling was added)                     - VARCHAR(MAX) data type support was added                 - SQLite: converting binary columns into string representation was fixed             "
@@ -3014,10 +3014,10 @@
             "https://github.com/bytedance/Elkeid": {
                 "created_at": "2020-12-18 03:15:54",
                 "description": "Elkeid is an open source solution that can meet the security requirements of various workloads such as hosts, containers and K8s, and serverless. It is derived from ByteDance's internal best practices.",
-                "commit_date": "2023-02-28 07:01:07",
-                "commit_message": "Merge pull request #454 from bytedance/rasp/fix/bpf_auto",
-                "release_tag": "scanner-v2.2.0.0_20230227",
-                "release_date": "2023-02-27 04:13:59",
+                "commit_date": "2023-03-01 08:46:39",
+                "commit_message": "Merge pull request #451 from Hackerl/main\n\noptimize persist event for asyncio",
+                "release_tag": "rasp-v2.1.0.10-pre",
+                "release_date": "2023-03-01 09:00:39",
                 "release_message": ""
             },
             "https://github.com/theSecHunter/Hades": {

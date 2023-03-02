@@ -1,16 +1,16 @@
-# 更新于 2023-03-01 09:18:15
+# 更新于 2023-03-02 09:14:48
 
 ## 近30天release更新记录
 | 更新时间 | 项目名称 | 版本 | 更新内容 |
 | :---- | :---- | :---- | :---- |
+|2023-03-01 20:11:44|[faker](https://github.com/joke2k/faker)|v17.5.0|See [CHANGELOG.md](https://github.com/j<br>oke2k/faker/blob/refs/tags/v17.5.0/CHANG<br>ELOG.md).|
+|2023-03-01 09:00:39|[Elkeid](https://github.com/bytedance/Elkeid)|rasp-v2.1<br>.0.10-pre||
+|2023-03-01 06:20:26|[Antenna](https://github.com/wuba/Antenna)|v1.3.2|1、优化了任务模块功能逻辑 2、修复python<br>3.6版本不支持socket解析ip的bug|
 |2023-02-28 21:59:33|[feroxbuster](https://github.com/epi052/feroxbuster)|v2.8.0|## What's Changed * Fixes #761 | Update<br>d Dockerfile and CONTRIBUTING docs by @a<br>idanhall34 in https://github.com/epi052/<br>feroxbuster/pull/762 * fixed bug in extr<br>actor that wasn't correctly comparing ex<br>tracted domains * fixed bug in Makefile <br>* fixed auto-bail icon; wasn't displayin<br>g properly on some terminals * added vis<br>ual cues for auto-tune's rate adjustment<br>s * added visual cue when auto-bail is t<br>riggered * when Content-Length header is<br> missing or 0, now check the body length<br> as well in case that differs * fixed is<br>sue where auto-tune wasn't adjusting upw<br>ard as often as it should have been * ad<br>ded new methods for auto-detecting 404-l<br>ike responses * swapped ssdeep for simha<br>sh when creating similarity filters * ch<br>anged default allowed statuses to 'All S<br>tatus Codes', new 404 detection should f<br>ilter out what's unimportant and allow m<br>ore responses through (i.e. apis) * resu<br>me scan starts from offset in wordlist w<br>hen a directory scan was partially compl<br>ete * docs: add aidanhall34 as a contrib<br>utor for code, and infra by @allcontribu<br>tors in https://github.com/epi052/feroxb<br>uster/pull/764 * docs: add hakdogpinas a<br>s a contributor for ideas by @allcontrib<br>utors in https://github.com/epi052/ferox<br>buster/pull/752 * docs: add duokebei as <br>a contributor for ideas by @allcontribut<br>ors in https://github.com/epi052/feroxbu<br>ster/pull/753 * docs: add joaociocca as <br>a contributor for bug, and ideas by @all<br>contributors in https://github.com/epi05<br>2/feroxbuster/pull/790 * docs: add f3rn0<br>s as a contributor for bug by @allcontri<br>butors in https://github.com/epi052/fero<br>xbuster/pull/793 * docs: add pich4ya as <br>a contributor for ideas by @allcontribut<br>ors in https://github.com/epi052/feroxbu<br>ster/pull/799 * docs: add xaeroborg as a<br> contributor for ideas by @allcontributo<br>rs in https://github.com/epi052/feroxbus<br>ter/pull/800 * docs: add Luoooio as a co<br>ntributor for ideas by @allcontributors <br>in https://github.com/epi052/feroxbuster<br>/pull/801## New Contributors * @aidanhal<br>l34 made their first contribution in htt<br>ps://github.com/epi052/feroxbuster/pull/<br>762**Full Changelog**: https://github.co<br>m/epi052/feroxbuster/compare/v2.7.3...v2<br>.8.0|
-|2023-02-28 20:45:42|[faker](https://github.com/joke2k/faker)|v17.4.0|See [CHANGELOG.md](https://github.com/j<br>oke2k/faker/blob/refs/tags/v17.4.0/CHANG<br>ELOG.md).|
-|2023-02-27 04:13:59|[Elkeid](https://github.com/bytedance/Elkeid)|scanner-v<br>2.2.0.0_20<br>230227||
 |2023-02-26 13:06:58|[go_proxy_pool](https://github.com/pingc0y/go_proxy_pool)|2022.11.2<br>2|2022.11.22|
 |2023-02-26 07:27:26|[mitaka](https://github.com/ninoseki/mitaka)|v1.0.0|- Migrate to the Manifest V3 (#703) - R<br>eplace Mocha, Chai and Sinon with Jest (<br>#703) |
 |2023-02-26 00:35:49|[qsnctf-python](https://github.com/Moxin1044/qsnctf-python)|0.0.8.9|更新了之前版本不存在的Web请求timeout导<br>致扫描时间过长，在0.0.8.9版本已修复此问题<br>。 您甚至可以指定timeout，感谢问题反馈！|
 |2023-02-25 20:54:24|[naabu](https://github.com/projectdiscovery/naabu)|v2.1.2|## What's Changed* Added UDP based PORT<br> scan by @Mzack9999 in https://github.co<br>m/projectdiscovery/naabu/pull/460 * Adde<br>d proxy support to connect scan by @Mzac<br>k9999 in https://github.com/projectdisco<br>very/naabu/pull/529 * Added support for <br>optional reverse ptr by @Mzack9999 in ht<br>tps://github.com/projectdiscovery/naabu/<br>pull/530 * Added documentation to use na<br>abu as library by @ShubhamRasal in https<br>://github.com/projectdiscovery/naabu/pul<br>l/469 * Fixed stats on exit by @Mzack999<br>9 in https://github.com/projectdiscovery<br>/naabu/pull/538 * Fixed failing race con<br>dition test by @xm1k3 in https://github.<br>com/projectdiscovery/naabu/pull/485 * Fi<br>xed issue with nmap flag input by @xm1k3<br> in https://github.com/projectdiscovery/<br>naabu/pull/487 * Fixed wrong boolean che<br>ck on verify option by @MiracleLau in ht<br>tps://github.com/projectdiscovery/naabu/<br>pull/519 * Updated freeport with pd fork<br> #471 by @foxcores in https://github.com<br>/projectdiscovery/naabu/pull/478 * Updat<br>ed helpers libraries by @edoardottt in h<br>ttps://github.com/projectdiscovery/naabu<br>/pull/466 * Improved duplicate debug mes<br>sages on scanned ips by @Mzack9999 in ht<br>tps://github.com/projectdiscovery/naabu/<br>pull/522 * Removed unused MapKeysToSlice<br>Int by @xm1k3 in https://github.com/proj<br>ectdiscovery/naabu/pull/534Issues closed<br> in release - https://github.com/project<br>discovery/naabu/milestone/5?closed=1## N<br>ew Contributors * @edoardottt made their<br> first contribution in https://github.co<br>m/projectdiscovery/naabu/pull/466 * @fox<br>cores made their first contribution in h<br>ttps://github.com/projectdiscovery/naabu<br>/pull/478 * @xm1k3 made their first cont<br>ribution in https://github.com/projectdi<br>scovery/naabu/pull/485 * @MiracleLau mad<br>e their first contribution in https://gi<br>thub.com/projectdiscovery/naabu/pull/519<br>**Full Changelog**: https://github.com/p<br>rojectdiscovery/naabu/compare/v2.1.1...v<br>2.1.2|
-|2023-02-25 16:53:39|[Antenna](https://github.com/wuba/Antenna)|v1.3.1|1.Readme 新增DNS Rebinding功能演示文档<br>，支持并优化了DNS 缓存的逻辑 2.优化了平台<br>消息处理模块的逻辑，减少了数据库的请求数<br>量 3.修复了平台配置的一些bug |
 |2023-02-24 04:12:38|[veinmind-tools](https://github.com/chaitin/veinmind-tools)|v2.0.5|## Fix - 修改插件发现目录|
 |2023-02-22 15:21:08|[subfinder](https://github.com/projectdiscovery/subfinder)|v2.5.6|## What's Changed### New Features* Adde<br>d **digitorus** support as new source by<br> @vzamanillo in https://github.com/proje<br>ctdiscovery/subfinder/pull/696### Bug Fi<br>xes* Fixed outdated deps by @RamanaReddy<br>0M in https://github.com/projectdiscover<br>y/subfinder/pull/762 * Fixed failing cas<br>es by @ShubhamRasal in https://github.co<br>m/projectdiscovery/subfinder/pull/720###<br> Improvements* Improved **crtsh** SQL qu<br>ery by @vzamanillo in https://github.com<br>/projectdiscovery/subfinder/pull/700 * I<br>mproved scan statistics by @owenrumney i<br>n https://github.com/projectdiscovery/su<br>bfinder/pull/727 * Improved ctx param in<br> agent enumerate method by @EndPositive <br>in https://github.com/projectdiscovery/s<br>ubfinder/pull/756Issues closed in releas<br>e - https://github.com/projectdiscovery/<br>subfinder/milestone/5?closed=1## New Con<br>tributors * @owenrumney made their first<br> contribution in https://github.com/proj<br>ectdiscovery/subfinder/pull/727 * @Raman<br>aReddy0M made their first contribution i<br>n https://github.com/projectdiscovery/su<br>bfinder/pull/762 * @EndPositive made the<br>ir first contribution in https://github.<br>com/projectdiscovery/subfinder/pull/756*<br>*Full Changelog**: https://github.com/pr<br>ojectdiscovery/subfinder/compare/v2.5.5.<br>..v2.5.6|
 |2023-02-22 13:35:31|[autoDecoder](https://github.com/f0ng/autoDecoder)|0.23|## 2023.2.22 更新0.23 1. 优化了插件的一<br>些问题 2. 案例移步[autoDecoder-usages](ht<br>tps://github.com/f0ng/autoDecoder-usages<br>)|
@@ -36,25 +36,26 @@
 |2023-02-04 14:54:34|[afrog](https://github.com/zan8in/afrog)|v2.2.1|Merge many fingerprint pocs into the pa<br>nel-detect.yaml file to reduce the numbe<br>r of http requests Consoleprint date for<br>mat, 2023-01-01 changed to 01-01 Simplif<br>ied afrog-config configurationFixed: inv<br>alid -fc configuration Tip: Configure th<br>e -c command, which can increase the con<br>currency speed very quickly-------------<br>----------------------------------------<br>------------------------将多个 panel 指<br>纹探测合并到文件 panel-detect.yaml，大幅<br>减少 http 请求 精简控制台日期打印，2023-0<br>1-01 改为 01-01 精简 afrog-config 配置信<br>息解决：-fc 命令配置无效问题 提示：配置 -<br>c 命令能明显提高扫描速度|
 |2023-02-04 12:24:47|[cola_dnslog](https://github.com/AbelChe/cola_dnslog)|v1.3.2|## What's Changed * cola dnslog v1.1.0 <br>by @AbelChe in https://github.com/AbelCh<br>e/cola_dnslog/pull/1 * 1.2.0 by @AbelChe<br> in https://github.com/AbelChe/cola_dnsl<br>og/pull/2 * 1.2.0 by @AbelChe in https:/<br>/github.com/AbelChe/cola_dnslog/pull/4 *<br> cola dnslog v1.2.1 by @AbelChe in https<br>://github.com/AbelChe/cola_dnslog/pull/5<br> * cola dnslog v1.2.2 by @AbelChe in htt<br>ps://github.com/AbelChe/cola_dnslog/pull<br>/6 * cola dnslog v1.2.3 by @AbelChe in h<br>ttps://github.com/AbelChe/cola_dnslog/pu<br>ll/8 * cola dnslog v1.3.0 by @AbelChe in<br> https://github.com/AbelChe/cola_dnslog/<br>pull/9 * cola dnslog v1.3.1 by @AbelChe <br>in https://github.com/AbelChe/cola_dnslo<br>g/pull/10 * cola dnslog v1.3.1 by @AbelC<br>he in https://github.com/AbelChe/cola_dn<br>slog/pull/11 * update readme by @AbelChe<br> in https://github.com/AbelChe/cola_dnsl<br>og/pull/12 * 1.3.1 by @AbelChe in https:<br>//github.com/AbelChe/cola_dnslog/pull/13<br> * change by @AbelChe in https://github.<br>com/AbelChe/cola_dnslog/pull/17 * v1.3.2<br> fix bugs & add new functions by @AbelCh<br>e in https://github.com/AbelChe/cola_dns<br>log/pull/24 * 1.3.2 by @AbelChe in https<br>://github.com/AbelChe/cola_dnslog/pull/2<br>5## New Contributors * @AbelChe made the<br>ir first contribution in https://github.<br>com/AbelChe/cola_dnslog/pull/1**Full Cha<br>ngelog**: https://github.com/AbelChe/col<br>a_dnslog/commits/v1.3.2### ### ### |
 |2023-02-03 10:17:50|[passive-scan-client](https://github.com/c0ny1/passive-scan-client)|0.3.1|1. 添加url黑明单 2. 添加右键Send to Pas<br>sive Scan Client手动转发thx @i11us0ry |
-|2023-01-30 08:25:35|[railgun](https://github.com/lz520520/railgun)|v1.5.2|解压密码railgun1. 增加gRPC模式，扩展ser<br>ver端a. 实现了dnslog，通过客户端可直接管<br>理server，并做了一些优化。b. 实现了UDP/TC<br>P的socket反连，通过不同伪装头部来过滤。c<br>. 实现了ICMP反连，通过发送特定长度的ping<br>包来过滤。d. 实现HTTP/HTTPS serverⅰ. HTT<br>P LOG1. 增加http 完整请求包记录ⅱ. 任意<br>内容和大文件下载ⅲ. 扩展服务配置参数，并<br>添加已启动服务信息单独查看窗口。e. gRPC完<br>成tls双向认证f. 增加鉴权，目前只设置管理<br>员和普通用户。g. 历史搜索里，增加查询服务<br>端数据库，目前暂定管理员可查（迁移至gRPC<br>模块）。h. 增加单独gRPC模块，可用于gRPC的<br>设置、用户管理以及历史搜索。 2. 编码转换a<br>. 将https://github.com/lz520520/encrypt-<br>js 合入，通过Dict2ConsoleJS和ConsoleExtr<br>actEncryptPwd两种编码来实现|
 ## 近30天commit提交记录
 | 提交时间 | 项目名称 | 更新内容 |
 | :---- | :---- | :---- |
-|2023-03-01 01:15:03|[NucleiTP](https://github.com/ExpLangcn/NucleiTP)|更新啦❤️|
-|2023-02-28 22:01:20|[RsaCtfTool](https://github.com/RsaCtfTool/RsaCtfTool)|simplify pollard p-1 attack|
+|2023-03-02 01:00:03|[NucleiTP](https://github.com/ExpLangcn/NucleiTP)|更新啦❤️|
+|2023-03-01 21:32:41|[PocOrExp_in_Github](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-03-02 05:32:41|
+|2023-03-01 20:08:05|[faker](https://github.com/joke2k/faker)|Bump version: 17.4.0 → 17.5.0|
+|2023-03-01 19:56:56|[RsaCtfTool](https://github.com/RsaCtfTool/RsaCtfTool)|simplify pisano_period.py|
+|2023-03-01 17:48:28|[dbeaver](https://github.com/dbeaver/dbeaver)|CB-3162 add opensearch driver (#19194)* CB-3162 add op<br>ensearch driver* CB-3162 add opensearch driver license-<br>--------Co-authored-by: mr-anton-t |
+|2023-03-01 08:59:22|[veinmind-tools](https://github.com/chaitin/veinmind-tools)|fix(veinmind-escalate): cap check (#196)* fix(veinmind<br>-escalate):optimize CAPABILITY checkfix(veinmind-escala<br>te):delete useless part* fix(veinmind-escalate):fix rul<br>efix(veinmind-escalate):fix rule---------Co-authored-by<br>: GiveMeAShell |
+|2023-03-01 08:46:39|[Elkeid](https://github.com/bytedance/Elkeid)|Merge pull request #451 from Hackerl/mainoptimize pers<br>ist event for asyncio|
 |2023-02-28 21:55:12|[feroxbuster](https://github.com/epi052/feroxbuster)|Merge pull request #801 from epi052/all-contributors/a<br>dd-Luoooiodocs: add Luoooio as a contributor for ideas|
-|2023-02-28 21:32:45|[PocOrExp_in_Github](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-03-01 05:32:44|
-|2023-02-28 20:41:18|[faker](https://github.com/joke2k/faker)|Bump version: 17.3.0 → 17.4.0|
-|2023-02-28 19:36:56|[dbeaver](https://github.com/dbeaver/dbeaver)|#19191 fix Postgres Explain Plan execution parameters <br>saving (#19197)* #19191 fix Postgres Explain Plan execu<br>tion parameters saving* #19191 remove "summary" option <br>from explain plan; fix "timing"|
 |2023-02-28 14:17:14|[Antenna](https://github.com/wuba/Antenna)|fix delete taskconfigitem bug|
 |2023-02-28 14:00:08|[BurpSuite-collectio<br>ns](https://github.com/Mr-xn/BurpSuite-collections)|add npscrack：蓝队利器、溯源反制、NPS 漏洞利用、NPS ex<br>p、NPS poc、一键利用的BurpSuite插件最新版（202212之后）<br>激活项目|
 |2023-02-28 09:55:39|[Vulnerability-Wiki](https://github.com/Threekiii/Vulnerability-Wiki)|更新README.md|
 |2023-02-28 09:36:35|[Awesome-POC](https://github.com/Threekiii/Awesome-POC)|更新漏洞|
 |2023-02-28 09:34:30|[Vulhub-Reproduce](https://github.com/Threekiii/Vulhub-Reproduce)|更新漏洞|
+|2023-02-28 09:33:33|[domain_hunter_pro](https://github.com/bit4woo/domain_hunter_pro)|grep ports from masscan result|
 |2023-02-28 08:55:23|[0day](https://github.com/helloexp/0day)|optimize directory|
 |2023-02-28 08:49:28|[ysoserial](https://github.com/su18/ysoserial)|更新 ReadMe 中的图片链接错误|
 |2023-02-28 07:33:37|[RmTools](https://github.com/RoomaSec/RmTools)|11|
-|2023-02-28 07:01:07|[Elkeid](https://github.com/bytedance/Elkeid)|Merge pull request #454 from bytedance/rasp/fix/bpf_au<br>to|
 |2023-02-28 06:05:45|[Awesome-Exploit](https://github.com/Threekiii/Awesome-Exploit)|更新CVE-2023-21839 Exploit|
 |2023-02-28 00:18:27|[Platypus](https://github.com/WangYihang/Platypus)|build(deps): bump http-cache-semantics in /web/fronten<br>d (#180)Bumps [http-cache-semantics](https://github.com<br>/kornelski/http-cache-semantics) from 4.1.0 to 4.1.1.- <br>[Release notes](https://github.com/kornelski/http-cache<br>-semantics/releases)- [Commits](https://github.com/korn<br>elski/http-cache-semantics/compare/v4.1.0...v4.1.1)---u<br>pdated-dependencies:- dependency-name: http-cache-seman<br>ticsdependency-type: indirect...Signed-off-by: dependab<br>ot[bot]Co-authored-by: dependabot[bot] |
 |2023-02-27 03:04:57|[404StarLink](https://github.com/knownsec/404StarLink)|weekly update at 2023-02-27|
@@ -69,7 +70,6 @@
 |2023-02-24 08:33:14|[afrog](https://github.com/zan8in/afrog)|CVE-2017-5487|
 |2023-02-24 08:22:11|[naabu](https://github.com/projectdiscovery/naabu)|Merge pull request #571 from projectdiscovery/devnaabu<br> v2.1.2|
 |2023-02-24 06:58:54|[Intranet_Penetratio<br>n_Tips](https://github.com/Ridter/Intranet_Penetration_Tips)|增加Exchange利用|
-|2023-02-24 04:11:54|[veinmind-tools](https://github.com/chaitin/veinmind-tools)|fix(image): fix error plugin dir (#201)|
 |2023-02-23 09:31:05|[Library-POC](https://github.com/luck-ying/Library-POC)|Update README.md|
 |2023-02-23 07:55:06|[SmsForwarder](https://github.com/pppscn/SmsForwarder)|优化：一键换新机·导出/导入通用设置的机制
 优化：手动重<br>启app的方式|
@@ -118,9 +118,7 @@
 |2023-02-03 10:10:16|[passive-scan-client](https://github.com/c0ny1/passive-scan-client)|恢复默认端口和整理代码符合低版本语法糖|
 |2023-02-02 02:36:25|[JDumpSpider](https://github.com/whwlsfb/JDumpSpider)|add SpringSecurityUsernamePasswordAuthenticationToken <br>spider.|
 |2023-02-01 12:26:23|[RequestTemplate](https://github.com/1n7erface/RequestTemplate)|Update README.md|
-|2023-02-01 01:39:12|[CRC32-Tools](https://github.com/AabyssZG/CRC32-Tools)|Update README.md|
-|2023-01-30 13:17:30|[WMIHACKER](https://github.com/rootclay/WMIHACKER)|Update README_zh.md|
-|2023-01-30 08:54:59|[BugRepoter_0x727](https://github.com/0x727/BugRepoter_0x727)|V1.15 解决onlyoffice打开文档错误。|## 所有项目
+|2023-02-01 01:39:12|[CRC32-Tools](https://github.com/AabyssZG/CRC32-Tools)|Update README.md|## 所有项目
 ### 信息收集
 #### 资产测绘采集
 | 项目名称 | 版本 | 项目描述 |
@@ -283,7 +281,7 @@
 | [DNSlog-GO](https://github.com/lanyi1998/DNSlog-GO) | 1.5.2 | DNSLog-GO 是一款golang编写的监控 DNS 解析记录的工具，自带WEB界面 |
 | [godnslog](https://github.com/chennqqi/godnslog) | v0.7.0 | An exquisite dns&http log server for verify SSRF/XXE/RFI/RCE vul<br>nerability  |
 | [ysomap](https://github.com/wh1t3p1g/ysomap) | v0.1.3 | A helpful Java Deserialization exploit framework. |
-| [Antenna](https://github.com/wuba/Antenna) | v1.3.1 | Antenna是58同城安全团队打造的一款辅助安全从业人员验证网络中多种<br>漏洞是否存在以及可利用性的工具。其基于带外应用安全测试(OAST)通过任<br>务的形式，将不同漏洞场景检测能力通过插件的形式进行集合，通过与目标<br>进行out-bind的数据通信方式进行辅助检测。 |
+| [Antenna](https://github.com/wuba/Antenna) | v1.3.2 | Antenna是58同城安全团队打造的一款辅助安全从业人员验证网络中多种<br>漏洞是否存在以及可利用性的工具。其基于带外应用安全测试(OAST)通过任<br>务的形式，将不同漏洞场景检测能力通过插件的形式进行集合，通过与目标<br>进行out-bind的数据通信方式进行辅助检测。 |
 | [cola_dnslog](https://github.com/AbelChe/cola_dnslog) | v1.3.2 | Cola Dnslog v1.3.2 更加强大的dnslog平台/无回显漏洞探测辅助平台 <br>完全开源 dnslog httplog ldaplog rmilog 支持dns http ldap rmi等协议<br> 提供API调用方式便于与其他工具结合 支持钉钉机器人、Bark等提醒 支<br>持docker一键部署 后端完全使用python实现 前端基于vue-element-admin<br>二开 |
 | [ddddocr](https://github.com/sml2h3/ddddocr) |  | 带带弟弟 通用验证码识别OCR pypi版 |
 | [ysoserial](https://github.com/su18/ysoserial) | v1.3 | ysoserial for su18 |
@@ -652,7 +650,7 @@
 #### 其他
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
-| [faker](https://github.com/joke2k/faker) | v17.4.0 | Faker is a Python package that generates fake data for you. |
+| [faker](https://github.com/joke2k/faker) | v17.5.0 | Faker is a Python package that generates fake data for you. |
 | [SmsForwarder](https://github.com/pppscn/SmsForwarder) | v3.2.0 | 短信转发器——监控Android手机短信、来电、APP通知，并根据指定规则<br>转发到其他手机：钉钉群自定义机器人、钉钉企业内机器人、企业微信群机<br>器人、飞书机器人、企业微信应用消息、邮箱、bark、webhook、Telegram<br>机器人、Server酱、PushPlus、手机短信等。包括主动控制服务端与客户端<br>，让你轻松远程发短信、查短信、查通话、查话簿、查电量等。（V3.0 新<br>增）PS.这个APK主要是学习与自用，如有BUG请提ISSUE，同时欢迎大家提PR<br>指正 |
 | [dbeaver](https://github.com/dbeaver/dbeaver) | 22.3.5 | Free universal database tool and SQL client |
 | [MySQLMonitor](https://github.com/TheKingOfDuck/MySQLMonitor) | 1.0 | MySQL实时监控工具(代码审计/黑盒/白盒审计辅助工具) |
@@ -669,7 +667,7 @@
 #### 主机入侵检测
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
-| [Elkeid](https://github.com/bytedance/Elkeid) | scanner-v<br>2.2.0.0_20<br>230227 | Elkeid is an open source solution that can meet the security req<br>uirements of various workloads such as hosts, containers and K8s,<br> and serverless. It is derived from ByteDance's internal best pra<br>ctices. |
+| [Elkeid](https://github.com/bytedance/Elkeid) | rasp-v2.1<br>.0.10-pre | Elkeid is an open source solution that can meet the security req<br>uirements of various workloads such as hosts, containers and K8s,<br> and serverless. It is derived from ByteDance's internal best pra<br>ctices. |
 | [Hades](https://github.com/theSecHunter/Hades) |  | Hades is an cross-platform HIDS with kernel-space data collectio<br>n. |
 #### Web应用防火墙
 | 项目名称 | 版本 | 项目描述 |
