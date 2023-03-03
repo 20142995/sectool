@@ -1,4 +1,4 @@
-# 更新于 2023-03-02 09:14:48
+# 更新于 2023-03-03 11:00:44
 
 ## 近30天release更新记录
 | 更新时间 | 项目名称 | 版本 | 更新内容 |
@@ -39,13 +39,16 @@
 ## 近30天commit提交记录
 | 提交时间 | 项目名称 | 更新内容 |
 | :---- | :---- | :---- |
-|2023-03-02 01:00:03|[NucleiTP](https://github.com/ExpLangcn/NucleiTP)|更新啦❤️|
-|2023-03-01 21:32:41|[PocOrExp_in_Github](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-03-02 05:32:41|
-|2023-03-01 20:08:05|[faker](https://github.com/joke2k/faker)|Bump version: 17.4.0 → 17.5.0|
-|2023-03-01 19:56:56|[RsaCtfTool](https://github.com/RsaCtfTool/RsaCtfTool)|simplify pisano_period.py|
+|2023-03-03 02:45:19|[NucleiTP](https://github.com/ExpLangcn/NucleiTP)|更新啦❤️|
+|2023-03-02 22:34:15|[PocOrExp_in_Github](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-03-03 06:34:15|
+|2023-03-02 21:37:32|[RsaCtfTool](https://github.com/RsaCtfTool/RsaCtfTool)|Fix issue #411|
+|2023-03-02 17:24:57|[rengine](https://github.com/yogeshojha/rengine)|Merge pull request #829 from yogeshojha/release/1.3.6R<br>elease/1.3.6|
+|2023-03-02 15:53:25|[faker](https://github.com/joke2k/faker)|:pencil: fix missing entyr in changelogClose #1814|
+|2023-03-02 13:16:44|[subfinder](https://github.com/projectdiscovery/subfinder)|Merge pull request #776 from projectdiscovery/readme-u<br>pdateUpdate installation requirement to go1.19|
+|2023-03-02 12:39:37|[afrog](https://github.com/zan8in/afrog)|aspcms-backend-leak change low level|
+|2023-03-02 09:03:05|[Elkeid](https://github.com/bytedance/Elkeid)|opt: ko CI update ubuntu16 &20aws|
 |2023-03-01 17:48:28|[dbeaver](https://github.com/dbeaver/dbeaver)|CB-3162 add opensearch driver (#19194)* CB-3162 add op<br>ensearch driver* CB-3162 add opensearch driver license-<br>--------Co-authored-by: mr-anton-t |
 |2023-03-01 08:59:22|[veinmind-tools](https://github.com/chaitin/veinmind-tools)|fix(veinmind-escalate): cap check (#196)* fix(veinmind<br>-escalate):optimize CAPABILITY checkfix(veinmind-escala<br>te):delete useless part* fix(veinmind-escalate):fix rul<br>efix(veinmind-escalate):fix rule---------Co-authored-by<br>: GiveMeAShell |
-|2023-03-01 08:46:39|[Elkeid](https://github.com/bytedance/Elkeid)|Merge pull request #451 from Hackerl/mainoptimize pers<br>ist event for asyncio|
 |2023-02-28 21:55:12|[feroxbuster](https://github.com/epi052/feroxbuster)|Merge pull request #801 from epi052/all-contributors/a<br>dd-Luoooiodocs: add Luoooio as a contributor for ideas|
 |2023-02-28 14:17:14|[Antenna](https://github.com/wuba/Antenna)|fix delete taskconfigitem bug|
 |2023-02-28 14:00:08|[BurpSuite-collectio<br>ns](https://github.com/Mr-xn/BurpSuite-collections)|add npscrack：蓝队利器、溯源反制、NPS 漏洞利用、NPS ex<br>p、NPS poc、一键利用的BurpSuite插件最新版（202212之后）<br>激活项目|
@@ -64,10 +67,8 @@
 |2023-02-26 07:24:32|[mitaka](https://github.com/ninoseki/mitaka)|Merge pull request #708 from ninoseki/change-packagech<br>ore: use plasmo build--zip for packaging [skip ci]|
 |2023-02-26 00:31:50|[qsnctf-python](https://github.com/Moxin1044/qsnctf-python)|更新版本到0.0.8.9|
 |2023-02-25 08:15:59|[geacon_pro](https://github.com/H4de5-7/geacon_pro)|Update README_zh.md|
-|2023-02-24 22:02:13|[subfinder](https://github.com/projectdiscovery/subfinder)|Merge pull request #771 from olearycrew/brendan-fix-do<br>cker-build|
 |2023-02-24 13:25:09|[ysomap](https://github.com/wh1t3p1g/ysomap)|update|
 |2023-02-24 08:50:16|[nemo_go](https://github.com/hanc00l/nemo_go)|Fix: nmap portscan for multi targets|
-|2023-02-24 08:33:14|[afrog](https://github.com/zan8in/afrog)|CVE-2017-5487|
 |2023-02-24 08:22:11|[naabu](https://github.com/projectdiscovery/naabu)|Merge pull request #571 from projectdiscovery/devnaabu<br> v2.1.2|
 |2023-02-24 06:58:54|[Intranet_Penetratio<br>n_Tips](https://github.com/Ridter/Intranet_Penetration_Tips)|增加Exchange利用|
 |2023-02-23 09:31:05|[Library-POC](https://github.com/luck-ying/Library-POC)|Update README.md|
@@ -117,8 +118,7 @@
 |2023-02-05 15:19:54|[Viper](https://github.com/FunnyWolf/Viper)|update version v1.5.26|
 |2023-02-03 10:10:16|[passive-scan-client](https://github.com/c0ny1/passive-scan-client)|恢复默认端口和整理代码符合低版本语法糖|
 |2023-02-02 02:36:25|[JDumpSpider](https://github.com/whwlsfb/JDumpSpider)|add SpringSecurityUsernamePasswordAuthenticationToken <br>spider.|
-|2023-02-01 12:26:23|[RequestTemplate](https://github.com/1n7erface/RequestTemplate)|Update README.md|
-|2023-02-01 01:39:12|[CRC32-Tools](https://github.com/AabyssZG/CRC32-Tools)|Update README.md|## 所有项目
+|2023-02-01 12:26:23|[RequestTemplate](https://github.com/1n7erface/RequestTemplate)|Update README.md|## 所有项目
 ### 信息收集
 #### 资产测绘采集
 | 项目名称 | 版本 | 项目描述 |

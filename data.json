@@ -24,8 +24,8 @@
             "https://github.com/projectdiscovery/subfinder": {
                 "created_at": "2018-03-31 09:44:57",
                 "description": "Subfinder is a subdomain discovery tool that discovers valid subdomains for websites. Designed as a passive framework to be useful for bug bounties and safe for penetration testing.",
-                "commit_date": "2023-02-24 22:02:13",
-                "commit_message": "Merge pull request #771 from olearycrew/brendan-fix-docker-build",
+                "commit_date": "2023-03-02 13:16:44",
+                "commit_message": "Merge pull request #776 from projectdiscovery/readme-update\n\nUpdate installation requirement to go1.19",
                 "release_tag": "v2.5.6",
                 "release_date": "2023-02-22 15:21:08",
                 "release_message": "## What's Changed  ### New Features  * Added **digitorus** support as new source by @vzamanillo in https://github.com/projectdiscovery/subfinder/pull/696  ### Bug Fixes  * Fixed outdated deps by @RamanaReddy0M in https://github.com/projectdiscovery/subfinder/pull/762 * Fixed failing cases by @ShubhamRasal in https://github.com/projectdiscovery/subfinder/pull/720  ### Improvements  * Improved **crtsh** SQL query by @vzamanillo in https://github.com/projectdiscovery/subfinder/pull/700 * Improved scan statistics by @owenrumney in https://github.com/projectdiscovery/subfinder/pull/727 * Improved `ctx` param in agent enumerate method by @EndPositive in https://github.com/projectdiscovery/subfinder/pull/756  Issues closed in release - https://github.com/projectdiscovery/subfinder/milestone/5?closed=1  ## New Contributors * @owenrumney made their first contribution in https://github.com/projectdiscovery/subfinder/pull/727 * @RamanaReddy0M made their first contribution in https://github.com/projectdiscovery/subfinder/pull/762 * @EndPositive made their first contribution in https://github.com/projectdiscovery/subfinder/pull/756  **Full Changelog**: https://github.com/projectdiscovery/subfinder/compare/v2.5.5...v2.5.6"
@@ -313,8 +313,8 @@
             "https://github.com/yogeshojha/rengine": {
                 "created_at": "2020-05-03 12:13:12",
                 "description": "reNgine is an automated reconnaissance framework for web applications with a focus on highly configurable streamlined recon process via Engines, recon data correlation and organization, continuous monitoring, backed by a database, and simple yet intuitive User Interface. reNgine makes it easy for penetration testers to gather reconnaissance with minimal configuration and with the help of reNgine's correlation, it just makes recon effortless.",
-                "commit_date": "2022-12-30 04:23:35",
-                "commit_message": "Merge pull request #772 from yogeshojha/release/1.3.5\n\nRelease/1.3.5",
+                "commit_date": "2023-03-02 17:24:57",
+                "commit_message": "Merge pull request #829 from yogeshojha/release/1.3.6\n\nRelease/1.3.6",
                 "release_tag": "v1.3.5",
                 "release_date": "2022-12-30 04:26:19",
                 "release_message": "- Fixed various installation issues - Fixed #769, #768, #766, #761, Thanks to, @bin-maker, @carsonchan12345, @paweloque, @opabravo "
@@ -564,8 +564,8 @@
             "https://github.com/zan8in/afrog": {
                 "created_at": "2022-02-24 06:00:32",
                 "description": "A Vulnerability Scanning Tools For Penetration Testing",
-                "commit_date": "2023-02-24 08:33:14",
-                "commit_message": "CVE-2017-5487",
+                "commit_date": "2023-03-02 12:39:37",
+                "commit_message": "aspcms-backend-leak change low level",
                 "release_tag": "v2.2.1",
                 "release_date": "2023-02-04 14:54:34",
                 "release_message": "Merge many fingerprint pocs into the panel-detect.yaml file to reduce the number of http requests Console  print date format, 2023-01-01 changed to 01-01 Simplified afrog-config configuration  Fixed: invalid `-fc` configuration Tip: Configure the `-c` command, which can increase the concurrency speed very quickly  -----------------------------------------------------------------------------  将多个 panel 指纹探测合并到文件 panel-detect.yaml，大幅减少 http 请求 精简控制台日期打印，2023-01-01 改为 01-01 精简 afrog-config 配置信息  解决：`-fc` 命令配置无效问题 提示：配置 `-c` 命令能明显提高扫描速度"
@@ -1500,8 +1500,8 @@
             "https://github.com/ycdxsb/PocOrExp_in_Github": {
                 "created_at": "2021-04-13 05:46:16",
                 "description": "聚合Github上已有的Poc或者Exp，CVE信息来自CVE官网。Auto Collect Poc Or Exp from Github by CVE ID.",
-                "commit_date": "2023-03-01 21:32:41",
-                "commit_message": "update 2023-03-02 05:32:41",
+                "commit_date": "2023-03-02 22:34:15",
+                "commit_message": "update 2023-03-03 06:34:15",
                 "release_tag": "",
                 "release_date": "",
                 "release_message": ""
@@ -2464,7 +2464,7 @@
             "https://github.com/ExpLangcn/NucleiTP": {
                 "created_at": "2022-11-08 13:16:56",
                 "description": "自动整合全网Nuclei的漏洞POC，实时同步更新最新POC！",
-                "commit_date": "2023-03-02 01:00:03",
+                "commit_date": "2023-03-03 02:45:19",
                 "commit_message": "更新啦❤️",
                 "release_tag": "",
                 "release_date": "",
@@ -2917,8 +2917,8 @@
             "https://github.com/RsaCtfTool/RsaCtfTool": {
                 "created_at": "2015-03-07 17:29:33",
                 "description": "RSA attack tool (mainly for ctf) - retreive private key from weak public key and/or uncipher data",
-                "commit_date": "2023-03-01 19:56:56",
-                "commit_message": "simplify pisano_period.py",
+                "commit_date": "2023-03-02 21:37:32",
+                "commit_message": "Fix issue #411",
                 "release_tag": "",
                 "release_date": "",
                 "release_message": ""
@@ -2943,8 +2943,8 @@
             "https://github.com/joke2k/faker": {
                 "created_at": "2012-11-12 23:00:09",
                 "description": "Faker is a Python package that generates fake data for you.",
-                "commit_date": "2023-03-01 20:08:05",
-                "commit_message": "Bump version: 17.4.0 → 17.5.0",
+                "commit_date": "2023-03-02 15:53:25",
+                "commit_message": ":pencil: fix missing entyr in changelog\n\nClose #1814",
                 "release_tag": "v17.5.0",
                 "release_date": "2023-03-01 20:11:44",
                 "release_message": "See [CHANGELOG.md](https://github.com/joke2k/faker/blob/refs/tags/v17.5.0/CHANGELOG.md)."
@@ -3014,8 +3014,8 @@
             "https://github.com/bytedance/Elkeid": {
                 "created_at": "2020-12-18 03:15:54",
                 "description": "Elkeid is an open source solution that can meet the security requirements of various workloads such as hosts, containers and K8s, and serverless. It is derived from ByteDance's internal best practices.",
-                "commit_date": "2023-03-01 08:46:39",
-                "commit_message": "Merge pull request #451 from Hackerl/main\n\noptimize persist event for asyncio",
+                "commit_date": "2023-03-02 09:03:05",
+                "commit_message": "opt: ko CI update ubuntu16 &  20aws",
                 "release_tag": "rasp-v2.1.0.10-pre",
                 "release_date": "2023-03-01 09:00:39",
                 "release_message": ""
