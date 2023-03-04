@@ -1,9 +1,9 @@
-# 更新于 2023-03-03 11:00:44
+# 更新于 2023-03-04 09:08:43
 
 ## 近30天release更新记录
 | 更新时间 | 项目名称 | 版本 | 更新内容 |
 | :---- | :---- | :---- | :---- |
-|2023-03-01 20:11:44|[faker](https://github.com/joke2k/faker)|v17.5.0|See [CHANGELOG.md](https://github.com/j<br>oke2k/faker/blob/refs/tags/v17.5.0/CHANG<br>ELOG.md).|
+|2023-03-03 16:59:23|[faker](https://github.com/joke2k/faker)|v17.6.0|See [CHANGELOG.md](https://github.com/j<br>oke2k/faker/blob/refs/tags/v17.6.0/CHANG<br>ELOG.md).|
 |2023-03-01 09:00:39|[Elkeid](https://github.com/bytedance/Elkeid)|rasp-v2.1<br>.0.10-pre||
 |2023-03-01 06:20:26|[Antenna](https://github.com/wuba/Antenna)|v1.3.2|1、优化了任务模块功能逻辑 2、修复python<br>3.6版本不支持socket解析ip的bug|
 |2023-02-28 21:59:33|[feroxbuster](https://github.com/epi052/feroxbuster)|v2.8.0|## What's Changed * Fixes #761 | Update<br>d Dockerfile and CONTRIBUTING docs by @a<br>idanhall34 in https://github.com/epi052/<br>feroxbuster/pull/762 * fixed bug in extr<br>actor that wasn't correctly comparing ex<br>tracted domains * fixed bug in Makefile <br>* fixed auto-bail icon; wasn't displayin<br>g properly on some terminals * added vis<br>ual cues for auto-tune's rate adjustment<br>s * added visual cue when auto-bail is t<br>riggered * when Content-Length header is<br> missing or 0, now check the body length<br> as well in case that differs * fixed is<br>sue where auto-tune wasn't adjusting upw<br>ard as often as it should have been * ad<br>ded new methods for auto-detecting 404-l<br>ike responses * swapped ssdeep for simha<br>sh when creating similarity filters * ch<br>anged default allowed statuses to 'All S<br>tatus Codes', new 404 detection should f<br>ilter out what's unimportant and allow m<br>ore responses through (i.e. apis) * resu<br>me scan starts from offset in wordlist w<br>hen a directory scan was partially compl<br>ete * docs: add aidanhall34 as a contrib<br>utor for code, and infra by @allcontribu<br>tors in https://github.com/epi052/feroxb<br>uster/pull/764 * docs: add hakdogpinas a<br>s a contributor for ideas by @allcontrib<br>utors in https://github.com/epi052/ferox<br>buster/pull/752 * docs: add duokebei as <br>a contributor for ideas by @allcontribut<br>ors in https://github.com/epi052/feroxbu<br>ster/pull/753 * docs: add joaociocca as <br>a contributor for bug, and ideas by @all<br>contributors in https://github.com/epi05<br>2/feroxbuster/pull/790 * docs: add f3rn0<br>s as a contributor for bug by @allcontri<br>butors in https://github.com/epi052/fero<br>xbuster/pull/793 * docs: add pich4ya as <br>a contributor for ideas by @allcontribut<br>ors in https://github.com/epi052/feroxbu<br>ster/pull/799 * docs: add xaeroborg as a<br> contributor for ideas by @allcontributo<br>rs in https://github.com/epi052/feroxbus<br>ter/pull/800 * docs: add Luoooio as a co<br>ntributor for ideas by @allcontributors <br>in https://github.com/epi052/feroxbuster<br>/pull/801## New Contributors * @aidanhal<br>l34 made their first contribution in htt<br>ps://github.com/epi052/feroxbuster/pull/<br>762**Full Changelog**: https://github.co<br>m/epi052/feroxbuster/compare/v2.7.3...v2<br>.8.0|
@@ -39,25 +39,26 @@
 ## 近30天commit提交记录
 | 提交时间 | 项目名称 | 更新内容 |
 | :---- | :---- | :---- |
-|2023-03-03 02:45:19|[NucleiTP](https://github.com/ExpLangcn/NucleiTP)|更新啦❤️|
-|2023-03-02 22:34:15|[PocOrExp_in_Github](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-03-03 06:34:15|
-|2023-03-02 21:37:32|[RsaCtfTool](https://github.com/RsaCtfTool/RsaCtfTool)|Fix issue #411|
+|2023-03-04 01:00:21|[NucleiTP](https://github.com/ExpLangcn/NucleiTP)|更新啦❤️|
+|2023-03-03 22:35:11|[PocOrExp_in_Github](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-03-04 06:35:11|
+|2023-03-03 17:32:05|[RsaCtfTool](https://github.com/RsaCtfTool/RsaCtfTool)|Warning instead of info if gmpy/gmpy2 is not present.|
+|2023-03-03 16:58:46|[faker](https://github.com/joke2k/faker)|Bump version: 17.5.0 → 17.6.0|
+|2023-03-03 15:11:19|[dbeaver](https://github.com/dbeaver/dbeaver)|AIO settings save/load fix|
+|2023-03-03 13:49:27|[ysoserial](https://github.com/su18/ysoserial)|更新命令执行混淆支持 windows jdk 1.6|
+|2023-03-03 09:32:01|[Antenna](https://github.com/wuba/Antenna)|测试官方镜像2|
+|2023-03-03 08:58:49|[afrog](https://github.com/zan8in/afrog)|update poc|
+|2023-03-03 07:46:52|[gshark](https://github.com/madneal/gshark)|Merge pull request #146 from madneal/dependabot/npm_an<br>d_yarn/web/dns-packet-5.4.0Bump dns-packet from 5.3.1 t<br>o 5.4.0 in /web|
 |2023-03-02 17:24:57|[rengine](https://github.com/yogeshojha/rengine)|Merge pull request #829 from yogeshojha/release/1.3.6R<br>elease/1.3.6|
-|2023-03-02 15:53:25|[faker](https://github.com/joke2k/faker)|:pencil: fix missing entyr in changelogClose #1814|
 |2023-03-02 13:16:44|[subfinder](https://github.com/projectdiscovery/subfinder)|Merge pull request #776 from projectdiscovery/readme-u<br>pdateUpdate installation requirement to go1.19|
-|2023-03-02 12:39:37|[afrog](https://github.com/zan8in/afrog)|aspcms-backend-leak change low level|
 |2023-03-02 09:03:05|[Elkeid](https://github.com/bytedance/Elkeid)|opt: ko CI update ubuntu16 &20aws|
-|2023-03-01 17:48:28|[dbeaver](https://github.com/dbeaver/dbeaver)|CB-3162 add opensearch driver (#19194)* CB-3162 add op<br>ensearch driver* CB-3162 add opensearch driver license-<br>--------Co-authored-by: mr-anton-t |
 |2023-03-01 08:59:22|[veinmind-tools](https://github.com/chaitin/veinmind-tools)|fix(veinmind-escalate): cap check (#196)* fix(veinmind<br>-escalate):optimize CAPABILITY checkfix(veinmind-escala<br>te):delete useless part* fix(veinmind-escalate):fix rul<br>efix(veinmind-escalate):fix rule---------Co-authored-by<br>: GiveMeAShell |
 |2023-02-28 21:55:12|[feroxbuster](https://github.com/epi052/feroxbuster)|Merge pull request #801 from epi052/all-contributors/a<br>dd-Luoooiodocs: add Luoooio as a contributor for ideas|
-|2023-02-28 14:17:14|[Antenna](https://github.com/wuba/Antenna)|fix delete taskconfigitem bug|
 |2023-02-28 14:00:08|[BurpSuite-collectio<br>ns](https://github.com/Mr-xn/BurpSuite-collections)|add npscrack：蓝队利器、溯源反制、NPS 漏洞利用、NPS ex<br>p、NPS poc、一键利用的BurpSuite插件最新版（202212之后）<br>激活项目|
 |2023-02-28 09:55:39|[Vulnerability-Wiki](https://github.com/Threekiii/Vulnerability-Wiki)|更新README.md|
 |2023-02-28 09:36:35|[Awesome-POC](https://github.com/Threekiii/Awesome-POC)|更新漏洞|
 |2023-02-28 09:34:30|[Vulhub-Reproduce](https://github.com/Threekiii/Vulhub-Reproduce)|更新漏洞|
 |2023-02-28 09:33:33|[domain_hunter_pro](https://github.com/bit4woo/domain_hunter_pro)|grep ports from masscan result|
 |2023-02-28 08:55:23|[0day](https://github.com/helloexp/0day)|optimize directory|
-|2023-02-28 08:49:28|[ysoserial](https://github.com/su18/ysoserial)|更新 ReadMe 中的图片链接错误|
 |2023-02-28 07:33:37|[RmTools](https://github.com/RoomaSec/RmTools)|11|
 |2023-02-28 06:05:45|[Awesome-Exploit](https://github.com/Threekiii/Awesome-Exploit)|更新CVE-2023-21839 Exploit|
 |2023-02-28 00:18:27|[Platypus](https://github.com/WangYihang/Platypus)|build(deps): bump http-cache-semantics in /web/fronten<br>d (#180)Bumps [http-cache-semantics](https://github.com<br>/kornelski/http-cache-semantics) from 4.1.0 to 4.1.1.- <br>[Release notes](https://github.com/kornelski/http-cache<br>-semantics/releases)- [Commits](https://github.com/korn<br>elski/http-cache-semantics/compare/v4.1.0...v4.1.1)---u<br>pdated-dependencies:- dependency-name: http-cache-seman<br>ticsdependency-type: indirect...Signed-off-by: dependab<br>ot[bot]Co-authored-by: dependabot[bot] |
@@ -91,7 +92,6 @@
 |2023-02-17 03:37:31|[poc-hub](https://github.com/ybdt/poc-hub)|整理|
 |2023-02-16 18:40:27|[NessusToReport](https://github.com/Hypdncy/NessusToReport)|nessus_only_ips字段默认空|
 |2023-02-16 10:28:59|[murphysec](https://github.com/murphysecurity/murphysec)|chore(deps): bump github.com/wk8/go-ordered-map/v2 fro<br>m 2.1.5 to 2.1.6 (#128)Bumps [github.com/wk8/go-ordered<br>-map/v2](https://github.com/wk8/go-ordered-map) from 2.<br>1.5 to 2.1.6.- [Release notes](https://github.com/wk8/g<br>o-ordered-map/releases)- [Changelog](https://github.com<br>/wk8/go-ordered-map/blob/master/CHANGELOG.md)- [Commits<br>](https://github.com/wk8/go-ordered-map/compare/v2.1.5.<br>..v2.1.6)---updated-dependencies:- dependency-name: git<br>hub.com/wk8/go-ordered-map/v2dependency-type: direct:pr<br>oductionupdate-type: version-update:semver-patch...Sign<br>ed-off-by: dependabot[bot]Co-authored-by: dependabot[bo<br>t] |
-|2023-02-16 01:36:10|[gshark](https://github.com/madneal/gshark)|remove comments|
 |2023-02-15 09:46:59|[kscan](https://github.com/lcvvvv/kscan)|[*]修复一个Redis协议爆破的bug，之前可能会存在误报|
 |2023-02-15 02:40:09|[SpringBoot-Scan-GUI](https://github.com/13exp/SpringBoot-Scan-GUI)|Delete targets.txt|
 |2023-02-14 09:38:24|[wpscan](https://github.com/wpscanteam/wpscan)|Merge pull request #1770 from wpscanteam/dependabot/gi<br>thub_actions/docker/build-push-action-4Bump docker/buil<br>d-push-action from 3 to 4|
@@ -117,8 +117,7 @@
 |2023-02-06 04:48:56|[cola_dnslog](https://github.com/AbelChe/cola_dnslog)|Merge pull request #26 from AbelChe/1.3.2fix webserver<br> 404|
 |2023-02-05 15:19:54|[Viper](https://github.com/FunnyWolf/Viper)|update version v1.5.26|
 |2023-02-03 10:10:16|[passive-scan-client](https://github.com/c0ny1/passive-scan-client)|恢复默认端口和整理代码符合低版本语法糖|
-|2023-02-02 02:36:25|[JDumpSpider](https://github.com/whwlsfb/JDumpSpider)|add SpringSecurityUsernamePasswordAuthenticationToken <br>spider.|
-|2023-02-01 12:26:23|[RequestTemplate](https://github.com/1n7erface/RequestTemplate)|Update README.md|## 所有项目
+|2023-02-02 02:36:25|[JDumpSpider](https://github.com/whwlsfb/JDumpSpider)|add SpringSecurityUsernamePasswordAuthenticationToken <br>spider.|## 所有项目
 ### 信息收集
 #### 资产测绘采集
 | 项目名称 | 版本 | 项目描述 |
@@ -650,7 +649,7 @@
 #### 其他
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
-| [faker](https://github.com/joke2k/faker) | v17.5.0 | Faker is a Python package that generates fake data for you. |
+| [faker](https://github.com/joke2k/faker) | v17.6.0 | Faker is a Python package that generates fake data for you. |
 | [SmsForwarder](https://github.com/pppscn/SmsForwarder) | v3.2.0 | 短信转发器——监控Android手机短信、来电、APP通知，并根据指定规则<br>转发到其他手机：钉钉群自定义机器人、钉钉企业内机器人、企业微信群机<br>器人、飞书机器人、企业微信应用消息、邮箱、bark、webhook、Telegram<br>机器人、Server酱、PushPlus、手机短信等。包括主动控制服务端与客户端<br>，让你轻松远程发短信、查短信、查通话、查话簿、查电量等。（V3.0 新<br>增）PS.这个APK主要是学习与自用，如有BUG请提ISSUE，同时欢迎大家提PR<br>指正 |
 | [dbeaver](https://github.com/dbeaver/dbeaver) | 22.3.5 | Free universal database tool and SQL client |
 | [MySQLMonitor](https://github.com/TheKingOfDuck/MySQLMonitor) | 1.0 | MySQL实时监控工具(代码审计/黑盒/白盒审计辅助工具) |

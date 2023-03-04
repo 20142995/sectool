@@ -564,8 +564,8 @@
             "https://github.com/zan8in/afrog": {
                 "created_at": "2022-02-24 06:00:32",
                 "description": "A Vulnerability Scanning Tools For Penetration Testing",
-                "commit_date": "2023-03-02 12:39:37",
-                "commit_message": "aspcms-backend-leak change low level",
+                "commit_date": "2023-03-03 08:58:49",
+                "commit_message": "update poc",
                 "release_tag": "v2.2.1",
                 "release_date": "2023-02-04 14:54:34",
                 "release_message": "Merge many fingerprint pocs into the panel-detect.yaml file to reduce the number of http requests Console  print date format, 2023-01-01 changed to 01-01 Simplified afrog-config configuration  Fixed: invalid `-fc` configuration Tip: Configure the `-c` command, which can increase the concurrency speed very quickly  -----------------------------------------------------------------------------  将多个 panel 指纹探测合并到文件 panel-detect.yaml，大幅减少 http 请求 精简控制台日期打印，2023-01-01 改为 01-01 精简 afrog-config 配置信息  解决：`-fc` 命令配置无效问题 提示：配置 `-c` 命令能明显提高扫描速度"
@@ -1044,8 +1044,8 @@
             "https://github.com/wuba/Antenna": {
                 "created_at": "2022-06-15 06:42:25",
                 "description": "Antenna是58同城安全团队打造的一款辅助安全从业人员验证网络中多种漏洞是否存在以及可利用性的工具。其基于带外应用安全测试(OAST)通过任务的形式，将不同漏洞场景检测能力通过插件的形式进行集合，通过与目标进行out-bind的数据通信方式进行辅助检测。",
-                "commit_date": "2023-02-28 14:17:14",
-                "commit_message": "fix delete taskconfigitem bug",
+                "commit_date": "2023-03-03 09:32:01",
+                "commit_message": "测试官方镜像2",
                 "release_tag": "v1.3.2",
                 "release_date": "2023-03-01 06:20:26",
                 "release_message": "1、优化了任务模块功能逻辑 2、修复python3.6版本不支持socket解析ip的bug"
@@ -1071,8 +1071,8 @@
             "https://github.com/su18/ysoserial": {
                 "created_at": "2021-07-26 01:20:01",
                 "description": "ysoserial for su18",
-                "commit_date": "2023-02-28 08:49:28",
-                "commit_message": "更新 ReadMe 中的图片链接错误",
+                "commit_date": "2023-03-03 13:49:27",
+                "commit_message": "更新命令执行混淆支持 windows jdk 1.6",
                 "release_tag": "v1.3",
                 "release_date": "2023-02-09 03:57:44",
                 "release_message": "1. 添加 ROME3、CommonsCollectionsK1、CommonsCollectionsK2 利用链； 2. 添加 mcl 参数，可以指定在 TransformerUtil 中使用 org.mozilla.javascript.DefiningClassLoader； 3. 添加 f 参数，可以指定将输出写在文件中； 4. 更新 BeanShell 在 2.0b4 上的利用链，并用 ScriptEngineManager 的方式对 BeanShell 链支持内存马； 5. 更新 SpringWebFlux 内存马（目前仅支持 gz 及 cmd）； 6. 添加 SpringEcho 回显方式； 7. 更新 cmd/冰蝎/哥斯拉 动态添加的逻辑使用纯反射编写； 8. **【重要】**移除 Referer 参数，用于校验的 Referer 头部现改为可自定义 Header 头部和值，并将校验逻辑由 equals 改为 contains；  9. 支持自定义传递执行命令的 Header 头； 10. 支持自定义 Godzilla key； 11. 由于打包问题，移除 RenderedImage 利用链及相关依赖； 12. 更新 Executor 内存马使用 CMD_HEADER_STRING 统一 Header； 13. 优化大量代码，修复若干 BUG，更新 ReadMe。"
@@ -1500,8 +1500,8 @@
             "https://github.com/ycdxsb/PocOrExp_in_Github": {
                 "created_at": "2021-04-13 05:46:16",
                 "description": "聚合Github上已有的Poc或者Exp，CVE信息来自CVE官网。Auto Collect Poc Or Exp from Github by CVE ID.",
-                "commit_date": "2023-03-02 22:34:15",
-                "commit_message": "update 2023-03-03 06:34:15",
+                "commit_date": "2023-03-03 22:35:11",
+                "commit_message": "update 2023-03-04 06:35:11",
                 "release_tag": "",
                 "release_date": "",
                 "release_message": ""
@@ -1630,8 +1630,8 @@
             "https://github.com/madneal/gshark": {
                 "created_at": "2018-03-09 14:16:55",
                 "description": "Scan for sensitive information easily and effectively.",
-                "commit_date": "2023-02-16 01:36:10",
-                "commit_message": "remove comments",
+                "commit_date": "2023-03-03 07:46:52",
+                "commit_message": "Merge pull request #146 from madneal/dependabot/npm_and_yarn/web/dns-packet-5.4.0\n\nBump dns-packet from 5.3.1 to 5.4.0 in /web",
                 "release_tag": "v1.1.4",
                 "release_date": "2023-02-15 10:17:50",
                 "release_message": "## Fixed  * 修复无法变更规则状态的问题 * 增加新增 token 的 postman 类型  ## Added   * 增加 `startSecFilterTask` 以及 `getTaskStatus`  API 权限初始化"
@@ -2464,7 +2464,7 @@
             "https://github.com/ExpLangcn/NucleiTP": {
                 "created_at": "2022-11-08 13:16:56",
                 "description": "自动整合全网Nuclei的漏洞POC，实时同步更新最新POC！",
-                "commit_date": "2023-03-03 02:45:19",
+                "commit_date": "2023-03-04 01:00:21",
                 "commit_message": "更新啦❤️",
                 "release_tag": "",
                 "release_date": "",
@@ -2917,8 +2917,8 @@
             "https://github.com/RsaCtfTool/RsaCtfTool": {
                 "created_at": "2015-03-07 17:29:33",
                 "description": "RSA attack tool (mainly for ctf) - retreive private key from weak public key and/or uncipher data",
-                "commit_date": "2023-03-02 21:37:32",
-                "commit_message": "Fix issue #411",
+                "commit_date": "2023-03-03 17:32:05",
+                "commit_message": "Warning instead of info if gmpy/gmpy2 is not present.",
                 "release_tag": "",
                 "release_date": "",
                 "release_message": ""
@@ -2943,11 +2943,11 @@
             "https://github.com/joke2k/faker": {
                 "created_at": "2012-11-12 23:00:09",
                 "description": "Faker is a Python package that generates fake data for you.",
-                "commit_date": "2023-03-02 15:53:25",
-                "commit_message": ":pencil: fix missing entyr in changelog\n\nClose #1814",
-                "release_tag": "v17.5.0",
-                "release_date": "2023-03-01 20:11:44",
-                "release_message": "See [CHANGELOG.md](https://github.com/joke2k/faker/blob/refs/tags/v17.5.0/CHANGELOG.md)."
+                "commit_date": "2023-03-03 16:58:46",
+                "commit_message": "Bump version: 17.5.0 → 17.6.0",
+                "release_tag": "v17.6.0",
+                "release_date": "2023-03-03 16:59:23",
+                "release_message": "See [CHANGELOG.md](https://github.com/joke2k/faker/blob/refs/tags/v17.6.0/CHANGELOG.md)."
             },
             "https://github.com/pppscn/SmsForwarder": {
                 "created_at": "2021-02-10 02:23:07",
@@ -2961,8 +2961,8 @@
             "https://github.com/dbeaver/dbeaver": {
                 "created_at": "2015-10-21 08:26:28",
                 "description": "Free universal database tool and SQL client",
-                "commit_date": "2023-03-01 17:48:28",
-                "commit_message": "CB-3162 add opensearch driver (#19194)\n\n* CB-3162 add opensearch driver\r\n\r\n* CB-3162 add opensearch driver license\r\n\r\n---------\r\n\r\nCo-authored-by: mr-anton-t <42037741+mr-anton-t@users.noreply.github.com>",
+                "commit_date": "2023-03-03 15:11:19",
+                "commit_message": "AIO settings save/load fix",
                 "release_tag": "22.3.5",
                 "release_date": "2023-02-19 18:19:13",
                 "release_message": "                 - ChatGPT smart completion:                     - Completion popup UI was improved                     - Metadata scope configuration was added                     - Redundant config options wer removed                 - Data editor:                     - Accessibility support was significantly improved (context menu, additional keyboard shortcuts)                     - Filtering and ordering icons visibility configuration was added again                     - Dictionary viewer was fixed (issue with missing dictionary values)                     - \"Save filters\" button was removed from custom SQL queries results                     - App crash on geometry viewer opening was resolved in the latest version of MacOS                 - SQL editor: query text extraction was fixed (issue with trailing comment after query text)                 - Database backup/restore: issue with external tools running was resolved (Linux)                 - Application fonts were unified. Now we have only Main and Monospace fonts configuration                 - Data transfer: data type mapping now respects type name case (for databases with different default case)                 - Variables support in database tasks was fixed                 - Database tools wizard: redundant task configuration page was removed                 - SQL generator dialog now show progress to avoid UI freeze on big schemas                 - Issue with opening ERD files from disk ws resolved                 - Clickhouse: DDL for array columns was fixed                 - Databricks: additional metadata was added                 - Exasol: default connection parameters were updated (thanks to @allipatev)                 - IRIS (ex Cache): driver version was updated                 - Oracle: stored procedures invocation syntax was improved                 - Snowflake: driver now uses single database connection for all editors (configurable)                 - SQL Server:                     - Driver version was updated to 11.2.3. Trust server certificate option was moved to the main connection page                     - Server messages (printed on raiserror) reading was fixed                     - Multiple resultsets reading was fixed (extra error handling was added)                     - VARCHAR(MAX) data type support was added                 - SQLite: converting binary columns into string representation was fixed             "
