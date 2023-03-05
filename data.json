@@ -304,8 +304,8 @@
             "https://github.com/hanc00l/nemo_go": {
                 "created_at": "2021-07-29 08:13:25",
                 "description": "Nemo是用来进行自动化信息收集的一个简单平台，通过集成常用的信息收集工具和技术，实现对内网及互联网资产信息的自动收集，提高隐患排查和渗透测试的工作效率，用Go语言完全重构了原Python版本。",
-                "commit_date": "2023-02-24 08:50:16",
-                "commit_message": "Fix: nmap portscan for multi targets",
+                "commit_date": "2023-03-04 06:02:31",
+                "commit_message": "Fix： task、user and login page",
                 "release_tag": "v2.8.3",
                 "release_date": "2022-12-12 09:22:35",
                 "release_message": "1、Fix：修复Httpx库使用leveldb时，缓存不释放导致的内存泄露；修复XSCAN任务的taskId未能显示、漏洞扫描任务结果不能在maintask正常显示；使用nmap扫描多个目标可能导致的不正确执行 2、Update： 增加fofa结果的关键词全局过滤； 增加按worker的CPU及内存数量设置不同的性能模式； 从源代码中移除xray与nuclei的二进制文件（会打包进release的tar包中） 支持导入gogo扫描结果文件 daemon_worker可以通过命令行手动进行同步（方便部署）"
@@ -1071,8 +1071,8 @@
             "https://github.com/su18/ysoserial": {
                 "created_at": "2021-07-26 01:20:01",
                 "description": "ysoserial for su18",
-                "commit_date": "2023-03-03 13:49:27",
-                "commit_message": "更新命令执行混淆支持 windows jdk 1.6",
+                "commit_date": "2023-03-04 05:30:44",
+                "commit_message": "更新命令执行混淆支持 linux jdk 1.6",
                 "release_tag": "v1.3",
                 "release_date": "2023-02-09 03:57:44",
                 "release_message": "1. 添加 ROME3、CommonsCollectionsK1、CommonsCollectionsK2 利用链； 2. 添加 mcl 参数，可以指定在 TransformerUtil 中使用 org.mozilla.javascript.DefiningClassLoader； 3. 添加 f 参数，可以指定将输出写在文件中； 4. 更新 BeanShell 在 2.0b4 上的利用链，并用 ScriptEngineManager 的方式对 BeanShell 链支持内存马； 5. 更新 SpringWebFlux 内存马（目前仅支持 gz 及 cmd）； 6. 添加 SpringEcho 回显方式； 7. 更新 cmd/冰蝎/哥斯拉 动态添加的逻辑使用纯反射编写； 8. **【重要】**移除 Referer 参数，用于校验的 Referer 头部现改为可自定义 Header 头部和值，并将校验逻辑由 equals 改为 contains；  9. 支持自定义传递执行命令的 Header 头； 10. 支持自定义 Godzilla key； 11. 由于打包问题，移除 RenderedImage 利用链及相关依赖； 12. 更新 Executor 内存马使用 CMD_HEADER_STRING 统一 Header； 13. 优化大量代码，修复若干 BUG，更新 ReadMe。"
@@ -1500,8 +1500,8 @@
             "https://github.com/ycdxsb/PocOrExp_in_Github": {
                 "created_at": "2021-04-13 05:46:16",
                 "description": "聚合Github上已有的Poc或者Exp，CVE信息来自CVE官网。Auto Collect Poc Or Exp from Github by CVE ID.",
-                "commit_date": "2023-03-03 22:35:11",
-                "commit_message": "update 2023-03-04 06:35:11",
+                "commit_date": "2023-03-04 21:35:14",
+                "commit_message": "update 2023-03-05 05:35:13",
                 "release_tag": "",
                 "release_date": "",
                 "release_message": ""
@@ -1954,8 +1954,8 @@
                 "release_message": ""
             },
             "https://github.com/12306Bro/Threathunting-book": {
-                "created_at": "2019-07-10 08:44:30",
-                "description": "Threat hunting Web Windows AD linux ATT&CK TTPs",
+                "created_at": "",
+                "description": "",
                 "commit_date": "2023-02-10 05:56:40",
                 "commit_message": "delete",
                 "release_tag": "",
@@ -2126,8 +2126,8 @@
             "https://github.com/bit4woo/domain_hunter_pro": {
                 "created_at": "2019-01-18 07:15:15",
                 "description": "domain_hunter的高级版本，SRC挖洞、HW打点之必备！自动化资产收集；快速Title获取；外部工具联动；等等",
-                "commit_date": "2023-02-28 09:33:33",
-                "commit_message": "grep ports from masscan result",
+                "commit_date": "2023-03-04 10:10:25",
+                "commit_message": "Update LineTableModel.java",
                 "release_tag": "v1.9-alpha",
                 "release_date": "2022-11-18 09:37:35",
                 "release_message": "**这是重构版本，与旧版本不兼容！！！ 这是重构版本，与旧版本不兼容！！！ 这是重构版本，与旧版本不兼容！！！**  重新设计了数据库的表结构，尽量提升数据库读写效率 重新设计了数据对象、UI、数据库之间的数据同步逻辑 重新设计了数据存储的基础类，保证线程安全 重新设计了table中model类的部分逻辑，减少内存占用  优化了数据对象的字段，尽量减小每个数据对象的内存占用 优化了数据提取的正则表达式和逻辑 优化了根域名、网段作控制目标范围的逻辑 优化了当根域名、网段变化时，数据的刷新逻辑 优化了数据数据加载逻辑 其他各种逻辑优化、bug修改  总之就是大动作，和旧版本不兼容，可能存在潜在bug（虽然我已经试用一段时间，排除了很多bug），所以发布一个alpha版本在正式版本之前。  欢迎试用提交bug，使用时建议创建新的项目数据库，不要使用旧数据库文件。"
@@ -2464,7 +2464,7 @@
             "https://github.com/ExpLangcn/NucleiTP": {
                 "created_at": "2022-11-08 13:16:56",
                 "description": "自动整合全网Nuclei的漏洞POC，实时同步更新最新POC！",
-                "commit_date": "2023-03-04 01:00:21",
+                "commit_date": "2023-03-05 01:15:15",
                 "commit_message": "更新啦❤️",
                 "release_tag": "",
                 "release_date": "",
@@ -2952,8 +2952,8 @@
             "https://github.com/pppscn/SmsForwarder": {
                 "created_at": "2021-02-10 02:23:07",
                 "description": "短信转发器——监控Android手机短信、来电、APP通知，并根据指定规则转发到其他手机：钉钉群自定义机器人、钉钉企业内机器人、企业微信群机器人、飞书机器人、企业微信应用消息、邮箱、bark、webhook、Telegram机器人、Server酱、PushPlus、手机短信等。包括主动控制服务端与客户端，让你轻松远程发短信、查短信、查通话、查话簿、查电量等。（V3.0 新增）PS.这个APK主要是学习与自用，如有BUG请提ISSUE，同时欢迎大家提PR指正",
-                "commit_date": "2023-02-23 07:55:06",
-                "commit_message": "优化：一键换新机·导出/导入通用设置的机制\n优化：手动重启app的方式",
+                "commit_date": "2023-03-04 15:04:16",
+                "commit_message": "优化：避免个别机型重启后自启动时`startService`可能空指针导致`crash`",
                 "release_tag": "v3.2.0",
                 "release_date": "2023-02-14 09:25:00",
                 "release_message": "PS. 距离上一次1024发版，已经过去快5个月了，期间发生不少事，一直没更新这个项目，不管如何，魔幻的2022年都过去了！  感谢大家这2年来的陪伴与支持，祝大家有情人终成眷属，情人节快乐！  ---  ### 【注意】  * v3.x版本是全新重构开发，可能一开始并不稳定，建议升级前先做好数据备份！（客户端>一键换新机>离线模式>导出）  * `v3.2.0` 去除了 `mmkv` 依赖，采用 `SharedPreferences` 来保存配置，升级之后通用设置中的配置请重新配置，具体原因参见 [Issue #245](https://github.com/pppscn/SmsForwarder/issues/245)  * 升级完毕后，建议离线导出配置，完全卸载干净全新安装后再导入配置（可以避免一些莫名其妙的玄学问题，例如：耗电异常）  ---  ### 更新日志  * 新增：短信指令（根据短信指令开关对应功能） #I5YX3F * 新增：监听网络状态变化提醒（APP通知转发，包名：77777777） #259 * 新增：远程改话簿（方便给老人家添加联系人） #256 * 新增：远程查询手机定位（方便找回手机/防止老少走丢） #256 * 新增：Socket发送通道（支持MQTT/TCP/UDP协议） #252 * 新增：发送通道 URL Scheme（支持跨应用数据传递）#250 * 新增：自动消除额外APP通知 #232 #248  * 优化：短信/通话转发获取卡槽信息机制（自行备注卡槽SubId对应）#228 #235 * 优化：来电转发逻辑 & 新增提醒类型（1.来电挂机 2.去电挂机 3.未接来电 4.来电提醒 5.来电接通 6.去电拨出） * 优化：单个转发规则支持绑定多个发送通道，且支持执行逻辑（全部执行/失败即止/成功即止） #247 * 优化：转发日志列表以原始信息为主，聚合展示转发日志（一对多） * 优化：已安装App信息列表异步加载机制 * 优化：电池状态监听/网络状态监控 在未开启去重时默认开启1秒去重 * 优化：利用BatteryReceiver守护自启动的Frpc (试验) #254  * 修复：Android 13 无法授予通知权限 #255 * 修复：重启手机自动启动APP时加载配置失败 #233 #245 * 修复：转发消息遍历发送通道时未跳过已禁用的通道 * 修复：降级Android Gradle插件版本以兼容4.4 (#249 by NyaMisty)  * 升级：andserver到2.1.12（加快web端上下行速度等） * 升级：frpclib 到 v0.47.0 * 升级：androidx组件和kotlin版本  还有一些细微调整参见`github`提交记录  ---  ### APK版本说明： * universal: 通用版（不在乎安装包大小/懒得选就用这个版本，包含以下4种CPU架构so） * armeabi-v7a: 32位ARM设备（备用机首选） * arm64-v8a: 64位ARM设备（主流旗舰机） * x86: 32位Intel设备 * x86_64: 64/32位Intel设备"
