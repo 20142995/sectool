@@ -1071,8 +1071,8 @@
             "https://github.com/su18/ysoserial": {
                 "created_at": "2021-07-26 01:20:01",
                 "description": "ysoserial for su18",
-                "commit_date": "2023-03-04 05:30:44",
-                "commit_message": "更新命令执行混淆支持 linux jdk 1.6",
+                "commit_date": "2023-03-05 05:19:51",
+                "commit_message": "更新 javassist 版本，进行一些降低 payload 的尝试",
                 "release_tag": "v1.3",
                 "release_date": "2023-02-09 03:57:44",
                 "release_message": "1. 添加 ROME3、CommonsCollectionsK1、CommonsCollectionsK2 利用链； 2. 添加 mcl 参数，可以指定在 TransformerUtil 中使用 org.mozilla.javascript.DefiningClassLoader； 3. 添加 f 参数，可以指定将输出写在文件中； 4. 更新 BeanShell 在 2.0b4 上的利用链，并用 ScriptEngineManager 的方式对 BeanShell 链支持内存马； 5. 更新 SpringWebFlux 内存马（目前仅支持 gz 及 cmd）； 6. 添加 SpringEcho 回显方式； 7. 更新 cmd/冰蝎/哥斯拉 动态添加的逻辑使用纯反射编写； 8. **【重要】**移除 Referer 参数，用于校验的 Referer 头部现改为可自定义 Header 头部和值，并将校验逻辑由 equals 改为 contains；  9. 支持自定义传递执行命令的 Header 头； 10. 支持自定义 Godzilla key； 11. 由于打包问题，移除 RenderedImage 利用链及相关依赖； 12. 更新 Executor 内存马使用 CMD_HEADER_STRING 统一 Header； 13. 优化大量代码，修复若干 BUG，更新 ReadMe。"
@@ -1082,8 +1082,8 @@
             "https://github.com/LittleBear4/OA-EXPTOOL": {
                 "created_at": "2022-10-13 12:31:21",
                 "description": "OA综合利用工具，集合将近20款OA漏洞批量扫描",
-                "commit_date": "2023-02-11 06:57:41",
-                "commit_message": "Update mode.py",
+                "commit_date": "2023-03-05 16:10:52",
+                "commit_message": "Add files via upload",
                 "release_tag": "OA-EXPTOOL-v0.7",
                 "release_date": "2023-01-20 18:22:12",
                 "release_message": "更新内容如下： 1.代理功能已经实装 2.日志功能已经载入源码，目前只有一米OA会产生日志（日志第二次调用会产生问题，暂不实装） 修复部分poc报错问题，修复通达OAshell的代码错误导致无法连接问题 增加泛微OA_doexcel 泛微OA_ktree_upload 泛微OA_v10_OfficeServer.phpupload weaveroa-eoffice8-upload-RCE 增加用友： yongyou_KSOA_imageupload"
@@ -1500,8 +1500,8 @@
             "https://github.com/ycdxsb/PocOrExp_in_Github": {
                 "created_at": "2021-04-13 05:46:16",
                 "description": "聚合Github上已有的Poc或者Exp，CVE信息来自CVE官网。Auto Collect Poc Or Exp from Github by CVE ID.",
-                "commit_date": "2023-03-04 21:35:14",
-                "commit_message": "update 2023-03-05 05:35:13",
+                "commit_date": "2023-03-05 18:00:35",
+                "commit_message": "update 2023-03-06 02:00:35",
                 "release_tag": "",
                 "release_date": "",
                 "release_message": ""
@@ -2464,7 +2464,7 @@
             "https://github.com/ExpLangcn/NucleiTP": {
                 "created_at": "2022-11-08 13:16:56",
                 "description": "自动整合全网Nuclei的漏洞POC，实时同步更新最新POC！",
-                "commit_date": "2023-03-05 01:15:15",
+                "commit_date": "2023-03-06 01:00:15",
                 "commit_message": "更新啦❤️",
                 "release_tag": "",
                 "release_date": "",
@@ -2502,8 +2502,8 @@
             "https://github.com/nszy007/CN_Nessus_Plugins_Interface": {
                 "created_at": "2022-02-10 07:56:50",
                 "description": "nessus插件中文查询接口",
-                "commit_date": "2023-01-17 03:03:16",
-                "commit_message": "20230113",
+                "commit_date": "2023-03-05 02:02:20",
+                "commit_message": "20230301",
                 "release_tag": "1",
                 "release_date": "2022-02-10 08:19:24",
                 "release_message": ""
@@ -2963,9 +2963,9 @@
                 "description": "Free universal database tool and SQL client",
                 "commit_date": "2023-03-03 15:11:19",
                 "commit_message": "AIO settings save/load fix",
-                "release_tag": "22.3.5",
-                "release_date": "2023-02-19 18:19:13",
-                "release_message": "                 - ChatGPT smart completion:                     - Completion popup UI was improved                     - Metadata scope configuration was added                     - Redundant config options wer removed                 - Data editor:                     - Accessibility support was significantly improved (context menu, additional keyboard shortcuts)                     - Filtering and ordering icons visibility configuration was added again                     - Dictionary viewer was fixed (issue with missing dictionary values)                     - \"Save filters\" button was removed from custom SQL queries results                     - App crash on geometry viewer opening was resolved in the latest version of MacOS                 - SQL editor: query text extraction was fixed (issue with trailing comment after query text)                 - Database backup/restore: issue with external tools running was resolved (Linux)                 - Application fonts were unified. Now we have only Main and Monospace fonts configuration                 - Data transfer: data type mapping now respects type name case (for databases with different default case)                 - Variables support in database tasks was fixed                 - Database tools wizard: redundant task configuration page was removed                 - SQL generator dialog now show progress to avoid UI freeze on big schemas                 - Issue with opening ERD files from disk ws resolved                 - Clickhouse: DDL for array columns was fixed                 - Databricks: additional metadata was added                 - Exasol: default connection parameters were updated (thanks to @allipatev)                 - IRIS (ex Cache): driver version was updated                 - Oracle: stored procedures invocation syntax was improved                 - Snowflake: driver now uses single database connection for all editors (configurable)                 - SQL Server:                     - Driver version was updated to 11.2.3. Trust server certificate option was moved to the main connection page                     - Server messages (printed on raiserror) reading was fixed                     - Multiple resultsets reading was fixed (extra error handling was added)                     - VARCHAR(MAX) data type support was added                 - SQLite: converting binary columns into string representation was fixed             "
+                "release_tag": "23.0.0",
+                "release_date": "2023-03-05 17:56:39",
+                "release_message": "Changes since 22.3.5: - SQL editor:     - Column metadata resolution was fixed for quoted column names     - SQL console now respects \"open separate connection\" option     - Variables resolve in `set` and other commands was fixed     - Copy/paste command was fixed for editors without associated connection - Data editor:     - Spatial viewer: lasso tool was fixed for Safari browser     - Support of WKT format stored in BLOB columns was added     - Issues with image viewer and BLOB columns was fixed (NullPointer error))     - Selected columns/rows data export was fixed (issue with BLOB value turning into NULL in UI) - Accessibility:     - Font settings are now respected in all editors/popups     - New keyboard shortcuts schema was added \"DBeaver Keyboard Only\"     - Many new keyboard shortcuts were added     - Catalog/schema selector now supports keyboard only mode     - Results tab pin/unpin command is now accessible from keyboard (thanks to hawthorne3341)     - Reader texts were localized - Database dashboard create wizard UI was fixed - Generate SQL dialog now supports connection invalidation - Clickhouse: driver version was updated to 0.4.1 - Dremio: driver version was updated to 24.0 - Firebird: table colum comments support was added - PostgreSQL:     - Issue with URL-based connections was resolved (invalid host name)     - Execution plan parameters are now saved - Redshift: varbyte datatype suport was fixed - SQL Server:     - UI for Kerberos authentication configuration was fixed     - Table colum comments support was added - French localization was fixed (thanks to alexgille) - Problems with Kerberos were resolved (we have reverted to Java 11)"
             },
             "https://github.com/TheKingOfDuck/MySQLMonitor": {
                 "created_at": "2019-01-16 05:13:33",
