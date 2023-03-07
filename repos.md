@@ -391,3 +391,4 @@
 |相关资源|工具集|https://github.com/k8gege/K8tools|
 |相关资源|工具集成环境|https://github.com/ghealer/GUI_Tools|
 |相关资源|代理池|https://github.com/ja9er/Gofreeproxy|
+|CTF杂项|取证分析|https://github.com/SpenserCai/GoWxDump|
