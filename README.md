@@ -1,8 +1,10 @@
-# 更新于 2023-03-07 09:17:15
+# 更新于 2023-03-08 09:13:39
 
 ## 近30天release更新记录
 | 更新时间 | 项目名称 | 版本 | 更新内容 |
 | :---- | :---- | :---- | :---- |
+|2023-03-07 15:34:53|[GoWxDump](https://github.com/SpenserCai/GoWxDump)|v1.0.8|修复了 #7 中提到的中文昵称乱码的问题|
+|2023-03-07 01:55:12|[nemo_go](https://github.com/hanc00l/nemo_go)|v2.9.0|### Update： 1、增加用户与角色、权限管<br>理，增加工作空间功能，支持多用户和多项目<br>的资源隔离； 2、增加ip/domain资产的置顶功<br>能； 3、更新xray扫描调用的poc规则和使用方<br>式，xray二进制文件升级到v1.9.4版本； 4、<br>参数配置增加xray配置、api与token的测试。#<br>## 更新注意事项 - 由于数据库的表有重大调<br>整，从v2.8升级需导入**user_workspace.sql*<br>*，并在webfiles目录下新建**b0c79065-7ff7<br>-32ae-cc18-864ccd8f7717**目录（默认的wor<br>kspace），将原webfiles目录下文件迁移至该<br>默认workspace目录下。 - 默认监听端口为500<br>0，默认用户**nemo（超级管理员）**、密码 <br>**nemo** ；通过“Config--配置管理”更改<br>默认密码，通过“System--User“创建和管理<br>用户权限。 - 用户角色分为superadmin、admi<br>n和guest三种； **superadmin（超级管理员<br>）** 可管理用户和工作空间，**admin（管理<br>员）** 可管理资源、任务和参数配置，**gues<br>t（普通用户）** 只有资源和任务的查看权限<br>。 - 工作空间对资源（IP、Domain、任务、组<br>织及漏洞）进行隔离，每个工作空间可分配给<br>不同的用户访问权限。 - 使用默认的nemo（超<br>级管理员）用户登录时，在新建任务前需切换<br>至某一个工作空间，切换方法在Dashboard、IP<br>及Domain页面的右上角。|
 |2023-03-06 08:49:57|[veinmind-tools](https://github.com/chaitin/veinmind-tools)|v2.0.6|## Feature - 降低镜像大小 @286515491## <br>Fix - 敏感信息检测增加文件限制 @testwill<br>- 优化容器逃逸权限检测逻辑 @286515491- <br>修复敏感信息路径扫描 @286515491 |
 |2023-03-06 08:47:39|[ElectricRat](https://github.com/linjiananallnt/ElectricRat)|v1.3.0|# 更新说明 1. 新增越权漏洞案例，包含水<br>平、垂直越权。 2. 增加XSS过滤难度 3. 增加<br>SPEL和SSTI结果输出 4. 新增压缩文件自解压<br>案例# TODO - [x] 越权漏洞# 如何更新 1. 将<br> ElectricRat-docker.zip 中的 ElectricRat<br>.war 覆盖之前的 war 包。 2. 重启 docker<br>。sudo docker restart electricrat-web 3. <br>稍等片刻后，访问 http://127.0.0.1:12666/E<br>lectricRat/ |
 |2023-03-05 17:56:39|[dbeaver](https://github.com/dbeaver/dbeaver)|23.0.0|Changes since 22.3.5: - SQL editor:- Co<br>lumn metadata resolution was fixed for q<br>uoted column names- SQL console now resp<br>ects "open separate connection" option- <br>Variables resolve in set and other comma<br>nds was fixed- Copy/paste command was fi<br>xed for editors without associated conne<br>ction - Data editor:- Spatial viewer: la<br>sso tool was fixed for Safari browser- S<br>upport of WKT format stored in BLOB colu<br>mns was added- Issues with image viewer <br>and BLOB columns was fixed (NullPointer <br>error))- Selected columns/rows data expo<br>rt was fixed (issue with BLOB value turn<br>ing into NULL in UI) - Accessibility:- F<br>ont settings are now respected in all ed<br>itors/popups- New keyboard shortcuts sch<br>ema was added "DBeaver Keyboard Only"- M<br>any new keyboard shortcuts were added- C<br>atalog/schema selector now supports keyb<br>oard only mode- Results tab pin/unpin co<br>mmand is now accessible from keyboard (t<br>hanks to hawthorne3341)- Reader texts we<br>re localized - Database dashboard create<br> wizard UI was fixed - Generate SQL dial<br>og now supports connection invalidation <br>- Clickhouse: driver version was updated<br> to 0.4.1 - Dremio: driver version was u<br>pdated to 24.0 - Firebird: table colum c<br>omments support was added - PostgreSQL:-<br> Issue with URL-based connections was re<br>solved (invalid host name)- Execution pl<br>an parameters are now saved - Redshift: <br>varbyte datatype suport was fixed - SQL <br>Server:- UI for Kerberos authentication <br>configuration was fixed- Table colum com<br>ments support was added - French localiz<br>ation was fixed (thanks to alexgille) - <br>Problems with Kerberos were resolved (we<br> have reverted to Java 11)|
@@ -38,18 +40,19 @@
 |2023-02-09 13:53:05|[github-subdomains](https://github.com/gwen001/github-subdomains)|v1.2.2||
 |2023-02-09 03:57:44|[ysoserial](https://github.com/su18/ysoserial)|v1.3|1. 添加 ROME3、CommonsCollectionsK1、Co<br>mmonsCollectionsK2 利用链； 2. 添加 mcl <br>参数，可以指定在 TransformerUtil 中使用 o<br>rg.mozilla.javascript.DefiningClassLoade<br>r； 3. 添加 f 参数，可以指定将输出写在文<br>件中； 4. 更新 BeanShell 在 2.0b4 上的利<br>用链，并用 ScriptEngineManager 的方式对 B<br>eanShell 链支持内存马； 5. 更新 SpringWe<br>bFlux 内存马（目前仅支持 gz 及 cmd）； 6<br>. 添加 SpringEcho 回显方式； 7. 更新 cmd<br>/冰蝎/哥斯拉 动态添加的逻辑使用纯反射编<br>写； 8. **【重要】**移除 Referer 参数，用<br>于校验的 Referer 头部现改为可自定义 Heade<br>r 头部和值，并将校验逻辑由 equals 改为 c<br>ontains；9. 支持自定义传递执行命令的 Hea<br>der 头； 10. 支持自定义 Godzilla key； 1<br>1. 由于打包问题，移除 RenderedImage 利用<br>链及相关依赖； 12. 更新 Executor 内存马使<br>用 CMD_HEADER_STRING 统一 Header； 13. 优<br>化大量代码，修复若干 BUG，更新 ReadMe。|
 |2023-02-06 09:28:04|[ffuf](https://github.com/ffuf/ffuf)|v2.0.0|## Changelog * e952deb Fix the v2 taggi<br>ng for go install (#639) * 19e07c0 Fix r<br>equired go version (#637) * 77cc45c Prep<br>are for v2.0 release (#635) * c7d0fb5 Gr<br>acefully error in case stdin is used for<br> search result (#634) * 643f6b8 Scraper <br>functionality (#633) * 39c8934 Added add<br>itional proxy URL verification (#574) * <br>bbb97ab Typo fix (#581) * 3b219f2 fix: c<br>hanged usage from version 1.3.0 to versi<br>on 1.5.0 (#595) * 633893c Change precede<br>nce of quiet and JSON output to favour J<br>SON (#570) * 0236210 Add homebrew instal<br>l method (#552) * 7bff9e7 Fix time-based<br> matcher (#575) * ebb4c44 Sniper templat<br>e parsing - fixes #579 (#580) * 9bddff7 <br>New functionality to map fired blind pay<br>loads back to the initial request (#632)<br> * b7adc50 Fix jsonlines output while in<br> silent mode (#630) * 2ce2217 Enhanced r<br>ate limiting (#620) * 1a684a9 Fix the ac<br> for good now (#615) * 3328a28 Fix linte<br>r workflow and autocalibration for lines<br> & words match (#614)|
-|2023-02-05 15:40:56|[geacon_pro](https://github.com/H4de5-7/geacon_pro)|geacon_pr<br>o_v1.3|2023.2.3 v1.3 更新日志1.新增unhook(ntdl<br>l.dll,kernel32.dll,kernelbase.dll) 2.新<br>增argue欺骗 3.修复了drives部分情况下错误<br>、keylogger中文会乱码、dllinject远程注入<br>失败、自删除部分情况下失败、upload时在原<br>文件基础上append的BUG 4.将os.Exit(0)修改<br>为return，避免转换成反射型dll注入后退出宿<br>主进程 5.优化代码结构与sysinfo的显示|
-|2023-02-05 15:20:55|[Viper](https://github.com/FunnyWolf/Viper)|v1.5.26|## v1.5.26 20230205 ### 优化 - 合并meta<br>sploit-framework 6.3.2版本 (更新多个域渗<br>透模块)### Bugfix - 修复 https://github.c<br>om/FunnyWolf/Viper/issues/93 - 修复 http<br>s://github.com/FunnyWolf/Viper/issues/12<br>0|
 ## 近30天commit提交记录
 | 提交时间 | 项目名称 | 更新内容 |
 | :---- | :---- | :---- |
-|2023-03-07 01:15:16|[NucleiTP](https://github.com/ExpLangcn/NucleiTP)|更新啦❤️|
-|2023-03-06 21:35:04|[PocOrExp_in_Github](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-03-07 05:35:04|
-|2023-03-06 16:53:13|[dbeaver](https://github.com/dbeaver/dbeaver)|#18999 Treat composite as null if its data is null (#1<br>9170)|
+|2023-03-08 01:00:16|[NucleiTP](https://github.com/ExpLangcn/NucleiTP)|更新啦❤️|
+|2023-03-07 19:12:06|[PocOrExp_in_Github](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-03-08 03:12:06|
+|2023-03-07 15:30:57|[GoWxDump](https://github.com/SpenserCai/GoWxDump)|Merge branch 'master' of https://github.com/SpenserCai<br>/GoWxDump into master|
+|2023-03-07 13:02:19|[dbeaver](https://github.com/dbeaver/dbeaver)|dbeaver/pro#1389 GPT limits remove|
+|2023-03-07 08:44:53|[knife](https://github.com/bit4woo/knife)|Update ChineseTab.java|
+|2023-03-07 08:34:48|[nemo_go](https://github.com/hanc00l/nemo_go)|Update: gorm 采用数据库连接池模式，提升数据库查询的效<br>率和速度|
+|2023-03-07 07:33:10|[Godzilla](https://github.com/BeichenDream/Godzilla)|Update README.md|
 |2023-03-06 15:22:19|[gshark](https://github.com/madneal/gshark)|Merge pull request #148 from madneal/dependabot/go_mod<br>ules/server/golang.org/x/image-0.5.0Bump golang.org/x/i<br>mage from 0.0.0-20201208152932-35266b937fa6 to 0.5.0 in<br> /server|
 |2023-03-06 14:39:54|[NessusToReport](https://github.com/Hypdncy/NessusToReport)|增加beautifulsoup4包|
 |2023-03-06 08:46:31|[veinmind-tools](https://github.com/chaitin/veinmind-tools)|fix(veinmind-sensitive):fix scan path (#205)fix(veinmi<br>nd-sensitive):fix scan pathCo-authored-by: GiveMeAShell<br> |
-|2023-03-06 08:42:26|[nemo_go](https://github.com/hanc00l/nemo_go)|Fix: .gitkeep for xray pocs dir|
 |2023-03-06 08:41:18|[ElectricRat](https://github.com/linjiananallnt/ElectricRat)|Update README.md|
 |2023-03-06 07:44:32|[Awesome-Redteam](https://github.com/Threekiii/Awesome-Redteam)|更新README.md|
 |2023-03-06 07:44:06|[Vulnerability-Wiki](https://github.com/Threekiii/Vulnerability-Wiki)|更新漏洞|
@@ -131,9 +134,7 @@
 |2023-02-08 03:49:42|[ARL](https://github.com/TophantTechnology/ARL)|Merge pull request #480 from chasenz/masterUpdate nucl<br>ei dump|
 |2023-02-08 02:14:56|[SharpWxDump](https://github.com/AdminTest0/SharpWxDump)|Update README.md|
 |2023-02-06 04:48:56|[cola_dnslog](https://github.com/AbelChe/cola_dnslog)|Merge pull request #26 from AbelChe/1.3.2fix webserver<br> 404|
-|2023-02-06 03:07:24|[passive-scan-client<br>-plus](https://github.com/winezer0/passive-scan-client-plus)|update readme|
-|2023-02-05 16:59:39|[Python-100-Days](https://github.com/jackfrued/Python-100-Days)|更新了README.md|
-|2023-02-05 15:19:54|[Viper](https://github.com/FunnyWolf/Viper)|update version v1.5.26|## 所有项目
+|2023-02-06 03:07:24|[passive-scan-client<br>-plus](https://github.com/winezer0/passive-scan-client-plus)|update readme|## 所有项目
 ### 信息收集
 #### 资产测绘采集
 | 项目名称 | 版本 | 项目描述 |
@@ -188,7 +189,7 @@
 | [X-Marshal](https://github.com/XTeam-Wing/X-Marshal) |  | Golang-分布式资产探测&漏洞扫描&信息收集 |
 | [heartsk_community](https://github.com/yqcs/heartsk_community) | LOWBUG@La<br>test | Hearts K-企业资产发现与脆弱性检查工具，自动化资产信息收集与漏洞<br>扫描 |
 | [AnScan](https://github.com/Arbor01/AnScan) |  | AnScan是一款集合信息收集、分布式漏洞扫描、漏洞POC管理等为一体的<br>红队扫描工具 |
-| [nemo_go](https://github.com/hanc00l/nemo_go) | v2.8.3 | Nemo是用来进行自动化信息收集的一个简单平台，通过集成常用的信息收<br>集工具和技术，实现对内网及互联网资产信息的自动收集，提高隐患排查和<br>渗透测试的工作效率，用Go语言完全重构了原Python版本。 |
+| [nemo_go](https://github.com/hanc00l/nemo_go) | v2.9.0 | Nemo是用来进行自动化信息收集的一个简单平台，通过集成常用的信息收<br>集工具和技术，实现对内网及互联网资产信息的自动收集，提高隐患排查和<br>渗透测试的工作效率，用Go语言完全重构了原Python版本。 |
 | [rengine](https://github.com/yogeshojha/rengine) | v1.3.5 | reNgine is an automated reconnaissance framework for web applica<br>tions with a focus on highly configurable streamlined recon proce<br>ss via Engines, recon data correlation and organization, continuo<br>us monitoring, backed by a database, and simple yet intuitive Use<br>r Interface. reNgine makes it easy for penetration testers to gat<br>her reconnaissance with minimal configuration and with the help o<br>f reNgine's correlation, it just makes recon effortless. |
 | [ShuiZe_0x727](https://github.com/0x727/ShuiZe_0x727) | v1.0 | 信息收集自动化工具 |
 | [DBJ](https://github.com/wgpsec/DBJ) |  | 大宝剑-边界资产梳理工具（红队、蓝队、企业组织架构、子域名、Web资<br>产梳理、Web指纹识别、ICON_Hash资产匹配） |
@@ -670,6 +671,7 @@
 | [Sharp-dumpkey](https://github.com/Ormicron/Sharp-dumpkey) | 1 | 基于C#实现的获取微信数据库密钥的小工具 |
 | [Sunflower_get_Passw<br>ord](https://github.com/wafinfo/Sunflower_get_Password) |  | 一款针对向日葵的识别码和验证码提取工具 |
 | [SharpWxDump](https://github.com/AdminTest0/SharpWxDump) |  | 微信客户端取证，可获取用户个人信息(昵称/账号/手机/邮箱/数据库密<br>钥(用来解密聊天记录))；支持获取多用户信息，不定期更新新版本偏移，<br>目前支持所有新版本、正式版本 |
+| [GoWxDump](https://github.com/SpenserCai/GoWxDump) | v1.0.8 | SharpWxDump的Go语言版。微信客户端取证，获取信息(微信号、手机号、<br>昵称)，微信聊天记录分析(Top N聊天的人、统计聊天最频繁的好友排行、<br>关键词列表搜索等) |
 #### 音频隐写
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |

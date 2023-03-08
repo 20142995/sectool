@@ -304,11 +304,11 @@
             "https://github.com/hanc00l/nemo_go": {
                 "created_at": "2021-07-29 08:13:25",
                 "description": "Nemo是用来进行自动化信息收集的一个简单平台，通过集成常用的信息收集工具和技术，实现对内网及互联网资产信息的自动收集，提高隐患排查和渗透测试的工作效率，用Go语言完全重构了原Python版本。",
-                "commit_date": "2023-03-06 08:42:26",
-                "commit_message": "Fix: .gitkeep for xray pocs dir",
-                "release_tag": "v2.8.3",
-                "release_date": "2022-12-12 09:22:35",
-                "release_message": "1、Fix：修复Httpx库使用leveldb时，缓存不释放导致的内存泄露；修复XSCAN任务的taskId未能显示、漏洞扫描任务结果不能在maintask正常显示；使用nmap扫描多个目标可能导致的不正确执行 2、Update： 增加fofa结果的关键词全局过滤； 增加按worker的CPU及内存数量设置不同的性能模式； 从源代码中移除xray与nuclei的二进制文件（会打包进release的tar包中） 支持导入gogo扫描结果文件 daemon_worker可以通过命令行手动进行同步（方便部署）"
+                "commit_date": "2023-03-07 08:34:48",
+                "commit_message": "Update: gorm 采用数据库连接池模式，提升数据库查询的效率和速度",
+                "release_tag": "v2.9.0",
+                "release_date": "2023-03-07 01:55:12",
+                "release_message": "### Update： 1、增加用户与角色、权限管理，增加工作空间功能，支持多用户和多项目的资源隔离； 2、增加ip/domain资产的置顶功能； 3、更新xray扫描调用的poc规则和使用方式，xray二进制文件升级到v1.9.4版本； 4、参数配置增加xray配置、api与token的测试。  ### 更新注意事项 - 由于数据库的表有重大调整，从v2.8升级需导入**user_workspace.sql**，并在webfiles目录下新建**b0c79065-7ff7-32ae-cc18-864ccd8f7717**目录（默认的workspace），将原webfiles目录下文件迁移至该默认workspace目录下。 - 默认监听端口为5000，默认用户**nemo（超级管理员）**、密码 **nemo** ；通过“Config--配置管理”更改默认密码，通过“System--User“创建和管理用户权限。 - 用户角色分为superadmin、admin和guest三种； **superadmin（超级管理员）** 可管理用户和工作空间，**admin（管理员）** 可管理资源、任务和参数配置，**guest（普通用户）** 只有资源和任务的查看权限。 - 工作空间对资源（IP、Domain、任务、组织及漏洞）进行隔离，每个工作空间可分配给不同的用户访问权限。 - 使用默认的nemo（超级管理员）用户登录时，在新建任务前需切换至某一个工作空间，切换方法在Dashboard、IP及Domain页面的右上角。"
             },
             "https://github.com/yogeshojha/rengine": {
                 "created_at": "2020-05-03 12:13:12",
@@ -797,8 +797,8 @@
             "https://github.com/BeichenDream/Godzilla": {
                 "created_at": "2020-08-17 17:27:56",
                 "description": "哥斯拉",
-                "commit_date": "2021-11-01 08:57:30",
-                "commit_message": "Update application.config",
+                "commit_date": "2023-03-07 07:33:10",
+                "commit_message": "Update README.md",
                 "release_tag": "v4.0.1-godzilla",
                 "release_date": "2021-11-01 08:54:13",
                 "release_message": "修复了v4.0 jsp的模板错误 导致jsp shell无法连接"
@@ -1538,8 +1538,8 @@
             "https://github.com/ycdxsb/PocOrExp_in_Github": {
                 "created_at": "2021-04-13 05:46:16",
                 "description": "聚合Github上已有的Poc或者Exp，CVE信息来自CVE官网。Auto Collect Poc Or Exp from Github by CVE ID.",
-                "commit_date": "2023-03-06 21:35:04",
-                "commit_message": "update 2023-03-07 05:35:04",
+                "commit_date": "2023-03-07 19:12:06",
+                "commit_message": "update 2023-03-08 03:12:06",
                 "release_tag": "",
                 "release_date": "",
                 "release_message": ""
@@ -2339,8 +2339,8 @@
             "https://github.com/bit4woo/knife": {
                 "created_at": "2018-06-12 14:25:18",
                 "description": "A burp extension that add some useful function to  Context Menu 添加一些右键菜单让burp用起来更顺畅",
-                "commit_date": "2022-11-27 07:02:42",
-                "commit_message": "update",
+                "commit_date": "2023-03-07 08:44:53",
+                "commit_message": "Update ChineseTab.java",
                 "release_tag": "v2.1",
                 "release_date": "2022-11-20 09:04:40",
                 "release_message": "融合U2C和Chinese2个Tab，让它们都可以支持切换编码 新增功能：从JS中查找URL路径后，拼接BaseURL并请求 其他小的更新、bug修复  ## What's Changed * Bump gson from 2.3.1 to 2.8.9 by @dependabot in https://github.com/bit4woo/knife/pull/45 * Bump commons-text from 1.6 to 1.10.0 by @dependabot in https://github.com/bit4woo/knife/pull/53  ## New Contributors * @dependabot made their first contribution in https://github.com/bit4woo/knife/pull/45  **Full Changelog**: https://github.com/bit4woo/knife/compare/v2.0...v2.1"
@@ -2887,7 +2887,7 @@
             "https://github.com/ExpLangcn/NucleiTP": {
                 "created_at": "2022-11-08 13:16:56",
                 "description": "自动整合全网Nuclei的漏洞POC，实时同步更新最新POC！",
-                "commit_date": "2023-03-07 01:15:16",
+                "commit_date": "2023-03-08 01:00:16",
                 "commit_message": "更新啦❤️",
                 "release_tag": "",
                 "release_date": "",
@@ -3195,6 +3195,15 @@
                 "release_tag": "",
                 "release_date": "",
                 "release_message": ""
+            },
+            "https://github.com/SpenserCai/GoWxDump": {
+                "created_at": "2023-02-17 10:10:37",
+                "description": "SharpWxDump的Go语言版。微信客户端取证，获取信息(微信号、手机号、昵称)，微信聊天记录分析(Top N聊天的人、统计聊天最频繁的好友排行、关键词列表搜索等)",
+                "commit_date": "2023-03-07 15:30:57",
+                "commit_message": "Merge branch 'master' of https://github.com/SpenserCai/GoWxDump into master",
+                "release_tag": "v1.0.8",
+                "release_date": "2023-03-07 15:34:53",
+                "release_message": "修复了 #7 中提到的中文昵称乱码的问题"
             }
         },
         "音频隐写": {
@@ -3406,8 +3415,8 @@
             "https://github.com/dbeaver/dbeaver": {
                 "created_at": "2015-10-21 08:26:28",
                 "description": "Free universal database tool and SQL client",
-                "commit_date": "2023-03-06 16:53:13",
-                "commit_message": "#18999 Treat composite as null if its data is null (#19170)",
+                "commit_date": "2023-03-07 13:02:19",
+                "commit_message": "dbeaver/pro#1389 GPT limits remove",
                 "release_tag": "23.0.0",
                 "release_date": "2023-03-05 17:56:39",
                 "release_message": "Changes since 22.3.5: - SQL editor:     - Column metadata resolution was fixed for quoted column names     - SQL console now respects \"open separate connection\" option     - Variables resolve in `set` and other commands was fixed     - Copy/paste command was fixed for editors without associated connection - Data editor:     - Spatial viewer: lasso tool was fixed for Safari browser     - Support of WKT format stored in BLOB columns was added     - Issues with image viewer and BLOB columns was fixed (NullPointer error))     - Selected columns/rows data export was fixed (issue with BLOB value turning into NULL in UI) - Accessibility:     - Font settings are now respected in all editors/popups     - New keyboard shortcuts schema was added \"DBeaver Keyboard Only\"     - Many new keyboard shortcuts were added     - Catalog/schema selector now supports keyboard only mode     - Results tab pin/unpin command is now accessible from keyboard (thanks to hawthorne3341)     - Reader texts were localized - Database dashboard create wizard UI was fixed - Generate SQL dialog now supports connection invalidation - Clickhouse: driver version was updated to 0.4.1 - Dremio: driver version was updated to 24.0 - Firebird: table colum comments support was added - PostgreSQL:     - Issue with URL-based connections was resolved (invalid host name)     - Execution plan parameters are now saved - Redshift: varbyte datatype suport was fixed - SQL Server:     - UI for Kerberos authentication configuration was fixed     - Table colum comments support was added - French localization was fixed (thanks to alexgille) - Problems with Kerberos were resolved (we have reverted to Java 11)"
