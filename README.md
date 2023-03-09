@@ -1,17 +1,17 @@
-# 更新于 2023-03-08 09:13:39
+# 更新于 2023-03-09 09:15:08
 
 ## 近30天release更新记录
 | 更新时间 | 项目名称 | 版本 | 更新内容 |
 | :---- | :---- | :---- | :---- |
+|2023-03-08 12:38:17|[feroxbuster](https://github.com/epi052/feroxbuster)|v2.9.0|## What's Changed * banner is shown aga<br>in after exiting scan management menu by<br> @aancw in https://github.com/epi052/fer<br>oxbuster/pull/804 * improved auto-filter<br>ing accuracy* Fixed issue where a wildca<br>rd redirect caused every request to recu<br>rse into that directory by @epi052 in ht<br>tps://github.com/epi052/feroxbuster/pull<br>/808; id'd by @0xdf223 * fixed bug where<br> --auto-tune and --rate-limit could be s<br>et in the same scan via --smart/--thorou<br>gh composite settings; id'd by @GenericU<br>ser123## New Contributors * @aancw made <br>their first contribution in https://gith<br>ub.com/epi052/feroxbuster/pull/804 :part<br>ying_face:**Full Changelog**: https://gi<br>thub.com/epi052/feroxbuster/compare/v2.8<br>.0...v2.9.0|
+|2023-03-08 07:26:27|[Elkeid](https://github.com/bytedance/Elkeid)|rasp-v2.1<br>.0.11-pre||
 |2023-03-07 15:34:53|[GoWxDump](https://github.com/SpenserCai/GoWxDump)|v1.0.8|修复了 #7 中提到的中文昵称乱码的问题|
 |2023-03-07 01:55:12|[nemo_go](https://github.com/hanc00l/nemo_go)|v2.9.0|### Update： 1、增加用户与角色、权限管<br>理，增加工作空间功能，支持多用户和多项目<br>的资源隔离； 2、增加ip/domain资产的置顶功<br>能； 3、更新xray扫描调用的poc规则和使用方<br>式，xray二进制文件升级到v1.9.4版本； 4、<br>参数配置增加xray配置、api与token的测试。#<br>## 更新注意事项 - 由于数据库的表有重大调<br>整，从v2.8升级需导入**user_workspace.sql*<br>*，并在webfiles目录下新建**b0c79065-7ff7<br>-32ae-cc18-864ccd8f7717**目录（默认的wor<br>kspace），将原webfiles目录下文件迁移至该<br>默认workspace目录下。 - 默认监听端口为500<br>0，默认用户**nemo（超级管理员）**、密码 <br>**nemo** ；通过“Config--配置管理”更改<br>默认密码，通过“System--User“创建和管理<br>用户权限。 - 用户角色分为superadmin、admi<br>n和guest三种； **superadmin（超级管理员<br>）** 可管理用户和工作空间，**admin（管理<br>员）** 可管理资源、任务和参数配置，**gues<br>t（普通用户）** 只有资源和任务的查看权限<br>。 - 工作空间对资源（IP、Domain、任务、组<br>织及漏洞）进行隔离，每个工作空间可分配给<br>不同的用户访问权限。 - 使用默认的nemo（超<br>级管理员）用户登录时，在新建任务前需切换<br>至某一个工作空间，切换方法在Dashboard、IP<br>及Domain页面的右上角。|
 |2023-03-06 08:49:57|[veinmind-tools](https://github.com/chaitin/veinmind-tools)|v2.0.6|## Feature - 降低镜像大小 @286515491## <br>Fix - 敏感信息检测增加文件限制 @testwill<br>- 优化容器逃逸权限检测逻辑 @286515491- <br>修复敏感信息路径扫描 @286515491 |
 |2023-03-06 08:47:39|[ElectricRat](https://github.com/linjiananallnt/ElectricRat)|v1.3.0|# 更新说明 1. 新增越权漏洞案例，包含水<br>平、垂直越权。 2. 增加XSS过滤难度 3. 增加<br>SPEL和SSTI结果输出 4. 新增压缩文件自解压<br>案例# TODO - [x] 越权漏洞# 如何更新 1. 将<br> ElectricRat-docker.zip 中的 ElectricRat<br>.war 覆盖之前的 war 包。 2. 重启 docker<br>。sudo docker restart electricrat-web 3. <br>稍等片刻后，访问 http://127.0.0.1:12666/E<br>lectricRat/ |
 |2023-03-05 17:56:39|[dbeaver](https://github.com/dbeaver/dbeaver)|23.0.0|Changes since 22.3.5: - SQL editor:- Co<br>lumn metadata resolution was fixed for q<br>uoted column names- SQL console now resp<br>ects "open separate connection" option- <br>Variables resolve in set and other comma<br>nds was fixed- Copy/paste command was fi<br>xed for editors without associated conne<br>ction - Data editor:- Spatial viewer: la<br>sso tool was fixed for Safari browser- S<br>upport of WKT format stored in BLOB colu<br>mns was added- Issues with image viewer <br>and BLOB columns was fixed (NullPointer <br>error))- Selected columns/rows data expo<br>rt was fixed (issue with BLOB value turn<br>ing into NULL in UI) - Accessibility:- F<br>ont settings are now respected in all ed<br>itors/popups- New keyboard shortcuts sch<br>ema was added "DBeaver Keyboard Only"- M<br>any new keyboard shortcuts were added- C<br>atalog/schema selector now supports keyb<br>oard only mode- Results tab pin/unpin co<br>mmand is now accessible from keyboard (t<br>hanks to hawthorne3341)- Reader texts we<br>re localized - Database dashboard create<br> wizard UI was fixed - Generate SQL dial<br>og now supports connection invalidation <br>- Clickhouse: driver version was updated<br> to 0.4.1 - Dremio: driver version was u<br>pdated to 24.0 - Firebird: table colum c<br>omments support was added - PostgreSQL:-<br> Issue with URL-based connections was re<br>solved (invalid host name)- Execution pl<br>an parameters are now saved - Redshift: <br>varbyte datatype suport was fixed - SQL <br>Server:- UI for Kerberos authentication <br>configuration was fixed- Table colum com<br>ments support was added - French localiz<br>ation was fixed (thanks to alexgille) - <br>Problems with Kerberos were resolved (we<br> have reverted to Java 11)|
 |2023-03-03 16:59:23|[faker](https://github.com/joke2k/faker)|v17.6.0|See [CHANGELOG.md](https://github.com/j<br>oke2k/faker/blob/refs/tags/v17.6.0/CHANG<br>ELOG.md).|
-|2023-03-01 09:00:39|[Elkeid](https://github.com/bytedance/Elkeid)|rasp-v2.1<br>.0.10-pre||
 |2023-03-01 06:20:26|[Antenna](https://github.com/wuba/Antenna)|v1.3.2|1、优化了任务模块功能逻辑 2、修复python<br>3.6版本不支持socket解析ip的bug|
-|2023-02-28 21:59:33|[feroxbuster](https://github.com/epi052/feroxbuster)|v2.8.0|## What's Changed * Fixes #761 | Update<br>d Dockerfile and CONTRIBUTING docs by @a<br>idanhall34 in https://github.com/epi052/<br>feroxbuster/pull/762 * fixed bug in extr<br>actor that wasn't correctly comparing ex<br>tracted domains * fixed bug in Makefile <br>* fixed auto-bail icon; wasn't displayin<br>g properly on some terminals * added vis<br>ual cues for auto-tune's rate adjustment<br>s * added visual cue when auto-bail is t<br>riggered * when Content-Length header is<br> missing or 0, now check the body length<br> as well in case that differs * fixed is<br>sue where auto-tune wasn't adjusting upw<br>ard as often as it should have been * ad<br>ded new methods for auto-detecting 404-l<br>ike responses * swapped ssdeep for simha<br>sh when creating similarity filters * ch<br>anged default allowed statuses to 'All S<br>tatus Codes', new 404 detection should f<br>ilter out what's unimportant and allow m<br>ore responses through (i.e. apis) * resu<br>me scan starts from offset in wordlist w<br>hen a directory scan was partially compl<br>ete * docs: add aidanhall34 as a contrib<br>utor for code, and infra by @allcontribu<br>tors in https://github.com/epi052/feroxb<br>uster/pull/764 * docs: add hakdogpinas a<br>s a contributor for ideas by @allcontrib<br>utors in https://github.com/epi052/ferox<br>buster/pull/752 * docs: add duokebei as <br>a contributor for ideas by @allcontribut<br>ors in https://github.com/epi052/feroxbu<br>ster/pull/753 * docs: add joaociocca as <br>a contributor for bug, and ideas by @all<br>contributors in https://github.com/epi05<br>2/feroxbuster/pull/790 * docs: add f3rn0<br>s as a contributor for bug by @allcontri<br>butors in https://github.com/epi052/fero<br>xbuster/pull/793 * docs: add pich4ya as <br>a contributor for ideas by @allcontribut<br>ors in https://github.com/epi052/feroxbu<br>ster/pull/799 * docs: add xaeroborg as a<br> contributor for ideas by @allcontributo<br>rs in https://github.com/epi052/feroxbus<br>ter/pull/800 * docs: add Luoooio as a co<br>ntributor for ideas by @allcontributors <br>in https://github.com/epi052/feroxbuster<br>/pull/801## New Contributors * @aidanhal<br>l34 made their first contribution in htt<br>ps://github.com/epi052/feroxbuster/pull/<br>762**Full Changelog**: https://github.co<br>m/epi052/feroxbuster/compare/v2.7.3...v2<br>.8.0|
 |2023-02-28 04:13:35|[OneScan](https://github.com/vaycore/OneScan)|v0.5.2|0.5.2 版本发布，版本更新内容如下：### <br>新增- 主面板新增 Filter 按钮，支持单列、<br>多列过滤规则配置 |
 |2023-02-26 13:06:58|[go_proxy_pool](https://github.com/pingc0y/go_proxy_pool)|2022.11.2<br>2|2022.11.22|
 |2023-02-26 07:27:26|[mitaka](https://github.com/ninoseki/mitaka)|v1.0.0|- Migrate to the Manifest V3 (#703) - R<br>eplace Mocha, Chai and Sinon with Jest (<br>#703) |
@@ -39,14 +39,23 @@
 |2023-02-10 11:17:41|[captcha-killer-modi<br>fied](https://github.com/f0ng/captcha-killer-modified)|0.21-beta|【2023-2-10】 0.21-beta - 优化验证码编<br>码中的\n处理 - 优化@captcha@的判断方式感<br>谢微信群@5ING 、@策马奔腾 师傅反馈|
 |2023-02-09 13:53:05|[github-subdomains](https://github.com/gwen001/github-subdomains)|v1.2.2||
 |2023-02-09 03:57:44|[ysoserial](https://github.com/su18/ysoserial)|v1.3|1. 添加 ROME3、CommonsCollectionsK1、Co<br>mmonsCollectionsK2 利用链； 2. 添加 mcl <br>参数，可以指定在 TransformerUtil 中使用 o<br>rg.mozilla.javascript.DefiningClassLoade<br>r； 3. 添加 f 参数，可以指定将输出写在文<br>件中； 4. 更新 BeanShell 在 2.0b4 上的利<br>用链，并用 ScriptEngineManager 的方式对 B<br>eanShell 链支持内存马； 5. 更新 SpringWe<br>bFlux 内存马（目前仅支持 gz 及 cmd）； 6<br>. 添加 SpringEcho 回显方式； 7. 更新 cmd<br>/冰蝎/哥斯拉 动态添加的逻辑使用纯反射编<br>写； 8. **【重要】**移除 Referer 参数，用<br>于校验的 Referer 头部现改为可自定义 Heade<br>r 头部和值，并将校验逻辑由 equals 改为 c<br>ontains；9. 支持自定义传递执行命令的 Hea<br>der 头； 10. 支持自定义 Godzilla key； 1<br>1. 由于打包问题，移除 RenderedImage 利用<br>链及相关依赖； 12. 更新 Executor 内存马使<br>用 CMD_HEADER_STRING 统一 Header； 13. 优<br>化大量代码，修复若干 BUG，更新 ReadMe。|
-|2023-02-06 09:28:04|[ffuf](https://github.com/ffuf/ffuf)|v2.0.0|## Changelog * e952deb Fix the v2 taggi<br>ng for go install (#639) * 19e07c0 Fix r<br>equired go version (#637) * 77cc45c Prep<br>are for v2.0 release (#635) * c7d0fb5 Gr<br>acefully error in case stdin is used for<br> search result (#634) * 643f6b8 Scraper <br>functionality (#633) * 39c8934 Added add<br>itional proxy URL verification (#574) * <br>bbb97ab Typo fix (#581) * 3b219f2 fix: c<br>hanged usage from version 1.3.0 to versi<br>on 1.5.0 (#595) * 633893c Change precede<br>nce of quiet and JSON output to favour J<br>SON (#570) * 0236210 Add homebrew instal<br>l method (#552) * 7bff9e7 Fix time-based<br> matcher (#575) * ebb4c44 Sniper templat<br>e parsing - fixes #579 (#580) * 9bddff7 <br>New functionality to map fired blind pay<br>loads back to the initial request (#632)<br> * b7adc50 Fix jsonlines output while in<br> silent mode (#630) * 2ce2217 Enhanced r<br>ate limiting (#620) * 1a684a9 Fix the ac<br> for good now (#615) * 3328a28 Fix linte<br>r workflow and autocalibration for lines<br> & words match (#614)|
 ## 近30天commit提交记录
 | 提交时间 | 项目名称 | 更新内容 |
 | :---- | :---- | :---- |
-|2023-03-08 01:00:16|[NucleiTP](https://github.com/ExpLangcn/NucleiTP)|更新啦❤️|
-|2023-03-07 19:12:06|[PocOrExp_in_Github](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-03-08 03:12:06|
-|2023-03-07 15:30:57|[GoWxDump](https://github.com/SpenserCai/GoWxDump)|Merge branch 'master' of https://github.com/SpenserCai<br>/GoWxDump into master|
-|2023-03-07 13:02:19|[dbeaver](https://github.com/dbeaver/dbeaver)|dbeaver/pro#1389 GPT limits remove|
+|2023-03-09 01:00:16|[NucleiTP](https://github.com/ExpLangcn/NucleiTP)|更新啦❤️|
+|2023-03-08 21:39:11|[PocOrExp_in_Github](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-03-09 05:39:11|
+|2023-03-08 15:14:14|[QingTing](https://github.com/StarCrossPortal/QingTing)|更新|
+|2023-03-08 15:12:55|[dbeaver](https://github.com/dbeaver/dbeaver)|dbeaver/pro#1408 convert "string" data type to text du<br>ring data transfer (#19114)* dbeaver/pro#1408 convert "<br>string" data type to text during data transfer* dbeaver<br>/pro#1408 add parameters for varchar data type without <br>info about the length; handle Oracle case* dbeaver/pro#<br>1408 check style and logic* dbeaver/pro#1406 revert str<br>ing into text logic* dbeaver/pro#1408 move all logic to<br> DBStructUtils|
+|2023-03-08 12:20:37|[feroxbuster](https://github.com/epi052/feroxbuster)|added logo for chocolatey packaging|
+|2023-03-08 11:02:42|[ysoserial](https://github.com/su18/ysoserial)|1、增加 rh 参数，指定使用 ScriptEngineManager 时由 rhi<br>no 引擎解析，将使用 bcel 进行加载；
+2、更新 TomcatEcho <br>回显时由 context classloader 加载指定类；
+3、更新命令执<br>行混淆方法在 linux 上没有正确回显的 bug；
+4、打通 BCEL <br>类加载利用链（有优化空间）|
+|2023-03-08 07:12:04|[Elkeid](https://github.com/bytedance/Elkeid)|initialize log directory with temporary path by defaul<br>t|
+|2023-03-08 06:48:42|[domain_hunter_pro](https://github.com/bit4woo/domain_hunter_pro)|Update GrepUtils.java|
+|2023-03-08 06:21:50|[GoWxDump](https://github.com/SpenserCai/GoWxDump)||
+|2023-03-08 03:19:22|[vulnerability](https://github.com/lal0ne/vulnerability)|CVE-2023-21716|
+|2023-03-08 02:32:40|[cf](https://github.com/teamssix/cf)|Merge pull request #214 from teamssix/betaperf: perf i<br>ssue ci|
 |2023-03-07 08:44:53|[knife](https://github.com/bit4woo/knife)|Update ChineseTab.java|
 |2023-03-07 08:34:48|[nemo_go](https://github.com/hanc00l/nemo_go)|Update: gorm 采用数据库连接池模式，提升数据库查询的效<br>率和速度|
 |2023-03-07 07:33:10|[Godzilla](https://github.com/BeichenDream/Godzilla)|Update README.md|
@@ -59,10 +68,7 @@
 |2023-03-06 07:41:58|[Vulhub-Reproduce](https://github.com/Threekiii/Vulhub-Reproduce)|更新漏洞|
 |2023-03-06 07:40:40|[Awesome-POC](https://github.com/Threekiii/Awesome-POC)|更新漏洞|
 |2023-03-06 06:26:34|[murphysec](https://github.com/murphysecurity/murphysec)|chore(deps): bump github.com/go-git/go-git/v5 from 5.5<br>.1 to 5.6.0 (#135)Bumps [github.com/go-git/go-git/v5](h<br>ttps://github.com/go-git/go-git) from 5.5.1 to 5.6.0.- <br>[Release notes](https://github.com/go-git/go-git/releas<br>es)- [Commits](https://github.com/go-git/go-git/compare<br>/v5.5.1...v5.6.0)---updated-dependencies:- dependency-n<br>ame: github.com/go-git/go-git/v5dependency-type: direct<br>:productionupdate-type: version-update:semver-minor...S<br>igned-off-by: dependabot[bot]Co-authored-by: dependabot<br>[bot] |
-|2023-03-06 03:51:07|[domain_hunter_pro](https://github.com/bit4woo/domain_hunter_pro)|提供主动在第三方流量中进行搜索的能力|
 |2023-03-06 02:53:17|[404StarLink](https://github.com/knownsec/404StarLink)|weekly update at 2023-03-06|
-|2023-03-06 02:34:15|[ysoserial](https://github.com/su18/ysoserial)|更新 HelpFormatter 以执行终端大小动态调整，最大宽度 20<br>0|
-|2023-03-06 02:05:16|[Elkeid](https://github.com/bytedance/Elkeid)|Merge pull request #461 from Smartuu/mainfix kmod expo<br>rt|
 |2023-03-05 16:10:52|[OA-EXPTOOL](https://github.com/LittleBear4/OA-EXPTOOL)|Add files via upload|
 |2023-03-05 11:52:21|[K8tools](https://github.com/k8gege/K8tools)|Add files via upload|
 |2023-03-05 02:02:20|[CN_Nessus_Plugins_I<br>nterface](https://github.com/nszy007/CN_Nessus_Plugins_Interface)|20230301|
@@ -75,14 +81,12 @@
 |2023-03-02 13:16:44|[subfinder](https://github.com/projectdiscovery/subfinder)|Merge pull request #776 from projectdiscovery/readme-u<br>pdateUpdate installation requirement to go1.19|
 |2023-03-01 09:10:31|[CVE-2023-21839](https://github.com/4ra1n/CVE-2023-21839)|Update README.md|
 |2023-03-01 08:05:58|[Log4j2Scan](https://github.com/whwlsfb/Log4j2Scan)|replace fastjson to org.json.|
-|2023-02-28 21:55:12|[feroxbuster](https://github.com/epi052/feroxbuster)|Merge pull request #801 from epi052/all-contributors/a<br>dd-Luoooiodocs: add Luoooio as a contributor for ideas|
 |2023-02-28 14:00:08|[BurpSuite-collectio<br>ns](https://github.com/Mr-xn/BurpSuite-collections)|add npscrack：蓝队利器、溯源反制、NPS 漏洞利用、NPS ex<br>p、NPS poc、一键利用的BurpSuite插件最新版（202212之后）<br>激活项目|
 |2023-02-28 08:55:23|[0day](https://github.com/helloexp/0day)|optimize directory|
 |2023-02-28 07:33:37|[RmTools](https://github.com/RoomaSec/RmTools)|11|
 |2023-02-28 06:05:45|[Awesome-Exploit](https://github.com/Threekiii/Awesome-Exploit)|更新CVE-2023-21839 Exploit|
 |2023-02-28 04:04:03|[OneScan](https://github.com/vaycore/OneScan)|更新说明文档及截图，添加设置过滤规则配置说明；更新版本<br>号0.5.2|
 |2023-02-28 00:18:27|[Platypus](https://github.com/WangYihang/Platypus)|build(deps): bump http-cache-semantics in /web/fronten<br>d (#180)Bumps [http-cache-semantics](https://github.com<br>/kornelski/http-cache-semantics) from 4.1.0 to 4.1.1.- <br>[Release notes](https://github.com/kornelski/http-cache<br>-semantics/releases)- [Commits](https://github.com/korn<br>elski/http-cache-semantics/compare/v4.1.0...v4.1.1)---u<br>pdated-dependencies:- dependency-name: http-cache-seman<br>ticsdependency-type: indirect...Signed-off-by: dependab<br>ot[bot]Co-authored-by: dependabot[bot] |
-|2023-02-27 02:18:43|[vulnerability](https://github.com/lal0ne/vulnerability)|CVE-2023-21839|
 |2023-02-26 13:10:45|[go_proxy_pool](https://github.com/pingc0y/go_proxy_pool)|Delete src directory|
 |2023-02-26 07:24:32|[mitaka](https://github.com/ninoseki/mitaka)|Merge pull request #708 from ninoseki/change-packagech<br>ore: use plasmo build--zip for packaging [skip ci]|
 |2023-02-26 00:31:50|[qsnctf-python](https://github.com/Moxin1044/qsnctf-python)|更新版本到0.0.8.9|
@@ -130,11 +134,8 @@
 |2023-02-09 13:53:02|[github-subdomains](https://github.com/gwen001/github-subdomains)|v1.2.2|
 |2023-02-09 07:22:30|[X-Marshal](https://github.com/XTeam-Wing/X-Marshal)|Update README.md|
 |2023-02-08 23:30:22|[log4j-shell-poc](https://github.com/kozmer/log4j-shell-poc)|:)|
-|2023-02-08 13:55:17|[QingTing](https://github.com/StarCrossPortal/QingTing)|add code|
 |2023-02-08 03:49:42|[ARL](https://github.com/TophantTechnology/ARL)|Merge pull request #480 from chasenz/masterUpdate nucl<br>ei dump|
-|2023-02-08 02:14:56|[SharpWxDump](https://github.com/AdminTest0/SharpWxDump)|Update README.md|
-|2023-02-06 04:48:56|[cola_dnslog](https://github.com/AbelChe/cola_dnslog)|Merge pull request #26 from AbelChe/1.3.2fix webserver<br> 404|
-|2023-02-06 03:07:24|[passive-scan-client<br>-plus](https://github.com/winezer0/passive-scan-client-plus)|update readme|## 所有项目
+|2023-02-08 02:14:56|[SharpWxDump](https://github.com/AdminTest0/SharpWxDump)|Update README.md|## 所有项目
 ### 信息收集
 #### 资产测绘采集
 | 项目名称 | 版本 | 项目描述 |
@@ -158,7 +159,7 @@
 | :---- | :---- | :---- |
 | [dirsearch](https://github.com/maurosoria/dirsearch) | v0.4.3 | Web path scanner |
 | [URLFinder](https://github.com/pingc0y/URLFinder) | 2023.2.21 | 类似JSFinder的golang实现，一款用于快速提取检测页面中JS与URL的工<br>具，更快更全更舒服 |
-| [feroxbuster](https://github.com/epi052/feroxbuster) | v2.8.0 | A fast, simple, recursive content discovery tool written in Rust<br>. |
+| [feroxbuster](https://github.com/epi052/feroxbuster) | v2.9.0 | A fast, simple, recursive content discovery tool written in Rust<br>. |
 | [ffuf](https://github.com/ffuf/ffuf) | v2.0.0 | Fast web fuzzer written in Go |
 | [dirmap](https://github.com/H4ckForJob/dirmap) |  | An advanced web directory & file scanning tool that will be more<br> powerful than DirBuster, Dirsearch, cansina, and Yu Jian.一个高<br>级web目录、文件扫描工具，功能将会强于DirBuster、Dirsearch、cansina<br>、御剑。 |
 | [cansina](https://github.com/deibit/cansina) | 1.0.0 | Web Content Discovery Tool |
@@ -760,7 +761,7 @@
 #### 主机入侵检测
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
-| [Elkeid](https://github.com/bytedance/Elkeid) | rasp-v2.1<br>.0.10-pre | Elkeid is an open source solution that can meet the security req<br>uirements of various workloads such as hosts, containers and K8s,<br> and serverless. It is derived from ByteDance's internal best pra<br>ctices. |
+| [Elkeid](https://github.com/bytedance/Elkeid) | rasp-v2.1<br>.0.11-pre | Elkeid is an open source solution that can meet the security req<br>uirements of various workloads such as hosts, containers and K8s,<br> and serverless. It is derived from ByteDance's internal best pra<br>ctices. |
 | [Hades](https://github.com/theSecHunter/Hades) |  | Hades is an cross-platform HIDS with kernel-space data collectio<br>n. |
 #### Web应用防火墙
 | 项目名称 | 版本 | 项目描述 |
