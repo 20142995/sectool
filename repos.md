@@ -392,3 +392,5 @@
 |相关资源|工具集成环境|https://github.com/ghealer/GUI_Tools|
 |相关资源|代理池|https://github.com/ja9er/Gofreeproxy|
 |CTF杂项|取证分析|https://github.com/SpenserCai/GoWxDump|
+|漏洞发现&利用|代码审计|https://github.com/webraybtl/CodeQLpy|
+|CTF综合|工具集|https://github.com/Harveysn0w/CTF_Hacker-Tools|
