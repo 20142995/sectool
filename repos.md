@@ -394,3 +394,7 @@
 |CTF杂项|取证分析|https://github.com/SpenserCai/GoWxDump|
 |漏洞发现&利用|代码审计|https://github.com/webraybtl/CodeQLpy|
 |CTF综合|工具集|https://github.com/Harveysn0w/CTF_Hacker-Tools|
+|信息收集|资产测绘采集|https://github.com/G3et/Search_Viewer|
+|漏洞发现&利用|漏洞利用辅助|https://github.com/WhiteHSBG/JNDIExploit|
+|漏洞发现&利用|漏洞利用辅助|https://github.com/Mr-xn/JNDIExploit-1|
+|漏洞发现&利用|漏洞利用辅助|https://github.com/0x727/JNDIExploit|
