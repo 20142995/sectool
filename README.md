@@ -1,11 +1,13 @@
-# 更新于 2023-03-09 09:15:08
+# 更新于 2023-03-10 09:13:34
 
 ## 近30天release更新记录
 | 更新时间 | 项目名称 | 版本 | 更新内容 |
 | :---- | :---- | :---- | :---- |
+|2023-03-09 12:20:40|[ysoserial](https://github.com/su18/ysoserial)|v1.4|1. Transformer[] / BeanShell / C3P02 利<br>用链支持 LF 加载本地 class 文件功能； 2. <br>更新 JbossEcho 支持 JBoss-4.2.3.GA； 3. <br>更新 Struts2 回显及 Action 内存马； 4. 移<br>除 Tomcat Listener NeoReg 流量隧道、移除 <br>EncryptedTranscoder 及依赖； 5. 支持 suo<br>5 利用方式； 6. 更新命令执行混淆支持 win<br>dows/linux/unix jdk 1.6； 7. 修改打包 de<br>bug 信息为 false； 8. 更新 javassist 版<br>本，进行一些降低 payload 的尝试； 9. 更新<br> HelpFormatter 以执行终端大小动态调整，<br>最大宽度 200； 10. 打通 BCEL 类加载利用链<br>（详见代码）； 11. 使用 ScriptEngineManag<br>er 区分 Nashorn/Rhino 引擎，Rhino 使用 B<br>CEL 曲线救国类加载； 12. 增加 CC12 用 De<br>faultedMap 替换 LazyMap。|
+|2023-03-09 08:37:22|[GoWxDump](https://github.com/SpenserCai/GoWxDump)|v1.0.9|通过注册表自从查找微信数据目录|
+|2023-03-09 04:49:16|[JDumpSpider](https://github.com/whwlsfb/JDumpSpider)|V1.1|- 项目重构，增强不同环境下的兼容性。 - <br>增加类字段的用户信息模糊搜索功能。|
 |2023-03-08 12:38:17|[feroxbuster](https://github.com/epi052/feroxbuster)|v2.9.0|## What's Changed * banner is shown aga<br>in after exiting scan management menu by<br> @aancw in https://github.com/epi052/fer<br>oxbuster/pull/804 * improved auto-filter<br>ing accuracy* Fixed issue where a wildca<br>rd redirect caused every request to recu<br>rse into that directory by @epi052 in ht<br>tps://github.com/epi052/feroxbuster/pull<br>/808; id'd by @0xdf223 * fixed bug where<br> --auto-tune and --rate-limit could be s<br>et in the same scan via --smart/--thorou<br>gh composite settings; id'd by @GenericU<br>ser123## New Contributors * @aancw made <br>their first contribution in https://gith<br>ub.com/epi052/feroxbuster/pull/804 :part<br>ying_face:**Full Changelog**: https://gi<br>thub.com/epi052/feroxbuster/compare/v2.8<br>.0...v2.9.0|
 |2023-03-08 07:26:27|[Elkeid](https://github.com/bytedance/Elkeid)|rasp-v2.1<br>.0.11-pre||
-|2023-03-07 15:34:53|[GoWxDump](https://github.com/SpenserCai/GoWxDump)|v1.0.8|修复了 #7 中提到的中文昵称乱码的问题|
 |2023-03-07 01:55:12|[nemo_go](https://github.com/hanc00l/nemo_go)|v2.9.0|### Update： 1、增加用户与角色、权限管<br>理，增加工作空间功能，支持多用户和多项目<br>的资源隔离； 2、增加ip/domain资产的置顶功<br>能； 3、更新xray扫描调用的poc规则和使用方<br>式，xray二进制文件升级到v1.9.4版本； 4、<br>参数配置增加xray配置、api与token的测试。#<br>## 更新注意事项 - 由于数据库的表有重大调<br>整，从v2.8升级需导入**user_workspace.sql*<br>*，并在webfiles目录下新建**b0c79065-7ff7<br>-32ae-cc18-864ccd8f7717**目录（默认的wor<br>kspace），将原webfiles目录下文件迁移至该<br>默认workspace目录下。 - 默认监听端口为500<br>0，默认用户**nemo（超级管理员）**、密码 <br>**nemo** ；通过“Config--配置管理”更改<br>默认密码，通过“System--User“创建和管理<br>用户权限。 - 用户角色分为superadmin、admi<br>n和guest三种； **superadmin（超级管理员<br>）** 可管理用户和工作空间，**admin（管理<br>员）** 可管理资源、任务和参数配置，**gues<br>t（普通用户）** 只有资源和任务的查看权限<br>。 - 工作空间对资源（IP、Domain、任务、组<br>织及漏洞）进行隔离，每个工作空间可分配给<br>不同的用户访问权限。 - 使用默认的nemo（超<br>级管理员）用户登录时，在新建任务前需切换<br>至某一个工作空间，切换方法在Dashboard、IP<br>及Domain页面的右上角。|
 |2023-03-06 08:49:57|[veinmind-tools](https://github.com/chaitin/veinmind-tools)|v2.0.6|## Feature - 降低镜像大小 @286515491## <br>Fix - 敏感信息检测增加文件限制 @testwill<br>- 优化容器逃逸权限检测逻辑 @286515491- <br>修复敏感信息路径扫描 @286515491 |
 |2023-03-06 08:47:39|[ElectricRat](https://github.com/linjiananallnt/ElectricRat)|v1.3.0|# 更新说明 1. 新增越权漏洞案例，包含水<br>平、垂直越权。 2. 增加XSS过滤难度 3. 增加<br>SPEL和SSTI结果输出 4. 新增压缩文件自解压<br>案例# TODO - [x] 越权漏洞# 如何更新 1. 将<br> ElectricRat-docker.zip 中的 ElectricRat<br>.war 覆盖之前的 war 包。 2. 重启 docker<br>。sudo docker restart electricrat-web 3. <br>稍等片刻后，访问 http://127.0.0.1:12666/E<br>lectricRat/ |
@@ -38,23 +40,28 @@
 |2023-02-10 14:36:44|[nuclei](https://github.com/projectdiscovery/nuclei)|v2.8.9|## What's Changed* **Fixed URL encoding<br> issues in paths by @tarunKoyalwar** in <br>https://github.com/projectdiscovery/nucl<br>ei/pull/3294 * **Fixed panic crash with <br>ratelimit by @tarunKoyalwar** in https:/<br>/github.com/projectdiscovery/nuclei/pull<br>/3257 * Fixed path handling inconsistenc<br>ies by @tarunKoyalwar in https://github.<br>com/projectdiscovery/nuclei/pull/3243 * <br>Fixed data race in templates with payloa<br>ds by @tarunKoyalwar in https://github.c<br>om/projectdiscovery/nuclei/pull/3265 * *<br>*Fixed using httpx as a library for http<br> probing by @Ice3man543** in https://git<br>hub.com/projectdiscovery/nuclei/pull/326<br>1 * Fixed data race in race requests by <br>@tarunKoyalwar in https://github.com/pro<br>jectdiscovery/nuclei/pull/3275 * Fixed p<br>ublish docs workflow by @tarunKoyalwar i<br>n https://github.com/projectdiscovery/nu<br>clei/pull/3296 * Fixed retryablehttp for<br> templates loading by @Mzack9999 in http<br>s://github.com/projectdiscovery/nuclei/p<br>ull/3291 * Fixed aes_cbc helper function<br> update by @Ice3man543 in https://github<br>.com/projectdiscovery/nuclei/pull/3287 *<br> Fixed json schema for extractor attribu<br>te by @Mzack9999 in https://github.com/p<br>rojectdiscovery/nuclei/pull/3240 * **Add<br>ed env variable support in reporting con<br>fig by @xm1k3** in https://github.com/pr<br>ojectdiscovery/nuclei/pull/3188 * Added <br>proxy use in headless binary download by<br> @Mzack9999 in https://github.com/projec<br>tdiscovery/nuclei/pull/3290 * **Added in<br>teractsh payload input support in TLS SN<br>I field by @Mzack9999** in https://githu<br>b.com/projectdiscovery/nuclei/pull/3276I<br>ssues closed in the release - https://gi<br>thub.com/projectdiscovery/nuclei/milesto<br>ne/26?closed=1## New Contributors * @M-F<br>aheem-Khan made their first contribution<br> in https://github.com/projectdiscovery/<br>nuclei/pull/3235 * @galoget made their f<br>irst contribution in https://github.com/<br>projectdiscovery/nuclei/pull/3299**Full <br>Changelog**: https://github.com/projectd<br>iscovery/nuclei/compare/v2.8.8...v2.8.9|
 |2023-02-10 11:17:41|[captcha-killer-modi<br>fied](https://github.com/f0ng/captcha-killer-modified)|0.21-beta|【2023-2-10】 0.21-beta - 优化验证码编<br>码中的\n处理 - 优化@captcha@的判断方式感<br>谢微信群@5ING 、@策马奔腾 师傅反馈|
 |2023-02-09 13:53:05|[github-subdomains](https://github.com/gwen001/github-subdomains)|v1.2.2||
-|2023-02-09 03:57:44|[ysoserial](https://github.com/su18/ysoserial)|v1.3|1. 添加 ROME3、CommonsCollectionsK1、Co<br>mmonsCollectionsK2 利用链； 2. 添加 mcl <br>参数，可以指定在 TransformerUtil 中使用 o<br>rg.mozilla.javascript.DefiningClassLoade<br>r； 3. 添加 f 参数，可以指定将输出写在文<br>件中； 4. 更新 BeanShell 在 2.0b4 上的利<br>用链，并用 ScriptEngineManager 的方式对 B<br>eanShell 链支持内存马； 5. 更新 SpringWe<br>bFlux 内存马（目前仅支持 gz 及 cmd）； 6<br>. 添加 SpringEcho 回显方式； 7. 更新 cmd<br>/冰蝎/哥斯拉 动态添加的逻辑使用纯反射编<br>写； 8. **【重要】**移除 Referer 参数，用<br>于校验的 Referer 头部现改为可自定义 Heade<br>r 头部和值，并将校验逻辑由 equals 改为 c<br>ontains；9. 支持自定义传递执行命令的 Hea<br>der 头； 10. 支持自定义 Godzilla key； 1<br>1. 由于打包问题，移除 RenderedImage 利用<br>链及相关依赖； 12. 更新 Executor 内存马使<br>用 CMD_HEADER_STRING 统一 Header； 13. 优<br>化大量代码，修复若干 BUG，更新 ReadMe。|
 ## 近30天commit提交记录
 | 提交时间 | 项目名称 | 更新内容 |
 | :---- | :---- | :---- |
-|2023-03-09 01:00:16|[NucleiTP](https://github.com/ExpLangcn/NucleiTP)|更新啦❤️|
-|2023-03-08 21:39:11|[PocOrExp_in_Github](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-03-09 05:39:11|
+|2023-03-09 21:43:05|[PocOrExp_in_Github](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-03-10 05:43:05|
+|2023-03-09 20:22:05|[dbeaver](https://github.com/dbeaver/dbeaver)|#19288 External schema read: ignore database (#19308)|
+|2023-03-09 16:15:15|[NucleiTP](https://github.com/ExpLangcn/NucleiTP)|更新啦❤️|
+|2023-03-09 14:17:46|[geacon_pro](https://github.com/H4de5-7/geacon_pro)|Update README.md|
+|2023-03-09 12:10:07|[domain_hunter_pro](https://github.com/bit4woo/domain_hunter_pro)|update|
+|2023-03-09 11:43:40|[ysoserial](https://github.com/su18/ysoserial)|更新版本号|
+|2023-03-09 11:13:36|[iDefender](https://github.com/wecooperate/iDefender)|update|
+|2023-03-09 11:13:26|[HackBrowserData](https://github.com/moonD4rk/HackBrowserData)|Merge pull request #198 from moonD4rk/feat/logfix: wro<br>ng log caller skip level|
+|2023-03-09 08:35:52|[GoWxDump](https://github.com/SpenserCai/GoWxDump)|fixed #5|
+|2023-03-09 07:15:13|[vulnerability](https://github.com/lal0ne/vulnerability)|CVE-2022-27596|
+|2023-03-09 06:46:28|[murphysec](https://github.com/murphysecurity/murphysec)|chore(deps): bump github.com/muesli/termenv from 0.14.<br>0 to 0.15.0 (#142)Bumps [github.com/muesli/termenv](htt<br>ps://github.com/muesli/termenv) from 0.14.0 to 0.15.0.-<br> [Release notes](https://github.com/muesli/termenv/rele<br>ases)- [Commits](https://github.com/muesli/termenv/comp<br>are/v0.14.0...v0.15.0)---updated-dependencies:- depende<br>ncy-name: github.com/muesli/termenvdependency-type: dir<br>ect:productionupdate-type: version-update:semver-minor.<br>..Signed-off-by: dependabot[bot]Co-authored-by: dependa<br>bot[bot] |
+|2023-03-09 06:43:18|[JDumpSpider](https://github.com/whwlsfb/JDumpSpider)|update build instruction|
+|2023-03-09 04:32:58|[qsnctf-python](https://github.com/Moxin1044/qsnctf-python)|更新README|
+|2023-03-09 01:46:12|[0day](https://github.com/helloexp/0day)|Merge pull request #7 from mbskter/patch-1Update READM<br>E.md|
+|2023-03-09 01:32:50|[Vulnerability-Wiki](https://github.com/Threekiii/Vulnerability-Wiki)|更新漏洞|
+|2023-03-09 01:29:47|[Awesome-POC](https://github.com/Threekiii/Awesome-POC)|更新漏洞|
 |2023-03-08 15:14:14|[QingTing](https://github.com/StarCrossPortal/QingTing)|更新|
-|2023-03-08 15:12:55|[dbeaver](https://github.com/dbeaver/dbeaver)|dbeaver/pro#1408 convert "string" data type to text du<br>ring data transfer (#19114)* dbeaver/pro#1408 convert "<br>string" data type to text during data transfer* dbeaver<br>/pro#1408 add parameters for varchar data type without <br>info about the length; handle Oracle case* dbeaver/pro#<br>1408 check style and logic* dbeaver/pro#1406 revert str<br>ing into text logic* dbeaver/pro#1408 move all logic to<br> DBStructUtils|
 |2023-03-08 12:20:37|[feroxbuster](https://github.com/epi052/feroxbuster)|added logo for chocolatey packaging|
-|2023-03-08 11:02:42|[ysoserial](https://github.com/su18/ysoserial)|1、增加 rh 参数，指定使用 ScriptEngineManager 时由 rhi<br>no 引擎解析，将使用 bcel 进行加载；
-2、更新 TomcatEcho <br>回显时由 context classloader 加载指定类；
-3、更新命令执<br>行混淆方法在 linux 上没有正确回显的 bug；
-4、打通 BCEL <br>类加载利用链（有优化空间）|
 |2023-03-08 07:12:04|[Elkeid](https://github.com/bytedance/Elkeid)|initialize log directory with temporary path by defaul<br>t|
-|2023-03-08 06:48:42|[domain_hunter_pro](https://github.com/bit4woo/domain_hunter_pro)|Update GrepUtils.java|
-|2023-03-08 06:21:50|[GoWxDump](https://github.com/SpenserCai/GoWxDump)||
-|2023-03-08 03:19:22|[vulnerability](https://github.com/lal0ne/vulnerability)|CVE-2023-21716|
 |2023-03-08 02:32:40|[cf](https://github.com/teamssix/cf)|Merge pull request #214 from teamssix/betaperf: perf i<br>ssue ci|
 |2023-03-07 08:44:53|[knife](https://github.com/bit4woo/knife)|Update ChineseTab.java|
 |2023-03-07 08:34:48|[nemo_go](https://github.com/hanc00l/nemo_go)|Update: gorm 采用数据库连接池模式，提升数据库查询的效<br>率和速度|
@@ -64,10 +71,7 @@
 |2023-03-06 08:46:31|[veinmind-tools](https://github.com/chaitin/veinmind-tools)|fix(veinmind-sensitive):fix scan path (#205)fix(veinmi<br>nd-sensitive):fix scan pathCo-authored-by: GiveMeAShell<br> |
 |2023-03-06 08:41:18|[ElectricRat](https://github.com/linjiananallnt/ElectricRat)|Update README.md|
 |2023-03-06 07:44:32|[Awesome-Redteam](https://github.com/Threekiii/Awesome-Redteam)|更新README.md|
-|2023-03-06 07:44:06|[Vulnerability-Wiki](https://github.com/Threekiii/Vulnerability-Wiki)|更新漏洞|
 |2023-03-06 07:41:58|[Vulhub-Reproduce](https://github.com/Threekiii/Vulhub-Reproduce)|更新漏洞|
-|2023-03-06 07:40:40|[Awesome-POC](https://github.com/Threekiii/Awesome-POC)|更新漏洞|
-|2023-03-06 06:26:34|[murphysec](https://github.com/murphysecurity/murphysec)|chore(deps): bump github.com/go-git/go-git/v5 from 5.5<br>.1 to 5.6.0 (#135)Bumps [github.com/go-git/go-git/v5](h<br>ttps://github.com/go-git/go-git) from 5.5.1 to 5.6.0.- <br>[Release notes](https://github.com/go-git/go-git/releas<br>es)- [Commits](https://github.com/go-git/go-git/compare<br>/v5.5.1...v5.6.0)---updated-dependencies:- dependency-n<br>ame: github.com/go-git/go-git/v5dependency-type: direct<br>:productionupdate-type: version-update:semver-minor...S<br>igned-off-by: dependabot[bot]Co-authored-by: dependabot<br>[bot] |
 |2023-03-06 02:53:17|[404StarLink](https://github.com/knownsec/404StarLink)|weekly update at 2023-03-06|
 |2023-03-05 16:10:52|[OA-EXPTOOL](https://github.com/LittleBear4/OA-EXPTOOL)|Add files via upload|
 |2023-03-05 11:52:21|[K8tools](https://github.com/k8gege/K8tools)|Add files via upload|
@@ -82,15 +86,12 @@
 |2023-03-01 09:10:31|[CVE-2023-21839](https://github.com/4ra1n/CVE-2023-21839)|Update README.md|
 |2023-03-01 08:05:58|[Log4j2Scan](https://github.com/whwlsfb/Log4j2Scan)|replace fastjson to org.json.|
 |2023-02-28 14:00:08|[BurpSuite-collectio<br>ns](https://github.com/Mr-xn/BurpSuite-collections)|add npscrack：蓝队利器、溯源反制、NPS 漏洞利用、NPS ex<br>p、NPS poc、一键利用的BurpSuite插件最新版（202212之后）<br>激活项目|
-|2023-02-28 08:55:23|[0day](https://github.com/helloexp/0day)|optimize directory|
 |2023-02-28 07:33:37|[RmTools](https://github.com/RoomaSec/RmTools)|11|
 |2023-02-28 06:05:45|[Awesome-Exploit](https://github.com/Threekiii/Awesome-Exploit)|更新CVE-2023-21839 Exploit|
 |2023-02-28 04:04:03|[OneScan](https://github.com/vaycore/OneScan)|更新说明文档及截图，添加设置过滤规则配置说明；更新版本<br>号0.5.2|
 |2023-02-28 00:18:27|[Platypus](https://github.com/WangYihang/Platypus)|build(deps): bump http-cache-semantics in /web/fronten<br>d (#180)Bumps [http-cache-semantics](https://github.com<br>/kornelski/http-cache-semantics) from 4.1.0 to 4.1.1.- <br>[Release notes](https://github.com/kornelski/http-cache<br>-semantics/releases)- [Commits](https://github.com/korn<br>elski/http-cache-semantics/compare/v4.1.0...v4.1.1)---u<br>pdated-dependencies:- dependency-name: http-cache-seman<br>ticsdependency-type: indirect...Signed-off-by: dependab<br>ot[bot]Co-authored-by: dependabot[bot] |
 |2023-02-26 13:10:45|[go_proxy_pool](https://github.com/pingc0y/go_proxy_pool)|Delete src directory|
 |2023-02-26 07:24:32|[mitaka](https://github.com/ninoseki/mitaka)|Merge pull request #708 from ninoseki/change-packagech<br>ore: use plasmo build--zip for packaging [skip ci]|
-|2023-02-26 00:31:50|[qsnctf-python](https://github.com/Moxin1044/qsnctf-python)|更新版本到0.0.8.9|
-|2023-02-25 08:15:59|[geacon_pro](https://github.com/H4de5-7/geacon_pro)|Update README_zh.md|
 |2023-02-24 13:25:09|[ysomap](https://github.com/wh1t3p1g/ysomap)|update|
 |2023-02-24 08:22:11|[naabu](https://github.com/projectdiscovery/naabu)|Merge pull request #571 from projectdiscovery/devnaabu<br> v2.1.2|
 |2023-02-24 06:58:54|[Intranet_Penetratio<br>n_Tips](https://github.com/Ridter/Intranet_Penetration_Tips)|增加Exchange利用|
@@ -109,7 +110,6 @@
 |2023-02-19 18:06:05|[wxapkgUnpack](https://github.com/jdr2021/wxapkgUnpack)|Update README.md|
 |2023-02-19 16:36:47|[RedisEXP](https://github.com/yuyan-sec/RedisEXP)|解决支持中文路径|
 |2023-02-19 12:41:37|[ffuf](https://github.com/ffuf/ffuf)|Fix HTML output (#640)|
-|2023-02-19 08:02:01|[iDefender](https://github.com/wecooperate/iDefender)|update|
 |2023-02-18 16:06:17|[super-xray](https://github.com/4ra1n/super-xray)|macos|
 |2023-02-18 00:01:09|[nuclei](https://github.com/projectdiscovery/nuclei)|chore(deps): bump golang.org/x/net from 0.6.0 to 0.7.0<br> in /v2 (#3337)Bumps [golang.org/x/net](https://github.<br>com/golang/net) from 0.6.0 to 0.7.0.- [Release notes](h<br>ttps://github.com/golang/net/releases)- [Commits](https<br>://github.com/golang/net/compare/v0.6.0...v0.7.0)---upd<br>ated-dependencies:- dependency-name: golang.org/x/netde<br>pendency-type: direct:production...Signed-off-by: depen<br>dabot[bot]Co-authored-by: dependabot[bot] |
 |2023-02-17 03:44:49|[OutLook](https://github.com/KrystianLi/OutLook)|Update|
@@ -308,7 +308,7 @@
 | [Antenna](https://github.com/wuba/Antenna) | v1.3.2 | Antenna是58同城安全团队打造的一款辅助安全从业人员验证网络中多种<br>漏洞是否存在以及可利用性的工具。其基于带外应用安全测试(OAST)通过任<br>务的形式，将不同漏洞场景检测能力通过插件的形式进行集合，通过与目标<br>进行out-bind的数据通信方式进行辅助检测。 |
 | [cola_dnslog](https://github.com/AbelChe/cola_dnslog) | v1.3.2 | Cola Dnslog v1.3.2 更加强大的dnslog平台/无回显漏洞探测辅助平台 <br>完全开源 dnslog httplog ldaplog rmilog 支持dns http ldap rmi等协议<br> 提供API调用方式便于与其他工具结合 支持钉钉机器人、Bark等提醒 支<br>持docker一键部署 后端完全使用python实现 前端基于vue-element-admin<br>二开 |
 | [ddddocr](https://github.com/sml2h3/ddddocr) |  | 带带弟弟 通用验证码识别OCR pypi版 |
-| [ysoserial](https://github.com/su18/ysoserial) | v1.3 | ysoserial for su18 |
+| [ysoserial](https://github.com/su18/ysoserial) | v1.4 | ysoserial for su18 |
 #### 重点CMS利用
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
@@ -346,7 +346,7 @@
 | [SecretFinder](https://github.com/m4ll0k/SecretFinder) |  | SecretFinder - A python script for find sensitive data (apikeys,<br> accesstoken,jwt,..) and search anything on javascript files  |
 | [JSFScan.sh](https://github.com/KathanP19/JSFScan.sh) |  | Automation for javascript recon in bug bounty.  |
 | [SubOver](https://github.com/Ice3man543/SubOver) | v1.2 | A Powerful Subdomain Takeover Tool |
-| [JDumpSpider](https://github.com/whwlsfb/JDumpSpider) |  | HeapDump敏感信息提取工具 |
+| [JDumpSpider](https://github.com/whwlsfb/JDumpSpider) | V1.1 | HeapDump敏感信息提取工具 |
 #### 口令爆破
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
@@ -672,7 +672,7 @@
 | [Sharp-dumpkey](https://github.com/Ormicron/Sharp-dumpkey) | 1 | 基于C#实现的获取微信数据库密钥的小工具 |
 | [Sunflower_get_Passw<br>ord](https://github.com/wafinfo/Sunflower_get_Password) |  | 一款针对向日葵的识别码和验证码提取工具 |
 | [SharpWxDump](https://github.com/AdminTest0/SharpWxDump) |  | 微信客户端取证，可获取用户个人信息(昵称/账号/手机/邮箱/数据库密<br>钥(用来解密聊天记录))；支持获取多用户信息，不定期更新新版本偏移，<br>目前支持所有新版本、正式版本 |
-| [GoWxDump](https://github.com/SpenserCai/GoWxDump) | v1.0.8 | SharpWxDump的Go语言版。微信客户端取证，获取信息(微信号、手机号、<br>昵称)，微信聊天记录分析(Top N聊天的人、统计聊天最频繁的好友排行、<br>关键词列表搜索等) |
+| [GoWxDump](https://github.com/SpenserCai/GoWxDump) | v1.0.9 | SharpWxDump的Go语言版。微信客户端取证，获取信息(微信号、手机号、<br>昵称)，微信聊天记录分析(Top N聊天的人、统计聊天最频繁的好友排行、<br>关键词列表搜索等) |
 #### 音频隐写
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |

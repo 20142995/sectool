@@ -1109,11 +1109,11 @@
             "https://github.com/su18/ysoserial": {
                 "created_at": "2021-07-26 01:20:01",
                 "description": "ysoserial for su18",
-                "commit_date": "2023-03-08 11:02:42",
-                "commit_message": "1、增加 rh 参数，指定使用 ScriptEngineManager 时由 rhino 引擎解析，将使用 bcel 进行加载；\n2、更新 TomcatEcho 回显时由 context classloader 加载指定类；\n3、更新命令执行混淆方法在 linux 上没有正确回显的 bug；\n4、打通 BCEL 类加载利用链（有优化空间）",
-                "release_tag": "v1.3",
-                "release_date": "2023-02-09 03:57:44",
-                "release_message": "1. 添加 ROME3、CommonsCollectionsK1、CommonsCollectionsK2 利用链； 2. 添加 mcl 参数，可以指定在 TransformerUtil 中使用 org.mozilla.javascript.DefiningClassLoader； 3. 添加 f 参数，可以指定将输出写在文件中； 4. 更新 BeanShell 在 2.0b4 上的利用链，并用 ScriptEngineManager 的方式对 BeanShell 链支持内存马； 5. 更新 SpringWebFlux 内存马（目前仅支持 gz 及 cmd）； 6. 添加 SpringEcho 回显方式； 7. 更新 cmd/冰蝎/哥斯拉 动态添加的逻辑使用纯反射编写； 8. **【重要】**移除 Referer 参数，用于校验的 Referer 头部现改为可自定义 Header 头部和值，并将校验逻辑由 equals 改为 contains；  9. 支持自定义传递执行命令的 Header 头； 10. 支持自定义 Godzilla key； 11. 由于打包问题，移除 RenderedImage 利用链及相关依赖； 12. 更新 Executor 内存马使用 CMD_HEADER_STRING 统一 Header； 13. 优化大量代码，修复若干 BUG，更新 ReadMe。"
+                "commit_date": "2023-03-09 11:43:40",
+                "commit_message": "更新版本号",
+                "release_tag": "v1.4",
+                "release_date": "2023-03-09 12:20:40",
+                "release_message": "1. Transformer[] / BeanShell / C3P02 利用链支持 LF 加载本地 class 文件功能； 2. 更新 JbossEcho 支持 JBoss-4.2.3.GA； 3. 更新 Struts2 回显及 Action 内存马； 4. 移除 Tomcat Listener NeoReg 流量隧道、移除 EncryptedTranscoder 及依赖； 5. 支持 suo5 利用方式； 6. 更新命令执行混淆支持 windows/linux/unix jdk 1.6； 7. 修改打包 debug 信息为 false； 8. 更新 javassist 版本，进行一些降低 payload 的尝试； 9. 更新 HelpFormatter 以执行终端大小动态调整，最大宽度 200； 10. 打通 BCEL 类加载利用链（详见代码）； 11. 使用 ScriptEngineManager 区分 Nashorn/Rhino 引擎，Rhino 使用 BCEL 曲线救国类加载； 12. 增加 CC12 用 DefaultedMap 替换 LazyMap。"
             }
         },
         "重点CMS利用": {
@@ -1399,11 +1399,11 @@
             "https://github.com/whwlsfb/JDumpSpider": {
                 "created_at": "2022-01-05 07:30:39",
                 "description": "HeapDump敏感信息提取工具",
-                "commit_date": "2023-02-02 02:36:25",
-                "commit_message": "add SpringSecurityUsernamePasswordAuthenticationToken spider.",
-                "release_tag": "",
-                "release_date": "",
-                "release_message": ""
+                "commit_date": "2023-03-09 06:43:18",
+                "commit_message": "update build instruction",
+                "release_tag": "V1.1",
+                "release_date": "2023-03-09 04:49:16",
+                "release_message": "- 项目重构，增强不同环境下的兼容性。 - 增加类字段的用户信息模糊搜索功能。"
             }
         },
         "口令爆破": {
@@ -1493,8 +1493,8 @@
             "https://github.com/helloexp/0day": {
                 "created_at": "2022-04-07 04:28:29",
                 "description": "各种CMS、各种平台、各种系统、各种软件漏洞的EXP、POC ,该项目将持续更新",
-                "commit_date": "2023-02-28 08:55:23",
-                "commit_message": "optimize directory",
+                "commit_date": "2023-03-09 01:46:12",
+                "commit_message": "Merge pull request #7 from mbskter/patch-1\n\nUpdate README.md",
                 "release_tag": "",
                 "release_date": "",
                 "release_message": ""
@@ -1511,8 +1511,8 @@
             "https://github.com/lal0ne/vulnerability": {
                 "created_at": "2022-01-20 02:48:42",
                 "description": "收集、整理、修改互联网上公开的漏洞POC",
-                "commit_date": "2023-03-08 03:19:22",
-                "commit_message": "CVE-2023-21716",
+                "commit_date": "2023-03-09 07:15:13",
+                "commit_message": "CVE-2022-27596",
                 "release_tag": "",
                 "release_date": "",
                 "release_message": ""
@@ -1538,8 +1538,8 @@
             "https://github.com/ycdxsb/PocOrExp_in_Github": {
                 "created_at": "2021-04-13 05:46:16",
                 "description": "聚合Github上已有的Poc或者Exp，CVE信息来自CVE官网。Auto Collect Poc Or Exp from Github by CVE ID.",
-                "commit_date": "2023-03-08 21:39:11",
-                "commit_message": "update 2023-03-09 05:39:11",
+                "commit_date": "2023-03-09 21:43:05",
+                "commit_message": "update 2023-03-10 05:43:05",
                 "release_tag": "",
                 "release_date": "",
                 "release_message": ""
@@ -1585,7 +1585,7 @@
             "https://github.com/Threekiii/Awesome-POC": {
                 "created_at": "2022-02-20 06:43:22",
                 "description": "一个各类漏洞POC知识库",
-                "commit_date": "2023-03-06 07:40:40",
+                "commit_date": "2023-03-09 01:29:47",
                 "commit_message": "更新漏洞",
                 "release_tag": "",
                 "release_date": "",
@@ -1594,7 +1594,7 @@
             "https://github.com/Threekiii/Vulnerability-Wiki": {
                 "created_at": "2022-04-29 05:36:33",
                 "description": "一个综合漏洞知识库，集成了Vulhub、Peiqi、Edge、0sec、Wooyun等开源漏洞库",
-                "commit_date": "2023-03-06 07:44:06",
+                "commit_date": "2023-03-09 01:32:50",
                 "commit_message": "更新漏洞",
                 "release_tag": "v1.0",
                 "release_date": "2022-07-15 01:58:00",
@@ -1712,8 +1712,8 @@
             "https://github.com/murphysecurity/murphysec": {
                 "created_at": "2022-03-16 02:52:33",
                 "description": "An open source tool focused on software supply chain security. 墨菲安全专注于软件供应链安全，具备专业的软件成分分析（SCA）、漏洞检测、专业漏洞库。",
-                "commit_date": "2023-03-06 06:26:34",
-                "commit_message": "chore(deps): bump github.com/go-git/go-git/v5 from 5.5.1 to 5.6.0 (#135)\n\nBumps [github.com/go-git/go-git/v5](https://github.com/go-git/go-git) from 5.5.1 to 5.6.0.\r\n- [Release notes](https://github.com/go-git/go-git/releases)\r\n- [Commits](https://github.com/go-git/go-git/compare/v5.5.1...v5.6.0)\r\n\r\n---\r\nupdated-dependencies:\r\n- dependency-name: github.com/go-git/go-git/v5\r\n  dependency-type: direct:production\r\n  update-type: version-update:semver-minor\r\n...\r\n\r\nSigned-off-by: dependabot[bot] <support@github.com>\r\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
+                "commit_date": "2023-03-09 06:46:28",
+                "commit_message": "chore(deps): bump github.com/muesli/termenv from 0.14.0 to 0.15.0 (#142)\n\nBumps [github.com/muesli/termenv](https://github.com/muesli/termenv) from 0.14.0 to 0.15.0.\r\n- [Release notes](https://github.com/muesli/termenv/releases)\r\n- [Commits](https://github.com/muesli/termenv/compare/v0.14.0...v0.15.0)\r\n\r\n---\r\nupdated-dependencies:\r\n- dependency-name: github.com/muesli/termenv\r\n  dependency-type: direct:production\r\n  update-type: version-update:semver-minor\r\n...\r\n\r\nSigned-off-by: dependabot[bot] <support@github.com>\r\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
                 "release_tag": "v3.0.1",
                 "release_date": "2023-02-13 07:25:06",
                 "release_message": ""
@@ -1814,8 +1814,8 @@
             "https://github.com/moonD4rk/HackBrowserData": {
                 "created_at": "2020-06-18 03:24:31",
                 "description": "Decrypt passwords/cookies/history/bookmarks from the browser. 一款可全平台运行的浏览器数据导出解密工具。",
-                "commit_date": "2023-01-22 01:31:18",
-                "commit_message": "chore: update contributors [skip ci]",
+                "commit_date": "2023-03-09 11:13:26",
+                "commit_message": "Merge pull request #198 from moonD4rk/feat/log\n\nfix: wrong log caller skip level",
                 "release_tag": "v0.4.4",
                 "release_date": "2022-08-16 11:59:57",
                 "release_message": "## Changes - fix: find Chrome cookie file failed on windows @moonD4rk (#162) - deploy: update more check on CI @moonD4rk (#160) - refactor: formate code by golangci-lint @moonD4rk (#159) - fix: can not access the file Error when compress results @slimwang (#156)"
@@ -2213,8 +2213,8 @@
             "https://github.com/bit4woo/domain_hunter_pro": {
                 "created_at": "2019-01-18 07:15:15",
                 "description": "domain_hunter的高级版本，SRC挖洞、HW打点之必备！自动化资产收集；快速Title获取；外部工具联动；等等",
-                "commit_date": "2023-03-08 06:48:42",
-                "commit_message": "Update GrepUtils.java",
+                "commit_date": "2023-03-09 12:10:07",
+                "commit_message": "update",
                 "release_tag": "v1.9-alpha",
                 "release_date": "2022-11-18 09:37:35",
                 "release_message": "**这是重构版本，与旧版本不兼容！！！ 这是重构版本，与旧版本不兼容！！！ 这是重构版本，与旧版本不兼容！！！**  重新设计了数据库的表结构，尽量提升数据库读写效率 重新设计了数据对象、UI、数据库之间的数据同步逻辑 重新设计了数据存储的基础类，保证线程安全 重新设计了table中model类的部分逻辑，减少内存占用  优化了数据对象的字段，尽量减小每个数据对象的内存占用 优化了数据提取的正则表达式和逻辑 优化了根域名、网段作控制目标范围的逻辑 优化了当根域名、网段变化时，数据的刷新逻辑 优化了数据数据加载逻辑 其他各种逻辑优化、bug修改  总之就是大动作，和旧版本不兼容，可能存在潜在bug（虽然我已经试用一段时间，排除了很多bug），所以发布一个alpha版本在正式版本之前。  欢迎试用提交bug，使用时建议创建新的项目数据库，不要使用旧数据库文件。"
@@ -2887,7 +2887,7 @@
             "https://github.com/ExpLangcn/NucleiTP": {
                 "created_at": "2022-11-08 13:16:56",
                 "description": "自动整合全网Nuclei的漏洞POC，实时同步更新最新POC！",
-                "commit_date": "2023-03-09 01:00:16",
+                "commit_date": "2023-03-09 16:15:15",
                 "commit_message": "更新啦❤️",
                 "release_tag": "",
                 "release_date": "",
@@ -3003,8 +3003,8 @@
             "https://github.com/H4de5-7/geacon_pro": {
                 "created_at": "2022-10-27 12:07:00",
                 "description": "跨平台重构了Cobaltstrike Beacon，适配了大部分Beacon的功能，行为对国内主流杀软免杀，支持4.1以上的版本。 A cross-platform CobaltStrike Beacon bypass anti-virus, supports 4.1+ version.",
-                "commit_date": "2023-02-25 08:15:59",
-                "commit_message": "Update README_zh.md",
+                "commit_date": "2023-03-09 14:17:46",
+                "commit_message": "Update README.md",
                 "release_tag": "geacon_pro_v1.3",
                 "release_date": "2023-02-05 15:40:56",
                 "release_message": "2023.2.3 v1.3 更新日志  1.新增unhook(ntdll.dll,kernel32.dll,kernelbase.dll) 2.新增argue欺骗 3.修复了drives部分情况下错误、keylogger中文会乱码、dllinject远程注入失败、自删除部分情况下失败、upload时在原文件基础上append的BUG 4.将os.Exit(0)修改为return，避免转换成反射型dll注入后退出宿主进程 5.优化代码结构与sysinfo的显示"
@@ -3199,11 +3199,11 @@
             "https://github.com/SpenserCai/GoWxDump": {
                 "created_at": "2023-02-17 10:10:37",
                 "description": "SharpWxDump的Go语言版。微信客户端取证，获取信息(微信号、手机号、昵称)，微信聊天记录分析(Top N聊天的人、统计聊天最频繁的好友排行、关键词列表搜索等)",
-                "commit_date": "2023-03-08 06:21:50",
-                "commit_message": "",
-                "release_tag": "v1.0.8",
-                "release_date": "2023-03-07 15:34:53",
-                "release_message": "修复了 #7 中提到的中文昵称乱码的问题"
+                "commit_date": "2023-03-09 08:35:52",
+                "commit_message": "fixed #5",
+                "release_tag": "v1.0.9",
+                "release_date": "2023-03-09 08:37:22",
+                "release_message": "通过注册表自从查找微信数据目录"
             }
         },
         "音频隐写": {
@@ -3265,8 +3265,8 @@
             "https://github.com/Moxin1044/qsnctf-python": {
                 "created_at": "2023-01-01 01:56:43",
                 "description": "青少年CTF的Python包，方便大家调用一些CTF常用功能。",
-                "commit_date": "2023-02-26 00:31:50",
-                "commit_message": "更新版本到0.0.8.9",
+                "commit_date": "2023-03-09 04:32:58",
+                "commit_message": "更新README",
                 "release_tag": "0.0.8.9",
                 "release_date": "2023-02-26 00:35:49",
                 "release_message": "更新了之前版本不存在的Web请求timeout导致扫描时间过长，在0.0.8.9版本已修复此问题。 您甚至可以指定timeout，感谢问题反馈！"
@@ -3415,8 +3415,8 @@
             "https://github.com/dbeaver/dbeaver": {
                 "created_at": "2015-10-21 08:26:28",
                 "description": "Free universal database tool and SQL client",
-                "commit_date": "2023-03-08 15:12:55",
-                "commit_message": "dbeaver/pro#1408 convert \"string\" data type to text during data transfer (#19114)\n\n* dbeaver/pro#1408 convert \"string\" data type to text during data transfer\r\n\r\n* dbeaver/pro#1408 add parameters for varchar data type without info about the length; handle Oracle case\r\n\r\n* dbeaver/pro#1408 check style and logic\r\n\r\n* dbeaver/pro#1406 revert string into text logic\r\n\r\n* dbeaver/pro#1408 move all logic to DBStructUtils",
+                "commit_date": "2023-03-09 20:22:05",
+                "commit_message": "#19288 External schema read: ignore database (#19308)",
                 "release_tag": "23.0.0",
                 "release_date": "2023-03-05 17:56:39",
                 "release_message": "Changes since 22.3.5: - SQL editor:     - Column metadata resolution was fixed for quoted column names     - SQL console now respects \"open separate connection\" option     - Variables resolve in `set` and other commands was fixed     - Copy/paste command was fixed for editors without associated connection - Data editor:     - Spatial viewer: lasso tool was fixed for Safari browser     - Support of WKT format stored in BLOB columns was added     - Issues with image viewer and BLOB columns was fixed (NullPointer error))     - Selected columns/rows data export was fixed (issue with BLOB value turning into NULL in UI) - Accessibility:     - Font settings are now respected in all editors/popups     - New keyboard shortcuts schema was added \"DBeaver Keyboard Only\"     - Many new keyboard shortcuts were added     - Catalog/schema selector now supports keyboard only mode     - Results tab pin/unpin command is now accessible from keyboard (thanks to hawthorne3341)     - Reader texts were localized - Database dashboard create wizard UI was fixed - Generate SQL dialog now supports connection invalidation - Clickhouse: driver version was updated to 0.4.1 - Dremio: driver version was updated to 24.0 - Firebird: table colum comments support was added - PostgreSQL:     - Issue with URL-based connections was resolved (invalid host name)     - Execution plan parameters are now saved - Redshift: varbyte datatype suport was fixed - SQL Server:     - UI for Kerberos authentication configuration was fixed     - Table colum comments support was added - French localization was fixed (thanks to alexgille) - Problems with Kerberos were resolved (we have reverted to Java 11)"
@@ -3561,7 +3561,7 @@
             "https://github.com/wecooperate/iDefender": {
                 "created_at": "2021-11-24 11:38:28",
                 "description": "iDefender（冰盾 - 终端主动防御系统）",
-                "commit_date": "2023-02-19 08:02:01",
+                "commit_date": "2023-03-09 11:13:36",
                 "commit_message": "update",
                 "release_tag": "2.4.0",
                 "release_date": "2023-02-19 06:32:53",
