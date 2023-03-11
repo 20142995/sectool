@@ -400,3 +400,4 @@
 |漏洞发现&利用|漏洞利用辅助|https://github.com/0x727/JNDIExploit|
 |内网渗透|免杀|https://github.com/1y0n/AV_Evasion_Tool|
 |工具&插件|nuclei|https://github.com/Yong-An-Dang/nuclei-plus|
+|信息收集|C段信息收集|https://github.com/SleepingBag945/IPSearch|
