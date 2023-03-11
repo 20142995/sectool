@@ -1,13 +1,16 @@
-# 更新于 2023-03-10 09:13:34
+# 更新于 2023-03-11 09:03:52
 
 ## 近30天release更新记录
 | 更新时间 | 项目名称 | 版本 | 更新内容 |
 | :---- | :---- | :---- | :---- |
+|2023-03-10 10:16:15|[log4j2burpscanner](https://github.com/f0ng/log4j2burpscanner)|0.23.0|# 0.23.0 update ## 2023-3-10 1. set nor<br>mal payload as preferred 2. add the vuln<br>erability display of payload containing <br>variables 3. optimize the problem of not<br> displaying vulnerability points _______<br>________________________________________<br>______________ 1. 将正常payload设为首选<br>，在内网ip中运行 2. 增加payload含有变量的<br>漏洞显示 3. 优化漏洞点不显示问题 4. 修复<br>漏洞|
+|2023-03-10 07:42:24|[iDefender](https://github.com/wecooperate/iDefender)|2.5.0|**重大版本，建议更新**- 添加基础防护能<br>力- **智能防护：** 利用智能分析和识别恶意<br>软件行为，提供实时防护机制，确保系统免受<br>恶意软件侵害- **系统优化：** 拦截非必要的<br>软件和联网行为，提高系统运行速度和稳定性<br>，提供更优秀的用户体验- **安全加固：** 拦<br>截系统存在漏洞的组件和常见入侵途径，增强<br>系统安全性，避免遭受恶意软件攻击- **漏洞<br>防御：** 根据已知漏洞入侵方式开发专门的防<br>御规则，保障系统不受黑客攻击和恶意软件入<br>侵- **模板支持自动在线更新**- 规则记录添<br>加右键菜单 - 路径参数添加粘贴支持（方便快<br>速录入多条数据） - 路径参数添加多选删除 -<br> 弹框添加进程命令行信息（方便查看脚本进<br>程对应的脚本文件） - 添加规则过滤 - 优化<br>一些界面使用体验 - 修复一些问题软件下载|
+|2023-03-10 07:17:13|[Elkeid](https://github.com/bytedance/Elkeid)|rasp-v2.2<br>.0.3-pre||
+|2023-03-10 03:32:44|[code6](https://github.com/4x99/code6)|1.6.4|### 更新日志 - 特性：[ 扫描结果 ] 支持<br>导出单页 CSV 数据（#245） - 优化：[ 扫描<br>结果 ] 新增支持 “处理人”、“说明” 字段<br>搜索（#247） - 修复：[ Docker 部署 ] 修复<br>重启可能导致配置项异常问题（#248） - 修复<br>：[ 扫描任务 ] 待执行任务配置被删导致扫描<br>队列阻塞问题（#252） - 修复：[ 通知配置 ]<br> 更新企业群消息机器人文档地址 - 特性：[ <br>通知配置 ] 邮件通知支持 SSL/TLS 加密（#24<br>7）### 升级指南 #### 源码安装 直接拉取最<br>新代码#### Docker 安装 拉取最新代码、创建<br>镜像并启动容器即可#### Docker-Compose 安<br>装 拉取最新代码启动容器即可 |
 |2023-03-09 12:20:40|[ysoserial](https://github.com/su18/ysoserial)|v1.4|1. Transformer[] / BeanShell / C3P02 利<br>用链支持 LF 加载本地 class 文件功能； 2. <br>更新 JbossEcho 支持 JBoss-4.2.3.GA； 3. <br>更新 Struts2 回显及 Action 内存马； 4. 移<br>除 Tomcat Listener NeoReg 流量隧道、移除 <br>EncryptedTranscoder 及依赖； 5. 支持 suo<br>5 利用方式； 6. 更新命令执行混淆支持 win<br>dows/linux/unix jdk 1.6； 7. 修改打包 de<br>bug 信息为 false； 8. 更新 javassist 版<br>本，进行一些降低 payload 的尝试； 9. 更新<br> HelpFormatter 以执行终端大小动态调整，<br>最大宽度 200； 10. 打通 BCEL 类加载利用链<br>（详见代码）； 11. 使用 ScriptEngineManag<br>er 区分 Nashorn/Rhino 引擎，Rhino 使用 B<br>CEL 曲线救国类加载； 12. 增加 CC12 用 De<br>faultedMap 替换 LazyMap。|
 |2023-03-09 08:37:22|[GoWxDump](https://github.com/SpenserCai/GoWxDump)|v1.0.9|通过注册表自从查找微信数据目录|
 |2023-03-09 04:49:16|[JDumpSpider](https://github.com/whwlsfb/JDumpSpider)|V1.1|- 项目重构，增强不同环境下的兼容性。 - <br>增加类字段的用户信息模糊搜索功能。|
 |2023-03-08 12:38:17|[feroxbuster](https://github.com/epi052/feroxbuster)|v2.9.0|## What's Changed * banner is shown aga<br>in after exiting scan management menu by<br> @aancw in https://github.com/epi052/fer<br>oxbuster/pull/804 * improved auto-filter<br>ing accuracy* Fixed issue where a wildca<br>rd redirect caused every request to recu<br>rse into that directory by @epi052 in ht<br>tps://github.com/epi052/feroxbuster/pull<br>/808; id'd by @0xdf223 * fixed bug where<br> --auto-tune and --rate-limit could be s<br>et in the same scan via --smart/--thorou<br>gh composite settings; id'd by @GenericU<br>ser123## New Contributors * @aancw made <br>their first contribution in https://gith<br>ub.com/epi052/feroxbuster/pull/804 :part<br>ying_face:**Full Changelog**: https://gi<br>thub.com/epi052/feroxbuster/compare/v2.8<br>.0...v2.9.0|
-|2023-03-08 07:26:27|[Elkeid](https://github.com/bytedance/Elkeid)|rasp-v2.1<br>.0.11-pre||
 |2023-03-07 01:55:12|[nemo_go](https://github.com/hanc00l/nemo_go)|v2.9.0|### Update： 1、增加用户与角色、权限管<br>理，增加工作空间功能，支持多用户和多项目<br>的资源隔离； 2、增加ip/domain资产的置顶功<br>能； 3、更新xray扫描调用的poc规则和使用方<br>式，xray二进制文件升级到v1.9.4版本； 4、<br>参数配置增加xray配置、api与token的测试。#<br>## 更新注意事项 - 由于数据库的表有重大调<br>整，从v2.8升级需导入**user_workspace.sql*<br>*，并在webfiles目录下新建**b0c79065-7ff7<br>-32ae-cc18-864ccd8f7717**目录（默认的wor<br>kspace），将原webfiles目录下文件迁移至该<br>默认workspace目录下。 - 默认监听端口为500<br>0，默认用户**nemo（超级管理员）**、密码 <br>**nemo** ；通过“Config--配置管理”更改<br>默认密码，通过“System--User“创建和管理<br>用户权限。 - 用户角色分为superadmin、admi<br>n和guest三种； **superadmin（超级管理员<br>）** 可管理用户和工作空间，**admin（管理<br>员）** 可管理资源、任务和参数配置，**gues<br>t（普通用户）** 只有资源和任务的查看权限<br>。 - 工作空间对资源（IP、Domain、任务、组<br>织及漏洞）进行隔离，每个工作空间可分配给<br>不同的用户访问权限。 - 使用默认的nemo（超<br>级管理员）用户登录时，在新建任务前需切换<br>至某一个工作空间，切换方法在Dashboard、IP<br>及Domain页面的右上角。|
 |2023-03-06 08:49:57|[veinmind-tools](https://github.com/chaitin/veinmind-tools)|v2.0.6|## Feature - 降低镜像大小 @286515491## <br>Fix - 敏感信息检测增加文件限制 @testwill<br>- 优化容器逃逸权限检测逻辑 @286515491- <br>修复敏感信息路径扫描 @286515491 |
 |2023-03-06 08:47:39|[ElectricRat](https://github.com/linjiananallnt/ElectricRat)|v1.3.0|# 更新说明 1. 新增越权漏洞案例，包含水<br>平、垂直越权。 2. 增加XSS过滤难度 3. 增加<br>SPEL和SSTI结果输出 4. 新增压缩文件自解压<br>案例# TODO - [x] 越权漏洞# 如何更新 1. 将<br> ElectricRat-docker.zip 中的 ElectricRat<br>.war 覆盖之前的 war 包。 2. 重启 docker<br>。sudo docker restart electricrat-web 3. <br>稍等片刻后，访问 http://127.0.0.1:12666/E<br>lectricRat/ |
@@ -24,8 +27,8 @@
 |2023-02-22 09:37:42|[HaE](https://github.com/gh0stkey/HaE)|2.4.6|HaE 2.4.6 更新内容： 1. 加入多线程对数<br>据进行匹配和提取，减少卡顿现象； 2. 变更<br>配置文件更新地址为jsdelivr的CDN节点地址，<br>优化国内用户体验。|
 |2023-02-21 03:59:42|[URLFinder](https://github.com/pingc0y/URLFinder)|2023.2.21|2023/2/21 修复 已知bug|
 |2023-02-19 17:36:35|[wxapkgUnpack](https://github.com/jdr2021/wxapkgUnpack)|1.0||
-|2023-02-19 06:32:53|[iDefender](https://github.com/wecooperate/iDefender)|2.4.0|- 添加更多的响应动作支持（拦截、**弹框*<br>*、记录）- **添加拦截弹框交互支持**- 添<br>加弹框信任列表- **添加网络端口防火墙支持*<br>*- 可以拦截永恒之蓝漏洞等- **添加导入默<br>认规则**、规则导入、规则导出功能 - 优化规<br>则列表界面- 支持Switch直接切换开启、关闭-<br> 支持响应动作下拉框切换- 支持多选、del键<br>删除- 规则编辑界面支持添加规则说明 - 添加<br>开机默认启动托盘（弹框需要托盘进程的支持<br>） - 拦截记录添加响应动作列（方便识别记录<br>模式） - 优化一些界面使用体验 - 修复一些<br>问题软件下载|
 |2023-02-18 15:11:13|[super-xray](https://github.com/4ra1n/super-xray)|1.5|## 1.5更新内容： - [important] [improve<br>] 更简洁更好用的新UI #144 - [important] <br>[feat] 支持拖拽xray文件加载 #140 - [impo<br>rtant] [feat] 允许设置日志等级 #146 - [b<br>ug] CPU占用较高问题RAD修复不完善 #139 - <br>[feat] 增加一键修复/还原的功能 #143 - [f<br>eat] 自动检查版本更新并提示 #142 - [impr<br>ove] 反连HTTP URL输入的验证 #145下载： -<br> super-xray-1.5.jar 版本通过java -jar su<br>per-xray-1.5.jar启动 - super-xray-1.5-jr<br>e-exe.zip 是内置了JRE的exe版本 - super-x<br>ray-1.5-system-jre.exe 是使用系统JRE的ex<br>e版本 - Super-Xray.app.zip 是 Mac OS 的 <br>app (测试版可能有bug)|
+|2023-02-17 13:57:27|[Search_Viewer](https://github.com/G3et/Search_Viewer)|v2.0|版本：v2.0 2023/02/17·修复导出时间戳·修<br>复Hunter情况恢复页码·界面稍微调整·新增360<br> Quake·新增Zoomeye 钟馗之眼|
 |2023-02-17 13:04:31|[RequestTemplate](https://github.com/1n7erface/RequestTemplate)|v1.1.2|2023.2.17 21:00 1.更新了多个模块报错|
 |2023-02-17 03:46:29|[OutLook](https://github.com/KrystianLi/OutLook)|v1.2.0|1、优化代码和操作界面 2、新增数据保存功<br>能，导出格式为xls|
 |2023-02-16 15:01:33|[npscrack](https://github.com/weishen250/npscrack)|npscrack-<br>1.0||
@@ -33,7 +36,6 @@
 |2023-02-15 02:41:43|[SpringBoot-Scan-GUI](https://github.com/13exp/SpringBoot-Scan-GUI)|v1.2.2|针对CVE-2022-22965，增加shell验证减少误<br>报，新增加操作系统识别功能，若需使用，可<br>从菜单【更多】，前往nmap下载使用，识别仅<br>支持单地址|
 |2023-02-14 09:25:00|[SmsForwarder](https://github.com/pppscn/SmsForwarder)|v3.2.0|PS. 距离上一次1024发版，已经过去快5个月<br>了，期间发生不少事，一直没更新这个项目，<br>不管如何，魔幻的2022年都过去了！感谢大家<br>这2年来的陪伴与支持，祝大家有情人终成眷属<br>，情人节快乐！---### 【注意】* v3.x版本是<br>全新重构开发，可能一开始并不稳定，建议升<br>级前先做好数据备份！（客户端>一键换新机><br>离线模式>导出）* v3.2.0 去除了 mmkv 依赖<br>，采用 SharedPreferences 来保存配置，升级<br>之后通用设置中的配置请重新配置，具体原因<br>参见 [Issue #245](https://github.com/ppps<br>cn/SmsForwarder/issues/245)* 升级完毕后<br>，建议离线导出配置，完全卸载干净全新安装<br>后再导入配置（可以避免一些莫名其妙的玄学<br>问题，例如：耗电异常）---### 更新日志* 新<br>增：短信指令（根据短信指令开关对应功能） <br>#I5YX3F * 新增：监听网络状态变化提醒（AP<br>P通知转发，包名：77777777） #259 * 新增<br>：远程改话簿（方便给老人家添加联系人） #2<br>56 * 新增：远程查询手机定位（方便找回手<br>机/防止老少走丢） #256 * 新增：Socket发送<br>通道（支持MQTT/TCP/UDP协议） #252 * 新增<br>：发送通道 URL Scheme（支持跨应用数据传递<br>）#250 * 新增：自动消除额外APP通知 #232 #<br>248* 优化：短信/通话转发获取卡槽信息机制<br>（自行备注卡槽SubId对应）#228 #235 * 优化<br>：来电转发逻辑 & 新增提醒类型（1.来电挂机<br> 2.去电挂机 3.未接来电 4.来电提醒 5.来电<br>接通 6.去电拨出） * 优化：单个转发规则支<br>持绑定多个发送通道，且支持执行逻辑（全部<br>执行/失败即止/成功即止） #247 * 优化：转<br>发日志列表以原始信息为主，聚合展示转发日<br>志（一对多） * 优化：已安装App信息列表异<br>步加载机制 * 优化：电池状态监听/网络状态<br>监控 在未开启去重时默认开启1秒去重 * 优化<br>：利用BatteryReceiver守护自启动的Frpc (试<br>验) #254* 修复：Android 13 无法授予通知权<br>限 #255 * 修复：重启手机自动启动APP时加载<br>配置失败 #233 #245 * 修复：转发消息遍历发<br>送通道时未跳过已禁用的通道 * 修复：降级An<br>droid Gradle插件版本以兼容4.4 (#249 by N<br>yaMisty)* 升级：andserver到2.1.12（加快w<br>eb端上下行速度等） * 升级：frpclib 到 v0<br>.47.0 * 升级：androidx组件和kotlin版本还<br>有一些细微调整参见github提交记录---### AP<br>K版本说明： * universal: 通用版（不在乎<br>安装包大小/懒得选就用这个版本，包含以下4<br>种CPU架构so） * armeabi-v7a: 32位ARM设备<br>（备用机首选） * arm64-v8a: 64位ARM设备（<br>主流旗舰机） * x86: 32位Intel设备 * x86_6<br>4: 64/32位Intel设备|
 |2023-02-14 09:00:35|[shell-analyzer](https://github.com/4ra1n/shell-analyzer)|0.1|提供了三个jar文件： - agent.jar是核心文<br>件，请保持与gui.jar或remote.jar同目录 - g<br>ui.jar是GUI客户端，本地和远程分析都需要 <br>- remote.jar用于远程分析，本地分析无需下<br>载|
-|2023-02-14 05:23:46|[log4j2burpscanner](https://github.com/f0ng/log4j2burpscanner)|0.22.0|# 0.22.0 更新 ## 2023-2-14fix problem #<br>58修复数据包中uri带有完整域名的问题，感<br>谢@0xWi11 师傅反馈|
 |2023-02-13 07:25:06|[murphysec](https://github.com/murphysecurity/murphysec)|v3.0.1||
 |2023-02-13 06:07:53|[rotateproxy](https://github.com/akkuman/rotateproxy)|v0.7.2|## Changelog * 10ddfd1 fix: modernc.org<br>/sqlite 不支持 win 386|
 |2023-02-13 03:33:11|[ENScan_GO](https://github.com/wgpsec/ENScan_GO)|V0.0.9|**bugfix** - 修复JSON导出问题 fix #46 -<br> 修复天眼查日期问题 fix #43 - 修复阿拉丁<br>导出bug fix #30**new** - 增加只在终端显示<br>不导出文件 fix #25|
@@ -43,28 +45,31 @@
 ## 近30天commit提交记录
 | 提交时间 | 项目名称 | 更新内容 |
 | :---- | :---- | :---- |
-|2023-03-09 21:43:05|[PocOrExp_in_Github](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-03-10 05:43:05|
-|2023-03-09 20:22:05|[dbeaver](https://github.com/dbeaver/dbeaver)|#19288 External schema read: ignore database (#19308)|
-|2023-03-09 16:15:15|[NucleiTP](https://github.com/ExpLangcn/NucleiTP)|更新啦❤️|
+|2023-03-11 01:00:16|[NucleiTP](https://github.com/ExpLangcn/NucleiTP)|更新啦❤️|
+|2023-03-10 22:19:52|[feroxbuster](https://github.com/epi052/feroxbuster)|fixed broken test|
+|2023-03-10 21:41:21|[PocOrExp_in_Github](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-03-11 05:41:21|
+|2023-03-10 16:18:51|[dbeaver](https://github.com/dbeaver/dbeaver)|Remove unused localization string (#19332)|
+|2023-03-10 16:04:54|[K8tools](https://github.com/k8gege/K8tools)|Add files via upload|
+|2023-03-10 15:46:44|[nemo_go](https://github.com/hanc00l/nemo_go)|Update: 增加xscan的ip归属地查询功能|
+|2023-03-10 13:05:05|[ysoserial](https://github.com/su18/ysoserial)|更新 BC 使用方式 ReadMe|
+|2023-03-10 10:56:55|[domain_hunter_pro](https://github.com/bit4woo/domain_hunter_pro)|Update DomainManager.java|
+|2023-03-10 07:46:13|[iDefender](https://github.com/wecooperate/iDefender)|2.5.0|
+|2023-03-10 07:12:27|[HackBrowserData](https://github.com/moonD4rk/HackBrowserData)|Merge pull request #199 from moonD4rk/feat/layoutfeat/<br>layout: format project layout|
+|2023-03-10 06:38:33|[log4j2burpscanner](https://github.com/f0ng/log4j2burpscanner)|Update README.md|
+|2023-03-10 06:09:22|[murphysec](https://github.com/murphysecurity/murphysec)|chore(deps): bump github.com/muesli/termenv from 0.15.<br>0 to 0.15.1 (#144)Bumps [github.com/muesli/termenv](htt<br>ps://github.com/muesli/termenv) from 0.15.0 to 0.15.1.-<br> [Release notes](https://github.com/muesli/termenv/rele<br>ases)- [Commits](https://github.com/muesli/termenv/comp<br>are/v0.15.0...v0.15.1)---updated-dependencies:- depende<br>ncy-name: github.com/muesli/termenvdependency-type: dir<br>ect:productionupdate-type: version-update:semver-patch.<br>..Signed-off-by: dependabot[bot]Co-authored-by: dependa<br>bot[bot] |
+|2023-03-10 03:31:53|[code6](https://github.com/4x99/code6)|Merge pull request #255 from 4x99/developv1.6.|
+|2023-03-10 02:50:32|[Elkeid](https://github.com/bytedance/Elkeid)|using RASP runner|
 |2023-03-09 14:17:46|[geacon_pro](https://github.com/H4de5-7/geacon_pro)|Update README.md|
-|2023-03-09 12:10:07|[domain_hunter_pro](https://github.com/bit4woo/domain_hunter_pro)|update|
-|2023-03-09 11:43:40|[ysoserial](https://github.com/su18/ysoserial)|更新版本号|
-|2023-03-09 11:13:36|[iDefender](https://github.com/wecooperate/iDefender)|update|
-|2023-03-09 11:13:26|[HackBrowserData](https://github.com/moonD4rk/HackBrowserData)|Merge pull request #198 from moonD4rk/feat/logfix: wro<br>ng log caller skip level|
 |2023-03-09 08:35:52|[GoWxDump](https://github.com/SpenserCai/GoWxDump)|fixed #5|
 |2023-03-09 07:15:13|[vulnerability](https://github.com/lal0ne/vulnerability)|CVE-2022-27596|
-|2023-03-09 06:46:28|[murphysec](https://github.com/murphysecurity/murphysec)|chore(deps): bump github.com/muesli/termenv from 0.14.<br>0 to 0.15.0 (#142)Bumps [github.com/muesli/termenv](htt<br>ps://github.com/muesli/termenv) from 0.14.0 to 0.15.0.-<br> [Release notes](https://github.com/muesli/termenv/rele<br>ases)- [Commits](https://github.com/muesli/termenv/comp<br>are/v0.14.0...v0.15.0)---updated-dependencies:- depende<br>ncy-name: github.com/muesli/termenvdependency-type: dir<br>ect:productionupdate-type: version-update:semver-minor.<br>..Signed-off-by: dependabot[bot]Co-authored-by: dependa<br>bot[bot] |
 |2023-03-09 06:43:18|[JDumpSpider](https://github.com/whwlsfb/JDumpSpider)|update build instruction|
 |2023-03-09 04:32:58|[qsnctf-python](https://github.com/Moxin1044/qsnctf-python)|更新README|
 |2023-03-09 01:46:12|[0day](https://github.com/helloexp/0day)|Merge pull request #7 from mbskter/patch-1Update READM<br>E.md|
 |2023-03-09 01:32:50|[Vulnerability-Wiki](https://github.com/Threekiii/Vulnerability-Wiki)|更新漏洞|
 |2023-03-09 01:29:47|[Awesome-POC](https://github.com/Threekiii/Awesome-POC)|更新漏洞|
 |2023-03-08 15:14:14|[QingTing](https://github.com/StarCrossPortal/QingTing)|更新|
-|2023-03-08 12:20:37|[feroxbuster](https://github.com/epi052/feroxbuster)|added logo for chocolatey packaging|
-|2023-03-08 07:12:04|[Elkeid](https://github.com/bytedance/Elkeid)|initialize log directory with temporary path by defaul<br>t|
 |2023-03-08 02:32:40|[cf](https://github.com/teamssix/cf)|Merge pull request #214 from teamssix/betaperf: perf i<br>ssue ci|
 |2023-03-07 08:44:53|[knife](https://github.com/bit4woo/knife)|Update ChineseTab.java|
-|2023-03-07 08:34:48|[nemo_go](https://github.com/hanc00l/nemo_go)|Update: gorm 采用数据库连接池模式，提升数据库查询的效<br>率和速度|
 |2023-03-07 07:33:10|[Godzilla](https://github.com/BeichenDream/Godzilla)|Update README.md|
 |2023-03-06 15:22:19|[gshark](https://github.com/madneal/gshark)|Merge pull request #148 from madneal/dependabot/go_mod<br>ules/server/golang.org/x/image-0.5.0Bump golang.org/x/i<br>mage from 0.0.0-20201208152932-35266b937fa6 to 0.5.0 in<br> /server|
 |2023-03-06 14:39:54|[NessusToReport](https://github.com/Hypdncy/NessusToReport)|增加beautifulsoup4包|
@@ -74,7 +79,6 @@
 |2023-03-06 07:41:58|[Vulhub-Reproduce](https://github.com/Threekiii/Vulhub-Reproduce)|更新漏洞|
 |2023-03-06 02:53:17|[404StarLink](https://github.com/knownsec/404StarLink)|weekly update at 2023-03-06|
 |2023-03-05 16:10:52|[OA-EXPTOOL](https://github.com/LittleBear4/OA-EXPTOOL)|Add files via upload|
-|2023-03-05 11:52:21|[K8tools](https://github.com/k8gege/K8tools)|Add files via upload|
 |2023-03-05 02:02:20|[CN_Nessus_Plugins_I<br>nterface](https://github.com/nszy007/CN_Nessus_Plugins_Interface)|20230301|
 |2023-03-04 15:04:16|[SmsForwarder](https://github.com/pppscn/SmsForwarder)|优化：避免个别机型重启后自启动时startService可能空指针<br>导致crash|
 |2023-03-03 17:32:05|[RsaCtfTool](https://github.com/RsaCtfTool/RsaCtfTool)|Warning instead of info if gmpy/gmpy2 is not present.|
@@ -89,6 +93,7 @@
 |2023-02-28 07:33:37|[RmTools](https://github.com/RoomaSec/RmTools)|11|
 |2023-02-28 06:05:45|[Awesome-Exploit](https://github.com/Threekiii/Awesome-Exploit)|更新CVE-2023-21839 Exploit|
 |2023-02-28 04:04:03|[OneScan](https://github.com/vaycore/OneScan)|更新说明文档及截图，添加设置过滤规则配置说明；更新版本<br>号0.5.2|
+|2023-02-28 01:25:11|[CodeQLpy](https://github.com/webraybtl/CodeQLpy)|优化提示信息|
 |2023-02-28 00:18:27|[Platypus](https://github.com/WangYihang/Platypus)|build(deps): bump http-cache-semantics in /web/fronten<br>d (#180)Bumps [http-cache-semantics](https://github.com<br>/kornelski/http-cache-semantics) from 4.1.0 to 4.1.1.- <br>[Release notes](https://github.com/kornelski/http-cache<br>-semantics/releases)- [Commits](https://github.com/korn<br>elski/http-cache-semantics/compare/v4.1.0...v4.1.1)---u<br>pdated-dependencies:- dependency-name: http-cache-seman<br>ticsdependency-type: indirect...Signed-off-by: dependab<br>ot[bot]Co-authored-by: dependabot[bot] |
 |2023-02-26 13:10:45|[go_proxy_pool](https://github.com/pingc0y/go_proxy_pool)|Delete src directory|
 |2023-02-26 07:24:32|[mitaka](https://github.com/ninoseki/mitaka)|Merge pull request #708 from ninoseki/change-packagech<br>ore: use plasmo build--zip for packaging [skip ci]|
@@ -112,6 +117,7 @@
 |2023-02-19 12:41:37|[ffuf](https://github.com/ffuf/ffuf)|Fix HTML output (#640)|
 |2023-02-18 16:06:17|[super-xray](https://github.com/4ra1n/super-xray)|macos|
 |2023-02-18 00:01:09|[nuclei](https://github.com/projectdiscovery/nuclei)|chore(deps): bump golang.org/x/net from 0.6.0 to 0.7.0<br> in /v2 (#3337)Bumps [golang.org/x/net](https://github.<br>com/golang/net) from 0.6.0 to 0.7.0.- [Release notes](h<br>ttps://github.com/golang/net/releases)- [Commits](https<br>://github.com/golang/net/compare/v0.6.0...v0.7.0)---upd<br>ated-dependencies:- dependency-name: golang.org/x/netde<br>pendency-type: direct:production...Signed-off-by: depen<br>dabot[bot]Co-authored-by: dependabot[bot] |
+|2023-02-17 13:54:38|[Search_Viewer](https://github.com/G3et/Search_Viewer)|Update search_viewer_ui.py|
 |2023-02-17 03:44:49|[OutLook](https://github.com/KrystianLi/OutLook)|Update|
 |2023-02-17 03:37:31|[poc-hub](https://github.com/ybdt/poc-hub)|整理|
 |2023-02-17 02:22:13|[Xray_Cracked](https://github.com/NHPT/Xray_Cracked)|Update README.md|
@@ -119,7 +125,6 @@
 |2023-02-15 02:40:09|[SpringBoot-Scan-GUI](https://github.com/13exp/SpringBoot-Scan-GUI)|Delete targets.txt|
 |2023-02-14 18:14:54|[shell-analyzer](https://github.com/4ra1n/shell-analyzer)|Update README.md|
 |2023-02-14 09:38:24|[wpscan](https://github.com/wpscanteam/wpscan)|Merge pull request #1770 from wpscanteam/dependabot/gi<br>thub_actions/docker/build-push-action-4Bump docker/buil<br>d-push-action from 3 to 4|
-|2023-02-14 05:21:16|[log4j2burpscanner](https://github.com/f0ng/log4j2burpscanner)|Update README.md|
 |2023-02-14 04:41:01|[All-Defense-Tool](https://github.com/guchangan1/All-Defense-Tool)|更新v2.2|
 |2023-02-13 06:42:07|[v2rayA](https://github.com/v2rayA/v2rayA)|fix: simple-obfs|
 |2023-02-13 06:04:33|[rotateproxy](https://github.com/akkuman/rotateproxy)|fix: modernc.org/sqlite 不支持 win 386|
@@ -132,16 +137,14 @@
 |2023-02-10 07:42:53|[Vuln-List](https://github.com/wwl012345/Vuln-List)|Update 中间件&框架&平台&第三方服务漏洞.md|
 |2023-02-10 05:56:40|[Threathunting-book](https://github.com/12306Bro/Threathunting-book)|delete|
 |2023-02-09 13:53:02|[github-subdomains](https://github.com/gwen001/github-subdomains)|v1.2.2|
-|2023-02-09 07:22:30|[X-Marshal](https://github.com/XTeam-Wing/X-Marshal)|Update README.md|
-|2023-02-08 23:30:22|[log4j-shell-poc](https://github.com/kozmer/log4j-shell-poc)|:)|
-|2023-02-08 03:49:42|[ARL](https://github.com/TophantTechnology/ARL)|Merge pull request #480 from chasenz/masterUpdate nucl<br>ei dump|
-|2023-02-08 02:14:56|[SharpWxDump](https://github.com/AdminTest0/SharpWxDump)|Update README.md|## 所有项目
+|2023-02-09 07:22:30|[X-Marshal](https://github.com/XTeam-Wing/X-Marshal)|Update README.md|## 所有项目
 ### 信息收集
 #### 资产测绘采集
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
 | [InfoSearchAll](https://github.com/ExpLangcn/InfoSearchAll) | V1.2 | 为了方便安全从业人员在使用网络测绘平台进行信息搜集时的效率，本程<br>序集合了多个网络测绘平台，可以快速在多个网络测绘平台搜索信息并且合<br>并展示及导出。 |
 | [ThunderSearch](https://github.com/xzajyjs/ThunderSearch) | v2.3.2 | 【支持Fofa、Zoomeye、Quake等网络空间搜索引擎】闪电搜索器；GUI图<br>形化渗透测试信息搜集工具；资产搜集引擎 |
+| [Search_Viewer](https://github.com/G3et/Search_Viewer) | v2.0 | 集Fofa、Hunter鹰图、Shodan、360 quake、Zoomeye 钟馗之眼为一体的g<br>ui图形界面化工具 |
 #### 子域名收集
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
@@ -309,6 +312,9 @@
 | [cola_dnslog](https://github.com/AbelChe/cola_dnslog) | v1.3.2 | Cola Dnslog v1.3.2 更加强大的dnslog平台/无回显漏洞探测辅助平台 <br>完全开源 dnslog httplog ldaplog rmilog 支持dns http ldap rmi等协议<br> 提供API调用方式便于与其他工具结合 支持钉钉机器人、Bark等提醒 支<br>持docker一键部署 后端完全使用python实现 前端基于vue-element-admin<br>二开 |
 | [ddddocr](https://github.com/sml2h3/ddddocr) |  | 带带弟弟 通用验证码识别OCR pypi版 |
 | [ysoserial](https://github.com/su18/ysoserial) | v1.4 | ysoserial for su18 |
+| [JNDIExploit](https://github.com/WhiteHSBG/JNDIExploit) | v1.4 | 对原版https://github.com/feihong-cs/JNDIExploit 进行了实用化修改 |
+| [JNDIExploit-1](https://github.com/Mr-xn/JNDIExploit-1) | v1.2 | 一款用于 JNDI注入 利用的工具，大量参考/引用了 Rogue JNDI 项目的<br>代码，支持直接植入内存shell，并集成了常见的bypass 高版本JDK的方式<br>，适用于与自动化工具配合使用。（from https://github.com/feihong-cs<br>/JNDIExploit） |
+| [JNDIExploit](https://github.com/0x727/JNDIExploit) | 1.1 | 一款用于JNDI注入利用的工具，大量参考/引用了Rogue JNDI项目的代码<br>，支持直接植入内存shell，并集成了常见的bypass 高版本JDK的方式，适<br>用于与自动化工具配合使用。 |
 #### 重点CMS利用
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
@@ -386,7 +392,7 @@
 #### 信息泄露监控
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
-| [code6](https://github.com/4x99/code6) | 1.6.3 | 码小六 - GitHub 代码泄露监控系统 |
+| [code6](https://github.com/4x99/code6) | 1.6.4 | 码小六 - GitHub 代码泄露监控系统 |
 | [gshark](https://github.com/madneal/gshark) | v1.1.4 | Scan for sensitive information easily and effectively. |
 #### windows提权
 | 项目名称 | 版本 | 项目描述 |
@@ -405,6 +411,7 @@
 | :---- | :---- | :---- |
 | [murphysec](https://github.com/murphysecurity/murphysec) | v3.0.1 | An open source tool focused on software supply chain security. <br>墨菲安全专注于软件供应链安全，具备专业的软件成分分析（SCA）、漏洞<br>检测、专业漏洞库。 |
 | [Kunlun-M](https://github.com/LoRexxar/Kunlun-M) | v2.6.5 | KunLun-M是一个完全开源的静态白盒扫描工具，支持PHP、JavaScript的<br>语义扫描，基础安全、组件安全扫描，Chrome Ext\Solidity的基础扫描。 |
+| [CodeQLpy](https://github.com/webraybtl/CodeQLpy) |  | CodeQLpy是一款基于CodeQL实现的半自动化代码审计工具，目前仅支持ja<br>va语言。实现从源码反编译，数据库生成，脆弱性发现的全过程，可以辅<br>助代码审计人员快速定位源码可能存在的漏洞。 |
 #### 容器漏洞扫描
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
@@ -526,7 +533,7 @@
 | [fastjson-exp](https://github.com/skisw/fastjson-exp) | v1.0.0 | fastjson利用，支持tomcat、spring回显，哥斯拉内存马；回显利用链为<br>dhcp、ibatis、c3p0。 |
 | [HostHeaderAttack](https://github.com/weujieytt/HostHeaderAttack) | 0.1 | 检测host头攻击的Burpsuite被动扫描插件，Burpsuite passive scannin<br>g plugin responsible for detecting host header attack |
 | [knife](https://github.com/bit4woo/knife) | v2.1 | A burp extension that add some useful function toContext Menu 添<br>加一些右键菜单让burp用起来更顺畅 |
-| [log4j2burpscanner](https://github.com/f0ng/log4j2burpscanner) | 0.22.0 | CVE-2021-44228 Log4j2 BurpSuite Scanner,Customize ceye.io api or<br> other apis,including internal networks |
+| [log4j2burpscanner](https://github.com/f0ng/log4j2burpscanner) | 0.23.0 | CVE-2021-44228 Log4j2 BurpSuite Scanner,Customize ceye.io api or<br> other apis,including internal networks |
 | [passive-scan-client](https://github.com/c0ny1/passive-scan-client) | 0.3.1 | Burp被动扫描流量转发插件 |
 | [BpScan](https://github.com/EASY233/BpScan) | 1.0.0 | 一款用于辅助渗透测试工程师日常渗透测试的Burp被动漏扫插件 |
 | [BurpSuiteCn](https://github.com/funkyoummp/BurpSuiteCn) | V2.0 | Burp Suite汉化 中文 |
@@ -696,6 +703,7 @@
 | [CTF-Tools](https://github.com/Aabyss-Team/CTF-Tools) |  | 渊龙Sec安全团队CTF&AWD工具箱 |
 | [qsnctf-python](https://github.com/Moxin1044/qsnctf-python) | 0.0.8.9 | 青少年CTF的Python包，方便大家调用一些CTF常用功能。 |
 | [CTF-Tools](https://github.com/qianxiao996/CTF-Tools) | v1.3.7 | 一款Python+Pyqt写的CTF编码、解码、加密、解密工具。 |
+| [CTF_Hacker-Tools](https://github.com/Harveysn0w/CTF_Hacker-Tools) |  | CTF-渗透测试~工具合集 |
 ### CTF逆向
 #### pyc逆向
 | 项目名称 | 版本 | 项目描述 |
@@ -761,7 +769,7 @@
 #### 主机入侵检测
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
-| [Elkeid](https://github.com/bytedance/Elkeid) | rasp-v2.1<br>.0.11-pre | Elkeid is an open source solution that can meet the security req<br>uirements of various workloads such as hosts, containers and K8s,<br> and serverless. It is derived from ByteDance's internal best pra<br>ctices. |
+| [Elkeid](https://github.com/bytedance/Elkeid) | rasp-v2.2<br>.0.3-pre | Elkeid is an open source solution that can meet the security req<br>uirements of various workloads such as hosts, containers and K8s,<br> and serverless. It is derived from ByteDance's internal best pra<br>ctices. |
 | [Hades](https://github.com/theSecHunter/Hades) |  | Hades is an cross-platform HIDS with kernel-space data collectio<br>n. |
 #### Web应用防火墙
 | 项目名称 | 版本 | 项目描述 |
@@ -776,7 +784,7 @@
 #### 主机入侵防御
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
-| [iDefender](https://github.com/wecooperate/iDefender) | 2.4.0 | iDefender（冰盾 - 终端主动防御系统） |
+| [iDefender](https://github.com/wecooperate/iDefender) | 2.5.0 | iDefender（冰盾 - 终端主动防御系统） |
 ### 应急工具
 #### 后门查杀
 | 项目名称 | 版本 | 项目描述 |
