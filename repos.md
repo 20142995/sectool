@@ -406,3 +406,4 @@
 |其他|文档|https://github.com/awake1t/HackReport|
 |其他|渗透测试报告辅助|https://github.com/1u0Hun/SAReport|
 |其他|渗透测试报告辅助|https://github.com/dbgee/pentest_report|
+|信息收集|IP反查域名|https://github.com/Lengso/iplookup|
