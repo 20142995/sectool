@@ -1,8 +1,11 @@
-# 更新于 2023-03-12 09:12:49
+# 更新于 2023-03-13 09:07:13
 
 ## 近30天release更新记录
 | 更新时间 | 项目名称 | 版本 | 更新内容 |
 | :---- | :---- | :---- | :---- |
+|2023-03-12 16:51:05|[Apt_t00ls](https://github.com/White-hua/Apt_t00ls)|v0.6|H3C 任意文件上传 致远帆软组件任意文件上<br>传 nacos任意用户添加 帆软任意文件上传 用<br>友GRP_U8任意文件上传 用友KSOA任意文件上传<br>rce -- 0day漏洞作者 https://github.com/c<br>dxiaodong|
+|2023-03-12 16:46:59|[CDK](https://github.com/cdk-team/CDK)|v1.5.2|Release Date: 2023-03-12## :scroll: Cha<br>ngelog### :bomb: Exploits* Fix 78(exp): <br>support containerd and other linux path#<br>## :toolbox: Tools* Fix #77(exp shadow-a<br>piserver): anonymous-auth is not valid, <br>support v1.23.1### :sparkles: Others* Fi<br>x 78(exp): support containerd and other <br>linux path * Chore(exp): add alert messa<br>ge about flag auto-escape is deprecated#<br># :key: Hash Table|SHA256|EXECTUE FILE| <br>|---|---| |9f63e35d7b9d0814ad9f0ef23b89d<br>eb4f823d3b07bcd33df9abc5b957bb8be0f|cdk_<br>darwin_amd64 d5c8e759b790c6ffb3134c8f0aa<br>e5865e2ae4c672dc09eaa312bc928fd0d78bd|cd<br>k_linux_386 64c86a12800b8d5064e7313a43eb<br>6f5504a7043ab15c227cecfddaf84cc74ced|cdk<br>_linux_386_thin 364fcacd8b55d7d54162849b<br>620cd83e9f50ddb3c7c08478f391cce09449b452<br>|cdk_linux_386_thin_upx 242a11999f0c5b77<br>6400f2462854ef1d07101bd1085e3b29c9b7ba82<br>5c93a3fb|cdk_linux_386_upx af751c690671f<br>fc0da6380ef94a25df3dfc5911c448319f7f6b90<br>df55cca7b7d|cdk_linux_amd64 f118a70fa7b0<br>2b858bb4fffb96d9a861e4b02f62df054a0d6985<br>4449682c8f85|cdk_linux_amd64_thin 3dc271<br>adc2565c38eda5fdaee3070bda8962159d17ba62<br>5467a0f3a6e5e440d0|cdk_linux_amd64_thin_<br>upx 924fb2bd1fe001f9eb62509a05546d1aaf97<br>ebbfca73c75eb665a38b34559c4e|cdk_linux_a<br>md64_upx 594811dafdfb9f5cc56b604d8fe9777<br>7c23057e37803ec34afdf5680bf9276ea|cdk_li<br>nux_arm 828aede9a7bc193899b66e8c10ac10d2<br>4398cf79575e771d9a970d3f9a4cdd92|cdk_lin<br>ux_arm64 2eb30e2abc71fadaee5980bd89a8e4a<br>2c95bcc5d60857a3c13b006c186307e8e|cdk_li<br>nux_arm64_thin| |
+|2023-03-12 12:32:10|[feroxbuster](https://github.com/epi052/feroxbuster)|v2.9.1|## What's Changed * Implement auto upda<br>te feature by @aancw in https://github.c<br>om/epi052/feroxbuster/pull/813 * scan ma<br>nagement can now canx scans started with<br> -u | --stdin | the menu itself by @epi0<br>52 in https://github.com/epi052/feroxbus<br>ter/pull/821 * feroxbuster can be instal<br>led via chocolatey by @aancw in https://<br>github.com/epi052/feroxbuster/pull/807 *<br> fix resume with offset when --methods |<br> --extensions are used by @epi052 in htt<br>ps://github.com/epi052/feroxbuster/pull/<br>823**Full Changelog**: https://github.co<br>m/epi052/feroxbuster/compare/v2.9.0...v2<br>.9.1|
 |2023-03-11 15:07:46|[Hack-Tools](https://github.com/LasCC/Hack-Tools)|0.5.0|# Version 0.5.0The new update is out! <br>🤩- Completely redesign the revershell co<br>mponent - New transfert methods componen<br>t - Fix the MSF Builder component## Inst<br>allation Steps :### Chrome - Extract **d<br>ist.zip** (you will obtain a folder name<br>d **dist**) - In your chromium based web<br>-browser upload the folder as an unpacke<br>d Extension ***check the repo readme.md*<br>****NEW** Link to the Chrome extension :<br> https://chrome.google.com/webstore/deta<br>il/hack-tools/cmbndhnoonmghfofefkcccljbk<br>dpamhi---### Firefoxhttps://addons.mozil<br>la.org/fr/firefox/addon/hacktools/Or ins<br>tall it as a temporary plugin in Firefox<br> in the page about:debugging#/runtime/th<br>is-firefox by selecting the manifest ins<br>ide **dist**---### Instructions to build<br> for SafariCreate a safari web extension<br> project using the command below. This i<br>s to be run once.bash xcrun safari-web-e<br>xtension-coverter [path_to_dist_folder]F<br>ollow the instructions to create the pro<br>ject the default language should be Swif<br>t.- Build project. - Open Safari and ena<br>ble unsigned extensions; Develop → Allo<br>w Unsigned Extensions. - Open Safari → <br>Preferences → Extensions and enable Hac<br>k-Tools - Click on the extension icon an<br>d switch to full screen mode.**Full Chan<br>gelog**: https://github.com/LasCC/Hack-T<br>ools/pull/133 |
 |2023-03-11 02:07:48|[nemo_go](https://github.com/hanc00l/nemo_go)|v2.9.1|Update： 1、在任务中获取http指纹时，将H<br>TTP响应的Header与Body保存并进行查询。注<br>意： **由于新增加了两个数据库表，因此从v2<br>.9.0升级请导入http.sql。**|
 |2023-03-10 10:16:15|[log4j2burpscanner](https://github.com/f0ng/log4j2burpscanner)|0.23.0|# 0.23.0 update ## 2023-3-10 1. set nor<br>mal payload as preferred 2. add the vuln<br>erability display of payload containing <br>variables 3. optimize the problem of not<br> displaying vulnerability points _______<br>________________________________________<br>______________ 1. 将正常payload设为首选<br>，在内网ip中运行 2. 增加payload含有变量的<br>漏洞显示 3. 优化漏洞点不显示问题 4. 修复<br>漏洞|
@@ -12,7 +15,6 @@
 |2023-03-09 12:20:40|[ysoserial](https://github.com/su18/ysoserial)|v1.4|1. Transformer[] / BeanShell / C3P02 利<br>用链支持 LF 加载本地 class 文件功能； 2. <br>更新 JbossEcho 支持 JBoss-4.2.3.GA； 3. <br>更新 Struts2 回显及 Action 内存马； 4. 移<br>除 Tomcat Listener NeoReg 流量隧道、移除 <br>EncryptedTranscoder 及依赖； 5. 支持 suo<br>5 利用方式； 6. 更新命令执行混淆支持 win<br>dows/linux/unix jdk 1.6； 7. 修改打包 de<br>bug 信息为 false； 8. 更新 javassist 版<br>本，进行一些降低 payload 的尝试； 9. 更新<br> HelpFormatter 以执行终端大小动态调整，<br>最大宽度 200； 10. 打通 BCEL 类加载利用链<br>（详见代码）； 11. 使用 ScriptEngineManag<br>er 区分 Nashorn/Rhino 引擎，Rhino 使用 B<br>CEL 曲线救国类加载； 12. 增加 CC12 用 De<br>faultedMap 替换 LazyMap。|
 |2023-03-09 08:37:22|[GoWxDump](https://github.com/SpenserCai/GoWxDump)|v1.0.9|通过注册表自从查找微信数据目录|
 |2023-03-09 04:49:16|[JDumpSpider](https://github.com/whwlsfb/JDumpSpider)|V1.1|- 项目重构，增强不同环境下的兼容性。 - <br>增加类字段的用户信息模糊搜索功能。|
-|2023-03-08 12:38:17|[feroxbuster](https://github.com/epi052/feroxbuster)|v2.9.0|## What's Changed * banner is shown aga<br>in after exiting scan management menu by<br> @aancw in https://github.com/epi052/fer<br>oxbuster/pull/804 * improved auto-filter<br>ing accuracy* Fixed issue where a wildca<br>rd redirect caused every request to recu<br>rse into that directory by @epi052 in ht<br>tps://github.com/epi052/feroxbuster/pull<br>/808; id'd by @0xdf223 * fixed bug where<br> --auto-tune and --rate-limit could be s<br>et in the same scan via --smart/--thorou<br>gh composite settings; id'd by @GenericU<br>ser123## New Contributors * @aancw made <br>their first contribution in https://gith<br>ub.com/epi052/feroxbuster/pull/804 :part<br>ying_face:**Full Changelog**: https://gi<br>thub.com/epi052/feroxbuster/compare/v2.8<br>.0...v2.9.0|
 |2023-03-08 06:18:49|[pentest_report](https://github.com/dbgee/pentest_report)|v1.0.0|First orricial release |
 |2023-03-06 08:49:57|[veinmind-tools](https://github.com/chaitin/veinmind-tools)|v2.0.6|## Feature - 降低镜像大小 @286515491## <br>Fix - 敏感信息检测增加文件限制 @testwill<br>- 优化容器逃逸权限检测逻辑 @286515491- <br>修复敏感信息路径扫描 @286515491 |
 |2023-03-06 08:47:39|[ElectricRat](https://github.com/linjiananallnt/ElectricRat)|v1.3.0|# 更新说明 1. 新增越权漏洞案例，包含水<br>平、垂直越权。 2. 增加XSS过滤难度 3. 增加<br>SPEL和SSTI结果输出 4. 新增压缩文件自解压<br>案例# TODO - [x] 越权漏洞# 如何更新 1. 将<br> ElectricRat-docker.zip 中的 ElectricRat<br>.war 覆盖之前的 war 包。 2. 重启 docker<br>。sudo docker restart electricrat-web 3. <br>稍等片刻后，访问 http://127.0.0.1:12666/E<br>lectricRat/ |
@@ -43,24 +45,24 @@
 |2023-02-13 07:25:06|[murphysec](https://github.com/murphysecurity/murphysec)|v3.0.1||
 |2023-02-13 06:07:53|[rotateproxy](https://github.com/akkuman/rotateproxy)|v0.7.2|## Changelog * 10ddfd1 fix: modernc.org<br>/sqlite 不支持 win 386|
 |2023-02-13 03:33:11|[ENScan_GO](https://github.com/wgpsec/ENScan_GO)|V0.0.9|**bugfix** - 修复JSON导出问题 fix #46 -<br> 修复天眼查日期问题 fix #43 - 修复阿拉丁<br>导出bug fix #30**new** - 增加只在终端显示<br>不导出文件 fix #25|
-|2023-02-10 14:36:44|[nuclei](https://github.com/projectdiscovery/nuclei)|v2.8.9|## What's Changed* **Fixed URL encoding<br> issues in paths by @tarunKoyalwar** in <br>https://github.com/projectdiscovery/nucl<br>ei/pull/3294 * **Fixed panic crash with <br>ratelimit by @tarunKoyalwar** in https:/<br>/github.com/projectdiscovery/nuclei/pull<br>/3257 * Fixed path handling inconsistenc<br>ies by @tarunKoyalwar in https://github.<br>com/projectdiscovery/nuclei/pull/3243 * <br>Fixed data race in templates with payloa<br>ds by @tarunKoyalwar in https://github.c<br>om/projectdiscovery/nuclei/pull/3265 * *<br>*Fixed using httpx as a library for http<br> probing by @Ice3man543** in https://git<br>hub.com/projectdiscovery/nuclei/pull/326<br>1 * Fixed data race in race requests by <br>@tarunKoyalwar in https://github.com/pro<br>jectdiscovery/nuclei/pull/3275 * Fixed p<br>ublish docs workflow by @tarunKoyalwar i<br>n https://github.com/projectdiscovery/nu<br>clei/pull/3296 * Fixed retryablehttp for<br> templates loading by @Mzack9999 in http<br>s://github.com/projectdiscovery/nuclei/p<br>ull/3291 * Fixed aes_cbc helper function<br> update by @Ice3man543 in https://github<br>.com/projectdiscovery/nuclei/pull/3287 *<br> Fixed json schema for extractor attribu<br>te by @Mzack9999 in https://github.com/p<br>rojectdiscovery/nuclei/pull/3240 * **Add<br>ed env variable support in reporting con<br>fig by @xm1k3** in https://github.com/pr<br>ojectdiscovery/nuclei/pull/3188 * Added <br>proxy use in headless binary download by<br> @Mzack9999 in https://github.com/projec<br>tdiscovery/nuclei/pull/3290 * **Added in<br>teractsh payload input support in TLS SN<br>I field by @Mzack9999** in https://githu<br>b.com/projectdiscovery/nuclei/pull/3276I<br>ssues closed in the release - https://gi<br>thub.com/projectdiscovery/nuclei/milesto<br>ne/26?closed=1## New Contributors * @M-F<br>aheem-Khan made their first contribution<br> in https://github.com/projectdiscovery/<br>nuclei/pull/3235 * @galoget made their f<br>irst contribution in https://github.com/<br>projectdiscovery/nuclei/pull/3299**Full <br>Changelog**: https://github.com/projectd<br>iscovery/nuclei/compare/v2.8.8...v2.8.9|
-|2023-02-10 11:17:41|[captcha-killer-modi<br>fied](https://github.com/f0ng/captcha-killer-modified)|0.21-beta|【2023-2-10】 0.21-beta - 优化验证码编<br>码中的\n处理 - 优化@captcha@的判断方式感<br>谢微信群@5ING 、@策马奔腾 师傅反馈|
 ## 近30天commit提交记录
 | 提交时间 | 项目名称 | 更新内容 |
 | :---- | :---- | :---- |
-|2023-03-12 01:00:16|[NucleiTP](https://github.com/ExpLangcn/NucleiTP)|更新啦❤️|
+|2023-03-13 01:00:15|[NucleiTP](https://github.com/ExpLangcn/NucleiTP)|更新啦❤️|
+|2023-03-12 21:42:05|[PocOrExp_in_Github](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-03-13 05:42:05|
+|2023-03-12 16:40:00|[CDK](https://github.com/cdk-team/CDK)|Merge pull request #80 from cdk-team/v1.5.2-alphaV1.5.<br>2 alpha|
+|2023-03-12 16:19:35|[Apt_t00ls](https://github.com/White-hua/Apt_t00ls)|0day|
+|2023-03-12 15:57:56|[nemo_go](https://github.com/hanc00l/nemo_go)|Update: 优化Nuclei漏洞检测逻辑，提升扫描速度。扫描前先<br>检测端口存活情况与协议类型，放弃扫描http和https以外的未<br>知协议。|
+|2023-03-12 14:58:24|[dbeaver](https://github.com/dbeaver/dbeaver)|BC dependency: do not include bundles explicitly|
+|2023-03-12 12:02:30|[feroxbuster](https://github.com/epi052/feroxbuster)|Merge pull request #823 from epi052/819-fix-resume-wit<br>h-offsetfix resume with offset|
+|2023-03-12 11:04:45|[HackBrowserData](https://github.com/moonD4rk/HackBrowserData)|Merge pull request #203 from moonD4rk/fix/leveldbfix: <br>missing key and value in local storage|
+|2023-03-12 08:19:38|[domain_hunter_pro](https://github.com/bit4woo/domain_hunter_pro)|Update LineEntryMenu.java|
+|2023-03-12 08:17:05|[iDefender](https://github.com/wecooperate/iDefender)|update|
 |2023-03-12 00:48:03|[AV_Evasion_Tool](https://github.com/1y0n/AV_Evasion_Tool)|Update README.md|
-|2023-03-11 21:40:11|[PocOrExp_in_Github](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-03-12 05:40:11|
-|2023-03-11 15:27:20|[HackBrowserData](https://github.com/moonD4rk/HackBrowserData)|chore: upgrade cross compile ghaction-xgo actions veri<br>son|
 |2023-03-11 15:08:44|[Hack-Tools](https://github.com/LasCC/Hack-Tools)|fix badge version|
 |2023-03-11 13:36:23|[PeiQi-WIKI-Book](https://github.com/PeiQi0/PeiQi-WIKI-Book)|漏洞相关:O2OA,联软,金山等相关漏洞|
-|2023-03-11 12:19:26|[feroxbuster](https://github.com/epi052/feroxbuster)|Merge pull request #807 from aancw/chocolateyAdding fe<br>roxbuster as chocolatey package|
-|2023-03-11 01:55:11|[nemo_go](https://github.com/hanc00l/nemo_go)|Update: nemo.sql && login check|
-|2023-03-10 16:18:51|[dbeaver](https://github.com/dbeaver/dbeaver)|Remove unused localization string (#19332)|
 |2023-03-10 16:04:54|[K8tools](https://github.com/k8gege/K8tools)|Add files via upload|
 |2023-03-10 13:05:05|[ysoserial](https://github.com/su18/ysoserial)|更新 BC 使用方式 ReadMe|
-|2023-03-10 10:56:55|[domain_hunter_pro](https://github.com/bit4woo/domain_hunter_pro)|Update DomainManager.java|
-|2023-03-10 07:46:13|[iDefender](https://github.com/wecooperate/iDefender)|2.5.0|
 |2023-03-10 06:38:33|[log4j2burpscanner](https://github.com/f0ng/log4j2burpscanner)|Update README.md|
 |2023-03-10 06:09:22|[murphysec](https://github.com/murphysecurity/murphysec)|chore(deps): bump github.com/muesli/termenv from 0.15.<br>0 to 0.15.1 (#144)Bumps [github.com/muesli/termenv](htt<br>ps://github.com/muesli/termenv) from 0.15.0 to 0.15.1.-<br> [Release notes](https://github.com/muesli/termenv/rele<br>ases)- [Commits](https://github.com/muesli/termenv/comp<br>are/v0.15.0...v0.15.1)---updated-dependencies:- depende<br>ncy-name: github.com/muesli/termenvdependency-type: dir<br>ect:productionupdate-type: version-update:semver-patch.<br>..Signed-off-by: dependabot[bot]Co-authored-by: dependa<br>bot[bot] |
 |2023-03-10 03:31:53|[code6](https://github.com/4x99/code6)|Merge pull request #255 from 4x99/developv1.6.|
@@ -140,11 +142,7 @@
 |2023-02-13 03:26:39|[ENScan_GO](https://github.com/wgpsec/ENScan_GO)|修复JSON导出问题 fix #46
 修复天眼查日期问题 fix #43
 修<br>复阿拉丁导出bug fix #30
-增加只在终端显示不导出文件 fix #<br>25|
-|2023-02-10 12:15:31|[captcha-killer-modi<br>fied](https://github.com/f0ng/captcha-killer-modified)|Update README.md|
-|2023-02-10 09:53:54|[Some-PoC-oR-ExP](https://github.com/coffeehb/Some-PoC-oR-ExP)|Create CVE-2023-25194.md|
-|2023-02-10 07:42:53|[Vuln-List](https://github.com/wwl012345/Vuln-List)|Update 中间件&框架&平台&第三方服务漏洞.md|
-|2023-02-10 05:56:40|[Threathunting-book](https://github.com/12306Bro/Threathunting-book)|delete|## 所有项目
+增加只在终端显示不导出文件 fix #<br>25|## 所有项目
 ### 信息收集
 #### 资产测绘采集
 | 项目名称 | 版本 | 项目描述 |
@@ -169,7 +167,7 @@
 | :---- | :---- | :---- |
 | [dirsearch](https://github.com/maurosoria/dirsearch) | v0.4.3 | Web path scanner |
 | [URLFinder](https://github.com/pingc0y/URLFinder) | 2023.2.21 | 类似JSFinder的golang实现，一款用于快速提取检测页面中JS与URL的工<br>具，更快更全更舒服 |
-| [feroxbuster](https://github.com/epi052/feroxbuster) | v2.9.0 | A fast, simple, recursive content discovery tool written in Rust<br>. |
+| [feroxbuster](https://github.com/epi052/feroxbuster) | v2.9.1 | A fast, simple, recursive content discovery tool written in Rust<br>. |
 | [ffuf](https://github.com/ffuf/ffuf) | v2.0.0 | Fast web fuzzer written in Go |
 | [dirmap](https://github.com/H4ckForJob/dirmap) |  | An advanced web directory & file scanning tool that will be more<br> powerful than DirBuster, Dirsearch, cansina, and Yu Jian.一个高<br>级web目录、文件扫描工具，功能将会强于DirBuster、Dirsearch、cansina<br>、御剑。 |
 | [cansina](https://github.com/deibit/cansina) | 1.0.0 | Web Content Discovery Tool |
@@ -234,6 +232,10 @@
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
 | [IPSearch](https://github.com/SleepingBag945/IPSearch) | v0.1 | 离线IP Whois查询工具。可根据IP查询所属IP段信息、根据关键词查询IP<br>段信息 |
+#### IP反查域名
+| 项目名称 | 版本 | 项目描述 |
+| :---- | :---- | :---- |
+| [iplookup](https://github.com/Lengso/iplookup) | v1.1 | IP反查域名 |
 ### 漏洞发现&利用
 #### 半自动化漏洞利用
 | 项目名称 | 版本 | 项目描述 |
@@ -344,7 +346,7 @@
 | [Aazhen-RexHa](https://github.com/zangcc/Aazhen-RexHa) | Aazhen-Re<br>xHa_Scanne<br>r | 自研JavaFX图形化漏洞扫描工具，支持扫描的漏洞分别是： ThinkPHP-2.<br>x-RCE， ThinkPHP-5.0.23-RCE， ThinkPHP5.0.x-5.0.23通杀RCE， Think<br>PHP5-SQL注入&敏感信息泄露， ThinkPHP 3.x 日志泄露NO.1， ThinkPHP <br>3.x 日志泄露NO.2， ThinkPHP 5.x 数据库信息泄露的漏洞检测，以及批<br>量检测的功能。漏洞POC基本适用ThinkPHP全版本漏洞。 |
 | [ThinkphpGUI](https://github.com/Lotus6/ThinkphpGUI) | 1.3 | Thinkphp(GUI)漏洞利用工具，支持各版本TP漏洞检测，命令执行，getsh<br>ell。 |
 | [thinkphp_gui_tools](https://github.com/bewhale/thinkphp_gui_tools) | v2.4.2 | ThinkPHP漏洞综合利用工具, 图形化界面, 命令执行, 一键getshell, 批<br>量检测, 日志遍历, session包含,宝塔绕过 |
-| [Apt_t00ls](https://github.com/White-hua/Apt_t00ls) | v0.5 | 高危漏洞利用工具 |
+| [Apt_t00ls](https://github.com/White-hua/Apt_t00ls) | v0.6 | 高危漏洞利用工具 |
 #### 信息泄露利用
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
@@ -430,7 +432,7 @@
 #### 容器漏洞利用
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
-| [CDK](https://github.com/cdk-team/CDK) | v1.5.1 | 📦Make security testing of K8s, Docker, and Containerd easier. |
+| [CDK](https://github.com/cdk-team/CDK) | v1.5.2 | 📦Make security testing of K8s, Docker, and Containerd easier. |
 #### 信息泄露漏洞利用
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
