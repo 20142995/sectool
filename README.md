@@ -1,16 +1,17 @@
-# 更新于 2023-03-13 09:07:13
+# 更新于 2023-03-14 09:01:53
 
 ## 近30天release更新记录
 | 更新时间 | 项目名称 | 版本 | 更新内容 |
 | :---- | :---- | :---- | :---- |
+|2023-03-13 18:58:37|[super-xray](https://github.com/4ra1n/super-xray)|1.6|## 1.6失眠，简单更新下更新内容： - [imp<br>ortant] 给RAD联动提供一种批量执行的办法 <br>#155 - [important] RAD联动支持Cookie配置<br> #153 - [feat] 第一次加载RAD后支持保存路<br>径下次直接加载 #156 - [feat] RAD联动支持<br>一键复制RAD命令 #154 - [bug] 备份xray目录<br>原来的config.yaml文件 #152 - [feat] RAD <br>联动支持拖拽功能 #151 - [feat] request 支<br>持自定义 user-agent #149 - [feat] 允许设<br>置请求Cookie内容 #150 - [feat] radium sup<br>port file input #148 (同#155)下载： - su<br>per-xray-1.6.jar 版本通过java -jar super<br>-xray-1.6.jar启动 - super-xray-1.6-jre-e<br>xe.zip 是内置了JRE的exe版本 - super-xray<br>-1.6-system-jre.exe 是使用系统JRE的exe版<br>本|
+|2023-03-13 07:24:56|[log4j2burpscanner](https://github.com/f0ng/log4j2burpscanner)|0.23.0-be<br>ta2|# 0.23.0-beta2 update ## 2023-3-13 1. f<br>ix problem _____________________________<br>________________________________ 1. 优化<br>选中内网ip时只发请求头含有%24payload的问<br>题，增至和普通被动扫描一样多的请求|
+|2023-03-13 02:23:44|[Elkeid](https://github.com/bytedance/Elkeid)|rasp-v2.2<br>.0.3||
 |2023-03-12 16:51:05|[Apt_t00ls](https://github.com/White-hua/Apt_t00ls)|v0.6|H3C 任意文件上传 致远帆软组件任意文件上<br>传 nacos任意用户添加 帆软任意文件上传 用<br>友GRP_U8任意文件上传 用友KSOA任意文件上传<br>rce -- 0day漏洞作者 https://github.com/c<br>dxiaodong|
-|2023-03-12 16:46:59|[CDK](https://github.com/cdk-team/CDK)|v1.5.2|Release Date: 2023-03-12## :scroll: Cha<br>ngelog### :bomb: Exploits* Fix 78(exp): <br>support containerd and other linux path#<br>## :toolbox: Tools* Fix #77(exp shadow-a<br>piserver): anonymous-auth is not valid, <br>support v1.23.1### :sparkles: Others* Fi<br>x 78(exp): support containerd and other <br>linux path * Chore(exp): add alert messa<br>ge about flag auto-escape is deprecated#<br># :key: Hash Table|SHA256|EXECTUE FILE| <br>|---|---| |9f63e35d7b9d0814ad9f0ef23b89d<br>eb4f823d3b07bcd33df9abc5b957bb8be0f|cdk_<br>darwin_amd64 d5c8e759b790c6ffb3134c8f0aa<br>e5865e2ae4c672dc09eaa312bc928fd0d78bd|cd<br>k_linux_386 64c86a12800b8d5064e7313a43eb<br>6f5504a7043ab15c227cecfddaf84cc74ced|cdk<br>_linux_386_thin 364fcacd8b55d7d54162849b<br>620cd83e9f50ddb3c7c08478f391cce09449b452<br>|cdk_linux_386_thin_upx 242a11999f0c5b77<br>6400f2462854ef1d07101bd1085e3b29c9b7ba82<br>5c93a3fb|cdk_linux_386_upx af751c690671f<br>fc0da6380ef94a25df3dfc5911c448319f7f6b90<br>df55cca7b7d|cdk_linux_amd64 f118a70fa7b0<br>2b858bb4fffb96d9a861e4b02f62df054a0d6985<br>4449682c8f85|cdk_linux_amd64_thin 3dc271<br>adc2565c38eda5fdaee3070bda8962159d17ba62<br>5467a0f3a6e5e440d0|cdk_linux_amd64_thin_<br>upx 924fb2bd1fe001f9eb62509a05546d1aaf97<br>ebbfca73c75eb665a38b34559c4e|cdk_linux_a<br>md64_upx 594811dafdfb9f5cc56b604d8fe9777<br>7c23057e37803ec34afdf5680bf9276ea|cdk_li<br>nux_arm 828aede9a7bc193899b66e8c10ac10d2<br>4398cf79575e771d9a970d3f9a4cdd92|cdk_lin<br>ux_arm64 2eb30e2abc71fadaee5980bd89a8e4a<br>2c95bcc5d60857a3c13b006c186307e8e|cdk_li<br>nux_arm64_thin| |
+|2023-03-12 16:46:59|[CDK](https://github.com/cdk-team/CDK)|v1.5.2|Release Date: 2023-03-12## What's Chang<br>ed * V1.5.2 alpha by @neargle in https:/<br>/github.com/cdk-team/CDK/pull/80## :scro<br>ll: Changelog### :bomb: Exploits* Fix 78<br>(exp): support containerd and other linu<br>x path### :toolbox: Tools* Fix #77(exp s<br>hadow-apiserver): anonymous-auth is not <br>valid, support v1.23.1### :sparkles: Oth<br>ers* Fix 78(exp): support containerd and<br> other linux path * Chore(exp): add aler<br>t message about flag auto-escape is depr<br>ecated## :sparkles: In Chinese* 支持 lin<br>ux 环境下的不同容器运行时，如 containerd<br>、runc、docker； * 修复shadow-apiserver匿<br>名访问无效的issue，支持新版本的k8s，如 v1<br>.23.1； * 添加迭代部分功能的消息提醒## :<br>key: Hash Table|SHA256|EXECTUE FILE| |--<br>-|---| |9f63e35d7b9d0814ad9f0ef23b89deb4<br>f823d3b07bcd33df9abc5b957bb8be0f|cdk_dar<br>win_amd64 d5c8e759b790c6ffb3134c8f0aae58<br>65e2ae4c672dc09eaa312bc928fd0d78bd|cdk_l<br>inux_386 64c86a12800b8d5064e7313a43eb6f5<br>504a7043ab15c227cecfddaf84cc74ced|cdk_li<br>nux_386_thin 364fcacd8b55d7d54162849b620<br>cd83e9f50ddb3c7c08478f391cce09449b452|cd<br>k_linux_386_thin_upx 242a11999f0c5b77640<br>0f2462854ef1d07101bd1085e3b29c9b7ba825c9<br>3a3fb|cdk_linux_386_upx af751c690671ffc0<br>da6380ef94a25df3dfc5911c448319f7f6b90df5<br>5cca7b7d|cdk_linux_amd64 f118a70fa7b02b8<br>58bb4fffb96d9a861e4b02f62df054a0d6985444<br>9682c8f85|cdk_linux_amd64_thin 3dc271adc<br>2565c38eda5fdaee3070bda8962159d17ba62546<br>7a0f3a6e5e440d0|cdk_linux_amd64_thin_upx<br> 924fb2bd1fe001f9eb62509a05546d1aaf97ebb<br>fca73c75eb665a38b34559c4e|cdk_linux_amd6<br>4_upx 594811dafdfb9f5cc56b604d8fe97777c2<br>3057e37803ec34afdf5680bf9276ea|cdk_linux<br>_arm 828aede9a7bc193899b66e8c10ac10d2439<br>8cf79575e771d9a970d3f9a4cdd92|cdk_linux_<br>arm64 2eb30e2abc71fadaee5980bd89a8e4a2c9<br>5bcc5d60857a3c13b006c186307e8e|cdk_linux<br>_arm64_thin|**Full Changelog**: https://<br>github.com/cdk-team/CDK/compare/v1.5.1..<br>.v1.5.2|
 |2023-03-12 12:32:10|[feroxbuster](https://github.com/epi052/feroxbuster)|v2.9.1|## What's Changed * Implement auto upda<br>te feature by @aancw in https://github.c<br>om/epi052/feroxbuster/pull/813 * scan ma<br>nagement can now canx scans started with<br> -u | --stdin | the menu itself by @epi0<br>52 in https://github.com/epi052/feroxbus<br>ter/pull/821 * feroxbuster can be instal<br>led via chocolatey by @aancw in https://<br>github.com/epi052/feroxbuster/pull/807 *<br> fix resume with offset when --methods |<br> --extensions are used by @epi052 in htt<br>ps://github.com/epi052/feroxbuster/pull/<br>823**Full Changelog**: https://github.co<br>m/epi052/feroxbuster/compare/v2.9.0...v2<br>.9.1|
 |2023-03-11 15:07:46|[Hack-Tools](https://github.com/LasCC/Hack-Tools)|0.5.0|# Version 0.5.0The new update is out! <br>🤩- Completely redesign the revershell co<br>mponent - New transfert methods componen<br>t - Fix the MSF Builder component## Inst<br>allation Steps :### Chrome - Extract **d<br>ist.zip** (you will obtain a folder name<br>d **dist**) - In your chromium based web<br>-browser upload the folder as an unpacke<br>d Extension ***check the repo readme.md*<br>****NEW** Link to the Chrome extension :<br> https://chrome.google.com/webstore/deta<br>il/hack-tools/cmbndhnoonmghfofefkcccljbk<br>dpamhi---### Firefoxhttps://addons.mozil<br>la.org/fr/firefox/addon/hacktools/Or ins<br>tall it as a temporary plugin in Firefox<br> in the page about:debugging#/runtime/th<br>is-firefox by selecting the manifest ins<br>ide **dist**---### Instructions to build<br> for SafariCreate a safari web extension<br> project using the command below. This i<br>s to be run once.bash xcrun safari-web-e<br>xtension-coverter [path_to_dist_folder]F<br>ollow the instructions to create the pro<br>ject the default language should be Swif<br>t.- Build project. - Open Safari and ena<br>ble unsigned extensions; Develop → Allo<br>w Unsigned Extensions. - Open Safari → <br>Preferences → Extensions and enable Hac<br>k-Tools - Click on the extension icon an<br>d switch to full screen mode.**Full Chan<br>gelog**: https://github.com/LasCC/Hack-T<br>ools/pull/133 |
 |2023-03-11 02:07:48|[nemo_go](https://github.com/hanc00l/nemo_go)|v2.9.1|Update： 1、在任务中获取http指纹时，将H<br>TTP响应的Header与Body保存并进行查询。注<br>意： **由于新增加了两个数据库表，因此从v2<br>.9.0升级请导入http.sql。**|
-|2023-03-10 10:16:15|[log4j2burpscanner](https://github.com/f0ng/log4j2burpscanner)|0.23.0|# 0.23.0 update ## 2023-3-10 1. set nor<br>mal payload as preferred 2. add the vuln<br>erability display of payload containing <br>variables 3. optimize the problem of not<br> displaying vulnerability points _______<br>________________________________________<br>______________ 1. 将正常payload设为首选<br>，在内网ip中运行 2. 增加payload含有变量的<br>漏洞显示 3. 优化漏洞点不显示问题 4. 修复<br>漏洞|
 |2023-03-10 07:42:24|[iDefender](https://github.com/wecooperate/iDefender)|2.5.0|**重大版本，建议更新**- 添加基础防护能<br>力- **智能防护：** 利用智能分析和识别恶意<br>软件行为，提供实时防护机制，确保系统免受<br>恶意软件侵害- **系统优化：** 拦截非必要的<br>软件和联网行为，提高系统运行速度和稳定性<br>，提供更优秀的用户体验- **安全加固：** 拦<br>截系统存在漏洞的组件和常见入侵途径，增强<br>系统安全性，避免遭受恶意软件攻击- **漏洞<br>防御：** 根据已知漏洞入侵方式开发专门的防<br>御规则，保障系统不受黑客攻击和恶意软件入<br>侵- **模板支持自动在线更新**- 规则记录添<br>加右键菜单 - 路径参数添加粘贴支持（方便快<br>速录入多条数据） - 路径参数添加多选删除 -<br> 弹框添加进程命令行信息（方便查看脚本进<br>程对应的脚本文件） - 添加规则过滤 - 优化<br>一些界面使用体验 - 修复一些问题软件下载|
-|2023-03-10 07:17:13|[Elkeid](https://github.com/bytedance/Elkeid)|rasp-v2.2<br>.0.3-pre||
 |2023-03-10 03:32:44|[code6](https://github.com/4x99/code6)|1.6.4|### 更新日志 - 特性：[ 扫描结果 ] 支持<br>导出单页 CSV 数据（#245） - 优化：[ 扫描<br>结果 ] 新增支持 “处理人”、“说明” 字段<br>搜索（#247） - 修复：[ Docker 部署 ] 修复<br>重启可能导致配置项异常问题（#248） - 修复<br>：[ 扫描任务 ] 待执行任务配置被删导致扫描<br>队列阻塞问题（#252） - 修复：[ 通知配置 ]<br> 更新企业群消息机器人文档地址 - 特性：[ <br>通知配置 ] 邮件通知支持 SSL/TLS 加密（#24<br>7）### 升级指南 #### 源码安装 直接拉取最<br>新代码#### Docker 安装 拉取最新代码、创建<br>镜像并启动容器即可#### Docker-Compose 安<br>装 拉取最新代码启动容器即可 |
 |2023-03-09 12:20:40|[ysoserial](https://github.com/su18/ysoserial)|v1.4|1. Transformer[] / BeanShell / C3P02 利<br>用链支持 LF 加载本地 class 文件功能； 2. <br>更新 JbossEcho 支持 JBoss-4.2.3.GA； 3. <br>更新 Struts2 回显及 Action 内存马； 4. 移<br>除 Tomcat Listener NeoReg 流量隧道、移除 <br>EncryptedTranscoder 及依赖； 5. 支持 suo<br>5 利用方式； 6. 更新命令执行混淆支持 win<br>dows/linux/unix jdk 1.6； 7. 修改打包 de<br>bug 信息为 false； 8. 更新 javassist 版<br>本，进行一些降低 payload 的尝试； 9. 更新<br> HelpFormatter 以执行终端大小动态调整，<br>最大宽度 200； 10. 打通 BCEL 类加载利用链<br>（详见代码）； 11. 使用 ScriptEngineManag<br>er 区分 Nashorn/Rhino 引擎，Rhino 使用 B<br>CEL 曲线救国类加载； 12. 增加 CC12 用 De<br>faultedMap 替换 LazyMap。|
 |2023-03-09 08:37:22|[GoWxDump](https://github.com/SpenserCai/GoWxDump)|v1.0.9|通过注册表自从查找微信数据目录|
@@ -33,7 +34,6 @@
 |2023-02-22 09:37:42|[HaE](https://github.com/gh0stkey/HaE)|2.4.6|HaE 2.4.6 更新内容： 1. 加入多线程对数<br>据进行匹配和提取，减少卡顿现象； 2. 变更<br>配置文件更新地址为jsdelivr的CDN节点地址，<br>优化国内用户体验。|
 |2023-02-21 03:59:42|[URLFinder](https://github.com/pingc0y/URLFinder)|2023.2.21|2023/2/21 修复 已知bug|
 |2023-02-19 17:36:35|[wxapkgUnpack](https://github.com/jdr2021/wxapkgUnpack)|1.0||
-|2023-02-18 15:11:13|[super-xray](https://github.com/4ra1n/super-xray)|1.5|## 1.5更新内容： - [important] [improve<br>] 更简洁更好用的新UI #144 - [important] <br>[feat] 支持拖拽xray文件加载 #140 - [impo<br>rtant] [feat] 允许设置日志等级 #146 - [b<br>ug] CPU占用较高问题RAD修复不完善 #139 - <br>[feat] 增加一键修复/还原的功能 #143 - [f<br>eat] 自动检查版本更新并提示 #142 - [impr<br>ove] 反连HTTP URL输入的验证 #145下载： -<br> super-xray-1.5.jar 版本通过java -jar su<br>per-xray-1.5.jar启动 - super-xray-1.5-jr<br>e-exe.zip 是内置了JRE的exe版本 - super-x<br>ray-1.5-system-jre.exe 是使用系统JRE的ex<br>e版本 - Super-Xray.app.zip 是 Mac OS 的 <br>app (测试版可能有bug)|
 |2023-02-17 13:57:27|[Search_Viewer](https://github.com/G3et/Search_Viewer)|v2.0|版本：v2.0 2023/02/17·修复导出时间戳·修<br>复Hunter情况恢复页码·界面稍微调整·新增360<br> Quake·新增Zoomeye 钟馗之眼|
 |2023-02-17 13:04:31|[RequestTemplate](https://github.com/1n7erface/RequestTemplate)|v1.1.2|2023.2.17 21:00 1.更新了多个模块报错|
 |2023-02-17 03:46:29|[OutLook](https://github.com/KrystianLi/OutLook)|v1.2.0|1、优化代码和操作界面 2、新增数据保存功<br>能，导出格式为xls|
@@ -48,8 +48,14 @@
 ## 近30天commit提交记录
 | 提交时间 | 项目名称 | 更新内容 |
 | :---- | :---- | :---- |
-|2023-03-13 01:00:15|[NucleiTP](https://github.com/ExpLangcn/NucleiTP)|更新啦❤️|
-|2023-03-12 21:42:05|[PocOrExp_in_Github](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-03-13 05:42:05|
+|2023-03-14 00:45:18|[NucleiTP](https://github.com/ExpLangcn/NucleiTP)|更新啦❤️|
+|2023-03-13 23:50:33|[RsaCtfTool](https://github.com/RsaCtfTool/RsaCtfTool)|add compositorial pm1 attack|
+|2023-03-13 21:40:17|[PocOrExp_in_Github](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-03-14 05:40:17|
+|2023-03-13 18:52:40|[super-xray](https://github.com/4ra1n/super-xray)|after release|
+|2023-03-13 11:17:35|[iDefender](https://github.com/wecooperate/iDefender)|update|
+|2023-03-13 07:23:06|[JDumpSpider](https://github.com/whwlsfb/JDumpSpider)|add ProcessEnvironment, JavaProperties.|
+|2023-03-13 06:23:54|[404StarLink](https://github.com/knownsec/404StarLink)|weekly update at 2023-03-13|
+|2023-03-13 01:50:20|[captcha-killer-modi<br>fied](https://github.com/f0ng/captcha-killer-modified)|Update README.md|
 |2023-03-12 16:40:00|[CDK](https://github.com/cdk-team/CDK)|Merge pull request #80 from cdk-team/v1.5.2-alphaV1.5.<br>2 alpha|
 |2023-03-12 16:19:35|[Apt_t00ls](https://github.com/White-hua/Apt_t00ls)|0day|
 |2023-03-12 15:57:56|[nemo_go](https://github.com/hanc00l/nemo_go)|Update: 优化Nuclei漏洞检测逻辑，提升扫描速度。扫描前先<br>检测端口存活情况与协议类型，放弃扫描http和https以外的未<br>知协议。|
@@ -57,7 +63,6 @@
 |2023-03-12 12:02:30|[feroxbuster](https://github.com/epi052/feroxbuster)|Merge pull request #823 from epi052/819-fix-resume-wit<br>h-offsetfix resume with offset|
 |2023-03-12 11:04:45|[HackBrowserData](https://github.com/moonD4rk/HackBrowserData)|Merge pull request #203 from moonD4rk/fix/leveldbfix: <br>missing key and value in local storage|
 |2023-03-12 08:19:38|[domain_hunter_pro](https://github.com/bit4woo/domain_hunter_pro)|Update LineEntryMenu.java|
-|2023-03-12 08:17:05|[iDefender](https://github.com/wecooperate/iDefender)|update|
 |2023-03-12 00:48:03|[AV_Evasion_Tool](https://github.com/1y0n/AV_Evasion_Tool)|Update README.md|
 |2023-03-11 15:08:44|[Hack-Tools](https://github.com/LasCC/Hack-Tools)|fix badge version|
 |2023-03-11 13:36:23|[PeiQi-WIKI-Book](https://github.com/PeiQi0/PeiQi-WIKI-Book)|漏洞相关:O2OA,联软,金山等相关漏洞|
@@ -70,7 +75,6 @@
 |2023-03-09 14:17:46|[geacon_pro](https://github.com/H4de5-7/geacon_pro)|Update README.md|
 |2023-03-09 08:35:52|[GoWxDump](https://github.com/SpenserCai/GoWxDump)|fixed #5|
 |2023-03-09 07:15:13|[vulnerability](https://github.com/lal0ne/vulnerability)|CVE-2022-27596|
-|2023-03-09 06:43:18|[JDumpSpider](https://github.com/whwlsfb/JDumpSpider)|update build instruction|
 |2023-03-09 04:32:58|[qsnctf-python](https://github.com/Moxin1044/qsnctf-python)|更新README|
 |2023-03-09 01:46:12|[0day](https://github.com/helloexp/0day)|Merge pull request #7 from mbskter/patch-1Update READM<br>E.md|
 |2023-03-09 01:32:50|[Vulnerability-Wiki](https://github.com/Threekiii/Vulnerability-Wiki)|更新漏洞|
@@ -86,11 +90,9 @@
 |2023-03-06 08:41:18|[ElectricRat](https://github.com/linjiananallnt/ElectricRat)|Update README.md|
 |2023-03-06 07:44:32|[Awesome-Redteam](https://github.com/Threekiii/Awesome-Redteam)|更新README.md|
 |2023-03-06 07:41:58|[Vulhub-Reproduce](https://github.com/Threekiii/Vulhub-Reproduce)|更新漏洞|
-|2023-03-06 02:53:17|[404StarLink](https://github.com/knownsec/404StarLink)|weekly update at 2023-03-06|
 |2023-03-05 16:10:52|[OA-EXPTOOL](https://github.com/LittleBear4/OA-EXPTOOL)|Add files via upload|
 |2023-03-05 02:02:20|[CN_Nessus_Plugins_I<br>nterface](https://github.com/nszy007/CN_Nessus_Plugins_Interface)|20230301|
 |2023-03-04 15:04:16|[SmsForwarder](https://github.com/pppscn/SmsForwarder)|优化：避免个别机型重启后自启动时startService可能空指针<br>导致crash|
-|2023-03-03 17:32:05|[RsaCtfTool](https://github.com/RsaCtfTool/RsaCtfTool)|Warning instead of info if gmpy/gmpy2 is not present.|
 |2023-03-03 16:58:46|[faker](https://github.com/joke2k/faker)|Bump version: 17.5.0 → 17.6.0|
 |2023-03-03 09:32:01|[Antenna](https://github.com/wuba/Antenna)|测试官方镜像2|
 |2023-03-03 08:58:49|[afrog](https://github.com/zan8in/afrog)|update poc|
@@ -126,7 +128,6 @@
 |2023-02-19 18:06:05|[wxapkgUnpack](https://github.com/jdr2021/wxapkgUnpack)|Update README.md|
 |2023-02-19 16:36:47|[RedisEXP](https://github.com/yuyan-sec/RedisEXP)|解决支持中文路径|
 |2023-02-19 12:41:37|[ffuf](https://github.com/ffuf/ffuf)|Fix HTML output (#640)|
-|2023-02-18 16:06:17|[super-xray](https://github.com/4ra1n/super-xray)|macos|
 |2023-02-18 00:01:09|[nuclei](https://github.com/projectdiscovery/nuclei)|chore(deps): bump golang.org/x/net from 0.6.0 to 0.7.0<br> in /v2 (#3337)Bumps [golang.org/x/net](https://github.<br>com/golang/net) from 0.6.0 to 0.7.0.- [Release notes](h<br>ttps://github.com/golang/net/releases)- [Commits](https<br>://github.com/golang/net/compare/v0.6.0...v0.7.0)---upd<br>ated-dependencies:- dependency-name: golang.org/x/netde<br>pendency-type: direct:production...Signed-off-by: depen<br>dabot[bot]Co-authored-by: dependabot[bot] |
 |2023-02-17 13:54:38|[Search_Viewer](https://github.com/G3et/Search_Viewer)|Update search_viewer_ui.py|
 |2023-02-17 03:44:49|[OutLook](https://github.com/KrystianLi/OutLook)|Update|
@@ -544,10 +545,10 @@
 | [http-request-smuggl<br>er](https://github.com/portswigger/http-request-smuggler) |  |  |
 | [burp-requests](https://github.com/silentsignal/burp-requests) | v0.2.4 | Copy as requests plugin for Burp Suite |
 | [CORSScanner](https://github.com/zzzskd/CORSScanner) |  | CORS 跨域漏洞 burp 插件 |
-| [fastjson-exp](https://github.com/skisw/fastjson-exp) | v1.0.0 | fastjson利用，支持tomcat、spring回显，哥斯拉内存马；回显利用链为<br>dhcp、ibatis、c3p0。 |
+| [fastjson-exp](https://github.com/skisw/fastjson-exp) |  |  |
 | [HostHeaderAttack](https://github.com/weujieytt/HostHeaderAttack) | 0.1 | 检测host头攻击的Burpsuite被动扫描插件，Burpsuite passive scannin<br>g plugin responsible for detecting host header attack |
 | [knife](https://github.com/bit4woo/knife) | v2.1 | A burp extension that add some useful function toContext Menu 添<br>加一些右键菜单让burp用起来更顺畅 |
-| [log4j2burpscanner](https://github.com/f0ng/log4j2burpscanner) | 0.23.0 | CVE-2021-44228 Log4j2 BurpSuite Scanner,Customize ceye.io api or<br> other apis,including internal networks |
+| [log4j2burpscanner](https://github.com/f0ng/log4j2burpscanner) | 0.23.0-be<br>ta2 | CVE-2021-44228 Log4j2 BurpSuite Scanner,Customize ceye.io api or<br> other apis,including internal networks |
 | [passive-scan-client](https://github.com/c0ny1/passive-scan-client) | 0.3.1 | Burp被动扫描流量转发插件 |
 | [BpScan](https://github.com/EASY233/BpScan) | 1.0.0 | 一款用于辅助渗透测试工程师日常渗透测试的Burp被动漏扫插件 |
 | [BurpSuiteCn](https://github.com/funkyoummp/BurpSuiteCn) | V2.0 | Burp Suite汉化 中文 |
@@ -594,7 +595,7 @@
 | :---- | :---- | :---- |
 | [yarx](https://github.com/zema1/yarx) | v0.2.0 | An awesome reverse engine for xray poc. | 一个自动化根据 xray po<br>c 生成对应靶站的工具 |
 | [xray-poc-generation](https://github.com/phith0n/xray-poc-generation) |  | 🧬 辅助生成 XRay YAML POC |
-| [super-xray](https://github.com/4ra1n/super-xray) | 1.5 | Web漏洞扫描工具XRAY的GUI启动器 (Web Vulnerability Scanner GUI St<br>arter) |
+| [super-xray](https://github.com/4ra1n/super-xray) | 1.6 | Web漏洞扫描工具XRAY的GUI启动器 (Web Vulnerability Scanner GUI St<br>arter) |
 | [Xray_Cracked](https://github.com/NHPT/Xray_Cracked) | v1.9.4 | Update Xray1.9.4 Cracked for Windows,Linux and Mac OS. |
 #### pocsuite3
 | 项目名称 | 版本 | 项目描述 |
@@ -795,7 +796,7 @@
 #### 主机入侵检测
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
-| [Elkeid](https://github.com/bytedance/Elkeid) | rasp-v2.2<br>.0.3-pre | Elkeid is an open source solution that can meet the security req<br>uirements of various workloads such as hosts, containers and K8s,<br> and serverless. It is derived from ByteDance's internal best pra<br>ctices. |
+| [Elkeid](https://github.com/bytedance/Elkeid) | rasp-v2.2<br>.0.3 | Elkeid is an open source solution that can meet the security req<br>uirements of various workloads such as hosts, containers and K8s,<br> and serverless. It is derived from ByteDance's internal best pra<br>ctices. |
 | [Hades](https://github.com/theSecHunter/Hades) |  | Hades is an cross-platform HIDS with kernel-space data collectio<br>n. |
 #### Web应用防火墙
 | 项目名称 | 版本 | 项目描述 |

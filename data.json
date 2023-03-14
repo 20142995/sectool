@@ -1457,8 +1457,8 @@
             "https://github.com/whwlsfb/JDumpSpider": {
                 "created_at": "2022-01-05 07:30:39",
                 "description": "HeapDump敏感信息提取工具",
-                "commit_date": "2023-03-09 06:43:18",
-                "commit_message": "update build instruction",
+                "commit_date": "2023-03-13 07:23:06",
+                "commit_message": "add ProcessEnvironment, JavaProperties.",
                 "release_tag": "V1.1",
                 "release_date": "2023-03-09 04:49:16",
                 "release_message": "- 项目重构，增强不同环境下的兼容性。 - 增加类字段的用户信息模糊搜索功能。"
@@ -1596,8 +1596,8 @@
             "https://github.com/ycdxsb/PocOrExp_in_Github": {
                 "created_at": "2021-04-13 05:46:16",
                 "description": "聚合Github上已有的Poc或者Exp，CVE信息来自CVE官网。Auto Collect Poc Or Exp from Github by CVE ID.",
-                "commit_date": "2023-03-12 21:42:05",
-                "commit_message": "update 2023-03-13 05:42:05",
+                "commit_date": "2023-03-13 21:40:17",
+                "commit_message": "update 2023-03-14 05:40:17",
                 "release_tag": "",
                 "release_date": "",
                 "release_message": ""
@@ -1814,7 +1814,7 @@
                 "commit_message": "Merge pull request #80 from cdk-team/v1.5.2-alpha\n\nV1.5.2 alpha",
                 "release_tag": "v1.5.2",
                 "release_date": "2023-03-12 16:46:59",
-                "release_message": "Release Date: 2023-03-12  ## :scroll: Changelog  ### :bomb: Exploits   * Fix 78(exp): support containerd and other linux path  ### :toolbox: Tools  * Fix #77(exp shadow-apiserver): anonymous-auth is not valid, support v1.23.1  ### :sparkles: Others  * Fix 78(exp): support containerd and other linux path * Chore(exp): add alert message about flag auto-escape is deprecated  ## :key: Hash Table  |SHA256|EXECTUE FILE| |---|---| |9f63e35d7b9d0814ad9f0ef23b89deb4f823d3b07bcd33df9abc5b957bb8be0f|cdk_darwin_amd64 d5c8e759b790c6ffb3134c8f0aae5865e2ae4c672dc09eaa312bc928fd0d78bd|cdk_linux_386 64c86a12800b8d5064e7313a43eb6f5504a7043ab15c227cecfddaf84cc74ced|cdk_linux_386_thin 364fcacd8b55d7d54162849b620cd83e9f50ddb3c7c08478f391cce09449b452|cdk_linux_386_thin_upx 242a11999f0c5b776400f2462854ef1d07101bd1085e3b29c9b7ba825c93a3fb|cdk_linux_386_upx af751c690671ffc0da6380ef94a25df3dfc5911c448319f7f6b90df55cca7b7d|cdk_linux_amd64 f118a70fa7b02b858bb4fffb96d9a861e4b02f62df054a0d69854449682c8f85|cdk_linux_amd64_thin 3dc271adc2565c38eda5fdaee3070bda8962159d17ba625467a0f3a6e5e440d0|cdk_linux_amd64_thin_upx 924fb2bd1fe001f9eb62509a05546d1aaf97ebbfca73c75eb665a38b34559c4e|cdk_linux_amd64_upx 594811dafdfb9f5cc56b604d8fe97777c23057e37803ec34afdf5680bf9276ea|cdk_linux_arm 828aede9a7bc193899b66e8c10ac10d24398cf79575e771d9a970d3f9a4cdd92|cdk_linux_arm64 2eb30e2abc71fadaee5980bd89a8e4a2c95bcc5d60857a3c13b006c186307e8e|cdk_linux_arm64_thin| "
+                "release_message": "Release Date: 2023-03-12  ## What's Changed * V1.5.2 alpha by @neargle in https://github.com/cdk-team/CDK/pull/80  ## :scroll: Changelog  ### :bomb: Exploits   * Fix 78(exp): support containerd and other linux path  ### :toolbox: Tools  * Fix #77(exp shadow-apiserver): anonymous-auth is not valid, support v1.23.1  ### :sparkles: Others  * Fix 78(exp): support containerd and other linux path * Chore(exp): add alert message about flag auto-escape is deprecated  ## :sparkles: In Chinese  * 支持 linux 环境下的不同容器运行时，如 containerd、runc、docker； * 修复shadow-apiserver匿名访问无效的issue，支持新版本的k8s，如 v1.23.1； * 添加迭代部分功能的消息提醒  ## :key: Hash Table  |SHA256|EXECTUE FILE| |---|---| |9f63e35d7b9d0814ad9f0ef23b89deb4f823d3b07bcd33df9abc5b957bb8be0f|cdk_darwin_amd64 d5c8e759b790c6ffb3134c8f0aae5865e2ae4c672dc09eaa312bc928fd0d78bd|cdk_linux_386 64c86a12800b8d5064e7313a43eb6f5504a7043ab15c227cecfddaf84cc74ced|cdk_linux_386_thin 364fcacd8b55d7d54162849b620cd83e9f50ddb3c7c08478f391cce09449b452|cdk_linux_386_thin_upx 242a11999f0c5b776400f2462854ef1d07101bd1085e3b29c9b7ba825c93a3fb|cdk_linux_386_upx af751c690671ffc0da6380ef94a25df3dfc5911c448319f7f6b90df55cca7b7d|cdk_linux_amd64 f118a70fa7b02b858bb4fffb96d9a861e4b02f62df054a0d69854449682c8f85|cdk_linux_amd64_thin 3dc271adc2565c38eda5fdaee3070bda8962159d17ba625467a0f3a6e5e440d0|cdk_linux_amd64_thin_upx 924fb2bd1fe001f9eb62509a05546d1aaf97ebbfca73c75eb665a38b34559c4e|cdk_linux_amd64_upx 594811dafdfb9f5cc56b604d8fe97777c23057e37803ec34afdf5680bf9276ea|cdk_linux_arm 828aede9a7bc193899b66e8c10ac10d24398cf79575e771d9a970d3f9a4cdd92|cdk_linux_arm64 2eb30e2abc71fadaee5980bd89a8e4a2c95bcc5d60857a3c13b006c186307e8e|cdk_linux_arm64_thin|   **Full Changelog**: https://github.com/cdk-team/CDK/compare/v1.5.1...v1.5.2"
             }
         },
         "信息泄露漏洞利用": {
@@ -2137,8 +2137,8 @@
             "https://github.com/knownsec/404StarLink": {
                 "created_at": "2020-11-17 08:10:18",
                 "description": "404StarLink - 推荐优质、有意义、有趣、坚持维护的安全开源项目",
-                "commit_date": "2023-03-06 02:53:17",
-                "commit_message": "weekly update at 2023-03-06",
+                "commit_date": "2023-03-13 06:23:54",
+                "commit_message": "weekly update at 2023-03-13",
                 "release_tag": "",
                 "release_date": "",
                 "release_message": ""
@@ -2325,7 +2325,7 @@
             "https://github.com/f0ng/captcha-killer-modified": {
                 "created_at": "2022-03-18 12:41:58",
                 "description": "captcha-killer的修改版，支持关键词识别base64编码的图片，添加免费ocr库，用于验证码爆破，适配新版Burpsuite",
-                "commit_date": "2023-02-10 12:15:31",
+                "commit_date": "2023-03-13 01:50:20",
                 "commit_message": "Update README.md",
                 "release_tag": "0.21-beta",
                 "release_date": "2023-02-10 11:17:41",
@@ -2395,13 +2395,13 @@
                 "release_message": ""
             },
             "https://github.com/skisw/fastjson-exp": {
-                "created_at": "2022-03-15 09:10:12",
-                "description": "fastjson利用，支持tomcat、spring回显，哥斯拉内存马；回显利用链为dhcp、ibatis、c3p0。",
+                "created_at": "",
+                "description": "",
                 "commit_date": "2022-03-15 09:51:11",
                 "commit_message": "Update README.md",
-                "release_tag": "v1.0.0",
-                "release_date": "2022-03-15 09:23:02",
-                "release_message": "v1.0.0"
+                "release_tag": "",
+                "release_date": "",
+                "release_message": ""
             },
             "https://github.com/weujieytt/HostHeaderAttack": {
                 "created_at": "2022-02-23 13:59:36",
@@ -2426,9 +2426,9 @@
                 "description": "CVE-2021-44228 Log4j2 BurpSuite Scanner,Customize ceye.io api or other apis,including internal networks",
                 "commit_date": "2023-03-10 06:38:33",
                 "commit_message": "Update README.md",
-                "release_tag": "0.23.0",
-                "release_date": "2023-03-10 10:16:15",
-                "release_message": "# 0.23.0 update ## 2023-3-10 1. set normal payload as preferred 2. add the vulnerability display of payload containing variables 3. optimize the problem of not displaying vulnerability points _____________________________________________________________ 1. 将正常payload设为首选，在内网ip中运行 2. 增加payload含有变量的漏洞显示 3. 优化漏洞点不显示问题 4. 修复漏洞"
+                "release_tag": "0.23.0-beta2",
+                "release_date": "2023-03-13 07:24:56",
+                "release_message": "# 0.23.0-beta2 update ## 2023-3-13 1. fix problem _____________________________________________________________ 1. 优化选中内网ip时只发请求头含有`%24`payload的问题，增至和普通被动扫描一样多的请求"
             },
             "https://github.com/c0ny1/passive-scan-client": {
                 "created_at": "2019-08-08 01:01:28",
@@ -2816,11 +2816,11 @@
             "https://github.com/4ra1n/super-xray": {
                 "created_at": "2022-11-18 14:52:09",
                 "description": "Web漏洞扫描工具XRAY的GUI启动器 (Web Vulnerability Scanner GUI Starter)",
-                "commit_date": "2023-02-18 16:06:17",
-                "commit_message": "macos",
-                "release_tag": "1.5",
-                "release_date": "2023-02-18 15:11:13",
-                "release_message": "## 1.5  更新内容： - [important] [improve] 更简洁更好用的新UI #144 - [important] [feat] 支持拖拽xray文件加载 #140 - [important] [feat] 允许设置日志等级 #146 - [bug] CPU占用较高问题RAD修复不完善 #139 - [feat] 增加一键修复/还原的功能 #143 - [feat] 自动检查版本更新并提示 #142 - [improve] 反连HTTP URL输入的验证 #145  下载： - super-xray-1.5.jar 版本通过`java -jar super-xray-1.5.jar`启动 - super-xray-1.5-jre-exe.zip 是内置了JRE的exe版本 - super-xray-1.5-system-jre.exe 是使用系统JRE的exe版本 - Super-Xray.app.zip 是 Mac OS 的 app (测试版可能有bug)"
+                "commit_date": "2023-03-13 18:52:40",
+                "commit_message": "after release",
+                "release_tag": "1.6",
+                "release_date": "2023-03-13 18:58:37",
+                "release_message": "## 1.6  失眠，简单更新下  更新内容： - [important] 给RAD联动提供一种批量执行的办法 #155 - [important] RAD联动支持Cookie配置 #153 - [feat] 第一次加载RAD后支持保存路径下次直接加载 #156 - [feat] RAD联动支持一键复制RAD命令 #154 - [bug] 备份xray目录原来的config.yaml文件 #152 - [feat] RAD 联动支持拖拽功能 #151 - [feat] request 支持自定义 user-agent #149 - [feat] 允许设置请求Cookie内容 #150 - [feat] radium support file input #148 (同#155)  下载： - super-xray-1.6.jar 版本通过`java -jar super-xray-1.6.jar`启动 - super-xray-1.6-jre-exe.zip 是内置了JRE的exe版本 - super-xray-1.6-system-jre.exe 是使用系统JRE的exe版本"
             },
             "https://github.com/NHPT/Xray_Cracked": {
                 "created_at": "2022-08-10 13:51:19",
@@ -2963,7 +2963,7 @@
             "https://github.com/ExpLangcn/NucleiTP": {
                 "created_at": "2022-11-08 13:16:56",
                 "description": "自动整合全网Nuclei的漏洞POC，实时同步更新最新POC！",
-                "commit_date": "2023-03-13 01:00:15",
+                "commit_date": "2023-03-14 00:45:18",
                 "commit_message": "更新啦❤️",
                 "release_tag": "",
                 "release_date": "",
@@ -3454,8 +3454,8 @@
             "https://github.com/RsaCtfTool/RsaCtfTool": {
                 "created_at": "2015-03-07 17:29:33",
                 "description": "RSA attack tool (mainly for ctf) - retreive private key from weak public key and/or uncipher data",
-                "commit_date": "2023-03-03 17:32:05",
-                "commit_message": "Warning instead of info if gmpy/gmpy2 is not present.",
+                "commit_date": "2023-03-13 23:50:33",
+                "commit_message": "add compositorial pm1 attack",
                 "release_tag": "",
                 "release_date": "",
                 "release_message": ""
@@ -3646,8 +3646,8 @@
                 "description": "Elkeid is an open source solution that can meet the security requirements of various workloads such as hosts, containers and K8s, and serverless. It is derived from ByteDance's internal best practices.",
                 "commit_date": "2023-03-10 02:50:32",
                 "commit_message": "using `RASP` runner",
-                "release_tag": "rasp-v2.2.0.3-pre",
-                "release_date": "2023-03-10 07:17:13",
+                "release_tag": "rasp-v2.2.0.3",
+                "release_date": "2023-03-13 02:23:44",
                 "release_message": ""
             },
             "https://github.com/theSecHunter/Hades": {
@@ -3704,7 +3704,7 @@
             "https://github.com/wecooperate/iDefender": {
                 "created_at": "2021-11-24 11:38:28",
                 "description": "iDefender（冰盾 - 终端主动防御系统）",
-                "commit_date": "2023-03-12 08:17:05",
+                "commit_date": "2023-03-13 11:17:35",
                 "commit_message": "update",
                 "release_tag": "2.5.0",
                 "release_date": "2023-03-10 07:42:24",
