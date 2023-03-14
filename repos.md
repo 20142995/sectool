@@ -408,3 +408,4 @@
 |其他|渗透测试报告辅助|https://github.com/dbgee/pentest_report|
 |信息收集|IP反查域名|https://github.com/Lengso/iplookup|
 |信息收集|资产测绘采集|https://github.com/burpheart/koko-moni|
+|漏洞发现&利用|中间件&框架漏洞利用|https://github.com/xiaokp7/Tomcat_PUT_GUI_EXP|
