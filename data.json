@@ -27,6 +27,15 @@
                 "release_tag": "v2.0",
                 "release_date": "2023-02-17 13:57:27",
                 "release_message": "版本：v2.0 2023/02/17  ·修复导出时间戳  ·修复Hunter情况恢复页码  ·界面稍微调整  ·新增360 Quake  ·新增Zoomeye 钟馗之眼"
+            },
+            "https://github.com/burpheart/koko-moni": {
+                "created_at": "2023-03-13 14:40:22",
+                "description": "一个网络空间搜索引擎监控平台，可定时进行资产信息爬取，及时发现新增资产，本项目聚合了 Fofa、Hunter、Quake、Zoomeye 和 Threatbook 的数据源，并对获取到的数据进行去重与清洗",
+                "commit_date": "2023-03-14 02:45:47",
+                "commit_message": "Update readme.md",
+                "release_tag": "v0.0.1",
+                "release_date": "2023-03-13 15:04:36",
+                "release_message": "v0.0.1"
             }
         },
         "子域名收集": {
@@ -624,8 +633,8 @@
             "https://github.com/zan8in/afrog": {
                 "created_at": "2022-02-24 06:00:32",
                 "description": "A Vulnerability Scanning Tools For Penetration Testing",
-                "commit_date": "2023-03-03 08:58:49",
-                "commit_message": "update poc",
+                "commit_date": "2023-03-14 03:28:48",
+                "commit_message": "delete poc csz-cms-multiple-blind-sql-injection.yaml",
                 "release_tag": "v2.2.1",
                 "release_date": "2023-02-04 14:54:34",
                 "release_message": "Merge many fingerprint pocs into the panel-detect.yaml file to reduce the number of http requests Console  print date format, 2023-01-01 changed to 01-01 Simplified afrog-config configuration  Fixed: invalid `-fc` configuration Tip: Configure the `-c` command, which can increase the concurrency speed very quickly  -----------------------------------------------------------------------------  将多个 panel 指纹探测合并到文件 panel-detect.yaml，大幅减少 http 请求 精简控制台日期打印，2023-01-01 改为 01-01 精简 afrog-config 配置信息  解决：`-fc` 命令配置无效问题 提示：配置 `-c` 命令能明显提高扫描速度"
@@ -801,9 +810,9 @@
                 "description": "双语双端内网扫描以及验证工具",
                 "commit_date": "2023-02-01 12:26:23",
                 "commit_message": "Update README.md",
-                "release_tag": "v1.1.2",
-                "release_date": "2023-02-17 13:04:31",
-                "release_message": "2023.2.17 21:00 1.更新了多个模块报错"
+                "release_tag": "v1.1.3",
+                "release_date": "2023-03-14 14:33:27",
+                "release_message": "2023.3.14 22:30 1.解决了一个POC在运行过程中线程提前中断的bug"
             },
             "https://github.com/Dliv3/redis-rogue-server": {
                 "created_at": "2019-07-08 08:54:11",
@@ -1006,6 +1015,15 @@
                 "release_tag": "",
                 "release_date": "",
                 "release_message": ""
+            },
+            "https://github.com/xiaokp7/Tomcat_PUT_GUI_EXP": {
+                "created_at": "2023-03-10 16:26:45",
+                "description": "Tomcat PUT方法任意文件写入（CVE-2017-12615）exp",
+                "commit_date": "2023-03-14 07:39:41",
+                "commit_message": "Create README.md",
+                "release_tag": "1.4",
+                "release_date": "2023-03-13 05:57:36",
+                "release_message": "修复命令执行回显中文乱码"
             }
         },
         "中间件&框架漏洞扫描": {
@@ -1265,7 +1283,7 @@
             },
             "https://github.com/wpscanteam/wpscan": {
                 "created_at": "2012-07-11 20:27:47",
-                "description": "WPScan WordPress security scanner. Written for security professionals and blog maintainers to test the security of their WordPress websites.",
+                "description": "WPScan WordPress security scanner. Written for security professionals and blog maintainers to test the security of their WordPress websites. Contact us via contact@wpscan.com",
                 "commit_date": "2023-02-14 09:38:24",
                 "commit_message": "Merge pull request #1770 from wpscanteam/dependabot/github_actions/docker/build-push-action-4\n\nBump docker/build-push-action from 3 to 4",
                 "release_tag": "v3.8.22",
@@ -1596,8 +1614,8 @@
             "https://github.com/ycdxsb/PocOrExp_in_Github": {
                 "created_at": "2021-04-13 05:46:16",
                 "description": "聚合Github上已有的Poc或者Exp，CVE信息来自CVE官网。Auto Collect Poc Or Exp from Github by CVE ID.",
-                "commit_date": "2023-03-13 21:40:17",
-                "commit_message": "update 2023-03-14 05:40:17",
+                "commit_date": "2023-03-14 21:42:20",
+                "commit_message": "update 2023-03-15 05:42:19",
                 "release_tag": "",
                 "release_date": "",
                 "release_message": ""
@@ -1643,7 +1661,7 @@
             "https://github.com/Threekiii/Awesome-POC": {
                 "created_at": "2022-02-20 06:43:22",
                 "description": "一个各类漏洞POC知识库",
-                "commit_date": "2023-03-09 01:29:47",
+                "commit_date": "2023-03-14 02:23:38",
                 "commit_message": "更新漏洞",
                 "release_tag": "",
                 "release_date": "",
@@ -1652,7 +1670,7 @@
             "https://github.com/Threekiii/Vulnerability-Wiki": {
                 "created_at": "2022-04-29 05:36:33",
                 "description": "一个综合漏洞知识库，集成了Vulhub、Peiqi、Edge、0sec、Wooyun等开源漏洞库",
-                "commit_date": "2023-03-09 01:32:50",
+                "commit_date": "2023-03-14 02:31:47",
                 "commit_message": "更新漏洞",
                 "release_tag": "v1.0",
                 "release_date": "2022-07-15 01:58:00",
@@ -1726,8 +1744,8 @@
             "https://github.com/madneal/gshark": {
                 "created_at": "2018-03-09 14:16:55",
                 "description": "Scan for sensitive information easily and effectively.",
-                "commit_date": "2023-03-06 15:22:19",
-                "commit_message": "Merge pull request #148 from madneal/dependabot/go_modules/server/golang.org/x/image-0.5.0\n\nBump golang.org/x/image from 0.0.0-20201208152932-35266b937fa6 to 0.5.0 in /server",
+                "commit_date": "2023-03-14 23:44:28",
+                "commit_message": "Merge pull request #149 from madneal/dependabot/npm_and_yarn/web/webpack-5.76.0\n\nBump webpack from 5.69.1 to 5.76.0 in /web",
                 "release_tag": "v1.1.4",
                 "release_date": "2023-02-15 10:17:50",
                 "release_message": "## Fixed  * 修复无法变更规则状态的问题 * 增加新增 token 的 postman 类型  ## Added   * 增加 `startSecFilterTask` 以及 `getTaskStatus`  API 权限初始化"
@@ -2325,11 +2343,11 @@
             "https://github.com/f0ng/captcha-killer-modified": {
                 "created_at": "2022-03-18 12:41:58",
                 "description": "captcha-killer的修改版，支持关键词识别base64编码的图片，添加免费ocr库，用于验证码爆破，适配新版Burpsuite",
-                "commit_date": "2023-03-13 01:50:20",
+                "commit_date": "2023-03-14 06:26:40",
                 "commit_message": "Update README.md",
-                "release_tag": "0.21-beta",
-                "release_date": "2023-02-10 11:17:41",
-                "release_message": "【2023-2-10】 0.21-beta - 优化验证码编码中的`\\n`处理 - 优化`@captcha@`的判断方式  感谢微信群@5ING 、@策马奔腾 师傅反馈"
+                "release_tag": "0.22",
+                "release_date": "2023-03-14 06:26:44",
+                "release_message": "【2023-3-14】 0.22 重要问题修复 - 修复了装载插件会影响proxy选项卡的问题"
             },
             "https://github.com/whwlsfb/BurpCrypto": {
                 "created_at": "2020-05-29 02:59:15",
@@ -2343,8 +2361,8 @@
             "https://github.com/f0ng/autoDecoder": {
                 "created_at": "2022-03-26 10:13:56",
                 "description": "Burp插件，根据自定义来达到对数据包的处理（适用于加解密、爆破等），类似mitmproxy，不同点在于经过了burp中转，在自动加解密的基础上，不影响APP、网站加解密正常逻辑等。",
-                "commit_date": "2023-02-22 13:36:47",
-                "commit_message": "Delete autoDecoder例子 directory",
+                "commit_date": "2023-03-14 02:39:44",
+                "commit_message": "Update FAQ.md",
                 "release_tag": "0.23",
                 "release_date": "2023-02-22 13:35:31",
                 "release_message": "## 2023.2.22 更新0.23 1. 优化了插件的一些问题 2. 案例移步[autoDecoder-usages](https://github.com/f0ng/autoDecoder-usages)"
@@ -2469,8 +2487,8 @@
             "https://github.com/weishen250/npscrack": {
                 "created_at": "2023-02-16 14:11:38",
                 "description": "蓝队利器、溯源反制、NPS 漏洞利用、NPS exp、NPS poc、Burp插件、一键利用",
-                "commit_date": "2023-02-20 14:06:29",
-                "commit_message": "Update README.md",
+                "commit_date": "2023-03-14 09:43:45",
+                "commit_message": "Add files via upload",
                 "release_tag": "npscrack-1.0",
                 "release_date": "2023-02-16 15:01:33",
                 "release_message": ""
@@ -2847,8 +2865,8 @@
             "https://github.com/LasCC/Hack-Tools": {
                 "created_at": "2020-06-22 21:42:16",
                 "description": "The all-in-one Red Team extension for Web Pentester 🛠",
-                "commit_date": "2023-03-11 15:08:44",
-                "commit_message": "fix badge version",
+                "commit_date": "2023-03-14 21:39:08",
+                "commit_message": "splitting webpack chunks + fixing zipping for firefox",
                 "release_tag": "0.5.0",
                 "release_date": "2023-03-11 15:07:46",
                 "release_message": "# Version 0.5.0  The new update is out! 🤩  - Completely redesign the revershell component - New transfert methods component - Fix the MSF Builder component  ## Installation Steps :  ### Chrome - Extract **dist.zip** (you will obtain a folder named **dist**) - In your chromium based web-browser upload the folder as an unpacked Extension ***check the repo readme.md***  **NEW** Link to the Chrome extension : https://chrome.google.com/webstore/detail/hack-tools/cmbndhnoonmghfofefkcccljbkdpamhi  ---  ### Firefox  https://addons.mozilla.org/fr/firefox/addon/hacktools/  Or install it as a temporary plugin in Firefox in the page `about:debugging#/runtime/this-firefox` by selecting the manifest inside **dist**  ---  ### Instructions to build for Safari  Create a safari web extension project using the command below. This is to be run once.  ```bash xcrun safari-web-extension-coverter [path_to_dist_folder] ```  Follow the instructions to create the project the default language should be Swift.  - Build project. - Open Safari and enable unsigned extensions; Develop → Allow Unsigned Extensions. - Open Safari → Preferences → Extensions and enable Hack-Tools - Click on the extension icon and switch to full screen mode.  **Full Changelog**: https://github.com/LasCC/Hack-Tools/pull/133 "
@@ -2963,7 +2981,7 @@
             "https://github.com/ExpLangcn/NucleiTP": {
                 "created_at": "2022-11-08 13:16:56",
                 "description": "自动整合全网Nuclei的漏洞POC，实时同步更新最新POC！",
-                "commit_date": "2023-03-14 00:45:18",
+                "commit_date": "2023-03-15 01:00:15",
                 "commit_message": "更新啦❤️",
                 "release_tag": "",
                 "release_date": "",
@@ -3491,8 +3509,8 @@
             "https://github.com/joke2k/faker": {
                 "created_at": "2012-11-12 23:00:09",
                 "description": "Faker is a Python package that generates fake data for you.",
-                "commit_date": "2023-03-03 16:58:46",
-                "commit_message": "Bump version: 17.5.0 → 17.6.0",
+                "commit_date": "2023-03-14 16:12:08",
+                "commit_message": "Add territory zip codes for `en_US` (#1821)\n\nClose #1812",
                 "release_tag": "v17.6.0",
                 "release_date": "2023-03-03 16:59:23",
                 "release_message": "See [CHANGELOG.md](https://github.com/joke2k/faker/blob/refs/tags/v17.6.0/CHANGELOG.md)."
@@ -3509,8 +3527,8 @@
             "https://github.com/dbeaver/dbeaver": {
                 "created_at": "2015-10-21 08:26:28",
                 "description": "Free universal database tool and SQL client",
-                "commit_date": "2023-03-12 14:58:24",
-                "commit_message": "BC dependency: do not include bundles explicitly",
+                "commit_date": "2023-03-14 17:19:22",
+                "commit_message": "#17703 Fix blob export to txt (#19215)\n\n* #17703 Fix blob export to txt\r\n\r\n* #17703 Make constants static",
                 "release_tag": "23.0.0",
                 "release_date": "2023-03-05 17:56:39",
                 "release_message": "Changes since 22.3.5: - SQL editor:     - Column metadata resolution was fixed for quoted column names     - SQL console now respects \"open separate connection\" option     - Variables resolve in `set` and other commands was fixed     - Copy/paste command was fixed for editors without associated connection - Data editor:     - Spatial viewer: lasso tool was fixed for Safari browser     - Support of WKT format stored in BLOB columns was added     - Issues with image viewer and BLOB columns was fixed (NullPointer error))     - Selected columns/rows data export was fixed (issue with BLOB value turning into NULL in UI) - Accessibility:     - Font settings are now respected in all editors/popups     - New keyboard shortcuts schema was added \"DBeaver Keyboard Only\"     - Many new keyboard shortcuts were added     - Catalog/schema selector now supports keyboard only mode     - Results tab pin/unpin command is now accessible from keyboard (thanks to hawthorne3341)     - Reader texts were localized - Database dashboard create wizard UI was fixed - Generate SQL dialog now supports connection invalidation - Clickhouse: driver version was updated to 0.4.1 - Dremio: driver version was updated to 24.0 - Firebird: table colum comments support was added - PostgreSQL:     - Issue with URL-based connections was resolved (invalid host name)     - Execution plan parameters are now saved - Redshift: varbyte datatype suport was fixed - SQL Server:     - UI for Kerberos authentication configuration was fixed     - Table colum comments support was added - French localization was fixed (thanks to alexgille) - Problems with Kerberos were resolved (we have reverted to Java 11)"

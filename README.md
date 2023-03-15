@@ -1,10 +1,14 @@
-# 更新于 2023-03-14 09:01:53
+# 更新于 2023-03-15 09:09:24
 
 ## 近30天release更新记录
 | 更新时间 | 项目名称 | 版本 | 更新内容 |
 | :---- | :---- | :---- | :---- |
+|2023-03-14 14:33:27|[RequestTemplate](https://github.com/1n7erface/RequestTemplate)|v1.1.3|2023.3.14 22:30 1.解决了一个POC在运行过<br>程中线程提前中断的bug|
+|2023-03-14 06:26:44|[captcha-killer-modi<br>fied](https://github.com/f0ng/captcha-killer-modified)|0.22|【2023-3-14】 0.22 重要问题修复 - 修复<br>了装载插件会影响proxy选项卡的问题|
 |2023-03-13 18:58:37|[super-xray](https://github.com/4ra1n/super-xray)|1.6|## 1.6失眠，简单更新下更新内容： - [imp<br>ortant] 给RAD联动提供一种批量执行的办法 <br>#155 - [important] RAD联动支持Cookie配置<br> #153 - [feat] 第一次加载RAD后支持保存路<br>径下次直接加载 #156 - [feat] RAD联动支持<br>一键复制RAD命令 #154 - [bug] 备份xray目录<br>原来的config.yaml文件 #152 - [feat] RAD <br>联动支持拖拽功能 #151 - [feat] request 支<br>持自定义 user-agent #149 - [feat] 允许设<br>置请求Cookie内容 #150 - [feat] radium sup<br>port file input #148 (同#155)下载： - su<br>per-xray-1.6.jar 版本通过java -jar super<br>-xray-1.6.jar启动 - super-xray-1.6-jre-e<br>xe.zip 是内置了JRE的exe版本 - super-xray<br>-1.6-system-jre.exe 是使用系统JRE的exe版<br>本|
+|2023-03-13 15:04:36|[koko-moni](https://github.com/burpheart/koko-moni)|v0.0.1|v0.0.1|
 |2023-03-13 07:24:56|[log4j2burpscanner](https://github.com/f0ng/log4j2burpscanner)|0.23.0-be<br>ta2|# 0.23.0-beta2 update ## 2023-3-13 1. f<br>ix problem _____________________________<br>________________________________ 1. 优化<br>选中内网ip时只发请求头含有%24payload的问<br>题，增至和普通被动扫描一样多的请求|
+|2023-03-13 05:57:36|[Tomcat_PUT_GUI_EXP](https://github.com/xiaokp7/Tomcat_PUT_GUI_EXP)|1.4|修复命令执行回显中文乱码|
 |2023-03-13 02:23:44|[Elkeid](https://github.com/bytedance/Elkeid)|rasp-v2.2<br>.0.3||
 |2023-03-12 16:51:05|[Apt_t00ls](https://github.com/White-hua/Apt_t00ls)|v0.6|H3C 任意文件上传 致远帆软组件任意文件上<br>传 nacos任意用户添加 帆软任意文件上传 用<br>友GRP_U8任意文件上传 用友KSOA任意文件上传<br>rce -- 0day漏洞作者 https://github.com/c<br>dxiaodong|
 |2023-03-12 16:46:59|[CDK](https://github.com/cdk-team/CDK)|v1.5.2|Release Date: 2023-03-12## What's Chang<br>ed * V1.5.2 alpha by @neargle in https:/<br>/github.com/cdk-team/CDK/pull/80## :scro<br>ll: Changelog### :bomb: Exploits* Fix 78<br>(exp): support containerd and other linu<br>x path### :toolbox: Tools* Fix #77(exp s<br>hadow-apiserver): anonymous-auth is not <br>valid, support v1.23.1### :sparkles: Oth<br>ers* Fix 78(exp): support containerd and<br> other linux path * Chore(exp): add aler<br>t message about flag auto-escape is depr<br>ecated## :sparkles: In Chinese* 支持 lin<br>ux 环境下的不同容器运行时，如 containerd<br>、runc、docker； * 修复shadow-apiserver匿<br>名访问无效的issue，支持新版本的k8s，如 v1<br>.23.1； * 添加迭代部分功能的消息提醒## :<br>key: Hash Table|SHA256|EXECTUE FILE| |--<br>-|---| |9f63e35d7b9d0814ad9f0ef23b89deb4<br>f823d3b07bcd33df9abc5b957bb8be0f|cdk_dar<br>win_amd64 d5c8e759b790c6ffb3134c8f0aae58<br>65e2ae4c672dc09eaa312bc928fd0d78bd|cdk_l<br>inux_386 64c86a12800b8d5064e7313a43eb6f5<br>504a7043ab15c227cecfddaf84cc74ced|cdk_li<br>nux_386_thin 364fcacd8b55d7d54162849b620<br>cd83e9f50ddb3c7c08478f391cce09449b452|cd<br>k_linux_386_thin_upx 242a11999f0c5b77640<br>0f2462854ef1d07101bd1085e3b29c9b7ba825c9<br>3a3fb|cdk_linux_386_upx af751c690671ffc0<br>da6380ef94a25df3dfc5911c448319f7f6b90df5<br>5cca7b7d|cdk_linux_amd64 f118a70fa7b02b8<br>58bb4fffb96d9a861e4b02f62df054a0d6985444<br>9682c8f85|cdk_linux_amd64_thin 3dc271adc<br>2565c38eda5fdaee3070bda8962159d17ba62546<br>7a0f3a6e5e440d0|cdk_linux_amd64_thin_upx<br> 924fb2bd1fe001f9eb62509a05546d1aaf97ebb<br>fca73c75eb665a38b34559c4e|cdk_linux_amd6<br>4_upx 594811dafdfb9f5cc56b604d8fe97777c2<br>3057e37803ec34afdf5680bf9276ea|cdk_linux<br>_arm 828aede9a7bc193899b66e8c10ac10d2439<br>8cf79575e771d9a970d3f9a4cdd92|cdk_linux_<br>arm64 2eb30e2abc71fadaee5980bd89a8e4a2c9<br>5bcc5d60857a3c13b006c186307e8e|cdk_linux<br>_arm64_thin|**Full Changelog**: https://<br>github.com/cdk-team/CDK/compare/v1.5.1..<br>.v1.5.2|
@@ -35,7 +39,6 @@
 |2023-02-21 03:59:42|[URLFinder](https://github.com/pingc0y/URLFinder)|2023.2.21|2023/2/21 修复 已知bug|
 |2023-02-19 17:36:35|[wxapkgUnpack](https://github.com/jdr2021/wxapkgUnpack)|1.0||
 |2023-02-17 13:57:27|[Search_Viewer](https://github.com/G3et/Search_Viewer)|v2.0|版本：v2.0 2023/02/17·修复导出时间戳·修<br>复Hunter情况恢复页码·界面稍微调整·新增360<br> Quake·新增Zoomeye 钟馗之眼|
-|2023-02-17 13:04:31|[RequestTemplate](https://github.com/1n7erface/RequestTemplate)|v1.1.2|2023.2.17 21:00 1.更新了多个模块报错|
 |2023-02-17 03:46:29|[OutLook](https://github.com/KrystianLi/OutLook)|v1.2.0|1、优化代码和操作界面 2、新增数据保存功<br>能，导出格式为xls|
 |2023-02-16 15:01:33|[npscrack](https://github.com/weishen250/npscrack)|npscrack-<br>1.0||
 |2023-02-15 10:17:50|[gshark](https://github.com/madneal/gshark)|v1.1.4|## Fixed* 修复无法变更规则状态的问题 * <br>增加新增 token 的 postman 类型## Added* <br>增加 startSecFilterTask 以及 getTaskStatu<br>sAPI 权限初始化|
@@ -48,23 +51,32 @@
 ## 近30天commit提交记录
 | 提交时间 | 项目名称 | 更新内容 |
 | :---- | :---- | :---- |
-|2023-03-14 00:45:18|[NucleiTP](https://github.com/ExpLangcn/NucleiTP)|更新啦❤️|
+|2023-03-15 01:00:15|[NucleiTP](https://github.com/ExpLangcn/NucleiTP)|更新啦❤️|
+|2023-03-14 23:44:28|[gshark](https://github.com/madneal/gshark)|Merge pull request #149 from madneal/dependabot/npm_an<br>d_yarn/web/webpack-5.76.0Bump webpack from 5.69.1 to 5.<br>76.0 in /web|
+|2023-03-14 21:42:20|[PocOrExp_in_Github](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-03-15 05:42:19|
+|2023-03-14 21:39:08|[Hack-Tools](https://github.com/LasCC/Hack-Tools)|splitting webpack chunks + fixing zipping for firefox|
+|2023-03-14 17:19:22|[dbeaver](https://github.com/dbeaver/dbeaver)|#17703 Fix blob export to txt (#19215)* #17703 Fix blo<br>b export to txt* #17703 Make constants static|
+|2023-03-14 16:12:08|[faker](https://github.com/joke2k/faker)|Add territory zip codes for en_US (#1821)Close #1812|
+|2023-03-14 09:43:45|[npscrack](https://github.com/weishen250/npscrack)|Add files via upload|
+|2023-03-14 07:39:41|[Tomcat_PUT_GUI_EXP](https://github.com/xiaokp7/Tomcat_PUT_GUI_EXP)|Create README.md|
+|2023-03-14 06:26:40|[captcha-killer-modi<br>fied](https://github.com/f0ng/captcha-killer-modified)|Update README.md|
+|2023-03-14 03:28:48|[afrog](https://github.com/zan8in/afrog)|delete poc csz-cms-multiple-blind-sql-injection.yaml|
+|2023-03-14 02:45:47|[koko-moni](https://github.com/burpheart/koko-moni)|Update readme.md|
+|2023-03-14 02:39:44|[autoDecoder](https://github.com/f0ng/autoDecoder)|Update FAQ.md|
+|2023-03-14 02:31:47|[Vulnerability-Wiki](https://github.com/Threekiii/Vulnerability-Wiki)|更新漏洞|
+|2023-03-14 02:23:38|[Awesome-POC](https://github.com/Threekiii/Awesome-POC)|更新漏洞|
 |2023-03-13 23:50:33|[RsaCtfTool](https://github.com/RsaCtfTool/RsaCtfTool)|add compositorial pm1 attack|
-|2023-03-13 21:40:17|[PocOrExp_in_Github](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-03-14 05:40:17|
 |2023-03-13 18:52:40|[super-xray](https://github.com/4ra1n/super-xray)|after release|
 |2023-03-13 11:17:35|[iDefender](https://github.com/wecooperate/iDefender)|update|
 |2023-03-13 07:23:06|[JDumpSpider](https://github.com/whwlsfb/JDumpSpider)|add ProcessEnvironment, JavaProperties.|
 |2023-03-13 06:23:54|[404StarLink](https://github.com/knownsec/404StarLink)|weekly update at 2023-03-13|
-|2023-03-13 01:50:20|[captcha-killer-modi<br>fied](https://github.com/f0ng/captcha-killer-modified)|Update README.md|
 |2023-03-12 16:40:00|[CDK](https://github.com/cdk-team/CDK)|Merge pull request #80 from cdk-team/v1.5.2-alphaV1.5.<br>2 alpha|
 |2023-03-12 16:19:35|[Apt_t00ls](https://github.com/White-hua/Apt_t00ls)|0day|
 |2023-03-12 15:57:56|[nemo_go](https://github.com/hanc00l/nemo_go)|Update: 优化Nuclei漏洞检测逻辑，提升扫描速度。扫描前先<br>检测端口存活情况与协议类型，放弃扫描http和https以外的未<br>知协议。|
-|2023-03-12 14:58:24|[dbeaver](https://github.com/dbeaver/dbeaver)|BC dependency: do not include bundles explicitly|
 |2023-03-12 12:02:30|[feroxbuster](https://github.com/epi052/feroxbuster)|Merge pull request #823 from epi052/819-fix-resume-wit<br>h-offsetfix resume with offset|
 |2023-03-12 11:04:45|[HackBrowserData](https://github.com/moonD4rk/HackBrowserData)|Merge pull request #203 from moonD4rk/fix/leveldbfix: <br>missing key and value in local storage|
 |2023-03-12 08:19:38|[domain_hunter_pro](https://github.com/bit4woo/domain_hunter_pro)|Update LineEntryMenu.java|
 |2023-03-12 00:48:03|[AV_Evasion_Tool](https://github.com/1y0n/AV_Evasion_Tool)|Update README.md|
-|2023-03-11 15:08:44|[Hack-Tools](https://github.com/LasCC/Hack-Tools)|fix badge version|
 |2023-03-11 13:36:23|[PeiQi-WIKI-Book](https://github.com/PeiQi0/PeiQi-WIKI-Book)|漏洞相关:O2OA,联软,金山等相关漏洞|
 |2023-03-10 16:04:54|[K8tools](https://github.com/k8gege/K8tools)|Add files via upload|
 |2023-03-10 13:05:05|[ysoserial](https://github.com/su18/ysoserial)|更新 BC 使用方式 ReadMe|
@@ -77,14 +89,11 @@
 |2023-03-09 07:15:13|[vulnerability](https://github.com/lal0ne/vulnerability)|CVE-2022-27596|
 |2023-03-09 04:32:58|[qsnctf-python](https://github.com/Moxin1044/qsnctf-python)|更新README|
 |2023-03-09 01:46:12|[0day](https://github.com/helloexp/0day)|Merge pull request #7 from mbskter/patch-1Update READM<br>E.md|
-|2023-03-09 01:32:50|[Vulnerability-Wiki](https://github.com/Threekiii/Vulnerability-Wiki)|更新漏洞|
-|2023-03-09 01:29:47|[Awesome-POC](https://github.com/Threekiii/Awesome-POC)|更新漏洞|
 |2023-03-08 15:14:14|[QingTing](https://github.com/StarCrossPortal/QingTing)|更新|
 |2023-03-08 07:14:47|[pentest_report](https://github.com/dbgee/pentest_report)|Create LICENSE|
 |2023-03-08 02:32:40|[cf](https://github.com/teamssix/cf)|Merge pull request #214 from teamssix/betaperf: perf i<br>ssue ci|
 |2023-03-07 08:44:53|[knife](https://github.com/bit4woo/knife)|Update ChineseTab.java|
 |2023-03-07 07:33:10|[Godzilla](https://github.com/BeichenDream/Godzilla)|Update README.md|
-|2023-03-06 15:22:19|[gshark](https://github.com/madneal/gshark)|Merge pull request #148 from madneal/dependabot/go_mod<br>ules/server/golang.org/x/image-0.5.0Bump golang.org/x/i<br>mage from 0.0.0-20201208152932-35266b937fa6 to 0.5.0 in<br> /server|
 |2023-03-06 14:39:54|[NessusToReport](https://github.com/Hypdncy/NessusToReport)|增加beautifulsoup4包|
 |2023-03-06 08:46:31|[veinmind-tools](https://github.com/chaitin/veinmind-tools)|fix(veinmind-sensitive):fix scan path (#205)fix(veinmi<br>nd-sensitive):fix scan pathCo-authored-by: GiveMeAShell<br> |
 |2023-03-06 08:41:18|[ElectricRat](https://github.com/linjiananallnt/ElectricRat)|Update README.md|
@@ -93,9 +102,7 @@
 |2023-03-05 16:10:52|[OA-EXPTOOL](https://github.com/LittleBear4/OA-EXPTOOL)|Add files via upload|
 |2023-03-05 02:02:20|[CN_Nessus_Plugins_I<br>nterface](https://github.com/nszy007/CN_Nessus_Plugins_Interface)|20230301|
 |2023-03-04 15:04:16|[SmsForwarder](https://github.com/pppscn/SmsForwarder)|优化：避免个别机型重启后自启动时startService可能空指针<br>导致crash|
-|2023-03-03 16:58:46|[faker](https://github.com/joke2k/faker)|Bump version: 17.5.0 → 17.6.0|
 |2023-03-03 09:32:01|[Antenna](https://github.com/wuba/Antenna)|测试官方镜像2|
-|2023-03-03 08:58:49|[afrog](https://github.com/zan8in/afrog)|update poc|
 |2023-03-02 17:24:57|[rengine](https://github.com/yogeshojha/rengine)|Merge pull request #829 from yogeshojha/release/1.3.6R<br>elease/1.3.6|
 |2023-03-02 13:16:44|[subfinder](https://github.com/projectdiscovery/subfinder)|Merge pull request #776 from projectdiscovery/readme-u<br>pdateUpdate installation requirement to go1.19|
 |2023-03-01 09:10:31|[CVE-2023-21839](https://github.com/4ra1n/CVE-2023-21839)|Update README.md|
@@ -115,7 +122,6 @@
 |2023-02-23 09:31:05|[Library-POC](https://github.com/luck-ying/Library-POC)|Update README.md|
 |2023-02-23 07:36:27|[xray](https://github.com/chaitin/xray)|[fix] 文档地址|
 |2023-02-23 05:56:50|[appshark](https://github.com/bytedance/appshark)|support pattern filed match.|
-|2023-02-22 13:36:47|[autoDecoder](https://github.com/f0ng/autoDecoder)|Delete autoDecoder例子 directory|
 |2023-02-22 09:36:50|[HaE](https://github.com/gh0stkey/HaE)|Version: 2.4.6 Update|
 |2023-02-22 08:29:41|[fscan](https://github.com/shadow1ng/fscan)|Merge pull request #265 from AgeloVito/mainUpdate eval<br>.go|
 |2023-02-21 16:11:23|[dirsearch](https://github.com/maurosoria/dirsearch)|Merge pull request #1282 from 0x0d3ad/patch-3Update my<br> profile link github|
@@ -123,7 +129,6 @@
 |2023-02-21 03:50:02|[URLFinder](https://github.com/pingc0y/URLFinder)|2023/2/21更新|
 |2023-02-21 03:33:52|[IPSearch](https://github.com/SleepingBag945/IPSearch)|Update README.md|
 |2023-02-21 02:04:04|[Scanners-Box](https://github.com/We5ter/Scanners-Box)|[+]Cyber-Buddy/APKHunt|
-|2023-02-20 14:06:29|[npscrack](https://github.com/weishen250/npscrack)|Update README.md|
 |2023-02-20 06:54:31|[Kunlun-M](https://github.com/LoRexxar/Kunlun-M)|Merge pull request #224 from LoRexxar/developfixed #22<br>3|
 |2023-02-19 18:06:05|[wxapkgUnpack](https://github.com/jdr2021/wxapkgUnpack)|Update README.md|
 |2023-02-19 16:36:47|[RedisEXP](https://github.com/yuyan-sec/RedisEXP)|解决支持中文路径|
@@ -151,6 +156,7 @@
 | [InfoSearchAll](https://github.com/ExpLangcn/InfoSearchAll) | V1.2 | 为了方便安全从业人员在使用网络测绘平台进行信息搜集时的效率，本程<br>序集合了多个网络测绘平台，可以快速在多个网络测绘平台搜索信息并且合<br>并展示及导出。 |
 | [ThunderSearch](https://github.com/xzajyjs/ThunderSearch) | v2.3.2 | 【支持Fofa、Zoomeye、Quake等网络空间搜索引擎】闪电搜索器；GUI图<br>形化渗透测试信息搜集工具；资产搜集引擎 |
 | [Search_Viewer](https://github.com/G3et/Search_Viewer) | v2.0 | 集Fofa、Hunter鹰图、Shodan、360 quake、Zoomeye 钟馗之眼为一体的g<br>ui图形界面化工具 |
+| [koko-moni](https://github.com/burpheart/koko-moni) | v0.0.1 | 一个网络空间搜索引擎监控平台，可定时进行资产信息爬取，及时发现新<br>增资产，本项目聚合了 Fofa、Hunter、Quake、Zoomeye 和 Threatbook 的<br>数据源，并对获取到的数据进行去重与清洗 |
 #### 子域名收集
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
@@ -276,7 +282,7 @@
 | [redis-rce](https://github.com/Ridter/redis-rce) |  | Redis 4.x/5.x RCE |
 | [RedisEXP](https://github.com/yuyan-sec/RedisEXP) |  | Redis 漏洞利用工具 |
 | [redis_rce](https://github.com/zyylhn/redis_rce) | v0.1.0 | Redis primary/secondary replication RCE |
-| [RequestTemplate](https://github.com/1n7erface/RequestTemplate) | v1.1.2 | 双语双端内网扫描以及验证工具 |
+| [RequestTemplate](https://github.com/1n7erface/RequestTemplate) | v1.1.3 | 双语双端内网扫描以及验证工具 |
 | [redis-rogue-server](https://github.com/Dliv3/redis-rogue-server) |  | Redis 4.x/5.x RCE |
 #### Shell管理
 | 项目名称 | 版本 | 项目描述 |
@@ -305,6 +311,7 @@
 | [SpringBootExploit](https://github.com/0x727/SpringBootExploit) | 1.3 | 项目是根据LandGrey/SpringBootVulExploit清单编写，目的hvv期间快速<br>利用漏洞、降低漏洞利用门槛。 |
 | [SpringBoot-Scan-GUI](https://github.com/13exp/SpringBoot-Scan-GUI) | v1.2.2 |  |
 | [CVE-2023-21839](https://github.com/4ra1n/CVE-2023-21839) |  | Weblogic CVE-2023-21839 RCE (无需Java依赖一键RCE) |
+| [Tomcat_PUT_GUI_EXP](https://github.com/xiaokp7/Tomcat_PUT_GUI_EXP) | 1.4 | Tomcat PUT方法任意文件写入（CVE-2017-12615）exp |
 #### 中间件&框架漏洞扫描
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
@@ -342,7 +349,7 @@
 | [CMSmap](https://github.com/Dionach/CMSmap) |  | CMSmap is a python open source CMS scanner that automates the pr<br>ocess of detecting security flaws of the most popular CMSs.  |
 | [wprecon](https://github.com/blackbinn/wprecon) |  |  |
 | [wordpress-exploit-f<br>ramework](https://github.com/rastating/wordpress-exploit-framework) | v2.0.1 | A Ruby framework designed to aid in the penetration testing of W<br>ordPress systems.  |
-| [wpscan](https://github.com/wpscanteam/wpscan) | v3.8.22 | WPScan WordPress security scanner. Written for security professi<br>onals and blog maintainers to test the security of their WordPres<br>s websites. |
+| [wpscan](https://github.com/wpscanteam/wpscan) | v3.8.22 | WPScan WordPress security scanner. Written for security professi<br>onals and blog maintainers to test the security of their WordPres<br>s websites. Contact us via contact@wpscan.com |
 | [wprecon](https://github.com/AngraTeam/wprecon) | 2.4.5 | WPRecon, is a tool for the recognition of vulnerabilities and bl<br>ackbox information for wordpress. |
 | [Aazhen-RexHa](https://github.com/zangcc/Aazhen-RexHa) | Aazhen-Re<br>xHa_Scanne<br>r | 自研JavaFX图形化漏洞扫描工具，支持扫描的漏洞分别是： ThinkPHP-2.<br>x-RCE， ThinkPHP-5.0.23-RCE， ThinkPHP5.0.x-5.0.23通杀RCE， Think<br>PHP5-SQL注入&敏感信息泄露， ThinkPHP 3.x 日志泄露NO.1， ThinkPHP <br>3.x 日志泄露NO.2， ThinkPHP 5.x 数据库信息泄露的漏洞检测，以及批<br>量检测的功能。漏洞POC基本适用ThinkPHP全版本漏洞。 |
 | [ThinkphpGUI](https://github.com/Lotus6/ThinkphpGUI) | 1.3 | Thinkphp(GUI)漏洞利用工具，支持各版本TP漏洞检测，命令执行，getsh<br>ell。 |
@@ -537,7 +544,7 @@
 | [Sylas](https://github.com/Acmesec/Sylas) | 1.1.1 | 新一代子域名主/被动收集工具 - Subdomain automatic/passive collec<br>tion tool |
 | [GadgetProbe](https://github.com/BishopFox/GadgetProbe) | v1.0 | Probe endpoints consuming Java serialized objects to identify cl<br>asses, libraries, and library versions on remote Java classpaths. |
 | [HopLa](https://github.com/synacktiv/HopLa) | 1.2 |  HopLa Burp Suite Extender plugin -Adds autocompletion support a<br>nd useful payloads in Burp Suite |
-| [captcha-killer-modi<br>fied](https://github.com/f0ng/captcha-killer-modified) | 0.21-beta | captcha-killer的修改版，支持关键词识别base64编码的图片，添加免费<br>ocr库，用于验证码爆破，适配新版Burpsuite |
+| [captcha-killer-modi<br>fied](https://github.com/f0ng/captcha-killer-modified) | 0.22 | captcha-killer的修改版，支持关键词识别base64编码的图片，添加免费<br>ocr库，用于验证码爆破，适配新版Burpsuite |
 | [BurpCrypto](https://github.com/whwlsfb/BurpCrypto) |  | BurpCrypto is a collection of burpsuite encryption plug-ins, sup<br>port AES/RSA/DES/ExecJs(execute JS encryption code in burpsuite).<br> 支持多种加密算法或直接执行JS代码的用于爆破前端加密的BurpSuite插<br>件 |
 | [autoDecoder](https://github.com/f0ng/autoDecoder) | 0.23 | Burp插件，根据自定义来达到对数据包的处理（适用于加解密、爆破等）<br>，类似mitmproxy，不同点在于经过了burp中转，在自动加解密的基础上，<br>不影响APP、网站加解密正常逻辑等。 |
 | [burpFakeIP](https://github.com/TheKingOfDuck/burpFakeIP) | 1.1 | 服务端配置错误情况下用于伪造ip地址进行测试的Burp Suite插件 |
