@@ -322,8 +322,8 @@
             "https://github.com/hanc00l/nemo_go": {
                 "created_at": "2021-07-29 08:13:25",
                 "description": "Nemo是用来进行自动化信息收集的一个简单平台，通过集成常用的信息收集工具和技术，实现对内网及互联网资产信息的自动收集，提高隐患排查和渗透测试的工作效率，用Go语言完全重构了原Python版本。",
-                "commit_date": "2023-03-12 15:57:56",
-                "commit_message": "Update: 优化Nuclei漏洞检测逻辑，提升扫描速度。扫描前先检测端口存活情况与协议类型，放弃扫描http和https以外的未知协议。",
+                "commit_date": "2023-03-15 02:33:56",
+                "commit_message": "Fix: ip_http and domain_http SaveOrUpdate function",
                 "release_tag": "v2.9.1",
                 "release_date": "2023-03-11 02:07:48",
                 "release_message": "Update： 1、在任务中获取http指纹时，将HTTP响应的Header与Body保存并进行查询。  注意： **由于新增加了两个数据库表，因此从v2.9.0升级请导入http.sql。**"
@@ -1291,13 +1291,13 @@
                 "release_message": "See https://github.com/wpscanteam/CMSScanner/releases/tag/v0.13.8  - Minor:   - Better handling of redirection, ie when target http->https (or the opposite), the target URL will be changed to the new one automatically to avoid scanning the http version and getting 301 which could result in items being missed   - Better handling of unsupported HEAD method by checking for 501 and timeout as well"
             },
             "https://github.com/AngraTeam/wprecon": {
-                "created_at": "2020-12-07 03:51:12",
-                "description": "WPRecon, is a tool for the recognition of vulnerabilities and blackbox information for wordpress.",
+                "created_at": "",
+                "description": "",
                 "commit_date": "2022-10-22 19:35:25",
                 "commit_message": "Update README.md",
-                "release_tag": "2.4.5",
-                "release_date": "2022-04-06 12:12:40",
-                "release_message": "<h1 align=\"center\">WPRecon (Wordpress Recon) <a href=\"https://github.com/blackcrw/wprecon\">v2.4.5</a></h1>  ``` WPRecon, is a tool for the recognition of vulnerabilities and blackbox information for wordpress. ```  ⚡️ / 🎨 There was a big/small change in the code structure of the plugins/themes enumerator, in order to get better performance and to be able to more easily adapt future new features. "
+                "release_tag": "",
+                "release_date": "",
+                "release_message": ""
             },
             "https://github.com/zangcc/Aazhen-RexHa": {
                 "created_at": "2022-02-28 10:37:45",
@@ -1329,8 +1329,8 @@
             "https://github.com/White-hua/Apt_t00ls": {
                 "created_at": "2022-10-02 14:14:27",
                 "description": "高危漏洞利用工具",
-                "commit_date": "2023-03-12 16:19:35",
-                "commit_message": "0day",
+                "commit_date": "2023-03-15 03:38:02",
+                "commit_message": "Update README.md",
                 "release_tag": "v0.6",
                 "release_date": "2023-03-12 16:51:05",
                 "release_message": "H3C 任意文件上传 致远帆软组件任意文件上传 nacos任意用户添加 帆软任意文件上传 用友GRP_U8任意文件上传 用友KSOA任意文件上传rce -- 0day  漏洞作者 https://github.com/cdxiaodong"
@@ -1569,8 +1569,8 @@
             "https://github.com/helloexp/0day": {
                 "created_at": "2022-04-07 04:28:29",
                 "description": "各种CMS、各种平台、各种系统、各种软件漏洞的EXP、POC ,该项目将持续更新",
-                "commit_date": "2023-03-09 01:46:12",
-                "commit_message": "Merge pull request #7 from mbskter/patch-1\n\nUpdate README.md",
+                "commit_date": "2023-03-15 05:12:18",
+                "commit_message": "Merge branch 'master' of https://github.com/helloexp/0day",
                 "release_tag": "",
                 "release_date": "",
                 "release_message": ""
@@ -1587,8 +1587,8 @@
             "https://github.com/lal0ne/vulnerability": {
                 "created_at": "2022-01-20 02:48:42",
                 "description": "收集、整理、修改互联网上公开的漏洞POC",
-                "commit_date": "2023-03-09 07:15:13",
-                "commit_message": "CVE-2022-27596",
+                "commit_date": "2023-03-15 07:02:43",
+                "commit_message": "CVE-2021-29441",
                 "release_tag": "",
                 "release_date": "",
                 "release_message": ""
@@ -1614,8 +1614,8 @@
             "https://github.com/ycdxsb/PocOrExp_in_Github": {
                 "created_at": "2021-04-13 05:46:16",
                 "description": "聚合Github上已有的Poc或者Exp，CVE信息来自CVE官网。Auto Collect Poc Or Exp from Github by CVE ID.",
-                "commit_date": "2023-03-14 21:42:20",
-                "commit_message": "update 2023-03-15 05:42:19",
+                "commit_date": "2023-03-15 21:43:49",
+                "commit_message": "update 2023-03-16 05:43:49",
                 "release_tag": "",
                 "release_date": "",
                 "release_message": ""
@@ -1806,8 +1806,8 @@
             "https://github.com/webraybtl/CodeQLpy": {
                 "created_at": "2022-12-22 12:54:03",
                 "description": "CodeQLpy是一款基于CodeQL实现的半自动化代码审计工具，目前仅支持java语言。实现从源码反编译，数据库生成，脆弱性发现的全过程，可以辅助代码审计人员快速定位源码可能存在的漏洞。",
-                "commit_date": "2023-02-28 01:25:11",
-                "commit_message": "优化提示信息",
+                "commit_date": "2023-03-15 09:09:00",
+                "commit_message": "优化因为重复import相同类名导致的bug",
                 "release_tag": "",
                 "release_date": "",
                 "release_message": ""
@@ -2981,7 +2981,7 @@
             "https://github.com/ExpLangcn/NucleiTP": {
                 "created_at": "2022-11-08 13:16:56",
                 "description": "自动整合全网Nuclei的漏洞POC，实时同步更新最新POC！",
-                "commit_date": "2023-03-15 01:00:15",
+                "commit_date": "2023-03-16 01:00:16",
                 "commit_message": "更新啦❤️",
                 "release_tag": "",
                 "release_date": "",
@@ -3527,8 +3527,8 @@
             "https://github.com/dbeaver/dbeaver": {
                 "created_at": "2015-10-21 08:26:28",
                 "description": "Free universal database tool and SQL client",
-                "commit_date": "2023-03-14 17:19:22",
-                "commit_message": "#17703 Fix blob export to txt (#19215)\n\n* #17703 Fix blob export to txt\r\n\r\n* #17703 Make constants static",
+                "commit_date": "2023-03-15 09:08:48",
+                "commit_message": "GPT limits usage fix",
                 "release_tag": "23.0.0",
                 "release_date": "2023-03-05 17:56:39",
                 "release_message": "Changes since 22.3.5: - SQL editor:     - Column metadata resolution was fixed for quoted column names     - SQL console now respects \"open separate connection\" option     - Variables resolve in `set` and other commands was fixed     - Copy/paste command was fixed for editors without associated connection - Data editor:     - Spatial viewer: lasso tool was fixed for Safari browser     - Support of WKT format stored in BLOB columns was added     - Issues with image viewer and BLOB columns was fixed (NullPointer error))     - Selected columns/rows data export was fixed (issue with BLOB value turning into NULL in UI) - Accessibility:     - Font settings are now respected in all editors/popups     - New keyboard shortcuts schema was added \"DBeaver Keyboard Only\"     - Many new keyboard shortcuts were added     - Catalog/schema selector now supports keyboard only mode     - Results tab pin/unpin command is now accessible from keyboard (thanks to hawthorne3341)     - Reader texts were localized - Database dashboard create wizard UI was fixed - Generate SQL dialog now supports connection invalidation - Clickhouse: driver version was updated to 0.4.1 - Dremio: driver version was updated to 24.0 - Firebird: table colum comments support was added - PostgreSQL:     - Issue with URL-based connections was resolved (invalid host name)     - Execution plan parameters are now saved - Redshift: varbyte datatype suport was fixed - SQL Server:     - UI for Kerberos authentication configuration was fixed     - Table colum comments support was added - French localization was fixed (thanks to alexgille) - Problems with Kerberos were resolved (we have reverted to Java 11)"
@@ -3664,8 +3664,8 @@
                 "description": "Elkeid is an open source solution that can meet the security requirements of various workloads such as hosts, containers and K8s, and serverless. It is derived from ByteDance's internal best practices.",
                 "commit_date": "2023-03-10 02:50:32",
                 "commit_message": "using `RASP` runner",
-                "release_tag": "rasp-v2.2.0.3",
-                "release_date": "2023-03-13 02:23:44",
+                "release_tag": "scanner-v2.2.0.1_20230315",
+                "release_date": "2023-03-15 08:50:17",
                 "release_message": ""
             },
             "https://github.com/theSecHunter/Hades": {
@@ -3722,7 +3722,7 @@
             "https://github.com/wecooperate/iDefender": {
                 "created_at": "2021-11-24 11:38:28",
                 "description": "iDefender（冰盾 - 终端主动防御系统）",
-                "commit_date": "2023-03-13 11:17:35",
+                "commit_date": "2023-03-15 11:05:29",
                 "commit_message": "update",
                 "release_tag": "2.5.0",
                 "release_date": "2023-03-10 07:42:24",

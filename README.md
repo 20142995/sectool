@@ -1,15 +1,15 @@
-# 更新于 2023-03-15 09:09:24
+# 更新于 2023-03-16 09:12:02
 
 ## 近30天release更新记录
 | 更新时间 | 项目名称 | 版本 | 更新内容 |
 | :---- | :---- | :---- | :---- |
+|2023-03-15 08:50:17|[Elkeid](https://github.com/bytedance/Elkeid)|scanner-v<br>2.2.0.1_20<br>230315||
 |2023-03-14 14:33:27|[RequestTemplate](https://github.com/1n7erface/RequestTemplate)|v1.1.3|2023.3.14 22:30 1.解决了一个POC在运行过<br>程中线程提前中断的bug|
 |2023-03-14 06:26:44|[captcha-killer-modi<br>fied](https://github.com/f0ng/captcha-killer-modified)|0.22|【2023-3-14】 0.22 重要问题修复 - 修复<br>了装载插件会影响proxy选项卡的问题|
 |2023-03-13 18:58:37|[super-xray](https://github.com/4ra1n/super-xray)|1.6|## 1.6失眠，简单更新下更新内容： - [imp<br>ortant] 给RAD联动提供一种批量执行的办法 <br>#155 - [important] RAD联动支持Cookie配置<br> #153 - [feat] 第一次加载RAD后支持保存路<br>径下次直接加载 #156 - [feat] RAD联动支持<br>一键复制RAD命令 #154 - [bug] 备份xray目录<br>原来的config.yaml文件 #152 - [feat] RAD <br>联动支持拖拽功能 #151 - [feat] request 支<br>持自定义 user-agent #149 - [feat] 允许设<br>置请求Cookie内容 #150 - [feat] radium sup<br>port file input #148 (同#155)下载： - su<br>per-xray-1.6.jar 版本通过java -jar super<br>-xray-1.6.jar启动 - super-xray-1.6-jre-e<br>xe.zip 是内置了JRE的exe版本 - super-xray<br>-1.6-system-jre.exe 是使用系统JRE的exe版<br>本|
 |2023-03-13 15:04:36|[koko-moni](https://github.com/burpheart/koko-moni)|v0.0.1|v0.0.1|
 |2023-03-13 07:24:56|[log4j2burpscanner](https://github.com/f0ng/log4j2burpscanner)|0.23.0-be<br>ta2|# 0.23.0-beta2 update ## 2023-3-13 1. f<br>ix problem _____________________________<br>________________________________ 1. 优化<br>选中内网ip时只发请求头含有%24payload的问<br>题，增至和普通被动扫描一样多的请求|
 |2023-03-13 05:57:36|[Tomcat_PUT_GUI_EXP](https://github.com/xiaokp7/Tomcat_PUT_GUI_EXP)|1.4|修复命令执行回显中文乱码|
-|2023-03-13 02:23:44|[Elkeid](https://github.com/bytedance/Elkeid)|rasp-v2.2<br>.0.3||
 |2023-03-12 16:51:05|[Apt_t00ls](https://github.com/White-hua/Apt_t00ls)|v0.6|H3C 任意文件上传 致远帆软组件任意文件上<br>传 nacos任意用户添加 帆软任意文件上传 用<br>友GRP_U8任意文件上传 用友KSOA任意文件上传<br>rce -- 0day漏洞作者 https://github.com/c<br>dxiaodong|
 |2023-03-12 16:46:59|[CDK](https://github.com/cdk-team/CDK)|v1.5.2|Release Date: 2023-03-12## What's Chang<br>ed * V1.5.2 alpha by @neargle in https:/<br>/github.com/cdk-team/CDK/pull/80## :scro<br>ll: Changelog### :bomb: Exploits* Fix 78<br>(exp): support containerd and other linu<br>x path### :toolbox: Tools* Fix #77(exp s<br>hadow-apiserver): anonymous-auth is not <br>valid, support v1.23.1### :sparkles: Oth<br>ers* Fix 78(exp): support containerd and<br> other linux path * Chore(exp): add aler<br>t message about flag auto-escape is depr<br>ecated## :sparkles: In Chinese* 支持 lin<br>ux 环境下的不同容器运行时，如 containerd<br>、runc、docker； * 修复shadow-apiserver匿<br>名访问无效的issue，支持新版本的k8s，如 v1<br>.23.1； * 添加迭代部分功能的消息提醒## :<br>key: Hash Table|SHA256|EXECTUE FILE| |--<br>-|---| |9f63e35d7b9d0814ad9f0ef23b89deb4<br>f823d3b07bcd33df9abc5b957bb8be0f|cdk_dar<br>win_amd64 d5c8e759b790c6ffb3134c8f0aae58<br>65e2ae4c672dc09eaa312bc928fd0d78bd|cdk_l<br>inux_386 64c86a12800b8d5064e7313a43eb6f5<br>504a7043ab15c227cecfddaf84cc74ced|cdk_li<br>nux_386_thin 364fcacd8b55d7d54162849b620<br>cd83e9f50ddb3c7c08478f391cce09449b452|cd<br>k_linux_386_thin_upx 242a11999f0c5b77640<br>0f2462854ef1d07101bd1085e3b29c9b7ba825c9<br>3a3fb|cdk_linux_386_upx af751c690671ffc0<br>da6380ef94a25df3dfc5911c448319f7f6b90df5<br>5cca7b7d|cdk_linux_amd64 f118a70fa7b02b8<br>58bb4fffb96d9a861e4b02f62df054a0d6985444<br>9682c8f85|cdk_linux_amd64_thin 3dc271adc<br>2565c38eda5fdaee3070bda8962159d17ba62546<br>7a0f3a6e5e440d0|cdk_linux_amd64_thin_upx<br> 924fb2bd1fe001f9eb62509a05546d1aaf97ebb<br>fca73c75eb665a38b34559c4e|cdk_linux_amd6<br>4_upx 594811dafdfb9f5cc56b604d8fe97777c2<br>3057e37803ec34afdf5680bf9276ea|cdk_linux<br>_arm 828aede9a7bc193899b66e8c10ac10d2439<br>8cf79575e771d9a970d3f9a4cdd92|cdk_linux_<br>arm64 2eb30e2abc71fadaee5980bd89a8e4a2c9<br>5bcc5d60857a3c13b006c186307e8e|cdk_linux<br>_arm64_thin|**Full Changelog**: https://<br>github.com/cdk-team/CDK/compare/v1.5.1..<br>.v1.5.2|
 |2023-03-12 12:32:10|[feroxbuster](https://github.com/epi052/feroxbuster)|v2.9.1|## What's Changed * Implement auto upda<br>te feature by @aancw in https://github.c<br>om/epi052/feroxbuster/pull/813 * scan ma<br>nagement can now canx scans started with<br> -u | --stdin | the menu itself by @epi0<br>52 in https://github.com/epi052/feroxbus<br>ter/pull/821 * feroxbuster can be instal<br>led via chocolatey by @aancw in https://<br>github.com/epi052/feroxbuster/pull/807 *<br> fix resume with offset when --methods |<br> --extensions are used by @epi052 in htt<br>ps://github.com/epi052/feroxbuster/pull/<br>823**Full Changelog**: https://github.co<br>m/epi052/feroxbuster/compare/v2.9.0...v2<br>.9.1|
@@ -45,17 +45,20 @@
 |2023-02-15 02:41:43|[SpringBoot-Scan-GUI](https://github.com/13exp/SpringBoot-Scan-GUI)|v1.2.2|针对CVE-2022-22965，增加shell验证减少误<br>报，新增加操作系统识别功能，若需使用，可<br>从菜单【更多】，前往nmap下载使用，识别仅<br>支持单地址|
 |2023-02-14 09:25:00|[SmsForwarder](https://github.com/pppscn/SmsForwarder)|v3.2.0|PS. 距离上一次1024发版，已经过去快5个月<br>了，期间发生不少事，一直没更新这个项目，<br>不管如何，魔幻的2022年都过去了！感谢大家<br>这2年来的陪伴与支持，祝大家有情人终成眷属<br>，情人节快乐！---### 【注意】* v3.x版本是<br>全新重构开发，可能一开始并不稳定，建议升<br>级前先做好数据备份！（客户端>一键换新机><br>离线模式>导出）* v3.2.0 去除了 mmkv 依赖<br>，采用 SharedPreferences 来保存配置，升级<br>之后通用设置中的配置请重新配置，具体原因<br>参见 [Issue #245](https://github.com/ppps<br>cn/SmsForwarder/issues/245)* 升级完毕后<br>，建议离线导出配置，完全卸载干净全新安装<br>后再导入配置（可以避免一些莫名其妙的玄学<br>问题，例如：耗电异常）---### 更新日志* 新<br>增：短信指令（根据短信指令开关对应功能） <br>#I5YX3F * 新增：监听网络状态变化提醒（AP<br>P通知转发，包名：77777777） #259 * 新增<br>：远程改话簿（方便给老人家添加联系人） #2<br>56 * 新增：远程查询手机定位（方便找回手<br>机/防止老少走丢） #256 * 新增：Socket发送<br>通道（支持MQTT/TCP/UDP协议） #252 * 新增<br>：发送通道 URL Scheme（支持跨应用数据传递<br>）#250 * 新增：自动消除额外APP通知 #232 #<br>248* 优化：短信/通话转发获取卡槽信息机制<br>（自行备注卡槽SubId对应）#228 #235 * 优化<br>：来电转发逻辑 & 新增提醒类型（1.来电挂机<br> 2.去电挂机 3.未接来电 4.来电提醒 5.来电<br>接通 6.去电拨出） * 优化：单个转发规则支<br>持绑定多个发送通道，且支持执行逻辑（全部<br>执行/失败即止/成功即止） #247 * 优化：转<br>发日志列表以原始信息为主，聚合展示转发日<br>志（一对多） * 优化：已安装App信息列表异<br>步加载机制 * 优化：电池状态监听/网络状态<br>监控 在未开启去重时默认开启1秒去重 * 优化<br>：利用BatteryReceiver守护自启动的Frpc (试<br>验) #254* 修复：Android 13 无法授予通知权<br>限 #255 * 修复：重启手机自动启动APP时加载<br>配置失败 #233 #245 * 修复：转发消息遍历发<br>送通道时未跳过已禁用的通道 * 修复：降级An<br>droid Gradle插件版本以兼容4.4 (#249 by N<br>yaMisty)* 升级：andserver到2.1.12（加快w<br>eb端上下行速度等） * 升级：frpclib 到 v0<br>.47.0 * 升级：androidx组件和kotlin版本还<br>有一些细微调整参见github提交记录---### AP<br>K版本说明： * universal: 通用版（不在乎<br>安装包大小/懒得选就用这个版本，包含以下4<br>种CPU架构so） * armeabi-v7a: 32位ARM设备<br>（备用机首选） * arm64-v8a: 64位ARM设备（<br>主流旗舰机） * x86: 32位Intel设备 * x86_6<br>4: 64/32位Intel设备|
 |2023-02-14 09:00:35|[shell-analyzer](https://github.com/4ra1n/shell-analyzer)|0.1|提供了三个jar文件： - agent.jar是核心文<br>件，请保持与gui.jar或remote.jar同目录 - g<br>ui.jar是GUI客户端，本地和远程分析都需要 <br>- remote.jar用于远程分析，本地分析无需下<br>载|
-|2023-02-13 07:25:06|[murphysec](https://github.com/murphysecurity/murphysec)|v3.0.1||
-|2023-02-13 06:07:53|[rotateproxy](https://github.com/akkuman/rotateproxy)|v0.7.2|## Changelog * 10ddfd1 fix: modernc.org<br>/sqlite 不支持 win 386|
-|2023-02-13 03:33:11|[ENScan_GO](https://github.com/wgpsec/ENScan_GO)|V0.0.9|**bugfix** - 修复JSON导出问题 fix #46 -<br> 修复天眼查日期问题 fix #43 - 修复阿拉丁<br>导出bug fix #30**new** - 增加只在终端显示<br>不导出文件 fix #25|
 ## 近30天commit提交记录
 | 提交时间 | 项目名称 | 更新内容 |
 | :---- | :---- | :---- |
-|2023-03-15 01:00:15|[NucleiTP](https://github.com/ExpLangcn/NucleiTP)|更新啦❤️|
+|2023-03-16 01:00:16|[NucleiTP](https://github.com/ExpLangcn/NucleiTP)|更新啦❤️|
+|2023-03-15 21:43:49|[PocOrExp_in_Github](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-03-16 05:43:49|
+|2023-03-15 11:05:29|[iDefender](https://github.com/wecooperate/iDefender)|update|
+|2023-03-15 09:09:00|[CodeQLpy](https://github.com/webraybtl/CodeQLpy)|优化因为重复import相同类名导致的bug|
+|2023-03-15 09:08:48|[dbeaver](https://github.com/dbeaver/dbeaver)|GPT limits usage fix|
+|2023-03-15 07:02:43|[vulnerability](https://github.com/lal0ne/vulnerability)|CVE-2021-29441|
+|2023-03-15 05:12:18|[0day](https://github.com/helloexp/0day)|Merge branch 'master' of https://github.com/helloexp/0<br>day|
+|2023-03-15 03:38:02|[Apt_t00ls](https://github.com/White-hua/Apt_t00ls)|Update README.md|
+|2023-03-15 02:33:56|[nemo_go](https://github.com/hanc00l/nemo_go)|Fix: ip_http and domain_http SaveOrUpdate function|
 |2023-03-14 23:44:28|[gshark](https://github.com/madneal/gshark)|Merge pull request #149 from madneal/dependabot/npm_an<br>d_yarn/web/webpack-5.76.0Bump webpack from 5.69.1 to 5.<br>76.0 in /web|
-|2023-03-14 21:42:20|[PocOrExp_in_Github](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-03-15 05:42:19|
 |2023-03-14 21:39:08|[Hack-Tools](https://github.com/LasCC/Hack-Tools)|splitting webpack chunks + fixing zipping for firefox|
-|2023-03-14 17:19:22|[dbeaver](https://github.com/dbeaver/dbeaver)|#17703 Fix blob export to txt (#19215)* #17703 Fix blo<br>b export to txt* #17703 Make constants static|
 |2023-03-14 16:12:08|[faker](https://github.com/joke2k/faker)|Add territory zip codes for en_US (#1821)Close #1812|
 |2023-03-14 09:43:45|[npscrack](https://github.com/weishen250/npscrack)|Add files via upload|
 |2023-03-14 07:39:41|[Tomcat_PUT_GUI_EXP](https://github.com/xiaokp7/Tomcat_PUT_GUI_EXP)|Create README.md|
@@ -67,12 +70,9 @@
 |2023-03-14 02:23:38|[Awesome-POC](https://github.com/Threekiii/Awesome-POC)|更新漏洞|
 |2023-03-13 23:50:33|[RsaCtfTool](https://github.com/RsaCtfTool/RsaCtfTool)|add compositorial pm1 attack|
 |2023-03-13 18:52:40|[super-xray](https://github.com/4ra1n/super-xray)|after release|
-|2023-03-13 11:17:35|[iDefender](https://github.com/wecooperate/iDefender)|update|
 |2023-03-13 07:23:06|[JDumpSpider](https://github.com/whwlsfb/JDumpSpider)|add ProcessEnvironment, JavaProperties.|
 |2023-03-13 06:23:54|[404StarLink](https://github.com/knownsec/404StarLink)|weekly update at 2023-03-13|
 |2023-03-12 16:40:00|[CDK](https://github.com/cdk-team/CDK)|Merge pull request #80 from cdk-team/v1.5.2-alphaV1.5.<br>2 alpha|
-|2023-03-12 16:19:35|[Apt_t00ls](https://github.com/White-hua/Apt_t00ls)|0day|
-|2023-03-12 15:57:56|[nemo_go](https://github.com/hanc00l/nemo_go)|Update: 优化Nuclei漏洞检测逻辑，提升扫描速度。扫描前先<br>检测端口存活情况与协议类型，放弃扫描http和https以外的未<br>知协议。|
 |2023-03-12 12:02:30|[feroxbuster](https://github.com/epi052/feroxbuster)|Merge pull request #823 from epi052/819-fix-resume-wit<br>h-offsetfix resume with offset|
 |2023-03-12 11:04:45|[HackBrowserData](https://github.com/moonD4rk/HackBrowserData)|Merge pull request #203 from moonD4rk/fix/leveldbfix: <br>missing key and value in local storage|
 |2023-03-12 08:19:38|[domain_hunter_pro](https://github.com/bit4woo/domain_hunter_pro)|Update LineEntryMenu.java|
@@ -86,9 +86,7 @@
 |2023-03-10 02:50:32|[Elkeid](https://github.com/bytedance/Elkeid)|using RASP runner|
 |2023-03-09 14:17:46|[geacon_pro](https://github.com/H4de5-7/geacon_pro)|Update README.md|
 |2023-03-09 08:35:52|[GoWxDump](https://github.com/SpenserCai/GoWxDump)|fixed #5|
-|2023-03-09 07:15:13|[vulnerability](https://github.com/lal0ne/vulnerability)|CVE-2022-27596|
 |2023-03-09 04:32:58|[qsnctf-python](https://github.com/Moxin1044/qsnctf-python)|更新README|
-|2023-03-09 01:46:12|[0day](https://github.com/helloexp/0day)|Merge pull request #7 from mbskter/patch-1Update READM<br>E.md|
 |2023-03-08 15:14:14|[QingTing](https://github.com/StarCrossPortal/QingTing)|更新|
 |2023-03-08 07:14:47|[pentest_report](https://github.com/dbgee/pentest_report)|Create LICENSE|
 |2023-03-08 02:32:40|[cf](https://github.com/teamssix/cf)|Merge pull request #214 from teamssix/betaperf: perf i<br>ssue ci|
@@ -111,7 +109,6 @@
 |2023-02-28 07:33:37|[RmTools](https://github.com/RoomaSec/RmTools)|11|
 |2023-02-28 06:05:45|[Awesome-Exploit](https://github.com/Threekiii/Awesome-Exploit)|更新CVE-2023-21839 Exploit|
 |2023-02-28 04:04:03|[OneScan](https://github.com/vaycore/OneScan)|更新说明文档及截图，添加设置过滤规则配置说明；更新版本<br>号0.5.2|
-|2023-02-28 01:25:11|[CodeQLpy](https://github.com/webraybtl/CodeQLpy)|优化提示信息|
 |2023-02-28 00:18:27|[Platypus](https://github.com/WangYihang/Platypus)|build(deps): bump http-cache-semantics in /web/fronten<br>d (#180)Bumps [http-cache-semantics](https://github.com<br>/kornelski/http-cache-semantics) from 4.1.0 to 4.1.1.- <br>[Release notes](https://github.com/kornelski/http-cache<br>-semantics/releases)- [Commits](https://github.com/korn<br>elski/http-cache-semantics/compare/v4.1.0...v4.1.1)---u<br>pdated-dependencies:- dependency-name: http-cache-seman<br>ticsdependency-type: indirect...Signed-off-by: dependab<br>ot[bot]Co-authored-by: dependabot[bot] |
 |2023-02-26 13:10:45|[go_proxy_pool](https://github.com/pingc0y/go_proxy_pool)|Delete src directory|
 |2023-02-26 07:24:32|[mitaka](https://github.com/ninoseki/mitaka)|Merge pull request #708 from ninoseki/change-packagech<br>ore: use plasmo build--zip for packaging [skip ci]|
@@ -142,13 +139,7 @@
 |2023-02-15 02:40:09|[SpringBoot-Scan-GUI](https://github.com/13exp/SpringBoot-Scan-GUI)|Delete targets.txt|
 |2023-02-14 18:14:54|[shell-analyzer](https://github.com/4ra1n/shell-analyzer)|Update README.md|
 |2023-02-14 09:38:24|[wpscan](https://github.com/wpscanteam/wpscan)|Merge pull request #1770 from wpscanteam/dependabot/gi<br>thub_actions/docker/build-push-action-4Bump docker/buil<br>d-push-action from 3 to 4|
-|2023-02-14 04:41:01|[All-Defense-Tool](https://github.com/guchangan1/All-Defense-Tool)|更新v2.2|
-|2023-02-13 06:42:07|[v2rayA](https://github.com/v2rayA/v2rayA)|fix: simple-obfs|
-|2023-02-13 06:04:33|[rotateproxy](https://github.com/akkuman/rotateproxy)|fix: modernc.org/sqlite 不支持 win 386|
-|2023-02-13 03:26:39|[ENScan_GO](https://github.com/wgpsec/ENScan_GO)|修复JSON导出问题 fix #46
-修复天眼查日期问题 fix #43
-修<br>复阿拉丁导出bug fix #30
-增加只在终端显示不导出文件 fix #<br>25|## 所有项目
+|2023-02-14 04:41:01|[All-Defense-Tool](https://github.com/guchangan1/All-Defense-Tool)|更新v2.2|## 所有项目
 ### 信息收集
 #### 资产测绘采集
 | 项目名称 | 版本 | 项目描述 |
@@ -350,7 +341,7 @@
 | [wprecon](https://github.com/blackbinn/wprecon) |  |  |
 | [wordpress-exploit-f<br>ramework](https://github.com/rastating/wordpress-exploit-framework) | v2.0.1 | A Ruby framework designed to aid in the penetration testing of W<br>ordPress systems.  |
 | [wpscan](https://github.com/wpscanteam/wpscan) | v3.8.22 | WPScan WordPress security scanner. Written for security professi<br>onals and blog maintainers to test the security of their WordPres<br>s websites. Contact us via contact@wpscan.com |
-| [wprecon](https://github.com/AngraTeam/wprecon) | 2.4.5 | WPRecon, is a tool for the recognition of vulnerabilities and bl<br>ackbox information for wordpress. |
+| [wprecon](https://github.com/AngraTeam/wprecon) |  |  |
 | [Aazhen-RexHa](https://github.com/zangcc/Aazhen-RexHa) | Aazhen-Re<br>xHa_Scanne<br>r | 自研JavaFX图形化漏洞扫描工具，支持扫描的漏洞分别是： ThinkPHP-2.<br>x-RCE， ThinkPHP-5.0.23-RCE， ThinkPHP5.0.x-5.0.23通杀RCE， Think<br>PHP5-SQL注入&敏感信息泄露， ThinkPHP 3.x 日志泄露NO.1， ThinkPHP <br>3.x 日志泄露NO.2， ThinkPHP 5.x 数据库信息泄露的漏洞检测，以及批<br>量检测的功能。漏洞POC基本适用ThinkPHP全版本漏洞。 |
 | [ThinkphpGUI](https://github.com/Lotus6/ThinkphpGUI) | 1.3 | Thinkphp(GUI)漏洞利用工具，支持各版本TP漏洞检测，命令执行，getsh<br>ell。 |
 | [thinkphp_gui_tools](https://github.com/bewhale/thinkphp_gui_tools) | v2.4.2 | ThinkPHP漏洞综合利用工具, 图形化界面, 命令执行, 一键getshell, 批<br>量检测, 日志遍历, session包含,宝塔绕过 |
@@ -803,7 +794,7 @@
 #### 主机入侵检测
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
-| [Elkeid](https://github.com/bytedance/Elkeid) | rasp-v2.2<br>.0.3 | Elkeid is an open source solution that can meet the security req<br>uirements of various workloads such as hosts, containers and K8s,<br> and serverless. It is derived from ByteDance's internal best pra<br>ctices. |
+| [Elkeid](https://github.com/bytedance/Elkeid) | scanner-v<br>2.2.0.1_20<br>230315 | Elkeid is an open source solution that can meet the security req<br>uirements of various workloads such as hosts, containers and K8s,<br> and serverless. It is derived from ByteDance's internal best pra<br>ctices. |
 | [Hades](https://github.com/theSecHunter/Hades) |  | Hades is an cross-platform HIDS with kernel-space data collectio<br>n. |
 #### Web应用防火墙
 | 项目名称 | 版本 | 项目描述 |
