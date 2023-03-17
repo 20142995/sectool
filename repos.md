@@ -413,3 +413,4 @@
 |漏洞发现&利用|WEB漏洞利用|https://github.com/epinna/tplmap|
 |漏洞发现&利用|WEB漏洞利用|https://github.com/sqlmapproject/sqlmap|
 |漏洞发现&利用|远控|https://github.com/xiao-zhu-zhu/noterce|
+|工具&插件|Burpsuite|https://github.com/Tsojan/TsojanScan|
