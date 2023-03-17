@@ -624,11 +624,11 @@
             "https://github.com/projectdiscovery/nuclei": {
                 "created_at": "2020-04-03 18:47:11",
                 "description": "Fast and customizable vulnerability scanner based on simple YAML based DSL.",
-                "commit_date": "2023-02-18 00:01:09",
-                "commit_message": "chore(deps): bump golang.org/x/net from 0.6.0 to 0.7.0 in /v2 (#3337)\n\nBumps [golang.org/x/net](https://github.com/golang/net) from 0.6.0 to 0.7.0.\r\n- [Release notes](https://github.com/golang/net/releases)\r\n- [Commits](https://github.com/golang/net/compare/v0.6.0...v0.7.0)\r\n\r\n---\r\nupdated-dependencies:\r\n- dependency-name: golang.org/x/net\r\n  dependency-type: direct:production\r\n...\r\n\r\nSigned-off-by: dependabot[bot] <support@github.com>\r\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
-                "release_tag": "v2.8.9",
-                "release_date": "2023-02-10 14:36:44",
-                "release_message": "## What's Changed  * **Fixed URL encoding issues in paths by @tarunKoyalwar** in https://github.com/projectdiscovery/nuclei/pull/3294 * **Fixed panic crash with ratelimit by @tarunKoyalwar** in https://github.com/projectdiscovery/nuclei/pull/3257 * Fixed path handling inconsistencies by @tarunKoyalwar in https://github.com/projectdiscovery/nuclei/pull/3243 * Fixed data race in templates with payloads by @tarunKoyalwar in https://github.com/projectdiscovery/nuclei/pull/3265 * **Fixed using httpx as a library for http probing by @Ice3man543** in https://github.com/projectdiscovery/nuclei/pull/3261 * Fixed data race in race requests by @tarunKoyalwar in https://github.com/projectdiscovery/nuclei/pull/3275 * Fixed publish docs workflow by @tarunKoyalwar in https://github.com/projectdiscovery/nuclei/pull/3296 * Fixed retryablehttp for templates loading by @Mzack9999 in https://github.com/projectdiscovery/nuclei/pull/3291 * Fixed `aes_cbc` helper function update by @Ice3man543 in https://github.com/projectdiscovery/nuclei/pull/3287 * Fixed json schema for extractor attribute by @Mzack9999 in https://github.com/projectdiscovery/nuclei/pull/3240 * **Added env variable support in reporting config by @xm1k3** in https://github.com/projectdiscovery/nuclei/pull/3188 * Added proxy use in headless binary download by @Mzack9999 in https://github.com/projectdiscovery/nuclei/pull/3290 * **Added interactsh payload input support in TLS SNI field by @Mzack9999** in https://github.com/projectdiscovery/nuclei/pull/3276  Issues closed in the release - https://github.com/projectdiscovery/nuclei/milestone/26?closed=1  ## New Contributors * @M-Faheem-Khan made their first contribution in https://github.com/projectdiscovery/nuclei/pull/3235 * @galoget made their first contribution in https://github.com/projectdiscovery/nuclei/pull/3299  **Full Changelog**: https://github.com/projectdiscovery/nuclei/compare/v2.8.8...v2.8.9"
+                "commit_date": "2023-03-16 18:33:02",
+                "commit_message": "Merge pull request #3389 from projectdiscovery/dev\n\nnuclei v2.9.0",
+                "release_tag": "v2.9.0",
+                "release_date": "2023-03-16 18:36:03",
+                "release_message": "## What's Changed  * Added support for templates in JSON format by @CodFrm in https://github.com/projectdiscovery/nuclei/pull/3333 * Added template sign/verify functionality by @Mzack9999 in https://github.com/projectdiscovery/nuclei/pull/3029 * Added `-track-error` option to add custom errors to max-host-error watch list by @austintraver in https://github.com/projectdiscovery/nuclei/pull/3399 * Added data race panic check in integration_tests by @tarunKoyalwar in https://github.com/projectdiscovery/nuclei/pull/3303 * Added CLI option to override fuzzing template options by @ShubhamRasal in https://github.com/projectdiscovery/nuclei/pull/3355 * Added `ip_formats()` helper function by @xm1k3 in https://github.com/projectdiscovery/nuclei/pull/3286 * Added `resolve()` helper function by @xm1k3 in https://github.com/projectdiscovery/nuclei/pull/3321 * Added `rawstringslice` to make reference url case insensitive by @Bisstocuz in https://github.com/projectdiscovery/nuclei/pull/3346 * Fixed a bug with OR matcher condition with interactsh by @RamanaReddy0M in https://github.com/projectdiscovery/nuclei/pull/3397 * Fixed `set-method` option in headless template by @Mzack9999 in https://github.com/projectdiscovery/nuclei/pull/3373 * Fixed atomic bool check by @Mzack9999 in https://github.com/projectdiscovery/nuclei/pull/3376 * Fixed bug in URL path and adds integration tests by @tarunKoyalwar in https://github.com/projectdiscovery/nuclei/pull/3331 * Fixed crash with interactsh integration by @Mzack9999 in https://github.com/projectdiscovery/nuclei/pull/3312 * Fixed data race when using interactsh_matchers by @tarunKoyalwar in https://github.com/projectdiscovery/nuclei/pull/3432 * Fixed file input in custom vars with `self-contained` http template by @tarunKoyalwar in https://github.com/projectdiscovery/nuclei/pull/3385 * Fixed missing port in matched ssl templates by @tarunKoyalwar in https://github.com/projectdiscovery/nuclei/pull/3380 * Fixed nil pointer reference + use map helper by @Mzack9999 in https://github.com/projectdiscovery/nuclei/pull/3421 * Fixed `parseUrl` test by @ShubhamRasal in https://github.com/projectdiscovery/nuclei/pull/3426 * Fixed typo in `-hc` option by @sullo in https://github.com/projectdiscovery/nuclei/pull/3400  Issues closed in release - https://github.com/projectdiscovery/nuclei/milestone/27  ## New Contributors * @noraj made their first contribution in https://github.com/projectdiscovery/nuclei/pull/3162 * @Bisstocuz made their first contribution in https://github.com/projectdiscovery/nuclei/pull/3346 * @CodFrm made their first contribution in https://github.com/projectdiscovery/nuclei/pull/3333 * @austintraver made their first contribution in https://github.com/projectdiscovery/nuclei/pull/3399 * @RamanaReddy0M made their first contribution in https://github.com/projectdiscovery/nuclei/pull/3397  **Full Changelog**: https://github.com/projectdiscovery/nuclei/compare/v2.8.9...v2.9.0"
             },
             "https://github.com/zan8in/afrog": {
                 "created_at": "2022-02-24 06:00:32",
@@ -1532,7 +1532,7 @@
         "漏洞检测利用仓库": {
             "https://github.com/ybdt/poc-hub": {
                 "created_at": "2020-09-03 04:47:40",
-                "description": "漏洞复现、漏洞检测、漏洞利用",
+                "description": "漏洞检测、漏洞利用",
                 "commit_date": "2023-02-17 03:37:31",
                 "commit_message": "整理",
                 "release_tag": "",
@@ -1614,8 +1614,8 @@
             "https://github.com/ycdxsb/PocOrExp_in_Github": {
                 "created_at": "2021-04-13 05:46:16",
                 "description": "聚合Github上已有的Poc或者Exp，CVE信息来自CVE官网。Auto Collect Poc Or Exp from Github by CVE ID.",
-                "commit_date": "2023-03-15 21:43:49",
-                "commit_message": "update 2023-03-16 05:43:49",
+                "commit_date": "2023-03-16 21:41:58",
+                "commit_message": "update 2023-03-17 05:41:58",
                 "release_tag": "",
                 "release_date": "",
                 "release_message": ""
@@ -1864,6 +1864,46 @@
                 "release_tag": "v1.9.0",
                 "release_date": "2022-07-10 02:58:19",
                 "release_message": "- Added SNI support - Minor fixed and improvements"
+            }
+        },
+        "WEB漏洞利用": {
+            "https://github.com/vladko312/SSTImap": {
+                "created_at": "2022-06-15 06:27:32",
+                "description": "Automatic SSTI detection tool with interactive interface",
+                "commit_date": "2022-09-12 20:06:14",
+                "commit_message": "Version 1.0.2 (Improvements)\n\nFixed bugs with reverse shell\r\nImproved Twig injection context\r\nAdded more ideas to README\r\nAdded more interruption handling to interactive exploitation\r\nAdded error handling for nonexistent file upload\r\n\r\nA minor update with simple improvements and fixes",
+                "release_tag": "v1.0",
+                "release_date": "2022-07-05 22:19:18",
+                "release_message": "First release of SSTImap"
+            },
+            "https://github.com/epinna/tplmap": {
+                "created_at": "2016-07-06 20:33:18",
+                "description": "Server-Side Template Injection and Code Injection Detection and Exploitation Tool",
+                "commit_date": "2022-02-06 15:13:15",
+                "commit_message": "Revert one more accidental change",
+                "release_tag": "v0.5",
+                "release_date": "2018-07-13 22:14:46",
+                "release_message": "* Use stdout for prints to close #47 * Support Python3 to close #33   * Use Docker for testing environments * Use TravisCI * Fix Smarty caching quirks * Add `requirements.txt` * Fix Jinja2 false negatives"
+            },
+            "https://github.com/sqlmapproject/sqlmap": {
+                "created_at": "2012-06-26 09:52:15",
+                "description": "Automatic SQL injection and database takeover tool",
+                "commit_date": "2023-03-15 22:00:16",
+                "commit_message": "Fixes #5364",
+                "release_tag": "1.7",
+                "release_date": "2023-01-02 22:32:55",
+                "release_message": "Stable version 1.7 ([changeset](https://github.com/sqlmapproject/sqlmap/compare/1.6...1.7))"
+            }
+        },
+        "远控": {
+            "https://github.com/xiao-zhu-zhu/noterce": {
+                "created_at": "2023-01-31 07:56:29",
+                "description": "一种另辟蹊径的免杀执行系统命令的木马",
+                "commit_date": "2023-02-01 07:49:25",
+                "commit_message": "v1.1版本\n\nv1.1版本: \r\n1.修复重复主机bug \r\n2.增加被控端刷新功能",
+                "release_tag": "v1.1",
+                "release_date": "2023-02-01 07:56:09",
+                "release_message": "v1.1版本:  1.修复重复主机bug  2.增加被控端刷新功能"
             }
         }
     },
@@ -2981,7 +3021,7 @@
             "https://github.com/ExpLangcn/NucleiTP": {
                 "created_at": "2022-11-08 13:16:56",
                 "description": "自动整合全网Nuclei的漏洞POC，实时同步更新最新POC！",
-                "commit_date": "2023-03-16 01:00:16",
+                "commit_date": "2023-03-17 01:00:16",
                 "commit_message": "更新啦❤️",
                 "release_tag": "",
                 "release_date": "",
@@ -3472,8 +3512,8 @@
             "https://github.com/RsaCtfTool/RsaCtfTool": {
                 "created_at": "2015-03-07 17:29:33",
                 "description": "RSA attack tool (mainly for ctf) - retreive private key from weak public key and/or uncipher data",
-                "commit_date": "2023-03-13 23:50:33",
-                "commit_message": "add compositorial pm1 attack",
+                "commit_date": "2023-03-17 00:49:24",
+                "commit_message": "Update williams_pp1.py",
                 "release_tag": "",
                 "release_date": "",
                 "release_message": ""
@@ -3518,8 +3558,8 @@
             "https://github.com/pppscn/SmsForwarder": {
                 "created_at": "2021-02-10 02:23:07",
                 "description": "短信转发器——监控Android手机短信、来电、APP通知，并根据指定规则转发到其他手机：钉钉群自定义机器人、钉钉企业内机器人、企业微信群机器人、飞书机器人、企业微信应用消息、邮箱、bark、webhook、Telegram机器人、Server酱、PushPlus、手机短信等。包括主动控制服务端与客户端，让你轻松远程发短信、查短信、查通话、查话簿、查电量等。（V3.0 新增）PS.这个APK主要是学习与自用，如有BUG请提ISSUE，同时欢迎大家提PR指正",
-                "commit_date": "2023-03-04 15:04:16",
-                "commit_message": "优化：避免个别机型重启后自启动时`startService`可能空指针导致`crash`",
+                "commit_date": "2023-03-16 01:29:06",
+                "commit_message": "整理：README",
                 "release_tag": "v3.2.0",
                 "release_date": "2023-02-14 09:25:00",
                 "release_message": "PS. 距离上一次1024发版，已经过去快5个月了，期间发生不少事，一直没更新这个项目，不管如何，魔幻的2022年都过去了！  感谢大家这2年来的陪伴与支持，祝大家有情人终成眷属，情人节快乐！  ---  ### 【注意】  * v3.x版本是全新重构开发，可能一开始并不稳定，建议升级前先做好数据备份！（客户端>一键换新机>离线模式>导出）  * `v3.2.0` 去除了 `mmkv` 依赖，采用 `SharedPreferences` 来保存配置，升级之后通用设置中的配置请重新配置，具体原因参见 [Issue #245](https://github.com/pppscn/SmsForwarder/issues/245)  * 升级完毕后，建议离线导出配置，完全卸载干净全新安装后再导入配置（可以避免一些莫名其妙的玄学问题，例如：耗电异常）  ---  ### 更新日志  * 新增：短信指令（根据短信指令开关对应功能） #I5YX3F * 新增：监听网络状态变化提醒（APP通知转发，包名：77777777） #259 * 新增：远程改话簿（方便给老人家添加联系人） #256 * 新增：远程查询手机定位（方便找回手机/防止老少走丢） #256 * 新增：Socket发送通道（支持MQTT/TCP/UDP协议） #252 * 新增：发送通道 URL Scheme（支持跨应用数据传递）#250 * 新增：自动消除额外APP通知 #232 #248  * 优化：短信/通话转发获取卡槽信息机制（自行备注卡槽SubId对应）#228 #235 * 优化：来电转发逻辑 & 新增提醒类型（1.来电挂机 2.去电挂机 3.未接来电 4.来电提醒 5.来电接通 6.去电拨出） * 优化：单个转发规则支持绑定多个发送通道，且支持执行逻辑（全部执行/失败即止/成功即止） #247 * 优化：转发日志列表以原始信息为主，聚合展示转发日志（一对多） * 优化：已安装App信息列表异步加载机制 * 优化：电池状态监听/网络状态监控 在未开启去重时默认开启1秒去重 * 优化：利用BatteryReceiver守护自启动的Frpc (试验) #254  * 修复：Android 13 无法授予通知权限 #255 * 修复：重启手机自动启动APP时加载配置失败 #233 #245 * 修复：转发消息遍历发送通道时未跳过已禁用的通道 * 修复：降级Android Gradle插件版本以兼容4.4 (#249 by NyaMisty)  * 升级：andserver到2.1.12（加快web端上下行速度等） * 升级：frpclib 到 v0.47.0 * 升级：androidx组件和kotlin版本  还有一些细微调整参见`github`提交记录  ---  ### APK版本说明： * universal: 通用版（不在乎安装包大小/懒得选就用这个版本，包含以下4种CPU架构so） * armeabi-v7a: 32位ARM设备（备用机首选） * arm64-v8a: 64位ARM设备（主流旗舰机） * x86: 32位Intel设备 * x86_64: 64/32位Intel设备"
@@ -3527,8 +3567,8 @@
             "https://github.com/dbeaver/dbeaver": {
                 "created_at": "2015-10-21 08:26:28",
                 "description": "Free universal database tool and SQL client",
-                "commit_date": "2023-03-15 09:08:48",
-                "commit_message": "GPT limits usage fix",
+                "commit_date": "2023-03-16 15:33:26",
+                "commit_message": "dbeaver/pro#148 Allow hiding execution statistics (#19309)\n\n* dbeaver/pro#148 Allow hiding execution statistics\r\n\r\n* dbeaver/pro#148 Code style\r\n\r\n* dbeaver/pro#148 Display statistics if results have updated rows",
                 "release_tag": "23.0.0",
                 "release_date": "2023-03-05 17:56:39",
                 "release_message": "Changes since 22.3.5: - SQL editor:     - Column metadata resolution was fixed for quoted column names     - SQL console now respects \"open separate connection\" option     - Variables resolve in `set` and other commands was fixed     - Copy/paste command was fixed for editors without associated connection - Data editor:     - Spatial viewer: lasso tool was fixed for Safari browser     - Support of WKT format stored in BLOB columns was added     - Issues with image viewer and BLOB columns was fixed (NullPointer error))     - Selected columns/rows data export was fixed (issue with BLOB value turning into NULL in UI) - Accessibility:     - Font settings are now respected in all editors/popups     - New keyboard shortcuts schema was added \"DBeaver Keyboard Only\"     - Many new keyboard shortcuts were added     - Catalog/schema selector now supports keyboard only mode     - Results tab pin/unpin command is now accessible from keyboard (thanks to hawthorne3341)     - Reader texts were localized - Database dashboard create wizard UI was fixed - Generate SQL dialog now supports connection invalidation - Clickhouse: driver version was updated to 0.4.1 - Dremio: driver version was updated to 24.0 - Firebird: table colum comments support was added - PostgreSQL:     - Issue with URL-based connections was resolved (invalid host name)     - Execution plan parameters are now saved - Redshift: varbyte datatype suport was fixed - SQL Server:     - UI for Kerberos authentication configuration was fixed     - Table colum comments support was added - French localization was fixed (thanks to alexgille) - Problems with Kerberos were resolved (we have reverted to Java 11)"
@@ -3605,8 +3645,8 @@
             "https://github.com/v2rayA/v2rayA": {
                 "created_at": "2019-10-18 20:42:06",
                 "description": "A web GUI client of Project V which supports V2Ray, Xray, SS, SSR, Trojan and Pingtunnel 🚀",
-                "commit_date": "2023-02-13 06:42:07",
-                "commit_message": "fix: simple-obfs",
+                "commit_date": "2023-03-16 10:46:49",
+                "commit_message": "fix: omit emty sni when sharing",
                 "release_tag": "v2.0.1",
                 "release_date": "2022-12-13 15:23:54",
                 "release_message": "https://github.com/v2rayA/v2rayA/compare/v1.5.9.1698.1...v2.0.1  1. Bumped to [v2fly-core](https://github.com/v2fly/v2ray-core/) v5. 2. Removed XRay support.  ## What's Changed * Add PowerShell build script by @MarksonHon in https://github.com/v2rayA/v2rayA/pull/259 * Update build-in-pwsh.ps1 by @MarksonHon in https://github.com/v2rayA/v2rayA/pull/260 * Add inno installer by @MarksonHon in https://github.com/v2rayA/v2rayA/pull/669 * chore(config): add default env config file for systemd user by @cubercsl in https://github.com/v2rayA/v2rayA/pull/680 * Make inno installer great again! by @MarksonHon in https://github.com/v2rayA/v2rayA/pull/702 * fix(subtime): remove timezone guess by @JimMoen in https://github.com/v2rayA/v2rayA/pull/711 * v2rayA should start after nftables by @MarksonHon in https://github.com/v2rayA/v2rayA/pull/723 * add a runit script for v2raya. by @yuandi42 in https://github.com/v2rayA/v2rayA/pull/708 * Too much to write...  ## New Contributors * @JimMoen made their first contribution in https://github.com/v2rayA/v2rayA/pull/711 * @yuandi42 made their first contribution in https://github.com/v2rayA/v2rayA/pull/708  **Full Changelog**: https://github.com/v2rayA/v2rayA/compare/v1.5.9.1698.1...v2.0.1"

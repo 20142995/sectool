@@ -1,8 +1,9 @@
-# 更新于 2023-03-16 09:12:02
+# 更新于 2023-03-17 09:07:45
 
 ## 近30天release更新记录
 | 更新时间 | 项目名称 | 版本 | 更新内容 |
 | :---- | :---- | :---- | :---- |
+|2023-03-16 18:36:03|[nuclei](https://github.com/projectdiscovery/nuclei)|v2.9.0|## What's Changed* Added support for te<br>mplates in JSON format by @CodFrm in htt<br>ps://github.com/projectdiscovery/nuclei/<br>pull/3333 * Added template sign/verify f<br>unctionality by @Mzack9999 in https://gi<br>thub.com/projectdiscovery/nuclei/pull/30<br>29 * Added -track-error option to add cu<br>stom errors to max-host-error watch list<br> by @austintraver in https://github.com/<br>projectdiscovery/nuclei/pull/3399 * Adde<br>d data race panic check in integration_t<br>ests by @tarunKoyalwar in https://github<br>.com/projectdiscovery/nuclei/pull/3303 *<br> Added CLI option to override fuzzing te<br>mplate options by @ShubhamRasal in https<br>://github.com/projectdiscovery/nuclei/pu<br>ll/3355 * Added ip_formats() helper func<br>tion by @xm1k3 in https://github.com/pro<br>jectdiscovery/nuclei/pull/3286 * Added r<br>esolve() helper function by @xm1k3 in ht<br>tps://github.com/projectdiscovery/nuclei<br>/pull/3321 * Added rawstringslice to mak<br>e reference url case insensitive by @Bis<br>stocuz in https://github.com/projectdisc<br>overy/nuclei/pull/3346 * Fixed a bug wit<br>h OR matcher condition with interactsh b<br>y @RamanaReddy0M in https://github.com/p<br>rojectdiscovery/nuclei/pull/3397 * Fixed<br> set-method option in headless template <br>by @Mzack9999 in https://github.com/proj<br>ectdiscovery/nuclei/pull/3373 * Fixed at<br>omic bool check by @Mzack9999 in https:/<br>/github.com/projectdiscovery/nuclei/pull<br>/3376 * Fixed bug in URL path and adds i<br>ntegration tests by @tarunKoyalwar in ht<br>tps://github.com/projectdiscovery/nuclei<br>/pull/3331 * Fixed crash with interactsh<br> integration by @Mzack9999 in https://gi<br>thub.com/projectdiscovery/nuclei/pull/33<br>12 * Fixed data race when using interact<br>sh_matchers by @tarunKoyalwar in https:/<br>/github.com/projectdiscovery/nuclei/pull<br>/3432 * Fixed file input in custom vars <br>with self-contained http template by @ta<br>runKoyalwar in https://github.com/projec<br>tdiscovery/nuclei/pull/3385 * Fixed miss<br>ing port in matched ssl templates by @ta<br>runKoyalwar in https://github.com/projec<br>tdiscovery/nuclei/pull/3380 * Fixed nil <br>pointer reference + use map helper by @M<br>zack9999 in https://github.com/projectdi<br>scovery/nuclei/pull/3421 * Fixed parseUr<br>l test by @ShubhamRasal in https://githu<br>b.com/projectdiscovery/nuclei/pull/3426 <br>* Fixed typo in -hc option by @sullo in <br>https://github.com/projectdiscovery/nucl<br>ei/pull/3400Issues closed in release - h<br>ttps://github.com/projectdiscovery/nucle<br>i/milestone/27## New Contributors * @nor<br>aj made their first contribution in http<br>s://github.com/projectdiscovery/nuclei/p<br>ull/3162 * @Bisstocuz made their first c<br>ontribution in https://github.com/projec<br>tdiscovery/nuclei/pull/3346 * @CodFrm ma<br>de their first contribution in https://g<br>ithub.com/projectdiscovery/nuclei/pull/3<br>333 * @austintraver made their first con<br>tribution in https://github.com/projectd<br>iscovery/nuclei/pull/3399 * @RamanaReddy<br>0M made their first contribution in http<br>s://github.com/projectdiscovery/nuclei/p<br>ull/3397**Full Changelog**: https://gith<br>ub.com/projectdiscovery/nuclei/compare/v<br>2.8.9...v2.9.0|
 |2023-03-15 08:50:17|[Elkeid](https://github.com/bytedance/Elkeid)|scanner-v<br>2.2.0.1_20<br>230315||
 |2023-03-14 14:33:27|[RequestTemplate](https://github.com/1n7erface/RequestTemplate)|v1.1.3|2023.3.14 22:30 1.解决了一个POC在运行过<br>程中线程提前中断的bug|
 |2023-03-14 06:26:44|[captcha-killer-modi<br>fied](https://github.com/f0ng/captcha-killer-modified)|0.22|【2023-3-14】 0.22 重要问题修复 - 修复<br>了装载插件会影响proxy选项卡的问题|
@@ -43,16 +44,19 @@
 |2023-02-16 15:01:33|[npscrack](https://github.com/weishen250/npscrack)|npscrack-<br>1.0||
 |2023-02-15 10:17:50|[gshark](https://github.com/madneal/gshark)|v1.1.4|## Fixed* 修复无法变更规则状态的问题 * <br>增加新增 token 的 postman 类型## Added* <br>增加 startSecFilterTask 以及 getTaskStatu<br>sAPI 权限初始化|
 |2023-02-15 02:41:43|[SpringBoot-Scan-GUI](https://github.com/13exp/SpringBoot-Scan-GUI)|v1.2.2|针对CVE-2022-22965，增加shell验证减少误<br>报，新增加操作系统识别功能，若需使用，可<br>从菜单【更多】，前往nmap下载使用，识别仅<br>支持单地址|
-|2023-02-14 09:25:00|[SmsForwarder](https://github.com/pppscn/SmsForwarder)|v3.2.0|PS. 距离上一次1024发版，已经过去快5个月<br>了，期间发生不少事，一直没更新这个项目，<br>不管如何，魔幻的2022年都过去了！感谢大家<br>这2年来的陪伴与支持，祝大家有情人终成眷属<br>，情人节快乐！---### 【注意】* v3.x版本是<br>全新重构开发，可能一开始并不稳定，建议升<br>级前先做好数据备份！（客户端>一键换新机><br>离线模式>导出）* v3.2.0 去除了 mmkv 依赖<br>，采用 SharedPreferences 来保存配置，升级<br>之后通用设置中的配置请重新配置，具体原因<br>参见 [Issue #245](https://github.com/ppps<br>cn/SmsForwarder/issues/245)* 升级完毕后<br>，建议离线导出配置，完全卸载干净全新安装<br>后再导入配置（可以避免一些莫名其妙的玄学<br>问题，例如：耗电异常）---### 更新日志* 新<br>增：短信指令（根据短信指令开关对应功能） <br>#I5YX3F * 新增：监听网络状态变化提醒（AP<br>P通知转发，包名：77777777） #259 * 新增<br>：远程改话簿（方便给老人家添加联系人） #2<br>56 * 新增：远程查询手机定位（方便找回手<br>机/防止老少走丢） #256 * 新增：Socket发送<br>通道（支持MQTT/TCP/UDP协议） #252 * 新增<br>：发送通道 URL Scheme（支持跨应用数据传递<br>）#250 * 新增：自动消除额外APP通知 #232 #<br>248* 优化：短信/通话转发获取卡槽信息机制<br>（自行备注卡槽SubId对应）#228 #235 * 优化<br>：来电转发逻辑 & 新增提醒类型（1.来电挂机<br> 2.去电挂机 3.未接来电 4.来电提醒 5.来电<br>接通 6.去电拨出） * 优化：单个转发规则支<br>持绑定多个发送通道，且支持执行逻辑（全部<br>执行/失败即止/成功即止） #247 * 优化：转<br>发日志列表以原始信息为主，聚合展示转发日<br>志（一对多） * 优化：已安装App信息列表异<br>步加载机制 * 优化：电池状态监听/网络状态<br>监控 在未开启去重时默认开启1秒去重 * 优化<br>：利用BatteryReceiver守护自启动的Frpc (试<br>验) #254* 修复：Android 13 无法授予通知权<br>限 #255 * 修复：重启手机自动启动APP时加载<br>配置失败 #233 #245 * 修复：转发消息遍历发<br>送通道时未跳过已禁用的通道 * 修复：降级An<br>droid Gradle插件版本以兼容4.4 (#249 by N<br>yaMisty)* 升级：andserver到2.1.12（加快w<br>eb端上下行速度等） * 升级：frpclib 到 v0<br>.47.0 * 升级：androidx组件和kotlin版本还<br>有一些细微调整参见github提交记录---### AP<br>K版本说明： * universal: 通用版（不在乎<br>安装包大小/懒得选就用这个版本，包含以下4<br>种CPU架构so） * armeabi-v7a: 32位ARM设备<br>（备用机首选） * arm64-v8a: 64位ARM设备（<br>主流旗舰机） * x86: 32位Intel设备 * x86_6<br>4: 64/32位Intel设备|
-|2023-02-14 09:00:35|[shell-analyzer](https://github.com/4ra1n/shell-analyzer)|0.1|提供了三个jar文件： - agent.jar是核心文<br>件，请保持与gui.jar或remote.jar同目录 - g<br>ui.jar是GUI客户端，本地和远程分析都需要 <br>- remote.jar用于远程分析，本地分析无需下<br>载|
 ## 近30天commit提交记录
 | 提交时间 | 项目名称 | 更新内容 |
 | :---- | :---- | :---- |
-|2023-03-16 01:00:16|[NucleiTP](https://github.com/ExpLangcn/NucleiTP)|更新啦❤️|
-|2023-03-15 21:43:49|[PocOrExp_in_Github](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-03-16 05:43:49|
+|2023-03-17 01:00:16|[NucleiTP](https://github.com/ExpLangcn/NucleiTP)|更新啦❤️|
+|2023-03-17 00:49:24|[RsaCtfTool](https://github.com/RsaCtfTool/RsaCtfTool)|Update williams_pp1.py|
+|2023-03-16 21:41:58|[PocOrExp_in_Github](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-03-17 05:41:58|
+|2023-03-16 18:33:02|[nuclei](https://github.com/projectdiscovery/nuclei)|Merge pull request #3389 from projectdiscovery/devnucl<br>ei v2.9.0|
+|2023-03-16 15:33:26|[dbeaver](https://github.com/dbeaver/dbeaver)|dbeaver/pro#148 Allow hiding execution statistics (#19<br>309)* dbeaver/pro#148 Allow hiding execution statistics<br>* dbeaver/pro#148 Code style* dbeaver/pro#148 Display s<br>tatistics if results have updated rows|
+|2023-03-16 10:46:49|[v2rayA](https://github.com/v2rayA/v2rayA)|fix: omit emty sni when sharing|
+|2023-03-16 01:29:06|[SmsForwarder](https://github.com/pppscn/SmsForwarder)|整理：README|
+|2023-03-15 22:00:16|[sqlmap](https://github.com/sqlmapproject/sqlmap)|Fixes #5364|
 |2023-03-15 11:05:29|[iDefender](https://github.com/wecooperate/iDefender)|update|
 |2023-03-15 09:09:00|[CodeQLpy](https://github.com/webraybtl/CodeQLpy)|优化因为重复import相同类名导致的bug|
-|2023-03-15 09:08:48|[dbeaver](https://github.com/dbeaver/dbeaver)|GPT limits usage fix|
 |2023-03-15 07:02:43|[vulnerability](https://github.com/lal0ne/vulnerability)|CVE-2021-29441|
 |2023-03-15 05:12:18|[0day](https://github.com/helloexp/0day)|Merge branch 'master' of https://github.com/helloexp/0<br>day|
 |2023-03-15 03:38:02|[Apt_t00ls](https://github.com/White-hua/Apt_t00ls)|Update README.md|
@@ -68,7 +72,6 @@
 |2023-03-14 02:39:44|[autoDecoder](https://github.com/f0ng/autoDecoder)|Update FAQ.md|
 |2023-03-14 02:31:47|[Vulnerability-Wiki](https://github.com/Threekiii/Vulnerability-Wiki)|更新漏洞|
 |2023-03-14 02:23:38|[Awesome-POC](https://github.com/Threekiii/Awesome-POC)|更新漏洞|
-|2023-03-13 23:50:33|[RsaCtfTool](https://github.com/RsaCtfTool/RsaCtfTool)|add compositorial pm1 attack|
 |2023-03-13 18:52:40|[super-xray](https://github.com/4ra1n/super-xray)|after release|
 |2023-03-13 07:23:06|[JDumpSpider](https://github.com/whwlsfb/JDumpSpider)|add ProcessEnvironment, JavaProperties.|
 |2023-03-13 06:23:54|[404StarLink](https://github.com/knownsec/404StarLink)|weekly update at 2023-03-13|
@@ -99,7 +102,6 @@
 |2023-03-06 07:41:58|[Vulhub-Reproduce](https://github.com/Threekiii/Vulhub-Reproduce)|更新漏洞|
 |2023-03-05 16:10:52|[OA-EXPTOOL](https://github.com/LittleBear4/OA-EXPTOOL)|Add files via upload|
 |2023-03-05 02:02:20|[CN_Nessus_Plugins_I<br>nterface](https://github.com/nszy007/CN_Nessus_Plugins_Interface)|20230301|
-|2023-03-04 15:04:16|[SmsForwarder](https://github.com/pppscn/SmsForwarder)|优化：避免个别机型重启后自启动时startService可能空指针<br>导致crash|
 |2023-03-03 09:32:01|[Antenna](https://github.com/wuba/Antenna)|测试官方镜像2|
 |2023-03-02 17:24:57|[rengine](https://github.com/yogeshojha/rengine)|Merge pull request #829 from yogeshojha/release/1.3.6R<br>elease/1.3.6|
 |2023-03-02 13:16:44|[subfinder](https://github.com/projectdiscovery/subfinder)|Merge pull request #776 from projectdiscovery/readme-u<br>pdateUpdate installation requirement to go1.19|
@@ -130,16 +132,12 @@
 |2023-02-19 18:06:05|[wxapkgUnpack](https://github.com/jdr2021/wxapkgUnpack)|Update README.md|
 |2023-02-19 16:36:47|[RedisEXP](https://github.com/yuyan-sec/RedisEXP)|解决支持中文路径|
 |2023-02-19 12:41:37|[ffuf](https://github.com/ffuf/ffuf)|Fix HTML output (#640)|
-|2023-02-18 00:01:09|[nuclei](https://github.com/projectdiscovery/nuclei)|chore(deps): bump golang.org/x/net from 0.6.0 to 0.7.0<br> in /v2 (#3337)Bumps [golang.org/x/net](https://github.<br>com/golang/net) from 0.6.0 to 0.7.0.- [Release notes](h<br>ttps://github.com/golang/net/releases)- [Commits](https<br>://github.com/golang/net/compare/v0.6.0...v0.7.0)---upd<br>ated-dependencies:- dependency-name: golang.org/x/netde<br>pendency-type: direct:production...Signed-off-by: depen<br>dabot[bot]Co-authored-by: dependabot[bot] |
 |2023-02-17 13:54:38|[Search_Viewer](https://github.com/G3et/Search_Viewer)|Update search_viewer_ui.py|
 |2023-02-17 03:44:49|[OutLook](https://github.com/KrystianLi/OutLook)|Update|
 |2023-02-17 03:37:31|[poc-hub](https://github.com/ybdt/poc-hub)|整理|
 |2023-02-17 02:22:13|[Xray_Cracked](https://github.com/NHPT/Xray_Cracked)|Update README.md|
 |2023-02-15 09:46:59|[kscan](https://github.com/lcvvvv/kscan)|[*]修复一个Redis协议爆破的bug，之前可能会存在误报|
-|2023-02-15 02:40:09|[SpringBoot-Scan-GUI](https://github.com/13exp/SpringBoot-Scan-GUI)|Delete targets.txt|
-|2023-02-14 18:14:54|[shell-analyzer](https://github.com/4ra1n/shell-analyzer)|Update README.md|
-|2023-02-14 09:38:24|[wpscan](https://github.com/wpscanteam/wpscan)|Merge pull request #1770 from wpscanteam/dependabot/gi<br>thub_actions/docker/build-push-action-4Bump docker/buil<br>d-push-action from 3 to 4|
-|2023-02-14 04:41:01|[All-Defense-Tool](https://github.com/guchangan1/All-Defense-Tool)|更新v2.2|## 所有项目
+|2023-02-15 02:40:09|[SpringBoot-Scan-GUI](https://github.com/13exp/SpringBoot-Scan-GUI)|Delete targets.txt|## 所有项目
 ### 信息收集
 #### 资产测绘采集
 | 项目名称 | 版本 | 项目描述 |
@@ -247,7 +245,7 @@
 | [xray](https://github.com/chaitin/xray) | 1.9.4 | 一款完善的安全评估工具，支持常见 web 安全问题扫描和自定义 poc | <br>使用之前务必先阅读文档 |
 | [w13scan](https://github.com/w-digital-scanner/w13scan) |  | Passive Security Scanner (被动式安全扫描器) |
 | [Fvuln](https://github.com/d3ckx1/Fvuln) | Fvuln_v1.<br>4.8 | F-vuln（全称：Find-Vulnerability）是为了自己工作方便专门编写的一<br>款自动化工具，主要适用于日常安全服务、渗透测试人员和RedTeam红队人<br>员，它集合的功能包括：存活IP探测、开放端口探测、web服务探测、web漏<br>洞扫描、smb爆破、ssh爆破、ftp爆破、mssql爆破等其他数据库爆破工作以<br>及大量web漏洞检测模块。 |
-| [nuclei](https://github.com/projectdiscovery/nuclei) | v2.8.9 | Fast and customizable vulnerability scanner based on simple YAML<br> based DSL. |
+| [nuclei](https://github.com/projectdiscovery/nuclei) | v2.9.0 | Fast and customizable vulnerability scanner based on simple YAML<br> based DSL. |
 | [afrog](https://github.com/zan8in/afrog) | v2.2.1 | A Vulnerability Scanning Tools For Penetration Testing |
 | [vulmap](https://github.com/zhzyker/vulmap) | v0.9 | Vulmap 是一款 web 漏洞扫描和验证工具, 可对 webapps 进行漏洞扫描,<br> 并且具备漏洞验证功能 |
 | [POC-bomber](https://github.com/tr0uble-mAker/POC-bomber) | v2.0.2-PO<br>C-bomber | 利用大量高威胁poc/exp快速获取目标权限，用于渗透和红队快速打点 |
@@ -376,7 +374,7 @@
 #### 漏洞检测利用仓库
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
-| [poc-hub](https://github.com/ybdt/poc-hub) |  | 漏洞复现、漏洞检测、漏洞利用 |
+| [poc-hub](https://github.com/ybdt/poc-hub) |  | 漏洞检测、漏洞利用 |
 | [Awesome-Exploit](https://github.com/Threekiii/Awesome-Exploit) |  | 一个漏洞利用工具仓库 |
 | [exphub](https://github.com/zhzyker/exphub) |  | Exphub[漏洞利用脚本库] 包括Webloigc、Struts2、Tomcat、Nexus、Sol<br>r、Jboss、Drupal的漏洞利用脚本，最新添加CVE-2020-14882、CVE-2020-<br>11444、CVE-2020-10204、CVE-2020-10199、CVE-2020-1938、CVE-2020-25<br>51、CVE-2020-2555、CVE-2020-2883、CVE-2019-17558、CVE-2019-6340 |
 | [CVE-Master](https://github.com/wjl110/CVE-Master) | v1.0.1 | 收集本人自接触渗透测试用于漏洞验证的所有热门CVE、POC、CNVD攻击有<br>效载荷+测试工具+FUZZ,一个仓库满足许多攻击测试场景,开箱即用. |
@@ -441,6 +439,16 @@
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
 | [slowhttptest](https://github.com/shekyan/slowhttptest) | v1.9.0 | Application Layer DoS attack simulator |
+#### WEB漏洞利用
+| 项目名称 | 版本 | 项目描述 |
+| :---- | :---- | :---- |
+| [SSTImap](https://github.com/vladko312/SSTImap) | v1.0 | Automatic SSTI detection tool with interactive interface |
+| [tplmap](https://github.com/epinna/tplmap) | v0.5 | Server-Side Template Injection and Code Injection Detection and <br>Exploitation Tool |
+| [sqlmap](https://github.com/sqlmapproject/sqlmap) | 1.7 | Automatic SQL injection and database takeover tool |
+#### 远控
+| 项目名称 | 版本 | 项目描述 |
+| :---- | :---- | :---- |
+| [noterce](https://github.com/xiao-zhu-zhu/noterce) | v1.1 | 一种另辟蹊径的免杀执行系统命令的木马 |
 ### 内网渗透
 #### 密码提取
 | 项目名称 | 版本 | 项目描述 |
