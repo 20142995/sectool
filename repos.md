@@ -415,3 +415,4 @@
 |漏洞发现&利用|远控|https://github.com/xiao-zhu-zhu/noterce|
 |工具&插件|Burpsuite|https://github.com/Tsojan/TsojanScan|
 |其他|文字识别|https://github.com/hiroi-sora/Umi-OCR|
+|漏洞发现&利用|漏洞利用辅助|https://github.com/cseroad/Exp-Tools|
