@@ -41,12 +41,12 @@
         "子域名收集": {
             "https://github.com/projectdiscovery/subfinder": {
                 "created_at": "2018-03-31 09:44:57",
-                "description": "Subfinder is a subdomain discovery tool that discovers valid subdomains for websites. Designed as a passive framework to be useful for bug bounties and safe for penetration testing.",
-                "commit_date": "2023-03-02 13:16:44",
-                "commit_message": "Merge pull request #776 from projectdiscovery/readme-update\n\nUpdate installation requirement to go1.19",
-                "release_tag": "v2.5.6",
-                "release_date": "2023-02-22 15:21:08",
-                "release_message": "## What's Changed  ### New Features  * Added **digitorus** support as new source by @vzamanillo in https://github.com/projectdiscovery/subfinder/pull/696  ### Bug Fixes  * Fixed outdated deps by @RamanaReddy0M in https://github.com/projectdiscovery/subfinder/pull/762 * Fixed failing cases by @ShubhamRasal in https://github.com/projectdiscovery/subfinder/pull/720  ### Improvements  * Improved **crtsh** SQL query by @vzamanillo in https://github.com/projectdiscovery/subfinder/pull/700 * Improved scan statistics by @owenrumney in https://github.com/projectdiscovery/subfinder/pull/727 * Improved `ctx` param in agent enumerate method by @EndPositive in https://github.com/projectdiscovery/subfinder/pull/756  Issues closed in release - https://github.com/projectdiscovery/subfinder/milestone/5?closed=1  ## New Contributors * @owenrumney made their first contribution in https://github.com/projectdiscovery/subfinder/pull/727 * @RamanaReddy0M made their first contribution in https://github.com/projectdiscovery/subfinder/pull/762 * @EndPositive made their first contribution in https://github.com/projectdiscovery/subfinder/pull/756  **Full Changelog**: https://github.com/projectdiscovery/subfinder/compare/v2.5.5...v2.5.6"
+                "description": "Fast passive subdomain enumeration tool.",
+                "commit_date": "2023-03-17 16:12:07",
+                "commit_message": "Merge pull request #791 from projectdiscovery/dev\n\nsubfinder - v2.5.7",
+                "release_tag": "v2.5.7",
+                "release_date": "2023-03-17 16:15:20",
+                "release_message": "## What's Changed * Fixed Docker file to avoid version mismatch by @olearycrew in https://github.com/projectdiscovery/subfinder/pull/771 * Added self update option (`-update`) + version check  by @RamanaReddy0M in https://github.com/projectdiscovery/subfinder/pull/780   ## New Contributors * @olearycrew made their first contribution in https://github.com/projectdiscovery/subfinder/pull/771  **Full Changelog**: https://github.com/projectdiscovery/subfinder/compare/v2.5.6...v2.5.7"
             },
             "https://github.com/knownsec/ksubdomain": {
                 "created_at": "2020-08-21 07:29:04",
@@ -143,8 +143,8 @@
             "https://github.com/epi052/feroxbuster": {
                 "created_at": "2020-08-22 15:36:19",
                 "description": "A fast, simple, recursive content discovery tool written in Rust.",
-                "commit_date": "2023-03-12 12:02:30",
-                "commit_message": "Merge pull request #823 from epi052/819-fix-resume-with-offset\n\nfix resume with offset",
+                "commit_date": "2023-03-17 11:47:19",
+                "commit_message": "Merge branch 'main' of github.com:epi052/feroxbuster",
                 "release_tag": "v2.9.1",
                 "release_date": "2023-03-12 12:32:10",
                 "release_message": "## What's Changed * Implement auto update feature by @aancw in https://github.com/epi052/feroxbuster/pull/813 * scan management can now canx scans started with `-u` | `--stdin` | the menu itself by @epi052 in https://github.com/epi052/feroxbuster/pull/821 * feroxbuster can be installed via chocolatey by @aancw in https://github.com/epi052/feroxbuster/pull/807 * fix resume with offset when `--methods` | `--extensions` are used by @epi052 in https://github.com/epi052/feroxbuster/pull/823   **Full Changelog**: https://github.com/epi052/feroxbuster/compare/v2.9.0...v2.9.1"
@@ -255,11 +255,11 @@
             "https://github.com/projectdiscovery/naabu": {
                 "created_at": "2020-01-21 10:56:32",
                 "description": "A fast port scanner written in go with a focus on reliability and simplicity. Designed to be used in combination with other tools for attack surface discovery in bug bounties and pentests",
-                "commit_date": "2023-02-24 08:22:11",
-                "commit_message": "Merge pull request #571 from projectdiscovery/dev\n\nnaabu v2.1.2",
-                "release_tag": "v2.1.2",
-                "release_date": "2023-02-25 20:54:24",
-                "release_message": "## What's Changed  * Added UDP based PORT scan by @Mzack9999 in https://github.com/projectdiscovery/naabu/pull/460 * Added proxy support to connect scan by @Mzack9999 in https://github.com/projectdiscovery/naabu/pull/529 * Added support for optional reverse ptr by @Mzack9999 in https://github.com/projectdiscovery/naabu/pull/530 * Added documentation to use naabu as library by @ShubhamRasal in https://github.com/projectdiscovery/naabu/pull/469 * Fixed stats on exit by @Mzack9999 in https://github.com/projectdiscovery/naabu/pull/538 * Fixed failing race condition test by @xm1k3 in https://github.com/projectdiscovery/naabu/pull/485 * Fixed issue with nmap flag input by @xm1k3 in https://github.com/projectdiscovery/naabu/pull/487 * Fixed wrong boolean check on verify option by @MiracleLau in https://github.com/projectdiscovery/naabu/pull/519 * Updated freeport with pd fork #471 by @foxcores in https://github.com/projectdiscovery/naabu/pull/478 * Updated helpers libraries by @edoardottt in https://github.com/projectdiscovery/naabu/pull/466 * Improved duplicate debug messages on scanned ips by @Mzack9999 in https://github.com/projectdiscovery/naabu/pull/522 * Removed unused `MapKeysToSliceInt` by @xm1k3 in https://github.com/projectdiscovery/naabu/pull/534  Issues closed in release - https://github.com/projectdiscovery/naabu/milestone/5?closed=1  ## New Contributors * @edoardottt made their first contribution in https://github.com/projectdiscovery/naabu/pull/466 * @foxcores made their first contribution in https://github.com/projectdiscovery/naabu/pull/478 * @xm1k3 made their first contribution in https://github.com/projectdiscovery/naabu/pull/485 * @MiracleLau made their first contribution in https://github.com/projectdiscovery/naabu/pull/519  **Full Changelog**: https://github.com/projectdiscovery/naabu/compare/v2.1.1...v2.1.2"
+                "commit_date": "2023-03-17 18:05:43",
+                "commit_message": "Merge pull request #608 from projectdiscovery/dev\n\nnaabu v2.1.3",
+                "release_tag": "v2.1.3",
+                "release_date": "2023-03-17 18:40:26",
+                "release_message": "## What's Changed * Fixed a issue to skip host discovery in passive mode by @Mzack9999 in https://github.com/projectdiscovery/naabu/pull/583 * Fixed `osutil` + improving error message with `-sn` on windows by @Mzack9999 in https://github.com/projectdiscovery/naabu/pull/588 * Added self update option + version check by @RamanaReddy0M in https://github.com/projectdiscovery/naabu/pull/600 * Updated release workflow to include binary for mac/windows arch by @ehsandeep in https://github.com/projectdiscovery/naabu/pull/598  ## New Contributors * @RamanaReddy0M made their first contribution in https://github.com/projectdiscovery/naabu/pull/600  **Full Changelog**: https://github.com/projectdiscovery/naabu/compare/v2.1.2...v2.1.3"
             },
             "https://github.com/redtoolskobe/scaninfo": {
                 "created_at": "2021-11-05 04:59:07",
@@ -412,11 +412,11 @@
             "https://github.com/TophantTechnology/ARL": {
                 "created_at": "2020-09-10 07:41:12",
                 "description": "ARL(Asset Reconnaissance Lighthouse)资产侦察灯塔系统旨在快速侦察与目标关联的互联网资产，构建基础资产信息库。 协助甲方安全团队或者渗透测试人员有效侦察和检索资产，发现存在的薄弱点和攻击面。",
-                "commit_date": "2023-02-08 03:49:42",
-                "commit_message": "Merge pull request #480 from chasenz/master\n\nUpdate nuclei dump",
-                "release_tag": "v2.5.3",
-                "release_date": "2023-01-06 09:21:50",
-                "release_message": "## 更新内容  1. flask 等组件升级，flask_restplus替换 #364 2. Mysql弱口令插件错误处理优化 #366 3. 指纹搜索不可用优化 #402 4. 主机服务未授权无法检出优化 #420 5. PoC 重复扫描优化 #427 6. 优化搜索引擎调用和站点爬虫逻辑 #436 7. 修改 quake_360 数据源不可用问题 #439  8. HTTP 访问后台400优化 #454 9. 添加 zoomeye 数据源支持 #463 10. 添加enable字段，控制单个域名查询插件是否启用  ## 更新方法 ``` # docker-compose.yml 文件有更新, 可以通过.env控制版本 wget -O docker.zip https://github.com/TophantTechnology/ARL/releases/download/v2.5.3/docker.zip unzip -o docker.zip docker-compose down docker-compose pull --no-parallel docker-compose up -d ```  ## 其他 详细说明，[参考 ](https://tophanttechnology.github.io/ARL-doc/faq/#11) "
+                "commit_date": "2023-03-17 08:24:41",
+                "commit_message": "Merge pull request #505 from TophantTechnology/update/doc\n\nUpdate Readme.md",
+                "release_tag": "v2.5.4",
+                "release_date": "2023-03-17 08:22:08",
+                "release_message": "## 更新和优化 1. 优化泛解析域名爆破流程 2. 修复nuclei 在执行时可能出现一个错误 #481 3. nuclei版本更新 4. 截图生成文件名正则优化 #498 5. 域名插件crt.sh，hunter_qax等优化 6. 修复302 URL过长导致入库失败问题 @原来是老王 @ki9mu  ## 更新方法： ``` docker-compose pull docker-dompose down docker-dompose up -d ```  ## 重装参考： [卸载并重装](https://tophanttechnology.github.io/ARL-doc/faq/#12-docker) "
             },
             "https://github.com/awake1t/linglong": {
                 "created_at": "2020-09-08 16:56:37",
@@ -577,8 +577,8 @@
             "https://github.com/gobysec/Goby": {
                 "created_at": "2019-06-03 07:56:11",
                 "description": "Attack surface mapping",
-                "commit_date": "2021-11-22 11:19:16",
-                "commit_message": "Add files via upload",
+                "commit_date": "2023-03-17 11:35:53",
+                "commit_message": "Update README.md",
                 "release_tag": "Beta2.2.0",
                 "release_date": "2023-01-17 10:55:12",
                 "release_message": "# In this update ## Community version update: 1. New memory shell plugin 2. ShellHub plugin update 3. Vulnerability module added a function to generate deserialization Payload, through the memory shell injection process 4. Five Java deserialization vulnerabilities were added, including  - Bonitasoft Platform serverAPI Deserialization Vulnerability - Liferay Portal Unauthenticated 7.2.1 C3P0 Deserialization Vulnerability (CVE-2020-7961) - ManageEngine OpManager Deserialization Vulnerability (CVE-2020-28653) - Zkteco Shiro Deserialization Vulnerability - ZOHO ManageEngine Password Manager Pro Deserialization Vulnerability 5. Fixed the problem that the environment variable http_proxy caused Goby to report errors abnormally 6. Goby can now be updated online and vulnerabilities can be updated even if Goby is not in the Mac system Application directory 7. Fixed the problem of occasional white horizontal lines in Goby 8. remove network error report  ## Red team/Enterprise version update content 1. All update content of 2.2.0 community version 2. 20 new deserialization vulnerabilities were added, including  - Apache OFBiz xmlrpc Deserialization Vulnerability (CVE-2020-9496) - Apereo CAS Before 4.1.7 Deserialization Vulnerability - Dreamer CMS Shiro Deserialization Vulnerability - EasyReport Shiro Deserialization Vulnerability - FEBS Shiro Deserialization Vulnerability - FH Admin Shiro Deserialization Vulnerability - FineReport V10 Deserialization RCE Vulnerability - ForgeRock AM Deserialization Vulnerability (CVE-2021-35464) - Guns Shiro Deserialization Vulnerability - J2eeFAST Shiro Deserialization Vulnerability - JavaWeb_Layui Shiro Deserialization Vulnerability - Liferay Portal 6.1.1 CE GA2 CB Deserialization Vulnerability - MCMS Shiro Deserialization Vulnerability (CVE-2022-22928) - OneBlog Shiro Deserialization Vulnerability - pb-cms Shiro Deserialization Vulnerability - QVIS-NVR Camera Management System RCE (CVE-2021-41419) - RuoYi-plus Shiro Deserialization Vulnerability - TIMO Shiro Deserialization Vulnerability - Ysk ERP Shiro Deserialization Vulnerability  **Zkteco Shiro Deserialization Vulnerability**  ![5s8l2F.gif](https://www.gobies.org/img/Zkteco_Shiro_Deserialization_Vulnerability.gif)  **Apache OFBiz xmlrpc Deserialization Vulnerability (CVE-2020-9496)**  ![5s8l2F.gif](https://www.gobies.org/img/OneBlog_Shiro_Deserialization_Vulnerability.gif)"
@@ -624,8 +624,8 @@
             "https://github.com/projectdiscovery/nuclei": {
                 "created_at": "2020-04-03 18:47:11",
                 "description": "Fast and customizable vulnerability scanner based on simple YAML based DSL.",
-                "commit_date": "2023-03-16 18:33:02",
-                "commit_message": "Merge pull request #3389 from projectdiscovery/dev\n\nnuclei v2.9.0",
+                "commit_date": "2023-03-17 16:51:30",
+                "commit_message": "Merge pull request #3433 from projectdiscovery/dependabot/go_modules/v2/google.golang.org/protobuf-1.29.1\n\nchore(deps): bump google.golang.org/protobuf from 1.29.0 to 1.29.1 in /v2",
                 "release_tag": "v2.9.0",
                 "release_date": "2023-03-16 18:36:03",
                 "release_message": "## What's Changed  * Added support for templates in JSON format by @CodFrm in https://github.com/projectdiscovery/nuclei/pull/3333 * Added template sign/verify functionality by @Mzack9999 in https://github.com/projectdiscovery/nuclei/pull/3029 * Added `-track-error` option to add custom errors to max-host-error watch list by @austintraver in https://github.com/projectdiscovery/nuclei/pull/3399 * Added data race panic check in integration_tests by @tarunKoyalwar in https://github.com/projectdiscovery/nuclei/pull/3303 * Added CLI option to override fuzzing template options by @ShubhamRasal in https://github.com/projectdiscovery/nuclei/pull/3355 * Added `ip_formats()` helper function by @xm1k3 in https://github.com/projectdiscovery/nuclei/pull/3286 * Added `resolve()` helper function by @xm1k3 in https://github.com/projectdiscovery/nuclei/pull/3321 * Added `rawstringslice` to make reference url case insensitive by @Bisstocuz in https://github.com/projectdiscovery/nuclei/pull/3346 * Fixed a bug with OR matcher condition with interactsh by @RamanaReddy0M in https://github.com/projectdiscovery/nuclei/pull/3397 * Fixed `set-method` option in headless template by @Mzack9999 in https://github.com/projectdiscovery/nuclei/pull/3373 * Fixed atomic bool check by @Mzack9999 in https://github.com/projectdiscovery/nuclei/pull/3376 * Fixed bug in URL path and adds integration tests by @tarunKoyalwar in https://github.com/projectdiscovery/nuclei/pull/3331 * Fixed crash with interactsh integration by @Mzack9999 in https://github.com/projectdiscovery/nuclei/pull/3312 * Fixed data race when using interactsh_matchers by @tarunKoyalwar in https://github.com/projectdiscovery/nuclei/pull/3432 * Fixed file input in custom vars with `self-contained` http template by @tarunKoyalwar in https://github.com/projectdiscovery/nuclei/pull/3385 * Fixed missing port in matched ssl templates by @tarunKoyalwar in https://github.com/projectdiscovery/nuclei/pull/3380 * Fixed nil pointer reference + use map helper by @Mzack9999 in https://github.com/projectdiscovery/nuclei/pull/3421 * Fixed `parseUrl` test by @ShubhamRasal in https://github.com/projectdiscovery/nuclei/pull/3426 * Fixed typo in `-hc` option by @sullo in https://github.com/projectdiscovery/nuclei/pull/3400  Issues closed in release - https://github.com/projectdiscovery/nuclei/milestone/27  ## New Contributors * @noraj made their first contribution in https://github.com/projectdiscovery/nuclei/pull/3162 * @Bisstocuz made their first contribution in https://github.com/projectdiscovery/nuclei/pull/3346 * @CodFrm made their first contribution in https://github.com/projectdiscovery/nuclei/pull/3333 * @austintraver made their first contribution in https://github.com/projectdiscovery/nuclei/pull/3399 * @RamanaReddy0M made their first contribution in https://github.com/projectdiscovery/nuclei/pull/3397  **Full Changelog**: https://github.com/projectdiscovery/nuclei/compare/v2.8.9...v2.9.0"
@@ -724,7 +724,7 @@
             },
             "https://github.com/jweny/pocassist": {
                 "created_at": "2021-05-12 10:05:09",
-                "description": "全新的漏洞测试框架，支持poc在线编辑、运行、批量测试。使用文档：",
+                "description": "全新的漏洞测试框架。",
                 "commit_date": "2022-06-21 03:43:47",
                 "commit_message": "Update README.md",
                 "release_tag": "1.0.5",
@@ -1158,8 +1158,8 @@
             "https://github.com/su18/ysoserial": {
                 "created_at": "2021-07-26 01:20:01",
                 "description": "ysoserial for su18",
-                "commit_date": "2023-03-10 13:05:05",
-                "commit_message": "更新 BC 使用方式 ReadMe",
+                "commit_date": "2023-03-17 15:42:26",
+                "commit_message": "1、全面支持 AgentNoFile 内存马，目前支持 bx 的 Servlet/TomcatFilter，使用方式 EX-Agent-Lin/Win-Servlet/Filter-bx，例如 EX-Agent-Lin-Filter-bx，参数与原项目保持一致，后续将逐步更新更多功能\n2、修复 Base64 Util 类的反射调用 BUG",
                 "release_tag": "v1.4",
                 "release_date": "2023-03-09 12:20:40",
                 "release_message": "1. Transformer[] / BeanShell / C3P02 利用链支持 LF 加载本地 class 文件功能； 2. 更新 JbossEcho 支持 JBoss-4.2.3.GA； 3. 更新 Struts2 回显及 Action 内存马； 4. 移除 Tomcat Listener NeoReg 流量隧道、移除 EncryptedTranscoder 及依赖； 5. 支持 suo5 利用方式； 6. 更新命令执行混淆支持 windows/linux/unix jdk 1.6； 7. 修改打包 debug 信息为 false； 8. 更新 javassist 版本，进行一些降低 payload 的尝试； 9. 更新 HelpFormatter 以执行终端大小动态调整，最大宽度 200； 10. 打通 BCEL 类加载利用链（详见代码）； 11. 使用 ScriptEngineManager 区分 Nashorn/Rhino 引擎，Rhino 使用 BCEL 曲线救国类加载； 12. 增加 CC12 用 DefaultedMap 替换 LazyMap。"
@@ -1475,8 +1475,8 @@
             "https://github.com/whwlsfb/JDumpSpider": {
                 "created_at": "2022-01-05 07:30:39",
                 "description": "HeapDump敏感信息提取工具",
-                "commit_date": "2023-03-13 07:23:06",
-                "commit_message": "add ProcessEnvironment, JavaProperties.",
+                "commit_date": "2023-03-17 01:54:20",
+                "commit_message": "enhance heapfile version match logic.",
                 "release_tag": "V1.1",
                 "release_date": "2023-03-09 04:49:16",
                 "release_message": "- 项目重构，增强不同环境下的兼容性。 - 增加类字段的用户信息模糊搜索功能。"
@@ -1614,8 +1614,8 @@
             "https://github.com/ycdxsb/PocOrExp_in_Github": {
                 "created_at": "2021-04-13 05:46:16",
                 "description": "聚合Github上已有的Poc或者Exp，CVE信息来自CVE官网。Auto Collect Poc Or Exp from Github by CVE ID.",
-                "commit_date": "2023-03-16 21:41:58",
-                "commit_message": "update 2023-03-17 05:41:58",
+                "commit_date": "2023-03-17 21:53:36",
+                "commit_message": "update 2023-03-18 05:53:36",
                 "release_tag": "",
                 "release_date": "",
                 "release_message": ""
@@ -1788,8 +1788,8 @@
             "https://github.com/murphysecurity/murphysec": {
                 "created_at": "2022-03-16 02:52:33",
                 "description": "An open source tool focused on software supply chain security. 墨菲安全专注于软件供应链安全，具备专业的软件成分分析（SCA）、漏洞检测、专业漏洞库。",
-                "commit_date": "2023-03-10 06:09:22",
-                "commit_message": "chore(deps): bump github.com/muesli/termenv from 0.15.0 to 0.15.1 (#144)\n\nBumps [github.com/muesli/termenv](https://github.com/muesli/termenv) from 0.15.0 to 0.15.1.\r\n- [Release notes](https://github.com/muesli/termenv/releases)\r\n- [Commits](https://github.com/muesli/termenv/compare/v0.15.0...v0.15.1)\r\n\r\n---\r\nupdated-dependencies:\r\n- dependency-name: github.com/muesli/termenv\r\n  dependency-type: direct:production\r\n  update-type: version-update:semver-patch\r\n...\r\n\r\nSigned-off-by: dependabot[bot] <support@github.com>\r\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
+                "commit_date": "2023-03-17 06:17:13",
+                "commit_message": "Merge pull request #148 from murphysecurity/dependabot/go_modules/github.com/go-git/go-git/v5-5.6.1",
                 "release_tag": "v3.0.1",
                 "release_date": "2023-02-13 07:25:06",
                 "release_message": ""
@@ -2392,8 +2392,8 @@
             "https://github.com/whwlsfb/BurpCrypto": {
                 "created_at": "2020-05-29 02:59:15",
                 "description": "BurpCrypto is a collection of burpsuite encryption plug-ins, support AES/RSA/DES/ExecJs(execute JS encryption code in burpsuite). 支持多种加密算法或直接执行JS代码的用于爆破前端加密的BurpSuite插件",
-                "commit_date": "2022-06-21 03:48:18",
-                "commit_message": "fix JCE authenticate fail error.",
+                "commit_date": "2023-03-17 04:34:11",
+                "commit_message": "enhance rsa exponent logic.",
                 "release_tag": "",
                 "release_date": "",
                 "release_message": ""
@@ -2617,11 +2617,11 @@
             "https://github.com/Vicl1fe/HackTools": {
                 "created_at": "2022-07-01 03:11:03",
                 "description": "提高渗透测试效率。#Burp插件##渗透测试##小工具#",
-                "commit_date": "2022-12-23 10:27:45",
-                "commit_message": "修改README.md",
-                "release_tag": "1.3",
-                "release_date": "2022-12-23 10:27:23",
-                "release_message": "[+] 新增base32编解 [+] Unicode中文互转 [+] JavaUtils功能"
+                "commit_date": "2023-03-17 09:37:29",
+                "commit_message": "更新",
+                "release_tag": "1.4",
+                "release_date": "2023-03-17 08:52:34",
+                "release_message": "新增FindReport、jasypt解密功能"
             },
             "https://github.com/sleeyax/burp-awesome-tls": {
                 "created_at": "2022-01-24 00:30:26",
@@ -2850,6 +2850,15 @@
                 "release_tag": "0.4.0",
                 "release_date": "2021-08-21 01:15:40",
                 "release_message": "本版本大更新，主要添加 **延时分块发送器** (sleep chunked sender)  1. 实现socket发包分块并在界面显示进度信息 2. 调整package结构删除无用HttpURLConnClient 3. 调整第二排界面控件 4. 解决request数据包比较大时，sleep send client界面显示比较卡的问题 5. 解决多个Sleep send client共用一个发送记录 6. 解决计算分块范围和耗时范围不准确问题，以及设置分块和延时控件最小值不能大于最大值 7. 实现代理设置，修复https判断错误bug 8. 添加sleep send client错误信息的显示 9. 修复由于Transfer-Encoding: chunked大小写不敏感导致判断不严谨问题 10. 让send sleep client显示连接和发送头阶段的错误信息 11. 让sleep send client退出时将后台发包线程也退出 12. 给sleep send client添加进度条 13. 设置sleep send client的发送按钮在完成发送后恢复名称为Start 14. 引入单元测试，删除调无用的IMessageEditorController接口实现 15. 将最后一步读取response，作为进度条显示的一部分 16. 解决延时分块传输最后一个分块长度计算错误问题 17. 重新明确已经发送分块和发送时间这两个概念 18. 解决socket模拟Http发包,读response不完整问题 19. 实现sleep send client分块日志表格按照比例显示列宽 20. 将sleep send client模块改名为sleep chunked sender"
+            },
+            "https://github.com/Tsojan/TsojanScan": {
+                "created_at": "2022-12-18 15:36:54",
+                "description": "一个集成的BurpSuite漏洞探测插件",
+                "commit_date": "2023-03-09 12:56:21",
+                "commit_message": "Update README.md",
+                "release_tag": "v1.4.4",
+                "release_date": "2023-03-09 12:55:14",
+                "release_message": "## 更新说明 - v1.4.4 1. 优化代码结构； 2. 修复weblogic弱口令误报bug； 3. 增加otf后缀不扫描规则； 4. 删除asix/happaxis.jsp扫描规则； 5. 增加sql语法错误的页面回显扫描模块，只显示sql错误显示（参数后面增加单引号、双引号、反斜线，去查看有没有SQL错误语句）。 "
             }
         },
         "xray": {
@@ -3021,7 +3030,7 @@
             "https://github.com/ExpLangcn/NucleiTP": {
                 "created_at": "2022-11-08 13:16:56",
                 "description": "自动整合全网Nuclei的漏洞POC，实时同步更新最新POC！",
-                "commit_date": "2023-03-17 01:00:16",
+                "commit_date": "2023-03-18 01:00:16",
                 "commit_message": "更新啦❤️",
                 "release_tag": "",
                 "release_date": "",
@@ -3144,13 +3153,13 @@
                 "release_message": ""
             },
             "https://github.com/H4de5-7/geacon_pro": {
-                "created_at": "2022-10-27 12:07:00",
-                "description": "跨平台重构了Cobaltstrike Beacon，适配了大部分Beacon的功能，行为对国内主流杀软免杀，支持4.1以上的版本。 A cross-platform CobaltStrike Beacon bypass anti-virus, supports 4.1+ version.",
+                "created_at": "",
+                "description": "",
                 "commit_date": "2023-03-09 14:17:46",
                 "commit_message": "Update README.md",
-                "release_tag": "geacon_pro_v1.3",
-                "release_date": "2023-02-05 15:40:56",
-                "release_message": "2023.2.3 v1.3 更新日志  1.新增unhook(ntdll.dll,kernel32.dll,kernelbase.dll) 2.新增argue欺骗 3.修复了drives部分情况下错误、keylogger中文会乱码、dllinject远程注入失败、自删除部分情况下失败、upload时在原文件基础上append的BUG 4.将os.Exit(0)修改为return，避免转换成反射型dll注入后退出宿主进程 5.优化代码结构与sysinfo的显示"
+                "release_tag": "",
+                "release_date": "",
+                "release_message": ""
             }
         },
         "ZoomEye": {
@@ -3567,8 +3576,8 @@
             "https://github.com/dbeaver/dbeaver": {
                 "created_at": "2015-10-21 08:26:28",
                 "description": "Free universal database tool and SQL client",
-                "commit_date": "2023-03-16 15:33:26",
-                "commit_message": "dbeaver/pro#148 Allow hiding execution statistics (#19309)\n\n* dbeaver/pro#148 Allow hiding execution statistics\r\n\r\n* dbeaver/pro#148 Code style\r\n\r\n* dbeaver/pro#148 Display statistics if results have updated rows",
+                "commit_date": "2023-03-17 13:58:38",
+                "commit_message": "Merge remote-tracking branch 'origin/devel' into devel",
                 "release_tag": "23.0.0",
                 "release_date": "2023-03-05 17:56:39",
                 "release_message": "Changes since 22.3.5: - SQL editor:     - Column metadata resolution was fixed for quoted column names     - SQL console now respects \"open separate connection\" option     - Variables resolve in `set` and other commands was fixed     - Copy/paste command was fixed for editors without associated connection - Data editor:     - Spatial viewer: lasso tool was fixed for Safari browser     - Support of WKT format stored in BLOB columns was added     - Issues with image viewer and BLOB columns was fixed (NullPointer error))     - Selected columns/rows data export was fixed (issue with BLOB value turning into NULL in UI) - Accessibility:     - Font settings are now respected in all editors/popups     - New keyboard shortcuts schema was added \"DBeaver Keyboard Only\"     - Many new keyboard shortcuts were added     - Catalog/schema selector now supports keyboard only mode     - Results tab pin/unpin command is now accessible from keyboard (thanks to hawthorne3341)     - Reader texts were localized - Database dashboard create wizard UI was fixed - Generate SQL dialog now supports connection invalidation - Clickhouse: driver version was updated to 0.4.1 - Dremio: driver version was updated to 24.0 - Firebird: table colum comments support was added - PostgreSQL:     - Issue with URL-based connections was resolved (invalid host name)     - Execution plan parameters are now saved - Redshift: varbyte datatype suport was fixed - SQL Server:     - UI for Kerberos authentication configuration was fixed     - Table colum comments support was added - French localization was fixed (thanks to alexgille) - Problems with Kerberos were resolved (we have reverted to Java 11)"
