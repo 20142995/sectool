@@ -143,11 +143,11 @@
             "https://github.com/epi052/feroxbuster": {
                 "created_at": "2020-08-22 15:36:19",
                 "description": "A fast, simple, recursive content discovery tool written in Rust.",
-                "commit_date": "2023-03-17 11:47:19",
-                "commit_message": "Merge branch 'main' of github.com:epi052/feroxbuster",
-                "release_tag": "v2.9.1",
-                "release_date": "2023-03-12 12:32:10",
-                "release_message": "## What's Changed * Implement auto update feature by @aancw in https://github.com/epi052/feroxbuster/pull/813 * scan management can now canx scans started with `-u` | `--stdin` | the menu itself by @epi052 in https://github.com/epi052/feroxbuster/pull/821 * feroxbuster can be installed via chocolatey by @aancw in https://github.com/epi052/feroxbuster/pull/807 * fix resume with offset when `--methods` | `--extensions` are used by @epi052 in https://github.com/epi052/feroxbuster/pull/823   **Full Changelog**: https://github.com/epi052/feroxbuster/compare/v2.9.0...v2.9.1"
+                "commit_date": "2023-03-18 17:23:34",
+                "commit_message": "Merge pull request #839 from epi052/all-contributors/add-acut3\n\ndocs: add acut3 as a contributor for bug",
+                "release_tag": "v2.9.2",
+                "release_date": "2023-03-18 17:21:28",
+                "release_message": "## What's Changed * changed default value for `--extract-links` to `true` => added `--dont-extract-links` to turn off the new default behavior by @epi052 in https://github.com/epi052/feroxbuster/pull/834 * can load a wordlist from its url over http/https by @epi052 in https://github.com/epi052/feroxbuster/pull/834 * updated README with alternative installation methods for brew and chocolatey by @aancw in https://github.com/epi052/feroxbuster/pull/824 * fixed divide by zero error by @epi052 in https://github.com/epi052/feroxbuster/pull/834 * added check for forced recursion when directory listing detected by @epi052 in https://github.com/epi052/feroxbuster/pull/834  Special thanks to @aancw for the code, @acut3 for the bug report, and @xaeroborg for the nice quality of life idea :tada:   **Full Changelog**: https://github.com/epi052/feroxbuster/compare/v2.9.1...v2.9.2"
             },
             "https://github.com/ffuf/ffuf": {
                 "created_at": "2018-11-08 09:25:49",
@@ -633,8 +633,8 @@
             "https://github.com/zan8in/afrog": {
                 "created_at": "2022-02-24 06:00:32",
                 "description": "A Vulnerability Scanning Tools For Penetration Testing",
-                "commit_date": "2023-03-14 03:28:48",
-                "commit_message": "delete poc csz-cms-multiple-blind-sql-injection.yaml",
+                "commit_date": "2023-03-18 13:32:09",
+                "commit_message": "update rawhttp",
                 "release_tag": "v2.2.1",
                 "release_date": "2023-02-04 14:54:34",
                 "release_message": "Merge many fingerprint pocs into the panel-detect.yaml file to reduce the number of http requests Console  print date format, 2023-01-01 changed to 01-01 Simplified afrog-config configuration  Fixed: invalid `-fc` configuration Tip: Configure the `-c` command, which can increase the concurrency speed very quickly  -----------------------------------------------------------------------------  将多个 panel 指纹探测合并到文件 panel-detect.yaml，大幅减少 http 请求 精简控制台日期打印，2023-01-01 改为 01-01 精简 afrog-config 配置信息  解决：`-fc` 命令配置无效问题 提示：配置 `-c` 命令能明显提高扫描速度"
@@ -1190,6 +1190,15 @@
                 "release_tag": "1.1",
                 "release_date": "2021-10-22 03:32:27",
                 "release_message": "添加内容是为了支持SpringBootExploit工具，是定制版的服务端。  1. 启动方式：java -jar  JNDIExploit-1.2-SNAPSHOT.jar 默认绑定127.0.0.1 LDAP 绑定 1389 HTTP Server 绑定3456 2. 根目录下BehinderFilter.class是内存马 /ateam 密码是ateamnb  3. 根目录下Calc.class是但计算器 4. data/behinder3.jar 是为了支持SnakYaml RCE 5. 添加HTTPServer处理更多的请求，为了更好支持SpringBootExploit工具 6. 将文件放在data目录下，通过HTTPServer可以访问文件内容如同python的HTTPServer"
+            },
+            "https://github.com/cseroad/Exp-Tools": {
+                "created_at": "2023-03-09 01:10:10",
+                "description": "一款集成各种exp的实用性工具",
+                "commit_date": "2023-03-16 01:27:01",
+                "commit_message": "Update README.md",
+                "release_tag": "v1.1.3",
+                "release_date": "2023-03-16 01:24:36",
+                "release_message": "Update README.md"
             }
         },
         "重点CMS利用": {
@@ -1614,8 +1623,8 @@
             "https://github.com/ycdxsb/PocOrExp_in_Github": {
                 "created_at": "2021-04-13 05:46:16",
                 "description": "聚合Github上已有的Poc或者Exp，CVE信息来自CVE官网。Auto Collect Poc Or Exp from Github by CVE ID.",
-                "commit_date": "2023-03-17 21:53:36",
-                "commit_message": "update 2023-03-18 05:53:36",
+                "commit_date": "2023-03-18 21:47:29",
+                "commit_message": "update 2023-03-19 05:47:29",
                 "release_tag": "",
                 "release_date": "",
                 "release_message": ""
@@ -2950,8 +2959,8 @@
             "https://github.com/ninoseki/mitaka": {
                 "created_at": "2018-02-09 00:13:30",
                 "description": "A browser extension for OSINT search",
-                "commit_date": "2023-02-26 07:24:32",
-                "commit_message": "Merge pull request #708 from ninoseki/change-package\n\nchore: use plasmo build  --zip for packaging [skip ci]",
+                "commit_date": "2023-03-19 00:40:51",
+                "commit_message": "Merge pull request #717 from ninoseki/v1.1.0\n\nv1.1.0",
                 "release_tag": "v1.0.0",
                 "release_date": "2023-02-26 07:27:26",
                 "release_message": "- Migrate to the Manifest V3 (#703) - Replace Mocha, Chai and Sinon with Jest (#703) "
@@ -3030,7 +3039,7 @@
             "https://github.com/ExpLangcn/NucleiTP": {
                 "created_at": "2022-11-08 13:16:56",
                 "description": "自动整合全网Nuclei的漏洞POC，实时同步更新最新POC！",
-                "commit_date": "2023-03-18 01:00:16",
+                "commit_date": "2023-03-19 01:00:15",
                 "commit_message": "更新啦❤️",
                 "release_tag": "",
                 "release_date": "",
@@ -3654,8 +3663,8 @@
             "https://github.com/v2rayA/v2rayA": {
                 "created_at": "2019-10-18 20:42:06",
                 "description": "A web GUI client of Project V which supports V2Ray, Xray, SS, SSR, Trojan and Pingtunnel 🚀",
-                "commit_date": "2023-03-16 10:46:49",
-                "commit_message": "fix: omit emty sni when sharing",
+                "commit_date": "2023-03-18 10:17:20",
+                "commit_message": "chore: remove alterID limit",
                 "release_tag": "v2.0.1",
                 "release_date": "2022-12-13 15:23:54",
                 "release_message": "https://github.com/v2rayA/v2rayA/compare/v1.5.9.1698.1...v2.0.1  1. Bumped to [v2fly-core](https://github.com/v2fly/v2ray-core/) v5. 2. Removed XRay support.  ## What's Changed * Add PowerShell build script by @MarksonHon in https://github.com/v2rayA/v2rayA/pull/259 * Update build-in-pwsh.ps1 by @MarksonHon in https://github.com/v2rayA/v2rayA/pull/260 * Add inno installer by @MarksonHon in https://github.com/v2rayA/v2rayA/pull/669 * chore(config): add default env config file for systemd user by @cubercsl in https://github.com/v2rayA/v2rayA/pull/680 * Make inno installer great again! by @MarksonHon in https://github.com/v2rayA/v2rayA/pull/702 * fix(subtime): remove timezone guess by @JimMoen in https://github.com/v2rayA/v2rayA/pull/711 * v2rayA should start after nftables by @MarksonHon in https://github.com/v2rayA/v2rayA/pull/723 * add a runit script for v2raya. by @yuandi42 in https://github.com/v2rayA/v2rayA/pull/708 * Too much to write...  ## New Contributors * @JimMoen made their first contribution in https://github.com/v2rayA/v2rayA/pull/711 * @yuandi42 made their first contribution in https://github.com/v2rayA/v2rayA/pull/708  **Full Changelog**: https://github.com/v2rayA/v2rayA/compare/v1.5.9.1698.1...v2.0.1"
@@ -3692,6 +3701,17 @@
                 "release_tag": "",
                 "release_date": "",
                 "release_message": ""
+            }
+        },
+        "文字识别": {
+            "https://github.com/hiroi-sora/Umi-OCR": {
+                "created_at": "2022-03-28 04:01:46",
+                "description": "OCR图片转文字识别软件，完全离线。截屏/批量导入图片，支持多国语言、合并段落、竖排文字。可排除水印区域，提取干净的文本。基于 PaddleOCR 。",
+                "commit_date": "2023-03-12 12:33:13",
+                "commit_message": "优化：主面板的报错通知，以红色样式进行显示。（#99）",
+                "release_tag": "v1.3.2",
+                "release_date": "2022-12-01 11:06:08",
+                "release_message": "### `v1.3.2` 主要更新： <!-- ![更新提示 v1 3 2](https://user-images.githubusercontent.com/56373419/205036476-609e31d9-a478-4a5f-ab69-0ff5ded6f76a.png) --> - 新功能：创建开机启动项时，可选`不显示主窗口`。 - 新功能：OCR结果输出到每个图片同名的单独txt文件。 - 新功能：增加独立的设置语言窗口，可在多处点开，便于切换语言。 - 新功能：合并段落添加`合并自然段-西文模式`，可在英文段落换行时补充空格。 - 新功能：快捷识图可选`自动清空面板`，只显示本次识别结果，且隐藏时间信息。 - 修复了一些BUG。  ### 文件说明 软件本体：`Umi-OCR.v1.3.2.7z`，内置`简体中文&英文`通用识别库。 多国语言扩展包：`Umi-OCR.v1.3_DLC_languages.7z`，可额外导入`繁中,英,日,韩,俄,德,法` 识别库。请按需下载。"
             }
         }
     },
