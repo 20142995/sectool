@@ -255,11 +255,11 @@
             "https://github.com/projectdiscovery/naabu": {
                 "created_at": "2020-01-21 10:56:32",
                 "description": "A fast port scanner written in go with a focus on reliability and simplicity. Designed to be used in combination with other tools for attack surface discovery in bug bounties and pentests",
-                "commit_date": "2023-03-17 18:05:43",
-                "commit_message": "Merge pull request #608 from projectdiscovery/dev\n\nnaabu v2.1.3",
-                "release_tag": "v2.1.3",
-                "release_date": "2023-03-17 18:40:26",
-                "release_message": "## What's Changed * Fixed a issue to skip host discovery in passive mode by @Mzack9999 in https://github.com/projectdiscovery/naabu/pull/583 * Fixed `osutil` + improving error message with `-sn` on windows by @Mzack9999 in https://github.com/projectdiscovery/naabu/pull/588 * Added self update option + version check by @RamanaReddy0M in https://github.com/projectdiscovery/naabu/pull/600 * Updated release workflow to include binary for mac/windows arch by @ehsandeep in https://github.com/projectdiscovery/naabu/pull/598  ## New Contributors * @RamanaReddy0M made their first contribution in https://github.com/projectdiscovery/naabu/pull/600  **Full Changelog**: https://github.com/projectdiscovery/naabu/compare/v2.1.2...v2.1.3"
+                "commit_date": "2023-03-19 07:31:49",
+                "commit_message": "Merge pull request #610 from projectdiscovery/dev\n\nversion update",
+                "release_tag": "v2.1.4",
+                "release_date": "2023-03-19 07:33:02",
+                "release_message": "## What's Changed * Update lib example by @dogancanbakir in https://github.com/projectdiscovery/naabu/pull/605 * version update by @ehsandeep in https://github.com/projectdiscovery/naabu/pull/610  ## New Contributors * @dogancanbakir made their first contribution in https://github.com/projectdiscovery/naabu/pull/605  **Full Changelog**: https://github.com/projectdiscovery/naabu/compare/v2.1.3...v2.1.4"
             },
             "https://github.com/redtoolskobe/scaninfo": {
                 "created_at": "2021-11-05 04:59:07",
@@ -1293,8 +1293,8 @@
             "https://github.com/wpscanteam/wpscan": {
                 "created_at": "2012-07-11 20:27:47",
                 "description": "WPScan WordPress security scanner. Written for security professionals and blog maintainers to test the security of their WordPress websites. Contact us via contact@wpscan.com",
-                "commit_date": "2023-02-14 09:38:24",
-                "commit_message": "Merge pull request #1770 from wpscanteam/dependabot/github_actions/docker/build-push-action-4\n\nBump docker/build-push-action from 3 to 4",
+                "commit_date": "2023-03-19 18:28:09",
+                "commit_message": "Adds DFS",
                 "release_tag": "v3.8.22",
                 "release_date": "2022-04-04 14:04:28",
                 "release_message": "See https://github.com/wpscanteam/CMSScanner/releases/tag/v0.13.8  - Minor:   - Better handling of redirection, ie when target http->https (or the opposite), the target URL will be changed to the new one automatically to avoid scanning the http version and getting 301 which could result in items being missed   - Better handling of unsupported HEAD method by checking for 501 and timeout as well"
@@ -1623,8 +1623,8 @@
             "https://github.com/ycdxsb/PocOrExp_in_Github": {
                 "created_at": "2021-04-13 05:46:16",
                 "description": "聚合Github上已有的Poc或者Exp，CVE信息来自CVE官网。Auto Collect Poc Or Exp from Github by CVE ID.",
-                "commit_date": "2023-03-18 21:47:29",
-                "commit_message": "update 2023-03-19 05:47:29",
+                "commit_date": "2023-03-19 21:47:42",
+                "commit_message": "update 2023-03-20 05:47:42",
                 "release_tag": "",
                 "release_date": "",
                 "release_message": ""
@@ -2280,7 +2280,7 @@
             "https://github.com/k8gege/K8tools": {
                 "created_at": "2019-02-23 14:04:52",
                 "description": "K8工具合集(内网渗透/提权工具/远程溢出/漏洞利用/扫描工具/密码破解/免杀工具/Exploit/APT/0day/Shellcode/Payload/priviledge/BypassUAC/OverFlow/WebShell/PenTest) Web GetShell Exploit(Struts2/Zimbra/Weblogic/Tomcat/Apache/Jboss/DotNetNuke/zabbix)",
-                "commit_date": "2023-03-10 16:04:54",
+                "commit_date": "2023-03-19 15:25:33",
                 "commit_message": "Add files via upload",
                 "release_tag": "",
                 "release_date": "",
@@ -2356,8 +2356,8 @@
             "https://github.com/bit4woo/domain_hunter_pro": {
                 "created_at": "2019-01-18 07:15:15",
                 "description": "domain_hunter的高级版本，SRC挖洞、HW打点之必备！自动化资产收集；快速Title获取；外部工具联动；等等",
-                "commit_date": "2023-03-12 08:19:38",
-                "commit_message": "Update LineEntryMenu.java",
+                "commit_date": "2023-03-19 07:04:36",
+                "commit_message": "Update LineEntryMenuForBurp.java",
                 "release_tag": "v1.9-alpha",
                 "release_date": "2022-11-18 09:37:35",
                 "release_message": "**这是重构版本，与旧版本不兼容！！！ 这是重构版本，与旧版本不兼容！！！ 这是重构版本，与旧版本不兼容！！！**  重新设计了数据库的表结构，尽量提升数据库读写效率 重新设计了数据对象、UI、数据库之间的数据同步逻辑 重新设计了数据存储的基础类，保证线程安全 重新设计了table中model类的部分逻辑，减少内存占用  优化了数据对象的字段，尽量减小每个数据对象的内存占用 优化了数据提取的正则表达式和逻辑 优化了根域名、网段作控制目标范围的逻辑 优化了当根域名、网段变化时，数据的刷新逻辑 优化了数据数据加载逻辑 其他各种逻辑优化、bug修改  总之就是大动作，和旧版本不兼容，可能存在潜在bug（虽然我已经试用一段时间，排除了很多bug），所以发布一个alpha版本在正式版本之前。  欢迎试用提交bug，使用时建议创建新的项目数据库，不要使用旧数据库文件。"
@@ -3039,7 +3039,7 @@
             "https://github.com/ExpLangcn/NucleiTP": {
                 "created_at": "2022-11-08 13:16:56",
                 "description": "自动整合全网Nuclei的漏洞POC，实时同步更新最新POC！",
-                "commit_date": "2023-03-19 01:00:15",
+                "commit_date": "2023-03-20 01:00:15",
                 "commit_message": "更新啦❤️",
                 "release_tag": "",
                 "release_date": "",
@@ -3068,8 +3068,8 @@
             "https://github.com/Hypdncy/NessusToReport": {
                 "created_at": "2020-06-26 19:35:43",
                 "description": "Nessus扫描报告自动化生成工具",
-                "commit_date": "2023-03-06 14:39:54",
-                "commit_message": "增加beautifulsoup4包",
+                "commit_date": "2023-03-19 19:00:15",
+                "commit_message": "增加导出excel功能，默认目录为./outputs",
                 "release_tag": "v1.1.1",
                 "release_date": "2023-01-10 07:36:28",
                 "release_message": ""
@@ -3585,8 +3585,8 @@
             "https://github.com/dbeaver/dbeaver": {
                 "created_at": "2015-10-21 08:26:28",
                 "description": "Free universal database tool and SQL client",
-                "commit_date": "2023-03-17 13:58:38",
-                "commit_message": "Merge remote-tracking branch 'origin/devel' into devel",
+                "commit_date": "2023-03-19 12:29:18",
+                "commit_message": "23.0.1 config",
                 "release_tag": "23.0.0",
                 "release_date": "2023-03-05 17:56:39",
                 "release_message": "Changes since 22.3.5: - SQL editor:     - Column metadata resolution was fixed for quoted column names     - SQL console now respects \"open separate connection\" option     - Variables resolve in `set` and other commands was fixed     - Copy/paste command was fixed for editors without associated connection - Data editor:     - Spatial viewer: lasso tool was fixed for Safari browser     - Support of WKT format stored in BLOB columns was added     - Issues with image viewer and BLOB columns was fixed (NullPointer error))     - Selected columns/rows data export was fixed (issue with BLOB value turning into NULL in UI) - Accessibility:     - Font settings are now respected in all editors/popups     - New keyboard shortcuts schema was added \"DBeaver Keyboard Only\"     - Many new keyboard shortcuts were added     - Catalog/schema selector now supports keyboard only mode     - Results tab pin/unpin command is now accessible from keyboard (thanks to hawthorne3341)     - Reader texts were localized - Database dashboard create wizard UI was fixed - Generate SQL dialog now supports connection invalidation - Clickhouse: driver version was updated to 0.4.1 - Dremio: driver version was updated to 24.0 - Firebird: table colum comments support was added - PostgreSQL:     - Issue with URL-based connections was resolved (invalid host name)     - Execution plan parameters are now saved - Redshift: varbyte datatype suport was fixed - SQL Server:     - UI for Kerberos authentication configuration was fixed     - Table colum comments support was added - French localization was fixed (thanks to alexgille) - Problems with Kerberos were resolved (we have reverted to Java 11)"
@@ -3663,8 +3663,8 @@
             "https://github.com/v2rayA/v2rayA": {
                 "created_at": "2019-10-18 20:42:06",
                 "description": "A web GUI client of Project V which supports V2Ray, Xray, SS, SSR, Trojan and Pingtunnel 🚀",
-                "commit_date": "2023-03-18 10:17:20",
-                "commit_message": "chore: remove alterID limit",
+                "commit_date": "2023-03-19 18:04:57",
+                "commit_message": "optimize: add auto scorll switch #853",
                 "release_tag": "v2.0.1",
                 "release_date": "2022-12-13 15:23:54",
                 "release_message": "https://github.com/v2rayA/v2rayA/compare/v1.5.9.1698.1...v2.0.1  1. Bumped to [v2fly-core](https://github.com/v2fly/v2ray-core/) v5. 2. Removed XRay support.  ## What's Changed * Add PowerShell build script by @MarksonHon in https://github.com/v2rayA/v2rayA/pull/259 * Update build-in-pwsh.ps1 by @MarksonHon in https://github.com/v2rayA/v2rayA/pull/260 * Add inno installer by @MarksonHon in https://github.com/v2rayA/v2rayA/pull/669 * chore(config): add default env config file for systemd user by @cubercsl in https://github.com/v2rayA/v2rayA/pull/680 * Make inno installer great again! by @MarksonHon in https://github.com/v2rayA/v2rayA/pull/702 * fix(subtime): remove timezone guess by @JimMoen in https://github.com/v2rayA/v2rayA/pull/711 * v2rayA should start after nftables by @MarksonHon in https://github.com/v2rayA/v2rayA/pull/723 * add a runit script for v2raya. by @yuandi42 in https://github.com/v2rayA/v2rayA/pull/708 * Too much to write...  ## New Contributors * @JimMoen made their first contribution in https://github.com/v2rayA/v2rayA/pull/711 * @yuandi42 made their first contribution in https://github.com/v2rayA/v2rayA/pull/708  **Full Changelog**: https://github.com/v2rayA/v2rayA/compare/v1.5.9.1698.1...v2.0.1"
@@ -3707,11 +3707,11 @@
             "https://github.com/hiroi-sora/Umi-OCR": {
                 "created_at": "2022-03-28 04:01:46",
                 "description": "OCR图片转文字识别软件，完全离线。截屏/批量导入图片，支持多国语言、合并段落、竖排文字。可排除水印区域，提取干净的文本。基于 PaddleOCR 。",
-                "commit_date": "2023-03-12 12:33:13",
-                "commit_message": "优化：主面板的报错通知，以红色样式进行显示。（#99）",
-                "release_tag": "v1.3.2",
-                "release_date": "2022-12-01 11:06:08",
-                "release_message": "### `v1.3.2` 主要更新： <!-- ![更新提示 v1 3 2](https://user-images.githubusercontent.com/56373419/205036476-609e31d9-a478-4a5f-ab69-0ff5ded6f76a.png) --> - 新功能：创建开机启动项时，可选`不显示主窗口`。 - 新功能：OCR结果输出到每个图片同名的单独txt文件。 - 新功能：增加独立的设置语言窗口，可在多处点开，便于切换语言。 - 新功能：合并段落添加`合并自然段-西文模式`，可在英文段落换行时补充空格。 - 新功能：快捷识图可选`自动清空面板`，只显示本次识别结果，且隐藏时间信息。 - 修复了一些BUG。  ### 文件说明 软件本体：`Umi-OCR.v1.3.2.7z`，内置`简体中文&英文`通用识别库。 多国语言扩展包：`Umi-OCR.v1.3_DLC_languages.7z`，可额外导入`繁中,英,日,韩,俄,德,法` 识别库。请按需下载。"
+                "commit_date": "2023-03-19 04:51:05",
+                "commit_message": "update url",
+                "release_tag": "v1.3.3",
+                "release_date": "2023-03-19 04:49:43",
+                "release_message": "### `v1.3.3` 主要更新： - 新功能：命令行模式。随时通过命令行调用Umi-OCR！ - 新功能：识图完成的通知悬浮窗。 - 新功能：清理引擎内存。 - 修复了一些问题，优化了一些UI表现。  ### 文件说明 软件本体：`Umi-OCR.v1.3.3.7z`，内置`简体中文&英文`通用识别库。 多国语言扩展包：`Umi-OCR.v1.3_DLC_languages.7z`，可额外导入`繁中,英,日,韩,俄,德,法` 识别库。请按需下载。"
             }
         }
     },
@@ -3791,7 +3791,7 @@
             "https://github.com/wecooperate/iDefender": {
                 "created_at": "2021-11-24 11:38:28",
                 "description": "iDefender（冰盾 - 终端主动防御系统）",
-                "commit_date": "2023-03-15 11:05:29",
+                "commit_date": "2023-03-19 14:36:54",
                 "commit_message": "update",
                 "release_tag": "2.5.0",
                 "release_date": "2023-03-10 07:42:24",

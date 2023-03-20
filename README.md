@@ -1,10 +1,11 @@
-# 更新于 2023-03-19 09:13:17
+# 更新于 2023-03-20 09:12:11
 
 ## 近30天release更新记录
 | 更新时间 | 项目名称 | 版本 | 更新内容 |
 | :---- | :---- | :---- | :---- |
+|2023-03-19 07:33:02|[naabu](https://github.com/projectdiscovery/naabu)|v2.1.4|## What's Changed * Update lib example <br>by @dogancanbakir in https://github.com/<br>projectdiscovery/naabu/pull/605 * versio<br>n update by @ehsandeep in https://github<br>.com/projectdiscovery/naabu/pull/610## N<br>ew Contributors * @dogancanbakir made th<br>eir first contribution in https://github<br>.com/projectdiscovery/naabu/pull/605**Fu<br>ll Changelog**: https://github.com/proje<br>ctdiscovery/naabu/compare/v2.1.3...v2.1.<br>4|
+|2023-03-19 04:49:43|[Umi-OCR](https://github.com/hiroi-sora/Umi-OCR)|v1.3.3|### v1.3.3 主要更新： - 新功能：命令行<br>模式。随时通过命令行调用Umi-OCR！ - 新功<br>能：识图完成的通知悬浮窗。 - 新功能：清理<br>引擎内存。 - 修复了一些问题，优化了一些UI<br>表现。### 文件说明 软件本体：Umi-OCR.v1.3<br>.3.7z，内置简体中文&英文通用识别库。 多<br>国语言扩展包：Umi-OCR.v1.3_DLC_languages.<br>7z，可额外导入繁中,英,日,韩,俄,德,法 识<br>别库。请按需下载。|
 |2023-03-18 17:21:28|[feroxbuster](https://github.com/epi052/feroxbuster)|v2.9.2|## What's Changed * changed default val<br>ue for --extract-links to true => added <br>--dont-extract-links to turn off the new<br> default behavior by @epi052 in https://<br>github.com/epi052/feroxbuster/pull/834 *<br> can load a wordlist from its url over h<br>ttp/https by @epi052 in https://github.c<br>om/epi052/feroxbuster/pull/834 * updated<br> README with alternative installation me<br>thods for brew and chocolatey by @aancw <br>in https://github.com/epi052/feroxbuster<br>/pull/824 * fixed divide by zero error b<br>y @epi052 in https://github.com/epi052/f<br>eroxbuster/pull/834 * added check for fo<br>rced recursion when directory listing de<br>tected by @epi052 in https://github.com/<br>epi052/feroxbuster/pull/834Special thank<br>s to @aancw for the code, @acut3 for the<br> bug report, and @xaeroborg for the nice<br> quality of life idea :tada:**Full Chang<br>elog**: https://github.com/epi052/feroxb<br>uster/compare/v2.9.1...v2.9.2|
-|2023-03-17 18:40:26|[naabu](https://github.com/projectdiscovery/naabu)|v2.1.3|## What's Changed * Fixed a issue to sk<br>ip host discovery in passive mode by @Mz<br>ack9999 in https://github.com/projectdis<br>covery/naabu/pull/583 * Fixed osutil + i<br>mproving error message with -sn on windo<br>ws by @Mzack9999 in https://github.com/p<br>rojectdiscovery/naabu/pull/588 * Added s<br>elf update option + version check by @Ra<br>manaReddy0M in https://github.com/projec<br>tdiscovery/naabu/pull/600 * Updated rele<br>ase workflow to include binary for mac/w<br>indows arch by @ehsandeep in https://git<br>hub.com/projectdiscovery/naabu/pull/598#<br># New Contributors * @RamanaReddy0M made<br> their first contribution in https://git<br>hub.com/projectdiscovery/naabu/pull/600*<br>*Full Changelog**: https://github.com/pr<br>ojectdiscovery/naabu/compare/v2.1.2...v2<br>.1.3|
 |2023-03-17 16:15:20|[subfinder](https://github.com/projectdiscovery/subfinder)|v2.5.7|## What's Changed * Fixed Docker file t<br>o avoid version mismatch by @olearycrew <br>in https://github.com/projectdiscovery/s<br>ubfinder/pull/771 * Added self update op<br>tion (-update) + version checkby @Ramana<br>Reddy0M in https://github.com/projectdis<br>covery/subfinder/pull/780## New Contribu<br>tors * @olearycrew made their first cont<br>ribution in https://github.com/projectdi<br>scovery/subfinder/pull/771**Full Changel<br>og**: https://github.com/projectdiscover<br>y/subfinder/compare/v2.5.6...v2.5.7|
 |2023-03-17 08:52:34|[HackTools](https://github.com/Vicl1fe/HackTools)|1.4|新增FindReport、jasypt解密功能|
 |2023-03-17 08:22:08|[ARL](https://github.com/TophantTechnology/ARL)|v2.5.4|## 更新和优化 1. 优化泛解析域名爆破流程<br> 2. 修复nuclei 在执行时可能出现一个错误 <br>#481 3. nuclei版本更新 4. 截图生成文件名<br>正则优化 #498 5. 域名插件crt.sh，hunter_q<br>ax等优化 6. 修复302 URL过长导致入库失败<br>问题 @原来是老王 @ki9mu## 更新方法：docke<br>r-compose pull docker-dompose down docke<br>r-dompose up -d## 重装参考： [卸载并重装<br>](https://tophanttechnology.github.io/AR<br>L-doc/faq/#12-docker) |
@@ -43,23 +44,27 @@
 |2023-02-22 09:37:42|[HaE](https://github.com/gh0stkey/HaE)|2.4.6|HaE 2.4.6 更新内容： 1. 加入多线程对数<br>据进行匹配和提取，减少卡顿现象； 2. 变更<br>配置文件更新地址为jsdelivr的CDN节点地址，<br>优化国内用户体验。|
 |2023-02-21 03:59:42|[URLFinder](https://github.com/pingc0y/URLFinder)|2023.2.21|2023/2/21 修复 已知bug|
 |2023-02-19 17:36:35|[wxapkgUnpack](https://github.com/jdr2021/wxapkgUnpack)|1.0||
-|2023-02-17 13:57:27|[Search_Viewer](https://github.com/G3et/Search_Viewer)|v2.0|版本：v2.0 2023/02/17·修复导出时间戳·修<br>复Hunter情况恢复页码·界面稍微调整·新增360<br> Quake·新增Zoomeye 钟馗之眼|
-|2023-02-17 03:46:29|[OutLook](https://github.com/KrystianLi/OutLook)|v1.2.0|1、优化代码和操作界面 2、新增数据保存功<br>能，导出格式为xls|
 ## 近30天commit提交记录
 | 提交时间 | 项目名称 | 更新内容 |
 | :---- | :---- | :---- |
-|2023-03-19 01:00:15|[NucleiTP](https://github.com/ExpLangcn/NucleiTP)|更新啦❤️|
+|2023-03-20 01:00:15|[NucleiTP](https://github.com/ExpLangcn/NucleiTP)|更新啦❤️|
+|2023-03-19 21:47:42|[PocOrExp_in_Github](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-03-20 05:47:42|
+|2023-03-19 19:00:15|[NessusToReport](https://github.com/Hypdncy/NessusToReport)|增加导出excel功能，默认目录为./outputs|
+|2023-03-19 18:28:09|[wpscan](https://github.com/wpscanteam/wpscan)|Adds DFS|
+|2023-03-19 18:04:57|[v2rayA](https://github.com/v2rayA/v2rayA)|optimize: add auto scorll switch #853|
+|2023-03-19 15:25:33|[K8tools](https://github.com/k8gege/K8tools)|Add files via upload|
+|2023-03-19 14:36:54|[iDefender](https://github.com/wecooperate/iDefender)|update|
+|2023-03-19 12:29:18|[dbeaver](https://github.com/dbeaver/dbeaver)|23.0.1 config|
+|2023-03-19 07:31:49|[naabu](https://github.com/projectdiscovery/naabu)|Merge pull request #610 from projectdiscovery/devversi<br>on update|
+|2023-03-19 07:04:36|[domain_hunter_pro](https://github.com/bit4woo/domain_hunter_pro)|Update LineEntryMenuForBurp.java|
+|2023-03-19 04:51:05|[Umi-OCR](https://github.com/hiroi-sora/Umi-OCR)|update url|
 |2023-03-19 00:40:51|[mitaka](https://github.com/ninoseki/mitaka)|Merge pull request #717 from ninoseki/v1.1.0v1.1.0|
-|2023-03-18 21:47:29|[PocOrExp_in_Github](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-03-19 05:47:29|
 |2023-03-18 17:23:34|[feroxbuster](https://github.com/epi052/feroxbuster)|Merge pull request #839 from epi052/all-contributors/a<br>dd-acut3docs: add acut3 as a contributor for bug|
 |2023-03-18 13:32:09|[afrog](https://github.com/zan8in/afrog)|update rawhttp|
-|2023-03-18 10:17:20|[v2rayA](https://github.com/v2rayA/v2rayA)|chore: remove alterID limit|
-|2023-03-17 18:05:43|[naabu](https://github.com/projectdiscovery/naabu)|Merge pull request #608 from projectdiscovery/devnaabu<br> v2.1.3|
 |2023-03-17 16:51:30|[nuclei](https://github.com/projectdiscovery/nuclei)|Merge pull request #3433 from projectdiscovery/dependa<br>bot/go_modules/v2/google.golang.org/protobuf-1.29.1chor<br>e(deps): bump google.golang.org/protobuf from 1.29.0 to<br> 1.29.1 in /v2|
 |2023-03-17 16:12:07|[subfinder](https://github.com/projectdiscovery/subfinder)|Merge pull request #791 from projectdiscovery/devsubfi<br>nder - v2.5.7|
 |2023-03-17 15:42:26|[ysoserial](https://github.com/su18/ysoserial)|1、全面支持 AgentNoFile 内存马，目前支持 bx 的 Servlet<br>/TomcatFilter，使用方式 EX-Agent-Lin/Win-Servlet/Filter<br>-bx，例如 EX-Agent-Lin-Filter-bx，参数与原项目保持一致<br>，后续将逐步更新更多功能
 2、修复 Base64 Util 类的反射调<br>用 BUG|
-|2023-03-17 13:58:38|[dbeaver](https://github.com/dbeaver/dbeaver)|Merge remote-tracking branch 'origin/devel' into devel|
 |2023-03-17 11:35:53|[Goby](https://github.com/gobysec/Goby)|Update README.md|
 |2023-03-17 09:37:29|[HackTools](https://github.com/Vicl1fe/HackTools)|更新|
 |2023-03-17 08:24:41|[ARL](https://github.com/TophantTechnology/ARL)|Merge pull request #505 from TophantTechnology/update/<br>docUpdate Readme.md|
@@ -70,7 +75,6 @@
 |2023-03-16 01:29:06|[SmsForwarder](https://github.com/pppscn/SmsForwarder)|整理：README|
 |2023-03-16 01:27:01|[Exp-Tools](https://github.com/cseroad/Exp-Tools)|Update README.md|
 |2023-03-15 22:00:16|[sqlmap](https://github.com/sqlmapproject/sqlmap)|Fixes #5364|
-|2023-03-15 11:05:29|[iDefender](https://github.com/wecooperate/iDefender)|update|
 |2023-03-15 09:09:00|[CodeQLpy](https://github.com/webraybtl/CodeQLpy)|优化因为重复import相同类名导致的bug|
 |2023-03-15 07:02:43|[vulnerability](https://github.com/lal0ne/vulnerability)|CVE-2021-29441|
 |2023-03-15 05:12:18|[0day](https://github.com/helloexp/0day)|Merge branch 'master' of https://github.com/helloexp/0<br>day|
@@ -89,12 +93,9 @@
 |2023-03-13 18:52:40|[super-xray](https://github.com/4ra1n/super-xray)|after release|
 |2023-03-13 06:23:54|[404StarLink](https://github.com/knownsec/404StarLink)|weekly update at 2023-03-13|
 |2023-03-12 16:40:00|[CDK](https://github.com/cdk-team/CDK)|Merge pull request #80 from cdk-team/v1.5.2-alphaV1.5.<br>2 alpha|
-|2023-03-12 12:33:13|[Umi-OCR](https://github.com/hiroi-sora/Umi-OCR)|优化：主面板的报错通知，以红色样式进行显示。（#99）|
 |2023-03-12 11:04:45|[HackBrowserData](https://github.com/moonD4rk/HackBrowserData)|Merge pull request #203 from moonD4rk/fix/leveldbfix: <br>missing key and value in local storage|
-|2023-03-12 08:19:38|[domain_hunter_pro](https://github.com/bit4woo/domain_hunter_pro)|Update LineEntryMenu.java|
 |2023-03-12 00:48:03|[AV_Evasion_Tool](https://github.com/1y0n/AV_Evasion_Tool)|Update README.md|
 |2023-03-11 13:36:23|[PeiQi-WIKI-Book](https://github.com/PeiQi0/PeiQi-WIKI-Book)|漏洞相关:O2OA,联软,金山等相关漏洞|
-|2023-03-10 16:04:54|[K8tools](https://github.com/k8gege/K8tools)|Add files via upload|
 |2023-03-10 06:38:33|[log4j2burpscanner](https://github.com/f0ng/log4j2burpscanner)|Update README.md|
 |2023-03-10 03:31:53|[code6](https://github.com/4x99/code6)|Merge pull request #255 from 4x99/developv1.6.|
 |2023-03-10 02:50:32|[Elkeid](https://github.com/bytedance/Elkeid)|using RASP runner|
@@ -107,7 +108,6 @@
 |2023-03-08 02:32:40|[cf](https://github.com/teamssix/cf)|Merge pull request #214 from teamssix/betaperf: perf i<br>ssue ci|
 |2023-03-07 08:44:53|[knife](https://github.com/bit4woo/knife)|Update ChineseTab.java|
 |2023-03-07 07:33:10|[Godzilla](https://github.com/BeichenDream/Godzilla)|Update README.md|
-|2023-03-06 14:39:54|[NessusToReport](https://github.com/Hypdncy/NessusToReport)|增加beautifulsoup4包|
 |2023-03-06 08:46:31|[veinmind-tools](https://github.com/chaitin/veinmind-tools)|fix(veinmind-sensitive):fix scan path (#205)fix(veinmi<br>nd-sensitive):fix scan pathCo-authored-by: GiveMeAShell<br> |
 |2023-03-06 08:41:18|[ElectricRat](https://github.com/linjiananallnt/ElectricRat)|Update README.md|
 |2023-03-06 07:44:32|[Awesome-Redteam](https://github.com/Threekiii/Awesome-Redteam)|更新README.md|
@@ -140,11 +140,7 @@
 |2023-02-20 06:54:31|[Kunlun-M](https://github.com/LoRexxar/Kunlun-M)|Merge pull request #224 from LoRexxar/developfixed #22<br>3|
 |2023-02-19 18:06:05|[wxapkgUnpack](https://github.com/jdr2021/wxapkgUnpack)|Update README.md|
 |2023-02-19 16:36:47|[RedisEXP](https://github.com/yuyan-sec/RedisEXP)|解决支持中文路径|
-|2023-02-19 12:41:37|[ffuf](https://github.com/ffuf/ffuf)|Fix HTML output (#640)|
-|2023-02-17 13:54:38|[Search_Viewer](https://github.com/G3et/Search_Viewer)|Update search_viewer_ui.py|
-|2023-02-17 03:44:49|[OutLook](https://github.com/KrystianLi/OutLook)|Update|
-|2023-02-17 03:37:31|[poc-hub](https://github.com/ybdt/poc-hub)|整理|
-|2023-02-17 02:22:13|[Xray_Cracked](https://github.com/NHPT/Xray_Cracked)|Update README.md|## 所有项目
+|2023-02-19 12:41:37|[ffuf](https://github.com/ffuf/ffuf)|Fix HTML output (#640)|## 所有项目
 ### 信息收集
 #### 资产测绘采集
 | 项目名称 | 版本 | 项目描述 |
@@ -188,7 +184,7 @@
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
 | [TXPortMap](https://github.com/4dogs-cn/TXPortMap) | v1.1.2 | Port Scanner & Banner Identify From TianXiang |
-| [naabu](https://github.com/projectdiscovery/naabu) | v2.1.3 | A fast port scanner written in go with a focus on reliability an<br>d simplicity. Designed to be used in combination with other tools<br> for attack surface discovery in bug bounties and pentests |
+| [naabu](https://github.com/projectdiscovery/naabu) | v2.1.4 | A fast port scanner written in go with a focus on reliability an<br>d simplicity. Designed to be used in combination with other tools<br> for attack surface discovery in bug bounties and pentests |
 | [scaninfo](https://github.com/redtoolskobe/scaninfo) | v1.1.0 | fast scan for redtools |
 #### 综合
 | 项目名称 | 版本 | 项目描述 |
@@ -806,7 +802,7 @@
 #### 文字识别
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
-| [Umi-OCR](https://github.com/hiroi-sora/Umi-OCR) | v1.3.2 | OCR图片转文字识别软件，完全离线。截屏/批量导入图片，支持多国语言<br>、合并段落、竖排文字。可排除水印区域，提取干净的文本。基于 PaddleO<br>CR 。 |
+| [Umi-OCR](https://github.com/hiroi-sora/Umi-OCR) | v1.3.3 | OCR图片转文字识别软件，完全离线。截屏/批量导入图片，支持多国语言<br>、合并段落、竖排文字。可排除水印区域，提取干净的文本。基于 PaddleO<br>CR 。 |
 ### 安全产品
 #### 威胁检测
 | 项目名称 | 版本 | 项目描述 |
