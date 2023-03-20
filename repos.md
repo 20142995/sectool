@@ -416,3 +416,4 @@
 |工具&插件|Burpsuite|https://github.com/Tsojan/TsojanScan|
 |其他|文字识别|https://github.com/hiroi-sora/Umi-OCR|
 |漏洞发现&利用|漏洞利用辅助|https://github.com/cseroad/Exp-Tools|
+|应急响应|知识库|https://github.com/Bypass007/Emergency-Response-Notes|
