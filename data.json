@@ -1131,8 +1131,8 @@
             "https://github.com/wuba/Antenna": {
                 "created_at": "2022-06-15 06:42:25",
                 "description": "Antenna是58同城安全团队打造的一款辅助安全从业人员验证网络中多种漏洞是否存在以及可利用性的工具。其基于带外应用安全测试(OAST)通过任务的形式，将不同漏洞场景检测能力通过插件的形式进行集合，通过与目标进行out-bind的数据通信方式进行辅助检测。",
-                "commit_date": "2023-03-03 09:32:01",
-                "commit_message": "测试官方镜像2",
+                "commit_date": "2023-03-20 02:51:03",
+                "commit_message": "Merge pull request #86 from wuba/develop\n\nDevelop",
                 "release_tag": "v1.3.2",
                 "release_date": "2023-03-01 06:20:26",
                 "release_message": "1、优化了任务模块功能逻辑 2、修复python3.6版本不支持socket解析ip的bug"
@@ -1158,11 +1158,11 @@
             "https://github.com/su18/ysoserial": {
                 "created_at": "2021-07-26 01:20:01",
                 "description": "ysoserial for su18",
-                "commit_date": "2023-03-17 15:42:26",
-                "commit_message": "1、全面支持 AgentNoFile 内存马，目前支持 bx 的 Servlet/TomcatFilter，使用方式 EX-Agent-Lin/Win-Servlet/Filter-bx，例如 EX-Agent-Lin-Filter-bx，参数与原项目保持一致，后续将逐步更新更多功能\n2、修复 Base64 Util 类的反射调用 BUG",
-                "release_tag": "v1.4",
-                "release_date": "2023-03-09 12:20:40",
-                "release_message": "1. Transformer[] / BeanShell / C3P02 利用链支持 LF 加载本地 class 文件功能； 2. 更新 JbossEcho 支持 JBoss-4.2.3.GA； 3. 更新 Struts2 回显及 Action 内存马； 4. 移除 Tomcat Listener NeoReg 流量隧道、移除 EncryptedTranscoder 及依赖； 5. 支持 suo5 利用方式； 6. 更新命令执行混淆支持 windows/linux/unix jdk 1.6； 7. 修改打包 debug 信息为 false； 8. 更新 javassist 版本，进行一些降低 payload 的尝试； 9. 更新 HelpFormatter 以执行终端大小动态调整，最大宽度 200； 10. 打通 BCEL 类加载利用链（详见代码）； 11. 使用 ScriptEngineManager 区分 Nashorn/Rhino 引擎，Rhino 使用 BCEL 曲线救国类加载； 12. 增加 CC12 用 DefaultedMap 替换 LazyMap。"
+                "commit_date": "2023-03-20 10:13:00",
+                "commit_message": "更新版本",
+                "release_tag": "v1.5",
+                "release_date": "2023-03-20 10:33:46",
+                "release_message": "1. 全面支持 AgentNoFile 内存马，目前支持 Servlet/Tomcat Filter 型的内存马，支持 bx/gz/gzraw/cmd 动态生成，参数保持一致； 2. 动态生成 Filter/Servlet 等名称，使用类名 + Filter 的形势，模拟常规名称，避免被一眼看出来； 3. 优化项目架构，单独拆解内存马恶意类字节码生成代码，作为字节码生成中台，后续将集成 JNDI 注入利用相关； 4. 对 exploit 下的利用方式进行了支持，除了每个 exploit 需要的参数，后面正常跟 payload 的参数； 5. 更新 LF 参数，格式为 LF-/tmp/evil.class，后面可加类名，并对传递的类字节码进行了缩减大小的尝试； 6. 修复 CC12 不能用的问题； 7. 移除 jboss 相关代码及依赖； 8. 更新命令执行最短化； 9. 修复大量BUG，优化大量代码。"
             },
             "https://github.com/WhiteHSBG/JNDIExploit": {
                 "created_at": "2021-12-30 09:00:16",
@@ -1205,8 +1205,8 @@
             "https://github.com/LittleBear4/OA-EXPTOOL": {
                 "created_at": "2022-10-13 12:31:21",
                 "description": "OA综合利用工具，集合将近20款OA漏洞批量扫描",
-                "commit_date": "2023-03-05 16:10:52",
-                "commit_message": "Add files via upload",
+                "commit_date": "2023-03-20 01:53:40",
+                "commit_message": "Update scan.py",
                 "release_tag": "OA-EXPTOOL-v0.7",
                 "release_date": "2023-01-20 18:22:12",
                 "release_message": "更新内容如下： 1.代理功能已经实装 2.日志功能已经载入源码，目前只有一米OA会产生日志（日志第二次调用会产生问题，暂不实装） 修复部分poc报错问题，修复通达OAshell的代码错误导致无法连接问题 增加泛微OA_doexcel 泛微OA_ktree_upload 泛微OA_v10_OfficeServer.phpupload weaveroa-eoffice8-upload-RCE 增加用友： yongyou_KSOA_imageupload"
@@ -1484,8 +1484,8 @@
             "https://github.com/whwlsfb/JDumpSpider": {
                 "created_at": "2022-01-05 07:30:39",
                 "description": "HeapDump敏感信息提取工具",
-                "commit_date": "2023-03-17 01:54:20",
-                "commit_message": "enhance heapfile version match logic.",
+                "commit_date": "2023-03-20 03:29:15",
+                "commit_message": "Uniqueness output.",
                 "release_tag": "V1.1",
                 "release_date": "2023-03-09 04:49:16",
                 "release_message": "- 项目重构，增强不同环境下的兼容性。 - 增加类字段的用户信息模糊搜索功能。"
@@ -1578,8 +1578,8 @@
             "https://github.com/helloexp/0day": {
                 "created_at": "2022-04-07 04:28:29",
                 "description": "各种CMS、各种平台、各种系统、各种软件漏洞的EXP、POC ,该项目将持续更新",
-                "commit_date": "2023-03-15 05:12:18",
-                "commit_message": "Merge branch 'master' of https://github.com/helloexp/0day",
+                "commit_date": "2023-03-20 02:09:42",
+                "commit_message": "add Apache CouchDB 3.2.1 RCE",
                 "release_tag": "",
                 "release_date": "",
                 "release_message": ""
@@ -1596,8 +1596,8 @@
             "https://github.com/lal0ne/vulnerability": {
                 "created_at": "2022-01-20 02:48:42",
                 "description": "收集、整理、修改互联网上公开的漏洞POC",
-                "commit_date": "2023-03-15 07:02:43",
-                "commit_message": "CVE-2021-29441",
+                "commit_date": "2023-03-20 01:32:09",
+                "commit_message": "CVE-2023-21768",
                 "release_tag": "",
                 "release_date": "",
                 "release_message": ""
@@ -1623,8 +1623,8 @@
             "https://github.com/ycdxsb/PocOrExp_in_Github": {
                 "created_at": "2021-04-13 05:46:16",
                 "description": "聚合Github上已有的Poc或者Exp，CVE信息来自CVE官网。Auto Collect Poc Or Exp from Github by CVE ID.",
-                "commit_date": "2023-03-19 21:47:42",
-                "commit_message": "update 2023-03-20 05:47:42",
+                "commit_date": "2023-03-20 21:46:18",
+                "commit_message": "update 2023-03-21 05:46:18",
                 "release_tag": "",
                 "release_date": "",
                 "release_message": ""
@@ -1897,8 +1897,8 @@
             "https://github.com/sqlmapproject/sqlmap": {
                 "created_at": "2012-06-26 09:52:15",
                 "description": "Automatic SQL injection and database takeover tool",
-                "commit_date": "2023-03-15 22:00:16",
-                "commit_message": "Fixes #5364",
+                "commit_date": "2023-03-20 10:59:54",
+                "commit_message": "Fixes #5368",
                 "release_tag": "1.7",
                 "release_date": "2023-01-02 22:32:55",
                 "release_message": "Stable version 1.7 ([changeset](https://github.com/sqlmapproject/sqlmap/compare/1.6...1.7))"
@@ -2204,8 +2204,8 @@
             "https://github.com/knownsec/404StarLink": {
                 "created_at": "2020-11-17 08:10:18",
                 "description": "404StarLink - 推荐优质、有意义、有趣、坚持维护的安全开源项目",
-                "commit_date": "2023-03-13 06:23:54",
-                "commit_message": "weekly update at 2023-03-13",
+                "commit_date": "2023-03-20 02:37:28",
+                "commit_message": "weekly update at 2023-03-20",
                 "release_tag": "",
                 "release_date": "",
                 "release_message": ""
@@ -2356,7 +2356,7 @@
             "https://github.com/bit4woo/domain_hunter_pro": {
                 "created_at": "2019-01-18 07:15:15",
                 "description": "domain_hunter的高级版本，SRC挖洞、HW打点之必备！自动化资产收集；快速Title获取；外部工具联动；等等",
-                "commit_date": "2023-03-19 07:04:36",
+                "commit_date": "2023-03-20 09:02:47",
                 "commit_message": "Update LineEntryMenuForBurp.java",
                 "release_tag": "v1.9-alpha",
                 "release_date": "2022-11-18 09:37:35",
@@ -2491,11 +2491,11 @@
             "https://github.com/f0ng/log4j2burpscanner": {
                 "created_at": "2021-12-11 07:19:11",
                 "description": "CVE-2021-44228 Log4j2 BurpSuite Scanner,Customize ceye.io api or other apis,including internal networks",
-                "commit_date": "2023-03-10 06:38:33",
+                "commit_date": "2023-03-20 12:58:34",
                 "commit_message": "Update README.md",
-                "release_tag": "0.23.0-beta2",
-                "release_date": "2023-03-13 07:24:56",
-                "release_message": "# 0.23.0-beta2 update ## 2023-3-13 1. fix problem _____________________________________________________________ 1. 优化选中内网ip时只发请求头含有`%24`payload的问题，增至和普通被动扫描一样多的请求"
+                "release_tag": "0.24.0",
+                "release_date": "2023-03-20 13:03:28",
+                "release_message": "# 0.24.0 update ## 2023-3-20 1. Adapt the [selistener](https://github.com/f0ng/selistener) tool for intranet vulnerability detection _____________________________________________________________ 1. 适配[selistener](https://github.com/f0ng/selistener)工具进行内网漏洞探测"
             },
             "https://github.com/c0ny1/passive-scan-client": {
                 "created_at": "2019-08-08 01:01:28",
@@ -3039,7 +3039,7 @@
             "https://github.com/ExpLangcn/NucleiTP": {
                 "created_at": "2022-11-08 13:16:56",
                 "description": "自动整合全网Nuclei的漏洞POC，实时同步更新最新POC！",
-                "commit_date": "2023-03-20 01:00:15",
+                "commit_date": "2023-03-21 01:00:16",
                 "commit_message": "更新啦❤️",
                 "release_tag": "",
                 "release_date": "",
@@ -3070,8 +3070,8 @@
                 "description": "Nessus扫描报告自动化生成工具",
                 "commit_date": "2023-03-19 19:00:15",
                 "commit_message": "增加导出excel功能，默认目录为./outputs",
-                "release_tag": "v1.1.1",
-                "release_date": "2023-01-10 07:36:28",
+                "release_tag": "v1.2",
+                "release_date": "2023-03-20 01:13:02",
                 "release_message": ""
             },
             "https://github.com/FunnyKun/NessusReportInChinese": {
@@ -3560,6 +3560,17 @@
                 "release_date": "2023-02-14 09:00:35",
                 "release_message": "提供了三个`jar`文件： - `agent.jar`是核心文件，请保持与`gui.jar`或`remote.jar`同目录 - `gui.jar`是GUI客户端，本地和远程分析都需要 - `remote.jar`用于远程分析，本地分析无需下载"
             }
+        },
+        "知识库": {
+            "https://github.com/Bypass007/Emergency-Response-Notes": {
+                "created_at": "2019-05-18 04:47:30",
+                "description": "应急响应实战笔记，一个安全工程师的自我修养。",
+                "commit_date": "2021-09-02 01:16:35",
+                "commit_message": "Update README.md",
+                "release_tag": "",
+                "release_date": "",
+                "release_message": ""
+            }
         }
     },
     "其他": {
@@ -3567,11 +3578,11 @@
             "https://github.com/joke2k/faker": {
                 "created_at": "2012-11-12 23:00:09",
                 "description": "Faker is a Python package that generates fake data for you.",
-                "commit_date": "2023-03-14 16:12:08",
-                "commit_message": "Add territory zip codes for `en_US` (#1821)\n\nClose #1812",
-                "release_tag": "v17.6.0",
-                "release_date": "2023-03-03 16:59:23",
-                "release_message": "See [CHANGELOG.md](https://github.com/joke2k/faker/blob/refs/tags/v17.6.0/CHANGELOG.md)."
+                "commit_date": "2023-03-20 16:58:30",
+                "commit_message": "Bump version: 18.1.0 → 18.2.0",
+                "release_tag": "v18.2.0",
+                "release_date": "2023-03-20 17:08:30",
+                "release_message": "See [CHANGELOG.md](https://github.com/joke2k/faker/blob/refs/tags/v18.2.0/CHANGELOG.md)."
             },
             "https://github.com/pppscn/SmsForwarder": {
                 "created_at": "2021-02-10 02:23:07",
@@ -3585,8 +3596,8 @@
             "https://github.com/dbeaver/dbeaver": {
                 "created_at": "2015-10-21 08:26:28",
                 "description": "Free universal database tool and SQL client",
-                "commit_date": "2023-03-19 12:29:18",
-                "commit_message": "23.0.1 config",
+                "commit_date": "2023-03-20 19:28:11",
+                "commit_message": "Merge branch 'devel' of https://github.com/dbeaver/dbeaver into devel",
                 "release_tag": "23.0.0",
                 "release_date": "2023-03-05 17:56:39",
                 "release_message": "Changes since 22.3.5: - SQL editor:     - Column metadata resolution was fixed for quoted column names     - SQL console now respects \"open separate connection\" option     - Variables resolve in `set` and other commands was fixed     - Copy/paste command was fixed for editors without associated connection - Data editor:     - Spatial viewer: lasso tool was fixed for Safari browser     - Support of WKT format stored in BLOB columns was added     - Issues with image viewer and BLOB columns was fixed (NullPointer error))     - Selected columns/rows data export was fixed (issue with BLOB value turning into NULL in UI) - Accessibility:     - Font settings are now respected in all editors/popups     - New keyboard shortcuts schema was added \"DBeaver Keyboard Only\"     - Many new keyboard shortcuts were added     - Catalog/schema selector now supports keyboard only mode     - Results tab pin/unpin command is now accessible from keyboard (thanks to hawthorne3341)     - Reader texts were localized - Database dashboard create wizard UI was fixed - Generate SQL dialog now supports connection invalidation - Clickhouse: driver version was updated to 0.4.1 - Dremio: driver version was updated to 24.0 - Firebird: table colum comments support was added - PostgreSQL:     - Issue with URL-based connections was resolved (invalid host name)     - Execution plan parameters are now saved - Redshift: varbyte datatype suport was fixed - SQL Server:     - UI for Kerberos authentication configuration was fixed     - Table colum comments support was added - French localization was fixed (thanks to alexgille) - Problems with Kerberos were resolved (we have reverted to Java 11)"
@@ -3607,9 +3618,9 @@
                 "description": "Automated Penetration Testing Reporting System",
                 "commit_date": "2023-01-24 19:13:52",
                 "commit_message": "Update FUNDING.yml",
-                "release_tag": "0.1",
-                "release_date": "2022-10-28 16:37:18",
-                "release_message": "- Version 0.1"
+                "release_tag": "",
+                "release_date": "",
+                "release_message": ""
             },
             "https://github.com/0x727/BugRepoter_0x727": {
                 "created_at": "2021-09-26 02:34:34",

@@ -1,8 +1,12 @@
-# 更新于 2023-03-20 09:12:11
+# 更新于 2023-03-21 09:06:39
 
 ## 近30天release更新记录
 | 更新时间 | 项目名称 | 版本 | 更新内容 |
 | :---- | :---- | :---- | :---- |
+|2023-03-20 17:08:30|[faker](https://github.com/joke2k/faker)|v18.2.0|See [CHANGELOG.md](https://github.com/j<br>oke2k/faker/blob/refs/tags/v18.2.0/CHANG<br>ELOG.md).|
+|2023-03-20 13:03:28|[log4j2burpscanner](https://github.com/f0ng/log4j2burpscanner)|0.24.0|# 0.24.0 update ## 2023-3-20 1. Adapt t<br>he [selistener](https://github.com/f0ng/<br>selistener) tool for intranet vulnerabil<br>ity detection __________________________<br>___________________________________ 1. <br>适配[selistener](https://github.com/f0ng/<br>selistener)工具进行内网漏洞探测|
+|2023-03-20 10:33:46|[ysoserial](https://github.com/su18/ysoserial)|v1.5|1. 全面支持 AgentNoFile 内存马，目前支<br>持 Servlet/Tomcat Filter 型的内存马，支持<br> bx/gz/gzraw/cmd 动态生成，参数保持一致<br>； 2. 动态生成 Filter/Servlet 等名称，使<br>用类名 + Filter 的形势，模拟常规名称，避<br>免被一眼看出来； 3. 优化项目架构，单独拆<br>解内存马恶意类字节码生成代码，作为字节码<br>生成中台，后续将集成 JNDI 注入利用相关； <br>4. 对 exploit 下的利用方式进行了支持，除<br>了每个 exploit 需要的参数，后面正常跟 pay<br>load 的参数； 5. 更新 LF 参数，格式为 LF<br>-/tmp/evil.class，后面可加类名，并对传递<br>的类字节码进行了缩减大小的尝试； 6. 修复 <br>CC12 不能用的问题； 7. 移除 jboss 相关代<br>码及依赖； 8. 更新命令执行最短化； 9. 修<br>复大量BUG，优化大量代码。|
+|2023-03-20 01:13:02|[NessusToReport](https://github.com/Hypdncy/NessusToReport)|v1.2||
 |2023-03-19 07:33:02|[naabu](https://github.com/projectdiscovery/naabu)|v2.1.4|## What's Changed * Update lib example <br>by @dogancanbakir in https://github.com/<br>projectdiscovery/naabu/pull/605 * versio<br>n update by @ehsandeep in https://github<br>.com/projectdiscovery/naabu/pull/610## N<br>ew Contributors * @dogancanbakir made th<br>eir first contribution in https://github<br>.com/projectdiscovery/naabu/pull/605**Fu<br>ll Changelog**: https://github.com/proje<br>ctdiscovery/naabu/compare/v2.1.3...v2.1.<br>4|
 |2023-03-19 04:49:43|[Umi-OCR](https://github.com/hiroi-sora/Umi-OCR)|v1.3.3|### v1.3.3 主要更新： - 新功能：命令行<br>模式。随时通过命令行调用Umi-OCR！ - 新功<br>能：识图完成的通知悬浮窗。 - 新功能：清理<br>引擎内存。 - 修复了一些问题，优化了一些UI<br>表现。### 文件说明 软件本体：Umi-OCR.v1.3<br>.3.7z，内置简体中文&英文通用识别库。 多<br>国语言扩展包：Umi-OCR.v1.3_DLC_languages.<br>7z，可额外导入繁中,英,日,韩,俄,德,法 识<br>别库。请按需下载。|
 |2023-03-18 17:21:28|[feroxbuster](https://github.com/epi052/feroxbuster)|v2.9.2|## What's Changed * changed default val<br>ue for --extract-links to true => added <br>--dont-extract-links to turn off the new<br> default behavior by @epi052 in https://<br>github.com/epi052/feroxbuster/pull/834 *<br> can load a wordlist from its url over h<br>ttp/https by @epi052 in https://github.c<br>om/epi052/feroxbuster/pull/834 * updated<br> README with alternative installation me<br>thods for brew and chocolatey by @aancw <br>in https://github.com/epi052/feroxbuster<br>/pull/824 * fixed divide by zero error b<br>y @epi052 in https://github.com/epi052/f<br>eroxbuster/pull/834 * added check for fo<br>rced recursion when directory listing de<br>tected by @epi052 in https://github.com/<br>epi052/feroxbuster/pull/834Special thank<br>s to @aancw for the code, @acut3 for the<br> bug report, and @xaeroborg for the nice<br> quality of life idea :tada:**Full Chang<br>elog**: https://github.com/epi052/feroxb<br>uster/compare/v2.9.1...v2.9.2|
@@ -16,7 +20,6 @@
 |2023-03-14 06:26:44|[captcha-killer-modi<br>fied](https://github.com/f0ng/captcha-killer-modified)|0.22|【2023-3-14】 0.22 重要问题修复 - 修复<br>了装载插件会影响proxy选项卡的问题|
 |2023-03-13 18:58:37|[super-xray](https://github.com/4ra1n/super-xray)|1.6|## 1.6失眠，简单更新下更新内容： - [imp<br>ortant] 给RAD联动提供一种批量执行的办法 <br>#155 - [important] RAD联动支持Cookie配置<br> #153 - [feat] 第一次加载RAD后支持保存路<br>径下次直接加载 #156 - [feat] RAD联动支持<br>一键复制RAD命令 #154 - [bug] 备份xray目录<br>原来的config.yaml文件 #152 - [feat] RAD <br>联动支持拖拽功能 #151 - [feat] request 支<br>持自定义 user-agent #149 - [feat] 允许设<br>置请求Cookie内容 #150 - [feat] radium sup<br>port file input #148 (同#155)下载： - su<br>per-xray-1.6.jar 版本通过java -jar super<br>-xray-1.6.jar启动 - super-xray-1.6-jre-e<br>xe.zip 是内置了JRE的exe版本 - super-xray<br>-1.6-system-jre.exe 是使用系统JRE的exe版<br>本|
 |2023-03-13 15:04:36|[koko-moni](https://github.com/burpheart/koko-moni)|v0.0.1|v0.0.1|
-|2023-03-13 07:24:56|[log4j2burpscanner](https://github.com/f0ng/log4j2burpscanner)|0.23.0-be<br>ta2|# 0.23.0-beta2 update ## 2023-3-13 1. f<br>ix problem _____________________________<br>________________________________ 1. 优化<br>选中内网ip时只发请求头含有%24payload的问<br>题，增至和普通被动扫描一样多的请求|
 |2023-03-13 05:57:36|[Tomcat_PUT_GUI_EXP](https://github.com/xiaokp7/Tomcat_PUT_GUI_EXP)|1.4|修复命令执行回显中文乱码|
 |2023-03-12 16:51:05|[Apt_t00ls](https://github.com/White-hua/Apt_t00ls)|v0.6|H3C 任意文件上传 致远帆软组件任意文件上<br>传 nacos任意用户添加 帆软任意文件上传 用<br>友GRP_U8任意文件上传 用友KSOA任意文件上传<br>rce -- 0day漏洞作者 https://github.com/c<br>dxiaodong|
 |2023-03-12 16:46:59|[CDK](https://github.com/cdk-team/CDK)|v1.5.2|Release Date: 2023-03-12## What's Chang<br>ed * V1.5.2 alpha by @neargle in https:/<br>/github.com/cdk-team/CDK/pull/80## :scro<br>ll: Changelog### :bomb: Exploits* Fix 78<br>(exp): support containerd and other linu<br>x path### :toolbox: Tools* Fix #77(exp s<br>hadow-apiserver): anonymous-auth is not <br>valid, support v1.23.1### :sparkles: Oth<br>ers* Fix 78(exp): support containerd and<br> other linux path * Chore(exp): add aler<br>t message about flag auto-escape is depr<br>ecated## :sparkles: In Chinese* 支持 lin<br>ux 环境下的不同容器运行时，如 containerd<br>、runc、docker； * 修复shadow-apiserver匿<br>名访问无效的issue，支持新版本的k8s，如 v1<br>.23.1； * 添加迭代部分功能的消息提醒## :<br>key: Hash Table|SHA256|EXECTUE FILE| |--<br>-|---| |9f63e35d7b9d0814ad9f0ef23b89deb4<br>f823d3b07bcd33df9abc5b957bb8be0f|cdk_dar<br>win_amd64 d5c8e759b790c6ffb3134c8f0aae58<br>65e2ae4c672dc09eaa312bc928fd0d78bd|cdk_l<br>inux_386 64c86a12800b8d5064e7313a43eb6f5<br>504a7043ab15c227cecfddaf84cc74ced|cdk_li<br>nux_386_thin 364fcacd8b55d7d54162849b620<br>cd83e9f50ddb3c7c08478f391cce09449b452|cd<br>k_linux_386_thin_upx 242a11999f0c5b77640<br>0f2462854ef1d07101bd1085e3b29c9b7ba825c9<br>3a3fb|cdk_linux_386_upx af751c690671ffc0<br>da6380ef94a25df3dfc5911c448319f7f6b90df5<br>5cca7b7d|cdk_linux_amd64 f118a70fa7b02b8<br>58bb4fffb96d9a861e4b02f62df054a0d6985444<br>9682c8f85|cdk_linux_amd64_thin 3dc271adc<br>2565c38eda5fdaee3070bda8962159d17ba62546<br>7a0f3a6e5e440d0|cdk_linux_amd64_thin_upx<br> 924fb2bd1fe001f9eb62509a05546d1aaf97ebb<br>fca73c75eb665a38b34559c4e|cdk_linux_amd6<br>4_upx 594811dafdfb9f5cc56b604d8fe97777c2<br>3057e37803ec34afdf5680bf9276ea|cdk_linux<br>_arm 828aede9a7bc193899b66e8c10ac10d2439<br>8cf79575e771d9a970d3f9a4cdd92|cdk_linux_<br>arm64 2eb30e2abc71fadaee5980bd89a8e4a2c9<br>5bcc5d60857a3c13b006c186307e8e|cdk_linux<br>_arm64_thin|**Full Changelog**: https://<br>github.com/cdk-team/CDK/compare/v1.5.1..<br>.v1.5.2|
@@ -25,14 +28,12 @@
 |2023-03-10 07:42:24|[iDefender](https://github.com/wecooperate/iDefender)|2.5.0|**重大版本，建议更新**- 添加基础防护能<br>力- **智能防护：** 利用智能分析和识别恶意<br>软件行为，提供实时防护机制，确保系统免受<br>恶意软件侵害- **系统优化：** 拦截非必要的<br>软件和联网行为，提高系统运行速度和稳定性<br>，提供更优秀的用户体验- **安全加固：** 拦<br>截系统存在漏洞的组件和常见入侵途径，增强<br>系统安全性，避免遭受恶意软件攻击- **漏洞<br>防御：** 根据已知漏洞入侵方式开发专门的防<br>御规则，保障系统不受黑客攻击和恶意软件入<br>侵- **模板支持自动在线更新**- 规则记录添<br>加右键菜单 - 路径参数添加粘贴支持（方便快<br>速录入多条数据） - 路径参数添加多选删除 -<br> 弹框添加进程命令行信息（方便查看脚本进<br>程对应的脚本文件） - 添加规则过滤 - 优化<br>一些界面使用体验 - 修复一些问题软件下载|
 |2023-03-10 03:32:44|[code6](https://github.com/4x99/code6)|1.6.4|### 更新日志 - 特性：[ 扫描结果 ] 支持<br>导出单页 CSV 数据（#245） - 优化：[ 扫描<br>结果 ] 新增支持 “处理人”、“说明” 字段<br>搜索（#247） - 修复：[ Docker 部署 ] 修复<br>重启可能导致配置项异常问题（#248） - 修复<br>：[ 扫描任务 ] 待执行任务配置被删导致扫描<br>队列阻塞问题（#252） - 修复：[ 通知配置 ]<br> 更新企业群消息机器人文档地址 - 特性：[ <br>通知配置 ] 邮件通知支持 SSL/TLS 加密（#24<br>7）### 升级指南 #### 源码安装 直接拉取最<br>新代码#### Docker 安装 拉取最新代码、创建<br>镜像并启动容器即可#### Docker-Compose 安<br>装 拉取最新代码启动容器即可 |
 |2023-03-09 12:55:14|[TsojanScan](https://github.com/Tsojan/TsojanScan)|v1.4.4|## 更新说明 - v1.4.4 1. 优化代码结构； <br>2. 修复weblogic弱口令误报bug； 3. 增加ot<br>f后缀不扫描规则； 4. 删除asix/happaxis.j<br>sp扫描规则； 5. 增加sql语法错误的页面回<br>显扫描模块，只显示sql错误显示（参数后面增<br>加单引号、双引号、反斜线，去查看有没有SQL<br>错误语句）。 |
-|2023-03-09 12:20:40|[ysoserial](https://github.com/su18/ysoserial)|v1.4|1. Transformer[] / BeanShell / C3P02 利<br>用链支持 LF 加载本地 class 文件功能； 2. <br>更新 JbossEcho 支持 JBoss-4.2.3.GA； 3. <br>更新 Struts2 回显及 Action 内存马； 4. 移<br>除 Tomcat Listener NeoReg 流量隧道、移除 <br>EncryptedTranscoder 及依赖； 5. 支持 suo<br>5 利用方式； 6. 更新命令执行混淆支持 win<br>dows/linux/unix jdk 1.6； 7. 修改打包 de<br>bug 信息为 false； 8. 更新 javassist 版<br>本，进行一些降低 payload 的尝试； 9. 更新<br> HelpFormatter 以执行终端大小动态调整，<br>最大宽度 200； 10. 打通 BCEL 类加载利用链<br>（详见代码）； 11. 使用 ScriptEngineManag<br>er 区分 Nashorn/Rhino 引擎，Rhino 使用 B<br>CEL 曲线救国类加载； 12. 增加 CC12 用 De<br>faultedMap 替换 LazyMap。|
 |2023-03-09 08:37:22|[GoWxDump](https://github.com/SpenserCai/GoWxDump)|v1.0.9|通过注册表自从查找微信数据目录|
 |2023-03-09 04:49:16|[JDumpSpider](https://github.com/whwlsfb/JDumpSpider)|V1.1|- 项目重构，增强不同环境下的兼容性。 - <br>增加类字段的用户信息模糊搜索功能。|
 |2023-03-08 06:18:49|[pentest_report](https://github.com/dbgee/pentest_report)|v1.0.0|First orricial release |
 |2023-03-06 08:49:57|[veinmind-tools](https://github.com/chaitin/veinmind-tools)|v2.0.6|## Feature - 降低镜像大小 @286515491## <br>Fix - 敏感信息检测增加文件限制 @testwill<br>- 优化容器逃逸权限检测逻辑 @286515491- <br>修复敏感信息路径扫描 @286515491 |
 |2023-03-06 08:47:39|[ElectricRat](https://github.com/linjiananallnt/ElectricRat)|v1.3.0|# 更新说明 1. 新增越权漏洞案例，包含水<br>平、垂直越权。 2. 增加XSS过滤难度 3. 增加<br>SPEL和SSTI结果输出 4. 新增压缩文件自解压<br>案例# TODO - [x] 越权漏洞# 如何更新 1. 将<br> ElectricRat-docker.zip 中的 ElectricRat<br>.war 覆盖之前的 war 包。 2. 重启 docker<br>。sudo docker restart electricrat-web 3. <br>稍等片刻后，访问 http://127.0.0.1:12666/E<br>lectricRat/ |
 |2023-03-05 17:56:39|[dbeaver](https://github.com/dbeaver/dbeaver)|23.0.0|Changes since 22.3.5: - SQL editor:- Co<br>lumn metadata resolution was fixed for q<br>uoted column names- SQL console now resp<br>ects "open separate connection" option- <br>Variables resolve in set and other comma<br>nds was fixed- Copy/paste command was fi<br>xed for editors without associated conne<br>ction - Data editor:- Spatial viewer: la<br>sso tool was fixed for Safari browser- S<br>upport of WKT format stored in BLOB colu<br>mns was added- Issues with image viewer <br>and BLOB columns was fixed (NullPointer <br>error))- Selected columns/rows data expo<br>rt was fixed (issue with BLOB value turn<br>ing into NULL in UI) - Accessibility:- F<br>ont settings are now respected in all ed<br>itors/popups- New keyboard shortcuts sch<br>ema was added "DBeaver Keyboard Only"- M<br>any new keyboard shortcuts were added- C<br>atalog/schema selector now supports keyb<br>oard only mode- Results tab pin/unpin co<br>mmand is now accessible from keyboard (t<br>hanks to hawthorne3341)- Reader texts we<br>re localized - Database dashboard create<br> wizard UI was fixed - Generate SQL dial<br>og now supports connection invalidation <br>- Clickhouse: driver version was updated<br> to 0.4.1 - Dremio: driver version was u<br>pdated to 24.0 - Firebird: table colum c<br>omments support was added - PostgreSQL:-<br> Issue with URL-based connections was re<br>solved (invalid host name)- Execution pl<br>an parameters are now saved - Redshift: <br>varbyte datatype suport was fixed - SQL <br>Server:- UI for Kerberos authentication <br>configuration was fixed- Table colum com<br>ments support was added - French localiz<br>ation was fixed (thanks to alexgille) - <br>Problems with Kerberos were resolved (we<br> have reverted to Java 11)|
-|2023-03-03 16:59:23|[faker](https://github.com/joke2k/faker)|v17.6.0|See [CHANGELOG.md](https://github.com/j<br>oke2k/faker/blob/refs/tags/v17.6.0/CHANG<br>ELOG.md).|
 |2023-03-03 01:00:04|[AV_Evasion_Tool](https://github.com/1y0n/AV_Evasion_Tool)|20230303|1. 效果优化|
 |2023-03-01 06:20:26|[Antenna](https://github.com/wuba/Antenna)|v1.3.2|1、优化了任务模块功能逻辑 2、修复python<br>3.6版本不支持socket解析ip的bug|
 |2023-02-28 04:13:35|[OneScan](https://github.com/vaycore/OneScan)|v0.5.2|0.5.2 版本发布，版本更新内容如下：### <br>新增- 主面板新增 Filter 按钮，支持单列、<br>多列过滤规则配置 |
@@ -47,42 +48,45 @@
 ## 近30天commit提交记录
 | 提交时间 | 项目名称 | 更新内容 |
 | :---- | :---- | :---- |
-|2023-03-20 01:00:15|[NucleiTP](https://github.com/ExpLangcn/NucleiTP)|更新啦❤️|
-|2023-03-19 21:47:42|[PocOrExp_in_Github](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-03-20 05:47:42|
+|2023-03-21 01:00:16|[NucleiTP](https://github.com/ExpLangcn/NucleiTP)|更新啦❤️|
+|2023-03-20 21:46:18|[PocOrExp_in_Github](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-03-21 05:46:18|
+|2023-03-20 19:28:11|[dbeaver](https://github.com/dbeaver/dbeaver)|Merge branch 'devel' of https://github.com/dbeaver/dbe<br>aver into devel|
+|2023-03-20 16:58:30|[faker](https://github.com/joke2k/faker)|Bump version: 18.1.0 → 18.2.0|
+|2023-03-20 12:58:34|[log4j2burpscanner](https://github.com/f0ng/log4j2burpscanner)|Update README.md|
+|2023-03-20 10:59:54|[sqlmap](https://github.com/sqlmapproject/sqlmap)|Fixes #5368|
+|2023-03-20 10:13:00|[ysoserial](https://github.com/su18/ysoserial)|更新版本|
+|2023-03-20 09:02:47|[domain_hunter_pro](https://github.com/bit4woo/domain_hunter_pro)|Update LineEntryMenuForBurp.java|
+|2023-03-20 03:29:15|[JDumpSpider](https://github.com/whwlsfb/JDumpSpider)|Uniqueness output.|
+|2023-03-20 02:51:03|[Antenna](https://github.com/wuba/Antenna)|Merge pull request #86 from wuba/developDevelop|
+|2023-03-20 02:37:28|[404StarLink](https://github.com/knownsec/404StarLink)|weekly update at 2023-03-20|
+|2023-03-20 02:09:42|[0day](https://github.com/helloexp/0day)|add Apache CouchDB 3.2.1 RCE|
+|2023-03-20 01:53:40|[OA-EXPTOOL](https://github.com/LittleBear4/OA-EXPTOOL)|Update scan.py|
+|2023-03-20 01:32:09|[vulnerability](https://github.com/lal0ne/vulnerability)|CVE-2023-21768|
 |2023-03-19 19:00:15|[NessusToReport](https://github.com/Hypdncy/NessusToReport)|增加导出excel功能，默认目录为./outputs|
 |2023-03-19 18:28:09|[wpscan](https://github.com/wpscanteam/wpscan)|Adds DFS|
 |2023-03-19 18:04:57|[v2rayA](https://github.com/v2rayA/v2rayA)|optimize: add auto scorll switch #853|
 |2023-03-19 15:25:33|[K8tools](https://github.com/k8gege/K8tools)|Add files via upload|
 |2023-03-19 14:36:54|[iDefender](https://github.com/wecooperate/iDefender)|update|
-|2023-03-19 12:29:18|[dbeaver](https://github.com/dbeaver/dbeaver)|23.0.1 config|
 |2023-03-19 07:31:49|[naabu](https://github.com/projectdiscovery/naabu)|Merge pull request #610 from projectdiscovery/devversi<br>on update|
-|2023-03-19 07:04:36|[domain_hunter_pro](https://github.com/bit4woo/domain_hunter_pro)|Update LineEntryMenuForBurp.java|
 |2023-03-19 04:51:05|[Umi-OCR](https://github.com/hiroi-sora/Umi-OCR)|update url|
 |2023-03-19 00:40:51|[mitaka](https://github.com/ninoseki/mitaka)|Merge pull request #717 from ninoseki/v1.1.0v1.1.0|
 |2023-03-18 17:23:34|[feroxbuster](https://github.com/epi052/feroxbuster)|Merge pull request #839 from epi052/all-contributors/a<br>dd-acut3docs: add acut3 as a contributor for bug|
 |2023-03-18 13:32:09|[afrog](https://github.com/zan8in/afrog)|update rawhttp|
 |2023-03-17 16:51:30|[nuclei](https://github.com/projectdiscovery/nuclei)|Merge pull request #3433 from projectdiscovery/dependa<br>bot/go_modules/v2/google.golang.org/protobuf-1.29.1chor<br>e(deps): bump google.golang.org/protobuf from 1.29.0 to<br> 1.29.1 in /v2|
 |2023-03-17 16:12:07|[subfinder](https://github.com/projectdiscovery/subfinder)|Merge pull request #791 from projectdiscovery/devsubfi<br>nder - v2.5.7|
-|2023-03-17 15:42:26|[ysoserial](https://github.com/su18/ysoserial)|1、全面支持 AgentNoFile 内存马，目前支持 bx 的 Servlet<br>/TomcatFilter，使用方式 EX-Agent-Lin/Win-Servlet/Filter<br>-bx，例如 EX-Agent-Lin-Filter-bx，参数与原项目保持一致<br>，后续将逐步更新更多功能
-2、修复 Base64 Util 类的反射调<br>用 BUG|
 |2023-03-17 11:35:53|[Goby](https://github.com/gobysec/Goby)|Update README.md|
 |2023-03-17 09:37:29|[HackTools](https://github.com/Vicl1fe/HackTools)|更新|
 |2023-03-17 08:24:41|[ARL](https://github.com/TophantTechnology/ARL)|Merge pull request #505 from TophantTechnology/update/<br>docUpdate Readme.md|
 |2023-03-17 06:17:13|[murphysec](https://github.com/murphysecurity/murphysec)|Merge pull request #148 from murphysecurity/dependabot<br>/go_modules/github.com/go-git/go-git/v5-5.6.1|
 |2023-03-17 04:34:11|[BurpCrypto](https://github.com/whwlsfb/BurpCrypto)|enhance rsa exponent logic.|
-|2023-03-17 01:54:20|[JDumpSpider](https://github.com/whwlsfb/JDumpSpider)|enhance heapfile version match logic.|
 |2023-03-17 00:49:24|[RsaCtfTool](https://github.com/RsaCtfTool/RsaCtfTool)|Update williams_pp1.py|
 |2023-03-16 01:29:06|[SmsForwarder](https://github.com/pppscn/SmsForwarder)|整理：README|
 |2023-03-16 01:27:01|[Exp-Tools](https://github.com/cseroad/Exp-Tools)|Update README.md|
-|2023-03-15 22:00:16|[sqlmap](https://github.com/sqlmapproject/sqlmap)|Fixes #5364|
 |2023-03-15 09:09:00|[CodeQLpy](https://github.com/webraybtl/CodeQLpy)|优化因为重复import相同类名导致的bug|
-|2023-03-15 07:02:43|[vulnerability](https://github.com/lal0ne/vulnerability)|CVE-2021-29441|
-|2023-03-15 05:12:18|[0day](https://github.com/helloexp/0day)|Merge branch 'master' of https://github.com/helloexp/0<br>day|
 |2023-03-15 03:38:02|[Apt_t00ls](https://github.com/White-hua/Apt_t00ls)|Update README.md|
 |2023-03-15 02:33:56|[nemo_go](https://github.com/hanc00l/nemo_go)|Fix: ip_http and domain_http SaveOrUpdate function|
 |2023-03-14 23:44:28|[gshark](https://github.com/madneal/gshark)|Merge pull request #149 from madneal/dependabot/npm_an<br>d_yarn/web/webpack-5.76.0Bump webpack from 5.69.1 to 5.<br>76.0 in /web|
 |2023-03-14 21:39:08|[Hack-Tools](https://github.com/LasCC/Hack-Tools)|splitting webpack chunks + fixing zipping for firefox|
-|2023-03-14 16:12:08|[faker](https://github.com/joke2k/faker)|Add territory zip codes for en_US (#1821)Close #1812|
 |2023-03-14 09:43:45|[npscrack](https://github.com/weishen250/npscrack)|Add files via upload|
 |2023-03-14 07:39:41|[Tomcat_PUT_GUI_EXP](https://github.com/xiaokp7/Tomcat_PUT_GUI_EXP)|Create README.md|
 |2023-03-14 06:26:40|[captcha-killer-modi<br>fied](https://github.com/f0ng/captcha-killer-modified)|Update README.md|
@@ -91,12 +95,10 @@
 |2023-03-14 02:31:47|[Vulnerability-Wiki](https://github.com/Threekiii/Vulnerability-Wiki)|更新漏洞|
 |2023-03-14 02:23:38|[Awesome-POC](https://github.com/Threekiii/Awesome-POC)|更新漏洞|
 |2023-03-13 18:52:40|[super-xray](https://github.com/4ra1n/super-xray)|after release|
-|2023-03-13 06:23:54|[404StarLink](https://github.com/knownsec/404StarLink)|weekly update at 2023-03-13|
 |2023-03-12 16:40:00|[CDK](https://github.com/cdk-team/CDK)|Merge pull request #80 from cdk-team/v1.5.2-alphaV1.5.<br>2 alpha|
 |2023-03-12 11:04:45|[HackBrowserData](https://github.com/moonD4rk/HackBrowserData)|Merge pull request #203 from moonD4rk/fix/leveldbfix: <br>missing key and value in local storage|
 |2023-03-12 00:48:03|[AV_Evasion_Tool](https://github.com/1y0n/AV_Evasion_Tool)|Update README.md|
 |2023-03-11 13:36:23|[PeiQi-WIKI-Book](https://github.com/PeiQi0/PeiQi-WIKI-Book)|漏洞相关:O2OA,联软,金山等相关漏洞|
-|2023-03-10 06:38:33|[log4j2burpscanner](https://github.com/f0ng/log4j2burpscanner)|Update README.md|
 |2023-03-10 03:31:53|[code6](https://github.com/4x99/code6)|Merge pull request #255 from 4x99/developv1.6.|
 |2023-03-10 02:50:32|[Elkeid](https://github.com/bytedance/Elkeid)|using RASP runner|
 |2023-03-09 14:17:46|[geacon_pro](https://github.com/H4de5-7/geacon_pro)|Update README.md|
@@ -112,9 +114,7 @@
 |2023-03-06 08:41:18|[ElectricRat](https://github.com/linjiananallnt/ElectricRat)|Update README.md|
 |2023-03-06 07:44:32|[Awesome-Redteam](https://github.com/Threekiii/Awesome-Redteam)|更新README.md|
 |2023-03-06 07:41:58|[Vulhub-Reproduce](https://github.com/Threekiii/Vulhub-Reproduce)|更新漏洞|
-|2023-03-05 16:10:52|[OA-EXPTOOL](https://github.com/LittleBear4/OA-EXPTOOL)|Add files via upload|
 |2023-03-05 02:02:20|[CN_Nessus_Plugins_I<br>nterface](https://github.com/nszy007/CN_Nessus_Plugins_Interface)|20230301|
-|2023-03-03 09:32:01|[Antenna](https://github.com/wuba/Antenna)|测试官方镜像2|
 |2023-03-02 17:24:57|[rengine](https://github.com/yogeshojha/rengine)|Merge pull request #829 from yogeshojha/release/1.3.6R<br>elease/1.3.6|
 |2023-03-01 09:10:31|[CVE-2023-21839](https://github.com/4ra1n/CVE-2023-21839)|Update README.md|
 |2023-03-01 08:05:58|[Log4j2Scan](https://github.com/whwlsfb/Log4j2Scan)|replace fastjson to org.json.|
@@ -324,7 +324,7 @@
 | [Antenna](https://github.com/wuba/Antenna) | v1.3.2 | Antenna是58同城安全团队打造的一款辅助安全从业人员验证网络中多种<br>漏洞是否存在以及可利用性的工具。其基于带外应用安全测试(OAST)通过任<br>务的形式，将不同漏洞场景检测能力通过插件的形式进行集合，通过与目标<br>进行out-bind的数据通信方式进行辅助检测。 |
 | [cola_dnslog](https://github.com/AbelChe/cola_dnslog) | v1.3.2 | Cola Dnslog v1.3.2 更加强大的dnslog平台/无回显漏洞探测辅助平台 <br>完全开源 dnslog httplog ldaplog rmilog 支持dns http ldap rmi等协议<br> 提供API调用方式便于与其他工具结合 支持钉钉机器人、Bark等提醒 支<br>持docker一键部署 后端完全使用python实现 前端基于vue-element-admin<br>二开 |
 | [ddddocr](https://github.com/sml2h3/ddddocr) |  | 带带弟弟 通用验证码识别OCR pypi版 |
-| [ysoserial](https://github.com/su18/ysoserial) | v1.4 | ysoserial for su18 |
+| [ysoserial](https://github.com/su18/ysoserial) | v1.5 | ysoserial for su18 |
 | [JNDIExploit](https://github.com/WhiteHSBG/JNDIExploit) | v1.4 | 对原版https://github.com/feihong-cs/JNDIExploit 进行了实用化修改 |
 | [JNDIExploit-1](https://github.com/Mr-xn/JNDIExploit-1) | v1.2 | 一款用于 JNDI注入 利用的工具，大量参考/引用了 Rogue JNDI 项目的<br>代码，支持直接植入内存shell，并集成了常见的bypass 高版本JDK的方式<br>，适用于与自动化工具配合使用。（from https://github.com/feihong-cs<br>/JNDIExploit） |
 | [JNDIExploit](https://github.com/0x727/JNDIExploit) | 1.1 | 一款用于JNDI注入利用的工具，大量参考/引用了Rogue JNDI项目的代码<br>，支持直接植入内存shell，并集成了常见的bypass 高版本JDK的方式，适<br>用于与自动化工具配合使用。 |
@@ -558,7 +558,7 @@
 | [fastjson-exp](https://github.com/skisw/fastjson-exp) |  |  |
 | [HostHeaderAttack](https://github.com/weujieytt/HostHeaderAttack) | 0.1 | 检测host头攻击的Burpsuite被动扫描插件，Burpsuite passive scannin<br>g plugin responsible for detecting host header attack |
 | [knife](https://github.com/bit4woo/knife) | v2.1 | A burp extension that add some useful function toContext Menu 添<br>加一些右键菜单让burp用起来更顺畅 |
-| [log4j2burpscanner](https://github.com/f0ng/log4j2burpscanner) | 0.23.0-be<br>ta2 | CVE-2021-44228 Log4j2 BurpSuite Scanner,Customize ceye.io api or<br> other apis,including internal networks |
+| [log4j2burpscanner](https://github.com/f0ng/log4j2burpscanner) | 0.24.0 | CVE-2021-44228 Log4j2 BurpSuite Scanner,Customize ceye.io api or<br> other apis,including internal networks |
 | [passive-scan-client](https://github.com/c0ny1/passive-scan-client) | 0.3.1 | Burp被动扫描流量转发插件 |
 | [BpScan](https://github.com/EASY233/BpScan) | 1.0.0 | 一款用于辅助渗透测试工程师日常渗透测试的Burp被动漏扫插件 |
 | [BurpSuiteCn](https://github.com/funkyoummp/BurpSuiteCn) | V2.0 | Burp Suite汉化 中文 |
@@ -645,7 +645,7 @@
 #### nessus
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
-| [NessusToReport](https://github.com/Hypdncy/NessusToReport) | v1.1.1 | Nessus扫描报告自动化生成工具 |
+| [NessusToReport](https://github.com/Hypdncy/NessusToReport) | v1.2 | Nessus扫描报告自动化生成工具 |
 | [NessusReportInChine<br>se](https://github.com/FunnyKun/NessusReportInChinese) |  | 半自动化将 Nessus 英文报告（csv格式）生成中文 excel ，中文漏洞库<br>已有700多条常见漏洞，后续再进一步加上新漏洞自动翻译，实现全自动化 |
 | [CN_Nessus_Plugins_I<br>nterface](https://github.com/nszy007/CN_Nessus_Plugins_Interface) | 1 | nessus插件中文查询接口 |
 | [docker_nessus_unlim<br>ited](https://github.com/xxcdd/docker_nessus_unlimited) |  | docker build nessus with unlimited ip |
@@ -763,18 +763,22 @@
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
 | [shell-analyzer](https://github.com/4ra1n/shell-analyzer) | 0.1 | Java内存马查杀GUI工具，实时动态分析，支持本地和远程查杀 |
+#### 知识库
+| 项目名称 | 版本 | 项目描述 |
+| :---- | :---- | :---- |
+| [Emergency-Response-<br>Notes](https://github.com/Bypass007/Emergency-Response-Notes) |  | 应急响应实战笔记，一个安全工程师的自我修养。 |
 ### 其他
 #### 其他
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
-| [faker](https://github.com/joke2k/faker) | v17.6.0 | Faker is a Python package that generates fake data for you. |
+| [faker](https://github.com/joke2k/faker) | v18.2.0 | Faker is a Python package that generates fake data for you. |
 | [SmsForwarder](https://github.com/pppscn/SmsForwarder) | v3.2.0 | 短信转发器——监控Android手机短信、来电、APP通知，并根据指定规则<br>转发到其他手机：钉钉群自定义机器人、钉钉企业内机器人、企业微信群机<br>器人、飞书机器人、企业微信应用消息、邮箱、bark、webhook、Telegram<br>机器人、Server酱、PushPlus、手机短信等。包括主动控制服务端与客户端<br>，让你轻松远程发短信、查短信、查通话、查话簿、查电量等。（V3.0 新<br>增）PS.这个APK主要是学习与自用，如有BUG请提ISSUE，同时欢迎大家提PR<br>指正 |
 | [dbeaver](https://github.com/dbeaver/dbeaver) | 23.0.0 | Free universal database tool and SQL client |
 | [MySQLMonitor](https://github.com/TheKingOfDuck/MySQLMonitor) | 1.0 | MySQL实时监控工具(代码审计/黑盒/白盒审计辅助工具) |
 #### 渗透测试报告辅助
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
-| [APTRS](https://github.com/Anof-cyber/APTRS) | 0.1 | Automated Penetration Testing Reporting System |
+| [APTRS](https://github.com/Anof-cyber/APTRS) |  | Automated Penetration Testing Reporting System |
 | [BugRepoter_0x727](https://github.com/0x727/BugRepoter_0x727) |  | BugRepoter_0x727(自动化编写报告平台)根据安全团队定制化协同管理项<br>目安全，可快速查找历史漏洞，批量导出报告。 |
 | [Savior](https://github.com/Mustard404/Savior) | new | 渗透测试报告自动生成工具！ |
 | [SAReport](https://github.com/1u0Hun/SAReport) |  | 渗透测试自动化报告平台 |
