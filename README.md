@@ -1,9 +1,11 @@
-# 更新于 2023-03-21 09:06:39
+# 更新于 2023-03-22 09:05:27
 
 ## 近30天release更新记录
 | 更新时间 | 项目名称 | 版本 | 更新内容 |
 | :---- | :---- | :---- | :---- |
-|2023-03-20 17:08:30|[faker](https://github.com/joke2k/faker)|v18.2.0|See [CHANGELOG.md](https://github.com/j<br>oke2k/faker/blob/refs/tags/v18.2.0/CHANG<br>ELOG.md).|
+|2023-03-21 21:19:02|[faker](https://github.com/joke2k/faker)|v18.3.0|See [CHANGELOG.md](https://github.com/j<br>oke2k/faker/blob/refs/tags/v18.3.0/CHANG<br>ELOG.md).|
+|2023-03-21 08:33:17|[ENScan_GO](https://github.com/wgpsec/ENScan_GO)|0.0.10|- 修复爱企查查询页数bug|
+|2023-03-21 06:22:36|[pocsuite3](https://github.com/knownsec/pocsuite3)|v2.0.3|* 优化对 URL 协议的自动纠正 #356，感谢 <br>@chenjiewei123 * 支持通过 --no-check 选<br>项禁用 URL 协议自动纠正和蜜罐检查 -------<br>---------* optimized URL protocol correc<br>tion #356, thanks @chenjiewei123 * suppo<br>rt disable protocol correction and honey<br>pot checks through --no-check option|
 |2023-03-20 13:03:28|[log4j2burpscanner](https://github.com/f0ng/log4j2burpscanner)|0.24.0|# 0.24.0 update ## 2023-3-20 1. Adapt t<br>he [selistener](https://github.com/f0ng/<br>selistener) tool for intranet vulnerabil<br>ity detection __________________________<br>___________________________________ 1. <br>适配[selistener](https://github.com/f0ng/<br>selistener)工具进行内网漏洞探测|
 |2023-03-20 10:33:46|[ysoserial](https://github.com/su18/ysoserial)|v1.5|1. 全面支持 AgentNoFile 内存马，目前支<br>持 Servlet/Tomcat Filter 型的内存马，支持<br> bx/gz/gzraw/cmd 动态生成，参数保持一致<br>； 2. 动态生成 Filter/Servlet 等名称，使<br>用类名 + Filter 的形势，模拟常规名称，避<br>免被一眼看出来； 3. 优化项目架构，单独拆<br>解内存马恶意类字节码生成代码，作为字节码<br>生成中台，后续将集成 JNDI 注入利用相关； <br>4. 对 exploit 下的利用方式进行了支持，除<br>了每个 exploit 需要的参数，后面正常跟 pay<br>load 的参数； 5. 更新 LF 参数，格式为 LF<br>-/tmp/evil.class，后面可加类名，并对传递<br>的类字节码进行了缩减大小的尝试； 6. 修复 <br>CC12 不能用的问题； 7. 移除 jboss 相关代<br>码及依赖； 8. 更新命令执行最短化； 9. 修<br>复大量BUG，优化大量代码。|
 |2023-03-20 01:13:02|[NessusToReport](https://github.com/Hypdncy/NessusToReport)|v1.2||
@@ -44,15 +46,20 @@
 |2023-02-22 13:35:31|[autoDecoder](https://github.com/f0ng/autoDecoder)|0.23|## 2023.2.22 更新0.23 1. 优化了插件的一<br>些问题 2. 案例移步[autoDecoder-usages](ht<br>tps://github.com/f0ng/autoDecoder-usages<br>)|
 |2023-02-22 09:37:42|[HaE](https://github.com/gh0stkey/HaE)|2.4.6|HaE 2.4.6 更新内容： 1. 加入多线程对数<br>据进行匹配和提取，减少卡顿现象； 2. 变更<br>配置文件更新地址为jsdelivr的CDN节点地址，<br>优化国内用户体验。|
 |2023-02-21 03:59:42|[URLFinder](https://github.com/pingc0y/URLFinder)|2023.2.21|2023/2/21 修复 已知bug|
-|2023-02-19 17:36:35|[wxapkgUnpack](https://github.com/jdr2021/wxapkgUnpack)|1.0||
 ## 近30天commit提交记录
 | 提交时间 | 项目名称 | 更新内容 |
 | :---- | :---- | :---- |
-|2023-03-21 01:00:16|[NucleiTP](https://github.com/ExpLangcn/NucleiTP)|更新啦❤️|
-|2023-03-20 21:46:18|[PocOrExp_in_Github](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-03-21 05:46:18|
-|2023-03-20 19:28:11|[dbeaver](https://github.com/dbeaver/dbeaver)|Merge branch 'devel' of https://github.com/dbeaver/dbe<br>aver into devel|
-|2023-03-20 16:58:30|[faker](https://github.com/joke2k/faker)|Bump version: 18.1.0 → 18.2.0|
-|2023-03-20 12:58:34|[log4j2burpscanner](https://github.com/f0ng/log4j2burpscanner)|Update README.md|
+|2023-03-22 01:00:16|[NucleiTP](https://github.com/ExpLangcn/NucleiTP)|更新啦❤️|
+|2023-03-21 22:47:06|[PocOrExp_in_Github](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-03-22 06:47:06|
+|2023-03-21 21:17:10|[faker](https://github.com/joke2k/faker)|Bump version: 18.2.1 → 18.3.0|
+|2023-03-21 19:52:05|[dbeaver](https://github.com/dbeaver/dbeaver)|Cb 2852 qm redesign (#19304)* CB-3207 use separate qm <br>client for session* CB-3218 qm link user with queries* <br>CB-3218 serialize qm meta events* CB-3208 qm use differ<br>ent api for admins* CB-3207 remove sql dialect from qm <br>connection info* CB-3208 different criteria for history<br> cursor api---------Co-authored-by: Alexander Skoblikov<br> |
+|2023-03-21 08:26:52|[ENScan_GO](https://github.com/wgpsec/ENScan_GO)|修复爱企查查询bug fix #49|
+|2023-03-21 08:07:56|[QingTing](https://github.com/StarCrossPortal/QingTing)|reset readme.md|
+|2023-03-21 06:19:25|[pocsuite3](https://github.com/knownsec/pocsuite3)|chore: bump version to 2.0.3|
+|2023-03-21 05:43:56|[HackTools](https://github.com/Vicl1fe/HackTools)|新增FineReport|
+|2023-03-21 03:12:30|[captcha-killer-modi<br>fied](https://github.com/f0ng/captcha-killer-modified)|Update README.md|
+|2023-03-21 03:01:52|[log4j2burpscanner](https://github.com/f0ng/log4j2burpscanner)|Update FAQ-zh-CN.md|
+|2023-03-21 01:09:28|[poc-hub](https://github.com/ybdt/poc-hub)|整理|
 |2023-03-20 10:59:54|[sqlmap](https://github.com/sqlmapproject/sqlmap)|Fixes #5368|
 |2023-03-20 10:13:00|[ysoserial](https://github.com/su18/ysoserial)|更新版本|
 |2023-03-20 09:02:47|[domain_hunter_pro](https://github.com/bit4woo/domain_hunter_pro)|Update LineEntryMenuForBurp.java|
@@ -75,7 +82,6 @@
 |2023-03-17 16:51:30|[nuclei](https://github.com/projectdiscovery/nuclei)|Merge pull request #3433 from projectdiscovery/dependa<br>bot/go_modules/v2/google.golang.org/protobuf-1.29.1chor<br>e(deps): bump google.golang.org/protobuf from 1.29.0 to<br> 1.29.1 in /v2|
 |2023-03-17 16:12:07|[subfinder](https://github.com/projectdiscovery/subfinder)|Merge pull request #791 from projectdiscovery/devsubfi<br>nder - v2.5.7|
 |2023-03-17 11:35:53|[Goby](https://github.com/gobysec/Goby)|Update README.md|
-|2023-03-17 09:37:29|[HackTools](https://github.com/Vicl1fe/HackTools)|更新|
 |2023-03-17 08:24:41|[ARL](https://github.com/TophantTechnology/ARL)|Merge pull request #505 from TophantTechnology/update/<br>docUpdate Readme.md|
 |2023-03-17 06:17:13|[murphysec](https://github.com/murphysecurity/murphysec)|Merge pull request #148 from murphysecurity/dependabot<br>/go_modules/github.com/go-git/go-git/v5-5.6.1|
 |2023-03-17 04:34:11|[BurpCrypto](https://github.com/whwlsfb/BurpCrypto)|enhance rsa exponent logic.|
@@ -89,7 +95,6 @@
 |2023-03-14 21:39:08|[Hack-Tools](https://github.com/LasCC/Hack-Tools)|splitting webpack chunks + fixing zipping for firefox|
 |2023-03-14 09:43:45|[npscrack](https://github.com/weishen250/npscrack)|Add files via upload|
 |2023-03-14 07:39:41|[Tomcat_PUT_GUI_EXP](https://github.com/xiaokp7/Tomcat_PUT_GUI_EXP)|Create README.md|
-|2023-03-14 06:26:40|[captcha-killer-modi<br>fied](https://github.com/f0ng/captcha-killer-modified)|Update README.md|
 |2023-03-14 02:45:47|[koko-moni](https://github.com/burpheart/koko-moni)|Update readme.md|
 |2023-03-14 02:39:44|[autoDecoder](https://github.com/f0ng/autoDecoder)|Update FAQ.md|
 |2023-03-14 02:31:47|[Vulnerability-Wiki](https://github.com/Threekiii/Vulnerability-Wiki)|更新漏洞|
@@ -105,7 +110,6 @@
 |2023-03-09 12:56:21|[TsojanScan](https://github.com/Tsojan/TsojanScan)|Update README.md|
 |2023-03-09 08:35:52|[GoWxDump](https://github.com/SpenserCai/GoWxDump)|fixed #5|
 |2023-03-09 04:32:58|[qsnctf-python](https://github.com/Moxin1044/qsnctf-python)|更新README|
-|2023-03-08 15:14:14|[QingTing](https://github.com/StarCrossPortal/QingTing)|更新|
 |2023-03-08 07:14:47|[pentest_report](https://github.com/dbgee/pentest_report)|Create LICENSE|
 |2023-03-08 02:32:40|[cf](https://github.com/teamssix/cf)|Merge pull request #214 from teamssix/betaperf: perf i<br>ssue ci|
 |2023-03-07 08:44:53|[knife](https://github.com/bit4woo/knife)|Update ChineseTab.java|
@@ -137,10 +141,7 @@
 |2023-02-21 03:50:02|[URLFinder](https://github.com/pingc0y/URLFinder)|2023/2/21更新|
 |2023-02-21 03:33:52|[IPSearch](https://github.com/SleepingBag945/IPSearch)|Update README.md|
 |2023-02-21 02:04:04|[Scanners-Box](https://github.com/We5ter/Scanners-Box)|[+]Cyber-Buddy/APKHunt|
-|2023-02-20 06:54:31|[Kunlun-M](https://github.com/LoRexxar/Kunlun-M)|Merge pull request #224 from LoRexxar/developfixed #22<br>3|
-|2023-02-19 18:06:05|[wxapkgUnpack](https://github.com/jdr2021/wxapkgUnpack)|Update README.md|
-|2023-02-19 16:36:47|[RedisEXP](https://github.com/yuyan-sec/RedisEXP)|解决支持中文路径|
-|2023-02-19 12:41:37|[ffuf](https://github.com/ffuf/ffuf)|Fix HTML output (#640)|## 所有项目
+|2023-02-20 06:54:31|[Kunlun-M](https://github.com/LoRexxar/Kunlun-M)|Merge pull request #224 from LoRexxar/developfixed #22<br>3|## 所有项目
 ### 信息收集
 #### 资产测绘采集
 | 项目名称 | 版本 | 项目描述 |
@@ -222,7 +223,7 @@
 #### 企业信息收集
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
-| [ENScan_GO](https://github.com/wgpsec/ENScan_GO) | V0.0.9 | 一款基于各大企业信息API的工具，解决在遇到的各种针对国内企业信息<br>收集难题。一键收集控股公司ICP备案、APP、小程序、微信公众号等信息聚<br>合导出。 |
+| [ENScan_GO](https://github.com/wgpsec/ENScan_GO) | 0.0.10 | 一款基于各大企业信息API的工具，解决在遇到的各种针对国内企业信息<br>收集难题。一键收集控股公司ICP备案、APP、小程序、微信公众号等信息聚<br>合导出。 |
 #### 小程序信息收集
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
@@ -257,7 +258,7 @@
 #### 漏洞扫描框架
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
-| [pocsuite3](https://github.com/knownsec/pocsuite3) | v2.0.2 | pocsuite3 is an open-sourced remote vulnerability testing framew<br>ork developed by the Knownsec 404 Team. |
+| [pocsuite3](https://github.com/knownsec/pocsuite3) | v2.0.3 | pocsuite3 is an open-sourced remote vulnerability testing framew<br>ork developed by the Knownsec 404 Team. |
 | [Godscan](https://github.com/Guoke324/Godscan) | Godscan | Godscan 是一款python编写的具有图形化界面的漏洞检测框架，可以之定<br>义漏洞检测 poc ，主要是帮助安全测试者，更好的去记录和整理历史漏洞<br>，以便更好的进行漏洞检测，提高工作效率！ |
 | [FrameScan-GUI](https://github.com/qianxiao996/FrameScan-GUI) | v1.4.2 | FrameScan-GUI 一款python3和Pyqt编写的具有图形化界面的cms漏洞检测<br>框架。 |
 | [Gr33k](https://github.com/lijiaxing1997/Gr33k) |  | 图形化漏洞利用集成工具 |
@@ -771,7 +772,7 @@
 #### 其他
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
-| [faker](https://github.com/joke2k/faker) | v18.2.0 | Faker is a Python package that generates fake data for you. |
+| [faker](https://github.com/joke2k/faker) | v18.3.0 | Faker is a Python package that generates fake data for you. |
 | [SmsForwarder](https://github.com/pppscn/SmsForwarder) | v3.2.0 | 短信转发器——监控Android手机短信、来电、APP通知，并根据指定规则<br>转发到其他手机：钉钉群自定义机器人、钉钉企业内机器人、企业微信群机<br>器人、飞书机器人、企业微信应用消息、邮箱、bark、webhook、Telegram<br>机器人、Server酱、PushPlus、手机短信等。包括主动控制服务端与客户端<br>，让你轻松远程发短信、查短信、查通话、查话簿、查电量等。（V3.0 新<br>增）PS.这个APK主要是学习与自用，如有BUG请提ISSUE，同时欢迎大家提PR<br>指正 |
 | [dbeaver](https://github.com/dbeaver/dbeaver) | 23.0.0 | Free universal database tool and SQL client |
 | [MySQLMonitor](https://github.com/TheKingOfDuck/MySQLMonitor) | 1.0 | MySQL实时监控工具(代码审计/黑盒/白盒审计辅助工具) |

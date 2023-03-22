@@ -522,11 +522,11 @@
             "https://github.com/wgpsec/ENScan_GO": {
                 "created_at": "2022-01-04 14:07:28",
                 "description": "一款基于各大企业信息API的工具，解决在遇到的各种针对国内企业信息收集难题。一键收集控股公司ICP备案、APP、小程序、微信公众号等信息聚合导出。",
-                "commit_date": "2023-02-13 03:26:39",
-                "commit_message": "修复JSON导出问题 fix #46\n修复天眼查日期问题 fix #43\n修复阿拉丁导出bug fix #30\n增加只在终端显示不导出文件 fix #25",
-                "release_tag": "V0.0.9",
-                "release_date": "2023-02-13 03:33:11",
-                "release_message": "**bugfix** - 修复JSON导出问题 fix #46 - 修复天眼查日期问题 fix #43 - 修复阿拉丁导出bug fix #30  **new** - 增加只在终端显示不导出文件 fix #25"
+                "commit_date": "2023-03-21 08:26:52",
+                "commit_message": "修复爱企查查询bug fix #49",
+                "release_tag": "0.0.10",
+                "release_date": "2023-03-21 08:33:17",
+                "release_message": "- 修复爱企查查询页数bug"
             }
         },
         "小程序信息收集": {
@@ -660,8 +660,8 @@
             "https://github.com/StarCrossPortal/QingTing": {
                 "created_at": "2022-04-29 02:33:43",
                 "description": "蜻蜓安全一个安全工具编排平台,可以自由编排你的工具流,集成108款工具,包括xray、nmap、awvs等;你可以将喜欢的工具编排成一个场景，快速打造适合自己的安全工作台~",
-                "commit_date": "2023-03-08 15:14:14",
-                "commit_message": "更新",
+                "commit_date": "2023-03-21 08:07:56",
+                "commit_message": "reset readme.md",
                 "release_tag": "v0.3",
                 "release_date": "2022-05-12 09:45:43",
                 "release_message": "## 新增 1. 新增傻瓜式提交插件,轻松把自己喜欢的工具接入进来 2. 新增nmap、识别目标主机组件信息 3. 新增masscan、快速扫描目标端口信息 4. 新增knock、子域名扫描 5. 新增webcrack、登录页面爆破  ## 改进 1. 新增数据统计图表 2. 用户ID展现为用户昵称 3. 扫描详情增加工具扫描日志展示"
@@ -680,11 +680,11 @@
             "https://github.com/knownsec/pocsuite3": {
                 "created_at": "2019-03-15 07:01:04",
                 "description": "pocsuite3 is an open-sourced remote vulnerability testing framework developed by the Knownsec 404 Team.",
-                "commit_date": "2022-12-13 03:25:37",
-                "commit_message": "Merge pull request #349 from 13ph03nix/master\n\nchore: bump version to 2.0.2",
-                "release_tag": "v2.0.2",
-                "release_date": "2022-12-13 03:32:05",
-                "release_message": "* 修复 _check 方法中 url 重定向的问题 #337  * 修复 console 模式下 use 命令使用绝对路径的问题 #341，thanks @S2eTo * 修复 build_url 兼容 ipv6 的问题 #347，thanks @HomerQing * 优化 nuclei DSL 表达式执行 #348  ---------------- * fix url redirect problem in _check method #337 * fix use command in console mode can't use absolute path #341, thanks @S2eTo * fix ipv6 compatibility issue in build_url #347, thanks @HomerQing * optimize dsl expression execution #348"
+                "commit_date": "2023-03-21 06:19:25",
+                "commit_message": "chore: bump version to 2.0.3",
+                "release_tag": "v2.0.3",
+                "release_date": "2023-03-21 06:22:36",
+                "release_message": "* 优化对 URL 协议的自动纠正 #356，感谢 @chenjiewei123 * 支持通过 --no-check 选项禁用 URL 协议自动纠正和蜜罐检查 ----------------  * optimized URL protocol correction #356, thanks @chenjiewei123 * support disable protocol correction and honeypot checks through --no-check option    "
             },
             "https://github.com/Guoke324/Godscan": {
                 "created_at": "2021-09-17 07:08:20",
@@ -1542,7 +1542,7 @@
             "https://github.com/ybdt/poc-hub": {
                 "created_at": "2020-09-03 04:47:40",
                 "description": "漏洞检测、漏洞利用",
-                "commit_date": "2023-02-17 03:37:31",
+                "commit_date": "2023-03-21 01:09:28",
                 "commit_message": "整理",
                 "release_tag": "",
                 "release_date": "",
@@ -1623,8 +1623,8 @@
             "https://github.com/ycdxsb/PocOrExp_in_Github": {
                 "created_at": "2021-04-13 05:46:16",
                 "description": "聚合Github上已有的Poc或者Exp，CVE信息来自CVE官网。Auto Collect Poc Or Exp from Github by CVE ID.",
-                "commit_date": "2023-03-20 21:46:18",
-                "commit_message": "update 2023-03-21 05:46:18",
+                "commit_date": "2023-03-21 22:47:06",
+                "commit_message": "update 2023-03-22 06:47:06",
                 "release_tag": "",
                 "release_date": "",
                 "release_message": ""
@@ -2392,7 +2392,7 @@
             "https://github.com/f0ng/captcha-killer-modified": {
                 "created_at": "2022-03-18 12:41:58",
                 "description": "captcha-killer的修改版，支持关键词识别base64编码的图片，添加免费ocr库，用于验证码爆破，适配新版Burpsuite",
-                "commit_date": "2023-03-14 06:26:40",
+                "commit_date": "2023-03-21 03:12:30",
                 "commit_message": "Update README.md",
                 "release_tag": "0.22",
                 "release_date": "2023-03-14 06:26:44",
@@ -2491,8 +2491,8 @@
             "https://github.com/f0ng/log4j2burpscanner": {
                 "created_at": "2021-12-11 07:19:11",
                 "description": "CVE-2021-44228 Log4j2 BurpSuite Scanner,Customize ceye.io api or other apis,including internal networks",
-                "commit_date": "2023-03-20 12:58:34",
-                "commit_message": "Update README.md",
+                "commit_date": "2023-03-21 03:01:52",
+                "commit_message": "Update FAQ-zh-CN.md",
                 "release_tag": "0.24.0",
                 "release_date": "2023-03-20 13:03:28",
                 "release_message": "# 0.24.0 update ## 2023-3-20 1. Adapt the [selistener](https://github.com/f0ng/selistener) tool for intranet vulnerability detection _____________________________________________________________ 1. 适配[selistener](https://github.com/f0ng/selistener)工具进行内网漏洞探测"
@@ -2626,8 +2626,8 @@
             "https://github.com/Vicl1fe/HackTools": {
                 "created_at": "2022-07-01 03:11:03",
                 "description": "提高渗透测试效率。#Burp插件##渗透测试##小工具#",
-                "commit_date": "2023-03-17 09:37:29",
-                "commit_message": "更新",
+                "commit_date": "2023-03-21 05:43:56",
+                "commit_message": "新增FineReport",
                 "release_tag": "1.4",
                 "release_date": "2023-03-17 08:52:34",
                 "release_message": "新增FindReport、jasypt解密功能"
@@ -3039,7 +3039,7 @@
             "https://github.com/ExpLangcn/NucleiTP": {
                 "created_at": "2022-11-08 13:16:56",
                 "description": "自动整合全网Nuclei的漏洞POC，实时同步更新最新POC！",
-                "commit_date": "2023-03-21 01:00:16",
+                "commit_date": "2023-03-22 01:00:16",
                 "commit_message": "更新啦❤️",
                 "release_tag": "",
                 "release_date": "",
@@ -3578,11 +3578,11 @@
             "https://github.com/joke2k/faker": {
                 "created_at": "2012-11-12 23:00:09",
                 "description": "Faker is a Python package that generates fake data for you.",
-                "commit_date": "2023-03-20 16:58:30",
-                "commit_message": "Bump version: 18.1.0 → 18.2.0",
-                "release_tag": "v18.2.0",
-                "release_date": "2023-03-20 17:08:30",
-                "release_message": "See [CHANGELOG.md](https://github.com/joke2k/faker/blob/refs/tags/v18.2.0/CHANGELOG.md)."
+                "commit_date": "2023-03-21 21:17:10",
+                "commit_message": "Bump version: 18.2.1 → 18.3.0",
+                "release_tag": "v18.3.0",
+                "release_date": "2023-03-21 21:19:02",
+                "release_message": "See [CHANGELOG.md](https://github.com/joke2k/faker/blob/refs/tags/v18.3.0/CHANGELOG.md)."
             },
             "https://github.com/pppscn/SmsForwarder": {
                 "created_at": "2021-02-10 02:23:07",
@@ -3596,8 +3596,8 @@
             "https://github.com/dbeaver/dbeaver": {
                 "created_at": "2015-10-21 08:26:28",
                 "description": "Free universal database tool and SQL client",
-                "commit_date": "2023-03-20 19:28:11",
-                "commit_message": "Merge branch 'devel' of https://github.com/dbeaver/dbeaver into devel",
+                "commit_date": "2023-03-21 19:52:05",
+                "commit_message": "Cb 2852 qm redesign (#19304)\n\n* CB-3207 use separate qm client for session\r\n\r\n* CB-3218 qm link user with queries\r\n\r\n* CB-3218 serialize qm meta events\r\n\r\n* CB-3208 qm use different api for admins\r\n\r\n* CB-3207 remove sql dialect from qm connection info\r\n\r\n* CB-3208 different criteria for history cursor api\r\n\r\n---------\r\n\r\nCo-authored-by: Alexander Skoblikov <aleksandr.skoblikov@dbeaver.com>",
                 "release_tag": "23.0.0",
                 "release_date": "2023-03-05 17:56:39",
                 "release_message": "Changes since 22.3.5: - SQL editor:     - Column metadata resolution was fixed for quoted column names     - SQL console now respects \"open separate connection\" option     - Variables resolve in `set` and other commands was fixed     - Copy/paste command was fixed for editors without associated connection - Data editor:     - Spatial viewer: lasso tool was fixed for Safari browser     - Support of WKT format stored in BLOB columns was added     - Issues with image viewer and BLOB columns was fixed (NullPointer error))     - Selected columns/rows data export was fixed (issue with BLOB value turning into NULL in UI) - Accessibility:     - Font settings are now respected in all editors/popups     - New keyboard shortcuts schema was added \"DBeaver Keyboard Only\"     - Many new keyboard shortcuts were added     - Catalog/schema selector now supports keyboard only mode     - Results tab pin/unpin command is now accessible from keyboard (thanks to hawthorne3341)     - Reader texts were localized - Database dashboard create wizard UI was fixed - Generate SQL dialog now supports connection invalidation - Clickhouse: driver version was updated to 0.4.1 - Dremio: driver version was updated to 24.0 - Firebird: table colum comments support was added - PostgreSQL:     - Issue with URL-based connections was resolved (invalid host name)     - Execution plan parameters are now saved - Redshift: varbyte datatype suport was fixed - SQL Server:     - UI for Kerberos authentication configuration was fixed     - Table colum comments support was added - French localization was fixed (thanks to alexgille) - Problems with Kerberos were resolved (we have reverted to Java 11)"
