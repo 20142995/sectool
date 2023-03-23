@@ -331,11 +331,11 @@
             "https://github.com/yogeshojha/rengine": {
                 "created_at": "2020-05-03 12:13:12",
                 "description": "reNgine is an automated reconnaissance framework for web applications with a focus on highly configurable streamlined recon process via Engines, recon data correlation and organization, continuous monitoring, backed by a database, and simple yet intuitive User Interface. reNgine makes it easy for penetration testers to gather reconnaissance with minimal configuration and with the help of reNgine's correlation, it just makes recon effortless.",
-                "commit_date": "2023-03-02 17:24:57",
-                "commit_message": "Merge pull request #829 from yogeshojha/release/1.3.6\n\nRelease/1.3.6",
-                "release_tag": "v1.3.5",
-                "release_date": "2022-12-30 04:26:19",
-                "release_message": "- Fixed various installation issues - Fixed #769, #768, #766, #761, Thanks to, @bin-maker, @carsonchan12345, @paweloque, @opabravo "
+                "commit_date": "2023-03-22 04:15:15",
+                "commit_message": "Merge pull request #734 from thebigbone/master\n\ncheck if docker is running on systems without systemd",
+                "release_tag": "v1.3.6",
+                "release_date": "2023-03-22 04:31:21",
+                "release_message": "Fixed Various Installation Errors Fixed Naabu Port Scanning Issue"
             },
             "https://github.com/0x727/ShuiZe_0x727": {
                 "created_at": "2021-07-28 11:34:10",
@@ -633,8 +633,8 @@
             "https://github.com/zan8in/afrog": {
                 "created_at": "2022-02-24 06:00:32",
                 "description": "A Vulnerability Scanning Tools For Penetration Testing",
-                "commit_date": "2023-03-18 13:32:09",
-                "commit_message": "update rawhttp",
+                "commit_date": "2023-03-22 01:55:23",
+                "commit_message": "update gitlab poc",
                 "release_tag": "v2.2.1",
                 "release_date": "2023-02-04 14:54:34",
                 "release_message": "Merge many fingerprint pocs into the panel-detect.yaml file to reduce the number of http requests Console  print date format, 2023-01-01 changed to 01-01 Simplified afrog-config configuration  Fixed: invalid `-fc` configuration Tip: Configure the `-c` command, which can increase the concurrency speed very quickly  -----------------------------------------------------------------------------  将多个 panel 指纹探测合并到文件 panel-detect.yaml，大幅减少 http 请求 精简控制台日期打印，2023-01-01 改为 01-01 精简 afrog-config 配置信息  解决：`-fc` 命令配置无效问题 提示：配置 `-c` 命令能明显提高扫描速度"
@@ -1158,8 +1158,8 @@
             "https://github.com/su18/ysoserial": {
                 "created_at": "2021-07-26 01:20:01",
                 "description": "ysoserial for su18",
-                "commit_date": "2023-03-20 10:13:00",
-                "commit_message": "更新版本",
+                "commit_date": "2023-03-22 04:03:58",
+                "commit_message": "添加 RMIRegistryExploit",
                 "release_tag": "v1.5",
                 "release_date": "2023-03-20 10:33:46",
                 "release_message": "1. 全面支持 AgentNoFile 内存马，目前支持 Servlet/Tomcat Filter 型的内存马，支持 bx/gz/gzraw/cmd 动态生成，参数保持一致； 2. 动态生成 Filter/Servlet 等名称，使用类名 + Filter 的形势，模拟常规名称，避免被一眼看出来； 3. 优化项目架构，单独拆解内存马恶意类字节码生成代码，作为字节码生成中台，后续将集成 JNDI 注入利用相关； 4. 对 exploit 下的利用方式进行了支持，除了每个 exploit 需要的参数，后面正常跟 payload 的参数； 5. 更新 LF 参数，格式为 LF-/tmp/evil.class，后面可加类名，并对传递的类字节码进行了缩减大小的尝试； 6. 修复 CC12 不能用的问题； 7. 移除 jboss 相关代码及依赖； 8. 更新命令执行最短化； 9. 修复大量BUG，优化大量代码。"
@@ -1484,8 +1484,8 @@
             "https://github.com/whwlsfb/JDumpSpider": {
                 "created_at": "2022-01-05 07:30:39",
                 "description": "HeapDump敏感信息提取工具",
-                "commit_date": "2023-03-20 03:29:15",
-                "commit_message": "Uniqueness output.",
+                "commit_date": "2023-03-22 01:55:58",
+                "commit_message": "Create compile.yml",
                 "release_tag": "V1.1",
                 "release_date": "2023-03-09 04:49:16",
                 "release_message": "- 项目重构，增强不同环境下的兼容性。 - 增加类字段的用户信息模糊搜索功能。"
@@ -1596,8 +1596,8 @@
             "https://github.com/lal0ne/vulnerability": {
                 "created_at": "2022-01-20 02:48:42",
                 "description": "收集、整理、修改互联网上公开的漏洞POC",
-                "commit_date": "2023-03-20 01:32:09",
-                "commit_message": "CVE-2023-21768",
+                "commit_date": "2023-03-22 05:22:18",
+                "commit_message": "CVE-2023-28343",
                 "release_tag": "",
                 "release_date": "",
                 "release_message": ""
@@ -1623,8 +1623,8 @@
             "https://github.com/ycdxsb/PocOrExp_in_Github": {
                 "created_at": "2021-04-13 05:46:16",
                 "description": "聚合Github上已有的Poc或者Exp，CVE信息来自CVE官网。Auto Collect Poc Or Exp from Github by CVE ID.",
-                "commit_date": "2023-03-21 22:47:06",
-                "commit_message": "update 2023-03-22 06:47:06",
+                "commit_date": "2023-03-22 23:51:27",
+                "commit_message": "update 2023-03-23 07:51:27",
                 "release_tag": "",
                 "release_date": "",
                 "release_message": ""
@@ -1908,8 +1908,8 @@
             "https://github.com/xiao-zhu-zhu/noterce": {
                 "created_at": "2023-01-31 07:56:29",
                 "description": "一种另辟蹊径的免杀执行系统命令的木马",
-                "commit_date": "2023-02-01 07:49:25",
-                "commit_message": "v1.1版本\n\nv1.1版本: \r\n1.修复重复主机bug \r\n2.增加被控端刷新功能",
+                "commit_date": "2023-03-22 06:35:17",
+                "commit_message": "Update README.md",
                 "release_tag": "v1.1",
                 "release_date": "2023-02-01 07:56:09",
                 "release_message": "v1.1版本:  1.修复重复主机bug  2.增加被控端刷新功能"
@@ -2356,8 +2356,8 @@
             "https://github.com/bit4woo/domain_hunter_pro": {
                 "created_at": "2019-01-18 07:15:15",
                 "description": "domain_hunter的高级版本，SRC挖洞、HW打点之必备！自动化资产收集；快速Title获取；外部工具联动；等等",
-                "commit_date": "2023-03-20 09:02:47",
-                "commit_message": "Update LineEntryMenuForBurp.java",
+                "commit_date": "2023-03-22 06:26:31",
+                "commit_message": "Update ToolPanel.java",
                 "release_tag": "v1.9-alpha",
                 "release_date": "2022-11-18 09:37:35",
                 "release_message": "**这是重构版本，与旧版本不兼容！！！ 这是重构版本，与旧版本不兼容！！！ 这是重构版本，与旧版本不兼容！！！**  重新设计了数据库的表结构，尽量提升数据库读写效率 重新设计了数据对象、UI、数据库之间的数据同步逻辑 重新设计了数据存储的基础类，保证线程安全 重新设计了table中model类的部分逻辑，减少内存占用  优化了数据对象的字段，尽量减小每个数据对象的内存占用 优化了数据提取的正则表达式和逻辑 优化了根域名、网段作控制目标范围的逻辑 优化了当根域名、网段变化时，数据的刷新逻辑 优化了数据数据加载逻辑 其他各种逻辑优化、bug修改  总之就是大动作，和旧版本不兼容，可能存在潜在bug（虽然我已经试用一段时间，排除了很多bug），所以发布一个alpha版本在正式版本之前。  欢迎试用提交bug，使用时建议创建新的项目数据库，不要使用旧数据库文件。"
@@ -2392,8 +2392,8 @@
             "https://github.com/f0ng/captcha-killer-modified": {
                 "created_at": "2022-03-18 12:41:58",
                 "description": "captcha-killer的修改版，支持关键词识别base64编码的图片，添加免费ocr库，用于验证码爆破，适配新版Burpsuite",
-                "commit_date": "2023-03-21 03:12:30",
-                "commit_message": "Update README.md",
+                "commit_date": "2023-03-22 12:57:49",
+                "commit_message": "Update FAQ.md",
                 "release_tag": "0.22",
                 "release_date": "2023-03-14 06:26:44",
                 "release_message": "【2023-3-14】 0.22 重要问题修复 - 修复了装载插件会影响proxy选项卡的问题"
@@ -2874,8 +2874,8 @@
             "https://github.com/zema1/yarx": {
                 "created_at": "2021-11-11 09:43:21",
                 "description": "An awesome reverse engine for xray poc. | 一个自动化根据 xray poc 生成对应靶站的工具",
-                "commit_date": "2021-11-30 08:37:42",
-                "commit_message": "feat: new relase",
+                "commit_date": "2023-03-22 05:37:07",
+                "commit_message": "feat: update dep (#12)\n\n* feat: update dep\r\n\r\n* feat: update workflow",
                 "release_tag": "v0.2.0",
                 "release_date": "2021-11-30 08:50:22",
                 "release_message": "## 更新说明  - 修复 302 响应 location 为空导致的报错问题 - 增加 action 自动构建打包二进制 - 增加 docker 镜像, 可以通过 `docker pull zemal/yarx:latest` 拉取使用  "
@@ -3039,7 +3039,7 @@
             "https://github.com/ExpLangcn/NucleiTP": {
                 "created_at": "2022-11-08 13:16:56",
                 "description": "自动整合全网Nuclei的漏洞POC，实时同步更新最新POC！",
-                "commit_date": "2023-03-22 01:00:16",
+                "commit_date": "2023-03-23 01:00:17",
                 "commit_message": "更新啦❤️",
                 "release_tag": "",
                 "release_date": "",
@@ -3304,10 +3304,10 @@
             "https://github.com/gchq/CyberChef": {
                 "created_at": "2016-11-28 10:34:07",
                 "description": "The Cyber Swiss Army Knife - a web app for encryption, encoding, compression and data analysis",
-                "commit_date": "2022-12-09 11:40:35",
-                "commit_message": "9.55.0",
-                "release_tag": "v9.55.0",
-                "release_date": "2022-12-09 11:45:17",
+                "commit_date": "2023-03-22 16:54:39",
+                "commit_message": "Added preventDefault to contextual help key press listener",
+                "release_tag": "v10.0.0",
+                "release_date": "2023-03-22 11:49:11",
                 "release_message": "See the [CHANGELOG](https://github.com/gchq/CyberChef/blob/master/CHANGELOG.md) and [commit messages](https://github.com/gchq/CyberChef/commits/master) for details."
             }
         },
@@ -3596,8 +3596,8 @@
             "https://github.com/dbeaver/dbeaver": {
                 "created_at": "2015-10-21 08:26:28",
                 "description": "Free universal database tool and SQL client",
-                "commit_date": "2023-03-21 19:52:05",
-                "commit_message": "Cb 2852 qm redesign (#19304)\n\n* CB-3207 use separate qm client for session\r\n\r\n* CB-3218 qm link user with queries\r\n\r\n* CB-3218 serialize qm meta events\r\n\r\n* CB-3208 qm use different api for admins\r\n\r\n* CB-3207 remove sql dialect from qm connection info\r\n\r\n* CB-3208 different criteria for history cursor api\r\n\r\n---------\r\n\r\nCo-authored-by: Alexander Skoblikov <aleksandr.skoblikov@dbeaver.com>",
+                "commit_date": "2023-03-22 19:30:04",
+                "commit_message": "dbeaver/pro#1495 Update ClickHouse driver to 0.4.2 (#19454)",
                 "release_tag": "23.0.0",
                 "release_date": "2023-03-05 17:56:39",
                 "release_message": "Changes since 22.3.5: - SQL editor:     - Column metadata resolution was fixed for quoted column names     - SQL console now respects \"open separate connection\" option     - Variables resolve in `set` and other commands was fixed     - Copy/paste command was fixed for editors without associated connection - Data editor:     - Spatial viewer: lasso tool was fixed for Safari browser     - Support of WKT format stored in BLOB columns was added     - Issues with image viewer and BLOB columns was fixed (NullPointer error))     - Selected columns/rows data export was fixed (issue with BLOB value turning into NULL in UI) - Accessibility:     - Font settings are now respected in all editors/popups     - New keyboard shortcuts schema was added \"DBeaver Keyboard Only\"     - Many new keyboard shortcuts were added     - Catalog/schema selector now supports keyboard only mode     - Results tab pin/unpin command is now accessible from keyboard (thanks to hawthorne3341)     - Reader texts were localized - Database dashboard create wizard UI was fixed - Generate SQL dialog now supports connection invalidation - Clickhouse: driver version was updated to 0.4.1 - Dremio: driver version was updated to 24.0 - Firebird: table colum comments support was added - PostgreSQL:     - Issue with URL-based connections was resolved (invalid host name)     - Execution plan parameters are now saved - Redshift: varbyte datatype suport was fixed - SQL Server:     - UI for Kerberos authentication configuration was fixed     - Table colum comments support was added - French localization was fixed (thanks to alexgille) - Problems with Kerberos were resolved (we have reverted to Java 11)"
@@ -3674,11 +3674,11 @@
             "https://github.com/v2rayA/v2rayA": {
                 "created_at": "2019-10-18 20:42:06",
                 "description": "A web GUI client of Project V which supports V2Ray, Xray, SS, SSR, Trojan and Pingtunnel 🚀",
-                "commit_date": "2023-03-19 18:04:57",
-                "commit_message": "optimize: add auto scorll switch #853",
-                "release_tag": "v2.0.1",
-                "release_date": "2022-12-13 15:23:54",
-                "release_message": "https://github.com/v2rayA/v2rayA/compare/v1.5.9.1698.1...v2.0.1  1. Bumped to [v2fly-core](https://github.com/v2fly/v2ray-core/) v5. 2. Removed XRay support.  ## What's Changed * Add PowerShell build script by @MarksonHon in https://github.com/v2rayA/v2rayA/pull/259 * Update build-in-pwsh.ps1 by @MarksonHon in https://github.com/v2rayA/v2rayA/pull/260 * Add inno installer by @MarksonHon in https://github.com/v2rayA/v2rayA/pull/669 * chore(config): add default env config file for systemd user by @cubercsl in https://github.com/v2rayA/v2rayA/pull/680 * Make inno installer great again! by @MarksonHon in https://github.com/v2rayA/v2rayA/pull/702 * fix(subtime): remove timezone guess by @JimMoen in https://github.com/v2rayA/v2rayA/pull/711 * v2rayA should start after nftables by @MarksonHon in https://github.com/v2rayA/v2rayA/pull/723 * add a runit script for v2raya. by @yuandi42 in https://github.com/v2rayA/v2rayA/pull/708 * Too much to write...  ## New Contributors * @JimMoen made their first contribution in https://github.com/v2rayA/v2rayA/pull/711 * @yuandi42 made their first contribution in https://github.com/v2rayA/v2rayA/pull/708  **Full Changelog**: https://github.com/v2rayA/v2rayA/compare/v1.5.9.1698.1...v2.0.1"
+                "commit_date": "2023-03-22 12:50:51",
+                "commit_message": "fix: change spare tire routing rule to fix up kakaotalk",
+                "release_tag": "v2.0.4",
+                "release_date": "2023-03-19 14:05:56",
+                "release_message": "## What's Changed * CI(debian): Generate default config for systemd environment by @cubercsl in https://github.com/v2rayA/v2rayA/pull/750 * Feature: Add nftables support by @cubercsl in https://github.com/v2rayA/v2rayA/pull/805 * Fix: XRay assets problem * Fix: AlterID problem #854. * Fix: Winget auto commit. @MarksonHon   **Full Changelog**: https://github.com/v2rayA/v2rayA/compare/v2.0.2...v2.0.4  ### Also see https://github.com/v2rayA/v2rayA/releases/tag/v2.0.2 "
             }
         },
         "笔记": {
@@ -3802,7 +3802,7 @@
             "https://github.com/wecooperate/iDefender": {
                 "created_at": "2021-11-24 11:38:28",
                 "description": "iDefender（冰盾 - 终端主动防御系统）",
-                "commit_date": "2023-03-19 14:36:54",
+                "commit_date": "2023-03-22 02:13:09",
                 "commit_message": "update",
                 "release_tag": "2.5.0",
                 "release_date": "2023-03-10 07:42:24",

@@ -1,14 +1,17 @@
-# 更新于 2023-03-22 09:05:27
+# 更新于 2023-03-23 09:06:12
 
 ## 近30天release更新记录
 | 更新时间 | 项目名称 | 版本 | 更新内容 |
 | :---- | :---- | :---- | :---- |
+|2023-03-22 11:49:11|[CyberChef](https://github.com/gchq/CyberChef)|v10.0.0|See the [CHANGELOG](https://github.com/<br>gchq/CyberChef/blob/master/CHANGELOG.md)<br> and [commit messages](https://github.co<br>m/gchq/CyberChef/commits/master) for det<br>ails.|
+|2023-03-22 04:31:21|[rengine](https://github.com/yogeshojha/rengine)|v1.3.6|Fixed Various Installation Errors Fixed<br> Naabu Port Scanning Issue|
 |2023-03-21 21:19:02|[faker](https://github.com/joke2k/faker)|v18.3.0|See [CHANGELOG.md](https://github.com/j<br>oke2k/faker/blob/refs/tags/v18.3.0/CHANG<br>ELOG.md).|
 |2023-03-21 08:33:17|[ENScan_GO](https://github.com/wgpsec/ENScan_GO)|0.0.10|- 修复爱企查查询页数bug|
 |2023-03-21 06:22:36|[pocsuite3](https://github.com/knownsec/pocsuite3)|v2.0.3|* 优化对 URL 协议的自动纠正 #356，感谢 <br>@chenjiewei123 * 支持通过 --no-check 选<br>项禁用 URL 协议自动纠正和蜜罐检查 -------<br>---------* optimized URL protocol correc<br>tion #356, thanks @chenjiewei123 * suppo<br>rt disable protocol correction and honey<br>pot checks through --no-check option|
 |2023-03-20 13:03:28|[log4j2burpscanner](https://github.com/f0ng/log4j2burpscanner)|0.24.0|# 0.24.0 update ## 2023-3-20 1. Adapt t<br>he [selistener](https://github.com/f0ng/<br>selistener) tool for intranet vulnerabil<br>ity detection __________________________<br>___________________________________ 1. <br>适配[selistener](https://github.com/f0ng/<br>selistener)工具进行内网漏洞探测|
 |2023-03-20 10:33:46|[ysoserial](https://github.com/su18/ysoserial)|v1.5|1. 全面支持 AgentNoFile 内存马，目前支<br>持 Servlet/Tomcat Filter 型的内存马，支持<br> bx/gz/gzraw/cmd 动态生成，参数保持一致<br>； 2. 动态生成 Filter/Servlet 等名称，使<br>用类名 + Filter 的形势，模拟常规名称，避<br>免被一眼看出来； 3. 优化项目架构，单独拆<br>解内存马恶意类字节码生成代码，作为字节码<br>生成中台，后续将集成 JNDI 注入利用相关； <br>4. 对 exploit 下的利用方式进行了支持，除<br>了每个 exploit 需要的参数，后面正常跟 pay<br>load 的参数； 5. 更新 LF 参数，格式为 LF<br>-/tmp/evil.class，后面可加类名，并对传递<br>的类字节码进行了缩减大小的尝试； 6. 修复 <br>CC12 不能用的问题； 7. 移除 jboss 相关代<br>码及依赖； 8. 更新命令执行最短化； 9. 修<br>复大量BUG，优化大量代码。|
 |2023-03-20 01:13:02|[NessusToReport](https://github.com/Hypdncy/NessusToReport)|v1.2||
+|2023-03-19 14:05:56|[v2rayA](https://github.com/v2rayA/v2rayA)|v2.0.4|## What's Changed * CI(debian): Generat<br>e default config for systemd environment<br> by @cubercsl in https://github.com/v2ra<br>yA/v2rayA/pull/750 * Feature: Add nftabl<br>es support by @cubercsl in https://githu<br>b.com/v2rayA/v2rayA/pull/805 * Fix: XRay<br> assets problem * Fix: AlterID problem #<br>854. * Fix: Winget auto commit. @Markson<br>Hon**Full Changelog**: https://github.co<br>m/v2rayA/v2rayA/compare/v2.0.2...v2.0.4#<br>## Also see https://github.com/v2rayA/v2<br>rayA/releases/tag/v2.0.2 |
 |2023-03-19 07:33:02|[naabu](https://github.com/projectdiscovery/naabu)|v2.1.4|## What's Changed * Update lib example <br>by @dogancanbakir in https://github.com/<br>projectdiscovery/naabu/pull/605 * versio<br>n update by @ehsandeep in https://github<br>.com/projectdiscovery/naabu/pull/610## N<br>ew Contributors * @dogancanbakir made th<br>eir first contribution in https://github<br>.com/projectdiscovery/naabu/pull/605**Fu<br>ll Changelog**: https://github.com/proje<br>ctdiscovery/naabu/compare/v2.1.3...v2.1.<br>4|
 |2023-03-19 04:49:43|[Umi-OCR](https://github.com/hiroi-sora/Umi-OCR)|v1.3.3|### v1.3.3 主要更新： - 新功能：命令行<br>模式。随时通过命令行调用Umi-OCR！ - 新功<br>能：识图完成的通知悬浮窗。 - 新功能：清理<br>引擎内存。 - 修复了一些问题，优化了一些UI<br>表现。### 文件说明 软件本体：Umi-OCR.v1.3<br>.3.7z，内置简体中文&英文通用识别库。 多<br>国语言扩展包：Umi-OCR.v1.3_DLC_languages.<br>7z，可额外导入繁中,英,日,韩,俄,德,法 识<br>别库。请按需下载。|
 |2023-03-18 17:21:28|[feroxbuster](https://github.com/epi052/feroxbuster)|v2.9.2|## What's Changed * changed default val<br>ue for --extract-links to true => added <br>--dont-extract-links to turn off the new<br> default behavior by @epi052 in https://<br>github.com/epi052/feroxbuster/pull/834 *<br> can load a wordlist from its url over h<br>ttp/https by @epi052 in https://github.c<br>om/epi052/feroxbuster/pull/834 * updated<br> README with alternative installation me<br>thods for brew and chocolatey by @aancw <br>in https://github.com/epi052/feroxbuster<br>/pull/824 * fixed divide by zero error b<br>y @epi052 in https://github.com/epi052/f<br>eroxbuster/pull/834 * added check for fo<br>rced recursion when directory listing de<br>tected by @epi052 in https://github.com/<br>epi052/feroxbuster/pull/834Special thank<br>s to @aancw for the code, @acut3 for the<br> bug report, and @xaeroborg for the nice<br> quality of life idea :tada:**Full Chang<br>elog**: https://github.com/epi052/feroxb<br>uster/compare/v2.9.1...v2.9.2|
@@ -49,36 +52,40 @@
 ## 近30天commit提交记录
 | 提交时间 | 项目名称 | 更新内容 |
 | :---- | :---- | :---- |
-|2023-03-22 01:00:16|[NucleiTP](https://github.com/ExpLangcn/NucleiTP)|更新啦❤️|
-|2023-03-21 22:47:06|[PocOrExp_in_Github](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-03-22 06:47:06|
+|2023-03-23 01:00:17|[NucleiTP](https://github.com/ExpLangcn/NucleiTP)|更新啦❤️|
+|2023-03-22 23:51:27|[PocOrExp_in_Github](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-03-23 07:51:27|
+|2023-03-22 19:30:04|[dbeaver](https://github.com/dbeaver/dbeaver)|dbeaver/pro#1495 Update ClickHouse driver to 0.4.2 (#1<br>9454)|
+|2023-03-22 16:54:39|[CyberChef](https://github.com/gchq/CyberChef)|Added preventDefault to contextual help key press list<br>ener|
+|2023-03-22 12:57:49|[captcha-killer-modi<br>fied](https://github.com/f0ng/captcha-killer-modified)|Update FAQ.md|
+|2023-03-22 12:50:51|[v2rayA](https://github.com/v2rayA/v2rayA)|fix: change spare tire routing rule to fix up kakaotal<br>k|
+|2023-03-22 06:35:17|[noterce](https://github.com/xiao-zhu-zhu/noterce)|Update README.md|
+|2023-03-22 06:26:31|[domain_hunter_pro](https://github.com/bit4woo/domain_hunter_pro)|Update ToolPanel.java|
+|2023-03-22 05:37:07|[yarx](https://github.com/zema1/yarx)|feat: update dep (#12)* feat: update dep* feat: update<br> workflow|
+|2023-03-22 05:22:18|[vulnerability](https://github.com/lal0ne/vulnerability)|CVE-2023-28343|
+|2023-03-22 04:15:15|[rengine](https://github.com/yogeshojha/rengine)|Merge pull request #734 from thebigbone/mastercheck if<br> docker is running on systems without systemd|
+|2023-03-22 04:03:58|[ysoserial](https://github.com/su18/ysoserial)|添加 RMIRegistryExploit|
+|2023-03-22 02:13:09|[iDefender](https://github.com/wecooperate/iDefender)|update|
+|2023-03-22 01:55:58|[JDumpSpider](https://github.com/whwlsfb/JDumpSpider)|Create compile.yml|
+|2023-03-22 01:55:23|[afrog](https://github.com/zan8in/afrog)|update gitlab poc|
 |2023-03-21 21:17:10|[faker](https://github.com/joke2k/faker)|Bump version: 18.2.1 → 18.3.0|
-|2023-03-21 19:52:05|[dbeaver](https://github.com/dbeaver/dbeaver)|Cb 2852 qm redesign (#19304)* CB-3207 use separate qm <br>client for session* CB-3218 qm link user with queries* <br>CB-3218 serialize qm meta events* CB-3208 qm use differ<br>ent api for admins* CB-3207 remove sql dialect from qm <br>connection info* CB-3208 different criteria for history<br> cursor api---------Co-authored-by: Alexander Skoblikov<br> |
 |2023-03-21 08:26:52|[ENScan_GO](https://github.com/wgpsec/ENScan_GO)|修复爱企查查询bug fix #49|
 |2023-03-21 08:07:56|[QingTing](https://github.com/StarCrossPortal/QingTing)|reset readme.md|
 |2023-03-21 06:19:25|[pocsuite3](https://github.com/knownsec/pocsuite3)|chore: bump version to 2.0.3|
 |2023-03-21 05:43:56|[HackTools](https://github.com/Vicl1fe/HackTools)|新增FineReport|
-|2023-03-21 03:12:30|[captcha-killer-modi<br>fied](https://github.com/f0ng/captcha-killer-modified)|Update README.md|
 |2023-03-21 03:01:52|[log4j2burpscanner](https://github.com/f0ng/log4j2burpscanner)|Update FAQ-zh-CN.md|
 |2023-03-21 01:09:28|[poc-hub](https://github.com/ybdt/poc-hub)|整理|
 |2023-03-20 10:59:54|[sqlmap](https://github.com/sqlmapproject/sqlmap)|Fixes #5368|
-|2023-03-20 10:13:00|[ysoserial](https://github.com/su18/ysoserial)|更新版本|
-|2023-03-20 09:02:47|[domain_hunter_pro](https://github.com/bit4woo/domain_hunter_pro)|Update LineEntryMenuForBurp.java|
-|2023-03-20 03:29:15|[JDumpSpider](https://github.com/whwlsfb/JDumpSpider)|Uniqueness output.|
 |2023-03-20 02:51:03|[Antenna](https://github.com/wuba/Antenna)|Merge pull request #86 from wuba/developDevelop|
 |2023-03-20 02:37:28|[404StarLink](https://github.com/knownsec/404StarLink)|weekly update at 2023-03-20|
 |2023-03-20 02:09:42|[0day](https://github.com/helloexp/0day)|add Apache CouchDB 3.2.1 RCE|
 |2023-03-20 01:53:40|[OA-EXPTOOL](https://github.com/LittleBear4/OA-EXPTOOL)|Update scan.py|
-|2023-03-20 01:32:09|[vulnerability](https://github.com/lal0ne/vulnerability)|CVE-2023-21768|
 |2023-03-19 19:00:15|[NessusToReport](https://github.com/Hypdncy/NessusToReport)|增加导出excel功能，默认目录为./outputs|
 |2023-03-19 18:28:09|[wpscan](https://github.com/wpscanteam/wpscan)|Adds DFS|
-|2023-03-19 18:04:57|[v2rayA](https://github.com/v2rayA/v2rayA)|optimize: add auto scorll switch #853|
 |2023-03-19 15:25:33|[K8tools](https://github.com/k8gege/K8tools)|Add files via upload|
-|2023-03-19 14:36:54|[iDefender](https://github.com/wecooperate/iDefender)|update|
 |2023-03-19 07:31:49|[naabu](https://github.com/projectdiscovery/naabu)|Merge pull request #610 from projectdiscovery/devversi<br>on update|
 |2023-03-19 04:51:05|[Umi-OCR](https://github.com/hiroi-sora/Umi-OCR)|update url|
 |2023-03-19 00:40:51|[mitaka](https://github.com/ninoseki/mitaka)|Merge pull request #717 from ninoseki/v1.1.0v1.1.0|
 |2023-03-18 17:23:34|[feroxbuster](https://github.com/epi052/feroxbuster)|Merge pull request #839 from epi052/all-contributors/a<br>dd-acut3docs: add acut3 as a contributor for bug|
-|2023-03-18 13:32:09|[afrog](https://github.com/zan8in/afrog)|update rawhttp|
 |2023-03-17 16:51:30|[nuclei](https://github.com/projectdiscovery/nuclei)|Merge pull request #3433 from projectdiscovery/dependa<br>bot/go_modules/v2/google.golang.org/protobuf-1.29.1chor<br>e(deps): bump google.golang.org/protobuf from 1.29.0 to<br> 1.29.1 in /v2|
 |2023-03-17 16:12:07|[subfinder](https://github.com/projectdiscovery/subfinder)|Merge pull request #791 from projectdiscovery/devsubfi<br>nder - v2.5.7|
 |2023-03-17 11:35:53|[Goby](https://github.com/gobysec/Goby)|Update README.md|
@@ -119,7 +126,6 @@
 |2023-03-06 07:44:32|[Awesome-Redteam](https://github.com/Threekiii/Awesome-Redteam)|更新README.md|
 |2023-03-06 07:41:58|[Vulhub-Reproduce](https://github.com/Threekiii/Vulhub-Reproduce)|更新漏洞|
 |2023-03-05 02:02:20|[CN_Nessus_Plugins_I<br>nterface](https://github.com/nszy007/CN_Nessus_Plugins_Interface)|20230301|
-|2023-03-02 17:24:57|[rengine](https://github.com/yogeshojha/rengine)|Merge pull request #829 from yogeshojha/release/1.3.6R<br>elease/1.3.6|
 |2023-03-01 09:10:31|[CVE-2023-21839](https://github.com/4ra1n/CVE-2023-21839)|Update README.md|
 |2023-03-01 08:05:58|[Log4j2Scan](https://github.com/whwlsfb/Log4j2Scan)|replace fastjson to org.json.|
 |2023-02-28 14:00:08|[BurpSuite-collectio<br>ns](https://github.com/Mr-xn/BurpSuite-collections)|add npscrack：蓝队利器、溯源反制、NPS 漏洞利用、NPS ex<br>p、NPS poc、一键利用的BurpSuite插件最新版（202212之后）<br>激活项目|
@@ -140,8 +146,7 @@
 |2023-02-21 14:37:50|[RouteVulScan](https://github.com/F6JO/RouteVulScan)|Update README.md|
 |2023-02-21 03:50:02|[URLFinder](https://github.com/pingc0y/URLFinder)|2023/2/21更新|
 |2023-02-21 03:33:52|[IPSearch](https://github.com/SleepingBag945/IPSearch)|Update README.md|
-|2023-02-21 02:04:04|[Scanners-Box](https://github.com/We5ter/Scanners-Box)|[+]Cyber-Buddy/APKHunt|
-|2023-02-20 06:54:31|[Kunlun-M](https://github.com/LoRexxar/Kunlun-M)|Merge pull request #224 from LoRexxar/developfixed #22<br>3|## 所有项目
+|2023-02-21 02:04:04|[Scanners-Box](https://github.com/We5ter/Scanners-Box)|[+]Cyber-Buddy/APKHunt|## 所有项目
 ### 信息收集
 #### 资产测绘采集
 | 项目名称 | 版本 | 项目描述 |
@@ -199,7 +204,7 @@
 | [heartsk_community](https://github.com/yqcs/heartsk_community) | LOWBUG@La<br>test | Hearts K-企业资产发现与脆弱性检查工具，自动化资产信息收集与漏洞<br>扫描 |
 | [AnScan](https://github.com/Arbor01/AnScan) |  | AnScan是一款集合信息收集、分布式漏洞扫描、漏洞POC管理等为一体的<br>红队扫描工具 |
 | [nemo_go](https://github.com/hanc00l/nemo_go) | v2.9.1 | Nemo是用来进行自动化信息收集的一个简单平台，通过集成常用的信息收<br>集工具和技术，实现对内网及互联网资产信息的自动收集，提高隐患排查和<br>渗透测试的工作效率，用Go语言完全重构了原Python版本。 |
-| [rengine](https://github.com/yogeshojha/rengine) | v1.3.5 | reNgine is an automated reconnaissance framework for web applica<br>tions with a focus on highly configurable streamlined recon proce<br>ss via Engines, recon data correlation and organization, continuo<br>us monitoring, backed by a database, and simple yet intuitive Use<br>r Interface. reNgine makes it easy for penetration testers to gat<br>her reconnaissance with minimal configuration and with the help o<br>f reNgine's correlation, it just makes recon effortless. |
+| [rengine](https://github.com/yogeshojha/rengine) | v1.3.6 | reNgine is an automated reconnaissance framework for web applica<br>tions with a focus on highly configurable streamlined recon proce<br>ss via Engines, recon data correlation and organization, continuo<br>us monitoring, backed by a database, and simple yet intuitive Use<br>r Interface. reNgine makes it easy for penetration testers to gat<br>her reconnaissance with minimal configuration and with the help o<br>f reNgine's correlation, it just makes recon effortless. |
 | [ShuiZe_0x727](https://github.com/0x727/ShuiZe_0x727) | v1.0 | 信息收集自动化工具 |
 | [DBJ](https://github.com/wgpsec/DBJ) |  | 大宝剑-边界资产梳理工具（红队、蓝队、企业组织架构、子域名、Web资<br>产梳理、Web指纹识别、ICON_Hash资产匹配） |
 | [Voyager](https://github.com/xundididi/Voyager) |  | 一个安全工具集合平台，用来提高乙方安全人员的工作效率，请勿用于非<br>法项目 |
@@ -698,7 +703,7 @@
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
 | [TomatoTools](https://github.com/ht0Ruial/TomatoTools) | v1.0.2 | TomatoTools 一款CTF杂项利器，支持36种常见编码和密码算法的加密和<br>解密，31种密文的分析和识别，支持自动提取flag，自定义插件等。 |
-| [CyberChef](https://github.com/gchq/CyberChef) | v9.55.0 | The Cyber Swiss Army Knife - a web app for encryption, encoding,<br> compression and data analysis |
+| [CyberChef](https://github.com/gchq/CyberChef) | v10.0.0 | The Cyber Swiss Army Knife - a web app for encryption, encoding,<br> compression and data analysis |
 #### 取证分析
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
@@ -791,7 +796,7 @@
 #### 科学上网
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
-| [v2rayA](https://github.com/v2rayA/v2rayA) | v2.0.1 | A web GUI client of Project V which supports V2Ray, Xray, SS, SS<br>R, Trojan and Pingtunnel 🚀 |
+| [v2rayA](https://github.com/v2rayA/v2rayA) | v2.0.4 | A web GUI client of Project V which supports V2Ray, Xray, SS, SS<br>R, Trojan and Pingtunnel 🚀 |
 #### 笔记
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
