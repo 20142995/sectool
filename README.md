@@ -1,11 +1,12 @@
-# 更新于 2023-03-23 09:06:12
+# 更新于 2023-03-24 09:05:48
 
 ## 近30天release更新记录
 | 更新时间 | 项目名称 | 版本 | 更新内容 |
 | :---- | :---- | :---- | :---- |
-|2023-03-22 11:49:11|[CyberChef](https://github.com/gchq/CyberChef)|v10.0.0|See the [CHANGELOG](https://github.com/<br>gchq/CyberChef/blob/master/CHANGELOG.md)<br> and [commit messages](https://github.co<br>m/gchq/CyberChef/commits/master) for det<br>ails.|
+|2023-03-23 19:59:31|[faker](https://github.com/joke2k/faker)|v18.3.1|See [CHANGELOG.md](https://github.com/j<br>oke2k/faker/blob/refs/tags/v18.3.1/CHANG<br>ELOG.md).|
+|2023-03-23 18:33:02|[CyberChef](https://github.com/gchq/CyberChef)|v10.2.0|See the [CHANGELOG](https://github.com/<br>gchq/CyberChef/blob/master/CHANGELOG.md)<br> and [commit messages](https://github.co<br>m/gchq/CyberChef/commits/master) for det<br>ails.|
+|2023-03-23 16:01:22|[veinmind-tools](https://github.com/chaitin/veinmind-tools)|v2.0.7|- 新增 veinmind-minio 插件|
 |2023-03-22 04:31:21|[rengine](https://github.com/yogeshojha/rengine)|v1.3.6|Fixed Various Installation Errors Fixed<br> Naabu Port Scanning Issue|
-|2023-03-21 21:19:02|[faker](https://github.com/joke2k/faker)|v18.3.0|See [CHANGELOG.md](https://github.com/j<br>oke2k/faker/blob/refs/tags/v18.3.0/CHANG<br>ELOG.md).|
 |2023-03-21 08:33:17|[ENScan_GO](https://github.com/wgpsec/ENScan_GO)|0.0.10|- 修复爱企查查询页数bug|
 |2023-03-21 06:22:36|[pocsuite3](https://github.com/knownsec/pocsuite3)|v2.0.3|* 优化对 URL 协议的自动纠正 #356，感谢 <br>@chenjiewei123 * 支持通过 --no-check 选<br>项禁用 URL 协议自动纠正和蜜罐检查 -------<br>---------* optimized URL protocol correc<br>tion #356, thanks @chenjiewei123 * suppo<br>rt disable protocol correction and honey<br>pot checks through --no-check option|
 |2023-03-20 13:03:28|[log4j2burpscanner](https://github.com/f0ng/log4j2burpscanner)|0.24.0|# 0.24.0 update ## 2023-3-20 1. Adapt t<br>he [selistener](https://github.com/f0ng/<br>selistener) tool for intranet vulnerabil<br>ity detection __________________________<br>___________________________________ 1. <br>适配[selistener](https://github.com/f0ng/<br>selistener)工具进行内网漏洞探测|
@@ -36,7 +37,6 @@
 |2023-03-09 08:37:22|[GoWxDump](https://github.com/SpenserCai/GoWxDump)|v1.0.9|通过注册表自从查找微信数据目录|
 |2023-03-09 04:49:16|[JDumpSpider](https://github.com/whwlsfb/JDumpSpider)|V1.1|- 项目重构，增强不同环境下的兼容性。 - <br>增加类字段的用户信息模糊搜索功能。|
 |2023-03-08 06:18:49|[pentest_report](https://github.com/dbgee/pentest_report)|v1.0.0|First orricial release |
-|2023-03-06 08:49:57|[veinmind-tools](https://github.com/chaitin/veinmind-tools)|v2.0.6|## Feature - 降低镜像大小 @286515491## <br>Fix - 敏感信息检测增加文件限制 @testwill<br>- 优化容器逃逸权限检测逻辑 @286515491- <br>修复敏感信息路径扫描 @286515491 |
 |2023-03-06 08:47:39|[ElectricRat](https://github.com/linjiananallnt/ElectricRat)|v1.3.0|# 更新说明 1. 新增越权漏洞案例，包含水<br>平、垂直越权。 2. 增加XSS过滤难度 3. 增加<br>SPEL和SSTI结果输出 4. 新增压缩文件自解压<br>案例# TODO - [x] 越权漏洞# 如何更新 1. 将<br> ElectricRat-docker.zip 中的 ElectricRat<br>.war 覆盖之前的 war 包。 2. 重启 docker<br>。sudo docker restart electricrat-web 3. <br>稍等片刻后，访问 http://127.0.0.1:12666/E<br>lectricRat/ |
 |2023-03-05 17:56:39|[dbeaver](https://github.com/dbeaver/dbeaver)|23.0.0|Changes since 22.3.5: - SQL editor:- Co<br>lumn metadata resolution was fixed for q<br>uoted column names- SQL console now resp<br>ects "open separate connection" option- <br>Variables resolve in set and other comma<br>nds was fixed- Copy/paste command was fi<br>xed for editors without associated conne<br>ction - Data editor:- Spatial viewer: la<br>sso tool was fixed for Safari browser- S<br>upport of WKT format stored in BLOB colu<br>mns was added- Issues with image viewer <br>and BLOB columns was fixed (NullPointer <br>error))- Selected columns/rows data expo<br>rt was fixed (issue with BLOB value turn<br>ing into NULL in UI) - Accessibility:- F<br>ont settings are now respected in all ed<br>itors/popups- New keyboard shortcuts sch<br>ema was added "DBeaver Keyboard Only"- M<br>any new keyboard shortcuts were added- C<br>atalog/schema selector now supports keyb<br>oard only mode- Results tab pin/unpin co<br>mmand is now accessible from keyboard (t<br>hanks to hawthorne3341)- Reader texts we<br>re localized - Database dashboard create<br> wizard UI was fixed - Generate SQL dial<br>og now supports connection invalidation <br>- Clickhouse: driver version was updated<br> to 0.4.1 - Dremio: driver version was u<br>pdated to 24.0 - Firebird: table colum c<br>omments support was added - PostgreSQL:-<br> Issue with URL-based connections was re<br>solved (invalid host name)- Execution pl<br>an parameters are now saved - Redshift: <br>varbyte datatype suport was fixed - SQL <br>Server:- UI for Kerberos authentication <br>configuration was fixed- Table colum com<br>ments support was added - French localiz<br>ation was fixed (thanks to alexgille) - <br>Problems with Kerberos were resolved (we<br> have reverted to Java 11)|
 |2023-03-03 01:00:04|[AV_Evasion_Tool](https://github.com/1y0n/AV_Evasion_Tool)|20230303|1. 效果优化|
@@ -48,14 +48,20 @@
 |2023-02-23 07:56:42|[nuclei-plus](https://github.com/Yong-An-Dang/nuclei-plus)|v7.0.0|> 第一个发布版本，也是第七个大版本，就<br>是这么奇怪:grin: #### :pushpin: Support- <br>[x] Support system tray - [x] Support pr<br>oject management - [x] Support configura<br>tion management - [x] Support template m<br>anagement - [x] Support template editing<br> - [x] Support internationalization, def<br>ault zh - [x] Support multiple network s<br>pace engine interface search**Full Chang<br>elog**: https://github.com/Yong-An-Dang/<br>nuclei-plus/commits/v7.0.0|
 |2023-02-22 13:35:31|[autoDecoder](https://github.com/f0ng/autoDecoder)|0.23|## 2023.2.22 更新0.23 1. 优化了插件的一<br>些问题 2. 案例移步[autoDecoder-usages](ht<br>tps://github.com/f0ng/autoDecoder-usages<br>)|
 |2023-02-22 09:37:42|[HaE](https://github.com/gh0stkey/HaE)|2.4.6|HaE 2.4.6 更新内容： 1. 加入多线程对数<br>据进行匹配和提取，减少卡顿现象； 2. 变更<br>配置文件更新地址为jsdelivr的CDN节点地址，<br>优化国内用户体验。|
-|2023-02-21 03:59:42|[URLFinder](https://github.com/pingc0y/URLFinder)|2023.2.21|2023/2/21 修复 已知bug|
 ## 近30天commit提交记录
 | 提交时间 | 项目名称 | 更新内容 |
 | :---- | :---- | :---- |
-|2023-03-23 01:00:17|[NucleiTP](https://github.com/ExpLangcn/NucleiTP)|更新啦❤️|
-|2023-03-22 23:51:27|[PocOrExp_in_Github](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-03-23 07:51:27|
-|2023-03-22 19:30:04|[dbeaver](https://github.com/dbeaver/dbeaver)|dbeaver/pro#1495 Update ClickHouse driver to 0.4.2 (#1<br>9454)|
-|2023-03-22 16:54:39|[CyberChef](https://github.com/gchq/CyberChef)|Added preventDefault to contextual help key press list<br>ener|
+|2023-03-24 01:00:16|[NucleiTP](https://github.com/ExpLangcn/NucleiTP)|更新啦❤️|
+|2023-03-23 21:44:51|[PocOrExp_in_Github](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-03-24 05:44:51|
+|2023-03-23 19:58:14|[faker](https://github.com/joke2k/faker)|Bump version: 18.3.0 → 18.3.1|
+|2023-03-23 18:22:37|[CyberChef](https://github.com/gchq/CyberChef)|10.2.0|
+|2023-03-23 15:51:13|[veinmind-tools](https://github.com/chaitin/veinmind-tools)|feat(veinmind-minio): CVE-2023-28432 (#213)* feat(vein<br>mind-minio): CVE-2023-28432* feat(veinmind-minio): add <br>doc pic|
+|2023-03-23 15:48:47|[dbeaver](https://github.com/dbeaver/dbeaver)|Merge remote-tracking branch 'origin/devel' into devel|
+|2023-03-23 14:40:56|[K8tools](https://github.com/k8gege/K8tools)|Add files via upload|
+|2023-03-23 14:23:13|[Umi-OCR](https://github.com/hiroi-sora/Umi-OCR)|更正注释|
+|2023-03-23 08:48:47|[Vuln-List](https://github.com/wwl012345/Vuln-List)|Update 中间件&框架&平台&第三方服务漏洞.md|
+|2023-03-23 05:39:53|[CodeQLpy](https://github.com/webraybtl/CodeQLpy)|修复多个数据库生成中的bug，新增SpringBoot中指定jar编译<br>功能|
+|2023-03-23 02:26:17|[Log4j2Scan](https://github.com/whwlsfb/Log4j2Scan)|add poc12. #57|
 |2023-03-22 12:57:49|[captcha-killer-modi<br>fied](https://github.com/f0ng/captcha-killer-modified)|Update FAQ.md|
 |2023-03-22 12:50:51|[v2rayA](https://github.com/v2rayA/v2rayA)|fix: change spare tire routing rule to fix up kakaotal<br>k|
 |2023-03-22 06:35:17|[noterce](https://github.com/xiao-zhu-zhu/noterce)|Update README.md|
@@ -67,7 +73,6 @@
 |2023-03-22 02:13:09|[iDefender](https://github.com/wecooperate/iDefender)|update|
 |2023-03-22 01:55:58|[JDumpSpider](https://github.com/whwlsfb/JDumpSpider)|Create compile.yml|
 |2023-03-22 01:55:23|[afrog](https://github.com/zan8in/afrog)|update gitlab poc|
-|2023-03-21 21:17:10|[faker](https://github.com/joke2k/faker)|Bump version: 18.2.1 → 18.3.0|
 |2023-03-21 08:26:52|[ENScan_GO](https://github.com/wgpsec/ENScan_GO)|修复爱企查查询bug fix #49|
 |2023-03-21 08:07:56|[QingTing](https://github.com/StarCrossPortal/QingTing)|reset readme.md|
 |2023-03-21 06:19:25|[pocsuite3](https://github.com/knownsec/pocsuite3)|chore: bump version to 2.0.3|
@@ -81,9 +86,7 @@
 |2023-03-20 01:53:40|[OA-EXPTOOL](https://github.com/LittleBear4/OA-EXPTOOL)|Update scan.py|
 |2023-03-19 19:00:15|[NessusToReport](https://github.com/Hypdncy/NessusToReport)|增加导出excel功能，默认目录为./outputs|
 |2023-03-19 18:28:09|[wpscan](https://github.com/wpscanteam/wpscan)|Adds DFS|
-|2023-03-19 15:25:33|[K8tools](https://github.com/k8gege/K8tools)|Add files via upload|
 |2023-03-19 07:31:49|[naabu](https://github.com/projectdiscovery/naabu)|Merge pull request #610 from projectdiscovery/devversi<br>on update|
-|2023-03-19 04:51:05|[Umi-OCR](https://github.com/hiroi-sora/Umi-OCR)|update url|
 |2023-03-19 00:40:51|[mitaka](https://github.com/ninoseki/mitaka)|Merge pull request #717 from ninoseki/v1.1.0v1.1.0|
 |2023-03-18 17:23:34|[feroxbuster](https://github.com/epi052/feroxbuster)|Merge pull request #839 from epi052/all-contributors/a<br>dd-acut3docs: add acut3 as a contributor for bug|
 |2023-03-17 16:51:30|[nuclei](https://github.com/projectdiscovery/nuclei)|Merge pull request #3433 from projectdiscovery/dependa<br>bot/go_modules/v2/google.golang.org/protobuf-1.29.1chor<br>e(deps): bump google.golang.org/protobuf from 1.29.0 to<br> 1.29.1 in /v2|
@@ -95,7 +98,6 @@
 |2023-03-17 00:49:24|[RsaCtfTool](https://github.com/RsaCtfTool/RsaCtfTool)|Update williams_pp1.py|
 |2023-03-16 01:29:06|[SmsForwarder](https://github.com/pppscn/SmsForwarder)|整理：README|
 |2023-03-16 01:27:01|[Exp-Tools](https://github.com/cseroad/Exp-Tools)|Update README.md|
-|2023-03-15 09:09:00|[CodeQLpy](https://github.com/webraybtl/CodeQLpy)|优化因为重复import相同类名导致的bug|
 |2023-03-15 03:38:02|[Apt_t00ls](https://github.com/White-hua/Apt_t00ls)|Update README.md|
 |2023-03-15 02:33:56|[nemo_go](https://github.com/hanc00l/nemo_go)|Fix: ip_http and domain_http SaveOrUpdate function|
 |2023-03-14 23:44:28|[gshark](https://github.com/madneal/gshark)|Merge pull request #149 from madneal/dependabot/npm_an<br>d_yarn/web/webpack-5.76.0Bump webpack from 5.69.1 to 5.<br>76.0 in /web|
@@ -121,13 +123,11 @@
 |2023-03-08 02:32:40|[cf](https://github.com/teamssix/cf)|Merge pull request #214 from teamssix/betaperf: perf i<br>ssue ci|
 |2023-03-07 08:44:53|[knife](https://github.com/bit4woo/knife)|Update ChineseTab.java|
 |2023-03-07 07:33:10|[Godzilla](https://github.com/BeichenDream/Godzilla)|Update README.md|
-|2023-03-06 08:46:31|[veinmind-tools](https://github.com/chaitin/veinmind-tools)|fix(veinmind-sensitive):fix scan path (#205)fix(veinmi<br>nd-sensitive):fix scan pathCo-authored-by: GiveMeAShell<br> |
 |2023-03-06 08:41:18|[ElectricRat](https://github.com/linjiananallnt/ElectricRat)|Update README.md|
 |2023-03-06 07:44:32|[Awesome-Redteam](https://github.com/Threekiii/Awesome-Redteam)|更新README.md|
 |2023-03-06 07:41:58|[Vulhub-Reproduce](https://github.com/Threekiii/Vulhub-Reproduce)|更新漏洞|
 |2023-03-05 02:02:20|[CN_Nessus_Plugins_I<br>nterface](https://github.com/nszy007/CN_Nessus_Plugins_Interface)|20230301|
 |2023-03-01 09:10:31|[CVE-2023-21839](https://github.com/4ra1n/CVE-2023-21839)|Update README.md|
-|2023-03-01 08:05:58|[Log4j2Scan](https://github.com/whwlsfb/Log4j2Scan)|replace fastjson to org.json.|
 |2023-02-28 14:00:08|[BurpSuite-collectio<br>ns](https://github.com/Mr-xn/BurpSuite-collections)|add npscrack：蓝队利器、溯源反制、NPS 漏洞利用、NPS ex<br>p、NPS poc、一键利用的BurpSuite插件最新版（202212之后）<br>激活项目|
 |2023-02-28 07:33:37|[RmTools](https://github.com/RoomaSec/RmTools)|11|
 |2023-02-28 06:05:45|[Awesome-Exploit](https://github.com/Threekiii/Awesome-Exploit)|更新CVE-2023-21839 Exploit|
@@ -141,12 +141,7 @@
 |2023-02-23 07:36:27|[xray](https://github.com/chaitin/xray)|[fix] 文档地址|
 |2023-02-23 05:56:50|[appshark](https://github.com/bytedance/appshark)|support pattern filed match.|
 |2023-02-22 09:36:50|[HaE](https://github.com/gh0stkey/HaE)|Version: 2.4.6 Update|
-|2023-02-22 08:29:41|[fscan](https://github.com/shadow1ng/fscan)|Merge pull request #265 from AgeloVito/mainUpdate eval<br>.go|
-|2023-02-21 16:11:23|[dirsearch](https://github.com/maurosoria/dirsearch)|Merge pull request #1282 from 0x0d3ad/patch-3Update my<br> profile link github|
-|2023-02-21 14:37:50|[RouteVulScan](https://github.com/F6JO/RouteVulScan)|Update README.md|
-|2023-02-21 03:50:02|[URLFinder](https://github.com/pingc0y/URLFinder)|2023/2/21更新|
-|2023-02-21 03:33:52|[IPSearch](https://github.com/SleepingBag945/IPSearch)|Update README.md|
-|2023-02-21 02:04:04|[Scanners-Box](https://github.com/We5ter/Scanners-Box)|[+]Cyber-Buddy/APKHunt|## 所有项目
+|2023-02-22 08:29:41|[fscan](https://github.com/shadow1ng/fscan)|Merge pull request #265 from AgeloVito/mainUpdate eval<br>.go|## 所有项目
 ### 信息收集
 #### 资产测绘采集
 | 项目名称 | 版本 | 项目描述 |
@@ -435,7 +430,7 @@
 #### 容器漏洞扫描
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
-| [veinmind-tools](https://github.com/chaitin/veinmind-tools) | v2.0.6 | veinmind-tools 是由长亭科技自研，基于 veinmind-sdk 打造的容器安<br>全工具集 |
+| [veinmind-tools](https://github.com/chaitin/veinmind-tools) | v2.0.7 | veinmind-tools 是由长亭科技自研，基于 veinmind-sdk 打造的容器安<br>全工具集 |
 #### 容器漏洞利用
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
@@ -703,7 +698,7 @@
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
 | [TomatoTools](https://github.com/ht0Ruial/TomatoTools) | v1.0.2 | TomatoTools 一款CTF杂项利器，支持36种常见编码和密码算法的加密和<br>解密，31种密文的分析和识别，支持自动提取flag，自定义插件等。 |
-| [CyberChef](https://github.com/gchq/CyberChef) | v10.0.0 | The Cyber Swiss Army Knife - a web app for encryption, encoding,<br> compression and data analysis |
+| [CyberChef](https://github.com/gchq/CyberChef) | v10.2.0 | The Cyber Swiss Army Knife - a web app for encryption, encoding,<br> compression and data analysis |
 #### 取证分析
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
@@ -777,7 +772,7 @@
 #### 其他
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
-| [faker](https://github.com/joke2k/faker) | v18.3.0 | Faker is a Python package that generates fake data for you. |
+| [faker](https://github.com/joke2k/faker) | v18.3.1 | Faker is a Python package that generates fake data for you. |
 | [SmsForwarder](https://github.com/pppscn/SmsForwarder) | v3.2.0 | 短信转发器——监控Android手机短信、来电、APP通知，并根据指定规则<br>转发到其他手机：钉钉群自定义机器人、钉钉企业内机器人、企业微信群机<br>器人、飞书机器人、企业微信应用消息、邮箱、bark、webhook、Telegram<br>机器人、Server酱、PushPlus、手机短信等。包括主动控制服务端与客户端<br>，让你轻松远程发短信、查短信、查通话、查话簿、查电量等。（V3.0 新<br>增）PS.这个APK主要是学习与自用，如有BUG请提ISSUE，同时欢迎大家提PR<br>指正 |
 | [dbeaver](https://github.com/dbeaver/dbeaver) | 23.0.0 | Free universal database tool and SQL client |
 | [MySQLMonitor](https://github.com/TheKingOfDuck/MySQLMonitor) | 1.0 | MySQL实时监控工具(代码审计/黑盒/白盒审计辅助工具) |

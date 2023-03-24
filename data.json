@@ -1623,8 +1623,8 @@
             "https://github.com/ycdxsb/PocOrExp_in_Github": {
                 "created_at": "2021-04-13 05:46:16",
                 "description": "聚合Github上已有的Poc或者Exp，CVE信息来自CVE官网。Auto Collect Poc Or Exp from Github by CVE ID.",
-                "commit_date": "2023-03-22 23:51:27",
-                "commit_message": "update 2023-03-23 07:51:27",
+                "commit_date": "2023-03-23 21:44:51",
+                "commit_message": "update 2023-03-24 05:44:51",
                 "release_tag": "",
                 "release_date": "",
                 "release_message": ""
@@ -1815,8 +1815,8 @@
             "https://github.com/webraybtl/CodeQLpy": {
                 "created_at": "2022-12-22 12:54:03",
                 "description": "CodeQLpy是一款基于CodeQL实现的半自动化代码审计工具，目前仅支持java语言。实现从源码反编译，数据库生成，脆弱性发现的全过程，可以辅助代码审计人员快速定位源码可能存在的漏洞。",
-                "commit_date": "2023-03-15 09:09:00",
-                "commit_message": "优化因为重复import相同类名导致的bug",
+                "commit_date": "2023-03-23 05:39:53",
+                "commit_message": "修复多个数据库生成中的bug，新增SpringBoot中指定jar编译功能",
                 "release_tag": "",
                 "release_date": "",
                 "release_message": ""
@@ -1826,11 +1826,11 @@
             "https://github.com/chaitin/veinmind-tools": {
                 "created_at": "2022-02-08 08:12:15",
                 "description": "veinmind-tools 是由长亭科技自研，基于 veinmind-sdk 打造的容器安全工具集",
-                "commit_date": "2023-03-06 08:46:31",
-                "commit_message": "fix(veinmind-sensitive):fix scan path (#205)\n\nfix(veinmind-sensitive):fix scan path\r\n\r\nCo-authored-by: GiveMeAShell <zhuo.li@chaitin.com>",
-                "release_tag": "v2.0.6",
-                "release_date": "2023-03-06 08:49:57",
-                "release_message": "## Feature - 降低镜像大小 @286515491   ## Fix - 敏感信息检测增加文件限制 @testwill  - 优化容器逃逸权限检测逻辑 @286515491  - 修复敏感信息路径扫描 @286515491 "
+                "commit_date": "2023-03-23 15:51:13",
+                "commit_message": "feat(veinmind-minio): CVE-2023-28432 (#213)\n\n* feat(veinmind-minio): CVE-2023-28432\r\n\r\n* feat(veinmind-minio): add doc pic",
+                "release_tag": "v2.0.7",
+                "release_date": "2023-03-23 16:01:22",
+                "release_message": "- 新增 `veinmind-minio` 插件"
             }
         },
         "容器漏洞利用": {
@@ -2193,7 +2193,7 @@
             "https://github.com/wwl012345/Vuln-List": {
                 "created_at": "2022-03-01 03:07:52",
                 "description": "(持续更新)对网上出现的各种OA、中间件、CMS等漏洞进行整理，主要包括漏洞介绍、漏洞影响版本以及漏洞POC/EXP等，并且会持续更新。",
-                "commit_date": "2023-02-10 07:42:53",
+                "commit_date": "2023-03-23 08:48:47",
                 "commit_message": "Update 中间件&框架&平台&第三方服务漏洞.md",
                 "release_tag": "",
                 "release_date": "",
@@ -2280,7 +2280,7 @@
             "https://github.com/k8gege/K8tools": {
                 "created_at": "2019-02-23 14:04:52",
                 "description": "K8工具合集(内网渗透/提权工具/远程溢出/漏洞利用/扫描工具/密码破解/免杀工具/Exploit/APT/0day/Shellcode/Payload/priviledge/BypassUAC/OverFlow/WebShell/PenTest) Web GetShell Exploit(Struts2/Zimbra/Weblogic/Tomcat/Apache/Jboss/DotNetNuke/zabbix)",
-                "commit_date": "2023-03-19 15:25:33",
+                "commit_date": "2023-03-23 14:40:56",
                 "commit_message": "Add files via upload",
                 "release_tag": "",
                 "release_date": "",
@@ -2662,8 +2662,8 @@
             "https://github.com/whwlsfb/Log4j2Scan": {
                 "created_at": "2021-12-10 06:16:52",
                 "description": "Log4j2 RCE Passive Scanner plugin for BurpSuite",
-                "commit_date": "2023-03-01 08:05:58",
-                "commit_message": "replace fastjson to org.json.",
+                "commit_date": "2023-03-23 02:26:17",
+                "commit_message": "add poc12. #57",
                 "release_tag": "V0.13.1",
                 "release_date": "2022-10-21 06:49:07",
                 "release_message": "- 修复在BurpSuite 2022.9中兼容性问题 #49 . - 增加并发功能。 - 增加延迟检测功能。"
@@ -3039,7 +3039,7 @@
             "https://github.com/ExpLangcn/NucleiTP": {
                 "created_at": "2022-11-08 13:16:56",
                 "description": "自动整合全网Nuclei的漏洞POC，实时同步更新最新POC！",
-                "commit_date": "2023-03-23 01:00:17",
+                "commit_date": "2023-03-24 01:00:16",
                 "commit_message": "更新啦❤️",
                 "release_tag": "",
                 "release_date": "",
@@ -3304,10 +3304,10 @@
             "https://github.com/gchq/CyberChef": {
                 "created_at": "2016-11-28 10:34:07",
                 "description": "The Cyber Swiss Army Knife - a web app for encryption, encoding, compression and data analysis",
-                "commit_date": "2023-03-22 16:54:39",
-                "commit_message": "Added preventDefault to contextual help key press listener",
-                "release_tag": "v10.0.0",
-                "release_date": "2023-03-22 11:49:11",
+                "commit_date": "2023-03-23 18:22:37",
+                "commit_message": "10.2.0",
+                "release_tag": "v10.2.0",
+                "release_date": "2023-03-23 18:33:02",
                 "release_message": "See the [CHANGELOG](https://github.com/gchq/CyberChef/blob/master/CHANGELOG.md) and [commit messages](https://github.com/gchq/CyberChef/commits/master) for details."
             }
         },
@@ -3578,11 +3578,11 @@
             "https://github.com/joke2k/faker": {
                 "created_at": "2012-11-12 23:00:09",
                 "description": "Faker is a Python package that generates fake data for you.",
-                "commit_date": "2023-03-21 21:17:10",
-                "commit_message": "Bump version: 18.2.1 → 18.3.0",
-                "release_tag": "v18.3.0",
-                "release_date": "2023-03-21 21:19:02",
-                "release_message": "See [CHANGELOG.md](https://github.com/joke2k/faker/blob/refs/tags/v18.3.0/CHANGELOG.md)."
+                "commit_date": "2023-03-23 19:58:14",
+                "commit_message": "Bump version: 18.3.0 → 18.3.1",
+                "release_tag": "v18.3.1",
+                "release_date": "2023-03-23 19:59:31",
+                "release_message": "See [CHANGELOG.md](https://github.com/joke2k/faker/blob/refs/tags/v18.3.1/CHANGELOG.md)."
             },
             "https://github.com/pppscn/SmsForwarder": {
                 "created_at": "2021-02-10 02:23:07",
@@ -3596,8 +3596,8 @@
             "https://github.com/dbeaver/dbeaver": {
                 "created_at": "2015-10-21 08:26:28",
                 "description": "Free universal database tool and SQL client",
-                "commit_date": "2023-03-22 19:30:04",
-                "commit_message": "dbeaver/pro#1495 Update ClickHouse driver to 0.4.2 (#19454)",
+                "commit_date": "2023-03-23 15:48:47",
+                "commit_message": "Merge remote-tracking branch 'origin/devel' into devel",
                 "release_tag": "23.0.0",
                 "release_date": "2023-03-05 17:56:39",
                 "release_message": "Changes since 22.3.5: - SQL editor:     - Column metadata resolution was fixed for quoted column names     - SQL console now respects \"open separate connection\" option     - Variables resolve in `set` and other commands was fixed     - Copy/paste command was fixed for editors without associated connection - Data editor:     - Spatial viewer: lasso tool was fixed for Safari browser     - Support of WKT format stored in BLOB columns was added     - Issues with image viewer and BLOB columns was fixed (NullPointer error))     - Selected columns/rows data export was fixed (issue with BLOB value turning into NULL in UI) - Accessibility:     - Font settings are now respected in all editors/popups     - New keyboard shortcuts schema was added \"DBeaver Keyboard Only\"     - Many new keyboard shortcuts were added     - Catalog/schema selector now supports keyboard only mode     - Results tab pin/unpin command is now accessible from keyboard (thanks to hawthorne3341)     - Reader texts were localized - Database dashboard create wizard UI was fixed - Generate SQL dialog now supports connection invalidation - Clickhouse: driver version was updated to 0.4.1 - Dremio: driver version was updated to 24.0 - Firebird: table colum comments support was added - PostgreSQL:     - Issue with URL-based connections was resolved (invalid host name)     - Execution plan parameters are now saved - Redshift: varbyte datatype suport was fixed - SQL Server:     - UI for Kerberos authentication configuration was fixed     - Table colum comments support was added - French localization was fixed (thanks to alexgille) - Problems with Kerberos were resolved (we have reverted to Java 11)"
@@ -3718,8 +3718,8 @@
             "https://github.com/hiroi-sora/Umi-OCR": {
                 "created_at": "2022-03-28 04:01:46",
                 "description": "OCR图片转文字识别软件，完全离线。截屏/批量导入图片，支持多国语言、合并段落、竖排文字。可排除水印区域，提取干净的文本。基于 PaddleOCR 。",
-                "commit_date": "2023-03-19 04:51:05",
-                "commit_message": "update url",
+                "commit_date": "2023-03-23 14:23:13",
+                "commit_message": "更正注释",
                 "release_tag": "v1.3.3",
                 "release_date": "2023-03-19 04:49:43",
                 "release_message": "### `v1.3.3` 主要更新： - 新功能：命令行模式。随时通过命令行调用Umi-OCR！ - 新功能：识图完成的通知悬浮窗。 - 新功能：清理引擎内存。 - 修复了一些问题，优化了一些UI表现。  ### 文件说明 软件本体：`Umi-OCR.v1.3.3.7z`，内置`简体中文&英文`通用识别库。 多国语言扩展包：`Umi-OCR.v1.3_DLC_languages.7z`，可额外导入`繁中,英,日,韩,俄,德,法` 识别库。请按需下载。"
