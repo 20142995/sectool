@@ -385,7 +385,7 @@
             "https://github.com/er10yi/MagiCude": {
                 "created_at": "2020-05-27 15:26:23",
                 "description": "分布式端口（漏洞）扫描、资产安全管理、实时威胁监控与通知、高效漏洞闭环、漏洞wiki、邮件报告通知、poc框架",
-                "commit_date": "2022-01-10 15:28:29",
+                "commit_date": "2023-03-24 02:24:02",
                 "commit_message": "Update README.md",
                 "release_tag": "v2.1",
                 "release_date": "2020-12-27 14:59:45",
@@ -561,6 +561,17 @@
                 "release_date": "2021-08-06 16:08:16",
                 "release_message": "接口增加fofa,shodan"
             }
+        },
+        "反查域名": {
+            "https://github.com/Potato-py/ipInfoSearch": {
+                "created_at": "2022-09-26 01:49:10",
+                "description": "ip域名反查、权重查询以及ICP备案查询。便于提交SRC时资产过滤。",
+                "commit_date": "2023-03-20 02:18:18",
+                "commit_message": "修复window创建文档失败bug、增加低性能电脑运行错误的修补readme",
+                "release_tag": "",
+                "release_date": "",
+                "release_message": ""
+            }
         }
     },
     "漏洞发现&利用": {
@@ -633,8 +644,8 @@
             "https://github.com/zan8in/afrog": {
                 "created_at": "2022-02-24 06:00:32",
                 "description": "A Vulnerability Scanning Tools For Penetration Testing",
-                "commit_date": "2023-03-22 01:55:23",
-                "commit_message": "update gitlab poc",
+                "commit_date": "2023-03-24 01:22:46",
+                "commit_message": "update contribute",
                 "release_tag": "v2.2.1",
                 "release_date": "2023-02-04 14:54:34",
                 "release_message": "Merge many fingerprint pocs into the panel-detect.yaml file to reduce the number of http requests Console  print date format, 2023-01-01 changed to 01-01 Simplified afrog-config configuration  Fixed: invalid `-fc` configuration Tip: Configure the `-c` command, which can increase the concurrency speed very quickly  -----------------------------------------------------------------------------  将多个 panel 指纹探测合并到文件 panel-detect.yaml，大幅减少 http 请求 精简控制台日期打印，2023-01-01 改为 01-01 精简 afrog-config 配置信息  解决：`-fc` 命令配置无效问题 提示：配置 `-c` 命令能明显提高扫描速度"
@@ -1095,11 +1106,11 @@
             "https://github.com/Li4n0/revsuit": {
                 "created_at": "2021-04-21 10:39:44",
                 "description": "RevSuit is a flexible and powerful reverse connection platform designed for receiving connection from target host in penetration. ",
-                "commit_date": "2022-11-16 15:54:04",
-                "commit_message": "chore(release): 0.5.2",
-                "release_tag": "v0.5.2",
-                "release_date": "2022-11-16 15:57:22",
-                "release_message": "### Bug Fixes  * fix bug that the files associated with records still exist after deleting mysql and ftp records ([5e80591](https://github.com/Li4n0/revsuit/commit/5e80591c856a63c851ba5e17812af89373d76cf5)) * fix panic when update config ([#62](https://github.com/Li4n0/revsuit/issues/62)) ([48f55c5](https://github.com/Li4n0/revsuit/commit/48f55c53273fcea579c9fdfaf2939c90df3588b1)) "
+                "commit_date": "2023-03-24 14:54:44",
+                "commit_message": "chore: chore(release): 0.6.0",
+                "release_tag": "v0.6.0",
+                "release_date": "2023-03-24 14:57:56",
+                "release_message": "### Features  * support for using `Flag-Filter` request headers to filter the flags that the client expects to receive ([#64](https://github.com/Li4n0/revsuit/issues/64)) ([b33de11](https://github.com/Li4n0/revsuit/commit/b33de11ba8f126b03a45ad15cae69331ad59b865)) (Thanks to @whwlsfb)    ### Bug Fixes  * fix static resource loading failure after modifying `admin_path_prefix` ([b76757d](https://github.com/Li4n0/revsuit/commit/b76757da331b56f240ec2a0c69d479f3184bc4c2)), closes [#63](https://github.com/Li4n0/revsuit/issues/63) "
             },
             "https://github.com/lanyi1998/DNSlog-GO": {
                 "created_at": "2020-09-05 16:18:57",
@@ -1131,8 +1142,8 @@
             "https://github.com/wuba/Antenna": {
                 "created_at": "2022-06-15 06:42:25",
                 "description": "Antenna是58同城安全团队打造的一款辅助安全从业人员验证网络中多种漏洞是否存在以及可利用性的工具。其基于带外应用安全测试(OAST)通过任务的形式，将不同漏洞场景检测能力通过插件的形式进行集合，通过与目标进行out-bind的数据通信方式进行辅助检测。",
-                "commit_date": "2023-03-20 02:51:03",
-                "commit_message": "Merge pull request #86 from wuba/develop\n\nDevelop",
+                "commit_date": "2023-03-24 06:08:16",
+                "commit_message": "Merge pull request #99 from wuba/develop\n\nDevelop",
                 "release_tag": "v1.3.2",
                 "release_date": "2023-03-01 06:20:26",
                 "release_message": "1、优化了任务模块功能逻辑 2、修复python3.6版本不支持socket解析ip的bug"
@@ -1311,11 +1322,11 @@
             "https://github.com/zangcc/Aazhen-RexHa": {
                 "created_at": "2022-02-28 10:37:45",
                 "description": "自研JavaFX图形化漏洞扫描工具，支持扫描的漏洞分别是： ThinkPHP-2.x-RCE， ThinkPHP-5.0.23-RCE， ThinkPHP5.0.x-5.0.23通杀RCE， ThinkPHP5-SQL注入&敏感信息泄露， ThinkPHP 3.x 日志泄露NO.1， ThinkPHP 3.x 日志泄露NO.2， ThinkPHP 5.x 数据库信息泄露的漏洞检测，以及批量检测的功能。漏洞POC基本适用ThinkPHP全版本漏洞。",
-                "commit_date": "2022-10-23 14:14:54",
+                "commit_date": "2023-03-24 09:11:57",
                 "commit_message": "Update README.md",
-                "release_tag": "Aazhen-RexHa_Scanner",
-                "release_date": "2022-10-18 15:58:53",
-                "release_message": "2022年10月18日，最新版本的ThinkPHP漏洞扫描工具。支持扫描的漏洞分别是： ThinkPHP-2.x-RCE， ThinkPHP-5.0.23-RCE， ThinkPHP5.0.x-5.0.23通杀RCE， ThinkPHP5-SQL注入&敏感信息泄露， ThinkPHP 3.x 日志泄露NO.1， ThinkPHP 3.x 日志泄露NO.2， ThinkPHP 5.x 数据库信息泄露的漏洞检测，以及批量检测的功能。漏洞POC基本适用ThinkPHP全版本漏洞。 "
+                "release_tag": "",
+                "release_date": "",
+                "release_message": ""
             },
             "https://github.com/Lotus6/ThinkphpGUI": {
                 "created_at": "2021-06-22 15:01:04",
@@ -1596,8 +1607,8 @@
             "https://github.com/lal0ne/vulnerability": {
                 "created_at": "2022-01-20 02:48:42",
                 "description": "收集、整理、修改互联网上公开的漏洞POC",
-                "commit_date": "2023-03-22 05:22:18",
-                "commit_message": "CVE-2023-28343",
+                "commit_date": "2023-03-24 03:06:31",
+                "commit_message": "CVE-2023-1454",
                 "release_tag": "",
                 "release_date": "",
                 "release_message": ""
@@ -1623,8 +1634,8 @@
             "https://github.com/ycdxsb/PocOrExp_in_Github": {
                 "created_at": "2021-04-13 05:46:16",
                 "description": "聚合Github上已有的Poc或者Exp，CVE信息来自CVE官网。Auto Collect Poc Or Exp from Github by CVE ID.",
-                "commit_date": "2023-03-23 21:44:51",
-                "commit_message": "update 2023-03-24 05:44:51",
+                "commit_date": "2023-03-24 22:43:42",
+                "commit_message": "update 2023-03-25 06:43:42",
                 "release_tag": "",
                 "release_date": "",
                 "release_message": ""
@@ -1815,8 +1826,8 @@
             "https://github.com/webraybtl/CodeQLpy": {
                 "created_at": "2022-12-22 12:54:03",
                 "description": "CodeQLpy是一款基于CodeQL实现的半自动化代码审计工具，目前仅支持java语言。实现从源码反编译，数据库生成，脆弱性发现的全过程，可以辅助代码审计人员快速定位源码可能存在的漏洞。",
-                "commit_date": "2023-03-23 05:39:53",
-                "commit_message": "修复多个数据库生成中的bug，新增SpringBoot中指定jar编译功能",
+                "commit_date": "2023-03-24 02:43:38",
+                "commit_message": "修复SpringBoot下包名不正确的bug",
                 "release_tag": "",
                 "release_date": "",
                 "release_message": ""
@@ -1826,8 +1837,8 @@
             "https://github.com/chaitin/veinmind-tools": {
                 "created_at": "2022-02-08 08:12:15",
                 "description": "veinmind-tools 是由长亭科技自研，基于 veinmind-sdk 打造的容器安全工具集",
-                "commit_date": "2023-03-23 15:51:13",
-                "commit_message": "feat(veinmind-minio): CVE-2023-28432 (#213)\n\n* feat(veinmind-minio): CVE-2023-28432\r\n\r\n* feat(veinmind-minio): add doc pic",
+                "commit_date": "2023-03-24 10:53:38",
+                "commit_message": "doc(veinmind-minio):standalone introduce (#214)",
                 "release_tag": "v2.0.7",
                 "release_date": "2023-03-23 16:01:22",
                 "release_message": "- 新增 `veinmind-minio` 插件"
@@ -1897,8 +1908,8 @@
             "https://github.com/sqlmapproject/sqlmap": {
                 "created_at": "2012-06-26 09:52:15",
                 "description": "Automatic SQL injection and database takeover tool",
-                "commit_date": "2023-03-20 10:59:54",
-                "commit_message": "Fixes #5368",
+                "commit_date": "2023-03-24 13:29:02",
+                "commit_message": "Fixes #5370",
                 "release_tag": "1.7",
                 "release_date": "2023-01-02 22:32:55",
                 "release_message": "Stable version 1.7 ([changeset](https://github.com/sqlmapproject/sqlmap/compare/1.6...1.7))"
@@ -2356,8 +2367,8 @@
             "https://github.com/bit4woo/domain_hunter_pro": {
                 "created_at": "2019-01-18 07:15:15",
                 "description": "domain_hunter的高级版本，SRC挖洞、HW打点之必备！自动化资产收集；快速Title获取；外部工具联动；等等",
-                "commit_date": "2023-03-22 06:26:31",
-                "commit_message": "Update ToolPanel.java",
+                "commit_date": "2023-03-24 03:24:58",
+                "commit_message": "Update LineTableModel.java",
                 "release_tag": "v1.9-alpha",
                 "release_date": "2022-11-18 09:37:35",
                 "release_message": "**这是重构版本，与旧版本不兼容！！！ 这是重构版本，与旧版本不兼容！！！ 这是重构版本，与旧版本不兼容！！！**  重新设计了数据库的表结构，尽量提升数据库读写效率 重新设计了数据对象、UI、数据库之间的数据同步逻辑 重新设计了数据存储的基础类，保证线程安全 重新设计了table中model类的部分逻辑，减少内存占用  优化了数据对象的字段，尽量减小每个数据对象的内存占用 优化了数据提取的正则表达式和逻辑 优化了根域名、网段作控制目标范围的逻辑 优化了当根域名、网段变化时，数据的刷新逻辑 优化了数据数据加载逻辑 其他各种逻辑优化、bug修改  总之就是大动作，和旧版本不兼容，可能存在潜在bug（虽然我已经试用一段时间，排除了很多bug），所以发布一个alpha版本在正式版本之前。  欢迎试用提交bug，使用时建议创建新的项目数据库，不要使用旧数据库文件。"
@@ -3039,7 +3050,7 @@
             "https://github.com/ExpLangcn/NucleiTP": {
                 "created_at": "2022-11-08 13:16:56",
                 "description": "自动整合全网Nuclei的漏洞POC，实时同步更新最新POC！",
-                "commit_date": "2023-03-24 01:00:16",
+                "commit_date": "2023-03-24 10:15:15",
                 "commit_message": "更新啦❤️",
                 "release_tag": "",
                 "release_date": "",
@@ -3304,10 +3315,10 @@
             "https://github.com/gchq/CyberChef": {
                 "created_at": "2016-11-28 10:34:07",
                 "description": "The Cyber Swiss Army Knife - a web app for encryption, encoding, compression and data analysis",
-                "commit_date": "2023-03-23 18:22:37",
-                "commit_message": "10.2.0",
-                "release_tag": "v10.2.0",
-                "release_date": "2023-03-23 18:33:02",
+                "commit_date": "2023-03-24 22:41:40",
+                "commit_message": "10.4.0",
+                "release_tag": "v10.4.0",
+                "release_date": "2023-03-24 22:50:21",
                 "release_message": "See the [CHANGELOG](https://github.com/gchq/CyberChef/blob/master/CHANGELOG.md) and [commit messages](https://github.com/gchq/CyberChef/commits/master) for details."
             }
         },
@@ -3596,8 +3607,8 @@
             "https://github.com/dbeaver/dbeaver": {
                 "created_at": "2015-10-21 08:26:28",
                 "description": "Free universal database tool and SQL client",
-                "commit_date": "2023-03-23 15:48:47",
-                "commit_message": "Merge remote-tracking branch 'origin/devel' into devel",
+                "commit_date": "2023-03-24 16:21:34",
+                "commit_message": "#18300 Return back default buttons to the toolbar (#19476)",
                 "release_tag": "23.0.0",
                 "release_date": "2023-03-05 17:56:39",
                 "release_message": "Changes since 22.3.5: - SQL editor:     - Column metadata resolution was fixed for quoted column names     - SQL console now respects \"open separate connection\" option     - Variables resolve in `set` and other commands was fixed     - Copy/paste command was fixed for editors without associated connection - Data editor:     - Spatial viewer: lasso tool was fixed for Safari browser     - Support of WKT format stored in BLOB columns was added     - Issues with image viewer and BLOB columns was fixed (NullPointer error))     - Selected columns/rows data export was fixed (issue with BLOB value turning into NULL in UI) - Accessibility:     - Font settings are now respected in all editors/popups     - New keyboard shortcuts schema was added \"DBeaver Keyboard Only\"     - Many new keyboard shortcuts were added     - Catalog/schema selector now supports keyboard only mode     - Results tab pin/unpin command is now accessible from keyboard (thanks to hawthorne3341)     - Reader texts were localized - Database dashboard create wizard UI was fixed - Generate SQL dialog now supports connection invalidation - Clickhouse: driver version was updated to 0.4.1 - Dremio: driver version was updated to 24.0 - Firebird: table colum comments support was added - PostgreSQL:     - Issue with URL-based connections was resolved (invalid host name)     - Execution plan parameters are now saved - Redshift: varbyte datatype suport was fixed - SQL Server:     - UI for Kerberos authentication configuration was fixed     - Table colum comments support was added - French localization was fixed (thanks to alexgille) - Problems with Kerberos were resolved (we have reverted to Java 11)"
@@ -3802,7 +3813,7 @@
             "https://github.com/wecooperate/iDefender": {
                 "created_at": "2021-11-24 11:38:28",
                 "description": "iDefender（冰盾 - 终端主动防御系统）",
-                "commit_date": "2023-03-22 02:13:09",
+                "commit_date": "2023-03-24 06:02:17",
                 "commit_message": "update",
                 "release_tag": "2.5.0",
                 "release_date": "2023-03-10 07:42:24",

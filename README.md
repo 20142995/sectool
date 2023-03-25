@@ -1,10 +1,11 @@
-# 更新于 2023-03-24 09:05:48
+# 更新于 2023-03-25 09:01:45
 
 ## 近30天release更新记录
 | 更新时间 | 项目名称 | 版本 | 更新内容 |
 | :---- | :---- | :---- | :---- |
+|2023-03-24 22:50:21|[CyberChef](https://github.com/gchq/CyberChef)|v10.4.0|See the [CHANGELOG](https://github.com/<br>gchq/CyberChef/blob/master/CHANGELOG.md)<br> and [commit messages](https://github.co<br>m/gchq/CyberChef/commits/master) for det<br>ails.|
+|2023-03-24 14:57:56|[revsuit](https://github.com/Li4n0/revsuit)|v0.6.0|### Features* support for using Flag-Fi<br>lter request headers to filter the flags<br> that the client expects to receive ([#6<br>4](https://github.com/Li4n0/revsuit/issu<br>es/64)) ([b33de11](https://github.com/Li<br>4n0/revsuit/commit/b33de11ba8f126b03a45a<br>d15cae69331ad59b865)) (Thanks to @whwlsf<br>b)### Bug Fixes* fix static resource loa<br>ding failure after modifying admin_path_<br>prefix ([b76757d](https://github.com/Li4<br>n0/revsuit/commit/b76757da331b56f240ec2a<br>0c69d479f3184bc4c2)), closes [#63](https<br>://github.com/Li4n0/revsuit/issues/63) |
 |2023-03-23 19:59:31|[faker](https://github.com/joke2k/faker)|v18.3.1|See [CHANGELOG.md](https://github.com/j<br>oke2k/faker/blob/refs/tags/v18.3.1/CHANG<br>ELOG.md).|
-|2023-03-23 18:33:02|[CyberChef](https://github.com/gchq/CyberChef)|v10.2.0|See the [CHANGELOG](https://github.com/<br>gchq/CyberChef/blob/master/CHANGELOG.md)<br> and [commit messages](https://github.co<br>m/gchq/CyberChef/commits/master) for det<br>ails.|
 |2023-03-23 16:01:22|[veinmind-tools](https://github.com/chaitin/veinmind-tools)|v2.0.7|- 新增 veinmind-minio 插件|
 |2023-03-22 04:31:21|[rengine](https://github.com/yogeshojha/rengine)|v1.3.6|Fixed Various Installation Errors Fixed<br> Naabu Port Scanning Issue|
 |2023-03-21 08:33:17|[ENScan_GO](https://github.com/wgpsec/ENScan_GO)|0.0.10|- 修复爱企查查询页数bug|
@@ -46,42 +47,44 @@
 |2023-02-26 07:27:26|[mitaka](https://github.com/ninoseki/mitaka)|v1.0.0|- Migrate to the Manifest V3 (#703) - R<br>eplace Mocha, Chai and Sinon with Jest (<br>#703) |
 |2023-02-26 00:35:49|[qsnctf-python](https://github.com/Moxin1044/qsnctf-python)|0.0.8.9|更新了之前版本不存在的Web请求timeout导<br>致扫描时间过长，在0.0.8.9版本已修复此问题<br>。 您甚至可以指定timeout，感谢问题反馈！|
 |2023-02-23 07:56:42|[nuclei-plus](https://github.com/Yong-An-Dang/nuclei-plus)|v7.0.0|> 第一个发布版本，也是第七个大版本，就<br>是这么奇怪:grin: #### :pushpin: Support- <br>[x] Support system tray - [x] Support pr<br>oject management - [x] Support configura<br>tion management - [x] Support template m<br>anagement - [x] Support template editing<br> - [x] Support internationalization, def<br>ault zh - [x] Support multiple network s<br>pace engine interface search**Full Chang<br>elog**: https://github.com/Yong-An-Dang/<br>nuclei-plus/commits/v7.0.0|
-|2023-02-22 13:35:31|[autoDecoder](https://github.com/f0ng/autoDecoder)|0.23|## 2023.2.22 更新0.23 1. 优化了插件的一<br>些问题 2. 案例移步[autoDecoder-usages](ht<br>tps://github.com/f0ng/autoDecoder-usages<br>)|
-|2023-02-22 09:37:42|[HaE](https://github.com/gh0stkey/HaE)|2.4.6|HaE 2.4.6 更新内容： 1. 加入多线程对数<br>据进行匹配和提取，减少卡顿现象； 2. 变更<br>配置文件更新地址为jsdelivr的CDN节点地址，<br>优化国内用户体验。|
 ## 近30天commit提交记录
 | 提交时间 | 项目名称 | 更新内容 |
 | :---- | :---- | :---- |
-|2023-03-24 01:00:16|[NucleiTP](https://github.com/ExpLangcn/NucleiTP)|更新啦❤️|
-|2023-03-23 21:44:51|[PocOrExp_in_Github](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-03-24 05:44:51|
+|2023-03-24 22:43:42|[PocOrExp_in_Github](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-03-25 06:43:42|
+|2023-03-24 22:41:40|[CyberChef](https://github.com/gchq/CyberChef)|10.4.0|
+|2023-03-24 16:21:34|[dbeaver](https://github.com/dbeaver/dbeaver)|#18300 Return back default buttons to the toolbar (#19<br>476)|
+|2023-03-24 14:54:44|[revsuit](https://github.com/Li4n0/revsuit)|chore: chore(release): 0.6.0|
+|2023-03-24 13:29:02|[sqlmap](https://github.com/sqlmapproject/sqlmap)|Fixes #5370|
+|2023-03-24 10:53:38|[veinmind-tools](https://github.com/chaitin/veinmind-tools)|doc(veinmind-minio):standalone introduce (#214)|
+|2023-03-24 10:15:15|[NucleiTP](https://github.com/ExpLangcn/NucleiTP)|更新啦❤️|
+|2023-03-24 09:11:57|[Aazhen-RexHa](https://github.com/zangcc/Aazhen-RexHa)|Update README.md|
+|2023-03-24 06:08:16|[Antenna](https://github.com/wuba/Antenna)|Merge pull request #99 from wuba/developDevelop|
+|2023-03-24 06:02:17|[iDefender](https://github.com/wecooperate/iDefender)|update|
+|2023-03-24 03:24:58|[domain_hunter_pro](https://github.com/bit4woo/domain_hunter_pro)|Update LineTableModel.java|
+|2023-03-24 03:06:31|[vulnerability](https://github.com/lal0ne/vulnerability)|CVE-2023-1454|
+|2023-03-24 02:43:38|[CodeQLpy](https://github.com/webraybtl/CodeQLpy)|修复SpringBoot下包名不正确的bug|
+|2023-03-24 02:24:02|[MagiCude](https://github.com/er10yi/MagiCude)|Update README.md|
+|2023-03-24 01:22:46|[afrog](https://github.com/zan8in/afrog)|update contribute|
 |2023-03-23 19:58:14|[faker](https://github.com/joke2k/faker)|Bump version: 18.3.0 → 18.3.1|
-|2023-03-23 18:22:37|[CyberChef](https://github.com/gchq/CyberChef)|10.2.0|
-|2023-03-23 15:51:13|[veinmind-tools](https://github.com/chaitin/veinmind-tools)|feat(veinmind-minio): CVE-2023-28432 (#213)* feat(vein<br>mind-minio): CVE-2023-28432* feat(veinmind-minio): add <br>doc pic|
-|2023-03-23 15:48:47|[dbeaver](https://github.com/dbeaver/dbeaver)|Merge remote-tracking branch 'origin/devel' into devel|
 |2023-03-23 14:40:56|[K8tools](https://github.com/k8gege/K8tools)|Add files via upload|
 |2023-03-23 14:23:13|[Umi-OCR](https://github.com/hiroi-sora/Umi-OCR)|更正注释|
 |2023-03-23 08:48:47|[Vuln-List](https://github.com/wwl012345/Vuln-List)|Update 中间件&框架&平台&第三方服务漏洞.md|
-|2023-03-23 05:39:53|[CodeQLpy](https://github.com/webraybtl/CodeQLpy)|修复多个数据库生成中的bug，新增SpringBoot中指定jar编译<br>功能|
 |2023-03-23 02:26:17|[Log4j2Scan](https://github.com/whwlsfb/Log4j2Scan)|add poc12. #57|
 |2023-03-22 12:57:49|[captcha-killer-modi<br>fied](https://github.com/f0ng/captcha-killer-modified)|Update FAQ.md|
 |2023-03-22 12:50:51|[v2rayA](https://github.com/v2rayA/v2rayA)|fix: change spare tire routing rule to fix up kakaotal<br>k|
 |2023-03-22 06:35:17|[noterce](https://github.com/xiao-zhu-zhu/noterce)|Update README.md|
-|2023-03-22 06:26:31|[domain_hunter_pro](https://github.com/bit4woo/domain_hunter_pro)|Update ToolPanel.java|
 |2023-03-22 05:37:07|[yarx](https://github.com/zema1/yarx)|feat: update dep (#12)* feat: update dep* feat: update<br> workflow|
-|2023-03-22 05:22:18|[vulnerability](https://github.com/lal0ne/vulnerability)|CVE-2023-28343|
 |2023-03-22 04:15:15|[rengine](https://github.com/yogeshojha/rengine)|Merge pull request #734 from thebigbone/mastercheck if<br> docker is running on systems without systemd|
 |2023-03-22 04:03:58|[ysoserial](https://github.com/su18/ysoserial)|添加 RMIRegistryExploit|
-|2023-03-22 02:13:09|[iDefender](https://github.com/wecooperate/iDefender)|update|
 |2023-03-22 01:55:58|[JDumpSpider](https://github.com/whwlsfb/JDumpSpider)|Create compile.yml|
-|2023-03-22 01:55:23|[afrog](https://github.com/zan8in/afrog)|update gitlab poc|
 |2023-03-21 08:26:52|[ENScan_GO](https://github.com/wgpsec/ENScan_GO)|修复爱企查查询bug fix #49|
 |2023-03-21 08:07:56|[QingTing](https://github.com/StarCrossPortal/QingTing)|reset readme.md|
 |2023-03-21 06:19:25|[pocsuite3](https://github.com/knownsec/pocsuite3)|chore: bump version to 2.0.3|
 |2023-03-21 05:43:56|[HackTools](https://github.com/Vicl1fe/HackTools)|新增FineReport|
 |2023-03-21 03:01:52|[log4j2burpscanner](https://github.com/f0ng/log4j2burpscanner)|Update FAQ-zh-CN.md|
 |2023-03-21 01:09:28|[poc-hub](https://github.com/ybdt/poc-hub)|整理|
-|2023-03-20 10:59:54|[sqlmap](https://github.com/sqlmapproject/sqlmap)|Fixes #5368|
-|2023-03-20 02:51:03|[Antenna](https://github.com/wuba/Antenna)|Merge pull request #86 from wuba/developDevelop|
 |2023-03-20 02:37:28|[404StarLink](https://github.com/knownsec/404StarLink)|weekly update at 2023-03-20|
+|2023-03-20 02:18:18|[ipInfoSearch](https://github.com/Potato-py/ipInfoSearch)|修复window创建文档失败bug、增加低性能电脑运行错误的修<br>补readme|
 |2023-03-20 02:09:42|[0day](https://github.com/helloexp/0day)|add Apache CouchDB 3.2.1 RCE|
 |2023-03-20 01:53:40|[OA-EXPTOOL](https://github.com/LittleBear4/OA-EXPTOOL)|Update scan.py|
 |2023-03-19 19:00:15|[NessusToReport](https://github.com/Hypdncy/NessusToReport)|增加导出excel功能，默认目录为./outputs|
@@ -139,9 +142,7 @@
 |2023-02-24 06:58:54|[Intranet_Penetratio<br>n_Tips](https://github.com/Ridter/Intranet_Penetration_Tips)|增加Exchange利用|
 |2023-02-23 09:31:05|[Library-POC](https://github.com/luck-ying/Library-POC)|Update README.md|
 |2023-02-23 07:36:27|[xray](https://github.com/chaitin/xray)|[fix] 文档地址|
-|2023-02-23 05:56:50|[appshark](https://github.com/bytedance/appshark)|support pattern filed match.|
-|2023-02-22 09:36:50|[HaE](https://github.com/gh0stkey/HaE)|Version: 2.4.6 Update|
-|2023-02-22 08:29:41|[fscan](https://github.com/shadow1ng/fscan)|Merge pull request #265 from AgeloVito/mainUpdate eval<br>.go|## 所有项目
+|2023-02-23 05:56:50|[appshark](https://github.com/bytedance/appshark)|support pattern filed match.|## 所有项目
 ### 信息收集
 #### 资产测绘采集
 | 项目名称 | 版本 | 项目描述 |
@@ -236,6 +237,10 @@
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
 | [iplookup](https://github.com/Lengso/iplookup) | v1.1 | IP反查域名 |
+#### 反查域名
+| 项目名称 | 版本 | 项目描述 |
+| :---- | :---- | :---- |
+| [ipInfoSearch](https://github.com/Potato-py/ipInfoSearch) |  | ip域名反查、权重查询以及ICP备案查询。便于提交SRC时资产过滤。 |
 ### 漏洞发现&利用
 #### 半自动化漏洞利用
 | 项目名称 | 版本 | 项目描述 |
@@ -318,7 +323,7 @@
 | [jndi_tool](https://github.com/wyzxxz/jndi_tool) |  | JNDI服务利用工具 RMI/LDAP，支持部分场景回显、内存shell，高版本JD<br>K场景下利用等，fastjson rce命令执行，log4j rce命令执行 漏洞检测辅<br>助工具 |
 | [ysoserial](https://github.com/frohoff/ysoserial) | v0.0.6 | A proof-of-concept tool for generating payloads that exploit uns<br>afe Java object deserialization. |
 | [Gopherus](https://github.com/tarunkant/Gopherus) |  | This tool generates gopher link for exploiting SSRF and gaining <br>RCE in various servers |
-| [revsuit](https://github.com/Li4n0/revsuit) | v0.5.2 | RevSuit is a flexible and powerful reverse connection platform d<br>esigned for receiving connection from target host in penetration.<br>  |
+| [revsuit](https://github.com/Li4n0/revsuit) | v0.6.0 | RevSuit is a flexible and powerful reverse connection platform d<br>esigned for receiving connection from target host in penetration.<br>  |
 | [DNSlog-GO](https://github.com/lanyi1998/DNSlog-GO) | 1.5.2 | DNSLog-GO 是一款golang编写的监控 DNS 解析记录的工具，自带WEB界面 |
 | [godnslog](https://github.com/chennqqi/godnslog) | v0.7.0 | An exquisite dns&http log server for verify SSRF/XXE/RFI/RCE vul<br>nerability  |
 | [ysomap](https://github.com/wh1t3p1g/ysomap) | v0.1.3 | A helpful Java Deserialization exploit framework. |
@@ -345,7 +350,7 @@
 | [wordpress-exploit-f<br>ramework](https://github.com/rastating/wordpress-exploit-framework) | v2.0.1 | A Ruby framework designed to aid in the penetration testing of W<br>ordPress systems.  |
 | [wpscan](https://github.com/wpscanteam/wpscan) | v3.8.22 | WPScan WordPress security scanner. Written for security professi<br>onals and blog maintainers to test the security of their WordPres<br>s websites. Contact us via contact@wpscan.com |
 | [wprecon](https://github.com/AngraTeam/wprecon) |  |  |
-| [Aazhen-RexHa](https://github.com/zangcc/Aazhen-RexHa) | Aazhen-Re<br>xHa_Scanne<br>r | 自研JavaFX图形化漏洞扫描工具，支持扫描的漏洞分别是： ThinkPHP-2.<br>x-RCE， ThinkPHP-5.0.23-RCE， ThinkPHP5.0.x-5.0.23通杀RCE， Think<br>PHP5-SQL注入&敏感信息泄露， ThinkPHP 3.x 日志泄露NO.1， ThinkPHP <br>3.x 日志泄露NO.2， ThinkPHP 5.x 数据库信息泄露的漏洞检测，以及批<br>量检测的功能。漏洞POC基本适用ThinkPHP全版本漏洞。 |
+| [Aazhen-RexHa](https://github.com/zangcc/Aazhen-RexHa) |  | 自研JavaFX图形化漏洞扫描工具，支持扫描的漏洞分别是： ThinkPHP-2.<br>x-RCE， ThinkPHP-5.0.23-RCE， ThinkPHP5.0.x-5.0.23通杀RCE， Think<br>PHP5-SQL注入&敏感信息泄露， ThinkPHP 3.x 日志泄露NO.1， ThinkPHP <br>3.x 日志泄露NO.2， ThinkPHP 5.x 数据库信息泄露的漏洞检测，以及批<br>量检测的功能。漏洞POC基本适用ThinkPHP全版本漏洞。 |
 | [ThinkphpGUI](https://github.com/Lotus6/ThinkphpGUI) | 1.3 | Thinkphp(GUI)漏洞利用工具，支持各版本TP漏洞检测，命令执行，getsh<br>ell。 |
 | [thinkphp_gui_tools](https://github.com/bewhale/thinkphp_gui_tools) | v2.4.2 | ThinkPHP漏洞综合利用工具, 图形化界面, 命令执行, 一键getshell, 批<br>量检测, 日志遍历, session包含,宝塔绕过 |
 | [Apt_t00ls](https://github.com/White-hua/Apt_t00ls) | v0.6 | 高危漏洞利用工具 |
@@ -698,7 +703,7 @@
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
 | [TomatoTools](https://github.com/ht0Ruial/TomatoTools) | v1.0.2 | TomatoTools 一款CTF杂项利器，支持36种常见编码和密码算法的加密和<br>解密，31种密文的分析和识别，支持自动提取flag，自定义插件等。 |
-| [CyberChef](https://github.com/gchq/CyberChef) | v10.2.0 | The Cyber Swiss Army Knife - a web app for encryption, encoding,<br> compression and data analysis |
+| [CyberChef](https://github.com/gchq/CyberChef) | v10.4.0 | The Cyber Swiss Army Knife - a web app for encryption, encoding,<br> compression and data analysis |
 #### 取证分析
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
