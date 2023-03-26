@@ -421,3 +421,4 @@
 |信息收集|资产测绘采集|https://github.com/Kento-Sec/AsamF|
 |漏洞发现&利用|漏洞发现|https://github.com/x364e3ab6/Dude|
 |信息收集|综合|https://github.com/rabbitmask/AssetsHunter|
+|信息收集|资产测绘采集|https://github.com/Ifory885/fshzqSearch|
