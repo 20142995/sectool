@@ -419,3 +419,4 @@
 |应急响应|知识库|https://github.com/Bypass007/Emergency-Response-Notes|
 |信息收集|反查域名|https://github.com/Potato-py/ipInfoSearch|
 |信息收集|资产测绘采集|https://github.com/Kento-Sec/AsamF|
+|漏洞发现&利用|漏洞发现|https://github.com/x364e3ab6/Dude|
