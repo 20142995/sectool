@@ -1,8 +1,10 @@
-# 更新于 2023-03-26 09:10:42
+# 更新于 2023-03-27 09:02:52
 
 ## 近30天release更新记录
 | 更新时间 | 项目名称 | 版本 | 更新内容 |
 | :---- | :---- | :---- | :---- |
+|2023-03-26 18:30:18|[dbeaver](https://github.com/dbeaver/dbeaver)|23.0.1|- SQL editor:- Results tab now can be d<br>etached- Editor toolbar now can be custo<br>mized in preferences- Query statistics t<br>ab now can be turned off- Table metadata<br> search was improved- SSH:- Support of n<br>ew crypto ciphers was added- SHH agents <br>now works properly in Linux- General UI:<br>- Zoom in text editors and data editors <br>was fixed- Navigator tree refresh after <br>metadata change was fixed- Default font <br>size was increased for MacOS- Text font <br>configuration was fixed in multiple dial<br>og windows- Connection type settings cha<br>nge now affects UI properly- Data export<br>: exporting of BLOB values in TXT format<br> was improved- Native network proxy conf<br>iguration was fixed- TiDB: new driver wa<br>s added (thanks to @Icemap)- Clickhouse:<br> driver version was updated to 0.4.2- Fi<br>rebird: procedure parameters defualt val<br>ues support was added- Oracle: additiona<br>l properties in table info were added- P<br>ostgreSQL: composite data type support w<br>as improved- SQLite: STRICT mode support<br> was added- Sybase/SQL Anywhere: result <br>set size limitation in SQL was fixed- Ve<br>rtica: expired password change feature w<br>as added|
+|2023-03-25 08:08:30|[Dude](https://github.com/x364e3ab6/Dude)|v1.0.0.3|1. 修改了在安装了Edge或Edge WebView2 Ru<br>ntime的情况下，可不用携带BrowserRuntime<br>这个超大文件夹； 2. 修改了内置Edge浏览器<br>的一些功能和显示效果； 3. 修改了“数据爆<br>破”功能中同步多线程的问题，极大的提高了<br>爆破速度； 5. 对插件做出一些细节的调整； <br>4. 修改了一些小Bug。|
 |2023-03-24 22:50:21|[CyberChef](https://github.com/gchq/CyberChef)|v10.4.0|See the [CHANGELOG](https://github.com/<br>gchq/CyberChef/blob/master/CHANGELOG.md)<br> and [commit messages](https://github.co<br>m/gchq/CyberChef/commits/master) for det<br>ails.|
 |2023-03-24 14:57:56|[revsuit](https://github.com/Li4n0/revsuit)|v0.6.0|### Features* support for using Flag-Fi<br>lter request headers to filter the flags<br> that the client expects to receive ([#6<br>4](https://github.com/Li4n0/revsuit/issu<br>es/64)) ([b33de11](https://github.com/Li<br>4n0/revsuit/commit/b33de11ba8f126b03a45a<br>d15cae69331ad59b865)) (Thanks to @whwlsf<br>b)### Bug Fixes* fix static resource loa<br>ding failure after modifying admin_path_<br>prefix ([b76757d](https://github.com/Li4<br>n0/revsuit/commit/b76757da331b56f240ec2a<br>0c69d479f3184bc4c2)), closes [#63](https<br>://github.com/Li4n0/revsuit/issues/63) |
 |2023-03-23 19:59:31|[faker](https://github.com/joke2k/faker)|v18.3.1|See [CHANGELOG.md](https://github.com/j<br>oke2k/faker/blob/refs/tags/v18.3.1/CHANG<br>ELOG.md).|
@@ -39,7 +41,6 @@
 |2023-03-09 04:49:16|[JDumpSpider](https://github.com/whwlsfb/JDumpSpider)|V1.1|- 项目重构，增强不同环境下的兼容性。 - <br>增加类字段的用户信息模糊搜索功能。|
 |2023-03-08 06:18:49|[pentest_report](https://github.com/dbgee/pentest_report)|v1.0.0|First orricial release |
 |2023-03-06 08:47:39|[ElectricRat](https://github.com/linjiananallnt/ElectricRat)|v1.3.0|# 更新说明 1. 新增越权漏洞案例，包含水<br>平、垂直越权。 2. 增加XSS过滤难度 3. 增加<br>SPEL和SSTI结果输出 4. 新增压缩文件自解压<br>案例# TODO - [x] 越权漏洞# 如何更新 1. 将<br> ElectricRat-docker.zip 中的 ElectricRat<br>.war 覆盖之前的 war 包。 2. 重启 docker<br>。sudo docker restart electricrat-web 3. <br>稍等片刻后，访问 http://127.0.0.1:12666/E<br>lectricRat/ |
-|2023-03-05 17:56:39|[dbeaver](https://github.com/dbeaver/dbeaver)|23.0.0|Changes since 22.3.5: - SQL editor:- Co<br>lumn metadata resolution was fixed for q<br>uoted column names- SQL console now resp<br>ects "open separate connection" option- <br>Variables resolve in set and other comma<br>nds was fixed- Copy/paste command was fi<br>xed for editors without associated conne<br>ction - Data editor:- Spatial viewer: la<br>sso tool was fixed for Safari browser- S<br>upport of WKT format stored in BLOB colu<br>mns was added- Issues with image viewer <br>and BLOB columns was fixed (NullPointer <br>error))- Selected columns/rows data expo<br>rt was fixed (issue with BLOB value turn<br>ing into NULL in UI) - Accessibility:- F<br>ont settings are now respected in all ed<br>itors/popups- New keyboard shortcuts sch<br>ema was added "DBeaver Keyboard Only"- M<br>any new keyboard shortcuts were added- C<br>atalog/schema selector now supports keyb<br>oard only mode- Results tab pin/unpin co<br>mmand is now accessible from keyboard (t<br>hanks to hawthorne3341)- Reader texts we<br>re localized - Database dashboard create<br> wizard UI was fixed - Generate SQL dial<br>og now supports connection invalidation <br>- Clickhouse: driver version was updated<br> to 0.4.1 - Dremio: driver version was u<br>pdated to 24.0 - Firebird: table colum c<br>omments support was added - PostgreSQL:-<br> Issue with URL-based connections was re<br>solved (invalid host name)- Execution pl<br>an parameters are now saved - Redshift: <br>varbyte datatype suport was fixed - SQL <br>Server:- UI for Kerberos authentication <br>configuration was fixed- Table colum com<br>ments support was added - French localiz<br>ation was fixed (thanks to alexgille) - <br>Problems with Kerberos were resolved (we<br> have reverted to Java 11)|
 |2023-03-03 01:00:04|[AV_Evasion_Tool](https://github.com/1y0n/AV_Evasion_Tool)|20230303|1. 效果优化|
 |2023-03-01 06:20:26|[Antenna](https://github.com/wuba/Antenna)|v1.3.2|1、优化了任务模块功能逻辑 2、修复python<br>3.6版本不支持socket解析ip的bug|
 |2023-02-28 04:13:35|[OneScan](https://github.com/vaycore/OneScan)|v0.5.2|0.5.2 版本发布，版本更新内容如下：### <br>新增- 主面板新增 Filter 按钮，支持单列、<br>多列过滤规则配置 |
@@ -49,12 +50,15 @@
 ## 近30天commit提交记录
 | 提交时间 | 项目名称 | 更新内容 |
 | :---- | :---- | :---- |
-|2023-03-25 19:18:15|[PocOrExp_in_Github](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-03-26 03:18:15|
-|2023-03-25 14:22:30|[SmsForwarder](https://github.com/pppscn/SmsForwarder)|新增：{{通知Schema}}(英文系统{{SCHEMA}})标签以获取应用<br>通知的Schema（试验性） #272 #276|
+|2023-03-26 21:44:50|[PocOrExp_in_Github](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-03-27 05:44:49|
+|2023-03-26 12:59:39|[ElectricRat](https://github.com/linjiananallnt/ElectricRat)|Update README.md|
+|2023-03-26 07:04:48|[dbeaver](https://github.com/dbeaver/dbeaver)|Merge branch 'devel' of https://github.com/dbeaver/dbe<br>aver into devel|
+|2023-03-26 05:39:20|[SharpWxDump](https://github.com/AdminTest0/SharpWxDump)|Update README.md|
+|2023-03-26 03:21:11|[SmsForwarder](https://github.com/pppscn/SmsForwarder)|新增：issue 提交模板（请务必按照模板填写，避免浪费你我<br>的时间）|
+|2023-03-25 09:27:58|[Dude](https://github.com/x364e3ab6/Dude)|Update README.md|
 |2023-03-25 04:02:31|[IPSearch](https://github.com/SleepingBag945/IPSearch)|Merge pull request #2 from SleepingBag945/add-license-<br>1Create LICENSE|
 |2023-03-25 02:11:10|[Apt_t00ls](https://github.com/White-hua/Apt_t00ls)|Merge pull request #14 from dbgee/patch-1Update cas_cv<br>m_upload.java 文件名校验|
 |2023-03-24 22:41:40|[CyberChef](https://github.com/gchq/CyberChef)|10.4.0|
-|2023-03-24 16:21:34|[dbeaver](https://github.com/dbeaver/dbeaver)|#18300 Return back default buttons to the toolbar (#19<br>476)|
 |2023-03-24 14:54:44|[revsuit](https://github.com/Li4n0/revsuit)|chore: chore(release): 0.6.0|
 |2023-03-24 13:29:02|[sqlmap](https://github.com/sqlmapproject/sqlmap)|Fixes #5370|
 |2023-03-24 10:53:38|[veinmind-tools](https://github.com/chaitin/veinmind-tools)|doc(veinmind-minio):standalone introduce (#214)|
@@ -126,7 +130,6 @@
 |2023-03-08 02:32:40|[cf](https://github.com/teamssix/cf)|Merge pull request #214 from teamssix/betaperf: perf i<br>ssue ci|
 |2023-03-07 08:44:53|[knife](https://github.com/bit4woo/knife)|Update ChineseTab.java|
 |2023-03-07 07:33:10|[Godzilla](https://github.com/BeichenDream/Godzilla)|Update README.md|
-|2023-03-06 08:41:18|[ElectricRat](https://github.com/linjiananallnt/ElectricRat)|Update README.md|
 |2023-03-06 07:44:32|[Awesome-Redteam](https://github.com/Threekiii/Awesome-Redteam)|更新README.md|
 |2023-03-06 07:41:58|[Vulhub-Reproduce](https://github.com/Threekiii/Vulhub-Reproduce)|更新漏洞|
 |2023-03-05 02:02:20|[CN_Nessus_Plugins_I<br>nterface](https://github.com/nszy007/CN_Nessus_Plugins_Interface)|20230301|
@@ -136,10 +139,7 @@
 |2023-02-28 06:05:45|[Awesome-Exploit](https://github.com/Threekiii/Awesome-Exploit)|更新CVE-2023-21839 Exploit|
 |2023-02-28 04:04:03|[OneScan](https://github.com/vaycore/OneScan)|更新说明文档及截图，添加设置过滤规则配置说明；更新版本<br>号0.5.2|
 |2023-02-28 00:18:27|[Platypus](https://github.com/WangYihang/Platypus)|build(deps): bump http-cache-semantics in /web/fronten<br>d (#180)Bumps [http-cache-semantics](https://github.com<br>/kornelski/http-cache-semantics) from 4.1.0 to 4.1.1.- <br>[Release notes](https://github.com/kornelski/http-cache<br>-semantics/releases)- [Commits](https://github.com/korn<br>elski/http-cache-semantics/compare/v4.1.0...v4.1.1)---u<br>pdated-dependencies:- dependency-name: http-cache-seman<br>ticsdependency-type: indirect...Signed-off-by: dependab<br>ot[bot]Co-authored-by: dependabot[bot] |
-|2023-02-26 13:10:45|[go_proxy_pool](https://github.com/pingc0y/go_proxy_pool)|Delete src directory|
-|2023-02-24 13:25:09|[ysomap](https://github.com/wh1t3p1g/ysomap)|update|
-|2023-02-24 08:06:16|[nuclei-plus](https://github.com/Yong-An-Dang/nuclei-plus)|update|
-|2023-02-24 06:58:54|[Intranet_Penetratio<br>n_Tips](https://github.com/Ridter/Intranet_Penetration_Tips)|增加Exchange利用|## 所有项目
+|2023-02-26 13:10:45|[go_proxy_pool](https://github.com/pingc0y/go_proxy_pool)|Delete src directory|## 所有项目
 ### 信息收集
 #### 资产测绘采集
 | 项目名称 | 版本 | 项目描述 |
@@ -148,6 +148,8 @@
 | [ThunderSearch](https://github.com/xzajyjs/ThunderSearch) | v2.3.2 | 【支持Fofa、Zoomeye、Quake等网络空间搜索引擎】闪电搜索器；GUI图<br>形化渗透测试信息搜集工具；资产搜集引擎 |
 | [Search_Viewer](https://github.com/G3et/Search_Viewer) | v2.0 | 集Fofa、Hunter鹰图、Shodan、360 quake、Zoomeye 钟馗之眼为一体的g<br>ui图形界面化工具 |
 | [koko-moni](https://github.com/burpheart/koko-moni) | v0.0.1 | 一个网络空间搜索引擎监控平台，可定时进行资产信息爬取，及时发现新<br>增资产，本项目聚合了 Fofa、Hunter、Quake、Zoomeye 和 Threatbook 的<br>数据源，并对获取到的数据进行去重与清洗 |
+| [AsamF](https://github.com/Kento-Sec/AsamF) | v0.1.10 | AsamF是集成Fofa、Quake、Hunter、Shodan、Zoomeye、Chinaz、0.zone<br>及爱企查的一站式企业信息资产收集、网络资产测绘工具。 |
+| [fshzqSearch](https://github.com/Ifory885/fshzqSearch) |  | fofa、shodan、hunter、zoomeye、quake网络空间搜索引擎聚合搜索，并<br>对结果进行finger指纹识别。 |
 #### 子域名收集
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
@@ -189,6 +191,7 @@
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
 | [dismap](https://github.com/zhzyker/dismap) | v0.4 | Asset discovery and identification tools 快速识别 Web 指纹信息，<br>定位资产类型。辅助红队快速定位目标资产信息，辅助蓝队发现疑似脆弱点 |
+| [AssetsHunter](https://github.com/rabbitmask/AssetsHunter) |  | 资产狩猎框架-AssetsHunter，信息收集是一项艺术~ |
 #### 自动化信息收集
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
@@ -456,6 +459,10 @@
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
 | [noterce](https://github.com/xiao-zhu-zhu/noterce) | v1.1 | 一种另辟蹊径的免杀执行系统命令的木马 |
+#### 漏洞发现
+| 项目名称 | 版本 | 项目描述 |
+| :---- | :---- | :---- |
+| [Dude](https://github.com/x364e3ab6/Dude) | v1.0.0.3 | Dude (大佬) WEB渗透测试辅助工具 |
 ### 内网渗透
 #### 密码提取
 | 项目名称 | 版本 | 项目描述 |
@@ -776,7 +783,7 @@
 | :---- | :---- | :---- |
 | [faker](https://github.com/joke2k/faker) | v18.3.1 | Faker is a Python package that generates fake data for you. |
 | [SmsForwarder](https://github.com/pppscn/SmsForwarder) | v3.2.0 | 短信转发器——监控Android手机短信、来电、APP通知，并根据指定规则<br>转发到其他手机：钉钉群自定义机器人、钉钉企业内机器人、企业微信群机<br>器人、飞书机器人、企业微信应用消息、邮箱、bark、webhook、Telegram<br>机器人、Server酱、PushPlus、手机短信等。包括主动控制服务端与客户端<br>，让你轻松远程发短信、查短信、查通话、查话簿、查电量等。（V3.0 新<br>增）PS.这个APK主要是学习与自用，如有BUG请提ISSUE，同时欢迎大家提PR<br>指正 |
-| [dbeaver](https://github.com/dbeaver/dbeaver) | 23.0.0 | Free universal database tool and SQL client |
+| [dbeaver](https://github.com/dbeaver/dbeaver) | 23.0.1 | Free universal database tool and SQL client |
 | [MySQLMonitor](https://github.com/TheKingOfDuck/MySQLMonitor) | 1.0 | MySQL实时监控工具(代码审计/黑盒/白盒审计辅助工具) |
 #### 渗透测试报告辅助
 | 项目名称 | 版本 | 项目描述 |
@@ -843,4 +850,4 @@
 #### web靶场
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
-| [ElectricRat](https://github.com/linjiananallnt/ElectricRat) | v1.3.0 | 电气鼠靶场系统是一种带有漏洞的Web应用程序，旨在为Web安全渗透测试<br>学习者提供学习和实践的机会。 |
+| [ElectricRat](https://github.com/linjiananallnt/ElectricRat) | v1.3.0 | 电气鼠靶场系统是一种带有漏洞的Web应用程序，旨在为Web安全渗透测试<br>学习者提供学习和实践的机会。The Electrical Mouse Target Range Syst<br>em is a web application with vulnerabilities designed to provide <br>learning and practice opportunities for web security penetration <br>testing learners. |
