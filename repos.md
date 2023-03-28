@@ -422,3 +422,7 @@
 |漏洞发现&利用|漏洞发现|https://github.com/x364e3ab6/Dude|
 |信息收集|综合|https://github.com/rabbitmask/AssetsHunter|
 |信息收集|资产测绘采集|https://github.com/Ifory885/fshzqSearch|
+|漏洞发现&利用|重点CMS利用|https://github.com/li8u99/yonyou_exp_plus|
+|漏洞发现&利用|信息泄露漏洞利用|https://github.com/NS-Sp4ce/AliyunAccessKeyTools|
+|漏洞发现&利用|数据库利用|https://github.com/Hel10-Web/Databasetools|
+|信息收集|域名信息查询|https://github.com/z-bool/QueryTools|
