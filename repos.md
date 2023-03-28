@@ -426,3 +426,4 @@
 |漏洞发现&利用|信息泄露漏洞利用|https://github.com/NS-Sp4ce/AliyunAccessKeyTools|
 |漏洞发现&利用|数据库利用|https://github.com/Hel10-Web/Databasetools|
 |信息收集|域名信息查询|https://github.com/z-bool/QueryTools|
+|信息收集|apk|https://github.com/TheKingOfDuck/ApkAnalyser|
