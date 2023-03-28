@@ -1,14 +1,16 @@
-# 更新于 2023-03-27 09:02:52
+# 更新于 2023-03-28 09:06:31
 
 ## 近30天release更新记录
 | 更新时间 | 项目名称 | 版本 | 更新内容 |
 | :---- | :---- | :---- | :---- |
+|2023-03-27 06:46:36|[Antenna](https://github.com/wuba/Antenna)|v1.3.4|1、增加OPENAPI 消息ORDER_DESC 参数 2、<br>优化了工具方法逻辑，修复了一些已知的问题 <br>3、为Python SDK 做接口适配开发|
+|2023-03-27 06:29:07|[veinmind-tools](https://github.com/chaitin/veinmind-tools)|v2.1.0|- 支持使用 openai 分析扫描结果|
+|2023-03-27 03:13:57|[Exp-Tools](https://github.com/cseroad/Exp-Tools)|v1.1.4|- 新增Yongyou-U8 AppProxy 文件上传漏洞 <br>- 新增用友KSOA Attachment 文件写入漏洞 -<br> 新增致远后台模板管理器文件上传漏洞 - 修<br>复多个bug|
 |2023-03-26 18:30:18|[dbeaver](https://github.com/dbeaver/dbeaver)|23.0.1|- SQL editor:- Results tab now can be d<br>etached- Editor toolbar now can be custo<br>mized in preferences- Query statistics t<br>ab now can be turned off- Table metadata<br> search was improved- SSH:- Support of n<br>ew crypto ciphers was added- SHH agents <br>now works properly in Linux- General UI:<br>- Zoom in text editors and data editors <br>was fixed- Navigator tree refresh after <br>metadata change was fixed- Default font <br>size was increased for MacOS- Text font <br>configuration was fixed in multiple dial<br>og windows- Connection type settings cha<br>nge now affects UI properly- Data export<br>: exporting of BLOB values in TXT format<br> was improved- Native network proxy conf<br>iguration was fixed- TiDB: new driver wa<br>s added (thanks to @Icemap)- Clickhouse:<br> driver version was updated to 0.4.2- Fi<br>rebird: procedure parameters defualt val<br>ues support was added- Oracle: additiona<br>l properties in table info were added- P<br>ostgreSQL: composite data type support w<br>as improved- SQLite: STRICT mode support<br> was added- Sybase/SQL Anywhere: result <br>set size limitation in SQL was fixed- Ve<br>rtica: expired password change feature w<br>as added|
 |2023-03-25 08:08:30|[Dude](https://github.com/x364e3ab6/Dude)|v1.0.0.3|1. 修改了在安装了Edge或Edge WebView2 Ru<br>ntime的情况下，可不用携带BrowserRuntime<br>这个超大文件夹； 2. 修改了内置Edge浏览器<br>的一些功能和显示效果； 3. 修改了“数据爆<br>破”功能中同步多线程的问题，极大的提高了<br>爆破速度； 5. 对插件做出一些细节的调整； <br>4. 修改了一些小Bug。|
 |2023-03-24 22:50:21|[CyberChef](https://github.com/gchq/CyberChef)|v10.4.0|See the [CHANGELOG](https://github.com/<br>gchq/CyberChef/blob/master/CHANGELOG.md)<br> and [commit messages](https://github.co<br>m/gchq/CyberChef/commits/master) for det<br>ails.|
 |2023-03-24 14:57:56|[revsuit](https://github.com/Li4n0/revsuit)|v0.6.0|### Features* support for using Flag-Fi<br>lter request headers to filter the flags<br> that the client expects to receive ([#6<br>4](https://github.com/Li4n0/revsuit/issu<br>es/64)) ([b33de11](https://github.com/Li<br>4n0/revsuit/commit/b33de11ba8f126b03a45a<br>d15cae69331ad59b865)) (Thanks to @whwlsf<br>b)### Bug Fixes* fix static resource loa<br>ding failure after modifying admin_path_<br>prefix ([b76757d](https://github.com/Li4<br>n0/revsuit/commit/b76757da331b56f240ec2a<br>0c69d479f3184bc4c2)), closes [#63](https<br>://github.com/Li4n0/revsuit/issues/63) |
 |2023-03-23 19:59:31|[faker](https://github.com/joke2k/faker)|v18.3.1|See [CHANGELOG.md](https://github.com/j<br>oke2k/faker/blob/refs/tags/v18.3.1/CHANG<br>ELOG.md).|
-|2023-03-23 16:01:22|[veinmind-tools](https://github.com/chaitin/veinmind-tools)|v2.0.7|- 新增 veinmind-minio 插件|
 |2023-03-22 04:31:21|[rengine](https://github.com/yogeshojha/rengine)|v1.3.6|Fixed Various Installation Errors Fixed<br> Naabu Port Scanning Issue|
 |2023-03-21 08:33:17|[ENScan_GO](https://github.com/wgpsec/ENScan_GO)|0.0.10|- 修复爱企查查询页数bug|
 |2023-03-21 06:22:36|[pocsuite3](https://github.com/knownsec/pocsuite3)|v2.0.3|* 优化对 URL 协议的自动纠正 #356，感谢 <br>@chenjiewei123 * 支持通过 --no-check 选<br>项禁用 URL 协议自动纠正和蜜罐检查 -------<br>---------* optimized URL protocol correc<br>tion #356, thanks @chenjiewei123 * suppo<br>rt disable protocol correction and honey<br>pot checks through --no-check option|
@@ -23,7 +25,6 @@
 |2023-03-17 08:52:34|[HackTools](https://github.com/Vicl1fe/HackTools)|1.4|新增FindReport、jasypt解密功能|
 |2023-03-17 08:22:08|[ARL](https://github.com/TophantTechnology/ARL)|v2.5.4|## 更新和优化 1. 优化泛解析域名爆破流程<br> 2. 修复nuclei 在执行时可能出现一个错误 <br>#481 3. nuclei版本更新 4. 截图生成文件名<br>正则优化 #498 5. 域名插件crt.sh，hunter_q<br>ax等优化 6. 修复302 URL过长导致入库失败<br>问题 @原来是老王 @ki9mu## 更新方法：docke<br>r-compose pull docker-dompose down docke<br>r-dompose up -d## 重装参考： [卸载并重装<br>](https://tophanttechnology.github.io/AR<br>L-doc/faq/#12-docker) |
 |2023-03-16 18:36:03|[nuclei](https://github.com/projectdiscovery/nuclei)|v2.9.0|## What's Changed* Added support for te<br>mplates in JSON format by @CodFrm in htt<br>ps://github.com/projectdiscovery/nuclei/<br>pull/3333 * Added template sign/verify f<br>unctionality by @Mzack9999 in https://gi<br>thub.com/projectdiscovery/nuclei/pull/30<br>29 * Added -track-error option to add cu<br>stom errors to max-host-error watch list<br> by @austintraver in https://github.com/<br>projectdiscovery/nuclei/pull/3399 * Adde<br>d data race panic check in integration_t<br>ests by @tarunKoyalwar in https://github<br>.com/projectdiscovery/nuclei/pull/3303 *<br> Added CLI option to override fuzzing te<br>mplate options by @ShubhamRasal in https<br>://github.com/projectdiscovery/nuclei/pu<br>ll/3355 * Added ip_formats() helper func<br>tion by @xm1k3 in https://github.com/pro<br>jectdiscovery/nuclei/pull/3286 * Added r<br>esolve() helper function by @xm1k3 in ht<br>tps://github.com/projectdiscovery/nuclei<br>/pull/3321 * Added rawstringslice to mak<br>e reference url case insensitive by @Bis<br>stocuz in https://github.com/projectdisc<br>overy/nuclei/pull/3346 * Fixed a bug wit<br>h OR matcher condition with interactsh b<br>y @RamanaReddy0M in https://github.com/p<br>rojectdiscovery/nuclei/pull/3397 * Fixed<br> set-method option in headless template <br>by @Mzack9999 in https://github.com/proj<br>ectdiscovery/nuclei/pull/3373 * Fixed at<br>omic bool check by @Mzack9999 in https:/<br>/github.com/projectdiscovery/nuclei/pull<br>/3376 * Fixed bug in URL path and adds i<br>ntegration tests by @tarunKoyalwar in ht<br>tps://github.com/projectdiscovery/nuclei<br>/pull/3331 * Fixed crash with interactsh<br> integration by @Mzack9999 in https://gi<br>thub.com/projectdiscovery/nuclei/pull/33<br>12 * Fixed data race when using interact<br>sh_matchers by @tarunKoyalwar in https:/<br>/github.com/projectdiscovery/nuclei/pull<br>/3432 * Fixed file input in custom vars <br>with self-contained http template by @ta<br>runKoyalwar in https://github.com/projec<br>tdiscovery/nuclei/pull/3385 * Fixed miss<br>ing port in matched ssl templates by @ta<br>runKoyalwar in https://github.com/projec<br>tdiscovery/nuclei/pull/3380 * Fixed nil <br>pointer reference + use map helper by @M<br>zack9999 in https://github.com/projectdi<br>scovery/nuclei/pull/3421 * Fixed parseUr<br>l test by @ShubhamRasal in https://githu<br>b.com/projectdiscovery/nuclei/pull/3426 <br>* Fixed typo in -hc option by @sullo in <br>https://github.com/projectdiscovery/nucl<br>ei/pull/3400Issues closed in release - h<br>ttps://github.com/projectdiscovery/nucle<br>i/milestone/27## New Contributors * @nor<br>aj made their first contribution in http<br>s://github.com/projectdiscovery/nuclei/p<br>ull/3162 * @Bisstocuz made their first c<br>ontribution in https://github.com/projec<br>tdiscovery/nuclei/pull/3346 * @CodFrm ma<br>de their first contribution in https://g<br>ithub.com/projectdiscovery/nuclei/pull/3<br>333 * @austintraver made their first con<br>tribution in https://github.com/projectd<br>iscovery/nuclei/pull/3399 * @RamanaReddy<br>0M made their first contribution in http<br>s://github.com/projectdiscovery/nuclei/p<br>ull/3397**Full Changelog**: https://gith<br>ub.com/projectdiscovery/nuclei/compare/v<br>2.8.9...v2.9.0|
-|2023-03-16 01:24:36|[Exp-Tools](https://github.com/cseroad/Exp-Tools)|v1.1.3|Update README.md|
 |2023-03-15 08:50:17|[Elkeid](https://github.com/bytedance/Elkeid)|scanner-v<br>2.2.0.1_20<br>230315||
 |2023-03-14 14:33:27|[RequestTemplate](https://github.com/1n7erface/RequestTemplate)|v1.1.3|2023.3.14 22:30 1.解决了一个POC在运行过<br>程中线程提前中断的bug|
 |2023-03-14 06:26:44|[captcha-killer-modi<br>fied](https://github.com/f0ng/captcha-killer-modified)|0.22|【2023-3-14】 0.22 重要问题修复 - 修复<br>了装载插件会影响proxy选项卡的问题|
@@ -42,17 +43,24 @@
 |2023-03-08 06:18:49|[pentest_report](https://github.com/dbgee/pentest_report)|v1.0.0|First orricial release |
 |2023-03-06 08:47:39|[ElectricRat](https://github.com/linjiananallnt/ElectricRat)|v1.3.0|# 更新说明 1. 新增越权漏洞案例，包含水<br>平、垂直越权。 2. 增加XSS过滤难度 3. 增加<br>SPEL和SSTI结果输出 4. 新增压缩文件自解压<br>案例# TODO - [x] 越权漏洞# 如何更新 1. 将<br> ElectricRat-docker.zip 中的 ElectricRat<br>.war 覆盖之前的 war 包。 2. 重启 docker<br>。sudo docker restart electricrat-web 3. <br>稍等片刻后，访问 http://127.0.0.1:12666/E<br>lectricRat/ |
 |2023-03-03 01:00:04|[AV_Evasion_Tool](https://github.com/1y0n/AV_Evasion_Tool)|20230303|1. 效果优化|
-|2023-03-01 06:20:26|[Antenna](https://github.com/wuba/Antenna)|v1.3.2|1、优化了任务模块功能逻辑 2、修复python<br>3.6版本不支持socket解析ip的bug|
 |2023-02-28 04:13:35|[OneScan](https://github.com/vaycore/OneScan)|v0.5.2|0.5.2 版本发布，版本更新内容如下：### <br>新增- 主面板新增 Filter 按钮，支持单列、<br>多列过滤规则配置 |
 |2023-02-26 13:06:58|[go_proxy_pool](https://github.com/pingc0y/go_proxy_pool)|2022.11.2<br>2|2022.11.22|
 |2023-02-26 07:27:26|[mitaka](https://github.com/ninoseki/mitaka)|v1.0.0|- Migrate to the Manifest V3 (#703) - R<br>eplace Mocha, Chai and Sinon with Jest (<br>#703) |
-|2023-02-26 00:35:49|[qsnctf-python](https://github.com/Moxin1044/qsnctf-python)|0.0.8.9|更新了之前版本不存在的Web请求timeout导<br>致扫描时间过长，在0.0.8.9版本已修复此问题<br>。 您甚至可以指定timeout，感谢问题反馈！|
 ## 近30天commit提交记录
 | 提交时间 | 项目名称 | 更新内容 |
 | :---- | :---- | :---- |
-|2023-03-26 21:44:50|[PocOrExp_in_Github](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-03-27 05:44:49|
+|2023-03-28 01:00:17|[NucleiTP](https://github.com/ExpLangcn/NucleiTP)|更新啦❤️|
+|2023-03-27 22:44:18|[PocOrExp_in_Github](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-03-28 06:44:18|
+|2023-03-27 19:27:23|[RsaCtfTool](https://github.com/RsaCtfTool/RsaCtfTool)|get rid of cm_factor: duplicates qicheng|
+|2023-03-27 16:29:26|[dbeaver](https://github.com/dbeaver/dbeaver)|CB-1575 db2 application objects node path fix (#19449)<br>Co-authored-by: dariamarutkina |
+|2023-03-27 08:51:50|[Exp-Tools](https://github.com/cseroad/Exp-Tools)|Update README.md|
+|2023-03-27 07:38:18|[Aazhen-RexHa](https://github.com/zangcc/Aazhen-RexHa)|Update README.md|
+|2023-03-27 05:14:41|[ysoserial](https://github.com/su18/ysoserial)|添加 hide type 3 ，通过封装一个带有假信息的 ClassLoade<br>r 来试图逃避检测|
+|2023-03-27 04:58:11|[404StarLink](https://github.com/knownsec/404StarLink)|weekly update at 2023-03-27|
+|2023-03-27 04:16:49|[veinmind-tools](https://github.com/chaitin/veinmind-tools)|feat(veinmind-ai): support openai (#215)* feat(veinmin<br>d-ai): support openai* fix(libveinmind): update 1.9.4* <br>fix(ai): change flags name* fix(libveinmind): downgrade<br> python-common 1.5.1|
+|2023-03-27 04:02:46|[faker](https://github.com/joke2k/faker)|Update README.rst (#1832)|
+|2023-03-27 03:07:26|[vulnerability](https://github.com/lal0ne/vulnerability)|QVD-2023-6271|
 |2023-03-26 12:59:39|[ElectricRat](https://github.com/linjiananallnt/ElectricRat)|Update README.md|
-|2023-03-26 07:04:48|[dbeaver](https://github.com/dbeaver/dbeaver)|Merge branch 'devel' of https://github.com/dbeaver/dbe<br>aver into devel|
 |2023-03-26 05:39:20|[SharpWxDump](https://github.com/AdminTest0/SharpWxDump)|Update README.md|
 |2023-03-26 03:21:11|[SmsForwarder](https://github.com/pppscn/SmsForwarder)|新增：issue 提交模板（请务必按照模板填写，避免浪费你我<br>的时间）|
 |2023-03-25 09:27:58|[Dude](https://github.com/x364e3ab6/Dude)|Update README.md|
@@ -61,17 +69,12 @@
 |2023-03-24 22:41:40|[CyberChef](https://github.com/gchq/CyberChef)|10.4.0|
 |2023-03-24 14:54:44|[revsuit](https://github.com/Li4n0/revsuit)|chore: chore(release): 0.6.0|
 |2023-03-24 13:29:02|[sqlmap](https://github.com/sqlmapproject/sqlmap)|Fixes #5370|
-|2023-03-24 10:53:38|[veinmind-tools](https://github.com/chaitin/veinmind-tools)|doc(veinmind-minio):standalone introduce (#214)|
-|2023-03-24 10:15:15|[NucleiTP](https://github.com/ExpLangcn/NucleiTP)|更新啦❤️|
-|2023-03-24 09:11:57|[Aazhen-RexHa](https://github.com/zangcc/Aazhen-RexHa)|Update README.md|
 |2023-03-24 06:08:16|[Antenna](https://github.com/wuba/Antenna)|Merge pull request #99 from wuba/developDevelop|
 |2023-03-24 06:02:17|[iDefender](https://github.com/wecooperate/iDefender)|update|
 |2023-03-24 03:24:58|[domain_hunter_pro](https://github.com/bit4woo/domain_hunter_pro)|Update LineTableModel.java|
-|2023-03-24 03:06:31|[vulnerability](https://github.com/lal0ne/vulnerability)|CVE-2023-1454|
 |2023-03-24 02:43:38|[CodeQLpy](https://github.com/webraybtl/CodeQLpy)|修复SpringBoot下包名不正确的bug|
 |2023-03-24 02:24:02|[MagiCude](https://github.com/er10yi/MagiCude)|Update README.md|
 |2023-03-24 01:22:46|[afrog](https://github.com/zan8in/afrog)|update contribute|
-|2023-03-23 19:58:14|[faker](https://github.com/joke2k/faker)|Bump version: 18.3.0 → 18.3.1|
 |2023-03-23 14:40:56|[K8tools](https://github.com/k8gege/K8tools)|Add files via upload|
 |2023-03-23 14:23:13|[Umi-OCR](https://github.com/hiroi-sora/Umi-OCR)|更正注释|
 |2023-03-23 08:48:47|[Vuln-List](https://github.com/wwl012345/Vuln-List)|Update 中间件&框架&平台&第三方服务漏洞.md|
@@ -81,7 +84,6 @@
 |2023-03-22 06:35:17|[noterce](https://github.com/xiao-zhu-zhu/noterce)|Update README.md|
 |2023-03-22 05:37:07|[yarx](https://github.com/zema1/yarx)|feat: update dep (#12)* feat: update dep* feat: update<br> workflow|
 |2023-03-22 04:15:15|[rengine](https://github.com/yogeshojha/rengine)|Merge pull request #734 from thebigbone/mastercheck if<br> docker is running on systems without systemd|
-|2023-03-22 04:03:58|[ysoserial](https://github.com/su18/ysoserial)|添加 RMIRegistryExploit|
 |2023-03-22 01:55:58|[JDumpSpider](https://github.com/whwlsfb/JDumpSpider)|Create compile.yml|
 |2023-03-21 08:26:52|[ENScan_GO](https://github.com/wgpsec/ENScan_GO)|修复爱企查查询bug fix #49|
 |2023-03-21 08:07:56|[QingTing](https://github.com/StarCrossPortal/QingTing)|reset readme.md|
@@ -89,7 +91,6 @@
 |2023-03-21 05:43:56|[HackTools](https://github.com/Vicl1fe/HackTools)|新增FineReport|
 |2023-03-21 03:01:52|[log4j2burpscanner](https://github.com/f0ng/log4j2burpscanner)|Update FAQ-zh-CN.md|
 |2023-03-21 01:09:28|[poc-hub](https://github.com/ybdt/poc-hub)|整理|
-|2023-03-20 02:37:28|[404StarLink](https://github.com/knownsec/404StarLink)|weekly update at 2023-03-20|
 |2023-03-20 02:18:18|[ipInfoSearch](https://github.com/Potato-py/ipInfoSearch)|修复window创建文档失败bug、增加低性能电脑运行错误的修<br>补readme|
 |2023-03-20 02:09:42|[0day](https://github.com/helloexp/0day)|add Apache CouchDB 3.2.1 RCE|
 |2023-03-20 01:53:40|[OA-EXPTOOL](https://github.com/LittleBear4/OA-EXPTOOL)|Update scan.py|
@@ -104,8 +105,6 @@
 |2023-03-17 08:24:41|[ARL](https://github.com/TophantTechnology/ARL)|Merge pull request #505 from TophantTechnology/update/<br>docUpdate Readme.md|
 |2023-03-17 06:17:13|[murphysec](https://github.com/murphysecurity/murphysec)|Merge pull request #148 from murphysecurity/dependabot<br>/go_modules/github.com/go-git/go-git/v5-5.6.1|
 |2023-03-17 04:34:11|[BurpCrypto](https://github.com/whwlsfb/BurpCrypto)|enhance rsa exponent logic.|
-|2023-03-17 00:49:24|[RsaCtfTool](https://github.com/RsaCtfTool/RsaCtfTool)|Update williams_pp1.py|
-|2023-03-16 01:27:01|[Exp-Tools](https://github.com/cseroad/Exp-Tools)|Update README.md|
 |2023-03-15 02:33:56|[nemo_go](https://github.com/hanc00l/nemo_go)|Fix: ip_http and domain_http SaveOrUpdate function|
 |2023-03-14 23:44:28|[gshark](https://github.com/madneal/gshark)|Merge pull request #149 from madneal/dependabot/npm_an<br>d_yarn/web/webpack-5.76.0Bump webpack from 5.69.1 to 5.<br>76.0 in /web|
 |2023-03-14 21:39:08|[Hack-Tools](https://github.com/LasCC/Hack-Tools)|splitting webpack chunks + fixing zipping for firefox|
@@ -327,14 +326,14 @@
 | [DNSlog-GO](https://github.com/lanyi1998/DNSlog-GO) | 1.5.2 | DNSLog-GO 是一款golang编写的监控 DNS 解析记录的工具，自带WEB界面 |
 | [godnslog](https://github.com/chennqqi/godnslog) | v0.7.0 | An exquisite dns&http log server for verify SSRF/XXE/RFI/RCE vul<br>nerability  |
 | [ysomap](https://github.com/wh1t3p1g/ysomap) | v0.1.3 | A helpful Java Deserialization exploit framework. |
-| [Antenna](https://github.com/wuba/Antenna) | v1.3.2 | Antenna是58同城安全团队打造的一款辅助安全从业人员验证网络中多种<br>漏洞是否存在以及可利用性的工具。其基于带外应用安全测试(OAST)通过任<br>务的形式，将不同漏洞场景检测能力通过插件的形式进行集合，通过与目标<br>进行out-bind的数据通信方式进行辅助检测。 |
+| [Antenna](https://github.com/wuba/Antenna) | v1.3.4 | Antenna是58同城安全团队打造的一款辅助安全从业人员验证网络中多种<br>漏洞是否存在以及可利用性的工具。其基于带外应用安全测试(OAST)通过任<br>务的形式，将不同漏洞场景检测能力通过插件的形式进行集合，通过与目标<br>进行out-bind的数据通信方式进行辅助检测。 |
 | [cola_dnslog](https://github.com/AbelChe/cola_dnslog) | v1.3.2 | Cola Dnslog v1.3.2 更加强大的dnslog平台/无回显漏洞探测辅助平台 <br>完全开源 dnslog httplog ldaplog rmilog 支持dns http ldap rmi等协议<br> 提供API调用方式便于与其他工具结合 支持钉钉机器人、Bark等提醒 支<br>持docker一键部署 后端完全使用python实现 前端基于vue-element-admin<br>二开 |
 | [ddddocr](https://github.com/sml2h3/ddddocr) |  | 带带弟弟 通用验证码识别OCR pypi版 |
 | [ysoserial](https://github.com/su18/ysoserial) | v1.5 | ysoserial for su18 |
 | [JNDIExploit](https://github.com/WhiteHSBG/JNDIExploit) | v1.4 | 对原版https://github.com/feihong-cs/JNDIExploit 进行了实用化修改 |
 | [JNDIExploit-1](https://github.com/Mr-xn/JNDIExploit-1) | v1.2 | 一款用于 JNDI注入 利用的工具，大量参考/引用了 Rogue JNDI 项目的<br>代码，支持直接植入内存shell，并集成了常见的bypass 高版本JDK的方式<br>，适用于与自动化工具配合使用。（from https://github.com/feihong-cs<br>/JNDIExploit） |
 | [JNDIExploit](https://github.com/0x727/JNDIExploit) | 1.1 | 一款用于JNDI注入利用的工具，大量参考/引用了Rogue JNDI项目的代码<br>，支持直接植入内存shell，并集成了常见的bypass 高版本JDK的方式，适<br>用于与自动化工具配合使用。 |
-| [Exp-Tools](https://github.com/cseroad/Exp-Tools) | v1.1.3 | 一款集成各种exp的实用性工具 |
+| [Exp-Tools](https://github.com/cseroad/Exp-Tools) | v1.1.4 | 一款集成各种exp的实用性工具 |
 #### 重点CMS利用
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
@@ -435,7 +434,7 @@
 #### 容器漏洞扫描
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
-| [veinmind-tools](https://github.com/chaitin/veinmind-tools) | v2.0.7 | veinmind-tools 是由长亭科技自研，基于 veinmind-sdk 打造的容器安<br>全工具集 |
+| [veinmind-tools](https://github.com/chaitin/veinmind-tools) | v2.1.0 | veinmind-tools 是由长亭科技自研，基于 veinmind-sdk 打造的容器安<br>全工具集 |
 #### 容器漏洞利用
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
