@@ -96,8 +96,8 @@
             "https://github.com/gwen001/github-subdomains": {
                 "created_at": "2020-07-24 06:54:29",
                 "description": "Find subdomains on GitHub.",
-                "commit_date": "2023-02-09 13:53:02",
-                "commit_message": "v1.2.2",
+                "commit_date": "2023-03-28 15:47:04",
+                "commit_message": "readme",
                 "release_tag": "v1.2.2",
                 "release_date": "2023-02-09 13:53:05",
                 "release_message": ""
@@ -443,7 +443,7 @@
                 "commit_message": "Merge pull request #505 from TophantTechnology/update/doc\n\nUpdate Readme.md",
                 "release_tag": "v2.5.4",
                 "release_date": "2023-03-17 08:22:08",
-                "release_message": "## 更新和优化 1. 优化泛解析域名爆破流程 2. 修复nuclei 在执行时可能出现一个错误 #481 3. nuclei版本更新 4. 截图生成文件名正则优化 #498 5. 域名插件crt.sh，hunter_qax等优化 6. 修复302 URL过长导致入库失败问题 @原来是老王 @ki9mu  ## 更新方法： ``` docker-compose pull docker-dompose down docker-dompose up -d ```  ## 重装参考： [卸载并重装](https://tophanttechnology.github.io/ARL-doc/faq/#12-docker) "
+                "release_message": "## 更新和优化 1. 优化泛解析域名爆破流程 2. 修复nuclei 在执行时可能出现一个错误 #481 3. nuclei版本更新 4. 截图生成文件名正则优化 #498 5. 域名插件crt.sh，hunter_qax等优化 6. 修复302 URL过长导致入库失败问题 @原来是老王 @ki9mu  ## 更新方法： ``` docker-compose pull docker-compose down docker-compose up -d ```  ## 重装参考： [卸载并重装](https://tophanttechnology.github.io/ARL-doc/faq/#12-docker) "
             },
             "https://github.com/awake1t/linglong": {
                 "created_at": "2020-09-08 16:56:37",
@@ -599,6 +599,28 @@
                 "release_date": "",
                 "release_message": ""
             }
+        },
+        "域名信息查询": {
+            "https://github.com/z-bool/QueryTools": {
+                "created_at": "2023-01-16 07:41:42",
+                "description": "IP/域名资产验证神器(补天|权重、CNVD|注册资金)-功能(IP反查域名、域名备案、ICP资产、公司注册资金、权重、IP定位)快速验证是否为需求资产",
+                "commit_date": "2023-02-18 06:56:46",
+                "commit_message": "2023.2.18更新",
+                "release_tag": "",
+                "release_date": "",
+                "release_message": ""
+            }
+        },
+        "apk": {
+            "https://github.com/TheKingOfDuck/ApkAnalyser": {
+                "created_at": "2020-02-21 13:42:23",
+                "description": "一键提取安卓应用中可能存在的敏感信息。",
+                "commit_date": "2021-10-21 02:33:58",
+                "commit_message": "Merge pull request #8 from 0x24bin/master\n\nUpdate apkAnalyser.py",
+                "release_tag": "",
+                "release_date": "",
+                "release_message": ""
+            }
         }
     },
     "漏洞发现&利用": {
@@ -671,8 +693,8 @@
             "https://github.com/zan8in/afrog": {
                 "created_at": "2022-02-24 06:00:32",
                 "description": "A Vulnerability Scanning Tools For Penetration Testing",
-                "commit_date": "2023-03-24 01:22:46",
-                "commit_message": "update contribute",
+                "commit_date": "2023-03-29 00:47:41",
+                "commit_message": "CVE-2020-7961",
                 "release_tag": "v2.2.1",
                 "release_date": "2023-02-04 14:54:34",
                 "release_message": "Merge many fingerprint pocs into the panel-detect.yaml file to reduce the number of http requests Console  print date format, 2023-01-01 changed to 01-01 Simplified afrog-config configuration  Fixed: invalid `-fc` configuration Tip: Configure the `-c` command, which can increase the concurrency speed very quickly  -----------------------------------------------------------------------------  将多个 panel 指纹探测合并到文件 panel-detect.yaml，大幅减少 http 请求 精简控制台日期打印，2023-01-01 改为 01-01 精简 afrog-config 配置信息  解决：`-fc` 命令配置无效问题 提示：配置 `-c` 命令能明显提高扫描速度"
@@ -860,6 +882,15 @@
                 "release_tag": "",
                 "release_date": "",
                 "release_message": ""
+            },
+            "https://github.com/Hel10-Web/Databasetools": {
+                "created_at": "2023-01-30 15:16:50",
+                "description": "一款用Go语言编写的数据库自动化提权工具，支持Mysql、MSSQL、Postgresql、Oracle、Redis数据库提权、命令执行、爆破以及ssh连接",
+                "commit_date": "2023-02-19 10:42:49",
+                "commit_message": "更新错误处理",
+                "release_tag": "1.2",
+                "release_date": "2023-02-19 10:47:57",
+                "release_message": "更新部分错误处理，增加mac版本"
             }
         },
         "Shell管理": {
@@ -1381,6 +1412,15 @@
                 "release_tag": "v0.6",
                 "release_date": "2023-03-12 16:51:05",
                 "release_message": "H3C 任意文件上传 致远帆软组件任意文件上传 nacos任意用户添加 帆软任意文件上传 用友GRP_U8任意文件上传 用友KSOA任意文件上传rce -- 0day  漏洞作者 https://github.com/cdxiaodong"
+            },
+            "https://github.com/li8u99/yonyou_exp_plus": {
+                "created_at": "2022-01-21 08:49:07",
+                "description": "用友系列全漏洞检测工具",
+                "commit_date": "2023-02-27 02:44:41",
+                "commit_message": "更新请求异常处理",
+                "release_tag": "",
+                "release_date": "",
+                "release_message": ""
             }
         },
         "信息泄露利用": {
@@ -1661,8 +1701,8 @@
             "https://github.com/ycdxsb/PocOrExp_in_Github": {
                 "created_at": "2021-04-13 05:46:16",
                 "description": "聚合Github上已有的Poc或者Exp，CVE信息来自CVE官网。Auto Collect Poc Or Exp from Github by CVE ID.",
-                "commit_date": "2023-03-27 22:44:18",
-                "commit_message": "update 2023-03-28 06:44:18",
+                "commit_date": "2023-03-28 22:53:52",
+                "commit_message": "update 2023-03-29 06:53:52",
                 "release_tag": "",
                 "release_date": "",
                 "release_message": ""
@@ -1708,7 +1748,7 @@
             "https://github.com/Threekiii/Awesome-POC": {
                 "created_at": "2022-02-20 06:43:22",
                 "description": "一个各类漏洞POC知识库",
-                "commit_date": "2023-03-14 02:23:38",
+                "commit_date": "2023-03-28 09:48:31",
                 "commit_message": "更新漏洞",
                 "release_tag": "",
                 "release_date": "",
@@ -1717,7 +1757,7 @@
             "https://github.com/Threekiii/Vulnerability-Wiki": {
                 "created_at": "2022-04-29 05:36:33",
                 "description": "一个综合漏洞知识库，集成了Vulhub、Peiqi、Edge、0sec、Wooyun等开源漏洞库",
-                "commit_date": "2023-03-14 02:31:47",
+                "commit_date": "2023-03-28 09:53:56",
                 "commit_message": "更新漏洞",
                 "release_tag": "v1.0",
                 "release_date": "2022-07-15 01:58:00",
@@ -1735,7 +1775,7 @@
             "https://github.com/Threekiii/Vulhub-Reproduce": {
                 "created_at": "2022-03-03 08:38:29",
                 "description": "一个Vulhub漏洞复现知识库",
-                "commit_date": "2023-03-06 07:41:58",
+                "commit_date": "2023-03-28 09:49:07",
                 "commit_message": "更新漏洞",
                 "release_tag": "",
                 "release_date": "",
@@ -1853,8 +1893,8 @@
             "https://github.com/webraybtl/CodeQLpy": {
                 "created_at": "2022-12-22 12:54:03",
                 "description": "CodeQLpy是一款基于CodeQL实现的半自动化代码审计工具，目前仅支持java语言。实现从源码反编译，数据库生成，脆弱性发现的全过程，可以辅助代码审计人员快速定位源码可能存在的漏洞。",
-                "commit_date": "2023-03-24 02:43:38",
-                "commit_message": "修复SpringBoot下包名不正确的bug",
+                "commit_date": "2023-03-28 03:44:59",
+                "commit_message": "修复tagdir导致的bug",
                 "release_tag": "",
                 "release_date": "",
                 "release_message": ""
@@ -1864,8 +1904,8 @@
             "https://github.com/chaitin/veinmind-tools": {
                 "created_at": "2022-02-08 08:12:15",
                 "description": "veinmind-tools 是由长亭科技自研，基于 veinmind-sdk 打造的容器安全工具集",
-                "commit_date": "2023-03-27 04:16:49",
-                "commit_message": "feat(veinmind-ai): support openai (#215)\n\n* feat(veinmind-ai): support openai\r\n\r\n* fix(libveinmind): update 1.9.4\r\n\r\n* fix(ai): change flags name\r\n\r\n* fix(libveinmind): downgrade python-common 1.5.1",
+                "commit_date": "2023-03-28 11:04:52",
+                "commit_message": "chore(veinmind-vuln): type name (#208)\n\nchange ok-pkg -> ok-pkg",
                 "release_tag": "v2.1.0",
                 "release_date": "2023-03-27 06:29:07",
                 "release_message": "- 支持使用 openai 分析扫描结果"
@@ -1900,6 +1940,15 @@
                 "release_tag": "v0.4.0",
                 "release_date": "2022-07-16 07:40:34",
                 "release_message": "- 新增 1. TenCentCloud Cos Scan 2. HuaweiCloud OBS Scan  - 修复 1、部分代码逻辑问题"
+            },
+            "https://github.com/NS-Sp4ce/AliyunAccessKeyTools": {
+                "created_at": "2021-07-14 07:13:00",
+                "description": "阿里云AccessKey泄漏利用工具",
+                "commit_date": "2021-07-16 00:52:34",
+                "commit_message": "Update README.md",
+                "release_tag": "1.0",
+                "release_date": "2021-07-14 07:20:58",
+                "release_message": ""
             }
         },
         "漏洞利用": {
@@ -2206,7 +2255,7 @@
             "https://github.com/Threekiii/Awesome-Redteam": {
                 "created_at": "2022-02-08 00:45:03",
                 "description": "一个红队知识仓库",
-                "commit_date": "2023-03-06 07:44:32",
+                "commit_date": "2023-03-28 09:44:05",
                 "commit_message": "更新README.md",
                 "release_tag": "",
                 "release_date": "",
@@ -2405,8 +2454,8 @@
             "https://github.com/bit4woo/domain_hunter_pro": {
                 "created_at": "2019-01-18 07:15:15",
                 "description": "domain_hunter的高级版本，SRC挖洞、HW打点之必备！自动化资产收集；快速Title获取；外部工具联动；等等",
-                "commit_date": "2023-03-24 03:24:58",
-                "commit_message": "Update LineTableModel.java",
+                "commit_date": "2023-03-28 08:59:26",
+                "commit_message": "Update TargetEntryMenu.java",
                 "release_tag": "v1.9-alpha",
                 "release_date": "2022-11-18 09:37:35",
                 "release_message": "**这是重构版本，与旧版本不兼容！！！ 这是重构版本，与旧版本不兼容！！！ 这是重构版本，与旧版本不兼容！！！**  重新设计了数据库的表结构，尽量提升数据库读写效率 重新设计了数据对象、UI、数据库之间的数据同步逻辑 重新设计了数据存储的基础类，保证线程安全 重新设计了table中model类的部分逻辑，减少内存占用  优化了数据对象的字段，尽量减小每个数据对象的内存占用 优化了数据提取的正则表达式和逻辑 优化了根域名、网段作控制目标范围的逻辑 优化了当根域名、网段变化时，数据的刷新逻辑 优化了数据数据加载逻辑 其他各种逻辑优化、bug修改  总之就是大动作，和旧版本不兼容，可能存在潜在bug（虽然我已经试用一段时间，排除了很多bug），所以发布一个alpha版本在正式版本之前。  欢迎试用提交bug，使用时建议创建新的项目数据库，不要使用旧数据库文件。"
@@ -2441,11 +2490,11 @@
             "https://github.com/f0ng/captcha-killer-modified": {
                 "created_at": "2022-03-18 12:41:58",
                 "description": "captcha-killer的修改版，支持关键词识别base64编码的图片，添加免费ocr库，用于验证码爆破，适配新版Burpsuite",
-                "commit_date": "2023-03-22 12:57:49",
-                "commit_message": "Update FAQ.md",
-                "release_tag": "0.22",
-                "release_date": "2023-03-14 06:26:44",
-                "release_message": "【2023-3-14】 0.22 重要问题修复 - 修复了装载插件会影响proxy选项卡的问题"
+                "commit_date": "2023-03-28 11:51:51",
+                "commit_message": "Update README.md",
+                "release_tag": "0.23",
+                "release_date": "2023-03-28 11:56:37",
+                "release_message": "【2023-3-28】 0.23  - 增加[验证码返回包中明文返回验证码爆破案例](https://github.com/f0ng/captcha-killer-modified/blob/main/FAQ.md#13-%E9%AA%8C%E8%AF%81%E7%A0%81%E5%93%8D%E5%BA%94%E5%8C%85%E6%9C%89%E6%98%8E%E6%96%87%E9%AA%8C%E8%AF%81%E7%A0%81%E5%A6%82%E4%BD%95%E9%85%8D%E5%90%88%E5%B7%A5%E5%85%B7%E4%BD%BF%E7%94%A8) - base64编码中应对`fromUrlSafe`函数(`-`转义为`+`,`_`转义为`/`)"
             },
             "https://github.com/whwlsfb/BurpCrypto": {
                 "created_at": "2020-05-29 02:59:15",
@@ -3008,8 +3057,8 @@
             "https://github.com/ninoseki/mitaka": {
                 "created_at": "2018-02-09 00:13:30",
                 "description": "A browser extension for OSINT search",
-                "commit_date": "2023-03-19 00:40:51",
-                "commit_message": "Merge pull request #717 from ninoseki/v1.1.0\n\nv1.1.0",
+                "commit_date": "2023-03-28 14:11:02",
+                "commit_message": "Merge pull request #720 from ninoseki/fix-hash-search-all-issue",
                 "release_tag": "v1.0.0",
                 "release_date": "2023-02-26 07:27:26",
                 "release_message": "- Migrate to the Manifest V3 (#703) - Replace Mocha, Chai and Sinon with Jest (#703) "
@@ -3088,7 +3137,7 @@
             "https://github.com/ExpLangcn/NucleiTP": {
                 "created_at": "2022-11-08 13:16:56",
                 "description": "自动整合全网Nuclei的漏洞POC，实时同步更新最新POC！",
-                "commit_date": "2023-03-28 01:00:17",
+                "commit_date": "2023-03-29 01:00:16",
                 "commit_message": "更新啦❤️",
                 "release_tag": "",
                 "release_date": "",
@@ -3645,8 +3694,8 @@
             "https://github.com/dbeaver/dbeaver": {
                 "created_at": "2015-10-21 08:26:28",
                 "description": "Free universal database tool and SQL client",
-                "commit_date": "2023-03-27 16:29:26",
-                "commit_message": "CB-1575 db2 application objects node path fix (#19449)\n\nCo-authored-by: dariamarutkina <125263541+dariamarutkina@users.noreply.github.com>",
+                "commit_date": "2023-03-28 15:13:46",
+                "commit_message": "#14511 Move erd diagram only once on search (#19485)\n\n* #14511 Move erd diagram only once on search\r\n\r\n* #14511 Fix code style\r\n\r\n* #14511 Fix comment message",
                 "release_tag": "23.0.1",
                 "release_date": "2023-03-26 18:30:18",
                 "release_message": "                 - SQL editor:                     - Results tab now can be detached                     - Editor toolbar now can be customized in preferences                     - Query statistics tab now can be turned off                     - Table metadata search was improved                 - SSH:                     - Support of new crypto ciphers was added                     - SHH agents now works properly in Linux                 - General UI:                     - Zoom in text editors and data editors was fixed                     - Navigator tree refresh after metadata change was fixed                     - Default font size was increased for MacOS                     - Text font configuration was fixed in multiple dialog windows                     - Connection type settings change now affects UI properly                 - Data export: exporting of BLOB values in TXT format was improved                 - Native network proxy configuration was fixed                 - TiDB: new driver was added (thanks to @Icemap)                 - Clickhouse: driver version was updated to 0.4.2                 - Firebird: procedure parameters defualt values support was added                 - Oracle: additional properties in table info were added                 - PostgreSQL: composite data type support was improved                 - SQLite: STRICT mode support was added                 - Sybase/SQL Anywhere: result set size limitation in SQL was fixed                 - Vertica: expired password change feature was added             "
@@ -3723,8 +3772,8 @@
             "https://github.com/v2rayA/v2rayA": {
                 "created_at": "2019-10-18 20:42:06",
                 "description": "A web GUI client of Project V which supports V2Ray, Xray, SS, SSR, Trojan and Pingtunnel 🚀",
-                "commit_date": "2023-03-22 12:50:51",
-                "commit_message": "fix: change spare tire routing rule to fix up kakaotalk",
+                "commit_date": "2023-03-28 17:22:15",
+                "commit_message": "fix: potential panic of GetV2rayServiceVersion",
                 "release_tag": "v2.0.4",
                 "release_date": "2023-03-19 14:05:56",
                 "release_message": "## What's Changed * CI(debian): Generate default config for systemd environment by @cubercsl in https://github.com/v2rayA/v2rayA/pull/750 * Feature: Add nftables support by @cubercsl in https://github.com/v2rayA/v2rayA/pull/805 * Fix: XRay assets problem * Fix: AlterID problem #854. * Fix: Winget auto commit. @MarksonHon   **Full Changelog**: https://github.com/v2rayA/v2rayA/compare/v2.0.2...v2.0.4  ### Also see https://github.com/v2rayA/v2rayA/releases/tag/v2.0.2 "
