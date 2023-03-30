@@ -273,11 +273,11 @@
             "https://github.com/projectdiscovery/naabu": {
                 "created_at": "2020-01-21 10:56:32",
                 "description": "A fast port scanner written in go with a focus on reliability and simplicity. Designed to be used in combination with other tools for attack surface discovery in bug bounties and pentests",
-                "commit_date": "2023-03-19 07:31:49",
-                "commit_message": "Merge pull request #610 from projectdiscovery/dev\n\nversion update",
-                "release_tag": "v2.1.4",
-                "release_date": "2023-03-19 07:33:02",
-                "release_message": "## What's Changed * Update lib example by @dogancanbakir in https://github.com/projectdiscovery/naabu/pull/605 * version update by @ehsandeep in https://github.com/projectdiscovery/naabu/pull/610  ## New Contributors * @dogancanbakir made their first contribution in https://github.com/projectdiscovery/naabu/pull/605  **Full Changelog**: https://github.com/projectdiscovery/naabu/compare/v2.1.3...v2.1.4"
+                "commit_date": "2023-03-29 09:37:31",
+                "commit_message": "Merge pull request #626 from projectdiscovery/dev\n\nBugfix update",
+                "release_tag": "v2.1.5",
+                "release_date": "2023-03-29 09:39:08",
+                "release_message": "## What's Changed * Fixed issue with **exclude port/host** option by @Mzack9999 in https://github.com/projectdiscovery/naabu/pull/624 * Added timeout to scan through SOCKS proxy by @jpts in https://github.com/projectdiscovery/naabu/pull/601  ## New Contributors * @jpts made their first contribution in https://github.com/projectdiscovery/naabu/pull/601 * @realalexandergeorgiev made their first contribution in https://github.com/projectdiscovery/naabu/pull/602  **Full Changelog**: https://github.com/projectdiscovery/naabu/compare/v2.1.4...v2.1.5"
             },
             "https://github.com/redtoolskobe/scaninfo": {
                 "created_at": "2021-11-05 04:59:07",
@@ -322,7 +322,7 @@
             "https://github.com/XTeam-Wing/X-Marshal": {
                 "created_at": "2022-04-28 16:17:39",
                 "description": "Golang-分布式资产探测&漏洞扫描&信息收集",
-                "commit_date": "2023-02-09 07:22:30",
+                "commit_date": "2023-03-29 02:21:27",
                 "commit_message": "Update README.md",
                 "release_tag": "",
                 "release_date": "",
@@ -593,8 +593,8 @@
             "https://github.com/Potato-py/ipInfoSearch": {
                 "created_at": "2022-09-26 01:49:10",
                 "description": "ip域名反查、权重查询以及ICP备案查询。便于提交SRC时资产过滤。",
-                "commit_date": "2023-03-20 02:18:18",
-                "commit_message": "修复window创建文档失败bug、增加低性能电脑运行错误的修补readme",
+                "commit_date": "2023-03-29 10:35:20",
+                "commit_message": "默认添加低性能兼容、优化多线程调用，记得加-hidden",
                 "release_tag": "",
                 "release_date": "",
                 "release_message": ""
@@ -693,8 +693,8 @@
             "https://github.com/zan8in/afrog": {
                 "created_at": "2022-02-24 06:00:32",
                 "description": "A Vulnerability Scanning Tools For Penetration Testing",
-                "commit_date": "2023-03-29 00:47:41",
-                "commit_message": "CVE-2020-7961",
+                "commit_date": "2023-03-29 08:54:12",
+                "commit_message": "update contributors",
                 "release_tag": "v2.2.1",
                 "release_date": "2023-02-04 14:54:34",
                 "release_message": "Merge many fingerprint pocs into the panel-detect.yaml file to reduce the number of http requests Console  print date format, 2023-01-01 changed to 01-01 Simplified afrog-config configuration  Fixed: invalid `-fc` configuration Tip: Configure the `-c` command, which can increase the concurrency speed very quickly  -----------------------------------------------------------------------------  将多个 panel 指纹探测合并到文件 panel-detect.yaml，大幅减少 http 请求 精简控制台日期打印，2023-01-01 改为 01-01 精简 afrog-config 配置信息  解决：`-fc` 命令配置无效问题 提示：配置 `-c` 命令能明显提高扫描速度"
@@ -1656,8 +1656,8 @@
             "https://github.com/helloexp/0day": {
                 "created_at": "2022-04-07 04:28:29",
                 "description": "各种CMS、各种平台、各种系统、各种软件漏洞的EXP、POC ,该项目将持续更新",
-                "commit_date": "2023-03-20 02:09:42",
-                "commit_message": "add Apache CouchDB 3.2.1 RCE",
+                "commit_date": "2023-03-29 09:12:35",
+                "commit_message": "add Nacos 未授权访问漏洞",
                 "release_tag": "",
                 "release_date": "",
                 "release_message": ""
@@ -1701,8 +1701,8 @@
             "https://github.com/ycdxsb/PocOrExp_in_Github": {
                 "created_at": "2021-04-13 05:46:16",
                 "description": "聚合Github上已有的Poc或者Exp，CVE信息来自CVE官网。Auto Collect Poc Or Exp from Github by CVE ID.",
-                "commit_date": "2023-03-28 22:53:52",
-                "commit_message": "update 2023-03-29 06:53:52",
+                "commit_date": "2023-03-29 21:46:47",
+                "commit_message": "update 2023-03-30 05:46:47",
                 "release_tag": "",
                 "release_date": "",
                 "release_message": ""
@@ -1904,11 +1904,11 @@
             "https://github.com/chaitin/veinmind-tools": {
                 "created_at": "2022-02-08 08:12:15",
                 "description": "veinmind-tools 是由长亭科技自研，基于 veinmind-sdk 打造的容器安全工具集",
-                "commit_date": "2023-03-28 11:04:52",
-                "commit_message": "chore(veinmind-vuln): type name (#208)\n\nchange ok-pkg -> ok-pkg",
-                "release_tag": "v2.1.0",
-                "release_date": "2023-03-27 06:29:07",
-                "release_message": "- 支持使用 openai 分析扫描结果"
+                "commit_date": "2023-03-29 09:10:11",
+                "commit_message": "feat(readme): clouodwalker",
+                "release_tag": "v2.1.1",
+                "release_date": "2023-03-29 08:46:28",
+                "release_message": "## Fix - 修复容器运行时部分初始化问题"
             }
         },
         "容器漏洞利用": {
@@ -2166,11 +2166,11 @@
             "https://github.com/1y0n/AV_Evasion_Tool": {
                 "created_at": "2020-04-24 01:11:09",
                 "description": "掩日 - 免杀执行器生成工具",
-                "commit_date": "2023-03-12 00:48:03",
+                "commit_date": "2023-03-29 08:21:40",
                 "commit_message": "Update README.md",
-                "release_tag": "20230303",
-                "release_date": "2023-03-03 01:00:04",
-                "release_message": "1. 效果优化"
+                "release_tag": "20230329",
+                "release_date": "2023-03-29 08:18:09",
+                "release_message": "1. 效果优化 2. 修复识别杀软时卡死问题"
             }
         },
         "漏洞扫描": {
@@ -2255,8 +2255,8 @@
             "https://github.com/Threekiii/Awesome-Redteam": {
                 "created_at": "2022-02-08 00:45:03",
                 "description": "一个红队知识仓库",
-                "commit_date": "2023-03-28 09:44:05",
-                "commit_message": "更新README.md",
+                "commit_date": "2023-03-29 02:26:13",
+                "commit_message": "更新弱口令字典",
                 "release_tag": "",
                 "release_date": "",
                 "release_message": ""
@@ -2454,8 +2454,8 @@
             "https://github.com/bit4woo/domain_hunter_pro": {
                 "created_at": "2019-01-18 07:15:15",
                 "description": "domain_hunter的高级版本，SRC挖洞、HW打点之必备！自动化资产收集；快速Title获取；外部工具联动；等等",
-                "commit_date": "2023-03-28 08:59:26",
-                "commit_message": "Update TargetEntryMenu.java",
+                "commit_date": "2023-03-29 10:30:09",
+                "commit_message": "Update TargetTable.java",
                 "release_tag": "v1.9-alpha",
                 "release_date": "2022-11-18 09:37:35",
                 "release_message": "**这是重构版本，与旧版本不兼容！！！ 这是重构版本，与旧版本不兼容！！！ 这是重构版本，与旧版本不兼容！！！**  重新设计了数据库的表结构，尽量提升数据库读写效率 重新设计了数据对象、UI、数据库之间的数据同步逻辑 重新设计了数据存储的基础类，保证线程安全 重新设计了table中model类的部分逻辑，减少内存占用  优化了数据对象的字段，尽量减小每个数据对象的内存占用 优化了数据提取的正则表达式和逻辑 优化了根域名、网段作控制目标范围的逻辑 优化了当根域名、网段变化时，数据的刷新逻辑 优化了数据数据加载逻辑 其他各种逻辑优化、bug修改  总之就是大动作，和旧版本不兼容，可能存在潜在bug（虽然我已经试用一段时间，排除了很多bug），所以发布一个alpha版本在正式版本之前。  欢迎试用提交bug，使用时建议创建新的项目数据库，不要使用旧数据库文件。"
@@ -3137,7 +3137,7 @@
             "https://github.com/ExpLangcn/NucleiTP": {
                 "created_at": "2022-11-08 13:16:56",
                 "description": "自动整合全网Nuclei的漏洞POC，实时同步更新最新POC！",
-                "commit_date": "2023-03-29 01:00:16",
+                "commit_date": "2023-03-30 01:00:16",
                 "commit_message": "更新啦❤️",
                 "release_tag": "",
                 "release_date": "",
@@ -3458,11 +3458,11 @@
             "https://github.com/SpenserCai/GoWxDump": {
                 "created_at": "2023-02-17 10:10:37",
                 "description": "SharpWxDump的Go语言版。微信客户端取证，获取信息(微信号、手机号、昵称)，微信聊天记录分析(Top N聊天的人、统计聊天最频繁的好友排行、关键词列表搜索等)",
-                "commit_date": "2023-03-09 08:35:52",
-                "commit_message": "fixed #5",
-                "release_tag": "v1.0.9",
-                "release_date": "2023-03-09 08:37:22",
-                "release_message": "通过注册表自从查找微信数据目录"
+                "commit_date": "2023-03-29 07:28:02",
+                "commit_message": "fix #11 编译3.9.2.23版本支持 感谢@imblowsnow",
+                "release_tag": "v1.0.10",
+                "release_date": "2023-03-29 07:30:09",
+                "release_message": "#11 "
             }
         },
         "音频隐写": {
@@ -3628,8 +3628,8 @@
             "https://github.com/RsaCtfTool/RsaCtfTool": {
                 "created_at": "2015-03-07 17:29:33",
                 "description": "RSA attack tool (mainly for ctf) - retreive private key from weak public key and/or uncipher data",
-                "commit_date": "2023-03-27 19:27:23",
-                "commit_message": "get rid of cm_factor: duplicates qicheng",
+                "commit_date": "2023-03-29 22:22:07",
+                "commit_message": "Don't show tracebacks unless specified by commandline",
                 "release_tag": "",
                 "release_date": "",
                 "release_message": ""
@@ -3694,8 +3694,8 @@
             "https://github.com/dbeaver/dbeaver": {
                 "created_at": "2015-10-21 08:26:28",
                 "description": "Free universal database tool and SQL client",
-                "commit_date": "2023-03-28 15:13:46",
-                "commit_message": "#14511 Move erd diagram only once on search (#19485)\n\n* #14511 Move erd diagram only once on search\r\n\r\n* #14511 Fix code style\r\n\r\n* #14511 Fix comment message",
+                "commit_date": "2023-03-29 09:31:21",
+                "commit_message": "#19365 Fix commands for foldings (#19484)",
                 "release_tag": "23.0.1",
                 "release_date": "2023-03-26 18:30:18",
                 "release_message": "                 - SQL editor:                     - Results tab now can be detached                     - Editor toolbar now can be customized in preferences                     - Query statistics tab now can be turned off                     - Table metadata search was improved                 - SSH:                     - Support of new crypto ciphers was added                     - SHH agents now works properly in Linux                 - General UI:                     - Zoom in text editors and data editors was fixed                     - Navigator tree refresh after metadata change was fixed                     - Default font size was increased for MacOS                     - Text font configuration was fixed in multiple dialog windows                     - Connection type settings change now affects UI properly                 - Data export: exporting of BLOB values in TXT format was improved                 - Native network proxy configuration was fixed                 - TiDB: new driver was added (thanks to @Icemap)                 - Clickhouse: driver version was updated to 0.4.2                 - Firebird: procedure parameters defualt values support was added                 - Oracle: additional properties in table info were added                 - PostgreSQL: composite data type support was improved                 - SQLite: STRICT mode support was added                 - Sybase/SQL Anywhere: result set size limitation in SQL was fixed                 - Vertica: expired password change feature was added             "
