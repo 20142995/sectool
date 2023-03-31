@@ -349,8 +349,8 @@
             "https://github.com/hanc00l/nemo_go": {
                 "created_at": "2021-07-29 08:13:25",
                 "description": "Nemo是用来进行自动化信息收集的一个简单平台，通过集成常用的信息收集工具和技术，实现对内网及互联网资产信息的自动收集，提高隐患排查和渗透测试的工作效率，用Go语言完全重构了原Python版本。",
-                "commit_date": "2023-03-15 02:33:56",
-                "commit_message": "Fix: ip_http and domain_http SaveOrUpdate function",
+                "commit_date": "2023-03-30 17:30:11",
+                "commit_message": "Update: 删除无效前端代码",
                 "release_tag": "v2.9.1",
                 "release_date": "2023-03-11 02:07:48",
                 "release_message": "Update： 1、在任务中获取http指纹时，将HTTP响应的Header与Body保存并进行查询。  注意： **由于新增加了两个数据库表，因此从v2.9.0升级请导入http.sql。**"
@@ -593,8 +593,8 @@
             "https://github.com/Potato-py/ipInfoSearch": {
                 "created_at": "2022-09-26 01:49:10",
                 "description": "ip域名反查、权重查询以及ICP备案查询。便于提交SRC时资产过滤。",
-                "commit_date": "2023-03-29 10:35:20",
-                "commit_message": "默认添加低性能兼容、优化多线程调用，记得加-hidden",
+                "commit_date": "2023-03-30 05:33:29",
+                "commit_message": "优化多线程，采用线程池控制最大线程数",
                 "release_tag": "",
                 "release_date": "",
                 "release_message": ""
@@ -784,7 +784,7 @@
             },
             "https://github.com/jweny/pocassist": {
                 "created_at": "2021-05-12 10:05:09",
-                "description": "全新的漏洞测试框架。",
+                "description": "全新的傻瓜式漏洞PoC测试框架",
                 "commit_date": "2022-06-21 03:43:47",
                 "commit_message": "Update README.md",
                 "release_tag": "1.0.5",
@@ -1674,8 +1674,8 @@
             "https://github.com/lal0ne/vulnerability": {
                 "created_at": "2022-01-20 02:48:42",
                 "description": "收集、整理、修改互联网上公开的漏洞POC",
-                "commit_date": "2023-03-27 03:07:26",
-                "commit_message": "QVD-2023-6271",
+                "commit_date": "2023-03-30 03:21:43",
+                "commit_message": "CVE-2023-26513",
                 "release_tag": "",
                 "release_date": "",
                 "release_message": ""
@@ -1701,8 +1701,8 @@
             "https://github.com/ycdxsb/PocOrExp_in_Github": {
                 "created_at": "2021-04-13 05:46:16",
                 "description": "聚合Github上已有的Poc或者Exp，CVE信息来自CVE官网。Auto Collect Poc Or Exp from Github by CVE ID.",
-                "commit_date": "2023-03-29 21:46:47",
-                "commit_message": "update 2023-03-30 05:46:47",
+                "commit_date": "2023-03-30 22:48:19",
+                "commit_message": "update 2023-03-31 06:48:19",
                 "release_tag": "",
                 "release_date": "",
                 "release_message": ""
@@ -1984,8 +1984,8 @@
             "https://github.com/sqlmapproject/sqlmap": {
                 "created_at": "2012-06-26 09:52:15",
                 "description": "Automatic SQL injection and database takeover tool",
-                "commit_date": "2023-03-24 13:29:02",
-                "commit_message": "Fixes #5370",
+                "commit_date": "2023-03-30 13:34:46",
+                "commit_message": "Fixes #5378",
                 "release_tag": "1.7",
                 "release_date": "2023-01-02 22:32:55",
                 "release_message": "Stable version 1.7 ([changeset](https://github.com/sqlmapproject/sqlmap/compare/1.6...1.7))"
@@ -2490,8 +2490,8 @@
             "https://github.com/f0ng/captcha-killer-modified": {
                 "created_at": "2022-03-18 12:41:58",
                 "description": "captcha-killer的修改版，支持关键词识别base64编码的图片，添加免费ocr库，用于验证码爆破，适配新版Burpsuite",
-                "commit_date": "2023-03-28 11:51:51",
-                "commit_message": "Update README.md",
+                "commit_date": "2023-03-30 14:41:22",
+                "commit_message": "Update FAQ.md",
                 "release_tag": "0.23",
                 "release_date": "2023-03-28 11:56:37",
                 "release_message": "【2023-3-28】 0.23  - 增加[验证码返回包中明文返回验证码爆破案例](https://github.com/f0ng/captcha-killer-modified/blob/main/FAQ.md#13-%E9%AA%8C%E8%AF%81%E7%A0%81%E5%93%8D%E5%BA%94%E5%8C%85%E6%9C%89%E6%98%8E%E6%96%87%E9%AA%8C%E8%AF%81%E7%A0%81%E5%A6%82%E4%BD%95%E9%85%8D%E5%90%88%E5%B7%A5%E5%85%B7%E4%BD%BF%E7%94%A8) - base64编码中应对`fromUrlSafe`函数(`-`转义为`+`,`_`转义为`/`)"
@@ -3030,8 +3030,8 @@
             "https://github.com/FelisCatus/SwitchyOmega": {
                 "created_at": "2012-06-08 15:32:30",
                 "description": "Manage and switch between multiple proxies quickly & easily.",
-                "commit_date": "2022-11-16 09:05:15",
-                "commit_message": "Added translation using Weblate (Chinese (Literary))",
+                "commit_date": "2023-03-30 08:39:34",
+                "commit_message": "Translated using Weblate (Persian)\n\nCurrently translated at 97.4% (341 of 350 strings)",
                 "release_tag": "v2.5.20",
                 "release_date": "2018-08-27 04:03:14",
                 "release_message": ":thinking:  **What happened in v2.5.21? See https://github.com/FelisCatus/SwitchyOmega/issues/2007#issuecomment-653838710**  ### What's new  - This update contains bug fixes for Chromium only. Firefox users do not need to update. - Fix some compatibility issues on very old Chromium-based browsers (e.g. Chromium 31). - Fix some bugs introduced in refactoring, allowing external profile detection to work again. - Fix \"show external profile\" setting reverting itself to enabled.  :beetle: In case of issues, please right click on the extension icon and select \"Report Issue\" from the menu so that I can locate and fix the issue more quickly.  ### Installation  :large_blue_circle: **Users of Chromium and Chromium-based browsers:** Please install from [Chrome Web Store](https://chrome.google.com/webstore/detail/padekgcemlokbadohgkifijomclgjgif).  :red_circle: **Users of Mozilla Firefox and other Mozilla-based browsers:** Please install from [Mozilla Add-Ons](https://addons.mozilla.org/en-US/firefox/addon/switchyomega/). (See Firefox Support below for supported versions.)  If you cannot install from the links above, or prefer a manual installation:  The packaged CRX file below can be installed in Chromium. Please [google for installation instructions](https://www.google.com/search?q=how%20to%20load%20crx%20files%20in%20chrome) on how to install it.  The packaged XPI file below can be installed in Firefox. Please [google for installation instructions](https://www.google.com/search?q=how%20to%20install%20xpi%20files%20in%20firefox) on how to install it.  ### Firefox Support  * Firefox >= 60: Shiny `browser.proxy.onRequest` API. SwitchyOmega just added support recently so please let us know if you experience issues. * Firefox >= 55: Deprecated. Legacy `browser.proxy.register` API. We do not provide any support for these versions. **Please upgrade your browser before filing issues.**     * HTTP/HTTPS/SOCKS5 Authentication and SOCKS5 Remote DNS will only work in some versions (>= 2017-09-18). * Firefox <= 54: WONT WORK. Back-porting is not possible due to lack of support in proxy API.  ### 更新内容  - 这次更新只含有 Chromium 平台的 bug 修复， Firefox 用户无需更新。 - 修复非常古老的基于 Chromium 浏览器上的一些兼容性问题。（例如 Chromium 31.） - 修复重构导致的外部情景模式 bug. 现在外部情景模式应该可以正常工作了。 - 修复 “显示外部情景模式” 设置总会重置到“启用”的错误。   :beetle: 如遇到问题，请使用图标右键菜单的“反馈问题”功能提交错误报告，以便开发者及时修复，谢谢。  ### 安装  :large_blue_circle: **Chromium 或基于 Chromium 的浏览器用户：** 请从 [Chrome 应用商店](https://chrome.google.com/webstore/detail/padekgcemlokbadohgkifijomclgjgif) 安装。  :red_circle: **Mozilla Firefox 或者基于 Mozilla 的其他浏览器用户：** 请从 [Mozilla Add-Ons](https://addons.mozilla.org/en-US/firefox/addon/switchyomega/) 安装。（见下方 Firefox 支持的版本说明。）  如果您无法从以上链接安装，请继续阅读以下说明。   下方的 CRX 安装包可用于 Chromium. 关于下载后如何安装，您可以[谷歌一下](https://www.google.com/search?q=Chrome%E5%8A%A0%E8%BD%BDcrx)，或者看看[百度经验怎么说](http://jingyan.baidu.com/article/d621e8da18f8372865913fdc.html)。  下方的 XPI 安装包可用于 Firefox. 关于下载后如何安装，您可以[谷歌一下](https://www.google.com/search?q=Chrome%E5%8A%A0%E8%BD%BDcrx)。  ### Firefox 支持  * Firefox >= 60: 崭新的 `browser.proxy.onRequest` API. SwitchyOmega 最近才支持此功能，因此如遇到问题请及时反馈。 * Firefox >= 55: 过时的 `browser.proxy.register` API. 我们不会再对这些版本提供技术支持。  **请先更新浏览器，再反馈任何问题。**     * HTTP/HTTPS/SOCKS5 认证以及 SOCKS5 远程 DNS 只在某些版本中可以工作 (>= 2017-09-18). * Firefox <= 54: 无法工作。由于这些版本没有代理 API ，我们无法向后兼容这些版本。"
@@ -3137,7 +3137,7 @@
             "https://github.com/ExpLangcn/NucleiTP": {
                 "created_at": "2022-11-08 13:16:56",
                 "description": "自动整合全网Nuclei的漏洞POC，实时同步更新最新POC！",
-                "commit_date": "2023-03-30 01:00:16",
+                "commit_date": "2023-03-31 01:00:21",
                 "commit_message": "更新啦❤️",
                 "release_tag": "",
                 "release_date": "",
@@ -3694,8 +3694,8 @@
             "https://github.com/dbeaver/dbeaver": {
                 "created_at": "2015-10-21 08:26:28",
                 "description": "Free universal database tool and SQL client",
-                "commit_date": "2023-03-29 09:31:21",
-                "commit_message": "#19365 Fix commands for foldings (#19484)",
+                "commit_date": "2023-03-30 13:40:37",
+                "commit_message": "Merge branch 'devel' of https://github.com/dbeaver/dbeaver into devel",
                 "release_tag": "23.0.1",
                 "release_date": "2023-03-26 18:30:18",
                 "release_message": "                 - SQL editor:                     - Results tab now can be detached                     - Editor toolbar now can be customized in preferences                     - Query statistics tab now can be turned off                     - Table metadata search was improved                 - SSH:                     - Support of new crypto ciphers was added                     - SHH agents now works properly in Linux                 - General UI:                     - Zoom in text editors and data editors was fixed                     - Navigator tree refresh after metadata change was fixed                     - Default font size was increased for MacOS                     - Text font configuration was fixed in multiple dialog windows                     - Connection type settings change now affects UI properly                 - Data export: exporting of BLOB values in TXT format was improved                 - Native network proxy configuration was fixed                 - TiDB: new driver was added (thanks to @Icemap)                 - Clickhouse: driver version was updated to 0.4.2                 - Firebird: procedure parameters defualt values support was added                 - Oracle: additional properties in table info were added                 - PostgreSQL: composite data type support was improved                 - SQLite: STRICT mode support was added                 - Sybase/SQL Anywhere: result set size limitation in SQL was fixed                 - Vertica: expired password change feature was added             "
@@ -3772,8 +3772,8 @@
             "https://github.com/v2rayA/v2rayA": {
                 "created_at": "2019-10-18 20:42:06",
                 "description": "A web GUI client of Project V which supports V2Ray, Xray, SS, SSR, Trojan and Pingtunnel 🚀",
-                "commit_date": "2023-03-28 17:22:15",
-                "commit_message": "fix: potential panic of GetV2rayServiceVersion",
+                "commit_date": "2023-03-30 13:20:08",
+                "commit_message": "fix: should connect instead of unselect and select when using xray",
                 "release_tag": "v2.0.4",
                 "release_date": "2023-03-19 14:05:56",
                 "release_message": "## What's Changed * CI(debian): Generate default config for systemd environment by @cubercsl in https://github.com/v2rayA/v2rayA/pull/750 * Feature: Add nftables support by @cubercsl in https://github.com/v2rayA/v2rayA/pull/805 * Fix: XRay assets problem * Fix: AlterID problem #854. * Fix: Winget auto commit. @MarksonHon   **Full Changelog**: https://github.com/v2rayA/v2rayA/compare/v2.0.2...v2.0.4  ### Also see https://github.com/v2rayA/v2rayA/releases/tag/v2.0.2 "

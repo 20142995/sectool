@@ -1,4 +1,4 @@
-# 更新于 2023-03-30 09:07:42
+# 更新于 2023-03-31 09:05:46
 
 ## 近30天release更新记录
 | 更新时间 | 项目名称 | 版本 | 更新内容 |
@@ -43,17 +43,22 @@
 |2023-03-09 04:49:16|[JDumpSpider](https://github.com/whwlsfb/JDumpSpider)|V1.1|- 项目重构，增强不同环境下的兼容性。 - <br>增加类字段的用户信息模糊搜索功能。|
 |2023-03-08 06:18:49|[pentest_report](https://github.com/dbgee/pentest_report)|v1.0.0|First orricial release |
 |2023-03-06 08:47:39|[ElectricRat](https://github.com/linjiananallnt/ElectricRat)|v1.3.0|# 更新说明 1. 新增越权漏洞案例，包含水<br>平、垂直越权。 2. 增加XSS过滤难度 3. 增加<br>SPEL和SSTI结果输出 4. 新增压缩文件自解压<br>案例# TODO - [x] 越权漏洞# 如何更新 1. 将<br> ElectricRat-docker.zip 中的 ElectricRat<br>.war 覆盖之前的 war 包。 2. 重启 docker<br>。sudo docker restart electricrat-web 3. <br>稍等片刻后，访问 http://127.0.0.1:12666/E<br>lectricRat/ |
-|2023-02-28 04:13:35|[OneScan](https://github.com/vaycore/OneScan)|v0.5.2|0.5.2 版本发布，版本更新内容如下：### <br>新增- 主面板新增 Filter 按钮，支持单列、<br>多列过滤规则配置 |
 ## 近30天commit提交记录
 | 提交时间 | 项目名称 | 更新内容 |
 | :---- | :---- | :---- |
-|2023-03-30 01:00:16|[NucleiTP](https://github.com/ExpLangcn/NucleiTP)|更新啦❤️|
+|2023-03-31 01:00:21|[NucleiTP](https://github.com/ExpLangcn/NucleiTP)|更新啦❤️|
+|2023-03-30 22:48:19|[PocOrExp_in_Github](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-03-31 06:48:19|
+|2023-03-30 17:30:11|[nemo_go](https://github.com/hanc00l/nemo_go)|Update: 删除无效前端代码|
+|2023-03-30 14:41:22|[captcha-killer-modi<br>fied](https://github.com/f0ng/captcha-killer-modified)|Update FAQ.md|
+|2023-03-30 13:40:37|[dbeaver](https://github.com/dbeaver/dbeaver)|Merge branch 'devel' of https://github.com/dbeaver/dbe<br>aver into devel|
+|2023-03-30 13:34:46|[sqlmap](https://github.com/sqlmapproject/sqlmap)|Fixes #5378|
+|2023-03-30 13:20:08|[v2rayA](https://github.com/v2rayA/v2rayA)|fix: should connect instead of unselect and select whe<br>n using xray|
+|2023-03-30 08:39:34|[SwitchyOmega](https://github.com/FelisCatus/SwitchyOmega)|Translated using Weblate (Persian)Currently translated<br> at 97.4% (341 of 350 strings)|
+|2023-03-30 05:33:29|[ipInfoSearch](https://github.com/Potato-py/ipInfoSearch)|优化多线程，采用线程池控制最大线程数|
+|2023-03-30 03:21:43|[vulnerability](https://github.com/lal0ne/vulnerability)|CVE-2023-26513|
 |2023-03-29 22:22:07|[RsaCtfTool](https://github.com/RsaCtfTool/RsaCtfTool)|Don't show tracebacks unless specified by commandline|
-|2023-03-29 21:46:47|[PocOrExp_in_Github](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-03-30 05:46:47|
-|2023-03-29 10:35:20|[ipInfoSearch](https://github.com/Potato-py/ipInfoSearch)|默认添加低性能兼容、优化多线程调用，记得加-hidden|
 |2023-03-29 10:30:09|[domain_hunter_pro](https://github.com/bit4woo/domain_hunter_pro)|Update TargetTable.java|
 |2023-03-29 09:37:31|[naabu](https://github.com/projectdiscovery/naabu)|Merge pull request #626 from projectdiscovery/devBugfi<br>x update|
-|2023-03-29 09:31:21|[dbeaver](https://github.com/dbeaver/dbeaver)|#19365 Fix commands for foldings (#19484)|
 |2023-03-29 09:12:35|[0day](https://github.com/helloexp/0day)|add Nacos 未授权访问漏洞|
 |2023-03-29 09:10:11|[veinmind-tools](https://github.com/chaitin/veinmind-tools)|feat(readme): clouodwalker|
 |2023-03-29 08:54:12|[afrog](https://github.com/zan8in/afrog)|update contributors|
@@ -61,10 +66,8 @@
 |2023-03-29 07:28:02|[GoWxDump](https://github.com/SpenserCai/GoWxDump)|fix #11 编译3.9.2.23版本支持 感谢@imblowsnow|
 |2023-03-29 02:26:13|[Awesome-Redteam](https://github.com/Threekiii/Awesome-Redteam)|更新弱口令字典|
 |2023-03-29 02:21:27|[X-Marshal](https://github.com/XTeam-Wing/X-Marshal)|Update README.md|
-|2023-03-28 17:22:15|[v2rayA](https://github.com/v2rayA/v2rayA)|fix: potential panic of GetV2rayServiceVersion|
 |2023-03-28 15:47:04|[github-subdomains](https://github.com/gwen001/github-subdomains)|readme|
 |2023-03-28 14:11:02|[mitaka](https://github.com/ninoseki/mitaka)|Merge pull request #720 from ninoseki/fix-hash-search-<br>all-issue|
-|2023-03-28 11:51:51|[captcha-killer-modi<br>fied](https://github.com/f0ng/captcha-killer-modified)|Update README.md|
 |2023-03-28 09:53:56|[Vulnerability-Wiki](https://github.com/Threekiii/Vulnerability-Wiki)|更新漏洞|
 |2023-03-28 09:49:07|[Vulhub-Reproduce](https://github.com/Threekiii/Vulhub-Reproduce)|更新漏洞|
 |2023-03-28 09:48:31|[Awesome-POC](https://github.com/Threekiii/Awesome-POC)|更新漏洞|
@@ -74,7 +77,6 @@
 |2023-03-27 05:14:41|[ysoserial](https://github.com/su18/ysoserial)|添加 hide type 3 ，通过封装一个带有假信息的 ClassLoade<br>r 来试图逃避检测|
 |2023-03-27 04:58:11|[404StarLink](https://github.com/knownsec/404StarLink)|weekly update at 2023-03-27|
 |2023-03-27 04:02:46|[faker](https://github.com/joke2k/faker)|Update README.rst (#1832)|
-|2023-03-27 03:07:26|[vulnerability](https://github.com/lal0ne/vulnerability)|QVD-2023-6271|
 |2023-03-26 12:59:39|[ElectricRat](https://github.com/linjiananallnt/ElectricRat)|Update README.md|
 |2023-03-26 05:39:20|[SharpWxDump](https://github.com/AdminTest0/SharpWxDump)|Update README.md|
 |2023-03-26 03:21:11|[SmsForwarder](https://github.com/pppscn/SmsForwarder)|新增：issue 提交模板（请务必按照模板填写，避免浪费你我<br>的时间）|
@@ -83,7 +85,6 @@
 |2023-03-25 02:11:10|[Apt_t00ls](https://github.com/White-hua/Apt_t00ls)|Merge pull request #14 from dbgee/patch-1Update cas_cv<br>m_upload.java 文件名校验|
 |2023-03-24 22:41:40|[CyberChef](https://github.com/gchq/CyberChef)|10.4.0|
 |2023-03-24 14:54:44|[revsuit](https://github.com/Li4n0/revsuit)|chore: chore(release): 0.6.0|
-|2023-03-24 13:29:02|[sqlmap](https://github.com/sqlmapproject/sqlmap)|Fixes #5370|
 |2023-03-24 06:08:16|[Antenna](https://github.com/wuba/Antenna)|Merge pull request #99 from wuba/developDevelop|
 |2023-03-24 06:02:17|[iDefender](https://github.com/wecooperate/iDefender)|update|
 |2023-03-24 02:24:02|[MagiCude](https://github.com/er10yi/MagiCude)|Update README.md|
@@ -111,7 +112,6 @@
 |2023-03-17 08:24:41|[ARL](https://github.com/TophantTechnology/ARL)|Merge pull request #505 from TophantTechnology/update/<br>docUpdate Readme.md|
 |2023-03-17 06:17:13|[murphysec](https://github.com/murphysecurity/murphysec)|Merge pull request #148 from murphysecurity/dependabot<br>/go_modules/github.com/go-git/go-git/v5-5.6.1|
 |2023-03-17 04:34:11|[BurpCrypto](https://github.com/whwlsfb/BurpCrypto)|enhance rsa exponent logic.|
-|2023-03-15 02:33:56|[nemo_go](https://github.com/hanc00l/nemo_go)|Fix: ip_http and domain_http SaveOrUpdate function|
 |2023-03-14 23:44:28|[gshark](https://github.com/madneal/gshark)|Merge pull request #149 from madneal/dependabot/npm_an<br>d_yarn/web/webpack-5.76.0Bump webpack from 5.69.1 to 5.<br>76.0 in /web|
 |2023-03-14 21:39:08|[Hack-Tools](https://github.com/LasCC/Hack-Tools)|splitting webpack chunks + fixing zipping for firefox|
 |2023-03-14 09:43:45|[npscrack](https://github.com/weishen250/npscrack)|Add files via upload|
@@ -132,11 +132,7 @@
 |2023-03-07 08:44:53|[knife](https://github.com/bit4woo/knife)|Update ChineseTab.java|
 |2023-03-07 07:33:10|[Godzilla](https://github.com/BeichenDream/Godzilla)|Update README.md|
 |2023-03-05 02:02:20|[CN_Nessus_Plugins_I<br>nterface](https://github.com/nszy007/CN_Nessus_Plugins_Interface)|20230301|
-|2023-03-01 09:10:31|[CVE-2023-21839](https://github.com/4ra1n/CVE-2023-21839)|Update README.md|
-|2023-02-28 14:00:08|[BurpSuite-collectio<br>ns](https://github.com/Mr-xn/BurpSuite-collections)|add npscrack：蓝队利器、溯源反制、NPS 漏洞利用、NPS ex<br>p、NPS poc、一键利用的BurpSuite插件最新版（202212之后）<br>激活项目|
-|2023-02-28 07:33:37|[RmTools](https://github.com/RoomaSec/RmTools)|11|
-|2023-02-28 06:05:45|[Awesome-Exploit](https://github.com/Threekiii/Awesome-Exploit)|更新CVE-2023-21839 Exploit|
-|2023-02-28 04:04:03|[OneScan](https://github.com/vaycore/OneScan)|更新说明文档及截图，添加设置过滤规则配置说明；更新版本<br>号0.5.2|## 所有项目
+|2023-03-01 09:10:31|[CVE-2023-21839](https://github.com/4ra1n/CVE-2023-21839)|Update README.md|## 所有项目
 ### 信息收集
 #### 资产测绘采集
 | 项目名称 | 版本 | 项目描述 |
@@ -273,7 +269,7 @@
 | [FrameScan-GUI](https://github.com/qianxiao996/FrameScan-GUI) | v1.4.2 | FrameScan-GUI 一款python3和Pyqt编写的具有图形化界面的cms漏洞检测<br>框架。 |
 | [Gr33k](https://github.com/lijiaxing1997/Gr33k) |  | 图形化漏洞利用集成工具 |
 | [kunpeng](https://github.com/opensec-cn/kunpeng) | 20190527 | kunpeng是一个Golang编写的开源POC框架/库，以动态链接库的形式提供<br>各种语言调用，通过此项目可快速开发漏洞检测类的系统。 |
-| [pocassist](https://github.com/jweny/pocassist) | 1.0.5 | 全新的漏洞测试框架。 |
+| [pocassist](https://github.com/jweny/pocassist) | 1.0.5 | 全新的傻瓜式漏洞PoC测试框架 |
 #### 数据库利用
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
