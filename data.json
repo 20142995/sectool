@@ -1674,8 +1674,8 @@
             "https://github.com/lal0ne/vulnerability": {
                 "created_at": "2022-01-20 02:48:42",
                 "description": "收集、整理、修改互联网上公开的漏洞POC",
-                "commit_date": "2023-03-30 03:21:43",
-                "commit_message": "CVE-2023-26513",
+                "commit_date": "2023-03-31 05:58:50",
+                "commit_message": "CVE-2023-1177",
                 "release_tag": "",
                 "release_date": "",
                 "release_message": ""
@@ -1701,8 +1701,8 @@
             "https://github.com/ycdxsb/PocOrExp_in_Github": {
                 "created_at": "2021-04-13 05:46:16",
                 "description": "聚合Github上已有的Poc或者Exp，CVE信息来自CVE官网。Auto Collect Poc Or Exp from Github by CVE ID.",
-                "commit_date": "2023-03-30 22:48:19",
-                "commit_message": "update 2023-03-31 06:48:19",
+                "commit_date": "2023-03-31 21:48:03",
+                "commit_message": "update 2023-04-01 05:48:03",
                 "release_tag": "",
                 "release_date": "",
                 "release_message": ""
@@ -1904,8 +1904,8 @@
             "https://github.com/chaitin/veinmind-tools": {
                 "created_at": "2022-02-08 08:12:15",
                 "description": "veinmind-tools 是由长亭科技自研，基于 veinmind-sdk 打造的容器安全工具集",
-                "commit_date": "2023-03-29 09:10:11",
-                "commit_message": "feat(readme): clouodwalker",
+                "commit_date": "2023-03-31 02:00:53",
+                "commit_message": "fix(ai): ignore basic info analyzer (#218)",
                 "release_tag": "v2.1.1",
                 "release_date": "2023-03-29 08:46:28",
                 "release_message": "## Fix - 修复容器运行时部分初始化问题"
@@ -1984,8 +1984,8 @@
             "https://github.com/sqlmapproject/sqlmap": {
                 "created_at": "2012-06-26 09:52:15",
                 "description": "Automatic SQL injection and database takeover tool",
-                "commit_date": "2023-03-30 13:34:46",
-                "commit_message": "Fixes #5378",
+                "commit_date": "2023-03-31 20:18:15",
+                "commit_message": "Fixes #5374",
                 "release_tag": "1.7",
                 "release_date": "2023-01-02 22:32:55",
                 "release_message": "Stable version 1.7 ([changeset](https://github.com/sqlmapproject/sqlmap/compare/1.6...1.7))"
@@ -2492,9 +2492,9 @@
                 "description": "captcha-killer的修改版，支持关键词识别base64编码的图片，添加免费ocr库，用于验证码爆破，适配新版Burpsuite",
                 "commit_date": "2023-03-30 14:41:22",
                 "commit_message": "Update FAQ.md",
-                "release_tag": "0.23",
-                "release_date": "2023-03-28 11:56:37",
-                "release_message": "【2023-3-28】 0.23  - 增加[验证码返回包中明文返回验证码爆破案例](https://github.com/f0ng/captcha-killer-modified/blob/main/FAQ.md#13-%E9%AA%8C%E8%AF%81%E7%A0%81%E5%93%8D%E5%BA%94%E5%8C%85%E6%9C%89%E6%98%8E%E6%96%87%E9%AA%8C%E8%AF%81%E7%A0%81%E5%A6%82%E4%BD%95%E9%85%8D%E5%90%88%E5%B7%A5%E5%85%B7%E4%BD%BF%E7%94%A8) - base64编码中应对`fromUrlSafe`函数(`-`转义为`+`,`_`转义为`/`)"
+                "release_tag": "0.23-beta1",
+                "release_date": "2023-03-31 13:07:33",
+                "release_message": "【2023-3-31】 0.23-beta1  - 修复在使用intruder扩展填充验证码的情况下，验证码id会漏一个的问题  感谢微信群师傅YPL. 反馈"
             },
             "https://github.com/whwlsfb/BurpCrypto": {
                 "created_at": "2020-05-29 02:59:15",
@@ -3137,7 +3137,7 @@
             "https://github.com/ExpLangcn/NucleiTP": {
                 "created_at": "2022-11-08 13:16:56",
                 "description": "自动整合全网Nuclei的漏洞POC，实时同步更新最新POC！",
-                "commit_date": "2023-03-31 01:00:21",
+                "commit_date": "2023-04-01 01:00:16",
                 "commit_message": "更新啦❤️",
                 "release_tag": "",
                 "release_date": "",
@@ -3628,8 +3628,8 @@
             "https://github.com/RsaCtfTool/RsaCtfTool": {
                 "created_at": "2015-03-07 17:29:33",
                 "description": "RSA attack tool (mainly for ctf) - retreive private key from weak public key and/or uncipher data",
-                "commit_date": "2023-03-29 22:22:07",
-                "commit_message": "Don't show tracebacks unless specified by commandline",
+                "commit_date": "2023-03-31 19:32:33",
+                "commit_message": "Add logging information and fix error handling when creating private key",
                 "release_tag": "",
                 "release_date": "",
                 "release_message": ""
@@ -3694,8 +3694,8 @@
             "https://github.com/dbeaver/dbeaver": {
                 "created_at": "2015-10-21 08:26:28",
                 "description": "Free universal database tool and SQL client",
-                "commit_date": "2023-03-30 13:40:37",
-                "commit_message": "Merge branch 'devel' of https://github.com/dbeaver/dbeaver into devel",
+                "commit_date": "2023-03-31 08:34:18",
+                "commit_message": "dbeaver/pro#1494 remove disabled models & update SDK & add gpt turbo (#19501)\n\nCo-authored-by: MashaKorax <84867187+MashaKorax@users.noreply.github.com>",
                 "release_tag": "23.0.1",
                 "release_date": "2023-03-26 18:30:18",
                 "release_message": "                 - SQL editor:                     - Results tab now can be detached                     - Editor toolbar now can be customized in preferences                     - Query statistics tab now can be turned off                     - Table metadata search was improved                 - SSH:                     - Support of new crypto ciphers was added                     - SHH agents now works properly in Linux                 - General UI:                     - Zoom in text editors and data editors was fixed                     - Navigator tree refresh after metadata change was fixed                     - Default font size was increased for MacOS                     - Text font configuration was fixed in multiple dialog windows                     - Connection type settings change now affects UI properly                 - Data export: exporting of BLOB values in TXT format was improved                 - Native network proxy configuration was fixed                 - TiDB: new driver was added (thanks to @Icemap)                 - Clickhouse: driver version was updated to 0.4.2                 - Firebird: procedure parameters defualt values support was added                 - Oracle: additional properties in table info were added                 - PostgreSQL: composite data type support was improved                 - SQLite: STRICT mode support was added                 - Sybase/SQL Anywhere: result set size limitation in SQL was fixed                 - Vertica: expired password change feature was added             "
@@ -3840,8 +3840,8 @@
             "https://github.com/bytedance/Elkeid": {
                 "created_at": "2020-12-18 03:15:54",
                 "description": "Elkeid is an open source solution that can meet the security requirements of various workloads such as hosts, containers and K8s, and serverless. It is derived from ByteDance's internal best practices.",
-                "commit_date": "2023-03-10 02:50:32",
-                "commit_message": "using `RASP` runner",
+                "commit_date": "2023-03-31 08:57:26",
+                "commit_message": "Update deploy-zh_CN.md for release v1.9.1.3",
                 "release_tag": "scanner-v2.2.0.1_20230315",
                 "release_date": "2023-03-15 08:50:17",
                 "release_message": ""
@@ -3913,8 +3913,8 @@
             "https://github.com/RoomaSec/RmTools": {
                 "created_at": "2022-08-23 05:07:04",
                 "description": "蓝队应急工具",
-                "commit_date": "2023-02-28 07:33:37",
-                "commit_message": "1\n\n1",
+                "commit_date": "2023-03-31 09:56:18",
+                "commit_message": "更新yara规则",
                 "release_tag": "",
                 "release_date": "",
                 "release_message": ""

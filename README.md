@@ -1,13 +1,13 @@
-# 更新于 2023-03-31 09:05:46
+# 更新于 2023-04-01 09:04:12
 
 ## 近30天release更新记录
 | 更新时间 | 项目名称 | 版本 | 更新内容 |
 | :---- | :---- | :---- | :---- |
+|2023-03-31 13:07:33|[captcha-killer-modi<br>fied](https://github.com/f0ng/captcha-killer-modified)|0.23-beta<br>1|【2023-3-31】 0.23-beta1- 修复在使用int<br>ruder扩展填充验证码的情况下，验证码id会<br>漏一个的问题感谢微信群师傅YPL. 反馈|
 |2023-03-29 09:39:08|[naabu](https://github.com/projectdiscovery/naabu)|v2.1.5|## What's Changed * Fixed issue with **<br>exclude port/host** option by @Mzack9999<br> in https://github.com/projectdiscovery/<br>naabu/pull/624 * Added timeout to scan t<br>hrough SOCKS proxy by @jpts in https://g<br>ithub.com/projectdiscovery/naabu/pull/60<br>1## New Contributors * @jpts made their <br>first contribution in https://github.com<br>/projectdiscovery/naabu/pull/601 * @real<br>alexandergeorgiev made their first contr<br>ibution in https://github.com/projectdis<br>covery/naabu/pull/602**Full Changelog**:<br> https://github.com/projectdiscovery/naa<br>bu/compare/v2.1.4...v2.1.5|
 |2023-03-29 08:46:28|[veinmind-tools](https://github.com/chaitin/veinmind-tools)|v2.1.1|## Fix - 修复容器运行时部分初始化问题|
 |2023-03-29 08:18:09|[AV_Evasion_Tool](https://github.com/1y0n/AV_Evasion_Tool)|20230329|1. 效果优化 2. 修复识别杀软时卡死问题|
 |2023-03-29 07:30:09|[GoWxDump](https://github.com/SpenserCai/GoWxDump)|v1.0.10|#11 |
-|2023-03-28 11:56:37|[captcha-killer-modi<br>fied](https://github.com/f0ng/captcha-killer-modified)|0.23|【2023-3-28】 0.23- 增加[验证码返回包中<br>明文返回验证码爆破案例](https://github.co<br>m/f0ng/captcha-killer-modified/blob/main<br>/FAQ.md#13-%E9%AA%8C%E8%AF%81%E7%A0%81%E<br>5%93%8D%E5%BA%94%E5%8C%85%E6%9C%89%E6%98<br>%8E%E6%96%87%E9%AA%8C%E8%AF%81%E7%A0%81%<br>E5%A6%82%E4%BD%95%E9%85%8D%E5%90%88%E5%B<br>7%A5%E5%85%B7%E4%BD%BF%E7%94%A8) - base6<br>4编码中应对fromUrlSafe函数(-转义为+,_转<br>义为/)|
 |2023-03-27 06:46:36|[Antenna](https://github.com/wuba/Antenna)|v1.3.4|1、增加OPENAPI 消息ORDER_DESC 参数 2、<br>优化了工具方法逻辑，修复了一些已知的问题 <br>3、为Python SDK 做接口适配开发|
 |2023-03-27 03:13:57|[Exp-Tools](https://github.com/cseroad/Exp-Tools)|v1.1.4|- 新增Yongyou-U8 AppProxy 文件上传漏洞 <br>- 新增用友KSOA Attachment 文件写入漏洞 -<br> 新增致远后台模板管理器文件上传漏洞 - 修<br>复多个bug|
 |2023-03-26 18:30:18|[dbeaver](https://github.com/dbeaver/dbeaver)|23.0.1|- SQL editor:- Results tab now can be d<br>etached- Editor toolbar now can be custo<br>mized in preferences- Query statistics t<br>ab now can be turned off- Table metadata<br> search was improved- SSH:- Support of n<br>ew crypto ciphers was added- SHH agents <br>now works properly in Linux- General UI:<br>- Zoom in text editors and data editors <br>was fixed- Navigator tree refresh after <br>metadata change was fixed- Default font <br>size was increased for MacOS- Text font <br>configuration was fixed in multiple dial<br>og windows- Connection type settings cha<br>nge now affects UI properly- Data export<br>: exporting of BLOB values in TXT format<br> was improved- Native network proxy conf<br>iguration was fixed- TiDB: new driver wa<br>s added (thanks to @Icemap)- Clickhouse:<br> driver version was updated to 0.4.2- Fi<br>rebird: procedure parameters defualt val<br>ues support was added- Oracle: additiona<br>l properties in table info were added- P<br>ostgreSQL: composite data type support w<br>as improved- SQLite: STRICT mode support<br> was added- Sybase/SQL Anywhere: result <br>set size limitation in SQL was fixed- Ve<br>rtica: expired password change feature w<br>as added|
@@ -46,21 +46,23 @@
 ## 近30天commit提交记录
 | 提交时间 | 项目名称 | 更新内容 |
 | :---- | :---- | :---- |
-|2023-03-31 01:00:21|[NucleiTP](https://github.com/ExpLangcn/NucleiTP)|更新啦❤️|
-|2023-03-30 22:48:19|[PocOrExp_in_Github](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-03-31 06:48:19|
+|2023-04-01 01:00:16|[NucleiTP](https://github.com/ExpLangcn/NucleiTP)|更新啦❤️|
+|2023-03-31 21:48:03|[PocOrExp_in_Github](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-04-01 05:48:03|
+|2023-03-31 20:18:15|[sqlmap](https://github.com/sqlmapproject/sqlmap)|Fixes #5374|
+|2023-03-31 19:32:33|[RsaCtfTool](https://github.com/RsaCtfTool/RsaCtfTool)|Add logging information and fix error handling when cr<br>eating private key|
+|2023-03-31 09:56:18|[RmTools](https://github.com/RoomaSec/RmTools)|更新yara规则|
+|2023-03-31 08:57:26|[Elkeid](https://github.com/bytedance/Elkeid)|Update deploy-zh_CN.md for release v1.9.1.3|
+|2023-03-31 08:34:18|[dbeaver](https://github.com/dbeaver/dbeaver)|dbeaver/pro#1494 remove disabled models & update SDK &<br> add gpt turbo (#19501)Co-authored-by: MashaKorax |
+|2023-03-31 05:58:50|[vulnerability](https://github.com/lal0ne/vulnerability)|CVE-2023-1177|
+|2023-03-31 02:00:53|[veinmind-tools](https://github.com/chaitin/veinmind-tools)|fix(ai): ignore basic info analyzer (#218)|
 |2023-03-30 17:30:11|[nemo_go](https://github.com/hanc00l/nemo_go)|Update: 删除无效前端代码|
 |2023-03-30 14:41:22|[captcha-killer-modi<br>fied](https://github.com/f0ng/captcha-killer-modified)|Update FAQ.md|
-|2023-03-30 13:40:37|[dbeaver](https://github.com/dbeaver/dbeaver)|Merge branch 'devel' of https://github.com/dbeaver/dbe<br>aver into devel|
-|2023-03-30 13:34:46|[sqlmap](https://github.com/sqlmapproject/sqlmap)|Fixes #5378|
 |2023-03-30 13:20:08|[v2rayA](https://github.com/v2rayA/v2rayA)|fix: should connect instead of unselect and select whe<br>n using xray|
 |2023-03-30 08:39:34|[SwitchyOmega](https://github.com/FelisCatus/SwitchyOmega)|Translated using Weblate (Persian)Currently translated<br> at 97.4% (341 of 350 strings)|
 |2023-03-30 05:33:29|[ipInfoSearch](https://github.com/Potato-py/ipInfoSearch)|优化多线程，采用线程池控制最大线程数|
-|2023-03-30 03:21:43|[vulnerability](https://github.com/lal0ne/vulnerability)|CVE-2023-26513|
-|2023-03-29 22:22:07|[RsaCtfTool](https://github.com/RsaCtfTool/RsaCtfTool)|Don't show tracebacks unless specified by commandline|
 |2023-03-29 10:30:09|[domain_hunter_pro](https://github.com/bit4woo/domain_hunter_pro)|Update TargetTable.java|
 |2023-03-29 09:37:31|[naabu](https://github.com/projectdiscovery/naabu)|Merge pull request #626 from projectdiscovery/devBugfi<br>x update|
 |2023-03-29 09:12:35|[0day](https://github.com/helloexp/0day)|add Nacos 未授权访问漏洞|
-|2023-03-29 09:10:11|[veinmind-tools](https://github.com/chaitin/veinmind-tools)|feat(readme): clouodwalker|
 |2023-03-29 08:54:12|[afrog](https://github.com/zan8in/afrog)|update contributors|
 |2023-03-29 08:21:40|[AV_Evasion_Tool](https://github.com/1y0n/AV_Evasion_Tool)|Update README.md|
 |2023-03-29 07:28:02|[GoWxDump](https://github.com/SpenserCai/GoWxDump)|fix #11 编译3.9.2.23版本支持 感谢@imblowsnow|
@@ -123,7 +125,6 @@
 |2023-03-12 11:04:45|[HackBrowserData](https://github.com/moonD4rk/HackBrowserData)|Merge pull request #203 from moonD4rk/fix/leveldbfix: <br>missing key and value in local storage|
 |2023-03-11 13:36:23|[PeiQi-WIKI-Book](https://github.com/PeiQi0/PeiQi-WIKI-Book)|漏洞相关:O2OA,联软,金山等相关漏洞|
 |2023-03-10 03:31:53|[code6](https://github.com/4x99/code6)|Merge pull request #255 from 4x99/developv1.6.|
-|2023-03-10 02:50:32|[Elkeid](https://github.com/bytedance/Elkeid)|using RASP runner|
 |2023-03-09 14:17:46|[geacon_pro](https://github.com/H4de5-7/geacon_pro)|Update README.md|
 |2023-03-09 12:56:21|[TsojanScan](https://github.com/Tsojan/TsojanScan)|Update README.md|
 |2023-03-09 04:32:58|[qsnctf-python](https://github.com/Moxin1044/qsnctf-python)|更新README|
@@ -131,8 +132,7 @@
 |2023-03-08 02:32:40|[cf](https://github.com/teamssix/cf)|Merge pull request #214 from teamssix/betaperf: perf i<br>ssue ci|
 |2023-03-07 08:44:53|[knife](https://github.com/bit4woo/knife)|Update ChineseTab.java|
 |2023-03-07 07:33:10|[Godzilla](https://github.com/BeichenDream/Godzilla)|Update README.md|
-|2023-03-05 02:02:20|[CN_Nessus_Plugins_I<br>nterface](https://github.com/nszy007/CN_Nessus_Plugins_Interface)|20230301|
-|2023-03-01 09:10:31|[CVE-2023-21839](https://github.com/4ra1n/CVE-2023-21839)|Update README.md|## 所有项目
+|2023-03-05 02:02:20|[CN_Nessus_Plugins_I<br>nterface](https://github.com/nszy007/CN_Nessus_Plugins_Interface)|20230301|## 所有项目
 ### 信息收集
 #### 资产测绘采集
 | 项目名称 | 版本 | 项目描述 |
@@ -561,7 +561,7 @@
 | [Sylas](https://github.com/Acmesec/Sylas) | 1.1.1 | 新一代子域名主/被动收集工具 - Subdomain automatic/passive collec<br>tion tool |
 | [GadgetProbe](https://github.com/BishopFox/GadgetProbe) | v1.0 | Probe endpoints consuming Java serialized objects to identify cl<br>asses, libraries, and library versions on remote Java classpaths. |
 | [HopLa](https://github.com/synacktiv/HopLa) | 1.2 |  HopLa Burp Suite Extender plugin -Adds autocompletion support a<br>nd useful payloads in Burp Suite |
-| [captcha-killer-modi<br>fied](https://github.com/f0ng/captcha-killer-modified) | 0.23 | captcha-killer的修改版，支持关键词识别base64编码的图片，添加免费<br>ocr库，用于验证码爆破，适配新版Burpsuite |
+| [captcha-killer-modi<br>fied](https://github.com/f0ng/captcha-killer-modified) | 0.23-beta<br>1 | captcha-killer的修改版，支持关键词识别base64编码的图片，添加免费<br>ocr库，用于验证码爆破，适配新版Burpsuite |
 | [BurpCrypto](https://github.com/whwlsfb/BurpCrypto) |  | BurpCrypto is a collection of burpsuite encryption plug-ins, sup<br>port AES/RSA/DES/ExecJs(execute JS encryption code in burpsuite).<br> 支持多种加密算法或直接执行JS代码的用于爆破前端加密的BurpSuite插<br>件 |
 | [autoDecoder](https://github.com/f0ng/autoDecoder) | 0.23 | Burp插件，根据自定义来达到对数据包的处理（适用于加解密、爆破等）<br>，类似mitmproxy，不同点在于经过了burp中转，在自动加解密的基础上，<br>不影响APP、网站加解密正常逻辑等。 |
 | [burpFakeIP](https://github.com/TheKingOfDuck/burpFakeIP) | 1.1 | 服务端配置错误情况下用于伪造ip地址进行测试的Burp Suite插件 |
