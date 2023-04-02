@@ -693,8 +693,8 @@
             "https://github.com/zan8in/afrog": {
                 "created_at": "2022-02-24 06:00:32",
                 "description": "A Vulnerability Scanning Tools For Penetration Testing",
-                "commit_date": "2023-03-29 08:54:12",
-                "commit_message": "update contributors",
+                "commit_date": "2023-04-01 23:51:44",
+                "commit_message": "update",
                 "release_tag": "v2.2.1",
                 "release_date": "2023-02-04 14:54:34",
                 "release_message": "Merge many fingerprint pocs into the panel-detect.yaml file to reduce the number of http requests Console  print date format, 2023-01-01 changed to 01-01 Simplified afrog-config configuration  Fixed: invalid `-fc` configuration Tip: Configure the `-c` command, which can increase the concurrency speed very quickly  -----------------------------------------------------------------------------  将多个 panel 指纹探测合并到文件 panel-detect.yaml，大幅减少 http 请求 精简控制台日期打印，2023-01-01 改为 01-01 精简 afrog-config 配置信息  解决：`-fc` 命令配置无效问题 提示：配置 `-c` 命令能明显提高扫描速度"
@@ -1701,8 +1701,8 @@
             "https://github.com/ycdxsb/PocOrExp_in_Github": {
                 "created_at": "2021-04-13 05:46:16",
                 "description": "聚合Github上已有的Poc或者Exp，CVE信息来自CVE官网。Auto Collect Poc Or Exp from Github by CVE ID.",
-                "commit_date": "2023-03-31 21:48:03",
-                "commit_message": "update 2023-04-01 05:48:03",
+                "commit_date": "2023-04-01 22:48:19",
+                "commit_message": "update 2023-04-02 06:48:19",
                 "release_tag": "",
                 "release_date": "",
                 "release_message": ""
@@ -2006,8 +2006,8 @@
             "https://github.com/x364e3ab6/Dude": {
                 "created_at": "2023-02-03 05:39:58",
                 "description": "Dude (大佬) WEB渗透测试辅助工具",
-                "commit_date": "2023-03-25 09:27:58",
-                "commit_message": "Update README.md",
+                "commit_date": "2023-04-01 09:19:26",
+                "commit_message": "Merge branch 'main' of https://github.com/x364e3ab6/Dude",
                 "release_tag": "v1.0.0.3",
                 "release_date": "2023-03-25 08:08:30",
                 "release_message": "1. 修改了在安装了Edge或Edge WebView2 Runtime的情况下，可不用携带BrowserRuntime这个超大文件夹； 2. 修改了内置Edge浏览器的一些功能和显示效果； 3. 修改了“数据爆破”功能中同步多线程的问题，极大的提高了爆破速度； 5. 对插件做出一些细节的调整； 4. 修改了一些小Bug。"
@@ -2650,13 +2650,13 @@
                 "release_message": "0.5.2 版本发布，版本更新内容如下：  ### 新增  - 主面板新增 `Filter` 按钮，支持单列、多列过滤规则配置 "
             },
             "https://github.com/KrystianLi/OutLook": {
-                "created_at": "2023-02-14 01:34:38",
-                "description": "一款OutLook信息收集工具",
+                "created_at": "",
+                "description": "",
                 "commit_date": "2023-02-17 03:44:49",
                 "commit_message": "Update",
-                "release_tag": "v1.2.0",
-                "release_date": "2023-02-17 03:46:29",
-                "release_message": "1、优化代码和操作界面 2、新增数据保存功能，导出格式为xls"
+                "release_tag": "",
+                "release_date": "",
+                "release_message": ""
             },
             "https://github.com/winezer0/passive-scan-client-plus": {
                 "created_at": "2020-12-14 11:04:41",
@@ -3057,8 +3057,8 @@
             "https://github.com/ninoseki/mitaka": {
                 "created_at": "2018-02-09 00:13:30",
                 "description": "A browser extension for OSINT search",
-                "commit_date": "2023-03-28 14:11:02",
-                "commit_message": "Merge pull request #720 from ninoseki/fix-hash-search-all-issue",
+                "commit_date": "2023-04-01 07:38:38",
+                "commit_message": "Merge pull request #722 from ninoseki/v1.1.1\n\nv1.1.1",
                 "release_tag": "v1.0.0",
                 "release_date": "2023-02-26 07:27:26",
                 "release_message": "- Migrate to the Manifest V3 (#703) - Replace Mocha, Chai and Sinon with Jest (#703) "
@@ -3137,7 +3137,7 @@
             "https://github.com/ExpLangcn/NucleiTP": {
                 "created_at": "2022-11-08 13:16:56",
                 "description": "自动整合全网Nuclei的漏洞POC，实时同步更新最新POC！",
-                "commit_date": "2023-04-01 01:00:16",
+                "commit_date": "2023-04-02 01:00:20",
                 "commit_message": "更新啦❤️",
                 "release_tag": "",
                 "release_date": "",
@@ -3676,8 +3676,8 @@
             "https://github.com/joke2k/faker": {
                 "created_at": "2012-11-12 23:00:09",
                 "description": "Faker is a Python package that generates fake data for you.",
-                "commit_date": "2023-03-27 04:02:46",
-                "commit_message": "Update README.rst (#1832)",
+                "commit_date": "2023-04-01 19:34:44",
+                "commit_message": "Bump version: 18.3.1 → 18.3.2",
                 "release_tag": "v18.3.1",
                 "release_date": "2023-03-23 19:59:31",
                 "release_message": "See [CHANGELOG.md](https://github.com/joke2k/faker/blob/refs/tags/v18.3.1/CHANGELOG.md)."
@@ -3694,8 +3694,8 @@
             "https://github.com/dbeaver/dbeaver": {
                 "created_at": "2015-10-21 08:26:28",
                 "description": "Free universal database tool and SQL client",
-                "commit_date": "2023-03-31 08:34:18",
-                "commit_message": "dbeaver/pro#1494 remove disabled models & update SDK & add gpt turbo (#19501)\n\nCo-authored-by: MashaKorax <84867187+MashaKorax@users.noreply.github.com>",
+                "commit_date": "2023-04-01 16:38:44",
+                "commit_message": "dbeaver/pro#1241 update icon (#19516)",
                 "release_tag": "23.0.1",
                 "release_date": "2023-03-26 18:30:18",
                 "release_message": "                 - SQL editor:                     - Results tab now can be detached                     - Editor toolbar now can be customized in preferences                     - Query statistics tab now can be turned off                     - Table metadata search was improved                 - SSH:                     - Support of new crypto ciphers was added                     - SHH agents now works properly in Linux                 - General UI:                     - Zoom in text editors and data editors was fixed                     - Navigator tree refresh after metadata change was fixed                     - Default font size was increased for MacOS                     - Text font configuration was fixed in multiple dialog windows                     - Connection type settings change now affects UI properly                 - Data export: exporting of BLOB values in TXT format was improved                 - Native network proxy configuration was fixed                 - TiDB: new driver was added (thanks to @Icemap)                 - Clickhouse: driver version was updated to 0.4.2                 - Firebird: procedure parameters defualt values support was added                 - Oracle: additional properties in table info were added                 - PostgreSQL: composite data type support was improved                 - SQLite: STRICT mode support was added                 - Sybase/SQL Anywhere: result set size limitation in SQL was fixed                 - Vertica: expired password change feature was added             "

@@ -1,4 +1,4 @@
-# 更新于 2023-04-01 09:04:12
+# 更新于 2023-04-02 09:05:22
 
 ## 近30天release更新记录
 | 更新时间 | 项目名称 | 版本 | 更新内容 |
@@ -46,13 +46,17 @@
 ## 近30天commit提交记录
 | 提交时间 | 项目名称 | 更新内容 |
 | :---- | :---- | :---- |
-|2023-04-01 01:00:16|[NucleiTP](https://github.com/ExpLangcn/NucleiTP)|更新啦❤️|
-|2023-03-31 21:48:03|[PocOrExp_in_Github](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-04-01 05:48:03|
+|2023-04-02 01:00:20|[NucleiTP](https://github.com/ExpLangcn/NucleiTP)|更新啦❤️|
+|2023-04-01 23:51:44|[afrog](https://github.com/zan8in/afrog)|update|
+|2023-04-01 22:48:19|[PocOrExp_in_Github](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-04-02 06:48:19|
+|2023-04-01 19:34:44|[faker](https://github.com/joke2k/faker)|Bump version: 18.3.1 → 18.3.2|
+|2023-04-01 16:38:44|[dbeaver](https://github.com/dbeaver/dbeaver)|dbeaver/pro#1241 update icon (#19516)|
+|2023-04-01 09:19:26|[Dude](https://github.com/x364e3ab6/Dude)|Merge branch 'main' of https://github.com/x364e3ab6/Du<br>de|
+|2023-04-01 07:38:38|[mitaka](https://github.com/ninoseki/mitaka)|Merge pull request #722 from ninoseki/v1.1.1v1.1.1|
 |2023-03-31 20:18:15|[sqlmap](https://github.com/sqlmapproject/sqlmap)|Fixes #5374|
 |2023-03-31 19:32:33|[RsaCtfTool](https://github.com/RsaCtfTool/RsaCtfTool)|Add logging information and fix error handling when cr<br>eating private key|
 |2023-03-31 09:56:18|[RmTools](https://github.com/RoomaSec/RmTools)|更新yara规则|
 |2023-03-31 08:57:26|[Elkeid](https://github.com/bytedance/Elkeid)|Update deploy-zh_CN.md for release v1.9.1.3|
-|2023-03-31 08:34:18|[dbeaver](https://github.com/dbeaver/dbeaver)|dbeaver/pro#1494 remove disabled models & update SDK &<br> add gpt turbo (#19501)Co-authored-by: MashaKorax |
 |2023-03-31 05:58:50|[vulnerability](https://github.com/lal0ne/vulnerability)|CVE-2023-1177|
 |2023-03-31 02:00:53|[veinmind-tools](https://github.com/chaitin/veinmind-tools)|fix(ai): ignore basic info analyzer (#218)|
 |2023-03-30 17:30:11|[nemo_go](https://github.com/hanc00l/nemo_go)|Update: 删除无效前端代码|
@@ -63,13 +67,11 @@
 |2023-03-29 10:30:09|[domain_hunter_pro](https://github.com/bit4woo/domain_hunter_pro)|Update TargetTable.java|
 |2023-03-29 09:37:31|[naabu](https://github.com/projectdiscovery/naabu)|Merge pull request #626 from projectdiscovery/devBugfi<br>x update|
 |2023-03-29 09:12:35|[0day](https://github.com/helloexp/0day)|add Nacos 未授权访问漏洞|
-|2023-03-29 08:54:12|[afrog](https://github.com/zan8in/afrog)|update contributors|
 |2023-03-29 08:21:40|[AV_Evasion_Tool](https://github.com/1y0n/AV_Evasion_Tool)|Update README.md|
 |2023-03-29 07:28:02|[GoWxDump](https://github.com/SpenserCai/GoWxDump)|fix #11 编译3.9.2.23版本支持 感谢@imblowsnow|
 |2023-03-29 02:26:13|[Awesome-Redteam](https://github.com/Threekiii/Awesome-Redteam)|更新弱口令字典|
 |2023-03-29 02:21:27|[X-Marshal](https://github.com/XTeam-Wing/X-Marshal)|Update README.md|
 |2023-03-28 15:47:04|[github-subdomains](https://github.com/gwen001/github-subdomains)|readme|
-|2023-03-28 14:11:02|[mitaka](https://github.com/ninoseki/mitaka)|Merge pull request #720 from ninoseki/fix-hash-search-<br>all-issue|
 |2023-03-28 09:53:56|[Vulnerability-Wiki](https://github.com/Threekiii/Vulnerability-Wiki)|更新漏洞|
 |2023-03-28 09:49:07|[Vulhub-Reproduce](https://github.com/Threekiii/Vulhub-Reproduce)|更新漏洞|
 |2023-03-28 09:48:31|[Awesome-POC](https://github.com/Threekiii/Awesome-POC)|更新漏洞|
@@ -78,11 +80,9 @@
 |2023-03-27 07:38:18|[Aazhen-RexHa](https://github.com/zangcc/Aazhen-RexHa)|Update README.md|
 |2023-03-27 05:14:41|[ysoserial](https://github.com/su18/ysoserial)|添加 hide type 3 ，通过封装一个带有假信息的 ClassLoade<br>r 来试图逃避检测|
 |2023-03-27 04:58:11|[404StarLink](https://github.com/knownsec/404StarLink)|weekly update at 2023-03-27|
-|2023-03-27 04:02:46|[faker](https://github.com/joke2k/faker)|Update README.rst (#1832)|
 |2023-03-26 12:59:39|[ElectricRat](https://github.com/linjiananallnt/ElectricRat)|Update README.md|
 |2023-03-26 05:39:20|[SharpWxDump](https://github.com/AdminTest0/SharpWxDump)|Update README.md|
 |2023-03-26 03:21:11|[SmsForwarder](https://github.com/pppscn/SmsForwarder)|新增：issue 提交模板（请务必按照模板填写，避免浪费你我<br>的时间）|
-|2023-03-25 09:27:58|[Dude](https://github.com/x364e3ab6/Dude)|Update README.md|
 |2023-03-25 04:02:31|[IPSearch](https://github.com/SleepingBag945/IPSearch)|Merge pull request #2 from SleepingBag945/add-license-<br>1Create LICENSE|
 |2023-03-25 02:11:10|[Apt_t00ls](https://github.com/White-hua/Apt_t00ls)|Merge pull request #14 from dbgee/patch-1Update cas_cv<br>m_upload.java 文件名校验|
 |2023-03-24 22:41:40|[CyberChef](https://github.com/gchq/CyberChef)|10.4.0|
@@ -579,7 +579,7 @@
 | [NEW_xp_CAPTCHA](https://github.com/smxiazi/NEW_xp_CAPTCHA) | 4.2 | xp_CAPTCHA(瞎跑 白嫖版) burp 验证码 识别 burp插件 |
 | [npscrack](https://github.com/weishen250/npscrack) | npscrack-<br>1.0 | 蓝队利器、溯源反制、NPS 漏洞利用、NPS exp、NPS poc、Burp插件、一<br>键利用 |
 | [OneScan](https://github.com/vaycore/OneScan) | v0.5.2 | OneScan是一个递归目录扫描的BurpSuite插件 |
-| [OutLook](https://github.com/KrystianLi/OutLook) | v1.2.0 | 一款OutLook信息收集工具 |
+| [OutLook](https://github.com/KrystianLi/OutLook) |  |  |
 | [passive-scan-client<br>-plus](https://github.com/winezer0/passive-scan-client-plus) | v0.4.12.0 | burpsuite passive-scan-client 插件维护分支 |
 | [BurpCRLFScan](https://github.com/A0WaQ4/BurpCRLFScan) | 1.4 | 使用java编写的CRLF-Injection-burp被动扫描插件 |
 | [JsonDetect](https://github.com/a1phaboy/JsonDetect) | v1.0 | A burp Extender to detect json, include fastjson,jackson,gson |
