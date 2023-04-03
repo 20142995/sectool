@@ -48,8 +48,8 @@
             },
             "https://github.com/Ifory885/fshzqSearch": {
                 "created_at": "2023-01-14 09:14:41",
-                "description": "fofa、shodan、hunter、zoomeye、quake网络空间搜索引擎聚合搜索，并对结果进行finger指纹识别。",
-                "commit_date": "2023-01-17 03:31:18",
+                "description": "fofa、shodan、hunter、zoomeye、quake网络空间搜索引擎及github聚合搜索，并对结果进行finger指纹识别。",
+                "commit_date": "2023-04-02 07:58:33",
                 "commit_message": "Update README.md",
                 "release_tag": "",
                 "release_date": "",
@@ -684,16 +684,16 @@
             "https://github.com/projectdiscovery/nuclei": {
                 "created_at": "2020-04-03 18:47:11",
                 "description": "Fast and customizable vulnerability scanner based on simple YAML based DSL.",
-                "commit_date": "2023-03-17 16:51:30",
-                "commit_message": "Merge pull request #3433 from projectdiscovery/dependabot/go_modules/v2/google.golang.org/protobuf-1.29.1\n\nchore(deps): bump google.golang.org/protobuf from 1.29.0 to 1.29.1 in /v2",
-                "release_tag": "v2.9.0",
-                "release_date": "2023-03-16 18:36:03",
-                "release_message": "## What's Changed  * Added support for templates in JSON format by @CodFrm in https://github.com/projectdiscovery/nuclei/pull/3333 * Added template sign/verify functionality by @Mzack9999 in https://github.com/projectdiscovery/nuclei/pull/3029 * Added `-track-error` option to add custom errors to max-host-error watch list by @austintraver in https://github.com/projectdiscovery/nuclei/pull/3399 * Added data race panic check in integration_tests by @tarunKoyalwar in https://github.com/projectdiscovery/nuclei/pull/3303 * Added CLI option to override fuzzing template options by @ShubhamRasal in https://github.com/projectdiscovery/nuclei/pull/3355 * Added `ip_formats()` helper function by @xm1k3 in https://github.com/projectdiscovery/nuclei/pull/3286 * Added `resolve()` helper function by @xm1k3 in https://github.com/projectdiscovery/nuclei/pull/3321 * Added `rawstringslice` to make reference url case insensitive by @Bisstocuz in https://github.com/projectdiscovery/nuclei/pull/3346 * Fixed a bug with OR matcher condition with interactsh by @RamanaReddy0M in https://github.com/projectdiscovery/nuclei/pull/3397 * Fixed `set-method` option in headless template by @Mzack9999 in https://github.com/projectdiscovery/nuclei/pull/3373 * Fixed atomic bool check by @Mzack9999 in https://github.com/projectdiscovery/nuclei/pull/3376 * Fixed bug in URL path and adds integration tests by @tarunKoyalwar in https://github.com/projectdiscovery/nuclei/pull/3331 * Fixed crash with interactsh integration by @Mzack9999 in https://github.com/projectdiscovery/nuclei/pull/3312 * Fixed data race when using interactsh_matchers by @tarunKoyalwar in https://github.com/projectdiscovery/nuclei/pull/3432 * Fixed file input in custom vars with `self-contained` http template by @tarunKoyalwar in https://github.com/projectdiscovery/nuclei/pull/3385 * Fixed missing port in matched ssl templates by @tarunKoyalwar in https://github.com/projectdiscovery/nuclei/pull/3380 * Fixed nil pointer reference + use map helper by @Mzack9999 in https://github.com/projectdiscovery/nuclei/pull/3421 * Fixed `parseUrl` test by @ShubhamRasal in https://github.com/projectdiscovery/nuclei/pull/3426 * Fixed typo in `-hc` option by @sullo in https://github.com/projectdiscovery/nuclei/pull/3400  Issues closed in release - https://github.com/projectdiscovery/nuclei/milestone/27  ## New Contributors * @noraj made their first contribution in https://github.com/projectdiscovery/nuclei/pull/3162 * @Bisstocuz made their first contribution in https://github.com/projectdiscovery/nuclei/pull/3346 * @CodFrm made their first contribution in https://github.com/projectdiscovery/nuclei/pull/3333 * @austintraver made their first contribution in https://github.com/projectdiscovery/nuclei/pull/3399 * @RamanaReddy0M made their first contribution in https://github.com/projectdiscovery/nuclei/pull/3397  **Full Changelog**: https://github.com/projectdiscovery/nuclei/compare/v2.8.9...v2.9.0"
+                "commit_date": "2023-04-02 09:06:22",
+                "commit_message": "Merge pull request #3491 from projectdiscovery/dev\n\nnuclei v2.9.1",
+                "release_tag": "v2.9.1",
+                "release_date": "2023-04-02 09:41:21",
+                "release_message": "## Breaking Changes:  **⚠️ Updated `-json` option to `-jsonl` to correctly reflect the output format** by @kchason in https://github.com/projectdiscovery/nuclei/pull/3466 ```console    -j, -jsonl  write output in JSONL(ines) format ``` **⚠️ Updated protocol attribute name (`requests`=> `http` & `network` => `tcp`) in templates** by @ShubhamRasal in https://github.com/projectdiscovery/nuclei/pull/3425  > Templates with the use of `requests` and `network` will still work but will be deprecated completely in the future.  ## What's New * **Added JSON output export support** (`-json-export`) by @kchason in https://github.com/projectdiscovery/nuclei/pull/3466 ```console    -je, -json-export string  file to export results in JSON format ``` * Added `cpe` and `epss-score` support in template classification by @ehsandeep in https://github.com/projectdiscovery/nuclei/pull/3489 * Added `mkdir` support in headless screenshot by @tarunKoyalwar in https://github.com/projectdiscovery/nuclei/pull/3457 * Added support for jira custom fields by @jordanpotti in https://github.com/projectdiscovery/nuclei/pull/3406 * Added AWS catalog for loading templates from bucket by @leoloobeek in https://github.com/projectdiscovery/nuclei/pull/3372 * **Fixed a crash in tlsx integration** by @ehsandeep in https://github.com/projectdiscovery/nuclei/pull/3490 * Fixed template link references by @mlec1 in https://github.com/projectdiscovery/nuclei/pull/3485 * Fixed an issue with the scanning strategy option by @nHurD in https://github.com/projectdiscovery/nuclei/pull/3464 * Fixed AWS S3 bucket catalog path mismatch by @tarunKoyalwar in https://github.com/projectdiscovery/nuclei/pull/3474 * Moved DSL helper functions to [dsl](https://github.com/projectdiscovery/dsl) project by @RamanaReddy0M in https://github.com/projectdiscovery/nuclei/pull/3461  Issues closed in this release - https://github.com/projectdiscovery/nuclei/milestone/28?closed=1  ## New Contributors * @jordanpotti made their first contribution in https://github.com/projectdiscovery/nuclei/pull/3406 * @nHurD made their first contribution in https://github.com/projectdiscovery/nuclei/pull/3464 * @leoloobeek made their first contribution in https://github.com/projectdiscovery/nuclei/pull/3372 * @mlec1 made their first contribution in https://github.com/projectdiscovery/nuclei/pull/3485  **Full Changelog**: https://github.com/projectdiscovery/nuclei/compare/v2.9.0...v2.9.1"
             },
             "https://github.com/zan8in/afrog": {
                 "created_at": "2022-02-24 06:00:32",
                 "description": "A Vulnerability Scanning Tools For Penetration Testing",
-                "commit_date": "2023-04-01 23:51:44",
+                "commit_date": "2023-04-02 12:27:58",
                 "commit_message": "update",
                 "release_tag": "v2.2.1",
                 "release_date": "2023-02-04 14:54:34",
@@ -1701,8 +1701,8 @@
             "https://github.com/ycdxsb/PocOrExp_in_Github": {
                 "created_at": "2021-04-13 05:46:16",
                 "description": "聚合Github上已有的Poc或者Exp，CVE信息来自CVE官网。Auto Collect Poc Or Exp from Github by CVE ID.",
-                "commit_date": "2023-04-01 22:48:19",
-                "commit_message": "update 2023-04-02 06:48:19",
+                "commit_date": "2023-04-02 22:49:19",
+                "commit_message": "update 2023-04-03 06:49:19",
                 "release_tag": "",
                 "release_date": "",
                 "release_message": ""
@@ -2378,7 +2378,7 @@
             "https://github.com/k8gege/K8tools": {
                 "created_at": "2019-02-23 14:04:52",
                 "description": "K8工具合集(内网渗透/提权工具/远程溢出/漏洞利用/扫描工具/密码破解/免杀工具/Exploit/APT/0day/Shellcode/Payload/priviledge/BypassUAC/OverFlow/WebShell/PenTest) Web GetShell Exploit(Struts2/Zimbra/Weblogic/Tomcat/Apache/Jboss/DotNetNuke/zabbix)",
-                "commit_date": "2023-03-23 14:40:56",
+                "commit_date": "2023-04-02 14:08:10",
                 "commit_message": "Add files via upload",
                 "release_tag": "",
                 "release_date": "",
@@ -2454,8 +2454,8 @@
             "https://github.com/bit4woo/domain_hunter_pro": {
                 "created_at": "2019-01-18 07:15:15",
                 "description": "domain_hunter的高级版本，SRC挖洞、HW打点之必备！自动化资产收集；快速Title获取；外部工具联动；等等",
-                "commit_date": "2023-03-29 10:30:09",
-                "commit_message": "Update TargetTable.java",
+                "commit_date": "2023-04-02 13:52:56",
+                "commit_message": "Update ToolPanel.java",
                 "release_tag": "v1.9-alpha",
                 "release_date": "2022-11-18 09:37:35",
                 "release_message": "**这是重构版本，与旧版本不兼容！！！ 这是重构版本，与旧版本不兼容！！！ 这是重构版本，与旧版本不兼容！！！**  重新设计了数据库的表结构，尽量提升数据库读写效率 重新设计了数据对象、UI、数据库之间的数据同步逻辑 重新设计了数据存储的基础类，保证线程安全 重新设计了table中model类的部分逻辑，减少内存占用  优化了数据对象的字段，尽量减小每个数据对象的内存占用 优化了数据提取的正则表达式和逻辑 优化了根域名、网段作控制目标范围的逻辑 优化了当根域名、网段变化时，数据的刷新逻辑 优化了数据数据加载逻辑 其他各种逻辑优化、bug修改  总之就是大动作，和旧版本不兼容，可能存在潜在bug（虽然我已经试用一段时间，排除了很多bug），所以发布一个alpha版本在正式版本之前。  欢迎试用提交bug，使用时建议创建新的项目数据库，不要使用旧数据库文件。"
@@ -3137,7 +3137,7 @@
             "https://github.com/ExpLangcn/NucleiTP": {
                 "created_at": "2022-11-08 13:16:56",
                 "description": "自动整合全网Nuclei的漏洞POC，实时同步更新最新POC！",
-                "commit_date": "2023-04-02 01:00:20",
+                "commit_date": "2023-04-03 01:00:19",
                 "commit_message": "更新啦❤️",
                 "release_tag": "",
                 "release_date": "",
@@ -3524,8 +3524,8 @@
             "https://github.com/Moxin1044/qsnctf-python": {
                 "created_at": "2023-01-01 01:56:43",
                 "description": "青少年CTF的Python包，方便大家调用一些CTF常用功能。",
-                "commit_date": "2023-03-09 04:32:58",
-                "commit_message": "更新README",
+                "commit_date": "2023-04-02 17:16:18",
+                "commit_message": "增加求等差数列第n项和n项和",
                 "release_tag": "0.0.8.9",
                 "release_date": "2023-02-26 00:35:49",
                 "release_message": "更新了之前版本不存在的Web请求timeout导致扫描时间过长，在0.0.8.9版本已修复此问题。 您甚至可以指定timeout，感谢问题反馈！"
@@ -3694,8 +3694,8 @@
             "https://github.com/dbeaver/dbeaver": {
                 "created_at": "2015-10-21 08:26:28",
                 "description": "Free universal database tool and SQL client",
-                "commit_date": "2023-04-01 16:38:44",
-                "commit_message": "dbeaver/pro#1241 update icon (#19516)",
+                "commit_date": "2023-04-02 18:25:38",
+                "commit_message": "dbeaver/dbeaver#18316 INSERT and UPDATE keywords completion (#19581)",
                 "release_tag": "23.0.1",
                 "release_date": "2023-03-26 18:30:18",
                 "release_message": "                 - SQL editor:                     - Results tab now can be detached                     - Editor toolbar now can be customized in preferences                     - Query statistics tab now can be turned off                     - Table metadata search was improved                 - SSH:                     - Support of new crypto ciphers was added                     - SHH agents now works properly in Linux                 - General UI:                     - Zoom in text editors and data editors was fixed                     - Navigator tree refresh after metadata change was fixed                     - Default font size was increased for MacOS                     - Text font configuration was fixed in multiple dialog windows                     - Connection type settings change now affects UI properly                 - Data export: exporting of BLOB values in TXT format was improved                 - Native network proxy configuration was fixed                 - TiDB: new driver was added (thanks to @Icemap)                 - Clickhouse: driver version was updated to 0.4.2                 - Firebird: procedure parameters defualt values support was added                 - Oracle: additional properties in table info were added                 - PostgreSQL: composite data type support was improved                 - SQLite: STRICT mode support was added                 - Sybase/SQL Anywhere: result set size limitation in SQL was fixed                 - Vertica: expired password change feature was added             "

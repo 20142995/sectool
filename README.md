@@ -1,8 +1,9 @@
-# 更新于 2023-04-02 09:05:22
+# 更新于 2023-04-03 09:03:13
 
 ## 近30天release更新记录
 | 更新时间 | 项目名称 | 版本 | 更新内容 |
 | :---- | :---- | :---- | :---- |
+|2023-04-02 09:41:21|[nuclei](https://github.com/projectdiscovery/nuclei)|v2.9.1|## Breaking Changes:**⚠️ Updated -jso<br>n option to -jsonl to correctly reflect <br>the output format** by @kchason in https<br>://github.com/projectdiscovery/nuclei/pu<br>ll/3466 console-j, -jsonlwrite output in<br> JSONL(ines) format**⚠️ Updated protoc<br>ol attribute name (requests=> http & net<br>work => tcp) in templates** by @ShubhamR<br>asal in https://github.com/projectdiscov<br>ery/nuclei/pull/3425> Templates with the<br> use of requests and network will still <br>work but will be deprecated completely i<br>n the future.## What's New * **Added JSO<br>N output export support** (-json-export)<br> by @kchason in https://github.com/proje<br>ctdiscovery/nuclei/pull/3466 console-je,<br> -json-export stringfile to export resul<br>ts in JSON format* Added cpe and epss-sc<br>ore support in template classification b<br>y @ehsandeep in https://github.com/proje<br>ctdiscovery/nuclei/pull/3489 * Added mkd<br>ir support in headless screenshot by @ta<br>runKoyalwar in https://github.com/projec<br>tdiscovery/nuclei/pull/3457 * Added supp<br>ort for jira custom fields by @jordanpot<br>ti in https://github.com/projectdiscover<br>y/nuclei/pull/3406 * Added AWS catalog f<br>or loading templates from bucket by @leo<br>loobeek in https://github.com/projectdis<br>covery/nuclei/pull/3372 * **Fixed a cras<br>h in tlsx integration** by @ehsandeep in<br> https://github.com/projectdiscovery/nuc<br>lei/pull/3490 * Fixed template link refe<br>rences by @mlec1 in https://github.com/p<br>rojectdiscovery/nuclei/pull/3485 * Fixed<br> an issue with the scanning strategy opt<br>ion by @nHurD in https://github.com/proj<br>ectdiscovery/nuclei/pull/3464 * Fixed AW<br>S S3 bucket catalog path mismatch by @ta<br>runKoyalwar in https://github.com/projec<br>tdiscovery/nuclei/pull/3474 * Moved DSL <br>helper functions to [dsl](https://github<br>.com/projectdiscovery/dsl) project by @R<br>amanaReddy0M in https://github.com/proje<br>ctdiscovery/nuclei/pull/3461Issues close<br>d in this release - https://github.com/p<br>rojectdiscovery/nuclei/milestone/28?clos<br>ed=1## New Contributors * @jordanpotti m<br>ade their first contribution in https://<br>github.com/projectdiscovery/nuclei/pull/<br>3406 * @nHurD made their first contribut<br>ion in https://github.com/projectdiscove<br>ry/nuclei/pull/3464 * @leoloobeek made t<br>heir first contribution in https://githu<br>b.com/projectdiscovery/nuclei/pull/3372 <br>* @mlec1 made their first contribution i<br>n https://github.com/projectdiscovery/nu<br>clei/pull/3485**Full Changelog**: https:<br>//github.com/projectdiscovery/nuclei/com<br>pare/v2.9.0...v2.9.1|
 |2023-03-31 13:07:33|[captcha-killer-modi<br>fied](https://github.com/f0ng/captcha-killer-modified)|0.23-beta<br>1|【2023-3-31】 0.23-beta1- 修复在使用int<br>ruder扩展填充验证码的情况下，验证码id会<br>漏一个的问题感谢微信群师傅YPL. 反馈|
 |2023-03-29 09:39:08|[naabu](https://github.com/projectdiscovery/naabu)|v2.1.5|## What's Changed * Fixed issue with **<br>exclude port/host** option by @Mzack9999<br> in https://github.com/projectdiscovery/<br>naabu/pull/624 * Added timeout to scan t<br>hrough SOCKS proxy by @jpts in https://g<br>ithub.com/projectdiscovery/naabu/pull/60<br>1## New Contributors * @jpts made their <br>first contribution in https://github.com<br>/projectdiscovery/naabu/pull/601 * @real<br>alexandergeorgiev made their first contr<br>ibution in https://github.com/projectdis<br>covery/naabu/pull/602**Full Changelog**:<br> https://github.com/projectdiscovery/naa<br>bu/compare/v2.1.4...v2.1.5|
 |2023-03-29 08:46:28|[veinmind-tools](https://github.com/chaitin/veinmind-tools)|v2.1.1|## Fix - 修复容器运行时部分初始化问题|
@@ -27,7 +28,6 @@
 |2023-03-17 16:15:20|[subfinder](https://github.com/projectdiscovery/subfinder)|v2.5.7|## What's Changed * Fixed Docker file t<br>o avoid version mismatch by @olearycrew <br>in https://github.com/projectdiscovery/s<br>ubfinder/pull/771 * Added self update op<br>tion (-update) + version checkby @Ramana<br>Reddy0M in https://github.com/projectdis<br>covery/subfinder/pull/780## New Contribu<br>tors * @olearycrew made their first cont<br>ribution in https://github.com/projectdi<br>scovery/subfinder/pull/771**Full Changel<br>og**: https://github.com/projectdiscover<br>y/subfinder/compare/v2.5.6...v2.5.7|
 |2023-03-17 08:52:34|[HackTools](https://github.com/Vicl1fe/HackTools)|1.4|新增FindReport、jasypt解密功能|
 |2023-03-17 08:22:08|[ARL](https://github.com/TophantTechnology/ARL)|v2.5.4|## 更新和优化 1. 优化泛解析域名爆破流程<br> 2. 修复nuclei 在执行时可能出现一个错误 <br>#481 3. nuclei版本更新 4. 截图生成文件名<br>正则优化 #498 5. 域名插件crt.sh，hunter_q<br>ax等优化 6. 修复302 URL过长导致入库失败<br>问题 @原来是老王 @ki9mu## 更新方法：docke<br>r-compose pull docker-compose down docke<br>r-compose up -d## 重装参考： [卸载并重装<br>](https://tophanttechnology.github.io/AR<br>L-doc/faq/#12-docker) |
-|2023-03-16 18:36:03|[nuclei](https://github.com/projectdiscovery/nuclei)|v2.9.0|## What's Changed* Added support for te<br>mplates in JSON format by @CodFrm in htt<br>ps://github.com/projectdiscovery/nuclei/<br>pull/3333 * Added template sign/verify f<br>unctionality by @Mzack9999 in https://gi<br>thub.com/projectdiscovery/nuclei/pull/30<br>29 * Added -track-error option to add cu<br>stom errors to max-host-error watch list<br> by @austintraver in https://github.com/<br>projectdiscovery/nuclei/pull/3399 * Adde<br>d data race panic check in integration_t<br>ests by @tarunKoyalwar in https://github<br>.com/projectdiscovery/nuclei/pull/3303 *<br> Added CLI option to override fuzzing te<br>mplate options by @ShubhamRasal in https<br>://github.com/projectdiscovery/nuclei/pu<br>ll/3355 * Added ip_formats() helper func<br>tion by @xm1k3 in https://github.com/pro<br>jectdiscovery/nuclei/pull/3286 * Added r<br>esolve() helper function by @xm1k3 in ht<br>tps://github.com/projectdiscovery/nuclei<br>/pull/3321 * Added rawstringslice to mak<br>e reference url case insensitive by @Bis<br>stocuz in https://github.com/projectdisc<br>overy/nuclei/pull/3346 * Fixed a bug wit<br>h OR matcher condition with interactsh b<br>y @RamanaReddy0M in https://github.com/p<br>rojectdiscovery/nuclei/pull/3397 * Fixed<br> set-method option in headless template <br>by @Mzack9999 in https://github.com/proj<br>ectdiscovery/nuclei/pull/3373 * Fixed at<br>omic bool check by @Mzack9999 in https:/<br>/github.com/projectdiscovery/nuclei/pull<br>/3376 * Fixed bug in URL path and adds i<br>ntegration tests by @tarunKoyalwar in ht<br>tps://github.com/projectdiscovery/nuclei<br>/pull/3331 * Fixed crash with interactsh<br> integration by @Mzack9999 in https://gi<br>thub.com/projectdiscovery/nuclei/pull/33<br>12 * Fixed data race when using interact<br>sh_matchers by @tarunKoyalwar in https:/<br>/github.com/projectdiscovery/nuclei/pull<br>/3432 * Fixed file input in custom vars <br>with self-contained http template by @ta<br>runKoyalwar in https://github.com/projec<br>tdiscovery/nuclei/pull/3385 * Fixed miss<br>ing port in matched ssl templates by @ta<br>runKoyalwar in https://github.com/projec<br>tdiscovery/nuclei/pull/3380 * Fixed nil <br>pointer reference + use map helper by @M<br>zack9999 in https://github.com/projectdi<br>scovery/nuclei/pull/3421 * Fixed parseUr<br>l test by @ShubhamRasal in https://githu<br>b.com/projectdiscovery/nuclei/pull/3426 <br>* Fixed typo in -hc option by @sullo in <br>https://github.com/projectdiscovery/nucl<br>ei/pull/3400Issues closed in release - h<br>ttps://github.com/projectdiscovery/nucle<br>i/milestone/27## New Contributors * @nor<br>aj made their first contribution in http<br>s://github.com/projectdiscovery/nuclei/p<br>ull/3162 * @Bisstocuz made their first c<br>ontribution in https://github.com/projec<br>tdiscovery/nuclei/pull/3346 * @CodFrm ma<br>de their first contribution in https://g<br>ithub.com/projectdiscovery/nuclei/pull/3<br>333 * @austintraver made their first con<br>tribution in https://github.com/projectd<br>iscovery/nuclei/pull/3399 * @RamanaReddy<br>0M made their first contribution in http<br>s://github.com/projectdiscovery/nuclei/p<br>ull/3397**Full Changelog**: https://gith<br>ub.com/projectdiscovery/nuclei/compare/v<br>2.8.9...v2.9.0|
 |2023-03-15 08:50:17|[Elkeid](https://github.com/bytedance/Elkeid)|scanner-v<br>2.2.0.1_20<br>230315||
 |2023-03-14 14:33:27|[RequestTemplate](https://github.com/1n7erface/RequestTemplate)|v1.1.3|2023.3.14 22:30 1.解决了一个POC在运行过<br>程中线程提前中断的bug|
 |2023-03-13 18:58:37|[super-xray](https://github.com/4ra1n/super-xray)|1.6|## 1.6失眠，简单更新下更新内容： - [imp<br>ortant] 给RAD联动提供一种批量执行的办法 <br>#155 - [important] RAD联动支持Cookie配置<br> #153 - [feat] 第一次加载RAD后支持保存路<br>径下次直接加载 #156 - [feat] RAD联动支持<br>一键复制RAD命令 #154 - [bug] 备份xray目录<br>原来的config.yaml文件 #152 - [feat] RAD <br>联动支持拖拽功能 #151 - [feat] request 支<br>持自定义 user-agent #149 - [feat] 允许设<br>置请求Cookie内容 #150 - [feat] radium sup<br>port file input #148 (同#155)下载： - su<br>per-xray-1.6.jar 版本通过java -jar super<br>-xray-1.6.jar启动 - super-xray-1.6-jre-e<br>xe.zip 是内置了JRE的exe版本 - super-xray<br>-1.6-system-jre.exe 是使用系统JRE的exe版<br>本|
@@ -46,11 +46,16 @@
 ## 近30天commit提交记录
 | 提交时间 | 项目名称 | 更新内容 |
 | :---- | :---- | :---- |
-|2023-04-02 01:00:20|[NucleiTP](https://github.com/ExpLangcn/NucleiTP)|更新啦❤️|
-|2023-04-01 23:51:44|[afrog](https://github.com/zan8in/afrog)|update|
-|2023-04-01 22:48:19|[PocOrExp_in_Github](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-04-02 06:48:19|
+|2023-04-03 01:00:19|[NucleiTP](https://github.com/ExpLangcn/NucleiTP)|更新啦❤️|
+|2023-04-02 22:49:19|[PocOrExp_in_Github](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-04-03 06:49:19|
+|2023-04-02 18:25:38|[dbeaver](https://github.com/dbeaver/dbeaver)|dbeaver/dbeaver#18316 INSERT and UPDATE keywords compl<br>etion (#19581)|
+|2023-04-02 17:16:18|[qsnctf-python](https://github.com/Moxin1044/qsnctf-python)|增加求等差数列第n项和n项和|
+|2023-04-02 14:08:10|[K8tools](https://github.com/k8gege/K8tools)|Add files via upload|
+|2023-04-02 13:52:56|[domain_hunter_pro](https://github.com/bit4woo/domain_hunter_pro)|Update ToolPanel.java|
+|2023-04-02 12:27:58|[afrog](https://github.com/zan8in/afrog)|update|
+|2023-04-02 09:06:22|[nuclei](https://github.com/projectdiscovery/nuclei)|Merge pull request #3491 from projectdiscovery/devnucl<br>ei v2.9.1|
+|2023-04-02 07:58:33|[fshzqSearch](https://github.com/Ifory885/fshzqSearch)|Update README.md|
 |2023-04-01 19:34:44|[faker](https://github.com/joke2k/faker)|Bump version: 18.3.1 → 18.3.2|
-|2023-04-01 16:38:44|[dbeaver](https://github.com/dbeaver/dbeaver)|dbeaver/pro#1241 update icon (#19516)|
 |2023-04-01 09:19:26|[Dude](https://github.com/x364e3ab6/Dude)|Merge branch 'main' of https://github.com/x364e3ab6/Du<br>de|
 |2023-04-01 07:38:38|[mitaka](https://github.com/ninoseki/mitaka)|Merge pull request #722 from ninoseki/v1.1.1v1.1.1|
 |2023-03-31 20:18:15|[sqlmap](https://github.com/sqlmapproject/sqlmap)|Fixes #5374|
@@ -64,7 +69,6 @@
 |2023-03-30 13:20:08|[v2rayA](https://github.com/v2rayA/v2rayA)|fix: should connect instead of unselect and select whe<br>n using xray|
 |2023-03-30 08:39:34|[SwitchyOmega](https://github.com/FelisCatus/SwitchyOmega)|Translated using Weblate (Persian)Currently translated<br> at 97.4% (341 of 350 strings)|
 |2023-03-30 05:33:29|[ipInfoSearch](https://github.com/Potato-py/ipInfoSearch)|优化多线程，采用线程池控制最大线程数|
-|2023-03-29 10:30:09|[domain_hunter_pro](https://github.com/bit4woo/domain_hunter_pro)|Update TargetTable.java|
 |2023-03-29 09:37:31|[naabu](https://github.com/projectdiscovery/naabu)|Merge pull request #626 from projectdiscovery/devBugfi<br>x update|
 |2023-03-29 09:12:35|[0day](https://github.com/helloexp/0day)|add Nacos 未授权访问漏洞|
 |2023-03-29 08:21:40|[AV_Evasion_Tool](https://github.com/1y0n/AV_Evasion_Tool)|Update README.md|
@@ -90,7 +94,6 @@
 |2023-03-24 06:08:16|[Antenna](https://github.com/wuba/Antenna)|Merge pull request #99 from wuba/developDevelop|
 |2023-03-24 06:02:17|[iDefender](https://github.com/wecooperate/iDefender)|update|
 |2023-03-24 02:24:02|[MagiCude](https://github.com/er10yi/MagiCude)|Update README.md|
-|2023-03-23 14:40:56|[K8tools](https://github.com/k8gege/K8tools)|Add files via upload|
 |2023-03-23 14:23:13|[Umi-OCR](https://github.com/hiroi-sora/Umi-OCR)|更正注释|
 |2023-03-23 08:48:47|[Vuln-List](https://github.com/wwl012345/Vuln-List)|Update 中间件&框架&平台&第三方服务漏洞.md|
 |2023-03-23 02:26:17|[Log4j2Scan](https://github.com/whwlsfb/Log4j2Scan)|add poc12. #57|
@@ -108,7 +111,6 @@
 |2023-03-19 19:00:15|[NessusToReport](https://github.com/Hypdncy/NessusToReport)|增加导出excel功能，默认目录为./outputs|
 |2023-03-19 18:28:09|[wpscan](https://github.com/wpscanteam/wpscan)|Adds DFS|
 |2023-03-18 17:23:34|[feroxbuster](https://github.com/epi052/feroxbuster)|Merge pull request #839 from epi052/all-contributors/a<br>dd-acut3docs: add acut3 as a contributor for bug|
-|2023-03-17 16:51:30|[nuclei](https://github.com/projectdiscovery/nuclei)|Merge pull request #3433 from projectdiscovery/dependa<br>bot/go_modules/v2/google.golang.org/protobuf-1.29.1chor<br>e(deps): bump google.golang.org/protobuf from 1.29.0 to<br> 1.29.1 in /v2|
 |2023-03-17 16:12:07|[subfinder](https://github.com/projectdiscovery/subfinder)|Merge pull request #791 from projectdiscovery/devsubfi<br>nder - v2.5.7|
 |2023-03-17 11:35:53|[Goby](https://github.com/gobysec/Goby)|Update README.md|
 |2023-03-17 08:24:41|[ARL](https://github.com/TophantTechnology/ARL)|Merge pull request #505 from TophantTechnology/update/<br>docUpdate Readme.md|
@@ -127,7 +129,6 @@
 |2023-03-10 03:31:53|[code6](https://github.com/4x99/code6)|Merge pull request #255 from 4x99/developv1.6.|
 |2023-03-09 14:17:46|[geacon_pro](https://github.com/H4de5-7/geacon_pro)|Update README.md|
 |2023-03-09 12:56:21|[TsojanScan](https://github.com/Tsojan/TsojanScan)|Update README.md|
-|2023-03-09 04:32:58|[qsnctf-python](https://github.com/Moxin1044/qsnctf-python)|更新README|
 |2023-03-08 07:14:47|[pentest_report](https://github.com/dbgee/pentest_report)|Create LICENSE|
 |2023-03-08 02:32:40|[cf](https://github.com/teamssix/cf)|Merge pull request #214 from teamssix/betaperf: perf i<br>ssue ci|
 |2023-03-07 08:44:53|[knife](https://github.com/bit4woo/knife)|Update ChineseTab.java|
@@ -142,7 +143,7 @@
 | [Search_Viewer](https://github.com/G3et/Search_Viewer) | v2.0 | 集Fofa、Hunter鹰图、Shodan、360 quake、Zoomeye 钟馗之眼为一体的g<br>ui图形界面化工具 |
 | [koko-moni](https://github.com/burpheart/koko-moni) | v0.0.1 | 一个网络空间搜索引擎监控平台，可定时进行资产信息爬取，及时发现新<br>增资产，本项目聚合了 Fofa、Hunter、Quake、Zoomeye 和 Threatbook 的<br>数据源，并对获取到的数据进行去重与清洗 |
 | [AsamF](https://github.com/Kento-Sec/AsamF) | v0.1.10 | AsamF是集成Fofa、Quake、Hunter、Shodan、Zoomeye、Chinaz、0.zone<br>及爱企查的一站式企业信息资产收集、网络资产测绘工具。 |
-| [fshzqSearch](https://github.com/Ifory885/fshzqSearch) |  | fofa、shodan、hunter、zoomeye、quake网络空间搜索引擎聚合搜索，并<br>对结果进行finger指纹识别。 |
+| [fshzqSearch](https://github.com/Ifory885/fshzqSearch) |  | fofa、shodan、hunter、zoomeye、quake网络空间搜索引擎及github聚合<br>搜索，并对结果进行finger指纹识别。 |
 #### 子域名收集
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
@@ -255,7 +256,7 @@
 | [xray](https://github.com/chaitin/xray) | 1.9.4 | 一款完善的安全评估工具，支持常见 web 安全问题扫描和自定义 poc | <br>使用之前务必先阅读文档 |
 | [w13scan](https://github.com/w-digital-scanner/w13scan) |  | Passive Security Scanner (被动式安全扫描器) |
 | [Fvuln](https://github.com/d3ckx1/Fvuln) | Fvuln_v1.<br>4.8 | F-vuln（全称：Find-Vulnerability）是为了自己工作方便专门编写的一<br>款自动化工具，主要适用于日常安全服务、渗透测试人员和RedTeam红队人<br>员，它集合的功能包括：存活IP探测、开放端口探测、web服务探测、web漏<br>洞扫描、smb爆破、ssh爆破、ftp爆破、mssql爆破等其他数据库爆破工作以<br>及大量web漏洞检测模块。 |
-| [nuclei](https://github.com/projectdiscovery/nuclei) | v2.9.0 | Fast and customizable vulnerability scanner based on simple YAML<br> based DSL. |
+| [nuclei](https://github.com/projectdiscovery/nuclei) | v2.9.1 | Fast and customizable vulnerability scanner based on simple YAML<br> based DSL. |
 | [afrog](https://github.com/zan8in/afrog) | v2.2.1 | A Vulnerability Scanning Tools For Penetration Testing |
 | [vulmap](https://github.com/zhzyker/vulmap) | v0.9 | Vulmap 是一款 web 漏洞扫描和验证工具, 可对 webapps 进行漏洞扫描,<br> 并且具备漏洞验证功能 |
 | [POC-bomber](https://github.com/tr0uble-mAker/POC-bomber) | v2.0.2-PO<br>C-bomber | 利用大量高威胁poc/exp快速获取目标权限，用于渗透和红队快速打点 |
