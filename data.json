@@ -49,7 +49,7 @@
             "https://github.com/Ifory885/fshzqSearch": {
                 "created_at": "2023-01-14 09:14:41",
                 "description": "fofa、shodan、hunter、zoomeye、quake网络空间搜索引擎及github聚合搜索，并对结果进行finger指纹识别。",
-                "commit_date": "2023-04-02 07:58:33",
+                "commit_date": "2023-04-03 01:02:41",
                 "commit_message": "Update README.md",
                 "release_tag": "",
                 "release_date": "",
@@ -349,8 +349,8 @@
             "https://github.com/hanc00l/nemo_go": {
                 "created_at": "2021-07-29 08:13:25",
                 "description": "Nemo是用来进行自动化信息收集的一个简单平台，通过集成常用的信息收集工具和技术，实现对内网及互联网资产信息的自动收集，提高隐患排查和渗透测试的工作效率，用Go语言完全重构了原Python版本。",
-                "commit_date": "2023-03-30 17:30:11",
-                "commit_message": "Update: 删除无效前端代码",
+                "commit_date": "2023-04-03 10:42:51",
+                "commit_message": "Update: web apifor v3\n\nFix: get in workspace\n\nUpdate: web api",
                 "release_tag": "v2.9.1",
                 "release_date": "2023-03-11 02:07:48",
                 "release_message": "Update： 1、在任务中获取http指纹时，将HTTP响应的Header与Body保存并进行查询。  注意： **由于新增加了两个数据库表，因此从v2.9.0升级请导入http.sql。**"
@@ -630,9 +630,9 @@
                 "description": "",
                 "commit_date": "2022-08-22 05:20:08",
                 "commit_message": "Merge pull request #41 from lz520520/branch1\n\nupdate: README.md",
-                "release_tag": "v1.5.2",
-                "release_date": "2023-01-30 08:25:35",
-                "release_message": "解压密码railgun  1. 增加gRPC模式，扩展server端   a. 实现了dnslog，通过客户端可直接管理server，并做了一些优化。   b. 实现了UDP/TCP的socket反连，通过不同伪装头部来过滤。   c. 实现了ICMP反连，通过发送特定长度的ping包来过滤。   d. 实现HTTP/HTTPS server     ⅰ. HTTP LOG       1. 增加http 完整请求包记录     ⅱ. 任意内容和大文件下载     ⅲ. 扩展服务配置参数，并添加已启动服务信息单独查看窗口。   e. gRPC完成tls双向认证   f. 增加鉴权，目前只设置管理员和普通用户。   g. 历史搜索里，增加查询服务端数据库，目前暂定管理员可查（迁移至gRPC模块）。   h. 增加单独gRPC模块，可用于gRPC的设置、用户管理以及历史搜索。 2. 编码转换   a. 将https://github.com/lz520520/encrypt-js 合入，通过Dict2ConsoleJS和ConsoleExtractEncryptPwd两种编码来实现"
+                "release_tag": "v1.5.4",
+                "release_date": "2023-04-03 02:50:37",
+                "release_message": "解压密码railgun  1. 主界面模块搜索功能 2. 历史搜索优化，增加编辑数据库模式以及删除指定数据 3. 资产管理功能增加(beta)   a. 完成按单位的资产管理模块添加，优化部分数据库操作。   b. 增加导入扩展接口，可以自定义导入格式解析。目前支持oneforall导入。   c. 增加内置模块导入资产模块功能。   d. 端口信息中，IP和端口关联 4. web指纹重构，更符合实际需求，增加web指纹库管理界面，后续可灵活扩展。后续根据实战可快速优化指纹。 5. 漏洞利用   a. exp 插件调用库优化   b. 子选项获取参数异常问题修复"
             },
             "https://github.com/gobysec/Goby": {
                 "created_at": "2019-06-03 07:56:11",
@@ -693,8 +693,8 @@
             "https://github.com/zan8in/afrog": {
                 "created_at": "2022-02-24 06:00:32",
                 "description": "A Vulnerability Scanning Tools For Penetration Testing",
-                "commit_date": "2023-04-02 12:27:58",
-                "commit_message": "update",
+                "commit_date": "2023-04-03 10:00:27",
+                "commit_message": "update poc",
                 "release_tag": "v2.2.1",
                 "release_date": "2023-02-04 14:54:34",
                 "release_message": "Merge many fingerprint pocs into the panel-detect.yaml file to reduce the number of http requests Console  print date format, 2023-01-01 changed to 01-01 Simplified afrog-config configuration  Fixed: invalid `-fc` configuration Tip: Configure the `-c` command, which can increase the concurrency speed very quickly  -----------------------------------------------------------------------------  将多个 panel 指纹探测合并到文件 panel-detect.yaml，大幅减少 http 请求 精简控制台日期打印，2023-01-01 改为 01-01 精简 afrog-config 配置信息  解决：`-fc` 命令配置无效问题 提示：配置 `-c` 命令能明显提高扫描速度"
@@ -1463,8 +1463,8 @@
             "https://github.com/wyzxxz/heapdump_tool": {
                 "created_at": "2021-08-06 02:48:31",
                 "description": "heapdump敏感信息查询工具，例如查找 spring heapdump中的密码明文，AK,SK等",
-                "commit_date": "2022-08-17 09:34:10",
-                "commit_message": "Update README.md",
+                "commit_date": "2023-04-03 09:12:18",
+                "commit_message": "Update README.md\n\n优化",
                 "release_tag": "",
                 "release_date": "",
                 "release_message": ""
@@ -1562,8 +1562,8 @@
             "https://github.com/whwlsfb/JDumpSpider": {
                 "created_at": "2022-01-05 07:30:39",
                 "description": "HeapDump敏感信息提取工具",
-                "commit_date": "2023-03-22 01:55:58",
-                "commit_message": "Create compile.yml",
+                "commit_date": "2023-04-03 09:17:05",
+                "commit_message": "remove netbeans useless classfile.",
                 "release_tag": "V1.1",
                 "release_date": "2023-03-09 04:49:16",
                 "release_message": "- 项目重构，增强不同环境下的兼容性。 - 增加类字段的用户信息模糊搜索功能。"
@@ -1701,8 +1701,8 @@
             "https://github.com/ycdxsb/PocOrExp_in_Github": {
                 "created_at": "2021-04-13 05:46:16",
                 "description": "聚合Github上已有的Poc或者Exp，CVE信息来自CVE官网。Auto Collect Poc Or Exp from Github by CVE ID.",
-                "commit_date": "2023-04-02 22:49:19",
-                "commit_message": "update 2023-04-03 06:49:19",
+                "commit_date": "2023-04-03 22:48:15",
+                "commit_message": "update 2023-04-04 06:48:15",
                 "release_tag": "",
                 "release_date": "",
                 "release_message": ""
@@ -2235,8 +2235,8 @@
             "https://github.com/ghealer/GUI_Tools": {
                 "created_at": "2021-09-06 14:07:05",
                 "description": "一个由各种图形化渗透工具组成的工具集",
-                "commit_date": "2022-01-10 08:11:43",
-                "commit_message": " 关于 CobaltStrike4.3 与 MDUT 存在后门一事的情况说明",
+                "commit_date": "2023-04-03 02:20:44",
+                "commit_message": "Update README.md",
                 "release_tag": "V1.1",
                 "release_date": "2022-01-10 07:30:56",
                 "release_message": "关于 CobaltStrike4.3 存在后门一事的情况说明 - 收到反馈工具包内 CobaltStrike4.3 存在后门情况，工具下载于某苁，下载完未进行后门审查，可能存在未知安全风险，建议所有已安装人员删除旧版本，并进行全盘查杀病毒。 - 修复办法：将工具包内 CobaltStrike4.3 删除，使用火绒或其他病毒查杀软件进行全盘病毒查杀，并监测系统进程与网络连接情况，发现异常进程及连接及时清理；下载 V1.1 更新包进行替换。再次建议在虚拟机里运行本程序下的工具  [关于 MDUT 里面存在的\"后门\" hta 文件](https://www.yuque.com/u21224612/nezuig/sxmhkz)  2022年1月10日 V1.1（重大安全风险，强制更新） - 删除 CobaltStrike4.3 - 删除 CobaltStrike4.3 插件，后续会以文库的形式更新插件包 - 删除 Burp_Suite_Professional_v2021.8 - 新增原版 CobaltStrike4.4 ，破解方式为[CSAgent](https://github.com/Twi1ight/CSAgent) - 新增原版 BurpSuite_Pro_v2021.10.3 ，破解方式为[BurpLoaderKeygen](https://github.com/h3110w0r1d-y/BurpLoaderKeygen)"
@@ -2302,8 +2302,8 @@
             "https://github.com/knownsec/404StarLink": {
                 "created_at": "2020-11-17 08:10:18",
                 "description": "404StarLink - 推荐优质、有意义、有趣、坚持维护的安全开源项目",
-                "commit_date": "2023-03-27 04:58:11",
-                "commit_message": "weekly update at 2023-03-27",
+                "commit_date": "2023-04-03 02:09:52",
+                "commit_message": "weekly update at 2023-04-03",
                 "release_tag": "",
                 "release_date": "",
                 "release_message": ""
@@ -2492,9 +2492,9 @@
                 "description": "captcha-killer的修改版，支持关键词识别base64编码的图片，添加免费ocr库，用于验证码爆破，适配新版Burpsuite",
                 "commit_date": "2023-03-30 14:41:22",
                 "commit_message": "Update FAQ.md",
-                "release_tag": "0.23-beta1",
-                "release_date": "2023-03-31 13:07:33",
-                "release_message": "【2023-3-31】 0.23-beta1  - 修复在使用intruder扩展填充验证码的情况下，验证码id会漏一个的问题  感谢微信群师傅YPL. 反馈"
+                "release_tag": "0.23-beta2",
+                "release_date": "2023-04-03 06:04:43",
+                "release_message": "【2023-4-3】 0.23-beta2  - 修复了装载插件会影响repeater选项卡的问题  感谢微信群师傅Cat 反馈"
             },
             "https://github.com/whwlsfb/BurpCrypto": {
                 "created_at": "2020-05-29 02:59:15",
@@ -3059,9 +3059,9 @@
                 "description": "A browser extension for OSINT search",
                 "commit_date": "2023-04-01 07:38:38",
                 "commit_message": "Merge pull request #722 from ninoseki/v1.1.1\n\nv1.1.1",
-                "release_tag": "v1.0.0",
-                "release_date": "2023-02-26 07:27:26",
-                "release_message": "- Migrate to the Manifest V3 (#703) - Replace Mocha, Chai and Sinon with Jest (#703) "
+                "release_tag": "v1.1.1",
+                "release_date": "2023-04-03 14:04:31",
+                "release_message": "- Fix search all issue (#720) - Update manifest (#721) "
             },
             "https://github.com/cnrstar/anti-honeypot": {
                 "created_at": "2020-08-16 14:24:29",
@@ -3137,7 +3137,7 @@
             "https://github.com/ExpLangcn/NucleiTP": {
                 "created_at": "2022-11-08 13:16:56",
                 "description": "自动整合全网Nuclei的漏洞POC，实时同步更新最新POC！",
-                "commit_date": "2023-04-03 01:00:19",
+                "commit_date": "2023-04-04 01:00:17",
                 "commit_message": "更新啦❤️",
                 "release_tag": "",
                 "release_date": "",
@@ -3540,8 +3540,8 @@
                 "release_message": "1、代码整体重构 2、增加了与佛论禅、百家姓编码、核心价值观编码、a1z26密码、棋盘密码、jother 3、删除了一兼操作 4、增加了密文分析功能、批量解密功能 5、增加了自动寻找flag功能 6、插件增加了打开ui输入框框功能。  部分代码来自：https://github.com/ht0Ruial/TomatoTools  特此感谢！"
             },
             "https://github.com/Harveysn0w/CTF_Hacker-Tools": {
-                "created_at": "2020-04-25 08:46:27",
-                "description": "CTF-渗透测试~工具合集",
+                "created_at": "",
+                "description": "",
                 "commit_date": "2020-08-27 06:59:32",
                 "commit_message": "Update README.md",
                 "release_tag": "",
@@ -3628,8 +3628,8 @@
             "https://github.com/RsaCtfTool/RsaCtfTool": {
                 "created_at": "2015-03-07 17:29:33",
                 "description": "RSA attack tool (mainly for ctf) - retreive private key from weak public key and/or uncipher data",
-                "commit_date": "2023-03-31 19:32:33",
-                "commit_message": "Add logging information and fix error handling when creating private key",
+                "commit_date": "2023-04-03 15:46:31",
+                "commit_message": "If public modulus is prime bail out, fix issue #415",
                 "release_tag": "",
                 "release_date": "",
                 "release_message": ""
@@ -3694,8 +3694,8 @@
             "https://github.com/dbeaver/dbeaver": {
                 "created_at": "2015-10-21 08:26:28",
                 "description": "Free universal database tool and SQL client",
-                "commit_date": "2023-04-02 18:25:38",
-                "commit_message": "dbeaver/dbeaver#18316 INSERT and UPDATE keywords completion (#19581)",
+                "commit_date": "2023-04-03 16:30:10",
+                "commit_message": "CB-3217 ee get drivers from maven (#19409)\n\nCo-authored-by: dariamarutkina <125263541+dariamarutkina@users.noreply.github.com>",
                 "release_tag": "23.0.1",
                 "release_date": "2023-03-26 18:30:18",
                 "release_message": "                 - SQL editor:                     - Results tab now can be detached                     - Editor toolbar now can be customized in preferences                     - Query statistics tab now can be turned off                     - Table metadata search was improved                 - SSH:                     - Support of new crypto ciphers was added                     - SHH agents now works properly in Linux                 - General UI:                     - Zoom in text editors and data editors was fixed                     - Navigator tree refresh after metadata change was fixed                     - Default font size was increased for MacOS                     - Text font configuration was fixed in multiple dialog windows                     - Connection type settings change now affects UI properly                 - Data export: exporting of BLOB values in TXT format was improved                 - Native network proxy configuration was fixed                 - TiDB: new driver was added (thanks to @Icemap)                 - Clickhouse: driver version was updated to 0.4.2                 - Firebird: procedure parameters defualt values support was added                 - Oracle: additional properties in table info were added                 - PostgreSQL: composite data type support was improved                 - SQLite: STRICT mode support was added                 - Sybase/SQL Anywhere: result set size limitation in SQL was fixed                 - Vertica: expired password change feature was added             "

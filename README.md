@@ -1,10 +1,12 @@
-# 更新于 2023-04-03 09:03:13
+# 更新于 2023-04-04 09:04:37
 
 ## 近30天release更新记录
 | 更新时间 | 项目名称 | 版本 | 更新内容 |
 | :---- | :---- | :---- | :---- |
+|2023-04-03 14:04:31|[mitaka](https://github.com/ninoseki/mitaka)|v1.1.1|- Fix search all issue (#720) - Update <br>manifest (#721) |
+|2023-04-03 06:04:43|[captcha-killer-modi<br>fied](https://github.com/f0ng/captcha-killer-modified)|0.23-beta<br>2|【2023-4-3】 0.23-beta2- 修复了装载插件<br>会影响repeater选项卡的问题感谢微信群师傅C<br>at 反馈|
+|2023-04-03 02:50:37|[railgun](https://github.com/lz520520/railgun)|v1.5.4|解压密码railgun1. 主界面模块搜索功能 2.<br> 历史搜索优化，增加编辑数据库模式以及删<br>除指定数据 3. 资产管理功能增加(beta)a. 完<br>成按单位的资产管理模块添加，优化部分数据<br>库操作。b. 增加导入扩展接口，可以自定义导<br>入格式解析。目前支持oneforall导入。c. 增<br>加内置模块导入资产模块功能。d. 端口信息中<br>，IP和端口关联 4. web指纹重构，更符合实际<br>需求，增加web指纹库管理界面，后续可灵活扩<br>展。后续根据实战可快速优化指纹。 5. 漏洞<br>利用a. exp 插件调用库优化b. 子选项获取参<br>数异常问题修复|
 |2023-04-02 09:41:21|[nuclei](https://github.com/projectdiscovery/nuclei)|v2.9.1|## Breaking Changes:**⚠️ Updated -jso<br>n option to -jsonl to correctly reflect <br>the output format** by @kchason in https<br>://github.com/projectdiscovery/nuclei/pu<br>ll/3466 console-j, -jsonlwrite output in<br> JSONL(ines) format**⚠️ Updated protoc<br>ol attribute name (requests=> http & net<br>work => tcp) in templates** by @ShubhamR<br>asal in https://github.com/projectdiscov<br>ery/nuclei/pull/3425> Templates with the<br> use of requests and network will still <br>work but will be deprecated completely i<br>n the future.## What's New * **Added JSO<br>N output export support** (-json-export)<br> by @kchason in https://github.com/proje<br>ctdiscovery/nuclei/pull/3466 console-je,<br> -json-export stringfile to export resul<br>ts in JSON format* Added cpe and epss-sc<br>ore support in template classification b<br>y @ehsandeep in https://github.com/proje<br>ctdiscovery/nuclei/pull/3489 * Added mkd<br>ir support in headless screenshot by @ta<br>runKoyalwar in https://github.com/projec<br>tdiscovery/nuclei/pull/3457 * Added supp<br>ort for jira custom fields by @jordanpot<br>ti in https://github.com/projectdiscover<br>y/nuclei/pull/3406 * Added AWS catalog f<br>or loading templates from bucket by @leo<br>loobeek in https://github.com/projectdis<br>covery/nuclei/pull/3372 * **Fixed a cras<br>h in tlsx integration** by @ehsandeep in<br> https://github.com/projectdiscovery/nuc<br>lei/pull/3490 * Fixed template link refe<br>rences by @mlec1 in https://github.com/p<br>rojectdiscovery/nuclei/pull/3485 * Fixed<br> an issue with the scanning strategy opt<br>ion by @nHurD in https://github.com/proj<br>ectdiscovery/nuclei/pull/3464 * Fixed AW<br>S S3 bucket catalog path mismatch by @ta<br>runKoyalwar in https://github.com/projec<br>tdiscovery/nuclei/pull/3474 * Moved DSL <br>helper functions to [dsl](https://github<br>.com/projectdiscovery/dsl) project by @R<br>amanaReddy0M in https://github.com/proje<br>ctdiscovery/nuclei/pull/3461Issues close<br>d in this release - https://github.com/p<br>rojectdiscovery/nuclei/milestone/28?clos<br>ed=1## New Contributors * @jordanpotti m<br>ade their first contribution in https://<br>github.com/projectdiscovery/nuclei/pull/<br>3406 * @nHurD made their first contribut<br>ion in https://github.com/projectdiscove<br>ry/nuclei/pull/3464 * @leoloobeek made t<br>heir first contribution in https://githu<br>b.com/projectdiscovery/nuclei/pull/3372 <br>* @mlec1 made their first contribution i<br>n https://github.com/projectdiscovery/nu<br>clei/pull/3485**Full Changelog**: https:<br>//github.com/projectdiscovery/nuclei/com<br>pare/v2.9.0...v2.9.1|
-|2023-03-31 13:07:33|[captcha-killer-modi<br>fied](https://github.com/f0ng/captcha-killer-modified)|0.23-beta<br>1|【2023-3-31】 0.23-beta1- 修复在使用int<br>ruder扩展填充验证码的情况下，验证码id会<br>漏一个的问题感谢微信群师傅YPL. 反馈|
 |2023-03-29 09:39:08|[naabu](https://github.com/projectdiscovery/naabu)|v2.1.5|## What's Changed * Fixed issue with **<br>exclude port/host** option by @Mzack9999<br> in https://github.com/projectdiscovery/<br>naabu/pull/624 * Added timeout to scan t<br>hrough SOCKS proxy by @jpts in https://g<br>ithub.com/projectdiscovery/naabu/pull/60<br>1## New Contributors * @jpts made their <br>first contribution in https://github.com<br>/projectdiscovery/naabu/pull/601 * @real<br>alexandergeorgiev made their first contr<br>ibution in https://github.com/projectdis<br>covery/naabu/pull/602**Full Changelog**:<br> https://github.com/projectdiscovery/naa<br>bu/compare/v2.1.4...v2.1.5|
 |2023-03-29 08:46:28|[veinmind-tools](https://github.com/chaitin/veinmind-tools)|v2.1.1|## Fix - 修复容器运行时部分初始化问题|
 |2023-03-29 08:18:09|[AV_Evasion_Tool](https://github.com/1y0n/AV_Evasion_Tool)|20230329|1. 效果优化 2. 修复识别杀软时卡死问题|
@@ -46,25 +48,29 @@
 ## 近30天commit提交记录
 | 提交时间 | 项目名称 | 更新内容 |
 | :---- | :---- | :---- |
-|2023-04-03 01:00:19|[NucleiTP](https://github.com/ExpLangcn/NucleiTP)|更新啦❤️|
-|2023-04-02 22:49:19|[PocOrExp_in_Github](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-04-03 06:49:19|
-|2023-04-02 18:25:38|[dbeaver](https://github.com/dbeaver/dbeaver)|dbeaver/dbeaver#18316 INSERT and UPDATE keywords compl<br>etion (#19581)|
+|2023-04-04 01:00:17|[NucleiTP](https://github.com/ExpLangcn/NucleiTP)|更新啦❤️|
+|2023-04-03 22:48:15|[PocOrExp_in_Github](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-04-04 06:48:15|
+|2023-04-03 16:30:10|[dbeaver](https://github.com/dbeaver/dbeaver)|CB-3217 ee get drivers from maven (#19409)Co-authored-<br>by: dariamarutkina |
+|2023-04-03 15:46:31|[RsaCtfTool](https://github.com/RsaCtfTool/RsaCtfTool)|If public modulus is prime bail out, fix issue #415|
+|2023-04-03 10:42:51|[nemo_go](https://github.com/hanc00l/nemo_go)|Update: web apifor v3Fix: get in workspaceUpdate: web <br>api|
+|2023-04-03 10:00:27|[afrog](https://github.com/zan8in/afrog)|update poc|
+|2023-04-03 09:17:05|[JDumpSpider](https://github.com/whwlsfb/JDumpSpider)|remove netbeans useless classfile.|
+|2023-04-03 09:12:18|[heapdump_tool](https://github.com/wyzxxz/heapdump_tool)|Update README.md优化|
+|2023-04-03 02:20:44|[GUI_Tools](https://github.com/ghealer/GUI_Tools)|Update README.md|
+|2023-04-03 02:09:52|[404StarLink](https://github.com/knownsec/404StarLink)|weekly update at 2023-04-03|
+|2023-04-03 01:02:41|[fshzqSearch](https://github.com/Ifory885/fshzqSearch)|Update README.md|
 |2023-04-02 17:16:18|[qsnctf-python](https://github.com/Moxin1044/qsnctf-python)|增加求等差数列第n项和n项和|
 |2023-04-02 14:08:10|[K8tools](https://github.com/k8gege/K8tools)|Add files via upload|
 |2023-04-02 13:52:56|[domain_hunter_pro](https://github.com/bit4woo/domain_hunter_pro)|Update ToolPanel.java|
-|2023-04-02 12:27:58|[afrog](https://github.com/zan8in/afrog)|update|
 |2023-04-02 09:06:22|[nuclei](https://github.com/projectdiscovery/nuclei)|Merge pull request #3491 from projectdiscovery/devnucl<br>ei v2.9.1|
-|2023-04-02 07:58:33|[fshzqSearch](https://github.com/Ifory885/fshzqSearch)|Update README.md|
 |2023-04-01 19:34:44|[faker](https://github.com/joke2k/faker)|Bump version: 18.3.1 → 18.3.2|
 |2023-04-01 09:19:26|[Dude](https://github.com/x364e3ab6/Dude)|Merge branch 'main' of https://github.com/x364e3ab6/Du<br>de|
 |2023-04-01 07:38:38|[mitaka](https://github.com/ninoseki/mitaka)|Merge pull request #722 from ninoseki/v1.1.1v1.1.1|
 |2023-03-31 20:18:15|[sqlmap](https://github.com/sqlmapproject/sqlmap)|Fixes #5374|
-|2023-03-31 19:32:33|[RsaCtfTool](https://github.com/RsaCtfTool/RsaCtfTool)|Add logging information and fix error handling when cr<br>eating private key|
 |2023-03-31 09:56:18|[RmTools](https://github.com/RoomaSec/RmTools)|更新yara规则|
 |2023-03-31 08:57:26|[Elkeid](https://github.com/bytedance/Elkeid)|Update deploy-zh_CN.md for release v1.9.1.3|
 |2023-03-31 05:58:50|[vulnerability](https://github.com/lal0ne/vulnerability)|CVE-2023-1177|
 |2023-03-31 02:00:53|[veinmind-tools](https://github.com/chaitin/veinmind-tools)|fix(ai): ignore basic info analyzer (#218)|
-|2023-03-30 17:30:11|[nemo_go](https://github.com/hanc00l/nemo_go)|Update: 删除无效前端代码|
 |2023-03-30 14:41:22|[captcha-killer-modi<br>fied](https://github.com/f0ng/captcha-killer-modified)|Update FAQ.md|
 |2023-03-30 13:20:08|[v2rayA](https://github.com/v2rayA/v2rayA)|fix: should connect instead of unselect and select whe<br>n using xray|
 |2023-03-30 08:39:34|[SwitchyOmega](https://github.com/FelisCatus/SwitchyOmega)|Translated using Weblate (Persian)Currently translated<br> at 97.4% (341 of 350 strings)|
@@ -83,7 +89,6 @@
 |2023-03-27 08:51:50|[Exp-Tools](https://github.com/cseroad/Exp-Tools)|Update README.md|
 |2023-03-27 07:38:18|[Aazhen-RexHa](https://github.com/zangcc/Aazhen-RexHa)|Update README.md|
 |2023-03-27 05:14:41|[ysoserial](https://github.com/su18/ysoserial)|添加 hide type 3 ，通过封装一个带有假信息的 ClassLoade<br>r 来试图逃避检测|
-|2023-03-27 04:58:11|[404StarLink](https://github.com/knownsec/404StarLink)|weekly update at 2023-03-27|
 |2023-03-26 12:59:39|[ElectricRat](https://github.com/linjiananallnt/ElectricRat)|Update README.md|
 |2023-03-26 05:39:20|[SharpWxDump](https://github.com/AdminTest0/SharpWxDump)|Update README.md|
 |2023-03-26 03:21:11|[SmsForwarder](https://github.com/pppscn/SmsForwarder)|新增：issue 提交模板（请务必按照模板填写，避免浪费你我<br>的时间）|
@@ -100,7 +105,6 @@
 |2023-03-22 06:35:17|[noterce](https://github.com/xiao-zhu-zhu/noterce)|Update README.md|
 |2023-03-22 05:37:07|[yarx](https://github.com/zema1/yarx)|feat: update dep (#12)* feat: update dep* feat: update<br> workflow|
 |2023-03-22 04:15:15|[rengine](https://github.com/yogeshojha/rengine)|Merge pull request #734 from thebigbone/mastercheck if<br> docker is running on systems without systemd|
-|2023-03-22 01:55:58|[JDumpSpider](https://github.com/whwlsfb/JDumpSpider)|Create compile.yml|
 |2023-03-21 08:26:52|[ENScan_GO](https://github.com/wgpsec/ENScan_GO)|修复爱企查查询bug fix #49|
 |2023-03-21 08:07:56|[QingTing](https://github.com/StarCrossPortal/QingTing)|reset readme.md|
 |2023-03-21 06:19:25|[pocsuite3](https://github.com/knownsec/pocsuite3)|chore: bump version to 2.0.3|
@@ -247,7 +251,7 @@
 #### 半自动化漏洞利用
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
-| [railgun](https://github.com/lz520520/railgun) | v1.5.2 |  |
+| [railgun](https://github.com/lz520520/railgun) | v1.5.4 |  |
 | [Goby](https://github.com/gobysec/Goby) | Beta2.2.0 | Attack surface mapping |
 #### 半自动漏洞扫描
 | 项目名称 | 版本 | 项目描述 |
@@ -562,7 +566,7 @@
 | [Sylas](https://github.com/Acmesec/Sylas) | 1.1.1 | 新一代子域名主/被动收集工具 - Subdomain automatic/passive collec<br>tion tool |
 | [GadgetProbe](https://github.com/BishopFox/GadgetProbe) | v1.0 | Probe endpoints consuming Java serialized objects to identify cl<br>asses, libraries, and library versions on remote Java classpaths. |
 | [HopLa](https://github.com/synacktiv/HopLa) | 1.2 |  HopLa Burp Suite Extender plugin -Adds autocompletion support a<br>nd useful payloads in Burp Suite |
-| [captcha-killer-modi<br>fied](https://github.com/f0ng/captcha-killer-modified) | 0.23-beta<br>1 | captcha-killer的修改版，支持关键词识别base64编码的图片，添加免费<br>ocr库，用于验证码爆破，适配新版Burpsuite |
+| [captcha-killer-modi<br>fied](https://github.com/f0ng/captcha-killer-modified) | 0.23-beta<br>2 | captcha-killer的修改版，支持关键词识别base64编码的图片，添加免费<br>ocr库，用于验证码爆破，适配新版Burpsuite |
 | [BurpCrypto](https://github.com/whwlsfb/BurpCrypto) |  | BurpCrypto is a collection of burpsuite encryption plug-ins, sup<br>port AES/RSA/DES/ExecJs(execute JS encryption code in burpsuite).<br> 支持多种加密算法或直接执行JS代码的用于爆破前端加密的BurpSuite插<br>件 |
 | [autoDecoder](https://github.com/f0ng/autoDecoder) | 0.23 | Burp插件，根据自定义来达到对数据包的处理（适用于加解密、爆破等）<br>，类似mitmproxy，不同点在于经过了burp中转，在自动加解密的基础上，<br>不影响APP、网站加解密正常逻辑等。 |
 | [burpFakeIP](https://github.com/TheKingOfDuck/burpFakeIP) | 1.1 | 服务端配置错误情况下用于伪造ip地址进行测试的Burp Suite插件 |
@@ -634,7 +638,7 @@
 | [SwitchyOmega](https://github.com/FelisCatus/SwitchyOmega) | v2.5.20 | Manage and switch between multiple proxies quickly & easily. |
 | [untrusted-types](https://github.com/filedescriptor/untrusted-types) | 1.1.1 |  |
 | [fofa_view](https://github.com/fofapro/fofa_view) | v0.0.5 | FOFA Pro view 是一款FOFA Pro 资产展示浏览器插件，目前兼容Chrome<br>、Firefox、Opera。 |
-| [mitaka](https://github.com/ninoseki/mitaka) | v1.0.0 | A browser extension for OSINT search |
+| [mitaka](https://github.com/ninoseki/mitaka) | v1.1.1 | A browser extension for OSINT search |
 | [anti-honeypot](https://github.com/cnrstar/anti-honeypot) |  | 一款可以检测WEB蜜罐并阻断请求的Chrome插件 |
 | [Chromium-based-XSS-<br>Taint-Tracking](https://github.com/v8blink/Chromium-based-XSS-Taint-Tracking) | v0.3 | Cyclops 是一款具有 XSS 检测功能的浏览器 |
 | [Zoomeye-Tools](https://github.com/knownsec/Zoomeye-Tools) |  | Zoomeye Tools是配合Zoomeye使用的Chrome插件 |
@@ -745,7 +749,7 @@
 | [CTF-Tools](https://github.com/Aabyss-Team/CTF-Tools) |  | 渊龙Sec安全团队CTF&AWD工具箱 |
 | [qsnctf-python](https://github.com/Moxin1044/qsnctf-python) | 0.0.8.9 | 青少年CTF的Python包，方便大家调用一些CTF常用功能。 |
 | [CTF-Tools](https://github.com/qianxiao996/CTF-Tools) | v1.3.7 | 一款Python+Pyqt写的CTF编码、解码、加密、解密工具。 |
-| [CTF_Hacker-Tools](https://github.com/Harveysn0w/CTF_Hacker-Tools) |  | CTF-渗透测试~工具合集 |
+| [CTF_Hacker-Tools](https://github.com/Harveysn0w/CTF_Hacker-Tools) |  |  |
 ### CTF逆向
 #### pyc逆向
 | 项目名称 | 版本 | 项目描述 |
