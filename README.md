@@ -1,8 +1,10 @@
-# 更新于 2023-04-05 08:55:42
+# 更新于 2023-04-06 09:02:46
 
 ## 近30天release更新记录
 | 更新时间 | 项目名称 | 版本 | 更新内容 |
 | :---- | :---- | :---- | :---- |
+|2023-04-05 13:07:25|[ThunderSearch](https://github.com/xzajyjs/ThunderSearch)|v2.3.3|- 新增了Sqlite3支持 - 微调UI尺寸 --- - <br>Add sqlite3 support - Fine-tuned the UI <br>size --- > md5 ThunderSearch_darwin_univ<br>ersal.zip = d9b134f8311935f75577667dc7e0<br>2b78 ThunderSearch_win_x86.zip = a2cd297<br>76336d1ece4e0d494e676566a 注意：win版本<br>是旧版，并未更新|
+|2023-04-05 10:31:36|[afrog](https://github.com/zan8in/afrog)|v2.2.2|bug: - Fix afrog html report XSS vulner<br>abilityoptimization: - Simplified URL bl<br>acklist mechanism - Optimize http/s dete<br>ction function - Optimized file upload (<br>all) PoC - Optimize RCE (all) PoCdelete:<br> - Remove Fingerprint fingerprint recogn<br>ition and command parameters (replacemen<br>t tool pyxis) - Remove uncommon command <br>parametersPoC: - Added 52 PoCs - Validat<br>e and optimize n multiple PoCs - Remove <br>PoC csz-cms-multiple-blind-sql-injection<br> - Remove PoC phpstudy-nginx-wrong-resol<br>ve--------------------------------------<br>---- 修复：- 修复 afrog html 报告 XSS 漏<br>洞优化：- 简化 URL 黑名单机制- 优化 http/<br>s 检测功能- 优化 文件上传 (所有) PoC- 优<br>化 RCE (所有) PoC删除：- 去掉 Fingerprint<br> 指纹识别及命令参数 (替代工具 pyxis)- 去<br>掉不常用命令参数PoC:- 新增 52 PoC- 验证和<br>优化 n 多个 PoC- 删除 PoCcsz-cms-multiple<br>-blind-sql-injection- 删除 PoC phpstudy-<br>nginx-wrong-resolve|
 |2023-04-04 19:04:19|[faker](https://github.com/joke2k/faker)|v18.3.4|See [CHANGELOG.md](https://github.com/j<br>oke2k/faker/blob/refs/tags/v18.3.4/CHANG<br>ELOG.md).|
 |2023-04-04 14:08:45|[captcha-killer-modi<br>fied](https://github.com/f0ng/captcha-killer-modified)|0.23-beta<br>3|【2023-4-4】 0.23-beta3 - 修复了验证码i<br>d过长的问题感谢微信群师傅策马奔腾 反馈|
 |2023-04-04 11:12:15|[Elkeid](https://github.com/bytedance/Elkeid)|rasp-v2.2<br>.0.4-pre||
@@ -44,23 +46,26 @@
 |2023-03-09 12:55:14|[TsojanScan](https://github.com/Tsojan/TsojanScan)|v1.4.4|## 更新说明 - v1.4.4 1. 优化代码结构； <br>2. 修复weblogic弱口令误报bug； 3. 增加ot<br>f后缀不扫描规则； 4. 删除asix/happaxis.j<br>sp扫描规则； 5. 增加sql语法错误的页面回<br>显扫描模块，只显示sql错误显示（参数后面增<br>加单引号、双引号、反斜线，去查看有没有SQL<br>错误语句）。 |
 |2023-03-09 04:49:16|[JDumpSpider](https://github.com/whwlsfb/JDumpSpider)|V1.1|- 项目重构，增强不同环境下的兼容性。 - <br>增加类字段的用户信息模糊搜索功能。|
 |2023-03-08 06:18:49|[pentest_report](https://github.com/dbgee/pentest_report)|v1.0.0|First orricial release |
-|2023-03-06 08:47:39|[ElectricRat](https://github.com/linjiananallnt/ElectricRat)|v1.3.0|# 更新说明 1. 新增越权漏洞案例，包含水<br>平、垂直越权。 2. 增加XSS过滤难度 3. 增加<br>SPEL和SSTI结果输出 4. 新增压缩文件自解压<br>案例# TODO - [x] 越权漏洞# 如何更新 1. 将<br> ElectricRat-docker.zip 中的 ElectricRat<br>.war 覆盖之前的 war 包。 2. 重启 docker<br>。sudo docker restart electricrat-web 3. <br>稍等片刻后，访问 http://127.0.0.1:12666/E<br>lectricRat/ |
 ## 近30天commit提交记录
 | 提交时间 | 项目名称 | 更新内容 |
 | :---- | :---- | :---- |
-|2023-04-05 00:45:20|[NucleiTP](https://github.com/ExpLangcn/NucleiTP)|更新啦❤️|
-|2023-04-04 22:50:18|[PocOrExp_in_Github](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-04-05 06:50:18|
-|2023-04-04 18:58:15|[faker](https://github.com/joke2k/faker)|Bump version: 18.3.3 → 18.3.4|
+|2023-04-06 01:00:19|[NucleiTP](https://github.com/ExpLangcn/NucleiTP)|更新啦❤️|
+|2023-04-05 22:51:12|[PocOrExp_in_Github](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-04-06 06:51:12|
+|2023-04-05 17:57:14|[nemo_go](https://github.com/hanc00l/nemo_go)|Update: 新增XScan模式下Nuclei漏洞扫描选项(请自行下载对<br>应版本Nuclei，扫描漏洞较多，扫描很慢，大规模扫描时请谨慎<br>选择)|
+|2023-04-05 16:16:02|[dbeaver](https://github.com/dbeaver/dbeaver)|#19375 Listen to all theme-related events and update a<br>fter the last one (#19500)* #19375 Listen to all theme-<br>related events and update after the last one* #19375 Us<br>e monospace font in the plaintext presentation* #19375 <br>Decrease theme update delay to reduce visual lag|
+|2023-04-05 15:43:19|[faker](https://github.com/joke2k/faker)|Add currency symbols (#1838)- adds symbol for all list<br>ed currencies- when singular / plural symbol is differe<br>nt, plural is chosen- ¤ is chosen as default when the p<br>rovided currency code does not have acorresponding symb<br>ol.* fixes #1835 - adds currency symbols* fix formattin<br>g---------Co-authored-by: Lionel Hamayon |
+|2023-04-05 14:06:27|[OneForAll](https://github.com/shmilylty/OneForAll)|Merge pull request #306 from j4vaovo/patch-3Create wzs<br>earch.py|
+|2023-04-05 12:47:13|[ThunderSearch](https://github.com/xzajyjs/ThunderSearch)|update to v2.3.3|
+|2023-04-05 10:11:56|[afrog](https://github.com/zan8in/afrog)|fix xss bug|
+|2023-04-05 08:56:36|[sqlmap](https://github.com/sqlmapproject/sqlmap)|Fixes #5385|
+|2023-04-05 03:45:42|[rengine](https://github.com/yogeshojha/rengine)|Merge pull request #865 from AnonymousWP/fix-installat<br>ion-issuesFix installation issues when using Docker Com<br>pose|
 |2023-04-04 17:44:51|[Elkeid](https://github.com/bytedance/Elkeid)|fix type ：三 --> 两|
-|2023-04-04 16:15:14|[dbeaver](https://github.com/dbeaver/dbeaver)|dbeaver/pro#1311 improve accessibility erd (#19559)* d<br>beaver/pro#1311 improve accessibility erd* dbeaver/pro#<br>1311 add localisation* dbeaver/pro#1311 codestyle & pro<br>per indentationSigned-off-by: Georgii Gvinepadze-------<br>--Signed-off-by: Georgii Gvinepadze |
-|2023-04-04 14:37:37|[afrog](https://github.com/zan8in/afrog)|update poc|
 |2023-04-04 13:51:30|[BurpSuite-collectio<br>ns](https://github.com/Mr-xn/BurpSuite-collections)|add burp-vps-proxy 插件|
 |2023-04-04 12:09:32|[HackBrowserData](https://github.com/moonD4rk/HackBrowserData)|Merge pull request #209 from moonD4rk/feat/lintfix: re<br>naming unused parameter|
 |2023-04-04 10:24:32|[domain_hunter_pro](https://github.com/bit4woo/domain_hunter_pro)|Update LineTableModel.java|
 |2023-04-04 10:07:57|[murphysec](https://github.com/murphysecurity/murphysec)|Merge pull request #146 from murphysecurity/dependabot<br>/github_actions/actions/setup-go-4chore(deps): bump act<br>ions/setup-go from 3 to 4|
 |2023-04-04 09:17:11|[v2rayA](https://github.com/v2rayA/v2rayA)|Merge pull request #889 from aeeq/feat_v5|
 |2023-04-04 08:53:51|[Vuln-List](https://github.com/wwl012345/Vuln-List)|新增Linux自动提权脚本|
-|2023-04-04 07:47:57|[nemo_go](https://github.com/hanc00l/nemo_go)|Update: load defaut config in ip and domain task|
 |2023-04-04 07:42:47|[vulnerability](https://github.com/lal0ne/vulnerability)|泛微OA E-Cology HrmCareerApplyPerView.jsp SQL注入|
 |2023-04-04 03:20:05|[poc-hub](https://github.com/ybdt/poc-hub)|整理|
 |2023-04-03 15:46:31|[RsaCtfTool](https://github.com/RsaCtfTool/RsaCtfTool)|If public modulus is prime bail out, fix issue #415|
@@ -74,7 +79,6 @@
 |2023-04-02 09:06:22|[nuclei](https://github.com/projectdiscovery/nuclei)|Merge pull request #3491 from projectdiscovery/devnucl<br>ei v2.9.1|
 |2023-04-01 09:19:26|[Dude](https://github.com/x364e3ab6/Dude)|Merge branch 'main' of https://github.com/x364e3ab6/Du<br>de|
 |2023-04-01 07:38:38|[mitaka](https://github.com/ninoseki/mitaka)|Merge pull request #722 from ninoseki/v1.1.1v1.1.1|
-|2023-03-31 20:18:15|[sqlmap](https://github.com/sqlmapproject/sqlmap)|Fixes #5374|
 |2023-03-31 09:56:18|[RmTools](https://github.com/RoomaSec/RmTools)|更新yara规则|
 |2023-03-31 02:00:53|[veinmind-tools](https://github.com/chaitin/veinmind-tools)|fix(ai): ignore basic info analyzer (#218)|
 |2023-03-30 14:41:22|[captcha-killer-modi<br>fied](https://github.com/f0ng/captcha-killer-modified)|Update FAQ.md|
@@ -108,7 +112,6 @@
 |2023-03-23 02:26:17|[Log4j2Scan](https://github.com/whwlsfb/Log4j2Scan)|add poc12. #57|
 |2023-03-22 06:35:17|[noterce](https://github.com/xiao-zhu-zhu/noterce)|Update README.md|
 |2023-03-22 05:37:07|[yarx](https://github.com/zema1/yarx)|feat: update dep (#12)* feat: update dep* feat: update<br> workflow|
-|2023-03-22 04:15:15|[rengine](https://github.com/yogeshojha/rengine)|Merge pull request #734 from thebigbone/mastercheck if<br> docker is running on systems without systemd|
 |2023-03-21 08:26:52|[ENScan_GO](https://github.com/wgpsec/ENScan_GO)|修复爱企查查询bug fix #49|
 |2023-03-21 08:07:56|[QingTing](https://github.com/StarCrossPortal/QingTing)|reset readme.md|
 |2023-03-21 06:19:25|[pocsuite3](https://github.com/knownsec/pocsuite3)|chore: bump version to 2.0.3|
@@ -143,7 +146,7 @@
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
 | [InfoSearchAll](https://github.com/ExpLangcn/InfoSearchAll) | V1.2 | 为了方便安全从业人员在使用网络测绘平台进行信息搜集时的效率，本程<br>序集合了多个网络测绘平台，可以快速在多个网络测绘平台搜索信息并且合<br>并展示及导出。 |
-| [ThunderSearch](https://github.com/xzajyjs/ThunderSearch) | v2.3.2 | 【支持Fofa、Zoomeye、Quake等网络空间搜索引擎】闪电搜索器；GUI图<br>形化渗透测试信息搜集工具；资产搜集引擎 |
+| [ThunderSearch](https://github.com/xzajyjs/ThunderSearch) | v2.3.3 | 【支持Fofa、Zoomeye、Quake等网络空间搜索引擎】闪电搜索器；GUI图<br>形化渗透测试信息搜集工具；资产搜集引擎 |
 | [Search_Viewer](https://github.com/G3et/Search_Viewer) | v2.0 | 集Fofa、Hunter鹰图、Shodan、360 quake、Zoomeye 钟馗之眼为一体的g<br>ui图形界面化工具 |
 | [koko-moni](https://github.com/burpheart/koko-moni) | v0.0.1 | 一个网络空间搜索引擎监控平台，可定时进行资产信息爬取，及时发现新<br>增资产，本项目聚合了 Fofa、Hunter、Quake、Zoomeye 和 Threatbook 的<br>数据源，并对获取到的数据进行去重与清洗 |
 | [AsamF](https://github.com/Kento-Sec/AsamF) | v0.1.10 | AsamF是集成Fofa、Quake、Hunter、Shodan、Zoomeye、Chinaz、0.zone<br>及爱企查的一站式企业信息资产收集、网络资产测绘工具。 |
@@ -261,7 +264,7 @@
 | [w13scan](https://github.com/w-digital-scanner/w13scan) |  | Passive Security Scanner (被动式安全扫描器) |
 | [Fvuln](https://github.com/d3ckx1/Fvuln) | Fvuln_v1.<br>4.8 | F-vuln（全称：Find-Vulnerability）是为了自己工作方便专门编写的一<br>款自动化工具，主要适用于日常安全服务、渗透测试人员和RedTeam红队人<br>员，它集合的功能包括：存活IP探测、开放端口探测、web服务探测、web漏<br>洞扫描、smb爆破、ssh爆破、ftp爆破、mssql爆破等其他数据库爆破工作以<br>及大量web漏洞检测模块。 |
 | [nuclei](https://github.com/projectdiscovery/nuclei) | v2.9.1 | Fast and customizable vulnerability scanner based on simple YAML<br> based DSL. |
-| [afrog](https://github.com/zan8in/afrog) | v2.2.1 | A Vulnerability Scanning Tools For Penetration Testing |
+| [afrog](https://github.com/zan8in/afrog) | v2.2.2 | A Vulnerability Scanning Tools For Penetration Testing |
 | [vulmap](https://github.com/zhzyker/vulmap) | v0.9 | Vulmap 是一款 web 漏洞扫描和验证工具, 可对 webapps 进行漏洞扫描,<br> 并且具备漏洞验证功能 |
 | [POC-bomber](https://github.com/tr0uble-mAker/POC-bomber) | v2.0.2-PO<br>C-bomber | 利用大量高威胁poc/exp快速获取目标权限，用于渗透和红队快速打点 |
 | [QingTing](https://github.com/StarCrossPortal/QingTing) | v0.3 | 蜻蜓安全一个安全工具编排平台,可以自由编排你的工具流,集成108款工<br>具,包括xray、nmap、awvs等;你可以将喜欢的工具编排成一个场景，快速打<br>造适合自己的安全工作台~ |

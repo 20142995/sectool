@@ -13,11 +13,11 @@
             "https://github.com/xzajyjs/ThunderSearch": {
                 "created_at": "2022-01-14 14:53:32",
                 "description": "【支持Fofa、Zoomeye、Quake等网络空间搜索引擎】闪电搜索器；GUI图形化渗透测试信息搜集工具；资产搜集引擎",
-                "commit_date": "2022-11-08 12:25:49",
-                "commit_message": "update to v2.3.2",
-                "release_tag": "v2.3.2",
-                "release_date": "2022-11-08 12:30:23",
-                "release_message": "- 增加了部分界面的英文支持 - 调整了界面的大小  ---  - Partly english support - Adjusted the size of the GUI  ---  > md5 ThunderSearch_darwin_universal.zip=20b1888d466e61cef77a4b42161fd783 ThunderSearch_win_x86.zip=a2cd29776336d1ece4e0d494e676566a"
+                "commit_date": "2023-04-05 12:47:13",
+                "commit_message": "update to v2.3.3",
+                "release_tag": "v2.3.3",
+                "release_date": "2023-04-05 13:07:25",
+                "release_message": "- 新增了Sqlite3支持 - 微调UI尺寸 --- - Add sqlite3 support - Fine-tuned the UI size --- > md5 ThunderSearch_darwin_universal.zip = d9b134f8311935f75577667dc7e02b78 ThunderSearch_win_x86.zip = a2cd29776336d1ece4e0d494e676566a 注意：win版本是旧版，并未更新"
             },
             "https://github.com/G3et/Search_Viewer": {
                 "created_at": "2022-11-12 14:23:48",
@@ -78,8 +78,8 @@
             "https://github.com/shmilylty/OneForAll": {
                 "created_at": "2018-12-10 09:43:37",
                 "description": "OneForAll是一款功能强大的子域收集工具",
-                "commit_date": "2023-01-12 02:31:07",
-                "commit_message": "Update docker-image.yml\n\n拼写错误",
+                "commit_date": "2023-04-05 14:06:27",
+                "commit_message": "Merge pull request #306 from j4vaovo/patch-3\n\nCreate wzsearch.py",
                 "release_tag": "v0.4.5",
                 "release_date": "2022-07-10 10:16:29",
                 "release_message": "## [0.4.5](https://github.com/shmilylty/oneforall/releases/tag/v0.4.5) - 2022-07-10 - 修复了#254"
@@ -349,8 +349,8 @@
             "https://github.com/hanc00l/nemo_go": {
                 "created_at": "2021-07-29 08:13:25",
                 "description": "Nemo是用来进行自动化信息收集的一个简单平台，通过集成常用的信息收集工具和技术，实现对内网及互联网资产信息的自动收集，提高隐患排查和渗透测试的工作效率，用Go语言完全重构了原Python版本。",
-                "commit_date": "2023-04-04 07:47:57",
-                "commit_message": "Update: load defaut config in ip and domain task",
+                "commit_date": "2023-04-05 17:57:14",
+                "commit_message": "Update: 新增XScan模式下Nuclei漏洞扫描选项(请自行下载对应版本Nuclei，扫描漏洞较多，扫描很慢，大规模扫描时请谨慎选择)",
                 "release_tag": "v2.9.1",
                 "release_date": "2023-03-11 02:07:48",
                 "release_message": "Update： 1、在任务中获取http指纹时，将HTTP响应的Header与Body保存并进行查询。  注意： **由于新增加了两个数据库表，因此从v2.9.0升级请导入http.sql。**"
@@ -358,8 +358,8 @@
             "https://github.com/yogeshojha/rengine": {
                 "created_at": "2020-05-03 12:13:12",
                 "description": "reNgine is an automated reconnaissance framework for web applications with a focus on highly configurable streamlined recon process via Engines, recon data correlation and organization, continuous monitoring, backed by a database, and simple yet intuitive User Interface. reNgine makes it easy for penetration testers to gather reconnaissance with minimal configuration and with the help of reNgine's correlation, it just makes recon effortless.",
-                "commit_date": "2023-03-22 04:15:15",
-                "commit_message": "Merge pull request #734 from thebigbone/master\n\ncheck if docker is running on systems without systemd",
+                "commit_date": "2023-04-05 03:45:42",
+                "commit_message": "Merge pull request #865 from AnonymousWP/fix-installation-issues\n\nFix installation issues when using Docker Compose",
                 "release_tag": "v1.3.6",
                 "release_date": "2023-03-22 04:31:21",
                 "release_message": "Fixed Various Installation Errors Fixed Naabu Port Scanning Issue"
@@ -693,11 +693,11 @@
             "https://github.com/zan8in/afrog": {
                 "created_at": "2022-02-24 06:00:32",
                 "description": "A Vulnerability Scanning Tools For Penetration Testing",
-                "commit_date": "2023-04-04 14:37:37",
-                "commit_message": "update poc",
-                "release_tag": "v2.2.1",
-                "release_date": "2023-02-04 14:54:34",
-                "release_message": "Merge many fingerprint pocs into the panel-detect.yaml file to reduce the number of http requests Console  print date format, 2023-01-01 changed to 01-01 Simplified afrog-config configuration  Fixed: invalid `-fc` configuration Tip: Configure the `-c` command, which can increase the concurrency speed very quickly  -----------------------------------------------------------------------------  将多个 panel 指纹探测合并到文件 panel-detect.yaml，大幅减少 http 请求 精简控制台日期打印，2023-01-01 改为 01-01 精简 afrog-config 配置信息  解决：`-fc` 命令配置无效问题 提示：配置 `-c` 命令能明显提高扫描速度"
+                "commit_date": "2023-04-05 10:11:56",
+                "commit_message": "fix xss bug",
+                "release_tag": "v2.2.2",
+                "release_date": "2023-04-05 10:31:36",
+                "release_message": "bug: - Fix afrog html report XSS vulnerability  optimization: - Simplified URL blacklist mechanism - Optimize http/s detection function - Optimized file upload (all) PoC - Optimize RCE (all) PoC  delete: - Remove Fingerprint fingerprint recognition and command parameters (replacement tool pyxis) - Remove uncommon command parameters  PoC: - Added 52 PoCs - Validate and optimize n multiple PoCs - Remove PoC csz-cms-multiple-blind-sql-injection - Remove PoC phpstudy-nginx-wrong-resolve  ------------------------------------------ 修复： \t- 修复 afrog html 报告 XSS 漏洞 \t 优化： \t- 简化 URL 黑名单机制 \t- 优化 http/s 检测功能 \t- 优化 文件上传 (所有) PoC  \t- 优化 RCE (所有) PoC  删除： \t- 去掉 Fingerprint 指纹识别及命令参数 (替代工具 pyxis) \t- 去掉不常用命令参数 \t PoC: \t- 新增 52 PoC \t- 验证和优化 n 多个 PoC \t- 删除 PoC  csz-cms-multiple-blind-sql-injection         - 删除 PoC phpstudy-nginx-wrong-resolve"
             },
             "https://github.com/zhzyker/vulmap": {
                 "created_at": "2020-10-09 06:34:36",
@@ -1701,8 +1701,8 @@
             "https://github.com/ycdxsb/PocOrExp_in_Github": {
                 "created_at": "2021-04-13 05:46:16",
                 "description": "聚合Github上已有的Poc或者Exp，CVE信息来自CVE官网。Auto Collect Poc Or Exp from Github by CVE ID.",
-                "commit_date": "2023-04-04 22:50:18",
-                "commit_message": "update 2023-04-05 06:50:18",
+                "commit_date": "2023-04-05 22:51:12",
+                "commit_message": "update 2023-04-06 06:51:12",
                 "release_tag": "",
                 "release_date": "",
                 "release_message": ""
@@ -1984,8 +1984,8 @@
             "https://github.com/sqlmapproject/sqlmap": {
                 "created_at": "2012-06-26 09:52:15",
                 "description": "Automatic SQL injection and database takeover tool",
-                "commit_date": "2023-03-31 20:18:15",
-                "commit_message": "Fixes #5374",
+                "commit_date": "2023-04-05 08:56:36",
+                "commit_message": "Fixes #5385",
                 "release_tag": "1.7",
                 "release_date": "2023-01-02 22:32:55",
                 "release_message": "Stable version 1.7 ([changeset](https://github.com/sqlmapproject/sqlmap/compare/1.6...1.7))"
@@ -3137,7 +3137,7 @@
             "https://github.com/ExpLangcn/NucleiTP": {
                 "created_at": "2022-11-08 13:16:56",
                 "description": "自动整合全网Nuclei的漏洞POC，实时同步更新最新POC！",
-                "commit_date": "2023-04-05 00:45:20",
+                "commit_date": "2023-04-06 01:00:19",
                 "commit_message": "更新啦❤️",
                 "release_tag": "",
                 "release_date": "",
@@ -3676,8 +3676,8 @@
             "https://github.com/joke2k/faker": {
                 "created_at": "2012-11-12 23:00:09",
                 "description": "Faker is a Python package that generates fake data for you.",
-                "commit_date": "2023-04-04 18:58:15",
-                "commit_message": "Bump version: 18.3.3 → 18.3.4",
+                "commit_date": "2023-04-05 15:43:19",
+                "commit_message": "Add currency symbols (#1838)\n\n- adds symbol for all listed currencies\r\n- when singular / plural symbol is different, plural is chosen\r\n- ¤ is chosen as default when the provided currency code does not have a\r\n  corresponding symbol.\r\n\r\n* fixes #1835 - adds currency symbols\r\n\r\n* fix formatting\r\n\r\n---------\r\n\r\nCo-authored-by: Lionel Hamayon <lionel.hamayon@evolution-digitale.fr>",
                 "release_tag": "v18.3.4",
                 "release_date": "2023-04-04 19:04:19",
                 "release_message": "See [CHANGELOG.md](https://github.com/joke2k/faker/blob/refs/tags/v18.3.4/CHANGELOG.md)."
@@ -3694,8 +3694,8 @@
             "https://github.com/dbeaver/dbeaver": {
                 "created_at": "2015-10-21 08:26:28",
                 "description": "Free universal database tool and SQL client",
-                "commit_date": "2023-04-04 16:15:14",
-                "commit_message": "dbeaver/pro#1311 improve accessibility erd (#19559)\n\n* dbeaver/pro#1311 improve accessibility erd\r\n\r\n* dbeaver/pro#1311 add localisation\r\n\r\n* dbeaver/pro#1311 codestyle & proper indentation\r\n\r\nSigned-off-by: Georgii Gvinepadze <fireshowel@gmail.com>\r\n\r\n---------\r\n\r\nSigned-off-by: Georgii Gvinepadze <fireshowel@gmail.com>",
+                "commit_date": "2023-04-05 16:16:02",
+                "commit_message": "#19375 Listen to all theme-related events and update after the last one (#19500)\n\n* #19375 Listen to all theme-related events and update after the last one\r\n\r\n* #19375 Use monospace font in the plaintext presentation\r\n\r\n* #19375 Decrease theme update delay to reduce visual lag",
                 "release_tag": "23.0.1",
                 "release_date": "2023-03-26 18:30:18",
                 "release_message": "                 - SQL editor:                     - Results tab now can be detached                     - Editor toolbar now can be customized in preferences                     - Query statistics tab now can be turned off                     - Table metadata search was improved                 - SSH:                     - Support of new crypto ciphers was added                     - SHH agents now works properly in Linux                 - General UI:                     - Zoom in text editors and data editors was fixed                     - Navigator tree refresh after metadata change was fixed                     - Default font size was increased for MacOS                     - Text font configuration was fixed in multiple dialog windows                     - Connection type settings change now affects UI properly                 - Data export: exporting of BLOB values in TXT format was improved                 - Native network proxy configuration was fixed                 - TiDB: new driver was added (thanks to @Icemap)                 - Clickhouse: driver version was updated to 0.4.2                 - Firebird: procedure parameters defualt values support was added                 - Oracle: additional properties in table info were added                 - PostgreSQL: composite data type support was improved                 - SQLite: STRICT mode support was added                 - Sybase/SQL Anywhere: result set size limitation in SQL was fixed                 - Vertica: expired password change feature was added             "
