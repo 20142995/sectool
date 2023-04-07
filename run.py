@@ -158,9 +158,10 @@ def main():
     gc = GithubClient(os.getenv('GH_TOKEN', ''))
     for url in urls:
         print('[*] get {}'.format(url))
-        author, repo = url[19:].split('/', 1)
-        item = {}
+
         try:
+            author, repo = url[19:].split('/', 1)
+            item = {}
             rs1 = gc.repos(author, repo)
             item['created_at'] = time.strftime("%Y-%m-%d %H:%M:%S", time.strptime(
                 rs1['created_at'], "%Y-%m-%dT%H:%M:%SZ")) if rs1.get('created_at') else ''
