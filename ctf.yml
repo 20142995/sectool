@@ -1,0 +1,50 @@
+CTF:
+    杂项:
+        图片隐写:
+            - https://github.com/Giotino/stegsolve
+            - https://github.com/ww23/BlindWatermark
+            - https://github.com/livz/cloacked-pixel
+            - https://github.com/RetrO-hash/CTFpics
+            - https://github.com/zR00t1/ImageStrike
+        流量分析:
+            - https://github.com/WangYihang/UsbMiceDataHacker
+            - https://github.com/WangYihang/UsbKeyboardDataHacker
+        编码解码:
+            - https://github.com/ht0Ruial/TomatoTools
+            - https://github.com/gchq/CyberChef
+        取证分析:
+            - https://github.com/axcheron/pyvmx-cracker
+            - https://github.com/Ormicron/chatViewTool
+            - https://github.com/Ormicron/Sharp-dumpkey
+            - https://github.com/wafinfo/Sunflower_get_Password
+            - https://github.com/AdminTest0/SharpWxDump
+            - https://github.com/SpenserCai/GoWxDump
+        音频隐写:
+            - https://github.com/ribt/dtmf-decoder
+        文件分离:
+            - https://github.com/chishaxie/BlindWaterMark
+        压缩文件分析:
+            - https://github.com/AabyssZG/CRC32-Tools
+        综合:
+            - https://github.com/Aabyss-Team/CTF-Tools
+            - https://github.com/Moxin1044/qsnctf-python
+            - https://github.com/qianxiao996/CTF-Tools
+            - https://github.com/Harveysn0w/CTF_Hacker-Tools
+    知识库:
+        - https://github.com/kitezzzGrim/CTF-Note
+
+    逆向:
+        pyc逆向:
+            - https://github.com/AngelKitty/stegosaurus
+        Java反编译:
+            - https://github.com/MountCloud/JavaDecompileTool-GUI
+            - https://github.com/Ppsoft1991/CodeReviewTools
+    WEB:
+        敏感目录:
+            - https://github.com/OrangeWatermelon/ctf-wscan
+            - https://github.com/denny0223/scrabble
+    密码学:
+        RSA:
+            - https://github.com/pablocelayes/rsa-wiener-attack
+            - https://github.com/Mr-Aur0ra/RSA
+            - https://github.com/RsaCtfTool/RsaCtfTool
