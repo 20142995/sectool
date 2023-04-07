@@ -158,7 +158,6 @@ def main():
     gc = GithubClient(os.getenv('GH_TOKEN', ''))
     for url in urls:
         print('[*] get {}'.format(url))
-
         try:
             author, repo = url[19:].split('/', 1)
             item = {}
@@ -207,9 +206,9 @@ def main():
     commits = []
     releases = []
     for url in data:
-        _, repo = url[19:].split('/', 1)
         print(f'[to_md] {url}')
         try:
+            _, repo = url[19:].split('/', 1)
             item = data[url]
             author, repo = url[19:].split('/', 1)
             repo = parse_len(repo, 20)
@@ -248,9 +247,13 @@ def main():
                 msg.append('| 项目名称 | 版本 | 项目描述 |')
                 msg.append('| :---- | :---- | :---- |')
                 for url in v:
-                    _, repo = url[19:].split('/', 1)
-                    msg.append('| [{}]({}) | {} | {} |'.format(parse_len(repo, 20), url, parse_len(data.get(
-                        url, {}).get('release_tag'), 10), parse_len(data.get(url, {}).get('description'), 65)))
+                    try:
+                        _, repo = url[19:].split('/', 1)
+                        msg.append('| [{}]({}) | {} | {} |'.format(parse_len(repo, 20), url, parse_len(data.get(
+                            url, {}).get('release_tag'), 10), parse_len(data.get(url, {}).get('description'), 65)))
+                    except:
+                        print('[fail 2]', url)
+                        traceback.print_exc()
             else:
                 parse_tree(v, path=path+1)
     parse_tree(repos, path=1)
