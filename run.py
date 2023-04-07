@@ -187,7 +187,7 @@ def main():
 
     # 更新README.md
 
-    n = 30
+    n = 15
     # n天前
     nd = time.mktime((datetime.datetime.now() -
                      datetime.timedelta(days=n)).timetuple())
