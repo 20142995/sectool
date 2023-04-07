@@ -224,8 +224,7 @@
             - https://github.com/ycdxsb/PocOrExp_in_Github
 
 
-        容器漏洞利用:
-            - https://github.com/cdk-team/CDK
+
         信息泄露漏洞利用:
             - https://github.com/teamssix/cf
             - https://github.com/UzJu/Cloud-Bucket-Leak-Detection-Tools
@@ -266,6 +265,12 @@
             - https://github.com/BeichenDream/BadPotato
         linux提权:
             - https://github.com/firefart/dirtycow
+            - https://github.com/liamg/traitor
+            - https://github.com/rebootuser/LinEnum
+            - https://github.com/carlospolop/PEASS-ng
+        容器提权:
+            - https://github.com/teamssix/container-escape-check
+            - https://github.com/cdk-team/CDK
     内网渗透:
         免杀:
             - https://github.com/knownsec/shellcodeloader
