@@ -29,8 +29,8 @@ jobs:
         python run.py
     - name: Commit and push if changed
       run: |
-        git config --global user.email "shenshang5201314@163.com"
-        git config --global user.name "20142995"
+        git config --global user.email "test"
+        git config --global user.name "test"
         git add .
         git commit --allow-empty -m "Auto Updated"
         git push
