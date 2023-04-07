@@ -155,35 +155,35 @@ def main():
     parse_dict(repos)
     urls = set(urls)
     # 更新数据
-    # gc = GithubClient(os.getenv('GH_TOKEN', ''))
-    # for url in urls:
-    #     print('[*] get {}'.format(url))
-    #     try:
-    #         author, repo = url[19:].split('/', 1)
-    #         item = {}
-    #         rs1 = gc.repos(author, repo)
-    #         item['created_at'] = time.strftime("%Y-%m-%d %H:%M:%S", time.strptime(
-    #             rs1['created_at'], "%Y-%m-%dT%H:%M:%SZ")) if rs1.get('created_at') else ''
-    #         item['description'] = rs1.get(
-    #             'description', '') if rs1.get('description', '') else ''
-    #         rs2 = gc.repos_commits(author, repo)
-    #         for rs in rs2[:1]:
-    #             item['commit_date'] = time.strftime("%Y-%m-%d %H:%M:%S", time.strptime(
-    #                 rs['commit']['committer']['date'], "%Y-%m-%dT%H:%M:%SZ")) if rs.get('commit', {}).get('committer', {}).get('date') else ''
-    #             item['commit_message'] = rs['commit']['message'] if rs.get(
-    #                 'commit', {}).get('message') else ''
-    #         rs3 = gc.repos_releases_latest(author, repo)
-    #         item['release_tag'] = rs3.get(
-    #             'tag_name', '') if rs3.get('tag_name', '') else ''
-    #         item['release_date'] = time.strftime("%Y-%m-%d %H:%M:%S", time.strptime(
-    #             rs3['published_at'], "%Y-%m-%dT%H:%M:%SZ")) if rs3.get('published_at') else ''
-    #         item['release_message'] = rs3.get(
-    #             'body', '') if rs3.get('body', '') else ''
-    #     except:
-    #         print('[fail 1]', url)
-    #         traceback.print_exc()
-    #     data.setdefault(url, {})
-    #     data[url].update(item)
+    gc = GithubClient(os.getenv('GH_TOKEN', ''))
+    for url in urls:
+        print('[*] get {}'.format(url))
+        try:
+            author, repo = url[19:].split('/', 1)
+            item = {}
+            rs1 = gc.repos(author, repo)
+            item['created_at'] = time.strftime("%Y-%m-%d %H:%M:%S", time.strptime(
+                rs1['created_at'], "%Y-%m-%dT%H:%M:%SZ")) if rs1.get('created_at') else ''
+            item['description'] = rs1.get(
+                'description', '') if rs1.get('description', '') else ''
+            rs2 = gc.repos_commits(author, repo)
+            for rs in rs2[:1]:
+                item['commit_date'] = time.strftime("%Y-%m-%d %H:%M:%S", time.strptime(
+                    rs['commit']['committer']['date'], "%Y-%m-%dT%H:%M:%SZ")) if rs.get('commit', {}).get('committer', {}).get('date') else ''
+                item['commit_message'] = rs['commit']['message'] if rs.get(
+                    'commit', {}).get('message') else ''
+            rs3 = gc.repos_releases_latest(author, repo)
+            item['release_tag'] = rs3.get(
+                'tag_name', '') if rs3.get('tag_name', '') else ''
+            item['release_date'] = time.strftime("%Y-%m-%d %H:%M:%S", time.strptime(
+                rs3['published_at'], "%Y-%m-%dT%H:%M:%SZ")) if rs3.get('published_at') else ''
+            item['release_message'] = rs3.get(
+                'body', '') if rs3.get('body', '') else ''
+        except:
+            print('[fail 1]', url)
+            traceback.print_exc()
+        data.setdefault(url, {})
+        data[url].update(item)
 
     # 更新README.md
 
