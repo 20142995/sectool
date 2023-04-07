@@ -1,9 +1,9 @@
-# 更新于 2023-04-07 20:43:00
+# 更新于 2023-04-07 23:15:25
 
-    ## 近30天release更新记录
-    | 更新时间 | 项目名称 | 版本 | 更新内容 |
-    | :---- | :---- | :---- | :---- |
-    |2023-04-07 02:54:04|[FrameScan-GUI](https://github.com/qianxiao996/FrameScan-GUI)|v1.4.3|1、修复扫描时module '/root/桌面/FrameSc<br>an-GUI/Modules/Vuln_Scanner' has no attr<br>ibute 'vuln_info'的错误。2、升级pyqt5 为<br>pyside63、去除编辑脚本代码高亮功能。4、<br>去除qss皮肤。|
+## 近30天release更新记录
+| 更新时间 | 项目名称 | 版本 | 更新内容 |
+| :---- | :---- | :---- | :---- |
+|2023-04-07 02:54:04|[FrameScan-GUI](https://github.com/qianxiao996/FrameScan-GUI)|v1.4.3|1、修复扫描时module '/root/桌面/FrameSc<br>an-GUI/Modules/Vuln_Scanner' has no attr<br>ibute 'vuln_info'的错误。2、升级pyqt5 为<br>pyside63、去除编辑脚本代码高亮功能。4、<br>去除qss皮肤。|
 |2023-04-07 01:42:49|[Elkeid](https://github.com/bytedance/Elkeid)|rasp-v2.2<br>.0.5||
 |2023-04-06 15:27:55|[faker](https://github.com/joke2k/faker)|v18.4.0|See [CHANGELOG.md](https://github.com/j<br>oke2k/faker/blob/refs/tags/v18.4.0/CHANG<br>ELOG.md).|
 |2023-04-06 09:02:23|[Antenna](https://github.com/wuba/Antenna)|v1.3.4-fi<br>x|修复V1.3.4版本关于新建任务与查询OPENAPI<br>错误的问题|
@@ -46,10 +46,10 @@
 |2023-03-10 03:32:44|[code6](https://github.com/4x99/code6)|1.6.4|### 更新日志- 特性：[ 扫描结果 ] 支持导<br>出单页 CSV 数据（#245）- 优化：[ 扫描结果<br> ] 新增支持 “处理人”、“说明” 字段搜<br>索（#247）- 修复：[ Docker 部署 ] 修复重<br>启可能导致配置项异常问题（#248）- 修复：[<br> 扫描任务 ] 待执行任务配置被删导致扫描队<br>列阻塞问题（#252）- 修复：[ 通知配置 ] 更<br>新企业群消息机器人文档地址- 特性：[ 通知<br>配置 ] 邮件通知支持 SSL/TLS 加密（#247）#<br>## 升级指南#### 源码安装直接拉取最新代码<br>#### Docker 安装拉取最新代码、创建镜像并<br>启动容器即可#### Docker-Compose 安装拉取<br>最新代码启动容器即可|
 |2023-03-09 12:55:14|[TsojanScan](https://github.com/Tsojan/TsojanScan)|v1.4.4|## 更新说明 - v1.4.41. 优化代码结构；2.<br> 修复weblogic弱口令误报bug；3. 增加otf后<br>缀不扫描规则；4. 删除asix/happaxis.jsp扫<br>描规则；5. 增加sql语法错误的页面回显扫描<br>模块，只显示sql错误显示（参数后面增加单引<br>号、双引号、反斜线，去查看有没有SQL错误语<br>句）。|
 |2023-03-09 04:49:16|[JDumpSpider](https://github.com/whwlsfb/JDumpSpider)|V1.1|- 项目重构，增强不同环境下的兼容性。- <br>增加类字段的用户信息模糊搜索功能。|
-    ## 近30天commit提交记录
-    | 提交时间 | 项目名称 | 更新内容 |
-    | :---- | :---- | :---- |
-    |2023-04-07 12:30:16|[NucleiTP](https://github.com/ExpLangcn/NucleiTP)|更新啦❤️|
+## 近30天commit提交记录
+| 提交时间 | 项目名称 | 更新内容 |
+| :---- | :---- | :---- |
+|2023-04-07 12:30:16|[NucleiTP](https://github.com/ExpLangcn/NucleiTP)|更新啦❤️|
 |2023-04-07 11:57:40|[PocOrExp_in_Github](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-04-07 19:57:40|
 |2023-04-07 11:41:38|[dbeaver](https://github.com/dbeaver/dbeaver)|#19031 antlr (#19546)* #19031 Add plugin and grammars*<br> #19031 Refactor grammar* #19031 Add grammar extension <br>for mysql dialect, switch to dbeaver repo for antlr dep<br>endencies* #19031 Add syntax tree to model mapping and <br>select statement model partially* #19031 Rename package<br>* #19031 Add tests* #19031 Add select quantifier mappin<br>g and test* #19031 Refactor SyntaxModel internals out a<br>nd switch from parallel syntax tree structure to ANTLR <br>tree nodes overrides* #19031 Fix code style* #19031 Fix<br> code style* #19031 Refactor model mapping and add erro<br>r handling to model* #19031 Fix code style* #19031 Fix <br>code style* #19031 Rename bundle and packages* #19031 F<br>ix test reference in pom* #19031 Rename package* #19031<br> Fix duplicated header in generated resources* #19031 R<br>emove unnecessary bundle version|
 |2023-04-07 11:26:52|[sqlmap](https://github.com/sqlmapproject/sqlmap)|Fixes #5387|
