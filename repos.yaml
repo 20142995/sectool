@@ -17,28 +17,37 @@
             - https://github.com/yunxu1/dnsub
             - https://github.com/boy-hack/ksubdomain
             - https://github.com/knownsec/ct
+            - https://github.com/lijiejie/subDomainsBrute
         目录扫描:
             - https://github.com/maurosoria/dirsearch
-            - https://github.com/pingc0y/URLFinder
             - https://github.com/epi052/feroxbuster
             - https://github.com/ffuf/ffuf
             - https://github.com/H4ckForJob/dirmap
             - https://github.com/deibit/cansina
             - https://github.com/ReddyyZ/urlbrute
             - https://github.com/foryujian/yjdirscan
+            - https://github.com/shack2/SWebScan
             - https://github.com/hunyaio/yuhScan
             - https://github.com/jaeles-project/gospider
             - https://github.com/chaitin/rad
+            - https://github.com/pingc0y/URLFinder
+            - https://github.com/Threezh1/JSFinder
+
         指纹识别:
             - https://github.com/EdgeSecurityTeam/EHole
             - https://github.com/s7ckTeam/Glass
+            - https://github.com/EASY233/Finger
         端口扫描:
+            - https://github.com/Liqunkit/webfinder-next
+            - https://github.com/foryujian/yujianportscan
             - https://github.com/4dogs-cn/TXPortMap
             - https://github.com/projectdiscovery/naabu
             - https://github.com/redtoolskobe/scaninfo
+            - https://github.com/20142995/portscan
         综合:
             - https://github.com/zhzyker/dismap
             - https://github.com/rabbitmask/AssetsHunter
+            - https://github.com/dyboy2017/TScan
         自动化信息收集:
             - https://github.com/SiJiDo/H
             - https://github.com/XTeam-Wing/X-Marshal
@@ -295,6 +304,8 @@
             - https://github.com/FunnyWolf/Viper
         横向工具:
             - https://github.com/rootclay/WMIHACKER
+        综合:
+            - https://github.com/k8gege/Ladon
     相关资源:
         工具集成环境:
             - https://github.com/makoto56/penetration-suite-toolkit
@@ -452,6 +463,8 @@
             - https://github.com/Margular/frida-skeleton
         fofa:
             - https://github.com/xiecat/fofax
+            - https://github.com/wgpsec/fofa_viewer
+            - https://github.com/20142995/fofa_GUI
 CTF:
     杂项:
         图片隐写:
