@@ -127,6 +127,7 @@
             - https://github.com/koutto/web-brutator
             - https://github.com/yzddmr6/WebCrack
             - https://github.com/pwnesia/ssb
+            - https://github.com/maaaaz/thc-hydra-windows
         漏洞发现:
             - https://github.com/x364e3ab6/Dude
         信息泄露监控:
@@ -244,6 +245,14 @@
             - https://github.com/vladko312/SSTImap
             - https://github.com/epinna/tplmap
             - https://github.com/sqlmapproject/sqlmap
+        服务漏洞利用:
+            RMI:
+                - https://github.com/waderwu/attackRmi
+                - https://github.com/A-D-Team/attackRmi
+                - https://github.com/NickstaDB/BaRMIe
+                - https://github.com/BishopFox/rmiscout
+            JDWP:
+                - https://github.com/IOActive/jdwp-shellifier
     漏洞文库:
         - https://github.com/BaizeSec/bylibrary
         - https://github.com/PeiQi0/PeiQi-WIKI-Book
@@ -264,6 +273,8 @@
             - https://github.com/AntSwordProject/antSword
             - https://github.com/WangYihang/Platypus
             - https://github.com/yzddmr6/As-Exploits
+        后门:
+            - https://github.com/wgpsec/CreateHiddenAccount
         远控:
             - https://github.com/xiao-zhu-zhu/noterce
         免杀:
