@@ -200,8 +200,8 @@
     "https://github.com/ycdxsb/PocOrExp_in_Github": {
         "created_at": "2021-04-13 05:46:16",
         "description": "聚合Github上已有的Poc或者Exp，CVE信息来自CVE官网。Auto Collect Poc Or Exp from Github by CVE ID.",
-        "commit_date": "2023-04-07 11:57:40",
-        "commit_message": "update 2023-04-07 19:57:40",
+        "commit_date": "2023-04-07 21:51:19",
+        "commit_message": "update 2023-04-08 05:51:19",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -461,7 +461,7 @@
     "https://github.com/ExpLangcn/NucleiTP": {
         "created_at": "2022-11-08 13:16:56",
         "description": "自动整合全网Nuclei的漏洞POC，实时同步更新最新POC！",
-        "commit_date": "2023-04-07 12:30:16",
+        "commit_date": "2023-04-07 13:15:15",
         "commit_message": "更新啦❤️",
         "release_tag": "",
         "release_date": "",
@@ -1008,8 +1008,8 @@
     "https://github.com/x364e3ab6/Dude": {
         "created_at": "2023-02-03 05:39:58",
         "description": "Dude (大佬) WEB渗透测试辅助工具",
-        "commit_date": "2023-04-01 09:19:26",
-        "commit_message": "Merge branch 'main' of https://github.com/x364e3ab6/Dude",
+        "commit_date": "2023-04-07 13:03:43",
+        "commit_message": "Update README.md",
         "release_tag": "v1.0.0.3",
         "release_date": "2023-03-25 08:08:30",
         "release_message": "1. 修改了在安装了Edge或Edge WebView2 Runtime的情况下，可不用携带BrowserRuntime这个超大文件夹；\r\n2. 修改了内置Edge浏览器的一些功能和显示效果；\r\n3. 修改了“数据爆破”功能中同步多线程的问题，极大的提高了爆破速度；\r\n5. 对插件做出一些细节的调整；\r\n4. 修改了一些小Bug。"
@@ -1863,9 +1863,9 @@
         "description": "captcha-killer的修改版，支持关键词识别base64编码的图片，添加免费ocr库，用于验证码爆破，适配新版Burpsuite",
         "commit_date": "2023-03-30 14:41:22",
         "commit_message": "Update FAQ.md",
-        "release_tag": "0.23-beta3",
-        "release_date": "2023-04-04 14:08:45",
-        "release_message": "【2023-4-4】 0.23-beta3\r\n- 修复了验证码id过长的问题\r\n\r\n感谢微信群师傅策马奔腾 反馈"
+        "release_tag": "0.23-beta4",
+        "release_date": "2023-04-07 14:49:10",
+        "release_message": "【2023-4-7】 0.23-beta4\r\n- 修复验证码重复识别问题\r\n\r\n感谢微信群师傅YPL. 、白矮星 反馈"
     },
     "https://github.com/xfiftyone/STS2G": {
         "created_at": "2020-01-17 02:17:24",
@@ -2951,8 +2951,8 @@
     "https://github.com/dbeaver/dbeaver": {
         "created_at": "2015-10-21 08:26:28",
         "description": "Free universal database tool and SQL client",
-        "commit_date": "2023-04-07 11:41:38",
-        "commit_message": "#19031 antlr (#19546)\n\n* #19031 Add plugin and grammars\r\n\r\n* #19031 Refactor grammar\r\n\r\n* #19031 Add grammar extension for mysql dialect, switch to dbeaver repo for antlr dependencies\r\n\r\n* #19031 Add syntax tree to model mapping and select statement model partially\r\n\r\n* #19031 Rename package\r\n\r\n* #19031 Add tests\r\n\r\n* #19031 Add select quantifier mapping and test\r\n\r\n* #19031 Refactor SyntaxModel internals out and switch from parallel syntax tree structure to ANTLR tree nodes overrides\r\n\r\n* #19031 Fix code style\r\n\r\n* #19031 Fix code style\r\n\r\n* #19031 Refactor model mapping and add error handling to model\r\n\r\n* #19031 Fix code style\r\n\r\n* #19031 Fix code style\r\n\r\n* #19031 Rename bundle and packages\r\n\r\n* #19031 Fix test reference in pom\r\n\r\n* #19031 Rename package\r\n\r\n* #19031 Fix duplicated header in generated resources\r\n\r\n* #19031 Remove unnecessary bundle version",
+        "commit_date": "2023-04-07 14:29:02",
+        "commit_message": "CB-3112 qm add projects filter (#19563)\n\nCo-authored-by: Tatiana Fokina <tatiana.fokina@dbeaver.com>\r\nCo-authored-by: Alexander Skoblikov <aleksandr.skoblikov@dbeaver.com>",
         "release_tag": "23.0.1",
         "release_date": "2023-03-26 18:30:18",
         "release_message": "\n                - SQL editor:\n                    - Results tab now can be detached\n                    - Editor toolbar now can be customized in preferences\n                    - Query statistics tab now can be turned off\n                    - Table metadata search was improved\n                - SSH:\n                    - Support of new crypto ciphers was added\n                    - SHH agents now works properly in Linux\n                - General UI:\n                    - Zoom in text editors and data editors was fixed\n                    - Navigator tree refresh after metadata change was fixed\n                    - Default font size was increased for MacOS\n                    - Text font configuration was fixed in multiple dialog windows\n                    - Connection type settings change now affects UI properly\n                - Data export: exporting of BLOB values in TXT format was improved\n                - Native network proxy configuration was fixed\n                - TiDB: new driver was added (thanks to @Icemap)\n                - Clickhouse: driver version was updated to 0.4.2\n                - Firebird: procedure parameters defualt values support was added\n                - Oracle: additional properties in table info were added\n                - PostgreSQL: composite data type support was improved\n                - SQLite: STRICT mode support was added\n                - Sybase/SQL Anywhere: result set size limitation in SQL was fixed\n                - Vertica: expired password change feature was added\n            "
@@ -3050,7 +3050,7 @@
     "https://github.com/zan8in/afrog": {
         "created_at": "2022-02-24 06:00:32",
         "description": "A Vulnerability Scanning Tools For Penetration Testing",
-        "commit_date": "2023-04-07 07:50:30",
+        "commit_date": "2023-04-07 15:25:46",
         "commit_message": "update poc",
         "release_tag": "v2.2.2",
         "release_date": "2023-04-05 10:31:36",
@@ -3406,8 +3406,8 @@
     "https://github.com/bit4woo/domain_hunter_pro": {
         "created_at": "2019-01-18 07:15:15",
         "description": "domain_hunter的高级版本，SRC挖洞、HW打点之必备！自动化资产收集；快速Title获取；外部工具联动；等等",
-        "commit_date": "2023-04-04 10:24:32",
-        "commit_message": "Update LineTableModel.java",
+        "commit_date": "2023-04-07 14:40:44",
+        "commit_message": "Update Fofa.java",
         "release_tag": "v1.9-alpha",
         "release_date": "2022-11-18 09:37:35",
         "release_message": "**这是重构版本，与旧版本不兼容！！！\r\n这是重构版本，与旧版本不兼容！！！\r\n这是重构版本，与旧版本不兼容！！！**\r\n\r\n重新设计了数据库的表结构，尽量提升数据库读写效率\r\n重新设计了数据对象、UI、数据库之间的数据同步逻辑\r\n重新设计了数据存储的基础类，保证线程安全\r\n重新设计了table中model类的部分逻辑，减少内存占用\r\n\r\n优化了数据对象的字段，尽量减小每个数据对象的内存占用\r\n优化了数据提取的正则表达式和逻辑\r\n优化了根域名、网段作控制目标范围的逻辑\r\n优化了当根域名、网段变化时，数据的刷新逻辑\r\n优化了数据数据加载逻辑\r\n其他各种逻辑优化、bug修改\r\n\r\n总之就是大动作，和旧版本不兼容，可能存在潜在bug（虽然我已经试用一段时间，排除了很多bug），所以发布一个alpha版本在正式版本之前。\r\n\r\n欢迎试用提交bug，使用时建议创建新的项目数据库，不要使用旧数据库文件。"
@@ -3667,6 +3667,42 @@
         "commit_message": "Update README.md",
         "release_tag": "",
         "release_date": "",
+        "release_message": ""
+    },
+    "https://github.com/teamssix/container-escape-check": {
+        "created_at": "2022-03-17 11:00:37",
+        "description": "docker container escape check || Docker 容器逃逸检测",
+        "commit_date": "2022-04-19 07:50:10",
+        "commit_message": "Merge pull request #2 from teamssix/add-license-1\n\nCreate LICENSE",
+        "release_tag": "v0.3",
+        "release_date": "2022-04-07 11:11:42",
+        "release_message": "* 添加了 CVE-2022-0492\r\n* 如果不存在 capsh 命令则会自动安装\r\n* 增强了特权模式检测\r\n* 增强了 /var/log 检测"
+    },
+    "https://github.com/rebootuser/LinEnum": {
+        "created_at": "2013-08-20 06:26:58",
+        "description": "Scripted Local Linux Enumeration & Privilege Escalation Checks",
+        "commit_date": "2020-01-07 09:20:33",
+        "commit_message": "Update README.md",
+        "release_tag": "",
+        "release_date": "",
+        "release_message": ""
+    },
+    "https://github.com/liamg/traitor": {
+        "created_at": "2021-01-24 10:50:15",
+        "description": ":arrow_up: :skull_and_crossbones: :fire: Automatic Linux privesc via exploitation of low-hanging fruit e.g. gtfobins, pwnkit, dirty pipe, +w docker.sock",
+        "commit_date": "2023-03-07 22:06:41",
+        "commit_message": "Create antispam.yml (#113)",
+        "release_tag": "v0.0.14",
+        "release_date": "2022-03-09 13:57:41",
+        "release_message": ""
+    },
+    "https://github.com/carlospolop/PEASS-ng": {
+        "created_at": "2019-01-13 19:58:24",
+        "description": "PEASS - Privilege Escalation Awesome Scripts SUITE (with colors)",
+        "commit_date": "2023-04-03 13:36:03",
+        "commit_message": "Merge pull request #346 from L1-0/patch-1\n\nColorLine Fix",
+        "release_tag": "20230402",
+        "release_date": "2023-04-02 04:23:37",
         "release_message": ""
     }
 }
