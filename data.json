@@ -200,8 +200,8 @@
     "https://github.com/ycdxsb/PocOrExp_in_Github": {
         "created_at": "2021-04-13 05:46:16",
         "description": "聚合Github上已有的Poc或者Exp，CVE信息来自CVE官网。Auto Collect Poc Or Exp from Github by CVE ID.",
-        "commit_date": "2023-04-09 23:08:33",
-        "commit_message": "update 2023-04-10 07:08:33",
+        "commit_date": "2023-04-10 21:58:00",
+        "commit_message": "update 2023-04-11 05:58:00",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -218,7 +218,7 @@
     "https://github.com/Threekiii/Vulhub-Reproduce": {
         "created_at": "2022-03-03 08:38:29",
         "description": "一个Vulhub漏洞复现知识库",
-        "commit_date": "2023-03-28 09:49:07",
+        "commit_date": "2023-04-10 01:03:43",
         "commit_message": "更新漏洞",
         "release_tag": "",
         "release_date": "",
@@ -461,7 +461,7 @@
     "https://github.com/ExpLangcn/NucleiTP": {
         "created_at": "2022-11-08 13:16:56",
         "description": "自动整合全网Nuclei的漏洞POC，实时同步更新最新POC！",
-        "commit_date": "2023-04-10 00:30:19",
+        "commit_date": "2023-04-11 00:30:16",
         "commit_message": "更新啦❤️",
         "release_tag": "",
         "release_date": "",
@@ -531,8 +531,8 @@
     "https://github.com/knownsec/404StarLink": {
         "created_at": "2020-11-17 08:10:18",
         "description": "404StarLink - 推荐优质、有意义、有趣、坚持维护的安全开源项目",
-        "commit_date": "2023-04-03 02:09:52",
-        "commit_message": "weekly update at 2023-04-03",
+        "commit_date": "2023-04-10 02:33:33",
+        "commit_message": "weekly update at 2023-04-10",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -972,8 +972,8 @@
     "https://github.com/chaitin/xray": {
         "created_at": "2019-06-10 07:16:37",
         "description": "一款完善的安全评估工具，支持常见 web 安全问题扫描和自定义 poc | 使用之前务必先阅读文档",
-        "commit_date": "2023-02-23 07:36:27",
-        "commit_message": "[fix] 文档地址",
+        "commit_date": "2023-04-10 02:46:29",
+        "commit_message": "update README.md (#1724)",
         "release_tag": "1.9.4",
         "release_date": "2023-01-10 07:30:58",
         "release_message": "# 更新内容\r\n\r\n## 插件更新\r\n\r\n1. 添加[XStream扫描插件](https://docs.xray.cool/#/configration/plugins?id=xstream)，支持列表如下（该插件需开启反连平台）\r\n   - CVE-2021-21344\r\n   - CVE-2021-21345\r\n   - CVE-2021-39141\r\n   - CVE-2021-39144\r\n   - ...(共29个插件)\r\n2. fastjson插件支持cve-2022-25845的检测\r\n\r\n## POC编写/执行更新\r\n\r\n1. 新增警告信息，师傅们可以根据警告信息删除检测插件创建的文件等\r\n2. 支持在GET，HEAD，OPTION时添加body\r\n3. 添加[compare version](https://docs.xray.cool/#/guide/poc/func?id=版本)函数，可以对匹配出的版本进行对比\r\n4. 添加[html实体编码](https://docs.xray.cool/#/guide/poc/example/encode/htmlEscape)/[解码](https://docs.xray.cool/#/guide/poc/example/encode/htmlUnescape)函数\r\n5. 添加[java反序列化函数](https://docs.xray.cool/#/guide/poc/example/ysoGadget/javaGadget)\r\n6. 添加[hex](https://docs.xray.cool/#/guide/poc/example/encode/hex)/[hexDecode](https://docs.xray.cool/#/guide/poc/example/encode/hexDecode)函数\r\n\r\n## 优化内容\r\n\r\n1. 优化了反连平台漏洞捕获逻辑，提高了命中率\r\n2. 优化了 poc lint 变得更人性化\r\n3. yaml脚本支持获取rmi反连平台的链接，具体使用请参考官方文档\r\n4. 优化了Struts2检测模块，添加反连确认，减少误报漏报\r\n\r\n## 修复POC\r\n### 规则优化，规则弱\r\n```\r\npoc-yaml-drawio-cve-2022-1713-ssrf\r\npoc-yaml-h3c-cvm-upload-file-upload\r\npoc-yaml-iis-cve-2017-7269\r\npoc-yaml-74cms-sqli-cve-2020-22209\r\npoc-yaml-reporter-file-read\r\npoc-yaml-wanhu-ezoffice-documentedit-sqli\r\npoc-yaml-joomla-cve-2017-8917-sqli\r\npoc-yaml-iis-cve-2017-7269\r\npoc-yaml-emerge-e3-cve-2019-7256\r\npoc-yaml-alibaba-nacos-v1-auth-bypass\r\npoc-yaml-wanhu-ezoffice-documentedit-sqli\r\npoc-yaml-magicflow-gateway-main-xp-file-read\r\npoc-yaml-gitblit-cve-2022-31268\r\npoc-yaml-phpstudy-nginx-wrong-resolve\r\npoc-yaml-confluence-cve-2022-26138\r\npoc-yaml-metinfo-lfi-cnvd-2018-13393\r\npoc-yaml-zabbix-cve-2019-17382\r\npoc-yaml-wordpress-paypal-pro-cve-2020-14092-sqli\r\npoc-yaml-vite-cnvd-2022-44615\r\npoc-yaml-phpmyadmin-cve-2018-12613-file-inclusion\r\npoc-yaml-zabbix-cve-2022-23134\r\npoc-yaml-ametys-cms-cve-2022-26159\r\n```\r\n\r\n### 优化删除（功能与xray的通用插件重复）\r\n```\r\npoc-yaml-nexusdb-cve-2020-24571-path-traversal\r\npoc-yaml-specoweb-cve-2021-32572-fileread\r\npoc-yaml-tvt-nvms-1000-file-read-cve-2019-20085\r\npoc-yaml-zyxel-vmg1312-b10d-cve-2018-19326-path-traversal\r\n```\r\n\r\n### 新增无害化处理\r\n```\r\npoc-yaml-fanruan-v9-file-upload\r\npoc-yaml-h3c-cvm-upload-file-upload\r\npoc-yaml-seeyon-unauthorized-fileupload\r\npoc-yaml-thinkcmf-write-shell\r\npoc-yaml-wanhu-oa-officeserver-file-upload\r\npoc-yaml-weaver-oa-workrelate-file-upload\r\npoc-yaml-yonyou-grp-u8-file-upload\r\npoc-yaml-yonyou-nc-file-accept-upload\r\npoc-yaml-yonyou-u8c-file-upload\r\npoc-yaml-zhiyuan-oa-wpsassistservlet-file-upload\r\n```\r\n\r\n## 新增POC 96个\r\n```\r\npoc-yaml-ruijie-fileupload-fileupload-rce\r\npoc-yaml-eweaver-oa-mecadminaction-sqlexec\r\npoc-yaml-xxl-job-default-password\r\npoc-yaml-wordpress-plugin-superstorefinder-ssf-social-action-php-sqli\r\npoc-yaml-magento-config-disclosure-info-leak\r\npoc-yaml-ukefu-cnvd-2021-18305-file-read\r\npoc-yaml-ukefu-cnvd-2021-18303-ssrf\r\npoc-yaml-eweaver-eoffice-mainselect-info-leak\r\npoc-yaml-linksys-cnvd-2014-01260\r\npoc-yaml-wordpress-welcart-ecommerce-cve-2022-41840-path-traversal\r\npoc-yaml-jeesite-userfiles-path-traversal\r\npoc-yaml-yongyou-nc-iupdateservice-xxe\r\npoc-yaml-v-sol-olt-platform-unauth-config-download\r\npoc-yaml-ibm-websphere-portal-hcl-cve-2021-27748-ssrf\r\npoc-yaml-yonyou-nc-uapws-db-info-leak\r\npoc-yaml-yonyou-nc-service-info-leak\r\npoc-yaml-yongyou-nc-cloud-fs-sqli\r\npoc-yaml-finecms-filedownload\r\npoc-yaml-weaver-eoffice-userselect-unauth\r\npoc-yaml-fortinet-cve-2022-40684-auth-bypass\r\npoc-yaml-dapr-dashboard-cve-2022-38817-unauth\r\npoc-yaml-wordpress-zephyr-project-manager-cve-2022-2840-sqli\r\npoc-yaml-jira-cve-2022-39960-unauth\r\npoc-yaml-qnap-cve-2022-27593-fileupload\r\npoc-yaml-wordpress-all-in-one-video-gallery-cve-2022-2633-lfi\r\npoc-yaml-atlassian-bitbucket-archive-cve-2022-36804-remote-command-exec\r\npoc-yaml-wordpress-simply-schedule-appointments-cve-2022-2373-unauth\r\npoc-yaml-zoho-manageengine-opmanager-cve-2022-36923\r\npoc-yaml-red-hat-freeipa-cve-2022-2414-xxe\r\npoc-yaml-wavlink-cve-2022-2488-rce\r\npoc-yaml-wavlink-cve-2022-34045-info-leak\r\npoc-yaml-wordpress-shareaholic-cve-2022-0594-info-leak\r\npoc-yaml-wordpress-wp-stats-manager-cve-2022-33965-sqli\r\npoc-yaml-opencart-newsletter-custom-popup-sqli\r\npoc-yaml-wordpress-events-made-easy-cve-2022-1905-sqli\r\npoc-yaml-wordpress-kivicare-cve-2022-0786-sqli\r\npoc-yaml-wordpress-cve-2022-1609-rce\r\npoc-yaml-solarview-compact-cve-2022-29303-rce\r\npoc-yaml-wordpress-arprice-lite-cve-2022-0867-sqli\r\npoc-yaml-wordpress-fusion-cve-2022-1386-ssrf\r\npoc-yaml-wordpress-nirweb-cve-2022-0781-sqli\r\npoc-yaml-wordpress-metform-cve-2022-1442-info-leak\r\npoc-yaml-wordpress-mapsvg-cve-2022-0592-sqli\r\npoc-yaml-wordpress-badgeos-cve-2022-0817-sqli\r\npoc-yaml-wordpress-daily-prayer-time-cve-2022-0785-sqli\r\npoc-yaml-wordpress-woo-product-table-cve-2022-1020-rce\r\npoc-yaml-wordpress-documentor-cve-2022-0773-sqli\r\npoc-yaml-wordpress-multiple-shipping-address-woocommerce-cve-2022-0783-sqli\r\npoc-yaml-gitlab-cve-2022-1162-hardcoded-password\r\npoc-yaml-thinkphp-cve-2022-25481-info-leak\r\npoc-yaml-wordpress-cve-2022-0591-ssrf\r\npoc-yaml-wordpress-simple-link-directory-cve-2022-0760-sqli\r\npoc-yaml-wordpress-ti-woocommerce-wishlist-cve-2022-0412-sqli\r\npoc-yaml-wordpress-notificationx-cve-2022-0349-sqli\r\npoc-yaml-wordpress-page-views-count-cve-2022-0434-sqli\r\npoc-yaml-wordpress-masterstudy-lms-cve-2022-0441-unauth\r\npoc-yaml-wordpress-seo-cve-2021-25118-info-leak\r\npoc-yaml-wordpress-perfect-survey-cve-2021-24762-sqli\r\npoc-yaml-wordpress-asgaros-forum-cve-2021-24827-sqli\r\npoc-yaml-tcexam-cve-2021-20114-info-leak\r\npoc-yaml-wordpress-woocommerce-cve-2021-32789-sqli\r\npoc-yaml-wordpress-profilepress-cve-2021-34621-unauth\r\npoc-yaml-wordpress-wp-statistics-cve-2021-24340-sqli\r\npoc-yaml-voipmonitor-cve-2021-30461-rce\r\npoc-yaml-rocket-chat-cve-2021-22911-nosqli\r\npoc-yaml-pega-infinity-cve-2021-27651-unauth\r\npoc-yaml-wordpress-modern-events-calendar-lite-cve-2021-24146-info-leak\r\npoc-yaml-afterlogic-webmail-cve-2021-26294-path-traversal\r\npoc-yaml-wavlink-cve-2020-13117-rce\r\npoc-yaml-prestashop-cve-2021-3110-sqli\r\npoc-yaml-cockpit-cve-2020-35847-nosqli\r\npoc-yaml-cockpit-cve-2020-35848-nosqli\r\npoc-yaml-keycloak-cve-2020-10770-ssrf\r\npoc-yaml-prestashop-cve-2020-26248-sqli\r\npoc-yaml-wordpress-paypal-pro-cve-2020-14092-sqli\r\npoc-yaml-microstrategy-cve-2020-11450-info-leak\r\npoc-yaml-adobe-experience-manager-cve-2019-8086-xxe\r\npoc-yaml-blogengine-net-cve-2019-10717-path-traversal\r\npoc-yaml-dotcms-cve-2018-17422-url-redirection\r\npoc-yaml-php-proxy-cve-2018-19458-fileread\r\npoc-yaml-circarlife-scada-cve-2018-16671-info-leak\r\npoc-yaml-circarlife-scada-cve-2018-16670-info-leak\r\npoc-yaml-circarlife-scada-cve-2018-16668-info-leak\r\npoc-yaml-dotnetnuke-cve-2017-0929-ssrf\r\npoc-yaml-orchid-core-vms-cve-2018-10956-path-traversal\r\npoc-yaml-circarlife-scada-cve-2018-12634-info-leak\r\npoc-yaml-nuuo-nvrmini2-cve-2018-11523-upload\r\npoc-yaml-jolokia-cve-2018-1000130-code-injection\r\npoc-yaml-fiberhome-cve-2017-15647-path-traversal\r\npoc-yaml-opendreambox-cve-2017-14135-rce\r\npoc-yaml-sap-cve-2017-12637-fileread\r\npoc-yaml-glassfish-cve-2017-1000029-lfi\r\npoc-yaml-boa-cve-2017-9833-fileread\r\npoc-yaml-mantisbt-cve-2017-7615-unauth\r\npoc-yaml-wordpress-cve-2017-5487-info-leak\r\npoc-yaml-thinkcmf-cve-2018-19898-sqli\r\n```"
@@ -1062,8 +1062,8 @@
     "https://github.com/ninoseki/mitaka": {
         "created_at": "2018-02-09 00:13:30",
         "description": "A browser extension for OSINT search",
-        "commit_date": "2023-04-01 07:38:38",
-        "commit_message": "Merge pull request #722 from ninoseki/v1.1.1\n\nv1.1.1",
+        "commit_date": "2023-04-11 00:27:27",
+        "commit_message": "Merge pull request #710 from ninoseki/renovate/typescript-eslint-monorepo\n\nchore(deps): update typescript-eslint monorepo to v5.58.0",
         "release_tag": "v1.1.1",
         "release_date": "2023-04-03 14:04:31",
         "release_message": "- Fix search all issue (#720)\r\n- Update manifest (#721) "
@@ -1073,9 +1073,9 @@
         "description": "A web GUI client of Project V which supports V2Ray, Xray, SS, SSR, Trojan and Pingtunnel 🚀",
         "commit_date": "2023-04-08 06:25:17",
         "commit_message": "homebrew.yml: Fix git config",
-        "release_tag": "v2.0.4",
-        "release_date": "2023-03-19 14:05:56",
-        "release_message": "## What's Changed\r\n* CI(debian): Generate default config for systemd environment by @cubercsl in https://github.com/v2rayA/v2rayA/pull/750\r\n* Feature: Add nftables support by @cubercsl in https://github.com/v2rayA/v2rayA/pull/805\r\n* Fix: XRay assets problem\r\n* Fix: AlterID problem #854.\r\n* Fix: Winget auto commit. @MarksonHon \r\n\r\n**Full Changelog**: https://github.com/v2rayA/v2rayA/compare/v2.0.2...v2.0.4\r\n\r\n### Also see https://github.com/v2rayA/v2rayA/releases/tag/v2.0.2 "
+        "release_tag": "v2.0.5",
+        "release_date": "2023-04-08 06:20:57",
+        "release_message": "## What's Changed\r\n* Fix tip label display by @aeeq in https://github.com/v2rayA/v2rayA/pull/889\r\n\r\n## New Contributors\r\n* @aeeq made their first contribution in https://github.com/v2rayA/v2rayA/pull/889\r\n\r\n**Full Changelog**: https://github.com/v2rayA/v2rayA/compare/v2.0.4...v2.0.5"
     },
     "https://github.com/silentsignal/burp-text4shell": {
         "created_at": "2022-10-18 15:07:57",
@@ -1098,7 +1098,7 @@
     "https://github.com/Threekiii/Vulnerability-Wiki": {
         "created_at": "2022-04-29 05:36:33",
         "description": "一个综合漏洞知识库，集成了Vulhub、Peiqi、Edge、0sec、Wooyun等开源漏洞库",
-        "commit_date": "2023-03-28 09:53:56",
+        "commit_date": "2023-04-10 01:07:17",
         "commit_message": "更新漏洞",
         "release_tag": "v1.0",
         "release_date": "2022-07-15 01:58:00",
@@ -1584,8 +1584,8 @@
     "https://github.com/li8u99/yonyou_exp_plus": {
         "created_at": "2022-01-21 08:49:07",
         "description": "用友系列全漏洞检测工具",
-        "commit_date": "2023-02-27 02:44:41",
-        "commit_message": "更新请求异常处理",
+        "commit_date": "2023-04-10 00:55:59",
+        "commit_message": "Add files via upload",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -1735,8 +1735,8 @@
     "https://github.com/chaitin/veinmind-tools": {
         "created_at": "2022-02-08 08:12:15",
         "description": "veinmind-tools 是由长亭科技自研，基于 veinmind-sdk 打造的容器安全工具集",
-        "commit_date": "2023-04-06 16:11:34",
-        "commit_message": "doc: update README.md (#219)\n\nCo-authored-by: DVKunion <2622100059@qq.com>",
+        "commit_date": "2023-04-10 14:08:19",
+        "commit_message": "fix(Makefile): add CGO_ENBALED (#221)\n\n* fix(Makefile): add CGO_ENBALED\r\n\r\n* update(dependency): update dependency version",
         "release_tag": "v2.1.1",
         "release_date": "2023-03-29 08:46:28",
         "release_message": "## Fix\r\n- 修复容器运行时部分初始化问题"
@@ -2005,8 +2005,8 @@
     "https://github.com/bit4woo/knife": {
         "created_at": "2018-06-12 14:25:18",
         "description": "A burp extension that add some useful function to  Context Menu 添加一些右键菜单让burp用起来更顺畅",
-        "commit_date": "2023-03-07 08:44:53",
-        "commit_message": "Update ChineseTab.java",
+        "commit_date": "2023-04-10 03:40:38",
+        "commit_message": "优化端口扫描逻辑",
         "release_tag": "v2.1",
         "release_date": "2022-11-20 09:04:40",
         "release_message": "融合U2C和Chinese2个Tab，让它们都可以支持切换编码\r\n新增功能：从JS中查找URL路径后，拼接BaseURL并请求\r\n其他小的更新、bug修复\r\n\r\n## What's Changed\r\n* Bump gson from 2.3.1 to 2.8.9 by @dependabot in https://github.com/bit4woo/knife/pull/45\r\n* Bump commons-text from 1.6 to 1.10.0 by @dependabot in https://github.com/bit4woo/knife/pull/53\r\n\r\n## New Contributors\r\n* @dependabot made their first contribution in https://github.com/bit4woo/knife/pull/45\r\n\r\n**Full Changelog**: https://github.com/bit4woo/knife/compare/v2.0...v2.1"
@@ -2496,13 +2496,13 @@
         "release_message": "1. 添加对iiop协议是否被过滤的检测"
     },
     "https://github.com/dbgee/pentest_report": {
-        "created_at": "2022-09-02 08:00:13",
-        "description": "渗透测试报告生成",
-        "commit_date": "2023-03-08 07:14:47",
-        "commit_message": "Create LICENSE",
+        "created_at": "2023-04-10 09:19:56",
+        "description": "A pentest reporter generator",
+        "commit_date": "2023-04-10 09:58:30",
+        "commit_message": "code clean",
         "release_tag": "v1.0.0",
-        "release_date": "2023-03-08 06:18:49",
-        "release_message": "First orricial release "
+        "release_date": "2023-04-10 09:29:16",
+        "release_message": "# python app.py"
     },
     "https://github.com/zhzyker/vulmap": {
         "created_at": "2020-10-09 06:34:36",
@@ -2951,8 +2951,8 @@
     "https://github.com/dbeaver/dbeaver": {
         "created_at": "2015-10-21 08:26:28",
         "description": "Free universal database tool and SQL client",
-        "commit_date": "2023-04-08 19:35:58",
-        "commit_message": "19043: Microseconds epoch transformer (#19068)\n\n* 19043: Microseconds epoch transformer\r\n\r\n* 19043: fix remarks\r\n\r\n* 19043: fix style\r\n\r\n* 19043: fix test\r\n\r\n* Revert \"19043: fix test\"\r\n\r\nThis reverts commit ad0fc8a1813a6c049fe7ea5b587cff3daa10a44f.\r\n\r\n* Revert \"19043: fix style\"\r\n\r\nThis reverts commit 2c13d3507426f3a1f7c5fbd6e2398549216436a2.\r\n\r\n---------\r\n\r\nCo-authored-by: Нахабин Сергей <s.nahabin@dssl.ru>\r\nCo-authored-by: Elizabeth <e1izabeth.k@outlook.com>",
+        "commit_date": "2023-04-10 19:27:44",
+        "commit_message": "dbeaver/dbeaver#19521 Fix theme listener de-register (#19658)",
         "release_tag": "23.0.2",
         "release_date": "2023-04-09 18:26:08",
         "release_message": "\n                - ER Diagrams:\n                    - Accessibility support (text reader) was added\n                    - Many keyboard shortcuts were added\n                    - Issue with diagram re-layout after options change was resolved\n                    - Issue with moving focus when searching was fixed\n                - General UI:\n                    - Database editors remain open after disconnect (configurable)\n                    - Clickable hints are now displayed as links\n                    - Issue with missing icons in the toolbar on MacOS was fixed\n                    - Font and color changes in the Result Set were improved\n                    - Large fonts now display correctly on MacOS\n                - SQL Editor:\n                    - Auto-completion for INSERT/UPDATE/DELETE queries was improved\n                    - Font changes are now applied without a restart\n                - Data Editor:\n                    - Show numeric values (e.g. infinity) rendering was improved\n                    - Issue with opening images from value panel in external editor was fixed\n                - Connectivity:\n                    - Legacy SSH algorithms support was added\n                    - Confirmation dialogs now remember user selection\n                    - The number of attempts to reopen the connection was reduced\n                    - Ability to connect via SSHJ with unsaved password was added\n                    - Maven artifacts configuration now supports classifier\n                - Data transfer: column description support was added for CSV and XLS formats,\n                - AI (ChatGPT): unsupported AI models were replaced with new ones\n                - Databases:\n                    - Firebird: default parameters in procedure definitions were added\n                    - PostgresSQL: materialized views dependencies were added\n                    - Databricks: support of table comments were added\n                    - Oracle: issue with cropped ‘q’ at the end of the string was fixed\n                    - SQLite: triggers delete was implemented\n                    - SQL Server: issue with duplicated data types was resolved\n                - Localization:\n                    - Traditional Chinese localization was updated (thanks to @hwhsu1231)\n                    - Traditional Chinese language was added to Windows installer\n                - Misc:\n                    - Microsoft store: issue with application installation was fixed on most machines\n                    - We switched to Java 17 (again)\n                    - We switched to Eclipse 2023-03 as a base platform\n            "
@@ -3050,7 +3050,7 @@
     "https://github.com/zan8in/afrog": {
         "created_at": "2022-02-24 06:00:32",
         "description": "A Vulnerability Scanning Tools For Penetration Testing",
-        "commit_date": "2023-04-07 15:25:46",
+        "commit_date": "2023-04-10 13:05:38",
         "commit_message": "update poc",
         "release_tag": "v2.2.2",
         "release_date": "2023-04-05 10:31:36",
@@ -3406,8 +3406,8 @@
     "https://github.com/bit4woo/domain_hunter_pro": {
         "created_at": "2019-01-18 07:15:15",
         "description": "domain_hunter的高级版本，SRC挖洞、HW打点之必备！自动化资产收集；快速Title获取；外部工具联动；等等",
-        "commit_date": "2023-04-09 11:05:22",
-        "commit_message": "优化端口扫描逻辑",
+        "commit_date": "2023-04-10 11:37:44",
+        "commit_message": "Update GrepUtils.java",
         "release_tag": "v1.9-alpha",
         "release_date": "2022-11-18 09:37:35",
         "release_message": "**这是重构版本，与旧版本不兼容！！！\r\n这是重构版本，与旧版本不兼容！！！\r\n这是重构版本，与旧版本不兼容！！！**\r\n\r\n重新设计了数据库的表结构，尽量提升数据库读写效率\r\n重新设计了数据对象、UI、数据库之间的数据同步逻辑\r\n重新设计了数据存储的基础类，保证线程安全\r\n重新设计了table中model类的部分逻辑，减少内存占用\r\n\r\n优化了数据对象的字段，尽量减小每个数据对象的内存占用\r\n优化了数据提取的正则表达式和逻辑\r\n优化了根域名、网段作控制目标范围的逻辑\r\n优化了当根域名、网段变化时，数据的刷新逻辑\r\n优化了数据数据加载逻辑\r\n其他各种逻辑优化、bug修改\r\n\r\n总之就是大动作，和旧版本不兼容，可能存在潜在bug（虽然我已经试用一段时间，排除了很多bug），所以发布一个alpha版本在正式版本之前。\r\n\r\n欢迎试用提交bug，使用时建议创建新的项目数据库，不要使用旧数据库文件。"
