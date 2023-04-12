@@ -1,8 +1,9 @@
-# 更新于 2023-04-11 08:43:12
+# 更新于 2023-04-12 08:38:53
 
 ## 近15天release更新记录
 | 更新时间 | 项目名称 | 版本 | 更新内容 |
 | :---- | :---- | :---- | :---- |
+|2023-04-12 00:28:11|[feroxbuster](https://github.com/epi052/feroxbuster)|v2.9.3|## What's Changed* added extensions and<br> status codes into auto filtering decisi<br>on calculus by @epi052 in https://github<br>.com/epi052/feroxbuster/pull/869Special <br>thanks to @0xdf223 for letting me know a<br>bout the shortcoming :partying_face:**Fu<br>ll Changelog**: https://github.com/epi05<br>2/feroxbuster/compare/v2.9.2...v2.9.3|
 |2023-04-10 09:29:16|[pentest_report](https://github.com/dbgee/pentest_report)|v1.0.0|# python app.py|
 |2023-04-09 18:26:08|[dbeaver](https://github.com/dbeaver/dbeaver)|23.0.2|- ER Diagrams:- Accessibility support (<br>text reader) was added- Many keyboard sh<br>ortcuts were added- Issue with diagram r<br>e-layout after options change was resolv<br>ed- Issue with moving focus when searchi<br>ng was fixed- General UI:- Database edit<br>ors remain open after disconnect (config<br>urable)- Clickable hints are now display<br>ed as links- Issue with missing icons in<br> the toolbar on MacOS was fixed- Font an<br>d color changes in the Result Set were i<br>mproved- Large fonts now display correct<br>ly on MacOS- SQL Editor:- Auto-completio<br>n for INSERT/UPDATE/DELETE queries was i<br>mproved- Font changes are now applied wi<br>thout a restart- Data Editor:- Show nume<br>ric values (e.g. infinity) rendering was<br> improved- Issue with opening images fro<br>m value panel in external editor was fix<br>ed- Connectivity:- Legacy SSH algorithms<br> support was added- Confirmation dialogs<br> now remember user selection- The number<br> of attempts to reopen the connection wa<br>s reduced- Ability to connect via SSHJ w<br>ith unsaved password was added- Maven ar<br>tifacts configuration now supports class<br>ifier- Data transfer: column description<br> support was added for CSV and XLS forma<br>ts,- AI (ChatGPT): unsupported AI models<br> were replaced with new ones- Databases:<br>- Firebird: default parameters in proced<br>ure definitions were added- PostgresSQL:<br> materialized views dependencies were ad<br>ded- Databricks: support of table commen<br>ts were added- Oracle: issue with croppe<br>d ‘q’ at the end of the string was fix<br>ed- SQLite: triggers delete was implemen<br>ted- SQL Server: issue with duplicated d<br>ata types was resolved- Localization:- T<br>raditional Chinese localization was upda<br>ted (thanks to @hwhsu1231)- Traditional <br>Chinese language was added to Windows in<br>staller- Misc:- Microsoft store: issue w<br>ith application installation was fixed o<br>n most machines- We switched to Java 17 <br>(again)- We switched to Eclipse 2023-03 <br>as a base platform|
 |2023-04-09 04:25:37|[PEASS-ng](https://github.com/carlospolop/PEASS-ng)|20230409||
@@ -27,13 +28,20 @@
 ## 近15天commit提交记录
 | 提交时间 | 项目名称 | 更新内容 |
 | :---- | :---- | :---- |
-|2023-04-11 00:30:16|[NucleiTP](https://github.com/ExpLangcn/NucleiTP)|更新啦❤️|
+|2023-04-12 00:30:15|[NucleiTP](https://github.com/ExpLangcn/NucleiTP)|更新啦❤️|
+|2023-04-12 00:07:53|[feroxbuster](https://github.com/epi052/feroxbuster)|Merge pull request #869 from epi052/auto-filtering-acc<br>ount-for-extensionsadded extensions and status codes in<br>to auto filtering decision calculus|
+|2023-04-11 22:58:22|[PocOrExp_in_Github](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-04-12 06:58:22|
+|2023-04-11 17:42:20|[Umi-OCR](https://github.com/hiroi-sora/Umi-OCR)|功能：完善截图子窗口，添加控制项，关联系统截图
+（#115<br>）|
+|2023-04-11 12:19:39|[sqlmap](https://github.com/sqlmapproject/sqlmap)|Update related to #5389|
+|2023-04-11 11:49:41|[dbeaver](https://github.com/dbeaver/dbeaver)|#19305 Render non-displayable characters in the grid (<br>#19660)|
+|2023-04-11 11:15:22|[domain_hunter_pro](https://github.com/bit4woo/domain_hunter_pro)|Update ToolPanel.java|
+|2023-04-11 10:25:18|[afrog](https://github.com/zan8in/afrog)|update|
+|2023-04-11 07:30:37|[Vuln-List](https://github.com/wwl012345/Vuln-List)|Update Windows&Linux提权&RCE合集.md|
+|2023-04-11 07:15:10|[veinmind-tools](https://github.com/chaitin/veinmind-tools)|fix(CI/CD): change goproxy settings (#222)|
+|2023-04-11 05:09:35|[vulnerability](https://github.com/lal0ne/vulnerability)|udfmr.asmx SQL注入|
+|2023-04-11 01:12:44|[Library-POC](https://github.com/luck-ying/Library-POC)|Update Joomla_unauthorized_CVE-2023-23752.py|
 |2023-04-11 00:27:27|[mitaka](https://github.com/ninoseki/mitaka)|Merge pull request #710 from ninoseki/renovate/typescr<br>ipt-eslint-monorepochore(deps): update typescript-eslin<br>t monorepo to v5.58.0|
-|2023-04-10 21:58:00|[PocOrExp_in_Github](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-04-11 05:58:00|
-|2023-04-10 19:27:44|[dbeaver](https://github.com/dbeaver/dbeaver)|dbeaver/dbeaver#19521 Fix theme listener de-register (<br>#19658)|
-|2023-04-10 14:08:19|[veinmind-tools](https://github.com/chaitin/veinmind-tools)|fix(Makefile): add CGO_ENBALED (#221)* fix(Makefile): <br>add CGO_ENBALED* update(dependency): update dependency <br>version|
-|2023-04-10 13:05:38|[afrog](https://github.com/zan8in/afrog)|update poc|
-|2023-04-10 11:37:44|[domain_hunter_pro](https://github.com/bit4woo/domain_hunter_pro)|Update GrepUtils.java|
 |2023-04-10 09:58:30|[pentest_report](https://github.com/dbgee/pentest_report)|code clean|
 |2023-04-10 03:40:38|[knife](https://github.com/bit4woo/knife)|优化端口扫描逻辑|
 |2023-04-10 02:46:29|[xray](https://github.com/chaitin/xray)|update README.md (#1724)|
@@ -47,9 +55,7 @@
 |2023-04-08 06:25:17|[v2rayA](https://github.com/v2rayA/v2rayA)|homebrew.yml: Fix git config|
 |2023-04-08 05:12:18|[portscan](https://github.com/20142995/portscan)|1|
 |2023-04-07 13:03:43|[Dude](https://github.com/x364e3ab6/Dude)|Update README.md|
-|2023-04-07 11:26:52|[sqlmap](https://github.com/sqlmapproject/sqlmap)|Fixes #5387|
 |2023-04-07 07:26:03|[RequestTemplate](https://github.com/1n7erface/RequestTemplate)|Update README.md|
-|2023-04-07 06:21:30|[Library-POC](https://github.com/luck-ying/Library-POC)|Update README.md|
 |2023-04-07 02:40:59|[FrameScan-GUI](https://github.com/qianxiao996/FrameScan-GUI)|v1.4.3|
 |2023-04-07 02:11:44|[0day](https://github.com/helloexp/0day)|add CVE-2021-21972 RCE|
 |2023-04-06 15:27:19|[faker](https://github.com/joke2k/faker)|Bump version: 18.3.4 → 18.4.0|
@@ -62,7 +68,6 @@
 add all string export spider.|
 |2023-04-06 03:02:58|[Exp-Tools](https://github.com/cseroad/Exp-Tools)|Update README.md|
 |2023-04-06 02:56:31|[Komo](https://github.com/komomon/Komo)|Update finger_main.py|
-|2023-04-06 02:21:42|[vulnerability](https://github.com/lal0ne/vulnerability)|CVE-2023-26822|
 |2023-04-06 02:01:00|[rengine](https://github.com/yogeshojha/rengine)|Merge pull request #844 from AnonymousWP/improve-readm<br>eImprove README|
 |2023-04-05 14:06:27|[OneForAll](https://github.com/shmilylty/OneForAll)|Merge pull request #306 from j4vaovo/patch-3Create wzs<br>earch.py|
 |2023-04-05 12:47:13|[ThunderSearch](https://github.com/xzajyjs/ThunderSearch)|update to v2.3.3|
@@ -70,7 +75,6 @@ add all string export spider.|
 |2023-04-04 13:51:30|[BurpSuite-collectio<br>ns](https://github.com/Mr-xn/BurpSuite-collections)|add burp-vps-proxy 插件|
 |2023-04-04 12:09:32|[HackBrowserData](https://github.com/moonD4rk/HackBrowserData)|Merge pull request #209 from moonD4rk/feat/lintfix: re<br>naming unused parameter|
 |2023-04-04 10:07:57|[murphysec](https://github.com/murphysecurity/murphysec)|Merge pull request #146 from murphysecurity/dependabot<br>/github_actions/actions/setup-go-4chore(deps): bump act<br>ions/setup-go from 3 to 4|
-|2023-04-04 08:53:51|[Vuln-List](https://github.com/wwl012345/Vuln-List)|新增Linux自动提权脚本|
 |2023-04-04 03:20:05|[poc-hub](https://github.com/ybdt/poc-hub)|整理|
 |2023-04-03 15:46:31|[RsaCtfTool](https://github.com/RsaCtfTool/RsaCtfTool)|If public modulus is prime bail out, fix issue #415|
 |2023-04-03 13:36:03|[PEASS-ng](https://github.com/carlospolop/PEASS-ng)|Merge pull request #346 from L1-0/patch-1ColorLine Fix|
@@ -90,9 +94,7 @@ add all string export spider.|
 |2023-03-29 02:21:27|[X-Marshal](https://github.com/XTeam-Wing/X-Marshal)|Update README.md|
 |2023-03-28 15:47:04|[github-subdomains](https://github.com/gwen001/github-subdomains)|readme|
 |2023-03-28 09:48:31|[Awesome-POC](https://github.com/Threekiii/Awesome-POC)|更新漏洞|
-|2023-03-28 03:44:59|[CodeQLpy](https://github.com/webraybtl/CodeQLpy)|修复tagdir导致的bug|
-|2023-03-27 07:38:18|[Aazhen-RexHa](https://github.com/zangcc/Aazhen-RexHa)|Update README.md|
-|2023-03-27 05:14:41|[ysoserial](https://github.com/su18/ysoserial)|添加 hide type 3 ，通过封装一个带有假信息的 ClassLoade<br>r 来试图逃避检测|## 所有项目
+|2023-03-28 03:44:59|[CodeQLpy](https://github.com/webraybtl/CodeQLpy)|修复tagdir导致的bug|## 所有项目
 # 渗透测试
 ## 信息收集
 ### 资产测绘采集
@@ -121,7 +123,7 @@ add all string export spider.|
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
 | [dirsearch](https://github.com/maurosoria/dirsearch) | v0.4.3 | Web path scanner |
-| [feroxbuster](https://github.com/epi052/feroxbuster) | v2.9.2 | A fast, simple, recursive content discovery tool written in Rust<br>. |
+| [feroxbuster](https://github.com/epi052/feroxbuster) | v2.9.3 | A fast, simple, recursive content discovery tool written in Rust<br>. |
 | [ffuf](https://github.com/ffuf/ffuf) | v2.0.0 | Fast web fuzzer written in Go |
 | [dirmap](https://github.com/H4ckForJob/dirmap) |  | An advanced web directory & file scanning tool that will be more<br> powerful than DirBuster, Dirsearch, cansina, and Yu Jian.一个高<br>级web目录、文件扫描工具，功能将会强于DirBuster、Dirsearch、cansina<br>、御剑。 |
 | [cansina](https://github.com/deibit/cansina) | 1.0.0 | Web Content Discovery Tool |
@@ -714,6 +716,7 @@ add all string export spider.|
 | [cloacked-pixel](https://github.com/livz/cloacked-pixel) |  | LSB steganography and detection |
 | [CTFpics](https://github.com/RetrO-hash/CTFpics) |  | 用于自动化检测CTF中常出现得工具图片隐写题目 |
 | [ImageStrike](https://github.com/zR00t1/ImageStrike) | V0.2 | ImageStrike是一款用于CTF中图片隐写的综合利用工具 |
+| [stegpy](https://github.com/dhsdshdhk/stegpy) |  | Simple steganography program based on the LSB method. |
 ### 流量分析
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
@@ -765,7 +768,7 @@ add all string export spider.|
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
 | [JavaDecompileTool-G<br>UI](https://github.com/MountCloud/JavaDecompileTool-GUI) | V1.2 | Java Decompile Tool GUI-JAVA反编译工具（界面版） |
-| [CodeReviewTools](https://github.com/Ppsoft1991/CodeReviewTools) | v1.31 | 通过正则搜索、批量反编译特定Jar包中的class名称 |
+| [CodeReviewTools](https://github.com/Ppsoft1991/CodeReviewTools) | v1.3 | 通过正则搜索、批量反编译特定Jar包中的class名称 |
 ## WEB
 ### 敏感目录
 | 项目名称 | 版本 | 项目描述 |

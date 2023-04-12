@@ -200,8 +200,8 @@
     "https://github.com/ycdxsb/PocOrExp_in_Github": {
         "created_at": "2021-04-13 05:46:16",
         "description": "聚合Github上已有的Poc或者Exp，CVE信息来自CVE官网。Auto Collect Poc Or Exp from Github by CVE ID.",
-        "commit_date": "2023-04-10 21:58:00",
-        "commit_message": "update 2023-04-11 05:58:00",
+        "commit_date": "2023-04-11 22:58:22",
+        "commit_message": "update 2023-04-12 06:58:22",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -380,8 +380,8 @@
     "https://github.com/lal0ne/vulnerability": {
         "created_at": "2022-01-20 02:48:42",
         "description": "收集、整理、修改互联网上公开的漏洞POC",
-        "commit_date": "2023-04-06 02:21:42",
-        "commit_message": "CVE-2023-26822",
+        "commit_date": "2023-04-11 05:09:35",
+        "commit_message": "udfmr.asmx SQL注入",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -461,7 +461,7 @@
     "https://github.com/ExpLangcn/NucleiTP": {
         "created_at": "2022-11-08 13:16:56",
         "description": "自动整合全网Nuclei的漏洞POC，实时同步更新最新POC！",
-        "commit_date": "2023-04-11 00:30:16",
+        "commit_date": "2023-04-12 00:30:15",
         "commit_message": "更新啦❤️",
         "release_tag": "",
         "release_date": "",
@@ -587,9 +587,9 @@
         "description": "通过正则搜索、批量反编译特定Jar包中的class名称",
         "commit_date": "2021-12-06 16:48:04",
         "commit_message": "修复fernflower引擎复制文件的bug",
-        "release_tag": "v1.31",
-        "release_date": "2021-12-09 05:45:27",
-        "release_message": "修复fernflow引擎的一些bug"
+        "release_tag": "v1.3",
+        "release_date": "2021-11-04 08:33:04",
+        "release_message": "增加fernflower引擎"
     },
     "https://github.com/shadow1ng/fscan": {
         "created_at": "2020-11-13 16:35:20",
@@ -981,8 +981,8 @@
     "https://github.com/sqlmapproject/sqlmap": {
         "created_at": "2012-06-26 09:52:15",
         "description": "Automatic SQL injection and database takeover tool",
-        "commit_date": "2023-04-07 11:26:52",
-        "commit_message": "Fixes #5387",
+        "commit_date": "2023-04-11 12:19:39",
+        "commit_message": "Update related to #5389",
         "release_tag": "1.7",
         "release_date": "2023-01-02 22:32:55",
         "release_message": "Stable version 1.7 ([changeset](https://github.com/sqlmapproject/sqlmap/compare/1.6...1.7))"
@@ -1735,8 +1735,8 @@
     "https://github.com/chaitin/veinmind-tools": {
         "created_at": "2022-02-08 08:12:15",
         "description": "veinmind-tools 是由长亭科技自研，基于 veinmind-sdk 打造的容器安全工具集",
-        "commit_date": "2023-04-10 14:08:19",
-        "commit_message": "fix(Makefile): add CGO_ENBALED (#221)\n\n* fix(Makefile): add CGO_ENBALED\r\n\r\n* update(dependency): update dependency version",
+        "commit_date": "2023-04-11 07:15:10",
+        "commit_message": "fix(CI/CD): change goproxy settings (#222)",
         "release_tag": "v2.1.1",
         "release_date": "2023-03-29 08:46:28",
         "release_message": "## Fix\r\n- 修复容器运行时部分初始化问题"
@@ -1906,8 +1906,8 @@
     "https://github.com/hiroi-sora/Umi-OCR": {
         "created_at": "2022-03-28 04:01:46",
         "description": "OCR图片转文字识别软件，完全离线。截屏/批量导入图片，支持多国语言、合并段落、竖排文字。可排除水印区域，提取干净的文本。基于 PaddleOCR 。",
-        "commit_date": "2023-03-23 14:23:13",
-        "commit_message": "更正注释",
+        "commit_date": "2023-04-11 17:42:20",
+        "commit_message": "功能：完善截图子窗口，添加控制项，关联系统截图\n（#115）",
         "release_tag": "v1.3.3",
         "release_date": "2023-03-19 04:49:43",
         "release_message": "### `v1.3.3` 主要更新：\r\n- 新功能：命令行模式。随时通过命令行调用Umi-OCR！\r\n- 新功能：识图完成的通知悬浮窗。\r\n- 新功能：清理引擎内存。\r\n- 修复了一些问题，优化了一些UI表现。\r\n\r\n### 文件说明\r\n软件本体：`Umi-OCR.v1.3.3.7z`，内置`简体中文&英文`通用识别库。\r\n多国语言扩展包：`Umi-OCR.v1.3_DLC_languages.7z`，可额外导入`繁中,英,日,韩,俄,德,法` 识别库。请按需下载。"
@@ -2122,8 +2122,8 @@
     "https://github.com/wwl012345/Vuln-List": {
         "created_at": "2022-03-01 03:07:52",
         "description": "(持续更新)对网上出现的各种OA、中间件、CMS等漏洞进行整理，主要包括漏洞介绍、漏洞影响版本以及漏洞POC/EXP等，并且会持续更新。",
-        "commit_date": "2023-04-04 08:53:51",
-        "commit_message": "新增Linux自动提权脚本",
+        "commit_date": "2023-04-11 07:30:37",
+        "commit_message": "Update Windows&Linux提权&RCE合集.md",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -2248,11 +2248,11 @@
     "https://github.com/epi052/feroxbuster": {
         "created_at": "2020-08-22 15:36:19",
         "description": "A fast, simple, recursive content discovery tool written in Rust.",
-        "commit_date": "2023-03-18 17:23:34",
-        "commit_message": "Merge pull request #839 from epi052/all-contributors/add-acut3\n\ndocs: add acut3 as a contributor for bug",
-        "release_tag": "v2.9.2",
-        "release_date": "2023-03-18 17:21:28",
-        "release_message": "## What's Changed\r\n* changed default value for `--extract-links` to `true` => added `--dont-extract-links` to turn off the new default behavior by @epi052 in https://github.com/epi052/feroxbuster/pull/834\r\n* can load a wordlist from its url over http/https by @epi052 in https://github.com/epi052/feroxbuster/pull/834\r\n* updated README with alternative installation methods for brew and chocolatey by @aancw in https://github.com/epi052/feroxbuster/pull/824\r\n* fixed divide by zero error by @epi052 in https://github.com/epi052/feroxbuster/pull/834\r\n* added check for forced recursion when directory listing detected by @epi052 in https://github.com/epi052/feroxbuster/pull/834\r\n\r\nSpecial thanks to @aancw for the code, @acut3 for the bug report, and @xaeroborg for the nice quality of life idea :tada:\r\n\r\n\r\n**Full Changelog**: https://github.com/epi052/feroxbuster/compare/v2.9.1...v2.9.2"
+        "commit_date": "2023-04-12 00:07:53",
+        "commit_message": "Merge pull request #869 from epi052/auto-filtering-account-for-extensions\n\nadded extensions and status codes into auto filtering decision calculus",
+        "release_tag": "v2.9.3",
+        "release_date": "2023-04-12 00:28:11",
+        "release_message": "## What's Changed\r\n* added extensions and status codes into auto filtering decision calculus by @epi052 in https://github.com/epi052/feroxbuster/pull/869\r\n\r\nSpecial thanks to @0xdf223 for letting me know about the shortcoming :partying_face: \r\n\r\n**Full Changelog**: https://github.com/epi052/feroxbuster/compare/v2.9.2...v2.9.3"
     },
     "https://github.com/dzxs/Xdecrypt": {
         "created_at": "2017-12-08 08:52:14",
@@ -2951,8 +2951,8 @@
     "https://github.com/dbeaver/dbeaver": {
         "created_at": "2015-10-21 08:26:28",
         "description": "Free universal database tool and SQL client",
-        "commit_date": "2023-04-10 19:27:44",
-        "commit_message": "dbeaver/dbeaver#19521 Fix theme listener de-register (#19658)",
+        "commit_date": "2023-04-11 11:49:41",
+        "commit_message": "#19305 Render non-displayable characters in the grid (#19660)",
         "release_tag": "23.0.2",
         "release_date": "2023-04-09 18:26:08",
         "release_message": "\n                - ER Diagrams:\n                    - Accessibility support (text reader) was added\n                    - Many keyboard shortcuts were added\n                    - Issue with diagram re-layout after options change was resolved\n                    - Issue with moving focus when searching was fixed\n                - General UI:\n                    - Database editors remain open after disconnect (configurable)\n                    - Clickable hints are now displayed as links\n                    - Issue with missing icons in the toolbar on MacOS was fixed\n                    - Font and color changes in the Result Set were improved\n                    - Large fonts now display correctly on MacOS\n                - SQL Editor:\n                    - Auto-completion for INSERT/UPDATE/DELETE queries was improved\n                    - Font changes are now applied without a restart\n                - Data Editor:\n                    - Show numeric values (e.g. infinity) rendering was improved\n                    - Issue with opening images from value panel in external editor was fixed\n                - Connectivity:\n                    - Legacy SSH algorithms support was added\n                    - Confirmation dialogs now remember user selection\n                    - The number of attempts to reopen the connection was reduced\n                    - Ability to connect via SSHJ with unsaved password was added\n                    - Maven artifacts configuration now supports classifier\n                - Data transfer: column description support was added for CSV and XLS formats,\n                - AI (ChatGPT): unsupported AI models were replaced with new ones\n                - Databases:\n                    - Firebird: default parameters in procedure definitions were added\n                    - PostgresSQL: materialized views dependencies were added\n                    - Databricks: support of table comments were added\n                    - Oracle: issue with cropped ‘q’ at the end of the string was fixed\n                    - SQLite: triggers delete was implemented\n                    - SQL Server: issue with duplicated data types was resolved\n                - Localization:\n                    - Traditional Chinese localization was updated (thanks to @hwhsu1231)\n                    - Traditional Chinese language was added to Windows installer\n                - Misc:\n                    - Microsoft store: issue with application installation was fixed on most machines\n                    - We switched to Java 17 (again)\n                    - We switched to Eclipse 2023-03 as a base platform\n            "
@@ -3050,8 +3050,8 @@
     "https://github.com/zan8in/afrog": {
         "created_at": "2022-02-24 06:00:32",
         "description": "A Vulnerability Scanning Tools For Penetration Testing",
-        "commit_date": "2023-04-10 13:05:38",
-        "commit_message": "update poc",
+        "commit_date": "2023-04-11 10:25:18",
+        "commit_message": "update",
         "release_tag": "v2.2.2",
         "release_date": "2023-04-05 10:31:36",
         "release_message": "bug:\r\n- Fix afrog html report XSS vulnerability\r\n\r\noptimization:\r\n- Simplified URL blacklist mechanism\r\n- Optimize http/s detection function\r\n- Optimized file upload (all) PoC\r\n- Optimize RCE (all) PoC\r\n\r\ndelete:\r\n- Remove Fingerprint fingerprint recognition and command parameters (replacement tool pyxis)\r\n- Remove uncommon command parameters\r\n\r\nPoC:\r\n- Added 52 PoCs\r\n- Validate and optimize n multiple PoCs\r\n- Remove PoC csz-cms-multiple-blind-sql-injection\r\n- Remove PoC phpstudy-nginx-wrong-resolve\r\n- Built-in several private PoC\r\n\r\n------------------------------------------\r\n修复：\r\n\t- 修复 afrog html 报告 XSS 漏洞\r\n\t\r\n优化：\r\n\t- 简化 URL 黑名单机制\r\n\t- 优化 http/s 检测功能\r\n\t- 优化 文件上传 (所有) PoC \r\n\t- 优化 RCE (所有) PoC\r\n\r\n删除：\r\n\t- 去掉 Fingerprint 指纹识别及命令参数 (替代工具 pyxis)\r\n\t- 去掉不常用命令参数\r\n\t\r\nPoC:\r\n\t- 新增 52 PoC\r\n\t- 验证和优化 n 多个 PoC\r\n\t- 删除 PoC  csz-cms-multiple-blind-sql-injection\r\n        - 删除 PoC phpstudy-nginx-wrong-resolve\r\n        - 内置几个 private  PoC"
@@ -3406,8 +3406,8 @@
     "https://github.com/bit4woo/domain_hunter_pro": {
         "created_at": "2019-01-18 07:15:15",
         "description": "domain_hunter的高级版本，SRC挖洞、HW打点之必备！自动化资产收集；快速Title获取；外部工具联动；等等",
-        "commit_date": "2023-04-10 11:37:44",
-        "commit_message": "Update GrepUtils.java",
+        "commit_date": "2023-04-11 11:15:22",
+        "commit_message": "Update ToolPanel.java",
         "release_tag": "v1.9-alpha",
         "release_date": "2022-11-18 09:37:35",
         "release_message": "**这是重构版本，与旧版本不兼容！！！\r\n这是重构版本，与旧版本不兼容！！！\r\n这是重构版本，与旧版本不兼容！！！**\r\n\r\n重新设计了数据库的表结构，尽量提升数据库读写效率\r\n重新设计了数据对象、UI、数据库之间的数据同步逻辑\r\n重新设计了数据存储的基础类，保证线程安全\r\n重新设计了table中model类的部分逻辑，减少内存占用\r\n\r\n优化了数据对象的字段，尽量减小每个数据对象的内存占用\r\n优化了数据提取的正则表达式和逻辑\r\n优化了根域名、网段作控制目标范围的逻辑\r\n优化了当根域名、网段变化时，数据的刷新逻辑\r\n优化了数据数据加载逻辑\r\n其他各种逻辑优化、bug修改\r\n\r\n总之就是大动作，和旧版本不兼容，可能存在潜在bug（虽然我已经试用一段时间，排除了很多bug），所以发布一个alpha版本在正式版本之前。\r\n\r\n欢迎试用提交bug，使用时建议创建新的项目数据库，不要使用旧数据库文件。"
@@ -3663,8 +3663,8 @@
     "https://github.com/luck-ying/Library-POC": {
         "created_at": "2021-03-21 15:27:57",
         "description": "基于Pocsuite3、goby编写的漏洞poc&exp存档",
-        "commit_date": "2023-04-07 06:21:30",
-        "commit_message": "Update README.md",
+        "commit_date": "2023-04-11 01:12:44",
+        "commit_message": "Update Joomla_unauthorized_CVE-2023-23752.py",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -3866,5 +3866,14 @@
         "release_tag": "1.1.12",
         "release_date": "2023-03-13 03:45:19",
         "release_message": "fix-bug:\r\n1. 解决windows环境下搜索tab标题乱码\r\n1. Resolve the issue of garbled characters in the search tab title under the Windows environment.\r\n\r\noptimize :\r\n1. 滚动条移动到最下面时自动请求获取账号剩余用量\r\n1. Automatically request remaining account usage when the scrollbar is moved to the bottom.\r\n"
+    },
+    "https://github.com/dhsdshdhk/stegpy": {
+        "created_at": "2018-08-22 20:51:57",
+        "description": "Simple steganography program based on the LSB method.",
+        "commit_date": "2022-09-03 02:27:36",
+        "commit_message": "Merge pull request #12 from izcoser/master\n\nUse Black code formatter",
+        "release_tag": "",
+        "release_date": "",
+        "release_message": ""
     }
 }
