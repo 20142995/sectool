@@ -1,8 +1,10 @@
-# 更新于 2023-04-13 08:37:53
+# 更新于 2023-04-14 08:37:40
 
 ## 近15天release更新记录
 | 更新时间 | 项目名称 | 版本 | 更新内容 |
 | :---- | :---- | :---- | :---- |
+|2023-04-13 22:18:24|[PEASS-ng](https://github.com/carlospolop/PEASS-ng)|20230413-<br>7f846812||
+|2023-04-13 01:59:30|[captcha-killer-modi<br>fied](https://github.com/f0ng/captcha-killer-modified)|0.23-beta<br>5|【2023-4-13】 0.23-beta5- 修复验证码获<br>取接口中请求头字段置空无法获取验证码的问<br>题感谢微信群师傅 _隔壁老钱 反馈|
 |2023-04-12 08:53:39|[autoDecoder](https://github.com/f0ng/autoDecoder)|0.24-beta<br>1|## 2023.4.12 更新0.24-beta11. 根据加密<br>方式对key进行截取2. 修复只选中接口加解密<br>无法进行加解密的问题|
 |2023-04-12 08:22:22|[ZoomEye-python](https://github.com/knownsec/ZoomEye-python)|v2.2.0|### update- remove username and passwor<br>d authenticate method, only support API-<br>KEY authenticate.### 更新- 移除用户名和<br>密码的认证方式，仅支持 API- KEY 认证。|
 |2023-04-12 07:54:54|[RequestTemplate](https://github.com/1n7erface/RequestTemplate)|v1.1.5|2023.4.12 16:001.解决了一个并发时线程抢<br>锁问题2.添加指纹，目前指纹900+3.添加ps,us<br>参数|
@@ -12,9 +14,7 @@
 |2023-04-12 00:28:11|[feroxbuster](https://github.com/epi052/feroxbuster)|v2.9.3|## What's Changed* added extensions and<br> status codes into auto filtering decisi<br>on calculus by @epi052 in https://github<br>.com/epi052/feroxbuster/pull/869Special <br>thanks to @0xdf223 for letting me know a<br>bout the shortcoming :partying_face:**Fu<br>ll Changelog**: https://github.com/epi05<br>2/feroxbuster/compare/v2.9.2...v2.9.3|
 |2023-04-10 09:29:16|[pentest_report](https://github.com/dbgee/pentest_report)|v1.0.0|# python app.py|
 |2023-04-09 18:26:08|[dbeaver](https://github.com/dbeaver/dbeaver)|23.0.2|- ER Diagrams:- Accessibility support (<br>text reader) was added- Many keyboard sh<br>ortcuts were added- Issue with diagram r<br>e-layout after options change was resolv<br>ed- Issue with moving focus when searchi<br>ng was fixed- General UI:- Database edit<br>ors remain open after disconnect (config<br>urable)- Clickable hints are now display<br>ed as links- Issue with missing icons in<br> the toolbar on MacOS was fixed- Font an<br>d color changes in the Result Set were i<br>mproved- Large fonts now display correct<br>ly on MacOS- SQL Editor:- Auto-completio<br>n for INSERT/UPDATE/DELETE queries was i<br>mproved- Font changes are now applied wi<br>thout a restart- Data Editor:- Show nume<br>ric values (e.g. infinity) rendering was<br> improved- Issue with opening images fro<br>m value panel in external editor was fix<br>ed- Connectivity:- Legacy SSH algorithms<br> support was added- Confirmation dialogs<br> now remember user selection- The number<br> of attempts to reopen the connection wa<br>s reduced- Ability to connect via SSHJ w<br>ith unsaved password was added- Maven ar<br>tifacts configuration now supports class<br>ifier- Data transfer: column description<br> support was added for CSV and XLS forma<br>ts,- AI (ChatGPT): unsupported AI models<br> were replaced with new ones- Databases:<br>- Firebird: default parameters in proced<br>ure definitions were added- PostgresSQL:<br> materialized views dependencies were ad<br>ded- Databricks: support of table commen<br>ts were added- Oracle: issue with croppe<br>d ‘q’ at the end of the string was fix<br>ed- SQLite: triggers delete was implemen<br>ted- SQL Server: issue with duplicated d<br>ata types was resolved- Localization:- T<br>raditional Chinese localization was upda<br>ted (thanks to @hwhsu1231)- Traditional <br>Chinese language was added to Windows in<br>staller- Misc:- Microsoft store: issue w<br>ith application installation was fixed o<br>n most machines- We switched to Java 17 <br>(again)- We switched to Eclipse 2023-03 <br>as a base platform|
-|2023-04-09 04:25:37|[PEASS-ng](https://github.com/carlospolop/PEASS-ng)|20230409||
 |2023-04-08 06:20:57|[v2rayA](https://github.com/v2rayA/v2rayA)|v2.0.5|## What's Changed* Fix tip label displa<br>y by @aeeq in https://github.com/v2rayA/<br>v2rayA/pull/889## New Contributors* @aee<br>q made their first contribution in https<br>://github.com/v2rayA/v2rayA/pull/889**Fu<br>ll Changelog**: https://github.com/v2ray<br>A/v2rayA/compare/v2.0.4...v2.0.5|
-|2023-04-07 14:49:10|[captcha-killer-modi<br>fied](https://github.com/f0ng/captcha-killer-modified)|0.23-beta<br>4|【2023-4-7】 0.23-beta4- 修复验证码重复<br>识别问题感谢微信群师傅YPL. 、白矮星 反馈|
 |2023-04-07 02:54:04|[FrameScan-GUI](https://github.com/qianxiao996/FrameScan-GUI)|v1.4.3|1、修复扫描时module '/root/桌面/FrameSc<br>an-GUI/Modules/Vuln_Scanner' has no attr<br>ibute 'vuln_info'的错误。2、升级pyqt5 为<br>pyside63、去除编辑脚本代码高亮功能。4、<br>去除qss皮肤。|
 |2023-04-07 01:42:49|[Elkeid](https://github.com/bytedance/Elkeid)|rasp-v2.2<br>.0.5||
 |2023-04-06 15:27:55|[faker](https://github.com/joke2k/faker)|v18.4.0|See [CHANGELOG.md](https://github.com/j<br>oke2k/faker/blob/refs/tags/v18.4.0/CHANG<br>ELOG.md).|
@@ -26,19 +26,19 @@
 |2023-04-03 02:50:37|[railgun](https://github.com/lz520520/railgun)|v1.5.4|解压密码railgun1. 主界面模块搜索功能2. <br>历史搜索优化，增加编辑数据库模式以及删除<br>指定数据3. 资产管理功能增加(beta)a. 完成<br>按单位的资产管理模块添加，优化部分数据库<br>操作。b. 增加导入扩展接口，可以自定义导入<br>格式解析。目前支持oneforall导入。c. 增加<br>内置模块导入资产模块功能。d. 端口信息中，<br>IP和端口关联4. web指纹重构，更符合实际需<br>求，增加web指纹库管理界面，后续可灵活扩展<br>。后续根据实战可快速优化指纹。5. 漏洞利用<br>a. exp 插件调用库优化b. 子选项获取参数异<br>常问题修复|
 |2023-04-02 14:22:46|[Ladon](https://github.com/k8gege/Ladon)|v10.10.2|#### Ladon 10.10.2 20230402[+]clsLog清<br>除崩溃日志、UsageLog日志、清除图标缓存、<br>禁止UsageLog日志记录[u]默认禁止基于.net程<br>序UsageLog日志记录(如各类工具、powershell<br>等)防止蓝队或EDR通过日志审计[u]RunPS无Pow<br>erShell.exe执行*.ps1脚本 新增内存绕过AMS<br>I反病毒查杀接口[+]默认Bypass ETW 绕过部<br>分杀软和EDR监控[+]HPrebootSNMP重启HP打印<br>机 .net>=4.0#### RunPS绕过AMSI执行powersh<br>ell脚本![image](http://k8gege.org/k8img/<br>posts/amsi/LadonBypassAmsi.png)#### RunP<br>S绕过AMSI执行powershell代码![image](http<br>://k8gege.org/k8img/posts/amsi/LadonBypa<br>ssAmsi2.png)#### 绕过AMSI执行Ladon任意功<br>能![image](http://k8gege.org/k8img/posts/<br>amsi/LadonBypassAmsi3.png)#### CS绕过AMS<br>I执行powershell脚本![image](http://k8geg<br>e.org/k8img/posts/amsi/LadonBypassAmsi_c<br>s.png)|
 |2023-04-02 09:41:21|[nuclei](https://github.com/projectdiscovery/nuclei)|v2.9.1|## Breaking Changes:**⚠️ Updated -jso<br>n option to -jsonl to correctly reflect <br>the output format** by @kchason in https<br>://github.com/projectdiscovery/nuclei/pu<br>ll/3466console-j, -jsonlwrite output in <br>JSONL(ines) format**⚠️ Updated protoco<br>l attribute name (requests=> http & netw<br>ork => tcp) in templates** by @ShubhamRa<br>sal in https://github.com/projectdiscove<br>ry/nuclei/pull/3425> Templates with the <br>use of requests and network will still w<br>ork but will be deprecated completely in<br> the future.## What's New* **Added JSON <br>output export support** (-json-export) b<br>y @kchason in https://github.com/project<br>discovery/nuclei/pull/3466console-je, -j<br>son-export stringfile to export results <br>in JSON format* Added cpe and epss-score<br> support in template classification by @<br>ehsandeep in https://github.com/projectd<br>iscovery/nuclei/pull/3489* Added mkdir s<br>upport in headless screenshot by @tarunK<br>oyalwar in https://github.com/projectdis<br>covery/nuclei/pull/3457* Added support f<br>or jira custom fields by @jordanpotti in<br> https://github.com/projectdiscovery/nuc<br>lei/pull/3406* Added AWS catalog for loa<br>ding templates from bucket by @leoloobee<br>k in https://github.com/projectdiscovery<br>/nuclei/pull/3372* **Fixed a crash in tl<br>sx integration** by @ehsandeep in https:<br>//github.com/projectdiscovery/nuclei/pul<br>l/3490* Fixed template link references b<br>y @mlec1 in https://github.com/projectdi<br>scovery/nuclei/pull/3485* Fixed an issue<br> with the scanning strategy option by @n<br>HurD in https://github.com/projectdiscov<br>ery/nuclei/pull/3464* Fixed AWS S3 bucke<br>t catalog path mismatch by @tarunKoyalwa<br>r in https://github.com/projectdiscovery<br>/nuclei/pull/3474* Moved DSL helper func<br>tions to [dsl](https://github.com/projec<br>tdiscovery/dsl) project by @RamanaReddy0<br>M in https://github.com/projectdiscovery<br>/nuclei/pull/3461Issues closed in this r<br>elease - https://github.com/projectdisco<br>very/nuclei/milestone/28?closed=1## New <br>Contributors* @jordanpotti made their fi<br>rst contribution in https://github.com/p<br>rojectdiscovery/nuclei/pull/3406* @nHurD<br> made their first contribution in https:<br>//github.com/projectdiscovery/nuclei/pul<br>l/3464* @leoloobeek made their first con<br>tribution in https://github.com/projectd<br>iscovery/nuclei/pull/3372* @mlec1 made t<br>heir first contribution in https://githu<br>b.com/projectdiscovery/nuclei/pull/3485*<br>*Full Changelog**: https://github.com/pr<br>ojectdiscovery/nuclei/compare/v2.9.0...v<br>2.9.1|
-|2023-03-29 09:39:08|[naabu](https://github.com/projectdiscovery/naabu)|v2.1.5|## What's Changed* Fixed issue with **e<br>xclude port/host** option by @Mzack9999 <br>in https://github.com/projectdiscovery/n<br>aabu/pull/624* Added timeout to scan thr<br>ough SOCKS proxy by @jpts in https://git<br>hub.com/projectdiscovery/naabu/pull/601#<br># New Contributors* @jpts made their fir<br>st contribution in https://github.com/pr<br>ojectdiscovery/naabu/pull/601* @realalex<br>andergeorgiev made their first contribut<br>ion in https://github.com/projectdiscove<br>ry/naabu/pull/602**Full Changelog**: htt<br>ps://github.com/projectdiscovery/naabu/c<br>ompare/v2.1.4...v2.1.5|
-|2023-03-29 08:46:28|[veinmind-tools](https://github.com/chaitin/veinmind-tools)|v2.1.1|## Fix- 修复容器运行时部分初始化问题|
-|2023-03-29 08:18:09|[AV_Evasion_Tool](https://github.com/1y0n/AV_Evasion_Tool)|20230329|1. 效果优化2. 修复识别杀软时卡死问题|
-|2023-03-29 07:30:09|[GoWxDump](https://github.com/SpenserCai/GoWxDump)|v1.0.10|#11 |
 ## 近15天commit提交记录
 | 提交时间 | 项目名称 | 更新内容 |
 | :---- | :---- | :---- |
-|2023-04-13 00:30:16|[NucleiTP](https://github.com/ExpLangcn/NucleiTP)|更新啦❤️|
-|2023-04-12 23:01:32|[PocOrExp_in_Github](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-04-13 07:01:32|
-|2023-04-12 16:35:38|[nemo_go](https://github.com/hanc00l/nemo_go)|Update: 增加IP/Domain的一键拉黑功能代码|
-|2023-04-12 16:06:29|[dbeaver](https://github.com/dbeaver/dbeaver)|dbeaver_l10n_pt-BR (#19577)* Update bundle_pt_BR.prope<br>rties* Update bundle_pt_BR.propertiesTranslation improv<br>ements.* Create PostgresResources_pt_BR.propertiesCreat<br>e Brazilian Portuguese properties file.* Update bundle_<br>pt_BR.properties* Update bundle_pt_BR.properties* Creat<br>e CoreResources_pt_BR.properties* Create bundle_pt_BR.p<br>roperties* Update bundle_pt_BR.properties* Update bundl<br>e_pt_BR.properties* Update bundle_pt_BR.properties* Cre<br>ate messages_pt_BR.properties* Update bundle_pt_BR.prop<br>erties* Update bundle_pt_BR.properties* Create ModelRes<br>ources_pt_BR.properties* Update bundle_pt_BR.properties<br>* Create UIMessages_pt_BR.properties* Update bundle_pt_<br>BR.properties* Update bundle_pt_BR.properties* Update b<br>undle_pt_BR.properties* Create UIDashboardMessages_pt_B<br>R.properties* Update bundle_pt_BR.properties* Create UI<br>ConnectionMessages_pt_BR.properties* Create SessionEdit<br>orMessages_pt_BR.properties* Update bundle_pt_BR.proper<br>ties* Create SQLEditorMessages_pt_BR.properties* Create<br> bundle_pt_BR.properties* Create SQLTerminalMessages_pt<br>_BR.properties* Update bundle_pt_BR.properties* Create <br>UINavigatorMessages_pt_BR.properties* Update bundle_pt_<br>BR.properties* Create UISearchMessages_pt_BR.properties<br>* Update bundle_pt_BR.properties* Update bundle_pt_BR.p<br>roperties* Update CoreResources_pt_BR.properties* Updat<br>e bundle_pt_BR.properties* Update bundle_pt_BR.properti<br>es* Update bundle_pt_BR.properties* Update bundle_pt_BR<br>.properties* Update bundle_pt_BR.properties* Update Pos<br>tgresResources_pt_BR.properties* Update bundle_pt_BR.pr<br>operties* Update messages_pt_BR.properties* Update bund<br>le_pt_BR.properties* Update bundle_pt_BR.properties* Up<br>date ModelResources_pt_BR.properties* Update bundle_pt_<br>BR.properties* Update bundle_pt_BR.properties* Update b<br>undle_pt_BR.properties* Update UIDashboardMessages_pt_B<br>R.properties* Update bundle_pt_BR.properties* Update UI<br>ConnectionMessages_pt_BR.properties* Update SessionEdit<br>orMessages_pt_BR.properties* Update bundle_pt_BR.proper<br>ties* Update SQLTerminalMessages_pt_BR.properties* Upda<br>te bundle_pt_BR.properties* Update SQLEditorMessages_pt<br>_BR.properties* Update bundle_pt_BR.properties* Update <br>UINavigatorMessages_pt_BR.properties* Update bundle_pt_<br>BR.properties* Update UISearchMessages_pt_BR.properties<br>* Update bundle_pt_BR.properties* Update UIMessages_pt_<br>BR.properties|
+|2023-04-14 00:30:15|[NucleiTP](https://github.com/ExpLangcn/NucleiTP)|更新啦❤️|
+|2023-04-13 22:58:31|[PocOrExp_in_Github](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-04-14 06:58:31|
+|2023-04-13 21:58:37|[PEASS-ng](https://github.com/carlospolop/PEASS-ng)|Update CI-master_tests.yml|
+|2023-04-13 16:48:45|[nemo_go](https://github.com/hanc00l/nemo_go)|Update: 增加对IP、域名一键拉黑功能（请使用前务必了解注<br>意事项）|
+|2023-04-13 14:44:30|[dbeaver](https://github.com/dbeaver/dbeaver)|#18836 update Firebird procedure parameters data types<br> recognition (#19686)|
+|2023-04-13 14:02:00|[domain_hunter_pro](https://github.com/bit4woo/domain_hunter_pro)|Update LineTableModel.java|
+|2023-04-13 09:20:06|[knife](https://github.com/bit4woo/knife)|修复URL大小写匹配的问题|
+|2023-04-13 07:41:58|[murphysec](https://github.com/murphysecurity/murphysec)|fix(maven): support project property reference in coor<br>dinate|
+|2023-04-13 02:00:00|[vulnerability](https://github.com/lal0ne/vulnerability)|CVE-2022-1442|
 |2023-04-12 14:37:16|[v2rayA](https://github.com/v2rayA/v2rayA)|Update winsw to v3.0.0-alpha.11|
-|2023-04-12 10:13:59|[domain_hunter_pro](https://github.com/bit4woo/domain_hunter_pro)|Update SuperJTextArea.java|
 |2023-04-12 09:53:00|[Umi-OCR](https://github.com/hiroi-sora/Umi-OCR)|Merge pull request #118 from KmBase/mainUpdate require<br>ments.txt|
 |2023-04-12 07:44:49|[ZoomEye-python](https://github.com/knownsec/ZoomEye-python)|Merge pull request #87 from knownsec/devupdate():remov<br>e username and password authenticate method|
 |2023-04-12 07:23:36|[xray](https://github.com/chaitin/xray)|[update] POC贡献流程|
@@ -51,10 +51,8 @@
 |2023-04-11 10:25:18|[afrog](https://github.com/zan8in/afrog)|update|
 |2023-04-11 07:30:37|[Vuln-List](https://github.com/wwl012345/Vuln-List)|Update Windows&Linux提权&RCE合集.md|
 |2023-04-11 07:15:10|[veinmind-tools](https://github.com/chaitin/veinmind-tools)|fix(CI/CD): change goproxy settings (#222)|
-|2023-04-11 05:09:35|[vulnerability](https://github.com/lal0ne/vulnerability)|udfmr.asmx SQL注入|
 |2023-04-11 00:27:27|[mitaka](https://github.com/ninoseki/mitaka)|Merge pull request #710 from ninoseki/renovate/typescr<br>ipt-eslint-monorepochore(deps): update typescript-eslin<br>t monorepo to v5.58.0|
 |2023-04-10 09:58:30|[pentest_report](https://github.com/dbgee/pentest_report)|code clean|
-|2023-04-10 03:40:38|[knife](https://github.com/bit4woo/knife)|优化端口扫描逻辑|
 |2023-04-10 02:33:33|[404StarLink](https://github.com/knownsec/404StarLink)|weekly update at 2023-04-10|
 |2023-04-10 01:07:17|[Vulnerability-Wiki](https://github.com/Threekiii/Vulnerability-Wiki)|更新漏洞|
 |2023-04-10 01:03:43|[Vulhub-Reproduce](https://github.com/Threekiii/Vulhub-Reproduce)|更新漏洞|
@@ -81,10 +79,8 @@ add all string export spider.|
 |2023-04-04 17:44:51|[Elkeid](https://github.com/bytedance/Elkeid)|fix type ：三 --> 两|
 |2023-04-04 13:51:30|[BurpSuite-collectio<br>ns](https://github.com/Mr-xn/BurpSuite-collections)|add burp-vps-proxy 插件|
 |2023-04-04 12:09:32|[HackBrowserData](https://github.com/moonD4rk/HackBrowserData)|Merge pull request #209 from moonD4rk/feat/lintfix: re<br>naming unused parameter|
-|2023-04-04 10:07:57|[murphysec](https://github.com/murphysecurity/murphysec)|Merge pull request #146 from murphysecurity/dependabot<br>/github_actions/actions/setup-go-4chore(deps): bump act<br>ions/setup-go from 3 to 4|
 |2023-04-04 03:20:05|[poc-hub](https://github.com/ybdt/poc-hub)|整理|
 |2023-04-03 15:46:31|[RsaCtfTool](https://github.com/RsaCtfTool/RsaCtfTool)|If public modulus is prime bail out, fix issue #415|
-|2023-04-03 13:36:03|[PEASS-ng](https://github.com/carlospolop/PEASS-ng)|Merge pull request #346 from L1-0/patch-1ColorLine Fix|
 |2023-04-03 02:20:44|[GUI_Tools](https://github.com/ghealer/GUI_Tools)|Update README.md|
 |2023-04-02 17:16:18|[qsnctf-python](https://github.com/Moxin1044/qsnctf-python)|增加求等差数列第n项和n项和|
 |2023-04-02 14:15:19|[Ladon](https://github.com/k8gege/Ladon)|Add files via upload|
@@ -93,12 +89,7 @@ add all string export spider.|
 |2023-03-31 09:56:18|[RmTools](https://github.com/RoomaSec/RmTools)|更新yara规则|
 |2023-03-30 14:41:22|[captcha-killer-modi<br>fied](https://github.com/f0ng/captcha-killer-modified)|Update FAQ.md|
 |2023-03-30 08:39:34|[SwitchyOmega](https://github.com/FelisCatus/SwitchyOmega)|Translated using Weblate (Persian)Currently translated<br> at 97.4% (341 of 350 strings)|
-|2023-03-30 05:33:29|[ipInfoSearch](https://github.com/Potato-py/ipInfoSearch)|优化多线程，采用线程池控制最大线程数|
-|2023-03-29 09:37:31|[naabu](https://github.com/projectdiscovery/naabu)|Merge pull request #626 from projectdiscovery/devBugfi<br>x update|
-|2023-03-29 08:21:40|[AV_Evasion_Tool](https://github.com/1y0n/AV_Evasion_Tool)|Update README.md|
-|2023-03-29 07:28:02|[GoWxDump](https://github.com/SpenserCai/GoWxDump)|fix #11 编译3.9.2.23版本支持 感谢@imblowsnow|
-|2023-03-29 02:26:13|[Awesome-Redteam](https://github.com/Threekiii/Awesome-Redteam)|更新弱口令字典|
-|2023-03-29 02:21:27|[X-Marshal](https://github.com/XTeam-Wing/X-Marshal)|Update README.md|## 所有项目
+|2023-03-30 05:33:29|[ipInfoSearch](https://github.com/Potato-py/ipInfoSearch)|优化多线程，采用线程池控制最大线程数|## 所有项目
 # 渗透测试
 ## 信息收集
 ### 资产测绘采集
@@ -226,7 +217,7 @@ add all string export spider.|
 | [FrameScan-GUI](https://github.com/qianxiao996/FrameScan-GUI) | v1.4.3 | FrameScan-GUI 一款python3和Pyqt编写的具有图形化界面的cms漏洞检测<br>框架。 |
 | [Gr33k](https://github.com/lijiaxing1997/Gr33k) |  | 图形化漏洞利用集成工具 |
 | [kunpeng](https://github.com/opensec-cn/kunpeng) | 20190527 | kunpeng是一个Golang编写的开源POC框架/库，以动态链接库的形式提供<br>各种语言调用，通过此项目可快速开发漏洞检测类的系统。 |
-| [pocassist](https://github.com/jweny/pocassist) | 1.0.5 | 全新的傻瓜式漏洞PoC测试框架 |
+| [pocassist](https://github.com/jweny/pocassist) | 1.0.5 | 傻瓜式漏洞PoC测试框架 |
 ### 半自动漏洞扫描
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
@@ -465,7 +456,7 @@ add all string export spider.|
 | [dirtycow](https://github.com/firefart/dirtycow) |  | Dirty Cow exploit - CVE-2016-5195 |
 | [traitor](https://github.com/liamg/traitor) | v0.0.14 | :arrow_up: :skull_and_crossbones: :fire: Automatic Linux privesc<br> via exploitation of low-hanging fruit e.g. gtfobins, pwnkit, dir<br>ty pipe, +w docker.sock |
 | [LinEnum](https://github.com/rebootuser/LinEnum) |  | Scripted Local Linux Enumeration & Privilege Escalation Checks |
-| [PEASS-ng](https://github.com/carlospolop/PEASS-ng) | 20230409 | PEASS - Privilege Escalation Awesome Scripts SUITE (with colors) |
+| [PEASS-ng](https://github.com/carlospolop/PEASS-ng) | 20230413-<br>7f846812 | PEASS - Privilege Escalation Awesome Scripts SUITE (with colors) |
 ### 容器提权
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
@@ -563,7 +554,7 @@ add all string export spider.|
 | [Sylas](https://github.com/Acmesec/Sylas) | 1.1.1 | 新一代子域名主/被动收集工具 - Subdomain automatic/passive collec<br>tion tool |
 | [GadgetProbe](https://github.com/BishopFox/GadgetProbe) | v1.0 | Probe endpoints consuming Java serialized objects to identify cl<br>asses, libraries, and library versions on remote Java classpaths. |
 | [HopLa](https://github.com/synacktiv/HopLa) | 1.2 |  HopLa Burp Suite Extender plugin -Adds autocompletion support a<br>nd useful payloads in Burp Suite |
-| [captcha-killer-modi<br>fied](https://github.com/f0ng/captcha-killer-modified) | 0.23-beta<br>4 | captcha-killer的修改版，支持关键词识别base64编码的图片，添加免费<br>ocr库，用于验证码爆破，适配新版Burpsuite |
+| [captcha-killer-modi<br>fied](https://github.com/f0ng/captcha-killer-modified) | 0.23-beta<br>5 | captcha-killer的修改版，支持关键词识别base64编码的图片，添加免费<br>ocr库，用于验证码爆破，适配新版Burpsuite |
 | [BurpCrypto](https://github.com/whwlsfb/BurpCrypto) |  | BurpCrypto is a collection of burpsuite encryption plug-ins, sup<br>port AES/RSA/DES/ExecJs(execute JS encryption code in burpsuite).<br> 支持多种加密算法或直接执行JS代码的用于爆破前端加密的BurpSuite插<br>件 |
 | [autoDecoder](https://github.com/f0ng/autoDecoder) | 0.24-beta<br>1 | Burp插件，根据自定义来达到对数据包的处理（适用于加解密、爆破等）<br>，类似mitmproxy，不同点在于经过了burp中转，在自动加解密的基础上，<br>不影响APP、网站加解密正常逻辑等。 |
 | [burpFakeIP](https://github.com/TheKingOfDuck/burpFakeIP) | 1.1 | 服务端配置错误情况下用于伪造ip地址进行测试的Burp Suite插件 |
@@ -597,7 +588,7 @@ add all string export spider.|
 | [burp-awesome-tls](https://github.com/sleeyax/burp-awesome-tls) | v0.0.4 | Fix Burp Suite's horrible TLS stack & spoof any browser fingerpr<br>int |
 | [JustC2file](https://github.com/Peithon/JustC2file) | v1.0.2 | Burp插件，Malleable C2 Profiles生成器；可以通过Burp代理选中请求<br>，生成Cobalt Strike的profile文件(CSprofile) |
 | [SpringScan](https://github.com/metaStor/SpringScan) | V1.7 | SpringScan 漏洞检测 Burp插件 |
-| [captcha-killer-modi<br>fied](https://github.com/f0ng/captcha-killer-modified) | 0.23-beta<br>4 | captcha-killer的修改版，支持关键词识别base64编码的图片，添加免费<br>ocr库，用于验证码爆破，适配新版Burpsuite |
+| [captcha-killer-modi<br>fied](https://github.com/f0ng/captcha-killer-modified) | 0.23-beta<br>5 | captcha-killer的修改版，支持关键词识别base64编码的图片，添加免费<br>ocr库，用于验证码爆破，适配新版Burpsuite |
 | [BurpFastJsonScan](https://github.com/pmiaowu/BurpFastJsonScan) | BurpFastJ<br>sonScan-2.<br>2.2 | 一款基于BurpSuite的被动式FastJson检测插件 |
 | [burpFakeIP](https://github.com/TheKingOfDuck/burpFakeIP) | 1.1 | 服务端配置错误情况下用于伪造ip地址进行测试的Burp Suite插件 |
 | [Log4j-check](https://github.com/bigsizeme/Log4j-check) |  | log4J burp被扫插件、CVE-2021-44228、支持dnclog.cn和burp内置DNS、<br>可配合JNDIExploit生成payload |
