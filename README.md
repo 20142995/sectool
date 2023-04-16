@@ -1,8 +1,9 @@
-# 更新于 2023-04-15 08:45:10
+# 更新于 2023-04-16 11:43:55
 
 ## 近15天release更新记录
 | 更新时间 | 项目名称 | 版本 | 更新内容 |
 | :---- | :---- | :---- | :---- |
+|2023-04-15 01:34:31|[nemo_go](https://github.com/hanc00l/nemo_go)|v2.9.2|### Updated- 首页登录及后台更改密码时，<br>采用RSA加密传输（每次server启动生成随机RS<br>A密钥对）；- WEB页面修改XSCAN的默认配置<br>；优化XSCAN的选项，增加Nuclei漏洞扫描；- <br>增加输入任务参数长度校验（目标Targets不超<br>过5000个字符，输入参数总长度不超过6000个<br>字符）；- 增加WebServer API接口和Swagger<br>调试页面（为前后端分离提供支持）；- 将子<br>域名被动收集（Subfinder）及指纹获取（Http<br>x）功能由原通过源代码集成改用调用二进制<br>文件（解决和降低内存泄露、协程异常导致内<br>存和CPU占用异常的bug）；- 增加IP与资产的<br>黑名单功能及一键拉黑功能，对黑名单的资产<br>忽略指纹及漏洞任务、结果不会进行存储；- <br>更新纯真数据库；- ChangeLog；### Fix- 子<br>域名被动枚举（Subfinder）配置的provider-c<br>onfig.yaml未生效|
 |2023-04-14 09:07:11|[autoDecoder](https://github.com/f0ng/autoDecoder)|0.24-beta<br>2|## 2023.4.14 更新0.24-beta21. 增加RSA加<br>解密2. 响应包正则模式加解密|
 |2023-04-13 22:18:24|[PEASS-ng](https://github.com/carlospolop/PEASS-ng)|20230413-<br>7f846812||
 |2023-04-13 01:59:30|[captcha-killer-modi<br>fied](https://github.com/f0ng/captcha-killer-modified)|0.23-beta<br>5|【2023-4-13】 0.23-beta5- 修复验证码获<br>取接口中请求头字段置空无法获取验证码的问<br>题感谢微信群师傅 _隔壁老钱 反馈|
@@ -29,30 +30,32 @@
 ## 近15天commit提交记录
 | 提交时间 | 项目名称 | 更新内容 |
 | :---- | :---- | :---- |
-|2023-04-15 00:30:16|[NucleiTP](https://github.com/ExpLangcn/NucleiTP)|更新啦❤️|
-|2023-04-14 21:58:18|[PocOrExp_in_Github](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-04-15 05:58:18|
-|2023-04-14 15:16:23|[dbeaver](https://github.com/dbeaver/dbeaver)|Invoker model|
+|2023-04-16 02:15:15|[NucleiTP](https://github.com/ExpLangcn/NucleiTP)|更新啦❤️|
+|2023-04-15 20:00:18|[PocOrExp_in_Github](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-04-16 04:00:18|
+|2023-04-15 14:29:28|[dbeaver](https://github.com/dbeaver/dbeaver)|Connection dropdown enhancement|
+|2023-04-15 14:09:04|[fofax](https://github.com/xiecat/fofax)|修复更新时如果网络有问题可能引发异常问题 #29 。修改弃<br>用函数|
+|2023-04-15 13:57:07|[afrog](https://github.com/zan8in/afrog)|update poc|
+|2023-04-15 12:01:57|[Umi-OCR](https://github.com/hiroi-sora/Umi-OCR)|Merge branch 'main' of https://github.com/hiroi-sora/U<br>mi-OCR|
+|2023-04-15 11:44:52|[revsuit](https://github.com/Li4n0/revsuit)|ci: disable cgo|
+|2023-04-15 08:40:51|[mitaka](https://github.com/ninoseki/mitaka)|Merge pull request #709 from ninoseki/renovate/chrome-<br>0.xchore(deps): update dependency @types/chrome to ^0.0<br>.231|
+|2023-04-15 06:17:14|[domain_hunter_pro](https://github.com/bit4woo/domain_hunter_pro)|Update SearchMenu.java|
+|2023-04-15 02:37:26|[PeiQi-WIKI-Book](https://github.com/PeiQi0/PeiQi-WIKI-Book)|漏洞相关:瑞友,Go-fastdfs等漏洞:tada:|
+|2023-04-15 01:26:43|[nemo_go](https://github.com/hanc00l/nemo_go)|Update: Release v2.9.2|
 |2023-04-14 13:38:10|[knife](https://github.com/bit4woo/knife)|Update ConfigTableModel.java|
 |2023-04-14 09:07:03|[autoDecoder](https://github.com/f0ng/autoDecoder)|Update README.md|
 |2023-04-14 06:26:41|[murphysec](https://github.com/murphysecurity/murphysec)|fix(gradle): remove gradle implementation configuratio<br>n|
-|2023-04-14 01:01:19|[afrog](https://github.com/zan8in/afrog)|update poc|
 |2023-04-13 21:58:37|[PEASS-ng](https://github.com/carlospolop/PEASS-ng)|Update CI-master_tests.yml|
-|2023-04-13 16:48:45|[nemo_go](https://github.com/hanc00l/nemo_go)|Update: 增加对IP、域名一键拉黑功能（请使用前务必了解注<br>意事项）|
-|2023-04-13 14:02:00|[domain_hunter_pro](https://github.com/bit4woo/domain_hunter_pro)|Update LineTableModel.java|
 |2023-04-13 02:00:00|[vulnerability](https://github.com/lal0ne/vulnerability)|CVE-2022-1442|
 |2023-04-12 14:37:16|[v2rayA](https://github.com/v2rayA/v2rayA)|Update winsw to v3.0.0-alpha.11|
-|2023-04-12 09:53:00|[Umi-OCR](https://github.com/hiroi-sora/Umi-OCR)|Merge pull request #118 from KmBase/mainUpdate require<br>ments.txt|
 |2023-04-12 07:44:49|[ZoomEye-python](https://github.com/knownsec/ZoomEye-python)|Merge pull request #87 from knownsec/devupdate():remov<br>e username and password authenticate method|
 |2023-04-12 07:23:36|[xray](https://github.com/chaitin/xray)|[update] POC贡献流程|
 |2023-04-12 07:14:03|[About-Attack](https://github.com/lintstar/About-Attack)|Update README.md项目页面重构 https://red.lintstar.top/<br>Attack/|
 |2023-04-12 06:08:21|[Library-POC](https://github.com/luck-ying/Library-POC)|Update README.md|
-|2023-04-12 06:07:05|[fofax](https://github.com/xiecat/fofax)|因 FOFA 会员机制问题尽可能移除 lastupdatetime 字段。让<br>普通用户也可以方便使用|
 |2023-04-12 02:41:31|[rengine](https://github.com/yogeshojha/rengine)|Merge pull request #877 from AnonymousWP/fix-incorrect<br>-numbering-in-readmedocs(readme): fix numbered list|
 |2023-04-12 00:07:53|[feroxbuster](https://github.com/epi052/feroxbuster)|Merge pull request #869 from epi052/auto-filtering-acc<br>ount-for-extensionsadded extensions and status codes in<br>to auto filtering decision calculus|
 |2023-04-11 12:19:39|[sqlmap](https://github.com/sqlmapproject/sqlmap)|Update related to #5389|
 |2023-04-11 07:30:37|[Vuln-List](https://github.com/wwl012345/Vuln-List)|Update Windows&Linux提权&RCE合集.md|
 |2023-04-11 07:15:10|[veinmind-tools](https://github.com/chaitin/veinmind-tools)|fix(CI/CD): change goproxy settings (#222)|
-|2023-04-11 00:27:27|[mitaka](https://github.com/ninoseki/mitaka)|Merge pull request #710 from ninoseki/renovate/typescr<br>ipt-eslint-monorepochore(deps): update typescript-eslin<br>t monorepo to v5.58.0|
 |2023-04-10 09:58:30|[pentest_report](https://github.com/dbgee/pentest_report)|code clean|
 |2023-04-10 02:33:33|[404StarLink](https://github.com/knownsec/404StarLink)|weekly update at 2023-04-10|
 |2023-04-10 01:07:17|[Vulnerability-Wiki](https://github.com/Threekiii/Vulnerability-Wiki)|更新漏洞|
@@ -85,8 +88,7 @@ add all string export spider.|
 |2023-04-02 17:16:18|[qsnctf-python](https://github.com/Moxin1044/qsnctf-python)|增加求等差数列第n项和n项和|
 |2023-04-02 14:15:19|[Ladon](https://github.com/k8gege/Ladon)|Add files via upload|
 |2023-04-02 14:08:10|[K8tools](https://github.com/k8gege/K8tools)|Add files via upload|
-|2023-04-02 09:06:22|[nuclei](https://github.com/projectdiscovery/nuclei)|Merge pull request #3491 from projectdiscovery/devnucl<br>ei v2.9.1|
-|2023-03-31 09:56:18|[RmTools](https://github.com/RoomaSec/RmTools)|更新yara规则|## 所有项目
+|2023-04-02 09:06:22|[nuclei](https://github.com/projectdiscovery/nuclei)|Merge pull request #3491 from projectdiscovery/devnucl<br>ei v2.9.1|## 所有项目
 # 渗透测试
 ## 信息收集
 ### 资产测绘采集
@@ -155,7 +157,7 @@ add all string export spider.|
 | [X-Marshal](https://github.com/XTeam-Wing/X-Marshal) |  | Golang-分布式资产探测&漏洞扫描&信息收集 |
 | [heartsk_community](https://github.com/yqcs/heartsk_community) | LOWBUG@La<br>test | Hearts K-企业资产发现与脆弱性检查工具，自动化资产信息收集与漏洞<br>扫描 |
 | [AnScan](https://github.com/Arbor01/AnScan) |  | AnScan是一款集合信息收集、分布式漏洞扫描、漏洞POC管理等为一体的<br>红队扫描工具 |
-| [nemo_go](https://github.com/hanc00l/nemo_go) | v2.9.1 | Nemo是用来进行自动化信息收集的一个简单平台，通过集成常用的信息收<br>集工具和技术，实现对内网及互联网资产信息的自动收集，提高隐患排查和<br>渗透测试的工作效率，用Go语言完全重构了原Python版本。 |
+| [nemo_go](https://github.com/hanc00l/nemo_go) | v2.9.2 | Nemo是用来进行自动化信息收集的一个简单平台，通过集成常用的信息收<br>集工具和技术，实现对内网及互联网资产信息的自动收集，提高隐患排查和<br>渗透测试的工作效率，用Go语言完全重构了原Python版本。 |
 | [rengine](https://github.com/yogeshojha/rengine) | v1.3.6 | reNgine is an automated reconnaissance framework for web applica<br>tions with a focus on highly configurable streamlined recon proce<br>ss via Engines, recon data correlation and organization, continuo<br>us monitoring, backed by a database, and simple yet intuitive Use<br>r Interface. reNgine makes it easy for penetration testers to gat<br>her reconnaissance with minimal configuration and with the help o<br>f reNgine's correlation, it just makes recon effortless. |
 | [ShuiZe_0x727](https://github.com/0x727/ShuiZe_0x727) | v1.0 | 信息收集自动化工具 |
 | [DBJ](https://github.com/wgpsec/DBJ) |  | 大宝剑-边界资产梳理工具（红队、蓝队、企业组织架构、子域名、Web资<br>产梳理、Web指纹识别、ICON_Hash资产匹配） |
