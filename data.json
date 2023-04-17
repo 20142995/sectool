@@ -200,8 +200,8 @@
     "https://github.com/ycdxsb/PocOrExp_in_Github": {
         "created_at": "2021-04-13 05:46:16",
         "description": "聚合Github上已有的Poc或者Exp，CVE信息来自CVE官网。Auto Collect Poc Or Exp from Github by CVE ID.",
-        "commit_date": "2023-04-15 20:00:18",
-        "commit_message": "update 2023-04-16 04:00:18",
+        "commit_date": "2023-04-16 22:06:53",
+        "commit_message": "update 2023-04-17 06:06:53",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -461,7 +461,7 @@
     "https://github.com/ExpLangcn/NucleiTP": {
         "created_at": "2022-11-08 13:16:56",
         "description": "自动整合全网Nuclei的漏洞POC，实时同步更新最新POC！",
-        "commit_date": "2023-04-16 02:15:15",
+        "commit_date": "2023-04-17 00:30:16",
         "commit_message": "更新啦❤️",
         "release_tag": "",
         "release_date": "",
@@ -765,11 +765,11 @@
     "https://github.com/vladko312/SSTImap": {
         "created_at": "2022-06-15 06:27:32",
         "description": "Automatic SSTI detection tool with interactive interface",
-        "commit_date": "2022-09-12 20:06:14",
-        "commit_message": "Version 1.0.2 (Improvements)\n\nFixed bugs with reverse shell\r\nImproved Twig injection context\r\nAdded more ideas to README\r\nAdded more interruption handling to interactive exploitation\r\nAdded error handling for nonexistent file upload\r\n\r\nA minor update with simple improvements and fixes",
-        "release_tag": "v1.0",
-        "release_date": "2022-07-05 22:19:18",
-        "release_message": "First release of SSTImap"
+        "commit_date": "2023-04-16 22:36:36",
+        "commit_message": "Release of SSTImap version 1.1.0\n\nCrawler and form detection (by @fantesykikachu)\r\nNew template engine added: Cheetah\r\nAutomatic import for engine modules\r\nInteractive module reloading capability\r\nFull support for Python 3.11\r\nReplaced telnetlib with a custom TCP client\r\n\r\n---------\r\n\r\nCo-authored-by: fantesykikachu <fantesykikachu@users.noreply.github.com>",
+        "release_tag": "v1.1",
+        "release_date": "2023-04-16 22:40:19",
+        "release_message": "- Crawler and form detection (by @fantesykikachu)\r\n- New template engine added: Cheetah\r\n- Automatic import for engine modules\r\n- Interactive module reloading capability\r\n- Full support for Python 3.11\r\n- Replaced telnetlib with a custom TCP client"
     },
     "https://github.com/xxcdd/docker_nessus_unlimited": {
         "created_at": "2021-02-06 02:32:44",
@@ -2005,8 +2005,8 @@
     "https://github.com/bit4woo/knife": {
         "created_at": "2018-06-12 14:25:18",
         "description": "A burp extension that add some useful function to  Context Menu 添加一些右键菜单让burp用起来更顺畅",
-        "commit_date": "2023-04-14 13:38:10",
-        "commit_message": "Update ConfigTableModel.java",
+        "commit_date": "2023-04-16 12:16:50",
+        "commit_message": "update",
         "release_tag": "v2.1",
         "release_date": "2022-11-20 09:04:40",
         "release_message": "融合U2C和Chinese2个Tab，让它们都可以支持切换编码\r\n新增功能：从JS中查找URL路径后，拼接BaseURL并请求\r\n其他小的更新、bug修复\r\n\r\n## What's Changed\r\n* Bump gson from 2.3.1 to 2.8.9 by @dependabot in https://github.com/bit4woo/knife/pull/45\r\n* Bump commons-text from 1.6 to 1.10.0 by @dependabot in https://github.com/bit4woo/knife/pull/53\r\n\r\n## New Contributors\r\n* @dependabot made their first contribution in https://github.com/bit4woo/knife/pull/45\r\n\r\n**Full Changelog**: https://github.com/bit4woo/knife/compare/v2.0...v2.1"
@@ -2789,8 +2789,8 @@
     "https://github.com/su18/ysoserial": {
         "created_at": "2021-07-26 01:20:01",
         "description": "ysoserial for su18",
-        "commit_date": "2023-03-27 05:14:41",
-        "commit_message": "添加 hide type 3 ，通过封装一个带有假信息的 ClassLoader 来试图逃避检测",
+        "commit_date": "2023-04-16 12:11:15",
+        "commit_message": "添加 fastjson 两条利用链",
         "release_tag": "v1.5",
         "release_date": "2023-03-20 10:33:46",
         "release_message": "1. 全面支持 AgentNoFile 内存马，目前支持 Servlet/Tomcat Filter 型的内存马，支持 bx/gz/gzraw/cmd 动态生成，参数保持一致；\r\n2. 动态生成 Filter/Servlet 等名称，使用类名 + Filter 的形势，模拟常规名称，避免被一眼看出来；\r\n3. 优化项目架构，单独拆解内存马恶意类字节码生成代码，作为字节码生成中台，后续将集成 JNDI 注入利用相关；\r\n4. 对 exploit 下的利用方式进行了支持，除了每个 exploit 需要的参数，后面正常跟 payload 的参数；\r\n5. 更新 LF 参数，格式为 LF-/tmp/evil.class，后面可加类名，并对传递的类字节码进行了缩减大小的尝试；\r\n6. 修复 CC12 不能用的问题；\r\n7. 移除 jboss 相关代码及依赖；\r\n8. 更新命令执行最短化；\r\n9. 修复大量BUG，优化大量代码。"
@@ -2951,8 +2951,8 @@
     "https://github.com/dbeaver/dbeaver": {
         "created_at": "2015-10-21 08:26:28",
         "description": "Free universal database tool and SQL client",
-        "commit_date": "2023-04-15 14:29:28",
-        "commit_message": "Connection dropdown enhancement",
+        "commit_date": "2023-04-16 04:59:26",
+        "commit_message": "23.0.3 config",
         "release_tag": "23.0.2",
         "release_date": "2023-04-09 18:26:08",
         "release_message": "\n                - ER Diagrams:\n                    - Accessibility support (text reader) was added\n                    - Many keyboard shortcuts were added\n                    - Issue with diagram re-layout after options change was resolved\n                    - Issue with moving focus when searching was fixed\n                - General UI:\n                    - Database editors remain open after disconnect (configurable)\n                    - Clickable hints are now displayed as links\n                    - Issue with missing icons in the toolbar on MacOS was fixed\n                    - Font and color changes in the Result Set were improved\n                    - Large fonts now display correctly on MacOS\n                - SQL Editor:\n                    - Auto-completion for INSERT/UPDATE/DELETE queries was improved\n                    - Font changes are now applied without a restart\n                - Data Editor:\n                    - Show numeric values (e.g. infinity) rendering was improved\n                    - Issue with opening images from value panel in external editor was fixed\n                - Connectivity:\n                    - Legacy SSH algorithms support was added\n                    - Confirmation dialogs now remember user selection\n                    - The number of attempts to reopen the connection was reduced\n                    - Ability to connect via SSHJ with unsaved password was added\n                    - Maven artifacts configuration now supports classifier\n                - Data transfer: column description support was added for CSV and XLS formats,\n                - AI (ChatGPT): unsupported AI models were replaced with new ones\n                - Databases:\n                    - Firebird: default parameters in procedure definitions were added\n                    - PostgresSQL: materialized views dependencies were added\n                    - Databricks: support of table comments were added\n                    - Oracle: issue with cropped ‘q’ at the end of the string was fixed\n                    - SQLite: triggers delete was implemented\n                    - SQL Server: issue with duplicated data types was resolved\n                - Localization:\n                    - Traditional Chinese localization was updated (thanks to @hwhsu1231)\n                    - Traditional Chinese language was added to Windows installer\n                - Misc:\n                    - Microsoft store: issue with application installation was fixed on most machines\n                    - We switched to Java 17 (again)\n                    - We switched to Eclipse 2023-03 as a base platform\n            "

@@ -1,8 +1,9 @@
-# 更新于 2023-04-16 11:43:55
+# 更新于 2023-04-17 08:39:50
 
 ## 近15天release更新记录
 | 更新时间 | 项目名称 | 版本 | 更新内容 |
 | :---- | :---- | :---- | :---- |
+|2023-04-16 22:40:19|[SSTImap](https://github.com/vladko312/SSTImap)|v1.1|- Crawler and form detection (by @fante<br>sykikachu)- New template engine added: C<br>heetah- Automatic import for engine modu<br>les- Interactive module reloading capabi<br>lity- Full support for Python 3.11- Repl<br>aced telnetlib with a custom TCP client|
 |2023-04-15 01:34:31|[nemo_go](https://github.com/hanc00l/nemo_go)|v2.9.2|### Updated- 首页登录及后台更改密码时，<br>采用RSA加密传输（每次server启动生成随机RS<br>A密钥对）；- WEB页面修改XSCAN的默认配置<br>；优化XSCAN的选项，增加Nuclei漏洞扫描；- <br>增加输入任务参数长度校验（目标Targets不超<br>过5000个字符，输入参数总长度不超过6000个<br>字符）；- 增加WebServer API接口和Swagger<br>调试页面（为前后端分离提供支持）；- 将子<br>域名被动收集（Subfinder）及指纹获取（Http<br>x）功能由原通过源代码集成改用调用二进制<br>文件（解决和降低内存泄露、协程异常导致内<br>存和CPU占用异常的bug）；- 增加IP与资产的<br>黑名单功能及一键拉黑功能，对黑名单的资产<br>忽略指纹及漏洞任务、结果不会进行存储；- <br>更新纯真数据库；- ChangeLog；### Fix- 子<br>域名被动枚举（Subfinder）配置的provider-c<br>onfig.yaml未生效|
 |2023-04-14 09:07:11|[autoDecoder](https://github.com/f0ng/autoDecoder)|0.24-beta<br>2|## 2023.4.14 更新0.24-beta21. 增加RSA加<br>解密2. 响应包正则模式加解密|
 |2023-04-13 22:18:24|[PEASS-ng](https://github.com/carlospolop/PEASS-ng)|20230413-<br>7f846812||
@@ -30,9 +31,12 @@
 ## 近15天commit提交记录
 | 提交时间 | 项目名称 | 更新内容 |
 | :---- | :---- | :---- |
-|2023-04-16 02:15:15|[NucleiTP](https://github.com/ExpLangcn/NucleiTP)|更新啦❤️|
-|2023-04-15 20:00:18|[PocOrExp_in_Github](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-04-16 04:00:18|
-|2023-04-15 14:29:28|[dbeaver](https://github.com/dbeaver/dbeaver)|Connection dropdown enhancement|
+|2023-04-17 00:30:16|[NucleiTP](https://github.com/ExpLangcn/NucleiTP)|更新啦❤️|
+|2023-04-16 22:36:36|[SSTImap](https://github.com/vladko312/SSTImap)|Release of SSTImap version 1.1.0Crawler and form detec<br>tion (by @fantesykikachu)New template engine added: Che<br>etahAutomatic import for engine modulesInteractive modu<br>le reloading capabilityFull support for Python 3.11Repl<br>aced telnetlib with a custom TCP client---------Co-auth<br>ored-by: fantesykikachu |
+|2023-04-16 22:06:53|[PocOrExp_in_Github](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-04-17 06:06:53|
+|2023-04-16 12:16:50|[knife](https://github.com/bit4woo/knife)|update|
+|2023-04-16 12:11:15|[ysoserial](https://github.com/su18/ysoserial)|添加 fastjson 两条利用链|
+|2023-04-16 04:59:26|[dbeaver](https://github.com/dbeaver/dbeaver)|23.0.3 config|
 |2023-04-15 14:09:04|[fofax](https://github.com/xiecat/fofax)|修复更新时如果网络有问题可能引发异常问题 #29 。修改弃<br>用函数|
 |2023-04-15 13:57:07|[afrog](https://github.com/zan8in/afrog)|update poc|
 |2023-04-15 12:01:57|[Umi-OCR](https://github.com/hiroi-sora/Umi-OCR)|Merge branch 'main' of https://github.com/hiroi-sora/U<br>mi-OCR|
@@ -41,7 +45,6 @@
 |2023-04-15 06:17:14|[domain_hunter_pro](https://github.com/bit4woo/domain_hunter_pro)|Update SearchMenu.java|
 |2023-04-15 02:37:26|[PeiQi-WIKI-Book](https://github.com/PeiQi0/PeiQi-WIKI-Book)|漏洞相关:瑞友,Go-fastdfs等漏洞:tada:|
 |2023-04-15 01:26:43|[nemo_go](https://github.com/hanc00l/nemo_go)|Update: Release v2.9.2|
-|2023-04-14 13:38:10|[knife](https://github.com/bit4woo/knife)|Update ConfigTableModel.java|
 |2023-04-14 09:07:03|[autoDecoder](https://github.com/f0ng/autoDecoder)|Update README.md|
 |2023-04-14 06:26:41|[murphysec](https://github.com/murphysecurity/murphysec)|fix(gradle): remove gradle implementation configuratio<br>n|
 |2023-04-13 21:58:37|[PEASS-ng](https://github.com/carlospolop/PEASS-ng)|Update CI-master_tests.yml|
@@ -392,7 +395,7 @@ add all string export spider.|
 ### WEB漏洞利用
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
-| [SSTImap](https://github.com/vladko312/SSTImap) | v1.0 | Automatic SSTI detection tool with interactive interface |
+| [SSTImap](https://github.com/vladko312/SSTImap) | v1.1 | Automatic SSTI detection tool with interactive interface |
 | [tplmap](https://github.com/epinna/tplmap) | v0.5 | Server-Side Template Injection and Code Injection Detection and <br>Exploitation Tool |
 | [sqlmap](https://github.com/sqlmapproject/sqlmap) | 1.7 | Automatic SQL injection and database takeover tool |
 ### 服务漏洞利用
