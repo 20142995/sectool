@@ -200,8 +200,8 @@
     "https://github.com/ycdxsb/PocOrExp_in_Github": {
         "created_at": "2021-04-13 05:46:16",
         "description": "聚合Github上已有的Poc或者Exp，CVE信息来自CVE官网。Auto Collect Poc Or Exp from Github by CVE ID.",
-        "commit_date": "2023-04-16 22:06:53",
-        "commit_message": "update 2023-04-17 06:06:53",
+        "commit_date": "2023-04-17 20:44:38",
+        "commit_message": "update 2023-04-18 04:44:38",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -461,7 +461,7 @@
     "https://github.com/ExpLangcn/NucleiTP": {
         "created_at": "2022-11-08 13:16:56",
         "description": "自动整合全网Nuclei的漏洞POC，实时同步更新最新POC！",
-        "commit_date": "2023-04-17 00:30:16",
+        "commit_date": "2023-04-18 00:30:19",
         "commit_message": "更新啦❤️",
         "release_tag": "",
         "release_date": "",
@@ -531,8 +531,8 @@
     "https://github.com/knownsec/404StarLink": {
         "created_at": "2020-11-17 08:10:18",
         "description": "404StarLink - 推荐优质、有意义、有趣、坚持维护的安全开源项目",
-        "commit_date": "2023-04-10 02:33:33",
-        "commit_message": "weekly update at 2023-04-10",
+        "commit_date": "2023-04-17 02:21:47",
+        "commit_message": "weekly update at 2023-04-17",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -828,8 +828,8 @@
     "https://github.com/murphysecurity/murphysec": {
         "created_at": "2022-03-16 02:52:33",
         "description": "An open source tool focused on software supply chain security. 墨菲安全专注于软件供应链安全，具备专业的软件成分分析（SCA）、漏洞检测、专业漏洞库。",
-        "commit_date": "2023-04-14 06:26:41",
-        "commit_message": "fix(gradle): remove gradle implementation configuration",
+        "commit_date": "2023-04-17 12:06:33",
+        "commit_message": "fix: module relative path",
         "release_tag": "v3.0.1",
         "release_date": "2023-02-13 07:25:06",
         "release_message": ""
@@ -981,8 +981,8 @@
     "https://github.com/sqlmapproject/sqlmap": {
         "created_at": "2012-06-26 09:52:15",
         "description": "Automatic SQL injection and database takeover tool",
-        "commit_date": "2023-04-11 12:19:39",
-        "commit_message": "Update related to #5389",
+        "commit_date": "2023-04-17 11:35:24",
+        "commit_message": "Potential patch for #5392",
         "release_tag": "1.7",
         "release_date": "2023-01-02 22:32:55",
         "release_message": "Stable version 1.7 ([changeset](https://github.com/sqlmapproject/sqlmap/compare/1.6...1.7))"
@@ -1044,7 +1044,7 @@
     "https://github.com/sml2h3/ddddocr": {
         "created_at": "2021-07-14 09:00:06",
         "description": "带带弟弟 通用验证码识别OCR pypi版",
-        "commit_date": "2023-01-29 02:01:58",
+        "commit_date": "2023-04-17 07:42:21",
         "commit_message": "Update README.md",
         "release_tag": "",
         "release_date": "",
@@ -1071,8 +1071,8 @@
     "https://github.com/v2rayA/v2rayA": {
         "created_at": "2019-10-18 20:42:06",
         "description": "A web GUI client of Project V which supports V2Ray, Xray, SS, SSR, Trojan and Pingtunnel 🚀",
-        "commit_date": "2023-04-12 14:37:16",
-        "commit_message": "Update winsw to v3.0.0-alpha.11",
+        "commit_date": "2023-04-17 08:34:38",
+        "commit_message": "Merge pull request #917 from Gh0u1L5/feat_v5",
         "release_tag": "v2.0.5",
         "release_date": "2023-04-08 06:20:57",
         "release_message": "## What's Changed\r\n* Fix tip label display by @aeeq in https://github.com/v2rayA/v2rayA/pull/889\r\n\r\n## New Contributors\r\n* @aeeq made their first contribution in https://github.com/v2rayA/v2rayA/pull/889\r\n\r\n**Full Changelog**: https://github.com/v2rayA/v2rayA/compare/v2.0.4...v2.0.5"
@@ -1097,8 +1097,8 @@
     },
     "https://github.com/Threekiii/Vulnerability-Wiki": {
         "created_at": "2022-04-29 05:36:33",
-        "description": "一个综合漏洞知识库，集成了Vulhub、Peiqi、Edge、0sec、Wooyun等开源漏洞库",
-        "commit_date": "2023-04-10 01:07:17",
+        "description": "一个基于docsify的综合漏洞知识库，目前漏洞数量800+",
+        "commit_date": "2023-04-17 02:24:59",
         "commit_message": "更新漏洞",
         "release_tag": "v1.0",
         "release_date": "2022-07-15 01:58:00",
@@ -1879,15 +1879,15 @@
     "https://github.com/1y0n/AV_Evasion_Tool": {
         "created_at": "2020-04-24 01:11:09",
         "description": "掩日 - 免杀执行器生成工具",
-        "commit_date": "2023-03-29 08:21:40",
+        "commit_date": "2023-04-17 01:17:36",
         "commit_message": "Update README.md",
-        "release_tag": "20230329",
-        "release_date": "2023-03-29 08:18:09",
-        "release_message": "1. 效果优化\r\n2. 修复识别杀软时卡死问题"
+        "release_tag": "20230417",
+        "release_date": "2023-04-17 01:16:06",
+        "release_message": "1. 效果优化"
     },
     "https://github.com/hanc00l/nemo_go": {
         "created_at": "2021-07-29 08:13:25",
-        "description": "Nemo是用来进行自动化信息收集的一个简单平台，通过集成常用的信息收集工具和技术，实现对内网及互联网资产信息的自动收集，提高隐患排查和渗透测试的工作效率，用Go语言完全重构了原Python版本。",
+        "description": "Nemo是用来进行自动化信息收集的一个简单平台，通过集成常用的信息收集工具和技术，实现对内网及互联网资产信息的自动收集，提高隐患排查和渗透测试的工作效率。",
         "commit_date": "2023-04-15 01:26:43",
         "commit_message": "Update: Release v2.9.2",
         "release_tag": "v2.9.2",
@@ -2005,8 +2005,8 @@
     "https://github.com/bit4woo/knife": {
         "created_at": "2018-06-12 14:25:18",
         "description": "A burp extension that add some useful function to  Context Menu 添加一些右键菜单让burp用起来更顺畅",
-        "commit_date": "2023-04-16 12:16:50",
-        "commit_message": "update",
+        "commit_date": "2023-04-17 23:30:57",
+        "commit_message": "Merge pull request #61 from bit4woo/dependabot/maven/org.json-json-20230227\n\nBump json from 20180813 to 20230227",
         "release_tag": "v2.1",
         "release_date": "2022-11-20 09:04:40",
         "release_message": "融合U2C和Chinese2个Tab，让它们都可以支持切换编码\r\n新增功能：从JS中查找URL路径后，拼接BaseURL并请求\r\n其他小的更新、bug修复\r\n\r\n## What's Changed\r\n* Bump gson from 2.3.1 to 2.8.9 by @dependabot in https://github.com/bit4woo/knife/pull/45\r\n* Bump commons-text from 1.6 to 1.10.0 by @dependabot in https://github.com/bit4woo/knife/pull/53\r\n\r\n## New Contributors\r\n* @dependabot made their first contribution in https://github.com/bit4woo/knife/pull/45\r\n\r\n**Full Changelog**: https://github.com/bit4woo/knife/compare/v2.0...v2.1"
@@ -2194,8 +2194,8 @@
     "https://github.com/shmilylty/OneForAll": {
         "created_at": "2018-12-10 09:43:37",
         "description": "OneForAll是一款功能强大的子域收集工具",
-        "commit_date": "2023-04-05 14:06:27",
-        "commit_message": "Merge pull request #306 from j4vaovo/patch-3\n\nCreate wzsearch.py",
+        "commit_date": "2023-04-17 01:34:19",
+        "commit_message": "Merge pull request #308 from mastomii/adding-massdns-linux-aarch64\n\nadding \"massdns-linux-aarch64\"",
         "release_tag": "v0.4.5",
         "release_date": "2022-07-10 10:16:29",
         "release_message": "## [0.4.5](https://github.com/shmilylty/oneforall/releases/tag/v0.4.5) - 2022-07-10\r\n- 修复了#254"
@@ -2221,7 +2221,7 @@
     "https://github.com/Threekiii/Awesome-POC": {
         "created_at": "2022-02-20 06:43:22",
         "description": "一个各类漏洞POC知识库",
-        "commit_date": "2023-03-28 09:48:31",
+        "commit_date": "2023-04-17 02:09:40",
         "commit_message": "更新漏洞",
         "release_tag": "",
         "release_date": "",
@@ -2951,8 +2951,8 @@
     "https://github.com/dbeaver/dbeaver": {
         "created_at": "2015-10-21 08:26:28",
         "description": "Free universal database tool and SQL client",
-        "commit_date": "2023-04-16 04:59:26",
-        "commit_message": "23.0.3 config",
+        "commit_date": "2023-04-17 19:48:13",
+        "commit_message": "dbeaver/pro#1554 Creds encryption fix (#19725)",
         "release_tag": "23.0.2",
         "release_date": "2023-04-09 18:26:08",
         "release_message": "\n                - ER Diagrams:\n                    - Accessibility support (text reader) was added\n                    - Many keyboard shortcuts were added\n                    - Issue with diagram re-layout after options change was resolved\n                    - Issue with moving focus when searching was fixed\n                - General UI:\n                    - Database editors remain open after disconnect (configurable)\n                    - Clickable hints are now displayed as links\n                    - Issue with missing icons in the toolbar on MacOS was fixed\n                    - Font and color changes in the Result Set were improved\n                    - Large fonts now display correctly on MacOS\n                - SQL Editor:\n                    - Auto-completion for INSERT/UPDATE/DELETE queries was improved\n                    - Font changes are now applied without a restart\n                - Data Editor:\n                    - Show numeric values (e.g. infinity) rendering was improved\n                    - Issue with opening images from value panel in external editor was fixed\n                - Connectivity:\n                    - Legacy SSH algorithms support was added\n                    - Confirmation dialogs now remember user selection\n                    - The number of attempts to reopen the connection was reduced\n                    - Ability to connect via SSHJ with unsaved password was added\n                    - Maven artifacts configuration now supports classifier\n                - Data transfer: column description support was added for CSV and XLS formats,\n                - AI (ChatGPT): unsupported AI models were replaced with new ones\n                - Databases:\n                    - Firebird: default parameters in procedure definitions were added\n                    - PostgresSQL: materialized views dependencies were added\n                    - Databricks: support of table comments were added\n                    - Oracle: issue with cropped ‘q’ at the end of the string was fixed\n                    - SQLite: triggers delete was implemented\n                    - SQL Server: issue with duplicated data types was resolved\n                - Localization:\n                    - Traditional Chinese localization was updated (thanks to @hwhsu1231)\n                    - Traditional Chinese language was added to Windows installer\n                - Misc:\n                    - Microsoft store: issue with application installation was fixed on most machines\n                    - We switched to Java 17 (again)\n                    - We switched to Eclipse 2023-03 as a base platform\n            "
@@ -3406,11 +3406,11 @@
     "https://github.com/bit4woo/domain_hunter_pro": {
         "created_at": "2019-01-18 07:15:15",
         "description": "domain_hunter的高级版本，SRC挖洞、HW打点之必备！自动化资产收集；快速Title获取；外部工具联动；等等",
-        "commit_date": "2023-04-15 06:17:14",
-        "commit_message": "Update SearchMenu.java",
-        "release_tag": "v1.9-alpha",
-        "release_date": "2022-11-18 09:37:35",
-        "release_message": "**这是重构版本，与旧版本不兼容！！！\r\n这是重构版本，与旧版本不兼容！！！\r\n这是重构版本，与旧版本不兼容！！！**\r\n\r\n重新设计了数据库的表结构，尽量提升数据库读写效率\r\n重新设计了数据对象、UI、数据库之间的数据同步逻辑\r\n重新设计了数据存储的基础类，保证线程安全\r\n重新设计了table中model类的部分逻辑，减少内存占用\r\n\r\n优化了数据对象的字段，尽量减小每个数据对象的内存占用\r\n优化了数据提取的正则表达式和逻辑\r\n优化了根域名、网段作控制目标范围的逻辑\r\n优化了当根域名、网段变化时，数据的刷新逻辑\r\n优化了数据数据加载逻辑\r\n其他各种逻辑优化、bug修改\r\n\r\n总之就是大动作，和旧版本不兼容，可能存在潜在bug（虽然我已经试用一段时间，排除了很多bug），所以发布一个alpha版本在正式版本之前。\r\n\r\n欢迎试用提交bug，使用时建议创建新的项目数据库，不要使用旧数据库文件。"
+        "commit_date": "2023-04-18 00:03:06",
+        "commit_message": "v1.9",
+        "release_tag": "v1.9",
+        "release_date": "2023-04-18 00:34:58",
+        "release_message": "全局：\r\n多个bug修复\r\n布局模式优化\r\n基础方法实现逻辑优化\r\n\r\n右键菜单：\r\n“Do Search”提供主动在制定请求中进行搜索的能力，比如在某企业邮箱的流量中搜索以提取邮箱地址\r\n“Add Request And Comment”右键菜单添逻辑优化，修复一个bug\r\n“Send To Tool Panel”右键菜单处理逻辑优化，可合并发送多个数据包内容\r\n\r\nDomain面板：\r\nroot domain的comments逻辑更新\r\n提供多个网络搜索引擎的后台自动搜索功能\r\nroot domain双击，自动在浏览器中访问\r\n修改目标根域名删除失败的bug\r\n显示序号，以便在排序后恢复原始顺序\r\n\r\nTool面板：\r\n重写JTextArea的paste函数，避免大内容导致程序卡死\r\nJTextArea支持输入文件，而程序处理其内容。\r\n文本取提供简单的历史记录功能\r\nJSON提取逻辑优化\r\n新增多个功能，比如排序\r\n优化URL提取逻辑，避免遗漏没有以/开头的path\r\n\r\nTitle面板中：\r\n端口扫描命令生成逻辑优化\r\n备注和IP内容的显示优化，显示前排序\r\n备注添加逻辑优化\r\n给手动添加的记录添加已知的IP和CNAME、CertInfo\r\n搜索功能增强，支持对数字型字段进行大于、小于、等于等搜索\r\n添加多个搜索实例，以便用户熟悉搜索语法\r\n新增“Do Request Item Again”菜单，对DNS记录或无响应的数据包进行再次请求"
     },
     "https://github.com/RoomaSec/RmEye": {
         "created_at": "2022-08-22 12:11:37",
@@ -3602,7 +3602,7 @@
     "https://github.com/f0ng/autoDecoder": {
         "created_at": "2022-03-26 10:13:56",
         "description": "Burp插件，根据自定义来达到对数据包的处理（适用于加解密、爆破等），类似mitmproxy，不同点在于经过了burp中转，在自动加解密的基础上，不影响APP、网站加解密正常逻辑等。",
-        "commit_date": "2023-04-14 09:07:03",
+        "commit_date": "2023-04-17 01:33:40",
         "commit_message": "Update README.md",
         "release_tag": "0.24-beta2",
         "release_date": "2023-04-14 09:07:11",
@@ -3699,10 +3699,10 @@
     "https://github.com/carlospolop/PEASS-ng": {
         "created_at": "2019-01-13 19:58:24",
         "description": "PEASS - Privilege Escalation Awesome Scripts SUITE (with colors)",
-        "commit_date": "2023-04-13 21:58:37",
-        "commit_message": "Update CI-master_tests.yml",
-        "release_tag": "20230413-7f846812",
-        "release_date": "2023-04-13 22:18:24",
+        "commit_date": "2023-04-17 04:45:14",
+        "commit_message": "Update sensitive_files.yaml",
+        "release_tag": "20230417-db0e0dbe",
+        "release_date": "2023-04-17 05:04:25",
         "release_message": ""
     },
     "https://github.com/waderwu/attackRmi": {

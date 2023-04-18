@@ -1,12 +1,14 @@
-# 更新于 2023-04-17 08:39:50
+# 更新于 2023-04-18 08:38:30
 
 ## 近15天release更新记录
 | 更新时间 | 项目名称 | 版本 | 更新内容 |
 | :---- | :---- | :---- | :---- |
+|2023-04-18 00:34:58|[domain_hunter_pro](https://github.com/bit4woo/domain_hunter_pro)|v1.9|全局：多个bug修复布局模式优化基础方法实<br>现逻辑优化右键菜单：“Do Search”提供主动<br>在制定请求中进行搜索的能力，比如在某企业<br>邮箱的流量中搜索以提取邮箱地址“Add Reque<br>st And Comment”右键菜单添逻辑优化，修复<br>一个bug“Send To Tool Panel”右键菜单处理<br>逻辑优化，可合并发送多个数据包内容Domain<br>面板：root domain的comments逻辑更新提供多<br>个网络搜索引擎的后台自动搜索功能root doma<br>in双击，自动在浏览器中访问修改目标根域名<br>删除失败的bug显示序号，以便在排序后恢复原<br>始顺序Tool面板：重写JTextArea的paste函数<br>，避免大内容导致程序卡死JTextArea支持输入<br>文件，而程序处理其内容。文本取提供简单的<br>历史记录功能JSON提取逻辑优化新增多个功能<br>，比如排序优化URL提取逻辑，避免遗漏没有以<br>/开头的pathTitle面板中：端口扫描命令生成<br>逻辑优化备注和IP内容的显示优化，显示前排<br>序备注添加逻辑优化给手动添加的记录添加已<br>知的IP和CNAME、CertInfo搜索功能增强，支持<br>对数字型字段进行大于、小于、等于等搜索添<br>加多个搜索实例，以便用户熟悉搜索语法新增<br>“Do Request Item Again”菜单，对DNS记录<br>或无响应的数据包进行再次请求|
+|2023-04-17 05:04:25|[PEASS-ng](https://github.com/carlospolop/PEASS-ng)|20230417-<br>db0e0dbe||
+|2023-04-17 01:16:06|[AV_Evasion_Tool](https://github.com/1y0n/AV_Evasion_Tool)|20230417|1. 效果优化|
 |2023-04-16 22:40:19|[SSTImap](https://github.com/vladko312/SSTImap)|v1.1|- Crawler and form detection (by @fante<br>sykikachu)- New template engine added: C<br>heetah- Automatic import for engine modu<br>les- Interactive module reloading capabi<br>lity- Full support for Python 3.11- Repl<br>aced telnetlib with a custom TCP client|
 |2023-04-15 01:34:31|[nemo_go](https://github.com/hanc00l/nemo_go)|v2.9.2|### Updated- 首页登录及后台更改密码时，<br>采用RSA加密传输（每次server启动生成随机RS<br>A密钥对）；- WEB页面修改XSCAN的默认配置<br>；优化XSCAN的选项，增加Nuclei漏洞扫描；- <br>增加输入任务参数长度校验（目标Targets不超<br>过5000个字符，输入参数总长度不超过6000个<br>字符）；- 增加WebServer API接口和Swagger<br>调试页面（为前后端分离提供支持）；- 将子<br>域名被动收集（Subfinder）及指纹获取（Http<br>x）功能由原通过源代码集成改用调用二进制<br>文件（解决和降低内存泄露、协程异常导致内<br>存和CPU占用异常的bug）；- 增加IP与资产的<br>黑名单功能及一键拉黑功能，对黑名单的资产<br>忽略指纹及漏洞任务、结果不会进行存储；- <br>更新纯真数据库；- ChangeLog；### Fix- 子<br>域名被动枚举（Subfinder）配置的provider-c<br>onfig.yaml未生效|
 |2023-04-14 09:07:11|[autoDecoder](https://github.com/f0ng/autoDecoder)|0.24-beta<br>2|## 2023.4.14 更新0.24-beta21. 增加RSA加<br>解密2. 响应包正则模式加解密|
-|2023-04-13 22:18:24|[PEASS-ng](https://github.com/carlospolop/PEASS-ng)|20230413-<br>7f846812||
 |2023-04-13 01:59:30|[captcha-killer-modi<br>fied](https://github.com/f0ng/captcha-killer-modified)|0.23-beta<br>5|【2023-4-13】 0.23-beta5- 修复验证码获<br>取接口中请求头字段置空无法获取验证码的问<br>题感谢微信群师傅 _隔壁老钱 反馈|
 |2023-04-12 08:22:22|[ZoomEye-python](https://github.com/knownsec/ZoomEye-python)|v2.2.0|### update- remove username and passwor<br>d authenticate method, only support API-<br>KEY authenticate.### 更新- 移除用户名和<br>密码的认证方式，仅支持 API- KEY 认证。|
 |2023-04-12 07:54:54|[RequestTemplate](https://github.com/1n7erface/RequestTemplate)|v1.1.5|2023.4.12 16:001.解决了一个并发时线程抢<br>锁问题2.添加指纹，目前指纹900+3.添加ps,us<br>参数|
@@ -26,42 +28,44 @@
 |2023-04-05 10:31:36|[afrog](https://github.com/zan8in/afrog)|v2.2.2|bug:- Fix afrog html report XSS vulnera<br>bilityoptimization:- Simplified URL blac<br>klist mechanism- Optimize http/s detecti<br>on function- Optimized file upload (all)<br> PoC- Optimize RCE (all) PoCdelete:- Rem<br>ove Fingerprint fingerprint recognition <br>and command parameters (replacement tool<br> pyxis)- Remove uncommon command paramet<br>ersPoC:- Added 52 PoCs- Validate and opt<br>imize n multiple PoCs- Remove PoC csz-cm<br>s-multiple-blind-sql-injection- Remove P<br>oC phpstudy-nginx-wrong-resolve- Built-i<br>n several private PoC-------------------<br>-----------------------修复：- 修复 afro<br>g html 报告 XSS 漏洞优化：- 简化 URL 黑<br>名单机制- 优化 http/s 检测功能- 优化 文件<br>上传 (所有) PoC- 优化 RCE (所有) PoC删除<br>：- 去掉 Fingerprint 指纹识别及命令参数 (<br>替代工具 pyxis)- 去掉不常用命令参数PoC:- <br>新增 52 PoC- 验证和优化 n 多个 PoC- 删除 <br>PoCcsz-cms-multiple-blind-sql-injection-<br> 删除 PoC phpstudy-nginx-wrong-resolve- <br>内置几个 privatePoC|
 |2023-04-03 14:04:31|[mitaka](https://github.com/ninoseki/mitaka)|v1.1.1|- Fix search all issue (#720)- Update m<br>anifest (#721) |
 |2023-04-03 02:50:37|[railgun](https://github.com/lz520520/railgun)|v1.5.4|解压密码railgun1. 主界面模块搜索功能2. <br>历史搜索优化，增加编辑数据库模式以及删除<br>指定数据3. 资产管理功能增加(beta)a. 完成<br>按单位的资产管理模块添加，优化部分数据库<br>操作。b. 增加导入扩展接口，可以自定义导入<br>格式解析。目前支持oneforall导入。c. 增加<br>内置模块导入资产模块功能。d. 端口信息中，<br>IP和端口关联4. web指纹重构，更符合实际需<br>求，增加web指纹库管理界面，后续可灵活扩展<br>。后续根据实战可快速优化指纹。5. 漏洞利用<br>a. exp 插件调用库优化b. 子选项获取参数异<br>常问题修复|
-|2023-04-02 14:22:46|[Ladon](https://github.com/k8gege/Ladon)|v10.10.2|#### Ladon 10.10.2 20230402[+]clsLog清<br>除崩溃日志、UsageLog日志、清除图标缓存、<br>禁止UsageLog日志记录[u]默认禁止基于.net程<br>序UsageLog日志记录(如各类工具、powershell<br>等)防止蓝队或EDR通过日志审计[u]RunPS无Pow<br>erShell.exe执行*.ps1脚本 新增内存绕过AMS<br>I反病毒查杀接口[+]默认Bypass ETW 绕过部<br>分杀软和EDR监控[+]HPrebootSNMP重启HP打印<br>机 .net>=4.0#### RunPS绕过AMSI执行powersh<br>ell脚本![image](http://k8gege.org/k8img/<br>posts/amsi/LadonBypassAmsi.png)#### RunP<br>S绕过AMSI执行powershell代码![image](http<br>://k8gege.org/k8img/posts/amsi/LadonBypa<br>ssAmsi2.png)#### 绕过AMSI执行Ladon任意功<br>能![image](http://k8gege.org/k8img/posts/<br>amsi/LadonBypassAmsi3.png)#### CS绕过AMS<br>I执行powershell脚本![image](http://k8geg<br>e.org/k8img/posts/amsi/LadonBypassAmsi_c<br>s.png)|
-|2023-04-02 09:41:21|[nuclei](https://github.com/projectdiscovery/nuclei)|v2.9.1|## Breaking Changes:**⚠️ Updated -jso<br>n option to -jsonl to correctly reflect <br>the output format** by @kchason in https<br>://github.com/projectdiscovery/nuclei/pu<br>ll/3466console-j, -jsonlwrite output in <br>JSONL(ines) format**⚠️ Updated protoco<br>l attribute name (requests=> http & netw<br>ork => tcp) in templates** by @ShubhamRa<br>sal in https://github.com/projectdiscove<br>ry/nuclei/pull/3425> Templates with the <br>use of requests and network will still w<br>ork but will be deprecated completely in<br> the future.## What's New* **Added JSON <br>output export support** (-json-export) b<br>y @kchason in https://github.com/project<br>discovery/nuclei/pull/3466console-je, -j<br>son-export stringfile to export results <br>in JSON format* Added cpe and epss-score<br> support in template classification by @<br>ehsandeep in https://github.com/projectd<br>iscovery/nuclei/pull/3489* Added mkdir s<br>upport in headless screenshot by @tarunK<br>oyalwar in https://github.com/projectdis<br>covery/nuclei/pull/3457* Added support f<br>or jira custom fields by @jordanpotti in<br> https://github.com/projectdiscovery/nuc<br>lei/pull/3406* Added AWS catalog for loa<br>ding templates from bucket by @leoloobee<br>k in https://github.com/projectdiscovery<br>/nuclei/pull/3372* **Fixed a crash in tl<br>sx integration** by @ehsandeep in https:<br>//github.com/projectdiscovery/nuclei/pul<br>l/3490* Fixed template link references b<br>y @mlec1 in https://github.com/projectdi<br>scovery/nuclei/pull/3485* Fixed an issue<br> with the scanning strategy option by @n<br>HurD in https://github.com/projectdiscov<br>ery/nuclei/pull/3464* Fixed AWS S3 bucke<br>t catalog path mismatch by @tarunKoyalwa<br>r in https://github.com/projectdiscovery<br>/nuclei/pull/3474* Moved DSL helper func<br>tions to [dsl](https://github.com/projec<br>tdiscovery/dsl) project by @RamanaReddy0<br>M in https://github.com/projectdiscovery<br>/nuclei/pull/3461Issues closed in this r<br>elease - https://github.com/projectdisco<br>very/nuclei/milestone/28?closed=1## New <br>Contributors* @jordanpotti made their fi<br>rst contribution in https://github.com/p<br>rojectdiscovery/nuclei/pull/3406* @nHurD<br> made their first contribution in https:<br>//github.com/projectdiscovery/nuclei/pul<br>l/3464* @leoloobeek made their first con<br>tribution in https://github.com/projectd<br>iscovery/nuclei/pull/3372* @mlec1 made t<br>heir first contribution in https://githu<br>b.com/projectdiscovery/nuclei/pull/3485*<br>*Full Changelog**: https://github.com/pr<br>ojectdiscovery/nuclei/compare/v2.9.0...v<br>2.9.1|
 ## 近15天commit提交记录
 | 提交时间 | 项目名称 | 更新内容 |
 | :---- | :---- | :---- |
-|2023-04-17 00:30:16|[NucleiTP](https://github.com/ExpLangcn/NucleiTP)|更新啦❤️|
+|2023-04-18 00:30:19|[NucleiTP](https://github.com/ExpLangcn/NucleiTP)|更新啦❤️|
+|2023-04-18 00:03:06|[domain_hunter_pro](https://github.com/bit4woo/domain_hunter_pro)|v1.9|
+|2023-04-17 23:30:57|[knife](https://github.com/bit4woo/knife)|Merge pull request #61 from bit4woo/dependabot/maven/o<br>rg.json-json-20230227Bump json from 20180813 to 2023022<br>7|
+|2023-04-17 20:44:38|[PocOrExp_in_Github](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-04-18 04:44:38|
+|2023-04-17 19:48:13|[dbeaver](https://github.com/dbeaver/dbeaver)|dbeaver/pro#1554 Creds encryption fix (#19725)|
+|2023-04-17 12:06:33|[murphysec](https://github.com/murphysecurity/murphysec)|fix: module relative path|
+|2023-04-17 11:35:24|[sqlmap](https://github.com/sqlmapproject/sqlmap)|Potential patch for #5392|
+|2023-04-17 08:34:38|[v2rayA](https://github.com/v2rayA/v2rayA)|Merge pull request #917 from Gh0u1L5/feat_v5|
+|2023-04-17 07:42:21|[ddddocr](https://github.com/sml2h3/ddddocr)|Update README.md|
+|2023-04-17 04:45:14|[PEASS-ng](https://github.com/carlospolop/PEASS-ng)|Update sensitive_files.yaml|
+|2023-04-17 02:24:59|[Vulnerability-Wiki](https://github.com/Threekiii/Vulnerability-Wiki)|更新漏洞|
+|2023-04-17 02:21:47|[404StarLink](https://github.com/knownsec/404StarLink)|weekly update at 2023-04-17|
+|2023-04-17 02:09:40|[Awesome-POC](https://github.com/Threekiii/Awesome-POC)|更新漏洞|
+|2023-04-17 01:34:19|[OneForAll](https://github.com/shmilylty/OneForAll)|Merge pull request #308 from mastomii/adding-massdns-l<br>inux-aarch64adding "massdns-linux-aarch64"|
+|2023-04-17 01:33:40|[autoDecoder](https://github.com/f0ng/autoDecoder)|Update README.md|
+|2023-04-17 01:17:36|[AV_Evasion_Tool](https://github.com/1y0n/AV_Evasion_Tool)|Update README.md|
 |2023-04-16 22:36:36|[SSTImap](https://github.com/vladko312/SSTImap)|Release of SSTImap version 1.1.0Crawler and form detec<br>tion (by @fantesykikachu)New template engine added: Che<br>etahAutomatic import for engine modulesInteractive modu<br>le reloading capabilityFull support for Python 3.11Repl<br>aced telnetlib with a custom TCP client---------Co-auth<br>ored-by: fantesykikachu |
-|2023-04-16 22:06:53|[PocOrExp_in_Github](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-04-17 06:06:53|
-|2023-04-16 12:16:50|[knife](https://github.com/bit4woo/knife)|update|
 |2023-04-16 12:11:15|[ysoserial](https://github.com/su18/ysoserial)|添加 fastjson 两条利用链|
-|2023-04-16 04:59:26|[dbeaver](https://github.com/dbeaver/dbeaver)|23.0.3 config|
 |2023-04-15 14:09:04|[fofax](https://github.com/xiecat/fofax)|修复更新时如果网络有问题可能引发异常问题 #29 。修改弃<br>用函数|
 |2023-04-15 13:57:07|[afrog](https://github.com/zan8in/afrog)|update poc|
 |2023-04-15 12:01:57|[Umi-OCR](https://github.com/hiroi-sora/Umi-OCR)|Merge branch 'main' of https://github.com/hiroi-sora/U<br>mi-OCR|
 |2023-04-15 11:44:52|[revsuit](https://github.com/Li4n0/revsuit)|ci: disable cgo|
 |2023-04-15 08:40:51|[mitaka](https://github.com/ninoseki/mitaka)|Merge pull request #709 from ninoseki/renovate/chrome-<br>0.xchore(deps): update dependency @types/chrome to ^0.0<br>.231|
-|2023-04-15 06:17:14|[domain_hunter_pro](https://github.com/bit4woo/domain_hunter_pro)|Update SearchMenu.java|
 |2023-04-15 02:37:26|[PeiQi-WIKI-Book](https://github.com/PeiQi0/PeiQi-WIKI-Book)|漏洞相关:瑞友,Go-fastdfs等漏洞:tada:|
 |2023-04-15 01:26:43|[nemo_go](https://github.com/hanc00l/nemo_go)|Update: Release v2.9.2|
-|2023-04-14 09:07:03|[autoDecoder](https://github.com/f0ng/autoDecoder)|Update README.md|
-|2023-04-14 06:26:41|[murphysec](https://github.com/murphysecurity/murphysec)|fix(gradle): remove gradle implementation configuratio<br>n|
-|2023-04-13 21:58:37|[PEASS-ng](https://github.com/carlospolop/PEASS-ng)|Update CI-master_tests.yml|
 |2023-04-13 02:00:00|[vulnerability](https://github.com/lal0ne/vulnerability)|CVE-2022-1442|
-|2023-04-12 14:37:16|[v2rayA](https://github.com/v2rayA/v2rayA)|Update winsw to v3.0.0-alpha.11|
 |2023-04-12 07:44:49|[ZoomEye-python](https://github.com/knownsec/ZoomEye-python)|Merge pull request #87 from knownsec/devupdate():remov<br>e username and password authenticate method|
 |2023-04-12 07:23:36|[xray](https://github.com/chaitin/xray)|[update] POC贡献流程|
 |2023-04-12 07:14:03|[About-Attack](https://github.com/lintstar/About-Attack)|Update README.md项目页面重构 https://red.lintstar.top/<br>Attack/|
 |2023-04-12 06:08:21|[Library-POC](https://github.com/luck-ying/Library-POC)|Update README.md|
 |2023-04-12 02:41:31|[rengine](https://github.com/yogeshojha/rengine)|Merge pull request #877 from AnonymousWP/fix-incorrect<br>-numbering-in-readmedocs(readme): fix numbered list|
 |2023-04-12 00:07:53|[feroxbuster](https://github.com/epi052/feroxbuster)|Merge pull request #869 from epi052/auto-filtering-acc<br>ount-for-extensionsadded extensions and status codes in<br>to auto filtering decision calculus|
-|2023-04-11 12:19:39|[sqlmap](https://github.com/sqlmapproject/sqlmap)|Update related to #5389|
 |2023-04-11 07:30:37|[Vuln-List](https://github.com/wwl012345/Vuln-List)|Update Windows&Linux提权&RCE合集.md|
 |2023-04-11 07:15:10|[veinmind-tools](https://github.com/chaitin/veinmind-tools)|fix(CI/CD): change goproxy settings (#222)|
 |2023-04-10 09:58:30|[pentest_report](https://github.com/dbgee/pentest_report)|code clean|
-|2023-04-10 02:33:33|[404StarLink](https://github.com/knownsec/404StarLink)|weekly update at 2023-04-10|
-|2023-04-10 01:07:17|[Vulnerability-Wiki](https://github.com/Threekiii/Vulnerability-Wiki)|更新漏洞|
 |2023-04-10 01:03:43|[Vulhub-Reproduce](https://github.com/Threekiii/Vulhub-Reproduce)|更新漏洞|
 |2023-04-10 00:55:59|[yonyou_exp_plus](https://github.com/li8u99/yonyou_exp_plus)|Add files via upload|
 |2023-04-08 17:14:05|[Stowaway](https://github.com/ph4ntonn/Stowaway)|Delete useless usage text|
@@ -80,18 +84,13 @@
 add all string export spider.|
 |2023-04-06 03:02:58|[Exp-Tools](https://github.com/cseroad/Exp-Tools)|Update README.md|
 |2023-04-06 02:56:31|[Komo](https://github.com/komomon/Komo)|Update finger_main.py|
-|2023-04-05 14:06:27|[OneForAll](https://github.com/shmilylty/OneForAll)|Merge pull request #306 from j4vaovo/patch-3Create wzs<br>earch.py|
 |2023-04-05 12:47:13|[ThunderSearch](https://github.com/xzajyjs/ThunderSearch)|update to v2.3.3|
 |2023-04-04 17:44:51|[Elkeid](https://github.com/bytedance/Elkeid)|fix type ：三 --> 两|
 |2023-04-04 13:51:30|[BurpSuite-collectio<br>ns](https://github.com/Mr-xn/BurpSuite-collections)|add burp-vps-proxy 插件|
 |2023-04-04 12:09:32|[HackBrowserData](https://github.com/moonD4rk/HackBrowserData)|Merge pull request #209 from moonD4rk/feat/lintfix: re<br>naming unused parameter|
 |2023-04-04 03:20:05|[poc-hub](https://github.com/ybdt/poc-hub)|整理|
 |2023-04-03 15:46:31|[RsaCtfTool](https://github.com/RsaCtfTool/RsaCtfTool)|If public modulus is prime bail out, fix issue #415|
-|2023-04-03 02:20:44|[GUI_Tools](https://github.com/ghealer/GUI_Tools)|Update README.md|
-|2023-04-02 17:16:18|[qsnctf-python](https://github.com/Moxin1044/qsnctf-python)|增加求等差数列第n项和n项和|
-|2023-04-02 14:15:19|[Ladon](https://github.com/k8gege/Ladon)|Add files via upload|
-|2023-04-02 14:08:10|[K8tools](https://github.com/k8gege/K8tools)|Add files via upload|
-|2023-04-02 09:06:22|[nuclei](https://github.com/projectdiscovery/nuclei)|Merge pull request #3491 from projectdiscovery/devnucl<br>ei v2.9.1|## 所有项目
+|2023-04-03 02:20:44|[GUI_Tools](https://github.com/ghealer/GUI_Tools)|Update README.md|## 所有项目
 # 渗透测试
 ## 信息收集
 ### 资产测绘采集
@@ -160,7 +159,7 @@ add all string export spider.|
 | [X-Marshal](https://github.com/XTeam-Wing/X-Marshal) |  | Golang-分布式资产探测&漏洞扫描&信息收集 |
 | [heartsk_community](https://github.com/yqcs/heartsk_community) | LOWBUG@La<br>test | Hearts K-企业资产发现与脆弱性检查工具，自动化资产信息收集与漏洞<br>扫描 |
 | [AnScan](https://github.com/Arbor01/AnScan) |  | AnScan是一款集合信息收集、分布式漏洞扫描、漏洞POC管理等为一体的<br>红队扫描工具 |
-| [nemo_go](https://github.com/hanc00l/nemo_go) | v2.9.2 | Nemo是用来进行自动化信息收集的一个简单平台，通过集成常用的信息收<br>集工具和技术，实现对内网及互联网资产信息的自动收集，提高隐患排查和<br>渗透测试的工作效率，用Go语言完全重构了原Python版本。 |
+| [nemo_go](https://github.com/hanc00l/nemo_go) | v2.9.2 | Nemo是用来进行自动化信息收集的一个简单平台，通过集成常用的信息收<br>集工具和技术，实现对内网及互联网资产信息的自动收集，提高隐患排查和<br>渗透测试的工作效率。 |
 | [rengine](https://github.com/yogeshojha/rengine) | v1.3.6 | reNgine is an automated reconnaissance framework for web applica<br>tions with a focus on highly configurable streamlined recon proce<br>ss via Engines, recon data correlation and organization, continuo<br>us monitoring, backed by a database, and simple yet intuitive Use<br>r Interface. reNgine makes it easy for penetration testers to gat<br>her reconnaissance with minimal configuration and with the help o<br>f reNgine's correlation, it just makes recon effortless. |
 | [ShuiZe_0x727](https://github.com/0x727/ShuiZe_0x727) | v1.0 | 信息收集自动化工具 |
 | [DBJ](https://github.com/wgpsec/DBJ) |  | 大宝剑-边界资产梳理工具（红队、蓝队、企业组织架构、子域名、Web资<br>产梳理、Web指纹识别、ICON_Hash资产匹配） |
@@ -418,7 +417,7 @@ add all string export spider.|
 | [VulWiki](https://github.com/Ares-X/VulWiki) |  | VulWiki |
 | [vulbase](https://github.com/cckuailong/vulbase) |  | 各大漏洞文库合集 |
 | [Awesome-POC](https://github.com/Threekiii/Awesome-POC) |  | 一个各类漏洞POC知识库 |
-| [Vulnerability-Wiki](https://github.com/Threekiii/Vulnerability-Wiki) | v1.0 | 一个综合漏洞知识库，集成了Vulhub、Peiqi、Edge、0sec、Wooyun等开<br>源漏洞库 |
+| [Vulnerability-Wiki](https://github.com/Threekiii/Vulnerability-Wiki) | v1.0 | 一个基于docsify的综合漏洞知识库，目前漏洞数量800+ |
 | [yougar0.github.io](https://github.com/heise5yuetian/yougar0.github.io) |  | 漏洞知识库 |
 | [Vulhub-Reproduce](https://github.com/Threekiii/Vulhub-Reproduce) |  | 一个Vulhub漏洞复现知识库 |
 | [Report_Public](https://github.com/DVPNET/Report_Public) |  |  DVPNET 公开漏洞知识库 |
@@ -446,7 +445,7 @@ add all string export spider.|
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
 | [shellcodeloader](https://github.com/knownsec/shellcodeloader) | v1.1 | shellcodeloader |
-| [AV_Evasion_Tool](https://github.com/1y0n/AV_Evasion_Tool) | 20230329 | 掩日 - 免杀执行器生成工具 |
+| [AV_Evasion_Tool](https://github.com/1y0n/AV_Evasion_Tool) | 20230417 | 掩日 - 免杀执行器生成工具 |
 ## 权限提升
 ### windows提权
 | 项目名称 | 版本 | 项目描述 |
@@ -458,7 +457,7 @@ add all string export spider.|
 | [dirtycow](https://github.com/firefart/dirtycow) |  | Dirty Cow exploit - CVE-2016-5195 |
 | [traitor](https://github.com/liamg/traitor) | v0.0.14 | :arrow_up: :skull_and_crossbones: :fire: Automatic Linux privesc<br> via exploitation of low-hanging fruit e.g. gtfobins, pwnkit, dir<br>ty pipe, +w docker.sock |
 | [LinEnum](https://github.com/rebootuser/LinEnum) |  | Scripted Local Linux Enumeration & Privilege Escalation Checks |
-| [PEASS-ng](https://github.com/carlospolop/PEASS-ng) | 20230413-<br>7f846812 | PEASS - Privilege Escalation Awesome Scripts SUITE (with colors) |
+| [PEASS-ng](https://github.com/carlospolop/PEASS-ng) | 20230417-<br>db0e0dbe | PEASS - Privilege Escalation Awesome Scripts SUITE (with colors) |
 ### 容器提权
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
@@ -469,7 +468,7 @@ add all string export spider.|
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
 | [shellcodeloader](https://github.com/knownsec/shellcodeloader) | v1.1 | shellcodeloader |
-| [AV_Evasion_Tool](https://github.com/1y0n/AV_Evasion_Tool) | 20230329 | 掩日 - 免杀执行器生成工具 |
+| [AV_Evasion_Tool](https://github.com/1y0n/AV_Evasion_Tool) | 20230417 | 掩日 - 免杀执行器生成工具 |
 ### 代理转发
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
@@ -552,7 +551,7 @@ add all string export spider.|
 | [BurpShiroPassiveSca<br>n](https://github.com/pmiaowu/BurpShiroPassiveScan) | BurpShiro<br>PassiveSca<br>n-2.0.0 | 一款基于BurpSuite的被动式shiro检测插件 |
 | [BurpFastJsonScan](https://github.com/pmiaowu/BurpFastJsonScan) | BurpFastJ<br>sonScan-2.<br>2.2 | 一款基于BurpSuite的被动式FastJson检测插件 |
 | [HaE](https://github.com/gh0stkey/HaE) | 2.4.6 | HaE - Highlighter and Extractor, 赋能白帽 高效作战 |
-| [domain_hunter_pro](https://github.com/bit4woo/domain_hunter_pro) | v1.9-alph<br>a | domain_hunter的高级版本，SRC挖洞、HW打点之必备！自动化资产收集；<br>快速Title获取；外部工具联动；等等 |
+| [domain_hunter_pro](https://github.com/bit4woo/domain_hunter_pro) | v1.9 | domain_hunter的高级版本，SRC挖洞、HW打点之必备！自动化资产收集；<br>快速Title获取；外部工具联动；等等 |
 | [Sylas](https://github.com/Acmesec/Sylas) | 1.1.1 | 新一代子域名主/被动收集工具 - Subdomain automatic/passive collec<br>tion tool |
 | [GadgetProbe](https://github.com/BishopFox/GadgetProbe) | v1.0 | Probe endpoints consuming Java serialized objects to identify cl<br>asses, libraries, and library versions on remote Java classpaths. |
 | [HopLa](https://github.com/synacktiv/HopLa) | 1.2 |  HopLa Burp Suite Extender plugin -Adds autocompletion support a<br>nd useful payloads in Burp Suite |
@@ -600,7 +599,7 @@ add all string export spider.|
 | [BurpExtractor](https://github.com/NetSPI/BurpExtractor) | v1.3.4 | A Burp extension for generic extraction and reuse of data within<br> HTTP requests and responses. |
 | [burp-cph](https://github.com/elespike/burp-cph) | 3.0 | Custom Parameter Handler extension for Burp Suite. |
 | [BurpJSLinkFinder](https://github.com/InitRoot/BurpJSLinkFinder) |  | Burp Extension for a passive scanning JS files for endpoint link<br>s. |
-| [domain_hunter_pro](https://github.com/bit4woo/domain_hunter_pro) | v1.9-alph<br>a | domain_hunter的高级版本，SRC挖洞、HW打点之必备！自动化资产收集；<br>快速Title获取；外部工具联动；等等 |
+| [domain_hunter_pro](https://github.com/bit4woo/domain_hunter_pro) | v1.9 | domain_hunter的高级版本，SRC挖洞、HW打点之必备！自动化资产收集；<br>快速Title获取；外部工具联动；等等 |
 | [JC-AntiToken](https://github.com/chroblert/JC-AntiToken) |  | burp插件：python版，token防重放绕过 |
 | [BurpSuite_403Bypass<br>er](https://github.com/sting8k/BurpSuite_403Bypasser) |  | Burpsuite Extension to bypass 403 restricted directory |
 | [Burp-Non-HTTP-Exten<br>sion](https://github.com/summitt/Burp-Non-HTTP-Extension) | v1.6 | Non-HTTP Protocol Extension (NoPE) Proxy and DNS for Burp Suite. |
