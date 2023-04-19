@@ -65,8 +65,8 @@
     "https://github.com/pppscn/SmsForwarder": {
         "created_at": "2021-02-10 02:23:07",
         "description": "短信转发器——监控Android手机短信、来电、APP通知，并根据指定规则转发到其他手机：钉钉群自定义机器人、钉钉企业内机器人、企业微信群机器人、飞书机器人、企业微信应用消息、邮箱、bark、webhook、Telegram机器人、Server酱、PushPlus、手机短信等。包括主动控制服务端与客户端，让你轻松远程发短信、查短信、查通话、查话簿、查电量等。（V3.0 新增）PS.这个APK主要是学习与自用，如有BUG请提ISSUE，同时欢迎大家提PR指正",
-        "commit_date": "2023-03-26 03:21:11",
-        "commit_message": "新增：issue 提交模板（请务必按照模板填写，避免浪费你我的时间）",
+        "commit_date": "2023-04-18 02:34:10",
+        "commit_message": "修复错误的 URL 有效性验证正则表达式 (#286)",
         "release_tag": "v3.2.0",
         "release_date": "2023-02-14 09:25:00",
         "release_message": "PS. 距离上一次1024发版，已经过去快5个月了，期间发生不少事，一直没更新这个项目，不管如何，魔幻的2022年都过去了！\r\n\r\n感谢大家这2年来的陪伴与支持，祝大家有情人终成眷属，情人节快乐！\r\n\r\n---\r\n\r\n### 【注意】\r\n\r\n* v3.x版本是全新重构开发，可能一开始并不稳定，建议升级前先做好数据备份！（客户端>一键换新机>离线模式>导出）\r\n\r\n* `v3.2.0` 去除了 `mmkv` 依赖，采用 `SharedPreferences` 来保存配置，升级之后通用设置中的配置请重新配置，具体原因参见 [Issue #245](https://github.com/pppscn/SmsForwarder/issues/245)\r\n\r\n* 升级完毕后，建议离线导出配置，完全卸载干净全新安装后再导入配置（可以避免一些莫名其妙的玄学问题，例如：耗电异常）\r\n\r\n---\r\n\r\n### 更新日志\r\n\r\n* 新增：短信指令（根据短信指令开关对应功能） #I5YX3F\r\n* 新增：监听网络状态变化提醒（APP通知转发，包名：77777777） #259\r\n* 新增：远程改话簿（方便给老人家添加联系人） #256\r\n* 新增：远程查询手机定位（方便找回手机/防止老少走丢） #256\r\n* 新增：Socket发送通道（支持MQTT/TCP/UDP协议） #252\r\n* 新增：发送通道 URL Scheme（支持跨应用数据传递）#250\r\n* 新增：自动消除额外APP通知 #232 #248\r\n\r\n* 优化：短信/通话转发获取卡槽信息机制（自行备注卡槽SubId对应）#228 #235\r\n* 优化：来电转发逻辑 & 新增提醒类型（1.来电挂机 2.去电挂机 3.未接来电 4.来电提醒 5.来电接通 6.去电拨出）\r\n* 优化：单个转发规则支持绑定多个发送通道，且支持执行逻辑（全部执行/失败即止/成功即止） #247\r\n* 优化：转发日志列表以原始信息为主，聚合展示转发日志（一对多）\r\n* 优化：已安装App信息列表异步加载机制\r\n* 优化：电池状态监听/网络状态监控 在未开启去重时默认开启1秒去重\r\n* 优化：利用BatteryReceiver守护自启动的Frpc (试验) #254\r\n\r\n* 修复：Android 13 无法授予通知权限 #255\r\n* 修复：重启手机自动启动APP时加载配置失败 #233 #245\r\n* 修复：转发消息遍历发送通道时未跳过已禁用的通道\r\n* 修复：降级Android Gradle插件版本以兼容4.4 (#249 by NyaMisty)\r\n\r\n* 升级：andserver到2.1.12（加快web端上下行速度等）\r\n* 升级：frpclib 到 v0.47.0\r\n* 升级：androidx组件和kotlin版本\r\n\r\n还有一些细微调整参见`github`提交记录\r\n\r\n---\r\n\r\n### APK版本说明：\r\n* universal: 通用版（不在乎安装包大小/懒得选就用这个版本，包含以下4种CPU架构so）\r\n* armeabi-v7a: 32位ARM设备（备用机首选）\r\n* arm64-v8a: 64位ARM设备（主流旗舰机）\r\n* x86: 32位Intel设备\r\n* x86_64: 64/32位Intel设备"
@@ -200,8 +200,8 @@
     "https://github.com/ycdxsb/PocOrExp_in_Github": {
         "created_at": "2021-04-13 05:46:16",
         "description": "聚合Github上已有的Poc或者Exp，CVE信息来自CVE官网。Auto Collect Poc Or Exp from Github by CVE ID.",
-        "commit_date": "2023-04-17 20:44:38",
-        "commit_message": "update 2023-04-18 04:44:38",
+        "commit_date": "2023-04-18 23:00:31",
+        "commit_message": "update 2023-04-19 07:00:31",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -380,8 +380,8 @@
     "https://github.com/lal0ne/vulnerability": {
         "created_at": "2022-01-20 02:48:42",
         "description": "收集、整理、修改互联网上公开的漏洞POC",
-        "commit_date": "2023-04-13 02:00:00",
-        "commit_message": "CVE-2022-1442",
+        "commit_date": "2023-04-18 07:17:13",
+        "commit_message": "CVE-2019-7609",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -461,7 +461,7 @@
     "https://github.com/ExpLangcn/NucleiTP": {
         "created_at": "2022-11-08 13:16:56",
         "description": "自动整合全网Nuclei的漏洞POC，实时同步更新最新POC！",
-        "commit_date": "2023-04-18 00:30:19",
+        "commit_date": "2023-04-19 00:30:16",
         "commit_message": "更新啦❤️",
         "release_tag": "",
         "release_date": "",
@@ -576,8 +576,8 @@
     "https://github.com/minhangxiaohui/DecodeSomeJSPWebshell": {
         "created_at": "2022-02-12 02:05:07",
         "description": "冰蝎、哥斯拉 jsp webshell通信流量解密器",
-        "commit_date": "2022-10-17 03:28:15",
-        "commit_message": "Update README.md",
+        "commit_date": "2023-04-18 10:06:15",
+        "commit_message": "Update README.md\n\n哥斯拉解密的时候的具体使用方法没有描述清除，导致我自己很久没用这个工具之后也忘记使用方法了，所以这里更新下描述文件，添加了哥斯拉的解密case样例",
         "release_tag": "v1.2",
         "release_date": "2022-02-12 02:41:09",
         "release_message": "v1.2 打包"
@@ -828,8 +828,8 @@
     "https://github.com/murphysecurity/murphysec": {
         "created_at": "2022-03-16 02:52:33",
         "description": "An open source tool focused on software supply chain security. 墨菲安全专注于软件供应链安全，具备专业的软件成分分析（SCA）、漏洞检测、专业漏洞库。",
-        "commit_date": "2023-04-17 12:06:33",
-        "commit_message": "fix: module relative path",
+        "commit_date": "2023-04-18 09:05:55",
+        "commit_message": "Revert \"refactor: remove task id config\"\n\nThis reverts commit 81b819f565c9da309b6b42c47815cd9607647862.",
         "release_tag": "v3.0.1",
         "release_date": "2023-02-13 07:25:06",
         "release_message": ""
@@ -1098,7 +1098,7 @@
     "https://github.com/Threekiii/Vulnerability-Wiki": {
         "created_at": "2022-04-29 05:36:33",
         "description": "一个基于docsify的综合漏洞知识库，目前漏洞数量800+",
-        "commit_date": "2023-04-17 02:24:59",
+        "commit_date": "2023-04-18 07:41:33",
         "commit_message": "更新漏洞",
         "release_tag": "v1.0",
         "release_date": "2022-07-15 01:58:00",
@@ -1735,8 +1735,8 @@
     "https://github.com/chaitin/veinmind-tools": {
         "created_at": "2022-02-08 08:12:15",
         "description": "veinmind-tools 是由长亭科技自研，基于 veinmind-sdk 打造的容器安全工具集",
-        "commit_date": "2023-04-11 07:15:10",
-        "commit_message": "fix(CI/CD): change goproxy settings (#222)",
+        "commit_date": "2023-04-18 14:59:45",
+        "commit_message": "feat(plugins): add ftp protocol support in plugin (#226)\n\n* feat(plugins): add ftp protocol support in plugin\r\ndocs(plugins): fix Readme table bug\r\n\r\n* docs(plugins): add ftp protocol support in plugin\r\n\r\n* feat(plugins): update dependency version\r\n\r\n* feat(plugins): add ftp protocol support in weekpass plugin\r\n\r\n* Refactor(plugins-weakpass): change Mod name to Service name mapping from one-to-one to one-to-many\r\n\r\n* Test(plugins-weakpass): Add unit tests for ftp service\r\n\r\n* Test(plugins-weakpass): Add unit tests for ftp service",
         "release_tag": "v2.1.1",
         "release_date": "2023-03-29 08:46:28",
         "release_message": "## Fix\r\n- 修复容器运行时部分初始化问题"
@@ -2789,8 +2789,8 @@
     "https://github.com/su18/ysoserial": {
         "created_at": "2021-07-26 01:20:01",
         "description": "ysoserial for su18",
-        "commit_date": "2023-04-16 12:11:15",
-        "commit_message": "添加 fastjson 两条利用链",
+        "commit_date": "2023-04-18 09:08:11",
+        "commit_message": "添加从 Thread 获取 Context 的两个 Jetty 内存马，以及 JettyEcho",
         "release_tag": "v1.5",
         "release_date": "2023-03-20 10:33:46",
         "release_message": "1. 全面支持 AgentNoFile 内存马，目前支持 Servlet/Tomcat Filter 型的内存马，支持 bx/gz/gzraw/cmd 动态生成，参数保持一致；\r\n2. 动态生成 Filter/Servlet 等名称，使用类名 + Filter 的形势，模拟常规名称，避免被一眼看出来；\r\n3. 优化项目架构，单独拆解内存马恶意类字节码生成代码，作为字节码生成中台，后续将集成 JNDI 注入利用相关；\r\n4. 对 exploit 下的利用方式进行了支持，除了每个 exploit 需要的参数，后面正常跟 payload 的参数；\r\n5. 更新 LF 参数，格式为 LF-/tmp/evil.class，后面可加类名，并对传递的类字节码进行了缩减大小的尝试；\r\n6. 修复 CC12 不能用的问题；\r\n7. 移除 jboss 相关代码及依赖；\r\n8. 更新命令执行最短化；\r\n9. 修复大量BUG，优化大量代码。"
@@ -2951,8 +2951,8 @@
     "https://github.com/dbeaver/dbeaver": {
         "created_at": "2015-10-21 08:26:28",
         "description": "Free universal database tool and SQL client",
-        "commit_date": "2023-04-17 19:48:13",
-        "commit_message": "dbeaver/pro#1554 Creds encryption fix (#19725)",
+        "commit_date": "2023-04-18 18:22:42",
+        "commit_message": "Dbeaver/dbeaver#1155 sql word iterator (#19736)\n\n* dbeaver/dbeaver#1155 Use identifier detector to iterate over words\r\n\r\n* dbeaver/dbeaver#1155 Preferences\r\n\r\n* dbeaver/dbeaver#1155 Code style\r\n\r\n* dbeaver/dbeaver#1155 Remove icu dep\r\n\r\n* dbeaver/dbeaver#1155 Typo fix\r\n\r\n---------\r\n\r\nCo-authored-by: MashaKorax <84867187+MashaKorax@users.noreply.github.com>",
         "release_tag": "23.0.2",
         "release_date": "2023-04-09 18:26:08",
         "release_message": "\n                - ER Diagrams:\n                    - Accessibility support (text reader) was added\n                    - Many keyboard shortcuts were added\n                    - Issue with diagram re-layout after options change was resolved\n                    - Issue with moving focus when searching was fixed\n                - General UI:\n                    - Database editors remain open after disconnect (configurable)\n                    - Clickable hints are now displayed as links\n                    - Issue with missing icons in the toolbar on MacOS was fixed\n                    - Font and color changes in the Result Set were improved\n                    - Large fonts now display correctly on MacOS\n                - SQL Editor:\n                    - Auto-completion for INSERT/UPDATE/DELETE queries was improved\n                    - Font changes are now applied without a restart\n                - Data Editor:\n                    - Show numeric values (e.g. infinity) rendering was improved\n                    - Issue with opening images from value panel in external editor was fixed\n                - Connectivity:\n                    - Legacy SSH algorithms support was added\n                    - Confirmation dialogs now remember user selection\n                    - The number of attempts to reopen the connection was reduced\n                    - Ability to connect via SSHJ with unsaved password was added\n                    - Maven artifacts configuration now supports classifier\n                - Data transfer: column description support was added for CSV and XLS formats,\n                - AI (ChatGPT): unsupported AI models were replaced with new ones\n                - Databases:\n                    - Firebird: default parameters in procedure definitions were added\n                    - PostgresSQL: materialized views dependencies were added\n                    - Databricks: support of table comments were added\n                    - Oracle: issue with cropped ‘q’ at the end of the string was fixed\n                    - SQLite: triggers delete was implemented\n                    - SQL Server: issue with duplicated data types was resolved\n                - Localization:\n                    - Traditional Chinese localization was updated (thanks to @hwhsu1231)\n                    - Traditional Chinese language was added to Windows installer\n                - Misc:\n                    - Microsoft store: issue with application installation was fixed on most machines\n                    - We switched to Java 17 (again)\n                    - We switched to Eclipse 2023-03 as a base platform\n            "
@@ -3548,8 +3548,8 @@
     "https://github.com/bytedance/appshark": {
         "created_at": "2022-09-01 03:39:03",
         "description": "Appshark is a static taint analysis platform to scan vulnerabilities in an Android app.",
-        "commit_date": "2023-02-23 05:56:50",
-        "commit_message": "support pattern filed match.",
+        "commit_date": "2023-04-18 09:45:13",
+        "commit_message": "Merge pull request #36 from guoxiaoxu/main\n\nupdate reflection.kt",
         "release_tag": "v0.1.2",
         "release_date": "2022-09-22 10:03:10",
         "release_message": "fix problems running on windows."
@@ -3699,10 +3699,10 @@
     "https://github.com/carlospolop/PEASS-ng": {
         "created_at": "2019-01-13 19:58:24",
         "description": "PEASS - Privilege Escalation Awesome Scripts SUITE (with colors)",
-        "commit_date": "2023-04-17 04:45:14",
+        "commit_date": "2023-04-18 03:50:32",
         "commit_message": "Update sensitive_files.yaml",
-        "release_tag": "20230417-db0e0dbe",
-        "release_date": "2023-04-17 05:04:25",
+        "release_tag": "20230418-edede4b8",
+        "release_date": "2023-04-18 04:09:07",
         "release_message": ""
     },
     "https://github.com/waderwu/attackRmi": {

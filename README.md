@@ -1,10 +1,10 @@
-# 更新于 2023-04-18 08:38:30
+# 更新于 2023-04-19 08:40:37
 
 ## 近15天release更新记录
 | 更新时间 | 项目名称 | 版本 | 更新内容 |
 | :---- | :---- | :---- | :---- |
+|2023-04-18 04:09:07|[PEASS-ng](https://github.com/carlospolop/PEASS-ng)|20230418-<br>edede4b8||
 |2023-04-18 00:34:58|[domain_hunter_pro](https://github.com/bit4woo/domain_hunter_pro)|v1.9|全局：多个bug修复布局模式优化基础方法实<br>现逻辑优化右键菜单：“Do Search”提供主动<br>在制定请求中进行搜索的能力，比如在某企业<br>邮箱的流量中搜索以提取邮箱地址“Add Reque<br>st And Comment”右键菜单添逻辑优化，修复<br>一个bug“Send To Tool Panel”右键菜单处理<br>逻辑优化，可合并发送多个数据包内容Domain<br>面板：root domain的comments逻辑更新提供多<br>个网络搜索引擎的后台自动搜索功能root doma<br>in双击，自动在浏览器中访问修改目标根域名<br>删除失败的bug显示序号，以便在排序后恢复原<br>始顺序Tool面板：重写JTextArea的paste函数<br>，避免大内容导致程序卡死JTextArea支持输入<br>文件，而程序处理其内容。文本取提供简单的<br>历史记录功能JSON提取逻辑优化新增多个功能<br>，比如排序优化URL提取逻辑，避免遗漏没有以<br>/开头的pathTitle面板中：端口扫描命令生成<br>逻辑优化备注和IP内容的显示优化，显示前排<br>序备注添加逻辑优化给手动添加的记录添加已<br>知的IP和CNAME、CertInfo搜索功能增强，支持<br>对数字型字段进行大于、小于、等于等搜索添<br>加多个搜索实例，以便用户熟悉搜索语法新增<br>“Do Request Item Again”菜单，对DNS记录<br>或无响应的数据包进行再次请求|
-|2023-04-17 05:04:25|[PEASS-ng](https://github.com/carlospolop/PEASS-ng)|20230417-<br>db0e0dbe||
 |2023-04-17 01:16:06|[AV_Evasion_Tool](https://github.com/1y0n/AV_Evasion_Tool)|20230417|1. 效果优化|
 |2023-04-16 22:40:19|[SSTImap](https://github.com/vladko312/SSTImap)|v1.1|- Crawler and form detection (by @fante<br>sykikachu)- New template engine added: C<br>heetah- Automatic import for engine modu<br>les- Interactive module reloading capabi<br>lity- Full support for Python 3.11- Repl<br>aced telnetlib with a custom TCP client|
 |2023-04-15 01:34:31|[nemo_go](https://github.com/hanc00l/nemo_go)|v2.9.2|### Updated- 首页登录及后台更改密码时，<br>采用RSA加密传输（每次server启动生成随机RS<br>A密钥对）；- WEB页面修改XSCAN的默认配置<br>；优化XSCAN的选项，增加Nuclei漏洞扫描；- <br>增加输入任务参数长度校验（目标Targets不超<br>过5000个字符，输入参数总长度不超过6000个<br>字符）；- 增加WebServer API接口和Swagger<br>调试页面（为前后端分离提供支持）；- 将子<br>域名被动收集（Subfinder）及指纹获取（Http<br>x）功能由原通过源代码集成改用调用二进制<br>文件（解决和降低内存泄露、协程异常导致内<br>存和CPU占用异常的bug）；- 增加IP与资产的<br>黑名单功能及一键拉黑功能，对黑名单的资产<br>忽略指纹及漏洞任务、结果不会进行存储；- <br>更新纯真数据库；- ChangeLog；### Fix- 子<br>域名被动枚举（Subfinder）配置的provider-c<br>onfig.yaml未生效|
@@ -26,29 +26,32 @@
 |2023-04-06 03:01:32|[Exp-Tools](https://github.com/cseroad/Exp-Tools)|v1.1.5|- 新增蓝凌oa后台模板上传漏洞- 新增用友C<br>RM swfupload 文件上传- 修复cookie 更新- <br>优化部分代码- 修复多个bug|
 |2023-04-05 13:07:25|[ThunderSearch](https://github.com/xzajyjs/ThunderSearch)|v2.3.3|- 新增了Sqlite3支持- 微调UI尺寸---- Add<br> sqlite3 support- Fine-tuned the UI size<br>---> md5ThunderSearch_darwin_universal.z<br>ip = d9b134f8311935f75577667dc7e02b78Thu<br>nderSearch_win_x86.zip = a2cd29776336d1e<br>ce4e0d494e676566a注意：win版本是旧版，并<br>未更新|
 |2023-04-05 10:31:36|[afrog](https://github.com/zan8in/afrog)|v2.2.2|bug:- Fix afrog html report XSS vulnera<br>bilityoptimization:- Simplified URL blac<br>klist mechanism- Optimize http/s detecti<br>on function- Optimized file upload (all)<br> PoC- Optimize RCE (all) PoCdelete:- Rem<br>ove Fingerprint fingerprint recognition <br>and command parameters (replacement tool<br> pyxis)- Remove uncommon command paramet<br>ersPoC:- Added 52 PoCs- Validate and opt<br>imize n multiple PoCs- Remove PoC csz-cm<br>s-multiple-blind-sql-injection- Remove P<br>oC phpstudy-nginx-wrong-resolve- Built-i<br>n several private PoC-------------------<br>-----------------------修复：- 修复 afro<br>g html 报告 XSS 漏洞优化：- 简化 URL 黑<br>名单机制- 优化 http/s 检测功能- 优化 文件<br>上传 (所有) PoC- 优化 RCE (所有) PoC删除<br>：- 去掉 Fingerprint 指纹识别及命令参数 (<br>替代工具 pyxis)- 去掉不常用命令参数PoC:- <br>新增 52 PoC- 验证和优化 n 多个 PoC- 删除 <br>PoCcsz-cms-multiple-blind-sql-injection-<br> 删除 PoC phpstudy-nginx-wrong-resolve- <br>内置几个 privatePoC|
-|2023-04-03 14:04:31|[mitaka](https://github.com/ninoseki/mitaka)|v1.1.1|- Fix search all issue (#720)- Update m<br>anifest (#721) |
-|2023-04-03 02:50:37|[railgun](https://github.com/lz520520/railgun)|v1.5.4|解压密码railgun1. 主界面模块搜索功能2. <br>历史搜索优化，增加编辑数据库模式以及删除<br>指定数据3. 资产管理功能增加(beta)a. 完成<br>按单位的资产管理模块添加，优化部分数据库<br>操作。b. 增加导入扩展接口，可以自定义导入<br>格式解析。目前支持oneforall导入。c. 增加<br>内置模块导入资产模块功能。d. 端口信息中，<br>IP和端口关联4. web指纹重构，更符合实际需<br>求，增加web指纹库管理界面，后续可灵活扩展<br>。后续根据实战可快速优化指纹。5. 漏洞利用<br>a. exp 插件调用库优化b. 子选项获取参数异<br>常问题修复|
 ## 近15天commit提交记录
 | 提交时间 | 项目名称 | 更新内容 |
 | :---- | :---- | :---- |
-|2023-04-18 00:30:19|[NucleiTP](https://github.com/ExpLangcn/NucleiTP)|更新啦❤️|
+|2023-04-19 00:30:16|[NucleiTP](https://github.com/ExpLangcn/NucleiTP)|更新啦❤️|
+|2023-04-18 23:00:31|[PocOrExp_in_Github](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-04-19 07:00:31|
+|2023-04-18 18:22:42|[dbeaver](https://github.com/dbeaver/dbeaver)|Dbeaver/dbeaver#1155 sql word iterator (#19736)* dbeav<br>er/dbeaver#1155 Use identifier detector to iterate over<br> words* dbeaver/dbeaver#1155 Preferences* dbeaver/dbeav<br>er#1155 Code style* dbeaver/dbeaver#1155 Remove icu dep<br>* dbeaver/dbeaver#1155 Typo fix---------Co-authored-by:<br> MashaKorax |
+|2023-04-18 14:59:45|[veinmind-tools](https://github.com/chaitin/veinmind-tools)|feat(plugins): add ftp protocol support in plugin (#22<br>6)* feat(plugins): add ftp protocol support in plugindo<br>cs(plugins): fix Readme table bug* docs(plugins): add f<br>tp protocol support in plugin* feat(plugins): update de<br>pendency version* feat(plugins): add ftp protocol suppo<br>rt in weekpass plugin* Refactor(plugins-weakpass): chan<br>ge Mod name to Service name mapping from one-to-one to <br>one-to-many* Test(plugins-weakpass): Add unit tests for<br> ftp service* Test(plugins-weakpass): Add unit tests fo<br>r ftp service|
+|2023-04-18 10:06:15|[DecodeSomeJSPWebshe<br>ll](https://github.com/minhangxiaohui/DecodeSomeJSPWebshell)|Update README.md哥斯拉解密的时候的具体使用方法没有描述<br>清除，导致我自己很久没用这个工具之后也忘记使用方法了，所<br>以这里更新下描述文件，添加了哥斯拉的解密case样例|
+|2023-04-18 09:45:13|[appshark](https://github.com/bytedance/appshark)|Merge pull request #36 from guoxiaoxu/mainupdate refle<br>ction.kt|
+|2023-04-18 09:08:11|[ysoserial](https://github.com/su18/ysoserial)|添加从 Thread 获取 Context 的两个 Jetty 内存马，以及 J<br>ettyEcho|
+|2023-04-18 09:05:55|[murphysec](https://github.com/murphysecurity/murphysec)|Revert "refactor: remove task id config"This reverts c<br>ommit 81b819f565c9da309b6b42c47815cd9607647862.|
+|2023-04-18 07:41:33|[Vulnerability-Wiki](https://github.com/Threekiii/Vulnerability-Wiki)|更新漏洞|
+|2023-04-18 07:17:13|[vulnerability](https://github.com/lal0ne/vulnerability)|CVE-2019-7609|
+|2023-04-18 03:50:32|[PEASS-ng](https://github.com/carlospolop/PEASS-ng)|Update sensitive_files.yaml|
+|2023-04-18 02:34:10|[SmsForwarder](https://github.com/pppscn/SmsForwarder)|修复错误的 URL 有效性验证正则表达式 (#286)|
 |2023-04-18 00:03:06|[domain_hunter_pro](https://github.com/bit4woo/domain_hunter_pro)|v1.9|
 |2023-04-17 23:30:57|[knife](https://github.com/bit4woo/knife)|Merge pull request #61 from bit4woo/dependabot/maven/o<br>rg.json-json-20230227Bump json from 20180813 to 2023022<br>7|
-|2023-04-17 20:44:38|[PocOrExp_in_Github](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-04-18 04:44:38|
-|2023-04-17 19:48:13|[dbeaver](https://github.com/dbeaver/dbeaver)|dbeaver/pro#1554 Creds encryption fix (#19725)|
-|2023-04-17 12:06:33|[murphysec](https://github.com/murphysecurity/murphysec)|fix: module relative path|
 |2023-04-17 11:35:24|[sqlmap](https://github.com/sqlmapproject/sqlmap)|Potential patch for #5392|
 |2023-04-17 08:34:38|[v2rayA](https://github.com/v2rayA/v2rayA)|Merge pull request #917 from Gh0u1L5/feat_v5|
 |2023-04-17 07:42:21|[ddddocr](https://github.com/sml2h3/ddddocr)|Update README.md|
-|2023-04-17 04:45:14|[PEASS-ng](https://github.com/carlospolop/PEASS-ng)|Update sensitive_files.yaml|
-|2023-04-17 02:24:59|[Vulnerability-Wiki](https://github.com/Threekiii/Vulnerability-Wiki)|更新漏洞|
 |2023-04-17 02:21:47|[404StarLink](https://github.com/knownsec/404StarLink)|weekly update at 2023-04-17|
 |2023-04-17 02:09:40|[Awesome-POC](https://github.com/Threekiii/Awesome-POC)|更新漏洞|
 |2023-04-17 01:34:19|[OneForAll](https://github.com/shmilylty/OneForAll)|Merge pull request #308 from mastomii/adding-massdns-l<br>inux-aarch64adding "massdns-linux-aarch64"|
 |2023-04-17 01:33:40|[autoDecoder](https://github.com/f0ng/autoDecoder)|Update README.md|
 |2023-04-17 01:17:36|[AV_Evasion_Tool](https://github.com/1y0n/AV_Evasion_Tool)|Update README.md|
 |2023-04-16 22:36:36|[SSTImap](https://github.com/vladko312/SSTImap)|Release of SSTImap version 1.1.0Crawler and form detec<br>tion (by @fantesykikachu)New template engine added: Che<br>etahAutomatic import for engine modulesInteractive modu<br>le reloading capabilityFull support for Python 3.11Repl<br>aced telnetlib with a custom TCP client---------Co-auth<br>ored-by: fantesykikachu |
-|2023-04-16 12:11:15|[ysoserial](https://github.com/su18/ysoserial)|添加 fastjson 两条利用链|
 |2023-04-15 14:09:04|[fofax](https://github.com/xiecat/fofax)|修复更新时如果网络有问题可能引发异常问题 #29 。修改弃<br>用函数|
 |2023-04-15 13:57:07|[afrog](https://github.com/zan8in/afrog)|update poc|
 |2023-04-15 12:01:57|[Umi-OCR](https://github.com/hiroi-sora/Umi-OCR)|Merge branch 'main' of https://github.com/hiroi-sora/U<br>mi-OCR|
@@ -56,7 +59,6 @@
 |2023-04-15 08:40:51|[mitaka](https://github.com/ninoseki/mitaka)|Merge pull request #709 from ninoseki/renovate/chrome-<br>0.xchore(deps): update dependency @types/chrome to ^0.0<br>.231|
 |2023-04-15 02:37:26|[PeiQi-WIKI-Book](https://github.com/PeiQi0/PeiQi-WIKI-Book)|漏洞相关:瑞友,Go-fastdfs等漏洞:tada:|
 |2023-04-15 01:26:43|[nemo_go](https://github.com/hanc00l/nemo_go)|Update: Release v2.9.2|
-|2023-04-13 02:00:00|[vulnerability](https://github.com/lal0ne/vulnerability)|CVE-2022-1442|
 |2023-04-12 07:44:49|[ZoomEye-python](https://github.com/knownsec/ZoomEye-python)|Merge pull request #87 from knownsec/devupdate():remov<br>e username and password authenticate method|
 |2023-04-12 07:23:36|[xray](https://github.com/chaitin/xray)|[update] POC贡献流程|
 |2023-04-12 07:14:03|[About-Attack](https://github.com/lintstar/About-Attack)|Update README.md项目页面重构 https://red.lintstar.top/<br>Attack/|
@@ -64,7 +66,6 @@
 |2023-04-12 02:41:31|[rengine](https://github.com/yogeshojha/rengine)|Merge pull request #877 from AnonymousWP/fix-incorrect<br>-numbering-in-readmedocs(readme): fix numbered list|
 |2023-04-12 00:07:53|[feroxbuster](https://github.com/epi052/feroxbuster)|Merge pull request #869 from epi052/auto-filtering-acc<br>ount-for-extensionsadded extensions and status codes in<br>to auto filtering decision calculus|
 |2023-04-11 07:30:37|[Vuln-List](https://github.com/wwl012345/Vuln-List)|Update Windows&Linux提权&RCE合集.md|
-|2023-04-11 07:15:10|[veinmind-tools](https://github.com/chaitin/veinmind-tools)|fix(CI/CD): change goproxy settings (#222)|
 |2023-04-10 09:58:30|[pentest_report](https://github.com/dbgee/pentest_report)|code clean|
 |2023-04-10 01:03:43|[Vulhub-Reproduce](https://github.com/Threekiii/Vulhub-Reproduce)|更新漏洞|
 |2023-04-10 00:55:59|[yonyou_exp_plus](https://github.com/li8u99/yonyou_exp_plus)|Add files via upload|
@@ -88,9 +89,7 @@ add all string export spider.|
 |2023-04-04 17:44:51|[Elkeid](https://github.com/bytedance/Elkeid)|fix type ：三 --> 两|
 |2023-04-04 13:51:30|[BurpSuite-collectio<br>ns](https://github.com/Mr-xn/BurpSuite-collections)|add burp-vps-proxy 插件|
 |2023-04-04 12:09:32|[HackBrowserData](https://github.com/moonD4rk/HackBrowserData)|Merge pull request #209 from moonD4rk/feat/lintfix: re<br>naming unused parameter|
-|2023-04-04 03:20:05|[poc-hub](https://github.com/ybdt/poc-hub)|整理|
-|2023-04-03 15:46:31|[RsaCtfTool](https://github.com/RsaCtfTool/RsaCtfTool)|If public modulus is prime bail out, fix issue #415|
-|2023-04-03 02:20:44|[GUI_Tools](https://github.com/ghealer/GUI_Tools)|Update README.md|## 所有项目
+|2023-04-04 03:20:05|[poc-hub](https://github.com/ybdt/poc-hub)|整理|## 所有项目
 # 渗透测试
 ## 信息收集
 ### 资产测绘采集
@@ -457,7 +456,7 @@ add all string export spider.|
 | [dirtycow](https://github.com/firefart/dirtycow) |  | Dirty Cow exploit - CVE-2016-5195 |
 | [traitor](https://github.com/liamg/traitor) | v0.0.14 | :arrow_up: :skull_and_crossbones: :fire: Automatic Linux privesc<br> via exploitation of low-hanging fruit e.g. gtfobins, pwnkit, dir<br>ty pipe, +w docker.sock |
 | [LinEnum](https://github.com/rebootuser/LinEnum) |  | Scripted Local Linux Enumeration & Privilege Escalation Checks |
-| [PEASS-ng](https://github.com/carlospolop/PEASS-ng) | 20230417-<br>db0e0dbe | PEASS - Privilege Escalation Awesome Scripts SUITE (with colors) |
+| [PEASS-ng](https://github.com/carlospolop/PEASS-ng) | 20230418-<br>edede4b8 | PEASS - Privilege Escalation Awesome Scripts SUITE (with colors) |
 ### 容器提权
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
