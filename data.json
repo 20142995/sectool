@@ -200,8 +200,8 @@
     "https://github.com/ycdxsb/PocOrExp_in_Github": {
         "created_at": "2021-04-13 05:46:16",
         "description": "聚合Github上已有的Poc或者Exp，CVE信息来自CVE官网。Auto Collect Poc Or Exp from Github by CVE ID.",
-        "commit_date": "2023-04-18 23:00:31",
-        "commit_message": "update 2023-04-19 07:00:31",
+        "commit_date": "2023-04-19 23:03:19",
+        "commit_message": "update 2023-04-20 07:03:19",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -353,8 +353,8 @@
     "https://github.com/Ifory885/fshzqSearch": {
         "created_at": "2023-01-14 09:14:41",
         "description": "fofa、shodan、hunter、zoomeye、quake网络空间搜索引擎及github聚合搜索，并对结果进行finger指纹识别。",
-        "commit_date": "2023-04-06 09:16:06",
-        "commit_message": "Update config.yaml",
+        "commit_date": "2023-04-19 15:11:04",
+        "commit_message": "Update quake_search.py",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -434,11 +434,11 @@
     "https://github.com/xiao-zhu-zhu/noterce": {
         "created_at": "2023-01-31 07:56:29",
         "description": "一种另辟蹊径的免杀执行系统命令的木马",
-        "commit_date": "2023-03-22 06:35:17",
-        "commit_message": "Update README.md",
-        "release_tag": "v1.1",
-        "release_date": "2023-02-01 07:56:09",
-        "release_message": "v1.1版本: \r\n1.修复重复主机bug \r\n2.增加被控端刷新功能"
+        "commit_date": "2023-04-19 04:29:51",
+        "commit_message": "Update server.go\n\n1.2 修复被控端不能更改地址的bug",
+        "release_tag": "v1.2",
+        "release_date": "2023-04-19 04:40:00",
+        "release_message": "修复被控端不能更改note地址的bug\r\n\r\n感谢Explo1t师傅反馈"
     },
     "https://github.com/synacktiv/HopLa": {
         "created_at": "2021-05-06 11:01:23",
@@ -461,7 +461,7 @@
     "https://github.com/ExpLangcn/NucleiTP": {
         "created_at": "2022-11-08 13:16:56",
         "description": "自动整合全网Nuclei的漏洞POC，实时同步更新最新POC！",
-        "commit_date": "2023-04-19 00:30:16",
+        "commit_date": "2023-04-20 00:30:16",
         "commit_message": "更新啦❤️",
         "release_tag": "",
         "release_date": "",
@@ -648,8 +648,8 @@
     "https://github.com/helloexp/0day": {
         "created_at": "2022-04-07 04:28:29",
         "description": "各种CMS、各种平台、各种系统、各种软件漏洞的EXP、POC ,该项目将持续更新",
-        "commit_date": "2023-04-07 02:11:44",
-        "commit_message": "add CVE-2021-21972 RCE",
+        "commit_date": "2023-04-19 05:37:56",
+        "commit_message": "add CVE-2023-23397 exp",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -974,15 +974,15 @@
         "description": "一款完善的安全评估工具，支持常见 web 安全问题扫描和自定义 poc | 使用之前务必先阅读文档",
         "commit_date": "2023-04-12 07:23:36",
         "commit_message": "[update] POC贡献流程",
-        "release_tag": "1.9.5",
-        "release_date": "2023-04-12 03:39:31",
-        "release_message": "### 版本介绍\r\n\r\n该版本为 瑞友天翼应用虚拟化系统远程代码执行漏洞 的应急版本，除了增加该漏洞的POC，未对其他内容做修改。\r\n\r\n### 更新内容\r\n\r\n新增poc-yaml-realor-gwt-system-sql-injection检测插件（因为漏洞本身是sql注入引起的RCE，所以漏洞分类是sql-injection）\r\n想要检测该漏洞的师傅，可以使用\r\n\r\n`./xray ws --poc poc-yaml-realor-gwt-system-sql-injection --url example.com`\r\n\r\n进行检测。\r\n\r\n相关参考链接：[CT stack](https://stack.chaitin.com/techblog/detail?id=74)"
+        "release_tag": "1.9.6",
+        "release_date": "2023-04-19 02:55:32",
+        "release_message": "## 更新说明\r\n\r\n### 版本介绍\r\n\r\n该版本为 Apache Druid远程代码执行漏洞 的应急版本，相较上个版本，除了添加了一个POC外，未改动其他内容。\r\n\r\n### 更新内容\r\n\r\n新增poc-yaml-apache-druid-kafka-rce检测插件\r\n想要检测该漏洞的师傅，可以使用\r\n\r\n`./xray ws --poc poc-yaml-apache-druid-kafka-rce --url http://example.com`\r\n\r\n进行检测。\r\n\r\n相关参考链接：[CT stack](https://stack.chaitin.com/techblog/detail?id=78)"
     },
     "https://github.com/sqlmapproject/sqlmap": {
         "created_at": "2012-06-26 09:52:15",
         "description": "Automatic SQL injection and database takeover tool",
-        "commit_date": "2023-04-17 11:35:24",
-        "commit_message": "Potential patch for #5392",
+        "commit_date": "2023-04-19 14:05:23",
+        "commit_message": "Fixes #5401",
         "release_tag": "1.7",
         "release_date": "2023-01-02 22:32:55",
         "release_message": "Stable version 1.7 ([changeset](https://github.com/sqlmapproject/sqlmap/compare/1.6...1.7))"
@@ -1305,7 +1305,7 @@
     "https://github.com/burpheart/koko-moni": {
         "created_at": "2023-03-13 14:40:22",
         "description": "一个网络空间搜索引擎监控平台，可定时进行资产信息爬取，及时发现新增资产，本项目聚合了 Fofa、Hunter、Quake、Zoomeye 和 Threatbook 的数据源，并对获取到的数据进行去重与清洗",
-        "commit_date": "2023-03-14 02:45:47",
+        "commit_date": "2023-04-19 13:35:30",
         "commit_message": "Update readme.md",
         "release_tag": "v0.0.1",
         "release_date": "2023-03-13 15:04:36",
@@ -2005,8 +2005,8 @@
     "https://github.com/bit4woo/knife": {
         "created_at": "2018-06-12 14:25:18",
         "description": "A burp extension that add some useful function to  Context Menu 添加一些右键菜单让burp用起来更顺畅",
-        "commit_date": "2023-04-17 23:30:57",
-        "commit_message": "Merge pull request #61 from bit4woo/dependabot/maven/org.json-json-20230227\n\nBump json from 20180813 to 20230227",
+        "commit_date": "2023-04-19 08:29:14",
+        "commit_message": "Update HeaderManager.java",
         "release_tag": "v2.1",
         "release_date": "2022-11-20 09:04:40",
         "release_message": "融合U2C和Chinese2个Tab，让它们都可以支持切换编码\r\n新增功能：从JS中查找URL路径后，拼接BaseURL并请求\r\n其他小的更新、bug修复\r\n\r\n## What's Changed\r\n* Bump gson from 2.3.1 to 2.8.9 by @dependabot in https://github.com/bit4woo/knife/pull/45\r\n* Bump commons-text from 1.6 to 1.10.0 by @dependabot in https://github.com/bit4woo/knife/pull/53\r\n\r\n## New Contributors\r\n* @dependabot made their first contribution in https://github.com/bit4woo/knife/pull/45\r\n\r\n**Full Changelog**: https://github.com/bit4woo/knife/compare/v2.0...v2.1"
@@ -2248,8 +2248,8 @@
     "https://github.com/epi052/feroxbuster": {
         "created_at": "2020-08-22 15:36:19",
         "description": "A fast, simple, recursive content discovery tool written in Rust.",
-        "commit_date": "2023-04-12 00:07:53",
-        "commit_message": "Merge pull request #869 from epi052/auto-filtering-account-for-extensions\n\nadded extensions and status codes into auto filtering decision calculus",
+        "commit_date": "2023-04-19 22:15:50",
+        "commit_message": "added ability to specify install directory for install-nix.sh",
         "release_tag": "v2.9.3",
         "release_date": "2023-04-12 00:28:11",
         "release_message": "## What's Changed\r\n* added extensions and status codes into auto filtering decision calculus by @epi052 in https://github.com/epi052/feroxbuster/pull/869\r\n\r\nSpecial thanks to @0xdf223 for letting me know about the shortcoming :partying_face: \r\n\r\n**Full Changelog**: https://github.com/epi052/feroxbuster/compare/v2.9.2...v2.9.3"
@@ -2789,8 +2789,8 @@
     "https://github.com/su18/ysoserial": {
         "created_at": "2021-07-26 01:20:01",
         "description": "ysoserial for su18",
-        "commit_date": "2023-04-18 09:08:11",
-        "commit_message": "添加从 Thread 获取 Context 的两个 Jetty 内存马，以及 JettyEcho",
+        "commit_date": "2023-04-19 12:00:21",
+        "commit_message": "更新 Agent Filter 中间件 Hook 点",
         "release_tag": "v1.5",
         "release_date": "2023-03-20 10:33:46",
         "release_message": "1. 全面支持 AgentNoFile 内存马，目前支持 Servlet/Tomcat Filter 型的内存马，支持 bx/gz/gzraw/cmd 动态生成，参数保持一致；\r\n2. 动态生成 Filter/Servlet 等名称，使用类名 + Filter 的形势，模拟常规名称，避免被一眼看出来；\r\n3. 优化项目架构，单独拆解内存马恶意类字节码生成代码，作为字节码生成中台，后续将集成 JNDI 注入利用相关；\r\n4. 对 exploit 下的利用方式进行了支持，除了每个 exploit 需要的参数，后面正常跟 payload 的参数；\r\n5. 更新 LF 参数，格式为 LF-/tmp/evil.class，后面可加类名，并对传递的类字节码进行了缩减大小的尝试；\r\n6. 修复 CC12 不能用的问题；\r\n7. 移除 jboss 相关代码及依赖；\r\n8. 更新命令执行最短化；\r\n9. 修复大量BUG，优化大量代码。"
@@ -2951,8 +2951,8 @@
     "https://github.com/dbeaver/dbeaver": {
         "created_at": "2015-10-21 08:26:28",
         "description": "Free universal database tool and SQL client",
-        "commit_date": "2023-04-18 18:22:42",
-        "commit_message": "Dbeaver/dbeaver#1155 sql word iterator (#19736)\n\n* dbeaver/dbeaver#1155 Use identifier detector to iterate over words\r\n\r\n* dbeaver/dbeaver#1155 Preferences\r\n\r\n* dbeaver/dbeaver#1155 Code style\r\n\r\n* dbeaver/dbeaver#1155 Remove icu dep\r\n\r\n* dbeaver/dbeaver#1155 Typo fix\r\n\r\n---------\r\n\r\nCo-authored-by: MashaKorax <84867187+MashaKorax@users.noreply.github.com>",
+        "commit_date": "2023-04-19 18:43:46",
+        "commit_message": "dbeaver/pro#1490 usage statistics (#19596)\n\n* dbeaver/pro#1490 Features model refactoring + extra features\r\n\r\n* dbeaver/pro#1490 Features tracking\r\n\r\n* dbeaver/pro#1490 Additional features\r\n\r\n* Disable driver wrapper\r\n\r\n* QMDB: project search fix (use project name/ID)\r\n\r\n* dbeaver/pro#1492 Fix CB run scripts\r\n\r\n* dbeaver/pro#1490 Confirmation dialog + pref page redesign\r\n\r\n* dbeaver/pro#1490 Move UI to the new bundle\r\n\r\n* dbeaver/pro#1490 Move tracking to the new bundle\r\n\r\n* dbeaver/pro#1490 Transmit statistics to server\r\n\r\n* dbeaver/pro#1490 Statistics transmitter\r\n\r\n* Force single connection for Clickhouse\r\n\r\n* dbeaver/pro#1490 Pass locale and timezone\r\n\r\n* dbeaver/pro#1490 Statistics transmitter\r\n\r\n* dbeaver/pro#1490 Comment fix\r\n\r\n* dbeaver/pro#1490 Remove extra props from start feature\r\n\r\n* dbeaver/pro#1490 Pref page improvements\r\n\r\n* dbeaver/pro#1490 Include statistics collector in local products only\r\n\r\n* dbeaver/pro#1490 Extra features tracking\r\n\r\n* dbeaver/pro#1490 Tasks tracking\r\n\r\n* dbeaver/pro#1490 Compile fix\r\n\r\n* dbeaver/pro#1490 Use proper endpoint for stats collector\r\n\r\n* dbeaver/pro#1490 Additional logging and error handling",
         "release_tag": "23.0.2",
         "release_date": "2023-04-09 18:26:08",
         "release_message": "\n                - ER Diagrams:\n                    - Accessibility support (text reader) was added\n                    - Many keyboard shortcuts were added\n                    - Issue with diagram re-layout after options change was resolved\n                    - Issue with moving focus when searching was fixed\n                - General UI:\n                    - Database editors remain open after disconnect (configurable)\n                    - Clickable hints are now displayed as links\n                    - Issue with missing icons in the toolbar on MacOS was fixed\n                    - Font and color changes in the Result Set were improved\n                    - Large fonts now display correctly on MacOS\n                - SQL Editor:\n                    - Auto-completion for INSERT/UPDATE/DELETE queries was improved\n                    - Font changes are now applied without a restart\n                - Data Editor:\n                    - Show numeric values (e.g. infinity) rendering was improved\n                    - Issue with opening images from value panel in external editor was fixed\n                - Connectivity:\n                    - Legacy SSH algorithms support was added\n                    - Confirmation dialogs now remember user selection\n                    - The number of attempts to reopen the connection was reduced\n                    - Ability to connect via SSHJ with unsaved password was added\n                    - Maven artifacts configuration now supports classifier\n                - Data transfer: column description support was added for CSV and XLS formats,\n                - AI (ChatGPT): unsupported AI models were replaced with new ones\n                - Databases:\n                    - Firebird: default parameters in procedure definitions were added\n                    - PostgresSQL: materialized views dependencies were added\n                    - Databricks: support of table comments were added\n                    - Oracle: issue with cropped ‘q’ at the end of the string was fixed\n                    - SQLite: triggers delete was implemented\n                    - SQL Server: issue with duplicated data types was resolved\n                - Localization:\n                    - Traditional Chinese localization was updated (thanks to @hwhsu1231)\n                    - Traditional Chinese language was added to Windows installer\n                - Misc:\n                    - Microsoft store: issue with application installation was fixed on most machines\n                    - We switched to Java 17 (again)\n                    - We switched to Eclipse 2023-03 as a base platform\n            "
@@ -3095,11 +3095,11 @@
     "https://github.com/projectdiscovery/nuclei": {
         "created_at": "2020-04-03 18:47:11",
         "description": "Fast and customizable vulnerability scanner based on simple YAML based DSL.",
-        "commit_date": "2023-04-02 09:06:22",
-        "commit_message": "Merge pull request #3491 from projectdiscovery/dev\n\nnuclei v2.9.1",
-        "release_tag": "v2.9.1",
-        "release_date": "2023-04-02 09:41:21",
-        "release_message": "## Breaking Changes:\r\n\r\n**⚠️ Updated `-json` option to `-jsonl` to correctly reflect the output format** by @kchason in https://github.com/projectdiscovery/nuclei/pull/3466\r\n```console\r\n   -j, -jsonl  write output in JSONL(ines) format\r\n```\r\n**⚠️ Updated protocol attribute name (`requests`=> `http` & `network` => `tcp`) in templates** by @ShubhamRasal in https://github.com/projectdiscovery/nuclei/pull/3425\r\n\r\n> Templates with the use of `requests` and `network` will still work but will be deprecated completely in the future.\r\n\r\n## What's New\r\n* **Added JSON output export support** (`-json-export`) by @kchason in https://github.com/projectdiscovery/nuclei/pull/3466\r\n```console\r\n   -je, -json-export string  file to export results in JSON format\r\n```\r\n* Added `cpe` and `epss-score` support in template classification by @ehsandeep in https://github.com/projectdiscovery/nuclei/pull/3489\r\n* Added `mkdir` support in headless screenshot by @tarunKoyalwar in https://github.com/projectdiscovery/nuclei/pull/3457\r\n* Added support for jira custom fields by @jordanpotti in https://github.com/projectdiscovery/nuclei/pull/3406\r\n* Added AWS catalog for loading templates from bucket by @leoloobeek in https://github.com/projectdiscovery/nuclei/pull/3372\r\n* **Fixed a crash in tlsx integration** by @ehsandeep in https://github.com/projectdiscovery/nuclei/pull/3490\r\n* Fixed template link references by @mlec1 in https://github.com/projectdiscovery/nuclei/pull/3485\r\n* Fixed an issue with the scanning strategy option by @nHurD in https://github.com/projectdiscovery/nuclei/pull/3464\r\n* Fixed AWS S3 bucket catalog path mismatch by @tarunKoyalwar in https://github.com/projectdiscovery/nuclei/pull/3474\r\n* Moved DSL helper functions to [dsl](https://github.com/projectdiscovery/dsl) project by @RamanaReddy0M in https://github.com/projectdiscovery/nuclei/pull/3461\r\n\r\nIssues closed in this release - https://github.com/projectdiscovery/nuclei/milestone/28?closed=1\r\n\r\n## New Contributors\r\n* @jordanpotti made their first contribution in https://github.com/projectdiscovery/nuclei/pull/3406\r\n* @nHurD made their first contribution in https://github.com/projectdiscovery/nuclei/pull/3464\r\n* @leoloobeek made their first contribution in https://github.com/projectdiscovery/nuclei/pull/3372\r\n* @mlec1 made their first contribution in https://github.com/projectdiscovery/nuclei/pull/3485\r\n\r\n**Full Changelog**: https://github.com/projectdiscovery/nuclei/compare/v2.9.0...v2.9.1"
+        "commit_date": "2023-04-19 22:46:46",
+        "commit_message": "Merge pull request #3573 from projectdiscovery/dev\n\nnuclei v2.9.2",
+        "release_tag": "v2.9.2",
+        "release_date": "2023-04-19 22:48:02",
+        "release_message": "## What's Changed\r\n\r\n* **Added `llm_prompt` as dsl helper** by @Mzack9999 in https://github.com/projectdiscovery/nuclei/issues/3480\r\n```yaml\r\nllm_prompt(\"what tech this server is using? return idk if you dont know\" + header)\r\n```\r\n\r\n* Added **azure blob storage** support for custom template download by @kchason in https://github.com/projectdiscovery/nuclei/pull/3542\r\n* Added **gitlab project** support for custom template download  by @kchason in https://github.com/projectdiscovery/nuclei/pull/3570\r\n* **Added CPE / EPSS Score information to cve-annotation**  by @sduc in https://github.com/projectdiscovery/nuclei/pull/3486\r\n* **Added variable evaluation support in payloads & variables** by @ShubhamRasal in https://github.com/projectdiscovery/nuclei/pull/3503\r\n* **Added config management + logic refactor** by @tarunKoyalwar in https://github.com/projectdiscovery/nuclei/pull/3567\r\n* Added JSONL(ine) Export (#3504) by @kchason in https://github.com/projectdiscovery/nuclei/pull/3505\r\n```console\r\n   -je, -json-export string  file to export results in JSON format\r\n```\r\n* Fixed bug in http race condition logic by @ShubhamRasal in https://github.com/projectdiscovery/nuclei/pull/3533\r\n* Fixed s3 argument typos by @kchason in https://github.com/projectdiscovery/nuclei/pull/3536\r\n* Fixed integration test by @tarunKoyalwar in https://github.com/projectdiscovery/nuclei/pull/3506\r\n* Fixed rate limit options not working with query fuzzing by @RamanaReddy0M in https://github.com/projectdiscovery/nuclei/pull/3532\r\n* Fixed panic crash in tlsx by @ehsandeep in https://github.com/projectdiscovery/nuclei/pull/3554\r\n* Fixed panic with proxy input by @tarunKoyalwar in https://github.com/projectdiscovery/nuclei/pull/3526\r\n* Updated `-nc` option by @dogancanbakir in https://github.com/projectdiscovery/nuclei/pull/3539\r\n* Updated `ccache` with generic gcache by @Mzack9999 in https://github.com/projectdiscovery/nuclei/pull/3523\r\n* Updated `-un` option to `-up` as a short flag of self-update option by @ehsandeep in https://github.com/projectdiscovery/nuclei/pull/3573\r\n\r\nIssues closed in this release - https://github.com/projectdiscovery/nuclei/milestone/29?closed=1\r\n\r\n## New Contributors\r\n* @sduc made their first contribution in https://github.com/projectdiscovery/nuclei/pull/3486\r\n* @dogancanbakir made their first contribution in https://github.com/projectdiscovery/nuclei/pull/3539\r\n\r\n**Full Changelog**: https://github.com/projectdiscovery/nuclei/compare/v2.9.1...v2.9.2"
     },
     "https://github.com/sleeyax/burp-awesome-tls": {
         "created_at": "2022-01-24 00:30:26",
@@ -3219,8 +3219,8 @@
     "https://github.com/Threekiii/Awesome-Redteam": {
         "created_at": "2022-02-08 00:45:03",
         "description": "一个红队知识仓库",
-        "commit_date": "2023-03-29 02:26:13",
-        "commit_message": "更新弱口令字典",
+        "commit_date": "2023-04-19 07:07:20",
+        "commit_message": "更新README.md",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -3406,8 +3406,8 @@
     "https://github.com/bit4woo/domain_hunter_pro": {
         "created_at": "2019-01-18 07:15:15",
         "description": "domain_hunter的高级版本，SRC挖洞、HW打点之必备！自动化资产收集；快速Title获取；外部工具联动；等等",
-        "commit_date": "2023-04-18 00:03:06",
-        "commit_message": "v1.9",
+        "commit_date": "2023-04-19 14:46:50",
+        "commit_message": "数据加载逻辑更新",
         "release_tag": "v1.9",
         "release_date": "2023-04-18 00:34:58",
         "release_message": "全局：\r\n多个bug修复\r\n布局模式优化\r\n基础方法实现逻辑优化\r\n\r\n右键菜单：\r\n“Do Search”提供主动在制定请求中进行搜索的能力，比如在某企业邮箱的流量中搜索以提取邮箱地址\r\n“Add Request And Comment”右键菜单添逻辑优化，修复一个bug\r\n“Send To Tool Panel”右键菜单处理逻辑优化，可合并发送多个数据包内容\r\n\r\nDomain面板：\r\nroot domain的comments逻辑更新\r\n提供多个网络搜索引擎的后台自动搜索功能\r\nroot domain双击，自动在浏览器中访问\r\n修改目标根域名删除失败的bug\r\n显示序号，以便在排序后恢复原始顺序\r\n\r\nTool面板：\r\n重写JTextArea的paste函数，避免大内容导致程序卡死\r\nJTextArea支持输入文件，而程序处理其内容。\r\n文本取提供简单的历史记录功能\r\nJSON提取逻辑优化\r\n新增多个功能，比如排序\r\n优化URL提取逻辑，避免遗漏没有以/开头的path\r\n\r\nTitle面板中：\r\n端口扫描命令生成逻辑优化\r\n备注和IP内容的显示优化，显示前排序\r\n备注添加逻辑优化\r\n给手动添加的记录添加已知的IP和CNAME、CertInfo\r\n搜索功能增强，支持对数字型字段进行大于、小于、等于等搜索\r\n添加多个搜索实例，以便用户熟悉搜索语法\r\n新增“Do Request Item Again”菜单，对DNS记录或无响应的数据包进行再次请求"
@@ -3699,10 +3699,10 @@
     "https://github.com/carlospolop/PEASS-ng": {
         "created_at": "2019-01-13 19:58:24",
         "description": "PEASS - Privilege Escalation Awesome Scripts SUITE (with colors)",
-        "commit_date": "2023-04-18 03:50:32",
+        "commit_date": "2023-04-19 02:59:49",
         "commit_message": "Update sensitive_files.yaml",
-        "release_tag": "20230418-edede4b8",
-        "release_date": "2023-04-18 04:09:07",
+        "release_tag": "20230419-58ad97a0",
+        "release_date": "2023-04-19 03:17:39",
         "release_message": ""
     },
     "https://github.com/waderwu/attackRmi": {
