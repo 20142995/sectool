@@ -74,8 +74,8 @@
     "https://github.com/We5ter/Scanners-Box": {
         "created_at": "2016-12-24 16:07:50",
         "description": "A powerful and open-source toolkit for hackers and security automation - 安全行业从业者自研开源扫描器合辑",
-        "commit_date": "2023-02-21 02:04:04",
-        "commit_message": "[+]Cyber-Buddy/APKHunt",
+        "commit_date": "2023-04-20 11:28:35",
+        "commit_message": "[+]lijiejie/MisConfig_HTTP_Proxy_Scanner",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -200,8 +200,8 @@
     "https://github.com/ycdxsb/PocOrExp_in_Github": {
         "created_at": "2021-04-13 05:46:16",
         "description": "聚合Github上已有的Poc或者Exp，CVE信息来自CVE官网。Auto Collect Poc Or Exp from Github by CVE ID.",
-        "commit_date": "2023-04-19 23:03:19",
-        "commit_message": "update 2023-04-20 07:03:19",
+        "commit_date": "2023-04-20 22:02:41",
+        "commit_message": "update 2023-04-21 06:02:41",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -461,7 +461,7 @@
     "https://github.com/ExpLangcn/NucleiTP": {
         "created_at": "2022-11-08 13:16:56",
         "description": "自动整合全网Nuclei的漏洞POC，实时同步更新最新POC！",
-        "commit_date": "2023-04-20 00:30:16",
+        "commit_date": "2023-04-21 00:30:16",
         "commit_message": "更新啦❤️",
         "release_tag": "",
         "release_date": "",
@@ -974,9 +974,9 @@
         "description": "一款完善的安全评估工具，支持常见 web 安全问题扫描和自定义 poc | 使用之前务必先阅读文档",
         "commit_date": "2023-04-12 07:23:36",
         "commit_message": "[update] POC贡献流程",
-        "release_tag": "1.9.6",
-        "release_date": "2023-04-19 02:55:32",
-        "release_message": "## 更新说明\r\n\r\n### 版本介绍\r\n\r\n该版本为 Apache Druid远程代码执行漏洞 的应急版本，相较上个版本，除了添加了一个POC外，未改动其他内容。\r\n\r\n### 更新内容\r\n\r\n新增poc-yaml-apache-druid-kafka-rce检测插件\r\n想要检测该漏洞的师傅，可以使用\r\n\r\n`./xray ws --poc poc-yaml-apache-druid-kafka-rce --url http://example.com`\r\n\r\n进行检测。\r\n\r\n相关参考链接：[CT stack](https://stack.chaitin.com/techblog/detail?id=78)"
+        "release_tag": "1.9.7",
+        "release_date": "2023-04-20 04:19:48",
+        "release_message": "### 版本介绍\r\n\r\n该版本为 WebLogic多个高危漏洞 的应急版本，相较上个版本，除了添加了一个POC外，未改动其他内容。\r\n\r\n### 更新内容\r\n\r\n想要检测该漏洞的师傅，可以使用\r\n\r\n`./xray ss -m weblogic -t ip:port`\r\n\r\n进行检测。\r\n\r\n相关参考链接：[CT stack](https://stack.chaitin.com/techblog/detail?id=79)"
     },
     "https://github.com/sqlmapproject/sqlmap": {
         "created_at": "2012-06-26 09:52:15",
@@ -1026,8 +1026,8 @@
     "https://github.com/Mr-xn/BurpSuite-collections": {
         "created_at": "2020-01-25 02:07:37",
         "description": "有关burpsuite的插件(非商店),文章以及使用技巧的收集(此项目不再提供burpsuite破解文件,如需要请在博客mrxn.net下载)---Collection of burpsuite plugins (non-stores), articles and tips for using Burpsuite, no crack version file",
-        "commit_date": "2023-04-04 13:51:30",
-        "commit_message": "add burp-vps-proxy 插件",
+        "commit_date": "2023-04-20 15:04:09",
+        "commit_message": "add burpsuite_hack、BypassPro插件",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -1906,8 +1906,8 @@
     "https://github.com/hiroi-sora/Umi-OCR": {
         "created_at": "2022-03-28 04:01:46",
         "description": "OCR图片转文字识别软件，完全离线。截屏/批量导入图片，支持多国语言、合并段落、竖排文字。可排除水印区域，提取干净的文本。基于 PaddleOCR 。",
-        "commit_date": "2023-04-15 12:01:57",
-        "commit_message": "Merge branch 'main' of https://github.com/hiroi-sora/Umi-OCR",
+        "commit_date": "2023-04-20 17:18:57",
+        "commit_message": "修Bug：拖入图片小概率导致界面卡死（#126）\n注：此Bug本质的原因可能跟tk消息循环有关，涉及比较底层的东西，我可能没有能力处理。\n作为应急措施，我将拖入图片的事件改为了加入after队列、延迟几十毫秒后再执行。这样也许能够减少拖入事件与tk事件循环产生冲突的几率。经过测试，这个方法可以大幅降低异常发生的概率，几乎达到不可复现。",
         "release_tag": "v1.3.3",
         "release_date": "2023-03-19 04:49:43",
         "release_message": "### `v1.3.3` 主要更新：\r\n- 新功能：命令行模式。随时通过命令行调用Umi-OCR！\r\n- 新功能：识图完成的通知悬浮窗。\r\n- 新功能：清理引擎内存。\r\n- 修复了一些问题，优化了一些UI表现。\r\n\r\n### 文件说明\r\n软件本体：`Umi-OCR.v1.3.3.7z`，内置`简体中文&英文`通用识别库。\r\n多国语言扩展包：`Umi-OCR.v1.3_DLC_languages.7z`，可额外导入`繁中,英,日,韩,俄,德,法` 识别库。请按需下载。"
@@ -2250,9 +2250,9 @@
         "description": "A fast, simple, recursive content discovery tool written in Rust.",
         "commit_date": "2023-04-19 22:15:50",
         "commit_message": "added ability to specify install directory for install-nix.sh",
-        "release_tag": "v2.9.3",
-        "release_date": "2023-04-12 00:28:11",
-        "release_message": "## What's Changed\r\n* added extensions and status codes into auto filtering decision calculus by @epi052 in https://github.com/epi052/feroxbuster/pull/869\r\n\r\nSpecial thanks to @0xdf223 for letting me know about the shortcoming :partying_face: \r\n\r\n**Full Changelog**: https://github.com/epi052/feroxbuster/compare/v2.9.2...v2.9.3"
+        "release_tag": "v2.9.4",
+        "release_date": "2023-04-20 11:50:25",
+        "release_message": "- reduced memory usage overall\r\n- improved speed during link extraction\r\n- updated dependencies. most significantly, indicatif, which hasn't been updated for well over a year (purposely postponed)\r\n- added optional install path to `install-nix.sh`\r\n\r\n## What's Changed\r\n* random improvements by @epi052 in https://github.com/epi052/feroxbuster/pull/877\r\n* docs: add DrorDvash as a contributor for bug by @allcontributors in https://github.com/epi052/feroxbuster/pull/879\r\n\r\n\r\n**Full Changelog**: https://github.com/epi052/feroxbuster/compare/v2.9.3...v2.9.4"
     },
     "https://github.com/dzxs/Xdecrypt": {
         "created_at": "2017-12-08 08:52:14",
