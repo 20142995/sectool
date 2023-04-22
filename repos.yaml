@@ -32,6 +32,7 @@
             - https://github.com/chaitin/rad
             - https://github.com/pingc0y/URLFinder
             - https://github.com/Threezh1/JSFinder
+            - https://github.com/lijiejie/BBScan
 
         指纹识别:
             - https://github.com/EdgeSecurityTeam/EHole
@@ -134,6 +135,28 @@
             - https://github.com/4x99/code6
             - https://github.com/madneal/gshark
     漏洞利用:
+        云原生安全工具合集:
+            云原生攻防靶场:
+                - https://github.com/Metarget/metarget
+            容器漏洞利用工具:
+                - https://github.com/cdk-team/CDK
+            容器逃逸检测工具:
+                - https://github.com/teamssix/container-escape-check
+            容器安全检测工具:
+                - https://github.com/chaitin/veinmind-tools
+            容器漏洞分析工具:
+                - https://github.com/quay/clair
+            容器安全扫描:
+                - https://github.com/aquasecurity/trivy
+            容器镜像扫描:
+                - https://github.com/anchore/grype
+                - https://github.com/anchore/syft
+            K8S漏洞扫描:
+                - https://github.com/aquasecurity/kube-hunter
+            K8S基线核查:
+                - https://github.com/aquasecurity/kube-bench
+            云原生安全平台:
+                - https://github.com/neuvector/neuvector
         半自动化漏洞利用:
             - https://github.com/lz520520/railgun
             - https://github.com/gobysec/Goby
@@ -232,9 +255,7 @@
             - https://github.com/coffeehb/Some-PoC-oR-ExP
             - https://github.com/DawnFlame/POChouse
             - https://github.com/ycdxsb/PocOrExp_in_Github
-
-
-
+            
         信息泄露漏洞利用:
             - https://github.com/teamssix/cf
             - https://github.com/UzJu/Cloud-Bucket-Leak-Detection-Tools
@@ -288,6 +309,7 @@
             - https://github.com/liamg/traitor
             - https://github.com/rebootuser/LinEnum
             - https://github.com/carlospolop/PEASS-ng
+            - https://github.com/liamg/traitor
         容器提权:
             - https://github.com/teamssix/container-escape-check
             - https://github.com/cdk-team/CDK
