@@ -38,6 +38,8 @@
             - https://github.com/EdgeSecurityTeam/EHole
             - https://github.com/s7ckTeam/Glass
             - https://github.com/EASY233/Finger
+        WAF识别:
+            - https://github.com/stamparm/identYwaf
         端口扫描:
             - https://github.com/Liqunkit/webfinder-next
             - https://github.com/foryujian/yujianportscan
@@ -183,6 +185,7 @@
             - https://github.com/mrknow001/fastjson_rec_exploit
             - https://github.com/joaomatosf/jexboss
             - https://github.com/dream0x01/weblogic-framework
+            - https://github.com/KimJun1010/WeblogicTool
             - https://github.com/threedr3am/dubbo-exp
             - https://github.com/xfiftyone/STS2G
             - https://github.com/HatBoy/Struts2-Scan
@@ -255,7 +258,7 @@
             - https://github.com/coffeehb/Some-PoC-oR-ExP
             - https://github.com/DawnFlame/POChouse
             - https://github.com/ycdxsb/PocOrExp_in_Github
-            
+
         信息泄露漏洞利用:
             - https://github.com/teamssix/cf
             - https://github.com/UzJu/Cloud-Bucket-Leak-Detection-Tools
@@ -564,12 +567,14 @@ CTF:
         - https://github.com/pppscn/SmsForwarder
         - https://github.com/dbeaver/dbeaver
         - https://github.com/TheKingOfDuck/MySQLMonitor
+        - https://github.com/alphasoc/flightsim
     渗透测试报告辅助:
         - https://github.com/Anof-cyber/APTRS
         - https://github.com/0x727/BugRepoter_0x727
         - https://github.com/Mustard404/Savior
         - https://github.com/1u0Hun/SAReport
         - https://github.com/dbgee/pentest_report
+        - https://github.com/linshaoSec/WaterExp
     动态口令:
         - https://github.com/mdp/rotp
     科学上网:
@@ -590,6 +595,7 @@ CTF:
         - https://github.com/theSecHunter/Hades
     Web应用防火墙:
         - https://github.com/starjun/openstar
+        - https://github.com/chaitin/safeline
     欺骗防御:
         - https://github.com/C4o/Juggler
         - https://github.com/fnmsd/MySQL_Fake_Server
