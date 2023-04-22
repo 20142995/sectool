@@ -1,10 +1,11 @@
-# 更新于 2023-04-21 08:40:51
+# 更新于 2023-04-22 08:42:29
 
 ## 近15天release更新记录
 | 更新时间 | 项目名称 | 版本 | 更新内容 |
 | :---- | :---- | :---- | :---- |
+|2023-04-21 14:16:08|[xray](https://github.com/chaitin/xray)|1.9.8|### 版本介绍该版本为 泛微 Ecology OA SQ<br>L 注入漏洞 的应急版本，相较上个版本，除<br>了添加了一个POC外，未改动其他内容。### 更<br>新内容想要检测该漏洞的师傅，可以使用./xra<br>y ws --poc poc-yaml-weaver-ecology-oa-pl<br>ugin-checkserver-setting-sqli --url http<br>://example.com进行检测。相关参考链接：[C<br>T stack](https://stack.chaitin.com/techb<br>log/detail?id=81)|
+|2023-04-21 09:45:23|[Antenna](https://github.com/wuba/Antenna)|v1.3.5|1. 修复HTTPS分块传输请求导致处理逻辑错<br>误(#105)的问题2. 废弃domain_in查询方式(#1<br>06)，后续多个域名查询可使用多个domain参<br>数查询，详情可看http://blog.antenna.cool/<br>docs/api_back3. 新增api查询用户token以及<br>查询当前项目使用版本接口，为下个版本SDK与<br>自动更新功能做准备|
 |2023-04-20 11:50:25|[feroxbuster](https://github.com/epi052/feroxbuster)|v2.9.4|- reduced memory usage overall- improve<br>d speed during link extraction- updated <br>dependencies. most significantly, indica<br>tif, which hasn't been updated for well <br>over a year (purposely postponed)- added<br> optional install path to install-nix.sh<br>## What's Changed* random improvements b<br>y @epi052 in https://github.com/epi052/f<br>eroxbuster/pull/877* docs: add DrorDvash<br> as a contributor for bug by @allcontrib<br>utors in https://github.com/epi052/ferox<br>buster/pull/879**Full Changelog**: https<br>://github.com/epi052/feroxbuster/compare<br>/v2.9.3...v2.9.4|
-|2023-04-20 04:19:48|[xray](https://github.com/chaitin/xray)|1.9.7|### 版本介绍该版本为 WebLogic多个高危漏<br>洞 的应急版本，相较上个版本，除了添加了一<br>个POC外，未改动其他内容。### 更新内容想要<br>检测该漏洞的师傅，可以使用./xray ss -m we<br>blogic -t ip:port进行检测。相关参考链接<br>：[CT stack](https://stack.chaitin.com/te<br>chblog/detail?id=79)|
 |2023-04-19 22:48:02|[nuclei](https://github.com/projectdiscovery/nuclei)|v2.9.2|## What's Changed* **Added llm_prompt a<br>s dsl helper** by @Mzack9999 in https://<br>github.com/projectdiscovery/nuclei/issue<br>s/3480yamlllm_prompt("what tech this ser<br>ver is using? return idk if you dont kno<br>w" + header)* Added **azure blob storage<br>** support for custom template download <br>by @kchason in https://github.com/projec<br>tdiscovery/nuclei/pull/3542* Added **git<br>lab project** support for custom templat<br>e downloadby @kchason in https://github.<br>com/projectdiscovery/nuclei/pull/3570* *<br>*Added CPE / EPSS Score information to c<br>ve-annotation**by @sduc in https://githu<br>b.com/projectdiscovery/nuclei/pull/3486*<br> **Added variable evaluation support in <br>payloads & variables** by @ShubhamRasal <br>in https://github.com/projectdiscovery/n<br>uclei/pull/3503* **Added config manageme<br>nt + logic refactor** by @tarunKoyalwar <br>in https://github.com/projectdiscovery/n<br>uclei/pull/3567* Added JSONL(ine) Export<br> (#3504) by @kchason in https://github.c<br>om/projectdiscovery/nuclei/pull/3505cons<br>ole-je, -json-export stringfile to expor<br>t results in JSON format* Fixed bug in h<br>ttp race condition logic by @ShubhamRasa<br>l in https://github.com/projectdiscovery<br>/nuclei/pull/3533* Fixed s3 argument typ<br>os by @kchason in https://github.com/pro<br>jectdiscovery/nuclei/pull/3536* Fixed in<br>tegration test by @tarunKoyalwar in http<br>s://github.com/projectdiscovery/nuclei/p<br>ull/3506* Fixed rate limit options not w<br>orking with query fuzzing by @RamanaRedd<br>y0M in https://github.com/projectdiscove<br>ry/nuclei/pull/3532* Fixed panic crash i<br>n tlsx by @ehsandeep in https://github.c<br>om/projectdiscovery/nuclei/pull/3554* Fi<br>xed panic with proxy input by @tarunKoya<br>lwar in https://github.com/projectdiscov<br>ery/nuclei/pull/3526* Updated -nc option<br> by @dogancanbakir in https://github.com<br>/projectdiscovery/nuclei/pull/3539* Upda<br>ted ccache with generic gcache by @Mzack<br>9999 in https://github.com/projectdiscov<br>ery/nuclei/pull/3523* Updated -un option<br> to -up as a short flag of self-update o<br>ption by @ehsandeep in https://github.co<br>m/projectdiscovery/nuclei/pull/3573Issue<br>s closed in this release - https://githu<br>b.com/projectdiscovery/nuclei/milestone/<br>29?closed=1## New Contributors* @sduc ma<br>de their first contribution in https://g<br>ithub.com/projectdiscovery/nuclei/pull/3<br>486* @dogancanbakir made their first con<br>tribution in https://github.com/projectd<br>iscovery/nuclei/pull/3539**Full Changelo<br>g**: https://github.com/projectdiscovery<br>/nuclei/compare/v2.9.1...v2.9.2|
 |2023-04-19 04:40:00|[noterce](https://github.com/xiao-zhu-zhu/noterce)|v1.2|修复被控端不能更改note地址的bug感谢Expl<br>o1t师傅反馈|
 |2023-04-19 03:17:39|[PEASS-ng](https://github.com/carlospolop/PEASS-ng)|20230419-<br>58ad97a0||
@@ -23,14 +24,20 @@
 |2023-04-08 06:20:57|[v2rayA](https://github.com/v2rayA/v2rayA)|v2.0.5|## What's Changed* Fix tip label displa<br>y by @aeeq in https://github.com/v2rayA/<br>v2rayA/pull/889## New Contributors* @aee<br>q made their first contribution in https<br>://github.com/v2rayA/v2rayA/pull/889**Fu<br>ll Changelog**: https://github.com/v2ray<br>A/v2rayA/compare/v2.0.4...v2.0.5|
 |2023-04-07 02:54:04|[FrameScan-GUI](https://github.com/qianxiao996/FrameScan-GUI)|v1.4.3|1、修复扫描时module '/root/桌面/FrameSc<br>an-GUI/Modules/Vuln_Scanner' has no attr<br>ibute 'vuln_info'的错误。2、升级pyqt5 为<br>pyside63、去除编辑脚本代码高亮功能。4、<br>去除qss皮肤。|
 |2023-04-07 01:42:49|[Elkeid](https://github.com/bytedance/Elkeid)|rasp-v2.2<br>.0.5||
-|2023-04-06 15:27:55|[faker](https://github.com/joke2k/faker)|v18.4.0|See [CHANGELOG.md](https://github.com/j<br>oke2k/faker/blob/refs/tags/v18.4.0/CHANG<br>ELOG.md).|
-|2023-04-06 09:02:23|[Antenna](https://github.com/wuba/Antenna)|v1.3.4-fi<br>x|修复V1.3.4版本关于新建任务与查询OPENAPI<br>错误的问题|
-|2023-04-06 03:01:32|[Exp-Tools](https://github.com/cseroad/Exp-Tools)|v1.1.5|- 新增蓝凌oa后台模板上传漏洞- 新增用友C<br>RM swfupload 文件上传- 修复cookie 更新- <br>优化部分代码- 修复多个bug|
 ## 近15天commit提交记录
 | 提交时间 | 项目名称 | 更新内容 |
 | :---- | :---- | :---- |
-|2023-04-21 00:30:16|[NucleiTP](https://github.com/ExpLangcn/NucleiTP)|更新啦❤️|
-|2023-04-20 22:02:41|[PocOrExp_in_Github](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-04-21 06:02:41|
+|2023-04-22 00:30:16|[NucleiTP](https://github.com/ExpLangcn/NucleiTP)|更新啦❤️|
+|2023-04-21 20:02:37|[PocOrExp_in_Github](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-04-22 04:02:37|
+|2023-04-21 16:09:21|[faker](https://github.com/joke2k/faker)|Added de_DE swift_location_codes (#1843)|
+|2023-04-21 15:19:18|[ffuf](https://github.com/ffuf/ffuf)|Fix md output format (#672)* Fix MD output* Add CHANGE<br>LOG.md entry|
+|2023-04-21 14:13:18|[afrog](https://github.com/zan8in/afrog)|update|
+|2023-04-21 11:13:29|[knife](https://github.com/bit4woo/knife)|删除header还是要全局|
+|2023-04-21 10:34:42|[domain_hunter_pro](https://github.com/bit4woo/domain_hunter_pro)|Update Commons.java|
+|2023-04-21 09:16:25|[Antenna](https://github.com/wuba/Antenna)|domain 列表查询方式标准化|
+|2023-04-21 09:02:15|[appshark](https://github.com/bytedance/appshark)|Merge remote-tracking branch 'origin/main'|
+|2023-04-21 06:44:01|[swagger-exp](https://github.com/lijiejie/swagger-exp)|Merge pull request #13 from lanyi1998/masterfeat:suppo<br>rt mac|
+|2023-04-21 02:28:30|[HackBrowserData](https://github.com/moonD4rk/HackBrowserData)|Merge pull request #213 from liumingxing/masterSupport<br> SessionStorage export|
 |2023-04-20 17:18:57|[Umi-OCR](https://github.com/hiroi-sora/Umi-OCR)|修Bug：拖入图片小概率导致界面卡死（#126）
 注：此Bug本<br>质的原因可能跟tk消息循环有关，涉及比较底层的东西，我可能<br>没有能力处理。
 作为应急措施，我将拖入图片的事件改为了加<br>入after队列、延迟几十毫秒后再执行。这样也许能够减少拖入<br>事件与tk事件循环产生冲突的几率。经过测试，这个方法可以大<br>幅降低异常发生的概率，几乎达到不可复现。|
@@ -40,18 +47,15 @@
 |2023-04-19 22:15:50|[feroxbuster](https://github.com/epi052/feroxbuster)|added ability to specify install directory for install<br>-nix.sh|
 |2023-04-19 18:43:46|[dbeaver](https://github.com/dbeaver/dbeaver)|dbeaver/pro#1490 usage statistics (#19596)* dbeaver/pr<br>o#1490 Features model refactoring + extra features* dbe<br>aver/pro#1490 Features tracking* dbeaver/pro#1490 Addit<br>ional features* Disable driver wrapper* QMDB: project s<br>earch fix (use project name/ID)* dbeaver/pro#1492 Fix C<br>B run scripts* dbeaver/pro#1490 Confirmation dialog + p<br>ref page redesign* dbeaver/pro#1490 Move UI to the new <br>bundle* dbeaver/pro#1490 Move tracking to the new bundl<br>e* dbeaver/pro#1490 Transmit statistics to server* dbea<br>ver/pro#1490 Statistics transmitter* Force single conne<br>ction for Clickhouse* dbeaver/pro#1490 Pass locale and <br>timezone* dbeaver/pro#1490 Statistics transmitter* dbea<br>ver/pro#1490 Comment fix* dbeaver/pro#1490 Remove extra<br> props from start feature* dbeaver/pro#1490 Pref page i<br>mprovements* dbeaver/pro#1490 Include statistics collec<br>tor in local products only* dbeaver/pro#1490 Extra feat<br>ures tracking* dbeaver/pro#1490 Tasks tracking* dbeaver<br>/pro#1490 Compile fix* dbeaver/pro#1490 Use proper endp<br>oint for stats collector* dbeaver/pro#1490 Additional l<br>ogging and error handling|
 |2023-04-19 15:11:04|[fshzqSearch](https://github.com/Ifory885/fshzqSearch)|Update quake_search.py|
-|2023-04-19 14:46:50|[domain_hunter_pro](https://github.com/bit4woo/domain_hunter_pro)|数据加载逻辑更新|
 |2023-04-19 14:05:23|[sqlmap](https://github.com/sqlmapproject/sqlmap)|Fixes #5401|
 |2023-04-19 13:35:30|[koko-moni](https://github.com/burpheart/koko-moni)|Update readme.md|
 |2023-04-19 12:00:21|[ysoserial](https://github.com/su18/ysoserial)|更新 Agent Filter 中间件 Hook 点|
-|2023-04-19 08:29:14|[knife](https://github.com/bit4woo/knife)|Update HeaderManager.java|
 |2023-04-19 07:07:20|[Awesome-Redteam](https://github.com/Threekiii/Awesome-Redteam)|更新README.md|
 |2023-04-19 05:37:56|[0day](https://github.com/helloexp/0day)|add CVE-2023-23397 exp|
 |2023-04-19 04:29:51|[noterce](https://github.com/xiao-zhu-zhu/noterce)|Update server.go1.2 修复被控端不能更改地址的bug|
 |2023-04-19 02:59:49|[PEASS-ng](https://github.com/carlospolop/PEASS-ng)|Update sensitive_files.yaml|
 |2023-04-18 14:59:45|[veinmind-tools](https://github.com/chaitin/veinmind-tools)|feat(plugins): add ftp protocol support in plugin (#22<br>6)* feat(plugins): add ftp protocol support in plugindo<br>cs(plugins): fix Readme table bug* docs(plugins): add f<br>tp protocol support in plugin* feat(plugins): update de<br>pendency version* feat(plugins): add ftp protocol suppo<br>rt in weekpass plugin* Refactor(plugins-weakpass): chan<br>ge Mod name to Service name mapping from one-to-one to <br>one-to-many* Test(plugins-weakpass): Add unit tests for<br> ftp service* Test(plugins-weakpass): Add unit tests fo<br>r ftp service|
 |2023-04-18 10:06:15|[DecodeSomeJSPWebshe<br>ll](https://github.com/minhangxiaohui/DecodeSomeJSPWebshell)|Update README.md哥斯拉解密的时候的具体使用方法没有描述<br>清除，导致我自己很久没用这个工具之后也忘记使用方法了，所<br>以这里更新下描述文件，添加了哥斯拉的解密case样例|
-|2023-04-18 09:45:13|[appshark](https://github.com/bytedance/appshark)|Merge pull request #36 from guoxiaoxu/mainupdate refle<br>ction.kt|
 |2023-04-18 09:05:55|[murphysec](https://github.com/murphysecurity/murphysec)|Revert "refactor: remove task id config"This reverts c<br>ommit 81b819f565c9da309b6b42c47815cd9607647862.|
 |2023-04-18 07:41:33|[Vulnerability-Wiki](https://github.com/Threekiii/Vulnerability-Wiki)|更新漏洞|
 |2023-04-18 07:17:13|[vulnerability](https://github.com/lal0ne/vulnerability)|CVE-2019-7609|
@@ -65,7 +69,6 @@
 |2023-04-17 01:17:36|[AV_Evasion_Tool](https://github.com/1y0n/AV_Evasion_Tool)|Update README.md|
 |2023-04-16 22:36:36|[SSTImap](https://github.com/vladko312/SSTImap)|Release of SSTImap version 1.1.0Crawler and form detec<br>tion (by @fantesykikachu)New template engine added: Che<br>etahAutomatic import for engine modulesInteractive modu<br>le reloading capabilityFull support for Python 3.11Repl<br>aced telnetlib with a custom TCP client---------Co-auth<br>ored-by: fantesykikachu |
 |2023-04-15 14:09:04|[fofax](https://github.com/xiecat/fofax)|修复更新时如果网络有问题可能引发异常问题 #29 。修改弃<br>用函数|
-|2023-04-15 13:57:07|[afrog](https://github.com/zan8in/afrog)|update poc|
 |2023-04-15 11:44:52|[revsuit](https://github.com/Li4n0/revsuit)|ci: disable cgo|
 |2023-04-15 08:40:51|[mitaka](https://github.com/ninoseki/mitaka)|Merge pull request #709 from ninoseki/renovate/chrome-<br>0.xchore(deps): update dependency @types/chrome to ^0.0<br>.231|
 |2023-04-15 02:37:26|[PeiQi-WIKI-Book](https://github.com/PeiQi0/PeiQi-WIKI-Book)|漏洞相关:瑞友,Go-fastdfs等漏洞:tada:|
@@ -83,16 +86,7 @@
 |2023-04-08 05:12:18|[portscan](https://github.com/20142995/portscan)|1|
 |2023-04-07 13:03:43|[Dude](https://github.com/x364e3ab6/Dude)|Update README.md|
 |2023-04-07 07:26:03|[RequestTemplate](https://github.com/1n7erface/RequestTemplate)|Update README.md|
-|2023-04-07 02:40:59|[FrameScan-GUI](https://github.com/qianxiao996/FrameScan-GUI)|v1.4.3|
-|2023-04-06 15:27:19|[faker](https://github.com/joke2k/faker)|Bump version: 18.3.4 → 18.4.0|
-|2023-04-06 11:06:49|[heapdump_tool](https://github.com/wyzxxz/heapdump_tool)|Update README.md|
-|2023-04-06 08:56:53|[Antenna](https://github.com/wuba/Antenna)|Merge pull request #103 from wuba/feature/reviewFeatur<br>e/review|
-|2023-04-06 08:13:01|[DNSlog-GO](https://github.com/lanyi1998/DNSlog-GO)|docs:update readme|
-|2023-04-06 03:44:43|[cf](https://github.com/teamssix/cf)|Merge pull request #220 from teamssix/betaperf: optimi<br>ze error output|
-|2023-04-06 03:11:35|[JDumpSpider](https://github.com/whwlsfb/JDumpSpider)|add export path arg.
-add all string export spider.|
-|2023-04-06 03:02:58|[Exp-Tools](https://github.com/cseroad/Exp-Tools)|Update README.md|
-|2023-04-06 02:56:31|[Komo](https://github.com/komomon/Komo)|Update finger_main.py|## 所有项目
+|2023-04-07 02:40:59|[FrameScan-GUI](https://github.com/qianxiao996/FrameScan-GUI)|v1.4.3|## 所有项目
 # 渗透测试
 ## 信息收集
 ### 资产测绘采集
@@ -225,7 +219,7 @@ add all string export spider.|
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
 | [EasyPen](https://github.com/lijiejie/EasyPen) |  | EasyPen is a GUI program which helps pentesters do target discov<br>ery, vulnerability scan and exploitation |
-| [xray](https://github.com/chaitin/xray) | 1.9.7 | 一款完善的安全评估工具，支持常见 web 安全问题扫描和自定义 poc | <br>使用之前务必先阅读文档 |
+| [xray](https://github.com/chaitin/xray) | 1.9.8 | 一款完善的安全评估工具，支持常见 web 安全问题扫描和自定义 poc | <br>使用之前务必先阅读文档 |
 | [w13scan](https://github.com/w-digital-scanner/w13scan) |  | Passive Security Scanner (被动式安全扫描器) |
 | [Fvuln](https://github.com/d3ckx1/Fvuln) | Fvuln_v1.<br>4.8 | F-vuln（全称：Find-Vulnerability）是为了自己工作方便专门编写的一<br>款自动化工具，主要适用于日常安全服务、渗透测试人员和RedTeam红队人<br>员，它集合的功能包括：存活IP探测、开放端口探测、web服务探测、web漏<br>洞扫描、smb爆破、ssh爆破、ftp爆破、mssql爆破等其他数据库爆破工作以<br>及大量web漏洞检测模块。 |
 | [nuclei](https://github.com/projectdiscovery/nuclei) | v2.9.2 | Fast and customizable vulnerability scanner based on simple YAML<br> based DSL. |
@@ -323,10 +317,10 @@ add all string export spider.|
 | [DNSlog-GO](https://github.com/lanyi1998/DNSlog-GO) | 1.5.2 | DNSLog-GO 是一款golang编写的监控 DNS 解析记录的工具，自带WEB界面 |
 | [godnslog](https://github.com/chennqqi/godnslog) | v0.7.0 | An exquisite dns&http log server for verify SSRF/XXE/RFI/RCE vul<br>nerability  |
 | [ysomap](https://github.com/wh1t3p1g/ysomap) | v0.1.3 | A helpful Java Deserialization exploit framework. |
-| [Antenna](https://github.com/wuba/Antenna) | v1.3.4-fi<br>x | Antenna是58同城安全团队打造的一款辅助安全从业人员验证网络中多种<br>漏洞是否存在以及可利用性的工具。其基于带外应用安全测试(OAST)通过任<br>务的形式，将不同漏洞场景检测能力通过插件的形式进行集合，通过与目标<br>进行out-bind的数据通信方式进行辅助检测。 |
+| [Antenna](https://github.com/wuba/Antenna) | v1.3.5 | Antenna是58同城安全团队打造的一款辅助安全从业人员验证网络中多种<br>漏洞是否存在以及可利用性的工具。其基于带外应用安全测试(OAST)通过任<br>务的形式，将不同漏洞场景检测能力通过插件的形式进行集合，通过与目标<br>进行out-bind的数据通信方式进行辅助检测。 |
 | [cola_dnslog](https://github.com/AbelChe/cola_dnslog) | v1.3.2 | Cola Dnslog v1.3.2 更加强大的dnslog平台/无回显漏洞探测辅助平台 <br>完全开源 dnslog httplog ldaplog rmilog 支持dns http ldap rmi等协议<br> 提供API调用方式便于与其他工具结合 支持钉钉机器人、Bark等提醒 支<br>持docker一键部署 后端完全使用python实现 前端基于vue-element-admin<br>二开 |
 | [ddddocr](https://github.com/sml2h3/ddddocr) |  | 带带弟弟 通用验证码识别OCR pypi版 |
-| [ysoserial](https://github.com/su18/ysoserial) | v1.5 | ysoserial for su18 |
+| [ysoserial](https://github.com/su18/ysoserial) |  |  |
 | [JNDIExploit](https://github.com/WhiteHSBG/JNDIExploit) | v1.4 | 对原版https://github.com/feihong-cs/JNDIExploit 进行了实用化修改 |
 | [JNDIExploit-1](https://github.com/Mr-xn/JNDIExploit-1) | v1.2 | 一款用于 JNDI注入 利用的工具，大量参考/引用了 Rogue JNDI 项目的<br>代码，支持直接植入内存shell，并集成了常见的bypass 高版本JDK的方式<br>，适用于与自动化工具配合使用。（from https://github.com/feihong-cs<br>/JNDIExploit） |
 | [JNDIExploit](https://github.com/0x727/JNDIExploit) | 1.1 | 一款用于JNDI注入利用的工具，大量参考/引用了Rogue JNDI项目的代码<br>，支持直接植入内存shell，并集成了常见的bypass 高版本JDK的方式，适<br>用于与自动化工具配合使用。 |

@@ -173,11 +173,11 @@
     "https://github.com/wuba/Antenna": {
         "created_at": "2022-06-15 06:42:25",
         "description": "Antenna是58同城安全团队打造的一款辅助安全从业人员验证网络中多种漏洞是否存在以及可利用性的工具。其基于带外应用安全测试(OAST)通过任务的形式，将不同漏洞场景检测能力通过插件的形式进行集合，通过与目标进行out-bind的数据通信方式进行辅助检测。",
-        "commit_date": "2023-04-06 08:56:53",
-        "commit_message": "Merge pull request #103 from wuba/feature/review\n\nFeature/review",
-        "release_tag": "v1.3.4-fix",
-        "release_date": "2023-04-06 09:02:23",
-        "release_message": "修复V1.3.4版本关于新建任务与查询OPENAPI错误的问题"
+        "commit_date": "2023-04-21 09:16:25",
+        "commit_message": "domain 列表查询方式标准化",
+        "release_tag": "v1.3.5",
+        "release_date": "2023-04-21 09:45:23",
+        "release_message": "1. 修复HTTPS分块传输请求导致处理逻辑错误(#105)的问题\r\n2. 废弃domain_in查询方式(#106)，后续多个域名查询可使用多个domain参数查询，详情可看http://blog.antenna.cool/docs/api_back\r\n3. 新增api查询用户token以及查询当前项目使用版本接口，为下个版本SDK与自动更新功能做准备\r\n\r\n"
     },
     "https://github.com/lanyi1998/DNSlog-GO": {
         "created_at": "2020-09-05 16:18:57",
@@ -200,8 +200,8 @@
     "https://github.com/ycdxsb/PocOrExp_in_Github": {
         "created_at": "2021-04-13 05:46:16",
         "description": "聚合Github上已有的Poc或者Exp，CVE信息来自CVE官网。Auto Collect Poc Or Exp from Github by CVE ID.",
-        "commit_date": "2023-04-20 22:02:41",
-        "commit_message": "update 2023-04-21 06:02:41",
+        "commit_date": "2023-04-21 20:02:37",
+        "commit_message": "update 2023-04-22 04:02:37",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -461,7 +461,7 @@
     "https://github.com/ExpLangcn/NucleiTP": {
         "created_at": "2022-11-08 13:16:56",
         "description": "自动整合全网Nuclei的漏洞POC，实时同步更新最新POC！",
-        "commit_date": "2023-04-21 00:30:16",
+        "commit_date": "2023-04-22 00:30:16",
         "commit_message": "更新啦❤️",
         "release_tag": "",
         "release_date": "",
@@ -974,9 +974,9 @@
         "description": "一款完善的安全评估工具，支持常见 web 安全问题扫描和自定义 poc | 使用之前务必先阅读文档",
         "commit_date": "2023-04-12 07:23:36",
         "commit_message": "[update] POC贡献流程",
-        "release_tag": "1.9.7",
-        "release_date": "2023-04-20 04:19:48",
-        "release_message": "### 版本介绍\r\n\r\n该版本为 WebLogic多个高危漏洞 的应急版本，相较上个版本，除了添加了一个POC外，未改动其他内容。\r\n\r\n### 更新内容\r\n\r\n想要检测该漏洞的师傅，可以使用\r\n\r\n`./xray ss -m weblogic -t ip:port`\r\n\r\n进行检测。\r\n\r\n相关参考链接：[CT stack](https://stack.chaitin.com/techblog/detail?id=79)"
+        "release_tag": "1.9.8",
+        "release_date": "2023-04-21 14:16:08",
+        "release_message": "### 版本介绍\r\n\r\n该版本为 泛微 Ecology OA SQL 注入漏洞 的应急版本，相较上个版本，除了添加了一个POC外，未改动其他内容。\r\n\r\n### 更新内容\r\n\r\n想要检测该漏洞的师傅，可以使用\r\n\r\n`./xray ws --poc poc-yaml-weaver-ecology-oa-plugin-checkserver-setting-sqli --url http://example.com`\r\n\r\n进行检测。\r\n\r\n相关参考链接：[CT stack](https://stack.chaitin.com/techblog/detail?id=81)"
     },
     "https://github.com/sqlmapproject/sqlmap": {
         "created_at": "2012-06-26 09:52:15",
@@ -1035,8 +1035,8 @@
     "https://github.com/ffuf/ffuf": {
         "created_at": "2018-11-08 09:25:49",
         "description": "Fast web fuzzer written in Go",
-        "commit_date": "2023-02-19 12:41:37",
-        "commit_message": "Fix HTML output (#640)",
+        "commit_date": "2023-04-21 15:19:18",
+        "commit_message": "Fix md output format (#672)\n\n* Fix MD output\r\n\r\n* Add CHANGELOG.md entry",
         "release_tag": "v2.0.0",
         "release_date": "2023-02-06 09:28:04",
         "release_message": "## Changelog\n* e952deb Fix the v2 tagging for go install (#639)\n* 19e07c0 Fix required go version (#637)\n* 77cc45c Prepare for v2.0 release (#635)\n* c7d0fb5 Gracefully error in case stdin is used for search result (#634)\n* 643f6b8 Scraper functionality (#633)\n* 39c8934 Added additional proxy URL verification (#574)\n* bbb97ab Typo fix (#581)\n* 3b219f2 fix: changed usage from version 1.3.0 to version 1.5.0 (#595)\n* 633893c Change precedence of quiet and JSON output to favour JSON (#570)\n* 0236210 Add homebrew install method (#552)\n* 7bff9e7 Fix time-based matcher (#575)\n* ebb4c44 Sniper template parsing - fixes #579 (#580)\n* 9bddff7 New functionality to map fired blind payloads back to the initial request (#632)\n* b7adc50 Fix jsonlines output while in silent mode (#630)\n* 2ce2217 Enhanced rate limiting (#620)\n* 1a684a9 Fix the ac for good now (#615)\n* 3328a28 Fix linter workflow and autocalibration for lines & words match (#614)\n\n"
@@ -2005,8 +2005,8 @@
     "https://github.com/bit4woo/knife": {
         "created_at": "2018-06-12 14:25:18",
         "description": "A burp extension that add some useful function to  Context Menu 添加一些右键菜单让burp用起来更顺畅",
-        "commit_date": "2023-04-19 08:29:14",
-        "commit_message": "Update HeaderManager.java",
+        "commit_date": "2023-04-21 11:13:29",
+        "commit_message": "删除header还是要全局",
         "release_tag": "v2.1",
         "release_date": "2022-11-20 09:04:40",
         "release_message": "融合U2C和Chinese2个Tab，让它们都可以支持切换编码\r\n新增功能：从JS中查找URL路径后，拼接BaseURL并请求\r\n其他小的更新、bug修复\r\n\r\n## What's Changed\r\n* Bump gson from 2.3.1 to 2.8.9 by @dependabot in https://github.com/bit4woo/knife/pull/45\r\n* Bump commons-text from 1.6 to 1.10.0 by @dependabot in https://github.com/bit4woo/knife/pull/53\r\n\r\n## New Contributors\r\n* @dependabot made their first contribution in https://github.com/bit4woo/knife/pull/45\r\n\r\n**Full Changelog**: https://github.com/bit4woo/knife/compare/v2.0...v2.1"
@@ -2363,8 +2363,8 @@
     "https://github.com/lijiejie/swagger-exp": {
         "created_at": "2021-03-23 06:46:21",
         "description": "A Swagger API Exploit",
-        "commit_date": "2022-08-08 07:07:03",
-        "commit_message": "bind 127.0.0.1",
+        "commit_date": "2023-04-21 06:44:01",
+        "commit_message": "Merge pull request #13 from lanyi1998/master\n\nfeat:support mac",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -2787,13 +2787,13 @@
         "release_message": ""
     },
     "https://github.com/su18/ysoserial": {
-        "created_at": "2021-07-26 01:20:01",
-        "description": "ysoserial for su18",
+        "created_at": "",
+        "description": "",
         "commit_date": "2023-04-19 12:00:21",
         "commit_message": "更新 Agent Filter 中间件 Hook 点",
-        "release_tag": "v1.5",
-        "release_date": "2023-03-20 10:33:46",
-        "release_message": "1. 全面支持 AgentNoFile 内存马，目前支持 Servlet/Tomcat Filter 型的内存马，支持 bx/gz/gzraw/cmd 动态生成，参数保持一致；\r\n2. 动态生成 Filter/Servlet 等名称，使用类名 + Filter 的形势，模拟常规名称，避免被一眼看出来；\r\n3. 优化项目架构，单独拆解内存马恶意类字节码生成代码，作为字节码生成中台，后续将集成 JNDI 注入利用相关；\r\n4. 对 exploit 下的利用方式进行了支持，除了每个 exploit 需要的参数，后面正常跟 payload 的参数；\r\n5. 更新 LF 参数，格式为 LF-/tmp/evil.class，后面可加类名，并对传递的类字节码进行了缩减大小的尝试；\r\n6. 修复 CC12 不能用的问题；\r\n7. 移除 jboss 相关代码及依赖；\r\n8. 更新命令执行最短化；\r\n9. 修复大量BUG，优化大量代码。"
+        "release_tag": "",
+        "release_date": "",
+        "release_message": ""
     },
     "https://github.com/Adminisme/ServerScan": {
         "created_at": "2020-04-03 15:14:12",
@@ -3050,8 +3050,8 @@
     "https://github.com/zan8in/afrog": {
         "created_at": "2022-02-24 06:00:32",
         "description": "A Vulnerability Scanning Tools For Penetration Testing",
-        "commit_date": "2023-04-15 13:57:07",
-        "commit_message": "update poc",
+        "commit_date": "2023-04-21 14:13:18",
+        "commit_message": "update",
         "release_tag": "v2.2.2",
         "release_date": "2023-04-05 10:31:36",
         "release_message": "bug:\r\n- Fix afrog html report XSS vulnerability\r\n\r\noptimization:\r\n- Simplified URL blacklist mechanism\r\n- Optimize http/s detection function\r\n- Optimized file upload (all) PoC\r\n- Optimize RCE (all) PoC\r\n\r\ndelete:\r\n- Remove Fingerprint fingerprint recognition and command parameters (replacement tool pyxis)\r\n- Remove uncommon command parameters\r\n\r\nPoC:\r\n- Added 52 PoCs\r\n- Validate and optimize n multiple PoCs\r\n- Remove PoC csz-cms-multiple-blind-sql-injection\r\n- Remove PoC phpstudy-nginx-wrong-resolve\r\n- Built-in several private PoC\r\n\r\n------------------------------------------\r\n修复：\r\n\t- 修复 afrog html 报告 XSS 漏洞\r\n\t\r\n优化：\r\n\t- 简化 URL 黑名单机制\r\n\t- 优化 http/s 检测功能\r\n\t- 优化 文件上传 (所有) PoC \r\n\t- 优化 RCE (所有) PoC\r\n\r\n删除：\r\n\t- 去掉 Fingerprint 指纹识别及命令参数 (替代工具 pyxis)\r\n\t- 去掉不常用命令参数\r\n\t\r\nPoC:\r\n\t- 新增 52 PoC\r\n\t- 验证和优化 n 多个 PoC\r\n\t- 删除 PoC  csz-cms-multiple-blind-sql-injection\r\n        - 删除 PoC phpstudy-nginx-wrong-resolve\r\n        - 内置几个 private  PoC"
@@ -3059,8 +3059,8 @@
     "https://github.com/moonD4rk/HackBrowserData": {
         "created_at": "2020-06-18 03:24:31",
         "description": "Decrypt passwords/cookies/history/bookmarks from the browser. 一款可全平台运行的浏览器数据导出解密工具。",
-        "commit_date": "2023-04-04 12:09:32",
-        "commit_message": "Merge pull request #209 from moonD4rk/feat/lint\n\nfix: renaming unused parameter",
+        "commit_date": "2023-04-21 02:28:30",
+        "commit_message": "Merge pull request #213 from liumingxing/master\n\nSupport SessionStorage export",
         "release_tag": "v0.4.4",
         "release_date": "2022-08-16 11:59:57",
         "release_message": "## Changes\r\n- fix: find Chrome cookie file failed on windows @moonD4rk (#162)\r\n- deploy: update more check on CI @moonD4rk (#160)\r\n- refactor: formate code by golangci-lint @moonD4rk (#159)\r\n- fix: can not access the file Error when compress results @slimwang (#156)"
@@ -3192,8 +3192,8 @@
     "https://github.com/joke2k/faker": {
         "created_at": "2012-11-12 23:00:09",
         "description": "Faker is a Python package that generates fake data for you.",
-        "commit_date": "2023-04-06 15:27:19",
-        "commit_message": "Bump version: 18.3.4 → 18.4.0",
+        "commit_date": "2023-04-21 16:09:21",
+        "commit_message": "Added `de_DE` `swift_location_codes` (#1843)",
         "release_tag": "v18.4.0",
         "release_date": "2023-04-06 15:27:55",
         "release_message": "See [CHANGELOG.md](https://github.com/joke2k/faker/blob/refs/tags/v18.4.0/CHANGELOG.md)."
@@ -3406,8 +3406,8 @@
     "https://github.com/bit4woo/domain_hunter_pro": {
         "created_at": "2019-01-18 07:15:15",
         "description": "domain_hunter的高级版本，SRC挖洞、HW打点之必备！自动化资产收集；快速Title获取；外部工具联动；等等",
-        "commit_date": "2023-04-19 14:46:50",
-        "commit_message": "数据加载逻辑更新",
+        "commit_date": "2023-04-21 10:34:42",
+        "commit_message": "Update Commons.java",
         "release_tag": "v1.9",
         "release_date": "2023-04-18 00:34:58",
         "release_message": "全局：\r\n多个bug修复\r\n布局模式优化\r\n基础方法实现逻辑优化\r\n\r\n右键菜单：\r\n“Do Search”提供主动在制定请求中进行搜索的能力，比如在某企业邮箱的流量中搜索以提取邮箱地址\r\n“Add Request And Comment”右键菜单添逻辑优化，修复一个bug\r\n“Send To Tool Panel”右键菜单处理逻辑优化，可合并发送多个数据包内容\r\n\r\nDomain面板：\r\nroot domain的comments逻辑更新\r\n提供多个网络搜索引擎的后台自动搜索功能\r\nroot domain双击，自动在浏览器中访问\r\n修改目标根域名删除失败的bug\r\n显示序号，以便在排序后恢复原始顺序\r\n\r\nTool面板：\r\n重写JTextArea的paste函数，避免大内容导致程序卡死\r\nJTextArea支持输入文件，而程序处理其内容。\r\n文本取提供简单的历史记录功能\r\nJSON提取逻辑优化\r\n新增多个功能，比如排序\r\n优化URL提取逻辑，避免遗漏没有以/开头的path\r\n\r\nTitle面板中：\r\n端口扫描命令生成逻辑优化\r\n备注和IP内容的显示优化，显示前排序\r\n备注添加逻辑优化\r\n给手动添加的记录添加已知的IP和CNAME、CertInfo\r\n搜索功能增强，支持对数字型字段进行大于、小于、等于等搜索\r\n添加多个搜索实例，以便用户熟悉搜索语法\r\n新增“Do Request Item Again”菜单，对DNS记录或无响应的数据包进行再次请求"
@@ -3548,8 +3548,8 @@
     "https://github.com/bytedance/appshark": {
         "created_at": "2022-09-01 03:39:03",
         "description": "Appshark is a static taint analysis platform to scan vulnerabilities in an Android app.",
-        "commit_date": "2023-04-18 09:45:13",
-        "commit_message": "Merge pull request #36 from guoxiaoxu/main\n\nupdate reflection.kt",
+        "commit_date": "2023-04-21 09:02:15",
+        "commit_message": "Merge remote-tracking branch 'origin/main'",
         "release_tag": "v0.1.2",
         "release_date": "2022-09-22 10:03:10",
         "release_message": "fix problems running on windows."
