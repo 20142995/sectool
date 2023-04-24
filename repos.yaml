@@ -491,6 +491,8 @@
         cobaltstrike:
             - https://github.com/pandasec888/taowu-cobalt-strike
             - https://github.com/H4de5-7/geacon_pro
+            - https://github.com/F3eev/SharkExec
+            - https://github.com/lintstar/LSTAR
         ZoomEye:
             - https://github.com/knownsec/Kunyu
             - https://github.com/knownsec/ZoomEye-python
@@ -605,3 +607,13 @@ CTF:
 靶场:
     web靶场:
         - https://github.com/linjiananallnt/ElectricRat
+        - https://github.com/c0ny1/vulstudy
+        - https://github.com/Audi-1/sqli-labs
+        - https://github.com/psiinon/bodgeit
+        - https://github.com/adamdoupe/WackoPicko
+        - https://github.com/WebGoat/WebGoat
+        - https://github.com/Hackademic/hackademic
+        - https://github.com/aj00200/xssed
+        - https://github.com/stamparm/DSVW
+        - https://github.com/cr0hn/vulnerable-node
+        - https://github.com/SpiderLabs/MCIR
