@@ -1,8 +1,13 @@
-# 更新于 2023-04-25 08:41:54
+# 更新于 2023-04-26 08:43:05
 
 ## 近15天release更新记录
 | 更新时间 | 项目名称 | 版本 | 更新内容 |
 | :---- | :---- | :---- | :---- |
+|2023-04-25 17:18:33|[Umi-OCR](https://github.com/hiroi-sora/Umi-OCR)|v1.3.4|### v1.3.4 主要更新：- 新功能：截图预览<br>窗口。需要在设置→快捷识图→截图预览窗口<br>里打开。效果见下图，可以调整透明度 并钉在<br>屏幕顶层。![1682442876719.png](https://tu<br>pian.li/images/2023/04/26/64480a815920a.<br>png)- 新功能：可用方向键微调截图框位置。<br>- 修Bug：修复了拖入图片时有几率卡退主窗<br>口的问题。- 优化了一些处理流程。- 优化了<br>打包方式，软件体积比上一代减少了15MB。###<br> 文件说明软件本体：Umi-OCR.v1.3.4.7z，内<br>置简体中文&英文通用识别库。多国语言扩展包<br>：Umi-OCR.v1.3_DLC_languages.7z，可额外导<br>入繁中,英,日,韩,俄,德,法 识别库。请按需下<br>载。|
+|2023-04-25 14:39:32|[PEASS-ng](https://github.com/carlospolop/PEASS-ng)|20230425-<br>bd7331ea||
+|2023-04-25 07:05:14|[autoDecoder](https://github.com/f0ng/autoDecoder)|0.25|## 2023.4.25 更新0.251. 增加二进制请求<br>体、响应体处理，原理为将请求包的内容base6<br>4编码后传入接口，需要对burp做以下设置，<br>否则获取到的编码为损坏的- 需要勾选User op<br>tions->Character Sets中的Use the platfor<br>m default(UTF-8)[MAC]，或者勾选Display a<br>s raw bytes[Windows]感谢微信群师傅Ronin<br>师傅反馈|
+|2023-04-25 04:01:24|[veinmind-tools](https://github.com/chaitin/veinmind-tools)|v2.1.2|## Feature* feat(veinmind-weakpass): su<br>pport ftp @ek1ng in https://github.com/c<br>haitin/veinmind-tools/pull/226* feat(vei<br>nmind-iac): add dockerfile security dete<br>ction by @ek1ng in https://github.com/ch<br>aitin/veinmind-tools/pull/228## Fix* fix<br>(ai): ignore basic info analyzer by @DVK<br>union in https://github.com/chaitin/vein<br>mind-tools/pull/218* fix(Makefile): add <br>CGO_ENBALED && update(dependency): updat<br>e dependency version by @ek1ng in https:<br>//github.com/chaitin/veinmind-tools/pull<br>/221* fix(CI/CD): change goproxy setting<br>s by @ek1ng in https://github.com/chaiti<br>n/veinmind-tools/pull/222## Others* doc:<br> update README.md by @DVKunion in https:<br>//github.com/chaitin/veinmind-tools/pull<br>/219## New Contributors* @ek1ng made the<br>ir first contribution in https://github.<br>com/chaitin/veinmind-tools/pull/221**Ful<br>l Changelog**: https://github.com/chaiti<br>n/veinmind-tools/compare/v2.1.1...v2.1.2|
+|2023-04-25 03:38:54|[knife](https://github.com/bit4woo/knife)|v2.2|更新“Find URL And Request”功能更新chi<br>nese中文显示面板逻辑，及时刷新避免有时显<br>示不一致的问题端口扫描逻辑优化，多个host<br>在同一个命令行中完成扫描，避免打开太多窗<br>口更新dismiss功能，规则更清晰也更容易自行<br>编辑处理。让proxy中的数据包编辑更改可视化<br>，更容易判断数据处理规则是否正确数据包修<br>改更新、丢弃转发的规则类型更丰富，适应更<br>多场景。|
 |2023-04-24 15:55:52|[faker](https://github.com/joke2k/faker)|v18.5.1|See [CHANGELOG.md](https://github.com/j<br>oke2k/faker/blob/refs/tags/v18.5.1/CHANG<br>ELOG.md).|
 |2023-04-24 13:58:59|[Ladon](https://github.com/k8gege/Ladon)|v10.10.4|### Ladon 10.10.420230422[u]LadonGUI文<br>本处理，功能全改成中文(Win8及以上英文系统<br>支持中文)[+]EXP-2022-36537	Zookeeper 未授<br>权文件读取EXP (默认/WEB-INF/web.xml)[+]CV<br>E-2022-36537	Server Backup Manager 未授<br>权RCE漏洞检测 (Zookeeper)[+]INI插件超时30<br>秒，自动结束进程，防批量PY卡死[+]TXT文件I<br>P、URL等自动去重，只有str.txt不去重[+]TX<br>T文件扫描TXT支持自定义线程数，不再默认10<br>0[u]SshScan修复ip.txt时重复扫N多密码的Bu<br>g[+]PortForward端口转发 端口中转[+]默认<br>信息显示OS版本识别小版本号、.NET最高版本[<br>+]INI插件支持$ip$、$url$、$tar$、$ip$:$p<br>ort$、$ip$ $port$参数，自动处理格式，如t<br>ar.txt中有IP和URL，$ip$会把url处理成IP[+<br>]INI插件支持参数处理，如INI里配置$ip$，<br>读取tar.txt内容为http://192.168.1.8:8099<br>，内容将处理成IP数据192.168.1.8，其他同理<br>[+]TXT文件新增tar.txt、target.txt一样，<br>传入参数为原始内容，如提供的是IP，Ladon不<br>会处理成url，除非INI里指定，或模块自行处<br>理[+]TXT文件修复读取url.txt host.txt 出现<br>不完整问题，如http://backup.xxx.org 变成 <br>http:ckup.xx.org 的BugEXP-2022-36537	Zoo<br>keeper 未授权文件读取EXP (默认/WEB-INF/w<br>eb.xml)![image](http://k8gege.org/k8img/<br>Ladon/exe/CVE-2022-36537_EXP.png)批量检<br>测CVE-2022-36537 Server Backup Manager 未<br>授权RCE漏洞 上传是否可用![image](http://k<br>8gege.org/k8img/Ladon/exe/CVE-2022-36537<br>_ISOK.png)端口转发![image](http://k8gege<br>.org/k8img/Ladon/exe/FortForward.png)多<br>个Potato在IIS下轻松提权![image](http://k8<br>gege.org/k8img/Ladon/exe/lpe_efspotato.p<br>ng)### Ladon 10.10.3 20230410[+]FtpServe<br>r	迷你FTP服务器，(支持windows/Linux自带f<br>tp命令实现文件上传下载)默认21 admin admi<br>n 可自定义端口自定义用户、密码[+]TcpServ<br>er	监听TCP发包数据 保存TXT和HEX 如SMB RD<br>P HTTP SSH LDAP FTP等协议[+]UdpServer	监<br>听UDP发包数据 保存TXT和HEX 如DNS、SNMP等<br>协议[+]ArpInfoARP协议探测存活主机IP和MAC<br>，仅支持同一子网[u]WebServer	迷你WEB服务<br>器[u]PortScan移除9100端口Ladon 10.10.2 20<br>230402[+]clsLog清除崩溃日志、UsageLog日<br>志、清除图标缓存、禁止UsageLog日志记录[u]<br>默认禁止基于.net程序UsageLog日志记录(如各<br>类工具、powershell等)防止蓝队或EDR通过日<br>志审计[u]RunPS无PowerShell.exe执行*.ps1脚<br>本 新增内存绕过AMSI反病毒查杀接口[+]默认B<br>ypassETW 绕过部分杀软和EDR监控[+]HPreboo<br>tSNMP重启HP打印机 .net>=4.0|
 |2023-04-24 08:11:58|[kube-bench](https://github.com/aquasecurity/kube-bench)|v0.6.13|## Changelogc3b6871 Fix version in poli<br>cies.yaml (#1415)9e41099 build(deps): bu<br>mp github.com/aws/aws-sdk-go-v2/service/<br>securityhub (#1397)7aeb6c3 build(deps): <br>bump github.com/fatih/color from 1.13.0 <br>to 1.14.1 (#1363)96c6b38 chore: publish <br>ubi based image (#1412)b43f58d add darwi<br>n builds (#1428)|
@@ -11,7 +16,6 @@
 |2023-04-23 11:40:07|[Elkeid](https://github.com/bytedance/Elkeid)|scanner-v<br>2.2.0.2_20<br>230423||
 |2023-04-23 07:32:04|[mitaka](https://github.com/ninoseki/mitaka)|v1.2.0|- Remove abandoned/no longer maintained<br> searchers (#723)- Revamp FortiGuard sea<br>rcher (#724)- Support ThreatBook as a se<br>archer (#725)- Change TS mapping paths t<br>o follow Plasmo's default settings (#727<br>)- Make it possible to disable/scanners <br>in the options view (#728, #713)|
 |2023-04-23 06:08:32|[OA-EXPTOOL](https://github.com/LittleBear4/OA-EXPTOOL)|OA-EXPTOO<br>L-0.72|最近更新日志：泛微前台sql注入的poc验证<br>，暂无exp万户OA_UploadServlet.py万户OA_xf<br>ire_xxe优化poc的验证功能|
-|2023-04-23 04:28:49|[PEASS-ng](https://github.com/carlospolop/PEASS-ng)|20230423-<br>4d9bddc5||
 |2023-04-23 03:24:47|[Xray_Cracked](https://github.com/NHPT/Xray_Cracked)|v1.9.8|Xray 1.9.8 COMMUNITY-ADVANCED Windows,L<br>inux and Mac OS Version.xray_windows_amd<br>64.exeSHA256: E9E94E026B203D6D2FA1E98E0B<br>34D448408F9EF442C2ADC94F378DB824DC7270xr<br>ay_windows_386.exeSHA256: 3E973484110535<br>0CDB85C7DEB19231FCD5D9D4413F245DA53448C3<br>C37665492Bxray_darwin_amd64SHA256: 1405C<br>522622FBE43DEC8D2468C4DEB5C496BD02370B0C<br>9573BF9116F5D340C38xray_darwin_arm64SHA2<br>56: DEBDC4C8FA6C9A180F554BC4D0FA95B06AFE<br>3461D5549EDCB9483E8A53A48D1Exray_linux_a<br>md64SHA256: 002E9C31659160B44D0AADFC6856<br>E47F39401CD4F26840AE1DF7E0C6A147D359xray<br>_linux_arm64SHA256: 693C6D6251711B644C56<br>3EA0D30053433747D51247EF08D746428E0195BB<br>AB15|
 |2023-04-22 13:09:02|[afrog](https://github.com/zan8in/afrog)|v2.2.3|optimization:- Customizable html report<br> report generation directoryPoC:- Added <br>22 PoCs-----------------优化：- 可自定义<br> html report 报告生成目录PoC:- 新增 22 P<br>oC|
 |2023-04-22 09:01:57|[OneScan](https://github.com/vaycore/OneScan)|v1.0.0|1.0.0 版本发布，版本更新内容如下### 升<br>级提醒！！！！新版配置与旧版本不兼容，更<br>新前需要自行备份配置；以免各位想回退版本<br>的时候，出现配置文件报错的情况### 新增- <br>新增过滤规则可视化，将过滤规则文本框放到 <br>Filter 按钮左边- 新增Fingerprint指纹模块<br>- 新增随机内网IP动态变量{{random.local-i<br>p}}- 新增字典管理，可定义一系列字典，便<br>捷切换- 更新辅助信息面板UI，新增指纹信息<br>展示### 优化- 使用Gson作为项目的Json解析<br>库- 将默认Header配置中的{{random.ip}}修改<br>为{{random.local-ip}}- 优化黑白名单匹配规<br>则，添加*号匹配（支持格式：www.google.com<br>、*.google.com、*.google.*、www.google.*<br>、www.*.com）- 主动扫描时不进行黑白名单检<br>测- 自带的默认白名单不包含任何内容### 修<br>复- 修复Payload Processing处理异常的问题|
@@ -30,7 +34,6 @@
 |2023-04-16 13:30:59|[trivy](https://github.com/aquasecurity/trivy)|v0.40.0|## ⚡Release highlights and summary⚡👉<br> https://github.com/aquasecurity/trivy/d<br>iscussions/4074## Changelog* b43b19ba5 f<br>eat(flag): Support globstar for --skip-f<br>iles and --skip-directories (#4026)* 148<br>05002d chore(deps): bump actions/stale f<br>rom 7 to 8 (#3955)* 83bb97ab1 fix: retur<br>n insecure option to download javadb (#4<br>064)* 79a1ba32d fix(nodejs): don't stop <br>parsing when unsupported yarn.lock proto<br>cols are found (#4052)* ff1c43a79 ci: ad<br>d gpg signing for RPM packages (#4056)* <br>b608b116c fix(k8s): current context titl<br>e (#4055)* 2c3b60f4c fix(k8s): quit supp<br>ort on k8s progress bar (#4021)* a6b8642<br>13 chore: add a note about Dockerfile.ca<br>nary (#4050)* 90b80662c ci: fix path to <br>canary binaries (#4045)* dcefc6bf3 fix(v<br>uln): report architecture for debian pac<br>kages (#4032)* 601e25fb2 feat: add suppo<br>rt for Chainguard's commercial distro (#<br>3641)* 0bebec19f ci: bump goreleaser for<br> Github Action from 1.4.1 to 1.16.2 (#39<br>79)* 707ea9423 fix(vuln): fix error mess<br>age for remote scanners (#4031)* 8e1fe76<br>9e feat(report): add image metadata to S<br>ARIF (#4020)* 4b36e97dc docs: fix broken<br> cache link on Installation page (#3999)<br>* f0df725c5 fix: lock downloading polici<br>es and database (#4017)* 009675c82 fix: <br>avoid concurrent access to the global ma<br>p (#4014)* 3ed86aa3d feat(rust): add Car<br>go.lock v3 support (#4012)* f31dea4bd fe<br>at: auth support oci download server sub<br>command (#4008)* d37c50a2b chore(deps): <br>bump github.com/docker/docker (#4009)* 6<br>93d20516 chore: install.sh support for a<br>rmv7 (#3985)* 65d89b99d chore(deps): bum<br>p github.com/Azure/go-autorest/autorest/<br>adal (#3961)|
 |2023-04-16 12:00:25|[WeblogicTool](https://github.com/KimJun1010/WeblogicTool)|v1.0||
 |2023-04-15 01:34:31|[nemo_go](https://github.com/hanc00l/nemo_go)|v2.9.2|### Updated- 首页登录及后台更改密码时，<br>采用RSA加密传输（每次server启动生成随机RS<br>A密钥对）；- WEB页面修改XSCAN的默认配置<br>；优化XSCAN的选项，增加Nuclei漏洞扫描；- <br>增加输入任务参数长度校验（目标Targets不超<br>过5000个字符，输入参数总长度不超过6000个<br>字符）；- 增加WebServer API接口和Swagger<br>调试页面（为前后端分离提供支持）；- 将子<br>域名被动收集（Subfinder）及指纹获取（Http<br>x）功能由原通过源代码集成改用调用二进制<br>文件（解决和降低内存泄露、协程异常导致内<br>存和CPU占用异常的bug）；- 增加IP与资产的<br>黑名单功能及一键拉黑功能，对黑名单的资产<br>忽略指纹及漏洞任务、结果不会进行存储；- <br>更新纯真数据库；- ChangeLog；### Fix- 子<br>域名被动枚举（Subfinder）配置的provider-c<br>onfig.yaml未生效|
-|2023-04-14 09:07:11|[autoDecoder](https://github.com/f0ng/autoDecoder)|0.24-beta<br>2|## 2023.4.14 更新0.24-beta21. 增加RSA加<br>解密2. 响应包正则模式加解密|
 |2023-04-13 18:29:02|[clair](https://github.com/quay/clair)|v4.6.1|
 ## [Unreleased]## [v4.6.1] - 2023-04-1<br>3
 ### Airgap
@@ -51,43 +54,48 @@
 |2023-04-12 08:22:22|[ZoomEye-python](https://github.com/knownsec/ZoomEye-python)|v2.2.0|### update- remove username and passwor<br>d authenticate method, only support API-<br>KEY authenticate.### 更新- 移除用户名和<br>密码的认证方式，仅支持 API- KEY 认证。|
 |2023-04-12 07:54:54|[RequestTemplate](https://github.com/1n7erface/RequestTemplate)|v1.1.5|2023.4.12 16:001.解决了一个并发时线程抢<br>锁问题2.添加指纹，目前指纹900+3.添加ps,us<br>参数|
 |2023-04-12 06:53:40|[iDefender](https://github.com/wecooperate/iDefender)|2.6.0|增强稳定性、易用性，建议更新（感谢很多<br>热心网友的建议）- **添加学习模式**- 在学<br>习模式下，只会旁路监控来学习、观察规则的<br>使用和设置，实际不会拦截任何事件- 可以用<br>这种方式来建立白名单- 增强信任列表- 支持<br>手动添加、编辑- 不是弹框拦截规则也支持添<br>加信任- 增强拦截记录交互- 支持右键添加信<br>任的目标- 优化性能- 优化系统启动过程的一<br>些规则设置- 去掉规则引擎执行线程所有的文<br>件操作- 优化UI线程被阻塞后，导致系统短暂<br>卡死的问题- 修复一些场景导致启动卡住的问<br>题- 模板更新-**添加快速模板（拦截模式）**<br>-**添加快速模板（信任模式）**- 添加拦截<br>进程启动子进程模板- 添加忽略系统初始化过<br>程的规则模板- 优化一些内置模板导致误报弹<br>框的- 其他- 调整模板更新逻辑- 修复启动到<br>托盘闪一下界面的问题- 高级模板的一些字段<br>命名做了中文翻译- 修复专家策略设置错误格<br>式导致崩溃的问题- 修复进程路径选择的时候<br>选择成进程名的问题- 优化自保护跟卡巴斯基<br>冲突的问题- 优化一些使用体验问题软件下载|
-|2023-04-10 09:29:16|[pentest_report](https://github.com/dbgee/pentest_report)|v1.0.0|# python app.py|
 ## 近15天commit提交记录
 | 提交时间 | 项目名称 | 更新内容 |
 | :---- | :---- | :---- |
-|2023-04-25 00:30:16|[NucleiTP](https://github.com/ExpLangcn/NucleiTP)|更新啦❤️|
-|2023-04-24 23:04:58|[PocOrExp_in_Github](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-04-25 07:04:58|
+|2023-04-26 00:30:16|[NucleiTP](https://github.com/ExpLangcn/NucleiTP)|更新啦❤️|
+|2023-04-25 23:13:09|[PocOrExp_in_Github](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-04-26 07:13:09|
+|2023-04-25 21:26:26|[slowhttptest](https://github.com/shekyan/slowhttptest)|updated Dockerfile to use Alpine 3.17 from issue #80 (<br>#81)Co-authored-by: Brian Riffle |
+|2023-04-25 19:16:43|[Stowaway](https://github.com/ph4ntonn/Stowaway)|Update README|
+|2023-04-25 17:43:42|[dbeaver](https://github.com/dbeaver/dbeaver)|CB-3378 tm run task api (#19768)* CB-3378 tm run task <br>api* CB-3378 review fix* CB-3379 TM: schedule task api|
+|2023-04-25 17:10:35|[Umi-OCR](https://github.com/hiroi-sora/Umi-OCR)|update v1.3.4|
+|2023-04-25 15:05:49|[PEASS-ng](https://github.com/carlospolop/PEASS-ng)|Merge pull request #350 from Donovoi/masterfix path to<br>o long|
+|2023-04-25 11:47:25|[trivy](https://github.com/aquasecurity/trivy)|feat(sbom): add primary package purpose field for SPDX<br> (#4119)|
+|2023-04-25 11:19:28|[domain_hunter_pro](https://github.com/bit4woo/domain_hunter_pro)|删除非目标记录 逻辑更新|
+|2023-04-25 08:12:35|[Elkeid](https://github.com/bytedance/Elkeid)|update:driver CI wget|
+|2023-04-25 07:10:09|[autoDecoder](https://github.com/f0ng/autoDecoder)|Update README.md|
+|2023-04-25 06:23:58|[heapdump_tool](https://github.com/wyzxxz/heapdump_tool)|Update README.md|
+|2023-04-25 04:00:29|[afrog](https://github.com/zan8in/afrog)|update contribute|
+|2023-04-25 03:51:00|[veinmind-tools](https://github.com/chaitin/veinmind-tools)|feat(veinmind-iac): add dockerfile security detection <br>(#228)* feat(plugins): add ftp protocol support in plug<br>indocs(plugins): fix Readme table bug* docs(plugins): a<br>dd ftp protocol support in plugin* feat(plugins): updat<br>e dependency version* feat(plugins): add ftp protocol s<br>upport in weekpass plugin* Refactor(plugins-weakpass): <br>change Mod name to Service name mapping from one-to-one<br> to one-to-many* Test(plugins-weakpass): Add unit tests<br> for ftp service* Test(plugins-weakpass): Add unit test<br>s for ftp service* feat(veinmind-iac): add dockerfile s<br>ecurity detection* test(veinmind-iac): add dockerfile s<br>ecurity detection tests* fix(veinmind-iac): fix format <br>bug* Test(veinmind-iac): Add unit tests for dockerfile <br>detection|
+|2023-04-25 03:38:19|[knife](https://github.com/bit4woo/knife)|v2.2|
+|2023-04-25 03:10:33|[URLFinder](https://github.com/pingc0y/URLFinder)|Update result.go2023/4/25|
 |2023-04-24 18:49:01|[grype](https://github.com/anchore/grype)|chore(deps): bump github/codeql-action from 2.2.12 to <br>2.3.0 (#1256)Bumps [github/codeql-action](https://githu<br>b.com/github/codeql-action) from 2.2.12 to 2.3.0.- [Rel<br>ease notes](https://github.com/github/codeql-action/rel<br>eases)- [Changelog](https://github.com/github/codeql-ac<br>tion/blob/main/CHANGELOG.md)- [Commits](https://github.<br>com/github/codeql-action/compare/7df0ce34898d659f95c0c4<br>a09eaa8d4e32ee64db...b2c19fb9a2a485599ccf4ed5d65527d94b<br>c57226)---updated-dependencies:- dependency-name: githu<br>b/codeql-actiondependency-type: direct:productionupdate<br>-type: version-update:semver-minor...Signed-off-by: dep<br>endabot[bot]Co-authored-by: dependabot[bot] |
 |2023-04-24 18:29:30|[clair](https://github.com/quay/clair)|chore: Remove 1.19Updating the go version CI matrix as<br> we bumped the go.mod go directive
 to 1.20 and are rely<br>ing on some 1.20 features for upcoming changes.Signed-o<br>ff-by: crozzy |
 |2023-04-24 18:28:20|[neuvector](https://github.com/neuvector/neuvector)|NVSHAS-7450: Fix dp to detect pcap packetsInitialize c<br>ontext->quar to false when process pcap packets|
-|2023-04-24 18:17:56|[trivy](https://github.com/aquasecurity/trivy)|fix(python): parse of pip extras (#4103)Co-authored-by<br>: knqyf263 |
 |2023-04-24 15:55:03|[faker](https://github.com/joke2k/faker)|Bump version: 18.5.0 → 18.5.1|
-|2023-04-24 15:04:36|[dbeaver](https://github.com/dbeaver/dbeaver)|#19782 fix events reading for quoted schemas for MySQL<br>/MariaDB (#19784)|
 |2023-04-24 14:34:13|[syft](https://github.com/anchore/syft)|chore: go-rpmdb update (#1757)Signed-off-by: Christoph<br>er PhillipsSigned-off-by: Alex GoodmanCo-authored-by: A<br>lex Goodman |
 |2023-04-24 14:14:31|[K8tools](https://github.com/k8gege/K8tools)|Add files via upload|
 |2023-04-24 14:03:52|[Ladon](https://github.com/k8gege/Ladon)|Add files via upload|
 |2023-04-24 13:06:57|[sqlmap](https://github.com/sqlmapproject/sqlmap)|Disabled hostname and certificate validation for TLSv1<br>.3 support. (#5395)|
 |2023-04-24 13:04:07|[Antenna](https://github.com/wuba/Antenna)|Merge pull request #117 from wuba/developDevelop|
-|2023-04-24 12:03:24|[Elkeid](https://github.com/bytedance/Elkeid)|module in-tree conversion and improvements (#491)* mod<br>ule in-tree support: kprobe framework removedoriginal k<br>probe framework removed, which contains module-onlyfeat<br>ures and isn't necessary at all for current HIDS projec<br>t.in-tree support is mainly for stress testing & kernel<br> fuzzing.Signed-off-by: shenping.matt* FIXME: UAF issue<br> resolved for connect hooking1, UAF: sip6/dip6 pointer <br>reference after socket release2, sockfd_lookup could re<br>turn ERR_PTR or NULL3, improvement of connect_syscall_h<br>andler & connect_handler* FIXME: return value checking <br>for strnlen_userNo assuming strnlen_user won't return n<br>egative values in atomic context,though as said in manu<br>al strnlen_user will only return 0 (for failures)or pos<br>itive string length for normal cases---------Signed-off<br>-by: shenping.matt |
 |2023-04-24 09:21:41|[aksk_tool](https://github.com/wyzxxz/aksk_tool)|Update README.md|
 |2023-04-24 09:07:59|[Komo](https://github.com/komomon/Komo)|Update sensitiveinfo_main.py|
 |2023-04-24 08:43:59|[Vulnerability-Wiki](https://github.com/Threekiii/Vulnerability-Wiki)|更新漏洞|
 |2023-04-24 08:40:43|[Awesome-POC](https://github.com/Threekiii/Awesome-POC)|更新漏洞|
 |2023-04-24 08:11:55|[safeline](https://github.com/chaitin/safeline)|Merge pull request #38 from guanweiwang/mainadddynamic<br> directory and add statistics|
 |2023-04-24 08:02:19|[kube-bench](https://github.com/aquasecurity/kube-bench)|release: prepare v0.6.13 (#1429)Signed-off-by: chenk |
-|2023-04-24 07:29:01|[URLFinder](https://github.com/pingc0y/URLFinder)|Update README.md|
 |2023-04-24 07:24:25|[FrameScan-GUI](https://github.com/qianxiao996/FrameScan-GUI)|Update config.ini|
-|2023-04-24 07:11:25|[domain_hunter_pro](https://github.com/bit4woo/domain_hunter_pro)|update|
 |2023-04-24 06:48:58|[Xray_Cracked](https://github.com/NHPT/Xray_Cracked)|Update README.md|
 |2023-04-24 03:20:26|[fofax](https://github.com/xiecat/fofax)|发布因网络导致的更新异常|
-|2023-04-24 03:18:36|[afrog](https://github.com/zan8in/afrog)|update contribute|
 |2023-04-23 17:54:49|[CVE-2023-21839](https://github.com/4ra1n/CVE-2023-21839)|Update README.md|
 |2023-04-23 15:16:10|[PeiQi-WIKI-Book](https://github.com/PeiQi0/PeiQi-WIKI-Book)|漏洞相关:Metersphere,PowerJob|
 |2023-04-23 12:29:27|[appshark](https://github.com/bytedance/appshark)|bugfix: 1. CUSTOM_CLASS's call graph is missed.
 2. ent<br>ryMethod should call the nearest implementation.|
-|2023-04-23 10:48:36|[Umi-OCR](https://github.com/hiroi-sora/Umi-OCR)|优化：截图子窗口长宽比例过大时，鼠标拖拽缩放会忽略短边<br>轴的位移，以免操作太灵敏。|
-|2023-04-23 10:30:46|[heapdump_tool](https://github.com/wyzxxz/heapdump_tool)|Update README.md|
 |2023-04-23 08:52:16|[go_proxy_pool](https://github.com/pingc0y/go_proxy_pool)|Update README.md|
 |2023-04-23 07:26:13|[mitaka](https://github.com/ninoseki/mitaka)|Merge pull request #729 from ninoseki/v1.2.0v1.2.0|
 |2023-04-23 06:05:21|[OA-EXPTOOL](https://github.com/LittleBear4/OA-EXPTOOL)|Add files via upload|
@@ -95,7 +103,6 @@ to 1.20 and are rely<br>ing on some 1.20 features for upcoming changes.Signed-o<
 |2023-04-23 02:33:34|[404StarLink](https://github.com/knownsec/404StarLink)|weekly update at 2023-04-23|
 |2023-04-22 09:47:26|[SmsForwarder](https://github.com/pppscn/SmsForwarder)|修复：CactusSave中SharedPreference的键值对应错误 #294|
 |2023-04-22 08:34:27|[OneScan](https://github.com/vaycore/OneScan)|针对1.0.0版本更新README说明文档及截图|
-|2023-04-22 02:59:01|[knife](https://github.com/bit4woo/knife)|Update GUI.java|
 |2023-04-21 15:19:18|[ffuf](https://github.com/ffuf/ffuf)|Fix md output format (#672)* Fix MD output* Add CHANGE<br>LOG.md entry|
 |2023-04-21 07:09:50|[Pentest-Windows](https://github.com/arch3rPro/Pentest-Windows)|Update README.md|
 |2023-04-21 06:44:01|[swagger-exp](https://github.com/lijiejie/swagger-exp)|Merge pull request #13 from lanyi1998/masterfeat:suppo<br>rt mac|
@@ -110,8 +117,6 @@ to 1.20 and are rely<br>ing on some 1.20 features for upcoming changes.Signed-o<
 |2023-04-19 07:07:20|[Awesome-Redteam](https://github.com/Threekiii/Awesome-Redteam)|更新README.md|
 |2023-04-19 05:37:56|[0day](https://github.com/helloexp/0day)|add CVE-2023-23397 exp|
 |2023-04-19 04:29:51|[noterce](https://github.com/xiao-zhu-zhu/noterce)|Update server.go1.2 修复被控端不能更改地址的bug|
-|2023-04-19 02:59:49|[PEASS-ng](https://github.com/carlospolop/PEASS-ng)|Update sensitive_files.yaml|
-|2023-04-18 14:59:45|[veinmind-tools](https://github.com/chaitin/veinmind-tools)|feat(plugins): add ftp protocol support in plugin (#22<br>6)* feat(plugins): add ftp protocol support in plugindo<br>cs(plugins): fix Readme table bug* docs(plugins): add f<br>tp protocol support in plugin* feat(plugins): update de<br>pendency version* feat(plugins): add ftp protocol suppo<br>rt in weekpass plugin* Refactor(plugins-weakpass): chan<br>ge Mod name to Service name mapping from one-to-one to <br>one-to-many* Test(plugins-weakpass): Add unit tests for<br> ftp service* Test(plugins-weakpass): Add unit tests fo<br>r ftp service|
 |2023-04-18 10:06:15|[DecodeSomeJSPWebshe<br>ll](https://github.com/minhangxiaohui/DecodeSomeJSPWebshell)|Update README.md哥斯拉解密的时候的具体使用方法没有描述<br>清除，导致我自己很久没用这个工具之后也忘记使用方法了，所<br>以这里更新下描述文件，添加了哥斯拉的解密case样例|
 |2023-04-18 09:05:55|[murphysec](https://github.com/murphysecurity/murphysec)|Revert "refactor: remove task id config"This reverts c<br>ommit 81b819f565c9da309b6b42c47815cd9607647862.|
 |2023-04-18 07:17:13|[vulnerability](https://github.com/lal0ne/vulnerability)|CVE-2019-7609|
@@ -120,7 +125,6 @@ to 1.20 and are rely<br>ing on some 1.20 features for upcoming changes.Signed-o<
 |2023-04-17 07:42:21|[ddddocr](https://github.com/sml2h3/ddddocr)|Update README.md|
 |2023-04-17 07:04:15|[WebGoat](https://github.com/WebGoat/WebGoat)|Fix typo of HijackSession_content0.adoc|
 |2023-04-17 01:34:19|[OneForAll](https://github.com/shmilylty/OneForAll)|Merge pull request #308 from mastomii/adding-massdns-l<br>inux-aarch64adding "massdns-linux-aarch64"|
-|2023-04-17 01:33:40|[autoDecoder](https://github.com/f0ng/autoDecoder)|Update README.md|
 |2023-04-17 01:17:36|[AV_Evasion_Tool](https://github.com/1y0n/AV_Evasion_Tool)|Update README.md|
 |2023-04-16 22:36:36|[SSTImap](https://github.com/vladko312/SSTImap)|Release of SSTImap version 1.1.0Crawler and form detec<br>tion (by @fantesykikachu)New template engine added: Che<br>etahAutomatic import for engine modulesInteractive modu<br>le reloading capabilityFull support for Python 3.11Repl<br>aced telnetlib with a custom TCP client---------Co-auth<br>ored-by: fantesykikachu |
 |2023-04-15 11:44:52|[revsuit](https://github.com/Li4n0/revsuit)|ci: disable cgo|
@@ -130,10 +134,7 @@ to 1.20 and are rely<br>ing on some 1.20 features for upcoming changes.Signed-o<
 |2023-04-12 07:14:03|[About-Attack](https://github.com/lintstar/About-Attack)|Update README.md项目页面重构 https://red.lintstar.top/<br>Attack/|
 |2023-04-12 06:08:21|[Library-POC](https://github.com/luck-ying/Library-POC)|Update README.md|
 |2023-04-12 02:41:31|[rengine](https://github.com/yogeshojha/rengine)|Merge pull request #877 from AnonymousWP/fix-incorrect<br>-numbering-in-readmedocs(readme): fix numbered list|
-|2023-04-11 07:30:37|[Vuln-List](https://github.com/wwl012345/Vuln-List)|Update Windows&Linux提权&RCE合集.md|
-|2023-04-10 09:58:30|[pentest_report](https://github.com/dbgee/pentest_report)|code clean|
-|2023-04-10 01:03:43|[Vulhub-Reproduce](https://github.com/Threekiii/Vulhub-Reproduce)|更新漏洞|
-|2023-04-10 00:55:59|[yonyou_exp_plus](https://github.com/li8u99/yonyou_exp_plus)|Add files via upload|## 所有项目
+|2023-04-11 07:30:37|[Vuln-List](https://github.com/wwl012345/Vuln-List)|Update Windows&Linux提权&RCE合集.md|## 所有项目
 # 渗透测试
 ## 信息收集
 ### 资产测绘采集
@@ -300,7 +301,7 @@ to 1.20 and are rely<br>ing on some 1.20 features for upcoming changes.Signed-o<
 ### 容器漏洞扫描
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
-| [veinmind-tools](https://github.com/chaitin/veinmind-tools) | v2.1.1 | veinmind-tools 是由长亭科技自研，基于 veinmind-sdk 打造的容器安<br>全工具集 |
+| [veinmind-tools](https://github.com/chaitin/veinmind-tools) | v2.1.2 | veinmind-tools 是由长亭科技自研，基于 veinmind-sdk 打造的容器安<br>全工具集 |
 ### 口令爆破
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
@@ -336,7 +337,7 @@ to 1.20 and are rely<br>ing on some 1.20 features for upcoming changes.Signed-o<
 #### 容器安全检测工具
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
-| [veinmind-tools](https://github.com/chaitin/veinmind-tools) | v2.1.1 | veinmind-tools 是由长亭科技自研，基于 veinmind-sdk 打造的容器安<br>全工具集 |
+| [veinmind-tools](https://github.com/chaitin/veinmind-tools) | v2.1.2 | veinmind-tools 是由长亭科技自研，基于 veinmind-sdk 打造的容器安<br>全工具集 |
 #### 容器漏洞分析工具
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
@@ -548,7 +549,7 @@ to 1.20 and are rely<br>ing on some 1.20 features for upcoming changes.Signed-o<
 | [dirtycow](https://github.com/firefart/dirtycow) |  | Dirty Cow exploit - CVE-2016-5195 |
 | [traitor](https://github.com/liamg/traitor) | v0.0.14 | :arrow_up: :skull_and_crossbones: :fire: Automatic Linux privesc<br> via exploitation of low-hanging fruit e.g. gtfobins, pwnkit, dir<br>ty pipe, +w docker.sock |
 | [LinEnum](https://github.com/rebootuser/LinEnum) |  | Scripted Local Linux Enumeration & Privilege Escalation Checks |
-| [PEASS-ng](https://github.com/carlospolop/PEASS-ng) | 20230423-<br>4d9bddc5 | PEASS - Privilege Escalation Awesome Scripts SUITE (with colors) |
+| [PEASS-ng](https://github.com/carlospolop/PEASS-ng) | 20230425-<br>bd7331ea | PEASS - Privilege Escalation Awesome Scripts SUITE (with colors) |
 | [traitor](https://github.com/liamg/traitor) | v0.0.14 | :arrow_up: :skull_and_crossbones: :fire: Automatic Linux privesc<br> via exploitation of low-hanging fruit e.g. gtfobins, pwnkit, dir<br>ty pipe, +w docker.sock |
 ### 容器提权
 | 项目名称 | 版本 | 项目描述 |
@@ -650,7 +651,7 @@ to 1.20 and are rely<br>ing on some 1.20 features for upcoming changes.Signed-o<
 | [HopLa](https://github.com/synacktiv/HopLa) | 1.2 |  HopLa Burp Suite Extender plugin -Adds autocompletion support a<br>nd useful payloads in Burp Suite |
 | [captcha-killer-modi<br>fied](https://github.com/f0ng/captcha-killer-modified) | 0.23-beta<br>5 | captcha-killer的修改版，支持关键词识别base64编码的图片，添加免费<br>ocr库，用于验证码爆破，适配新版Burpsuite |
 | [BurpCrypto](https://github.com/whwlsfb/BurpCrypto) |  | BurpCrypto is a collection of burpsuite encryption plug-ins, sup<br>port AES/RSA/DES/ExecJs(execute JS encryption code in burpsuite).<br> 支持多种加密算法或直接执行JS代码的用于爆破前端加密的BurpSuite插<br>件 |
-| [autoDecoder](https://github.com/f0ng/autoDecoder) | 0.24-beta<br>2 | Burp插件，根据自定义来达到对数据包的处理（适用于加解密、爆破等）<br>，类似mitmproxy，不同点在于经过了burp中转，在自动加解密的基础上，<br>不影响APP、网站加解密正常逻辑等。 |
+| [autoDecoder](https://github.com/f0ng/autoDecoder) | 0.25 | Burp插件，根据自定义来达到对数据包的处理（适用于加解密、爆破等）<br>，类似mitmproxy，不同点在于经过了burp中转，在自动加解密的基础上，<br>不影响APP、网站加解密正常逻辑等。 |
 | [burpFakeIP](https://github.com/TheKingOfDuck/burpFakeIP) | 1.1 | 服务端配置错误情况下用于伪造ip地址进行测试的Burp Suite插件 |
 | [AutoRepeater](https://github.com/nccgroup/AutoRepeater) |  | Automated HTTP Request Repeating With Burp Suite |
 | [http-request-smuggl<br>er](https://github.com/portswigger/http-request-smuggler) |  |  |
@@ -658,7 +659,7 @@ to 1.20 and are rely<br>ing on some 1.20 features for upcoming changes.Signed-o<
 | [CORSScanner](https://github.com/zzzskd/CORSScanner) |  | CORS 跨域漏洞 burp 插件 |
 | [fastjson-exp](https://github.com/skisw/fastjson-exp) |  |  |
 | [HostHeaderAttack](https://github.com/weujieytt/HostHeaderAttack) | 0.1 | 检测host头攻击的Burpsuite被动扫描插件，Burpsuite passive scannin<br>g plugin responsible for detecting host header attack |
-| [knife](https://github.com/bit4woo/knife) | v2.1 | A burp extension that add some useful function toContext Menu 添<br>加一些右键菜单让burp用起来更顺畅 |
+| [knife](https://github.com/bit4woo/knife) | v2.2 | A burp extension that add some useful function toContext Menu 添<br>加一些右键菜单让burp用起来更顺畅 |
 | [log4j2burpscanner](https://github.com/f0ng/log4j2burpscanner) | 0.24.0 | CVE-2021-44228 Log4j2 BurpSuite Scanner,Customize ceye.io api or<br> other apis,including internal networks |
 | [passive-scan-client](https://github.com/c0ny1/passive-scan-client) | 0.3.1 | Burp被动扫描流量转发插件 |
 | [BpScan](https://github.com/EASY233/BpScan) | 1.0.0 | 一款用于辅助渗透测试工程师日常渗透测试的Burp被动漏扫插件 |
@@ -671,7 +672,7 @@ to 1.20 and are rely<br>ing on some 1.20 features for upcoming changes.Signed-o<
 | [BpScan](https://github.com/EASY233/BpScan) | 1.0.0 | 一款用于辅助渗透测试工程师日常渗透测试的Burp被动漏扫插件 |
 | [BurpCRLFScan](https://github.com/A0WaQ4/BurpCRLFScan) | 1.4 | 使用java编写的CRLF-Injection-burp被动扫描插件 |
 | [JsonDetect](https://github.com/a1phaboy/JsonDetect) | v1.0 | A burp Extender to detect json, include fastjson,jackson,gson |
-| [autoDecoder](https://github.com/f0ng/autoDecoder) | 0.24-beta<br>2 | Burp插件，根据自定义来达到对数据包的处理（适用于加解密、爆破等）<br>，类似mitmproxy，不同点在于经过了burp中转，在自动加解密的基础上，<br>不影响APP、网站加解密正常逻辑等。 |
+| [autoDecoder](https://github.com/f0ng/autoDecoder) | 0.25 | Burp插件，根据自定义来达到对数据包的处理（适用于加解密、爆破等）<br>，类似mitmproxy，不同点在于经过了burp中转，在自动加解密的基础上，<br>不影响APP、网站加解密正常逻辑等。 |
 | [burp-text4shell](https://github.com/silentsignal/burp-text4shell) | v0.1 | Text4Shell scanner for Burp Suite |
 | [sweetPotato](https://github.com/z2p/sweetPotato) | version1.<br>4 | 基于burpsuite的资产分析工具 |
 | [xia_Liao](https://github.com/smxiazi/xia_Liao) | 1.6 | xia Liao（瞎料）burp插件 用于Windows在线进程/杀软识别 与 web渗透<br>注册时，快速生成需要的资料用来填写，资料包含：姓名、手机号、身份证<br>、统一社会信用代码、组织机构代码、银行卡，以及各类web语言的hello w<br>orld输出和生成弱口令字典等。 |
@@ -931,7 +932,7 @@ to 1.20 and are rely<br>ing on some 1.20 features for upcoming changes.Signed-o<
 ## 文字识别
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
-| [Umi-OCR](https://github.com/hiroi-sora/Umi-OCR) | v1.3.3 | OCR图片转文字识别软件，完全离线。截屏/批量导入图片，支持多国语言<br>、合并段落、竖排文字。可排除水印区域，提取干净的文本。基于 PaddleO<br>CR 。 |
+| [Umi-OCR](https://github.com/hiroi-sora/Umi-OCR) | v1.3.4 | OCR图片转文字识别软件，完全离线。截屏/批量导入图片，支持多国语言<br>、合并段落、竖排文字。可排除水印区域，提取干净的文本。基于 PaddleO<br>CR 。 |
 # 安全产品
 ## 威胁检测
 | 项目名称 | 版本 | 项目描述 |

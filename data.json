@@ -200,8 +200,8 @@
     "https://github.com/ycdxsb/PocOrExp_in_Github": {
         "created_at": "2021-04-13 05:46:16",
         "description": "聚合Github上已有的Poc或者Exp，CVE信息来自CVE官网。Auto Collect Poc Or Exp from Github by CVE ID.",
-        "commit_date": "2023-04-24 23:04:58",
-        "commit_message": "update 2023-04-25 07:04:58",
+        "commit_date": "2023-04-25 23:13:09",
+        "commit_message": "update 2023-04-26 07:13:09",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -371,7 +371,7 @@
     "https://github.com/wyzxxz/heapdump_tool": {
         "created_at": "2021-08-06 02:48:31",
         "description": "heapdump敏感信息查询工具，例如查找 spring heapdump中的密码明文，AK,SK等",
-        "commit_date": "2023-04-23 10:30:46",
+        "commit_date": "2023-04-25 06:23:58",
         "commit_message": "Update README.md",
         "release_tag": "",
         "release_date": "",
@@ -461,7 +461,7 @@
     "https://github.com/ExpLangcn/NucleiTP": {
         "created_at": "2022-11-08 13:16:56",
         "description": "自动整合全网Nuclei的漏洞POC，实时同步更新最新POC！",
-        "commit_date": "2023-04-25 00:30:16",
+        "commit_date": "2023-04-26 00:30:16",
         "commit_message": "更新啦❤️",
         "release_tag": "",
         "release_date": "",
@@ -657,8 +657,8 @@
     "https://github.com/ph4ntonn/Stowaway": {
         "created_at": "2019-11-15 03:25:50",
         "description": "👻Stowaway -- Multi-hop Proxy Tool for pentesters",
-        "commit_date": "2023-04-08 17:14:05",
-        "commit_message": "Delete useless usage text",
+        "commit_date": "2023-04-25 19:16:43",
+        "commit_message": "Update README",
         "release_tag": "v2.1",
         "release_date": "2022-04-08 15:53:34",
         "release_message": "👻 v2.1 is released~ v2.1 is an upgraded version of v2.0\r\n\r\n## BE AWARE\r\n-  If you are trying to use admin on windows,plz make sure you have installed [ansicon](https://github.com/adoxa/ansicon/releases)\r\n- And if you have any problems when using command ```shell```,plz check the [shell.go](https://github.com/ph4ntonn/Stowaway/blob/master/agent/handler/shell.go) and read the annotation first!!! Maybe it can solve ur problems.\r\n\r\n## Update\r\n- 2021.10.1 \r\n    - Switch AES-CBC to AES-GCM.Thanks to @SignorMercurio \r\n    - Fix bugs. Thanks to @SignorMercurio \r\n- 2022.1.23\r\n    - Fix shell&topo bugs.Thanks to @lz520520\r\n- 2022.4.8 \r\n    - Fix data loss bug when closing a short connection.Thanks to @lz520520\r\n    - Add gzip function.Thanks to @lz520520 \r\n    - Optimize the key code\r\n    - Fix some bugs\r\n- 2022.7.19\r\n    - Fix nil pointer bug #41.Thanks to @zyylhn"
@@ -1422,8 +1422,8 @@
     "https://github.com/pingc0y/URLFinder": {
         "created_at": "2022-06-06 10:17:00",
         "description": "一款快速、全面、易用的页面信息提取工具，可快速发现和提取页面中的JS、URL和敏感信息。",
-        "commit_date": "2023-04-24 07:29:01",
-        "commit_message": "Update README.md",
+        "commit_date": "2023-04-25 03:10:33",
+        "commit_message": "Update result.go\n\n2023/4/25",
         "release_tag": "2023.2.21",
         "release_date": "2023-02-21 03:59:42",
         "release_message": "2023/2/21\r\n修复 已知bug"
@@ -1735,11 +1735,11 @@
     "https://github.com/chaitin/veinmind-tools": {
         "created_at": "2022-02-08 08:12:15",
         "description": "veinmind-tools 是由长亭科技自研，基于 veinmind-sdk 打造的容器安全工具集",
-        "commit_date": "2023-04-18 14:59:45",
-        "commit_message": "feat(plugins): add ftp protocol support in plugin (#226)\n\n* feat(plugins): add ftp protocol support in plugin\r\ndocs(plugins): fix Readme table bug\r\n\r\n* docs(plugins): add ftp protocol support in plugin\r\n\r\n* feat(plugins): update dependency version\r\n\r\n* feat(plugins): add ftp protocol support in weekpass plugin\r\n\r\n* Refactor(plugins-weakpass): change Mod name to Service name mapping from one-to-one to one-to-many\r\n\r\n* Test(plugins-weakpass): Add unit tests for ftp service\r\n\r\n* Test(plugins-weakpass): Add unit tests for ftp service",
-        "release_tag": "v2.1.1",
-        "release_date": "2023-03-29 08:46:28",
-        "release_message": "## Fix\r\n- 修复容器运行时部分初始化问题"
+        "commit_date": "2023-04-25 03:51:00",
+        "commit_message": "feat(veinmind-iac): add dockerfile security detection (#228)\n\n* feat(plugins): add ftp protocol support in plugin\r\ndocs(plugins): fix Readme table bug\r\n\r\n* docs(plugins): add ftp protocol support in plugin\r\n\r\n* feat(plugins): update dependency version\r\n\r\n* feat(plugins): add ftp protocol support in weekpass plugin\r\n\r\n* Refactor(plugins-weakpass): change Mod name to Service name mapping from one-to-one to one-to-many\r\n\r\n* Test(plugins-weakpass): Add unit tests for ftp service\r\n\r\n* Test(plugins-weakpass): Add unit tests for ftp service\r\n\r\n* feat(veinmind-iac): add dockerfile security detection\r\n\r\n* test(veinmind-iac): add dockerfile security detection tests\r\n\r\n* fix(veinmind-iac): fix format bug\r\n\r\n* Test(veinmind-iac): Add unit tests for dockerfile detection",
+        "release_tag": "v2.1.2",
+        "release_date": "2023-04-25 04:01:24",
+        "release_message": "## Feature\r\n* feat(veinmind-weakpass): support ftp @ek1ng in https://github.com/chaitin/veinmind-tools/pull/226\r\n* feat(veinmind-iac): add dockerfile security detection by @ek1ng in https://github.com/chaitin/veinmind-tools/pull/228\r\n\r\n## Fix\r\n* fix(ai): ignore basic info analyzer by @DVKunion in https://github.com/chaitin/veinmind-tools/pull/218\r\n* fix(Makefile): add CGO_ENBALED && update(dependency): update dependency version by @ek1ng in https://github.com/chaitin/veinmind-tools/pull/221\r\n* fix(CI/CD): change goproxy settings by @ek1ng in https://github.com/chaitin/veinmind-tools/pull/222\r\n\r\n## Others\r\n* doc: update README.md by @DVKunion in https://github.com/chaitin/veinmind-tools/pull/219\r\n\r\n## New Contributors\r\n* @ek1ng made their first contribution in https://github.com/chaitin/veinmind-tools/pull/221\r\n\r\n**Full Changelog**: https://github.com/chaitin/veinmind-tools/compare/v2.1.1...v2.1.2"
     },
     "https://github.com/cdk-team/CDK": {
         "created_at": "2020-11-05 09:18:51",
@@ -1906,11 +1906,11 @@
     "https://github.com/hiroi-sora/Umi-OCR": {
         "created_at": "2022-03-28 04:01:46",
         "description": "OCR图片转文字识别软件，完全离线。截屏/批量导入图片，支持多国语言、合并段落、竖排文字。可排除水印区域，提取干净的文本。基于 PaddleOCR 。",
-        "commit_date": "2023-04-23 10:48:36",
-        "commit_message": "优化：截图子窗口长宽比例过大时，鼠标拖拽缩放会忽略短边轴的位移，以免操作太灵敏。",
-        "release_tag": "v1.3.3",
-        "release_date": "2023-03-19 04:49:43",
-        "release_message": "### `v1.3.3` 主要更新：\r\n- 新功能：命令行模式。随时通过命令行调用Umi-OCR！\r\n- 新功能：识图完成的通知悬浮窗。\r\n- 新功能：清理引擎内存。\r\n- 修复了一些问题，优化了一些UI表现。\r\n\r\n### 文件说明\r\n软件本体：`Umi-OCR.v1.3.3.7z`，内置`简体中文&英文`通用识别库。\r\n多国语言扩展包：`Umi-OCR.v1.3_DLC_languages.7z`，可额外导入`繁中,英,日,韩,俄,德,法` 识别库。请按需下载。"
+        "commit_date": "2023-04-25 17:10:35",
+        "commit_message": "update v1.3.4",
+        "release_tag": "v1.3.4",
+        "release_date": "2023-04-25 17:18:33",
+        "release_message": "### `v1.3.4` 主要更新：\r\n- 新功能：截图预览窗口。需要在`设置→快捷识图→截图预览窗口`里打开。效果见下图，可以调整透明度 并钉在屏幕顶层。\r\n![1682442876719.png](https://tupian.li/images/2023/04/26/64480a815920a.png)\r\n- 新功能：可用方向键微调截图框位置。\r\n- 修Bug：修复了拖入图片时有几率卡退主窗口的问题。\r\n- 优化了一些处理流程。\r\n- 优化了打包方式，软件体积比上一代减少了15MB。\r\n\r\n### 文件说明\r\n软件本体：`Umi-OCR.v1.3.4.7z`，内置`简体中文&英文`通用识别库。\r\n多国语言扩展包：`Umi-OCR.v1.3_DLC_languages.7z`，可额外导入`繁中,英,日,韩,俄,德,法` 识别库。请按需下载。"
     },
     "https://github.com/qianxiao996/CTF-Tools": {
         "created_at": "2020-01-07 05:58:51",
@@ -2005,11 +2005,11 @@
     "https://github.com/bit4woo/knife": {
         "created_at": "2018-06-12 14:25:18",
         "description": "A burp extension that add some useful function to  Context Menu 添加一些右键菜单让burp用起来更顺畅",
-        "commit_date": "2023-04-22 02:59:01",
-        "commit_message": "Update GUI.java",
-        "release_tag": "v2.1",
-        "release_date": "2022-11-20 09:04:40",
-        "release_message": "融合U2C和Chinese2个Tab，让它们都可以支持切换编码\r\n新增功能：从JS中查找URL路径后，拼接BaseURL并请求\r\n其他小的更新、bug修复\r\n\r\n## What's Changed\r\n* Bump gson from 2.3.1 to 2.8.9 by @dependabot in https://github.com/bit4woo/knife/pull/45\r\n* Bump commons-text from 1.6 to 1.10.0 by @dependabot in https://github.com/bit4woo/knife/pull/53\r\n\r\n## New Contributors\r\n* @dependabot made their first contribution in https://github.com/bit4woo/knife/pull/45\r\n\r\n**Full Changelog**: https://github.com/bit4woo/knife/compare/v2.0...v2.1"
+        "commit_date": "2023-04-25 03:38:19",
+        "commit_message": "v2.2",
+        "release_tag": "v2.2",
+        "release_date": "2023-04-25 03:38:54",
+        "release_message": "更新“Find URL And Request”功能\r\n更新chinese中文显示面板逻辑，及时刷新避免有时显示不一致的问题\r\n端口扫描逻辑优化，多个host在同一个命令行中完成扫描，避免打开太多窗口\r\n更新dismiss功能，规则更清晰也更容易自行编辑处理。\r\n让proxy中的数据包编辑更改可视化，更容易判断数据处理规则是否正确\r\n数据包修改更新、丢弃转发的规则类型更丰富，适应更多场景。"
     },
     "https://github.com/Giotino/stegsolve": {
         "created_at": "2018-12-10 21:40:04",
@@ -2951,8 +2951,8 @@
     "https://github.com/dbeaver/dbeaver": {
         "created_at": "2015-10-21 08:26:28",
         "description": "Free universal database tool and SQL client",
-        "commit_date": "2023-04-24 15:04:36",
-        "commit_message": "#19782 fix events reading for quoted schemas for MySQL/MariaDB (#19784)",
+        "commit_date": "2023-04-25 17:43:42",
+        "commit_message": "CB-3378 tm run task api (#19768)\n\n* CB-3378 tm run task api\r\n\r\n* CB-3378 review fix\r\n\r\n* CB-3379 TM: schedule task api",
         "release_tag": "23.0.3",
         "release_date": "2023-04-24 07:05:15",
         "release_message": "\n                - General UI:\n                    - Issue with zoom in and out with Ctrl++ and Ctrl+- in SQL Editor and Data gird was fixed\n                    - ER Diagram font now depends on the Main font\n                    - A lot of UI rendering improvements were made\n                - SQL Editor:\n                    - Moving with Ctrl+Right/Left now considers words with an underscore and a dollar as a whole word (configurable)\n                    - Autocomplete for mixed-case was improved\n                    - Issue with crashing when closing the SQL Editor tab was fixed\n                    - Order by parsing was improved\n                - AI: issue with changing settings was fixed\n                - Data Editor:\n                    - Data filters support in the Grouping panel was added\n                    - Opening TXT, JSON, and XML files in external editors was improved on macOS and Linux\n                    - Rendering of non-display characters was improved\n                    - Issue with disappearing filter option, when a query returns nothing, was fixed\n                    - Microseconds epoch transformer was added (thanks to @BobrPetr)\n                    - Database Navigator: issue with creating a new view was fixed\n                 - Data transfer:\n                    - Issue with set max column length when exporting in TXT was fixed\n                    - Issue with export JSON to TXT was fixed\n                - Databases:\n                    - Firebird: recognition of procedure parameter data types was improved\n                    - SQLite: issue with database synchronization with the server was fixed\n                    - Redshift: issue with renaming a view in Database Navigator was fixed\n                    - MySQL: issue with the empty privileges list was fixed\n                    - Snowflake: displaying the creation time of Snowflake views was added\n                    - TiDB Cloud: telemetry support was added (thanks to @Icemap)\n                    - PostgreSQL: array presentation was improved\n                - Localization of Brazilian Portuguese was improved (thanks to @brlarini)\n            "
@@ -3041,8 +3041,8 @@
     "https://github.com/shekyan/slowhttptest": {
         "created_at": "2015-03-15 00:57:46",
         "description": "Application Layer DoS attack simulator",
-        "commit_date": "2022-11-10 18:25:31",
-        "commit_message": "Add CodeQL workflow for GitHub code scanning (#76)\n\nCo-authored-by: LGTM Migrator <lgtm-migrator@users.noreply.github.com>",
+        "commit_date": "2023-04-25 21:26:26",
+        "commit_message": "updated Dockerfile to use Alpine 3.17 from issue #80 (#81)\n\nCo-authored-by: Brian Riffle <briffle@tredium.com>",
         "release_tag": "v1.9.0",
         "release_date": "2022-07-10 02:58:19",
         "release_message": "- Added SNI support\r\n- Minor fixed and improvements"
@@ -3050,7 +3050,7 @@
     "https://github.com/zan8in/afrog": {
         "created_at": "2022-02-24 06:00:32",
         "description": "A Vulnerability Scanning Tools For Penetration Testing",
-        "commit_date": "2023-04-24 03:18:36",
+        "commit_date": "2023-04-25 04:00:29",
         "commit_message": "update contribute",
         "release_tag": "v2.2.3",
         "release_date": "2023-04-22 13:09:02",
@@ -3298,8 +3298,8 @@
     "https://github.com/bytedance/Elkeid": {
         "created_at": "2020-12-18 03:15:54",
         "description": "Elkeid is an open source solution that can meet the security requirements of various workloads such as hosts, containers and K8s, and serverless. It is derived from ByteDance's internal best practices.",
-        "commit_date": "2023-04-24 12:03:24",
-        "commit_message": "module in-tree conversion and improvements (#491)\n\n* module in-tree support: kprobe framework removed\r\n\r\noriginal kprobe framework removed, which contains module-only\r\nfeatures and isn't necessary at all for current HIDS project.\r\n\r\nin-tree support is mainly for stress testing & kernel fuzzing.\r\n\r\nSigned-off-by: shenping.matt <shenping.matt@bytedance.com>\r\n\r\n* FIXME: UAF issue resolved for connect hooking\r\n\r\n1, UAF: sip6/dip6 pointer reference after socket release\r\n2, sockfd_lookup could return ERR_PTR or NULL\r\n3, improvement of connect_syscall_handler & connect_handler\r\n\r\n* FIXME: return value checking for strnlen_user\r\n\r\nNo assuming strnlen_user won't return negative values in atomic context,\r\nthough as said in manual strnlen_user will only return 0 (for failures)\r\nor positive string length for normal cases\r\n\r\n---------\r\n\r\nSigned-off-by: shenping.matt <shenping.matt@bytedance.com>",
+        "commit_date": "2023-04-25 08:12:35",
+        "commit_message": "update:driver CI wget",
         "release_tag": "scanner-v2.2.0.2_20230423",
         "release_date": "2023-04-23 11:40:07",
         "release_message": ""
@@ -3406,8 +3406,8 @@
     "https://github.com/bit4woo/domain_hunter_pro": {
         "created_at": "2019-01-18 07:15:15",
         "description": "domain_hunter的高级版本，SRC挖洞、HW打点之必备！自动化资产收集；快速Title获取；外部工具联动；等等",
-        "commit_date": "2023-04-24 07:11:25",
-        "commit_message": "update",
+        "commit_date": "2023-04-25 11:19:28",
+        "commit_message": "删除非目标记录 逻辑更新",
         "release_tag": "v1.9",
         "release_date": "2023-04-18 00:34:58",
         "release_message": "全局：\r\n多个bug修复\r\n布局模式优化\r\n基础方法实现逻辑优化\r\n\r\n右键菜单：\r\n“Do Search”提供主动在制定请求中进行搜索的能力，比如在某企业邮箱的流量中搜索以提取邮箱地址\r\n“Add Request And Comment”右键菜单添逻辑优化，修复一个bug\r\n“Send To Tool Panel”右键菜单处理逻辑优化，可合并发送多个数据包内容\r\n\r\nDomain面板：\r\nroot domain的comments逻辑更新\r\n提供多个网络搜索引擎的后台自动搜索功能\r\nroot domain双击，自动在浏览器中访问\r\n修改目标根域名删除失败的bug\r\n显示序号，以便在排序后恢复原始顺序\r\n\r\nTool面板：\r\n重写JTextArea的paste函数，避免大内容导致程序卡死\r\nJTextArea支持输入文件，而程序处理其内容。\r\n文本取提供简单的历史记录功能\r\nJSON提取逻辑优化\r\n新增多个功能，比如排序\r\n优化URL提取逻辑，避免遗漏没有以/开头的path\r\n\r\nTitle面板中：\r\n端口扫描命令生成逻辑优化\r\n备注和IP内容的显示优化，显示前排序\r\n备注添加逻辑优化\r\n给手动添加的记录添加已知的IP和CNAME、CertInfo\r\n搜索功能增强，支持对数字型字段进行大于、小于、等于等搜索\r\n添加多个搜索实例，以便用户熟悉搜索语法\r\n新增“Do Request Item Again”菜单，对DNS记录或无响应的数据包进行再次请求"
@@ -3602,11 +3602,11 @@
     "https://github.com/f0ng/autoDecoder": {
         "created_at": "2022-03-26 10:13:56",
         "description": "Burp插件，根据自定义来达到对数据包的处理（适用于加解密、爆破等），类似mitmproxy，不同点在于经过了burp中转，在自动加解密的基础上，不影响APP、网站加解密正常逻辑等。",
-        "commit_date": "2023-04-17 01:33:40",
+        "commit_date": "2023-04-25 07:10:09",
         "commit_message": "Update README.md",
-        "release_tag": "0.24-beta2",
-        "release_date": "2023-04-14 09:07:11",
-        "release_message": "## 2023.4.14 更新0.24-beta2\r\n1. 增加RSA加解密\r\n2. 响应包正则模式加解密"
+        "release_tag": "0.25",
+        "release_date": "2023-04-25 07:05:14",
+        "release_message": "## 2023.4.25 更新0.25\r\n1. 增加二进制请求体、响应体处理，原理为将请求包的内容base64编码后传入接口，需要对burp做以下设置，否则获取到的编码为损坏的\r\n\t- 需要勾选User options->Character Sets中的`Use the platform default(UTF-8)`[MAC]，或者勾选`Display as raw bytes`[Windows]\r\n\r\n感谢微信群师傅Ronin师傅反馈"
     },
     "https://github.com/funkyoummp/BurpSuiteCn": {
         "created_at": "2019-09-18 08:56:29",
@@ -3699,10 +3699,10 @@
     "https://github.com/carlospolop/PEASS-ng": {
         "created_at": "2019-01-13 19:58:24",
         "description": "PEASS - Privilege Escalation Awesome Scripts SUITE (with colors)",
-        "commit_date": "2023-04-19 02:59:49",
-        "commit_message": "Update sensitive_files.yaml",
-        "release_tag": "20230423-4d9bddc5",
-        "release_date": "2023-04-23 04:28:49",
+        "commit_date": "2023-04-25 15:05:49",
+        "commit_message": "Merge pull request #350 from Donovoi/master\n\nfix path too long",
+        "release_tag": "20230425-bd7331ea",
+        "release_date": "2023-04-25 14:39:32",
         "release_message": ""
     },
     "https://github.com/waderwu/attackRmi": {
@@ -3969,8 +3969,8 @@
     "https://github.com/aquasecurity/trivy": {
         "created_at": "2019-04-11 01:01:07",
         "description": "Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more",
-        "commit_date": "2023-04-24 18:17:56",
-        "commit_message": "fix(python): parse of pip extras (#4103)\n\nCo-authored-by: knqyf263 <knqyf263@gmail.com>",
+        "commit_date": "2023-04-25 11:47:25",
+        "commit_message": "feat(sbom): add primary package purpose field for SPDX (#4119)",
         "release_tag": "v0.40.0",
         "release_date": "2023-04-16 13:30:59",
         "release_message": "## ⚡Release highlights and summary⚡\r\n\r\n👉 https://github.com/aquasecurity/trivy/discussions/4074\r\n\r\n## Changelog\r\n* b43b19ba5 feat(flag): Support globstar for `--skip-files` and `--skip-directories` (#4026)\r\n* 14805002d chore(deps): bump actions/stale from 7 to 8 (#3955)\r\n* 83bb97ab1 fix: return insecure option to download javadb (#4064)\r\n* 79a1ba32d fix(nodejs): don't stop parsing when unsupported yarn.lock protocols are found (#4052)\r\n* ff1c43a79 ci: add gpg signing for RPM packages (#4056)\r\n* b608b116c fix(k8s): current context title (#4055)\r\n* 2c3b60f4c fix(k8s): quit support on k8s progress bar (#4021)\r\n* a6b864213 chore: add a note about Dockerfile.canary (#4050)\r\n* 90b80662c ci: fix path to canary binaries (#4045)\r\n* dcefc6bf3 fix(vuln): report architecture for debian packages (#4032)\r\n* 601e25fb2 feat: add support for Chainguard's commercial distro (#3641)\r\n* 0bebec19f ci: bump goreleaser for Github Action from 1.4.1 to 1.16.2 (#3979)\r\n* 707ea9423 fix(vuln): fix error message for remote scanners (#4031)\r\n* 8e1fe769e feat(report): add image metadata to SARIF (#4020)\r\n* 4b36e97dc docs: fix broken cache link on Installation page (#3999)\r\n* f0df725c5 fix: lock downloading policies and database (#4017)\r\n* 009675c82 fix: avoid concurrent access to the global map (#4014)\r\n* 3ed86aa3d feat(rust): add Cargo.lock v3 support (#4012)\r\n* f31dea4bd feat: auth support oci download server subcommand (#4008)\r\n* d37c50a2b chore(deps): bump github.com/docker/docker (#4009)\r\n* 693d20516 chore: install.sh support for armv7 (#3985)\r\n* 65d89b99d chore(deps): bump github.com/Azure/go-autorest/autorest/adal (#3961)\r\n\r\n"
