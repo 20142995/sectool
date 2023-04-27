@@ -200,8 +200,8 @@
     "https://github.com/ycdxsb/PocOrExp_in_Github": {
         "created_at": "2021-04-13 05:46:16",
         "description": "聚合Github上已有的Poc或者Exp，CVE信息来自CVE官网。Auto Collect Poc Or Exp from Github by CVE ID.",
-        "commit_date": "2023-04-25 23:13:09",
-        "commit_message": "update 2023-04-26 07:13:09",
+        "commit_date": "2023-04-26 23:12:50",
+        "commit_message": "update 2023-04-27 07:12:50",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -461,7 +461,7 @@
     "https://github.com/ExpLangcn/NucleiTP": {
         "created_at": "2022-11-08 13:16:56",
         "description": "自动整合全网Nuclei的漏洞POC，实时同步更新最新POC！",
-        "commit_date": "2023-04-26 00:30:16",
+        "commit_date": "2023-04-27 00:30:16",
         "commit_message": "更新啦❤️",
         "release_tag": "",
         "release_date": "",
@@ -2248,11 +2248,11 @@
     "https://github.com/epi052/feroxbuster": {
         "created_at": "2020-08-22 15:36:19",
         "description": "A fast, simple, recursive content discovery tool written in Rust.",
-        "commit_date": "2023-04-19 22:15:50",
-        "commit_message": "added ability to specify install directory for install-nix.sh",
-        "release_tag": "v2.9.4",
-        "release_date": "2023-04-20 11:50:25",
-        "release_message": "- reduced memory usage overall\r\n- improved speed during link extraction\r\n- updated dependencies. most significantly, indicatif, which hasn't been updated for well over a year (purposely postponed)\r\n- added optional install path to `install-nix.sh`\r\n\r\n## What's Changed\r\n* random improvements by @epi052 in https://github.com/epi052/feroxbuster/pull/877\r\n* docs: add DrorDvash as a contributor for bug by @allcontributors in https://github.com/epi052/feroxbuster/pull/879\r\n\r\n\r\n**Full Changelog**: https://github.com/epi052/feroxbuster/compare/v2.9.3...v2.9.4"
+        "commit_date": "2023-04-27 00:35:58",
+        "commit_message": "Merge pull request #889 from epi052/all-contributors/add-lavafroth\n\ndocs: add lavafroth as a contributor for code, and ideas",
+        "release_tag": "v2.9.5",
+        "release_date": "2023-04-27 00:26:10",
+        "release_message": "## What's Changed\r\n* 878 support raw urls by @epi052 in https://github.com/epi052/feroxbuster/pull/884\r\n\r\nspecial thanks to @aroly for reporting the issue, @lavafroth for the workaround, and @aancw for furthering the discussion! :tada: \r\n\r\n**Full Changelog**: https://github.com/epi052/feroxbuster/compare/v2.9.4...v2.9.5"
     },
     "https://github.com/dzxs/Xdecrypt": {
         "created_at": "2017-12-08 08:52:14",
@@ -2390,8 +2390,8 @@
     "https://github.com/PeiQi0/PeiQi-WIKI-Book": {
         "created_at": "2022-03-12 12:38:56",
         "description": "面向网络安全从业者的知识文库🍃",
-        "commit_date": "2023-04-23 15:16:10",
-        "commit_message": "漏洞相关:Metersphere,PowerJob",
+        "commit_date": "2023-04-26 13:18:52",
+        "commit_message": "漏洞相关:JeecgBoot,KubeOperator,KubePi",
         "release_tag": "PeiQi-WIKI-Book-2022-03-20",
         "release_date": "2022-03-16 06:04:23",
         "release_message": "PeiQi-WIKI-Book-2022-03-20 \r\n\r\n编译好的HTML源码打包，可以更简单的搭建在Web服务器中"
@@ -2951,8 +2951,8 @@
     "https://github.com/dbeaver/dbeaver": {
         "created_at": "2015-10-21 08:26:28",
         "description": "Free universal database tool and SQL client",
-        "commit_date": "2023-04-25 17:43:42",
-        "commit_message": "CB-3378 tm run task api (#19768)\n\n* CB-3378 tm run task api\r\n\r\n* CB-3378 review fix\r\n\r\n* CB-3379 TM: schedule task api",
+        "commit_date": "2023-04-26 13:10:06",
+        "commit_message": "dbeaver/pro#1551 update pg driver to 42.5.2 (#19716)",
         "release_tag": "23.0.3",
         "release_date": "2023-04-24 07:05:15",
         "release_message": "\n                - General UI:\n                    - Issue with zoom in and out with Ctrl++ and Ctrl+- in SQL Editor and Data gird was fixed\n                    - ER Diagram font now depends on the Main font\n                    - A lot of UI rendering improvements were made\n                - SQL Editor:\n                    - Moving with Ctrl+Right/Left now considers words with an underscore and a dollar as a whole word (configurable)\n                    - Autocomplete for mixed-case was improved\n                    - Issue with crashing when closing the SQL Editor tab was fixed\n                    - Order by parsing was improved\n                - AI: issue with changing settings was fixed\n                - Data Editor:\n                    - Data filters support in the Grouping panel was added\n                    - Opening TXT, JSON, and XML files in external editors was improved on macOS and Linux\n                    - Rendering of non-display characters was improved\n                    - Issue with disappearing filter option, when a query returns nothing, was fixed\n                    - Microseconds epoch transformer was added (thanks to @BobrPetr)\n                    - Database Navigator: issue with creating a new view was fixed\n                 - Data transfer:\n                    - Issue with set max column length when exporting in TXT was fixed\n                    - Issue with export JSON to TXT was fixed\n                - Databases:\n                    - Firebird: recognition of procedure parameter data types was improved\n                    - SQLite: issue with database synchronization with the server was fixed\n                    - Redshift: issue with renaming a view in Database Navigator was fixed\n                    - MySQL: issue with the empty privileges list was fixed\n                    - Snowflake: displaying the creation time of Snowflake views was added\n                    - TiDB Cloud: telemetry support was added (thanks to @Icemap)\n                    - PostgreSQL: array presentation was improved\n                - Localization of Brazilian Portuguese was improved (thanks to @brlarini)\n            "
@@ -3262,8 +3262,8 @@
     "https://github.com/F6JO/RouteVulScan": {
         "created_at": "2022-06-01 07:07:38",
         "description": "Burpsuite - Route Vulnerable Scanning 递归式被动检测脆弱路径的burp插件",
-        "commit_date": "2023-02-21 14:37:50",
-        "commit_message": "Update README.md",
+        "commit_date": "2023-04-26 08:48:51",
+        "commit_message": "Merge pull request #25 from No-Github/main\n\n优化规则,降低误报",
         "release_tag": "RouteVulScan1.4",
         "release_date": "2023-01-08 08:33:50",
         "release_message": "2023-01-08 修改在线更新为追加而不是覆盖\r\n2023-01-08 将主域和子域当作第一层路径默认扫描\r\n2023-02-04 添加bypass功能"
@@ -3300,8 +3300,8 @@
         "description": "Elkeid is an open source solution that can meet the security requirements of various workloads such as hosts, containers and K8s, and serverless. It is derived from ByteDance's internal best practices.",
         "commit_date": "2023-04-25 08:12:35",
         "commit_message": "update:driver CI wget",
-        "release_tag": "scanner-v2.2.0.2_20230423",
-        "release_date": "2023-04-23 11:40:07",
+        "release_tag": "v1.7.0.11-driver-ko-20230426",
+        "release_date": "2023-04-26 06:14:59",
         "release_message": ""
     },
     "https://github.com/knownsec/ct": {
@@ -3530,11 +3530,11 @@
     "https://github.com/f0ng/log4j2burpscanner": {
         "created_at": "2021-12-11 07:19:11",
         "description": "CVE-2021-44228 Log4j2 BurpSuite Scanner,Customize ceye.io api or other apis,including internal networks",
-        "commit_date": "2023-03-21 03:01:52",
-        "commit_message": "Update FAQ-zh-CN.md",
-        "release_tag": "0.24.0",
-        "release_date": "2023-03-20 13:03:28",
-        "release_message": "# 0.24.0 update\r\n## 2023-3-20\r\n1. Adapt the [selistener](https://github.com/f0ng/selistener) tool for intranet vulnerability detection\r\n_____________________________________________________________\r\n1. 适配[selistener](https://github.com/f0ng/selistener)工具进行内网漏洞探测"
+        "commit_date": "2023-04-26 14:29:38",
+        "commit_message": "Update README.md",
+        "release_tag": "0.25.0",
+        "release_date": "2023-04-26 14:33:25",
+        "release_message": "# 0.25.0 update\r\n## 2023-4-26\r\n1. fix bugs\r\n_____________________________________________________________\r\n1. 修复bug，感谢A_Adam师傅反馈"
     },
     "https://github.com/epinna/tplmap": {
         "created_at": "2016-07-06 20:33:18",
@@ -3548,8 +3548,8 @@
     "https://github.com/bytedance/appshark": {
         "created_at": "2022-09-01 03:39:03",
         "description": "Appshark is a static taint analysis platform to scan vulnerabilities in an Android app.",
-        "commit_date": "2023-04-23 12:29:27",
-        "commit_message": "bugfix: 1. CUSTOM_CLASS's call graph is missed.\n2. entryMethod should call the nearest implementation.",
+        "commit_date": "2023-04-26 10:21:08",
+        "commit_message": "bugfix: profiler serve delay when CPU is overload.",
         "release_tag": "v0.1.2",
         "release_date": "2022-09-22 10:03:10",
         "release_message": "fix problems running on windows."
@@ -3888,8 +3888,8 @@
     "https://github.com/neuvector/neuvector": {
         "created_at": "2021-12-17 20:15:03",
         "description": "",
-        "commit_date": "2023-04-24 18:28:20",
-        "commit_message": "NVSHAS-7450: Fix dp to detect pcap packets\n\nInitialize context->quar to false when process pcap packets",
+        "commit_date": "2023-04-27 00:06:13",
+        "commit_message": "Merge pull request #760 from jeffhuang4704/7731_add_imagePullPolicy_for_customRule\n\nNVSHAS-7731-add imagePullPolicy for pod template",
         "release_tag": "v5.1.2",
         "release_date": "2023-03-27 22:10:50",
         "release_message": "Support cri-o 1.26+ and OpenShift 4.11+\r\nEnable auto scan in configMap\r\nMake gravatar optional\r\nHostname based egress network policy\r\nDisplay cluster namespace resource in UI\r\nVarious of performance and scalability improvements"
@@ -3906,8 +3906,8 @@
     "https://github.com/anchore/syft": {
         "created_at": "2020-05-07 18:19:29",
         "description": "CLI tool and library for generating a Software Bill of Materials from container images and filesystems",
-        "commit_date": "2023-04-24 14:34:13",
-        "commit_message": "chore: go-rpmdb update (#1757)\n\nSigned-off-by: Christopher Phillips <christopher.phillips@anchore.com>\r\nSigned-off-by: Alex Goodman <alex.goodman@anchore.com>\r\nCo-authored-by: Alex Goodman <alex.goodman@anchore.com>",
+        "commit_date": "2023-04-26 20:42:43",
+        "commit_message": "chore: update test redactor ordering (#1765)\n\nSigned-off-by: Keith Zantow <kzantow@gmail.com>",
         "release_tag": "v0.79.0",
         "release_date": "2023-04-21 16:24:14",
         "release_message": "# Changelog\r\n\r\n## [v0.79.0](https://github.com/anchore/syft/tree/v0.79.0) (2023-04-21)\r\n\r\n[Full Changelog](https://github.com/anchore/syft/compare/v0.78.0...v0.79.0)\r\n\r\n### Added Features\r\n\r\n- Add ALPM Metadata to CYCLONEDX and SPDX output formats [[Issue #1037](https://github.com/anchore/syft/issues/1037)] [[PR #1747](https://github.com/anchore/syft/pull/1747)] [[Shanedell](https://github.com/Shanedell)]\r\n- consul binary classifier [[Issue #1590](https://github.com/anchore/syft/issues/1590)] [[PR #1738](https://github.com/anchore/syft/pull/1738)] [[Shanedell](https://github.com/Shanedell)]\r\n\r\n### Bug Fixes\r\n\r\n- Syft missing direct dependencies from the gemfile.lock [[Issue #1660](https://github.com/anchore/syft/issues/1660)] [[PR #1749](https://github.com/anchore/syft/pull/1749)] [[Shanedell](https://github.com/Shanedell)]\r\n\r\n### Additional Changes\r\n\r\n- chore: bump stereoscope to latest version [[PR #1741](https://github.com/anchore/syft/pull/1741)] [[westonsteimel](https://github.com/westonsteimel)]\r\n\r\n\r\n\r\n"
@@ -3915,8 +3915,8 @@
     "https://github.com/chaitin/safeline": {
         "created_at": "2023-04-12 11:30:14",
         "description": "长亭科技自研，基于业界领先的语义引擎检测技术，打造的简洁、易用的免费 WAF",
-        "commit_date": "2023-04-24 08:11:55",
-        "commit_message": "Merge pull request #38 from guanweiwang/main\n\nadd  dynamic directory and add statistics",
+        "commit_date": "2023-04-26 10:32:11",
+        "commit_message": "Merge pull request #43 from naocanmonster/main\n\n调整了文档的目录结构",
         "release_tag": "v1.1.0",
         "release_date": "2023-04-20 12:22:04",
         "release_message": "### 新增\r\n- 默认开启高防模式\r\n- 支持根据 IP 和 URL 特征配置黑白名单\r\n\r\n### 优化\r\n- 支持在日志详情中展示响应报文\r\n- 服务器时间不准导致 TOTP 无法登录时增加了提示语\r\n- 修复了上游服务器填 HTTPS 时端口解析不正确的问题\r\n- 优化了 SSL 上传逻辑，体验更好"
