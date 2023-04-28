@@ -111,7 +111,7 @@ def yaml2json(path, encoding='utf8'):
 
 
 def parse_len(x, y):
-    x = re.sub(r'\s+', ' ', x.replace('<br>', ' '))
+    x = x.replace('<br>', ' ').replace('\r\n', ' ').replace('\n', ' ')
 
     def chr_len2(s):
         return int((len(s.encode('utf-8')) - len(s))/2 + len(s))
