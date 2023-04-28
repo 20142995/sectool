@@ -480,12 +480,14 @@
             - https://github.com/ExpLangcn/NucleiTP
             - https://github.com/mlq574/nucleix
             - https://github.com/Yong-An-Dang/nuclei-plus
+            
         nessus:
             - https://github.com/Hypdncy/NessusToReport
             - https://github.com/FunnyKun/NessusReportInChinese
             - https://github.com/nszy007/CN_Nessus_Plugins_Interface
             - https://github.com/xxcdd/docker_nessus_unlimited
             - https://github.com/starnightcyber/nessus_api
+            - "[nessus下载地址](https://www.tenable.com/downloads/nessus?loginAttempted=true)"
         rsas:
             - https://github.com/biggerwing/nsfocus-rsas-knowledge-base
             - https://github.com/autoing/RSAS-Data-Export

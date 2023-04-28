@@ -252,12 +252,12 @@ def main():
                         try:
                             _, repo = url[19:].split('/', 1)
                             msg.append('| [{}]({}) | {} | {} |'.format(parse_len(repo, 20), url, parse_len(data.get(
-                                url, {}).get('release_tag'), 10), parse_len(data.get(url, {}).get('description'), 65)))
+                                url, {}).get('release_tag',''), 10), parse_len(data.get(url, {}).get('description',''), 65)))
                         except:
                             print('[fail 2]', url)
                             traceback.print_exc()
-                        else:
-                            msg.append('| | | {} |'.format(url))
+                    else:
+                        msg.append('| | | {} |'.format(url))
             
             else:
                 parse_tree(v, path=path+1)

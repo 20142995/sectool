@@ -1,4 +1,4 @@
-# 更新于 2023-04-28 08:43:39
+# 更新于 2023-04-28 15:35:32
 
 ## 近15天release更新记录
 | 更新时间 | 项目名称 | 版本 | 更新内容 |
@@ -53,7 +53,6 @@
 - [ffa45<br>56d](https://github.com/quay/clair/commi<br>t/ffa4556d0f251cc984ed34594356625b9b7477<br>44): Avoid double reference[Unreleased]:<br> https://github.com/quay/clair/compare/v<br>4.6.1...HEAD
 [v4.6.1]: https://github.co<br>m/quay/clair/compare/v4.6.0...v4.6.1
 |
-|2023-04-13 01:59:30|[captcha-killer-modi<br>fied](https://github.com/f0ng/captcha-killer-modified)|0.23-beta<br>5|【2023-4-13】 0.23-beta5- 修复验证码获<br>取接口中请求头字段置空无法获取验证码的问<br>题感谢微信群师傅 _隔壁老钱 反馈|
 ## 近15天commit提交记录
 | 提交时间 | 项目名称 | 更新内容 |
 | :---- | :---- | :---- |
@@ -145,6 +144,7 @@ to 1.20 and are rely<br>ing on some 1.20 features for upcoming changes.Signed-o<
 | [koko-moni](https://github.com/burpheart/koko-moni) | v0.0.1 | 一个网络空间搜索引擎监控平台，可定时进行资产信息爬取，及时发现新<br>增资产，本项目聚合了 Fofa、Hunter、Quake、Zoomeye 和 Threatbook 的<br>数据源，并对获取到的数据进行去重与清洗 |
 | [AsamF](https://github.com/Kento-Sec/AsamF) | v0.1.12 | AsamF是集成Fofa、Quake、Hunter、Shodan、Zoomeye、Chinaz、0.zone<br>及爱企查的一站式企业信息资产收集、网络资产测绘工具。 |
 | [fshzqSearch](https://github.com/Ifory885/fshzqSearch) |  | fofa、shodan、hunter、zoomeye、quake网络空间搜索引擎及github聚合<br>搜索，并对结果进行finger指纹识别。 |
+| [0_zone_tool](https://github.com/wkend/0_zone_tool) |  |  |
 ### 子域名收集
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
@@ -280,6 +280,7 @@ to 1.20 and are rely<br>ing on some 1.20 features for upcoming changes.Signed-o<
 | [POC-bomber](https://github.com/tr0uble-mAker/POC-bomber) | v2.0.2-PO<br>C-bomber | 利用大量高威胁poc/exp快速获取目标权限，用于渗透和红队快速打点 |
 | [QingTing](https://github.com/StarCrossPortal/QingTing) | v0.3 | 蜻蜓安全一个安全工具编排平台,可以自由编排你的工具流,集成108款工<br>具,包括xray、nmap、awvs等;你可以将喜欢的工具编排成一个场景，快速打<br>造适合自己的安全工作台~ |
 | [myscan](https://github.com/amcai/myscan) |  | myscan被动扫描 |
+| [NextScan](https://github.com/tongcheng-security-team/NextScan) |  |  |
 ### 中间件&框架漏洞扫描
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
@@ -606,6 +607,7 @@ to 1.20 and are rely<br>ing on some 1.20 features for upcoming changes.Signed-o<
 | [FreeGui](https://github.com/tyB-or/FreeGui) | v2.5 | freeGui：基于ttkbootstrap开发的一款用来管理自己的渗透测试工具的<br>一个小工具，并提供一些实用小功能，例如打开目录，运行工具，工具备忘<br>命令。 |
 | [GUI_Tools](https://github.com/ghealer/GUI_Tools) | V1.1 | 一个由各种图形化渗透工具组成的工具集 |
 | [Pentest-Windows](https://github.com/arch3rPro/Pentest-Windows) | v1.0 | Windows11 Penetration Suite Toolkit |
+| [ApoalypseSecTools](https://github.com/ApocalypseSec/ApoalypseSecTools) |  |  |
 ### 知识库
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
@@ -764,6 +766,7 @@ to 1.20 and are rely<br>ing on some 1.20 features for upcoming changes.Signed-o<
 | [CN_Nessus_Plugins_I<br>nterface](https://github.com/nszy007/CN_Nessus_Plugins_Interface) | 1 | nessus插件中文查询接口 |
 | [docker_nessus_unlim<br>ited](https://github.com/xxcdd/docker_nessus_unlimited) |  | docker build nessus with unlimited ip |
 | [nessus_api](https://github.com/starnightcyber/nessus_api) |  | Nessus REST API 封装 |
+| | | [nessus下载地址](https://www.tenable.com/downloads/nessus?loginAttempted=true) |
 ### rsas
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
@@ -972,3 +975,9 @@ to 1.20 and are rely<br>ing on some 1.20 features for upcoming changes.Signed-o<
 | [DSVW](https://github.com/stamparm/DSVW) |  | Damn Small Vulnerable Web |
 | [vulnerable-node](https://github.com/cr0hn/vulnerable-node) |  | A very vulnerable web site written in NodeJS with the purpose of<br> have a project with identified vulnerabilities to test the quali<br>ty of security analyzers tools tools |
 | [MCIR](https://github.com/SpiderLabs/MCIR) |  | The Magical Code Injection Rainbow! MCIR is a framework for buil<br>ding configurable vulnerability testbeds. MCIR is also a collecti<br>on of configurable vulnerability testbeds. |
+| [pikachu](https://github.com/zhuifengshaonianhanlu/pikachu) |  |  |
+| [webug4.0](https://github.com/wangai3176/webug4.0) |  |  |
+| [DoraBox](https://github.com/0verSp4ce/DoraBox) |  |  |
+| [BWVS](https://github.com/bugku/BWVS) |  |  |
+| [VulApps](https://github.com/Medicean/VulApps) |  |  |
+| [vulhub](https://github.com/vulhub/vulhub) |  |  |
