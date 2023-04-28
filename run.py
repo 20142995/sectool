@@ -215,14 +215,14 @@ def main():
             _, repo = url[19:].split('/', 1)
             item = data[url]
             author, repo = url[19:].split('/', 1)
-            repo = parse_len(repo, 20)
+            repo = parse_len(repo, 18)
             # created_at = parse_len(item.get('created_at'), 25)
             # description = parse_len(item.get('description'), 65)
-            release_tag = parse_len(item.get('release_tag'), 10)
-            release_date = parse_len(item.get('release_date'), 25)
-            release_message = parse_len(item.get('release_message'), 40)
-            commit_date = parse_len(item.get('commit_date'), 25)
-            commit_message = parse_len(item.get('commit_message'), 55)
+            release_tag = parse_len(item.get('release_tag'), 8)
+            release_date = parse_len(item.get('release_date'), 23)
+            release_message = parse_len(item.get('release_message'), 38)
+            commit_date = parse_len(item.get('commit_date'), 23)
+            commit_message = parse_len(item.get('commit_message'), 52)
             if release_date:
                 if time.mktime(time.strptime(release_date, "%Y-%m-%d %H:%M:%S")) > nd:
                     releases.append(
@@ -254,8 +254,8 @@ def main():
                     if url.startswith('https://github.com/'):
                         try:
                             _, repo = url[19:].split('/', 1)
-                            msg.append('| [{}]({}) | {} | {} |'.format(parse_len(repo, 20), url, parse_len(data.get(
-                                url, {}).get('release_tag',''), 10), parse_len(data.get(url, {}).get('description',''), 65)))
+                            msg.append('| [{}]({}) | {} | {} |'.format(parse_len(repo, 18), url, parse_len(data.get(
+                                url, {}).get('release_tag',''), 8), parse_len(data.get(url, {}).get('description',''), 63)))
                         except:
                             print('[fail 2]', url)
                             traceback.print_exc()
