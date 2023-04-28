@@ -7,6 +7,7 @@
             - https://github.com/burpheart/koko-moni
             - https://github.com/Kento-Sec/AsamF
             - https://github.com/Ifory885/fshzqSearch
+            - https://github.com/wkend/0_zone_tool
         子域名收集:
             - https://github.com/projectdiscovery/subfinder
             - https://github.com/knownsec/ksubdomain
@@ -111,6 +112,7 @@
             - https://github.com/tr0uble-mAker/POC-bomber
             - https://github.com/StarCrossPortal/QingTing
             - https://github.com/amcai/myscan
+            - https://github.com/tongcheng-security-team/NextScan
         中间件&框架漏洞扫描:
             - https://github.com/rabbitmask/WeblogicScan
             - https://github.com/woodpecker-appstore/weblogic-infodetector
