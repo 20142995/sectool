@@ -157,6 +157,7 @@ def main():
     # 更新数据
     gc = GithubClient(os.getenv('GH_TOKEN', ''))
     for url in urls:
+        if not url.startswith('https://github.com/'):continue
         print('[*] get {}'.format(url))
         try:
             author, repo = url[19:].split('/', 1)
@@ -247,13 +248,17 @@ def main():
                 msg.append('| 项目名称 | 版本 | 项目描述 |')
                 msg.append('| :---- | :---- | :---- |')
                 for url in v:
-                    try:
-                        _, repo = url[19:].split('/', 1)
-                        msg.append('| [{}]({}) | {} | {} |'.format(parse_len(repo, 20), url, parse_len(data.get(
-                            url, {}).get('release_tag'), 10), parse_len(data.get(url, {}).get('description'), 65)))
-                    except:
-                        print('[fail 2]', url)
-                        traceback.print_exc()
+                    if url.startswith('https://github.com/'):
+                        try:
+                            _, repo = url[19:].split('/', 1)
+                            msg.append('| [{}]({}) | {} | {} |'.format(parse_len(repo, 20), url, parse_len(data.get(
+                                url, {}).get('release_tag'), 10), parse_len(data.get(url, {}).get('description'), 65)))
+                        except:
+                            print('[fail 2]', url)
+                            traceback.print_exc()
+                        else:
+                            msg.append('| | | {} |'.format(url))
+            
             else:
                 parse_tree(v, path=path+1)
     parse_tree(repos, path=1)
