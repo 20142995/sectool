@@ -200,8 +200,8 @@
     "https://github.com/ycdxsb/PocOrExp_in_Github": {
         "created_at": "2021-04-13 05:46:16",
         "description": "聚合Github上已有的Poc或者Exp，CVE信息来自CVE官网。Auto Collect Poc Or Exp from Github by CVE ID.",
-        "commit_date": "2023-04-26 23:12:50",
-        "commit_message": "update 2023-04-27 07:12:50",
+        "commit_date": "2023-04-27 22:03:28",
+        "commit_message": "update 2023-04-28 06:03:28",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -461,7 +461,7 @@
     "https://github.com/ExpLangcn/NucleiTP": {
         "created_at": "2022-11-08 13:16:56",
         "description": "自动整合全网Nuclei的漏洞POC，实时同步更新最新POC！",
-        "commit_date": "2023-04-27 00:30:16",
+        "commit_date": "2023-04-28 00:30:15",
         "commit_message": "更新啦❤️",
         "release_tag": "",
         "release_date": "",
@@ -765,8 +765,8 @@
     "https://github.com/vladko312/SSTImap": {
         "created_at": "2022-06-15 06:27:32",
         "description": "Automatic SSTI detection tool with interactive interface",
-        "commit_date": "2023-04-16 22:36:36",
-        "commit_message": "Release of SSTImap version 1.1.0\n\nCrawler and form detection (by @fantesykikachu)\r\nNew template engine added: Cheetah\r\nAutomatic import for engine modules\r\nInteractive module reloading capability\r\nFull support for Python 3.11\r\nReplaced telnetlib with a custom TCP client\r\n\r\n---------\r\n\r\nCo-authored-by: fantesykikachu <fantesykikachu@users.noreply.github.com>",
+        "commit_date": "2023-04-27 19:56:24",
+        "commit_message": "Version 1.1.1 (Improvements)\n\nImproved config functionality\r\nFixed crawling changing settings\r\nFixed automatic imports\r\nAdded warning for new python versions\r\n\r\nA minor update with simple improvements and fixes",
         "release_tag": "v1.1",
         "release_date": "2023-04-16 22:40:19",
         "release_message": "- Crawler and form detection (by @fantesykikachu)\r\n- New template engine added: Cheetah\r\n- Automatic import for engine modules\r\n- Interactive module reloading capability\r\n- Full support for Python 3.11\r\n- Replaced telnetlib with a custom TCP client"
@@ -1179,11 +1179,11 @@
     "https://github.com/Kento-Sec/AsamF": {
         "created_at": "2022-08-03 03:52:09",
         "description": "AsamF是集成Fofa、Quake、Hunter、Shodan、Zoomeye、Chinaz、0.zone及爱企查的一站式企业信息资产收集、网络资产测绘工具。",
-        "commit_date": "2023-01-27 16:02:00",
+        "commit_date": "2023-04-27 04:52:59",
         "commit_message": "Update README.md",
-        "release_tag": "v0.1.10",
-        "release_date": "2022-11-23 08:25:54",
-        "release_message": "v1.10版本更新\r\n\r\n修复了windows的一些问题，如果并不是第一次使用，已经存在config.json文件，请在c:\\Users\\用户名\\目录下，手动新建asamf的文件夹即可修复搜索结果自动保存的问题。\r\n\r\n如果没有这个config.json文件，会在c:\\Users\\用户名下新建asamf文件夹，用于存储搜索结果"
+        "release_tag": "v0.1.12",
+        "release_date": "2023-04-27 04:52:33",
+        "release_message": "v0.1.12\r\n\r\n修正了爱企查无法查询分支机构的问题。\r\n\r\n并优化该功能。移除aqc子命令，改为cn子命令。\r\n\r\ncn子命令支持-q 单个企业查询；-f 支持批量公司查询。\r\n\r\ncn查询功能完善：查询企业信息-->对外投资-->分支机构-->版权-->微信-->Fofa主机搜索-->子域名搜索-->企业信息系统搜索-->企业APK搜索-->邮箱搜索-->人员搜索-->目录搜索-->代码搜索（需要企业会员）"
     },
     "https://github.com/BaizeSec/bylibrary": {
         "created_at": "2020-10-20 12:47:33",
@@ -1359,8 +1359,8 @@
     "https://github.com/webraybtl/CodeQLpy": {
         "created_at": "2022-12-22 12:54:03",
         "description": "CodeQLpy是一款基于CodeQL实现的半自动化代码审计工具，目前仅支持java语言。实现从源码反编译，数据库生成，脆弱性发现的全过程，可以辅助代码审计人员快速定位源码可能存在的漏洞。",
-        "commit_date": "2023-03-28 03:44:59",
-        "commit_message": "修复tagdir导致的bug",
+        "commit_date": "2023-04-27 08:24:29",
+        "commit_message": "修复路径中有空格导致的ecj编译失败",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -1735,8 +1735,8 @@
     "https://github.com/chaitin/veinmind-tools": {
         "created_at": "2022-02-08 08:12:15",
         "description": "veinmind-tools 是由长亭科技自研，基于 veinmind-sdk 打造的容器安全工具集",
-        "commit_date": "2023-04-25 03:51:00",
-        "commit_message": "feat(veinmind-iac): add dockerfile security detection (#228)\n\n* feat(plugins): add ftp protocol support in plugin\r\ndocs(plugins): fix Readme table bug\r\n\r\n* docs(plugins): add ftp protocol support in plugin\r\n\r\n* feat(plugins): update dependency version\r\n\r\n* feat(plugins): add ftp protocol support in weekpass plugin\r\n\r\n* Refactor(plugins-weakpass): change Mod name to Service name mapping from one-to-one to one-to-many\r\n\r\n* Test(plugins-weakpass): Add unit tests for ftp service\r\n\r\n* Test(plugins-weakpass): Add unit tests for ftp service\r\n\r\n* feat(veinmind-iac): add dockerfile security detection\r\n\r\n* test(veinmind-iac): add dockerfile security detection tests\r\n\r\n* fix(veinmind-iac): fix format bug\r\n\r\n* Test(veinmind-iac): Add unit tests for dockerfile detection",
+        "commit_date": "2023-04-27 05:49:22",
+        "commit_message": "chore(unsafe-mount): remove duplicate code (#229)",
         "release_tag": "v2.1.2",
         "release_date": "2023-04-25 04:01:24",
         "release_message": "## Feature\r\n* feat(veinmind-weakpass): support ftp @ek1ng in https://github.com/chaitin/veinmind-tools/pull/226\r\n* feat(veinmind-iac): add dockerfile security detection by @ek1ng in https://github.com/chaitin/veinmind-tools/pull/228\r\n\r\n## Fix\r\n* fix(ai): ignore basic info analyzer by @DVKunion in https://github.com/chaitin/veinmind-tools/pull/218\r\n* fix(Makefile): add CGO_ENBALED && update(dependency): update dependency version by @ek1ng in https://github.com/chaitin/veinmind-tools/pull/221\r\n* fix(CI/CD): change goproxy settings by @ek1ng in https://github.com/chaitin/veinmind-tools/pull/222\r\n\r\n## Others\r\n* doc: update README.md by @DVKunion in https://github.com/chaitin/veinmind-tools/pull/219\r\n\r\n## New Contributors\r\n* @ek1ng made their first contribution in https://github.com/chaitin/veinmind-tools/pull/221\r\n\r\n**Full Changelog**: https://github.com/chaitin/veinmind-tools/compare/v2.1.1...v2.1.2"
@@ -1789,8 +1789,8 @@
     "https://github.com/4x99/code6": {
         "created_at": "2020-06-01 07:14:55",
         "description": "码小六 - GitHub 代码泄露监控系统",
-        "commit_date": "2023-03-10 03:31:53",
-        "commit_message": "Merge pull request #255 from 4x99/develop\n\nv1.6.",
+        "commit_date": "2023-04-27 08:45:04",
+        "commit_message": "Update README.md",
         "release_tag": "1.6.4",
         "release_date": "2023-03-10 03:32:44",
         "release_message": "### 更新日志\r\n- 特性：[ 扫描结果 ] 支持导出单页 CSV 数据（#245）\r\n- 优化：[ 扫描结果 ] 新增支持 “处理人”、“说明” 字段搜索（#247）\r\n- 修复：[ Docker 部署 ] 修复重启可能导致配置项异常问题（#248）\r\n- 修复：[ 扫描任务 ] 待执行任务配置被删导致扫描队列阻塞问题（#252）\r\n- 修复：[ 通知配置 ] 更新企业群消息机器人文档地址\r\n- 特性：[ 通知配置 ] 邮件通知支持 SSL/TLS 加密（#247）\r\n\r\n### 升级指南\r\n#### 源码安装\r\n直接拉取最新代码\r\n\r\n#### Docker 安装\r\n拉取最新代码、创建镜像并启动容器即可\r\n\r\n#### Docker-Compose 安装\r\n拉取最新代码启动容器即可\r\n"
@@ -1910,7 +1910,7 @@
         "commit_message": "update v1.3.4",
         "release_tag": "v1.3.4",
         "release_date": "2023-04-25 17:18:33",
-        "release_message": "### `v1.3.4` 主要更新：\r\n- 新功能：截图预览窗口。需要在`设置→快捷识图→截图预览窗口`里打开。效果见下图，可以调整透明度 并钉在屏幕顶层。\r\n![1682442876719.png](https://tupian.li/images/2023/04/26/64480a815920a.png)\r\n- 新功能：可用方向键微调截图框位置。\r\n- 修Bug：修复了拖入图片时有几率卡退主窗口的问题。\r\n- 优化了一些处理流程。\r\n- 优化了打包方式，软件体积比上一代减少了15MB。\r\n\r\n### 文件说明\r\n软件本体：`Umi-OCR.v1.3.4.7z`，内置`简体中文&英文`通用识别库。\r\n多国语言扩展包：`Umi-OCR.v1.3_DLC_languages.7z`，可额外导入`繁中,英,日,韩,俄,德,法` 识别库。请按需下载。"
+        "release_message": "### `v1.3.4` 主要更新：\r\n- 新功能：截图预览窗口。需要在`设置→快捷识图→截图预览窗口`里打开。效果见下图，可以调整透明度 并钉在屏幕顶层。\r\n![1682442876719.png](https://tupian.li/images/2023/04/26/64480a815920a.png)\r\n- 新功能：可用方向键微调截图框位置。\r\n- 修Bug：修复了拖入图片时有几率卡退主窗口的问题。\r\n- 优化了一些处理流程。\r\n- 优化了打包方式，软件体积比上一代减少了15MB。\r\n\r\n### 文件说明\r\n软件本体：`Umi-OCR.v1.3.4.7z`（67MB），内置`简体中文&英文`通用识别库。\r\n软件（多国语言整合版）：`Umi-OCR.v1.3.4_ALL_languages.7z`（118MB），内置多国语言识别库。\r\n\r\n多国语言扩展包：`Umi-OCR.v1.3_DLC_languages.7z`（50MB），可向软件本体导入`繁中,英,日,韩,俄,德,法` 多国语言识别库。"
     },
     "https://github.com/qianxiao996/CTF-Tools": {
         "created_at": "2020-01-07 05:58:51",
@@ -1951,11 +1951,11 @@
     "https://github.com/cseroad/Exp-Tools": {
         "created_at": "2023-03-09 01:10:10",
         "description": "一款集成各种exp的实用性工具",
-        "commit_date": "2023-04-06 03:02:58",
+        "commit_date": "2023-04-27 01:16:05",
         "commit_message": "Update README.md",
-        "release_tag": "v1.1.5",
-        "release_date": "2023-04-06 03:01:32",
-        "release_message": "- 新增蓝凌oa后台模板上传漏洞\r\n- 新增用友CRM swfupload 文件上传\r\n- 修复cookie 更新\r\n- 优化部分代码\r\n- 修复多个bug"
+        "release_tag": "v1.1.6",
+        "release_date": "2023-04-27 01:14:02",
+        "release_message": "- 新增泛微ecology前台sql注入-2\r\n- 新增红帆OA任意文件写入\r\n- 修复泛微emobile一处bug\r\n- 删除泛微ecology后台皮肤文件上传\r\n- 删除conf文件夹，修改为启动时创建\r\n- 删除cookie提示"
     },
     "https://github.com/Acmesec/Sylas": {
         "created_at": "2022-01-05 10:16:09",
@@ -2951,8 +2951,8 @@
     "https://github.com/dbeaver/dbeaver": {
         "created_at": "2015-10-21 08:26:28",
         "description": "Free universal database tool and SQL client",
-        "commit_date": "2023-04-26 13:10:06",
-        "commit_message": "dbeaver/pro#1551 update pg driver to 42.5.2 (#19716)",
+        "commit_date": "2023-04-27 19:04:03",
+        "commit_message": "dbeaver/pro#1258 add extra statistics parameter for Oracle tables (#19819)",
         "release_tag": "23.0.3",
         "release_date": "2023-04-24 07:05:15",
         "release_message": "\n                - General UI:\n                    - Issue with zoom in and out with Ctrl++ and Ctrl+- in SQL Editor and Data gird was fixed\n                    - ER Diagram font now depends on the Main font\n                    - A lot of UI rendering improvements were made\n                - SQL Editor:\n                    - Moving with Ctrl+Right/Left now considers words with an underscore and a dollar as a whole word (configurable)\n                    - Autocomplete for mixed-case was improved\n                    - Issue with crashing when closing the SQL Editor tab was fixed\n                    - Order by parsing was improved\n                - AI: issue with changing settings was fixed\n                - Data Editor:\n                    - Data filters support in the Grouping panel was added\n                    - Opening TXT, JSON, and XML files in external editors was improved on macOS and Linux\n                    - Rendering of non-display characters was improved\n                    - Issue with disappearing filter option, when a query returns nothing, was fixed\n                    - Microseconds epoch transformer was added (thanks to @BobrPetr)\n                    - Database Navigator: issue with creating a new view was fixed\n                 - Data transfer:\n                    - Issue with set max column length when exporting in TXT was fixed\n                    - Issue with export JSON to TXT was fixed\n                - Databases:\n                    - Firebird: recognition of procedure parameter data types was improved\n                    - SQLite: issue with database synchronization with the server was fixed\n                    - Redshift: issue with renaming a view in Database Navigator was fixed\n                    - MySQL: issue with the empty privileges list was fixed\n                    - Snowflake: displaying the creation time of Snowflake views was added\n                    - TiDB Cloud: telemetry support was added (thanks to @Icemap)\n                    - PostgreSQL: array presentation was improved\n                - Localization of Brazilian Portuguese was improved (thanks to @brlarini)\n            "
@@ -3050,8 +3050,8 @@
     "https://github.com/zan8in/afrog": {
         "created_at": "2022-02-24 06:00:32",
         "description": "A Vulnerability Scanning Tools For Penetration Testing",
-        "commit_date": "2023-04-25 04:00:29",
-        "commit_message": "update contribute",
+        "commit_date": "2023-04-27 03:00:05",
+        "commit_message": "update poc",
         "release_tag": "v2.2.3",
         "release_date": "2023-04-22 13:09:02",
         "release_message": "optimization:\r\n- Customizable html report report generation directory\r\n\r\nPoC:\r\n- Added 22 PoCs\r\n\r\n-----------------\r\n\r\n优化：\r\n- 可自定义 html report 报告生成目录\r\n\r\nPoC:\r\n- 新增 22 PoC"
@@ -3192,11 +3192,11 @@
     "https://github.com/joke2k/faker": {
         "created_at": "2012-11-12 23:00:09",
         "description": "Faker is a Python package that generates fake data for you.",
-        "commit_date": "2023-04-24 15:55:03",
-        "commit_message": "Bump version: 18.5.0 → 18.5.1",
-        "release_tag": "v18.5.1",
-        "release_date": "2023-04-24 15:55:52",
-        "release_message": "See [CHANGELOG.md](https://github.com/joke2k/faker/blob/refs/tags/v18.5.1/CHANGELOG.md)."
+        "commit_date": "2023-04-27 15:12:15",
+        "commit_message": "Bump version: 18.5.1 → 18.6.0",
+        "release_tag": "v18.6.0",
+        "release_date": "2023-04-27 15:13:22",
+        "release_message": "See [CHANGELOG.md](https://github.com/joke2k/faker/blob/refs/tags/v18.6.0/CHANGELOG.md)."
     },
     "https://github.com/NHPT/Xray_Cracked": {
         "created_at": "2022-08-10 13:51:19",
@@ -3262,8 +3262,8 @@
     "https://github.com/F6JO/RouteVulScan": {
         "created_at": "2022-06-01 07:07:38",
         "description": "Burpsuite - Route Vulnerable Scanning 递归式被动检测脆弱路径的burp插件",
-        "commit_date": "2023-04-26 08:48:51",
-        "commit_message": "Merge pull request #25 from No-Github/main\n\n优化规则,降低误报",
+        "commit_date": "2023-04-27 02:33:29",
+        "commit_message": "Merge branch 'main' of https://github.com/F6JO/RouteVulScan",
         "release_tag": "RouteVulScan1.4",
         "release_date": "2023-01-08 08:33:50",
         "release_message": "2023-01-08 修改在线更新为追加而不是覆盖\r\n2023-01-08 将主域和子域当作第一层路径默认扫描\r\n2023-02-04 添加bypass功能"
@@ -3699,8 +3699,8 @@
     "https://github.com/carlospolop/PEASS-ng": {
         "created_at": "2019-01-13 19:58:24",
         "description": "PEASS - Privilege Escalation Awesome Scripts SUITE (with colors)",
-        "commit_date": "2023-04-25 15:05:49",
-        "commit_message": "Merge pull request #350 from Donovoi/master\n\nfix path too long",
+        "commit_date": "2023-04-27 17:18:09",
+        "commit_message": "Merge pull request #355 from wonda-tea-coffee/fix-link\n\nfix hacktricks link",
         "release_tag": "20230425-bd7331ea",
         "release_date": "2023-04-25 14:39:32",
         "release_message": ""
@@ -3906,8 +3906,8 @@
     "https://github.com/anchore/syft": {
         "created_at": "2020-05-07 18:19:29",
         "description": "CLI tool and library for generating a Software Bill of Materials from container images and filesystems",
-        "commit_date": "2023-04-26 20:42:43",
-        "commit_message": "chore: update test redactor ordering (#1765)\n\nSigned-off-by: Keith Zantow <kzantow@gmail.com>",
+        "commit_date": "2023-04-27 15:58:59",
+        "commit_message": "chore(deps): bump modernc.org/sqlite from 1.22.0 to 1.22.1 (#1768)\n\nBumps [modernc.org/sqlite](https://gitlab.com/cznic/sqlite) from 1.22.0 to 1.22.1.\r\n- [Release notes](https://gitlab.com/cznic/sqlite/tags)\r\n- [Commits](https://gitlab.com/cznic/sqlite/compare/v1.22.0...v1.22.1)\r\n\r\n---\r\nupdated-dependencies:\r\n- dependency-name: modernc.org/sqlite\r\n  dependency-type: direct:production\r\n  update-type: version-update:semver-patch\r\n...\r\n\r\nSigned-off-by: dependabot[bot] <support@github.com>\r\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
         "release_tag": "v0.79.0",
         "release_date": "2023-04-21 16:24:14",
         "release_message": "# Changelog\r\n\r\n## [v0.79.0](https://github.com/anchore/syft/tree/v0.79.0) (2023-04-21)\r\n\r\n[Full Changelog](https://github.com/anchore/syft/compare/v0.78.0...v0.79.0)\r\n\r\n### Added Features\r\n\r\n- Add ALPM Metadata to CYCLONEDX and SPDX output formats [[Issue #1037](https://github.com/anchore/syft/issues/1037)] [[PR #1747](https://github.com/anchore/syft/pull/1747)] [[Shanedell](https://github.com/Shanedell)]\r\n- consul binary classifier [[Issue #1590](https://github.com/anchore/syft/issues/1590)] [[PR #1738](https://github.com/anchore/syft/pull/1738)] [[Shanedell](https://github.com/Shanedell)]\r\n\r\n### Bug Fixes\r\n\r\n- Syft missing direct dependencies from the gemfile.lock [[Issue #1660](https://github.com/anchore/syft/issues/1660)] [[PR #1749](https://github.com/anchore/syft/pull/1749)] [[Shanedell](https://github.com/Shanedell)]\r\n\r\n### Additional Changes\r\n\r\n- chore: bump stereoscope to latest version [[PR #1741](https://github.com/anchore/syft/pull/1741)] [[westonsteimel](https://github.com/westonsteimel)]\r\n\r\n\r\n\r\n"
@@ -3915,11 +3915,11 @@
     "https://github.com/chaitin/safeline": {
         "created_at": "2023-04-12 11:30:14",
         "description": "长亭科技自研，基于业界领先的语义引擎检测技术，打造的简洁、易用的免费 WAF",
-        "commit_date": "2023-04-26 10:32:11",
-        "commit_message": "Merge pull request #43 from naocanmonster/main\n\n调整了文档的目录结构",
-        "release_tag": "v1.1.0",
-        "release_date": "2023-04-20 12:22:04",
-        "release_message": "### 新增\r\n- 默认开启高防模式\r\n- 支持根据 IP 和 URL 特征配置黑白名单\r\n\r\n### 优化\r\n- 支持在日志详情中展示响应报文\r\n- 服务器时间不准导致 TOTP 无法登录时增加了提示语\r\n- 修复了上游服务器填 HTTPS 时端口解析不正确的问题\r\n- 优化了 SSL 上传逻辑，体验更好"
+        "commit_date": "2023-04-27 13:20:05",
+        "commit_message": "feat: add upgration instruction",
+        "release_tag": "v1.2.0",
+        "release_date": "2023-04-27 12:12:45",
+        "release_message": "### 新增\r\n\r\n- 新增了数据统计页面，可以直观的看到流量大小\r\n- 支持配置源 IP 提取方式，解决了源 IP 获取不对的问题\r\n- 支持自定义检测策略，可以动态调整检测引擎\r\n\r\n**注意：低版本升级请执行 upgrade.sh 脚本，或者重新手动更新 compose.yaml 文件**"
     },
     "https://github.com/stamparm/identYwaf": {
         "created_at": "2019-01-10 11:27:58",
@@ -3969,8 +3969,8 @@
     "https://github.com/aquasecurity/trivy": {
         "created_at": "2019-04-11 01:01:07",
         "description": "Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more",
-        "commit_date": "2023-04-25 11:47:25",
-        "commit_message": "feat(sbom): add primary package purpose field for SPDX (#4119)",
+        "commit_date": "2023-04-27 11:31:49",
+        "commit_message": "feat(sbom): add supplier field (#4122)\n\nCo-authored-by: Teppei Fukuda <knqyf263@gmail.com>",
         "release_tag": "v0.40.0",
         "release_date": "2023-04-16 13:30:59",
         "release_message": "## ⚡Release highlights and summary⚡\r\n\r\n👉 https://github.com/aquasecurity/trivy/discussions/4074\r\n\r\n## Changelog\r\n* b43b19ba5 feat(flag): Support globstar for `--skip-files` and `--skip-directories` (#4026)\r\n* 14805002d chore(deps): bump actions/stale from 7 to 8 (#3955)\r\n* 83bb97ab1 fix: return insecure option to download javadb (#4064)\r\n* 79a1ba32d fix(nodejs): don't stop parsing when unsupported yarn.lock protocols are found (#4052)\r\n* ff1c43a79 ci: add gpg signing for RPM packages (#4056)\r\n* b608b116c fix(k8s): current context title (#4055)\r\n* 2c3b60f4c fix(k8s): quit support on k8s progress bar (#4021)\r\n* a6b864213 chore: add a note about Dockerfile.canary (#4050)\r\n* 90b80662c ci: fix path to canary binaries (#4045)\r\n* dcefc6bf3 fix(vuln): report architecture for debian packages (#4032)\r\n* 601e25fb2 feat: add support for Chainguard's commercial distro (#3641)\r\n* 0bebec19f ci: bump goreleaser for Github Action from 1.4.1 to 1.16.2 (#3979)\r\n* 707ea9423 fix(vuln): fix error message for remote scanners (#4031)\r\n* 8e1fe769e feat(report): add image metadata to SARIF (#4020)\r\n* 4b36e97dc docs: fix broken cache link on Installation page (#3999)\r\n* f0df725c5 fix: lock downloading policies and database (#4017)\r\n* 009675c82 fix: avoid concurrent access to the global map (#4014)\r\n* 3ed86aa3d feat(rust): add Cargo.lock v3 support (#4012)\r\n* f31dea4bd feat: auth support oci download server subcommand (#4008)\r\n* d37c50a2b chore(deps): bump github.com/docker/docker (#4009)\r\n* 693d20516 chore: install.sh support for armv7 (#3985)\r\n* 65d89b99d chore(deps): bump github.com/Azure/go-autorest/autorest/adal (#3961)\r\n\r\n"
@@ -3978,8 +3978,8 @@
     "https://github.com/anchore/grype": {
         "created_at": "2020-05-26 13:44:38",
         "description": "A vulnerability scanner for container images and filesystems",
-        "commit_date": "2023-04-24 18:49:01",
-        "commit_message": "chore(deps): bump github/codeql-action from 2.2.12 to 2.3.0 (#1256)\n\nBumps [github/codeql-action](https://github.com/github/codeql-action) from 2.2.12 to 2.3.0.\r\n- [Release notes](https://github.com/github/codeql-action/releases)\r\n- [Changelog](https://github.com/github/codeql-action/blob/main/CHANGELOG.md)\r\n- [Commits](https://github.com/github/codeql-action/compare/7df0ce34898d659f95c0c4a09eaa8d4e32ee64db...b2c19fb9a2a485599ccf4ed5d65527d94bc57226)\r\n\r\n---\r\nupdated-dependencies:\r\n- dependency-name: github/codeql-action\r\n  dependency-type: direct:production\r\n  update-type: version-update:semver-minor\r\n...\r\n\r\nSigned-off-by: dependabot[bot] <support@github.com>\r\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
+        "commit_date": "2023-04-27 16:43:05",
+        "commit_message": "chore(deps): bump github/codeql-action from 2.3.0 to 2.3.1 (#1258)\n\nBumps [github/codeql-action](https://github.com/github/codeql-action) from 2.3.0 to 2.3.1.\r\n- [Release notes](https://github.com/github/codeql-action/releases)\r\n- [Changelog](https://github.com/github/codeql-action/blob/main/CHANGELOG.md)\r\n- [Commits](https://github.com/github/codeql-action/compare/b2c19fb9a2a485599ccf4ed5d65527d94bc57226...8662eabe0e9f338a07350b7fd050732745f93848)\r\n\r\n---\r\nupdated-dependencies:\r\n- dependency-name: github/codeql-action\r\n  dependency-type: direct:production\r\n  update-type: version-update:semver-patch\r\n...\r\n\r\nSigned-off-by: dependabot[bot] <support@github.com>\r\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
         "release_tag": "v0.61.1",
         "release_date": "2023-04-21 17:14:17",
         "release_message": "# Changelog\n\n## [v0.61.1](https://github.com/anchore/grype/tree/v0.61.1) (2023-04-21)\n\n[Full Changelog](https://github.com/anchore/grype/compare/v0.61.0...v0.61.1)\n\n### Bug Fixes\n\n- :grey_question: Parsing dpkg status: extracting key-value from line:  usr/lib/os-release err: cannot parse field [[Issue #1195](https://github.com/anchore/grype/issues/1195)]\n- Grype suggesting to upgrade to a version already used.  [[Issue #1209](https://github.com/anchore/grype/issues/1209)]\n\n### Additional Changes\n\n- feat: add timestamp to json output (#1170) [[PR #1249](https://github.com/anchore/grype/pull/1249)] [[jneate](https://github.com/jneate)]\n\n\n\n"
