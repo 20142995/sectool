@@ -200,8 +200,8 @@
     "https://github.com/ycdxsb/PocOrExp_in_Github": {
         "created_at": "2021-04-13 05:46:16",
         "description": "聚合Github上已有的Poc或者Exp，CVE信息来自CVE官网。Auto Collect Poc Or Exp from Github by CVE ID.",
-        "commit_date": "2023-04-27 22:03:28",
-        "commit_message": "update 2023-04-28 06:03:28",
+        "commit_date": "2023-04-28 23:06:06",
+        "commit_message": "update 2023-04-29 07:06:06",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -434,8 +434,8 @@
     "https://github.com/xiao-zhu-zhu/noterce": {
         "created_at": "2023-01-31 07:56:29",
         "description": "一种另辟蹊径的免杀执行系统命令的木马",
-        "commit_date": "2023-04-19 04:29:51",
-        "commit_message": "Update server.go\n\n1.2 修复被控端不能更改地址的bug",
+        "commit_date": "2023-04-28 15:11:22",
+        "commit_message": "Update README.md",
         "release_tag": "v1.2",
         "release_date": "2023-04-19 04:40:00",
         "release_message": "修复被控端不能更改note地址的bug\r\n\r\n感谢Explo1t师傅反馈"
@@ -461,7 +461,7 @@
     "https://github.com/ExpLangcn/NucleiTP": {
         "created_at": "2022-11-08 13:16:56",
         "description": "自动整合全网Nuclei的漏洞POC，实时同步更新最新POC！",
-        "commit_date": "2023-04-28 00:30:15",
+        "commit_date": "2023-04-29 00:30:16",
         "commit_message": "更新啦❤️",
         "release_tag": "",
         "release_date": "",
@@ -855,8 +855,8 @@
     "https://github.com/Anof-cyber/APTRS": {
         "created_at": "2022-10-28 16:15:37",
         "description": "Automated Penetration Testing Reporting System",
-        "commit_date": "2023-01-24 19:13:52",
-        "commit_message": "Update FUNDING.yml",
+        "commit_date": "2023-04-28 20:10:33",
+        "commit_message": "Create CODE_OF_CONDUCT.md",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -1422,11 +1422,11 @@
     "https://github.com/pingc0y/URLFinder": {
         "created_at": "2022-06-06 10:17:00",
         "description": "一款快速、全面、易用的页面信息提取工具，可快速发现和提取页面中的JS、URL和敏感信息。",
-        "commit_date": "2023-04-25 03:10:33",
-        "commit_message": "Update result.go\n\n2023/4/25",
-        "release_tag": "2023.2.21",
-        "release_date": "2023-02-21 03:59:42",
-        "release_message": "2023/2/21\r\n修复 已知bug"
+        "commit_date": "2023-04-28 10:42:14",
+        "commit_message": "2023/4/22更新",
+        "release_tag": "2023.4.22",
+        "release_date": "2023-04-22 11:03:52",
+        "release_message": "2023/4/22  \r\n修复 已知bug  \r\n变化 -d 改为正则表达式  \r\n变化 打印显示抓取来源  \r\n新增 敏感信息增加Other  \r\n新增 -ff 全部抓取的数据,视为同一个url的结果来处理（只打印一份结果 | 只会输出一份结果） "
     },
     "https://github.com/0x727/ShuiZe_0x727": {
         "created_at": "2021-07-28 11:34:10",
@@ -1512,11 +1512,11 @@
     "https://github.com/weujieytt/HostHeaderAttack": {
         "created_at": "2022-02-23 13:59:36",
         "description": "检测host头攻击的Burpsuite被动扫描插件，Burpsuite passive scanning plugin responsible for detecting host header attack",
-        "commit_date": "2022-02-26 01:55:18",
-        "commit_message": "Update BurpExtender.java",
-        "release_tag": "0.1",
+        "commit_date": "2023-04-28 15:04:16",
+        "commit_message": "Update HostAttackScanner.java",
+        "release_tag": "0.1.1",
         "release_date": "2022-02-23 14:14:01",
-        "release_message": ""
+        "release_message": "优化一下有时候出现双host"
     },
     "https://github.com/theSecHunter/Hades": {
         "created_at": "2022-08-21 08:44:50",
@@ -1735,8 +1735,8 @@
     "https://github.com/chaitin/veinmind-tools": {
         "created_at": "2022-02-08 08:12:15",
         "description": "veinmind-tools 是由长亭科技自研，基于 veinmind-sdk 打造的容器安全工具集",
-        "commit_date": "2023-04-27 05:49:22",
-        "commit_message": "chore(unsafe-mount): remove duplicate code (#229)",
+        "commit_date": "2023-04-28 02:53:39",
+        "commit_message": "fix: walk error (#231)\n\n* fix: walk error\r\n\r\n* fix: upgrade libveinmind",
         "release_tag": "v2.1.2",
         "release_date": "2023-04-25 04:01:24",
         "release_message": "## Feature\r\n* feat(veinmind-weakpass): support ftp @ek1ng in https://github.com/chaitin/veinmind-tools/pull/226\r\n* feat(veinmind-iac): add dockerfile security detection by @ek1ng in https://github.com/chaitin/veinmind-tools/pull/228\r\n\r\n## Fix\r\n* fix(ai): ignore basic info analyzer by @DVKunion in https://github.com/chaitin/veinmind-tools/pull/218\r\n* fix(Makefile): add CGO_ENBALED && update(dependency): update dependency version by @ek1ng in https://github.com/chaitin/veinmind-tools/pull/221\r\n* fix(CI/CD): change goproxy settings by @ek1ng in https://github.com/chaitin/veinmind-tools/pull/222\r\n\r\n## Others\r\n* doc: update README.md by @DVKunion in https://github.com/chaitin/veinmind-tools/pull/219\r\n\r\n## New Contributors\r\n* @ek1ng made their first contribution in https://github.com/chaitin/veinmind-tools/pull/221\r\n\r\n**Full Changelog**: https://github.com/chaitin/veinmind-tools/compare/v2.1.1...v2.1.2"
@@ -1897,8 +1897,8 @@
     "https://github.com/yuyan-sec/RedisEXP": {
         "created_at": "2022-03-19 14:41:00",
         "description": "Redis 漏洞利用工具",
-        "commit_date": "2023-02-19 16:36:47",
-        "commit_message": "解决支持中文路径",
+        "commit_date": "2023-04-28 17:19:10",
+        "commit_message": "update",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -2419,9 +2419,9 @@
         "description": "",
         "commit_date": "2021-04-30 12:14:50",
         "commit_message": "Update README.md",
-        "release_tag": "0.4",
-        "release_date": "2021-04-30 12:11:44",
-        "release_message": "⚠️该版本配置与之前（0.3/0.2/0.1）版本不兼容，请保存旧的配置后重新生成配置。\r\n\r\n+ 优化爬取效果，更强力更全面的页面分析能力，更优策略。\r\n+ 优化调度，爬取过程更快速顺畅。\r\n+ 将过滤分为`加入爬取队列`、`发送请求`、`输出结果`三部分配置，可以方便的控制各个环节的过滤。\r\n+ 体验细节优化。"
+        "release_tag": "1.0",
+        "release_date": "2023-04-28 08:20:04",
+        "release_message": "更新同步自：[https://stack.chaitin.com/tool/detail?id=2](https://stack.chaitin.com/tool/detail?id=2)\r\n\r\n- 新增批量爬取功能（--url-file）\r\n- 新增subdomain配置，用于控制是否爬取子域。\r\n- 增加mac arm版本\r\n- 优化了扫描性能\r\n- 取消了自动播放音频\r\n- 上层代理设置可以不携带协议名称\r\n- 大幅优化爬取效率（开启过滤同站点相似元素强度即可体验）\r\n- 修复了部分站点不爬取的bug\r\n- 修复了可能会出现爬到目标外站点的bug\r\n- 修复了爬取数量减少的bug\r\n- 修复已知问题\r\n"
     },
     "https://github.com/teamssix/cf": {
         "created_at": "2022-07-01 06:02:57",
@@ -2951,8 +2951,8 @@
     "https://github.com/dbeaver/dbeaver": {
         "created_at": "2015-10-21 08:26:28",
         "description": "Free universal database tool and SQL client",
-        "commit_date": "2023-04-27 19:04:03",
-        "commit_message": "dbeaver/pro#1258 add extra statistics parameter for Oracle tables (#19819)",
+        "commit_date": "2023-04-28 16:37:11",
+        "commit_message": "Clickhouse data type cache fix",
         "release_tag": "23.0.3",
         "release_date": "2023-04-24 07:05:15",
         "release_message": "\n                - General UI:\n                    - Issue with zoom in and out with Ctrl++ and Ctrl+- in SQL Editor and Data gird was fixed\n                    - ER Diagram font now depends on the Main font\n                    - A lot of UI rendering improvements were made\n                - SQL Editor:\n                    - Moving with Ctrl+Right/Left now considers words with an underscore and a dollar as a whole word (configurable)\n                    - Autocomplete for mixed-case was improved\n                    - Issue with crashing when closing the SQL Editor tab was fixed\n                    - Order by parsing was improved\n                - AI: issue with changing settings was fixed\n                - Data Editor:\n                    - Data filters support in the Grouping panel was added\n                    - Opening TXT, JSON, and XML files in external editors was improved on macOS and Linux\n                    - Rendering of non-display characters was improved\n                    - Issue with disappearing filter option, when a query returns nothing, was fixed\n                    - Microseconds epoch transformer was added (thanks to @BobrPetr)\n                    - Database Navigator: issue with creating a new view was fixed\n                 - Data transfer:\n                    - Issue with set max column length when exporting in TXT was fixed\n                    - Issue with export JSON to TXT was fixed\n                - Databases:\n                    - Firebird: recognition of procedure parameter data types was improved\n                    - SQLite: issue with database synchronization with the server was fixed\n                    - Redshift: issue with renaming a view in Database Navigator was fixed\n                    - MySQL: issue with the empty privileges list was fixed\n                    - Snowflake: displaying the creation time of Snowflake views was added\n                    - TiDB Cloud: telemetry support was added (thanks to @Icemap)\n                    - PostgreSQL: array presentation was improved\n                - Localization of Brazilian Portuguese was improved (thanks to @brlarini)\n            "
@@ -3050,8 +3050,8 @@
     "https://github.com/zan8in/afrog": {
         "created_at": "2022-02-24 06:00:32",
         "description": "A Vulnerability Scanning Tools For Penetration Testing",
-        "commit_date": "2023-04-27 03:00:05",
-        "commit_message": "update poc",
+        "commit_date": "2023-04-28 09:23:07",
+        "commit_message": "update",
         "release_tag": "v2.2.3",
         "release_date": "2023-04-22 13:09:02",
         "release_message": "optimization:\r\n- Customizable html report report generation directory\r\n\r\nPoC:\r\n- Added 22 PoCs\r\n\r\n-----------------\r\n\r\n优化：\r\n- 可自定义 html report 报告生成目录\r\n\r\nPoC:\r\n- 新增 22 PoC"
@@ -3969,17 +3969,17 @@
     "https://github.com/aquasecurity/trivy": {
         "created_at": "2019-04-11 01:01:07",
         "description": "Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more",
-        "commit_date": "2023-04-27 11:31:49",
-        "commit_message": "feat(sbom): add supplier field (#4122)\n\nCo-authored-by: Teppei Fukuda <knqyf263@gmail.com>",
-        "release_tag": "v0.40.0",
-        "release_date": "2023-04-16 13:30:59",
-        "release_message": "## ⚡Release highlights and summary⚡\r\n\r\n👉 https://github.com/aquasecurity/trivy/discussions/4074\r\n\r\n## Changelog\r\n* b43b19ba5 feat(flag): Support globstar for `--skip-files` and `--skip-directories` (#4026)\r\n* 14805002d chore(deps): bump actions/stale from 7 to 8 (#3955)\r\n* 83bb97ab1 fix: return insecure option to download javadb (#4064)\r\n* 79a1ba32d fix(nodejs): don't stop parsing when unsupported yarn.lock protocols are found (#4052)\r\n* ff1c43a79 ci: add gpg signing for RPM packages (#4056)\r\n* b608b116c fix(k8s): current context title (#4055)\r\n* 2c3b60f4c fix(k8s): quit support on k8s progress bar (#4021)\r\n* a6b864213 chore: add a note about Dockerfile.canary (#4050)\r\n* 90b80662c ci: fix path to canary binaries (#4045)\r\n* dcefc6bf3 fix(vuln): report architecture for debian packages (#4032)\r\n* 601e25fb2 feat: add support for Chainguard's commercial distro (#3641)\r\n* 0bebec19f ci: bump goreleaser for Github Action from 1.4.1 to 1.16.2 (#3979)\r\n* 707ea9423 fix(vuln): fix error message for remote scanners (#4031)\r\n* 8e1fe769e feat(report): add image metadata to SARIF (#4020)\r\n* 4b36e97dc docs: fix broken cache link on Installation page (#3999)\r\n* f0df725c5 fix: lock downloading policies and database (#4017)\r\n* 009675c82 fix: avoid concurrent access to the global map (#4014)\r\n* 3ed86aa3d feat(rust): add Cargo.lock v3 support (#4012)\r\n* f31dea4bd feat: auth support oci download server subcommand (#4008)\r\n* d37c50a2b chore(deps): bump github.com/docker/docker (#4009)\r\n* 693d20516 chore: install.sh support for armv7 (#3985)\r\n* 65d89b99d chore(deps): bump github.com/Azure/go-autorest/autorest/adal (#3961)\r\n\r\n"
+        "commit_date": "2023-04-28 04:16:21",
+        "commit_message": "fix(spdx): add workaround for no src packages (#4118)",
+        "release_tag": "v0.41.0",
+        "release_date": "2023-04-28 06:00:39",
+        "release_message": "## Changelog\n* 1be1e2e63 fix(spdx): add workaround for no src packages (#4118)\n* 45bc9e0de test(golang): rename broken go.mod (#4129)\n* 3334e78fa feat(sbom): add supplier field (#4122)\n* 27fb1bfde test(misconf): skip downloading of policies for tests #4126\n* 845ae31e5 refactor: use debug message for post-analyze errors (#4037)\n* 11a5b91a1 feat(sbom): add VEX support (#4053)\n* 5eab46498 feat(sbom): add primary package purpose field for SPDX (#4119)\n* a00d00eb9 fix(k8s): fix quiet flag (#4120)\n* 9bc326909 fix(python): parse of pip extras (#4103)\n* 855984167 feat(java): use full path for nested jars (#3992)\n* 0650e0e1d feat(license): add new flag for classifier confidence level (#4073)\n* 43b649627 feat: config and fs compliance support (#4097)\n* 9181bc1f7 chore(deps): bump sigstore/cosign-installer from 2.8.1 to 3.0.1 (#3952)\n* 48e021ea6 feat(spdx): add support for SPDX 2.3 (#4058)\n* 107752df6 fix: k8s all-namespaces support (#4096)\n* bd0c60364 perf(misconf): replace with post-analyzers (#4090)\n* 76662d5dd fix(helm): update networking API version detection (#4106)\n* be47b688c feat(image): custom docker host option (#3599)\n* cc18f92cf style: debug flag is incorrect and needs extra - (#4087)\n* 572a6193e docs(vuln): Document inline vulnerability filtering comments (#4024)\n* 914c6f092 feat(fs): customize error callback during fs walk (#4038)\n* 3f02feeff fix(ubuntu): skip copyright files from subfolders (#4076)\n* 57bb77c06 docs: restructure scanners (#3977)\n* b19b56c34 fix: fix `file does not exist` error for post-analyzers (#4061)\n\n"
     },
     "https://github.com/anchore/grype": {
         "created_at": "2020-05-26 13:44:38",
         "description": "A vulnerability scanner for container images and filesystems",
-        "commit_date": "2023-04-27 16:43:05",
-        "commit_message": "chore(deps): bump github/codeql-action from 2.3.0 to 2.3.1 (#1258)\n\nBumps [github/codeql-action](https://github.com/github/codeql-action) from 2.3.0 to 2.3.1.\r\n- [Release notes](https://github.com/github/codeql-action/releases)\r\n- [Changelog](https://github.com/github/codeql-action/blob/main/CHANGELOG.md)\r\n- [Commits](https://github.com/github/codeql-action/compare/b2c19fb9a2a485599ccf4ed5d65527d94bc57226...8662eabe0e9f338a07350b7fd050732745f93848)\r\n\r\n---\r\nupdated-dependencies:\r\n- dependency-name: github/codeql-action\r\n  dependency-type: direct:production\r\n  update-type: version-update:semver-patch\r\n...\r\n\r\nSigned-off-by: dependabot[bot] <support@github.com>\r\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
+        "commit_date": "2023-04-28 14:10:29",
+        "commit_message": "Install skopeo during bootstrap (#1260)\n\nThe \"make integration\" target assumes that skopeo will be available on\r\nPATH, but this wasn't documented. Install it during bootstrap when other\r\nutilities are installed. (See ./test/integration/utils_test.go:50).\r\nInclude a sample skopeo policy.json, otherwise skopeo will look for a\r\nmissing policy doc a /etc/containers/policy.json and exit with an error.\r\nThe sample policy document matches the one included by default with\r\n\"brew install skopeo\".\r\n\r\nSigned-off-by: Will Murphy <will.murphy@anchore.com>\r\nCo-authored-by: Will Murphy <will.murphy@anchore.com>",
         "release_tag": "v0.61.1",
         "release_date": "2023-04-21 17:14:17",
         "release_message": "# Changelog\n\n## [v0.61.1](https://github.com/anchore/grype/tree/v0.61.1) (2023-04-21)\n\n[Full Changelog](https://github.com/anchore/grype/compare/v0.61.0...v0.61.1)\n\n### Bug Fixes\n\n- :grey_question: Parsing dpkg status: extracting key-value from line:  usr/lib/os-release err: cannot parse field [[Issue #1195](https://github.com/anchore/grype/issues/1195)]\n- Grype suggesting to upgrade to a version already used.  [[Issue #1209](https://github.com/anchore/grype/issues/1209)]\n\n### Additional Changes\n\n- feat: add timestamp to json output (#1170) [[PR #1249](https://github.com/anchore/grype/pull/1249)] [[jneate](https://github.com/jneate)]\n\n\n\n"
@@ -4115,6 +4115,96 @@
         "description": "使用docker快速搭建各大漏洞靶场，目前可以一键搭建17个靶场。",
         "commit_date": "2020-03-25 07:11:46",
         "commit_message": "Merge pull request #12 from lcy321/flink-f\n\nflink-f",
+        "release_tag": "",
+        "release_date": "",
+        "release_message": ""
+    },
+    "https://github.com/wkend/0_zone_tool": {
+        "created_at": "2023-03-01 17:59:57",
+        "description": "零零信安api信息系统查询脚本",
+        "commit_date": "2023-04-10 16:23:29",
+        "commit_message": "Update 0_zone.py",
+        "release_tag": "",
+        "release_date": "",
+        "release_message": ""
+    },
+    "https://github.com/0verSp4ce/DoraBox": {
+        "created_at": "2017-11-28 13:08:36",
+        "description": "DoraBox - Basic Web Vulnerability Training ",
+        "commit_date": "2021-12-24 04:58:09",
+        "commit_message": "Update",
+        "release_tag": "",
+        "release_date": "",
+        "release_message": ""
+    },
+    "https://github.com/tongcheng-security-team/NextScan": {
+        "created_at": "2023-03-17 05:47:33",
+        "description": "飞刃是一套完整的企业级黑盒漏洞扫描系统，集成漏洞扫描、漏洞管理、扫描资产、爬虫等服务。 拥有强大的漏洞检测引擎和丰富的插件库，覆盖多种漏洞类型和应用程序框架。",
+        "commit_date": "2023-04-24 09:48:09",
+        "commit_message": "Update README.md",
+        "release_tag": "v1.1.0",
+        "release_date": "2023-04-24 06:21:47",
+        "release_message": "##### 首次发布\r\n\r\n## Changelog\r\n首次发布\r\n\r\n"
+    },
+    "https://github.com/EZLippi/WebBench": {
+        "created_at": "2015-04-13 04:45:47",
+        "description": "Webbench是Radim Kolar在1997年写的一个在linux下使用的非常简单的网站压测工具。它使用fork()模拟多个客户端同时访问我们设定的URL，测试网站在压力下工作的性能，最多可以模拟3万个并发连接去测试网站的负载能力。官网地址:http://home.tiscali.cz/~cz210552/webbench.html",
+        "commit_date": "2018-01-20 17:33:28",
+        "commit_message": "Merge pull request #14 from EZLippi/add-license-1\n\nCreate LICENSE",
+        "release_tag": "",
+        "release_date": "",
+        "release_message": ""
+    },
+    "https://github.com/wangai3176/webug4.0": {
+        "created_at": "2019-02-22 10:45:45",
+        "description": "webug4.0",
+        "commit_date": "2022-02-14 09:27:09",
+        "commit_message": "Update README.md",
+        "release_tag": "",
+        "release_date": "",
+        "release_message": ""
+    },
+    "https://github.com/vulhub/vulhub": {
+        "created_at": "2017-04-09 10:13:13",
+        "description": "Pre-Built Vulnerable Environments Based on Docker-Compose",
+        "commit_date": "2023-04-28 19:00:07",
+        "commit_message": "fixed typo in the CVE-2023-2519 manual",
+        "release_tag": "",
+        "release_date": "",
+        "release_message": ""
+    },
+    "https://github.com/zhuifengshaonianhanlu/pikachu": {
+        "created_at": "2018-07-24 08:21:19",
+        "description": "一个好玩的Web安全-漏洞测试平台",
+        "commit_date": "2022-10-12 03:51:20",
+        "commit_message": "Update README.md",
+        "release_tag": "",
+        "release_date": "",
+        "release_message": ""
+    },
+    "https://github.com/bugku/BWVS": {
+        "created_at": "2018-02-02 13:06:36",
+        "description": "Web漏洞渗透测试靶场",
+        "commit_date": "2018-02-05 13:06:03",
+        "commit_message": "Update README.md",
+        "release_tag": "",
+        "release_date": "",
+        "release_message": ""
+    },
+    "https://github.com/Medicean/VulApps": {
+        "created_at": "2016-06-16 08:05:30",
+        "description": "快速搭建各种漏洞环境(Various vulnerability environment)",
+        "commit_date": "2020-04-15 09:23:17",
+        "commit_message": "Merge pull request #32 from jwxa2015/CVE-2020-1938\n\n添加 Tomcat Apache Tomcat 文件包含漏洞(CVE-2020-1938)",
+        "release_tag": "",
+        "release_date": "",
+        "release_message": ""
+    },
+    "https://github.com/ApocalypseSec/ApoalypseSecTools": {
+        "created_at": "2023-04-25 09:34:21",
+        "description": "ApoalypseSecTool更新地址",
+        "commit_date": "2023-04-26 02:03:35",
+        "commit_message": "Update README.md",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
