@@ -1,8 +1,13 @@
-# 更新于 2023-04-29 08:38:22
+# 更新于 2023-04-30 08:50:30
 
 ## 近15天release更新记录
 | 更新时间 | 项目名称 | 版本 | 更新内容 |
 | :---- | :---- | :---- | :---- |
+|2023-04-29 20:03:26|[sweetPotato](https://github.com/z2p/sweetPotato)|version<br>1.6|# 更新日志  ## version1.6  ### 新增  <br>1. 已识别组件的目录扫描优化（使用特定<br>字典且会进行关键字验证，例如识别到是Web<br>Logic会自动去访问/console，并进行关键<br>字验证）    ### 优化  1. 脆弱性分析增加<br>过滤，不会对所有类型进行分析（例如jpg）<br>  2. 优化和增加部份指纹  3. 默认开启已<br>识别组件的目录扫描|
+|2023-04-29 13:37:52|[Viper](https://github.com/FunnyWolf/Viper)|v1.5.27|## v1.5.27 20230429  ### 新功能  - 新<br>增基础LoaderShellcode分离免杀(Linux)模<br>块  ### 优化  - 合并metasploit-framewor<br>k 6.3.15版本  ### Bugfix  - 修复Python<br>类型payload无法上线问题  - 修复命令终端<br>输出中文报错问题(提示执行超时)  - 修复S<br>ession通信信道功能无法使用问题|
+|2023-04-29 11:59:25|[cf](https://github.com/teamssix/cf)|v0.4.5|### 新增功能    *  增加华为云控制台接<br>管和权限枚举功能    ### 功能优化    *  <br>优化错误信息输出  *  优化更新功能    ##<br># Bug 修复    *  修复配置令牌功能的 Bu<br>g  *   修复两处缓存功能的 Bug  *  修复<br>更新功能 Bug  *  修复腾讯云 cvm 和 lh <br>无法列全的 Bug    ## 新贡献者  * @0xorO<br>ne made their first contribution in ht<br>tps://github.com/teamssix/cf/pull/219 <br>   **Full Changelog**: https://github.<br>com/teamssix/cf/compare/v0.4.4...v0.4.<br>5|
+|2023-04-29 10:58:25|[Dude](https://github.com/x364e3ab6/Dude)|v1.0.0.<br>4|1. 新增结构分析功能，可快速分析网站结<br>构，并可对指定链接执行JavaScript脚本获<br>取常规源码分析无法取得的链接，如WEBAPI<br>；  2. 新增内置浏览器注入并执行JavaScri<br>pt脚本的功能；  3. 新增了工具箱的显示<br>隐藏，默认隐藏；  4. 修改了内置浏览器及<br>功能插件TabControl的重选中逻辑和关闭方<br>式；  5. 修改了数据监视功能由始终开启为<br>自定义开启；  6. 修改了一些小Bug，对部<br>分代码写法和效率进行优化；  7. 内置Edge<br>浏览器内核升级至最新版本112.0.1722.64。|
+|2023-04-29 06:20:47|[pocsuite3](https://github.com/knownsec/pocsuite3)|v2.0.4|* 兼容 nuclei v2.9.1 的模版协议名称变<br>化 #364     ---    * Updated protocol n<br>ames that are compatible with Nuclei v<br>2.9.1 #364 |
 |2023-04-28 08:20:04|[rad](https://github.com/chaitin/rad)|1.0|更新同步自：    - 新增批量爬取功能（-<br>-url-file）  - 新增subdomain配置，用于<br>控制是否爬取子域。  - 增加mac arm版本  <br>- 优化了扫描性能  - 取消了自动播放音频<br>  - 上层代理设置可以不携带协议名称  - <br>大幅优化爬取效率（开启过滤同站点相似元<br>素强度即可体验）  - 修复了部分站点不爬<br>取的bug  - 修复了可能会出现爬到目标外站<br>点的bug  - 修复了爬取数量减少的bug  - <br>修复已知问题  |
 |2023-04-28 06:00:39|[trivy](https://github.com/aquasecurity/trivy)|v0.41.0|## Changelog * 1be1e2e63 fix(spdx): a<br>dd workaround for no src packages (#41<br>18) * 45bc9e0de test(golang): rename b<br>roken go.mod (#4129) * 3334e78fa feat(<br>sbom): add supplier field (#4122) * 27<br>fb1bfde test(misconf): skip downloadin<br>g of policies for tests #4126 * 845ae3<br>1e5 refactor: use debug message for po<br>st-analyze errors (#4037) * 11a5b91a1 <br>feat(sbom): add VEX support (#4053) * <br>5eab46498 feat(sbom): add primary pack<br>age purpose field for SPDX (#4119) * a<br>00d00eb9 fix(k8s): fix quiet flag (#41<br>20) * 9bc326909 fix(python): parse of <br>pip extras (#4103) * 855984167 feat(ja<br>va): use full path for nested jars (#3<br>992) * 0650e0e1d feat(license): add ne<br>w flag for classifier confidence level<br> (#4073) * 43b649627 feat: config and <br>fs compliance support (#4097) * 9181bc<br>1f7 chore(deps): bump sigstore/cosign-<br>installer from 2.8.1 to 3.0.1 (#3952) <br>* 48e021ea6 feat(spdx): add support fo<br>r SPDX 2.3 (#4058) * 107752df6 fix: k8<br>s all-namespaces support (#4096) * bd0<br>c60364 perf(misconf): replace with pos<br>t-analyzers (#4090) * 76662d5dd fix(he<br>lm): update networking API version det<br>ection (#4106) * be47b688c feat(image)<br>: custom docker host option (#3599) * <br>cc18f92cf style: debug flag is incorre<br>ct and needs extra - (#4087) * 572a619<br>3e docs(vuln): Document inline vulnera<br>bility filtering comments (#4024) * 91<br>4c6f092 feat(fs): customize error call<br>back during fs walk (#4038) * 3f02feef<br>f fix(ubuntu): skip copyright files fr<br>om subfolders (#4076) * 57bb77c06 docs<br>: restructure scanners (#3977) * b19b5<br>6c34 fix: fix file does not exist erro<br>r for post-analyzers (#4061)  |
 |2023-04-27 15:13:22|[faker](https://github.com/joke2k/faker)|v18.6.0|See .|
@@ -42,10 +47,16 @@
 ## 近15天commit提交记录
 | 提交时间 | 项目名称 | 更新内容 |
 | :---- | :---- | :---- |
-|2023-04-29 00:30:16|[NucleiTP](https://github.com/ExpLangcn/NucleiTP)|更新啦❤️|
-|2023-04-28 23:06:06|[PocOrExp_in_Githu<br>b](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-04-29 07:06:06|
+|2023-04-30 00:45:17|[NucleiTP](https://github.com/ExpLangcn/NucleiTP)|更新啦❤️|
+|2023-04-29 22:11:10|[PocOrExp_in_Githu<br>b](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-04-30 06:11:10|
+|2023-04-29 20:11:02|[sweetPotato](https://github.com/z2p/sweetPotato)|change readme|
+|2023-04-29 19:00:57|[vulhub](https://github.com/vulhub/vulhub)|Merge pull request #426 from vulhub/druid-cve-2021-<br>25646  Apache Druid CVE-2023-25194|
+|2023-04-29 13:37:14|[Viper](https://github.com/FunnyWolf/Viper)|update version v1.5.27|
+|2023-04-29 11:59:18|[cf](https://github.com/teamssix/cf)|Merge pull request #226 from teamssix/beta  Update <br>CHANGELOG.md|
+|2023-04-29 11:14:47|[Dude](https://github.com/x364e3ab6/Dude)|Update README.md|
+|2023-04-29 06:15:36|[pocsuite3](https://github.com/knownsec/pocsuite3)|Merge pull request #365 from 13ph03nix/nuclei-issue<br>-3055-protocol-name  fix: Updated protocol attribute<br> name (requests=> http & network => tcp)|
+|2023-04-29 04:42:28|[Umi-OCR](https://github.com/hiroi-sora/Umi-OCR)|update|
 |2023-04-28 20:10:33|[APTRS](https://github.com/Anof-cyber/APTRS)|Create CODE_OF_CONDUCT.md|
-|2023-04-28 19:00:07|[vulhub](https://github.com/vulhub/vulhub)|fixed typo in the CVE-2023-2519 manual|
 |2023-04-28 17:19:10|[RedisEXP](https://github.com/yuyan-sec/RedisEXP)|update|
 |2023-04-28 16:37:11|[dbeaver](https://github.com/dbeaver/dbeaver)|Clickhouse data type cache fix|
 |2023-04-28 15:11:22|[noterce](https://github.com/xiao-zhu-zhu/noterce)|Update README.md|
@@ -73,7 +84,6 @@
 |2023-04-26 02:03:35|[ApoalypseSecTools](https://github.com/ApocalypseSec/ApoalypseSecTools)|Update README.md|
 |2023-04-25 21:26:26|[slowhttptest](https://github.com/shekyan/slowhttptest)|updated Dockerfile to use Alpine 3.17 from issue #8<br>0 (#81)  Co-authored-by: Brian Riffle |
 |2023-04-25 19:16:43|[Stowaway](https://github.com/ph4ntonn/Stowaway)|Update README|
-|2023-04-25 17:10:35|[Umi-OCR](https://github.com/hiroi-sora/Umi-OCR)|update v1.3.4|
 |2023-04-25 11:19:28|[domain_hunter_pro](https://github.com/bit4woo/domain_hunter_pro)|删除非目标记录 逻辑更新|
 |2023-04-25 08:12:35|[Elkeid](https://github.com/bytedance/Elkeid)|update:driver CI wget|
 |2023-04-25 07:10:09|[autoDecoder](https://github.com/f0ng/autoDecoder)|Update README.md|
@@ -252,7 +262,7 @@
 ### 漏洞扫描框架
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
-| [pocsuite3](https://github.com/knownsec/pocsuite3) | v2.0.3 | pocsuite3 is an open-sourced remote vulnerability testing fram<br>ework developed by the Knownsec 404 Team. |
+| [pocsuite3](https://github.com/knownsec/pocsuite3) | v2.0.4 | pocsuite3 is an open-sourced remote vulnerability testing fram<br>ework developed by the Knownsec 404 Team. |
 | [Godscan](https://github.com/Guoke324/Godscan) | Godscan | Godscan 是一款python编写的具有图形化界面的漏洞检测框架，可以之<br>定义漏洞检测 poc ，主要是帮助安全测试者，更好的去记录和整理历史<br>漏洞，以便更好的进行漏洞检测，提高工作效率！ |
 | [FrameScan-GUI](https://github.com/qianxiao996/FrameScan-GUI) | v1.4.3 | FrameScan-GUI 一款python3和Pyqt编写的具有图形化界面的cms漏洞检<br>测框架。 |
 | [Gr33k](https://github.com/lijiaxing1997/Gr33k) |  | 图形化漏洞利用集成工具 |
@@ -305,7 +315,7 @@
 ### 漏洞发现
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
-| [Dude](https://github.com/x364e3ab6/Dude) | v1.0.0.<br>3 | Dude (大佬) WEB渗透测试辅助工具 |
+| [Dude](https://github.com/x364e3ab6/Dude) | v1.0.0.<br>4 | Dude (大佬) WEB渗透测试辅助工具 |
 ### 信息泄露监控
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
@@ -454,7 +464,7 @@
 ### 漏洞检测利用仓库
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
-| [poc-hub](https://github.com/ybdt/poc-hub) |  | 漏洞复现 |
+| [poc-hub](https://github.com/ybdt/poc-hub) |  |  |
 | [Awesome-Exploit](https://github.com/Threekiii/Awesome-Exploit) |  | 一个漏洞利用工具仓库 |
 | [exphub](https://github.com/zhzyker/exphub) |  | Exphub[漏洞利用脚本库] 包括Webloigc、Struts2、Tomcat、Nexus、S<br>olr、Jboss、Drupal的漏洞利用脚本，最新添加CVE-2020-14882、CVE-2<br>020-11444、CVE-2020-10204、CVE-2020-10199、CVE-2020-1938、CVE-2<br>020-2551、CVE-2020-2555、CVE-2020-2883、CVE-2019-17558、CVE-201<br>9-6340 |
 | [CVE-Master](https://github.com/wjl110/CVE-Master) | v1.0.1 | 收集本人自接触渗透测试用于漏洞验证的所有热门CVE、POC、CNVD攻击<br>有效载荷+测试工具+FUZZ,一个仓库满足许多攻击测试场景,开箱即用. |
@@ -467,7 +477,7 @@
 ### 信息泄露漏洞利用
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
-| [cf](https://github.com/teamssix/cf) | v0.4.4 | Cloud Exploitation Framework 云环境利用框架，方便安全人员在获<br>得 AK 的后续工作 |
+| [cf](https://github.com/teamssix/cf) | v0.4.5 | Cloud Exploitation Framework 云环境利用框架，方便安全人员在获<br>得 AK 的后续工作 |
 | [Cloud-Bucket-Leak<br>-Detection-Tools](https://github.com/UzJu/Cloud-Bucket-Leak-Detection-Tools) | v0.4.0 | 六大云存储，泄露利用检测工具 |
 | [AliyunAccessKeyTo<br>ols](https://github.com/NS-Sp4ce/AliyunAccessKeyTools) | 1.0 | 阿里云AccessKey泄漏利用工具 |
 ### 漏洞利用
@@ -578,7 +588,7 @@
 ### 漏洞利用
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
-| [Viper](https://github.com/FunnyWolf/Viper) | v1.5.26 | Redteam operation  platform with webui 图形化红队行动辅助平台 |
+| [Viper](https://github.com/FunnyWolf/Viper) | v1.5.27 | Redteam operation  platform with webui 图形化红队行动辅助平台 |
 ### 横向工具
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
@@ -666,7 +676,7 @@
 | [JsonDetect](https://github.com/a1phaboy/JsonDetect) | v1.0 | A burp Extender to detect json, include fastjson,jackson,gson |
 | [autoDecoder](https://github.com/f0ng/autoDecoder) | 0.25 | Burp插件，根据自定义来达到对数据包的处理（适用于加解密、爆破等<br>），类似mitmproxy，不同点在于经过了burp中转，在自动加解密的基础<br>上，不影响APP、网站加解密正常逻辑等。 |
 | [burp-text4shell](https://github.com/silentsignal/burp-text4shell) | v0.1 | Text4Shell scanner for Burp Suite |
-| [sweetPotato](https://github.com/z2p/sweetPotato) | version<br>1.4 | 基于burpsuite的资产分析工具 |
+| [sweetPotato](https://github.com/z2p/sweetPotato) | version<br>1.6 | 基于burpsuite的资产分析工具 |
 | [xia_Liao](https://github.com/smxiazi/xia_Liao) | 1.6 | xia Liao（瞎料）burp插件 用于Windows在线进程/杀软识别 与 web渗<br>透注册时，快速生成需要的资料用来填写，资料包含：姓名、手机号、身<br>份证、统一社会信用代码、组织机构代码、银行卡，以及各类web语言的h<br>ello world输出和生成弱口令字典等。 |
 | [base64encode](https://github.com/handbye/base64encode) | 1.0 | burpsuite POST数据包base64编码插件 |
 | [HackTools](https://github.com/Vicl1fe/HackTools) | 1.4 | 提高渗透测试效率。#Burp插件##渗透测试##小工具# |

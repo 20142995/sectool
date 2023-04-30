@@ -200,8 +200,8 @@
     "https://github.com/ycdxsb/PocOrExp_in_Github": {
         "created_at": "2021-04-13 05:46:16",
         "description": "聚合Github上已有的Poc或者Exp，CVE信息来自CVE官网。Auto Collect Poc Or Exp from Github by CVE ID.",
-        "commit_date": "2023-04-28 23:06:06",
-        "commit_message": "update 2023-04-29 07:06:06",
+        "commit_date": "2023-04-29 22:11:10",
+        "commit_message": "update 2023-04-30 06:11:10",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -461,7 +461,7 @@
     "https://github.com/ExpLangcn/NucleiTP": {
         "created_at": "2022-11-08 13:16:56",
         "description": "自动整合全网Nuclei的漏洞POC，实时同步更新最新POC！",
-        "commit_date": "2023-04-29 00:30:16",
+        "commit_date": "2023-04-30 00:45:17",
         "commit_message": "更新啦❤️",
         "release_tag": "",
         "release_date": "",
@@ -709,8 +709,8 @@
         "release_message": ""
     },
     "https://github.com/ybdt/poc-hub": {
-        "created_at": "2020-09-03 04:47:40",
-        "description": "漏洞复现",
+        "created_at": "",
+        "description": "",
         "commit_date": "2023-04-04 03:20:05",
         "commit_message": "整理",
         "release_tag": "",
@@ -819,11 +819,11 @@
     "https://github.com/knownsec/pocsuite3": {
         "created_at": "2019-03-15 07:01:04",
         "description": "pocsuite3 is an open-sourced remote vulnerability testing framework developed by the Knownsec 404 Team.",
-        "commit_date": "2023-03-21 06:19:25",
-        "commit_message": "chore: bump version to 2.0.3",
-        "release_tag": "v2.0.3",
-        "release_date": "2023-03-21 06:22:36",
-        "release_message": "* 优化对 URL 协议的自动纠正 #356，感谢 @chenjiewei123\r\n* 支持通过 --no-check 选项禁用 URL 协议自动纠正和蜜罐检查\r\n----------------\r\n\r\n* optimized URL protocol correction #356, thanks @chenjiewei123\r\n* support disable protocol correction and honeypot checks through --no-check option\r\n\r\n\r\n\r\n"
+        "commit_date": "2023-04-29 06:15:36",
+        "commit_message": "Merge pull request #365 from 13ph03nix/nuclei-issue-3055-protocol-name\n\nfix: Updated protocol attribute name (requests=> http & network => tcp)",
+        "release_tag": "v2.0.4",
+        "release_date": "2023-04-29 06:20:47",
+        "release_message": "* 兼容 nuclei v2.9.1 的模版协议名称变化 #364 \r\n\r\n---\r\n\r\n* Updated protocol names that are compatible with Nuclei v2.9.1 #364 "
     },
     "https://github.com/murphysecurity/murphysec": {
         "created_at": "2022-03-16 02:52:33",
@@ -1008,11 +1008,11 @@
     "https://github.com/x364e3ab6/Dude": {
         "created_at": "2023-02-03 05:39:58",
         "description": "Dude (大佬) WEB渗透测试辅助工具",
-        "commit_date": "2023-04-07 13:03:43",
+        "commit_date": "2023-04-29 11:14:47",
         "commit_message": "Update README.md",
-        "release_tag": "v1.0.0.3",
-        "release_date": "2023-03-25 08:08:30",
-        "release_message": "1. 修改了在安装了Edge或Edge WebView2 Runtime的情况下，可不用携带BrowserRuntime这个超大文件夹；\r\n2. 修改了内置Edge浏览器的一些功能和显示效果；\r\n3. 修改了“数据爆破”功能中同步多线程的问题，极大的提高了爆破速度；\r\n5. 对插件做出一些细节的调整；\r\n4. 修改了一些小Bug。"
+        "release_tag": "v1.0.0.4",
+        "release_date": "2023-04-29 10:58:25",
+        "release_message": "1. 新增结构分析功能，可快速分析网站结构，并可对指定链接执行JavaScript脚本获取常规源码分析无法取得的链接，如WEBAPI；\r\n2. 新增内置浏览器注入并执行JavaScript脚本的功能；\r\n3. 新增了工具箱的显示隐藏，默认隐藏；\r\n4. 修改了内置浏览器及功能插件TabControl的重选中逻辑和关闭方式；\r\n5. 修改了数据监视功能由始终开启为自定义开启；\r\n6. 修改了一些小Bug，对部分代码写法和效率进行优化；\r\n7. 内置Edge浏览器内核升级至最新版本112.0.1722.64。"
     },
     "https://github.com/wecooperate/iDefender": {
         "created_at": "2021-11-24 11:38:28",
@@ -1906,8 +1906,8 @@
     "https://github.com/hiroi-sora/Umi-OCR": {
         "created_at": "2022-03-28 04:01:46",
         "description": "OCR图片转文字识别软件，完全离线。截屏/批量导入图片，支持多国语言、合并段落、竖排文字。可排除水印区域，提取干净的文本。基于 PaddleOCR 。",
-        "commit_date": "2023-04-25 17:10:35",
-        "commit_message": "update v1.3.4",
+        "commit_date": "2023-04-29 04:42:28",
+        "commit_message": "update",
         "release_tag": "v1.3.4",
         "release_date": "2023-04-25 17:18:33",
         "release_message": "### `v1.3.4` 主要更新：\r\n- 新功能：截图预览窗口。需要在`设置→快捷识图→截图预览窗口`里打开。效果见下图，可以调整透明度 并钉在屏幕顶层。\r\n![1682442876719.png](https://tupian.li/images/2023/04/26/64480a815920a.png)\r\n- 新功能：可用方向键微调截图框位置。\r\n- 修Bug：修复了拖入图片时有几率卡退主窗口的问题。\r\n- 优化了一些处理流程。\r\n- 优化了打包方式，软件体积比上一代减少了15MB。\r\n\r\n### 文件说明\r\n软件本体：`Umi-OCR.v1.3.4.7z`（67MB），内置`简体中文&英文`通用识别库。\r\n软件（多国语言整合版）：`Umi-OCR.v1.3.4_ALL_languages.7z`（118MB），内置多国语言识别库。\r\n\r\n多国语言扩展包：`Umi-OCR.v1.3_DLC_languages.7z`（50MB），可向软件本体导入`繁中,英,日,韩,俄,德,法` 多国语言识别库。"
@@ -2372,11 +2372,11 @@
     "https://github.com/FunnyWolf/Viper": {
         "created_at": "2020-05-29 12:53:42",
         "description": "Redteam operation  platform with webui 图形化红队行动辅助平台",
-        "commit_date": "2023-02-05 15:19:54",
-        "commit_message": "update version v1.5.26",
-        "release_tag": "v1.5.26",
-        "release_date": "2023-02-05 15:20:55",
-        "release_message": "## v1.5.26 20230205\r\n### 优化\r\n- 合并metasploit-framework 6.3.2版本 (更新多个域渗透模块)\r\n\r\n### Bugfix\r\n- 修复 https://github.com/FunnyWolf/Viper/issues/93\r\n- 修复 https://github.com/FunnyWolf/Viper/issues/120"
+        "commit_date": "2023-04-29 13:37:14",
+        "commit_message": "update version v1.5.27",
+        "release_tag": "v1.5.27",
+        "release_date": "2023-04-29 13:37:52",
+        "release_message": "## v1.5.27 20230429\r\n### 新功能\r\n- 新增`基础LoaderShellcode分离免杀(Linux)`模块\r\n### 优化\r\n- 合并metasploit-framework 6.3.15版本\r\n### Bugfix\r\n- 修复Python类型payload无法上线问题\r\n- 修复`命令终端`输出中文报错问题(提示执行超时)\r\n- 修复Session`通信信道`功能无法使用问题"
     },
     "https://github.com/kost/dvcs-ripper": {
         "created_at": "2012-10-23 04:55:18",
@@ -2426,11 +2426,11 @@
     "https://github.com/teamssix/cf": {
         "created_at": "2022-07-01 06:02:57",
         "description": "Cloud Exploitation Framework 云环境利用框架，方便安全人员在获得 AK 的后续工作",
-        "commit_date": "2023-04-06 03:44:43",
-        "commit_message": "Merge pull request #220 from teamssix/beta\n\nperf: optimize error output",
-        "release_tag": "v0.4.4",
-        "release_date": "2022-12-13 14:13:07",
-        "release_message": "### 新增功能\r\n\r\n* [#196](https://github.com/teamssix/cf/pull/196) 增加本地访问密钥扫描功能\r\n* [#198](https://github.com/teamssix/cf/pull/198) 增加 huawei obs ls 功能\r\n\r\n### 功能优化\r\n\r\n* [#197](https://github.com/teamssix/cf/pull/197) 优化错误信息输出\r\n\r\n### Bug 修复\r\n\r\n* [#193](https://github.com/teamssix/cf/pull/193) 修复一处 aws ec2 ls 处的 Bug\r\n* [#194](https://github.com/teamssix/cf/pull/194) 修复一处配置功能处的 Bug\r\n\r\n\r\n**Full Changelog**: https://github.com/teamssix/cf/compare/v0.4.3...v0.4.4"
+        "commit_date": "2023-04-29 11:59:18",
+        "commit_message": "Merge pull request #226 from teamssix/beta\n\nUpdate CHANGELOG.md",
+        "release_tag": "v0.4.5",
+        "release_date": "2023-04-29 11:59:25",
+        "release_message": "### 新增功能\r\n\r\n* [#221](https://github.com/teamssix/cf/pull/221) 增加华为云控制台接管和权限枚举功能\r\n\r\n### 功能优化\r\n\r\n* [#220](https://github.com/teamssix/cf/pull/220) 优化错误信息输出\r\n* [#225](https://github.com/teamssix/cf/pull/225) 优化更新功能\r\n\r\n### Bug 修复\r\n\r\n* [#201](https://github.com/teamssix/cf/pull/201) 修复配置令牌功能的 Bug\r\n* [#203](https://github.com/teamssix/cf/pull/203) [#204](https://github.com/teamssix/cf/pull/204) 修复两处缓存功能的 Bug\r\n* [#208](https://github.com/teamssix/cf/pull/208) 修复更新功能 Bug\r\n* [#224](https://github.com/teamssix/cf/pull/224) 修复腾讯云 cvm 和 lh 无法列全的 Bug\r\n\r\n## 新贡献者\r\n* @0xorOne made their first contribution in https://github.com/teamssix/cf/pull/219\r\n\r\n**Full Changelog**: https://github.com/teamssix/cf/compare/v0.4.4...v0.4.5"
     },
     "https://github.com/frohoff/ysoserial": {
         "created_at": "2015-01-28 07:13:55",
@@ -3593,11 +3593,11 @@
     "https://github.com/z2p/sweetPotato": {
         "created_at": "2022-09-25 17:46:39",
         "description": "基于burpsuite的资产分析工具",
-        "commit_date": "2022-11-13 10:55:49",
-        "commit_message": "bug fixed",
-        "release_tag": "version1.4",
-        "release_date": "2022-11-13 10:57:37",
-        "release_message": ""
+        "commit_date": "2023-04-29 20:11:02",
+        "commit_message": "change readme",
+        "release_tag": "version1.6",
+        "release_date": "2023-04-29 20:03:26",
+        "release_message": "# 更新日志\r\n## version1.6\r\n### 新增\r\n1. 已识别组件的目录扫描优化（使用特定字典且会进行关键字验证，例如识别到是WebLogic会自动去访问/console，并进行关键字验证）\r\n\r\n### 优化\r\n1. 脆弱性分析增加过滤，不会对所有类型进行分析（例如jpg）\r\n2. 优化和增加部份指纹\r\n3. 默认开启已识别组件的目录扫描"
     },
     "https://github.com/f0ng/autoDecoder": {
         "created_at": "2022-03-26 10:13:56",
@@ -4167,8 +4167,8 @@
     "https://github.com/vulhub/vulhub": {
         "created_at": "2017-04-09 10:13:13",
         "description": "Pre-Built Vulnerable Environments Based on Docker-Compose",
-        "commit_date": "2023-04-28 19:00:07",
-        "commit_message": "fixed typo in the CVE-2023-2519 manual",
+        "commit_date": "2023-04-29 19:00:57",
+        "commit_message": "Merge pull request #426 from vulhub/druid-cve-2021-25646\n\nApache Druid CVE-2023-25194",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
