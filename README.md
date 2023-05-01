@@ -1,8 +1,9 @@
-# 更新于 2023-04-30 08:50:30
+# 更新于 2023-05-01 08:41:22
 
 ## 近15天release更新记录
 | 更新时间 | 项目名称 | 版本 | 更新内容 |
 | :---- | :---- | :---- | :---- |
+|2023-04-30 15:08:56|[naabu](https://github.com/projectdiscovery/naabu)|v2.1.6|## What's Changed  * Fixed an issue w<br>ith -ec option by @RamanaReddy0M in ht<br>tps://github.com/projectdiscovery/naab<br>u/pull/637  * Fixed an issue with -eh <br>option by @iamargus95 in https://githu<br>b.com/projectdiscovery/naabu/pull/640 <br> * Fixed an issue with -stats option b<br>y @Mzack9999 in https://github.com/pro<br>jectdiscovery/naabu/pull/639    Issues<br> closed in this release - https://gith<br>ub.com/projectdiscovery/naabu/mileston<br>e/7    ## New Contributors  * @iamargu<br>s95 made their first contribution in h<br>ttps://github.com/projectdiscovery/naa<br>bu/pull/640    **Full Changelog**: htt<br>ps://github.com/projectdiscovery/naabu<br>/compare/v2.1.5...v2.1.6|
 |2023-04-29 20:03:26|[sweetPotato](https://github.com/z2p/sweetPotato)|version<br>1.6|# 更新日志  ## version1.6  ### 新增  <br>1. 已识别组件的目录扫描优化（使用特定<br>字典且会进行关键字验证，例如识别到是Web<br>Logic会自动去访问/console，并进行关键<br>字验证）    ### 优化  1. 脆弱性分析增加<br>过滤，不会对所有类型进行分析（例如jpg）<br>  2. 优化和增加部份指纹  3. 默认开启已<br>识别组件的目录扫描|
 |2023-04-29 13:37:52|[Viper](https://github.com/FunnyWolf/Viper)|v1.5.27|## v1.5.27 20230429  ### 新功能  - 新<br>增基础LoaderShellcode分离免杀(Linux)模<br>块  ### 优化  - 合并metasploit-framewor<br>k 6.3.15版本  ### Bugfix  - 修复Python<br>类型payload无法上线问题  - 修复命令终端<br>输出中文报错问题(提示执行超时)  - 修复S<br>ession通信信道功能无法使用问题|
 |2023-04-29 11:59:25|[cf](https://github.com/teamssix/cf)|v0.4.5|### 新增功能    *  增加华为云控制台接<br>管和权限枚举功能    ### 功能优化    *  <br>优化错误信息输出  *  优化更新功能    ##<br># Bug 修复    *  修复配置令牌功能的 Bu<br>g  *   修复两处缓存功能的 Bug  *  修复<br>更新功能 Bug  *  修复腾讯云 cvm 和 lh <br>无法列全的 Bug    ## 新贡献者  * @0xorO<br>ne made their first contribution in ht<br>tps://github.com/teamssix/cf/pull/219 <br>   **Full Changelog**: https://github.<br>com/teamssix/cf/compare/v0.4.4...v0.4.<br>5|
@@ -43,17 +44,18 @@
 |2023-04-17 01:16:06|[AV_Evasion_Tool](https://github.com/1y0n/AV_Evasion_Tool)|2023041<br>7|1. 效果优化|
 |2023-04-16 22:40:19|[SSTImap](https://github.com/vladko312/SSTImap)|v1.1|- Crawler and form detection (by @fan<br>tesykikachu)  - New template engine ad<br>ded: Cheetah  - Automatic import for e<br>ngine modules  - Interactive module re<br>loading capability  - Full support for<br> Python 3.11  - Replaced telnetlib wit<br>h a custom TCP client|
 |2023-04-16 12:00:25|[WeblogicTool](https://github.com/KimJun1010/WeblogicTool)|v1.0||
-|2023-04-15 01:34:31|[nemo_go](https://github.com/hanc00l/nemo_go)|v2.9.2|  ### Updated    - 首页登录及后台更改<br>密码时，采用RSA加密传输（每次server启动<br>生成随机RSA密钥对）；  - WEB页面修改XSC<br>AN的默认配置；优化XSCAN的选项，增加Nuc<br>lei漏洞扫描；  - 增加输入任务参数长度<br>校验（目标Targets不超过5000个字符，输入<br>参数总长度不超过6000个字符）；  - 增加W<br>ebServer API接口和Swagger调试页面（为<br>前后端分离提供支持）；  - 将子域名被动<br>收集（Subfinder）及指纹获取（Httpx）功<br>能由原通过源代码集成改用调用二进制文件<br>（解决和降低内存泄露、协程异常导致内存<br>和CPU占用异常的bug）；  - 增加IP与资产<br>的黑名单功能及一键拉黑功能，对黑名单的<br>资产忽略指纹及漏洞任务、结果不会进行存<br>储；  - 更新纯真数据库；  - ChangeLog；<br>    ### Fix    - 子域名被动枚举（Subfi<br>nder）配置的provider-config.yaml未生效|
 ## 近15天commit提交记录
 | 提交时间 | 项目名称 | 更新内容 |
 | :---- | :---- | :---- |
-|2023-04-30 00:45:17|[NucleiTP](https://github.com/ExpLangcn/NucleiTP)|更新啦❤️|
-|2023-04-29 22:11:10|[PocOrExp_in_Githu<br>b](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-04-30 06:11:10|
+|2023-05-01 00:30:16|[NucleiTP](https://github.com/ExpLangcn/NucleiTP)|更新啦❤️|
+|2023-04-30 23:07:22|[PocOrExp_in_Githu<br>b](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-05-01 07:07:22|
+|2023-04-30 15:04:25|[naabu](https://github.com/projectdiscovery/naabu)|Merge pull request #654 from projectdiscovery/dev  <br>naabu v2.1.6|
+|2023-04-30 13:21:47|[neuvector](https://github.com/neuvector/neuvector)|Merge pull request #773 from gfsuse/main  NVSHAS-78<br>50, align field correctly to get right session infor<br>mation|
+|2023-04-30 08:48:52|[Dude](https://github.com/x364e3ab6/Dude)|Update README.md|
 |2023-04-29 20:11:02|[sweetPotato](https://github.com/z2p/sweetPotato)|change readme|
 |2023-04-29 19:00:57|[vulhub](https://github.com/vulhub/vulhub)|Merge pull request #426 from vulhub/druid-cve-2021-<br>25646  Apache Druid CVE-2023-25194|
 |2023-04-29 13:37:14|[Viper](https://github.com/FunnyWolf/Viper)|update version v1.5.27|
 |2023-04-29 11:59:18|[cf](https://github.com/teamssix/cf)|Merge pull request #226 from teamssix/beta  Update <br>CHANGELOG.md|
-|2023-04-29 11:14:47|[Dude](https://github.com/x364e3ab6/Dude)|Update README.md|
 |2023-04-29 06:15:36|[pocsuite3](https://github.com/knownsec/pocsuite3)|Merge pull request #365 from 13ph03nix/nuclei-issue<br>-3055-protocol-name  fix: Updated protocol attribute<br> name (requests=> http & network => tcp)|
 |2023-04-29 04:42:28|[Umi-OCR](https://github.com/hiroi-sora/Umi-OCR)|update|
 |2023-04-28 20:10:33|[APTRS](https://github.com/Anof-cyber/APTRS)|Create CODE_OF_CONDUCT.md|
@@ -77,7 +79,6 @@
 |2023-04-27 02:33:29|[RouteVulScan](https://github.com/F6JO/RouteVulScan)|Merge branch 'main' of https://github.com/F6JO/Rout<br>eVulScan|
 |2023-04-27 01:16:05|[Exp-Tools](https://github.com/cseroad/Exp-Tools)|Update README.md|
 |2023-04-27 00:35:58|[feroxbuster](https://github.com/epi052/feroxbuster)|Merge pull request #889 from epi052/all-contributor<br>s/add-lavafroth  docs: add lavafroth as a contributo<br>r for code, and ideas|
-|2023-04-27 00:06:13|[neuvector](https://github.com/neuvector/neuvector)|Merge pull request #760 from jeffhuang4704/7731_add<br>_imagePullPolicy_for_customRule  NVSHAS-7731-add ima<br>gePullPolicy for pod template|
 |2023-04-26 14:29:38|[log4j2burpscanner](https://github.com/f0ng/log4j2burpscanner)|Update README.md|
 |2023-04-26 13:18:52|[PeiQi-WIKI-Book](https://github.com/PeiQi0/PeiQi-WIKI-Book)|漏洞相关:JeecgBoot,KubeOperator,KubePi|
 |2023-04-26 10:21:08|[appshark](https://github.com/bytedance/appshark)|bugfix: profiler serve delay when CPU is overload.|
@@ -131,9 +132,7 @@
 |2023-04-17 07:42:21|[ddddocr](https://github.com/sml2h3/ddddocr)|Update README.md|
 |2023-04-17 07:04:15|[WebGoat](https://github.com/WebGoat/WebGoat)|Fix typo of HijackSession_content0.adoc|
 |2023-04-17 01:34:19|[OneForAll](https://github.com/shmilylty/OneForAll)|Merge pull request #308 from mastomii/adding-massdn<br>s-linux-aarch64  adding "massdns-linux-aarch64"|
-|2023-04-17 01:17:36|[AV_Evasion_Tool](https://github.com/1y0n/AV_Evasion_Tool)|Update README.md|
-|2023-04-15 11:44:52|[revsuit](https://github.com/Li4n0/revsuit)|ci: disable cgo|
-|2023-04-15 01:26:43|[nemo_go](https://github.com/hanc00l/nemo_go)|Update: Release v2.9.2|## 所有项目
+|2023-04-17 01:17:36|[AV_Evasion_Tool](https://github.com/1y0n/AV_Evasion_Tool)|Update README.md|## 所有项目
 # 渗透测试
 ## 信息收集
 ### 资产测绘采集
@@ -192,7 +191,7 @@
 | [webfinder-next](https://github.com/Liqunkit/webfinder-next) |  | 对小米范webfinder http://www.cnblogs.com/SEC-fsq/p/5610981.htm<br>l 进行了小修改 |
 | [yujianportscan](https://github.com/foryujian/yujianportscan) |  | 一个基于VB.NET + IOCP模型开发的高效端口扫描工具，支持IP区间合<br>并，端口区间合并，端口指纹深度探测 |
 | [TXPortMap](https://github.com/4dogs-cn/TXPortMap) | v1.1.2 | Port Scanner & Banner Identify From TianXiang |
-| [naabu](https://github.com/projectdiscovery/naabu) | v2.1.5 | A fast port scanner written in go with a focus on reliability <br>and simplicity. Designed to be used in combination with other t<br>ools for attack surface discovery in bug bounties and pentests |
+| [naabu](https://github.com/projectdiscovery/naabu) | v2.1.6 | A fast port scanner written in go with a focus on reliability <br>and simplicity. Designed to be used in combination with other t<br>ools for attack surface discovery in bug bounties and pentests |
 | [scaninfo](https://github.com/redtoolskobe/scaninfo) | v1.1.0 | fast scan for redtools |
 | [portscan](https://github.com/20142995/portscan) |  |  |
 ### 综合

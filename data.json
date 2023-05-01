@@ -200,8 +200,8 @@
     "https://github.com/ycdxsb/PocOrExp_in_Github": {
         "created_at": "2021-04-13 05:46:16",
         "description": "聚合Github上已有的Poc或者Exp，CVE信息来自CVE官网。Auto Collect Poc Or Exp from Github by CVE ID.",
-        "commit_date": "2023-04-29 22:11:10",
-        "commit_message": "update 2023-04-30 06:11:10",
+        "commit_date": "2023-04-30 23:07:22",
+        "commit_message": "update 2023-05-01 07:07:22",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -461,7 +461,7 @@
     "https://github.com/ExpLangcn/NucleiTP": {
         "created_at": "2022-11-08 13:16:56",
         "description": "自动整合全网Nuclei的漏洞POC，实时同步更新最新POC！",
-        "commit_date": "2023-04-30 00:45:17",
+        "commit_date": "2023-05-01 00:30:16",
         "commit_message": "更新啦❤️",
         "release_tag": "",
         "release_date": "",
@@ -1008,7 +1008,7 @@
     "https://github.com/x364e3ab6/Dude": {
         "created_at": "2023-02-03 05:39:58",
         "description": "Dude (大佬) WEB渗透测试辅助工具",
-        "commit_date": "2023-04-29 11:14:47",
+        "commit_date": "2023-04-30 08:48:52",
         "commit_message": "Update README.md",
         "release_tag": "v1.0.0.4",
         "release_date": "2023-04-29 10:58:25",
@@ -3503,11 +3503,11 @@
     "https://github.com/projectdiscovery/naabu": {
         "created_at": "2020-01-21 10:56:32",
         "description": "A fast port scanner written in go with a focus on reliability and simplicity. Designed to be used in combination with other tools for attack surface discovery in bug bounties and pentests",
-        "commit_date": "2023-03-29 09:37:31",
-        "commit_message": "Merge pull request #626 from projectdiscovery/dev\n\nBugfix update",
-        "release_tag": "v2.1.5",
-        "release_date": "2023-03-29 09:39:08",
-        "release_message": "## What's Changed\r\n* Fixed issue with **exclude port/host** option by @Mzack9999 in https://github.com/projectdiscovery/naabu/pull/624\r\n* Added timeout to scan through SOCKS proxy by @jpts in https://github.com/projectdiscovery/naabu/pull/601\r\n\r\n## New Contributors\r\n* @jpts made their first contribution in https://github.com/projectdiscovery/naabu/pull/601\r\n* @realalexandergeorgiev made their first contribution in https://github.com/projectdiscovery/naabu/pull/602\r\n\r\n**Full Changelog**: https://github.com/projectdiscovery/naabu/compare/v2.1.4...v2.1.5"
+        "commit_date": "2023-04-30 15:04:25",
+        "commit_message": "Merge pull request #654 from projectdiscovery/dev\n\nnaabu v2.1.6",
+        "release_tag": "v2.1.6",
+        "release_date": "2023-04-30 15:08:56",
+        "release_message": "## What's Changed\r\n* Fixed an issue with `-ec` option by @RamanaReddy0M in https://github.com/projectdiscovery/naabu/pull/637\r\n* Fixed an issue with `-eh` option by @iamargus95 in https://github.com/projectdiscovery/naabu/pull/640\r\n* Fixed an issue with `-stats` option by @Mzack9999 in https://github.com/projectdiscovery/naabu/pull/639\r\n\r\nIssues closed in this release - https://github.com/projectdiscovery/naabu/milestone/7\r\n\r\n## New Contributors\r\n* @iamargus95 made their first contribution in https://github.com/projectdiscovery/naabu/pull/640\r\n\r\n**Full Changelog**: https://github.com/projectdiscovery/naabu/compare/v2.1.5...v2.1.6"
     },
     "https://github.com/Threekiii/Awesome-Exploit": {
         "created_at": "2022-04-22 02:08:08",
@@ -3888,8 +3888,8 @@
     "https://github.com/neuvector/neuvector": {
         "created_at": "2021-12-17 20:15:03",
         "description": "",
-        "commit_date": "2023-04-27 00:06:13",
-        "commit_message": "Merge pull request #760 from jeffhuang4704/7731_add_imagePullPolicy_for_customRule\n\nNVSHAS-7731-add imagePullPolicy for pod template",
+        "commit_date": "2023-04-30 13:21:47",
+        "commit_message": "Merge pull request #773 from gfsuse/main\n\nNVSHAS-7850, align field correctly to get right session information",
         "release_tag": "v5.1.2",
         "release_date": "2023-03-27 22:10:50",
         "release_message": "Support cri-o 1.26+ and OpenShift 4.11+\r\nEnable auto scan in configMap\r\nMake gravatar optional\r\nHostname based egress network policy\r\nDisplay cluster namespace resource in UI\r\nVarious of performance and scalability improvements"
