@@ -182,8 +182,8 @@
     "https://github.com/lanyi1998/DNSlog-GO": {
         "created_at": "2020-09-05 16:18:57",
         "description": "DNSLog-GO 是一款golang编写的监控 DNS 解析记录的工具，自带WEB界面",
-        "commit_date": "2023-04-06 08:13:01",
-        "commit_message": "docs:update readme",
+        "commit_date": "2023-05-01 03:11:04",
+        "commit_message": "fix: bulkVerifyDns数据重复问题",
         "release_tag": "1.5.2",
         "release_date": "2022-06-08 02:39:06",
         "release_message": "1.通过配置文件，可固定每个用户对应的子域名。避免每次重启后，用户对应的子域名发生变动"
@@ -200,8 +200,8 @@
     "https://github.com/ycdxsb/PocOrExp_in_Github": {
         "created_at": "2021-04-13 05:46:16",
         "description": "聚合Github上已有的Poc或者Exp，CVE信息来自CVE官网。Auto Collect Poc Or Exp from Github by CVE ID.",
-        "commit_date": "2023-04-30 23:07:22",
-        "commit_message": "update 2023-05-01 07:07:22",
+        "commit_date": "2023-05-01 23:08:38",
+        "commit_message": "update 2023-05-02 07:08:38",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -461,7 +461,7 @@
     "https://github.com/ExpLangcn/NucleiTP": {
         "created_at": "2022-11-08 13:16:56",
         "description": "自动整合全网Nuclei的漏洞POC，实时同步更新最新POC！",
-        "commit_date": "2023-05-01 00:30:16",
+        "commit_date": "2023-05-02 00:30:16",
         "commit_message": "更新啦❤️",
         "release_tag": "",
         "release_date": "",
@@ -981,8 +981,8 @@
     "https://github.com/sqlmapproject/sqlmap": {
         "created_at": "2012-06-26 09:52:15",
         "description": "Automatic SQL injection and database takeover tool",
-        "commit_date": "2023-04-24 13:06:57",
-        "commit_message": "Disabled hostname and certificate validation for TLSv1.3 support. (#5395)",
+        "commit_date": "2023-05-01 07:46:06",
+        "commit_message": "Fixes #5409",
         "release_tag": "1.7",
         "release_date": "2023-01-02 22:32:55",
         "release_message": "Stable version 1.7 ([changeset](https://github.com/sqlmapproject/sqlmap/compare/1.6...1.7))"
@@ -1350,11 +1350,11 @@
     "https://github.com/projectdiscovery/subfinder": {
         "created_at": "2018-03-31 09:44:57",
         "description": "Fast passive subdomain enumeration tool.",
-        "commit_date": "2023-03-17 16:12:07",
-        "commit_message": "Merge pull request #791 from projectdiscovery/dev\n\nsubfinder - v2.5.7",
-        "release_tag": "v2.5.7",
-        "release_date": "2023-03-17 16:15:20",
-        "release_message": "## What's Changed\r\n* Fixed Docker file to avoid version mismatch by @olearycrew in https://github.com/projectdiscovery/subfinder/pull/771\r\n* Added self update option (`-update`) + version check  by @RamanaReddy0M in https://github.com/projectdiscovery/subfinder/pull/780\r\n\r\n\r\n## New Contributors\r\n* @olearycrew made their first contribution in https://github.com/projectdiscovery/subfinder/pull/771\r\n\r\n**Full Changelog**: https://github.com/projectdiscovery/subfinder/compare/v2.5.6...v2.5.7"
+        "commit_date": "2023-05-01 13:24:14",
+        "commit_message": "Merge pull request #827 from projectdiscovery/dev\n\nsubfinder v2.5.8",
+        "release_tag": "v2.5.8",
+        "release_date": "2023-05-01 13:29:07",
+        "release_message": "## What's Changed\r\n\r\n* Added [leakix api](https://leakix.net/) as new source support (#743)  by @gboddin in https://github.com/projectdiscovery/subfinder/pull/793\r\n* Fixed 360quake api to specify include field by @chushuai in https://github.com/projectdiscovery/subfinder/pull/815\r\n* Updated code to get domain result with `onresultcallback` by @dogancanbakir in https://github.com/projectdiscovery/subfinder/pull/800\r\n* Updated hackertarget source url by @ehsandeep in https://github.com/projectdiscovery/subfinder/pull/823\r\n\r\nIssues closed in release - https://github.com/projectdiscovery/subfinder/milestone/6?closed=1\r\n\r\n## Deps update\r\n\r\n* chore(deps): bump actions/setup-go from 3 to 4 by @dependabot in https://github.com/projectdiscovery/subfinder/pull/794\r\n* chore(deps): bump github.com/projectdiscovery/chaos-client from 0.5.0 to 0.5.1 in /v2 by @dependabot in https://github.com/projectdiscovery/subfinder/pull/797\r\n* chore(deps): bump alpine from 3.17.2 to 3.17.3 by @dependabot in https://github.com/projectdiscovery/subfinder/pull/801\r\n* chore(deps): bump github.com/projectdiscovery/utils from 0.0.16 to 0.0.19 in /v2 by @dependabot in https://github.com/projectdiscovery/subfinder/pull/802\r\n* chore(deps): bump golang from 1.20.1-alpine to 1.20.3-alpine by @dependabot in https://github.com/projectdiscovery/subfinder/pull/803\r\n* chore(deps): bump github.com/rs/xid from 1.4.0 to 1.5.0 in /v2 by @dependabot in https://github.com/projectdiscovery/subfinder/pull/804\r\n* chore(deps): bump github.com/lib/pq from 1.10.7 to 1.10.8 in /v2 by @dependabot in https://github.com/projectdiscovery/subfinder/pull/808\r\n* chore(deps): bump github.com/projectdiscovery/utils from 0.0.19 to 0.0.24 in /v2 by @dependabot in https://github.com/projectdiscovery/subfinder/pull/810\r\n* chore(deps): bump github.com/projectdiscovery/utils from 0.0.24 to 0.0.25 in /v2 by @dependabot in https://github.com/projectdiscovery/subfinder/pull/818\r\n* chore(deps): bump github.com/lib/pq from 1.10.8 to 1.10.9 in /v2 by @dependabot in https://github.com/projectdiscovery/subfinder/pull/821\r\n* chore(deps): bump github.com/projectdiscovery/utils from 0.0.25 to 0.0.26 in /v2 by @dependabot in https://github.com/projectdiscovery/subfinder/pull/826\r\n* chore(deps): bump github.com/projectdiscovery/dnsx from 1.1.3 to 1.1.4 in /v2 by @dependabot in https://github.com/projectdiscovery/subfinder/pull/825\r\n\r\n## New Contributors\r\n* @gboddin made their first contribution in https://github.com/projectdiscovery/subfinder/pull/793\r\n* @chushuai made their first contribution in https://github.com/projectdiscovery/subfinder/pull/816\r\n\r\n**Full Changelog**: https://github.com/projectdiscovery/subfinder/compare/v2.5.7...v2.5.8"
     },
     "https://github.com/webraybtl/CodeQLpy": {
         "created_at": "2022-12-22 12:54:03",
@@ -2390,8 +2390,8 @@
     "https://github.com/PeiQi0/PeiQi-WIKI-Book": {
         "created_at": "2022-03-12 12:38:56",
         "description": "面向网络安全从业者的知识文库🍃",
-        "commit_date": "2023-04-26 13:18:52",
-        "commit_message": "漏洞相关:JeecgBoot,KubeOperator,KubePi",
+        "commit_date": "2023-05-01 05:46:33",
+        "commit_message": "漏洞相关:Apache Superset,Druid",
         "release_tag": "PeiQi-WIKI-Book-2022-03-20",
         "release_date": "2022-03-16 06:04:23",
         "release_message": "PeiQi-WIKI-Book-2022-03-20 \r\n\r\n编译好的HTML源码打包，可以更简单的搭建在Web服务器中"
@@ -3906,8 +3906,8 @@
     "https://github.com/anchore/syft": {
         "created_at": "2020-05-07 18:19:29",
         "description": "CLI tool and library for generating a Software Bill of Materials from container images and filesystems",
-        "commit_date": "2023-04-27 15:58:59",
-        "commit_message": "chore(deps): bump modernc.org/sqlite from 1.22.0 to 1.22.1 (#1768)\n\nBumps [modernc.org/sqlite](https://gitlab.com/cznic/sqlite) from 1.22.0 to 1.22.1.\r\n- [Release notes](https://gitlab.com/cznic/sqlite/tags)\r\n- [Commits](https://gitlab.com/cznic/sqlite/compare/v1.22.0...v1.22.1)\r\n\r\n---\r\nupdated-dependencies:\r\n- dependency-name: modernc.org/sqlite\r\n  dependency-type: direct:production\r\n  update-type: version-update:semver-patch\r\n...\r\n\r\nSigned-off-by: dependabot[bot] <support@github.com>\r\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
+        "commit_date": "2023-05-01 14:19:58",
+        "commit_message": "rename sbom.PackageCatalog to sbom.Packages (#1773)\n\nSigned-off-by: Alex Goodman <alex.goodman@anchore.com>",
         "release_tag": "v0.79.0",
         "release_date": "2023-04-21 16:24:14",
         "release_message": "# Changelog\r\n\r\n## [v0.79.0](https://github.com/anchore/syft/tree/v0.79.0) (2023-04-21)\r\n\r\n[Full Changelog](https://github.com/anchore/syft/compare/v0.78.0...v0.79.0)\r\n\r\n### Added Features\r\n\r\n- Add ALPM Metadata to CYCLONEDX and SPDX output formats [[Issue #1037](https://github.com/anchore/syft/issues/1037)] [[PR #1747](https://github.com/anchore/syft/pull/1747)] [[Shanedell](https://github.com/Shanedell)]\r\n- consul binary classifier [[Issue #1590](https://github.com/anchore/syft/issues/1590)] [[PR #1738](https://github.com/anchore/syft/pull/1738)] [[Shanedell](https://github.com/Shanedell)]\r\n\r\n### Bug Fixes\r\n\r\n- Syft missing direct dependencies from the gemfile.lock [[Issue #1660](https://github.com/anchore/syft/issues/1660)] [[PR #1749](https://github.com/anchore/syft/pull/1749)] [[Shanedell](https://github.com/Shanedell)]\r\n\r\n### Additional Changes\r\n\r\n- chore: bump stereoscope to latest version [[PR #1741](https://github.com/anchore/syft/pull/1741)] [[westonsteimel](https://github.com/westonsteimel)]\r\n\r\n\r\n\r\n"
@@ -3915,8 +3915,8 @@
     "https://github.com/chaitin/safeline": {
         "created_at": "2023-04-12 11:30:14",
         "description": "长亭科技自研，基于业界领先的语义引擎检测技术，打造的简洁、易用的免费 WAF",
-        "commit_date": "2023-04-27 13:20:05",
-        "commit_message": "feat: add upgration instruction",
+        "commit_date": "2023-05-01 13:29:59",
+        "commit_message": "Merge pull request #54 from guanweiwang/main\n\nfeat: Added markdown group automatically generated",
         "release_tag": "v1.2.0",
         "release_date": "2023-04-27 12:12:45",
         "release_message": "### 新增\r\n\r\n- 新增了数据统计页面，可以直观的看到流量大小\r\n- 支持配置源 IP 提取方式，解决了源 IP 获取不对的问题\r\n- 支持自定义检测策略，可以动态调整检测引擎\r\n\r\n**注意：低版本升级请执行 upgrade.sh 脚本，或者重新手动更新 compose.yaml 文件**"
@@ -4059,8 +4059,8 @@
     "https://github.com/WebGoat/WebGoat": {
         "created_at": "2015-03-06 14:02:02",
         "description": "WebGoat is a deliberately insecure application",
-        "commit_date": "2023-04-17 07:04:15",
-        "commit_message": "Fix typo of HijackSession_content0.adoc",
+        "commit_date": "2023-05-01 21:48:16",
+        "commit_message": "chore: bump jacoco-maven-plugin from 0.8.8 to 0.8.10\n\nBumps [jacoco-maven-plugin](https://github.com/jacoco/jacoco) from 0.8.8 to 0.8.10.\n- [Release notes](https://github.com/jacoco/jacoco/releases)\n- [Commits](https://github.com/jacoco/jacoco/compare/v0.8.8...v0.8.10)\n\n---\nupdated-dependencies:\n- dependency-name: org.jacoco:jacoco-maven-plugin\n  dependency-type: direct:production\n  update-type: version-update:semver-patch\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>",
         "release_tag": "v2023.4",
         "release_date": "2023-02-17 12:16:10",
         "release_message": "## Version 2023.4\r\n\r\n### New functionality\r\n\r\n- [#1422 Add Docker Linux Desktop variant with all tools installed](https://github.com/WebGoat/WebGoat/issues/1422). Thanks to the [OWASP WrongSecrets project](https://owasp.org/www-project-wrongsecrets/) we now have a Docker Linux desktop image with all the tools installed. No need to install any tools locally only run the new Docker image. See README.md for details on how to start it.\r\n- [#1411 JWT: looks that buy as Tom also works with alg:none](https://github.com/WebGoat/WebGoat/issues/1411).\r\n\r\n### Bug fixes\r\n\r\n- [#1410 WebWolf: JWT decode is broken](https://github.com/WebGoat/WebGoat/issues/1410).\r\n- [#1396 password_reset return 500 Error](https://github.com/WebGoat/WebGoat/issues/1396).\r\n- [#1379 Move XXE to A05:2021-Security Misconfiguration](https://github.com/WebGoat/WebGoat/issues/1379)."
@@ -4104,7 +4104,7 @@
     "https://github.com/arch3rPro/Pentest-Windows": {
         "created_at": "2022-07-08 02:43:58",
         "description": "Windows11 Penetration Suite Toolkit",
-        "commit_date": "2023-04-21 07:09:50",
+        "commit_date": "2023-05-01 08:23:49",
         "commit_message": "Update README.md",
         "release_tag": "v1.0",
         "release_date": "2023-03-07 07:31:49",

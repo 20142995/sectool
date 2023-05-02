@@ -1,8 +1,9 @@
-# 更新于 2023-05-01 08:41:22
+# 更新于 2023-05-02 08:39:23
 
 ## 近15天release更新记录
 | 更新时间 | 项目名称 | 版本 | 更新内容 |
 | :---- | :---- | :---- | :---- |
+|2023-05-01 13:29:07|[subfinder](https://github.com/projectdiscovery/subfinder)|v2.5.8|## What's Changed    * Added  as new <br>source support (#743)  by @gboddin in <br>https://github.com/projectdiscovery/su<br>bfinder/pull/793  * Fixed 360quake api<br> to specify include field by @chushuai<br> in https://github.com/projectdiscover<br>y/subfinder/pull/815  * Updated code t<br>o get domain result with onresultcallb<br>ack by @dogancanbakir in https://githu<br>b.com/projectdiscovery/subfinder/pull/<br>800  * Updated hackertarget source url<br> by @ehsandeep in https://github.com/p<br>rojectdiscovery/subfinder/pull/823    <br>Issues closed in release - https://git<br>hub.com/projectdiscovery/subfinder/mil<br>estone/6?closed=1    ## Deps update   <br> * chore(deps): bump actions/setup-go <br>from 3 to 4 by @dependabot in https://<br>github.com/projectdiscovery/subfinder/<br>pull/794  * chore(deps): bump github.c<br>om/projectdiscovery/chaos-client from <br>0.5.0 to 0.5.1 in /v2 by @dependabot i<br>n https://github.com/projectdiscovery/<br>subfinder/pull/797  * chore(deps): bum<br>p alpine from 3.17.2 to 3.17.3 by @dep<br>endabot in https://github.com/projectd<br>iscovery/subfinder/pull/801  * chore(d<br>eps): bump github.com/projectdiscovery<br>/utils from 0.0.16 to 0.0.19 in /v2 by<br> @dependabot in https://github.com/pro<br>jectdiscovery/subfinder/pull/802  * ch<br>ore(deps): bump golang from 1.20.1-alp<br>ine to 1.20.3-alpine by @dependabot in<br> https://github.com/projectdiscovery/s<br>ubfinder/pull/803  * chore(deps): bump<br> github.com/rs/xid from 1.4.0 to 1.5.0<br> in /v2 by @dependabot in https://gith<br>ub.com/projectdiscovery/subfinder/pull<br>/804  * chore(deps): bump github.com/l<br>ib/pq from 1.10.7 to 1.10.8 in /v2 by <br>@dependabot in https://github.com/proj<br>ectdiscovery/subfinder/pull/808  * cho<br>re(deps): bump github.com/projectdisco<br>very/utils from 0.0.19 to 0.0.24 in /v<br>2 by @dependabot in https://github.com<br>/projectdiscovery/subfinder/pull/810  <br>* chore(deps): bump github.com/project<br>discovery/utils from 0.0.24 to 0.0.25 <br>in /v2 by @dependabot in https://githu<br>b.com/projectdiscovery/subfinder/pull/<br>818  * chore(deps): bump github.com/li<br>b/pq from 1.10.8 to 1.10.9 in /v2 by @<br>dependabot in https://github.com/proje<br>ctdiscovery/subfinder/pull/821  * chor<br>e(deps): bump github.com/projectdiscov<br>ery/utils from 0.0.25 to 0.0.26 in /v2<br> by @dependabot in https://github.com/<br>projectdiscovery/subfinder/pull/826  *<br> chore(deps): bump github.com/projectd<br>iscovery/dnsx from 1.1.3 to 1.1.4 in /<br>v2 by @dependabot in https://github.co<br>m/projectdiscovery/subfinder/pull/825 <br>   ## New Contributors  * @gboddin mad<br>e their first contribution in https://<br>github.com/projectdiscovery/subfinder/<br>pull/793  * @chushuai made their first<br> contribution in https://github.com/pr<br>ojectdiscovery/subfinder/pull/816    *<br>*Full Changelog**: https://github.com/<br>projectdiscovery/subfinder/compare/v2.<br>5.7...v2.5.8|
 |2023-04-30 15:08:56|[naabu](https://github.com/projectdiscovery/naabu)|v2.1.6|## What's Changed  * Fixed an issue w<br>ith -ec option by @RamanaReddy0M in ht<br>tps://github.com/projectdiscovery/naab<br>u/pull/637  * Fixed an issue with -eh <br>option by @iamargus95 in https://githu<br>b.com/projectdiscovery/naabu/pull/640 <br> * Fixed an issue with -stats option b<br>y @Mzack9999 in https://github.com/pro<br>jectdiscovery/naabu/pull/639    Issues<br> closed in this release - https://gith<br>ub.com/projectdiscovery/naabu/mileston<br>e/7    ## New Contributors  * @iamargu<br>s95 made their first contribution in h<br>ttps://github.com/projectdiscovery/naa<br>bu/pull/640    **Full Changelog**: htt<br>ps://github.com/projectdiscovery/naabu<br>/compare/v2.1.5...v2.1.6|
 |2023-04-29 20:03:26|[sweetPotato](https://github.com/z2p/sweetPotato)|version<br>1.6|# 更新日志  ## version1.6  ### 新增  <br>1. 已识别组件的目录扫描优化（使用特定<br>字典且会进行关键字验证，例如识别到是Web<br>Logic会自动去访问/console，并进行关键<br>字验证）    ### 优化  1. 脆弱性分析增加<br>过滤，不会对所有类型进行分析（例如jpg）<br>  2. 优化和增加部份指纹  3. 默认开启已<br>识别组件的目录扫描|
 |2023-04-29 13:37:52|[Viper](https://github.com/FunnyWolf/Viper)|v1.5.27|## v1.5.27 20230429  ### 新功能  - 新<br>增基础LoaderShellcode分离免杀(Linux)模<br>块  ### 优化  - 合并metasploit-framewor<br>k 6.3.15版本  ### Bugfix  - 修复Python<br>类型payload无法上线问题  - 修复命令终端<br>输出中文报错问题(提示执行超时)  - 修复S<br>ession通信信道功能无法使用问题|
@@ -42,13 +43,19 @@
 |2023-04-19 04:40:00|[noterce](https://github.com/xiao-zhu-zhu/noterce)|v1.2|修复被控端不能更改note地址的bug    感<br>谢Explo1t师傅反馈|
 |2023-04-18 00:34:58|[domain_hunter_pro](https://github.com/bit4woo/domain_hunter_pro)|v1.9|全局：  多个bug修复  布局模式优化  基<br>础方法实现逻辑优化    右键菜单：  “Do <br>Search”提供主动在制定请求中进行搜索的<br>能力，比如在某企业邮箱的流量中搜索以提<br>取邮箱地址  “Add Request And Comment”<br>右键菜单添逻辑优化，修复一个bug  “Send<br> To Tool Panel”右键菜单处理逻辑优化，<br>可合并发送多个数据包内容    Domain面板<br>：  root domain的comments逻辑更新  提供<br>多个网络搜索引擎的后台自动搜索功能  roo<br>t domain双击，自动在浏览器中访问  修改<br>目标根域名删除失败的bug  显示序号，以便<br>在排序后恢复原始顺序    Tool面板：  重<br>写JTextArea的paste函数，避免大内容导致<br>程序卡死  JTextArea支持输入文件，而程序<br>处理其内容。  文本取提供简单的历史记录<br>功能  JSON提取逻辑优化  新增多个功能，<br>比如排序  优化URL提取逻辑，避免遗漏没有<br>以/开头的path    Title面板中：  端口扫<br>描命令生成逻辑优化  备注和IP内容的显示<br>优化，显示前排序  备注添加逻辑优化  给<br>手动添加的记录添加已知的IP和CNAME、Cert<br>Info  搜索功能增强，支持对数字型字段进<br>行大于、小于、等于等搜索  添加多个搜索<br>实例，以便用户熟悉搜索语法  新增“Do Re<br>quest Item Again”菜单，对DNS记录或无<br>响应的数据包进行再次请求|
 |2023-04-17 01:16:06|[AV_Evasion_Tool](https://github.com/1y0n/AV_Evasion_Tool)|2023041<br>7|1. 效果优化|
-|2023-04-16 22:40:19|[SSTImap](https://github.com/vladko312/SSTImap)|v1.1|- Crawler and form detection (by @fan<br>tesykikachu)  - New template engine ad<br>ded: Cheetah  - Automatic import for e<br>ngine modules  - Interactive module re<br>loading capability  - Full support for<br> Python 3.11  - Replaced telnetlib wit<br>h a custom TCP client|
-|2023-04-16 12:00:25|[WeblogicTool](https://github.com/KimJun1010/WeblogicTool)|v1.0||
 ## 近15天commit提交记录
 | 提交时间 | 项目名称 | 更新内容 |
 | :---- | :---- | :---- |
-|2023-05-01 00:30:16|[NucleiTP](https://github.com/ExpLangcn/NucleiTP)|更新啦❤️|
-|2023-04-30 23:07:22|[PocOrExp_in_Githu<br>b](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-05-01 07:07:22|
+|2023-05-02 00:30:16|[NucleiTP](https://github.com/ExpLangcn/NucleiTP)|更新啦❤️|
+|2023-05-01 23:08:38|[PocOrExp_in_Githu<br>b](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-05-02 07:08:38|
+|2023-05-01 21:48:16|[WebGoat](https://github.com/WebGoat/WebGoat)|chore: bump jacoco-maven-plugin from 0.8.8 to 0.8.1<br>0  Bumps  from 0.8.8 to 0.8.10. -  -   --- updated-d<br>ependencies: - dependency-name: org.jacoco:jacoco-ma<br>ven-plugin   dependency-type: direct:production   up<br>date-type: version-update:semver-patch ...  Signed-o<br>ff-by: dependabot[bot] |
+|2023-05-01 14:19:58|[syft](https://github.com/anchore/syft)|rename sbom.PackageCatalog to sbom.Packages (#1773)<br>  Signed-off-by: Alex Goodman |
+|2023-05-01 13:29:59|[safeline](https://github.com/chaitin/safeline)|Merge pull request #54 from guanweiwang/main  feat:<br> Added markdown group automatically generated|
+|2023-05-01 13:24:14|[subfinder](https://github.com/projectdiscovery/subfinder)|Merge pull request #827 from projectdiscovery/dev  <br>subfinder v2.5.8|
+|2023-05-01 08:23:49|[Pentest-Windows](https://github.com/arch3rPro/Pentest-Windows)|Update README.md|
+|2023-05-01 07:46:06|[sqlmap](https://github.com/sqlmapproject/sqlmap)|Fixes #5409|
+|2023-05-01 05:46:33|[PeiQi-WIKI-Book](https://github.com/PeiQi0/PeiQi-WIKI-Book)|漏洞相关:Apache Superset,Druid|
+|2023-05-01 03:11:04|[DNSlog-GO](https://github.com/lanyi1998/DNSlog-GO)|fix: bulkVerifyDns数据重复问题|
 |2023-04-30 15:04:25|[naabu](https://github.com/projectdiscovery/naabu)|Merge pull request #654 from projectdiscovery/dev  <br>naabu v2.1.6|
 |2023-04-30 13:21:47|[neuvector](https://github.com/neuvector/neuvector)|Merge pull request #773 from gfsuse/main  NVSHAS-78<br>50, align field correctly to get right session infor<br>mation|
 |2023-04-30 08:48:52|[Dude](https://github.com/x364e3ab6/Dude)|Update README.md|
@@ -70,9 +77,7 @@
 |2023-04-28 02:53:39|[veinmind-tools](https://github.com/chaitin/veinmind-tools)|fix: walk error (#231)  * fix: walk error    * fix:<br> upgrade libveinmind|
 |2023-04-27 19:56:24|[SSTImap](https://github.com/vladko312/SSTImap)|Version 1.1.1 (Improvements)  Improved config funct<br>ionality  Fixed crawling changing settings  Fixed au<br>tomatic imports  Added warning for new python versio<br>ns    A minor update with simple improvements and fi<br>xes|
 |2023-04-27 17:18:09|[PEASS-ng](https://github.com/carlospolop/PEASS-ng)|Merge pull request #355 from wonda-tea-coffee/fix-l<br>ink  fix hacktricks link|
-|2023-04-27 15:58:59|[syft](https://github.com/anchore/syft)|chore(deps): bump modernc.org/sqlite from 1.22.0 to<br> 1.22.1 (#1768)  Bumps  from 1.22.0 to 1.22.1.  -   <br>-     ---  updated-dependencies:  - dependency-name:<br> modernc.org/sqlite    dependency-type: direct:produ<br>ction    update-type: version-update:semver-patch  .<br>..    Signed-off-by: dependabot[bot]   Co-authored-b<br>y: dependabot[bot] |
 |2023-04-27 15:12:15|[faker](https://github.com/joke2k/faker)|Bump version: 18.5.1 → 18.6.0|
-|2023-04-27 13:20:05|[safeline](https://github.com/chaitin/safeline)|feat: add upgration instruction|
 |2023-04-27 08:45:04|[code6](https://github.com/4x99/code6)|Update README.md|
 |2023-04-27 08:24:29|[CodeQLpy](https://github.com/webraybtl/CodeQLpy)|修复路径中有空格导致的ecj编译失败|
 |2023-04-27 04:52:59|[AsamF](https://github.com/Kento-Sec/AsamF)|Update README.md|
@@ -80,7 +85,6 @@
 |2023-04-27 01:16:05|[Exp-Tools](https://github.com/cseroad/Exp-Tools)|Update README.md|
 |2023-04-27 00:35:58|[feroxbuster](https://github.com/epi052/feroxbuster)|Merge pull request #889 from epi052/all-contributor<br>s/add-lavafroth  docs: add lavafroth as a contributo<br>r for code, and ideas|
 |2023-04-26 14:29:38|[log4j2burpscanner](https://github.com/f0ng/log4j2burpscanner)|Update README.md|
-|2023-04-26 13:18:52|[PeiQi-WIKI-Book](https://github.com/PeiQi0/PeiQi-WIKI-Book)|漏洞相关:JeecgBoot,KubeOperator,KubePi|
 |2023-04-26 10:21:08|[appshark](https://github.com/bytedance/appshark)|bugfix: profiler serve delay when CPU is overload.|
 |2023-04-26 02:03:35|[ApoalypseSecTools](https://github.com/ApocalypseSec/ApoalypseSecTools)|Update README.md|
 |2023-04-25 21:26:26|[slowhttptest](https://github.com/shekyan/slowhttptest)|updated Dockerfile to use Alpine 3.17 from issue #8<br>0 (#81)  Co-authored-by: Brian Riffle |
@@ -93,7 +97,6 @@
 |2023-04-24 18:29:30|[clair](https://github.com/quay/clair)|chore: Remove 1.19  Updating the go version CI matr<br>ix as we bumped the go.mod go directive to 1.20 and <br>are relying on some 1.20 features for upcoming chang<br>es.  Signed-off-by: crozzy |
 |2023-04-24 14:14:31|[K8tools](https://github.com/k8gege/K8tools)|Add files via upload|
 |2023-04-24 14:03:52|[Ladon](https://github.com/k8gege/Ladon)|Add files via upload|
-|2023-04-24 13:06:57|[sqlmap](https://github.com/sqlmapproject/sqlmap)|Disabled hostname and certificate validation for TL<br>Sv1.3 support. (#5395)|
 |2023-04-24 13:04:07|[Antenna](https://github.com/wuba/Antenna)|Merge pull request #117 from wuba/develop  Develop|
 |2023-04-24 09:48:09|[NextScan](https://github.com/tongcheng-security-team/NextScan)|Update README.md|
 |2023-04-24 09:21:41|[aksk_tool](https://github.com/wyzxxz/aksk_tool)|Update README.md|
@@ -113,7 +116,6 @@
 |2023-04-22 09:47:26|[SmsForwarder](https://github.com/pppscn/SmsForwarder)|修复：CactusSave中SharedPreference的键值对应错误 #2<br>94|
 |2023-04-22 08:34:27|[OneScan](https://github.com/vaycore/OneScan)|针对1.0.0版本更新README说明文档及截图|
 |2023-04-21 15:19:18|[ffuf](https://github.com/ffuf/ffuf)|Fix md output format (#672)  * Fix MD output    * A<br>dd CHANGELOG.md entry|
-|2023-04-21 07:09:50|[Pentest-Windows](https://github.com/arch3rPro/Pentest-Windows)|Update README.md|
 |2023-04-21 06:44:01|[swagger-exp](https://github.com/lijiejie/swagger-exp)|Merge pull request #13 from lanyi1998/master  feat:<br>support mac|
 |2023-04-21 02:28:30|[HackBrowserData](https://github.com/moonD4rk/HackBrowserData)|Merge pull request #213 from liumingxing/master  Su<br>pport SessionStorage export|
 |2023-04-20 15:04:09|[BurpSuite-collect<br>ions](https://github.com/Mr-xn/BurpSuite-collections)|add burpsuite_hack、BypassPro插件|
@@ -130,7 +132,6 @@
 |2023-04-17 14:33:13|[WeblogicTool](https://github.com/KimJun1010/WeblogicTool)|Update README.md|
 |2023-04-17 08:34:38|[v2rayA](https://github.com/v2rayA/v2rayA)|Merge pull request #917 from Gh0u1L5/feat_v5|
 |2023-04-17 07:42:21|[ddddocr](https://github.com/sml2h3/ddddocr)|Update README.md|
-|2023-04-17 07:04:15|[WebGoat](https://github.com/WebGoat/WebGoat)|Fix typo of HijackSession_content0.adoc|
 |2023-04-17 01:34:19|[OneForAll](https://github.com/shmilylty/OneForAll)|Merge pull request #308 from mastomii/adding-massdn<br>s-linux-aarch64  adding "massdns-linux-aarch64"|
 |2023-04-17 01:17:36|[AV_Evasion_Tool](https://github.com/1y0n/AV_Evasion_Tool)|Update README.md|## 所有项目
 # 渗透测试
@@ -148,7 +149,7 @@
 ### 子域名收集
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
-| [subfinder](https://github.com/projectdiscovery/subfinder) | v2.5.7 | Fast passive subdomain enumeration tool. |
+| [subfinder](https://github.com/projectdiscovery/subfinder) | v2.5.8 | Fast passive subdomain enumeration tool. |
 | [ksubdomain](https://github.com/knownsec/ksubdomain) | v0.7 | 无状态子域名爆破工具 |
 | [OneForAll](https://github.com/shmilylty/OneForAll) | v0.4.5 | OneForAll是一款功能强大的子域收集工具 |
 | [LangSrcCurise](https://github.com/LangziFun/LangSrcCurise) |  | SRC子域名资产监控 |
