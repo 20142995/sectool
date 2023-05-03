@@ -200,8 +200,8 @@
     "https://github.com/ycdxsb/PocOrExp_in_Github": {
         "created_at": "2021-04-13 05:46:16",
         "description": "聚合Github上已有的Poc或者Exp，CVE信息来自CVE官网。Auto Collect Poc Or Exp from Github by CVE ID.",
-        "commit_date": "2023-05-01 23:08:38",
-        "commit_message": "update 2023-05-02 07:08:38",
+        "commit_date": "2023-05-02 22:21:11",
+        "commit_message": "update 2023-05-03 06:21:11",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -461,7 +461,7 @@
     "https://github.com/ExpLangcn/NucleiTP": {
         "created_at": "2022-11-08 13:16:56",
         "description": "自动整合全网Nuclei的漏洞POC，实时同步更新最新POC！",
-        "commit_date": "2023-05-02 00:30:16",
+        "commit_date": "2023-05-03 00:30:19",
         "commit_message": "更新啦❤️",
         "release_tag": "",
         "release_date": "",
@@ -1735,8 +1735,8 @@
     "https://github.com/chaitin/veinmind-tools": {
         "created_at": "2022-02-08 08:12:15",
         "description": "veinmind-tools 是由长亭科技自研，基于 veinmind-sdk 打造的容器安全工具集",
-        "commit_date": "2023-04-28 02:53:39",
-        "commit_message": "fix: walk error (#231)\n\n* fix: walk error\r\n\r\n* fix: upgrade libveinmind",
+        "commit_date": "2023-05-02 06:00:38",
+        "commit_message": "update: update deprecated func and clean Dockerfile (#232)\n\n* chore: update deprecated func and clean Dockerfile\r\n\r\n* chore: update dep",
         "release_tag": "v2.1.2",
         "release_date": "2023-04-25 04:01:24",
         "release_message": "## Feature\r\n* feat(veinmind-weakpass): support ftp @ek1ng in https://github.com/chaitin/veinmind-tools/pull/226\r\n* feat(veinmind-iac): add dockerfile security detection by @ek1ng in https://github.com/chaitin/veinmind-tools/pull/228\r\n\r\n## Fix\r\n* fix(ai): ignore basic info analyzer by @DVKunion in https://github.com/chaitin/veinmind-tools/pull/218\r\n* fix(Makefile): add CGO_ENBALED && update(dependency): update dependency version by @ek1ng in https://github.com/chaitin/veinmind-tools/pull/221\r\n* fix(CI/CD): change goproxy settings by @ek1ng in https://github.com/chaitin/veinmind-tools/pull/222\r\n\r\n## Others\r\n* doc: update README.md by @DVKunion in https://github.com/chaitin/veinmind-tools/pull/219\r\n\r\n## New Contributors\r\n* @ek1ng made their first contribution in https://github.com/chaitin/veinmind-tools/pull/221\r\n\r\n**Full Changelog**: https://github.com/chaitin/veinmind-tools/compare/v2.1.1...v2.1.2"
@@ -2951,8 +2951,8 @@
     "https://github.com/dbeaver/dbeaver": {
         "created_at": "2015-10-21 08:26:28",
         "description": "Free universal database tool and SQL client",
-        "commit_date": "2023-04-28 16:37:11",
-        "commit_message": "Clickhouse data type cache fix",
+        "commit_date": "2023-05-02 15:26:48",
+        "commit_message": "#19502 Result Set Viewer bottom toolbar customization (#19680)\n\n* #19502 Add customization to the bottom result set toolbar\r\n\r\n* #19502 Fix data editor bottom toolbar layout on customize\r\n\r\n* #19502 Use event listener for toolbar relayout\r\n\r\n* #19502 Fix code style\r\n\r\n* #19502 Fix code style\r\n\r\n* #19502 USe IPropertyListener instead of Consumer\r\n\r\n* #19502 Fix NPE\r\n\r\n---------\r\n\r\nCo-authored-by: MashaKorax <84867187+MashaKorax@users.noreply.github.com>\r\nCo-authored-by: Dziyana <31996417+uslss@users.noreply.github.com>\r\nCo-authored-by: Serge Rider <serge@jkiss.org>",
         "release_tag": "23.0.3",
         "release_date": "2023-04-24 07:05:15",
         "release_message": "\n                - General UI:\n                    - Issue with zoom in and out with Ctrl++ and Ctrl+- in SQL Editor and Data gird was fixed\n                    - ER Diagram font now depends on the Main font\n                    - A lot of UI rendering improvements were made\n                - SQL Editor:\n                    - Moving with Ctrl+Right/Left now considers words with an underscore and a dollar as a whole word (configurable)\n                    - Autocomplete for mixed-case was improved\n                    - Issue with crashing when closing the SQL Editor tab was fixed\n                    - Order by parsing was improved\n                - AI: issue with changing settings was fixed\n                - Data Editor:\n                    - Data filters support in the Grouping panel was added\n                    - Opening TXT, JSON, and XML files in external editors was improved on macOS and Linux\n                    - Rendering of non-display characters was improved\n                    - Issue with disappearing filter option, when a query returns nothing, was fixed\n                    - Microseconds epoch transformer was added (thanks to @BobrPetr)\n                    - Database Navigator: issue with creating a new view was fixed\n                 - Data transfer:\n                    - Issue with set max column length when exporting in TXT was fixed\n                    - Issue with export JSON to TXT was fixed\n                - Databases:\n                    - Firebird: recognition of procedure parameter data types was improved\n                    - SQLite: issue with database synchronization with the server was fixed\n                    - Redshift: issue with renaming a view in Database Navigator was fixed\n                    - MySQL: issue with the empty privileges list was fixed\n                    - Snowflake: displaying the creation time of Snowflake views was added\n                    - TiDB Cloud: telemetry support was added (thanks to @Icemap)\n                    - PostgreSQL: array presentation was improved\n                - Localization of Brazilian Portuguese was improved (thanks to @brlarini)\n            "
@@ -3050,11 +3050,11 @@
     "https://github.com/zan8in/afrog": {
         "created_at": "2022-02-24 06:00:32",
         "description": "A Vulnerability Scanning Tools For Penetration Testing",
-        "commit_date": "2023-04-28 09:23:07",
+        "commit_date": "2023-05-02 10:55:35",
         "commit_message": "update",
-        "release_tag": "v2.2.3",
-        "release_date": "2023-04-22 13:09:02",
-        "release_message": "optimization:\r\n- Customizable html report report generation directory\r\n\r\nPoC:\r\n- Added 22 PoCs\r\n\r\n-----------------\r\n\r\n优化：\r\n- 可自定义 html report 报告生成目录\r\n\r\nPoC:\r\n- 新增 22 PoC"
+        "release_tag": "v2.3.0",
+        "release_date": "2023-05-02 11:06:03",
+        "release_message": "Added:\r\n- command -poc-detail / -pd, view poc details (full file name, no suffix)\r\n- Command -monitor-targets / -mt, monitor target survival in real time during scanning, enabled by default\r\n\r\nOptimization:\r\n- Command -poc-list / -pl, view poc list (file name, vulnerability name, vulnerability level and author)\r\n- ----------------\r\n新增：\r\n- 命令 -poc-detail  / -pd，查看 poc 详情 (完整文件名，后缀可无)\r\n- 命令 -monitor-targets / -mt，在扫描中实时监控目标存活，默认开启\r\n\r\n优化：\r\n- 命令 -poc-list / -pl，查看 poc 列表（文件名、漏洞名、漏洞等级和作者）"
     },
     "https://github.com/moonD4rk/HackBrowserData": {
         "created_at": "2020-06-18 03:24:31",
@@ -3192,11 +3192,11 @@
     "https://github.com/joke2k/faker": {
         "created_at": "2012-11-12 23:00:09",
         "description": "Faker is a Python package that generates fake data for you.",
-        "commit_date": "2023-04-27 15:12:15",
-        "commit_message": "Bump version: 18.5.1 → 18.6.0",
-        "release_tag": "v18.6.0",
-        "release_date": "2023-04-27 15:13:22",
-        "release_message": "See [CHANGELOG.md](https://github.com/joke2k/faker/blob/refs/tags/v18.6.0/CHANGELOG.md)."
+        "commit_date": "2023-05-02 14:08:25",
+        "commit_message": "Bump version: 18.6.0 → 18.6.1",
+        "release_tag": "v18.6.1",
+        "release_date": "2023-05-02 14:09:13",
+        "release_message": "See [CHANGELOG.md](https://github.com/joke2k/faker/blob/refs/tags/v18.6.1/CHANGELOG.md)."
     },
     "https://github.com/NHPT/Xray_Cracked": {
         "created_at": "2022-08-10 13:51:19",
@@ -3888,8 +3888,8 @@
     "https://github.com/neuvector/neuvector": {
         "created_at": "2021-12-17 20:15:03",
         "description": "",
-        "commit_date": "2023-04-30 13:21:47",
-        "commit_message": "Merge pull request #773 from gfsuse/main\n\nNVSHAS-7850, align field correctly to get right session information",
+        "commit_date": "2023-05-03 00:17:23",
+        "commit_message": "Merge pull request #778 from williamlin-suse/main\n\nNVSHAS-7621: Add Setting in NeuVector so administrator can configure …",
         "release_tag": "v5.1.2",
         "release_date": "2023-03-27 22:10:50",
         "release_message": "Support cri-o 1.26+ and OpenShift 4.11+\r\nEnable auto scan in configMap\r\nMake gravatar optional\r\nHostname based egress network policy\r\nDisplay cluster namespace resource in UI\r\nVarious of performance and scalability improvements"
@@ -3906,8 +3906,8 @@
     "https://github.com/anchore/syft": {
         "created_at": "2020-05-07 18:19:29",
         "description": "CLI tool and library for generating a Software Bill of Materials from container images and filesystems",
-        "commit_date": "2023-05-01 14:19:58",
-        "commit_message": "rename sbom.PackageCatalog to sbom.Packages (#1773)\n\nSigned-off-by: Alex Goodman <alex.goodman@anchore.com>",
+        "commit_date": "2023-05-02 20:52:18",
+        "commit_message": "chore: add more detail on SPDX file IDs (#1769)",
         "release_tag": "v0.79.0",
         "release_date": "2023-04-21 16:24:14",
         "release_message": "# Changelog\r\n\r\n## [v0.79.0](https://github.com/anchore/syft/tree/v0.79.0) (2023-04-21)\r\n\r\n[Full Changelog](https://github.com/anchore/syft/compare/v0.78.0...v0.79.0)\r\n\r\n### Added Features\r\n\r\n- Add ALPM Metadata to CYCLONEDX and SPDX output formats [[Issue #1037](https://github.com/anchore/syft/issues/1037)] [[PR #1747](https://github.com/anchore/syft/pull/1747)] [[Shanedell](https://github.com/Shanedell)]\r\n- consul binary classifier [[Issue #1590](https://github.com/anchore/syft/issues/1590)] [[PR #1738](https://github.com/anchore/syft/pull/1738)] [[Shanedell](https://github.com/Shanedell)]\r\n\r\n### Bug Fixes\r\n\r\n- Syft missing direct dependencies from the gemfile.lock [[Issue #1660](https://github.com/anchore/syft/issues/1660)] [[PR #1749](https://github.com/anchore/syft/pull/1749)] [[Shanedell](https://github.com/Shanedell)]\r\n\r\n### Additional Changes\r\n\r\n- chore: bump stereoscope to latest version [[PR #1741](https://github.com/anchore/syft/pull/1741)] [[westonsteimel](https://github.com/westonsteimel)]\r\n\r\n\r\n\r\n"
@@ -3978,8 +3978,8 @@
     "https://github.com/anchore/grype": {
         "created_at": "2020-05-26 13:44:38",
         "description": "A vulnerability scanner for container images and filesystems",
-        "commit_date": "2023-04-28 14:10:29",
-        "commit_message": "Install skopeo during bootstrap (#1260)\n\nThe \"make integration\" target assumes that skopeo will be available on\r\nPATH, but this wasn't documented. Install it during bootstrap when other\r\nutilities are installed. (See ./test/integration/utils_test.go:50).\r\nInclude a sample skopeo policy.json, otherwise skopeo will look for a\r\nmissing policy doc a /etc/containers/policy.json and exit with an error.\r\nThe sample policy document matches the one included by default with\r\n\"brew install skopeo\".\r\n\r\nSigned-off-by: Will Murphy <will.murphy@anchore.com>\r\nCo-authored-by: Will Murphy <will.murphy@anchore.com>",
+        "commit_date": "2023-05-02 21:20:47",
+        "commit_message": "docs: add \"cyclonedx-json\" to output formats (#1252)\n\nSigned-off-by: HNKNTA <hnknta@gmail.com>",
         "release_tag": "v0.61.1",
         "release_date": "2023-04-21 17:14:17",
         "release_message": "# Changelog\n\n## [v0.61.1](https://github.com/anchore/grype/tree/v0.61.1) (2023-04-21)\n\n[Full Changelog](https://github.com/anchore/grype/compare/v0.61.0...v0.61.1)\n\n### Bug Fixes\n\n- :grey_question: Parsing dpkg status: extracting key-value from line:  usr/lib/os-release err: cannot parse field [[Issue #1195](https://github.com/anchore/grype/issues/1195)]\n- Grype suggesting to upgrade to a version already used.  [[Issue #1209](https://github.com/anchore/grype/issues/1209)]\n\n### Additional Changes\n\n- feat: add timestamp to json output (#1170) [[PR #1249](https://github.com/anchore/grype/pull/1249)] [[jneate](https://github.com/jneate)]\n\n\n\n"
@@ -4104,7 +4104,7 @@
     "https://github.com/arch3rPro/Pentest-Windows": {
         "created_at": "2022-07-08 02:43:58",
         "description": "Windows11 Penetration Suite Toolkit",
-        "commit_date": "2023-05-01 08:23:49",
+        "commit_date": "2023-05-02 17:07:06",
         "commit_message": "Update README.md",
         "release_tag": "v1.0",
         "release_date": "2023-03-07 07:31:49",
