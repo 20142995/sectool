@@ -200,8 +200,8 @@
     "https://github.com/ycdxsb/PocOrExp_in_Github": {
         "created_at": "2021-04-13 05:46:16",
         "description": "聚合Github上已有的Poc或者Exp，CVE信息来自CVE官网。Auto Collect Poc Or Exp from Github by CVE ID.",
-        "commit_date": "2023-05-02 22:21:11",
-        "commit_message": "update 2023-05-03 06:21:11",
+        "commit_date": "2023-05-03 23:26:24",
+        "commit_message": "update 2023-05-04 07:26:24",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -461,7 +461,7 @@
     "https://github.com/ExpLangcn/NucleiTP": {
         "created_at": "2022-11-08 13:16:56",
         "description": "自动整合全网Nuclei的漏洞POC，实时同步更新最新POC！",
-        "commit_date": "2023-05-03 00:30:19",
+        "commit_date": "2023-05-04 00:30:16",
         "commit_message": "更新啦❤️",
         "release_tag": "",
         "release_date": "",
@@ -1906,7 +1906,7 @@
     "https://github.com/hiroi-sora/Umi-OCR": {
         "created_at": "2022-03-28 04:01:46",
         "description": "OCR图片转文字识别软件，完全离线。截屏/批量导入图片，支持多国语言、合并段落、竖排文字。可排除水印区域，提取干净的文本。基于 PaddleOCR 。",
-        "commit_date": "2023-04-29 04:42:28",
+        "commit_date": "2023-05-03 11:14:19",
         "commit_message": "update",
         "release_tag": "v1.3.4",
         "release_date": "2023-04-25 17:18:33",
@@ -2086,7 +2086,7 @@
     "https://github.com/pingc0y/go_proxy_pool": {
         "created_at": "2022-11-14 07:00:52",
         "description": "无环境依赖开箱即用的代理IP池",
-        "commit_date": "2023-04-23 08:52:16",
+        "commit_date": "2023-05-03 03:33:23",
         "commit_message": "Update README.md",
         "release_tag": "2022.11.22",
         "release_date": "2023-02-26 13:06:58",
@@ -2951,8 +2951,8 @@
     "https://github.com/dbeaver/dbeaver": {
         "created_at": "2015-10-21 08:26:28",
         "description": "Free universal database tool and SQL client",
-        "commit_date": "2023-05-02 15:26:48",
-        "commit_message": "#19502 Result Set Viewer bottom toolbar customization (#19680)\n\n* #19502 Add customization to the bottom result set toolbar\r\n\r\n* #19502 Fix data editor bottom toolbar layout on customize\r\n\r\n* #19502 Use event listener for toolbar relayout\r\n\r\n* #19502 Fix code style\r\n\r\n* #19502 Fix code style\r\n\r\n* #19502 USe IPropertyListener instead of Consumer\r\n\r\n* #19502 Fix NPE\r\n\r\n---------\r\n\r\nCo-authored-by: MashaKorax <84867187+MashaKorax@users.noreply.github.com>\r\nCo-authored-by: Dziyana <31996417+uslss@users.noreply.github.com>\r\nCo-authored-by: Serge Rider <serge@jkiss.org>",
+        "commit_date": "2023-05-03 20:17:02",
+        "commit_message": "dbeaver/dbeaver#19671 improve time handling for MySQL5 and MySQL8 (#19864)\n\n* dbeaver/dbeaver#19671 improve time handling for MySQL5 and MySQL8\r\n\r\nSigned-off-by: Georgii Gvinepadze <fireshowel@gmail.com>\r\n\r\n* dbeaver/dbeaver#19671 remove nested if condition\r\n\r\nSigned-off-by: Georgii Gvinepadze <fireshowel@gmail.com>\r\n\r\n---------\r\n\r\nSigned-off-by: Georgii Gvinepadze <fireshowel@gmail.com>",
         "release_tag": "23.0.3",
         "release_date": "2023-04-24 07:05:15",
         "release_message": "\n                - General UI:\n                    - Issue with zoom in and out with Ctrl++ and Ctrl+- in SQL Editor and Data gird was fixed\n                    - ER Diagram font now depends on the Main font\n                    - A lot of UI rendering improvements were made\n                - SQL Editor:\n                    - Moving with Ctrl+Right/Left now considers words with an underscore and a dollar as a whole word (configurable)\n                    - Autocomplete for mixed-case was improved\n                    - Issue with crashing when closing the SQL Editor tab was fixed\n                    - Order by parsing was improved\n                - AI: issue with changing settings was fixed\n                - Data Editor:\n                    - Data filters support in the Grouping panel was added\n                    - Opening TXT, JSON, and XML files in external editors was improved on macOS and Linux\n                    - Rendering of non-display characters was improved\n                    - Issue with disappearing filter option, when a query returns nothing, was fixed\n                    - Microseconds epoch transformer was added (thanks to @BobrPetr)\n                    - Database Navigator: issue with creating a new view was fixed\n                 - Data transfer:\n                    - Issue with set max column length when exporting in TXT was fixed\n                    - Issue with export JSON to TXT was fixed\n                - Databases:\n                    - Firebird: recognition of procedure parameter data types was improved\n                    - SQLite: issue with database synchronization with the server was fixed\n                    - Redshift: issue with renaming a view in Database Navigator was fixed\n                    - MySQL: issue with the empty privileges list was fixed\n                    - Snowflake: displaying the creation time of Snowflake views was added\n                    - TiDB Cloud: telemetry support was added (thanks to @Icemap)\n                    - PostgreSQL: array presentation was improved\n                - Localization of Brazilian Portuguese was improved (thanks to @brlarini)\n            "
@@ -3095,11 +3095,11 @@
     "https://github.com/projectdiscovery/nuclei": {
         "created_at": "2020-04-03 18:47:11",
         "description": "Fast and customizable vulnerability scanner based on simple YAML based DSL.",
-        "commit_date": "2023-04-19 22:46:46",
-        "commit_message": "Merge pull request #3573 from projectdiscovery/dev\n\nnuclei v2.9.2",
-        "release_tag": "v2.9.2",
-        "release_date": "2023-04-19 22:48:02",
-        "release_message": "## What's Changed\r\n\r\n* **Added `llm_prompt` as dsl helper** by @Mzack9999 in https://github.com/projectdiscovery/nuclei/issues/3480\r\n```yaml\r\nllm_prompt(\"what tech this server is using? return idk if you dont know\" + header)\r\n```\r\n\r\n* Added **azure blob storage** support for custom template download by @kchason in https://github.com/projectdiscovery/nuclei/pull/3542\r\n* Added **gitlab project** support for custom template download  by @kchason in https://github.com/projectdiscovery/nuclei/pull/3570\r\n* **Added CPE / EPSS Score information to cve-annotation**  by @sduc in https://github.com/projectdiscovery/nuclei/pull/3486\r\n* **Added variable evaluation support in payloads & variables** by @ShubhamRasal in https://github.com/projectdiscovery/nuclei/pull/3503\r\n* **Added config management + logic refactor** by @tarunKoyalwar in https://github.com/projectdiscovery/nuclei/pull/3567\r\n* Added JSONL(ine) Export (#3504) by @kchason in https://github.com/projectdiscovery/nuclei/pull/3505\r\n```console\r\n   -je, -json-export string  file to export results in JSON format\r\n```\r\n* Fixed bug in http race condition logic by @ShubhamRasal in https://github.com/projectdiscovery/nuclei/pull/3533\r\n* Fixed s3 argument typos by @kchason in https://github.com/projectdiscovery/nuclei/pull/3536\r\n* Fixed integration test by @tarunKoyalwar in https://github.com/projectdiscovery/nuclei/pull/3506\r\n* Fixed rate limit options not working with query fuzzing by @RamanaReddy0M in https://github.com/projectdiscovery/nuclei/pull/3532\r\n* Fixed panic crash in tlsx by @ehsandeep in https://github.com/projectdiscovery/nuclei/pull/3554\r\n* Fixed panic with proxy input by @tarunKoyalwar in https://github.com/projectdiscovery/nuclei/pull/3526\r\n* Updated `-nc` option by @dogancanbakir in https://github.com/projectdiscovery/nuclei/pull/3539\r\n* Updated `ccache` with generic gcache by @Mzack9999 in https://github.com/projectdiscovery/nuclei/pull/3523\r\n* Updated `-un` option to `-up` as a short flag of self-update option by @ehsandeep in https://github.com/projectdiscovery/nuclei/pull/3573\r\n\r\nIssues closed in this release - https://github.com/projectdiscovery/nuclei/milestone/29?closed=1\r\n\r\n## New Contributors\r\n* @sduc made their first contribution in https://github.com/projectdiscovery/nuclei/pull/3486\r\n* @dogancanbakir made their first contribution in https://github.com/projectdiscovery/nuclei/pull/3539\r\n\r\n**Full Changelog**: https://github.com/projectdiscovery/nuclei/compare/v2.9.1...v2.9.2"
+        "commit_date": "2023-05-03 20:26:05",
+        "commit_message": "Merge pull request #3640 from projectdiscovery/dev\n\nnuclei v2.9.3 (bugfix release)",
+        "release_tag": "v2.9.3",
+        "release_date": "2023-05-03 20:44:41",
+        "release_message": "## What's Changed\r\n\r\n* Added support to expose dns response as dsl field by @ShubhamRasal in https://github.com/projectdiscovery/nuclei/pull/3613\r\n* Added support to filter templates based on classification by @iamargus95 in https://github.com/projectdiscovery/nuclei/pull/3606\r\n* Added check to make `severity` as mandatory field by @dogancanbakir in https://github.com/projectdiscovery/nuclei/pull/3540\r\n* Added support to load templates deprecated path by @tarunKoyalwar in https://github.com/projectdiscovery/nuclei/pull/3635\r\n* Fixed nil pointer crash in interactsh client by @Mzack9999 in https://github.com/projectdiscovery/nuclei/pull/3590\r\n* Fixed crash with tlsx integration by @ehsandeep in https://github.com/projectdiscovery/nuclei/pull/3620\r\n* Fixed crash with `no-interactsh` option by @ehsandeep in https://github.com/projectdiscovery/nuclei/pull/3621\r\n* Fixed panic while parsing tlsx response by @tarunKoyalwar in https://github.com/projectdiscovery/nuclei/pull/3641\r\n* Fixed issue with params in self-contained template by @tarunKoyalwar in https://github.com/projectdiscovery/nuclei/pull/3608\r\n* Fixed issue with aws signer by @tarunKoyalwar in https://github.com/projectdiscovery/nuclei/pull/3601\r\n* Fixed issue with os permission check by @iamargus95 in https://github.com/projectdiscovery/nuclei/pull/3631\r\n* Fixed issue with no color in windows by @ehsandeep in https://github.com/projectdiscovery/nuclei/pull/3634\r\n* Fixed issue with variables evaluation by @ShubhamRasal in https://github.com/projectdiscovery/nuclei/pull/3599\r\n* Fixed issue to support headless template on OpenBSD by @lu4nx in https://github.com/projectdiscovery/nuclei/pull/3637\r\n\r\nIssues closed in this release - https://github.com/projectdiscovery/nuclei/milestone/30\r\n\r\n## New Contributors\r\n* @MetzinAround made their first contribution in https://github.com/projectdiscovery/nuclei/pull/3579\r\n* @iamargus95 made their first contribution in https://github.com/projectdiscovery/nuclei/pull/3606\r\n* @lu4nx made their first contribution in https://github.com/projectdiscovery/nuclei/pull/3637\r\n\r\n**Full Changelog**: https://github.com/projectdiscovery/nuclei/compare/v2.9.2...v2.9.3"
     },
     "https://github.com/sleeyax/burp-awesome-tls": {
         "created_at": "2022-01-24 00:30:26",
@@ -3192,11 +3192,11 @@
     "https://github.com/joke2k/faker": {
         "created_at": "2012-11-12 23:00:09",
         "description": "Faker is a Python package that generates fake data for you.",
-        "commit_date": "2023-05-02 14:08:25",
-        "commit_message": "Bump version: 18.6.0 → 18.6.1",
-        "release_tag": "v18.6.1",
-        "release_date": "2023-05-02 14:09:13",
-        "release_message": "See [CHANGELOG.md](https://github.com/joke2k/faker/blob/refs/tags/v18.6.1/CHANGELOG.md)."
+        "commit_date": "2023-05-03 22:28:31",
+        "commit_message": "Bump version: 18.6.1 → 18.6.2",
+        "release_tag": "v18.6.2",
+        "release_date": "2023-05-03 22:29:33",
+        "release_message": "See [CHANGELOG.md](https://github.com/joke2k/faker/blob/refs/tags/v18.6.2/CHANGELOG.md)."
     },
     "https://github.com/NHPT/Xray_Cracked": {
         "created_at": "2022-08-10 13:51:19",
@@ -3888,8 +3888,8 @@
     "https://github.com/neuvector/neuvector": {
         "created_at": "2021-12-17 20:15:03",
         "description": "",
-        "commit_date": "2023-05-03 00:17:23",
-        "commit_message": "Merge pull request #778 from williamlin-suse/main\n\nNVSHAS-7621: Add Setting in NeuVector so administrator can configure …",
+        "commit_date": "2023-05-03 19:29:09",
+        "commit_message": "Merge pull request #782 from becitsthere/work\n\nNVSHAS-6182: Support golang dependency vulnerability scan",
         "release_tag": "v5.1.2",
         "release_date": "2023-03-27 22:10:50",
         "release_message": "Support cri-o 1.26+ and OpenShift 4.11+\r\nEnable auto scan in configMap\r\nMake gravatar optional\r\nHostname based egress network policy\r\nDisplay cluster namespace resource in UI\r\nVarious of performance and scalability improvements"
@@ -3951,8 +3951,8 @@
     "https://github.com/quay/clair": {
         "created_at": "2015-11-13 18:46:16",
         "description": "Vulnerability Static Analysis for Containers",
-        "commit_date": "2023-04-24 18:29:30",
-        "commit_message": "chore: Remove 1.19\n\nUpdating the go version CI matrix as we bumped the go.mod go directive\nto 1.20 and are relying on some 1.20 features for upcoming changes.\n\nSigned-off-by: crozzy <joseph.crosland@gmail.com>",
+        "commit_date": "2023-05-03 18:15:23",
+        "commit_message": "chore: add gomod ecosystems to dependabot\n\nSimilar to claircore, add the go.mod files in the project to\ndependabot.\n\nSigned-off-by: crozzy <joseph.crosland@gmail.com>",
         "release_tag": "v4.6.1",
         "release_date": "2023-04-13 18:29:02",
         "release_message": "<a name=\"unreleased\"></a>\n## [Unreleased]\n\n\n<a name=\"v4.6.1\"></a>\n## [v4.6.1] - 2023-04-13\n### Airgap\n- [e02aba27](https://github.com/quay/clair/commit/e02aba27de01cb461f79bee9644aac80c2f9bd65): Remove libindex Airgap option\n### Chore\n- [36990912](https://github.com/quay/clair/commit/36990912450fba2ccbef260a4829f1d9f69f45c6): v4.6.1 changelog bump\n- [e676671c](https://github.com/quay/clair/commit/e676671c17d2612470cd8de05aa668312fbb3036): Bump Claircore to v1.4.21\n### Go.Mod\n- [36de97cc](https://github.com/quay/clair/commit/36de97ccf619113b1ef4dff6bfd0e0c692252544): update json (de)serializer\n### Httptransport\n- [922f33d1](https://github.com/quay/clair/commit/922f33d18919578049fbf2ccb756e6990b66f280): fix request_id logging\n### Httputil\n- [9e8eacf5](https://github.com/quay/clair/commit/9e8eacf51b2a45f967036396b3dc14a52edc480d): fix ParseIP usage\n -  [#1689](https://github.com/quay/clair/issues/1689)### Notifier\n- [ffa4556d](https://github.com/quay/clair/commit/ffa4556d0f251cc984ed34594356625b9b747744): Avoid double reference\n\n[Unreleased]: https://github.com/quay/clair/compare/v4.6.1...HEAD\n[v4.6.1]: https://github.com/quay/clair/compare/v4.6.0...v4.6.1\n"
@@ -3969,11 +3969,11 @@
     "https://github.com/aquasecurity/trivy": {
         "created_at": "2019-04-11 01:01:07",
         "description": "Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more",
-        "commit_date": "2023-04-28 04:16:21",
-        "commit_message": "fix(spdx): add workaround for no src packages (#4118)",
+        "commit_date": "2023-05-03 09:23:58",
+        "commit_message": "chore(deps): bump golang.org/x/crypto from 0.7.0 to 0.8.0 (#4149)",
         "release_tag": "v0.41.0",
         "release_date": "2023-04-28 06:00:39",
-        "release_message": "## Changelog\n* 1be1e2e63 fix(spdx): add workaround for no src packages (#4118)\n* 45bc9e0de test(golang): rename broken go.mod (#4129)\n* 3334e78fa feat(sbom): add supplier field (#4122)\n* 27fb1bfde test(misconf): skip downloading of policies for tests #4126\n* 845ae31e5 refactor: use debug message for post-analyze errors (#4037)\n* 11a5b91a1 feat(sbom): add VEX support (#4053)\n* 5eab46498 feat(sbom): add primary package purpose field for SPDX (#4119)\n* a00d00eb9 fix(k8s): fix quiet flag (#4120)\n* 9bc326909 fix(python): parse of pip extras (#4103)\n* 855984167 feat(java): use full path for nested jars (#3992)\n* 0650e0e1d feat(license): add new flag for classifier confidence level (#4073)\n* 43b649627 feat: config and fs compliance support (#4097)\n* 9181bc1f7 chore(deps): bump sigstore/cosign-installer from 2.8.1 to 3.0.1 (#3952)\n* 48e021ea6 feat(spdx): add support for SPDX 2.3 (#4058)\n* 107752df6 fix: k8s all-namespaces support (#4096)\n* bd0c60364 perf(misconf): replace with post-analyzers (#4090)\n* 76662d5dd fix(helm): update networking API version detection (#4106)\n* be47b688c feat(image): custom docker host option (#3599)\n* cc18f92cf style: debug flag is incorrect and needs extra - (#4087)\n* 572a6193e docs(vuln): Document inline vulnerability filtering comments (#4024)\n* 914c6f092 feat(fs): customize error callback during fs walk (#4038)\n* 3f02feeff fix(ubuntu): skip copyright files from subfolders (#4076)\n* 57bb77c06 docs: restructure scanners (#3977)\n* b19b56c34 fix: fix `file does not exist` error for post-analyzers (#4061)\n\n"
+        "release_message": "## ⚡Release highlights and summary⚡\r\n\r\n👉 https://github.com/aquasecurity/trivy/discussions/4135\r\n\r\n## Changelog\r\n* 1be1e2e63 fix(spdx): add workaround for no src packages (#4118)\r\n* 45bc9e0de test(golang): rename broken go.mod (#4129)\r\n* 3334e78fa feat(sbom): add supplier field (#4122)\r\n* 27fb1bfde test(misconf): skip downloading of policies for tests #4126\r\n* 845ae31e5 refactor: use debug message for post-analyze errors (#4037)\r\n* 11a5b91a1 feat(sbom): add VEX support (#4053)\r\n* 5eab46498 feat(sbom): add primary package purpose field for SPDX (#4119)\r\n* a00d00eb9 fix(k8s): fix quiet flag (#4120)\r\n* 9bc326909 fix(python): parse of pip extras (#4103)\r\n* 855984167 feat(java): use full path for nested jars (#3992)\r\n* 0650e0e1d feat(license): add new flag for classifier confidence level (#4073)\r\n* 43b649627 feat: config and fs compliance support (#4097)\r\n* 9181bc1f7 chore(deps): bump sigstore/cosign-installer from 2.8.1 to 3.0.1 (#3952)\r\n* 48e021ea6 feat(spdx): add support for SPDX 2.3 (#4058)\r\n* 107752df6 fix: k8s all-namespaces support (#4096)\r\n* bd0c60364 perf(misconf): replace with post-analyzers (#4090)\r\n* 76662d5dd fix(helm): update networking API version detection (#4106)\r\n* be47b688c feat(image): custom docker host option (#3599)\r\n* cc18f92cf style: debug flag is incorrect and needs extra - (#4087)\r\n* 572a6193e docs(vuln): Document inline vulnerability filtering comments (#4024)\r\n* 914c6f092 feat(fs): customize error callback during fs walk (#4038)\r\n* 3f02feeff fix(ubuntu): skip copyright files from subfolders (#4076)\r\n* 57bb77c06 docs: restructure scanners (#3977)\r\n* b19b56c34 fix: fix `file does not exist` error for post-analyzers (#4061)\r\n\r\n"
     },
     "https://github.com/anchore/grype": {
         "created_at": "2020-05-26 13:44:38",
