@@ -1,8 +1,10 @@
-# 更新于 2023-05-06 08:37:13
+# 更新于 2023-05-07 08:41:23
 
 ## 近15天release更新记录
 | 更新时间 | 项目名称 | 版本 | 更新内容 |
 | :---- | :---- | :---- | :---- |
+|2023-05-06 13:19:20|[feroxbuster](https://github.com/epi052/feroxbuster)|v2.10.0|## What's Changed  * Adds server and <br>client certificate management; enables<br> mTLS by @lavafroth in https://github.<br>com/epi052/feroxbuster/pull/892      *<br> --server-certs      * --client-cert  <br>    * --client-key     ## New Contribu<br>tors  * @lavafroth made their first co<br>ntribution in https://github.com/epi05<br>2/feroxbuster/pull/892 :tada:     **Fu<br>ll Changelog**: https://github.com/epi<br>052/feroxbuster/compare/v2.9.5...v2.10<br>.0|
+|2023-05-06 12:11:03|[Viper](https://github.com/FunnyWolf/Viper)|v1.5.28|## v1.5.28 20230506  ### 新功能  - 新<br>增只显示Session功能(首页和网络拓扑更简<br>洁)  - 面向互联网的handler被扫描(网络测<br>绘)时会在Notice提示  ### 优化  - 合并me<br>tasploit-framework 6.3.16版本  ### Bug<br>fix  - 修复无法修改包含中文内容的文件<br>问题  - 修复文件管理无法上传文件问题|
 |2023-05-05 17:43:22|[syft](https://github.com/anchore/syft)|v0.80.0|# Changelog  ##  (2023-05-05)    ### <br>Added Features  - Improve pnpm support<br> ] ] ]  ### Bug Fixes  - chore: add mo<br>re detail on SPDX file IDs ] ] - chore<br>: do not HTML escape PackageURLs ] ] -<br> RPM database not found on ostree-mana<br>ged systems ] ] ] - Unable to use syft<br> for private azure container registry <br>] - linux-kernel-cataloger produces th<br>ousands of version-less components.  ]<br> ] ]  ### Deprecated Features  - Renam<br>e pkg.Catalog to pkg.Collection ] ]   <br> |
 |2023-05-05 13:08:55|[WeblogicTool](https://github.com/KimJun1010/WeblogicTool)|v1.1|更新记录  - 修复多个小bug  - 增加自定<br>义超时时间功能  - 增加 CVE-2023-21931 J<br>NDI漏洞 |
 |2023-05-05 11:09:02|[URLFinder](https://github.com/pingc0y/URLFinder)|2023.5.<br>5|2023/5/5  修复 多个任务时html结果混乱<br>  新增 结果添加302跳转信息  变化 未获<br>取到数据时不打印与输出结果|
@@ -15,14 +17,12 @@
 |2023-05-01 11:38:02|[frpCracker](https://github.com/SleepingBag945/frpCracker)|v0.1|初版|
 |2023-04-30 15:08:56|[naabu](https://github.com/projectdiscovery/naabu)|v2.1.6|## What's Changed  * Fixed an issue w<br>ith -ec option by @RamanaReddy0M in ht<br>tps://github.com/projectdiscovery/naab<br>u/pull/637  * Fixed an issue with -eh <br>option by @iamargus95 in https://githu<br>b.com/projectdiscovery/naabu/pull/640 <br> * Fixed an issue with -stats option b<br>y @Mzack9999 in https://github.com/pro<br>jectdiscovery/naabu/pull/639    Issues<br> closed in this release - https://gith<br>ub.com/projectdiscovery/naabu/mileston<br>e/7    ## New Contributors  * @iamargu<br>s95 made their first contribution in h<br>ttps://github.com/projectdiscovery/naa<br>bu/pull/640    **Full Changelog**: htt<br>ps://github.com/projectdiscovery/naabu<br>/compare/v2.1.5...v2.1.6|
 |2023-04-29 20:03:26|[sweetPotato](https://github.com/z2p/sweetPotato)|version<br>1.6|# 更新日志  ## version1.6  ### 新增  <br>1. 已识别组件的目录扫描优化（使用特定<br>字典且会进行关键字验证，例如识别到是Web<br>Logic会自动去访问/console，并进行关键<br>字验证）    ### 优化  1. 脆弱性分析增加<br>过滤，不会对所有类型进行分析（例如jpg）<br>  2. 优化和增加部份指纹  3. 默认开启已<br>识别组件的目录扫描|
-|2023-04-29 13:37:52|[Viper](https://github.com/FunnyWolf/Viper)|v1.5.27|## v1.5.27 20230429  ### 新功能  - 新<br>增基础LoaderShellcode分离免杀(Linux)模<br>块  ### 优化  - 合并metasploit-framewor<br>k 6.3.15版本  ### Bugfix  - 修复Python<br>类型payload无法上线问题  - 修复命令终端<br>输出中文报错问题(提示执行超时)  - 修复S<br>ession通信信道功能无法使用问题|
 |2023-04-29 11:59:25|[cf](https://github.com/teamssix/cf)|v0.4.5|### 新增功能    *  增加华为云控制台接<br>管和权限枚举功能    ### 功能优化    *  <br>优化错误信息输出  *  优化更新功能    ##<br># Bug 修复    *  修复配置令牌功能的 Bu<br>g  *   修复两处缓存功能的 Bug  *  修复<br>更新功能 Bug  *  修复腾讯云 cvm 和 lh <br>无法列全的 Bug    ## 新贡献者  * @0xorO<br>ne made their first contribution in ht<br>tps://github.com/teamssix/cf/pull/219 <br>   **Full Changelog**: https://github.<br>com/teamssix/cf/compare/v0.4.4...v0.4.<br>5|
 |2023-04-29 10:58:25|[Dude](https://github.com/x364e3ab6/Dude)|v1.0.0.<br>4|1. 新增结构分析功能，可快速分析网站结<br>构，并可对指定链接执行JavaScript脚本获<br>取常规源码分析无法取得的链接，如WEBAPI<br>；  2. 新增内置浏览器注入并执行JavaScri<br>pt脚本的功能；  3. 新增了工具箱的显示<br>隐藏，默认隐藏；  4. 修改了内置浏览器及<br>功能插件TabControl的重选中逻辑和关闭方<br>式；  5. 修改了数据监视功能由始终开启为<br>自定义开启；  6. 修改了一些小Bug，对部<br>分代码写法和效率进行优化；  7. 内置Edge<br>浏览器内核升级至最新版本112.0.1722.64。|
 |2023-04-29 06:20:47|[pocsuite3](https://github.com/knownsec/pocsuite3)|v2.0.4|* 兼容 nuclei v2.9.1 的模版协议名称变<br>化 #364     ---    * Updated protocol n<br>ames that are compatible with Nuclei v<br>2.9.1 #364 |
 |2023-04-28 08:20:04|[rad](https://github.com/chaitin/rad)|1.0|更新同步自：    - 新增批量爬取功能（-<br>-url-file）  - 新增subdomain配置，用于<br>控制是否爬取子域。  - 增加mac arm版本  <br>- 优化了扫描性能  - 取消了自动播放音频<br>  - 上层代理设置可以不携带协议名称  - <br>大幅优化爬取效率（开启过滤同站点相似元<br>素强度即可体验）  - 修复了部分站点不爬<br>取的bug  - 修复了可能会出现爬到目标外站<br>点的bug  - 修复了爬取数量减少的bug  - <br>修复已知问题  |
 |2023-04-28 06:00:39|[trivy](https://github.com/aquasecurity/trivy)|v0.41.0|## ⚡Release highlights and summary⚡<br>    👉 https://github.com/aquasecurity<br>/trivy/discussions/4135    ## Changelo<br>g  * 1be1e2e63 fix(spdx): add workarou<br>nd for no src packages (#4118)  * 45bc<br>9e0de test(golang): rename broken go.m<br>od (#4129)  * 3334e78fa feat(sbom): ad<br>d supplier field (#4122)  * 27fb1bfde <br>test(misconf): skip downloading of pol<br>icies for tests #4126  * 845ae31e5 ref<br>actor: use debug message for post-anal<br>yze errors (#4037)  * 11a5b91a1 feat(s<br>bom): add VEX support (#4053)  * 5eab4<br>6498 feat(sbom): add primary package p<br>urpose field for SPDX (#4119)  * a00d0<br>0eb9 fix(k8s): fix quiet flag (#4120) <br> * 9bc326909 fix(python): parse of pip<br> extras (#4103)  * 855984167 feat(java<br>): use full path for nested jars (#399<br>2)  * 0650e0e1d feat(license): add new<br> flag for classifier confidence level <br>(#4073)  * 43b649627 feat: config and <br>fs compliance support (#4097)  * 9181b<br>c1f7 chore(deps): bump sigstore/cosign<br>-installer from 2.8.1 to 3.0.1 (#3952)<br>  * 48e021ea6 feat(spdx): add support <br>for SPDX 2.3 (#4058)  * 107752df6 fix:<br> k8s all-namespaces support (#4096)  *<br> bd0c60364 perf(misconf): replace with<br> post-analyzers (#4090)  * 76662d5dd f<br>ix(helm): update networking API versio<br>n detection (#4106)  * be47b688c feat(<br>image): custom docker host option (#35<br>99)  * cc18f92cf style: debug flag is <br>incorrect and needs extra - (#4087)  *<br> 572a6193e docs(vuln): Document inline<br> vulnerability filtering comments (#40<br>24)  * 914c6f092 feat(fs): customize e<br>rror callback during fs walk (#4038)  <br>* 3f02feeff fix(ubuntu): skip copyrigh<br>t files from subfolders (#4076)  * 57b<br>b77c06 docs: restructure scanners (#39<br>77)  * b19b56c34 fix: fix file does no<br>t exist error for post-analyzers (#406<br>1)    |
 |2023-04-27 01:14:02|[Exp-Tools](https://github.com/cseroad/Exp-Tools)|v1.1.6|- 新增泛微ecology前台sql注入-2  - 新<br>增红帆OA任意文件写入  - 修复泛微emobile<br>一处bug  - 删除泛微ecology后台皮肤文件<br>上传  - 删除conf文件夹，修改为启动时创<br>建  - 删除cookie提示|
-|2023-04-27 00:26:10|[feroxbuster](https://github.com/epi052/feroxbuster)|v2.9.5|## What's Changed  * 878 support raw <br>urls by @epi052 in https://github.com/<br>epi052/feroxbuster/pull/884    special<br> thanks to @aroly for reporting the is<br>sue, @lavafroth for the workaround, an<br>d @aancw for furthering the discussion<br>! :tada:     **Full Changelog**: https<br>://github.com/epi052/feroxbuster/compa<br>re/v2.9.4...v2.9.5|
 |2023-04-26 14:33:25|[log4j2burpscanner](https://github.com/f0ng/log4j2burpscanner)|0.25.0|# 0.25.0 update  ## 2023-4-26  1. fix<br> bugs  _______________________________<br>______________________________  1. 修<br>复bug，感谢A_Adam师傅反馈|
 |2023-04-26 06:14:59|[Elkeid](https://github.com/bytedance/Elkeid)|v1.7.0.<br>11-drive<br>r-ko-202<br>30426||
 |2023-04-25 17:18:33|[Umi-OCR](https://github.com/hiroi-sora/Umi-OCR)|v1.3.4|### v1.3.4 主要更新：  - 新功能：截图<br>预览窗口。需要在设置→快捷识图→截图预<br>览窗口里打开。效果见下图，可以调整透明<br>度 并钉在屏幕顶层。    - 新功能：可用方<br>向键微调截图框位置。  - 修Bug：修复了拖<br>入图片时有几率卡退主窗口的问题。  - 优<br>化了一些处理流程。  - 优化了打包方式，<br>软件体积比上一代减少了15MB。    ### 文<br>件说明  软件本体：Umi-OCR.v1.3.4.7z（67<br>MB），内置简体中文&英文通用识别库。  <br>软件（多国语言整合版）：Umi-OCR.v1.3.4_<br>ALL_languages.7z（118MB），内置多国语<br>言识别库。    多国语言扩展包：Umi-OCR.v<br>1.3_DLC_languages.7z（50MB），可向软件<br>本体导入繁中,英,日,韩,俄,德,法 多国语言<br>识别库。|
@@ -39,14 +39,18 @@
 |2023-04-23 06:08:32|[OA-EXPTOOL](https://github.com/LittleBear4/OA-EXPTOOL)|OA-EXPT<br>OOL-0.72|最近更新日志：  泛微前台sql注入的poc<br>验证，暂无exp  万户OA_UploadServlet.py <br> 万户OA_xfire_xxe  优化poc的验证功能|
 |2023-04-23 03:24:47|[Xray_Cracked](https://github.com/NHPT/Xray_Cracked)|v1.9.8|Xray 1.9.8 COMMUNITY-ADVANCED Windows<br>,Linux and Mac OS Version.    xray_win<br>dows_amd64.exe  SHA256: E9E94E026B203D<br>6D2FA1E98E0B34D448408F9EF442C2ADC94F37<br>8DB824DC7270    xray_windows_386.exe  <br>SHA256: 3E9734841105350CDB85C7DEB19231<br>FCD5D9D4413F245DA53448C3C37665492B    <br>xray_darwin_amd64  SHA256: 1405C522622<br>FBE43DEC8D2468C4DEB5C496BD02370B0C9573<br>BF9116F5D340C38    xray_darwin_arm64  <br>SHA256: DEBDC4C8FA6C9A180F554BC4D0FA95<br>B06AFE3461D5549EDCB9483E8A53A48D1E    <br>xray_linux_amd64  SHA256: 002E9C316591<br>60B44D0AADFC6856E47F39401CD4F26840AE1D<br>F7E0C6A147D359    xray_linux_arm64  SH<br>A256: 693C6D6251711B644C563EA0D3005343<br>3747D51247EF08D746428E0195BBAB15  |
 |2023-04-22 09:01:57|[OneScan](https://github.com/vaycore/OneScan)|v1.0.0|1.0.0 版本发布，版本更新内容如下    #<br>## 升级提醒！！！！    新版配置与旧版<br>本不兼容，更新前需要自行备份配置；以免<br>各位想回退版本的时候，出现配置文件报错<br>的情况    ### 新增    - 新增过滤规则可<br>视化，将过滤规则文本框放到 Filter 按钮<br>左边  - 新增Fingerprint指纹模块  - 新增<br>随机内网IP动态变量{{random.local-ip}}  <br>- 新增字典管理，可定义一系列字典，便捷<br>切换  - 更新辅助信息面板UI，新增指纹信<br>息展示    ### 优化    - 使用Gson作为项<br>目的Json解析库  - 将默认Header配置中的{<br>{random.ip}}修改为{{random.local-ip}} <br> - 优化黑白名单匹配规则，添加*号匹配（<br>支持格式：www.google.com、*.google.com<br>、*.google.*、www.google.*、www.*.com）<br>  - 主动扫描时不进行黑白名单检测  - 自<br>带的默认白名单不包含任何内容    ### 修<br>复    - 修复Payload Processing处理异常<br>的问题    |
-|2023-04-21 17:14:17|[grype](https://github.com/anchore/grype)|v0.61.1|# Changelog  ##  (2023-04-21)    ### <br>Bug Fixes  - :grey_question: Parsing d<br>pkg status: extracting key-value from <br>line:  usr/lib/os-release err: cannot <br>parse field ] - Grype suggesting to up<br>grade to a version already used.  ]  #<br>## Additional Changes  - feat: add tim<br>estamp to json output (#1170) ] ]    |
-|2023-04-21 14:16:08|[xray](https://github.com/chaitin/xray)|1.9.8|### 版本介绍    该版本为 泛微 Ecology<br> OA SQL 注入漏洞 的应急版本，相较上个<br>版本，除了添加了一个POC外，未改动其他内<br>容。    ### 更新内容    想要检测该漏洞<br>的师傅，可以使用    ./xray ws --poc poc<br>-yaml-weaver-ecology-oa-plugin-checkse<br>rver-setting-sqli --url http://example<br>.com    进行检测。    相关参考链接：|
-|2023-04-21 09:45:23|[Antenna](https://github.com/wuba/Antenna)|v1.3.5|1. 修复HTTPS分块传输请求导致处理逻辑<br>错误(#105)的问题  2. 废弃domain_in查询<br>方式(#106)，后续多个域名查询可使用多个d<br>omain参数查询，详情可看http://blog.ant<br>enna.cool/docs/api_back  3. 新增api查<br>询用户token以及查询当前项目使用版本接口<br>，为下个版本SDK与自动更新功能做准备    |
 ## 近15天commit提交记录
 | 提交时间 | 项目名称 | 更新内容 |
 | :---- | :---- | :---- |
-|2023-05-06 00:30:15|[NucleiTP](https://github.com/ExpLangcn/NucleiTP)|更新啦❤️|
-|2023-05-05 23:35:32|[PocOrExp_in_Githu<br>b](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-05-06 07:35:32|
+|2023-05-07 00:30:16|[NucleiTP](https://github.com/ExpLangcn/NucleiTP)|更新啦❤️|
+|2023-05-06 20:09:00|[PocOrExp_in_Githu<br>b](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-05-07 04:09:00|
+|2023-05-06 12:10:05|[Viper](https://github.com/FunnyWolf/Viper)|update version v1.5.28|
+|2023-05-06 11:47:16|[feroxbuster](https://github.com/epi052/feroxbuster)|Merge pull request #898 from epi052/all-contributor<br>s/add-AkechiShiro  docs: add AkechiShiro as a contri<br>butor for ideas|
+|2023-05-06 10:48:27|[Dude](https://github.com/x364e3ab6/Dude)|Update README.md|
+|2023-05-06 09:52:47|[APTRS](https://github.com/Anof-cyber/APTRS)|Update README.md|
+|2023-05-06 03:24:30|[veinmind-tools](https://github.com/chaitin/veinmind-tools)|fix(veinmind-malicious): optimize code (#233)  * bu<br>g fix : 删除无用变量、规则拼写错误    * bug fix:恢复<br>误删代码    * 恢复k8s的规则    * 代码优化、增加错误处<br>理|
+|2023-05-06 01:58:06|[Pentest-Windows](https://github.com/arch3rPro/Pentest-Windows)|Update README.md|
+|2023-05-06 01:38:30|[Awesome-Redteam](https://github.com/Threekiii/Awesome-Redteam)|更新README.md|
 |2023-05-05 22:58:21|[grype](https://github.com/anchore/grype)|docs: add config flag to configuration section (#12<br>71) (#1274)  Signed-off-by: James Neate |
 |2023-05-05 19:57:13|[syft](https://github.com/anchore/syft)|Print package list when extra packages found (#1791<br>)  The tests in test/cli/packages_cmd_test.go are ha<br>rd to debug when different  packages are found in di<br>fferent environments. For example, CI runs and M1 ma<br>cs  have been observed to have different package cou<br>nts. Therefore, if the test is  about to fail, log a<br> sorted list of the packages that were found, so tha<br>t it is  easy to compare failures of these tests.   <br> Signed-off-by: Will Murphy |
 |2023-05-05 15:55:48|[neuvector](https://github.com/neuvector/neuvector)|NVSHAS-7864: Add timeout when dialing syslog server|
@@ -72,8 +76,6 @@
 |2023-05-03 20:26:05|[nuclei](https://github.com/projectdiscovery/nuclei)|Merge pull request #3640 from projectdiscovery/dev <br> nuclei v2.9.3 (bugfix release)|
 |2023-05-03 11:14:19|[Umi-OCR](https://github.com/hiroi-sora/Umi-OCR)|update|
 |2023-05-03 03:33:23|[go_proxy_pool](https://github.com/pingc0y/go_proxy_pool)|Update README.md|
-|2023-05-02 17:07:06|[Pentest-Windows](https://github.com/arch3rPro/Pentest-Windows)|Update README.md|
-|2023-05-02 06:00:38|[veinmind-tools](https://github.com/chaitin/veinmind-tools)|update: update deprecated func and clean Dockerfile<br> (#232)  * chore: update deprecated func and clean D<br>ockerfile    * chore: update dep|
 |2023-05-01 21:48:16|[WebGoat](https://github.com/WebGoat/WebGoat)|chore: bump jacoco-maven-plugin from 0.8.8 to 0.8.1<br>0  Bumps  from 0.8.8 to 0.8.10. -  -   --- updated-d<br>ependencies: - dependency-name: org.jacoco:jacoco-ma<br>ven-plugin   dependency-type: direct:production   up<br>date-type: version-update:semver-patch ...  Signed-o<br>ff-by: dependabot[bot] |
 |2023-05-01 13:24:14|[subfinder](https://github.com/projectdiscovery/subfinder)|Merge pull request #827 from projectdiscovery/dev  <br>subfinder v2.5.8|
 |2023-05-01 07:46:06|[sqlmap](https://github.com/sqlmapproject/sqlmap)|Fixes #5409|
@@ -81,13 +83,10 @@
 |2023-05-01 05:46:33|[PeiQi-WIKI-Book](https://github.com/PeiQi0/PeiQi-WIKI-Book)|漏洞相关:Apache Superset,Druid|
 |2023-05-01 03:11:04|[DNSlog-GO](https://github.com/lanyi1998/DNSlog-GO)|fix: bulkVerifyDns数据重复问题|
 |2023-04-30 15:04:25|[naabu](https://github.com/projectdiscovery/naabu)|Merge pull request #654 from projectdiscovery/dev  <br>naabu v2.1.6|
-|2023-04-30 08:48:52|[Dude](https://github.com/x364e3ab6/Dude)|Update README.md|
 |2023-04-29 20:11:02|[sweetPotato](https://github.com/z2p/sweetPotato)|change readme|
 |2023-04-29 19:00:57|[vulhub](https://github.com/vulhub/vulhub)|Merge pull request #426 from vulhub/druid-cve-2021-<br>25646  Apache Druid CVE-2023-25194|
-|2023-04-29 13:37:14|[Viper](https://github.com/FunnyWolf/Viper)|update version v1.5.27|
 |2023-04-29 11:59:18|[cf](https://github.com/teamssix/cf)|Merge pull request #226 from teamssix/beta  Update <br>CHANGELOG.md|
 |2023-04-29 06:15:36|[pocsuite3](https://github.com/knownsec/pocsuite3)|Merge pull request #365 from 13ph03nix/nuclei-issue<br>-3055-protocol-name  fix: Updated protocol attribute<br> name (requests=> http & network => tcp)|
-|2023-04-28 20:10:33|[APTRS](https://github.com/Anof-cyber/APTRS)|Create CODE_OF_CONDUCT.md|
 |2023-04-28 17:19:10|[RedisEXP](https://github.com/yuyan-sec/RedisEXP)|update|
 |2023-04-28 15:11:22|[noterce](https://github.com/xiao-zhu-zhu/noterce)|Update README.md|
 |2023-04-28 15:04:16|[HostHeaderAttack](https://github.com/weujieytt/HostHeaderAttack)|Update HostAttackScanner.java|
@@ -96,7 +95,6 @@
 |2023-04-27 08:45:04|[code6](https://github.com/4x99/code6)|Update README.md|
 |2023-04-27 08:24:29|[CodeQLpy](https://github.com/webraybtl/CodeQLpy)|修复路径中有空格导致的ecj编译失败|
 |2023-04-27 01:16:05|[Exp-Tools](https://github.com/cseroad/Exp-Tools)|Update README.md|
-|2023-04-27 00:35:58|[feroxbuster](https://github.com/epi052/feroxbuster)|Merge pull request #889 from epi052/all-contributor<br>s/add-lavafroth  docs: add lavafroth as a contributo<br>r for code, and ideas|
 |2023-04-26 14:29:38|[log4j2burpscanner](https://github.com/f0ng/log4j2burpscanner)|Update README.md|
 |2023-04-26 10:21:08|[appshark](https://github.com/bytedance/appshark)|bugfix: profiler serve delay when CPU is overload.|
 |2023-04-26 02:03:35|[ApoalypseSecTools](https://github.com/ApocalypseSec/ApoalypseSecTools)|Update README.md|
@@ -121,10 +119,7 @@
 |2023-04-23 06:05:21|[OA-EXPTOOL](https://github.com/LittleBear4/OA-EXPTOOL)|Add files via upload|
 |2023-04-23 02:53:50|[dismap](https://github.com/zhzyker/dismap)|Merge pull request #33 from BigTree975/patch-1  Upd<br>ate rule.go|
 |2023-04-22 09:47:26|[SmsForwarder](https://github.com/pppscn/SmsForwarder)|修复：CactusSave中SharedPreference的键值对应错误 #2<br>94|
-|2023-04-22 08:34:27|[OneScan](https://github.com/vaycore/OneScan)|针对1.0.0版本更新README说明文档及截图|
-|2023-04-21 15:19:18|[ffuf](https://github.com/ffuf/ffuf)|Fix md output format (#672)  * Fix MD output    * A<br>dd CHANGELOG.md entry|
-|2023-04-21 06:44:01|[swagger-exp](https://github.com/lijiejie/swagger-exp)|Merge pull request #13 from lanyi1998/master  feat:<br>support mac|
-|2023-04-21 02:28:30|[HackBrowserData](https://github.com/moonD4rk/HackBrowserData)|Merge pull request #213 from liumingxing/master  Su<br>pport SessionStorage export|## 所有项目
+|2023-04-22 08:34:27|[OneScan](https://github.com/vaycore/OneScan)|针对1.0.0版本更新README说明文档及截图|## 所有项目
 # 渗透测试
 ## 信息收集
 ### 资产测绘采集
@@ -154,7 +149,7 @@
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
 | [dirsearch](https://github.com/maurosoria/dirsearch) | v0.4.3 | Web path scanner |
-| [feroxbuster](https://github.com/epi052/feroxbuster) | v2.9.5 | A fast, simple, recursive content discovery tool written in Ru<br>st. |
+| [feroxbuster](https://github.com/epi052/feroxbuster) | v2.10.0 | A fast, simple, recursive content discovery tool written in Ru<br>st. |
 | [ffuf](https://github.com/ffuf/ffuf) | v2.0.0 | Fast web fuzzer written in Go |
 | [dirmap](https://github.com/H4ckForJob/dirmap) |  | An advanced web directory & file scanning tool that will be mo<br>re powerful than DirBuster, Dirsearch, cansina, and Yu Jian.一<br>个高级web目录、文件扫描工具，功能将会强于DirBuster、Dirsearch、c<br>ansina、御剑。 |
 | [cansina](https://github.com/deibit/cansina) | 1.0.0 | Web Content Discovery Tool |
@@ -579,7 +574,7 @@
 ### 漏洞利用
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
-| [Viper](https://github.com/FunnyWolf/Viper) | v1.5.27 | Redteam operation  platform with webui 图形化红队行动辅助平台 |
+| [Viper](https://github.com/FunnyWolf/Viper) | v1.5.28 | Redteam operation  platform with webui 图形化红队行动辅助平台 |
 ### 横向工具
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |

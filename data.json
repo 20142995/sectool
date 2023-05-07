@@ -200,8 +200,8 @@
     "https://github.com/ycdxsb/PocOrExp_in_Github": {
         "created_at": "2021-04-13 05:46:16",
         "description": "聚合Github上已有的Poc或者Exp，CVE信息来自CVE官网。Auto Collect Poc Or Exp from Github by CVE ID.",
-        "commit_date": "2023-05-05 23:35:32",
-        "commit_message": "update 2023-05-06 07:35:32",
+        "commit_date": "2023-05-06 20:09:00",
+        "commit_message": "update 2023-05-07 04:09:00",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -461,7 +461,7 @@
     "https://github.com/ExpLangcn/NucleiTP": {
         "created_at": "2022-11-08 13:16:56",
         "description": "自动整合全网Nuclei的漏洞POC，实时同步更新最新POC！",
-        "commit_date": "2023-05-06 00:30:15",
+        "commit_date": "2023-05-07 00:30:16",
         "commit_message": "更新啦❤️",
         "release_tag": "",
         "release_date": "",
@@ -855,8 +855,8 @@
     "https://github.com/Anof-cyber/APTRS": {
         "created_at": "2022-10-28 16:15:37",
         "description": "Automated Penetration Testing Reporting System",
-        "commit_date": "2023-04-28 20:10:33",
-        "commit_message": "Create CODE_OF_CONDUCT.md",
+        "commit_date": "2023-05-06 09:52:47",
+        "commit_message": "Update README.md",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -1008,7 +1008,7 @@
     "https://github.com/x364e3ab6/Dude": {
         "created_at": "2023-02-03 05:39:58",
         "description": "Dude (大佬) WEB渗透测试辅助工具",
-        "commit_date": "2023-04-30 08:48:52",
+        "commit_date": "2023-05-06 10:48:27",
         "commit_message": "Update README.md",
         "release_tag": "v1.0.0.4",
         "release_date": "2023-04-29 10:58:25",
@@ -1735,8 +1735,8 @@
     "https://github.com/chaitin/veinmind-tools": {
         "created_at": "2022-02-08 08:12:15",
         "description": "veinmind-tools 是由长亭科技自研，基于 veinmind-sdk 打造的容器安全工具集",
-        "commit_date": "2023-05-02 06:00:38",
-        "commit_message": "update: update deprecated func and clean Dockerfile (#232)\n\n* chore: update deprecated func and clean Dockerfile\r\n\r\n* chore: update dep",
+        "commit_date": "2023-05-06 03:24:30",
+        "commit_message": "fix(veinmind-malicious): optimize code (#233)\n\n* bug fix : 删除无用变量、规则拼写错误\r\n\r\n* bug fix:恢复误删代码\r\n\r\n* 恢复k8s的规则\r\n\r\n* 代码优化、增加错误处理",
         "release_tag": "v2.1.2",
         "release_date": "2023-04-25 04:01:24",
         "release_message": "## Feature\r\n* feat(veinmind-weakpass): support ftp @ek1ng in https://github.com/chaitin/veinmind-tools/pull/226\r\n* feat(veinmind-iac): add dockerfile security detection by @ek1ng in https://github.com/chaitin/veinmind-tools/pull/228\r\n\r\n## Fix\r\n* fix(ai): ignore basic info analyzer by @DVKunion in https://github.com/chaitin/veinmind-tools/pull/218\r\n* fix(Makefile): add CGO_ENBALED && update(dependency): update dependency version by @ek1ng in https://github.com/chaitin/veinmind-tools/pull/221\r\n* fix(CI/CD): change goproxy settings by @ek1ng in https://github.com/chaitin/veinmind-tools/pull/222\r\n\r\n## Others\r\n* doc: update README.md by @DVKunion in https://github.com/chaitin/veinmind-tools/pull/219\r\n\r\n## New Contributors\r\n* @ek1ng made their first contribution in https://github.com/chaitin/veinmind-tools/pull/221\r\n\r\n**Full Changelog**: https://github.com/chaitin/veinmind-tools/compare/v2.1.1...v2.1.2"
@@ -2248,11 +2248,11 @@
     "https://github.com/epi052/feroxbuster": {
         "created_at": "2020-08-22 15:36:19",
         "description": "A fast, simple, recursive content discovery tool written in Rust.",
-        "commit_date": "2023-04-27 00:35:58",
-        "commit_message": "Merge pull request #889 from epi052/all-contributors/add-lavafroth\n\ndocs: add lavafroth as a contributor for code, and ideas",
-        "release_tag": "v2.9.5",
-        "release_date": "2023-04-27 00:26:10",
-        "release_message": "## What's Changed\r\n* 878 support raw urls by @epi052 in https://github.com/epi052/feroxbuster/pull/884\r\n\r\nspecial thanks to @aroly for reporting the issue, @lavafroth for the workaround, and @aancw for furthering the discussion! :tada: \r\n\r\n**Full Changelog**: https://github.com/epi052/feroxbuster/compare/v2.9.4...v2.9.5"
+        "commit_date": "2023-05-06 11:47:16",
+        "commit_message": "Merge pull request #898 from epi052/all-contributors/add-AkechiShiro\n\ndocs: add AkechiShiro as a contributor for ideas",
+        "release_tag": "v2.10.0",
+        "release_date": "2023-05-06 13:19:20",
+        "release_message": "## What's Changed\r\n* Adds server and client certificate management; enables mTLS by @lavafroth in https://github.com/epi052/feroxbuster/pull/892\r\n    * `--server-certs`\r\n    * `--client-cert`\r\n    * `--client-key` \r\n\r\n## New Contributors\r\n* @lavafroth made their first contribution in https://github.com/epi052/feroxbuster/pull/892 :tada: \r\n\r\n**Full Changelog**: https://github.com/epi052/feroxbuster/compare/v2.9.5...v2.10.0"
     },
     "https://github.com/dzxs/Xdecrypt": {
         "created_at": "2017-12-08 08:52:14",
@@ -2372,11 +2372,11 @@
     "https://github.com/FunnyWolf/Viper": {
         "created_at": "2020-05-29 12:53:42",
         "description": "Redteam operation  platform with webui 图形化红队行动辅助平台",
-        "commit_date": "2023-04-29 13:37:14",
-        "commit_message": "update version v1.5.27",
-        "release_tag": "v1.5.27",
-        "release_date": "2023-04-29 13:37:52",
-        "release_message": "## v1.5.27 20230429\r\n### 新功能\r\n- 新增`基础LoaderShellcode分离免杀(Linux)`模块\r\n### 优化\r\n- 合并metasploit-framework 6.3.15版本\r\n### Bugfix\r\n- 修复Python类型payload无法上线问题\r\n- 修复`命令终端`输出中文报错问题(提示执行超时)\r\n- 修复Session`通信信道`功能无法使用问题"
+        "commit_date": "2023-05-06 12:10:05",
+        "commit_message": "update version v1.5.28",
+        "release_tag": "v1.5.28",
+        "release_date": "2023-05-06 12:11:03",
+        "release_message": "## v1.5.28 20230506\r\n### 新功能\r\n- 新增`只显示Session`功能(首页和网络拓扑更简洁)\r\n- 面向互联网的handler被扫描(网络测绘)时会在Notice提示\r\n### 优化\r\n- 合并metasploit-framework 6.3.16版本\r\n### Bugfix\r\n- 修复无法修改包含中文内容的文件问题\r\n- 修复`文件管理`无法上传文件问题"
     },
     "https://github.com/kost/dvcs-ripper": {
         "created_at": "2012-10-23 04:55:18",
@@ -3219,7 +3219,7 @@
     "https://github.com/Threekiii/Awesome-Redteam": {
         "created_at": "2022-02-08 00:45:03",
         "description": "一个红队知识仓库",
-        "commit_date": "2023-04-19 07:07:20",
+        "commit_date": "2023-05-06 01:38:30",
         "commit_message": "更新README.md",
         "release_tag": "",
         "release_date": "",
@@ -4104,7 +4104,7 @@
     "https://github.com/arch3rPro/Pentest-Windows": {
         "created_at": "2022-07-08 02:43:58",
         "description": "Windows11 Penetration Suite Toolkit",
-        "commit_date": "2023-05-02 17:07:06",
+        "commit_date": "2023-05-06 01:58:06",
         "commit_message": "Update README.md",
         "release_tag": "v1.0",
         "release_date": "2023-03-07 07:31:49",
