@@ -1,15 +1,16 @@
-# 更新于 2023-05-10 08:41:46
+# 更新于 2023-05-11 08:41:57
 
 ## 近15天release更新记录
 | 更新时间 | 项目名称 | 版本 | 更新内容 |
 | :---- | :---- | :---- | :---- |
+|2023-05-10 11:53:21|[PEASS-ng](https://github.com/carlospolop/PEASS-ng)|2023051<br>0-778666<br>a3||
+|2023-05-10 06:48:26|[noterce](https://github.com/xiao-zhu-zhu/noterce)|1.3|重构为web版    添加功能:  1. 多行执行<br>命令  2. 上线CS|
 |2023-05-09 18:16:30|[neuvector](https://github.com/neuvector/neuvector)|v5.1.3|Features:  Add new vulnerability feed<br> for scanning Microsoft .NET framework<br>  Enforcer stats is disabled by defaul<br>t in Prometheus exporter to improve sc<br>alability  Useability improvement: Usi<br>ng scanner to scan single image and pr<br>int the result  Add imagePullPolicy ch<br>eck in admission control      Bug fixe<br>s:  Empty group auto-removal takes 2 h<br>ours to delete instead of 1 hour accor<br>ding to schedule  Compliance profile d<br>oesn't show in UI console  |
 |2023-05-09 09:57:25|[RouteVulScan](https://github.com/F6JO/RouteVulScan)|RouteVu<br>lScan1.5|2023-05-09 将默认扫描子域和根域改为可<br>开关  2023-05-09 将匹配的state状态码改<br>为可以设置范围  2023-05-09 添加类似模板<br>语言的标记，可在Config中配置标记获取当<br>前请求的各类信息并当作路径或正则|
 |2023-05-09 01:59:14|[DNSlog-GO](https://github.com/lanyi1998/DNSlog-GO)|2023050<br>9||
 |2023-05-09 01:48:08|[GoWxDump](https://github.com/SpenserCai/GoWxDump)|v1.0.11|fix #19 支持了3.9.2.26 版本|
 |2023-05-08 18:07:43|[faker](https://github.com/joke2k/faker)|v18.7.0|See .|
 |2023-05-08 16:50:17|[railgun](https://github.com/lz520520/railgun)|v1.5.4-<br>fix|解压密码railgun    fix: 修复若干bug|
-|2023-05-08 16:03:15|[PEASS-ng](https://github.com/carlospolop/PEASS-ng)|2023050<br>8-32e5ab<br>22||
 |2023-05-07 18:00:03|[dbeaver](https://github.com/dbeaver/dbeaver)|23.0.4|                 - Data Editor:      <br>               - Bottom toolbar became<br> customizable                     - Di<br>sconnected editors can be easily recon<br>nected                     - Issue wit<br>h Ctrl+1 shortcut not working was fixe<br>d                 - SQL Editor:       <br>              - Issue with refresh but<br>ton closing active resul tab was fixed<br>                     - Issue with not <br>correct dislaying of \r\n sequence was<br> fixed                     - Issue whe<br>n generating the same UUID for all row<br>s was fixed (thanks to @SiyaoIsHiding)<br>                 - Data Transfer:     <br>                - Ability to change th<br>e target column type on import to BIGI<br>NT was added                     - Exp<br>ort from query to CSV was fixed       <br>          - Git: Missing git buttons a<br>nd menus were added on macOS (Apple Si<br>licon)                 - Databases:   <br>                  - ClickHouse: Catalo<br>g support was added                   <br>  - Informix: issue with extra spaces <br>in table name was fixed               <br>      - MySQL:                        <br> - Event reading for quoted schemas wa<br>s fixed                         - Time<br> handling in MySQL was improved       <br>              - Oracle:               <br>          - Issue with parcing IF EXIS<br>TS statements was fixed               <br>          - The display of DATE with a<br>dditional settings in the Result Set w<br>as fixed                         - Inr<br>omation about latest statistics update<br> was added                     - Postg<br>reSQL:                         - Gener<br>ation of ALTER table SQL for foreign t<br>ables was improved                    <br>     - Role settings were added in gen<br>erated DDL                         - I<br>DENTITY SEQUENCE were added in generat<br>ed DDL                     - Snowflake<br>: issue with incorrect import with BIG<br>INT, INT, REAL, FLOAT, DOUBLE PRECISIO<br>N, and DECIMAL data types was fixed   <br>                  - Trino: issue with <br>import files with varchar data type wa<br>s fixed                 - Misc:       <br>              - SalesForce driver was <br>updated                     - ODBC con<br>nection error was fixed               <br>      - Java native libraries were add<br>ed to DBeaver installation directly to<br> avoid app crash cased by system restr<br>ictions.                     - DBeaver<br> started to collect user statistics. I<br>t is anonymous and optional           <br>  |
 |2023-05-07 13:02:22|[Ladon](https://github.com/k8gege/Ladon)|v10.10.<br>5|### Ladon 10.10.5 20230505  [+]Hikvis<br>ionScan 海康威视 视频监控 密码爆破  [u<br>]INI插件  支持isok、isvul字段，当结果<br>出现对应特征字符串，回显ISVUL或ISOK  [u<br>]INI插件  支持$port$参数，超时还是改成<br>30秒  [+]CloseSMB  彻底禁用SMB服务-需<br>管理员权限(重启生效)  [+]DisService 彻<br>底禁用指定服务-需管理员权限  [+]StopSer<br>vice 停止指定服务-需管理员权限  [+]Ope<br>nTCP  防火墙放行指定TCP端口-需管理员权<br>限  [+]OpenUDP  防火墙放行指定UDP端口-<br>需管理员权限  [+]CloseTCP  防火墙拦截指<br>定TCP端口-需管理员权限  [+]CloseUDP  防<br>火墙拦截指定UDP端口-需管理员权限  [+]Hi<br>kvisionPoc  CVE-2017-7921 hikvision 海<br>康威视摄像头配置文件泄露 漏洞检测  [+]H<br>ikvisionDecode  CVE-2017-7921 hikvisio<br>n 海康威视摄像头配置文件解密 提取密码 <br> [u]sshcmd  CS版sshcmd更新SSH库支持高<br>版本SSH    ### 0x001 GodPotato提权  Lad<br>on GodPotato whoami  支持: Win8-Win11/<br>Win2012-2022服务提权至SYSTEM      ### <br>0x002 hikvision 海康威视 CVE-2017-7921<br>漏洞检测    Ladon 192.168.1.8/24 Hikvis<br>ionPoc  Ladon http://192.168.1.8:8080 <br>HikvisionPoc  Ladon url.txt HikvisionP<br>oc          ### 0x003 hikvision 海康威<br>视 密码审计    Ladon 192.168.1.8/24 Hik<br>visionScan  Ladon http://192.168.1.8:8<br>080 HikvisionScan  Ladon url.txt Hikvi<br>sionScan        详细功能用法，请查看公<br>众号或博客  |
 |2023-05-06 13:19:20|[feroxbuster](https://github.com/epi052/feroxbuster)|v2.10.0|## What's Changed  * Adds server and <br>client certificate management; enables<br> mTLS by @lavafroth in https://github.<br>com/epi052/feroxbuster/pull/892      *<br> --server-certs      * --client-cert  <br>    * --client-key     ## New Contribu<br>tors  * @lavafroth made their first co<br>ntribution in https://github.com/epi05<br>2/feroxbuster/pull/892 :tada:     **Fu<br>ll Changelog**: https://github.com/epi<br>052/feroxbuster/compare/v2.9.5...v2.10<br>.0|
@@ -33,41 +34,40 @@
 |2023-04-27 01:14:02|[Exp-Tools](https://github.com/cseroad/Exp-Tools)|v1.1.6|- 新增泛微ecology前台sql注入-2  - 新<br>增红帆OA任意文件写入  - 修复泛微emobile<br>一处bug  - 删除泛微ecology后台皮肤文件<br>上传  - 删除conf文件夹，修改为启动时创<br>建  - 删除cookie提示|
 |2023-04-26 14:33:25|[log4j2burpscanner](https://github.com/f0ng/log4j2burpscanner)|0.25.0|# 0.25.0 update  ## 2023-4-26  1. fix<br> bugs  _______________________________<br>______________________________  1. 修<br>复bug，感谢A_Adam师傅反馈|
 |2023-04-26 06:14:59|[Elkeid](https://github.com/bytedance/Elkeid)|v1.7.0.<br>11-drive<br>r-ko-202<br>30426||
-|2023-04-25 17:18:33|[Umi-OCR](https://github.com/hiroi-sora/Umi-OCR)|v1.3.4|### v1.3.4 主要更新：  - 新功能：截图<br>预览窗口。需要在设置→快捷识图→截图预<br>览窗口里打开。效果见下图，可以调整透明<br>度 并钉在屏幕顶层。    - 新功能：可用方<br>向键微调截图框位置。  - 修Bug：修复了拖<br>入图片时有几率卡退主窗口的问题。  - 优<br>化了一些处理流程。  - 优化了打包方式，<br>软件体积比上一代减少了15MB。    ### 文<br>件说明  软件本体：Umi-OCR.v1.3.4.7z（67<br>MB），内置简体中文&英文通用识别库。  <br>软件（多国语言整合版）：Umi-OCR.v1.3.4_<br>ALL_languages.7z（118MB），内置多国语<br>言识别库。    多国语言扩展包：Umi-OCR.v<br>1.3_DLC_languages.7z（50MB），可向软件<br>本体导入繁中,英,日,韩,俄,德,法 多国语言<br>识别库。|
-|2023-04-25 07:05:14|[autoDecoder](https://github.com/f0ng/autoDecoder)|0.25|## 2023.4.25 更新0.25  1. 增加二进制<br>请求体、响应体处理，原理为将请求包的内<br>容base64编码后传入接口，需要对burp做以<br>下设置，否则获取到的编码为损坏的   - 需<br>要勾选User options->Character Sets中的U<br>se the platform default(UTF-8)[MAC]，<br>或者勾选Display as raw bytes[Windows]  <br>  感谢微信群师傅Ronin师傅反馈|
-|2023-04-25 04:01:24|[veinmind-tools](https://github.com/chaitin/veinmind-tools)|v2.1.2|## Feature  * feat(veinmind-weakpass)<br>: support ftp @ek1ng in https://github<br>.com/chaitin/veinmind-tools/pull/226  <br>* feat(veinmind-iac): add dockerfile s<br>ecurity detection by @ek1ng in https:/<br>/github.com/chaitin/veinmind-tools/pul<br>l/228    ## Fix  * fix(ai): ignore bas<br>ic info analyzer by @DVKunion in https<br>://github.com/chaitin/veinmind-tools/p<br>ull/218  * fix(Makefile): add CGO_ENBA<br>LED && update(dependency): update depe<br>ndency version by @ek1ng in https://gi<br>thub.com/chaitin/veinmind-tools/pull/2<br>21  * fix(CI/CD): change goproxy setti<br>ngs by @ek1ng in https://github.com/ch<br>aitin/veinmind-tools/pull/222    ## Ot<br>hers  * doc: update README.md by @DVKu<br>nion in https://github.com/chaitin/vei<br>nmind-tools/pull/219    ## New Contrib<br>utors  * @ek1ng made their first contr<br>ibution in https://github.com/chaitin/<br>veinmind-tools/pull/221    **Full Chan<br>gelog**: https://github.com/chaitin/ve<br>inmind-tools/compare/v2.1.1...v2.1.2|
-|2023-04-25 03:38:54|[knife](https://github.com/bit4woo/knife)|v2.2|更新“Find URL And Request”功能  更<br>新chinese中文显示面板逻辑，及时刷新避免<br>有时显示不一致的问题  端口扫描逻辑优化<br>，多个host在同一个命令行中完成扫描，避<br>免打开太多窗口  更新dismiss功能，规则更<br>清晰也更容易自行编辑处理。  让proxy中的<br>数据包编辑更改可视化，更容易判断数据处<br>理规则是否正确  数据包修改更新、丢弃转<br>发的规则类型更丰富，适应更多场景。|
 ## 近15天commit提交记录
 | 提交时间 | 项目名称 | 更新内容 |
 | :---- | :---- | :---- |
-|2023-05-10 00:30:17|[NucleiTP](https://github.com/ExpLangcn/NucleiTP)|更新啦❤️|
+|2023-05-10 22:09:39|[PocOrExp_in_Githu<br>b](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-05-11 06:09:39|
+|2023-05-10 18:02:24|[Elkeid](https://github.com/bytedance/Elkeid)|update links|
+|2023-05-10 17:41:18|[trivy](https://github.com/aquasecurity/trivy)|docs(misconf): Remove examples.md (#4256)|
+|2023-05-10 16:30:11|[syft](https://github.com/anchore/syft)|feat: Add R cataloger (#1790)  Add a cataloger that<br> detects installed R packages by looking for DESCRIP<br>TION  files. The base R package is now picked up in <br>coverageImage tests in  test/cli/packages_cmd_test.g<br>o, so increment expected package counts for the  tes<br>ts that use that image.    Signed-off-by: Will Murph<br>y |
+|2023-05-10 16:15:19|[NucleiTP](https://github.com/ExpLangcn/NucleiTP)|更新啦❤️|
+|2023-05-10 15:56:14|[dbeaver](https://github.com/dbeaver/dbeaver)|CB-3313 add supported configuration types for dynam<br>ic driver properties (#19833)  * CB-3313 add support<br>ed configuration types for dynamic driver properties<br>    * CB-3313 set manual configuration type for prop<br>erty by default    * CB-3313 code style fix|
+|2023-05-10 14:12:10|[v2rayA](https://github.com/v2rayA/v2rayA)|fix(gui): should not always show SNI and should fil<br>l in default flow value|
+|2023-05-10 14:03:11|[PEASS-ng](https://github.com/carlospolop/PEASS-ng)|Update linpeas_base.sh|
+|2023-05-10 12:26:15|[grype](https://github.com/anchore/grype)|chore(deps): update bootstrap tools to latest versi<br>ons (#1285)|
+|2023-05-10 12:20:33|[Antenna](https://github.com/wuba/Antenna)|Merge pull request #119 from wuba/develop  更新http<br>s证书|
+|2023-05-10 10:30:39|[noterce](https://github.com/xiao-zhu-zhu/noterce)|Update README.md|
+|2023-05-10 10:04:34|[afrog](https://github.com/zan8in/afrog)|logo|
+|2023-05-10 09:01:46|[safeline](https://github.com/chaitin/safeline)|feat: add star history|
+|2023-05-10 07:41:40|[domain_hunter_pro](https://github.com/bit4woo/domain_hunter_pro)|网段汇算逻辑排除CDN IP|
+|2023-05-10 03:18:53|[fscan](https://github.com/shadow1ng/fscan)|Merge pull request #272 from wgpsec/main  修复自动<br>化编译问题|
+|2023-05-10 01:11:55|[RouteVulScan](https://github.com/F6JO/RouteVulScan)|Update README.md|
 |2023-05-09 23:13:16|[neuvector](https://github.com/neuvector/neuvector)|NVSHAS-7887: no Kubenetes.NeuVector.RBAC event is c<br>reated if service account is default on neuvector-bi<br>nding-app ClusterRoleBinding|
-|2023-05-09 23:10:39|[PocOrExp_in_Githu<br>b](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-05-10 07:10:39|
-|2023-05-09 19:25:08|[trivy](https://github.com/aquasecurity/trivy)|refactor: define vulnerability scanner interfaces (<br>#4117)|
 |2023-05-09 18:48:52|[clair](https://github.com/quay/clair)|cicd: update nightly job to work  Signed-off-by: Ha<br>nk Donnay |
-|2023-05-09 16:53:30|[v2rayA](https://github.com/v2rayA/v2rayA)|Merge pull request #941 from MarksonHon/feat_v5  Fi<br>x Windows build workflow|
-|2023-05-09 15:59:39|[syft](https://github.com/anchore/syft)|chore(deps): bump golang.org/x/net from 0.9.0 to 0.<br>10.0 (#1802)  Bumps  from 0.9.0 to 0.10.0.  -     --<br>-  updated-dependencies:  - dependency-name: golang.<br>org/x/net    dependency-type: direct:production    u<br>pdate-type: version-update:semver-minor  ...    Sign<br>ed-off-by: dependabot[bot]   Co-authored-by: dependa<br>bot[bot] |
-|2023-05-09 13:12:54|[dbeaver](https://github.com/dbeaver/dbeaver)|dbeaver/pro#1573 Fix NPE in plan read. Use first no<br>de as root (#19885)|
-|2023-05-09 09:53:32|[RouteVulScan](https://github.com/F6JO/RouteVulScan)|update 1.5|
 |2023-05-09 09:32:17|[ARL](https://github.com/TophantTechnology/ARL)|Merge pull request #558 from TophantTechnology/upda<br>te/license  Create LICENSE.md|
 |2023-05-09 09:13:45|[PocList](https://github.com/1n7erface/PocList)|Update README.md|
 |2023-05-09 09:05:58|[Exp-Tools](https://github.com/cseroad/Exp-Tools)|Update README.md|
-|2023-05-09 07:39:48|[safeline](https://github.com/chaitin/safeline)|Merge pull request #62 from naocanmonster/main  增<br>加了版本升级方案|
-|2023-05-09 03:12:11|[afrog](https://github.com/zan8in/afrog)|update|
 |2023-05-09 01:58:02|[DNSlog-GO](https://github.com/lanyi1998/DNSlog-GO)|fix: windows build error|
 |2023-05-09 01:46:33|[GoWxDump](https://github.com/SpenserCai/GoWxDump)|fix #19 支持 3.9.2.26|
 |2023-05-09 01:43:26|[SmsForwarder](https://github.com/pppscn/SmsForwarder)|整理：code review & 精简无用资源|
-|2023-05-08 21:14:45|[grype](https://github.com/anchore/grype)|feat: add non-hermetic sprig functions (#1243) (#12<br>73)  Because the general set of sprig functions can <br>used to access  environment variables, explicitly wa<br>rn users never to run untrusted  templates.    -----<br>----    Signed-off-by: James Neate   Signed-off-by: <br>Will Murphy   Co-authored-by: Will Murphy |
 |2023-05-08 18:07:07|[faker](https://github.com/joke2k/faker)|Bump version: 18.6.2 → 18.7.0|
 |2023-05-08 17:00:45|[railgun](https://github.com/lz520520/railgun)|Update README.md|
-|2023-05-08 15:42:22|[PEASS-ng](https://github.com/carlospolop/PEASS-ng)|Update CI-master_tests.yml|
 |2023-05-08 13:20:06|[veinmind-tools](https://github.com/chaitin/veinmind-tools)|feat(plugins): add mysql5 weakpass scan (#237)  * f<br>eat(plugins): add mysql5 weakpass scan    * feat(plu<br>gins): add mysql5 weakpass scan    * feat(plugins): <br>add mysql5 weakpass scan|
 |2023-05-08 11:24:15|[HackBrowserData](https://github.com/moonD4rk/HackBrowserData)|refactor: Refactor storage queries and filters.  - <br>Update local storage query constant and function cal<br>ls - Remove null and control characters from UTF-8 s<br>plit function|
-|2023-05-08 11:21:09|[domain_hunter_pro](https://github.com/bit4woo/domain_hunter_pro)|Update LineEntryMenu.java|
 |2023-05-08 03:01:31|[404StarLink](https://github.com/knownsec/404StarLink)|weekly update at 2023-05-08|
 |2023-05-08 02:05:40|[ENScan_GO](https://github.com/wgpsec/ENScan_GO)|Merge pull request #56 from Blyth0He/master  Create<br> Dockerfile|
 |2023-05-08 01:09:24|[SharpWxDump](https://github.com/AdminTest0/SharpWxDump)|Update Program.cs|
-|2023-05-07 18:45:06|[Elkeid](https://github.com/bytedance/Elkeid)|Merge pull request #495 from bytedance/doc|
 |2023-05-07 12:55:00|[Ladon](https://github.com/k8gege/Ladon)|Delete Ladon911_20230505.ps1|
 |2023-05-07 12:34:14|[K8tools](https://github.com/k8gege/K8tools)|Add files via upload|
 |2023-05-06 12:10:05|[Viper](https://github.com/FunnyWolf/Viper)|update version v1.5.28|
@@ -76,7 +76,6 @@
 |2023-05-06 09:52:47|[APTRS](https://github.com/Anof-cyber/APTRS)|Update README.md|
 |2023-05-06 01:58:06|[Pentest-Windows](https://github.com/arch3rPro/Pentest-Windows)|Update README.md|
 |2023-05-06 01:38:30|[Awesome-Redteam](https://github.com/Threekiii/Awesome-Redteam)|更新README.md|
-|2023-05-05 15:31:28|[fscan](https://github.com/shadow1ng/fscan)|update|
 |2023-05-05 14:42:22|[nemo_go](https://github.com/hanc00l/nemo_go)|Update: goby api request|
 |2023-05-05 11:02:21|[URLFinder](https://github.com/pingc0y/URLFinder)|2023/5/5更新|
 |2023-05-05 09:39:23|[NextScan](https://github.com/tongcheng-security-team/NextScan)|添加群聊|
@@ -101,19 +100,13 @@
 |2023-04-29 11:59:18|[cf](https://github.com/teamssix/cf)|Merge pull request #226 from teamssix/beta  Update <br>CHANGELOG.md|
 |2023-04-29 06:15:36|[pocsuite3](https://github.com/knownsec/pocsuite3)|Merge pull request #365 from 13ph03nix/nuclei-issue<br>-3055-protocol-name  fix: Updated protocol attribute<br> name (requests=> http & network => tcp)|
 |2023-04-28 17:19:10|[RedisEXP](https://github.com/yuyan-sec/RedisEXP)|update|
-|2023-04-28 15:11:22|[noterce](https://github.com/xiao-zhu-zhu/noterce)|Update README.md|
 |2023-04-28 15:04:16|[HostHeaderAttack](https://github.com/weujieytt/HostHeaderAttack)|Update HostAttackScanner.java|
 |2023-04-27 19:56:24|[SSTImap](https://github.com/vladko312/SSTImap)|Version 1.1.1 (Improvements)  Improved config funct<br>ionality  Fixed crawling changing settings  Fixed au<br>tomatic imports  Added warning for new python versio<br>ns    A minor update with simple improvements and fi<br>xes|
 |2023-04-27 08:45:04|[code6](https://github.com/4x99/code6)|Update README.md|
 |2023-04-27 08:24:29|[CodeQLpy](https://github.com/webraybtl/CodeQLpy)|修复路径中有空格导致的ecj编译失败|
 |2023-04-26 14:29:38|[log4j2burpscanner](https://github.com/f0ng/log4j2burpscanner)|Update README.md|
 |2023-04-26 10:21:08|[appshark](https://github.com/bytedance/appshark)|bugfix: profiler serve delay when CPU is overload.|
-|2023-04-26 02:03:35|[ApoalypseSecTools](https://github.com/ApocalypseSec/ApoalypseSecTools)|Update README.md|
-|2023-04-25 21:26:26|[slowhttptest](https://github.com/shekyan/slowhttptest)|updated Dockerfile to use Alpine 3.17 from issue #8<br>0 (#81)  Co-authored-by: Brian Riffle |
-|2023-04-25 19:16:43|[Stowaway](https://github.com/ph4ntonn/Stowaway)|Update README|
-|2023-04-25 07:10:09|[autoDecoder](https://github.com/f0ng/autoDecoder)|Update README.md|
-|2023-04-25 06:23:58|[heapdump_tool](https://github.com/wyzxxz/heapdump_tool)|Update README.md|
-|2023-04-25 03:38:19|[knife](https://github.com/bit4woo/knife)|v2.2|## 所有项目
+|2023-04-26 02:03:35|[ApoalypseSecTools](https://github.com/ApocalypseSec/ApoalypseSecTools)|Update README.md|## 所有项目
 # 渗透测试
 ## 信息收集
 ### 资产测绘采集
@@ -513,7 +506,7 @@
 ### 远控
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
-| [noterce](https://github.com/xiao-zhu-zhu/noterce) | v1.2 | 一种另辟蹊径的免杀执行系统命令的木马 |
+| [noterce](https://github.com/xiao-zhu-zhu/noterce) | 1.3 | 一种另辟蹊径的免杀执行系统命令的木马 |
 ### 免杀
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
@@ -530,7 +523,7 @@
 | [dirtycow](https://github.com/firefart/dirtycow) |  | Dirty Cow exploit - CVE-2016-5195 |
 | [traitor](https://github.com/liamg/traitor) | v0.0.14 | :arrow_up: :skull_and_crossbones: :fire: Automatic Linux prive<br>sc via exploitation of low-hanging fruit e.g. gtfobins, pwnkit,<br> dirty pipe, +w docker.sock |
 | [LinEnum](https://github.com/rebootuser/LinEnum) |  | Scripted Local Linux Enumeration & Privilege Escalation Checks |
-| [PEASS-ng](https://github.com/carlospolop/PEASS-ng) | 2023050<br>8-32e5ab<br>22 | PEASS - Privilege Escalation Awesome Scripts SUITE (with color<br>s) |
+| [PEASS-ng](https://github.com/carlospolop/PEASS-ng) | 2023051<br>0-778666<br>a3 | PEASS - Privilege Escalation Awesome Scripts SUITE (with color<br>s) |
 | [traitor](https://github.com/liamg/traitor) | v0.0.14 | :arrow_up: :skull_and_crossbones: :fire: Automatic Linux prive<br>sc via exploitation of low-hanging fruit e.g. gtfobins, pwnkit,<br> dirty pipe, +w docker.sock |
 ### 容器提权
 | 项目名称 | 版本 | 项目描述 |
