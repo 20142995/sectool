@@ -34,6 +34,7 @@
             - https://github.com/pingc0y/URLFinder
             - https://github.com/Threezh1/JSFinder
             - https://github.com/lijiejie/BBScan
+            - https://github.com/corunb/Dirscan
 
         指纹识别:
             - https://github.com/EdgeSecurityTeam/EHole
@@ -165,6 +166,7 @@
         半自动化漏洞利用:
             - https://github.com/lz520520/railgun
             - https://github.com/gobysec/Goby
+            - https://github.com/niudaii/zpscan
         数据库利用:
             - https://github.com/SafeGroceryStore/MDUT
             - https://github.com/uknowsec/SharpSQLTools
@@ -304,6 +306,7 @@
             - https://github.com/wgpsec/CreateHiddenAccount
         远控:
             - https://github.com/xiao-zhu-zhu/noterce
+            - https://github.com/tdragon6/Supershell
         免杀:
             - https://github.com/knownsec/shellcodeloader
             - https://github.com/1y0n/AV_Evasion_Tool
