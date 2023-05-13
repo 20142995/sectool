@@ -1,8 +1,11 @@
-# 更新于 2023-05-12 08:39:37
+# 更新于 2023-05-13 08:38:18
 
 ## 近15天release更新记录
 | 更新时间 | 项目名称 | 版本 | 更新内容 |
 | :---- | :---- | :---- | :---- |
+|2023-05-12 15:10:24|[whatweb-plus](https://github.com/winezer0/whatweb-plus)|v0.5.5.<br>18|增加插件风险等级过滤功能:  插件过滤参<br>数    --risk-level, -r=RISK     设置调<br>用指定的风险级别的插件级。默认值: 1    <br>1. None 为每个目标调用无风险和更高级别<br>的插件    2. Low 为每个目标调用低风险和<br>更高级别的插件    3. Mid 为每个目标调用<br>中等风险和更高级别的插件    4. High 为<br>每个目标调用高风险和更高级别的插件    -<br>-risk-exact, --re     仅调用指定等级的<br>插件,不调用更高级别的插件。默认值:false<br>    risk属性配置示例:    Plugin.define<br> do    name "HTML5"    authors [ "Andr<br>ew Horton", ]    risk 2  # 加risk行即<br>可配置    version "0.2"    ....    end <br>    注意事项： risk属性需要在插件内配<br>置,没有配置就默认为None级别。|
+|2023-05-12 06:32:18|[safeline](https://github.com/chaitin/safeline)|v1.4.0|### 新增  - 自定义规则支持匹配域名  -<br> 支持在一条自定义规则内，设置多个匹配<br>条件  - 站点列表新增 “今日访问 / 拦截<br>量”    ### 优化  - 优化交互和提示文案<br>、修复已知问题    **注意：低版本升级请<br>执行 upgrade.sh 脚本，或者重新手动更新 <br>compose.yaml 文件**|
+|2023-05-12 03:16:59|[iDefender](https://github.com/wecooperate/iDefender)|2.7.0|添加易用性、稳定性，建议更新    - 更<br>新SDK到最新的版本    - 文件的读写添加首<br>次事件通知    - 过滤掉命名管道的读写请<br>求    - 规则引擎优化    - 去掉只读文件<br>监控开关    - 隐私保护换成读取文件、文<br>件映射事件    - 导出规则、导入规则、分<br>享规则添加信任列表的导出导入  - 优化开<br>机启动的逻辑，添加注册表开机启动项  - <br>模板更新（支持经典模式：新建、修改、删<br>除、读取等概念）    - 添加全能模板    -<br> 添加进程行为模板    - 添加文件行为模<br>板    - 添加注册表行为模板    - 添加网<br>络行为模板    - 其他    - 修复数据库一<br>些操作异常    - 修复进程保护、进程操作<br>拦截可能导致进程启动不了的问题    - 修<br>复一些误报问题    - 修复对话框界面最大<br>化状态的阴影问题    - 规则引擎添加更多<br>扩展属性              软件下载   |
 |2023-05-11 23:49:58|[nuclei](https://github.com/projectdiscovery/nuclei)|v2.9.4|## What's Changed  * Added option for<br> nuclei templates / config reset by @t<br>arunKoyalwar in https://github.com/pro<br>jectdiscovery/nuclei/pull/3675  consol<br>e     -reset  reset removes all nuclei<br> configuration and data files (includi<br>ng nuclei-templates)        **Full Cha<br>ngelog**: https://github.com/projectdi<br>scovery/nuclei/compare/v2.9.3...v2.9.4|
 |2023-05-11 14:38:10|[murphysec](https://github.com/murphysecurity/murphysec)|v3.1.0||
 |2023-05-11 07:41:26|[xray](https://github.com/chaitin/xray)|1.9.9|## 1.9.9(2023-5-11)    ### 版本介绍  <br>  该版本为 宏景人力系统 SQL注入漏洞(CN<br>VD-2023-08743) 的应急版本，相较上个版<br>本：      - 添加了一个POC      - 优化了<br>subdomain的参数，使参数缩写与webscan保<br>持一致    ### 更新内容    想要检测该漏<br>洞的师傅，可以使用    ./xray ws --poc p<br>oc-yaml-hjsoft-hcm-codesettree-serlvet<br>-categories-sqli --url http://example.<br>com    进行检测。    相关参考链接：|
@@ -21,7 +24,6 @@
 |2023-05-06 12:11:03|[Viper](https://github.com/FunnyWolf/Viper)|v1.5.28|## v1.5.28 20230506  ### 新功能  - 新<br>增只显示Session功能(首页和网络拓扑更简<br>洁)  - 面向互联网的handler被扫描(网络测<br>绘)时会在Notice提示  ### 优化  - 合并me<br>tasploit-framework 6.3.16版本  ### Bug<br>fix  - 修复无法修改包含中文内容的文件<br>问题  - 修复文件管理无法上传文件问题|
 |2023-05-05 17:43:22|[syft](https://github.com/anchore/syft)|v0.80.0|# Changelog  ##  (2023-05-05)    ### <br>Added Features  - Improve pnpm support<br> ] ] ]  ### Bug Fixes  - chore: add mo<br>re detail on SPDX file IDs ] ] - chore<br>: do not HTML escape PackageURLs ] ] -<br> RPM database not found on ostree-mana<br>ged systems ] ] ] - Unable to use syft<br> for private azure container registry <br>] - linux-kernel-cataloger produces th<br>ousands of version-less components.  ]<br> ] ]  ### Deprecated Features  - Renam<br>e pkg.Catalog to pkg.Collection ] ]   <br> |
 |2023-05-05 13:08:55|[WeblogicTool](https://github.com/KimJun1010/WeblogicTool)|v1.1|更新记录  - 修复多个小bug  - 增加自定<br>义超时时间功能  - 增加 CVE-2023-21931 J<br>NDI漏洞 |
-|2023-05-05 08:18:44|[safeline](https://github.com/chaitin/safeline)|v1.3.0|### 新增  - 支持按照源 IP、攻击类型、<br>URL 筛选检测日志    ### 修复  - 修复 d<br>ashboard 在部分低版本浏览器下的兼容问<br>题  - 修复按源 IP 添加自定义规则时，添<br>加不了 /8 和更大的网段的问题    **注意<br>：低版本升级请执行 upgrade.sh 脚本，或<br>者重新手动更新 compose.yaml 文件**|
 |2023-05-05 03:21:56|[afrog](https://github.com/zan8in/afrog)|v2.3.1|**Urgent update:**    BUG:  - Solve t<br>he problem that the intranet cannot be<br> used due to version check    Added:  <br>- command -disable-update-check, -duc <br>disable automatic update check    Revi<br>se:  - Now update-poc will be executed<br> automatically, to disable this functi<br>on, please use -duc command  ---------<br>--    **紧急更新**    BUG：  - 解决 版<br>本检查  导致内网无法使用问题     新增：<br>  - 命令 -disable-update-check，-duc <br>禁用自动更新检查    修改：  - 现在 upda<br>te-poc 会自动执行，禁用这个功能，请使<br>用 -duc 命令  |
 |2023-05-04 06:43:35|[AsamF](https://github.com/Kento-Sec/AsamF)|v0.1.13|v0.1.13    大大提升了zoomeye、quake的<br>查询速度。|
 |2023-05-01 13:29:07|[subfinder](https://github.com/projectdiscovery/subfinder)|v2.5.8|## What's Changed    * Added  as new <br>source support (#743)  by @gboddin in <br>https://github.com/projectdiscovery/su<br>bfinder/pull/793  * Fixed 360quake api<br> to specify include field by @chushuai<br> in https://github.com/projectdiscover<br>y/subfinder/pull/815  * Updated code t<br>o get domain result with onresultcallb<br>ack by @dogancanbakir in https://githu<br>b.com/projectdiscovery/subfinder/pull/<br>800  * Updated hackertarget source url<br> by @ehsandeep in https://github.com/p<br>rojectdiscovery/subfinder/pull/823    <br>Issues closed in release - https://git<br>hub.com/projectdiscovery/subfinder/mil<br>estone/6?closed=1    ## Deps update   <br> * chore(deps): bump actions/setup-go <br>from 3 to 4 by @dependabot in https://<br>github.com/projectdiscovery/subfinder/<br>pull/794  * chore(deps): bump github.c<br>om/projectdiscovery/chaos-client from <br>0.5.0 to 0.5.1 in /v2 by @dependabot i<br>n https://github.com/projectdiscovery/<br>subfinder/pull/797  * chore(deps): bum<br>p alpine from 3.17.2 to 3.17.3 by @dep<br>endabot in https://github.com/projectd<br>iscovery/subfinder/pull/801  * chore(d<br>eps): bump github.com/projectdiscovery<br>/utils from 0.0.16 to 0.0.19 in /v2 by<br> @dependabot in https://github.com/pro<br>jectdiscovery/subfinder/pull/802  * ch<br>ore(deps): bump golang from 1.20.1-alp<br>ine to 1.20.3-alpine by @dependabot in<br> https://github.com/projectdiscovery/s<br>ubfinder/pull/803  * chore(deps): bump<br> github.com/rs/xid from 1.4.0 to 1.5.0<br> in /v2 by @dependabot in https://gith<br>ub.com/projectdiscovery/subfinder/pull<br>/804  * chore(deps): bump github.com/l<br>ib/pq from 1.10.7 to 1.10.8 in /v2 by <br>@dependabot in https://github.com/proj<br>ectdiscovery/subfinder/pull/808  * cho<br>re(deps): bump github.com/projectdisco<br>very/utils from 0.0.19 to 0.0.24 in /v<br>2 by @dependabot in https://github.com<br>/projectdiscovery/subfinder/pull/810  <br>* chore(deps): bump github.com/project<br>discovery/utils from 0.0.24 to 0.0.25 <br>in /v2 by @dependabot in https://githu<br>b.com/projectdiscovery/subfinder/pull/<br>818  * chore(deps): bump github.com/li<br>b/pq from 1.10.8 to 1.10.9 in /v2 by @<br>dependabot in https://github.com/proje<br>ctdiscovery/subfinder/pull/821  * chor<br>e(deps): bump github.com/projectdiscov<br>ery/utils from 0.0.25 to 0.0.26 in /v2<br> by @dependabot in https://github.com/<br>projectdiscovery/subfinder/pull/826  *<br> chore(deps): bump github.com/projectd<br>iscovery/dnsx from 1.1.3 to 1.1.4 in /<br>v2 by @dependabot in https://github.co<br>m/projectdiscovery/subfinder/pull/825 <br>   ## New Contributors  * @gboddin mad<br>e their first contribution in https://<br>github.com/projectdiscovery/subfinder/<br>pull/793  * @chushuai made their first<br> contribution in https://github.com/pr<br>ojectdiscovery/subfinder/pull/816    *<br>*Full Changelog**: https://github.com/<br>projectdiscovery/subfinder/compare/v2.<br>5.7...v2.5.8|
@@ -33,35 +35,39 @@
 |2023-04-29 06:20:47|[pocsuite3](https://github.com/knownsec/pocsuite3)|v2.0.4|* 兼容 nuclei v2.9.1 的模版协议名称变<br>化 #364     ---    * Updated protocol n<br>ames that are compatible with Nuclei v<br>2.9.1 #364 |
 |2023-04-28 08:20:04|[rad](https://github.com/chaitin/rad)|1.0|更新同步自：    - 新增批量爬取功能（-<br>-url-file）  - 新增subdomain配置，用于<br>控制是否爬取子域。  - 增加mac arm版本  <br>- 优化了扫描性能  - 取消了自动播放音频<br>  - 上层代理设置可以不携带协议名称  - <br>大幅优化爬取效率（开启过滤同站点相似元<br>素强度即可体验）  - 修复了部分站点不爬<br>取的bug  - 修复了可能会出现爬到目标外站<br>点的bug  - 修复了爬取数量减少的bug  - <br>修复已知问题  |
 |2023-04-28 06:00:39|[trivy](https://github.com/aquasecurity/trivy)|v0.41.0|## ⚡Release highlights and summary⚡<br>    👉 https://github.com/aquasecurity<br>/trivy/discussions/4135    ## Changelo<br>g  * 1be1e2e63 fix(spdx): add workarou<br>nd for no src packages (#4118)  * 45bc<br>9e0de test(golang): rename broken go.m<br>od (#4129)  * 3334e78fa feat(sbom): ad<br>d supplier field (#4122)  * 27fb1bfde <br>test(misconf): skip downloading of pol<br>icies for tests #4126  * 845ae31e5 ref<br>actor: use debug message for post-anal<br>yze errors (#4037)  * 11a5b91a1 feat(s<br>bom): add VEX support (#4053)  * 5eab4<br>6498 feat(sbom): add primary package p<br>urpose field for SPDX (#4119)  * a00d0<br>0eb9 fix(k8s): fix quiet flag (#4120) <br> * 9bc326909 fix(python): parse of pip<br> extras (#4103)  * 855984167 feat(java<br>): use full path for nested jars (#399<br>2)  * 0650e0e1d feat(license): add new<br> flag for classifier confidence level <br>(#4073)  * 43b649627 feat: config and <br>fs compliance support (#4097)  * 9181b<br>c1f7 chore(deps): bump sigstore/cosign<br>-installer from 2.8.1 to 3.0.1 (#3952)<br>  * 48e021ea6 feat(spdx): add support <br>for SPDX 2.3 (#4058)  * 107752df6 fix:<br> k8s all-namespaces support (#4096)  *<br> bd0c60364 perf(misconf): replace with<br> post-analyzers (#4090)  * 76662d5dd f<br>ix(helm): update networking API versio<br>n detection (#4106)  * be47b688c feat(<br>image): custom docker host option (#35<br>99)  * cc18f92cf style: debug flag is <br>incorrect and needs extra - (#4087)  *<br> 572a6193e docs(vuln): Document inline<br> vulnerability filtering comments (#40<br>24)  * 914c6f092 feat(fs): customize e<br>rror callback during fs walk (#4038)  <br>* 3f02feeff fix(ubuntu): skip copyrigh<br>t files from subfolders (#4076)  * 57b<br>b77c06 docs: restructure scanners (#39<br>77)  * b19b56c34 fix: fix file does no<br>t exist error for post-analyzers (#406<br>1)    |
-|2023-04-27 01:14:02|[Exp-Tools](https://github.com/cseroad/Exp-Tools)|v1.1.6|- 新增泛微ecology前台sql注入-2  - 新<br>增红帆OA任意文件写入  - 修复泛微emobile<br>一处bug  - 删除泛微ecology后台皮肤文件<br>上传  - 删除conf文件夹，修改为启动时创<br>建  - 删除cookie提示|
 ## 近15天commit提交记录
 | 提交时间 | 项目名称 | 更新内容 |
 | :---- | :---- | :---- |
-|2023-05-12 00:30:16|[NucleiTP](https://github.com/ExpLangcn/NucleiTP)|更新啦❤️|
+|2023-05-13 00:30:18|[NucleiTP](https://github.com/ExpLangcn/NucleiTP)|更新啦❤️|
+|2023-05-13 00:00:02|[free](https://github.com/freefq/free)|updated_at 05-13 08:00|
+|2023-05-12 22:11:08|[PocOrExp_in_Githu<br>b](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-05-13 06:11:08|
+|2023-05-12 16:50:10|[whatweb-plus](https://github.com/winezer0/whatweb-plus)|commit   Former-commit-id: 328b4b6145cb97e23ea2601e<br>7523e9cc596cef23|
+|2023-05-12 15:05:59|[dbeaver](https://github.com/dbeaver/dbeaver)|Merge remote-tracking branch 'origin/devel' into de<br>vel|
+|2023-05-12 12:36:05|[v2rayfree](https://github.com/aiboboxx/v2rayfree)|update|
+|2023-05-12 10:30:11|[trivy](https://github.com/aquasecurity/trivy)|fix(alpine): add EOL date for Alpine 3.18 (#4308)|
+|2023-05-12 09:58:11|[vulhub](https://github.com/vulhub/vulhub)|Merge pull request #351 from ndeloof/patch-1  Updat<br>e README for compose v2|
+|2023-05-12 09:43:54|[afrog](https://github.com/zan8in/afrog)|update|
+|2023-05-12 08:04:37|[safeline](https://github.com/chaitin/safeline)|feat: add instructions for mannually updating docke<br>r images|
+|2023-05-12 04:05:26|[domain_hunter_pro](https://github.com/bit4woo/domain_hunter_pro)|Update LineEntryMenu.java|
+|2023-05-12 03:56:46|[ddddocr](https://github.com/sml2h3/ddddocr)|Update README.md|
+|2023-05-12 02:13:19|[Elkeid](https://github.com/bytedance/Elkeid)|update ko download url|
 |2023-05-11 23:48:32|[nuclei](https://github.com/projectdiscovery/nuclei)|version update|
 |2023-05-11 23:15:08|[neuvector](https://github.com/neuvector/neuvector)|NVSHAS-7907: Add debug flag for interactive scan|
-|2023-05-11 22:14:35|[PocOrExp_in_Githu<br>b](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-05-12 06:14:35|
 |2023-05-11 19:37:47|[clair](https://github.com/quay/clair)|build(deps): bump go.opentelemetry.io/contrib/instr<br>umentation/net/http/httptrace/otelhttptrace  Bumps  <br>from 0.29.0 to 0.41.1. -  -  -   --- updated-depende<br>ncies: - dependency-name: go.opentelemetry.io/contri<br>b/instrumentation/net/http/httptrace/otelhttptrace  <br> dependency-type: direct:production   update-type: v<br>ersion-update:semver-minor ...  Signed-off-by: depen<br>dabot[bot] |
 |2023-05-11 19:09:25|[grype](https://github.com/anchore/grype)|should only use hermetic functions in templates (#1<br>288)  Signed-off-by: Alex Goodman |
 |2023-05-11 16:05:14|[Dude](https://github.com/x364e3ab6/Dude)|Update README.md|
 |2023-05-11 14:36:58|[PocList](https://github.com/1n7erface/PocList)|Update README.md|
 |2023-05-11 14:11:33|[murphysec](https://github.com/murphysecurity/murphysec)|fix: discard argument|
 |2023-05-11 13:57:55|[v2rayA](https://github.com/v2rayA/v2rayA)|chore: add udp443 flows|
-|2023-05-11 13:40:39|[domain_hunter_pro](https://github.com/bit4woo/domain_hunter_pro)|update|
-|2023-05-11 13:23:25|[dbeaver](https://github.com/dbeaver/dbeaver)|dbeaver/dbeaver#19570 Set minimum Java version to 1<br>1 to allow usage of external JRE|
 |2023-05-11 12:55:27|[syft](https://github.com/anchore/syft)|feat: warn if parsing newer SBOM (#1810)  If syft i<br>s asked to parse an SBOM that was written by a newer<br> version of  syft, emit a warning, since the current<br> version of syft doesn't know about   fields that ma<br>y be added in the future.    Signed-off-by: Will Mur<br>phy |
-|2023-05-11 11:41:17|[trivy](https://github.com/aquasecurity/trivy)|feat: allow root break for mapfs (#4094)|
-|2023-05-11 10:26:56|[Elkeid](https://github.com/bytedance/Elkeid)|Update deploy_hub.md|
 |2023-05-11 09:31:50|[RouteVulScan](https://github.com/F6JO/RouteVulScan)|Update README.md|
+|2023-05-11 09:06:22|[GobypassAV-shellc<br>ode](https://github.com/Pizz33/GobypassAV-shellcode)|Update README.md|
 |2023-05-11 07:23:51|[URLFinder](https://github.com/pingc0y/URLFinder)|Update README.md  2023/5/11更新|
-|2023-05-11 06:28:22|[vulhub](https://github.com/vulhub/vulhub)|Merge pull request #429 from vulhub/shellshock-perm<br>ission  Add x permission to safe.cgi and victim.cgi|
 |2023-05-11 04:02:10|[veinmind-tools](https://github.com/chaitin/veinmind-tools)|feat(plugins): use bullseye && update libveinmind-d<br>ev 1.9.15 (#239)|
-|2023-05-11 03:40:03|[afrog](https://github.com/zan8in/afrog)|update cmd -up|
 |2023-05-11 03:36:19|[captcha-killer-mo<br>dified](https://github.com/f0ng/captcha-killer-modified)|Update FAQ.md|
 |2023-05-10 14:03:11|[PEASS-ng](https://github.com/carlospolop/PEASS-ng)|Update linpeas_base.sh|
 |2023-05-10 12:20:33|[Antenna](https://github.com/wuba/Antenna)|Merge pull request #119 from wuba/develop  更新http<br>s证书|
 |2023-05-10 10:30:39|[noterce](https://github.com/xiao-zhu-zhu/noterce)|Update README.md|
-|2023-05-10 09:01:46|[safeline](https://github.com/chaitin/safeline)|feat: add star history|
 |2023-05-10 03:18:53|[fscan](https://github.com/shadow1ng/fscan)|Merge pull request #272 from wgpsec/main  修复自动<br>化编译问题|
 |2023-05-09 09:32:17|[ARL](https://github.com/TophantTechnology/ARL)|Merge pull request #558 from TophantTechnology/upda<br>te/license  Create LICENSE.md|
 |2023-05-09 09:05:58|[Exp-Tools](https://github.com/cseroad/Exp-Tools)|Update README.md|
@@ -102,10 +108,7 @@
 |2023-04-29 11:59:18|[cf](https://github.com/teamssix/cf)|Merge pull request #226 from teamssix/beta  Update <br>CHANGELOG.md|
 |2023-04-29 06:15:36|[pocsuite3](https://github.com/knownsec/pocsuite3)|Merge pull request #365 from 13ph03nix/nuclei-issue<br>-3055-protocol-name  fix: Updated protocol attribute<br> name (requests=> http & network => tcp)|
 |2023-04-28 17:19:10|[RedisEXP](https://github.com/yuyan-sec/RedisEXP)|update|
-|2023-04-28 15:04:16|[HostHeaderAttack](https://github.com/weujieytt/HostHeaderAttack)|Update HostAttackScanner.java|
-|2023-04-27 19:56:24|[SSTImap](https://github.com/vladko312/SSTImap)|Version 1.1.1 (Improvements)  Improved config funct<br>ionality  Fixed crawling changing settings  Fixed au<br>tomatic imports  Added warning for new python versio<br>ns    A minor update with simple improvements and fi<br>xes|
-|2023-04-27 08:45:04|[code6](https://github.com/4x99/code6)|Update README.md|
-|2023-04-27 08:24:29|[CodeQLpy](https://github.com/webraybtl/CodeQLpy)|修复路径中有空格导致的ecj编译失败|## 所有项目
+|2023-04-28 15:04:16|[HostHeaderAttack](https://github.com/weujieytt/HostHeaderAttack)|Update HostAttackScanner.java|## 所有项目
 # 渗透测试
 ## 信息收集
 ### 资产测绘采集
@@ -148,12 +151,15 @@
 | [URLFinder](https://github.com/pingc0y/URLFinder) | 2023.5.<br>11 | 一款快速、全面、易用的页面信息提取工具，可快速发现和提取页面中<br>的JS、URL和敏感信息。 |
 | [JSFinder](https://github.com/Threezh1/JSFinder) |  | JSFinder is a tool for quickly extracting URLs and subdomains <br>from JS files on a website. |
 | [BBScan](https://github.com/lijiejie/BBScan) | v1.5 | A fast vulnerability scanner |
+| [Dirscan](https://github.com/corunb/Dirscan) | v1.5.0 | Dirscan是一款由go编写的高性能、高并发的目录扫描器，现在已经支<br>持GET、HEAD、递归扫描、代理、爬虫等功能功能,后续努力实现更多功能<br>。 |
 ### 指纹识别
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
 | [EHole](https://github.com/EdgeSecurityTeam/EHole) | 3.0 | EHole(棱洞)3.0 重构版-红队重点攻击系统指纹探测工具 |
 | [Glass](https://github.com/s7ckTeam/Glass) |  | Glass是一款针对资产列表的快速指纹识别工具，通过调用Fofa/ZoomEy<br>e/Shodan/360等api接口快速查询资产信息并识别重点资产的指纹，也可<br>针对IP/IP段或资产列表进行快速的指纹识别。 |
 | [Finger](https://github.com/EASY233/Finger) |  | 一款红队在大量的资产中存活探测与重点攻击系统指纹探测工具 |
+| [LazyDog](https://github.com/L10nK1n6/LazyDog) | 1.1 | LazyDog是一款通过网络空间测绘引擎读取资产并进行指纹识别的工具 |
+| [whatweb-plus](https://github.com/winezer0/whatweb-plus) | v0.5.5.<br>18 | whatweb 增强版  8000+插件（提供windows可执行文件） |
 ### WAF识别
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
@@ -341,6 +347,7 @@
 | :---- | :---- | :---- |
 | [railgun](https://github.com/lz520520/railgun) | v1.5.4-<br>fix |  |
 | [Goby](https://github.com/gobysec/Goby) | Beta2.2<br>.0 | Attack surface mapping |
+| [zpscan](https://github.com/niudaii/zpscan) | v1.8.39 | 一个有点好用的信息收集工具。A somewhat useful information gath<br>ering tool. |
 ### 数据库利用
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
@@ -506,16 +513,21 @@
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
 | [noterce](https://github.com/xiao-zhu-zhu/noterce) | 1.3 | 一种另辟蹊径的免杀执行系统命令的木马 |
+| [Supershell](https://github.com/tdragon6/Supershell) | latest | Supershell C2 远控平台，基于反向SSH隧道获取完全交互式Shell |
+| [SimpleRemoter](https://github.com/yuanyuanxiang/SimpleRemoter) | v1.0.0.<br>5 | 基于gh0st的远程控制器：实现了终端管理、进程管理、窗口管理、远<br>程桌面、文件管理、语音管理、视频管理、服务管理、注册表管理等功能<br>，优化全部代码及整理排版，修复内存泄漏缺陷，程序运行稳定。项目代<br>码仅限于学习和交流用途。 |
 ### 免杀
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
 | [shellcodeloader](https://github.com/knownsec/shellcodeloader) | v1.1 | shellcodeloader |
 | [AV_Evasion_Tool](https://github.com/1y0n/AV_Evasion_Tool) | 2023041<br>7 | 掩日 - 免杀执行器生成工具 |
+| [GobypassAV-shellc<br>ode](https://github.com/Pizz33/GobypassAV-shellcode) |  | go 免杀shellcode加载器，免杀主流杀软，bypass火绒、360、核晶、d<br>ef等主流杀软 |
+| [ZheTian](https://github.com/yqcs/ZheTian) | v3 | ::ZheTian / 强大的免杀生成工具，Bypass All. |
 ## 权限提升
 ### windows提权
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
 | [BadPotato](https://github.com/BeichenDream/BadPotato) |  | Windows 权限提升 BadPotato |
+| [Windows-exploits](https://github.com/lyshark/Windows-exploits) | Windows<br>Exploits<br>Collecti<br>ons | Windows 平台提权漏洞大合集，长期收集各种提权漏洞利用工具。    <br>    A large collection of rights raising vulnerabilities on the<br> windows platform, which collects various rights raising vulner<br>ability utilization tools for a long time. |
 ### linux提权
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
@@ -565,6 +577,7 @@
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
 | [WMIHACKER](https://github.com/rootclay/WMIHACKER) |  | A Bypass Anti-virus Software Lateral Movement Command Executio<br>n Tool |
+| [sharpwmi](https://github.com/QAX-A-Team/sharpwmi) | v2 | sharpwmi是一个基于rpc的横向移动工具，具有上传文件和执行命令功<br>能。 |
 ### 综合
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
@@ -713,6 +726,7 @@
 | [Chromium-based-XS<br>S-Taint-Tracking](https://github.com/v8blink/Chromium-based-XSS-Taint-Tracking) | v0.3 | Cyclops 是一款具有 XSS 检测功能的浏览器 |
 | [Zoomeye-Tools](https://github.com/knownsec/Zoomeye-Tools) |  | Zoomeye Tools是配合Zoomeye使用的Chrome插件 |
 | [Heimdallr](https://github.com/graynjo/Heimdallr) |  |  |
+| [superSearchPlus](https://github.com/dark-kingA/superSearchPlus) |  | 谷歌插件版本- superSearchPlus是聚合型信息收集插件，支持综合查<br>询，资产测绘查询，信息收集 js敏感信息提取 注释资源扫描 目录扫描 <br>整合了目前常见的资产测绘平台 同时支持数据导出 |
 ### pocassist
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
@@ -896,6 +910,8 @@
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
 | [v2rayA](https://github.com/v2rayA/v2rayA) | v2.0.5 | A web GUI client of Project V which supports V2Ray, Xray, SS, <br>SSR, Trojan and Pingtunnel 🚀 |
+| [free](https://github.com/freefq/free) |  | 翻墙、免费翻墙、免费科学上网、免费节点、免费梯子、免费ss/v2ray<br>/trojan节点、蓝灯、谷歌商店、翻墙梯子 |
+| [v2rayfree](https://github.com/aiboboxx/v2rayfree) |  | v2ray公益免费节点、最新2ray免费v节点订阅地址、v2ray免费节点每<br>日更新、免费ss/v2ray/trojan节点、freefq  |
 ## 笔记
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
@@ -926,7 +942,7 @@
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
 | [openstar](https://github.com/starjun/openstar) |  | lua waf,nginx+lua,openresty,luajit,waf+,cdn,nginx |
-| [safeline](https://github.com/chaitin/safeline) | v1.3.0 | 长亭科技自研，基于业界领先的语义引擎检测技术，打造的简洁、易用<br>的免费 WAF |
+| [safeline](https://github.com/chaitin/safeline) | v1.4.0 | 长亭科技自研，基于业界领先的语义引擎检测技术，打造的简洁、易用<br>的免费 WAF |
 ## 欺骗防御
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
@@ -936,7 +952,7 @@
 ## 主机入侵防御
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
-| [iDefender](https://github.com/wecooperate/iDefender) | 2.6.0 | iDefender（冰盾 - 终端主动防御系统） |
+| [iDefender](https://github.com/wecooperate/iDefender) | 2.7.0 | iDefender（冰盾 - 终端主动防御系统） |
 # 靶场
 ## web靶场
 | 项目名称 | 版本 | 项目描述 |

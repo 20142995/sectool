@@ -200,8 +200,8 @@
     "https://github.com/ycdxsb/PocOrExp_in_Github": {
         "created_at": "2021-04-13 05:46:16",
         "description": "聚合Github上已有的Poc或者Exp，CVE信息来自CVE官网。Auto Collect Poc Or Exp from Github by CVE ID.",
-        "commit_date": "2023-05-11 22:14:35",
-        "commit_message": "update 2023-05-12 06:14:35",
+        "commit_date": "2023-05-12 22:11:08",
+        "commit_message": "update 2023-05-13 06:11:08",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -461,7 +461,7 @@
     "https://github.com/ExpLangcn/NucleiTP": {
         "created_at": "2022-11-08 13:16:56",
         "description": "自动整合全网Nuclei的漏洞POC，实时同步更新最新POC！",
-        "commit_date": "2023-05-12 00:30:16",
+        "commit_date": "2023-05-13 00:30:18",
         "commit_message": "更新啦❤️",
         "release_tag": "",
         "release_date": "",
@@ -1019,9 +1019,9 @@
         "description": "iDefender（冰盾 - 终端主动防御系统）",
         "commit_date": "2023-03-24 06:02:17",
         "commit_message": "update",
-        "release_tag": "2.6.0",
-        "release_date": "2023-04-12 06:53:40",
-        "release_message": "增强稳定性、易用性，建议更新（感谢很多热心网友的建议）\r\n\r\n- **添加学习模式**\r\n  - 在学习模式下，只会旁路监控来学习、观察规则的使用和设置，实际不会拦截任何事件\r\n  - 可以用这种方式来建立白名单\r\n- 增强信任列表\r\n  - 支持手动添加、编辑\r\n  - 不是弹框拦截规则也支持添加信任\r\n- 增强拦截记录交互\r\n  - 支持右键添加信任的目标\r\n- 优化性能\r\n  - 优化系统启动过程的一些规则设置\r\n  - 去掉规则引擎执行线程所有的文件操作\r\n  - 优化UI线程被阻塞后，导致系统短暂卡死的问题\r\n  - 修复一些场景导致启动卡住的问题\r\n- 模板更新\r\n  -  **添加快速模板（拦截模式）**\r\n  -  **添加快速模板（信任模式）**\r\n  - 添加拦截进程启动子进程模板\r\n  - 添加忽略系统初始化过程的规则模板\r\n  - 优化一些内置模板导致误报弹框的\r\n- 其他\r\n  - 调整模板更新逻辑\r\n  - 修复启动到托盘闪一下界面的问题\r\n  - 高级模板的一些字段命名做了中文翻译\r\n  - 修复专家策略设置错误格式导致崩溃的问题\r\n  - 修复进程路径选择的时候选择成进程名的问题\r\n  - 优化自保护跟卡巴斯基冲突的问题\r\n  - 优化一些使用体验问题\r\n\r\n\r\n<div class = \"md_footer\" >\r\n  <a href = \"https://imonitorsdk.com/publish/iDefender.exe\"> <button class=\"main-button\"> 软件下载 </button></a>\r\n</div>"
+        "release_tag": "2.7.0",
+        "release_date": "2023-05-12 03:16:59",
+        "release_message": "添加易用性、稳定性，建议更新\r\n\r\n- 更新SDK到最新的版本\r\n  - 文件的读写添加首次事件通知\r\n  - 过滤掉命名管道的读写请求\r\n  - 规则引擎优化\r\n\r\n- 去掉只读文件监控开关\r\n  - 隐私保护换成读取文件、文件映射事件\r\n\r\n- 导出规则、导入规则、分享规则添加信任列表的导出导入\r\n- 优化开机启动的逻辑，添加注册表开机启动项\r\n- 模板更新（支持经典模式：新建、修改、删除、读取等概念）\r\n  - 添加全能模板\r\n  - 添加进程行为模板\r\n  - 添加文件行为模板\r\n  - 添加注册表行为模板\r\n  - 添加网络行为模板\r\n\r\n- 其他\r\n  - 修复数据库一些操作异常\r\n  - 修复进程保护、进程操作拦截可能导致进程启动不了的问题\r\n  - 修复一些误报问题\r\n  - 修复对话框界面最大化状态的阴影问题\r\n  - 规则引擎添加更多扩展属性\r\n\r\n\r\n\r\n<div class = \"md_footer\" >\r\n  <a href = \"https://imonitorsdk.com/publish/iDefender.exe\"> <button class=\"main-button\"> 软件下载 </button></a>\r\n</div>"
     },
     "https://github.com/Mr-xn/BurpSuite-collections": {
         "created_at": "2020-01-25 02:07:37",
@@ -1044,7 +1044,7 @@
     "https://github.com/sml2h3/ddddocr": {
         "created_at": "2021-07-14 09:00:06",
         "description": "带带弟弟 通用验证码识别OCR pypi版",
-        "commit_date": "2023-04-17 07:42:21",
+        "commit_date": "2023-05-12 03:56:46",
         "commit_message": "Update README.md",
         "release_tag": "",
         "release_date": "",
@@ -2951,8 +2951,8 @@
     "https://github.com/dbeaver/dbeaver": {
         "created_at": "2015-10-21 08:26:28",
         "description": "Free universal database tool and SQL client",
-        "commit_date": "2023-05-11 13:23:25",
-        "commit_message": "dbeaver/dbeaver#19570 Set minimum Java version to 11 to allow usage of external JRE",
+        "commit_date": "2023-05-12 15:05:59",
+        "commit_message": "Merge remote-tracking branch 'origin/devel' into devel",
         "release_tag": "23.0.4",
         "release_date": "2023-05-07 18:00:03",
         "release_message": "\n                - Data Editor:\n                    - Bottom toolbar became customizable\n                    - Disconnected editors can be easily reconnected\n                    - Issue with Ctrl+1 shortcut not working was fixed\n                - SQL Editor:\n                    - Issue with refresh button closing active resul tab was fixed\n                    - Issue with not correct dislaying of \\r\\n sequence was fixed\n                    - Issue when generating the same UUID for all rows was fixed (thanks to @SiyaoIsHiding)\n                - Data Transfer:\n                    - Ability to change the target column type on import to BIGINT was added\n                    - Export from query to CSV was fixed\n                - Git: Missing git buttons and menus were added on macOS (Apple Silicon)\n                - Databases:\n                    - ClickHouse: Catalog support was added\n                    - Informix: issue with extra spaces in table name was fixed\n                    - MySQL:\n                        - Event reading for quoted schemas was fixed\n                        - Time handling in MySQL was improved\n                    - Oracle:\n                        - Issue with parcing IF EXISTS statements was fixed\n                        - The display of DATE with additional settings in the Result Set was fixed\n                        - Inromation about latest statistics update was added\n                    - PostgreSQL:\n                        - Generation of ALTER table SQL for foreign tables was improved\n                        - Role settings were added in generated DDL\n                        - IDENTITY SEQUENCE were added in generated DDL\n                    - Snowflake: issue with incorrect import with BIGINT, INT, REAL, FLOAT, DOUBLE PRECISION, and DECIMAL data types was fixed\n                    - Trino: issue with import files with varchar data type was fixed\n                - Misc:\n                    - SalesForce driver was updated\n                    - ODBC connection error was fixed\n                    - Java native libraries were added to DBeaver installation directly to avoid app crash cased by system restrictions.\n                    - DBeaver started to collect user statistics. It is anonymous and optional\n            "
@@ -3050,8 +3050,8 @@
     "https://github.com/zan8in/afrog": {
         "created_at": "2022-02-24 06:00:32",
         "description": "A Security Tool for Bug Bounty, Pentest and Red Teaming.",
-        "commit_date": "2023-05-11 03:40:03",
-        "commit_message": "update cmd -up",
+        "commit_date": "2023-05-12 09:43:54",
+        "commit_message": "update",
         "release_tag": "v2.3.1",
         "release_date": "2023-05-05 03:21:56",
         "release_message": "**Urgent update:**\r\n\r\nBUG:\r\n- Solve the problem that the intranet cannot be used due to `version check`\r\n\r\nAdded:\r\n- command -disable-update-check, -duc disable automatic update check\r\n\r\nRevise:\r\n- Now update-poc will be executed automatically, to disable this function, please use -duc command\r\n-----------\r\n\r\n**紧急更新**\r\n\r\nBUG：\r\n- 解决 `版本检查`  导致内网无法使用问题\r\n\t\r\n新增：\r\n- 命令 -disable-update-check，-duc 禁用自动更新检查\r\n\r\n修改：\r\n- 现在 update-poc 会自动执行，禁用这个功能，请使用 -duc 命令\r\n"
@@ -3298,8 +3298,8 @@
     "https://github.com/bytedance/Elkeid": {
         "created_at": "2020-12-18 03:15:54",
         "description": "Elkeid is an open source solution that can meet the security requirements of various workloads such as hosts, containers and K8s, and serverless. It is derived from ByteDance's internal best practices.",
-        "commit_date": "2023-05-11 10:26:56",
-        "commit_message": "Update deploy_hub.md",
+        "commit_date": "2023-05-12 02:13:19",
+        "commit_message": "update ko download url",
         "release_tag": "v1.7.0.11-driver-ko-20230426",
         "release_date": "2023-04-26 06:14:59",
         "release_message": ""
@@ -3406,8 +3406,8 @@
     "https://github.com/bit4woo/domain_hunter_pro": {
         "created_at": "2019-01-18 07:15:15",
         "description": "domain_hunter的高级版本，SRC挖洞、HW打点之必备！自动化资产收集；快速Title获取；外部工具联动；等等",
-        "commit_date": "2023-05-11 13:40:39",
-        "commit_message": "update",
+        "commit_date": "2023-05-12 04:05:26",
+        "commit_message": "Update LineEntryMenu.java",
         "release_tag": "v1.9",
         "release_date": "2023-04-18 00:34:58",
         "release_message": "全局：\r\n多个bug修复\r\n布局模式优化\r\n基础方法实现逻辑优化\r\n\r\n右键菜单：\r\n“Do Search”提供主动在制定请求中进行搜索的能力，比如在某企业邮箱的流量中搜索以提取邮箱地址\r\n“Add Request And Comment”右键菜单添逻辑优化，修复一个bug\r\n“Send To Tool Panel”右键菜单处理逻辑优化，可合并发送多个数据包内容\r\n\r\nDomain面板：\r\nroot domain的comments逻辑更新\r\n提供多个网络搜索引擎的后台自动搜索功能\r\nroot domain双击，自动在浏览器中访问\r\n修改目标根域名删除失败的bug\r\n显示序号，以便在排序后恢复原始顺序\r\n\r\nTool面板：\r\n重写JTextArea的paste函数，避免大内容导致程序卡死\r\nJTextArea支持输入文件，而程序处理其内容。\r\n文本取提供简单的历史记录功能\r\nJSON提取逻辑优化\r\n新增多个功能，比如排序\r\n优化URL提取逻辑，避免遗漏没有以/开头的path\r\n\r\nTitle面板中：\r\n端口扫描命令生成逻辑优化\r\n备注和IP内容的显示优化，显示前排序\r\n备注添加逻辑优化\r\n给手动添加的记录添加已知的IP和CNAME、CertInfo\r\n搜索功能增强，支持对数字型字段进行大于、小于、等于等搜索\r\n添加多个搜索实例，以便用户熟悉搜索语法\r\n新增“Do Request Item Again”菜单，对DNS记录或无响应的数据包进行再次请求"
@@ -3915,11 +3915,11 @@
     "https://github.com/chaitin/safeline": {
         "created_at": "2023-04-12 11:30:14",
         "description": "长亭科技自研，基于业界领先的语义引擎检测技术，打造的简洁、易用的免费 WAF",
-        "commit_date": "2023-05-10 09:01:46",
-        "commit_message": "feat: add star history",
-        "release_tag": "v1.3.0",
-        "release_date": "2023-05-05 08:18:44",
-        "release_message": "### 新增\r\n- 支持按照源 IP、攻击类型、URL 筛选检测日志\r\n\r\n### 修复\r\n- 修复 dashboard 在部分低版本浏览器下的兼容问题\r\n- 修复按源 IP 添加自定义规则时，添加不了 /8 和更大的网段的问题\r\n\r\n**注意：低版本升级请执行 upgrade.sh 脚本，或者重新手动更新 compose.yaml 文件**"
+        "commit_date": "2023-05-12 08:04:37",
+        "commit_message": "feat: add instructions for mannually updating docker images",
+        "release_tag": "v1.4.0",
+        "release_date": "2023-05-12 06:32:18",
+        "release_message": "### 新增\r\n- 自定义规则支持匹配域名\r\n- 支持在一条自定义规则内，设置多个匹配条件\r\n- 站点列表新增 “今日访问 / 拦截量”\r\n\r\n### 优化\r\n- 优化交互和提示文案、修复已知问题\r\n\r\n**注意：低版本升级请执行 upgrade.sh 脚本，或者重新手动更新 compose.yaml 文件**"
     },
     "https://github.com/stamparm/identYwaf": {
         "created_at": "2019-01-10 11:27:58",
@@ -3969,8 +3969,8 @@
     "https://github.com/aquasecurity/trivy": {
         "created_at": "2019-04-11 01:01:07",
         "description": "Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more",
-        "commit_date": "2023-05-11 11:41:17",
-        "commit_message": "feat: allow root break for mapfs (#4094)",
+        "commit_date": "2023-05-12 10:30:11",
+        "commit_message": "fix(alpine): add EOL date for Alpine 3.18 (#4308)",
         "release_tag": "v0.41.0",
         "release_date": "2023-04-28 06:00:39",
         "release_message": "## ⚡Release highlights and summary⚡\r\n\r\n👉 https://github.com/aquasecurity/trivy/discussions/4135\r\n\r\n## Changelog\r\n* 1be1e2e63 fix(spdx): add workaround for no src packages (#4118)\r\n* 45bc9e0de test(golang): rename broken go.mod (#4129)\r\n* 3334e78fa feat(sbom): add supplier field (#4122)\r\n* 27fb1bfde test(misconf): skip downloading of policies for tests #4126\r\n* 845ae31e5 refactor: use debug message for post-analyze errors (#4037)\r\n* 11a5b91a1 feat(sbom): add VEX support (#4053)\r\n* 5eab46498 feat(sbom): add primary package purpose field for SPDX (#4119)\r\n* a00d00eb9 fix(k8s): fix quiet flag (#4120)\r\n* 9bc326909 fix(python): parse of pip extras (#4103)\r\n* 855984167 feat(java): use full path for nested jars (#3992)\r\n* 0650e0e1d feat(license): add new flag for classifier confidence level (#4073)\r\n* 43b649627 feat: config and fs compliance support (#4097)\r\n* 9181bc1f7 chore(deps): bump sigstore/cosign-installer from 2.8.1 to 3.0.1 (#3952)\r\n* 48e021ea6 feat(spdx): add support for SPDX 2.3 (#4058)\r\n* 107752df6 fix: k8s all-namespaces support (#4096)\r\n* bd0c60364 perf(misconf): replace with post-analyzers (#4090)\r\n* 76662d5dd fix(helm): update networking API version detection (#4106)\r\n* be47b688c feat(image): custom docker host option (#3599)\r\n* cc18f92cf style: debug flag is incorrect and needs extra - (#4087)\r\n* 572a6193e docs(vuln): Document inline vulnerability filtering comments (#4024)\r\n* 914c6f092 feat(fs): customize error callback during fs walk (#4038)\r\n* 3f02feeff fix(ubuntu): skip copyright files from subfolders (#4076)\r\n* 57bb77c06 docs: restructure scanners (#3977)\r\n* b19b56c34 fix: fix `file does not exist` error for post-analyzers (#4061)\r\n\r\n"
@@ -4167,8 +4167,8 @@
     "https://github.com/vulhub/vulhub": {
         "created_at": "2017-04-09 10:13:13",
         "description": "Pre-Built Vulnerable Environments Based on Docker-Compose",
-        "commit_date": "2023-05-11 06:28:22",
-        "commit_message": "Merge pull request #429 from vulhub/shellshock-permission\n\nAdd x permission to safe.cgi and victim.cgi",
+        "commit_date": "2023-05-12 09:58:11",
+        "commit_message": "Merge pull request #351 from ndeloof/patch-1\n\nUpdate README for compose v2",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -4217,5 +4217,122 @@
         "release_tag": "v0.1",
         "release_date": "2023-05-01 11:38:02",
         "release_message": "初版"
+    },
+    "https://github.com/winezer0/whatweb-plus": {
+        "created_at": "2021-08-09 04:40:58",
+        "description": "whatweb 增强版  8000+插件（提供windows可执行文件）",
+        "commit_date": "2023-05-12 16:50:10",
+        "commit_message": "commit\n\n\nFormer-commit-id: 328b4b6145cb97e23ea2601e7523e9cc596cef23",
+        "release_tag": "v0.5.5.18",
+        "release_date": "2023-05-12 15:10:24",
+        "release_message": "增加插件风险等级过滤功能:\r\n插件过滤参数\r\n\r\n--risk-level, -r=RISK \r\n  设置调用指定的风险级别的插件级。默认值: 1\r\n  1. None 为每个目标调用无风险和更高级别的插件\r\n  2. Low 为每个目标调用低风险和更高级别的插件\r\n  3. Mid 为每个目标调用中等风险和更高级别的插件\r\n  4. High 为每个目标调用高风险和更高级别的插件\r\n\r\n--risk-exact, --re \r\n  仅调用指定等级的插件,不调用更高级别的插件。默认值:false\r\n\r\nrisk属性配置示例:\r\n  Plugin.define do\r\n  name \"HTML5\"\r\n  authors [ \"Andrew Horton\", ]\r\n  risk 2  # 加risk行即可配置\r\n  version \"0.2\"\r\n  ....\r\n  end\r\n \r\n注意事项： risk属性需要在插件内配置,没有配置就默认为None级别。"
+    },
+    "https://github.com/corunb/Dirscan": {
+        "created_at": "2022-10-13 06:30:38",
+        "description": "Dirscan是一款由go编写的高性能、高并发的目录扫描器，现在已经支持GET、HEAD、递归扫描、代理、爬虫等功能功能,后续努力实现更多功能。",
+        "commit_date": "2023-04-02 09:41:41",
+        "commit_message": "v1.5.0",
+        "release_tag": "v1.5.0",
+        "release_date": "2023-03-27 07:20:06",
+        "release_message": "[!] 2023.3.27 修复已知逻辑问题"
+    },
+    "https://github.com/lyshark/Windows-exploits": {
+        "created_at": "2019-10-29 08:25:07",
+        "description": "Windows 平台提权漏洞大合集，长期收集各种提权漏洞利用工具。        A large collection of rights raising vulnerabilities on the windows platform, which collects various rights raising vulnerability utilization tools for a long time.",
+        "commit_date": "2023-01-04 11:10:42",
+        "commit_message": "Update README.md",
+        "release_tag": "WindowsExploitsCollections",
+        "release_date": "2022-04-23 09:49:52",
+        "release_message": ""
+    },
+    "https://github.com/Pizz33/GobypassAV-shellcode": {
+        "created_at": "2023-04-18 07:42:36",
+        "description": "go 免杀shellcode加载器，免杀主流杀软，bypass火绒、360、核晶、def等主流杀软",
+        "commit_date": "2023-05-11 09:06:22",
+        "commit_message": "Update README.md",
+        "release_tag": "",
+        "release_date": "",
+        "release_message": ""
+    },
+    "https://github.com/yqcs/ZheTian": {
+        "created_at": "2021-08-24 09:16:18",
+        "description": "::ZheTian / 强大的免杀生成工具，Bypass All.",
+        "commit_date": "2022-12-05 09:55:50",
+        "commit_message": "Update README.md",
+        "release_tag": "v3",
+        "release_date": "2022-08-13 04:57:57",
+        "release_message": "新增：反沙箱、隐藏窗口、Bypass UAC\r\n地址：zTian.red"
+    },
+    "https://github.com/L10nK1n6/LazyDog": {
+        "created_at": "2023-03-02 05:14:03",
+        "description": "LazyDog是一款通过网络空间测绘引擎读取资产并进行指纹识别的工具",
+        "commit_date": "2023-03-20 09:17:48",
+        "commit_message": "Fix bug\n\n小问题",
+        "release_tag": "1.1",
+        "release_date": "2023-03-20 09:24:33",
+        "release_message": "- 修复查询C段时的导出bug\r\n- 修复个别指纹通用匹配问题\r\n- 修复因此处修改而出现的小bug"
+    },
+    "https://github.com/aiboboxx/v2rayfree": {
+        "created_at": "2021-10-13 11:34:53",
+        "description": "v2ray公益免费节点、最新2ray免费v节点订阅地址、v2ray免费节点每日更新、免费ss/v2ray/trojan节点、freefq ",
+        "commit_date": "2023-05-12 12:36:05",
+        "commit_message": "update",
+        "release_tag": "",
+        "release_date": "",
+        "release_message": ""
+    },
+    "https://github.com/QAX-A-Team/sharpwmi": {
+        "created_at": "2020-04-08 05:50:21",
+        "description": "sharpwmi是一个基于rpc的横向移动工具，具有上传文件和执行命令功能。",
+        "commit_date": "2021-01-11 07:10:53",
+        "commit_message": "Merge pull request #4 from twursc/master\n\n支持非pth方式上传大文件",
+        "release_tag": "v2",
+        "release_date": "2020-08-26 09:17:22",
+        "release_message": ""
+    },
+    "https://github.com/dark-kingA/superSearchPlus": {
+        "created_at": "2022-10-04 10:08:42",
+        "description": "谷歌插件版本- superSearchPlus是聚合型信息收集插件，支持综合查询，资产测绘查询，信息收集 js敏感信息提取 注释资源扫描 目录扫描 整合了目前常见的资产测绘平台 同时支持数据导出",
+        "commit_date": "2023-03-05 08:24:10",
+        "commit_message": "更新",
+        "release_tag": "",
+        "release_date": "",
+        "release_message": ""
+    },
+    "https://github.com/niudaii/zpscan": {
+        "created_at": "2022-09-16 03:03:20",
+        "description": "一个有点好用的信息收集工具。A somewhat useful information gathering tool.",
+        "commit_date": "2023-04-22 11:27:19",
+        "commit_message": "update: README",
+        "release_tag": "v1.8.39",
+        "release_date": "2023-03-21 06:02:58",
+        "release_message": ""
+    },
+    "https://github.com/yuanyuanxiang/SimpleRemoter": {
+        "created_at": "2019-01-05 12:23:14",
+        "description": "基于gh0st的远程控制器：实现了终端管理、进程管理、窗口管理、远程桌面、文件管理、语音管理、视频管理、服务管理、注册表管理等功能，优化全部代码及整理排版，修复内存泄漏缺陷，程序运行稳定。项目代码仅限于学习和交流用途。",
+        "commit_date": "2021-03-14 12:55:22",
+        "commit_message": "style: 更新zlib为不带ASMINF编译的静态库",
+        "release_tag": "v1.0.0.5",
+        "release_date": "2019-03-29 02:42:22",
+        "release_message": "2019.3.24\r\n\r\n1、将\"2015Remote.rc\"的一个光标文件\"4.cur\"的路径由绝对路径改为相对路径。\r\n\r\n2、新增Release模式编译后控制台运行时不可见，新增TestRun向注册表写入开机自启动项。\r\n\r\n2019.3.29\r\n\r\n1、主控端和受控端同时修改LOGIN_INFOR结构，修复了受控端上报的操作系统信息不准确的问题。\r\n\r\n2、发布V1.0.0.5。\r\n\r\n注意：此次更新后的主控端需要和受控端匹配使用，否则可能出现问题。\r\n"
+    },
+    "https://github.com/freefq/free": {
+        "created_at": "2020-06-07 02:48:33",
+        "description": "翻墙、免费翻墙、免费科学上网、免费节点、免费梯子、免费ss/v2ray/trojan节点、蓝灯、谷歌商店、翻墙梯子",
+        "commit_date": "2023-05-13 00:00:02",
+        "commit_message": "updated_at 05-13 08:00",
+        "release_tag": "",
+        "release_date": "",
+        "release_message": ""
+    },
+    "https://github.com/tdragon6/Supershell": {
+        "created_at": "2023-03-25 15:02:43",
+        "description": "Supershell C2 远控平台，基于反向SSH隧道获取完全交互式Shell",
+        "commit_date": "2023-04-01 17:15:45",
+        "commit_message": "Update Changelog.md",
+        "release_tag": "latest",
+        "release_date": "2023-03-29 05:17:57",
+        "release_message": "## v1.0.0\r\n\r\n**2023-04-02**\r\n\r\n* 修复rssh版本获取BUG，因变动较小且不影响之前使用，不单独开新的release，附件中已覆盖 `Supershell.tar.gz`\r\n\r\n**2023-03-28**\r\n\r\n* 支持团队并发协作，一个浏览器使用所有功能\r\n* 支持多种系统架构的反弹Shell客户端Payload，集成压缩和免杀\r\n* 支持客户端断线自动重连\r\n* 支持全平台完全交互式Shell，支持在浏览器中使用Shell，支持分享Shell\r\n* 支持回连客户端列表管理\r\n* 内置文件服务器\r\n* 支持文件管理\r\n* 支持内存注入，即文件不落地执行木马（内存马）\r\n* 支持Windows安装反弹Shell服务和Linux尝试迁移uid与gid"
     }
 }
