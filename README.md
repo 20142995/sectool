@@ -1,9 +1,9 @@
-# 更新于 2023-05-13 08:38:18
+# 更新于 2023-05-14 08:44:25
 
 ## 近15天release更新记录
 | 更新时间 | 项目名称 | 版本 | 更新内容 |
 | :---- | :---- | :---- | :---- |
-|2023-05-12 15:10:24|[whatweb-plus](https://github.com/winezer0/whatweb-plus)|v0.5.5.<br>18|增加插件风险等级过滤功能:  插件过滤参<br>数    --risk-level, -r=RISK     设置调<br>用指定的风险级别的插件级。默认值: 1    <br>1. None 为每个目标调用无风险和更高级别<br>的插件    2. Low 为每个目标调用低风险和<br>更高级别的插件    3. Mid 为每个目标调用<br>中等风险和更高级别的插件    4. High 为<br>每个目标调用高风险和更高级别的插件    -<br>-risk-exact, --re     仅调用指定等级的<br>插件,不调用更高级别的插件。默认值:false<br>    risk属性配置示例:    Plugin.define<br> do    name "HTML5"    authors [ "Andr<br>ew Horton", ]    risk 2  # 加risk行即<br>可配置    version "0.2"    ....    end <br>    注意事项： risk属性需要在插件内配<br>置,没有配置就默认为None级别。|
+|2023-05-13 04:50:01|[whatweb-plus](https://github.com/winezer0/whatweb-plus)|v0.5.5.<br>19|0.5.5.19 解决参数默认优先级问题  将插<br>件过滤参数放在最前面处理,确保-l -I等参<br>数在插件过滤以后再进行操作.|
 |2023-05-12 06:32:18|[safeline](https://github.com/chaitin/safeline)|v1.4.0|### 新增  - 自定义规则支持匹配域名  -<br> 支持在一条自定义规则内，设置多个匹配<br>条件  - 站点列表新增 “今日访问 / 拦截<br>量”    ### 优化  - 优化交互和提示文案<br>、修复已知问题    **注意：低版本升级请<br>执行 upgrade.sh 脚本，或者重新手动更新 <br>compose.yaml 文件**|
 |2023-05-12 03:16:59|[iDefender](https://github.com/wecooperate/iDefender)|2.7.0|添加易用性、稳定性，建议更新    - 更<br>新SDK到最新的版本    - 文件的读写添加首<br>次事件通知    - 过滤掉命名管道的读写请<br>求    - 规则引擎优化    - 去掉只读文件<br>监控开关    - 隐私保护换成读取文件、文<br>件映射事件    - 导出规则、导入规则、分<br>享规则添加信任列表的导出导入  - 优化开<br>机启动的逻辑，添加注册表开机启动项  - <br>模板更新（支持经典模式：新建、修改、删<br>除、读取等概念）    - 添加全能模板    -<br> 添加进程行为模板    - 添加文件行为模<br>板    - 添加注册表行为模板    - 添加网<br>络行为模板    - 其他    - 修复数据库一<br>些操作异常    - 修复进程保护、进程操作<br>拦截可能导致进程启动不了的问题    - 修<br>复一些误报问题    - 修复对话框界面最大<br>化状态的阴影问题    - 规则引擎添加更多<br>扩展属性              软件下载   |
 |2023-05-11 23:49:58|[nuclei](https://github.com/projectdiscovery/nuclei)|v2.9.4|## What's Changed  * Added option for<br> nuclei templates / config reset by @t<br>arunKoyalwar in https://github.com/pro<br>jectdiscovery/nuclei/pull/3675  consol<br>e     -reset  reset removes all nuclei<br> configuration and data files (includi<br>ng nuclei-templates)        **Full Cha<br>ngelog**: https://github.com/projectdi<br>scovery/nuclei/compare/v2.9.3...v2.9.4|
@@ -33,20 +33,24 @@
 |2023-04-29 11:59:25|[cf](https://github.com/teamssix/cf)|v0.4.5|### 新增功能    *  增加华为云控制台接<br>管和权限枚举功能    ### 功能优化    *  <br>优化错误信息输出  *  优化更新功能    ##<br># Bug 修复    *  修复配置令牌功能的 Bu<br>g  *   修复两处缓存功能的 Bug  *  修复<br>更新功能 Bug  *  修复腾讯云 cvm 和 lh <br>无法列全的 Bug    ## 新贡献者  * @0xorO<br>ne made their first contribution in ht<br>tps://github.com/teamssix/cf/pull/219 <br>   **Full Changelog**: https://github.<br>com/teamssix/cf/compare/v0.4.4...v0.4.<br>5|
 |2023-04-29 10:58:25|[Dude](https://github.com/x364e3ab6/Dude)|v1.0.0.<br>4|1. 新增结构分析功能，可快速分析网站结<br>构，并可对指定链接执行JavaScript脚本获<br>取常规源码分析无法取得的链接，如WEBAPI<br>；  2. 新增内置浏览器注入并执行JavaScri<br>pt脚本的功能；  3. 新增了工具箱的显示<br>隐藏，默认隐藏；  4. 修改了内置浏览器及<br>功能插件TabControl的重选中逻辑和关闭方<br>式；  5. 修改了数据监视功能由始终开启为<br>自定义开启；  6. 修改了一些小Bug，对部<br>分代码写法和效率进行优化；  7. 内置Edge<br>浏览器内核升级至最新版本112.0.1722.64。|
 |2023-04-29 06:20:47|[pocsuite3](https://github.com/knownsec/pocsuite3)|v2.0.4|* 兼容 nuclei v2.9.1 的模版协议名称变<br>化 #364     ---    * Updated protocol n<br>ames that are compatible with Nuclei v<br>2.9.1 #364 |
-|2023-04-28 08:20:04|[rad](https://github.com/chaitin/rad)|1.0|更新同步自：    - 新增批量爬取功能（-<br>-url-file）  - 新增subdomain配置，用于<br>控制是否爬取子域。  - 增加mac arm版本  <br>- 优化了扫描性能  - 取消了自动播放音频<br>  - 上层代理设置可以不携带协议名称  - <br>大幅优化爬取效率（开启过滤同站点相似元<br>素强度即可体验）  - 修复了部分站点不爬<br>取的bug  - 修复了可能会出现爬到目标外站<br>点的bug  - 修复了爬取数量减少的bug  - <br>修复已知问题  |
-|2023-04-28 06:00:39|[trivy](https://github.com/aquasecurity/trivy)|v0.41.0|## ⚡Release highlights and summary⚡<br>    👉 https://github.com/aquasecurity<br>/trivy/discussions/4135    ## Changelo<br>g  * 1be1e2e63 fix(spdx): add workarou<br>nd for no src packages (#4118)  * 45bc<br>9e0de test(golang): rename broken go.m<br>od (#4129)  * 3334e78fa feat(sbom): ad<br>d supplier field (#4122)  * 27fb1bfde <br>test(misconf): skip downloading of pol<br>icies for tests #4126  * 845ae31e5 ref<br>actor: use debug message for post-anal<br>yze errors (#4037)  * 11a5b91a1 feat(s<br>bom): add VEX support (#4053)  * 5eab4<br>6498 feat(sbom): add primary package p<br>urpose field for SPDX (#4119)  * a00d0<br>0eb9 fix(k8s): fix quiet flag (#4120) <br> * 9bc326909 fix(python): parse of pip<br> extras (#4103)  * 855984167 feat(java<br>): use full path for nested jars (#399<br>2)  * 0650e0e1d feat(license): add new<br> flag for classifier confidence level <br>(#4073)  * 43b649627 feat: config and <br>fs compliance support (#4097)  * 9181b<br>c1f7 chore(deps): bump sigstore/cosign<br>-installer from 2.8.1 to 3.0.1 (#3952)<br>  * 48e021ea6 feat(spdx): add support <br>for SPDX 2.3 (#4058)  * 107752df6 fix:<br> k8s all-namespaces support (#4096)  *<br> bd0c60364 perf(misconf): replace with<br> post-analyzers (#4090)  * 76662d5dd f<br>ix(helm): update networking API versio<br>n detection (#4106)  * be47b688c feat(<br>image): custom docker host option (#35<br>99)  * cc18f92cf style: debug flag is <br>incorrect and needs extra - (#4087)  *<br> 572a6193e docs(vuln): Document inline<br> vulnerability filtering comments (#40<br>24)  * 914c6f092 feat(fs): customize e<br>rror callback during fs walk (#4038)  <br>* 3f02feeff fix(ubuntu): skip copyrigh<br>t files from subfolders (#4076)  * 57b<br>b77c06 docs: restructure scanners (#39<br>77)  * b19b56c34 fix: fix file does no<br>t exist error for post-analyzers (#406<br>1)    |
 ## 近15天commit提交记录
 | 提交时间 | 项目名称 | 更新内容 |
 | :---- | :---- | :---- |
-|2023-05-13 00:30:18|[NucleiTP](https://github.com/ExpLangcn/NucleiTP)|更新啦❤️|
-|2023-05-13 00:00:02|[free](https://github.com/freefq/free)|updated_at 05-13 08:00|
-|2023-05-12 22:11:08|[PocOrExp_in_Githu<br>b](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-05-13 06:11:08|
-|2023-05-12 16:50:10|[whatweb-plus](https://github.com/winezer0/whatweb-plus)|commit   Former-commit-id: 328b4b6145cb97e23ea2601e<br>7523e9cc596cef23|
+|2023-05-14 00:30:16|[NucleiTP](https://github.com/ExpLangcn/NucleiTP)|更新啦❤️|
+|2023-05-14 00:00:03|[free](https://github.com/freefq/free)|updated_at 05-14 08:00|
+|2023-05-13 20:33:27|[PocOrExp_in_Githu<br>b](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-05-14 04:33:27|
+|2023-05-13 16:37:45|[kube-bench](https://github.com/aquasecurity/kube-bench)|build(deps): bump gorm.io/gorm from 1.24.2 to 1.25.<br>1 (#1437)  Bumps  from 1.24.2 to 1.25.1.  -   -     <br>---  updated-dependencies:  - dependency-name: gorm.<br>io/gorm    dependency-type: direct:production    upd<br>ate-type: version-update:semver-minor  ...    Signed<br>-off-by: dependabot[bot]   Co-authored-by: dependabo<br>t[bot] |
+|2023-05-13 16:01:25|[whatweb-plus](https://github.com/winezer0/whatweb-plus)|Update README.md|
+|2023-05-13 15:56:58|[afrog](https://github.com/zan8in/afrog)|dlclark/regexp2 v1.4.0 to v1.8|
+|2023-05-13 15:32:04|[SmsForwarder](https://github.com/pppscn/SmsForwarder)|新增：支持Bark推送加密 #273 (详见：https://bark.day<br>.app/#/encryption)|
+|2023-05-13 14:08:12|[DNSlog-GO](https://github.com/lanyi1998/DNSlog-GO)|fix:ubuntu version|
+|2023-05-13 12:33:45|[v2rayfree](https://github.com/aiboboxx/v2rayfree)|update|
+|2023-05-13 11:49:06|[Ladon](https://github.com/k8gege/Ladon)|Add files via upload|
+|2023-05-13 11:37:04|[K8tools](https://github.com/k8gege/K8tools)|Add files via upload|
+|2023-05-13 07:35:52|[mitaka](https://github.com/ninoseki/mitaka)|Merge pull request #734 from ninoseki/update-plasmo<br>  chore: update plasmo|
 |2023-05-12 15:05:59|[dbeaver](https://github.com/dbeaver/dbeaver)|Merge remote-tracking branch 'origin/devel' into de<br>vel|
-|2023-05-12 12:36:05|[v2rayfree](https://github.com/aiboboxx/v2rayfree)|update|
 |2023-05-12 10:30:11|[trivy](https://github.com/aquasecurity/trivy)|fix(alpine): add EOL date for Alpine 3.18 (#4308)|
 |2023-05-12 09:58:11|[vulhub](https://github.com/vulhub/vulhub)|Merge pull request #351 from ndeloof/patch-1  Updat<br>e README for compose v2|
-|2023-05-12 09:43:54|[afrog](https://github.com/zan8in/afrog)|update|
 |2023-05-12 08:04:37|[safeline](https://github.com/chaitin/safeline)|feat: add instructions for mannually updating docke<br>r images|
 |2023-05-12 04:05:26|[domain_hunter_pro](https://github.com/bit4woo/domain_hunter_pro)|Update LineEntryMenu.java|
 |2023-05-12 03:56:46|[ddddocr](https://github.com/sml2h3/ddddocr)|Update README.md|
@@ -65,23 +69,20 @@
 |2023-05-11 07:23:51|[URLFinder](https://github.com/pingc0y/URLFinder)|Update README.md  2023/5/11更新|
 |2023-05-11 04:02:10|[veinmind-tools](https://github.com/chaitin/veinmind-tools)|feat(plugins): use bullseye && update libveinmind-d<br>ev 1.9.15 (#239)|
 |2023-05-11 03:36:19|[captcha-killer-mo<br>dified](https://github.com/f0ng/captcha-killer-modified)|Update FAQ.md|
+|2023-05-11 00:43:03|[FrameVul](https://github.com/Awrrays/FrameVul)|Update README.md  fastadmin文件管理插件|
 |2023-05-10 14:03:11|[PEASS-ng](https://github.com/carlospolop/PEASS-ng)|Update linpeas_base.sh|
 |2023-05-10 12:20:33|[Antenna](https://github.com/wuba/Antenna)|Merge pull request #119 from wuba/develop  更新http<br>s证书|
 |2023-05-10 10:30:39|[noterce](https://github.com/xiao-zhu-zhu/noterce)|Update README.md|
 |2023-05-10 03:18:53|[fscan](https://github.com/shadow1ng/fscan)|Merge pull request #272 from wgpsec/main  修复自动<br>化编译问题|
 |2023-05-09 09:32:17|[ARL](https://github.com/TophantTechnology/ARL)|Merge pull request #558 from TophantTechnology/upda<br>te/license  Create LICENSE.md|
 |2023-05-09 09:05:58|[Exp-Tools](https://github.com/cseroad/Exp-Tools)|Update README.md|
-|2023-05-09 01:58:02|[DNSlog-GO](https://github.com/lanyi1998/DNSlog-GO)|fix: windows build error|
 |2023-05-09 01:46:33|[GoWxDump](https://github.com/SpenserCai/GoWxDump)|fix #19 支持 3.9.2.26|
-|2023-05-09 01:43:26|[SmsForwarder](https://github.com/pppscn/SmsForwarder)|整理：code review & 精简无用资源|
 |2023-05-08 18:07:07|[faker](https://github.com/joke2k/faker)|Bump version: 18.6.2 → 18.7.0|
 |2023-05-08 17:00:45|[railgun](https://github.com/lz520520/railgun)|Update README.md|
 |2023-05-08 11:24:15|[HackBrowserData](https://github.com/moonD4rk/HackBrowserData)|refactor: Refactor storage queries and filters.  - <br>Update local storage query constant and function cal<br>ls - Remove null and control characters from UTF-8 s<br>plit function|
 |2023-05-08 03:01:31|[404StarLink](https://github.com/knownsec/404StarLink)|weekly update at 2023-05-08|
 |2023-05-08 02:05:40|[ENScan_GO](https://github.com/wgpsec/ENScan_GO)|Merge pull request #56 from Blyth0He/master  Create<br> Dockerfile|
 |2023-05-08 01:09:24|[SharpWxDump](https://github.com/AdminTest0/SharpWxDump)|Update Program.cs|
-|2023-05-07 12:55:00|[Ladon](https://github.com/k8gege/Ladon)|Delete Ladon911_20230505.ps1|
-|2023-05-07 12:34:14|[K8tools](https://github.com/k8gege/K8tools)|Add files via upload|
 |2023-05-06 12:10:05|[Viper](https://github.com/FunnyWolf/Viper)|update version v1.5.28|
 |2023-05-06 11:47:16|[feroxbuster](https://github.com/epi052/feroxbuster)|Merge pull request #898 from epi052/all-contributor<br>s/add-AkechiShiro  docs: add AkechiShiro as a contri<br>butor for ideas|
 |2023-05-06 09:52:47|[APTRS](https://github.com/Anof-cyber/APTRS)|Update README.md|
@@ -106,9 +107,7 @@
 |2023-04-30 15:04:25|[naabu](https://github.com/projectdiscovery/naabu)|Merge pull request #654 from projectdiscovery/dev  <br>naabu v2.1.6|
 |2023-04-29 20:11:02|[sweetPotato](https://github.com/z2p/sweetPotato)|change readme|
 |2023-04-29 11:59:18|[cf](https://github.com/teamssix/cf)|Merge pull request #226 from teamssix/beta  Update <br>CHANGELOG.md|
-|2023-04-29 06:15:36|[pocsuite3](https://github.com/knownsec/pocsuite3)|Merge pull request #365 from 13ph03nix/nuclei-issue<br>-3055-protocol-name  fix: Updated protocol attribute<br> name (requests=> http & network => tcp)|
-|2023-04-28 17:19:10|[RedisEXP](https://github.com/yuyan-sec/RedisEXP)|update|
-|2023-04-28 15:04:16|[HostHeaderAttack](https://github.com/weujieytt/HostHeaderAttack)|Update HostAttackScanner.java|## 所有项目
+|2023-04-29 06:15:36|[pocsuite3](https://github.com/knownsec/pocsuite3)|Merge pull request #365 from 13ph03nix/nuclei-issue<br>-3055-protocol-name  fix: Updated protocol attribute<br> name (requests=> http & network => tcp)|## 所有项目
 # 渗透测试
 ## 信息收集
 ### 资产测绘采集
@@ -159,7 +158,7 @@
 | [Glass](https://github.com/s7ckTeam/Glass) |  | Glass是一款针对资产列表的快速指纹识别工具，通过调用Fofa/ZoomEy<br>e/Shodan/360等api接口快速查询资产信息并识别重点资产的指纹，也可<br>针对IP/IP段或资产列表进行快速的指纹识别。 |
 | [Finger](https://github.com/EASY233/Finger) |  | 一款红队在大量的资产中存活探测与重点攻击系统指纹探测工具 |
 | [LazyDog](https://github.com/L10nK1n6/LazyDog) | 1.1 | LazyDog是一款通过网络空间测绘引擎读取资产并进行指纹识别的工具 |
-| [whatweb-plus](https://github.com/winezer0/whatweb-plus) | v0.5.5.<br>18 | whatweb 增强版  8000+插件（提供windows可执行文件） |
+| [whatweb-plus](https://github.com/winezer0/whatweb-plus) | v0.5.5.<br>19 | whatweb 增强版  8000+插件（提供windows可执行文件） |
 ### WAF识别
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
@@ -496,6 +495,7 @@
 | [BUG-Pocket](https://github.com/light-Life/BUG-Pocket) |  | 小型漏洞库，提供FOFA语法及批量脚本，具体利用法请参考别的漏洞库<br>，共4种类型47项 |
 | [WiKi](https://github.com/ScarecrowSec/WiKi) |  | 稻草人安全团队漏洞库 |
 | [PoC-ExP](https://github.com/Cuerz/PoC-ExP) |  | 【漏洞Poc知识库】一个网络安全爱好者对网络上一些已知漏洞payload<br>的收录，持续更新。并编写了利用脚本，可用于日常学习或批量的src漏<br>洞挖掘 |
+| [FrameVul](https://github.com/Awrrays/FrameVul) |  |  |
 ## 权限维持
 ### Shell管理
 | 项目名称 | 版本 | 项目描述 |

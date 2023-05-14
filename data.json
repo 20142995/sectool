@@ -65,8 +65,8 @@
     "https://github.com/pppscn/SmsForwarder": {
         "created_at": "2021-02-10 02:23:07",
         "description": "短信转发器——监控Android手机短信、来电、APP通知，并根据指定规则转发到其他手机：钉钉群自定义机器人、钉钉企业内机器人、企业微信群机器人、飞书机器人、企业微信应用消息、邮箱、bark、webhook、Telegram机器人、Server酱、PushPlus、手机短信等。包括主动控制服务端与客户端，让你轻松远程发短信、查短信、查通话、查话簿、查电量等。（V3.0 新增）PS.这个APK主要是学习与自用，如有BUG请提ISSUE，同时欢迎大家提PR指正",
-        "commit_date": "2023-05-09 01:43:26",
-        "commit_message": "整理：code review & 精简无用资源",
+        "commit_date": "2023-05-13 15:32:04",
+        "commit_message": "新增：支持Bark推送加密 #273 (详见：https://bark.day.app/#/encryption)",
         "release_tag": "v3.2.0",
         "release_date": "2023-02-14 09:25:00",
         "release_message": "PS. 距离上一次1024发版，已经过去快5个月了，期间发生不少事，一直没更新这个项目，不管如何，魔幻的2022年都过去了！\r\n\r\n感谢大家这2年来的陪伴与支持，祝大家有情人终成眷属，情人节快乐！\r\n\r\n---\r\n\r\n### 【注意】\r\n\r\n* v3.x版本是全新重构开发，可能一开始并不稳定，建议升级前先做好数据备份！（客户端>一键换新机>离线模式>导出）\r\n\r\n* `v3.2.0` 去除了 `mmkv` 依赖，采用 `SharedPreferences` 来保存配置，升级之后通用设置中的配置请重新配置，具体原因参见 [Issue #245](https://github.com/pppscn/SmsForwarder/issues/245)\r\n\r\n* 升级完毕后，建议离线导出配置，完全卸载干净全新安装后再导入配置（可以避免一些莫名其妙的玄学问题，例如：耗电异常）\r\n\r\n---\r\n\r\n### 更新日志\r\n\r\n* 新增：短信指令（根据短信指令开关对应功能） #I5YX3F\r\n* 新增：监听网络状态变化提醒（APP通知转发，包名：77777777） #259\r\n* 新增：远程改话簿（方便给老人家添加联系人） #256\r\n* 新增：远程查询手机定位（方便找回手机/防止老少走丢） #256\r\n* 新增：Socket发送通道（支持MQTT/TCP/UDP协议） #252\r\n* 新增：发送通道 URL Scheme（支持跨应用数据传递）#250\r\n* 新增：自动消除额外APP通知 #232 #248\r\n\r\n* 优化：短信/通话转发获取卡槽信息机制（自行备注卡槽SubId对应）#228 #235\r\n* 优化：来电转发逻辑 & 新增提醒类型（1.来电挂机 2.去电挂机 3.未接来电 4.来电提醒 5.来电接通 6.去电拨出）\r\n* 优化：单个转发规则支持绑定多个发送通道，且支持执行逻辑（全部执行/失败即止/成功即止） #247\r\n* 优化：转发日志列表以原始信息为主，聚合展示转发日志（一对多）\r\n* 优化：已安装App信息列表异步加载机制\r\n* 优化：电池状态监听/网络状态监控 在未开启去重时默认开启1秒去重\r\n* 优化：利用BatteryReceiver守护自启动的Frpc (试验) #254\r\n\r\n* 修复：Android 13 无法授予通知权限 #255\r\n* 修复：重启手机自动启动APP时加载配置失败 #233 #245\r\n* 修复：转发消息遍历发送通道时未跳过已禁用的通道\r\n* 修复：降级Android Gradle插件版本以兼容4.4 (#249 by NyaMisty)\r\n\r\n* 升级：andserver到2.1.12（加快web端上下行速度等）\r\n* 升级：frpclib 到 v0.47.0\r\n* 升级：androidx组件和kotlin版本\r\n\r\n还有一些细微调整参见`github`提交记录\r\n\r\n---\r\n\r\n### APK版本说明：\r\n* universal（10XXXX）: 通用版（不在乎安装包大小/懒得选就用这个版本，包含以下4种CPU架构so）\r\n* armeabi-v7a（20XXXX）: 32位ARM设备（备用机首选）\r\n* arm64-v8a（30XXXX）: 64位ARM设备（主流旗舰机）\r\n* x86（40XXXX）: 32位Intel设备\r\n* x86_64（50XXXX）: 64/32位Intel设备"
@@ -182,8 +182,8 @@
     "https://github.com/lanyi1998/DNSlog-GO": {
         "created_at": "2020-09-05 16:18:57",
         "description": "DNSLog-GO 是一款golang编写的监控 DNS 解析记录的工具，自带WEB界面",
-        "commit_date": "2023-05-09 01:58:02",
-        "commit_message": "fix: windows build error",
+        "commit_date": "2023-05-13 14:08:12",
+        "commit_message": "fix:ubuntu version",
         "release_tag": "20230509",
         "release_date": "2023-05-09 01:59:14",
         "release_message": ""
@@ -200,8 +200,8 @@
     "https://github.com/ycdxsb/PocOrExp_in_Github": {
         "created_at": "2021-04-13 05:46:16",
         "description": "聚合Github上已有的Poc或者Exp，CVE信息来自CVE官网。Auto Collect Poc Or Exp from Github by CVE ID.",
-        "commit_date": "2023-05-12 22:11:08",
-        "commit_message": "update 2023-05-13 06:11:08",
+        "commit_date": "2023-05-13 20:33:27",
+        "commit_message": "update 2023-05-14 04:33:27",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -461,7 +461,7 @@
     "https://github.com/ExpLangcn/NucleiTP": {
         "created_at": "2022-11-08 13:16:56",
         "description": "自动整合全网Nuclei的漏洞POC，实时同步更新最新POC！",
-        "commit_date": "2023-05-13 00:30:18",
+        "commit_date": "2023-05-14 00:30:16",
         "commit_message": "更新啦❤️",
         "release_tag": "",
         "release_date": "",
@@ -479,7 +479,7 @@
     "https://github.com/k8gege/K8tools": {
         "created_at": "2019-02-23 14:04:52",
         "description": "K8工具合集(内网渗透/提权工具/远程溢出/漏洞利用/扫描工具/密码破解/免杀工具/Exploit/APT/0day/Shellcode/Payload/priviledge/BypassUAC/OverFlow/WebShell/PenTest) Web GetShell Exploit(Struts2/Zimbra/Weblogic/Tomcat/Apache/Jboss/DotNetNuke/zabbix)",
-        "commit_date": "2023-05-07 12:34:14",
+        "commit_date": "2023-05-13 11:37:04",
         "commit_message": "Add files via upload",
         "release_tag": "",
         "release_date": "",
@@ -1062,8 +1062,8 @@
     "https://github.com/ninoseki/mitaka": {
         "created_at": "2018-02-09 00:13:30",
         "description": "A browser extension for OSINT search",
-        "commit_date": "2023-04-23 07:26:13",
-        "commit_message": "Merge pull request #729 from ninoseki/v1.2.0\n\nv1.2.0",
+        "commit_date": "2023-05-13 07:35:52",
+        "commit_message": "Merge pull request #734 from ninoseki/update-plasmo\n\nchore: update plasmo",
         "release_tag": "v1.2.0",
         "release_date": "2023-04-23 07:32:04",
         "release_message": "- Remove abandoned/no longer maintained searchers (#723)\r\n- Revamp FortiGuard searcher (#724)\r\n- Support ThreatBook as a searcher (#725)\r\n- Change TS mapping paths to follow Plasmo's default settings (#727)\r\n- Make it possible to disable/scanners in the options view (#728, #713)"
@@ -3050,8 +3050,8 @@
     "https://github.com/zan8in/afrog": {
         "created_at": "2022-02-24 06:00:32",
         "description": "A Security Tool for Bug Bounty, Pentest and Red Teaming.",
-        "commit_date": "2023-05-12 09:43:54",
-        "commit_message": "update",
+        "commit_date": "2023-05-13 15:56:58",
+        "commit_message": "dlclark/regexp2 v1.4.0 to v1.8",
         "release_tag": "v2.3.1",
         "release_date": "2023-05-05 03:21:56",
         "release_message": "**Urgent update:**\r\n\r\nBUG:\r\n- Solve the problem that the intranet cannot be used due to `version check`\r\n\r\nAdded:\r\n- command -disable-update-check, -duc disable automatic update check\r\n\r\nRevise:\r\n- Now update-poc will be executed automatically, to disable this function, please use -duc command\r\n-----------\r\n\r\n**紧急更新**\r\n\r\nBUG：\r\n- 解决 `版本检查`  导致内网无法使用问题\r\n\t\r\n新增：\r\n- 命令 -disable-update-check，-duc 禁用自动更新检查\r\n\r\n修改：\r\n- 现在 update-poc 会自动执行，禁用这个功能，请使用 -duc 命令\r\n"
@@ -3735,8 +3735,8 @@
     "https://github.com/k8gege/Ladon": {
         "created_at": "2019-11-02 06:22:41",
         "description": "Ladon大型内网渗透工具，可PowerShell模块化、可CS插件化、可内存加载，无文件扫描。含端口扫描、服务识别、网络资产探测、密码审计、高危漏洞检测、漏洞利用、密码读取以及一键GetShell，支持批量A段/B段/C段以及跨网段扫描，支持URL、主机、域名列表扫描等。10.10.5内置224个功能模块,网络资产探测模块32个通过多种协议(ICMP\\NBT\\DNS\\MAC\\SMB\\WMI\\SSH\\HTTP\\HTTPS\\Exchange\\mssql\\FTP\\RDP)以及方法快速获取目标网络存活主机IP、计算机名、工作组、共享资源、网卡地址、操作系统版本、网站、子域名、中间件、开放服务、路由器、交换机、数据库、打印机等信息，高危漏洞检测16个含MS17010、Zimbra、Exchange",
-        "commit_date": "2023-05-07 12:55:00",
-        "commit_message": "Delete Ladon911_20230505.ps1",
+        "commit_date": "2023-05-13 11:49:06",
+        "commit_message": "Add files via upload",
         "release_tag": "v10.10.5",
         "release_date": "2023-05-07 13:02:22",
         "release_message": "### Ladon 10.10.5 20230505\r\n[+]HikvisionScan 海康威视 视频监控 密码爆破\r\n[u]INI插件\t\t支持isok、isvul字段，当结果出现对应特征字符串，回显ISVUL或ISOK\r\n[u]INI插件\t\t支持$port$参数，超时还是改成30秒\r\n[+]CloseSMB\t\t彻底禁用SMB服务-需管理员权限(重启生效)\r\n[+]DisService\t彻底禁用指定服务-需管理员权限\r\n[+]StopService\t停止指定服务-需管理员权限\r\n[+]OpenTCP\t\t防火墙放行指定TCP端口-需管理员权限\r\n[+]OpenUDP\t\t防火墙放行指定UDP端口-需管理员权限\r\n[+]CloseTCP\t\t防火墙拦截指定TCP端口-需管理员权限\r\n[+]CloseUDP\t\t防火墙拦截指定UDP端口-需管理员权限\r\n[+]HikvisionPoc\t\tCVE-2017-7921 hikvision 海康威视摄像头配置文件泄露 漏洞检测\r\n[+]HikvisionDecode  CVE-2017-7921 hikvision 海康威视摄像头配置文件解密 提取密码\r\n[u]sshcmd \tCS版sshcmd更新SSH库支持高版本SSH\r\n\r\n### 0x001 GodPotato提权\r\nLadon GodPotato whoami\r\n支持: Win8-Win11/Win2012-2022服务提权至SYSTEM\r\n![image](http://k8gege.org/k8img/Ladon/cs/LadonLpe10.10.5.png)\r\n\r\n### 0x002 hikvision 海康威视 CVE-2017-7921漏洞检测\r\n\r\nLadon 192.168.1.8/24 HikvisionPoc\r\nLadon http://192.168.1.8:8080 HikvisionPoc\r\nLadon url.txt HikvisionPoc\r\n\r\n![image](http://k8gege.org/k8img/Ladon/cs/LadonPoc10.10.5.png)\r\n\r\n\r\n### 0x003 hikvision 海康威视 密码审计\r\n\r\nLadon 192.168.1.8/24 HikvisionScan\r\nLadon http://192.168.1.8:8080 HikvisionScan\r\nLadon url.txt HikvisionScan\r\n\r\n![image](http://k8gege.org/k8img/Ladon/cs/LadonBrute10.10.5.png)\r\n\r\n详细功能用法，请查看公众号或博客\r\n"
@@ -3879,8 +3879,8 @@
     "https://github.com/aquasecurity/kube-bench": {
         "created_at": "2017-06-19 13:27:02",
         "description": "Checks whether Kubernetes is deployed according to security best practices as defined in the CIS Kubernetes Benchmark",
-        "commit_date": "2023-04-24 08:02:19",
-        "commit_message": "release: prepare v0.6.13 (#1429)\n\nSigned-off-by: chenk <hen.keinan@gmail.com>",
+        "commit_date": "2023-05-13 16:37:45",
+        "commit_message": "build(deps): bump gorm.io/gorm from 1.24.2 to 1.25.1 (#1437)\n\nBumps [gorm.io/gorm](https://github.com/go-gorm/gorm) from 1.24.2 to 1.25.1.\r\n- [Release notes](https://github.com/go-gorm/gorm/releases)\r\n- [Commits](https://github.com/go-gorm/gorm/compare/v1.24.2...v1.25.1)\r\n\r\n---\r\nupdated-dependencies:\r\n- dependency-name: gorm.io/gorm\r\n  dependency-type: direct:production\r\n  update-type: version-update:semver-minor\r\n...\r\n\r\nSigned-off-by: dependabot[bot] <support@github.com>\r\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
         "release_tag": "v0.6.13",
         "release_date": "2023-04-24 08:11:58",
         "release_message": "## Changelog\r\nc3b6871 Fix version in policies.yaml (#1415)\r\n9e41099 build(deps): bump github.com/aws/aws-sdk-go-v2/service/securityhub (#1397)\r\n7aeb6c3 build(deps): bump github.com/fatih/color from 1.13.0 to 1.14.1 (#1363)\r\n96c6b38 chore: publish ubi based image (#1412)\r\nb43f58d add darwin builds (#1428)\r\n\r\n"
@@ -4221,11 +4221,11 @@
     "https://github.com/winezer0/whatweb-plus": {
         "created_at": "2021-08-09 04:40:58",
         "description": "whatweb 增强版  8000+插件（提供windows可执行文件）",
-        "commit_date": "2023-05-12 16:50:10",
-        "commit_message": "commit\n\n\nFormer-commit-id: 328b4b6145cb97e23ea2601e7523e9cc596cef23",
-        "release_tag": "v0.5.5.18",
-        "release_date": "2023-05-12 15:10:24",
-        "release_message": "增加插件风险等级过滤功能:\r\n插件过滤参数\r\n\r\n--risk-level, -r=RISK \r\n  设置调用指定的风险级别的插件级。默认值: 1\r\n  1. None 为每个目标调用无风险和更高级别的插件\r\n  2. Low 为每个目标调用低风险和更高级别的插件\r\n  3. Mid 为每个目标调用中等风险和更高级别的插件\r\n  4. High 为每个目标调用高风险和更高级别的插件\r\n\r\n--risk-exact, --re \r\n  仅调用指定等级的插件,不调用更高级别的插件。默认值:false\r\n\r\nrisk属性配置示例:\r\n  Plugin.define do\r\n  name \"HTML5\"\r\n  authors [ \"Andrew Horton\", ]\r\n  risk 2  # 加risk行即可配置\r\n  version \"0.2\"\r\n  ....\r\n  end\r\n \r\n注意事项： risk属性需要在插件内配置,没有配置就默认为None级别。"
+        "commit_date": "2023-05-13 16:01:25",
+        "commit_message": "Update README.md",
+        "release_tag": "v0.5.5.19",
+        "release_date": "2023-05-13 04:50:01",
+        "release_message": "0.5.5.19 解决参数默认优先级问题\r\n将插件过滤参数放在最前面处理,确保-l -I等参数在插件过滤以后再进行操作."
     },
     "https://github.com/corunb/Dirscan": {
         "created_at": "2022-10-13 06:30:38",
@@ -4275,7 +4275,7 @@
     "https://github.com/aiboboxx/v2rayfree": {
         "created_at": "2021-10-13 11:34:53",
         "description": "v2ray公益免费节点、最新2ray免费v节点订阅地址、v2ray免费节点每日更新、免费ss/v2ray/trojan节点、freefq ",
-        "commit_date": "2023-05-12 12:36:05",
+        "commit_date": "2023-05-13 12:33:45",
         "commit_message": "update",
         "release_tag": "",
         "release_date": "",
@@ -4320,8 +4320,8 @@
     "https://github.com/freefq/free": {
         "created_at": "2020-06-07 02:48:33",
         "description": "翻墙、免费翻墙、免费科学上网、免费节点、免费梯子、免费ss/v2ray/trojan节点、蓝灯、谷歌商店、翻墙梯子",
-        "commit_date": "2023-05-13 00:00:02",
-        "commit_message": "updated_at 05-13 08:00",
+        "commit_date": "2023-05-14 00:00:03",
+        "commit_message": "updated_at 05-14 08:00",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -4334,5 +4334,14 @@
         "release_tag": "latest",
         "release_date": "2023-03-29 05:17:57",
         "release_message": "## v1.0.0\r\n\r\n**2023-04-02**\r\n\r\n* 修复rssh版本获取BUG，因变动较小且不影响之前使用，不单独开新的release，附件中已覆盖 `Supershell.tar.gz`\r\n\r\n**2023-03-28**\r\n\r\n* 支持团队并发协作，一个浏览器使用所有功能\r\n* 支持多种系统架构的反弹Shell客户端Payload，集成压缩和免杀\r\n* 支持客户端断线自动重连\r\n* 支持全平台完全交互式Shell，支持在浏览器中使用Shell，支持分享Shell\r\n* 支持回连客户端列表管理\r\n* 内置文件服务器\r\n* 支持文件管理\r\n* 支持内存注入，即文件不落地执行木马（内存马）\r\n* 支持Windows安装反弹Shell服务和Linux尝试迁移uid与gid"
+    },
+    "https://github.com/Awrrays/FrameVul": {
+        "created_at": "2022-04-04 05:54:00",
+        "description": "",
+        "commit_date": "2023-05-11 00:43:03",
+        "commit_message": "Update README.md\n\nfastadmin文件管理插件",
+        "release_tag": "",
+        "release_date": "",
+        "release_message": ""
     }
 }
