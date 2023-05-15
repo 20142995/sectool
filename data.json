@@ -200,8 +200,8 @@
     "https://github.com/ycdxsb/PocOrExp_in_Github": {
         "created_at": "2021-04-13 05:46:16",
         "description": "聚合Github上已有的Poc或者Exp，CVE信息来自CVE官网。Auto Collect Poc Or Exp from Github by CVE ID.",
-        "commit_date": "2023-05-13 20:33:27",
-        "commit_message": "update 2023-05-14 04:33:27",
+        "commit_date": "2023-05-14 20:33:49",
+        "commit_message": "update 2023-05-15 04:33:49",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -461,7 +461,7 @@
     "https://github.com/ExpLangcn/NucleiTP": {
         "created_at": "2022-11-08 13:16:56",
         "description": "自动整合全网Nuclei的漏洞POC，实时同步更新最新POC！",
-        "commit_date": "2023-05-14 00:30:16",
+        "commit_date": "2023-05-15 00:30:16",
         "commit_message": "更新啦❤️",
         "release_tag": "",
         "release_date": "",
@@ -1251,8 +1251,8 @@
     "https://github.com/awake1t/HackReport": {
         "created_at": "2021-06-25 12:43:20",
         "description": "渗透测试报告/资料文档/渗透经验文档/安全书籍",
-        "commit_date": "2022-12-01 06:30:57",
-        "commit_message": "2022-12-01 14:30:57",
+        "commit_date": "2023-05-14 08:25:37",
+        "commit_message": "2023-05-14 16:25:37",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -3050,11 +3050,11 @@
     "https://github.com/zan8in/afrog": {
         "created_at": "2022-02-24 06:00:32",
         "description": "A Security Tool for Bug Bounty, Pentest and Red Teaming.",
-        "commit_date": "2023-05-13 15:56:58",
-        "commit_message": "dlclark/regexp2 v1.4.0 to v1.8",
-        "release_tag": "v2.3.1",
-        "release_date": "2023-05-05 03:21:56",
-        "release_message": "**Urgent update:**\r\n\r\nBUG:\r\n- Solve the problem that the intranet cannot be used due to `version check`\r\n\r\nAdded:\r\n- command -disable-update-check, -duc disable automatic update check\r\n\r\nRevise:\r\n- Now update-poc will be executed automatically, to disable this function, please use -duc command\r\n-----------\r\n\r\n**紧急更新**\r\n\r\nBUG：\r\n- 解决 `版本检查`  导致内网无法使用问题\r\n\t\r\n新增：\r\n- 命令 -disable-update-check，-duc 禁用自动更新检查\r\n\r\n修改：\r\n- 现在 update-poc 会自动执行，禁用这个功能，请使用 -duc 命令\r\n"
+        "commit_date": "2023-05-14 01:45:28",
+        "commit_message": "update",
+        "release_tag": "v2.3.2",
+        "release_date": "2023-05-14 02:29:25",
+        "release_message": "**Add:**\r\n- The result will be written to the JSON file, but it will not include the request and response content.\r\n- Writes a JSON file including all vulnerability results.\r\n- The \"disable-output-html\" command can be used to prevent the automatic generation of an HTML report, and its priority is higher than the \"-o\" command.\r\n- PoC script info information adds three fields affected, solutions, and created\r\n\r\n**Optimization:**\r\n- Duplicated PoC removed: springboot-env-unauth\r\n- When performing an update operation, the -up command prompt is not friendly enough\r\n- Scan in order of increasing security risk level\r\n\r\n**新增：**\r\n- 使用命令参数 -json 或 -j，将漏洞结果写入 JSON 文件，不包括 request 和 response\r\n- 使用命令参数 -json-all 或 -ja，将漏洞结果写入 JSON 文件，包括 request 和 response\r\n- 使用 disable-output-html 命令可以禁止生成 HTML 报告，该命令的优先级高于 -o 命令。\r\n- PoC 脚本 info 信息增加 affected、solutions、created 三个字段\r\n\r\n**优化：**\r\n- 已移除重复的PoC: springboot-env-unauth\r\n- 执行更新操作时，-up 命令提示不够友好\r\n- 按照从低到高的安全风险级别顺序进行扫描\r\n- 优化 url.path 编码问题"
     },
     "https://github.com/moonD4rk/HackBrowserData": {
         "created_at": "2020-06-18 03:24:31",
@@ -3701,8 +3701,8 @@
         "description": "PEASS - Privilege Escalation Awesome Scripts SUITE (with colors)",
         "commit_date": "2023-05-10 14:03:11",
         "commit_message": "Update linpeas_base.sh",
-        "release_tag": "20230510-778666a3",
-        "release_date": "2023-05-10 11:53:21",
+        "release_tag": "20230514-85dabdc9",
+        "release_date": "2023-05-14 04:27:49",
         "release_message": ""
     },
     "https://github.com/waderwu/attackRmi": {
@@ -3888,8 +3888,8 @@
     "https://github.com/neuvector/neuvector": {
         "created_at": "2021-12-17 20:15:03",
         "description": "",
-        "commit_date": "2023-05-11 23:15:08",
-        "commit_message": "NVSHAS-7907: Add debug flag for interactive scan",
+        "commit_date": "2023-05-14 15:51:27",
+        "commit_message": "NVSHAS-6217: return scan error codes from signature retrieval",
         "release_tag": "v5.1.3",
         "release_date": "2023-05-09 18:16:30",
         "release_message": "Features:\r\nAdd new vulnerability feed for scanning Microsoft .NET framework\r\nEnforcer stats is disabled by default in Prometheus exporter to improve scalability\r\nUseability improvement: Using scanner to scan single image and print the result\r\nAdd imagePullPolicy check in admission control\r\n\r\n\r\nBug fixes:\r\nEmpty group auto-removal takes 2 hours to delete instead of 1 hour according to schedule\r\nCompliance profile doesn't show in UI console\r\n"
@@ -3915,8 +3915,8 @@
     "https://github.com/chaitin/safeline": {
         "created_at": "2023-04-12 11:30:14",
         "description": "长亭科技自研，基于业界领先的语义引擎检测技术，打造的简洁、易用的免费 WAF",
-        "commit_date": "2023-05-12 08:04:37",
-        "commit_message": "feat: add instructions for mannually updating docker images",
+        "commit_date": "2023-05-14 08:01:55",
+        "commit_message": "Merge pull request #65 from naocanmonster/main\n\n增加自动化测试对使用说明文档",
         "release_tag": "v1.4.0",
         "release_date": "2023-05-12 06:32:18",
         "release_message": "### 新增\r\n- 自定义规则支持匹配域名\r\n- 支持在一条自定义规则内，设置多个匹配条件\r\n- 站点列表新增 “今日访问 / 拦截量”\r\n\r\n### 优化\r\n- 优化交互和提示文案、修复已知问题\r\n\r\n**注意：低版本升级请执行 upgrade.sh 脚本，或者重新手动更新 compose.yaml 文件**"
@@ -3969,8 +3969,8 @@
     "https://github.com/aquasecurity/trivy": {
         "created_at": "2019-04-11 01:01:07",
         "description": "Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more",
-        "commit_date": "2023-05-12 10:30:11",
-        "commit_message": "fix(alpine): add EOL date for Alpine 3.18 (#4308)",
+        "commit_date": "2023-05-14 12:27:13",
+        "commit_message": "fix(report): set a correct file location for license scan output (#4326)",
         "release_tag": "v0.41.0",
         "release_date": "2023-04-28 06:00:39",
         "release_message": "## ⚡Release highlights and summary⚡\r\n\r\n👉 https://github.com/aquasecurity/trivy/discussions/4135\r\n\r\n## Changelog\r\n* 1be1e2e63 fix(spdx): add workaround for no src packages (#4118)\r\n* 45bc9e0de test(golang): rename broken go.mod (#4129)\r\n* 3334e78fa feat(sbom): add supplier field (#4122)\r\n* 27fb1bfde test(misconf): skip downloading of policies for tests #4126\r\n* 845ae31e5 refactor: use debug message for post-analyze errors (#4037)\r\n* 11a5b91a1 feat(sbom): add VEX support (#4053)\r\n* 5eab46498 feat(sbom): add primary package purpose field for SPDX (#4119)\r\n* a00d00eb9 fix(k8s): fix quiet flag (#4120)\r\n* 9bc326909 fix(python): parse of pip extras (#4103)\r\n* 855984167 feat(java): use full path for nested jars (#3992)\r\n* 0650e0e1d feat(license): add new flag for classifier confidence level (#4073)\r\n* 43b649627 feat: config and fs compliance support (#4097)\r\n* 9181bc1f7 chore(deps): bump sigstore/cosign-installer from 2.8.1 to 3.0.1 (#3952)\r\n* 48e021ea6 feat(spdx): add support for SPDX 2.3 (#4058)\r\n* 107752df6 fix: k8s all-namespaces support (#4096)\r\n* bd0c60364 perf(misconf): replace with post-analyzers (#4090)\r\n* 76662d5dd fix(helm): update networking API version detection (#4106)\r\n* be47b688c feat(image): custom docker host option (#3599)\r\n* cc18f92cf style: debug flag is incorrect and needs extra - (#4087)\r\n* 572a6193e docs(vuln): Document inline vulnerability filtering comments (#4024)\r\n* 914c6f092 feat(fs): customize error callback during fs walk (#4038)\r\n* 3f02feeff fix(ubuntu): skip copyright files from subfolders (#4076)\r\n* 57bb77c06 docs: restructure scanners (#3977)\r\n* b19b56c34 fix: fix `file does not exist` error for post-analyzers (#4061)\r\n\r\n"
@@ -4176,8 +4176,8 @@
     "https://github.com/zhuifengshaonianhanlu/pikachu": {
         "created_at": "2018-07-24 08:21:19",
         "description": "一个好玩的Web安全-漏洞测试平台",
-        "commit_date": "2022-10-12 03:51:20",
-        "commit_message": "Update README.md",
+        "commit_date": "2023-05-14 02:55:50",
+        "commit_message": "Merge pull request #25 from Zhniing/dev\n\nFix mysql connection",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -4221,11 +4221,11 @@
     "https://github.com/winezer0/whatweb-plus": {
         "created_at": "2021-08-09 04:40:58",
         "description": "whatweb 增强版  8000+插件（提供windows可执行文件）",
-        "commit_date": "2023-05-13 16:01:25",
-        "commit_message": "Update README.md",
-        "release_tag": "v0.5.5.19",
-        "release_date": "2023-05-13 04:50:01",
-        "release_message": "0.5.5.19 解决参数默认优先级问题\r\n将插件过滤参数放在最前面处理,确保-l -I等参数在插件过滤以后再进行操作."
+        "commit_date": "2023-05-14 12:52:23",
+        "commit_message": "解决kali下 ruby 3.1.2 join(nil)报错的问题",
+        "release_tag": "v0.5.5.19.fix",
+        "release_date": "2023-05-14 12:54:57",
+        "release_message": "修复kali下 ruby 3.1.2 下提示 join(nil，\"whatweb\")报错\r\n\r\n注意windows环境下不受影响,可以不进行更新"
     },
     "https://github.com/corunb/Dirscan": {
         "created_at": "2022-10-13 06:30:38",
@@ -4275,7 +4275,7 @@
     "https://github.com/aiboboxx/v2rayfree": {
         "created_at": "2021-10-13 11:34:53",
         "description": "v2ray公益免费节点、最新2ray免费v节点订阅地址、v2ray免费节点每日更新、免费ss/v2ray/trojan节点、freefq ",
-        "commit_date": "2023-05-13 12:33:45",
+        "commit_date": "2023-05-14 12:34:50",
         "commit_message": "update",
         "release_tag": "",
         "release_date": "",
@@ -4320,8 +4320,8 @@
     "https://github.com/freefq/free": {
         "created_at": "2020-06-07 02:48:33",
         "description": "翻墙、免费翻墙、免费科学上网、免费节点、免费梯子、免费ss/v2ray/trojan节点、蓝灯、谷歌商店、翻墙梯子",
-        "commit_date": "2023-05-14 00:00:03",
-        "commit_message": "updated_at 05-14 08:00",
+        "commit_date": "2023-05-15 00:00:03",
+        "commit_message": "updated_at 05-15 08:00",
         "release_tag": "",
         "release_date": "",
         "release_message": ""

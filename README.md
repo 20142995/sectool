@@ -1,16 +1,17 @@
-# 更新于 2023-05-14 08:44:25
+# 更新于 2023-05-15 08:44:13
 
 ## 近15天release更新记录
 | 更新时间 | 项目名称 | 版本 | 更新内容 |
 | :---- | :---- | :---- | :---- |
-|2023-05-13 04:50:01|[whatweb-plus](https://github.com/winezer0/whatweb-plus)|v0.5.5.<br>19|0.5.5.19 解决参数默认优先级问题  将插<br>件过滤参数放在最前面处理,确保-l -I等参<br>数在插件过滤以后再进行操作.|
+|2023-05-14 12:54:57|[whatweb-plus](https://github.com/winezer0/whatweb-plus)|v0.5.5.<br>19.fix|修复kali下 ruby 3.1.2 下提示 join(nil<br>，"whatweb")报错    注意windows环境下不<br>受影响,可以不进行更新|
+|2023-05-14 04:27:49|[PEASS-ng](https://github.com/carlospolop/PEASS-ng)|2023051<br>4-85dabd<br>c9||
+|2023-05-14 02:29:25|[afrog](https://github.com/zan8in/afrog)|v2.3.2|**Add:**  - The result will be writte<br>n to the JSON file, but it will not in<br>clude the request and response content<br>.  - Writes a JSON file including all <br>vulnerability results.  - The "disable<br>-output-html" command can be used to p<br>revent the automatic generation of an <br>HTML report, and its priority is highe<br>r than the "-o" command.  - PoC script<br> info information adds three fields af<br>fected, solutions, and created    **Op<br>timization:**  - Duplicated PoC remove<br>d: springboot-env-unauth  - When perfo<br>rming an update operation, the -up com<br>mand prompt is not friendly enough  - <br>Scan in order of increasing security r<br>isk level    **新增：**  - 使用命令参<br>数 -json 或 -j，将漏洞结果写入 JSON 文<br>件，不包括 request 和 response  - 使用<br>命令参数 -json-all 或 -ja，将漏洞结果写<br>入 JSON 文件，包括 request 和 response <br> - 使用 disable-output-html 命令可以禁<br>止生成 HTML 报告，该命令的优先级高于 -o<br> 命令。  - PoC 脚本 info 信息增加 affe<br>cted、solutions、created 三个字段    *<br>*优化：**  - 已移除重复的PoC: springbo<br>ot-env-unauth  - 执行更新操作时，-up <br>命令提示不够友好  - 按照从低到高的安全<br>风险级别顺序进行扫描  - 优化 url.path <br>编码问题|
 |2023-05-12 06:32:18|[safeline](https://github.com/chaitin/safeline)|v1.4.0|### 新增  - 自定义规则支持匹配域名  -<br> 支持在一条自定义规则内，设置多个匹配<br>条件  - 站点列表新增 “今日访问 / 拦截<br>量”    ### 优化  - 优化交互和提示文案<br>、修复已知问题    **注意：低版本升级请<br>执行 upgrade.sh 脚本，或者重新手动更新 <br>compose.yaml 文件**|
 |2023-05-12 03:16:59|[iDefender](https://github.com/wecooperate/iDefender)|2.7.0|添加易用性、稳定性，建议更新    - 更<br>新SDK到最新的版本    - 文件的读写添加首<br>次事件通知    - 过滤掉命名管道的读写请<br>求    - 规则引擎优化    - 去掉只读文件<br>监控开关    - 隐私保护换成读取文件、文<br>件映射事件    - 导出规则、导入规则、分<br>享规则添加信任列表的导出导入  - 优化开<br>机启动的逻辑，添加注册表开机启动项  - <br>模板更新（支持经典模式：新建、修改、删<br>除、读取等概念）    - 添加全能模板    -<br> 添加进程行为模板    - 添加文件行为模<br>板    - 添加注册表行为模板    - 添加网<br>络行为模板    - 其他    - 修复数据库一<br>些操作异常    - 修复进程保护、进程操作<br>拦截可能导致进程启动不了的问题    - 修<br>复一些误报问题    - 修复对话框界面最大<br>化状态的阴影问题    - 规则引擎添加更多<br>扩展属性              软件下载   |
 |2023-05-11 23:49:58|[nuclei](https://github.com/projectdiscovery/nuclei)|v2.9.4|## What's Changed  * Added option for<br> nuclei templates / config reset by @t<br>arunKoyalwar in https://github.com/pro<br>jectdiscovery/nuclei/pull/3675  consol<br>e     -reset  reset removes all nuclei<br> configuration and data files (includi<br>ng nuclei-templates)        **Full Cha<br>ngelog**: https://github.com/projectdi<br>scovery/nuclei/compare/v2.9.3...v2.9.4|
 |2023-05-11 14:38:10|[murphysec](https://github.com/murphysecurity/murphysec)|v3.1.0||
 |2023-05-11 07:41:26|[xray](https://github.com/chaitin/xray)|1.9.9|## 1.9.9(2023-5-11)    ### 版本介绍  <br>  该版本为 宏景人力系统 SQL注入漏洞(CN<br>VD-2023-08743) 的应急版本，相较上个版<br>本：      - 添加了一个POC      - 优化了<br>subdomain的参数，使参数缩写与webscan保<br>持一致    ### 更新内容    想要检测该漏<br>洞的师傅，可以使用    ./xray ws --poc p<br>oc-yaml-hjsoft-hcm-codesettree-serlvet<br>-categories-sqli --url http://example.<br>com    进行检测。    相关参考链接：|
 |2023-05-11 07:00:15|[URLFinder](https://github.com/pingc0y/URLFinder)|2023.5.<br>11|2023/5/11  变化 -i 配置文件可自定义：<br>线程数、抓取深度、敏感路由、超时时间、<br>最大抓取数  新增 -time 设置超时时间  新<br>增 -max 设置最大抓取数  新增 添加版本更<br>新提示  修复 已知bug|
-|2023-05-10 11:53:21|[PEASS-ng](https://github.com/carlospolop/PEASS-ng)|2023051<br>0-778666<br>a3||
 |2023-05-10 06:48:26|[noterce](https://github.com/xiao-zhu-zhu/noterce)|1.3|重构为web版    添加功能:  1. 多行执行<br>命令  2. 上线CS|
 |2023-05-09 18:16:30|[neuvector](https://github.com/neuvector/neuvector)|v5.1.3|Features:  Add new vulnerability feed<br> for scanning Microsoft .NET framework<br>  Enforcer stats is disabled by defaul<br>t in Prometheus exporter to improve sc<br>alability  Useability improvement: Usi<br>ng scanner to scan single image and pr<br>int the result  Add imagePullPolicy ch<br>eck in admission control      Bug fixe<br>s:  Empty group auto-removal takes 2 h<br>ours to delete instead of 1 hour accor<br>ding to schedule  Compliance profile d<br>oesn't show in UI console  |
 |2023-05-09 09:57:25|[RouteVulScan](https://github.com/F6JO/RouteVulScan)|RouteVu<br>lScan1.5|2023-05-09 将默认扫描子域和根域改为可<br>开关  2023-05-09 将匹配的state状态码改<br>为可以设置范围  2023-05-09 添加类似模板<br>语言的标记，可在Config中配置标记获取当<br>前请求的各类信息并当作路径或正则|
@@ -24,39 +25,36 @@
 |2023-05-06 12:11:03|[Viper](https://github.com/FunnyWolf/Viper)|v1.5.28|## v1.5.28 20230506  ### 新功能  - 新<br>增只显示Session功能(首页和网络拓扑更简<br>洁)  - 面向互联网的handler被扫描(网络测<br>绘)时会在Notice提示  ### 优化  - 合并me<br>tasploit-framework 6.3.16版本  ### Bug<br>fix  - 修复无法修改包含中文内容的文件<br>问题  - 修复文件管理无法上传文件问题|
 |2023-05-05 17:43:22|[syft](https://github.com/anchore/syft)|v0.80.0|# Changelog  ##  (2023-05-05)    ### <br>Added Features  - Improve pnpm support<br> ] ] ]  ### Bug Fixes  - chore: add mo<br>re detail on SPDX file IDs ] ] - chore<br>: do not HTML escape PackageURLs ] ] -<br> RPM database not found on ostree-mana<br>ged systems ] ] ] - Unable to use syft<br> for private azure container registry <br>] - linux-kernel-cataloger produces th<br>ousands of version-less components.  ]<br> ] ]  ### Deprecated Features  - Renam<br>e pkg.Catalog to pkg.Collection ] ]   <br> |
 |2023-05-05 13:08:55|[WeblogicTool](https://github.com/KimJun1010/WeblogicTool)|v1.1|更新记录  - 修复多个小bug  - 增加自定<br>义超时时间功能  - 增加 CVE-2023-21931 J<br>NDI漏洞 |
-|2023-05-05 03:21:56|[afrog](https://github.com/zan8in/afrog)|v2.3.1|**Urgent update:**    BUG:  - Solve t<br>he problem that the intranet cannot be<br> used due to version check    Added:  <br>- command -disable-update-check, -duc <br>disable automatic update check    Revi<br>se:  - Now update-poc will be executed<br> automatically, to disable this functi<br>on, please use -duc command  ---------<br>--    **紧急更新**    BUG：  - 解决 版<br>本检查  导致内网无法使用问题     新增：<br>  - 命令 -disable-update-check，-duc <br>禁用自动更新检查    修改：  - 现在 upda<br>te-poc 会自动执行，禁用这个功能，请使<br>用 -duc 命令  |
 |2023-05-04 06:43:35|[AsamF](https://github.com/Kento-Sec/AsamF)|v0.1.13|v0.1.13    大大提升了zoomeye、quake的<br>查询速度。|
 |2023-05-01 13:29:07|[subfinder](https://github.com/projectdiscovery/subfinder)|v2.5.8|## What's Changed    * Added  as new <br>source support (#743)  by @gboddin in <br>https://github.com/projectdiscovery/su<br>bfinder/pull/793  * Fixed 360quake api<br> to specify include field by @chushuai<br> in https://github.com/projectdiscover<br>y/subfinder/pull/815  * Updated code t<br>o get domain result with onresultcallb<br>ack by @dogancanbakir in https://githu<br>b.com/projectdiscovery/subfinder/pull/<br>800  * Updated hackertarget source url<br> by @ehsandeep in https://github.com/p<br>rojectdiscovery/subfinder/pull/823    <br>Issues closed in release - https://git<br>hub.com/projectdiscovery/subfinder/mil<br>estone/6?closed=1    ## Deps update   <br> * chore(deps): bump actions/setup-go <br>from 3 to 4 by @dependabot in https://<br>github.com/projectdiscovery/subfinder/<br>pull/794  * chore(deps): bump github.c<br>om/projectdiscovery/chaos-client from <br>0.5.0 to 0.5.1 in /v2 by @dependabot i<br>n https://github.com/projectdiscovery/<br>subfinder/pull/797  * chore(deps): bum<br>p alpine from 3.17.2 to 3.17.3 by @dep<br>endabot in https://github.com/projectd<br>iscovery/subfinder/pull/801  * chore(d<br>eps): bump github.com/projectdiscovery<br>/utils from 0.0.16 to 0.0.19 in /v2 by<br> @dependabot in https://github.com/pro<br>jectdiscovery/subfinder/pull/802  * ch<br>ore(deps): bump golang from 1.20.1-alp<br>ine to 1.20.3-alpine by @dependabot in<br> https://github.com/projectdiscovery/s<br>ubfinder/pull/803  * chore(deps): bump<br> github.com/rs/xid from 1.4.0 to 1.5.0<br> in /v2 by @dependabot in https://gith<br>ub.com/projectdiscovery/subfinder/pull<br>/804  * chore(deps): bump github.com/l<br>ib/pq from 1.10.7 to 1.10.8 in /v2 by <br>@dependabot in https://github.com/proj<br>ectdiscovery/subfinder/pull/808  * cho<br>re(deps): bump github.com/projectdisco<br>very/utils from 0.0.19 to 0.0.24 in /v<br>2 by @dependabot in https://github.com<br>/projectdiscovery/subfinder/pull/810  <br>* chore(deps): bump github.com/project<br>discovery/utils from 0.0.24 to 0.0.25 <br>in /v2 by @dependabot in https://githu<br>b.com/projectdiscovery/subfinder/pull/<br>818  * chore(deps): bump github.com/li<br>b/pq from 1.10.8 to 1.10.9 in /v2 by @<br>dependabot in https://github.com/proje<br>ctdiscovery/subfinder/pull/821  * chor<br>e(deps): bump github.com/projectdiscov<br>ery/utils from 0.0.25 to 0.0.26 in /v2<br> by @dependabot in https://github.com/<br>projectdiscovery/subfinder/pull/826  *<br> chore(deps): bump github.com/projectd<br>iscovery/dnsx from 1.1.3 to 1.1.4 in /<br>v2 by @dependabot in https://github.co<br>m/projectdiscovery/subfinder/pull/825 <br>   ## New Contributors  * @gboddin mad<br>e their first contribution in https://<br>github.com/projectdiscovery/subfinder/<br>pull/793  * @chushuai made their first<br> contribution in https://github.com/pr<br>ojectdiscovery/subfinder/pull/816    *<br>*Full Changelog**: https://github.com/<br>projectdiscovery/subfinder/compare/v2.<br>5.7...v2.5.8|
 |2023-05-01 11:38:02|[frpCracker](https://github.com/SleepingBag945/frpCracker)|v0.1|初版|
 |2023-04-30 15:08:56|[naabu](https://github.com/projectdiscovery/naabu)|v2.1.6|## What's Changed  * Fixed an issue w<br>ith -ec option by @RamanaReddy0M in ht<br>tps://github.com/projectdiscovery/naab<br>u/pull/637  * Fixed an issue with -eh <br>option by @iamargus95 in https://githu<br>b.com/projectdiscovery/naabu/pull/640 <br> * Fixed an issue with -stats option b<br>y @Mzack9999 in https://github.com/pro<br>jectdiscovery/naabu/pull/639    Issues<br> closed in this release - https://gith<br>ub.com/projectdiscovery/naabu/mileston<br>e/7    ## New Contributors  * @iamargu<br>s95 made their first contribution in h<br>ttps://github.com/projectdiscovery/naa<br>bu/pull/640    **Full Changelog**: htt<br>ps://github.com/projectdiscovery/naabu<br>/compare/v2.1.5...v2.1.6|
-|2023-04-29 20:03:26|[sweetPotato](https://github.com/z2p/sweetPotato)|version<br>1.6|# 更新日志  ## version1.6  ### 新增  <br>1. 已识别组件的目录扫描优化（使用特定<br>字典且会进行关键字验证，例如识别到是Web<br>Logic会自动去访问/console，并进行关键<br>字验证）    ### 优化  1. 脆弱性分析增加<br>过滤，不会对所有类型进行分析（例如jpg）<br>  2. 优化和增加部份指纹  3. 默认开启已<br>识别组件的目录扫描|
-|2023-04-29 11:59:25|[cf](https://github.com/teamssix/cf)|v0.4.5|### 新增功能    *  增加华为云控制台接<br>管和权限枚举功能    ### 功能优化    *  <br>优化错误信息输出  *  优化更新功能    ##<br># Bug 修复    *  修复配置令牌功能的 Bu<br>g  *   修复两处缓存功能的 Bug  *  修复<br>更新功能 Bug  *  修复腾讯云 cvm 和 lh <br>无法列全的 Bug    ## 新贡献者  * @0xorO<br>ne made their first contribution in ht<br>tps://github.com/teamssix/cf/pull/219 <br>   **Full Changelog**: https://github.<br>com/teamssix/cf/compare/v0.4.4...v0.4.<br>5|
-|2023-04-29 10:58:25|[Dude](https://github.com/x364e3ab6/Dude)|v1.0.0.<br>4|1. 新增结构分析功能，可快速分析网站结<br>构，并可对指定链接执行JavaScript脚本获<br>取常规源码分析无法取得的链接，如WEBAPI<br>；  2. 新增内置浏览器注入并执行JavaScri<br>pt脚本的功能；  3. 新增了工具箱的显示<br>隐藏，默认隐藏；  4. 修改了内置浏览器及<br>功能插件TabControl的重选中逻辑和关闭方<br>式；  5. 修改了数据监视功能由始终开启为<br>自定义开启；  6. 修改了一些小Bug，对部<br>分代码写法和效率进行优化；  7. 内置Edge<br>浏览器内核升级至最新版本112.0.1722.64。|
-|2023-04-29 06:20:47|[pocsuite3](https://github.com/knownsec/pocsuite3)|v2.0.4|* 兼容 nuclei v2.9.1 的模版协议名称变<br>化 #364     ---    * Updated protocol n<br>ames that are compatible with Nuclei v<br>2.9.1 #364 |
 ## 近15天commit提交记录
 | 提交时间 | 项目名称 | 更新内容 |
 | :---- | :---- | :---- |
-|2023-05-14 00:30:16|[NucleiTP](https://github.com/ExpLangcn/NucleiTP)|更新啦❤️|
-|2023-05-14 00:00:03|[free](https://github.com/freefq/free)|updated_at 05-14 08:00|
-|2023-05-13 20:33:27|[PocOrExp_in_Githu<br>b](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-05-14 04:33:27|
+|2023-05-15 00:30:16|[NucleiTP](https://github.com/ExpLangcn/NucleiTP)|更新啦❤️|
+|2023-05-15 00:00:03|[free](https://github.com/freefq/free)|updated_at 05-15 08:00|
+|2023-05-14 20:33:49|[PocOrExp_in_Githu<br>b](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-05-15 04:33:49|
+|2023-05-14 15:51:27|[neuvector](https://github.com/neuvector/neuvector)|NVSHAS-6217: return scan error codes from signature<br> retrieval|
+|2023-05-14 12:52:23|[whatweb-plus](https://github.com/winezer0/whatweb-plus)|解决kali下 ruby 3.1.2 join(nil)报错的问题|
+|2023-05-14 12:34:50|[v2rayfree](https://github.com/aiboboxx/v2rayfree)|update|
+|2023-05-14 12:27:13|[trivy](https://github.com/aquasecurity/trivy)|fix(report): set a correct file location for licens<br>e scan output (#4326)|
+|2023-05-14 08:25:37|[HackReport](https://github.com/awake1t/HackReport)|2023-05-14 16:25:37|
+|2023-05-14 08:01:55|[safeline](https://github.com/chaitin/safeline)|Merge pull request #65 from naocanmonster/main  增<br>加自动化测试对使用说明文档|
+|2023-05-14 02:55:50|[pikachu](https://github.com/zhuifengshaonianhanlu/pikachu)|Merge pull request #25 from Zhniing/dev  Fix mysql <br>connection|
+|2023-05-14 01:45:28|[afrog](https://github.com/zan8in/afrog)|update|
 |2023-05-13 16:37:45|[kube-bench](https://github.com/aquasecurity/kube-bench)|build(deps): bump gorm.io/gorm from 1.24.2 to 1.25.<br>1 (#1437)  Bumps  from 1.24.2 to 1.25.1.  -   -     <br>---  updated-dependencies:  - dependency-name: gorm.<br>io/gorm    dependency-type: direct:production    upd<br>ate-type: version-update:semver-minor  ...    Signed<br>-off-by: dependabot[bot]   Co-authored-by: dependabo<br>t[bot] |
-|2023-05-13 16:01:25|[whatweb-plus](https://github.com/winezer0/whatweb-plus)|Update README.md|
-|2023-05-13 15:56:58|[afrog](https://github.com/zan8in/afrog)|dlclark/regexp2 v1.4.0 to v1.8|
 |2023-05-13 15:32:04|[SmsForwarder](https://github.com/pppscn/SmsForwarder)|新增：支持Bark推送加密 #273 (详见：https://bark.day<br>.app/#/encryption)|
 |2023-05-13 14:08:12|[DNSlog-GO](https://github.com/lanyi1998/DNSlog-GO)|fix:ubuntu version|
-|2023-05-13 12:33:45|[v2rayfree](https://github.com/aiboboxx/v2rayfree)|update|
 |2023-05-13 11:49:06|[Ladon](https://github.com/k8gege/Ladon)|Add files via upload|
 |2023-05-13 11:37:04|[K8tools](https://github.com/k8gege/K8tools)|Add files via upload|
 |2023-05-13 07:35:52|[mitaka](https://github.com/ninoseki/mitaka)|Merge pull request #734 from ninoseki/update-plasmo<br>  chore: update plasmo|
 |2023-05-12 15:05:59|[dbeaver](https://github.com/dbeaver/dbeaver)|Merge remote-tracking branch 'origin/devel' into de<br>vel|
-|2023-05-12 10:30:11|[trivy](https://github.com/aquasecurity/trivy)|fix(alpine): add EOL date for Alpine 3.18 (#4308)|
 |2023-05-12 09:58:11|[vulhub](https://github.com/vulhub/vulhub)|Merge pull request #351 from ndeloof/patch-1  Updat<br>e README for compose v2|
-|2023-05-12 08:04:37|[safeline](https://github.com/chaitin/safeline)|feat: add instructions for mannually updating docke<br>r images|
 |2023-05-12 04:05:26|[domain_hunter_pro](https://github.com/bit4woo/domain_hunter_pro)|Update LineEntryMenu.java|
 |2023-05-12 03:56:46|[ddddocr](https://github.com/sml2h3/ddddocr)|Update README.md|
 |2023-05-12 02:13:19|[Elkeid](https://github.com/bytedance/Elkeid)|update ko download url|
 |2023-05-11 23:48:32|[nuclei](https://github.com/projectdiscovery/nuclei)|version update|
-|2023-05-11 23:15:08|[neuvector](https://github.com/neuvector/neuvector)|NVSHAS-7907: Add debug flag for interactive scan|
 |2023-05-11 19:37:47|[clair](https://github.com/quay/clair)|build(deps): bump go.opentelemetry.io/contrib/instr<br>umentation/net/http/httptrace/otelhttptrace  Bumps  <br>from 0.29.0 to 0.41.1. -  -  -   --- updated-depende<br>ncies: - dependency-name: go.opentelemetry.io/contri<br>b/instrumentation/net/http/httptrace/otelhttptrace  <br> dependency-type: direct:production   update-type: v<br>ersion-update:semver-minor ...  Signed-off-by: depen<br>dabot[bot] |
 |2023-05-11 19:09:25|[grype](https://github.com/anchore/grype)|should only use hermetic functions in templates (#1<br>288)  Signed-off-by: Alex Goodman |
 |2023-05-11 16:05:14|[Dude](https://github.com/x364e3ab6/Dude)|Update README.md|
@@ -104,10 +102,7 @@
 |2023-05-01 07:46:06|[sqlmap](https://github.com/sqlmapproject/sqlmap)|Fixes #5409|
 |2023-05-01 06:41:05|[frpCracker](https://github.com/SleepingBag945/frpCracker)|Readme|
 |2023-05-01 05:46:33|[PeiQi-WIKI-Book](https://github.com/PeiQi0/PeiQi-WIKI-Book)|漏洞相关:Apache Superset,Druid|
-|2023-04-30 15:04:25|[naabu](https://github.com/projectdiscovery/naabu)|Merge pull request #654 from projectdiscovery/dev  <br>naabu v2.1.6|
-|2023-04-29 20:11:02|[sweetPotato](https://github.com/z2p/sweetPotato)|change readme|
-|2023-04-29 11:59:18|[cf](https://github.com/teamssix/cf)|Merge pull request #226 from teamssix/beta  Update <br>CHANGELOG.md|
-|2023-04-29 06:15:36|[pocsuite3](https://github.com/knownsec/pocsuite3)|Merge pull request #365 from 13ph03nix/nuclei-issue<br>-3055-protocol-name  fix: Updated protocol attribute<br> name (requests=> http & network => tcp)|## 所有项目
+|2023-04-30 15:04:25|[naabu](https://github.com/projectdiscovery/naabu)|Merge pull request #654 from projectdiscovery/dev  <br>naabu v2.1.6|## 所有项目
 # 渗透测试
 ## 信息收集
 ### 资产测绘采集
@@ -158,7 +153,7 @@
 | [Glass](https://github.com/s7ckTeam/Glass) |  | Glass是一款针对资产列表的快速指纹识别工具，通过调用Fofa/ZoomEy<br>e/Shodan/360等api接口快速查询资产信息并识别重点资产的指纹，也可<br>针对IP/IP段或资产列表进行快速的指纹识别。 |
 | [Finger](https://github.com/EASY233/Finger) |  | 一款红队在大量的资产中存活探测与重点攻击系统指纹探测工具 |
 | [LazyDog](https://github.com/L10nK1n6/LazyDog) | 1.1 | LazyDog是一款通过网络空间测绘引擎读取资产并进行指纹识别的工具 |
-| [whatweb-plus](https://github.com/winezer0/whatweb-plus) | v0.5.5.<br>19 | whatweb 增强版  8000+插件（提供windows可执行文件） |
+| [whatweb-plus](https://github.com/winezer0/whatweb-plus) | v0.5.5.<br>19.fix | whatweb 增强版  8000+插件（提供windows可执行文件） |
 ### WAF识别
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
@@ -253,7 +248,7 @@
 | [w13scan](https://github.com/w-digital-scanner/w13scan) |  | Passive Security Scanner (被动式安全扫描器) |
 | [Fvuln](https://github.com/d3ckx1/Fvuln) | Fvuln_v<br>1.4.8 | F-vuln（全称：Find-Vulnerability）是为了自己工作方便专门编写的<br>一款自动化工具，主要适用于日常安全服务、渗透测试人员和RedTeam红<br>队人员，它集合的功能包括：存活IP探测、开放端口探测、web服务探测<br>、web漏洞扫描、smb爆破、ssh爆破、ftp爆破、mssql爆破等其他数据库<br>爆破工作以及大量web漏洞检测模块。 |
 | [nuclei](https://github.com/projectdiscovery/nuclei) | v2.9.4 | Fast and customizable vulnerability scanner based on simple YA<br>ML based DSL. |
-| [afrog](https://github.com/zan8in/afrog) | v2.3.1 | A Security Tool for Bug Bounty, Pentest and Red Teaming. |
+| [afrog](https://github.com/zan8in/afrog) | v2.3.2 | A Security Tool for Bug Bounty, Pentest and Red Teaming. |
 | [vulmap](https://github.com/zhzyker/vulmap) | v0.9 | Vulmap 是一款 web 漏洞扫描和验证工具, 可对 webapps 进行漏洞扫<br>描, 并且具备漏洞验证功能 |
 | [POC-bomber](https://github.com/tr0uble-mAker/POC-bomber) | v2.0.2-<br>POC-bomb<br>er | 利用大量高威胁poc/exp快速获取目标权限，用于渗透和红队快速打点 |
 | [QingTing](https://github.com/StarCrossPortal/QingTing) | v0.3 | 蜻蜓安全一个安全工具编排平台,可以自由编排你的工具流,集成108款<br>工具,包括xray、nmap、awvs等;你可以将喜欢的工具编排成一个场景，快<br>速打造适合自己的安全工作台~ |
@@ -534,7 +529,7 @@
 | [dirtycow](https://github.com/firefart/dirtycow) |  | Dirty Cow exploit - CVE-2016-5195 |
 | [traitor](https://github.com/liamg/traitor) | v0.0.14 | :arrow_up: :skull_and_crossbones: :fire: Automatic Linux prive<br>sc via exploitation of low-hanging fruit e.g. gtfobins, pwnkit,<br> dirty pipe, +w docker.sock |
 | [LinEnum](https://github.com/rebootuser/LinEnum) |  | Scripted Local Linux Enumeration & Privilege Escalation Checks |
-| [PEASS-ng](https://github.com/carlospolop/PEASS-ng) | 2023051<br>0-778666<br>a3 | PEASS - Privilege Escalation Awesome Scripts SUITE (with color<br>s) |
+| [PEASS-ng](https://github.com/carlospolop/PEASS-ng) | 2023051<br>4-85dabd<br>c9 | PEASS - Privilege Escalation Awesome Scripts SUITE (with color<br>s) |
 | [traitor](https://github.com/liamg/traitor) | v0.0.14 | :arrow_up: :skull_and_crossbones: :fire: Automatic Linux prive<br>sc via exploitation of low-hanging fruit e.g. gtfobins, pwnkit,<br> dirty pipe, +w docker.sock |
 ### 容器提权
 | 项目名称 | 版本 | 项目描述 |
