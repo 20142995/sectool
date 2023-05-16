@@ -464,6 +464,7 @@
             - https://github.com/d3vilbug/HackBar
             - https://github.com/c0ny1/chunked-coding-converter
             - https://github.com/Tsojan/TsojanScan
+            - https://github.com/bit4woo/burp-api-drops
         xray:
             - https://github.com/zema1/yarx
             - https://github.com/phith0n/xray-poc-generation
