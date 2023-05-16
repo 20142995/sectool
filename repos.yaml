@@ -558,6 +558,7 @@ CTF:
             - https://github.com/Harveysn0w/CTF_Hacker-Tools
     知识库:
         - https://github.com/kitezzzGrim/CTF-Note
+        - https://github.com/apachecn/apachecn-ctf-wiki
 
     逆向:
         pyc逆向:
@@ -574,6 +575,30 @@ CTF:
             - https://github.com/pablocelayes/rsa-wiener-attack
             - https://github.com/Mr-Aur0ra/RSA
             - https://github.com/RsaCtfTool/RsaCtfTool
+    AWD:
+        线下平台:
+            - https://github.com/vidar-team/Cardinal
+            - https://github.com/D0g3-Lab/H1ve
+            - https://github.com/mo-xiaoxi/AWD_CTF_Platform
+            - https://github.com/xuchaoa/CTF_AWD_Platform
+            - https://github.com/zhl2008/awd-platform
+            - https://github.com/BJLIYANLIANG/JJUCTF_V2.0
+        脚本:
+            - https://github.com/admintony/Prepare-for-AWD
+            - https://github.com/Ares-X/AWD-Predator-Framework
+            - https://github.com/Wfzsec/awd_attack_framework
+        靶场:
+            - https://github.com/glzjin/20190511_awd_docker
+            - https://github.com/zhl2008/awd-platform
+            - https://github.com/mo-xiaoxi/AWD_CTF_Platform
+            - https://github.com/Cl0udG0d/AWDDocker
+            - https://github.com/yqw1212/Liaoning-provincial-competition-target-1
+            - https://github.com/871339097/wordpress
+            - https://github.com/zhl2008/awd-platform
+        防护:
+            - https://github.com/DasSecurity-HatLab/AoiAWD
+            - https://github.com/sharpleung/CTF-WAF
+            - https://github.com/dr0op/k4l0ng_WAF
 应急响应:
     web日志分析:
         - https://github.com/minhangxiaohui/DecodeSomeJSPWebshell
@@ -645,6 +670,15 @@ CTF:
         - https://github.com/bugku/BWVS
         - https://github.com/Medicean/VulApps
         - https://github.com/vulhub/vulhub
+    AWD靶场:
+        - https://github.com/glzjin/20190511_awd_docker
+        - https://github.com/zhl2008/awd-platform
+        - https://github.com/mo-xiaoxi/AWD_CTF_Platform
+        - https://github.com/Cl0udG0d/AWDDocker
+        - https://github.com/yqw1212/Liaoning-provincial-competition-target-1
+        - https://github.com/871339097/wordpress
+        - https://github.com/zhl2008/awd-platform
 压力测试:
     网站压测工具:
         - https://github.com/EZLippi/WebBench
+        
