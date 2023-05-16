@@ -182,10 +182,10 @@
     "https://github.com/lanyi1998/DNSlog-GO": {
         "created_at": "2020-09-05 16:18:57",
         "description": "DNSLog-GO 是一款golang编写的监控 DNS 解析记录的工具，自带WEB界面",
-        "commit_date": "2023-05-13 14:08:12",
-        "commit_message": "fix:ubuntu version",
-        "release_tag": "20230509",
-        "release_date": "2023-05-09 01:59:14",
+        "commit_date": "2023-05-15 03:42:55",
+        "commit_message": "fix:低版本linux无法运行",
+        "release_tag": "20230515",
+        "release_date": "2023-05-15 03:45:19",
         "release_message": ""
     },
     "https://github.com/Mr-xn/JNDIExploit-1": {
@@ -200,8 +200,8 @@
     "https://github.com/ycdxsb/PocOrExp_in_Github": {
         "created_at": "2021-04-13 05:46:16",
         "description": "聚合Github上已有的Poc或者Exp，CVE信息来自CVE官网。Auto Collect Poc Or Exp from Github by CVE ID.",
-        "commit_date": "2023-05-14 20:33:49",
-        "commit_message": "update 2023-05-15 04:33:49",
+        "commit_date": "2023-05-15 22:13:51",
+        "commit_message": "update 2023-05-16 06:13:51",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -380,8 +380,8 @@
     "https://github.com/lal0ne/vulnerability": {
         "created_at": "2022-01-20 02:48:42",
         "description": "收集、整理、修改互联网上公开的漏洞POC",
-        "commit_date": "2023-04-18 07:17:13",
-        "commit_message": "CVE-2019-7609",
+        "commit_date": "2023-05-15 06:34:33",
+        "commit_message": "CVE-2023-0386",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -461,7 +461,7 @@
     "https://github.com/ExpLangcn/NucleiTP": {
         "created_at": "2022-11-08 13:16:56",
         "description": "自动整合全网Nuclei的漏洞POC，实时同步更新最新POC！",
-        "commit_date": "2023-05-15 00:30:16",
+        "commit_date": "2023-05-16 00:30:19",
         "commit_message": "更新啦❤️",
         "release_tag": "",
         "release_date": "",
@@ -531,8 +531,8 @@
     "https://github.com/knownsec/404StarLink": {
         "created_at": "2020-11-17 08:10:18",
         "description": "404StarLink - 推荐优质、有意义、有趣、坚持维护的安全开源项目",
-        "commit_date": "2023-05-08 03:01:31",
-        "commit_message": "weekly update at 2023-05-08",
+        "commit_date": "2023-05-15 03:18:59",
+        "commit_message": "weekly update at 2023-05-15",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -828,11 +828,11 @@
     "https://github.com/murphysecurity/murphysec": {
         "created_at": "2022-03-16 02:52:33",
         "description": "An open source tool focused on software supply chain security. 墨菲安全专注于软件供应链安全，具备专业的软件成分分析（SCA）、漏洞检测、专业漏洞库。",
-        "commit_date": "2023-05-11 14:11:33",
-        "commit_message": "fix: discard argument",
-        "release_tag": "v3.1.0",
-        "release_date": "2023-05-11 14:38:10",
-        "release_message": ""
+        "commit_date": "2023-05-15 12:21:31",
+        "commit_message": "fix(npm): lockfile v3 is_direct_dependency",
+        "release_tag": "v3.1.1",
+        "release_date": "2023-05-15 12:52:58",
+        "release_message": "Support NPM lockfile v3 "
     },
     "https://github.com/blackarrowsec/mssqlproxy": {
         "created_at": "2020-02-12 08:44:28",
@@ -974,9 +974,9 @@
         "description": "一款完善的安全评估工具，支持常见 web 安全问题扫描和自定义 poc | 使用之前务必先阅读文档",
         "commit_date": "2023-04-12 07:23:36",
         "commit_message": "[update] POC贡献流程",
-        "release_tag": "1.9.9",
-        "release_date": "2023-05-11 07:41:26",
-        "release_message": "## 1.9.9(2023-5-11)\r\n\r\n### 版本介绍\r\n\r\n该版本为 宏景人力系统 SQL注入漏洞(CNVD-2023-08743) 的应急版本，相较上个版本：\r\n    - 添加了一个POC\r\n    - 优化了subdomain的参数，使参数缩写与webscan保持一致\r\n\r\n### 更新内容\r\n\r\n想要检测该漏洞的师傅，可以使用\r\n\r\n`./xray ws --poc poc-yaml-hjsoft-hcm-codesettree-serlvet-categories-sqli --url http://example.com`\r\n\r\n进行检测。\r\n\r\n相关参考链接：[CT stack](https://stack.chaitin.com/techblog/detail?id=89)"
+        "release_tag": "1.9.10",
+        "release_date": "2023-05-15 10:41:22",
+        "release_message": "### 版本介绍\r\n\r\n该版本为 泛微Ecology信息泄露&前台任意用户登陆漏洞 注入漏洞 的应急版本，相较上个版本，除了添加了一个POC外，未改动其他内容。\r\n\r\n### 更新内容\r\n\r\n想要检测该漏洞的师傅，可以使用\r\n\r\n`./xray ws --poc poc-yaml-ecology-ofslogin-aul --url http://example.com`\r\n\r\n进行检测。\r\n\r\n相关参考链接：[CT stack](https://stack.chaitin.com/techblog/detail?id=90)"
     },
     "https://github.com/sqlmapproject/sqlmap": {
         "created_at": "2012-06-26 09:52:15",
@@ -2951,8 +2951,8 @@
     "https://github.com/dbeaver/dbeaver": {
         "created_at": "2015-10-21 08:26:28",
         "description": "Free universal database tool and SQL client",
-        "commit_date": "2023-05-12 15:05:59",
-        "commit_message": "Merge remote-tracking branch 'origin/devel' into devel",
+        "commit_date": "2023-05-15 16:48:08",
+        "commit_message": "CB-3402 task info api (#19923)\n\n* CB-3402 task info api\r\n\r\n* CB-3402 review fix",
         "release_tag": "23.0.4",
         "release_date": "2023-05-07 18:00:03",
         "release_message": "\n                - Data Editor:\n                    - Bottom toolbar became customizable\n                    - Disconnected editors can be easily reconnected\n                    - Issue with Ctrl+1 shortcut not working was fixed\n                - SQL Editor:\n                    - Issue with refresh button closing active resul tab was fixed\n                    - Issue with not correct dislaying of \\r\\n sequence was fixed\n                    - Issue when generating the same UUID for all rows was fixed (thanks to @SiyaoIsHiding)\n                - Data Transfer:\n                    - Ability to change the target column type on import to BIGINT was added\n                    - Export from query to CSV was fixed\n                - Git: Missing git buttons and menus were added on macOS (Apple Silicon)\n                - Databases:\n                    - ClickHouse: Catalog support was added\n                    - Informix: issue with extra spaces in table name was fixed\n                    - MySQL:\n                        - Event reading for quoted schemas was fixed\n                        - Time handling in MySQL was improved\n                    - Oracle:\n                        - Issue with parcing IF EXISTS statements was fixed\n                        - The display of DATE with additional settings in the Result Set was fixed\n                        - Inromation about latest statistics update was added\n                    - PostgreSQL:\n                        - Generation of ALTER table SQL for foreign tables was improved\n                        - Role settings were added in generated DDL\n                        - IDENTITY SEQUENCE were added in generated DDL\n                    - Snowflake: issue with incorrect import with BIGINT, INT, REAL, FLOAT, DOUBLE PRECISION, and DECIMAL data types was fixed\n                    - Trino: issue with import files with varchar data type was fixed\n                - Misc:\n                    - SalesForce driver was updated\n                    - ODBC connection error was fixed\n                    - Java native libraries were added to DBeaver installation directly to avoid app crash cased by system restrictions.\n                    - DBeaver started to collect user statistics. It is anonymous and optional\n            "
@@ -3050,8 +3050,8 @@
     "https://github.com/zan8in/afrog": {
         "created_at": "2022-02-24 06:00:32",
         "description": "A Security Tool for Bug Bounty, Pentest and Red Teaming.",
-        "commit_date": "2023-05-14 01:45:28",
-        "commit_message": "update",
+        "commit_date": "2023-05-16 00:29:46",
+        "commit_message": "add gox",
         "release_tag": "v2.3.2",
         "release_date": "2023-05-14 02:29:25",
         "release_message": "**Add:**\r\n- The result will be written to the JSON file, but it will not include the request and response content.\r\n- Writes a JSON file including all vulnerability results.\r\n- The \"disable-output-html\" command can be used to prevent the automatic generation of an HTML report, and its priority is higher than the \"-o\" command.\r\n- PoC script info information adds three fields affected, solutions, and created\r\n\r\n**Optimization:**\r\n- Duplicated PoC removed: springboot-env-unauth\r\n- When performing an update operation, the -up command prompt is not friendly enough\r\n- Scan in order of increasing security risk level\r\n\r\n**新增：**\r\n- 使用命令参数 -json 或 -j，将漏洞结果写入 JSON 文件，不包括 request 和 response\r\n- 使用命令参数 -json-all 或 -ja，将漏洞结果写入 JSON 文件，包括 request 和 response\r\n- 使用 disable-output-html 命令可以禁止生成 HTML 报告，该命令的优先级高于 -o 命令。\r\n- PoC 脚本 info 信息增加 affected、solutions、created 三个字段\r\n\r\n**优化：**\r\n- 已移除重复的PoC: springboot-env-unauth\r\n- 执行更新操作时，-up 命令提示不够友好\r\n- 按照从低到高的安全风险级别顺序进行扫描\r\n- 优化 url.path 编码问题"
@@ -3879,17 +3879,17 @@
     "https://github.com/aquasecurity/kube-bench": {
         "created_at": "2017-06-19 13:27:02",
         "description": "Checks whether Kubernetes is deployed according to security best practices as defined in the CIS Kubernetes Benchmark",
-        "commit_date": "2023-05-13 16:37:45",
-        "commit_message": "build(deps): bump gorm.io/gorm from 1.24.2 to 1.25.1 (#1437)\n\nBumps [gorm.io/gorm](https://github.com/go-gorm/gorm) from 1.24.2 to 1.25.1.\r\n- [Release notes](https://github.com/go-gorm/gorm/releases)\r\n- [Commits](https://github.com/go-gorm/gorm/compare/v1.24.2...v1.25.1)\r\n\r\n---\r\nupdated-dependencies:\r\n- dependency-name: gorm.io/gorm\r\n  dependency-type: direct:production\r\n  update-type: version-update:semver-minor\r\n...\r\n\r\nSigned-off-by: dependabot[bot] <support@github.com>\r\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
-        "release_tag": "v0.6.13",
-        "release_date": "2023-04-24 08:11:58",
-        "release_message": "## Changelog\r\nc3b6871 Fix version in policies.yaml (#1415)\r\n9e41099 build(deps): bump github.com/aws/aws-sdk-go-v2/service/securityhub (#1397)\r\n7aeb6c3 build(deps): bump github.com/fatih/color from 1.13.0 to 1.14.1 (#1363)\r\n96c6b38 chore: publish ubi based image (#1412)\r\nb43f58d add darwin builds (#1428)\r\n\r\n"
+        "commit_date": "2023-05-15 12:34:00",
+        "commit_message": "release: prepare v0.6.14-rc (#1442)\n\nSigned-off-by: chenk <hen.keinan@gmail.com>",
+        "release_tag": "v0.6.14-rc",
+        "release_date": "2023-05-15 12:47:25",
+        "release_message": "## Changelog\n* e38c829 build(deps): bump gorm.io/gorm from 1.24.2 to 1.25.1 (#1437)\n* b0e49c8 fix: ignore the error from findConfigFile (#1440)\n\n"
     },
     "https://github.com/neuvector/neuvector": {
         "created_at": "2021-12-17 20:15:03",
         "description": "",
-        "commit_date": "2023-05-14 15:51:27",
-        "commit_message": "NVSHAS-6217: return scan error codes from signature retrieval",
+        "commit_date": "2023-05-15 22:59:19",
+        "commit_message": "NVSHAS-6416: Support AWS integrated billing/listing (report enforcer number on native docker in multi-cluster deployment)",
         "release_tag": "v5.1.3",
         "release_date": "2023-05-09 18:16:30",
         "release_message": "Features:\r\nAdd new vulnerability feed for scanning Microsoft .NET framework\r\nEnforcer stats is disabled by default in Prometheus exporter to improve scalability\r\nUseability improvement: Using scanner to scan single image and print the result\r\nAdd imagePullPolicy check in admission control\r\n\r\n\r\nBug fixes:\r\nEmpty group auto-removal takes 2 hours to delete instead of 1 hour according to schedule\r\nCompliance profile doesn't show in UI console\r\n"
@@ -3906,8 +3906,8 @@
     "https://github.com/anchore/syft": {
         "created_at": "2020-05-07 18:19:29",
         "description": "CLI tool and library for generating a Software Bill of Materials from container images and filesystems",
-        "commit_date": "2023-05-11 12:55:27",
-        "commit_message": "feat: warn if parsing newer SBOM (#1810)\n\nIf syft is asked to parse an SBOM that was written by a newer version of\r\nsyft, emit a warning, since the current version of syft doesn't know about \r\nfields that may be added in the future.\r\n\r\nSigned-off-by: Will Murphy <will.murphy@anchore.com>",
+        "commit_date": "2023-05-15 20:23:39",
+        "commit_message": "feat: update syft license concept to complex struct (#1743)\n\nthis PR makes the following changes to update the underlying license model to have more expressive capabilities\r\nit also provides some guarantee's surrounding the license values themselves\r\n\r\n- Licenses are updated from string -> pkg.LicenseSet which contain pkg.License with the following fields:\r\n- original `Value` read by syft\r\n- If it's possible to construct licenses will always have a valid SPDX expression for downstream consumption\r\n- the above is run against a generated list of SPDX license ID to try and find the correct ID\r\n- SPDX concluded vs declared is added to the new struct\r\n- URL source for license is added to the new struct\r\n- Location source is added to the new struct to show where the expression was pulled from",
         "release_tag": "v0.80.0",
         "release_date": "2023-05-05 17:43:22",
         "release_message": "# Changelog\n\n## [v0.80.0](https://github.com/anchore/syft/tree/v0.80.0) (2023-05-05)\n\n[Full Changelog](https://github.com/anchore/syft/compare/v0.79.0...v0.80.0)\n\n### Added Features\n\n- Improve pnpm support [[Issue #1535](https://github.com/anchore/syft/issues/1535)] [[PR #1752](https://github.com/anchore/syft/pull/1752)] [[Shanedell](https://github.com/Shanedell)]\n\n### Bug Fixes\n\n- chore: add more detail on SPDX file IDs [[PR #1769](https://github.com/anchore/syft/pull/1769)] [[kzantow](https://github.com/kzantow)]\n- chore: do not HTML escape PackageURLs [[PR #1782](https://github.com/anchore/syft/pull/1782)] [[kzantow](https://github.com/kzantow)]\n- RPM database not found on ostree-managed systems [[Issue #1755](https://github.com/anchore/syft/issues/1755)] [[PR #1756](https://github.com/anchore/syft/pull/1756)] [[fpytloun](https://github.com/fpytloun)]\n- Unable to use syft for private azure container registry [[Issue #1777](https://github.com/anchore/syft/issues/1777)]\n- linux-kernel-cataloger produces thousands of version-less components.  [[Issue #1781](https://github.com/anchore/syft/issues/1781)] [[PR #1784](https://github.com/anchore/syft/pull/1784)] [[kzantow](https://github.com/kzantow)]\n\n### Deprecated Features\n\n- Rename pkg.Catalog to pkg.Collection [[PR #1764](https://github.com/anchore/syft/pull/1764)] [[wagoodman](https://github.com/wagoodman)]\n\n\n\n"
@@ -3915,8 +3915,8 @@
     "https://github.com/chaitin/safeline": {
         "created_at": "2023-04-12 11:30:14",
         "description": "长亭科技自研，基于业界领先的语义引擎检测技术，打造的简洁、易用的免费 WAF",
-        "commit_date": "2023-05-14 08:01:55",
-        "commit_message": "Merge pull request #65 from naocanmonster/main\n\n增加自动化测试对使用说明文档",
+        "commit_date": "2023-05-15 04:03:54",
+        "commit_message": "Update guide_test.md",
         "release_tag": "v1.4.0",
         "release_date": "2023-05-12 06:32:18",
         "release_message": "### 新增\r\n- 自定义规则支持匹配域名\r\n- 支持在一条自定义规则内，设置多个匹配条件\r\n- 站点列表新增 “今日访问 / 拦截量”\r\n\r\n### 优化\r\n- 优化交互和提示文案、修复已知问题\r\n\r\n**注意：低版本升级请执行 upgrade.sh 脚本，或者重新手动更新 compose.yaml 文件**"
@@ -3951,8 +3951,8 @@
     "https://github.com/quay/clair": {
         "created_at": "2015-11-13 18:46:16",
         "description": "Vulnerability Static Analysis for Containers",
-        "commit_date": "2023-05-11 19:37:47",
-        "commit_message": "build(deps): bump go.opentelemetry.io/contrib/instrumentation/net/http/httptrace/otelhttptrace\n\nBumps [go.opentelemetry.io/contrib/instrumentation/net/http/httptrace/otelhttptrace](https://github.com/open-telemetry/opentelemetry-go-contrib) from 0.29.0 to 0.41.1.\n- [Release notes](https://github.com/open-telemetry/opentelemetry-go-contrib/releases)\n- [Changelog](https://github.com/open-telemetry/opentelemetry-go-contrib/blob/main/CHANGELOG.md)\n- [Commits](https://github.com/open-telemetry/opentelemetry-go-contrib/compare/zpages/v0.29.0...zpages/v0.41.1)\n\n---\nupdated-dependencies:\n- dependency-name: go.opentelemetry.io/contrib/instrumentation/net/http/httptrace/otelhttptrace\n  dependency-type: direct:production\n  update-type: version-update:semver-minor\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>",
+        "commit_date": "2023-05-15 17:26:58",
+        "commit_message": "chore: Only ask dependabot to care about direct dependencies\n\nThere is some confusion in the github docs about what the default is\nfor gomod given all the direct and indirect deps are explicitly\ndefined. This change attempts to only include the direct deps and\nlet the indirect deps be resolved by their projects.\n\nSigned-off-by: crozzy <joseph.crosland@gmail.com>",
         "release_tag": "v4.6.1",
         "release_date": "2023-04-13 18:29:02",
         "release_message": "<a name=\"unreleased\"></a>\n## [Unreleased]\n\n\n<a name=\"v4.6.1\"></a>\n## [v4.6.1] - 2023-04-13\n### Airgap\n- [e02aba27](https://github.com/quay/clair/commit/e02aba27de01cb461f79bee9644aac80c2f9bd65): Remove libindex Airgap option\n### Chore\n- [36990912](https://github.com/quay/clair/commit/36990912450fba2ccbef260a4829f1d9f69f45c6): v4.6.1 changelog bump\n- [e676671c](https://github.com/quay/clair/commit/e676671c17d2612470cd8de05aa668312fbb3036): Bump Claircore to v1.4.21\n### Go.Mod\n- [36de97cc](https://github.com/quay/clair/commit/36de97ccf619113b1ef4dff6bfd0e0c692252544): update json (de)serializer\n### Httptransport\n- [922f33d1](https://github.com/quay/clair/commit/922f33d18919578049fbf2ccb756e6990b66f280): fix request_id logging\n### Httputil\n- [9e8eacf5](https://github.com/quay/clair/commit/9e8eacf51b2a45f967036396b3dc14a52edc480d): fix ParseIP usage\n -  [#1689](https://github.com/quay/clair/issues/1689)### Notifier\n- [ffa4556d](https://github.com/quay/clair/commit/ffa4556d0f251cc984ed34594356625b9b747744): Avoid double reference\n\n[Unreleased]: https://github.com/quay/clair/compare/v4.6.1...HEAD\n[v4.6.1]: https://github.com/quay/clair/compare/v4.6.0...v4.6.1\n"
@@ -3969,8 +3969,8 @@
     "https://github.com/aquasecurity/trivy": {
         "created_at": "2019-04-11 01:01:07",
         "description": "Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more",
-        "commit_date": "2023-05-14 12:27:13",
-        "commit_message": "fix(report): set a correct file location for license scan output (#4326)",
+        "commit_date": "2023-05-15 11:48:09",
+        "commit_message": "refactor: code-optimization (#4214)",
         "release_tag": "v0.41.0",
         "release_date": "2023-04-28 06:00:39",
         "release_message": "## ⚡Release highlights and summary⚡\r\n\r\n👉 https://github.com/aquasecurity/trivy/discussions/4135\r\n\r\n## Changelog\r\n* 1be1e2e63 fix(spdx): add workaround for no src packages (#4118)\r\n* 45bc9e0de test(golang): rename broken go.mod (#4129)\r\n* 3334e78fa feat(sbom): add supplier field (#4122)\r\n* 27fb1bfde test(misconf): skip downloading of policies for tests #4126\r\n* 845ae31e5 refactor: use debug message for post-analyze errors (#4037)\r\n* 11a5b91a1 feat(sbom): add VEX support (#4053)\r\n* 5eab46498 feat(sbom): add primary package purpose field for SPDX (#4119)\r\n* a00d00eb9 fix(k8s): fix quiet flag (#4120)\r\n* 9bc326909 fix(python): parse of pip extras (#4103)\r\n* 855984167 feat(java): use full path for nested jars (#3992)\r\n* 0650e0e1d feat(license): add new flag for classifier confidence level (#4073)\r\n* 43b649627 feat: config and fs compliance support (#4097)\r\n* 9181bc1f7 chore(deps): bump sigstore/cosign-installer from 2.8.1 to 3.0.1 (#3952)\r\n* 48e021ea6 feat(spdx): add support for SPDX 2.3 (#4058)\r\n* 107752df6 fix: k8s all-namespaces support (#4096)\r\n* bd0c60364 perf(misconf): replace with post-analyzers (#4090)\r\n* 76662d5dd fix(helm): update networking API version detection (#4106)\r\n* be47b688c feat(image): custom docker host option (#3599)\r\n* cc18f92cf style: debug flag is incorrect and needs extra - (#4087)\r\n* 572a6193e docs(vuln): Document inline vulnerability filtering comments (#4024)\r\n* 914c6f092 feat(fs): customize error callback during fs walk (#4038)\r\n* 3f02feeff fix(ubuntu): skip copyright files from subfolders (#4076)\r\n* 57bb77c06 docs: restructure scanners (#3977)\r\n* b19b56c34 fix: fix `file does not exist` error for post-analyzers (#4061)\r\n\r\n"
@@ -4275,7 +4275,7 @@
     "https://github.com/aiboboxx/v2rayfree": {
         "created_at": "2021-10-13 11:34:53",
         "description": "v2ray公益免费节点、最新2ray免费v节点订阅地址、v2ray免费节点每日更新、免费ss/v2ray/trojan节点、freefq ",
-        "commit_date": "2023-05-14 12:34:50",
+        "commit_date": "2023-05-15 12:39:23",
         "commit_message": "update",
         "release_tag": "",
         "release_date": "",
@@ -4320,8 +4320,8 @@
     "https://github.com/freefq/free": {
         "created_at": "2020-06-07 02:48:33",
         "description": "翻墙、免费翻墙、免费科学上网、免费节点、免费梯子、免费ss/v2ray/trojan节点、蓝灯、谷歌商店、翻墙梯子",
-        "commit_date": "2023-05-15 00:00:03",
-        "commit_message": "updated_at 05-15 08:00",
+        "commit_date": "2023-05-16 00:00:02",
+        "commit_message": "updated_at 05-16 08:00",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
