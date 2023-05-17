@@ -1,8 +1,9 @@
-# 更新于 2023-05-16 08:40:18
+# 更新于 2023-05-17 08:43:34
 
 ## 近15天release更新记录
 | 更新时间 | 项目名称 | 版本 | 更新内容 |
 | :---- | :---- | :---- | :---- |
+|2023-05-16 16:40:02|[faker](https://github.com/joke2k/faker)|v18.9.0|See .|
 |2023-05-15 12:52:58|[murphysec](https://github.com/murphysecurity/murphysec)|v3.1.1|Support NPM lockfile v3 |
 |2023-05-15 12:47:25|[kube-bench](https://github.com/aquasecurity/kube-bench)|v0.6.14<br>-rc|## Changelog * e38c829 build(deps): b<br>ump gorm.io/gorm from 1.24.2 to 1.25.1<br> (#1437) * b0e49c8 fix: ignore the err<br>or from findConfigFile (#1440)  |
 |2023-05-15 10:41:22|[xray](https://github.com/chaitin/xray)|1.9.10|### 版本介绍    该版本为 泛微Ecology<br>信息泄露&前台任意用户登陆漏洞 注入漏洞 <br>的应急版本，相较上个版本，除了添加了一<br>个POC外，未改动其他内容。    ### 更新内<br>容    想要检测该漏洞的师傅，可以使用   <br> ./xray ws --poc poc-yaml-ecology-ofsl<br>ogin-aul --url http://example.com    <br>进行检测。    相关参考链接：|
@@ -18,7 +19,6 @@
 |2023-05-09 18:16:30|[neuvector](https://github.com/neuvector/neuvector)|v5.1.3|Features:  Add new vulnerability feed<br> for scanning Microsoft .NET framework<br>  Enforcer stats is disabled by defaul<br>t in Prometheus exporter to improve sc<br>alability  Useability improvement: Usi<br>ng scanner to scan single image and pr<br>int the result  Add imagePullPolicy ch<br>eck in admission control      Bug fixe<br>s:  Empty group auto-removal takes 2 h<br>ours to delete instead of 1 hour accor<br>ding to schedule  Compliance profile d<br>oesn't show in UI console  |
 |2023-05-09 09:57:25|[RouteVulScan](https://github.com/F6JO/RouteVulScan)|RouteVu<br>lScan1.5|2023-05-09 将默认扫描子域和根域改为可<br>开关  2023-05-09 将匹配的state状态码改<br>为可以设置范围  2023-05-09 添加类似模板<br>语言的标记，可在Config中配置标记获取当<br>前请求的各类信息并当作路径或正则|
 |2023-05-09 01:48:08|[GoWxDump](https://github.com/SpenserCai/GoWxDump)|v1.0.11|fix #19 支持了3.9.2.26 版本|
-|2023-05-08 18:07:43|[faker](https://github.com/joke2k/faker)|v18.7.0|See .|
 |2023-05-08 16:50:17|[railgun](https://github.com/lz520520/railgun)|v1.5.4-<br>fix|解压密码railgun    fix: 修复若干bug|
 |2023-05-07 18:00:03|[dbeaver](https://github.com/dbeaver/dbeaver)|23.0.4|                 - Data Editor:      <br>               - Bottom toolbar became<br> customizable                     - Di<br>sconnected editors can be easily recon<br>nected                     - Issue wit<br>h Ctrl+1 shortcut not working was fixe<br>d                 - SQL Editor:       <br>              - Issue with refresh but<br>ton closing active resul tab was fixed<br>                     - Issue with not <br>correct dislaying of \r\n sequence was<br> fixed                     - Issue whe<br>n generating the same UUID for all row<br>s was fixed (thanks to @SiyaoIsHiding)<br>                 - Data Transfer:     <br>                - Ability to change th<br>e target column type on import to BIGI<br>NT was added                     - Exp<br>ort from query to CSV was fixed       <br>          - Git: Missing git buttons a<br>nd menus were added on macOS (Apple Si<br>licon)                 - Databases:   <br>                  - ClickHouse: Catalo<br>g support was added                   <br>  - Informix: issue with extra spaces <br>in table name was fixed               <br>      - MySQL:                        <br> - Event reading for quoted schemas wa<br>s fixed                         - Time<br> handling in MySQL was improved       <br>              - Oracle:               <br>          - Issue with parcing IF EXIS<br>TS statements was fixed               <br>          - The display of DATE with a<br>dditional settings in the Result Set w<br>as fixed                         - Inr<br>omation about latest statistics update<br> was added                     - Postg<br>reSQL:                         - Gener<br>ation of ALTER table SQL for foreign t<br>ables was improved                    <br>     - Role settings were added in gen<br>erated DDL                         - I<br>DENTITY SEQUENCE were added in generat<br>ed DDL                     - Snowflake<br>: issue with incorrect import with BIG<br>INT, INT, REAL, FLOAT, DOUBLE PRECISIO<br>N, and DECIMAL data types was fixed   <br>                  - Trino: issue with <br>import files with varchar data type wa<br>s fixed                 - Misc:       <br>              - SalesForce driver was <br>updated                     - ODBC con<br>nection error was fixed               <br>      - Java native libraries were add<br>ed to DBeaver installation directly to<br> avoid app crash cased by system restr<br>ictions.                     - DBeaver<br> started to collect user statistics. I<br>t is anonymous and optional           <br>  |
 |2023-05-07 13:02:22|[Ladon](https://github.com/k8gege/Ladon)|v10.10.<br>5|### Ladon 10.10.5 20230505  [+]Hikvis<br>ionScan 海康威视 视频监控 密码爆破  [u<br>]INI插件  支持isok、isvul字段，当结果<br>出现对应特征字符串，回显ISVUL或ISOK  [u<br>]INI插件  支持$port$参数，超时还是改成<br>30秒  [+]CloseSMB  彻底禁用SMB服务-需<br>管理员权限(重启生效)  [+]DisService 彻<br>底禁用指定服务-需管理员权限  [+]StopSer<br>vice 停止指定服务-需管理员权限  [+]Ope<br>nTCP  防火墙放行指定TCP端口-需管理员权<br>限  [+]OpenUDP  防火墙放行指定UDP端口-<br>需管理员权限  [+]CloseTCP  防火墙拦截指<br>定TCP端口-需管理员权限  [+]CloseUDP  防<br>火墙拦截指定UDP端口-需管理员权限  [+]Hi<br>kvisionPoc  CVE-2017-7921 hikvision 海<br>康威视摄像头配置文件泄露 漏洞检测  [+]H<br>ikvisionDecode  CVE-2017-7921 hikvisio<br>n 海康威视摄像头配置文件解密 提取密码 <br> [u]sshcmd  CS版sshcmd更新SSH库支持高<br>版本SSH    ### 0x001 GodPotato提权  Lad<br>on GodPotato whoami  支持: Win8-Win11/<br>Win2012-2022服务提权至SYSTEM      ### <br>0x002 hikvision 海康威视 CVE-2017-7921<br>漏洞检测    Ladon 192.168.1.8/24 Hikvis<br>ionPoc  Ladon http://192.168.1.8:8080 <br>HikvisionPoc  Ladon url.txt HikvisionP<br>oc          ### 0x003 hikvision 海康威<br>视 密码审计    Ladon 192.168.1.8/24 Hik<br>visionScan  Ladon http://192.168.1.8:8<br>080 HikvisionScan  Ladon url.txt Hikvi<br>sionScan        详细功能用法，请查看公<br>众号或博客  |
@@ -27,25 +27,31 @@
 |2023-05-05 17:43:22|[syft](https://github.com/anchore/syft)|v0.80.0|# Changelog  ##  (2023-05-05)    ### <br>Added Features  - Improve pnpm support<br> ] ] ]  ### Bug Fixes  - chore: add mo<br>re detail on SPDX file IDs ] ] - chore<br>: do not HTML escape PackageURLs ] ] -<br> RPM database not found on ostree-mana<br>ged systems ] ] ] - Unable to use syft<br> for private azure container registry <br>] - linux-kernel-cataloger produces th<br>ousands of version-less components.  ]<br> ] ]  ### Deprecated Features  - Renam<br>e pkg.Catalog to pkg.Collection ] ]   <br> |
 |2023-05-05 13:08:55|[WeblogicTool](https://github.com/KimJun1010/WeblogicTool)|v1.1|更新记录  - 修复多个小bug  - 增加自定<br>义超时时间功能  - 增加 CVE-2023-21931 J<br>NDI漏洞 |
 |2023-05-04 06:43:35|[AsamF](https://github.com/Kento-Sec/AsamF)|v0.1.13|v0.1.13    大大提升了zoomeye、quake的<br>查询速度。|
-|2023-05-01 13:29:07|[subfinder](https://github.com/projectdiscovery/subfinder)|v2.5.8|## What's Changed    * Added  as new <br>source support (#743)  by @gboddin in <br>https://github.com/projectdiscovery/su<br>bfinder/pull/793  * Fixed 360quake api<br> to specify include field by @chushuai<br> in https://github.com/projectdiscover<br>y/subfinder/pull/815  * Updated code t<br>o get domain result with onresultcallb<br>ack by @dogancanbakir in https://githu<br>b.com/projectdiscovery/subfinder/pull/<br>800  * Updated hackertarget source url<br> by @ehsandeep in https://github.com/p<br>rojectdiscovery/subfinder/pull/823    <br>Issues closed in release - https://git<br>hub.com/projectdiscovery/subfinder/mil<br>estone/6?closed=1    ## Deps update   <br> * chore(deps): bump actions/setup-go <br>from 3 to 4 by @dependabot in https://<br>github.com/projectdiscovery/subfinder/<br>pull/794  * chore(deps): bump github.c<br>om/projectdiscovery/chaos-client from <br>0.5.0 to 0.5.1 in /v2 by @dependabot i<br>n https://github.com/projectdiscovery/<br>subfinder/pull/797  * chore(deps): bum<br>p alpine from 3.17.2 to 3.17.3 by @dep<br>endabot in https://github.com/projectd<br>iscovery/subfinder/pull/801  * chore(d<br>eps): bump github.com/projectdiscovery<br>/utils from 0.0.16 to 0.0.19 in /v2 by<br> @dependabot in https://github.com/pro<br>jectdiscovery/subfinder/pull/802  * ch<br>ore(deps): bump golang from 1.20.1-alp<br>ine to 1.20.3-alpine by @dependabot in<br> https://github.com/projectdiscovery/s<br>ubfinder/pull/803  * chore(deps): bump<br> github.com/rs/xid from 1.4.0 to 1.5.0<br> in /v2 by @dependabot in https://gith<br>ub.com/projectdiscovery/subfinder/pull<br>/804  * chore(deps): bump github.com/l<br>ib/pq from 1.10.7 to 1.10.8 in /v2 by <br>@dependabot in https://github.com/proj<br>ectdiscovery/subfinder/pull/808  * cho<br>re(deps): bump github.com/projectdisco<br>very/utils from 0.0.19 to 0.0.24 in /v<br>2 by @dependabot in https://github.com<br>/projectdiscovery/subfinder/pull/810  <br>* chore(deps): bump github.com/project<br>discovery/utils from 0.0.24 to 0.0.25 <br>in /v2 by @dependabot in https://githu<br>b.com/projectdiscovery/subfinder/pull/<br>818  * chore(deps): bump github.com/li<br>b/pq from 1.10.8 to 1.10.9 in /v2 by @<br>dependabot in https://github.com/proje<br>ctdiscovery/subfinder/pull/821  * chor<br>e(deps): bump github.com/projectdiscov<br>ery/utils from 0.0.25 to 0.0.26 in /v2<br> by @dependabot in https://github.com/<br>projectdiscovery/subfinder/pull/826  *<br> chore(deps): bump github.com/projectd<br>iscovery/dnsx from 1.1.3 to 1.1.4 in /<br>v2 by @dependabot in https://github.co<br>m/projectdiscovery/subfinder/pull/825 <br>   ## New Contributors  * @gboddin mad<br>e their first contribution in https://<br>github.com/projectdiscovery/subfinder/<br>pull/793  * @chushuai made their first<br> contribution in https://github.com/pr<br>ojectdiscovery/subfinder/pull/816    *<br>*Full Changelog**: https://github.com/<br>projectdiscovery/subfinder/compare/v2.<br>5.7...v2.5.8|
-|2023-05-01 11:38:02|[frpCracker](https://github.com/SleepingBag945/frpCracker)|v0.1|初版|
 ## 近15天commit提交记录
 | 提交时间 | 项目名称 | 更新内容 |
 | :---- | :---- | :---- |
-|2023-05-16 00:30:19|[NucleiTP](https://github.com/ExpLangcn/NucleiTP)|更新啦❤️|
-|2023-05-16 00:29:46|[afrog](https://github.com/zan8in/afrog)|add gox|
-|2023-05-16 00:00:02|[free](https://github.com/freefq/free)|updated_at 05-16 08:00|
-|2023-05-15 22:59:19|[neuvector](https://github.com/neuvector/neuvector)|NVSHAS-6416: Support AWS integrated billing/listing<br> (report enforcer number on native docker in multi-c<br>luster deployment)|
-|2023-05-15 22:13:51|[PocOrExp_in_Githu<br>b](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-05-16 06:13:51|
-|2023-05-15 20:23:39|[syft](https://github.com/anchore/syft)|feat: update syft license concept to complex struct<br> (#1743)  this PR makes the following changes to upd<br>ate the underlying license model to have more expres<br>sive capabilities  it also provides some guarantee's<br> surrounding the license values themselves    - Lice<br>nses are updated from string -> pkg.LicenseSet which<br> contain pkg.License with the following fields:  - o<br>riginal Value read by syft  - If it's possible to co<br>nstruct licenses will always have a valid SPDX expre<br>ssion for downstream consumption  - the above is run<br> against a generated list of SPDX license ID to try <br>and find the correct ID  - SPDX concluded vs declare<br>d is added to the new struct  - URL source for licen<br>se is added to the new struct  - Location source is <br>added to the new struct to show where the expression<br> was pulled from|
+|2023-05-17 00:30:16|[NucleiTP](https://github.com/ExpLangcn/NucleiTP)|更新啦❤️|
+|2023-05-17 00:00:02|[free](https://github.com/freefq/free)|updated_at 05-17 08:00|
+|2023-05-16 22:15:41|[PocOrExp_in_Githu<br>b](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-05-17 06:15:41|
+|2023-05-16 21:37:27|[neuvector](https://github.com/neuvector/neuvector)|NVSHAS-7706: avoid intercept the traffic for neuvec<br>tor csp adapter|
+|2023-05-16 19:41:43|[grype](https://github.com/anchore/grype)|Fix reading syft json from stdin by redirect (#1299<br>)  I figured out that running cat syft.json | grype <br>works but  grype  0.    Implemented this check, that<br> will recognize stdin by redirect, in the  IsPipedIn<br>put() method. Renamed the method to IsStdinPipeOrRed<br>irect().    Signed-off-by: Felix Becker   Co-authore<br>d-by: Benjamin Neff |
+|2023-05-16 17:05:48|[syft](https://github.com/anchore/syft)|fix: update field plurality of 8.0.0 schema before <br>release (#1820)  to keep things consistent across th<br>e schema we want Locations and URLs to be plural fie<br>lds now that they are fields on the License struct  <br>---------    Signed-off-by: Christopher Phillips |
+|2023-05-16 16:38:32|[faker](https://github.com/joke2k/faker)|Bump version: 18.8.0 → 18.9.0|
+|2023-05-16 14:13:55|[OA-EXPTOOL](https://github.com/LittleBear4/OA-EXPTOOL)|Update README.md|
+|2023-05-16 12:40:23|[v2rayfree](https://github.com/aiboboxx/v2rayfree)|update|
+|2023-05-16 12:12:24|[Pentest-Windows](https://github.com/arch3rPro/Pentest-Windows)|Update README.md|
+|2023-05-16 10:58:50|[trivy](https://github.com/aquasecurity/trivy)|feat(cli): add mage command to update golden integr<br>ation test files (#4380)|
+|2023-05-16 08:59:06|[sqlmap](https://github.com/sqlmapproject/sqlmap)|Fixes #5411|
+|2023-05-16 08:56:59|[domain_hunter_pro](https://github.com/bit4woo/domain_hunter_pro)|Update DomainPanel.java|
+|2023-05-16 08:43:08|[dbeaver](https://github.com/dbeaver/dbeaver)|#17585 ability to trim string values during export <br>to XLSX implemented with extra setting (#19953)|
+|2023-05-16 08:41:49|[kube-bench](https://github.com/aquasecurity/kube-bench)|replace with constant (#1445)|
+|2023-05-16 08:18:55|[safeline](https://github.com/chaitin/safeline)|Merge pull request #73 from naocanmonster/main  增<br>加雷池介绍文档|
+|2023-05-16 07:25:24|[murphysec](https://github.com/murphysecurity/murphysec)|chore(deps): Upgrade fix-tools|
+|2023-05-16 06:53:14|[FrameVul](https://github.com/Awrrays/FrameVul)|Update README.md|
+|2023-05-16 06:11:58|[afrog](https://github.com/zan8in/afrog)|update|
+|2023-05-16 01:45:17|[veinmind-tools](https://github.com/chaitin/veinmind-tools)|Merge pull request #235 from asjdf/master  feat(wea<br>kpass): support caching_sha2_password and enhance My<br>ISAM pkg|
 |2023-05-15 17:26:58|[clair](https://github.com/quay/clair)|chore: Only ask dependabot to care about direct dep<br>endencies  There is some confusion in the github doc<br>s about what the default is for gomod given all the <br>direct and indirect deps are explicitly defined. Thi<br>s change attempts to only include the direct deps an<br>d let the indirect deps be resolved by their project<br>s.  Signed-off-by: crozzy |
-|2023-05-15 16:48:08|[dbeaver](https://github.com/dbeaver/dbeaver)|CB-3402 task info api (#19923)  * CB-3402 task info<br> api    * CB-3402 review fix|
-|2023-05-15 12:39:23|[v2rayfree](https://github.com/aiboboxx/v2rayfree)|update|
-|2023-05-15 12:34:00|[kube-bench](https://github.com/aquasecurity/kube-bench)|release: prepare v0.6.14-rc (#1442)  Signed-off-by:<br> chenk |
-|2023-05-15 12:21:31|[murphysec](https://github.com/murphysecurity/murphysec)|fix(npm): lockfile v3 is_direct_dependency|
-|2023-05-15 11:48:09|[trivy](https://github.com/aquasecurity/trivy)|refactor: code-optimization (#4214)|
 |2023-05-15 06:34:33|[vulnerability](https://github.com/lal0ne/vulnerability)|CVE-2023-0386|
-|2023-05-15 04:03:54|[safeline](https://github.com/chaitin/safeline)|Update guide_test.md|
 |2023-05-15 03:42:55|[DNSlog-GO](https://github.com/lanyi1998/DNSlog-GO)|fix:低版本linux无法运行|
 |2023-05-15 03:18:59|[404StarLink](https://github.com/knownsec/404StarLink)|weekly update at 2023-05-15|
 |2023-05-14 12:52:23|[whatweb-plus](https://github.com/winezer0/whatweb-plus)|解决kali下 ruby 3.1.2 join(nil)报错的问题|
@@ -56,20 +62,16 @@
 |2023-05-13 11:37:04|[K8tools](https://github.com/k8gege/K8tools)|Add files via upload|
 |2023-05-13 07:35:52|[mitaka](https://github.com/ninoseki/mitaka)|Merge pull request #734 from ninoseki/update-plasmo<br>  chore: update plasmo|
 |2023-05-12 09:58:11|[vulhub](https://github.com/vulhub/vulhub)|Merge pull request #351 from ndeloof/patch-1  Updat<br>e README for compose v2|
-|2023-05-12 04:05:26|[domain_hunter_pro](https://github.com/bit4woo/domain_hunter_pro)|Update LineEntryMenu.java|
 |2023-05-12 03:56:46|[ddddocr](https://github.com/sml2h3/ddddocr)|Update README.md|
 |2023-05-12 02:13:19|[Elkeid](https://github.com/bytedance/Elkeid)|update ko download url|
 |2023-05-11 23:48:32|[nuclei](https://github.com/projectdiscovery/nuclei)|version update|
-|2023-05-11 19:09:25|[grype](https://github.com/anchore/grype)|should only use hermetic functions in templates (#1<br>288)  Signed-off-by: Alex Goodman |
 |2023-05-11 16:05:14|[Dude](https://github.com/x364e3ab6/Dude)|Update README.md|
 |2023-05-11 14:36:58|[PocList](https://github.com/1n7erface/PocList)|Update README.md|
 |2023-05-11 13:57:55|[v2rayA](https://github.com/v2rayA/v2rayA)|chore: add udp443 flows|
 |2023-05-11 09:31:50|[RouteVulScan](https://github.com/F6JO/RouteVulScan)|Update README.md|
 |2023-05-11 09:06:22|[GobypassAV-shellc<br>ode](https://github.com/Pizz33/GobypassAV-shellcode)|Update README.md|
 |2023-05-11 07:23:51|[URLFinder](https://github.com/pingc0y/URLFinder)|Update README.md  2023/5/11更新|
-|2023-05-11 04:02:10|[veinmind-tools](https://github.com/chaitin/veinmind-tools)|feat(plugins): use bullseye && update libveinmind-d<br>ev 1.9.15 (#239)|
 |2023-05-11 03:36:19|[captcha-killer-mo<br>dified](https://github.com/f0ng/captcha-killer-modified)|Update FAQ.md|
-|2023-05-11 00:43:03|[FrameVul](https://github.com/Awrrays/FrameVul)|Update README.md  fastadmin文件管理插件|
 |2023-05-10 14:03:11|[PEASS-ng](https://github.com/carlospolop/PEASS-ng)|Update linpeas_base.sh|
 |2023-05-10 12:20:33|[Antenna](https://github.com/wuba/Antenna)|Merge pull request #119 from wuba/develop  更新http<br>s证书|
 |2023-05-10 10:30:39|[noterce](https://github.com/xiao-zhu-zhu/noterce)|Update README.md|
@@ -77,7 +79,6 @@
 |2023-05-09 09:32:17|[ARL](https://github.com/TophantTechnology/ARL)|Merge pull request #558 from TophantTechnology/upda<br>te/license  Create LICENSE.md|
 |2023-05-09 09:05:58|[Exp-Tools](https://github.com/cseroad/Exp-Tools)|Update README.md|
 |2023-05-09 01:46:33|[GoWxDump](https://github.com/SpenserCai/GoWxDump)|fix #19 支持 3.9.2.26|
-|2023-05-08 18:07:07|[faker](https://github.com/joke2k/faker)|Bump version: 18.6.2 → 18.7.0|
 |2023-05-08 17:00:45|[railgun](https://github.com/lz520520/railgun)|Update README.md|
 |2023-05-08 11:24:15|[HackBrowserData](https://github.com/moonD4rk/HackBrowserData)|refactor: Refactor storage queries and filters.  - <br>Update local storage query constant and function cal<br>ls - Remove null and control characters from UTF-8 s<br>plit function|
 |2023-05-08 02:05:40|[ENScan_GO](https://github.com/wgpsec/ENScan_GO)|Merge pull request #56 from Blyth0He/master  Create<br> Dockerfile|
@@ -85,7 +86,6 @@
 |2023-05-06 12:10:05|[Viper](https://github.com/FunnyWolf/Viper)|update version v1.5.28|
 |2023-05-06 11:47:16|[feroxbuster](https://github.com/epi052/feroxbuster)|Merge pull request #898 from epi052/all-contributor<br>s/add-AkechiShiro  docs: add AkechiShiro as a contri<br>butor for ideas|
 |2023-05-06 09:52:47|[APTRS](https://github.com/Anof-cyber/APTRS)|Update README.md|
-|2023-05-06 01:58:06|[Pentest-Windows](https://github.com/arch3rPro/Pentest-Windows)|Update README.md|
 |2023-05-06 01:38:30|[Awesome-Redteam](https://github.com/Threekiii/Awesome-Redteam)|更新README.md|
 |2023-05-05 14:42:22|[nemo_go](https://github.com/hanc00l/nemo_go)|Update: goby api request|
 |2023-05-05 09:39:23|[NextScan](https://github.com/tongcheng-security-team/NextScan)|添加群聊|
@@ -97,12 +97,7 @@
 |2023-05-04 06:05:40|[Vulhub-Reproduce](https://github.com/Threekiii/Vulhub-Reproduce)|更新漏洞|
 |2023-05-04 03:08:55|[ysomap](https://github.com/wh1t3p1g/ysomap)|update|
 |2023-05-03 11:14:19|[Umi-OCR](https://github.com/hiroi-sora/Umi-OCR)|update|
-|2023-05-03 03:33:23|[go_proxy_pool](https://github.com/pingc0y/go_proxy_pool)|Update README.md|
-|2023-05-01 21:48:16|[WebGoat](https://github.com/WebGoat/WebGoat)|chore: bump jacoco-maven-plugin from 0.8.8 to 0.8.1<br>0  Bumps  from 0.8.8 to 0.8.10. -  -   --- updated-d<br>ependencies: - dependency-name: org.jacoco:jacoco-ma<br>ven-plugin   dependency-type: direct:production   up<br>date-type: version-update:semver-patch ...  Signed-o<br>ff-by: dependabot[bot] |
-|2023-05-01 13:24:14|[subfinder](https://github.com/projectdiscovery/subfinder)|Merge pull request #827 from projectdiscovery/dev  <br>subfinder v2.5.8|
-|2023-05-01 07:46:06|[sqlmap](https://github.com/sqlmapproject/sqlmap)|Fixes #5409|
-|2023-05-01 06:41:05|[frpCracker](https://github.com/SleepingBag945/frpCracker)|Readme|
-|2023-05-01 05:46:33|[PeiQi-WIKI-Book](https://github.com/PeiQi0/PeiQi-WIKI-Book)|漏洞相关:Apache Superset,Druid|## 所有项目
+|2023-05-03 03:33:23|[go_proxy_pool](https://github.com/pingc0y/go_proxy_pool)|Update README.md|## 所有项目
 # 渗透测试
 ## 信息收集
 ### 资产测绘采集
@@ -515,7 +510,7 @@
 | :---- | :---- | :---- |
 | [shellcodeloader](https://github.com/knownsec/shellcodeloader) | v1.1 | shellcodeloader |
 | [AV_Evasion_Tool](https://github.com/1y0n/AV_Evasion_Tool) | 2023041<br>7 | 掩日 - 免杀执行器生成工具 |
-| [GobypassAV-shellc<br>ode](https://github.com/Pizz33/GobypassAV-shellcode) |  | go 免杀shellcode加载器，免杀主流杀软，bypass火绒、360、核晶、d<br>ef等主流杀软 |
+| [GobypassAV-shellc<br>ode](https://github.com/Pizz33/GobypassAV-shellcode) |  | 免杀shellcode加载器，使用go实现，免杀bypass火绒、360、核晶、de<br>f等主流杀软 |
 | [ZheTian](https://github.com/yqcs/ZheTian) | v3 | ::ZheTian / 强大的免杀生成工具，Bypass All. |
 ## 权限提升
 ### windows提权
@@ -698,6 +693,7 @@
 | [HackBar](https://github.com/d3vilbug/HackBar) | 2.0 | HackBar plugin for Burpsuite |
 | [chunked-coding-co<br>nverter](https://github.com/c0ny1/chunked-coding-converter) | 0.4.0 | Burp suite 分块传输辅助插件 |
 | [TsojanScan](https://github.com/Tsojan/TsojanScan) | v1.4.4 | 一个集成的BurpSuite漏洞探测插件 |
+| [burp-api-drops](https://github.com/bit4woo/burp-api-drops) |  | burp插件开发指南 |
 ### xray
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
@@ -839,6 +835,7 @@
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
 | [CTF-Note](https://github.com/kitezzzGrim/CTF-Note) |  | CTF笔记：该项目主要记录CTF知识、刷题记录、工具等。 |
+| [apachecn-ctf-wiki](https://github.com/apachecn/apachecn-ctf-wiki) |  |  |
 ## 逆向
 ### pyc逆向
 | 项目名称 | 版本 | 项目描述 |
@@ -862,6 +859,38 @@
 | [rsa-wiener-attack](https://github.com/pablocelayes/rsa-wiener-attack) |  | A Python implementation of the Wiener attack on RSA public-key<br> encryption scheme. |
 | [RSA](https://github.com/Mr-Aur0ra/RSA) |  |  |
 | [RsaCtfTool](https://github.com/RsaCtfTool/RsaCtfTool) |  | RSA attack tool (mainly for ctf) - retreive private key from w<br>eak public key and/or uncipher data |
+## AWD
+### 线下平台
+| 项目名称 | 版本 | 项目描述 |
+| :---- | :---- | :---- |
+| [Cardinal](https://github.com/vidar-team/Cardinal) | v0.7.3 | CTF🚩 AWD (Attack with Defense) 线下赛平台 / AWD platform - 欢<br>迎 Star~ ✨ |
+| [H1ve](https://github.com/D0g3-Lab/H1ve) | 1.1.3 | An Easy / Quick / Cheap Integrated Platform |
+| [AWD_CTF_Platform](https://github.com/mo-xiaoxi/AWD_CTF_Platform) |  | 一个简单的AWD训练平台 |
+| [CTF_AWD_Platform](https://github.com/xuchaoa/CTF_AWD_Platform) |  | CTF 攻防对抗平台 |
+| [awd-platform](https://github.com/zhl2008/awd-platform) |  | platform for awd |
+| [JJUCTF_V2.0](https://github.com/BJLIYANLIANG/JJUCTF_V2.0) |  | JJU网络安全靶场实训平台 |
+### 脚本
+| 项目名称 | 版本 | 项目描述 |
+| :---- | :---- | :---- |
+| [Prepare-for-AWD](https://github.com/admintony/Prepare-for-AWD) |  | AWD攻防赛脚本集合 |
+| [AWD-Predator-Fram<br>ework](https://github.com/Ares-X/AWD-Predator-Framework) |  | AWD攻防赛webshell批量利用框架 |
+| [awd_attack_framew<br>ork](https://github.com/Wfzsec/awd_attack_framework) |  | awd攻防常用脚本+不死马+crontab+防御方法 |
+### 靶场
+| 项目名称 | 版本 | 项目描述 |
+| :---- | :---- | :---- |
+| [20190511_awd_dock<br>er](https://github.com/glzjin/20190511_awd_docker) |  | 2019 年 5 月 11 日防灾科技学院 “应急挑战杯” 大学生网络安全邀<br>请赛 AWD 靶机题目。 |
+| [awd-platform](https://github.com/zhl2008/awd-platform) |  | platform for awd |
+| [AWD_CTF_Platform](https://github.com/mo-xiaoxi/AWD_CTF_Platform) |  | 一个简单的AWD训练平台 |
+| [AWDDocker](https://github.com/Cl0udG0d/AWDDocker) |  | 标准化AWD靶场Docker |
+| [Liaoning-provinci<br>al-competition-tar<br>get-1](https://github.com/yqw1212/Liaoning-provincial-competition-target-1) |  | 第三届辽宁省ctf线下awd靶机1web |
+| [wordpress](https://github.com/871339097/wordpress) |  | AWD靶机 |
+| [awd-platform](https://github.com/zhl2008/awd-platform) |  | platform for awd |
+### 防护
+| 项目名称 | 版本 | 项目描述 |
+| :---- | :---- | :---- |
+| [AoiAWD](https://github.com/DasSecurity-HatLab/AoiAWD) |  | AoiAWD-专为比赛设计，便携性好，低权限运行的EDR系统。 |
+| [CTF-WAF](https://github.com/sharpleung/CTF-WAF) |  | 针对CTF线下赛的通用WAF，日志审计功能。 |
+| [k4l0ng_WAF](https://github.com/dr0op/k4l0ng_WAF) |  | A broute detect WAF by PHP using to AWD |
 # 应急响应
 ## web日志分析
 | 项目名称 | 版本 | 项目描述 |
@@ -883,7 +912,7 @@
 ## 其他
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
-| [faker](https://github.com/joke2k/faker) | v18.7.0 | Faker is a Python package that generates fake data for you. |
+| [faker](https://github.com/joke2k/faker) | v18.9.0 | Faker is a Python package that generates fake data for you. |
 | [SmsForwarder](https://github.com/pppscn/SmsForwarder) | v3.2.0 | 短信转发器——监控Android手机短信、来电、APP通知，并根据指定规<br>则转发到其他手机：钉钉群自定义机器人、钉钉企业内机器人、企业微信<br>群机器人、飞书机器人、企业微信应用消息、邮箱、bark、webhook、Tel<br>egram机器人、Server酱、PushPlus、手机短信等。包括主动控制服务端<br>与客户端，让你轻松远程发短信、查短信、查通话、查话簿、查电量等。<br>（V3.0 新增）PS.这个APK主要是学习与自用，如有BUG请提ISSUE，同时<br>欢迎大家提PR指正 |
 | [dbeaver](https://github.com/dbeaver/dbeaver) | 23.0.4 | Free universal database tool and SQL client |
 | [MySQLMonitor](https://github.com/TheKingOfDuck/MySQLMonitor) | 1.0 | MySQL实时监控工具(代码审计/黑盒/白盒审计辅助工具) |
@@ -969,6 +998,16 @@
 | [BWVS](https://github.com/bugku/BWVS) |  | Web漏洞渗透测试靶场 |
 | [VulApps](https://github.com/Medicean/VulApps) |  | 快速搭建各种漏洞环境(Various vulnerability environment) |
 | [vulhub](https://github.com/vulhub/vulhub) |  | Pre-Built Vulnerable Environments Based on Docker-Compose |
+## AWD靶场
+| 项目名称 | 版本 | 项目描述 |
+| :---- | :---- | :---- |
+| [20190511_awd_dock<br>er](https://github.com/glzjin/20190511_awd_docker) |  | 2019 年 5 月 11 日防灾科技学院 “应急挑战杯” 大学生网络安全邀<br>请赛 AWD 靶机题目。 |
+| [awd-platform](https://github.com/zhl2008/awd-platform) |  | platform for awd |
+| [AWD_CTF_Platform](https://github.com/mo-xiaoxi/AWD_CTF_Platform) |  | 一个简单的AWD训练平台 |
+| [AWDDocker](https://github.com/Cl0udG0d/AWDDocker) |  | 标准化AWD靶场Docker |
+| [Liaoning-provinci<br>al-competition-tar<br>get-1](https://github.com/yqw1212/Liaoning-provincial-competition-target-1) |  | 第三届辽宁省ctf线下awd靶机1web |
+| [wordpress](https://github.com/871339097/wordpress) |  | AWD靶机 |
+| [awd-platform](https://github.com/zhl2008/awd-platform) |  | platform for awd |
 # 压力测试
 ## 网站压测工具
 | 项目名称 | 版本 | 项目描述 |

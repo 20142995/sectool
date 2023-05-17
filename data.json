@@ -200,8 +200,8 @@
     "https://github.com/ycdxsb/PocOrExp_in_Github": {
         "created_at": "2021-04-13 05:46:16",
         "description": "聚合Github上已有的Poc或者Exp，CVE信息来自CVE官网。Auto Collect Poc Or Exp from Github by CVE ID.",
-        "commit_date": "2023-05-15 22:13:51",
-        "commit_message": "update 2023-05-16 06:13:51",
+        "commit_date": "2023-05-16 22:15:41",
+        "commit_message": "update 2023-05-17 06:15:41",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -461,7 +461,7 @@
     "https://github.com/ExpLangcn/NucleiTP": {
         "created_at": "2022-11-08 13:16:56",
         "description": "自动整合全网Nuclei的漏洞POC，实时同步更新最新POC！",
-        "commit_date": "2023-05-16 00:30:19",
+        "commit_date": "2023-05-17 00:30:16",
         "commit_message": "更新啦❤️",
         "release_tag": "",
         "release_date": "",
@@ -828,8 +828,8 @@
     "https://github.com/murphysecurity/murphysec": {
         "created_at": "2022-03-16 02:52:33",
         "description": "An open source tool focused on software supply chain security. 墨菲安全专注于软件供应链安全，具备专业的软件成分分析（SCA）、漏洞检测、专业漏洞库。",
-        "commit_date": "2023-05-15 12:21:31",
-        "commit_message": "fix(npm): lockfile v3 is_direct_dependency",
+        "commit_date": "2023-05-16 07:25:24",
+        "commit_message": "chore(deps): Upgrade fix-tools",
         "release_tag": "v3.1.1",
         "release_date": "2023-05-15 12:52:58",
         "release_message": "Support NPM lockfile v3 "
@@ -981,8 +981,8 @@
     "https://github.com/sqlmapproject/sqlmap": {
         "created_at": "2012-06-26 09:52:15",
         "description": "Automatic SQL injection and database takeover tool",
-        "commit_date": "2023-05-01 07:46:06",
-        "commit_message": "Fixes #5409",
+        "commit_date": "2023-05-16 08:59:06",
+        "commit_message": "Fixes #5411",
         "release_tag": "1.7",
         "release_date": "2023-01-02 22:32:55",
         "release_message": "Stable version 1.7 ([changeset](https://github.com/sqlmapproject/sqlmap/compare/1.6...1.7))"
@@ -999,8 +999,8 @@
     "https://github.com/LittleBear4/OA-EXPTOOL": {
         "created_at": "2022-10-13 12:31:21",
         "description": "OA综合利用工具，集合将近20款OA漏洞批量扫描",
-        "commit_date": "2023-04-23 06:05:21",
-        "commit_message": "Add files via upload",
+        "commit_date": "2023-05-16 14:13:55",
+        "commit_message": "Update README.md",
         "release_tag": "OA-EXPTOOL-0.72",
         "release_date": "2023-04-23 06:08:32",
         "release_message": "最近更新日志：\r\n泛微前台sql注入的poc验证，暂无exp\r\n万户OA_UploadServlet.py\r\n万户OA_xfire_xxe\r\n优化poc的验证功能"
@@ -1735,8 +1735,8 @@
     "https://github.com/chaitin/veinmind-tools": {
         "created_at": "2022-02-08 08:12:15",
         "description": "veinmind-tools 是由长亭科技自研，基于 veinmind-sdk 打造的容器安全工具集",
-        "commit_date": "2023-05-11 04:02:10",
-        "commit_message": "feat(plugins): use bullseye && update libveinmind-dev 1.9.15 (#239)",
+        "commit_date": "2023-05-16 01:45:17",
+        "commit_message": "Merge pull request #235 from asjdf/master\n\nfeat(weakpass): support caching_sha2_password and enhance MyISAM pkg",
         "release_tag": "v2.1.2",
         "release_date": "2023-04-25 04:01:24",
         "release_message": "## Feature\r\n* feat(veinmind-weakpass): support ftp @ek1ng in https://github.com/chaitin/veinmind-tools/pull/226\r\n* feat(veinmind-iac): add dockerfile security detection by @ek1ng in https://github.com/chaitin/veinmind-tools/pull/228\r\n\r\n## Fix\r\n* fix(ai): ignore basic info analyzer by @DVKunion in https://github.com/chaitin/veinmind-tools/pull/218\r\n* fix(Makefile): add CGO_ENBALED && update(dependency): update dependency version by @ek1ng in https://github.com/chaitin/veinmind-tools/pull/221\r\n* fix(CI/CD): change goproxy settings by @ek1ng in https://github.com/chaitin/veinmind-tools/pull/222\r\n\r\n## Others\r\n* doc: update README.md by @DVKunion in https://github.com/chaitin/veinmind-tools/pull/219\r\n\r\n## New Contributors\r\n* @ek1ng made their first contribution in https://github.com/chaitin/veinmind-tools/pull/221\r\n\r\n**Full Changelog**: https://github.com/chaitin/veinmind-tools/compare/v2.1.1...v2.1.2"
@@ -2951,8 +2951,8 @@
     "https://github.com/dbeaver/dbeaver": {
         "created_at": "2015-10-21 08:26:28",
         "description": "Free universal database tool and SQL client",
-        "commit_date": "2023-05-15 16:48:08",
-        "commit_message": "CB-3402 task info api (#19923)\n\n* CB-3402 task info api\r\n\r\n* CB-3402 review fix",
+        "commit_date": "2023-05-16 08:43:08",
+        "commit_message": "#17585 ability to trim string values during export to XLSX implemented with extra setting (#19953)",
         "release_tag": "23.0.4",
         "release_date": "2023-05-07 18:00:03",
         "release_message": "\n                - Data Editor:\n                    - Bottom toolbar became customizable\n                    - Disconnected editors can be easily reconnected\n                    - Issue with Ctrl+1 shortcut not working was fixed\n                - SQL Editor:\n                    - Issue with refresh button closing active resul tab was fixed\n                    - Issue with not correct dislaying of \\r\\n sequence was fixed\n                    - Issue when generating the same UUID for all rows was fixed (thanks to @SiyaoIsHiding)\n                - Data Transfer:\n                    - Ability to change the target column type on import to BIGINT was added\n                    - Export from query to CSV was fixed\n                - Git: Missing git buttons and menus were added on macOS (Apple Silicon)\n                - Databases:\n                    - ClickHouse: Catalog support was added\n                    - Informix: issue with extra spaces in table name was fixed\n                    - MySQL:\n                        - Event reading for quoted schemas was fixed\n                        - Time handling in MySQL was improved\n                    - Oracle:\n                        - Issue with parcing IF EXISTS statements was fixed\n                        - The display of DATE with additional settings in the Result Set was fixed\n                        - Inromation about latest statistics update was added\n                    - PostgreSQL:\n                        - Generation of ALTER table SQL for foreign tables was improved\n                        - Role settings were added in generated DDL\n                        - IDENTITY SEQUENCE were added in generated DDL\n                    - Snowflake: issue with incorrect import with BIGINT, INT, REAL, FLOAT, DOUBLE PRECISION, and DECIMAL data types was fixed\n                    - Trino: issue with import files with varchar data type was fixed\n                - Misc:\n                    - SalesForce driver was updated\n                    - ODBC connection error was fixed\n                    - Java native libraries were added to DBeaver installation directly to avoid app crash cased by system restrictions.\n                    - DBeaver started to collect user statistics. It is anonymous and optional\n            "
@@ -3050,8 +3050,8 @@
     "https://github.com/zan8in/afrog": {
         "created_at": "2022-02-24 06:00:32",
         "description": "A Security Tool for Bug Bounty, Pentest and Red Teaming.",
-        "commit_date": "2023-05-16 00:29:46",
-        "commit_message": "add gox",
+        "commit_date": "2023-05-16 06:11:58",
+        "commit_message": "update",
         "release_tag": "v2.3.2",
         "release_date": "2023-05-14 02:29:25",
         "release_message": "**Add:**\r\n- The result will be written to the JSON file, but it will not include the request and response content.\r\n- Writes a JSON file including all vulnerability results.\r\n- The \"disable-output-html\" command can be used to prevent the automatic generation of an HTML report, and its priority is higher than the \"-o\" command.\r\n- PoC script info information adds three fields affected, solutions, and created\r\n\r\n**Optimization:**\r\n- Duplicated PoC removed: springboot-env-unauth\r\n- When performing an update operation, the -up command prompt is not friendly enough\r\n- Scan in order of increasing security risk level\r\n\r\n**新增：**\r\n- 使用命令参数 -json 或 -j，将漏洞结果写入 JSON 文件，不包括 request 和 response\r\n- 使用命令参数 -json-all 或 -ja，将漏洞结果写入 JSON 文件，包括 request 和 response\r\n- 使用 disable-output-html 命令可以禁止生成 HTML 报告，该命令的优先级高于 -o 命令。\r\n- PoC 脚本 info 信息增加 affected、solutions、created 三个字段\r\n\r\n**优化：**\r\n- 已移除重复的PoC: springboot-env-unauth\r\n- 执行更新操作时，-up 命令提示不够友好\r\n- 按照从低到高的安全风险级别顺序进行扫描\r\n- 优化 url.path 编码问题"
@@ -3192,11 +3192,11 @@
     "https://github.com/joke2k/faker": {
         "created_at": "2012-11-12 23:00:09",
         "description": "Faker is a Python package that generates fake data for you.",
-        "commit_date": "2023-05-08 18:07:07",
-        "commit_message": "Bump version: 18.6.2 → 18.7.0",
-        "release_tag": "v18.7.0",
-        "release_date": "2023-05-08 18:07:43",
-        "release_message": "See [CHANGELOG.md](https://github.com/joke2k/faker/blob/refs/tags/v18.7.0/CHANGELOG.md)."
+        "commit_date": "2023-05-16 16:38:32",
+        "commit_message": "Bump version: 18.8.0 → 18.9.0",
+        "release_tag": "v18.9.0",
+        "release_date": "2023-05-16 16:40:02",
+        "release_message": "See [CHANGELOG.md](https://github.com/joke2k/faker/blob/refs/tags/v18.9.0/CHANGELOG.md)."
     },
     "https://github.com/NHPT/Xray_Cracked": {
         "created_at": "2022-08-10 13:51:19",
@@ -3406,8 +3406,8 @@
     "https://github.com/bit4woo/domain_hunter_pro": {
         "created_at": "2019-01-18 07:15:15",
         "description": "domain_hunter的高级版本，SRC挖洞、HW打点之必备！自动化资产收集；快速Title获取；外部工具联动；等等",
-        "commit_date": "2023-05-12 04:05:26",
-        "commit_message": "Update LineEntryMenu.java",
+        "commit_date": "2023-05-16 08:56:59",
+        "commit_message": "Update DomainPanel.java",
         "release_tag": "v1.9",
         "release_date": "2023-04-18 00:34:58",
         "release_message": "全局：\r\n多个bug修复\r\n布局模式优化\r\n基础方法实现逻辑优化\r\n\r\n右键菜单：\r\n“Do Search”提供主动在制定请求中进行搜索的能力，比如在某企业邮箱的流量中搜索以提取邮箱地址\r\n“Add Request And Comment”右键菜单添逻辑优化，修复一个bug\r\n“Send To Tool Panel”右键菜单处理逻辑优化，可合并发送多个数据包内容\r\n\r\nDomain面板：\r\nroot domain的comments逻辑更新\r\n提供多个网络搜索引擎的后台自动搜索功能\r\nroot domain双击，自动在浏览器中访问\r\n修改目标根域名删除失败的bug\r\n显示序号，以便在排序后恢复原始顺序\r\n\r\nTool面板：\r\n重写JTextArea的paste函数，避免大内容导致程序卡死\r\nJTextArea支持输入文件，而程序处理其内容。\r\n文本取提供简单的历史记录功能\r\nJSON提取逻辑优化\r\n新增多个功能，比如排序\r\n优化URL提取逻辑，避免遗漏没有以/开头的path\r\n\r\nTitle面板中：\r\n端口扫描命令生成逻辑优化\r\n备注和IP内容的显示优化，显示前排序\r\n备注添加逻辑优化\r\n给手动添加的记录添加已知的IP和CNAME、CertInfo\r\n搜索功能增强，支持对数字型字段进行大于、小于、等于等搜索\r\n添加多个搜索实例，以便用户熟悉搜索语法\r\n新增“Do Request Item Again”菜单，对DNS记录或无响应的数据包进行再次请求"
@@ -3879,8 +3879,8 @@
     "https://github.com/aquasecurity/kube-bench": {
         "created_at": "2017-06-19 13:27:02",
         "description": "Checks whether Kubernetes is deployed according to security best practices as defined in the CIS Kubernetes Benchmark",
-        "commit_date": "2023-05-15 12:34:00",
-        "commit_message": "release: prepare v0.6.14-rc (#1442)\n\nSigned-off-by: chenk <hen.keinan@gmail.com>",
+        "commit_date": "2023-05-16 08:41:49",
+        "commit_message": "replace with constant (#1445)",
         "release_tag": "v0.6.14-rc",
         "release_date": "2023-05-15 12:47:25",
         "release_message": "## Changelog\n* e38c829 build(deps): bump gorm.io/gorm from 1.24.2 to 1.25.1 (#1437)\n* b0e49c8 fix: ignore the error from findConfigFile (#1440)\n\n"
@@ -3888,8 +3888,8 @@
     "https://github.com/neuvector/neuvector": {
         "created_at": "2021-12-17 20:15:03",
         "description": "",
-        "commit_date": "2023-05-15 22:59:19",
-        "commit_message": "NVSHAS-6416: Support AWS integrated billing/listing (report enforcer number on native docker in multi-cluster deployment)",
+        "commit_date": "2023-05-16 21:37:27",
+        "commit_message": "NVSHAS-7706: avoid intercept the traffic for neuvector csp adapter",
         "release_tag": "v5.1.3",
         "release_date": "2023-05-09 18:16:30",
         "release_message": "Features:\r\nAdd new vulnerability feed for scanning Microsoft .NET framework\r\nEnforcer stats is disabled by default in Prometheus exporter to improve scalability\r\nUseability improvement: Using scanner to scan single image and print the result\r\nAdd imagePullPolicy check in admission control\r\n\r\n\r\nBug fixes:\r\nEmpty group auto-removal takes 2 hours to delete instead of 1 hour according to schedule\r\nCompliance profile doesn't show in UI console\r\n"
@@ -3906,8 +3906,8 @@
     "https://github.com/anchore/syft": {
         "created_at": "2020-05-07 18:19:29",
         "description": "CLI tool and library for generating a Software Bill of Materials from container images and filesystems",
-        "commit_date": "2023-05-15 20:23:39",
-        "commit_message": "feat: update syft license concept to complex struct (#1743)\n\nthis PR makes the following changes to update the underlying license model to have more expressive capabilities\r\nit also provides some guarantee's surrounding the license values themselves\r\n\r\n- Licenses are updated from string -> pkg.LicenseSet which contain pkg.License with the following fields:\r\n- original `Value` read by syft\r\n- If it's possible to construct licenses will always have a valid SPDX expression for downstream consumption\r\n- the above is run against a generated list of SPDX license ID to try and find the correct ID\r\n- SPDX concluded vs declared is added to the new struct\r\n- URL source for license is added to the new struct\r\n- Location source is added to the new struct to show where the expression was pulled from",
+        "commit_date": "2023-05-16 17:05:48",
+        "commit_message": "fix: update field plurality of 8.0.0 schema before release (#1820)\n\nto keep things consistent across the schema we want Locations and URLs to be plural fields now that they are fields on the License struct\r\n---------\r\n\r\nSigned-off-by: Christopher Phillips <christopher.phillips@anchore.com>",
         "release_tag": "v0.80.0",
         "release_date": "2023-05-05 17:43:22",
         "release_message": "# Changelog\n\n## [v0.80.0](https://github.com/anchore/syft/tree/v0.80.0) (2023-05-05)\n\n[Full Changelog](https://github.com/anchore/syft/compare/v0.79.0...v0.80.0)\n\n### Added Features\n\n- Improve pnpm support [[Issue #1535](https://github.com/anchore/syft/issues/1535)] [[PR #1752](https://github.com/anchore/syft/pull/1752)] [[Shanedell](https://github.com/Shanedell)]\n\n### Bug Fixes\n\n- chore: add more detail on SPDX file IDs [[PR #1769](https://github.com/anchore/syft/pull/1769)] [[kzantow](https://github.com/kzantow)]\n- chore: do not HTML escape PackageURLs [[PR #1782](https://github.com/anchore/syft/pull/1782)] [[kzantow](https://github.com/kzantow)]\n- RPM database not found on ostree-managed systems [[Issue #1755](https://github.com/anchore/syft/issues/1755)] [[PR #1756](https://github.com/anchore/syft/pull/1756)] [[fpytloun](https://github.com/fpytloun)]\n- Unable to use syft for private azure container registry [[Issue #1777](https://github.com/anchore/syft/issues/1777)]\n- linux-kernel-cataloger produces thousands of version-less components.  [[Issue #1781](https://github.com/anchore/syft/issues/1781)] [[PR #1784](https://github.com/anchore/syft/pull/1784)] [[kzantow](https://github.com/kzantow)]\n\n### Deprecated Features\n\n- Rename pkg.Catalog to pkg.Collection [[PR #1764](https://github.com/anchore/syft/pull/1764)] [[wagoodman](https://github.com/wagoodman)]\n\n\n\n"
@@ -3915,8 +3915,8 @@
     "https://github.com/chaitin/safeline": {
         "created_at": "2023-04-12 11:30:14",
         "description": "长亭科技自研，基于业界领先的语义引擎检测技术，打造的简洁、易用的免费 WAF",
-        "commit_date": "2023-05-15 04:03:54",
-        "commit_message": "Update guide_test.md",
+        "commit_date": "2023-05-16 08:18:55",
+        "commit_message": "Merge pull request #73 from naocanmonster/main\n\n增加雷池介绍文档",
         "release_tag": "v1.4.0",
         "release_date": "2023-05-12 06:32:18",
         "release_message": "### 新增\r\n- 自定义规则支持匹配域名\r\n- 支持在一条自定义规则内，设置多个匹配条件\r\n- 站点列表新增 “今日访问 / 拦截量”\r\n\r\n### 优化\r\n- 优化交互和提示文案、修复已知问题\r\n\r\n**注意：低版本升级请执行 upgrade.sh 脚本，或者重新手动更新 compose.yaml 文件**"
@@ -3969,8 +3969,8 @@
     "https://github.com/aquasecurity/trivy": {
         "created_at": "2019-04-11 01:01:07",
         "description": "Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more",
-        "commit_date": "2023-05-15 11:48:09",
-        "commit_message": "refactor: code-optimization (#4214)",
+        "commit_date": "2023-05-16 10:58:50",
+        "commit_message": "feat(cli): add mage command to update golden integration test files (#4380)",
         "release_tag": "v0.41.0",
         "release_date": "2023-04-28 06:00:39",
         "release_message": "## ⚡Release highlights and summary⚡\r\n\r\n👉 https://github.com/aquasecurity/trivy/discussions/4135\r\n\r\n## Changelog\r\n* 1be1e2e63 fix(spdx): add workaround for no src packages (#4118)\r\n* 45bc9e0de test(golang): rename broken go.mod (#4129)\r\n* 3334e78fa feat(sbom): add supplier field (#4122)\r\n* 27fb1bfde test(misconf): skip downloading of policies for tests #4126\r\n* 845ae31e5 refactor: use debug message for post-analyze errors (#4037)\r\n* 11a5b91a1 feat(sbom): add VEX support (#4053)\r\n* 5eab46498 feat(sbom): add primary package purpose field for SPDX (#4119)\r\n* a00d00eb9 fix(k8s): fix quiet flag (#4120)\r\n* 9bc326909 fix(python): parse of pip extras (#4103)\r\n* 855984167 feat(java): use full path for nested jars (#3992)\r\n* 0650e0e1d feat(license): add new flag for classifier confidence level (#4073)\r\n* 43b649627 feat: config and fs compliance support (#4097)\r\n* 9181bc1f7 chore(deps): bump sigstore/cosign-installer from 2.8.1 to 3.0.1 (#3952)\r\n* 48e021ea6 feat(spdx): add support for SPDX 2.3 (#4058)\r\n* 107752df6 fix: k8s all-namespaces support (#4096)\r\n* bd0c60364 perf(misconf): replace with post-analyzers (#4090)\r\n* 76662d5dd fix(helm): update networking API version detection (#4106)\r\n* be47b688c feat(image): custom docker host option (#3599)\r\n* cc18f92cf style: debug flag is incorrect and needs extra - (#4087)\r\n* 572a6193e docs(vuln): Document inline vulnerability filtering comments (#4024)\r\n* 914c6f092 feat(fs): customize error callback during fs walk (#4038)\r\n* 3f02feeff fix(ubuntu): skip copyright files from subfolders (#4076)\r\n* 57bb77c06 docs: restructure scanners (#3977)\r\n* b19b56c34 fix: fix `file does not exist` error for post-analyzers (#4061)\r\n\r\n"
@@ -3978,8 +3978,8 @@
     "https://github.com/anchore/grype": {
         "created_at": "2020-05-26 13:44:38",
         "description": "A vulnerability scanner for container images and filesystems",
-        "commit_date": "2023-05-11 19:09:25",
-        "commit_message": "should only use hermetic functions in templates (#1288)\n\nSigned-off-by: Alex Goodman <alex.goodman@anchore.com>",
+        "commit_date": "2023-05-16 19:41:43",
+        "commit_message": "Fix reading syft json from stdin by redirect (#1299)\n\nI figured out that running `cat syft.json | grype` works but\r\n`grype < syft.json` does not work. This happens, because the\r\nIsPipedInput method only checks if stdin is a pipe which will be false\r\nif stdin is fed by a redirect.\r\n\r\nThe go idiomatic way to fix this is by just checking if the file\r\nproduced by stat has a size > 0.\r\n\r\nImplemented this check, that will recognize stdin by redirect, in the\r\nIsPipedInput() method. Renamed the method to IsStdinPipeOrRedirect().\r\n\r\nSigned-off-by: Felix Becker <git@felixbecker.name>\r\nCo-authored-by: Benjamin Neff <benjamin@coding4coffee.ch>",
         "release_tag": "v0.61.1",
         "release_date": "2023-04-21 17:14:17",
         "release_message": "# Changelog\n\n## [v0.61.1](https://github.com/anchore/grype/tree/v0.61.1) (2023-04-21)\n\n[Full Changelog](https://github.com/anchore/grype/compare/v0.61.0...v0.61.1)\n\n### Bug Fixes\n\n- :grey_question: Parsing dpkg status: extracting key-value from line:  usr/lib/os-release err: cannot parse field [[Issue #1195](https://github.com/anchore/grype/issues/1195)]\n- Grype suggesting to upgrade to a version already used.  [[Issue #1209](https://github.com/anchore/grype/issues/1209)]\n\n### Additional Changes\n\n- feat: add timestamp to json output (#1170) [[PR #1249](https://github.com/anchore/grype/pull/1249)] [[jneate](https://github.com/jneate)]\n\n\n\n"
@@ -4104,7 +4104,7 @@
     "https://github.com/arch3rPro/Pentest-Windows": {
         "created_at": "2022-07-08 02:43:58",
         "description": "Windows11 Penetration Suite Toolkit",
-        "commit_date": "2023-05-06 01:58:06",
+        "commit_date": "2023-05-16 12:12:24",
         "commit_message": "Update README.md",
         "release_tag": "v1.0",
         "release_date": "2023-03-07 07:31:49",
@@ -4247,7 +4247,7 @@
     },
     "https://github.com/Pizz33/GobypassAV-shellcode": {
         "created_at": "2023-04-18 07:42:36",
-        "description": "go 免杀shellcode加载器，免杀主流杀软，bypass火绒、360、核晶、def等主流杀软",
+        "description": "免杀shellcode加载器，使用go实现，免杀bypass火绒、360、核晶、def等主流杀软",
         "commit_date": "2023-05-11 09:06:22",
         "commit_message": "Update README.md",
         "release_tag": "",
@@ -4275,7 +4275,7 @@
     "https://github.com/aiboboxx/v2rayfree": {
         "created_at": "2021-10-13 11:34:53",
         "description": "v2ray公益免费节点、最新2ray免费v节点订阅地址、v2ray免费节点每日更新、免费ss/v2ray/trojan节点、freefq ",
-        "commit_date": "2023-05-15 12:39:23",
+        "commit_date": "2023-05-16 12:40:23",
         "commit_message": "update",
         "release_tag": "",
         "release_date": "",
@@ -4320,8 +4320,8 @@
     "https://github.com/freefq/free": {
         "created_at": "2020-06-07 02:48:33",
         "description": "翻墙、免费翻墙、免费科学上网、免费节点、免费梯子、免费ss/v2ray/trojan节点、蓝灯、谷歌商店、翻墙梯子",
-        "commit_date": "2023-05-16 00:00:02",
-        "commit_message": "updated_at 05-16 08:00",
+        "commit_date": "2023-05-17 00:00:02",
+        "commit_message": "updated_at 05-17 08:00",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -4338,8 +4338,170 @@
     "https://github.com/Awrrays/FrameVul": {
         "created_at": "2022-04-04 05:54:00",
         "description": "",
-        "commit_date": "2023-05-11 00:43:03",
-        "commit_message": "Update README.md\n\nfastadmin文件管理插件",
+        "commit_date": "2023-05-16 06:53:14",
+        "commit_message": "Update README.md",
+        "release_tag": "",
+        "release_date": "",
+        "release_message": ""
+    },
+    "https://github.com/admintony/Prepare-for-AWD": {
+        "created_at": "2017-11-10 10:50:00",
+        "description": "AWD攻防赛脚本集合",
+        "commit_date": "2019-10-17 01:09:44",
+        "commit_message": "Update README.md",
+        "release_tag": "",
+        "release_date": "",
+        "release_message": ""
+    },
+    "https://github.com/xuchaoa/CTF_AWD_Platform": {
+        "created_at": "2019-04-13 05:52:16",
+        "description": "CTF 攻防对抗平台",
+        "commit_date": "2019-09-16 08:11:50",
+        "commit_message": "update README.md",
+        "release_tag": "",
+        "release_date": "",
+        "release_message": ""
+    },
+    "https://github.com/Wfzsec/awd_attack_framework": {
+        "created_at": "2019-06-07 08:14:01",
+        "description": "awd攻防常用脚本+不死马+crontab+防御方法",
+        "commit_date": "2019-06-07 09:24:55",
+        "commit_message": "Create README.md",
+        "release_tag": "",
+        "release_date": "",
+        "release_message": ""
+    },
+    "https://github.com/yqw1212/Liaoning-provincial-competition-target-1": {
+        "created_at": "2020-11-01 13:00:49",
+        "description": "第三届辽宁省ctf线下awd靶机1web",
+        "commit_date": "2020-11-01 13:12:58",
+        "commit_message": "target 1",
+        "release_tag": "",
+        "release_date": "",
+        "release_message": ""
+    },
+    "https://github.com/D0g3-Lab/H1ve": {
+        "created_at": "2019-11-22 03:46:11",
+        "description": "An Easy / Quick / Cheap Integrated Platform",
+        "commit_date": "2020-11-25 14:01:11",
+        "commit_message": "Merge pull request #55 from Threezh1/patch-1\n\n修复`ctfd-matrix-scoreboard`的Matrix页面出现Internal Server Error问题",
+        "release_tag": "1.1.3",
+        "release_date": "2020-03-25 12:33:50",
+        "release_message": "1.1.3 / 2020-3-25\r\n=================\r\n\r\n* Readme中添加`Aliyun-Instance`链接\r\n* 修复多次进行`user_id`转换导致`CTFd-Glowworm`插件重置容器失败的问题\r\n* 修复`Aliyun-Instance`插件模版文件名重复导致的Bug\r\n\r\n1.1.2 / 2020-3-17\r\n=================\r\n\r\n* fix vul & update single-nginx.yml\r\n* aliyun-instance-first-commit"
+    },
+    "https://github.com/bit4woo/burp-api-drops": {
+        "created_at": "2016-08-08 10:03:47",
+        "description": "burp插件开发指南",
+        "commit_date": "2021-08-08 15:52:46",
+        "commit_message": "Update README.md",
+        "release_tag": "",
+        "release_date": "",
+        "release_message": ""
+    },
+    "https://github.com/dr0op/k4l0ng_WAF": {
+        "created_at": "2017-05-17 08:59:55",
+        "description": "A broute detect WAF by PHP using to AWD",
+        "commit_date": "2018-06-28 12:12:25",
+        "commit_message": "Update README.md",
+        "release_tag": "",
+        "release_date": "",
+        "release_message": ""
+    },
+    "https://github.com/glzjin/20190511_awd_docker": {
+        "created_at": "2019-05-13 13:30:01",
+        "description": "2019 年 5 月 11 日防灾科技学院 “应急挑战杯” 大学生网络安全邀请赛 AWD 靶机题目。",
+        "commit_date": "2019-05-14 23:45:01",
+        "commit_message": "downgrade pyyaml",
+        "release_tag": "",
+        "release_date": "",
+        "release_message": ""
+    },
+    "https://github.com/BJLIYANLIANG/JJUCTF_V2.0": {
+        "created_at": "2022-11-09 12:35:22",
+        "description": "JJU网络安全靶场实训平台",
+        "commit_date": "2021-05-01 10:38:51",
+        "commit_message": "没干啥",
+        "release_tag": "",
+        "release_date": "",
+        "release_message": ""
+    },
+    "https://github.com/Cl0udG0d/AWDDocker": {
+        "created_at": "2021-04-29 03:29:50",
+        "description": "标准化AWD靶场Docker",
+        "commit_date": "2021-05-15 17:04:47",
+        "commit_message": "edit readme",
+        "release_tag": "",
+        "release_date": "",
+        "release_message": ""
+    },
+    "https://github.com/871339097/wordpress": {
+        "created_at": "2019-05-30 08:42:33",
+        "description": "AWD靶机",
+        "commit_date": "2018-12-11 07:45:27",
+        "commit_message": "靶机",
+        "release_tag": "",
+        "release_date": "",
+        "release_message": ""
+    },
+    "https://github.com/apachecn/apachecn-ctf-wiki": {
+        "created_at": "2022-04-10 08:52:47",
+        "description": "",
+        "commit_date": "2022-04-26 07:03:04",
+        "commit_message": "2022-04-26 15:03:04",
+        "release_tag": "",
+        "release_date": "",
+        "release_message": ""
+    },
+    "https://github.com/sharpleung/CTF-WAF": {
+        "created_at": "2019-09-19 13:17:39",
+        "description": "针对CTF线下赛的通用WAF，日志审计功能。",
+        "commit_date": "2022-11-27 12:14:05",
+        "commit_message": "Update README.md",
+        "release_tag": "",
+        "release_date": "",
+        "release_message": ""
+    },
+    "https://github.com/vidar-team/Cardinal": {
+        "created_at": "2020-01-09 10:06:39",
+        "description": "CTF🚩 AWD (Attack with Defense) 线下赛平台 / AWD platform - 欢迎 Star~ ✨",
+        "commit_date": "2021-11-12 18:17:48",
+        "commit_message": "readme: installation alert (#177)",
+        "release_tag": "v0.7.3",
+        "release_date": "2021-02-01 15:09:57",
+        "release_message": "### Added\r\n* 一键重置所有靶机分数。\r\n* 可设置系统默认语言。https://github.com/vidar-team/Cardinal/issues/107\r\n* README 加入使用团队及组织。\r\n\r\n### Fixed\r\n* 修复管理员前端部分英文翻译不全"
+    },
+    "https://github.com/Ares-X/AWD-Predator-Framework": {
+        "created_at": "2017-10-05 08:04:00",
+        "description": "AWD攻防赛webshell批量利用框架",
+        "commit_date": "2019-06-19 13:29:22",
+        "commit_message": "fix",
+        "release_tag": "",
+        "release_date": "",
+        "release_message": ""
+    },
+    "https://github.com/zhl2008/awd-platform": {
+        "created_at": "2018-05-01 07:52:13",
+        "description": "platform for awd",
+        "commit_date": "2018-09-11 05:59:33",
+        "commit_message": "haozigege",
+        "release_tag": "",
+        "release_date": "",
+        "release_message": ""
+    },
+    "https://github.com/mo-xiaoxi/AWD_CTF_Platform": {
+        "created_at": "2018-11-09 13:00:15",
+        "description": "一个简单的AWD训练平台",
+        "commit_date": "2020-01-04 14:18:23",
+        "commit_message": "调整代码",
+        "release_tag": "",
+        "release_date": "",
+        "release_message": ""
+    },
+    "https://github.com/DasSecurity-HatLab/AoiAWD": {
+        "created_at": "2020-09-22 11:00:54",
+        "description": "AoiAWD-专为比赛设计，便携性好，低权限运行的EDR系统。",
+        "commit_date": "2020-10-18 03:24:49",
+        "commit_message": "Merge pull request #13 from hebtuerror404/master\n\nSome fix and optimization",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
