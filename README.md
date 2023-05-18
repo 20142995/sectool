@@ -1,13 +1,15 @@
-# 更新于 2023-05-17 08:43:34
+# 更新于 2023-05-18 08:40:41
 
 ## 近15天release更新记录
 | 更新时间 | 项目名称 | 版本 | 更新内容 |
 | :---- | :---- | :---- | :---- |
+|2023-05-17 08:37:40|[DNSlog-GO](https://github.com/lanyi1998/DNSlog-GO)|2023051<br>7||
+|2023-05-17 06:06:06|[autoDecoder](https://github.com/f0ng/autoDecoder)|0.26|## 2023.5.17 更新0.26  1. 修复了勾选<br>对请求头处理后，请求头缺失问题  2. 增加<br>对密文URL解码读取、加密后的密文URL解码<br>选项  3. 修复其他问题，如指定域名端口号<br>不出现扩展选项卡、windows下中文解密乱码<br>等问题    感谢微信群yosel 师傅反馈|
+|2023-05-17 03:26:56|[ENScan_GO](https://github.com/wgpsec/ENScan_GO)|0.0.11|修复企查查签名错误提示|
 |2023-05-16 16:40:02|[faker](https://github.com/joke2k/faker)|v18.9.0|See .|
 |2023-05-15 12:52:58|[murphysec](https://github.com/murphysecurity/murphysec)|v3.1.1|Support NPM lockfile v3 |
 |2023-05-15 12:47:25|[kube-bench](https://github.com/aquasecurity/kube-bench)|v0.6.14<br>-rc|## Changelog * e38c829 build(deps): b<br>ump gorm.io/gorm from 1.24.2 to 1.25.1<br> (#1437) * b0e49c8 fix: ignore the err<br>or from findConfigFile (#1440)  |
 |2023-05-15 10:41:22|[xray](https://github.com/chaitin/xray)|1.9.10|### 版本介绍    该版本为 泛微Ecology<br>信息泄露&前台任意用户登陆漏洞 注入漏洞 <br>的应急版本，相较上个版本，除了添加了一<br>个POC外，未改动其他内容。    ### 更新内<br>容    想要检测该漏洞的师傅，可以使用   <br> ./xray ws --poc poc-yaml-ecology-ofsl<br>ogin-aul --url http://example.com    <br>进行检测。    相关参考链接：|
-|2023-05-15 03:45:19|[DNSlog-GO](https://github.com/lanyi1998/DNSlog-GO)|2023051<br>5||
 |2023-05-14 12:54:57|[whatweb-plus](https://github.com/winezer0/whatweb-plus)|v0.5.5.<br>19.fix|修复kali下 ruby 3.1.2 下提示 join(nil<br>，"whatweb")报错    注意windows环境下不<br>受影响,可以不进行更新|
 |2023-05-14 04:27:49|[PEASS-ng](https://github.com/carlospolop/PEASS-ng)|2023051<br>4-85dabd<br>c9||
 |2023-05-14 02:29:25|[afrog](https://github.com/zan8in/afrog)|v2.3.2|**Add:**  - The result will be writte<br>n to the JSON file, but it will not in<br>clude the request and response content<br>.  - Writes a JSON file including all <br>vulnerability results.  - The "disable<br>-output-html" command can be used to p<br>revent the automatic generation of an <br>HTML report, and its priority is highe<br>r than the "-o" command.  - PoC script<br> info information adds three fields af<br>fected, solutions, and created    **Op<br>timization:**  - Duplicated PoC remove<br>d: springboot-env-unauth  - When perfo<br>rming an update operation, the -up com<br>mand prompt is not friendly enough  - <br>Scan in order of increasing security r<br>isk level    **新增：**  - 使用命令参<br>数 -json 或 -j，将漏洞结果写入 JSON 文<br>件，不包括 request 和 response  - 使用<br>命令参数 -json-all 或 -ja，将漏洞结果写<br>入 JSON 文件，包括 request 和 response <br> - 使用 disable-output-html 命令可以禁<br>止生成 HTML 报告，该命令的优先级高于 -o<br> 命令。  - PoC 脚本 info 信息增加 affe<br>cted、solutions、created 三个字段    *<br>*优化：**  - 已移除重复的PoC: springbo<br>ot-env-unauth  - 执行更新操作时，-up <br>命令提示不够友好  - 按照从低到高的安全<br>风险级别顺序进行扫描  - 优化 url.path <br>编码问题|
@@ -30,29 +32,34 @@
 ## 近15天commit提交记录
 | 提交时间 | 项目名称 | 更新内容 |
 | :---- | :---- | :---- |
-|2023-05-17 00:30:16|[NucleiTP](https://github.com/ExpLangcn/NucleiTP)|更新啦❤️|
-|2023-05-17 00:00:02|[free](https://github.com/freefq/free)|updated_at 05-17 08:00|
-|2023-05-16 22:15:41|[PocOrExp_in_Githu<br>b](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-05-17 06:15:41|
+|2023-05-18 00:30:16|[NucleiTP](https://github.com/ExpLangcn/NucleiTP)|更新啦❤️|
+|2023-05-18 00:00:02|[free](https://github.com/freefq/free)|updated_at 05-18 08:00|
+|2023-05-17 23:56:04|[PocOrExp_in_Githu<br>b](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-05-18 07:56:04|
+|2023-05-17 21:50:30|[clair](https://github.com/quay/clair)|docs: update old go get command  Signed-off-by: Han<br>k Donnay |
+|2023-05-17 19:55:01|[dbeaver](https://github.com/dbeaver/dbeaver)|dbeaver/pro#1588 add support of URL and ODBC switch<br>er to MySQL/MariaDB and DB2 connections (#19984)|
+|2023-05-17 18:34:27|[syft](https://github.com/anchore/syft)|chore(deps): bump github.com/google/go-containerreg<br>istry (#1823)  Bumps  from 0.15.1 to 0.15.2.  -   - <br>  -     ---  updated-dependencies:  - dependency-nam<br>e: github.com/google/go-containerregistry    depende<br>ncy-type: direct:production    update-type: version-<br>update:semver-patch  ...    Signed-off-by: dependabo<br>t[bot]   Co-authored-by: dependabot[bot] |
+|2023-05-17 16:21:11|[GobypassAV-shellc<br>ode](https://github.com/Pizz33/GobypassAV-shellcode)|Update README.md|
+|2023-05-17 14:52:32|[murphysec](https://github.com/murphysecurity/murphysec)|chore(version): Upgrade fix-tool|
+|2023-05-17 13:45:58|[grype](https://github.com/anchore/grype)|chore(deps): bump github.com/cloudflare/circl from <br>1.1.0 to 1.3.3 (#1289)|
+|2023-05-17 12:37:34|[v2rayfree](https://github.com/aiboboxx/v2rayfree)|update|
+|2023-05-17 11:43:10|[afrog](https://github.com/zan8in/afrog)|update|
+|2023-05-17 09:57:12|[Antenna](https://github.com/wuba/Antenna)|Merge pull request #121 from wuba/develop  Develop|
+|2023-05-17 08:36:27|[DNSlog-GO](https://github.com/lanyi1998/DNSlog-GO)|docs:update images|
+|2023-05-17 08:20:18|[safeline](https://github.com/chaitin/safeline)|Merge pull request #75 from yrluke/more_doc  feat: <br>add the https and some question|
+|2023-05-17 06:24:32|[domain_hunter_pro](https://github.com/bit4woo/domain_hunter_pro)|update|
+|2023-05-17 06:05:21|[autoDecoder](https://github.com/f0ng/autoDecoder)|Add files via upload  0.26 code|
+|2023-05-17 04:01:58|[trivy](https://github.com/aquasecurity/trivy)|fix(k8s): add image sources (#4411)|
+|2023-05-17 03:25:02|[veinmind-tools](https://github.com/chaitin/veinmind-tools)|Merge pull request #240 from ek1ng/feat/veinmind-ia<br>c  feat(plugins): update kubernetes iac polices|
+|2023-05-17 03:19:19|[ARL](https://github.com/TophantTechnology/ARL)|Create version.txt|
+|2023-05-17 03:16:02|[ENScan_GO](https://github.com/wgpsec/ENScan_GO)|修正提示|
 |2023-05-16 21:37:27|[neuvector](https://github.com/neuvector/neuvector)|NVSHAS-7706: avoid intercept the traffic for neuvec<br>tor csp adapter|
-|2023-05-16 19:41:43|[grype](https://github.com/anchore/grype)|Fix reading syft json from stdin by redirect (#1299<br>)  I figured out that running cat syft.json | grype <br>works but  grype  0.    Implemented this check, that<br> will recognize stdin by redirect, in the  IsPipedIn<br>put() method. Renamed the method to IsStdinPipeOrRed<br>irect().    Signed-off-by: Felix Becker   Co-authore<br>d-by: Benjamin Neff |
-|2023-05-16 17:05:48|[syft](https://github.com/anchore/syft)|fix: update field plurality of 8.0.0 schema before <br>release (#1820)  to keep things consistent across th<br>e schema we want Locations and URLs to be plural fie<br>lds now that they are fields on the License struct  <br>---------    Signed-off-by: Christopher Phillips |
 |2023-05-16 16:38:32|[faker](https://github.com/joke2k/faker)|Bump version: 18.8.0 → 18.9.0|
 |2023-05-16 14:13:55|[OA-EXPTOOL](https://github.com/LittleBear4/OA-EXPTOOL)|Update README.md|
-|2023-05-16 12:40:23|[v2rayfree](https://github.com/aiboboxx/v2rayfree)|update|
 |2023-05-16 12:12:24|[Pentest-Windows](https://github.com/arch3rPro/Pentest-Windows)|Update README.md|
-|2023-05-16 10:58:50|[trivy](https://github.com/aquasecurity/trivy)|feat(cli): add mage command to update golden integr<br>ation test files (#4380)|
 |2023-05-16 08:59:06|[sqlmap](https://github.com/sqlmapproject/sqlmap)|Fixes #5411|
-|2023-05-16 08:56:59|[domain_hunter_pro](https://github.com/bit4woo/domain_hunter_pro)|Update DomainPanel.java|
-|2023-05-16 08:43:08|[dbeaver](https://github.com/dbeaver/dbeaver)|#17585 ability to trim string values during export <br>to XLSX implemented with extra setting (#19953)|
 |2023-05-16 08:41:49|[kube-bench](https://github.com/aquasecurity/kube-bench)|replace with constant (#1445)|
-|2023-05-16 08:18:55|[safeline](https://github.com/chaitin/safeline)|Merge pull request #73 from naocanmonster/main  增<br>加雷池介绍文档|
-|2023-05-16 07:25:24|[murphysec](https://github.com/murphysecurity/murphysec)|chore(deps): Upgrade fix-tools|
 |2023-05-16 06:53:14|[FrameVul](https://github.com/Awrrays/FrameVul)|Update README.md|
-|2023-05-16 06:11:58|[afrog](https://github.com/zan8in/afrog)|update|
-|2023-05-16 01:45:17|[veinmind-tools](https://github.com/chaitin/veinmind-tools)|Merge pull request #235 from asjdf/master  feat(wea<br>kpass): support caching_sha2_password and enhance My<br>ISAM pkg|
-|2023-05-15 17:26:58|[clair](https://github.com/quay/clair)|chore: Only ask dependabot to care about direct dep<br>endencies  There is some confusion in the github doc<br>s about what the default is for gomod given all the <br>direct and indirect deps are explicitly defined. Thi<br>s change attempts to only include the direct deps an<br>d let the indirect deps be resolved by their project<br>s.  Signed-off-by: crozzy |
 |2023-05-15 06:34:33|[vulnerability](https://github.com/lal0ne/vulnerability)|CVE-2023-0386|
-|2023-05-15 03:42:55|[DNSlog-GO](https://github.com/lanyi1998/DNSlog-GO)|fix:低版本linux无法运行|
 |2023-05-15 03:18:59|[404StarLink](https://github.com/knownsec/404StarLink)|weekly update at 2023-05-15|
 |2023-05-14 12:52:23|[whatweb-plus](https://github.com/winezer0/whatweb-plus)|解决kali下 ruby 3.1.2 join(nil)报错的问题|
 |2023-05-14 08:25:37|[HackReport](https://github.com/awake1t/HackReport)|2023-05-14 16:25:37|
@@ -69,19 +76,15 @@
 |2023-05-11 14:36:58|[PocList](https://github.com/1n7erface/PocList)|Update README.md|
 |2023-05-11 13:57:55|[v2rayA](https://github.com/v2rayA/v2rayA)|chore: add udp443 flows|
 |2023-05-11 09:31:50|[RouteVulScan](https://github.com/F6JO/RouteVulScan)|Update README.md|
-|2023-05-11 09:06:22|[GobypassAV-shellc<br>ode](https://github.com/Pizz33/GobypassAV-shellcode)|Update README.md|
 |2023-05-11 07:23:51|[URLFinder](https://github.com/pingc0y/URLFinder)|Update README.md  2023/5/11更新|
 |2023-05-11 03:36:19|[captcha-killer-mo<br>dified](https://github.com/f0ng/captcha-killer-modified)|Update FAQ.md|
 |2023-05-10 14:03:11|[PEASS-ng](https://github.com/carlospolop/PEASS-ng)|Update linpeas_base.sh|
-|2023-05-10 12:20:33|[Antenna](https://github.com/wuba/Antenna)|Merge pull request #119 from wuba/develop  更新http<br>s证书|
 |2023-05-10 10:30:39|[noterce](https://github.com/xiao-zhu-zhu/noterce)|Update README.md|
 |2023-05-10 03:18:53|[fscan](https://github.com/shadow1ng/fscan)|Merge pull request #272 from wgpsec/main  修复自动<br>化编译问题|
-|2023-05-09 09:32:17|[ARL](https://github.com/TophantTechnology/ARL)|Merge pull request #558 from TophantTechnology/upda<br>te/license  Create LICENSE.md|
 |2023-05-09 09:05:58|[Exp-Tools](https://github.com/cseroad/Exp-Tools)|Update README.md|
 |2023-05-09 01:46:33|[GoWxDump](https://github.com/SpenserCai/GoWxDump)|fix #19 支持 3.9.2.26|
 |2023-05-08 17:00:45|[railgun](https://github.com/lz520520/railgun)|Update README.md|
 |2023-05-08 11:24:15|[HackBrowserData](https://github.com/moonD4rk/HackBrowserData)|refactor: Refactor storage queries and filters.  - <br>Update local storage query constant and function cal<br>ls - Remove null and control characters from UTF-8 s<br>plit function|
-|2023-05-08 02:05:40|[ENScan_GO](https://github.com/wgpsec/ENScan_GO)|Merge pull request #56 from Blyth0He/master  Create<br> Dockerfile|
 |2023-05-08 01:09:24|[SharpWxDump](https://github.com/AdminTest0/SharpWxDump)|Update Program.cs|
 |2023-05-06 12:10:05|[Viper](https://github.com/FunnyWolf/Viper)|update version v1.5.28|
 |2023-05-06 11:47:16|[feroxbuster](https://github.com/epi052/feroxbuster)|Merge pull request #898 from epi052/all-contributor<br>s/add-AkechiShiro  docs: add AkechiShiro as a contri<br>butor for ideas|
@@ -200,7 +203,7 @@
 ### 企业信息收集
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
-| [ENScan_GO](https://github.com/wgpsec/ENScan_GO) | 0.0.10 | 一款基于各大企业信息API的工具，解决在遇到的各种针对国内企业信<br>息收集难题。一键收集控股公司ICP备案、APP、小程序、微信公众号等信<br>息聚合导出。 |
+| [ENScan_GO](https://github.com/wgpsec/ENScan_GO) | 0.0.11 | 一款基于各大企业信息API的工具，解决在遇到的各种针对国内企业信<br>息收集难题。一键收集控股公司ICP备案、APP、小程序、微信公众号等信<br>息聚合导出。 |
 ### 小程序信息收集
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
@@ -379,7 +382,7 @@
 | [ysoserial](https://github.com/frohoff/ysoserial) | v0.0.6 | A proof-of-concept tool for generating payloads that exploit u<br>nsafe Java object deserialization. |
 | [Gopherus](https://github.com/tarunkant/Gopherus) |  | This tool generates gopher link for exploiting SSRF and gainin<br>g RCE in various servers |
 | [revsuit](https://github.com/Li4n0/revsuit) | v0.6.0 | RevSuit is a flexible and powerful reverse connection platform<br> designed for receiving connection from target host in penetrat<br>ion.  |
-| [DNSlog-GO](https://github.com/lanyi1998/DNSlog-GO) | 2023051<br>5 | DNSLog-GO 是一款golang编写的监控 DNS 解析记录的工具，自带WEB界<br>面 |
+| [DNSlog-GO](https://github.com/lanyi1998/DNSlog-GO) | 2023051<br>7 | DNSLog-GO 是一款golang编写的监控 DNS 解析记录的工具，自带WEB界<br>面 |
 | [godnslog](https://github.com/chennqqi/godnslog) | v0.7.0 | An exquisite dns&http log server for verify SSRF/XXE/RFI/RCE v<br>ulnerability  |
 | [ysomap](https://github.com/wh1t3p1g/ysomap) | v0.1.3 | A helpful Java Deserialization exploit framework. |
 | [Antenna](https://github.com/wuba/Antenna) | v1.3.5 | Antenna是58同城安全团队打造的一款辅助安全从业人员验证网络中多<br>种漏洞是否存在以及可利用性的工具。其基于带外应用安全测试(OAST)通<br>过任务的形式，将不同漏洞场景检测能力通过插件的形式进行集合，通过<br>与目标进行out-bind的数据通信方式进行辅助检测。 |
@@ -628,7 +631,7 @@
 | [HopLa](https://github.com/synacktiv/HopLa) | 1.2 |  HopLa Burp Suite Extender plugin -  Adds autocompletion suppo<br>rt and useful payloads in Burp Suite |
 | [captcha-killer-mo<br>dified](https://github.com/f0ng/captcha-killer-modified) | 0.23-be<br>ta5 | captcha-killer的修改版，支持关键词识别base64编码的图片，添加免<br>费ocr库，用于验证码爆破，适配新版Burpsuite |
 | [BurpCrypto](https://github.com/whwlsfb/BurpCrypto) |  | BurpCrypto is a collection of burpsuite encryption plug-ins, s<br>upport AES/RSA/DES/ExecJs(execute JS encryption code in burpsui<br>te). 支持多种加密算法或直接执行JS代码的用于爆破前端加密的BurpSu<br>ite插件 |
-| [autoDecoder](https://github.com/f0ng/autoDecoder) | 0.25 | Burp插件，根据自定义来达到对数据包的处理（适用于加解密、爆破等<br>），类似mitmproxy，不同点在于经过了burp中转，在自动加解密的基础<br>上，不影响APP、网站加解密正常逻辑等。 |
+| [autoDecoder](https://github.com/f0ng/autoDecoder) | 0.26 | Burp插件，根据自定义来达到对数据包的处理（适用于加解密、爆破等<br>），类似mitmproxy，不同点在于经过了burp中转，在自动加解密的基础<br>上，不影响APP、网站加解密正常逻辑等。 |
 | [burpFakeIP](https://github.com/TheKingOfDuck/burpFakeIP) | 1.1 | 服务端配置错误情况下用于伪造ip地址进行测试的Burp Suite插件 |
 | [AutoRepeater](https://github.com/nccgroup/AutoRepeater) |  | Automated HTTP Request Repeating With Burp Suite |
 | [http-request-smug<br>gler](https://github.com/portswigger/http-request-smuggler) |  |  |
@@ -649,7 +652,7 @@
 | [BpScan](https://github.com/EASY233/BpScan) | 1.0.0 | 一款用于辅助渗透测试工程师日常渗透测试的Burp被动漏扫插件 |
 | [BurpCRLFScan](https://github.com/A0WaQ4/BurpCRLFScan) | 1.4 | 使用java编写的CRLF-Injection-burp被动扫描插件 |
 | [JsonDetect](https://github.com/a1phaboy/JsonDetect) | v1.0 | A burp Extender to detect json, include fastjson,jackson,gson |
-| [autoDecoder](https://github.com/f0ng/autoDecoder) | 0.25 | Burp插件，根据自定义来达到对数据包的处理（适用于加解密、爆破等<br>），类似mitmproxy，不同点在于经过了burp中转，在自动加解密的基础<br>上，不影响APP、网站加解密正常逻辑等。 |
+| [autoDecoder](https://github.com/f0ng/autoDecoder) | 0.26 | Burp插件，根据自定义来达到对数据包的处理（适用于加解密、爆破等<br>），类似mitmproxy，不同点在于经过了burp中转，在自动加解密的基础<br>上，不影响APP、网站加解密正常逻辑等。 |
 | [burp-text4shell](https://github.com/silentsignal/burp-text4shell) | v0.1 | Text4Shell scanner for Burp Suite |
 | [sweetPotato](https://github.com/z2p/sweetPotato) | version<br>1.6 | 基于burpsuite的资产分析工具 |
 | [xia_Liao](https://github.com/smxiazi/xia_Liao) | 1.6 | xia Liao（瞎料）burp插件 用于Windows在线进程/杀软识别 与 web渗<br>透注册时，快速生成需要的资料用来填写，资料包含：姓名、手机号、身<br>份证、统一社会信用代码、组织机构代码、银行卡，以及各类web语言的h<br>ello world输出和生成弱口令字典等。 |
