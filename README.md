@@ -1,19 +1,20 @@
-# 更新于 2023-05-18 08:40:41
+# 更新于 2023-05-19 08:43:15
 
 ## 近15天release更新记录
 | 更新时间 | 项目名称 | 版本 | 更新内容 |
 | :---- | :---- | :---- | :---- |
+|2023-05-18 13:02:23|[safeline](https://github.com/chaitin/safeline)|v1.5.1|## 优化    - 修复了 1.5.0 的问题：自<br>定义规则切换白名单之后，无法创建/编辑的<br>问题    **注意：低版本升级请执行 upgrad<br>e.sh 脚本**|
+|2023-05-18 07:43:29|[kube-bench](https://github.com/aquasecurity/kube-bench)|v0.6.14|## Changelog * 968ee58 replace with c<br>onstant (#1445)  |
+|2023-05-18 06:49:12|[xray](https://github.com/chaitin/xray)|1.9.11|### 版本介绍    该版本为 用友NC NCMes<br>sageServlet反序列化漏洞 注入漏洞 的应<br>急版本，相较上个版本，除了添加了一个POC<br>外，未改动其他内容。    ### 更新内容   <br> 想要检测该漏洞的师傅，可以使用    ./x<br>ray ws --poc poc-yaml-yongyou-nc-ncmes<br>sageservlet-rce --url http://example.c<br>om    进行检测。    相关参考链接：|
+|2023-05-18 03:27:00|[ARL](https://github.com/TophantTechnology/ARL)|v2.5.5|  1. 修复 nuclei 误报 CVE-2022-45362 <br>问题 #559 #535  2. 修复数据源 quake_360<br> 查询错误问题  @原来是老王  3. 删除数<br>据源 threatminer (不可访问了)  4. 过滤<br>无效状态码 410, 减少无用数据入库  |
 |2023-05-17 08:37:40|[DNSlog-GO](https://github.com/lanyi1998/DNSlog-GO)|2023051<br>7||
 |2023-05-17 06:06:06|[autoDecoder](https://github.com/f0ng/autoDecoder)|0.26|## 2023.5.17 更新0.26  1. 修复了勾选<br>对请求头处理后，请求头缺失问题  2. 增加<br>对密文URL解码读取、加密后的密文URL解码<br>选项  3. 修复其他问题，如指定域名端口号<br>不出现扩展选项卡、windows下中文解密乱码<br>等问题    感谢微信群yosel 师傅反馈|
 |2023-05-17 03:26:56|[ENScan_GO](https://github.com/wgpsec/ENScan_GO)|0.0.11|修复企查查签名错误提示|
 |2023-05-16 16:40:02|[faker](https://github.com/joke2k/faker)|v18.9.0|See .|
 |2023-05-15 12:52:58|[murphysec](https://github.com/murphysecurity/murphysec)|v3.1.1|Support NPM lockfile v3 |
-|2023-05-15 12:47:25|[kube-bench](https://github.com/aquasecurity/kube-bench)|v0.6.14<br>-rc|## Changelog * e38c829 build(deps): b<br>ump gorm.io/gorm from 1.24.2 to 1.25.1<br> (#1437) * b0e49c8 fix: ignore the err<br>or from findConfigFile (#1440)  |
-|2023-05-15 10:41:22|[xray](https://github.com/chaitin/xray)|1.9.10|### 版本介绍    该版本为 泛微Ecology<br>信息泄露&前台任意用户登陆漏洞 注入漏洞 <br>的应急版本，相较上个版本，除了添加了一<br>个POC外，未改动其他内容。    ### 更新内<br>容    想要检测该漏洞的师傅，可以使用   <br> ./xray ws --poc poc-yaml-ecology-ofsl<br>ogin-aul --url http://example.com    <br>进行检测。    相关参考链接：|
 |2023-05-14 12:54:57|[whatweb-plus](https://github.com/winezer0/whatweb-plus)|v0.5.5.<br>19.fix|修复kali下 ruby 3.1.2 下提示 join(nil<br>，"whatweb")报错    注意windows环境下不<br>受影响,可以不进行更新|
 |2023-05-14 04:27:49|[PEASS-ng](https://github.com/carlospolop/PEASS-ng)|2023051<br>4-85dabd<br>c9||
 |2023-05-14 02:29:25|[afrog](https://github.com/zan8in/afrog)|v2.3.2|**Add:**  - The result will be writte<br>n to the JSON file, but it will not in<br>clude the request and response content<br>.  - Writes a JSON file including all <br>vulnerability results.  - The "disable<br>-output-html" command can be used to p<br>revent the automatic generation of an <br>HTML report, and its priority is highe<br>r than the "-o" command.  - PoC script<br> info information adds three fields af<br>fected, solutions, and created    **Op<br>timization:**  - Duplicated PoC remove<br>d: springboot-env-unauth  - When perfo<br>rming an update operation, the -up com<br>mand prompt is not friendly enough  - <br>Scan in order of increasing security r<br>isk level    **新增：**  - 使用命令参<br>数 -json 或 -j，将漏洞结果写入 JSON 文<br>件，不包括 request 和 response  - 使用<br>命令参数 -json-all 或 -ja，将漏洞结果写<br>入 JSON 文件，包括 request 和 response <br> - 使用 disable-output-html 命令可以禁<br>止生成 HTML 报告，该命令的优先级高于 -o<br> 命令。  - PoC 脚本 info 信息增加 affe<br>cted、solutions、created 三个字段    *<br>*优化：**  - 已移除重复的PoC: springbo<br>ot-env-unauth  - 执行更新操作时，-up <br>命令提示不够友好  - 按照从低到高的安全<br>风险级别顺序进行扫描  - 优化 url.path <br>编码问题|
-|2023-05-12 06:32:18|[safeline](https://github.com/chaitin/safeline)|v1.4.0|### 新增  - 自定义规则支持匹配域名  -<br> 支持在一条自定义规则内，设置多个匹配<br>条件  - 站点列表新增 “今日访问 / 拦截<br>量”    ### 优化  - 优化交互和提示文案<br>、修复已知问题    **注意：低版本升级请<br>执行 upgrade.sh 脚本，或者重新手动更新 <br>compose.yaml 文件**|
 |2023-05-12 03:16:59|[iDefender](https://github.com/wecooperate/iDefender)|2.7.0|添加易用性、稳定性，建议更新    - 更<br>新SDK到最新的版本    - 文件的读写添加首<br>次事件通知    - 过滤掉命名管道的读写请<br>求    - 规则引擎优化    - 去掉只读文件<br>监控开关    - 隐私保护换成读取文件、文<br>件映射事件    - 导出规则、导入规则、分<br>享规则添加信任列表的导出导入  - 优化开<br>机启动的逻辑，添加注册表开机启动项  - <br>模板更新（支持经典模式：新建、修改、删<br>除、读取等概念）    - 添加全能模板    -<br> 添加进程行为模板    - 添加文件行为模<br>板    - 添加注册表行为模板    - 添加网<br>络行为模板    - 其他    - 修复数据库一<br>些操作异常    - 修复进程保护、进程操作<br>拦截可能导致进程启动不了的问题    - 修<br>复一些误报问题    - 修复对话框界面最大<br>化状态的阴影问题    - 规则引擎添加更多<br>扩展属性              软件下载   |
 |2023-05-11 23:49:58|[nuclei](https://github.com/projectdiscovery/nuclei)|v2.9.4|## What's Changed  * Added option for<br> nuclei templates / config reset by @t<br>arunKoyalwar in https://github.com/pro<br>jectdiscovery/nuclei/pull/3675  consol<br>e     -reset  reset removes all nuclei<br> configuration and data files (includi<br>ng nuclei-templates)        **Full Cha<br>ngelog**: https://github.com/projectdi<br>scovery/nuclei/compare/v2.9.3...v2.9.4|
 |2023-05-11 07:00:15|[URLFinder](https://github.com/pingc0y/URLFinder)|2023.5.<br>11|2023/5/11  变化 -i 配置文件可自定义：<br>线程数、抓取深度、敏感路由、超时时间、<br>最大抓取数  新增 -time 设置超时时间  新<br>增 -max 设置最大抓取数  新增 添加版本更<br>新提示  修复 已知bug|
@@ -32,32 +33,32 @@
 ## 近15天commit提交记录
 | 提交时间 | 项目名称 | 更新内容 |
 | :---- | :---- | :---- |
-|2023-05-18 00:30:16|[NucleiTP](https://github.com/ExpLangcn/NucleiTP)|更新啦❤️|
-|2023-05-18 00:00:02|[free](https://github.com/freefq/free)|updated_at 05-18 08:00|
-|2023-05-17 23:56:04|[PocOrExp_in_Githu<br>b](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-05-18 07:56:04|
-|2023-05-17 21:50:30|[clair](https://github.com/quay/clair)|docs: update old go get command  Signed-off-by: Han<br>k Donnay |
-|2023-05-17 19:55:01|[dbeaver](https://github.com/dbeaver/dbeaver)|dbeaver/pro#1588 add support of URL and ODBC switch<br>er to MySQL/MariaDB and DB2 connections (#19984)|
+|2023-05-19 00:30:18|[NucleiTP](https://github.com/ExpLangcn/NucleiTP)|更新啦❤️|
+|2023-05-19 00:00:02|[free](https://github.com/freefq/free)|updated_at 05-19 08:00|
+|2023-05-18 23:18:18|[PocOrExp_in_Githu<br>b](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-05-19 07:18:18|
+|2023-05-18 19:41:22|[trivy](https://github.com/aquasecurity/trivy)|test: k8s integration tests (#4423)  Signed-off-by:<br> chenk   Co-authored-by: knqyf263 |
+|2023-05-18 17:58:38|[dbeaver](https://github.com/dbeaver/dbeaver)|CB-3501 do not escape schema name in create queries<br> (#20010)|
+|2023-05-18 17:57:56|[clair](https://github.com/quay/clair)|build(deps): bump golang.org/x/sync from 0.1.0 to 0<br>.2.0  Bumps  from 0.1.0 to 0.2.0. -   --- updated-de<br>pendencies: - dependency-name: golang.org/x/sync   d<br>ependency-type: direct:production   update-type: ver<br>sion-update:semver-minor ...  Signed-off-by: dependa<br>bot[bot] |
+|2023-05-18 16:44:33|[neuvector](https://github.com/neuvector/neuvector)|NVSHAS-7931: Correct kubernetes 4.2.1 check|
+|2023-05-18 12:50:27|[safeline](https://github.com/chaitin/safeline)|feat: release v1.5.1|
+|2023-05-18 12:38:03|[v2rayfree](https://github.com/aiboboxx/v2rayfree)|update|
+|2023-05-18 09:00:28|[domain_hunter_pro](https://github.com/bit4woo/domain_hunter_pro)|update|
+|2023-05-18 08:20:09|[murphysec](https://github.com/murphysecurity/murphysec)|chore(deps): Upgrade tons of dependencies...|
+|2023-05-18 08:17:49|[veinmind-tools](https://github.com/chaitin/veinmind-tools)|Merge pull request #241 from ek1ng/master  fix(plug<br>ins): fix mysql8 weakpass|
+|2023-05-18 07:32:39|[kube-bench](https://github.com/aquasecurity/kube-bench)|release: prepare v0.6.14 (#1446)  Signed-off-by: ch<br>enk |
+|2023-05-18 02:32:51|[ARL](https://github.com/TophantTechnology/ARL)|Merge pull request #564 from TophantTechnology/fix/<br>action  update action|
 |2023-05-17 18:34:27|[syft](https://github.com/anchore/syft)|chore(deps): bump github.com/google/go-containerreg<br>istry (#1823)  Bumps  from 0.15.1 to 0.15.2.  -   - <br>  -     ---  updated-dependencies:  - dependency-nam<br>e: github.com/google/go-containerregistry    depende<br>ncy-type: direct:production    update-type: version-<br>update:semver-patch  ...    Signed-off-by: dependabo<br>t[bot]   Co-authored-by: dependabot[bot] |
 |2023-05-17 16:21:11|[GobypassAV-shellc<br>ode](https://github.com/Pizz33/GobypassAV-shellcode)|Update README.md|
-|2023-05-17 14:52:32|[murphysec](https://github.com/murphysecurity/murphysec)|chore(version): Upgrade fix-tool|
 |2023-05-17 13:45:58|[grype](https://github.com/anchore/grype)|chore(deps): bump github.com/cloudflare/circl from <br>1.1.0 to 1.3.3 (#1289)|
-|2023-05-17 12:37:34|[v2rayfree](https://github.com/aiboboxx/v2rayfree)|update|
 |2023-05-17 11:43:10|[afrog](https://github.com/zan8in/afrog)|update|
 |2023-05-17 09:57:12|[Antenna](https://github.com/wuba/Antenna)|Merge pull request #121 from wuba/develop  Develop|
 |2023-05-17 08:36:27|[DNSlog-GO](https://github.com/lanyi1998/DNSlog-GO)|docs:update images|
-|2023-05-17 08:20:18|[safeline](https://github.com/chaitin/safeline)|Merge pull request #75 from yrluke/more_doc  feat: <br>add the https and some question|
-|2023-05-17 06:24:32|[domain_hunter_pro](https://github.com/bit4woo/domain_hunter_pro)|update|
 |2023-05-17 06:05:21|[autoDecoder](https://github.com/f0ng/autoDecoder)|Add files via upload  0.26 code|
-|2023-05-17 04:01:58|[trivy](https://github.com/aquasecurity/trivy)|fix(k8s): add image sources (#4411)|
-|2023-05-17 03:25:02|[veinmind-tools](https://github.com/chaitin/veinmind-tools)|Merge pull request #240 from ek1ng/feat/veinmind-ia<br>c  feat(plugins): update kubernetes iac polices|
-|2023-05-17 03:19:19|[ARL](https://github.com/TophantTechnology/ARL)|Create version.txt|
 |2023-05-17 03:16:02|[ENScan_GO](https://github.com/wgpsec/ENScan_GO)|修正提示|
-|2023-05-16 21:37:27|[neuvector](https://github.com/neuvector/neuvector)|NVSHAS-7706: avoid intercept the traffic for neuvec<br>tor csp adapter|
 |2023-05-16 16:38:32|[faker](https://github.com/joke2k/faker)|Bump version: 18.8.0 → 18.9.0|
 |2023-05-16 14:13:55|[OA-EXPTOOL](https://github.com/LittleBear4/OA-EXPTOOL)|Update README.md|
 |2023-05-16 12:12:24|[Pentest-Windows](https://github.com/arch3rPro/Pentest-Windows)|Update README.md|
 |2023-05-16 08:59:06|[sqlmap](https://github.com/sqlmapproject/sqlmap)|Fixes #5411|
-|2023-05-16 08:41:49|[kube-bench](https://github.com/aquasecurity/kube-bench)|replace with constant (#1445)|
 |2023-05-16 06:53:14|[FrameVul](https://github.com/Awrrays/FrameVul)|Update README.md|
 |2023-05-15 06:34:33|[vulnerability](https://github.com/lal0ne/vulnerability)|CVE-2023-0386|
 |2023-05-15 03:18:59|[404StarLink](https://github.com/knownsec/404StarLink)|weekly update at 2023-05-15|
@@ -98,9 +99,7 @@
 |2023-05-04 06:32:29|[Vulnerability-Wik<br>i](https://github.com/Threekiii/Vulnerability-Wiki)|更新漏洞|
 |2023-05-04 06:26:06|[Awesome-POC](https://github.com/Threekiii/Awesome-POC)|更新漏洞|
 |2023-05-04 06:05:40|[Vulhub-Reproduce](https://github.com/Threekiii/Vulhub-Reproduce)|更新漏洞|
-|2023-05-04 03:08:55|[ysomap](https://github.com/wh1t3p1g/ysomap)|update|
-|2023-05-03 11:14:19|[Umi-OCR](https://github.com/hiroi-sora/Umi-OCR)|update|
-|2023-05-03 03:33:23|[go_proxy_pool](https://github.com/pingc0y/go_proxy_pool)|Update README.md|## 所有项目
+|2023-05-04 03:08:55|[ysomap](https://github.com/wh1t3p1g/ysomap)|update|## 所有项目
 # 渗透测试
 ## 信息收集
 ### 资产测绘采集
@@ -188,7 +187,7 @@
 | [MagiCude](https://github.com/er10yi/MagiCude) | v2.1 | 分布式端口（漏洞）扫描、资产安全管理、实时威胁监控与通知、高效<br>漏洞闭环、漏洞wiki、邮件报告通知、poc框架 |
 | [Watchdog](https://github.com/CTF-MissFeng/Watchdog) |  | Watchdog是bayonet修改版，重新优化了数据库及web及扫描程序,加入<br>多节点 |
 | [Tide](https://github.com/TideSec/Tide) |  | 目前实现了网络空间资产探测、指纹检索、漏洞检测、漏洞全生命周期<br>管理、poc定向检测、暗链检测、挂马监测、敏感字检测、DNS监测、网站<br>可用性监测、漏洞库管理、安全预警等等~ |
-| [ARL](https://github.com/TophantTechnology/ARL) | v2.5.4 | ARL(Asset Reconnaissance Lighthouse)资产侦察灯塔系统旨在快速侦<br>察与目标关联的互联网资产，构建基础资产信息库。 协助甲方安全团队<br>或者渗透测试人员有效侦察和检索资产，发现存在的薄弱点和攻击面。 |
+| [ARL](https://github.com/TophantTechnology/ARL) | v2.5.5 | ARL(Asset Reconnaissance Lighthouse)资产侦察灯塔系统旨在快速侦<br>察与目标关联的互联网资产，构建基础资产信息库。 协助甲方安全团队<br>或者渗透测试人员有效侦察和检索资产，发现存在的薄弱点和攻击面。 |
 | [linglong](https://github.com/awake1t/linglong) |  | 一款甲方资产巡航扫描系统。系统定位是发现资产，进行端口爆破。帮<br>助企业更快发现弱口令问题。主要功能包括: 资产探测、端口爆破、定时<br>任务、管理后台识别、报表展示 |
 | [sec-admin](https://github.com/smallcham/sec-admin) |  | 分布式资产安全扫描核心管理系统(弱口令扫描，漏洞扫描) |
 | [linbing](https://github.com/taomujian/linbing) | v3.0 | 本系统是对Web中间件和Web框架进行自动化渗透的一个系统,根据扫描<br>选项去自动化收集资产,然后进行POC扫描,POC扫描时会根据指纹选择POC<br>插件去扫描,POC插件扫描用异步方式扫描.前端采用vue技术,后端采用pyt<br>hon fastapi. |
@@ -242,7 +241,7 @@
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
 | [EasyPen](https://github.com/lijiejie/EasyPen) |  | EasyPen is a GUI program which helps pentesters do target disc<br>overy, vulnerability scan and exploitation |
-| [xray](https://github.com/chaitin/xray) | 1.9.10 | 一款完善的安全评估工具，支持常见 web 安全问题扫描和自定义 poc <br>| 使用之前务必先阅读文档 |
+| [xray](https://github.com/chaitin/xray) | 1.9.11 | 一款完善的安全评估工具，支持常见 web 安全问题扫描和自定义 poc <br>| 使用之前务必先阅读文档 |
 | [w13scan](https://github.com/w-digital-scanner/w13scan) |  | Passive Security Scanner (被动式安全扫描器) |
 | [Fvuln](https://github.com/d3ckx1/Fvuln) | Fvuln_v<br>1.4.8 | F-vuln（全称：Find-Vulnerability）是为了自己工作方便专门编写的<br>一款自动化工具，主要适用于日常安全服务、渗透测试人员和RedTeam红<br>队人员，它集合的功能包括：存活IP探测、开放端口探测、web服务探测<br>、web漏洞扫描、smb爆破、ssh爆破、ftp爆破、mssql爆破等其他数据库<br>爆破工作以及大量web漏洞检测模块。 |
 | [nuclei](https://github.com/projectdiscovery/nuclei) | v2.9.4 | Fast and customizable vulnerability scanner based on simple YA<br>ML based DSL. |
@@ -329,7 +328,7 @@
 #### K8S基线核查
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
-| [kube-bench](https://github.com/aquasecurity/kube-bench) | v0.6.14<br>-rc | Checks whether Kubernetes is deployed according to security be<br>st practices as defined in the CIS Kubernetes Benchmark |
+| [kube-bench](https://github.com/aquasecurity/kube-bench) | v0.6.14 | Checks whether Kubernetes is deployed according to security be<br>st practices as defined in the CIS Kubernetes Benchmark |
 #### 云原生安全平台
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
@@ -969,7 +968,7 @@
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
 | [openstar](https://github.com/starjun/openstar) |  | lua waf,nginx+lua,openresty,luajit,waf+,cdn,nginx |
-| [safeline](https://github.com/chaitin/safeline) | v1.4.0 | 长亭科技自研，基于业界领先的语义引擎检测技术，打造的简洁、易用<br>的免费 WAF |
+| [safeline](https://github.com/chaitin/safeline) | v1.5.1 | 长亭科技自研，基于业界领先的语义引擎检测技术，打造的简洁、易用<br>的免费 WAF |
 ## 欺骗防御
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
