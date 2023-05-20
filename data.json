@@ -182,10 +182,10 @@
     "https://github.com/lanyi1998/DNSlog-GO": {
         "created_at": "2020-09-05 16:18:57",
         "description": "DNSLog-GO 是一款golang编写的监控 DNS 解析记录的工具，自带WEB界面",
-        "commit_date": "2023-05-17 08:36:27",
-        "commit_message": "docs:update images",
-        "release_tag": "20230517",
-        "release_date": "2023-05-17 08:37:40",
+        "commit_date": "2023-05-19 08:51:11",
+        "commit_message": "Merge pull request #23 from testwill/master\n\n代码优化依赖库更新",
+        "release_tag": "20230519",
+        "release_date": "2023-05-19 08:55:39",
         "release_message": ""
     },
     "https://github.com/Mr-xn/JNDIExploit-1": {
@@ -200,8 +200,8 @@
     "https://github.com/ycdxsb/PocOrExp_in_Github": {
         "created_at": "2021-04-13 05:46:16",
         "description": "聚合Github上已有的Poc或者Exp，CVE信息来自CVE官网。Auto Collect Poc Or Exp from Github by CVE ID.",
-        "commit_date": "2023-05-18 23:18:18",
-        "commit_message": "update 2023-05-19 07:18:18",
+        "commit_date": "2023-05-19 22:18:22",
+        "commit_message": "update 2023-05-20 06:18:22",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -461,7 +461,7 @@
     "https://github.com/ExpLangcn/NucleiTP": {
         "created_at": "2022-11-08 13:16:56",
         "description": "自动整合全网Nuclei的漏洞POC，实时同步更新最新POC！",
-        "commit_date": "2023-05-19 00:30:18",
+        "commit_date": "2023-05-20 00:30:16",
         "commit_message": "更新啦❤️",
         "release_tag": "",
         "release_date": "",
@@ -2654,8 +2654,8 @@
     "https://github.com/maurosoria/dirsearch": {
         "created_at": "2013-04-30 15:57:40",
         "description": "Web path scanner",
-        "commit_date": "2023-02-21 16:11:23",
-        "commit_message": "Merge pull request #1282 from 0x0d3ad/patch-3\n\nUpdate my profile link github",
+        "commit_date": "2023-05-19 16:41:10",
+        "commit_message": "Merge pull request #1300 from mxcezl/patch-1\n\nAllow dirseach to find endpoints exposing jwks files",
         "release_tag": "v0.4.3",
         "release_date": "2022-10-05 13:01:24",
         "release_message": "- Automatically detect the URI scheme (`http` or `https`) if no scheme is provided\r\n- SQLite report format\r\n- Option to overwrite unwanted extensions with selected extensions\r\n- Option to view redirects history when following redirects\r\n- Option to crawl web paths in the responses\r\n- HTTP traffic is saved inside log file\r\n- Capability to save progress and resume later\r\n- Support client certificate\r\n- Maximum size of the log file via configuration\r\n- More accurate"
@@ -2951,8 +2951,8 @@
     "https://github.com/dbeaver/dbeaver": {
         "created_at": "2015-10-21 08:26:28",
         "description": "Free universal database tool and SQL client",
-        "commit_date": "2023-05-18 17:58:38",
-        "commit_message": "CB-3501 do not escape schema name in create queries (#20010)",
+        "commit_date": "2023-05-19 10:29:47",
+        "commit_message": "dbeaver/pro#1627 fix connection configuration reading for the connection page (#20016)",
         "release_tag": "23.0.4",
         "release_date": "2023-05-07 18:00:03",
         "release_message": "\n                - Data Editor:\n                    - Bottom toolbar became customizable\n                    - Disconnected editors can be easily reconnected\n                    - Issue with Ctrl+1 shortcut not working was fixed\n                - SQL Editor:\n                    - Issue with refresh button closing active resul tab was fixed\n                    - Issue with not correct dislaying of \\r\\n sequence was fixed\n                    - Issue when generating the same UUID for all rows was fixed (thanks to @SiyaoIsHiding)\n                - Data Transfer:\n                    - Ability to change the target column type on import to BIGINT was added\n                    - Export from query to CSV was fixed\n                - Git: Missing git buttons and menus were added on macOS (Apple Silicon)\n                - Databases:\n                    - ClickHouse: Catalog support was added\n                    - Informix: issue with extra spaces in table name was fixed\n                    - MySQL:\n                        - Event reading for quoted schemas was fixed\n                        - Time handling in MySQL was improved\n                    - Oracle:\n                        - Issue with parcing IF EXISTS statements was fixed\n                        - The display of DATE with additional settings in the Result Set was fixed\n                        - Inromation about latest statistics update was added\n                    - PostgreSQL:\n                        - Generation of ALTER table SQL for foreign tables was improved\n                        - Role settings were added in generated DDL\n                        - IDENTITY SEQUENCE were added in generated DDL\n                    - Snowflake: issue with incorrect import with BIGINT, INT, REAL, FLOAT, DOUBLE PRECISION, and DECIMAL data types was fixed\n                    - Trino: issue with import files with varchar data type was fixed\n                - Misc:\n                    - SalesForce driver was updated\n                    - ODBC connection error was fixed\n                    - Java native libraries were added to DBeaver installation directly to avoid app crash cased by system restrictions.\n                    - DBeaver started to collect user statistics. It is anonymous and optional\n            "
@@ -3050,8 +3050,8 @@
     "https://github.com/zan8in/afrog": {
         "created_at": "2022-02-24 06:00:32",
         "description": "A Security Tool for Bug Bounty, Pentest and Red Teaming.",
-        "commit_date": "2023-05-17 11:43:10",
-        "commit_message": "update",
+        "commit_date": "2023-05-19 14:49:43",
+        "commit_message": "add shiro",
         "release_tag": "v2.3.2",
         "release_date": "2023-05-14 02:29:25",
         "release_message": "**Add:**\r\n- The result will be written to the JSON file, but it will not include the request and response content.\r\n- Writes a JSON file including all vulnerability results.\r\n- The \"disable-output-html\" command can be used to prevent the automatic generation of an HTML report, and its priority is higher than the \"-o\" command.\r\n- PoC script info information adds three fields affected, solutions, and created\r\n\r\n**Optimization:**\r\n- Duplicated PoC removed: springboot-env-unauth\r\n- When performing an update operation, the -up command prompt is not friendly enough\r\n- Scan in order of increasing security risk level\r\n\r\n**新增：**\r\n- 使用命令参数 -json 或 -j，将漏洞结果写入 JSON 文件，不包括 request 和 response\r\n- 使用命令参数 -json-all 或 -ja，将漏洞结果写入 JSON 文件，包括 request 和 response\r\n- 使用 disable-output-html 命令可以禁止生成 HTML 报告，该命令的优先级高于 -o 命令。\r\n- PoC 脚本 info 信息增加 affected、solutions、created 三个字段\r\n\r\n**优化：**\r\n- 已移除重复的PoC: springboot-env-unauth\r\n- 执行更新操作时，-up 命令提示不够友好\r\n- 按照从低到高的安全风险级别顺序进行扫描\r\n- 优化 url.path 编码问题"
@@ -3157,12 +3157,12 @@
     },
     "https://github.com/4ra1n/super-xray": {
         "created_at": "2022-11-18 14:52:09",
-        "description": "Web漏洞扫描工具XRAY的GUI启动器 (Web Vulnerability Scanner GUI Starter)",
-        "commit_date": "2023-03-13 18:52:40",
-        "commit_message": "after release",
-        "release_tag": "1.6",
-        "release_date": "2023-03-13 18:58:37",
-        "release_message": "## 1.6\r\n\r\n失眠，简单更新下\r\n\r\n更新内容：\r\n- [important] 给RAD联动提供一种批量执行的办法 #155\r\n- [important] RAD联动支持Cookie配置 #153\r\n- [feat] 第一次加载RAD后支持保存路径下次直接加载 #156\r\n- [feat] RAD联动支持一键复制RAD命令 #154\r\n- [bug] 备份xray目录原来的config.yaml文件 #152\r\n- [feat] RAD 联动支持拖拽功能 #151\r\n- [feat] request 支持自定义 user-agent #149\r\n- [feat] 允许设置请求Cookie内容 #150\r\n- [feat] radium support file input #148 (同#155)\r\n\r\n下载：\r\n- super-xray-1.6.jar 版本通过`java -jar super-xray-1.6.jar`启动\r\n- super-xray-1.6-jre-exe.zip 是内置了JRE的exe版本\r\n- super-xray-1.6-system-jre.exe 是使用系统JRE的exe版本"
+        "description": "Web漏洞扫描工具XRAY的GUI启动器",
+        "commit_date": "2023-05-19 11:02:17",
+        "commit_message": "code",
+        "release_tag": "1.7",
+        "release_date": "2023-05-19 10:47:25",
+        "release_message": "## 1.7\r\n\r\n更新内容：\r\n1. 服务扫描模块加入了Weblogic IIOP扫描（参考README最下方） \r\n2. 在Windows中选择xray时设置EXE后缀，在文件较多时提高效率 \r\n3. 选择本地POC时，设置YML和YAML过滤，在文件较多时提高效率 \r\n4. 选择URL列表文件时设置TXT过滤，在文件较多时提高效率 \r\n5. 删除自带小游戏部分，这部分功能没有必要 \r\n6. 高级设置部分的代理应该添加提示避免被当成被动代理 \r\n7. 更新SnakeYAML和Log4j2依赖，虽然不存在漏洞还是更一下 \r\n8. 更新默认POC列表内容，新版本增加了一些POC \r\n9. XRAY和RAD下载面板加入官方链接，镜像站不支持新版本了 \r\n10. 更新一些版本信息\r\n\r\n下载：\r\n- super-xray-1.7.jar 版本通过`java -jar super-xray-1.7.jar`启动\r\n- super-xray-1.7-jre-exe.zip 是内置了JRE的exe版本\r\n- super-xray-1.7-system-jre.exe 是使用系统JRE的exe版本"
     },
     "https://github.com/Peithon/JustC2file": {
         "created_at": "2021-12-27 05:33:15",
@@ -3237,8 +3237,8 @@
     "https://github.com/coffeehb/Some-PoC-oR-ExP": {
         "created_at": "2015-03-13 15:31:35",
         "description": "各种漏洞poc、Exp的收集或编写",
-        "commit_date": "2023-02-10 09:53:54",
-        "commit_message": "Create CVE-2023-25194.md",
+        "commit_date": "2023-05-19 01:51:35",
+        "commit_message": "Create readme.md",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -3888,8 +3888,8 @@
     "https://github.com/neuvector/neuvector": {
         "created_at": "2021-12-17 20:15:03",
         "description": "",
-        "commit_date": "2023-05-18 16:44:33",
-        "commit_message": "NVSHAS-7931: Correct kubernetes 4.2.1 check",
+        "commit_date": "2023-05-19 01:19:52",
+        "commit_message": "NVSHAS-6241: Add grpc interface for scan adapter (#824)\n\n* NVSHAS-7864: Add timeout when dialing syslog server\r\n\r\n* NVSHAS-7907: Add debug flag for interactive scan\r\n\r\n* NVSHAS-7931: Correct kubernetes 4.2.1 check\r\n\r\n* NVSHAS-6241: Add grpc interface for scan adapter",
         "release_tag": "v5.1.3",
         "release_date": "2023-05-09 18:16:30",
         "release_message": "Features:\r\nAdd new vulnerability feed for scanning Microsoft .NET framework\r\nEnforcer stats is disabled by default in Prometheus exporter to improve scalability\r\nUseability improvement: Using scanner to scan single image and print the result\r\nAdd imagePullPolicy check in admission control\r\n\r\n\r\nBug fixes:\r\nEmpty group auto-removal takes 2 hours to delete instead of 1 hour according to schedule\r\nCompliance profile doesn't show in UI console\r\n"
@@ -3906,8 +3906,8 @@
     "https://github.com/anchore/syft": {
         "created_at": "2020-05-07 18:19:29",
         "description": "CLI tool and library for generating a Software Bill of Materials from container images and filesystems",
-        "commit_date": "2023-05-17 18:34:27",
-        "commit_message": "chore(deps): bump github.com/google/go-containerregistry (#1823)\n\nBumps [github.com/google/go-containerregistry](https://github.com/google/go-containerregistry) from 0.15.1 to 0.15.2.\r\n- [Release notes](https://github.com/google/go-containerregistry/releases)\r\n- [Changelog](https://github.com/google/go-containerregistry/blob/main/.goreleaser.yml)\r\n- [Commits](https://github.com/google/go-containerregistry/compare/v0.15.1...v0.15.2)\r\n\r\n---\r\nupdated-dependencies:\r\n- dependency-name: github.com/google/go-containerregistry\r\n  dependency-type: direct:production\r\n  update-type: version-update:semver-patch\r\n...\r\n\r\nSigned-off-by: dependabot[bot] <support@github.com>\r\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
+        "commit_date": "2023-05-19 14:21:10",
+        "commit_message": "Keep original FileInfo persisted on file.Metadata structs (#1794)\n\n* pull in fileinfo changes from stereoscope #172\r\n\r\nSigned-off-by: Alex Goodman <alex.goodman@anchore.com>\r\n\r\n* fix CLI test assumption about the docker daemon\r\n\r\nSigned-off-by: Alex Goodman <alex.goodman@anchore.com>\r\n\r\n---------\r\n\r\nSigned-off-by: Alex Goodman <alex.goodman@anchore.com>\r\nSigned-off-by: <>",
         "release_tag": "v0.80.0",
         "release_date": "2023-05-05 17:43:22",
         "release_message": "# Changelog\n\n## [v0.80.0](https://github.com/anchore/syft/tree/v0.80.0) (2023-05-05)\n\n[Full Changelog](https://github.com/anchore/syft/compare/v0.79.0...v0.80.0)\n\n### Added Features\n\n- Improve pnpm support [[Issue #1535](https://github.com/anchore/syft/issues/1535)] [[PR #1752](https://github.com/anchore/syft/pull/1752)] [[Shanedell](https://github.com/Shanedell)]\n\n### Bug Fixes\n\n- chore: add more detail on SPDX file IDs [[PR #1769](https://github.com/anchore/syft/pull/1769)] [[kzantow](https://github.com/kzantow)]\n- chore: do not HTML escape PackageURLs [[PR #1782](https://github.com/anchore/syft/pull/1782)] [[kzantow](https://github.com/kzantow)]\n- RPM database not found on ostree-managed systems [[Issue #1755](https://github.com/anchore/syft/issues/1755)] [[PR #1756](https://github.com/anchore/syft/pull/1756)] [[fpytloun](https://github.com/fpytloun)]\n- Unable to use syft for private azure container registry [[Issue #1777](https://github.com/anchore/syft/issues/1777)]\n- linux-kernel-cataloger produces thousands of version-less components.  [[Issue #1781](https://github.com/anchore/syft/issues/1781)] [[PR #1784](https://github.com/anchore/syft/pull/1784)] [[kzantow](https://github.com/kzantow)]\n\n### Deprecated Features\n\n- Rename pkg.Catalog to pkg.Collection [[PR #1764](https://github.com/anchore/syft/pull/1764)] [[wagoodman](https://github.com/wagoodman)]\n\n\n\n"
@@ -3978,8 +3978,8 @@
     "https://github.com/anchore/grype": {
         "created_at": "2020-05-26 13:44:38",
         "description": "A vulnerability scanner for container images and filesystems",
-        "commit_date": "2023-05-17 13:45:58",
-        "commit_message": "chore(deps): bump github.com/cloudflare/circl from 1.1.0 to 1.3.3 (#1289)",
+        "commit_date": "2023-05-19 15:41:10",
+        "commit_message": "chore(deps): bump github.com/docker/docker (#1304)\n\nBumps [github.com/docker/docker](https://github.com/docker/docker) from 23.0.6+incompatible to 24.0.0+incompatible.\r\n- [Release notes](https://github.com/docker/docker/releases)\r\n- [Commits](https://github.com/docker/docker/compare/v23.0.6...v24.0.0)\r\n\r\n---\r\nupdated-dependencies:\r\n- dependency-name: github.com/docker/docker\r\n  dependency-type: direct:production\r\n  update-type: version-update:semver-major\r\n...\r\n\r\nSigned-off-by: dependabot[bot] <support@github.com>\r\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
         "release_tag": "v0.61.1",
         "release_date": "2023-04-21 17:14:17",
         "release_message": "# Changelog\n\n## [v0.61.1](https://github.com/anchore/grype/tree/v0.61.1) (2023-04-21)\n\n[Full Changelog](https://github.com/anchore/grype/compare/v0.61.0...v0.61.1)\n\n### Bug Fixes\n\n- :grey_question: Parsing dpkg status: extracting key-value from line:  usr/lib/os-release err: cannot parse field [[Issue #1195](https://github.com/anchore/grype/issues/1195)]\n- Grype suggesting to upgrade to a version already used.  [[Issue #1209](https://github.com/anchore/grype/issues/1209)]\n\n### Additional Changes\n\n- feat: add timestamp to json output (#1170) [[PR #1249](https://github.com/anchore/grype/pull/1249)] [[jneate](https://github.com/jneate)]\n\n\n\n"
@@ -4275,7 +4275,7 @@
     "https://github.com/aiboboxx/v2rayfree": {
         "created_at": "2021-10-13 11:34:53",
         "description": "v2ray公益免费节点、最新2ray免费v节点订阅地址、v2ray免费节点每日更新、免费ss/v2ray/trojan节点、freefq ",
-        "commit_date": "2023-05-18 12:38:03",
+        "commit_date": "2023-05-19 12:35:53",
         "commit_message": "update",
         "release_tag": "",
         "release_date": "",
@@ -4320,8 +4320,8 @@
     "https://github.com/freefq/free": {
         "created_at": "2020-06-07 02:48:33",
         "description": "翻墙、免费翻墙、免费科学上网、免费节点、免费梯子、免费ss/v2ray/trojan节点、蓝灯、谷歌商店、翻墙梯子",
-        "commit_date": "2023-05-19 00:00:02",
-        "commit_message": "updated_at 05-19 08:00",
+        "commit_date": "2023-05-20 00:00:02",
+        "commit_message": "updated_at 05-20 08:00",
         "release_tag": "",
         "release_date": "",
         "release_message": ""

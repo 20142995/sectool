@@ -1,13 +1,14 @@
-# 更新于 2023-05-19 08:43:15
+# 更新于 2023-05-20 08:42:46
 
 ## 近15天release更新记录
 | 更新时间 | 项目名称 | 版本 | 更新内容 |
 | :---- | :---- | :---- | :---- |
+|2023-05-19 10:47:25|[super-xray](https://github.com/4ra1n/super-xray)|1.7|## 1.7    更新内容：  1. 服务扫描模块<br>加入了Weblogic IIOP扫描（参考README最下<br>方）   2. 在Windows中选择xray时设置EXE<br>后缀，在文件较多时提高效率   3. 选择本<br>地POC时，设置YML和YAML过滤，在文件较多<br>时提高效率   4. 选择URL列表文件时设置TX<br>T过滤，在文件较多时提高效率   5. 删除<br>自带小游戏部分，这部分功能没有必要   6.<br> 高级设置部分的代理应该添加提示避免被<br>当成被动代理   7. 更新SnakeYAML和Log4j2<br>依赖，虽然不存在漏洞还是更一下   8. 更<br>新默认POC列表内容，新版本增加了一些POC <br>  9. XRAY和RAD下载面板加入官方链接，镜<br>像站不支持新版本了   10. 更新一些版本信<br>息    下载：  - super-xray-1.7.jar 版本<br>通过java -jar super-xray-1.7.jar启动  -<br> super-xray-1.7-jre-exe.zip 是内置了JR<br>E的exe版本  - super-xray-1.7-system-jr<br>e.exe 是使用系统JRE的exe版本|
+|2023-05-19 08:55:39|[DNSlog-GO](https://github.com/lanyi1998/DNSlog-GO)|2023051<br>9||
 |2023-05-18 13:02:23|[safeline](https://github.com/chaitin/safeline)|v1.5.1|## 优化    - 修复了 1.5.0 的问题：自<br>定义规则切换白名单之后，无法创建/编辑的<br>问题    **注意：低版本升级请执行 upgrad<br>e.sh 脚本**|
 |2023-05-18 07:43:29|[kube-bench](https://github.com/aquasecurity/kube-bench)|v0.6.14|## Changelog * 968ee58 replace with c<br>onstant (#1445)  |
 |2023-05-18 06:49:12|[xray](https://github.com/chaitin/xray)|1.9.11|### 版本介绍    该版本为 用友NC NCMes<br>sageServlet反序列化漏洞 注入漏洞 的应<br>急版本，相较上个版本，除了添加了一个POC<br>外，未改动其他内容。    ### 更新内容   <br> 想要检测该漏洞的师傅，可以使用    ./x<br>ray ws --poc poc-yaml-yongyou-nc-ncmes<br>sageservlet-rce --url http://example.c<br>om    进行检测。    相关参考链接：|
 |2023-05-18 03:27:00|[ARL](https://github.com/TophantTechnology/ARL)|v2.5.5|  1. 修复 nuclei 误报 CVE-2022-45362 <br>问题 #559 #535  2. 修复数据源 quake_360<br> 查询错误问题  @原来是老王  3. 删除数<br>据源 threatminer (不可访问了)  4. 过滤<br>无效状态码 410, 减少无用数据入库  |
-|2023-05-17 08:37:40|[DNSlog-GO](https://github.com/lanyi1998/DNSlog-GO)|2023051<br>7||
 |2023-05-17 06:06:06|[autoDecoder](https://github.com/f0ng/autoDecoder)|0.26|## 2023.5.17 更新0.26  1. 修复了勾选<br>对请求头处理后，请求头缺失问题  2. 增加<br>对密文URL解码读取、加密后的密文URL解码<br>选项  3. 修复其他问题，如指定域名端口号<br>不出现扩展选项卡、windows下中文解密乱码<br>等问题    感谢微信群yosel 师傅反馈|
 |2023-05-17 03:26:56|[ENScan_GO](https://github.com/wgpsec/ENScan_GO)|0.0.11|修复企查查签名错误提示|
 |2023-05-16 16:40:02|[faker](https://github.com/joke2k/faker)|v18.9.0|See .|
@@ -29,30 +30,32 @@
 |2023-05-06 12:11:03|[Viper](https://github.com/FunnyWolf/Viper)|v1.5.28|## v1.5.28 20230506  ### 新功能  - 新<br>增只显示Session功能(首页和网络拓扑更简<br>洁)  - 面向互联网的handler被扫描(网络测<br>绘)时会在Notice提示  ### 优化  - 合并me<br>tasploit-framework 6.3.16版本  ### Bug<br>fix  - 修复无法修改包含中文内容的文件<br>问题  - 修复文件管理无法上传文件问题|
 |2023-05-05 17:43:22|[syft](https://github.com/anchore/syft)|v0.80.0|# Changelog  ##  (2023-05-05)    ### <br>Added Features  - Improve pnpm support<br> ] ] ]  ### Bug Fixes  - chore: add mo<br>re detail on SPDX file IDs ] ] - chore<br>: do not HTML escape PackageURLs ] ] -<br> RPM database not found on ostree-mana<br>ged systems ] ] ] - Unable to use syft<br> for private azure container registry <br>] - linux-kernel-cataloger produces th<br>ousands of version-less components.  ]<br> ] ]  ### Deprecated Features  - Renam<br>e pkg.Catalog to pkg.Collection ] ]   <br> |
 |2023-05-05 13:08:55|[WeblogicTool](https://github.com/KimJun1010/WeblogicTool)|v1.1|更新记录  - 修复多个小bug  - 增加自定<br>义超时时间功能  - 增加 CVE-2023-21931 J<br>NDI漏洞 |
-|2023-05-04 06:43:35|[AsamF](https://github.com/Kento-Sec/AsamF)|v0.1.13|v0.1.13    大大提升了zoomeye、quake的<br>查询速度。|
 ## 近15天commit提交记录
 | 提交时间 | 项目名称 | 更新内容 |
 | :---- | :---- | :---- |
-|2023-05-19 00:30:18|[NucleiTP](https://github.com/ExpLangcn/NucleiTP)|更新啦❤️|
-|2023-05-19 00:00:02|[free](https://github.com/freefq/free)|updated_at 05-19 08:00|
-|2023-05-18 23:18:18|[PocOrExp_in_Githu<br>b](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-05-19 07:18:18|
+|2023-05-20 00:30:16|[NucleiTP](https://github.com/ExpLangcn/NucleiTP)|更新啦❤️|
+|2023-05-20 00:00:02|[free](https://github.com/freefq/free)|updated_at 05-20 08:00|
+|2023-05-19 22:18:22|[PocOrExp_in_Githu<br>b](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-05-20 06:18:22|
+|2023-05-19 16:41:10|[dirsearch](https://github.com/maurosoria/dirsearch)|Merge pull request #1300 from mxcezl/patch-1  Allow<br> dirseach to find endpoints exposing jwks files|
+|2023-05-19 15:41:10|[grype](https://github.com/anchore/grype)|chore(deps): bump github.com/docker/docker (#1304) <br> Bumps  from 23.0.6+incompatible to 24.0.0+incompati<br>ble.  -   -     ---  updated-dependencies:  - depend<br>ency-name: github.com/docker/docker    dependency-ty<br>pe: direct:production    update-type: version-update<br>:semver-major  ...    Signed-off-by: dependabot[bot]<br>   Co-authored-by: dependabot[bot] |
+|2023-05-19 14:49:43|[afrog](https://github.com/zan8in/afrog)|add shiro|
+|2023-05-19 14:21:10|[syft](https://github.com/anchore/syft)|Keep original FileInfo persisted on file.Metadata s<br>tructs (#1794)  * pull in fileinfo changes from ster<br>eoscope #172    Signed-off-by: Alex Goodman     * fi<br>x CLI test assumption about the docker daemon    Sig<br>ned-off-by: Alex Goodman     ---------    Signed-off<br>-by: Alex Goodman   Signed-off-by: <>|
+|2023-05-19 12:35:53|[v2rayfree](https://github.com/aiboboxx/v2rayfree)|update|
+|2023-05-19 11:02:17|[super-xray](https://github.com/4ra1n/super-xray)|code|
+|2023-05-19 10:29:47|[dbeaver](https://github.com/dbeaver/dbeaver)|dbeaver/pro#1627 fix connection configuration readi<br>ng for the connection page (#20016)|
+|2023-05-19 08:51:11|[DNSlog-GO](https://github.com/lanyi1998/DNSlog-GO)|Merge pull request #23 from testwill/master  代码优<br>化依赖库更新|
+|2023-05-19 01:51:35|[Some-PoC-oR-ExP](https://github.com/coffeehb/Some-PoC-oR-ExP)|Create readme.md|
+|2023-05-19 01:19:52|[neuvector](https://github.com/neuvector/neuvector)|NVSHAS-6241: Add grpc interface for scan adapter (#<br>824)  * NVSHAS-7864: Add timeout when dialing syslog<br> server    * NVSHAS-7907: Add debug flag for interac<br>tive scan    * NVSHAS-7931: Correct kubernetes 4.2.1<br> check    * NVSHAS-6241: Add grpc interface for scan<br> adapter|
 |2023-05-18 19:41:22|[trivy](https://github.com/aquasecurity/trivy)|test: k8s integration tests (#4423)  Signed-off-by:<br> chenk   Co-authored-by: knqyf263 |
-|2023-05-18 17:58:38|[dbeaver](https://github.com/dbeaver/dbeaver)|CB-3501 do not escape schema name in create queries<br> (#20010)|
 |2023-05-18 17:57:56|[clair](https://github.com/quay/clair)|build(deps): bump golang.org/x/sync from 0.1.0 to 0<br>.2.0  Bumps  from 0.1.0 to 0.2.0. -   --- updated-de<br>pendencies: - dependency-name: golang.org/x/sync   d<br>ependency-type: direct:production   update-type: ver<br>sion-update:semver-minor ...  Signed-off-by: dependa<br>bot[bot] |
-|2023-05-18 16:44:33|[neuvector](https://github.com/neuvector/neuvector)|NVSHAS-7931: Correct kubernetes 4.2.1 check|
 |2023-05-18 12:50:27|[safeline](https://github.com/chaitin/safeline)|feat: release v1.5.1|
-|2023-05-18 12:38:03|[v2rayfree](https://github.com/aiboboxx/v2rayfree)|update|
 |2023-05-18 09:00:28|[domain_hunter_pro](https://github.com/bit4woo/domain_hunter_pro)|update|
 |2023-05-18 08:20:09|[murphysec](https://github.com/murphysecurity/murphysec)|chore(deps): Upgrade tons of dependencies...|
 |2023-05-18 08:17:49|[veinmind-tools](https://github.com/chaitin/veinmind-tools)|Merge pull request #241 from ek1ng/master  fix(plug<br>ins): fix mysql8 weakpass|
 |2023-05-18 07:32:39|[kube-bench](https://github.com/aquasecurity/kube-bench)|release: prepare v0.6.14 (#1446)  Signed-off-by: ch<br>enk |
 |2023-05-18 02:32:51|[ARL](https://github.com/TophantTechnology/ARL)|Merge pull request #564 from TophantTechnology/fix/<br>action  update action|
-|2023-05-17 18:34:27|[syft](https://github.com/anchore/syft)|chore(deps): bump github.com/google/go-containerreg<br>istry (#1823)  Bumps  from 0.15.1 to 0.15.2.  -   - <br>  -     ---  updated-dependencies:  - dependency-nam<br>e: github.com/google/go-containerregistry    depende<br>ncy-type: direct:production    update-type: version-<br>update:semver-patch  ...    Signed-off-by: dependabo<br>t[bot]   Co-authored-by: dependabot[bot] |
 |2023-05-17 16:21:11|[GobypassAV-shellc<br>ode](https://github.com/Pizz33/GobypassAV-shellcode)|Update README.md|
-|2023-05-17 13:45:58|[grype](https://github.com/anchore/grype)|chore(deps): bump github.com/cloudflare/circl from <br>1.1.0 to 1.3.3 (#1289)|
-|2023-05-17 11:43:10|[afrog](https://github.com/zan8in/afrog)|update|
 |2023-05-17 09:57:12|[Antenna](https://github.com/wuba/Antenna)|Merge pull request #121 from wuba/develop  Develop|
-|2023-05-17 08:36:27|[DNSlog-GO](https://github.com/lanyi1998/DNSlog-GO)|docs:update images|
 |2023-05-17 06:05:21|[autoDecoder](https://github.com/f0ng/autoDecoder)|Add files via upload  0.26 code|
 |2023-05-17 03:16:02|[ENScan_GO](https://github.com/wgpsec/ENScan_GO)|修正提示|
 |2023-05-16 16:38:32|[faker](https://github.com/joke2k/faker)|Bump version: 18.8.0 → 18.9.0|
@@ -94,12 +97,7 @@
 |2023-05-05 14:42:22|[nemo_go](https://github.com/hanc00l/nemo_go)|Update: goby api request|
 |2023-05-05 09:39:23|[NextScan](https://github.com/tongcheng-security-team/NextScan)|添加群聊|
 |2023-05-05 09:15:19|[fshzqSearch](https://github.com/Ifory885/fshzqSearch)|修复保存文件夹不存在报错问题|
-|2023-05-05 06:04:26|[AsamF](https://github.com/Kento-Sec/AsamF)|Update README.md|
-|2023-05-04 20:18:18|[RsaCtfTool](https://github.com/RsaCtfTool/RsaCtfTool)|Update README.md|
-|2023-05-04 06:32:29|[Vulnerability-Wik<br>i](https://github.com/Threekiii/Vulnerability-Wiki)|更新漏洞|
-|2023-05-04 06:26:06|[Awesome-POC](https://github.com/Threekiii/Awesome-POC)|更新漏洞|
-|2023-05-04 06:05:40|[Vulhub-Reproduce](https://github.com/Threekiii/Vulhub-Reproduce)|更新漏洞|
-|2023-05-04 03:08:55|[ysomap](https://github.com/wh1t3p1g/ysomap)|update|## 所有项目
+|2023-05-05 06:04:26|[AsamF](https://github.com/Kento-Sec/AsamF)|Update README.md|## 所有项目
 # 渗透测试
 ## 信息收集
 ### 资产测绘采集
@@ -381,7 +379,7 @@
 | [ysoserial](https://github.com/frohoff/ysoserial) | v0.0.6 | A proof-of-concept tool for generating payloads that exploit u<br>nsafe Java object deserialization. |
 | [Gopherus](https://github.com/tarunkant/Gopherus) |  | This tool generates gopher link for exploiting SSRF and gainin<br>g RCE in various servers |
 | [revsuit](https://github.com/Li4n0/revsuit) | v0.6.0 | RevSuit is a flexible and powerful reverse connection platform<br> designed for receiving connection from target host in penetrat<br>ion.  |
-| [DNSlog-GO](https://github.com/lanyi1998/DNSlog-GO) | 2023051<br>7 | DNSLog-GO 是一款golang编写的监控 DNS 解析记录的工具，自带WEB界<br>面 |
+| [DNSlog-GO](https://github.com/lanyi1998/DNSlog-GO) | 2023051<br>9 | DNSLog-GO 是一款golang编写的监控 DNS 解析记录的工具，自带WEB界<br>面 |
 | [godnslog](https://github.com/chennqqi/godnslog) | v0.7.0 | An exquisite dns&http log server for verify SSRF/XXE/RFI/RCE v<br>ulnerability  |
 | [ysomap](https://github.com/wh1t3p1g/ysomap) | v0.1.3 | A helpful Java Deserialization exploit framework. |
 | [Antenna](https://github.com/wuba/Antenna) | v1.3.5 | Antenna是58同城安全团队打造的一款辅助安全从业人员验证网络中多<br>种漏洞是否存在以及可利用性的工具。其基于带外应用安全测试(OAST)通<br>过任务的形式，将不同漏洞场景检测能力通过插件的形式进行集合，通过<br>与目标进行out-bind的数据通信方式进行辅助检测。 |
@@ -701,7 +699,7 @@
 | :---- | :---- | :---- |
 | [yarx](https://github.com/zema1/yarx) | v0.2.0 | An awesome reverse engine for xray poc. | 一个自动化根据 xray <br>poc 生成对应靶站的工具 |
 | [xray-poc-generati<br>on](https://github.com/phith0n/xray-poc-generation) |  | 🧬 辅助生成 XRay YAML POC |
-| [super-xray](https://github.com/4ra1n/super-xray) | 1.6 | Web漏洞扫描工具XRAY的GUI启动器 (Web Vulnerability Scanner GUI <br>Starter) |
+| [super-xray](https://github.com/4ra1n/super-xray) | 1.7 | Web漏洞扫描工具XRAY的GUI启动器 |
 | [Xray_Cracked](https://github.com/NHPT/Xray_Cracked) | v1.9.8 | Update Xray1.9.8 Cracked for Windows,Linux and Mac OS. |
 ### pocsuite3
 | 项目名称 | 版本 | 项目描述 |
