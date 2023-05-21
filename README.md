@@ -1,8 +1,9 @@
-# 更新于 2023-05-20 08:42:46
+# 更新于 2023-05-21 08:43:37
 
 ## 近15天release更新记录
 | 更新时间 | 项目名称 | 版本 | 更新内容 |
 | :---- | :---- | :---- | :---- |
+|2023-05-20 08:21:42|[NextScan](https://github.com/tongcheng-security-team/NextScan)|v1.1.1|##### v1.1.1发布    ## Changelog  * <br>功能优化: 添加本地字典上传功能  * 功能<br>优化: 添加漏洞批量处理功能  * 修复配置<br>获取没有授权认证问题  * 修复下载后插件<br>无法使用问题  |
 |2023-05-19 10:47:25|[super-xray](https://github.com/4ra1n/super-xray)|1.7|## 1.7    更新内容：  1. 服务扫描模块<br>加入了Weblogic IIOP扫描（参考README最下<br>方）   2. 在Windows中选择xray时设置EXE<br>后缀，在文件较多时提高效率   3. 选择本<br>地POC时，设置YML和YAML过滤，在文件较多<br>时提高效率   4. 选择URL列表文件时设置TX<br>T过滤，在文件较多时提高效率   5. 删除<br>自带小游戏部分，这部分功能没有必要   6.<br> 高级设置部分的代理应该添加提示避免被<br>当成被动代理   7. 更新SnakeYAML和Log4j2<br>依赖，虽然不存在漏洞还是更一下   8. 更<br>新默认POC列表内容，新版本增加了一些POC <br>  9. XRAY和RAD下载面板加入官方链接，镜<br>像站不支持新版本了   10. 更新一些版本信<br>息    下载：  - super-xray-1.7.jar 版本<br>通过java -jar super-xray-1.7.jar启动  -<br> super-xray-1.7-jre-exe.zip 是内置了JR<br>E的exe版本  - super-xray-1.7-system-jr<br>e.exe 是使用系统JRE的exe版本|
 |2023-05-19 08:55:39|[DNSlog-GO](https://github.com/lanyi1998/DNSlog-GO)|2023051<br>9||
 |2023-05-18 13:02:23|[safeline](https://github.com/chaitin/safeline)|v1.5.1|## 优化    - 修复了 1.5.0 的问题：自<br>定义规则切换白名单之后，无法创建/编辑的<br>问题    **注意：低版本升级请执行 upgrad<br>e.sh 脚本**|
@@ -28,31 +29,29 @@
 |2023-05-07 13:02:22|[Ladon](https://github.com/k8gege/Ladon)|v10.10.<br>5|### Ladon 10.10.5 20230505  [+]Hikvis<br>ionScan 海康威视 视频监控 密码爆破  [u<br>]INI插件  支持isok、isvul字段，当结果<br>出现对应特征字符串，回显ISVUL或ISOK  [u<br>]INI插件  支持$port$参数，超时还是改成<br>30秒  [+]CloseSMB  彻底禁用SMB服务-需<br>管理员权限(重启生效)  [+]DisService 彻<br>底禁用指定服务-需管理员权限  [+]StopSer<br>vice 停止指定服务-需管理员权限  [+]Ope<br>nTCP  防火墙放行指定TCP端口-需管理员权<br>限  [+]OpenUDP  防火墙放行指定UDP端口-<br>需管理员权限  [+]CloseTCP  防火墙拦截指<br>定TCP端口-需管理员权限  [+]CloseUDP  防<br>火墙拦截指定UDP端口-需管理员权限  [+]Hi<br>kvisionPoc  CVE-2017-7921 hikvision 海<br>康威视摄像头配置文件泄露 漏洞检测  [+]H<br>ikvisionDecode  CVE-2017-7921 hikvisio<br>n 海康威视摄像头配置文件解密 提取密码 <br> [u]sshcmd  CS版sshcmd更新SSH库支持高<br>版本SSH    ### 0x001 GodPotato提权  Lad<br>on GodPotato whoami  支持: Win8-Win11/<br>Win2012-2022服务提权至SYSTEM      ### <br>0x002 hikvision 海康威视 CVE-2017-7921<br>漏洞检测    Ladon 192.168.1.8/24 Hikvis<br>ionPoc  Ladon http://192.168.1.8:8080 <br>HikvisionPoc  Ladon url.txt HikvisionP<br>oc          ### 0x003 hikvision 海康威<br>视 密码审计    Ladon 192.168.1.8/24 Hik<br>visionScan  Ladon http://192.168.1.8:8<br>080 HikvisionScan  Ladon url.txt Hikvi<br>sionScan        详细功能用法，请查看公<br>众号或博客  |
 |2023-05-06 13:19:20|[feroxbuster](https://github.com/epi052/feroxbuster)|v2.10.0|## What's Changed  * Adds server and <br>client certificate management; enables<br> mTLS by @lavafroth in https://github.<br>com/epi052/feroxbuster/pull/892      *<br> --server-certs      * --client-cert  <br>    * --client-key     ## New Contribu<br>tors  * @lavafroth made their first co<br>ntribution in https://github.com/epi05<br>2/feroxbuster/pull/892 :tada:     **Fu<br>ll Changelog**: https://github.com/epi<br>052/feroxbuster/compare/v2.9.5...v2.10<br>.0|
 |2023-05-06 12:11:03|[Viper](https://github.com/FunnyWolf/Viper)|v1.5.28|## v1.5.28 20230506  ### 新功能  - 新<br>增只显示Session功能(首页和网络拓扑更简<br>洁)  - 面向互联网的handler被扫描(网络测<br>绘)时会在Notice提示  ### 优化  - 合并me<br>tasploit-framework 6.3.16版本  ### Bug<br>fix  - 修复无法修改包含中文内容的文件<br>问题  - 修复文件管理无法上传文件问题|
-|2023-05-05 17:43:22|[syft](https://github.com/anchore/syft)|v0.80.0|# Changelog  ##  (2023-05-05)    ### <br>Added Features  - Improve pnpm support<br> ] ] ]  ### Bug Fixes  - chore: add mo<br>re detail on SPDX file IDs ] ] - chore<br>: do not HTML escape PackageURLs ] ] -<br> RPM database not found on ostree-mana<br>ged systems ] ] ] - Unable to use syft<br> for private azure container registry <br>] - linux-kernel-cataloger produces th<br>ousands of version-less components.  ]<br> ] ]  ### Deprecated Features  - Renam<br>e pkg.Catalog to pkg.Collection ] ]   <br> |
-|2023-05-05 13:08:55|[WeblogicTool](https://github.com/KimJun1010/WeblogicTool)|v1.1|更新记录  - 修复多个小bug  - 增加自定<br>义超时时间功能  - 增加 CVE-2023-21931 J<br>NDI漏洞 |
 ## 近15天commit提交记录
 | 提交时间 | 项目名称 | 更新内容 |
 | :---- | :---- | :---- |
-|2023-05-20 00:30:16|[NucleiTP](https://github.com/ExpLangcn/NucleiTP)|更新啦❤️|
-|2023-05-20 00:00:02|[free](https://github.com/freefq/free)|updated_at 05-20 08:00|
-|2023-05-19 22:18:22|[PocOrExp_in_Githu<br>b](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-05-20 06:18:22|
+|2023-05-21 00:30:20|[NucleiTP](https://github.com/ExpLangcn/NucleiTP)|更新啦❤️|
+|2023-05-21 00:00:02|[free](https://github.com/freefq/free)|updated_at 05-21 08:00|
+|2023-05-20 22:18:21|[PocOrExp_in_Githu<br>b](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-05-21 06:18:21|
+|2023-05-20 19:06:04|[dbeaver](https://github.com/dbeaver/dbeaver)|Update README.md|
+|2023-05-20 15:45:31|[kube-bench](https://github.com/aquasecurity/kube-bench)|build(deps): bump github.com/aws/aws-sdk-go-v2 from<br> 1.17.6 to 1.18.0 (#1433)  Bumps  from 1.17.6 to 1.1<br>8.0.  -   -   -     ---  updated-dependencies:  - de<br>pendency-name: github.com/aws/aws-sdk-go-v2    depen<br>dency-type: direct:production    update-type: versio<br>n-update:semver-minor  ...    Signed-off-by: dependa<br>bot[bot]   Co-authored-by: dependabot[bot]   Co-auth<br>ored-by: chenk |
+|2023-05-20 13:08:25|[afrog](https://github.com/zan8in/afrog)|update|
+|2023-05-20 12:34:19|[v2rayfree](https://github.com/aiboboxx/v2rayfree)|update|
+|2023-05-20 04:12:50|[neuvector](https://github.com/neuvector/neuvector)|Merge pull request #825 from williamlin-suse/main  <br>NVSHAS-7911: should report non-zero node count if th<br>e support config is downloaded from managed cluster <br>in non-k8s setup|
 |2023-05-19 16:41:10|[dirsearch](https://github.com/maurosoria/dirsearch)|Merge pull request #1300 from mxcezl/patch-1  Allow<br> dirseach to find endpoints exposing jwks files|
 |2023-05-19 15:41:10|[grype](https://github.com/anchore/grype)|chore(deps): bump github.com/docker/docker (#1304) <br> Bumps  from 23.0.6+incompatible to 24.0.0+incompati<br>ble.  -   -     ---  updated-dependencies:  - depend<br>ency-name: github.com/docker/docker    dependency-ty<br>pe: direct:production    update-type: version-update<br>:semver-major  ...    Signed-off-by: dependabot[bot]<br>   Co-authored-by: dependabot[bot] |
-|2023-05-19 14:49:43|[afrog](https://github.com/zan8in/afrog)|add shiro|
 |2023-05-19 14:21:10|[syft](https://github.com/anchore/syft)|Keep original FileInfo persisted on file.Metadata s<br>tructs (#1794)  * pull in fileinfo changes from ster<br>eoscope #172    Signed-off-by: Alex Goodman     * fi<br>x CLI test assumption about the docker daemon    Sig<br>ned-off-by: Alex Goodman     ---------    Signed-off<br>-by: Alex Goodman   Signed-off-by: <>|
-|2023-05-19 12:35:53|[v2rayfree](https://github.com/aiboboxx/v2rayfree)|update|
 |2023-05-19 11:02:17|[super-xray](https://github.com/4ra1n/super-xray)|code|
-|2023-05-19 10:29:47|[dbeaver](https://github.com/dbeaver/dbeaver)|dbeaver/pro#1627 fix connection configuration readi<br>ng for the connection page (#20016)|
 |2023-05-19 08:51:11|[DNSlog-GO](https://github.com/lanyi1998/DNSlog-GO)|Merge pull request #23 from testwill/master  代码优<br>化依赖库更新|
 |2023-05-19 01:51:35|[Some-PoC-oR-ExP](https://github.com/coffeehb/Some-PoC-oR-ExP)|Create readme.md|
-|2023-05-19 01:19:52|[neuvector](https://github.com/neuvector/neuvector)|NVSHAS-6241: Add grpc interface for scan adapter (#<br>824)  * NVSHAS-7864: Add timeout when dialing syslog<br> server    * NVSHAS-7907: Add debug flag for interac<br>tive scan    * NVSHAS-7931: Correct kubernetes 4.2.1<br> check    * NVSHAS-6241: Add grpc interface for scan<br> adapter|
 |2023-05-18 19:41:22|[trivy](https://github.com/aquasecurity/trivy)|test: k8s integration tests (#4423)  Signed-off-by:<br> chenk   Co-authored-by: knqyf263 |
 |2023-05-18 17:57:56|[clair](https://github.com/quay/clair)|build(deps): bump golang.org/x/sync from 0.1.0 to 0<br>.2.0  Bumps  from 0.1.0 to 0.2.0. -   --- updated-de<br>pendencies: - dependency-name: golang.org/x/sync   d<br>ependency-type: direct:production   update-type: ver<br>sion-update:semver-minor ...  Signed-off-by: dependa<br>bot[bot] |
 |2023-05-18 12:50:27|[safeline](https://github.com/chaitin/safeline)|feat: release v1.5.1|
 |2023-05-18 09:00:28|[domain_hunter_pro](https://github.com/bit4woo/domain_hunter_pro)|update|
 |2023-05-18 08:20:09|[murphysec](https://github.com/murphysecurity/murphysec)|chore(deps): Upgrade tons of dependencies...|
 |2023-05-18 08:17:49|[veinmind-tools](https://github.com/chaitin/veinmind-tools)|Merge pull request #241 from ek1ng/master  fix(plug<br>ins): fix mysql8 weakpass|
-|2023-05-18 07:32:39|[kube-bench](https://github.com/aquasecurity/kube-bench)|release: prepare v0.6.14 (#1446)  Signed-off-by: ch<br>enk |
 |2023-05-18 02:32:51|[ARL](https://github.com/TophantTechnology/ARL)|Merge pull request #564 from TophantTechnology/fix/<br>action  update action|
 |2023-05-17 16:21:11|[GobypassAV-shellc<br>ode](https://github.com/Pizz33/GobypassAV-shellcode)|Update README.md|
 |2023-05-17 09:57:12|[Antenna](https://github.com/wuba/Antenna)|Merge pull request #121 from wuba/develop  Develop|
@@ -93,11 +92,7 @@
 |2023-05-06 12:10:05|[Viper](https://github.com/FunnyWolf/Viper)|update version v1.5.28|
 |2023-05-06 11:47:16|[feroxbuster](https://github.com/epi052/feroxbuster)|Merge pull request #898 from epi052/all-contributor<br>s/add-AkechiShiro  docs: add AkechiShiro as a contri<br>butor for ideas|
 |2023-05-06 09:52:47|[APTRS](https://github.com/Anof-cyber/APTRS)|Update README.md|
-|2023-05-06 01:38:30|[Awesome-Redteam](https://github.com/Threekiii/Awesome-Redteam)|更新README.md|
-|2023-05-05 14:42:22|[nemo_go](https://github.com/hanc00l/nemo_go)|Update: goby api request|
-|2023-05-05 09:39:23|[NextScan](https://github.com/tongcheng-security-team/NextScan)|添加群聊|
-|2023-05-05 09:15:19|[fshzqSearch](https://github.com/Ifory885/fshzqSearch)|修复保存文件夹不存在报错问题|
-|2023-05-05 06:04:26|[AsamF](https://github.com/Kento-Sec/AsamF)|Update README.md|## 所有项目
+|2023-05-06 01:38:30|[Awesome-Redteam](https://github.com/Threekiii/Awesome-Redteam)|更新README.md|## 所有项目
 # 渗透测试
 ## 信息收集
 ### 资产测绘采集
@@ -248,7 +243,7 @@
 | [POC-bomber](https://github.com/tr0uble-mAker/POC-bomber) | v2.0.2-<br>POC-bomb<br>er | 利用大量高威胁poc/exp快速获取目标权限，用于渗透和红队快速打点 |
 | [QingTing](https://github.com/StarCrossPortal/QingTing) | v0.3 | 蜻蜓安全一个安全工具编排平台,可以自由编排你的工具流,集成108款<br>工具,包括xray、nmap、awvs等;你可以将喜欢的工具编排成一个场景，快<br>速打造适合自己的安全工作台~ |
 | [myscan](https://github.com/amcai/myscan) |  | myscan  被动扫描 |
-| [NextScan](https://github.com/tongcheng-security-team/NextScan) | v1.1.0 | 飞刃是一套完整的企业级黑盒漏洞扫描系统，集成漏洞扫描、漏洞管理<br>、扫描资产、爬虫等服务。 拥有强大的漏洞检测引擎和丰富的插件库，<br>覆盖多种漏洞类型和应用程序框架。 |
+| [NextScan](https://github.com/tongcheng-security-team/NextScan) | v1.1.1 | 飞刃是一套完整的企业级黑盒漏洞扫描系统，集成漏洞扫描、漏洞管理<br>、扫描资产、爬虫等服务。 拥有强大的漏洞检测引擎和丰富的插件库，<br>覆盖多种漏洞类型和应用程序框架。 |
 ### 中间件&框架漏洞扫描
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |

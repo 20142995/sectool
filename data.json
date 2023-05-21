@@ -200,8 +200,8 @@
     "https://github.com/ycdxsb/PocOrExp_in_Github": {
         "created_at": "2021-04-13 05:46:16",
         "description": "聚合Github上已有的Poc或者Exp，CVE信息来自CVE官网。Auto Collect Poc Or Exp from Github by CVE ID.",
-        "commit_date": "2023-05-19 22:18:22",
-        "commit_message": "update 2023-05-20 06:18:22",
+        "commit_date": "2023-05-20 22:18:21",
+        "commit_message": "update 2023-05-21 06:18:21",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -461,7 +461,7 @@
     "https://github.com/ExpLangcn/NucleiTP": {
         "created_at": "2022-11-08 13:16:56",
         "description": "自动整合全网Nuclei的漏洞POC，实时同步更新最新POC！",
-        "commit_date": "2023-05-20 00:30:16",
+        "commit_date": "2023-05-21 00:30:20",
         "commit_message": "更新啦❤️",
         "release_tag": "",
         "release_date": "",
@@ -2951,8 +2951,8 @@
     "https://github.com/dbeaver/dbeaver": {
         "created_at": "2015-10-21 08:26:28",
         "description": "Free universal database tool and SQL client",
-        "commit_date": "2023-05-19 10:29:47",
-        "commit_message": "dbeaver/pro#1627 fix connection configuration reading for the connection page (#20016)",
+        "commit_date": "2023-05-20 19:06:04",
+        "commit_message": "Update README.md",
         "release_tag": "23.0.4",
         "release_date": "2023-05-07 18:00:03",
         "release_message": "\n                - Data Editor:\n                    - Bottom toolbar became customizable\n                    - Disconnected editors can be easily reconnected\n                    - Issue with Ctrl+1 shortcut not working was fixed\n                - SQL Editor:\n                    - Issue with refresh button closing active resul tab was fixed\n                    - Issue with not correct dislaying of \\r\\n sequence was fixed\n                    - Issue when generating the same UUID for all rows was fixed (thanks to @SiyaoIsHiding)\n                - Data Transfer:\n                    - Ability to change the target column type on import to BIGINT was added\n                    - Export from query to CSV was fixed\n                - Git: Missing git buttons and menus were added on macOS (Apple Silicon)\n                - Databases:\n                    - ClickHouse: Catalog support was added\n                    - Informix: issue with extra spaces in table name was fixed\n                    - MySQL:\n                        - Event reading for quoted schemas was fixed\n                        - Time handling in MySQL was improved\n                    - Oracle:\n                        - Issue with parcing IF EXISTS statements was fixed\n                        - The display of DATE with additional settings in the Result Set was fixed\n                        - Inromation about latest statistics update was added\n                    - PostgreSQL:\n                        - Generation of ALTER table SQL for foreign tables was improved\n                        - Role settings were added in generated DDL\n                        - IDENTITY SEQUENCE were added in generated DDL\n                    - Snowflake: issue with incorrect import with BIGINT, INT, REAL, FLOAT, DOUBLE PRECISION, and DECIMAL data types was fixed\n                    - Trino: issue with import files with varchar data type was fixed\n                - Misc:\n                    - SalesForce driver was updated\n                    - ODBC connection error was fixed\n                    - Java native libraries were added to DBeaver installation directly to avoid app crash cased by system restrictions.\n                    - DBeaver started to collect user statistics. It is anonymous and optional\n            "
@@ -3050,8 +3050,8 @@
     "https://github.com/zan8in/afrog": {
         "created_at": "2022-02-24 06:00:32",
         "description": "A Security Tool for Bug Bounty, Pentest and Red Teaming.",
-        "commit_date": "2023-05-19 14:49:43",
-        "commit_message": "add shiro",
+        "commit_date": "2023-05-20 13:08:25",
+        "commit_message": "update",
         "release_tag": "v2.3.2",
         "release_date": "2023-05-14 02:29:25",
         "release_message": "**Add:**\r\n- The result will be written to the JSON file, but it will not include the request and response content.\r\n- Writes a JSON file including all vulnerability results.\r\n- The \"disable-output-html\" command can be used to prevent the automatic generation of an HTML report, and its priority is higher than the \"-o\" command.\r\n- PoC script info information adds three fields affected, solutions, and created\r\n\r\n**Optimization:**\r\n- Duplicated PoC removed: springboot-env-unauth\r\n- When performing an update operation, the -up command prompt is not friendly enough\r\n- Scan in order of increasing security risk level\r\n\r\n**新增：**\r\n- 使用命令参数 -json 或 -j，将漏洞结果写入 JSON 文件，不包括 request 和 response\r\n- 使用命令参数 -json-all 或 -ja，将漏洞结果写入 JSON 文件，包括 request 和 response\r\n- 使用 disable-output-html 命令可以禁止生成 HTML 报告，该命令的优先级高于 -o 命令。\r\n- PoC 脚本 info 信息增加 affected、solutions、created 三个字段\r\n\r\n**优化：**\r\n- 已移除重复的PoC: springboot-env-unauth\r\n- 执行更新操作时，-up 命令提示不够友好\r\n- 按照从低到高的安全风险级别顺序进行扫描\r\n- 优化 url.path 编码问题"
@@ -3879,8 +3879,8 @@
     "https://github.com/aquasecurity/kube-bench": {
         "created_at": "2017-06-19 13:27:02",
         "description": "Checks whether Kubernetes is deployed according to security best practices as defined in the CIS Kubernetes Benchmark",
-        "commit_date": "2023-05-18 07:32:39",
-        "commit_message": "release: prepare v0.6.14 (#1446)\n\nSigned-off-by: chenk <hen.keinan@gmail.com>",
+        "commit_date": "2023-05-20 15:45:31",
+        "commit_message": "build(deps): bump github.com/aws/aws-sdk-go-v2 from 1.17.6 to 1.18.0 (#1433)\n\nBumps [github.com/aws/aws-sdk-go-v2](https://github.com/aws/aws-sdk-go-v2) from 1.17.6 to 1.18.0.\r\n- [Release notes](https://github.com/aws/aws-sdk-go-v2/releases)\r\n- [Changelog](https://github.com/aws/aws-sdk-go-v2/blob/main/CHANGELOG.md)\r\n- [Commits](https://github.com/aws/aws-sdk-go-v2/compare/v1.17.6...v1.18.0)\r\n\r\n---\r\nupdated-dependencies:\r\n- dependency-name: github.com/aws/aws-sdk-go-v2\r\n  dependency-type: direct:production\r\n  update-type: version-update:semver-minor\r\n...\r\n\r\nSigned-off-by: dependabot[bot] <support@github.com>\r\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>\r\nCo-authored-by: chenk <hen.keinan@gmail.com>",
         "release_tag": "v0.6.14",
         "release_date": "2023-05-18 07:43:29",
         "release_message": "## Changelog\n* 968ee58 replace with constant (#1445)\n\n"
@@ -3888,8 +3888,8 @@
     "https://github.com/neuvector/neuvector": {
         "created_at": "2021-12-17 20:15:03",
         "description": "",
-        "commit_date": "2023-05-19 01:19:52",
-        "commit_message": "NVSHAS-6241: Add grpc interface for scan adapter (#824)\n\n* NVSHAS-7864: Add timeout when dialing syslog server\r\n\r\n* NVSHAS-7907: Add debug flag for interactive scan\r\n\r\n* NVSHAS-7931: Correct kubernetes 4.2.1 check\r\n\r\n* NVSHAS-6241: Add grpc interface for scan adapter",
+        "commit_date": "2023-05-20 04:12:50",
+        "commit_message": "Merge pull request #825 from williamlin-suse/main\n\nNVSHAS-7911: should report non-zero node count if the support config is downloaded from managed cluster in non-k8s setup",
         "release_tag": "v5.1.3",
         "release_date": "2023-05-09 18:16:30",
         "release_message": "Features:\r\nAdd new vulnerability feed for scanning Microsoft .NET framework\r\nEnforcer stats is disabled by default in Prometheus exporter to improve scalability\r\nUseability improvement: Using scanner to scan single image and print the result\r\nAdd imagePullPolicy check in admission control\r\n\r\n\r\nBug fixes:\r\nEmpty group auto-removal takes 2 hours to delete instead of 1 hour according to schedule\r\nCompliance profile doesn't show in UI console\r\n"
@@ -4142,9 +4142,9 @@
         "description": "飞刃是一套完整的企业级黑盒漏洞扫描系统，集成漏洞扫描、漏洞管理、扫描资产、爬虫等服务。 拥有强大的漏洞检测引擎和丰富的插件库，覆盖多种漏洞类型和应用程序框架。",
         "commit_date": "2023-05-05 09:39:23",
         "commit_message": "添加群聊",
-        "release_tag": "v1.1.0",
-        "release_date": "2023-04-24 06:21:47",
-        "release_message": "##### 首次发布\r\n\r\n## Changelog\r\n首次发布\r\n\r\n"
+        "release_tag": "v1.1.1",
+        "release_date": "2023-05-20 08:21:42",
+        "release_message": "##### v1.1.1发布\r\n\r\n## Changelog\r\n* 功能优化: 添加本地字典上传功能\r\n* 功能优化: 添加漏洞批量处理功能\r\n* 修复配置获取没有授权认证问题\r\n* 修复下载后插件无法使用问题\r\n"
     },
     "https://github.com/EZLippi/WebBench": {
         "created_at": "2015-04-13 04:45:47",
@@ -4275,7 +4275,7 @@
     "https://github.com/aiboboxx/v2rayfree": {
         "created_at": "2021-10-13 11:34:53",
         "description": "v2ray公益免费节点、最新2ray免费v节点订阅地址、v2ray免费节点每日更新、免费ss/v2ray/trojan节点、freefq ",
-        "commit_date": "2023-05-19 12:35:53",
+        "commit_date": "2023-05-20 12:34:19",
         "commit_message": "update",
         "release_tag": "",
         "release_date": "",
@@ -4320,8 +4320,8 @@
     "https://github.com/freefq/free": {
         "created_at": "2020-06-07 02:48:33",
         "description": "翻墙、免费翻墙、免费科学上网、免费节点、免费梯子、免费ss/v2ray/trojan节点、蓝灯、谷歌商店、翻墙梯子",
-        "commit_date": "2023-05-20 00:00:02",
-        "commit_message": "updated_at 05-20 08:00",
+        "commit_date": "2023-05-21 00:00:02",
+        "commit_message": "updated_at 05-21 08:00",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
