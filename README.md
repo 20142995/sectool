@@ -1,11 +1,13 @@
-# 更新于 2023-05-21 08:43:37
+# 更新于 2023-05-22 08:45:45
 
 ## 近15天release更新记录
 | 更新时间 | 项目名称 | 版本 | 更新内容 |
 | :---- | :---- | :---- | :---- |
+|2023-05-21 16:54:53|[dbeaver](https://github.com/dbeaver/dbeaver)|23.0.5|               - SQL Editor:         <br>          - Autocomplete for WHERE and<br> SELECT shows aliases with the aliased<br> table                   - Hovering in<br>formation for SQL errors and spelling <br>annotations was added                 <br>  - Variable and parameter names in th<br>e binding dialog are now displayed in <br>their original case                   <br>- Information about assigning a non-dy<br>namic variable was added to the bindin<br>g dialog                   - Issue wit<br>h incorrect icon for Execute SQL State<br>ment after opening Output tab was fixe<br>d                   - Query Manager: '<br>Restore Default' button behavior was i<br>mproved                   - Ability to<br> directly execute SQL scripts in nativ<br>e clients was added               - Da<br>ta transfer:                   - Abili<br>ty to trim string values when exportin<br>g to XLSX was added                   <br>- Handling of datetimeoffset was added<br>               - General UI:          <br>         - Part divider UI was redesig<br>ned                   - Option to incr<br>ease formatting time was added in Pref<br>erences                   - Issue with<br> closing pinned tabs using 'Close Tabs<br> to the Left' was fixed               <br>- Connectivity:                   - Is<br>sue with driver fallback not being upd<br>ated was fixed               - Databas<br>es:                   - ClickHouse: dr<br>iver was updated to 0.4.6 (thanks to @<br>zhicwu)                   - Databricks<br>: handling of data types without param<br>eters was added                   - Ha<br>na: comments handling was fixed       <br>            - MySQL: partitions are no<br>w supported                   - Oracle<br>: TNS import was fixed                <br>   - PostgreSQL:                      <br> - Issue with duplicate tables with ge<br>nerated columns in Database Navigator <br>was fixed                       - Erro<br>r message about line on the map create<br>d with a single point was added       <br>                - Schema refresh was f<br>ixed                   - SQLite: abili<br>ty to open ER Diagram in the Simple Vi<br>ew was added               - Localizat<br>ion:                  - German localiz<br>ation was improved (thanks to @hype11)<br>                 - Italian localizatio<br>n was improved (thanks to @Gnafu)     <br>        |
+|2023-05-21 14:52:26|[DNSlog-GO](https://github.com/lanyi1998/DNSlog-GO)|2023052<br>1||
+|2023-05-21 04:26:27|[PEASS-ng](https://github.com/carlospolop/PEASS-ng)|2023052<br>1-bc39a4<br>77||
 |2023-05-20 08:21:42|[NextScan](https://github.com/tongcheng-security-team/NextScan)|v1.1.1|##### v1.1.1发布    ## Changelog  * <br>功能优化: 添加本地字典上传功能  * 功能<br>优化: 添加漏洞批量处理功能  * 修复配置<br>获取没有授权认证问题  * 修复下载后插件<br>无法使用问题  |
 |2023-05-19 10:47:25|[super-xray](https://github.com/4ra1n/super-xray)|1.7|## 1.7    更新内容：  1. 服务扫描模块<br>加入了Weblogic IIOP扫描（参考README最下<br>方）   2. 在Windows中选择xray时设置EXE<br>后缀，在文件较多时提高效率   3. 选择本<br>地POC时，设置YML和YAML过滤，在文件较多<br>时提高效率   4. 选择URL列表文件时设置TX<br>T过滤，在文件较多时提高效率   5. 删除<br>自带小游戏部分，这部分功能没有必要   6.<br> 高级设置部分的代理应该添加提示避免被<br>当成被动代理   7. 更新SnakeYAML和Log4j2<br>依赖，虽然不存在漏洞还是更一下   8. 更<br>新默认POC列表内容，新版本增加了一些POC <br>  9. XRAY和RAD下载面板加入官方链接，镜<br>像站不支持新版本了   10. 更新一些版本信<br>息    下载：  - super-xray-1.7.jar 版本<br>通过java -jar super-xray-1.7.jar启动  -<br> super-xray-1.7-jre-exe.zip 是内置了JR<br>E的exe版本  - super-xray-1.7-system-jr<br>e.exe 是使用系统JRE的exe版本|
-|2023-05-19 08:55:39|[DNSlog-GO](https://github.com/lanyi1998/DNSlog-GO)|2023051<br>9||
 |2023-05-18 13:02:23|[safeline](https://github.com/chaitin/safeline)|v1.5.1|## 优化    - 修复了 1.5.0 的问题：自<br>定义规则切换白名单之后，无法创建/编辑的<br>问题    **注意：低版本升级请执行 upgrad<br>e.sh 脚本**|
 |2023-05-18 07:43:29|[kube-bench](https://github.com/aquasecurity/kube-bench)|v0.6.14|## Changelog * 968ee58 replace with c<br>onstant (#1445)  |
 |2023-05-18 06:49:12|[xray](https://github.com/chaitin/xray)|1.9.11|### 版本介绍    该版本为 用友NC NCMes<br>sageServlet反序列化漏洞 注入漏洞 的应<br>急版本，相较上个版本，除了添加了一个POC<br>外，未改动其他内容。    ### 更新内容   <br> 想要检测该漏洞的师傅，可以使用    ./x<br>ray ws --poc poc-yaml-yongyou-nc-ncmes<br>sageservlet-rce --url http://example.c<br>om    进行检测。    相关参考链接：|
@@ -15,7 +17,6 @@
 |2023-05-16 16:40:02|[faker](https://github.com/joke2k/faker)|v18.9.0|See .|
 |2023-05-15 12:52:58|[murphysec](https://github.com/murphysecurity/murphysec)|v3.1.1|Support NPM lockfile v3 |
 |2023-05-14 12:54:57|[whatweb-plus](https://github.com/winezer0/whatweb-plus)|v0.5.5.<br>19.fix|修复kali下 ruby 3.1.2 下提示 join(nil<br>，"whatweb")报错    注意windows环境下不<br>受影响,可以不进行更新|
-|2023-05-14 04:27:49|[PEASS-ng](https://github.com/carlospolop/PEASS-ng)|2023051<br>4-85dabd<br>c9||
 |2023-05-14 02:29:25|[afrog](https://github.com/zan8in/afrog)|v2.3.2|**Add:**  - The result will be writte<br>n to the JSON file, but it will not in<br>clude the request and response content<br>.  - Writes a JSON file including all <br>vulnerability results.  - The "disable<br>-output-html" command can be used to p<br>revent the automatic generation of an <br>HTML report, and its priority is highe<br>r than the "-o" command.  - PoC script<br> info information adds three fields af<br>fected, solutions, and created    **Op<br>timization:**  - Duplicated PoC remove<br>d: springboot-env-unauth  - When perfo<br>rming an update operation, the -up com<br>mand prompt is not friendly enough  - <br>Scan in order of increasing security r<br>isk level    **新增：**  - 使用命令参<br>数 -json 或 -j，将漏洞结果写入 JSON 文<br>件，不包括 request 和 response  - 使用<br>命令参数 -json-all 或 -ja，将漏洞结果写<br>入 JSON 文件，包括 request 和 response <br> - 使用 disable-output-html 命令可以禁<br>止生成 HTML 报告，该命令的优先级高于 -o<br> 命令。  - PoC 脚本 info 信息增加 affe<br>cted、solutions、created 三个字段    *<br>*优化：**  - 已移除重复的PoC: springbo<br>ot-env-unauth  - 执行更新操作时，-up <br>命令提示不够友好  - 按照从低到高的安全<br>风险级别顺序进行扫描  - 优化 url.path <br>编码问题|
 |2023-05-12 03:16:59|[iDefender](https://github.com/wecooperate/iDefender)|2.7.0|添加易用性、稳定性，建议更新    - 更<br>新SDK到最新的版本    - 文件的读写添加首<br>次事件通知    - 过滤掉命名管道的读写请<br>求    - 规则引擎优化    - 去掉只读文件<br>监控开关    - 隐私保护换成读取文件、文<br>件映射事件    - 导出规则、导入规则、分<br>享规则添加信任列表的导出导入  - 优化开<br>机启动的逻辑，添加注册表开机启动项  - <br>模板更新（支持经典模式：新建、修改、删<br>除、读取等概念）    - 添加全能模板    -<br> 添加进程行为模板    - 添加文件行为模<br>板    - 添加注册表行为模板    - 添加网<br>络行为模板    - 其他    - 修复数据库一<br>些操作异常    - 修复进程保护、进程操作<br>拦截可能导致进程启动不了的问题    - 修<br>复一些误报问题    - 修复对话框界面最大<br>化状态的阴影问题    - 规则引擎添加更多<br>扩展属性              软件下载   |
 |2023-05-11 23:49:58|[nuclei](https://github.com/projectdiscovery/nuclei)|v2.9.4|## What's Changed  * Added option for<br> nuclei templates / config reset by @t<br>arunKoyalwar in https://github.com/pro<br>jectdiscovery/nuclei/pull/3675  consol<br>e     -reset  reset removes all nuclei<br> configuration and data files (includi<br>ng nuclei-templates)        **Full Cha<br>ngelog**: https://github.com/projectdi<br>scovery/nuclei/compare/v2.9.3...v2.9.4|
@@ -25,31 +26,31 @@
 |2023-05-09 09:57:25|[RouteVulScan](https://github.com/F6JO/RouteVulScan)|RouteVu<br>lScan1.5|2023-05-09 将默认扫描子域和根域改为可<br>开关  2023-05-09 将匹配的state状态码改<br>为可以设置范围  2023-05-09 添加类似模板<br>语言的标记，可在Config中配置标记获取当<br>前请求的各类信息并当作路径或正则|
 |2023-05-09 01:48:08|[GoWxDump](https://github.com/SpenserCai/GoWxDump)|v1.0.11|fix #19 支持了3.9.2.26 版本|
 |2023-05-08 16:50:17|[railgun](https://github.com/lz520520/railgun)|v1.5.4-<br>fix|解压密码railgun    fix: 修复若干bug|
-|2023-05-07 18:00:03|[dbeaver](https://github.com/dbeaver/dbeaver)|23.0.4|                 - Data Editor:      <br>               - Bottom toolbar became<br> customizable                     - Di<br>sconnected editors can be easily recon<br>nected                     - Issue wit<br>h Ctrl+1 shortcut not working was fixe<br>d                 - SQL Editor:       <br>              - Issue with refresh but<br>ton closing active resul tab was fixed<br>                     - Issue with not <br>correct dislaying of \r\n sequence was<br> fixed                     - Issue whe<br>n generating the same UUID for all row<br>s was fixed (thanks to @SiyaoIsHiding)<br>                 - Data Transfer:     <br>                - Ability to change th<br>e target column type on import to BIGI<br>NT was added                     - Exp<br>ort from query to CSV was fixed       <br>          - Git: Missing git buttons a<br>nd menus were added on macOS (Apple Si<br>licon)                 - Databases:   <br>                  - ClickHouse: Catalo<br>g support was added                   <br>  - Informix: issue with extra spaces <br>in table name was fixed               <br>      - MySQL:                        <br> - Event reading for quoted schemas wa<br>s fixed                         - Time<br> handling in MySQL was improved       <br>              - Oracle:               <br>          - Issue with parcing IF EXIS<br>TS statements was fixed               <br>          - The display of DATE with a<br>dditional settings in the Result Set w<br>as fixed                         - Inr<br>omation about latest statistics update<br> was added                     - Postg<br>reSQL:                         - Gener<br>ation of ALTER table SQL for foreign t<br>ables was improved                    <br>     - Role settings were added in gen<br>erated DDL                         - I<br>DENTITY SEQUENCE were added in generat<br>ed DDL                     - Snowflake<br>: issue with incorrect import with BIG<br>INT, INT, REAL, FLOAT, DOUBLE PRECISIO<br>N, and DECIMAL data types was fixed   <br>                  - Trino: issue with <br>import files with varchar data type wa<br>s fixed                 - Misc:       <br>              - SalesForce driver was <br>updated                     - ODBC con<br>nection error was fixed               <br>      - Java native libraries were add<br>ed to DBeaver installation directly to<br> avoid app crash cased by system restr<br>ictions.                     - DBeaver<br> started to collect user statistics. I<br>t is anonymous and optional           <br>  |
 |2023-05-07 13:02:22|[Ladon](https://github.com/k8gege/Ladon)|v10.10.<br>5|### Ladon 10.10.5 20230505  [+]Hikvis<br>ionScan 海康威视 视频监控 密码爆破  [u<br>]INI插件  支持isok、isvul字段，当结果<br>出现对应特征字符串，回显ISVUL或ISOK  [u<br>]INI插件  支持$port$参数，超时还是改成<br>30秒  [+]CloseSMB  彻底禁用SMB服务-需<br>管理员权限(重启生效)  [+]DisService 彻<br>底禁用指定服务-需管理员权限  [+]StopSer<br>vice 停止指定服务-需管理员权限  [+]Ope<br>nTCP  防火墙放行指定TCP端口-需管理员权<br>限  [+]OpenUDP  防火墙放行指定UDP端口-<br>需管理员权限  [+]CloseTCP  防火墙拦截指<br>定TCP端口-需管理员权限  [+]CloseUDP  防<br>火墙拦截指定UDP端口-需管理员权限  [+]Hi<br>kvisionPoc  CVE-2017-7921 hikvision 海<br>康威视摄像头配置文件泄露 漏洞检测  [+]H<br>ikvisionDecode  CVE-2017-7921 hikvisio<br>n 海康威视摄像头配置文件解密 提取密码 <br> [u]sshcmd  CS版sshcmd更新SSH库支持高<br>版本SSH    ### 0x001 GodPotato提权  Lad<br>on GodPotato whoami  支持: Win8-Win11/<br>Win2012-2022服务提权至SYSTEM      ### <br>0x002 hikvision 海康威视 CVE-2017-7921<br>漏洞检测    Ladon 192.168.1.8/24 Hikvis<br>ionPoc  Ladon http://192.168.1.8:8080 <br>HikvisionPoc  Ladon url.txt HikvisionP<br>oc          ### 0x003 hikvision 海康威<br>视 密码审计    Ladon 192.168.1.8/24 Hik<br>visionScan  Ladon http://192.168.1.8:8<br>080 HikvisionScan  Ladon url.txt Hikvi<br>sionScan        详细功能用法，请查看公<br>众号或博客  |
-|2023-05-06 13:19:20|[feroxbuster](https://github.com/epi052/feroxbuster)|v2.10.0|## What's Changed  * Adds server and <br>client certificate management; enables<br> mTLS by @lavafroth in https://github.<br>com/epi052/feroxbuster/pull/892      *<br> --server-certs      * --client-cert  <br>    * --client-key     ## New Contribu<br>tors  * @lavafroth made their first co<br>ntribution in https://github.com/epi05<br>2/feroxbuster/pull/892 :tada:     **Fu<br>ll Changelog**: https://github.com/epi<br>052/feroxbuster/compare/v2.9.5...v2.10<br>.0|
-|2023-05-06 12:11:03|[Viper](https://github.com/FunnyWolf/Viper)|v1.5.28|## v1.5.28 20230506  ### 新功能  - 新<br>增只显示Session功能(首页和网络拓扑更简<br>洁)  - 面向互联网的handler被扫描(网络测<br>绘)时会在Notice提示  ### 优化  - 合并me<br>tasploit-framework 6.3.16版本  ### Bug<br>fix  - 修复无法修改包含中文内容的文件<br>问题  - 修复文件管理无法上传文件问题|
 ## 近15天commit提交记录
 | 提交时间 | 项目名称 | 更新内容 |
 | :---- | :---- | :---- |
-|2023-05-21 00:30:20|[NucleiTP](https://github.com/ExpLangcn/NucleiTP)|更新啦❤️|
-|2023-05-21 00:00:02|[free](https://github.com/freefq/free)|updated_at 05-21 08:00|
-|2023-05-20 22:18:21|[PocOrExp_in_Githu<br>b](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-05-21 06:18:21|
+|2023-05-22 00:30:16|[NucleiTP](https://github.com/ExpLangcn/NucleiTP)|更新啦❤️|
+|2023-05-22 00:00:03|[free](https://github.com/freefq/free)|updated_at 05-22 08:00|
+|2023-05-21 22:17:40|[PocOrExp_in_Githu<br>b](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-05-22 06:17:39|
+|2023-05-21 14:53:58|[kube-bench](https://github.com/aquasecurity/kube-bench)|support CIS Amazon Elastic Kubernetes Service (EKS)<br> Benchmark v1.2.0 (#1449)  closes #1448|
+|2023-05-21 14:50:25|[DNSlog-GO](https://github.com/lanyi1998/DNSlog-GO)|fix:空切片的bug|
+|2023-05-21 12:34:25|[v2rayfree](https://github.com/aiboboxx/v2rayfree)|update|
+|2023-05-21 11:05:35|[superSearchPlus](https://github.com/dark-kingA/superSearchPlus)|更新vue路由扫描|
+|2023-05-21 08:28:04|[domain_hunter_pro](https://github.com/bit4woo/domain_hunter_pro)|update|
+|2023-05-21 07:48:06|[trivy](https://github.com/aquasecurity/trivy)|fix(image): resolve scan deadlock when error occurs<br> in slow mode (#4336)|
+|2023-05-21 05:50:31|[Ladon](https://github.com/k8gege/Ladon)|Add files via upload|
+|2023-05-21 05:39:30|[K8tools](https://github.com/k8gege/K8tools)|Add files via upload|
+|2023-05-21 02:20:26|[afrog](https://github.com/zan8in/afrog)|update|
 |2023-05-20 19:06:04|[dbeaver](https://github.com/dbeaver/dbeaver)|Update README.md|
-|2023-05-20 15:45:31|[kube-bench](https://github.com/aquasecurity/kube-bench)|build(deps): bump github.com/aws/aws-sdk-go-v2 from<br> 1.17.6 to 1.18.0 (#1433)  Bumps  from 1.17.6 to 1.1<br>8.0.  -   -   -     ---  updated-dependencies:  - de<br>pendency-name: github.com/aws/aws-sdk-go-v2    depen<br>dency-type: direct:production    update-type: versio<br>n-update:semver-minor  ...    Signed-off-by: dependa<br>bot[bot]   Co-authored-by: dependabot[bot]   Co-auth<br>ored-by: chenk |
-|2023-05-20 13:08:25|[afrog](https://github.com/zan8in/afrog)|update|
-|2023-05-20 12:34:19|[v2rayfree](https://github.com/aiboboxx/v2rayfree)|update|
 |2023-05-20 04:12:50|[neuvector](https://github.com/neuvector/neuvector)|Merge pull request #825 from williamlin-suse/main  <br>NVSHAS-7911: should report non-zero node count if th<br>e support config is downloaded from managed cluster <br>in non-k8s setup|
 |2023-05-19 16:41:10|[dirsearch](https://github.com/maurosoria/dirsearch)|Merge pull request #1300 from mxcezl/patch-1  Allow<br> dirseach to find endpoints exposing jwks files|
 |2023-05-19 15:41:10|[grype](https://github.com/anchore/grype)|chore(deps): bump github.com/docker/docker (#1304) <br> Bumps  from 23.0.6+incompatible to 24.0.0+incompati<br>ble.  -   -     ---  updated-dependencies:  - depend<br>ency-name: github.com/docker/docker    dependency-ty<br>pe: direct:production    update-type: version-update<br>:semver-major  ...    Signed-off-by: dependabot[bot]<br>   Co-authored-by: dependabot[bot] |
 |2023-05-19 14:21:10|[syft](https://github.com/anchore/syft)|Keep original FileInfo persisted on file.Metadata s<br>tructs (#1794)  * pull in fileinfo changes from ster<br>eoscope #172    Signed-off-by: Alex Goodman     * fi<br>x CLI test assumption about the docker daemon    Sig<br>ned-off-by: Alex Goodman     ---------    Signed-off<br>-by: Alex Goodman   Signed-off-by: <>|
 |2023-05-19 11:02:17|[super-xray](https://github.com/4ra1n/super-xray)|code|
-|2023-05-19 08:51:11|[DNSlog-GO](https://github.com/lanyi1998/DNSlog-GO)|Merge pull request #23 from testwill/master  代码优<br>化依赖库更新|
 |2023-05-19 01:51:35|[Some-PoC-oR-ExP](https://github.com/coffeehb/Some-PoC-oR-ExP)|Create readme.md|
-|2023-05-18 19:41:22|[trivy](https://github.com/aquasecurity/trivy)|test: k8s integration tests (#4423)  Signed-off-by:<br> chenk   Co-authored-by: knqyf263 |
 |2023-05-18 17:57:56|[clair](https://github.com/quay/clair)|build(deps): bump golang.org/x/sync from 0.1.0 to 0<br>.2.0  Bumps  from 0.1.0 to 0.2.0. -   --- updated-de<br>pendencies: - dependency-name: golang.org/x/sync   d<br>ependency-type: direct:production   update-type: ver<br>sion-update:semver-minor ...  Signed-off-by: dependa<br>bot[bot] |
 |2023-05-18 12:50:27|[safeline](https://github.com/chaitin/safeline)|feat: release v1.5.1|
-|2023-05-18 09:00:28|[domain_hunter_pro](https://github.com/bit4woo/domain_hunter_pro)|update|
 |2023-05-18 08:20:09|[murphysec](https://github.com/murphysecurity/murphysec)|chore(deps): Upgrade tons of dependencies...|
 |2023-05-18 08:17:49|[veinmind-tools](https://github.com/chaitin/veinmind-tools)|Merge pull request #241 from ek1ng/master  fix(plug<br>ins): fix mysql8 weakpass|
 |2023-05-18 02:32:51|[ARL](https://github.com/TophantTechnology/ARL)|Merge pull request #564 from TophantTechnology/fix/<br>action  update action|
@@ -68,8 +69,6 @@
 |2023-05-14 08:25:37|[HackReport](https://github.com/awake1t/HackReport)|2023-05-14 16:25:37|
 |2023-05-14 02:55:50|[pikachu](https://github.com/zhuifengshaonianhanlu/pikachu)|Merge pull request #25 from Zhniing/dev  Fix mysql <br>connection|
 |2023-05-13 15:32:04|[SmsForwarder](https://github.com/pppscn/SmsForwarder)|新增：支持Bark推送加密 #273 (详见：https://bark.day<br>.app/#/encryption)|
-|2023-05-13 11:49:06|[Ladon](https://github.com/k8gege/Ladon)|Add files via upload|
-|2023-05-13 11:37:04|[K8tools](https://github.com/k8gege/K8tools)|Add files via upload|
 |2023-05-13 07:35:52|[mitaka](https://github.com/ninoseki/mitaka)|Merge pull request #734 from ninoseki/update-plasmo<br>  chore: update plasmo|
 |2023-05-12 09:58:11|[vulhub](https://github.com/vulhub/vulhub)|Merge pull request #351 from ndeloof/patch-1  Updat<br>e README for compose v2|
 |2023-05-12 03:56:46|[ddddocr](https://github.com/sml2h3/ddddocr)|Update README.md|
@@ -88,11 +87,7 @@
 |2023-05-09 01:46:33|[GoWxDump](https://github.com/SpenserCai/GoWxDump)|fix #19 支持 3.9.2.26|
 |2023-05-08 17:00:45|[railgun](https://github.com/lz520520/railgun)|Update README.md|
 |2023-05-08 11:24:15|[HackBrowserData](https://github.com/moonD4rk/HackBrowserData)|refactor: Refactor storage queries and filters.  - <br>Update local storage query constant and function cal<br>ls - Remove null and control characters from UTF-8 s<br>plit function|
-|2023-05-08 01:09:24|[SharpWxDump](https://github.com/AdminTest0/SharpWxDump)|Update Program.cs|
-|2023-05-06 12:10:05|[Viper](https://github.com/FunnyWolf/Viper)|update version v1.5.28|
-|2023-05-06 11:47:16|[feroxbuster](https://github.com/epi052/feroxbuster)|Merge pull request #898 from epi052/all-contributor<br>s/add-AkechiShiro  docs: add AkechiShiro as a contri<br>butor for ideas|
-|2023-05-06 09:52:47|[APTRS](https://github.com/Anof-cyber/APTRS)|Update README.md|
-|2023-05-06 01:38:30|[Awesome-Redteam](https://github.com/Threekiii/Awesome-Redteam)|更新README.md|## 所有项目
+|2023-05-08 01:09:24|[SharpWxDump](https://github.com/AdminTest0/SharpWxDump)|Update Program.cs|## 所有项目
 # 渗透测试
 ## 信息收集
 ### 资产测绘采集
@@ -374,7 +369,7 @@
 | [ysoserial](https://github.com/frohoff/ysoserial) | v0.0.6 | A proof-of-concept tool for generating payloads that exploit u<br>nsafe Java object deserialization. |
 | [Gopherus](https://github.com/tarunkant/Gopherus) |  | This tool generates gopher link for exploiting SSRF and gainin<br>g RCE in various servers |
 | [revsuit](https://github.com/Li4n0/revsuit) | v0.6.0 | RevSuit is a flexible and powerful reverse connection platform<br> designed for receiving connection from target host in penetrat<br>ion.  |
-| [DNSlog-GO](https://github.com/lanyi1998/DNSlog-GO) | 2023051<br>9 | DNSLog-GO 是一款golang编写的监控 DNS 解析记录的工具，自带WEB界<br>面 |
+| [DNSlog-GO](https://github.com/lanyi1998/DNSlog-GO) | 2023052<br>1 | DNSLog-GO 是一款golang编写的监控 DNS 解析记录的工具，自带WEB界<br>面 |
 | [godnslog](https://github.com/chennqqi/godnslog) | v0.7.0 | An exquisite dns&http log server for verify SSRF/XXE/RFI/RCE v<br>ulnerability  |
 | [ysomap](https://github.com/wh1t3p1g/ysomap) | v0.1.3 | A helpful Java Deserialization exploit framework. |
 | [Antenna](https://github.com/wuba/Antenna) | v1.3.5 | Antenna是58同城安全团队打造的一款辅助安全从业人员验证网络中多<br>种漏洞是否存在以及可利用性的工具。其基于带外应用安全测试(OAST)通<br>过任务的形式，将不同漏洞场景检测能力通过插件的形式进行集合，通过<br>与目标进行out-bind的数据通信方式进行辅助检测。 |
@@ -519,7 +514,7 @@
 | [dirtycow](https://github.com/firefart/dirtycow) |  | Dirty Cow exploit - CVE-2016-5195 |
 | [traitor](https://github.com/liamg/traitor) | v0.0.14 | :arrow_up: :skull_and_crossbones: :fire: Automatic Linux prive<br>sc via exploitation of low-hanging fruit e.g. gtfobins, pwnkit,<br> dirty pipe, +w docker.sock |
 | [LinEnum](https://github.com/rebootuser/LinEnum) |  | Scripted Local Linux Enumeration & Privilege Escalation Checks |
-| [PEASS-ng](https://github.com/carlospolop/PEASS-ng) | 2023051<br>4-85dabd<br>c9 | PEASS - Privilege Escalation Awesome Scripts SUITE (with color<br>s) |
+| [PEASS-ng](https://github.com/carlospolop/PEASS-ng) | 2023052<br>1-bc39a4<br>77 | PEASS - Privilege Escalation Awesome Scripts SUITE (with color<br>s) |
 | [traitor](https://github.com/liamg/traitor) | v0.0.14 | :arrow_up: :skull_and_crossbones: :fire: Automatic Linux prive<br>sc via exploitation of low-hanging fruit e.g. gtfobins, pwnkit,<br> dirty pipe, +w docker.sock |
 ### 容器提权
 | 项目名称 | 版本 | 项目描述 |
@@ -566,7 +561,7 @@
 ### 综合
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
-| [Ladon](https://github.com/k8gege/Ladon) | v10.10.<br>5 | Ladon大型内网渗透工具，可PowerShell模块化、可CS插件化、可内存<br>加载，无文件扫描。含端口扫描、服务识别、网络资产探测、密码审计、<br>高危漏洞检测、漏洞利用、密码读取以及一键GetShell，支持批量A段/B<br>段/C段以及跨网段扫描，支持URL、主机、域名列表扫描等。10.10.5内置<br>224个功能模块,网络资产探测模块32个通过多种协议(ICMP\NBT\DNS\MAC<br>\SMB\WMI\SSH\HTTP\HTTPS\Exchange\mssql\FTP\RDP)以及方法快速获取<br>目标网络存活主机IP、计算机名、工作组、共享资源、网卡地址、操作系<br>统版本、网站、子域名、中间件、开放服务、路由器、交换机、数据库、<br>打印机等信息，高危漏洞检测16个含MS17010、Zimbra、Exchange |
+| [Ladon](https://github.com/k8gege/Ladon) | v10.10.<br>5 | Ladon大型内网渗透工具，可PowerShell模块化、可CS插件化、可内存<br>加载，无文件扫描。含端口扫描、服务识别、网络资产探测、密码审计、<br>高危漏洞检测、漏洞利用、密码读取以及一键GetShell，支持批量A段/B<br>段/C段以及跨网段扫描，支持URL、主机、域名列表扫描等。10.10.5内置<br>228个功能模块,网络资产探测模块32个通过多种协议(ICMP\NBT\DNS\MAC<br>\SMB\WMI\SSH\HTTP\HTTPS\Exchange\mssql\FTP\RDP)以及方法快速获取<br>目标网络存活主机IP、计算机名、工作组、共享资源、网卡地址、操作系<br>统版本、网站、子域名、中间件、开放服务、路由器、交换机、数据库、<br>打印机等信息，高危漏洞检测16个含MS17010、Zimbra、Exchange |
 ## 相关资源
 ### 工具集成环境
 | 项目名称 | 版本 | 项目描述 |
@@ -909,7 +904,7 @@
 | :---- | :---- | :---- |
 | [faker](https://github.com/joke2k/faker) | v18.9.0 | Faker is a Python package that generates fake data for you. |
 | [SmsForwarder](https://github.com/pppscn/SmsForwarder) | v3.2.0 | 短信转发器——监控Android手机短信、来电、APP通知，并根据指定规<br>则转发到其他手机：钉钉群自定义机器人、钉钉企业内机器人、企业微信<br>群机器人、飞书机器人、企业微信应用消息、邮箱、bark、webhook、Tel<br>egram机器人、Server酱、PushPlus、手机短信等。包括主动控制服务端<br>与客户端，让你轻松远程发短信、查短信、查通话、查话簿、查电量等。<br>（V3.0 新增）PS.这个APK主要是学习与自用，如有BUG请提ISSUE，同时<br>欢迎大家提PR指正 |
-| [dbeaver](https://github.com/dbeaver/dbeaver) | 23.0.4 | Free universal database tool and SQL client |
+| [dbeaver](https://github.com/dbeaver/dbeaver) | 23.0.5 | Free universal database tool and SQL client |
 | [MySQLMonitor](https://github.com/TheKingOfDuck/MySQLMonitor) | 1.0 | MySQL实时监控工具(代码审计/黑盒/白盒审计辅助工具) |
 | [flightsim](https://github.com/alphasoc/flightsim) | v2.3.0 | A utility to safely generate malicious network traffic pattern<br>s and evaluate controls. |
 ## 渗透测试报告辅助

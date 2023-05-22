@@ -182,10 +182,10 @@
     "https://github.com/lanyi1998/DNSlog-GO": {
         "created_at": "2020-09-05 16:18:57",
         "description": "DNSLog-GO 是一款golang编写的监控 DNS 解析记录的工具，自带WEB界面",
-        "commit_date": "2023-05-19 08:51:11",
-        "commit_message": "Merge pull request #23 from testwill/master\n\n代码优化依赖库更新",
-        "release_tag": "20230519",
-        "release_date": "2023-05-19 08:55:39",
+        "commit_date": "2023-05-21 14:50:25",
+        "commit_message": "fix:空切片的bug",
+        "release_tag": "20230521",
+        "release_date": "2023-05-21 14:52:26",
         "release_message": ""
     },
     "https://github.com/Mr-xn/JNDIExploit-1": {
@@ -200,8 +200,8 @@
     "https://github.com/ycdxsb/PocOrExp_in_Github": {
         "created_at": "2021-04-13 05:46:16",
         "description": "聚合Github上已有的Poc或者Exp，CVE信息来自CVE官网。Auto Collect Poc Or Exp from Github by CVE ID.",
-        "commit_date": "2023-05-20 22:18:21",
-        "commit_message": "update 2023-05-21 06:18:21",
+        "commit_date": "2023-05-21 22:17:40",
+        "commit_message": "update 2023-05-22 06:17:39",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -461,7 +461,7 @@
     "https://github.com/ExpLangcn/NucleiTP": {
         "created_at": "2022-11-08 13:16:56",
         "description": "自动整合全网Nuclei的漏洞POC，实时同步更新最新POC！",
-        "commit_date": "2023-05-21 00:30:20",
+        "commit_date": "2023-05-22 00:30:16",
         "commit_message": "更新啦❤️",
         "release_tag": "",
         "release_date": "",
@@ -479,7 +479,7 @@
     "https://github.com/k8gege/K8tools": {
         "created_at": "2019-02-23 14:04:52",
         "description": "K8工具合集(内网渗透/提权工具/远程溢出/漏洞利用/扫描工具/密码破解/免杀工具/Exploit/APT/0day/Shellcode/Payload/priviledge/BypassUAC/OverFlow/WebShell/PenTest) Web GetShell Exploit(Struts2/Zimbra/Weblogic/Tomcat/Apache/Jboss/DotNetNuke/zabbix)",
-        "commit_date": "2023-05-13 11:37:04",
+        "commit_date": "2023-05-21 05:39:30",
         "commit_message": "Add files via upload",
         "release_tag": "",
         "release_date": "",
@@ -2953,9 +2953,9 @@
         "description": "Free universal database tool and SQL client",
         "commit_date": "2023-05-20 19:06:04",
         "commit_message": "Update README.md",
-        "release_tag": "23.0.4",
-        "release_date": "2023-05-07 18:00:03",
-        "release_message": "\n                - Data Editor:\n                    - Bottom toolbar became customizable\n                    - Disconnected editors can be easily reconnected\n                    - Issue with Ctrl+1 shortcut not working was fixed\n                - SQL Editor:\n                    - Issue with refresh button closing active resul tab was fixed\n                    - Issue with not correct dislaying of \\r\\n sequence was fixed\n                    - Issue when generating the same UUID for all rows was fixed (thanks to @SiyaoIsHiding)\n                - Data Transfer:\n                    - Ability to change the target column type on import to BIGINT was added\n                    - Export from query to CSV was fixed\n                - Git: Missing git buttons and menus were added on macOS (Apple Silicon)\n                - Databases:\n                    - ClickHouse: Catalog support was added\n                    - Informix: issue with extra spaces in table name was fixed\n                    - MySQL:\n                        - Event reading for quoted schemas was fixed\n                        - Time handling in MySQL was improved\n                    - Oracle:\n                        - Issue with parcing IF EXISTS statements was fixed\n                        - The display of DATE with additional settings in the Result Set was fixed\n                        - Inromation about latest statistics update was added\n                    - PostgreSQL:\n                        - Generation of ALTER table SQL for foreign tables was improved\n                        - Role settings were added in generated DDL\n                        - IDENTITY SEQUENCE were added in generated DDL\n                    - Snowflake: issue with incorrect import with BIGINT, INT, REAL, FLOAT, DOUBLE PRECISION, and DECIMAL data types was fixed\n                    - Trino: issue with import files with varchar data type was fixed\n                - Misc:\n                    - SalesForce driver was updated\n                    - ODBC connection error was fixed\n                    - Java native libraries were added to DBeaver installation directly to avoid app crash cased by system restrictions.\n                    - DBeaver started to collect user statistics. It is anonymous and optional\n            "
+        "release_tag": "23.0.5",
+        "release_date": "2023-05-21 16:54:53",
+        "release_message": "\n              - SQL Editor:\n                  - Autocomplete for WHERE and SELECT shows aliases with the aliased table\n                  - Hovering information for SQL errors and spelling annotations was added\n                  - Variable and parameter names in the binding dialog are now displayed in their original case\n                  - Information about assigning a non-dynamic variable was added to the binding dialog\n                  - Issue with incorrect icon for Execute SQL Statement after opening Output tab was fixed\n                  - Query Manager: 'Restore Default' button behavior was improved\n                  - Ability to directly execute SQL scripts in native clients was added\n              - Data transfer:\n                  - Ability to trim string values when exporting to XLSX was added\n                  - Handling of datetimeoffset was added\n              - General UI:\n                  - Part divider UI was redesigned\n                  - Option to increase formatting time was added in Preferences\n                  - Issue with closing pinned tabs using 'Close Tabs to the Left' was fixed\n              - Connectivity:\n                  - Issue with driver fallback not being updated was fixed\n              - Databases:\n                  - ClickHouse: driver was updated to 0.4.6 (thanks to @zhicwu)\n                  - Databricks: handling of data types without parameters was added\n                  - Hana: comments handling was fixed\n                  - MySQL: partitions are now supported\n                  - Oracle: TNS import was fixed\n                  - PostgreSQL:\n                      - Issue with duplicate tables with generated columns in Database Navigator was fixed\n                      - Error message about line on the map created with a single point was added\n                      - Schema refresh was fixed\n                  - SQLite: ability to open ER Diagram in the Simple View was added\n              - Localization:\n               \t\t- German localization was improved (thanks to @hype11)\n              \t\t- Italian localization was improved (thanks to @Gnafu)\n            "
     },
     "https://github.com/zema1/yarx": {
         "created_at": "2021-11-11 09:43:21",
@@ -3050,7 +3050,7 @@
     "https://github.com/zan8in/afrog": {
         "created_at": "2022-02-24 06:00:32",
         "description": "A Security Tool for Bug Bounty, Pentest and Red Teaming.",
-        "commit_date": "2023-05-20 13:08:25",
+        "commit_date": "2023-05-21 02:20:26",
         "commit_message": "update",
         "release_tag": "v2.3.2",
         "release_date": "2023-05-14 02:29:25",
@@ -3406,7 +3406,7 @@
     "https://github.com/bit4woo/domain_hunter_pro": {
         "created_at": "2019-01-18 07:15:15",
         "description": "domain_hunter的高级版本，SRC挖洞、HW打点之必备！自动化资产收集；快速Title获取；外部工具联动；等等",
-        "commit_date": "2023-05-18 09:00:28",
+        "commit_date": "2023-05-21 08:28:04",
         "commit_message": "update",
         "release_tag": "v1.9",
         "release_date": "2023-04-18 00:34:58",
@@ -3701,8 +3701,8 @@
         "description": "PEASS - Privilege Escalation Awesome Scripts SUITE (with colors)",
         "commit_date": "2023-05-10 14:03:11",
         "commit_message": "Update linpeas_base.sh",
-        "release_tag": "20230514-85dabdc9",
-        "release_date": "2023-05-14 04:27:49",
+        "release_tag": "20230521-bc39a477",
+        "release_date": "2023-05-21 04:26:27",
         "release_message": ""
     },
     "https://github.com/waderwu/attackRmi": {
@@ -3734,8 +3734,8 @@
     },
     "https://github.com/k8gege/Ladon": {
         "created_at": "2019-11-02 06:22:41",
-        "description": "Ladon大型内网渗透工具，可PowerShell模块化、可CS插件化、可内存加载，无文件扫描。含端口扫描、服务识别、网络资产探测、密码审计、高危漏洞检测、漏洞利用、密码读取以及一键GetShell，支持批量A段/B段/C段以及跨网段扫描，支持URL、主机、域名列表扫描等。10.10.5内置224个功能模块,网络资产探测模块32个通过多种协议(ICMP\\NBT\\DNS\\MAC\\SMB\\WMI\\SSH\\HTTP\\HTTPS\\Exchange\\mssql\\FTP\\RDP)以及方法快速获取目标网络存活主机IP、计算机名、工作组、共享资源、网卡地址、操作系统版本、网站、子域名、中间件、开放服务、路由器、交换机、数据库、打印机等信息，高危漏洞检测16个含MS17010、Zimbra、Exchange",
-        "commit_date": "2023-05-13 11:49:06",
+        "description": "Ladon大型内网渗透工具，可PowerShell模块化、可CS插件化、可内存加载，无文件扫描。含端口扫描、服务识别、网络资产探测、密码审计、高危漏洞检测、漏洞利用、密码读取以及一键GetShell，支持批量A段/B段/C段以及跨网段扫描，支持URL、主机、域名列表扫描等。10.10.5内置228个功能模块,网络资产探测模块32个通过多种协议(ICMP\\NBT\\DNS\\MAC\\SMB\\WMI\\SSH\\HTTP\\HTTPS\\Exchange\\mssql\\FTP\\RDP)以及方法快速获取目标网络存活主机IP、计算机名、工作组、共享资源、网卡地址、操作系统版本、网站、子域名、中间件、开放服务、路由器、交换机、数据库、打印机等信息，高危漏洞检测16个含MS17010、Zimbra、Exchange",
+        "commit_date": "2023-05-21 05:50:31",
         "commit_message": "Add files via upload",
         "release_tag": "v10.10.5",
         "release_date": "2023-05-07 13:02:22",
@@ -3879,8 +3879,8 @@
     "https://github.com/aquasecurity/kube-bench": {
         "created_at": "2017-06-19 13:27:02",
         "description": "Checks whether Kubernetes is deployed according to security best practices as defined in the CIS Kubernetes Benchmark",
-        "commit_date": "2023-05-20 15:45:31",
-        "commit_message": "build(deps): bump github.com/aws/aws-sdk-go-v2 from 1.17.6 to 1.18.0 (#1433)\n\nBumps [github.com/aws/aws-sdk-go-v2](https://github.com/aws/aws-sdk-go-v2) from 1.17.6 to 1.18.0.\r\n- [Release notes](https://github.com/aws/aws-sdk-go-v2/releases)\r\n- [Changelog](https://github.com/aws/aws-sdk-go-v2/blob/main/CHANGELOG.md)\r\n- [Commits](https://github.com/aws/aws-sdk-go-v2/compare/v1.17.6...v1.18.0)\r\n\r\n---\r\nupdated-dependencies:\r\n- dependency-name: github.com/aws/aws-sdk-go-v2\r\n  dependency-type: direct:production\r\n  update-type: version-update:semver-minor\r\n...\r\n\r\nSigned-off-by: dependabot[bot] <support@github.com>\r\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>\r\nCo-authored-by: chenk <hen.keinan@gmail.com>",
+        "commit_date": "2023-05-21 14:53:58",
+        "commit_message": "support CIS Amazon Elastic Kubernetes Service (EKS) Benchmark v1.2.0 (#1449)\n\ncloses #1448",
         "release_tag": "v0.6.14",
         "release_date": "2023-05-18 07:43:29",
         "release_message": "## Changelog\n* 968ee58 replace with constant (#1445)\n\n"
@@ -3969,8 +3969,8 @@
     "https://github.com/aquasecurity/trivy": {
         "created_at": "2019-04-11 01:01:07",
         "description": "Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more",
-        "commit_date": "2023-05-18 19:41:22",
-        "commit_message": "test: k8s integration tests (#4423)\n\nSigned-off-by: chenk <hen.keinan@gmail.com>\r\nCo-authored-by: knqyf263 <knqyf263@gmail.com>",
+        "commit_date": "2023-05-21 07:48:06",
+        "commit_message": "fix(image): resolve scan deadlock when error occurs in slow mode (#4336)",
         "release_tag": "v0.41.0",
         "release_date": "2023-04-28 06:00:39",
         "release_message": "## ⚡Release highlights and summary⚡\r\n\r\n👉 https://github.com/aquasecurity/trivy/discussions/4135\r\n\r\n## Changelog\r\n* 1be1e2e63 fix(spdx): add workaround for no src packages (#4118)\r\n* 45bc9e0de test(golang): rename broken go.mod (#4129)\r\n* 3334e78fa feat(sbom): add supplier field (#4122)\r\n* 27fb1bfde test(misconf): skip downloading of policies for tests #4126\r\n* 845ae31e5 refactor: use debug message for post-analyze errors (#4037)\r\n* 11a5b91a1 feat(sbom): add VEX support (#4053)\r\n* 5eab46498 feat(sbom): add primary package purpose field for SPDX (#4119)\r\n* a00d00eb9 fix(k8s): fix quiet flag (#4120)\r\n* 9bc326909 fix(python): parse of pip extras (#4103)\r\n* 855984167 feat(java): use full path for nested jars (#3992)\r\n* 0650e0e1d feat(license): add new flag for classifier confidence level (#4073)\r\n* 43b649627 feat: config and fs compliance support (#4097)\r\n* 9181bc1f7 chore(deps): bump sigstore/cosign-installer from 2.8.1 to 3.0.1 (#3952)\r\n* 48e021ea6 feat(spdx): add support for SPDX 2.3 (#4058)\r\n* 107752df6 fix: k8s all-namespaces support (#4096)\r\n* bd0c60364 perf(misconf): replace with post-analyzers (#4090)\r\n* 76662d5dd fix(helm): update networking API version detection (#4106)\r\n* be47b688c feat(image): custom docker host option (#3599)\r\n* cc18f92cf style: debug flag is incorrect and needs extra - (#4087)\r\n* 572a6193e docs(vuln): Document inline vulnerability filtering comments (#4024)\r\n* 914c6f092 feat(fs): customize error callback during fs walk (#4038)\r\n* 3f02feeff fix(ubuntu): skip copyright files from subfolders (#4076)\r\n* 57bb77c06 docs: restructure scanners (#3977)\r\n* b19b56c34 fix: fix `file does not exist` error for post-analyzers (#4061)\r\n\r\n"
@@ -4275,7 +4275,7 @@
     "https://github.com/aiboboxx/v2rayfree": {
         "created_at": "2021-10-13 11:34:53",
         "description": "v2ray公益免费节点、最新2ray免费v节点订阅地址、v2ray免费节点每日更新、免费ss/v2ray/trojan节点、freefq ",
-        "commit_date": "2023-05-20 12:34:19",
+        "commit_date": "2023-05-21 12:34:25",
         "commit_message": "update",
         "release_tag": "",
         "release_date": "",
@@ -4293,8 +4293,8 @@
     "https://github.com/dark-kingA/superSearchPlus": {
         "created_at": "2022-10-04 10:08:42",
         "description": "谷歌插件版本- superSearchPlus是聚合型信息收集插件，支持综合查询，资产测绘查询，信息收集 js敏感信息提取 注释资源扫描 目录扫描 整合了目前常见的资产测绘平台 同时支持数据导出",
-        "commit_date": "2023-03-05 08:24:10",
-        "commit_message": "更新",
+        "commit_date": "2023-05-21 11:05:35",
+        "commit_message": "更新vue路由扫描",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -4320,8 +4320,8 @@
     "https://github.com/freefq/free": {
         "created_at": "2020-06-07 02:48:33",
         "description": "翻墙、免费翻墙、免费科学上网、免费节点、免费梯子、免费ss/v2ray/trojan节点、蓝灯、谷歌商店、翻墙梯子",
-        "commit_date": "2023-05-21 00:00:02",
-        "commit_message": "updated_at 05-21 08:00",
+        "commit_date": "2023-05-22 00:00:03",
+        "commit_message": "updated_at 05-22 08:00",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
