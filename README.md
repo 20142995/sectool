@@ -1,10 +1,11 @@
-# 更新于 2023-05-23 08:43:59
+# 更新于 2023-05-24 08:43:30
 
 ## 近15天release更新记录
 | 更新时间 | 项目名称 | 版本 | 更新内容 |
 | :---- | :---- | :---- | :---- |
+|2023-05-23 17:28:47|[syft](https://github.com/anchore/syft)|v0.82.0|# Changelog    ##  (2023-05-23)      <br>  ### Added Features    - Improve Go m<br>ain module version detection by attemp<br>ting to parse available ldflags ] ] ] <br>   ### Bug Fixes  - Fix a problem in t<br>he license parsing logic that may resu<br>lt in a panic ]  - Return all relevant<br> error messages if an image retrieval <br>fails when a scheme is specified ] ]  <br>- Fix a problem with PNPM scanning whe<br>re v6 lockfiles might result in duplic<br>ated packages ] ] ]        |
+|2023-05-23 07:08:29|[veinmind-tools](https://github.com/chaitin/veinmind-tools)|v2.1.3|## 🔥 Feature  * feat(veinmind-weakpa<br>ss): add mysql5 weakpass scan by @ek1n<br>g in https://github.com/chaitin/veinmi<br>nd-tools/pull/237   * feat(plugins): u<br>se bullseye && update libveinmind-dev <br>1.9.15 by @DVKunion in https://github.<br>com/chaitin/veinmind-tools/pull/239  *<br> feat(weakpass): support caching_sha2_<br>password and enhance MyISAM pkg by @as<br>jdf  in https://github.com/chaitin/vei<br>nmind-tools/pull/235  * feat(plugins):<br> update kubernetes iac polices by @ek1<br>ng in https://github.com/chaitin/veinm<br>ind-tools/pull/240  * feat(veinmind-se<br>nsitive): support env and docker histo<br>ry scan by @ek1ng in https://github.co<br>m/chaitin/veinmind-tools/pull/242    #<br># 🔧 Fix  * fix(libveinmind): fix libv<br>einmind walk data race error by @DVKun<br>ion in https://github.com/chaitin/vein<br>mind-tools/pull/231  * fix(veinmind-ma<br>licious): optimize code  by  @testwill<br> in https://github.com/chaitin/veinmin<br>d-tools/pull/233  * fix(veinmind-weakp<br>ass): fix mysql8 weakpass check by @ek<br>1ng in https://github.com/chaitin/vein<br>mind-tools/pull/241    ## 📒 Others  *<br> chore(unsafe-mount): remove duplicate<br> code by @testwill in https://github.c<br>om/chaitin/veinmind-tools/pull/229  * <br>chore(func):  update deprecated func a<br>nd clean Dockerfile by @asjdf in https<br>://github.com/chaitin/veinmind-tools/p<br>ull/232  * docs(readme): add star hist<br>ory by @ek1ng in https://github.com/ch<br>aitin/veinmind-tools/pull/238    ## 🎉<br> New Contributors  * @asjdf made their<br> first contribution in https://github.<br>com/chaitin/veinmind-tools/pull/232   <br> **Full Changelog**: https://github.co<br>m/chaitin/veinmind-tools/compare/v2.1.<br>2...v2.1.3|
 |2023-05-22 14:30:14|[grype](https://github.com/anchore/grype)|v0.62.0|# Changelog    ##  (2023-05-22)      <br>  ### Added Features    - Add package <br>qualifier for platform CPE ] ]  - Incl<br>ude timestamp and image name in report<br>s ] ] ]  - Document command line flag <br>for config file location ] ] ]  - Add <br>support for Syft IDs in JSON output ] <br>]    ### Bug Fixes    - False positive<br> with pkg:rpm PURLs ] ] ]  - Specifyin<br>g "extras" in pip / requirements.txt r<br>esults in false negative ]  - CycloneD<br>X dependencies relationships inverted <br>]    ### Additional Changes    - docs:<br> add "cyclonedx-json" to output format<br>s ] ]  - chore: update quality gate la<br>bels and add keycloak ] ]  - Install s<br>kopeo during bootstrap ] ]  - Replace <br>deprecated io/ioutil calls ] ]  - Fix <br>reading syft json from stdin by redire<br>ct ] ]  - Add gitignore for default bu<br>ild target ] ]        |
-|2023-05-22 14:07:31|[syft](https://github.com/anchore/syft)|v0.81.0|# Changelog    ##  (2023-05-22)      <br>  ### Added Features    - Support cata<br>loging R packages ] ] ]  - Support des<br>cribing license properties and SPDX ex<br>pression assertions ] ] ]  - Warn if p<br>arsing a newer SBOM ] ]    ### Bug Fix<br>es    - Retain cataloged SBOM relation<br>ships ] ]  - fix: update field plurali<br>ty of 8.0.0 schema before release ] ] <br> - fix: remove spurious warnings - unk<br>nown relationship type: evident-by for<br>m-lib=syft ] ] ]  - CycloneDX Dependen<br>cies Relationships Inverted ] ] ]  - A<br>lpine: license expression should be co<br>mplete and not parsed out ] ] ]    ###<br> Additional Changes    - Print package<br> list when extra packages found ] ]  -<br> update cosign to v2 release (differen<br>t go module) ] ]          |
 |2023-05-22 09:29:11|[autoDecoder](https://github.com/f0ng/autoDecoder)|0.27|## 2023.5.22 更新0.27  1. autoDecoder<br>扩展选项卡增加右键Send to Repeater、Sen<br>d to Intruder，并且增加格式化，目前仅<br>针对json格式        感谢 @xcxmiku 师傅<br>反馈|
 |2023-05-22 09:21:19|[captcha-killer-mo<br>dified](https://github.com/f0ng/captcha-killer-modified)|0.24|【2023-5-22】 0.24  - 修复验证码在int<br>ruder中无法显示的bug  - 再次修复了装载<br>插件会影响proxy选项卡的问题    感谢微信<br>群师傅 Cat 反馈|
 |2023-05-22 09:05:23|[afrog](https://github.com/zan8in/afrog)|v2.5.1|**Add**  Writing TCP/UDP POC files us<br>ing YAML  Writing POC files for Go pro<br>gramming language using YAML  The Shir<br>o Key detection script by default chec<br>ks 20 keys.  **Optimization**  Resolve<br> the path error issue during program u<br>pdates with the "-update" command.  En<br>hance the console prompt messages  Dis<br>able the "-up" command and switch to a<br>utomatic execution.  Change the notifi<br>cation level for the unconfigured reve<br>rse connection platform to Info  By de<br>fault, target access is not monitored.<br> Please enable it using the "-monitor-<br>targets" or "-mt" command  Remove dupl<br>icate PoC: hikvision-applyct-fastjson-<br>rce  **新增**  使用 YAML 编写 TCP/UDP <br>的 POC 文件  使用 YAML 调用 Go  语言的 <br>POC 文件  Shiro Key 检测脚本默认检测 2<br>0 个 Key  **优化**  解决 -update 程序<br>更新时的路径错误问题  改进控制台提示信<br>息  禁用 -up 命令，改为自动执行  将反连<br>平台未配置的提示等级改为 Info  默认情况<br>下不会监视目标访问，请使用 "-monitor-ta<br>rgets" 或 "-mt" 命令进行启用  删除重复<br> PoC: hikvision-applyct-fastjson-rce|
@@ -29,27 +30,32 @@
 |2023-05-09 18:16:30|[neuvector](https://github.com/neuvector/neuvector)|v5.1.3|Features:  Add new vulnerability feed<br> for scanning Microsoft .NET framework<br>  Enforcer stats is disabled by defaul<br>t in Prometheus exporter to improve sc<br>alability  Useability improvement: Usi<br>ng scanner to scan single image and pr<br>int the result  Add imagePullPolicy ch<br>eck in admission control      Bug fixe<br>s:  Empty group auto-removal takes 2 h<br>ours to delete instead of 1 hour accor<br>ding to schedule  Compliance profile d<br>oesn't show in UI console  |
 |2023-05-09 09:57:25|[RouteVulScan](https://github.com/F6JO/RouteVulScan)|RouteVu<br>lScan1.5|2023-05-09 将默认扫描子域和根域改为可<br>开关  2023-05-09 将匹配的state状态码改<br>为可以设置范围  2023-05-09 添加类似模板<br>语言的标记，可在Config中配置标记获取当<br>前请求的各类信息并当作路径或正则|
 |2023-05-09 01:48:08|[GoWxDump](https://github.com/SpenserCai/GoWxDump)|v1.0.11|fix #19 支持了3.9.2.26 版本|
-|2023-05-08 16:50:17|[railgun](https://github.com/lz520520/railgun)|v1.5.4-<br>fix|解压密码railgun    fix: 修复若干bug|
 ## 近15天commit提交记录
 | 提交时间 | 项目名称 | 更新内容 |
 | :---- | :---- | :---- |
-|2023-05-23 00:37:03|[neuvector](https://github.com/neuvector/neuvector)|Merge pull request #828 from becitsthere/dev  NVSHA<br>S-6241: Allow scan API to accept auth token|
-|2023-05-23 00:30:15|[NucleiTP](https://github.com/ExpLangcn/NucleiTP)|更新啦❤️|
-|2023-05-23 00:00:03|[free](https://github.com/freefq/free)|updated_at 05-23 08:00|
-|2023-05-22 23:18:53|[PocOrExp_in_Githu<br>b](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-05-23 07:18:53|
-|2023-05-22 18:48:55|[clair](https://github.com/quay/clair)|chore: bump Claircore to v1.5.2  Bump Claircore to <br>the latest tag.  Signed-off-by: crozzy |
-|2023-05-22 18:01:17|[syft](https://github.com/anchore/syft)|chore(deps): bump github.com/stretchr/testify from <br>1.8.2 to 1.8.3 (#1829)  Bumps  from 1.8.2 to 1.8.3. <br> -   -     ---  updated-dependencies:  - dependency-<br>name: github.com/stretchr/testify    dependency-type<br>: direct:production    update-type: version-update:s<br>emver-patch  ...    Signed-off-by: dependabot[bot]  <br> Co-authored-by: dependabot[bot] |
-|2023-05-22 16:16:47|[dbeaver](https://github.com/dbeaver/dbeaver)|#19951 Fix data ordering switching (#19998)|
-|2023-05-22 14:40:20|[safeline](https://github.com/chaitin/safeline)|feat(fe): refine detection page styles|
-|2023-05-22 14:17:34|[grype](https://github.com/anchore/grype)|bump syft to pre-release of v0.81.0 (#1310)  Signed<br>-off-by: Alex Goodman |
-|2023-05-22 13:56:18|[trivy](https://github.com/aquasecurity/trivy)|feat(cli): add retry to cache operations (#4189)|
+|2023-05-24 00:30:19|[NucleiTP](https://github.com/ExpLangcn/NucleiTP)|更新啦❤️|
+|2023-05-24 00:00:02|[free](https://github.com/freefq/free)|updated_at 05-24 08:00|
+|2023-05-23 23:23:15|[PocOrExp_in_Githu<br>b](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-05-24 07:23:15|
+|2023-05-23 19:34:53|[neuvector](https://github.com/neuvector/neuvector)|Merge pull request #827 from jayhuang-suse/four  NV<br>SHAS-7941: the workload event may be missing during <br>lead change|
+|2023-05-23 17:57:53|[grype](https://github.com/anchore/grype)|chore: update gomod with latest syft (#1313)  * cho<br>re: update go mod with latest syft    ---------    S<br>igned-off-by: Christopher Phillips |
+|2023-05-23 16:58:49|[syft](https://github.com/anchore/syft)|fix: add panic recovery for license parse (#1839)  <br>* fix: add panic recovery for license parse  -------<br>--  Signed-off-by: Christopher Phillips |
+|2023-05-23 16:16:18|[dbeaver](https://github.com/dbeaver/dbeaver)|dbeaver/pro#1634 Keep original driver when replacin<br>g the old one (#20044)|
+|2023-05-23 15:36:20|[clair](https://github.com/quay/clair)|updater: Extend default updater time to 6 hours  Gi<br>ven the expense of updating and the lack of value to<br> such a high frequency this change extends the defau<br>lt update period from 30 mins to 6 hours.  Signed-of<br>f-by: crozzy |
+|2023-05-23 15:28:53|[revsuit](https://github.com/Li4n0/revsuit)|chore(release): 0.7.0|
+|2023-05-23 12:37:40|[v2rayfree](https://github.com/aiboboxx/v2rayfree)|update|
+|2023-05-23 11:36:25|[afrog](https://github.com/zan8in/afrog)|fix bug|
+|2023-05-23 09:35:52|[trivy](https://github.com/aquasecurity/trivy)|fix(cyclonedx): set original names for packages (#4<br>306)|
+|2023-05-23 08:55:08|[safeline](https://github.com/chaitin/safeline)|Merge pull request #81 from yrluke/add_timeout  fea<br>t: add the handle can not use and syntaxanalysis|
+|2023-05-23 06:16:32|[veinmind-tools](https://github.com/chaitin/veinmind-tools)|Merge pull request #242 from ek1ng/feat/sensitive-p<br>lugin  feat(sensitive): support env and docker histo<br>ry scan|
+|2023-05-23 03:43:04|[Elkeid](https://github.com/bytedance/Elkeid)|cpu-stuck due to multiple registration of nf_hooks <br>(#498)  nf_register_hooks must be called only once u<br>pon nf_hook object, otherwise  it would lead dead-lo<br>op and thus system hang.    We are using register_pe<br>rnet_subsys as unified soltuion for all network  nam<br>espaces, but nf_register_net_hooks is only available<br> kernels >= 4.3.0.  nf_register_net_hooks is called <br>per-net, while nf_register_hook is NOT.  So we need <br>limit the calling of nf_register_hooks, and the same<br> to it's  pair: nf_unregister_hooks.    Signed-off-b<br>y: shenping.matt |
+|2023-05-23 02:44:56|[cf](https://github.com/teamssix/cf)|Merge pull request #234 from teamssix/dev-teamssix <br> docs: update readme|
+|2023-05-23 02:21:00|[Awesome-Redteam](https://github.com/Threekiii/Awesome-Redteam)|更新README.md|
+|2023-05-23 01:57:50|[Sec-Tools](https://github.com/jwt1399/Sec-Tools)|Merge pull request #21 from popcell/master  修复了<br>一些运行时候遇到的小问题|
 |2023-05-22 13:41:23|[Viper](https://github.com/FunnyWolf/Viper)|update version v1.5.29|
-|2023-05-22 12:37:19|[v2rayfree](https://github.com/aiboboxx/v2rayfree)|update|
 |2023-05-22 12:25:19|[murphysec](https://github.com/murphysecurity/murphysec)|chore(deps): Update fix-tool|
 |2023-05-22 09:31:01|[sqlmap](https://github.com/sqlmapproject/sqlmap)|Minor patch of vuln tests|
 |2023-05-22 09:27:13|[autoDecoder](https://github.com/f0ng/autoDecoder)|Add files via upload|
 |2023-05-22 09:20:28|[captcha-killer-mo<br>dified](https://github.com/f0ng/captcha-killer-modified)|Update README.md|
-|2023-05-22 08:57:33|[afrog](https://github.com/zan8in/afrog)|update|
 |2023-05-22 08:49:11|[Vulnerability-Wik<br>i](https://github.com/Threekiii/Vulnerability-Wiki)|更新README.md|
 |2023-05-22 08:33:48|[Awesome-POC](https://github.com/Threekiii/Awesome-POC)|更新漏洞|
 |2023-05-22 05:53:12|[domain_hunter_pro](https://github.com/bit4woo/domain_hunter_pro)|Update TargetEntryMenu.java|
@@ -62,7 +68,6 @@
 |2023-05-19 16:41:10|[dirsearch](https://github.com/maurosoria/dirsearch)|Merge pull request #1300 from mxcezl/patch-1  Allow<br> dirseach to find endpoints exposing jwks files|
 |2023-05-19 11:02:17|[super-xray](https://github.com/4ra1n/super-xray)|code|
 |2023-05-19 01:51:35|[Some-PoC-oR-ExP](https://github.com/coffeehb/Some-PoC-oR-ExP)|Create readme.md|
-|2023-05-18 08:17:49|[veinmind-tools](https://github.com/chaitin/veinmind-tools)|Merge pull request #241 from ek1ng/master  fix(plug<br>ins): fix mysql8 weakpass|
 |2023-05-18 02:32:51|[ARL](https://github.com/TophantTechnology/ARL)|Merge pull request #564 from TophantTechnology/fix/<br>action  update action|
 |2023-05-17 16:21:11|[GobypassAV-shellc<br>ode](https://github.com/Pizz33/GobypassAV-shellcode)|Update README.md|
 |2023-05-17 09:57:12|[Antenna](https://github.com/wuba/Antenna)|Merge pull request #121 from wuba/develop  Develop|
@@ -79,7 +84,6 @@
 |2023-05-13 07:35:52|[mitaka](https://github.com/ninoseki/mitaka)|Merge pull request #734 from ninoseki/update-plasmo<br>  chore: update plasmo|
 |2023-05-12 09:58:11|[vulhub](https://github.com/vulhub/vulhub)|Merge pull request #351 from ndeloof/patch-1  Updat<br>e README for compose v2|
 |2023-05-12 03:56:46|[ddddocr](https://github.com/sml2h3/ddddocr)|Update README.md|
-|2023-05-12 02:13:19|[Elkeid](https://github.com/bytedance/Elkeid)|update ko download url|
 |2023-05-11 23:48:32|[nuclei](https://github.com/projectdiscovery/nuclei)|version update|
 |2023-05-11 16:05:14|[Dude](https://github.com/x364e3ab6/Dude)|Update README.md|
 |2023-05-11 14:36:58|[PocList](https://github.com/1n7erface/PocList)|Update README.md|
@@ -90,10 +94,7 @@
 |2023-05-10 10:30:39|[noterce](https://github.com/xiao-zhu-zhu/noterce)|Update README.md|
 |2023-05-10 03:18:53|[fscan](https://github.com/shadow1ng/fscan)|Merge pull request #272 from wgpsec/main  修复自动<br>化编译问题|
 |2023-05-09 09:05:58|[Exp-Tools](https://github.com/cseroad/Exp-Tools)|Update README.md|
-|2023-05-09 01:46:33|[GoWxDump](https://github.com/SpenserCai/GoWxDump)|fix #19 支持 3.9.2.26|
-|2023-05-08 17:00:45|[railgun](https://github.com/lz520520/railgun)|Update README.md|
-|2023-05-08 11:24:15|[HackBrowserData](https://github.com/moonD4rk/HackBrowserData)|refactor: Refactor storage queries and filters.  - <br>Update local storage query constant and function cal<br>ls - Remove null and control characters from UTF-8 s<br>plit function|
-|2023-05-08 01:09:24|[SharpWxDump](https://github.com/AdminTest0/SharpWxDump)|Update Program.cs|## 所有项目
+|2023-05-09 01:46:33|[GoWxDump](https://github.com/SpenserCai/GoWxDump)|fix #19 支持 3.9.2.26|## 所有项目
 # 渗透测试
 ## 信息收集
 ### 资产测绘采集
@@ -265,7 +266,7 @@
 ### 容器漏洞扫描
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
-| [veinmind-tools](https://github.com/chaitin/veinmind-tools) | v2.1.2 | veinmind-tools 是由长亭科技自研，基于 veinmind-sdk 打造的容器<br>安全工具集 |
+| [veinmind-tools](https://github.com/chaitin/veinmind-tools) | v2.1.3 | veinmind-tools 是由长亭科技自研，基于 veinmind-sdk 打造的容器<br>安全工具集 |
 ### 口令爆破
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
@@ -301,7 +302,7 @@
 #### 容器安全检测工具
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
-| [veinmind-tools](https://github.com/chaitin/veinmind-tools) | v2.1.2 | veinmind-tools 是由长亭科技自研，基于 veinmind-sdk 打造的容器<br>安全工具集 |
+| [veinmind-tools](https://github.com/chaitin/veinmind-tools) | v2.1.3 | veinmind-tools 是由长亭科技自研，基于 veinmind-sdk 打造的容器<br>安全工具集 |
 #### 容器漏洞分析工具
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
@@ -314,7 +315,7 @@
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
 | [grype](https://github.com/anchore/grype) | v0.62.0 | A vulnerability scanner for container images and filesystems |
-| [syft](https://github.com/anchore/syft) | v0.81.0 | CLI tool and library for generating a Software Bill of Materia<br>ls from container images and filesystems |
+| [syft](https://github.com/anchore/syft) | v0.82.0 | CLI tool and library for generating a Software Bill of Materia<br>ls from container images and filesystems |
 #### K8S漏洞扫描
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |

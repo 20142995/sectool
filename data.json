@@ -200,8 +200,8 @@
     "https://github.com/ycdxsb/PocOrExp_in_Github": {
         "created_at": "2021-04-13 05:46:16",
         "description": "聚合Github上已有的Poc或者Exp，CVE信息来自CVE官网。Auto Collect Poc Or Exp from Github by CVE ID.",
-        "commit_date": "2023-05-22 23:18:53",
-        "commit_message": "update 2023-05-23 07:18:53",
+        "commit_date": "2023-05-23 23:23:15",
+        "commit_message": "update 2023-05-24 07:23:15",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -461,7 +461,7 @@
     "https://github.com/ExpLangcn/NucleiTP": {
         "created_at": "2022-11-08 13:16:56",
         "description": "自动整合全网Nuclei的漏洞POC，实时同步更新最新POC！",
-        "commit_date": "2023-05-23 00:30:15",
+        "commit_date": "2023-05-24 00:30:19",
         "commit_message": "更新啦❤️",
         "release_tag": "",
         "release_date": "",
@@ -1735,11 +1735,11 @@
     "https://github.com/chaitin/veinmind-tools": {
         "created_at": "2022-02-08 08:12:15",
         "description": "veinmind-tools 是由长亭科技自研，基于 veinmind-sdk 打造的容器安全工具集",
-        "commit_date": "2023-05-18 08:17:49",
-        "commit_message": "Merge pull request #241 from ek1ng/master\n\nfix(plugins): fix mysql8 weakpass",
-        "release_tag": "v2.1.2",
-        "release_date": "2023-04-25 04:01:24",
-        "release_message": "## Feature\r\n* feat(veinmind-weakpass): support ftp @ek1ng in https://github.com/chaitin/veinmind-tools/pull/226\r\n* feat(veinmind-iac): add dockerfile security detection by @ek1ng in https://github.com/chaitin/veinmind-tools/pull/228\r\n\r\n## Fix\r\n* fix(ai): ignore basic info analyzer by @DVKunion in https://github.com/chaitin/veinmind-tools/pull/218\r\n* fix(Makefile): add CGO_ENBALED && update(dependency): update dependency version by @ek1ng in https://github.com/chaitin/veinmind-tools/pull/221\r\n* fix(CI/CD): change goproxy settings by @ek1ng in https://github.com/chaitin/veinmind-tools/pull/222\r\n\r\n## Others\r\n* doc: update README.md by @DVKunion in https://github.com/chaitin/veinmind-tools/pull/219\r\n\r\n## New Contributors\r\n* @ek1ng made their first contribution in https://github.com/chaitin/veinmind-tools/pull/221\r\n\r\n**Full Changelog**: https://github.com/chaitin/veinmind-tools/compare/v2.1.1...v2.1.2"
+        "commit_date": "2023-05-23 06:16:32",
+        "commit_message": "Merge pull request #242 from ek1ng/feat/sensitive-plugin\n\nfeat(sensitive): support env and docker history scan",
+        "release_tag": "v2.1.3",
+        "release_date": "2023-05-23 07:08:29",
+        "release_message": "## 🔥 Feature\r\n* feat(veinmind-weakpass): add mysql5 weakpass scan by @ek1ng in https://github.com/chaitin/veinmind-tools/pull/237 \r\n* feat(plugins): use bullseye && update libveinmind-dev 1.9.15 by @DVKunion in https://github.com/chaitin/veinmind-tools/pull/239\r\n* feat(weakpass): support caching_sha2_password and enhance MyISAM pkg by @asjdf  in https://github.com/chaitin/veinmind-tools/pull/235\r\n* feat(plugins): update kubernetes iac polices by @ek1ng in https://github.com/chaitin/veinmind-tools/pull/240\r\n* feat(veinmind-sensitive): support env and docker history scan by @ek1ng in https://github.com/chaitin/veinmind-tools/pull/242\r\n\r\n## 🔧 Fix\r\n* fix(libveinmind): fix libveinmind walk data race error by @DVKunion in https://github.com/chaitin/veinmind-tools/pull/231\r\n* fix(veinmind-malicious): optimize code  by  @testwill in https://github.com/chaitin/veinmind-tools/pull/233\r\n* fix(veinmind-weakpass): fix mysql8 weakpass check by @ek1ng in https://github.com/chaitin/veinmind-tools/pull/241\r\n\r\n## 📒 Others\r\n* chore(unsafe-mount): remove duplicate code by @testwill in https://github.com/chaitin/veinmind-tools/pull/229\r\n* chore(func):  update deprecated func and clean Dockerfile by @asjdf in https://github.com/chaitin/veinmind-tools/pull/232\r\n* docs(readme): add star history by @ek1ng in https://github.com/chaitin/veinmind-tools/pull/238\r\n\r\n## 🎉 New Contributors\r\n* @asjdf made their first contribution in https://github.com/chaitin/veinmind-tools/pull/232\r\n\r\n**Full Changelog**: https://github.com/chaitin/veinmind-tools/compare/v2.1.2...v2.1.3"
     },
     "https://github.com/cdk-team/CDK": {
         "created_at": "2020-11-05 09:18:51",
@@ -2176,8 +2176,8 @@
     "https://github.com/jwt1399/Sec-Tools": {
         "created_at": "2021-11-05 10:20:52",
         "description": "🍉一款基于Python-Django的多功能Web安全渗透测试工具，包含漏洞扫描，端口扫描，指纹识别，目录扫描，旁站扫描，域名扫描等功能。",
-        "commit_date": "2022-03-18 05:59:06",
-        "commit_message": "Update README.md",
+        "commit_date": "2023-05-23 01:57:50",
+        "commit_message": "Merge pull request #21 from popcell/master\n\n修复了一些运行时候遇到的小问题",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -2426,8 +2426,8 @@
     "https://github.com/teamssix/cf": {
         "created_at": "2022-07-01 06:02:57",
         "description": "Cloud Exploitation Framework 云环境利用框架，方便安全人员在获得 AK 的后续工作",
-        "commit_date": "2023-04-29 11:59:18",
-        "commit_message": "Merge pull request #226 from teamssix/beta\n\nUpdate CHANGELOG.md",
+        "commit_date": "2023-05-23 02:44:56",
+        "commit_message": "Merge pull request #234 from teamssix/dev-teamssix\n\ndocs: update readme",
         "release_tag": "v0.4.5",
         "release_date": "2023-04-29 11:59:25",
         "release_message": "### 新增功能\r\n\r\n* [#221](https://github.com/teamssix/cf/pull/221) 增加华为云控制台接管和权限枚举功能\r\n\r\n### 功能优化\r\n\r\n* [#220](https://github.com/teamssix/cf/pull/220) 优化错误信息输出\r\n* [#225](https://github.com/teamssix/cf/pull/225) 优化更新功能\r\n\r\n### Bug 修复\r\n\r\n* [#201](https://github.com/teamssix/cf/pull/201) 修复配置令牌功能的 Bug\r\n* [#203](https://github.com/teamssix/cf/pull/203) [#204](https://github.com/teamssix/cf/pull/204) 修复两处缓存功能的 Bug\r\n* [#208](https://github.com/teamssix/cf/pull/208) 修复更新功能 Bug\r\n* [#224](https://github.com/teamssix/cf/pull/224) 修复腾讯云 cvm 和 lh 无法列全的 Bug\r\n\r\n## 新贡献者\r\n* @0xorOne made their first contribution in https://github.com/teamssix/cf/pull/219\r\n\r\n**Full Changelog**: https://github.com/teamssix/cf/compare/v0.4.4...v0.4.5"
@@ -2951,8 +2951,8 @@
     "https://github.com/dbeaver/dbeaver": {
         "created_at": "2015-10-21 08:26:28",
         "description": "Free universal database tool and SQL client",
-        "commit_date": "2023-05-22 16:16:47",
-        "commit_message": "#19951 Fix data ordering switching (#19998)",
+        "commit_date": "2023-05-23 16:16:18",
+        "commit_message": "dbeaver/pro#1634 Keep original driver when replacing the old one (#20044)",
         "release_tag": "23.0.5",
         "release_date": "2023-05-21 16:54:53",
         "release_message": "\n              - SQL Editor:\n                  - Autocomplete for WHERE and SELECT shows aliases with the aliased table\n                  - Hovering information for SQL errors and spelling annotations was added\n                  - Variable and parameter names in the binding dialog are now displayed in their original case\n                  - Information about assigning a non-dynamic variable was added to the binding dialog\n                  - Issue with incorrect icon for Execute SQL Statement after opening Output tab was fixed\n                  - Query Manager: 'Restore Default' button behavior was improved\n                  - Ability to directly execute SQL scripts in native clients was added\n              - Data transfer:\n                  - Ability to trim string values when exporting to XLSX was added\n                  - Handling of datetimeoffset was added\n              - General UI:\n                  - Part divider UI was redesigned\n                  - Option to increase formatting time was added in Preferences\n                  - Issue with closing pinned tabs using 'Close Tabs to the Left' was fixed\n              - Connectivity:\n                  - Issue with driver fallback not being updated was fixed\n              - Databases:\n                  - ClickHouse: driver was updated to 0.4.6 (thanks to @zhicwu)\n                  - Databricks: handling of data types without parameters was added\n                  - Hana: comments handling was fixed\n                  - MySQL: partitions are now supported\n                  - Oracle: TNS import was fixed\n                  - PostgreSQL:\n                      - Issue with duplicate tables with generated columns in Database Navigator was fixed\n                      - Error message about line on the map created with a single point was added\n                      - Schema refresh was fixed\n                  - SQLite: ability to open ER Diagram in the Simple View was added\n              - Localization:\n               \t\t- German localization was improved (thanks to @hype11)\n              \t\t- Italian localization was improved (thanks to @Gnafu)\n            "
@@ -3050,8 +3050,8 @@
     "https://github.com/zan8in/afrog": {
         "created_at": "2022-02-24 06:00:32",
         "description": "A Security Tool for Bug Bounty, Pentest and Red Teaming.",
-        "commit_date": "2023-05-22 08:57:33",
-        "commit_message": "update",
+        "commit_date": "2023-05-23 11:36:25",
+        "commit_message": "fix bug",
         "release_tag": "v2.5.1",
         "release_date": "2023-05-22 09:05:23",
         "release_message": "**Add**\r\nWriting TCP/UDP POC files using YAML\r\nWriting POC files for Go programming language using YAML\r\nThe Shiro Key detection script by default checks 20 keys.\r\n**Optimization**\r\nResolve the path error issue during program updates with the \"-update\" command.\r\nEnhance the console prompt messages\r\nDisable the \"-up\" command and switch to automatic execution.\r\nChange the notification level for the unconfigured reverse connection platform to Info\r\nBy default, target access is not monitored. Please enable it using the \"-monitor-targets\" or \"-mt\" command\r\nRemove duplicate PoC: hikvision-applyct-fastjson-rce\r\n**新增**\r\n使用 YAML 编写 TCP/UDP 的 POC 文件\r\n使用 YAML 调用 Go  语言的 POC 文件\r\nShiro Key 检测脚本默认检测 20 个 Key\r\n**优化**\r\n解决 -update 程序更新时的路径错误问题\r\n改进控制台提示信息\r\n禁用 -up 命令，改为自动执行\r\n将反连平台未配置的提示等级改为 Info\r\n默认情况下不会监视目标访问，请使用 \"-monitor-targets\" 或 \"-mt\" 命令进行启用\r\n删除重复 PoC: hikvision-applyct-fastjson-rce"
@@ -3077,8 +3077,8 @@
     "https://github.com/Li4n0/revsuit": {
         "created_at": "2021-04-21 10:39:44",
         "description": "RevSuit is a flexible and powerful reverse connection platform designed for receiving connection from target host in penetration. ",
-        "commit_date": "2023-04-15 11:44:52",
-        "commit_message": "ci: disable cgo",
+        "commit_date": "2023-05-23 15:28:53",
+        "commit_message": "chore(release): 0.7.0",
         "release_tag": "v0.6.0",
         "release_date": "2023-03-24 14:57:56",
         "release_message": "### Features\r\n\r\n* support for using `Flag-Filter` request headers to filter the flags that the client expects to receive ([#64](https://github.com/Li4n0/revsuit/issues/64)) ([b33de11](https://github.com/Li4n0/revsuit/commit/b33de11ba8f126b03a45ad15cae69331ad59b865)) (Thanks to @whwlsfb) \r\n\r\n\r\n### Bug Fixes\r\n\r\n* fix static resource loading failure after modifying `admin_path_prefix` ([b76757d](https://github.com/Li4n0/revsuit/commit/b76757da331b56f240ec2a0c69d479f3184bc4c2)), closes [#63](https://github.com/Li4n0/revsuit/issues/63)\r\n"
@@ -3219,7 +3219,7 @@
     "https://github.com/Threekiii/Awesome-Redteam": {
         "created_at": "2022-02-08 00:45:03",
         "description": "一个红队知识仓库",
-        "commit_date": "2023-05-06 01:38:30",
+        "commit_date": "2023-05-23 02:21:00",
         "commit_message": "更新README.md",
         "release_tag": "",
         "release_date": "",
@@ -3298,8 +3298,8 @@
     "https://github.com/bytedance/Elkeid": {
         "created_at": "2020-12-18 03:15:54",
         "description": "Elkeid is an open source solution that can meet the security requirements of various workloads such as hosts, containers and K8s, and serverless. It is derived from ByteDance's internal best practices.",
-        "commit_date": "2023-05-12 02:13:19",
-        "commit_message": "update ko download url",
+        "commit_date": "2023-05-23 03:43:04",
+        "commit_message": "cpu-stuck due to multiple registration of nf_hooks (#498)\n\nnf_register_hooks must be called only once upon nf_hook object, otherwise\r\nit would lead dead-loop and thus system hang.\r\n\r\nWe are using register_pernet_subsys as unified soltuion for all network\r\nnamespaces, but nf_register_net_hooks is only available kernels >= 4.3.0.\r\nnf_register_net_hooks is called per-net, while nf_register_hook is NOT.\r\nSo we need limit the calling of nf_register_hooks, and the same to it's\r\npair: nf_unregister_hooks.\r\n\r\nSigned-off-by: shenping.matt <shenping.matt@bytedance.com>",
         "release_tag": "v1.9.1.4",
         "release_date": "2023-05-10 11:36:54",
         "release_message": "i18n for some web page"
@@ -3888,8 +3888,8 @@
     "https://github.com/neuvector/neuvector": {
         "created_at": "2021-12-17 20:15:03",
         "description": "",
-        "commit_date": "2023-05-23 00:37:03",
-        "commit_message": "Merge pull request #828 from becitsthere/dev\n\nNVSHAS-6241: Allow scan API to accept auth token",
+        "commit_date": "2023-05-23 19:34:53",
+        "commit_message": "Merge pull request #827 from jayhuang-suse/four\n\nNVSHAS-7941: the workload event may be missing during lead change",
         "release_tag": "v5.1.3",
         "release_date": "2023-05-09 18:16:30",
         "release_message": "Features:\r\nAdd new vulnerability feed for scanning Microsoft .NET framework\r\nEnforcer stats is disabled by default in Prometheus exporter to improve scalability\r\nUseability improvement: Using scanner to scan single image and print the result\r\nAdd imagePullPolicy check in admission control\r\n\r\n\r\nBug fixes:\r\nEmpty group auto-removal takes 2 hours to delete instead of 1 hour according to schedule\r\nCompliance profile doesn't show in UI console\r\n"
@@ -3906,17 +3906,17 @@
     "https://github.com/anchore/syft": {
         "created_at": "2020-05-07 18:19:29",
         "description": "CLI tool and library for generating a Software Bill of Materials from container images and filesystems",
-        "commit_date": "2023-05-22 18:01:17",
-        "commit_message": "chore(deps): bump github.com/stretchr/testify from 1.8.2 to 1.8.3 (#1829)\n\nBumps [github.com/stretchr/testify](https://github.com/stretchr/testify) from 1.8.2 to 1.8.3.\r\n- [Release notes](https://github.com/stretchr/testify/releases)\r\n- [Commits](https://github.com/stretchr/testify/compare/v1.8.2...v1.8.3)\r\n\r\n---\r\nupdated-dependencies:\r\n- dependency-name: github.com/stretchr/testify\r\n  dependency-type: direct:production\r\n  update-type: version-update:semver-patch\r\n...\r\n\r\nSigned-off-by: dependabot[bot] <support@github.com>\r\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
-        "release_tag": "v0.81.0",
-        "release_date": "2023-05-22 14:07:31",
-        "release_message": "# Changelog\r\n\r\n## [v0.81.0](https://github.com/anchore/syft/tree/v0.81.0) (2023-05-22)\r\n\r\n[Full Changelog](https://github.com/anchore/syft/compare/v0.80.0...v0.81.0)\r\n\r\n### Added Features\r\n\r\n- Support cataloging R packages [[Issue #730](https://github.com/anchore/syft/issues/730)] [[PR #1790](https://github.com/anchore/syft/pull/1790)] [[willmurphyscode](https://github.com/willmurphyscode)]\r\n- Support describing license properties and SPDX expression assertions [[Issue #1577](https://github.com/anchore/syft/issues/1577)] [[PR #1743](https://github.com/anchore/syft/pull/1743)] [[spiffcs](https://github.com/spiffcs)]\r\n- Warn if parsing a newer SBOM [[PR #1810](https://github.com/anchore/syft/pull/1810)] [[willmurphyscode](https://github.com/willmurphyscode)]\r\n\r\n### Bug Fixes\r\n\r\n- Retain cataloged SBOM relationships [[PR #1509](https://github.com/anchore/syft/pull/1509)] [[houdini91](https://github.com/houdini91)]\r\n- fix: update field plurality of 8.0.0 schema before release [[PR #1820](https://github.com/anchore/syft/pull/1820)] [[spiffcs](https://github.com/spiffcs)]\r\n- fix: remove spurious warnings - unknown relationship type: evident-by form-lib=syft [[Issue #1812](https://github.com/anchore/syft/issues/1812)] [[PR #1797](https://github.com/anchore/syft/pull/1797)] [[willmurphyscode](https://github.com/willmurphyscode)]\r\n- CycloneDX Dependencies Relationships Inverted [[Issue #1815](https://github.com/anchore/syft/issues/1815)] [[PR #1816](https://github.com/anchore/syft/pull/1816)] [[shanealv](https://github.com/shanealv)]\r\n- Alpine: license expression should be complete and not parsed out [[Issue #1817](https://github.com/anchore/syft/issues/1817)] [[PR #1819](https://github.com/anchore/syft/pull/1819)] [[spiffcs](https://github.com/spiffcs)]\r\n\r\n### Additional Changes\r\n\r\n- Print package list when extra packages found [[PR #1791](https://github.com/anchore/syft/pull/1791)] [[willmurphyscode](https://github.com/willmurphyscode)]\r\n- update cosign to v2 release (different go module) [[PR #1805](https://github.com/anchore/syft/pull/1805)] [[bobcallaway](https://github.com/bobcallaway)]\r\n\r\n\r\n\r\n\r\n"
+        "commit_date": "2023-05-23 16:58:49",
+        "commit_message": "fix: add panic recovery for license parse (#1839)\n\n* fix: add panic recovery for license parse\r\n---------\r\nSigned-off-by: Christopher Phillips <christopher.phillips@anchore.com>",
+        "release_tag": "v0.82.0",
+        "release_date": "2023-05-23 17:28:47",
+        "release_message": "# Changelog\r\n\r\n## [v0.82.0](https://github.com/anchore/syft/tree/v0.82.0) (2023-05-23)\r\n\r\n[Full Changelog](https://github.com/anchore/syft/compare/v0.81.0...v0.82.0)\r\n\r\n### Added Features\r\n\r\n- Improve Go main module version detection by attempting to parse available ldflags [[Issue #1785](https://github.com/anchore/syft/issues/1785)] [[PR #1832](https://github.com/anchore/syft/pull/1832)] [[wagoodman](https://github.com/wagoodman)]\r\n\r\n### Bug Fixes\r\n- Fix a problem in the license parsing logic that may result in a panic [[PR #1839](https://github.com/anchore/syft/pull/1839)]\r\n- Return all relevant error messages if an image retrieval fails when a scheme is specified [[PR #1801](https://github.com/anchore/syft/pull/1801)] [[FrimIdan](https://github.com/FrimIdan)]\r\n- Fix a problem with PNPM scanning where v6 lockfiles might result in duplicated packages [[Issue #1762](https://github.com/anchore/syft/issues/1762)] [[PR #1778](https://github.com/anchore/syft/pull/1778)] [[kzantow](https://github.com/kzantow)]\r\n\r\n\r\n\r\n"
     },
     "https://github.com/chaitin/safeline": {
         "created_at": "2023-04-12 11:30:14",
         "description": "长亭科技自研，基于业界领先的语义引擎检测技术，打造的简洁、易用的免费 WAF",
-        "commit_date": "2023-05-22 14:40:20",
-        "commit_message": "feat(fe): refine detection page styles",
+        "commit_date": "2023-05-23 08:55:08",
+        "commit_message": "Merge pull request #81 from yrluke/add_timeout\n\nfeat: add the handle can not use and syntaxanalysis",
         "release_tag": "v1.5.1",
         "release_date": "2023-05-18 13:02:23",
         "release_message": "## 优化\r\n\r\n- 修复了 1.5.0 的问题：自定义规则切换白名单之后，无法创建/编辑的问题\r\n\r\n**注意：低版本升级请执行 upgrade.sh 脚本**"
@@ -3951,8 +3951,8 @@
     "https://github.com/quay/clair": {
         "created_at": "2015-11-13 18:46:16",
         "description": "Vulnerability Static Analysis for Containers",
-        "commit_date": "2023-05-22 18:48:55",
-        "commit_message": "chore: bump Claircore to v1.5.2\n\nBump Claircore to the latest tag.\n\nSigned-off-by: crozzy <joseph.crosland@gmail.com>",
+        "commit_date": "2023-05-23 15:36:20",
+        "commit_message": "updater: Extend default updater time to 6 hours\n\nGiven the expense of updating and the lack of value to such a high\nfrequency this change extends the default update period from 30 mins to\n6 hours.\n\nSigned-off-by: crozzy <joseph.crosland@gmail.com>",
         "release_tag": "v4.6.1",
         "release_date": "2023-04-13 18:29:02",
         "release_message": "<a name=\"unreleased\"></a>\n## [Unreleased]\n\n\n<a name=\"v4.6.1\"></a>\n## [v4.6.1] - 2023-04-13\n### Airgap\n- [e02aba27](https://github.com/quay/clair/commit/e02aba27de01cb461f79bee9644aac80c2f9bd65): Remove libindex Airgap option\n### Chore\n- [36990912](https://github.com/quay/clair/commit/36990912450fba2ccbef260a4829f1d9f69f45c6): v4.6.1 changelog bump\n- [e676671c](https://github.com/quay/clair/commit/e676671c17d2612470cd8de05aa668312fbb3036): Bump Claircore to v1.4.21\n### Go.Mod\n- [36de97cc](https://github.com/quay/clair/commit/36de97ccf619113b1ef4dff6bfd0e0c692252544): update json (de)serializer\n### Httptransport\n- [922f33d1](https://github.com/quay/clair/commit/922f33d18919578049fbf2ccb756e6990b66f280): fix request_id logging\n### Httputil\n- [9e8eacf5](https://github.com/quay/clair/commit/9e8eacf51b2a45f967036396b3dc14a52edc480d): fix ParseIP usage\n -  [#1689](https://github.com/quay/clair/issues/1689)### Notifier\n- [ffa4556d](https://github.com/quay/clair/commit/ffa4556d0f251cc984ed34594356625b9b747744): Avoid double reference\n\n[Unreleased]: https://github.com/quay/clair/compare/v4.6.1...HEAD\n[v4.6.1]: https://github.com/quay/clair/compare/v4.6.0...v4.6.1\n"
@@ -3969,8 +3969,8 @@
     "https://github.com/aquasecurity/trivy": {
         "created_at": "2019-04-11 01:01:07",
         "description": "Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more",
-        "commit_date": "2023-05-22 13:56:18",
-        "commit_message": "feat(cli): add retry to cache operations (#4189)",
+        "commit_date": "2023-05-23 09:35:52",
+        "commit_message": "fix(cyclonedx): set original names for packages (#4306)",
         "release_tag": "v0.41.0",
         "release_date": "2023-04-28 06:00:39",
         "release_message": "## ⚡Release highlights and summary⚡\r\n\r\n👉 https://github.com/aquasecurity/trivy/discussions/4135\r\n\r\n## Changelog\r\n* 1be1e2e63 fix(spdx): add workaround for no src packages (#4118)\r\n* 45bc9e0de test(golang): rename broken go.mod (#4129)\r\n* 3334e78fa feat(sbom): add supplier field (#4122)\r\n* 27fb1bfde test(misconf): skip downloading of policies for tests #4126\r\n* 845ae31e5 refactor: use debug message for post-analyze errors (#4037)\r\n* 11a5b91a1 feat(sbom): add VEX support (#4053)\r\n* 5eab46498 feat(sbom): add primary package purpose field for SPDX (#4119)\r\n* a00d00eb9 fix(k8s): fix quiet flag (#4120)\r\n* 9bc326909 fix(python): parse of pip extras (#4103)\r\n* 855984167 feat(java): use full path for nested jars (#3992)\r\n* 0650e0e1d feat(license): add new flag for classifier confidence level (#4073)\r\n* 43b649627 feat: config and fs compliance support (#4097)\r\n* 9181bc1f7 chore(deps): bump sigstore/cosign-installer from 2.8.1 to 3.0.1 (#3952)\r\n* 48e021ea6 feat(spdx): add support for SPDX 2.3 (#4058)\r\n* 107752df6 fix: k8s all-namespaces support (#4096)\r\n* bd0c60364 perf(misconf): replace with post-analyzers (#4090)\r\n* 76662d5dd fix(helm): update networking API version detection (#4106)\r\n* be47b688c feat(image): custom docker host option (#3599)\r\n* cc18f92cf style: debug flag is incorrect and needs extra - (#4087)\r\n* 572a6193e docs(vuln): Document inline vulnerability filtering comments (#4024)\r\n* 914c6f092 feat(fs): customize error callback during fs walk (#4038)\r\n* 3f02feeff fix(ubuntu): skip copyright files from subfolders (#4076)\r\n* 57bb77c06 docs: restructure scanners (#3977)\r\n* b19b56c34 fix: fix `file does not exist` error for post-analyzers (#4061)\r\n\r\n"
@@ -3978,8 +3978,8 @@
     "https://github.com/anchore/grype": {
         "created_at": "2020-05-26 13:44:38",
         "description": "A vulnerability scanner for container images and filesystems",
-        "commit_date": "2023-05-22 14:17:34",
-        "commit_message": "bump syft to pre-release of v0.81.0 (#1310)\n\nSigned-off-by: Alex Goodman <alex.goodman@anchore.com>",
+        "commit_date": "2023-05-23 17:57:53",
+        "commit_message": "chore: update gomod with latest syft (#1313)\n\n* chore: update go mod with latest syft\r\n\r\n---------\r\n\r\nSigned-off-by: Christopher Phillips <christopher.phillips@anchore.com>",
         "release_tag": "v0.62.0",
         "release_date": "2023-05-22 14:30:14",
         "release_message": "# Changelog\r\n\r\n## [v0.62.0](https://github.com/anchore/grype/tree/v0.62.0) (2023-05-22)\r\n\r\n[Full Changelog](https://github.com/anchore/grype/compare/v0.61.1...v0.62.0)\r\n\r\n### Added Features\r\n\r\n- Add package qualifier for platform CPE [[PR #1291](https://github.com/anchore/grype/pull/1291)] [[westonsteimel](https://github.com/westonsteimel)]\r\n- Include timestamp and image name in reports [[Issue #1170](https://github.com/anchore/grype/issues/1170)] [[PR #1249](https://github.com/anchore/grype/pull/1249)] [[jneate](https://github.com/jneate)]\r\n- Document command line flag for config file location [[Issue #1271](https://github.com/anchore/grype/issues/1271)] [[PR #1274](https://github.com/anchore/grype/pull/1274)] [[jneate](https://github.com/jneate)]\r\n- Add support for Syft IDs in JSON output [[PR #1266](https://github.com/anchore/grype/pull/1266)] [[luhring](https://github.com/luhring)]\r\n\r\n### Bug Fixes\r\n\r\n- False positive with pkg:rpm PURLs [[Issue #1031](https://github.com/anchore/grype/issues/1031)] [[PR #1237](https://github.com/anchore/grype/pull/1237)] [[Shanedell](https://github.com/Shanedell)]\r\n- Specifying \"extras\" in pip / requirements.txt results in false negative [[Issue #1246](https://github.com/anchore/grype/issues/1246)]\r\n- CycloneDX dependencies relationships inverted [[Issue #1294](https://github.com/anchore/grype/issues/1294)]\r\n\r\n### Additional Changes\r\n\r\n- docs: add \"cyclonedx-json\" to output formats [[PR #1252](https://github.com/anchore/grype/pull/1252)] [[HNKNTA](https://github.com/HNKNTA)]\r\n- chore: update quality gate labels and add keycloak [[PR #1255](https://github.com/anchore/grype/pull/1255)] [[westonsteimel](https://github.com/westonsteimel)]\r\n- Install skopeo during bootstrap [[PR #1260](https://github.com/anchore/grype/pull/1260)] [[willmurphyscode](https://github.com/willmurphyscode)]\r\n- Replace deprecated io/ioutil calls [[PR #1296](https://github.com/anchore/grype/pull/1296)] [[testwill](https://github.com/testwill)]\r\n- Fix reading syft json from stdin by redirect [[PR #1299](https://github.com/anchore/grype/pull/1299)] [[devfbe](https://github.com/devfbe)]\r\n- Add gitignore for default build target [[PR #1305](https://github.com/anchore/grype/pull/1305)] [[testwill](https://github.com/testwill)]\r\n\r\n\r\n\r\n"
@@ -4275,7 +4275,7 @@
     "https://github.com/aiboboxx/v2rayfree": {
         "created_at": "2021-10-13 11:34:53",
         "description": "v2ray公益免费节点、最新2ray免费v节点订阅地址、v2ray免费节点每日更新、免费ss/v2ray/trojan节点、freefq ",
-        "commit_date": "2023-05-22 12:37:19",
+        "commit_date": "2023-05-23 12:37:40",
         "commit_message": "update",
         "release_tag": "",
         "release_date": "",
@@ -4320,8 +4320,8 @@
     "https://github.com/freefq/free": {
         "created_at": "2020-06-07 02:48:33",
         "description": "翻墙、免费翻墙、免费科学上网、免费节点、免费梯子、免费ss/v2ray/trojan节点、蓝灯、谷歌商店、翻墙梯子",
-        "commit_date": "2023-05-23 00:00:03",
-        "commit_message": "updated_at 05-23 08:00",
+        "commit_date": "2023-05-24 00:00:02",
+        "commit_message": "updated_at 05-24 08:00",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
