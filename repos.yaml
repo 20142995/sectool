@@ -96,6 +96,7 @@
             - https://github.com/z-bool/QueryTools
         apk:
             - https://github.com/TheKingOfDuck/ApkAnalyser
+            - https://github.com/MobSF/Mobile-Security-Framework-MobSF
     漏洞发现:
         漏洞扫描框架:
             - https://github.com/knownsec/pocsuite3
