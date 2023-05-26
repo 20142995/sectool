@@ -47,8 +47,8 @@
     "https://github.com/wpscanteam/wpscan": {
         "created_at": "2012-07-11 20:27:47",
         "description": "WPScan WordPress security scanner. Written for security professionals and blog maintainers to test the security of their WordPress websites. Contact us via contact@wpscan.com",
-        "commit_date": "2023-03-19 18:28:09",
-        "commit_message": "Adds DFS",
+        "commit_date": "2023-05-25 15:53:18",
+        "commit_message": "Merge pull request #1784 from wpscanteam/revert-1757-master\n\nUpdate Daily API Request Limit",
         "release_tag": "v3.8.22",
         "release_date": "2022-04-04 14:04:28",
         "release_message": "See https://github.com/wpscanteam/CMSScanner/releases/tag/v0.13.8\r\n\r\n- Minor:\r\n  - Better handling of redirection, ie when target http->https (or the opposite), the target URL will be changed to the new one automatically to avoid scanning the http version and getting 301 which could result in items being missed\r\n  - Better handling of unsupported HEAD method by checking for 501 and timeout as well"
@@ -92,8 +92,8 @@
     "https://github.com/zhzyker/dismap": {
         "created_at": "2021-07-24 12:37:45",
         "description": "Asset discovery and identification tools 快速识别 Web 指纹信息，定位资产类型。辅助红队快速定位目标资产信息，辅助蓝队发现疑似脆弱点",
-        "commit_date": "2023-04-23 02:53:50",
-        "commit_message": "Merge pull request #33 from BigTree975/patch-1\n\nUpdate rule.go",
+        "commit_date": "2023-05-25 03:32:07",
+        "commit_message": "Merge pull request #36 from sockx/fix_https\n\nFix possible problems with https detection",
         "release_tag": "v0.4",
         "release_date": "2022-06-16 10:13:59",
         "release_message": "* Optimize concurrency strategy to improve speed (https://github.com/zhzyker/dismap/commit/a2a779f512fc02984a909f359b644154b8855d64)\r\n* Optimize json output (https://github.com/zhzyker/dismap/commit/a2a779f512fc02984a909f359b644154b8855d64) https://github.com/zhzyker/dismap/issues/19\r\n* Added giop protocol identification rules (https://github.com/zhzyker/dismap/commit/edcf125ffac50c0555ead1791d8688b3477d10ce)\r\n* Added web fingerprinting rules\r\n\r\n***\r\n\r\n* 优化并发策略，理论上扫描速度+50% (https://github.com/zhzyker/dismap/commit/a2a779f512fc02984a909f359b644154b8855d64)\r\n* 优化 json 输出 (https://github.com/zhzyker/dismap/commit/a2a779f512fc02984a909f359b644154b8855d64) https://github.com/zhzyker/dismap/issues/19\r\n* 新增 giop 协议识别 (https://github.com/zhzyker/dismap/commit/edcf125ffac50c0555ead1791d8688b3477d10ce)\r\n* 新增 web 指纹识别规则\r\n\r\n```BASH\r\n#MD5SUM  \r\ned45058d0b4b1a488908003d11566d3f  dismap-0.4-darwin-amd64\r\nd5d8662a35b9d02cd60edbcb6a4d832a  dismap-0.4-darwin-arm64\r\ne62e4e4f17fc14316ff78de7735c1cbc  dismap-0.4-linux-amd64\r\n33ac2c467e3efede0d883f3d5a08281e  dismap-0.4-linux-arm64\r\nd759431d0fcb55881fc3e2afbb1f55d6  dismap-0.4-windows-amd64.exe\r\n545704128fb9faef774037b143d80f0a  dismap-0.4-windows-x86.exe\r\n```"
@@ -200,8 +200,8 @@
     "https://github.com/ycdxsb/PocOrExp_in_Github": {
         "created_at": "2021-04-13 05:46:16",
         "description": "聚合Github上已有的Poc或者Exp，CVE信息来自CVE官网。Auto Collect Poc Or Exp from Github by CVE ID.",
-        "commit_date": "2023-05-24 22:22:08",
-        "commit_message": "update 2023-05-25 06:22:08",
+        "commit_date": "2023-05-25 21:25:51",
+        "commit_message": "update 2023-05-26 05:25:50",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -380,8 +380,8 @@
     "https://github.com/lal0ne/vulnerability": {
         "created_at": "2022-01-20 02:48:42",
         "description": "收集、整理、修改互联网上公开的漏洞POC",
-        "commit_date": "2023-05-24 06:15:27",
-        "commit_message": "CVE-2022-31845",
+        "commit_date": "2023-05-25 01:41:29",
+        "commit_message": "CVE-2022-36642",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -461,7 +461,7 @@
     "https://github.com/ExpLangcn/NucleiTP": {
         "created_at": "2022-11-08 13:16:56",
         "description": "自动整合全网Nuclei的漏洞POC，实时同步更新最新POC！",
-        "commit_date": "2023-05-25 00:30:19",
+        "commit_date": "2023-05-26 00:30:15",
         "commit_message": "更新啦❤️",
         "release_tag": "",
         "release_date": "",
@@ -828,8 +828,8 @@
     "https://github.com/murphysecurity/murphysec": {
         "created_at": "2022-03-16 02:52:33",
         "description": "An open source tool focused on software supply chain security. 墨菲安全专注于软件供应链安全，具备专业的软件成分分析（SCA）、漏洞检测、专业漏洞库。",
-        "commit_date": "2023-05-24 06:10:45",
-        "commit_message": "ci(dependabot): disable dependabot for v2",
+        "commit_date": "2023-05-25 13:05:19",
+        "commit_message": "fix: 修一下字段名",
         "release_tag": "v3.1.1",
         "release_date": "2023-05-15 12:52:58",
         "release_message": "Support NPM lockfile v3 "
@@ -981,8 +981,8 @@
     "https://github.com/sqlmapproject/sqlmap": {
         "created_at": "2012-06-26 09:52:15",
         "description": "Automatic SQL injection and database takeover tool",
-        "commit_date": "2023-05-22 09:31:01",
-        "commit_message": "Minor patch of vuln tests",
+        "commit_date": "2023-05-25 09:27:15",
+        "commit_message": "add support to leverage CVE-2014-6577 for Oracle DNS data exfiltration (#5410)\n\nCo-authored-by: marvin <marvin@debian-BULLSEYE-live-builder-AMD64>",
         "release_tag": "1.7",
         "release_date": "2023-01-02 22:32:55",
         "release_message": "Stable version 1.7 ([changeset](https://github.com/sqlmapproject/sqlmap/compare/1.6...1.7))"
@@ -1861,8 +1861,8 @@
     "https://github.com/f0ng/captcha-killer-modified": {
         "created_at": "2022-03-18 12:41:58",
         "description": "captcha-killer的修改版，支持关键词识别base64编码的图片，添加免费ocr库，用于验证码爆破，适配新版Burpsuite",
-        "commit_date": "2023-05-22 09:20:28",
-        "commit_message": "Update README.md",
+        "commit_date": "2023-05-25 06:28:18",
+        "commit_message": "Update FAQ.md",
         "release_tag": "0.24",
         "release_date": "2023-05-22 09:21:19",
         "release_message": "【2023-5-22】 0.24\r\n- 修复验证码在intruder中无法显示的bug\r\n- 再次修复了装载插件会影响proxy选项卡的问题\r\n\r\n感谢微信群师傅 Cat 反馈"
@@ -2951,8 +2951,8 @@
     "https://github.com/dbeaver/dbeaver": {
         "created_at": "2015-10-21 08:26:28",
         "description": "Free universal database tool and SQL client",
-        "commit_date": "2023-05-24 20:33:58",
-        "commit_message": "CB-2973 reset all password properties on save (#20024)\n\n* CB-2973 reset all password properties on save\r\n\r\n* CB-2973 use keyName instead of id",
+        "commit_date": "2023-05-25 17:30:11",
+        "commit_message": "dbeaver/pro#1611 fix coloring on dark theme (#20086)\n\nSigned-off-by: Georgii Gvinepadze <fireshowel@gmail.com>",
         "release_tag": "23.0.5",
         "release_date": "2023-05-21 16:54:53",
         "release_message": "\n              - SQL Editor:\n                  - Autocomplete for WHERE and SELECT shows aliases with the aliased table\n                  - Hovering information for SQL errors and spelling annotations was added\n                  - Variable and parameter names in the binding dialog are now displayed in their original case\n                  - Information about assigning a non-dynamic variable was added to the binding dialog\n                  - Issue with incorrect icon for Execute SQL Statement after opening Output tab was fixed\n                  - Query Manager: 'Restore Default' button behavior was improved\n                  - Ability to directly execute SQL scripts in native clients was added\n              - Data transfer:\n                  - Ability to trim string values when exporting to XLSX was added\n                  - Handling of datetimeoffset was added\n              - General UI:\n                  - Part divider UI was redesigned\n                  - Option to increase formatting time was added in Preferences\n                  - Issue with closing pinned tabs using 'Close Tabs to the Left' was fixed\n              - Connectivity:\n                  - Issue with driver fallback not being updated was fixed\n              - Databases:\n                  - ClickHouse: driver was updated to 0.4.6 (thanks to @zhicwu)\n                  - Databricks: handling of data types without parameters was added\n                  - Hana: comments handling was fixed\n                  - MySQL: partitions are now supported\n                  - Oracle: TNS import was fixed\n                  - PostgreSQL:\n                      - Issue with duplicate tables with generated columns in Database Navigator was fixed\n                      - Error message about line on the map created with a single point was added\n                      - Schema refresh was fixed\n                  - SQLite: ability to open ER Diagram in the Simple View was added\n              - Localization:\n               \t\t- German localization was improved (thanks to @hype11)\n              \t\t- Italian localization was improved (thanks to @Gnafu)\n            "
@@ -3050,8 +3050,8 @@
     "https://github.com/zan8in/afrog": {
         "created_at": "2022-02-24 06:00:32",
         "description": "A Security Tool for Bug Bounty, Pentest and Red Teaming.",
-        "commit_date": "2023-05-24 03:16:00",
-        "commit_message": "update pocs",
+        "commit_date": "2023-05-26 00:31:10",
+        "commit_message": "update",
         "release_tag": "v2.5.1",
         "release_date": "2023-05-22 09:05:23",
         "release_message": "**Add**\r\nWriting TCP/UDP POC files using YAML\r\nWriting POC files for Go programming language using YAML\r\nThe Shiro Key detection script by default checks 20 keys.\r\n**Optimization**\r\nResolve the path error issue during program updates with the \"-update\" command.\r\nEnhance the console prompt messages\r\nDisable the \"-up\" command and switch to automatic execution.\r\nChange the notification level for the unconfigured reverse connection platform to Info\r\nBy default, target access is not monitored. Please enable it using the \"-monitor-targets\" or \"-mt\" command\r\nRemove duplicate PoC: hikvision-applyct-fastjson-rce\r\n**新增**\r\n使用 YAML 编写 TCP/UDP 的 POC 文件\r\n使用 YAML 调用 Go  语言的 POC 文件\r\nShiro Key 检测脚本默认检测 20 个 Key\r\n**优化**\r\n解决 -update 程序更新时的路径错误问题\r\n改进控制台提示信息\r\n禁用 -up 命令，改为自动执行\r\n将反连平台未配置的提示等级改为 Info\r\n默认情况下不会监视目标访问，请使用 \"-monitor-targets\" 或 \"-mt\" 命令进行启用\r\n删除重复 PoC: hikvision-applyct-fastjson-rce"
@@ -3301,7 +3301,7 @@
         "commit_date": "2023-05-23 03:43:04",
         "commit_message": "cpu-stuck due to multiple registration of nf_hooks (#498)\n\nnf_register_hooks must be called only once upon nf_hook object, otherwise\r\nit would lead dead-loop and thus system hang.\r\n\r\nWe are using register_pernet_subsys as unified soltuion for all network\r\nnamespaces, but nf_register_net_hooks is only available kernels >= 4.3.0.\r\nnf_register_net_hooks is called per-net, while nf_register_hook is NOT.\r\nSo we need limit the calling of nf_register_hooks, and the same to it's\r\npair: nf_unregister_hooks.\r\n\r\nSigned-off-by: shenping.matt <shenping.matt@bytedance.com>",
         "release_tag": "v1.7.0.12-driver-ko-20230524",
-        "release_date": "2023-05-24 07:23:18",
+        "release_date": "2023-05-25 02:01:52",
         "release_message": ""
     },
     "https://github.com/knownsec/ct": {
@@ -3406,8 +3406,8 @@
     "https://github.com/bit4woo/domain_hunter_pro": {
         "created_at": "2019-01-18 07:15:15",
         "description": "domain_hunter的高级版本，SRC挖洞、HW打点之必备！自动化资产收集；快速Title获取；外部工具联动；等等",
-        "commit_date": "2023-05-22 05:53:12",
-        "commit_message": "Update TargetEntryMenu.java",
+        "commit_date": "2023-05-25 14:47:05",
+        "commit_message": "update",
         "release_tag": "v1.9",
         "release_date": "2023-04-18 00:34:58",
         "release_message": "全局：\r\n多个bug修复\r\n布局模式优化\r\n基础方法实现逻辑优化\r\n\r\n右键菜单：\r\n“Do Search”提供主动在制定请求中进行搜索的能力，比如在某企业邮箱的流量中搜索以提取邮箱地址\r\n“Add Request And Comment”右键菜单添逻辑优化，修复一个bug\r\n“Send To Tool Panel”右键菜单处理逻辑优化，可合并发送多个数据包内容\r\n\r\nDomain面板：\r\nroot domain的comments逻辑更新\r\n提供多个网络搜索引擎的后台自动搜索功能\r\nroot domain双击，自动在浏览器中访问\r\n修改目标根域名删除失败的bug\r\n显示序号，以便在排序后恢复原始顺序\r\n\r\nTool面板：\r\n重写JTextArea的paste函数，避免大内容导致程序卡死\r\nJTextArea支持输入文件，而程序处理其内容。\r\n文本取提供简单的历史记录功能\r\nJSON提取逻辑优化\r\n新增多个功能，比如排序\r\n优化URL提取逻辑，避免遗漏没有以/开头的path\r\n\r\nTitle面板中：\r\n端口扫描命令生成逻辑优化\r\n备注和IP内容的显示优化，显示前排序\r\n备注添加逻辑优化\r\n给手动添加的记录添加已知的IP和CNAME、CertInfo\r\n搜索功能增强，支持对数字型字段进行大于、小于、等于等搜索\r\n添加多个搜索实例，以便用户熟悉搜索语法\r\n新增“Do Request Item Again”菜单，对DNS记录或无响应的数据包进行再次请求"
@@ -3699,10 +3699,10 @@
     "https://github.com/carlospolop/PEASS-ng": {
         "created_at": "2019-01-13 19:58:24",
         "description": "PEASS - Privilege Escalation Awesome Scripts SUITE (with colors)",
-        "commit_date": "2023-05-24 22:31:17",
-        "commit_message": "Merge pull request #360 from fredtep/wes-ng\n\nWes ng",
-        "release_tag": "20230524-fe7248f1",
-        "release_date": "2023-05-24 22:48:10",
+        "commit_date": "2023-05-25 12:27:17",
+        "commit_message": "improve",
+        "release_tag": "20230525-7a8f7e06",
+        "release_date": "2023-05-25 12:48:56",
         "release_message": ""
     },
     "https://github.com/waderwu/attackRmi": {
@@ -3906,8 +3906,8 @@
     "https://github.com/anchore/syft": {
         "created_at": "2020-05-07 18:19:29",
         "description": "CLI tool and library for generating a Software Bill of Materials from container images and filesystems",
-        "commit_date": "2023-05-24 21:06:38",
-        "commit_message": "Migrate location-related structs to the file package (#1751)\n\n* migrate location structs to file package\r\n\r\nSigned-off-by: Alex Goodman <alex.goodman@anchore.com>\r\n\r\n* replace source.Location refs with file package call\r\n\r\nSigned-off-by: Alex Goodman <alex.goodman@anchore.com>\r\n\r\n* fix linting\r\n\r\nSigned-off-by: Alex Goodman <alex.goodman@anchore.com>\r\n\r\n* remove hardlink test for file based catalogers\r\n\r\nSigned-off-by: Alex Goodman <alex.goodman@anchore.com>\r\n\r\n* remove hardlink test for all-regular-files testing\r\n\r\nSigned-off-by: Alex Goodman <alex.goodman@anchore.com>\r\n\r\n* migrate file resolver implementations to separate package\r\n\r\nSigned-off-by: Alex Goodman <alex.goodman@anchore.com>\r\n\r\n* fix linting\r\n\r\nSigned-off-by: Alex Goodman <alex.goodman@anchore.com>\r\n\r\n* [wip] migrate resolvers to internal\r\n\r\nSigned-off-by: Alex Goodman <alex.goodman@anchore.com>\r\n\r\n* migrate resolvers to syft/internal\r\n\r\nSigned-off-by: Alex Goodman <alex.goodman@anchore.com>\r\n\r\n---------\r\n\r\nSigned-off-by: Alex Goodman <alex.goodman@anchore.com>\r\nSigned-off-by: <>",
+        "commit_date": "2023-05-25 17:26:56",
+        "commit_message": "Add test to ensure package metadata is represented in the JSON schema (#1841)\n\n* [wip] try to reflect metadata types... probably wont work\r\n\r\nSigned-off-by: Alex Goodman <alex.goodman@anchore.com>\r\n\r\n* refactor to add unit test to ensure there is coverage in the schema\r\n\r\nSigned-off-by: Alex Goodman <alex.goodman@anchore.com>\r\n\r\n* [wip] generate metadata container\r\n\r\nSigned-off-by: Alex Goodman <alex.goodman@anchore.com>\r\n\r\n* add generation of metadata container struct for JSON schema generation\r\n\r\nSigned-off-by: Alex Goodman <alex.goodman@anchore.com>\r\n\r\n* fix linting\r\n\r\nSigned-off-by: Alex Goodman <alex.goodman@anchore.com>\r\n\r\n* update linter script to account for code generation\r\n\r\nSigned-off-by: Alex Goodman <alex.goodman@anchore.com>\r\n\r\n---------\r\n\r\nSigned-off-by: Alex Goodman <alex.goodman@anchore.com>",
         "release_tag": "v0.82.0",
         "release_date": "2023-05-23 17:28:47",
         "release_message": "# Changelog\r\n\r\n## [v0.82.0](https://github.com/anchore/syft/tree/v0.82.0) (2023-05-23)\r\n\r\n[Full Changelog](https://github.com/anchore/syft/compare/v0.81.0...v0.82.0)\r\n\r\n### Added Features\r\n\r\n- Improve Go main module version detection by attempting to parse available ldflags [[Issue #1785](https://github.com/anchore/syft/issues/1785)] [[PR #1832](https://github.com/anchore/syft/pull/1832)] [[wagoodman](https://github.com/wagoodman)]\r\n\r\n### Bug Fixes\r\n- Fix a problem in the license parsing logic that may result in a panic [[PR #1839](https://github.com/anchore/syft/pull/1839)]\r\n- Return all relevant error messages if an image retrieval fails when a scheme is specified [[PR #1801](https://github.com/anchore/syft/pull/1801)] [[FrimIdan](https://github.com/FrimIdan)]\r\n- Fix a problem with PNPM scanning where v6 lockfiles might result in duplicated packages [[Issue #1762](https://github.com/anchore/syft/issues/1762)] [[PR #1778](https://github.com/anchore/syft/pull/1778)] [[kzantow](https://github.com/kzantow)]\r\n\r\n\r\n\r\n"
@@ -3915,11 +3915,11 @@
     "https://github.com/chaitin/safeline": {
         "created_at": "2023-04-12 11:30:14",
         "description": "长亭科技自研，基于业界领先的语义引擎检测技术，打造的简洁、易用的免费 WAF",
-        "commit_date": "2023-05-24 10:50:52",
-        "commit_message": "增加了登录相关的 faq",
-        "release_tag": "v1.5.1",
-        "release_date": "2023-05-18 13:02:23",
-        "release_message": "## 优化\r\n\r\n- 修复了 1.5.0 的问题：自定义规则切换白名单之后，无法创建/编辑的问题\r\n\r\n**注意：低版本升级请执行 upgrade.sh 脚本**"
+        "commit_date": "2023-05-25 09:47:57",
+        "commit_message": "feat: release v1.6.0",
+        "release_tag": "v1.6.0",
+        "release_date": "2023-05-25 10:06:51",
+        "release_message": "## 新增\r\n\r\n- 自定义规则支持匹配 Header 和 Body\r\n- 检测日志支持按域名搜索\r\n- 支持命令行清理检测日志和统计信息\r\n\r\n**注意：低版本升级请执行 upgrade.sh 脚本**"
     },
     "https://github.com/stamparm/identYwaf": {
         "created_at": "2019-01-10 11:27:58",
@@ -3951,8 +3951,8 @@
     "https://github.com/quay/clair": {
         "created_at": "2015-11-13 18:46:16",
         "description": "Vulnerability Static Analysis for Containers",
-        "commit_date": "2023-05-24 21:38:31",
-        "commit_message": "chore: Add the osv updater to the local-dev config\n\nAs osv will be an integral part of a couple of ecosystems, it's be nice\nto have it enabled by default in the dev environment.\n\nSigned-off-by: crozzy <joseph.crosland@gmail.com>",
+        "commit_date": "2023-05-25 21:53:34",
+        "commit_message": "build(deps): bump github.com/urfave/cli/v2 from 2.3.0 to 2.25.3\n\nBumps [github.com/urfave/cli/v2](https://github.com/urfave/cli) from 2.3.0 to 2.25.3.\n- [Release notes](https://github.com/urfave/cli/releases)\n- [Changelog](https://github.com/urfave/cli/blob/main/docs/CHANGELOG.md)\n- [Commits](https://github.com/urfave/cli/compare/v2.3.0...v2.25.3)\n\n---\nupdated-dependencies:\n- dependency-name: github.com/urfave/cli/v2\n  dependency-type: direct:production\n  update-type: version-update:semver-minor\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>",
         "release_tag": "v4.6.1",
         "release_date": "2023-04-13 18:29:02",
         "release_message": "<a name=\"unreleased\"></a>\n## [Unreleased]\n\n\n<a name=\"v4.6.1\"></a>\n## [v4.6.1] - 2023-04-13\n### Airgap\n- [e02aba27](https://github.com/quay/clair/commit/e02aba27de01cb461f79bee9644aac80c2f9bd65): Remove libindex Airgap option\n### Chore\n- [36990912](https://github.com/quay/clair/commit/36990912450fba2ccbef260a4829f1d9f69f45c6): v4.6.1 changelog bump\n- [e676671c](https://github.com/quay/clair/commit/e676671c17d2612470cd8de05aa668312fbb3036): Bump Claircore to v1.4.21\n### Go.Mod\n- [36de97cc](https://github.com/quay/clair/commit/36de97ccf619113b1ef4dff6bfd0e0c692252544): update json (de)serializer\n### Httptransport\n- [922f33d1](https://github.com/quay/clair/commit/922f33d18919578049fbf2ccb756e6990b66f280): fix request_id logging\n### Httputil\n- [9e8eacf5](https://github.com/quay/clair/commit/9e8eacf51b2a45f967036396b3dc14a52edc480d): fix ParseIP usage\n -  [#1689](https://github.com/quay/clair/issues/1689)### Notifier\n- [ffa4556d](https://github.com/quay/clair/commit/ffa4556d0f251cc984ed34594356625b9b747744): Avoid double reference\n\n[Unreleased]: https://github.com/quay/clair/compare/v4.6.1...HEAD\n[v4.6.1]: https://github.com/quay/clair/compare/v4.6.0...v4.6.1\n"
@@ -3969,8 +3969,8 @@
     "https://github.com/aquasecurity/trivy": {
         "created_at": "2019-04-11 01:01:07",
         "description": "Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more",
-        "commit_date": "2023-05-24 11:59:50",
-        "commit_message": "docs: add info about multi-line mode for regexp from custom secret rules (#4159)",
+        "commit_date": "2023-05-25 11:52:28",
+        "commit_message": "feat(k8s): exclude node scanning by node labels (#4459)\n\nSigned-off-by: chenk <hen.keinan@gmail.com>",
         "release_tag": "v0.41.0",
         "release_date": "2023-04-28 06:00:39",
         "release_message": "## ⚡Release highlights and summary⚡\r\n\r\n👉 https://github.com/aquasecurity/trivy/discussions/4135\r\n\r\n## Changelog\r\n* 1be1e2e63 fix(spdx): add workaround for no src packages (#4118)\r\n* 45bc9e0de test(golang): rename broken go.mod (#4129)\r\n* 3334e78fa feat(sbom): add supplier field (#4122)\r\n* 27fb1bfde test(misconf): skip downloading of policies for tests #4126\r\n* 845ae31e5 refactor: use debug message for post-analyze errors (#4037)\r\n* 11a5b91a1 feat(sbom): add VEX support (#4053)\r\n* 5eab46498 feat(sbom): add primary package purpose field for SPDX (#4119)\r\n* a00d00eb9 fix(k8s): fix quiet flag (#4120)\r\n* 9bc326909 fix(python): parse of pip extras (#4103)\r\n* 855984167 feat(java): use full path for nested jars (#3992)\r\n* 0650e0e1d feat(license): add new flag for classifier confidence level (#4073)\r\n* 43b649627 feat: config and fs compliance support (#4097)\r\n* 9181bc1f7 chore(deps): bump sigstore/cosign-installer from 2.8.1 to 3.0.1 (#3952)\r\n* 48e021ea6 feat(spdx): add support for SPDX 2.3 (#4058)\r\n* 107752df6 fix: k8s all-namespaces support (#4096)\r\n* bd0c60364 perf(misconf): replace with post-analyzers (#4090)\r\n* 76662d5dd fix(helm): update networking API version detection (#4106)\r\n* be47b688c feat(image): custom docker host option (#3599)\r\n* cc18f92cf style: debug flag is incorrect and needs extra - (#4087)\r\n* 572a6193e docs(vuln): Document inline vulnerability filtering comments (#4024)\r\n* 914c6f092 feat(fs): customize error callback during fs walk (#4038)\r\n* 3f02feeff fix(ubuntu): skip copyright files from subfolders (#4076)\r\n* 57bb77c06 docs: restructure scanners (#3977)\r\n* b19b56c34 fix: fix `file does not exist` error for post-analyzers (#4061)\r\n\r\n"
@@ -4221,8 +4221,8 @@
     "https://github.com/winezer0/whatweb-plus": {
         "created_at": "2021-08-09 04:40:58",
         "description": "whatweb 增强版  8000+插件（提供windows可执行文件）",
-        "commit_date": "2023-05-14 12:52:23",
-        "commit_message": "解决kali下 ruby 3.1.2 join(nil)报错的问题",
+        "commit_date": "2023-05-25 11:44:40",
+        "commit_message": "Update README.md",
         "release_tag": "v0.5.5.19.fix",
         "release_date": "2023-05-14 12:54:57",
         "release_message": "修复kali下 ruby 3.1.2 下提示 join(nil，\"whatweb\")报错\r\n\r\n注意windows环境下不受影响,可以不进行更新"
@@ -4275,7 +4275,7 @@
     "https://github.com/aiboboxx/v2rayfree": {
         "created_at": "2021-10-13 11:34:53",
         "description": "v2ray公益免费节点、最新2ray免费v节点订阅地址、v2ray免费节点每日更新、免费ss/v2ray/trojan节点、freefq ",
-        "commit_date": "2023-05-24 12:37:38",
+        "commit_date": "2023-05-25 12:39:02",
         "commit_message": "update",
         "release_tag": "",
         "release_date": "",
@@ -4320,8 +4320,8 @@
     "https://github.com/freefq/free": {
         "created_at": "2020-06-07 02:48:33",
         "description": "翻墙、免费翻墙、免费科学上网、免费节点、免费梯子、免费ss/v2ray/trojan节点、蓝灯、谷歌商店、翻墙梯子",
-        "commit_date": "2023-05-25 00:00:02",
-        "commit_message": "updated_at 05-25 08:00",
+        "commit_date": "2023-05-26 00:00:02",
+        "commit_message": "updated_at 05-26 08:00",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -4505,5 +4505,68 @@
         "release_tag": "",
         "release_date": "",
         "release_message": ""
+    },
+    "https://github.com/Anyyy111/ProxyPoolxSocks": {
+        "created_at": "2023-05-15 08:07:49",
+        "description": "☁️Socks代理池服务端自动化搭建工具☁️",
+        "commit_date": "2023-05-24 02:46:57",
+        "commit_message": "2023.5.24",
+        "release_tag": "v1.1",
+        "release_date": "2023-05-24 02:49:47",
+        "release_message": "优化了socks5节点添加，详情请参考README.md"
+    },
+    "https://github.com/grimlockx/ADCSKiller": {
+        "created_at": "2023-05-19 06:51:41",
+        "description": "An ADCS Exploitation Automation Tool Weaponizing Certipy and Coercer",
+        "commit_date": "2023-05-19 14:43:36",
+        "commit_message": "Update README.md",
+        "release_tag": "",
+        "release_date": "",
+        "release_message": ""
+    },
+    "https://github.com/MobSF/Mobile-Security-Framework-MobSF": {
+        "created_at": "2015-01-31 04:36:01",
+        "description": "Mobile Security Framework (MobSF) is an automated, all-in-one mobile application (Android/iOS/Windows) pen-testing, malware analysis and security assessment framework capable of performing static and dynamic analysis.",
+        "commit_date": "2023-05-20 18:23:44",
+        "commit_message": "Enable binary analysis for aar/jar",
+        "release_tag": "v3.6.0",
+        "release_date": "2022-10-04 04:46:23",
+        "release_message": "## IMPORTANT - IF YOU ARE UPDATING MOBSF\r\n\r\nThis release has database model changes. To update see: https://mobsf.github.io/docs/#/updating\r\nThis release has a breaking change. Please rescan all existing scans after the update. Perform rescan from Recent Scans view.\r\n\r\n### v3.6.0 Beta Changelog\r\n\r\n- Features or Enhancements\r\n   - False Positive Triaging / Suppression Triaging Support for critical Android and iOS Security Analysis features.\r\n      -  Android Binary & Source - Supports Code Analysis and Manifest Analysis\r\n      - iOS Binary - Supports Binary Code Analysis\r\n      - iOS Source - Supports Code Analysis\r\n      - New REST APIs for Suppression Support\r\n   - Android Certificate Analysis improvements\r\n   - Remove RELRO check from android binary analysis due to false positives\r\n   - iOS Bundle ID extraction improvements\r\n   - Feature parity - Allow IPA downloads from reports view \r\n   - Code QA: Reduce False positives in identified secrets\r\n   - Check for updates from Github releases\r\n   - M1 Mac support\r\n   - Disabled by default feature to support hotspots in AppSec Scorecard\r\n   - Dependency updates\r\n   - Added CodeQL scan on MobSF python code base\r\n\r\n- Bug Fixes\r\n  - Fixes #1999, #1917, #2042 #1981 #2014 #2043 \r\n  - Fixed a bug in JSON response REST API\r\n  - iOS URL view fix\r\n  - Code fixes to address minor security issues in thrid party libraries.\r\n  - Handle JADX timeouts\r\n "
+    },
+    "https://github.com/gand3lf/semgrepper": {
+        "created_at": "2022-11-04 08:58:52",
+        "description": "An extension to use Semgrep inside Burp Suite.",
+        "commit_date": "2023-04-26 08:25:39",
+        "commit_message": "Update for version 3",
+        "release_tag": "v1.3",
+        "release_date": "2023-04-26 08:37:24",
+        "release_message": "Minor update.\r\nNews:\r\n- improve support for MacOS\r\n- include support for WSL\r\n- improve \"Issue Detail\" section\r\n- bug fixing"
+    },
+    "https://github.com/safe6Sec/proxyServer": {
+        "created_at": "2020-07-20 12:43:40",
+        "description": "本项目其实就是个简单的代理服务器，把代理池集成进来来了。",
+        "commit_date": "2020-10-30 03:21:30",
+        "commit_message": "增加代理稳定性",
+        "release_tag": "v1.0",
+        "release_date": "2021-05-15 07:32:01",
+        "release_message": "单纯的代理服务器，不依赖ip池。\r\n"
+    },
+    "https://github.com/jhao104/proxy_pool": {
+        "created_at": "2016-11-25 13:49:07",
+        "description": "Python爬虫代理IP池(proxy pool)",
+        "commit_date": "2023-05-15 08:23:20",
+        "commit_message": "Merge pull request #745 from jhao104/develop\n\n[update] :chicken: new proxy `docip`",
+        "release_tag": "2.4.1",
+        "release_date": "2023-02-23 07:28:37",
+        "release_message": "1. 新增代理源 **FreeProxyList**; (2022-07-21)\r\n2. 新增代理源 **FateZero**; (2022-08-01)\r\n3. 新增代理属性 ``region``; (2022-08-16)"
+    },
+    "https://github.com/r0oth3x49/ghauri": {
+        "created_at": "2022-10-01 11:21:50",
+        "description": "An advanced cross-platform tool that automates the process of detecting and exploiting SQL injection security flaws",
+        "commit_date": "2023-05-06 08:45:32",
+        "commit_message": "updated code quality, fixed #39, fixed #40, fixed #69, bumped version 1.2.",
+        "release_tag": "1.2",
+        "release_date": "2023-05-06 08:48:32",
+        "release_message": " **Features**\r\n - added support for sql-shell switch: `--sql-shell` (experimental)\r\n - added support for fresh queries switch: `--fresh-queries`\r\n - added switch for hostname extraction: `--hostname`\r\n \r\n **Fixes**\r\n  - Fixed issue with processing multiple switches."
     }
 }
