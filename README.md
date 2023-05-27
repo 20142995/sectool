@@ -1,12 +1,14 @@
-# 更新于 2023-05-26 08:40:39
+# 更新于 2023-05-27 08:44:56
 
 ## 近15天release更新记录
 | 更新时间 | 项目名称 | 版本 | 更新内容 |
 | :---- | :---- | :---- | :---- |
+|2023-05-26 18:04:16|[railgun](https://github.com/lz520520/railgun)|v1.5.5|解压密码 railgun      1. 编码转换    <br>a. 修复AES算法bug    b. 更新ascii编码<br>，可更好处理各种进制格式的字节码    c. <br>增加digital编码，纯数字进制转换    d. <br>增加RSA算法，以及GenerateRSA    e. 增加<br>国密算法，SM2/SM3/SM4|
+|2023-05-26 17:50:28|[grype](https://github.com/anchore/grype)|v0.62.2|# Changelog  ##  (2023-05-26)      |
+|2023-05-26 12:46:44|[Viper](https://github.com/FunnyWolf/Viper)|v1.5.29|### 优化  - 端口转发记录新增连接提示 <br> - 模块运行结果记录运行模块的sessionid<br>  - 适配reverse_tcp_ssl类型payload  - <br>合并metasploit-framework 6.3.18版本  ##<br># Bugfix  - 修复sock4a/socks5代理无法<br>使用问题  - 修复session长时间运行导致内<br>存占用过高问题|
+|2023-05-26 07:09:19|[Elkeid](https://github.com/bytedance/Elkeid)|scanner<br>-v2.2.0.<br>4_202305<br>26||
 |2023-05-25 12:48:56|[PEASS-ng](https://github.com/carlospolop/PEASS-ng)|2023052<br>5-7a8f7e<br>06||
 |2023-05-25 10:06:51|[safeline](https://github.com/chaitin/safeline)|v1.6.0|## 新增    - 自定义规则支持匹配 Heade<br>r 和 Body  - 检测日志支持按域名搜索  -<br> 支持命令行清理检测日志和统计信息    *<br>*注意：低版本升级请执行 upgrade.sh 脚<br>本**|
-|2023-05-25 02:01:52|[Elkeid](https://github.com/bytedance/Elkeid)|v1.7.0.<br>12-drive<br>r-ko-202<br>30524||
-|2023-05-24 13:42:35|[grype](https://github.com/anchore/grype)|v0.62.1|# Changelog    ##  (2023-05-24)      <br>    ## Bug Fixes    - Updated syft to <br>v0.82.0 to address license parsing log<br>ic that may result in a panic  ]    |
 |2023-05-24 02:49:47|[ProxyPoolxSocks](https://github.com/Anyyy111/ProxyPoolxSocks)|v1.1|优化了socks5节点添加，详情请参考READM<br>E.md|
 |2023-05-23 17:28:47|[syft](https://github.com/anchore/syft)|v0.82.0|# Changelog    ##  (2023-05-23)      <br>  ### Added Features    - Improve Go m<br>ain module version detection by attemp<br>ting to parse available ldflags ] ] ] <br>   ### Bug Fixes  - Fix a problem in t<br>he license parsing logic that may resu<br>lt in a panic ]  - Return all relevant<br> error messages if an image retrieval <br>fails when a scheme is specified ] ]  <br>- Fix a problem with PNPM scanning whe<br>re v6 lockfiles might result in duplic<br>ated packages ] ] ]        |
 |2023-05-23 07:08:29|[veinmind-tools](https://github.com/chaitin/veinmind-tools)|v2.1.3|## 🔥 Feature  * feat(veinmind-weakpa<br>ss): add mysql5 weakpass scan by @ek1n<br>g in https://github.com/chaitin/veinmi<br>nd-tools/pull/237   * feat(plugins): u<br>se bullseye && update libveinmind-dev <br>1.9.15 by @DVKunion in https://github.<br>com/chaitin/veinmind-tools/pull/239  *<br> feat(weakpass): support caching_sha2_<br>password and enhance MyISAM pkg by @as<br>jdf  in https://github.com/chaitin/vei<br>nmind-tools/pull/235  * feat(plugins):<br> update kubernetes iac polices by @ek1<br>ng in https://github.com/chaitin/veinm<br>ind-tools/pull/240  * feat(veinmind-se<br>nsitive): support env and docker histo<br>ry scan by @ek1ng in https://github.co<br>m/chaitin/veinmind-tools/pull/242    #<br># 🔧 Fix  * fix(libveinmind): fix libv<br>einmind walk data race error by @DVKun<br>ion in https://github.com/chaitin/vein<br>mind-tools/pull/231  * fix(veinmind-ma<br>licious): optimize code  by  @testwill<br> in https://github.com/chaitin/veinmin<br>d-tools/pull/233  * fix(veinmind-weakp<br>ass): fix mysql8 weakpass check by @ek<br>1ng in https://github.com/chaitin/vein<br>mind-tools/pull/241    ## 📒 Others  *<br> chore(unsafe-mount): remove duplicate<br> code by @testwill in https://github.c<br>om/chaitin/veinmind-tools/pull/229  * <br>chore(func):  update deprecated func a<br>nd clean Dockerfile by @asjdf in https<br>://github.com/chaitin/veinmind-tools/p<br>ull/232  * docs(readme): add star hist<br>ory by @ek1ng in https://github.com/ch<br>aitin/veinmind-tools/pull/238    ## 🎉<br> New Contributors  * @asjdf made their<br> first contribution in https://github.<br>com/chaitin/veinmind-tools/pull/232   <br> **Full Changelog**: https://github.co<br>m/chaitin/veinmind-tools/compare/v2.1.<br>2...v2.1.3|
@@ -25,27 +27,32 @@
 |2023-05-15 12:52:58|[murphysec](https://github.com/murphysecurity/murphysec)|v3.1.1|Support NPM lockfile v3 |
 |2023-05-14 12:54:57|[whatweb-plus](https://github.com/winezer0/whatweb-plus)|v0.5.5.<br>19.fix|修复kali下 ruby 3.1.2 下提示 join(nil<br>，"whatweb")报错    注意windows环境下不<br>受影响,可以不进行更新|
 |2023-05-12 03:16:59|[iDefender](https://github.com/wecooperate/iDefender)|2.7.0|添加易用性、稳定性，建议更新    - 更<br>新SDK到最新的版本    - 文件的读写添加首<br>次事件通知    - 过滤掉命名管道的读写请<br>求    - 规则引擎优化    - 去掉只读文件<br>监控开关    - 隐私保护换成读取文件、文<br>件映射事件    - 导出规则、导入规则、分<br>享规则添加信任列表的导出导入  - 优化开<br>机启动的逻辑，添加注册表开机启动项  - <br>模板更新（支持经典模式：新建、修改、删<br>除、读取等概念）    - 添加全能模板    -<br> 添加进程行为模板    - 添加文件行为模<br>板    - 添加注册表行为模板    - 添加网<br>络行为模板    - 其他    - 修复数据库一<br>些操作异常    - 修复进程保护、进程操作<br>拦截可能导致进程启动不了的问题    - 修<br>复一些误报问题    - 修复对话框界面最大<br>化状态的阴影问题    - 规则引擎添加更多<br>扩展属性              软件下载   |
-|2023-05-11 23:49:58|[nuclei](https://github.com/projectdiscovery/nuclei)|v2.9.4|## What's Changed  * Added option for<br> nuclei templates / config reset by @t<br>arunKoyalwar in https://github.com/pro<br>jectdiscovery/nuclei/pull/3675  consol<br>e     -reset  reset removes all nuclei<br> configuration and data files (includi<br>ng nuclei-templates)        **Full Cha<br>ngelog**: https://github.com/projectdi<br>scovery/nuclei/compare/v2.9.3...v2.9.4|
-|2023-05-11 07:00:15|[URLFinder](https://github.com/pingc0y/URLFinder)|2023.5.<br>11|2023/5/11  变化 -i 配置文件可自定义：<br>线程数、抓取深度、敏感路由、超时时间、<br>最大抓取数  新增 -time 设置超时时间  新<br>增 -max 设置最大抓取数  新增 添加版本更<br>新提示  修复 已知bug|
 ## 近15天commit提交记录
 | 提交时间 | 项目名称 | 更新内容 |
 | :---- | :---- | :---- |
-|2023-05-26 00:31:10|[afrog](https://github.com/zan8in/afrog)|update|
-|2023-05-26 00:30:15|[NucleiTP](https://github.com/ExpLangcn/NucleiTP)|更新啦❤️|
-|2023-05-26 00:00:02|[free](https://github.com/freefq/free)|updated_at 05-26 08:00|
-|2023-05-25 21:53:34|[clair](https://github.com/quay/clair)|build(deps): bump github.com/urfave/cli/v2 from 2.3<br>.0 to 2.25.3  Bumps  from 2.3.0 to 2.25.3. -  -  -  <br> --- updated-dependencies: - dependency-name: github<br>.com/urfave/cli/v2   dependency-type: direct:product<br>ion   update-type: version-update:semver-minor ...  <br>Signed-off-by: dependabot[bot] |
-|2023-05-25 21:25:51|[PocOrExp_in_Githu<br>b](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-05-26 05:25:50|
-|2023-05-25 17:30:11|[dbeaver](https://github.com/dbeaver/dbeaver)|dbeaver/pro#1611 fix coloring on dark theme (#20086<br>)  Signed-off-by: Georgii Gvinepadze |
-|2023-05-25 17:26:56|[syft](https://github.com/anchore/syft)|Add test to ensure package metadata is represented <br>in the JSON schema (#1841)  * [wip] try to reflect m<br>etadata types... probably wont work    Signed-off-by<br>: Alex Goodman     * refactor to add unit test to en<br>sure there is coverage in the schema    Signed-off-b<br>y: Alex Goodman     * [wip] generate metadata contai<br>ner    Signed-off-by: Alex Goodman     * add generat<br>ion of metadata container struct for JSON schema gen<br>eration    Signed-off-by: Alex Goodman     * fix lin<br>ting    Signed-off-by: Alex Goodman     * update lin<br>ter script to account for code generation    Signed-<br>off-by: Alex Goodman     ---------    Signed-off-by:<br> Alex Goodman |
+|2023-05-27 00:30:16|[NucleiTP](https://github.com/ExpLangcn/NucleiTP)|更新啦❤️|
+|2023-05-27 00:00:02|[free](https://github.com/freefq/free)|updated_at 05-27 08:00|
+|2023-05-26 22:22:56|[PocOrExp_in_Githu<br>b](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-05-27 06:22:56|
+|2023-05-26 20:30:53|[SSTImap](https://github.com/vladko312/SSTImap)|Version 1.1.3 (Bugfixes)  Fixed bug with the new co<br>okie processing  Fixed some code being unreachable  <br>Moved new parameter to a different category    Just <br>a minor bugfix update|
+|2023-05-26 20:08:20|[syft](https://github.com/anchore/syft)|chore(deps): bump github.com/docker/docker (#1849) <br> Bumps  from 24.0.1+incompatible to 24.0.2+incompati<br>ble.  -   -     ---  updated-dependencies:  - depend<br>ency-name: github.com/docker/docker    dependency-ty<br>pe: direct:production    update-type: version-update<br>:semver-patch  ...    Signed-off-by: dependabot[bot]<br>   Co-authored-by: dependabot[bot] |
+|2023-05-26 17:47:54|[clair](https://github.com/quay/clair)|chore: bump Claircore to v1.5.5  Bump Claircore to <br>the latest tag.  Signed-off-by: crozzy |
+|2023-05-26 17:37:08|[grype](https://github.com/anchore/grype)|feat: add source and type to CVSS information (#131<br>7)  Adds source and type to the CVSS score informati<br>on to allow  identification of the organization that<br> submitted the score and whether  they are a primary<br> or secondary source.    Signed-off-by: Weston Steim<br>el |
+|2023-05-26 15:25:06|[dbeaver](https://github.com/dbeaver/dbeaver)|dbeaver/pro#1652 Cancel detached jobs during editor<br> save (#20098)  Co-authored-by: Matvey16 |
+|2023-05-26 12:36:12|[v2rayfree](https://github.com/aiboboxx/v2rayfree)|update|
+|2023-05-26 12:29:21|[domain_hunter_pro](https://github.com/bit4woo/domain_hunter_pro)|Update SearchMenu.java|
+|2023-05-26 10:48:12|[Elkeid](https://github.com/bytedance/Elkeid)|Optimization: using hash for trusted exe & arg chec<br>k  Convert string comparison to 64-bit hash comparis<br>on, the former is less efficient. With 128 items in <br>the rbtree, 7 times of comparison will be performed <br>for every call of the hooked points.  Here murmur64 <br>is used for string hash, and there's no collison amo<br>ng 18,734,347 pathes.  Signed-off-by: shenping.matt |
+|2023-05-26 10:41:30|[kube-bench](https://github.com/aquasecurity/kube-bench)|build(deps): bump alpine from 3.17 to 3.18 (#1443) <br> Bumps alpine from 3.17 to 3.18.    ---  updated-dep<br>endencies:  - dependency-name: alpine    dependency-<br>type: direct:production    update-type: version-upda<br>te:semver-minor  ...    Signed-off-by: dependabot[bo<br>t]   Co-authored-by: dependabot[bot] |
+|2023-05-26 09:33:38|[afrog](https://github.com/zan8in/afrog)|update|
+|2023-05-26 08:45:23|[safeline](https://github.com/chaitin/safeline)|fix(fe): detection page styles|
+|2023-05-26 06:13:09|[knife](https://github.com/bit4woo/knife)|Update GUI.java|
+|2023-05-25 22:46:16|[ChatGPT-Shortcut](https://github.com/rockbenben/ChatGPT-Shortcut)|Merge pull request #30 from CharlieJCJ/main  Update<br> README.md|
 |2023-05-25 15:53:18|[wpscan](https://github.com/wpscanteam/wpscan)|Merge pull request #1784 from wpscanteam/revert-175<br>7-master  Update Daily API Request Limit|
-|2023-05-25 14:47:05|[domain_hunter_pro](https://github.com/bit4woo/domain_hunter_pro)|update|
 |2023-05-25 13:05:19|[murphysec](https://github.com/murphysecurity/murphysec)|fix: 修一下字段名|
-|2023-05-25 12:39:02|[v2rayfree](https://github.com/aiboboxx/v2rayfree)|update|
 |2023-05-25 12:27:17|[PEASS-ng](https://github.com/carlospolop/PEASS-ng)|improve|
 |2023-05-25 11:52:28|[trivy](https://github.com/aquasecurity/trivy)|feat(k8s): exclude node scanning by node labels (#4<br>459)  Signed-off-by: chenk |
 |2023-05-25 11:44:40|[whatweb-plus](https://github.com/winezer0/whatweb-plus)|Update README.md|
-|2023-05-25 09:47:57|[safeline](https://github.com/chaitin/safeline)|feat: release v1.6.0|
 |2023-05-25 09:27:15|[sqlmap](https://github.com/sqlmapproject/sqlmap)|add support to leverage CVE-2014-6577 for Oracle DN<br>S data exfiltration (#5410)  Co-authored-by: marvin |
+|2023-05-25 08:05:47|[awesome-chatgpt-z<br>h](https://github.com/yzfly/awesome-chatgpt-zh)|update readme|
 |2023-05-25 06:28:18|[captcha-killer-mo<br>dified](https://github.com/f0ng/captcha-killer-modified)|Update FAQ.md|
 |2023-05-25 03:32:07|[dismap](https://github.com/zhzyker/dismap)|Merge pull request #36 from sockx/fix_https  Fix po<br>ssible problems with https detection|
 |2023-05-25 01:41:29|[vulnerability](https://github.com/lal0ne/vulnerability)|CVE-2022-36642|
@@ -53,18 +60,17 @@
 |2023-05-24 13:38:21|[Library-POC](https://github.com/luck-ying/Library-POC)|Update README.md|
 |2023-05-24 10:30:30|[xray](https://github.com/chaitin/xray)|[fix] readme|
 |2023-05-24 02:46:57|[ProxyPoolxSocks](https://github.com/Anyyy111/ProxyPoolxSocks)|2023.5.24|
-|2023-05-23 17:57:53|[grype](https://github.com/anchore/grype)|chore: update gomod with latest syft (#1313)  * cho<br>re: update go mod with latest syft    ---------    S<br>igned-off-by: Christopher Phillips |
 |2023-05-23 15:28:53|[revsuit](https://github.com/Li4n0/revsuit)|chore(release): 0.7.0|
 |2023-05-23 06:16:32|[veinmind-tools](https://github.com/chaitin/veinmind-tools)|Merge pull request #242 from ek1ng/feat/sensitive-p<br>lugin  feat(sensitive): support env and docker histo<br>ry scan|
-|2023-05-23 03:43:04|[Elkeid](https://github.com/bytedance/Elkeid)|cpu-stuck due to multiple registration of nf_hooks <br>(#498)  nf_register_hooks must be called only once u<br>pon nf_hook object, otherwise  it would lead dead-lo<br>op and thus system hang.    We are using register_pe<br>rnet_subsys as unified soltuion for all network  nam<br>espaces, but nf_register_net_hooks is only available<br> kernels >= 4.3.0.  nf_register_net_hooks is called <br>per-net, while nf_register_hook is NOT.  So we need <br>limit the calling of nf_register_hooks, and the same<br> to it's  pair: nf_unregister_hooks.    Signed-off-b<br>y: shenping.matt |
 |2023-05-23 02:44:56|[cf](https://github.com/teamssix/cf)|Merge pull request #234 from teamssix/dev-teamssix <br> docs: update readme|
 |2023-05-23 02:21:00|[Awesome-Redteam](https://github.com/Threekiii/Awesome-Redteam)|更新README.md|
 |2023-05-23 01:57:50|[Sec-Tools](https://github.com/jwt1399/Sec-Tools)|Merge pull request #21 from popcell/master  修复了<br>一些运行时候遇到的小问题|
+|2023-05-22 14:11:44|[chatgpt](https://github.com/LangLangShanDeNanKe/chatgpt)|Update README.md|
 |2023-05-22 13:41:23|[Viper](https://github.com/FunnyWolf/Viper)|update version v1.5.29|
+|2023-05-22 09:33:22|[Awesome-ChatGPT](https://github.com/dalinvip/Awesome-ChatGPT)|Update README.md  a|
 |2023-05-22 09:27:13|[autoDecoder](https://github.com/f0ng/autoDecoder)|Add files via upload|
 |2023-05-22 08:49:11|[Vulnerability-Wik<br>i](https://github.com/Threekiii/Vulnerability-Wiki)|更新README.md|
 |2023-05-22 08:33:48|[Awesome-POC](https://github.com/Threekiii/Awesome-POC)|更新漏洞|
-|2023-05-21 14:53:58|[kube-bench](https://github.com/aquasecurity/kube-bench)|support CIS Amazon Elastic Kubernetes Service (EKS)<br> Benchmark v1.2.0 (#1449)  closes #1448|
 |2023-05-21 14:50:25|[DNSlog-GO](https://github.com/lanyi1998/DNSlog-GO)|fix:空切片的bug|
 |2023-05-21 11:05:35|[superSearchPlus](https://github.com/dark-kingA/superSearchPlus)|更新vue路由扫描|
 |2023-05-21 05:50:31|[Ladon](https://github.com/k8gege/Ladon)|Add files via upload|
@@ -89,13 +95,7 @@
 |2023-05-13 15:32:04|[SmsForwarder](https://github.com/pppscn/SmsForwarder)|新增：支持Bark推送加密 #273 (详见：https://bark.day<br>.app/#/encryption)|
 |2023-05-13 07:35:52|[mitaka](https://github.com/ninoseki/mitaka)|Merge pull request #734 from ninoseki/update-plasmo<br>  chore: update plasmo|
 |2023-05-12 09:58:11|[vulhub](https://github.com/vulhub/vulhub)|Merge pull request #351 from ndeloof/patch-1  Updat<br>e README for compose v2|
-|2023-05-12 03:56:46|[ddddocr](https://github.com/sml2h3/ddddocr)|Update README.md|
-|2023-05-11 23:48:32|[nuclei](https://github.com/projectdiscovery/nuclei)|version update|
-|2023-05-11 16:05:14|[Dude](https://github.com/x364e3ab6/Dude)|Update README.md|
-|2023-05-11 14:36:58|[PocList](https://github.com/1n7erface/PocList)|Update README.md|
-|2023-05-11 13:57:55|[v2rayA](https://github.com/v2rayA/v2rayA)|chore: add udp443 flows|
-|2023-05-11 09:31:50|[RouteVulScan](https://github.com/F6JO/RouteVulScan)|Update README.md|
-|2023-05-11 07:23:51|[URLFinder](https://github.com/pingc0y/URLFinder)|Update README.md  2023/5/11更新|## 所有项目
+|2023-05-12 03:56:46|[ddddocr](https://github.com/sml2h3/ddddocr)|Update README.md|## 所有项目
 # 渗透测试
 ## 信息收集
 ### 资产测绘采集
@@ -316,7 +316,7 @@
 #### 容器镜像扫描
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
-| [grype](https://github.com/anchore/grype) | v0.62.1 | A vulnerability scanner for container images and filesystems |
+| [grype](https://github.com/anchore/grype) | v0.62.2 | A vulnerability scanner for container images and filesystems |
 | [syft](https://github.com/anchore/syft) | v0.82.0 | CLI tool and library for generating a Software Bill of Materia<br>ls from container images and filesystems |
 #### K8S漏洞扫描
 | 项目名称 | 版本 | 项目描述 |
@@ -333,7 +333,7 @@
 ### 半自动化漏洞利用
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
-| [railgun](https://github.com/lz520520/railgun) | v1.5.4-<br>fix |  |
+| [railgun](https://github.com/lz520520/railgun) | v1.5.5 |  |
 | [Goby](https://github.com/gobysec/Goby) | Beta2.2<br>.0 | Attack surface mapping |
 | [zpscan](https://github.com/niudaii/zpscan) | v1.8.39 | 一个有点好用的信息收集工具。A somewhat useful information gath<br>ering tool. |
 ### 数据库利用
@@ -563,7 +563,7 @@
 ### 漏洞利用
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
-| [Viper](https://github.com/FunnyWolf/Viper) | v1.5.28 | Redteam operation  platform with webui 图形化红队行动辅助平台 |
+| [Viper](https://github.com/FunnyWolf/Viper) | v1.5.29 | Redteam operation  platform with webui 图形化红队行动辅助平台 |
 ### 横向工具
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
@@ -957,6 +957,14 @@
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
 | [Umi-OCR](https://github.com/hiroi-sora/Umi-OCR) | v1.3.4 | OCR图片转文字识别软件，完全离线。截屏/批量导入图片，支持多国语<br>言、合并段落、竖排文字。可排除水印区域，提取干净的文本。基于 Pad<br>dleOCR 。 |
+## chatgpt
+| 项目名称 | 版本 | 项目描述 |
+| :---- | :---- | :---- |
+| [chatgpt](https://github.com/LangLangShanDeNanKe/chatgpt) |  | ChatGPT网址导航，分享免费好用AI网站！ |
+| [Awesome-ChatGPT](https://github.com/dalinvip/Awesome-ChatGPT) |  | ChatGPT资料汇总学习，持续更新...... |
+| [awesome-chatgpt-z<br>h](https://github.com/yzfly/awesome-chatgpt-zh) |  | ChatGPT 中文指南🔥，ChatGPT 中文调教指南，指令指南，精选资源清<br>单，更好的使用 chatGPT 让你的生产力 up up up! 🚀 |
+| [chatgpt-mac](https://github.com/vincelwt/chatgpt-mac) | v0.0.5 | ChatGPT for Mac, living in your menubar. |
+| [ChatGPT-Shortcut](https://github.com/rockbenben/ChatGPT-Shortcut) |  | Maximize your efficiency and productivity. 让生产力加倍的 Chat<br>GPT 快捷指令，按照领域和功能分区，可对提示词进行标签筛选、关键<br>词搜索和一键复制。 |
 # 安全产品
 ## 威胁检测
 | 项目名称 | 版本 | 项目描述 |
@@ -965,7 +973,7 @@
 ## 主机入侵检测
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
-| [Elkeid](https://github.com/bytedance/Elkeid) | v1.7.0.<br>12-drive<br>r-ko-202<br>30524 | Elkeid is an open source solution that can meet the security r<br>equirements of various workloads such as hosts, containers and <br>K8s, and serverless. It is derived from ByteDance's internal be<br>st practices. |
+| [Elkeid](https://github.com/bytedance/Elkeid) | scanner<br>-v2.2.0.<br>4_202305<br>26 | Elkeid is an open source solution that can meet the security r<br>equirements of various workloads such as hosts, containers and <br>K8s, and serverless. It is derived from ByteDance's internal be<br>st practices. |
 | [Hades](https://github.com/theSecHunter/Hades) |  | Hades is an cross-platform HIDS with kernel-space data collect<br>ion. |
 ## Web应用防火墙
 | 项目名称 | 版本 | 项目描述 |

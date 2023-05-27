@@ -200,8 +200,8 @@
     "https://github.com/ycdxsb/PocOrExp_in_Github": {
         "created_at": "2021-04-13 05:46:16",
         "description": "聚合Github上已有的Poc或者Exp，CVE信息来自CVE官网。Auto Collect Poc Or Exp from Github by CVE ID.",
-        "commit_date": "2023-05-25 21:25:51",
-        "commit_message": "update 2023-05-26 05:25:50",
+        "commit_date": "2023-05-26 22:22:56",
+        "commit_message": "update 2023-05-27 06:22:56",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -461,7 +461,7 @@
     "https://github.com/ExpLangcn/NucleiTP": {
         "created_at": "2022-11-08 13:16:56",
         "description": "自动整合全网Nuclei的漏洞POC，实时同步更新最新POC！",
-        "commit_date": "2023-05-26 00:30:15",
+        "commit_date": "2023-05-27 00:30:16",
         "commit_message": "更新啦❤️",
         "release_tag": "",
         "release_date": "",
@@ -765,8 +765,8 @@
     "https://github.com/vladko312/SSTImap": {
         "created_at": "2022-06-15 06:27:32",
         "description": "Automatic SSTI detection tool with interactive interface",
-        "commit_date": "2023-04-27 19:56:24",
-        "commit_message": "Version 1.1.1 (Improvements)\n\nImproved config functionality\r\nFixed crawling changing settings\r\nFixed automatic imports\r\nAdded warning for new python versions\r\n\r\nA minor update with simple improvements and fixes",
+        "commit_date": "2023-05-26 20:30:53",
+        "commit_message": "Version 1.1.3 (Bugfixes)\n\nFixed bug with the new cookie processing\r\nFixed some code being unreachable\r\nMoved new parameter to a different category\r\n\r\nJust a minor bugfix update",
         "release_tag": "v1.1",
         "release_date": "2023-04-16 22:40:19",
         "release_message": "- Crawler and form detection (by @fantesykikachu)\r\n- New template engine added: Cheetah\r\n- Automatic import for engine modules\r\n- Interactive module reloading capability\r\n- Full support for Python 3.11\r\n- Replaced telnetlib with a custom TCP client"
@@ -2005,8 +2005,8 @@
     "https://github.com/bit4woo/knife": {
         "created_at": "2018-06-12 14:25:18",
         "description": "A burp extension that add some useful function to  Context Menu 添加一些右键菜单让burp用起来更顺畅",
-        "commit_date": "2023-04-25 03:38:19",
-        "commit_message": "v2.2",
+        "commit_date": "2023-05-26 06:13:09",
+        "commit_message": "Update GUI.java",
         "release_tag": "v2.2",
         "release_date": "2023-04-25 03:38:54",
         "release_message": "更新“Find URL And Request”功能\r\n更新chinese中文显示面板逻辑，及时刷新避免有时显示不一致的问题\r\n端口扫描逻辑优化，多个host在同一个命令行中完成扫描，避免打开太多窗口\r\n更新dismiss功能，规则更清晰也更容易自行编辑处理。\r\n让proxy中的数据包编辑更改可视化，更容易判断数据处理规则是否正确\r\n数据包修改更新、丢弃转发的规则类型更丰富，适应更多场景。"
@@ -2374,9 +2374,9 @@
         "description": "Redteam operation  platform with webui 图形化红队行动辅助平台",
         "commit_date": "2023-05-22 13:41:23",
         "commit_message": "update version v1.5.29",
-        "release_tag": "v1.5.28",
-        "release_date": "2023-05-06 12:11:03",
-        "release_message": "## v1.5.28 20230506\r\n### 新功能\r\n- 新增`只显示Session`功能(首页和网络拓扑更简洁)\r\n- 面向互联网的handler被扫描(网络测绘)时会在Notice提示\r\n### 优化\r\n- 合并metasploit-framework 6.3.16版本\r\n### Bugfix\r\n- 修复无法修改包含中文内容的文件问题\r\n- 修复`文件管理`无法上传文件问题"
+        "release_tag": "v1.5.29",
+        "release_date": "2023-05-26 12:46:44",
+        "release_message": "### 优化\r\n- 端口转发记录新增连接提示\r\n- 模块运行结果记录运行模块的sessionid\r\n- 适配reverse_tcp_ssl类型payload\r\n- 合并metasploit-framework 6.3.18版本\r\n### Bugfix\r\n- 修复sock4a/socks5代理无法使用问题\r\n- 修复session长时间运行导致内存占用过高问题"
     },
     "https://github.com/kost/dvcs-ripper": {
         "created_at": "2012-10-23 04:55:18",
@@ -2951,8 +2951,8 @@
     "https://github.com/dbeaver/dbeaver": {
         "created_at": "2015-10-21 08:26:28",
         "description": "Free universal database tool and SQL client",
-        "commit_date": "2023-05-25 17:30:11",
-        "commit_message": "dbeaver/pro#1611 fix coloring on dark theme (#20086)\n\nSigned-off-by: Georgii Gvinepadze <fireshowel@gmail.com>",
+        "commit_date": "2023-05-26 15:25:06",
+        "commit_message": "dbeaver/pro#1652 Cancel detached jobs during editor save (#20098)\n\nCo-authored-by: Matvey16 <82543000+Matvey16@users.noreply.github.com>",
         "release_tag": "23.0.5",
         "release_date": "2023-05-21 16:54:53",
         "release_message": "\n              - SQL Editor:\n                  - Autocomplete for WHERE and SELECT shows aliases with the aliased table\n                  - Hovering information for SQL errors and spelling annotations was added\n                  - Variable and parameter names in the binding dialog are now displayed in their original case\n                  - Information about assigning a non-dynamic variable was added to the binding dialog\n                  - Issue with incorrect icon for Execute SQL Statement after opening Output tab was fixed\n                  - Query Manager: 'Restore Default' button behavior was improved\n                  - Ability to directly execute SQL scripts in native clients was added\n              - Data transfer:\n                  - Ability to trim string values when exporting to XLSX was added\n                  - Handling of datetimeoffset was added\n              - General UI:\n                  - Part divider UI was redesigned\n                  - Option to increase formatting time was added in Preferences\n                  - Issue with closing pinned tabs using 'Close Tabs to the Left' was fixed\n              - Connectivity:\n                  - Issue with driver fallback not being updated was fixed\n              - Databases:\n                  - ClickHouse: driver was updated to 0.4.6 (thanks to @zhicwu)\n                  - Databricks: handling of data types without parameters was added\n                  - Hana: comments handling was fixed\n                  - MySQL: partitions are now supported\n                  - Oracle: TNS import was fixed\n                  - PostgreSQL:\n                      - Issue with duplicate tables with generated columns in Database Navigator was fixed\n                      - Error message about line on the map created with a single point was added\n                      - Schema refresh was fixed\n                  - SQLite: ability to open ER Diagram in the Simple View was added\n              - Localization:\n               \t\t- German localization was improved (thanks to @hype11)\n              \t\t- Italian localization was improved (thanks to @Gnafu)\n            "
@@ -3050,7 +3050,7 @@
     "https://github.com/zan8in/afrog": {
         "created_at": "2022-02-24 06:00:32",
         "description": "A Security Tool for Bug Bounty, Pentest and Red Teaming.",
-        "commit_date": "2023-05-26 00:31:10",
+        "commit_date": "2023-05-26 09:33:38",
         "commit_message": "update",
         "release_tag": "v2.5.1",
         "release_date": "2023-05-22 09:05:23",
@@ -3178,9 +3178,9 @@
         "description": "",
         "commit_date": "2023-05-08 17:00:45",
         "commit_message": "Update README.md",
-        "release_tag": "v1.5.4-fix",
-        "release_date": "2023-05-08 16:50:17",
-        "release_message": "解压密码railgun\r\n\r\nfix: 修复若干bug"
+        "release_tag": "v1.5.5",
+        "release_date": "2023-05-26 18:04:16",
+        "release_message": "解压密码 railgun\r\n\r\n\r\n1. 编码转换\r\n  a. 修复AES算法bug\r\n  b. 更新ascii编码，可更好处理各种进制格式的字节码\r\n  c. 增加digital编码，纯数字进制转换\r\n  d. 增加RSA算法，以及GenerateRSA\r\n  e. 增加国密算法，SM2/SM3/SM4"
     },
     "https://github.com/AngraTeam/wprecon": {
         "created_at": "",
@@ -3298,10 +3298,10 @@
     "https://github.com/bytedance/Elkeid": {
         "created_at": "2020-12-18 03:15:54",
         "description": "Elkeid is an open source solution that can meet the security requirements of various workloads such as hosts, containers and K8s, and serverless. It is derived from ByteDance's internal best practices.",
-        "commit_date": "2023-05-23 03:43:04",
-        "commit_message": "cpu-stuck due to multiple registration of nf_hooks (#498)\n\nnf_register_hooks must be called only once upon nf_hook object, otherwise\r\nit would lead dead-loop and thus system hang.\r\n\r\nWe are using register_pernet_subsys as unified soltuion for all network\r\nnamespaces, but nf_register_net_hooks is only available kernels >= 4.3.0.\r\nnf_register_net_hooks is called per-net, while nf_register_hook is NOT.\r\nSo we need limit the calling of nf_register_hooks, and the same to it's\r\npair: nf_unregister_hooks.\r\n\r\nSigned-off-by: shenping.matt <shenping.matt@bytedance.com>",
-        "release_tag": "v1.7.0.12-driver-ko-20230524",
-        "release_date": "2023-05-25 02:01:52",
+        "commit_date": "2023-05-26 10:48:12",
+        "commit_message": "Optimization: using hash for trusted exe & arg check\n\nConvert string comparison to 64-bit hash comparison, the former is less\nefficient. With 128 items in the rbtree, 7 times of comparison will be\nperformed for every call of the hooked points.\n\nHere murmur64 is used for string hash, and there's no collison among\n18,734,347 pathes.\n\nSigned-off-by: shenping.matt <shenping.matt@bytedance.com>",
+        "release_tag": "scanner-v2.2.0.4_20230526",
+        "release_date": "2023-05-26 07:09:19",
         "release_message": ""
     },
     "https://github.com/knownsec/ct": {
@@ -3406,8 +3406,8 @@
     "https://github.com/bit4woo/domain_hunter_pro": {
         "created_at": "2019-01-18 07:15:15",
         "description": "domain_hunter的高级版本，SRC挖洞、HW打点之必备！自动化资产收集；快速Title获取；外部工具联动；等等",
-        "commit_date": "2023-05-25 14:47:05",
-        "commit_message": "update",
+        "commit_date": "2023-05-26 12:29:21",
+        "commit_message": "Update SearchMenu.java",
         "release_tag": "v1.9",
         "release_date": "2023-04-18 00:34:58",
         "release_message": "全局：\r\n多个bug修复\r\n布局模式优化\r\n基础方法实现逻辑优化\r\n\r\n右键菜单：\r\n“Do Search”提供主动在制定请求中进行搜索的能力，比如在某企业邮箱的流量中搜索以提取邮箱地址\r\n“Add Request And Comment”右键菜单添逻辑优化，修复一个bug\r\n“Send To Tool Panel”右键菜单处理逻辑优化，可合并发送多个数据包内容\r\n\r\nDomain面板：\r\nroot domain的comments逻辑更新\r\n提供多个网络搜索引擎的后台自动搜索功能\r\nroot domain双击，自动在浏览器中访问\r\n修改目标根域名删除失败的bug\r\n显示序号，以便在排序后恢复原始顺序\r\n\r\nTool面板：\r\n重写JTextArea的paste函数，避免大内容导致程序卡死\r\nJTextArea支持输入文件，而程序处理其内容。\r\n文本取提供简单的历史记录功能\r\nJSON提取逻辑优化\r\n新增多个功能，比如排序\r\n优化URL提取逻辑，避免遗漏没有以/开头的path\r\n\r\nTitle面板中：\r\n端口扫描命令生成逻辑优化\r\n备注和IP内容的显示优化，显示前排序\r\n备注添加逻辑优化\r\n给手动添加的记录添加已知的IP和CNAME、CertInfo\r\n搜索功能增强，支持对数字型字段进行大于、小于、等于等搜索\r\n添加多个搜索实例，以便用户熟悉搜索语法\r\n新增“Do Request Item Again”菜单，对DNS记录或无响应的数据包进行再次请求"
@@ -3879,8 +3879,8 @@
     "https://github.com/aquasecurity/kube-bench": {
         "created_at": "2017-06-19 13:27:02",
         "description": "Checks whether Kubernetes is deployed according to security best practices as defined in the CIS Kubernetes Benchmark",
-        "commit_date": "2023-05-21 14:53:58",
-        "commit_message": "support CIS Amazon Elastic Kubernetes Service (EKS) Benchmark v1.2.0 (#1449)\n\ncloses #1448",
+        "commit_date": "2023-05-26 10:41:30",
+        "commit_message": "build(deps): bump alpine from 3.17 to 3.18 (#1443)\n\nBumps alpine from 3.17 to 3.18.\r\n\r\n---\r\nupdated-dependencies:\r\n- dependency-name: alpine\r\n  dependency-type: direct:production\r\n  update-type: version-update:semver-minor\r\n...\r\n\r\nSigned-off-by: dependabot[bot] <support@github.com>\r\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
         "release_tag": "v0.6.14",
         "release_date": "2023-05-18 07:43:29",
         "release_message": "## Changelog\n* 968ee58 replace with constant (#1445)\n\n"
@@ -3906,8 +3906,8 @@
     "https://github.com/anchore/syft": {
         "created_at": "2020-05-07 18:19:29",
         "description": "CLI tool and library for generating a Software Bill of Materials from container images and filesystems",
-        "commit_date": "2023-05-25 17:26:56",
-        "commit_message": "Add test to ensure package metadata is represented in the JSON schema (#1841)\n\n* [wip] try to reflect metadata types... probably wont work\r\n\r\nSigned-off-by: Alex Goodman <alex.goodman@anchore.com>\r\n\r\n* refactor to add unit test to ensure there is coverage in the schema\r\n\r\nSigned-off-by: Alex Goodman <alex.goodman@anchore.com>\r\n\r\n* [wip] generate metadata container\r\n\r\nSigned-off-by: Alex Goodman <alex.goodman@anchore.com>\r\n\r\n* add generation of metadata container struct for JSON schema generation\r\n\r\nSigned-off-by: Alex Goodman <alex.goodman@anchore.com>\r\n\r\n* fix linting\r\n\r\nSigned-off-by: Alex Goodman <alex.goodman@anchore.com>\r\n\r\n* update linter script to account for code generation\r\n\r\nSigned-off-by: Alex Goodman <alex.goodman@anchore.com>\r\n\r\n---------\r\n\r\nSigned-off-by: Alex Goodman <alex.goodman@anchore.com>",
+        "commit_date": "2023-05-26 20:08:20",
+        "commit_message": "chore(deps): bump github.com/docker/docker (#1849)\n\nBumps [github.com/docker/docker](https://github.com/docker/docker) from 24.0.1+incompatible to 24.0.2+incompatible.\r\n- [Release notes](https://github.com/docker/docker/releases)\r\n- [Commits](https://github.com/docker/docker/compare/v24.0.1...v24.0.2)\r\n\r\n---\r\nupdated-dependencies:\r\n- dependency-name: github.com/docker/docker\r\n  dependency-type: direct:production\r\n  update-type: version-update:semver-patch\r\n...\r\n\r\nSigned-off-by: dependabot[bot] <support@github.com>\r\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
         "release_tag": "v0.82.0",
         "release_date": "2023-05-23 17:28:47",
         "release_message": "# Changelog\r\n\r\n## [v0.82.0](https://github.com/anchore/syft/tree/v0.82.0) (2023-05-23)\r\n\r\n[Full Changelog](https://github.com/anchore/syft/compare/v0.81.0...v0.82.0)\r\n\r\n### Added Features\r\n\r\n- Improve Go main module version detection by attempting to parse available ldflags [[Issue #1785](https://github.com/anchore/syft/issues/1785)] [[PR #1832](https://github.com/anchore/syft/pull/1832)] [[wagoodman](https://github.com/wagoodman)]\r\n\r\n### Bug Fixes\r\n- Fix a problem in the license parsing logic that may result in a panic [[PR #1839](https://github.com/anchore/syft/pull/1839)]\r\n- Return all relevant error messages if an image retrieval fails when a scheme is specified [[PR #1801](https://github.com/anchore/syft/pull/1801)] [[FrimIdan](https://github.com/FrimIdan)]\r\n- Fix a problem with PNPM scanning where v6 lockfiles might result in duplicated packages [[Issue #1762](https://github.com/anchore/syft/issues/1762)] [[PR #1778](https://github.com/anchore/syft/pull/1778)] [[kzantow](https://github.com/kzantow)]\r\n\r\n\r\n\r\n"
@@ -3915,8 +3915,8 @@
     "https://github.com/chaitin/safeline": {
         "created_at": "2023-04-12 11:30:14",
         "description": "长亭科技自研，基于业界领先的语义引擎检测技术，打造的简洁、易用的免费 WAF",
-        "commit_date": "2023-05-25 09:47:57",
-        "commit_message": "feat: release v1.6.0",
+        "commit_date": "2023-05-26 08:45:23",
+        "commit_message": "fix(fe): detection page styles",
         "release_tag": "v1.6.0",
         "release_date": "2023-05-25 10:06:51",
         "release_message": "## 新增\r\n\r\n- 自定义规则支持匹配 Header 和 Body\r\n- 检测日志支持按域名搜索\r\n- 支持命令行清理检测日志和统计信息\r\n\r\n**注意：低版本升级请执行 upgrade.sh 脚本**"
@@ -3951,8 +3951,8 @@
     "https://github.com/quay/clair": {
         "created_at": "2015-11-13 18:46:16",
         "description": "Vulnerability Static Analysis for Containers",
-        "commit_date": "2023-05-25 21:53:34",
-        "commit_message": "build(deps): bump github.com/urfave/cli/v2 from 2.3.0 to 2.25.3\n\nBumps [github.com/urfave/cli/v2](https://github.com/urfave/cli) from 2.3.0 to 2.25.3.\n- [Release notes](https://github.com/urfave/cli/releases)\n- [Changelog](https://github.com/urfave/cli/blob/main/docs/CHANGELOG.md)\n- [Commits](https://github.com/urfave/cli/compare/v2.3.0...v2.25.3)\n\n---\nupdated-dependencies:\n- dependency-name: github.com/urfave/cli/v2\n  dependency-type: direct:production\n  update-type: version-update:semver-minor\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>",
+        "commit_date": "2023-05-26 17:47:54",
+        "commit_message": "chore: bump Claircore to v1.5.5\n\nBump Claircore to the latest tag.\n\nSigned-off-by: crozzy <joseph.crosland@gmail.com>",
         "release_tag": "v4.6.1",
         "release_date": "2023-04-13 18:29:02",
         "release_message": "<a name=\"unreleased\"></a>\n## [Unreleased]\n\n\n<a name=\"v4.6.1\"></a>\n## [v4.6.1] - 2023-04-13\n### Airgap\n- [e02aba27](https://github.com/quay/clair/commit/e02aba27de01cb461f79bee9644aac80c2f9bd65): Remove libindex Airgap option\n### Chore\n- [36990912](https://github.com/quay/clair/commit/36990912450fba2ccbef260a4829f1d9f69f45c6): v4.6.1 changelog bump\n- [e676671c](https://github.com/quay/clair/commit/e676671c17d2612470cd8de05aa668312fbb3036): Bump Claircore to v1.4.21\n### Go.Mod\n- [36de97cc](https://github.com/quay/clair/commit/36de97ccf619113b1ef4dff6bfd0e0c692252544): update json (de)serializer\n### Httptransport\n- [922f33d1](https://github.com/quay/clair/commit/922f33d18919578049fbf2ccb756e6990b66f280): fix request_id logging\n### Httputil\n- [9e8eacf5](https://github.com/quay/clair/commit/9e8eacf51b2a45f967036396b3dc14a52edc480d): fix ParseIP usage\n -  [#1689](https://github.com/quay/clair/issues/1689)### Notifier\n- [ffa4556d](https://github.com/quay/clair/commit/ffa4556d0f251cc984ed34594356625b9b747744): Avoid double reference\n\n[Unreleased]: https://github.com/quay/clair/compare/v4.6.1...HEAD\n[v4.6.1]: https://github.com/quay/clair/compare/v4.6.0...v4.6.1\n"
@@ -3978,11 +3978,11 @@
     "https://github.com/anchore/grype": {
         "created_at": "2020-05-26 13:44:38",
         "description": "A vulnerability scanner for container images and filesystems",
-        "commit_date": "2023-05-23 17:57:53",
-        "commit_message": "chore: update gomod with latest syft (#1313)\n\n* chore: update go mod with latest syft\r\n\r\n---------\r\n\r\nSigned-off-by: Christopher Phillips <christopher.phillips@anchore.com>",
-        "release_tag": "v0.62.1",
-        "release_date": "2023-05-24 13:42:35",
-        "release_message": "# Changelog\r\n\r\n## [v0.62.1](https://github.com/anchore/grype/tree/v0.62.1) (2023-05-24)\r\n\r\n[Full Changelog](https://github.com/anchore/grype/compare/v0.62.0...v0.62.1)\r\n\r\n\r\n## Bug Fixes\r\n\r\n- Updated syft to v0.82.0 to address license parsing logic that may result in a panic  [[PR #1313](https://github.com/anchore/grype/pull/1313)]\r\n\r\n"
+        "commit_date": "2023-05-26 17:37:08",
+        "commit_message": "feat: add source and type to CVSS information (#1317)\n\nAdds source and type to the CVSS score information to allow\r\nidentification of the organization that submitted the score and whether\r\nthey are a primary or secondary source.\r\n\r\nSigned-off-by: Weston Steimel <weston.steimel@anchore.com>",
+        "release_tag": "v0.62.2",
+        "release_date": "2023-05-26 17:50:28",
+        "release_message": "# Changelog\n\n## [v0.62.2](https://github.com/anchore/grype/tree/v0.62.2) (2023-05-26)\n\n[Full Changelog](https://github.com/anchore/grype/compare/v0.62.1...v0.62.2)\n\n\n\n"
     },
     "https://github.com/Metarget/metarget": {
         "created_at": "2021-04-09 04:20:47",
@@ -4275,7 +4275,7 @@
     "https://github.com/aiboboxx/v2rayfree": {
         "created_at": "2021-10-13 11:34:53",
         "description": "v2ray公益免费节点、最新2ray免费v节点订阅地址、v2ray免费节点每日更新、免费ss/v2ray/trojan节点、freefq ",
-        "commit_date": "2023-05-25 12:39:02",
+        "commit_date": "2023-05-26 12:36:12",
         "commit_message": "update",
         "release_tag": "",
         "release_date": "",
@@ -4320,8 +4320,8 @@
     "https://github.com/freefq/free": {
         "created_at": "2020-06-07 02:48:33",
         "description": "翻墙、免费翻墙、免费科学上网、免费节点、免费梯子、免费ss/v2ray/trojan节点、蓝灯、谷歌商店、翻墙梯子",
-        "commit_date": "2023-05-26 00:00:02",
-        "commit_message": "updated_at 05-26 08:00",
+        "commit_date": "2023-05-27 00:00:02",
+        "commit_message": "updated_at 05-27 08:00",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -4568,5 +4568,50 @@
         "release_tag": "1.2",
         "release_date": "2023-05-06 08:48:32",
         "release_message": " **Features**\r\n - added support for sql-shell switch: `--sql-shell` (experimental)\r\n - added support for fresh queries switch: `--fresh-queries`\r\n - added switch for hostname extraction: `--hostname`\r\n \r\n **Fixes**\r\n  - Fixed issue with processing multiple switches."
+    },
+    "https://github.com/dalinvip/Awesome-ChatGPT": {
+        "created_at": "2023-02-06 11:57:37",
+        "description": "ChatGPT资料汇总学习，持续更新......",
+        "commit_date": "2023-05-22 09:33:22",
+        "commit_message": "Update README.md\n\na",
+        "release_tag": "",
+        "release_date": "",
+        "release_message": ""
+    },
+    "https://github.com/vincelwt/chatgpt-mac": {
+        "created_at": "2022-12-01 12:31:30",
+        "description": "ChatGPT for Mac, living in your menubar.",
+        "commit_date": "2022-12-12 12:03:30",
+        "commit_message": "Merge pull request #30 from samasante/fix-right-click\n\nFix right click",
+        "release_tag": "v0.0.5",
+        "release_date": "2022-12-05 12:42:18",
+        "release_message": "- Auto updater\r\n- Improved context menu (fix #5 #6)\r\n- Improved design / UI \r\n- Resizable height (fix #4 )\r\n- Fix bug with multiple designs (#10 )"
+    },
+    "https://github.com/yzfly/awesome-chatgpt-zh": {
+        "created_at": "2023-03-21 02:16:34",
+        "description": "ChatGPT 中文指南🔥，ChatGPT 中文调教指南，指令指南，精选资源清单，更好的使用 chatGPT 让你的生产力 up up up! 🚀",
+        "commit_date": "2023-05-25 08:05:47",
+        "commit_message": "update readme",
+        "release_tag": "",
+        "release_date": "",
+        "release_message": ""
+    },
+    "https://github.com/rockbenben/ChatGPT-Shortcut": {
+        "created_at": "2023-02-24 12:53:49",
+        "description": "Maximize your efficiency and productivity. 让生产力加倍的 ChatGPT 快捷指令，按照领域和功能分区，可对提示词进行标签筛选、关键词搜索和一键复制。",
+        "commit_date": "2023-05-25 22:46:16",
+        "commit_message": "Merge pull request #30 from CharlieJCJ/main\n\nUpdate README.md",
+        "release_tag": "",
+        "release_date": "",
+        "release_message": ""
+    },
+    "https://github.com/LangLangShanDeNanKe/chatgpt": {
+        "created_at": "2023-03-15 12:39:55",
+        "description": "ChatGPT网址导航，分享免费好用AI网站！",
+        "commit_date": "2023-05-22 14:11:44",
+        "commit_message": "Update README.md",
+        "release_tag": "",
+        "release_date": "",
+        "release_message": ""
     }
 }
