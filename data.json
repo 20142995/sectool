@@ -200,8 +200,8 @@
     "https://github.com/ycdxsb/PocOrExp_in_Github": {
         "created_at": "2021-04-13 05:46:16",
         "description": "聚合Github上已有的Poc或者Exp，CVE信息来自CVE官网。Auto Collect Poc Or Exp from Github by CVE ID.",
-        "commit_date": "2023-05-26 22:22:56",
-        "commit_message": "update 2023-05-27 06:22:56",
+        "commit_date": "2023-05-27 23:22:44",
+        "commit_message": "update 2023-05-28 07:22:44",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -326,8 +326,8 @@
     "https://github.com/guchangan1/All-Defense-Tool": {
         "created_at": "2022-04-25 11:45:06",
         "description": "本项目集成了全网优秀的攻防武器工具项目，包含自动化利用，子域名、目录扫描、端口扫描等信息收集工具，各大中间件、cms漏洞利用工具，爆破工具、内网横向及免杀、社工钓鱼以及应急响应等资料。",
-        "commit_date": "2023-02-14 04:41:01",
-        "commit_message": "更新v2.2",
+        "commit_date": "2023-05-27 13:42:33",
+        "commit_message": "更新v2.3",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -461,7 +461,7 @@
     "https://github.com/ExpLangcn/NucleiTP": {
         "created_at": "2022-11-08 13:16:56",
         "description": "自动整合全网Nuclei的漏洞POC，实时同步更新最新POC！",
-        "commit_date": "2023-05-27 00:30:16",
+        "commit_date": "2023-05-28 00:45:20",
         "commit_message": "更新啦❤️",
         "release_tag": "",
         "release_date": "",
@@ -3050,7 +3050,7 @@
     "https://github.com/zan8in/afrog": {
         "created_at": "2022-02-24 06:00:32",
         "description": "A Security Tool for Bug Bounty, Pentest and Red Teaming.",
-        "commit_date": "2023-05-26 09:33:38",
+        "commit_date": "2023-05-27 01:53:09",
         "commit_message": "update",
         "release_tag": "v2.5.1",
         "release_date": "2023-05-22 09:05:23",
@@ -4275,7 +4275,7 @@
     "https://github.com/aiboboxx/v2rayfree": {
         "created_at": "2021-10-13 11:34:53",
         "description": "v2ray公益免费节点、最新2ray免费v节点订阅地址、v2ray免费节点每日更新、免费ss/v2ray/trojan节点、freefq ",
-        "commit_date": "2023-05-26 12:36:12",
+        "commit_date": "2023-05-27 12:34:49",
         "commit_message": "update",
         "release_tag": "",
         "release_date": "",
@@ -4320,8 +4320,8 @@
     "https://github.com/freefq/free": {
         "created_at": "2020-06-07 02:48:33",
         "description": "翻墙、免费翻墙、免费科学上网、免费节点、免费梯子、免费ss/v2ray/trojan节点、蓝灯、谷歌商店、翻墙梯子",
-        "commit_date": "2023-05-27 00:00:02",
-        "commit_message": "updated_at 05-27 08:00",
+        "commit_date": "2023-05-28 00:00:02",
+        "commit_message": "updated_at 05-28 08:00",
         "release_tag": "",
         "release_date": "",
         "release_message": ""

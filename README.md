@@ -1,4 +1,4 @@
-# 更新于 2023-05-27 08:44:56
+# 更新于 2023-05-28 08:46:48
 
 ## 近15天release更新记录
 | 更新时间 | 项目名称 | 版本 | 更新内容 |
@@ -26,23 +26,23 @@
 |2023-05-16 16:40:02|[faker](https://github.com/joke2k/faker)|v18.9.0|See .|
 |2023-05-15 12:52:58|[murphysec](https://github.com/murphysecurity/murphysec)|v3.1.1|Support NPM lockfile v3 |
 |2023-05-14 12:54:57|[whatweb-plus](https://github.com/winezer0/whatweb-plus)|v0.5.5.<br>19.fix|修复kali下 ruby 3.1.2 下提示 join(nil<br>，"whatweb")报错    注意windows环境下不<br>受影响,可以不进行更新|
-|2023-05-12 03:16:59|[iDefender](https://github.com/wecooperate/iDefender)|2.7.0|添加易用性、稳定性，建议更新    - 更<br>新SDK到最新的版本    - 文件的读写添加首<br>次事件通知    - 过滤掉命名管道的读写请<br>求    - 规则引擎优化    - 去掉只读文件<br>监控开关    - 隐私保护换成读取文件、文<br>件映射事件    - 导出规则、导入规则、分<br>享规则添加信任列表的导出导入  - 优化开<br>机启动的逻辑，添加注册表开机启动项  - <br>模板更新（支持经典模式：新建、修改、删<br>除、读取等概念）    - 添加全能模板    -<br> 添加进程行为模板    - 添加文件行为模<br>板    - 添加注册表行为模板    - 添加网<br>络行为模板    - 其他    - 修复数据库一<br>些操作异常    - 修复进程保护、进程操作<br>拦截可能导致进程启动不了的问题    - 修<br>复一些误报问题    - 修复对话框界面最大<br>化状态的阴影问题    - 规则引擎添加更多<br>扩展属性              软件下载   |
 ## 近15天commit提交记录
 | 提交时间 | 项目名称 | 更新内容 |
 | :---- | :---- | :---- |
-|2023-05-27 00:30:16|[NucleiTP](https://github.com/ExpLangcn/NucleiTP)|更新啦❤️|
-|2023-05-27 00:00:02|[free](https://github.com/freefq/free)|updated_at 05-27 08:00|
-|2023-05-26 22:22:56|[PocOrExp_in_Githu<br>b](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-05-27 06:22:56|
+|2023-05-28 00:45:20|[NucleiTP](https://github.com/ExpLangcn/NucleiTP)|更新啦❤️|
+|2023-05-28 00:00:02|[free](https://github.com/freefq/free)|updated_at 05-28 08:00|
+|2023-05-27 23:22:44|[PocOrExp_in_Githu<br>b](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-05-28 07:22:44|
+|2023-05-27 13:42:33|[All-Defense-Tool](https://github.com/guchangan1/All-Defense-Tool)|更新v2.3|
+|2023-05-27 12:34:49|[v2rayfree](https://github.com/aiboboxx/v2rayfree)|update|
+|2023-05-27 01:53:09|[afrog](https://github.com/zan8in/afrog)|update|
 |2023-05-26 20:30:53|[SSTImap](https://github.com/vladko312/SSTImap)|Version 1.1.3 (Bugfixes)  Fixed bug with the new co<br>okie processing  Fixed some code being unreachable  <br>Moved new parameter to a different category    Just <br>a minor bugfix update|
 |2023-05-26 20:08:20|[syft](https://github.com/anchore/syft)|chore(deps): bump github.com/docker/docker (#1849) <br> Bumps  from 24.0.1+incompatible to 24.0.2+incompati<br>ble.  -   -     ---  updated-dependencies:  - depend<br>ency-name: github.com/docker/docker    dependency-ty<br>pe: direct:production    update-type: version-update<br>:semver-patch  ...    Signed-off-by: dependabot[bot]<br>   Co-authored-by: dependabot[bot] |
 |2023-05-26 17:47:54|[clair](https://github.com/quay/clair)|chore: bump Claircore to v1.5.5  Bump Claircore to <br>the latest tag.  Signed-off-by: crozzy |
 |2023-05-26 17:37:08|[grype](https://github.com/anchore/grype)|feat: add source and type to CVSS information (#131<br>7)  Adds source and type to the CVSS score informati<br>on to allow  identification of the organization that<br> submitted the score and whether  they are a primary<br> or secondary source.    Signed-off-by: Weston Steim<br>el |
 |2023-05-26 15:25:06|[dbeaver](https://github.com/dbeaver/dbeaver)|dbeaver/pro#1652 Cancel detached jobs during editor<br> save (#20098)  Co-authored-by: Matvey16 |
-|2023-05-26 12:36:12|[v2rayfree](https://github.com/aiboboxx/v2rayfree)|update|
 |2023-05-26 12:29:21|[domain_hunter_pro](https://github.com/bit4woo/domain_hunter_pro)|Update SearchMenu.java|
 |2023-05-26 10:48:12|[Elkeid](https://github.com/bytedance/Elkeid)|Optimization: using hash for trusted exe & arg chec<br>k  Convert string comparison to 64-bit hash comparis<br>on, the former is less efficient. With 128 items in <br>the rbtree, 7 times of comparison will be performed <br>for every call of the hooked points.  Here murmur64 <br>is used for string hash, and there's no collison amo<br>ng 18,734,347 pathes.  Signed-off-by: shenping.matt |
 |2023-05-26 10:41:30|[kube-bench](https://github.com/aquasecurity/kube-bench)|build(deps): bump alpine from 3.17 to 3.18 (#1443) <br> Bumps alpine from 3.17 to 3.18.    ---  updated-dep<br>endencies:  - dependency-name: alpine    dependency-<br>type: direct:production    update-type: version-upda<br>te:semver-minor  ...    Signed-off-by: dependabot[bo<br>t]   Co-authored-by: dependabot[bot] |
-|2023-05-26 09:33:38|[afrog](https://github.com/zan8in/afrog)|update|
 |2023-05-26 08:45:23|[safeline](https://github.com/chaitin/safeline)|fix(fe): detection page styles|
 |2023-05-26 06:13:09|[knife](https://github.com/bit4woo/knife)|Update GUI.java|
 |2023-05-25 22:46:16|[ChatGPT-Shortcut](https://github.com/rockbenben/ChatGPT-Shortcut)|Merge pull request #30 from CharlieJCJ/main  Update<br> README.md|
@@ -93,9 +93,7 @@
 |2023-05-14 08:25:37|[HackReport](https://github.com/awake1t/HackReport)|2023-05-14 16:25:37|
 |2023-05-14 02:55:50|[pikachu](https://github.com/zhuifengshaonianhanlu/pikachu)|Merge pull request #25 from Zhniing/dev  Fix mysql <br>connection|
 |2023-05-13 15:32:04|[SmsForwarder](https://github.com/pppscn/SmsForwarder)|新增：支持Bark推送加密 #273 (详见：https://bark.day<br>.app/#/encryption)|
-|2023-05-13 07:35:52|[mitaka](https://github.com/ninoseki/mitaka)|Merge pull request #734 from ninoseki/update-plasmo<br>  chore: update plasmo|
-|2023-05-12 09:58:11|[vulhub](https://github.com/vulhub/vulhub)|Merge pull request #351 from ndeloof/patch-1  Updat<br>e README for compose v2|
-|2023-05-12 03:56:46|[ddddocr](https://github.com/sml2h3/ddddocr)|Update README.md|## 所有项目
+|2023-05-13 07:35:52|[mitaka](https://github.com/ninoseki/mitaka)|Merge pull request #734 from ninoseki/update-plasmo<br>  chore: update plasmo|## 所有项目
 # 渗透测试
 ## 信息收集
 ### 资产测绘采集
