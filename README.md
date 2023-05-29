@@ -1,13 +1,14 @@
-# 更新于 2023-05-28 08:46:48
+# 更新于 2023-05-29 08:44:13
 
 ## 近15天release更新记录
 | 更新时间 | 项目名称 | 版本 | 更新内容 |
 | :---- | :---- | :---- | :---- |
+|2023-05-28 15:55:23|[nuclei](https://github.com/projectdiscovery/nuclei)|v2.9.5|## What's Changed  * **Added payloads<br> support in dns protocol by @ShubhamRa<br>sal** in https://github.com/projectdis<br>covery/nuclei/pull/3632  * Added any t<br>ype query support in dns protocol by @<br>ehsandeep in https://github.com/projec<br>tdiscovery/nuclei/pull/3644  * **Added<br> support for constants by @Mzack9999**<br> in https://github.com/projectdiscover<br>y/nuclei/pull/3692  * Added utility to<br> write max-requests counter to templat<br>es by @RamanaReddy0M in https://github<br>.com/projectdiscovery/nuclei/pull/3607<br>  * **Fixed memory leak (high memory u<br>ses) by @ShubhamRasal** in https://git<br>hub.com/projectdiscovery/nuclei/pull/3<br>676  * **Fixed issue with interactsh (<br>probably evicted due to inactivity)** <br>by @Mzack9999 in https://github.com/pr<br>ojectdiscovery/nuclei/pull/3680  * Fix<br>ed issue with removing semicolon from <br>raw request by @RamanaReddy0M in https<br>://github.com/projectdiscovery/nuclei/<br>pull/3650  * Fixed typos by @kchason i<br>n https://github.com/projectdiscovery/<br>nuclei/pull/3704  * Fixed oob ruleinde<br>x by @dogancanbakir in https://github.<br>com/projectdiscovery/nuclei/pull/3738 <br> * Fixed updates to docs references by<br> @olearycrew in https://github.com/pro<br>jectdiscovery/nuclei/pull/3718  * Upda<br>ted uncover integreation logic by @tar<br>unKoyalwar in https://github.com/proje<br>ctdiscovery/nuclei/pull/3663  * Remove<br>d .yml extension support for template <br>input as URL by @Mzack9999 in https://<br>github.com/projectdiscovery/nuclei/pul<br>l/3745    Issues closed in this releas<br>e - https://github.com/projectdiscover<br>y/nuclei/milestone/31?closed=1    ## N<br>ew Contributors  * @olearycrew made th<br>eir first contribution in https://gith<br>ub.com/projectdiscovery/nuclei/pull/37<br>18    **Full Changelog**: https://gith<br>ub.com/projectdiscovery/nuclei/compare<br>/v2.9.4...v2.9.5|
+|2023-05-28 04:27:07|[PEASS-ng](https://github.com/carlospolop/PEASS-ng)|2023052<br>8-732e35<br>8b||
 |2023-05-26 18:04:16|[railgun](https://github.com/lz520520/railgun)|v1.5.5|解压密码 railgun      1. 编码转换    <br>a. 修复AES算法bug    b. 更新ascii编码<br>，可更好处理各种进制格式的字节码    c. <br>增加digital编码，纯数字进制转换    d. <br>增加RSA算法，以及GenerateRSA    e. 增加<br>国密算法，SM2/SM3/SM4|
 |2023-05-26 17:50:28|[grype](https://github.com/anchore/grype)|v0.62.2|# Changelog  ##  (2023-05-26)      |
 |2023-05-26 12:46:44|[Viper](https://github.com/FunnyWolf/Viper)|v1.5.29|### 优化  - 端口转发记录新增连接提示 <br> - 模块运行结果记录运行模块的sessionid<br>  - 适配reverse_tcp_ssl类型payload  - <br>合并metasploit-framework 6.3.18版本  ##<br># Bugfix  - 修复sock4a/socks5代理无法<br>使用问题  - 修复session长时间运行导致内<br>存占用过高问题|
 |2023-05-26 07:09:19|[Elkeid](https://github.com/bytedance/Elkeid)|scanner<br>-v2.2.0.<br>4_202305<br>26||
-|2023-05-25 12:48:56|[PEASS-ng](https://github.com/carlospolop/PEASS-ng)|2023052<br>5-7a8f7e<br>06||
 |2023-05-25 10:06:51|[safeline](https://github.com/chaitin/safeline)|v1.6.0|## 新增    - 自定义规则支持匹配 Heade<br>r 和 Body  - 检测日志支持按域名搜索  -<br> 支持命令行清理检测日志和统计信息    *<br>*注意：低版本升级请执行 upgrade.sh 脚<br>本**|
 |2023-05-24 02:49:47|[ProxyPoolxSocks](https://github.com/Anyyy111/ProxyPoolxSocks)|v1.1|优化了socks5节点添加，详情请参考READM<br>E.md|
 |2023-05-23 17:28:47|[syft](https://github.com/anchore/syft)|v0.82.0|# Changelog    ##  (2023-05-23)      <br>  ### Added Features    - Improve Go m<br>ain module version detection by attemp<br>ting to parse available ldflags ] ] ] <br>   ### Bug Fixes  - Fix a problem in t<br>he license parsing logic that may resu<br>lt in a panic ]  - Return all relevant<br> error messages if an image retrieval <br>fails when a scheme is specified ] ]  <br>- Fix a problem with PNPM scanning whe<br>re v6 lockfiles might result in duplic<br>ated packages ] ] ]        |
@@ -29,11 +30,18 @@
 ## 近15天commit提交记录
 | 提交时间 | 项目名称 | 更新内容 |
 | :---- | :---- | :---- |
-|2023-05-28 00:45:20|[NucleiTP](https://github.com/ExpLangcn/NucleiTP)|更新啦❤️|
-|2023-05-28 00:00:02|[free](https://github.com/freefq/free)|updated_at 05-28 08:00|
-|2023-05-27 23:22:44|[PocOrExp_in_Githu<br>b](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-05-28 07:22:44|
+|2023-05-29 00:30:16|[NucleiTP](https://github.com/ExpLangcn/NucleiTP)|更新啦❤️|
+|2023-05-29 00:29:07|[Hades](https://github.com/theSecHunter/Hades)|Update README.md|
+|2023-05-29 00:00:02|[free](https://github.com/freefq/free)|updated_at 05-29 08:00|
+|2023-05-28 23:33:56|[PocOrExp_in_Githu<br>b](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-05-29 07:33:56|
+|2023-05-28 16:14:49|[Ladon](https://github.com/k8gege/Ladon)|Add files via upload|
+|2023-05-28 16:06:02|[K8tools](https://github.com/k8gege/K8tools)|Add files via upload|
+|2023-05-28 15:03:35|[nuclei](https://github.com/projectdiscovery/nuclei)|test update|
+|2023-05-28 13:52:32|[vulhub](https://github.com/vulhub/vulhub)|Merge pull request #436 from vulhub/docker-compose-<br>v2  upgrade docker-compose v1 to docker compose v2|
+|2023-05-28 12:34:08|[v2rayfree](https://github.com/aiboboxx/v2rayfree)|update|
+|2023-05-28 07:30:58|[trivy](https://github.com/aquasecurity/trivy)|feat(debian): add digests for dpkg (#4445)  Co-auth<br>ored-by: knqyf263 |
+|2023-05-28 03:25:01|[wpscan](https://github.com/wpscanteam/wpscan)|Update README.md|
 |2023-05-27 13:42:33|[All-Defense-Tool](https://github.com/guchangan1/All-Defense-Tool)|更新v2.3|
-|2023-05-27 12:34:49|[v2rayfree](https://github.com/aiboboxx/v2rayfree)|update|
 |2023-05-27 01:53:09|[afrog](https://github.com/zan8in/afrog)|update|
 |2023-05-26 20:30:53|[SSTImap](https://github.com/vladko312/SSTImap)|Version 1.1.3 (Bugfixes)  Fixed bug with the new co<br>okie processing  Fixed some code being unreachable  <br>Moved new parameter to a different category    Just <br>a minor bugfix update|
 |2023-05-26 20:08:20|[syft](https://github.com/anchore/syft)|chore(deps): bump github.com/docker/docker (#1849) <br> Bumps  from 24.0.1+incompatible to 24.0.2+incompati<br>ble.  -   -     ---  updated-dependencies:  - depend<br>ency-name: github.com/docker/docker    dependency-ty<br>pe: direct:production    update-type: version-update<br>:semver-patch  ...    Signed-off-by: dependabot[bot]<br>   Co-authored-by: dependabot[bot] |
@@ -46,10 +54,8 @@
 |2023-05-26 08:45:23|[safeline](https://github.com/chaitin/safeline)|fix(fe): detection page styles|
 |2023-05-26 06:13:09|[knife](https://github.com/bit4woo/knife)|Update GUI.java|
 |2023-05-25 22:46:16|[ChatGPT-Shortcut](https://github.com/rockbenben/ChatGPT-Shortcut)|Merge pull request #30 from CharlieJCJ/main  Update<br> README.md|
-|2023-05-25 15:53:18|[wpscan](https://github.com/wpscanteam/wpscan)|Merge pull request #1784 from wpscanteam/revert-175<br>7-master  Update Daily API Request Limit|
 |2023-05-25 13:05:19|[murphysec](https://github.com/murphysecurity/murphysec)|fix: 修一下字段名|
 |2023-05-25 12:27:17|[PEASS-ng](https://github.com/carlospolop/PEASS-ng)|improve|
-|2023-05-25 11:52:28|[trivy](https://github.com/aquasecurity/trivy)|feat(k8s): exclude node scanning by node labels (#4<br>459)  Signed-off-by: chenk |
 |2023-05-25 11:44:40|[whatweb-plus](https://github.com/winezer0/whatweb-plus)|Update README.md|
 |2023-05-25 09:27:15|[sqlmap](https://github.com/sqlmapproject/sqlmap)|add support to leverage CVE-2014-6577 for Oracle DN<br>S data exfiltration (#5410)  Co-authored-by: marvin |
 |2023-05-25 08:05:47|[awesome-chatgpt-z<br>h](https://github.com/yzfly/awesome-chatgpt-zh)|update readme|
@@ -73,8 +79,6 @@
 |2023-05-22 08:33:48|[Awesome-POC](https://github.com/Threekiii/Awesome-POC)|更新漏洞|
 |2023-05-21 14:50:25|[DNSlog-GO](https://github.com/lanyi1998/DNSlog-GO)|fix:空切片的bug|
 |2023-05-21 11:05:35|[superSearchPlus](https://github.com/dark-kingA/superSearchPlus)|更新vue路由扫描|
-|2023-05-21 05:50:31|[Ladon](https://github.com/k8gege/Ladon)|Add files via upload|
-|2023-05-21 05:39:30|[K8tools](https://github.com/k8gege/K8tools)|Add files via upload|
 |2023-05-20 18:23:44|[Mobile-Security-F<br>ramework-MobSF](https://github.com/MobSF/Mobile-Security-Framework-MobSF)|Enable binary analysis for aar/jar|
 |2023-05-19 16:41:10|[dirsearch](https://github.com/maurosoria/dirsearch)|Merge pull request #1300 from mxcezl/patch-1  Allow<br> dirseach to find endpoints exposing jwks files|
 |2023-05-19 14:43:36|[ADCSKiller](https://github.com/grimlockx/ADCSKiller)|Update README.md|
@@ -91,9 +95,7 @@
 |2023-05-15 08:23:20|[proxy_pool](https://github.com/jhao104/proxy_pool)|Merge pull request #745 from jhao104/develop  [upda<br>te] :chicken: new proxy docip|
 |2023-05-15 03:18:59|[404StarLink](https://github.com/knownsec/404StarLink)|weekly update at 2023-05-15|
 |2023-05-14 08:25:37|[HackReport](https://github.com/awake1t/HackReport)|2023-05-14 16:25:37|
-|2023-05-14 02:55:50|[pikachu](https://github.com/zhuifengshaonianhanlu/pikachu)|Merge pull request #25 from Zhniing/dev  Fix mysql <br>connection|
-|2023-05-13 15:32:04|[SmsForwarder](https://github.com/pppscn/SmsForwarder)|新增：支持Bark推送加密 #273 (详见：https://bark.day<br>.app/#/encryption)|
-|2023-05-13 07:35:52|[mitaka](https://github.com/ninoseki/mitaka)|Merge pull request #734 from ninoseki/update-plasmo<br>  chore: update plasmo|## 所有项目
+|2023-05-14 02:55:50|[pikachu](https://github.com/zhuifengshaonianhanlu/pikachu)|Merge pull request #25 from Zhniing/dev  Fix mysql <br>connection|## 所有项目
 # 渗透测试
 ## 信息收集
 ### 资产测绘采集
@@ -239,7 +241,7 @@
 | [xray](https://github.com/chaitin/xray) | 1.9.11 | 一款完善的安全评估工具，支持常见 web 安全问题扫描和自定义 poc <br>| 使用之前务必先阅读文档 |
 | [w13scan](https://github.com/w-digital-scanner/w13scan) |  | Passive Security Scanner (被动式安全扫描器) |
 | [Fvuln](https://github.com/d3ckx1/Fvuln) | Fvuln_v<br>1.4.8 | F-vuln（全称：Find-Vulnerability）是为了自己工作方便专门编写的<br>一款自动化工具，主要适用于日常安全服务、渗透测试人员和RedTeam红<br>队人员，它集合的功能包括：存活IP探测、开放端口探测、web服务探测<br>、web漏洞扫描、smb爆破、ssh爆破、ftp爆破、mssql爆破等其他数据库<br>爆破工作以及大量web漏洞检测模块。 |
-| [nuclei](https://github.com/projectdiscovery/nuclei) | v2.9.4 | Fast and customizable vulnerability scanner based on simple YA<br>ML based DSL. |
+| [nuclei](https://github.com/projectdiscovery/nuclei) | v2.9.5 | Fast and customizable vulnerability scanner based on simple YA<br>ML based DSL. |
 | [afrog](https://github.com/zan8in/afrog) | v2.5.1 | A Security Tool for Bug Bounty, Pentest and Red Teaming. |
 | [vulmap](https://github.com/zhzyker/vulmap) | v0.9 | Vulmap 是一款 web 漏洞扫描和验证工具, 可对 webapps 进行漏洞扫<br>描, 并且具备漏洞验证功能 |
 | [POC-bomber](https://github.com/tr0uble-mAker/POC-bomber) | v2.0.2-<br>POC-bomb<br>er | 利用大量高威胁poc/exp快速获取目标权限，用于渗透和红队快速打点 |
@@ -279,7 +281,7 @@
 ### 漏洞发现
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
-| [Dude](https://github.com/x364e3ab6/Dude) | v1.0.0.<br>4 | Dude (大佬) WEB渗透测试辅助工具 |
+| [Dude](https://github.com/x364e3ab6/Dude) |  |  |
 ### 信息泄露监控
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
@@ -522,7 +524,7 @@
 | [dirtycow](https://github.com/firefart/dirtycow) |  | Dirty Cow exploit - CVE-2016-5195 |
 | [traitor](https://github.com/liamg/traitor) | v0.0.14 | :arrow_up: :skull_and_crossbones: :fire: Automatic Linux prive<br>sc via exploitation of low-hanging fruit e.g. gtfobins, pwnkit,<br> dirty pipe, +w docker.sock |
 | [LinEnum](https://github.com/rebootuser/LinEnum) |  | Scripted Local Linux Enumeration & Privilege Escalation Checks |
-| [PEASS-ng](https://github.com/carlospolop/PEASS-ng) | 2023052<br>5-7a8f7e<br>06 | PEASS - Privilege Escalation Awesome Scripts SUITE (with color<br>s) |
+| [PEASS-ng](https://github.com/carlospolop/PEASS-ng) | 2023052<br>8-732e35<br>8b | PEASS - Privilege Escalation Awesome Scripts SUITE (with color<br>s) |
 | [traitor](https://github.com/liamg/traitor) | v0.0.14 | :arrow_up: :skull_and_crossbones: :fire: Automatic Linux prive<br>sc via exploitation of low-hanging fruit e.g. gtfobins, pwnkit,<br> dirty pipe, +w docker.sock |
 ### 容器提权
 | 项目名称 | 版本 | 项目描述 |
@@ -570,7 +572,7 @@
 ### 综合
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
-| [Ladon](https://github.com/k8gege/Ladon) | v10.10.<br>5 | Ladon大型内网渗透工具，可PowerShell模块化、可CS插件化、可内存<br>加载，无文件扫描。含端口扫描、服务识别、网络资产探测、密码审计、<br>高危漏洞检测、漏洞利用、密码读取以及一键GetShell，支持批量A段/B<br>段/C段以及跨网段扫描，支持URL、主机、域名列表扫描等。10.10.5内置<br>228个功能模块,网络资产探测模块32个通过多种协议(ICMP\NBT\DNS\MAC<br>\SMB\WMI\SSH\HTTP\HTTPS\Exchange\mssql\FTP\RDP)以及方法快速获取<br>目标网络存活主机IP、计算机名、工作组、共享资源、网卡地址、操作系<br>统版本、网站、子域名、中间件、开放服务、路由器、交换机、数据库、<br>打印机等信息，高危漏洞检测16个含MS17010、Zimbra、Exchange |
+| [Ladon](https://github.com/k8gege/Ladon) | v10.10.<br>5 | Ladon大型内网渗透工具，可PowerShell模块化、可CS插件化、可内存<br>加载，无文件扫描。含端口扫描、服务识别、网络资产探测、密码审计、<br>高危漏洞检测、漏洞利用、密码读取以及一键GetShell，支持批量A段/B<br>段/C段以及跨网段扫描，支持URL、主机、域名列表扫描等。10.10.6内置<br>230个功能模块,网络资产探测模块32个通过多种协议(ICMP\NBT\DNS\MAC<br>\SMB\WMI\SSH\HTTP\HTTPS\Exchange\mssql\FTP\RDP)以及方法快速获取<br>目标网络存活主机IP、计算机名、工作组、共享资源、网卡地址、操作系<br>统版本、网站、子域名、中间件、开放服务、路由器、交换机、数据库、<br>打印机等信息，高危漏洞检测16个含MS17010、Zimbra、Exchange |
 ## 相关资源
 ### 工具集成环境
 | 项目名称 | 版本 | 项目描述 |
