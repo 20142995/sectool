@@ -200,8 +200,8 @@
     "https://github.com/ycdxsb/PocOrExp_in_Github": {
         "created_at": "2021-04-13 05:46:16",
         "description": "聚合Github上已有的Poc或者Exp，CVE信息来自CVE官网。Auto Collect Poc Or Exp from Github by CVE ID.",
-        "commit_date": "2023-05-28 23:33:56",
-        "commit_message": "update 2023-05-29 07:33:56",
+        "commit_date": "2023-05-29 22:24:51",
+        "commit_message": "update 2023-05-30 06:24:51",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -380,8 +380,8 @@
     "https://github.com/lal0ne/vulnerability": {
         "created_at": "2022-01-20 02:48:42",
         "description": "收集、整理、修改互联网上公开的漏洞POC",
-        "commit_date": "2023-05-25 01:41:29",
-        "commit_message": "CVE-2022-36642",
+        "commit_date": "2023-05-29 03:23:40",
+        "commit_message": "E-Cology CheckServer.jsp SQL注入",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -461,7 +461,7 @@
     "https://github.com/ExpLangcn/NucleiTP": {
         "created_at": "2022-11-08 13:16:56",
         "description": "自动整合全网Nuclei的漏洞POC，实时同步更新最新POC！",
-        "commit_date": "2023-05-29 00:30:16",
+        "commit_date": "2023-05-30 00:30:20",
         "commit_message": "更新啦❤️",
         "release_tag": "",
         "release_date": "",
@@ -531,8 +531,8 @@
     "https://github.com/knownsec/404StarLink": {
         "created_at": "2020-11-17 08:10:18",
         "description": "404StarLink - 推荐优质、有意义、有趣、坚持维护的安全开源项目",
-        "commit_date": "2023-05-15 03:18:59",
-        "commit_message": "weekly update at 2023-05-15",
+        "commit_date": "2023-05-29 03:02:14",
+        "commit_message": "weekly update at 2023-05-29",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -864,11 +864,11 @@
     "https://github.com/vaycore/OneScan": {
         "created_at": "2023-02-14 01:59:45",
         "description": "OneScan是递归目录扫描的BurpSuite插件",
-        "commit_date": "2023-04-22 08:34:27",
-        "commit_message": "针对1.0.0版本更新README说明文档及截图",
-        "release_tag": "v1.0.0",
-        "release_date": "2023-04-22 09:01:57",
-        "release_message": "1.0.0 版本发布，版本更新内容如下\r\n\r\n### 升级提醒！！！！\r\n\r\n新版配置与旧版本不兼容，更新前需要自行备份配置；以免各位想回退版本的时候，出现配置文件报错的情况\r\n\r\n### 新增\r\n\r\n- 新增过滤规则可视化，将过滤规则文本框放到 Filter 按钮左边\r\n- 新增`Fingerprint`指纹模块\r\n- 新增随机内网IP动态变量`{{random.local-ip}}`\r\n- 新增字典管理，可定义一系列字典，便捷切换\r\n- 更新辅助信息面板UI，新增指纹信息展示\r\n\r\n### 优化\r\n\r\n- 使用`Gson`作为项目的`Json`解析库\r\n- 将默认`Header`配置中的`{{random.ip}}`修改为`{{random.local-ip}}`\r\n- 优化黑白名单匹配规则，添加`*`号匹配（支持格式：`www.google.com`、`*.google.com`、`*.google.*`、`www.google.*`、`www.*.com`）\r\n- 主动扫描时不进行黑白名单检测\r\n- 自带的默认白名单不包含任何内容\r\n\r\n### 修复\r\n\r\n- 修复`Payload Processing`处理异常的问题\r\n\r\n"
+        "commit_date": "2023-05-29 04:31:16",
+        "commit_message": "将数据看板界面的复选框状态保存到配置文件；将Disable选项功能更改为Enable",
+        "release_tag": "v1.0.4",
+        "release_date": "2023-05-29 05:03:49",
+        "release_message": "1.0.4 版本发布，版本更新内容如下\r\n\r\n### 优化\r\n\r\n- 保存数据看板页面复选框状态（将 `Disable HeaderReplace`、`Disable DirScan` 的 `Disable` 更改为 `Enable`）\r\n- 优化正则表达式，解决某些站点 `title` 读取异常的问题\r\n\r\n### 修复\r\n\r\n- 解决 `bodyMd5` 参数计算错误的问题\r\n- 解决数据看板选中某条数据时，加载响应数据过慢的问题\r\n"
     },
     "https://github.com/ianxtianxt/SharpDecryptPwd": {
         "created_at": "2019-10-12 11:43:26",
@@ -2951,8 +2951,8 @@
     "https://github.com/dbeaver/dbeaver": {
         "created_at": "2015-10-21 08:26:28",
         "description": "Free universal database tool and SQL client",
-        "commit_date": "2023-05-26 15:25:06",
-        "commit_message": "dbeaver/pro#1652 Cancel detached jobs during editor save (#20098)\n\nCo-authored-by: Matvey16 <82543000+Matvey16@users.noreply.github.com>",
+        "commit_date": "2023-05-29 19:40:56",
+        "commit_message": "dbeaver/pro#1502 Deprecate legacy ODBC driver (#20084)\n\n* dbeaver/pro#1502 Deprecate legacy ODBC driver\r\n\r\n* dbeaver/pro#1502 Update deprecation reason\r\n\r\n* dbeaver/pro#1502 Prevent new connection creation using deprecated driver\r\n\r\n* dbeaver/pro#1502 Update deprecation reason\r\n\r\n---------\r\n\r\nCo-authored-by: Dziyana <31996417+uslss@users.noreply.github.com>",
         "release_tag": "23.0.5",
         "release_date": "2023-05-21 16:54:53",
         "release_message": "\n              - SQL Editor:\n                  - Autocomplete for WHERE and SELECT shows aliases with the aliased table\n                  - Hovering information for SQL errors and spelling annotations was added\n                  - Variable and parameter names in the binding dialog are now displayed in their original case\n                  - Information about assigning a non-dynamic variable was added to the binding dialog\n                  - Issue with incorrect icon for Execute SQL Statement after opening Output tab was fixed\n                  - Query Manager: 'Restore Default' button behavior was improved\n                  - Ability to directly execute SQL scripts in native clients was added\n              - Data transfer:\n                  - Ability to trim string values when exporting to XLSX was added\n                  - Handling of datetimeoffset was added\n              - General UI:\n                  - Part divider UI was redesigned\n                  - Option to increase formatting time was added in Preferences\n                  - Issue with closing pinned tabs using 'Close Tabs to the Left' was fixed\n              - Connectivity:\n                  - Issue with driver fallback not being updated was fixed\n              - Databases:\n                  - ClickHouse: driver was updated to 0.4.6 (thanks to @zhicwu)\n                  - Databricks: handling of data types without parameters was added\n                  - Hana: comments handling was fixed\n                  - MySQL: partitions are now supported\n                  - Oracle: TNS import was fixed\n                  - PostgreSQL:\n                      - Issue with duplicate tables with generated columns in Database Navigator was fixed\n                      - Error message about line on the map created with a single point was added\n                      - Schema refresh was fixed\n                  - SQLite: ability to open ER Diagram in the Simple View was added\n              - Localization:\n               \t\t- German localization was improved (thanks to @hype11)\n              \t\t- Italian localization was improved (thanks to @Gnafu)\n            "
@@ -3050,7 +3050,7 @@
     "https://github.com/zan8in/afrog": {
         "created_at": "2022-02-24 06:00:32",
         "description": "A Security Tool for Bug Bounty, Pentest and Red Teaming.",
-        "commit_date": "2023-05-27 01:53:09",
+        "commit_date": "2023-05-29 02:28:33",
         "commit_message": "update",
         "release_tag": "v2.5.1",
         "release_date": "2023-05-22 09:05:23",
@@ -3203,9 +3203,9 @@
         "description": "Update Xray1.9.8 Cracked for Windows,Linux and Mac OS.",
         "commit_date": "2023-04-24 06:48:58",
         "commit_message": "Update README.md",
-        "release_tag": "v1.9.8",
-        "release_date": "2023-04-23 03:24:47",
-        "release_message": "Xray 1.9.8 COMMUNITY-ADVANCED Windows,Linux and Mac OS Version.\r\n\r\nxray_windows_amd64.exe\r\nSHA256: E9E94E026B203D6D2FA1E98E0B34D448408F9EF442C2ADC94F378DB824DC7270\r\n\r\nxray_windows_386.exe\r\nSHA256: 3E9734841105350CDB85C7DEB19231FCD5D9D4413F245DA53448C3C37665492B\r\n\r\nxray_darwin_amd64\r\nSHA256: 1405C522622FBE43DEC8D2468C4DEB5C496BD02370B0C9573BF9116F5D340C38\r\n\r\nxray_darwin_arm64\r\nSHA256: DEBDC4C8FA6C9A180F554BC4D0FA95B06AFE3461D5549EDCB9483E8A53A48D1E\r\n\r\nxray_linux_amd64\r\nSHA256: 002E9C31659160B44D0AADFC6856E47F39401CD4F26840AE1DF7E0C6A147D359\r\n\r\nxray_linux_arm64\r\nSHA256: 693C6D6251711B644C563EA0D30053433747D51247EF08D746428E0195BBAB15\r\n"
+        "release_tag": "v1.9.11",
+        "release_date": "2023-05-29 08:53:41",
+        "release_message": "## Xray 1.9.11 COMMUNITY-ADVANCED\r\n\r\n前段时间太忙了，今天第一时间更新下\r\n\r\n### 版本介绍  \r\n\r\n该版本为 用友NC NCMessageServlet反序列化漏洞 注入漏洞 的应急版本，相较上个版本，除了添加了一个POC外，未改动其他内容。\r\n\r\n### 更新内容  \r\n想要检测该漏洞的师傅，可以使用\r\n\r\n./xray ws --poc poc-yaml-yongyou-nc-ncmessageservlet-rce --url http://example.com\r\n\r\n进行检测。\r\n\r\n相关参考链接：[CT stack](https://stack.chaitin.com/techblog/detail?id=92)"
     },
     "https://github.com/sensepost/reGeorg": {
         "created_at": "2014-08-08 00:58:12",
@@ -3298,8 +3298,8 @@
     "https://github.com/bytedance/Elkeid": {
         "created_at": "2020-12-18 03:15:54",
         "description": "Elkeid is an open source solution that can meet the security requirements of various workloads such as hosts, containers and K8s, and serverless. It is derived from ByteDance's internal best practices.",
-        "commit_date": "2023-05-26 10:48:12",
-        "commit_message": "Optimization: using hash for trusted exe & arg check\n\nConvert string comparison to 64-bit hash comparison, the former is less\nefficient. With 128 items in the rbtree, 7 times of comparison will be\nperformed for every call of the hooked points.\n\nHere murmur64 is used for string hash, and there's no collison among\n18,734,347 pathes.\n\nSigned-off-by: shenping.matt <shenping.matt@bytedance.com>",
+        "commit_date": "2023-05-29 11:49:37",
+        "commit_message": "Main update ci (#501)\n\n* update docker\r\n\r\n* update ci",
         "release_tag": "scanner-v2.2.0.4_20230526",
         "release_date": "2023-05-26 07:09:19",
         "release_message": ""
@@ -3406,8 +3406,8 @@
     "https://github.com/bit4woo/domain_hunter_pro": {
         "created_at": "2019-01-18 07:15:15",
         "description": "domain_hunter的高级版本，SRC挖洞、HW打点之必备！自动化资产收集；快速Title获取；外部工具联动；等等",
-        "commit_date": "2023-05-26 12:29:21",
-        "commit_message": "Update SearchMenu.java",
+        "commit_date": "2023-05-29 09:33:59",
+        "commit_message": "update",
         "release_tag": "v1.9",
         "release_date": "2023-04-18 00:34:58",
         "release_message": "全局：\r\n多个bug修复\r\n布局模式优化\r\n基础方法实现逻辑优化\r\n\r\n右键菜单：\r\n“Do Search”提供主动在制定请求中进行搜索的能力，比如在某企业邮箱的流量中搜索以提取邮箱地址\r\n“Add Request And Comment”右键菜单添逻辑优化，修复一个bug\r\n“Send To Tool Panel”右键菜单处理逻辑优化，可合并发送多个数据包内容\r\n\r\nDomain面板：\r\nroot domain的comments逻辑更新\r\n提供多个网络搜索引擎的后台自动搜索功能\r\nroot domain双击，自动在浏览器中访问\r\n修改目标根域名删除失败的bug\r\n显示序号，以便在排序后恢复原始顺序\r\n\r\nTool面板：\r\n重写JTextArea的paste函数，避免大内容导致程序卡死\r\nJTextArea支持输入文件，而程序处理其内容。\r\n文本取提供简单的历史记录功能\r\nJSON提取逻辑优化\r\n新增多个功能，比如排序\r\n优化URL提取逻辑，避免遗漏没有以/开头的path\r\n\r\nTitle面板中：\r\n端口扫描命令生成逻辑优化\r\n备注和IP内容的显示优化，显示前排序\r\n备注添加逻辑优化\r\n给手动添加的记录添加已知的IP和CNAME、CertInfo\r\n搜索功能增强，支持对数字型字段进行大于、小于、等于等搜索\r\n添加多个搜索实例，以便用户熟悉搜索语法\r\n新增“Do Request Item Again”菜单，对DNS记录或无响应的数据包进行再次请求"
@@ -3699,10 +3699,10 @@
     "https://github.com/carlospolop/PEASS-ng": {
         "created_at": "2019-01-13 19:58:24",
         "description": "PEASS - Privilege Escalation Awesome Scripts SUITE (with colors)",
-        "commit_date": "2023-05-25 12:27:17",
-        "commit_message": "improve",
-        "release_tag": "20230528-732e358b",
-        "release_date": "2023-05-28 04:27:07",
+        "commit_date": "2023-05-29 14:52:21",
+        "commit_message": "winpeas.ps1",
+        "release_tag": "20230529-e7da582f",
+        "release_date": "2023-05-29 15:09:03",
         "release_message": ""
     },
     "https://github.com/waderwu/attackRmi": {
@@ -3969,8 +3969,8 @@
     "https://github.com/aquasecurity/trivy": {
         "created_at": "2019-04-11 01:01:07",
         "description": "Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more",
-        "commit_date": "2023-05-28 07:30:58",
-        "commit_message": "feat(debian): add digests for dpkg (#4445)\n\nCo-authored-by: knqyf263 <knqyf263@gmail.com>",
+        "commit_date": "2023-05-29 20:48:26",
+        "commit_message": "feat(misconf): Add terraformplan support (#4342)\n\n* feat(misconf): Add terraformplan support\r\n\r\nFixes: https://github.com/aquasecurity/trivy/issues/4341\r\n\r\nSigned-off-by: Simar <simar@linux.com>\r\n\r\n* update defsec\r\n\r\n* fix lint\r\n\r\nSigned-off-by: Simar <simar@linux.com>\r\n\r\n* remove debug prints\r\n\r\nSigned-off-by: Simar <simar@linux.com>\r\n\r\n* update tests\r\n\r\nSigned-off-by: Simar <simar@linux.com>\r\n\r\n---------\r\n\r\nSigned-off-by: Simar <simar@linux.com>",
         "release_tag": "v0.41.0",
         "release_date": "2023-04-28 06:00:39",
         "release_message": "## ⚡Release highlights and summary⚡\r\n\r\n👉 https://github.com/aquasecurity/trivy/discussions/4135\r\n\r\n## Changelog\r\n* 1be1e2e63 fix(spdx): add workaround for no src packages (#4118)\r\n* 45bc9e0de test(golang): rename broken go.mod (#4129)\r\n* 3334e78fa feat(sbom): add supplier field (#4122)\r\n* 27fb1bfde test(misconf): skip downloading of policies for tests #4126\r\n* 845ae31e5 refactor: use debug message for post-analyze errors (#4037)\r\n* 11a5b91a1 feat(sbom): add VEX support (#4053)\r\n* 5eab46498 feat(sbom): add primary package purpose field for SPDX (#4119)\r\n* a00d00eb9 fix(k8s): fix quiet flag (#4120)\r\n* 9bc326909 fix(python): parse of pip extras (#4103)\r\n* 855984167 feat(java): use full path for nested jars (#3992)\r\n* 0650e0e1d feat(license): add new flag for classifier confidence level (#4073)\r\n* 43b649627 feat: config and fs compliance support (#4097)\r\n* 9181bc1f7 chore(deps): bump sigstore/cosign-installer from 2.8.1 to 3.0.1 (#3952)\r\n* 48e021ea6 feat(spdx): add support for SPDX 2.3 (#4058)\r\n* 107752df6 fix: k8s all-namespaces support (#4096)\r\n* bd0c60364 perf(misconf): replace with post-analyzers (#4090)\r\n* 76662d5dd fix(helm): update networking API version detection (#4106)\r\n* be47b688c feat(image): custom docker host option (#3599)\r\n* cc18f92cf style: debug flag is incorrect and needs extra - (#4087)\r\n* 572a6193e docs(vuln): Document inline vulnerability filtering comments (#4024)\r\n* 914c6f092 feat(fs): customize error callback during fs walk (#4038)\r\n* 3f02feeff fix(ubuntu): skip copyright files from subfolders (#4076)\r\n* 57bb77c06 docs: restructure scanners (#3977)\r\n* b19b56c34 fix: fix `file does not exist` error for post-analyzers (#4061)\r\n\r\n"
@@ -4275,7 +4275,7 @@
     "https://github.com/aiboboxx/v2rayfree": {
         "created_at": "2021-10-13 11:34:53",
         "description": "v2ray公益免费节点、最新2ray免费v节点订阅地址、v2ray免费节点每日更新、免费ss/v2ray/trojan节点、freefq ",
-        "commit_date": "2023-05-28 12:34:08",
+        "commit_date": "2023-05-29 12:37:10",
         "commit_message": "update",
         "release_tag": "",
         "release_date": "",
@@ -4320,8 +4320,8 @@
     "https://github.com/freefq/free": {
         "created_at": "2020-06-07 02:48:33",
         "description": "翻墙、免费翻墙、免费科学上网、免费节点、免费梯子、免费ss/v2ray/trojan节点、蓝灯、谷歌商店、翻墙梯子",
-        "commit_date": "2023-05-29 00:00:02",
-        "commit_message": "updated_at 05-29 08:00",
+        "commit_date": "2023-05-30 00:00:03",
+        "commit_message": "updated_at 05-30 08:00",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -4599,8 +4599,8 @@
     "https://github.com/rockbenben/ChatGPT-Shortcut": {
         "created_at": "2023-02-24 12:53:49",
         "description": "Maximize your efficiency and productivity. 让生产力加倍的 ChatGPT 快捷指令，按照领域和功能分区，可对提示词进行标签筛选、关键词搜索和一键复制。",
-        "commit_date": "2023-05-25 22:46:16",
-        "commit_message": "Merge pull request #30 from CharlieJCJ/main\n\nUpdate README.md",
+        "commit_date": "2023-05-29 09:56:38",
+        "commit_message": "fix: fix feedback path",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -4613,5 +4613,23 @@
         "release_tag": "",
         "release_date": "",
         "release_message": ""
+    },
+    "https://github.com/A10ha/EmailSender": {
+        "created_at": "2023-05-13 13:32:16",
+        "description": "钓鱼邮件便捷发送工具（GUI）",
+        "commit_date": "2023-05-13 13:42:42",
+        "commit_message": "Create README.md",
+        "release_tag": "",
+        "release_date": "",
+        "release_message": ""
+    },
+    "https://github.com/baidu/dperf": {
+        "created_at": "2021-12-21 08:02:08",
+        "description": "dperf is a DPDK based 100Gbps network performance and load testing software.",
+        "commit_date": "2023-05-04 11:33:14",
+        "commit_message": "Merge pull request #304 from pengjianzhang/main\n\nlport_range minimun range is 1",
+        "release_tag": "v1.5.0",
+        "release_date": "2023-03-10 07:39:07",
+        "release_message": "## v1.5.0 - 2023-03-10\r\n### Added\r\n\r\n- udp elephant flow\r\n\r\n    thanks sheva7777\r\n- client_hop\r\n\r\n    thanks hgkiller\r\n- supported Mellanox MT27500 [ConnectX-3]\r\n\r\n    thanks SdotChen\r\n- article: Using dperf to test the performance of DPVS(zh)\r\n\r\n    thanks sheva7777\r\n- article: How to install dperf on ubuntu(zh)\r\n\r\n    thanks digger-yu\r\n- article: Using dperf to test 100Gbps bandwidth(zh)\r\n\r\n    thanks CHRIS123540\r\n- article: DPVS v1.9.2 Performance Tests by dperf\r\n\r\n    thanks ywc689\r\n- article: dperf FAQ(zh)\r\n\r\n### Changed\r\n\r\n- print error numbers with red color\r\n\r\n### Fixed\r\n\r\n- flood with rss l3l4\r\n\r\n    thanks sheva7777\r\n- use unlikeyly to predict condition\r\n\r\n    thanks panzhengyu\r\n- address conflict in configuration file\r\n\r\n    thanks CHRIS123540\r\n- docs/configuration: update payload_size"
     }
 }

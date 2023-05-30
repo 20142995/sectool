@@ -1,10 +1,12 @@
-# 更新于 2023-05-29 08:44:13
+# 更新于 2023-05-30 08:45:35
 
 ## 近15天release更新记录
 | 更新时间 | 项目名称 | 版本 | 更新内容 |
 | :---- | :---- | :---- | :---- |
+|2023-05-29 15:09:03|[PEASS-ng](https://github.com/carlospolop/PEASS-ng)|2023052<br>9-e7da58<br>2f||
+|2023-05-29 08:53:41|[Xray_Cracked](https://github.com/NHPT/Xray_Cracked)|v1.9.11|## Xray 1.9.11 COMMUNITY-ADVANCED    <br>前段时间太忙了，今天第一时间更新下    #<br>## 版本介绍      该版本为 用友NC NCMes<br>sageServlet反序列化漏洞 注入漏洞 的应<br>急版本，相较上个版本，除了添加了一个POC<br>外，未改动其他内容。    ### 更新内容   <br> 想要检测该漏洞的师傅，可以使用    ./x<br>ray ws --poc poc-yaml-yongyou-nc-ncmes<br>sageservlet-rce --url http://example.c<br>om    进行检测。    相关参考链接：|
+|2023-05-29 05:03:49|[OneScan](https://github.com/vaycore/OneScan)|v1.0.4|1.0.4 版本发布，版本更新内容如下    #<br>## 优化    - 保存数据看板页面复选框状<br>态（将 Disable HeaderReplace、Disable D<br>irScan 的 Disable 更改为 Enable）  - <br>优化正则表达式，解决某些站点 title 读取<br>异常的问题    ### 修复    - 解决 bodyMd<br>5 参数计算错误的问题  - 解决数据看板选<br>中某条数据时，加载响应数据过慢的问题  |
 |2023-05-28 15:55:23|[nuclei](https://github.com/projectdiscovery/nuclei)|v2.9.5|## What's Changed  * **Added payloads<br> support in dns protocol by @ShubhamRa<br>sal** in https://github.com/projectdis<br>covery/nuclei/pull/3632  * Added any t<br>ype query support in dns protocol by @<br>ehsandeep in https://github.com/projec<br>tdiscovery/nuclei/pull/3644  * **Added<br> support for constants by @Mzack9999**<br> in https://github.com/projectdiscover<br>y/nuclei/pull/3692  * Added utility to<br> write max-requests counter to templat<br>es by @RamanaReddy0M in https://github<br>.com/projectdiscovery/nuclei/pull/3607<br>  * **Fixed memory leak (high memory u<br>ses) by @ShubhamRasal** in https://git<br>hub.com/projectdiscovery/nuclei/pull/3<br>676  * **Fixed issue with interactsh (<br>probably evicted due to inactivity)** <br>by @Mzack9999 in https://github.com/pr<br>ojectdiscovery/nuclei/pull/3680  * Fix<br>ed issue with removing semicolon from <br>raw request by @RamanaReddy0M in https<br>://github.com/projectdiscovery/nuclei/<br>pull/3650  * Fixed typos by @kchason i<br>n https://github.com/projectdiscovery/<br>nuclei/pull/3704  * Fixed oob ruleinde<br>x by @dogancanbakir in https://github.<br>com/projectdiscovery/nuclei/pull/3738 <br> * Fixed updates to docs references by<br> @olearycrew in https://github.com/pro<br>jectdiscovery/nuclei/pull/3718  * Upda<br>ted uncover integreation logic by @tar<br>unKoyalwar in https://github.com/proje<br>ctdiscovery/nuclei/pull/3663  * Remove<br>d .yml extension support for template <br>input as URL by @Mzack9999 in https://<br>github.com/projectdiscovery/nuclei/pul<br>l/3745    Issues closed in this releas<br>e - https://github.com/projectdiscover<br>y/nuclei/milestone/31?closed=1    ## N<br>ew Contributors  * @olearycrew made th<br>eir first contribution in https://gith<br>ub.com/projectdiscovery/nuclei/pull/37<br>18    **Full Changelog**: https://gith<br>ub.com/projectdiscovery/nuclei/compare<br>/v2.9.4...v2.9.5|
-|2023-05-28 04:27:07|[PEASS-ng](https://github.com/carlospolop/PEASS-ng)|2023052<br>8-732e35<br>8b||
 |2023-05-26 18:04:16|[railgun](https://github.com/lz520520/railgun)|v1.5.5|解压密码 railgun      1. 编码转换    <br>a. 修复AES算法bug    b. 更新ascii编码<br>，可更好处理各种进制格式的字节码    c. <br>增加digital编码，纯数字进制转换    d. <br>增加RSA算法，以及GenerateRSA    e. 增加<br>国密算法，SM2/SM3/SM4|
 |2023-05-26 17:50:28|[grype](https://github.com/anchore/grype)|v0.62.2|# Changelog  ##  (2023-05-26)      |
 |2023-05-26 12:46:44|[Viper](https://github.com/FunnyWolf/Viper)|v1.5.29|### 优化  - 端口转发记录新增连接提示 <br> - 模块运行结果记录运行模块的sessionid<br>  - 适配reverse_tcp_ssl类型payload  - <br>合并metasploit-framework 6.3.18版本  ##<br># Bugfix  - 修复sock4a/socks5代理无法<br>使用问题  - 修复session长时间运行导致内<br>存占用过高问题|
@@ -26,42 +28,43 @@
 |2023-05-17 03:26:56|[ENScan_GO](https://github.com/wgpsec/ENScan_GO)|0.0.11|修复企查查签名错误提示|
 |2023-05-16 16:40:02|[faker](https://github.com/joke2k/faker)|v18.9.0|See .|
 |2023-05-15 12:52:58|[murphysec](https://github.com/murphysecurity/murphysec)|v3.1.1|Support NPM lockfile v3 |
-|2023-05-14 12:54:57|[whatweb-plus](https://github.com/winezer0/whatweb-plus)|v0.5.5.<br>19.fix|修复kali下 ruby 3.1.2 下提示 join(nil<br>，"whatweb")报错    注意windows环境下不<br>受影响,可以不进行更新|
 ## 近15天commit提交记录
 | 提交时间 | 项目名称 | 更新内容 |
 | :---- | :---- | :---- |
-|2023-05-29 00:30:16|[NucleiTP](https://github.com/ExpLangcn/NucleiTP)|更新啦❤️|
+|2023-05-30 00:30:20|[NucleiTP](https://github.com/ExpLangcn/NucleiTP)|更新啦❤️|
+|2023-05-30 00:00:03|[free](https://github.com/freefq/free)|updated_at 05-30 08:00|
+|2023-05-29 22:24:51|[PocOrExp_in_Githu<br>b](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-05-30 06:24:51|
+|2023-05-29 20:48:26|[trivy](https://github.com/aquasecurity/trivy)|feat(misconf): Add terraformplan support (#4342)  *<br> feat(misconf): Add terraformplan support    Fixes: <br>https://github.com/aquasecurity/trivy/issues/4341   <br> Signed-off-by: Simar     * update defsec    * fix l<br>int    Signed-off-by: Simar     * remove debug print<br>s    Signed-off-by: Simar     * update tests    Sign<br>ed-off-by: Simar     ---------    Signed-off-by: Sim<br>ar |
+|2023-05-29 19:40:56|[dbeaver](https://github.com/dbeaver/dbeaver)|dbeaver/pro#1502 Deprecate legacy ODBC driver (#200<br>84)  * dbeaver/pro#1502 Deprecate legacy ODBC driver<br>    * dbeaver/pro#1502 Update deprecation reason    <br>* dbeaver/pro#1502 Prevent new connection creation u<br>sing deprecated driver    * dbeaver/pro#1502 Update <br>deprecation reason    ---------    Co-authored-by: D<br>ziyana |
+|2023-05-29 14:52:21|[PEASS-ng](https://github.com/carlospolop/PEASS-ng)|winpeas.ps1|
+|2023-05-29 12:37:10|[v2rayfree](https://github.com/aiboboxx/v2rayfree)|update|
+|2023-05-29 11:49:37|[Elkeid](https://github.com/bytedance/Elkeid)|Main update ci (#501)  * update docker    * update <br>ci|
+|2023-05-29 09:56:38|[ChatGPT-Shortcut](https://github.com/rockbenben/ChatGPT-Shortcut)|fix: fix feedback path|
+|2023-05-29 09:33:59|[domain_hunter_pro](https://github.com/bit4woo/domain_hunter_pro)|update|
+|2023-05-29 04:31:16|[OneScan](https://github.com/vaycore/OneScan)|将数据看板界面的复选框状态保存到配置文件；将Disable<br>选项功能更改为Enable|
+|2023-05-29 03:23:40|[vulnerability](https://github.com/lal0ne/vulnerability)|E-Cology CheckServer.jsp SQL注入|
+|2023-05-29 03:02:14|[404StarLink](https://github.com/knownsec/404StarLink)|weekly update at 2023-05-29|
+|2023-05-29 02:28:33|[afrog](https://github.com/zan8in/afrog)|update|
 |2023-05-29 00:29:07|[Hades](https://github.com/theSecHunter/Hades)|Update README.md|
-|2023-05-29 00:00:02|[free](https://github.com/freefq/free)|updated_at 05-29 08:00|
-|2023-05-28 23:33:56|[PocOrExp_in_Githu<br>b](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-05-29 07:33:56|
 |2023-05-28 16:14:49|[Ladon](https://github.com/k8gege/Ladon)|Add files via upload|
 |2023-05-28 16:06:02|[K8tools](https://github.com/k8gege/K8tools)|Add files via upload|
 |2023-05-28 15:03:35|[nuclei](https://github.com/projectdiscovery/nuclei)|test update|
 |2023-05-28 13:52:32|[vulhub](https://github.com/vulhub/vulhub)|Merge pull request #436 from vulhub/docker-compose-<br>v2  upgrade docker-compose v1 to docker compose v2|
-|2023-05-28 12:34:08|[v2rayfree](https://github.com/aiboboxx/v2rayfree)|update|
-|2023-05-28 07:30:58|[trivy](https://github.com/aquasecurity/trivy)|feat(debian): add digests for dpkg (#4445)  Co-auth<br>ored-by: knqyf263 |
 |2023-05-28 03:25:01|[wpscan](https://github.com/wpscanteam/wpscan)|Update README.md|
 |2023-05-27 13:42:33|[All-Defense-Tool](https://github.com/guchangan1/All-Defense-Tool)|更新v2.3|
-|2023-05-27 01:53:09|[afrog](https://github.com/zan8in/afrog)|update|
 |2023-05-26 20:30:53|[SSTImap](https://github.com/vladko312/SSTImap)|Version 1.1.3 (Bugfixes)  Fixed bug with the new co<br>okie processing  Fixed some code being unreachable  <br>Moved new parameter to a different category    Just <br>a minor bugfix update|
 |2023-05-26 20:08:20|[syft](https://github.com/anchore/syft)|chore(deps): bump github.com/docker/docker (#1849) <br> Bumps  from 24.0.1+incompatible to 24.0.2+incompati<br>ble.  -   -     ---  updated-dependencies:  - depend<br>ency-name: github.com/docker/docker    dependency-ty<br>pe: direct:production    update-type: version-update<br>:semver-patch  ...    Signed-off-by: dependabot[bot]<br>   Co-authored-by: dependabot[bot] |
 |2023-05-26 17:47:54|[clair](https://github.com/quay/clair)|chore: bump Claircore to v1.5.5  Bump Claircore to <br>the latest tag.  Signed-off-by: crozzy |
 |2023-05-26 17:37:08|[grype](https://github.com/anchore/grype)|feat: add source and type to CVSS information (#131<br>7)  Adds source and type to the CVSS score informati<br>on to allow  identification of the organization that<br> submitted the score and whether  they are a primary<br> or secondary source.    Signed-off-by: Weston Steim<br>el |
-|2023-05-26 15:25:06|[dbeaver](https://github.com/dbeaver/dbeaver)|dbeaver/pro#1652 Cancel detached jobs during editor<br> save (#20098)  Co-authored-by: Matvey16 |
-|2023-05-26 12:29:21|[domain_hunter_pro](https://github.com/bit4woo/domain_hunter_pro)|Update SearchMenu.java|
-|2023-05-26 10:48:12|[Elkeid](https://github.com/bytedance/Elkeid)|Optimization: using hash for trusted exe & arg chec<br>k  Convert string comparison to 64-bit hash comparis<br>on, the former is less efficient. With 128 items in <br>the rbtree, 7 times of comparison will be performed <br>for every call of the hooked points.  Here murmur64 <br>is used for string hash, and there's no collison amo<br>ng 18,734,347 pathes.  Signed-off-by: shenping.matt |
 |2023-05-26 10:41:30|[kube-bench](https://github.com/aquasecurity/kube-bench)|build(deps): bump alpine from 3.17 to 3.18 (#1443) <br> Bumps alpine from 3.17 to 3.18.    ---  updated-dep<br>endencies:  - dependency-name: alpine    dependency-<br>type: direct:production    update-type: version-upda<br>te:semver-minor  ...    Signed-off-by: dependabot[bo<br>t]   Co-authored-by: dependabot[bot] |
 |2023-05-26 08:45:23|[safeline](https://github.com/chaitin/safeline)|fix(fe): detection page styles|
 |2023-05-26 06:13:09|[knife](https://github.com/bit4woo/knife)|Update GUI.java|
-|2023-05-25 22:46:16|[ChatGPT-Shortcut](https://github.com/rockbenben/ChatGPT-Shortcut)|Merge pull request #30 from CharlieJCJ/main  Update<br> README.md|
 |2023-05-25 13:05:19|[murphysec](https://github.com/murphysecurity/murphysec)|fix: 修一下字段名|
-|2023-05-25 12:27:17|[PEASS-ng](https://github.com/carlospolop/PEASS-ng)|improve|
 |2023-05-25 11:44:40|[whatweb-plus](https://github.com/winezer0/whatweb-plus)|Update README.md|
 |2023-05-25 09:27:15|[sqlmap](https://github.com/sqlmapproject/sqlmap)|add support to leverage CVE-2014-6577 for Oracle DN<br>S data exfiltration (#5410)  Co-authored-by: marvin |
 |2023-05-25 08:05:47|[awesome-chatgpt-z<br>h](https://github.com/yzfly/awesome-chatgpt-zh)|update readme|
 |2023-05-25 06:28:18|[captcha-killer-mo<br>dified](https://github.com/f0ng/captcha-killer-modified)|Update FAQ.md|
 |2023-05-25 03:32:07|[dismap](https://github.com/zhzyker/dismap)|Merge pull request #36 from sockx/fix_https  Fix po<br>ssible problems with https detection|
-|2023-05-25 01:41:29|[vulnerability](https://github.com/lal0ne/vulnerability)|CVE-2022-36642|
 |2023-05-24 22:38:31|[neuvector](https://github.com/neuvector/neuvector)|Merge pull request #833 from becitsthere/dev  NVSHA<br>S-6241: Fix scanner count for adapter rpc calls|
 |2023-05-24 13:38:21|[Library-POC](https://github.com/luck-ying/Library-POC)|Update README.md|
 |2023-05-24 10:30:30|[xray](https://github.com/chaitin/xray)|[fix] readme|
@@ -92,10 +95,7 @@
 |2023-05-16 14:13:55|[OA-EXPTOOL](https://github.com/LittleBear4/OA-EXPTOOL)|Update README.md|
 |2023-05-16 12:12:24|[Pentest-Windows](https://github.com/arch3rPro/Pentest-Windows)|Update README.md|
 |2023-05-16 06:53:14|[FrameVul](https://github.com/Awrrays/FrameVul)|Update README.md|
-|2023-05-15 08:23:20|[proxy_pool](https://github.com/jhao104/proxy_pool)|Merge pull request #745 from jhao104/develop  [upda<br>te] :chicken: new proxy docip|
-|2023-05-15 03:18:59|[404StarLink](https://github.com/knownsec/404StarLink)|weekly update at 2023-05-15|
-|2023-05-14 08:25:37|[HackReport](https://github.com/awake1t/HackReport)|2023-05-14 16:25:37|
-|2023-05-14 02:55:50|[pikachu](https://github.com/zhuifengshaonianhanlu/pikachu)|Merge pull request #25 from Zhniing/dev  Fix mysql <br>connection|## 所有项目
+|2023-05-15 08:23:20|[proxy_pool](https://github.com/jhao104/proxy_pool)|Merge pull request #745 from jhao104/develop  [upda<br>te] :chicken: new proxy docip|## 所有项目
 # 渗透测试
 ## 信息收集
 ### 资产测绘采集
@@ -524,7 +524,7 @@
 | [dirtycow](https://github.com/firefart/dirtycow) |  | Dirty Cow exploit - CVE-2016-5195 |
 | [traitor](https://github.com/liamg/traitor) | v0.0.14 | :arrow_up: :skull_and_crossbones: :fire: Automatic Linux prive<br>sc via exploitation of low-hanging fruit e.g. gtfobins, pwnkit,<br> dirty pipe, +w docker.sock |
 | [LinEnum](https://github.com/rebootuser/LinEnum) |  | Scripted Local Linux Enumeration & Privilege Escalation Checks |
-| [PEASS-ng](https://github.com/carlospolop/PEASS-ng) | 2023052<br>8-732e35<br>8b | PEASS - Privilege Escalation Awesome Scripts SUITE (with color<br>s) |
+| [PEASS-ng](https://github.com/carlospolop/PEASS-ng) | 2023052<br>9-e7da58<br>2f | PEASS - Privilege Escalation Awesome Scripts SUITE (with color<br>s) |
 | [traitor](https://github.com/liamg/traitor) | v0.0.14 | :arrow_up: :skull_and_crossbones: :fire: Automatic Linux prive<br>sc via exploitation of low-hanging fruit e.g. gtfobins, pwnkit,<br> dirty pipe, +w docker.sock |
 ### 容器提权
 | 项目名称 | 版本 | 项目描述 |
@@ -573,6 +573,11 @@
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
 | [Ladon](https://github.com/k8gege/Ladon) | v10.10.<br>5 | Ladon大型内网渗透工具，可PowerShell模块化、可CS插件化、可内存<br>加载，无文件扫描。含端口扫描、服务识别、网络资产探测、密码审计、<br>高危漏洞检测、漏洞利用、密码读取以及一键GetShell，支持批量A段/B<br>段/C段以及跨网段扫描，支持URL、主机、域名列表扫描等。10.10.6内置<br>230个功能模块,网络资产探测模块32个通过多种协议(ICMP\NBT\DNS\MAC<br>\SMB\WMI\SSH\HTTP\HTTPS\Exchange\mssql\FTP\RDP)以及方法快速获取<br>目标网络存活主机IP、计算机名、工作组、共享资源、网卡地址、操作系<br>统版本、网站、子域名、中间件、开放服务、路由器、交换机、数据库、<br>打印机等信息，高危漏洞检测16个含MS17010、Zimbra、Exchange |
+## 社会工程学
+### 钓鱼辅助
+| 项目名称 | 版本 | 项目描述 |
+| :---- | :---- | :---- |
+| [EmailSender](https://github.com/A10ha/EmailSender) |  | 钓鱼邮件便捷发送工具（GUI） |
 ## 相关资源
 ### 工具集成环境
 | 项目名称 | 版本 | 项目描述 |
@@ -647,7 +652,7 @@
 | [BurpSuiteCn](https://github.com/funkyoummp/BurpSuiteCn) | V2.0 | Burp Suite  汉化 中文 |
 | [NEW_xp_CAPTCHA](https://github.com/smxiazi/NEW_xp_CAPTCHA) | 4.2 | xp_CAPTCHA(瞎跑 白嫖版) burp 验证码 识别 burp插件 |
 | [npscrack](https://github.com/weishen250/npscrack) | npscrac<br>k-1.0 | 蓝队利器、溯源反制、NPS 漏洞利用、NPS exp、NPS poc、Burp插件、<br>一键利用 |
-| [OneScan](https://github.com/vaycore/OneScan) | v1.0.0 | OneScan是递归目录扫描的BurpSuite插件 |
+| [OneScan](https://github.com/vaycore/OneScan) | v1.0.4 | OneScan是递归目录扫描的BurpSuite插件 |
 | [OutLook](https://github.com/KrystianLi/OutLook) |  |  |
 | [passive-scan-clie<br>nt-plus](https://github.com/winezer0/passive-scan-client-plus) | v0.4.12<br>.0 | burpsuite passive-scan-client 插件维护分支 |
 | [BpScan](https://github.com/EASY233/BpScan) | 1.0.0 | 一款用于辅助渗透测试工程师日常渗透测试的Burp被动漏扫插件 |
@@ -705,7 +710,7 @@
 | [yarx](https://github.com/zema1/yarx) | v0.2.0 | An awesome reverse engine for xray poc. | 一个自动化根据 xray <br>poc 生成对应靶站的工具 |
 | [xray-poc-generati<br>on](https://github.com/phith0n/xray-poc-generation) |  | 🧬 辅助生成 XRay YAML POC |
 | [super-xray](https://github.com/4ra1n/super-xray) | 1.7 | Web漏洞扫描工具XRAY的GUI启动器 |
-| [Xray_Cracked](https://github.com/NHPT/Xray_Cracked) | v1.9.8 | Update Xray1.9.8 Cracked for Windows,Linux and Mac OS. |
+| [Xray_Cracked](https://github.com/NHPT/Xray_Cracked) | v1.9.11 | Update Xray1.9.8 Cracked for Windows,Linux and Mac OS. |
 ### pocsuite3
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
@@ -1026,3 +1031,7 @@
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
 | [WebBench](https://github.com/EZLippi/WebBench) |  | Webbench是Radim Kolar在1997年写的一个在linux下使用的非常简单的<br>网站压测工具。它使用fork()模拟多个客户端同时访问我们设定的URL，<br>测试网站在压力下工作的性能，最多可以模拟3万个并发连接去测试网站<br>的负载能力。官网地址:http://home.tiscali.cz/~cz210552/webbench.h<br>tml |
+## 其他
+| 项目名称 | 版本 | 项目描述 |
+| :---- | :---- | :---- |
+| [dperf](https://github.com/baidu/dperf) | v1.5.0 | dperf is a DPDK based 100Gbps network performance and load tes<br>ting software. |
