@@ -1,8 +1,10 @@
-# 更新于 2023-05-30 08:45:35
+# 更新于 2023-05-31 08:48:19
 
 ## 近15天release更新记录
 | 更新时间 | 项目名称 | 版本 | 更新内容 |
 | :---- | :---- | :---- | :---- |
+|2023-05-30 19:53:00|[subfinder](https://github.com/projectdiscovery/subfinder)|v2.5.9|## What's Changed  * Added support to<br> extract additional subdomains from di<br>gitorus source by @dogancanbakir in ht<br>tps://github.com/projectdiscovery/subf<br>inder/pull/845  * Added tests for sour<br>ces require an api key by @dogancanbak<br>ir in https://github.com/projectdiscov<br>ery/subfinder/pull/852  * Fixed issue <br>with the close method for session by @<br>ShubhamRasal in https://github.com/pro<br>jectdiscovery/subfinder/pull/846  * Fi<br>xed issue with case insensitive subdom<br>ain result by @ShubhamRasal in https:/<br>/github.com/projectdiscovery/subfinder<br>/pull/837  * Fixed issue with security<br>trails api by @n0kovo in https://githu<br>b.com/projectdiscovery/subfinder/pull/<br>849    Issues closed in this release -<br> https://github.com/projectdiscovery/s<br>ubfinder/milestone/7     ## New Contri<br>butors  * @n0kovo made their first con<br>tribution in https://github.com/projec<br>tdiscovery/subfinder/pull/849    **Ful<br>l Changelog**: https://github.com/proj<br>ectdiscovery/subfinder/compare/v2.5.8.<br>..v2.5.9|
+|2023-05-30 14:08:36|[DNSlog-GO](https://github.com/lanyi1998/DNSlog-GO)|2023053<br>0||
 |2023-05-29 15:09:03|[PEASS-ng](https://github.com/carlospolop/PEASS-ng)|2023052<br>9-e7da58<br>2f||
 |2023-05-29 08:53:41|[Xray_Cracked](https://github.com/NHPT/Xray_Cracked)|v1.9.11|## Xray 1.9.11 COMMUNITY-ADVANCED    <br>前段时间太忙了，今天第一时间更新下    #<br>## 版本介绍      该版本为 用友NC NCMes<br>sageServlet反序列化漏洞 注入漏洞 的应<br>急版本，相较上个版本，除了添加了一个POC<br>外，未改动其他内容。    ### 更新内容   <br> 想要检测该漏洞的师傅，可以使用    ./x<br>ray ws --poc poc-yaml-yongyou-nc-ncmes<br>sageservlet-rce --url http://example.c<br>om    进行检测。    相关参考链接：|
 |2023-05-29 05:03:49|[OneScan](https://github.com/vaycore/OneScan)|v1.0.4|1.0.4 版本发布，版本更新内容如下    #<br>## 优化    - 保存数据看板页面复选框状<br>态（将 Disable HeaderReplace、Disable D<br>irScan 的 Disable 更改为 Enable）  - <br>优化正则表达式，解决某些站点 title 读取<br>异常的问题    ### 修复    - 解决 bodyMd<br>5 参数计算错误的问题  - 解决数据看板选<br>中某条数据时，加载响应数据过慢的问题  |
@@ -19,7 +21,6 @@
 |2023-05-22 09:21:19|[captcha-killer-mo<br>dified](https://github.com/f0ng/captcha-killer-modified)|0.24|【2023-5-22】 0.24  - 修复验证码在int<br>ruder中无法显示的bug  - 再次修复了装载<br>插件会影响proxy选项卡的问题    感谢微信<br>群师傅 Cat 反馈|
 |2023-05-22 09:05:23|[afrog](https://github.com/zan8in/afrog)|v2.5.1|**Add**  Writing TCP/UDP POC files us<br>ing YAML  Writing POC files for Go pro<br>gramming language using YAML  The Shir<br>o Key detection script by default chec<br>ks 20 keys.  **Optimization**  Resolve<br> the path error issue during program u<br>pdates with the "-update" command.  En<br>hance the console prompt messages  Dis<br>able the "-up" command and switch to a<br>utomatic execution.  Change the notifi<br>cation level for the unconfigured reve<br>rse connection platform to Info  By de<br>fault, target access is not monitored.<br> Please enable it using the "-monitor-<br>targets" or "-mt" command  Remove dupl<br>icate PoC: hikvision-applyct-fastjson-<br>rce  **新增**  使用 YAML 编写 TCP/UDP <br>的 POC 文件  使用 YAML 调用 Go  语言的 <br>POC 文件  Shiro Key 检测脚本默认检测 2<br>0 个 Key  **优化**  解决 -update 程序<br>更新时的路径错误问题  改进控制台提示信<br>息  禁用 -up 命令，改为自动执行  将反连<br>平台未配置的提示等级改为 Info  默认情况<br>下不会监视目标访问，请使用 "-monitor-ta<br>rgets" 或 "-mt" 命令进行启用  删除重复<br> PoC: hikvision-applyct-fastjson-rce|
 |2023-05-21 16:54:53|[dbeaver](https://github.com/dbeaver/dbeaver)|23.0.5|               - SQL Editor:         <br>          - Autocomplete for WHERE and<br> SELECT shows aliases with the aliased<br> table                   - Hovering in<br>formation for SQL errors and spelling <br>annotations was added                 <br>  - Variable and parameter names in th<br>e binding dialog are now displayed in <br>their original case                   <br>- Information about assigning a non-dy<br>namic variable was added to the bindin<br>g dialog                   - Issue wit<br>h incorrect icon for Execute SQL State<br>ment after opening Output tab was fixe<br>d                   - Query Manager: '<br>Restore Default' button behavior was i<br>mproved                   - Ability to<br> directly execute SQL scripts in nativ<br>e clients was added               - Da<br>ta transfer:                   - Abili<br>ty to trim string values when exportin<br>g to XLSX was added                   <br>- Handling of datetimeoffset was added<br>               - General UI:          <br>         - Part divider UI was redesig<br>ned                   - Option to incr<br>ease formatting time was added in Pref<br>erences                   - Issue with<br> closing pinned tabs using 'Close Tabs<br> to the Left' was fixed               <br>- Connectivity:                   - Is<br>sue with driver fallback not being upd<br>ated was fixed               - Databas<br>es:                   - ClickHouse: dr<br>iver was updated to 0.4.6 (thanks to @<br>zhicwu)                   - Databricks<br>: handling of data types without param<br>eters was added                   - Ha<br>na: comments handling was fixed       <br>            - MySQL: partitions are no<br>w supported                   - Oracle<br>: TNS import was fixed                <br>   - PostgreSQL:                      <br> - Issue with duplicate tables with ge<br>nerated columns in Database Navigator <br>was fixed                       - Erro<br>r message about line on the map create<br>d with a single point was added       <br>                - Schema refresh was f<br>ixed                   - SQLite: abili<br>ty to open ER Diagram in the Simple Vi<br>ew was added               - Localizat<br>ion:                  - German localiz<br>ation was improved (thanks to @hype11)<br>                 - Italian localizatio<br>n was improved (thanks to @Gnafu)     <br>        |
-|2023-05-21 14:52:26|[DNSlog-GO](https://github.com/lanyi1998/DNSlog-GO)|2023052<br>1||
 |2023-05-20 08:21:42|[NextScan](https://github.com/tongcheng-security-team/NextScan)|v1.1.1|##### v1.1.1发布    ## Changelog  * <br>功能优化: 添加本地字典上传功能  * 功能<br>优化: 添加漏洞批量处理功能  * 修复配置<br>获取没有授权认证问题  * 修复下载后插件<br>无法使用问题  |
 |2023-05-19 10:47:25|[super-xray](https://github.com/4ra1n/super-xray)|1.7|## 1.7    更新内容：  1. 服务扫描模块<br>加入了Weblogic IIOP扫描（参考README最下<br>方）   2. 在Windows中选择xray时设置EXE<br>后缀，在文件较多时提高效率   3. 选择本<br>地POC时，设置YML和YAML过滤，在文件较多<br>时提高效率   4. 选择URL列表文件时设置TX<br>T过滤，在文件较多时提高效率   5. 删除<br>自带小游戏部分，这部分功能没有必要   6.<br> 高级设置部分的代理应该添加提示避免被<br>当成被动代理   7. 更新SnakeYAML和Log4j2<br>依赖，虽然不存在漏洞还是更一下   8. 更<br>新默认POC列表内容，新版本增加了一些POC <br>  9. XRAY和RAD下载面板加入官方链接，镜<br>像站不支持新版本了   10. 更新一些版本信<br>息    下载：  - super-xray-1.7.jar 版本<br>通过java -jar super-xray-1.7.jar启动  -<br> super-xray-1.7-jre-exe.zip 是内置了JR<br>E的exe版本  - super-xray-1.7-system-jr<br>e.exe 是使用系统JRE的exe版本|
 |2023-05-18 07:43:29|[kube-bench](https://github.com/aquasecurity/kube-bench)|v0.6.14|## Changelog * 968ee58 replace with c<br>onstant (#1445)  |
@@ -27,18 +28,30 @@
 |2023-05-18 03:27:00|[ARL](https://github.com/TophantTechnology/ARL)|v2.5.5|  1. 修复 nuclei 误报 CVE-2022-45362 <br>问题 #559 #535  2. 修复数据源 quake_360<br> 查询错误问题  @原来是老王  3. 删除数<br>据源 threatminer (不可访问了)  4. 过滤<br>无效状态码 410, 减少无用数据入库  |
 |2023-05-17 03:26:56|[ENScan_GO](https://github.com/wgpsec/ENScan_GO)|0.0.11|修复企查查签名错误提示|
 |2023-05-16 16:40:02|[faker](https://github.com/joke2k/faker)|v18.9.0|See .|
-|2023-05-15 12:52:58|[murphysec](https://github.com/murphysecurity/murphysec)|v3.1.1|Support NPM lockfile v3 |
 ## 近15天commit提交记录
 | 提交时间 | 项目名称 | 更新内容 |
 | :---- | :---- | :---- |
-|2023-05-30 00:30:20|[NucleiTP](https://github.com/ExpLangcn/NucleiTP)|更新啦❤️|
-|2023-05-30 00:00:03|[free](https://github.com/freefq/free)|updated_at 05-30 08:00|
-|2023-05-29 22:24:51|[PocOrExp_in_Githu<br>b](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-05-30 06:24:51|
-|2023-05-29 20:48:26|[trivy](https://github.com/aquasecurity/trivy)|feat(misconf): Add terraformplan support (#4342)  *<br> feat(misconf): Add terraformplan support    Fixes: <br>https://github.com/aquasecurity/trivy/issues/4341   <br> Signed-off-by: Simar     * update defsec    * fix l<br>int    Signed-off-by: Simar     * remove debug print<br>s    Signed-off-by: Simar     * update tests    Sign<br>ed-off-by: Simar     ---------    Signed-off-by: Sim<br>ar |
-|2023-05-29 19:40:56|[dbeaver](https://github.com/dbeaver/dbeaver)|dbeaver/pro#1502 Deprecate legacy ODBC driver (#200<br>84)  * dbeaver/pro#1502 Deprecate legacy ODBC driver<br>    * dbeaver/pro#1502 Update deprecation reason    <br>* dbeaver/pro#1502 Prevent new connection creation u<br>sing deprecated driver    * dbeaver/pro#1502 Update <br>deprecation reason    ---------    Co-authored-by: D<br>ziyana |
+|2023-05-31 00:45:16|[NucleiTP](https://github.com/ExpLangcn/NucleiTP)|更新啦❤️|
+|2023-05-31 00:00:04|[free](https://github.com/freefq/free)|updated_at 05-31 08:00|
+|2023-05-30 22:39:20|[neuvector](https://github.com/neuvector/neuvector)|Merge pull request #840 from williamlin-suse/main  <br>NVSHAS-7390: Many updateK8sPodEvent error messages i<br>n IBM's lead cont…|
+|2023-05-30 22:22:26|[PocOrExp_in_Githu<br>b](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-05-31 06:22:26|
+|2023-05-30 22:04:28|[rotp](https://github.com/mdp/rotp)|Merge pull request #116 from gogainda/patch-1  Add <br>TruffleRuby to CI|
+|2023-05-30 19:50:19|[dbeaver](https://github.com/dbeaver/dbeaver)|#19097 Fix NPE on attribute info loading in Postgre<br>SQL (#20138)|
+|2023-05-30 19:45:16|[subfinder](https://github.com/projectdiscovery/subfinder)|Merge branch 'dev'|
+|2023-05-30 17:48:54|[syft](https://github.com/anchore/syft)|chore(deps): bump github.com/stretchr/testify from <br>1.8.3 to 1.8.4 (#1852)  Bumps  from 1.8.3 to 1.8.4. <br> -   -     ---  updated-dependencies:  - dependency-<br>name: github.com/stretchr/testify    dependency-type<br>: direct:production    update-type: version-update:s<br>emver-patch  ...    Signed-off-by: dependabot[bot]  <br> Co-authored-by: dependabot[bot] |
+|2023-05-30 17:46:46|[grype](https://github.com/anchore/grype)|Hide suppressed vulnerabilities when --show-suppres<br>sed is not given (#1322)  Signed-off-by: James Tran |
+|2023-05-30 15:50:09|[trivy](https://github.com/aquasecurity/trivy)|chore(deps): bump github.com/cloudflare/circl from <br>1.1.0 to 1.3.3 (#4338)|
+|2023-05-30 15:27:48|[clair](https://github.com/quay/clair)|build(deps): bump github.com/urfave/cli/v2 from 2.2<br>5.3 to 2.25.5  Bumps  from 2.25.3 to 2.25.5. -  -  -<br>   --- updated-dependencies: - dependency-name: gith<br>ub.com/urfave/cli/v2   dependency-type: direct:produ<br>ction   update-type: version-update:semver-patch ...<br>  Signed-off-by: dependabot[bot] |
+|2023-05-30 14:06:25|[DNSlog-GO](https://github.com/lanyi1998/DNSlog-GO)|fix:空切片的bug|
+|2023-05-30 12:39:52|[v2rayfree](https://github.com/aiboboxx/v2rayfree)|update|
+|2023-05-30 12:05:21|[awesome-chatgpt-z<br>h](https://github.com/yzfly/awesome-chatgpt-zh)|update readme|
+|2023-05-30 10:33:14|[safeline](https://github.com/chaitin/safeline)|feat(fe): release detection effective compare page|
+|2023-05-30 07:50:52|[murphysec](https://github.com/murphysecurity/murphysec)|refactor: 增加scope和is_online字段，maven的解析可能<br>的修复|
+|2023-05-30 07:19:47|[Elkeid](https://github.com/bytedance/Elkeid)|Main update ci (#502)  * update docker    * update <br>ci    * update ci    * update el9|
+|2023-05-30 06:51:06|[NessusToReport](https://github.com/Hypdncy/NessusToReport)|删除部分信息|
+|2023-05-30 05:54:12|[appshark](https://github.com/bytedance/appshark)|typo error|
+|2023-05-30 05:13:20|[autoDecoder](https://github.com/f0ng/autoDecoder)|Update FAQ.md|
 |2023-05-29 14:52:21|[PEASS-ng](https://github.com/carlospolop/PEASS-ng)|winpeas.ps1|
-|2023-05-29 12:37:10|[v2rayfree](https://github.com/aiboboxx/v2rayfree)|update|
-|2023-05-29 11:49:37|[Elkeid](https://github.com/bytedance/Elkeid)|Main update ci (#501)  * update docker    * update <br>ci|
 |2023-05-29 09:56:38|[ChatGPT-Shortcut](https://github.com/rockbenben/ChatGPT-Shortcut)|fix: fix feedback path|
 |2023-05-29 09:33:59|[domain_hunter_pro](https://github.com/bit4woo/domain_hunter_pro)|update|
 |2023-05-29 04:31:16|[OneScan](https://github.com/vaycore/OneScan)|将数据看板界面的复选框状态保存到配置文件；将Disable<br>选项功能更改为Enable|
@@ -53,19 +66,12 @@
 |2023-05-28 03:25:01|[wpscan](https://github.com/wpscanteam/wpscan)|Update README.md|
 |2023-05-27 13:42:33|[All-Defense-Tool](https://github.com/guchangan1/All-Defense-Tool)|更新v2.3|
 |2023-05-26 20:30:53|[SSTImap](https://github.com/vladko312/SSTImap)|Version 1.1.3 (Bugfixes)  Fixed bug with the new co<br>okie processing  Fixed some code being unreachable  <br>Moved new parameter to a different category    Just <br>a minor bugfix update|
-|2023-05-26 20:08:20|[syft](https://github.com/anchore/syft)|chore(deps): bump github.com/docker/docker (#1849) <br> Bumps  from 24.0.1+incompatible to 24.0.2+incompati<br>ble.  -   -     ---  updated-dependencies:  - depend<br>ency-name: github.com/docker/docker    dependency-ty<br>pe: direct:production    update-type: version-update<br>:semver-patch  ...    Signed-off-by: dependabot[bot]<br>   Co-authored-by: dependabot[bot] |
-|2023-05-26 17:47:54|[clair](https://github.com/quay/clair)|chore: bump Claircore to v1.5.5  Bump Claircore to <br>the latest tag.  Signed-off-by: crozzy |
-|2023-05-26 17:37:08|[grype](https://github.com/anchore/grype)|feat: add source and type to CVSS information (#131<br>7)  Adds source and type to the CVSS score informati<br>on to allow  identification of the organization that<br> submitted the score and whether  they are a primary<br> or secondary source.    Signed-off-by: Weston Steim<br>el |
 |2023-05-26 10:41:30|[kube-bench](https://github.com/aquasecurity/kube-bench)|build(deps): bump alpine from 3.17 to 3.18 (#1443) <br> Bumps alpine from 3.17 to 3.18.    ---  updated-dep<br>endencies:  - dependency-name: alpine    dependency-<br>type: direct:production    update-type: version-upda<br>te:semver-minor  ...    Signed-off-by: dependabot[bo<br>t]   Co-authored-by: dependabot[bot] |
-|2023-05-26 08:45:23|[safeline](https://github.com/chaitin/safeline)|fix(fe): detection page styles|
 |2023-05-26 06:13:09|[knife](https://github.com/bit4woo/knife)|Update GUI.java|
-|2023-05-25 13:05:19|[murphysec](https://github.com/murphysecurity/murphysec)|fix: 修一下字段名|
 |2023-05-25 11:44:40|[whatweb-plus](https://github.com/winezer0/whatweb-plus)|Update README.md|
 |2023-05-25 09:27:15|[sqlmap](https://github.com/sqlmapproject/sqlmap)|add support to leverage CVE-2014-6577 for Oracle DN<br>S data exfiltration (#5410)  Co-authored-by: marvin |
-|2023-05-25 08:05:47|[awesome-chatgpt-z<br>h](https://github.com/yzfly/awesome-chatgpt-zh)|update readme|
 |2023-05-25 06:28:18|[captcha-killer-mo<br>dified](https://github.com/f0ng/captcha-killer-modified)|Update FAQ.md|
 |2023-05-25 03:32:07|[dismap](https://github.com/zhzyker/dismap)|Merge pull request #36 from sockx/fix_https  Fix po<br>ssible problems with https detection|
-|2023-05-24 22:38:31|[neuvector](https://github.com/neuvector/neuvector)|Merge pull request #833 from becitsthere/dev  NVSHA<br>S-6241: Fix scanner count for adapter rpc calls|
 |2023-05-24 13:38:21|[Library-POC](https://github.com/luck-ying/Library-POC)|Update README.md|
 |2023-05-24 10:30:30|[xray](https://github.com/chaitin/xray)|[fix] readme|
 |2023-05-24 02:46:57|[ProxyPoolxSocks](https://github.com/Anyyy111/ProxyPoolxSocks)|2023.5.24|
@@ -77,10 +83,8 @@
 |2023-05-22 14:11:44|[chatgpt](https://github.com/LangLangShanDeNanKe/chatgpt)|Update README.md|
 |2023-05-22 13:41:23|[Viper](https://github.com/FunnyWolf/Viper)|update version v1.5.29|
 |2023-05-22 09:33:22|[Awesome-ChatGPT](https://github.com/dalinvip/Awesome-ChatGPT)|Update README.md  a|
-|2023-05-22 09:27:13|[autoDecoder](https://github.com/f0ng/autoDecoder)|Add files via upload|
 |2023-05-22 08:49:11|[Vulnerability-Wik<br>i](https://github.com/Threekiii/Vulnerability-Wiki)|更新README.md|
 |2023-05-22 08:33:48|[Awesome-POC](https://github.com/Threekiii/Awesome-POC)|更新漏洞|
-|2023-05-21 14:50:25|[DNSlog-GO](https://github.com/lanyi1998/DNSlog-GO)|fix:空切片的bug|
 |2023-05-21 11:05:35|[superSearchPlus](https://github.com/dark-kingA/superSearchPlus)|更新vue路由扫描|
 |2023-05-20 18:23:44|[Mobile-Security-F<br>ramework-MobSF](https://github.com/MobSF/Mobile-Security-Framework-MobSF)|Enable binary analysis for aar/jar|
 |2023-05-19 16:41:10|[dirsearch](https://github.com/maurosoria/dirsearch)|Merge pull request #1300 from mxcezl/patch-1  Allow<br> dirseach to find endpoints exposing jwks files|
@@ -94,8 +98,7 @@
 |2023-05-16 16:38:32|[faker](https://github.com/joke2k/faker)|Bump version: 18.8.0 → 18.9.0|
 |2023-05-16 14:13:55|[OA-EXPTOOL](https://github.com/LittleBear4/OA-EXPTOOL)|Update README.md|
 |2023-05-16 12:12:24|[Pentest-Windows](https://github.com/arch3rPro/Pentest-Windows)|Update README.md|
-|2023-05-16 06:53:14|[FrameVul](https://github.com/Awrrays/FrameVul)|Update README.md|
-|2023-05-15 08:23:20|[proxy_pool](https://github.com/jhao104/proxy_pool)|Merge pull request #745 from jhao104/develop  [upda<br>te] :chicken: new proxy docip|## 所有项目
+|2023-05-16 06:53:14|[FrameVul](https://github.com/Awrrays/FrameVul)|Update README.md|## 所有项目
 # 渗透测试
 ## 信息收集
 ### 资产测绘采集
@@ -111,7 +114,7 @@
 ### 子域名收集
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
-| [subfinder](https://github.com/projectdiscovery/subfinder) | v2.5.8 | Fast passive subdomain enumeration tool. |
+| [subfinder](https://github.com/projectdiscovery/subfinder) | v2.5.9 | Fast passive subdomain enumeration tool. |
 | [ksubdomain](https://github.com/knownsec/ksubdomain) | v0.7 | 无状态子域名爆破工具 |
 | [OneForAll](https://github.com/shmilylty/OneForAll) | v0.4.5 | OneForAll是一款功能强大的子域收集工具 |
 | [LangSrcCurise](https://github.com/LangziFun/LangSrcCurise) |  | SRC子域名资产监控 |
@@ -378,7 +381,7 @@
 | [ysoserial](https://github.com/frohoff/ysoserial) | v0.0.6 | A proof-of-concept tool for generating payloads that exploit u<br>nsafe Java object deserialization. |
 | [Gopherus](https://github.com/tarunkant/Gopherus) |  | This tool generates gopher link for exploiting SSRF and gainin<br>g RCE in various servers |
 | [revsuit](https://github.com/Li4n0/revsuit) | v0.6.0 | RevSuit is a flexible and powerful reverse connection platform<br> designed for receiving connection from target host in penetrat<br>ion.  |
-| [DNSlog-GO](https://github.com/lanyi1998/DNSlog-GO) | 2023052<br>1 | DNSLog-GO 是一款golang编写的监控 DNS 解析记录的工具，自带WEB界<br>面 |
+| [DNSlog-GO](https://github.com/lanyi1998/DNSlog-GO) | 2023053<br>0 | DNSLog-GO 是一款golang编写的监控 DNS 解析记录的工具，自带WEB界<br>面 |
 | [godnslog](https://github.com/chennqqi/godnslog) | v0.7.0 | An exquisite dns&http log server for verify SSRF/XXE/RFI/RCE v<br>ulnerability  |
 | [ysomap](https://github.com/wh1t3p1g/ysomap) | v0.1.3 | A helpful Java Deserialization exploit framework. |
 | [Antenna](https://github.com/wuba/Antenna) | v1.3.5 | Antenna是58同城安全团队打造的一款辅助安全从业人员验证网络中多<br>种漏洞是否存在以及可利用性的工具。其基于带外应用安全测试(OAST)通<br>过任务的形式，将不同漏洞场景检测能力通过插件的形式进行集合，通过<br>与目标进行out-bind的数据通信方式进行辅助检测。 |
@@ -710,7 +713,7 @@
 | [yarx](https://github.com/zema1/yarx) | v0.2.0 | An awesome reverse engine for xray poc. | 一个自动化根据 xray <br>poc 生成对应靶站的工具 |
 | [xray-poc-generati<br>on](https://github.com/phith0n/xray-poc-generation) |  | 🧬 辅助生成 XRay YAML POC |
 | [super-xray](https://github.com/4ra1n/super-xray) | 1.7 | Web漏洞扫描工具XRAY的GUI启动器 |
-| [Xray_Cracked](https://github.com/NHPT/Xray_Cracked) | v1.9.11 | Update Xray1.9.8 Cracked for Windows,Linux and Mac OS. |
+| [Xray_Cracked](https://github.com/NHPT/Xray_Cracked) | v1.9.11 | Update Xray1.9.11 Cracked for Windows,Linux and Mac OS. |
 ### pocsuite3
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
@@ -800,9 +803,10 @@
 | [stegsolve](https://github.com/Giotino/stegsolve) | v1.4 |  |
 | [BlindWatermark](https://github.com/ww23/BlindWatermark) | v0.0.3 | Java 盲水印 |
 | [cloacked-pixel](https://github.com/livz/cloacked-pixel) |  | LSB steganography and detection |
-| [CTFpics](https://github.com/RetrO-hash/CTFpics) |  | 用于自动化检测CTF中常出现得工具图片隐写题目 |
+| [CTFpics](https://github.com/RetrO-hash/CTFpics) |  |  |
 | [ImageStrike](https://github.com/zR00t1/ImageStrike) | V0.2 | ImageStrike是一款用于CTF中图片隐写的综合利用工具 |
 | [stegpy](https://github.com/dhsdshdhk/stegpy) |  | Simple steganography program based on the LSB method. |
+| [steganography](https://github.com/7thSamurai/steganography) |  | Simple C++ Image Steganography tool to encrypt and hide files <br>insde images using Least-Significant-Bit encoding. |
 ### 流量分析
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
