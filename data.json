@@ -200,20 +200,20 @@
     "https://github.com/ycdxsb/PocOrExp_in_Github": {
         "created_at": "2021-04-13 05:46:16",
         "description": "聚合Github上已有的Poc或者Exp，CVE信息来自CVE官网。Auto Collect Poc Or Exp from Github by CVE ID.",
-        "commit_date": "2023-05-30 22:22:26",
-        "commit_message": "update 2023-05-31 06:22:26",
+        "commit_date": "2023-05-31 22:24:54",
+        "commit_message": "update 2023-06-01 06:24:54",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
     },
     "https://github.com/1n7erface/RequestTemplate": {
-        "created_at": "2022-04-01 17:26:22",
-        "description": "双语双端内网扫描以及验证工具",
+        "created_at": "",
+        "description": "",
         "commit_date": "2023-04-07 07:26:03",
         "commit_message": "Update README.md",
-        "release_tag": "v1.1.5",
-        "release_date": "2023-04-12 07:54:54",
-        "release_message": "2023.4.12 16:00\r\n1.解决了一个并发时线程抢锁问题\r\n2.添加指纹，目前指纹900+\r\n3.添加ps,us参数\r\n"
+        "release_tag": "",
+        "release_date": "",
+        "release_message": ""
     },
     "https://github.com/Threekiii/Vulhub-Reproduce": {
         "created_at": "2022-03-03 08:38:29",
@@ -461,7 +461,7 @@
     "https://github.com/ExpLangcn/NucleiTP": {
         "created_at": "2022-11-08 13:16:56",
         "description": "自动整合全网Nuclei的漏洞POC，实时同步更新最新POC！",
-        "commit_date": "2023-05-31 00:45:16",
+        "commit_date": "2023-06-01 00:45:17",
         "commit_message": "更新啦❤️",
         "release_tag": "",
         "release_date": "",
@@ -828,8 +828,8 @@
     "https://github.com/murphysecurity/murphysec": {
         "created_at": "2022-03-16 02:52:33",
         "description": "An open source tool focused on software supply chain security. 墨菲安全专注于软件供应链安全，具备专业的软件成分分析（SCA）、漏洞检测、专业漏洞库。",
-        "commit_date": "2023-05-30 07:50:52",
-        "commit_message": "refactor: 增加scope和is_online字段，maven的解析可能的修复",
+        "commit_date": "2023-05-31 03:20:02",
+        "commit_message": "fix(code-fragment): skip non-maven component",
         "release_tag": "v3.1.1",
         "release_date": "2023-05-15 12:52:58",
         "release_message": "Support NPM lockfile v3 "
@@ -1134,8 +1134,8 @@
     "https://github.com/mdp/rotp": {
         "created_at": "2011-02-13 18:20:59",
         "description": "Ruby One Time Password library",
-        "commit_date": "2023-05-30 22:04:28",
-        "commit_message": "Merge pull request #116 from gogainda/patch-1\n\nAdd TruffleRuby to CI",
+        "commit_date": "2023-05-31 17:51:22",
+        "commit_message": "Chore: CI Update for please release and Devcontainer addition of `act` (#127)\n\n- Update CI with please release\r\n- Add devcontainer features for local testing of github actions",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -1179,11 +1179,11 @@
     "https://github.com/Kento-Sec/AsamF": {
         "created_at": "2022-08-03 03:52:09",
         "description": "AsamF是集成Fofa、Quake、Hunter、Shodan、Zoomeye、Chinaz、0.zone及爱企查的一站式企业信息资产收集、网络资产测绘工具。",
-        "commit_date": "2023-05-05 06:04:26",
+        "commit_date": "2023-05-31 14:59:35",
         "commit_message": "Update README.md",
-        "release_tag": "v0.1.13",
-        "release_date": "2023-05-04 06:43:35",
-        "release_message": "v0.1.13\r\n\r\n大大提升了zoomeye、quake的查询速度。"
+        "release_tag": "v0.2.2",
+        "release_date": "2023-05-31 14:11:02",
+        "release_message": "v0.2.2更新，做了比较大的改动。\r\n\r\n1. 由于改动比较大，时间有限导致有些接口暂时进行关闭。但保留所有核心功能。\r\n\r\n2. zoomeye、quake、hunter的apikey配置方式做了一些改动，配置方式如下：\r\n \"hunterkey\": [\r\n    \"\",\r\n    \"\",\r\n    \"\",\r\n    \"\",\r\n    \"\"\r\n  ],\r\n \"quakekey\": [\r\n    \"\",\r\n    \"\",\r\n    \"\",\r\n    \"\",\r\n    \"\"\r\n  ],\r\n  \"zoomeyekey\": [\r\n    \"\",\r\n    \"\",\r\n    \"\",\r\n    \"\",\r\n    \"\"\r\n  ],\r\n\r\n3. 由于改动了 zoomeye、quake、hunter的apikey配置方式，因此移除了zk、hk、qk。查询key余额直接AsamF z info、AsamF h info、AsamF q info\r\n\r\n4.  zoomeye、quake、hunter的使用方式将自动取key，不需要手动去设置key。自动判断有余额的key进行搜索。\r\n\r\n5. 统一了 zoomeye、quake、hunter页面搜索功能， zoomeye、quake、hunter每一个查询都将默认搜索一页，即20条数据。 zoomeye、quake、hunter均需要设置-p进行获取更多的数据，如需要获取1000条数据即需要配置：-p 50。\r\n\r\n6. 注释了zoomeye domain、host接口，暂时没空完善。\r\n\r\n7. 注释了union联合查询功能，同样改动太大，没时间改。\r\n\r\n8. 注释了chinaz、rapiddns。"
     },
     "https://github.com/BaizeSec/bylibrary": {
         "created_at": "2020-10-20 12:47:33",
@@ -1735,8 +1735,8 @@
     "https://github.com/chaitin/veinmind-tools": {
         "created_at": "2022-02-08 08:12:15",
         "description": "veinmind-tools 是由长亭科技自研，基于 veinmind-sdk 打造的容器安全工具集",
-        "commit_date": "2023-05-23 06:16:32",
-        "commit_message": "Merge pull request #242 from ek1ng/feat/sensitive-plugin\n\nfeat(sensitive): support env and docker history scan",
+        "commit_date": "2023-05-31 03:26:26",
+        "commit_message": "fix(docs): fix errors in documentation on how to initialize plugins (#247)",
         "release_tag": "v2.1.3",
         "release_date": "2023-05-23 07:08:29",
         "release_message": "## 🔥 Feature\r\n* feat(veinmind-weakpass): add mysql5 weakpass scan by @ek1ng in https://github.com/chaitin/veinmind-tools/pull/237 \r\n* feat(plugins): use bullseye && update libveinmind-dev 1.9.15 by @DVKunion in https://github.com/chaitin/veinmind-tools/pull/239\r\n* feat(weakpass): support caching_sha2_password and enhance MyISAM pkg by @asjdf  in https://github.com/chaitin/veinmind-tools/pull/235\r\n* feat(plugins): update kubernetes iac polices by @ek1ng in https://github.com/chaitin/veinmind-tools/pull/240\r\n* feat(veinmind-sensitive): support env and docker history scan by @ek1ng in https://github.com/chaitin/veinmind-tools/pull/242\r\n\r\n## 🔧 Fix\r\n* fix(libveinmind): fix libveinmind walk data race error by @DVKunion in https://github.com/chaitin/veinmind-tools/pull/231\r\n* fix(veinmind-malicious): optimize code  by  @testwill in https://github.com/chaitin/veinmind-tools/pull/233\r\n* fix(veinmind-weakpass): fix mysql8 weakpass check by @ek1ng in https://github.com/chaitin/veinmind-tools/pull/241\r\n\r\n## 📒 Others\r\n* chore(unsafe-mount): remove duplicate code by @testwill in https://github.com/chaitin/veinmind-tools/pull/229\r\n* chore(func):  update deprecated func and clean Dockerfile by @asjdf in https://github.com/chaitin/veinmind-tools/pull/232\r\n* docs(readme): add star history by @ek1ng in https://github.com/chaitin/veinmind-tools/pull/238\r\n\r\n## 🎉 New Contributors\r\n* @asjdf made their first contribution in https://github.com/chaitin/veinmind-tools/pull/232\r\n\r\n**Full Changelog**: https://github.com/chaitin/veinmind-tools/compare/v2.1.2...v2.1.3"
@@ -2951,8 +2951,8 @@
     "https://github.com/dbeaver/dbeaver": {
         "created_at": "2015-10-21 08:26:28",
         "description": "Free universal database tool and SQL client",
-        "commit_date": "2023-05-30 19:50:19",
-        "commit_message": "#19097 Fix NPE on attribute info loading in PostgreSQL (#20138)",
+        "commit_date": "2023-05-31 16:22:18",
+        "commit_message": "Update bundle_de.properties to latest bundle (#19979)\n\n* Update bundle_de.properties to latest bundle\r\n\r\nsort key/value entries like bundle.properties (master)\r\nadd new keys\r\n\r\n* Update plugins/org.jkiss.dbeaver.core/OSGI-INF/l10n/bundle_de.properties\r\n\r\nCo-authored-by: Anastasiya <45152336+LonwoLonwo@users.noreply.github.com>\r\n\r\n---------\r\n\r\nCo-authored-by: Anastasiya <45152336+LonwoLonwo@users.noreply.github.com>",
         "release_tag": "23.0.5",
         "release_date": "2023-05-21 16:54:53",
         "release_message": "\n              - SQL Editor:\n                  - Autocomplete for WHERE and SELECT shows aliases with the aliased table\n                  - Hovering information for SQL errors and spelling annotations was added\n                  - Variable and parameter names in the binding dialog are now displayed in their original case\n                  - Information about assigning a non-dynamic variable was added to the binding dialog\n                  - Issue with incorrect icon for Execute SQL Statement after opening Output tab was fixed\n                  - Query Manager: 'Restore Default' button behavior was improved\n                  - Ability to directly execute SQL scripts in native clients was added\n              - Data transfer:\n                  - Ability to trim string values when exporting to XLSX was added\n                  - Handling of datetimeoffset was added\n              - General UI:\n                  - Part divider UI was redesigned\n                  - Option to increase formatting time was added in Preferences\n                  - Issue with closing pinned tabs using 'Close Tabs to the Left' was fixed\n              - Connectivity:\n                  - Issue with driver fallback not being updated was fixed\n              - Databases:\n                  - ClickHouse: driver was updated to 0.4.6 (thanks to @zhicwu)\n                  - Databricks: handling of data types without parameters was added\n                  - Hana: comments handling was fixed\n                  - MySQL: partitions are now supported\n                  - Oracle: TNS import was fixed\n                  - PostgreSQL:\n                      - Issue with duplicate tables with generated columns in Database Navigator was fixed\n                      - Error message about line on the map created with a single point was added\n                      - Schema refresh was fixed\n                  - SQLite: ability to open ER Diagram in the Simple View was added\n              - Localization:\n               \t\t- German localization was improved (thanks to @hype11)\n              \t\t- Italian localization was improved (thanks to @Gnafu)\n            "
@@ -3192,8 +3192,8 @@
     "https://github.com/joke2k/faker": {
         "created_at": "2012-11-12 23:00:09",
         "description": "Faker is a Python package that generates fake data for you.",
-        "commit_date": "2023-05-16 16:38:32",
-        "commit_message": "Bump version: 18.8.0 → 18.9.0",
+        "commit_date": "2023-05-31 16:13:15",
+        "commit_message": "Fix `fr_FR` `postcode` length (#1869)\n\nensure fr postcode is 5 chars long",
         "release_tag": "v18.9.0",
         "release_date": "2023-05-16 16:40:02",
         "release_message": "See [CHANGELOG.md](https://github.com/joke2k/faker/blob/refs/tags/v18.9.0/CHANGELOG.md)."
@@ -3219,7 +3219,7 @@
     "https://github.com/Threekiii/Awesome-Redteam": {
         "created_at": "2022-02-08 00:45:03",
         "description": "一个红队知识仓库",
-        "commit_date": "2023-05-23 02:21:00",
+        "commit_date": "2023-05-31 02:28:22",
         "commit_message": "更新README.md",
         "release_tag": "",
         "release_date": "",
@@ -3300,8 +3300,8 @@
         "description": "Elkeid is an open source solution that can meet the security requirements of various workloads such as hosts, containers and K8s, and serverless. It is derived from ByteDance's internal best practices.",
         "commit_date": "2023-05-30 07:19:47",
         "commit_message": "Main update ci (#502)\n\n* update docker\r\n\r\n* update ci\r\n\r\n* update ci\r\n\r\n* update el9",
-        "release_tag": "scanner-v2.2.0.4_20230526",
-        "release_date": "2023-05-26 07:09:19",
+        "release_tag": "v1.7.0.12-driver-ko-20230531",
+        "release_date": "2023-05-31 12:51:32",
         "release_message": ""
     },
     "https://github.com/knownsec/ct": {
@@ -3699,10 +3699,10 @@
     "https://github.com/carlospolop/PEASS-ng": {
         "created_at": "2019-01-13 19:58:24",
         "description": "PEASS - Privilege Escalation Awesome Scripts SUITE (with colors)",
-        "commit_date": "2023-05-29 14:52:21",
-        "commit_message": "winpeas.ps1",
-        "release_tag": "20230529-e7da582f",
-        "release_date": "2023-05-29 15:09:03",
+        "commit_date": "2023-05-31 22:16:51",
+        "commit_message": "f",
+        "release_tag": "20230531-352dc4bf",
+        "release_date": "2023-05-31 22:34:54",
         "release_message": ""
     },
     "https://github.com/waderwu/attackRmi": {
@@ -3888,8 +3888,8 @@
     "https://github.com/neuvector/neuvector": {
         "created_at": "2021-12-17 20:15:03",
         "description": "",
-        "commit_date": "2023-05-30 22:39:20",
-        "commit_message": "Merge pull request #840 from williamlin-suse/main\n\nNVSHAS-7390: Many updateK8sPodEvent error messages in IBM's lead cont…",
+        "commit_date": "2023-05-31 17:00:02",
+        "commit_message": "Merge pull request #842 from williamlin-suse/main\n\nNVSHAS-7971: Controller panic when listing all root_of_trust",
         "release_tag": "v5.1.3",
         "release_date": "2023-05-09 18:16:30",
         "release_message": "Features:\r\nAdd new vulnerability feed for scanning Microsoft .NET framework\r\nEnforcer stats is disabled by default in Prometheus exporter to improve scalability\r\nUseability improvement: Using scanner to scan single image and print the result\r\nAdd imagePullPolicy check in admission control\r\n\r\n\r\nBug fixes:\r\nEmpty group auto-removal takes 2 hours to delete instead of 1 hour according to schedule\r\nCompliance profile doesn't show in UI console\r\n"
@@ -3969,8 +3969,8 @@
     "https://github.com/aquasecurity/trivy": {
         "created_at": "2019-04-11 01:01:07",
         "description": "Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more",
-        "commit_date": "2023-05-30 15:50:09",
-        "commit_message": "chore(deps): bump github.com/cloudflare/circl from 1.1.0 to 1.3.3 (#4338)",
+        "commit_date": "2023-05-31 12:09:18",
+        "commit_message": "fix(java): remove duplicates of jar libs (#4515)\n\nCo-authored-by: knqyf263 <knqyf263@gmail.com>",
         "release_tag": "v0.41.0",
         "release_date": "2023-04-28 06:00:39",
         "release_message": "## ⚡Release highlights and summary⚡\r\n\r\n👉 https://github.com/aquasecurity/trivy/discussions/4135\r\n\r\n## Changelog\r\n* 1be1e2e63 fix(spdx): add workaround for no src packages (#4118)\r\n* 45bc9e0de test(golang): rename broken go.mod (#4129)\r\n* 3334e78fa feat(sbom): add supplier field (#4122)\r\n* 27fb1bfde test(misconf): skip downloading of policies for tests #4126\r\n* 845ae31e5 refactor: use debug message for post-analyze errors (#4037)\r\n* 11a5b91a1 feat(sbom): add VEX support (#4053)\r\n* 5eab46498 feat(sbom): add primary package purpose field for SPDX (#4119)\r\n* a00d00eb9 fix(k8s): fix quiet flag (#4120)\r\n* 9bc326909 fix(python): parse of pip extras (#4103)\r\n* 855984167 feat(java): use full path for nested jars (#3992)\r\n* 0650e0e1d feat(license): add new flag for classifier confidence level (#4073)\r\n* 43b649627 feat: config and fs compliance support (#4097)\r\n* 9181bc1f7 chore(deps): bump sigstore/cosign-installer from 2.8.1 to 3.0.1 (#3952)\r\n* 48e021ea6 feat(spdx): add support for SPDX 2.3 (#4058)\r\n* 107752df6 fix: k8s all-namespaces support (#4096)\r\n* bd0c60364 perf(misconf): replace with post-analyzers (#4090)\r\n* 76662d5dd fix(helm): update networking API version detection (#4106)\r\n* be47b688c feat(image): custom docker host option (#3599)\r\n* cc18f92cf style: debug flag is incorrect and needs extra - (#4087)\r\n* 572a6193e docs(vuln): Document inline vulnerability filtering comments (#4024)\r\n* 914c6f092 feat(fs): customize error callback during fs walk (#4038)\r\n* 3f02feeff fix(ubuntu): skip copyright files from subfolders (#4076)\r\n* 57bb77c06 docs: restructure scanners (#3977)\r\n* b19b56c34 fix: fix `file does not exist` error for post-analyzers (#4061)\r\n\r\n"
@@ -4275,7 +4275,7 @@
     "https://github.com/aiboboxx/v2rayfree": {
         "created_at": "2021-10-13 11:34:53",
         "description": "v2ray公益免费节点、最新2ray免费v节点订阅地址、v2ray免费节点每日更新、免费ss/v2ray/trojan节点、freefq ",
-        "commit_date": "2023-05-30 12:39:52",
+        "commit_date": "2023-05-31 12:39:57",
         "commit_message": "update",
         "release_tag": "",
         "release_date": "",
@@ -4293,8 +4293,8 @@
     "https://github.com/dark-kingA/superSearchPlus": {
         "created_at": "2022-10-04 10:08:42",
         "description": "谷歌插件版本- superSearchPlus是聚合型信息收集插件，支持综合查询，资产测绘查询，信息收集 js敏感信息提取 注释资源扫描 目录扫描 整合了目前常见的资产测绘平台 同时支持数据导出",
-        "commit_date": "2023-05-21 11:05:35",
-        "commit_message": "更新vue路由扫描",
+        "commit_date": "2023-05-31 04:37:22",
+        "commit_message": "更新插件新版本推送提醒",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -4320,8 +4320,8 @@
     "https://github.com/freefq/free": {
         "created_at": "2020-06-07 02:48:33",
         "description": "翻墙、免费翻墙、免费科学上网、免费节点、免费梯子、免费ss/v2ray/trojan节点、蓝灯、谷歌商店、翻墙梯子",
-        "commit_date": "2023-05-31 00:00:04",
-        "commit_message": "updated_at 05-31 08:00",
+        "commit_date": "2023-06-01 00:00:04",
+        "commit_message": "updated_at 06-01 08:00",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -4637,6 +4637,33 @@
         "description": "Simple C++ Image Steganography tool to encrypt and hide files insde images using Least-Significant-Bit encoding.",
         "commit_date": "2022-10-29 20:06:41",
         "commit_message": "Fixed order of parameters in fread",
+        "release_tag": "",
+        "release_date": "",
+        "release_message": ""
+    },
+    "https://github.com/CLincat/vulcat": {
+        "created_at": "2022-04-10 13:14:02",
+        "description": "vulcat可用于扫描Web端常见的CVE、CNVD等编号的漏洞，发现漏洞时会返回Payload信息。部分漏洞还支持命令行交互模式，可以持续利用漏洞",
+        "commit_date": "2023-03-15 11:28:18",
+        "commit_message": "20230315-v2.0.0",
+        "release_tag": "v2.0.0",
+        "release_date": "2023-03-15 12:21:14",
+        "release_message": "2023.03.15\r\nvulcat-v2.0.0\r\n\r\n* 重写vulcat部分核心代码\r\n1. vulcat二代，初始版本号为v2.0.0\r\n2. 移除-a/--application选项，该选项的功能合并到-v/--vuln当中，[点我](https://clincat.github.io/vulcat-docs/zh-hans/teaching/run/vulcat-run-app.html)查看示例\r\n3. POC插件化，即插即用，现在你可以轻松地编写自己的POC 并在vulcat中使用，[点我](https://clincat.github.io/vulcat-docs/zh-hans/teaching/custom-payload/vulcat-custom-payloads.html)查看示例\r\n\r\n\r\n* 新POC:\r\n1. 74cms v5.0.1 前台AjaxPersonalController.class.php存在SQL注入\t(暂无编号)\r\n2. 74cms v6.0.4 帮助中心搜索框XSS\t\t\t\t\t\t\t\t(暂无编号)\r\n3. 2020年 VMware vCenter 6.5任意文件读取\t\t\t\t\t\t\t(暂无编号)\r\n4. VMware vSphere Client 远程代码执行\t\t\t\t\t\t\t(CVE-2021-21972)\r\n\r\n------------------------------\r\n\r\n* Rewrite some of the core code\r\n1. vulcat-v2.0.0 !!!\r\n2. Remove the -a/--application option, the functionality of this option is merged into -v/--vuln, [click me](https://clincat.github.io/vulcat-docs/zh-hans/teaching/run/vulcat-run-app.html) to see the example\r\n3. POC plug-in, plug and play, now you can easily write your own POC and use it in vulcat, [click me](https://clincat.github.io/vulcat-docs/zh-hans/teaching/custom-payload/vulcat-custom-payloads.html) to see the example\r\n\r\n\r\n* new POC:\r\n1. v5.0.1 AjaxPersonalController.class.php SQLinject\t(None)\r\n2. v6.0.4 help center search box-XSS\t\t\t\t\t(None)\r\n3. In 2020 VMware vCenter v6.5 Any file read\t\t\t(None)\r\n4. VMware vSphere Client RCE\t\t\t\t\t\t\t(CVE-2021-21972)"
+    },
+    "https://github.com/ccreater222/slime": {
+        "created_at": "2022-04-24 17:21:20",
+        "description": "Slime是一个组合众多优秀安全工具的漏扫软件，它将目光集中在安全工具的组合上，而不是自己实现漏扫的某一流程。",
+        "commit_date": "2022-09-09 14:14:35",
+        "commit_message": "fix(worker): fix SkipPlugin fill ServiceDetectModel bug",
+        "release_tag": "",
+        "release_date": "",
+        "release_message": ""
+    },
+    "https://github.com/mscandev/mscan": {
+        "created_at": "2022-08-12 08:59:35",
+        "description": "方便快捷是这款扫描器的优点，能随意修改增加模块。目前的版本功能如下：支持子域名收集、POC批量验证、目录扫描、检测CDN、域名转IP、主机扫描、过滤重复、检测HTTP状态、压缩程序、XRAY扫描。",
+        "commit_date": "2022-08-12 10:53:02",
+        "commit_message": "Update images",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
