@@ -200,8 +200,8 @@
     "https://github.com/ycdxsb/PocOrExp_in_Github": {
         "created_at": "2021-04-13 05:46:16",
         "description": "聚合Github上已有的Poc或者Exp，CVE信息来自CVE官网。Auto Collect Poc Or Exp from Github by CVE ID.",
-        "commit_date": "2023-06-01 22:23:30",
-        "commit_message": "update 2023-06-02 06:23:30",
+        "commit_date": "2023-06-02 22:25:22",
+        "commit_message": "update 2023-06-03 06:25:22",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -380,8 +380,8 @@
     "https://github.com/lal0ne/vulnerability": {
         "created_at": "2022-01-20 02:48:42",
         "description": "收集、整理、修改互联网上公开的漏洞POC",
-        "commit_date": "2023-05-29 03:23:40",
-        "commit_message": "E-Cology CheckServer.jsp SQL注入",
+        "commit_date": "2023-06-02 05:42:26",
+        "commit_message": "CVE-2023-2984",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -461,7 +461,7 @@
     "https://github.com/ExpLangcn/NucleiTP": {
         "created_at": "2022-11-08 13:16:56",
         "description": "自动整合全网Nuclei的漏洞POC，实时同步更新最新POC！",
-        "commit_date": "2023-06-02 00:30:20",
+        "commit_date": "2023-06-03 00:45:19",
         "commit_message": "更新啦❤️",
         "release_tag": "",
         "release_date": "",
@@ -828,8 +828,8 @@
     "https://github.com/murphysecurity/murphysec": {
         "created_at": "2022-03-16 02:52:33",
         "description": "An open source tool focused on software supply chain security. 墨菲安全专注于软件供应链安全，具备专业的软件成分分析（SCA）、漏洞检测、专业漏洞库。",
-        "commit_date": "2023-06-01 12:25:23",
-        "commit_message": "chore(deps): Upgrade github.com/murphysecurity/fix-tools v0.1.5",
+        "commit_date": "2023-06-02 12:27:27",
+        "commit_message": "fix(collect-info): fix NPE when repo is not exists",
         "release_tag": "v3.1.1",
         "release_date": "2023-05-15 12:52:58",
         "release_message": "Support NPM lockfile v3 "
@@ -981,8 +981,8 @@
     "https://github.com/sqlmapproject/sqlmap": {
         "created_at": "2012-06-26 09:52:15",
         "description": "Automatic SQL injection and database takeover tool",
-        "commit_date": "2023-05-25 09:27:15",
-        "commit_message": "add support to leverage CVE-2014-6577 for Oracle DNS data exfiltration (#5410)\n\nCo-authored-by: marvin <marvin@debian-BULLSEYE-live-builder-AMD64>",
+        "commit_date": "2023-06-02 09:32:06",
+        "commit_message": "Trivial update",
         "release_tag": "1.7",
         "release_date": "2023-01-02 22:32:55",
         "release_message": "Stable version 1.7 ([changeset](https://github.com/sqlmapproject/sqlmap/compare/1.6...1.7))"
@@ -1179,11 +1179,11 @@
     "https://github.com/Kento-Sec/AsamF": {
         "created_at": "2022-08-03 03:52:09",
         "description": "AsamF是集成Fofa、Quake、Hunter、Shodan、Zoomeye、Chinaz、0.zone及爱企查的一站式企业信息资产收集、网络资产测绘工具。",
-        "commit_date": "2023-05-31 14:59:35",
+        "commit_date": "2023-06-02 06:01:14",
         "commit_message": "Update README.md",
-        "release_tag": "v0.2.2",
-        "release_date": "2023-05-31 14:11:02",
-        "release_message": "v0.2.2更新，做了比较大的改动。\r\n\r\n1. 由于改动比较大，时间有限导致有些接口暂时进行关闭。但保留所有核心功能。\r\n\r\n2. zoomeye、quake、hunter的apikey配置方式做了一些改动，配置方式如下：\r\n \"hunterkey\": [\r\n    \"\",\r\n    \"\",\r\n    \"\",\r\n    \"\",\r\n    \"\"\r\n  ],\r\n \"quakekey\": [\r\n    \"\",\r\n    \"\",\r\n    \"\",\r\n    \"\",\r\n    \"\"\r\n  ],\r\n  \"zoomeyekey\": [\r\n    \"\",\r\n    \"\",\r\n    \"\",\r\n    \"\",\r\n    \"\"\r\n  ],\r\n\r\n3. 由于改动了 zoomeye、quake、hunter的apikey配置方式，因此移除了zk、hk、qk。查询key余额直接AsamF z info、AsamF h info、AsamF q info\r\n\r\n4.  zoomeye、quake、hunter的使用方式将自动取key，不需要手动去设置key。自动判断有余额的key进行搜索。\r\n\r\n5. 统一了 zoomeye、quake、hunter页面搜索功能， zoomeye、quake、hunter每一个查询都将默认搜索一页，即20条数据。 zoomeye、quake、hunter均需要设置-p进行获取更多的数据，如需要获取1000条数据即需要配置：-p 50。\r\n\r\n6. 注释了zoomeye domain、host接口，暂时没空完善。\r\n\r\n7. 注释了union联合查询功能，同样改动太大，没时间改。\r\n\r\n8. 注释了chinaz、rapiddns。"
+        "release_tag": "v0.2.3",
+        "release_date": "2023-06-02 06:00:49",
+        "release_message": "v0.2.2 fofa无法查询，修复fofa的问题"
     },
     "https://github.com/BaizeSec/bylibrary": {
         "created_at": "2020-10-20 12:47:33",
@@ -1467,8 +1467,8 @@
     "https://github.com/summitt/Burp-Non-HTTP-Extension": {
         "created_at": "2016-05-23 20:30:34",
         "description": "Non-HTTP Protocol Extension (NoPE) Proxy and DNS for Burp Suite.",
-        "commit_date": "2020-08-15 08:57:47",
-        "commit_message": "Update README.md",
+        "commit_date": "2023-06-02 19:15:54",
+        "commit_message": "updating DNS server and broken port monitor",
         "release_tag": "v1.6",
         "release_date": "2020-08-14 13:29:41",
         "release_message": "**This version works will recent versions of BrupSuite**\r\n\r\nSpecial thanks to @jfish7 for putting in the time to ensure this version of NoPE fully works with the later versions of BurpSuite.\r\n\r\n## Changes\r\n- Removed dependency on JAXB which is no longer supported. \r\n"
@@ -2951,8 +2951,8 @@
     "https://github.com/dbeaver/dbeaver": {
         "created_at": "2015-10-21 08:26:28",
         "description": "Free universal database tool and SQL client",
-        "commit_date": "2023-06-01 19:22:13",
-        "commit_message": "CB-3542 fix copying all driver files (#20178)\n\nCo-authored-by: mr-anton-t <42037741+mr-anton-t@users.noreply.github.com>",
+        "commit_date": "2023-06-02 14:03:40",
+        "commit_message": "CB-3542 fix custom driver loading (#20184)",
         "release_tag": "23.0.5",
         "release_date": "2023-05-21 16:54:53",
         "release_message": "\n              - SQL Editor:\n                  - Autocomplete for WHERE and SELECT shows aliases with the aliased table\n                  - Hovering information for SQL errors and spelling annotations was added\n                  - Variable and parameter names in the binding dialog are now displayed in their original case\n                  - Information about assigning a non-dynamic variable was added to the binding dialog\n                  - Issue with incorrect icon for Execute SQL Statement after opening Output tab was fixed\n                  - Query Manager: 'Restore Default' button behavior was improved\n                  - Ability to directly execute SQL scripts in native clients was added\n              - Data transfer:\n                  - Ability to trim string values when exporting to XLSX was added\n                  - Handling of datetimeoffset was added\n              - General UI:\n                  - Part divider UI was redesigned\n                  - Option to increase formatting time was added in Preferences\n                  - Issue with closing pinned tabs using 'Close Tabs to the Left' was fixed\n              - Connectivity:\n                  - Issue with driver fallback not being updated was fixed\n              - Databases:\n                  - ClickHouse: driver was updated to 0.4.6 (thanks to @zhicwu)\n                  - Databricks: handling of data types without parameters was added\n                  - Hana: comments handling was fixed\n                  - MySQL: partitions are now supported\n                  - Oracle: TNS import was fixed\n                  - PostgreSQL:\n                      - Issue with duplicate tables with generated columns in Database Navigator was fixed\n                      - Error message about line on the map created with a single point was added\n                      - Schema refresh was fixed\n                  - SQLite: ability to open ER Diagram in the Simple View was added\n              - Localization:\n               \t\t- German localization was improved (thanks to @hype11)\n              \t\t- Italian localization was improved (thanks to @Gnafu)\n            "
@@ -3192,11 +3192,11 @@
     "https://github.com/joke2k/faker": {
         "created_at": "2012-11-12 23:00:09",
         "description": "Faker is a Python package that generates fake data for you.",
-        "commit_date": "2023-06-01 16:23:08",
-        "commit_message": "Bump version: 18.9.1 → 18.10.0",
-        "release_tag": "v18.10.0",
-        "release_date": "2023-06-01 16:23:47",
-        "release_message": "See [CHANGELOG.md](https://github.com/joke2k/faker/blob/refs/tags/v18.10.0/CHANGELOG.md)."
+        "commit_date": "2023-06-02 19:07:07",
+        "commit_message": "Bump version: 18.10.0 → 18.10.1",
+        "release_tag": "v18.10.1",
+        "release_date": "2023-06-02 19:07:40",
+        "release_message": "See [CHANGELOG.md](https://github.com/joke2k/faker/blob/refs/tags/v18.10.1/CHANGELOG.md)."
     },
     "https://github.com/NHPT/Xray_Cracked": {
         "created_at": "2022-08-10 13:51:19",
@@ -3406,7 +3406,7 @@
     "https://github.com/bit4woo/domain_hunter_pro": {
         "created_at": "2019-01-18 07:15:15",
         "description": "domain_hunter的高级版本，SRC挖洞、HW打点之必备！自动化资产收集；快速Title获取；外部工具联动；等等",
-        "commit_date": "2023-05-29 09:33:59",
+        "commit_date": "2023-06-02 15:37:52",
         "commit_message": "update",
         "release_tag": "v1.9",
         "release_date": "2023-04-18 00:34:58",
@@ -3548,8 +3548,8 @@
     "https://github.com/bytedance/appshark": {
         "created_at": "2022-09-01 03:39:03",
         "description": "Appshark is a static taint analysis platform to scan vulnerabilities in an Android app.",
-        "commit_date": "2023-06-01 09:07:28",
-        "commit_message": "stop profiler thread before quit,or log may crash",
+        "commit_date": "2023-06-02 08:06:51",
+        "commit_message": "taint flow rule and pointer flow rule are independent relationships",
         "release_tag": "v0.1.2",
         "release_date": "2022-09-22 10:03:10",
         "release_message": "fix problems running on windows."
@@ -3888,8 +3888,8 @@
     "https://github.com/neuvector/neuvector": {
         "created_at": "2021-12-17 20:15:03",
         "description": "",
-        "commit_date": "2023-06-01 18:05:53",
-        "commit_message": "Merge pull request #843 from williamlin-suse/main\n\nNVSHAS-7968: User notification of support-negating errors from csp-ad…",
+        "commit_date": "2023-06-02 16:51:13",
+        "commit_message": "Merge pull request #846 from jeffhuang4704/NVSHAS-7972-apikey-expiration-time-set-limit\n\nNvshas 7972 apikey expiration time set limit",
         "release_tag": "v5.1.3",
         "release_date": "2023-05-09 18:16:30",
         "release_message": "Features:\r\nAdd new vulnerability feed for scanning Microsoft .NET framework\r\nEnforcer stats is disabled by default in Prometheus exporter to improve scalability\r\nUseability improvement: Using scanner to scan single image and print the result\r\nAdd imagePullPolicy check in admission control\r\n\r\n\r\nBug fixes:\r\nEmpty group auto-removal takes 2 hours to delete instead of 1 hour according to schedule\r\nCompliance profile doesn't show in UI console\r\n"
@@ -3969,11 +3969,11 @@
     "https://github.com/aquasecurity/trivy": {
         "created_at": "2019-04-11 01:01:07",
         "description": "Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more",
-        "commit_date": "2023-06-01 09:52:56",
-        "commit_message": "fix(sbom): update logic for work with files in spdx format (#4513)\n\nCo-authored-by: Teppei Fukuda <knqyf263@gmail.com>",
-        "release_tag": "v0.41.0",
-        "release_date": "2023-04-28 06:00:39",
-        "release_message": "## ⚡Release highlights and summary⚡\r\n\r\n👉 https://github.com/aquasecurity/trivy/discussions/4135\r\n\r\n## Changelog\r\n* 1be1e2e63 fix(spdx): add workaround for no src packages (#4118)\r\n* 45bc9e0de test(golang): rename broken go.mod (#4129)\r\n* 3334e78fa feat(sbom): add supplier field (#4122)\r\n* 27fb1bfde test(misconf): skip downloading of policies for tests #4126\r\n* 845ae31e5 refactor: use debug message for post-analyze errors (#4037)\r\n* 11a5b91a1 feat(sbom): add VEX support (#4053)\r\n* 5eab46498 feat(sbom): add primary package purpose field for SPDX (#4119)\r\n* a00d00eb9 fix(k8s): fix quiet flag (#4120)\r\n* 9bc326909 fix(python): parse of pip extras (#4103)\r\n* 855984167 feat(java): use full path for nested jars (#3992)\r\n* 0650e0e1d feat(license): add new flag for classifier confidence level (#4073)\r\n* 43b649627 feat: config and fs compliance support (#4097)\r\n* 9181bc1f7 chore(deps): bump sigstore/cosign-installer from 2.8.1 to 3.0.1 (#3952)\r\n* 48e021ea6 feat(spdx): add support for SPDX 2.3 (#4058)\r\n* 107752df6 fix: k8s all-namespaces support (#4096)\r\n* bd0c60364 perf(misconf): replace with post-analyzers (#4090)\r\n* 76662d5dd fix(helm): update networking API version detection (#4106)\r\n* be47b688c feat(image): custom docker host option (#3599)\r\n* cc18f92cf style: debug flag is incorrect and needs extra - (#4087)\r\n* 572a6193e docs(vuln): Document inline vulnerability filtering comments (#4024)\r\n* 914c6f092 feat(fs): customize error callback during fs walk (#4038)\r\n* 3f02feeff fix(ubuntu): skip copyright files from subfolders (#4076)\r\n* 57bb77c06 docs: restructure scanners (#3977)\r\n* b19b56c34 fix: fix `file does not exist` error for post-analyzers (#4061)\r\n\r\n"
+        "commit_date": "2023-06-02 06:36:08",
+        "commit_message": "chore(deps): bump github.com/sigstore/rekor from 1.2.0 to 1.2.1 (#4533)",
+        "release_tag": "v0.42.0",
+        "release_date": "2023-06-02 11:21:29",
+        "release_message": "## ⚡Release highlights and summary⚡\r\n\r\n👉 https://github.com/aquasecurity/trivy/discussions/4541\r\n\r\n## Changelog\r\n* 854b63940 chore(deps): bump github.com/sigstore/rekor from 1.2.0 to 1.2.1 (#4533)\r\n* 59e1a8664 chore(deps): bump alpine from 3.17.3 to 3.18.0 (#4525)\r\n* 9ef01133c feat: add SBOM analyzer (#4210)\r\n* dadd1e10c fix(sbom): update logic for work with files in spdx format (#4513)\r\n* 1a658210a feat: azure workload identity support (#4489)\r\n* 411862c90 feat(ubuntu): add eol date for 18.04 ESM (#4524)\r\n* 62a1aaf03 fix(misconf): Update required extensions for terraformplan (#4523)\r\n* 48b2e15c2 refactor(cyclonedx): add intermediate representation (#4490)\r\n* c15f269a9 fix(misconf): Remove debug print while scanning (#4521)\r\n* b6ee08e55 fix(java): remove duplicates of jar libs (#4515)\r\n* d4740401a fix(java): fix overwriting project props in pom.xml (#4498)\r\n* 4cf2f94d0 docs: Update compilation instructions (#4512)\r\n* 18ce1c336 fix(nodejs): update logic for parsing pnpm lock files (#4502)\r\n* 87eed38c6  fix(secret): remove aws-account-id rule (#4494)\r\n* b0c591ef6 feat(oci): add support for referencing an input image by digest (#4470)\r\n* b84b5ecfc chore(deps): bump github.com/cloudflare/circl from 1.1.0 to 1.3.3 (#4338)\r\n* 305255a49 docs: fixed the format (#4503)\r\n* d586de585 fix(java): add support of * for exclusions for pom.xml files (#4501)\r\n* de6eef3b0 feat: adding issue template for documentation (#4453)\r\n* 83a9c4a4c docs: switch glad to ghsa for Go (#4493)\r\n* 537272257 chore(deps): Update defsec to v0.89.0 (#4474)\r\n* 6fcd1538d feat(misconf): Add terraformplan support (#4342)\r\n* 72e302cf8 feat(debian): add digests for dpkg (#4445)\r\n* 7e99d08a1 chore(deps): bump github.com/sigstore/rekor from 1.1.1 to 1.2.0 (#4478)\r\n* 12a1789be feat(k8s): exclude node scanning by node labels (#4459)\r\n* 919e8c92b docs: add info about multi-line mode for regexp from custom secret rules (#4159)\r\n* 50fe43f14 feat(cli): convert JSON reports into a different format (#4452)\r\n* 09db1d438 feat(image): add logic to guess base layer for docker-cis scan (#4344)\r\n* 3f0721ff6 fix(cyclonedx): set original names for packages (#4306)\r\n* 0ef0dadb1 feat: group subcommands (#4449)\r\n* 3a7717fde feat(cli): add retry to cache operations (#4189)\r\n* 63cfb2714 fix(vuln): report architecture for `apk` packages (#4247)\r\n* e1361368a refactor: enable cases where return values are not needed in pipeline (#4443)\r\n* 29b5f7e8e fix(image): resolve scan deadlock when error occurs in slow mode (#4336)\r\n* 92ed344e8 docs(misconf): Update docs for kubernetes file patterns (#4435)\r\n* 16af41be1 test: k8s integration tests (#4423)\r\n* cab8569cd feat(redhat): add package digest for rpm (#4410)\r\n* 92f9e98d0 feat(misconf): Add `--reset-policy-bundle` for policy bundle (#4167)\r\n* 33fb04763 fix: typo (#4431)\r\n* 8b162f287 add user instruction to imgconf (#4429)\r\n* 3b7c9198d fix(k8s): add image sources (#4411)\r\n* c75d35ff6 docs(scanning): Add versioning banner (#4415)\r\n* d298415c0 feat(cli): add mage command to update golden integration test files (#4380)\r\n* 1a56295ff feat: node-collector custom namespace support (#4407)\r\n* 864ad10a3 chore(deps): bump owenrumney/go-sarif from v2.1.3 to v2.2.0 (#4378)\r\n* 7a20d9622 refactor(sbom): use multiline json for spdx-json format (#4404)\r\n* ea5fd75ff fix(ubuntu): add EOL date for Ubuntu 23.04 (#4347)\r\n* 56a01ec6f refactor: code-optimization (#4214)\r\n* 6a0e15265 feat(image): Add image-src flag to specify which runtime(s) to use (#4047)\r\n* 50c8b418a  test: skip wrong update of test golden files (#4379)\r\n* 51ca6536c refactor: don't return error for package.json without version/name (#4377)\r\n* e5e7ebcda docs: cmd  error (#4376)\r\n* 6ee496077 test(cli): add test for config file and env combination (#2666)\r\n* c067b026e fix(report): set a correct file location for license scan output (#4326)\r\n* ff6374829 ci: rpm repository for all versions and aarch64 (#4077)\r\n* 0009b02bb chore(alpine): Update Alpine to 3.18 (#4351)\r\n* d61ae8cc7 fix(alpine): add EOL date for Alpine 3.18 (#4308)\r\n* 636ce808f chore(deps): bump github.com/docker/distribution (#4337)\r\n* e859d10ee feat: allow root break for mapfs (#4094)\r\n* a6ef37fa3 docs(misconf): Remove examples.md (#4256)\r\n* dca8c039e fix(ubuntu): update eol dates for Ubuntu (#4258)\r\n* b003f58b2 feat(alpine): add digests for apk packages (#4168)\r\n* 86f001616 chore: add discussion templates (#4190)\r\n* 2f318ce97 fix(terraform): Support tfvars (#4123)\r\n* ec3906c24 chore: separate docs:generate (#4242)\r\n* 37b25d28b chore(deps): bump github.com/aws/aws-sdk-go-v2/config (#4246)\r\n* 45d5edb0d refactor: define vulnerability scanner interfaces (#4117)\r\n* 090a00e71 feat: unified k8s scan resources (#4188)\r\n* f2188eb56 chore(deps): Update defsec to v0.88.1 (#4178)\r\n* b79850f41 chore(deps): bump github.com/alicebob/miniredis/v2 from 2.30.1 to 2.30.2 (#4141)\r\n* 36acdfa8d chore: trivy bin ignore (#4212)\r\n* 55fb723a6 feat(image): enforce image platform (#4083)\r\n* 9c87cb271 chore(deps): bump github.com/owenrumney/go-sarif/v2 from 2.1.2 to 2.1.3 (#4143)\r\n* 21cf179f6 chore(deps): bump github.com/docker/docker (#4144)\r\n* fbf7a77ae chore(deps): bump github.com/hashicorp/golang-lru/v2 from 2.0.1 to 2.0.2 (#4146)\r\n* 547391c22 chore(deps): bump aquaproj/aqua-installer from 2.0.2 to 2.1.1 (#4140)\r\n* 882bfdd78 fix(ubuntu): fix version selection logic for ubuntu esm (#4171)\r\n* 949cd10c0 chore(deps): bump github.com/samber/lo from 1.37.0 to 1.38.1 (#4147)\r\n* 93bc162ca chore(deps): bump github.com/hashicorp/go-getter from 1.7.0 to 1.7.1 (#4145)\r\n* 57993ef67 chore(deps): bump sigstore/cosign-installer from 3.0.1 to 3.0.3 (#4138)\r\n* dc4baeb35 chore(deps): bump github.com/testcontainers/testcontainers-go (#4150)\r\n* 25d0255dc chore: install.sh support for windows (#4155)\r\n* 73e54549f chore(deps): bump github.com/sigstore/rekor from 1.1.0 to 1.1.1 (#4166)\r\n* 08de7c613 chore(deps): bump golang.org/x/crypto from 0.7.0 to 0.8.0 (#4149)\r\n* ade4730fa docs: moving skipping files out of others (#4154)\r\n\r\n"
     },
     "https://github.com/anchore/grype": {
         "created_at": "2020-05-26 13:44:38",
@@ -4059,8 +4059,8 @@
     "https://github.com/WebGoat/WebGoat": {
         "created_at": "2015-03-06 14:02:02",
         "description": "WebGoat is a deliberately insecure application",
-        "commit_date": "2023-05-01 21:48:16",
-        "commit_message": "chore: bump jacoco-maven-plugin from 0.8.8 to 0.8.10\n\nBumps [jacoco-maven-plugin](https://github.com/jacoco/jacoco) from 0.8.8 to 0.8.10.\n- [Release notes](https://github.com/jacoco/jacoco/releases)\n- [Commits](https://github.com/jacoco/jacoco/compare/v0.8.8...v0.8.10)\n\n---\nupdated-dependencies:\n- dependency-name: org.jacoco:jacoco-maven-plugin\n  dependency-type: direct:production\n  update-type: version-update:semver-patch\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>",
+        "commit_date": "2023-06-02 14:21:17",
+        "commit_message": "chore: bump zxcvbn from 1.5.2 to 1.7.0 (#1471)\n\nBumps [zxcvbn](https://github.com/nulab/zxcvbn4j) from 1.5.2 to 1.7.0.\r\n- [Release notes](https://github.com/nulab/zxcvbn4j/releases)\r\n- [Changelog](https://github.com/nulab/zxcvbn4j/blob/master/CHANGELOG.md)\r\n- [Commits](https://github.com/nulab/zxcvbn4j/compare/1.5.2...1.7.0)\r\n\r\n---\r\nupdated-dependencies:\r\n- dependency-name: com.nulab-inc:zxcvbn\r\n  dependency-type: direct:production\r\n  update-type: version-update:semver-minor\r\n...\r\n\r\nSigned-off-by: dependabot[bot] <support@github.com>\r\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>\r\nCo-authored-by: René Zubcevic <rene@zubcevic.com>",
         "release_tag": "v2023.4",
         "release_date": "2023-02-17 12:16:10",
         "release_message": "## Version 2023.4\r\n\r\n### New functionality\r\n\r\n- [#1422 Add Docker Linux Desktop variant with all tools installed](https://github.com/WebGoat/WebGoat/issues/1422). Thanks to the [OWASP WrongSecrets project](https://owasp.org/www-project-wrongsecrets/) we now have a Docker Linux desktop image with all the tools installed. No need to install any tools locally only run the new Docker image. See README.md for details on how to start it.\r\n- [#1411 JWT: looks that buy as Tom also works with alg:none](https://github.com/WebGoat/WebGoat/issues/1411).\r\n\r\n### Bug fixes\r\n\r\n- [#1410 WebWolf: JWT decode is broken](https://github.com/WebGoat/WebGoat/issues/1410).\r\n- [#1396 password_reset return 500 Error](https://github.com/WebGoat/WebGoat/issues/1396).\r\n- [#1379 Move XXE to A05:2021-Security Misconfiguration](https://github.com/WebGoat/WebGoat/issues/1379)."
@@ -4167,8 +4167,8 @@
     "https://github.com/vulhub/vulhub": {
         "created_at": "2017-04-09 10:13:13",
         "description": "Pre-Built Vulnerable Environments Based on Docker-Compose",
-        "commit_date": "2023-05-28 13:52:32",
-        "commit_message": "Merge pull request #436 from vulhub/docker-compose-v2\n\nupgrade docker-compose v1 to docker compose v2",
+        "commit_date": "2023-06-02 15:46:41",
+        "commit_message": "fix elasticsearch-head/1.x plugin installation error",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -4275,7 +4275,7 @@
     "https://github.com/aiboboxx/v2rayfree": {
         "created_at": "2021-10-13 11:34:53",
         "description": "v2ray公益免费节点、最新2ray免费v节点订阅地址、v2ray免费节点每日更新、免费ss/v2ray/trojan节点、freefq ",
-        "commit_date": "2023-06-01 12:38:59",
+        "commit_date": "2023-06-02 12:39:38",
         "commit_message": "update",
         "release_tag": "",
         "release_date": "",
@@ -4320,8 +4320,8 @@
     "https://github.com/freefq/free": {
         "created_at": "2020-06-07 02:48:33",
         "description": "翻墙、免费翻墙、免费科学上网、免费节点、免费梯子、免费ss/v2ray/trojan节点、蓝灯、谷歌商店、翻墙梯子",
-        "commit_date": "2023-06-02 00:00:02",
-        "commit_message": "updated_at 06-02 08:00",
+        "commit_date": "2023-06-03 00:00:03",
+        "commit_message": "updated_at 06-03 08:00",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -4590,8 +4590,8 @@
     "https://github.com/yzfly/awesome-chatgpt-zh": {
         "created_at": "2023-03-21 02:16:34",
         "description": "ChatGPT 中文指南🔥，ChatGPT 中文调教指南，指令指南，精选资源清单，更好的使用 chatGPT 让你的生产力 up up up! 🚀",
-        "commit_date": "2023-05-30 12:05:21",
-        "commit_message": "update readme",
+        "commit_date": "2023-06-03 00:41:13",
+        "commit_message": "update Developer Resource",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -4599,8 +4599,8 @@
     "https://github.com/rockbenben/ChatGPT-Shortcut": {
         "created_at": "2023-02-24 12:53:49",
         "description": "Maximize your efficiency and productivity. 让生产力加倍的 ChatGPT 快捷指令，按照领域和功能分区，可对提示词进行标签筛选、关键词搜索和一键复制。",
-        "commit_date": "2023-06-01 16:07:48",
-        "commit_message": "feat: v2.0 add user system\n\n- Add personal prompts.\n- Remove default favorite tags after logging in.\n- Log in to save personal settings.\n- Bookmark prompts and set them as a priority.",
+        "commit_date": "2023-06-02 15:10:19",
+        "commit_message": "prompt: add prompts and update weight",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
