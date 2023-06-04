@@ -200,8 +200,8 @@
     "https://github.com/ycdxsb/PocOrExp_in_Github": {
         "created_at": "2021-04-13 05:46:16",
         "description": "聚合Github上已有的Poc或者Exp，CVE信息来自CVE官网。Auto Collect Poc Or Exp from Github by CVE ID.",
-        "commit_date": "2023-06-02 22:25:22",
-        "commit_message": "update 2023-06-03 06:25:22",
+        "commit_date": "2023-06-03 17:22:45",
+        "commit_message": "update 2023-06-04 01:22:45",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -461,7 +461,7 @@
     "https://github.com/ExpLangcn/NucleiTP": {
         "created_at": "2022-11-08 13:16:56",
         "description": "自动整合全网Nuclei的漏洞POC，实时同步更新最新POC！",
-        "commit_date": "2023-06-03 00:45:19",
+        "commit_date": "2023-06-04 00:45:19",
         "commit_message": "更新啦❤️",
         "release_tag": "",
         "release_date": "",
@@ -828,8 +828,8 @@
     "https://github.com/murphysecurity/murphysec": {
         "created_at": "2022-03-16 02:52:33",
         "description": "An open source tool focused on software supply chain security. 墨菲安全专注于软件供应链安全，具备专业的软件成分分析（SCA）、漏洞检测、专业漏洞库。",
-        "commit_date": "2023-06-02 12:27:27",
-        "commit_message": "fix(collect-info): fix NPE when repo is not exists",
+        "commit_date": "2023-06-03 04:44:47",
+        "commit_message": "chore(deps): Upgrade github.com/stretchr/testify@v1.8.4",
         "release_tag": "v3.1.1",
         "release_date": "2023-05-15 12:52:58",
         "release_message": "Support NPM lockfile v3 "
@@ -981,8 +981,8 @@
     "https://github.com/sqlmapproject/sqlmap": {
         "created_at": "2012-06-26 09:52:15",
         "description": "Automatic SQL injection and database takeover tool",
-        "commit_date": "2023-06-02 09:32:06",
-        "commit_message": "Trivial update",
+        "commit_date": "2023-06-03 20:49:43",
+        "commit_message": "Fixes #5431",
         "release_tag": "1.7",
         "release_date": "2023-01-02 22:32:55",
         "release_message": "Stable version 1.7 ([changeset](https://github.com/sqlmapproject/sqlmap/compare/1.6...1.7))"
@@ -1071,8 +1071,8 @@
     "https://github.com/v2rayA/v2rayA": {
         "created_at": "2019-10-18 20:42:06",
         "description": "A web GUI client of Project V which supports V2Ray, Xray, SS, SSR, Trojan and Pingtunnel 🚀",
-        "commit_date": "2023-05-11 13:57:55",
-        "commit_message": "chore: add udp443 flows",
+        "commit_date": "2023-06-03 05:01:42",
+        "commit_message": "refactor: web gui by nuxt (#787)",
         "release_tag": "v2.0.5",
         "release_date": "2023-04-08 06:20:57",
         "release_message": "## What's Changed\r\n* Fix tip label display by @aeeq in https://github.com/v2rayA/v2rayA/pull/889\r\n\r\n## New Contributors\r\n* @aeeq made their first contribution in https://github.com/v2rayA/v2rayA/pull/889\r\n\r\n**Full Changelog**: https://github.com/v2rayA/v2rayA/compare/v2.0.4...v2.0.5"
@@ -1726,8 +1726,8 @@
     "https://github.com/4ra1n/shell-analyzer": {
         "created_at": "2023-02-04 07:31:02",
         "description": "Java内存马查杀GUI工具，实时动态分析，支持本地和远程查杀",
-        "commit_date": "2023-02-14 18:14:54",
-        "commit_message": "Update README.md",
+        "commit_date": "2023-06-03 16:53:13",
+        "commit_message": "Create LICENSE",
         "release_tag": "0.1",
         "release_date": "2023-02-14 09:00:35",
         "release_message": "提供了三个`jar`文件：\r\n- `agent.jar`是核心文件，请保持与`gui.jar`或`remote.jar`同目录\r\n- `gui.jar`是GUI客户端，本地和远程分析都需要\r\n- `remote.jar`用于远程分析，本地分析无需下载"
@@ -2951,8 +2951,8 @@
     "https://github.com/dbeaver/dbeaver": {
         "created_at": "2015-10-21 08:26:28",
         "description": "Free universal database tool and SQL client",
-        "commit_date": "2023-06-02 14:03:40",
-        "commit_message": "CB-3542 fix custom driver loading (#20184)",
+        "commit_date": "2023-06-03 17:59:47",
+        "commit_message": "dbeaver/dbeaver#20002 only refresh entities instead of reloading diagram (#20176)\n\nSigned-off-by: Georgii Gvinepadze <fireshowel@gmail.com>",
         "release_tag": "23.0.5",
         "release_date": "2023-05-21 16:54:53",
         "release_message": "\n              - SQL Editor:\n                  - Autocomplete for WHERE and SELECT shows aliases with the aliased table\n                  - Hovering information for SQL errors and spelling annotations was added\n                  - Variable and parameter names in the binding dialog are now displayed in their original case\n                  - Information about assigning a non-dynamic variable was added to the binding dialog\n                  - Issue with incorrect icon for Execute SQL Statement after opening Output tab was fixed\n                  - Query Manager: 'Restore Default' button behavior was improved\n                  - Ability to directly execute SQL scripts in native clients was added\n              - Data transfer:\n                  - Ability to trim string values when exporting to XLSX was added\n                  - Handling of datetimeoffset was added\n              - General UI:\n                  - Part divider UI was redesigned\n                  - Option to increase formatting time was added in Preferences\n                  - Issue with closing pinned tabs using 'Close Tabs to the Left' was fixed\n              - Connectivity:\n                  - Issue with driver fallback not being updated was fixed\n              - Databases:\n                  - ClickHouse: driver was updated to 0.4.6 (thanks to @zhicwu)\n                  - Databricks: handling of data types without parameters was added\n                  - Hana: comments handling was fixed\n                  - MySQL: partitions are now supported\n                  - Oracle: TNS import was fixed\n                  - PostgreSQL:\n                      - Issue with duplicate tables with generated columns in Database Navigator was fixed\n                      - Error message about line on the map created with a single point was added\n                      - Schema refresh was fixed\n                  - SQLite: ability to open ER Diagram in the Simple View was added\n              - Localization:\n               \t\t- German localization was improved (thanks to @hype11)\n              \t\t- Italian localization was improved (thanks to @Gnafu)\n            "
@@ -3103,12 +3103,12 @@
     },
     "https://github.com/sleeyax/burp-awesome-tls": {
         "created_at": "2022-01-24 00:30:26",
-        "description": "Fix Burp Suite's horrible TLS stack & spoof any browser fingerprint",
-        "commit_date": "2022-09-26 07:34:27",
-        "commit_message": "Merge pull request #18 from AlecHaring/17-fix-multi-value-headers",
-        "release_tag": "v0.0.4",
-        "release_date": "2022-09-23 23:21:56",
-        "release_message": ""
+        "description": "Fix Burp Suite's poor TLS stack and bypass WAFs by spoofing any browser",
+        "commit_date": "2023-06-03 16:01:30",
+        "commit_message": "Update go version\n\nNeeds patch version to be specified.",
+        "release_tag": "v1.0.0",
+        "release_date": "2023-06-03 16:28:06",
+        "release_message": "# :rocket: Major release time!\r\n\r\nHey folks, this is a major update I've been working on over the past few days to address a few outstanding issues and to rework some things. \r\n\r\n## Changelog\r\n\r\nPR: https://github.com/sleeyax/burp-awesome-tls/pull/27.\r\n\r\n### Added\r\n- New underlying TLS and HTTP implementations. Should be easier to maintain going forward. \r\n- Response header order support (#19)\r\n- Custom initial HTTP2 SETTINGS frame for Chrome fingerprints (#11)\r\n- Ordered pseudo headers for HTTP 2\r\n- More timeout settings added to UI\r\n- More and updated fingerprints\r\n  -  Chrome 102\r\n  - Chrome 100\r\n  - Chrome 96\r\n  - Firefox 105\r\n  - Firefox 102\r\n  - Firefox 99\r\n  - Edge 106\r\n  - Edge 85\r\n  - Safari 16\r\n  -  QQBrowser 11\r\n  - iOS 14\r\n  - iOS 13\r\n  - iOS 12\r\n  - Android 11\r\n  - Randomized\r\n  - Randomized ALPN\r\n  - Randomized No ALPN\r\n\r\n\r\n### Fixed\r\n- Set `InsecureSkipVerify` to `true` (#22)\r\n- Concurrent map writes error (#26)\r\n\r\n### Changed\r\n- Updated docs (rewordings, new diagram, add showcase)"
     },
     "https://github.com/passer-W/FinalShell-Decoder": {
         "created_at": "2022-04-06 07:11:25",
@@ -3406,8 +3406,8 @@
     "https://github.com/bit4woo/domain_hunter_pro": {
         "created_at": "2019-01-18 07:15:15",
         "description": "domain_hunter的高级版本，SRC挖洞、HW打点之必备！自动化资产收集；快速Title获取；外部工具联动；等等",
-        "commit_date": "2023-06-02 15:37:52",
-        "commit_message": "update",
+        "commit_date": "2023-06-03 05:16:54",
+        "commit_message": "标记重复数据包的功能",
         "release_tag": "v1.9",
         "release_date": "2023-04-18 00:34:58",
         "release_message": "全局：\r\n多个bug修复\r\n布局模式优化\r\n基础方法实现逻辑优化\r\n\r\n右键菜单：\r\n“Do Search”提供主动在制定请求中进行搜索的能力，比如在某企业邮箱的流量中搜索以提取邮箱地址\r\n“Add Request And Comment”右键菜单添逻辑优化，修复一个bug\r\n“Send To Tool Panel”右键菜单处理逻辑优化，可合并发送多个数据包内容\r\n\r\nDomain面板：\r\nroot domain的comments逻辑更新\r\n提供多个网络搜索引擎的后台自动搜索功能\r\nroot domain双击，自动在浏览器中访问\r\n修改目标根域名删除失败的bug\r\n显示序号，以便在排序后恢复原始顺序\r\n\r\nTool面板：\r\n重写JTextArea的paste函数，避免大内容导致程序卡死\r\nJTextArea支持输入文件，而程序处理其内容。\r\n文本取提供简单的历史记录功能\r\nJSON提取逻辑优化\r\n新增多个功能，比如排序\r\n优化URL提取逻辑，避免遗漏没有以/开头的path\r\n\r\nTitle面板中：\r\n端口扫描命令生成逻辑优化\r\n备注和IP内容的显示优化，显示前排序\r\n备注添加逻辑优化\r\n给手动添加的记录添加已知的IP和CNAME、CertInfo\r\n搜索功能增强，支持对数字型字段进行大于、小于、等于等搜索\r\n添加多个搜索实例，以便用户熟悉搜索语法\r\n新增“Do Request Item Again”菜单，对DNS记录或无响应的数据包进行再次请求"
@@ -4275,7 +4275,7 @@
     "https://github.com/aiboboxx/v2rayfree": {
         "created_at": "2021-10-13 11:34:53",
         "description": "v2ray公益免费节点、最新2ray免费v节点订阅地址、v2ray免费节点每日更新、免费ss/v2ray/trojan节点、freefq ",
-        "commit_date": "2023-06-02 12:39:38",
+        "commit_date": "2023-06-03 12:36:23",
         "commit_message": "update",
         "release_tag": "",
         "release_date": "",
@@ -4292,9 +4292,9 @@
     },
     "https://github.com/dark-kingA/superSearchPlus": {
         "created_at": "2022-10-04 10:08:42",
-        "description": "谷歌插件版本- superSearchPlus是聚合型信息收集插件，支持综合查询，资产测绘查询，信息收集 js敏感信息提取 注释资源扫描 目录扫描 整合了目前常见的资产测绘平台 同时支持数据导出",
-        "commit_date": "2023-05-31 04:37:22",
-        "commit_message": "更新插件新版本推送提醒",
+        "description": "谷歌插件版本- superSearchPlus是聚合型信息收集插件，支持综合查询，资产测绘查询，信息收集 敏感信息提取 js资源扫描 目录扫描 vue组件扫描 整合了目前常见的资产测绘平台 同时支持数据导出",
+        "commit_date": "2023-06-03 09:54:40",
+        "commit_message": "添加 右键菜单 在线工具",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -4320,8 +4320,8 @@
     "https://github.com/freefq/free": {
         "created_at": "2020-06-07 02:48:33",
         "description": "翻墙、免费翻墙、免费科学上网、免费节点、免费梯子、免费ss/v2ray/trojan节点、蓝灯、谷歌商店、翻墙梯子",
-        "commit_date": "2023-06-03 00:00:03",
-        "commit_message": "updated_at 06-03 08:00",
+        "commit_date": "2023-06-04 00:00:04",
+        "commit_message": "updated_at 06-04 08:00",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -4590,8 +4590,8 @@
     "https://github.com/yzfly/awesome-chatgpt-zh": {
         "created_at": "2023-03-21 02:16:34",
         "description": "ChatGPT 中文指南🔥，ChatGPT 中文调教指南，指令指南，精选资源清单，更好的使用 chatGPT 让你的生产力 up up up! 🚀",
-        "commit_date": "2023-06-03 00:41:13",
-        "commit_message": "update Developer Resource",
+        "commit_date": "2023-06-03 03:36:35",
+        "commit_message": "update readme",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -4599,8 +4599,8 @@
     "https://github.com/rockbenben/ChatGPT-Shortcut": {
         "created_at": "2023-02-24 12:53:49",
         "description": "Maximize your efficiency and productivity. 让生产力加倍的 ChatGPT 快捷指令，按照领域和功能分区，可对提示词进行标签筛选、关键词搜索和一键复制。",
-        "commit_date": "2023-06-02 15:10:19",
-        "commit_message": "prompt: add prompts and update weight",
+        "commit_date": "2023-06-03 13:10:58",
+        "commit_message": "refactor(auth): Refactor user login logic to AuthContext and fix language-specific redirect issue",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
