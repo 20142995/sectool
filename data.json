@@ -47,8 +47,8 @@
     "https://github.com/wpscanteam/wpscan": {
         "created_at": "2012-07-11 20:27:47",
         "description": "WPScan WordPress security scanner. Written for security professionals and blog maintainers to test the security of their WordPress websites. Contact us via contact@wpscan.com",
-        "commit_date": "2023-05-28 03:25:01",
-        "commit_message": "Update README.md",
+        "commit_date": "2023-06-06 13:58:57",
+        "commit_message": "Merge pull request #1783 from wpscanteam/fix/proxy-auth\n\nFixed using proper proxy auth credentials when updating the database and talking to the WPScan API.",
         "release_tag": "v3.8.22",
         "release_date": "2022-04-04 14:04:28",
         "release_message": "See https://github.com/wpscanteam/CMSScanner/releases/tag/v0.13.8\r\n\r\n- Minor:\r\n  - Better handling of redirection, ie when target http->https (or the opposite), the target URL will be changed to the new one automatically to avoid scanning the http version and getting 301 which could result in items being missed\r\n  - Better handling of unsupported HEAD method by checking for 501 and timeout as well"
@@ -173,8 +173,8 @@
     "https://github.com/wuba/Antenna": {
         "created_at": "2022-06-15 06:42:25",
         "description": "Antenna是58同城安全团队打造的一款辅助安全从业人员验证网络中多种漏洞是否存在以及可利用性的工具。其基于带外应用安全测试(OAST)通过任务的形式，将不同漏洞场景检测能力通过插件的形式进行集合，通过与目标进行out-bind的数据通信方式进行辅助检测。",
-        "commit_date": "2023-05-17 09:57:12",
-        "commit_message": "Merge pull request #121 from wuba/develop\n\nDevelop",
+        "commit_date": "2023-06-06 10:04:37",
+        "commit_message": "Merge pull request #129 from wuba/develop\n\nDevelop",
         "release_tag": "v1.3.5",
         "release_date": "2023-04-21 09:45:23",
         "release_message": "1. 修复HTTPS分块传输请求导致处理逻辑错误(#105)的问题\r\n2. 废弃domain_in查询方式(#106)，后续多个域名查询可使用多个domain参数查询，详情可看http://blog.antenna.cool/docs/api_back\r\n3. 新增api查询用户token以及查询当前项目使用版本接口，为下个版本SDK与自动更新功能做准备\r\n\r\n"
@@ -200,8 +200,8 @@
     "https://github.com/ycdxsb/PocOrExp_in_Github": {
         "created_at": "2021-04-13 05:46:16",
         "description": "聚合Github上已有的Poc或者Exp，CVE信息来自CVE官网。Auto Collect Poc Or Exp from Github by CVE ID.",
-        "commit_date": "2023-06-05 22:33:24",
-        "commit_message": "update 2023-06-06 06:33:24",
+        "commit_date": "2023-06-06 23:34:43",
+        "commit_message": "update 2023-06-07 07:34:43",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -461,7 +461,7 @@
     "https://github.com/ExpLangcn/NucleiTP": {
         "created_at": "2022-11-08 13:16:56",
         "description": "自动整合全网Nuclei的漏洞POC，实时同步更新最新POC！",
-        "commit_date": "2023-06-06 00:30:20",
+        "commit_date": "2023-06-07 00:45:20",
         "commit_message": "更新啦❤️",
         "release_tag": "",
         "release_date": "",
@@ -828,8 +828,8 @@
     "https://github.com/murphysecurity/murphysec": {
         "created_at": "2022-03-16 02:52:33",
         "description": "An open source tool focused on software supply chain security. 墨菲安全专注于软件供应链安全，具备专业的软件成分分析（SCA）、漏洞检测、专业漏洞库。",
-        "commit_date": "2023-06-03 04:44:47",
-        "commit_message": "chore(deps): Upgrade github.com/stretchr/testify@v1.8.4",
+        "commit_date": "2023-06-06 09:48:12",
+        "commit_message": "ci: add windows-arm64 target",
         "release_tag": "v3.1.1",
         "release_date": "2023-05-15 12:52:58",
         "release_message": "Support NPM lockfile v3 "
@@ -981,8 +981,8 @@
     "https://github.com/sqlmapproject/sqlmap": {
         "created_at": "2012-06-26 09:52:15",
         "description": "Automatic SQL injection and database takeover tool",
-        "commit_date": "2023-06-03 20:49:43",
-        "commit_message": "Fixes #5431",
+        "commit_date": "2023-06-06 09:23:17",
+        "commit_message": "Fixes #5434",
         "release_tag": "1.7",
         "release_date": "2023-01-02 22:32:55",
         "release_message": "Stable version 1.7 ([changeset](https://github.com/sqlmapproject/sqlmap/compare/1.6...1.7))"
@@ -1735,8 +1735,8 @@
     "https://github.com/chaitin/veinmind-tools": {
         "created_at": "2022-02-08 08:12:15",
         "description": "veinmind-tools 是由长亭科技自研，基于 veinmind-sdk 打造的容器安全工具集",
-        "commit_date": "2023-05-31 03:26:26",
-        "commit_message": "fix(docs): fix errors in documentation on how to initialize plugins (#247)",
+        "commit_date": "2023-06-06 02:02:20",
+        "commit_message": "chore(libveinmind): update libveinmind 1.9.21 (#243)",
         "release_tag": "v2.1.3",
         "release_date": "2023-05-23 07:08:29",
         "release_message": "## 🔥 Feature\r\n* feat(veinmind-weakpass): add mysql5 weakpass scan by @ek1ng in https://github.com/chaitin/veinmind-tools/pull/237 \r\n* feat(plugins): use bullseye && update libveinmind-dev 1.9.15 by @DVKunion in https://github.com/chaitin/veinmind-tools/pull/239\r\n* feat(weakpass): support caching_sha2_password and enhance MyISAM pkg by @asjdf  in https://github.com/chaitin/veinmind-tools/pull/235\r\n* feat(plugins): update kubernetes iac polices by @ek1ng in https://github.com/chaitin/veinmind-tools/pull/240\r\n* feat(veinmind-sensitive): support env and docker history scan by @ek1ng in https://github.com/chaitin/veinmind-tools/pull/242\r\n\r\n## 🔧 Fix\r\n* fix(libveinmind): fix libveinmind walk data race error by @DVKunion in https://github.com/chaitin/veinmind-tools/pull/231\r\n* fix(veinmind-malicious): optimize code  by  @testwill in https://github.com/chaitin/veinmind-tools/pull/233\r\n* fix(veinmind-weakpass): fix mysql8 weakpass check by @ek1ng in https://github.com/chaitin/veinmind-tools/pull/241\r\n\r\n## 📒 Others\r\n* chore(unsafe-mount): remove duplicate code by @testwill in https://github.com/chaitin/veinmind-tools/pull/229\r\n* chore(func):  update deprecated func and clean Dockerfile by @asjdf in https://github.com/chaitin/veinmind-tools/pull/232\r\n* docs(readme): add star history by @ek1ng in https://github.com/chaitin/veinmind-tools/pull/238\r\n\r\n## 🎉 New Contributors\r\n* @asjdf made their first contribution in https://github.com/chaitin/veinmind-tools/pull/232\r\n\r\n**Full Changelog**: https://github.com/chaitin/veinmind-tools/compare/v2.1.2...v2.1.3"
@@ -2951,8 +2951,8 @@
     "https://github.com/dbeaver/dbeaver": {
         "created_at": "2015-10-21 08:26:28",
         "description": "Free universal database tool and SQL client",
-        "commit_date": "2023-06-03 17:59:47",
-        "commit_message": "dbeaver/dbeaver#20002 only refresh entities instead of reloading diagram (#20176)\n\nSigned-off-by: Georgii Gvinepadze <fireshowel@gmail.com>",
+        "commit_date": "2023-06-06 16:25:28",
+        "commit_message": "dbeaver/pro#1678 Project password labels fix (#20215)",
         "release_tag": "23.1.0",
         "release_date": "2023-06-04 19:54:58",
         "release_message": "\n                - SQL Editor:\n                    - Autocomplete now supports [ ] and ` as quotes for identifiers\n                    - Shortcut confict on macOS was fixed\n                    - JSQLParser was reverted to the version 4.5 and is now faster\n                    - Issue with substitution variables in text with \\n line feeds was fixed\n                    - Autocomplete case with FROM right after SELECT is now handled\n                    - Autocomplete for SELECT query without FROM was fixed\n                    - 'Go to Matching Bracket' shortcut was changed to CTRL+SHIFT+[\n                    - Autocomplete for columns in tables without alias was fixed\n                    - Completion analyze errors are now written to the debug log\n                    - Comment with a tab after a double dash is now handle\n                    - Issue with hiding cursor position after resizing the editor was fixed\n                    - Exeption when updating editor annotations was fixed\n                - Data Editor:\n                    - Data ordering was improved\n                - General UI:\n                    - Changing the size and position of the connection dialog is now saved\n                    - Issue with the application freezing when creating a table when the connection hangs was fixed\n                    - Tips of the day were revised\n                - Connectivity:\n                    - Option to disable SSHJ hostname verification was added (thanks to @ryanc-me)\n                    - Issue when switching from Community to PRO version and vice versa was fixed\n                - Databases:\n                    - ClickHouse: display of large numbers was fixed\n                    - MariaDB: partition support was added\n                    - Oracle:\n                        - Issue issue with native clients hanging when running SQLPlus scripts was fixed\n                        - Issue with setting the wrong schema after connecting or changing the Data Editor was fixed\n                    - PostgreSQL:\n                        - Issue with an exception when loading attribute information was fixed\n                        - Reading a numeric array was fixed\n                    - Trino: error handling was improved\n                 - Localization:\n                    - German localization was improved (thanks to @hype11)\n                    - Italian localization was improved (thanks to @Gnafu)\n                 - Misc:\n                    - Images for all DBeaver Eclipse extensions were added\n                    - Legacy ODBC driver based on the obsolete Java 7 was deprecated due to many issues\n            "
@@ -3059,8 +3059,8 @@
     "https://github.com/moonD4rk/HackBrowserData": {
         "created_at": "2020-06-18 03:24:31",
         "description": "Decrypt passwords/cookies/history/bookmarks from the browser. 一款可全平台运行的浏览器数据导出解密工具。",
-        "commit_date": "2023-05-08 11:24:15",
-        "commit_message": "refactor: Refactor storage queries and filters.\n\n- Update local storage query constant and function calls\n- Remove null and control characters from UTF-8 split function",
+        "commit_date": "2023-06-06 11:49:11",
+        "commit_message": "Merge pull request #220 from moonD4rk/dev\n\nfeat: support Arc Browser for macOS",
         "release_tag": "v0.4.4",
         "release_date": "2022-08-16 11:59:57",
         "release_message": "## Changes\r\n- fix: find Chrome cookie file failed on windows @moonD4rk (#162)\r\n- deploy: update more check on CI @moonD4rk (#160)\r\n- refactor: formate code by golangci-lint @moonD4rk (#159)\r\n- fix: can not access the file Error when compress results @slimwang (#156)"
@@ -3879,17 +3879,17 @@
     "https://github.com/aquasecurity/kube-bench": {
         "created_at": "2017-06-19 13:27:02",
         "description": "Checks whether Kubernetes is deployed according to security best practices as defined in the CIS Kubernetes Benchmark",
-        "commit_date": "2023-06-01 13:37:50",
-        "commit_message": "add support VMware Tanzu(TKGI) Benchmarks v1.2.53 (#1452)\n\n* add Support VMware Tanzu(TKGI) Benchmarks v1.2.53\r\nwith this change, we are adding\r\n1. latest kubernetes cis benchmarks for VMware Tanzu1.2.53\r\n2. logic to kube-bench so that kube-bench can auto detect vmware platform, will be able to execute the respective vmware tkgi compliance checks.\r\n3. job-tkgi.yaml file to run the benchmark as a job in tkgi cluster\r\nReference Document for checks: https://network.pivotal.io/products/p-compliance-scanner/#/releases/1248397\r\n\r\n* add Support VMware Tanzu(TKGI) Benchmarks v1.2.53\r\nwith this change, we are adding\r\n1. latest kubernetes cis benchmarks for VMware Tanzu1.2.53\r\n2. logic to kube-bench so that kube-bench can auto detect vmware platform, will be able to execute the respective vmware tkgi compliance checks.\r\n3. job-tkgi.yaml file to run the benchmark as a job in tkgi cluster\r\nReference Document for checks: https://network.pivotal.io/products/p-compliance-scanner/#/releases/1248397",
-        "release_tag": "v0.6.14",
-        "release_date": "2023-05-18 07:43:29",
-        "release_message": "## Changelog\n* 968ee58 replace with constant (#1445)\n\n"
+        "commit_date": "2023-06-06 14:40:44",
+        "commit_message": "release: prepare v0.6.15 (#1455)\n\nSigned-off-by: chenk <hen.keinan@gmail.com>",
+        "release_tag": "v0.6.15",
+        "release_date": "2023-06-06 14:50:53",
+        "release_message": "## Changelog\n* e41755b  cis-1.24: fix tests of 1.1.1 and 4.2.9 were wrong (#1423)\n* ca8743c add support VMware Tanzu(TKGI) Benchmarks v1.2.53 (#1452)\n* 84f80b5 build(deps): bump alpine from 3.17 to 3.18 (#1443)\n* 6de03bb build(deps): bump github.com/aws/aws-sdk-go-v2 from 1.17.6 to 1.18.0 (#1433)\n* 60dde65 support CIS Amazon Elastic Kubernetes Service (EKS) Benchmark v1.2.0 (#1449)\n* 124c57c support CIS Kubernetes Benchmark v1.7.0 (#1424)\n\n"
     },
     "https://github.com/neuvector/neuvector": {
         "created_at": "2021-12-17 20:15:03",
         "description": "",
-        "commit_date": "2023-06-05 17:56:49",
-        "commit_message": "Merge pull request #848 from alopez-suse/NVSHAS-6217\n\nNVSHAS-6217: update scan result correctly",
+        "commit_date": "2023-06-06 06:38:09",
+        "commit_message": "Merge pull request #852 from jayhuang-suse/four\n\nNVSHAS-7983: NV protect events are not reporting name of the pod for manager, scanner and csp pods",
         "release_tag": "v5.1.3",
         "release_date": "2023-05-09 18:16:30",
         "release_message": "Features:\r\nAdd new vulnerability feed for scanning Microsoft .NET framework\r\nEnforcer stats is disabled by default in Prometheus exporter to improve scalability\r\nUseability improvement: Using scanner to scan single image and print the result\r\nAdd imagePullPolicy check in admission control\r\n\r\n\r\nBug fixes:\r\nEmpty group auto-removal takes 2 hours to delete instead of 1 hour according to schedule\r\nCompliance profile doesn't show in UI console\r\n"
@@ -3969,8 +3969,8 @@
     "https://github.com/aquasecurity/trivy": {
         "created_at": "2019-04-11 01:01:07",
         "description": "Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more",
-        "commit_date": "2023-06-04 13:17:54",
-        "commit_message": "chore(deps): bump golangci/golangci-lint-action from 3.4.0 to 3.5.0 (#4554)",
+        "commit_date": "2023-06-06 12:51:39",
+        "commit_message": "fix(nodejs): change the type of the devDependencies field (#4560)",
         "release_tag": "v0.42.0",
         "release_date": "2023-06-02 11:21:29",
         "release_message": "## ⚡Release highlights and summary⚡\r\n\r\n👉 https://github.com/aquasecurity/trivy/discussions/4541\r\n\r\n## Changelog\r\n* 854b63940 chore(deps): bump github.com/sigstore/rekor from 1.2.0 to 1.2.1 (#4533)\r\n* 59e1a8664 chore(deps): bump alpine from 3.17.3 to 3.18.0 (#4525)\r\n* 9ef01133c feat: add SBOM analyzer (#4210)\r\n* dadd1e10c fix(sbom): update logic for work with files in spdx format (#4513)\r\n* 1a658210a feat: azure workload identity support (#4489)\r\n* 411862c90 feat(ubuntu): add eol date for 18.04 ESM (#4524)\r\n* 62a1aaf03 fix(misconf): Update required extensions for terraformplan (#4523)\r\n* 48b2e15c2 refactor(cyclonedx): add intermediate representation (#4490)\r\n* c15f269a9 fix(misconf): Remove debug print while scanning (#4521)\r\n* b6ee08e55 fix(java): remove duplicates of jar libs (#4515)\r\n* d4740401a fix(java): fix overwriting project props in pom.xml (#4498)\r\n* 4cf2f94d0 docs: Update compilation instructions (#4512)\r\n* 18ce1c336 fix(nodejs): update logic for parsing pnpm lock files (#4502)\r\n* 87eed38c6  fix(secret): remove aws-account-id rule (#4494)\r\n* b0c591ef6 feat(oci): add support for referencing an input image by digest (#4470)\r\n* b84b5ecfc chore(deps): bump github.com/cloudflare/circl from 1.1.0 to 1.3.3 (#4338)\r\n* 305255a49 docs: fixed the format (#4503)\r\n* d586de585 fix(java): add support of * for exclusions for pom.xml files (#4501)\r\n* de6eef3b0 feat: adding issue template for documentation (#4453)\r\n* 83a9c4a4c docs: switch glad to ghsa for Go (#4493)\r\n* 537272257 chore(deps): Update defsec to v0.89.0 (#4474)\r\n* 6fcd1538d feat(misconf): Add terraformplan support (#4342)\r\n* 72e302cf8 feat(debian): add digests for dpkg (#4445)\r\n* 7e99d08a1 chore(deps): bump github.com/sigstore/rekor from 1.1.1 to 1.2.0 (#4478)\r\n* 12a1789be feat(k8s): exclude node scanning by node labels (#4459)\r\n* 919e8c92b docs: add info about multi-line mode for regexp from custom secret rules (#4159)\r\n* 50fe43f14 feat(cli): convert JSON reports into a different format (#4452)\r\n* 09db1d438 feat(image): add logic to guess base layer for docker-cis scan (#4344)\r\n* 3f0721ff6 fix(cyclonedx): set original names for packages (#4306)\r\n* 0ef0dadb1 feat: group subcommands (#4449)\r\n* 3a7717fde feat(cli): add retry to cache operations (#4189)\r\n* 63cfb2714 fix(vuln): report architecture for `apk` packages (#4247)\r\n* e1361368a refactor: enable cases where return values are not needed in pipeline (#4443)\r\n* 29b5f7e8e fix(image): resolve scan deadlock when error occurs in slow mode (#4336)\r\n* 92ed344e8 docs(misconf): Update docs for kubernetes file patterns (#4435)\r\n* 16af41be1 test: k8s integration tests (#4423)\r\n* cab8569cd feat(redhat): add package digest for rpm (#4410)\r\n* 92f9e98d0 feat(misconf): Add `--reset-policy-bundle` for policy bundle (#4167)\r\n* 33fb04763 fix: typo (#4431)\r\n* 8b162f287 add user instruction to imgconf (#4429)\r\n* 3b7c9198d fix(k8s): add image sources (#4411)\r\n* c75d35ff6 docs(scanning): Add versioning banner (#4415)\r\n* d298415c0 feat(cli): add mage command to update golden integration test files (#4380)\r\n* 1a56295ff feat: node-collector custom namespace support (#4407)\r\n* 864ad10a3 chore(deps): bump owenrumney/go-sarif from v2.1.3 to v2.2.0 (#4378)\r\n* 7a20d9622 refactor(sbom): use multiline json for spdx-json format (#4404)\r\n* ea5fd75ff fix(ubuntu): add EOL date for Ubuntu 23.04 (#4347)\r\n* 56a01ec6f refactor: code-optimization (#4214)\r\n* 6a0e15265 feat(image): Add image-src flag to specify which runtime(s) to use (#4047)\r\n* 50c8b418a  test: skip wrong update of test golden files (#4379)\r\n* 51ca6536c refactor: don't return error for package.json without version/name (#4377)\r\n* e5e7ebcda docs: cmd  error (#4376)\r\n* 6ee496077 test(cli): add test for config file and env combination (#2666)\r\n* c067b026e fix(report): set a correct file location for license scan output (#4326)\r\n* ff6374829 ci: rpm repository for all versions and aarch64 (#4077)\r\n* 0009b02bb chore(alpine): Update Alpine to 3.18 (#4351)\r\n* d61ae8cc7 fix(alpine): add EOL date for Alpine 3.18 (#4308)\r\n* 636ce808f chore(deps): bump github.com/docker/distribution (#4337)\r\n* e859d10ee feat: allow root break for mapfs (#4094)\r\n* a6ef37fa3 docs(misconf): Remove examples.md (#4256)\r\n* dca8c039e fix(ubuntu): update eol dates for Ubuntu (#4258)\r\n* b003f58b2 feat(alpine): add digests for apk packages (#4168)\r\n* 86f001616 chore: add discussion templates (#4190)\r\n* 2f318ce97 fix(terraform): Support tfvars (#4123)\r\n* ec3906c24 chore: separate docs:generate (#4242)\r\n* 37b25d28b chore(deps): bump github.com/aws/aws-sdk-go-v2/config (#4246)\r\n* 45d5edb0d refactor: define vulnerability scanner interfaces (#4117)\r\n* 090a00e71 feat: unified k8s scan resources (#4188)\r\n* f2188eb56 chore(deps): Update defsec to v0.88.1 (#4178)\r\n* b79850f41 chore(deps): bump github.com/alicebob/miniredis/v2 from 2.30.1 to 2.30.2 (#4141)\r\n* 36acdfa8d chore: trivy bin ignore (#4212)\r\n* 55fb723a6 feat(image): enforce image platform (#4083)\r\n* 9c87cb271 chore(deps): bump github.com/owenrumney/go-sarif/v2 from 2.1.2 to 2.1.3 (#4143)\r\n* 21cf179f6 chore(deps): bump github.com/docker/docker (#4144)\r\n* fbf7a77ae chore(deps): bump github.com/hashicorp/golang-lru/v2 from 2.0.1 to 2.0.2 (#4146)\r\n* 547391c22 chore(deps): bump aquaproj/aqua-installer from 2.0.2 to 2.1.1 (#4140)\r\n* 882bfdd78 fix(ubuntu): fix version selection logic for ubuntu esm (#4171)\r\n* 949cd10c0 chore(deps): bump github.com/samber/lo from 1.37.0 to 1.38.1 (#4147)\r\n* 93bc162ca chore(deps): bump github.com/hashicorp/go-getter from 1.7.0 to 1.7.1 (#4145)\r\n* 57993ef67 chore(deps): bump sigstore/cosign-installer from 3.0.1 to 3.0.3 (#4138)\r\n* dc4baeb35 chore(deps): bump github.com/testcontainers/testcontainers-go (#4150)\r\n* 25d0255dc chore: install.sh support for windows (#4155)\r\n* 73e54549f chore(deps): bump github.com/sigstore/rekor from 1.1.0 to 1.1.1 (#4166)\r\n* 08de7c613 chore(deps): bump golang.org/x/crypto from 0.7.0 to 0.8.0 (#4149)\r\n* ade4730fa docs: moving skipping files out of others (#4154)\r\n\r\n"
@@ -3978,8 +3978,8 @@
     "https://github.com/anchore/grype": {
         "created_at": "2020-05-26 13:44:38",
         "description": "A vulnerability scanner for container images and filesystems",
-        "commit_date": "2023-06-05 21:17:20",
-        "commit_message": "chore(deps): update bootstrap tools to latest versions (#1334)\n\n* chore(deps): update bootstrap tools to latest versions\r\n\r\nSigned-off-by: GitHub <noreply@github.com>\r\n\r\n* chore: dependency clean-up\r\n\r\nSigned-off-by: Christopher Phillips <christopher.phillips@anchore.com>\r\n\r\n* chore: fix s/a changes\r\n\r\nSigned-off-by: Christopher Phillips <christopher.phillips@anchore.com>\r\n\r\n* fix: update PURL provider tests; remove unparam\r\n\r\nSigned-off-by: Christopher Phillips <christopher.phillips@anchore.com>\r\n\r\n---------\r\n\r\nSigned-off-by: GitHub <noreply@github.com>\r\nSigned-off-by: Christopher Phillips <christopher.phillips@anchore.com>\r\nCo-authored-by: westonsteimel <westonsteimel@users.noreply.github.com>\r\nCo-authored-by: Christopher Phillips <christopher.phillips@anchore.com>",
+        "commit_date": "2023-06-06 18:32:50",
+        "commit_message": "feat: add package info to search by for all match details (#1339)\n\nSigned-off-by: Weston Steimel <weston.steimel@anchore.com>",
         "release_tag": "v0.62.3",
         "release_date": "2023-06-05 21:38:02",
         "release_message": "# Changelog\n\n## [v0.62.3](https://github.com/anchore/grype/tree/v0.62.3) (2023-06-05)\n\n[Full Changelog](https://github.com/anchore/grype/compare/v0.62.2...v0.62.3)\n\n### Bug Fixes\n\n- grype is showing (suppressed) issues even though they aren't requested. [[Issue #1053](https://github.com/anchore/grype/issues/1053)] [[PR #1322](https://github.com/anchore/grype/pull/1322)] [[jamestran201](https://github.com/jamestran201)]\n- Suppressed CVEs shown even without --show-suppressed [[Issue #1278](https://github.com/anchore/grype/issues/1278)] [[PR #1322](https://github.com/anchore/grype/pull/1322)] [[jamestran201](https://github.com/jamestran201)]\n\n\n\n"
@@ -4059,8 +4059,8 @@
     "https://github.com/WebGoat/WebGoat": {
         "created_at": "2015-03-06 14:02:02",
         "description": "WebGoat is a deliberately insecure application",
-        "commit_date": "2023-06-04 12:56:46",
-        "commit_message": "bug: fix Java image inside Docker file\nThe image now downloads the correct Java version based on the architecture.",
+        "commit_date": "2023-06-06 14:21:11",
+        "commit_message": "chore: bump spring-boot-starter-parent from 3.0.5 to 3.1.0 (#1497)\n\nBumps [spring-boot-starter-parent](https://github.com/spring-projects/spring-boot) from 3.0.5 to 3.1.0.\r\n- [Release notes](https://github.com/spring-projects/spring-boot/releases)\r\n- [Commits](https://github.com/spring-projects/spring-boot/compare/v3.0.5...v3.1.0)\r\n\r\n---\r\nupdated-dependencies:\r\n- dependency-name: org.springframework.boot:spring-boot-starter-parent\r\n  dependency-type: direct:production\r\n  update-type: version-update:semver-minor\r\n...\r\n\r\nSigned-off-by: dependabot[bot] <support@github.com>\r\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
         "release_tag": "v2023.4",
         "release_date": "2023-02-17 12:16:10",
         "release_message": "## Version 2023.4\r\n\r\n### New functionality\r\n\r\n- [#1422 Add Docker Linux Desktop variant with all tools installed](https://github.com/WebGoat/WebGoat/issues/1422). Thanks to the [OWASP WrongSecrets project](https://owasp.org/www-project-wrongsecrets/) we now have a Docker Linux desktop image with all the tools installed. No need to install any tools locally only run the new Docker image. See README.md for details on how to start it.\r\n- [#1411 JWT: looks that buy as Tom also works with alg:none](https://github.com/WebGoat/WebGoat/issues/1411).\r\n\r\n### Bug fixes\r\n\r\n- [#1410 WebWolf: JWT decode is broken](https://github.com/WebGoat/WebGoat/issues/1410).\r\n- [#1396 password_reset return 500 Error](https://github.com/WebGoat/WebGoat/issues/1396).\r\n- [#1379 Move XXE to A05:2021-Security Misconfiguration](https://github.com/WebGoat/WebGoat/issues/1379)."
@@ -4104,11 +4104,11 @@
     "https://github.com/arch3rPro/Pentest-Windows": {
         "created_at": "2022-07-08 02:43:58",
         "description": "Windows11 Penetration Suite Toolkit",
-        "commit_date": "2023-06-05 06:25:32",
+        "commit_date": "2023-06-06 09:01:50",
         "commit_message": "Update README.md",
         "release_tag": "v2.1",
         "release_date": "2023-06-05 06:27:12",
-        "release_message": "Windows11 Penetration Suite Toolkit v2.1\r\n下载链接：https://www.123pan.com/s/q59KVv-qVApd.html 提取码:DZvt\r\n文件大小：7.79 GB，解压后：20.4 GB\r\nSHA256：991f71b6d9b6d0e4069dec170078a62ea014d5a1aaa62dd1b15669514a68fb28"
+        "release_message": "Windows11 Penetration Suite Toolkit v2.1\r\n优化了部分工具无法打开的问题，重新打包一下\r\n下载链接：https://www.123pan.com/s/q59KVv-XjApd.html 提取码:DZvt\r\n文件大小：7.49 GB，解压后：19.6GB\r\nSHA256：4095b02e57738d3cf62c9d245eb4012e7edaf07579dea3ac5a3b910501857138\r\n\r\n\r\n"
     },
     "https://github.com/c0ny1/vulstudy": {
         "created_at": "2018-05-15 15:06:22",
@@ -4275,7 +4275,7 @@
     "https://github.com/aiboboxx/v2rayfree": {
         "created_at": "2021-10-13 11:34:53",
         "description": "v2ray公益免费节点、最新2ray免费v节点订阅地址、v2ray免费节点每日更新、免费ss/v2ray/trojan节点、freefq ",
-        "commit_date": "2023-06-05 12:41:56",
+        "commit_date": "2023-06-06 12:39:35",
         "commit_message": "update",
         "release_tag": "",
         "release_date": "",
@@ -4320,8 +4320,8 @@
     "https://github.com/freefq/free": {
         "created_at": "2020-06-07 02:48:33",
         "description": "翻墙、免费翻墙、免费科学上网、免费节点、免费梯子、免费ss/v2ray/trojan节点、蓝灯、谷歌商店、翻墙梯子",
-        "commit_date": "2023-06-06 00:00:03",
-        "commit_message": "updated_at 06-06 08:00",
+        "commit_date": "2023-06-06 20:00:02",
+        "commit_message": "updated_at 06-07 04:00",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -4572,8 +4572,8 @@
     "https://github.com/dalinvip/Awesome-ChatGPT": {
         "created_at": "2023-02-06 11:57:37",
         "description": "ChatGPT资料汇总学习，持续更新......",
-        "commit_date": "2023-06-04 10:33:17",
-        "commit_message": "Merge pull request #11 from adamlui/main\n\nAdded GitHub projects",
+        "commit_date": "2023-06-06 02:57:03",
+        "commit_message": "Update README.md",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -4590,7 +4590,7 @@
     "https://github.com/yzfly/awesome-chatgpt-zh": {
         "created_at": "2023-03-21 02:16:34",
         "description": "ChatGPT 中文指南🔥，ChatGPT 中文调教指南，指令指南，精选资源清单，更好的使用 chatGPT 让你的生产力 up up up! 🚀",
-        "commit_date": "2023-06-03 03:36:35",
+        "commit_date": "2023-06-06 12:01:54",
         "commit_message": "update readme",
         "release_tag": "",
         "release_date": "",
