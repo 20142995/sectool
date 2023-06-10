@@ -1,9 +1,12 @@
-# 更新于 2023-06-09 08:48:35
+# 更新于 2023-06-10 08:43:42
 
 ## 近15天release更新记录
 | 更新时间 | 项目名称 | 版本 | 更新内容 |
 | :---- | :---- | :---- | :---- |
-|2023-06-08 15:17:15|[wpscan](https://github.com/wpscanteam/wpscan)|v3.8.23|- Minor:    - Updated --password-atta<br>ck help text to mentions that xmlrpc m<br>ulti call attack will only work agains<br>t WP < 4.4 - Ref #1755     - Fixed a s<br>mall bug where the API calls would fai<br>l when both a proxy with authenticatio<br>n and an API token were used at the sa<br>me time - ref #1783|
+|2023-06-09 13:12:18|[POC-bomber](https://github.com/tr0uble-mAker/POC-bomber)|POC-bom<br>ber-for-<br>Redteam-<br>v3.0.0|POC-bomber的 v3.0.0 版本，拥有更快的<br>扫描效率，修复因单个poc造成的卡顿问题和<br>各若干bug，增加彩色输出和进度显示，支持<br>指定poc目录，适合hvv快节奏，增加2022部<br>分已公开漏洞的poc。支持自建dnslog服务器<br>，在配置自己的域名后可以利用pocbomber在<br>vps开启一个dnslog平台，进行部分漏洞dns<br>带外检测。|
+|2023-06-09 12:43:46|[wpscan](https://github.com/wpscanteam/wpscan)|v3.8.24|This is a management release to ensur<br>e that the gem is properly pushed to t<br>he rubygems channel, as this has faile<br>d with the last tagged release. No fun<br>ctionality has changed since v3.8.23.|
+|2023-06-09 10:27:18|[safeline](https://github.com/chaitin/safeline)|v1.8.1|## 新增    - 数据统计页面增加访问来源<br>地区、流量统计，更好把控网站运营情况   <br> ## 优化    - 更新语义引擎版本，优化了<br>一大批检测逻辑，降低误报  - 优化了部分<br>操作提示信息：    - IP 组正在使用时，无<br>法被删除的提示    - 未创建 IP 组时，在<br>黑白名单中无法选择属于 IP 组的提示    -<br> 添加站点时，域名格式错误的提示    注<br>意：低版本升级请执行 upgrade.sh 脚本  |
+|2023-06-09 03:44:56|[Elkeid](https://github.com/bytedance/Elkeid)|scanner<br>-v2.2.0.<br>5_202306<br>09||
 |2023-06-08 15:09:13|[trivy](https://github.com/aquasecurity/trivy)|v0.42.1|## Changelog * 9a279fa7b ci: remove 3<br>2bit packages (#4585) * d52b0b7bc fix(<br>misconf): deduplicate misconf results <br>(#4588) * 9b531fa27 fix(vm): support s<br>ector size of 4096 (#4564) * 8ca1bfdd2<br> fix(misconf): terraform relative path<br>s (#4571) * c20d46604 fix(purl): skip <br>unsupported library type (#4577) * 52c<br>be7975 fix(terraform): recursively det<br>ect all Root Modules (#4457) * 4a5b915<br>57 fix(vm): support post analyzer for <br>vm command (#4544) * 56cdc55f7 fix(nod<br>ejs): change the type of the devDepend<br>encies field (#4560) * 17d753676 fix(s<br>bom): export empty dependencies in Cyc<br>loneDX (#4568) * 2796abe1e refactor: a<br>dd composite fs for post-analyzers (#4<br>556) * 22a157380 chore(deps): bump gol<br>angci/golangci-lint-action from 3.4.0 <br>to 3.5.0 (#4554) * 43586659a chore(dep<br>s): bump helm/kind-action from 1.5.0 t<br>o 1.7.0 (#4526) * 508139965 chore(deps<br>): bump github.com/BurntSushi/toml fro<br>m 1.2.1 to 1.3.0 (#4528) * e1a38128a c<br>hore(deps): bump github.com/alicebob/m<br>iniredis/v2 from 2.30.2 to 2.30.3 (#45<br>29) * 283eef637 chore(deps): bump gith<br>ub.com/aws/aws-sdk-go-v2/service/ec2 (<br>#4536) * bbd7b9874 chore(deps): bump g<br>ithub.com/tetratelabs/wazero from 1.0.<br>0 to 1.2.0 (#4549) * 11c81bf2f chore(d<br>eps): bump github.com/spf13/cast from <br>1.5.0 to 1.5.1 (#4532) * 2d8d63e61 cho<br>re(deps): bump github.com/testcontaine<br>rs/testcontainers-go (#4537) * a46839b<br>1c chore(deps): bump github.com/go-git<br>/go-git/v5 from 5.6.1 to 5.7.0 (#4530)<br> * 19715f5de chore(deps): bump github.<br>com/aws/aws-sdk-go-v2/config (#4534)  |
 |2023-06-07 18:30:42|[subfinder](https://github.com/projectdiscovery/subfinder)|v2.6.0|## What's Changed  * Added netlas.io <br>as new source by @Devang-Solanki in ht<br>tps://github.com/projectdiscovery/subf<br>inder/pull/829  * Added support to use<br> provider config file when using as li<br>brary by @nth347 in https://github.com<br>/projectdiscovery/subfinder/pull/864  <br>* Added support to read API keys as en<br>v variable in the provider config file<br> by @tarunKoyalwar in https://github.c<br>om/projectdiscovery/subfinder/pull/868<br>  yaml  netlas:    - $NETLAS_API_KEY  <br>    Issues closed in this release - ht<br>tps://github.com/projectdiscovery/subf<br>inder/milestone/8?closed=1    ## New C<br>ontributors  * @nth347 made their firs<br>t contribution in https://github.com/p<br>rojectdiscovery/subfinder/pull/864  * <br>@tarunKoyalwar made their first contri<br>bution in https://github.com/projectdi<br>scovery/subfinder/pull/868  * @Devang-<br>Solanki made their first contribution <br>in https://github.com/projectdiscovery<br>/subfinder/pull/829    **Full Changelo<br>g**: https://github.com/projectdiscove<br>ry/subfinder/compare/v2.5.9...v2.6.0|
 |2023-06-07 08:59:36|[ProxyPoolxSocks](https://github.com/Anyyy111/ProxyPoolxSocks)|v1.2|更新了代理池定时任务参数：detectTime<br>，用于检测并更新代理池可用的代理，程序<br>会隔一段时间重新检测可用节点，以免节点<br>过期。详细参考Readme|
@@ -13,7 +16,6 @@
 |2023-06-05 21:38:02|[grype](https://github.com/anchore/grype)|v0.62.3|# Changelog    ##  (2023-06-05)      <br>  ### Bug Fixes    - Suppressed vulner<br>abilties are now correctly hidden, unl<br>ess the --show-suppressed option is pr<br>ovided.  ] ] ] ]        |
 |2023-06-05 19:29:11|[syft](https://github.com/anchore/syft)|v0.83.0|# Changelog    ##  (2023-06-05)      <br>  ### Added Features    - Add new '--s<br>ource-version' and '--source-name' opt<br>ions to set the name and version of th<br>e target being analyzed for reference <br>in resulting syft-json format SBOMs (m<br>ore formats will support these flags s<br>oon). ] ] ]  - Add scope to POM proper<br>ties ] ]  - Accept main.version ldflag<br>s even without vcs ] ]    ### Bug Fixe<br>s    - Fix directory resolver to consi<br>der CWD and root path input correctly <br>] ]  - Show all error messages if ther<br>e is a failure retrieving an image wit<br>h a specified scheme ] ] ]  - v0.81.0 <br>crashing parsing some images ] ] ]    <br>### Deprecated Features    - Migrate l<br>ocation-related structs to the file pa<br>ckage ] ]    ### Additional Changes   <br> - chore: code cleanup ] ]        |
 |2023-06-05 12:56:20|[Ladon](https://github.com/k8gege/Ladon)|v10.10.<br>6|20230603  [u]LadonExp      支持GET连<br>接MS17010漏洞CmdShell执行命令  [u]Ladon<br>Exp      生成EXE可解密Base64、Hex  Pos<br>tShell结果  [u]PowerShell     生成EXE<br>可解密Base64、Hex  PostShell结果    Lad<br>on 10.10.6 20230528  [+]PostShell     <br>   Post提交CmdShell客户端，如CMD小马pw<br>d=whoami执行命令，支持Post、Cookie、Us<br>erAgent、Referer等提交  [+]MndpInfo/Ro<br>uterOS/Mikrotik Mndp协议广播探测同网段<br>Mikrotik路由器信息 (35和40不支持)  [u]<br>GetInfo      移除GetInfo2，GetInfo已包<br>含WMI获取的信息  [u]EnumProcess/tasklis<br>t/ps  查看进程详细信息，3种写法均支持 <br> [u]EnumShare/ShareInfo   枚举局域网、<br>同网段计算机共享资源  [u]EnumMssql/Mssq<br>lInfo   MSSQL协议探测同网段SQL SERVER<br>数据库信息    5.20  [+]QueryAdminDomain<br> 查看域管理员  [+]QueryDomain 查看当前<br>域、域时间  LadonExp payload出现$cmd$或<br>$b64cmd$ 默认测试按钮 whoami  增加Wind<br>ows常用命令 QueryAdmin QueryProxy Acti<br>veAdmin ActiveGuest等  GUI  DLL添加用<br>户 密码永不过期    10.10.5 20230513  [u<br>]ExchangePoc   识别ProxyShell ISVUL更<br>准确   [+]CS beacon连接测试CmdShell Lad<br>on cmdshell http://192.168.50.2:888 cm<br>d whoami  [u]HikvisionScan  [U]修复CS<br>下portscan noping 指定端口 识别不到IP的<br>bug  [+]cmdshell  连接Ladon测试专用web<br>shell  LadonExp  可选生成代码，方便修<br>改poc  LadonExp  服务器返回协议不规范或<br>其他错误提示 如ServerProtocolViolation <br> 只空对象无法确定原因  [+]web   添加We<br>bShell测试专用(Ladon web 800 cmd 访问h<br>ttp://192.168.1.8:800/shell?cmd=whoami<br>)      ##### 225 Ladon测试专用CmdShell<br>  Bash  Ladon web 800 cmd      ##### 2<br>26 连接测试专用CmdShell  Bash  Ladon c<br>mdshell http://192.168.50.2:888 cmd wh<br>oami  浏览器访问 http://192.168.1.8:80<br>0/shell?cmd=whoami      ##### 229 Mndp<br>协议广播探测同网段Mikrotik路由器信息  B<br>ash  Ladon MndpInfo  Ladon RouterOS  L<br>adon Mikrotik        ##### 230 PostShe<br>ll连接工具,支持自定义HTTP头提交  Bash <br> Ladon PostShell       Ladon PostShell<br> POST http://192.168.50.18/post.jsp to<br>m cmd whoami  Ladon PostShell POST htt<br>p://192.168.50.18/post.jsp tom b64cmd <br>d2hvYW1p  Ladon PostShell POST http://<br>192.168.50.18/post.jsp tom base64 d2hv<br>YW1p  Ladon PostShell UA http://192.16<br>8.50.18/ua.jsp tom cmd whoami  Ladon P<br>ostShell UA http://192.168.50.18/ua.js<br>p tom b64cmd d2hvYW1p  Ladon PostShell<br> UA http://192.168.50.18/ua.jsp tom ba<br>se64 d2hvYW1p  Ladon PostShell Cookie <br>http://192.168.50.18/ck.jsp tom cmd wh<br>oami  Ladon PostShell Cookie http://19<br>2.168.50.18/ck.jsp tom b64cmd d2hvYW1p<br>  Ladon PostShell Cookie http://192.16<br>8.50.18/ck.jsp tom base64 d2hvYW1p  La<br>don PostShell Referer http://192.168.5<br>0.18/re.jsp tom cmd whoami  Ladon Post<br>Shell Referer http://192.168.50.18/re.<br>jsp tom b64cmd d2hvYW1p  Ladon PostShe<br>ll Referer http://192.168.50.18/re.jsp<br> tom base64 d2hvYW1p  Ladon PostShell <br>Destination http://192.168.50.18/re.js<br>p tom cmd whoami  Ladon PostShell Dest<br>ination http://192.168.50.18/re.jsp to<br>m b64cmd d2hvYW1p  Ladon PostShell Des<br>tination http://192.168.50.18/re.jsp t<br>om base64 d2hvYW1p  Ladon PostShell Ht<br>tpBasic http://192.168.50.18/re.jsp to<br>m cmd whoami  Ladon PostShell HttpBasi<br>c http://192.168.50.18/re.jsp tom b64c<br>md d2hvYW1p  Ladon PostShell HttpBasic<br> http://192.168.50.18/re.jsp tom base6<br>4 d2hvYW1p      Cobalt Strike命令行Pos<br>tShell      PostShell连接poswershell后<br>门      PostShell连接nodejs后门  |
-|2023-06-05 08:01:45|[safeline](https://github.com/chaitin/safeline)|v1.7.1|## 修复    - 部分情况下无法打开日志详<br>情页面的问题  - 部分情况下页面查询数量<br>只有 10 条的问题    **注意：低版本升级<br>请执行 upgrade.sh 脚本**|
 |2023-06-05 06:27:12|[Pentest-Windows](https://github.com/arch3rPro/Pentest-Windows)|v2.1|Windows11 Penetration Suite Toolkit v<br>2.1  优化了部分工具无法打开的问题，重<br>新打包一下  下载链接：https://www.123pa<br>n.com/s/q59KVv-XjApd.html 提取码:DZvt <br> 文件大小：7.49 GB，解压后：19.6GB  SH<br>A256：4095b02e57738d3cf62c9d245eb4012e<br>7edaf07579dea3ac5a3b910501857138      |
 |2023-06-04 19:54:58|[dbeaver](https://github.com/dbeaver/dbeaver)|23.1.0|                 - SQL Editor:       <br>              - Autocomplete now suppo<br>rts [ ] and  as quotes for identifiers<br>                     - Shortcut confic<br>t on macOS was fixed                  <br>   - JSQLParser was reverted to the ve<br>rsion 4.5 and is now faster           <br>          - Issue with substitution va<br>riables in text with \n line feeds was<br> fixed                     - Autocompl<br>ete case with FROM right after SELECT <br>is now handled                     - A<br>utocomplete for SELECT query without F<br>ROM was fixed                     - 'G<br>o to Matching Bracket' shortcut was ch<br>anged to CTRL+SHIFT+[                 <br>    - Autocomplete for columns in tabl<br>es without alias was fixed            <br>         - Completion analyze errors a<br>re now written to the debug log       <br>              - Comment with a tab aft<br>er a double dash is now handle        <br>             - Issue with hiding curso<br>r position after resizing the editor w<br>as fixed                     - Exeptio<br>n when updating editor annotations was<br> fixed                 - Data Editor: <br>                    - Data ordering wa<br>s improved                 - General U<br>I:                     - Changing the <br>size and position of the connection di<br>alog is now saved                     <br>- Issue with the application freezing <br>when creating a table when the connect<br>ion hangs was fixed                   <br>  - Tips of the day were revised      <br>           - Connectivity:            <br>         - Option to disable SSHJ host<br>name verification was added (thanks to<br> @ryanc-me)                     - Issu<br>e when switching from Community to PRO<br> version and vice versa was fixed     <br>            - Databases:              <br>       - ClickHouse: display of large <br>numbers was fixed                     <br>- MariaDB: partition support was added<br>                     - Oracle:        <br>                 - Issue issue with na<br>tive clients hanging when running SQLP<br>lus scripts was fixed                 <br>        - Issue with setting the wrong<br> schema after connecting or changing t<br>he Data Editor was fixed              <br>       - PostgreSQL:                  <br>       - Issue with an exception when <br>loading attribute information was fixe<br>d                         - Reading a <br>numeric array was fixed               <br>      - Trino: error handling was impr<br>oved                  - Localization: <br>                    - German localizat<br>ion was improved (thanks to @hype11)  <br>                   - Italian localizat<br>ion was improved (thanks to @Gnafu)   <br>               - Misc:                <br>     - Images for all DBeaver Eclipse <br>extensions were added                 <br>    - Legacy ODBC driver based on the <br>obsolete Java 7 was deprecated due to <br>many issues             |
 |2023-06-04 11:46:12|[DNSlog-GO](https://github.com/lanyi1998/DNSlog-GO)|1.5.6||
@@ -22,7 +24,6 @@
 |2023-06-02 19:07:40|[faker](https://github.com/joke2k/faker)|v18.10.<br>1|See .|
 |2023-06-02 06:00:49|[AsamF](https://github.com/Kento-Sec/AsamF)|v0.2.3|v0.2.2 fofa无法查询，修复fofa的问题|
 |2023-06-01 16:46:29|[revsuit](https://github.com/Li4n0/revsuit)|v0.7.1|### Bug Fixes    * fix the error that<br> the maximum length of http rule respo<br>nse body is 191 when using mysql ()  |
-|2023-06-01 13:43:13|[Elkeid](https://github.com/bytedance/Elkeid)|v1.7.0.<br>12-drive<br>r-ko-202<br>30531||
 |2023-06-01 12:23:28|[nuclei](https://github.com/projectdiscovery/nuclei)|v2.9.6|## What's Changed  * **Fixed issue wi<br>th uncover config loader** by @tarunKo<br>yalwar in https://github.com/projectdi<br>scovery/nuclei/pull/3773  * Fixed issu<br>e with template update option by @taru<br>nKoyalwar in https://github.com/projec<br>tdiscovery/nuclei/pull/3769  * Fixed t<br>ypo by @kchason in https://github.com/<br>projectdiscovery/nuclei/pull/3760  * U<br>pdated TCP protocol by @Mzack9999 in h<br>ttps://github.com/projectdiscovery/nuc<br>lei/pull/3546    Issues closed in this<br> release - https://github.com/projectd<br>iscovery/nuclei/milestone/33?closed=1 <br>   **Full Changelog**: https://github.<br>com/projectdiscovery/nuclei/compare/v2<br>.9.5...v2.9.6|
 |2023-05-29 08:53:41|[Xray_Cracked](https://github.com/NHPT/Xray_Cracked)|v1.9.11|## Xray 1.9.11 COMMUNITY-ADVANCED    <br>前段时间太忙了，今天第一时间更新下    #<br>## 版本介绍      该版本为 用友NC NCMes<br>sageServlet反序列化漏洞 注入漏洞 的应<br>急版本，相较上个版本，除了添加了一个POC<br>外，未改动其他内容。    ### 更新内容   <br> 想要检测该漏洞的师傅，可以使用    ./x<br>ray ws --poc poc-yaml-yongyou-nc-ncmes<br>sageservlet-rce --url http://example.c<br>om    进行检测。    相关参考链接：|
 |2023-05-29 05:03:49|[OneScan](https://github.com/vaycore/OneScan)|v1.0.4|1.0.4 版本发布，版本更新内容如下    #<br>## 优化    - 保存数据看板页面复选框状<br>态（将 Disable HeaderReplace、Disable D<br>irScan 的 Disable 更改为 Enable）  - <br>优化正则表达式，解决某些站点 title 读取<br>异常的问题    ### 修复    - 解决 bodyMd<br>5 参数计算错误的问题  - 解决数据看板选<br>中某条数据时，加载响应数据过慢的问题  |
@@ -31,22 +32,27 @@
 ## 近15天commit提交记录
 | 提交时间 | 项目名称 | 更新内容 |
 | :---- | :---- | :---- |
-|2023-06-09 00:25:12|[afrog](https://github.com/zan8in/afrog)|sangfor-vpn-supersession-rce ddeleted|
-|2023-06-09 00:00:02|[free](https://github.com/freefq/free)|updated_at 06-09 08:00|
-|2023-06-08 23:38:54|[neuvector](https://github.com/neuvector/neuvector)|Merge pull request #866 from williamlin-suse/main  <br>NVSHAS-7918: Vulnerability accept gives 'object not <br>found' error.|
+|2023-06-10 00:07:18|[neuvector](https://github.com/neuvector/neuvector)|Merge pull request #871 from williamlin-suse/main  <br>NVSHAS-8042: Change CRD name to cspadapterusagerecor<br>ds.susecloud.net …|
+|2023-06-10 00:00:03|[free](https://github.com/freefq/free)|updated_at 06-10 08:00|
+|2023-06-09 21:27:24|[clair](https://github.com/quay/clair)|chore: bump Claircore to v1.5.7  Bump Claircore to <br>the latest tag.  Signed-off-by: crozzy |
+|2023-06-09 20:31:36|[PocOrExp_in_Githu<br>b](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-06-10 04:31:36|
+|2023-06-09 16:14:06|[afrog](https://github.com/zan8in/afrog)|add jndi|
+|2023-06-09 15:33:20|[grype](https://github.com/anchore/grype)|feat: add community template folder and new table t<br>emplate (#1343)  Signed-off-by: James Neate |
+|2023-06-09 13:20:09|[POC-bomber](https://github.com/tr0uble-mAker/POC-bomber)|红队版本 poc-bomber v3.0.0 redteam|
+|2023-06-09 12:37:41|[v2rayfree](https://github.com/aiboboxx/v2rayfree)|update|
+|2023-06-09 10:52:00|[Elkeid](https://github.com/bytedance/Elkeid)|FIXME: compiling failure for SLES 4.12.14 with back<br>portings  use offsetof to locate s_uuid in super_blo<br>ck rather than referring it directly (it could be an<br> array or uuid_t structure)  Signed-off-by: shenping<br>.matt |
+|2023-06-09 10:44:12|[wpscan](https://github.com/wpscanteam/wpscan)|Bump version.|
+|2023-06-09 10:13:16|[safeline](https://github.com/chaitin/safeline)|feat: release v1.8.1|
+|2023-06-09 02:02:54|[Some-PoC-oR-ExP](https://github.com/coffeehb/Some-PoC-oR-ExP)|Create 老版本未授权.md|
+|2023-06-09 01:43:32|[Awesome-Redteam](https://github.com/Threekiii/Awesome-Redteam)|更新README.md|
+|2023-06-09 01:40:55|[vulnerability](https://github.com/lal0ne/vulnerability)|用友 GRP-U8 文件上传漏洞|
 |2023-06-08 21:15:16|[NucleiTP](https://github.com/ExpLangcn/NucleiTP)|更新啦❤️|
-|2023-06-08 21:02:07|[grype](https://github.com/anchore/grype)|chore: log unsupported package qualifier as debug (<br>#1340)  Logs unsupported package qualifiers at debug<br> level rather than  warning.  The message is only me<br>ant to convey that there are new  qualifiers availab<br>le in grype-db that the version of grype being used <br> cannot take advantage of to improve matching behavi<br>or; however, the  warning is confusing to users and <br>may make it seem like grype is in a  broken state.  <br>  Signed-off-by: Weston Steimel |
 |2023-06-08 21:01:19|[syft](https://github.com/anchore/syft)|chore(deps): bump github.com/spdx/tools-golang from<br> 0.5.1 to 0.5.2 (#1868)  Bumps  from 0.5.1 to 0.5.2.<br>  -   -   -     ---  updated-dependencies:  - depend<br>ency-name: github.com/spdx/tools-golang    dependenc<br>y-type: direct:production    update-type: version-up<br>date:semver-patch  ...    Signed-off-by: dependabot[<br>bot]   Co-authored-by: dependabot[bot] |
-|2023-06-08 20:51:54|[PocOrExp_in_Githu<br>b](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-06-09 04:51:54|
 |2023-06-08 18:42:53|[dbeaver](https://github.com/dbeaver/dbeaver)|dbeaver/pro#1658 downgrade Salesforce CDP driver fo<br>r the latest working version (#20239)|
-|2023-06-08 18:39:31|[clair](https://github.com/quay/clair)|docker-compose: use rabbitmq instead of activemq  T<br>his makes the use of rabbitmq consistent across the <br>dev environment and the CI.  Signed-off-by: Hank Don<br>nay |
-|2023-06-08 15:52:02|[Some-PoC-oR-ExP](https://github.com/coffeehb/Some-PoC-oR-ExP)|Add files via upload|
 |2023-06-08 14:51:11|[murphysec](https://github.com/murphysecurity/murphysec)|style: use fp-go|
 |2023-06-08 14:07:08|[veinmind-tools](https://github.com/chaitin/veinmind-tools)|feat(veinmind-privilege-escalation):  detecting pri<br>vilege escalation risks (#250)  detecting privilege <br>escalation risks including checks for suid and sudo|
 |2023-06-08 13:52:37|[trivy](https://github.com/aquasecurity/trivy)|ci: remove 32bit packages (#4585)|
 |2023-06-08 13:14:09|[awesome-chatgpt-z<br>h](https://github.com/yzfly/awesome-chatgpt-zh)|add ChatGLM-6B|
-|2023-06-08 12:36:40|[v2rayfree](https://github.com/aiboboxx/v2rayfree)|update|
-|2023-06-08 12:22:40|[wpscan](https://github.com/wpscanteam/wpscan)|Bump version.|
 |2023-06-08 10:50:35|[GoWxDump](https://github.com/SpenserCai/GoWxDump)|Merge pull request #22 from JAfox1024/master  排除W<br>MPF目录|
 |2023-06-08 09:27:11|[FrameVul](https://github.com/Awrrays/FrameVul)|Update README.md|
 |2023-06-08 09:09:21|[heapdump_tool](https://github.com/wyzxxz/heapdump_tool)|Update README.md|
@@ -57,7 +63,6 @@
 |2023-06-07 09:38:22|[EmailSender](https://github.com/A10ha/EmailSender)|Update README.md|
 |2023-06-07 06:23:01|[proxy_pool](https://github.com/jhao104/proxy_pool)|Update README.md|
 |2023-06-07 04:51:22|[ChatGPT-Shortcut](https://github.com/rockbenben/ChatGPT-Shortcut)|feat: edit and delete "Your Prompt" functionality  <br>v2.2.0|
-|2023-06-07 03:48:50|[Elkeid](https://github.com/bytedance/Elkeid)|Merge pull request #497 from Hackerl/main  upgrade <br>RASP components|
 |2023-06-07 02:55:02|[HackTools](https://github.com/Vicl1fe/HackTools)|Add|
 |2023-06-06 14:40:44|[kube-bench](https://github.com/aquasecurity/kube-bench)|release: prepare v0.6.15 (#1455)  Signed-off-by: ch<br>enk |
 |2023-06-06 11:49:11|[HackBrowserData](https://github.com/moonD4rk/HackBrowserData)|Merge pull request #220 from moonD4rk/dev  feat: su<br>pport Arc Browser for macOS|
@@ -69,8 +74,6 @@
 |2023-06-05 12:51:19|[Ladon](https://github.com/k8gege/Ladon)|Add files via upload|
 |2023-06-05 12:46:05|[K8tools](https://github.com/k8gege/K8tools)|Add files via upload|
 |2023-06-05 08:34:31|[Vulnerability-Wik<br>i](https://github.com/Threekiii/Vulnerability-Wiki)|更新漏洞|
-|2023-06-05 07:31:27|[safeline](https://github.com/chaitin/safeline)|feat: release v1.7.1|
-|2023-06-05 06:04:19|[vulnerability](https://github.com/lal0ne/vulnerability)|CVE-2023-33963|
 |2023-06-05 02:05:16|[Awesome-Exploit](https://github.com/Threekiii/Awesome-Exploit)|更新EXP|
 |2023-06-05 02:04:05|[Vulhub-Reproduce](https://github.com/Threekiii/Vulhub-Reproduce)|更新漏洞|
 |2023-06-04 14:48:33|[AV_Evasion_Tool](https://github.com/1y0n/AV_Evasion_Tool)|Delete 6885f8e2548b84f0def32b8bf3d412d.jpg|
@@ -89,7 +92,6 @@
 |2023-06-01 22:42:34|[SSTImap](https://github.com/vladko312/SSTImap)|Version 1.1.4 (Improvements)  Added functionality f<br>or loading and saving URLs and forms  Added a way to<br> set blind injection delay and response logging with<br>out config  Now you can set delay between requests  <br>Random user agent now works during crawling  Random <br>user agent is now chosen for every request  Added cu<br>stom plugins to gitignore  Fixed a bug with default <br>False values  Fixed some bugs with the crawler    A <br>minor update with simple improvements and fixes|
 |2023-06-01 16:36:44|[revsuit](https://github.com/Li4n0/revsuit)|chore(release): 0.7.1|
 |2023-06-01 12:09:28|[nuclei](https://github.com/projectdiscovery/nuclei)|version update|
-|2023-06-01 01:34:58|[Awesome-Redteam](https://github.com/Threekiii/Awesome-Redteam)|更新README.md|
 |2023-05-31 22:16:51|[PEASS-ng](https://github.com/carlospolop/PEASS-ng)|f|
 |2023-05-31 17:51:22|[rotp](https://github.com/mdp/rotp)|Chore: CI Update for please release and Devcontaine<br>r addition of act (#127)  - Update CI with please re<br>lease  - Add devcontainer features for local testing<br> of github actions|
 |2023-05-30 06:51:06|[NessusToReport](https://github.com/Hypdncy/NessusToReport)|删除部分信息|
@@ -98,10 +100,7 @@
 |2023-05-29 03:02:14|[404StarLink](https://github.com/knownsec/404StarLink)|weekly update at 2023-05-29|
 |2023-05-29 00:29:07|[Hades](https://github.com/theSecHunter/Hades)|Update README.md|
 |2023-05-27 13:42:33|[All-Defense-Tool](https://github.com/guchangan1/All-Defense-Tool)|更新v2.3|
-|2023-05-26 06:13:09|[knife](https://github.com/bit4woo/knife)|Update GUI.java|
-|2023-05-25 11:44:40|[whatweb-plus](https://github.com/winezer0/whatweb-plus)|Update README.md|
-|2023-05-25 06:28:18|[captcha-killer-mo<br>dified](https://github.com/f0ng/captcha-killer-modified)|Update FAQ.md|
-|2023-05-25 03:32:07|[dismap](https://github.com/zhzyker/dismap)|Merge pull request #36 from sockx/fix_https  Fix po<br>ssible problems with https detection|## 所有项目
+|2023-05-26 06:13:09|[knife](https://github.com/bit4woo/knife)|Update GUI.java|## 所有项目
 # 渗透测试
 ## 信息收集
 ### 资产测绘采集
@@ -253,7 +252,7 @@
 | [nuclei](https://github.com/projectdiscovery/nuclei) | v2.9.6 | Fast and customizable vulnerability scanner based on simple YA<br>ML based DSL. |
 | [afrog](https://github.com/zan8in/afrog) | v2.5.2 | A Security Tool for Bug Bounty, Pentest and Red Teaming. |
 | [vulmap](https://github.com/zhzyker/vulmap) | v0.9 | Vulmap 是一款 web 漏洞扫描和验证工具, 可对 webapps 进行漏洞扫<br>描, 并且具备漏洞验证功能 |
-| [POC-bomber](https://github.com/tr0uble-mAker/POC-bomber) | v2.0.2-<br>POC-bomb<br>er | 利用大量高威胁poc/exp快速获取目标权限，用于渗透和红队快速打点 |
+| [POC-bomber](https://github.com/tr0uble-mAker/POC-bomber) | POC-bom<br>ber-for-<br>Redteam-<br>v3.0.0 | 利用大量高威胁poc/exp快速获取目标权限，用于渗透和红队快速打点 |
 | [QingTing](https://github.com/StarCrossPortal/QingTing) | v0.3 | 蜻蜓安全一个安全工具编排平台,可以自由编排你的工具流,集成108款<br>工具,包括xray、nmap、awvs等;你可以将喜欢的工具编排成一个场景，快<br>速打造适合自己的安全工作台~ |
 | [myscan](https://github.com/amcai/myscan) |  | myscan  被动扫描 |
 | [NextScan](https://github.com/tongcheng-security-team/NextScan) | v1.1.1 | 飞刃是一套完整的企业级黑盒漏洞扫描系统，集成漏洞扫描、漏洞管理<br>、扫描资产、爬虫等服务。 拥有强大的漏洞检测引擎和丰富的插件库，<br>覆盖多种漏洞类型和应用程序框架。 |
@@ -411,7 +410,7 @@
 | [CMSmap](https://github.com/Dionach/CMSmap) |  | CMSmap is a python open source CMS scanner that automates the <br>process of detecting security flaws of the most popular CMSs.  |
 | [wprecon](https://github.com/blackbinn/wprecon) |  |  |
 | [wordpress-exploit<br>-framework](https://github.com/rastating/wordpress-exploit-framework) | v2.0.1 | A Ruby framework designed to aid in the penetration testing of<br> WordPress systems.  |
-| [wpscan](https://github.com/wpscanteam/wpscan) | v3.8.23 | WPScan WordPress security scanner. Written for security profes<br>sionals and blog maintainers to test the security of their Word<br>Press websites. Contact us via contact@wpscan.com |
+| [wpscan](https://github.com/wpscanteam/wpscan) | v3.8.24 | WPScan WordPress security scanner. Written for security profes<br>sionals and blog maintainers to test the security of their Word<br>Press websites. Contact us via contact@wpscan.com |
 | [wprecon](https://github.com/AngraTeam/wprecon) |  |  |
 | [Aazhen-RexHa](https://github.com/zangcc/Aazhen-RexHa) |  | 自研JavaFX图形化漏洞扫描工具，支持扫描的漏洞分别是： ThinkPHP-<br>2.x-RCE， ThinkPHP-5.0.23-RCE， ThinkPHP5.0.x-5.0.23通杀RCE， T<br>hinkPHP5-SQL注入&敏感信息泄露， ThinkPHP 3.x 日志泄露NO.1， Thi<br>nkPHP 3.x 日志泄露NO.2， ThinkPHP 5.x 数据库信息泄露的漏洞检测<br>，以及批量检测的功能。漏洞POC基本适用ThinkPHP全版本漏洞。 |
 | [ThinkphpGUI](https://github.com/Lotus6/ThinkphpGUI) | 1.3 | Thinkphp(GUI)漏洞利用工具，支持各版本TP漏洞检测，命令执行，get<br>shell。 |
@@ -988,13 +987,13 @@
 ## 主机入侵检测
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
-| [Elkeid](https://github.com/bytedance/Elkeid) | v1.7.0.<br>12-drive<br>r-ko-202<br>30531 | Elkeid is an open source solution that can meet the security r<br>equirements of various workloads such as hosts, containers and <br>K8s, and serverless. It is derived from ByteDance's internal be<br>st practices. |
+| [Elkeid](https://github.com/bytedance/Elkeid) | scanner<br>-v2.2.0.<br>5_202306<br>09 | Elkeid is an open source solution that can meet the security r<br>equirements of various workloads such as hosts, containers and <br>K8s, and serverless. It is derived from ByteDance's internal be<br>st practices. |
 | [Hades](https://github.com/theSecHunter/Hades) |  | Hades is an cross-platform HIDS with kernel-space data collect<br>ion. |
 ## Web应用防火墙
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
 | [openstar](https://github.com/starjun/openstar) |  | lua waf,nginx+lua,openresty,luajit,waf+,cdn,nginx |
-| [safeline](https://github.com/chaitin/safeline) | v1.7.1 | 长亭科技自研，基于业界领先的语义引擎检测技术，打造的简洁、易用<br>的免费 WAF |
+| [safeline](https://github.com/chaitin/safeline) | v1.8.1 | 长亭科技自研，基于业界领先的语义引擎检测技术，打造的简洁、易用<br>的免费 WAF |
 ## 欺骗防御
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
