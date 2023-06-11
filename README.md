@@ -1,4 +1,4 @@
-# 更新于 2023-06-10 08:43:42
+# 更新于 2023-06-11 08:49:47
 
 ## 近15天release更新记录
 | 更新时间 | 项目名称 | 版本 | 更新内容 |
@@ -27,19 +27,20 @@
 |2023-06-01 12:23:28|[nuclei](https://github.com/projectdiscovery/nuclei)|v2.9.6|## What's Changed  * **Fixed issue wi<br>th uncover config loader** by @tarunKo<br>yalwar in https://github.com/projectdi<br>scovery/nuclei/pull/3773  * Fixed issu<br>e with template update option by @taru<br>nKoyalwar in https://github.com/projec<br>tdiscovery/nuclei/pull/3769  * Fixed t<br>ypo by @kchason in https://github.com/<br>projectdiscovery/nuclei/pull/3760  * U<br>pdated TCP protocol by @Mzack9999 in h<br>ttps://github.com/projectdiscovery/nuc<br>lei/pull/3546    Issues closed in this<br> release - https://github.com/projectd<br>iscovery/nuclei/milestone/33?closed=1 <br>   **Full Changelog**: https://github.<br>com/projectdiscovery/nuclei/compare/v2<br>.9.5...v2.9.6|
 |2023-05-29 08:53:41|[Xray_Cracked](https://github.com/NHPT/Xray_Cracked)|v1.9.11|## Xray 1.9.11 COMMUNITY-ADVANCED    <br>前段时间太忙了，今天第一时间更新下    #<br>## 版本介绍      该版本为 用友NC NCMes<br>sageServlet反序列化漏洞 注入漏洞 的应<br>急版本，相较上个版本，除了添加了一个POC<br>外，未改动其他内容。    ### 更新内容   <br> 想要检测该漏洞的师傅，可以使用    ./x<br>ray ws --poc poc-yaml-yongyou-nc-ncmes<br>sageservlet-rce --url http://example.c<br>om    进行检测。    相关参考链接：|
 |2023-05-29 05:03:49|[OneScan](https://github.com/vaycore/OneScan)|v1.0.4|1.0.4 版本发布，版本更新内容如下    #<br>## 优化    - 保存数据看板页面复选框状<br>态（将 Disable HeaderReplace、Disable D<br>irScan 的 Disable 更改为 Enable）  - <br>优化正则表达式，解决某些站点 title 读取<br>异常的问题    ### 修复    - 解决 bodyMd<br>5 参数计算错误的问题  - 解决数据看板选<br>中某条数据时，加载响应数据过慢的问题  |
-|2023-05-26 18:04:16|[railgun](https://github.com/lz520520/railgun)|v1.5.5|解压密码 railgun      1. 编码转换    <br>a. 修复AES算法bug    b. 更新ascii编码<br>，可更好处理各种进制格式的字节码    c. <br>增加digital编码，纯数字进制转换    d. <br>增加RSA算法，以及GenerateRSA    e. 增加<br>国密算法，SM2/SM3/SM4|
-|2023-05-26 12:46:44|[Viper](https://github.com/FunnyWolf/Viper)|v1.5.29|### 优化  - 端口转发记录新增连接提示 <br> - 模块运行结果记录运行模块的sessionid<br>  - 适配reverse_tcp_ssl类型payload  - <br>合并metasploit-framework 6.3.18版本  ##<br># Bugfix  - 修复sock4a/socks5代理无法<br>使用问题  - 修复session长时间运行导致内<br>存占用过高问题|
 ## 近15天commit提交记录
 | 提交时间 | 项目名称 | 更新内容 |
 | :---- | :---- | :---- |
-|2023-06-10 00:07:18|[neuvector](https://github.com/neuvector/neuvector)|Merge pull request #871 from williamlin-suse/main  <br>NVSHAS-8042: Change CRD name to cspadapterusagerecor<br>ds.susecloud.net …|
-|2023-06-10 00:00:03|[free](https://github.com/freefq/free)|updated_at 06-10 08:00|
+|2023-06-11 00:06:56|[awesome-chatgpt-z<br>h](https://github.com/yzfly/awesome-chatgpt-zh)|add cot prompt paper|
+|2023-06-11 00:00:02|[free](https://github.com/freefq/free)|updated_at 06-11 08:00|
+|2023-06-10 22:33:07|[PocOrExp_in_Githu<br>b](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-06-11 06:33:07|
+|2023-06-10 15:07:26|[kube-bench](https://github.com/aquasecurity/kube-bench)|build(deps): bump golang from 1.19.4 to 1.20.4 (#14<br>36)  Bumps golang from 1.19.4 to 1.20.4.    ---  upd<br>ated-dependencies:  - dependency-name: golang    dep<br>endency-type: direct:production    update-type: vers<br>ion-update:semver-minor  ...    Signed-off-by: depen<br>dabot[bot]   Co-authored-by: dependabot[bot] |
+|2023-06-10 12:34:03|[v2rayfree](https://github.com/aiboboxx/v2rayfree)|update|
+|2023-06-10 08:39:17|[K8tools](https://github.com/k8gege/K8tools)|Add files via upload|
+|2023-06-10 04:17:44|[neuvector](https://github.com/neuvector/neuvector)|Merge pull request #872 from williamlin-suse/main  <br>NVSHAS-8044: lots of 'Failed to put key - error=CAS <br>put error key=obj…|
+|2023-06-10 03:13:24|[afrog](https://github.com/zan8in/afrog)|update|
 |2023-06-09 21:27:24|[clair](https://github.com/quay/clair)|chore: bump Claircore to v1.5.7  Bump Claircore to <br>the latest tag.  Signed-off-by: crozzy |
-|2023-06-09 20:31:36|[PocOrExp_in_Githu<br>b](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-06-10 04:31:36|
-|2023-06-09 16:14:06|[afrog](https://github.com/zan8in/afrog)|add jndi|
 |2023-06-09 15:33:20|[grype](https://github.com/anchore/grype)|feat: add community template folder and new table t<br>emplate (#1343)  Signed-off-by: James Neate |
 |2023-06-09 13:20:09|[POC-bomber](https://github.com/tr0uble-mAker/POC-bomber)|红队版本 poc-bomber v3.0.0 redteam|
-|2023-06-09 12:37:41|[v2rayfree](https://github.com/aiboboxx/v2rayfree)|update|
 |2023-06-09 10:52:00|[Elkeid](https://github.com/bytedance/Elkeid)|FIXME: compiling failure for SLES 4.12.14 with back<br>portings  use offsetof to locate s_uuid in super_blo<br>ck rather than referring it directly (it could be an<br> array or uuid_t structure)  Signed-off-by: shenping<br>.matt |
 |2023-06-09 10:44:12|[wpscan](https://github.com/wpscanteam/wpscan)|Bump version.|
 |2023-06-09 10:13:16|[safeline](https://github.com/chaitin/safeline)|feat: release v1.8.1|
@@ -52,7 +53,6 @@
 |2023-06-08 14:51:11|[murphysec](https://github.com/murphysecurity/murphysec)|style: use fp-go|
 |2023-06-08 14:07:08|[veinmind-tools](https://github.com/chaitin/veinmind-tools)|feat(veinmind-privilege-escalation):  detecting pri<br>vilege escalation risks (#250)  detecting privilege <br>escalation risks including checks for suid and sudo|
 |2023-06-08 13:52:37|[trivy](https://github.com/aquasecurity/trivy)|ci: remove 32bit packages (#4585)|
-|2023-06-08 13:14:09|[awesome-chatgpt-z<br>h](https://github.com/yzfly/awesome-chatgpt-zh)|add ChatGLM-6B|
 |2023-06-08 10:50:35|[GoWxDump](https://github.com/SpenserCai/GoWxDump)|Merge pull request #22 from JAfox1024/master  排除W<br>MPF目录|
 |2023-06-08 09:27:11|[FrameVul](https://github.com/Awrrays/FrameVul)|Update README.md|
 |2023-06-08 09:09:21|[heapdump_tool](https://github.com/wyzxxz/heapdump_tool)|Update README.md|
@@ -64,7 +64,6 @@
 |2023-06-07 06:23:01|[proxy_pool](https://github.com/jhao104/proxy_pool)|Update README.md|
 |2023-06-07 04:51:22|[ChatGPT-Shortcut](https://github.com/rockbenben/ChatGPT-Shortcut)|feat: edit and delete "Your Prompt" functionality  <br>v2.2.0|
 |2023-06-07 02:55:02|[HackTools](https://github.com/Vicl1fe/HackTools)|Add|
-|2023-06-06 14:40:44|[kube-bench](https://github.com/aquasecurity/kube-bench)|release: prepare v0.6.15 (#1455)  Signed-off-by: ch<br>enk |
 |2023-06-06 11:49:11|[HackBrowserData](https://github.com/moonD4rk/HackBrowserData)|Merge pull request #220 from moonD4rk/dev  feat: su<br>pport Arc Browser for macOS|
 |2023-06-06 10:04:37|[Antenna](https://github.com/wuba/Antenna)|Merge pull request #129 from wuba/develop  Develop|
 |2023-06-06 09:23:17|[sqlmap](https://github.com/sqlmapproject/sqlmap)|Fixes #5434|
@@ -72,7 +71,6 @@
 |2023-06-06 02:57:03|[Awesome-ChatGPT](https://github.com/dalinvip/Awesome-ChatGPT)|Update README.md|
 |2023-06-05 15:53:08|[fshzqSearch](https://github.com/Ifory885/fshzqSearch)|修复保存excel 特殊字符报错bug|
 |2023-06-05 12:51:19|[Ladon](https://github.com/k8gege/Ladon)|Add files via upload|
-|2023-06-05 12:46:05|[K8tools](https://github.com/k8gege/K8tools)|Add files via upload|
 |2023-06-05 08:34:31|[Vulnerability-Wik<br>i](https://github.com/Threekiii/Vulnerability-Wiki)|更新漏洞|
 |2023-06-05 02:05:16|[Awesome-Exploit](https://github.com/Threekiii/Awesome-Exploit)|更新EXP|
 |2023-06-05 02:04:05|[Vulhub-Reproduce](https://github.com/Threekiii/Vulhub-Reproduce)|更新漏洞|
@@ -99,8 +97,7 @@
 |2023-05-29 04:31:16|[OneScan](https://github.com/vaycore/OneScan)|将数据看板界面的复选框状态保存到配置文件；将Disable<br>选项功能更改为Enable|
 |2023-05-29 03:02:14|[404StarLink](https://github.com/knownsec/404StarLink)|weekly update at 2023-05-29|
 |2023-05-29 00:29:07|[Hades](https://github.com/theSecHunter/Hades)|Update README.md|
-|2023-05-27 13:42:33|[All-Defense-Tool](https://github.com/guchangan1/All-Defense-Tool)|更新v2.3|
-|2023-05-26 06:13:09|[knife](https://github.com/bit4woo/knife)|Update GUI.java|## 所有项目
+|2023-05-27 13:42:33|[All-Defense-Tool](https://github.com/guchangan1/All-Defense-Tool)|更新v2.3|## 所有项目
 # 渗透测试
 ## 信息收集
 ### 资产测绘采集
