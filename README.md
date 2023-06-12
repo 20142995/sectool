@@ -1,8 +1,9 @@
-# 更新于 2023-06-11 08:49:47
+# 更新于 2023-06-12 08:51:28
 
 ## 近15天release更新记录
 | 更新时间 | 项目名称 | 版本 | 更新内容 |
 | :---- | :---- | :---- | :---- |
+|2023-06-11 04:30:25|[PEASS-ng](https://github.com/carlospolop/PEASS-ng)|2023061<br>1-b11e87<br>f7||
 |2023-06-09 13:12:18|[POC-bomber](https://github.com/tr0uble-mAker/POC-bomber)|POC-bom<br>ber-for-<br>Redteam-<br>v3.0.0|POC-bomber的 v3.0.0 版本，拥有更快的<br>扫描效率，修复因单个poc造成的卡顿问题和<br>各若干bug，增加彩色输出和进度显示，支持<br>指定poc目录，适合hvv快节奏，增加2022部<br>分已公开漏洞的poc。支持自建dnslog服务器<br>，在配置自己的域名后可以利用pocbomber在<br>vps开启一个dnslog平台，进行部分漏洞dns<br>带外检测。|
 |2023-06-09 12:43:46|[wpscan](https://github.com/wpscanteam/wpscan)|v3.8.24|This is a management release to ensur<br>e that the gem is properly pushed to t<br>he rubygems channel, as this has faile<br>d with the last tagged release. No fun<br>ctionality has changed since v3.8.23.|
 |2023-06-09 10:27:18|[safeline](https://github.com/chaitin/safeline)|v1.8.1|## 新增    - 数据统计页面增加访问来源<br>地区、流量统计，更好把控网站运营情况   <br> ## 优化    - 更新语义引擎版本，优化了<br>一大批检测逻辑，降低误报  - 优化了部分<br>操作提示信息：    - IP 组正在使用时，无<br>法被删除的提示    - 未创建 IP 组时，在<br>黑白名单中无法选择属于 IP 组的提示    -<br> 添加站点时，域名格式错误的提示    注<br>意：低版本升级请执行 upgrade.sh 脚本  |
@@ -19,7 +20,6 @@
 |2023-06-05 06:27:12|[Pentest-Windows](https://github.com/arch3rPro/Pentest-Windows)|v2.1|Windows11 Penetration Suite Toolkit v<br>2.1  优化了部分工具无法打开的问题，重<br>新打包一下  下载链接：https://www.123pa<br>n.com/s/q59KVv-XjApd.html 提取码:DZvt <br> 文件大小：7.49 GB，解压后：19.6GB  SH<br>A256：4095b02e57738d3cf62c9d245eb4012e<br>7edaf07579dea3ac5a3b910501857138      |
 |2023-06-04 19:54:58|[dbeaver](https://github.com/dbeaver/dbeaver)|23.1.0|                 - SQL Editor:       <br>              - Autocomplete now suppo<br>rts [ ] and  as quotes for identifiers<br>                     - Shortcut confic<br>t on macOS was fixed                  <br>   - JSQLParser was reverted to the ve<br>rsion 4.5 and is now faster           <br>          - Issue with substitution va<br>riables in text with \n line feeds was<br> fixed                     - Autocompl<br>ete case with FROM right after SELECT <br>is now handled                     - A<br>utocomplete for SELECT query without F<br>ROM was fixed                     - 'G<br>o to Matching Bracket' shortcut was ch<br>anged to CTRL+SHIFT+[                 <br>    - Autocomplete for columns in tabl<br>es without alias was fixed            <br>         - Completion analyze errors a<br>re now written to the debug log       <br>              - Comment with a tab aft<br>er a double dash is now handle        <br>             - Issue with hiding curso<br>r position after resizing the editor w<br>as fixed                     - Exeptio<br>n when updating editor annotations was<br> fixed                 - Data Editor: <br>                    - Data ordering wa<br>s improved                 - General U<br>I:                     - Changing the <br>size and position of the connection di<br>alog is now saved                     <br>- Issue with the application freezing <br>when creating a table when the connect<br>ion hangs was fixed                   <br>  - Tips of the day were revised      <br>           - Connectivity:            <br>         - Option to disable SSHJ host<br>name verification was added (thanks to<br> @ryanc-me)                     - Issu<br>e when switching from Community to PRO<br> version and vice versa was fixed     <br>            - Databases:              <br>       - ClickHouse: display of large <br>numbers was fixed                     <br>- MariaDB: partition support was added<br>                     - Oracle:        <br>                 - Issue issue with na<br>tive clients hanging when running SQLP<br>lus scripts was fixed                 <br>        - Issue with setting the wrong<br> schema after connecting or changing t<br>he Data Editor was fixed              <br>       - PostgreSQL:                  <br>       - Issue with an exception when <br>loading attribute information was fixe<br>d                         - Reading a <br>numeric array was fixed               <br>      - Trino: error handling was impr<br>oved                  - Localization: <br>                    - German localizat<br>ion was improved (thanks to @hype11)  <br>                   - Italian localizat<br>ion was improved (thanks to @Gnafu)   <br>               - Misc:                <br>     - Images for all DBeaver Eclipse <br>extensions were added                 <br>    - Legacy ODBC driver based on the <br>obsolete Java 7 was deprecated due to <br>many issues             |
 |2023-06-04 11:46:12|[DNSlog-GO](https://github.com/lanyi1998/DNSlog-GO)|1.5.6||
-|2023-06-04 04:27:48|[PEASS-ng](https://github.com/carlospolop/PEASS-ng)|2023060<br>4-b0985b<br>44||
 |2023-06-03 16:28:06|[burp-awesome-tls](https://github.com/sleeyax/burp-awesome-tls)|v1.0.0|# :rocket: Major release time!    Hey<br> folks, this is a major update I've be<br>en working on over the past few days t<br>o address a few outstanding issues and<br> to rework some things.     ## Changel<br>og    PR: https://github.com/sleeyax/b<br>urp-awesome-tls/pull/27.    ### Added <br> - New underlying TLS and HTTP impleme<br>ntations. Should be easier to maintain<br> going forward.   - Response header or<br>der support (#19)  - Custom initial HT<br>TP2 SETTINGS frame for Chrome fingerpr<br>ints (#11)  - Ordered pseudo headers f<br>or HTTP 2  - More timeout settings add<br>ed to UI  - More and updated fingerpri<br>nts    -  Chrome 102    - Chrome 100  <br>  - Chrome 96    - Firefox 105    - Fi<br>refox 102    - Firefox 99    - Edge 10<br>6    - Edge 85    - Safari 16    -  QQ<br>Browser 11    - iOS 14    - iOS 13    <br>- iOS 12    - Android 11    - Randomiz<br>ed    - Randomized ALPN    - Randomize<br>d No ALPN      ### Fixed  - Set Insecu<br>reSkipVerify to true (#22)  - Concurre<br>nt map writes error (#26)    ### Chang<br>ed  - Updated docs (rewordings, new di<br>agram, add showcase)|
 |2023-06-02 19:07:40|[faker](https://github.com/joke2k/faker)|v18.10.<br>1|See .|
 |2023-06-02 06:00:49|[AsamF](https://github.com/Kento-Sec/AsamF)|v0.2.3|v0.2.2 fofa无法查询，修复fofa的问题|
@@ -30,11 +30,16 @@
 ## 近15天commit提交记录
 | 提交时间 | 项目名称 | 更新内容 |
 | :---- | :---- | :---- |
+|2023-06-12 00:00:03|[free](https://github.com/freefq/free)|updated_at 06-12 08:00|
+|2023-06-11 20:08:00|[PocOrExp_in_Githu<br>b](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-06-12 04:08:00|
+|2023-06-11 14:01:15|[veinmind-tools](https://github.com/chaitin/veinmind-tools)|fix(docs): fix README format (#251)|
+|2023-06-11 13:21:44|[ChatGPT-Shortcut](https://github.com/rockbenben/ChatGPT-Shortcut)|refactor: optimize code structure of prompt comment<br> page|
+|2023-06-11 13:15:50|[Vulnerability-Wik<br>i](https://github.com/Threekiii/Vulnerability-Wiki)|更新漏洞|
+|2023-06-11 13:15:01|[Awesome-POC](https://github.com/Threekiii/Awesome-POC)|更新漏洞|
+|2023-06-11 12:35:31|[v2rayfree](https://github.com/aiboboxx/v2rayfree)|update|
+|2023-06-11 05:49:29|[trivy](https://github.com/aquasecurity/trivy)|docs: add general coverage page (#3859)|
 |2023-06-11 00:06:56|[awesome-chatgpt-z<br>h](https://github.com/yzfly/awesome-chatgpt-zh)|add cot prompt paper|
-|2023-06-11 00:00:02|[free](https://github.com/freefq/free)|updated_at 06-11 08:00|
-|2023-06-10 22:33:07|[PocOrExp_in_Githu<br>b](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-06-11 06:33:07|
 |2023-06-10 15:07:26|[kube-bench](https://github.com/aquasecurity/kube-bench)|build(deps): bump golang from 1.19.4 to 1.20.4 (#14<br>36)  Bumps golang from 1.19.4 to 1.20.4.    ---  upd<br>ated-dependencies:  - dependency-name: golang    dep<br>endency-type: direct:production    update-type: vers<br>ion-update:semver-minor  ...    Signed-off-by: depen<br>dabot[bot]   Co-authored-by: dependabot[bot] |
-|2023-06-10 12:34:03|[v2rayfree](https://github.com/aiboboxx/v2rayfree)|update|
 |2023-06-10 08:39:17|[K8tools](https://github.com/k8gege/K8tools)|Add files via upload|
 |2023-06-10 04:17:44|[neuvector](https://github.com/neuvector/neuvector)|Merge pull request #872 from williamlin-suse/main  <br>NVSHAS-8044: lots of 'Failed to put key - error=CAS <br>put error key=obj…|
 |2023-06-10 03:13:24|[afrog](https://github.com/zan8in/afrog)|update|
@@ -51,8 +56,6 @@
 |2023-06-08 21:01:19|[syft](https://github.com/anchore/syft)|chore(deps): bump github.com/spdx/tools-golang from<br> 0.5.1 to 0.5.2 (#1868)  Bumps  from 0.5.1 to 0.5.2.<br>  -   -   -     ---  updated-dependencies:  - depend<br>ency-name: github.com/spdx/tools-golang    dependenc<br>y-type: direct:production    update-type: version-up<br>date:semver-patch  ...    Signed-off-by: dependabot[<br>bot]   Co-authored-by: dependabot[bot] |
 |2023-06-08 18:42:53|[dbeaver](https://github.com/dbeaver/dbeaver)|dbeaver/pro#1658 downgrade Salesforce CDP driver fo<br>r the latest working version (#20239)|
 |2023-06-08 14:51:11|[murphysec](https://github.com/murphysecurity/murphysec)|style: use fp-go|
-|2023-06-08 14:07:08|[veinmind-tools](https://github.com/chaitin/veinmind-tools)|feat(veinmind-privilege-escalation):  detecting pri<br>vilege escalation risks (#250)  detecting privilege <br>escalation risks including checks for suid and sudo|
-|2023-06-08 13:52:37|[trivy](https://github.com/aquasecurity/trivy)|ci: remove 32bit packages (#4585)|
 |2023-06-08 10:50:35|[GoWxDump](https://github.com/SpenserCai/GoWxDump)|Merge pull request #22 from JAfox1024/master  排除W<br>MPF目录|
 |2023-06-08 09:27:11|[FrameVul](https://github.com/Awrrays/FrameVul)|Update README.md|
 |2023-06-08 09:09:21|[heapdump_tool](https://github.com/wyzxxz/heapdump_tool)|Update README.md|
@@ -62,7 +65,6 @@
 |2023-06-07 11:39:27|[domain_hunter_pro](https://github.com/bit4woo/domain_hunter_pro)|Update GrepUtils.java|
 |2023-06-07 09:38:22|[EmailSender](https://github.com/A10ha/EmailSender)|Update README.md|
 |2023-06-07 06:23:01|[proxy_pool](https://github.com/jhao104/proxy_pool)|Update README.md|
-|2023-06-07 04:51:22|[ChatGPT-Shortcut](https://github.com/rockbenben/ChatGPT-Shortcut)|feat: edit and delete "Your Prompt" functionality  <br>v2.2.0|
 |2023-06-07 02:55:02|[HackTools](https://github.com/Vicl1fe/HackTools)|Add|
 |2023-06-06 11:49:11|[HackBrowserData](https://github.com/moonD4rk/HackBrowserData)|Merge pull request #220 from moonD4rk/dev  feat: su<br>pport Arc Browser for macOS|
 |2023-06-06 10:04:37|[Antenna](https://github.com/wuba/Antenna)|Merge pull request #129 from wuba/develop  Develop|
@@ -71,7 +73,6 @@
 |2023-06-06 02:57:03|[Awesome-ChatGPT](https://github.com/dalinvip/Awesome-ChatGPT)|Update README.md|
 |2023-06-05 15:53:08|[fshzqSearch](https://github.com/Ifory885/fshzqSearch)|修复保存excel 特殊字符报错bug|
 |2023-06-05 12:51:19|[Ladon](https://github.com/k8gege/Ladon)|Add files via upload|
-|2023-06-05 08:34:31|[Vulnerability-Wik<br>i](https://github.com/Threekiii/Vulnerability-Wiki)|更新漏洞|
 |2023-06-05 02:05:16|[Awesome-Exploit](https://github.com/Threekiii/Awesome-Exploit)|更新EXP|
 |2023-06-05 02:04:05|[Vulhub-Reproduce](https://github.com/Threekiii/Vulhub-Reproduce)|更新漏洞|
 |2023-06-04 14:48:33|[AV_Evasion_Tool](https://github.com/1y0n/AV_Evasion_Tool)|Delete 6885f8e2548b84f0def32b8bf3d412d.jpg|
@@ -86,7 +87,6 @@
 |2023-06-02 15:46:41|[vulhub](https://github.com/vulhub/vulhub)|fix elasticsearch-head/1.x plugin installation erro<br>r|
 |2023-06-02 08:06:51|[appshark](https://github.com/bytedance/appshark)|taint flow rule and pointer flow rule are independe<br>nt relationships|
 |2023-06-02 06:01:14|[AsamF](https://github.com/Kento-Sec/AsamF)|Update README.md|
-|2023-06-02 00:40:16|[Awesome-POC](https://github.com/Threekiii/Awesome-POC)|更新漏洞|
 |2023-06-01 22:42:34|[SSTImap](https://github.com/vladko312/SSTImap)|Version 1.1.4 (Improvements)  Added functionality f<br>or loading and saving URLs and forms  Added a way to<br> set blind injection delay and response logging with<br>out config  Now you can set delay between requests  <br>Random user agent now works during crawling  Random <br>user agent is now chosen for every request  Added cu<br>stom plugins to gitignore  Fixed a bug with default <br>False values  Fixed some bugs with the crawler    A <br>minor update with simple improvements and fixes|
 |2023-06-01 16:36:44|[revsuit](https://github.com/Li4n0/revsuit)|chore(release): 0.7.1|
 |2023-06-01 12:09:28|[nuclei](https://github.com/projectdiscovery/nuclei)|version update|
@@ -96,8 +96,7 @@
 |2023-05-30 05:13:20|[autoDecoder](https://github.com/f0ng/autoDecoder)|Update FAQ.md|
 |2023-05-29 04:31:16|[OneScan](https://github.com/vaycore/OneScan)|将数据看板界面的复选框状态保存到配置文件；将Disable<br>选项功能更改为Enable|
 |2023-05-29 03:02:14|[404StarLink](https://github.com/knownsec/404StarLink)|weekly update at 2023-05-29|
-|2023-05-29 00:29:07|[Hades](https://github.com/theSecHunter/Hades)|Update README.md|
-|2023-05-27 13:42:33|[All-Defense-Tool](https://github.com/guchangan1/All-Defense-Tool)|更新v2.3|## 所有项目
+|2023-05-29 00:29:07|[Hades](https://github.com/theSecHunter/Hades)|Update README.md|## 所有项目
 # 渗透测试
 ## 信息收集
 ### 资产测绘采集
@@ -529,7 +528,7 @@
 | [dirtycow](https://github.com/firefart/dirtycow) |  | Dirty Cow exploit - CVE-2016-5195 |
 | [traitor](https://github.com/liamg/traitor) | v0.0.14 | :arrow_up: :skull_and_crossbones: :fire: Automatic Linux prive<br>sc via exploitation of low-hanging fruit e.g. gtfobins, pwnkit,<br> dirty pipe, +w docker.sock |
 | [LinEnum](https://github.com/rebootuser/LinEnum) |  | Scripted Local Linux Enumeration & Privilege Escalation Checks |
-| [PEASS-ng](https://github.com/carlospolop/PEASS-ng) | 2023060<br>4-b0985b<br>44 | PEASS - Privilege Escalation Awesome Scripts SUITE (with color<br>s) |
+| [PEASS-ng](https://github.com/carlospolop/PEASS-ng) | 2023061<br>1-b11e87<br>f7 | PEASS - Privilege Escalation Awesome Scripts SUITE (with color<br>s) |
 | [traitor](https://github.com/liamg/traitor) | v0.0.14 | :arrow_up: :skull_and_crossbones: :fire: Automatic Linux prive<br>sc via exploitation of low-hanging fruit e.g. gtfobins, pwnkit,<br> dirty pipe, +w docker.sock |
 ### 容器提权
 | 项目名称 | 版本 | 项目描述 |
