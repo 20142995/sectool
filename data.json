@@ -200,8 +200,8 @@
     "https://github.com/ycdxsb/PocOrExp_in_Github": {
         "created_at": "2021-04-13 05:46:16",
         "description": "聚合Github上已有的Poc或者Exp，CVE信息来自CVE官网。Auto Collect Poc Or Exp from Github by CVE ID.",
-        "commit_date": "2023-06-11 20:08:00",
-        "commit_message": "update 2023-06-12 04:08:00",
+        "commit_date": "2023-06-12 20:27:05",
+        "commit_message": "update 2023-06-13 04:27:05",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -380,8 +380,8 @@
     "https://github.com/lal0ne/vulnerability": {
         "created_at": "2022-01-20 02:48:42",
         "description": "收集、整理、修改互联网上公开的漏洞POC",
-        "commit_date": "2023-06-09 01:40:55",
-        "commit_message": "用友 GRP-U8 文件上传漏洞",
+        "commit_date": "2023-06-12 07:35:18",
+        "commit_message": "CVE-2023-34238",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -461,7 +461,7 @@
     "https://github.com/ExpLangcn/NucleiTP": {
         "created_at": "2022-11-08 13:16:56",
         "description": "自动整合全网Nuclei的漏洞POC，实时同步更新最新POC！",
-        "commit_date": "2023-06-08 21:15:16",
+        "commit_date": "2023-06-13 00:45:16",
         "commit_message": "更新啦❤️",
         "release_tag": "",
         "release_date": "",
@@ -531,8 +531,8 @@
     "https://github.com/knownsec/404StarLink": {
         "created_at": "2020-11-17 08:10:18",
         "description": "404StarLink - 推荐优质、有意义、有趣、坚持维护的安全开源项目",
-        "commit_date": "2023-05-29 03:02:14",
-        "commit_message": "weekly update at 2023-05-29",
+        "commit_date": "2023-06-12 04:36:28",
+        "commit_message": "weekly update at 2023-06-12",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -999,8 +999,8 @@
     "https://github.com/LittleBear4/OA-EXPTOOL": {
         "created_at": "2022-10-13 12:31:21",
         "description": "OA综合利用工具，集合将近20款OA漏洞批量扫描",
-        "commit_date": "2023-05-16 14:13:55",
-        "commit_message": "Update README.md",
+        "commit_date": "2023-06-13 00:33:25",
+        "commit_message": "Update ecology-mysql-config.yaml",
         "release_tag": "OA-EXPTOOL-0.72",
         "release_date": "2023-04-23 06:08:32",
         "release_message": "最近更新日志：\r\n泛微前台sql注入的poc验证，暂无exp\r\n万户OA_UploadServlet.py\r\n万户OA_xfire_xxe\r\n优化poc的验证功能"
@@ -1044,7 +1044,7 @@
     "https://github.com/sml2h3/ddddocr": {
         "created_at": "2021-07-14 09:00:06",
         "description": "带带弟弟 通用验证码识别OCR pypi版",
-        "commit_date": "2023-05-12 03:56:46",
+        "commit_date": "2023-06-12 08:09:49",
         "commit_message": "Update README.md",
         "release_tag": "",
         "release_date": "",
@@ -1134,8 +1134,8 @@
     "https://github.com/mdp/rotp": {
         "created_at": "2011-02-13 18:20:59",
         "description": "Ruby One Time Password library",
-        "commit_date": "2023-05-31 17:51:22",
-        "commit_message": "Chore: CI Update for please release and Devcontainer addition of `act` (#127)\n\n- Update CI with please release\r\n- Add devcontainer features for local testing of github actions",
+        "commit_date": "2023-06-12 16:54:15",
+        "commit_message": "chore: docker-compose.yml: Use ruby-3.0 (#128)\n\nThis prepares to add new stable Ruby versions.\r\n\r\nCo-authored-by: Olle Jonsson <olle.jonsson@gmail.com>",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -2951,8 +2951,8 @@
     "https://github.com/dbeaver/dbeaver": {
         "created_at": "2015-10-21 08:26:28",
         "description": "Free universal database tool and SQL client",
-        "commit_date": "2023-06-08 18:42:53",
-        "commit_message": "dbeaver/pro#1658 downgrade Salesforce CDP driver for the latest working version (#20239)",
+        "commit_date": "2023-06-12 14:29:48",
+        "commit_message": "dbeaver/pro#1704 Te QM events serialization fix (#20263)",
         "release_tag": "23.1.0",
         "release_date": "2023-06-04 19:54:58",
         "release_message": "\n                - SQL Editor:\n                    - Autocomplete now supports [ ] and ` as quotes for identifiers\n                    - Shortcut confict on macOS was fixed\n                    - JSQLParser was reverted to the version 4.5 and is now faster\n                    - Issue with substitution variables in text with \\n line feeds was fixed\n                    - Autocomplete case with FROM right after SELECT is now handled\n                    - Autocomplete for SELECT query without FROM was fixed\n                    - 'Go to Matching Bracket' shortcut was changed to CTRL+SHIFT+[\n                    - Autocomplete for columns in tables without alias was fixed\n                    - Completion analyze errors are now written to the debug log\n                    - Comment with a tab after a double dash is now handle\n                    - Issue with hiding cursor position after resizing the editor was fixed\n                    - Exeption when updating editor annotations was fixed\n                - Data Editor:\n                    - Data ordering was improved\n                - General UI:\n                    - Changing the size and position of the connection dialog is now saved\n                    - Issue with the application freezing when creating a table when the connection hangs was fixed\n                    - Tips of the day were revised\n                - Connectivity:\n                    - Option to disable SSHJ hostname verification was added (thanks to @ryanc-me)\n                    - Issue when switching from Community to PRO version and vice versa was fixed\n                - Databases:\n                    - ClickHouse: display of large numbers was fixed\n                    - MariaDB: partition support was added\n                    - Oracle:\n                        - Issue issue with native clients hanging when running SQLPlus scripts was fixed\n                        - Issue with setting the wrong schema after connecting or changing the Data Editor was fixed\n                    - PostgreSQL:\n                        - Issue with an exception when loading attribute information was fixed\n                        - Reading a numeric array was fixed\n                    - Trino: error handling was improved\n                 - Localization:\n                    - German localization was improved (thanks to @hype11)\n                    - Italian localization was improved (thanks to @Gnafu)\n                 - Misc:\n                    - Images for all DBeaver Eclipse extensions were added\n                    - Legacy ODBC driver based on the obsolete Java 7 was deprecated due to many issues\n            "
@@ -3298,8 +3298,8 @@
     "https://github.com/bytedance/Elkeid": {
         "created_at": "2020-12-18 03:15:54",
         "description": "Elkeid is an open source solution that can meet the security requirements of various workloads such as hosts, containers and K8s, and serverless. It is derived from ByteDance's internal best practices.",
-        "commit_date": "2023-06-09 10:52:00",
-        "commit_message": "FIXME: compiling failure for SLES 4.12.14 with backportings\n\nuse offsetof to locate s_uuid in super_block rather than referring\nit directly (it could be an array or uuid_t structure)\n\nSigned-off-by: shenping.matt <shenping.matt@bytedance.com>",
+        "commit_date": "2023-06-12 06:50:58",
+        "commit_message": "update ko ci rl8",
         "release_tag": "scanner-v2.2.0.5_20230609",
         "release_date": "2023-06-09 03:44:56",
         "release_message": ""
@@ -3906,8 +3906,8 @@
     "https://github.com/anchore/syft": {
         "created_at": "2020-05-07 18:19:29",
         "description": "CLI tool and library for generating a Software Bill of Materials from container images and filesystems",
-        "commit_date": "2023-06-08 21:01:19",
-        "commit_message": "chore(deps): bump github.com/spdx/tools-golang from 0.5.1 to 0.5.2 (#1868)\n\nBumps [github.com/spdx/tools-golang](https://github.com/spdx/tools-golang) from 0.5.1 to 0.5.2.\r\n- [Release notes](https://github.com/spdx/tools-golang/releases)\r\n- [Changelog](https://github.com/spdx/tools-golang/blob/main/RELEASE-NOTES.md)\r\n- [Commits](https://github.com/spdx/tools-golang/compare/v0.5.1...v0.5.2)\r\n\r\n---\r\nupdated-dependencies:\r\n- dependency-name: github.com/spdx/tools-golang\r\n  dependency-type: direct:production\r\n  update-type: version-update:semver-patch\r\n...\r\n\r\nSigned-off-by: dependabot[bot] <support@github.com>\r\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
+        "commit_date": "2023-06-12 13:59:14",
+        "commit_message": "fix: pom properties not setting artifact id (#1870)\n\nSigned-off-by: James Neate <jamesmneate@gmail.com>",
         "release_tag": "v0.83.0",
         "release_date": "2023-06-05 19:29:11",
         "release_message": "# Changelog\r\n\r\n## [v0.83.0](https://github.com/anchore/syft/tree/v0.83.0) (2023-06-05)\r\n\r\n[Full Changelog](https://github.com/anchore/syft/compare/v0.82.0...v0.83.0)\r\n\r\n### Added Features\r\n\r\n- Add new '--source-version' and '--source-name' options to set the name and version of the target being analyzed for reference in resulting syft-json format SBOMs (more formats will support these flags soon). [[Issue #1399](https://github.com/anchore/syft/issues/1399)] [[PR #1859](https://github.com/anchore/syft/pull/1859)] [[kzantow](https://github.com/kzantow)]\r\n- Add scope to POM properties [[PR #1779](https://github.com/anchore/syft/pull/1779)] [[jneate](https://github.com/jneate)]\r\n- Accept main.version ldflags even without vcs [[PR #1855](https://github.com/anchore/syft/pull/1855)] [[deitch](https://github.com/deitch)]\r\n\r\n### Bug Fixes\r\n\r\n- Fix directory resolver to consider CWD and root path input correctly [[PR #1840](https://github.com/anchore/syft/pull/1840)] [[wagoodman](https://github.com/wagoodman)]\r\n- Show all error messages if there is a failure retrieving an image with a specified scheme [[Issue #1569](https://github.com/anchore/syft/issues/1569)] [[PR #1801](https://github.com/anchore/syft/pull/1801)] [[FrimIdan](https://github.com/FrimIdan)]\r\n- v0.81.0 crashing parsing some images [[Issue #1837](https://github.com/anchore/syft/issues/1837)] [[PR #1839](https://github.com/anchore/syft/pull/1839)] [[spiffcs](https://github.com/spiffcs)]\r\n\r\n### Deprecated Features\r\n\r\n- Migrate location-related structs to the file package [[PR #1751](https://github.com/anchore/syft/pull/1751)] [[wagoodman](https://github.com/wagoodman)]\r\n\r\n### Additional Changes\r\n\r\n- chore: code cleanup [[PR #1865](https://github.com/anchore/syft/pull/1865)] [[spiffcs](https://github.com/spiffcs)]\r\n\r\n\r\n\r\n"
@@ -3915,11 +3915,11 @@
     "https://github.com/chaitin/safeline": {
         "created_at": "2023-04-12 11:30:14",
         "description": "长亭科技自研，基于业界领先的语义引擎检测技术，打造的简洁、易用的免费 WAF",
-        "commit_date": "2023-06-09 10:13:16",
-        "commit_message": "feat: release v1.8.1",
-        "release_tag": "v1.8.1",
-        "release_date": "2023-06-09 10:27:18",
-        "release_message": "## 新增\r\n\r\n- 数据统计页面增加访问来源地区、流量统计，更好把控网站运营情况\r\n\r\n## 优化\r\n\r\n- 更新语义引擎版本，优化了一大批检测逻辑，降低误报\r\n- 优化了部分操作提示信息：\r\n  - IP 组正在使用时，无法被删除的提示\r\n  - 未创建 IP 组时，在黑白名单中无法选择属于 IP 组的提示\r\n  - 添加站点时，域名格式错误的提示\r\n\r\n注意：低版本升级请执行 upgrade.sh 脚本\r\n"
+        "commit_date": "2023-06-12 02:57:03",
+        "commit_message": "feat: release v1.8.2",
+        "release_tag": "v1.8.2",
+        "release_date": "2023-06-12 03:11:45",
+        "release_message": "## 修复\r\n\r\n- 「30 天访问情况」和「30 天拦截情况」显示数据相同"
     },
     "https://github.com/stamparm/identYwaf": {
         "created_at": "2019-01-10 11:27:58",
@@ -3969,8 +3969,8 @@
     "https://github.com/aquasecurity/trivy": {
         "created_at": "2019-04-11 01:01:07",
         "description": "Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more",
-        "commit_date": "2023-06-11 05:49:29",
-        "commit_message": "docs: add general coverage page (#3859)",
+        "commit_date": "2023-06-12 13:52:43",
+        "commit_message": "chore(deps): bump golangci/golangci-lint-action from 3.5.0 to 3.6.0 (#4613)\n\nBumps [golangci/golangci-lint-action](https://github.com/golangci/golangci-lint-action) from 3.5.0 to 3.6.0.\n- [Release notes](https://github.com/golangci/golangci-lint-action/releases)\n- [Commits](https://github.com/golangci/golangci-lint-action/compare/v3.5.0...v3.6.0)\n\n---\nupdated-dependencies:\n- dependency-name: golangci/golangci-lint-action\n  dependency-type: direct:production\n  update-type: version-update:semver-minor\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
         "release_tag": "v0.42.1",
         "release_date": "2023-06-08 15:09:13",
         "release_message": "## Changelog\n* 9a279fa7b ci: remove 32bit packages (#4585)\n* d52b0b7bc fix(misconf): deduplicate misconf results (#4588)\n* 9b531fa27 fix(vm): support sector size of 4096 (#4564)\n* 8ca1bfdd2 fix(misconf): terraform relative paths (#4571)\n* c20d46604 fix(purl): skip unsupported library type (#4577)\n* 52cbe7975 fix(terraform): recursively detect all Root Modules (#4457)\n* 4a5b91557 fix(vm): support post analyzer for vm command (#4544)\n* 56cdc55f7 fix(nodejs): change the type of the devDependencies field (#4560)\n* 17d753676 fix(sbom): export empty dependencies in CycloneDX (#4568)\n* 2796abe1e refactor: add composite fs for post-analyzers (#4556)\n* 22a157380 chore(deps): bump golangci/golangci-lint-action from 3.4.0 to 3.5.0 (#4554)\n* 43586659a chore(deps): bump helm/kind-action from 1.5.0 to 1.7.0 (#4526)\n* 508139965 chore(deps): bump github.com/BurntSushi/toml from 1.2.1 to 1.3.0 (#4528)\n* e1a38128a chore(deps): bump github.com/alicebob/miniredis/v2 from 2.30.2 to 2.30.3 (#4529)\n* 283eef637 chore(deps): bump github.com/aws/aws-sdk-go-v2/service/ec2 (#4536)\n* bbd7b9874 chore(deps): bump github.com/tetratelabs/wazero from 1.0.0 to 1.2.0 (#4549)\n* 11c81bf2f chore(deps): bump github.com/spf13/cast from 1.5.0 to 1.5.1 (#4532)\n* 2d8d63e61 chore(deps): bump github.com/testcontainers/testcontainers-go (#4537)\n* a46839b1c chore(deps): bump github.com/go-git/go-git/v5 from 5.6.1 to 5.7.0 (#4530)\n* 19715f5de chore(deps): bump github.com/aws/aws-sdk-go-v2/config (#4534)\n\n"
@@ -4275,7 +4275,7 @@
     "https://github.com/aiboboxx/v2rayfree": {
         "created_at": "2021-10-13 11:34:53",
         "description": "v2ray公益免费节点、最新2ray免费v节点订阅地址、v2ray免费节点每日更新、免费ss/v2ray/trojan节点、freefq ",
-        "commit_date": "2023-06-11 12:35:31",
+        "commit_date": "2023-06-12 23:45:31",
         "commit_message": "update",
         "release_tag": "",
         "release_date": "",
@@ -4320,8 +4320,8 @@
     "https://github.com/freefq/free": {
         "created_at": "2020-06-07 02:48:33",
         "description": "翻墙、免费翻墙、免费科学上网、免费节点、免费梯子、免费ss/v2ray/trojan节点、蓝灯、谷歌商店、翻墙梯子",
-        "commit_date": "2023-06-12 00:00:03",
-        "commit_message": "updated_at 06-12 08:00",
+        "commit_date": "2023-06-13 00:00:03",
+        "commit_message": "updated_at 06-13 08:00",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -4337,7 +4337,7 @@
     },
     "https://github.com/Awrrays/FrameVul": {
         "created_at": "2022-04-04 05:54:00",
-        "description": "",
+        "description": "POC集合，框架nday漏洞利用",
         "commit_date": "2023-06-08 09:27:11",
         "commit_message": "Update README.md",
         "release_tag": "",
@@ -4590,8 +4590,8 @@
     "https://github.com/yzfly/awesome-chatgpt-zh": {
         "created_at": "2023-03-21 02:16:34",
         "description": "ChatGPT 中文指南🔥，ChatGPT 中文调教指南，指令指南，精选资源清单，更好的使用 chatGPT 让你的生产力 up up up! 🚀",
-        "commit_date": "2023-06-11 00:06:56",
-        "commit_message": "add cot prompt paper",
+        "commit_date": "2023-06-12 07:07:02",
+        "commit_message": "add gptcache",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -4617,8 +4617,8 @@
     "https://github.com/A10ha/EmailSender": {
         "created_at": "2023-05-13 13:32:16",
         "description": "钓鱼邮件便捷发送工具（GUI）",
-        "commit_date": "2023-06-07 09:38:22",
-        "commit_message": "Update README.md",
+        "commit_date": "2023-06-12 06:26:00",
+        "commit_message": "Update EmailSenderGUI.py\n\n更新Log记录，增加发件成功、发件失败邮箱记录。",
         "release_tag": "",
         "release_date": "",
         "release_message": ""

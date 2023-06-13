@@ -1,12 +1,12 @@
-# 更新于 2023-06-12 08:51:28
+# 更新于 2023-06-13 08:48:50
 
 ## 近15天release更新记录
 | 更新时间 | 项目名称 | 版本 | 更新内容 |
 | :---- | :---- | :---- | :---- |
+|2023-06-12 03:11:45|[safeline](https://github.com/chaitin/safeline)|v1.8.2|## 修复    - 「30 天访问情况」和「30 <br>天拦截情况」显示数据相同|
 |2023-06-11 04:30:25|[PEASS-ng](https://github.com/carlospolop/PEASS-ng)|2023061<br>1-b11e87<br>f7||
 |2023-06-09 13:12:18|[POC-bomber](https://github.com/tr0uble-mAker/POC-bomber)|POC-bom<br>ber-for-<br>Redteam-<br>v3.0.0|POC-bomber的 v3.0.0 版本，拥有更快的<br>扫描效率，修复因单个poc造成的卡顿问题和<br>各若干bug，增加彩色输出和进度显示，支持<br>指定poc目录，适合hvv快节奏，增加2022部<br>分已公开漏洞的poc。支持自建dnslog服务器<br>，在配置自己的域名后可以利用pocbomber在<br>vps开启一个dnslog平台，进行部分漏洞dns<br>带外检测。|
 |2023-06-09 12:43:46|[wpscan](https://github.com/wpscanteam/wpscan)|v3.8.24|This is a management release to ensur<br>e that the gem is properly pushed to t<br>he rubygems channel, as this has faile<br>d with the last tagged release. No fun<br>ctionality has changed since v3.8.23.|
-|2023-06-09 10:27:18|[safeline](https://github.com/chaitin/safeline)|v1.8.1|## 新增    - 数据统计页面增加访问来源<br>地区、流量统计，更好把控网站运营情况   <br> ## 优化    - 更新语义引擎版本，优化了<br>一大批检测逻辑，降低误报  - 优化了部分<br>操作提示信息：    - IP 组正在使用时，无<br>法被删除的提示    - 未创建 IP 组时，在<br>黑白名单中无法选择属于 IP 组的提示    -<br> 添加站点时，域名格式错误的提示    注<br>意：低版本升级请执行 upgrade.sh 脚本  |
 |2023-06-09 03:44:56|[Elkeid](https://github.com/bytedance/Elkeid)|scanner<br>-v2.2.0.<br>5_202306<br>09||
 |2023-06-08 15:09:13|[trivy](https://github.com/aquasecurity/trivy)|v0.42.1|## Changelog * 9a279fa7b ci: remove 3<br>2bit packages (#4585) * d52b0b7bc fix(<br>misconf): deduplicate misconf results <br>(#4588) * 9b531fa27 fix(vm): support s<br>ector size of 4096 (#4564) * 8ca1bfdd2<br> fix(misconf): terraform relative path<br>s (#4571) * c20d46604 fix(purl): skip <br>unsupported library type (#4577) * 52c<br>be7975 fix(terraform): recursively det<br>ect all Root Modules (#4457) * 4a5b915<br>57 fix(vm): support post analyzer for <br>vm command (#4544) * 56cdc55f7 fix(nod<br>ejs): change the type of the devDepend<br>encies field (#4560) * 17d753676 fix(s<br>bom): export empty dependencies in Cyc<br>loneDX (#4568) * 2796abe1e refactor: a<br>dd composite fs for post-analyzers (#4<br>556) * 22a157380 chore(deps): bump gol<br>angci/golangci-lint-action from 3.4.0 <br>to 3.5.0 (#4554) * 43586659a chore(dep<br>s): bump helm/kind-action from 1.5.0 t<br>o 1.7.0 (#4526) * 508139965 chore(deps<br>): bump github.com/BurntSushi/toml fro<br>m 1.2.1 to 1.3.0 (#4528) * e1a38128a c<br>hore(deps): bump github.com/alicebob/m<br>iniredis/v2 from 2.30.2 to 2.30.3 (#45<br>29) * 283eef637 chore(deps): bump gith<br>ub.com/aws/aws-sdk-go-v2/service/ec2 (<br>#4536) * bbd7b9874 chore(deps): bump g<br>ithub.com/tetratelabs/wazero from 1.0.<br>0 to 1.2.0 (#4549) * 11c81bf2f chore(d<br>eps): bump github.com/spf13/cast from <br>1.5.0 to 1.5.1 (#4532) * 2d8d63e61 cho<br>re(deps): bump github.com/testcontaine<br>rs/testcontainers-go (#4537) * a46839b<br>1c chore(deps): bump github.com/go-git<br>/go-git/v5 from 5.6.1 to 5.7.0 (#4530)<br> * 19715f5de chore(deps): bump github.<br>com/aws/aws-sdk-go-v2/config (#4534)  |
 |2023-06-07 18:30:42|[subfinder](https://github.com/projectdiscovery/subfinder)|v2.6.0|## What's Changed  * Added netlas.io <br>as new source by @Devang-Solanki in ht<br>tps://github.com/projectdiscovery/subf<br>inder/pull/829  * Added support to use<br> provider config file when using as li<br>brary by @nth347 in https://github.com<br>/projectdiscovery/subfinder/pull/864  <br>* Added support to read API keys as en<br>v variable in the provider config file<br> by @tarunKoyalwar in https://github.c<br>om/projectdiscovery/subfinder/pull/868<br>  yaml  netlas:    - $NETLAS_API_KEY  <br>    Issues closed in this release - ht<br>tps://github.com/projectdiscovery/subf<br>inder/milestone/8?closed=1    ## New C<br>ontributors  * @nth347 made their firs<br>t contribution in https://github.com/p<br>rojectdiscovery/subfinder/pull/864  * <br>@tarunKoyalwar made their first contri<br>bution in https://github.com/projectdi<br>scovery/subfinder/pull/868  * @Devang-<br>Solanki made their first contribution <br>in https://github.com/projectdiscovery<br>/subfinder/pull/829    **Full Changelo<br>g**: https://github.com/projectdiscove<br>ry/subfinder/compare/v2.5.9...v2.6.0|
@@ -30,15 +30,26 @@
 ## 近15天commit提交记录
 | 提交时间 | 项目名称 | 更新内容 |
 | :---- | :---- | :---- |
-|2023-06-12 00:00:03|[free](https://github.com/freefq/free)|updated_at 06-12 08:00|
-|2023-06-11 20:08:00|[PocOrExp_in_Githu<br>b](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-06-12 04:08:00|
+|2023-06-13 00:45:16|[NucleiTP](https://github.com/ExpLangcn/NucleiTP)|更新啦❤️|
+|2023-06-13 00:33:25|[OA-EXPTOOL](https://github.com/LittleBear4/OA-EXPTOOL)|Update ecology-mysql-config.yaml|
+|2023-06-13 00:00:03|[free](https://github.com/freefq/free)|updated_at 06-13 08:00|
+|2023-06-12 23:45:31|[v2rayfree](https://github.com/aiboboxx/v2rayfree)|update|
+|2023-06-12 20:27:05|[PocOrExp_in_Githu<br>b](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-06-13 04:27:05|
+|2023-06-12 16:54:15|[rotp](https://github.com/mdp/rotp)|chore: docker-compose.yml: Use ruby-3.0 (#128)  Thi<br>s prepares to add new stable Ruby versions.    Co-au<br>thored-by: Olle Jonsson |
+|2023-06-12 14:29:48|[dbeaver](https://github.com/dbeaver/dbeaver)|dbeaver/pro#1704 Te QM events serialization fix (#2<br>0263)|
+|2023-06-12 13:59:14|[syft](https://github.com/anchore/syft)|fix: pom properties not setting artifact id (#1870)<br>  Signed-off-by: James Neate |
+|2023-06-12 13:52:43|[trivy](https://github.com/aquasecurity/trivy)|chore(deps): bump golangci/golangci-lint-action fro<br>m 3.5.0 to 3.6.0 (#4613)  Bumps  from 3.5.0 to 3.6.0<br>. -  -   --- updated-dependencies: - dependency-name<br>: golangci/golangci-lint-action   dependency-type: d<br>irect:production   update-type: version-update:semve<br>r-minor ...  Signed-off-by: dependabot[bot]  Co-auth<br>ored-by: dependabot[bot] |
+|2023-06-12 08:09:49|[ddddocr](https://github.com/sml2h3/ddddocr)|Update README.md|
+|2023-06-12 07:35:18|[vulnerability](https://github.com/lal0ne/vulnerability)|CVE-2023-34238|
+|2023-06-12 07:07:02|[awesome-chatgpt-z<br>h](https://github.com/yzfly/awesome-chatgpt-zh)|add gptcache|
+|2023-06-12 06:50:58|[Elkeid](https://github.com/bytedance/Elkeid)|update ko ci rl8|
+|2023-06-12 06:26:00|[EmailSender](https://github.com/A10ha/EmailSender)|Update EmailSenderGUI.py  更新Log记录，增加发件成功<br>、发件失败邮箱记录。|
+|2023-06-12 04:36:28|[404StarLink](https://github.com/knownsec/404StarLink)|weekly update at 2023-06-12|
+|2023-06-12 02:57:03|[safeline](https://github.com/chaitin/safeline)|feat: release v1.8.2|
 |2023-06-11 14:01:15|[veinmind-tools](https://github.com/chaitin/veinmind-tools)|fix(docs): fix README format (#251)|
 |2023-06-11 13:21:44|[ChatGPT-Shortcut](https://github.com/rockbenben/ChatGPT-Shortcut)|refactor: optimize code structure of prompt comment<br> page|
 |2023-06-11 13:15:50|[Vulnerability-Wik<br>i](https://github.com/Threekiii/Vulnerability-Wiki)|更新漏洞|
 |2023-06-11 13:15:01|[Awesome-POC](https://github.com/Threekiii/Awesome-POC)|更新漏洞|
-|2023-06-11 12:35:31|[v2rayfree](https://github.com/aiboboxx/v2rayfree)|update|
-|2023-06-11 05:49:29|[trivy](https://github.com/aquasecurity/trivy)|docs: add general coverage page (#3859)|
-|2023-06-11 00:06:56|[awesome-chatgpt-z<br>h](https://github.com/yzfly/awesome-chatgpt-zh)|add cot prompt paper|
 |2023-06-10 15:07:26|[kube-bench](https://github.com/aquasecurity/kube-bench)|build(deps): bump golang from 1.19.4 to 1.20.4 (#14<br>36)  Bumps golang from 1.19.4 to 1.20.4.    ---  upd<br>ated-dependencies:  - dependency-name: golang    dep<br>endency-type: direct:production    update-type: vers<br>ion-update:semver-minor  ...    Signed-off-by: depen<br>dabot[bot]   Co-authored-by: dependabot[bot] |
 |2023-06-10 08:39:17|[K8tools](https://github.com/k8gege/K8tools)|Add files via upload|
 |2023-06-10 04:17:44|[neuvector](https://github.com/neuvector/neuvector)|Merge pull request #872 from williamlin-suse/main  <br>NVSHAS-8044: lots of 'Failed to put key - error=CAS <br>put error key=obj…|
@@ -46,15 +57,9 @@
 |2023-06-09 21:27:24|[clair](https://github.com/quay/clair)|chore: bump Claircore to v1.5.7  Bump Claircore to <br>the latest tag.  Signed-off-by: crozzy |
 |2023-06-09 15:33:20|[grype](https://github.com/anchore/grype)|feat: add community template folder and new table t<br>emplate (#1343)  Signed-off-by: James Neate |
 |2023-06-09 13:20:09|[POC-bomber](https://github.com/tr0uble-mAker/POC-bomber)|红队版本 poc-bomber v3.0.0 redteam|
-|2023-06-09 10:52:00|[Elkeid](https://github.com/bytedance/Elkeid)|FIXME: compiling failure for SLES 4.12.14 with back<br>portings  use offsetof to locate s_uuid in super_blo<br>ck rather than referring it directly (it could be an<br> array or uuid_t structure)  Signed-off-by: shenping<br>.matt |
 |2023-06-09 10:44:12|[wpscan](https://github.com/wpscanteam/wpscan)|Bump version.|
-|2023-06-09 10:13:16|[safeline](https://github.com/chaitin/safeline)|feat: release v1.8.1|
 |2023-06-09 02:02:54|[Some-PoC-oR-ExP](https://github.com/coffeehb/Some-PoC-oR-ExP)|Create 老版本未授权.md|
 |2023-06-09 01:43:32|[Awesome-Redteam](https://github.com/Threekiii/Awesome-Redteam)|更新README.md|
-|2023-06-09 01:40:55|[vulnerability](https://github.com/lal0ne/vulnerability)|用友 GRP-U8 文件上传漏洞|
-|2023-06-08 21:15:16|[NucleiTP](https://github.com/ExpLangcn/NucleiTP)|更新啦❤️|
-|2023-06-08 21:01:19|[syft](https://github.com/anchore/syft)|chore(deps): bump github.com/spdx/tools-golang from<br> 0.5.1 to 0.5.2 (#1868)  Bumps  from 0.5.1 to 0.5.2.<br>  -   -   -     ---  updated-dependencies:  - depend<br>ency-name: github.com/spdx/tools-golang    dependenc<br>y-type: direct:production    update-type: version-up<br>date:semver-patch  ...    Signed-off-by: dependabot[<br>bot]   Co-authored-by: dependabot[bot] |
-|2023-06-08 18:42:53|[dbeaver](https://github.com/dbeaver/dbeaver)|dbeaver/pro#1658 downgrade Salesforce CDP driver fo<br>r the latest working version (#20239)|
 |2023-06-08 14:51:11|[murphysec](https://github.com/murphysecurity/murphysec)|style: use fp-go|
 |2023-06-08 10:50:35|[GoWxDump](https://github.com/SpenserCai/GoWxDump)|Merge pull request #22 from JAfox1024/master  排除W<br>MPF目录|
 |2023-06-08 09:27:11|[FrameVul](https://github.com/Awrrays/FrameVul)|Update README.md|
@@ -63,7 +68,6 @@
 |2023-06-07 19:31:54|[WebGoat](https://github.com/WebGoat/WebGoat)|chore: bump maven-surefire-plugin from 3.0.0-M9 to <br>3.1.0 (#1499)  Bumps  from 3.0.0-M9 to 3.1.0.  -   -<br>     ---  updated-dependencies:  - dependency-name: <br>org.apache.maven.plugins:maven-surefire-plugin    de<br>pendency-type: direct:production    update-type: ver<br>sion-update:semver-minor  ...    Signed-off-by: depe<br>ndabot[bot]   Co-authored-by: dependabot[bot]   Co-a<br>uthored-by: René Zubcevic |
 |2023-06-07 18:13:51|[subfinder](https://github.com/projectdiscovery/subfinder)|version update|
 |2023-06-07 11:39:27|[domain_hunter_pro](https://github.com/bit4woo/domain_hunter_pro)|Update GrepUtils.java|
-|2023-06-07 09:38:22|[EmailSender](https://github.com/A10ha/EmailSender)|Update README.md|
 |2023-06-07 06:23:01|[proxy_pool](https://github.com/jhao104/proxy_pool)|Update README.md|
 |2023-06-07 02:55:02|[HackTools](https://github.com/Vicl1fe/HackTools)|Add|
 |2023-06-06 11:49:11|[HackBrowserData](https://github.com/moonD4rk/HackBrowserData)|Merge pull request #220 from moonD4rk/dev  feat: su<br>pport Arc Browser for macOS|
@@ -91,12 +95,9 @@
 |2023-06-01 16:36:44|[revsuit](https://github.com/Li4n0/revsuit)|chore(release): 0.7.1|
 |2023-06-01 12:09:28|[nuclei](https://github.com/projectdiscovery/nuclei)|version update|
 |2023-05-31 22:16:51|[PEASS-ng](https://github.com/carlospolop/PEASS-ng)|f|
-|2023-05-31 17:51:22|[rotp](https://github.com/mdp/rotp)|Chore: CI Update for please release and Devcontaine<br>r addition of act (#127)  - Update CI with please re<br>lease  - Add devcontainer features for local testing<br> of github actions|
 |2023-05-30 06:51:06|[NessusToReport](https://github.com/Hypdncy/NessusToReport)|删除部分信息|
 |2023-05-30 05:13:20|[autoDecoder](https://github.com/f0ng/autoDecoder)|Update FAQ.md|
-|2023-05-29 04:31:16|[OneScan](https://github.com/vaycore/OneScan)|将数据看板界面的复选框状态保存到配置文件；将Disable<br>选项功能更改为Enable|
-|2023-05-29 03:02:14|[404StarLink](https://github.com/knownsec/404StarLink)|weekly update at 2023-05-29|
-|2023-05-29 00:29:07|[Hades](https://github.com/theSecHunter/Hades)|Update README.md|## 所有项目
+|2023-05-29 04:31:16|[OneScan](https://github.com/vaycore/OneScan)|将数据看板界面的复选框状态保存到配置文件；将Disable<br>选项功能更改为Enable|## 所有项目
 # 渗透测试
 ## 信息收集
 ### 资产测绘采集
@@ -489,7 +490,7 @@
 | [BUG-Pocket](https://github.com/light-Life/BUG-Pocket) |  | 小型漏洞库，提供FOFA语法及批量脚本，具体利用法请参考别的漏洞库<br>，共4种类型47项 |
 | [WiKi](https://github.com/ScarecrowSec/WiKi) |  | 稻草人安全团队漏洞库 |
 | [PoC-ExP](https://github.com/Cuerz/PoC-ExP) |  | 【漏洞Poc知识库】一个网络安全爱好者对网络上一些已知漏洞payload<br>的收录，持续更新。并编写了利用脚本，可用于日常学习或批量的src漏<br>洞挖掘 |
-| [FrameVul](https://github.com/Awrrays/FrameVul) |  |  |
+| [FrameVul](https://github.com/Awrrays/FrameVul) |  | POC集合，框架nday漏洞利用 |
 ## 权限维持
 ### Shell管理
 | 项目名称 | 版本 | 项目描述 |
@@ -989,7 +990,7 @@
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
 | [openstar](https://github.com/starjun/openstar) |  | lua waf,nginx+lua,openresty,luajit,waf+,cdn,nginx |
-| [safeline](https://github.com/chaitin/safeline) | v1.8.1 | 长亭科技自研，基于业界领先的语义引擎检测技术，打造的简洁、易用<br>的免费 WAF |
+| [safeline](https://github.com/chaitin/safeline) | v1.8.2 | 长亭科技自研，基于业界领先的语义引擎检测技术，打造的简洁、易用<br>的免费 WAF |
 ## 欺骗防御
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
