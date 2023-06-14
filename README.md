@@ -1,13 +1,14 @@
-# 更新于 2023-06-13 08:48:50
+# 更新于 2023-06-14 08:47:04
 
 ## 近15天release更新记录
 | 更新时间 | 项目名称 | 版本 | 更新内容 |
 | :---- | :---- | :---- | :---- |
+|2023-06-13 18:41:20|[Elkeid](https://github.com/bytedance/Elkeid)|v1.7.0.<br>12-drive<br>r-ko-202<br>30613||
+|2023-06-13 15:31:06|[iDefender](https://github.com/wecooperate/iDefender)|2.8.0|重要版本，建议更新    - 更新iMonitorS<br>DK到最新版本    - 去掉没有文档化的AFD<br>驱动监控，网络监控都使用WFP框架实现    <br>- 添加ICMP拦截支持  - 接入iFoundation<br>冰塔快速开发框架    - **支持模块化升级<br>：少量的修改直接通过模块升级自动更新，<br>不需要再频繁手动升级了**    - 支持企业<br>管理能力（企业管理后台会在3.0版本正式上<br>线）      - 支持统一管理      - 支持策<br>略下发      - 支持功能扩展、定制、二次<br>开发、系统集成    - 添加工具箱    - 冰<br>镜终端行为分析系统    - 冰鉴软件行为分<br>析系统    - 冰云安全U盘    - 冰刃进程强<br>杀、文件强删    - 添加微信交流群（在关<br>于冰盾页面可以获取二维码）  - 修复一些<br>问题    - 修复快速查找大小写敏感的问题 <br>   - 修复导入规则的信任列表部分场景导<br>入失败的问题    - 修复信任列表多个规则<br>匹配不生效的问题    - 优化其他一些使用<br>体验          软件下载   |
 |2023-06-12 03:11:45|[safeline](https://github.com/chaitin/safeline)|v1.8.2|## 修复    - 「30 天访问情况」和「30 <br>天拦截情况」显示数据相同|
 |2023-06-11 04:30:25|[PEASS-ng](https://github.com/carlospolop/PEASS-ng)|2023061<br>1-b11e87<br>f7||
 |2023-06-09 13:12:18|[POC-bomber](https://github.com/tr0uble-mAker/POC-bomber)|POC-bom<br>ber-for-<br>Redteam-<br>v3.0.0|POC-bomber的 v3.0.0 版本，拥有更快的<br>扫描效率，修复因单个poc造成的卡顿问题和<br>各若干bug，增加彩色输出和进度显示，支持<br>指定poc目录，适合hvv快节奏，增加2022部<br>分已公开漏洞的poc。支持自建dnslog服务器<br>，在配置自己的域名后可以利用pocbomber在<br>vps开启一个dnslog平台，进行部分漏洞dns<br>带外检测。|
 |2023-06-09 12:43:46|[wpscan](https://github.com/wpscanteam/wpscan)|v3.8.24|This is a management release to ensur<br>e that the gem is properly pushed to t<br>he rubygems channel, as this has faile<br>d with the last tagged release. No fun<br>ctionality has changed since v3.8.23.|
-|2023-06-09 03:44:56|[Elkeid](https://github.com/bytedance/Elkeid)|scanner<br>-v2.2.0.<br>5_202306<br>09||
 |2023-06-08 15:09:13|[trivy](https://github.com/aquasecurity/trivy)|v0.42.1|## Changelog * 9a279fa7b ci: remove 3<br>2bit packages (#4585) * d52b0b7bc fix(<br>misconf): deduplicate misconf results <br>(#4588) * 9b531fa27 fix(vm): support s<br>ector size of 4096 (#4564) * 8ca1bfdd2<br> fix(misconf): terraform relative path<br>s (#4571) * c20d46604 fix(purl): skip <br>unsupported library type (#4577) * 52c<br>be7975 fix(terraform): recursively det<br>ect all Root Modules (#4457) * 4a5b915<br>57 fix(vm): support post analyzer for <br>vm command (#4544) * 56cdc55f7 fix(nod<br>ejs): change the type of the devDepend<br>encies field (#4560) * 17d753676 fix(s<br>bom): export empty dependencies in Cyc<br>loneDX (#4568) * 2796abe1e refactor: a<br>dd composite fs for post-analyzers (#4<br>556) * 22a157380 chore(deps): bump gol<br>angci/golangci-lint-action from 3.4.0 <br>to 3.5.0 (#4554) * 43586659a chore(dep<br>s): bump helm/kind-action from 1.5.0 t<br>o 1.7.0 (#4526) * 508139965 chore(deps<br>): bump github.com/BurntSushi/toml fro<br>m 1.2.1 to 1.3.0 (#4528) * e1a38128a c<br>hore(deps): bump github.com/alicebob/m<br>iniredis/v2 from 2.30.2 to 2.30.3 (#45<br>29) * 283eef637 chore(deps): bump gith<br>ub.com/aws/aws-sdk-go-v2/service/ec2 (<br>#4536) * bbd7b9874 chore(deps): bump g<br>ithub.com/tetratelabs/wazero from 1.0.<br>0 to 1.2.0 (#4549) * 11c81bf2f chore(d<br>eps): bump github.com/spf13/cast from <br>1.5.0 to 1.5.1 (#4532) * 2d8d63e61 cho<br>re(deps): bump github.com/testcontaine<br>rs/testcontainers-go (#4537) * a46839b<br>1c chore(deps): bump github.com/go-git<br>/go-git/v5 from 5.6.1 to 5.7.0 (#4530)<br> * 19715f5de chore(deps): bump github.<br>com/aws/aws-sdk-go-v2/config (#4534)  |
 |2023-06-07 18:30:42|[subfinder](https://github.com/projectdiscovery/subfinder)|v2.6.0|## What's Changed  * Added netlas.io <br>as new source by @Devang-Solanki in ht<br>tps://github.com/projectdiscovery/subf<br>inder/pull/829  * Added support to use<br> provider config file when using as li<br>brary by @nth347 in https://github.com<br>/projectdiscovery/subfinder/pull/864  <br>* Added support to read API keys as en<br>v variable in the provider config file<br> by @tarunKoyalwar in https://github.c<br>om/projectdiscovery/subfinder/pull/868<br>  yaml  netlas:    - $NETLAS_API_KEY  <br>    Issues closed in this release - ht<br>tps://github.com/projectdiscovery/subf<br>inder/milestone/8?closed=1    ## New C<br>ontributors  * @nth347 made their firs<br>t contribution in https://github.com/p<br>rojectdiscovery/subfinder/pull/864  * <br>@tarunKoyalwar made their first contri<br>bution in https://github.com/projectdi<br>scovery/subfinder/pull/868  * @Devang-<br>Solanki made their first contribution <br>in https://github.com/projectdiscovery<br>/subfinder/pull/829    **Full Changelo<br>g**: https://github.com/projectdiscove<br>ry/subfinder/compare/v2.5.9...v2.6.0|
 |2023-06-07 08:59:36|[ProxyPoolxSocks](https://github.com/Anyyy111/ProxyPoolxSocks)|v1.2|更新了代理池定时任务参数：detectTime<br>，用于检测并更新代理池可用的代理，程序<br>会隔一段时间重新检测可用节点，以免节点<br>过期。详细参考Readme|
@@ -24,48 +25,50 @@
 |2023-06-02 19:07:40|[faker](https://github.com/joke2k/faker)|v18.10.<br>1|See .|
 |2023-06-02 06:00:49|[AsamF](https://github.com/Kento-Sec/AsamF)|v0.2.3|v0.2.2 fofa无法查询，修复fofa的问题|
 |2023-06-01 16:46:29|[revsuit](https://github.com/Li4n0/revsuit)|v0.7.1|### Bug Fixes    * fix the error that<br> the maximum length of http rule respo<br>nse body is 191 when using mysql ()  |
-|2023-06-01 12:23:28|[nuclei](https://github.com/projectdiscovery/nuclei)|v2.9.6|## What's Changed  * **Fixed issue wi<br>th uncover config loader** by @tarunKo<br>yalwar in https://github.com/projectdi<br>scovery/nuclei/pull/3773  * Fixed issu<br>e with template update option by @taru<br>nKoyalwar in https://github.com/projec<br>tdiscovery/nuclei/pull/3769  * Fixed t<br>ypo by @kchason in https://github.com/<br>projectdiscovery/nuclei/pull/3760  * U<br>pdated TCP protocol by @Mzack9999 in h<br>ttps://github.com/projectdiscovery/nuc<br>lei/pull/3546    Issues closed in this<br> release - https://github.com/projectd<br>iscovery/nuclei/milestone/33?closed=1 <br>   **Full Changelog**: https://github.<br>com/projectdiscovery/nuclei/compare/v2<br>.9.5...v2.9.6|
-|2023-05-29 08:53:41|[Xray_Cracked](https://github.com/NHPT/Xray_Cracked)|v1.9.11|## Xray 1.9.11 COMMUNITY-ADVANCED    <br>前段时间太忙了，今天第一时间更新下    #<br>## 版本介绍      该版本为 用友NC NCMes<br>sageServlet反序列化漏洞 注入漏洞 的应<br>急版本，相较上个版本，除了添加了一个POC<br>外，未改动其他内容。    ### 更新内容   <br> 想要检测该漏洞的师傅，可以使用    ./x<br>ray ws --poc poc-yaml-yongyou-nc-ncmes<br>sageservlet-rce --url http://example.c<br>om    进行检测。    相关参考链接：|
-|2023-05-29 05:03:49|[OneScan](https://github.com/vaycore/OneScan)|v1.0.4|1.0.4 版本发布，版本更新内容如下    #<br>## 优化    - 保存数据看板页面复选框状<br>态（将 Disable HeaderReplace、Disable D<br>irScan 的 Disable 更改为 Enable）  - <br>优化正则表达式，解决某些站点 title 读取<br>异常的问题    ### 修复    - 解决 bodyMd<br>5 参数计算错误的问题  - 解决数据看板选<br>中某条数据时，加载响应数据过慢的问题  |
+|2023-06-01 12:23:28|[nuclei](https://github.com/projectdiscovery/nuclei)|v2.9.6|## What's Changed    ### 🐞 Bug Fixes<br>    * **Fixed issue with uncover confi<br>g loader** by @tarunKoyalwar in https:<br>//github.com/projectdiscovery/nuclei/p<br>ull/3773  * Fixed issue with template <br>update option by @tarunKoyalwar in htt<br>ps://github.com/projectdiscovery/nucle<br>i/pull/3769    ### 🚨 Breaking Change <br>   * Fixed typo by @kchason in https:/<br>/github.com/projectdiscovery/nuclei/pu<br>ll/3760 (breaking change for using as <br>SDK)    ### 🔨 Maintenance  * Updated <br>TCP protocol by @Mzack9999 in https://<br>github.com/projectdiscovery/nuclei/pul<br>l/3546    Issues closed in this releas<br>e - https://github.com/projectdiscover<br>y/nuclei/milestone/33?closed=1    **Fu<br>ll Changelog**: https://github.com/pro<br>jectdiscovery/nuclei/compare/v2.9.5...<br>v2.9.6|
 ## 近15天commit提交记录
 | 提交时间 | 项目名称 | 更新内容 |
 | :---- | :---- | :---- |
-|2023-06-13 00:45:16|[NucleiTP](https://github.com/ExpLangcn/NucleiTP)|更新啦❤️|
+|2023-06-14 00:30:20|[NucleiTP](https://github.com/ExpLangcn/NucleiTP)|更新啦❤️|
+|2023-06-14 00:00:02|[free](https://github.com/freefq/free)|updated_at 06-14 08:00|
+|2023-06-13 22:29:21|[PocOrExp_in_Githu<br>b](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-06-14 06:29:20|
+|2023-06-13 20:11:55|[neuvector](https://github.com/neuvector/neuvector)|Merge pull request #873 from jeffhuang4704/NVSHAS-8<br>029-create-constant-for-apikey-onehour  Nvshas 8029 <br>create constant for apikey onehour|
+|2023-06-13 17:36:05|[trivy](https://github.com/aquasecurity/trivy)|feat(aws): Add support to see successes in results <br>(#4427)  Fixes: https://github.com/aquasecurity/triv<br>y/discussions/4417  Signed-off-by: Simar |
+|2023-06-13 17:12:06|[dbeaver](https://github.com/dbeaver/dbeaver)|dbeaver/pro#1710 jdbc model refactoring (#20279)  *<br> dbeaver/pro#1710 Extract JDBC model to separate bun<br>dle    * dbeaver/pro#1710 Extract JDBC model to sepa<br>rate bundle    * dbeaver/pro#1710 Reduce SQL editor <br>dependency    * dbeaver/pro#1710 Extract JDBC model <br>to separate bundle    * dbeaver/pro#1710 Use JDBC ab<br>straction to determine proper type by ID|
+|2023-06-13 15:36:13|[iDefender](https://github.com/wecooperate/iDefender)|add wechat group|
+|2023-06-13 15:06:35|[WebGoat](https://github.com/WebGoat/WebGoat)|chore: bump docker/login-action from 2.1.0 to 2.2.0<br> (#1502)  Bumps  from 2.1.0 to 2.2.0.  -   -     ---<br>  updated-dependencies:  - dependency-name: docker/l<br>ogin-action    dependency-type: direct:production   <br> update-type: version-update:semver-minor  ...    Si<br>gned-off-by: dependabot[bot]   Co-authored-by: depen<br>dabot[bot] |
+|2023-06-13 13:40:02|[grype](https://github.com/anchore/grype)|chore(deps): bump github/codeql-action from 2.3.6 t<br>o 2.13.4 (#1344)|
+|2023-06-13 13:13:44|[safeline](https://github.com/chaitin/safeline)|Merge pull request #97 from yrluke/add_access_log  <br>foc: copy the method|
+|2023-06-13 13:06:37|[Vuln-List](https://github.com/wwl012345/Vuln-List)|Update 终端软件漏洞合集.md|
+|2023-06-13 12:38:12|[v2rayfree](https://github.com/aiboboxx/v2rayfree)|update|
+|2023-06-13 12:20:41|[murphysec](https://github.com/murphysecurity/murphysec)|Merge pull request #177 from CN-You/v3  Fixed broke<br>n links in README|
+|2023-06-13 09:17:54|[log4j2burpscanner](https://github.com/f0ng/log4j2burpscanner)|Update FAQ-zh-CN.md|
+|2023-06-13 08:36:57|[Elkeid](https://github.com/bytedance/Elkeid)|FIXME: smith_strim should be avoided for NULL ptrs <br> only do smith_strim for real argv buffers, NULL or <br>default "-1" should be avoided  Signed-off-by: shenp<br>ing.matt |
+|2023-06-13 07:55:03|[GobypassAV-shellc<br>ode](https://github.com/Pizz33/GobypassAV-shellcode)|Update README.md|
 |2023-06-13 00:33:25|[OA-EXPTOOL](https://github.com/LittleBear4/OA-EXPTOOL)|Update ecology-mysql-config.yaml|
-|2023-06-13 00:00:03|[free](https://github.com/freefq/free)|updated_at 06-13 08:00|
-|2023-06-12 23:45:31|[v2rayfree](https://github.com/aiboboxx/v2rayfree)|update|
-|2023-06-12 20:27:05|[PocOrExp_in_Githu<br>b](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-06-13 04:27:05|
 |2023-06-12 16:54:15|[rotp](https://github.com/mdp/rotp)|chore: docker-compose.yml: Use ruby-3.0 (#128)  Thi<br>s prepares to add new stable Ruby versions.    Co-au<br>thored-by: Olle Jonsson |
-|2023-06-12 14:29:48|[dbeaver](https://github.com/dbeaver/dbeaver)|dbeaver/pro#1704 Te QM events serialization fix (#2<br>0263)|
 |2023-06-12 13:59:14|[syft](https://github.com/anchore/syft)|fix: pom properties not setting artifact id (#1870)<br>  Signed-off-by: James Neate |
-|2023-06-12 13:52:43|[trivy](https://github.com/aquasecurity/trivy)|chore(deps): bump golangci/golangci-lint-action fro<br>m 3.5.0 to 3.6.0 (#4613)  Bumps  from 3.5.0 to 3.6.0<br>. -  -   --- updated-dependencies: - dependency-name<br>: golangci/golangci-lint-action   dependency-type: d<br>irect:production   update-type: version-update:semve<br>r-minor ...  Signed-off-by: dependabot[bot]  Co-auth<br>ored-by: dependabot[bot] |
 |2023-06-12 08:09:49|[ddddocr](https://github.com/sml2h3/ddddocr)|Update README.md|
 |2023-06-12 07:35:18|[vulnerability](https://github.com/lal0ne/vulnerability)|CVE-2023-34238|
 |2023-06-12 07:07:02|[awesome-chatgpt-z<br>h](https://github.com/yzfly/awesome-chatgpt-zh)|add gptcache|
-|2023-06-12 06:50:58|[Elkeid](https://github.com/bytedance/Elkeid)|update ko ci rl8|
 |2023-06-12 06:26:00|[EmailSender](https://github.com/A10ha/EmailSender)|Update EmailSenderGUI.py  更新Log记录，增加发件成功<br>、发件失败邮箱记录。|
 |2023-06-12 04:36:28|[404StarLink](https://github.com/knownsec/404StarLink)|weekly update at 2023-06-12|
-|2023-06-12 02:57:03|[safeline](https://github.com/chaitin/safeline)|feat: release v1.8.2|
 |2023-06-11 14:01:15|[veinmind-tools](https://github.com/chaitin/veinmind-tools)|fix(docs): fix README format (#251)|
 |2023-06-11 13:21:44|[ChatGPT-Shortcut](https://github.com/rockbenben/ChatGPT-Shortcut)|refactor: optimize code structure of prompt comment<br> page|
 |2023-06-11 13:15:50|[Vulnerability-Wik<br>i](https://github.com/Threekiii/Vulnerability-Wiki)|更新漏洞|
 |2023-06-11 13:15:01|[Awesome-POC](https://github.com/Threekiii/Awesome-POC)|更新漏洞|
 |2023-06-10 15:07:26|[kube-bench](https://github.com/aquasecurity/kube-bench)|build(deps): bump golang from 1.19.4 to 1.20.4 (#14<br>36)  Bumps golang from 1.19.4 to 1.20.4.    ---  upd<br>ated-dependencies:  - dependency-name: golang    dep<br>endency-type: direct:production    update-type: vers<br>ion-update:semver-minor  ...    Signed-off-by: depen<br>dabot[bot]   Co-authored-by: dependabot[bot] |
 |2023-06-10 08:39:17|[K8tools](https://github.com/k8gege/K8tools)|Add files via upload|
-|2023-06-10 04:17:44|[neuvector](https://github.com/neuvector/neuvector)|Merge pull request #872 from williamlin-suse/main  <br>NVSHAS-8044: lots of 'Failed to put key - error=CAS <br>put error key=obj…|
 |2023-06-10 03:13:24|[afrog](https://github.com/zan8in/afrog)|update|
 |2023-06-09 21:27:24|[clair](https://github.com/quay/clair)|chore: bump Claircore to v1.5.7  Bump Claircore to <br>the latest tag.  Signed-off-by: crozzy |
-|2023-06-09 15:33:20|[grype](https://github.com/anchore/grype)|feat: add community template folder and new table t<br>emplate (#1343)  Signed-off-by: James Neate |
 |2023-06-09 13:20:09|[POC-bomber](https://github.com/tr0uble-mAker/POC-bomber)|红队版本 poc-bomber v3.0.0 redteam|
 |2023-06-09 10:44:12|[wpscan](https://github.com/wpscanteam/wpscan)|Bump version.|
 |2023-06-09 02:02:54|[Some-PoC-oR-ExP](https://github.com/coffeehb/Some-PoC-oR-ExP)|Create 老版本未授权.md|
 |2023-06-09 01:43:32|[Awesome-Redteam](https://github.com/Threekiii/Awesome-Redteam)|更新README.md|
-|2023-06-08 14:51:11|[murphysec](https://github.com/murphysecurity/murphysec)|style: use fp-go|
 |2023-06-08 10:50:35|[GoWxDump](https://github.com/SpenserCai/GoWxDump)|Merge pull request #22 from JAfox1024/master  排除W<br>MPF目录|
 |2023-06-08 09:27:11|[FrameVul](https://github.com/Awrrays/FrameVul)|Update README.md|
 |2023-06-08 09:09:21|[heapdump_tool](https://github.com/wyzxxz/heapdump_tool)|Update README.md|
 |2023-06-07 23:53:40|[ProxyPoolxSocks](https://github.com/Anyyy111/ProxyPoolxSocks)|2023.6.08|
-|2023-06-07 19:31:54|[WebGoat](https://github.com/WebGoat/WebGoat)|chore: bump maven-surefire-plugin from 3.0.0-M9 to <br>3.1.0 (#1499)  Bumps  from 3.0.0-M9 to 3.1.0.  -   -<br>     ---  updated-dependencies:  - dependency-name: <br>org.apache.maven.plugins:maven-surefire-plugin    de<br>pendency-type: direct:production    update-type: ver<br>sion-update:semver-minor  ...    Signed-off-by: depe<br>ndabot[bot]   Co-authored-by: dependabot[bot]   Co-a<br>uthored-by: René Zubcevic |
 |2023-06-07 18:13:51|[subfinder](https://github.com/projectdiscovery/subfinder)|version update|
 |2023-06-07 11:39:27|[domain_hunter_pro](https://github.com/bit4woo/domain_hunter_pro)|Update GrepUtils.java|
 |2023-06-07 06:23:01|[proxy_pool](https://github.com/jhao104/proxy_pool)|Update README.md|
@@ -96,8 +99,7 @@
 |2023-06-01 12:09:28|[nuclei](https://github.com/projectdiscovery/nuclei)|version update|
 |2023-05-31 22:16:51|[PEASS-ng](https://github.com/carlospolop/PEASS-ng)|f|
 |2023-05-30 06:51:06|[NessusToReport](https://github.com/Hypdncy/NessusToReport)|删除部分信息|
-|2023-05-30 05:13:20|[autoDecoder](https://github.com/f0ng/autoDecoder)|Update FAQ.md|
-|2023-05-29 04:31:16|[OneScan](https://github.com/vaycore/OneScan)|将数据看板界面的复选框状态保存到配置文件；将Disable<br>选项功能更改为Enable|## 所有项目
+|2023-05-30 05:13:20|[autoDecoder](https://github.com/f0ng/autoDecoder)|Update FAQ.md|## 所有项目
 # 渗透测试
 ## 信息收集
 ### 资产测绘采集
@@ -984,7 +986,7 @@
 ## 主机入侵检测
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
-| [Elkeid](https://github.com/bytedance/Elkeid) | scanner<br>-v2.2.0.<br>5_202306<br>09 | Elkeid is an open source solution that can meet the security r<br>equirements of various workloads such as hosts, containers and <br>K8s, and serverless. It is derived from ByteDance's internal be<br>st practices. |
+| [Elkeid](https://github.com/bytedance/Elkeid) | v1.7.0.<br>12-drive<br>r-ko-202<br>30613 | Elkeid is an open source solution that can meet the security r<br>equirements of various workloads such as hosts, containers and <br>K8s, and serverless. It is derived from ByteDance's internal be<br>st practices. |
 | [Hades](https://github.com/theSecHunter/Hades) |  | Hades is an cross-platform HIDS with kernel-space data collect<br>ion. |
 ## Web应用防火墙
 | 项目名称 | 版本 | 项目描述 |
@@ -1000,7 +1002,7 @@
 ## 主机入侵防御
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
-| [iDefender](https://github.com/wecooperate/iDefender) | 2.7.0 | iDefender（冰盾 - 终端主动防御系统） |
+| [iDefender](https://github.com/wecooperate/iDefender) | 2.8.0 | iDefender（冰盾 - 终端主动防御系统） |
 # 靶场
 ## web靶场
 | 项目名称 | 版本 | 项目描述 |

@@ -200,8 +200,8 @@
     "https://github.com/ycdxsb/PocOrExp_in_Github": {
         "created_at": "2021-04-13 05:46:16",
         "description": "聚合Github上已有的Poc或者Exp，CVE信息来自CVE官网。Auto Collect Poc Or Exp from Github by CVE ID.",
-        "commit_date": "2023-06-12 20:27:05",
-        "commit_message": "update 2023-06-13 04:27:05",
+        "commit_date": "2023-06-13 22:29:21",
+        "commit_message": "update 2023-06-14 06:29:20",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -461,7 +461,7 @@
     "https://github.com/ExpLangcn/NucleiTP": {
         "created_at": "2022-11-08 13:16:56",
         "description": "自动整合全网Nuclei的漏洞POC，实时同步更新最新POC！",
-        "commit_date": "2023-06-13 00:45:16",
+        "commit_date": "2023-06-14 00:30:20",
         "commit_message": "更新啦❤️",
         "release_tag": "",
         "release_date": "",
@@ -828,8 +828,8 @@
     "https://github.com/murphysecurity/murphysec": {
         "created_at": "2022-03-16 02:52:33",
         "description": "An open source tool focused on software supply chain security. 墨菲安全专注于软件供应链安全，具备专业的软件成分分析（SCA）、漏洞检测、专业漏洞库。",
-        "commit_date": "2023-06-08 14:51:11",
-        "commit_message": "style: use fp-go",
+        "commit_date": "2023-06-13 12:20:41",
+        "commit_message": "Merge pull request #177 from CN-You/v3\n\nFixed broken links in README",
         "release_tag": "v3.1.1",
         "release_date": "2023-05-15 12:52:58",
         "release_message": "Support NPM lockfile v3 "
@@ -1017,11 +1017,11 @@
     "https://github.com/wecooperate/iDefender": {
         "created_at": "2021-11-24 11:38:28",
         "description": "iDefender（冰盾 - 终端主动防御系统）",
-        "commit_date": "2023-03-24 06:02:17",
-        "commit_message": "update",
-        "release_tag": "2.7.0",
-        "release_date": "2023-05-12 03:16:59",
-        "release_message": "添加易用性、稳定性，建议更新\r\n\r\n- 更新SDK到最新的版本\r\n  - 文件的读写添加首次事件通知\r\n  - 过滤掉命名管道的读写请求\r\n  - 规则引擎优化\r\n\r\n- 去掉只读文件监控开关\r\n  - 隐私保护换成读取文件、文件映射事件\r\n\r\n- 导出规则、导入规则、分享规则添加信任列表的导出导入\r\n- 优化开机启动的逻辑，添加注册表开机启动项\r\n- 模板更新（支持经典模式：新建、修改、删除、读取等概念）\r\n  - 添加全能模板\r\n  - 添加进程行为模板\r\n  - 添加文件行为模板\r\n  - 添加注册表行为模板\r\n  - 添加网络行为模板\r\n\r\n- 其他\r\n  - 修复数据库一些操作异常\r\n  - 修复进程保护、进程操作拦截可能导致进程启动不了的问题\r\n  - 修复一些误报问题\r\n  - 修复对话框界面最大化状态的阴影问题\r\n  - 规则引擎添加更多扩展属性\r\n\r\n\r\n\r\n<div class = \"md_footer\" >\r\n  <a href = \"https://imonitorsdk.com/publish/iDefender.exe\"> <button class=\"main-button\"> 软件下载 </button></a>\r\n</div>"
+        "commit_date": "2023-06-13 15:36:13",
+        "commit_message": "add wechat group",
+        "release_tag": "2.8.0",
+        "release_date": "2023-06-13 15:31:06",
+        "release_message": "重要版本，建议更新\r\n\r\n- 更新iMonitorSDK到最新版本\r\n  - 去掉没有文档化的AFD驱动监控，网络监控都使用WFP框架实现\r\n  - 添加ICMP拦截支持\r\n- 接入iFoundation冰塔快速开发框架\r\n  - **支持模块化升级：少量的修改直接通过模块升级自动更新，不需要再频繁手动升级了**\r\n  - 支持企业管理能力（企业管理后台会在3.0版本正式上线）\r\n    - 支持统一管理\r\n    - 支持策略下发\r\n    - 支持功能扩展、定制、二次开发、系统集成\r\n\r\n- 添加工具箱\r\n  - 冰镜终端行为分析系统\r\n  - 冰鉴软件行为分析系统\r\n  - 冰云安全U盘\r\n  - 冰刃进程强杀、文件强删\r\n\r\n- 添加微信交流群（在关于冰盾页面可以获取二维码）\r\n- 修复一些问题\r\n  - 修复快速查找大小写敏感的问题\r\n  - 修复导入规则的信任列表部分场景导入失败的问题\r\n  - 修复信任列表多个规则匹配不生效的问题\r\n\r\n- 优化其他一些使用体验\r\n\r\n<div class = \"md_footer\" >\r\n  <a href = \"https://imonitorsdk.com/publish/iDefender.exe\"> <button class=\"main-button\"> 软件下载 </button></a>\r\n</div>"
     },
     "https://github.com/Mr-xn/BurpSuite-collections": {
         "created_at": "2020-01-25 02:07:37",
@@ -2122,8 +2122,8 @@
     "https://github.com/wwl012345/Vuln-List": {
         "created_at": "2022-03-01 03:07:52",
         "description": "(持续更新)对网上出现的各种OA、中间件、CMS等漏洞进行整理，主要包括漏洞介绍、漏洞影响版本以及漏洞POC/EXP等，并且会持续更新。",
-        "commit_date": "2023-04-11 07:30:37",
-        "commit_message": "Update Windows&Linux提权&RCE合集.md",
+        "commit_date": "2023-06-13 13:06:37",
+        "commit_message": "Update 终端软件漏洞合集.md",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -2951,8 +2951,8 @@
     "https://github.com/dbeaver/dbeaver": {
         "created_at": "2015-10-21 08:26:28",
         "description": "Free universal database tool and SQL client",
-        "commit_date": "2023-06-12 14:29:48",
-        "commit_message": "dbeaver/pro#1704 Te QM events serialization fix (#20263)",
+        "commit_date": "2023-06-13 17:12:06",
+        "commit_message": "dbeaver/pro#1710 jdbc model refactoring (#20279)\n\n* dbeaver/pro#1710 Extract JDBC model to separate bundle\r\n\r\n* dbeaver/pro#1710 Extract JDBC model to separate bundle\r\n\r\n* dbeaver/pro#1710 Reduce SQL editor dependency\r\n\r\n* dbeaver/pro#1710 Extract JDBC model to separate bundle\r\n\r\n* dbeaver/pro#1710 Use JDBC abstraction to determine proper type by ID",
         "release_tag": "23.1.0",
         "release_date": "2023-06-04 19:54:58",
         "release_message": "\n                - SQL Editor:\n                    - Autocomplete now supports [ ] and ` as quotes for identifiers\n                    - Shortcut confict on macOS was fixed\n                    - JSQLParser was reverted to the version 4.5 and is now faster\n                    - Issue with substitution variables in text with \\n line feeds was fixed\n                    - Autocomplete case with FROM right after SELECT is now handled\n                    - Autocomplete for SELECT query without FROM was fixed\n                    - 'Go to Matching Bracket' shortcut was changed to CTRL+SHIFT+[\n                    - Autocomplete for columns in tables without alias was fixed\n                    - Completion analyze errors are now written to the debug log\n                    - Comment with a tab after a double dash is now handle\n                    - Issue with hiding cursor position after resizing the editor was fixed\n                    - Exeption when updating editor annotations was fixed\n                - Data Editor:\n                    - Data ordering was improved\n                - General UI:\n                    - Changing the size and position of the connection dialog is now saved\n                    - Issue with the application freezing when creating a table when the connection hangs was fixed\n                    - Tips of the day were revised\n                - Connectivity:\n                    - Option to disable SSHJ hostname verification was added (thanks to @ryanc-me)\n                    - Issue when switching from Community to PRO version and vice versa was fixed\n                - Databases:\n                    - ClickHouse: display of large numbers was fixed\n                    - MariaDB: partition support was added\n                    - Oracle:\n                        - Issue issue with native clients hanging when running SQLPlus scripts was fixed\n                        - Issue with setting the wrong schema after connecting or changing the Data Editor was fixed\n                    - PostgreSQL:\n                        - Issue with an exception when loading attribute information was fixed\n                        - Reading a numeric array was fixed\n                    - Trino: error handling was improved\n                 - Localization:\n                    - German localization was improved (thanks to @hype11)\n                    - Italian localization was improved (thanks to @Gnafu)\n                 - Misc:\n                    - Images for all DBeaver Eclipse extensions were added\n                    - Legacy ODBC driver based on the obsolete Java 7 was deprecated due to many issues\n            "
@@ -3099,7 +3099,7 @@
         "commit_message": "version update",
         "release_tag": "v2.9.6",
         "release_date": "2023-06-01 12:23:28",
-        "release_message": "## What's Changed\r\n* **Fixed issue with uncover config loader** by @tarunKoyalwar in https://github.com/projectdiscovery/nuclei/pull/3773\r\n* Fixed issue with template update option by @tarunKoyalwar in https://github.com/projectdiscovery/nuclei/pull/3769\r\n* Fixed typo by @kchason in https://github.com/projectdiscovery/nuclei/pull/3760\r\n* Updated TCP protocol by @Mzack9999 in https://github.com/projectdiscovery/nuclei/pull/3546\r\n\r\nIssues closed in this release - https://github.com/projectdiscovery/nuclei/milestone/33?closed=1\r\n\r\n**Full Changelog**: https://github.com/projectdiscovery/nuclei/compare/v2.9.5...v2.9.6"
+        "release_message": "## What's Changed\r\n\r\n### 🐞 Bug Fixes\r\n\r\n* **Fixed issue with uncover config loader** by @tarunKoyalwar in https://github.com/projectdiscovery/nuclei/pull/3773\r\n* Fixed issue with template update option by @tarunKoyalwar in https://github.com/projectdiscovery/nuclei/pull/3769\r\n\r\n### 🚨 Breaking Change\r\n\r\n* Fixed typo by @kchason in https://github.com/projectdiscovery/nuclei/pull/3760 (breaking change for using as SDK)\r\n\r\n### 🔨 Maintenance\r\n* Updated TCP protocol by @Mzack9999 in https://github.com/projectdiscovery/nuclei/pull/3546\r\n\r\nIssues closed in this release - https://github.com/projectdiscovery/nuclei/milestone/33?closed=1\r\n\r\n**Full Changelog**: https://github.com/projectdiscovery/nuclei/compare/v2.9.5...v2.9.6"
     },
     "https://github.com/sleeyax/burp-awesome-tls": {
         "created_at": "2022-01-24 00:30:26",
@@ -3298,10 +3298,10 @@
     "https://github.com/bytedance/Elkeid": {
         "created_at": "2020-12-18 03:15:54",
         "description": "Elkeid is an open source solution that can meet the security requirements of various workloads such as hosts, containers and K8s, and serverless. It is derived from ByteDance's internal best practices.",
-        "commit_date": "2023-06-12 06:50:58",
-        "commit_message": "update ko ci rl8",
-        "release_tag": "scanner-v2.2.0.5_20230609",
-        "release_date": "2023-06-09 03:44:56",
+        "commit_date": "2023-06-13 08:36:57",
+        "commit_message": "FIXME: smith_strim should be avoided for NULL ptrs\n\nonly do smith_strim for real argv buffers, NULL or default\n\"-1\" should be avoided\n\nSigned-off-by: shenping.matt <shenping.matt@bytedance.com>",
+        "release_tag": "v1.7.0.12-driver-ko-20230613",
+        "release_date": "2023-06-13 18:41:20",
         "release_message": ""
     },
     "https://github.com/knownsec/ct": {
@@ -3530,8 +3530,8 @@
     "https://github.com/f0ng/log4j2burpscanner": {
         "created_at": "2021-12-11 07:19:11",
         "description": "CVE-2021-44228 Log4j2 BurpSuite Scanner,Customize ceye.io api or other apis,including internal networks",
-        "commit_date": "2023-04-26 14:29:38",
-        "commit_message": "Update README.md",
+        "commit_date": "2023-06-13 09:17:54",
+        "commit_message": "Update FAQ-zh-CN.md",
         "release_tag": "0.25.0",
         "release_date": "2023-04-26 14:33:25",
         "release_message": "# 0.25.0 update\r\n## 2023-4-26\r\n1. fix bugs\r\n_____________________________________________________________\r\n1. 修复bug，感谢A_Adam师傅反馈"
@@ -3888,8 +3888,8 @@
     "https://github.com/neuvector/neuvector": {
         "created_at": "2021-12-17 20:15:03",
         "description": "",
-        "commit_date": "2023-06-10 04:17:44",
-        "commit_message": "Merge pull request #872 from williamlin-suse/main\n\nNVSHAS-8044: lots of 'Failed to put key - error=CAS put error key=obj…",
+        "commit_date": "2023-06-13 20:11:55",
+        "commit_message": "Merge pull request #873 from jeffhuang4704/NVSHAS-8029-create-constant-for-apikey-onehour\n\nNvshas 8029 create constant for apikey onehour",
         "release_tag": "v5.1.3",
         "release_date": "2023-05-09 18:16:30",
         "release_message": "Features:\r\nAdd new vulnerability feed for scanning Microsoft .NET framework\r\nEnforcer stats is disabled by default in Prometheus exporter to improve scalability\r\nUseability improvement: Using scanner to scan single image and print the result\r\nAdd imagePullPolicy check in admission control\r\n\r\n\r\nBug fixes:\r\nEmpty group auto-removal takes 2 hours to delete instead of 1 hour according to schedule\r\nCompliance profile doesn't show in UI console\r\n"
@@ -3915,8 +3915,8 @@
     "https://github.com/chaitin/safeline": {
         "created_at": "2023-04-12 11:30:14",
         "description": "长亭科技自研，基于业界领先的语义引擎检测技术，打造的简洁、易用的免费 WAF",
-        "commit_date": "2023-06-12 02:57:03",
-        "commit_message": "feat: release v1.8.2",
+        "commit_date": "2023-06-13 13:13:44",
+        "commit_message": "Merge pull request #97 from yrluke/add_access_log\n\nfoc: copy the method",
         "release_tag": "v1.8.2",
         "release_date": "2023-06-12 03:11:45",
         "release_message": "## 修复\r\n\r\n- 「30 天访问情况」和「30 天拦截情况」显示数据相同"
@@ -3969,8 +3969,8 @@
     "https://github.com/aquasecurity/trivy": {
         "created_at": "2019-04-11 01:01:07",
         "description": "Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more",
-        "commit_date": "2023-06-12 13:52:43",
-        "commit_message": "chore(deps): bump golangci/golangci-lint-action from 3.5.0 to 3.6.0 (#4613)\n\nBumps [golangci/golangci-lint-action](https://github.com/golangci/golangci-lint-action) from 3.5.0 to 3.6.0.\n- [Release notes](https://github.com/golangci/golangci-lint-action/releases)\n- [Commits](https://github.com/golangci/golangci-lint-action/compare/v3.5.0...v3.6.0)\n\n---\nupdated-dependencies:\n- dependency-name: golangci/golangci-lint-action\n  dependency-type: direct:production\n  update-type: version-update:semver-minor\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
+        "commit_date": "2023-06-13 17:36:05",
+        "commit_message": "feat(aws): Add support to see successes in results (#4427)\n\nFixes: https://github.com/aquasecurity/trivy/discussions/4417\n\nSigned-off-by: Simar <simar@linux.com>",
         "release_tag": "v0.42.1",
         "release_date": "2023-06-08 15:09:13",
         "release_message": "## Changelog\n* 9a279fa7b ci: remove 32bit packages (#4585)\n* d52b0b7bc fix(misconf): deduplicate misconf results (#4588)\n* 9b531fa27 fix(vm): support sector size of 4096 (#4564)\n* 8ca1bfdd2 fix(misconf): terraform relative paths (#4571)\n* c20d46604 fix(purl): skip unsupported library type (#4577)\n* 52cbe7975 fix(terraform): recursively detect all Root Modules (#4457)\n* 4a5b91557 fix(vm): support post analyzer for vm command (#4544)\n* 56cdc55f7 fix(nodejs): change the type of the devDependencies field (#4560)\n* 17d753676 fix(sbom): export empty dependencies in CycloneDX (#4568)\n* 2796abe1e refactor: add composite fs for post-analyzers (#4556)\n* 22a157380 chore(deps): bump golangci/golangci-lint-action from 3.4.0 to 3.5.0 (#4554)\n* 43586659a chore(deps): bump helm/kind-action from 1.5.0 to 1.7.0 (#4526)\n* 508139965 chore(deps): bump github.com/BurntSushi/toml from 1.2.1 to 1.3.0 (#4528)\n* e1a38128a chore(deps): bump github.com/alicebob/miniredis/v2 from 2.30.2 to 2.30.3 (#4529)\n* 283eef637 chore(deps): bump github.com/aws/aws-sdk-go-v2/service/ec2 (#4536)\n* bbd7b9874 chore(deps): bump github.com/tetratelabs/wazero from 1.0.0 to 1.2.0 (#4549)\n* 11c81bf2f chore(deps): bump github.com/spf13/cast from 1.5.0 to 1.5.1 (#4532)\n* 2d8d63e61 chore(deps): bump github.com/testcontainers/testcontainers-go (#4537)\n* a46839b1c chore(deps): bump github.com/go-git/go-git/v5 from 5.6.1 to 5.7.0 (#4530)\n* 19715f5de chore(deps): bump github.com/aws/aws-sdk-go-v2/config (#4534)\n\n"
@@ -3978,8 +3978,8 @@
     "https://github.com/anchore/grype": {
         "created_at": "2020-05-26 13:44:38",
         "description": "A vulnerability scanner for container images and filesystems",
-        "commit_date": "2023-06-09 15:33:20",
-        "commit_message": "feat: add community template folder and new table template (#1343)\n\nSigned-off-by: James Neate <jamesmneate@gmail.com>",
+        "commit_date": "2023-06-13 13:40:02",
+        "commit_message": "chore(deps): bump github/codeql-action from 2.3.6 to 2.13.4 (#1344)",
         "release_tag": "v0.62.3",
         "release_date": "2023-06-05 21:38:02",
         "release_message": "# Changelog\r\n\r\n## [v0.62.3](https://github.com/anchore/grype/tree/v0.62.3) (2023-06-05)\r\n\r\n[Full Changelog](https://github.com/anchore/grype/compare/v0.62.2...v0.62.3)\r\n\r\n### Bug Fixes\r\n\r\n- Suppressed vulnerabilties are now correctly hidden, unless the --show-suppressed option is provided.\r\n[[Issue #1053](https://github.com/anchore/grype/issues/1053)] [[Issue #1278](https://github.com/anchore/grype/issues/1278)] [[PR #1322](https://github.com/anchore/grype/pull/1322)] [[jamestran201](https://github.com/jamestran201)]\r\n\r\n\r\n\r\n"
@@ -4059,8 +4059,8 @@
     "https://github.com/WebGoat/WebGoat": {
         "created_at": "2015-03-06 14:02:02",
         "description": "WebGoat is a deliberately insecure application",
-        "commit_date": "2023-06-07 19:31:54",
-        "commit_message": "chore: bump maven-surefire-plugin from 3.0.0-M9 to 3.1.0 (#1499)\n\nBumps [maven-surefire-plugin](https://github.com/apache/maven-surefire) from 3.0.0-M9 to 3.1.0.\r\n- [Release notes](https://github.com/apache/maven-surefire/releases)\r\n- [Commits](https://github.com/apache/maven-surefire/compare/surefire-3.0.0-M9...surefire-3.1.0)\r\n\r\n---\r\nupdated-dependencies:\r\n- dependency-name: org.apache.maven.plugins:maven-surefire-plugin\r\n  dependency-type: direct:production\r\n  update-type: version-update:semver-minor\r\n...\r\n\r\nSigned-off-by: dependabot[bot] <support@github.com>\r\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>\r\nCo-authored-by: René Zubcevic <rene@zubcevic.com>",
+        "commit_date": "2023-06-13 15:06:35",
+        "commit_message": "chore: bump docker/login-action from 2.1.0 to 2.2.0 (#1502)\n\nBumps [docker/login-action](https://github.com/docker/login-action) from 2.1.0 to 2.2.0.\r\n- [Release notes](https://github.com/docker/login-action/releases)\r\n- [Commits](https://github.com/docker/login-action/compare/v2.1.0...v2.2.0)\r\n\r\n---\r\nupdated-dependencies:\r\n- dependency-name: docker/login-action\r\n  dependency-type: direct:production\r\n  update-type: version-update:semver-minor\r\n...\r\n\r\nSigned-off-by: dependabot[bot] <support@github.com>\r\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
         "release_tag": "v2023.4",
         "release_date": "2023-02-17 12:16:10",
         "release_message": "## Version 2023.4\r\n\r\n### New functionality\r\n\r\n- [#1422 Add Docker Linux Desktop variant with all tools installed](https://github.com/WebGoat/WebGoat/issues/1422). Thanks to the [OWASP WrongSecrets project](https://owasp.org/www-project-wrongsecrets/) we now have a Docker Linux desktop image with all the tools installed. No need to install any tools locally only run the new Docker image. See README.md for details on how to start it.\r\n- [#1411 JWT: looks that buy as Tom also works with alg:none](https://github.com/WebGoat/WebGoat/issues/1411).\r\n\r\n### Bug fixes\r\n\r\n- [#1410 WebWolf: JWT decode is broken](https://github.com/WebGoat/WebGoat/issues/1410).\r\n- [#1396 password_reset return 500 Error](https://github.com/WebGoat/WebGoat/issues/1396).\r\n- [#1379 Move XXE to A05:2021-Security Misconfiguration](https://github.com/WebGoat/WebGoat/issues/1379)."
@@ -4248,7 +4248,7 @@
     "https://github.com/Pizz33/GobypassAV-shellcode": {
         "created_at": "2023-04-18 07:42:36",
         "description": "免杀shellcode加载器，使用go实现，免杀bypass火绒、360、核晶、def等主流杀软",
-        "commit_date": "2023-05-17 16:21:11",
+        "commit_date": "2023-06-13 07:55:03",
         "commit_message": "Update README.md",
         "release_tag": "",
         "release_date": "",
@@ -4275,7 +4275,7 @@
     "https://github.com/aiboboxx/v2rayfree": {
         "created_at": "2021-10-13 11:34:53",
         "description": "v2ray公益免费节点、最新2ray免费v节点订阅地址、v2ray免费节点每日更新、免费ss/v2ray/trojan节点、freefq ",
-        "commit_date": "2023-06-12 23:45:31",
+        "commit_date": "2023-06-13 12:38:12",
         "commit_message": "update",
         "release_tag": "",
         "release_date": "",
@@ -4320,8 +4320,8 @@
     "https://github.com/freefq/free": {
         "created_at": "2020-06-07 02:48:33",
         "description": "翻墙、免费翻墙、免费科学上网、免费节点、免费梯子、免费ss/v2ray/trojan节点、蓝灯、谷歌商店、翻墙梯子",
-        "commit_date": "2023-06-13 00:00:03",
-        "commit_message": "updated_at 06-13 08:00",
+        "commit_date": "2023-06-14 00:00:02",
+        "commit_message": "updated_at 06-14 08:00",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
