@@ -1,11 +1,12 @@
-# 更新于 2023-06-15 08:48:17
+# 更新于 2023-06-16 08:46:32
 
 ## 近15天release更新记录
 | 更新时间 | 项目名称 | 版本 | 更新内容 |
 | :---- | :---- | :---- | :---- |
+|2023-06-15 15:03:58|[Elkeid](https://github.com/bytedance/Elkeid)|v1.7.0.<br>12-drive<br>r-ko-202<br>30615||
+|2023-06-15 03:50:43|[GoWxDump](https://github.com/SpenserCai/GoWxDump)|v1.0.12|#22 |
 |2023-06-14 18:00:51|[syft](https://github.com/anchore/syft)|v0.83.1|# Changelog    ##  (2023-06-14)      <br>  ### Bug Fixes    - fix: pom properti<br>es not setting artifact id ] ]  - fix(<br>deps): pull in platform selection fix <br>from stereoscope ] ] - pulling in an i<br>mage with a digest that does not match<br> the platform and architecture of the <br>host no longer fails with an error, se<br>e https://github.com/anchore/stereosco<br>pe/issues/188  - symlinks within a sca<br>nned directory tree are parsed outside<br> the tree, failing if target does not <br>exist ] ] ]        |
 |2023-06-14 13:43:13|[afrog](https://github.com/zan8in/afrog)|v2.5.3|**Add:**  -target / -t now supports m<br>ultiple URLs, such as: afrog -t exampl<br>e.com,hackerone.com,nmap.org  Add JNDI<br> reverse connection functionality.  Ad<br>d the afrog calling library and a demo<br>nstration example.    **新增：**  -tar<br>get / -t 现在支持多个 URL，比如：afrog<br> -t example.com,hackerone.com,nmap.org<br>  添加 JNDI 反连功能   添加 afrog 调用<br>库和演示示例|
-|2023-06-14 11:30:17|[Elkeid](https://github.com/bytedance/Elkeid)|v1.7.0.<br>10-drive<br>r-ko-202<br>30614||
 |2023-06-14 03:14:46|[EHole](https://github.com/EdgeSecurityTeam/EHole)|v3.1|1. 修复 JS 跳转同时匹配使用单引号或双<br>引号包围的URL；  2. 修复 URL 是否已经以<br>"/"结尾，如果是，就不再添加"/"；  3. <br>修复 UA 头被检测问题；  4. 新增 [202301<br>31] finger.json 指纹；  5. 修改 fofa.i<br>nfo API 接口。|
 |2023-06-13 15:31:06|[iDefender](https://github.com/wecooperate/iDefender)|2.8.0|重要版本，建议更新    - 更新iMonitorS<br>DK到最新版本    - 去掉没有文档化的AFD<br>驱动监控，网络监控都使用WFP框架实现    <br>- 添加ICMP拦截支持  - 接入iFoundation<br>冰塔快速开发框架    - **支持模块化升级<br>：少量的修改直接通过模块升级自动更新，<br>不需要再频繁手动升级了**    - 支持企业<br>管理能力（企业管理后台会在3.0版本正式上<br>线）      - 支持统一管理      - 支持策<br>略下发      - 支持功能扩展、定制、二次<br>开发、系统集成    - 添加工具箱    - 冰<br>镜终端行为分析系统    - 冰鉴软件行为分<br>析系统    - 冰云安全U盘    - 冰刃进程强<br>杀、文件强删    - 添加微信交流群（在关<br>于冰盾页面可以获取二维码）  - 修复一些<br>问题    - 修复快速查找大小写敏感的问题 <br>   - 修复导入规则的信任列表部分场景导<br>入失败的问题    - 修复信任列表多个规则<br>匹配不生效的问题    - 优化其他一些使用<br>体验          软件下载   |
 |2023-06-12 03:11:45|[safeline](https://github.com/chaitin/safeline)|v1.8.2|## 修复    - 「30 天访问情况」和「30 <br>天拦截情况」显示数据相同|
@@ -30,30 +31,34 @@
 ## 近15天commit提交记录
 | 提交时间 | 项目名称 | 更新内容 |
 | :---- | :---- | :---- |
-|2023-06-15 00:45:20|[NucleiTP](https://github.com/ExpLangcn/NucleiTP)|更新啦❤️|
-|2023-06-15 00:00:02|[free](https://github.com/freefq/free)|updated_at 06-15 08:00|
-|2023-06-14 22:29:52|[PocOrExp_in_Githu<br>b](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-06-15 06:29:52|
+|2023-06-16 00:45:18|[NucleiTP](https://github.com/ExpLangcn/NucleiTP)|更新啦❤️|
+|2023-06-16 00:00:03|[free](https://github.com/freefq/free)|updated_at 06-16 08:00|
+|2023-06-15 22:32:53|[PocOrExp_in_Githu<br>b](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-06-16 06:32:53|
+|2023-06-15 20:49:05|[clair](https://github.com/quay/clair)|cicd: fix nightly-ci error  This fixes the nightly-<br>ci workflow and adds a means to lint and validate th<br>e workflow files.  Signed-off-by: Hank Donnay |
+|2023-06-15 18:18:56|[dbeaver](https://github.com/dbeaver/dbeaver)|23.1.1 config|
+|2023-06-15 18:10:11|[syft](https://github.com/anchore/syft)|chore(deps): bump golang.org/x/mod from 0.10.0 to 0<br>.11.0 (#1878)  Bumps  from 0.10.0 to 0.11.0.  -     <br>---  updated-dependencies:  - dependency-name: golan<br>g.org/x/mod    dependency-type: direct:production   <br> update-type: version-update:semver-minor  ...    Si<br>gned-off-by: dependabot[bot]   Co-authored-by: depen<br>dabot[bot] |
+|2023-06-15 17:26:33|[WebGoat](https://github.com/WebGoat/WebGoat)|format|
+|2023-06-15 14:04:13|[grype](https://github.com/anchore/grype)|chore(deps): update Syft to v0.83.1 (#1352)|
+|2023-06-15 13:33:41|[murphysec](https://github.com/murphysecurity/murphysec)|fix: panic when path is a file|
+|2023-06-15 12:37:54|[v2rayfree](https://github.com/aiboboxx/v2rayfree)|update|
+|2023-06-15 11:20:37|[Scanners-Box](https://github.com/We5ter/Scanners-Box)|[+]chainreactors/gogo|
+|2023-06-15 10:35:00|[awesome-chatgpt-z<br>h](https://github.com/yzfly/awesome-chatgpt-zh)|add openai alternatives|
+|2023-06-15 09:44:24|[trivy](https://github.com/aquasecurity/trivy)|chore(deps): bump go-containerregistry (#4639)|
+|2023-06-15 07:08:05|[Elkeid](https://github.com/bytedance/Elkeid)|FIXME: possible leak of kernel info in processing u<br>ser params  All callers of smith_copy_from_user and <br>smith_get_user are vulnerable since these 2 function<br>s don't validate the user parameters (could be addre<br>sses in kernel space) which could be easily manipula<br>ted by user apps, eg in write_pre_handler.  The risk<br> is low, since root privilege is required to access <br>our HIDS log.  Signed-off-by: shenping.matt |
+|2023-06-15 06:57:15|[afrog](https://github.com/zan8in/afrog)|verify some poc|
+|2023-06-15 06:28:45|[0day](https://github.com/helloexp/0day)|add usage for CVE-2022-0847|
+|2023-06-15 03:49:16|[GoWxDump](https://github.com/SpenserCai/GoWxDump)|#22|
+|2023-06-15 02:16:57|[OA-EXPTOOL](https://github.com/LittleBear4/OA-EXPTOOL)|Update output.py|
+|2023-06-15 02:11:00|[GobypassAV-shellc<br>ode](https://github.com/Pizz33/GobypassAV-shellcode)|Update decodecs.go|
 |2023-06-14 21:12:51|[Mobile-Security-F<br>ramework-MobSF](https://github.com/MobSF/Mobile-Security-Framework-MobSF)|Update requirements.txt  0.13.1 not available.|
-|2023-06-14 20:07:11|[grype](https://github.com/anchore/grype)|chore(deps): bump golang.org/x/term from 0.8.0 to 0<br>.9.0 (#1350)  Bumps  from 0.8.0 to 0.9.0.  -     ---<br>  updated-dependencies:  - dependency-name: golang.o<br>rg/x/term    dependency-type: direct:production    u<br>pdate-type: version-update:semver-minor  ...    Sign<br>ed-off-by: dependabot[bot]   Co-authored-by: dependa<br>bot[bot] |
 |2023-06-14 20:02:10|[neuvector](https://github.com/neuvector/neuvector)|Merge pull request #876 from jayhuang-suse/eight  N<br>VSHAS-8048: exit_code is not correct if container is<br> stopped in native docker setup|
-|2023-06-14 15:45:39|[syft](https://github.com/anchore/syft)|chore(deps): bump modernc.org/sqlite from 1.23.0 to<br> 1.23.1 (#1874)  Bumps  from 1.23.0 to 1.23.1.  -   <br>  ---  updated-dependencies:  - dependency-name: mod<br>ernc.org/sqlite    dependency-type: direct:productio<br>n    update-type: version-update:semver-patch  ...  <br>  Signed-off-by: dependabot[bot]   Co-authored-by: d<br>ependabot[bot] |
-|2023-06-14 15:43:13|[dbeaver](https://github.com/dbeaver/dbeaver)|Bundle vendor update|
-|2023-06-14 13:36:56|[afrog](https://github.com/zan8in/afrog)|update|
-|2023-06-14 12:38:23|[v2rayfree](https://github.com/aiboboxx/v2rayfree)|update|
 |2023-06-14 09:48:35|[FrameVul](https://github.com/Awrrays/FrameVul)|Update README.md|
 |2023-06-14 09:22:46|[safeline](https://github.com/chaitin/safeline)|Merge pull request #99 from yrluke/add_access_log  <br>doc: add the server_name index|
-|2023-06-14 09:10:55|[awesome-chatgpt-z<br>h](https://github.com/yzfly/awesome-chatgpt-zh)|add AI-For-Beginners,dialoqbase,rebuff,gpt-engineer|
-|2023-06-14 08:31:00|[WebGoat](https://github.com/WebGoat/WebGoat)|chore: bump docker/setup-qemu-action from 2.1.0 to <br>2.2.0 (#1503)  Bumps  from 2.1.0 to 2.2.0.  -   -   <br>  ---  updated-dependencies:  - dependency-name: doc<br>ker/setup-qemu-action    dependency-type: direct:pro<br>duction    update-type: version-update:semver-minor <br> ...    Signed-off-by: dependabot[bot]   Co-authored<br>-by: dependabot[bot] |
 |2023-06-14 03:08:05|[EHole](https://github.com/EdgeSecurityTeam/EHole)|Update|
-|2023-06-14 02:26:10|[trivy](https://github.com/aquasecurity/trivy)|fix(db): change argument order in Exists query for <br>JavaDB (#4595)|
 |2023-06-14 01:55:59|[vulnerability](https://github.com/lal0ne/vulnerability)|蓝凌OA treexml.tmpl远程命令执行漏洞|
 |2023-06-13 15:36:13|[iDefender](https://github.com/wecooperate/iDefender)|add wechat group|
 |2023-06-13 13:06:37|[Vuln-List](https://github.com/wwl012345/Vuln-List)|Update 终端软件漏洞合集.md|
-|2023-06-13 12:20:41|[murphysec](https://github.com/murphysecurity/murphysec)|Merge pull request #177 from CN-You/v3  Fixed broke<br>n links in README|
 |2023-06-13 09:17:54|[log4j2burpscanner](https://github.com/f0ng/log4j2burpscanner)|Update FAQ-zh-CN.md|
-|2023-06-13 08:36:57|[Elkeid](https://github.com/bytedance/Elkeid)|FIXME: smith_strim should be avoided for NULL ptrs <br> only do smith_strim for real argv buffers, NULL or <br>default "-1" should be avoided  Signed-off-by: shenp<br>ing.matt |
-|2023-06-13 07:55:03|[GobypassAV-shellc<br>ode](https://github.com/Pizz33/GobypassAV-shellcode)|Update README.md|
-|2023-06-13 00:33:25|[OA-EXPTOOL](https://github.com/LittleBear4/OA-EXPTOOL)|Update ecology-mysql-config.yaml|
 |2023-06-12 16:54:15|[rotp](https://github.com/mdp/rotp)|chore: docker-compose.yml: Use ruby-3.0 (#128)  Thi<br>s prepares to add new stable Ruby versions.    Co-au<br>thored-by: Olle Jonsson |
 |2023-06-12 08:09:49|[ddddocr](https://github.com/sml2h3/ddddocr)|Update README.md|
 |2023-06-12 06:26:00|[EmailSender](https://github.com/A10ha/EmailSender)|Update EmailSenderGUI.py  更新Log记录，增加发件成功<br>、发件失败邮箱记录。|
@@ -64,12 +69,10 @@
 |2023-06-11 13:15:01|[Awesome-POC](https://github.com/Threekiii/Awesome-POC)|更新漏洞|
 |2023-06-10 15:07:26|[kube-bench](https://github.com/aquasecurity/kube-bench)|build(deps): bump golang from 1.19.4 to 1.20.4 (#14<br>36)  Bumps golang from 1.19.4 to 1.20.4.    ---  upd<br>ated-dependencies:  - dependency-name: golang    dep<br>endency-type: direct:production    update-type: vers<br>ion-update:semver-minor  ...    Signed-off-by: depen<br>dabot[bot]   Co-authored-by: dependabot[bot] |
 |2023-06-10 08:39:17|[K8tools](https://github.com/k8gege/K8tools)|Add files via upload|
-|2023-06-09 21:27:24|[clair](https://github.com/quay/clair)|chore: bump Claircore to v1.5.7  Bump Claircore to <br>the latest tag.  Signed-off-by: crozzy |
 |2023-06-09 13:20:09|[POC-bomber](https://github.com/tr0uble-mAker/POC-bomber)|红队版本 poc-bomber v3.0.0 redteam|
 |2023-06-09 10:44:12|[wpscan](https://github.com/wpscanteam/wpscan)|Bump version.|
 |2023-06-09 02:02:54|[Some-PoC-oR-ExP](https://github.com/coffeehb/Some-PoC-oR-ExP)|Create 老版本未授权.md|
 |2023-06-09 01:43:32|[Awesome-Redteam](https://github.com/Threekiii/Awesome-Redteam)|更新README.md|
-|2023-06-08 10:50:35|[GoWxDump](https://github.com/SpenserCai/GoWxDump)|Merge pull request #22 from JAfox1024/master  排除W<br>MPF目录|
 |2023-06-08 09:09:21|[heapdump_tool](https://github.com/wyzxxz/heapdump_tool)|Update README.md|
 |2023-06-07 23:53:40|[ProxyPoolxSocks](https://github.com/Anyyy111/ProxyPoolxSocks)|2023.6.08|
 |2023-06-07 18:13:51|[subfinder](https://github.com/projectdiscovery/subfinder)|version update|
@@ -99,8 +102,7 @@
 |2023-06-02 06:01:14|[AsamF](https://github.com/Kento-Sec/AsamF)|Update README.md|
 |2023-06-01 22:42:34|[SSTImap](https://github.com/vladko312/SSTImap)|Version 1.1.4 (Improvements)  Added functionality f<br>or loading and saving URLs and forms  Added a way to<br> set blind injection delay and response logging with<br>out config  Now you can set delay between requests  <br>Random user agent now works during crawling  Random <br>user agent is now chosen for every request  Added cu<br>stom plugins to gitignore  Fixed a bug with default <br>False values  Fixed some bugs with the crawler    A <br>minor update with simple improvements and fixes|
 |2023-06-01 16:36:44|[revsuit](https://github.com/Li4n0/revsuit)|chore(release): 0.7.1|
-|2023-06-01 12:09:28|[nuclei](https://github.com/projectdiscovery/nuclei)|version update|
-|2023-05-31 22:16:51|[PEASS-ng](https://github.com/carlospolop/PEASS-ng)|f|## 所有项目
+|2023-06-01 12:09:28|[nuclei](https://github.com/projectdiscovery/nuclei)|version update|## 所有项目
 # 渗透测试
 ## 信息收集
 ### 资产测绘采集
@@ -404,7 +406,7 @@
 | [seeyon_exp](https://github.com/Summer177/seeyon_exp) |  | 致远OA综合利用工具 |
 | [SeeyonExploit-GUI](https://github.com/God-Ok/SeeyonExploit-GUI) |  | 致远OA综合利用工具V1.0 |
 | [TDOA_RCE](https://github.com/xinyu2428/TDOA_RCE) | v1.0 | 通达OA综合利用工具 |
-| [LandrayExploit](https://github.com/yuanhaiGreg/LandrayExploit) | 1.1 | 蓝凌OA漏洞利用工具/前台无条件RCE/文件写入 |
+| [LandrayExploit](https://github.com/yuanhaiGreg/LandrayExploit) |  |  |
 | [weaver_exp](https://github.com/z1un/weaver_exp) |  | 泛微OA漏洞综合利用脚本 |
 | [EgGateWayGetShell](https://github.com/Tas9er/EgGateWayGetShell) |  | Code By:Tas9er |
 | [CMSmap](https://github.com/Dionach/CMSmap) |  | CMSmap is a python open source CMS scanner that automates the <br>process of detecting security flaws of the most popular CMSs.  |
@@ -830,7 +832,7 @@
 | [Sharp-dumpkey](https://github.com/Ormicron/Sharp-dumpkey) | 1 | 基于C#实现的获取微信数据库密钥的小工具 |
 | [Sunflower_get_Pas<br>sword](https://github.com/wafinfo/Sunflower_get_Password) |  | 一款针对向日葵的识别码和验证码提取工具 |
 | [SharpWxDump](https://github.com/AdminTest0/SharpWxDump) |  | 微信客户端取证，可获取用户个人信息(昵称/账号/手机/邮箱/数据库<br>密钥(用来解密聊天记录))；支持获取多用户信息，不定期更新新版本偏<br>移，目前支持所有新版本、正式版本 |
-| [GoWxDump](https://github.com/SpenserCai/GoWxDump) | v1.0.11 | SharpWxDump的Go语言版。微信客户端取证，获取信息(微信号、手机号<br>、昵称)，微信聊天记录分析(Top N聊天的人、统计聊天最频繁的好友排<br>行、关键词列表搜索等) |
+| [GoWxDump](https://github.com/SpenserCai/GoWxDump) | v1.0.12 | SharpWxDump的Go语言版。微信客户端取证，获取信息(微信号、手机号<br>、昵称)，微信聊天记录分析(Top N聊天的人、统计聊天最频繁的好友排<br>行、关键词列表搜索等) |
 ### 音频隐写
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
@@ -976,7 +978,7 @@
 | :---- | :---- | :---- |
 | [chatgpt](https://github.com/LangLangShanDeNanKe/chatgpt) |  | ChatGPT网址导航，分享免费好用AI网站！ |
 | [Awesome-ChatGPT](https://github.com/dalinvip/Awesome-ChatGPT) |  | ChatGPT资料汇总学习，持续更新...... |
-| [awesome-chatgpt-z<br>h](https://github.com/yzfly/awesome-chatgpt-zh) |  | ChatGPT 中文指南🔥，ChatGPT 中文调教指南，指令指南，精选资源清<br>单，更好的使用 chatGPT 让你的生产力 up up up! 🚀 |
+| [awesome-chatgpt-z<br>h](https://github.com/yzfly/awesome-chatgpt-zh) |  | ChatGPT 中文指南🔥，ChatGPT 中文调教指南，指令指南，应用开发指<br>南，精选资源清单，更好的使用 chatGPT 让你的生产力 up up up! 🚀 |
 | [chatgpt-mac](https://github.com/vincelwt/chatgpt-mac) | v0.0.5 | ChatGPT for Mac, living in your menubar. |
 | [ChatGPT-Shortcut](https://github.com/rockbenben/ChatGPT-Shortcut) |  | Maximize your efficiency and productivity. 让生产力加倍的 Chat<br>GPT 快捷指令，按照领域和功能分区，可对提示词进行标签筛选、关键<br>词搜索和一键复制。 |
 # 安全产品
@@ -987,7 +989,7 @@
 ## 主机入侵检测
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
-| [Elkeid](https://github.com/bytedance/Elkeid) | v1.7.0.<br>10-drive<br>r-ko-202<br>30614 | Elkeid is an open source solution that can meet the security r<br>equirements of various workloads such as hosts, containers and <br>K8s, and serverless. It is derived from ByteDance's internal be<br>st practices. |
+| [Elkeid](https://github.com/bytedance/Elkeid) | v1.7.0.<br>12-drive<br>r-ko-202<br>30615 | Elkeid is an open source solution that can meet the security r<br>equirements of various workloads such as hosts, containers and <br>K8s, and serverless. It is derived from ByteDance's internal be<br>st practices. |
 | [Hades](https://github.com/theSecHunter/Hades) |  | Hades is an cross-platform HIDS with kernel-space data collect<br>ion. |
 ## Web应用防火墙
 | 项目名称 | 版本 | 项目描述 |
