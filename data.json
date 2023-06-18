@@ -200,8 +200,8 @@
     "https://github.com/ycdxsb/PocOrExp_in_Github": {
         "created_at": "2021-04-13 05:46:16",
         "description": "聚合Github上已有的Poc或者Exp，CVE信息来自CVE官网。Auto Collect Poc Or Exp from Github by CVE ID.",
-        "commit_date": "2023-06-16 22:36:27",
-        "commit_message": "update 2023-06-17 06:36:27",
+        "commit_date": "2023-06-18 00:10:51",
+        "commit_message": "update 2023-06-18 08:10:51",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -461,7 +461,7 @@
     "https://github.com/ExpLangcn/NucleiTP": {
         "created_at": "2022-11-08 13:16:56",
         "description": "自动整合全网Nuclei的漏洞POC，实时同步更新最新POC！",
-        "commit_date": "2023-06-17 00:30:16",
+        "commit_date": "2023-06-18 00:45:16",
         "commit_message": "更新啦❤️",
         "release_tag": "",
         "release_date": "",
@@ -828,8 +828,8 @@
     "https://github.com/murphysecurity/murphysec": {
         "created_at": "2022-03-16 02:52:33",
         "description": "An open source tool focused on software supply chain security. 墨菲安全专注于软件供应链安全，具备专业的软件成分分析（SCA）、漏洞检测、专业漏洞库。",
-        "commit_date": "2023-06-16 15:08:15",
-        "commit_message": "refactor: upgrade fix-tools",
+        "commit_date": "2023-06-17 08:12:49",
+        "commit_message": "ci: windows-arm64",
         "release_tag": "v3.1.1",
         "release_date": "2023-05-15 12:52:58",
         "release_message": "Support NPM lockfile v3 "
@@ -2372,11 +2372,11 @@
     "https://github.com/FunnyWolf/Viper": {
         "created_at": "2020-05-29 12:53:42",
         "description": "Redteam operation  platform with webui 图形化红队行动辅助平台",
-        "commit_date": "2023-05-22 13:41:23",
-        "commit_message": "update version v1.5.29",
-        "release_tag": "v1.5.29",
-        "release_date": "2023-05-26 12:46:44",
-        "release_message": "### 优化\r\n- 端口转发记录新增连接提示\r\n- 模块运行结果记录运行模块的sessionid\r\n- 适配reverse_tcp_ssl类型payload\r\n- 合并metasploit-framework 6.3.18版本\r\n### Bugfix\r\n- 修复sock4a/socks5代理无法使用问题\r\n- 修复session长时间运行导致内存占用过高问题"
+        "commit_date": "2023-06-17 12:44:01",
+        "commit_message": "update version v1.5.30",
+        "release_tag": "v1.5.30",
+        "release_date": "2023-06-17 12:44:55",
+        "release_message": "### 新功能\r\n- Viper所有功能都可通过右下角链接跳转到对应文档\r\n### 优化\r\n- `监听防火墙`前端UI优化\r\n- `只显示Session`功能可在主页面使用\r\n- 合并metasploit-framework 6.3.22版本\r\n### Bugfix\r\n- 修复python类型payload断线后无法重连及无法清理历史网络连接问题"
     },
     "https://github.com/kost/dvcs-ripper": {
         "created_at": "2012-10-23 04:55:18",
@@ -3050,11 +3050,11 @@
     "https://github.com/zan8in/afrog": {
         "created_at": "2022-02-24 06:00:32",
         "description": "A Security Tool for Bug Bounty, Pentest and Red Teaming.",
-        "commit_date": "2023-06-16 06:25:25",
-        "commit_message": "update",
-        "release_tag": "v2.5.3",
-        "release_date": "2023-06-14 13:43:13",
-        "release_message": "**Add:**\r\n-target / -t now supports multiple URLs, such as: afrog -t example.com,hackerone.com,nmap.org\r\nAdd JNDI reverse connection functionality.\r\nAdd the afrog calling library and a demonstration example.\r\n\r\n**新增：**\r\n-target / -t 现在支持多个 URL，比如：afrog -t example.com,hackerone.com,nmap.org\r\n添加 JNDI 反连功能 \r\n添加 afrog 调用库和演示示例"
+        "commit_date": "2023-06-17 11:14:32",
+        "commit_message": "add many pocs",
+        "release_tag": "v2.5.5",
+        "release_date": "2023-06-17 11:18:00",
+        "release_message": "## Fix:\r\nFix -pd command, some PoC content is not printed completely\r\n## 修复：\r\n- 修复 -pd 命令，部分 PoC 内容打印不全问题\r\n## PoC:\r\n累计：951"
     },
     "https://github.com/moonD4rk/HackBrowserData": {
         "created_at": "2020-06-18 03:24:31",
@@ -4167,8 +4167,8 @@
     "https://github.com/vulhub/vulhub": {
         "created_at": "2017-04-09 10:13:13",
         "description": "Pre-Built Vulnerable Environments Based on Docker-Compose",
-        "commit_date": "2023-06-02 15:46:41",
-        "commit_message": "fix elasticsearch-head/1.x plugin installation error",
+        "commit_date": "2023-06-17 18:24:18",
+        "commit_message": "Merge pull request #442 from vulhub/openfire-cve-2023-32315\n\nadded Openfire CVE-2023-32315",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -4275,7 +4275,7 @@
     "https://github.com/aiboboxx/v2rayfree": {
         "created_at": "2021-10-13 11:34:53",
         "description": "v2ray公益免费节点、最新2ray免费v节点订阅地址、v2ray免费节点每日更新、免费ss/v2ray/trojan节点、freefq ",
-        "commit_date": "2023-06-16 12:37:58",
+        "commit_date": "2023-06-17 12:34:34",
         "commit_message": "update",
         "release_tag": "",
         "release_date": "",
@@ -4302,8 +4302,8 @@
     "https://github.com/niudaii/zpscan": {
         "created_at": "2022-09-16 03:03:20",
         "description": "一个有点好用的信息收集工具。A somewhat useful information gathering tool.",
-        "commit_date": "2023-04-22 11:27:19",
-        "commit_message": "update: README",
+        "commit_date": "2023-06-17 10:09:44",
+        "commit_message": "update: sth",
         "release_tag": "v1.8.39",
         "release_date": "2023-03-21 06:02:58",
         "release_message": ""
@@ -4320,8 +4320,8 @@
     "https://github.com/freefq/free": {
         "created_at": "2020-06-07 02:48:33",
         "description": "翻墙、免费翻墙、免费科学上网、免费节点、免费梯子、免费ss/v2ray/trojan节点、蓝灯、谷歌商店、翻墙梯子",
-        "commit_date": "2023-06-17 00:00:03",
-        "commit_message": "updated_at 06-17 08:00",
+        "commit_date": "2023-06-18 00:00:05",
+        "commit_message": "updated_at 06-18 08:00",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -4590,8 +4590,8 @@
     "https://github.com/yzfly/awesome-chatgpt-zh": {
         "created_at": "2023-03-21 02:16:34",
         "description": "ChatGPT 中文指南🔥，ChatGPT 中文调教指南，指令指南，应用开发指南，精选资源清单，更好的使用 chatGPT 让你的生产力 up up up! 🚀",
-        "commit_date": "2023-06-15 10:35:00",
-        "commit_message": "add openai alternatives",
+        "commit_date": "2023-06-17 03:01:08",
+        "commit_message": "update docs",
         "release_tag": "",
         "release_date": "",
         "release_message": ""

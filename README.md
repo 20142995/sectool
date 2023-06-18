@@ -1,13 +1,14 @@
-# 更新于 2023-06-17 08:45:21
+# 更新于 2023-06-18 08:49:23
 
 ## 近15天release更新记录
 | 更新时间 | 项目名称 | 版本 | 更新内容 |
 | :---- | :---- | :---- | :---- |
+|2023-06-17 12:44:55|[Viper](https://github.com/FunnyWolf/Viper)|v1.5.30|### 新功能  - Viper所有功能都可通过右<br>下角链接跳转到对应文档  ### 优化  - 监<br>听防火墙前端UI优化  - 只显示Session功能<br>可在主页面使用  - 合并metasploit-framew<br>ork 6.3.22版本  ### Bugfix  - 修复pyth<br>on类型payload断线后无法重连及无法清理<br>历史网络连接问题|
+|2023-06-17 11:18:00|[afrog](https://github.com/zan8in/afrog)|v2.5.5|## Fix:  Fix -pd command, some PoC co<br>ntent is not printed completely  ## 修<br>复：  - 修复 -pd 命令，部分 PoC 内容打<br>印不全问题  ## PoC:  累计：951|
 |2023-06-16 04:47:24|[safeline](https://github.com/chaitin/safeline)|v1.9.0|## 新增    - 界面 UI 改造，信息层级更<br>清晰  - 黑白名单支持添加 源 IP - 不属于<br> IP 组 的条件    ## 优化    - 检测日志<br>的路由进一步完善  - 数据统计页面更加紧<br>凑，现在可以在 1920*1080 的屏幕上完全显<br>示了  - 黑白名单的展示优化  - 修复 通用<br>配置-防护模块配置 中，“批量配置为” 按<br>钮有时候不生效的问题  - 修复一些已知问<br>题|
 |2023-06-16 04:36:40|[Elkeid](https://github.com/bytedance/Elkeid)|v1.7.0.<br>12-drive<br>r-ko-202<br>30615||
 |2023-06-15 03:50:43|[GoWxDump](https://github.com/SpenserCai/GoWxDump)|v1.0.12|#22 |
 |2023-06-14 18:00:51|[syft](https://github.com/anchore/syft)|v0.83.1|# Changelog    ##  (2023-06-14)      <br>  ### Bug Fixes    - fix: pom properti<br>es not setting artifact id ] ]  - fix(<br>deps): pull in platform selection fix <br>from stereoscope ] ] - pulling in an i<br>mage with a digest that does not match<br> the platform and architecture of the <br>host no longer fails with an error, se<br>e https://github.com/anchore/stereosco<br>pe/issues/188  - symlinks within a sca<br>nned directory tree are parsed outside<br> the tree, failing if target does not <br>exist ] ] ]        |
-|2023-06-14 13:43:13|[afrog](https://github.com/zan8in/afrog)|v2.5.3|**Add:**  -target / -t now supports m<br>ultiple URLs, such as: afrog -t exampl<br>e.com,hackerone.com,nmap.org  Add JNDI<br> reverse connection functionality.  Ad<br>d the afrog calling library and a demo<br>nstration example.    **新增：**  -tar<br>get / -t 现在支持多个 URL，比如：afrog<br> -t example.com,hackerone.com,nmap.org<br>  添加 JNDI 反连功能   添加 afrog 调用<br>库和演示示例|
 |2023-06-14 03:14:46|[EHole](https://github.com/EdgeSecurityTeam/EHole)|v3.1|1. 修复 JS 跳转同时匹配使用单引号或双<br>引号包围的URL；  2. 修复 URL 是否已经以<br>"/"结尾，如果是，就不再添加"/"；  3. <br>修复 UA 头被检测问题；  4. 新增 [202301<br>31] finger.json 指纹；  5. 修改 fofa.i<br>nfo API 接口。|
 |2023-06-13 15:31:06|[iDefender](https://github.com/wecooperate/iDefender)|2.8.0|重要版本，建议更新    - 更新iMonitorS<br>DK到最新版本    - 去掉没有文档化的AFD<br>驱动监控，网络监控都使用WFP框架实现    <br>- 添加ICMP拦截支持  - 接入iFoundation<br>冰塔快速开发框架    - **支持模块化升级<br>：少量的修改直接通过模块升级自动更新，<br>不需要再频繁手动升级了**    - 支持企业<br>管理能力（企业管理后台会在3.0版本正式上<br>线）      - 支持统一管理      - 支持策<br>略下发      - 支持功能扩展、定制、二次<br>开发、系统集成    - 添加工具箱    - 冰<br>镜终端行为分析系统    - 冰鉴软件行为分<br>析系统    - 冰云安全U盘    - 冰刃进程强<br>杀、文件强删    - 添加微信交流群（在关<br>于冰盾页面可以获取二维码）  - 修复一些<br>问题    - 修复快速查找大小写敏感的问题 <br>   - 修复导入规则的信任列表部分场景导<br>入失败的问题    - 修复信任列表多个规则<br>匹配不生效的问题    - 优化其他一些使用<br>体验          软件下载   |
 |2023-06-11 04:30:25|[PEASS-ng](https://github.com/carlospolop/PEASS-ng)|2023061<br>1-b11e87<br>f7||
@@ -24,26 +25,28 @@
 |2023-06-04 19:54:58|[dbeaver](https://github.com/dbeaver/dbeaver)|23.1.0|                 - SQL Editor:       <br>              - Autocomplete now suppo<br>rts [ ] and  as quotes for identifiers<br>                     - Shortcut confic<br>t on macOS was fixed                  <br>   - JSQLParser was reverted to the ve<br>rsion 4.5 and is now faster           <br>          - Issue with substitution va<br>riables in text with \n line feeds was<br> fixed                     - Autocompl<br>ete case with FROM right after SELECT <br>is now handled                     - A<br>utocomplete for SELECT query without F<br>ROM was fixed                     - 'G<br>o to Matching Bracket' shortcut was ch<br>anged to CTRL+SHIFT+[                 <br>    - Autocomplete for columns in tabl<br>es without alias was fixed            <br>         - Completion analyze errors a<br>re now written to the debug log       <br>              - Comment with a tab aft<br>er a double dash is now handle        <br>             - Issue with hiding curso<br>r position after resizing the editor w<br>as fixed                     - Exeptio<br>n when updating editor annotations was<br> fixed                 - Data Editor: <br>                    - Data ordering wa<br>s improved                 - General U<br>I:                     - Changing the <br>size and position of the connection di<br>alog is now saved                     <br>- Issue with the application freezing <br>when creating a table when the connect<br>ion hangs was fixed                   <br>  - Tips of the day were revised      <br>           - Connectivity:            <br>         - Option to disable SSHJ host<br>name verification was added (thanks to<br> @ryanc-me)                     - Issu<br>e when switching from Community to PRO<br> version and vice versa was fixed     <br>            - Databases:              <br>       - ClickHouse: display of large <br>numbers was fixed                     <br>- MariaDB: partition support was added<br>                     - Oracle:        <br>                 - Issue issue with na<br>tive clients hanging when running SQLP<br>lus scripts was fixed                 <br>        - Issue with setting the wrong<br> schema after connecting or changing t<br>he Data Editor was fixed              <br>       - PostgreSQL:                  <br>       - Issue with an exception when <br>loading attribute information was fixe<br>d                         - Reading a <br>numeric array was fixed               <br>      - Trino: error handling was impr<br>oved                  - Localization: <br>                    - German localizat<br>ion was improved (thanks to @hype11)  <br>                   - Italian localizat<br>ion was improved (thanks to @Gnafu)   <br>               - Misc:                <br>     - Images for all DBeaver Eclipse <br>extensions were added                 <br>    - Legacy ODBC driver based on the <br>obsolete Java 7 was deprecated due to <br>many issues             |
 |2023-06-04 11:46:12|[DNSlog-GO](https://github.com/lanyi1998/DNSlog-GO)|1.5.6||
 |2023-06-03 16:28:06|[burp-awesome-tls](https://github.com/sleeyax/burp-awesome-tls)|v1.0.0|# :rocket: Major release time!    Hey<br> folks, this is a major update I've be<br>en working on over the past few days t<br>o address a few outstanding issues and<br> to rework some things.     ## Changel<br>og    PR: https://github.com/sleeyax/b<br>urp-awesome-tls/pull/27.    ### Added <br> - New underlying TLS and HTTP impleme<br>ntations. Should be easier to maintain<br> going forward.   - Response header or<br>der support (#19)  - Custom initial HT<br>TP2 SETTINGS frame for Chrome fingerpr<br>ints (#11)  - Ordered pseudo headers f<br>or HTTP 2  - More timeout settings add<br>ed to UI  - More and updated fingerpri<br>nts    -  Chrome 102    - Chrome 100  <br>  - Chrome 96    - Firefox 105    - Fi<br>refox 102    - Firefox 99    - Edge 10<br>6    - Edge 85    - Safari 16    -  QQ<br>Browser 11    - iOS 14    - iOS 13    <br>- iOS 12    - Android 11    - Randomiz<br>ed    - Randomized ALPN    - Randomize<br>d No ALPN      ### Fixed  - Set Insecu<br>reSkipVerify to true (#22)  - Concurre<br>nt map writes error (#26)    ### Chang<br>ed  - Updated docs (rewordings, new di<br>agram, add showcase)|
-|2023-06-02 19:07:40|[faker](https://github.com/joke2k/faker)|v18.10.<br>1|See .|
-|2023-06-02 06:00:49|[AsamF](https://github.com/Kento-Sec/AsamF)|v0.2.3|v0.2.2 fofa无法查询，修复fofa的问题|
 ## 近15天commit提交记录
 | 提交时间 | 项目名称 | 更新内容 |
 | :---- | :---- | :---- |
-|2023-06-17 00:30:16|[NucleiTP](https://github.com/ExpLangcn/NucleiTP)|更新啦❤️|
-|2023-06-17 00:00:03|[free](https://github.com/freefq/free)|updated_at 06-17 08:00|
-|2023-06-16 22:36:27|[PocOrExp_in_Githu<br>b](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-06-17 06:36:27|
+|2023-06-18 00:45:16|[NucleiTP](https://github.com/ExpLangcn/NucleiTP)|更新啦❤️|
+|2023-06-18 00:10:51|[PocOrExp_in_Githu<br>b](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-06-18 08:10:51|
+|2023-06-18 00:00:05|[free](https://github.com/freefq/free)|updated_at 06-18 08:00|
+|2023-06-17 18:24:18|[vulhub](https://github.com/vulhub/vulhub)|Merge pull request #442 from vulhub/openfire-cve-20<br>23-32315  added Openfire CVE-2023-32315|
+|2023-06-17 12:44:01|[Viper](https://github.com/FunnyWolf/Viper)|update version v1.5.30|
+|2023-06-17 12:34:34|[v2rayfree](https://github.com/aiboboxx/v2rayfree)|update|
+|2023-06-17 11:14:32|[afrog](https://github.com/zan8in/afrog)|add many pocs|
+|2023-06-17 10:09:44|[zpscan](https://github.com/niudaii/zpscan)|update: sth|
+|2023-06-17 08:12:49|[murphysec](https://github.com/murphysecurity/murphysec)|ci: windows-arm64|
+|2023-06-17 03:01:08|[awesome-chatgpt-z<br>h](https://github.com/yzfly/awesome-chatgpt-zh)|update docs|
 |2023-06-16 21:57:48|[ChatGPT-Shortcut](https://github.com/rockbenben/ChatGPT-Shortcut)|refactor: adjust label text|
 |2023-06-16 21:31:17|[neuvector](https://github.com/neuvector/neuvector)|Merge pull request #884 from williamlin-suse/main  <br>NVSHAS-8068: check the provided key/certificate(for <br>root of trust & v…|
 |2023-06-16 18:45:04|[grype](https://github.com/anchore/grype)|chore(deps): update bootstrap tools to latest versi<br>ons (#1353)  Signed-off-by: GitHub   Co-authored-by:<br> westonsteimel |
 |2023-06-16 17:26:18|[syft](https://github.com/anchore/syft)|Pad artifact IDs (#1882)  Otherwise the hash can so<br>metimes be short if it results in a low uint64.    S<br>igned-off-by: Will Murphy |
 |2023-06-16 16:10:01|[v2rayA](https://github.com/v2rayA/v2rayA)|release_feat_v5: Use the correct Arch package exten<br>sion|
-|2023-06-16 15:08:15|[murphysec](https://github.com/murphysecurity/murphysec)|refactor: upgrade fix-tools|
-|2023-06-16 12:37:58|[v2rayfree](https://github.com/aiboboxx/v2rayfree)|update|
 |2023-06-16 12:09:03|[dbeaver](https://github.com/dbeaver/dbeaver)|dbeaver/pro#1720 Migrate to Eclipse 2023-06 (#20308<br>)|
 |2023-06-16 11:33:04|[Awesome-ChatGPT](https://github.com/dalinvip/Awesome-ChatGPT)|Update README.md|
 |2023-06-16 08:48:41|[safeline](https://github.com/chaitin/safeline)|Merge pull request #101 from yrluke/add_access_log <br> Add access log|
 |2023-06-16 08:05:19|[Elkeid](https://github.com/bytedance/Elkeid)|FIXME: possible OOB reading in dns querying  OOB du<br>e to not null-terminated, reported by coverity - sta<br>tic code analysis.  Signed-off-by: shenping.matt |
-|2023-06-16 06:25:25|[afrog](https://github.com/zan8in/afrog)|update|
 |2023-06-16 04:35:40|[fofax](https://github.com/xiecat/fofax)|这是一个临时版本修改一些ipv6问题|
 |2023-06-16 04:18:55|[trivy](https://github.com/aquasecurity/trivy)|fix(debian): update EOL for Debian 12 (#4647)  * fi<br>x(debian): update EOL for Debian 12  Debian 12 was r<br>eleased on 2023-06-10 and will be supported for five<br> years - see https://www.debian.org/News/2023/202306<br>10.  * Update docs|
 |2023-06-16 03:34:38|[Library-POC](https://github.com/luck-ying/Library-POC)|Update README.md|
@@ -51,7 +54,6 @@
 |2023-06-15 20:49:05|[clair](https://github.com/quay/clair)|cicd: fix nightly-ci error  This fixes the nightly-<br>ci workflow and adds a means to lint and validate th<br>e workflow files.  Signed-off-by: Hank Donnay |
 |2023-06-15 17:26:33|[WebGoat](https://github.com/WebGoat/WebGoat)|format|
 |2023-06-15 11:20:37|[Scanners-Box](https://github.com/We5ter/Scanners-Box)|[+]chainreactors/gogo|
-|2023-06-15 10:35:00|[awesome-chatgpt-z<br>h](https://github.com/yzfly/awesome-chatgpt-zh)|add openai alternatives|
 |2023-06-15 06:28:45|[0day](https://github.com/helloexp/0day)|add usage for CVE-2022-0847|
 |2023-06-15 03:49:16|[GoWxDump](https://github.com/SpenserCai/GoWxDump)|#22|
 |2023-06-15 02:16:57|[OA-EXPTOOL](https://github.com/LittleBear4/OA-EXPTOOL)|Update output.py|
@@ -94,12 +96,7 @@
 |2023-06-04 02:48:57|[cf](https://github.com/teamssix/cf)|Merge pull request #236 from teamssix/dev-teamssix <br> docs: update readme|
 |2023-06-03 16:53:13|[shell-analyzer](https://github.com/4ra1n/shell-analyzer)|Create LICENSE|
 |2023-06-03 16:01:30|[burp-awesome-tls](https://github.com/sleeyax/burp-awesome-tls)|Update go version  Needs patch version to be specif<br>ied.|
-|2023-06-03 09:54:40|[superSearchPlus](https://github.com/dark-kingA/superSearchPlus)|添加 右键菜单 在线工具|
-|2023-06-02 19:15:54|[Burp-Non-HTTP-Ext<br>ension](https://github.com/summitt/Burp-Non-HTTP-Extension)|updating DNS server and broken port monitor|
-|2023-06-02 19:07:07|[faker](https://github.com/joke2k/faker)|Bump version: 18.10.0 → 18.10.1|
-|2023-06-02 15:46:41|[vulhub](https://github.com/vulhub/vulhub)|fix elasticsearch-head/1.x plugin installation erro<br>r|
-|2023-06-02 08:06:51|[appshark](https://github.com/bytedance/appshark)|taint flow rule and pointer flow rule are independe<br>nt relationships|
-|2023-06-02 06:01:14|[AsamF](https://github.com/Kento-Sec/AsamF)|Update README.md|## 所有项目
+|2023-06-03 09:54:40|[superSearchPlus](https://github.com/dark-kingA/superSearchPlus)|添加 右键菜单 在线工具|## 所有项目
 # 渗透测试
 ## 信息收集
 ### 资产测绘采集
@@ -249,7 +246,7 @@
 | [w13scan](https://github.com/w-digital-scanner/w13scan) |  | Passive Security Scanner (被动式安全扫描器) |
 | [Fvuln](https://github.com/d3ckx1/Fvuln) | Fvuln_v<br>1.4.8 | F-vuln（全称：Find-Vulnerability）是为了自己工作方便专门编写的<br>一款自动化工具，主要适用于日常安全服务、渗透测试人员和RedTeam红<br>队人员，它集合的功能包括：存活IP探测、开放端口探测、web服务探测<br>、web漏洞扫描、smb爆破、ssh爆破、ftp爆破、mssql爆破等其他数据库<br>爆破工作以及大量web漏洞检测模块。 |
 | [nuclei](https://github.com/projectdiscovery/nuclei) | v2.9.6 | Fast and customizable vulnerability scanner based on simple YA<br>ML based DSL. |
-| [afrog](https://github.com/zan8in/afrog) | v2.5.3 | A Security Tool for Bug Bounty, Pentest and Red Teaming. |
+| [afrog](https://github.com/zan8in/afrog) | v2.5.5 | A Security Tool for Bug Bounty, Pentest and Red Teaming. |
 | [vulmap](https://github.com/zhzyker/vulmap) | v0.9 | Vulmap 是一款 web 漏洞扫描和验证工具, 可对 webapps 进行漏洞扫<br>描, 并且具备漏洞验证功能 |
 | [POC-bomber](https://github.com/tr0uble-mAker/POC-bomber) | POC-bom<br>ber-for-<br>Redteam-<br>v3.0.0 | 利用大量高威胁poc/exp快速获取目标权限，用于渗透和红队快速打点 |
 | [QingTing](https://github.com/StarCrossPortal/QingTing) | v0.3 | 蜻蜓安全一个安全工具编排平台,可以自由编排你的工具流,集成108款<br>工具,包括xray、nmap、awvs等;你可以将喜欢的工具编排成一个场景，快<br>速打造适合自己的安全工作台~ |
@@ -570,7 +567,7 @@
 ### 漏洞利用
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
-| [Viper](https://github.com/FunnyWolf/Viper) | v1.5.29 | Redteam operation  platform with webui 图形化红队行动辅助平台 |
+| [Viper](https://github.com/FunnyWolf/Viper) | v1.5.30 | Redteam operation  platform with webui 图形化红队行动辅助平台 |
 ### 横向工具
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
