@@ -200,8 +200,8 @@
     "https://github.com/ycdxsb/PocOrExp_in_Github": {
         "created_at": "2021-04-13 05:46:16",
         "description": "聚合Github上已有的Poc或者Exp，CVE信息来自CVE官网。Auto Collect Poc Or Exp from Github by CVE ID.",
-        "commit_date": "2023-06-18 00:10:51",
-        "commit_message": "update 2023-06-18 08:10:51",
+        "commit_date": "2023-06-19 00:13:41",
+        "commit_message": "update 2023-06-19 08:13:41",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -461,7 +461,7 @@
     "https://github.com/ExpLangcn/NucleiTP": {
         "created_at": "2022-11-08 13:16:56",
         "description": "自动整合全网Nuclei的漏洞POC，实时同步更新最新POC！",
-        "commit_date": "2023-06-18 00:45:16",
+        "commit_date": "2023-06-19 00:30:15",
         "commit_message": "更新啦❤️",
         "release_tag": "",
         "release_date": "",
@@ -479,7 +479,7 @@
     "https://github.com/k8gege/K8tools": {
         "created_at": "2019-02-23 14:04:52",
         "description": "K8工具合集(内网渗透/提权工具/远程溢出/漏洞利用/扫描工具/密码破解/免杀工具/Exploit/APT/0day/Shellcode/Payload/priviledge/BypassUAC/OverFlow/WebShell/PenTest) Web GetShell Exploit(Struts2/Zimbra/Weblogic/Tomcat/Apache/Jboss/DotNetNuke/zabbix)",
-        "commit_date": "2023-06-10 08:39:17",
+        "commit_date": "2023-06-18 13:44:40",
         "commit_message": "Add files via upload",
         "release_tag": "",
         "release_date": "",
@@ -1906,8 +1906,8 @@
     "https://github.com/hiroi-sora/Umi-OCR": {
         "created_at": "2022-03-28 04:01:46",
         "description": "OCR图片转文字识别软件，完全离线。截屏/批量导入图片，支持多国语言、合并段落、竖排文字。可排除水印区域，提取干净的文本。基于 PaddleOCR 。",
-        "commit_date": "2023-05-03 11:14:19",
-        "commit_message": "update",
+        "commit_date": "2023-06-18 14:09:32",
+        "commit_message": "新功能：复制OCR文本后发送指定快捷键，可用于唤起翻译器等工具",
         "release_tag": "v1.3.4",
         "release_date": "2023-04-25 17:18:33",
         "release_message": "### `v1.3.4` 主要更新：\r\n- 新功能：截图预览窗口。需要在`设置→快捷识图→截图预览窗口`里打开。效果见下图，可以调整透明度 并钉在屏幕顶层。\r\n![1682442876719.png](https://tupian.li/images/2023/04/26/64480a815920a.png)\r\n- 新功能：可用方向键微调截图框位置。\r\n- 修Bug：修复了拖入图片时有几率卡退主窗口的问题。\r\n- 优化了一些处理流程。\r\n- 优化了打包方式，软件体积比上一代减少了15MB。\r\n\r\n### 文件说明\r\n软件本体：`Umi-OCR.v1.3.4.7z`（67MB），内置`简体中文&英文`通用识别库。\r\n软件（多国语言整合版）：`Umi-OCR.v1.3.4_ALL_languages.7z`（118MB），内置多国语言识别库。\r\n\r\n多国语言扩展包：`Umi-OCR.v1.3_DLC_languages.7z`（50MB），可向软件本体导入`繁中,英,日,韩,俄,德,法` 多国语言识别库。"
@@ -3645,10 +3645,10 @@
     "https://github.com/taomujian/linbing": {
         "created_at": "2020-02-26 02:32:06",
         "description": "本系统是对Web中间件和Web框架进行自动化渗透的一个系统,根据扫描选项去自动化收集资产,然后进行POC扫描,POC扫描时会根据指纹选择POC插件去扫描,POC插件扫描用异步方式扫描.前端采用vue技术,后端采用python fastapi.",
-        "commit_date": "2022-11-04 15:56:26",
-        "commit_message": "2022.11.04",
+        "commit_date": "2023-06-18 09:05:42",
+        "commit_message": "2023.6.18",
         "release_tag": "v3.0",
-        "release_date": "2022-11-04 15:57:50",
+        "release_date": "2023-06-18 09:08:03",
         "release_message": ""
     },
     "https://github.com/AdminTest0/SharpWxDump": {
@@ -3701,8 +3701,8 @@
         "description": "PEASS - Privilege Escalation Awesome Scripts SUITE (with colors)",
         "commit_date": "2023-05-31 22:16:51",
         "commit_message": "f",
-        "release_tag": "20230611-b11e87f7",
-        "release_date": "2023-06-11 04:30:25",
+        "release_tag": "20230618-1fa055b6",
+        "release_date": "2023-06-18 04:26:11",
         "release_message": ""
     },
     "https://github.com/waderwu/attackRmi": {
@@ -3734,12 +3734,12 @@
     },
     "https://github.com/k8gege/Ladon": {
         "created_at": "2019-11-02 06:22:41",
-        "description": "Ladon大型内网渗透工具，可PowerShell模块化、可CS插件化、可内存加载，无文件扫描。含端口扫描、服务识别、网络资产探测、密码审计、高危漏洞检测、漏洞利用、密码读取以及一键GetShell，支持批量A段/B段/C段以及跨网段扫描，支持URL、主机、域名列表扫描等。10.10.6内置230个功能模块,网络资产探测模块32个通过多种协议(ICMP\\NBT\\DNS\\MAC\\SMB\\WMI\\SSH\\HTTP\\HTTPS\\Exchange\\mssql\\FTP\\RDP)以及方法快速获取目标网络存活主机IP、计算机名、工作组、共享资源、网卡地址、操作系统版本、网站、子域名、中间件、开放服务、路由器、交换机、数据库、打印机等信息，高危漏洞检测16个含MS17010、Zimbra、Exchange",
-        "commit_date": "2023-06-05 12:51:19",
+        "description": "Ladon大型内网渗透工具，可PowerShell模块化、可CS插件化、可内存加载，无文件扫描。含端口扫描、服务识别、网络资产探测、密码审计、高危漏洞检测、漏洞利用、密码读取以及一键GetShell，支持批量A段/B段/C段以及跨网段扫描，支持URL、主机、域名列表扫描等。Ladon 11.0内置234个功能,网络资产探测模块32个通过多种协议(ICMP\\NBT\\DNS\\MAC\\SMB\\WMI\\SSH\\HTTP\\HTTPS\\Exchange\\mssql\\FTP\\RDP)以及方法快速获取目标网络存活主机IP、计算机名、工作组、共享资源、网卡地址、操作系统版本、网站、子域名、中间件、开放服务、路由器、交换机、数据库、打印机等信息，高危漏洞检测16个含MS17010、Zimbra、Exchange",
+        "commit_date": "2023-06-18 13:58:33",
         "commit_message": "Add files via upload",
-        "release_tag": "v10.10.6",
-        "release_date": "2023-06-05 12:56:20",
-        "release_message": "20230603\r\n[u]LadonExp \t\t\t\t\t支持GET连接MS17010漏洞CmdShell执行命令\r\n[u]LadonExp\t\t\t\t\t\t生成EXE可解密Base64、Hex  PostShell结果\r\n[u]PowerShell\t\t\t\t\t生成EXE可解密Base64、Hex  PostShell结果\r\n\r\nLadon 10.10.6 20230528\r\n[+]PostShell\t\t\t\t    Post提交CmdShell客户端，如CMD小马pwd=whoami执行命令，支持Post、Cookie、UserAgent、Referer等提交\r\n[+]MndpInfo/RouterOS/Mikrotik\tMndp协议广播探测同网段Mikrotik路由器信息 (35和40不支持)\r\n[u]GetInfo\t\t\t\t\t\t移除GetInfo2，GetInfo已包含WMI获取的信息\r\n[u]EnumProcess/tasklist/ps\t\t查看进程详细信息，3种写法均支持\r\n[u]EnumShare/ShareInfo\t\t\t枚举局域网、同网段计算机共享资源\r\n[u]EnumMssql/MssqlInfo\t\t\tMSSQL协议探测同网段SQL SERVER数据库信息\r\n\r\n5.20\r\n[+]QueryAdminDomain 查看域管理员\r\n[+]QueryDomain\t查看当前域、域时间\r\nLadonExp\tpayload出现$cmd$或$b64cmd$ 默认测试按钮 whoami\r\n增加Windows常用命令 QueryAdmin QueryProxy ActiveAdmin ActiveGuest等\r\nGUI  DLL添加用户 密码永不过期\r\n\r\n10.10.5 20230513\r\n[u]ExchangePoc\t \t识别ProxyShell ISVUL更准确 \r\n[+]CS beacon连接测试CmdShell\tLadon cmdshell http://192.168.50.2:888 cmd whoami\r\n[u]HikvisionScan\r\n[U]修复CS下portscan noping 指定端口 识别不到IP的bug\r\n[+]cmdshell\t\t连接Ladon测试专用webshell\r\nLadonExp\t\t可选生成代码，方便修改poc\r\nLadonExp\t\t服务器返回协议不规范或其他错误提示 如ServerProtocolViolation  只空对象无法确定原因\r\n[+]web\t\t\t添加WebShell测试专用(Ladon web 800 cmd 访问http://192.168.1.8:800/shell?cmd=whoami)\r\n\r\n\r\n##### 225 Ladon测试专用CmdShell\r\n```Bash\r\nLadon web 800 cmd\r\n```\r\n\r\n##### 226 连接测试专用CmdShell\r\n```Bash\r\nLadon cmdshell http://192.168.50.2:888 cmd whoami\r\n浏览器访问 http://192.168.1.8:800/shell?cmd=whoami\r\n```\r\n\r\n##### 229 Mndp协议广播探测同网段Mikrotik路由器信息\r\n```Bash\r\nLadon MndpInfo\r\nLadon RouterOS\r\nLadon Mikrotik\r\n```\r\n![image](http://k8gege.org/k8img/Ladon/exe/mndp.PNG)\r\n\r\n##### 230 PostShell连接工具,支持自定义HTTP头提交\r\n```Bash\r\nLadon PostShell <method> <url> <pwd> <type> <cmd>\r\nLadon PostShell POST http://192.168.50.18/post.jsp tom cmd whoami\r\nLadon PostShell POST http://192.168.50.18/post.jsp tom b64cmd d2hvYW1p\r\nLadon PostShell POST http://192.168.50.18/post.jsp tom base64 d2hvYW1p\r\nLadon PostShell UA http://192.168.50.18/ua.jsp tom cmd whoami\r\nLadon PostShell UA http://192.168.50.18/ua.jsp tom b64cmd d2hvYW1p\r\nLadon PostShell UA http://192.168.50.18/ua.jsp tom base64 d2hvYW1p\r\nLadon PostShell Cookie http://192.168.50.18/ck.jsp tom cmd whoami\r\nLadon PostShell Cookie http://192.168.50.18/ck.jsp tom b64cmd d2hvYW1p\r\nLadon PostShell Cookie http://192.168.50.18/ck.jsp tom base64 d2hvYW1p\r\nLadon PostShell Referer http://192.168.50.18/re.jsp tom cmd whoami\r\nLadon PostShell Referer http://192.168.50.18/re.jsp tom b64cmd d2hvYW1p\r\nLadon PostShell Referer http://192.168.50.18/re.jsp tom base64 d2hvYW1p\r\nLadon PostShell Destination http://192.168.50.18/re.jsp tom cmd whoami\r\nLadon PostShell Destination http://192.168.50.18/re.jsp tom b64cmd d2hvYW1p\r\nLadon PostShell Destination http://192.168.50.18/re.jsp tom base64 d2hvYW1p\r\nLadon PostShell HttpBasic http://192.168.50.18/re.jsp tom cmd whoami\r\nLadon PostShell HttpBasic http://192.168.50.18/re.jsp tom b64cmd d2hvYW1p\r\nLadon PostShell HttpBasic http://192.168.50.18/re.jsp tom base64 d2hvYW1p\r\n```\r\n\r\nCobalt Strike命令行PostShell\r\n![image](http://k8gege.org/k8img/Ladon/cs/cs_postshell.png)\r\n\r\nPostShell连接poswershell后门\r\n![image](http://k8gege.org/k8img/Ladon/exe/web_ps1.PNG)\r\n\r\nPostShell连接nodejs后门\r\n![image](http://k8gege.org/k8img/Ladon/exe/nodejs_ubuntu.PNG)"
+        "release_tag": "v11.0",
+        "release_date": "2023-06-18 14:47:06",
+        "release_message": "Ladon911_20230618  BypassAV一键免杀工具  LadonShell内存加载Ladon后渗透\r\n[+]RocketMQexp\t\t\t\tApache RocketMQ CVE-2023-33246 远程命令执行漏洞EXP (可Ladon渗透Web服务器获取回显)\r\n[+]BypassAV\t\t\t\t\tLadon一键免杀工具 PY XOR随机加密 (Main函数需Public）\r\n[u]InfoScan\t\t\t\t\t修复异常退出Bug\r\n[+]EventLog/LoginLog\t\t获取管理员IP 一键读取登陆成功日志4624 \r\n[u]Exp、GUI、Study、Chat\t更新UI按钮背景\r\n\r\n[+]RunCmd/Cmd\t\t\t\t执行Cmd命令/支持b64cmd\tLadon cmd whoami \r\n[+]RunPS/PowerShell\t\t\t执行PowerShell命令/脚本 Ladon powershell c $PSVersionTable\r\n\r\n20230603\r\n[u]LadonExp \t\t\t\t\t支持GET连接MS17010漏洞CmdShell执行命令\r\n[u]LadonExp\t\t\t\t\t\t生成EXE可解密Base64、Hex  PostShell结果\r\n[+]PostShell\t\t\t\t    增加HEX加密传输HEX解密结果,Base64结果解密Bug修复\r\n"
     },
     "https://github.com/lijiejie/subDomainsBrute": {
         "created_at": "2015-04-01 07:22:37",
@@ -3888,8 +3888,8 @@
     "https://github.com/neuvector/neuvector": {
         "created_at": "2021-12-17 20:15:03",
         "description": "",
-        "commit_date": "2023-06-16 21:31:17",
-        "commit_message": "Merge pull request #884 from williamlin-suse/main\n\nNVSHAS-8068: check the provided key/certificate(for root of trust & v…",
+        "commit_date": "2023-06-18 02:33:38",
+        "commit_message": "Merge pull request #885 from williamlin-suse/main\n\nNVSHAS-8075: controller panic at at scan.ScanRepoResult2REST(0xc0152f…",
         "release_tag": "v5.1.3",
         "release_date": "2023-05-09 18:16:30",
         "release_message": "Features:\r\nAdd new vulnerability feed for scanning Microsoft .NET framework\r\nEnforcer stats is disabled by default in Prometheus exporter to improve scalability\r\nUseability improvement: Using scanner to scan single image and print the result\r\nAdd imagePullPolicy check in admission control\r\n\r\n\r\nBug fixes:\r\nEmpty group auto-removal takes 2 hours to delete instead of 1 hour according to schedule\r\nCompliance profile doesn't show in UI console\r\n"
@@ -3969,8 +3969,8 @@
     "https://github.com/aquasecurity/trivy": {
         "created_at": "2019-04-11 01:01:07",
         "description": "Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more",
-        "commit_date": "2023-06-16 04:18:55",
-        "commit_message": "fix(debian): update EOL for Debian 12 (#4647)\n\n* fix(debian): update EOL for Debian 12\n\nDebian 12 was released on 2023-06-10 and will be supported for five\nyears - see https://www.debian.org/News/2023/20230610.\n\n* Update docs",
+        "commit_date": "2023-06-18 16:41:55",
+        "commit_message": "fix(vm): update ext4-filesystem parser for parse multi block extents (#4616)\n\n* chore(deps): update ext4-filesystem parser for parse multi block extents\n\n* test(vm): update integration-vm test fixtures\n\n* test(vm): add gzip decompresser for sparse file\n\n* test(vm): add mage command update golden file for vm integration test\n\n* chore(magefile): [WIP] change test repository\n\n* Revert \"chore(magefile): [WIP] change test repository\"\n\nThis reverts commit c015c8892f250698bd57f1d320b18bf19c77a76e.\n\n* fix(test): update fixtures and golden file\n\n* fix(test): revert fixVersion and PkgID",
         "release_tag": "v0.42.1",
         "release_date": "2023-06-08 15:09:13",
         "release_message": "## Changelog\n* 9a279fa7b ci: remove 32bit packages (#4585)\n* d52b0b7bc fix(misconf): deduplicate misconf results (#4588)\n* 9b531fa27 fix(vm): support sector size of 4096 (#4564)\n* 8ca1bfdd2 fix(misconf): terraform relative paths (#4571)\n* c20d46604 fix(purl): skip unsupported library type (#4577)\n* 52cbe7975 fix(terraform): recursively detect all Root Modules (#4457)\n* 4a5b91557 fix(vm): support post analyzer for vm command (#4544)\n* 56cdc55f7 fix(nodejs): change the type of the devDependencies field (#4560)\n* 17d753676 fix(sbom): export empty dependencies in CycloneDX (#4568)\n* 2796abe1e refactor: add composite fs for post-analyzers (#4556)\n* 22a157380 chore(deps): bump golangci/golangci-lint-action from 3.4.0 to 3.5.0 (#4554)\n* 43586659a chore(deps): bump helm/kind-action from 1.5.0 to 1.7.0 (#4526)\n* 508139965 chore(deps): bump github.com/BurntSushi/toml from 1.2.1 to 1.3.0 (#4528)\n* e1a38128a chore(deps): bump github.com/alicebob/miniredis/v2 from 2.30.2 to 2.30.3 (#4529)\n* 283eef637 chore(deps): bump github.com/aws/aws-sdk-go-v2/service/ec2 (#4536)\n* bbd7b9874 chore(deps): bump github.com/tetratelabs/wazero from 1.0.0 to 1.2.0 (#4549)\n* 11c81bf2f chore(deps): bump github.com/spf13/cast from 1.5.0 to 1.5.1 (#4532)\n* 2d8d63e61 chore(deps): bump github.com/testcontainers/testcontainers-go (#4537)\n* a46839b1c chore(deps): bump github.com/go-git/go-git/v5 from 5.6.1 to 5.7.0 (#4530)\n* 19715f5de chore(deps): bump github.com/aws/aws-sdk-go-v2/config (#4534)\n\n"
@@ -4059,8 +4059,8 @@
     "https://github.com/WebGoat/WebGoat": {
         "created_at": "2015-03-06 14:02:02",
         "description": "WebGoat is a deliberately insecure application",
-        "commit_date": "2023-06-15 17:26:33",
-        "commit_message": "format",
+        "commit_date": "2023-06-18 18:21:53",
+        "commit_message": "chore: bump asciidoctorj from 2.5.3 to 2.5.10 (#1498)\n\nBumps [asciidoctorj](https://github.com/asciidoctor/asciidoctorj) from 2.5.3 to 2.5.10.\r\n- [Release notes](https://github.com/asciidoctor/asciidoctorj/releases)\r\n- [Changelog](https://github.com/asciidoctor/asciidoctorj/blob/v2.5.10/CHANGELOG.adoc)\r\n- [Commits](https://github.com/asciidoctor/asciidoctorj/compare/v2.5.3...v2.5.10)\r\n\r\n---\r\nupdated-dependencies:\r\n- dependency-name: org.asciidoctor:asciidoctorj\r\n  dependency-type: direct:production\r\n  update-type: version-update:semver-patch\r\n...\r\n\r\nSigned-off-by: dependabot[bot] <support@github.com>\r\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
         "release_tag": "v2023.4",
         "release_date": "2023-02-17 12:16:10",
         "release_message": "## Version 2023.4\r\n\r\n### New functionality\r\n\r\n- [#1422 Add Docker Linux Desktop variant with all tools installed](https://github.com/WebGoat/WebGoat/issues/1422). Thanks to the [OWASP WrongSecrets project](https://owasp.org/www-project-wrongsecrets/) we now have a Docker Linux desktop image with all the tools installed. No need to install any tools locally only run the new Docker image. See README.md for details on how to start it.\r\n- [#1411 JWT: looks that buy as Tom also works with alg:none](https://github.com/WebGoat/WebGoat/issues/1411).\r\n\r\n### Bug fixes\r\n\r\n- [#1410 WebWolf: JWT decode is broken](https://github.com/WebGoat/WebGoat/issues/1410).\r\n- [#1396 password_reset return 500 Error](https://github.com/WebGoat/WebGoat/issues/1396).\r\n- [#1379 Move XXE to A05:2021-Security Misconfiguration](https://github.com/WebGoat/WebGoat/issues/1379)."
@@ -4275,7 +4275,7 @@
     "https://github.com/aiboboxx/v2rayfree": {
         "created_at": "2021-10-13 11:34:53",
         "description": "v2ray公益免费节点、最新2ray免费v节点订阅地址、v2ray免费节点每日更新、免费ss/v2ray/trojan节点、freefq ",
-        "commit_date": "2023-06-17 12:34:34",
+        "commit_date": "2023-06-18 12:35:32",
         "commit_message": "update",
         "release_tag": "",
         "release_date": "",
@@ -4320,8 +4320,8 @@
     "https://github.com/freefq/free": {
         "created_at": "2020-06-07 02:48:33",
         "description": "翻墙、免费翻墙、免费科学上网、免费节点、免费梯子、免费ss/v2ray/trojan节点、蓝灯、谷歌商店、翻墙梯子",
-        "commit_date": "2023-06-18 00:00:05",
-        "commit_message": "updated_at 06-18 08:00",
+        "commit_date": "2023-06-19 00:00:03",
+        "commit_message": "updated_at 06-19 08:00",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -4590,8 +4590,8 @@
     "https://github.com/yzfly/awesome-chatgpt-zh": {
         "created_at": "2023-03-21 02:16:34",
         "description": "ChatGPT 中文指南🔥，ChatGPT 中文调教指南，指令指南，应用开发指南，精选资源清单，更好的使用 chatGPT 让你的生产力 up up up! 🚀",
-        "commit_date": "2023-06-17 03:01:08",
-        "commit_message": "update docs",
+        "commit_date": "2023-06-18 22:51:58",
+        "commit_message": "add fintuning LLMs and vercel-labs/ai",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -4599,8 +4599,8 @@
     "https://github.com/rockbenben/ChatGPT-Shortcut": {
         "created_at": "2023-02-24 12:53:49",
         "description": "🚀💪Maximize your efficiency and productivity, Maximize your efficiency and productivity, support for English, Chinese, Japanese, and Korean. 让生产力加倍的 ChatGPT 快捷指令，按照领域和功能分区，可对提示词进行标签筛选、关键词搜索和一键复制。",
-        "commit_date": "2023-06-16 21:57:48",
-        "commit_message": "refactor: adjust label text",
+        "commit_date": "2023-06-18 23:43:41",
+        "commit_message": "fix: Fixed issue with incorrectly hiding the Toggle Prompt button",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
