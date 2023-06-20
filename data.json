@@ -200,8 +200,8 @@
     "https://github.com/ycdxsb/PocOrExp_in_Github": {
         "created_at": "2021-04-13 05:46:16",
         "description": "聚合Github上已有的Poc或者Exp，CVE信息来自CVE官网。Auto Collect Poc Or Exp from Github by CVE ID.",
-        "commit_date": "2023-06-19 00:13:41",
-        "commit_message": "update 2023-06-19 08:13:41",
+        "commit_date": "2023-06-19 19:40:42",
+        "commit_message": "update 2023-06-20 03:40:42",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -218,7 +218,7 @@
     "https://github.com/Threekiii/Vulhub-Reproduce": {
         "created_at": "2022-03-03 08:38:29",
         "description": "一个Vulhub漏洞复现知识库",
-        "commit_date": "2023-06-05 02:04:05",
+        "commit_date": "2023-06-19 02:38:13",
         "commit_message": "更新漏洞",
         "release_tag": "",
         "release_date": "",
@@ -380,8 +380,8 @@
     "https://github.com/lal0ne/vulnerability": {
         "created_at": "2022-01-20 02:48:42",
         "description": "收集、整理、修改互联网上公开的漏洞POC",
-        "commit_date": "2023-06-14 01:55:59",
-        "commit_message": "蓝凌OA treexml.tmpl远程命令执行漏洞",
+        "commit_date": "2023-06-19 06:48:19",
+        "commit_message": "CVE-2023-30179",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -461,7 +461,7 @@
     "https://github.com/ExpLangcn/NucleiTP": {
         "created_at": "2022-11-08 13:16:56",
         "description": "自动整合全网Nuclei的漏洞POC，实时同步更新最新POC！",
-        "commit_date": "2023-06-19 00:30:15",
+        "commit_date": "2023-06-20 00:30:18",
         "commit_message": "更新啦❤️",
         "release_tag": "",
         "release_date": "",
@@ -531,8 +531,8 @@
     "https://github.com/knownsec/404StarLink": {
         "created_at": "2020-11-17 08:10:18",
         "description": "404StarLink - 推荐优质、有意义、有趣、坚持维护的安全开源项目",
-        "commit_date": "2023-06-12 04:36:28",
-        "commit_message": "weekly update at 2023-06-12",
+        "commit_date": "2023-06-19 03:04:32",
+        "commit_message": "weekly update at 2023-06-19",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -1098,7 +1098,7 @@
     "https://github.com/Threekiii/Vulnerability-Wiki": {
         "created_at": "2022-04-29 05:36:33",
         "description": "一个基于 docsify 的综合漏洞知识库，目前漏洞数量 900+",
-        "commit_date": "2023-06-11 13:15:50",
+        "commit_date": "2023-06-19 02:35:24",
         "commit_message": "更新漏洞",
         "release_tag": "v1.0",
         "release_date": "2022-07-15 01:58:00",
@@ -1906,8 +1906,8 @@
     "https://github.com/hiroi-sora/Umi-OCR": {
         "created_at": "2022-03-28 04:01:46",
         "description": "OCR图片转文字识别软件，完全离线。截屏/批量导入图片，支持多国语言、合并段落、竖排文字。可排除水印区域，提取干净的文本。基于 PaddleOCR 。",
-        "commit_date": "2023-06-18 14:09:32",
-        "commit_message": "新功能：复制OCR文本后发送指定快捷键，可用于唤起翻译器等工具",
+        "commit_date": "2023-06-19 02:26:23",
+        "commit_message": "将超时判定时间的常量替换为可修改的配置项",
         "release_tag": "v1.3.4",
         "release_date": "2023-04-25 17:18:33",
         "release_message": "### `v1.3.4` 主要更新：\r\n- 新功能：截图预览窗口。需要在`设置→快捷识图→截图预览窗口`里打开。效果见下图，可以调整透明度 并钉在屏幕顶层。\r\n![1682442876719.png](https://tupian.li/images/2023/04/26/64480a815920a.png)\r\n- 新功能：可用方向键微调截图框位置。\r\n- 修Bug：修复了拖入图片时有几率卡退主窗口的问题。\r\n- 优化了一些处理流程。\r\n- 优化了打包方式，软件体积比上一代减少了15MB。\r\n\r\n### 文件说明\r\n软件本体：`Umi-OCR.v1.3.4.7z`（67MB），内置`简体中文&英文`通用识别库。\r\n软件（多国语言整合版）：`Umi-OCR.v1.3.4_ALL_languages.7z`（118MB），内置多国语言识别库。\r\n\r\n多国语言扩展包：`Umi-OCR.v1.3_DLC_languages.7z`（50MB），可向软件本体导入`繁中,英,日,韩,俄,德,法` 多国语言识别库。"
@@ -2122,8 +2122,8 @@
     "https://github.com/wwl012345/Vuln-List": {
         "created_at": "2022-03-01 03:07:52",
         "description": "(持续更新)对网上出现的各种OA、中间件、CMS等漏洞进行整理，主要包括漏洞介绍、漏洞影响版本以及漏洞POC/EXP等，并且会持续更新。",
-        "commit_date": "2023-06-13 13:06:37",
-        "commit_message": "Update 终端软件漏洞合集.md",
+        "commit_date": "2023-06-19 08:43:37",
+        "commit_message": "Update 中间件&框架&平台&第三方服务漏洞.md",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -2221,8 +2221,8 @@
     "https://github.com/Threekiii/Awesome-POC": {
         "created_at": "2022-02-20 06:43:22",
         "description": "一个各类漏洞POC知识库",
-        "commit_date": "2023-06-11 13:15:01",
-        "commit_message": "更新漏洞",
+        "commit_date": "2023-06-19 02:38:39",
+        "commit_message": "更新README.md",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -2951,8 +2951,8 @@
     "https://github.com/dbeaver/dbeaver": {
         "created_at": "2015-10-21 08:26:28",
         "description": "Free universal database tool and SQL client",
-        "commit_date": "2023-06-16 12:09:03",
-        "commit_message": "dbeaver/pro#1720 Migrate to Eclipse 2023-06 (#20308)",
+        "commit_date": "2023-06-19 19:33:41",
+        "commit_message": "remove unused code (#20248)\n\nCo-authored-by: Serge Rider <serge@jkiss.org>",
         "release_tag": "23.1.0",
         "release_date": "2023-06-04 19:54:58",
         "release_message": "\n                - SQL Editor:\n                    - Autocomplete now supports [ ] and ` as quotes for identifiers\n                    - Shortcut confict on macOS was fixed\n                    - JSQLParser was reverted to the version 4.5 and is now faster\n                    - Issue with substitution variables in text with \\n line feeds was fixed\n                    - Autocomplete case with FROM right after SELECT is now handled\n                    - Autocomplete for SELECT query without FROM was fixed\n                    - 'Go to Matching Bracket' shortcut was changed to CTRL+SHIFT+[\n                    - Autocomplete for columns in tables without alias was fixed\n                    - Completion analyze errors are now written to the debug log\n                    - Comment with a tab after a double dash is now handle\n                    - Issue with hiding cursor position after resizing the editor was fixed\n                    - Exeption when updating editor annotations was fixed\n                - Data Editor:\n                    - Data ordering was improved\n                - General UI:\n                    - Changing the size and position of the connection dialog is now saved\n                    - Issue with the application freezing when creating a table when the connection hangs was fixed\n                    - Tips of the day were revised\n                - Connectivity:\n                    - Option to disable SSHJ hostname verification was added (thanks to @ryanc-me)\n                    - Issue when switching from Community to PRO version and vice versa was fixed\n                - Databases:\n                    - ClickHouse: display of large numbers was fixed\n                    - MariaDB: partition support was added\n                    - Oracle:\n                        - Issue issue with native clients hanging when running SQLPlus scripts was fixed\n                        - Issue with setting the wrong schema after connecting or changing the Data Editor was fixed\n                    - PostgreSQL:\n                        - Issue with an exception when loading attribute information was fixed\n                        - Reading a numeric array was fixed\n                    - Trino: error handling was improved\n                 - Localization:\n                    - German localization was improved (thanks to @hype11)\n                    - Italian localization was improved (thanks to @Gnafu)\n                 - Misc:\n                    - Images for all DBeaver Eclipse extensions were added\n                    - Legacy ODBC driver based on the obsolete Java 7 was deprecated due to many issues\n            "
@@ -3050,11 +3050,11 @@
     "https://github.com/zan8in/afrog": {
         "created_at": "2022-02-24 06:00:32",
         "description": "A Security Tool for Bug Bounty, Pentest and Red Teaming.",
-        "commit_date": "2023-06-17 11:14:32",
-        "commit_message": "add many pocs",
-        "release_tag": "v2.5.5",
-        "release_date": "2023-06-17 11:18:00",
-        "release_message": "## Fix:\r\nFix -pd command, some PoC content is not printed completely\r\n## 修复：\r\n- 修复 -pd 命令，部分 PoC 内容打印不全问题\r\n## PoC:\r\n累计：951"
+        "commit_date": "2023-06-19 12:50:31",
+        "commit_message": "update",
+        "release_tag": "v2.5.6",
+        "release_date": "2023-06-19 06:25:46",
+        "release_message": "We have fixed a potential false-positive issue with PoC CVE-2022-23131, making it more reliable and accurate in detecting actual vulnerabilities.\r\n\r\n"
     },
     "https://github.com/moonD4rk/HackBrowserData": {
         "created_at": "2020-06-18 03:24:31",
@@ -3219,7 +3219,7 @@
     "https://github.com/Threekiii/Awesome-Redteam": {
         "created_at": "2022-02-08 00:45:03",
         "description": "一个红队知识仓库",
-        "commit_date": "2023-06-09 01:43:32",
+        "commit_date": "2023-06-19 09:01:37",
         "commit_message": "更新README.md",
         "release_tag": "",
         "release_date": "",
@@ -3888,8 +3888,8 @@
     "https://github.com/neuvector/neuvector": {
         "created_at": "2021-12-17 20:15:03",
         "description": "",
-        "commit_date": "2023-06-18 02:33:38",
-        "commit_message": "Merge pull request #885 from williamlin-suse/main\n\nNVSHAS-8075: controller panic at at scan.ScanRepoResult2REST(0xc0152f…",
+        "commit_date": "2023-06-19 13:50:54",
+        "commit_message": "Merge pull request #877 from jayhuang-suse/two\n\nNVSHAS-7983 v2: NV protect events are not reporting name of the pod for manager, scanner and csp pods.",
         "release_tag": "v5.1.3",
         "release_date": "2023-05-09 18:16:30",
         "release_message": "Features:\r\nAdd new vulnerability feed for scanning Microsoft .NET framework\r\nEnforcer stats is disabled by default in Prometheus exporter to improve scalability\r\nUseability improvement: Using scanner to scan single image and print the result\r\nAdd imagePullPolicy check in admission control\r\n\r\n\r\nBug fixes:\r\nEmpty group auto-removal takes 2 hours to delete instead of 1 hour according to schedule\r\nCompliance profile doesn't show in UI console\r\n"
@@ -3915,8 +3915,8 @@
     "https://github.com/chaitin/safeline": {
         "created_at": "2023-04-12 11:30:14",
         "description": "长亭科技自研，基于业界领先的语义引擎检测技术，打造的简洁、易用的免费 WAF",
-        "commit_date": "2023-06-16 08:48:41",
-        "commit_message": "Merge pull request #101 from yrluke/add_access_log\n\nAdd access log",
+        "commit_date": "2023-06-19 06:56:33",
+        "commit_message": "修改了官网文档里的两个错别字",
         "release_tag": "v1.9.0",
         "release_date": "2023-06-16 04:47:24",
         "release_message": "## 新增\r\n\r\n- 界面 UI 改造，信息层级更清晰\r\n- 黑白名单支持添加 源 IP - 不属于 IP 组 的条件\r\n\r\n## 优化\r\n\r\n- 检测日志的路由进一步完善\r\n- 数据统计页面更加紧凑，现在可以在 1920*1080 的屏幕上完全显示了\r\n- 黑白名单的展示优化\r\n- 修复 通用配置-防护模块配置 中，“批量配置为” 按钮有时候不生效的问题\r\n- 修复一些已知问题"
@@ -3969,8 +3969,8 @@
     "https://github.com/aquasecurity/trivy": {
         "created_at": "2019-04-11 01:01:07",
         "description": "Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more",
-        "commit_date": "2023-06-18 16:41:55",
-        "commit_message": "fix(vm): update ext4-filesystem parser for parse multi block extents (#4616)\n\n* chore(deps): update ext4-filesystem parser for parse multi block extents\n\n* test(vm): update integration-vm test fixtures\n\n* test(vm): add gzip decompresser for sparse file\n\n* test(vm): add mage command update golden file for vm integration test\n\n* chore(magefile): [WIP] change test repository\n\n* Revert \"chore(magefile): [WIP] change test repository\"\n\nThis reverts commit c015c8892f250698bd57f1d320b18bf19c77a76e.\n\n* fix(test): update fixtures and golden file\n\n* fix(test): revert fixVersion and PkgID",
+        "commit_date": "2023-06-19 10:52:38",
+        "commit_message": "fix: format arg error (#4642)\n\n* fix: format arg error\n\n* fix: xerrors.Errorf",
         "release_tag": "v0.42.1",
         "release_date": "2023-06-08 15:09:13",
         "release_message": "## Changelog\n* 9a279fa7b ci: remove 32bit packages (#4585)\n* d52b0b7bc fix(misconf): deduplicate misconf results (#4588)\n* 9b531fa27 fix(vm): support sector size of 4096 (#4564)\n* 8ca1bfdd2 fix(misconf): terraform relative paths (#4571)\n* c20d46604 fix(purl): skip unsupported library type (#4577)\n* 52cbe7975 fix(terraform): recursively detect all Root Modules (#4457)\n* 4a5b91557 fix(vm): support post analyzer for vm command (#4544)\n* 56cdc55f7 fix(nodejs): change the type of the devDependencies field (#4560)\n* 17d753676 fix(sbom): export empty dependencies in CycloneDX (#4568)\n* 2796abe1e refactor: add composite fs for post-analyzers (#4556)\n* 22a157380 chore(deps): bump golangci/golangci-lint-action from 3.4.0 to 3.5.0 (#4554)\n* 43586659a chore(deps): bump helm/kind-action from 1.5.0 to 1.7.0 (#4526)\n* 508139965 chore(deps): bump github.com/BurntSushi/toml from 1.2.1 to 1.3.0 (#4528)\n* e1a38128a chore(deps): bump github.com/alicebob/miniredis/v2 from 2.30.2 to 2.30.3 (#4529)\n* 283eef637 chore(deps): bump github.com/aws/aws-sdk-go-v2/service/ec2 (#4536)\n* bbd7b9874 chore(deps): bump github.com/tetratelabs/wazero from 1.0.0 to 1.2.0 (#4549)\n* 11c81bf2f chore(deps): bump github.com/spf13/cast from 1.5.0 to 1.5.1 (#4532)\n* 2d8d63e61 chore(deps): bump github.com/testcontainers/testcontainers-go (#4537)\n* a46839b1c chore(deps): bump github.com/go-git/go-git/v5 from 5.6.1 to 5.7.0 (#4530)\n* 19715f5de chore(deps): bump github.com/aws/aws-sdk-go-v2/config (#4534)\n\n"
@@ -4275,7 +4275,7 @@
     "https://github.com/aiboboxx/v2rayfree": {
         "created_at": "2021-10-13 11:34:53",
         "description": "v2ray公益免费节点、最新2ray免费v节点订阅地址、v2ray免费节点每日更新、免费ss/v2ray/trojan节点、freefq ",
-        "commit_date": "2023-06-18 12:35:32",
+        "commit_date": "2023-06-19 12:39:38",
         "commit_message": "update",
         "release_tag": "",
         "release_date": "",
@@ -4320,8 +4320,8 @@
     "https://github.com/freefq/free": {
         "created_at": "2020-06-07 02:48:33",
         "description": "翻墙、免费翻墙、免费科学上网、免费节点、免费梯子、免费ss/v2ray/trojan节点、蓝灯、谷歌商店、翻墙梯子",
-        "commit_date": "2023-06-19 00:00:03",
-        "commit_message": "updated_at 06-19 08:00",
+        "commit_date": "2023-06-20 00:00:02",
+        "commit_message": "updated_at 06-20 08:00",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -4563,11 +4563,11 @@
     "https://github.com/r0oth3x49/ghauri": {
         "created_at": "2022-10-01 11:21:50",
         "description": "An advanced cross-platform tool that automates the process of detecting and exploiting SQL injection security flaws",
-        "commit_date": "2023-05-06 08:45:32",
-        "commit_message": "updated code quality, fixed #39, fixed #40, fixed #69, bumped version 1.2.",
-        "release_tag": "1.2",
-        "release_date": "2023-05-06 08:48:32",
-        "release_message": " **Features**\r\n - added support for sql-shell switch: `--sql-shell` (experimental)\r\n - added support for fresh queries switch: `--fresh-queries`\r\n - added switch for hostname extraction: `--hostname`\r\n \r\n **Fixes**\r\n  - Fixed issue with processing multiple switches."
+        "commit_date": "2023-06-19 10:37:53",
+        "commit_message": "fixed #80 (issue with HTTP request file parsing)..",
+        "release_tag": "1.2.1",
+        "release_date": "2023-06-19 10:39:46",
+        "release_message": "# Fixes\r\n - fixed issue with HTTP request parsing #80."
     },
     "https://github.com/dalinvip/Awesome-ChatGPT": {
         "created_at": "2023-02-06 11:57:37",
@@ -4590,17 +4590,17 @@
     "https://github.com/yzfly/awesome-chatgpt-zh": {
         "created_at": "2023-03-21 02:16:34",
         "description": "ChatGPT 中文指南🔥，ChatGPT 中文调教指南，指令指南，应用开发指南，精选资源清单，更好的使用 chatGPT 让你的生产力 up up up! 🚀",
-        "commit_date": "2023-06-18 22:51:58",
-        "commit_message": "add fintuning LLMs and vercel-labs/ai",
+        "commit_date": "2023-06-19 23:08:25",
+        "commit_message": "add coig data",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
     },
     "https://github.com/rockbenben/ChatGPT-Shortcut": {
         "created_at": "2023-02-24 12:53:49",
-        "description": "🚀💪Maximize your efficiency and productivity, Maximize your efficiency and productivity, support for English, Chinese, Japanese, and Korean. 让生产力加倍的 ChatGPT 快捷指令，按照领域和功能分区，可对提示词进行标签筛选、关键词搜索和一键复制。",
-        "commit_date": "2023-06-18 23:43:41",
-        "commit_message": "fix: Fixed issue with incorrectly hiding the Toggle Prompt button",
+        "description": "🚀💪Maximize your efficiency and productivity, support for English, 中文, 日本語, and 한국어. 让生产力加倍的 ChatGPT 快捷指令，按照领域和功能分区，可对提示词进行标签筛选、关键词搜索和一键复制。",
+        "commit_date": "2023-06-19 04:09:21",
+        "commit_message": "feat: Add multilingual support for Chinese, Japanese, and English in the comment section interface and implement restrictions for low-quality replies.",
         "release_tag": "",
         "release_date": "",
         "release_message": ""

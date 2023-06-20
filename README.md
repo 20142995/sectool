@@ -1,13 +1,14 @@
-# 更新于 2023-06-19 08:45:39
+# 更新于 2023-06-20 08:46:27
 
 ## 近15天release更新记录
 | 更新时间 | 项目名称 | 版本 | 更新内容 |
 | :---- | :---- | :---- | :---- |
+|2023-06-19 10:39:46|[ghauri](https://github.com/r0oth3x49/ghauri)|1.2.1|# Fixes   - fixed issue with HTTP req<br>uest parsing #80.|
+|2023-06-19 06:25:46|[afrog](https://github.com/zan8in/afrog)|v2.5.6|We have fixed a potential false-posit<br>ive issue with PoC CVE-2022-23131, mak<br>ing it more reliable and accurate in d<br>etecting actual vulnerabilities.    |
 |2023-06-18 14:47:06|[Ladon](https://github.com/k8gege/Ladon)|v11.0|Ladon911_20230618  BypassAV一键免杀工<br>具  LadonShell内存加载Ladon后渗透  [+]R<br>ocketMQexp    Apache RocketMQ CVE-2023<br>-33246 远程命令执行漏洞EXP (可Ladon渗<br>透Web服务器获取回显)  [+]BypassAV     L<br>adon一键免杀工具 PY XOR随机加密 (Main<br>函数需Public）  [u]InfoScan     修复异<br>常退出Bug  [+]EventLog/LoginLog  获取管<br>理员IP 一键读取登陆成功日志4624   [u]Ex<br>p、GUI、Study、Chat 更新UI按钮背景    <br>[+]RunCmd/Cmd    执行Cmd命令/支持b64cm<br>d Ladon cmd whoami   [+]RunPS/PowerShe<br>ll   执行PowerShell命令/脚本 Ladon pow<br>ershell c $PSVersionTable    20230603 <br> [u]LadonExp      支持GET连接MS17010漏<br>洞CmdShell执行命令  [u]LadonExp      生<br>成EXE可解密Base64、Hex  PostShell结果  <br>[+]PostShell        增加HEX加密传输HEX<br>解密结果,Base64结果解密Bug修复  |
 |2023-06-18 09:08:03|[linbing](https://github.com/taomujian/linbing)|v3.0||
 |2023-06-18 04:26:11|[PEASS-ng](https://github.com/carlospolop/PEASS-ng)|2023061<br>8-1fa055<br>b6||
 |2023-06-17 12:44:55|[Viper](https://github.com/FunnyWolf/Viper)|v1.5.30|### 新功能  - Viper所有功能都可通过右<br>下角链接跳转到对应文档  ### 优化  - 监<br>听防火墙前端UI优化  - 只显示Session功能<br>可在主页面使用  - 合并metasploit-framew<br>ork 6.3.22版本  ### Bugfix  - 修复pyth<br>on类型payload断线后无法重连及无法清理<br>历史网络连接问题|
-|2023-06-17 11:18:00|[afrog](https://github.com/zan8in/afrog)|v2.5.5|## Fix:  Fix -pd command, some PoC co<br>ntent is not printed completely  ## 修<br>复：  - 修复 -pd 命令，部分 PoC 内容打<br>印不全问题  ## PoC:  累计：951|
 |2023-06-16 04:47:24|[safeline](https://github.com/chaitin/safeline)|v1.9.0|## 新增    - 界面 UI 改造，信息层级更<br>清晰  - 黑白名单支持添加 源 IP - 不属于<br> IP 组 的条件    ## 优化    - 检测日志<br>的路由进一步完善  - 数据统计页面更加紧<br>凑，现在可以在 1920*1080 的屏幕上完全显<br>示了  - 黑白名单的展示优化  - 修复 通用<br>配置-防护模块配置 中，“批量配置为” 按<br>钮有时候不生效的问题  - 修复一些已知问<br>题|
 |2023-06-16 04:36:40|[Elkeid](https://github.com/bytedance/Elkeid)|v1.7.0.<br>12-drive<br>r-ko-202<br>30615||
 |2023-06-15 03:50:43|[GoWxDump](https://github.com/SpenserCai/GoWxDump)|v1.0.12|#22 |
@@ -23,35 +24,41 @@
 |2023-06-06 14:50:53|[kube-bench](https://github.com/aquasecurity/kube-bench)|v0.6.15|## Changelog * e41755b  cis-1.24: fix<br> tests of 1.1.1 and 4.2.9 were wrong (<br>#1423) * ca8743c add support VMware Ta<br>nzu(TKGI) Benchmarks v1.2.53 (#1452) *<br> 84f80b5 build(deps): bump alpine from<br> 3.17 to 3.18 (#1443) * 6de03bb build(<br>deps): bump github.com/aws/aws-sdk-go-<br>v2 from 1.17.6 to 1.18.0 (#1433) * 60d<br>de65 support CIS Amazon Elastic Kubern<br>etes Service (EKS) Benchmark v1.2.0 (#<br>1449) * 124c57c support CIS Kubernetes<br> Benchmark v1.7.0 (#1424)  |
 |2023-06-05 21:38:02|[grype](https://github.com/anchore/grype)|v0.62.3|# Changelog    ##  (2023-06-05)      <br>  ### Bug Fixes    - Suppressed vulner<br>abilties are now correctly hidden, unl<br>ess the --show-suppressed option is pr<br>ovided.  ] ] ] ]        |
 |2023-06-05 06:27:12|[Pentest-Windows](https://github.com/arch3rPro/Pentest-Windows)|v2.1|Windows11 Penetration Suite Toolkit v<br>2.1  优化了部分工具无法打开的问题，重<br>新打包一下  下载链接：https://www.123pa<br>n.com/s/q59KVv-XjApd.html 提取码:DZvt <br> 文件大小：7.49 GB，解压后：19.6GB  SH<br>A256：4095b02e57738d3cf62c9d245eb4012e<br>7edaf07579dea3ac5a3b910501857138      |
-|2023-06-04 19:54:58|[dbeaver](https://github.com/dbeaver/dbeaver)|23.1.0|                 - SQL Editor:       <br>              - Autocomplete now suppo<br>rts [ ] and  as quotes for identifiers<br>                     - Shortcut confic<br>t on macOS was fixed                  <br>   - JSQLParser was reverted to the ve<br>rsion 4.5 and is now faster           <br>          - Issue with substitution va<br>riables in text with \n line feeds was<br> fixed                     - Autocompl<br>ete case with FROM right after SELECT <br>is now handled                     - A<br>utocomplete for SELECT query without F<br>ROM was fixed                     - 'G<br>o to Matching Bracket' shortcut was ch<br>anged to CTRL+SHIFT+[                 <br>    - Autocomplete for columns in tabl<br>es without alias was fixed            <br>         - Completion analyze errors a<br>re now written to the debug log       <br>              - Comment with a tab aft<br>er a double dash is now handle        <br>             - Issue with hiding curso<br>r position after resizing the editor w<br>as fixed                     - Exeptio<br>n when updating editor annotations was<br> fixed                 - Data Editor: <br>                    - Data ordering wa<br>s improved                 - General U<br>I:                     - Changing the <br>size and position of the connection di<br>alog is now saved                     <br>- Issue with the application freezing <br>when creating a table when the connect<br>ion hangs was fixed                   <br>  - Tips of the day were revised      <br>           - Connectivity:            <br>         - Option to disable SSHJ host<br>name verification was added (thanks to<br> @ryanc-me)                     - Issu<br>e when switching from Community to PRO<br> version and vice versa was fixed     <br>            - Databases:              <br>       - ClickHouse: display of large <br>numbers was fixed                     <br>- MariaDB: partition support was added<br>                     - Oracle:        <br>                 - Issue issue with na<br>tive clients hanging when running SQLP<br>lus scripts was fixed                 <br>        - Issue with setting the wrong<br> schema after connecting or changing t<br>he Data Editor was fixed              <br>       - PostgreSQL:                  <br>       - Issue with an exception when <br>loading attribute information was fixe<br>d                         - Reading a <br>numeric array was fixed               <br>      - Trino: error handling was impr<br>oved                  - Localization: <br>                    - German localizat<br>ion was improved (thanks to @hype11)  <br>                   - Italian localizat<br>ion was improved (thanks to @Gnafu)   <br>               - Misc:                <br>     - Images for all DBeaver Eclipse <br>extensions were added                 <br>    - Legacy ODBC driver based on the <br>obsolete Java 7 was deprecated due to <br>many issues             |
-|2023-06-04 11:46:12|[DNSlog-GO](https://github.com/lanyi1998/DNSlog-GO)|1.5.6||
 ## 近15天commit提交记录
 | 提交时间 | 项目名称 | 更新内容 |
 | :---- | :---- | :---- |
-|2023-06-19 00:30:15|[NucleiTP](https://github.com/ExpLangcn/NucleiTP)|更新啦❤️|
-|2023-06-19 00:13:41|[PocOrExp_in_Githu<br>b](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-06-19 08:13:41|
-|2023-06-19 00:00:03|[free](https://github.com/freefq/free)|updated_at 06-19 08:00|
-|2023-06-18 23:43:41|[ChatGPT-Shortcut](https://github.com/rockbenben/ChatGPT-Shortcut)|fix: Fixed issue with incorrectly hiding the Toggle<br> Prompt button|
-|2023-06-18 22:51:58|[awesome-chatgpt-z<br>h](https://github.com/yzfly/awesome-chatgpt-zh)|add fintuning LLMs and vercel-labs/ai|
+|2023-06-20 00:30:18|[NucleiTP](https://github.com/ExpLangcn/NucleiTP)|更新啦❤️|
+|2023-06-20 00:00:02|[free](https://github.com/freefq/free)|updated_at 06-20 08:00|
+|2023-06-19 23:08:25|[awesome-chatgpt-z<br>h](https://github.com/yzfly/awesome-chatgpt-zh)|add coig data|
+|2023-06-19 19:40:42|[PocOrExp_in_Githu<br>b](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-06-20 03:40:42|
+|2023-06-19 19:33:41|[dbeaver](https://github.com/dbeaver/dbeaver)|remove unused code (#20248)  Co-authored-by: Serge <br>Rider |
+|2023-06-19 13:50:54|[neuvector](https://github.com/neuvector/neuvector)|Merge pull request #877 from jayhuang-suse/two  NVS<br>HAS-7983 v2: NV protect events are not reporting nam<br>e of the pod for manager, scanner and csp pods.|
+|2023-06-19 12:50:31|[afrog](https://github.com/zan8in/afrog)|update|
+|2023-06-19 12:39:38|[v2rayfree](https://github.com/aiboboxx/v2rayfree)|update|
+|2023-06-19 10:52:38|[trivy](https://github.com/aquasecurity/trivy)|fix: format arg error (#4642)  * fix: format arg er<br>ror  * fix: xerrors.Errorf|
+|2023-06-19 10:37:53|[ghauri](https://github.com/r0oth3x49/ghauri)|fixed #80 (issue with HTTP request file parsing)..|
+|2023-06-19 09:01:37|[Awesome-Redteam](https://github.com/Threekiii/Awesome-Redteam)|更新README.md|
+|2023-06-19 08:43:37|[Vuln-List](https://github.com/wwl012345/Vuln-List)|Update 中间件&框架&平台&第三方服务漏洞.md|
+|2023-06-19 06:56:33|[safeline](https://github.com/chaitin/safeline)|修改了官网文档里的两个错别字|
+|2023-06-19 06:48:19|[vulnerability](https://github.com/lal0ne/vulnerability)|CVE-2023-30179|
+|2023-06-19 04:09:21|[ChatGPT-Shortcut](https://github.com/rockbenben/ChatGPT-Shortcut)|feat: Add multilingual support for Chinese, Japanes<br>e, and English in the comment section interface and <br>implement restrictions for low-quality replies.|
+|2023-06-19 03:04:32|[404StarLink](https://github.com/knownsec/404StarLink)|weekly update at 2023-06-19|
+|2023-06-19 02:38:39|[Awesome-POC](https://github.com/Threekiii/Awesome-POC)|更新README.md|
+|2023-06-19 02:38:13|[Vulhub-Reproduce](https://github.com/Threekiii/Vulhub-Reproduce)|更新漏洞|
+|2023-06-19 02:35:24|[Vulnerability-Wik<br>i](https://github.com/Threekiii/Vulnerability-Wiki)|更新漏洞|
+|2023-06-19 02:26:23|[Umi-OCR](https://github.com/hiroi-sora/Umi-OCR)|将超时判定时间的常量替换为可修改的配置项|
 |2023-06-18 18:21:53|[WebGoat](https://github.com/WebGoat/WebGoat)|chore: bump asciidoctorj from 2.5.3 to 2.5.10 (#149<br>8)  Bumps  from 2.5.3 to 2.5.10.  -   -   -     --- <br> updated-dependencies:  - dependency-name: org.ascii<br>doctor:asciidoctorj    dependency-type: direct:produ<br>ction    update-type: version-update:semver-patch  .<br>..    Signed-off-by: dependabot[bot]   Co-authored-b<br>y: dependabot[bot] |
-|2023-06-18 16:41:55|[trivy](https://github.com/aquasecurity/trivy)|fix(vm): update ext4-filesystem parser for parse mu<br>lti block extents (#4616)  * chore(deps): update ext<br>4-filesystem parser for parse multi block extents  *<br> test(vm): update integration-vm test fixtures  * te<br>st(vm): add gzip decompresser for sparse file  * tes<br>t(vm): add mage command update golden file for vm in<br>tegration test  * chore(magefile): [WIP] change test<br> repository  * Revert "chore(magefile): [WIP] change<br> test repository"  This reverts commit c015c8892f250<br>698bd57f1d320b18bf19c77a76e.  * fix(test): update fi<br>xtures and golden file  * fix(test): revert fixVersi<br>on and PkgID|
-|2023-06-18 14:09:32|[Umi-OCR](https://github.com/hiroi-sora/Umi-OCR)|新功能：复制OCR文本后发送指定快捷键，可用于唤起翻译<br>器等工具|
 |2023-06-18 13:58:33|[Ladon](https://github.com/k8gege/Ladon)|Add files via upload|
 |2023-06-18 13:44:40|[K8tools](https://github.com/k8gege/K8tools)|Add files via upload|
-|2023-06-18 12:35:32|[v2rayfree](https://github.com/aiboboxx/v2rayfree)|update|
 |2023-06-18 09:05:42|[linbing](https://github.com/taomujian/linbing)|2023.6.18|
-|2023-06-18 02:33:38|[neuvector](https://github.com/neuvector/neuvector)|Merge pull request #885 from williamlin-suse/main  <br>NVSHAS-8075: controller panic at at scan.ScanRepoRes<br>ult2REST(0xc0152f…|
 |2023-06-17 18:24:18|[vulhub](https://github.com/vulhub/vulhub)|Merge pull request #442 from vulhub/openfire-cve-20<br>23-32315  added Openfire CVE-2023-32315|
 |2023-06-17 12:44:01|[Viper](https://github.com/FunnyWolf/Viper)|update version v1.5.30|
-|2023-06-17 11:14:32|[afrog](https://github.com/zan8in/afrog)|add many pocs|
 |2023-06-17 10:09:44|[zpscan](https://github.com/niudaii/zpscan)|update: sth|
 |2023-06-17 08:12:49|[murphysec](https://github.com/murphysecurity/murphysec)|ci: windows-arm64|
 |2023-06-16 18:45:04|[grype](https://github.com/anchore/grype)|chore(deps): update bootstrap tools to latest versi<br>ons (#1353)  Signed-off-by: GitHub   Co-authored-by:<br> westonsteimel |
 |2023-06-16 17:26:18|[syft](https://github.com/anchore/syft)|Pad artifact IDs (#1882)  Otherwise the hash can so<br>metimes be short if it results in a low uint64.    S<br>igned-off-by: Will Murphy |
 |2023-06-16 16:10:01|[v2rayA](https://github.com/v2rayA/v2rayA)|release_feat_v5: Use the correct Arch package exten<br>sion|
-|2023-06-16 12:09:03|[dbeaver](https://github.com/dbeaver/dbeaver)|dbeaver/pro#1720 Migrate to Eclipse 2023-06 (#20308<br>)|
 |2023-06-16 11:33:04|[Awesome-ChatGPT](https://github.com/dalinvip/Awesome-ChatGPT)|Update README.md|
-|2023-06-16 08:48:41|[safeline](https://github.com/chaitin/safeline)|Merge pull request #101 from yrluke/add_access_log <br> Add access log|
 |2023-06-16 08:05:19|[Elkeid](https://github.com/bytedance/Elkeid)|FIXME: possible OOB reading in dns querying  OOB du<br>e to not null-terminated, reported by coverity - sta<br>tic code analysis.  Signed-off-by: shenping.matt |
 |2023-06-16 04:35:40|[fofax](https://github.com/xiecat/fofax)|这是一个临时版本修改一些ipv6问题|
 |2023-06-16 03:34:38|[Library-POC](https://github.com/luck-ying/Library-POC)|Update README.md|
@@ -64,22 +71,16 @@
 |2023-06-14 21:12:51|[Mobile-Security-F<br>ramework-MobSF](https://github.com/MobSF/Mobile-Security-Framework-MobSF)|Update requirements.txt  0.13.1 not available.|
 |2023-06-14 09:48:35|[FrameVul](https://github.com/Awrrays/FrameVul)|Update README.md|
 |2023-06-14 03:08:05|[EHole](https://github.com/EdgeSecurityTeam/EHole)|Update|
-|2023-06-14 01:55:59|[vulnerability](https://github.com/lal0ne/vulnerability)|蓝凌OA treexml.tmpl远程命令执行漏洞|
 |2023-06-13 15:36:13|[iDefender](https://github.com/wecooperate/iDefender)|add wechat group|
-|2023-06-13 13:06:37|[Vuln-List](https://github.com/wwl012345/Vuln-List)|Update 终端软件漏洞合集.md|
 |2023-06-13 09:17:54|[log4j2burpscanner](https://github.com/f0ng/log4j2burpscanner)|Update FAQ-zh-CN.md|
 |2023-06-12 16:54:15|[rotp](https://github.com/mdp/rotp)|chore: docker-compose.yml: Use ruby-3.0 (#128)  Thi<br>s prepares to add new stable Ruby versions.    Co-au<br>thored-by: Olle Jonsson |
 |2023-06-12 08:09:49|[ddddocr](https://github.com/sml2h3/ddddocr)|Update README.md|
 |2023-06-12 06:26:00|[EmailSender](https://github.com/A10ha/EmailSender)|Update EmailSenderGUI.py  更新Log记录，增加发件成功<br>、发件失败邮箱记录。|
-|2023-06-12 04:36:28|[404StarLink](https://github.com/knownsec/404StarLink)|weekly update at 2023-06-12|
 |2023-06-11 14:01:15|[veinmind-tools](https://github.com/chaitin/veinmind-tools)|fix(docs): fix README format (#251)|
-|2023-06-11 13:15:50|[Vulnerability-Wik<br>i](https://github.com/Threekiii/Vulnerability-Wiki)|更新漏洞|
-|2023-06-11 13:15:01|[Awesome-POC](https://github.com/Threekiii/Awesome-POC)|更新漏洞|
 |2023-06-10 15:07:26|[kube-bench](https://github.com/aquasecurity/kube-bench)|build(deps): bump golang from 1.19.4 to 1.20.4 (#14<br>36)  Bumps golang from 1.19.4 to 1.20.4.    ---  upd<br>ated-dependencies:  - dependency-name: golang    dep<br>endency-type: direct:production    update-type: vers<br>ion-update:semver-minor  ...    Signed-off-by: depen<br>dabot[bot]   Co-authored-by: dependabot[bot] |
 |2023-06-09 13:20:09|[POC-bomber](https://github.com/tr0uble-mAker/POC-bomber)|红队版本 poc-bomber v3.0.0 redteam|
 |2023-06-09 10:44:12|[wpscan](https://github.com/wpscanteam/wpscan)|Bump version.|
 |2023-06-09 02:02:54|[Some-PoC-oR-ExP](https://github.com/coffeehb/Some-PoC-oR-ExP)|Create 老版本未授权.md|
-|2023-06-09 01:43:32|[Awesome-Redteam](https://github.com/Threekiii/Awesome-Redteam)|更新README.md|
 |2023-06-08 09:09:21|[heapdump_tool](https://github.com/wyzxxz/heapdump_tool)|Update README.md|
 |2023-06-07 23:53:40|[ProxyPoolxSocks](https://github.com/Anyyy111/ProxyPoolxSocks)|2023.6.08|
 |2023-06-07 18:13:51|[subfinder](https://github.com/projectdiscovery/subfinder)|version update|
@@ -91,11 +92,7 @@
 |2023-06-06 09:23:17|[sqlmap](https://github.com/sqlmapproject/sqlmap)|Fixes #5434|
 |2023-06-06 09:01:50|[Pentest-Windows](https://github.com/arch3rPro/Pentest-Windows)|Update README.md|
 |2023-06-05 15:53:08|[fshzqSearch](https://github.com/Ifory885/fshzqSearch)|修复保存excel 特殊字符报错bug|
-|2023-06-05 02:05:16|[Awesome-Exploit](https://github.com/Threekiii/Awesome-Exploit)|更新EXP|
-|2023-06-05 02:04:05|[Vulhub-Reproduce](https://github.com/Threekiii/Vulhub-Reproduce)|更新漏洞|
-|2023-06-04 14:48:33|[AV_Evasion_Tool](https://github.com/1y0n/AV_Evasion_Tool)|Delete 6885f8e2548b84f0def32b8bf3d412d.jpg|
-|2023-06-04 11:41:34|[DNSlog-GO](https://github.com/lanyi1998/DNSlog-GO)|faet:action自动更新dockerhub latest标签|
-|2023-06-04 02:48:57|[cf](https://github.com/teamssix/cf)|Merge pull request #236 from teamssix/dev-teamssix <br> docs: update readme|## 所有项目
+|2023-06-05 02:05:16|[Awesome-Exploit](https://github.com/Threekiii/Awesome-Exploit)|更新EXP|## 所有项目
 # 渗透测试
 ## 信息收集
 ### 资产测绘采集
@@ -245,7 +242,7 @@
 | [w13scan](https://github.com/w-digital-scanner/w13scan) |  | Passive Security Scanner (被动式安全扫描器) |
 | [Fvuln](https://github.com/d3ckx1/Fvuln) | Fvuln_v<br>1.4.8 | F-vuln（全称：Find-Vulnerability）是为了自己工作方便专门编写的<br>一款自动化工具，主要适用于日常安全服务、渗透测试人员和RedTeam红<br>队人员，它集合的功能包括：存活IP探测、开放端口探测、web服务探测<br>、web漏洞扫描、smb爆破、ssh爆破、ftp爆破、mssql爆破等其他数据库<br>爆破工作以及大量web漏洞检测模块。 |
 | [nuclei](https://github.com/projectdiscovery/nuclei) | v2.9.6 | Fast and customizable vulnerability scanner based on simple YA<br>ML based DSL. |
-| [afrog](https://github.com/zan8in/afrog) | v2.5.5 | A Security Tool for Bug Bounty, Pentest and Red Teaming. |
+| [afrog](https://github.com/zan8in/afrog) | v2.5.6 | A Security Tool for Bug Bounty, Pentest and Red Teaming. |
 | [vulmap](https://github.com/zhzyker/vulmap) | v0.9 | Vulmap 是一款 web 漏洞扫描和验证工具, 可对 webapps 进行漏洞扫<br>描, 并且具备漏洞验证功能 |
 | [POC-bomber](https://github.com/tr0uble-mAker/POC-bomber) | POC-bom<br>ber-for-<br>Redteam-<br>v3.0.0 | 利用大量高威胁poc/exp快速获取目标权限，用于渗透和红队快速打点 |
 | [QingTing](https://github.com/StarCrossPortal/QingTing) | v0.3 | 蜻蜓安全一个安全工具编排平台,可以自由编排你的工具流,集成108款<br>工具,包括xray、nmap、awvs等;你可以将喜欢的工具编排成一个场景，快<br>速打造适合自己的安全工作台~ |
@@ -460,7 +457,7 @@
 | [SSTImap](https://github.com/vladko312/SSTImap) | v1.1 | Automatic SSTI detection tool with interactive interface |
 | [tplmap](https://github.com/epinna/tplmap) | v0.5 | Server-Side Template Injection and Code Injection Detection an<br>d Exploitation Tool |
 | [sqlmap](https://github.com/sqlmapproject/sqlmap) | 1.7 | Automatic SQL injection and database takeover tool |
-| [ghauri](https://github.com/r0oth3x49/ghauri) | 1.2 | An advanced cross-platform tool that automates the process of <br>detecting and exploiting SQL injection security flaws |
+| [ghauri](https://github.com/r0oth3x49/ghauri) | 1.2.1 | An advanced cross-platform tool that automates the process of <br>detecting and exploiting SQL injection security flaws |
 ### 服务漏洞利用
 #### RMI
 | 项目名称 | 版本 | 项目描述 |
@@ -973,7 +970,7 @@
 | [Awesome-ChatGPT](https://github.com/dalinvip/Awesome-ChatGPT) |  | ChatGPT资料汇总学习，持续更新...... |
 | [awesome-chatgpt-z<br>h](https://github.com/yzfly/awesome-chatgpt-zh) |  | ChatGPT 中文指南🔥，ChatGPT 中文调教指南，指令指南，应用开发指<br>南，精选资源清单，更好的使用 chatGPT 让你的生产力 up up up! 🚀 |
 | [chatgpt-mac](https://github.com/vincelwt/chatgpt-mac) | v0.0.5 | ChatGPT for Mac, living in your menubar. |
-| [ChatGPT-Shortcut](https://github.com/rockbenben/ChatGPT-Shortcut) |  | 🚀💪Maximize your efficiency and productivity, Maximize your e<br>fficiency and productivity, support for English, Chinese, Japan<br>ese, and Korean. 让生产力加倍的 ChatGPT 快捷指令，按照领域和功<br>能分区，可对提示词进行标签筛选、关键词搜索和一键复制。 |
+| [ChatGPT-Shortcut](https://github.com/rockbenben/ChatGPT-Shortcut) |  | 🚀💪Maximize your efficiency and productivity, support for Eng<br>lish, 中文, 日本語, and 한국어. 让生产力加倍的 ChatGPT 快捷指令<br>，按照领域和功能分区，可对提示词进行标签筛选、关键词搜索和一键复<br>制。 |
 # 安全产品
 ## 威胁检测
 | 项目名称 | 版本 | 项目描述 |
