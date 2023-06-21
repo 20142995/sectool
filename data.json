@@ -29,8 +29,8 @@
     "https://github.com/RsaCtfTool/RsaCtfTool": {
         "created_at": "2015-03-07 17:29:33",
         "description": "RSA attack tool (mainly for ctf) - retreive private key from weak public key and/or uncipher data",
-        "commit_date": "2023-05-04 20:18:18",
-        "commit_message": "Update README.md",
+        "commit_date": "2023-06-20 17:36:32",
+        "commit_message": "Solve issue #418.",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -200,8 +200,8 @@
     "https://github.com/ycdxsb/PocOrExp_in_Github": {
         "created_at": "2021-04-13 05:46:16",
         "description": "聚合Github上已有的Poc或者Exp，CVE信息来自CVE官网。Auto Collect Poc Or Exp from Github by CVE ID.",
-        "commit_date": "2023-06-19 19:40:42",
-        "commit_message": "update 2023-06-20 03:40:42",
+        "commit_date": "2023-06-20 22:40:25",
+        "commit_message": "update 2023-06-21 06:40:25",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -461,7 +461,7 @@
     "https://github.com/ExpLangcn/NucleiTP": {
         "created_at": "2022-11-08 13:16:56",
         "description": "自动整合全网Nuclei的漏洞POC，实时同步更新最新POC！",
-        "commit_date": "2023-06-20 00:30:18",
+        "commit_date": "2023-06-21 00:30:16",
         "commit_message": "更新啦❤️",
         "release_tag": "",
         "release_date": "",
@@ -792,8 +792,8 @@
     "https://github.com/xiecat/fofax": {
         "created_at": "2021-12-14 10:01:58",
         "description": "fofax is a command line query tool based on the API of https://fofa.info/, simple is the best!",
-        "commit_date": "2023-06-16 04:35:40",
-        "commit_message": "这是一个临时版本修改一些ipv6问题",
+        "commit_date": "2023-06-20 01:26:33",
+        "commit_message": "这是一个临时版本替换type字段",
         "release_tag": "v0.1.44",
         "release_date": "2023-04-24 03:23:34",
         "release_message": "## Changelog\r\n* 修复更新时如果网络有问题可能引发异常问题 #29 。修改弃用函数\r\n\r\n\r\n"
@@ -1233,7 +1233,7 @@
     "https://github.com/ExpLangcn/InfoSearchAll": {
         "created_at": "2022-06-09 10:09:47",
         "description": "为了方便安全从业人员在使用网络测绘平台进行信息搜集时的效率，本程序集合了多个网络测绘平台，可以快速在多个网络测绘平台搜索信息并且合并展示及导出。",
-        "commit_date": "2023-01-11 09:43:37",
+        "commit_date": "2023-06-20 09:06:26",
         "commit_message": "Update README.md",
         "release_tag": "V1.2",
         "release_date": "2022-06-16 08:39:08",
@@ -1888,8 +1888,8 @@
     "https://github.com/hanc00l/nemo_go": {
         "created_at": "2021-07-29 08:13:25",
         "description": "Nemo是用来进行自动化信息收集的一个简单平台，通过集成常用的信息收集工具和技术，实现对内网及互联网资产信息的自动收集，提高隐患排查和渗透测试的工作效率。",
-        "commit_date": "2023-05-05 14:42:22",
-        "commit_message": "Update: goby api request",
+        "commit_date": "2023-06-20 09:04:17",
+        "commit_message": "Update: 新增goby进行漏洞扫描",
         "release_tag": "v2.9.2",
         "release_date": "2023-04-15 01:34:31",
         "release_message": "\r\n### Updated\r\n\r\n- 首页登录及后台更改密码时，采用RSA加密传输（每次server启动生成随机RSA密钥对）；\r\n- WEB页面修改XSCAN的默认配置；优化XSCAN的选项，增加Nuclei漏洞扫描；\r\n- 增加输入任务参数长度校验（目标Targets不超过5000个字符，输入参数总长度不超过6000个字符）；\r\n- 增加WebServer API接口和Swagger调试页面（为前后端分离提供支持）；\r\n- 将子域名被动收集（Subfinder）及指纹获取（Httpx）功能由原通过源代码集成改用调用二进制文件（解决和降低内存泄露、协程异常导致内存和CPU占用异常的bug）；\r\n- 增加IP与资产的黑名单功能及一键拉黑功能，对黑名单的资产忽略指纹及漏洞任务、结果不会进行存储；\r\n- 更新纯真数据库；\r\n- ChangeLog；\r\n\r\n### Fix\r\n\r\n- 子域名被动枚举（Subfinder）配置的provider-config.yaml未生效"
@@ -1906,11 +1906,11 @@
     "https://github.com/hiroi-sora/Umi-OCR": {
         "created_at": "2022-03-28 04:01:46",
         "description": "OCR图片转文字识别软件，完全离线。截屏/批量导入图片，支持多国语言、合并段落、竖排文字。可排除水印区域，提取干净的文本。基于 PaddleOCR 。",
-        "commit_date": "2023-06-19 02:26:23",
-        "commit_message": "将超时判定时间的常量替换为可修改的配置项",
-        "release_tag": "v1.3.4",
-        "release_date": "2023-04-25 17:18:33",
-        "release_message": "### `v1.3.4` 主要更新：\r\n- 新功能：截图预览窗口。需要在`设置→快捷识图→截图预览窗口`里打开。效果见下图，可以调整透明度 并钉在屏幕顶层。\r\n![1682442876719.png](https://tupian.li/images/2023/04/26/64480a815920a.png)\r\n- 新功能：可用方向键微调截图框位置。\r\n- 修Bug：修复了拖入图片时有几率卡退主窗口的问题。\r\n- 优化了一些处理流程。\r\n- 优化了打包方式，软件体积比上一代减少了15MB。\r\n\r\n### 文件说明\r\n软件本体：`Umi-OCR.v1.3.4.7z`（67MB），内置`简体中文&英文`通用识别库。\r\n软件（多国语言整合版）：`Umi-OCR.v1.3.4_ALL_languages.7z`（118MB），内置多国语言识别库。\r\n\r\n多国语言扩展包：`Umi-OCR.v1.3_DLC_languages.7z`（50MB），可向软件本体导入`繁中,英,日,韩,俄,德,法` 多国语言识别库。"
+        "commit_date": "2023-06-20 09:04:50",
+        "commit_message": "补充-language指令说明",
+        "release_tag": "v1.3.5",
+        "release_date": "2023-06-20 09:07:40",
+        "release_message": "### `v1.3.5` 主要更新：\r\n- 新功能：复制识别结果后，可发送指定按键，以便联动唤起翻译器等工具。👉[使用说明](https://github.com/hiroi-sora/Umi-OCR#%E5%A4%8D%E5%88%B6%E5%90%8E%E5%8F%91%E9%80%81%E6%8C%89%E9%94%AE--%E8%81%94%E5%8A%A8%E7%BF%BB%E8%AF%91%E8%BD%AF%E4%BB%B6)\r\n- 新功能：命令行增加切换识别语言的指令。👉[使用说明（指令7）](https://github.com/hiroi-sora/Umi-OCR#%E5%91%BD%E4%BB%A4%E8%A1%8C%E8%B0%83%E7%94%A8)\r\n- 修Bug：修复了低配置机器上有概率误报超时 `OCR init timeout: 5s` 的问题。\r\n- 调整：默认停止任务30秒后释放一次内存。\r\n\r\n### 文件说明\r\n软件本体：`Umi-OCR.v1.3.5.7z`（67MB），内置`简体中文&英文`通用识别库。\r\n软件（多国语言整合版）：`Umi-OCR.v1.3.5_ALL_languages.7z`（118MB），内置多国语言识别库。\r\n\r\n多国语言扩展包：`Umi-OCR.v1.3_DLC_languages.7z`（50MB），可向软件本体导入`繁中,英,日,韩,俄,德,法` 多国语言识别库。"
     },
     "https://github.com/qianxiao996/CTF-Tools": {
         "created_at": "2020-01-07 05:58:51",
@@ -2390,8 +2390,8 @@
     "https://github.com/PeiQi0/PeiQi-WIKI-Book": {
         "created_at": "2022-03-12 12:38:56",
         "description": "面向网络安全从业者的知识文库🍃",
-        "commit_date": "2023-05-01 05:46:33",
-        "commit_message": "漏洞相关:Apache Superset,Druid",
+        "commit_date": "2023-06-20 14:39:16",
+        "commit_message": "Update publish.yml",
         "release_tag": "PeiQi-WIKI-Book-2022-03-20",
         "release_date": "2022-03-16 06:04:23",
         "release_message": "PeiQi-WIKI-Book-2022-03-20 \r\n\r\n编译好的HTML源码打包，可以更简单的搭建在Web服务器中"
@@ -2951,8 +2951,8 @@
     "https://github.com/dbeaver/dbeaver": {
         "created_at": "2015-10-21 08:26:28",
         "description": "Free universal database tool and SQL client",
-        "commit_date": "2023-06-19 19:33:41",
-        "commit_message": "remove unused code (#20248)\n\nCo-authored-by: Serge Rider <serge@jkiss.org>",
+        "commit_date": "2023-06-20 16:22:38",
+        "commit_message": "JSch transient deps fix",
         "release_tag": "23.1.0",
         "release_date": "2023-06-04 19:54:58",
         "release_message": "\n                - SQL Editor:\n                    - Autocomplete now supports [ ] and ` as quotes for identifiers\n                    - Shortcut confict on macOS was fixed\n                    - JSQLParser was reverted to the version 4.5 and is now faster\n                    - Issue with substitution variables in text with \\n line feeds was fixed\n                    - Autocomplete case with FROM right after SELECT is now handled\n                    - Autocomplete for SELECT query without FROM was fixed\n                    - 'Go to Matching Bracket' shortcut was changed to CTRL+SHIFT+[\n                    - Autocomplete for columns in tables without alias was fixed\n                    - Completion analyze errors are now written to the debug log\n                    - Comment with a tab after a double dash is now handle\n                    - Issue with hiding cursor position after resizing the editor was fixed\n                    - Exeption when updating editor annotations was fixed\n                - Data Editor:\n                    - Data ordering was improved\n                - General UI:\n                    - Changing the size and position of the connection dialog is now saved\n                    - Issue with the application freezing when creating a table when the connection hangs was fixed\n                    - Tips of the day were revised\n                - Connectivity:\n                    - Option to disable SSHJ hostname verification was added (thanks to @ryanc-me)\n                    - Issue when switching from Community to PRO version and vice versa was fixed\n                - Databases:\n                    - ClickHouse: display of large numbers was fixed\n                    - MariaDB: partition support was added\n                    - Oracle:\n                        - Issue issue with native clients hanging when running SQLPlus scripts was fixed\n                        - Issue with setting the wrong schema after connecting or changing the Data Editor was fixed\n                    - PostgreSQL:\n                        - Issue with an exception when loading attribute information was fixed\n                        - Reading a numeric array was fixed\n                    - Trino: error handling was improved\n                 - Localization:\n                    - German localization was improved (thanks to @hype11)\n                    - Italian localization was improved (thanks to @Gnafu)\n                 - Misc:\n                    - Images for all DBeaver Eclipse extensions were added\n                    - Legacy ODBC driver based on the obsolete Java 7 was deprecated due to many issues\n            "
@@ -3192,11 +3192,11 @@
     "https://github.com/joke2k/faker": {
         "created_at": "2012-11-12 23:00:09",
         "description": "Faker is a Python package that generates fake data for you.",
-        "commit_date": "2023-06-02 19:07:07",
-        "commit_message": "Bump version: 18.10.0 → 18.10.1",
-        "release_tag": "v18.10.1",
-        "release_date": "2023-06-02 19:07:40",
-        "release_message": "See [CHANGELOG.md](https://github.com/joke2k/faker/blob/refs/tags/v18.10.1/CHANGELOG.md)."
+        "commit_date": "2023-06-20 20:33:51",
+        "commit_message": "Bump version: 18.11.0 → 18.11.1",
+        "release_tag": "v18.11.1",
+        "release_date": "2023-06-20 20:34:34",
+        "release_message": "See [CHANGELOG.md](https://github.com/joke2k/faker/blob/refs/tags/v18.11.1/CHANGELOG.md)."
     },
     "https://github.com/NHPT/Xray_Cracked": {
         "created_at": "2022-08-10 13:51:19",
@@ -3298,10 +3298,10 @@
     "https://github.com/bytedance/Elkeid": {
         "created_at": "2020-12-18 03:15:54",
         "description": "Elkeid is an open source solution that can meet the security requirements of various workloads such as hosts, containers and K8s, and serverless. It is derived from ByteDance's internal best practices.",
-        "commit_date": "2023-06-16 08:05:19",
-        "commit_message": "FIXME: possible OOB reading in dns querying\n\nOOB due to not null-terminated, reported by coverity - static\ncode analysis.\n\nSigned-off-by: shenping.matt <shenping.matt@bytedance.com>",
-        "release_tag": "v1.7.0.12-driver-ko-20230615",
-        "release_date": "2023-06-16 04:36:40",
+        "commit_date": "2023-06-20 10:45:54",
+        "commit_message": "version updated to 1.7.0.13 (#511)\n\nSigned-off-by: shenping.matt <shenping.matt@bytedance.com>",
+        "release_tag": "v1.7.0.13-driver-ko-20230620",
+        "release_date": "2023-06-20 15:28:14",
         "release_message": ""
     },
     "https://github.com/knownsec/ct": {
@@ -3906,17 +3906,17 @@
     "https://github.com/anchore/syft": {
         "created_at": "2020-05-07 18:19:29",
         "description": "CLI tool and library for generating a Software Bill of Materials from container images and filesystems",
-        "commit_date": "2023-06-16 17:26:18",
-        "commit_message": "Pad artifact IDs (#1882)\n\nOtherwise the hash can sometimes be short if it results in a low uint64.\r\n\r\nSigned-off-by: Will Murphy <will.murphy@anchore.com>",
-        "release_tag": "v0.83.1",
-        "release_date": "2023-06-14 18:00:51",
-        "release_message": "# Changelog\r\n\r\n## [v0.83.1](https://github.com/anchore/syft/tree/v0.83.1) (2023-06-14)\r\n\r\n[Full Changelog](https://github.com/anchore/syft/compare/v0.83.0...v0.83.1)\r\n\r\n### Bug Fixes\r\n\r\n- fix: pom properties not setting artifact id [[PR #1870](https://github.com/anchore/syft/pull/1870)] [[jneate](https://github.com/jneate)]\r\n- fix(deps): pull in platform selection fix from stereoscope [[PR #1871](https://github.com/anchore/syft/pull/1871)] [[anchore-actions-token-generator](https://github.com/anchore-actions-token-generator)] - pulling in an image with a digest that does not match the platform and architecture of the host no longer fails with an error, see https://github.com/anchore/stereoscope/issues/188\r\n- symlinks within a scanned directory tree are parsed outside the tree, failing if target does not exist [[Issue #1860](https://github.com/anchore/syft/issues/1860)] [[PR #1861](https://github.com/anchore/syft/pull/1861)] [[deitch](https://github.com/deitch)]\r\n\r\n\r\n\r\n"
+        "commit_date": "2023-06-20 19:47:50",
+        "commit_message": "docs: clarify reasoning of default catalogers for images or directories (#1887)\n\nAdd some explanation around why there are different default sets of catalogers for image scans versus directory scans. Hopefully clarify questions related to #1776.\r\n\r\nSigned-off-by: Timothy Gerla <tim@gerla.net>",
+        "release_tag": "v0.84.0",
+        "release_date": "2023-06-20 18:12:06",
+        "release_message": "# Changelog\n\n## [v0.84.0](https://github.com/anchore/syft/tree/v0.84.0) (2023-06-20)\n\n[Full Changelog](https://github.com/anchore/syft/compare/v0.83.1...v0.84.0)\n\n### Breaking Changes\n\n- Pad artifact IDs [[PR #1882](https://github.com/anchore/syft/pull/1882)] [[willmurphyscode](https://github.com/willmurphyscode)]\n\n### Additional Changes\n\n- chore: update SPDX license list to 3.21 [[PR #1885](https://github.com/anchore/syft/pull/1885)] [[kzantow](https://github.com/kzantow)]\n\n\n\n"
     },
     "https://github.com/chaitin/safeline": {
         "created_at": "2023-04-12 11:30:14",
         "description": "长亭科技自研，基于业界领先的语义引擎检测技术，打造的简洁、易用的免费 WAF",
-        "commit_date": "2023-06-19 06:56:33",
-        "commit_message": "修改了官网文档里的两个错别字",
+        "commit_date": "2023-06-20 09:56:02",
+        "commit_message": "feat: add redis image to manually upgrade instruction",
         "release_tag": "v1.9.0",
         "release_date": "2023-06-16 04:47:24",
         "release_message": "## 新增\r\n\r\n- 界面 UI 改造，信息层级更清晰\r\n- 黑白名单支持添加 源 IP - 不属于 IP 组 的条件\r\n\r\n## 优化\r\n\r\n- 检测日志的路由进一步完善\r\n- 数据统计页面更加紧凑，现在可以在 1920*1080 的屏幕上完全显示了\r\n- 黑白名单的展示优化\r\n- 修复 通用配置-防护模块配置 中，“批量配置为” 按钮有时候不生效的问题\r\n- 修复一些已知问题"
@@ -3951,8 +3951,8 @@
     "https://github.com/quay/clair": {
         "created_at": "2015-11-13 18:46:16",
         "description": "Vulnerability Static Analysis for Containers",
-        "commit_date": "2023-06-15 20:49:05",
-        "commit_message": "cicd: fix nightly-ci error\n\nThis fixes the nightly-ci workflow and adds a means to lint and validate\nthe workflow files.\n\nSigned-off-by: Hank Donnay <hdonnay@redhat.com>",
+        "commit_date": "2023-06-20 18:50:45",
+        "commit_message": "build(deps): bump peter-evans/create-pull-request from 5.0.1 to 5.0.2\n\nBumps [peter-evans/create-pull-request](https://github.com/peter-evans/create-pull-request) from 5.0.1 to 5.0.2.\n- [Release notes](https://github.com/peter-evans/create-pull-request/releases)\n- [Commits](https://github.com/peter-evans/create-pull-request/compare/v5.0.1...v5.0.2)\n\n---\nupdated-dependencies:\n- dependency-name: peter-evans/create-pull-request\n  dependency-type: direct:production\n  update-type: version-update:semver-patch\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>",
         "release_tag": "v4.6.1",
         "release_date": "2023-04-13 18:29:02",
         "release_message": "<a name=\"unreleased\"></a>\n## [Unreleased]\n\n\n<a name=\"v4.6.1\"></a>\n## [v4.6.1] - 2023-04-13\n### Airgap\n- [e02aba27](https://github.com/quay/clair/commit/e02aba27de01cb461f79bee9644aac80c2f9bd65): Remove libindex Airgap option\n### Chore\n- [36990912](https://github.com/quay/clair/commit/36990912450fba2ccbef260a4829f1d9f69f45c6): v4.6.1 changelog bump\n- [e676671c](https://github.com/quay/clair/commit/e676671c17d2612470cd8de05aa668312fbb3036): Bump Claircore to v1.4.21\n### Go.Mod\n- [36de97cc](https://github.com/quay/clair/commit/36de97ccf619113b1ef4dff6bfd0e0c692252544): update json (de)serializer\n### Httptransport\n- [922f33d1](https://github.com/quay/clair/commit/922f33d18919578049fbf2ccb756e6990b66f280): fix request_id logging\n### Httputil\n- [9e8eacf5](https://github.com/quay/clair/commit/9e8eacf51b2a45f967036396b3dc14a52edc480d): fix ParseIP usage\n -  [#1689](https://github.com/quay/clair/issues/1689)### Notifier\n- [ffa4556d](https://github.com/quay/clair/commit/ffa4556d0f251cc984ed34594356625b9b747744): Avoid double reference\n\n[Unreleased]: https://github.com/quay/clair/compare/v4.6.1...HEAD\n[v4.6.1]: https://github.com/quay/clair/compare/v4.6.0...v4.6.1\n"
@@ -3969,8 +3969,8 @@
     "https://github.com/aquasecurity/trivy": {
         "created_at": "2019-04-11 01:01:07",
         "description": "Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more",
-        "commit_date": "2023-06-19 10:52:38",
-        "commit_message": "fix: format arg error (#4642)\n\n* fix: format arg error\n\n* fix: xerrors.Errorf",
+        "commit_date": "2023-06-20 14:02:55",
+        "commit_message": "document expected file pattern definition format (#4654)",
         "release_tag": "v0.42.1",
         "release_date": "2023-06-08 15:09:13",
         "release_message": "## Changelog\n* 9a279fa7b ci: remove 32bit packages (#4585)\n* d52b0b7bc fix(misconf): deduplicate misconf results (#4588)\n* 9b531fa27 fix(vm): support sector size of 4096 (#4564)\n* 8ca1bfdd2 fix(misconf): terraform relative paths (#4571)\n* c20d46604 fix(purl): skip unsupported library type (#4577)\n* 52cbe7975 fix(terraform): recursively detect all Root Modules (#4457)\n* 4a5b91557 fix(vm): support post analyzer for vm command (#4544)\n* 56cdc55f7 fix(nodejs): change the type of the devDependencies field (#4560)\n* 17d753676 fix(sbom): export empty dependencies in CycloneDX (#4568)\n* 2796abe1e refactor: add composite fs for post-analyzers (#4556)\n* 22a157380 chore(deps): bump golangci/golangci-lint-action from 3.4.0 to 3.5.0 (#4554)\n* 43586659a chore(deps): bump helm/kind-action from 1.5.0 to 1.7.0 (#4526)\n* 508139965 chore(deps): bump github.com/BurntSushi/toml from 1.2.1 to 1.3.0 (#4528)\n* e1a38128a chore(deps): bump github.com/alicebob/miniredis/v2 from 2.30.2 to 2.30.3 (#4529)\n* 283eef637 chore(deps): bump github.com/aws/aws-sdk-go-v2/service/ec2 (#4536)\n* bbd7b9874 chore(deps): bump github.com/tetratelabs/wazero from 1.0.0 to 1.2.0 (#4549)\n* 11c81bf2f chore(deps): bump github.com/spf13/cast from 1.5.0 to 1.5.1 (#4532)\n* 2d8d63e61 chore(deps): bump github.com/testcontainers/testcontainers-go (#4537)\n* a46839b1c chore(deps): bump github.com/go-git/go-git/v5 from 5.6.1 to 5.7.0 (#4530)\n* 19715f5de chore(deps): bump github.com/aws/aws-sdk-go-v2/config (#4534)\n\n"
@@ -4275,7 +4275,7 @@
     "https://github.com/aiboboxx/v2rayfree": {
         "created_at": "2021-10-13 11:34:53",
         "description": "v2ray公益免费节点、最新2ray免费v节点订阅地址、v2ray免费节点每日更新、免费ss/v2ray/trojan节点、freefq ",
-        "commit_date": "2023-06-19 12:39:38",
+        "commit_date": "2023-06-20 12:39:30",
         "commit_message": "update",
         "release_tag": "",
         "release_date": "",
@@ -4320,8 +4320,8 @@
     "https://github.com/freefq/free": {
         "created_at": "2020-06-07 02:48:33",
         "description": "翻墙、免费翻墙、免费科学上网、免费节点、免费梯子、免费ss/v2ray/trojan节点、蓝灯、谷歌商店、翻墙梯子",
-        "commit_date": "2023-06-20 00:00:02",
-        "commit_message": "updated_at 06-20 08:00",
+        "commit_date": "2023-06-21 00:00:02",
+        "commit_message": "updated_at 06-21 08:00",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -4590,8 +4590,8 @@
     "https://github.com/yzfly/awesome-chatgpt-zh": {
         "created_at": "2023-03-21 02:16:34",
         "description": "ChatGPT 中文指南🔥，ChatGPT 中文调教指南，指令指南，应用开发指南，精选资源清单，更好的使用 chatGPT 让你的生产力 up up up! 🚀",
-        "commit_date": "2023-06-19 23:08:25",
-        "commit_message": "add coig data",
+        "commit_date": "2023-06-20 23:42:25",
+        "commit_message": "add open_llama",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
