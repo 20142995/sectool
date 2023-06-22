@@ -1,8 +1,12 @@
-# 更新于 2023-06-21 08:45:08
+# 更新于 2023-06-22 08:48:46
 
 ## 近15天release更新记录
 | 更新时间 | 项目名称 | 版本 | 更新内容 |
 | :---- | :---- | :---- | :---- |
+|2023-06-21 20:06:59|[burp-awesome-tls](https://github.com/sleeyax/burp-awesome-tls)|v1.1.0|## Changelog    ### Added  - Custom T<br>LS fingerprint support by @VovkoO (#29<br>) |
+|2023-06-21 16:15:32|[grype](https://github.com/anchore/grype)|v0.63.0|# Changelog  ##  (2023-06-21)    ### <br>Added Features  - feat: add package in<br>fo to search by for all match details <br>] ] - Expose Go template file that pro<br>duces the table report ] ] ] - Add a f<br>older with go templates ]  ### Breakin<br>g Changes  - update Syft to v0.84.0: s<br>tereoscope platform fix and artifact I<br>D padding ] ]    |
+|2023-06-21 09:08:55|[safeline](https://github.com/chaitin/safeline)|v1.10.0|## 新增    - 防护站点新增 “运行模式<br>”，可以一键将站点设为 观察 或 维护 模<br>式了    ## 优化    - 修复了站点列表没有<br>分页器的问题  - 修复了窗口水平滚动时导<br>航栏会错位的问题  - 修复了黑白名单配置 <br>“不属于 IP 组” 的条件时，列表显示组 I<br>D，而未显示组名称的问题  - 优化了界面<br>的 UI 与交互|
+|2023-06-21 05:56:55|[nemo_go](https://github.com/hanc00l/nemo_go)|v2.9.3|### Updated    - 集成Goby进行漏洞扫描<br>；需要部署服务器模式的goby，并在worker.<br>yml配置api的地址及认证；docker方式默认<br>会在127.0.0.1:8361启动goby-cmd；  - 更<br>新thirdparty组件版本；    ### Fix    - <br>httpx获取HTTP返回包的header数据，在ip/<br>domain详细显示不自动换行    ### Thirdp<br>arty版本  - Xray：1.9.11  - Nuclei：2.<br>9.6  - Goby：2.5.2  - Httpx：1.3.2  - <br>Subfinder：2.6.0  - Observe_ward：2023<br>.6.20|
 |2023-06-20 20:34:34|[faker](https://github.com/joke2k/faker)|v18.11.<br>1|See .|
 |2023-06-20 18:12:06|[syft](https://github.com/anchore/syft)|v0.84.0|# Changelog  ##  (2023-06-20)    ### <br>Breaking Changes  - Pad artifact IDs ]<br> ]  ### Additional Changes  - chore: u<br>pdate SPDX license list to 3.21 ] ]   <br> |
 |2023-06-20 15:28:14|[Elkeid](https://github.com/bytedance/Elkeid)|v1.7.0.<br>13-drive<br>r-ko-202<br>30620||
@@ -13,7 +17,6 @@
 |2023-06-18 09:08:03|[linbing](https://github.com/taomujian/linbing)|v3.0||
 |2023-06-18 04:26:11|[PEASS-ng](https://github.com/carlospolop/PEASS-ng)|2023061<br>8-1fa055<br>b6||
 |2023-06-17 12:44:55|[Viper](https://github.com/FunnyWolf/Viper)|v1.5.30|### 新功能  - Viper所有功能都可通过右<br>下角链接跳转到对应文档  ### 优化  - 监<br>听防火墙前端UI优化  - 只显示Session功能<br>可在主页面使用  - 合并metasploit-framew<br>ork 6.3.22版本  ### Bugfix  - 修复pyth<br>on类型payload断线后无法重连及无法清理<br>历史网络连接问题|
-|2023-06-16 04:47:24|[safeline](https://github.com/chaitin/safeline)|v1.9.0|## 新增    - 界面 UI 改造，信息层级更<br>清晰  - 黑白名单支持添加 源 IP - 不属于<br> IP 组 的条件    ## 优化    - 检测日志<br>的路由进一步完善  - 数据统计页面更加紧<br>凑，现在可以在 1920*1080 的屏幕上完全显<br>示了  - 黑白名单的展示优化  - 修复 通用<br>配置-防护模块配置 中，“批量配置为” 按<br>钮有时候不生效的问题  - 修复一些已知问<br>题|
 |2023-06-15 03:50:43|[GoWxDump](https://github.com/SpenserCai/GoWxDump)|v1.0.12|#22 |
 |2023-06-14 03:14:46|[EHole](https://github.com/EdgeSecurityTeam/EHole)|v3.1|1. 修复 JS 跳转同时匹配使用单引号或双<br>引号包围的URL；  2. 修复 URL 是否已经以<br>"/"结尾，如果是，就不再添加"/"；  3. <br>修复 UA 头被检测问题；  4. 新增 [202301<br>31] finger.json 指纹；  5. 修改 fofa.i<br>nfo API 接口。|
 |2023-06-13 15:31:06|[iDefender](https://github.com/wecooperate/iDefender)|2.8.0|重要版本，建议更新    - 更新iMonitorS<br>DK到最新版本    - 去掉没有文档化的AFD<br>驱动监控，网络监控都使用WFP框架实现    <br>- 添加ICMP拦截支持  - 接入iFoundation<br>冰塔快速开发框架    - **支持模块化升级<br>：少量的修改直接通过模块升级自动更新，<br>不需要再频繁手动升级了**    - 支持企业<br>管理能力（企业管理后台会在3.0版本正式上<br>线）      - 支持统一管理      - 支持策<br>略下发      - 支持功能扩展、定制、二次<br>开发、系统集成    - 添加工具箱    - 冰<br>镜终端行为分析系统    - 冰鉴软件行为分<br>析系统    - 冰云安全U盘    - 冰刃进程强<br>杀、文件强删    - 添加微信交流群（在关<br>于冰盾页面可以获取二维码）  - 修复一些<br>问题    - 修复快速查找大小写敏感的问题 <br>   - 修复导入规则的信任列表部分场景导<br>入失败的问题    - 修复信任列表多个规则<br>匹配不生效的问题    - 优化其他一些使用<br>体验          软件下载   |
@@ -23,27 +26,29 @@
 |2023-06-07 18:30:42|[subfinder](https://github.com/projectdiscovery/subfinder)|v2.6.0|## What's Changed  * Added netlas.io <br>as new source by @Devang-Solanki in ht<br>tps://github.com/projectdiscovery/subf<br>inder/pull/829  * Added support to use<br> provider config file when using as li<br>brary by @nth347 in https://github.com<br>/projectdiscovery/subfinder/pull/864  <br>* Added support to read API keys as en<br>v variable in the provider config file<br> by @tarunKoyalwar in https://github.c<br>om/projectdiscovery/subfinder/pull/868<br>  yaml  netlas:    - $NETLAS_API_KEY  <br>    Issues closed in this release - ht<br>tps://github.com/projectdiscovery/subf<br>inder/milestone/8?closed=1    ## New C<br>ontributors  * @nth347 made their firs<br>t contribution in https://github.com/p<br>rojectdiscovery/subfinder/pull/864  * <br>@tarunKoyalwar made their first contri<br>bution in https://github.com/projectdi<br>scovery/subfinder/pull/868  * @Devang-<br>Solanki made their first contribution <br>in https://github.com/projectdiscovery<br>/subfinder/pull/829    **Full Changelo<br>g**: https://github.com/projectdiscove<br>ry/subfinder/compare/v2.5.9...v2.6.0|
 |2023-06-07 08:59:36|[ProxyPoolxSocks](https://github.com/Anyyy111/ProxyPoolxSocks)|v1.2|更新了代理池定时任务参数：detectTime<br>，用于检测并更新代理池可用的代理，程序<br>会隔一段时间重新检测可用节点，以免节点<br>过期。详细参考Readme|
 |2023-06-07 02:56:27|[HackTools](https://github.com/Vicl1fe/HackTools)|1.5|新加了几个功能|
-|2023-06-06 14:50:53|[kube-bench](https://github.com/aquasecurity/kube-bench)|v0.6.15|## Changelog * e41755b  cis-1.24: fix<br> tests of 1.1.1 and 4.2.9 were wrong (<br>#1423) * ca8743c add support VMware Ta<br>nzu(TKGI) Benchmarks v1.2.53 (#1452) *<br> 84f80b5 build(deps): bump alpine from<br> 3.17 to 3.18 (#1443) * 6de03bb build(<br>deps): bump github.com/aws/aws-sdk-go-<br>v2 from 1.17.6 to 1.18.0 (#1433) * 60d<br>de65 support CIS Amazon Elastic Kubern<br>etes Service (EKS) Benchmark v1.2.0 (#<br>1449) * 124c57c support CIS Kubernetes<br> Benchmark v1.7.0 (#1424)  |
 ## 近15天commit提交记录
 | 提交时间 | 项目名称 | 更新内容 |
 | :---- | :---- | :---- |
-|2023-06-21 00:30:16|[NucleiTP](https://github.com/ExpLangcn/NucleiTP)|更新啦❤️|
-|2023-06-21 00:00:02|[free](https://github.com/freefq/free)|updated_at 06-21 08:00|
+|2023-06-22 00:45:19|[NucleiTP](https://github.com/ExpLangcn/NucleiTP)|更新啦❤️|
+|2023-06-22 00:00:03|[free](https://github.com/freefq/free)|updated_at 06-22 08:00|
+|2023-06-21 22:59:50|[Mobile-Security-F<br>ramework-MobSF](https://github.com/MobSF/Mobile-Security-Framework-MobSF)|Revert Hotfix|
+|2023-06-21 22:40:07|[PocOrExp_in_Githu<br>b](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-06-22 06:40:07|
+|2023-06-21 19:55:01|[burp-awesome-tls](https://github.com/sleeyax/burp-awesome-tls)|Merge pull request #29 from VovkoO/custom-client-he<br>llo|
+|2023-06-21 18:54:40|[dbeaver](https://github.com/dbeaver/dbeaver)|dbeaver/pro#1668 tableau datasource editor (#20237)<br>  * dbeaver/pro#1668 Datasource pages order fix    *<br> dbeaver/pro#1668 Refresh SQL editor toolbar on non-<br>resource node events    * dbeaver/pro#1668 Refresh S<br>QL editor toolbar on non-resource node events    * d<br>beaver/pro#1668 Minor fixes    * dbeaver/pro#1668 Ta<br>bleau prefs command + localization    * dbeaver/pro#<br>1668 Non-persistent editor input model    * dbeaver/<br>pro#1668 Directory zip    * dbeaver/pro#1668 navigat<br>or actions enablement refactoring    * dbeaver/pro#1<br>668 Monitoring|
+|2023-06-21 16:02:29|[clair](https://github.com/quay/clair)|build(deps): bump github.com/prometheus/client_gola<br>ng  Bumps  from 1.15.1 to 1.16.0. -  -  -   --- upda<br>ted-dependencies: - dependency-name: github.com/prom<br>etheus/client_golang   dependency-type: direct:produ<br>ction   update-type: version-update:semver-minor ...<br>  Signed-off-by: dependabot[bot] |
+|2023-06-21 15:48:31|[grype](https://github.com/anchore/grype)|Configure chronicle to pre-1.0 mode (#1356)  Track <br>a chronicle config file that causes chronicle to bum<br>p minor  version instead of major version in respons<br>e to the "breaking-change"  label for pre-1.0 releas<br>es.    Signed-off-by: Will Murphy |
+|2023-06-21 15:30:33|[PeiQi-WIKI-Book](https://github.com/PeiQi0/PeiQi-WIKI-Book)|Update publish.yml|
+|2023-06-21 13:12:37|[trivy](https://github.com/aquasecurity/trivy)|feat(java): capture licenses from pom.xml (#4681)  <br>* feat(java): capture licenses from pom.xml  * updat<br>e doc|
+|2023-06-21 12:38:58|[v2rayfree](https://github.com/aiboboxx/v2rayfree)|update|
+|2023-06-21 09:06:45|[safeline](https://github.com/chaitin/safeline)|feat: release v1.10.0|
+|2023-06-21 07:28:24|[Elkeid](https://github.com/bytedance/Elkeid)|Compiling failures for Debian 9/10 (#512)  Wrong ke<br>rrnel header directory path used in Makefile. Now un<br>ify  the Makefile of 1.7 to 1.8    Signed-off-by: sh<br>enping.matt |
+|2023-06-21 05:27:44|[nemo_go](https://github.com/hanc00l/nemo_go)|Update: thirdparty|
 |2023-06-20 23:42:25|[awesome-chatgpt-z<br>h](https://github.com/yzfly/awesome-chatgpt-zh)|add open_llama|
-|2023-06-20 22:40:25|[PocOrExp_in_Githu<br>b](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-06-21 06:40:25|
 |2023-06-20 20:33:51|[faker](https://github.com/joke2k/faker)|Bump version: 18.11.0 → 18.11.1|
 |2023-06-20 19:47:50|[syft](https://github.com/anchore/syft)|docs: clarify reasoning of default catalogers for i<br>mages or directories (#1887)  Add some explanation a<br>round why there are different default sets of catalo<br>gers for image scans versus directory scans. Hopeful<br>ly clarify questions related to #1776.    Signed-off<br>-by: Timothy Gerla |
-|2023-06-20 18:50:45|[clair](https://github.com/quay/clair)|build(deps): bump peter-evans/create-pull-request f<br>rom 5.0.1 to 5.0.2  Bumps  from 5.0.1 to 5.0.2. -  -<br>   --- updated-dependencies: - dependency-name: pete<br>r-evans/create-pull-request   dependency-type: direc<br>t:production   update-type: version-update:semver-pa<br>tch ...  Signed-off-by: dependabot[bot] |
 |2023-06-20 17:36:32|[RsaCtfTool](https://github.com/RsaCtfTool/RsaCtfTool)|Solve issue #418.|
-|2023-06-20 16:22:38|[dbeaver](https://github.com/dbeaver/dbeaver)|JSch transient deps fix|
-|2023-06-20 14:39:16|[PeiQi-WIKI-Book](https://github.com/PeiQi0/PeiQi-WIKI-Book)|Update publish.yml|
-|2023-06-20 14:02:55|[trivy](https://github.com/aquasecurity/trivy)|document expected file pattern definition format (#<br>4654)|
-|2023-06-20 12:39:30|[v2rayfree](https://github.com/aiboboxx/v2rayfree)|update|
-|2023-06-20 10:45:54|[Elkeid](https://github.com/bytedance/Elkeid)|version updated to 1.7.0.13 (#511)  Signed-off-by: <br>shenping.matt |
-|2023-06-20 09:56:02|[safeline](https://github.com/chaitin/safeline)|feat: add redis image to manually upgrade instructi<br>on|
 |2023-06-20 09:06:26|[InfoSearchAll](https://github.com/ExpLangcn/InfoSearchAll)|Update README.md|
 |2023-06-20 09:04:50|[Umi-OCR](https://github.com/hiroi-sora/Umi-OCR)|补充-language指令说明|
-|2023-06-20 09:04:17|[nemo_go](https://github.com/hanc00l/nemo_go)|Update: 新增goby进行漏洞扫描|
 |2023-06-20 01:26:33|[fofax](https://github.com/xiecat/fofax)|这是一个临时版本替换type字段|
 |2023-06-19 13:50:54|[neuvector](https://github.com/neuvector/neuvector)|Merge pull request #877 from jayhuang-suse/two  NVS<br>HAS-7983 v2: NV protect events are not reporting nam<br>e of the pod for manager, scanner and csp pods.|
 |2023-06-19 12:50:31|[afrog](https://github.com/zan8in/afrog)|update|
@@ -64,7 +69,6 @@
 |2023-06-17 12:44:01|[Viper](https://github.com/FunnyWolf/Viper)|update version v1.5.30|
 |2023-06-17 10:09:44|[zpscan](https://github.com/niudaii/zpscan)|update: sth|
 |2023-06-17 08:12:49|[murphysec](https://github.com/murphysecurity/murphysec)|ci: windows-arm64|
-|2023-06-16 18:45:04|[grype](https://github.com/anchore/grype)|chore(deps): update bootstrap tools to latest versi<br>ons (#1353)  Signed-off-by: GitHub   Co-authored-by:<br> westonsteimel |
 |2023-06-16 16:10:01|[v2rayA](https://github.com/v2rayA/v2rayA)|release_feat_v5: Use the correct Arch package exten<br>sion|
 |2023-06-16 11:33:04|[Awesome-ChatGPT](https://github.com/dalinvip/Awesome-ChatGPT)|Update README.md|
 |2023-06-16 03:34:38|[Library-POC](https://github.com/luck-ying/Library-POC)|Update README.md|
@@ -73,7 +77,6 @@
 |2023-06-15 06:28:45|[0day](https://github.com/helloexp/0day)|add usage for CVE-2022-0847|
 |2023-06-15 03:49:16|[GoWxDump](https://github.com/SpenserCai/GoWxDump)|#22|
 |2023-06-15 02:16:57|[OA-EXPTOOL](https://github.com/LittleBear4/OA-EXPTOOL)|Update output.py|
-|2023-06-14 21:12:51|[Mobile-Security-F<br>ramework-MobSF](https://github.com/MobSF/Mobile-Security-Framework-MobSF)|Update requirements.txt  0.13.1 not available.|
 |2023-06-14 09:48:35|[FrameVul](https://github.com/Awrrays/FrameVul)|Update README.md|
 |2023-06-14 03:08:05|[EHole](https://github.com/EdgeSecurityTeam/EHole)|Update|
 |2023-06-13 15:36:13|[iDefender](https://github.com/wecooperate/iDefender)|add wechat group|
@@ -91,11 +94,7 @@
 |2023-06-07 18:13:51|[subfinder](https://github.com/projectdiscovery/subfinder)|version update|
 |2023-06-07 11:39:27|[domain_hunter_pro](https://github.com/bit4woo/domain_hunter_pro)|Update GrepUtils.java|
 |2023-06-07 06:23:01|[proxy_pool](https://github.com/jhao104/proxy_pool)|Update README.md|
-|2023-06-07 02:55:02|[HackTools](https://github.com/Vicl1fe/HackTools)|Add|
-|2023-06-06 11:49:11|[HackBrowserData](https://github.com/moonD4rk/HackBrowserData)|Merge pull request #220 from moonD4rk/dev  feat: su<br>pport Arc Browser for macOS|
-|2023-06-06 10:04:37|[Antenna](https://github.com/wuba/Antenna)|Merge pull request #129 from wuba/develop  Develop|
-|2023-06-06 09:23:17|[sqlmap](https://github.com/sqlmapproject/sqlmap)|Fixes #5434|
-|2023-06-06 09:01:50|[Pentest-Windows](https://github.com/arch3rPro/Pentest-Windows)|Update README.md|## 所有项目
+|2023-06-07 02:55:02|[HackTools](https://github.com/Vicl1fe/HackTools)|Add|## 所有项目
 # 渗透测试
 ## 信息收集
 ### 资产测绘采集
@@ -174,7 +173,7 @@
 | [X-Marshal](https://github.com/XTeam-Wing/X-Marshal) |  | Golang-分布式资产探测&漏洞扫描&外部攻击面管理 |
 | [heartsk_community](https://github.com/yqcs/heartsk_community) | LOWBUG@<br>Latest | Hearts K-企业资产发现与脆弱性检查工具，自动化资产信息收集与漏<br>洞扫描 |
 | [AnScan](https://github.com/Arbor01/AnScan) |  | AnScan是一款集合信息收集、分布式漏洞扫描、漏洞POC管理等为一体<br>的红队扫描工具 |
-| [nemo_go](https://github.com/hanc00l/nemo_go) | v2.9.2 | Nemo是用来进行自动化信息收集的一个简单平台，通过集成常用的信息<br>收集工具和技术，实现对内网及互联网资产信息的自动收集，提高隐患排<br>查和渗透测试的工作效率。 |
+| [nemo_go](https://github.com/hanc00l/nemo_go) | v2.9.3 | Nemo是用来进行自动化信息收集的一个简单平台，通过集成常用的信息<br>收集工具和技术，实现对内网及互联网资产信息的自动收集，提高隐患排<br>查和渗透测试的工作效率。 |
 | [rengine](https://github.com/yogeshojha/rengine) | v1.3.6 | reNgine is an automated reconnaissance framework for web appli<br>cations with a focus on highly configurable streamlined recon p<br>rocess via Engines, recon data correlation and organization, co<br>ntinuous monitoring, backed by a database, and simple yet intui<br>tive User Interface. reNgine makes it easy for penetration test<br>ers to gather reconnaissance with minimal configuration and wit<br>h the help of reNgine's correlation, it just makes recon effort<br>less. |
 | [ShuiZe_0x727](https://github.com/0x727/ShuiZe_0x727) | v1.0 | 信息收集自动化工具 |
 | [DBJ](https://github.com/wgpsec/DBJ) |  | 大宝剑-边界资产梳理工具（红队、蓝队、企业组织架构、子域名、Web<br>资产梳理、Web指纹识别、ICON_Hash资产匹配） |
@@ -319,7 +318,7 @@
 #### 容器镜像扫描
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
-| [grype](https://github.com/anchore/grype) | v0.62.3 | A vulnerability scanner for container images and filesystems |
+| [grype](https://github.com/anchore/grype) | v0.63.0 | A vulnerability scanner for container images and filesystems |
 | [syft](https://github.com/anchore/syft) | v0.84.0 | CLI tool and library for generating a Software Bill of Materia<br>ls from container images and filesystems |
 #### K8S漏洞扫描
 | 项目名称 | 版本 | 项目描述 |
@@ -669,7 +668,7 @@
 | [HackTools](https://github.com/Vicl1fe/HackTools) | 1.5 | 提高渗透测试效率。#Burp插件##渗透测试##小工具# |
 | [RouteVulScan](https://github.com/F6JO/RouteVulScan) | RouteVu<br>lScan1.5 | Burpsuite - Route Vulnerable Scanning 递归式被动检测脆弱路径的<br>burp插件 |
 | [fastjson-exp](https://github.com/skisw/fastjson-exp) |  |  |
-| [burp-awesome-tls](https://github.com/sleeyax/burp-awesome-tls) | v1.0.0 | Fix Burp Suite's poor TLS stack and bypass WAFs by spoofing an<br>y browser |
+| [burp-awesome-tls](https://github.com/sleeyax/burp-awesome-tls) | v1.1.0 | Fix Burp Suite's poor TLS stack and bypass WAFs by spoofing an<br>y browser |
 | [JustC2file](https://github.com/Peithon/JustC2file) | v1.0.2 | Burp插件，Malleable C2 Profiles生成器；可以通过Burp代理选中请<br>求，生成Cobalt Strike的profile文件(CSprofile) |
 | [SpringScan](https://github.com/metaStor/SpringScan) | V1.7 | SpringScan 漏洞检测 Burp插件 |
 | [captcha-killer-mo<br>dified](https://github.com/f0ng/captcha-killer-modified) | 0.24 | captcha-killer的修改版，支持关键词识别base64编码的图片，添加免<br>费ocr库，用于验证码爆破，适配新版Burpsuite |
@@ -988,7 +987,7 @@
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
 | [openstar](https://github.com/starjun/openstar) |  | lua waf,nginx+lua,openresty,luajit,waf+,cdn,nginx |
-| [safeline](https://github.com/chaitin/safeline) | v1.9.0 | 长亭科技自研，基于业界领先的语义引擎检测技术，打造的简洁、易用<br>的免费 WAF |
+| [safeline](https://github.com/chaitin/safeline) | v1.10.0 | 长亭科技自研，基于业界领先的语义引擎检测技术，打造的简洁、易用<br>的免费 WAF |
 ## 欺骗防御
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
