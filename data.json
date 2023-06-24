@@ -29,8 +29,8 @@
     "https://github.com/RsaCtfTool/RsaCtfTool": {
         "created_at": "2015-03-07 17:29:33",
         "description": "RSA attack tool (mainly for ctf) - retreive private key from weak public key and/or uncipher data",
-        "commit_date": "2023-06-22 17:51:20",
-        "commit_message": "pastctfprimes: support for multiple prime list files",
+        "commit_date": "2023-06-23 19:57:18",
+        "commit_message": "Update README.md",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -200,8 +200,8 @@
     "https://github.com/ycdxsb/PocOrExp_in_Github": {
         "created_at": "2021-04-13 05:46:16",
         "description": "聚合Github上已有的Poc或者Exp，CVE信息来自CVE官网。Auto Collect Poc Or Exp from Github by CVE ID.",
-        "commit_date": "2023-06-22 22:41:37",
-        "commit_message": "update 2023-06-23 06:41:37",
+        "commit_date": "2023-06-23 23:42:27",
+        "commit_message": "update 2023-06-24 07:42:27",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -461,7 +461,7 @@
     "https://github.com/ExpLangcn/NucleiTP": {
         "created_at": "2022-11-08 13:16:56",
         "description": "自动整合全网Nuclei的漏洞POC，实时同步更新最新POC！",
-        "commit_date": "2023-06-23 00:45:16",
+        "commit_date": "2023-06-24 00:30:20",
         "commit_message": "更新啦❤️",
         "release_tag": "",
         "release_date": "",
@@ -2951,8 +2951,8 @@
     "https://github.com/dbeaver/dbeaver": {
         "created_at": "2015-10-21 08:26:28",
         "description": "Free universal database tool and SQL client",
-        "commit_date": "2023-06-22 14:59:32",
-        "commit_message": "Dbeaver/dbeaver#18971 notification theming (#20093)\n\n* dbeaver/dbeaver#18971 use notifications moved from Mylin to JFace\r\n\r\n* dbeaver/dbeaver#18971 rename NotificationPopup to avoid confusion with JFace's class with the same name",
+        "commit_date": "2023-06-23 09:29:07",
+        "commit_message": "Default identifiers case in dialect",
         "release_tag": "23.1.0",
         "release_date": "2023-06-04 19:54:58",
         "release_message": "\n                - SQL Editor:\n                    - Autocomplete now supports [ ] and ` as quotes for identifiers\n                    - Shortcut confict on macOS was fixed\n                    - JSQLParser was reverted to the version 4.5 and is now faster\n                    - Issue with substitution variables in text with \\n line feeds was fixed\n                    - Autocomplete case with FROM right after SELECT is now handled\n                    - Autocomplete for SELECT query without FROM was fixed\n                    - 'Go to Matching Bracket' shortcut was changed to CTRL+SHIFT+[\n                    - Autocomplete for columns in tables without alias was fixed\n                    - Completion analyze errors are now written to the debug log\n                    - Comment with a tab after a double dash is now handle\n                    - Issue with hiding cursor position after resizing the editor was fixed\n                    - Exeption when updating editor annotations was fixed\n                - Data Editor:\n                    - Data ordering was improved\n                - General UI:\n                    - Changing the size and position of the connection dialog is now saved\n                    - Issue with the application freezing when creating a table when the connection hangs was fixed\n                    - Tips of the day were revised\n                - Connectivity:\n                    - Option to disable SSHJ hostname verification was added (thanks to @ryanc-me)\n                    - Issue when switching from Community to PRO version and vice versa was fixed\n                - Databases:\n                    - ClickHouse: display of large numbers was fixed\n                    - MariaDB: partition support was added\n                    - Oracle:\n                        - Issue issue with native clients hanging when running SQLPlus scripts was fixed\n                        - Issue with setting the wrong schema after connecting or changing the Data Editor was fixed\n                    - PostgreSQL:\n                        - Issue with an exception when loading attribute information was fixed\n                        - Reading a numeric array was fixed\n                    - Trino: error handling was improved\n                 - Localization:\n                    - German localization was improved (thanks to @hype11)\n                    - Italian localization was improved (thanks to @Gnafu)\n                 - Misc:\n                    - Images for all DBeaver Eclipse extensions were added\n                    - Legacy ODBC driver based on the obsolete Java 7 was deprecated due to many issues\n            "
@@ -3050,8 +3050,8 @@
     "https://github.com/zan8in/afrog": {
         "created_at": "2022-02-24 06:00:32",
         "description": "A Security Tool for Bug Bounty, Pentest and Red Teaming.",
-        "commit_date": "2023-06-22 05:25:39",
-        "commit_message": "update CVE-2022-22242",
+        "commit_date": "2023-06-23 13:15:22",
+        "commit_message": "add poc",
         "release_tag": "v2.5.6",
         "release_date": "2023-06-19 06:25:46",
         "release_message": "We have fixed a potential false-positive issue with PoC CVE-2022-23131, making it more reliable and accurate in detecting actual vulnerabilities.\r\n\r\n"
@@ -3888,8 +3888,8 @@
     "https://github.com/neuvector/neuvector": {
         "created_at": "2021-12-17 20:15:03",
         "description": "",
-        "commit_date": "2023-06-22 23:51:33",
-        "commit_message": "Merge pull request #890 from williamlin-suse/main\n\nNVSHAS-8081: UI improvement about downloading support file when csp a…",
+        "commit_date": "2023-06-23 13:28:52",
+        "commit_message": "Merge pull request #892 from williamlin-suse/main\n\nNVSHAS-8088: Correct the base_product CPE format that NV writes to cs…",
         "release_tag": "v5.1.3",
         "release_date": "2023-05-09 18:16:30",
         "release_message": "Features:\r\nAdd new vulnerability feed for scanning Microsoft .NET framework\r\nEnforcer stats is disabled by default in Prometheus exporter to improve scalability\r\nUseability improvement: Using scanner to scan single image and print the result\r\nAdd imagePullPolicy check in admission control\r\n\r\n\r\nBug fixes:\r\nEmpty group auto-removal takes 2 hours to delete instead of 1 hour according to schedule\r\nCompliance profile doesn't show in UI console\r\n"
@@ -3906,8 +3906,8 @@
     "https://github.com/anchore/syft": {
         "created_at": "2020-05-07 18:19:29",
         "description": "CLI tool and library for generating a Software Bill of Materials from container images and filesystems",
-        "commit_date": "2023-06-22 18:42:10",
-        "commit_message": "fix: improve version detection in Java archive name parsing (#1889)\n\nSigned-off-by: Dan Luhring <dluhring@chainguard.dev>",
+        "commit_date": "2023-06-23 16:40:46",
+        "commit_message": "fix: add support for Dart SDK package dependencies (#1891)\n\nSigned-off-by: Stephane Rufer <1128559+rufman@users.noreply.github.com>",
         "release_tag": "v0.84.0",
         "release_date": "2023-06-20 18:12:06",
         "release_message": "# Changelog\n\n## [v0.84.0](https://github.com/anchore/syft/tree/v0.84.0) (2023-06-20)\n\n[Full Changelog](https://github.com/anchore/syft/compare/v0.83.1...v0.84.0)\n\n### Breaking Changes\n\n- Pad artifact IDs [[PR #1882](https://github.com/anchore/syft/pull/1882)] [[willmurphyscode](https://github.com/willmurphyscode)]\n\n### Additional Changes\n\n- chore: update SPDX license list to 3.21 [[PR #1885](https://github.com/anchore/syft/pull/1885)] [[kzantow](https://github.com/kzantow)]\n\n\n\n"
@@ -4275,7 +4275,7 @@
     "https://github.com/aiboboxx/v2rayfree": {
         "created_at": "2021-10-13 11:34:53",
         "description": "v2ray公益免费节点、最新2ray免费v节点订阅地址、v2ray免费节点每日更新、免费ss/v2ray/trojan节点、freefq ",
-        "commit_date": "2023-06-22 12:38:50",
+        "commit_date": "2023-06-23 12:42:51",
         "commit_message": "update",
         "release_tag": "",
         "release_date": "",
@@ -4320,8 +4320,8 @@
     "https://github.com/freefq/free": {
         "created_at": "2020-06-07 02:48:33",
         "description": "翻墙、免费翻墙、免费科学上网、免费节点、免费梯子、免费ss/v2ray/trojan节点、蓝灯、谷歌商店、翻墙梯子",
-        "commit_date": "2023-06-23 00:00:02",
-        "commit_message": "updated_at 06-23 08:00",
+        "commit_date": "2023-06-24 00:00:03",
+        "commit_message": "updated_at 06-24 08:00",
         "release_tag": "",
         "release_date": "",
         "release_message": ""

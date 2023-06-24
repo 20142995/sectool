@@ -1,4 +1,4 @@
-# 更新于 2023-06-23 08:52:34
+# 更新于 2023-06-24 08:52:58
 
 ## 近15天release更新记录
 | 更新时间 | 项目名称 | 版本 | 更新内容 |
@@ -22,28 +22,27 @@
 |2023-06-13 15:31:06|[iDefender](https://github.com/wecooperate/iDefender)|2.8.0|重要版本，建议更新    - 更新iMonitorS<br>DK到最新版本    - 去掉没有文档化的AFD<br>驱动监控，网络监控都使用WFP框架实现    <br>- 添加ICMP拦截支持  - 接入iFoundation<br>冰塔快速开发框架    - **支持模块化升级<br>：少量的修改直接通过模块升级自动更新，<br>不需要再频繁手动升级了**    - 支持企业<br>管理能力（企业管理后台会在3.0版本正式上<br>线）      - 支持统一管理      - 支持策<br>略下发      - 支持功能扩展、定制、二次<br>开发、系统集成    - 添加工具箱    - 冰<br>镜终端行为分析系统    - 冰鉴软件行为分<br>析系统    - 冰云安全U盘    - 冰刃进程强<br>杀、文件强删    - 添加微信交流群（在关<br>于冰盾页面可以获取二维码）  - 修复一些<br>问题    - 修复快速查找大小写敏感的问题 <br>   - 修复导入规则的信任列表部分场景导<br>入失败的问题    - 修复信任列表多个规则<br>匹配不生效的问题    - 优化其他一些使用<br>体验          软件下载   |
 |2023-06-09 13:12:18|[POC-bomber](https://github.com/tr0uble-mAker/POC-bomber)|POC-bom<br>ber-for-<br>Redteam-<br>v3.0.0|POC-bomber的 v3.0.0 版本，拥有更快的<br>扫描效率，修复因单个poc造成的卡顿问题和<br>各若干bug，增加彩色输出和进度显示，支持<br>指定poc目录，适合hvv快节奏，增加2022部<br>分已公开漏洞的poc。支持自建dnslog服务器<br>，在配置自己的域名后可以利用pocbomber在<br>vps开启一个dnslog平台，进行部分漏洞dns<br>带外检测。|
 |2023-06-09 12:43:46|[wpscan](https://github.com/wpscanteam/wpscan)|v3.8.24|This is a management release to ensur<br>e that the gem is properly pushed to t<br>he rubygems channel, as this has faile<br>d with the last tagged release. No fun<br>ctionality has changed since v3.8.23.|
-|2023-06-08 15:09:13|[trivy](https://github.com/aquasecurity/trivy)|v0.42.1|## Changelog * 9a279fa7b ci: remove 3<br>2bit packages (#4585) * d52b0b7bc fix(<br>misconf): deduplicate misconf results <br>(#4588) * 9b531fa27 fix(vm): support s<br>ector size of 4096 (#4564) * 8ca1bfdd2<br> fix(misconf): terraform relative path<br>s (#4571) * c20d46604 fix(purl): skip <br>unsupported library type (#4577) * 52c<br>be7975 fix(terraform): recursively det<br>ect all Root Modules (#4457) * 4a5b915<br>57 fix(vm): support post analyzer for <br>vm command (#4544) * 56cdc55f7 fix(nod<br>ejs): change the type of the devDepend<br>encies field (#4560) * 17d753676 fix(s<br>bom): export empty dependencies in Cyc<br>loneDX (#4568) * 2796abe1e refactor: a<br>dd composite fs for post-analyzers (#4<br>556) * 22a157380 chore(deps): bump gol<br>angci/golangci-lint-action from 3.4.0 <br>to 3.5.0 (#4554) * 43586659a chore(dep<br>s): bump helm/kind-action from 1.5.0 t<br>o 1.7.0 (#4526) * 508139965 chore(deps<br>): bump github.com/BurntSushi/toml fro<br>m 1.2.1 to 1.3.0 (#4528) * e1a38128a c<br>hore(deps): bump github.com/alicebob/m<br>iniredis/v2 from 2.30.2 to 2.30.3 (#45<br>29) * 283eef637 chore(deps): bump gith<br>ub.com/aws/aws-sdk-go-v2/service/ec2 (<br>#4536) * bbd7b9874 chore(deps): bump g<br>ithub.com/tetratelabs/wazero from 1.0.<br>0 to 1.2.0 (#4549) * 11c81bf2f chore(d<br>eps): bump github.com/spf13/cast from <br>1.5.0 to 1.5.1 (#4532) * 2d8d63e61 cho<br>re(deps): bump github.com/testcontaine<br>rs/testcontainers-go (#4537) * a46839b<br>1c chore(deps): bump github.com/go-git<br>/go-git/v5 from 5.6.1 to 5.7.0 (#4530)<br> * 19715f5de chore(deps): bump github.<br>com/aws/aws-sdk-go-v2/config (#4534)  |
 ## 近15天commit提交记录
 | 提交时间 | 项目名称 | 更新内容 |
 | :---- | :---- | :---- |
-|2023-06-23 00:45:16|[NucleiTP](https://github.com/ExpLangcn/NucleiTP)|更新啦❤️|
-|2023-06-23 00:00:02|[free](https://github.com/freefq/free)|updated_at 06-23 08:00|
-|2023-06-22 23:51:33|[neuvector](https://github.com/neuvector/neuvector)|Merge pull request #890 from williamlin-suse/main  <br>NVSHAS-8081: UI improvement about downloading suppor<br>t file when csp a…|
-|2023-06-22 22:41:37|[PocOrExp_in_Githu<br>b](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-06-23 06:41:37|
+|2023-06-24 00:30:20|[NucleiTP](https://github.com/ExpLangcn/NucleiTP)|更新啦❤️|
+|2023-06-24 00:00:03|[free](https://github.com/freefq/free)|updated_at 06-24 08:00|
+|2023-06-23 23:42:27|[PocOrExp_in_Githu<br>b](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-06-24 07:42:27|
+|2023-06-23 19:57:18|[RsaCtfTool](https://github.com/RsaCtfTool/RsaCtfTool)|Update README.md|
+|2023-06-23 16:40:46|[syft](https://github.com/anchore/syft)|fix: add support for Dart SDK package dependencies <br>(#1891)  Signed-off-by: Stephane Rufer |
+|2023-06-23 13:28:52|[neuvector](https://github.com/neuvector/neuvector)|Merge pull request #892 from williamlin-suse/main  <br>NVSHAS-8088: Correct the base_product CPE format tha<br>t NV writes to cs…|
+|2023-06-23 13:15:22|[afrog](https://github.com/zan8in/afrog)|add poc|
+|2023-06-23 12:42:51|[v2rayfree](https://github.com/aiboboxx/v2rayfree)|update|
+|2023-06-23 09:29:07|[dbeaver](https://github.com/dbeaver/dbeaver)|Default identifiers case in dialect|
 |2023-06-22 22:13:01|[Mobile-Security-F<br>ramework-MobSF](https://github.com/MobSF/Mobile-Security-Framework-MobSF)|HOTFIX: Feature updates and Bug Fixes (#2197)  * OF<br>AC, jquery bump, tox fix  * AAR handle multiple appl<br>ication tags|
 |2023-06-22 21:40:07|[clair](https://github.com/quay/clair)|cicd: use common workflow in main module CI  Signed<br>-off-by: Hank Donnay |
 |2023-06-22 21:36:19|[burp-awesome-tls](https://github.com/sleeyax/burp-awesome-tls)|Create FUNDING.yml|
-|2023-06-22 18:42:10|[syft](https://github.com/anchore/syft)|fix: improve version detection in Java archive name<br> parsing (#1889)  Signed-off-by: Dan Luhring |
-|2023-06-22 17:51:20|[RsaCtfTool](https://github.com/RsaCtfTool/RsaCtfTool)|pastctfprimes: support for multiple prime list file<br>s|
 |2023-06-22 16:10:33|[PeiQi-WIKI-Book](https://github.com/PeiQi0/PeiQi-WIKI-Book)|漏洞相关:修复错误|
 |2023-06-22 16:04:09|[grype](https://github.com/anchore/grype)|chore(deps): bump anchore/sbom-action from 0.14.2 t<br>o 0.14.3 (#1357)  Bumps  from 0.14.2 to 0.14.3.  -  <br> -     ---  updated-dependencies:  - dependency-name<br>: anchore/sbom-action    dependency-type: direct:pro<br>duction    update-type: version-update:semver-patch <br> ...    Signed-off-by: dependabot[bot]   Co-authored<br>-by: dependabot[bot] |
-|2023-06-22 14:59:32|[dbeaver](https://github.com/dbeaver/dbeaver)|Dbeaver/dbeaver#18971 notification theming (#20093)<br>  * dbeaver/dbeaver#18971 use notifications moved fr<br>om Mylin to JFace    * dbeaver/dbeaver#18971 rename <br>NotificationPopup to avoid confusion with JFace's cl<br>ass with the same name|
 |2023-06-22 14:45:22|[v2rayA](https://github.com/v2rayA/v2rayA)|inno-installer: stop service before installation if<br> it's running|
-|2023-06-22 12:38:50|[v2rayfree](https://github.com/aiboboxx/v2rayfree)|update|
 |2023-06-22 11:16:24|[trivy](https://github.com/aquasecurity/trivy)|fix: k8s escape resource filename on windows os (#4<br>693)  Signed-off-by: chenk |
 |2023-06-22 11:01:47|[fshzqSearch](https://github.com/Ifory885/fshzqSearch)|Update README.md  项目迁移|
 |2023-06-22 06:18:49|[Burp-Non-HTTP-Ext<br>ension](https://github.com/summitt/Burp-Non-HTTP-Extension)|updating tls configs|
-|2023-06-22 05:25:39|[afrog](https://github.com/zan8in/afrog)|update CVE-2022-22242|
 |2023-06-21 09:06:45|[safeline](https://github.com/chaitin/safeline)|feat: release v1.10.0|
 |2023-06-21 07:28:24|[Elkeid](https://github.com/bytedance/Elkeid)|Compiling failures for Debian 9/10 (#512)  Wrong ke<br>rrnel header directory path used in Makefile. Now un<br>ify  the Makefile of 1.7 to 1.8    Signed-off-by: sh<br>enping.matt |
 |2023-06-21 05:27:44|[nemo_go](https://github.com/hanc00l/nemo_go)|Update: thirdparty|
@@ -87,8 +86,7 @@
 |2023-06-10 15:07:26|[kube-bench](https://github.com/aquasecurity/kube-bench)|build(deps): bump golang from 1.19.4 to 1.20.4 (#14<br>36)  Bumps golang from 1.19.4 to 1.20.4.    ---  upd<br>ated-dependencies:  - dependency-name: golang    dep<br>endency-type: direct:production    update-type: vers<br>ion-update:semver-minor  ...    Signed-off-by: depen<br>dabot[bot]   Co-authored-by: dependabot[bot] |
 |2023-06-09 13:20:09|[POC-bomber](https://github.com/tr0uble-mAker/POC-bomber)|红队版本 poc-bomber v3.0.0 redteam|
 |2023-06-09 10:44:12|[wpscan](https://github.com/wpscanteam/wpscan)|Bump version.|
-|2023-06-09 02:02:54|[Some-PoC-oR-ExP](https://github.com/coffeehb/Some-PoC-oR-ExP)|Create 老版本未授权.md|
-|2023-06-08 09:09:21|[heapdump_tool](https://github.com/wyzxxz/heapdump_tool)|Update README.md|## 所有项目
+|2023-06-09 02:02:54|[Some-PoC-oR-ExP](https://github.com/coffeehb/Some-PoC-oR-ExP)|Create 老版本未授权.md|## 所有项目
 # 渗透测试
 ## 信息收集
 ### 资产测绘采集
