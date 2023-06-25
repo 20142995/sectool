@@ -200,8 +200,8 @@
     "https://github.com/ycdxsb/PocOrExp_in_Github": {
         "created_at": "2021-04-13 05:46:16",
         "description": "聚合Github上已有的Poc或者Exp，CVE信息来自CVE官网。Auto Collect Poc Or Exp from Github by CVE ID.",
-        "commit_date": "2023-06-23 23:42:27",
-        "commit_message": "update 2023-06-24 07:42:27",
+        "commit_date": "2023-06-24 23:47:39",
+        "commit_message": "update 2023-06-25 07:47:39",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -461,7 +461,7 @@
     "https://github.com/ExpLangcn/NucleiTP": {
         "created_at": "2022-11-08 13:16:56",
         "description": "自动整合全网Nuclei的漏洞POC，实时同步更新最新POC！",
-        "commit_date": "2023-06-24 00:30:20",
+        "commit_date": "2023-06-25 00:45:18",
         "commit_message": "更新啦❤️",
         "release_tag": "",
         "release_date": "",
@@ -1575,11 +1575,11 @@
     "https://github.com/d3ckx1/Fvuln": {
         "created_at": "2021-09-26 14:05:11",
         "description": "F-vuln（全称：Find-Vulnerability）是为了自己工作方便专门编写的一款自动化工具，主要适用于日常安全服务、渗透测试人员和RedTeam红队人员，它集合的功能包括：存活IP探测、开放端口探测、web服务探测、web漏洞扫描、smb爆破、ssh爆破、ftp爆破、mssql爆破等其他数据库爆破工作以及大量web漏洞检测模块。",
-        "commit_date": "2022-09-18 11:14:42",
-        "commit_message": "Update vuln-list.txt",
-        "release_tag": "Fvuln_v1.4.8",
-        "release_date": "2022-09-18 11:13:00",
-        "release_message": "Fvuln_v1.4.8版本\r\n1、新增25个漏洞检测；（现共460个漏洞模块）\r\n2、新增在服务爆破功能提示处，不操作8秒后自动进行爆破功能；\r\n3、新增加入200个常用密码字典；\r\n4、端口探测、SMB爆破提升速度；\r\n5、修复漏洞误报。（感谢反馈）"
+        "commit_date": "2023-06-24 05:53:31",
+        "commit_message": "Update README.md",
+        "release_tag": "Fvuln-1.4.9",
+        "release_date": "2023-06-24 05:49:44",
+        "release_message": "1、修复漏洞误报；\r\n2、新增单独或批量漏洞扫描功能，-s 参数；\r\n3、新增33个POC；\r\n4、去掉一些banner。"
     },
     "https://github.com/li8u99/yonyou_exp_plus": {
         "created_at": "2022-01-21 08:49:07",
@@ -2654,8 +2654,8 @@
     "https://github.com/maurosoria/dirsearch": {
         "created_at": "2013-04-30 15:57:40",
         "description": "Web path scanner",
-        "commit_date": "2023-05-19 16:41:10",
-        "commit_message": "Merge pull request #1300 from mxcezl/patch-1\n\nAllow dirseach to find endpoints exposing jwks files",
+        "commit_date": "2023-06-24 05:05:29",
+        "commit_message": "Merge pull request #1302 from drego85/patch-13\n\nAdding \"config.properties\" and sort+remove duplicate",
         "release_tag": "v0.4.3",
         "release_date": "2022-10-05 13:01:24",
         "release_message": "- Automatically detect the URI scheme (`http` or `https`) if no scheme is provided\r\n- SQLite report format\r\n- Option to overwrite unwanted extensions with selected extensions\r\n- Option to view redirects history when following redirects\r\n- Option to crawl web paths in the responses\r\n- HTTP traffic is saved inside log file\r\n- Capability to save progress and resume later\r\n- Support client certificate\r\n- Maximum size of the log file via configuration\r\n- More accurate"
@@ -3050,11 +3050,11 @@
     "https://github.com/zan8in/afrog": {
         "created_at": "2022-02-24 06:00:32",
         "description": "A Security Tool for Bug Bounty, Pentest and Red Teaming.",
-        "commit_date": "2023-06-23 13:15:22",
-        "commit_message": "add poc",
-        "release_tag": "v2.5.6",
-        "release_date": "2023-06-19 06:25:46",
-        "release_message": "We have fixed a potential false-positive issue with PoC CVE-2022-23131, making it more reliable and accurate in detecting actual vulnerabilities.\r\n\r\n"
+        "commit_date": "2023-06-24 13:51:17",
+        "commit_message": "v2.6.0",
+        "release_tag": "v2.6.0",
+        "release_date": "2023-06-24 13:53:48",
+        "release_message": "**The moon represents my heart.**\r\n**Add:**\r\n- The new feature, -append-poc / -ap, allows specifying one or multiple PoC files or directories to be merged with the built-in PoC for scanning together.\r\n- Rawhttp supports HTTP/socks5 proxies.\r\n- Celebrate! The total number of Afro PoCs has exceeded 1000! The current total is 1018.\r\n\r\n**月亮代表我的心**\r\n**新增**\r\n- 新增 -append-poc / -ap 功能，允许指定一个或多个PoC文件或目录，以与内置PoC合并后一起进行扫描。\r\n- rawhttp 支持 HTTP/socks5 代理\r\n- 庆祝！afrog PoC 的总数突破了1000个！目前总数为1018个。"
     },
     "https://github.com/moonD4rk/HackBrowserData": {
         "created_at": "2020-06-18 03:24:31",
@@ -3879,8 +3879,8 @@
     "https://github.com/aquasecurity/kube-bench": {
         "created_at": "2017-06-19 13:27:02",
         "description": "Checks whether Kubernetes is deployed according to security best practices as defined in the CIS Kubernetes Benchmark",
-        "commit_date": "2023-06-10 15:07:26",
-        "commit_message": "build(deps): bump golang from 1.19.4 to 1.20.4 (#1436)\n\nBumps golang from 1.19.4 to 1.20.4.\r\n\r\n---\r\nupdated-dependencies:\r\n- dependency-name: golang\r\n  dependency-type: direct:production\r\n  update-type: version-update:semver-minor\r\n...\r\n\r\nSigned-off-by: dependabot[bot] <support@github.com>\r\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
+        "commit_date": "2023-06-24 16:42:03",
+        "commit_message": "build(deps): bump actions/setup-go from 3 to 4 (#1402)\n\nBumps [actions/setup-go](https://github.com/actions/setup-go) from 3 to 4.\n- [Release notes](https://github.com/actions/setup-go/releases)\n- [Commits](https://github.com/actions/setup-go/compare/v3...v4)\n\n---\nupdated-dependencies:\n- dependency-name: actions/setup-go\n  dependency-type: direct:production\n  update-type: version-update:semver-major\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>\nCo-authored-by: chenk <hen.keinan@gmail.com>",
         "release_tag": "v0.6.15",
         "release_date": "2023-06-06 14:50:53",
         "release_message": "## Changelog\n* e41755b  cis-1.24: fix tests of 1.1.1 and 4.2.9 were wrong (#1423)\n* ca8743c add support VMware Tanzu(TKGI) Benchmarks v1.2.53 (#1452)\n* 84f80b5 build(deps): bump alpine from 3.17 to 3.18 (#1443)\n* 6de03bb build(deps): bump github.com/aws/aws-sdk-go-v2 from 1.17.6 to 1.18.0 (#1433)\n* 60dde65 support CIS Amazon Elastic Kubernetes Service (EKS) Benchmark v1.2.0 (#1449)\n* 124c57c support CIS Kubernetes Benchmark v1.7.0 (#1424)\n\n"
@@ -3888,8 +3888,8 @@
     "https://github.com/neuvector/neuvector": {
         "created_at": "2021-12-17 20:15:03",
         "description": "",
-        "commit_date": "2023-06-23 13:28:52",
-        "commit_message": "Merge pull request #892 from williamlin-suse/main\n\nNVSHAS-8088: Correct the base_product CPE format that NV writes to cs…",
+        "commit_date": "2023-06-24 04:58:10",
+        "commit_message": "Merge pull request #894 from jayhuang-suse/eight\n\nNVSHAS-8080: neuvector csp container will be added into workload object",
         "release_tag": "v5.1.3",
         "release_date": "2023-05-09 18:16:30",
         "release_message": "Features:\r\nAdd new vulnerability feed for scanning Microsoft .NET framework\r\nEnforcer stats is disabled by default in Prometheus exporter to improve scalability\r\nUseability improvement: Using scanner to scan single image and print the result\r\nAdd imagePullPolicy check in admission control\r\n\r\n\r\nBug fixes:\r\nEmpty group auto-removal takes 2 hours to delete instead of 1 hour according to schedule\r\nCompliance profile doesn't show in UI console\r\n"
@@ -4275,7 +4275,7 @@
     "https://github.com/aiboboxx/v2rayfree": {
         "created_at": "2021-10-13 11:34:53",
         "description": "v2ray公益免费节点、最新2ray免费v节点订阅地址、v2ray免费节点每日更新、免费ss/v2ray/trojan节点、freefq ",
-        "commit_date": "2023-06-23 12:42:51",
+        "commit_date": "2023-06-24 12:40:30",
         "commit_message": "update",
         "release_tag": "",
         "release_date": "",
@@ -4320,8 +4320,8 @@
     "https://github.com/freefq/free": {
         "created_at": "2020-06-07 02:48:33",
         "description": "翻墙、免费翻墙、免费科学上网、免费节点、免费梯子、免费ss/v2ray/trojan节点、蓝灯、谷歌商店、翻墙梯子",
-        "commit_date": "2023-06-24 00:00:03",
-        "commit_message": "updated_at 06-24 08:00",
+        "commit_date": "2023-06-25 00:00:03",
+        "commit_message": "updated_at 06-25 08:00",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -4599,8 +4599,8 @@
     "https://github.com/rockbenben/ChatGPT-Shortcut": {
         "created_at": "2023-02-24 12:53:49",
         "description": "🚀💪Maximize your efficiency and productivity, support for English, 中文, 日本語, and 한국어. 让生产力加倍的 ChatGPT 快捷指令，按照领域和功能分区，可对提示词进行标签筛选、关键词搜索和一键复制。",
-        "commit_date": "2023-06-19 04:09:21",
-        "commit_message": "feat: Add multilingual support for Chinese, Japanese, and English in the comment section interface and implement restrictions for low-quality replies.",
+        "commit_date": "2023-06-24 04:47:58",
+        "commit_message": "feat: Add redirection functionality and fix redirection issue for /cn",
         "release_tag": "",
         "release_date": "",
         "release_message": ""

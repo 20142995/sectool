@@ -1,8 +1,10 @@
-# 更新于 2023-06-24 08:52:58
+# 更新于 2023-06-25 08:57:30
 
 ## 近15天release更新记录
 | 更新时间 | 项目名称 | 版本 | 更新内容 |
 | :---- | :---- | :---- | :---- |
+|2023-06-24 13:53:48|[afrog](https://github.com/zan8in/afrog)|v2.6.0|**The moon represents my heart.**  **<br>Add:**  - The new feature, -append-poc<br> / -ap, allows specifying one or multi<br>ple PoC files or directories to be mer<br>ged with the built-in PoC for scanning<br> together.  - Rawhttp supports HTTP/so<br>cks5 proxies.  - Celebrate! The total <br>number of Afro PoCs has exceeded 1000!<br> The current total is 1018.    **月亮<br>代表我的心**  **新增**  - 新增 -append-<br>poc / -ap 功能，允许指定一个或多个PoC<br>文件或目录，以与内置PoC合并后一起进行扫<br>描。  - rawhttp 支持 HTTP/socks5 代理  <br>- 庆祝！afrog PoC 的总数突破了1000个！<br>目前总数为1018个。|
+|2023-06-24 05:49:44|[Fvuln](https://github.com/d3ckx1/Fvuln)|Fvuln-1<br>.4.9|1、修复漏洞误报；  2、新增单独或批量<br>漏洞扫描功能，-s 参数；  3、新增33个POC<br>；  4、去掉一些banner。|
 |2023-06-21 20:06:59|[burp-awesome-tls](https://github.com/sleeyax/burp-awesome-tls)|v1.1.0|## Changelog    ### Added  - Custom T<br>LS fingerprint support by @VovkoO (#29<br>) |
 |2023-06-21 16:15:32|[grype](https://github.com/anchore/grype)|v0.63.0|# Changelog    ##  (2023-06-21)      <br>  ### Added Features    - Always inclu<br>de the specific package name and versi<br>on used in the vulnerability search in<br> the matchDetails section of the outpu<br>t ] ]  - Expose Go template file that <br>produces the table report ] ] ]  - Add<br> a folder for community Go templates (<br>see templates/README.md for more detai<br>ls) ]    ### Breaking Changes    - upd<br>ate Syft to v0.84.0: stereoscope platf<br>orm fix and artifact ID padding ] ]   <br>     |
 |2023-06-21 09:08:55|[safeline](https://github.com/chaitin/safeline)|v1.10.0|## 新增    - 防护站点新增 “运行模式<br>”，可以一键将站点设为 观察 或 维护 模<br>式了    ## 优化    - 修复了站点列表没有<br>分页器的问题  - 修复了窗口水平滚动时导<br>航栏会错位的问题  - 修复了黑白名单配置 <br>“不属于 IP 组” 的条件时，列表显示组 I<br>D，而未显示组名称的问题  - 优化了界面<br>的 UI 与交互|
@@ -12,7 +14,6 @@
 |2023-06-20 15:28:14|[Elkeid](https://github.com/bytedance/Elkeid)|v1.7.0.<br>13-drive<br>r-ko-202<br>30620||
 |2023-06-20 09:07:40|[Umi-OCR](https://github.com/hiroi-sora/Umi-OCR)|v1.3.5|### v1.3.5 主要更新：  - 新功能：复制<br>识别结果后，可发送指定按键，以便联动唤<br>起翻译器等工具。👉  - 新功能：命令行增<br>加切换识别语言的指令。👉  - 修Bug：修复<br>了低配置机器上有概率误报超时 OCR init t<br>imeout: 5s 的问题。  - 调整：默认停止<br>任务30秒后释放一次内存。    ### 文件说<br>明  软件本体：Umi-OCR.v1.3.5.7z（67MB）<br>，内置简体中文&英文通用识别库。  软件（<br>多国语言整合版）：Umi-OCR.v1.3.5_ALL_la<br>nguages.7z（118MB），内置多国语言识别<br>库。    多国语言扩展包：Umi-OCR.v1.3_DL<br>C_languages.7z（50MB），可向软件本体导<br>入繁中,英,日,韩,俄,德,法 多国语言识别库<br>。|
 |2023-06-19 10:39:46|[ghauri](https://github.com/r0oth3x49/ghauri)|1.2.1|# Fixes   - fixed issue with HTTP req<br>uest parsing #80.|
-|2023-06-19 06:25:46|[afrog](https://github.com/zan8in/afrog)|v2.5.6|We have fixed a potential false-posit<br>ive issue with PoC CVE-2022-23131, mak<br>ing it more reliable and accurate in d<br>etecting actual vulnerabilities.    |
 |2023-06-18 14:47:06|[Ladon](https://github.com/k8gege/Ladon)|v11.0|Ladon911_20230618  BypassAV一键免杀工<br>具  LadonShell内存加载Ladon后渗透  [+]R<br>ocketMQexp    Apache RocketMQ CVE-2023<br>-33246 远程命令执行漏洞EXP (可Ladon渗<br>透Web服务器获取回显)  [+]BypassAV     L<br>adon一键免杀工具 PY XOR随机加密 (Main<br>函数需Public）  [u]InfoScan     修复异<br>常退出Bug  [+]EventLog/LoginLog  获取管<br>理员IP 一键读取登陆成功日志4624   [u]Ex<br>p、GUI、Study、Chat 更新UI按钮背景    <br>[+]RunCmd/Cmd    执行Cmd命令/支持b64cm<br>d Ladon cmd whoami   [+]RunPS/PowerShe<br>ll   执行PowerShell命令/脚本 Ladon pow<br>ershell c $PSVersionTable    20230603 <br> [u]LadonExp      支持GET连接MS17010漏<br>洞CmdShell执行命令  [u]LadonExp      生<br>成EXE可解密Base64、Hex  PostShell结果  <br>[+]PostShell        增加HEX加密传输HEX<br>解密结果,Base64结果解密Bug修复  |
 |2023-06-18 09:08:03|[linbing](https://github.com/taomujian/linbing)|v3.0||
 |2023-06-18 04:26:11|[PEASS-ng](https://github.com/carlospolop/PEASS-ng)|2023061<br>8-1fa055<br>b6||
@@ -20,19 +21,21 @@
 |2023-06-15 03:50:43|[GoWxDump](https://github.com/SpenserCai/GoWxDump)|v1.0.12|#22 |
 |2023-06-14 03:14:46|[EHole](https://github.com/EdgeSecurityTeam/EHole)|v3.1|1. 修复 JS 跳转同时匹配使用单引号或双<br>引号包围的URL；  2. 修复 URL 是否已经以<br>"/"结尾，如果是，就不再添加"/"；  3. <br>修复 UA 头被检测问题；  4. 新增 [202301<br>31] finger.json 指纹；  5. 修改 fofa.i<br>nfo API 接口。|
 |2023-06-13 15:31:06|[iDefender](https://github.com/wecooperate/iDefender)|2.8.0|重要版本，建议更新    - 更新iMonitorS<br>DK到最新版本    - 去掉没有文档化的AFD<br>驱动监控，网络监控都使用WFP框架实现    <br>- 添加ICMP拦截支持  - 接入iFoundation<br>冰塔快速开发框架    - **支持模块化升级<br>：少量的修改直接通过模块升级自动更新，<br>不需要再频繁手动升级了**    - 支持企业<br>管理能力（企业管理后台会在3.0版本正式上<br>线）      - 支持统一管理      - 支持策<br>略下发      - 支持功能扩展、定制、二次<br>开发、系统集成    - 添加工具箱    - 冰<br>镜终端行为分析系统    - 冰鉴软件行为分<br>析系统    - 冰云安全U盘    - 冰刃进程强<br>杀、文件强删    - 添加微信交流群（在关<br>于冰盾页面可以获取二维码）  - 修复一些<br>问题    - 修复快速查找大小写敏感的问题 <br>   - 修复导入规则的信任列表部分场景导<br>入失败的问题    - 修复信任列表多个规则<br>匹配不生效的问题    - 优化其他一些使用<br>体验          软件下载   |
-|2023-06-09 13:12:18|[POC-bomber](https://github.com/tr0uble-mAker/POC-bomber)|POC-bom<br>ber-for-<br>Redteam-<br>v3.0.0|POC-bomber的 v3.0.0 版本，拥有更快的<br>扫描效率，修复因单个poc造成的卡顿问题和<br>各若干bug，增加彩色输出和进度显示，支持<br>指定poc目录，适合hvv快节奏，增加2022部<br>分已公开漏洞的poc。支持自建dnslog服务器<br>，在配置自己的域名后可以利用pocbomber在<br>vps开启一个dnslog平台，进行部分漏洞dns<br>带外检测。|
-|2023-06-09 12:43:46|[wpscan](https://github.com/wpscanteam/wpscan)|v3.8.24|This is a management release to ensur<br>e that the gem is properly pushed to t<br>he rubygems channel, as this has faile<br>d with the last tagged release. No fun<br>ctionality has changed since v3.8.23.|
 ## 近15天commit提交记录
 | 提交时间 | 项目名称 | 更新内容 |
 | :---- | :---- | :---- |
-|2023-06-24 00:30:20|[NucleiTP](https://github.com/ExpLangcn/NucleiTP)|更新啦❤️|
-|2023-06-24 00:00:03|[free](https://github.com/freefq/free)|updated_at 06-24 08:00|
-|2023-06-23 23:42:27|[PocOrExp_in_Githu<br>b](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-06-24 07:42:27|
+|2023-06-25 00:45:18|[NucleiTP](https://github.com/ExpLangcn/NucleiTP)|更新啦❤️|
+|2023-06-25 00:00:03|[free](https://github.com/freefq/free)|updated_at 06-25 08:00|
+|2023-06-24 23:47:39|[PocOrExp_in_Githu<br>b](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-06-25 07:47:39|
+|2023-06-24 16:42:03|[kube-bench](https://github.com/aquasecurity/kube-bench)|build(deps): bump actions/setup-go from 3 to 4 (#14<br>02)  Bumps  from 3 to 4. -  -   --- updated-dependen<br>cies: - dependency-name: actions/setup-go   dependen<br>cy-type: direct:production   update-type: version-up<br>date:semver-major ...  Signed-off-by: dependabot[bot<br>]  Co-authored-by: dependabot[bot]  Co-authored-by: <br>chenk |
+|2023-06-24 13:51:17|[afrog](https://github.com/zan8in/afrog)|v2.6.0|
+|2023-06-24 12:40:30|[v2rayfree](https://github.com/aiboboxx/v2rayfree)|update|
+|2023-06-24 05:53:31|[Fvuln](https://github.com/d3ckx1/Fvuln)|Update README.md|
+|2023-06-24 05:05:29|[dirsearch](https://github.com/maurosoria/dirsearch)|Merge pull request #1302 from drego85/patch-13  Add<br>ing "config.properties" and sort+remove duplicate|
+|2023-06-24 04:58:10|[neuvector](https://github.com/neuvector/neuvector)|Merge pull request #894 from jayhuang-suse/eight  N<br>VSHAS-8080: neuvector csp container will be added in<br>to workload object|
+|2023-06-24 04:47:58|[ChatGPT-Shortcut](https://github.com/rockbenben/ChatGPT-Shortcut)|feat: Add redirection functionality and fix redirec<br>tion issue for /cn|
 |2023-06-23 19:57:18|[RsaCtfTool](https://github.com/RsaCtfTool/RsaCtfTool)|Update README.md|
 |2023-06-23 16:40:46|[syft](https://github.com/anchore/syft)|fix: add support for Dart SDK package dependencies <br>(#1891)  Signed-off-by: Stephane Rufer |
-|2023-06-23 13:28:52|[neuvector](https://github.com/neuvector/neuvector)|Merge pull request #892 from williamlin-suse/main  <br>NVSHAS-8088: Correct the base_product CPE format tha<br>t NV writes to cs…|
-|2023-06-23 13:15:22|[afrog](https://github.com/zan8in/afrog)|add poc|
-|2023-06-23 12:42:51|[v2rayfree](https://github.com/aiboboxx/v2rayfree)|update|
 |2023-06-23 09:29:07|[dbeaver](https://github.com/dbeaver/dbeaver)|Default identifiers case in dialect|
 |2023-06-22 22:13:01|[Mobile-Security-F<br>ramework-MobSF](https://github.com/MobSF/Mobile-Security-Framework-MobSF)|HOTFIX: Feature updates and Bug Fixes (#2197)  * OF<br>AC, jquery bump, tox fix  * AAR handle multiple appl<br>ication tags|
 |2023-06-22 21:40:07|[clair](https://github.com/quay/clair)|cicd: use common workflow in main module CI  Signed<br>-off-by: Hank Donnay |
@@ -55,7 +58,6 @@
 |2023-06-19 09:01:37|[Awesome-Redteam](https://github.com/Threekiii/Awesome-Redteam)|更新README.md|
 |2023-06-19 08:43:37|[Vuln-List](https://github.com/wwl012345/Vuln-List)|Update 中间件&框架&平台&第三方服务漏洞.md|
 |2023-06-19 06:48:19|[vulnerability](https://github.com/lal0ne/vulnerability)|CVE-2023-30179|
-|2023-06-19 04:09:21|[ChatGPT-Shortcut](https://github.com/rockbenben/ChatGPT-Shortcut)|feat: Add multilingual support for Chinese, Japanes<br>e, and English in the comment section interface and <br>implement restrictions for low-quality replies.|
 |2023-06-19 03:04:32|[404StarLink](https://github.com/knownsec/404StarLink)|weekly update at 2023-06-19|
 |2023-06-19 02:38:39|[Awesome-POC](https://github.com/Threekiii/Awesome-POC)|更新README.md|
 |2023-06-19 02:38:13|[Vulhub-Reproduce](https://github.com/Threekiii/Vulhub-Reproduce)|更新漏洞|
@@ -82,11 +84,7 @@
 |2023-06-12 16:54:15|[rotp](https://github.com/mdp/rotp)|chore: docker-compose.yml: Use ruby-3.0 (#128)  Thi<br>s prepares to add new stable Ruby versions.    Co-au<br>thored-by: Olle Jonsson |
 |2023-06-12 08:09:49|[ddddocr](https://github.com/sml2h3/ddddocr)|Update README.md|
 |2023-06-12 06:26:00|[EmailSender](https://github.com/A10ha/EmailSender)|Update EmailSenderGUI.py  更新Log记录，增加发件成功<br>、发件失败邮箱记录。|
-|2023-06-11 14:01:15|[veinmind-tools](https://github.com/chaitin/veinmind-tools)|fix(docs): fix README format (#251)|
-|2023-06-10 15:07:26|[kube-bench](https://github.com/aquasecurity/kube-bench)|build(deps): bump golang from 1.19.4 to 1.20.4 (#14<br>36)  Bumps golang from 1.19.4 to 1.20.4.    ---  upd<br>ated-dependencies:  - dependency-name: golang    dep<br>endency-type: direct:production    update-type: vers<br>ion-update:semver-minor  ...    Signed-off-by: depen<br>dabot[bot]   Co-authored-by: dependabot[bot] |
-|2023-06-09 13:20:09|[POC-bomber](https://github.com/tr0uble-mAker/POC-bomber)|红队版本 poc-bomber v3.0.0 redteam|
-|2023-06-09 10:44:12|[wpscan](https://github.com/wpscanteam/wpscan)|Bump version.|
-|2023-06-09 02:02:54|[Some-PoC-oR-ExP](https://github.com/coffeehb/Some-PoC-oR-ExP)|Create 老版本未授权.md|## 所有项目
+|2023-06-11 14:01:15|[veinmind-tools](https://github.com/chaitin/veinmind-tools)|fix(docs): fix README format (#251)|## 所有项目
 # 渗透测试
 ## 信息收集
 ### 资产测绘采集
@@ -234,9 +232,9 @@
 | [EasyPen](https://github.com/lijiejie/EasyPen) |  | EasyPen is a GUI program which helps pentesters do target disc<br>overy, vulnerability scan and exploitation |
 | [xray](https://github.com/chaitin/xray) | 1.9.11 | 一款完善的安全评估工具，支持常见 web 安全问题扫描和自定义 poc <br>| 使用之前务必先阅读文档 |
 | [w13scan](https://github.com/w-digital-scanner/w13scan) |  | Passive Security Scanner (被动式安全扫描器) |
-| [Fvuln](https://github.com/d3ckx1/Fvuln) | Fvuln_v<br>1.4.8 | F-vuln（全称：Find-Vulnerability）是为了自己工作方便专门编写的<br>一款自动化工具，主要适用于日常安全服务、渗透测试人员和RedTeam红<br>队人员，它集合的功能包括：存活IP探测、开放端口探测、web服务探测<br>、web漏洞扫描、smb爆破、ssh爆破、ftp爆破、mssql爆破等其他数据库<br>爆破工作以及大量web漏洞检测模块。 |
+| [Fvuln](https://github.com/d3ckx1/Fvuln) | Fvuln-1<br>.4.9 | F-vuln（全称：Find-Vulnerability）是为了自己工作方便专门编写的<br>一款自动化工具，主要适用于日常安全服务、渗透测试人员和RedTeam红<br>队人员，它集合的功能包括：存活IP探测、开放端口探测、web服务探测<br>、web漏洞扫描、smb爆破、ssh爆破、ftp爆破、mssql爆破等其他数据库<br>爆破工作以及大量web漏洞检测模块。 |
 | [nuclei](https://github.com/projectdiscovery/nuclei) | v2.9.6 | Fast and customizable vulnerability scanner based on simple YA<br>ML based DSL. |
-| [afrog](https://github.com/zan8in/afrog) | v2.5.6 | A Security Tool for Bug Bounty, Pentest and Red Teaming. |
+| [afrog](https://github.com/zan8in/afrog) | v2.6.0 | A Security Tool for Bug Bounty, Pentest and Red Teaming. |
 | [vulmap](https://github.com/zhzyker/vulmap) | v0.9 | Vulmap 是一款 web 漏洞扫描和验证工具, 可对 webapps 进行漏洞扫<br>描, 并且具备漏洞验证功能 |
 | [POC-bomber](https://github.com/tr0uble-mAker/POC-bomber) | POC-bom<br>ber-for-<br>Redteam-<br>v3.0.0 | 利用大量高威胁poc/exp快速获取目标权限，用于渗透和红队快速打点 |
 | [QingTing](https://github.com/StarCrossPortal/QingTing) | v0.3 | 蜻蜓安全一个安全工具编排平台,可以自由编排你的工具流,集成108款<br>工具,包括xray、nmap、awvs等;你可以将喜欢的工具编排成一个场景，快<br>速打造适合自己的安全工作台~ |
