@@ -200,8 +200,8 @@
     "https://github.com/ycdxsb/PocOrExp_in_Github": {
         "created_at": "2021-04-13 05:46:16",
         "description": "聚合Github上已有的Poc或者Exp，CVE信息来自CVE官网。Auto Collect Poc Or Exp from Github by CVE ID.",
-        "commit_date": "2023-06-24 23:47:39",
-        "commit_message": "update 2023-06-25 07:47:39",
+        "commit_date": "2023-06-25 22:45:50",
+        "commit_message": "update 2023-06-26 06:45:50",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -380,8 +380,8 @@
     "https://github.com/lal0ne/vulnerability": {
         "created_at": "2022-01-20 02:48:42",
         "description": "收集、整理、修改互联网上公开的漏洞POC",
-        "commit_date": "2023-06-19 06:48:19",
-        "commit_message": "CVE-2023-30179",
+        "commit_date": "2023-06-25 01:32:16",
+        "commit_message": "CVE-2023-20887",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -461,7 +461,7 @@
     "https://github.com/ExpLangcn/NucleiTP": {
         "created_at": "2022-11-08 13:16:56",
         "description": "自动整合全网Nuclei的漏洞POC，实时同步更新最新POC！",
-        "commit_date": "2023-06-25 00:45:18",
+        "commit_date": "2023-06-26 00:45:15",
         "commit_message": "更新啦❤️",
         "release_tag": "",
         "release_date": "",
@@ -531,8 +531,8 @@
     "https://github.com/knownsec/404StarLink": {
         "created_at": "2020-11-17 08:10:18",
         "description": "404StarLink - 推荐优质、有意义、有趣、坚持维护的安全开源项目",
-        "commit_date": "2023-06-19 03:04:32",
-        "commit_message": "weekly update at 2023-06-19",
+        "commit_date": "2023-06-25 03:09:13",
+        "commit_message": "weekly update at 2023-06-25",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -1017,8 +1017,8 @@
     "https://github.com/wecooperate/iDefender": {
         "created_at": "2021-11-24 11:38:28",
         "description": "iDefender（冰盾 - 终端主动防御系统）",
-        "commit_date": "2023-06-13 15:36:13",
-        "commit_message": "add wechat group",
+        "commit_date": "2023-06-25 04:01:34",
+        "commit_message": "update",
         "release_tag": "2.8.0",
         "release_date": "2023-06-13 15:31:06",
         "release_message": "重要版本，建议更新\r\n\r\n- 更新iMonitorSDK到最新版本\r\n  - 去掉没有文档化的AFD驱动监控，网络监控都使用WFP框架实现\r\n  - 添加ICMP拦截支持\r\n- 接入iFoundation冰塔快速开发框架\r\n  - **支持模块化升级：少量的修改直接通过模块升级自动更新，不需要再频繁手动升级了**\r\n  - 支持企业管理能力（企业管理后台会在3.0版本正式上线）\r\n    - 支持统一管理\r\n    - 支持策略下发\r\n    - 支持功能扩展、定制、二次开发、系统集成\r\n\r\n- 添加工具箱\r\n  - 冰镜终端行为分析系统\r\n  - 冰鉴软件行为分析系统\r\n  - 冰云安全U盘\r\n  - 冰刃进程强杀、文件强删\r\n\r\n- 添加微信交流群（在关于冰盾页面可以获取二维码）\r\n- 修复一些问题\r\n  - 修复快速查找大小写敏感的问题\r\n  - 修复导入规则的信任列表部分场景导入失败的问题\r\n  - 修复信任列表多个规则匹配不生效的问题\r\n\r\n- 优化其他一些使用体验\r\n\r\n<div class = \"md_footer\" >\r\n  <a href = \"https://imonitorsdk.com/publish/iDefender.exe\"> <button class=\"main-button\"> 软件下载 </button></a>\r\n</div>"
@@ -1062,8 +1062,8 @@
     "https://github.com/ninoseki/mitaka": {
         "created_at": "2018-02-09 00:13:30",
         "description": "A browser extension for OSINT search",
-        "commit_date": "2023-05-13 07:35:52",
-        "commit_message": "Merge pull request #734 from ninoseki/update-plasmo\n\nchore: update plasmo",
+        "commit_date": "2023-06-25 07:28:55",
+        "commit_message": "Merge pull request #738 from ninoseki/v1.3.0\n\nv1.3.0",
         "release_tag": "v1.2.0",
         "release_date": "2023-04-23 07:32:04",
         "release_message": "- Remove abandoned/no longer maintained searchers (#723)\r\n- Revamp FortiGuard searcher (#724)\r\n- Support ThreatBook as a searcher (#725)\r\n- Change TS mapping paths to follow Plasmo's default settings (#727)\r\n- Make it possible to disable/scanners in the options view (#728, #713)"
@@ -2953,9 +2953,9 @@
         "description": "Free universal database tool and SQL client",
         "commit_date": "2023-06-23 09:29:07",
         "commit_message": "Default identifiers case in dialect",
-        "release_tag": "23.1.0",
-        "release_date": "2023-06-04 19:54:58",
-        "release_message": "\n                - SQL Editor:\n                    - Autocomplete now supports [ ] and ` as quotes for identifiers\n                    - Shortcut confict on macOS was fixed\n                    - JSQLParser was reverted to the version 4.5 and is now faster\n                    - Issue with substitution variables in text with \\n line feeds was fixed\n                    - Autocomplete case with FROM right after SELECT is now handled\n                    - Autocomplete for SELECT query without FROM was fixed\n                    - 'Go to Matching Bracket' shortcut was changed to CTRL+SHIFT+[\n                    - Autocomplete for columns in tables without alias was fixed\n                    - Completion analyze errors are now written to the debug log\n                    - Comment with a tab after a double dash is now handle\n                    - Issue with hiding cursor position after resizing the editor was fixed\n                    - Exeption when updating editor annotations was fixed\n                - Data Editor:\n                    - Data ordering was improved\n                - General UI:\n                    - Changing the size and position of the connection dialog is now saved\n                    - Issue with the application freezing when creating a table when the connection hangs was fixed\n                    - Tips of the day were revised\n                - Connectivity:\n                    - Option to disable SSHJ hostname verification was added (thanks to @ryanc-me)\n                    - Issue when switching from Community to PRO version and vice versa was fixed\n                - Databases:\n                    - ClickHouse: display of large numbers was fixed\n                    - MariaDB: partition support was added\n                    - Oracle:\n                        - Issue issue with native clients hanging when running SQLPlus scripts was fixed\n                        - Issue with setting the wrong schema after connecting or changing the Data Editor was fixed\n                    - PostgreSQL:\n                        - Issue with an exception when loading attribute information was fixed\n                        - Reading a numeric array was fixed\n                    - Trino: error handling was improved\n                 - Localization:\n                    - German localization was improved (thanks to @hype11)\n                    - Italian localization was improved (thanks to @Gnafu)\n                 - Misc:\n                    - Images for all DBeaver Eclipse extensions were added\n                    - Legacy ODBC driver based on the obsolete Java 7 was deprecated due to many issues\n            "
+        "release_tag": "23.1.1",
+        "release_date": "2023-06-25 18:29:59",
+        "release_message": "\n                - SQL Editor:\n                    - User can configure the options on the toolbar by pressing the gear button in the editor\n                    - Issue with missing \"Copy file path\" option was fixed\n                - Data Editor:\n                    - Statistics view now can be disabled\n                    - Issue with References tab was fixed\n                    - Spatial tiles configuration was fixed (thanks to @otbutz)\n                - ER Diagram: issue with element removal after using View Style option was fixed\n                - Data transfer: issue with exporting a table without data when using bulk loading was fixed\n                - New drivers: TDengine database is now supported (thanks @sangshuduo).\n                - General UI:\n                    - Users can export DBeaver settings and import them\n                    - Notifications in Dark theme became topic \"Notices in the dark\" became readable\n                    - Users can use drag-n-drop to copy scripts, open database objects and insert Navigator node names into the editor\n                - Connectivity:\n                    - User can add snapshot maven repository\n                    - \"Automatically end long idle transactions\" option was redesigned\n                    - Authentication failure when connecting via SSH was fixed\n                    - Now users can connect with jump server using SSHJ\n                    - Issue with connecting to Azure SQL Server using Active Directory was fixed\n                - Security: SQLite driver version was updated\n                - Databases:\n                    - DB2z and Denodo: \"Show duplicates\" button in Grouping panel was fixed\n                    - Greenplum: function DDL was fixed (default parameter values)\n                    - Oracle:\n                        - Dates of creation and modification appeared in the information about the packages\n                        - Table partitions and subpartitions reading was fixed\n                        - Issue with missing tablespace statistics after object update was fixed\n                    - Snowflake: quotation rules for object identifiers were added\n                - Localization:\n                    - Users can now select Portuguese as the default language during installation or in Preferences\n                    - Portuguese localization was improved (thanks to @brlarini)\n                    - German localization was improved (thanks to @coderkun)\n                - Misc: we switched to Eclipse 2023-06 and Java-17 as a base platform\n            "
     },
     "https://github.com/zema1/yarx": {
         "created_at": "2021-11-11 09:43:21",
@@ -3050,8 +3050,8 @@
     "https://github.com/zan8in/afrog": {
         "created_at": "2022-02-24 06:00:32",
         "description": "A Security Tool for Bug Bounty, Pentest and Red Teaming.",
-        "commit_date": "2023-06-24 13:51:17",
-        "commit_message": "v2.6.0",
+        "commit_date": "2023-06-25 03:44:58",
+        "commit_message": "update contribute",
         "release_tag": "v2.6.0",
         "release_date": "2023-06-24 13:53:48",
         "release_message": "**The moon represents my heart.**\r\n**Add:**\r\n- The new feature, -append-poc / -ap, allows specifying one or multiple PoC files or directories to be merged with the built-in PoC for scanning together.\r\n- Rawhttp supports HTTP/socks5 proxies.\r\n- Celebrate! The total number of Afro PoCs has exceeded 1000! The current total is 1018.\r\n\r\n**月亮代表我的心**\r\n**新增**\r\n- 新增 -append-poc / -ap 功能，允许指定一个或多个PoC文件或目录，以与内置PoC合并后一起进行扫描。\r\n- rawhttp 支持 HTTP/socks5 代理\r\n- 庆祝！afrog PoC 的总数突破了1000个！目前总数为1018个。"
@@ -3701,8 +3701,8 @@
         "description": "PEASS - Privilege Escalation Awesome Scripts SUITE (with colors)",
         "commit_date": "2023-05-31 22:16:51",
         "commit_message": "f",
-        "release_tag": "20230618-1fa055b6",
-        "release_date": "2023-06-18 04:26:11",
+        "release_tag": "20230625-4d3aaa66",
+        "release_date": "2023-06-25 04:28:09",
         "release_message": ""
     },
     "https://github.com/waderwu/attackRmi": {
@@ -3914,9 +3914,9 @@
     },
     "https://github.com/chaitin/safeline": {
         "created_at": "2023-04-12 11:30:14",
-        "description": "长亭科技自研，基于业界领先的语义引擎检测技术，打造的简洁、易用的免费 WAF",
-        "commit_date": "2023-06-21 09:06:45",
-        "commit_message": "feat: release v1.10.0",
+        "description": "一款足够简单、足够好用、足够强的免费 WAF。基于业界领先的语义引擎检测技术，作为反向代理接入，保护你的网站不受黑客攻击。",
+        "commit_date": "2023-06-25 10:30:05",
+        "commit_message": "又改了改  readme",
         "release_tag": "v1.10.0",
         "release_date": "2023-06-21 09:08:55",
         "release_message": "## 新增\r\n\r\n- 防护站点新增 “运行模式”，可以一键将站点设为 观察 或 维护 模式了\r\n\r\n## 优化\r\n\r\n- 修复了站点列表没有分页器的问题\r\n- 修复了窗口水平滚动时导航栏会错位的问题\r\n- 修复了黑白名单配置 “不属于 IP 组” 的条件时，列表显示组 ID，而未显示组名称的问题\r\n- 优化了界面的 UI 与交互"
@@ -3969,8 +3969,8 @@
     "https://github.com/aquasecurity/trivy": {
         "created_at": "2019-04-11 01:01:07",
         "description": "Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more",
-        "commit_date": "2023-06-22 11:16:24",
-        "commit_message": "fix: k8s escape resource filename on windows os (#4693)\n\nSigned-off-by: chenk <hen.keinan@gmail.com>",
+        "commit_date": "2023-06-25 13:47:06",
+        "commit_message": "feat: kbom and cyclonedx v1.5 spec support (#4708)\n\n* feat: kbom and cyclonedx v1.5 spec support\n\nSigned-off-by: chenk <hen.keinan@gmail.com>\n\n* feat: kbom and cyclonedx v1.5 spec support\n\nSigned-off-by: chenk <hen.keinan@gmail.com>\n\n* feat: kbom and cyclonedx v1.5 spec support\n\nSigned-off-by: chenk <hen.keinan@gmail.com>\n\n* feat: feat: kbom and cyclonedx 1.5 spec support\n\nSigned-off-by: chenk <hen.keinan@gmail.com>\n\n* fix: unmarshal bom on v1.5 return invalid specification version\n\nSigned-off-by: chenk <hen.keinan@gmail.com>\n\n* feat: cyclonedx-1.5 spec support\n\nSigned-off-by: chenk <hen.keinan@gmail.com>\n\n---------\n\nSigned-off-by: chenk <hen.keinan@gmail.com>",
         "release_tag": "v0.42.1",
         "release_date": "2023-06-08 15:09:13",
         "release_message": "## Changelog\n* 9a279fa7b ci: remove 32bit packages (#4585)\n* d52b0b7bc fix(misconf): deduplicate misconf results (#4588)\n* 9b531fa27 fix(vm): support sector size of 4096 (#4564)\n* 8ca1bfdd2 fix(misconf): terraform relative paths (#4571)\n* c20d46604 fix(purl): skip unsupported library type (#4577)\n* 52cbe7975 fix(terraform): recursively detect all Root Modules (#4457)\n* 4a5b91557 fix(vm): support post analyzer for vm command (#4544)\n* 56cdc55f7 fix(nodejs): change the type of the devDependencies field (#4560)\n* 17d753676 fix(sbom): export empty dependencies in CycloneDX (#4568)\n* 2796abe1e refactor: add composite fs for post-analyzers (#4556)\n* 22a157380 chore(deps): bump golangci/golangci-lint-action from 3.4.0 to 3.5.0 (#4554)\n* 43586659a chore(deps): bump helm/kind-action from 1.5.0 to 1.7.0 (#4526)\n* 508139965 chore(deps): bump github.com/BurntSushi/toml from 1.2.1 to 1.3.0 (#4528)\n* e1a38128a chore(deps): bump github.com/alicebob/miniredis/v2 from 2.30.2 to 2.30.3 (#4529)\n* 283eef637 chore(deps): bump github.com/aws/aws-sdk-go-v2/service/ec2 (#4536)\n* bbd7b9874 chore(deps): bump github.com/tetratelabs/wazero from 1.0.0 to 1.2.0 (#4549)\n* 11c81bf2f chore(deps): bump github.com/spf13/cast from 1.5.0 to 1.5.1 (#4532)\n* 2d8d63e61 chore(deps): bump github.com/testcontainers/testcontainers-go (#4537)\n* a46839b1c chore(deps): bump github.com/go-git/go-git/v5 from 5.6.1 to 5.7.0 (#4530)\n* 19715f5de chore(deps): bump github.com/aws/aws-sdk-go-v2/config (#4534)\n\n"
@@ -4275,7 +4275,7 @@
     "https://github.com/aiboboxx/v2rayfree": {
         "created_at": "2021-10-13 11:34:53",
         "description": "v2ray公益免费节点、最新2ray免费v节点订阅地址、v2ray免费节点每日更新、免费ss/v2ray/trojan节点、freefq ",
-        "commit_date": "2023-06-24 12:40:30",
+        "commit_date": "2023-06-25 12:42:26",
         "commit_message": "update",
         "release_tag": "",
         "release_date": "",
@@ -4320,8 +4320,8 @@
     "https://github.com/freefq/free": {
         "created_at": "2020-06-07 02:48:33",
         "description": "翻墙、免费翻墙、免费科学上网、免费节点、免费梯子、免费ss/v2ray/trojan节点、蓝灯、谷歌商店、翻墙梯子",
-        "commit_date": "2023-06-25 00:00:03",
-        "commit_message": "updated_at 06-25 08:00",
+        "commit_date": "2023-06-26 00:00:02",
+        "commit_message": "updated_at 06-26 08:00",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -4590,8 +4590,8 @@
     "https://github.com/yzfly/awesome-chatgpt-zh": {
         "created_at": "2023-03-21 02:16:34",
         "description": "ChatGPT 中文指南🔥，ChatGPT 中文调教指南，指令指南，应用开发指南，精选资源清单，更好的使用 chatGPT 让你的生产力 up up up! 🚀",
-        "commit_date": "2023-06-20 23:42:25",
-        "commit_message": "add open_llama",
+        "commit_date": "2023-06-26 00:45:28",
+        "commit_message": "add trending-api",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -4599,8 +4599,8 @@
     "https://github.com/rockbenben/ChatGPT-Shortcut": {
         "created_at": "2023-02-24 12:53:49",
         "description": "🚀💪Maximize your efficiency and productivity, support for English, 中文, 日本語, and 한국어. 让生产力加倍的 ChatGPT 快捷指令，按照领域和功能分区，可对提示词进行标签筛选、关键词搜索和一键复制。",
-        "commit_date": "2023-06-24 04:47:58",
-        "commit_message": "feat: Add redirection functionality and fix redirection issue for /cn",
+        "commit_date": "2023-06-25 15:34:44",
+        "commit_message": "refactor: Restructure PromptPage data to optimize performance",
         "release_tag": "",
         "release_date": "",
         "release_message": ""

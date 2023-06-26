@@ -1,8 +1,10 @@
-# 更新于 2023-06-25 08:57:30
+# 更新于 2023-06-26 08:51:58
 
 ## 近15天release更新记录
 | 更新时间 | 项目名称 | 版本 | 更新内容 |
 | :---- | :---- | :---- | :---- |
+|2023-06-25 18:29:59|[dbeaver](https://github.com/dbeaver/dbeaver)|23.1.1|                 - SQL Editor:       <br>              - User can configure the<br> options on the toolbar by pressing th<br>e gear button in the editor           <br>          - Issue with missing "Copy f<br>ile path" option was fixed            <br>     - Data Editor:                   <br>  - Statistics view now can be disable<br>d                     - Issue with Ref<br>erences tab was fixed                 <br>    - Spatial tiles configuration was <br>fixed (thanks to @otbutz)             <br>    - ER Diagram: issue with element r<br>emoval after using View Style option w<br>as fixed                 - Data transf<br>er: issue with exporting a table witho<br>ut data when using bulk loading was fi<br>xed                 - New drivers: TDe<br>ngine database is now supported (thank<br>s @sangshuduo).                 - Gene<br>ral UI:                     - Users ca<br>n export DBeaver settings and import t<br>hem                     - Notification<br>s in Dark theme became topic "Notices <br>in the dark" became readable          <br>           - Users can use drag-n-drop<br> to copy scripts, open database object<br>s and insert Navigator node names into<br> the editor                 - Connecti<br>vity:                     - User can a<br>dd snapshot maven repository          <br>           - "Automatically end long i<br>dle transactions" option was redesigne<br>d                     - Authentication<br> failure when connecting via SSH was f<br>ixed                     - Now users c<br>an connect with jump server using SSHJ<br>                     - Issue with conn<br>ecting to Azure SQL Server using Activ<br>e Directory was fixed                 <br>- Security: SQLite driver version was <br>updated                 - Databases:  <br>                   - DB2z and Denodo: <br>"Show duplicates" button in Grouping p<br>anel was fixed                     - G<br>reenplum: function DDL was fixed (defa<br>ult parameter values)                 <br>    - Oracle:                         <br>- Dates of creation and modification a<br>ppeared in the information about the p<br>ackages                         - Tabl<br>e partitions and subpartitions reading<br> was fixed                         - I<br>ssue with missing tablespace statistic<br>s after object update was fixed       <br>              - Snowflake: quotation r<br>ules for object identifiers were added<br>                 - Localization:      <br>               - Users can now select <br>Portuguese as the default language dur<br>ing installation or in Preferences    <br>                 - Portuguese localiza<br>tion was improved (thanks to @brlarini<br>)                     - German localiz<br>ation was improved (thanks to @coderku<br>n)                 - Misc: we switched<br> to Eclipse 2023-06 and Java-17 as a b<br>ase platform             |
+|2023-06-25 04:28:09|[PEASS-ng](https://github.com/carlospolop/PEASS-ng)|2023062<br>5-4d3aaa<br>66||
 |2023-06-24 13:53:48|[afrog](https://github.com/zan8in/afrog)|v2.6.0|**The moon represents my heart.**  **<br>Add:**  - The new feature, -append-poc<br> / -ap, allows specifying one or multi<br>ple PoC files or directories to be mer<br>ged with the built-in PoC for scanning<br> together.  - Rawhttp supports HTTP/so<br>cks5 proxies.  - Celebrate! The total <br>number of Afro PoCs has exceeded 1000!<br> The current total is 1018.    **月亮<br>代表我的心**  **新增**  - 新增 -append-<br>poc / -ap 功能，允许指定一个或多个PoC<br>文件或目录，以与内置PoC合并后一起进行扫<br>描。  - rawhttp 支持 HTTP/socks5 代理  <br>- 庆祝！afrog PoC 的总数突破了1000个！<br>目前总数为1018个。|
 |2023-06-24 05:49:44|[Fvuln](https://github.com/d3ckx1/Fvuln)|Fvuln-1<br>.4.9|1、修复漏洞误报；  2、新增单独或批量<br>漏洞扫描功能，-s 参数；  3、新增33个POC<br>；  4、去掉一些banner。|
 |2023-06-21 20:06:59|[burp-awesome-tls](https://github.com/sleeyax/burp-awesome-tls)|v1.1.0|## Changelog    ### Added  - Custom T<br>LS fingerprint support by @VovkoO (#29<br>) |
@@ -16,7 +18,6 @@
 |2023-06-19 10:39:46|[ghauri](https://github.com/r0oth3x49/ghauri)|1.2.1|# Fixes   - fixed issue with HTTP req<br>uest parsing #80.|
 |2023-06-18 14:47:06|[Ladon](https://github.com/k8gege/Ladon)|v11.0|Ladon911_20230618  BypassAV一键免杀工<br>具  LadonShell内存加载Ladon后渗透  [+]R<br>ocketMQexp    Apache RocketMQ CVE-2023<br>-33246 远程命令执行漏洞EXP (可Ladon渗<br>透Web服务器获取回显)  [+]BypassAV     L<br>adon一键免杀工具 PY XOR随机加密 (Main<br>函数需Public）  [u]InfoScan     修复异<br>常退出Bug  [+]EventLog/LoginLog  获取管<br>理员IP 一键读取登陆成功日志4624   [u]Ex<br>p、GUI、Study、Chat 更新UI按钮背景    <br>[+]RunCmd/Cmd    执行Cmd命令/支持b64cm<br>d Ladon cmd whoami   [+]RunPS/PowerShe<br>ll   执行PowerShell命令/脚本 Ladon pow<br>ershell c $PSVersionTable    20230603 <br> [u]LadonExp      支持GET连接MS17010漏<br>洞CmdShell执行命令  [u]LadonExp      生<br>成EXE可解密Base64、Hex  PostShell结果  <br>[+]PostShell        增加HEX加密传输HEX<br>解密结果,Base64结果解密Bug修复  |
 |2023-06-18 09:08:03|[linbing](https://github.com/taomujian/linbing)|v3.0||
-|2023-06-18 04:26:11|[PEASS-ng](https://github.com/carlospolop/PEASS-ng)|2023061<br>8-1fa055<br>b6||
 |2023-06-17 12:44:55|[Viper](https://github.com/FunnyWolf/Viper)|v1.5.30|### 新功能  - Viper所有功能都可通过右<br>下角链接跳转到对应文档  ### 优化  - 监<br>听防火墙前端UI优化  - 只显示Session功能<br>可在主页面使用  - 合并metasploit-framew<br>ork 6.3.22版本  ### Bugfix  - 修复pyth<br>on类型payload断线后无法重连及无法清理<br>历史网络连接问题|
 |2023-06-15 03:50:43|[GoWxDump](https://github.com/SpenserCai/GoWxDump)|v1.0.12|#22 |
 |2023-06-14 03:14:46|[EHole](https://github.com/EdgeSecurityTeam/EHole)|v3.1|1. 修复 JS 跳转同时匹配使用单引号或双<br>引号包围的URL；  2. 修复 URL 是否已经以<br>"/"结尾，如果是，就不再添加"/"；  3. <br>修复 UA 头被检测问题；  4. 新增 [202301<br>31] finger.json 指纹；  5. 修改 fofa.i<br>nfo API 接口。|
@@ -24,16 +25,23 @@
 ## 近15天commit提交记录
 | 提交时间 | 项目名称 | 更新内容 |
 | :---- | :---- | :---- |
-|2023-06-25 00:45:18|[NucleiTP](https://github.com/ExpLangcn/NucleiTP)|更新啦❤️|
-|2023-06-25 00:00:03|[free](https://github.com/freefq/free)|updated_at 06-25 08:00|
-|2023-06-24 23:47:39|[PocOrExp_in_Githu<br>b](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-06-25 07:47:39|
+|2023-06-26 00:45:28|[awesome-chatgpt-z<br>h](https://github.com/yzfly/awesome-chatgpt-zh)|add trending-api|
+|2023-06-26 00:45:15|[NucleiTP](https://github.com/ExpLangcn/NucleiTP)|更新啦❤️|
+|2023-06-26 00:00:02|[free](https://github.com/freefq/free)|updated_at 06-26 08:00|
+|2023-06-25 22:45:50|[PocOrExp_in_Githu<br>b](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-06-26 06:45:50|
+|2023-06-25 15:34:44|[ChatGPT-Shortcut](https://github.com/rockbenben/ChatGPT-Shortcut)|refactor: Restructure PromptPage data to optimize p<br>erformance|
+|2023-06-25 13:47:06|[trivy](https://github.com/aquasecurity/trivy)|feat: kbom and cyclonedx v1.5 spec support (#4708) <br> * feat: kbom and cyclonedx v1.5 spec support  Signe<br>d-off-by: chenk   * feat: kbom and cyclonedx v1.5 sp<br>ec support  Signed-off-by: chenk   * feat: kbom and <br>cyclonedx v1.5 spec support  Signed-off-by: chenk   <br>* feat: feat: kbom and cyclonedx 1.5 spec support  S<br>igned-off-by: chenk   * fix: unmarshal bom on v1.5 r<br>eturn invalid specification version  Signed-off-by: <br>chenk   * feat: cyclonedx-1.5 spec support  Signed-o<br>ff-by: chenk   ---------  Signed-off-by: chenk |
+|2023-06-25 12:42:26|[v2rayfree](https://github.com/aiboboxx/v2rayfree)|update|
+|2023-06-25 10:30:05|[safeline](https://github.com/chaitin/safeline)|又改了改  readme|
+|2023-06-25 07:28:55|[mitaka](https://github.com/ninoseki/mitaka)|Merge pull request #738 from ninoseki/v1.3.0  v1.3.<br>0|
+|2023-06-25 04:01:34|[iDefender](https://github.com/wecooperate/iDefender)|update|
+|2023-06-25 03:44:58|[afrog](https://github.com/zan8in/afrog)|update contribute|
+|2023-06-25 03:09:13|[404StarLink](https://github.com/knownsec/404StarLink)|weekly update at 2023-06-25|
+|2023-06-25 01:32:16|[vulnerability](https://github.com/lal0ne/vulnerability)|CVE-2023-20887|
 |2023-06-24 16:42:03|[kube-bench](https://github.com/aquasecurity/kube-bench)|build(deps): bump actions/setup-go from 3 to 4 (#14<br>02)  Bumps  from 3 to 4. -  -   --- updated-dependen<br>cies: - dependency-name: actions/setup-go   dependen<br>cy-type: direct:production   update-type: version-up<br>date:semver-major ...  Signed-off-by: dependabot[bot<br>]  Co-authored-by: dependabot[bot]  Co-authored-by: <br>chenk |
-|2023-06-24 13:51:17|[afrog](https://github.com/zan8in/afrog)|v2.6.0|
-|2023-06-24 12:40:30|[v2rayfree](https://github.com/aiboboxx/v2rayfree)|update|
 |2023-06-24 05:53:31|[Fvuln](https://github.com/d3ckx1/Fvuln)|Update README.md|
 |2023-06-24 05:05:29|[dirsearch](https://github.com/maurosoria/dirsearch)|Merge pull request #1302 from drego85/patch-13  Add<br>ing "config.properties" and sort+remove duplicate|
 |2023-06-24 04:58:10|[neuvector](https://github.com/neuvector/neuvector)|Merge pull request #894 from jayhuang-suse/eight  N<br>VSHAS-8080: neuvector csp container will be added in<br>to workload object|
-|2023-06-24 04:47:58|[ChatGPT-Shortcut](https://github.com/rockbenben/ChatGPT-Shortcut)|feat: Add redirection functionality and fix redirec<br>tion issue for /cn|
 |2023-06-23 19:57:18|[RsaCtfTool](https://github.com/RsaCtfTool/RsaCtfTool)|Update README.md|
 |2023-06-23 16:40:46|[syft](https://github.com/anchore/syft)|fix: add support for Dart SDK package dependencies <br>(#1891)  Signed-off-by: Stephane Rufer |
 |2023-06-23 09:29:07|[dbeaver](https://github.com/dbeaver/dbeaver)|Default identifiers case in dialect|
@@ -43,13 +51,10 @@
 |2023-06-22 16:10:33|[PeiQi-WIKI-Book](https://github.com/PeiQi0/PeiQi-WIKI-Book)|漏洞相关:修复错误|
 |2023-06-22 16:04:09|[grype](https://github.com/anchore/grype)|chore(deps): bump anchore/sbom-action from 0.14.2 t<br>o 0.14.3 (#1357)  Bumps  from 0.14.2 to 0.14.3.  -  <br> -     ---  updated-dependencies:  - dependency-name<br>: anchore/sbom-action    dependency-type: direct:pro<br>duction    update-type: version-update:semver-patch <br> ...    Signed-off-by: dependabot[bot]   Co-authored<br>-by: dependabot[bot] |
 |2023-06-22 14:45:22|[v2rayA](https://github.com/v2rayA/v2rayA)|inno-installer: stop service before installation if<br> it's running|
-|2023-06-22 11:16:24|[trivy](https://github.com/aquasecurity/trivy)|fix: k8s escape resource filename on windows os (#4<br>693)  Signed-off-by: chenk |
 |2023-06-22 11:01:47|[fshzqSearch](https://github.com/Ifory885/fshzqSearch)|Update README.md  项目迁移|
 |2023-06-22 06:18:49|[Burp-Non-HTTP-Ext<br>ension](https://github.com/summitt/Burp-Non-HTTP-Extension)|updating tls configs|
-|2023-06-21 09:06:45|[safeline](https://github.com/chaitin/safeline)|feat: release v1.10.0|
 |2023-06-21 07:28:24|[Elkeid](https://github.com/bytedance/Elkeid)|Compiling failures for Debian 9/10 (#512)  Wrong ke<br>rrnel header directory path used in Makefile. Now un<br>ify  the Makefile of 1.7 to 1.8    Signed-off-by: sh<br>enping.matt |
 |2023-06-21 05:27:44|[nemo_go](https://github.com/hanc00l/nemo_go)|Update: thirdparty|
-|2023-06-20 23:42:25|[awesome-chatgpt-z<br>h](https://github.com/yzfly/awesome-chatgpt-zh)|add open_llama|
 |2023-06-20 20:33:51|[faker](https://github.com/joke2k/faker)|Bump version: 18.11.0 → 18.11.1|
 |2023-06-20 09:06:26|[InfoSearchAll](https://github.com/ExpLangcn/InfoSearchAll)|Update README.md|
 |2023-06-20 09:04:50|[Umi-OCR](https://github.com/hiroi-sora/Umi-OCR)|补充-language指令说明|
@@ -57,8 +62,6 @@
 |2023-06-19 10:37:53|[ghauri](https://github.com/r0oth3x49/ghauri)|fixed #80 (issue with HTTP request file parsing)..|
 |2023-06-19 09:01:37|[Awesome-Redteam](https://github.com/Threekiii/Awesome-Redteam)|更新README.md|
 |2023-06-19 08:43:37|[Vuln-List](https://github.com/wwl012345/Vuln-List)|Update 中间件&框架&平台&第三方服务漏洞.md|
-|2023-06-19 06:48:19|[vulnerability](https://github.com/lal0ne/vulnerability)|CVE-2023-30179|
-|2023-06-19 03:04:32|[404StarLink](https://github.com/knownsec/404StarLink)|weekly update at 2023-06-19|
 |2023-06-19 02:38:39|[Awesome-POC](https://github.com/Threekiii/Awesome-POC)|更新README.md|
 |2023-06-19 02:38:13|[Vulhub-Reproduce](https://github.com/Threekiii/Vulhub-Reproduce)|更新漏洞|
 |2023-06-19 02:35:24|[Vulnerability-Wik<br>i](https://github.com/Threekiii/Vulnerability-Wiki)|更新漏洞|
@@ -79,7 +82,6 @@
 |2023-06-15 02:16:57|[OA-EXPTOOL](https://github.com/LittleBear4/OA-EXPTOOL)|Update output.py|
 |2023-06-14 09:48:35|[FrameVul](https://github.com/Awrrays/FrameVul)|Update README.md|
 |2023-06-14 03:08:05|[EHole](https://github.com/EdgeSecurityTeam/EHole)|Update|
-|2023-06-13 15:36:13|[iDefender](https://github.com/wecooperate/iDefender)|add wechat group|
 |2023-06-13 09:17:54|[log4j2burpscanner](https://github.com/f0ng/log4j2burpscanner)|Update FAQ-zh-CN.md|
 |2023-06-12 16:54:15|[rotp](https://github.com/mdp/rotp)|chore: docker-compose.yml: Use ruby-3.0 (#128)  Thi<br>s prepares to add new stable Ruby versions.    Co-au<br>thored-by: Olle Jonsson |
 |2023-06-12 08:09:49|[ddddocr](https://github.com/sml2h3/ddddocr)|Update README.md|
@@ -516,7 +518,7 @@
 | [dirtycow](https://github.com/firefart/dirtycow) |  | Dirty Cow exploit - CVE-2016-5195 |
 | [traitor](https://github.com/liamg/traitor) | v0.0.14 | :arrow_up: :skull_and_crossbones: :fire: Automatic Linux prive<br>sc via exploitation of low-hanging fruit e.g. gtfobins, pwnkit,<br> dirty pipe, +w docker.sock |
 | [LinEnum](https://github.com/rebootuser/LinEnum) |  | Scripted Local Linux Enumeration & Privilege Escalation Checks |
-| [PEASS-ng](https://github.com/carlospolop/PEASS-ng) | 2023061<br>8-1fa055<br>b6 | PEASS - Privilege Escalation Awesome Scripts SUITE (with color<br>s) |
+| [PEASS-ng](https://github.com/carlospolop/PEASS-ng) | 2023062<br>5-4d3aaa<br>66 | PEASS - Privilege Escalation Awesome Scripts SUITE (with color<br>s) |
 | [traitor](https://github.com/liamg/traitor) | v0.0.14 | :arrow_up: :skull_and_crossbones: :fire: Automatic Linux prive<br>sc via exploitation of low-hanging fruit e.g. gtfobins, pwnkit,<br> dirty pipe, +w docker.sock |
 ### 容器提权
 | 项目名称 | 版本 | 项目描述 |
@@ -917,7 +919,7 @@
 | :---- | :---- | :---- |
 | [faker](https://github.com/joke2k/faker) | v18.11.<br>1 | Faker is a Python package that generates fake data for you. |
 | [SmsForwarder](https://github.com/pppscn/SmsForwarder) | v3.2.0 | 短信转发器——监控Android手机短信、来电、APP通知，并根据指定规<br>则转发到其他手机：钉钉群自定义机器人、钉钉企业内机器人、企业微信<br>群机器人、飞书机器人、企业微信应用消息、邮箱、bark、webhook、Tel<br>egram机器人、Server酱、PushPlus、手机短信等。包括主动控制服务端<br>与客户端，让你轻松远程发短信、查短信、查通话、查话簿、查电量等。<br>（V3.0 新增）PS.这个APK主要是学习与自用，如有BUG请提ISSUE，同时<br>欢迎大家提PR指正 |
-| [dbeaver](https://github.com/dbeaver/dbeaver) | 23.1.0 | Free universal database tool and SQL client |
+| [dbeaver](https://github.com/dbeaver/dbeaver) | 23.1.1 | Free universal database tool and SQL client |
 | [MySQLMonitor](https://github.com/TheKingOfDuck/MySQLMonitor) | 1.0 | MySQL实时监控工具(代码审计/黑盒/白盒审计辅助工具) |
 | [flightsim](https://github.com/alphasoc/flightsim) | v2.3.0 | A utility to safely generate malicious network traffic pattern<br>s and evaluate controls. |
 ## 渗透测试报告辅助
@@ -977,7 +979,7 @@
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
 | [openstar](https://github.com/starjun/openstar) |  | lua waf,nginx+lua,openresty,luajit,waf+,cdn,nginx |
-| [safeline](https://github.com/chaitin/safeline) | v1.10.0 | 长亭科技自研，基于业界领先的语义引擎检测技术，打造的简洁、易用<br>的免费 WAF |
+| [safeline](https://github.com/chaitin/safeline) | v1.10.0 | 一款足够简单、足够好用、足够强的免费 WAF。基于业界领先的语义引<br>擎检测技术，作为反向代理接入，保护你的网站不受黑客攻击。 |
 ## 欺骗防御
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
