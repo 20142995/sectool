@@ -1,9 +1,13 @@
-# 更新于 2023-06-27 08:53:04
+# 更新于 2023-06-28 08:51:47
 
 ## 近15天release更新记录
 | 更新时间 | 项目名称 | 版本 | 更新内容 |
 | :---- | :---- | :---- | :---- |
-|2023-06-26 20:32:50|[nuclei](https://github.com/projectdiscovery/nuclei)|v2.9.7|    ## What's Changed  ### 🎉 Feature<br>s    * **Added tls client hello (ja3) <br>tls randomization by @Mzack9999** in h<br>ttps://github.com/projectdiscovery/nuc<br>lei/pull/3844       -tlsi, -tls-impers<br>onate  enable experimental client hell<br>o (ja3) tls randomization    * Added q<br>uery fuzzing support in headless proto<br>col by @ShubhamRasal in https://github<br>.com/projectdiscovery/nuclei/pull/3790<br>  * Added cookie reuse in workflow for<br> headless template by @Mzack9999 in ht<br>tps://github.com/projectdiscovery/nucl<br>ei/pull/3850  * Added header and statu<br>s matchers to headless protocol by @do<br>gancanbakir in https://github.com/proj<br>ectdiscovery/nuclei/pull/3794  * Added<br> {{public_ip()}} helper function by @M<br>zack9999 in https://github.com/project<br>discovery/nuclei/pull/3853  * Added te<br>mplate option (disable-path-automerge:<br> true) to disable path automerge in ra<br>w request by @RamanaReddy0M in https:/<br>/github.com/projectdiscovery/nuclei/pu<br>ll/3799    ### 🐞 Bugs  * Fixed issue <br>with tls protocol causing scan to stuc<br>k by @ehsandeep in https://github.com/<br>projectdiscovery/nuclei/pull/3792  * F<br>ixed panic: runtime error by @Mzack999<br>9 in https://github.com/projectdiscove<br>ry/nuclei/pull/3816  * Fixed issue in <br>file protocol with matchers and condit<br>ion by @Mzack9999 in https://github.co<br>m/projectdiscovery/nuclei/pull/3820  *<br> Fixed output path in unsafe mode by @<br>ehsandeep in https://github.com/projec<br>tdiscovery/nuclei/pull/3831  * Fixed r<br>endering issues with markdown and jira<br> exporter by @forgedhallpass in https:<br>//github.com/projectdiscovery/nuclei/p<br>ull/3849  * Fixed issue custom client <br>certificate input by @Mzack9999 in htt<br>ps://github.com/projectdiscovery/nucle<br>i/pull/3851    ### 🔨 Maintenance  * A<br>dded better debug message formatting b<br>y @Mzack9999 in https://github.com/pro<br>jectdiscovery/nuclei/pull/3859  * Fixe<br>d deprecatedProtocolNameTemplates conc<br>urrent map writes by @cn-kali-team in <br>https://github.com/projectdiscovery/nu<br>clei/pull/3785  * Enabled -no-httpx im<br>plicitly  when -passive scan is launch<br>ed by @dogancanbakir in https://github<br>.com/projectdiscovery/nuclei/pull/3789<br>    Issues closed in this release - ht<br>tps://github.com/projectdiscovery/nucl<br>ei/milestone/34?closed=1    ## New Con<br>tributors  * @Weltolk made their first<br> contribution in https://github.com/pr<br>ojectdiscovery/nuclei/pull/3843    **F<br>ull Changelog**: https://github.com/pr<br>ojectdiscovery/nuclei/compare/v2.9.6..<br>.v2.9.7|
+|2023-06-27 15:34:27|[faker](https://github.com/joke2k/faker)|v18.11.<br>2|See .|
+|2023-06-27 13:43:22|[fofa_viewer](https://github.com/wgpsec/fofa_viewer)|1.1.13|fix-bug:  1. 解决添加规则的报错问题  <br>optimize :  1. 考虑到有师傅会把jar包打<br>包成app，因此将日志路径修改为用户目录下|
+|2023-06-27 08:57:25|[mitaka](https://github.com/ninoseki/mitaka)|v1.3.0|-  Add Add Coalition searcher (#737) <br>     - https://ess.coalitioninc.com/ |
+|2023-06-27 03:53:11|[AsamF](https://github.com/Kento-Sec/AsamF)|v0.2.4|1. 修复了fofa type接口问题。目前根据f<br>ofa政策，高级会员无法使用该接口。    2<br>. 修复了0zone读取apikey的问题。|
+|2023-06-26 20:32:50|[nuclei](https://github.com/projectdiscovery/nuclei)|v2.9.7|    ## What's Changed  ### 🎉 Feature<br>s    * **Added tls client hello (ja3) <br>randomization by @Mzack9999** in https<br>://github.com/projectdiscovery/nuclei/<br>pull/3844       -tlsi, -tls-impersonat<br>e  enable experimental client hello (j<br>a3) tls randomization    * Added query<br> fuzzing support in headless protocol <br>by @ShubhamRasal in https://github.com<br>/projectdiscovery/nuclei/pull/3790  * <br>Added cookie reuse in workflow for hea<br>dless template by @Mzack9999 in https:<br>//github.com/projectdiscovery/nuclei/p<br>ull/3850  * Added header and status ma<br>tchers to headless protocol by @doganc<br>anbakir in https://github.com/projectd<br>iscovery/nuclei/pull/3794  * Added {{p<br>ublic_ip()}} helper function by @Mzack<br>9999 in https://github.com/projectdisc<br>overy/nuclei/pull/3853  * Added templa<br>te option (disable-path-automerge: tru<br>e) to disable path automerge in raw re<br>quest by @RamanaReddy0M in https://git<br>hub.com/projectdiscovery/nuclei/pull/3<br>799    ### 🐞 Bugs  * Fixed issue with<br> tls protocol causing scan to stuck by<br> @ehsandeep in https://github.com/proj<br>ectdiscovery/nuclei/pull/3792  * Fixed<br> panic: runtime error by @Mzack9999 in<br> https://github.com/projectdiscovery/n<br>uclei/pull/3816  * Fixed issue in file<br> protocol with matchers and condition <br>by @Mzack9999 in https://github.com/pr<br>ojectdiscovery/nuclei/pull/3820  * Fix<br>ed output path in unsafe mode by @ehsa<br>ndeep in https://github.com/projectdis<br>covery/nuclei/pull/3831  * Fixed rende<br>ring issues with markdown and jira exp<br>orter by @forgedhallpass in https://gi<br>thub.com/projectdiscovery/nuclei/pull/<br>3849  * Fixed issue custom client cert<br>ificate input by @Mzack9999 in https:/<br>/github.com/projectdiscovery/nuclei/pu<br>ll/3851    ### 🔨 Maintenance  * Added<br> better debug message formatting by @M<br>zack9999 in https://github.com/project<br>discovery/nuclei/pull/3859  * Fixed de<br>precatedProtocolNameTemplates concurre<br>nt map writes by @cn-kali-team in http<br>s://github.com/projectdiscovery/nuclei<br>/pull/3785  * Enabled -no-httpx implic<br>itly  when -passive scan is launched b<br>y @dogancanbakir in https://github.com<br>/projectdiscovery/nuclei/pull/3789    <br>Issues closed in this release - https:<br>//github.com/projectdiscovery/nuclei/m<br>ilestone/34?closed=1    ## New Contrib<br>utors  * @Weltolk made their first con<br>tribution in https://github.com/projec<br>tdiscovery/nuclei/pull/3843    **Full <br>Changelog**: https://github.com/projec<br>tdiscovery/nuclei/compare/v2.9.6...v2.<br>9.7|
 |2023-06-26 03:29:12|[afrog](https://github.com/zan8in/afrog)|v2.6.1|- We have performed urgent repairs on<br> Yonyou NC PoCs to ensure accurate vul<br>nerability scanning. Thank you, @wuha0<br>926 , for discovering and assisting in<br> resolving the issue.     - Thank you,<br> @zhizhuoshuma, for optimizing the kin<br>gdee-erp-binaryformatterproxy-deserial<br> PoCs.    ---------------    - 我们已<br>对 Yonyou NC PoCs 进行紧急修复，以确保<br>扫描能够准确检测漏洞，感谢 @wuha0926 发<br>现并协助修复问题。    - 感谢 @zhizhuosh<br>uma 对 kingdee-erp-binaryformatterprox<br>y-deserial PoCs 进行优化。|
 |2023-06-26 02:21:06|[Dirscan](https://github.com/corunb/Dirscan)|v1.5.1|[+] 新增反向递归扫描：-Ar    [!] 增加<br>探存活开关：-Cs(默认是开的)    |
 |2023-06-25 18:29:59|[dbeaver](https://github.com/dbeaver/dbeaver)|23.1.1|                 - SQL Editor:       <br>              - User can configure the<br> options on the toolbar by pressing th<br>e gear button in the editor           <br>          - Issue with missing "Copy f<br>ile path" option was fixed            <br>     - Data Editor:                   <br>  - Statistics view now can be disable<br>d                     - Issue with Ref<br>erences tab was fixed                 <br>    - Spatial tiles configuration was <br>fixed (thanks to @otbutz)             <br>    - ER Diagram: issue with element r<br>emoval after using View Style option w<br>as fixed                 - Data transf<br>er: issue with exporting a table witho<br>ut data when using bulk loading was fi<br>xed                 - New drivers: TDe<br>ngine database is now supported (thank<br>s @sangshuduo).                 - Gene<br>ral UI:                     - Users ca<br>n export DBeaver settings and import t<br>hem                     - Notification<br>s in Dark theme became topic "Notices <br>in the dark" became readable          <br>           - Users can use drag-n-drop<br> to copy scripts, open database object<br>s and insert Navigator node names into<br> the editor                 - Connecti<br>vity:                     - User can a<br>dd snapshot maven repository          <br>           - "Automatically end long i<br>dle transactions" option was redesigne<br>d                     - Authentication<br> failure when connecting via SSH was f<br>ixed                     - Now users c<br>an connect with jump server using SSHJ<br>                     - Issue with conn<br>ecting to Azure SQL Server using Activ<br>e Directory was fixed                 <br>- Security: SQLite driver version was <br>updated                 - Databases:  <br>                   - DB2z and Denodo: <br>"Show duplicates" button in Grouping p<br>anel was fixed                     - G<br>reenplum: function DDL was fixed (defa<br>ult parameter values)                 <br>    - Oracle:                         <br>- Dates of creation and modification a<br>ppeared in the information about the p<br>ackages                         - Tabl<br>e partitions and subpartitions reading<br> was fixed                         - I<br>ssue with missing tablespace statistic<br>s after object update was fixed       <br>              - Snowflake: quotation r<br>ules for object identifiers were added<br>                 - Localization:      <br>               - Users can now select <br>Portuguese as the default language dur<br>ing installation or in Preferences    <br>                 - Portuguese localiza<br>tion was improved (thanks to @brlarini<br>)                     - German localiz<br>ation was improved (thanks to @coderku<br>n)                 - Misc: we switched<br> to Eclipse 2023-06 and Java-17 as a b<br>ase platform             |
@@ -13,7 +17,6 @@
 |2023-06-21 16:15:32|[grype](https://github.com/anchore/grype)|v0.63.0|# Changelog    ##  (2023-06-21)      <br>  ### Added Features    - Always inclu<br>de the specific package name and versi<br>on used in the vulnerability search in<br> the matchDetails section of the outpu<br>t ] ]  - Expose Go template file that <br>produces the table report ] ] ]  - Add<br> a folder for community Go templates (<br>see templates/README.md for more detai<br>ls) ]    ### Breaking Changes    - upd<br>ate Syft to v0.84.0: stereoscope platf<br>orm fix and artifact ID padding ] ]   <br>     |
 |2023-06-21 09:08:55|[safeline](https://github.com/chaitin/safeline)|v1.10.0|## 新增    - 防护站点新增 “运行模式<br>”，可以一键将站点设为 观察 或 维护 模<br>式了    ## 优化    - 修复了站点列表没有<br>分页器的问题  - 修复了窗口水平滚动时导<br>航栏会错位的问题  - 修复了黑白名单配置 <br>“不属于 IP 组” 的条件时，列表显示组 I<br>D，而未显示组名称的问题  - 优化了界面<br>的 UI 与交互|
 |2023-06-21 05:56:55|[nemo_go](https://github.com/hanc00l/nemo_go)|v2.9.3|### Updated    - 集成Goby进行漏洞扫描<br>；需要部署服务器模式的goby，并在worker.<br>yml配置api的地址及认证；docker方式默认<br>会在127.0.0.1:8361启动goby-cmd；  - 更<br>新thirdparty组件版本；    ### Fix    - <br>httpx获取HTTP返回包的header数据，在ip/<br>domain详细显示不自动换行    ### Thirdp<br>arty版本  - Xray：1.9.11  - Nuclei：2.<br>9.6  - Goby：2.5.2  - Httpx：1.3.2  - <br>Subfinder：2.6.0  - Observe_ward：2023<br>.6.20|
-|2023-06-20 20:34:34|[faker](https://github.com/joke2k/faker)|v18.11.<br>1|See .|
 |2023-06-20 18:12:06|[syft](https://github.com/anchore/syft)|v0.84.0|# Changelog  ##  (2023-06-20)    ### <br>Breaking Changes  - Pad artifact IDs ]<br> ]  ### Additional Changes  - chore: u<br>pdate SPDX license list to 3.21 ] ]   <br> |
 |2023-06-20 15:28:14|[Elkeid](https://github.com/bytedance/Elkeid)|v1.7.0.<br>13-drive<br>r-ko-202<br>30620||
 |2023-06-20 09:07:40|[Umi-OCR](https://github.com/hiroi-sora/Umi-OCR)|v1.3.5|### v1.3.5 主要更新：  - 新功能：复制<br>识别结果后，可发送指定按键，以便联动唤<br>起翻译器等工具。👉  - 新功能：命令行增<br>加切换识别语言的指令。👉  - 修Bug：修复<br>了低配置机器上有概率误报超时 OCR init t<br>imeout: 5s 的问题。  - 调整：默认停止<br>任务30秒后释放一次内存。    ### 文件说<br>明  软件本体：Umi-OCR.v1.3.5.7z（67MB）<br>，内置简体中文&英文通用识别库。  软件（<br>多国语言整合版）：Umi-OCR.v1.3.5_ALL_la<br>nguages.7z（118MB），内置多国语言识别<br>库。    多国语言扩展包：Umi-OCR.v1.3_DL<br>C_languages.7z（50MB），可向软件本体导<br>入繁中,英,日,韩,俄,德,法 多国语言识别库<br>。|
@@ -27,20 +30,29 @@
 ## 近15天commit提交记录
 | 提交时间 | 项目名称 | 更新内容 |
 | :---- | :---- | :---- |
-|2023-06-27 00:45:16|[NucleiTP](https://github.com/ExpLangcn/NucleiTP)|更新啦❤️|
-|2023-06-27 00:00:02|[free](https://github.com/freefq/free)|updated_at 06-27 08:00|
-|2023-06-26 22:46:23|[PocOrExp_in_Githu<br>b](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-06-27 06:46:23|
+|2023-06-28 00:45:16|[NucleiTP](https://github.com/ExpLangcn/NucleiTP)|更新啦❤️|
+|2023-06-28 00:00:03|[free](https://github.com/freefq/free)|updated_at 06-28 08:00|
+|2023-06-27 22:43:20|[PocOrExp_in_Githu<br>b](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-06-28 06:43:20|
+|2023-06-27 22:07:35|[neuvector](https://github.com/neuvector/neuvector)|Merge pull request #895 from jayhuang-suse/nine  Ob<br>tain correct app container id for enforcers and cont<br>rollers.|
+|2023-06-27 19:57:08|[grype](https://github.com/anchore/grype)|add oss community board auto-add workflow (#1364)  <br>Signed-off-by: Alex Goodman |
+|2023-06-27 19:53:59|[syft](https://github.com/anchore/syft)|add oss community board auto-add workflow (#1898)  <br>Signed-off-by: Alex Goodman |
+|2023-06-27 17:14:35|[dbeaver](https://github.com/dbeaver/dbeaver)|dbeaver/dbeaver#20377 Set Java 17 in app requiremen<br>ts (#20387)|
+|2023-06-27 16:32:22|[cf](https://github.com/teamssix/cf)|Merge pull request #244 from teamssix/beta  fix: fi<br>x the bug causing command execution failure due to t<br>he unavail…|
+|2023-06-27 16:14:28|[SmsForwarder](https://github.com/pppscn/SmsForwarder)|修复：bark加密推送，解密失败 #307 #314|
+|2023-06-27 15:23:55|[faker](https://github.com/joke2k/faker)|Bump version: 18.11.1 → 18.11.2|
+|2023-06-27 15:21:33|[safeline](https://github.com/chaitin/safeline)|调整安装脚本,在运行出错的时候提示文档信息|
+|2023-06-27 13:56:58|[afrog](https://github.com/zan8in/afrog)|fix ecology-oa-database-info-leak|
+|2023-06-27 13:38:48|[fofa_viewer](https://github.com/wgpsec/fofa_viewer)|修复CI|
+|2023-06-27 12:45:35|[v2rayfree](https://github.com/aiboboxx/v2rayfree)|update|
+|2023-06-27 12:23:02|[v2rayA](https://github.com/v2rayA/v2rayA)|build-helper: use Set-Location instead of cd|
+|2023-06-27 11:00:22|[RmEye](https://github.com/RoomaSec/RmEye)|Update readme.md|
+|2023-06-27 10:59:07|[RmTools](https://github.com/RoomaSec/RmTools)|Update README.md|
+|2023-06-27 10:35:55|[ChatGPT-Shortcut](https://github.com/rockbenben/ChatGPT-Shortcut)|fix: Fix URL issue with ShareButton|
+|2023-06-27 09:31:15|[Kunlun-M](https://github.com/LoRexxar/Kunlun-M)|Merge pull request #235 from LoRexxar/develop  upda<br>te startlink|
 |2023-06-26 20:04:47|[clair](https://github.com/quay/clair)|cicd: don't checkout source on clairctl builds  The<br> presence of a .git directory messes with the new go<br> toolchain vcs tooling, and we don't actually want a<br> source checkout, anyway.  Signed-off-by: Hank Donna<br>y |
-|2023-06-26 19:40:42|[faker](https://github.com/joke2k/faker)|docs: update pystr docstring to include param descr<br>iptions, fix docstring formats (#1882)|
 |2023-06-26 19:34:33|[nuclei](https://github.com/projectdiscovery/nuclei)|added release template|
-|2023-06-26 18:00:27|[grype](https://github.com/anchore/grype)|fix: totals for vulnerability matches (#1359)  Sign<br>ed-off-by: Keith Zantow |
-|2023-06-26 17:58:44|[syft](https://github.com/anchore/syft)|chore(deps): update stereoscope to 8c7173ebcf69187d<br>480d4d8b0c6cafaa7aef7024 (#1890)  Signed-off-by: Git<br>Hub   Co-authored-by: kzantow |
-|2023-06-26 16:38:19|[dbeaver](https://github.com/dbeaver/dbeaver)|Update README.md (#20389)|
 |2023-06-26 15:57:35|[murphysec](https://github.com/murphysecurity/murphysec)|fix(scanner_scan): sync logging before print output|
-|2023-06-26 15:37:32|[safeline](https://github.com/chaitin/safeline)|删了几行没用的脚本|
 |2023-06-26 14:37:58|[sqlmap](https://github.com/sqlmapproject/sqlmap)|Fixes #5444|
-|2023-06-26 14:11:03|[afrog](https://github.com/zan8in/afrog)|update|
-|2023-06-26 12:44:20|[v2rayfree](https://github.com/aiboboxx/v2rayfree)|update|
 |2023-06-26 12:40:40|[trivy](https://github.com/aquasecurity/trivy)|Fix http registry oci pull (#4701)  Signed-off-by: <br>alexey.makhonin |
 |2023-06-26 09:53:01|[FrameVul](https://github.com/Awrrays/FrameVul)|Update README.md|
 |2023-06-26 08:40:36|[ENScan_GO](https://github.com/wgpsec/ENScan_GO)|修复天眼查BUG fix #48 fix #57|
@@ -48,7 +60,6 @@
 |2023-06-26 02:46:37|[Awesome-ChatGPT](https://github.com/dalinvip/Awesome-ChatGPT)|Update README.md|
 |2023-06-26 02:41:07|[Dirscan](https://github.com/corunb/Dirscan)|v1.5.1|
 |2023-06-26 00:56:29|[awesome-chatgpt-z<br>h](https://github.com/yzfly/awesome-chatgpt-zh)|judge gpt-4|
-|2023-06-25 15:34:44|[ChatGPT-Shortcut](https://github.com/rockbenben/ChatGPT-Shortcut)|refactor: Restructure PromptPage data to optimize p<br>erformance|
 |2023-06-25 07:28:55|[mitaka](https://github.com/ninoseki/mitaka)|Merge pull request #738 from ninoseki/v1.3.0  v1.3.<br>0|
 |2023-06-25 04:01:34|[iDefender](https://github.com/wecooperate/iDefender)|update|
 |2023-06-25 03:09:13|[404StarLink](https://github.com/knownsec/404StarLink)|weekly update at 2023-06-25|
@@ -56,12 +67,10 @@
 |2023-06-24 16:42:03|[kube-bench](https://github.com/aquasecurity/kube-bench)|build(deps): bump actions/setup-go from 3 to 4 (#14<br>02)  Bumps  from 3 to 4. -  -   --- updated-dependen<br>cies: - dependency-name: actions/setup-go   dependen<br>cy-type: direct:production   update-type: version-up<br>date:semver-major ...  Signed-off-by: dependabot[bot<br>]  Co-authored-by: dependabot[bot]  Co-authored-by: <br>chenk |
 |2023-06-24 05:53:31|[Fvuln](https://github.com/d3ckx1/Fvuln)|Update README.md|
 |2023-06-24 05:05:29|[dirsearch](https://github.com/maurosoria/dirsearch)|Merge pull request #1302 from drego85/patch-13  Add<br>ing "config.properties" and sort+remove duplicate|
-|2023-06-24 04:58:10|[neuvector](https://github.com/neuvector/neuvector)|Merge pull request #894 from jayhuang-suse/eight  N<br>VSHAS-8080: neuvector csp container will be added in<br>to workload object|
 |2023-06-23 19:57:18|[RsaCtfTool](https://github.com/RsaCtfTool/RsaCtfTool)|Update README.md|
 |2023-06-22 22:13:01|[Mobile-Security-F<br>ramework-MobSF](https://github.com/MobSF/Mobile-Security-Framework-MobSF)|HOTFIX: Feature updates and Bug Fixes (#2197)  * OF<br>AC, jquery bump, tox fix  * AAR handle multiple appl<br>ication tags|
 |2023-06-22 21:36:19|[burp-awesome-tls](https://github.com/sleeyax/burp-awesome-tls)|Create FUNDING.yml|
 |2023-06-22 16:10:33|[PeiQi-WIKI-Book](https://github.com/PeiQi0/PeiQi-WIKI-Book)|漏洞相关:修复错误|
-|2023-06-22 14:45:22|[v2rayA](https://github.com/v2rayA/v2rayA)|inno-installer: stop service before installation if<br> it's running|
 |2023-06-22 11:01:47|[fshzqSearch](https://github.com/Ifory885/fshzqSearch)|Update README.md  项目迁移|
 |2023-06-22 06:18:49|[Burp-Non-HTTP-Ext<br>ension](https://github.com/summitt/Burp-Non-HTTP-Extension)|updating tls configs|
 |2023-06-21 07:28:24|[Elkeid](https://github.com/bytedance/Elkeid)|Compiling failures for Debian 9/10 (#512)  Wrong ke<br>rrnel header directory path used in Makefile. Now un<br>ify  the Makefile of 1.7 to 1.8    Signed-off-by: sh<br>enping.matt |
@@ -88,10 +97,7 @@
 |2023-06-15 03:49:16|[GoWxDump](https://github.com/SpenserCai/GoWxDump)|#22|
 |2023-06-15 02:16:57|[OA-EXPTOOL](https://github.com/LittleBear4/OA-EXPTOOL)|Update output.py|
 |2023-06-14 03:08:05|[EHole](https://github.com/EdgeSecurityTeam/EHole)|Update|
-|2023-06-13 09:17:54|[log4j2burpscanner](https://github.com/f0ng/log4j2burpscanner)|Update FAQ-zh-CN.md|
-|2023-06-12 16:54:15|[rotp](https://github.com/mdp/rotp)|chore: docker-compose.yml: Use ruby-3.0 (#128)  Thi<br>s prepares to add new stable Ruby versions.    Co-au<br>thored-by: Olle Jonsson |
-|2023-06-12 08:09:49|[ddddocr](https://github.com/sml2h3/ddddocr)|Update README.md|
-|2023-06-12 06:26:00|[EmailSender](https://github.com/A10ha/EmailSender)|Update EmailSenderGUI.py  更新Log记录，增加发件成功<br>、发件失败邮箱记录。|## 所有项目
+|2023-06-13 09:17:54|[log4j2burpscanner](https://github.com/f0ng/log4j2burpscanner)|Update FAQ-zh-CN.md|## 所有项目
 # 渗透测试
 ## 信息收集
 ### 资产测绘采集
@@ -101,7 +107,7 @@
 | [ThunderSearch](https://github.com/xzajyjs/ThunderSearch) | v2.3.3 | 【支持Fofa、Zoomeye、Quake等网络空间搜索引擎】闪电搜索器；GUI<br>图形化渗透测试信息搜集工具；资产搜集引擎 |
 | [Search_Viewer](https://github.com/G3et/Search_Viewer) | v2.0 | 集Fofa、Hunter鹰图、Shodan、360 quake、Zoomeye 钟馗之眼为一体<br>的gui图形界面化工具 |
 | [koko-moni](https://github.com/burpheart/koko-moni) | v0.0.1 | 一个网络空间搜索引擎监控平台，可定时进行资产信息爬取，及时发现<br>新增资产，本项目聚合了 Fofa、Hunter、Quake、Zoomeye 和 Threatboo<br>k 的数据源，并对获取到的数据进行去重与清洗 |
-| [AsamF](https://github.com/Kento-Sec/AsamF) | v0.2.3 | AsamF是集成Fofa、Quake、Hunter、Shodan、Zoomeye、Chinaz、0.zon<br>e及爱企查的一站式企业信息资产收集、网络资产测绘工具。 |
+| [AsamF](https://github.com/Kento-Sec/AsamF) | v0.2.4 | AsamF是集成Fofa、Quake、Hunter、Shodan、Zoomeye、Chinaz、0.zon<br>e及爱企查的一站式企业信息资产收集、网络资产测绘工具。 |
 | [fshzqSearch](https://github.com/Ifory885/fshzqSearch) |  | fofa、shodan、hunter、zoomeye、quake网络空间搜索引擎及github聚<br>合搜索，并对结果进行finger指纹识别。 |
 | [0_zone_tool](https://github.com/wkend/0_zone_tool) |  | 零零信安api信息系统查询脚本 |
 ### 子域名收集
@@ -721,7 +727,7 @@
 | [SwitchyOmega](https://github.com/FelisCatus/SwitchyOmega) | v2.5.20 | Manage and switch between multiple proxies quickly & easily. |
 | [untrusted-types](https://github.com/filedescriptor/untrusted-types) | 1.1.1 |  |
 | [fofa_view](https://github.com/fofapro/fofa_view) | v0.0.5 | FOFA Pro view 是一款FOFA Pro 资产展示浏览器插件，目前兼容  Chr<br>ome、Firefox、Opera。 |
-| [mitaka](https://github.com/ninoseki/mitaka) | v1.2.0 | A browser extension for OSINT search |
+| [mitaka](https://github.com/ninoseki/mitaka) | v1.3.0 | A browser extension for OSINT search |
 | [anti-honeypot](https://github.com/cnrstar/anti-honeypot) |  | 一款可以检测WEB蜜罐并阻断请求的Chrome插件 |
 | [Chromium-based-XS<br>S-Taint-Tracking](https://github.com/v8blink/Chromium-based-XSS-Taint-Tracking) | v0.3 | Cyclops 是一款具有 XSS 检测功能的浏览器 |
 | [Zoomeye-Tools](https://github.com/knownsec/Zoomeye-Tools) |  | Zoomeye Tools是配合Zoomeye使用的Chrome插件 |
@@ -785,7 +791,7 @@
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
 | [fofax](https://github.com/xiecat/fofax) | v0.1.44 | fofax is a command line query tool based on the API of https:/<br>/fofa.info/, simple is the best! |
-| [fofa_viewer](https://github.com/wgpsec/fofa_viewer) | 1.1.12 | A simple FOFA client written in JavaFX.  Made by WgpSec, Maint<br>ained by f1ashine. |
+| [fofa_viewer](https://github.com/wgpsec/fofa_viewer) | 1.1.13 | A simple FOFA client written in JavaFX.  Made by WgpSec, Maint<br>ained by f1ashine. |
 | [fofa_GUI](https://github.com/20142995/fofa_GUI) | v1.0.0 |  |
 ### frp
 | 项目名称 | 版本 | 项目描述 |
@@ -922,7 +928,7 @@
 ## 其他
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
-| [faker](https://github.com/joke2k/faker) | v18.11.<br>1 | Faker is a Python package that generates fake data for you. |
+| [faker](https://github.com/joke2k/faker) | v18.11.<br>2 | Faker is a Python package that generates fake data for you. |
 | [SmsForwarder](https://github.com/pppscn/SmsForwarder) | v3.2.0 | 短信转发器——监控Android手机短信、来电、APP通知，并根据指定规<br>则转发到其他手机：钉钉群自定义机器人、钉钉企业内机器人、企业微信<br>群机器人、飞书机器人、企业微信应用消息、邮箱、bark、webhook、Tel<br>egram机器人、Server酱、PushPlus、手机短信等。包括主动控制服务端<br>与客户端，让你轻松远程发短信、查短信、查通话、查话簿、查电量等。<br>（V3.0 新增）PS.这个APK主要是学习与自用，如有BUG请提ISSUE，同时<br>欢迎大家提PR指正 |
 | [dbeaver](https://github.com/dbeaver/dbeaver) | 23.1.1 | Free universal database tool and SQL client |
 | [MySQLMonitor](https://github.com/TheKingOfDuck/MySQLMonitor) | 1.0 | MySQL实时监控工具(代码审计/黑盒/白盒审计辅助工具) |

@@ -65,8 +65,8 @@
     "https://github.com/pppscn/SmsForwarder": {
         "created_at": "2021-02-10 02:23:07",
         "description": "短信转发器——监控Android手机短信、来电、APP通知，并根据指定规则转发到其他手机：钉钉群自定义机器人、钉钉企业内机器人、企业微信群机器人、飞书机器人、企业微信应用消息、邮箱、bark、webhook、Telegram机器人、Server酱、PushPlus、手机短信等。包括主动控制服务端与客户端，让你轻松远程发短信、查短信、查通话、查话簿、查电量等。（V3.0 新增）PS.这个APK主要是学习与自用，如有BUG请提ISSUE，同时欢迎大家提PR指正",
-        "commit_date": "2023-05-13 15:32:04",
-        "commit_message": "新增：支持Bark推送加密 #273 (详见：https://bark.day.app/#/encryption)",
+        "commit_date": "2023-06-27 16:14:28",
+        "commit_message": "修复：bark加密推送，解密失败 #307 #314",
         "release_tag": "v3.2.0",
         "release_date": "2023-02-14 09:25:00",
         "release_message": "PS. 距离上一次1024发版，已经过去快5个月了，期间发生不少事，一直没更新这个项目，不管如何，魔幻的2022年都过去了！\r\n\r\n感谢大家这2年来的陪伴与支持，祝大家有情人终成眷属，情人节快乐！\r\n\r\n---\r\n\r\n### 【注意】\r\n\r\n* v3.x版本是全新重构开发，可能一开始并不稳定，建议升级前先做好数据备份！（客户端>一键换新机>离线模式>导出）\r\n\r\n* `v3.2.0` 去除了 `mmkv` 依赖，采用 `SharedPreferences` 来保存配置，升级之后通用设置中的配置请重新配置，具体原因参见 [Issue #245](https://github.com/pppscn/SmsForwarder/issues/245)\r\n\r\n* 升级完毕后，建议离线导出配置，完全卸载干净全新安装后再导入配置（可以避免一些莫名其妙的玄学问题，例如：耗电异常）\r\n\r\n---\r\n\r\n### 更新日志\r\n\r\n* 新增：短信指令（根据短信指令开关对应功能） #I5YX3F\r\n* 新增：监听网络状态变化提醒（APP通知转发，包名：77777777） #259\r\n* 新增：远程改话簿（方便给老人家添加联系人） #256\r\n* 新增：远程查询手机定位（方便找回手机/防止老少走丢） #256\r\n* 新增：Socket发送通道（支持MQTT/TCP/UDP协议） #252\r\n* 新增：发送通道 URL Scheme（支持跨应用数据传递）#250\r\n* 新增：自动消除额外APP通知 #232 #248\r\n\r\n* 优化：短信/通话转发获取卡槽信息机制（自行备注卡槽SubId对应）#228 #235\r\n* 优化：来电转发逻辑 & 新增提醒类型（1.来电挂机 2.去电挂机 3.未接来电 4.来电提醒 5.来电接通 6.去电拨出）\r\n* 优化：单个转发规则支持绑定多个发送通道，且支持执行逻辑（全部执行/失败即止/成功即止） #247\r\n* 优化：转发日志列表以原始信息为主，聚合展示转发日志（一对多）\r\n* 优化：已安装App信息列表异步加载机制\r\n* 优化：电池状态监听/网络状态监控 在未开启去重时默认开启1秒去重\r\n* 优化：利用BatteryReceiver守护自启动的Frpc (试验) #254\r\n\r\n* 修复：Android 13 无法授予通知权限 #255\r\n* 修复：重启手机自动启动APP时加载配置失败 #233 #245\r\n* 修复：转发消息遍历发送通道时未跳过已禁用的通道\r\n* 修复：降级Android Gradle插件版本以兼容4.4 (#249 by NyaMisty)\r\n\r\n* 升级：andserver到2.1.12（加快web端上下行速度等）\r\n* 升级：frpclib 到 v0.47.0\r\n* 升级：androidx组件和kotlin版本\r\n\r\n还有一些细微调整参见`github`提交记录\r\n\r\n---\r\n\r\n### APK版本说明：\r\n* universal（10XXXX）: 通用版（不在乎安装包大小/懒得选就用这个版本，包含以下4种CPU架构so）\r\n* armeabi-v7a（20XXXX）: 32位ARM设备（备用机首选）\r\n* arm64-v8a（30XXXX）: 64位ARM设备（主流旗舰机）\r\n* x86（40XXXX）: 32位Intel设备\r\n* x86_64（50XXXX）: 64/32位Intel设备"
@@ -200,8 +200,8 @@
     "https://github.com/ycdxsb/PocOrExp_in_Github": {
         "created_at": "2021-04-13 05:46:16",
         "description": "聚合Github上已有的Poc或者Exp，CVE信息来自CVE官网。Auto Collect Poc Or Exp from Github by CVE ID.",
-        "commit_date": "2023-06-26 22:46:23",
-        "commit_message": "update 2023-06-27 06:46:23",
+        "commit_date": "2023-06-27 22:43:20",
+        "commit_message": "update 2023-06-28 06:43:20",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -461,7 +461,7 @@
     "https://github.com/ExpLangcn/NucleiTP": {
         "created_at": "2022-11-08 13:16:56",
         "description": "自动整合全网Nuclei的漏洞POC，实时同步更新最新POC！",
-        "commit_date": "2023-06-27 00:45:16",
+        "commit_date": "2023-06-28 00:45:16",
         "commit_message": "更新啦❤️",
         "release_tag": "",
         "release_date": "",
@@ -1064,15 +1064,15 @@
         "description": "A browser extension for OSINT search",
         "commit_date": "2023-06-25 07:28:55",
         "commit_message": "Merge pull request #738 from ninoseki/v1.3.0\n\nv1.3.0",
-        "release_tag": "v1.2.0",
-        "release_date": "2023-04-23 07:32:04",
-        "release_message": "- Remove abandoned/no longer maintained searchers (#723)\r\n- Revamp FortiGuard searcher (#724)\r\n- Support ThreatBook as a searcher (#725)\r\n- Change TS mapping paths to follow Plasmo's default settings (#727)\r\n- Make it possible to disable/scanners in the options view (#728, #713)"
+        "release_tag": "v1.3.0",
+        "release_date": "2023-06-27 08:57:25",
+        "release_message": "-  Add Add Coalition searcher (#737)\r\n    - https://ess.coalitioninc.com/ "
     },
     "https://github.com/v2rayA/v2rayA": {
         "created_at": "2019-10-18 20:42:06",
         "description": "A web GUI client of Project V which supports V2Ray, Xray, SS, SSR, Trojan and Pingtunnel 🚀",
-        "commit_date": "2023-06-22 14:45:22",
-        "commit_message": "inno-installer: stop service before installation if it's running",
+        "commit_date": "2023-06-27 12:23:02",
+        "commit_message": "build-helper: use Set-Location instead of cd",
         "release_tag": "v2.0.5",
         "release_date": "2023-04-08 06:20:57",
         "release_message": "## What's Changed\r\n* Fix tip label display by @aeeq in https://github.com/v2rayA/v2rayA/pull/889\r\n\r\n## New Contributors\r\n* @aeeq made their first contribution in https://github.com/v2rayA/v2rayA/pull/889\r\n\r\n**Full Changelog**: https://github.com/v2rayA/v2rayA/compare/v2.0.4...v2.0.5"
@@ -1107,8 +1107,8 @@
     "https://github.com/RoomaSec/RmTools": {
         "created_at": "2022-08-23 05:07:04",
         "description": "蓝队应急工具",
-        "commit_date": "2023-03-31 09:56:18",
-        "commit_message": "更新yara规则",
+        "commit_date": "2023-06-27 10:59:07",
+        "commit_message": "Update README.md",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -1181,9 +1181,9 @@
         "description": "AsamF是集成Fofa、Quake、Hunter、Shodan、Zoomeye、Chinaz、0.zone及爱企查的一站式企业信息资产收集、网络资产测绘工具。",
         "commit_date": "2023-06-02 06:01:14",
         "commit_message": "Update README.md",
-        "release_tag": "v0.2.3",
-        "release_date": "2023-06-02 06:00:49",
-        "release_message": "v0.2.2 fofa无法查询，修复fofa的问题"
+        "release_tag": "v0.2.4",
+        "release_date": "2023-06-27 03:53:11",
+        "release_message": "1. 修复了fofa type接口问题。目前根据fofa政策，高级会员无法使用该接口。\r\n\r\n2. 修复了0zone读取apikey的问题。"
     },
     "https://github.com/BaizeSec/bylibrary": {
         "created_at": "2020-10-20 12:47:33",
@@ -2426,8 +2426,8 @@
     "https://github.com/teamssix/cf": {
         "created_at": "2022-07-01 06:02:57",
         "description": "Cloud Exploitation Framework 云环境利用框架，方便安全人员在获得 AK 的后续工作",
-        "commit_date": "2023-06-04 02:48:57",
-        "commit_message": "Merge pull request #236 from teamssix/dev-teamssix\n\ndocs: update readme",
+        "commit_date": "2023-06-27 16:32:22",
+        "commit_message": "Merge pull request #244 from teamssix/beta\n\nfix: fix the bug causing command execution failure due to the unavail…",
         "release_tag": "v0.4.5",
         "release_date": "2023-04-29 11:59:25",
         "release_message": "### 新增功能\r\n\r\n* [#221](https://github.com/teamssix/cf/pull/221) 增加华为云控制台接管和权限枚举功能\r\n\r\n### 功能优化\r\n\r\n* [#220](https://github.com/teamssix/cf/pull/220) 优化错误信息输出\r\n* [#225](https://github.com/teamssix/cf/pull/225) 优化更新功能\r\n\r\n### Bug 修复\r\n\r\n* [#201](https://github.com/teamssix/cf/pull/201) 修复配置令牌功能的 Bug\r\n* [#203](https://github.com/teamssix/cf/pull/203) [#204](https://github.com/teamssix/cf/pull/204) 修复两处缓存功能的 Bug\r\n* [#208](https://github.com/teamssix/cf/pull/208) 修复更新功能 Bug\r\n* [#224](https://github.com/teamssix/cf/pull/224) 修复腾讯云 cvm 和 lh 无法列全的 Bug\r\n\r\n## 新贡献者\r\n* @0xorOne made their first contribution in https://github.com/teamssix/cf/pull/219\r\n\r\n**Full Changelog**: https://github.com/teamssix/cf/compare/v0.4.4...v0.4.5"
@@ -2951,8 +2951,8 @@
     "https://github.com/dbeaver/dbeaver": {
         "created_at": "2015-10-21 08:26:28",
         "description": "Free universal database tool and SQL client",
-        "commit_date": "2023-06-26 16:38:19",
-        "commit_message": "Update README.md (#20389)",
+        "commit_date": "2023-06-27 17:14:35",
+        "commit_message": "dbeaver/dbeaver#20377 Set Java 17 in app requirements (#20387)",
         "release_tag": "23.1.1",
         "release_date": "2023-06-25 18:29:59",
         "release_message": "\n                - SQL Editor:\n                    - User can configure the options on the toolbar by pressing the gear button in the editor\n                    - Issue with missing \"Copy file path\" option was fixed\n                - Data Editor:\n                    - Statistics view now can be disabled\n                    - Issue with References tab was fixed\n                    - Spatial tiles configuration was fixed (thanks to @otbutz)\n                - ER Diagram: issue with element removal after using View Style option was fixed\n                - Data transfer: issue with exporting a table without data when using bulk loading was fixed\n                - New drivers: TDengine database is now supported (thanks @sangshuduo).\n                - General UI:\n                    - Users can export DBeaver settings and import them\n                    - Notifications in Dark theme became topic \"Notices in the dark\" became readable\n                    - Users can use drag-n-drop to copy scripts, open database objects and insert Navigator node names into the editor\n                - Connectivity:\n                    - User can add snapshot maven repository\n                    - \"Automatically end long idle transactions\" option was redesigned\n                    - Authentication failure when connecting via SSH was fixed\n                    - Now users can connect with jump server using SSHJ\n                    - Issue with connecting to Azure SQL Server using Active Directory was fixed\n                - Security: SQLite driver version was updated\n                - Databases:\n                    - DB2z and Denodo: \"Show duplicates\" button in Grouping panel was fixed\n                    - Greenplum: function DDL was fixed (default parameter values)\n                    - Oracle:\n                        - Dates of creation and modification appeared in the information about the packages\n                        - Table partitions and subpartitions reading was fixed\n                        - Issue with missing tablespace statistics after object update was fixed\n                    - Snowflake: quotation rules for object identifiers were added\n                - Localization:\n                    - Users can now select Portuguese as the default language during installation or in Preferences\n                    - Portuguese localization was improved (thanks to @brlarini)\n                    - German localization was improved (thanks to @coderkun)\n                - Misc: we switched to Eclipse 2023-06 and Java-17 as a base platform\n            "
@@ -3050,8 +3050,8 @@
     "https://github.com/zan8in/afrog": {
         "created_at": "2022-02-24 06:00:32",
         "description": "A Security Tool for Bug Bounty, Pentest and Red Teaming.",
-        "commit_date": "2023-06-26 14:11:03",
-        "commit_message": "update",
+        "commit_date": "2023-06-27 13:56:58",
+        "commit_message": "fix ecology-oa-database-info-leak",
         "release_tag": "v2.6.1",
         "release_date": "2023-06-26 03:29:12",
         "release_message": "- We have performed urgent repairs on Yonyou NC PoCs to ensure accurate vulnerability scanning. Thank you, @wuha0926 , for discovering and assisting in resolving the issue. \r\n\r\n- Thank you, @zhizhuoshuma, for optimizing the kingdee-erp-binaryformatterproxy-deserial PoCs.\r\n\r\n---------------\r\n\r\n- 我们已对 Yonyou NC PoCs 进行紧急修复，以确保扫描能够准确检测漏洞，感谢 @wuha0926 发现并协助修复问题。\r\n\r\n- 感谢 @zhizhuoshuma 对 kingdee-erp-binaryformatterproxy-deserial PoCs 进行优化。"
@@ -3099,7 +3099,7 @@
         "commit_message": "added release template",
         "release_tag": "v2.9.7",
         "release_date": "2023-06-26 20:32:50",
-        "release_message": "<!-- Release notes generated using configuration in .github/release.yml at main -->\r\n\r\n## What's Changed\r\n### 🎉 Features\r\n\r\n* **Added tls client hello (ja3) tls randomization by @Mzack9999** in https://github.com/projectdiscovery/nuclei/pull/3844\r\n```\r\n   -tlsi, -tls-impersonate  enable experimental client hello (ja3) tls randomization\r\n```\r\n* Added query fuzzing support in headless protocol by @ShubhamRasal in https://github.com/projectdiscovery/nuclei/pull/3790\r\n* Added cookie reuse in workflow for headless template by @Mzack9999 in https://github.com/projectdiscovery/nuclei/pull/3850\r\n* Added `header` and `status` matchers to headless protocol by @dogancanbakir in https://github.com/projectdiscovery/nuclei/pull/3794\r\n* Added `{{public_ip()}}` helper function by @Mzack9999 in https://github.com/projectdiscovery/nuclei/pull/3853\r\n* Added template option (`disable-path-automerge: true`) to disable path automerge in raw request by @RamanaReddy0M in https://github.com/projectdiscovery/nuclei/pull/3799\r\n\r\n### 🐞 Bugs\r\n* Fixed issue with tls protocol causing scan to stuck by @ehsandeep in https://github.com/projectdiscovery/nuclei/pull/3792\r\n* Fixed `panic: runtime error` by @Mzack9999 in https://github.com/projectdiscovery/nuclei/pull/3816\r\n* Fixed issue in file protocol with matchers and condition by @Mzack9999 in https://github.com/projectdiscovery/nuclei/pull/3820\r\n* Fixed output path in unsafe mode by @ehsandeep in https://github.com/projectdiscovery/nuclei/pull/3831\r\n* Fixed rendering issues with markdown and jira exporter by @forgedhallpass in https://github.com/projectdiscovery/nuclei/pull/3849\r\n* Fixed issue custom client certificate input by @Mzack9999 in https://github.com/projectdiscovery/nuclei/pull/3851\r\n\r\n### 🔨 Maintenance\r\n* Added better debug message formatting by @Mzack9999 in https://github.com/projectdiscovery/nuclei/pull/3859\r\n* Fixed `deprecatedProtocolNameTemplates` concurrent map writes by @cn-kali-team in https://github.com/projectdiscovery/nuclei/pull/3785\r\n* Enabled `-no-httpx` implicitly  when `-passive` scan is launched by @dogancanbakir in https://github.com/projectdiscovery/nuclei/pull/3789\r\n\r\nIssues closed in this release - https://github.com/projectdiscovery/nuclei/milestone/34?closed=1\r\n\r\n## New Contributors\r\n* @Weltolk made their first contribution in https://github.com/projectdiscovery/nuclei/pull/3843\r\n\r\n**Full Changelog**: https://github.com/projectdiscovery/nuclei/compare/v2.9.6...v2.9.7"
+        "release_message": "<!-- Release notes generated using configuration in .github/release.yml at main -->\r\n\r\n## What's Changed\r\n### 🎉 Features\r\n\r\n* **Added tls client hello (ja3) randomization by @Mzack9999** in https://github.com/projectdiscovery/nuclei/pull/3844\r\n```\r\n   -tlsi, -tls-impersonate  enable experimental client hello (ja3) tls randomization\r\n```\r\n* Added query fuzzing support in headless protocol by @ShubhamRasal in https://github.com/projectdiscovery/nuclei/pull/3790\r\n* Added cookie reuse in workflow for headless template by @Mzack9999 in https://github.com/projectdiscovery/nuclei/pull/3850\r\n* Added `header` and `status` matchers to headless protocol by @dogancanbakir in https://github.com/projectdiscovery/nuclei/pull/3794\r\n* Added `{{public_ip()}}` helper function by @Mzack9999 in https://github.com/projectdiscovery/nuclei/pull/3853\r\n* Added template option (`disable-path-automerge: true`) to disable path automerge in raw request by @RamanaReddy0M in https://github.com/projectdiscovery/nuclei/pull/3799\r\n\r\n### 🐞 Bugs\r\n* Fixed issue with tls protocol causing scan to stuck by @ehsandeep in https://github.com/projectdiscovery/nuclei/pull/3792\r\n* Fixed `panic: runtime error` by @Mzack9999 in https://github.com/projectdiscovery/nuclei/pull/3816\r\n* Fixed issue in file protocol with matchers and condition by @Mzack9999 in https://github.com/projectdiscovery/nuclei/pull/3820\r\n* Fixed output path in unsafe mode by @ehsandeep in https://github.com/projectdiscovery/nuclei/pull/3831\r\n* Fixed rendering issues with markdown and jira exporter by @forgedhallpass in https://github.com/projectdiscovery/nuclei/pull/3849\r\n* Fixed issue custom client certificate input by @Mzack9999 in https://github.com/projectdiscovery/nuclei/pull/3851\r\n\r\n### 🔨 Maintenance\r\n* Added better debug message formatting by @Mzack9999 in https://github.com/projectdiscovery/nuclei/pull/3859\r\n* Fixed `deprecatedProtocolNameTemplates` concurrent map writes by @cn-kali-team in https://github.com/projectdiscovery/nuclei/pull/3785\r\n* Enabled `-no-httpx` implicitly  when `-passive` scan is launched by @dogancanbakir in https://github.com/projectdiscovery/nuclei/pull/3789\r\n\r\nIssues closed in this release - https://github.com/projectdiscovery/nuclei/milestone/34?closed=1\r\n\r\n## New Contributors\r\n* @Weltolk made their first contribution in https://github.com/projectdiscovery/nuclei/pull/3843\r\n\r\n**Full Changelog**: https://github.com/projectdiscovery/nuclei/compare/v2.9.6...v2.9.7"
     },
     "https://github.com/sleeyax/burp-awesome-tls": {
         "created_at": "2022-01-24 00:30:26",
@@ -3192,11 +3192,11 @@
     "https://github.com/joke2k/faker": {
         "created_at": "2012-11-12 23:00:09",
         "description": "Faker is a Python package that generates fake data for you.",
-        "commit_date": "2023-06-26 19:40:42",
-        "commit_message": "docs: update `pystr` docstring to include param descriptions, fix docstring formats (#1882)",
-        "release_tag": "v18.11.1",
-        "release_date": "2023-06-20 20:34:34",
-        "release_message": "See [CHANGELOG.md](https://github.com/joke2k/faker/blob/refs/tags/v18.11.1/CHANGELOG.md)."
+        "commit_date": "2023-06-27 15:23:55",
+        "commit_message": "Bump version: 18.11.1 → 18.11.2",
+        "release_tag": "v18.11.2",
+        "release_date": "2023-06-27 15:34:27",
+        "release_message": "See [CHANGELOG.md](https://github.com/joke2k/faker/blob/refs/tags/v18.11.2/CHANGELOG.md)."
     },
     "https://github.com/NHPT/Xray_Cracked": {
         "created_at": "2022-08-10 13:51:19",
@@ -3415,8 +3415,8 @@
     "https://github.com/RoomaSec/RmEye": {
         "created_at": "2022-08-22 12:11:37",
         "description": "戎码之眼是一个window上的基于att&ck模型的威胁监控工具.有效检测常见的未知威胁与已知威胁.防守方的利剑",
-        "commit_date": "2022-10-19 11:35:36",
-        "commit_message": "Merge pull request #5 from chain312/main\n\n完善requirements.txt",
+        "commit_date": "2023-06-27 11:00:22",
+        "commit_message": "Update readme.md",
         "release_tag": "v0.0.4",
         "release_date": "2022-09-21 07:29:22",
         "release_message": "修复了秋季更新的几个bug,增加了`networkconnect`和`FileCreateTimeChange`的ds,增加了`brc4`的检测"
@@ -3494,8 +3494,8 @@
     "https://github.com/LoRexxar/Kunlun-M": {
         "created_at": "2017-09-07 06:25:58",
         "description": "KunLun-M是一个完全开源的静态白盒扫描工具，支持PHP、JavaScript的语义扫描，基础安全、组件安全扫描，Chrome Ext\\Solidity的基础扫描。",
-        "commit_date": "2023-02-20 06:54:31",
-        "commit_message": "Merge pull request #224 from LoRexxar/develop\n\nfixed #223",
+        "commit_date": "2023-06-27 09:31:15",
+        "commit_message": "Merge pull request #235 from LoRexxar/develop\n\nupdate startlink",
         "release_tag": "v2.6.5",
         "release_date": "2022-06-23 08:46:09",
         "release_message": "- 2022-06-23\r\n    - KunLun-M 2.6.5\r\n    - 更新了社区化的部署方案，支持使用公开的Server端查看扫描结果，为后续延展提供基础\r\n    - 更新了潮汐平台链接，可以使用潮汐平台快速部署体验"
@@ -3861,11 +3861,11 @@
     "https://github.com/wgpsec/fofa_viewer": {
         "created_at": "2021-04-14 05:16:06",
         "description": "A simple FOFA client written in JavaFX.  Made by WgpSec, Maintained by f1ashine.",
-        "commit_date": "2023-03-21 09:49:04",
-        "commit_message": "Update README.md",
-        "release_tag": "1.1.12",
-        "release_date": "2023-03-13 03:45:19",
-        "release_message": "fix-bug:\r\n1. 解决windows环境下搜索tab标题乱码\r\n1. Resolve the issue of garbled characters in the search tab title under the Windows environment.\r\n\r\noptimize :\r\n1. 滚动条移动到最下面时自动请求获取账号剩余用量\r\n1. Automatically request remaining account usage when the scrollbar is moved to the bottom.\r\n"
+        "commit_date": "2023-06-27 13:38:48",
+        "commit_message": "修复CI",
+        "release_tag": "1.1.13",
+        "release_date": "2023-06-27 13:43:22",
+        "release_message": "fix-bug:\r\n1. 解决添加规则的报错问题\r\noptimize :\r\n1. 考虑到有师傅会把jar包打包成app，因此将日志路径修改为用户目录下"
     },
     "https://github.com/dhsdshdhk/stegpy": {
         "created_at": "2018-08-22 20:51:57",
@@ -3888,8 +3888,8 @@
     "https://github.com/neuvector/neuvector": {
         "created_at": "2021-12-17 20:15:03",
         "description": "",
-        "commit_date": "2023-06-24 04:58:10",
-        "commit_message": "Merge pull request #894 from jayhuang-suse/eight\n\nNVSHAS-8080: neuvector csp container will be added into workload object",
+        "commit_date": "2023-06-27 22:07:35",
+        "commit_message": "Merge pull request #895 from jayhuang-suse/nine\n\nObtain correct app container id for enforcers and controllers.",
         "release_tag": "v5.1.3",
         "release_date": "2023-05-09 18:16:30",
         "release_message": "Features:\r\nAdd new vulnerability feed for scanning Microsoft .NET framework\r\nEnforcer stats is disabled by default in Prometheus exporter to improve scalability\r\nUseability improvement: Using scanner to scan single image and print the result\r\nAdd imagePullPolicy check in admission control\r\n\r\n\r\nBug fixes:\r\nEmpty group auto-removal takes 2 hours to delete instead of 1 hour according to schedule\r\nCompliance profile doesn't show in UI console\r\n"
@@ -3906,8 +3906,8 @@
     "https://github.com/anchore/syft": {
         "created_at": "2020-05-07 18:19:29",
         "description": "CLI tool and library for generating a Software Bill of Materials from container images and filesystems",
-        "commit_date": "2023-06-26 17:58:44",
-        "commit_message": "chore(deps): update stereoscope to 8c7173ebcf69187d480d4d8b0c6cafaa7aef7024 (#1890)\n\nSigned-off-by: GitHub <noreply@github.com>\r\nCo-authored-by: kzantow <kzantow@users.noreply.github.com>",
+        "commit_date": "2023-06-27 19:53:59",
+        "commit_message": "add oss community board auto-add workflow (#1898)\n\nSigned-off-by: Alex Goodman <wagoodman@users.noreply.github.com>",
         "release_tag": "v0.84.0",
         "release_date": "2023-06-20 18:12:06",
         "release_message": "# Changelog\n\n## [v0.84.0](https://github.com/anchore/syft/tree/v0.84.0) (2023-06-20)\n\n[Full Changelog](https://github.com/anchore/syft/compare/v0.83.1...v0.84.0)\n\n### Breaking Changes\n\n- Pad artifact IDs [[PR #1882](https://github.com/anchore/syft/pull/1882)] [[willmurphyscode](https://github.com/willmurphyscode)]\n\n### Additional Changes\n\n- chore: update SPDX license list to 3.21 [[PR #1885](https://github.com/anchore/syft/pull/1885)] [[kzantow](https://github.com/kzantow)]\n\n\n\n"
@@ -3915,8 +3915,8 @@
     "https://github.com/chaitin/safeline": {
         "created_at": "2023-04-12 11:30:14",
         "description": "一款足够简单、足够好用、足够强的免费 WAF。基于业界领先的语义引擎检测技术，作为反向代理接入，保护你的网站不受黑客攻击。",
-        "commit_date": "2023-06-26 15:37:32",
-        "commit_message": "删了几行没用的脚本",
+        "commit_date": "2023-06-27 15:21:33",
+        "commit_message": "调整安装脚本,在运行出错的时候提示文档信息",
         "release_tag": "v1.10.0",
         "release_date": "2023-06-21 09:08:55",
         "release_message": "## 新增\r\n\r\n- 防护站点新增 “运行模式”，可以一键将站点设为 观察 或 维护 模式了\r\n\r\n## 优化\r\n\r\n- 修复了站点列表没有分页器的问题\r\n- 修复了窗口水平滚动时导航栏会错位的问题\r\n- 修复了黑白名单配置 “不属于 IP 组” 的条件时，列表显示组 ID，而未显示组名称的问题\r\n- 优化了界面的 UI 与交互"
@@ -3978,8 +3978,8 @@
     "https://github.com/anchore/grype": {
         "created_at": "2020-05-26 13:44:38",
         "description": "A vulnerability scanner for container images and filesystems",
-        "commit_date": "2023-06-26 18:00:27",
-        "commit_message": "fix: totals for vulnerability matches (#1359)\n\nSigned-off-by: Keith Zantow <kzantow@gmail.com>",
+        "commit_date": "2023-06-27 19:57:08",
+        "commit_message": "add oss community board auto-add workflow (#1364)\n\nSigned-off-by: Alex Goodman <wagoodman@users.noreply.github.com>",
         "release_tag": "v0.63.0",
         "release_date": "2023-06-21 16:15:32",
         "release_message": "# Changelog\r\n\r\n## [v0.63.0](https://github.com/anchore/grype/tree/v0.63.0) (2023-06-21)\r\n\r\n[Full Changelog](https://github.com/anchore/grype/compare/v0.62.3...v0.63.0)\r\n\r\n### Added Features\r\n\r\n- Always include the specific package name and version used in the vulnerability search in the matchDetails section of the output [[PR #1339](https://github.com/anchore/grype/pull/1339)] [[westonsteimel](https://github.com/westonsteimel)]\r\n- Expose Go template file that produces the table report [[Issue #629](https://github.com/anchore/grype/issues/629)] [[PR #1343](https://github.com/anchore/grype/pull/1343)] [[jneate](https://github.com/jneate)]\r\n- Add a folder for community Go templates (see templates/README.md for more details) [[Issue #1316](https://github.com/anchore/grype/issues/1316)]\r\n\r\n### Breaking Changes\r\n\r\n- update Syft to v0.84.0: stereoscope platform fix and artifact ID padding [[PR #1354](https://github.com/anchore/grype/pull/1354)] [[anchore-actions-token-generator](https://github.com/anchore-actions-token-generator)]\r\n\r\n\r\n\r\n"
@@ -4275,7 +4275,7 @@
     "https://github.com/aiboboxx/v2rayfree": {
         "created_at": "2021-10-13 11:34:53",
         "description": "v2ray公益免费节点、最新2ray免费v节点订阅地址、v2ray免费节点每日更新、免费ss/v2ray/trojan节点、freefq ",
-        "commit_date": "2023-06-26 12:44:20",
+        "commit_date": "2023-06-27 12:45:35",
         "commit_message": "update",
         "release_tag": "",
         "release_date": "",
@@ -4320,8 +4320,8 @@
     "https://github.com/freefq/free": {
         "created_at": "2020-06-07 02:48:33",
         "description": "翻墙、免费翻墙、免费科学上网、免费节点、免费梯子、免费ss/v2ray/trojan节点、蓝灯、谷歌商店、翻墙梯子",
-        "commit_date": "2023-06-27 00:00:02",
-        "commit_message": "updated_at 06-27 08:00",
+        "commit_date": "2023-06-28 00:00:03",
+        "commit_message": "updated_at 06-28 08:00",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -4599,8 +4599,8 @@
     "https://github.com/rockbenben/ChatGPT-Shortcut": {
         "created_at": "2023-02-24 12:53:49",
         "description": "🚀💪Maximize your efficiency and productivity, support for English, 中文, 日本語, and 한국어. 让生产力加倍的 ChatGPT 快捷指令，按照领域和功能分区，可对提示词进行标签筛选、关键词搜索和一键复制。",
-        "commit_date": "2023-06-25 15:34:44",
-        "commit_message": "refactor: Restructure PromptPage data to optimize performance",
+        "commit_date": "2023-06-27 10:35:55",
+        "commit_message": "fix: Fix URL issue with ShareButton",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
