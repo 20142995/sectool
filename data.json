@@ -65,7 +65,7 @@
     "https://github.com/pppscn/SmsForwarder": {
         "created_at": "2021-02-10 02:23:07",
         "description": "短信转发器——监控Android手机短信、来电、APP通知，并根据指定规则转发到其他手机：钉钉群自定义机器人、钉钉企业内机器人、企业微信群机器人、飞书机器人、企业微信应用消息、邮箱、bark、webhook、Telegram机器人、Server酱、PushPlus、手机短信等。包括主动控制服务端与客户端，让你轻松远程发短信、查短信、查通话、查话簿、查电量等。（V3.0 新增）PS.这个APK主要是学习与自用，如有BUG请提ISSUE，同时欢迎大家提PR指正",
-        "commit_date": "2023-06-27 16:14:28",
+        "commit_date": "2023-06-28 08:58:30",
         "commit_message": "修复：bark加密推送，解密失败 #307 #314",
         "release_tag": "v3.2.0",
         "release_date": "2023-02-14 09:25:00",
@@ -200,8 +200,8 @@
     "https://github.com/ycdxsb/PocOrExp_in_Github": {
         "created_at": "2021-04-13 05:46:16",
         "description": "聚合Github上已有的Poc或者Exp，CVE信息来自CVE官网。Auto Collect Poc Or Exp from Github by CVE ID.",
-        "commit_date": "2023-06-27 22:43:20",
-        "commit_message": "update 2023-06-28 06:43:20",
+        "commit_date": "2023-06-28 22:45:41",
+        "commit_message": "update 2023-06-29 06:45:41",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -380,8 +380,8 @@
     "https://github.com/lal0ne/vulnerability": {
         "created_at": "2022-01-20 02:48:42",
         "description": "收集、整理、修改互联网上公开的漏洞POC",
-        "commit_date": "2023-06-25 01:32:16",
-        "commit_message": "CVE-2023-20887",
+        "commit_date": "2023-06-28 01:33:57",
+        "commit_message": "CVE-2018-13379",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -461,7 +461,7 @@
     "https://github.com/ExpLangcn/NucleiTP": {
         "created_at": "2022-11-08 13:16:56",
         "description": "自动整合全网Nuclei的漏洞POC，实时同步更新最新POC！",
-        "commit_date": "2023-06-28 00:45:16",
+        "commit_date": "2023-06-29 00:45:17",
         "commit_message": "更新啦❤️",
         "release_tag": "",
         "release_date": "",
@@ -594,8 +594,8 @@
     "https://github.com/shadow1ng/fscan": {
         "created_at": "2020-11-13 16:35:20",
         "description": "一款内网综合扫描工具，方便一键自动化、全方位漏扫扫描。",
-        "commit_date": "2023-05-10 03:18:53",
-        "commit_message": "Merge pull request #272 from wgpsec/main\n\n修复自动化编译问题",
+        "commit_date": "2023-06-28 08:48:06",
+        "commit_message": "Merge pull request #292 from ruishawn/dev1\n\nfix: add field names to struct literal",
         "release_tag": "1.8.2",
         "release_date": "2022-11-19 09:14:24",
         "release_message": "加入hash碰撞、wmiiexec无回显命令执行  "
@@ -828,8 +828,8 @@
     "https://github.com/murphysecurity/murphysec": {
         "created_at": "2022-03-16 02:52:33",
         "description": "An open source tool focused on software supply chain security. 墨菲安全专注于软件供应链安全，具备专业的软件成分分析（SCA）、漏洞检测、专业漏洞库。",
-        "commit_date": "2023-06-26 15:57:35",
-        "commit_message": "fix(scanner_scan): sync logging before print output",
+        "commit_date": "2023-06-28 08:10:57",
+        "commit_message": "feat(maven): timeout if maven execution hang",
         "release_tag": "v3.1.1",
         "release_date": "2023-05-15 12:52:58",
         "release_message": "Support NPM lockfile v3 "
@@ -1951,11 +1951,11 @@
     "https://github.com/cseroad/Exp-Tools": {
         "created_at": "2023-03-09 01:10:10",
         "description": "一款集成各种exp的实用性工具",
-        "commit_date": "2023-05-09 09:05:58",
+        "commit_date": "2023-06-28 09:23:27",
         "commit_message": "Update README.md",
-        "release_tag": "v1.1.6",
-        "release_date": "2023-04-27 01:14:02",
-        "release_message": "- 新增泛微ecology前台sql注入-2\r\n- 新增红帆OA任意文件写入\r\n- 修复泛微emobile一处bug\r\n- 删除泛微ecology后台皮肤文件上传\r\n- 删除conf文件夹，修改为启动时创建\r\n- 删除cookie提示"
+        "release_tag": "v1.2.0",
+        "release_date": "2023-06-28 09:28:17",
+        "release_message": "- 新增用友畅捷通T+SQL注入\r\n- 新增致远帆软报表文件读取-bypass\r\n- 新增泛微eoffice uploadify上传\r\n- 新增php-framework和java-framework\r\n- 新增nacos任意用户添加\r\n- 新增金蝶云星空反序列化\r\n- 优化部分代码"
     },
     "https://github.com/Acmesec/Sylas": {
         "created_at": "2022-01-05 10:16:09",
@@ -2426,8 +2426,8 @@
     "https://github.com/teamssix/cf": {
         "created_at": "2022-07-01 06:02:57",
         "description": "Cloud Exploitation Framework 云环境利用框架，方便安全人员在获得 AK 的后续工作",
-        "commit_date": "2023-06-27 16:32:22",
-        "commit_message": "Merge pull request #244 from teamssix/beta\n\nfix: fix the bug causing command execution failure due to the unavail…",
+        "commit_date": "2023-06-28 14:42:00",
+        "commit_message": "Merge pull request #249 from teamssix/beta\n\nfix: fix the bug causing an error when listing objects in Huawei Clou…",
         "release_tag": "v0.4.5",
         "release_date": "2023-04-29 11:59:25",
         "release_message": "### 新增功能\r\n\r\n* [#221](https://github.com/teamssix/cf/pull/221) 增加华为云控制台接管和权限枚举功能\r\n\r\n### 功能优化\r\n\r\n* [#220](https://github.com/teamssix/cf/pull/220) 优化错误信息输出\r\n* [#225](https://github.com/teamssix/cf/pull/225) 优化更新功能\r\n\r\n### Bug 修复\r\n\r\n* [#201](https://github.com/teamssix/cf/pull/201) 修复配置令牌功能的 Bug\r\n* [#203](https://github.com/teamssix/cf/pull/203) [#204](https://github.com/teamssix/cf/pull/204) 修复两处缓存功能的 Bug\r\n* [#208](https://github.com/teamssix/cf/pull/208) 修复更新功能 Bug\r\n* [#224](https://github.com/teamssix/cf/pull/224) 修复腾讯云 cvm 和 lh 无法列全的 Bug\r\n\r\n## 新贡献者\r\n* @0xorOne made their first contribution in https://github.com/teamssix/cf/pull/219\r\n\r\n**Full Changelog**: https://github.com/teamssix/cf/compare/v0.4.4...v0.4.5"
@@ -2951,8 +2951,8 @@
     "https://github.com/dbeaver/dbeaver": {
         "created_at": "2015-10-21 08:26:28",
         "description": "Free universal database tool and SQL client",
-        "commit_date": "2023-06-27 17:14:35",
-        "commit_message": "dbeaver/dbeaver#20377 Set Java 17 in app requirements (#20387)",
+        "commit_date": "2023-06-28 15:24:10",
+        "commit_message": "dbeaver/pro#1747 Lazy SQL editor input initialize fix (#20407)",
         "release_tag": "23.1.1",
         "release_date": "2023-06-25 18:29:59",
         "release_message": "\n                - SQL Editor:\n                    - User can configure the options on the toolbar by pressing the gear button in the editor\n                    - Issue with missing \"Copy file path\" option was fixed\n                - Data Editor:\n                    - Statistics view now can be disabled\n                    - Issue with References tab was fixed\n                    - Spatial tiles configuration was fixed (thanks to @otbutz)\n                - ER Diagram: issue with element removal after using View Style option was fixed\n                - Data transfer: issue with exporting a table without data when using bulk loading was fixed\n                - New drivers: TDengine database is now supported (thanks @sangshuduo).\n                - General UI:\n                    - Users can export DBeaver settings and import them\n                    - Notifications in Dark theme became topic \"Notices in the dark\" became readable\n                    - Users can use drag-n-drop to copy scripts, open database objects and insert Navigator node names into the editor\n                - Connectivity:\n                    - User can add snapshot maven repository\n                    - \"Automatically end long idle transactions\" option was redesigned\n                    - Authentication failure when connecting via SSH was fixed\n                    - Now users can connect with jump server using SSHJ\n                    - Issue with connecting to Azure SQL Server using Active Directory was fixed\n                - Security: SQLite driver version was updated\n                - Databases:\n                    - DB2z and Denodo: \"Show duplicates\" button in Grouping panel was fixed\n                    - Greenplum: function DDL was fixed (default parameter values)\n                    - Oracle:\n                        - Dates of creation and modification appeared in the information about the packages\n                        - Table partitions and subpartitions reading was fixed\n                        - Issue with missing tablespace statistics after object update was fixed\n                    - Snowflake: quotation rules for object identifiers were added\n                - Localization:\n                    - Users can now select Portuguese as the default language during installation or in Preferences\n                    - Portuguese localization was improved (thanks to @brlarini)\n                    - German localization was improved (thanks to @coderkun)\n                - Misc: we switched to Eclipse 2023-06 and Java-17 as a base platform\n            "
@@ -3004,8 +3004,8 @@
     },
     "https://github.com/XTeam-Wing/X-Marshal": {
         "created_at": "2022-04-28 16:17:39",
-        "description": "Golang-分布式资产探测&漏洞扫描&外部攻击面管理",
-        "commit_date": "2023-03-29 02:21:27",
+        "description": "Marshal-EASM",
+        "commit_date": "2023-06-28 15:50:57",
         "commit_message": "Update README.md",
         "release_tag": "",
         "release_date": "",
@@ -3050,8 +3050,8 @@
     "https://github.com/zan8in/afrog": {
         "created_at": "2022-02-24 06:00:32",
         "description": "A Security Tool for Bug Bounty, Pentest and Red Teaming.",
-        "commit_date": "2023-06-27 13:56:58",
-        "commit_message": "fix ecology-oa-database-info-leak",
+        "commit_date": "2023-06-28 09:21:14",
+        "commit_message": "Merge branch 'main' of https://github.com/zan8in/afrog",
         "release_tag": "v2.6.1",
         "release_date": "2023-06-26 03:29:12",
         "release_message": "- We have performed urgent repairs on Yonyou NC PoCs to ensure accurate vulnerability scanning. Thank you, @wuha0926 , for discovering and assisting in resolving the issue. \r\n\r\n- Thank you, @zhizhuoshuma, for optimizing the kingdee-erp-binaryformatterproxy-deserial PoCs.\r\n\r\n---------------\r\n\r\n- 我们已对 Yonyou NC PoCs 进行紧急修复，以确保扫描能够准确检测漏洞，感谢 @wuha0926 发现并协助修复问题。\r\n\r\n- 感谢 @zhizhuoshuma 对 kingdee-erp-binaryformatterproxy-deserial PoCs 进行优化。"
@@ -3298,8 +3298,8 @@
     "https://github.com/bytedance/Elkeid": {
         "created_at": "2020-12-18 03:15:54",
         "description": "Elkeid is an open source solution that can meet the security requirements of various workloads such as hosts, containers and K8s, and serverless. It is derived from ByteDance's internal best practices.",
-        "commit_date": "2023-06-21 07:28:24",
-        "commit_message": "Compiling failures for Debian 9/10 (#512)\n\nWrong kerrnel header directory path used in Makefile. Now unify\r\nthe Makefile of 1.7 to 1.8\r\n\r\nSigned-off-by: shenping.matt <shenping.matt@bytedance.com>",
+        "commit_date": "2023-06-28 09:55:05",
+        "commit_message": "fix:driver ci update ubuntu18",
         "release_tag": "v1.7.0.13-driver-ko-20230620",
         "release_date": "2023-06-20 15:28:14",
         "release_message": ""
@@ -3609,13 +3609,13 @@
         "release_message": "## 2023.5.22 更新0.27\r\n1. autoDecoder扩展选项卡增加右键`Send to Repeater、Send to Intruder`，并且增加格式化，目前仅针对json格式\r\n\r\n![image](https://github.com/f0ng/autoDecoder/assets/48286013/aadc215d-75ab-4b7b-beef-56cbf9300644)\r\n\r\n感谢 @xcxmiku 师傅反馈"
     },
     "https://github.com/funkyoummp/BurpSuiteCn": {
-        "created_at": "2019-09-18 08:56:29",
-        "description": "Burp Suite  汉化 中文",
+        "created_at": "",
+        "description": "",
         "commit_date": "2021-01-11 03:27:09",
         "commit_message": "Update README.md",
-        "release_tag": "V2.0",
-        "release_date": "2020-10-05 17:15:52",
-        "release_message": "BurpSuite 最新翻译版本来啦，支持Burp 2.0~2.9.1\r\n翻译不支持外部翻译。\r\n然后jar文件没混淆，自己反编译。"
+        "release_tag": "",
+        "release_date": "",
+        "release_message": ""
     },
     "https://github.com/blackbinn/wprecon": {
         "created_at": "",
@@ -3888,8 +3888,8 @@
     "https://github.com/neuvector/neuvector": {
         "created_at": "2021-12-17 20:15:03",
         "description": "",
-        "commit_date": "2023-06-27 22:07:35",
-        "commit_message": "Merge pull request #895 from jayhuang-suse/nine\n\nObtain correct app container id for enforcers and controllers.",
+        "commit_date": "2023-06-29 00:33:34",
+        "commit_message": "Merge pull request #899 from williamlin-suse/main\n\nNVSHAS-8099: Hide 'AWS Marketplace Support' section on UI when aws bi…",
         "release_tag": "v5.1.3",
         "release_date": "2023-05-09 18:16:30",
         "release_message": "Features:\r\nAdd new vulnerability feed for scanning Microsoft .NET framework\r\nEnforcer stats is disabled by default in Prometheus exporter to improve scalability\r\nUseability improvement: Using scanner to scan single image and print the result\r\nAdd imagePullPolicy check in admission control\r\n\r\n\r\nBug fixes:\r\nEmpty group auto-removal takes 2 hours to delete instead of 1 hour according to schedule\r\nCompliance profile doesn't show in UI console\r\n"
@@ -3906,8 +3906,8 @@
     "https://github.com/anchore/syft": {
         "created_at": "2020-05-07 18:19:29",
         "description": "CLI tool and library for generating a Software Bill of Materials from container images and filesystems",
-        "commit_date": "2023-06-27 19:53:59",
-        "commit_message": "add oss community board auto-add workflow (#1898)\n\nSigned-off-by: Alex Goodman <wagoodman@users.noreply.github.com>",
+        "commit_date": "2023-06-28 16:05:12",
+        "commit_message": "chore(deps): update stereoscope to cd49355d934e9e09339e0b690398afe7bd9f63f1 (#1903)\n\nSigned-off-by: GitHub <noreply@github.com>\r\nCo-authored-by: kzantow <kzantow@users.noreply.github.com>",
         "release_tag": "v0.84.0",
         "release_date": "2023-06-20 18:12:06",
         "release_message": "# Changelog\n\n## [v0.84.0](https://github.com/anchore/syft/tree/v0.84.0) (2023-06-20)\n\n[Full Changelog](https://github.com/anchore/syft/compare/v0.83.1...v0.84.0)\n\n### Breaking Changes\n\n- Pad artifact IDs [[PR #1882](https://github.com/anchore/syft/pull/1882)] [[willmurphyscode](https://github.com/willmurphyscode)]\n\n### Additional Changes\n\n- chore: update SPDX license list to 3.21 [[PR #1885](https://github.com/anchore/syft/pull/1885)] [[kzantow](https://github.com/kzantow)]\n\n\n\n"
@@ -3915,8 +3915,8 @@
     "https://github.com/chaitin/safeline": {
         "created_at": "2023-04-12 11:30:14",
         "description": "一款足够简单、足够好用、足够强的免费 WAF。基于业界领先的语义引擎检测技术，作为反向代理接入，保护你的网站不受黑客攻击。",
-        "commit_date": "2023-06-27 15:21:33",
-        "commit_message": "调整安装脚本,在运行出错的时候提示文档信息",
+        "commit_date": "2023-06-28 02:51:23",
+        "commit_message": "安装 docker 后加了自动启动的步骤",
         "release_tag": "v1.10.0",
         "release_date": "2023-06-21 09:08:55",
         "release_message": "## 新增\r\n\r\n- 防护站点新增 “运行模式”，可以一键将站点设为 观察 或 维护 模式了\r\n\r\n## 优化\r\n\r\n- 修复了站点列表没有分页器的问题\r\n- 修复了窗口水平滚动时导航栏会错位的问题\r\n- 修复了黑白名单配置 “不属于 IP 组” 的条件时，列表显示组 ID，而未显示组名称的问题\r\n- 优化了界面的 UI 与交互"
@@ -3969,8 +3969,8 @@
     "https://github.com/aquasecurity/trivy": {
         "created_at": "2019-04-11 01:01:07",
         "description": "Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more",
-        "commit_date": "2023-06-26 12:40:40",
-        "commit_message": "Fix http registry oci pull (#4701)\n\nSigned-off-by: alexey.makhonin <alexey.makhonin@flant.com>",
+        "commit_date": "2023-06-28 14:38:39",
+        "commit_message": "fix: scan job pod it not found on k8s-1.27.x (#4729)\n\nSigned-off-by: chenk <hen.keinan@gmail.com>",
         "release_tag": "v0.42.1",
         "release_date": "2023-06-08 15:09:13",
         "release_message": "## Changelog\n* 9a279fa7b ci: remove 32bit packages (#4585)\n* d52b0b7bc fix(misconf): deduplicate misconf results (#4588)\n* 9b531fa27 fix(vm): support sector size of 4096 (#4564)\n* 8ca1bfdd2 fix(misconf): terraform relative paths (#4571)\n* c20d46604 fix(purl): skip unsupported library type (#4577)\n* 52cbe7975 fix(terraform): recursively detect all Root Modules (#4457)\n* 4a5b91557 fix(vm): support post analyzer for vm command (#4544)\n* 56cdc55f7 fix(nodejs): change the type of the devDependencies field (#4560)\n* 17d753676 fix(sbom): export empty dependencies in CycloneDX (#4568)\n* 2796abe1e refactor: add composite fs for post-analyzers (#4556)\n* 22a157380 chore(deps): bump golangci/golangci-lint-action from 3.4.0 to 3.5.0 (#4554)\n* 43586659a chore(deps): bump helm/kind-action from 1.5.0 to 1.7.0 (#4526)\n* 508139965 chore(deps): bump github.com/BurntSushi/toml from 1.2.1 to 1.3.0 (#4528)\n* e1a38128a chore(deps): bump github.com/alicebob/miniredis/v2 from 2.30.2 to 2.30.3 (#4529)\n* 283eef637 chore(deps): bump github.com/aws/aws-sdk-go-v2/service/ec2 (#4536)\n* bbd7b9874 chore(deps): bump github.com/tetratelabs/wazero from 1.0.0 to 1.2.0 (#4549)\n* 11c81bf2f chore(deps): bump github.com/spf13/cast from 1.5.0 to 1.5.1 (#4532)\n* 2d8d63e61 chore(deps): bump github.com/testcontainers/testcontainers-go (#4537)\n* a46839b1c chore(deps): bump github.com/go-git/go-git/v5 from 5.6.1 to 5.7.0 (#4530)\n* 19715f5de chore(deps): bump github.com/aws/aws-sdk-go-v2/config (#4534)\n\n"
@@ -4275,7 +4275,7 @@
     "https://github.com/aiboboxx/v2rayfree": {
         "created_at": "2021-10-13 11:34:53",
         "description": "v2ray公益免费节点、最新2ray免费v节点订阅地址、v2ray免费节点每日更新、免费ss/v2ray/trojan节点、freefq ",
-        "commit_date": "2023-06-27 12:45:35",
+        "commit_date": "2023-06-28 12:47:04",
         "commit_message": "update",
         "release_tag": "",
         "release_date": "",
@@ -4320,8 +4320,8 @@
     "https://github.com/freefq/free": {
         "created_at": "2020-06-07 02:48:33",
         "description": "翻墙、免费翻墙、免费科学上网、免费节点、免费梯子、免费ss/v2ray/trojan节点、蓝灯、谷歌商店、翻墙梯子",
-        "commit_date": "2023-06-28 00:00:03",
-        "commit_message": "updated_at 06-28 08:00",
+        "commit_date": "2023-06-29 00:00:02",
+        "commit_message": "updated_at 06-29 08:00",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -4590,8 +4590,8 @@
     "https://github.com/yzfly/awesome-chatgpt-zh": {
         "created_at": "2023-03-21 02:16:34",
         "description": "ChatGPT 中文指南🔥，ChatGPT 中文调教指南，指令指南，应用开发指南，精选资源清单，更好的使用 chatGPT 让你的生产力 up up up! 🚀",
-        "commit_date": "2023-06-26 00:56:29",
-        "commit_message": "judge gpt-4",
+        "commit_date": "2023-06-28 12:06:13",
+        "commit_message": "update readme",
         "release_tag": "",
         "release_date": "",
         "release_message": ""

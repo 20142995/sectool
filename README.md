@@ -1,8 +1,9 @@
-# 更新于 2023-06-28 08:51:47
+# 更新于 2023-06-29 08:49:14
 
 ## 近15天release更新记录
 | 更新时间 | 项目名称 | 版本 | 更新内容 |
 | :---- | :---- | :---- | :---- |
+|2023-06-28 09:28:17|[Exp-Tools](https://github.com/cseroad/Exp-Tools)|v1.2.0|- 新增用友畅捷通T+SQL注入  - 新增致远<br>帆软报表文件读取-bypass  - 新增泛微eoff<br>ice uploadify上传  - 新增php-framework<br>和java-framework  - 新增nacos任意用户添<br>加  - 新增金蝶云星空反序列化  - 优化部<br>分代码|
 |2023-06-27 15:34:27|[faker](https://github.com/joke2k/faker)|v18.11.<br>2|See .|
 |2023-06-27 13:43:22|[fofa_viewer](https://github.com/wgpsec/fofa_viewer)|1.1.13|fix-bug:  1. 解决添加规则的报错问题  <br>optimize :  1. 考虑到有师傅会把jar包打<br>包成app，因此将日志路径修改为用户目录下|
 |2023-06-27 08:57:25|[mitaka](https://github.com/ninoseki/mitaka)|v1.3.0|-  Add Add Coalition searcher (#737) <br>     - https://ess.coalitioninc.com/ |
@@ -26,24 +27,31 @@
 |2023-06-17 12:44:55|[Viper](https://github.com/FunnyWolf/Viper)|v1.5.30|### 新功能  - Viper所有功能都可通过右<br>下角链接跳转到对应文档  ### 优化  - 监<br>听防火墙前端UI优化  - 只显示Session功能<br>可在主页面使用  - 合并metasploit-framew<br>ork 6.3.22版本  ### Bugfix  - 修复pyth<br>on类型payload断线后无法重连及无法清理<br>历史网络连接问题|
 |2023-06-15 03:50:43|[GoWxDump](https://github.com/SpenserCai/GoWxDump)|v1.0.12|#22 |
 |2023-06-14 03:14:46|[EHole](https://github.com/EdgeSecurityTeam/EHole)|v3.1|1. 修复 JS 跳转同时匹配使用单引号或双<br>引号包围的URL；  2. 修复 URL 是否已经以<br>"/"结尾，如果是，就不再添加"/"；  3. <br>修复 UA 头被检测问题；  4. 新增 [202301<br>31] finger.json 指纹；  5. 修改 fofa.i<br>nfo API 接口。|
-|2023-06-13 15:31:06|[iDefender](https://github.com/wecooperate/iDefender)|2.8.0|重要版本，建议更新    - 更新iMonitorS<br>DK到最新版本    - 去掉没有文档化的AFD<br>驱动监控，网络监控都使用WFP框架实现    <br>- 添加ICMP拦截支持  - 接入iFoundation<br>冰塔快速开发框架    - **支持模块化升级<br>：少量的修改直接通过模块升级自动更新，<br>不需要再频繁手动升级了**    - 支持企业<br>管理能力（企业管理后台会在3.0版本正式上<br>线）      - 支持统一管理      - 支持策<br>略下发      - 支持功能扩展、定制、二次<br>开发、系统集成    - 添加工具箱    - 冰<br>镜终端行为分析系统    - 冰鉴软件行为分<br>析系统    - 冰云安全U盘    - 冰刃进程强<br>杀、文件强删    - 添加微信交流群（在关<br>于冰盾页面可以获取二维码）  - 修复一些<br>问题    - 修复快速查找大小写敏感的问题 <br>   - 修复导入规则的信任列表部分场景导<br>入失败的问题    - 修复信任列表多个规则<br>匹配不生效的问题    - 优化其他一些使用<br>体验          软件下载   |
 ## 近15天commit提交记录
 | 提交时间 | 项目名称 | 更新内容 |
 | :---- | :---- | :---- |
-|2023-06-28 00:45:16|[NucleiTP](https://github.com/ExpLangcn/NucleiTP)|更新啦❤️|
-|2023-06-28 00:00:03|[free](https://github.com/freefq/free)|updated_at 06-28 08:00|
-|2023-06-27 22:43:20|[PocOrExp_in_Githu<br>b](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-06-28 06:43:20|
-|2023-06-27 22:07:35|[neuvector](https://github.com/neuvector/neuvector)|Merge pull request #895 from jayhuang-suse/nine  Ob<br>tain correct app container id for enforcers and cont<br>rollers.|
+|2023-06-29 00:45:17|[NucleiTP](https://github.com/ExpLangcn/NucleiTP)|更新啦❤️|
+|2023-06-29 00:33:34|[neuvector](https://github.com/neuvector/neuvector)|Merge pull request #899 from williamlin-suse/main  <br>NVSHAS-8099: Hide 'AWS Marketplace Support' section <br>on UI when aws bi…|
+|2023-06-29 00:00:02|[free](https://github.com/freefq/free)|updated_at 06-29 08:00|
+|2023-06-28 22:45:41|[PocOrExp_in_Githu<br>b](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-06-29 06:45:41|
+|2023-06-28 16:05:12|[syft](https://github.com/anchore/syft)|chore(deps): update stereoscope to cd49355d934e9e09<br>339e0b690398afe7bd9f63f1 (#1903)  Signed-off-by: Git<br>Hub   Co-authored-by: kzantow |
+|2023-06-28 15:50:57|[X-Marshal](https://github.com/XTeam-Wing/X-Marshal)|Update README.md|
+|2023-06-28 15:24:10|[dbeaver](https://github.com/dbeaver/dbeaver)|dbeaver/pro#1747 Lazy SQL editor input initialize f<br>ix (#20407)|
+|2023-06-28 14:42:00|[cf](https://github.com/teamssix/cf)|Merge pull request #249 from teamssix/beta  fix: fi<br>x the bug causing an error when listing objects in H<br>uawei Clou…|
+|2023-06-28 14:38:39|[trivy](https://github.com/aquasecurity/trivy)|fix: scan job pod it not found on k8s-1.27.x (#4729<br>)  Signed-off-by: chenk |
+|2023-06-28 12:47:04|[v2rayfree](https://github.com/aiboboxx/v2rayfree)|update|
+|2023-06-28 12:06:13|[awesome-chatgpt-z<br>h](https://github.com/yzfly/awesome-chatgpt-zh)|update readme|
+|2023-06-28 09:55:05|[Elkeid](https://github.com/bytedance/Elkeid)|fix:driver ci update ubuntu18|
+|2023-06-28 09:23:27|[Exp-Tools](https://github.com/cseroad/Exp-Tools)|Update README.md|
+|2023-06-28 09:21:14|[afrog](https://github.com/zan8in/afrog)|Merge branch 'main' of https://github.com/zan8in/af<br>rog|
+|2023-06-28 08:58:30|[SmsForwarder](https://github.com/pppscn/SmsForwarder)|修复：bark加密推送，解密失败 #307 #314|
+|2023-06-28 08:48:06|[fscan](https://github.com/shadow1ng/fscan)|Merge pull request #292 from ruishawn/dev1  fix: ad<br>d field names to struct literal|
+|2023-06-28 08:10:57|[murphysec](https://github.com/murphysecurity/murphysec)|feat(maven): timeout if maven execution hang|
+|2023-06-28 02:51:23|[safeline](https://github.com/chaitin/safeline)|安装 docker 后加了自动启动的步骤|
+|2023-06-28 01:33:57|[vulnerability](https://github.com/lal0ne/vulnerability)|CVE-2018-13379|
 |2023-06-27 19:57:08|[grype](https://github.com/anchore/grype)|add oss community board auto-add workflow (#1364)  <br>Signed-off-by: Alex Goodman |
-|2023-06-27 19:53:59|[syft](https://github.com/anchore/syft)|add oss community board auto-add workflow (#1898)  <br>Signed-off-by: Alex Goodman |
-|2023-06-27 17:14:35|[dbeaver](https://github.com/dbeaver/dbeaver)|dbeaver/dbeaver#20377 Set Java 17 in app requiremen<br>ts (#20387)|
-|2023-06-27 16:32:22|[cf](https://github.com/teamssix/cf)|Merge pull request #244 from teamssix/beta  fix: fi<br>x the bug causing command execution failure due to t<br>he unavail…|
-|2023-06-27 16:14:28|[SmsForwarder](https://github.com/pppscn/SmsForwarder)|修复：bark加密推送，解密失败 #307 #314|
 |2023-06-27 15:23:55|[faker](https://github.com/joke2k/faker)|Bump version: 18.11.1 → 18.11.2|
-|2023-06-27 15:21:33|[safeline](https://github.com/chaitin/safeline)|调整安装脚本,在运行出错的时候提示文档信息|
-|2023-06-27 13:56:58|[afrog](https://github.com/zan8in/afrog)|fix ecology-oa-database-info-leak|
 |2023-06-27 13:38:48|[fofa_viewer](https://github.com/wgpsec/fofa_viewer)|修复CI|
-|2023-06-27 12:45:35|[v2rayfree](https://github.com/aiboboxx/v2rayfree)|update|
 |2023-06-27 12:23:02|[v2rayA](https://github.com/v2rayA/v2rayA)|build-helper: use Set-Location instead of cd|
 |2023-06-27 11:00:22|[RmEye](https://github.com/RoomaSec/RmEye)|Update readme.md|
 |2023-06-27 10:59:07|[RmTools](https://github.com/RoomaSec/RmTools)|Update README.md|
@@ -51,19 +59,15 @@
 |2023-06-27 09:31:15|[Kunlun-M](https://github.com/LoRexxar/Kunlun-M)|Merge pull request #235 from LoRexxar/develop  upda<br>te startlink|
 |2023-06-26 20:04:47|[clair](https://github.com/quay/clair)|cicd: don't checkout source on clairctl builds  The<br> presence of a .git directory messes with the new go<br> toolchain vcs tooling, and we don't actually want a<br> source checkout, anyway.  Signed-off-by: Hank Donna<br>y |
 |2023-06-26 19:34:33|[nuclei](https://github.com/projectdiscovery/nuclei)|added release template|
-|2023-06-26 15:57:35|[murphysec](https://github.com/murphysecurity/murphysec)|fix(scanner_scan): sync logging before print output|
 |2023-06-26 14:37:58|[sqlmap](https://github.com/sqlmapproject/sqlmap)|Fixes #5444|
-|2023-06-26 12:40:40|[trivy](https://github.com/aquasecurity/trivy)|Fix http registry oci pull (#4701)  Signed-off-by: <br>alexey.makhonin |
 |2023-06-26 09:53:01|[FrameVul](https://github.com/Awrrays/FrameVul)|Update README.md|
 |2023-06-26 08:40:36|[ENScan_GO](https://github.com/wgpsec/ENScan_GO)|修复天眼查BUG fix #48 fix #57|
 |2023-06-26 07:04:59|[GobypassAV-shellc<br>ode](https://github.com/Pizz33/GobypassAV-shellcode)|Update README.md|
 |2023-06-26 02:46:37|[Awesome-ChatGPT](https://github.com/dalinvip/Awesome-ChatGPT)|Update README.md|
 |2023-06-26 02:41:07|[Dirscan](https://github.com/corunb/Dirscan)|v1.5.1|
-|2023-06-26 00:56:29|[awesome-chatgpt-z<br>h](https://github.com/yzfly/awesome-chatgpt-zh)|judge gpt-4|
 |2023-06-25 07:28:55|[mitaka](https://github.com/ninoseki/mitaka)|Merge pull request #738 from ninoseki/v1.3.0  v1.3.<br>0|
 |2023-06-25 04:01:34|[iDefender](https://github.com/wecooperate/iDefender)|update|
 |2023-06-25 03:09:13|[404StarLink](https://github.com/knownsec/404StarLink)|weekly update at 2023-06-25|
-|2023-06-25 01:32:16|[vulnerability](https://github.com/lal0ne/vulnerability)|CVE-2023-20887|
 |2023-06-24 16:42:03|[kube-bench](https://github.com/aquasecurity/kube-bench)|build(deps): bump actions/setup-go from 3 to 4 (#14<br>02)  Bumps  from 3 to 4. -  -   --- updated-dependen<br>cies: - dependency-name: actions/setup-go   dependen<br>cy-type: direct:production   update-type: version-up<br>date:semver-major ...  Signed-off-by: dependabot[bot<br>]  Co-authored-by: dependabot[bot]  Co-authored-by: <br>chenk |
 |2023-06-24 05:53:31|[Fvuln](https://github.com/d3ckx1/Fvuln)|Update README.md|
 |2023-06-24 05:05:29|[dirsearch](https://github.com/maurosoria/dirsearch)|Merge pull request #1302 from drego85/patch-13  Add<br>ing "config.properties" and sort+remove duplicate|
@@ -73,7 +77,6 @@
 |2023-06-22 16:10:33|[PeiQi-WIKI-Book](https://github.com/PeiQi0/PeiQi-WIKI-Book)|漏洞相关:修复错误|
 |2023-06-22 11:01:47|[fshzqSearch](https://github.com/Ifory885/fshzqSearch)|Update README.md  项目迁移|
 |2023-06-22 06:18:49|[Burp-Non-HTTP-Ext<br>ension](https://github.com/summitt/Burp-Non-HTTP-Extension)|updating tls configs|
-|2023-06-21 07:28:24|[Elkeid](https://github.com/bytedance/Elkeid)|Compiling failures for Debian 9/10 (#512)  Wrong ke<br>rrnel header directory path used in Makefile. Now un<br>ify  the Makefile of 1.7 to 1.8    Signed-off-by: sh<br>enping.matt |
 |2023-06-21 05:27:44|[nemo_go](https://github.com/hanc00l/nemo_go)|Update: thirdparty|
 |2023-06-20 09:06:26|[InfoSearchAll](https://github.com/ExpLangcn/InfoSearchAll)|Update README.md|
 |2023-06-20 09:04:50|[Umi-OCR](https://github.com/hiroi-sora/Umi-OCR)|补充-language指令说明|
@@ -96,8 +99,7 @@
 |2023-06-15 06:28:45|[0day](https://github.com/helloexp/0day)|add usage for CVE-2022-0847|
 |2023-06-15 03:49:16|[GoWxDump](https://github.com/SpenserCai/GoWxDump)|#22|
 |2023-06-15 02:16:57|[OA-EXPTOOL](https://github.com/LittleBear4/OA-EXPTOOL)|Update output.py|
-|2023-06-14 03:08:05|[EHole](https://github.com/EdgeSecurityTeam/EHole)|Update|
-|2023-06-13 09:17:54|[log4j2burpscanner](https://github.com/f0ng/log4j2burpscanner)|Update FAQ-zh-CN.md|## 所有项目
+|2023-06-14 03:08:05|[EHole](https://github.com/EdgeSecurityTeam/EHole)|Update|## 所有项目
 # 渗透测试
 ## 信息收集
 ### 资产测绘采集
@@ -173,7 +175,7 @@
 | :---- | :---- | :---- |
 | [H](https://github.com/SiJiDo/H) |  | H是一款强大的资产收集管理平台 |
 | [slime](https://github.com/ccreater222/slime) |  | Slime是一个组合众多优秀安全工具的漏扫软件，它将目光集中在安全<br>工具的组合上，而不是自己实现漏扫的某一流程。 |
-| [X-Marshal](https://github.com/XTeam-Wing/X-Marshal) |  | Golang-分布式资产探测&漏洞扫描&外部攻击面管理 |
+| [X-Marshal](https://github.com/XTeam-Wing/X-Marshal) |  | Marshal-EASM |
 | [heartsk_community](https://github.com/yqcs/heartsk_community) | LOWBUG@<br>Latest | Hearts K-企业资产发现与脆弱性检查工具，自动化资产信息收集与漏<br>洞扫描 |
 | [AnScan](https://github.com/Arbor01/AnScan) |  | AnScan是一款集合信息收集、分布式漏洞扫描、漏洞POC管理等为一体<br>的红队扫描工具 |
 | [nemo_go](https://github.com/hanc00l/nemo_go) | v2.9.3 | Nemo是用来进行自动化信息收集的一个简单平台，通过集成常用的信息<br>收集工具和技术，实现对内网及互联网资产信息的自动收集，提高隐患排<br>查和渗透测试的工作效率。 |
@@ -393,7 +395,7 @@
 | [JNDIExploit](https://github.com/WhiteHSBG/JNDIExploit) | v1.4 | 对原版https://github.com/feihong-cs/JNDIExploit 进行了实用化修<br>改 |
 | [JNDIExploit-1](https://github.com/Mr-xn/JNDIExploit-1) | v1.2 | 一款用于 JNDI注入 利用的工具，大量参考/引用了 Rogue JNDI 项目<br>的代码，支持直接植入内存shell，并集成了常见的bypass 高版本JDK的<br>方式，适用于与自动化工具配合使用。（from https://github.com/feih<br>ong-cs/JNDIExploit） |
 | [JNDIExploit](https://github.com/0x727/JNDIExploit) | 1.1 | 一款用于JNDI注入利用的工具，大量参考/引用了Rogue JNDI项目的代<br>码，支持直接植入内存shell，并集成了常见的bypass 高版本JDK的方式<br>，适用于与自动化工具配合使用。 |
-| [Exp-Tools](https://github.com/cseroad/Exp-Tools) | v1.1.6 | 一款集成各种exp的实用性工具 |
+| [Exp-Tools](https://github.com/cseroad/Exp-Tools) | v1.2.0 | 一款集成各种exp的实用性工具 |
 ### 重点CMS利用
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
@@ -654,7 +656,7 @@
 | [log4j2burpscanner](https://github.com/f0ng/log4j2burpscanner) | 0.25.0 | CVE-2021-44228 Log4j2 BurpSuite Scanner,Customize ceye.io api <br>or other apis,including internal networks |
 | [passive-scan-clie<br>nt](https://github.com/c0ny1/passive-scan-client) | 0.3.1 | Burp被动扫描流量转发插件 |
 | [BpScan](https://github.com/EASY233/BpScan) | 1.0.0 | 一款用于辅助渗透测试工程师日常渗透测试的Burp被动漏扫插件 |
-| [BurpSuiteCn](https://github.com/funkyoummp/BurpSuiteCn) | V2.0 | Burp Suite  汉化 中文 |
+| [BurpSuiteCn](https://github.com/funkyoummp/BurpSuiteCn) |  |  |
 | [NEW_xp_CAPTCHA](https://github.com/smxiazi/NEW_xp_CAPTCHA) | 4.2 | xp_CAPTCHA(瞎跑 白嫖版) burp 验证码 识别 burp插件 |
 | [npscrack](https://github.com/weishen250/npscrack) | npscrac<br>k-1.0 | 蓝队利器、溯源反制、NPS 漏洞利用、NPS exp、NPS poc、Burp插件、<br>一键利用 |
 | [OneScan](https://github.com/vaycore/OneScan) | v1.0.4 | OneScan是递归目录扫描的BurpSuite插件 |
