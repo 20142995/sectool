@@ -200,8 +200,8 @@
     "https://github.com/ycdxsb/PocOrExp_in_Github": {
         "created_at": "2021-04-13 05:46:16",
         "description": "聚合Github上已有的Poc或者Exp，CVE信息来自CVE官网。Auto Collect Poc Or Exp from Github by CVE ID.",
-        "commit_date": "2023-06-28 22:45:41",
-        "commit_message": "update 2023-06-29 06:45:41",
+        "commit_date": "2023-06-29 22:45:15",
+        "commit_message": "update 2023-06-30 06:45:15",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -380,8 +380,8 @@
     "https://github.com/lal0ne/vulnerability": {
         "created_at": "2022-01-20 02:48:42",
         "description": "收集、整理、修改互联网上公开的漏洞POC",
-        "commit_date": "2023-06-28 01:33:57",
-        "commit_message": "CVE-2018-13379",
+        "commit_date": "2023-06-29 01:57:29",
+        "commit_message": "CVE-2022-4395",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -461,7 +461,7 @@
     "https://github.com/ExpLangcn/NucleiTP": {
         "created_at": "2022-11-08 13:16:56",
         "description": "自动整合全网Nuclei的漏洞POC，实时同步更新最新POC！",
-        "commit_date": "2023-06-29 00:45:17",
+        "commit_date": "2023-06-30 00:45:15",
         "commit_message": "更新啦❤️",
         "release_tag": "",
         "release_date": "",
@@ -531,8 +531,8 @@
     "https://github.com/knownsec/404StarLink": {
         "created_at": "2020-11-17 08:10:18",
         "description": "404StarLink - 推荐优质、有意义、有趣、坚持维护的安全开源项目",
-        "commit_date": "2023-06-25 03:09:13",
-        "commit_message": "weekly update at 2023-06-25",
+        "commit_date": "2023-06-29 02:52:06",
+        "commit_message": "weekly update at 2023-06-29",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -594,8 +594,8 @@
     "https://github.com/shadow1ng/fscan": {
         "created_at": "2020-11-13 16:35:20",
         "description": "一款内网综合扫描工具，方便一键自动化、全方位漏扫扫描。",
-        "commit_date": "2023-06-28 08:48:06",
-        "commit_message": "Merge pull request #292 from ruishawn/dev1\n\nfix: add field names to struct literal",
+        "commit_date": "2023-06-29 13:26:32",
+        "commit_message": "Merge pull request #280 from dksslq/main\n\n输出格式调整",
         "release_tag": "1.8.2",
         "release_date": "2022-11-19 09:14:24",
         "release_message": "加入hash碰撞、wmiiexec无回显命令执行  "
@@ -630,8 +630,8 @@
     "https://github.com/wgpsec/ENScan_GO": {
         "created_at": "2022-01-04 14:07:28",
         "description": "一款基于各大企业信息API的工具，解决在遇到的各种针对国内企业信息收集难题。一键收集控股公司ICP备案、APP、小程序、微信公众号等信息聚合导出。",
-        "commit_date": "2023-06-26 08:40:36",
-        "commit_message": "修复天眼查BUG fix #48\nfix #57",
+        "commit_date": "2023-06-29 06:02:32",
+        "commit_message": "Merge pull request #63 from Giles2000/master\n\nadd some version request",
         "release_tag": "0.0.11",
         "release_date": "2023-05-17 03:26:56",
         "release_message": "修复企查查签名错误提示"
@@ -828,8 +828,8 @@
     "https://github.com/murphysecurity/murphysec": {
         "created_at": "2022-03-16 02:52:33",
         "description": "An open source tool focused on software supply chain security. 墨菲安全专注于软件供应链安全，具备专业的软件成分分析（SCA）、漏洞检测、专业漏洞库。",
-        "commit_date": "2023-06-28 08:10:57",
-        "commit_message": "feat(maven): timeout if maven execution hang",
+        "commit_date": "2023-06-29 04:15:22",
+        "commit_message": "refactor: remove internal command cpphash",
         "release_tag": "v3.1.1",
         "release_date": "2023-05-15 12:52:58",
         "release_message": "Support NPM lockfile v3 "
@@ -981,8 +981,8 @@
     "https://github.com/sqlmapproject/sqlmap": {
         "created_at": "2012-06-26 09:52:15",
         "description": "Automatic SQL injection and database takeover tool",
-        "commit_date": "2023-06-26 14:37:58",
-        "commit_message": "Fixes #5444",
+        "commit_date": "2023-06-29 13:51:25",
+        "commit_message": "Python2.7 has been removed from Github CI/CD",
         "release_tag": "1.7",
         "release_date": "2023-01-02 22:32:55",
         "release_message": "Stable version 1.7 ([changeset](https://github.com/sqlmapproject/sqlmap/compare/1.6...1.7))"
@@ -1071,8 +1071,8 @@
     "https://github.com/v2rayA/v2rayA": {
         "created_at": "2019-10-18 20:42:06",
         "description": "A web GUI client of Project V which supports V2Ray, Xray, SS, SSR, Trojan and Pingtunnel 🚀",
-        "commit_date": "2023-06-27 12:23:02",
-        "commit_message": "build-helper: use Set-Location instead of cd",
+        "commit_date": "2023-06-29 02:24:05",
+        "commit_message": "Fix Windows installer build",
         "release_tag": "v2.0.5",
         "release_date": "2023-04-08 06:20:57",
         "release_message": "## What's Changed\r\n* Fix tip label display by @aeeq in https://github.com/v2rayA/v2rayA/pull/889\r\n\r\n## New Contributors\r\n* @aeeq made their first contribution in https://github.com/v2rayA/v2rayA/pull/889\r\n\r\n**Full Changelog**: https://github.com/v2rayA/v2rayA/compare/v2.0.4...v2.0.5"
@@ -2005,8 +2005,8 @@
     "https://github.com/bit4woo/knife": {
         "created_at": "2018-06-12 14:25:18",
         "description": "A burp extension that add some useful function to  Context Menu 添加一些右键菜单让burp用起来更顺畅",
-        "commit_date": "2023-05-26 06:13:09",
-        "commit_message": "Update GUI.java",
+        "commit_date": "2023-06-29 02:36:26",
+        "commit_message": "Update FindUrlAndRequest.java",
         "release_tag": "v2.2",
         "release_date": "2023-04-25 03:38:54",
         "release_message": "更新“Find URL And Request”功能\r\n更新chinese中文显示面板逻辑，及时刷新避免有时显示不一致的问题\r\n端口扫描逻辑优化，多个host在同一个命令行中完成扫描，避免打开太多窗口\r\n更新dismiss功能，规则更清晰也更容易自行编辑处理。\r\n让proxy中的数据包编辑更改可视化，更容易判断数据处理规则是否正确\r\n数据包修改更新、丢弃转发的规则类型更丰富，适应更多场景。"
@@ -2951,8 +2951,8 @@
     "https://github.com/dbeaver/dbeaver": {
         "created_at": "2015-10-21 08:26:28",
         "description": "Free universal database tool and SQL client",
-        "commit_date": "2023-06-28 15:24:10",
-        "commit_message": "dbeaver/pro#1747 Lazy SQL editor input initialize fix (#20407)",
+        "commit_date": "2023-06-29 11:40:56",
+        "commit_message": "CB-3498 database transfer use entity id instead of node path (#20253)\n\n* CB-3498 database transfer use entity id instead of node path\r\n\r\n* CB-3498 remove container node from consumer settings\r\n\r\n* CB-3498 use constants for consumer serializer params\r\n\r\n* CB-3498 get navigator model from project\r\n\r\n* CB-3498 get navigator model refactor\r\n\r\n* CB-3498 code style fix\r\n\r\n* CB-3498 save entity id in consumer settings\r\n\r\n* CB-3580 task fixes",
         "release_tag": "23.1.1",
         "release_date": "2023-06-25 18:29:59",
         "release_message": "\n                - SQL Editor:\n                    - User can configure the options on the toolbar by pressing the gear button in the editor\n                    - Issue with missing \"Copy file path\" option was fixed\n                - Data Editor:\n                    - Statistics view now can be disabled\n                    - Issue with References tab was fixed\n                    - Spatial tiles configuration was fixed (thanks to @otbutz)\n                - ER Diagram: issue with element removal after using View Style option was fixed\n                - Data transfer: issue with exporting a table without data when using bulk loading was fixed\n                - New drivers: TDengine database is now supported (thanks @sangshuduo).\n                - General UI:\n                    - Users can export DBeaver settings and import them\n                    - Notifications in Dark theme became topic \"Notices in the dark\" became readable\n                    - Users can use drag-n-drop to copy scripts, open database objects and insert Navigator node names into the editor\n                - Connectivity:\n                    - User can add snapshot maven repository\n                    - \"Automatically end long idle transactions\" option was redesigned\n                    - Authentication failure when connecting via SSH was fixed\n                    - Now users can connect with jump server using SSHJ\n                    - Issue with connecting to Azure SQL Server using Active Directory was fixed\n                - Security: SQLite driver version was updated\n                - Databases:\n                    - DB2z and Denodo: \"Show duplicates\" button in Grouping panel was fixed\n                    - Greenplum: function DDL was fixed (default parameter values)\n                    - Oracle:\n                        - Dates of creation and modification appeared in the information about the packages\n                        - Table partitions and subpartitions reading was fixed\n                        - Issue with missing tablespace statistics after object update was fixed\n                    - Snowflake: quotation rules for object identifiers were added\n                - Localization:\n                    - Users can now select Portuguese as the default language during installation or in Preferences\n                    - Portuguese localization was improved (thanks to @brlarini)\n                    - German localization was improved (thanks to @coderkun)\n                - Misc: we switched to Eclipse 2023-06 and Java-17 as a base platform\n            "
@@ -3050,11 +3050,11 @@
     "https://github.com/zan8in/afrog": {
         "created_at": "2022-02-24 06:00:32",
         "description": "A Security Tool for Bug Bounty, Pentest and Red Teaming.",
-        "commit_date": "2023-06-28 09:21:14",
-        "commit_message": "Merge branch 'main' of https://github.com/zan8in/afrog",
-        "release_tag": "v2.6.1",
-        "release_date": "2023-06-26 03:29:12",
-        "release_message": "- We have performed urgent repairs on Yonyou NC PoCs to ensure accurate vulnerability scanning. Thank you, @wuha0926 , for discovering and assisting in resolving the issue. \r\n\r\n- Thank you, @zhizhuoshuma, for optimizing the kingdee-erp-binaryformatterproxy-deserial PoCs.\r\n\r\n---------------\r\n\r\n- 我们已对 Yonyou NC PoCs 进行紧急修复，以确保扫描能够准确检测漏洞，感谢 @wuha0926 发现并协助修复问题。\r\n\r\n- 感谢 @zhizhuoshuma 对 kingdee-erp-binaryformatterproxy-deserial PoCs 进行优化。"
+        "commit_date": "2023-06-29 09:25:41",
+        "commit_message": "remove and fix some poc",
+        "release_tag": "v2.7.0",
+        "release_date": "2023-06-29 01:41:54",
+        "release_message": "● Improvement: Enhance the functionality of the -s and -S commands. Currently, we have added support for using -s and -S simultaneously in both -pl and scan filtering.\r\n● -smart  Intelligent adjustment of concurrency based on changes in the total number of assets being scanned.\r\n● Add built-in functions toUpper and toLower.\r\n\r\n-----------------------------\r\n\r\n● 改进 -s 和 -S 命令的功能。目前，我们已经支持在 -pl 和扫描过滤中同时使用 -s 和 -S\r\n● -smart 根据资产总数的扫描变化，智能调整并发数。\r\n● 新增内置函数 toUpper 和 toLower\r\n\r\n--------------------\r\n**afrog 2.7.0 新功能小技巧：**\r\n① 搜索“用友”存在的高危和紧急漏洞 afrog -pl -s yonyou,用友  -S high,critical\r\n② 搭配本地的POC一同搜索“用友”存在的高危和紧急漏洞afrog -pl -s yonyou,用友  -S high,critical -ap \"d:/mypoc1,e:/mypoc2\"\r\n③ 扫描“用友”存在的高危和紧急漏洞 afrog -T urls.txt  -s yonyou,用友  -S high,critical\r\n"
     },
     "https://github.com/moonD4rk/HackBrowserData": {
         "created_at": "2020-06-18 03:24:31",
@@ -3699,10 +3699,10 @@
     "https://github.com/carlospolop/PEASS-ng": {
         "created_at": "2019-01-13 19:58:24",
         "description": "PEASS - Privilege Escalation Awesome Scripts SUITE (with colors)",
-        "commit_date": "2023-05-31 22:16:51",
-        "commit_message": "f",
-        "release_tag": "20230625-4d3aaa66",
-        "release_date": "2023-06-25 04:28:09",
+        "commit_date": "2023-06-29 10:54:44",
+        "commit_message": "Merge pull request #365 from sttlr/patch-1\n\nFix Timeout parameter in Peass Metasploit module",
+        "release_tag": "20230629-ef73d1a1",
+        "release_date": "2023-06-29 11:13:56",
         "release_message": ""
     },
     "https://github.com/waderwu/attackRmi": {
@@ -3906,20 +3906,20 @@
     "https://github.com/anchore/syft": {
         "created_at": "2020-05-07 18:19:29",
         "description": "CLI tool and library for generating a Software Bill of Materials from container images and filesystems",
-        "commit_date": "2023-06-28 16:05:12",
-        "commit_message": "chore(deps): update stereoscope to cd49355d934e9e09339e0b690398afe7bd9f63f1 (#1903)\n\nSigned-off-by: GitHub <noreply@github.com>\r\nCo-authored-by: kzantow <kzantow@users.noreply.github.com>",
-        "release_tag": "v0.84.0",
-        "release_date": "2023-06-20 18:12:06",
-        "release_message": "# Changelog\n\n## [v0.84.0](https://github.com/anchore/syft/tree/v0.84.0) (2023-06-20)\n\n[Full Changelog](https://github.com/anchore/syft/compare/v0.83.1...v0.84.0)\n\n### Breaking Changes\n\n- Pad artifact IDs [[PR #1882](https://github.com/anchore/syft/pull/1882)] [[willmurphyscode](https://github.com/willmurphyscode)]\n\n### Additional Changes\n\n- chore: update SPDX license list to 3.21 [[PR #1885](https://github.com/anchore/syft/pull/1885)] [[kzantow](https://github.com/kzantow)]\n\n\n\n"
+        "commit_date": "2023-06-29 18:10:30",
+        "commit_message": "chore(deps): update bootstrap tools to latest versions (#1905)\n\nSigned-off-by: GitHub <noreply@github.com>\r\nCo-authored-by: spiffcs <spiffcs@users.noreply.github.com>",
+        "release_tag": "v0.84.1",
+        "release_date": "2023-06-29 17:24:30",
+        "release_message": "# Changelog\n\n## [v0.84.1](https://github.com/anchore/syft/tree/v0.84.1) (2023-06-29)\n\n[Full Changelog](https://github.com/anchore/syft/compare/v0.84.0...v0.84.1)\n\n### Bug Fixes\n\n- Fix version detection in Java archive name parsing [[PR #1889](https://github.com/anchore/syft/pull/1889)] [[luhring](https://github.com/luhring)]\n- fix: add support for Dart SDK package dependencies [[PR #1891](https://github.com/anchore/syft/pull/1891)] [[rufman](https://github.com/rufman)]\n- Invalid CycloneDX JSON generated for specific images like \"eclipse-temurin:17-jre-alpine\" [[Issue #1877](https://github.com/anchore/syft/issues/1877)] [[PR #1879](https://github.com/anchore/syft/pull/1879)] [[kzantow](https://github.com/kzantow)]\n- Ubuntu: Cannot run the unit tests locally [[Issue #1895](https://github.com/anchore/syft/issues/1895)]\n- Distroless image incorrectly reporting DEB python as binary [[Issue #1900](https://github.com/anchore/syft/issues/1900)] [[PR #1901](https://github.com/anchore/syft/pull/1901)] [[westonsteimel](https://github.com/westonsteimel)]\n\n### Additional Changes\n\n- Simplify the SBOM writer interface [[PR #1892](https://github.com/anchore/syft/pull/1892)] [[wagoodman](https://github.com/wagoodman)]\n\n\n\n"
     },
     "https://github.com/chaitin/safeline": {
         "created_at": "2023-04-12 11:30:14",
         "description": "一款足够简单、足够好用、足够强的免费 WAF。基于业界领先的语义引擎检测技术，作为反向代理接入，保护你的网站不受黑客攻击。",
-        "commit_date": "2023-06-28 02:51:23",
-        "commit_message": "安装 docker 后加了自动启动的步骤",
-        "release_tag": "v1.10.0",
-        "release_date": "2023-06-21 09:08:55",
-        "release_message": "## 新增\r\n\r\n- 防护站点新增 “运行模式”，可以一键将站点设为 观察 或 维护 模式了\r\n\r\n## 优化\r\n\r\n- 修复了站点列表没有分页器的问题\r\n- 修复了窗口水平滚动时导航栏会错位的问题\r\n- 修复了黑白名单配置 “不属于 IP 组” 的条件时，列表显示组 ID，而未显示组名称的问题\r\n- 优化了界面的 UI 与交互"
+        "commit_date": "2023-06-29 07:21:33",
+        "commit_message": "路径识别的问题刚才没修好，重修了一次",
+        "release_tag": "v2.0.0",
+        "release_date": "2023-06-29 03:08:12",
+        "release_message": "## 新增\r\n\r\n- 人机验证\r\n- 支持嵌入式部署，可以通过 [t1k 协议](https://github.com/chaitin/lua-resty-t1k) 直接把流量转发到雷池进行检测\r\n- 把日志详情中的源 IP 加入到 IP 组时，支持调整 IP 为任意 IP 或网段\r\n\r\n## 优化\r\n- 日志列表按照时间和 ID 排序，防止出现小范围的时间乱序\r\n- 转发流量时，自动设置请求头 X-Forwarded-Proto，适配更多代理场景\r\n- 优化界面 UI，修复其他一些已知问题"
     },
     "https://github.com/stamparm/identYwaf": {
         "created_at": "2019-01-10 11:27:58",
@@ -3951,8 +3951,8 @@
     "https://github.com/quay/clair": {
         "created_at": "2015-11-13 18:46:16",
         "description": "Vulnerability Static Analysis for Containers",
-        "commit_date": "2023-06-26 20:04:47",
-        "commit_message": "cicd: don't checkout source on clairctl builds\n\nThe presence of a `.git` directory messes with the new go toolchain vcs\ntooling, and we don't actually want a source checkout, anyway.\n\nSigned-off-by: Hank Donnay <hdonnay@redhat.com>",
+        "commit_date": "2023-06-29 19:40:59",
+        "commit_message": "clairctl: `admin` subcommand\n\nThis change adds the skeleton of an `admin` subcommand that we can\nexpand for various administrator tasks.\n\nThe proximate need is to be able to run an index creation that may take\ndays on a sufficiently large database.\n\nSigned-off-by: Hank Donnay <hdonnay@redhat.com>",
         "release_tag": "v4.6.1",
         "release_date": "2023-04-13 18:29:02",
         "release_message": "<a name=\"unreleased\"></a>\n## [Unreleased]\n\n\n<a name=\"v4.6.1\"></a>\n## [v4.6.1] - 2023-04-13\n### Airgap\n- [e02aba27](https://github.com/quay/clair/commit/e02aba27de01cb461f79bee9644aac80c2f9bd65): Remove libindex Airgap option\n### Chore\n- [36990912](https://github.com/quay/clair/commit/36990912450fba2ccbef260a4829f1d9f69f45c6): v4.6.1 changelog bump\n- [e676671c](https://github.com/quay/clair/commit/e676671c17d2612470cd8de05aa668312fbb3036): Bump Claircore to v1.4.21\n### Go.Mod\n- [36de97cc](https://github.com/quay/clair/commit/36de97ccf619113b1ef4dff6bfd0e0c692252544): update json (de)serializer\n### Httptransport\n- [922f33d1](https://github.com/quay/clair/commit/922f33d18919578049fbf2ccb756e6990b66f280): fix request_id logging\n### Httputil\n- [9e8eacf5](https://github.com/quay/clair/commit/9e8eacf51b2a45f967036396b3dc14a52edc480d): fix ParseIP usage\n -  [#1689](https://github.com/quay/clair/issues/1689)### Notifier\n- [ffa4556d](https://github.com/quay/clair/commit/ffa4556d0f251cc984ed34594356625b9b747744): Avoid double reference\n\n[Unreleased]: https://github.com/quay/clair/compare/v4.6.1...HEAD\n[v4.6.1]: https://github.com/quay/clair/compare/v4.6.0...v4.6.1\n"
@@ -3969,8 +3969,8 @@
     "https://github.com/aquasecurity/trivy": {
         "created_at": "2019-04-11 01:01:07",
         "description": "Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more",
-        "commit_date": "2023-06-28 14:38:39",
-        "commit_message": "fix: scan job pod it not found on k8s-1.27.x (#4729)\n\nSigned-off-by: chenk <hen.keinan@gmail.com>",
+        "commit_date": "2023-06-29 13:15:52",
+        "commit_message": "feat(cli): add include-dev-deps flag (#4700)\n\n* add Dev field for Package\n\n* fix integration test\n\n* update docs\n\n* feat(cli): add include-dev flag\n\n* bump go-dep-parser\n\n* update docs\n\n* add integration test\n\n* refactor\n\n* refactor\n\n* fix integration test\n\n* refactor: rename flag to include-dev-deps\n\n* update docs\n\n* update docs\n\n* filter dev deps when scanning packages\n\n* add flag support for server mode\n\n* refactor: remove comment that might confuse\n\n* refactor: move --include-dev-deps to the scanner flag group\n\n* refactor: not return apps\n\n* docs: update\n\n---------\n\nCo-authored-by: knqyf263 <knqyf263@gmail.com>",
         "release_tag": "v0.42.1",
         "release_date": "2023-06-08 15:09:13",
         "release_message": "## Changelog\n* 9a279fa7b ci: remove 32bit packages (#4585)\n* d52b0b7bc fix(misconf): deduplicate misconf results (#4588)\n* 9b531fa27 fix(vm): support sector size of 4096 (#4564)\n* 8ca1bfdd2 fix(misconf): terraform relative paths (#4571)\n* c20d46604 fix(purl): skip unsupported library type (#4577)\n* 52cbe7975 fix(terraform): recursively detect all Root Modules (#4457)\n* 4a5b91557 fix(vm): support post analyzer for vm command (#4544)\n* 56cdc55f7 fix(nodejs): change the type of the devDependencies field (#4560)\n* 17d753676 fix(sbom): export empty dependencies in CycloneDX (#4568)\n* 2796abe1e refactor: add composite fs for post-analyzers (#4556)\n* 22a157380 chore(deps): bump golangci/golangci-lint-action from 3.4.0 to 3.5.0 (#4554)\n* 43586659a chore(deps): bump helm/kind-action from 1.5.0 to 1.7.0 (#4526)\n* 508139965 chore(deps): bump github.com/BurntSushi/toml from 1.2.1 to 1.3.0 (#4528)\n* e1a38128a chore(deps): bump github.com/alicebob/miniredis/v2 from 2.30.2 to 2.30.3 (#4529)\n* 283eef637 chore(deps): bump github.com/aws/aws-sdk-go-v2/service/ec2 (#4536)\n* bbd7b9874 chore(deps): bump github.com/tetratelabs/wazero from 1.0.0 to 1.2.0 (#4549)\n* 11c81bf2f chore(deps): bump github.com/spf13/cast from 1.5.0 to 1.5.1 (#4532)\n* 2d8d63e61 chore(deps): bump github.com/testcontainers/testcontainers-go (#4537)\n* a46839b1c chore(deps): bump github.com/go-git/go-git/v5 from 5.6.1 to 5.7.0 (#4530)\n* 19715f5de chore(deps): bump github.com/aws/aws-sdk-go-v2/config (#4534)\n\n"
@@ -3978,8 +3978,8 @@
     "https://github.com/anchore/grype": {
         "created_at": "2020-05-26 13:44:38",
         "description": "A vulnerability scanner for container images and filesystems",
-        "commit_date": "2023-06-27 19:57:08",
-        "commit_message": "add oss community board auto-add workflow (#1364)\n\nSigned-off-by: Alex Goodman <wagoodman@users.noreply.github.com>",
+        "commit_date": "2023-06-29 21:05:17",
+        "commit_message": "Add a simple CSV format template to the templates/ directory and tweak docs (#1366)",
         "release_tag": "v0.63.0",
         "release_date": "2023-06-21 16:15:32",
         "release_message": "# Changelog\r\n\r\n## [v0.63.0](https://github.com/anchore/grype/tree/v0.63.0) (2023-06-21)\r\n\r\n[Full Changelog](https://github.com/anchore/grype/compare/v0.62.3...v0.63.0)\r\n\r\n### Added Features\r\n\r\n- Always include the specific package name and version used in the vulnerability search in the matchDetails section of the output [[PR #1339](https://github.com/anchore/grype/pull/1339)] [[westonsteimel](https://github.com/westonsteimel)]\r\n- Expose Go template file that produces the table report [[Issue #629](https://github.com/anchore/grype/issues/629)] [[PR #1343](https://github.com/anchore/grype/pull/1343)] [[jneate](https://github.com/jneate)]\r\n- Add a folder for community Go templates (see templates/README.md for more details) [[Issue #1316](https://github.com/anchore/grype/issues/1316)]\r\n\r\n### Breaking Changes\r\n\r\n- update Syft to v0.84.0: stereoscope platform fix and artifact ID padding [[PR #1354](https://github.com/anchore/grype/pull/1354)] [[anchore-actions-token-generator](https://github.com/anchore-actions-token-generator)]\r\n\r\n\r\n\r\n"
@@ -4104,7 +4104,7 @@
     "https://github.com/arch3rPro/Pentest-Windows": {
         "created_at": "2022-07-08 02:43:58",
         "description": "Windows11 Penetration Suite Toolkit",
-        "commit_date": "2023-06-06 09:01:50",
+        "commit_date": "2023-06-29 03:49:15",
         "commit_message": "Update README.md",
         "release_tag": "v2.1",
         "release_date": "2023-06-05 06:27:12",
@@ -4275,7 +4275,7 @@
     "https://github.com/aiboboxx/v2rayfree": {
         "created_at": "2021-10-13 11:34:53",
         "description": "v2ray公益免费节点、最新2ray免费v节点订阅地址、v2ray免费节点每日更新、免费ss/v2ray/trojan节点、freefq ",
-        "commit_date": "2023-06-28 12:47:04",
+        "commit_date": "2023-06-29 12:43:42",
         "commit_message": "update",
         "release_tag": "",
         "release_date": "",
@@ -4320,8 +4320,8 @@
     "https://github.com/freefq/free": {
         "created_at": "2020-06-07 02:48:33",
         "description": "翻墙、免费翻墙、免费科学上网、免费节点、免费梯子、免费ss/v2ray/trojan节点、蓝灯、谷歌商店、翻墙梯子",
-        "commit_date": "2023-06-29 00:00:02",
-        "commit_message": "updated_at 06-29 08:00",
+        "commit_date": "2023-06-30 00:00:02",
+        "commit_message": "updated_at 06-30 08:00",
         "release_tag": "",
         "release_date": "",
         "release_message": ""

@@ -1,24 +1,24 @@
-# 更新于 2023-06-29 08:49:14
+# 更新于 2023-06-30 08:47:39
 
 ## 近15天release更新记录
 | 更新时间 | 项目名称 | 版本 | 更新内容 |
 | :---- | :---- | :---- | :---- |
+|2023-06-29 17:24:30|[syft](https://github.com/anchore/syft)|v0.84.1|# Changelog  ##  (2023-06-29)    ### <br>Bug Fixes  - Fix version detection in <br>Java archive name parsing ] ] - fix: a<br>dd support for Dart SDK package depend<br>encies ] ] - Invalid CycloneDX JSON ge<br>nerated for specific images like "ecli<br>pse-temurin:17-jre-alpine" ] ] ] - Ubu<br>ntu: Cannot run the unit tests locally<br> ] - Distroless image incorrectly repo<br>rting DEB python as binary ] ] ]  ### <br>Additional Changes  - Simplify the SBO<br>M writer interface ] ]    |
+|2023-06-29 11:13:56|[PEASS-ng](https://github.com/carlospolop/PEASS-ng)|2023062<br>9-ef73d1<br>a1||
+|2023-06-29 03:08:12|[safeline](https://github.com/chaitin/safeline)|v2.0.0|## 新增    - 人机验证  - 支持嵌入式部<br>署，可以通过  直接把流量转发到雷池进行<br>检测  - 把日志详情中的源 IP 加入到 IP <br>组时，支持调整 IP 为任意 IP 或网段    #<br># 优化  - 日志列表按照时间和 ID 排序，<br>防止出现小范围的时间乱序  - 转发流量时<br>，自动设置请求头 X-Forwarded-Proto，适<br>配更多代理场景  - 优化界面 UI，修复其他<br>一些已知问题|
+|2023-06-29 01:41:54|[afrog](https://github.com/zan8in/afrog)|v2.7.0|● Improvement: Enhance the functiona<br>lity of the -s and -S commands. Curren<br>tly, we have added support for using -<br>s and -S simultaneously in both -pl an<br>d scan filtering.  ● -smart  Intellig<br>ent adjustment of concurrency based on<br> changes in the total number of assets<br> being scanned.  ● Add built-in funct<br>ions toUpper and toLower.    ---------<br>--------------------    ● 改进 -s 和 <br>-S 命令的功能。目前，我们已经支持在 -p<br>l 和扫描过滤中同时使用 -s 和 -S  ● -s<br>mart 根据资产总数的扫描变化，智能调整<br>并发数。  ● 新增内置函数 toUpper 和 to<br>Lower    --------------------  **afrog<br> 2.7.0 新功能小技巧：**  ① 搜索“用友<br>”存在的高危和紧急漏洞 afrog -pl -s yon<br>you,用友  -S high,critical  ② 搭配本<br>地的POC一同搜索“用友”存在的高危和紧急<br>漏洞afrog -pl -s yonyou,用友  -S high,c<br>ritical -ap "d:/mypoc1,e:/mypoc2"  ③ <br>扫描“用友”存在的高危和紧急漏洞 afrog <br>-T urls.txt  -s yonyou,用友  -S high,c<br>ritical  |
 |2023-06-28 09:28:17|[Exp-Tools](https://github.com/cseroad/Exp-Tools)|v1.2.0|- 新增用友畅捷通T+SQL注入  - 新增致远<br>帆软报表文件读取-bypass  - 新增泛微eoff<br>ice uploadify上传  - 新增php-framework<br>和java-framework  - 新增nacos任意用户添<br>加  - 新增金蝶云星空反序列化  - 优化部<br>分代码|
 |2023-06-27 15:34:27|[faker](https://github.com/joke2k/faker)|v18.11.<br>2|See .|
 |2023-06-27 13:43:22|[fofa_viewer](https://github.com/wgpsec/fofa_viewer)|1.1.13|fix-bug:  1. 解决添加规则的报错问题  <br>optimize :  1. 考虑到有师傅会把jar包打<br>包成app，因此将日志路径修改为用户目录下|
 |2023-06-27 08:57:25|[mitaka](https://github.com/ninoseki/mitaka)|v1.3.0|-  Add Add Coalition searcher (#737) <br>     - https://ess.coalitioninc.com/ |
 |2023-06-27 03:53:11|[AsamF](https://github.com/Kento-Sec/AsamF)|v0.2.4|1. 修复了fofa type接口问题。目前根据f<br>ofa政策，高级会员无法使用该接口。    2<br>. 修复了0zone读取apikey的问题。|
 |2023-06-26 20:32:50|[nuclei](https://github.com/projectdiscovery/nuclei)|v2.9.7|    ## What's Changed  ### 🎉 Feature<br>s    * **Added tls client hello (ja3) <br>randomization by @Mzack9999** in https<br>://github.com/projectdiscovery/nuclei/<br>pull/3844       -tlsi, -tls-impersonat<br>e  enable experimental client hello (j<br>a3) tls randomization    * Added query<br> fuzzing support in headless protocol <br>by @ShubhamRasal in https://github.com<br>/projectdiscovery/nuclei/pull/3790  * <br>Added cookie reuse in workflow for hea<br>dless template by @Mzack9999 in https:<br>//github.com/projectdiscovery/nuclei/p<br>ull/3850  * Added header and status ma<br>tchers to headless protocol by @doganc<br>anbakir in https://github.com/projectd<br>iscovery/nuclei/pull/3794  * Added {{p<br>ublic_ip()}} helper function by @Mzack<br>9999 in https://github.com/projectdisc<br>overy/nuclei/pull/3853  * Added templa<br>te option (disable-path-automerge: tru<br>e) to disable path automerge in raw re<br>quest by @RamanaReddy0M in https://git<br>hub.com/projectdiscovery/nuclei/pull/3<br>799    ### 🐞 Bugs  * Fixed issue with<br> tls protocol causing scan to stuck by<br> @ehsandeep in https://github.com/proj<br>ectdiscovery/nuclei/pull/3792  * Fixed<br> panic: runtime error by @Mzack9999 in<br> https://github.com/projectdiscovery/n<br>uclei/pull/3816  * Fixed issue in file<br> protocol with matchers and condition <br>by @Mzack9999 in https://github.com/pr<br>ojectdiscovery/nuclei/pull/3820  * Fix<br>ed output path in unsafe mode by @ehsa<br>ndeep in https://github.com/projectdis<br>covery/nuclei/pull/3831  * Fixed rende<br>ring issues with markdown and jira exp<br>orter by @forgedhallpass in https://gi<br>thub.com/projectdiscovery/nuclei/pull/<br>3849  * Fixed issue custom client cert<br>ificate input by @Mzack9999 in https:/<br>/github.com/projectdiscovery/nuclei/pu<br>ll/3851    ### 🔨 Maintenance  * Added<br> better debug message formatting by @M<br>zack9999 in https://github.com/project<br>discovery/nuclei/pull/3859  * Fixed de<br>precatedProtocolNameTemplates concurre<br>nt map writes by @cn-kali-team in http<br>s://github.com/projectdiscovery/nuclei<br>/pull/3785  * Enabled -no-httpx implic<br>itly  when -passive scan is launched b<br>y @dogancanbakir in https://github.com<br>/projectdiscovery/nuclei/pull/3789    <br>Issues closed in this release - https:<br>//github.com/projectdiscovery/nuclei/m<br>ilestone/34?closed=1    ## New Contrib<br>utors  * @Weltolk made their first con<br>tribution in https://github.com/projec<br>tdiscovery/nuclei/pull/3843    **Full <br>Changelog**: https://github.com/projec<br>tdiscovery/nuclei/compare/v2.9.6...v2.<br>9.7|
-|2023-06-26 03:29:12|[afrog](https://github.com/zan8in/afrog)|v2.6.1|- We have performed urgent repairs on<br> Yonyou NC PoCs to ensure accurate vul<br>nerability scanning. Thank you, @wuha0<br>926 , for discovering and assisting in<br> resolving the issue.     - Thank you,<br> @zhizhuoshuma, for optimizing the kin<br>gdee-erp-binaryformatterproxy-deserial<br> PoCs.    ---------------    - 我们已<br>对 Yonyou NC PoCs 进行紧急修复，以确保<br>扫描能够准确检测漏洞，感谢 @wuha0926 发<br>现并协助修复问题。    - 感谢 @zhizhuosh<br>uma 对 kingdee-erp-binaryformatterprox<br>y-deserial PoCs 进行优化。|
 |2023-06-26 02:21:06|[Dirscan](https://github.com/corunb/Dirscan)|v1.5.1|[+] 新增反向递归扫描：-Ar    [!] 增加<br>探存活开关：-Cs(默认是开的)    |
 |2023-06-25 18:29:59|[dbeaver](https://github.com/dbeaver/dbeaver)|23.1.1|                 - SQL Editor:       <br>              - User can configure the<br> options on the toolbar by pressing th<br>e gear button in the editor           <br>          - Issue with missing "Copy f<br>ile path" option was fixed            <br>     - Data Editor:                   <br>  - Statistics view now can be disable<br>d                     - Issue with Ref<br>erences tab was fixed                 <br>    - Spatial tiles configuration was <br>fixed (thanks to @otbutz)             <br>    - ER Diagram: issue with element r<br>emoval after using View Style option w<br>as fixed                 - Data transf<br>er: issue with exporting a table witho<br>ut data when using bulk loading was fi<br>xed                 - New drivers: TDe<br>ngine database is now supported (thank<br>s @sangshuduo).                 - Gene<br>ral UI:                     - Users ca<br>n export DBeaver settings and import t<br>hem                     - Notification<br>s in Dark theme became topic "Notices <br>in the dark" became readable          <br>           - Users can use drag-n-drop<br> to copy scripts, open database object<br>s and insert Navigator node names into<br> the editor                 - Connecti<br>vity:                     - User can a<br>dd snapshot maven repository          <br>           - "Automatically end long i<br>dle transactions" option was redesigne<br>d                     - Authentication<br> failure when connecting via SSH was f<br>ixed                     - Now users c<br>an connect with jump server using SSHJ<br>                     - Issue with conn<br>ecting to Azure SQL Server using Activ<br>e Directory was fixed                 <br>- Security: SQLite driver version was <br>updated                 - Databases:  <br>                   - DB2z and Denodo: <br>"Show duplicates" button in Grouping p<br>anel was fixed                     - G<br>reenplum: function DDL was fixed (defa<br>ult parameter values)                 <br>    - Oracle:                         <br>- Dates of creation and modification a<br>ppeared in the information about the p<br>ackages                         - Tabl<br>e partitions and subpartitions reading<br> was fixed                         - I<br>ssue with missing tablespace statistic<br>s after object update was fixed       <br>              - Snowflake: quotation r<br>ules for object identifiers were added<br>                 - Localization:      <br>               - Users can now select <br>Portuguese as the default language dur<br>ing installation or in Preferences    <br>                 - Portuguese localiza<br>tion was improved (thanks to @brlarini<br>)                     - German localiz<br>ation was improved (thanks to @coderku<br>n)                 - Misc: we switched<br> to Eclipse 2023-06 and Java-17 as a b<br>ase platform             |
-|2023-06-25 04:28:09|[PEASS-ng](https://github.com/carlospolop/PEASS-ng)|2023062<br>5-4d3aaa<br>66||
 |2023-06-24 05:49:44|[Fvuln](https://github.com/d3ckx1/Fvuln)|Fvuln-1<br>.4.9|1、修复漏洞误报；  2、新增单独或批量<br>漏洞扫描功能，-s 参数；  3、新增33个POC<br>；  4、去掉一些banner。|
 |2023-06-21 20:06:59|[burp-awesome-tls](https://github.com/sleeyax/burp-awesome-tls)|v1.1.0|## Changelog    ### Added  - Custom T<br>LS fingerprint support by @VovkoO (#29<br>) |
 |2023-06-21 16:15:32|[grype](https://github.com/anchore/grype)|v0.63.0|# Changelog    ##  (2023-06-21)      <br>  ### Added Features    - Always inclu<br>de the specific package name and versi<br>on used in the vulnerability search in<br> the matchDetails section of the outpu<br>t ] ]  - Expose Go template file that <br>produces the table report ] ] ]  - Add<br> a folder for community Go templates (<br>see templates/README.md for more detai<br>ls) ]    ### Breaking Changes    - upd<br>ate Syft to v0.84.0: stereoscope platf<br>orm fix and artifact ID padding ] ]   <br>     |
-|2023-06-21 09:08:55|[safeline](https://github.com/chaitin/safeline)|v1.10.0|## 新增    - 防护站点新增 “运行模式<br>”，可以一键将站点设为 观察 或 维护 模<br>式了    ## 优化    - 修复了站点列表没有<br>分页器的问题  - 修复了窗口水平滚动时导<br>航栏会错位的问题  - 修复了黑白名单配置 <br>“不属于 IP 组” 的条件时，列表显示组 I<br>D，而未显示组名称的问题  - 优化了界面<br>的 UI 与交互|
 |2023-06-21 05:56:55|[nemo_go](https://github.com/hanc00l/nemo_go)|v2.9.3|### Updated    - 集成Goby进行漏洞扫描<br>；需要部署服务器模式的goby，并在worker.<br>yml配置api的地址及认证；docker方式默认<br>会在127.0.0.1:8361启动goby-cmd；  - 更<br>新thirdparty组件版本；    ### Fix    - <br>httpx获取HTTP返回包的header数据，在ip/<br>domain详细显示不自动换行    ### Thirdp<br>arty版本  - Xray：1.9.11  - Nuclei：2.<br>9.6  - Goby：2.5.2  - Httpx：1.3.2  - <br>Subfinder：2.6.0  - Observe_ward：2023<br>.6.20|
-|2023-06-20 18:12:06|[syft](https://github.com/anchore/syft)|v0.84.0|# Changelog  ##  (2023-06-20)    ### <br>Breaking Changes  - Pad artifact IDs ]<br> ]  ### Additional Changes  - chore: u<br>pdate SPDX license list to 3.21 ] ]   <br> |
 |2023-06-20 15:28:14|[Elkeid](https://github.com/bytedance/Elkeid)|v1.7.0.<br>13-drive<br>r-ko-202<br>30620||
 |2023-06-20 09:07:40|[Umi-OCR](https://github.com/hiroi-sora/Umi-OCR)|v1.3.5|### v1.3.5 主要更新：  - 新功能：复制<br>识别结果后，可发送指定按键，以便联动唤<br>起翻译器等工具。👉  - 新功能：命令行增<br>加切换识别语言的指令。👉  - 修Bug：修复<br>了低配置机器上有概率误报超时 OCR init t<br>imeout: 5s 的问题。  - 调整：默认停止<br>任务30秒后释放一次内存。    ### 文件说<br>明  软件本体：Umi-OCR.v1.3.5.7z（67MB）<br>，内置简体中文&英文通用识别库。  软件（<br>多国语言整合版）：Umi-OCR.v1.3.5_ALL_la<br>nguages.7z（118MB），内置多国语言识别<br>库。    多国语言扩展包：Umi-OCR.v1.3_DL<br>C_languages.7z（50MB），可向软件本体导<br>入繁中,英,日,韩,俄,德,法 多国语言识别库<br>。|
 |2023-06-19 10:39:46|[ghauri](https://github.com/r0oth3x49/ghauri)|1.2.1|# Fixes   - fixed issue with HTTP req<br>uest parsing #80.|
@@ -26,48 +26,50 @@
 |2023-06-18 09:08:03|[linbing](https://github.com/taomujian/linbing)|v3.0||
 |2023-06-17 12:44:55|[Viper](https://github.com/FunnyWolf/Viper)|v1.5.30|### 新功能  - Viper所有功能都可通过右<br>下角链接跳转到对应文档  ### 优化  - 监<br>听防火墙前端UI优化  - 只显示Session功能<br>可在主页面使用  - 合并metasploit-framew<br>ork 6.3.22版本  ### Bugfix  - 修复pyth<br>on类型payload断线后无法重连及无法清理<br>历史网络连接问题|
 |2023-06-15 03:50:43|[GoWxDump](https://github.com/SpenserCai/GoWxDump)|v1.0.12|#22 |
-|2023-06-14 03:14:46|[EHole](https://github.com/EdgeSecurityTeam/EHole)|v3.1|1. 修复 JS 跳转同时匹配使用单引号或双<br>引号包围的URL；  2. 修复 URL 是否已经以<br>"/"结尾，如果是，就不再添加"/"；  3. <br>修复 UA 头被检测问题；  4. 新增 [202301<br>31] finger.json 指纹；  5. 修改 fofa.i<br>nfo API 接口。|
 ## 近15天commit提交记录
 | 提交时间 | 项目名称 | 更新内容 |
 | :---- | :---- | :---- |
-|2023-06-29 00:45:17|[NucleiTP](https://github.com/ExpLangcn/NucleiTP)|更新啦❤️|
+|2023-06-30 00:45:15|[NucleiTP](https://github.com/ExpLangcn/NucleiTP)|更新啦❤️|
+|2023-06-30 00:00:02|[free](https://github.com/freefq/free)|updated_at 06-30 08:00|
+|2023-06-29 22:45:15|[PocOrExp_in_Githu<br>b](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-06-30 06:45:15|
+|2023-06-29 21:05:17|[grype](https://github.com/anchore/grype)|Add a simple CSV format template to the templates/ <br>directory and tweak docs (#1366)|
+|2023-06-29 19:40:59|[clair](https://github.com/quay/clair)|clairctl: admin subcommand  This change adds the sk<br>eleton of an admin subcommand that we can expand for<br> various administrator tasks.  The proximate need is<br> to be able to run an index creation that may take d<br>ays on a sufficiently large database.  Signed-off-by<br>: Hank Donnay |
+|2023-06-29 18:10:30|[syft](https://github.com/anchore/syft)|chore(deps): update bootstrap tools to latest versi<br>ons (#1905)  Signed-off-by: GitHub   Co-authored-by:<br> spiffcs |
+|2023-06-29 13:51:25|[sqlmap](https://github.com/sqlmapproject/sqlmap)|Python2.7 has been removed from Github CI/CD|
+|2023-06-29 13:26:32|[fscan](https://github.com/shadow1ng/fscan)|Merge pull request #280 from dksslq/main  输出格式<br>调整|
+|2023-06-29 13:15:52|[trivy](https://github.com/aquasecurity/trivy)|feat(cli): add include-dev-deps flag (#4700)  * add<br> Dev field for Package  * fix integration test  * up<br>date docs  * feat(cli): add include-dev flag  * bump<br> go-dep-parser  * update docs  * add integration tes<br>t  * refactor  * refactor  * fix integration test  *<br> refactor: rename flag to include-dev-deps  * update<br> docs  * update docs  * filter dev deps when scannin<br>g packages  * add flag support for server mode  * re<br>factor: remove comment that might confuse  * refacto<br>r: move --include-dev-deps to the scanner flag group<br>  * refactor: not return apps  * docs: update  -----<br>----  Co-authored-by: knqyf263 |
+|2023-06-29 12:43:42|[v2rayfree](https://github.com/aiboboxx/v2rayfree)|update|
+|2023-06-29 11:40:56|[dbeaver](https://github.com/dbeaver/dbeaver)|CB-3498 database transfer use entity id instead of <br>node path (#20253)  * CB-3498 database transfer use <br>entity id instead of node path    * CB-3498 remove c<br>ontainer node from consumer settings    * CB-3498 us<br>e constants for consumer serializer params    * CB-3<br>498 get navigator model from project    * CB-3498 ge<br>t navigator model refactor    * CB-3498 code style f<br>ix    * CB-3498 save entity id in consumer settings <br>   * CB-3580 task fixes|
+|2023-06-29 10:54:44|[PEASS-ng](https://github.com/carlospolop/PEASS-ng)|Merge pull request #365 from sttlr/patch-1  Fix Tim<br>eout parameter in Peass Metasploit module|
+|2023-06-29 09:25:41|[afrog](https://github.com/zan8in/afrog)|remove and fix some poc|
+|2023-06-29 07:21:33|[safeline](https://github.com/chaitin/safeline)|路径识别的问题刚才没修好，重修了一次|
+|2023-06-29 06:02:32|[ENScan_GO](https://github.com/wgpsec/ENScan_GO)|Merge pull request #63 from Giles2000/master  add s<br>ome version request|
+|2023-06-29 04:15:22|[murphysec](https://github.com/murphysecurity/murphysec)|refactor: remove internal command cpphash|
+|2023-06-29 03:49:15|[Pentest-Windows](https://github.com/arch3rPro/Pentest-Windows)|Update README.md|
+|2023-06-29 02:52:06|[404StarLink](https://github.com/knownsec/404StarLink)|weekly update at 2023-06-29|
+|2023-06-29 02:36:26|[knife](https://github.com/bit4woo/knife)|Update FindUrlAndRequest.java|
+|2023-06-29 02:24:05|[v2rayA](https://github.com/v2rayA/v2rayA)|Fix Windows installer build|
+|2023-06-29 01:57:29|[vulnerability](https://github.com/lal0ne/vulnerability)|CVE-2022-4395|
 |2023-06-29 00:33:34|[neuvector](https://github.com/neuvector/neuvector)|Merge pull request #899 from williamlin-suse/main  <br>NVSHAS-8099: Hide 'AWS Marketplace Support' section <br>on UI when aws bi…|
-|2023-06-29 00:00:02|[free](https://github.com/freefq/free)|updated_at 06-29 08:00|
-|2023-06-28 22:45:41|[PocOrExp_in_Githu<br>b](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-06-29 06:45:41|
-|2023-06-28 16:05:12|[syft](https://github.com/anchore/syft)|chore(deps): update stereoscope to cd49355d934e9e09<br>339e0b690398afe7bd9f63f1 (#1903)  Signed-off-by: Git<br>Hub   Co-authored-by: kzantow |
 |2023-06-28 15:50:57|[X-Marshal](https://github.com/XTeam-Wing/X-Marshal)|Update README.md|
-|2023-06-28 15:24:10|[dbeaver](https://github.com/dbeaver/dbeaver)|dbeaver/pro#1747 Lazy SQL editor input initialize f<br>ix (#20407)|
 |2023-06-28 14:42:00|[cf](https://github.com/teamssix/cf)|Merge pull request #249 from teamssix/beta  fix: fi<br>x the bug causing an error when listing objects in H<br>uawei Clou…|
-|2023-06-28 14:38:39|[trivy](https://github.com/aquasecurity/trivy)|fix: scan job pod it not found on k8s-1.27.x (#4729<br>)  Signed-off-by: chenk |
-|2023-06-28 12:47:04|[v2rayfree](https://github.com/aiboboxx/v2rayfree)|update|
 |2023-06-28 12:06:13|[awesome-chatgpt-z<br>h](https://github.com/yzfly/awesome-chatgpt-zh)|update readme|
 |2023-06-28 09:55:05|[Elkeid](https://github.com/bytedance/Elkeid)|fix:driver ci update ubuntu18|
 |2023-06-28 09:23:27|[Exp-Tools](https://github.com/cseroad/Exp-Tools)|Update README.md|
-|2023-06-28 09:21:14|[afrog](https://github.com/zan8in/afrog)|Merge branch 'main' of https://github.com/zan8in/af<br>rog|
 |2023-06-28 08:58:30|[SmsForwarder](https://github.com/pppscn/SmsForwarder)|修复：bark加密推送，解密失败 #307 #314|
-|2023-06-28 08:48:06|[fscan](https://github.com/shadow1ng/fscan)|Merge pull request #292 from ruishawn/dev1  fix: ad<br>d field names to struct literal|
-|2023-06-28 08:10:57|[murphysec](https://github.com/murphysecurity/murphysec)|feat(maven): timeout if maven execution hang|
-|2023-06-28 02:51:23|[safeline](https://github.com/chaitin/safeline)|安装 docker 后加了自动启动的步骤|
-|2023-06-28 01:33:57|[vulnerability](https://github.com/lal0ne/vulnerability)|CVE-2018-13379|
-|2023-06-27 19:57:08|[grype](https://github.com/anchore/grype)|add oss community board auto-add workflow (#1364)  <br>Signed-off-by: Alex Goodman |
 |2023-06-27 15:23:55|[faker](https://github.com/joke2k/faker)|Bump version: 18.11.1 → 18.11.2|
 |2023-06-27 13:38:48|[fofa_viewer](https://github.com/wgpsec/fofa_viewer)|修复CI|
-|2023-06-27 12:23:02|[v2rayA](https://github.com/v2rayA/v2rayA)|build-helper: use Set-Location instead of cd|
 |2023-06-27 11:00:22|[RmEye](https://github.com/RoomaSec/RmEye)|Update readme.md|
 |2023-06-27 10:59:07|[RmTools](https://github.com/RoomaSec/RmTools)|Update README.md|
 |2023-06-27 10:35:55|[ChatGPT-Shortcut](https://github.com/rockbenben/ChatGPT-Shortcut)|fix: Fix URL issue with ShareButton|
 |2023-06-27 09:31:15|[Kunlun-M](https://github.com/LoRexxar/Kunlun-M)|Merge pull request #235 from LoRexxar/develop  upda<br>te startlink|
-|2023-06-26 20:04:47|[clair](https://github.com/quay/clair)|cicd: don't checkout source on clairctl builds  The<br> presence of a .git directory messes with the new go<br> toolchain vcs tooling, and we don't actually want a<br> source checkout, anyway.  Signed-off-by: Hank Donna<br>y |
 |2023-06-26 19:34:33|[nuclei](https://github.com/projectdiscovery/nuclei)|added release template|
-|2023-06-26 14:37:58|[sqlmap](https://github.com/sqlmapproject/sqlmap)|Fixes #5444|
 |2023-06-26 09:53:01|[FrameVul](https://github.com/Awrrays/FrameVul)|Update README.md|
-|2023-06-26 08:40:36|[ENScan_GO](https://github.com/wgpsec/ENScan_GO)|修复天眼查BUG fix #48 fix #57|
 |2023-06-26 07:04:59|[GobypassAV-shellc<br>ode](https://github.com/Pizz33/GobypassAV-shellcode)|Update README.md|
 |2023-06-26 02:46:37|[Awesome-ChatGPT](https://github.com/dalinvip/Awesome-ChatGPT)|Update README.md|
 |2023-06-26 02:41:07|[Dirscan](https://github.com/corunb/Dirscan)|v1.5.1|
 |2023-06-25 07:28:55|[mitaka](https://github.com/ninoseki/mitaka)|Merge pull request #738 from ninoseki/v1.3.0  v1.3.<br>0|
 |2023-06-25 04:01:34|[iDefender](https://github.com/wecooperate/iDefender)|update|
-|2023-06-25 03:09:13|[404StarLink](https://github.com/knownsec/404StarLink)|weekly update at 2023-06-25|
 |2023-06-24 16:42:03|[kube-bench](https://github.com/aquasecurity/kube-bench)|build(deps): bump actions/setup-go from 3 to 4 (#14<br>02)  Bumps  from 3 to 4. -  -   --- updated-dependen<br>cies: - dependency-name: actions/setup-go   dependen<br>cy-type: direct:production   update-type: version-up<br>date:semver-major ...  Signed-off-by: dependabot[bot<br>]  Co-authored-by: dependabot[bot]  Co-authored-by: <br>chenk |
 |2023-06-24 05:53:31|[Fvuln](https://github.com/d3ckx1/Fvuln)|Update README.md|
 |2023-06-24 05:05:29|[dirsearch](https://github.com/maurosoria/dirsearch)|Merge pull request #1302 from drego85/patch-13  Add<br>ing "config.properties" and sort+remove duplicate|
@@ -98,8 +100,7 @@
 |2023-06-15 11:20:37|[Scanners-Box](https://github.com/We5ter/Scanners-Box)|[+]chainreactors/gogo|
 |2023-06-15 06:28:45|[0day](https://github.com/helloexp/0day)|add usage for CVE-2022-0847|
 |2023-06-15 03:49:16|[GoWxDump](https://github.com/SpenserCai/GoWxDump)|#22|
-|2023-06-15 02:16:57|[OA-EXPTOOL](https://github.com/LittleBear4/OA-EXPTOOL)|Update output.py|
-|2023-06-14 03:08:05|[EHole](https://github.com/EdgeSecurityTeam/EHole)|Update|## 所有项目
+|2023-06-15 02:16:57|[OA-EXPTOOL](https://github.com/LittleBear4/OA-EXPTOOL)|Update output.py|## 所有项目
 # 渗透测试
 ## 信息收集
 ### 资产测绘采集
@@ -249,7 +250,7 @@
 | [w13scan](https://github.com/w-digital-scanner/w13scan) |  | Passive Security Scanner (被动式安全扫描器) |
 | [Fvuln](https://github.com/d3ckx1/Fvuln) | Fvuln-1<br>.4.9 | F-vuln（全称：Find-Vulnerability）是为了自己工作方便专门编写的<br>一款自动化工具，主要适用于日常安全服务、渗透测试人员和RedTeam红<br>队人员，它集合的功能包括：存活IP探测、开放端口探测、web服务探测<br>、web漏洞扫描、smb爆破、ssh爆破、ftp爆破、mssql爆破等其他数据库<br>爆破工作以及大量web漏洞检测模块。 |
 | [nuclei](https://github.com/projectdiscovery/nuclei) | v2.9.7 | Fast and customizable vulnerability scanner based on simple YA<br>ML based DSL. |
-| [afrog](https://github.com/zan8in/afrog) | v2.6.1 | A Security Tool for Bug Bounty, Pentest and Red Teaming. |
+| [afrog](https://github.com/zan8in/afrog) | v2.7.0 | A Security Tool for Bug Bounty, Pentest and Red Teaming. |
 | [vulmap](https://github.com/zhzyker/vulmap) | v0.9 | Vulmap 是一款 web 漏洞扫描和验证工具, 可对 webapps 进行漏洞扫<br>描, 并且具备漏洞验证功能 |
 | [POC-bomber](https://github.com/tr0uble-mAker/POC-bomber) | POC-bom<br>ber-for-<br>Redteam-<br>v3.0.0 | 利用大量高威胁poc/exp快速获取目标权限，用于渗透和红队快速打点 |
 | [QingTing](https://github.com/StarCrossPortal/QingTing) | v0.3 | 蜻蜓安全一个安全工具编排平台,可以自由编排你的工具流,集成108款<br>工具,包括xray、nmap、awvs等;你可以将喜欢的工具编排成一个场景，快<br>速打造适合自己的安全工作台~ |
@@ -324,7 +325,7 @@
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
 | [grype](https://github.com/anchore/grype) | v0.63.0 | A vulnerability scanner for container images and filesystems |
-| [syft](https://github.com/anchore/syft) | v0.84.0 | CLI tool and library for generating a Software Bill of Materia<br>ls from container images and filesystems |
+| [syft](https://github.com/anchore/syft) | v0.84.1 | CLI tool and library for generating a Software Bill of Materia<br>ls from container images and filesystems |
 #### K8S漏洞扫描
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
@@ -531,7 +532,7 @@
 | [dirtycow](https://github.com/firefart/dirtycow) |  | Dirty Cow exploit - CVE-2016-5195 |
 | [traitor](https://github.com/liamg/traitor) | v0.0.14 | :arrow_up: :skull_and_crossbones: :fire: Automatic Linux prive<br>sc via exploitation of low-hanging fruit e.g. gtfobins, pwnkit,<br> dirty pipe, +w docker.sock |
 | [LinEnum](https://github.com/rebootuser/LinEnum) |  | Scripted Local Linux Enumeration & Privilege Escalation Checks |
-| [PEASS-ng](https://github.com/carlospolop/PEASS-ng) | 2023062<br>5-4d3aaa<br>66 | PEASS - Privilege Escalation Awesome Scripts SUITE (with color<br>s) |
+| [PEASS-ng](https://github.com/carlospolop/PEASS-ng) | 2023062<br>9-ef73d1<br>a1 | PEASS - Privilege Escalation Awesome Scripts SUITE (with color<br>s) |
 | [traitor](https://github.com/liamg/traitor) | v0.0.14 | :arrow_up: :skull_and_crossbones: :fire: Automatic Linux prive<br>sc via exploitation of low-hanging fruit e.g. gtfobins, pwnkit,<br> dirty pipe, +w docker.sock |
 ### 容器提权
 | 项目名称 | 版本 | 项目描述 |
@@ -992,7 +993,7 @@
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
 | [openstar](https://github.com/starjun/openstar) |  | lua waf,nginx+lua,openresty,luajit,waf+,cdn,nginx |
-| [safeline](https://github.com/chaitin/safeline) | v1.10.0 | 一款足够简单、足够好用、足够强的免费 WAF。基于业界领先的语义引<br>擎检测技术，作为反向代理接入，保护你的网站不受黑客攻击。 |
+| [safeline](https://github.com/chaitin/safeline) | v2.0.0 | 一款足够简单、足够好用、足够强的免费 WAF。基于业界领先的语义引<br>擎检测技术，作为反向代理接入，保护你的网站不受黑客攻击。 |
 ## 欺骗防御
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
