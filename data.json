@@ -200,8 +200,8 @@
     "https://github.com/ycdxsb/PocOrExp_in_Github": {
         "created_at": "2021-04-13 05:46:16",
         "description": "聚合Github上已有的Poc或者Exp，CVE信息来自CVE官网。Auto Collect Poc Or Exp from Github by CVE ID.",
-        "commit_date": "2023-06-30 22:42:36",
-        "commit_message": "update 2023-07-01 06:42:36",
+        "commit_date": "2023-07-01 22:43:52",
+        "commit_message": "update 2023-07-02 06:43:52",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -461,7 +461,7 @@
     "https://github.com/ExpLangcn/NucleiTP": {
         "created_at": "2022-11-08 13:16:56",
         "description": "自动整合全网Nuclei的漏洞POC，实时同步更新最新POC！",
-        "commit_date": "2023-07-01 00:45:19",
+        "commit_date": "2023-07-02 00:45:16",
         "commit_message": "更新啦❤️",
         "release_tag": "",
         "release_date": "",
@@ -1708,8 +1708,8 @@
     "https://github.com/TophantTechnology/ARL": {
         "created_at": "2020-09-10 07:41:12",
         "description": "ARL(Asset Reconnaissance Lighthouse)资产侦察灯塔系统旨在快速侦察与目标关联的互联网资产，构建基础资产信息库。 协助甲方安全团队或者渗透测试人员有效侦察和检索资产，发现存在的薄弱点和攻击面。",
-        "commit_date": "2023-05-18 02:32:51",
-        "commit_message": "Merge pull request #564 from TophantTechnology/fix/action\n\nupdate action",
+        "commit_date": "2023-07-01 14:50:48",
+        "commit_message": "Merge pull request #586 from ox01024/add-cdn-dict\n\n增加一些常见的WAF和CDN的CNAME",
         "release_tag": "v2.5.5",
         "release_date": "2023-05-18 03:27:00",
         "release_message": "\r\n1. 修复 nuclei 误报 CVE-2022-45362 问题 #559 #535\r\n2. 修复数据源 quake_360 查询错误问题  @原来是老王\r\n3. 删除数据源 threatminer (不可访问了)\r\n4. 过滤无效状态码 410, 减少无用数据入库\r\n"
@@ -2372,11 +2372,11 @@
     "https://github.com/FunnyWolf/Viper": {
         "created_at": "2020-05-29 12:53:42",
         "description": "Redteam operation  platform with webui 图形化红队行动辅助平台",
-        "commit_date": "2023-06-17 12:44:01",
-        "commit_message": "update version v1.5.30",
-        "release_tag": "v1.5.30",
-        "release_date": "2023-06-17 12:44:55",
-        "release_message": "### 新功能\r\n- Viper所有功能都可通过右下角链接跳转到对应文档\r\n### 优化\r\n- `监听防火墙`前端UI优化\r\n- `只显示Session`功能可在主页面使用\r\n- 合并metasploit-framework 6.3.22版本\r\n### Bugfix\r\n- 修复python类型payload断线后无法重连及无法清理历史网络连接问题"
+        "commit_date": "2023-07-01 10:10:16",
+        "commit_message": "update version v1.6.0",
+        "release_tag": "v1.6.0",
+        "release_date": "2023-07-01 10:09:26",
+        "release_message": "## v1.6.0 20230701\r\n### 优化\r\n- 优化反溯源方案 [文档链接](https://www.yuque.com/vipersec/help/ilwe2iprztf9hlqv)\r\n- 优化`内存执行C#可执行文件(Bypass)`模块\r\n- `关于VIPER`中可以快捷查看最新版本\r\n- 合并metasploit-framework 6.3.24版本"
     },
     "https://github.com/kost/dvcs-ripper": {
         "created_at": "2012-10-23 04:55:18",
@@ -3005,7 +3005,7 @@
     "https://github.com/XTeam-Wing/X-Marshal": {
         "created_at": "2022-04-28 16:17:39",
         "description": "Marshal-EASM",
-        "commit_date": "2023-06-28 15:50:57",
+        "commit_date": "2023-07-01 06:12:00",
         "commit_message": "Update README.md",
         "release_tag": "",
         "release_date": "",
@@ -3050,8 +3050,8 @@
     "https://github.com/zan8in/afrog": {
         "created_at": "2022-02-24 06:00:32",
         "description": "A Security Tool for Bug Bounty, Pentest and Red Teaming.",
-        "commit_date": "2023-06-30 06:02:25",
-        "commit_message": "update",
+        "commit_date": "2023-07-01 12:25:07",
+        "commit_message": "fix mysql",
         "release_tag": "v2.7.0",
         "release_date": "2023-06-29 01:41:54",
         "release_message": "● Improvement: Enhance the functionality of the -s and -S commands. Currently, we have added support for using -s and -S simultaneously in both -pl and scan filtering.\r\n● -smart  Intelligent adjustment of concurrency based on changes in the total number of assets being scanned.\r\n● Add built-in functions toUpper and toLower.\r\n\r\n-----------------------------\r\n\r\n● 改进 -s 和 -S 命令的功能。目前，我们已经支持在 -pl 和扫描过滤中同时使用 -s 和 -S\r\n● -smart 根据资产总数的扫描变化，智能调整并发数。\r\n● 新增内置函数 toUpper 和 toLower\r\n\r\n--------------------\r\n**afrog 2.7.0 新功能小技巧：**\r\n① 搜索“用友”存在的高危和紧急漏洞 afrog -pl -s yonyou,用友  -S high,critical\r\n② 搭配本地的POC一同搜索“用友”存在的高危和紧急漏洞afrog -pl -s yonyou,用友  -S high,critical -ap \"d:/mypoc1,e:/mypoc2\"\r\n③ 扫描“用友”存在的高危和紧急漏洞 afrog -T urls.txt  -s yonyou,用友  -S high,critical\r\n"
@@ -3406,8 +3406,8 @@
     "https://github.com/bit4woo/domain_hunter_pro": {
         "created_at": "2019-01-18 07:15:15",
         "description": "domain_hunter的高级版本，SRC挖洞、HW打点之必备！自动化资产收集；快速Title获取；外部工具联动；等等",
-        "commit_date": "2023-06-07 11:39:27",
-        "commit_message": "Update GrepUtils.java",
+        "commit_date": "2023-07-01 12:42:01",
+        "commit_message": "Update pom.xml",
         "release_tag": "v1.9",
         "release_date": "2023-04-18 00:34:58",
         "release_message": "全局：\r\n多个bug修复\r\n布局模式优化\r\n基础方法实现逻辑优化\r\n\r\n右键菜单：\r\n“Do Search”提供主动在制定请求中进行搜索的能力，比如在某企业邮箱的流量中搜索以提取邮箱地址\r\n“Add Request And Comment”右键菜单添逻辑优化，修复一个bug\r\n“Send To Tool Panel”右键菜单处理逻辑优化，可合并发送多个数据包内容\r\n\r\nDomain面板：\r\nroot domain的comments逻辑更新\r\n提供多个网络搜索引擎的后台自动搜索功能\r\nroot domain双击，自动在浏览器中访问\r\n修改目标根域名删除失败的bug\r\n显示序号，以便在排序后恢复原始顺序\r\n\r\nTool面板：\r\n重写JTextArea的paste函数，避免大内容导致程序卡死\r\nJTextArea支持输入文件，而程序处理其内容。\r\n文本取提供简单的历史记录功能\r\nJSON提取逻辑优化\r\n新增多个功能，比如排序\r\n优化URL提取逻辑，避免遗漏没有以/开头的path\r\n\r\nTitle面板中：\r\n端口扫描命令生成逻辑优化\r\n备注和IP内容的显示优化，显示前排序\r\n备注添加逻辑优化\r\n给手动添加的记录添加已知的IP和CNAME、CertInfo\r\n搜索功能增强，支持对数字型字段进行大于、小于、等于等搜索\r\n添加多个搜索实例，以便用户熟悉搜索语法\r\n新增“Do Request Item Again”菜单，对DNS记录或无响应的数据包进行再次请求"
@@ -3890,9 +3890,9 @@
         "description": "",
         "commit_date": "2023-06-30 10:35:56",
         "commit_message": "Merge pull request #902 from jaimeyu-suse/8108\n\nNVSHAS-8108 - Adding locks because getUpdatedUsername",
-        "release_tag": "v5.1.3",
-        "release_date": "2023-05-09 18:16:30",
-        "release_message": "Features:\r\nAdd new vulnerability feed for scanning Microsoft .NET framework\r\nEnforcer stats is disabled by default in Prometheus exporter to improve scalability\r\nUseability improvement: Using scanner to scan single image and print the result\r\nAdd imagePullPolicy check in admission control\r\n\r\n\r\nBug fixes:\r\nEmpty group auto-removal takes 2 hours to delete instead of 1 hour according to schedule\r\nCompliance profile doesn't show in UI console\r\n"
+        "release_tag": "v5.2.0",
+        "release_date": "2023-07-01 05:41:03",
+        "release_message": "##### Enhancements \r\n+ Searchable SaaS service for CVE lookups. NVSHAS-5852 Search the latest NeuVector CVE database to see if a specific CVE exists in the database.\r\n+ Support tokens for NeuVector API access. NVSHAS-6293\r\n+ Support AWS Marketplace PAYG billing for NeuVector monthly support subscriptions. Users can subscribe to NeuVector by SUSE support, billed monthly to their AWS account based on previous month's average node count usage. Details [here](https://open-docs.neuvector.com/deploying/awsmarketplace).\r\n+ Support image signing for admission controls. NVSHAS-6217, NVSHAS-6216.\r\n+ Enable each admission control rule to have its own mode of Monitor or Protect.NVSHAS-4062 A Deny action in Monitor mode will alert, and a Deny action in Protect mode will block. Allow actions are unaffected.\r\n+ Add a new \"operator\" in Policy > Admission Control > Add Rule. NVSHAS-6726 Support operators \"is between\" and \"is not between\" for both \"Users\" and \"User Groups\".\r\n+ Add support for custom admission control criteria such as resource limits. NVSHAS-7717\r\n+ Support invoking NeuVector scanner from Harbor registries through the [pluggable scanner](https://github.com/goharbor/pluggable-scanner-spec) interface.\r\n+ Allow user to disable network protection but keep WAF/DLP functioning. Configure Network Policy Enablement in Settings -> Configuration. NVSHAS-7725\r\n+ Use less privileged services accounts as required for each NeuVector component. NVSHAS-7603. A variable “leastPrivilege” is introduced. The default is false. NOTE: Using the current helm chart with this variable on a release prior to 5.2.0 will not function properly.\r\n+ Bind to non-default service account to meet CIS 1.5 5.1.5 recommendation. NVSHAS-7619\r\n+ Enable administrator to configure user default Session Time out. NVSHAS-7621\r\n+ Customizable login banner NVSHAS-6675. \r\n+ Customizable UI header text NVSHAS-7330.\r\n+ SYSLOG support for TLS encrypted transport. NVSHAS-4377\r\n+ Enable deployment of the NeuVector monitor helm chart from Rancher Manager.\r\n+ Remove upper limit for top level domain in URL validator for registry scanning. NVSHAS-7935\r\n+ Scan golang dependencies, including run-time scans.\r\n+ Support Debian 12 (Bookworm) vulnerability scan.\r\n+ Add CSV export for Registry / Details to export CVEs for all images in configured registry. NVSHAS-5993\r\n+ Allow NeuVector to set several ADFS certificates in parallel in x.509 certificate field. NVSHAS-7335\r\n+ Add and display the comment field for Response Rules.\r\n##### Bug Fixes\r\n+ Reduce repeating logs in enforcer/controller logs. NVSHAS-7832 {TBD???}\r\n+ Multiple clusters page does not render. NVSHAS-7742\r\n+ Empty group auto-removal takes 2 hours to delete instead of 1 hour according to schedule. NVSHAS-7791\r\n+ Manually allowed network rule not getting applied and resulting in violation for pause image. NVSHAS-7807\r\n+ Blocking SSL connections even if a network rule permits the traffic under certain initial conditions. NVSHAS-7923\r\n+ Security events warning even with allowed network rules due to policy update issue in synchronization. NVSHAS-8019\r\n+ Despite defining the network rules, violations getting logged under security events (false positives) when the container has stopped due to out of memory (OOM) error. NVSHAS-7830\r\n+ Allow user to disable/enable detection and protection against unmanaged container in cluster. NVSHAS-7804. This can be set through the Manager CLI:\r\n```\r\nset system detect_unmanaged_wl status -h\r\nUsage: cli set system detect_unmanaged_wl status [OPTIONS] {true|false}\r\n  Enable/disable detect unmanaged container\r\n```\r\n##### Other\r\n+ Add \"leastPrivilege\" setting in Helm chart.\r\n+ Enable AWS integration settings in Helm chart. "
     },
     "https://github.com/lijiejie/BBScan": {
         "created_at": "2015-11-13 07:41:10",
@@ -4142,9 +4142,9 @@
         "description": "飞刃是一套完整的企业级黑盒漏洞扫描系统，集成漏洞扫描、漏洞管理、扫描资产、爬虫等服务。 拥有强大的漏洞检测引擎和丰富的插件库，覆盖多种漏洞类型和应用程序框架。",
         "commit_date": "2023-05-05 09:39:23",
         "commit_message": "添加群聊",
-        "release_tag": "v1.1.1",
-        "release_date": "2023-05-20 08:21:42",
-        "release_message": "##### v1.1.1发布\r\n\r\n## Changelog\r\n* 功能优化: 添加本地字典上传功能\r\n* 功能优化: 添加漏洞批量处理功能\r\n* 修复配置获取没有授权认证问题\r\n* 修复下载后插件无法使用问题\r\n"
+        "release_tag": "v1.2.0",
+        "release_date": "2023-07-01 05:29:18",
+        "release_message": "##### v1.2.0发布\r\n\r\n## Changelog\r\n\r\n-  perf 🚀 : yaml模版格式更新\r\n-  perf 🚀 : 漏洞详情页面优化\r\n-  perf 🚀 : 任务查询功能优化\r\n-  fix🐛: 修复爬虫运行时错误\r\n- fix:🐛 任务运行异常问题若干\r\n\r\n"
     },
     "https://github.com/EZLippi/WebBench": {
         "created_at": "2015-04-13 04:45:47",
@@ -4176,8 +4176,8 @@
     "https://github.com/zhuifengshaonianhanlu/pikachu": {
         "created_at": "2018-07-24 08:21:19",
         "description": "一个好玩的Web安全-漏洞测试平台",
-        "commit_date": "2023-05-14 02:55:50",
-        "commit_message": "Merge pull request #25 from Zhniing/dev\n\nFix mysql connection",
+        "commit_date": "2023-07-01 15:14:35",
+        "commit_message": "Merge pull request #33 from 8023/master\n\n优化dockerfile",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -4275,7 +4275,7 @@
     "https://github.com/aiboboxx/v2rayfree": {
         "created_at": "2021-10-13 11:34:53",
         "description": "v2ray公益免费节点、最新2ray免费v节点订阅地址、v2ray免费节点每日更新、免费ss/v2ray/trojan节点、freefq ",
-        "commit_date": "2023-06-30 12:42:31",
+        "commit_date": "2023-07-01 12:39:37",
         "commit_message": "update",
         "release_tag": "",
         "release_date": "",
@@ -4320,8 +4320,8 @@
     "https://github.com/freefq/free": {
         "created_at": "2020-06-07 02:48:33",
         "description": "翻墙、免费翻墙、免费科学上网、免费节点、免费梯子、免费ss/v2ray/trojan节点、蓝灯、谷歌商店、翻墙梯子",
-        "commit_date": "2023-07-01 00:00:02",
-        "commit_message": "updated_at 07-01 08:00",
+        "commit_date": "2023-07-02 00:00:02",
+        "commit_message": "updated_at 07-02 08:00",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -4590,8 +4590,8 @@
     "https://github.com/yzfly/awesome-chatgpt-zh": {
         "created_at": "2023-03-21 02:16:34",
         "description": "ChatGPT 中文指南🔥，ChatGPT 中文调教指南，指令指南，应用开发指南，精选资源清单，更好的使用 chatGPT 让你的生产力 up up up! 🚀",
-        "commit_date": "2023-06-30 12:09:05",
-        "commit_message": "add pi chatbot",
+        "commit_date": "2023-07-01 10:47:04",
+        "commit_message": "add aigc",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -4608,7 +4608,7 @@
     "https://github.com/LangLangShanDeNanKe/chatgpt": {
         "created_at": "2023-03-15 12:39:55",
         "description": "ChatGPT网址导航，分享免费好用AI网站！",
-        "commit_date": "2023-05-22 14:11:44",
+        "commit_date": "2023-07-01 15:12:07",
         "commit_message": "Update README.md",
         "release_tag": "",
         "release_date": "",
