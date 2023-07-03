@@ -1,8 +1,11 @@
-# 更新于 2023-07-02 08:52:44
+# 更新于 2023-07-03 08:52:38
 
 ## 近15天release更新记录
 | 更新时间 | 项目名称 | 版本 | 更新内容 |
 | :---- | :---- | :---- | :---- |
+|2023-07-02 10:36:57|[captcha-killer-mo<br>dified](https://github.com/f0ng/captcha-killer-modified)|0.24.1|【2023-7-2】 0.24.1  - #27 修复加载插<br>件影响intruder速度的问题(临时增加了一个<br>按钮控制是否开启该插件)      |
+|2023-07-02 06:47:07|[ShiroAttack2](https://github.com/SummerSec/ShiroAttack2)|4.7.0|https://github.com/SummerSec/ShiroAtt<br>ack2/issues/45 thanks @y4tacker |
+|2023-07-02 04:28:53|[PEASS-ng](https://github.com/carlospolop/PEASS-ng)|2023070<br>2-bc7ce3<br>ac||
 |2023-07-01 10:09:26|[Viper](https://github.com/FunnyWolf/Viper)|v1.6.0|## v1.6.0 20230701  ### 优化  - 优化<br>反溯源方案   - 优化内存执行C#可执行文件<br>(Bypass)模块  - 关于VIPER中可以快捷查<br>看最新版本  - 合并metasploit-framework <br>6.3.24版本|
 |2023-07-01 05:41:03|[neuvector](https://github.com/neuvector/neuvector)|v5.2.0|##### Enhancements   + Searchable Saa<br>S service for CVE lookups. NVSHAS-5852<br> Search the latest NeuVector CVE datab<br>ase to see if a specific CVE exists in<br> the database.  + Support tokens for N<br>euVector API access. NVSHAS-6293  + Su<br>pport AWS Marketplace PAYG billing for<br> NeuVector monthly support subscriptio<br>ns. Users can subscribe to NeuVector b<br>y SUSE support, billed monthly to thei<br>r AWS account based on previous month'<br>s average node count usage. Details . <br> + Support image signing for admission<br> controls. NVSHAS-6217, NVSHAS-6216.  <br>+ Enable each admission control rule t<br>o have its own mode of Monitor or Prot<br>ect.NVSHAS-4062 A Deny action in Monit<br>or mode will alert, and a Deny action <br>in Protect mode will block. Allow acti<br>ons are unaffected.  + Add a new "oper<br>ator" in Policy > Admission Control > <br>Add Rule. NVSHAS-6726 Support operator<br>s "is between" and "is not between" fo<br>r both "Users" and "User Groups".  + A<br>dd support for custom admission contro<br>l criteria such as resource limits. NV<br>SHAS-7717  + Support invoking NeuVecto<br>r scanner from Harbor registries throu<br>gh the  interface.  + Allow user to di<br>sable network protection but keep WAF/<br>DLP functioning. Configure Network Pol<br>icy Enablement in Settings -> Configur<br>ation. NVSHAS-7725  + Use less privile<br>ged services accounts as required for <br>each NeuVector component. NVSHAS-7603.<br> A variable “leastPrivilege” is intr<br>oduced. The default is false. NOTE: Us<br>ing the current helm chart with this v<br>ariable on a release prior to 5.2.0 wi<br>ll not function properly.  + Bind to n<br>on-default service account to meet CIS<br> 1.5 5.1.5 recommendation. NVSHAS-7619<br>  + Enable administrator to configure <br>user default Session Time out. NVSHAS-<br>7621  + Customizable login banner NVSH<br>AS-6675.   + Customizable UI header te<br>xt NVSHAS-7330.  + SYSLOG support for <br>TLS encrypted transport. NVSHAS-4377  <br>+ Enable deployment of the NeuVector m<br>onitor helm chart from Rancher Manager<br>.  + Remove upper limit for top level <br>domain in URL validator for registry s<br>canning. NVSHAS-7935  + Scan golang de<br>pendencies, including run-time scans. <br> + Support Debian 12 (Bookworm) vulner<br>ability scan.  + Add CSV export for Re<br>gistry / Details to export CVEs for al<br>l images in configured registry. NVSHA<br>S-5993  + Allow NeuVector to set sever<br>al ADFS certificates in parallel in x.<br>509 certificate field. NVSHAS-7335  + <br>Add and display the comment field for <br>Response Rules.  ##### Bug Fixes  + Re<br>duce repeating logs in enforcer/contro<br>ller logs. NVSHAS-7832 {TBD???}  + Mul<br>tiple clusters page does not render. N<br>VSHAS-7742  + Empty group auto-removal<br> takes 2 hours to delete instead of 1 <br>hour according to schedule. NVSHAS-779<br>1  + Manually allowed network rule not<br> getting applied and resulting in viol<br>ation for pause image. NVSHAS-7807  + <br>Blocking SSL connections even if a net<br>work rule permits the traffic under ce<br>rtain initial conditions. NVSHAS-7923 <br> + Security events warning even with a<br>llowed network rules due to policy upd<br>ate issue in synchronization. NVSHAS-8<br>019  + Despite defining the network ru<br>les, violations getting logged under s<br>ecurity events (false positives) when <br>the container has stopped due to out o<br>f memory (OOM) error. NVSHAS-7830  + A<br>llow user to disable/enable detection <br>and protection against unmanaged conta<br>iner in cluster. NVSHAS-7804. This can<br> be set through the Manager CLI:    se<br>t system detect_unmanaged_wl status -h<br>  Usage: cli set system detect_unmanag<br>ed_wl status [OPTIONS] {true|false}   <br> Enable/disable detect unmanaged conta<br>iner    ##### Other  + Add "leastPrivi<br>lege" setting in Helm chart.  + Enable<br> AWS integration settings in Helm char<br>t. |
 |2023-07-01 05:29:18|[NextScan](https://github.com/tongcheng-security-team/NextScan)|v1.2.0|##### v1.2.0发布    ## Changelog    -<br>  perf 🚀 : yaml模版格式更新  -  perf <br>🚀 : 漏洞详情页面优化  -  perf 🚀 : 任<br>务查询功能优化  -  fix🐛: 修复爬虫运行<br>时错误  - fix:🐛 任务运行异常问题若干  <br>  |
@@ -11,7 +14,6 @@
 |2023-06-30 08:52:16|[trivy](https://github.com/aquasecurity/trivy)|v0.43.0|## ⚡Release highlights and summary⚡<br>    👉 https://github.com/aquasecurity<br>/trivy/discussions/4741    ## Changelo<br>g  * 600819248 chore(deps): Update def<br>sec to v0.90.1 (#4739)  * 73734eab2 fe<br>at(nodejs): support yarn workspaces (#<br>4664)  * 22463abab feat(cli): add incl<br>ude-dev-deps flag (#4700)  * 790c8054e<br> fix(image): pass the secret scanner o<br>ption to scan the img config (#4735)  <br>* 86fec9c4a fix: scan job pod it not f<br>ound on k8s-1.27.x (#4729)  * 26bc9116<br>0 feat(docker): add support for mTLS a<br>uthentication when connecting to regis<br>try (#4649)  * d699e8c10 chore(deps): <br>Update defsec to v0.90.0 (#4723)  * 17<br>77878e8 fix: skip scanning the gpg-pub<br>key package (#4720)  * 9be08253a Fix h<br>ttp registry oci pull (#4701)  * 5d73b<br>47db feat(misconf): Support skipping s<br>ervices (#4686)  * 46e784c8a docs: fix<br> supported modes for pubspec.lock file<br>s (#4713)  * 0f61a8471 fix(misconf): d<br>isable the terraform plan analyzer for<br> other scanners (#4714)  * 8a1aa448a c<br>larifying a dir path is required for c<br>ustom policies (#4716)  * fbab9eea3 ch<br>ore: update alpine base images (#4715)<br>  * f84417bba fix last-history-created<br> (#4697)  * 85c681d44 feat: kbom and c<br>yclonedx v1.5 spec support (#4708)  * <br>46748ce6e docs: add information about <br>Aqua (#4590)  * c6741bddf fix: k8s esc<br>ape resource filename on windows os (#<br>4693)  * a21acc7e0 ci: ignore merge qu<br>eue branches (#4696)  * 32a3a3311 chor<br>e(deps): bump actions/checkout from 2.<br>4.0 to 3.5.3 (#4695)  * cbb47dc7c chor<br>e(deps): bump aquaproj/aqua-installer <br>from 2.1.1 to 2.1.2 (#4694)  * e3d10d2<br>51 feat: cyclondx sbom custom property<br> support (#4688)  * e1770e046 ci: do n<br>ot trigger tests in main (#4692)  * 33<br>7c0b70d add SUSE Linux Enterprise Serv<br>er 15 SP5 and update SP4 eol date (#46<br>90)  * 5ccee1430 use group field for j<br>ar in cyclonedx (#4674)  * 96db52c3f f<br>eat(java): capture licenses from pom.x<br>ml (#4681)  * 3e902a57a feat(helm): ma<br>ke sessionAffinity configurable (#4623<br>)  * 904f1cf24 fix: Show the correct U<br>RL of the secret scanning (#4682)  * 7<br>d48c5d5d document expected file patter<br>n definition format (#4654)  * dcc73e9<br>64 fix: format arg error (#4642)  * 35<br>c4262d0 feat(k8s): cyclonedx kbom supp<br>ort (#4557)  * 0e01851e9 fix(nodejs): <br>remove unused fields for the pnpm lock<br>file (#4630)  * 4d9b44449 fix(vm): upd<br>ate ext4-filesystem parser for parse m<br>ulti block extents (#4616)  * c29197ab<br>7 ci: update build IDs (#4641)  * d763<br>7adc6 fix(debian): update EOL for Debi<br>an 12 (#4647)  * ef39eeedf chore(deps)<br>: bump go-containerregistry (#4639)  *<br> 1ce8bb535 chore: unnecessary use of f<br>mt.Sprintf (S1039) (#4637)  * bc9513fc<br>5 fix(db): change argument order in Ex<br>ists query for JavaDB (#4595)  * aecd2<br>f0bf feat(aws): Add support to see suc<br>cesses in results (#4427)  * 2cbf402b6<br> chore(deps): bump golangci/golangci-l<br>int-action from 3.5.0 to 3.6.0 (#4613)<br>  * 0099b20e3 ci: do not trigger tests<br> in main (#4614)  * a597a54fb chore(de<br>ps): bump sigstore/cosign-installer (#<br>4609)  * b453fbec3 chore(deps): bump C<br>ycloneDX/gh-gomod-generate-sbom from 1<br> to 2 (#4608)  * 0e876d5aa ci: bypass <br>the required status checks (#4611)  * <br>a4f27d24a ci: support merge queue (#36<br>52)  * 9e6411e9f ci: matrix build for <br>testing (#4587)  * ef6538a17 feat: tri<br>vy k8s private registry support (#4567<br>)  * 139f3e1e3 docs: add general cover<br>age page (#3859)  * 479cfdd40 chore: c<br>reate SECURITY.md (#4601)    |
 |2023-06-30 07:07:32|[safeline](https://github.com/chaitin/safeline)|v2.0.1|## 优化    - 调整了人机验证的策略，降<br>低误拦的情况  - 修复了人机验证启动/禁用<br>规则不会自动刷新状态的问题  - 修复其他<br>一些已知问题|
 |2023-06-29 17:24:30|[syft](https://github.com/anchore/syft)|v0.84.1|# Changelog    ##  (2023-06-29)      <br>  ### Bug Fixes    - Fix version detec<br>tion in Java archive name parsing ] ] <br> - Improve support for Dart SDK packag<br>e dependency lockfiles ] ]  - Fix lice<br>nse output for some CycloneDX JSON SBO<br>Ms ] ] ]  - Correctly discover Debian <br>file relationships in distroless image<br>s ] ] ]    ### Additional Changes    -<br> Simplify the SBOM writer interface ] <br>]        |
-|2023-06-29 11:13:56|[PEASS-ng](https://github.com/carlospolop/PEASS-ng)|2023062<br>9-ef73d1<br>a1||
 |2023-06-29 01:41:54|[afrog](https://github.com/zan8in/afrog)|v2.7.0|● Improvement: Enhance the functiona<br>lity of the -s and -S commands. Curren<br>tly, we have added support for using -<br>s and -S simultaneously in both -pl an<br>d scan filtering.  ● -smart  Intellig<br>ent adjustment of concurrency based on<br> changes in the total number of assets<br> being scanned.  ● Add built-in funct<br>ions toUpper and toLower.    ---------<br>--------------------    ● 改进 -s 和 <br>-S 命令的功能。目前，我们已经支持在 -p<br>l 和扫描过滤中同时使用 -s 和 -S  ● -s<br>mart 根据资产总数的扫描变化，智能调整<br>并发数。  ● 新增内置函数 toUpper 和 to<br>Lower    --------------------  **afrog<br> 2.7.0 新功能小技巧：**  ① 搜索“用友<br>”存在的高危和紧急漏洞 afrog -pl -s yon<br>you,用友  -S high,critical  ② 搭配本<br>地的POC一同搜索“用友”存在的高危和紧急<br>漏洞afrog -pl -s yonyou,用友  -S high,c<br>ritical -ap "d:/mypoc1,e:/mypoc2"  ③ <br>扫描“用友”存在的高危和紧急漏洞 afrog <br>-T urls.txt  -s yonyou,用友  -S high,c<br>ritical  |
 |2023-06-28 09:28:17|[Exp-Tools](https://github.com/cseroad/Exp-Tools)|v1.2.0|- 新增用友畅捷通T+SQL注入  - 新增致远<br>帆软报表文件读取-bypass  - 新增泛微eoff<br>ice uploadify上传  - 新增php-framework<br>和java-framework  - 新增nacos任意用户添<br>加  - 新增金蝶云星空反序列化  - 优化部<br>分代码|
 |2023-06-27 15:34:27|[faker](https://github.com/joke2k/faker)|v18.11.<br>2|See .|
@@ -32,15 +34,25 @@
 ## 近15天commit提交记录
 | 提交时间 | 项目名称 | 更新内容 |
 | :---- | :---- | :---- |
-|2023-07-02 00:45:16|[NucleiTP](https://github.com/ExpLangcn/NucleiTP)|更新啦❤️|
-|2023-07-02 00:00:02|[free](https://github.com/freefq/free)|updated_at 07-02 08:00|
-|2023-07-01 22:43:52|[PocOrExp_in_Githu<br>b](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-07-02 06:43:52|
+|2023-07-03 00:45:20|[NucleiTP](https://github.com/ExpLangcn/NucleiTP)|更新啦❤️|
+|2023-07-03 00:00:02|[free](https://github.com/freefq/free)|updated_at 07-03 08:00|
+|2023-07-02 23:15:29|[neuvector](https://github.com/neuvector/neuvector)|Merge pull request #904 from jayhuang-suse/four  NV<br>SHAS-8114, NVSHAS-8109: false-positive cases for the<br> NV Protect events|
+|2023-07-02 22:45:21|[PocOrExp_in_Githu<br>b](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-07-03 06:45:21|
+|2023-07-02 16:09:12|[PEASS-ng](https://github.com/carlospolop/PEASS-ng)|Update aicoder.yml|
+|2023-07-02 15:24:48|[iDefender](https://github.com/wecooperate/iDefender)|update|
+|2023-07-02 14:57:57|[trivy](https://github.com/aquasecurity/trivy)|chore(deps): bump golang.org/x/sync from 0.2.0 to 0<br>.3.0 (#4750)  Bumps  from 0.2.0 to 0.3.0. -   --- up<br>dated-dependencies: - dependency-name: golang.org/x/<br>sync   dependency-type: direct:production   update-t<br>ype: version-update:semver-minor ...  Signed-off-by:<br> dependabot[bot]  Co-authored-by: dependabot[bot] |
+|2023-07-02 13:47:35|[vulhub](https://github.com/vulhub/vulhub)|Merge pull request #446 from D3vil0p3r/patch-1  Cre<br>ate environments.toml|
+|2023-07-02 12:39:23|[v2rayfree](https://github.com/aiboboxx/v2rayfree)|update|
+|2023-07-02 11:33:23|[afrog](https://github.com/zan8in/afrog)|version 2.7.1|
+|2023-07-02 10:36:20|[captcha-killer-mo<br>dified](https://github.com/f0ng/captcha-killer-modified)|Update README.md|
+|2023-07-02 08:47:36|[Umi-OCR](https://github.com/hiroi-sora/Umi-OCR)|新功能：模糊匹配并合并同一水平线上的文本块（#165）|
+|2023-07-02 07:50:07|[kube-bench](https://github.com/aquasecurity/kube-bench)|Fix test_items in cis-1.7 - node - 4.2.12 (#1469)  <br>Related issue: https://github.com/aquasecurity/kube-<br>bench/issues/1468|
+|2023-07-02 03:36:34|[knife](https://github.com/bit4woo/knife)|Update FindUrlAndRequest.java|
+|2023-07-01 22:24:38|[ShiroAttack2](https://github.com/SummerSec/ShiroAttack2)|:bug: fix https://github.com/SummerSec/ShiroAttack2<br>/issues/37|
 |2023-07-01 15:14:35|[pikachu](https://github.com/zhuifengshaonianhanlu/pikachu)|Merge pull request #33 from 8023/master  优化docker<br>file|
 |2023-07-01 15:12:07|[chatgpt](https://github.com/LangLangShanDeNanKe/chatgpt)|Update README.md|
 |2023-07-01 14:50:48|[ARL](https://github.com/TophantTechnology/ARL)|Merge pull request #586 from ox01024/add-cdn-dict  <br>增加一些常见的WAF和CDN的CNAME|
 |2023-07-01 12:42:01|[domain_hunter_pro](https://github.com/bit4woo/domain_hunter_pro)|Update pom.xml|
-|2023-07-01 12:39:37|[v2rayfree](https://github.com/aiboboxx/v2rayfree)|update|
-|2023-07-01 12:25:07|[afrog](https://github.com/zan8in/afrog)|fix mysql|
 |2023-07-01 10:47:04|[awesome-chatgpt-z<br>h](https://github.com/yzfly/awesome-chatgpt-zh)|add aigc|
 |2023-07-01 10:10:16|[Viper](https://github.com/FunnyWolf/Viper)|update version v1.6.0|
 |2023-07-01 06:12:00|[X-Marshal](https://github.com/XTeam-Wing/X-Marshal)|Update README.md|
@@ -49,21 +61,17 @@
 |2023-06-30 16:04:02|[All-Defense-Tool](https://github.com/guchangan1/All-Defense-Tool)|更新v2.4|
 |2023-06-30 15:05:53|[dbeaver](https://github.com/dbeaver/dbeaver)|dbeaver/pro#1688 Data transfer mappings fixes (#204<br>03)  * dbeaver/pro#1688 Data transfer mappings fixes<br>    * dbeaver/pro#1688 Data transfer mappings fixes <br>   * dbeaver/pro#1688 Data transfer refactoring + er<br>ror logging    * dbeaver/pro#1688 Data transfer refa<br>ctoring + error logging    * dbeaver/pro#1688 New da<br>tabase object name gen fix    ---------    Co-author<br>ed-by: MashaKorax |
 |2023-06-30 14:19:16|[syft](https://github.com/anchore/syft)|Refactor source API (#1846)  * refactor source API <br>and syft json source block    Signed-off-by: Alex Go<br>odman     * update source detection and format test <br>utils    Signed-off-by: Alex Goodman     * generate <br>list of all source metadata types    Signed-off-by: <br>Alex Goodman     * extract base and root normalizati<br>on into helper functions    Signed-off-by: Alex Good<br>man     * preserve syftjson model package name impor<br>t ref    Signed-off-by: Alex Goodman     * alias sho<br>uld not be a pointer    Signed-off-by: Alex Goodman <br>    ---------    Signed-off-by: Alex Goodman   Signe<br>d-off-by: Alex Goodman |
-|2023-06-30 10:35:56|[neuvector](https://github.com/neuvector/neuvector)|Merge pull request #902 from jaimeyu-suse/8108  NVS<br>HAS-8108 - Adding locks because getUpdatedUsername|
 |2023-06-30 07:57:31|[safeline](https://github.com/chaitin/safeline)|once more fix the compose command|
-|2023-06-30 06:48:47|[trivy](https://github.com/aquasecurity/trivy)|chore(deps): Update defsec to v0.90.1 (#4739)  Fixe<br>s: https://github.com/aquasecurity/trivy/issues/4628<br>  Signed-off-by: Simar |
 |2023-06-30 06:40:57|[SmsForwarder](https://github.com/pppscn/SmsForwarder)|整理：更新readme|
 |2023-06-30 05:38:09|[RouteVulScan](https://github.com/F6JO/RouteVulScan)|Update Config_yaml.yaml|
 |2023-06-30 01:11:52|[FrameVul](https://github.com/Awrrays/FrameVul)|Update README.md|
 |2023-06-29 21:05:17|[grype](https://github.com/anchore/grype)|Add a simple CSV format template to the templates/ <br>directory and tweak docs (#1366)|
 |2023-06-29 13:51:25|[sqlmap](https://github.com/sqlmapproject/sqlmap)|Python2.7 has been removed from Github CI/CD|
 |2023-06-29 13:26:32|[fscan](https://github.com/shadow1ng/fscan)|Merge pull request #280 from dksslq/main  输出格式<br>调整|
-|2023-06-29 10:54:44|[PEASS-ng](https://github.com/carlospolop/PEASS-ng)|Merge pull request #365 from sttlr/patch-1  Fix Tim<br>eout parameter in Peass Metasploit module|
 |2023-06-29 06:02:32|[ENScan_GO](https://github.com/wgpsec/ENScan_GO)|Merge pull request #63 from Giles2000/master  add s<br>ome version request|
 |2023-06-29 04:15:22|[murphysec](https://github.com/murphysecurity/murphysec)|refactor: remove internal command cpphash|
 |2023-06-29 03:49:15|[Pentest-Windows](https://github.com/arch3rPro/Pentest-Windows)|Update README.md|
 |2023-06-29 02:52:06|[404StarLink](https://github.com/knownsec/404StarLink)|weekly update at 2023-06-29|
-|2023-06-29 02:36:26|[knife](https://github.com/bit4woo/knife)|Update FindUrlAndRequest.java|
 |2023-06-29 02:24:05|[v2rayA](https://github.com/v2rayA/v2rayA)|Fix Windows installer build|
 |2023-06-29 01:57:29|[vulnerability](https://github.com/lal0ne/vulnerability)|CVE-2022-4395|
 |2023-06-28 09:55:05|[Elkeid](https://github.com/bytedance/Elkeid)|fix:driver ci update ubuntu18|
@@ -79,8 +87,6 @@
 |2023-06-26 02:46:37|[Awesome-ChatGPT](https://github.com/dalinvip/Awesome-ChatGPT)|Update README.md|
 |2023-06-26 02:41:07|[Dirscan](https://github.com/corunb/Dirscan)|v1.5.1|
 |2023-06-25 07:28:55|[mitaka](https://github.com/ninoseki/mitaka)|Merge pull request #738 from ninoseki/v1.3.0  v1.3.<br>0|
-|2023-06-25 04:01:34|[iDefender](https://github.com/wecooperate/iDefender)|update|
-|2023-06-24 16:42:03|[kube-bench](https://github.com/aquasecurity/kube-bench)|build(deps): bump actions/setup-go from 3 to 4 (#14<br>02)  Bumps  from 3 to 4. -  -   --- updated-dependen<br>cies: - dependency-name: actions/setup-go   dependen<br>cy-type: direct:production   update-type: version-up<br>date:semver-major ...  Signed-off-by: dependabot[bot<br>]  Co-authored-by: dependabot[bot]  Co-authored-by: <br>chenk |
 |2023-06-24 05:53:31|[Fvuln](https://github.com/d3ckx1/Fvuln)|Update README.md|
 |2023-06-24 05:05:29|[dirsearch](https://github.com/maurosoria/dirsearch)|Merge pull request #1302 from drego85/patch-13  Add<br>ing "config.properties" and sort+remove duplicate|
 |2023-06-23 19:57:18|[RsaCtfTool](https://github.com/RsaCtfTool/RsaCtfTool)|Update README.md|
@@ -91,7 +97,6 @@
 |2023-06-22 06:18:49|[Burp-Non-HTTP-Ext<br>ension](https://github.com/summitt/Burp-Non-HTTP-Extension)|updating tls configs|
 |2023-06-21 05:27:44|[nemo_go](https://github.com/hanc00l/nemo_go)|Update: thirdparty|
 |2023-06-20 09:06:26|[InfoSearchAll](https://github.com/ExpLangcn/InfoSearchAll)|Update README.md|
-|2023-06-20 09:04:50|[Umi-OCR](https://github.com/hiroi-sora/Umi-OCR)|补充-language指令说明|
 |2023-06-20 01:26:33|[fofax](https://github.com/xiecat/fofax)|这是一个临时版本替换type字段|
 |2023-06-19 10:37:53|[ghauri](https://github.com/r0oth3x49/ghauri)|fixed #80 (issue with HTTP request file parsing)..|
 |2023-06-19 09:01:37|[Awesome-Redteam](https://github.com/Threekiii/Awesome-Redteam)|更新README.md|
@@ -102,9 +107,7 @@
 |2023-06-18 18:21:53|[WebGoat](https://github.com/WebGoat/WebGoat)|chore: bump asciidoctorj from 2.5.3 to 2.5.10 (#149<br>8)  Bumps  from 2.5.3 to 2.5.10.  -   -   -     --- <br> updated-dependencies:  - dependency-name: org.ascii<br>doctor:asciidoctorj    dependency-type: direct:produ<br>ction    update-type: version-update:semver-patch  .<br>..    Signed-off-by: dependabot[bot]   Co-authored-b<br>y: dependabot[bot] |
 |2023-06-18 13:58:33|[Ladon](https://github.com/k8gege/Ladon)|Add files via upload|
 |2023-06-18 13:44:40|[K8tools](https://github.com/k8gege/K8tools)|Add files via upload|
-|2023-06-18 09:05:42|[linbing](https://github.com/taomujian/linbing)|2023.6.18|
-|2023-06-17 18:24:18|[vulhub](https://github.com/vulhub/vulhub)|Merge pull request #442 from vulhub/openfire-cve-20<br>23-32315  added Openfire CVE-2023-32315|
-|2023-06-17 10:09:44|[zpscan](https://github.com/niudaii/zpscan)|update: sth|## 所有项目
+|2023-06-18 09:05:42|[linbing](https://github.com/taomujian/linbing)|2023.6.18|## 所有项目
 # 渗透测试
 ## 信息收集
 ### 资产测绘采集
@@ -368,7 +371,7 @@
 | [AttackTomcat](https://github.com/tpt11fb/AttackTomcat) | V1 | Tomcat常见漏洞GUI利用工具。CVE-2017-12615 PUT文件上传漏洞、tom<br>cat-pass-getshell 弱认证部署war包、弱口令爆破、CVE-2020-1938 To<br>mcat AJP文件读取/包含 |
 | [SpringExploit](https://github.com/SummerSec/SpringExploit) | 0.1.9 | 🚀 一款为了学习go而诞生的漏洞利用工具 |
 | [shiro_rce_tool](https://github.com/wyzxxz/shiro_rce_tool) |  | shiro 反序列 命令执行辅助检测工具 |
-| [ShiroAttack2](https://github.com/SummerSec/ShiroAttack2) | 4.5.6 | shiro反序列化漏洞综合利用,包含（回显执行命令/注入内存马）修复<br>原版中NoCC的问题 https://github.com/j1anFen/shiro_attack |
+| [ShiroAttack2](https://github.com/SummerSec/ShiroAttack2) | 4.7.0 | shiro反序列化漏洞综合利用,包含（回显执行命令/注入内存马）修复<br>原版中NoCC的问题 https://github.com/j1anFen/shiro_attack |
 | [shiro_attack](https://github.com/j1anFen/shiro_attack) | 2.2 | shiro反序列化漏洞综合利用,包含（回显执行命令/注入内存马） |
 | [FastjsonExploit](https://github.com/c0ny1/FastjsonExploit) |  | Fastjson vulnerability quickly exploits the framework（fastjso<br>n漏洞快速利用框架） |
 | [fastjson_rec_expl<br>oit](https://github.com/mrknow001/fastjson_rec_exploit) |  | fastjson一键命令执行 |
@@ -536,7 +539,7 @@
 | [dirtycow](https://github.com/firefart/dirtycow) |  | Dirty Cow exploit - CVE-2016-5195 |
 | [traitor](https://github.com/liamg/traitor) | v0.0.14 | :arrow_up: :skull_and_crossbones: :fire: Automatic Linux prive<br>sc via exploitation of low-hanging fruit e.g. gtfobins, pwnkit,<br> dirty pipe, +w docker.sock |
 | [LinEnum](https://github.com/rebootuser/LinEnum) |  | Scripted Local Linux Enumeration & Privilege Escalation Checks |
-| [PEASS-ng](https://github.com/carlospolop/PEASS-ng) | 2023062<br>9-ef73d1<br>a1 | PEASS - Privilege Escalation Awesome Scripts SUITE (with color<br>s) |
+| [PEASS-ng](https://github.com/carlospolop/PEASS-ng) | 2023070<br>2-bc7ce3<br>ac | PEASS - Privilege Escalation Awesome Scripts SUITE (with color<br>s) |
 | [traitor](https://github.com/liamg/traitor) | v0.0.14 | :arrow_up: :skull_and_crossbones: :fire: Automatic Linux prive<br>sc via exploitation of low-hanging fruit e.g. gtfobins, pwnkit,<br> dirty pipe, +w docker.sock |
 ### 容器提权
 | 项目名称 | 版本 | 项目描述 |
@@ -647,7 +650,7 @@
 | [Sylas](https://github.com/Acmesec/Sylas) | 1.1.1 | 新一代子域名主/被动收集工具 - Subdomain automatic/passive coll<br>ection tool |
 | [GadgetProbe](https://github.com/BishopFox/GadgetProbe) | v1.0 | Probe endpoints consuming Java serialized objects to identify <br>classes, libraries, and library versions on remote Java classpa<br>ths. |
 | [HopLa](https://github.com/synacktiv/HopLa) | 1.2 |  HopLa Burp Suite Extender plugin -  Adds autocompletion suppo<br>rt and useful payloads in Burp Suite |
-| [captcha-killer-mo<br>dified](https://github.com/f0ng/captcha-killer-modified) | 0.24 | captcha-killer的修改版，支持关键词识别base64编码的图片，添加免<br>费ocr库，用于验证码爆破，适配新版Burpsuite |
+| [captcha-killer-mo<br>dified](https://github.com/f0ng/captcha-killer-modified) | 0.24.1 | captcha-killer的修改版，支持关键词识别base64编码的图片，添加免<br>费ocr库，用于验证码爆破，适配新版Burpsuite |
 | [BurpCrypto](https://github.com/whwlsfb/BurpCrypto) |  | BurpCrypto is a collection of burpsuite encryption plug-ins, s<br>upport AES/RSA/DES/ExecJs(execute JS encryption code in burpsui<br>te). 支持多种加密算法或直接执行JS代码的用于爆破前端加密的BurpSu<br>ite插件 |
 | [autoDecoder](https://github.com/f0ng/autoDecoder) | 0.27 | Burp插件，根据自定义来达到对数据包的处理（适用于加解密、爆破等<br>），类似mitmproxy，不同点在于经过了burp中转，在自动加解密的基础<br>上，不影响APP、网站加解密正常逻辑等。 |
 | [burpFakeIP](https://github.com/TheKingOfDuck/burpFakeIP) | 1.1 | 服务端配置错误情况下用于伪造ip地址进行测试的Burp Suite插件 |
@@ -681,7 +684,7 @@
 | [burp-awesome-tls](https://github.com/sleeyax/burp-awesome-tls) | v1.1.0 | Fix Burp Suite's poor TLS stack and bypass WAFs by spoofing an<br>y browser |
 | [JustC2file](https://github.com/Peithon/JustC2file) | v1.0.2 | Burp插件，Malleable C2 Profiles生成器；可以通过Burp代理选中请<br>求，生成Cobalt Strike的profile文件(CSprofile) |
 | [SpringScan](https://github.com/metaStor/SpringScan) | V1.7 | SpringScan 漏洞检测 Burp插件 |
-| [captcha-killer-mo<br>dified](https://github.com/f0ng/captcha-killer-modified) | 0.24 | captcha-killer的修改版，支持关键词识别base64编码的图片，添加免<br>费ocr库，用于验证码爆破，适配新版Burpsuite |
+| [captcha-killer-mo<br>dified](https://github.com/f0ng/captcha-killer-modified) | 0.24.1 | captcha-killer的修改版，支持关键词识别base64编码的图片，添加免<br>费ocr库，用于验证码爆破，适配新版Burpsuite |
 | [BurpFastJsonScan](https://github.com/pmiaowu/BurpFastJsonScan) | BurpFas<br>tJsonSca<br>n-2.2.2 | 一款基于BurpSuite的被动式FastJson检测插件 |
 | [burpFakeIP](https://github.com/TheKingOfDuck/burpFakeIP) | 1.1 | 服务端配置错误情况下用于伪造ip地址进行测试的Burp Suite插件 |
 | [Log4j-check](https://github.com/bigsizeme/Log4j-check) |  | log4J burp被扫插件、CVE-2021-44228、支持dnclog.cn和burp内置DNS<br>、可配合JNDIExploit生成payload |

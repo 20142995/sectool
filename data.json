@@ -200,8 +200,8 @@
     "https://github.com/ycdxsb/PocOrExp_in_Github": {
         "created_at": "2021-04-13 05:46:16",
         "description": "聚合Github上已有的Poc或者Exp，CVE信息来自CVE官网。Auto Collect Poc Or Exp from Github by CVE ID.",
-        "commit_date": "2023-07-01 22:43:52",
-        "commit_message": "update 2023-07-02 06:43:52",
+        "commit_date": "2023-07-02 22:45:21",
+        "commit_message": "update 2023-07-03 06:45:21",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -290,11 +290,11 @@
     "https://github.com/SummerSec/ShiroAttack2": {
         "created_at": "2021-06-13 03:44:13",
         "description": "shiro反序列化漏洞综合利用,包含（回显执行命令/注入内存马）修复原版中NoCC的问题 https://github.com/j1anFen/shiro_attack",
-        "commit_date": "2022-08-31 15:54:01",
-        "commit_message": ":zap: 感谢 @fuzz7j 提交pr，增加headers方式",
-        "release_tag": "4.5.6",
-        "release_date": "2022-08-31 15:54:15",
-        "release_message": "详情参考 https://github.com/SummerSec/ShiroAttack2/pull/36\r\n感谢 @fuzz7j 提交pr"
+        "commit_date": "2023-07-01 22:24:38",
+        "commit_message": ":bug: fix https://github.com/SummerSec/ShiroAttack2/issues/37",
+        "release_tag": "4.7.0",
+        "release_date": "2023-07-02 06:47:07",
+        "release_message": "https://github.com/SummerSec/ShiroAttack2/issues/45 thanks @y4tacker "
     },
     "https://github.com/light-Life/BUG-Pocket": {
         "created_at": "2021-07-06 11:23:54",
@@ -461,7 +461,7 @@
     "https://github.com/ExpLangcn/NucleiTP": {
         "created_at": "2022-11-08 13:16:56",
         "description": "自动整合全网Nuclei的漏洞POC，实时同步更新最新POC！",
-        "commit_date": "2023-07-02 00:45:16",
+        "commit_date": "2023-07-03 00:45:20",
         "commit_message": "更新啦❤️",
         "release_tag": "",
         "release_date": "",
@@ -1017,7 +1017,7 @@
     "https://github.com/wecooperate/iDefender": {
         "created_at": "2021-11-24 11:38:28",
         "description": "iDefender（冰盾 - 终端主动防御系统）",
-        "commit_date": "2023-06-25 04:01:34",
+        "commit_date": "2023-07-02 15:24:48",
         "commit_message": "update",
         "release_tag": "2.8.0",
         "release_date": "2023-06-13 15:31:06",
@@ -1861,11 +1861,11 @@
     "https://github.com/f0ng/captcha-killer-modified": {
         "created_at": "2022-03-18 12:41:58",
         "description": "captcha-killer的修改版，支持关键词识别base64编码的图片，添加免费ocr库，用于验证码爆破，适配新版Burpsuite",
-        "commit_date": "2023-05-25 06:28:18",
-        "commit_message": "Update FAQ.md",
-        "release_tag": "0.24",
-        "release_date": "2023-05-22 09:21:19",
-        "release_message": "【2023-5-22】 0.24\r\n- 修复验证码在intruder中无法显示的bug\r\n- 再次修复了装载插件会影响proxy选项卡的问题\r\n\r\n感谢微信群师傅 Cat 反馈"
+        "commit_date": "2023-07-02 10:36:20",
+        "commit_message": "Update README.md",
+        "release_tag": "0.24.1",
+        "release_date": "2023-07-02 10:36:57",
+        "release_message": "【2023-7-2】 0.24.1\r\n- #27 修复加载插件影响intruder速度的问题(临时增加了一个按钮控制是否开启该插件)\r\n\r\n<img width=\"642\" alt=\"image\" src=\"https://github.com/f0ng/captcha-killer-modified/assets/48286013/8c8132ac-dd38-494f-aa47-80b6db4a7c93\">\r\n"
     },
     "https://github.com/xfiftyone/STS2G": {
         "created_at": "2020-01-17 02:17:24",
@@ -1906,8 +1906,8 @@
     "https://github.com/hiroi-sora/Umi-OCR": {
         "created_at": "2022-03-28 04:01:46",
         "description": "OCR图片转文字识别软件，完全离线。截屏/批量导入图片，支持多国语言、合并段落、竖排文字。可排除水印区域，提取干净的文本。基于 PaddleOCR 。",
-        "commit_date": "2023-06-20 09:04:50",
-        "commit_message": "补充-language指令说明",
+        "commit_date": "2023-07-02 08:47:36",
+        "commit_message": "新功能：模糊匹配并合并同一水平线上的文本块（#165）",
         "release_tag": "v1.3.5",
         "release_date": "2023-06-20 09:07:40",
         "release_message": "### `v1.3.5` 主要更新：\r\n- 新功能：复制识别结果后，可发送指定按键，以便联动唤起翻译器等工具。👉[使用说明](https://github.com/hiroi-sora/Umi-OCR#%E5%A4%8D%E5%88%B6%E5%90%8E%E5%8F%91%E9%80%81%E6%8C%89%E9%94%AE--%E8%81%94%E5%8A%A8%E7%BF%BB%E8%AF%91%E8%BD%AF%E4%BB%B6)\r\n- 新功能：命令行增加切换识别语言的指令。👉[使用说明（指令7）](https://github.com/hiroi-sora/Umi-OCR#%E5%91%BD%E4%BB%A4%E8%A1%8C%E8%B0%83%E7%94%A8)\r\n- 修Bug：修复了低配置机器上有概率误报超时 `OCR init timeout: 5s` 的问题。\r\n- 调整：默认停止任务30秒后释放一次内存。\r\n\r\n### 文件说明\r\n软件本体：`Umi-OCR.v1.3.5.7z`（67MB），内置`简体中文&英文`通用识别库。\r\n软件（多国语言整合版）：`Umi-OCR.v1.3.5_ALL_languages.7z`（118MB），内置多国语言识别库。\r\n\r\n多国语言扩展包：`Umi-OCR.v1.3_DLC_languages.7z`（50MB），可向软件本体导入`繁中,英,日,韩,俄,德,法` 多国语言识别库。"
@@ -2005,7 +2005,7 @@
     "https://github.com/bit4woo/knife": {
         "created_at": "2018-06-12 14:25:18",
         "description": "A burp extension that add some useful function to  Context Menu 添加一些右键菜单让burp用起来更顺畅",
-        "commit_date": "2023-06-29 02:36:26",
+        "commit_date": "2023-07-02 03:36:34",
         "commit_message": "Update FindUrlAndRequest.java",
         "release_tag": "v2.2",
         "release_date": "2023-04-25 03:38:54",
@@ -3050,8 +3050,8 @@
     "https://github.com/zan8in/afrog": {
         "created_at": "2022-02-24 06:00:32",
         "description": "A Security Tool for Bug Bounty, Pentest and Red Teaming.",
-        "commit_date": "2023-07-01 12:25:07",
-        "commit_message": "fix mysql",
+        "commit_date": "2023-07-02 11:33:23",
+        "commit_message": "version 2.7.1",
         "release_tag": "v2.7.0",
         "release_date": "2023-06-29 01:41:54",
         "release_message": "● Improvement: Enhance the functionality of the -s and -S commands. Currently, we have added support for using -s and -S simultaneously in both -pl and scan filtering.\r\n● -smart  Intelligent adjustment of concurrency based on changes in the total number of assets being scanned.\r\n● Add built-in functions toUpper and toLower.\r\n\r\n-----------------------------\r\n\r\n● 改进 -s 和 -S 命令的功能。目前，我们已经支持在 -pl 和扫描过滤中同时使用 -s 和 -S\r\n● -smart 根据资产总数的扫描变化，智能调整并发数。\r\n● 新增内置函数 toUpper 和 toLower\r\n\r\n--------------------\r\n**afrog 2.7.0 新功能小技巧：**\r\n① 搜索“用友”存在的高危和紧急漏洞 afrog -pl -s yonyou,用友  -S high,critical\r\n② 搭配本地的POC一同搜索“用友”存在的高危和紧急漏洞afrog -pl -s yonyou,用友  -S high,critical -ap \"d:/mypoc1,e:/mypoc2\"\r\n③ 扫描“用友”存在的高危和紧急漏洞 afrog -T urls.txt  -s yonyou,用友  -S high,critical\r\n"
@@ -3699,10 +3699,10 @@
     "https://github.com/carlospolop/PEASS-ng": {
         "created_at": "2019-01-13 19:58:24",
         "description": "PEASS - Privilege Escalation Awesome Scripts SUITE (with colors)",
-        "commit_date": "2023-06-29 10:54:44",
-        "commit_message": "Merge pull request #365 from sttlr/patch-1\n\nFix Timeout parameter in Peass Metasploit module",
-        "release_tag": "20230629-ef73d1a1",
-        "release_date": "2023-06-29 11:13:56",
+        "commit_date": "2023-07-02 16:09:12",
+        "commit_message": "Update aicoder.yml",
+        "release_tag": "20230702-bc7ce3ac",
+        "release_date": "2023-07-02 04:28:53",
         "release_message": ""
     },
     "https://github.com/waderwu/attackRmi": {
@@ -3879,8 +3879,8 @@
     "https://github.com/aquasecurity/kube-bench": {
         "created_at": "2017-06-19 13:27:02",
         "description": "Checks whether Kubernetes is deployed according to security best practices as defined in the CIS Kubernetes Benchmark",
-        "commit_date": "2023-06-24 16:42:03",
-        "commit_message": "build(deps): bump actions/setup-go from 3 to 4 (#1402)\n\nBumps [actions/setup-go](https://github.com/actions/setup-go) from 3 to 4.\n- [Release notes](https://github.com/actions/setup-go/releases)\n- [Commits](https://github.com/actions/setup-go/compare/v3...v4)\n\n---\nupdated-dependencies:\n- dependency-name: actions/setup-go\n  dependency-type: direct:production\n  update-type: version-update:semver-major\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>\nCo-authored-by: chenk <hen.keinan@gmail.com>",
+        "commit_date": "2023-07-02 07:50:07",
+        "commit_message": "Fix test_items in cis-1.7 - node - 4.2.12 (#1469)\n\nRelated issue: https://github.com/aquasecurity/kube-bench/issues/1468",
         "release_tag": "v0.6.15",
         "release_date": "2023-06-06 14:50:53",
         "release_message": "## Changelog\n* e41755b  cis-1.24: fix tests of 1.1.1 and 4.2.9 were wrong (#1423)\n* ca8743c add support VMware Tanzu(TKGI) Benchmarks v1.2.53 (#1452)\n* 84f80b5 build(deps): bump alpine from 3.17 to 3.18 (#1443)\n* 6de03bb build(deps): bump github.com/aws/aws-sdk-go-v2 from 1.17.6 to 1.18.0 (#1433)\n* 60dde65 support CIS Amazon Elastic Kubernetes Service (EKS) Benchmark v1.2.0 (#1449)\n* 124c57c support CIS Kubernetes Benchmark v1.7.0 (#1424)\n\n"
@@ -3888,8 +3888,8 @@
     "https://github.com/neuvector/neuvector": {
         "created_at": "2021-12-17 20:15:03",
         "description": "",
-        "commit_date": "2023-06-30 10:35:56",
-        "commit_message": "Merge pull request #902 from jaimeyu-suse/8108\n\nNVSHAS-8108 - Adding locks because getUpdatedUsername",
+        "commit_date": "2023-07-02 23:15:29",
+        "commit_message": "Merge pull request #904 from jayhuang-suse/four\n\nNVSHAS-8114, NVSHAS-8109: false-positive cases for the NV Protect events",
         "release_tag": "v5.2.0",
         "release_date": "2023-07-01 05:41:03",
         "release_message": "##### Enhancements \r\n+ Searchable SaaS service for CVE lookups. NVSHAS-5852 Search the latest NeuVector CVE database to see if a specific CVE exists in the database.\r\n+ Support tokens for NeuVector API access. NVSHAS-6293\r\n+ Support AWS Marketplace PAYG billing for NeuVector monthly support subscriptions. Users can subscribe to NeuVector by SUSE support, billed monthly to their AWS account based on previous month's average node count usage. Details [here](https://open-docs.neuvector.com/deploying/awsmarketplace).\r\n+ Support image signing for admission controls. NVSHAS-6217, NVSHAS-6216.\r\n+ Enable each admission control rule to have its own mode of Monitor or Protect.NVSHAS-4062 A Deny action in Monitor mode will alert, and a Deny action in Protect mode will block. Allow actions are unaffected.\r\n+ Add a new \"operator\" in Policy > Admission Control > Add Rule. NVSHAS-6726 Support operators \"is between\" and \"is not between\" for both \"Users\" and \"User Groups\".\r\n+ Add support for custom admission control criteria such as resource limits. NVSHAS-7717\r\n+ Support invoking NeuVector scanner from Harbor registries through the [pluggable scanner](https://github.com/goharbor/pluggable-scanner-spec) interface.\r\n+ Allow user to disable network protection but keep WAF/DLP functioning. Configure Network Policy Enablement in Settings -> Configuration. NVSHAS-7725\r\n+ Use less privileged services accounts as required for each NeuVector component. NVSHAS-7603. A variable “leastPrivilege” is introduced. The default is false. NOTE: Using the current helm chart with this variable on a release prior to 5.2.0 will not function properly.\r\n+ Bind to non-default service account to meet CIS 1.5 5.1.5 recommendation. NVSHAS-7619\r\n+ Enable administrator to configure user default Session Time out. NVSHAS-7621\r\n+ Customizable login banner NVSHAS-6675. \r\n+ Customizable UI header text NVSHAS-7330.\r\n+ SYSLOG support for TLS encrypted transport. NVSHAS-4377\r\n+ Enable deployment of the NeuVector monitor helm chart from Rancher Manager.\r\n+ Remove upper limit for top level domain in URL validator for registry scanning. NVSHAS-7935\r\n+ Scan golang dependencies, including run-time scans.\r\n+ Support Debian 12 (Bookworm) vulnerability scan.\r\n+ Add CSV export for Registry / Details to export CVEs for all images in configured registry. NVSHAS-5993\r\n+ Allow NeuVector to set several ADFS certificates in parallel in x.509 certificate field. NVSHAS-7335\r\n+ Add and display the comment field for Response Rules.\r\n##### Bug Fixes\r\n+ Reduce repeating logs in enforcer/controller logs. NVSHAS-7832 {TBD???}\r\n+ Multiple clusters page does not render. NVSHAS-7742\r\n+ Empty group auto-removal takes 2 hours to delete instead of 1 hour according to schedule. NVSHAS-7791\r\n+ Manually allowed network rule not getting applied and resulting in violation for pause image. NVSHAS-7807\r\n+ Blocking SSL connections even if a network rule permits the traffic under certain initial conditions. NVSHAS-7923\r\n+ Security events warning even with allowed network rules due to policy update issue in synchronization. NVSHAS-8019\r\n+ Despite defining the network rules, violations getting logged under security events (false positives) when the container has stopped due to out of memory (OOM) error. NVSHAS-7830\r\n+ Allow user to disable/enable detection and protection against unmanaged container in cluster. NVSHAS-7804. This can be set through the Manager CLI:\r\n```\r\nset system detect_unmanaged_wl status -h\r\nUsage: cli set system detect_unmanaged_wl status [OPTIONS] {true|false}\r\n  Enable/disable detect unmanaged container\r\n```\r\n##### Other\r\n+ Add \"leastPrivilege\" setting in Helm chart.\r\n+ Enable AWS integration settings in Helm chart. "
@@ -3969,8 +3969,8 @@
     "https://github.com/aquasecurity/trivy": {
         "created_at": "2019-04-11 01:01:07",
         "description": "Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more",
-        "commit_date": "2023-06-30 06:48:47",
-        "commit_message": "chore(deps): Update defsec to v0.90.1 (#4739)\n\nFixes: https://github.com/aquasecurity/trivy/issues/4628\n\nSigned-off-by: Simar <simar@linux.com>",
+        "commit_date": "2023-07-02 14:57:57",
+        "commit_message": "chore(deps): bump golang.org/x/sync from 0.2.0 to 0.3.0 (#4750)\n\nBumps [golang.org/x/sync](https://github.com/golang/sync) from 0.2.0 to 0.3.0.\n- [Commits](https://github.com/golang/sync/compare/v0.2.0...v0.3.0)\n\n---\nupdated-dependencies:\n- dependency-name: golang.org/x/sync\n  dependency-type: direct:production\n  update-type: version-update:semver-minor\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
         "release_tag": "v0.43.0",
         "release_date": "2023-06-30 08:52:16",
         "release_message": "## ⚡Release highlights and summary⚡\r\n\r\n👉 https://github.com/aquasecurity/trivy/discussions/4741\r\n\r\n## Changelog\r\n* 600819248 chore(deps): Update defsec to v0.90.1 (#4739)\r\n* 73734eab2 feat(nodejs): support yarn workspaces (#4664)\r\n* 22463abab feat(cli): add include-dev-deps flag (#4700)\r\n* 790c8054e fix(image): pass the secret scanner option to scan the img config (#4735)\r\n* 86fec9c4a fix: scan job pod it not found on k8s-1.27.x (#4729)\r\n* 26bc91160 feat(docker): add support for mTLS authentication when connecting to registry (#4649)\r\n* d699e8c10 chore(deps): Update defsec to v0.90.0 (#4723)\r\n* 1777878e8 fix: skip scanning the gpg-pubkey package (#4720)\r\n* 9be08253a Fix http registry oci pull (#4701)\r\n* 5d73b47db feat(misconf): Support skipping services (#4686)\r\n* 46e784c8a docs: fix supported modes for pubspec.lock files (#4713)\r\n* 0f61a8471 fix(misconf): disable the terraform plan analyzer for other scanners (#4714)\r\n* 8a1aa448a clarifying a dir path is required for custom policies (#4716)\r\n* fbab9eea3 chore: update alpine base images (#4715)\r\n* f84417bba fix last-history-created (#4697)\r\n* 85c681d44 feat: kbom and cyclonedx v1.5 spec support (#4708)\r\n* 46748ce6e docs: add information about Aqua (#4590)\r\n* c6741bddf fix: k8s escape resource filename on windows os (#4693)\r\n* a21acc7e0 ci: ignore merge queue branches (#4696)\r\n* 32a3a3311 chore(deps): bump actions/checkout from 2.4.0 to 3.5.3 (#4695)\r\n* cbb47dc7c chore(deps): bump aquaproj/aqua-installer from 2.1.1 to 2.1.2 (#4694)\r\n* e3d10d251 feat: cyclondx sbom custom property support (#4688)\r\n* e1770e046 ci: do not trigger tests in main (#4692)\r\n* 337c0b70d add SUSE Linux Enterprise Server 15 SP5 and update SP4 eol date (#4690)\r\n* 5ccee1430 use group field for jar in cyclonedx (#4674)\r\n* 96db52c3f feat(java): capture licenses from pom.xml (#4681)\r\n* 3e902a57a feat(helm): make sessionAffinity configurable (#4623)\r\n* 904f1cf24 fix: Show the correct URL of the secret scanning (#4682)\r\n* 7d48c5d5d document expected file pattern definition format (#4654)\r\n* dcc73e964 fix: format arg error (#4642)\r\n* 35c4262d0 feat(k8s): cyclonedx kbom support (#4557)\r\n* 0e01851e9 fix(nodejs): remove unused fields for the pnpm lockfile (#4630)\r\n* 4d9b44449 fix(vm): update ext4-filesystem parser for parse multi block extents (#4616)\r\n* c29197ab7 ci: update build IDs (#4641)\r\n* d7637adc6 fix(debian): update EOL for Debian 12 (#4647)\r\n* ef39eeedf chore(deps): bump go-containerregistry (#4639)\r\n* 1ce8bb535 chore: unnecessary use of fmt.Sprintf (S1039) (#4637)\r\n* bc9513fc5 fix(db): change argument order in Exists query for JavaDB (#4595)\r\n* aecd2f0bf feat(aws): Add support to see successes in results (#4427)\r\n* 2cbf402b6 chore(deps): bump golangci/golangci-lint-action from 3.5.0 to 3.6.0 (#4613)\r\n* 0099b20e3 ci: do not trigger tests in main (#4614)\r\n* a597a54fb chore(deps): bump sigstore/cosign-installer (#4609)\r\n* b453fbec3 chore(deps): bump CycloneDX/gh-gomod-generate-sbom from 1 to 2 (#4608)\r\n* 0e876d5aa ci: bypass the required status checks (#4611)\r\n* a4f27d24a ci: support merge queue (#3652)\r\n* 9e6411e9f ci: matrix build for testing (#4587)\r\n* ef6538a17 feat: trivy k8s private registry support (#4567)\r\n* 139f3e1e3 docs: add general coverage page (#3859)\r\n* 479cfdd40 chore: create SECURITY.md (#4601)\r\n\r\n"
@@ -4167,8 +4167,8 @@
     "https://github.com/vulhub/vulhub": {
         "created_at": "2017-04-09 10:13:13",
         "description": "Pre-Built Vulnerable Environments Based on Docker-Compose",
-        "commit_date": "2023-06-17 18:24:18",
-        "commit_message": "Merge pull request #442 from vulhub/openfire-cve-2023-32315\n\nadded Openfire CVE-2023-32315",
+        "commit_date": "2023-07-02 13:47:35",
+        "commit_message": "Merge pull request #446 from D3vil0p3r/patch-1\n\nCreate environments.toml",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -4275,7 +4275,7 @@
     "https://github.com/aiboboxx/v2rayfree": {
         "created_at": "2021-10-13 11:34:53",
         "description": "v2ray公益免费节点、最新2ray免费v节点订阅地址、v2ray免费节点每日更新、免费ss/v2ray/trojan节点、freefq ",
-        "commit_date": "2023-07-01 12:39:37",
+        "commit_date": "2023-07-02 12:39:23",
         "commit_message": "update",
         "release_tag": "",
         "release_date": "",
@@ -4320,8 +4320,8 @@
     "https://github.com/freefq/free": {
         "created_at": "2020-06-07 02:48:33",
         "description": "翻墙、免费翻墙、免费科学上网、免费节点、免费梯子、免费ss/v2ray/trojan节点、蓝灯、谷歌商店、翻墙梯子",
-        "commit_date": "2023-07-02 00:00:02",
-        "commit_message": "updated_at 07-02 08:00",
+        "commit_date": "2023-07-03 00:00:02",
+        "commit_message": "updated_at 07-03 08:00",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
