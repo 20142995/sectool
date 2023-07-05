@@ -1,12 +1,13 @@
-# 更新于 2023-07-04 08:51:17
+# 更新于 2023-07-05 08:50:43
 
 ## 近15天release更新记录
 | 更新时间 | 项目名称 | 版本 | 更新内容 |
 | :---- | :---- | :---- | :---- |
+|2023-07-04 06:58:05|[veinmind-tools](https://github.com/chaitin/veinmind-tools)|v2.1.4|## 🔥 Feature  * feat(plugins): Add v<br>einmind-privilege-escalation plugin fo<br>r detecting privilege escalation risks<br>, including checks for suid and sudo  <br>by @ek1ng in https://github.com/chaiti<br>n/veinmind-tools/pull/250    ## 🔧 Fix<br>  * fix(libveinmind): fix libveinmind <br>walk data race error by @DVKunion in h<br>ttps://github.com/chaitin/veinmind-too<br>ls/pull/231  * fix(veinmind-weakpass)/<br>add_error_check by  @testwill in https<br>://github.com/chaitin/veinmind-tools/p<br>ull/249  * fix(docs): fix errors in do<br>cumentation on how to initialize plugi<br>ns by @ek1ng in https://github.com/cha<br>itin/veinmind-tools/pull/247  * fix(do<br>cs): fix README format by @ek1ng in ht<br>tps://github.com/chaitin/veinmind-tool<br>s/pull/251    ## 📒 Others  * chore(li<br>bveinmind): update libveinmind 1.9.21 <br>by @DVKunion in https://github.com/cha<br>itin/veinmind-tools/pull/243  * chore(<br>ci):  add auto sync to registry by @DV<br>Kunion  in https://github.com/chaitin/<br>veinmind-tools/pull/254      **Full Ch<br>angelog**: https://github.com/chaitin/<br>veinmind-tools/compare/v2.1.3...v2.1.4|
 |2023-07-03 16:16:47|[RedisEXP](https://github.com/yuyan-sec/RedisEXP)|0.0.2|github actions 自动编译|
 |2023-07-03 14:41:37|[nuclei](https://github.com/projectdiscovery/nuclei)|v2.9.8|    ## What's Changed  ### 🐞 Bugs  *<br> **Fixed issue to preserve the order o<br>f query parameters** by @tarunKoyalwar<br> in https://github.com/projectdiscover<br>y/nuclei/pull/3887  * Fixed with netwo<br>rk connection read and write deadline <br>by @praetorian-thendrickson in https:/<br>/github.com/projectdiscovery/nuclei/pu<br>ll/3845  * Fixed issue with showing mu<br>ltiple matches per template with -ms o<br>ption by @RamanaReddy0M in https://git<br>hub.com/projectdiscovery/nuclei/pull/3<br>770    ## New Contributors  * @praetor<br>ian-thendrickson made their first cont<br>ribution in https://github.com/project<br>discovery/nuclei/pull/3845    **Full C<br>hangelog**: https://github.com/project<br>discovery/nuclei/compare/v2.9.7...v2.9<br>.8|
 |2023-07-03 11:35:40|[ghauri](https://github.com/r0oth3x49/ghauri)|1.2.2|# Fixes   - fixed issue with regex pr<br>ocessing multipart/form-data|
-|2023-07-03 03:15:29|[ENScan_GO](https://github.com/wgpsec/ENScan_GO)|0.0.12||
+|2023-07-03 03:15:29|[ENScan_GO](https://github.com/wgpsec/ENScan_GO)|0.0.12|1. 修复天眼查查询BUG  2. 优化延迟选项|
 |2023-07-02 10:36:57|[captcha-killer-mo<br>dified](https://github.com/f0ng/captcha-killer-modified)|0.24.1|【2023-7-2】 0.24.1  - #27 修复加载插<br>件影响intruder速度的问题(临时增加了一个<br>按钮控制是否开启该插件)      |
 |2023-07-02 06:47:07|[ShiroAttack2](https://github.com/SummerSec/ShiroAttack2)|4.7.0|https://github.com/SummerSec/ShiroAtt<br>ack2/issues/45 thanks @y4tacker |
 |2023-07-02 04:28:53|[PEASS-ng](https://github.com/carlospolop/PEASS-ng)|2023070<br>2-bc7ce3<br>ac||
@@ -34,20 +35,25 @@
 ## 近15天commit提交记录
 | 提交时间 | 项目名称 | 更新内容 |
 | :---- | :---- | :---- |
-|2023-07-04 00:45:19|[NucleiTP](https://github.com/ExpLangcn/NucleiTP)|更新啦❤️|
-|2023-07-04 00:00:02|[free](https://github.com/freefq/free)|updated_at 07-04 08:00|
-|2023-07-03 22:41:52|[PocOrExp_in_Githu<br>b](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-07-04 06:41:52|
+|2023-07-05 00:45:20|[NucleiTP](https://github.com/ExpLangcn/NucleiTP)|更新啦❤️|
+|2023-07-05 00:29:39|[cf](https://github.com/teamssix/cf)|Merge pull request #256 from teamssix/beta  docs: u<br>pdate readme|
+|2023-07-05 00:00:01|[free](https://github.com/freefq/free)|updated_at 07-05 08:00|
+|2023-07-04 23:57:45|[awesome-chatgpt-z<br>h](https://github.com/yzfly/awesome-chatgpt-zh)|add gpt-migrate|
+|2023-07-04 20:43:25|[PocOrExp_in_Githu<br>b](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-07-05 04:43:25|
+|2023-07-04 19:45:34|[trivy](https://github.com/aquasecurity/trivy)|chore(deps): bump modernc.org/sqlite from 1.20.3 to<br> 1.23.1 (#4756)  Bumps  from 1.20.3 to 1.23.1. -   -<br>-- updated-dependencies: - dependency-name: modernc.<br>org/sqlite   dependency-type: direct:production   up<br>date-type: version-update:semver-minor ...  Signed-o<br>ff-by: dependabot[bot]  Co-authored-by: dependabot[b<br>ot] |
+|2023-07-04 18:35:30|[dbeaver](https://github.com/dbeaver/dbeaver)|Cb 3451 git scripts history (#20427)  * CB-3451 wip<br>    * CB-3451 git settings api    * CB-3451 migrate <br>to the new config model    * CB-3451 checkout remote<br> branch    * CB-3451 review fix    ---------    Co-a<br>uthored-by: alex   Co-authored-by: dariamarutkina |
+|2023-07-04 12:47:15|[safeline](https://github.com/chaitin/safeline)|安装时不要重启 docker 服务|
+|2023-07-04 12:46:31|[v2rayfree](https://github.com/aiboboxx/v2rayfree)|update|
+|2023-07-04 09:53:57|[knife](https://github.com/bit4woo/knife)|update|
+|2023-07-04 07:00:35|[SmsForwarder](https://github.com/pppscn/SmsForwarder)|新增：短信指令打开或关闭 WiFi #316 （试验性）|
 |2023-07-03 17:50:01|[syft](https://github.com/anchore/syft)|doc(readme): add installation section with scoop (#<br>1909)  Signed-off-by: drazen04 |
 |2023-07-03 16:29:57|[Burp-Non-HTTP-Ext<br>ension](https://github.com/summitt/Burp-Non-HTTP-Extension)|allow ip or hostname for client connection|
 |2023-07-03 16:14:56|[RedisEXP](https://github.com/yuyan-sec/RedisEXP)|github actions|
-|2023-07-03 15:51:20|[dbeaver](https://github.com/dbeaver/dbeaver)|dbeaver/pro#1533 Don't bloat logs if instance serve<br>r is already running (#20456)  * dbeaver/pro#1533 Do<br>n't bloat logs if instance server is already running<br>    * dbeaver/pro#1533 Trace if no instance controll<br>er is available    * dbeaver/pro#1533 Shorten traces<br>    * dbeaver/pro#1533 Remove unused code|
 |2023-07-03 14:48:33|[veinmind-tools](https://github.com/chaitin/veinmind-tools)|feat(ci): add auto sync to registry (#254)|
 |2023-07-03 13:12:25|[nuclei](https://github.com/projectdiscovery/nuclei)|dep update|
-|2023-07-03 12:47:50|[v2rayfree](https://github.com/aiboboxx/v2rayfree)|update|
 |2023-07-03 11:33:07|[ghauri](https://github.com/r0oth3x49/ghauri)|updated code quality fixed issue with regex process<br>ing multipart/form-data, bumped version 1.2.2|
 |2023-07-03 10:25:32|[mitaka](https://github.com/ninoseki/mitaka)|docs: remove Tines logo [skip ci]|
 |2023-07-03 08:50:31|[Umi-OCR](https://github.com/hiroi-sora/Umi-OCR)|新功能：为联动翻译设定单独的快捷键（#166）|
-|2023-07-03 08:48:57|[trivy](https://github.com/aquasecurity/trivy)|fix(rocky): add architectures support for advisorie<br>s (#4691)  * add multi-arch support for rocky linux <br>advisories  * feat: comply with the new signagure  *<br> bump trivy-db  * fix tests  * chore(deps): remove f<br>ork replace  ---------  Co-authored-by: knqyf263 |
 |2023-07-03 07:07:35|[ARL](https://github.com/TophantTechnology/ARL)|Merge pull request #589 from ox01024/update-ipGeo-S<br>ource  使用第三方源的GeoLite2-City更新|
 |2023-07-03 05:26:39|[vulnerability](https://github.com/lal0ne/vulnerability)|CVE-2023-34939|
 |2023-07-03 03:05:00|[ENScan_GO](https://github.com/wgpsec/ENScan_GO)|修改文档|
@@ -59,19 +65,14 @@
 |2023-07-02 11:33:23|[afrog](https://github.com/zan8in/afrog)|version 2.7.1|
 |2023-07-02 10:36:20|[captcha-killer-mo<br>dified](https://github.com/f0ng/captcha-killer-modified)|Update README.md|
 |2023-07-02 07:50:07|[kube-bench](https://github.com/aquasecurity/kube-bench)|Fix test_items in cis-1.7 - node - 4.2.12 (#1469)  <br>Related issue: https://github.com/aquasecurity/kube-<br>bench/issues/1468|
-|2023-07-02 03:36:34|[knife](https://github.com/bit4woo/knife)|Update FindUrlAndRequest.java|
 |2023-07-01 22:24:38|[ShiroAttack2](https://github.com/SummerSec/ShiroAttack2)|:bug: fix https://github.com/SummerSec/ShiroAttack2<br>/issues/37|
 |2023-07-01 15:14:35|[pikachu](https://github.com/zhuifengshaonianhanlu/pikachu)|Merge pull request #33 from 8023/master  优化docker<br>file|
 |2023-07-01 15:12:07|[chatgpt](https://github.com/LangLangShanDeNanKe/chatgpt)|Update README.md|
 |2023-07-01 12:42:01|[domain_hunter_pro](https://github.com/bit4woo/domain_hunter_pro)|Update pom.xml|
-|2023-07-01 10:47:04|[awesome-chatgpt-z<br>h](https://github.com/yzfly/awesome-chatgpt-zh)|add aigc|
 |2023-07-01 10:10:16|[Viper](https://github.com/FunnyWolf/Viper)|update version v1.6.0|
 |2023-07-01 06:12:00|[X-Marshal](https://github.com/XTeam-Wing/X-Marshal)|Update README.md|
 |2023-06-30 16:54:42|[clair](https://github.com/quay/clair)|chore: Remove dogstatsd variable and references  Th<br>is came up as we have this field in the documentatio<br>n but clairctl will error out if it's used when invo<br>king any command.  Signed-off-by: crozzy |
-|2023-06-30 16:46:48|[cf](https://github.com/teamssix/cf)|Merge pull request #252 from teamssix/beta  Update <br>CHANGELOG.md|
 |2023-06-30 16:04:02|[All-Defense-Tool](https://github.com/guchangan1/All-Defense-Tool)|更新v2.4|
-|2023-06-30 07:57:31|[safeline](https://github.com/chaitin/safeline)|once more fix the compose command|
-|2023-06-30 06:40:57|[SmsForwarder](https://github.com/pppscn/SmsForwarder)|整理：更新readme|
 |2023-06-30 05:38:09|[RouteVulScan](https://github.com/F6JO/RouteVulScan)|Update Config_yaml.yaml|
 |2023-06-30 01:11:52|[FrameVul](https://github.com/Awrrays/FrameVul)|Update README.md|
 |2023-06-29 21:05:17|[grype](https://github.com/anchore/grype)|Add a simple CSV format template to the templates/ <br>directory and tweak docs (#1366)|
@@ -100,12 +101,7 @@
 |2023-06-22 11:01:47|[fshzqSearch](https://github.com/Ifory885/fshzqSearch)|Update README.md  项目迁移|
 |2023-06-21 05:27:44|[nemo_go](https://github.com/hanc00l/nemo_go)|Update: thirdparty|
 |2023-06-20 09:06:26|[InfoSearchAll](https://github.com/ExpLangcn/InfoSearchAll)|Update README.md|
-|2023-06-20 01:26:33|[fofax](https://github.com/xiecat/fofax)|这是一个临时版本替换type字段|
-|2023-06-19 09:01:37|[Awesome-Redteam](https://github.com/Threekiii/Awesome-Redteam)|更新README.md|
-|2023-06-19 08:43:37|[Vuln-List](https://github.com/wwl012345/Vuln-List)|Update 中间件&框架&平台&第三方服务漏洞.md|
-|2023-06-19 02:38:39|[Awesome-POC](https://github.com/Threekiii/Awesome-POC)|更新README.md|
-|2023-06-19 02:38:13|[Vulhub-Reproduce](https://github.com/Threekiii/Vulhub-Reproduce)|更新漏洞|
-|2023-06-19 02:35:24|[Vulnerability-Wik<br>i](https://github.com/Threekiii/Vulnerability-Wiki)|更新漏洞|## 所有项目
+|2023-06-20 01:26:33|[fofax](https://github.com/xiecat/fofax)|这是一个临时版本替换type字段|## 所有项目
 # 渗透测试
 ## 信息收集
 ### 资产测绘采集
@@ -281,7 +277,7 @@
 ### 容器漏洞扫描
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
-| [veinmind-tools](https://github.com/chaitin/veinmind-tools) | v2.1.3 | veinmind-tools 是由长亭科技自研，基于 veinmind-sdk 打造的容器<br>安全工具集 |
+| [veinmind-tools](https://github.com/chaitin/veinmind-tools) | v2.1.4 | veinmind-tools 是由长亭科技自研，基于 veinmind-sdk 打造的容器<br>安全工具集 |
 ### 口令爆破
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
@@ -317,7 +313,7 @@
 #### 容器安全检测工具
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
-| [veinmind-tools](https://github.com/chaitin/veinmind-tools) | v2.1.3 | veinmind-tools 是由长亭科技自研，基于 veinmind-sdk 打造的容器<br>安全工具集 |
+| [veinmind-tools](https://github.com/chaitin/veinmind-tools) | v2.1.4 | veinmind-tools 是由长亭科技自研，基于 veinmind-sdk 打造的容器<br>安全工具集 |
 #### 容器漏洞分析工具
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |

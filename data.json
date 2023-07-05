@@ -65,8 +65,8 @@
     "https://github.com/pppscn/SmsForwarder": {
         "created_at": "2021-02-10 02:23:07",
         "description": "短信转发器——监控Android手机短信、来电、APP通知，并根据指定规则转发到其他手机：钉钉群自定义机器人、钉钉企业内机器人、企业微信群机器人、飞书机器人、企业微信应用消息、邮箱、bark、webhook、Telegram机器人、Server酱、PushPlus、手机短信等。包括主动控制服务端与客户端，让你轻松远程发短信、查短信、查通话、查话簿、查电量等。（V3.0 新增）PS.这个APK主要是学习与自用，如有BUG请提ISSUE，同时欢迎大家提PR指正",
-        "commit_date": "2023-06-30 06:40:57",
-        "commit_message": "整理：更新readme",
+        "commit_date": "2023-07-04 07:00:35",
+        "commit_message": "新增：短信指令打开或关闭 WiFi #316 （试验性）",
         "release_tag": "v3.2.0",
         "release_date": "2023-02-14 09:25:00",
         "release_message": "PS. 距离上一次1024发版，已经过去快5个月了，期间发生不少事，一直没更新这个项目，不管如何，魔幻的2022年都过去了！\r\n\r\n感谢大家这2年来的陪伴与支持，祝大家有情人终成眷属，情人节快乐！\r\n\r\n---\r\n\r\n### 【注意】\r\n\r\n* v3.x版本是全新重构开发，可能一开始并不稳定，建议升级前先做好数据备份！（客户端>一键换新机>离线模式>导出）\r\n\r\n* `v3.2.0` 去除了 `mmkv` 依赖，采用 `SharedPreferences` 来保存配置，升级之后通用设置中的配置请重新配置，具体原因参见 [Issue #245](https://github.com/pppscn/SmsForwarder/issues/245)\r\n\r\n* 升级完毕后，建议离线导出配置，完全卸载干净全新安装后再导入配置（可以避免一些莫名其妙的玄学问题，例如：耗电异常）\r\n\r\n---\r\n\r\n### 更新日志\r\n\r\n* 新增：短信指令（根据短信指令开关对应功能） #I5YX3F\r\n* 新增：监听网络状态变化提醒（APP通知转发，包名：77777777） #259\r\n* 新增：远程改话簿（方便给老人家添加联系人） #256\r\n* 新增：远程查询手机定位（方便找回手机/防止老少走丢） #256\r\n* 新增：Socket发送通道（支持MQTT/TCP/UDP协议） #252\r\n* 新增：发送通道 URL Scheme（支持跨应用数据传递）#250\r\n* 新增：自动消除额外APP通知 #232 #248\r\n\r\n* 优化：短信/通话转发获取卡槽信息机制（自行备注卡槽SubId对应）#228 #235\r\n* 优化：来电转发逻辑 & 新增提醒类型（1.来电挂机 2.去电挂机 3.未接来电 4.来电提醒 5.来电接通 6.去电拨出）\r\n* 优化：单个转发规则支持绑定多个发送通道，且支持执行逻辑（全部执行/失败即止/成功即止） #247\r\n* 优化：转发日志列表以原始信息为主，聚合展示转发日志（一对多）\r\n* 优化：已安装App信息列表异步加载机制\r\n* 优化：电池状态监听/网络状态监控 在未开启去重时默认开启1秒去重\r\n* 优化：利用BatteryReceiver守护自启动的Frpc (试验) #254\r\n\r\n* 修复：Android 13 无法授予通知权限 #255\r\n* 修复：重启手机自动启动APP时加载配置失败 #233 #245\r\n* 修复：转发消息遍历发送通道时未跳过已禁用的通道\r\n* 修复：降级Android Gradle插件版本以兼容4.4 (#249 by NyaMisty)\r\n\r\n* 升级：andserver到2.1.12（加快web端上下行速度等）\r\n* 升级：frpclib 到 v0.47.0\r\n* 升级：androidx组件和kotlin版本\r\n\r\n还有一些细微调整参见`github`提交记录\r\n\r\n---\r\n\r\n### APK版本说明：\r\n* universal（10XXXX）: 通用版（不在乎安装包大小/懒得选就用这个版本，包含以下4种CPU架构so）\r\n* armeabi-v7a（20XXXX）: 32位ARM设备（备用机首选）\r\n* arm64-v8a（30XXXX）: 64位ARM设备（主流旗舰机）\r\n* x86（40XXXX）: 32位Intel设备\r\n* x86_64（50XXXX）: 64/32位Intel设备"
@@ -200,8 +200,8 @@
     "https://github.com/ycdxsb/PocOrExp_in_Github": {
         "created_at": "2021-04-13 05:46:16",
         "description": "聚合Github上已有的Poc或者Exp，CVE信息来自CVE官网。Auto Collect Poc Or Exp from Github by CVE ID.",
-        "commit_date": "2023-07-03 22:41:52",
-        "commit_message": "update 2023-07-04 06:41:52",
+        "commit_date": "2023-07-04 20:43:25",
+        "commit_message": "update 2023-07-05 04:43:25",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -461,7 +461,7 @@
     "https://github.com/ExpLangcn/NucleiTP": {
         "created_at": "2022-11-08 13:16:56",
         "description": "自动整合全网Nuclei的漏洞POC，实时同步更新最新POC！",
-        "commit_date": "2023-07-04 00:45:19",
+        "commit_date": "2023-07-05 00:45:20",
         "commit_message": "更新啦❤️",
         "release_tag": "",
         "release_date": "",
@@ -634,7 +634,7 @@
         "commit_message": "修改文档",
         "release_tag": "0.0.12",
         "release_date": "2023-07-03 03:15:29",
-        "release_message": ""
+        "release_message": "1. 修复天眼查查询BUG\r\n2. 优化延迟选项"
     },
     "https://github.com/jackfrued/Python-100-Days": {
         "created_at": "2018-03-01 16:05:52",
@@ -1737,9 +1737,9 @@
         "description": "veinmind-tools 是由长亭科技自研，基于 veinmind-sdk 打造的容器安全工具集",
         "commit_date": "2023-07-03 14:48:33",
         "commit_message": "feat(ci): add auto sync to registry (#254)",
-        "release_tag": "v2.1.3",
-        "release_date": "2023-05-23 07:08:29",
-        "release_message": "## 🔥 Feature\r\n* feat(veinmind-weakpass): add mysql5 weakpass scan by @ek1ng in https://github.com/chaitin/veinmind-tools/pull/237 \r\n* feat(plugins): use bullseye && update libveinmind-dev 1.9.15 by @DVKunion in https://github.com/chaitin/veinmind-tools/pull/239\r\n* feat(weakpass): support caching_sha2_password and enhance MyISAM pkg by @asjdf  in https://github.com/chaitin/veinmind-tools/pull/235\r\n* feat(plugins): update kubernetes iac polices by @ek1ng in https://github.com/chaitin/veinmind-tools/pull/240\r\n* feat(veinmind-sensitive): support env and docker history scan by @ek1ng in https://github.com/chaitin/veinmind-tools/pull/242\r\n\r\n## 🔧 Fix\r\n* fix(libveinmind): fix libveinmind walk data race error by @DVKunion in https://github.com/chaitin/veinmind-tools/pull/231\r\n* fix(veinmind-malicious): optimize code  by  @testwill in https://github.com/chaitin/veinmind-tools/pull/233\r\n* fix(veinmind-weakpass): fix mysql8 weakpass check by @ek1ng in https://github.com/chaitin/veinmind-tools/pull/241\r\n\r\n## 📒 Others\r\n* chore(unsafe-mount): remove duplicate code by @testwill in https://github.com/chaitin/veinmind-tools/pull/229\r\n* chore(func):  update deprecated func and clean Dockerfile by @asjdf in https://github.com/chaitin/veinmind-tools/pull/232\r\n* docs(readme): add star history by @ek1ng in https://github.com/chaitin/veinmind-tools/pull/238\r\n\r\n## 🎉 New Contributors\r\n* @asjdf made their first contribution in https://github.com/chaitin/veinmind-tools/pull/232\r\n\r\n**Full Changelog**: https://github.com/chaitin/veinmind-tools/compare/v2.1.2...v2.1.3"
+        "release_tag": "v2.1.4",
+        "release_date": "2023-07-04 06:58:05",
+        "release_message": "## 🔥 Feature\r\n* feat(plugins): Add veinmind-privilege-escalation plugin for detecting privilege escalation risks, including checks for suid and sudo  by @ek1ng in https://github.com/chaitin/veinmind-tools/pull/250\r\n\r\n## 🔧 Fix\r\n* fix(libveinmind): fix libveinmind walk data race error by @DVKunion in https://github.com/chaitin/veinmind-tools/pull/231\r\n* fix(veinmind-weakpass)/add_error_check by  @testwill in https://github.com/chaitin/veinmind-tools/pull/249\r\n* fix(docs): fix errors in documentation on how to initialize plugins by @ek1ng in https://github.com/chaitin/veinmind-tools/pull/247\r\n* fix(docs): fix README format by @ek1ng in https://github.com/chaitin/veinmind-tools/pull/251\r\n\r\n## 📒 Others\r\n* chore(libveinmind): update libveinmind 1.9.21 by @DVKunion in https://github.com/chaitin/veinmind-tools/pull/243\r\n* chore(ci):  add auto sync to registry by @DVKunion  in https://github.com/chaitin/veinmind-tools/pull/254\r\n\r\n\r\n**Full Changelog**: https://github.com/chaitin/veinmind-tools/compare/v2.1.3...v2.1.4"
     },
     "https://github.com/cdk-team/CDK": {
         "created_at": "2020-11-05 09:18:51",
@@ -2005,8 +2005,8 @@
     "https://github.com/bit4woo/knife": {
         "created_at": "2018-06-12 14:25:18",
         "description": "A burp extension that add some useful function to  Context Menu 添加一些右键菜单让burp用起来更顺畅",
-        "commit_date": "2023-07-02 03:36:34",
-        "commit_message": "Update FindUrlAndRequest.java",
+        "commit_date": "2023-07-04 09:53:57",
+        "commit_message": "update",
         "release_tag": "v2.2",
         "release_date": "2023-04-25 03:38:54",
         "release_message": "更新“Find URL And Request”功能\r\n更新chinese中文显示面板逻辑，及时刷新避免有时显示不一致的问题\r\n端口扫描逻辑优化，多个host在同一个命令行中完成扫描，避免打开太多窗口\r\n更新dismiss功能，规则更清晰也更容易自行编辑处理。\r\n让proxy中的数据包编辑更改可视化，更容易判断数据处理规则是否正确\r\n数据包修改更新、丢弃转发的规则类型更丰富，适应更多场景。"
@@ -2426,8 +2426,8 @@
     "https://github.com/teamssix/cf": {
         "created_at": "2022-07-01 06:02:57",
         "description": "Cloud Exploitation Framework 云环境利用框架，方便安全人员在获得 AK 的后续工作",
-        "commit_date": "2023-06-30 16:46:48",
-        "commit_message": "Merge pull request #252 from teamssix/beta\n\nUpdate CHANGELOG.md",
+        "commit_date": "2023-07-05 00:29:39",
+        "commit_message": "Merge pull request #256 from teamssix/beta\n\ndocs: update readme",
         "release_tag": "v0.5.0",
         "release_date": "2023-06-30 16:49:10",
         "release_message": "### 新增功能\r\n\r\n* [#227](https://github.com/teamssix/cf/pull/227) 新增阿里云用户数据后门功能\r\n* [#228](https://github.com/teamssix/cf/pull/228) 新增阿里云镜像共享功能\r\n* [#231](https://github.com/teamssix/cf/pull/231) 新增阿里云接管控制台时自动创建 AK 功能\r\n* [#235](https://github.com/teamssix/cf/pull/235) 新增阿里云 RDS 列出详细信息功能\r\n* [#235](https://github.com/teamssix/cf/pull/235) 新增阿里云 RDS 添加账号功能\r\n* [#235](https://github.com/teamssix/cf/pull/235) 新增阿里云 RDS 创建公网访问地址的功能\r\n* [#235](https://github.com/teamssix/cf/pull/235) 新增阿里云 RDS 添加白名单的功能\r\n* [#238](https://github.com/teamssix/cf/pull/238) [#239](https://github.com/teamssix/cf/pull/239) 新增查询 AK 所属云厂商功能 \r\n* [#251](https://github.com/teamssix/cf/pull/251) 新增支持 brew 安装\r\n\r\n### 功能优化\r\n\r\n* [#243](https://github.com/teamssix/cf/pull/243) 优化配置功能，现在能自动识别配置是否处于可用状态\r\n* [#245](https://github.com/teamssix/cf/pull/245) 优化实例公网 IP 展示，不存在时会展示为空\r\n* [#246](https://github.com/teamssix/cf/pull/246) 优化 OSS 下载功能，现在默认会下载所有文件\r\n* [#248](https://github.com/teamssix/cf/pull/248) 优化更新处理逻辑\r\n* [#249](https://github.com/teamssix/cf/pull/249) 优化华为云 OBS 列出功能\r\n\r\n### Bug 修复\r\n\r\n* [#244](https://github.com/teamssix/cf/pull/244) 修复批量执行命令时，没有安装云助手导致批量执行中断的 Bug\r\n* [#247](https://github.com/teamssix/cf/pull/247) 修复 OSS 下载文件无法自动创建目录的 Bug\r\n\r\n## 新贡献者\r\n* @shadowabi made their first contribution in https://github.com/teamssix/cf/pull/227\r\n\r\n**Full Changelog**: https://github.com/teamssix/cf/compare/v0.4.5...v0.5.0"
@@ -2951,8 +2951,8 @@
     "https://github.com/dbeaver/dbeaver": {
         "created_at": "2015-10-21 08:26:28",
         "description": "Free universal database tool and SQL client",
-        "commit_date": "2023-07-03 15:51:20",
-        "commit_message": "dbeaver/pro#1533 Don't bloat logs if instance server is already running (#20456)\n\n* dbeaver/pro#1533 Don't bloat logs if instance server is already running\r\n\r\n* dbeaver/pro#1533 Trace if no instance controller is available\r\n\r\n* dbeaver/pro#1533 Shorten traces\r\n\r\n* dbeaver/pro#1533 Remove unused code",
+        "commit_date": "2023-07-04 18:35:30",
+        "commit_message": "Cb 3451 git scripts history (#20427)\n\n* CB-3451 wip\r\n\r\n* CB-3451 git settings api\r\n\r\n* CB-3451 migrate to the new config model\r\n\r\n* CB-3451 checkout remote branch\r\n\r\n* CB-3451 review fix\r\n\r\n---------\r\n\r\nCo-authored-by: alex <48489896+devnaumov@users.noreply.github.com>\r\nCo-authored-by: dariamarutkina <125263541+dariamarutkina@users.noreply.github.com>",
         "release_tag": "23.1.1",
         "release_date": "2023-06-25 18:29:59",
         "release_message": "\n                - SQL Editor:\n                    - User can configure the options on the toolbar by pressing the gear button in the editor\n                    - Issue with missing \"Copy file path\" option was fixed\n                - Data Editor:\n                    - Statistics view now can be disabled\n                    - Issue with References tab was fixed\n                    - Spatial tiles configuration was fixed (thanks to @otbutz)\n                - ER Diagram: issue with element removal after using View Style option was fixed\n                - Data transfer: issue with exporting a table without data when using bulk loading was fixed\n                - New drivers: TDengine database is now supported (thanks @sangshuduo).\n                - General UI:\n                    - Users can export DBeaver settings and import them\n                    - Notifications in Dark theme became topic \"Notices in the dark\" became readable\n                    - Users can use drag-n-drop to copy scripts, open database objects and insert Navigator node names into the editor\n                - Connectivity:\n                    - User can add snapshot maven repository\n                    - \"Automatically end long idle transactions\" option was redesigned\n                    - Authentication failure when connecting via SSH was fixed\n                    - Now users can connect with jump server using SSHJ\n                    - Issue with connecting to Azure SQL Server using Active Directory was fixed\n                - Security: SQLite driver version was updated\n                - Databases:\n                    - DB2z and Denodo: \"Show duplicates\" button in Grouping panel was fixed\n                    - Greenplum: function DDL was fixed (default parameter values)\n                    - Oracle:\n                        - Dates of creation and modification appeared in the information about the packages\n                        - Table partitions and subpartitions reading was fixed\n                        - Issue with missing tablespace statistics after object update was fixed\n                    - Snowflake: quotation rules for object identifiers were added\n                - Localization:\n                    - Users can now select Portuguese as the default language during installation or in Preferences\n                    - Portuguese localization was improved (thanks to @brlarini)\n                    - German localization was improved (thanks to @coderkun)\n                - Misc: we switched to Eclipse 2023-06 and Java-17 as a base platform\n            "
@@ -3915,8 +3915,8 @@
     "https://github.com/chaitin/safeline": {
         "created_at": "2023-04-12 11:30:14",
         "description": "一款足够简单、足够好用、足够强的免费 WAF。基于业界领先的语义引擎检测技术，作为反向代理接入，保护你的网站不受黑客攻击。",
-        "commit_date": "2023-06-30 07:57:31",
-        "commit_message": "once more fix the compose command",
+        "commit_date": "2023-07-04 12:47:15",
+        "commit_message": "安装时不要重启 docker 服务",
         "release_tag": "v2.0.1",
         "release_date": "2023-06-30 07:07:32",
         "release_message": "## 优化\r\n\r\n- 调整了人机验证的策略，降低误拦的情况\r\n- 修复了人机验证启动/禁用规则不会自动刷新状态的问题\r\n- 修复其他一些已知问题"
@@ -3969,8 +3969,8 @@
     "https://github.com/aquasecurity/trivy": {
         "created_at": "2019-04-11 01:01:07",
         "description": "Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more",
-        "commit_date": "2023-07-03 08:48:57",
-        "commit_message": "fix(rocky): add architectures support for advisories (#4691)\n\n* add multi-arch support for rocky linux advisories\n\n* feat: comply with the new signagure\n\n* bump trivy-db\n\n* fix tests\n\n* chore(deps): remove fork replace\n\n---------\n\nCo-authored-by: knqyf263 <knqyf263@gmail.com>",
+        "commit_date": "2023-07-04 19:45:34",
+        "commit_message": "chore(deps): bump modernc.org/sqlite from 1.20.3 to 1.23.1 (#4756)\n\nBumps [modernc.org/sqlite](https://gitlab.com/cznic/sqlite) from 1.20.3 to 1.23.1.\n- [Commits](https://gitlab.com/cznic/sqlite/compare/v1.20.3...v1.23.1)\n\n---\nupdated-dependencies:\n- dependency-name: modernc.org/sqlite\n  dependency-type: direct:production\n  update-type: version-update:semver-minor\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
         "release_tag": "v0.43.0",
         "release_date": "2023-06-30 08:52:16",
         "release_message": "## ⚡Release highlights and summary⚡\r\n\r\n👉 https://github.com/aquasecurity/trivy/discussions/4741\r\n\r\n## Changelog\r\n* 600819248 chore(deps): Update defsec to v0.90.1 (#4739)\r\n* 73734eab2 feat(nodejs): support yarn workspaces (#4664)\r\n* 22463abab feat(cli): add include-dev-deps flag (#4700)\r\n* 790c8054e fix(image): pass the secret scanner option to scan the img config (#4735)\r\n* 86fec9c4a fix: scan job pod it not found on k8s-1.27.x (#4729)\r\n* 26bc91160 feat(docker): add support for mTLS authentication when connecting to registry (#4649)\r\n* d699e8c10 chore(deps): Update defsec to v0.90.0 (#4723)\r\n* 1777878e8 fix: skip scanning the gpg-pubkey package (#4720)\r\n* 9be08253a Fix http registry oci pull (#4701)\r\n* 5d73b47db feat(misconf): Support skipping services (#4686)\r\n* 46e784c8a docs: fix supported modes for pubspec.lock files (#4713)\r\n* 0f61a8471 fix(misconf): disable the terraform plan analyzer for other scanners (#4714)\r\n* 8a1aa448a clarifying a dir path is required for custom policies (#4716)\r\n* fbab9eea3 chore: update alpine base images (#4715)\r\n* f84417bba fix last-history-created (#4697)\r\n* 85c681d44 feat: kbom and cyclonedx v1.5 spec support (#4708)\r\n* 46748ce6e docs: add information about Aqua (#4590)\r\n* c6741bddf fix: k8s escape resource filename on windows os (#4693)\r\n* a21acc7e0 ci: ignore merge queue branches (#4696)\r\n* 32a3a3311 chore(deps): bump actions/checkout from 2.4.0 to 3.5.3 (#4695)\r\n* cbb47dc7c chore(deps): bump aquaproj/aqua-installer from 2.1.1 to 2.1.2 (#4694)\r\n* e3d10d251 feat: cyclondx sbom custom property support (#4688)\r\n* e1770e046 ci: do not trigger tests in main (#4692)\r\n* 337c0b70d add SUSE Linux Enterprise Server 15 SP5 and update SP4 eol date (#4690)\r\n* 5ccee1430 use group field for jar in cyclonedx (#4674)\r\n* 96db52c3f feat(java): capture licenses from pom.xml (#4681)\r\n* 3e902a57a feat(helm): make sessionAffinity configurable (#4623)\r\n* 904f1cf24 fix: Show the correct URL of the secret scanning (#4682)\r\n* 7d48c5d5d document expected file pattern definition format (#4654)\r\n* dcc73e964 fix: format arg error (#4642)\r\n* 35c4262d0 feat(k8s): cyclonedx kbom support (#4557)\r\n* 0e01851e9 fix(nodejs): remove unused fields for the pnpm lockfile (#4630)\r\n* 4d9b44449 fix(vm): update ext4-filesystem parser for parse multi block extents (#4616)\r\n* c29197ab7 ci: update build IDs (#4641)\r\n* d7637adc6 fix(debian): update EOL for Debian 12 (#4647)\r\n* ef39eeedf chore(deps): bump go-containerregistry (#4639)\r\n* 1ce8bb535 chore: unnecessary use of fmt.Sprintf (S1039) (#4637)\r\n* bc9513fc5 fix(db): change argument order in Exists query for JavaDB (#4595)\r\n* aecd2f0bf feat(aws): Add support to see successes in results (#4427)\r\n* 2cbf402b6 chore(deps): bump golangci/golangci-lint-action from 3.5.0 to 3.6.0 (#4613)\r\n* 0099b20e3 ci: do not trigger tests in main (#4614)\r\n* a597a54fb chore(deps): bump sigstore/cosign-installer (#4609)\r\n* b453fbec3 chore(deps): bump CycloneDX/gh-gomod-generate-sbom from 1 to 2 (#4608)\r\n* 0e876d5aa ci: bypass the required status checks (#4611)\r\n* a4f27d24a ci: support merge queue (#3652)\r\n* 9e6411e9f ci: matrix build for testing (#4587)\r\n* ef6538a17 feat: trivy k8s private registry support (#4567)\r\n* 139f3e1e3 docs: add general coverage page (#3859)\r\n* 479cfdd40 chore: create SECURITY.md (#4601)\r\n\r\n"
@@ -4275,7 +4275,7 @@
     "https://github.com/aiboboxx/v2rayfree": {
         "created_at": "2021-10-13 11:34:53",
         "description": "v2ray公益免费节点、最新2ray免费v节点订阅地址、v2ray免费节点每日更新、免费ss/v2ray/trojan节点、freefq ",
-        "commit_date": "2023-07-03 12:47:50",
+        "commit_date": "2023-07-04 12:46:31",
         "commit_message": "update",
         "release_tag": "",
         "release_date": "",
@@ -4320,8 +4320,8 @@
     "https://github.com/freefq/free": {
         "created_at": "2020-06-07 02:48:33",
         "description": "翻墙、免费翻墙、免费科学上网、免费节点、免费梯子、免费ss/v2ray/trojan节点、蓝灯、谷歌商店、翻墙梯子",
-        "commit_date": "2023-07-04 00:00:02",
-        "commit_message": "updated_at 07-04 08:00",
+        "commit_date": "2023-07-05 00:00:01",
+        "commit_message": "updated_at 07-05 08:00",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -4590,8 +4590,8 @@
     "https://github.com/yzfly/awesome-chatgpt-zh": {
         "created_at": "2023-03-21 02:16:34",
         "description": "ChatGPT 中文指南🔥，ChatGPT 中文调教指南，指令指南，应用开发指南，精选资源清单，更好的使用 chatGPT 让你的生产力 up up up! 🚀",
-        "commit_date": "2023-07-01 10:47:04",
-        "commit_message": "add aigc",
+        "commit_date": "2023-07-04 23:57:45",
+        "commit_message": "add gpt-migrate",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
