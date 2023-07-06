@@ -1,4 +1,4 @@
-# 更新于 2023-07-05 08:50:43
+# 更新于 2023-07-06 08:52:44
 
 ## 近15天release更新记录
 | 更新时间 | 项目名称 | 版本 | 更新内容 |
@@ -30,23 +30,33 @@
 |2023-06-24 05:49:44|[Fvuln](https://github.com/d3ckx1/Fvuln)|Fvuln-1<br>.4.9|1、修复漏洞误报；  2、新增单独或批量<br>漏洞扫描功能，-s 参数；  3、新增33个POC<br>；  4、去掉一些banner。|
 |2023-06-21 20:06:59|[burp-awesome-tls](https://github.com/sleeyax/burp-awesome-tls)|v1.1.0|## Changelog    ### Added  - Custom T<br>LS fingerprint support by @VovkoO (#29<br>) |
 |2023-06-21 05:56:55|[nemo_go](https://github.com/hanc00l/nemo_go)|v2.9.3|### Updated    - 集成Goby进行漏洞扫描<br>；需要部署服务器模式的goby，并在worker.<br>yml配置api的地址及认证；docker方式默认<br>会在127.0.0.1:8361启动goby-cmd；  - 更<br>新thirdparty组件版本；    ### Fix    - <br>httpx获取HTTP返回包的header数据，在ip/<br>domain详细显示不自动换行    ### Thirdp<br>arty版本  - Xray：1.9.11  - Nuclei：2.<br>9.6  - Goby：2.5.2  - Httpx：1.3.2  - <br>Subfinder：2.6.0  - Observe_ward：2023<br>.6.20|
-|2023-06-20 15:28:14|[Elkeid](https://github.com/bytedance/Elkeid)|v1.7.0.<br>13-drive<br>r-ko-202<br>30620||
-|2023-06-20 09:07:40|[Umi-OCR](https://github.com/hiroi-sora/Umi-OCR)|v1.3.5|### v1.3.5 主要更新：  - 新功能：复制<br>识别结果后，可发送指定按键，以便联动唤<br>起翻译器等工具。👉  - 新功能：命令行增<br>加切换识别语言的指令。👉  - 修Bug：修复<br>了低配置机器上有概率误报超时 OCR init t<br>imeout: 5s 的问题。  - 调整：默认停止<br>任务30秒后释放一次内存。    ### 文件说<br>明  软件本体：Umi-OCR.v1.3.5.7z（67MB）<br>，内置简体中文&英文通用识别库。  软件（<br>多国语言整合版）：Umi-OCR.v1.3.5_ALL_la<br>nguages.7z（118MB），内置多国语言识别<br>库。    多国语言扩展包：Umi-OCR.v1.3_DL<br>C_languages.7z（50MB），可向软件本体导<br>入繁中,英,日,韩,俄,德,法 多国语言识别库<br>。|
 ## 近15天commit提交记录
 | 提交时间 | 项目名称 | 更新内容 |
 | :---- | :---- | :---- |
-|2023-07-05 00:45:20|[NucleiTP](https://github.com/ExpLangcn/NucleiTP)|更新啦❤️|
+|2023-07-06 00:45:16|[NucleiTP](https://github.com/ExpLangcn/NucleiTP)|更新啦❤️|
+|2023-07-06 00:00:02|[free](https://github.com/freefq/free)|updated_at 07-06 08:00|
+|2023-07-05 23:34:45|[ChatGPT-Shortcut](https://github.com/rockbenben/ChatGPT-Shortcut)|refactor: Restructure multilingual page structure t<br>o reduce page load data by 50%|
+|2023-07-05 22:43:35|[PocOrExp_in_Githu<br>b](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-07-06 06:43:35|
+|2023-07-05 20:44:28|[dbeaver](https://github.com/dbeaver/dbeaver)|dbeaver/dbeaver#19769 fix grouping statement for Fi<br>rebird (#20475)  * dbeaver/dbeaver#19769 fix groupin<br>g statement for Firebird    * #19769 change the meth<br>od name|
+|2023-07-05 18:54:16|[vulhub](https://github.com/vulhub/vulhub)|Merge pull request #447 from vulhub/adminer-cve-202<br>1-43008  WIP: add adminer 4.6.2 with PHP 7.2.15|
+|2023-07-05 18:49:22|[syft](https://github.com/anchore/syft)|fix: use filepath.EvalSymlinks if os.Readlink fails<br> to evaluate the link (#1884)  Signed-off-by: DD (De<br>vdatta) Deshpande   Co-authored-by: Keith Zantow |
+|2023-07-05 16:15:36|[clair](https://github.com/quay/clair)|clairctl: Scan the pointer to the pointer of the bo<br>ol  I believe that even though ok is a *bool type, w<br>e still need to pass it's address to Scan() otherwis<br>e it's akin to ok := bool; Scan(&ok), which I believ<br>e only supports binary values and not nullable bools<br>.  Signed-off-by: crozzy |
+|2023-07-05 15:05:07|[grype](https://github.com/anchore/grype)|chore: bump quality gate labels and images (#1374) <br> Signed-off-by: Weston Steimel |
+|2023-07-05 15:04:54|[Vuln-List](https://github.com/wwl012345/Vuln-List)|Update Windows&Linux提权&RCE合集.md|
+|2023-07-05 14:47:14|[iDefender](https://github.com/wecooperate/iDefender)|update|
+|2023-07-05 12:49:17|[v2rayfree](https://github.com/aiboboxx/v2rayfree)|update|
+|2023-07-05 10:04:56|[safeline](https://github.com/chaitin/safeline)|feat: add faq for customizing nginx config|
+|2023-07-05 09:40:36|[domain_hunter_pro](https://github.com/bit4woo/domain_hunter_pro)|Update SuperJTextArea.java|
+|2023-07-05 09:08:54|[afrog](https://github.com/zan8in/afrog)|update poc|
+|2023-07-05 02:22:34|[Vulnerability-Wik<br>i](https://github.com/Threekiii/Vulnerability-Wiki)|commit|
+|2023-07-05 01:49:54|[Awesome-Exploit](https://github.com/Threekiii/Awesome-Exploit)|更新README.md|
+|2023-07-05 01:49:32|[Awesome-Redteam](https://github.com/Threekiii/Awesome-Redteam)|更新README.md|
+|2023-07-05 01:20:42|[Awesome-POC](https://github.com/Threekiii/Awesome-POC)|更新漏洞|
 |2023-07-05 00:29:39|[cf](https://github.com/teamssix/cf)|Merge pull request #256 from teamssix/beta  docs: u<br>pdate readme|
-|2023-07-05 00:00:01|[free](https://github.com/freefq/free)|updated_at 07-05 08:00|
 |2023-07-04 23:57:45|[awesome-chatgpt-z<br>h](https://github.com/yzfly/awesome-chatgpt-zh)|add gpt-migrate|
-|2023-07-04 20:43:25|[PocOrExp_in_Githu<br>b](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-07-05 04:43:25|
 |2023-07-04 19:45:34|[trivy](https://github.com/aquasecurity/trivy)|chore(deps): bump modernc.org/sqlite from 1.20.3 to<br> 1.23.1 (#4756)  Bumps  from 1.20.3 to 1.23.1. -   -<br>-- updated-dependencies: - dependency-name: modernc.<br>org/sqlite   dependency-type: direct:production   up<br>date-type: version-update:semver-minor ...  Signed-o<br>ff-by: dependabot[bot]  Co-authored-by: dependabot[b<br>ot] |
-|2023-07-04 18:35:30|[dbeaver](https://github.com/dbeaver/dbeaver)|Cb 3451 git scripts history (#20427)  * CB-3451 wip<br>    * CB-3451 git settings api    * CB-3451 migrate <br>to the new config model    * CB-3451 checkout remote<br> branch    * CB-3451 review fix    ---------    Co-a<br>uthored-by: alex   Co-authored-by: dariamarutkina |
-|2023-07-04 12:47:15|[safeline](https://github.com/chaitin/safeline)|安装时不要重启 docker 服务|
-|2023-07-04 12:46:31|[v2rayfree](https://github.com/aiboboxx/v2rayfree)|update|
 |2023-07-04 09:53:57|[knife](https://github.com/bit4woo/knife)|update|
 |2023-07-04 07:00:35|[SmsForwarder](https://github.com/pppscn/SmsForwarder)|新增：短信指令打开或关闭 WiFi #316 （试验性）|
-|2023-07-03 17:50:01|[syft](https://github.com/anchore/syft)|doc(readme): add installation section with scoop (#<br>1909)  Signed-off-by: drazen04 |
 |2023-07-03 16:29:57|[Burp-Non-HTTP-Ext<br>ension](https://github.com/summitt/Burp-Non-HTTP-Extension)|allow ip or hostname for client connection|
 |2023-07-03 16:14:56|[RedisEXP](https://github.com/yuyan-sec/RedisEXP)|github actions|
 |2023-07-03 14:48:33|[veinmind-tools](https://github.com/chaitin/veinmind-tools)|feat(ci): add auto sync to registry (#254)|
@@ -60,25 +70,19 @@
 |2023-07-03 03:00:44|[404StarLink](https://github.com/knownsec/404StarLink)|weekly update at 2023-07-03|
 |2023-07-02 23:15:29|[neuvector](https://github.com/neuvector/neuvector)|Merge pull request #904 from jayhuang-suse/four  NV<br>SHAS-8114, NVSHAS-8109: false-positive cases for the<br> NV Protect events|
 |2023-07-02 16:09:12|[PEASS-ng](https://github.com/carlospolop/PEASS-ng)|Update aicoder.yml|
-|2023-07-02 15:24:48|[iDefender](https://github.com/wecooperate/iDefender)|update|
-|2023-07-02 13:47:35|[vulhub](https://github.com/vulhub/vulhub)|Merge pull request #446 from D3vil0p3r/patch-1  Cre<br>ate environments.toml|
-|2023-07-02 11:33:23|[afrog](https://github.com/zan8in/afrog)|version 2.7.1|
 |2023-07-02 10:36:20|[captcha-killer-mo<br>dified](https://github.com/f0ng/captcha-killer-modified)|Update README.md|
 |2023-07-02 07:50:07|[kube-bench](https://github.com/aquasecurity/kube-bench)|Fix test_items in cis-1.7 - node - 4.2.12 (#1469)  <br>Related issue: https://github.com/aquasecurity/kube-<br>bench/issues/1468|
 |2023-07-01 22:24:38|[ShiroAttack2](https://github.com/SummerSec/ShiroAttack2)|:bug: fix https://github.com/SummerSec/ShiroAttack2<br>/issues/37|
 |2023-07-01 15:14:35|[pikachu](https://github.com/zhuifengshaonianhanlu/pikachu)|Merge pull request #33 from 8023/master  优化docker<br>file|
 |2023-07-01 15:12:07|[chatgpt](https://github.com/LangLangShanDeNanKe/chatgpt)|Update README.md|
-|2023-07-01 12:42:01|[domain_hunter_pro](https://github.com/bit4woo/domain_hunter_pro)|Update pom.xml|
 |2023-07-01 10:10:16|[Viper](https://github.com/FunnyWolf/Viper)|update version v1.6.0|
 |2023-07-01 06:12:00|[X-Marshal](https://github.com/XTeam-Wing/X-Marshal)|Update README.md|
-|2023-06-30 16:54:42|[clair](https://github.com/quay/clair)|chore: Remove dogstatsd variable and references  Th<br>is came up as we have this field in the documentatio<br>n but clairctl will error out if it's used when invo<br>king any command.  Signed-off-by: crozzy |
 |2023-06-30 16:04:02|[All-Defense-Tool](https://github.com/guchangan1/All-Defense-Tool)|更新v2.4|
+|2023-06-30 06:32:51|[murphysec](https://github.com/murphysecurity/murphysec)|fix: JSON output|
 |2023-06-30 05:38:09|[RouteVulScan](https://github.com/F6JO/RouteVulScan)|Update Config_yaml.yaml|
 |2023-06-30 01:11:52|[FrameVul](https://github.com/Awrrays/FrameVul)|Update README.md|
-|2023-06-29 21:05:17|[grype](https://github.com/anchore/grype)|Add a simple CSV format template to the templates/ <br>directory and tweak docs (#1366)|
 |2023-06-29 13:51:25|[sqlmap](https://github.com/sqlmapproject/sqlmap)|Python2.7 has been removed from Github CI/CD|
 |2023-06-29 13:26:32|[fscan](https://github.com/shadow1ng/fscan)|Merge pull request #280 from dksslq/main  输出格式<br>调整|
-|2023-06-29 04:15:22|[murphysec](https://github.com/murphysecurity/murphysec)|refactor: remove internal command cpphash|
 |2023-06-29 03:49:15|[Pentest-Windows](https://github.com/arch3rPro/Pentest-Windows)|Update README.md|
 |2023-06-29 02:24:05|[v2rayA](https://github.com/v2rayA/v2rayA)|Fix Windows installer build|
 |2023-06-28 09:55:05|[Elkeid](https://github.com/bytedance/Elkeid)|fix:driver ci update ubuntu18|
@@ -87,7 +91,6 @@
 |2023-06-27 13:38:48|[fofa_viewer](https://github.com/wgpsec/fofa_viewer)|修复CI|
 |2023-06-27 11:00:22|[RmEye](https://github.com/RoomaSec/RmEye)|Update readme.md|
 |2023-06-27 10:59:07|[RmTools](https://github.com/RoomaSec/RmTools)|Update README.md|
-|2023-06-27 10:35:55|[ChatGPT-Shortcut](https://github.com/rockbenben/ChatGPT-Shortcut)|fix: Fix URL issue with ShareButton|
 |2023-06-27 09:31:15|[Kunlun-M](https://github.com/LoRexxar/Kunlun-M)|Merge pull request #235 from LoRexxar/develop  upda<br>te startlink|
 |2023-06-26 07:04:59|[GobypassAV-shellc<br>ode](https://github.com/Pizz33/GobypassAV-shellcode)|Update README.md|
 |2023-06-26 02:46:37|[Awesome-ChatGPT](https://github.com/dalinvip/Awesome-ChatGPT)|Update README.md|
@@ -99,9 +102,7 @@
 |2023-06-22 21:36:19|[burp-awesome-tls](https://github.com/sleeyax/burp-awesome-tls)|Create FUNDING.yml|
 |2023-06-22 16:10:33|[PeiQi-WIKI-Book](https://github.com/PeiQi0/PeiQi-WIKI-Book)|漏洞相关:修复错误|
 |2023-06-22 11:01:47|[fshzqSearch](https://github.com/Ifory885/fshzqSearch)|Update README.md  项目迁移|
-|2023-06-21 05:27:44|[nemo_go](https://github.com/hanc00l/nemo_go)|Update: thirdparty|
-|2023-06-20 09:06:26|[InfoSearchAll](https://github.com/ExpLangcn/InfoSearchAll)|Update README.md|
-|2023-06-20 01:26:33|[fofax](https://github.com/xiecat/fofax)|这是一个临时版本替换type字段|## 所有项目
+|2023-06-21 05:27:44|[nemo_go](https://github.com/hanc00l/nemo_go)|Update: thirdparty|## 所有项目
 # 渗透测试
 ## 信息收集
 ### 资产测绘采集
