@@ -65,8 +65,8 @@
     "https://github.com/pppscn/SmsForwarder": {
         "created_at": "2021-02-10 02:23:07",
         "description": "短信转发器——监控Android手机短信、来电、APP通知，并根据指定规则转发到其他手机：钉钉群自定义机器人、钉钉企业内机器人、企业微信群机器人、飞书机器人、企业微信应用消息、邮箱、bark、webhook、Telegram机器人、Server酱、PushPlus、手机短信等。包括主动控制服务端与客户端，让你轻松远程发短信、查短信、查通话、查话簿、查电量等。（V3.0 新增）PS.这个APK主要是学习与自用，如有BUG请提ISSUE，同时欢迎大家提PR指正",
-        "commit_date": "2023-07-04 07:00:35",
-        "commit_message": "新增：短信指令打开或关闭 WiFi #316 （试验性）",
+        "commit_date": "2023-07-07 06:38:43",
+        "commit_message": "升级：XUI框架版本（优化XToastUtils等）",
         "release_tag": "v3.2.0",
         "release_date": "2023-02-14 09:25:00",
         "release_message": "PS. 距离上一次1024发版，已经过去快5个月了，期间发生不少事，一直没更新这个项目，不管如何，魔幻的2022年都过去了！\r\n\r\n感谢大家这2年来的陪伴与支持，祝大家有情人终成眷属，情人节快乐！\r\n\r\n---\r\n\r\n### 【注意】\r\n\r\n* v3.x版本是全新重构开发，可能一开始并不稳定，建议升级前先做好数据备份！（客户端>一键换新机>离线模式>导出）\r\n\r\n* `v3.2.0` 去除了 `mmkv` 依赖，采用 `SharedPreferences` 来保存配置，升级之后通用设置中的配置请重新配置，具体原因参见 [Issue #245](https://github.com/pppscn/SmsForwarder/issues/245)\r\n\r\n* 升级完毕后，建议离线导出配置，完全卸载干净全新安装后再导入配置（可以避免一些莫名其妙的玄学问题，例如：耗电异常）\r\n\r\n---\r\n\r\n### 更新日志\r\n\r\n* 新增：短信指令（根据短信指令开关对应功能） #I5YX3F\r\n* 新增：监听网络状态变化提醒（APP通知转发，包名：77777777） #259\r\n* 新增：远程改话簿（方便给老人家添加联系人） #256\r\n* 新增：远程查询手机定位（方便找回手机/防止老少走丢） #256\r\n* 新增：Socket发送通道（支持MQTT/TCP/UDP协议） #252\r\n* 新增：发送通道 URL Scheme（支持跨应用数据传递）#250\r\n* 新增：自动消除额外APP通知 #232 #248\r\n\r\n* 优化：短信/通话转发获取卡槽信息机制（自行备注卡槽SubId对应）#228 #235\r\n* 优化：来电转发逻辑 & 新增提醒类型（1.来电挂机 2.去电挂机 3.未接来电 4.来电提醒 5.来电接通 6.去电拨出）\r\n* 优化：单个转发规则支持绑定多个发送通道，且支持执行逻辑（全部执行/失败即止/成功即止） #247\r\n* 优化：转发日志列表以原始信息为主，聚合展示转发日志（一对多）\r\n* 优化：已安装App信息列表异步加载机制\r\n* 优化：电池状态监听/网络状态监控 在未开启去重时默认开启1秒去重\r\n* 优化：利用BatteryReceiver守护自启动的Frpc (试验) #254\r\n\r\n* 修复：Android 13 无法授予通知权限 #255\r\n* 修复：重启手机自动启动APP时加载配置失败 #233 #245\r\n* 修复：转发消息遍历发送通道时未跳过已禁用的通道\r\n* 修复：降级Android Gradle插件版本以兼容4.4 (#249 by NyaMisty)\r\n\r\n* 升级：andserver到2.1.12（加快web端上下行速度等）\r\n* 升级：frpclib 到 v0.47.0\r\n* 升级：androidx组件和kotlin版本\r\n\r\n还有一些细微调整参见`github`提交记录\r\n\r\n---\r\n\r\n### APK版本说明：\r\n* universal（10XXXX）: 通用版（不在乎安装包大小/懒得选就用这个版本，包含以下4种CPU架构so）\r\n* armeabi-v7a（20XXXX）: 32位ARM设备（备用机首选）\r\n* arm64-v8a（30XXXX）: 64位ARM设备（主流旗舰机）\r\n* x86（40XXXX）: 32位Intel设备\r\n* x86_64（50XXXX）: 64/32位Intel设备"
@@ -200,8 +200,8 @@
     "https://github.com/ycdxsb/PocOrExp_in_Github": {
         "created_at": "2021-04-13 05:46:16",
         "description": "聚合Github上已有的Poc或者Exp，CVE信息来自CVE官网。Auto Collect Poc Or Exp from Github by CVE ID.",
-        "commit_date": "2023-07-06 22:44:09",
-        "commit_message": "update 2023-07-07 06:44:09",
+        "commit_date": "2023-07-07 22:44:28",
+        "commit_message": "update 2023-07-08 06:44:28",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -461,7 +461,7 @@
     "https://github.com/ExpLangcn/NucleiTP": {
         "created_at": "2022-11-08 13:16:56",
         "description": "自动整合全网Nuclei的漏洞POC，实时同步更新最新POC！",
-        "commit_date": "2023-07-07 00:45:20",
+        "commit_date": "2023-07-08 00:45:15",
         "commit_message": "更新啦❤️",
         "release_tag": "",
         "release_date": "",
@@ -1467,11 +1467,11 @@
     "https://github.com/summitt/Burp-Non-HTTP-Extension": {
         "created_at": "2016-05-23 20:30:34",
         "description": "Non-HTTP Protocol Extension (NoPE) Proxy and DNS for Burp Suite.",
-        "commit_date": "2023-07-06 22:12:32",
-        "commit_message": "adding a generic formater and fix string repeat bug",
-        "release_tag": "v1.7",
-        "release_date": "2023-07-06 22:24:45",
-        "release_message": "* this fixes some issues with TLS connections\r\n* Fixes Bugs with repeated descriptions in the Table Annotations\r\n* Much Better DNS handling\r\n* Faster Load time\r\n* Fixed an issue that prevented NoPE from funning on M1 Macs\r\n* Attempted to mitigate issues with the port monitor but its still buggy.\r\n* Added `formatOnly` Python function to extract or format data from traffic flows without interfering with the traffic. \r\n"
+        "commit_date": "2023-07-07 18:08:49",
+        "commit_message": "bug in way interceptors work",
+        "release_tag": "v1.7.1",
+        "release_date": "2023-07-07 18:15:00",
+        "release_message": "* Fixed issue where some requests are not being intercepted"
     },
     "https://github.com/SiJiDo/H": {
         "created_at": "2021-09-10 06:49:28",
@@ -1861,8 +1861,8 @@
     "https://github.com/f0ng/captcha-killer-modified": {
         "created_at": "2022-03-18 12:41:58",
         "description": "captcha-killer的修改版，支持关键词识别base64编码的图片，添加免费ocr库，用于验证码爆破，适配新版Burpsuite",
-        "commit_date": "2023-07-02 10:36:20",
-        "commit_message": "Update README.md",
+        "commit_date": "2023-07-07 07:09:42",
+        "commit_message": "Update FAQ.md",
         "release_tag": "0.24.1",
         "release_date": "2023-07-02 10:36:57",
         "release_message": "【2023-7-2】 0.24.1\r\n- #27 修复加载插件影响intruder速度的问题(临时增加了一个按钮控制是否开启该插件)\r\n\r\n<img width=\"642\" alt=\"image\" src=\"https://github.com/f0ng/captcha-killer-modified/assets/48286013/8c8132ac-dd38-494f-aa47-80b6db4a7c93\">\r\n"
@@ -2951,8 +2951,8 @@
     "https://github.com/dbeaver/dbeaver": {
         "created_at": "2015-10-21 08:26:28",
         "description": "Free universal database tool and SQL client",
-        "commit_date": "2023-07-06 15:34:40",
-        "commit_message": "Remove legacy color theme plugin",
+        "commit_date": "2023-07-07 08:12:50",
+        "commit_message": "dbeaver/pro#1766 Legacy krb5 support (#20493)\n\n* dbeaver/pro#1766 Legacy krb5 support\r\n\r\n* 23.1.2 version bump",
         "release_tag": "23.1.1",
         "release_date": "2023-06-25 18:29:59",
         "release_message": "\n                - SQL Editor:\n                    - User can configure the options on the toolbar by pressing the gear button in the editor\n                    - Issue with missing \"Copy file path\" option was fixed\n                - Data Editor:\n                    - Statistics view now can be disabled\n                    - Issue with References tab was fixed\n                    - Spatial tiles configuration was fixed (thanks to @otbutz)\n                - ER Diagram: issue with element removal after using View Style option was fixed\n                - Data transfer: issue with exporting a table without data when using bulk loading was fixed\n                - New drivers: TDengine database is now supported (thanks @sangshuduo).\n                - General UI:\n                    - Users can export DBeaver settings and import them\n                    - Notifications in Dark theme became topic \"Notices in the dark\" became readable\n                    - Users can use drag-n-drop to copy scripts, open database objects and insert Navigator node names into the editor\n                - Connectivity:\n                    - User can add snapshot maven repository\n                    - \"Automatically end long idle transactions\" option was redesigned\n                    - Authentication failure when connecting via SSH was fixed\n                    - Now users can connect with jump server using SSHJ\n                    - Issue with connecting to Azure SQL Server using Active Directory was fixed\n                - Security: SQLite driver version was updated\n                - Databases:\n                    - DB2z and Denodo: \"Show duplicates\" button in Grouping panel was fixed\n                    - Greenplum: function DDL was fixed (default parameter values)\n                    - Oracle:\n                        - Dates of creation and modification appeared in the information about the packages\n                        - Table partitions and subpartitions reading was fixed\n                        - Issue with missing tablespace statistics after object update was fixed\n                    - Snowflake: quotation rules for object identifiers were added\n                - Localization:\n                    - Users can now select Portuguese as the default language during installation or in Preferences\n                    - Portuguese localization was improved (thanks to @brlarini)\n                    - German localization was improved (thanks to @coderkun)\n                - Misc: we switched to Eclipse 2023-06 and Java-17 as a base platform\n            "
@@ -3050,7 +3050,7 @@
     "https://github.com/zan8in/afrog": {
         "created_at": "2022-02-24 06:00:32",
         "description": "A Security Tool for Bug Bounty, Pentest and Red Teaming.",
-        "commit_date": "2023-07-06 12:19:47",
+        "commit_date": "2023-07-07 12:50:22",
         "commit_message": "update",
         "release_tag": "v2.7.1",
         "release_date": "2023-07-06 12:31:30",
@@ -3192,11 +3192,11 @@
     "https://github.com/joke2k/faker": {
         "created_at": "2012-11-12 23:00:09",
         "description": "Faker is a Python package that generates fake data for you.",
-        "commit_date": "2023-06-27 15:23:55",
-        "commit_message": "Bump version: 18.11.1 → 18.11.2",
-        "release_tag": "v18.11.2",
-        "release_date": "2023-06-27 15:34:27",
-        "release_message": "See [CHANGELOG.md](https://github.com/joke2k/faker/blob/refs/tags/v18.11.2/CHANGELOG.md)."
+        "commit_date": "2023-07-07 15:59:57",
+        "commit_message": "Bump version: 18.12.0 → 18.13.0",
+        "release_tag": "v18.13.0",
+        "release_date": "2023-07-07 16:00:38",
+        "release_message": "See [CHANGELOG.md](https://github.com/joke2k/faker/blob/refs/tags/v18.13.0/CHANGELOG.md)."
     },
     "https://github.com/NHPT/Xray_Cracked": {
         "created_at": "2022-08-10 13:51:19",
@@ -3890,8 +3890,8 @@
     "https://github.com/neuvector/neuvector": {
         "created_at": "2021-12-17 20:15:03",
         "description": "",
-        "commit_date": "2023-07-02 23:15:29",
-        "commit_message": "Merge pull request #904 from jayhuang-suse/four\n\nNVSHAS-8114, NVSHAS-8109: false-positive cases for the NV Protect events",
+        "commit_date": "2023-07-07 20:43:54",
+        "commit_message": "Merge pull request #887 from kyledong-suse/main\n\nNVSHAS-5703 & NVSHAS-5365: Implement IP-FQDN mapping table",
         "release_tag": "v5.2.0",
         "release_date": "2023-07-06 05:43:13",
         "release_message": "##### Enhancements \r\n+ Searchable SaaS service for CVE lookups. NVSHAS-5852 Search the latest NeuVector CVE database to see if a specific CVE exists in the database.\r\n+ Support tokens for NeuVector API access. NVSHAS-6293\r\n+ Support AWS Marketplace PAYG billing for NeuVector monthly support subscriptions. Users can subscribe to NeuVector by SUSE support, billed monthly to their AWS account based on previous month's average node count usage. Details [here](https://open-docs.neuvector.com/deploying/awsmarketplace).\r\n+ Support image signing for admission controls. NVSHAS-6217, NVSHAS-6216.\r\n+ Enable each admission control rule to have its own mode of Monitor or Protect.NVSHAS-4062 A Deny action in Monitor mode will alert, and a Deny action in Protect mode will block. Allow actions are unaffected.\r\n+ Add a new \"operator\" in Policy > Admission Control > Add Rule. NVSHAS-6726 Support operators \"is between\" and \"is not between\" for both \"Users\" and \"User Groups\".\r\n+ Add support for custom admission control criteria such as resource limits. NVSHAS-7717\r\n+ Support invoking NeuVector scanner from Harbor registries through the [pluggable scanner](https://github.com/goharbor/pluggable-scanner-spec) interface.\r\n+ Allow user to disable network protection but keep WAF/DLP functioning. Configure Network Policy Enablement in Settings -> Configuration. NVSHAS-7725\r\n+ Use less privileged services accounts as required for each NeuVector component. NVSHAS-7603. A variable “leastPrivilege” is introduced. The default is false. NOTE: Using the current helm chart with this variable on a release prior to 5.2.0 will not function properly.\r\n+ Bind to non-default service account to meet CIS 1.5 5.1.5 recommendation. NVSHAS-7619\r\n+ Enable administrator to configure user default Session Time out. NVSHAS-7621\r\n+ Customizable login banner NVSHAS-6675. \r\n+ Customizable UI header text NVSHAS-7330.\r\n+ SYSLOG support for TLS encrypted transport. NVSHAS-4377\r\n+ Enable deployment of the NeuVector monitor helm chart from Rancher Manager.\r\n+ Remove upper limit for top level domain in URL validator for registry scanning. NVSHAS-7935\r\n+ Scan golang dependencies, including run-time scans.\r\n+ Support Debian 12 (Bookworm) vulnerability scan.\r\n+ Add CSV export for Registry / Details to export CVEs for all images in configured registry. NVSHAS-5993\r\n+ Allow NeuVector to set several ADFS certificates in parallel in x.509 certificate field. NVSHAS-7335\r\n+ Add and display the comment field for Response Rules.\r\n##### Bug Fixes\r\n+ Reduce repeating logs in enforcer/controller logs. NVSHAS-7832 {TBD???}\r\n+ Multiple clusters page does not render. NVSHAS-7742\r\n+ Empty group auto-removal takes 2 hours to delete instead of 1 hour according to schedule. NVSHAS-7791\r\n+ Manually allowed network rule not getting applied and resulting in violation for pause image. NVSHAS-7807\r\n+ Blocking SSL connections even if a network rule permits the traffic under certain initial conditions. NVSHAS-7923\r\n+ Security events warning even with allowed network rules due to policy update issue in synchronization. NVSHAS-8019\r\n+ Despite defining the network rules, violations getting logged under security events (false positives) when the container has stopped due to out of memory (OOM) error. NVSHAS-7830\r\n+ Allow user to disable/enable detection and protection against unmanaged container in cluster. NVSHAS-7804. This can be set through the Manager CLI:\r\n```\r\nset system detect_unmanaged_wl status -h\r\nUsage: cli set system detect_unmanaged_wl status [OPTIONS] {true|false}\r\n  Enable/disable detect unmanaged container\r\n```\r\n##### Other\r\n+ Add \"leastPrivilege\" setting in Helm chart.\r\n+ Enable AWS integration settings in Helm chart. "
@@ -3917,11 +3917,11 @@
     "https://github.com/chaitin/safeline": {
         "created_at": "2023-04-12 11:30:14",
         "description": "一款足够简单、足够好用、足够强的免费 WAF。基于业界领先的语义引擎检测技术，作为反向代理接入，保护你的网站不受黑客攻击。",
-        "commit_date": "2023-07-06 12:16:45",
-        "commit_message": "feat: release v2.1.1",
-        "release_tag": "v2.1.1",
-        "release_date": "2023-07-06 12:19:22",
-        "release_message": "- 修复了防护策略模块没有翻译的问题"
+        "commit_date": "2023-07-07 07:26:47",
+        "commit_message": "fix: https://github.com/chaitin/safeline/security/dependabot/57",
+        "release_tag": "v2.1.2",
+        "release_date": "2023-07-07 05:40:12",
+        "release_message": "- 修复了日志详情中防护策略模块没有翻译的问题"
     },
     "https://github.com/stamparm/identYwaf": {
         "created_at": "2019-01-10 11:27:58",
@@ -3953,8 +3953,8 @@
     "https://github.com/quay/clair": {
         "created_at": "2015-11-13 18:46:16",
         "description": "Vulnerability Static Analysis for Containers",
-        "commit_date": "2023-07-06 18:24:01",
-        "commit_message": "chore: Update outdated docs and comment with default update period.\n\nThis was missed when we changed the default updating period.\n\nSigned-off-by: crozzy <joseph.crosland@gmail.com>",
+        "commit_date": "2023-07-07 21:01:05",
+        "commit_message": "docs: Add description of debugging services available during local-dev\n\nAs pyroscope was added I realized that these services are not\ndocumented but could be really useful to contributors.\n\nSigned-off-by: crozzy <joseph.crosland@gmail.com>",
         "release_tag": "v4.6.1",
         "release_date": "2023-04-13 18:29:02",
         "release_message": "<a name=\"unreleased\"></a>\n## [Unreleased]\n\n\n<a name=\"v4.6.1\"></a>\n## [v4.6.1] - 2023-04-13\n### Airgap\n- [e02aba27](https://github.com/quay/clair/commit/e02aba27de01cb461f79bee9644aac80c2f9bd65): Remove libindex Airgap option\n### Chore\n- [36990912](https://github.com/quay/clair/commit/36990912450fba2ccbef260a4829f1d9f69f45c6): v4.6.1 changelog bump\n- [e676671c](https://github.com/quay/clair/commit/e676671c17d2612470cd8de05aa668312fbb3036): Bump Claircore to v1.4.21\n### Go.Mod\n- [36de97cc](https://github.com/quay/clair/commit/36de97ccf619113b1ef4dff6bfd0e0c692252544): update json (de)serializer\n### Httptransport\n- [922f33d1](https://github.com/quay/clair/commit/922f33d18919578049fbf2ccb756e6990b66f280): fix request_id logging\n### Httputil\n- [9e8eacf5](https://github.com/quay/clair/commit/9e8eacf51b2a45f967036396b3dc14a52edc480d): fix ParseIP usage\n -  [#1689](https://github.com/quay/clair/issues/1689)### Notifier\n- [ffa4556d](https://github.com/quay/clair/commit/ffa4556d0f251cc984ed34594356625b9b747744): Avoid double reference\n\n[Unreleased]: https://github.com/quay/clair/compare/v4.6.1...HEAD\n[v4.6.1]: https://github.com/quay/clair/compare/v4.6.0...v4.6.1\n"
@@ -3971,11 +3971,11 @@
     "https://github.com/aquasecurity/trivy": {
         "created_at": "2019-04-11 01:01:07",
         "description": "Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more",
-        "commit_date": "2023-07-06 13:23:01",
-        "commit_message": "chore(deps): bump github.com/alicebob/miniredis/v2 from 2.30.3 to 2.30.4 (#4758)\n\nBumps [github.com/alicebob/miniredis/v2](https://github.com/alicebob/miniredis) from 2.30.3 to 2.30.4.\n- [Release notes](https://github.com/alicebob/miniredis/releases)\n- [Changelog](https://github.com/alicebob/miniredis/blob/master/CHANGELOG.md)\n- [Commits](https://github.com/alicebob/miniredis/compare/v2.30.3...v2.30.4)\n\n---\nupdated-dependencies:\n- dependency-name: github.com/alicebob/miniredis/v2\n  dependency-type: direct:production\n  update-type: version-update:semver-patch\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
-        "release_tag": "v0.43.0",
-        "release_date": "2023-06-30 08:52:16",
-        "release_message": "## ⚡Release highlights and summary⚡\r\n\r\n👉 https://github.com/aquasecurity/trivy/discussions/4741\r\n\r\n## Changelog\r\n* 600819248 chore(deps): Update defsec to v0.90.1 (#4739)\r\n* 73734eab2 feat(nodejs): support yarn workspaces (#4664)\r\n* 22463abab feat(cli): add include-dev-deps flag (#4700)\r\n* 790c8054e fix(image): pass the secret scanner option to scan the img config (#4735)\r\n* 86fec9c4a fix: scan job pod it not found on k8s-1.27.x (#4729)\r\n* 26bc91160 feat(docker): add support for mTLS authentication when connecting to registry (#4649)\r\n* d699e8c10 chore(deps): Update defsec to v0.90.0 (#4723)\r\n* 1777878e8 fix: skip scanning the gpg-pubkey package (#4720)\r\n* 9be08253a Fix http registry oci pull (#4701)\r\n* 5d73b47db feat(misconf): Support skipping services (#4686)\r\n* 46e784c8a docs: fix supported modes for pubspec.lock files (#4713)\r\n* 0f61a8471 fix(misconf): disable the terraform plan analyzer for other scanners (#4714)\r\n* 8a1aa448a clarifying a dir path is required for custom policies (#4716)\r\n* fbab9eea3 chore: update alpine base images (#4715)\r\n* f84417bba fix last-history-created (#4697)\r\n* 85c681d44 feat: kbom and cyclonedx v1.5 spec support (#4708)\r\n* 46748ce6e docs: add information about Aqua (#4590)\r\n* c6741bddf fix: k8s escape resource filename on windows os (#4693)\r\n* a21acc7e0 ci: ignore merge queue branches (#4696)\r\n* 32a3a3311 chore(deps): bump actions/checkout from 2.4.0 to 3.5.3 (#4695)\r\n* cbb47dc7c chore(deps): bump aquaproj/aqua-installer from 2.1.1 to 2.1.2 (#4694)\r\n* e3d10d251 feat: cyclondx sbom custom property support (#4688)\r\n* e1770e046 ci: do not trigger tests in main (#4692)\r\n* 337c0b70d add SUSE Linux Enterprise Server 15 SP5 and update SP4 eol date (#4690)\r\n* 5ccee1430 use group field for jar in cyclonedx (#4674)\r\n* 96db52c3f feat(java): capture licenses from pom.xml (#4681)\r\n* 3e902a57a feat(helm): make sessionAffinity configurable (#4623)\r\n* 904f1cf24 fix: Show the correct URL of the secret scanning (#4682)\r\n* 7d48c5d5d document expected file pattern definition format (#4654)\r\n* dcc73e964 fix: format arg error (#4642)\r\n* 35c4262d0 feat(k8s): cyclonedx kbom support (#4557)\r\n* 0e01851e9 fix(nodejs): remove unused fields for the pnpm lockfile (#4630)\r\n* 4d9b44449 fix(vm): update ext4-filesystem parser for parse multi block extents (#4616)\r\n* c29197ab7 ci: update build IDs (#4641)\r\n* d7637adc6 fix(debian): update EOL for Debian 12 (#4647)\r\n* ef39eeedf chore(deps): bump go-containerregistry (#4639)\r\n* 1ce8bb535 chore: unnecessary use of fmt.Sprintf (S1039) (#4637)\r\n* bc9513fc5 fix(db): change argument order in Exists query for JavaDB (#4595)\r\n* aecd2f0bf feat(aws): Add support to see successes in results (#4427)\r\n* 2cbf402b6 chore(deps): bump golangci/golangci-lint-action from 3.5.0 to 3.6.0 (#4613)\r\n* 0099b20e3 ci: do not trigger tests in main (#4614)\r\n* a597a54fb chore(deps): bump sigstore/cosign-installer (#4609)\r\n* b453fbec3 chore(deps): bump CycloneDX/gh-gomod-generate-sbom from 1 to 2 (#4608)\r\n* 0e876d5aa ci: bypass the required status checks (#4611)\r\n* a4f27d24a ci: support merge queue (#3652)\r\n* 9e6411e9f ci: matrix build for testing (#4587)\r\n* ef6538a17 feat: trivy k8s private registry support (#4567)\r\n* 139f3e1e3 docs: add general coverage page (#3859)\r\n* 479cfdd40 chore: create SECURITY.md (#4601)\r\n\r\n"
+        "commit_date": "2023-07-07 08:13:56",
+        "commit_message": "chore(deps): Update defsec to v0.90.3 (#4793)\n\n* chore(deps): Update defsec to v0.90.2\n\nSigned-off-by: Simar <simar@linux.com>\n\n* go mod tidy\n\n---------\n\nSigned-off-by: Simar <simar@linux.com>",
+        "release_tag": "v0.43.1",
+        "release_date": "2023-07-07 09:40:41",
+        "release_message": "## Changelog\n* 5d76abadc chore(deps): Update defsec to v0.90.3 (#4793)\n* fed446c51 chore(deps): bump google.golang.org/protobuf from 1.30.0 to 1.31.0 (#4752)\n* df62927e5 chore(deps): bump alpine from 3.18.0 to 3.18.2 (#4748)\n* 1b9b9a84f chore(deps): bump github.com/alicebob/miniredis/v2 from 2.30.3 to 2.30.4 (#4758)\n* 3c16ca821 docs(image): fix the comment on the soft/hard link (#4740)\n* e5bee5ccc check Type when filling pkgs in vulns (#4776)\n* 4b9f310b9 feat: add support of linux/ppc64le and linux/s390x architectures for Install.sh script (#4770)\n* 8e7fb7cc8 chore(deps): bump modernc.org/sqlite from 1.20.3 to 1.23.1 (#4756)\n* a9badeaba fix(rocky): add architectures support for advisories (#4691)\n* f8ebccc68 chore(deps): bump github.com/opencontainers/image-spec (#4751)\n* 1c81948e0 chore(deps): bump github.com/package-url/packageurl-go (#4754)\n* 497cc10d8 chore(deps): bump golang.org/x/sync from 0.2.0 to 0.3.0 (#4750)\n* 065f0afa5 chore(deps): bump github.com/tetratelabs/wazero from 1.2.0 to 1.2.1 (#4755)\n* e2603056d chore(deps): bump github.com/testcontainers/testcontainers-go (#4759)\n* 0621402bf fix: documentation about reseting trivy image (#4733)\n* 798fdbc01 fix(suse): Add openSUSE Leap 15.5 eol date as well (#4744)\n* 34a89293d fix: update Amazon Linux 1 EOL (#4761)\n\n"
     },
     "https://github.com/anchore/grype": {
         "created_at": "2020-05-26 13:44:38",
@@ -4106,7 +4106,7 @@
     "https://github.com/arch3rPro/Pentest-Windows": {
         "created_at": "2022-07-08 02:43:58",
         "description": "Windows11 Penetration Suite Toolkit",
-        "commit_date": "2023-06-29 03:49:15",
+        "commit_date": "2023-07-07 03:44:50",
         "commit_message": "Update README.md",
         "release_tag": "v2.1",
         "release_date": "2023-06-05 06:27:12",
@@ -4277,7 +4277,7 @@
     "https://github.com/aiboboxx/v2rayfree": {
         "created_at": "2021-10-13 11:34:53",
         "description": "v2ray公益免费节点、最新2ray免费v节点订阅地址、v2ray免费节点每日更新、免费ss/v2ray/trojan节点、freefq ",
-        "commit_date": "2023-07-06 12:47:53",
+        "commit_date": "2023-07-07 12:44:16",
         "commit_message": "update",
         "release_tag": "",
         "release_date": "",
@@ -4322,8 +4322,8 @@
     "https://github.com/freefq/free": {
         "created_at": "2020-06-07 02:48:33",
         "description": "翻墙、免费翻墙、免费科学上网、免费节点、免费梯子、免费ss/v2ray/trojan节点、蓝灯、谷歌商店、翻墙梯子",
-        "commit_date": "2023-07-07 00:00:02",
-        "commit_message": "updated_at 07-07 08:00",
+        "commit_date": "2023-07-08 00:00:02",
+        "commit_message": "updated_at 07-08 08:00",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -4340,7 +4340,7 @@
     "https://github.com/Awrrays/FrameVul": {
         "created_at": "2022-04-04 05:54:00",
         "description": "POC集合，框架nday漏洞利用",
-        "commit_date": "2023-07-06 03:50:37",
+        "commit_date": "2023-07-07 07:14:15",
         "commit_message": "Update README.md",
         "release_tag": "",
         "release_date": "",
@@ -4574,7 +4574,7 @@
     "https://github.com/dalinvip/Awesome-ChatGPT": {
         "created_at": "2023-02-06 11:57:37",
         "description": "ChatGPT资料汇总学习，持续更新......",
-        "commit_date": "2023-06-26 02:46:37",
+        "commit_date": "2023-07-07 02:24:11",
         "commit_message": "Update README.md",
         "release_tag": "",
         "release_date": "",
@@ -4592,8 +4592,8 @@
     "https://github.com/yzfly/awesome-chatgpt-zh": {
         "created_at": "2023-03-21 02:16:34",
         "description": "ChatGPT 中文指南🔥，ChatGPT 中文调教指南，指令指南，应用开发指南，精选资源清单，更好的使用 chatGPT 让你的生产力 up up up! 🚀",
-        "commit_date": "2023-07-04 23:57:45",
-        "commit_message": "add gpt-migrate",
+        "commit_date": "2023-07-07 02:52:30",
+        "commit_message": "add ChatLaw",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
