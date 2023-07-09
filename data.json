@@ -200,8 +200,8 @@
     "https://github.com/ycdxsb/PocOrExp_in_Github": {
         "created_at": "2021-04-13 05:46:16",
         "description": "聚合Github上已有的Poc或者Exp，CVE信息来自CVE官网。Auto Collect Poc Or Exp from Github by CVE ID.",
-        "commit_date": "2023-07-07 22:44:28",
-        "commit_message": "update 2023-07-08 06:44:28",
+        "commit_date": "2023-07-08 22:45:37",
+        "commit_message": "update 2023-07-09 06:45:37",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -461,7 +461,7 @@
     "https://github.com/ExpLangcn/NucleiTP": {
         "created_at": "2022-11-08 13:16:56",
         "description": "自动整合全网Nuclei的漏洞POC，实时同步更新最新POC！",
-        "commit_date": "2023-07-08 00:45:15",
+        "commit_date": "2023-07-09 00:45:19",
         "commit_message": "更新啦❤️",
         "release_tag": "",
         "release_date": "",
@@ -4169,8 +4169,8 @@
     "https://github.com/vulhub/vulhub": {
         "created_at": "2017-04-09 10:13:13",
         "description": "Pre-Built Vulnerable Environments Based on Docker-Compose",
-        "commit_date": "2023-07-06 10:57:35",
-        "commit_message": "Merge pull request #448 from vulhub/adminer-cve-2021-21311\n\nAdminer CVE-2021-21311",
+        "commit_date": "2023-07-08 18:09:34",
+        "commit_message": "Merge pull request #449 from al4n233/patch-1\n\nfixed a typo",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -4277,7 +4277,7 @@
     "https://github.com/aiboboxx/v2rayfree": {
         "created_at": "2021-10-13 11:34:53",
         "description": "v2ray公益免费节点、最新2ray免费v节点订阅地址、v2ray免费节点每日更新、免费ss/v2ray/trojan节点、freefq ",
-        "commit_date": "2023-07-07 12:44:16",
+        "commit_date": "2023-07-08 12:39:41",
         "commit_message": "update",
         "release_tag": "",
         "release_date": "",
@@ -4322,8 +4322,8 @@
     "https://github.com/freefq/free": {
         "created_at": "2020-06-07 02:48:33",
         "description": "翻墙、免费翻墙、免费科学上网、免费节点、免费梯子、免费ss/v2ray/trojan节点、蓝灯、谷歌商店、翻墙梯子",
-        "commit_date": "2023-07-08 00:00:02",
-        "commit_message": "updated_at 07-08 08:00",
+        "commit_date": "2023-07-09 00:00:02",
+        "commit_message": "updated_at 07-09 08:00",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -4601,8 +4601,8 @@
     "https://github.com/rockbenben/ChatGPT-Shortcut": {
         "created_at": "2023-02-24 12:53:49",
         "description": "🚀💪Maximize your efficiency and productivity, support for English, 中文, 日本語, and 한국어. 让生产力加倍的 ChatGPT 快捷指令，按照领域和功能分区，可对提示词进行标签筛选、关键词搜索和一键复制。",
-        "commit_date": "2023-07-06 13:27:54",
-        "commit_message": "refactor: Update bulk processing script",
+        "commit_date": "2023-07-08 12:39:32",
+        "commit_message": "Merge pull request #34 from VMCoud/patch-1\n\nCreate docker.yml",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
