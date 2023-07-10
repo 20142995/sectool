@@ -200,8 +200,8 @@
     "https://github.com/ycdxsb/PocOrExp_in_Github": {
         "created_at": "2021-04-13 05:46:16",
         "description": "聚合Github上已有的Poc或者Exp，CVE信息来自CVE官网。Auto Collect Poc Or Exp from Github by CVE ID.",
-        "commit_date": "2023-07-08 22:45:37",
-        "commit_message": "update 2023-07-09 06:45:37",
+        "commit_date": "2023-07-09 20:22:51",
+        "commit_message": "update 2023-07-10 04:22:51",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -461,7 +461,7 @@
     "https://github.com/ExpLangcn/NucleiTP": {
         "created_at": "2022-11-08 13:16:56",
         "description": "自动整合全网Nuclei的漏洞POC，实时同步更新最新POC！",
-        "commit_date": "2023-07-09 00:45:19",
+        "commit_date": "2023-07-10 00:45:19",
         "commit_message": "更新啦❤️",
         "release_tag": "",
         "release_date": "",
@@ -630,11 +630,11 @@
     "https://github.com/wgpsec/ENScan_GO": {
         "created_at": "2022-01-04 14:07:28",
         "description": "一款基于各大企业信息API的工具，解决在遇到的各种针对国内企业信息收集难题。一键收集控股公司ICP备案、APP、小程序、微信公众号等信息聚合导出。",
-        "commit_date": "2023-07-03 03:05:00",
-        "commit_message": "修改文档",
-        "release_tag": "0.0.12",
-        "release_date": "2023-07-03 03:15:29",
-        "release_message": "1. 修复天眼查查询BUG\r\n2. 优化延迟选项"
+        "commit_date": "2023-07-09 05:23:19",
+        "commit_message": "修改文档补充说明 fix #65",
+        "release_tag": "0.0.13",
+        "release_date": "2023-07-09 05:05:02",
+        "release_message": "- 修复天X查BUG （需要设置代理挂上burp参考 #66）\r\n > -n 小米 -type tyc --debug --proxy http://127.0.0.1:8080/"
     },
     "https://github.com/jackfrued/Python-100-Days": {
         "created_at": "2018-03-01 16:05:52",
@@ -864,11 +864,11 @@
     "https://github.com/vaycore/OneScan": {
         "created_at": "2023-02-14 01:59:45",
         "description": "OneScan是递归目录扫描的BurpSuite插件",
-        "commit_date": "2023-05-29 04:31:16",
-        "commit_message": "将数据看板界面的复选框状态保存到配置文件；将Disable选项功能更改为Enable",
-        "release_tag": "v1.0.4",
-        "release_date": "2023-05-29 05:03:49",
-        "release_message": "1.0.4 版本发布，版本更新内容如下\r\n\r\n### 优化\r\n\r\n- 保存数据看板页面复选框状态（将 `Disable HeaderReplace`、`Disable DirScan` 的 `Disable` 更改为 `Enable`）\r\n- 优化正则表达式，解决某些站点 `title` 读取异常的问题\r\n\r\n### 修复\r\n\r\n- 解决 `bodyMd5` 参数计算错误的问题\r\n- 解决数据看板选中某条数据时，加载响应数据过慢的问题\r\n"
+        "commit_date": "2023-07-09 09:19:10",
+        "commit_message": "更新README.md中的一些说明和截图",
+        "release_tag": "v1.1.0",
+        "release_date": "2023-07-09 09:23:08",
+        "release_message": "\r\n1.1.0 版本发布，版本更新内容如下\r\n\r\n### 新增\r\n\r\n- 新增停止扫描任务功能（停止正在扫描的所有任务）\r\n- 新增导入 Url 功能（需要导入完整 Url 链接）\r\n- 数据看板列表新增请求包来源 `From` 字段（方便过滤）\r\n- 数据看板列表新增 “获取bodyMd5值”、“获取bodyHash值” 菜单项（更方便师傅们添加指纹规则）\r\n- 指纹模块新增 `bodyHash` 数据源（与 Fofa 的 `icon_hash` 计算方式一样）\r\n"
     },
     "https://github.com/ianxtianxt/SharpDecryptPwd": {
         "created_at": "2019-10-12 11:43:26",
@@ -2372,11 +2372,11 @@
     "https://github.com/FunnyWolf/Viper": {
         "created_at": "2020-05-29 12:53:42",
         "description": "Redteam operation  platform with webui 图形化红队行动辅助平台",
-        "commit_date": "2023-07-01 10:10:16",
-        "commit_message": "update version v1.6.0",
-        "release_tag": "v1.6.0",
-        "release_date": "2023-07-01 10:09:26",
-        "release_message": "## v1.6.0 20230701\r\n### 优化\r\n- 优化反溯源方案 [文档链接](https://www.yuque.com/vipersec/help/ilwe2iprztf9hlqv)\r\n- 优化`内存执行C#可执行文件(Bypass)`模块\r\n- `关于VIPER`中可以快捷查看最新版本\r\n- 合并metasploit-framework 6.3.24版本"
+        "commit_date": "2023-07-09 09:38:47",
+        "commit_message": "update version v1.6.1",
+        "release_tag": "v1.6.1",
+        "release_date": "2023-07-09 09:39:37",
+        "release_message": "## v1.6.1 20230709\r\n### 优化\r\n- 合并metasploit-framework 6.3.25版本\r\n### Bugfix\r\n- 修复NAT网络Linux主机(各大云厂商VPS)IP显示为::1问题\r\n- 修复NAT网络Linux主机(各大云厂商VPS)上线生成多个主机问题"
     },
     "https://github.com/kost/dvcs-ripper": {
         "created_at": "2012-10-23 04:55:18",
@@ -2953,9 +2953,9 @@
         "description": "Free universal database tool and SQL client",
         "commit_date": "2023-07-07 08:12:50",
         "commit_message": "dbeaver/pro#1766 Legacy krb5 support (#20493)\n\n* dbeaver/pro#1766 Legacy krb5 support\r\n\r\n* 23.1.2 version bump",
-        "release_tag": "23.1.1",
-        "release_date": "2023-06-25 18:29:59",
-        "release_message": "\n                - SQL Editor:\n                    - User can configure the options on the toolbar by pressing the gear button in the editor\n                    - Issue with missing \"Copy file path\" option was fixed\n                - Data Editor:\n                    - Statistics view now can be disabled\n                    - Issue with References tab was fixed\n                    - Spatial tiles configuration was fixed (thanks to @otbutz)\n                - ER Diagram: issue with element removal after using View Style option was fixed\n                - Data transfer: issue with exporting a table without data when using bulk loading was fixed\n                - New drivers: TDengine database is now supported (thanks @sangshuduo).\n                - General UI:\n                    - Users can export DBeaver settings and import them\n                    - Notifications in Dark theme became topic \"Notices in the dark\" became readable\n                    - Users can use drag-n-drop to copy scripts, open database objects and insert Navigator node names into the editor\n                - Connectivity:\n                    - User can add snapshot maven repository\n                    - \"Automatically end long idle transactions\" option was redesigned\n                    - Authentication failure when connecting via SSH was fixed\n                    - Now users can connect with jump server using SSHJ\n                    - Issue with connecting to Azure SQL Server using Active Directory was fixed\n                - Security: SQLite driver version was updated\n                - Databases:\n                    - DB2z and Denodo: \"Show duplicates\" button in Grouping panel was fixed\n                    - Greenplum: function DDL was fixed (default parameter values)\n                    - Oracle:\n                        - Dates of creation and modification appeared in the information about the packages\n                        - Table partitions and subpartitions reading was fixed\n                        - Issue with missing tablespace statistics after object update was fixed\n                    - Snowflake: quotation rules for object identifiers were added\n                - Localization:\n                    - Users can now select Portuguese as the default language during installation or in Preferences\n                    - Portuguese localization was improved (thanks to @brlarini)\n                    - German localization was improved (thanks to @coderkun)\n                - Misc: we switched to Eclipse 2023-06 and Java-17 as a base platform\n            "
+        "release_tag": "23.1.2",
+        "release_date": "2023-07-09 16:23:13",
+        "release_message": "\n                - SQL editor:\n                    - Mouse hovering over editor annotations was fixed\n                    - Trailing DDL query delimiter processing was fixed\n                - Data editor:\n                    - References panel refresh was fixed\n                    - XML presentation was fixed (NULL value handler)\n                - General UI:\n                    - Settings reset UI and behavior were redesigned\n                    - Editor tab tooltip now contains information abut resource's project\n                    - CLI parameter for app version print was added\n                    - Objects with mixed case names caching was fixed\n                    - Issue with program launch with wrong Java version was fixed\n                    - Preferences export/import UI was improved\n                    - Maven snapshot repository was added to default configuration\n                - Connections: kerberos support in legacy JDBC drivers (Hive) was fixed\n                - Data transfer: table information for tasks with broken connection was fixed\n                - Databases:\n                    - BigQuery: driver version was upgraded to 1.3.3 (thanks to @fredlegaucher)\n                    - DuckDB: LIST data type support was added\n                    - Firebird: filters and sorting in grouping panel were fixed\n                    - IBM i: driver download was fixed\n                    - Oracle:\n                        - Partitions cache refresh was fixed\n                        - Stored procedures edit/save was fixed\n                    - PostgreSQL: enum columns alter was fixed\n                    - Snowflake:\n                        - Client application name set was fixed\n                        - Quoted identifiers auto-completion was fixed\n                - Misc: internal app controller server now uses HTTP instead of RMI\n            "
     },
     "https://github.com/zema1/yarx": {
         "created_at": "2021-11-11 09:43:21",
@@ -3005,7 +3005,7 @@
     "https://github.com/XTeam-Wing/X-Marshal": {
         "created_at": "2022-04-28 16:17:39",
         "description": "Marshal-EASM",
-        "commit_date": "2023-07-01 06:12:00",
+        "commit_date": "2023-07-09 13:29:16",
         "commit_message": "Update README.md",
         "release_tag": "",
         "release_date": "",
@@ -3050,7 +3050,7 @@
     "https://github.com/zan8in/afrog": {
         "created_at": "2022-02-24 06:00:32",
         "description": "A Security Tool for Bug Bounty, Pentest and Red Teaming.",
-        "commit_date": "2023-07-07 12:50:22",
+        "commit_date": "2023-07-09 03:53:12",
         "commit_message": "update",
         "release_tag": "v2.7.1",
         "release_date": "2023-07-06 12:31:30",
@@ -4277,7 +4277,7 @@
     "https://github.com/aiboboxx/v2rayfree": {
         "created_at": "2021-10-13 11:34:53",
         "description": "v2ray公益免费节点、最新2ray免费v节点订阅地址、v2ray免费节点每日更新、免费ss/v2ray/trojan节点、freefq ",
-        "commit_date": "2023-07-08 12:39:41",
+        "commit_date": "2023-07-09 12:39:45",
         "commit_message": "update",
         "release_tag": "",
         "release_date": "",
@@ -4322,8 +4322,8 @@
     "https://github.com/freefq/free": {
         "created_at": "2020-06-07 02:48:33",
         "description": "翻墙、免费翻墙、免费科学上网、免费节点、免费梯子、免费ss/v2ray/trojan节点、蓝灯、谷歌商店、翻墙梯子",
-        "commit_date": "2023-07-09 00:00:02",
-        "commit_message": "updated_at 07-09 08:00",
+        "commit_date": "2023-07-10 00:00:02",
+        "commit_message": "updated_at 07-10 08:00",
         "release_tag": "",
         "release_date": "",
         "release_message": ""

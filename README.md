@@ -1,8 +1,12 @@
-# 更新于 2023-07-09 08:56:22
+# 更新于 2023-07-10 08:53:54
 
 ## 近15天release更新记录
 | 更新时间 | 项目名称 | 版本 | 更新内容 |
 | :---- | :---- | :---- | :---- |
+|2023-07-09 16:23:13|[dbeaver](https://github.com/dbeaver/dbeaver)|23.1.2|                 - SQL editor:       <br>              - Mouse hovering over ed<br>itor annotations was fixed            <br>         - Trailing DDL query delimite<br>r processing was fixed                <br> - Data editor:                     - <br>References panel refresh was fixed    <br>                 - XML presentation wa<br>s fixed (NULL value handler)          <br>       - General UI:                  <br>   - Settings reset UI and behavior we<br>re redesigned                     - Ed<br>itor tab tooltip now contains informat<br>ion abut resource's project           <br>          - CLI parameter for app vers<br>ion print was added                   <br>  - Objects with mixed case names cach<br>ing was fixed                     - Is<br>sue with program launch with wrong Jav<br>a version was fixed                   <br>  - Preferences export/import UI was i<br>mproved                     - Maven sn<br>apshot repository was added to default<br> configuration                 - Conne<br>ctions: kerberos support in legacy JDB<br>C drivers (Hive) was fixed            <br>     - Data transfer: table informatio<br>n for tasks with broken connection was<br> fixed                 - Databases:   <br>                  - BigQuery: driver v<br>ersion was upgraded to 1.3.3 (thanks t<br>o @fredlegaucher)                     <br>- DuckDB: LIST data type support was a<br>dded                     - Firebird: f<br>ilters and sorting in grouping panel w<br>ere fixed                     - IBM i:<br> driver download was fixed            <br>         - Oracle:                    <br>     - Partitions cache refresh was fi<br>xed                         - Stored p<br>rocedures edit/save was fixed         <br>            - PostgreSQL: enum columns<br> alter was fixed                     -<br> Snowflake:                         - <br>Client application name set was fixed <br>                        - Quoted ident<br>ifiers auto-completion was fixed      <br>           - Misc: internal app contro<br>ller server now uses HTTP instead of R<br>MI             |
+|2023-07-09 09:39:37|[Viper](https://github.com/FunnyWolf/Viper)|v1.6.1|## v1.6.1 20230709  ### 优化  - 合并m<br>etasploit-framework 6.3.25版本  ### Bu<br>gfix  - 修复NAT网络Linux主机(各大云厂<br>商VPS)IP显示为::1问题  - 修复NAT网络Lin<br>ux主机(各大云厂商VPS)上线生成多个主机<br>问题|
+|2023-07-09 09:23:08|[OneScan](https://github.com/vaycore/OneScan)|v1.1.0|  1.1.0 版本发布，版本更新内容如下   <br> ### 新增    - 新增停止扫描任务功能（<br>停止正在扫描的所有任务）  - 新增导入 Ur<br>l 功能（需要导入完整 Url 链接）  - 数<br>据看板列表新增请求包来源 From 字段（方<br>便过滤）  - 数据看板列表新增 “获取body<br>Md5值”、“获取bodyHash值” 菜单项（更<br>方便师傅们添加指纹规则）  - 指纹模块新<br>增 bodyHash 数据源（与 Fofa 的 icon_has<br>h 计算方式一样）  |
+|2023-07-09 05:05:02|[ENScan_GO](https://github.com/wgpsec/ENScan_GO)|0.0.13|- 修复天X查BUG （需要设置代理挂上burp<br>参考 #66）   > -n 小米 -type tyc --debu<br>g --proxy http://127.0.0.1:8080/|
 |2023-07-07 18:15:00|[Burp-Non-HTTP-Ext<br>ension](https://github.com/summitt/Burp-Non-HTTP-Extension)|v1.7.1|* Fixed issue where some requests are<br> not being intercepted|
 |2023-07-07 16:00:38|[faker](https://github.com/joke2k/faker)|v18.13.<br>0|See .|
 |2023-07-07 09:40:41|[trivy](https://github.com/aquasecurity/trivy)|v0.43.1|## Changelog * 5d76abadc chore(deps):<br> Update defsec to v0.90.3 (#4793) * fe<br>d446c51 chore(deps): bump google.golan<br>g.org/protobuf from 1.30.0 to 1.31.0 (<br>#4752) * df62927e5 chore(deps): bump a<br>lpine from 3.18.0 to 3.18.2 (#4748) * <br>1b9b9a84f chore(deps): bump github.com<br>/alicebob/miniredis/v2 from 2.30.3 to <br>2.30.4 (#4758) * 3c16ca821 docs(image)<br>: fix the comment on the soft/hard lin<br>k (#4740) * e5bee5ccc check Type when <br>filling pkgs in vulns (#4776) * 4b9f31<br>0b9 feat: add support of linux/ppc64le<br> and linux/s390x architectures for Ins<br>tall.sh script (#4770) * 8e7fb7cc8 cho<br>re(deps): bump modernc.org/sqlite from<br> 1.20.3 to 1.23.1 (#4756) * a9badeaba <br>fix(rocky): add architectures support <br>for advisories (#4691) * f8ebccc68 cho<br>re(deps): bump github.com/opencontaine<br>rs/image-spec (#4751) * 1c81948e0 chor<br>e(deps): bump github.com/package-url/p<br>ackageurl-go (#4754) * 497cc10d8 chore<br>(deps): bump golang.org/x/sync from 0.<br>2.0 to 0.3.0 (#4750) * 065f0afa5 chore<br>(deps): bump github.com/tetratelabs/wa<br>zero from 1.2.0 to 1.2.1 (#4755) * e26<br>03056d chore(deps): bump github.com/te<br>stcontainers/testcontainers-go (#4759)<br> * 0621402bf fix: documentation about <br>reseting trivy image (#4733) * 798fdbc<br>01 fix(suse): Add openSUSE Leap 15.5 e<br>ol date as well (#4744) * 34a89293d fi<br>x: update Amazon Linux 1 EOL (#4761)  |
@@ -16,11 +20,9 @@
 |2023-07-03 16:16:47|[RedisEXP](https://github.com/yuyan-sec/RedisEXP)|0.0.2|github actions 自动编译|
 |2023-07-03 14:41:37|[nuclei](https://github.com/projectdiscovery/nuclei)|v2.9.8|    ## What's Changed  ### 🐞 Bugs  *<br> **Fixed issue to preserve the order o<br>f query parameters** by @tarunKoyalwar<br> in https://github.com/projectdiscover<br>y/nuclei/pull/3887  * Fixed with netwo<br>rk connection read and write deadline <br>by @praetorian-thendrickson in https:/<br>/github.com/projectdiscovery/nuclei/pu<br>ll/3845  * Fixed issue with showing mu<br>ltiple matches per template with -ms o<br>ption by @RamanaReddy0M in https://git<br>hub.com/projectdiscovery/nuclei/pull/3<br>770    ## New Contributors  * @praetor<br>ian-thendrickson made their first cont<br>ribution in https://github.com/project<br>discovery/nuclei/pull/3845    **Full C<br>hangelog**: https://github.com/project<br>discovery/nuclei/compare/v2.9.7...v2.9<br>.8|
 |2023-07-03 11:35:40|[ghauri](https://github.com/r0oth3x49/ghauri)|1.2.2|# Fixes   - fixed issue with regex pr<br>ocessing multipart/form-data|
-|2023-07-03 03:15:29|[ENScan_GO](https://github.com/wgpsec/ENScan_GO)|0.0.12|1. 修复天眼查查询BUG  2. 优化延迟选项|
 |2023-07-02 10:36:57|[captcha-killer-mo<br>dified](https://github.com/f0ng/captcha-killer-modified)|0.24.1|【2023-7-2】 0.24.1  - #27 修复加载插<br>件影响intruder速度的问题(临时增加了一个<br>按钮控制是否开启该插件)      |
 |2023-07-02 06:47:07|[ShiroAttack2](https://github.com/SummerSec/ShiroAttack2)|4.7.0|https://github.com/SummerSec/ShiroAtt<br>ack2/issues/45 thanks @y4tacker |
 |2023-07-02 04:28:53|[PEASS-ng](https://github.com/carlospolop/PEASS-ng)|2023070<br>2-bc7ce3<br>ac||
-|2023-07-01 10:09:26|[Viper](https://github.com/FunnyWolf/Viper)|v1.6.0|## v1.6.0 20230701  ### 优化  - 优化<br>反溯源方案   - 优化内存执行C#可执行文件<br>(Bypass)模块  - 关于VIPER中可以快捷查<br>看最新版本  - 合并metasploit-framework <br>6.3.24版本|
 |2023-07-01 05:29:18|[NextScan](https://github.com/tongcheng-security-team/NextScan)|v1.2.0|##### v1.2.0发布    ## Changelog    -<br>  perf 🚀 : yaml模版格式更新  -  perf <br>🚀 : 漏洞详情页面优化  -  perf 🚀 : 任<br>务查询功能优化  -  fix🐛: 修复爬虫运行<br>时错误  - fix:🐛 任务运行异常问题若干  <br>  |
 |2023-06-30 16:49:10|[cf](https://github.com/teamssix/cf)|v0.5.0|### 新增功能    *  新增阿里云用户数据<br>后门功能  *  新增阿里云镜像共享功能  * <br> 新增阿里云接管控制台时自动创建 AK 功<br>能  *  新增阿里云 RDS 列出详细信息功能 <br> *  新增阿里云 RDS 添加账号功能  *  新<br>增阿里云 RDS 创建公网访问地址的功能  * <br> 新增阿里云 RDS 添加白名单的功能  *   <br>新增查询 AK 所属云厂商功能   *  新增支<br>持 brew 安装    ### 功能优化    *  优化<br>配置功能，现在能自动识别配置是否处于可<br>用状态  *  优化实例公网 IP 展示，不存在<br>时会展示为空  *  优化 OSS 下载功能，现<br>在默认会下载所有文件  *  优化更新处理逻<br>辑  *  优化华为云 OBS 列出功能    ### B<br>ug 修复    *  修复批量执行命令时，没有<br>安装云助手导致批量执行中断的 Bug  *  修<br>复 OSS 下载文件无法自动创建目录的 Bug  <br>  ## 新贡献者  * @shadowabi made their<br> first contribution in https://github.<br>com/teamssix/cf/pull/227    **Full Cha<br>ngelog**: https://github.com/teamssix/<br>cf/compare/v0.4.5...v0.5.0|
 |2023-06-30 15:53:31|[grype](https://github.com/anchore/grype)|v0.63.1|# Changelog  ##  (2023-06-30)    ### <br>Bug Fixes  - Add more log4j-adjacent p<br>ackage ignore rules ] ] - The summary <br>by severity is confusing ] ] ]    |
@@ -30,22 +32,24 @@
 |2023-06-27 08:57:25|[mitaka](https://github.com/ninoseki/mitaka)|v1.3.0|-  Add Add Coalition searcher (#737) <br>     - https://ess.coalitioninc.com/ |
 |2023-06-27 03:53:11|[AsamF](https://github.com/Kento-Sec/AsamF)|v0.2.4|1. 修复了fofa type接口问题。目前根据f<br>ofa政策，高级会员无法使用该接口。    2<br>. 修复了0zone读取apikey的问题。|
 |2023-06-26 02:21:06|[Dirscan](https://github.com/corunb/Dirscan)|v1.5.1|[+] 新增反向递归扫描：-Ar    [!] 增加<br>探存活开关：-Cs(默认是开的)    |
-|2023-06-25 18:29:59|[dbeaver](https://github.com/dbeaver/dbeaver)|23.1.1|                 - SQL Editor:       <br>              - User can configure the<br> options on the toolbar by pressing th<br>e gear button in the editor           <br>          - Issue with missing "Copy f<br>ile path" option was fixed            <br>     - Data Editor:                   <br>  - Statistics view now can be disable<br>d                     - Issue with Ref<br>erences tab was fixed                 <br>    - Spatial tiles configuration was <br>fixed (thanks to @otbutz)             <br>    - ER Diagram: issue with element r<br>emoval after using View Style option w<br>as fixed                 - Data transf<br>er: issue with exporting a table witho<br>ut data when using bulk loading was fi<br>xed                 - New drivers: TDe<br>ngine database is now supported (thank<br>s @sangshuduo).                 - Gene<br>ral UI:                     - Users ca<br>n export DBeaver settings and import t<br>hem                     - Notification<br>s in Dark theme became topic "Notices <br>in the dark" became readable          <br>           - Users can use drag-n-drop<br> to copy scripts, open database object<br>s and insert Navigator node names into<br> the editor                 - Connecti<br>vity:                     - User can a<br>dd snapshot maven repository          <br>           - "Automatically end long i<br>dle transactions" option was redesigne<br>d                     - Authentication<br> failure when connecting via SSH was f<br>ixed                     - Now users c<br>an connect with jump server using SSHJ<br>                     - Issue with conn<br>ecting to Azure SQL Server using Activ<br>e Directory was fixed                 <br>- Security: SQLite driver version was <br>updated                 - Databases:  <br>                   - DB2z and Denodo: <br>"Show duplicates" button in Grouping p<br>anel was fixed                     - G<br>reenplum: function DDL was fixed (defa<br>ult parameter values)                 <br>    - Oracle:                         <br>- Dates of creation and modification a<br>ppeared in the information about the p<br>ackages                         - Tabl<br>e partitions and subpartitions reading<br> was fixed                         - I<br>ssue with missing tablespace statistic<br>s after object update was fixed       <br>              - Snowflake: quotation r<br>ules for object identifiers were added<br>                 - Localization:      <br>               - Users can now select <br>Portuguese as the default language dur<br>ing installation or in Preferences    <br>                 - Portuguese localiza<br>tion was improved (thanks to @brlarini<br>)                     - German localiz<br>ation was improved (thanks to @coderku<br>n)                 - Misc: we switched<br> to Eclipse 2023-06 and Java-17 as a b<br>ase platform             |
-|2023-06-24 05:49:44|[Fvuln](https://github.com/d3ckx1/Fvuln)|Fvuln-1<br>.4.9|1、修复漏洞误报；  2、新增单独或批量<br>漏洞扫描功能，-s 参数；  3、新增33个POC<br>；  4、去掉一些banner。|
 ## 近15天commit提交记录
 | 提交时间 | 项目名称 | 更新内容 |
 | :---- | :---- | :---- |
-|2023-07-09 00:45:19|[NucleiTP](https://github.com/ExpLangcn/NucleiTP)|更新啦❤️|
-|2023-07-09 00:00:02|[free](https://github.com/freefq/free)|updated_at 07-09 08:00|
-|2023-07-08 22:45:37|[PocOrExp_in_Githu<br>b](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-07-09 06:45:37|
+|2023-07-10 00:45:19|[NucleiTP](https://github.com/ExpLangcn/NucleiTP)|更新啦❤️|
+|2023-07-10 00:00:02|[free](https://github.com/freefq/free)|updated_at 07-10 08:00|
+|2023-07-09 20:22:51|[PocOrExp_in_Githu<br>b](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-07-10 04:22:51|
+|2023-07-09 13:29:16|[X-Marshal](https://github.com/XTeam-Wing/X-Marshal)|Update README.md|
+|2023-07-09 12:39:45|[v2rayfree](https://github.com/aiboboxx/v2rayfree)|update|
+|2023-07-09 09:38:47|[Viper](https://github.com/FunnyWolf/Viper)|update version v1.6.1|
+|2023-07-09 09:19:10|[OneScan](https://github.com/vaycore/OneScan)|更新README.md中的一些说明和截图|
+|2023-07-09 05:23:19|[ENScan_GO](https://github.com/wgpsec/ENScan_GO)|修改文档补充说明 fix #65|
+|2023-07-09 03:53:12|[afrog](https://github.com/zan8in/afrog)|update|
 |2023-07-08 18:09:34|[vulhub](https://github.com/vulhub/vulhub)|Merge pull request #449 from al4n233/patch-1  fixed<br> a typo|
-|2023-07-08 12:39:41|[v2rayfree](https://github.com/aiboboxx/v2rayfree)|update|
 |2023-07-08 12:39:32|[ChatGPT-Shortcut](https://github.com/rockbenben/ChatGPT-Shortcut)|Merge pull request #34 from VMCoud/patch-1  Create <br>docker.yml|
 |2023-07-07 21:01:05|[clair](https://github.com/quay/clair)|docs: Add description of debugging services availab<br>le during local-dev  As pyroscope was added I realiz<br>ed that these services are not documented but could <br>be really useful to contributors.  Signed-off-by: cr<br>ozzy |
 |2023-07-07 20:43:54|[neuvector](https://github.com/neuvector/neuvector)|Merge pull request #887 from kyledong-suse/main  NV<br>SHAS-5703 & NVSHAS-5365: Implement IP-FQDN mapping t<br>able|
 |2023-07-07 18:08:49|[Burp-Non-HTTP-Ext<br>ension](https://github.com/summitt/Burp-Non-HTTP-Extension)|bug in way interceptors work|
 |2023-07-07 15:59:57|[faker](https://github.com/joke2k/faker)|Bump version: 18.12.0 → 18.13.0|
-|2023-07-07 12:50:22|[afrog](https://github.com/zan8in/afrog)|update|
 |2023-07-07 08:13:56|[trivy](https://github.com/aquasecurity/trivy)|chore(deps): Update defsec to v0.90.3 (#4793)  * ch<br>ore(deps): Update defsec to v0.90.2  Signed-off-by: <br>Simar   * go mod tidy  ---------  Signed-off-by: Sim<br>ar |
 |2023-07-07 08:12:50|[dbeaver](https://github.com/dbeaver/dbeaver)|dbeaver/pro#1766 Legacy krb5 support (#20493)  * db<br>eaver/pro#1766 Legacy krb5 support    * 23.1.2 versi<br>on bump|
 |2023-07-07 07:26:47|[safeline](https://github.com/chaitin/safeline)|fix: https://github.com/chaitin/safeline/security/d<br>ependabot/57|
@@ -80,15 +84,12 @@
 |2023-07-03 08:50:31|[Umi-OCR](https://github.com/hiroi-sora/Umi-OCR)|新功能：为联动翻译设定单独的快捷键（#166）|
 |2023-07-03 07:07:35|[ARL](https://github.com/TophantTechnology/ARL)|Merge pull request #589 from ox01024/update-ipGeo-S<br>ource  使用第三方源的GeoLite2-City更新|
 |2023-07-03 05:26:39|[vulnerability](https://github.com/lal0ne/vulnerability)|CVE-2023-34939|
-|2023-07-03 03:05:00|[ENScan_GO](https://github.com/wgpsec/ENScan_GO)|修改文档|
 |2023-07-03 03:00:44|[404StarLink](https://github.com/knownsec/404StarLink)|weekly update at 2023-07-03|
 |2023-07-02 16:09:12|[PEASS-ng](https://github.com/carlospolop/PEASS-ng)|Update aicoder.yml|
 |2023-07-02 07:50:07|[kube-bench](https://github.com/aquasecurity/kube-bench)|Fix test_items in cis-1.7 - node - 4.2.12 (#1469)  <br>Related issue: https://github.com/aquasecurity/kube-<br>bench/issues/1468|
 |2023-07-01 22:24:38|[ShiroAttack2](https://github.com/SummerSec/ShiroAttack2)|:bug: fix https://github.com/SummerSec/ShiroAttack2<br>/issues/37|
 |2023-07-01 15:14:35|[pikachu](https://github.com/zhuifengshaonianhanlu/pikachu)|Merge pull request #33 from 8023/master  优化docker<br>file|
 |2023-07-01 15:12:07|[chatgpt](https://github.com/LangLangShanDeNanKe/chatgpt)|Update README.md|
-|2023-07-01 10:10:16|[Viper](https://github.com/FunnyWolf/Viper)|update version v1.6.0|
-|2023-07-01 06:12:00|[X-Marshal](https://github.com/XTeam-Wing/X-Marshal)|Update README.md|
 |2023-06-30 16:04:02|[All-Defense-Tool](https://github.com/guchangan1/All-Defense-Tool)|更新v2.4|
 |2023-06-30 06:32:51|[murphysec](https://github.com/murphysecurity/murphysec)|fix: JSON output|
 |2023-06-30 05:38:09|[RouteVulScan](https://github.com/F6JO/RouteVulScan)|Update Config_yaml.yaml|
@@ -100,9 +101,7 @@
 |2023-06-27 10:59:07|[RmTools](https://github.com/RoomaSec/RmTools)|Update README.md|
 |2023-06-27 09:31:15|[Kunlun-M](https://github.com/LoRexxar/Kunlun-M)|Merge pull request #235 from LoRexxar/develop  upda<br>te startlink|
 |2023-06-26 07:04:59|[GobypassAV-shellc<br>ode](https://github.com/Pizz33/GobypassAV-shellcode)|Update README.md|
-|2023-06-26 02:41:07|[Dirscan](https://github.com/corunb/Dirscan)|v1.5.1|
-|2023-06-24 05:53:31|[Fvuln](https://github.com/d3ckx1/Fvuln)|Update README.md|
-|2023-06-24 05:05:29|[dirsearch](https://github.com/maurosoria/dirsearch)|Merge pull request #1302 from drego85/patch-13  Add<br>ing "config.properties" and sort+remove duplicate|## 所有项目
+|2023-06-26 02:41:07|[Dirscan](https://github.com/corunb/Dirscan)|v1.5.1|## 所有项目
 # 渗透测试
 ## 信息收集
 ### 资产测绘采集
@@ -208,7 +207,7 @@
 ### 企业信息收集
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
-| [ENScan_GO](https://github.com/wgpsec/ENScan_GO) | 0.0.12 | 一款基于各大企业信息API的工具，解决在遇到的各种针对国内企业信<br>息收集难题。一键收集控股公司ICP备案、APP、小程序、微信公众号等信<br>息聚合导出。 |
+| [ENScan_GO](https://github.com/wgpsec/ENScan_GO) | 0.0.13 | 一款基于各大企业信息API的工具，解决在遇到的各种针对国内企业信<br>息收集难题。一键收集控股公司ICP备案、APP、小程序、微信公众号等信<br>息聚合导出。 |
 ### 小程序信息收集
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
@@ -573,7 +572,7 @@
 ### 漏洞利用
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
-| [Viper](https://github.com/FunnyWolf/Viper) | v1.6.0 | Redteam operation  platform with webui 图形化红队行动辅助平台 |
+| [Viper](https://github.com/FunnyWolf/Viper) | v1.6.1 | Redteam operation  platform with webui 图形化红队行动辅助平台 |
 ### 横向工具
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
@@ -662,7 +661,7 @@
 | [BurpSuiteCn](https://github.com/funkyoummp/BurpSuiteCn) |  |  |
 | [NEW_xp_CAPTCHA](https://github.com/smxiazi/NEW_xp_CAPTCHA) | 4.2 | xp_CAPTCHA(瞎跑 白嫖版) burp 验证码 识别 burp插件 |
 | [npscrack](https://github.com/weishen250/npscrack) | npscrac<br>k-1.0 | 蓝队利器、溯源反制、NPS 漏洞利用、NPS exp、NPS poc、Burp插件、<br>一键利用 |
-| [OneScan](https://github.com/vaycore/OneScan) | v1.0.4 | OneScan是递归目录扫描的BurpSuite插件 |
+| [OneScan](https://github.com/vaycore/OneScan) | v1.1.0 | OneScan是递归目录扫描的BurpSuite插件 |
 | [OutLook](https://github.com/KrystianLi/OutLook) |  |  |
 | [passive-scan-clie<br>nt-plus](https://github.com/winezer0/passive-scan-client-plus) | v0.4.12<br>.0 | burpsuite passive-scan-client 插件维护分支 |
 | [BpScan](https://github.com/EASY233/BpScan) | 1.0.0 | 一款用于辅助渗透测试工程师日常渗透测试的Burp被动漏扫插件 |
@@ -935,7 +934,7 @@
 | :---- | :---- | :---- |
 | [faker](https://github.com/joke2k/faker) | v18.13.<br>0 | Faker is a Python package that generates fake data for you. |
 | [SmsForwarder](https://github.com/pppscn/SmsForwarder) | v3.2.0 | 短信转发器——监控Android手机短信、来电、APP通知，并根据指定规<br>则转发到其他手机：钉钉群自定义机器人、钉钉企业内机器人、企业微信<br>群机器人、飞书机器人、企业微信应用消息、邮箱、bark、webhook、Tel<br>egram机器人、Server酱、PushPlus、手机短信等。包括主动控制服务端<br>与客户端，让你轻松远程发短信、查短信、查通话、查话簿、查电量等。<br>（V3.0 新增）PS.这个APK主要是学习与自用，如有BUG请提ISSUE，同时<br>欢迎大家提PR指正 |
-| [dbeaver](https://github.com/dbeaver/dbeaver) | 23.1.1 | Free universal database tool and SQL client |
+| [dbeaver](https://github.com/dbeaver/dbeaver) | 23.1.2 | Free universal database tool and SQL client |
 | [MySQLMonitor](https://github.com/TheKingOfDuck/MySQLMonitor) | 1.0 | MySQL实时监控工具(代码审计/黑盒/白盒审计辅助工具) |
 | [flightsim](https://github.com/alphasoc/flightsim) | v2.3.0 | A utility to safely generate malicious network traffic pattern<br>s and evaluate controls. |
 ## 渗透测试报告辅助
