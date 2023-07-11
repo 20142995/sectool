@@ -345,6 +345,8 @@
             - https://github.com/rebootuser/LinEnum
             - https://github.com/carlospolop/PEASS-ng
             - https://github.com/liamg/traitor
+        综合:
+            - https://github.com/Ascotbe/Kernelhub
         容器提权:
             - https://github.com/teamssix/container-escape-check
             - https://github.com/cdk-team/CDK
