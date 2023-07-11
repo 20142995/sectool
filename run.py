@@ -178,13 +178,14 @@ def main():
     parse_dict(repos)
     urls = set(urls)
     # 更新数据
+    count_i = 1
     gc = GithubClient(os.getenv("GH_TOKEN", ""))
     for url in urls:
         if not url.startswith("https://github.com/"):
             continue
         if url in data_b:
             continue
-        print("[*] get {}".format(url))
+        print(f"[{count_i}] get {url}")
         try:
             author, repo = url[19:].split("/", 1)
             item = {}
@@ -235,6 +236,7 @@ def main():
             traceback.print_exc()
         data.setdefault(url, {})
         data[url].update(item)
+        count_i += 1
 
     # 更新README.md
 
