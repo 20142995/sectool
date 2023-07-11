@@ -664,6 +664,7 @@ CTF:
         - https://github.com/1u0Hun/SAReport
         - https://github.com/dbgee/pentest_report
         - https://github.com/linshaoSec/WaterExp
+        - https://github.com/CTF-MissFeng/report
     动态口令:
         - https://github.com/mdp/rotp
     科学上网:
@@ -672,8 +673,7 @@ CTF:
         - https://github.com/aiboboxx/v2rayfree
     笔记:
         - https://github.com/jackfrued/Python-100-Days
-    渗透测试报告管理:
-        - https://github.com/CTF-MissFeng/report
+        
     文档:
         - https://github.com/awake1t/HackReport
     文字识别:
