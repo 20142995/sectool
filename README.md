@@ -1,8 +1,10 @@
-# 更新于 2023-07-10 08:53:54
+# 更新于 2023-07-11 08:45:33
 
 ## 近15天release更新记录
 | 更新时间 | 项目名称 | 版本 | 更新内容 |
 | :---- | :---- | :---- | :---- |
+|2023-07-10 15:59:17|[flightsim](https://github.com/alphasoc/flightsim)|v2.4.0|## Network Flight Simulator v2.4.0 (2<br>023-07-10)    **This release adds:**  <br>- A new IRC module simulating traffic <br>to IRC servers  - A new Telegram Bot m<br>odule simulating traffic to Telegram A<br>PI    **Full Changelog**: https://gith<br>ub.com/alphasoc/flightsim/compare/v2.3<br>.0...v2.4.0    ## Enjoy!    |
+|2023-07-10 11:06:44|[ghauri](https://github.com/r0oth3x49/ghauri)|1.2.3|Feature:   - added support for URI in<br>jection in case of no parameters are d<br>etected in GET, POST or any custom inj<br>ection marker found. (#61 feature requ<br>est)       |
 |2023-07-09 16:23:13|[dbeaver](https://github.com/dbeaver/dbeaver)|23.1.2|                 - SQL editor:       <br>              - Mouse hovering over ed<br>itor annotations was fixed            <br>         - Trailing DDL query delimite<br>r processing was fixed                <br> - Data editor:                     - <br>References panel refresh was fixed    <br>                 - XML presentation wa<br>s fixed (NULL value handler)          <br>       - General UI:                  <br>   - Settings reset UI and behavior we<br>re redesigned                     - Ed<br>itor tab tooltip now contains informat<br>ion abut resource's project           <br>          - CLI parameter for app vers<br>ion print was added                   <br>  - Objects with mixed case names cach<br>ing was fixed                     - Is<br>sue with program launch with wrong Jav<br>a version was fixed                   <br>  - Preferences export/import UI was i<br>mproved                     - Maven sn<br>apshot repository was added to default<br> configuration                 - Conne<br>ctions: kerberos support in legacy JDB<br>C drivers (Hive) was fixed            <br>     - Data transfer: table informatio<br>n for tasks with broken connection was<br> fixed                 - Databases:   <br>                  - BigQuery: driver v<br>ersion was upgraded to 1.3.3 (thanks t<br>o @fredlegaucher)                     <br>- DuckDB: LIST data type support was a<br>dded                     - Firebird: f<br>ilters and sorting in grouping panel w<br>ere fixed                     - IBM i:<br> driver download was fixed            <br>         - Oracle:                    <br>     - Partitions cache refresh was fi<br>xed                         - Stored p<br>rocedures edit/save was fixed         <br>            - PostgreSQL: enum columns<br> alter was fixed                     -<br> Snowflake:                         - <br>Client application name set was fixed <br>                        - Quoted ident<br>ifiers auto-completion was fixed      <br>           - Misc: internal app contro<br>ller server now uses HTTP instead of R<br>MI             |
 |2023-07-09 09:39:37|[Viper](https://github.com/FunnyWolf/Viper)|v1.6.1|## v1.6.1 20230709  ### 优化  - 合并m<br>etasploit-framework 6.3.25版本  ### Bu<br>gfix  - 修复NAT网络Linux主机(各大云厂<br>商VPS)IP显示为::1问题  - 修复NAT网络Lin<br>ux主机(各大云厂商VPS)上线生成多个主机<br>问题|
 |2023-07-09 09:23:08|[OneScan](https://github.com/vaycore/OneScan)|v1.1.0|  1.1.0 版本发布，版本更新内容如下   <br> ### 新增    - 新增停止扫描任务功能（<br>停止正在扫描的所有任务）  - 新增导入 Ur<br>l 功能（需要导入完整 Url 链接）  - 数<br>据看板列表新增请求包来源 From 字段（方<br>便过滤）  - 数据看板列表新增 “获取body<br>Md5值”、“获取bodyHash值” 菜单项（更<br>方便师傅们添加指纹规则）  - 指纹模块新<br>增 bodyHash 数据源（与 Fofa 的 icon_has<br>h 计算方式一样）  |
@@ -19,7 +21,6 @@
 |2023-07-04 06:58:05|[veinmind-tools](https://github.com/chaitin/veinmind-tools)|v2.1.4|## 🔥 Feature  * feat(plugins): Add v<br>einmind-privilege-escalation plugin fo<br>r detecting privilege escalation risks<br>, including checks for suid and sudo  <br>by @ek1ng in https://github.com/chaiti<br>n/veinmind-tools/pull/250    ## 🔧 Fix<br>  * fix(libveinmind): fix libveinmind <br>walk data race error by @DVKunion in h<br>ttps://github.com/chaitin/veinmind-too<br>ls/pull/231  * fix(veinmind-weakpass)/<br>add_error_check by  @testwill in https<br>://github.com/chaitin/veinmind-tools/p<br>ull/249  * fix(docs): fix errors in do<br>cumentation on how to initialize plugi<br>ns by @ek1ng in https://github.com/cha<br>itin/veinmind-tools/pull/247  * fix(do<br>cs): fix README format by @ek1ng in ht<br>tps://github.com/chaitin/veinmind-tool<br>s/pull/251    ## 📒 Others  * chore(li<br>bveinmind): update libveinmind 1.9.21 <br>by @DVKunion in https://github.com/cha<br>itin/veinmind-tools/pull/243  * chore(<br>ci):  add auto sync to registry by @DV<br>Kunion  in https://github.com/chaitin/<br>veinmind-tools/pull/254      **Full Ch<br>angelog**: https://github.com/chaitin/<br>veinmind-tools/compare/v2.1.3...v2.1.4|
 |2023-07-03 16:16:47|[RedisEXP](https://github.com/yuyan-sec/RedisEXP)|0.0.2|github actions 自动编译|
 |2023-07-03 14:41:37|[nuclei](https://github.com/projectdiscovery/nuclei)|v2.9.8|    ## What's Changed  ### 🐞 Bugs  *<br> **Fixed issue to preserve the order o<br>f query parameters** by @tarunKoyalwar<br> in https://github.com/projectdiscover<br>y/nuclei/pull/3887  * Fixed with netwo<br>rk connection read and write deadline <br>by @praetorian-thendrickson in https:/<br>/github.com/projectdiscovery/nuclei/pu<br>ll/3845  * Fixed issue with showing mu<br>ltiple matches per template with -ms o<br>ption by @RamanaReddy0M in https://git<br>hub.com/projectdiscovery/nuclei/pull/3<br>770    ## New Contributors  * @praetor<br>ian-thendrickson made their first cont<br>ribution in https://github.com/project<br>discovery/nuclei/pull/3845    **Full C<br>hangelog**: https://github.com/project<br>discovery/nuclei/compare/v2.9.7...v2.9<br>.8|
-|2023-07-03 11:35:40|[ghauri](https://github.com/r0oth3x49/ghauri)|1.2.2|# Fixes   - fixed issue with regex pr<br>ocessing multipart/form-data|
 |2023-07-02 10:36:57|[captcha-killer-mo<br>dified](https://github.com/f0ng/captcha-killer-modified)|0.24.1|【2023-7-2】 0.24.1  - #27 修复加载插<br>件影响intruder速度的问题(临时增加了一个<br>按钮控制是否开启该插件)      |
 |2023-07-02 06:47:07|[ShiroAttack2](https://github.com/SummerSec/ShiroAttack2)|4.7.0|https://github.com/SummerSec/ShiroAtt<br>ack2/issues/45 thanks @y4tacker |
 |2023-07-02 04:28:53|[PEASS-ng](https://github.com/carlospolop/PEASS-ng)|2023070<br>2-bc7ce3<br>ac||
@@ -35,23 +36,34 @@
 ## 近15天commit提交记录
 | 提交时间 | 项目名称 | 更新内容 |
 | :---- | :---- | :---- |
-|2023-07-10 00:45:19|[NucleiTP](https://github.com/ExpLangcn/NucleiTP)|更新啦❤️|
-|2023-07-10 00:00:02|[free](https://github.com/freefq/free)|updated_at 07-10 08:00|
-|2023-07-09 20:22:51|[PocOrExp_in_Githu<br>b](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-07-10 04:22:51|
+|2023-07-11 00:43:37|[clair](https://github.com/quay/clair)|build(deps): bump golang.org/x/net from 0.11.0 to 0<br>.12.0  Bumps  from 0.11.0 to 0.12.0. -   --- updated<br>-dependencies: - dependency-name: golang.org/x/net  <br> dependency-type: direct:production   update-type: v<br>ersion-update:semver-minor ...  Signed-off-by: depen<br>dabot[bot] |
+|2023-07-11 00:30:16|[NucleiTP](https://github.com/ExpLangcn/NucleiTP)|更新啦❤️|
+|2023-07-11 00:00:01|[free](https://github.com/freefq/free)|updated_at 07-11 08:00|
+|2023-07-10 23:25:46|[neuvector](https://github.com/neuvector/neuvector)|Merge pull request #908 from kyledong-suse/main  NV<br>SHAS-7963: Fix mysql parser|
+|2023-07-10 22:44:54|[PocOrExp_in_Githu<br>b](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-07-11 06:44:54|
+|2023-07-10 21:03:54|[ghauri](https://github.com/r0oth3x49/ghauri)|updated code quality, fixed issue with payloads..|
+|2023-07-10 17:52:55|[grype](https://github.com/anchore/grype)|chore(deps): update bootstrap tools to latest versi<br>ons (#1381)  Signed-off-by: GitHub   Co-authored-by:<br> westonsteimel |
+|2023-07-10 17:36:41|[syft](https://github.com/anchore/syft)|feat: CLI flag for directory base (#1867)  Signed-o<br>ff-by: Avi Deitcher   Signed-off-by: Keith Zantow   <br>Co-authored-by: Keith Zantow |
+|2023-07-10 15:49:10|[flightsim](https://github.com/alphasoc/flightsim)|Lock goreleaser version|
+|2023-07-10 15:17:42|[dbeaver](https://github.com/dbeaver/dbeaver)|Fixed DE translation für 'Insertion case' (#20458) <br> * Fixed DE translation für 'Insertion case'    * Co<br>nvert native characters to ascii    ---------    Co-<br>authored-by: Elizabeth |
+|2023-07-10 14:47:27|[subfinder](https://github.com/projectdiscovery/subfinder)|Remove additional -U of apk in Dockerfile (#886)|
+|2023-07-10 12:45:46|[v2rayfree](https://github.com/aiboboxx/v2rayfree)|update|
+|2023-07-10 09:53:13|[HackBrowserData](https://github.com/moonD4rk/HackBrowserData)|fix: nil browsing data in case error and walkdir in<br>stead of walk (#229)  * fix: nil browsing data in ca<br>se error    Signed-off-by: Andrii Ursulenko     * fi<br>x: ignore walk error, use walkdir instead of walk   <br> ---------    Signed-off-by: Andrii Ursulenko   Co-a<br>uthored-by: Andrii Ursulenko |
+|2023-07-10 09:49:53|[404StarLink](https://github.com/knownsec/404StarLink)|weekly update at 2023-07-10|
+|2023-07-10 08:51:35|[murphysec](https://github.com/murphysecurity/murphysec)|fix(npm): lockfile|
+|2023-07-10 08:36:58|[nemo_go](https://github.com/hanc00l/nemo_go)|Update: 增加Nemo安装及使用文档|
+|2023-07-10 06:55:55|[zpscan](https://github.com/niudaii/zpscan)|update: go mod|
+|2023-07-10 03:06:56|[Umi-OCR](https://github.com/hiroi-sora/Umi-OCR)|~|
 |2023-07-09 13:29:16|[X-Marshal](https://github.com/XTeam-Wing/X-Marshal)|Update README.md|
-|2023-07-09 12:39:45|[v2rayfree](https://github.com/aiboboxx/v2rayfree)|update|
 |2023-07-09 09:38:47|[Viper](https://github.com/FunnyWolf/Viper)|update version v1.6.1|
 |2023-07-09 09:19:10|[OneScan](https://github.com/vaycore/OneScan)|更新README.md中的一些说明和截图|
 |2023-07-09 05:23:19|[ENScan_GO](https://github.com/wgpsec/ENScan_GO)|修改文档补充说明 fix #65|
 |2023-07-09 03:53:12|[afrog](https://github.com/zan8in/afrog)|update|
 |2023-07-08 18:09:34|[vulhub](https://github.com/vulhub/vulhub)|Merge pull request #449 from al4n233/patch-1  fixed<br> a typo|
 |2023-07-08 12:39:32|[ChatGPT-Shortcut](https://github.com/rockbenben/ChatGPT-Shortcut)|Merge pull request #34 from VMCoud/patch-1  Create <br>docker.yml|
-|2023-07-07 21:01:05|[clair](https://github.com/quay/clair)|docs: Add description of debugging services availab<br>le during local-dev  As pyroscope was added I realiz<br>ed that these services are not documented but could <br>be really useful to contributors.  Signed-off-by: cr<br>ozzy |
-|2023-07-07 20:43:54|[neuvector](https://github.com/neuvector/neuvector)|Merge pull request #887 from kyledong-suse/main  NV<br>SHAS-5703 & NVSHAS-5365: Implement IP-FQDN mapping t<br>able|
 |2023-07-07 18:08:49|[Burp-Non-HTTP-Ext<br>ension](https://github.com/summitt/Burp-Non-HTTP-Extension)|bug in way interceptors work|
 |2023-07-07 15:59:57|[faker](https://github.com/joke2k/faker)|Bump version: 18.12.0 → 18.13.0|
 |2023-07-07 08:13:56|[trivy](https://github.com/aquasecurity/trivy)|chore(deps): Update defsec to v0.90.3 (#4793)  * ch<br>ore(deps): Update defsec to v0.90.2  Signed-off-by: <br>Simar   * go mod tidy  ---------  Signed-off-by: Sim<br>ar |
-|2023-07-07 08:12:50|[dbeaver](https://github.com/dbeaver/dbeaver)|dbeaver/pro#1766 Legacy krb5 support (#20493)  * db<br>eaver/pro#1766 Legacy krb5 support    * 23.1.2 versi<br>on bump|
 |2023-07-07 07:26:47|[safeline](https://github.com/chaitin/safeline)|fix: https://github.com/chaitin/safeline/security/d<br>ependabot/57|
 |2023-07-07 07:14:15|[FrameVul](https://github.com/Awrrays/FrameVul)|Update README.md|
 |2023-07-07 07:09:42|[captcha-killer-mo<br>dified](https://github.com/f0ng/captcha-killer-modified)|Update FAQ.md|
@@ -59,15 +71,12 @@
 |2023-07-07 03:44:50|[Pentest-Windows](https://github.com/arch3rPro/Pentest-Windows)|Update README.md|
 |2023-07-07 02:52:30|[awesome-chatgpt-z<br>h](https://github.com/yzfly/awesome-chatgpt-zh)|add ChatLaw|
 |2023-07-07 02:24:11|[Awesome-ChatGPT](https://github.com/dalinvip/Awesome-ChatGPT)|Update README.md|
-|2023-07-06 20:56:07|[syft](https://github.com/anchore/syft)|fix(install): return with right error code (#1915) <br> This resolves #1566.    Signed-off-by: Lorenzo Orsa<br>tti   Co-authored-by: Christopher Phillips |
 |2023-07-06 16:05:15|[WeblogicTool](https://github.com/KimJun1010/WeblogicTool)|Update README.md|
 |2023-07-06 15:19:29|[autoDecoder](https://github.com/f0ng/autoDecoder)|Update README.md|
 |2023-07-06 15:11:43|[iDefender](https://github.com/wecooperate/iDefender)|update|
-|2023-07-06 13:01:49|[grype](https://github.com/anchore/grype)|Port to new syft source API (#1376)  * port to new <br>syft source API    Signed-off-by: Alex Goodman     *<br> fix linting    Signed-off-by: Alex Goodman     ----<br>-----    Signed-off-by: Alex Goodman |
 |2023-07-06 10:50:26|[Elkeid](https://github.com/bytedance/Elkeid)|fix bug: update musl toolchain linker path|
 |2023-07-06 08:43:43|[sqlmap](https://github.com/sqlmapproject/sqlmap)|Implements #5452|
 |2023-07-06 06:32:34|[CodeQLpy](https://github.com/webraybtl/CodeQLpy)|Update README.md|
-|2023-07-06 03:49:38|[HackBrowserData](https://github.com/moonD4rk/HackBrowserData)|Merge pull request #227 from moonD4rk/static/update<br>-logo  chore: update logo filetype|
 |2023-07-05 15:04:54|[Vuln-List](https://github.com/wwl012345/Vuln-List)|Update Windows&Linux提权&RCE合集.md|
 |2023-07-05 09:40:36|[domain_hunter_pro](https://github.com/bit4woo/domain_hunter_pro)|Update SuperJTextArea.java|
 |2023-07-05 02:22:34|[Vulnerability-Wik<br>i](https://github.com/Threekiii/Vulnerability-Wiki)|commit|
@@ -79,19 +88,15 @@
 |2023-07-03 16:14:56|[RedisEXP](https://github.com/yuyan-sec/RedisEXP)|github actions|
 |2023-07-03 14:48:33|[veinmind-tools](https://github.com/chaitin/veinmind-tools)|feat(ci): add auto sync to registry (#254)|
 |2023-07-03 13:12:25|[nuclei](https://github.com/projectdiscovery/nuclei)|dep update|
-|2023-07-03 11:33:07|[ghauri](https://github.com/r0oth3x49/ghauri)|updated code quality fixed issue with regex process<br>ing multipart/form-data, bumped version 1.2.2|
 |2023-07-03 10:25:32|[mitaka](https://github.com/ninoseki/mitaka)|docs: remove Tines logo [skip ci]|
-|2023-07-03 08:50:31|[Umi-OCR](https://github.com/hiroi-sora/Umi-OCR)|新功能：为联动翻译设定单独的快捷键（#166）|
 |2023-07-03 07:07:35|[ARL](https://github.com/TophantTechnology/ARL)|Merge pull request #589 from ox01024/update-ipGeo-S<br>ource  使用第三方源的GeoLite2-City更新|
 |2023-07-03 05:26:39|[vulnerability](https://github.com/lal0ne/vulnerability)|CVE-2023-34939|
-|2023-07-03 03:00:44|[404StarLink](https://github.com/knownsec/404StarLink)|weekly update at 2023-07-03|
 |2023-07-02 16:09:12|[PEASS-ng](https://github.com/carlospolop/PEASS-ng)|Update aicoder.yml|
 |2023-07-02 07:50:07|[kube-bench](https://github.com/aquasecurity/kube-bench)|Fix test_items in cis-1.7 - node - 4.2.12 (#1469)  <br>Related issue: https://github.com/aquasecurity/kube-<br>bench/issues/1468|
 |2023-07-01 22:24:38|[ShiroAttack2](https://github.com/SummerSec/ShiroAttack2)|:bug: fix https://github.com/SummerSec/ShiroAttack2<br>/issues/37|
 |2023-07-01 15:14:35|[pikachu](https://github.com/zhuifengshaonianhanlu/pikachu)|Merge pull request #33 from 8023/master  优化docker<br>file|
 |2023-07-01 15:12:07|[chatgpt](https://github.com/LangLangShanDeNanKe/chatgpt)|Update README.md|
 |2023-06-30 16:04:02|[All-Defense-Tool](https://github.com/guchangan1/All-Defense-Tool)|更新v2.4|
-|2023-06-30 06:32:51|[murphysec](https://github.com/murphysecurity/murphysec)|fix: JSON output|
 |2023-06-30 05:38:09|[RouteVulScan](https://github.com/F6JO/RouteVulScan)|Update Config_yaml.yaml|
 |2023-06-29 13:26:32|[fscan](https://github.com/shadow1ng/fscan)|Merge pull request #280 from dksslq/main  输出格式<br>调整|
 |2023-06-29 02:24:05|[v2rayA](https://github.com/v2rayA/v2rayA)|Fix Windows installer build|
@@ -180,7 +185,7 @@
 | [X-Marshal](https://github.com/XTeam-Wing/X-Marshal) |  | Marshal-EASM |
 | [heartsk_community](https://github.com/yqcs/heartsk_community) | LOWBUG@<br>Latest | Hearts K-企业资产发现与脆弱性检查工具，自动化资产信息收集与漏<br>洞扫描 |
 | [AnScan](https://github.com/Arbor01/AnScan) |  | AnScan是一款集合信息收集、分布式漏洞扫描、漏洞POC管理等为一体<br>的红队扫描工具 |
-| [nemo_go](https://github.com/hanc00l/nemo_go) | v2.9.3 | Nemo是用来进行自动化信息收集的一个简单平台，通过集成常用的信息<br>收集工具和技术，实现对内网及互联网资产信息的自动收集，提高隐患排<br>查和渗透测试的工作效率。 |
+| [nemo_go](https://github.com/hanc00l/nemo_go) | v2.9.4 | Nemo是用来进行自动化信息收集的一个简单平台，通过集成常用的信息<br>收集工具和技术，实现对内网及互联网资产信息的自动收集，提高隐患排<br>查和渗透测试的工作效率。 |
 | [rengine](https://github.com/yogeshojha/rengine) | v1.3.6 | reNgine is an automated reconnaissance framework for web appli<br>cations with a focus on highly configurable streamlined recon p<br>rocess via Engines, recon data correlation and organization, co<br>ntinuous monitoring, backed by a database, and simple yet intui<br>tive User Interface. reNgine makes it easy for penetration test<br>ers to gather reconnaissance with minimal configuration and wit<br>h the help of reNgine's correlation, it just makes recon effort<br>less. |
 | [ShuiZe_0x727](https://github.com/0x727/ShuiZe_0x727) | v1.0 | 信息收集自动化工具 |
 | [DBJ](https://github.com/wgpsec/DBJ) |  | 大宝剑-边界资产梳理工具（红队、蓝队、企业组织架构、子域名、Web<br>资产梳理、Web指纹识别、ICON_Hash资产匹配） |
@@ -466,7 +471,7 @@
 | [SSTImap](https://github.com/vladko312/SSTImap) | v1.1 | Automatic SSTI detection tool with interactive interface |
 | [tplmap](https://github.com/epinna/tplmap) | v0.5 | Server-Side Template Injection and Code Injection Detection an<br>d Exploitation Tool |
 | [sqlmap](https://github.com/sqlmapproject/sqlmap) | 1.7 | Automatic SQL injection and database takeover tool |
-| [ghauri](https://github.com/r0oth3x49/ghauri) | 1.2.2 | An advanced cross-platform tool that automates the process of <br>detecting and exploiting SQL injection security flaws |
+| [ghauri](https://github.com/r0oth3x49/ghauri) | 1.2.3 | An advanced cross-platform tool that automates the process of <br>detecting and exploiting SQL injection security flaws |
 ### 服务漏洞利用
 #### RMI
 | 项目名称 | 版本 | 项目描述 |
@@ -936,7 +941,7 @@
 | [SmsForwarder](https://github.com/pppscn/SmsForwarder) | v3.2.0 | 短信转发器——监控Android手机短信、来电、APP通知，并根据指定规<br>则转发到其他手机：钉钉群自定义机器人、钉钉企业内机器人、企业微信<br>群机器人、飞书机器人、企业微信应用消息、邮箱、bark、webhook、Tel<br>egram机器人、Server酱、PushPlus、手机短信等。包括主动控制服务端<br>与客户端，让你轻松远程发短信、查短信、查通话、查话簿、查电量等。<br>（V3.0 新增）PS.这个APK主要是学习与自用，如有BUG请提ISSUE，同时<br>欢迎大家提PR指正 |
 | [dbeaver](https://github.com/dbeaver/dbeaver) | 23.1.2 | Free universal database tool and SQL client |
 | [MySQLMonitor](https://github.com/TheKingOfDuck/MySQLMonitor) | 1.0 | MySQL实时监控工具(代码审计/黑盒/白盒审计辅助工具) |
-| [flightsim](https://github.com/alphasoc/flightsim) | v2.3.0 | A utility to safely generate malicious network traffic pattern<br>s and evaluate controls. |
+| [flightsim](https://github.com/alphasoc/flightsim) | v2.4.0 | A utility to safely generate malicious network traffic pattern<br>s and evaluate controls. |
 ## 渗透测试报告辅助
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
