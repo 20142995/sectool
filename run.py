@@ -162,7 +162,7 @@ def main():
         for url in data_b
         if datetime.datetime.now()
         - datetime.datetime.strptime(data_b[url]["commit_date"], "%Y-%m-%d %H:%M:%S")
-        > 365
+        > 180
     }
     # 读取项目列表
     repos = yaml2json("repos.yaml")
