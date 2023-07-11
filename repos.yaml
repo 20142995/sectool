@@ -131,6 +131,7 @@
             - https://github.com/murphysecurity/murphysec
             - https://github.com/LoRexxar/Kunlun-M
             - https://github.com/webraybtl/CodeQLpy
+            - https://github.com/4ra1n/jar-analyzer-gui
         容器漏洞扫描:
             - https://github.com/chaitin/veinmind-tools
         口令爆破:
@@ -142,6 +143,7 @@
             - https://github.com/maaaaz/thc-hydra-windows
         漏洞发现:
             - https://github.com/x364e3ab6/Dude
+            - https://github.com/jorhelp/Ingram
         信息泄露监控:
             - https://github.com/4x99/code6
             - https://github.com/madneal/gshark
@@ -239,6 +241,9 @@
             - https://github.com/bewhale/thinkphp_gui_tools
             - https://github.com/White-hua/Apt_t00ls
             - https://github.com/li8u99/yonyou_exp_plus
+            - https://github.com/qi4L/QVD-2023-13065
+            - https://github.com/chrisjd20/hikvision_CVE-2017-7921_auth_bypass_config_decryptor
+            - https://github.com/SuperZero/CVE-2023-33246
         信息泄露利用:
             - https://github.com/UzJu/Cloud-Bucket-Leak-Detection-Tools
             - https://github.com/wyzxxz/aksk_tool
@@ -268,6 +273,7 @@
             - https://github.com/coffeehb/Some-PoC-oR-ExP
             - https://github.com/DawnFlame/POChouse
             - https://github.com/ycdxsb/PocOrExp_in_Github
+            - https://github.com/CLincat/vulcat
 
         信息泄露漏洞利用:
             - https://github.com/teamssix/cf
@@ -320,6 +326,8 @@
             - https://github.com/1y0n/AV_Evasion_Tool
             - https://github.com/Pizz33/GobypassAV-shellcode
             - https://github.com/yqcs/ZheTian
+            - https://github.com/blacknbunny/encdecshellcode
+            - https://github.com/jthuraisamy/SysWhispers2
     权限提升:
         windows提权:
             - https://github.com/BeichenDream/BadPotato
@@ -573,6 +581,7 @@ CTF:
             - https://github.com/wafinfo/Sunflower_get_Password
             - https://github.com/AdminTest0/SharpWxDump
             - https://github.com/SpenserCai/GoWxDump
+            - https://github.com/saucer-man/qq_msg_decode
         音频隐写:
             - https://github.com/ribt/dtmf-decoder
         文件分离:
@@ -643,6 +652,7 @@ CTF:
         - https://github.com/dbeaver/dbeaver
         - https://github.com/TheKingOfDuck/MySQLMonitor
         - https://github.com/alphasoc/flightsim
+        - https://github.com/babysor/MockingBird
     渗透测试报告辅助:
         - https://github.com/Anof-cyber/APTRS
         - https://github.com/0x727/BugRepoter_0x727
@@ -670,6 +680,11 @@ CTF:
         - https://github.com/yzfly/awesome-chatgpt-zh
         - https://github.com/vincelwt/chatgpt-mac
         - https://github.com/rockbenben/ChatGPT-Shortcut
+    blockchain:
+        - https://github.com/zaivanza/all-in-one-v2
+        - https://github.com/nftscripts/zksync
+
+
 安全产品:
     威胁检测:
         - https://github.com/RoomaSec/RmEye
@@ -683,6 +698,7 @@ CTF:
         - https://github.com/C4o/Juggler
         - https://github.com/fnmsd/MySQL_Fake_Server
         - https://github.com/BeichenDream/MysqlT
+        - https://github.com/4ra1n/mysql-fake-server
     主机入侵防御:
         - https://github.com/wecooperate/iDefender
 靶场:
