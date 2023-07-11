@@ -221,6 +221,7 @@
             - https://github.com/AbelChe/cola_dnslog
             - https://github.com/sml2h3/ddddocr
             - https://github.com/su18/ysoserial
+            - https://github.com/qi4L/JNDIExploit
             - https://github.com/WhiteHSBG/JNDIExploit
             - https://github.com/Mr-xn/JNDIExploit-1
             - https://github.com/0x727/JNDIExploit
@@ -353,6 +354,7 @@
             - https://github.com/sensepost/reGeorg
             - https://github.com/ph4ntonn/Stowaway
             - https://github.com/knownsec/PortForward
+            - https://github.com/Mob2003/rakshasa
         密码提取:
             - https://github.com/passer-W/FinalShell-Decoder
             - https://github.com/JDArmy/SharpXDecrypt
@@ -682,6 +684,8 @@ CTF:
         - https://github.com/yzfly/awesome-chatgpt-zh
         - https://github.com/vincelwt/chatgpt-mac
         - https://github.com/rockbenben/ChatGPT-Shortcut
+    APP合规:
+        - https://github.com/zhengjim/camille
     blockchain:
         - https://github.com/zaivanza/all-in-one-v2
         - https://github.com/nftscripts/zksync
