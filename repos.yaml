@@ -42,6 +42,8 @@
             - https://github.com/EASY233/Finger
             - https://github.com/L10nK1n6/LazyDog
             - https://github.com/winezer0/whatweb-plus
+            - https://github.com/LittleBear4/Find-SomeThing
+            - https://github.com/0x727/ObserverWard
         WAF识别:
             - https://github.com/stamparm/identYwaf
         端口扫描:
@@ -683,6 +685,8 @@ CTF:
     blockchain:
         - https://github.com/zaivanza/all-in-one-v2
         - https://github.com/nftscripts/zksync
+        - https://github.com/bxdoan/zksync-auto
+        - https://github.com/zksync-sdk/zksync2-python
 
 
 安全产品:
