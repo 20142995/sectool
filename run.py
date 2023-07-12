@@ -160,8 +160,12 @@ def main():
     data_b = {
         url: data_b[url]
         for url in data_b
-        if datetime.datetime.now()
-        - datetime.datetime.strptime(data_b[url]["commit_date"], "%Y-%m-%d %H:%M:%S")
+        if (
+            datetime.datetime.now()
+            - datetime.datetime.strptime(
+                data_b[url]["commit_date"], "%Y-%m-%d %H:%M:%S"
+            )
+        ).days
         > 180
     }
     # 读取项目列表
