@@ -47,8 +47,8 @@
     "https://github.com/wpscanteam/wpscan": {
         "created_at": "2012-07-11 20:27:47",
         "description": "WPScan WordPress security scanner. Written for security professionals and blog maintainers to test the security of their WordPress websites. Contact us via contact@wpscan.com",
-        "commit_date": "2023-06-09 10:44:12",
-        "commit_message": "Bump version.",
+        "commit_date": "2023-07-11 13:24:31",
+        "commit_message": "Updates DFs",
         "release_tag": "v3.8.24",
         "release_date": "2023-06-09 12:43:46",
         "release_message": "This is a management release to ensure that the gem is properly pushed to the rubygems channel, as this has failed with the last tagged release. No functionality has changed since v3.8.23."
@@ -65,8 +65,8 @@
     "https://github.com/pppscn/SmsForwarder": {
         "created_at": "2021-02-10 02:23:07",
         "description": "短信转发器——监控Android手机短信、来电、APP通知，并根据指定规则转发到其他手机：钉钉群自定义机器人、钉钉企业内机器人、企业微信群机器人、飞书机器人、企业微信应用消息、邮箱、bark、webhook、Telegram机器人、Server酱、PushPlus、手机短信等。包括主动控制服务端与客户端，让你轻松远程发短信、查短信、查通话、查话簿、查电量等。（V3.0 新增）PS.这个APK主要是学习与自用，如有BUG请提ISSUE，同时欢迎大家提PR指正",
-        "commit_date": "2023-07-07 06:38:43",
-        "commit_message": "升级：XUI框架版本（优化XToastUtils等）",
+        "commit_date": "2023-07-11 01:51:08",
+        "commit_message": "新增：`发送通道`的测试内容携带`通道名称` #317",
         "release_tag": "v3.2.0",
         "release_date": "2023-02-14 09:25:00",
         "release_message": "PS. 距离上一次1024发版，已经过去快5个月了，期间发生不少事，一直没更新这个项目，不管如何，魔幻的2022年都过去了！\r\n\r\n感谢大家这2年来的陪伴与支持，祝大家有情人终成眷属，情人节快乐！\r\n\r\n---\r\n\r\n### 【注意】\r\n\r\n* v3.x版本是全新重构开发，可能一开始并不稳定，建议升级前先做好数据备份！（客户端>一键换新机>离线模式>导出）\r\n\r\n* `v3.2.0` 去除了 `mmkv` 依赖，采用 `SharedPreferences` 来保存配置，升级之后通用设置中的配置请重新配置，具体原因参见 [Issue #245](https://github.com/pppscn/SmsForwarder/issues/245)\r\n\r\n* 升级完毕后，建议离线导出配置，完全卸载干净全新安装后再导入配置（可以避免一些莫名其妙的玄学问题，例如：耗电异常）\r\n\r\n---\r\n\r\n### 更新日志\r\n\r\n* 新增：短信指令（根据短信指令开关对应功能） #I5YX3F\r\n* 新增：监听网络状态变化提醒（APP通知转发，包名：77777777） #259\r\n* 新增：远程改话簿（方便给老人家添加联系人） #256\r\n* 新增：远程查询手机定位（方便找回手机/防止老少走丢） #256\r\n* 新增：Socket发送通道（支持MQTT/TCP/UDP协议） #252\r\n* 新增：发送通道 URL Scheme（支持跨应用数据传递）#250\r\n* 新增：自动消除额外APP通知 #232 #248\r\n\r\n* 优化：短信/通话转发获取卡槽信息机制（自行备注卡槽SubId对应）#228 #235\r\n* 优化：来电转发逻辑 & 新增提醒类型（1.来电挂机 2.去电挂机 3.未接来电 4.来电提醒 5.来电接通 6.去电拨出）\r\n* 优化：单个转发规则支持绑定多个发送通道，且支持执行逻辑（全部执行/失败即止/成功即止） #247\r\n* 优化：转发日志列表以原始信息为主，聚合展示转发日志（一对多）\r\n* 优化：已安装App信息列表异步加载机制\r\n* 优化：电池状态监听/网络状态监控 在未开启去重时默认开启1秒去重\r\n* 优化：利用BatteryReceiver守护自启动的Frpc (试验) #254\r\n\r\n* 修复：Android 13 无法授予通知权限 #255\r\n* 修复：重启手机自动启动APP时加载配置失败 #233 #245\r\n* 修复：转发消息遍历发送通道时未跳过已禁用的通道\r\n* 修复：降级Android Gradle插件版本以兼容4.4 (#249 by NyaMisty)\r\n\r\n* 升级：andserver到2.1.12（加快web端上下行速度等）\r\n* 升级：frpclib 到 v0.47.0\r\n* 升级：androidx组件和kotlin版本\r\n\r\n还有一些细微调整参见`github`提交记录\r\n\r\n---\r\n\r\n### APK版本说明：\r\n* universal（10XXXX）: 通用版（不在乎安装包大小/懒得选就用这个版本，包含以下4种CPU架构so）\r\n* armeabi-v7a（20XXXX）: 32位ARM设备（备用机首选）\r\n* arm64-v8a（30XXXX）: 64位ARM设备（主流旗舰机）\r\n* x86（40XXXX）: 32位Intel设备\r\n* x86_64（50XXXX）: 64/32位Intel设备"
@@ -200,8 +200,8 @@
     "https://github.com/ycdxsb/PocOrExp_in_Github": {
         "created_at": "2021-04-13 05:46:16",
         "description": "聚合Github上已有的Poc或者Exp，CVE信息来自CVE官网。Auto Collect Poc Or Exp from Github by CVE ID.",
-        "commit_date": "2023-07-10 22:44:54",
-        "commit_message": "update 2023-07-11 06:44:54",
+        "commit_date": "2023-07-12 22:49:45",
+        "commit_message": "update 2023-07-13 06:49:45",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -218,7 +218,7 @@
     "https://github.com/Threekiii/Vulhub-Reproduce": {
         "created_at": "2022-03-03 08:38:29",
         "description": "一个Vulhub漏洞复现知识库",
-        "commit_date": "2023-06-19 02:38:13",
+        "commit_date": "2023-07-11 02:52:01",
         "commit_message": "更新漏洞",
         "release_tag": "",
         "release_date": "",
@@ -461,7 +461,7 @@
     "https://github.com/ExpLangcn/NucleiTP": {
         "created_at": "2022-11-08 13:16:56",
         "description": "自动整合全网Nuclei的漏洞POC，实时同步更新最新POC！",
-        "commit_date": "2023-07-11 00:30:16",
+        "commit_date": "2023-07-13 00:30:15",
         "commit_message": "更新啦❤️",
         "release_tag": "",
         "release_date": "",
@@ -1017,7 +1017,7 @@
     "https://github.com/wecooperate/iDefender": {
         "created_at": "2021-11-24 11:38:28",
         "description": "iDefender（冰盾 - 终端主动防御系统）",
-        "commit_date": "2023-07-06 15:11:43",
+        "commit_date": "2023-07-12 12:57:22",
         "commit_message": "update",
         "release_tag": "2.8.0",
         "release_date": "2023-06-13 15:31:06",
@@ -1098,8 +1098,8 @@
     "https://github.com/Threekiii/Vulnerability-Wiki": {
         "created_at": "2022-04-29 05:36:33",
         "description": "一个基于 docsify 的综合漏洞知识库，目前漏洞数量 900+",
-        "commit_date": "2023-07-05 02:22:34",
-        "commit_message": "commit",
+        "commit_date": "2023-07-11 02:56:56",
+        "commit_message": "更新漏洞",
         "release_tag": "v1.0",
         "release_date": "2022-07-15 01:58:00",
         "release_message": "Vulnerability-Wiki项目中docs-0sec的打包文件，下载后于主项目docs-0sec文件夹下解压即可。\r\n\r\n\r\n"
@@ -1467,11 +1467,11 @@
     "https://github.com/summitt/Burp-Non-HTTP-Extension": {
         "created_at": "2016-05-23 20:30:34",
         "description": "Non-HTTP Protocol Extension (NoPE) Proxy and DNS for Burp Suite.",
-        "commit_date": "2023-07-07 18:08:49",
-        "commit_message": "bug in way interceptors work",
-        "release_tag": "v1.7.1",
-        "release_date": "2023-07-07 18:15:00",
-        "release_message": "* Fixed issue where some requests are not being intercepted"
+        "commit_date": "2023-07-12 08:47:31",
+        "commit_message": "Fixed Port Monitor",
+        "release_tag": "v1.7.2",
+        "release_date": "2023-07-12 08:50:03",
+        "release_message": "* Fixed Port Monitor"
     },
     "https://github.com/SiJiDo/H": {
         "created_at": "2021-09-10 06:49:28",
@@ -1735,8 +1735,8 @@
     "https://github.com/chaitin/veinmind-tools": {
         "created_at": "2022-02-08 08:12:15",
         "description": "veinmind-tools 是由长亭科技自研，基于 veinmind-sdk 打造的容器安全工具集",
-        "commit_date": "2023-07-03 14:48:33",
-        "commit_message": "feat(ci): add auto sync to registry (#254)",
+        "commit_date": "2023-07-11 14:29:33",
+        "commit_message": "refactor(plugins): refactor backdoor plugin (#252)",
         "release_tag": "v2.1.4",
         "release_date": "2023-07-04 06:58:05",
         "release_message": "## 🔥 Feature\r\n* feat(plugins): Add veinmind-privilege-escalation plugin for detecting privilege escalation risks, including checks for suid and sudo  by @ek1ng in https://github.com/chaitin/veinmind-tools/pull/250\r\n\r\n## 🔧 Fix\r\n* fix(libveinmind): fix libveinmind walk data race error by @DVKunion in https://github.com/chaitin/veinmind-tools/pull/231\r\n* fix(veinmind-weakpass)/add_error_check by  @testwill in https://github.com/chaitin/veinmind-tools/pull/249\r\n* fix(docs): fix errors in documentation on how to initialize plugins by @ek1ng in https://github.com/chaitin/veinmind-tools/pull/247\r\n* fix(docs): fix README format by @ek1ng in https://github.com/chaitin/veinmind-tools/pull/251\r\n\r\n## 📒 Others\r\n* chore(libveinmind): update libveinmind 1.9.21 by @DVKunion in https://github.com/chaitin/veinmind-tools/pull/243\r\n* chore(ci):  add auto sync to registry by @DVKunion  in https://github.com/chaitin/veinmind-tools/pull/254\r\n\r\n\r\n**Full Changelog**: https://github.com/chaitin/veinmind-tools/compare/v2.1.3...v2.1.4"
@@ -1888,8 +1888,8 @@
     "https://github.com/hanc00l/nemo_go": {
         "created_at": "2021-07-29 08:13:25",
         "description": "Nemo是用来进行自动化信息收集的一个简单平台，通过集成常用的信息收集工具和技术，实现对内网及互联网资产信息的自动收集，提高隐患排查和渗透测试的工作效率。",
-        "commit_date": "2023-07-10 08:36:58",
-        "commit_message": "Update: 增加Nemo安装及使用文档",
+        "commit_date": "2023-07-12 14:23:51",
+        "commit_message": "Fix: domain列表和详情中的icon显示",
         "release_tag": "v2.9.4",
         "release_date": "2023-06-21 05:56:55",
         "release_message": "### Updated\r\n\r\n- Nemo安装及使用文档v1.0；\r\n\r\n### Fix\r\n\r\n- v2.9.3的release包里，thirdparty/fingerprinthub目录里没有打包二进制文件\r\n"
@@ -2221,7 +2221,7 @@
     "https://github.com/Threekiii/Awesome-POC": {
         "created_at": "2022-02-20 06:43:22",
         "description": "一个各类漏洞POC知识库",
-        "commit_date": "2023-07-05 01:20:42",
+        "commit_date": "2023-07-11 02:57:15",
         "commit_message": "更新漏洞",
         "release_tag": "",
         "release_date": "",
@@ -2248,8 +2248,8 @@
     "https://github.com/epi052/feroxbuster": {
         "created_at": "2020-08-22 15:36:19",
         "description": "A fast, simple, recursive content discovery tool written in Rust.",
-        "commit_date": "2023-05-06 11:47:16",
-        "commit_message": "Merge pull request #898 from epi052/all-contributors/add-AkechiShiro\n\ndocs: add AkechiShiro as a contributor for ideas",
+        "commit_date": "2023-07-11 10:35:21",
+        "commit_message": "Merge pull request #938 from epi052/all-contributors/add-ktecv2000\n\ndocs: add ktecv2000 as a contributor for bug",
         "release_tag": "v2.10.0",
         "release_date": "2023-05-06 13:19:20",
         "release_message": "## What's Changed\r\n* Adds server and client certificate management; enables mTLS by @lavafroth in https://github.com/epi052/feroxbuster/pull/892\r\n    * `--server-certs`\r\n    * `--client-cert`\r\n    * `--client-key` \r\n\r\n## New Contributors\r\n* @lavafroth made their first contribution in https://github.com/epi052/feroxbuster/pull/892 :tada: \r\n\r\n**Full Changelog**: https://github.com/epi052/feroxbuster/compare/v2.9.5...v2.10.0"
@@ -2951,8 +2951,8 @@
     "https://github.com/dbeaver/dbeaver": {
         "created_at": "2015-10-21 08:26:28",
         "description": "Free universal database tool and SQL client",
-        "commit_date": "2023-07-10 15:17:42",
-        "commit_message": "Fixed DE translation für 'Insertion case' (#20458)\n\n* Fixed DE translation für 'Insertion case'\r\n\r\n* Convert native characters to ascii\r\n\r\n---------\r\n\r\nCo-authored-by: Elizabeth <Kuzenkova.El@yandex.ru>",
+        "commit_date": "2023-07-12 10:36:48",
+        "commit_message": "#20336 Proper find/replace in the value panel (#20550)",
         "release_tag": "23.1.2",
         "release_date": "2023-07-09 16:23:13",
         "release_message": "\n                - SQL editor:\n                    - Mouse hovering over editor annotations was fixed\n                    - Trailing DDL query delimiter processing was fixed\n                - Data editor:\n                    - References panel refresh was fixed\n                    - XML presentation was fixed (NULL value handler)\n                - General UI:\n                    - Settings reset UI and behavior were redesigned\n                    - Editor tab tooltip now contains information abut resource's project\n                    - CLI parameter for app version print was added\n                    - Objects with mixed case names caching was fixed\n                    - Issue with program launch with wrong Java version was fixed\n                    - Preferences export/import UI was improved\n                    - Maven snapshot repository was added to default configuration\n                - Connections: kerberos support in legacy JDBC drivers (Hive) was fixed\n                - Data transfer: table information for tasks with broken connection was fixed\n                - Databases:\n                    - BigQuery: driver version was upgraded to 1.3.3 (thanks to @fredlegaucher)\n                    - DuckDB: LIST data type support was added\n                    - Firebird: filters and sorting in grouping panel were fixed\n                    - IBM i: driver download was fixed\n                    - Oracle:\n                        - Partitions cache refresh was fixed\n                        - Stored procedures edit/save was fixed\n                    - PostgreSQL: enum columns alter was fixed\n                    - Snowflake:\n                        - Client application name set was fixed\n                        - Quoted identifiers auto-completion was fixed\n                - Misc: internal app controller server now uses HTTP instead of RMI\n            "
@@ -3050,11 +3050,11 @@
     "https://github.com/zan8in/afrog": {
         "created_at": "2022-02-24 06:00:32",
         "description": "A Security Tool for Bug Bounty, Pentest and Red Teaming.",
-        "commit_date": "2023-07-09 03:53:12",
+        "commit_date": "2023-07-12 14:30:28",
         "commit_message": "update",
-        "release_tag": "v2.7.1",
-        "release_date": "2023-07-06 12:31:30",
-        "release_message": "● Add anti-link platform survival detection function\r\n● Add extractor functionality to extract sensitive information such as version numbers\r\n● Delete PoC: CNVD-2021-15824、t-soft-e-commerce4-urunadi-stored-xss、clicshopping-v2-xss\r\n\r\n● 新增反链平台存活检测功能\r\n● 新增提取器 extractors 功能，可提取版本号等敏感信息\r\n● 删除 PoC ： CNVD-2021-15824、t-soft-e-commerce4-urunadi-stored-xss、clicshopping-v2-xss"
+        "release_tag": "v2.7.2",
+        "release_date": "2023-07-12 07:57:15",
+        "release_message": "Changing the backlink alive check to concurrent execution.\r\nAdd go poc : ecology-filedownloadforoutdoc-sqli\r\nPoc Count:  1041\r\n\r\n将反链存活检查改为并发执行\r\n新增 go poc : ecology-filedownloadforoutdoc-sqli\r\nPoc 总数:  1041"
     },
     "https://github.com/moonD4rk/HackBrowserData": {
         "created_at": "2020-06-18 03:24:31",
@@ -3192,11 +3192,11 @@
     "https://github.com/joke2k/faker": {
         "created_at": "2012-11-12 23:00:09",
         "description": "Faker is a Python package that generates fake data for you.",
-        "commit_date": "2023-07-07 15:59:57",
-        "commit_message": "Bump version: 18.12.0 → 18.13.0",
-        "release_tag": "v18.13.0",
-        "release_date": "2023-07-07 16:00:38",
-        "release_message": "See [CHANGELOG.md](https://github.com/joke2k/faker/blob/refs/tags/v18.13.0/CHANGELOG.md)."
+        "commit_date": "2023-07-12 14:10:10",
+        "commit_message": "Bump version: 19.0.0 → 19.1.0",
+        "release_tag": "v19.1.0",
+        "release_date": "2023-07-12 14:10:53",
+        "release_message": "See [CHANGELOG.md](https://github.com/joke2k/faker/blob/refs/tags/v19.1.0/CHANGELOG.md)."
     },
     "https://github.com/NHPT/Xray_Cracked": {
         "created_at": "2022-08-10 13:51:19",
@@ -3262,8 +3262,8 @@
     "https://github.com/F6JO/RouteVulScan": {
         "created_at": "2022-06-01 07:07:38",
         "description": "Burpsuite - Route Vulnerable Scanning 递归式被动检测脆弱路径的burp插件",
-        "commit_date": "2023-06-30 05:38:09",
-        "commit_message": "Update Config_yaml.yaml",
+        "commit_date": "2023-07-11 01:54:11",
+        "commit_message": "update",
         "release_tag": "RouteVulScan1.5",
         "release_date": "2023-05-09 09:57:25",
         "release_message": "2023-05-09 将默认扫描子域和根域改为可开关\r\n2023-05-09 将匹配的state状态码改为可以设置范围\r\n2023-05-09 添加类似模板语言的标记，可在Config中配置标记获取当前请求的各类信息并当作路径或正则"
@@ -3881,8 +3881,8 @@
     "https://github.com/aquasecurity/kube-bench": {
         "created_at": "2017-06-19 13:27:02",
         "description": "Checks whether Kubernetes is deployed according to security best practices as defined in the CIS Kubernetes Benchmark",
-        "commit_date": "2023-07-02 07:50:07",
-        "commit_message": "Fix test_items in cis-1.7 - node - 4.2.12 (#1469)\n\nRelated issue: https://github.com/aquasecurity/kube-bench/issues/1468",
+        "commit_date": "2023-07-11 08:45:06",
+        "commit_message": "Fix node.yaml - 4.1.7 and 4.1.8 audit by adding uniq (#1472)",
         "release_tag": "v0.6.15",
         "release_date": "2023-06-06 14:50:53",
         "release_message": "## Changelog\n* e41755b  cis-1.24: fix tests of 1.1.1 and 4.2.9 were wrong (#1423)\n* ca8743c add support VMware Tanzu(TKGI) Benchmarks v1.2.53 (#1452)\n* 84f80b5 build(deps): bump alpine from 3.17 to 3.18 (#1443)\n* 6de03bb build(deps): bump github.com/aws/aws-sdk-go-v2 from 1.17.6 to 1.18.0 (#1433)\n* 60dde65 support CIS Amazon Elastic Kubernetes Service (EKS) Benchmark v1.2.0 (#1449)\n* 124c57c support CIS Kubernetes Benchmark v1.7.0 (#1424)\n\n"
@@ -3890,8 +3890,8 @@
     "https://github.com/neuvector/neuvector": {
         "created_at": "2021-12-17 20:15:03",
         "description": "",
-        "commit_date": "2023-07-10 23:25:46",
-        "commit_message": "Merge pull request #908 from kyledong-suse/main\n\nNVSHAS-7963: Fix mysql parser",
+        "commit_date": "2023-07-11 18:09:57",
+        "commit_message": "Merge pull request #910 from kyledong-suse/main\n\nNVSHAS-5703 & NVSHAS-5365: API document change for Violation",
         "release_tag": "v5.2.0",
         "release_date": "2023-07-06 05:43:13",
         "release_message": "##### Enhancements \r\n+ Searchable SaaS service for CVE lookups. NVSHAS-5852 Search the latest NeuVector CVE database to see if a specific CVE exists in the database.\r\n+ Support tokens for NeuVector API access. NVSHAS-6293\r\n+ Support AWS Marketplace PAYG billing for NeuVector monthly support subscriptions. Users can subscribe to NeuVector by SUSE support, billed monthly to their AWS account based on previous month's average node count usage. Details [here](https://open-docs.neuvector.com/deploying/awsmarketplace).\r\n+ Support image signing for admission controls. NVSHAS-6217, NVSHAS-6216.\r\n+ Enable each admission control rule to have its own mode of Monitor or Protect.NVSHAS-4062 A Deny action in Monitor mode will alert, and a Deny action in Protect mode will block. Allow actions are unaffected.\r\n+ Add a new \"operator\" in Policy > Admission Control > Add Rule. NVSHAS-6726 Support operators \"is between\" and \"is not between\" for both \"Users\" and \"User Groups\".\r\n+ Add support for custom admission control criteria such as resource limits. NVSHAS-7717\r\n+ Support invoking NeuVector scanner from Harbor registries through the [pluggable scanner](https://github.com/goharbor/pluggable-scanner-spec) interface.\r\n+ Allow user to disable network protection but keep WAF/DLP functioning. Configure Network Policy Enablement in Settings -> Configuration. NVSHAS-7725\r\n+ Use less privileged services accounts as required for each NeuVector component. NVSHAS-7603. A variable “leastPrivilege” is introduced. The default is false. NOTE: Using the current helm chart with this variable on a release prior to 5.2.0 will not function properly.\r\n+ Bind to non-default service account to meet CIS 1.5 5.1.5 recommendation. NVSHAS-7619\r\n+ Enable administrator to configure user default Session Time out. NVSHAS-7621\r\n+ Customizable login banner NVSHAS-6675. \r\n+ Customizable UI header text NVSHAS-7330.\r\n+ SYSLOG support for TLS encrypted transport. NVSHAS-4377\r\n+ Enable deployment of the NeuVector monitor helm chart from Rancher Manager.\r\n+ Remove upper limit for top level domain in URL validator for registry scanning. NVSHAS-7935\r\n+ Scan golang dependencies, including run-time scans.\r\n+ Support Debian 12 (Bookworm) vulnerability scan.\r\n+ Add CSV export for Registry / Details to export CVEs for all images in configured registry. NVSHAS-5993\r\n+ Allow NeuVector to set several ADFS certificates in parallel in x.509 certificate field. NVSHAS-7335\r\n+ Add and display the comment field for Response Rules.\r\n##### Bug Fixes\r\n+ Reduce repeating logs in enforcer/controller logs. NVSHAS-7832 {TBD???}\r\n+ Multiple clusters page does not render. NVSHAS-7742\r\n+ Empty group auto-removal takes 2 hours to delete instead of 1 hour according to schedule. NVSHAS-7791\r\n+ Manually allowed network rule not getting applied and resulting in violation for pause image. NVSHAS-7807\r\n+ Blocking SSL connections even if a network rule permits the traffic under certain initial conditions. NVSHAS-7923\r\n+ Security events warning even with allowed network rules due to policy update issue in synchronization. NVSHAS-8019\r\n+ Despite defining the network rules, violations getting logged under security events (false positives) when the container has stopped due to out of memory (OOM) error. NVSHAS-7830\r\n+ Allow user to disable/enable detection and protection against unmanaged container in cluster. NVSHAS-7804. This can be set through the Manager CLI:\r\n```\r\nset system detect_unmanaged_wl status -h\r\nUsage: cli set system detect_unmanaged_wl status [OPTIONS] {true|false}\r\n  Enable/disable detect unmanaged container\r\n```\r\n##### Other\r\n+ Add \"leastPrivilege\" setting in Helm chart.\r\n+ Enable AWS integration settings in Helm chart. "
@@ -3908,17 +3908,17 @@
     "https://github.com/anchore/syft": {
         "created_at": "2020-05-07 18:19:29",
         "description": "CLI tool and library for generating a Software Bill of Materials from container images and filesystems",
-        "commit_date": "2023-07-10 17:36:41",
-        "commit_message": "feat: CLI flag for directory base (#1867)\n\nSigned-off-by: Avi Deitcher <avi@deitcher.net>\r\nSigned-off-by: Keith Zantow <kzantow@gmail.com>\r\nCo-authored-by: Keith Zantow <kzantow@gmail.com>",
-        "release_tag": "v0.84.1",
-        "release_date": "2023-06-29 17:24:30",
-        "release_message": "# Changelog\r\n\r\n## [v0.84.1](https://github.com/anchore/syft/tree/v0.84.1) (2023-06-29)\r\n\r\n[Full Changelog](https://github.com/anchore/syft/compare/v0.84.0...v0.84.1)\r\n\r\n### Bug Fixes\r\n\r\n- Fix version detection in Java archive name parsing [[PR #1889](https://github.com/anchore/syft/pull/1889)] [[luhring](https://github.com/luhring)]\r\n- Improve support for Dart SDK package dependency lockfiles [[PR #1891](https://github.com/anchore/syft/pull/1891)] [[rufman](https://github.com/rufman)]\r\n- Fix license output for some CycloneDX JSON SBOMs [[Issue #1877](https://github.com/anchore/syft/issues/1877)] [[PR #1879](https://github.com/anchore/syft/pull/1879)] [[kzantow](https://github.com/kzantow)]\r\n- Correctly discover Debian file relationships in distroless images [[Issue #1900](https://github.com/anchore/syft/issues/1900)] [[PR #1901](https://github.com/anchore/syft/pull/1901)] [[westonsteimel](https://github.com/westonsteimel)]\r\n\r\n### Additional Changes\r\n\r\n- Simplify the SBOM writer interface [[PR #1892](https://github.com/anchore/syft/pull/1892)] [[wagoodman](https://github.com/wagoodman)]\r\n\r\n\r\n\r\n"
+        "commit_date": "2023-07-12 17:59:31",
+        "commit_message": "chore: move wait before iteration to guarantee read before tea (#1931)\n\n* chore: move wait before iteration to guarantee read before tea\r\n\r\n---------\r\n\r\nSigned-off-by: Christopher Phillips <christopher.phillips@anchore.com>",
+        "release_tag": "v0.85.0",
+        "release_date": "2023-07-12 17:45:16",
+        "release_message": "# Changelog\r\n\r\n## [v0.85.0](https://github.com/anchore/syft/tree/v0.85.0) (2023-07-12)\r\n\r\n[Full Changelog](https://github.com/anchore/syft/compare/v0.84.1...v0.85.0)\r\n\r\n### Added Features\r\n\r\n- Add a --base-path command line flag to set the directory base for scans (this option was previously exposed via API only) [[PR #1867](https://github.com/anchore/syft/pull/1867)] [[deitch](https://github.com/deitch)]\r\n- Add file source digest support [[PR #1914](https://github.com/anchore/syft/pull/1914)] [[wagoodman](https://github.com/wagoodman)]\r\n- Remove erroneous Java CPEs from generation [[PR #1918](https://github.com/anchore/syft/pull/1918)] [[luhring](https://github.com/luhring)]\r\n- Fix CPE generation for k8s python client [[PR #1921](https://github.com/anchore/syft/pull/1921)] [[luhring](https://github.com/luhring)]\r\n- Don't use the actual redis or grpc CPEs for gems [[PR #1926](https://github.com/anchore/syft/pull/1926)] [[luhring](https://github.com/luhring)]\r\n- The text user interface is now provided by the bubbletea library [[Issue #1441](https://github.com/anchore/syft/issues/1441)] [[PR #1888](https://github.com/anchore/syft/pull/1888)] [[wagoodman](https://github.com/wagoodman)]\r\n\r\n### Bug Fixes\r\n\r\n- Install script returns exit code 0 even if install fails [[Issue #1566](https://github.com/anchore/syft/issues/1566)] [[PR #1915](https://github.com/anchore/syft/pull/1915)] [[lorsatti](https://github.com/lorsatti)]\r\n- [Windows] Not able to scan volume mounted to folder [[Issue #1828](https://github.com/anchore/syft/issues/1828)] [[PR #1884](https://github.com/anchore/syft/pull/1884)] [[dd-cws](https://github.com/dd-cws)]\r\n- Deprecated license: GFDL-1.2+ [[Issue #1899](https://github.com/anchore/syft/issues/1899)] [[PR #1907](https://github.com/anchore/syft/pull/1907)] [[spiffcs](https://github.com/spiffcs)]\r\n\r\n### Breaking Changes\r\n\r\n- Revisit the `source.New*` set of functions [[Issue #1866](https://github.com/anchore/syft/issues/1866)] [[PR #1846](https://github.com/anchore/syft/pull/1846)] [[wagoodman](https://github.com/wagoodman)]\r\n\r\n### Additional Changes\r\n\r\n- chore: update iterations to protect against race [[PR #1927](https://github.com/anchore/syft/pull/1927)] [[spiffcs](https://github.com/spiffcs)]\r\n- fix: background reader apart from global handler for testing [[PR #1929](https://github.com/anchore/syft/pull/1929)] [[spiffcs](https://github.com/spiffcs)]\r\n\r\n\r\n\r\n"
     },
     "https://github.com/chaitin/safeline": {
         "created_at": "2023-04-12 11:30:14",
         "description": "一款足够简单、足够好用、足够强的免费 WAF。基于业界领先的语义引擎检测技术，作为反向代理接入，保护你的网站不受黑客攻击。",
-        "commit_date": "2023-07-07 07:26:47",
-        "commit_message": "fix: https://github.com/chaitin/safeline/security/dependabot/57",
+        "commit_date": "2023-07-12 11:09:08",
+        "commit_message": "fix find compose path",
         "release_tag": "v2.1.2",
         "release_date": "2023-07-07 05:40:12",
         "release_message": "- 修复了日志详情中防护策略模块没有翻译的问题"
@@ -3953,8 +3953,8 @@
     "https://github.com/quay/clair": {
         "created_at": "2015-11-13 18:46:16",
         "description": "Vulnerability Static Analysis for Containers",
-        "commit_date": "2023-07-11 00:43:37",
-        "commit_message": "build(deps): bump golang.org/x/net from 0.11.0 to 0.12.0\n\nBumps [golang.org/x/net](https://github.com/golang/net) from 0.11.0 to 0.12.0.\n- [Commits](https://github.com/golang/net/compare/v0.11.0...v0.12.0)\n\n---\nupdated-dependencies:\n- dependency-name: golang.org/x/net\n  dependency-type: direct:production\n  update-type: version-update:semver-minor\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>",
+        "commit_date": "2023-07-11 19:02:23",
+        "commit_message": "chore: bump Claircore to v1.5.9\n\nBump Claircore to the latest tag.\n\nSigned-off-by: crozzy <joseph.crosland@gmail.com>",
         "release_tag": "v4.6.1",
         "release_date": "2023-04-13 18:29:02",
         "release_message": "<a name=\"unreleased\"></a>\n## [Unreleased]\n\n\n<a name=\"v4.6.1\"></a>\n## [v4.6.1] - 2023-04-13\n### Airgap\n- [e02aba27](https://github.com/quay/clair/commit/e02aba27de01cb461f79bee9644aac80c2f9bd65): Remove libindex Airgap option\n### Chore\n- [36990912](https://github.com/quay/clair/commit/36990912450fba2ccbef260a4829f1d9f69f45c6): v4.6.1 changelog bump\n- [e676671c](https://github.com/quay/clair/commit/e676671c17d2612470cd8de05aa668312fbb3036): Bump Claircore to v1.4.21\n### Go.Mod\n- [36de97cc](https://github.com/quay/clair/commit/36de97ccf619113b1ef4dff6bfd0e0c692252544): update json (de)serializer\n### Httptransport\n- [922f33d1](https://github.com/quay/clair/commit/922f33d18919578049fbf2ccb756e6990b66f280): fix request_id logging\n### Httputil\n- [9e8eacf5](https://github.com/quay/clair/commit/9e8eacf51b2a45f967036396b3dc14a52edc480d): fix ParseIP usage\n -  [#1689](https://github.com/quay/clair/issues/1689)### Notifier\n- [ffa4556d](https://github.com/quay/clair/commit/ffa4556d0f251cc984ed34594356625b9b747744): Avoid double reference\n\n[Unreleased]: https://github.com/quay/clair/compare/v4.6.1...HEAD\n[v4.6.1]: https://github.com/quay/clair/compare/v4.6.0...v4.6.1\n"
@@ -3962,8 +3962,8 @@
     "https://github.com/alphasoc/flightsim": {
         "created_at": "2018-01-10 12:31:31",
         "description": "A utility to safely generate malicious network traffic patterns and evaluate controls.",
-        "commit_date": "2023-07-10 15:49:10",
-        "commit_message": "Lock goreleaser version",
+        "commit_date": "2023-07-11 06:31:30",
+        "commit_message": "Adjust IRC and Telegram Bot API module descriptions",
         "release_tag": "v2.4.0",
         "release_date": "2023-07-10 15:59:17",
         "release_message": "## Network Flight Simulator v2.4.0 (2023-07-10)\r\n\r\n**This release adds:**\r\n- A new IRC module simulating traffic to IRC servers\r\n- A new Telegram Bot module simulating traffic to Telegram API\r\n\r\n**Full Changelog**: https://github.com/alphasoc/flightsim/compare/v2.3.0...v2.4.0\r\n\r\n## Enjoy!\r\n\r\n"
@@ -3980,8 +3980,8 @@
     "https://github.com/anchore/grype": {
         "created_at": "2020-05-26 13:44:38",
         "description": "A vulnerability scanner for container images and filesystems",
-        "commit_date": "2023-07-10 17:52:55",
-        "commit_message": "chore(deps): update bootstrap tools to latest versions (#1381)\n\nSigned-off-by: GitHub <noreply@github.com>\r\nCo-authored-by: westonsteimel <westonsteimel@users.noreply.github.com>",
+        "commit_date": "2023-07-11 17:37:17",
+        "commit_message": "feat(outputs): allow to set multiple outputs (#648) (#1346)\n\n* feat(outputs): allow to set multiple outputs (#648)\r\n\r\nSigned-off-by: Olivier Boudet <o.boudet@gmail.com>\r\nSigned-off-by: Olivier Boudet <olivier.boudet@cooperl.com>\r\nSigned-off-by: Alex Goodman <wagoodman@users.noreply.github.com>\r\n\r\n* feat(outputs): allow to set multiple outputs (#648)\r\n\r\nreview\r\n\r\nSigned-off-by: Olivier Boudet <olivier.boudet@cooperl.com>\r\nSigned-off-by: Alex Goodman <wagoodman@users.noreply.github.com>\r\n\r\n* use syft format writter pattern and de-emphasize presenter package\r\n\r\nSigned-off-by: Alex Goodman <wagoodman@users.noreply.github.com>\r\n\r\n---------\r\n\r\nSigned-off-by: Olivier Boudet <o.boudet@gmail.com>\r\nSigned-off-by: Olivier Boudet <olivier.boudet@cooperl.com>\r\nSigned-off-by: Alex Goodman <wagoodman@users.noreply.github.com>\r\nCo-authored-by: Alex Goodman <wagoodman@users.noreply.github.com>",
         "release_tag": "v0.63.1",
         "release_date": "2023-06-30 15:53:31",
         "release_message": "# Changelog\n\n## [v0.63.1](https://github.com/anchore/grype/tree/v0.63.1) (2023-06-30)\n\n[Full Changelog](https://github.com/anchore/grype/compare/v0.63.0...v0.63.1)\n\n### Bug Fixes\n\n- Add more log4j-adjacent package ignore rules [[PR #1358](https://github.com/anchore/grype/pull/1358)] [[luhring](https://github.com/luhring)]\n- The summary by severity is confusing [[Issue #1312](https://github.com/anchore/grype/issues/1312)] [[PR #1359](https://github.com/anchore/grype/pull/1359)] [[kzantow](https://github.com/kzantow)]\n\n\n\n"
@@ -4277,7 +4277,7 @@
     "https://github.com/aiboboxx/v2rayfree": {
         "created_at": "2021-10-13 11:34:53",
         "description": "v2ray公益免费节点、最新2ray免费v节点订阅地址、v2ray免费节点每日更新、免费ss/v2ray/trojan节点、freefq ",
-        "commit_date": "2023-07-10 12:45:46",
+        "commit_date": "2023-07-12 12:46:49",
         "commit_message": "update",
         "release_tag": "",
         "release_date": "",
@@ -4304,8 +4304,8 @@
     "https://github.com/niudaii/zpscan": {
         "created_at": "2022-09-16 03:03:20",
         "description": "一个有点好用的信息收集工具。A somewhat useful information gathering tool.",
-        "commit_date": "2023-07-10 06:55:55",
-        "commit_message": "update: go mod",
+        "commit_date": "2023-07-12 02:40:17",
+        "commit_message": "fix: jsjump",
         "release_tag": "v1.8.39",
         "release_date": "2023-03-21 06:02:58",
         "release_message": ""
@@ -4322,8 +4322,8 @@
     "https://github.com/freefq/free": {
         "created_at": "2020-06-07 02:48:33",
         "description": "翻墙、免费翻墙、免费科学上网、免费节点、免费梯子、免费ss/v2ray/trojan节点、蓝灯、谷歌商店、翻墙梯子",
-        "commit_date": "2023-07-11 00:00:01",
-        "commit_message": "updated_at 07-11 08:00",
+        "commit_date": "2023-07-13 00:00:03",
+        "commit_message": "updated_at 07-13 08:00",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -4601,8 +4601,8 @@
     "https://github.com/rockbenben/ChatGPT-Shortcut": {
         "created_at": "2023-02-24 12:53:49",
         "description": "🚀💪Maximize your efficiency and productivity, support for English, 中文, 日本語, and 한국어. 让生产力加倍的 ChatGPT 快捷指令，按照领域和功能分区，可对提示词进行标签筛选、关键词搜索和一键复制。",
-        "commit_date": "2023-07-08 12:39:32",
-        "commit_message": "Merge pull request #34 from VMCoud/patch-1\n\nCreate docker.yml",
+        "commit_date": "2023-07-12 10:35:43",
+        "commit_message": "docs: Add documentation for community-prompts page",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -4669,5 +4669,311 @@
         "release_tag": "",
         "release_date": "",
         "release_message": ""
+    },
+    "https://github.com/DeEpinGh0st/Browser-cookie-steal": {
+        "created_at": "2020-03-08 07:44:05",
+        "description": "Python script for steal browser cookies",
+        "commit_date": "2020-05-27 03:13:53",
+        "commit_message": "fix firefox",
+        "release_tag": "",
+        "release_date": "",
+        "release_message": ""
+    },
+    "https://github.com/chrisjd20/hikvision_CVE-2017-7921_auth_bypass_config_decryptor": {
+        "created_at": "2021-01-29 16:08:35",
+        "description": "This python file will decrypt the configurationFile used by hikvision cameras vulnerable to CVE-2017-7921.",
+        "commit_date": "2021-01-29 16:22:39",
+        "commit_message": "Update README.md",
+        "release_tag": "",
+        "release_date": "",
+        "release_message": ""
+    },
+    "https://github.com/djhohnstein/SharpWeb": {
+        "created_at": "2018-08-13 21:55:48",
+        "description": ".NET 2.0 CLR project to retrieve saved browser credentials from Google Chrome, Mozilla Firefox and Microsoft Internet Explorer/Edge.",
+        "commit_date": "2018-08-13 22:07:02",
+        "commit_message": "README updates",
+        "release_tag": "v1.2",
+        "release_date": "2018-08-16 16:42:17",
+        "release_message": "Compiled for .NET 4.6 on 8/16/18."
+    },
+    "https://github.com/zksync-sdk/zksync2-python": {
+        "created_at": "2022-05-19 10:19:07",
+        "description": "",
+        "commit_date": "2023-07-07 11:35:10",
+        "commit_message": "fix: update package version",
+        "release_tag": "v0.6.0",
+        "release_date": "2023-07-07 11:36:04",
+        "release_message": "Add support for account abstraction and paymaster features:\r\n\r\n- Add smart account deployment with create opcode.\r\n- Add smart account deployment with create2 opcode.\r\n- Support Paymaster parameters in EIP712 Transactions. Paymaster features can be used with EIP712 Transactions.\r\n"
+    },
+    "https://github.com/hayasec/360SafeBrowsergetpass": {
+        "created_at": "2020-11-19 08:42:03",
+        "description": "这是一个一键辅助抓取360安全浏览器密码的CobaltStrike脚本以及解密小工具，用于节省红队工作量，通过下载浏览器数据库、记录密钥来离线解密浏览器密码。",
+        "commit_date": "2021-04-04 02:43:30",
+        "commit_message": "Update README.md\n\n添加登录状态下的解密",
+        "release_tag": "v0.1",
+        "release_date": "2020-12-01 07:23:37",
+        "release_message": ""
+    },
+    "https://github.com/zhengjim/camille": {
+        "created_at": "2021-10-28 02:32:51",
+        "description": "基于Frida的Android App隐私合规检测辅助工具",
+        "commit_date": "2023-05-06 06:17:39",
+        "commit_message": "Update README.md",
+        "release_tag": "",
+        "release_date": "",
+        "release_message": ""
+    },
+    "https://github.com/jthuraisamy/SysWhispers2": {
+        "created_at": "2021-01-02 04:52:35",
+        "description": "AV/EDR evasion via direct system calls.",
+        "commit_date": "2022-09-03 07:31:06",
+        "commit_message": "Merge pull request #24 from xenoscr/main\n\nBug fixes",
+        "release_tag": "",
+        "release_date": "",
+        "release_message": ""
+    },
+    "https://github.com/qi4L/QVD-2023-13065": {
+        "created_at": "2023-06-13 09:49:08",
+        "description": "Nacos JRaft Hessian 反序列化 RCE EXP",
+        "commit_date": "2023-06-13 09:56:04",
+        "commit_message": "修改说明文件",
+        "release_tag": "",
+        "release_date": "",
+        "release_message": ""
+    },
+    "https://github.com/qi4L/JNDIExploit": {
+        "created_at": "2022-07-04 02:52:14",
+        "description": "既可以是JNDIExploit，又可以是ysoserial。",
+        "commit_date": "2023-07-11 08:58:52",
+        "commit_message": "更新说明文件",
+        "release_tag": "v3.1",
+        "release_date": "2023-07-06 03:29:15",
+        "release_message": "# 更新两个场景下的利用\r\n+ 路由不可控的情况下的利用\r\n+ jndi必须要使用账号密码认证"
+    },
+    "https://github.com/blacknbunny/encdecshellcode": {
+        "created_at": "2018-10-23 04:12:43",
+        "description": "Shellcode Encrypter & Decrypter via XOR Cipher",
+        "commit_date": "2019-08-29 11:19:16",
+        "commit_message": "Update encdecshellcode.py",
+        "release_tag": "",
+        "release_date": "",
+        "release_message": ""
+    },
+    "https://github.com/GhostPack/SharpDPAPI": {
+        "created_at": "2018-08-22 17:39:31",
+        "description": "SharpDPAPI is a C# port of some Mimikatz DPAPI functionality.",
+        "commit_date": "2023-04-21 18:58:40",
+        "commit_message": "Merge pull request #25 from djhohnstein/master\n\nSameSite, Secure, HttpOnly, and EditThisCookie Format",
+        "release_tag": "",
+        "release_date": "",
+        "release_message": ""
+    },
+    "https://github.com/Mob2003/rakshasa": {
+        "created_at": "2023-03-22 03:27:46",
+        "description": "基于go编写的跨平台、稳定、隐秘的多级代理内网穿透工具",
+        "commit_date": "2023-04-23 06:50:02",
+        "commit_message": "Update README.md",
+        "release_tag": "v0.2.3",
+        "release_date": "2023-04-23 06:47:53",
+        "release_message": "- 优化一个连接失败可能会导致nil的bug\r\n- 修改一个nodeMap为sync.Map以减少代码里面lock的使用"
+    },
+    "https://github.com/zaivanza/all-in-one-v2": {
+        "created_at": "2023-04-29 09:03:49",
+        "description": "",
+        "commit_date": "2023-07-12 05:06:58",
+        "commit_message": "add zksync era to okx",
+        "release_tag": "",
+        "release_date": "",
+        "release_message": ""
+    },
+    "https://github.com/JDArmy/SharpXDecrypt": {
+        "created_at": "2022-02-23 03:12:42",
+        "description": "Xshell全版本密码恢复工具",
+        "commit_date": "2023-06-08 09:27:22",
+        "commit_message": "Merge pull request #4 from qiluoluo/Ki1ro\n\n解决Sessions下存在文件夹导致部分存在于文件夹的xsh文件无法识别的问题 by qiluoluo",
+        "release_tag": "v0.1.4",
+        "release_date": "2022-03-02 06:57:43",
+        "release_message": "处理UserDataPath获取失败后程序异常终止问题。"
+    },
+    "https://github.com/QAX-A-Team/BrowserGhost": {
+        "created_at": "2020-06-12 12:19:06",
+        "description": "这是一个抓取浏览器密码的工具，后续会添加更多功能",
+        "commit_date": "2020-06-29 08:16:52",
+        "commit_message": "修复System.DBNull问题，感谢zhangdebiao提供的修复建议",
+        "release_tag": "1",
+        "release_date": "2020-06-12 12:26:38",
+        "release_message": ""
+    },
+    "https://github.com/bxdoan/zksync-auto": {
+        "created_at": "2023-03-23 05:15:13",
+        "description": "some help for zksync incentive",
+        "commit_date": "2023-05-31 02:48:51",
+        "commit_message": "pump dependencies",
+        "release_tag": "",
+        "release_date": "",
+        "release_message": ""
+    },
+    "https://github.com/0x727/ObserverWard": {
+        "created_at": "2021-08-21 10:11:41",
+        "description": "Cross platform community web fingerprint identification tool",
+        "commit_date": "2023-07-10 15:17:56",
+        "commit_message": "Merge pull request #177 from 0x727/dependabot/cargo/serde_yaml-0.9.22\n\nBump serde_yaml from 0.9.21 to 0.9.22",
+        "release_tag": "v2023.6.20",
+        "release_date": "2023-06-20 07:33:19",
+        "release_message": "## [2023.6.20] - 2023.6.20\n\n### Fixes\n\n- `--nargs`可以添加nuclei扩展参数， 比如：`--nargs \"-etags intrusive\"`，排除有入侵危险的template。"
+    },
+    "https://github.com/SuperZero/CVE-2023-33246": {
+        "created_at": "2023-06-01 06:27:09",
+        "description": "Apache RocketMQ 远程代码执行漏洞(CVE-2023-33246) Exploit",
+        "commit_date": "2023-06-01 05:54:25",
+        "commit_message": "Add files via upload",
+        "release_tag": "",
+        "release_date": "",
+        "release_message": ""
+    },
+    "https://github.com/Axx8/ShellCode_Loader": {
+        "created_at": "2022-09-02 14:41:18",
+        "description": "ShellCode_Loader - Msf&CobaltStrike免杀ShellCode加载器、Shellcode_encryption - 免杀Shellcode加密生成工具，目前测试免杀360&火绒&电脑管家&Windows Defender（其他杀软未测试）。",
+        "commit_date": "2022-09-20 07:24:25",
+        "commit_message": "Update README.md",
+        "release_tag": "v0.0.1",
+        "release_date": "2022-09-20 05:42:00",
+        "release_message": ""
+    },
+    "https://github.com/LittleBear4/Find-SomeThing": {
+        "created_at": "2023-05-08 01:36:02",
+        "description": "红队批量脆弱点搜集工具",
+        "commit_date": "2023-06-06 14:41:27",
+        "commit_message": "Add files via upload",
+        "release_tag": "",
+        "release_date": "",
+        "release_message": ""
+    },
+    "https://github.com/wgpsec/tig": {
+        "created_at": "2021-03-10 05:50:42",
+        "description": "Threat Intelligence Gathering 威胁情报收集，旨在提高蓝队拿到攻击 IP 后对其进行威胁情报信息收集的效率。",
+        "commit_date": "2022-07-05 12:33:45",
+        "commit_message": "doc: update readme",
+        "release_tag": "v0.5.4",
+        "release_date": "2022-03-04 02:12:05",
+        "release_message": "* 修复了 fofa 接口失效的问题"
+    },
+    "https://github.com/saucer-man/qq_msg_decode": {
+        "created_at": "2023-06-01 03:39:32",
+        "description": "解码qq聊天数据库",
+        "commit_date": "2023-06-01 06:04:43",
+        "commit_message": "update",
+        "release_tag": "",
+        "release_date": "",
+        "release_message": ""
+    },
+    "https://github.com/Ciyfly/trojan_simple_demo": {
+        "created_at": "2022-10-03 05:40:38",
+        "description": "简单的用python写的远控demo 执行命令 只一个心跳完成所有操作",
+        "commit_date": "2022-10-07 12:51:43",
+        "commit_message": "update",
+        "release_tag": "",
+        "release_date": "",
+        "release_message": ""
+    },
+    "https://github.com/RowTeam/SharpDecryptPwd": {
+        "created_at": "2022-02-25 11:21:43",
+        "description": "SharpDecryptPwd source, To Decrypt Navicat,Xmanager,Filezilla,Foxmail,WinSCP,etc",
+        "commit_date": "2022-03-04 02:49:31",
+        "commit_message": "Merge pull request #1 from timwhitez/main\n\nfix bug",
+        "release_tag": "",
+        "release_date": "",
+        "release_message": ""
+    },
+    "https://github.com/babysor/MockingBird": {
+        "created_at": "2021-08-07 03:53:39",
+        "description": "🚀AI拟声: 5秒内克隆您的声音并生成任意语音内容 Clone a voice in 5 seconds to generate arbitrary speech in real-time",
+        "commit_date": "2023-06-15 09:39:13",
+        "commit_message": "Merge pull request #914 from cloudxu/readme_update\n\nRemoving ongoing work session in README",
+        "release_tag": "v0.0.1",
+        "release_date": "2021-11-07 13:53:53",
+        "release_message": ""
+    },
+    "https://github.com/4ra1n/jar-analyzer-gui": {
+        "created_at": "2022-11-27 11:36:13",
+        "description": "一个用于分析Jar包的GUI工具，可以用多种方式搜索你想要的信息，自动构建方法调用关系，支持分析Spring框架（A Java GUI Tool for Analyzing Jar）",
+        "commit_date": "2023-06-20 08:13:25",
+        "commit_message": "Update README.md",
+        "release_tag": "1.1",
+        "release_date": "2023-02-18 06:01:20",
+        "release_message": "## 1.1\r\n\r\n优化一些细节问题，提高用户体验\r\n\r\n更新内容：\r\n- [important] 选择文件时只显示JAR/WAR文件提高效率 #84\r\n- [bug] 应该支持隐藏文件/目录 #85\r\n- [feat] 显示每一个方法和类来自哪一个Jar文件 #86\r\n- [feat] 常见搜索允许自定义补充 #87\r\n- [improve] 限制JAR包大小防止加载过多过大的文件 #83\r\n- [improve] 表达式查询默认应该显示一些信息提示 #88\r\n- 简单优化 UI 界面\r\n- 完善 README 文档\r\n\r\n下载说明：\r\n- `jar-analyzer-*.jar` 使用 `java -jar` 启动（使用`Java 8`以上启动，支持 `Windows/Mac/Linux`）\r\n- `jar-analyzer-*-system-jre.exe` 使用系统`Java 8`以上启动（`Windows`）\r\n- `jar-analyzer-*-jre-exe.zip` 内置`Java 11 JRE`和 `exe` 版本（`Windows`）"
+    },
+    "https://github.com/ehang-io/nps": {
+        "created_at": "2018-11-04 13:22:51",
+        "description": "一款轻量级、高性能、功能强大的内网穿透代理服务器。支持tcp、udp、socks5、http等几乎所有流量转发，可用来访问内网网站、本地支付接口调试、ssh访问、远程桌面，内网dns解析、内网socks5代理等等……，并带有功能强大的web管理端。a lightweight, high-performance, powerful intranet penetration proxy server, with a powerful web management terminal.",
+        "commit_date": "2021-10-09 07:18:41",
+        "commit_message": "Merge pull request #866 from freeoa/master\n\nadd build to apple silicon(M1)",
+        "release_tag": "v0.26.10",
+        "release_date": "2021-04-08 06:32:17",
+        "release_message": "#\r\n### add:\r\n- \r\n### fix:\r\n- 修复了NPC配置文件内标题注释后出错的问题，感谢@hellodword\r\n- 更新了Service库，完善FreeBSD支持，Windows，Linux Systemd; sysV支持有一定提升\r\n- 更新了KCP库，修复了其依赖cpuid所引起的ARM设备指令集问题\r\n- \r\n### change:\r\n- Web面板如果未配置账号密码，会自动登录，感谢@caiych\r\n- Web面板样式美化，感谢@wuhanstudio\r\n- 文档的改进，感谢@clh021，@bigcoder84\r\n- Android客户端加入断线重连\r\n- SDK客户端修改为阻塞函数调用，当函数返回时意为客户端退出，将是否重连交由调用控制\r\n- Golang版本提升至1.15\r\n- 更新了一些其他库\r\n- \r\n\r\n\r\n\n\n\n"
+    },
+    "https://github.com/4ra1n/mysql-fake-server": {
+        "created_at": "2023-05-15 09:06:44",
+        "description": "MySQL Fake Server (纯Java实现，内置常见Java反序列化Payload，支持GUI版和命令行版，提供Dockerfile)",
+        "commit_date": "2023-06-14 10:42:16",
+        "commit_message": "read doc",
+        "release_tag": "0.0.2",
+        "release_date": "2023-06-11 13:36:48",
+        "release_message": "- 处理payload包含_字符的BUG\r\n- 允许参数Base64输入，防止特殊情况\r\n- GUI版停止后再次启动存在BUG\r\n- 命令行版本优化输出部分，添加HELP信息\r\n- 处理非主要功能的BUG\r\n- 自动检查新版本并提示更新\r\n\r\n<hr>\r\n\r\n- Fix the bug of handling payloads containing `_` characters.\r\n- Allow Base64 input for parameters to prevent special cases.\r\n- Fix the bug that occurs when restarting the GUI version.\r\n- Optimize the output in the command-line version and add HELP information.\r\n- Fix minor bugs related to non-core features.\r\n- Automatically check for new versions and prompt for updates."
+    },
+    "https://github.com/Anyyy111/killEscaper": {
+        "created_at": "2023-06-08 06:54:54",
+        "description": "Shellcode 免杀生成器 绕过火绒、360（Windows版本）",
+        "commit_date": "2023-06-15 01:17:47",
+        "commit_message": "2023.6.15",
+        "release_tag": "",
+        "release_date": "",
+        "release_message": ""
+    },
+    "https://github.com/blackcrw/wpreconx": {
+        "created_at": "2020-12-07 03:51:12",
+        "description": "WPRecon, is a tool for the recognition of vulnerabilities and blackbox information for wordpress.",
+        "commit_date": "2022-10-22 19:35:25",
+        "commit_message": "Update README.md",
+        "release_tag": "2.4.5",
+        "release_date": "2022-04-06 12:12:40",
+        "release_message": "<h1 align=\"center\">WPRecon (Wordpress Recon) <a href=\"https://github.com/blackcrw/wprecon\">v2.4.5</a></h1>\r\n\r\n```\r\nWPRecon, is a tool for the recognition of vulnerabilities and blackbox information for wordpress.\r\n```\r\n\r\n⚡️ / 🎨 There was a big/small change in the code structure of the plugins/themes enumerator, in order to get better performance and to be able to more easily adapt future new features.\r\n"
+    },
+    "https://github.com/nftscripts/zksync": {
+        "created_at": "2023-06-14 11:44:22",
+        "description": "",
+        "commit_date": "2023-07-10 11:48:57",
+        "commit_message": "Update main_bridge.py",
+        "release_tag": "",
+        "release_date": "",
+        "release_message": ""
+    },
+    "https://github.com/jorhelp/Ingram": {
+        "created_at": "2022-05-17 11:35:15",
+        "description": "网络摄像头漏洞扫描工具 | Webcam vulnerability scanning tool",
+        "commit_date": "2023-03-13 02:17:25",
+        "commit_message": "readme file merge conflict",
+        "release_tag": "",
+        "release_date": "",
+        "release_message": ""
+    },
+    "https://github.com/shmilylty/netspy": {
+        "created_at": "2022-01-01 14:20:27",
+        "description": "netspy是一款快速探测内网可达网段工具（深信服深蓝实验室天威战队强力驱动）",
+        "commit_date": "2022-05-12 06:38:37",
+        "commit_message": "typo",
+        "release_tag": "v0.0.5",
+        "release_date": "2022-02-11 03:11:20",
+        "release_message": "## Changelog\r\n* d2946ad 超时单位改为毫秒\r\n* b02082b 添加进度统计功能\r\n* 4d5fa5c 添加探测特殊内网功能\r\n* 569106f 添加急速探测模式功能"
+    },
+    "https://github.com/Ascotbe/Kernelhub": {
+        "created_at": "2020-08-09 05:48:10",
+        "description": ":palm_tree:Linux、macOS、Windows Kernel privilege escalation vulnerability collection, with compilation environment, demo GIF map, vulnerability details, executable file  (提权漏洞合集) ",
+        "commit_date": "2023-02-15 06:44:08",
+        "commit_message": "update windows All-Kill Way",
+        "release_tag": "v1.1",
+        "release_date": "2023-02-02 10:43:26",
+        "release_message": "Rewrite the online document and add 2022 Windows vulnerabilities🧡"
     }
 }
