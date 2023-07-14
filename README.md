@@ -1,8 +1,9 @@
-# 更新于 2023-07-13 08:48:59
+# 更新于 2023-07-14 08:48:22
 
 ## 近15天release更新记录
 | 更新时间 | 项目名称 | 版本 | 更新内容 |
 | :---- | :---- | :---- | :---- |
+|2023-07-13 15:23:26|[grype](https://github.com/anchore/grype)|v0.64.0|# Changelog  ##  (2023-07-13)    ### <br>Added Features  - Write to multiple ou<br>tput files (like syft) ] ] ]  ### Bug <br>Fixes  - False positive for alpine pac<br>kage ] - Failed to detect format of Cy<br>cloneDX XML SBOM with no components ] <br>- The logs showed 4 vulnerabilities, b<br>ut the final report only had 2. ]  ###<br> Additional Changes  - Port to new syf<br>t source API ] ]    |
 |2023-07-12 17:45:16|[syft](https://github.com/anchore/syft)|v0.85.0|# Changelog    ##  (2023-07-12)      <br>  ### Added Features    - Add a --base<br>-path command line flag to set the dir<br>ectory base for scans (this option was<br> previously exposed via API only) ] ] <br> - Add file source digest support ] ] <br> - Remove erroneous Java CPEs from gen<br>eration ] ]  - Fix CPE generation for <br>k8s python client ] ]  - Don't use the<br> actual redis or grpc CPEs for gems ] <br>]  - The text user interface is now pr<br>ovided by the bubbletea library ] ] ] <br>   ### Bug Fixes    - Install script r<br>eturns exit code 0 even if install fai<br>ls ] ] ]  - ] ] ]  - Deprecated licens<br>e: GFDL-1.2+ ] ] ]    ### Breaking Cha<br>nges    - Revisit the source.New* set <br>of functions ] ] ]    ### Additional C<br>hanges    - chore: update iterations t<br>o protect against race ] ]  - fix: bac<br>kground reader apart from global handl<br>er for testing ] ]        |
 |2023-07-12 14:10:53|[faker](https://github.com/joke2k/faker)|v19.1.0|See .|
 |2023-07-12 08:50:03|[Burp-Non-HTTP-Ext<br>ension](https://github.com/summitt/Burp-Non-HTTP-Extension)|v1.7.2|* Fixed Port Monitor|
@@ -29,29 +30,32 @@
 |2023-07-02 04:28:53|[PEASS-ng](https://github.com/carlospolop/PEASS-ng)|2023070<br>2-bc7ce3<br>ac||
 |2023-07-01 05:29:18|[NextScan](https://github.com/tongcheng-security-team/NextScan)|v1.2.0|##### v1.2.0发布    ## Changelog    -<br>  perf 🚀 : yaml模版格式更新  -  perf <br>🚀 : 漏洞详情页面优化  -  perf 🚀 : 任<br>务查询功能优化  -  fix🐛: 修复爬虫运行<br>时错误  - fix:🐛 任务运行异常问题若干  <br>  |
 |2023-06-30 16:49:10|[cf](https://github.com/teamssix/cf)|v0.5.0|### 新增功能    *  新增阿里云用户数据<br>后门功能  *  新增阿里云镜像共享功能  * <br> 新增阿里云接管控制台时自动创建 AK 功<br>能  *  新增阿里云 RDS 列出详细信息功能 <br> *  新增阿里云 RDS 添加账号功能  *  新<br>增阿里云 RDS 创建公网访问地址的功能  * <br> 新增阿里云 RDS 添加白名单的功能  *   <br>新增查询 AK 所属云厂商功能   *  新增支<br>持 brew 安装    ### 功能优化    *  优化<br>配置功能，现在能自动识别配置是否处于可<br>用状态  *  优化实例公网 IP 展示，不存在<br>时会展示为空  *  优化 OSS 下载功能，现<br>在默认会下载所有文件  *  优化更新处理逻<br>辑  *  优化华为云 OBS 列出功能    ### B<br>ug 修复    *  修复批量执行命令时，没有<br>安装云助手导致批量执行中断的 Bug  *  修<br>复 OSS 下载文件无法自动创建目录的 Bug  <br>  ## 新贡献者  * @shadowabi made their<br> first contribution in https://github.<br>com/teamssix/cf/pull/227    **Full Cha<br>ngelog**: https://github.com/teamssix/<br>cf/compare/v0.4.5...v0.5.0|
-|2023-06-30 15:53:31|[grype](https://github.com/anchore/grype)|v0.63.1|# Changelog  ##  (2023-06-30)    ### <br>Bug Fixes  - Add more log4j-adjacent p<br>ackage ignore rules ] ] - The summary <br>by severity is confusing ] ] ]    |
-|2023-06-28 09:28:17|[Exp-Tools](https://github.com/cseroad/Exp-Tools)|v1.2.0|- 新增用友畅捷通T+SQL注入  - 新增致远<br>帆软报表文件读取-bypass  - 新增泛微eoff<br>ice uploadify上传  - 新增php-framework<br>和java-framework  - 新增nacos任意用户添<br>加  - 新增金蝶云星空反序列化  - 优化部<br>分代码|
 ## 近15天commit提交记录
 | 提交时间 | 项目名称 | 更新内容 |
 | :---- | :---- | :---- |
-|2023-07-13 00:30:15|[NucleiTP](https://github.com/ExpLangcn/NucleiTP)|更新啦❤️|
-|2023-07-13 00:00:03|[free](https://github.com/freefq/free)|updated_at 07-13 08:00|
-|2023-07-12 22:49:45|[PocOrExp_in_Githu<br>b](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-07-13 06:49:45|
-|2023-07-12 17:59:31|[syft](https://github.com/anchore/syft)|chore: move wait before iteration to guarantee read<br> before tea (#1931)  * chore: move wait before itera<br>tion to guarantee read before tea    ---------    Si<br>gned-off-by: Christopher Phillips |
-|2023-07-12 14:30:28|[afrog](https://github.com/zan8in/afrog)|update|
+|2023-07-14 00:45:20|[NucleiTP](https://github.com/ExpLangcn/NucleiTP)|更新啦❤️|
+|2023-07-14 00:00:03|[free](https://github.com/freefq/free)|updated_at 07-14 08:00|
+|2023-07-13 21:55:01|[PocOrExp_in_Githu<br>b](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-07-14 05:55:01|
+|2023-07-13 17:26:12|[awesome-chatgpt-z<br>h](https://github.com/yzfly/awesome-chatgpt-zh)|add gpt-prompt-engineer|
+|2023-07-13 17:21:52|[syft](https://github.com/anchore/syft)|remove jotframe UI (#1932)  Signed-off-by: Alex Goo<br>dman |
+|2023-07-13 17:13:48|[grype](https://github.com/anchore/grype)|Port UI to bubbletea (#1385)  * initial port to bub<br>bletea    Signed-off-by: Alex Goodman     * remove j<br>otframe UI    Signed-off-by: Alex Goodman     * add <br>bubbletea component tests    Signed-off-by: Alex Goo<br>dman     * update main.go refs to cmd package    Sig<br>ned-off-by: Alex Goodman     * move goreleaser build<br> dir to cmd    Signed-off-by: Alex Goodman     * upg<br>rade yardstick for grype source installs and fix pos<br>t-ui tests    Signed-off-by: Alex Goodman     * ensu<br>re stable severity map in UI component test    Signe<br>d-off-by: Alex Goodman     * add windows support for<br> tui    Signed-off-by: Alex Goodman     ---------   <br> Signed-off-by: Alex Goodman |
+|2023-07-13 14:27:08|[afrog](https://github.com/zan8in/afrog)|update|
+|2023-07-13 14:15:40|[ChatGPT-Shortcut](https://github.com/rockbenben/ChatGPT-Shortcut)|fix: Ensure the prompt language toggle button appea<br>rs on non-English pages|
+|2023-07-13 12:47:00|[v2rayfree](https://github.com/aiboboxx/v2rayfree)|update|
+|2023-07-13 11:52:16|[dbeaver](https://github.com/dbeaver/dbeaver)|Materialize driver (#20553)  * Initial Materialize <br>driver setup    * Update Materialize logos    * Add <br>pt BR Materialize description    * Remove unused imp<br>orts|
+|2023-07-13 11:24:39|[zksync](https://github.com/nftscripts/zksync)|Update orbiter_bridge.py|
+|2023-07-13 11:16:11|[trivy](https://github.com/aquasecurity/trivy)|fix(sbom): cyclonedx recommendations should include<br> fixed versions for each package (#4794)  * add all <br>fixed versions to recommendations  * fix tests|
+|2023-07-13 09:43:54|[safeline](https://github.com/chaitin/safeline)|Merge pull request #153 from chaitin/add-github-iss<br>ue-template  add some comments to github issue templ<br>ate|
+|2023-07-13 07:35:28|[0day](https://github.com/helloexp/0day)|add linux privilege escalation  CVE-2023-35829|
+|2023-07-13 02:18:06|[Vulnerability-Wik<br>i](https://github.com/Threekiii/Vulnerability-Wiki)|更新README.md|
 |2023-07-12 14:23:51|[nemo_go](https://github.com/hanc00l/nemo_go)|Fix: domain列表和详情中的icon显示|
 |2023-07-12 14:10:10|[faker](https://github.com/joke2k/faker)|Bump version: 19.0.0 → 19.1.0|
 |2023-07-12 12:57:22|[iDefender](https://github.com/wecooperate/iDefender)|update|
-|2023-07-12 12:46:49|[v2rayfree](https://github.com/aiboboxx/v2rayfree)|update|
-|2023-07-12 11:09:08|[safeline](https://github.com/chaitin/safeline)|fix find compose path|
-|2023-07-12 10:36:48|[dbeaver](https://github.com/dbeaver/dbeaver)|#20336 Proper find/replace in the value panel (#205<br>50)|
-|2023-07-12 10:35:43|[ChatGPT-Shortcut](https://github.com/rockbenben/ChatGPT-Shortcut)|docs: Add documentation for community-prompts page|
 |2023-07-12 08:47:31|[Burp-Non-HTTP-Ext<br>ension](https://github.com/summitt/Burp-Non-HTTP-Extension)|Fixed Port Monitor|
 |2023-07-12 05:06:58|[all-in-one-v2](https://github.com/zaivanza/all-in-one-v2)|add zksync era to okx|
 |2023-07-12 02:40:17|[zpscan](https://github.com/niudaii/zpscan)|fix: jsjump|
 |2023-07-11 19:02:23|[clair](https://github.com/quay/clair)|chore: bump Claircore to v1.5.9  Bump Claircore to <br>the latest tag.  Signed-off-by: crozzy |
 |2023-07-11 18:09:57|[neuvector](https://github.com/neuvector/neuvector)|Merge pull request #910 from kyledong-suse/main  NV<br>SHAS-5703 & NVSHAS-5365: API document change for Vio<br>lation|
-|2023-07-11 17:37:17|[grype](https://github.com/anchore/grype)|feat(outputs): allow to set multiple outputs (#648)<br> (#1346)  * feat(outputs): allow to set multiple out<br>puts (#648)    Signed-off-by: Olivier Boudet   Signe<br>d-off-by: Olivier Boudet   Signed-off-by: Alex Goodm<br>an     * feat(outputs): allow to set multiple output<br>s (#648)    review    Signed-off-by: Olivier Boudet <br>  Signed-off-by: Alex Goodman     * use syft format <br>writter pattern and de-emphasize presenter package  <br>  Signed-off-by: Alex Goodman     ---------    Signe<br>d-off-by: Olivier Boudet   Signed-off-by: Olivier Bo<br>udet   Signed-off-by: Alex Goodman   Co-authored-by:<br> Alex Goodman |
 |2023-07-11 14:29:33|[veinmind-tools](https://github.com/chaitin/veinmind-tools)|refactor(plugins): refactor backdoor plugin (#252)|
 |2023-07-11 13:24:31|[wpscan](https://github.com/wpscanteam/wpscan)|Updates DFs|
 |2023-07-11 10:35:21|[feroxbuster](https://github.com/epi052/feroxbuster)|Merge pull request #938 from epi052/all-contributor<br>s/add-ktecv2000  docs: add ktecv2000 as a contributo<br>r for bug|
@@ -59,14 +63,12 @@
 |2023-07-11 08:45:06|[kube-bench](https://github.com/aquasecurity/kube-bench)|Fix node.yaml - 4.1.7 and 4.1.8 audit by adding uni<br>q (#1472)|
 |2023-07-11 06:31:30|[flightsim](https://github.com/alphasoc/flightsim)|Adjust IRC and Telegram Bot API module descriptions|
 |2023-07-11 02:57:15|[Awesome-POC](https://github.com/Threekiii/Awesome-POC)|更新漏洞|
-|2023-07-11 02:56:56|[Vulnerability-Wik<br>i](https://github.com/Threekiii/Vulnerability-Wiki)|更新漏洞|
 |2023-07-11 02:52:01|[Vulhub-Reproduce](https://github.com/Threekiii/Vulhub-Reproduce)|更新漏洞|
 |2023-07-11 01:54:11|[RouteVulScan](https://github.com/F6JO/RouteVulScan)|update|
 |2023-07-11 01:51:08|[SmsForwarder](https://github.com/pppscn/SmsForwarder)|新增：发送通道的测试内容携带通道名称 #317|
 |2023-07-10 21:03:54|[ghauri](https://github.com/r0oth3x49/ghauri)|updated code quality, fixed issue with payloads..|
 |2023-07-10 15:17:56|[ObserverWard](https://github.com/0x727/ObserverWard)|Merge pull request #177 from 0x727/dependabot/cargo<br>/serde_yaml-0.9.22  Bump serde_yaml from 0.9.21 to 0<br>.9.22|
 |2023-07-10 14:47:27|[subfinder](https://github.com/projectdiscovery/subfinder)|Remove additional -U of apk in Dockerfile (#886)|
-|2023-07-10 11:48:57|[zksync](https://github.com/nftscripts/zksync)|Update main_bridge.py|
 |2023-07-10 09:53:13|[HackBrowserData](https://github.com/moonD4rk/HackBrowserData)|fix: nil browsing data in case error and walkdir in<br>stead of walk (#229)  * fix: nil browsing data in ca<br>se error    Signed-off-by: Andrii Ursulenko     * fi<br>x: ignore walk error, use walkdir instead of walk   <br> ---------    Signed-off-by: Andrii Ursulenko   Co-a<br>uthored-by: Andrii Ursulenko |
 |2023-07-10 09:49:53|[404StarLink](https://github.com/knownsec/404StarLink)|weekly update at 2023-07-10|
 |2023-07-10 08:51:35|[murphysec](https://github.com/murphysecurity/murphysec)|fix(npm): lockfile|
@@ -77,11 +79,9 @@
 |2023-07-09 05:23:19|[ENScan_GO](https://github.com/wgpsec/ENScan_GO)|修改文档补充说明 fix #65|
 |2023-07-08 18:09:34|[vulhub](https://github.com/vulhub/vulhub)|Merge pull request #449 from al4n233/patch-1  fixed<br> a typo|
 |2023-07-07 11:35:10|[zksync2-python](https://github.com/zksync-sdk/zksync2-python)|fix: update package version|
-|2023-07-07 08:13:56|[trivy](https://github.com/aquasecurity/trivy)|chore(deps): Update defsec to v0.90.3 (#4793)  * ch<br>ore(deps): Update defsec to v0.90.2  Signed-off-by: <br>Simar   * go mod tidy  ---------  Signed-off-by: Sim<br>ar |
 |2023-07-07 07:14:15|[FrameVul](https://github.com/Awrrays/FrameVul)|Update README.md|
 |2023-07-07 07:09:42|[captcha-killer-mo<br>dified](https://github.com/f0ng/captcha-killer-modified)|Update FAQ.md|
 |2023-07-07 03:44:50|[Pentest-Windows](https://github.com/arch3rPro/Pentest-Windows)|Update README.md|
-|2023-07-07 02:52:30|[awesome-chatgpt-z<br>h](https://github.com/yzfly/awesome-chatgpt-zh)|add ChatLaw|
 |2023-07-07 02:24:11|[Awesome-ChatGPT](https://github.com/dalinvip/Awesome-ChatGPT)|Update README.md|
 |2023-07-06 16:05:15|[WeblogicTool](https://github.com/KimJun1010/WeblogicTool)|Update README.md|
 |2023-07-06 15:19:29|[autoDecoder](https://github.com/f0ng/autoDecoder)|Update README.md|
@@ -105,8 +105,7 @@
 |2023-07-01 15:12:07|[chatgpt](https://github.com/LangLangShanDeNanKe/chatgpt)|Update README.md|
 |2023-06-30 16:04:02|[All-Defense-Tool](https://github.com/guchangan1/All-Defense-Tool)|更新v2.4|
 |2023-06-29 13:26:32|[fscan](https://github.com/shadow1ng/fscan)|Merge pull request #280 from dksslq/main  输出格式<br>调整|
-|2023-06-29 02:24:05|[v2rayA](https://github.com/v2rayA/v2rayA)|Fix Windows installer build|
-|2023-06-28 09:23:27|[Exp-Tools](https://github.com/cseroad/Exp-Tools)|Update README.md|## 所有项目
+|2023-06-29 02:24:05|[v2rayA](https://github.com/v2rayA/v2rayA)|Fix Windows installer build|## 所有项目
 # 渗透测试
 ## 信息收集
 ### 资产测绘采集
@@ -323,7 +322,7 @@
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
 | [veinmind-tools](https://github.com/chaitin/veinmind-tools) | v2.1.4 | veinmind-tools 是由长亭科技自研，基于 veinmind-sdk 打造的容器<br>安全工具集 |
-| [grype](https://github.com/anchore/grype) | v0.63.1 | A vulnerability scanner for container images and filesystems |
+| [grype](https://github.com/anchore/grype) | v0.64.0 | A vulnerability scanner for container images and filesystems |
 #### 容器漏洞分析工具
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
@@ -335,7 +334,7 @@
 #### 容器镜像扫描
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
-| [grype](https://github.com/anchore/grype) | v0.63.1 | A vulnerability scanner for container images and filesystems |
+| [grype](https://github.com/anchore/grype) | v0.64.0 | A vulnerability scanner for container images and filesystems |
 | [syft](https://github.com/anchore/syft) | v0.85.0 | CLI tool and library for generating a Software Bill of Materia<br>ls from container images and filesystems |
 #### K8S漏洞扫描
 | 项目名称 | 版本 | 项目描述 |
@@ -1016,7 +1015,7 @@
 | [Awesome-ChatGPT](https://github.com/dalinvip/Awesome-ChatGPT) |  | ChatGPT资料汇总学习，持续更新...... |
 | [awesome-chatgpt-z<br>h](https://github.com/yzfly/awesome-chatgpt-zh) |  | ChatGPT 中文指南🔥，ChatGPT 中文调教指南，指令指南，应用开发指<br>南，精选资源清单，更好的使用 chatGPT 让你的生产力 up up up! 🚀 |
 | [chatgpt-mac](https://github.com/vincelwt/chatgpt-mac) | v0.0.5 | ChatGPT for Mac, living in your menubar. |
-| [ChatGPT-Shortcut](https://github.com/rockbenben/ChatGPT-Shortcut) |  | 🚀💪Maximize your efficiency and productivity, support for Eng<br>lish, 中文, 日本語, and 한국어. 让生产力加倍的 ChatGPT 快捷指令<br>，按照领域和功能分区，可对提示词进行标签筛选、关键词搜索和一键复<br>制。 |
+| [ChatGPT-Shortcut](https://github.com/rockbenben/ChatGPT-Shortcut) |  | 🚀💪Maximize your efficiency and productivity, support for Eng<br>lish,中文,Español,العربية. 让生产力加倍的 ChatGPT 快捷指令，按<br>照领域和功能分区，可对提示词进行标签筛选、关键词搜索和一键复制。 |
 ## APP合规
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |

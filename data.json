@@ -200,8 +200,8 @@
     "https://github.com/ycdxsb/PocOrExp_in_Github": {
         "created_at": "2021-04-13 05:46:16",
         "description": "聚合Github上已有的Poc或者Exp，CVE信息来自CVE官网。Auto Collect Poc Or Exp from Github by CVE ID.",
-        "commit_date": "2023-07-12 22:49:45",
-        "commit_message": "update 2023-07-13 06:49:45",
+        "commit_date": "2023-07-13 21:55:01",
+        "commit_message": "update 2023-07-14 05:55:01",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -461,7 +461,7 @@
     "https://github.com/ExpLangcn/NucleiTP": {
         "created_at": "2022-11-08 13:16:56",
         "description": "自动整合全网Nuclei的漏洞POC，实时同步更新最新POC！",
-        "commit_date": "2023-07-13 00:30:15",
+        "commit_date": "2023-07-14 00:45:20",
         "commit_message": "更新啦❤️",
         "release_tag": "",
         "release_date": "",
@@ -648,8 +648,8 @@
     "https://github.com/helloexp/0day": {
         "created_at": "2022-04-07 04:28:29",
         "description": "各种CMS、各种平台、各种系统、各种软件漏洞的EXP、POC ,该项目将持续更新",
-        "commit_date": "2023-06-15 06:28:45",
-        "commit_message": "add usage for CVE-2022-0847",
+        "commit_date": "2023-07-13 07:35:28",
+        "commit_message": "add linux privilege escalation  CVE-2023-35829",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -1098,8 +1098,8 @@
     "https://github.com/Threekiii/Vulnerability-Wiki": {
         "created_at": "2022-04-29 05:36:33",
         "description": "一个基于 docsify 的综合漏洞知识库，目前漏洞数量 900+",
-        "commit_date": "2023-07-11 02:56:56",
-        "commit_message": "更新漏洞",
+        "commit_date": "2023-07-13 02:18:06",
+        "commit_message": "更新README.md",
         "release_tag": "v1.0",
         "release_date": "2022-07-15 01:58:00",
         "release_message": "Vulnerability-Wiki项目中docs-0sec的打包文件，下载后于主项目docs-0sec文件夹下解压即可。\r\n\r\n\r\n"
@@ -2951,8 +2951,8 @@
     "https://github.com/dbeaver/dbeaver": {
         "created_at": "2015-10-21 08:26:28",
         "description": "Free universal database tool and SQL client",
-        "commit_date": "2023-07-12 10:36:48",
-        "commit_message": "#20336 Proper find/replace in the value panel (#20550)",
+        "commit_date": "2023-07-13 11:52:16",
+        "commit_message": "Materialize driver (#20553)\n\n* Initial Materialize driver setup\r\n\r\n* Update Materialize logos\r\n\r\n* Add pt BR Materialize description\r\n\r\n* Remove unused imports",
         "release_tag": "23.1.2",
         "release_date": "2023-07-09 16:23:13",
         "release_message": "\n                - SQL editor:\n                    - Mouse hovering over editor annotations was fixed\n                    - Trailing DDL query delimiter processing was fixed\n                - Data editor:\n                    - References panel refresh was fixed\n                    - XML presentation was fixed (NULL value handler)\n                - General UI:\n                    - Settings reset UI and behavior were redesigned\n                    - Editor tab tooltip now contains information abut resource's project\n                    - CLI parameter for app version print was added\n                    - Objects with mixed case names caching was fixed\n                    - Issue with program launch with wrong Java version was fixed\n                    - Preferences export/import UI was improved\n                    - Maven snapshot repository was added to default configuration\n                - Connections: kerberos support in legacy JDBC drivers (Hive) was fixed\n                - Data transfer: table information for tasks with broken connection was fixed\n                - Databases:\n                    - BigQuery: driver version was upgraded to 1.3.3 (thanks to @fredlegaucher)\n                    - DuckDB: LIST data type support was added\n                    - Firebird: filters and sorting in grouping panel were fixed\n                    - IBM i: driver download was fixed\n                    - Oracle:\n                        - Partitions cache refresh was fixed\n                        - Stored procedures edit/save was fixed\n                    - PostgreSQL: enum columns alter was fixed\n                    - Snowflake:\n                        - Client application name set was fixed\n                        - Quoted identifiers auto-completion was fixed\n                - Misc: internal app controller server now uses HTTP instead of RMI\n            "
@@ -3050,7 +3050,7 @@
     "https://github.com/zan8in/afrog": {
         "created_at": "2022-02-24 06:00:32",
         "description": "A Security Tool for Bug Bounty, Pentest and Red Teaming.",
-        "commit_date": "2023-07-12 14:30:28",
+        "commit_date": "2023-07-13 14:27:08",
         "commit_message": "update",
         "release_tag": "v2.7.2",
         "release_date": "2023-07-12 07:57:15",
@@ -3908,8 +3908,8 @@
     "https://github.com/anchore/syft": {
         "created_at": "2020-05-07 18:19:29",
         "description": "CLI tool and library for generating a Software Bill of Materials from container images and filesystems",
-        "commit_date": "2023-07-12 17:59:31",
-        "commit_message": "chore: move wait before iteration to guarantee read before tea (#1931)\n\n* chore: move wait before iteration to guarantee read before tea\r\n\r\n---------\r\n\r\nSigned-off-by: Christopher Phillips <christopher.phillips@anchore.com>",
+        "commit_date": "2023-07-13 17:21:52",
+        "commit_message": "remove jotframe UI (#1932)\n\nSigned-off-by: Alex Goodman <wagoodman@users.noreply.github.com>",
         "release_tag": "v0.85.0",
         "release_date": "2023-07-12 17:45:16",
         "release_message": "# Changelog\r\n\r\n## [v0.85.0](https://github.com/anchore/syft/tree/v0.85.0) (2023-07-12)\r\n\r\n[Full Changelog](https://github.com/anchore/syft/compare/v0.84.1...v0.85.0)\r\n\r\n### Added Features\r\n\r\n- Add a --base-path command line flag to set the directory base for scans (this option was previously exposed via API only) [[PR #1867](https://github.com/anchore/syft/pull/1867)] [[deitch](https://github.com/deitch)]\r\n- Add file source digest support [[PR #1914](https://github.com/anchore/syft/pull/1914)] [[wagoodman](https://github.com/wagoodman)]\r\n- Remove erroneous Java CPEs from generation [[PR #1918](https://github.com/anchore/syft/pull/1918)] [[luhring](https://github.com/luhring)]\r\n- Fix CPE generation for k8s python client [[PR #1921](https://github.com/anchore/syft/pull/1921)] [[luhring](https://github.com/luhring)]\r\n- Don't use the actual redis or grpc CPEs for gems [[PR #1926](https://github.com/anchore/syft/pull/1926)] [[luhring](https://github.com/luhring)]\r\n- The text user interface is now provided by the bubbletea library [[Issue #1441](https://github.com/anchore/syft/issues/1441)] [[PR #1888](https://github.com/anchore/syft/pull/1888)] [[wagoodman](https://github.com/wagoodman)]\r\n\r\n### Bug Fixes\r\n\r\n- Install script returns exit code 0 even if install fails [[Issue #1566](https://github.com/anchore/syft/issues/1566)] [[PR #1915](https://github.com/anchore/syft/pull/1915)] [[lorsatti](https://github.com/lorsatti)]\r\n- [Windows] Not able to scan volume mounted to folder [[Issue #1828](https://github.com/anchore/syft/issues/1828)] [[PR #1884](https://github.com/anchore/syft/pull/1884)] [[dd-cws](https://github.com/dd-cws)]\r\n- Deprecated license: GFDL-1.2+ [[Issue #1899](https://github.com/anchore/syft/issues/1899)] [[PR #1907](https://github.com/anchore/syft/pull/1907)] [[spiffcs](https://github.com/spiffcs)]\r\n\r\n### Breaking Changes\r\n\r\n- Revisit the `source.New*` set of functions [[Issue #1866](https://github.com/anchore/syft/issues/1866)] [[PR #1846](https://github.com/anchore/syft/pull/1846)] [[wagoodman](https://github.com/wagoodman)]\r\n\r\n### Additional Changes\r\n\r\n- chore: update iterations to protect against race [[PR #1927](https://github.com/anchore/syft/pull/1927)] [[spiffcs](https://github.com/spiffcs)]\r\n- fix: background reader apart from global handler for testing [[PR #1929](https://github.com/anchore/syft/pull/1929)] [[spiffcs](https://github.com/spiffcs)]\r\n\r\n\r\n\r\n"
@@ -3917,8 +3917,8 @@
     "https://github.com/chaitin/safeline": {
         "created_at": "2023-04-12 11:30:14",
         "description": "一款足够简单、足够好用、足够强的免费 WAF。基于业界领先的语义引擎检测技术，作为反向代理接入，保护你的网站不受黑客攻击。",
-        "commit_date": "2023-07-12 11:09:08",
-        "commit_message": "fix find compose path",
+        "commit_date": "2023-07-13 09:43:54",
+        "commit_message": "Merge pull request #153 from chaitin/add-github-issue-template\n\nadd some comments to github issue template",
         "release_tag": "v2.1.2",
         "release_date": "2023-07-07 05:40:12",
         "release_message": "- 修复了日志详情中防护策略模块没有翻译的问题"
@@ -3971,8 +3971,8 @@
     "https://github.com/aquasecurity/trivy": {
         "created_at": "2019-04-11 01:01:07",
         "description": "Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more",
-        "commit_date": "2023-07-07 08:13:56",
-        "commit_message": "chore(deps): Update defsec to v0.90.3 (#4793)\n\n* chore(deps): Update defsec to v0.90.2\n\nSigned-off-by: Simar <simar@linux.com>\n\n* go mod tidy\n\n---------\n\nSigned-off-by: Simar <simar@linux.com>",
+        "commit_date": "2023-07-13 11:16:11",
+        "commit_message": "fix(sbom): cyclonedx recommendations should include fixed versions for each package (#4794)\n\n* add all fixed versions to recommendations\n\n* fix tests",
         "release_tag": "v0.43.1",
         "release_date": "2023-07-07 09:40:41",
         "release_message": "## Changelog\n* 5d76abadc chore(deps): Update defsec to v0.90.3 (#4793)\n* fed446c51 chore(deps): bump google.golang.org/protobuf from 1.30.0 to 1.31.0 (#4752)\n* df62927e5 chore(deps): bump alpine from 3.18.0 to 3.18.2 (#4748)\n* 1b9b9a84f chore(deps): bump github.com/alicebob/miniredis/v2 from 2.30.3 to 2.30.4 (#4758)\n* 3c16ca821 docs(image): fix the comment on the soft/hard link (#4740)\n* e5bee5ccc check Type when filling pkgs in vulns (#4776)\n* 4b9f310b9 feat: add support of linux/ppc64le and linux/s390x architectures for Install.sh script (#4770)\n* 8e7fb7cc8 chore(deps): bump modernc.org/sqlite from 1.20.3 to 1.23.1 (#4756)\n* a9badeaba fix(rocky): add architectures support for advisories (#4691)\n* f8ebccc68 chore(deps): bump github.com/opencontainers/image-spec (#4751)\n* 1c81948e0 chore(deps): bump github.com/package-url/packageurl-go (#4754)\n* 497cc10d8 chore(deps): bump golang.org/x/sync from 0.2.0 to 0.3.0 (#4750)\n* 065f0afa5 chore(deps): bump github.com/tetratelabs/wazero from 1.2.0 to 1.2.1 (#4755)\n* e2603056d chore(deps): bump github.com/testcontainers/testcontainers-go (#4759)\n* 0621402bf fix: documentation about reseting trivy image (#4733)\n* 798fdbc01 fix(suse): Add openSUSE Leap 15.5 eol date as well (#4744)\n* 34a89293d fix: update Amazon Linux 1 EOL (#4761)\n\n"
@@ -3980,11 +3980,11 @@
     "https://github.com/anchore/grype": {
         "created_at": "2020-05-26 13:44:38",
         "description": "A vulnerability scanner for container images and filesystems",
-        "commit_date": "2023-07-11 17:37:17",
-        "commit_message": "feat(outputs): allow to set multiple outputs (#648) (#1346)\n\n* feat(outputs): allow to set multiple outputs (#648)\r\n\r\nSigned-off-by: Olivier Boudet <o.boudet@gmail.com>\r\nSigned-off-by: Olivier Boudet <olivier.boudet@cooperl.com>\r\nSigned-off-by: Alex Goodman <wagoodman@users.noreply.github.com>\r\n\r\n* feat(outputs): allow to set multiple outputs (#648)\r\n\r\nreview\r\n\r\nSigned-off-by: Olivier Boudet <olivier.boudet@cooperl.com>\r\nSigned-off-by: Alex Goodman <wagoodman@users.noreply.github.com>\r\n\r\n* use syft format writter pattern and de-emphasize presenter package\r\n\r\nSigned-off-by: Alex Goodman <wagoodman@users.noreply.github.com>\r\n\r\n---------\r\n\r\nSigned-off-by: Olivier Boudet <o.boudet@gmail.com>\r\nSigned-off-by: Olivier Boudet <olivier.boudet@cooperl.com>\r\nSigned-off-by: Alex Goodman <wagoodman@users.noreply.github.com>\r\nCo-authored-by: Alex Goodman <wagoodman@users.noreply.github.com>",
-        "release_tag": "v0.63.1",
-        "release_date": "2023-06-30 15:53:31",
-        "release_message": "# Changelog\n\n## [v0.63.1](https://github.com/anchore/grype/tree/v0.63.1) (2023-06-30)\n\n[Full Changelog](https://github.com/anchore/grype/compare/v0.63.0...v0.63.1)\n\n### Bug Fixes\n\n- Add more log4j-adjacent package ignore rules [[PR #1358](https://github.com/anchore/grype/pull/1358)] [[luhring](https://github.com/luhring)]\n- The summary by severity is confusing [[Issue #1312](https://github.com/anchore/grype/issues/1312)] [[PR #1359](https://github.com/anchore/grype/pull/1359)] [[kzantow](https://github.com/kzantow)]\n\n\n\n"
+        "commit_date": "2023-07-13 17:13:48",
+        "commit_message": "Port UI to bubbletea (#1385)\n\n* initial port to bubbletea\r\n\r\nSigned-off-by: Alex Goodman <wagoodman@users.noreply.github.com>\r\n\r\n* remove jotframe UI\r\n\r\nSigned-off-by: Alex Goodman <wagoodman@users.noreply.github.com>\r\n\r\n* add bubbletea component tests\r\n\r\nSigned-off-by: Alex Goodman <wagoodman@users.noreply.github.com>\r\n\r\n* update main.go refs to cmd package\r\n\r\nSigned-off-by: Alex Goodman <wagoodman@users.noreply.github.com>\r\n\r\n* move goreleaser build dir to cmd\r\n\r\nSigned-off-by: Alex Goodman <wagoodman@users.noreply.github.com>\r\n\r\n* upgrade yardstick for grype source installs and fix post-ui tests\r\n\r\nSigned-off-by: Alex Goodman <wagoodman@users.noreply.github.com>\r\n\r\n* ensure stable severity map in UI component test\r\n\r\nSigned-off-by: Alex Goodman <wagoodman@users.noreply.github.com>\r\n\r\n* add windows support for tui\r\n\r\nSigned-off-by: Alex Goodman <wagoodman@users.noreply.github.com>\r\n\r\n---------\r\n\r\nSigned-off-by: Alex Goodman <wagoodman@users.noreply.github.com>",
+        "release_tag": "v0.64.0",
+        "release_date": "2023-07-13 15:23:26",
+        "release_message": "# Changelog\n\n## [v0.64.0](https://github.com/anchore/grype/tree/v0.64.0) (2023-07-13)\n\n[Full Changelog](https://github.com/anchore/grype/compare/v0.63.1...v0.64.0)\n\n### Added Features\n\n- Write to multiple output files (like syft) [[Issue #648](https://github.com/anchore/grype/issues/648)] [[PR #1346](https://github.com/anchore/grype/pull/1346)] [[olivierboudet](https://github.com/olivierboudet)]\n\n### Bug Fixes\n\n- False positive for alpine package [[Issue #601](https://github.com/anchore/grype/issues/601)]\n- Failed to detect format of CycloneDX XML SBOM with no components [[Issue #1005](https://github.com/anchore/grype/issues/1005)]\n- The logs showed 4 vulnerabilities, but the final report only had 2. [[Issue #1360](https://github.com/anchore/grype/issues/1360)]\n\n### Additional Changes\n\n- Port to new syft source API [[PR #1376](https://github.com/anchore/grype/pull/1376)] [[wagoodman](https://github.com/wagoodman)]\n\n\n\n"
     },
     "https://github.com/Metarget/metarget": {
         "created_at": "2021-04-09 04:20:47",
@@ -4277,7 +4277,7 @@
     "https://github.com/aiboboxx/v2rayfree": {
         "created_at": "2021-10-13 11:34:53",
         "description": "v2ray公益免费节点、最新2ray免费v节点订阅地址、v2ray免费节点每日更新、免费ss/v2ray/trojan节点、freefq ",
-        "commit_date": "2023-07-12 12:46:49",
+        "commit_date": "2023-07-13 12:47:00",
         "commit_message": "update",
         "release_tag": "",
         "release_date": "",
@@ -4322,8 +4322,8 @@
     "https://github.com/freefq/free": {
         "created_at": "2020-06-07 02:48:33",
         "description": "翻墙、免费翻墙、免费科学上网、免费节点、免费梯子、免费ss/v2ray/trojan节点、蓝灯、谷歌商店、翻墙梯子",
-        "commit_date": "2023-07-13 00:00:03",
-        "commit_message": "updated_at 07-13 08:00",
+        "commit_date": "2023-07-14 00:00:03",
+        "commit_message": "updated_at 07-14 08:00",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -4592,17 +4592,17 @@
     "https://github.com/yzfly/awesome-chatgpt-zh": {
         "created_at": "2023-03-21 02:16:34",
         "description": "ChatGPT 中文指南🔥，ChatGPT 中文调教指南，指令指南，应用开发指南，精选资源清单，更好的使用 chatGPT 让你的生产力 up up up! 🚀",
-        "commit_date": "2023-07-07 02:52:30",
-        "commit_message": "add ChatLaw",
+        "commit_date": "2023-07-13 17:26:12",
+        "commit_message": "add gpt-prompt-engineer",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
     },
     "https://github.com/rockbenben/ChatGPT-Shortcut": {
         "created_at": "2023-02-24 12:53:49",
-        "description": "🚀💪Maximize your efficiency and productivity, support for English, 中文, 日本語, and 한국어. 让生产力加倍的 ChatGPT 快捷指令，按照领域和功能分区，可对提示词进行标签筛选、关键词搜索和一键复制。",
-        "commit_date": "2023-07-12 10:35:43",
-        "commit_message": "docs: Add documentation for community-prompts page",
+        "description": "🚀💪Maximize your efficiency and productivity, support for English,中文,Español,العربية. 让生产力加倍的 ChatGPT 快捷指令，按照领域和功能分区，可对提示词进行标签筛选、关键词搜索和一键复制。",
+        "commit_date": "2023-07-13 14:15:40",
+        "commit_message": "fix: Ensure the prompt language toggle button appears on non-English pages",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -4943,8 +4943,8 @@
     "https://github.com/nftscripts/zksync": {
         "created_at": "2023-06-14 11:44:22",
         "description": "",
-        "commit_date": "2023-07-10 11:48:57",
-        "commit_message": "Update main_bridge.py",
+        "commit_date": "2023-07-13 11:24:39",
+        "commit_message": "Update orbiter_bridge.py",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
