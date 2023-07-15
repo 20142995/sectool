@@ -1,9 +1,12 @@
-# 更新于 2023-07-14 08:48:22
+# 更新于 2023-07-15 08:47:54
 
 ## 近15天release更新记录
 | 更新时间 | 项目名称 | 版本 | 更新内容 |
 | :---- | :---- | :---- | :---- |
-|2023-07-13 15:23:26|[grype](https://github.com/anchore/grype)|v0.64.0|# Changelog  ##  (2023-07-13)    ### <br>Added Features  - Write to multiple ou<br>tput files (like syft) ] ] ]  ### Bug <br>Fixes  - False positive for alpine pac<br>kage ] - Failed to detect format of Cy<br>cloneDX XML SBOM with no components ] <br>- The logs showed 4 vulnerabilities, b<br>ut the final report only had 2. ]  ###<br> Additional Changes  - Port to new syf<br>t source API ] ]    |
+|2023-07-14 23:29:27|[mitaka](https://github.com/ninoseki/mitaka)|v1.3.1|Fiirefox only release to support Fire<br>fox MV3.    - https://addons.mozilla.o<br>rg/en-US/firefox/addon/mitaka/    ## N<br>otes    Please allow "Access your data<br> for all websites" permission. Otherwi<br>se this extension does not work.      |
+|2023-07-14 18:09:58|[CyberChef](https://github.com/gchq/CyberChef)|v10.5.2|See the  and  for details.|
+|2023-07-14 12:27:37|[safeline](https://github.com/chaitin/safeline)|v2.2.0|### 新增    - IP 组中新增长亭社区恶意<br> IP 情报，内容来自社区版共享的攻击 IP<br>，每日自动更新    ### 优化    - 升级核<br>心检测引擎，修复一些绕过和误报  - 管理<br>界面增加浏览器版本检查，如果版本过旧，<br>会提示升级浏览器  - 优化一些界面的 UI <br>交互细节  - 修复一些中英文翻译的问题|
+|2023-07-13 15:23:26|[grype](https://github.com/anchore/grype)|v0.64.0|# Changelog    ##  (2023-07-13)      <br>  ### Added Features    - You can now <br>list multiple output formats and files<br> to write to disk with one command, li<br>ke Syft: "-o format1=file1 -o format1=<br>file2" ] ] ]    ### Bug Fixes    - Cor<br>rectly detect format of CycloneDX XML <br>SBOM with no components ]  - Fix vulne<br>rability summary counts to be less con<br>fusing. ]    ### Additional Changes   <br> - Port to new Syft source API ] ]  - <br>Include Syft 0.85.0        |
 |2023-07-12 17:45:16|[syft](https://github.com/anchore/syft)|v0.85.0|# Changelog    ##  (2023-07-12)      <br>  ### Added Features    - Add a --base<br>-path command line flag to set the dir<br>ectory base for scans (this option was<br> previously exposed via API only) ] ] <br> - Add file source digest support ] ] <br> - Remove erroneous Java CPEs from gen<br>eration ] ]  - Fix CPE generation for <br>k8s python client ] ]  - Don't use the<br> actual redis or grpc CPEs for gems ] <br>]  - The text user interface is now pr<br>ovided by the bubbletea library ] ] ] <br>   ### Bug Fixes    - Install script r<br>eturns exit code 0 even if install fai<br>ls ] ] ]  - ] ] ]  - Deprecated licens<br>e: GFDL-1.2+ ] ] ]    ### Breaking Cha<br>nges    - Revisit the source.New* set <br>of functions ] ] ]    ### Additional C<br>hanges    - chore: update iterations t<br>o protect against race ] ]  - fix: bac<br>kground reader apart from global handl<br>er for testing ] ]        |
 |2023-07-12 14:10:53|[faker](https://github.com/joke2k/faker)|v19.1.0|See .|
 |2023-07-12 08:50:03|[Burp-Non-HTTP-Ext<br>ension](https://github.com/summitt/Burp-Non-HTTP-Extension)|v1.7.2|* Fixed Port Monitor|
@@ -16,7 +19,6 @@
 |2023-07-09 05:05:02|[ENScan_GO](https://github.com/wgpsec/ENScan_GO)|0.0.13|- 修复天X查BUG （需要设置代理挂上burp<br>参考 #66）   > -n 小米 -type tyc --debu<br>g --proxy http://127.0.0.1:8080/|
 |2023-07-07 11:36:04|[zksync2-python](https://github.com/zksync-sdk/zksync2-python)|v0.6.0|Add support for account abstraction a<br>nd paymaster features:    - Add smart <br>account deployment with create opcode.<br>  - Add smart account deployment with <br>create2 opcode.  - Support Paymaster p<br>arameters in EIP712 Transactions. Paym<br>aster features can be used with EIP712<br> Transactions.  |
 |2023-07-07 09:40:41|[trivy](https://github.com/aquasecurity/trivy)|v0.43.1|## Changelog * 5d76abadc chore(deps):<br> Update defsec to v0.90.3 (#4793) * fe<br>d446c51 chore(deps): bump google.golan<br>g.org/protobuf from 1.30.0 to 1.31.0 (<br>#4752) * df62927e5 chore(deps): bump a<br>lpine from 3.18.0 to 3.18.2 (#4748) * <br>1b9b9a84f chore(deps): bump github.com<br>/alicebob/miniredis/v2 from 2.30.3 to <br>2.30.4 (#4758) * 3c16ca821 docs(image)<br>: fix the comment on the soft/hard lin<br>k (#4740) * e5bee5ccc check Type when <br>filling pkgs in vulns (#4776) * 4b9f31<br>0b9 feat: add support of linux/ppc64le<br> and linux/s390x architectures for Ins<br>tall.sh script (#4770) * 8e7fb7cc8 cho<br>re(deps): bump modernc.org/sqlite from<br> 1.20.3 to 1.23.1 (#4756) * a9badeaba <br>fix(rocky): add architectures support <br>for advisories (#4691) * f8ebccc68 cho<br>re(deps): bump github.com/opencontaine<br>rs/image-spec (#4751) * 1c81948e0 chor<br>e(deps): bump github.com/package-url/p<br>ackageurl-go (#4754) * 497cc10d8 chore<br>(deps): bump golang.org/x/sync from 0.<br>2.0 to 0.3.0 (#4750) * 065f0afa5 chore<br>(deps): bump github.com/tetratelabs/wa<br>zero from 1.2.0 to 1.2.1 (#4755) * e26<br>03056d chore(deps): bump github.com/te<br>stcontainers/testcontainers-go (#4759)<br> * 0621402bf fix: documentation about <br>reseting trivy image (#4733) * 798fdbc<br>01 fix(suse): Add openSUSE Leap 15.5 e<br>ol date as well (#4744) * 34a89293d fi<br>x: update Amazon Linux 1 EOL (#4761)  |
-|2023-07-07 05:40:12|[safeline](https://github.com/chaitin/safeline)|v2.1.2|- 修复了日志详情中防护策略模块没有翻<br>译的问题|
 |2023-07-06 15:50:09|[WeblogicTool](https://github.com/KimJun1010/WeblogicTool)|v1.2|更新记录  - 新增批量探测T3、IIOP、web<br>接口功能  - 修复多个bug|
 |2023-07-06 15:21:10|[autoDecoder](https://github.com/f0ng/autoDecoder)|0.30|## 2023.7.6 更新0.30  1. Repeater、In<br>truder模块中，增加右键加密、解密，当设<br>置好相应的方法后可以对请求体的body进行<br>加密、解密        2. #16 修复Send to Re<br>peater、Send to Intruder不会带上端口号<br>的问题，感谢@P1a0z1 反馈|
 |2023-07-06 11:10:32|[Elkeid](https://github.com/bytedance/Elkeid)|rasp-v2<br>.2.0.6||
@@ -33,27 +35,35 @@
 ## 近15天commit提交记录
 | 提交时间 | 项目名称 | 更新内容 |
 | :---- | :---- | :---- |
-|2023-07-14 00:45:20|[NucleiTP](https://github.com/ExpLangcn/NucleiTP)|更新啦❤️|
-|2023-07-14 00:00:03|[free](https://github.com/freefq/free)|updated_at 07-14 08:00|
-|2023-07-13 21:55:01|[PocOrExp_in_Githu<br>b](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-07-14 05:55:01|
+|2023-07-15 00:00:03|[free](https://github.com/freefq/free)|updated_at 07-15 08:00|
+|2023-07-14 23:40:53|[mitaka](https://github.com/ninoseki/mitaka)|docs: update README [skip ci]|
+|2023-07-14 21:48:20|[Vuln-List](https://github.com/wwl012345/Vuln-List)|Update Windows&Linux提权&RCE合集.md|
+|2023-07-14 20:15:19|[NucleiTP](https://github.com/ExpLangcn/NucleiTP)|更新啦❤️|
+|2023-07-14 18:01:41|[CyberChef](https://github.com/gchq/CyberChef)|10.5.2|
+|2023-07-14 16:36:46|[all-in-one-v2](https://github.com/zaivanza/all-in-one-v2)|update woofi|
+|2023-07-14 15:35:54|[Burp-Non-HTTP-Ext<br>ension](https://github.com/summitt/Burp-Non-HTTP-Extension)|update bytes to always show original|
+|2023-07-14 15:24:35|[safeline](https://github.com/chaitin/safeline)|feat: add faq for online services addr|
+|2023-07-14 13:54:55|[afrog](https://github.com/zan8in/afrog)|update poc|
+|2023-07-14 12:44:10|[v2rayfree](https://github.com/aiboboxx/v2rayfree)|update|
+|2023-07-14 09:50:08|[zpscan](https://github.com/niudaii/zpscan)|refactor: sth|
+|2023-07-14 09:05:56|[Umi-OCR](https://github.com/hiroi-sora/Umi-OCR)|添加三个命令行指令（#173） 1. 指定弹出模式-window_t<br>op_mode，0为静默模式，1为自动弹出 2. 指定输出文件目<br>录，-output_file_path="目录" 3. 指定输出文件名前缀，-<br>output_file_name="文件名"|
+|2023-07-14 08:07:42|[domain_hunter_pro](https://github.com/bit4woo/domain_hunter_pro)|减少elastic的依赖包|
+|2023-07-14 07:46:48|[dbeaver](https://github.com/dbeaver/dbeaver)|Dbeaver/pro#1440 truststore manager (#20505)  * dbe<br>aver/pro#1440 add truststore usage on launch & ui ch<br>anges    * dbeaver/pro#1440 remove winstore from gen<br>eral settings in DBeaverEE && code cleanup & localis<br>ation    * dbeaver/pro#1440 remove excessive changes|
+|2023-07-14 07:42:42|[Some-PoC-oR-ExP](https://github.com/coffeehb/Some-PoC-oR-ExP)|Create CVE-2023-37582.py|
+|2023-07-14 04:02:46|[PocOrExp_in_Githu<br>b](https://github.com/ycdxsb/PocOrExp_in_Github)|update Today.md|
+|2023-07-14 03:39:54|[ChatGPT-Shortcut](https://github.com/rockbenben/ChatGPT-Shortcut)|docs: update docs|
+|2023-07-14 02:31:29|[vulnerability](https://github.com/lal0ne/vulnerability)|CVE-2023-24489|
+|2023-07-14 00:50:25|[OA-EXPTOOL](https://github.com/LittleBear4/OA-EXPTOOL)|Add files via upload|
 |2023-07-13 17:26:12|[awesome-chatgpt-z<br>h](https://github.com/yzfly/awesome-chatgpt-zh)|add gpt-prompt-engineer|
 |2023-07-13 17:21:52|[syft](https://github.com/anchore/syft)|remove jotframe UI (#1932)  Signed-off-by: Alex Goo<br>dman |
 |2023-07-13 17:13:48|[grype](https://github.com/anchore/grype)|Port UI to bubbletea (#1385)  * initial port to bub<br>bletea    Signed-off-by: Alex Goodman     * remove j<br>otframe UI    Signed-off-by: Alex Goodman     * add <br>bubbletea component tests    Signed-off-by: Alex Goo<br>dman     * update main.go refs to cmd package    Sig<br>ned-off-by: Alex Goodman     * move goreleaser build<br> dir to cmd    Signed-off-by: Alex Goodman     * upg<br>rade yardstick for grype source installs and fix pos<br>t-ui tests    Signed-off-by: Alex Goodman     * ensu<br>re stable severity map in UI component test    Signe<br>d-off-by: Alex Goodman     * add windows support for<br> tui    Signed-off-by: Alex Goodman     ---------   <br> Signed-off-by: Alex Goodman |
-|2023-07-13 14:27:08|[afrog](https://github.com/zan8in/afrog)|update|
-|2023-07-13 14:15:40|[ChatGPT-Shortcut](https://github.com/rockbenben/ChatGPT-Shortcut)|fix: Ensure the prompt language toggle button appea<br>rs on non-English pages|
-|2023-07-13 12:47:00|[v2rayfree](https://github.com/aiboboxx/v2rayfree)|update|
-|2023-07-13 11:52:16|[dbeaver](https://github.com/dbeaver/dbeaver)|Materialize driver (#20553)  * Initial Materialize <br>driver setup    * Update Materialize logos    * Add <br>pt BR Materialize description    * Remove unused imp<br>orts|
 |2023-07-13 11:24:39|[zksync](https://github.com/nftscripts/zksync)|Update orbiter_bridge.py|
 |2023-07-13 11:16:11|[trivy](https://github.com/aquasecurity/trivy)|fix(sbom): cyclonedx recommendations should include<br> fixed versions for each package (#4794)  * add all <br>fixed versions to recommendations  * fix tests|
-|2023-07-13 09:43:54|[safeline](https://github.com/chaitin/safeline)|Merge pull request #153 from chaitin/add-github-iss<br>ue-template  add some comments to github issue templ<br>ate|
 |2023-07-13 07:35:28|[0day](https://github.com/helloexp/0day)|add linux privilege escalation  CVE-2023-35829|
 |2023-07-13 02:18:06|[Vulnerability-Wik<br>i](https://github.com/Threekiii/Vulnerability-Wiki)|更新README.md|
 |2023-07-12 14:23:51|[nemo_go](https://github.com/hanc00l/nemo_go)|Fix: domain列表和详情中的icon显示|
 |2023-07-12 14:10:10|[faker](https://github.com/joke2k/faker)|Bump version: 19.0.0 → 19.1.0|
 |2023-07-12 12:57:22|[iDefender](https://github.com/wecooperate/iDefender)|update|
-|2023-07-12 08:47:31|[Burp-Non-HTTP-Ext<br>ension](https://github.com/summitt/Burp-Non-HTTP-Extension)|Fixed Port Monitor|
-|2023-07-12 05:06:58|[all-in-one-v2](https://github.com/zaivanza/all-in-one-v2)|add zksync era to okx|
-|2023-07-12 02:40:17|[zpscan](https://github.com/niudaii/zpscan)|fix: jsjump|
 |2023-07-11 19:02:23|[clair](https://github.com/quay/clair)|chore: bump Claircore to v1.5.9  Bump Claircore to <br>the latest tag.  Signed-off-by: crozzy |
 |2023-07-11 18:09:57|[neuvector](https://github.com/neuvector/neuvector)|Merge pull request #910 from kyledong-suse/main  NV<br>SHAS-5703 & NVSHAS-5365: API document change for Vio<br>lation|
 |2023-07-11 14:29:33|[veinmind-tools](https://github.com/chaitin/veinmind-tools)|refactor(plugins): refactor backdoor plugin (#252)|
@@ -72,7 +82,6 @@
 |2023-07-10 09:53:13|[HackBrowserData](https://github.com/moonD4rk/HackBrowserData)|fix: nil browsing data in case error and walkdir in<br>stead of walk (#229)  * fix: nil browsing data in ca<br>se error    Signed-off-by: Andrii Ursulenko     * fi<br>x: ignore walk error, use walkdir instead of walk   <br> ---------    Signed-off-by: Andrii Ursulenko   Co-a<br>uthored-by: Andrii Ursulenko |
 |2023-07-10 09:49:53|[404StarLink](https://github.com/knownsec/404StarLink)|weekly update at 2023-07-10|
 |2023-07-10 08:51:35|[murphysec](https://github.com/murphysecurity/murphysec)|fix(npm): lockfile|
-|2023-07-10 03:06:56|[Umi-OCR](https://github.com/hiroi-sora/Umi-OCR)|~|
 |2023-07-09 13:29:16|[X-Marshal](https://github.com/XTeam-Wing/X-Marshal)|Update README.md|
 |2023-07-09 09:38:47|[Viper](https://github.com/FunnyWolf/Viper)|update version v1.6.1|
 |2023-07-09 09:19:10|[OneScan](https://github.com/vaycore/OneScan)|更新README.md中的一些说明和截图|
@@ -88,24 +97,18 @@
 |2023-07-06 10:50:26|[Elkeid](https://github.com/bytedance/Elkeid)|fix bug: update musl toolchain linker path|
 |2023-07-06 08:43:43|[sqlmap](https://github.com/sqlmapproject/sqlmap)|Implements #5452|
 |2023-07-06 06:32:34|[CodeQLpy](https://github.com/webraybtl/CodeQLpy)|Update README.md|
-|2023-07-05 15:04:54|[Vuln-List](https://github.com/wwl012345/Vuln-List)|Update Windows&Linux提权&RCE合集.md|
-|2023-07-05 09:40:36|[domain_hunter_pro](https://github.com/bit4woo/domain_hunter_pro)|Update SuperJTextArea.java|
 |2023-07-05 01:49:54|[Awesome-Exploit](https://github.com/Threekiii/Awesome-Exploit)|更新README.md|
 |2023-07-05 01:49:32|[Awesome-Redteam](https://github.com/Threekiii/Awesome-Redteam)|更新README.md|
 |2023-07-05 00:29:39|[cf](https://github.com/teamssix/cf)|Merge pull request #256 from teamssix/beta  docs: u<br>pdate readme|
 |2023-07-04 09:53:57|[knife](https://github.com/bit4woo/knife)|update|
 |2023-07-03 16:14:56|[RedisEXP](https://github.com/yuyan-sec/RedisEXP)|github actions|
 |2023-07-03 13:12:25|[nuclei](https://github.com/projectdiscovery/nuclei)|dep update|
-|2023-07-03 10:25:32|[mitaka](https://github.com/ninoseki/mitaka)|docs: remove Tines logo [skip ci]|
 |2023-07-03 07:07:35|[ARL](https://github.com/TophantTechnology/ARL)|Merge pull request #589 from ox01024/update-ipGeo-S<br>ource  使用第三方源的GeoLite2-City更新|
-|2023-07-03 05:26:39|[vulnerability](https://github.com/lal0ne/vulnerability)|CVE-2023-34939|
 |2023-07-02 16:09:12|[PEASS-ng](https://github.com/carlospolop/PEASS-ng)|Update aicoder.yml|
 |2023-07-01 22:24:38|[ShiroAttack2](https://github.com/SummerSec/ShiroAttack2)|:bug: fix https://github.com/SummerSec/ShiroAttack2<br>/issues/37|
 |2023-07-01 15:14:35|[pikachu](https://github.com/zhuifengshaonianhanlu/pikachu)|Merge pull request #33 from 8023/master  优化docker<br>file|
 |2023-07-01 15:12:07|[chatgpt](https://github.com/LangLangShanDeNanKe/chatgpt)|Update README.md|
-|2023-06-30 16:04:02|[All-Defense-Tool](https://github.com/guchangan1/All-Defense-Tool)|更新v2.4|
-|2023-06-29 13:26:32|[fscan](https://github.com/shadow1ng/fscan)|Merge pull request #280 from dksslq/main  输出格式<br>调整|
-|2023-06-29 02:24:05|[v2rayA](https://github.com/v2rayA/v2rayA)|Fix Windows installer build|## 所有项目
+|2023-06-30 16:04:02|[All-Defense-Tool](https://github.com/guchangan1/All-Defense-Tool)|更新v2.4|## 所有项目
 # 渗透测试
 ## 信息收集
 ### 资产测绘采集
@@ -711,7 +714,7 @@
 | [HackTools](https://github.com/Vicl1fe/HackTools) | 1.5 | 提高渗透测试效率。#Burp插件##渗透测试##小工具# |
 | [RouteVulScan](https://github.com/F6JO/RouteVulScan) | RouteVu<br>lScan1.5 | Burpsuite - Route Vulnerable Scanning 递归式被动检测脆弱路径的<br>burp插件 |
 | [fastjson-exp](https://github.com/skisw/fastjson-exp) |  |  |
-| [burp-awesome-tls](https://github.com/sleeyax/burp-awesome-tls) | v1.1.0 | Fix Burp Suite's poor TLS stack and bypass WAFs by spoofing an<br>y browser |
+| [burp-awesome-tls](https://github.com/sleeyax/burp-awesome-tls) | v1.1.0 | Fixes Burp Suite's poor TLS stack. Bypass WAF, spoof any brows<br>er. |
 | [JustC2file](https://github.com/Peithon/JustC2file) | v1.0.2 | Burp插件，Malleable C2 Profiles生成器；可以通过Burp代理选中请<br>求，生成Cobalt Strike的profile文件(CSprofile) |
 | [SpringScan](https://github.com/metaStor/SpringScan) | V1.7 | SpringScan 漏洞检测 Burp插件 |
 | [captcha-killer-mo<br>dified](https://github.com/f0ng/captcha-killer-modified) | 0.24.1 | captcha-killer的修改版，支持关键词识别base64编码的图片，添加免<br>费ocr库，用于验证码爆破，适配新版Burpsuite |
@@ -767,7 +770,7 @@
 | [SwitchyOmega](https://github.com/FelisCatus/SwitchyOmega) | v2.5.20 | Manage and switch between multiple proxies quickly & easily. |
 | [untrusted-types](https://github.com/filedescriptor/untrusted-types) | 1.1.1 |  |
 | [fofa_view](https://github.com/fofapro/fofa_view) | v0.0.5 | FOFA Pro view 是一款FOFA Pro 资产展示浏览器插件，目前兼容  Chr<br>ome、Firefox、Opera。 |
-| [mitaka](https://github.com/ninoseki/mitaka) | v1.3.0 | A browser extension for OSINT search |
+| [mitaka](https://github.com/ninoseki/mitaka) | v1.3.1 | A browser extension for OSINT search |
 | [anti-honeypot](https://github.com/cnrstar/anti-honeypot) |  | 一款可以检测WEB蜜罐并阻断请求的Chrome插件 |
 | [Chromium-based-XS<br>S-Taint-Tracking](https://github.com/v8blink/Chromium-based-XSS-Taint-Tracking) | v0.3 | Cyclops 是一款具有 XSS 检测功能的浏览器 |
 | [Zoomeye-Tools](https://github.com/knownsec/Zoomeye-Tools) |  | Zoomeye Tools是配合Zoomeye使用的Chrome插件 |
@@ -858,7 +861,7 @@
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
 | [TomatoTools](https://github.com/ht0Ruial/TomatoTools) | v1.0.2 | TomatoTools 一款CTF杂项利器，支持36种常见编码和密码算法的加密<br>和解密，31种密文的分析和识别，支持自动提取flag，自定义插件等。 |
-| [CyberChef](https://github.com/gchq/CyberChef) | v10.4.0 | The Cyber Swiss Army Knife - a web app for encryption, encodin<br>g, compression and data analysis |
+| [CyberChef](https://github.com/gchq/CyberChef) | v10.5.2 | The Cyber Swiss Army Knife - a web app for encryption, encodin<br>g, compression and data analysis |
 ### 取证分析
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
@@ -1041,7 +1044,7 @@
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
 | [openstar](https://github.com/starjun/openstar) |  | lua waf,nginx+lua,openresty,luajit,waf+,cdn,nginx |
-| [safeline](https://github.com/chaitin/safeline) | v2.1.2 | 一款足够简单、足够好用、足够强的免费 WAF。基于业界领先的语义引<br>擎检测技术，作为反向代理接入，保护你的网站不受黑客攻击。 |
+| [safeline](https://github.com/chaitin/safeline) | v2.2.0 | 一款足够简单、足够好用、足够强的免费 WAF。基于业界领先的语义引<br>擎检测技术，作为反向代理接入，保护你的网站不受黑客攻击。 |
 ## 欺骗防御
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |

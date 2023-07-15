@@ -200,8 +200,8 @@
     "https://github.com/ycdxsb/PocOrExp_in_Github": {
         "created_at": "2021-04-13 05:46:16",
         "description": "聚合Github上已有的Poc或者Exp，CVE信息来自CVE官网。Auto Collect Poc Or Exp from Github by CVE ID.",
-        "commit_date": "2023-07-13 21:55:01",
-        "commit_message": "update 2023-07-14 05:55:01",
+        "commit_date": "2023-07-14 04:02:46",
+        "commit_message": "update Today.md",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -380,8 +380,8 @@
     "https://github.com/lal0ne/vulnerability": {
         "created_at": "2022-01-20 02:48:42",
         "description": "收集、整理、修改互联网上公开的漏洞POC",
-        "commit_date": "2023-07-03 05:26:39",
-        "commit_message": "CVE-2023-34939",
+        "commit_date": "2023-07-14 02:31:29",
+        "commit_message": "CVE-2023-24489",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -461,7 +461,7 @@
     "https://github.com/ExpLangcn/NucleiTP": {
         "created_at": "2022-11-08 13:16:56",
         "description": "自动整合全网Nuclei的漏洞POC，实时同步更新最新POC！",
-        "commit_date": "2023-07-14 00:45:20",
+        "commit_date": "2023-07-14 20:15:19",
         "commit_message": "更新啦❤️",
         "release_tag": "",
         "release_date": "",
@@ -999,8 +999,8 @@
     "https://github.com/LittleBear4/OA-EXPTOOL": {
         "created_at": "2022-10-13 12:31:21",
         "description": "OA综合利用工具，集合将近20款OA漏洞批量扫描",
-        "commit_date": "2023-06-15 02:16:57",
-        "commit_message": "Update output.py",
+        "commit_date": "2023-07-14 00:50:25",
+        "commit_message": "Add files via upload",
         "release_tag": "OA-EXPTOOL-0.72",
         "release_date": "2023-04-23 06:08:32",
         "release_message": "最近更新日志：\r\n泛微前台sql注入的poc验证，暂无exp\r\n万户OA_UploadServlet.py\r\n万户OA_xfire_xxe\r\n优化poc的验证功能"
@@ -1062,11 +1062,11 @@
     "https://github.com/ninoseki/mitaka": {
         "created_at": "2018-02-09 00:13:30",
         "description": "A browser extension for OSINT search",
-        "commit_date": "2023-07-03 10:25:32",
-        "commit_message": "docs: remove Tines logo [skip ci]",
-        "release_tag": "v1.3.0",
-        "release_date": "2023-06-27 08:57:25",
-        "release_message": "-  Add Add Coalition searcher (#737)\r\n    - https://ess.coalitioninc.com/ "
+        "commit_date": "2023-07-14 23:40:53",
+        "commit_message": "docs: update README [skip ci]",
+        "release_tag": "v1.3.1",
+        "release_date": "2023-07-14 23:29:27",
+        "release_message": "Fiirefox only release to support Firefox MV3.\r\n\r\n- https://addons.mozilla.org/en-US/firefox/addon/mitaka/\r\n\r\n## Notes\r\n\r\nPlease allow \"Access your data for all websites\" permission. Otherwise this extension does not work.\r\n\r\n<img width=\"703\" alt=\"Screenshot 2023-07-15 at 8 27 26\" src=\"https://github.com/ninoseki/mitaka/assets/291028/40a5709a-bb4a-4078-b135-287c07ecabef\">\r\n"
     },
     "https://github.com/v2rayA/v2rayA": {
         "created_at": "2019-10-18 20:42:06",
@@ -1143,10 +1143,10 @@
     "https://github.com/gchq/CyberChef": {
         "created_at": "2016-11-28 10:34:07",
         "description": "The Cyber Swiss Army Knife - a web app for encryption, encoding, compression and data analysis",
-        "commit_date": "2023-03-24 22:41:40",
-        "commit_message": "10.4.0",
-        "release_tag": "v10.4.0",
-        "release_date": "2023-03-24 22:50:21",
+        "commit_date": "2023-07-14 18:01:41",
+        "commit_message": "10.5.2",
+        "release_tag": "v10.5.2",
+        "release_date": "2023-07-14 18:09:58",
         "release_message": "See the [CHANGELOG](https://github.com/gchq/CyberChef/blob/master/CHANGELOG.md) and [commit messages](https://github.com/gchq/CyberChef/commits/master) for details."
     },
     "https://github.com/NeoTheCapt/PowerScanner": {
@@ -1467,8 +1467,8 @@
     "https://github.com/summitt/Burp-Non-HTTP-Extension": {
         "created_at": "2016-05-23 20:30:34",
         "description": "Non-HTTP Protocol Extension (NoPE) Proxy and DNS for Burp Suite.",
-        "commit_date": "2023-07-12 08:47:31",
-        "commit_message": "Fixed Port Monitor",
+        "commit_date": "2023-07-14 15:35:54",
+        "commit_message": "update bytes to always show original",
         "release_tag": "v1.7.2",
         "release_date": "2023-07-12 08:50:03",
         "release_message": "* Fixed Port Monitor"
@@ -1906,8 +1906,8 @@
     "https://github.com/hiroi-sora/Umi-OCR": {
         "created_at": "2022-03-28 04:01:46",
         "description": "OCR图片转文字识别软件，完全离线。截屏/批量导入图片，支持多国语言、合并段落、竖排文字。可排除水印区域，提取干净的文本。基于 PaddleOCR 。",
-        "commit_date": "2023-07-10 03:06:56",
-        "commit_message": "~",
+        "commit_date": "2023-07-14 09:05:56",
+        "commit_message": "添加三个命令行指令（#173）\n1. 指定弹出模式-window_top_mode，0为静默模式，1为自动弹出\n2. 指定输出文件目录，-output_file_path=\"目录\"\n3. 指定输出文件名前缀，-output_file_name=\"文件名\"",
         "release_tag": "v1.3.5",
         "release_date": "2023-06-20 09:07:40",
         "release_message": "### `v1.3.5` 主要更新：\r\n- 新功能：复制识别结果后，可发送指定按键，以便联动唤起翻译器等工具。👉[使用说明](https://github.com/hiroi-sora/Umi-OCR#%E5%A4%8D%E5%88%B6%E5%90%8E%E5%8F%91%E9%80%81%E6%8C%89%E9%94%AE--%E8%81%94%E5%8A%A8%E7%BF%BB%E8%AF%91%E8%BD%AF%E4%BB%B6)\r\n- 新功能：命令行增加切换识别语言的指令。👉[使用说明（指令7）](https://github.com/hiroi-sora/Umi-OCR#%E5%91%BD%E4%BB%A4%E8%A1%8C%E8%B0%83%E7%94%A8)\r\n- 修Bug：修复了低配置机器上有概率误报超时 `OCR init timeout: 5s` 的问题。\r\n- 调整：默认停止任务30秒后释放一次内存。\r\n\r\n### 文件说明\r\n软件本体：`Umi-OCR.v1.3.5.7z`（67MB），内置`简体中文&英文`通用识别库。\r\n软件（多国语言整合版）：`Umi-OCR.v1.3.5_ALL_languages.7z`（118MB），内置多国语言识别库。\r\n\r\n多国语言扩展包：`Umi-OCR.v1.3_DLC_languages.7z`（50MB），可向软件本体导入`繁中,英,日,韩,俄,德,法` 多国语言识别库。"
@@ -2122,7 +2122,7 @@
     "https://github.com/wwl012345/Vuln-List": {
         "created_at": "2022-03-01 03:07:52",
         "description": "(持续更新)对网上出现的各种OA、中间件、CMS等漏洞进行整理，主要包括漏洞介绍、漏洞影响版本以及漏洞POC/EXP等，并且会持续更新。",
-        "commit_date": "2023-07-05 15:04:54",
+        "commit_date": "2023-07-14 21:48:20",
         "commit_message": "Update Windows&Linux提权&RCE合集.md",
         "release_tag": "",
         "release_date": "",
@@ -2951,8 +2951,8 @@
     "https://github.com/dbeaver/dbeaver": {
         "created_at": "2015-10-21 08:26:28",
         "description": "Free universal database tool and SQL client",
-        "commit_date": "2023-07-13 11:52:16",
-        "commit_message": "Materialize driver (#20553)\n\n* Initial Materialize driver setup\r\n\r\n* Update Materialize logos\r\n\r\n* Add pt BR Materialize description\r\n\r\n* Remove unused imports",
+        "commit_date": "2023-07-14 07:46:48",
+        "commit_message": "Dbeaver/pro#1440 truststore manager (#20505)\n\n* dbeaver/pro#1440 add truststore usage on launch & ui changes\r\n\r\n* dbeaver/pro#1440 remove winstore from general settings in DBeaverEE && code cleanup & localisation\r\n\r\n* dbeaver/pro#1440 remove excessive changes",
         "release_tag": "23.1.2",
         "release_date": "2023-07-09 16:23:13",
         "release_message": "\n                - SQL editor:\n                    - Mouse hovering over editor annotations was fixed\n                    - Trailing DDL query delimiter processing was fixed\n                - Data editor:\n                    - References panel refresh was fixed\n                    - XML presentation was fixed (NULL value handler)\n                - General UI:\n                    - Settings reset UI and behavior were redesigned\n                    - Editor tab tooltip now contains information abut resource's project\n                    - CLI parameter for app version print was added\n                    - Objects with mixed case names caching was fixed\n                    - Issue with program launch with wrong Java version was fixed\n                    - Preferences export/import UI was improved\n                    - Maven snapshot repository was added to default configuration\n                - Connections: kerberos support in legacy JDBC drivers (Hive) was fixed\n                - Data transfer: table information for tasks with broken connection was fixed\n                - Databases:\n                    - BigQuery: driver version was upgraded to 1.3.3 (thanks to @fredlegaucher)\n                    - DuckDB: LIST data type support was added\n                    - Firebird: filters and sorting in grouping panel were fixed\n                    - IBM i: driver download was fixed\n                    - Oracle:\n                        - Partitions cache refresh was fixed\n                        - Stored procedures edit/save was fixed\n                    - PostgreSQL: enum columns alter was fixed\n                    - Snowflake:\n                        - Client application name set was fixed\n                        - Quoted identifiers auto-completion was fixed\n                - Misc: internal app controller server now uses HTTP instead of RMI\n            "
@@ -3050,8 +3050,8 @@
     "https://github.com/zan8in/afrog": {
         "created_at": "2022-02-24 06:00:32",
         "description": "A Security Tool for Bug Bounty, Pentest and Red Teaming.",
-        "commit_date": "2023-07-13 14:27:08",
-        "commit_message": "update",
+        "commit_date": "2023-07-14 13:54:55",
+        "commit_message": "update poc",
         "release_tag": "v2.7.2",
         "release_date": "2023-07-12 07:57:15",
         "release_message": "Changing the backlink alive check to concurrent execution.\r\nAdd go poc : ecology-filedownloadforoutdoc-sqli\r\nPoc Count:  1041\r\n\r\n将反链存活检查改为并发执行\r\n新增 go poc : ecology-filedownloadforoutdoc-sqli\r\nPoc 总数:  1041"
@@ -3103,7 +3103,7 @@
     },
     "https://github.com/sleeyax/burp-awesome-tls": {
         "created_at": "2022-01-24 00:30:26",
-        "description": "Fix Burp Suite's poor TLS stack and bypass WAFs by spoofing any browser",
+        "description": "Fixes Burp Suite's poor TLS stack. Bypass WAF, spoof any browser.",
         "commit_date": "2023-06-22 21:36:19",
         "commit_message": "Create FUNDING.yml",
         "release_tag": "v1.1.0",
@@ -3237,8 +3237,8 @@
     "https://github.com/coffeehb/Some-PoC-oR-ExP": {
         "created_at": "2015-03-13 15:31:35",
         "description": "各种漏洞poc、Exp的收集或编写",
-        "commit_date": "2023-06-09 02:02:54",
-        "commit_message": "Create 老版本未授权.md",
+        "commit_date": "2023-07-14 07:42:42",
+        "commit_message": "Create CVE-2023-37582.py",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -3406,8 +3406,8 @@
     "https://github.com/bit4woo/domain_hunter_pro": {
         "created_at": "2019-01-18 07:15:15",
         "description": "domain_hunter的高级版本，SRC挖洞、HW打点之必备！自动化资产收集；快速Title获取；外部工具联动；等等",
-        "commit_date": "2023-07-05 09:40:36",
-        "commit_message": "Update SuperJTextArea.java",
+        "commit_date": "2023-07-14 08:07:42",
+        "commit_message": "减少elastic的依赖包",
         "release_tag": "v1.9",
         "release_date": "2023-04-18 00:34:58",
         "release_message": "全局：\r\n多个bug修复\r\n布局模式优化\r\n基础方法实现逻辑优化\r\n\r\n右键菜单：\r\n“Do Search”提供主动在制定请求中进行搜索的能力，比如在某企业邮箱的流量中搜索以提取邮箱地址\r\n“Add Request And Comment”右键菜单添逻辑优化，修复一个bug\r\n“Send To Tool Panel”右键菜单处理逻辑优化，可合并发送多个数据包内容\r\n\r\nDomain面板：\r\nroot domain的comments逻辑更新\r\n提供多个网络搜索引擎的后台自动搜索功能\r\nroot domain双击，自动在浏览器中访问\r\n修改目标根域名删除失败的bug\r\n显示序号，以便在排序后恢复原始顺序\r\n\r\nTool面板：\r\n重写JTextArea的paste函数，避免大内容导致程序卡死\r\nJTextArea支持输入文件，而程序处理其内容。\r\n文本取提供简单的历史记录功能\r\nJSON提取逻辑优化\r\n新增多个功能，比如排序\r\n优化URL提取逻辑，避免遗漏没有以/开头的path\r\n\r\nTitle面板中：\r\n端口扫描命令生成逻辑优化\r\n备注和IP内容的显示优化，显示前排序\r\n备注添加逻辑优化\r\n给手动添加的记录添加已知的IP和CNAME、CertInfo\r\n搜索功能增强，支持对数字型字段进行大于、小于、等于等搜索\r\n添加多个搜索实例，以便用户熟悉搜索语法\r\n新增“Do Request Item Again”菜单，对DNS记录或无响应的数据包进行再次请求"
@@ -3917,11 +3917,11 @@
     "https://github.com/chaitin/safeline": {
         "created_at": "2023-04-12 11:30:14",
         "description": "一款足够简单、足够好用、足够强的免费 WAF。基于业界领先的语义引擎检测技术，作为反向代理接入，保护你的网站不受黑客攻击。",
-        "commit_date": "2023-07-13 09:43:54",
-        "commit_message": "Merge pull request #153 from chaitin/add-github-issue-template\n\nadd some comments to github issue template",
-        "release_tag": "v2.1.2",
-        "release_date": "2023-07-07 05:40:12",
-        "release_message": "- 修复了日志详情中防护策略模块没有翻译的问题"
+        "commit_date": "2023-07-14 15:24:35",
+        "commit_message": "feat: add faq for online services addr",
+        "release_tag": "v2.2.0",
+        "release_date": "2023-07-14 12:27:37",
+        "release_message": "### 新增\r\n\r\n- IP 组中新增长亭社区恶意 IP 情报，内容来自社区版共享的攻击 IP，每日自动更新\r\n\r\n### 优化\r\n\r\n- 升级核心检测引擎，修复一些绕过和误报\r\n- 管理界面增加浏览器版本检查，如果版本过旧，会提示升级浏览器\r\n- 优化一些界面的 UI 交互细节\r\n- 修复一些中英文翻译的问题"
     },
     "https://github.com/stamparm/identYwaf": {
         "created_at": "2019-01-10 11:27:58",
@@ -3984,7 +3984,7 @@
         "commit_message": "Port UI to bubbletea (#1385)\n\n* initial port to bubbletea\r\n\r\nSigned-off-by: Alex Goodman <wagoodman@users.noreply.github.com>\r\n\r\n* remove jotframe UI\r\n\r\nSigned-off-by: Alex Goodman <wagoodman@users.noreply.github.com>\r\n\r\n* add bubbletea component tests\r\n\r\nSigned-off-by: Alex Goodman <wagoodman@users.noreply.github.com>\r\n\r\n* update main.go refs to cmd package\r\n\r\nSigned-off-by: Alex Goodman <wagoodman@users.noreply.github.com>\r\n\r\n* move goreleaser build dir to cmd\r\n\r\nSigned-off-by: Alex Goodman <wagoodman@users.noreply.github.com>\r\n\r\n* upgrade yardstick for grype source installs and fix post-ui tests\r\n\r\nSigned-off-by: Alex Goodman <wagoodman@users.noreply.github.com>\r\n\r\n* ensure stable severity map in UI component test\r\n\r\nSigned-off-by: Alex Goodman <wagoodman@users.noreply.github.com>\r\n\r\n* add windows support for tui\r\n\r\nSigned-off-by: Alex Goodman <wagoodman@users.noreply.github.com>\r\n\r\n---------\r\n\r\nSigned-off-by: Alex Goodman <wagoodman@users.noreply.github.com>",
         "release_tag": "v0.64.0",
         "release_date": "2023-07-13 15:23:26",
-        "release_message": "# Changelog\n\n## [v0.64.0](https://github.com/anchore/grype/tree/v0.64.0) (2023-07-13)\n\n[Full Changelog](https://github.com/anchore/grype/compare/v0.63.1...v0.64.0)\n\n### Added Features\n\n- Write to multiple output files (like syft) [[Issue #648](https://github.com/anchore/grype/issues/648)] [[PR #1346](https://github.com/anchore/grype/pull/1346)] [[olivierboudet](https://github.com/olivierboudet)]\n\n### Bug Fixes\n\n- False positive for alpine package [[Issue #601](https://github.com/anchore/grype/issues/601)]\n- Failed to detect format of CycloneDX XML SBOM with no components [[Issue #1005](https://github.com/anchore/grype/issues/1005)]\n- The logs showed 4 vulnerabilities, but the final report only had 2. [[Issue #1360](https://github.com/anchore/grype/issues/1360)]\n\n### Additional Changes\n\n- Port to new syft source API [[PR #1376](https://github.com/anchore/grype/pull/1376)] [[wagoodman](https://github.com/wagoodman)]\n\n\n\n"
+        "release_message": "# Changelog\r\n\r\n## [v0.64.0](https://github.com/anchore/grype/tree/v0.64.0) (2023-07-13)\r\n\r\n[Full Changelog](https://github.com/anchore/grype/compare/v0.63.1...v0.64.0)\r\n\r\n### Added Features\r\n\r\n- You can now list multiple output formats and files to write to disk with one command, like Syft: \"-o format1=file1 -o format1=file2\" [[Issue #648](https://github.com/anchore/grype/issues/648)] [[PR #1346](https://github.com/anchore/grype/pull/1346)] [[olivierboudet](https://github.com/olivierboudet)]\r\n\r\n### Bug Fixes\r\n\r\n- Correctly detect format of CycloneDX XML SBOM with no components [[Issue #1005](https://github.com/anchore/grype/issues/1005)]\r\n- Fix vulnerability summary counts to be less confusing. [[Issue #1360](https://github.com/anchore/grype/issues/1360)]\r\n\r\n### Additional Changes\r\n\r\n- Port to new Syft source API [[PR #1376](https://github.com/anchore/grype/pull/1376)] [[wagoodman](https://github.com/wagoodman)]\r\n- Include Syft 0.85.0\r\n\r\n\r\n\r\n"
     },
     "https://github.com/Metarget/metarget": {
         "created_at": "2021-04-09 04:20:47",
@@ -4277,7 +4277,7 @@
     "https://github.com/aiboboxx/v2rayfree": {
         "created_at": "2021-10-13 11:34:53",
         "description": "v2ray公益免费节点、最新2ray免费v节点订阅地址、v2ray免费节点每日更新、免费ss/v2ray/trojan节点、freefq ",
-        "commit_date": "2023-07-13 12:47:00",
+        "commit_date": "2023-07-14 12:44:10",
         "commit_message": "update",
         "release_tag": "",
         "release_date": "",
@@ -4304,8 +4304,8 @@
     "https://github.com/niudaii/zpscan": {
         "created_at": "2022-09-16 03:03:20",
         "description": "一个有点好用的信息收集工具。A somewhat useful information gathering tool.",
-        "commit_date": "2023-07-12 02:40:17",
-        "commit_message": "fix: jsjump",
+        "commit_date": "2023-07-14 09:50:08",
+        "commit_message": "refactor: sth",
         "release_tag": "v1.8.39",
         "release_date": "2023-03-21 06:02:58",
         "release_message": ""
@@ -4322,8 +4322,8 @@
     "https://github.com/freefq/free": {
         "created_at": "2020-06-07 02:48:33",
         "description": "翻墙、免费翻墙、免费科学上网、免费节点、免费梯子、免费ss/v2ray/trojan节点、蓝灯、谷歌商店、翻墙梯子",
-        "commit_date": "2023-07-14 00:00:03",
-        "commit_message": "updated_at 07-14 08:00",
+        "commit_date": "2023-07-15 00:00:03",
+        "commit_message": "updated_at 07-15 08:00",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -4601,8 +4601,8 @@
     "https://github.com/rockbenben/ChatGPT-Shortcut": {
         "created_at": "2023-02-24 12:53:49",
         "description": "🚀💪Maximize your efficiency and productivity, support for English,中文,Español,العربية. 让生产力加倍的 ChatGPT 快捷指令，按照领域和功能分区，可对提示词进行标签筛选、关键词搜索和一键复制。",
-        "commit_date": "2023-07-13 14:15:40",
-        "commit_message": "fix: Ensure the prompt language toggle button appears on non-English pages",
+        "commit_date": "2023-07-14 03:39:54",
+        "commit_message": "docs: update docs",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -4781,8 +4781,8 @@
     "https://github.com/zaivanza/all-in-one-v2": {
         "created_at": "2023-04-29 09:03:49",
         "description": "",
-        "commit_date": "2023-07-12 05:06:58",
-        "commit_message": "add zksync era to okx",
+        "commit_date": "2023-07-14 16:36:46",
+        "commit_message": "update woofi",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
