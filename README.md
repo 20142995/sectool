@@ -1,8 +1,9 @@
-# 更新于 2023-07-15 08:47:54
+# 更新于 2023-07-16 08:55:35
 
 ## 近15天release更新记录
 | 更新时间 | 项目名称 | 版本 | 更新内容 |
 | :---- | :---- | :---- | :---- |
+|2023-07-15 13:44:24|[Search_Viewer](https://github.com/G3et/Search_Viewer)|v3.0|版本：v3.0 2023/7/15    ·新增Censys  <br>  ·quake和zoomeye代码优化调整    ·界面<br>改动,新增语法参考    ·修复查询过大闪退<br>问题    ·修复导出时间戳被覆盖问题    ·<br>修复已知BUG|
 |2023-07-14 23:29:27|[mitaka](https://github.com/ninoseki/mitaka)|v1.3.1|Fiirefox only release to support Fire<br>fox MV3.    - https://addons.mozilla.o<br>rg/en-US/firefox/addon/mitaka/    ## N<br>otes    Please allow "Access your data<br> for all websites" permission. Otherwi<br>se this extension does not work.      |
 |2023-07-14 18:09:58|[CyberChef](https://github.com/gchq/CyberChef)|v10.5.2|See the  and  for details.|
 |2023-07-14 12:27:37|[safeline](https://github.com/chaitin/safeline)|v2.2.0|### 新增    - IP 组中新增长亭社区恶意<br> IP 情报，内容来自社区版共享的攻击 IP<br>，每日自动更新    ### 优化    - 升级核<br>心检测引擎，修复一些绕过和误报  - 管理<br>界面增加浏览器版本检查，如果版本过旧，<br>会提示升级浏览器  - 优化一些界面的 UI <br>交互细节  - 修复一些中英文翻译的问题|
@@ -31,26 +32,29 @@
 |2023-07-02 06:47:07|[ShiroAttack2](https://github.com/SummerSec/ShiroAttack2)|4.7.0|https://github.com/SummerSec/ShiroAtt<br>ack2/issues/45 thanks @y4tacker |
 |2023-07-02 04:28:53|[PEASS-ng](https://github.com/carlospolop/PEASS-ng)|2023070<br>2-bc7ce3<br>ac||
 |2023-07-01 05:29:18|[NextScan](https://github.com/tongcheng-security-team/NextScan)|v1.2.0|##### v1.2.0发布    ## Changelog    -<br>  perf 🚀 : yaml模版格式更新  -  perf <br>🚀 : 漏洞详情页面优化  -  perf 🚀 : 任<br>务查询功能优化  -  fix🐛: 修复爬虫运行<br>时错误  - fix:🐛 任务运行异常问题若干  <br>  |
-|2023-06-30 16:49:10|[cf](https://github.com/teamssix/cf)|v0.5.0|### 新增功能    *  新增阿里云用户数据<br>后门功能  *  新增阿里云镜像共享功能  * <br> 新增阿里云接管控制台时自动创建 AK 功<br>能  *  新增阿里云 RDS 列出详细信息功能 <br> *  新增阿里云 RDS 添加账号功能  *  新<br>增阿里云 RDS 创建公网访问地址的功能  * <br> 新增阿里云 RDS 添加白名单的功能  *   <br>新增查询 AK 所属云厂商功能   *  新增支<br>持 brew 安装    ### 功能优化    *  优化<br>配置功能，现在能自动识别配置是否处于可<br>用状态  *  优化实例公网 IP 展示，不存在<br>时会展示为空  *  优化 OSS 下载功能，现<br>在默认会下载所有文件  *  优化更新处理逻<br>辑  *  优化华为云 OBS 列出功能    ### B<br>ug 修复    *  修复批量执行命令时，没有<br>安装云助手导致批量执行中断的 Bug  *  修<br>复 OSS 下载文件无法自动创建目录的 Bug  <br>  ## 新贡献者  * @shadowabi made their<br> first contribution in https://github.<br>com/teamssix/cf/pull/227    **Full Cha<br>ngelog**: https://github.com/teamssix/<br>cf/compare/v0.4.5...v0.5.0|
 ## 近15天commit提交记录
 | 提交时间 | 项目名称 | 更新内容 |
 | :---- | :---- | :---- |
-|2023-07-15 00:00:03|[free](https://github.com/freefq/free)|updated_at 07-15 08:00|
+|2023-07-16 00:00:02|[free](https://github.com/freefq/free)|updated_at 07-16 08:00|
+|2023-07-15 20:15:54|[neuvector](https://github.com/neuvector/neuvector)|Merge pull request #912 from becitsthere/dev  NVSHA<br>S-7449: option to report cve in layers|
+|2023-07-15 15:03:00|[afrog](https://github.com/zan8in/afrog)|update|
+|2023-07-15 14:23:45|[Search_Viewer](https://github.com/G3et/Search_Viewer)|Update README.MD|
+|2023-07-15 14:14:10|[all-in-one-v2](https://github.com/zaivanza/all-in-one-v2)|update setting|
+|2023-07-15 12:39:27|[v2rayfree](https://github.com/aiboboxx/v2rayfree)|update|
+|2023-07-15 11:08:06|[BurpSuite-collect<br>ions](https://github.com/Mr-xn/BurpSuite-collections)|Update README.md|
+|2023-07-15 07:28:40|[WebGoat](https://github.com/WebGoat/WebGoat)|chore: bump commons-compress from 1.22 to 1.23.0 (#<br>1514)  Bumps commons-compress from 1.22 to 1.23.0.  <br>  ---  updated-dependencies:  - dependency-name: org<br>.apache.commons:commons-compress    dependency-type:<br> direct:production    update-type: version-update:se<br>mver-minor  ...    Signed-off-by: dependabot[bot]   <br>Co-authored-by: dependabot[bot] |
+|2023-07-15 07:11:50|[domain_hunter_pro](https://github.com/bit4woo/domain_hunter_pro)|Update JSONHandler.java|
+|2023-07-15 04:02:46|[PocOrExp_in_Githu<br>b](https://github.com/ycdxsb/PocOrExp_in_Github)|update Today.md|
 |2023-07-14 23:40:53|[mitaka](https://github.com/ninoseki/mitaka)|docs: update README [skip ci]|
 |2023-07-14 21:48:20|[Vuln-List](https://github.com/wwl012345/Vuln-List)|Update Windows&Linux提权&RCE合集.md|
 |2023-07-14 20:15:19|[NucleiTP](https://github.com/ExpLangcn/NucleiTP)|更新啦❤️|
 |2023-07-14 18:01:41|[CyberChef](https://github.com/gchq/CyberChef)|10.5.2|
-|2023-07-14 16:36:46|[all-in-one-v2](https://github.com/zaivanza/all-in-one-v2)|update woofi|
 |2023-07-14 15:35:54|[Burp-Non-HTTP-Ext<br>ension](https://github.com/summitt/Burp-Non-HTTP-Extension)|update bytes to always show original|
 |2023-07-14 15:24:35|[safeline](https://github.com/chaitin/safeline)|feat: add faq for online services addr|
-|2023-07-14 13:54:55|[afrog](https://github.com/zan8in/afrog)|update poc|
-|2023-07-14 12:44:10|[v2rayfree](https://github.com/aiboboxx/v2rayfree)|update|
 |2023-07-14 09:50:08|[zpscan](https://github.com/niudaii/zpscan)|refactor: sth|
 |2023-07-14 09:05:56|[Umi-OCR](https://github.com/hiroi-sora/Umi-OCR)|添加三个命令行指令（#173） 1. 指定弹出模式-window_t<br>op_mode，0为静默模式，1为自动弹出 2. 指定输出文件目<br>录，-output_file_path="目录" 3. 指定输出文件名前缀，-<br>output_file_name="文件名"|
-|2023-07-14 08:07:42|[domain_hunter_pro](https://github.com/bit4woo/domain_hunter_pro)|减少elastic的依赖包|
 |2023-07-14 07:46:48|[dbeaver](https://github.com/dbeaver/dbeaver)|Dbeaver/pro#1440 truststore manager (#20505)  * dbe<br>aver/pro#1440 add truststore usage on launch & ui ch<br>anges    * dbeaver/pro#1440 remove winstore from gen<br>eral settings in DBeaverEE && code cleanup & localis<br>ation    * dbeaver/pro#1440 remove excessive changes|
 |2023-07-14 07:42:42|[Some-PoC-oR-ExP](https://github.com/coffeehb/Some-PoC-oR-ExP)|Create CVE-2023-37582.py|
-|2023-07-14 04:02:46|[PocOrExp_in_Githu<br>b](https://github.com/ycdxsb/PocOrExp_in_Github)|update Today.md|
 |2023-07-14 03:39:54|[ChatGPT-Shortcut](https://github.com/rockbenben/ChatGPT-Shortcut)|docs: update docs|
 |2023-07-14 02:31:29|[vulnerability](https://github.com/lal0ne/vulnerability)|CVE-2023-24489|
 |2023-07-14 00:50:25|[OA-EXPTOOL](https://github.com/LittleBear4/OA-EXPTOOL)|Add files via upload|
@@ -65,7 +69,6 @@
 |2023-07-12 14:10:10|[faker](https://github.com/joke2k/faker)|Bump version: 19.0.0 → 19.1.0|
 |2023-07-12 12:57:22|[iDefender](https://github.com/wecooperate/iDefender)|update|
 |2023-07-11 19:02:23|[clair](https://github.com/quay/clair)|chore: bump Claircore to v1.5.9  Bump Claircore to <br>the latest tag.  Signed-off-by: crozzy |
-|2023-07-11 18:09:57|[neuvector](https://github.com/neuvector/neuvector)|Merge pull request #910 from kyledong-suse/main  NV<br>SHAS-5703 & NVSHAS-5365: API document change for Vio<br>lation|
 |2023-07-11 14:29:33|[veinmind-tools](https://github.com/chaitin/veinmind-tools)|refactor(plugins): refactor backdoor plugin (#252)|
 |2023-07-11 13:24:31|[wpscan](https://github.com/wpscanteam/wpscan)|Updates DFs|
 |2023-07-11 10:35:21|[feroxbuster](https://github.com/epi052/feroxbuster)|Merge pull request #938 from epi052/all-contributor<br>s/add-ktecv2000  docs: add ktecv2000 as a contributo<br>r for bug|
@@ -107,8 +110,7 @@
 |2023-07-02 16:09:12|[PEASS-ng](https://github.com/carlospolop/PEASS-ng)|Update aicoder.yml|
 |2023-07-01 22:24:38|[ShiroAttack2](https://github.com/SummerSec/ShiroAttack2)|:bug: fix https://github.com/SummerSec/ShiroAttack2<br>/issues/37|
 |2023-07-01 15:14:35|[pikachu](https://github.com/zhuifengshaonianhanlu/pikachu)|Merge pull request #33 from 8023/master  优化docker<br>file|
-|2023-07-01 15:12:07|[chatgpt](https://github.com/LangLangShanDeNanKe/chatgpt)|Update README.md|
-|2023-06-30 16:04:02|[All-Defense-Tool](https://github.com/guchangan1/All-Defense-Tool)|更新v2.4|## 所有项目
+|2023-07-01 15:12:07|[chatgpt](https://github.com/LangLangShanDeNanKe/chatgpt)|Update README.md|## 所有项目
 # 渗透测试
 ## 信息收集
 ### 资产测绘采集
@@ -116,7 +118,7 @@
 | :---- | :---- | :---- |
 | [InfoSearchAll](https://github.com/ExpLangcn/InfoSearchAll) | V1.2 | 为了方便安全从业人员在使用网络测绘平台进行信息搜集时的效率，本<br>程序集合了多个网络测绘平台，可以快速在多个网络测绘平台搜索信息并<br>且合并展示及导出。 |
 | [ThunderSearch](https://github.com/xzajyjs/ThunderSearch) | v2.3.3 | 【支持Fofa、Zoomeye、Quake等网络空间搜索引擎】闪电搜索器；GUI<br>图形化渗透测试信息搜集工具；资产搜集引擎 |
-| [Search_Viewer](https://github.com/G3et/Search_Viewer) | v2.0 | 集Fofa、Hunter鹰图、Shodan、360 quake、Zoomeye 钟馗之眼为一体<br>的gui图形界面化工具 |
+| [Search_Viewer](https://github.com/G3et/Search_Viewer) | v3.0 | 集Fofa、Hunter鹰图、Shodan、360 quake、Zoomeye 钟馗之眼、censy<br>s 为一体的gui图形界面化工具 |
 | [koko-moni](https://github.com/burpheart/koko-moni) | v0.0.1 | 一个网络空间搜索引擎监控平台，可定时进行资产信息爬取，及时发现<br>新增资产，本项目聚合了 Fofa、Hunter、Quake、Zoomeye 和 Threatboo<br>k 的数据源，并对获取到的数据进行去重与清洗 |
 | [AsamF](https://github.com/Kento-Sec/AsamF) | v0.2.4 | AsamF是集成Fofa、Quake、Hunter、Shodan、Zoomeye、Chinaz、0.zon<br>e及爱企查的一站式企业信息资产收集、网络资产测绘工具。 |
 | [fshzqSearch](https://github.com/Ifory885/fshzqSearch) |  | fofa、shodan、hunter、zoomeye、quake网络空间搜索引擎及github聚<br>合搜索，并对结果进行finger指纹识别。 |

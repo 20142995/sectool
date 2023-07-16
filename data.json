@@ -200,7 +200,7 @@
     "https://github.com/ycdxsb/PocOrExp_in_Github": {
         "created_at": "2021-04-13 05:46:16",
         "description": "聚合Github上已有的Poc或者Exp，CVE信息来自CVE官网。Auto Collect Poc Or Exp from Github by CVE ID.",
-        "commit_date": "2023-07-14 04:02:46",
+        "commit_date": "2023-07-15 04:02:46",
         "commit_message": "update Today.md",
         "release_tag": "",
         "release_date": "",
@@ -1026,8 +1026,8 @@
     "https://github.com/Mr-xn/BurpSuite-collections": {
         "created_at": "2020-01-25 02:07:37",
         "description": "有关burpsuite的插件(非商店),文章以及使用技巧的收集(此项目不再提供burpsuite破解文件,如需要请在博客mrxn.net下载)---Collection of burpsuite plugins (non-stores), articles and tips for using Burpsuite, no crack version file",
-        "commit_date": "2023-04-20 15:04:09",
-        "commit_message": "add burpsuite_hack、BypassPro插件",
+        "commit_date": "2023-07-15 11:08:06",
+        "commit_message": "Update README.md",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -2824,12 +2824,12 @@
     },
     "https://github.com/G3et/Search_Viewer": {
         "created_at": "2022-11-12 14:23:48",
-        "description": "集Fofa、Hunter鹰图、Shodan、360 quake、Zoomeye 钟馗之眼为一体的gui图形界面化工具",
-        "commit_date": "2023-02-17 13:54:38",
-        "commit_message": "Update search_viewer_ui.py",
-        "release_tag": "v2.0",
-        "release_date": "2023-02-17 13:57:27",
-        "release_message": "版本：v2.0 2023/02/17\r\n\r\n·修复导出时间戳\r\n\r\n·修复Hunter情况恢复页码\r\n\r\n·界面稍微调整\r\n\r\n·新增360 Quake\r\n\r\n·新增Zoomeye 钟馗之眼"
+        "description": "集Fofa、Hunter鹰图、Shodan、360 quake、Zoomeye 钟馗之眼、censys 为一体的gui图形界面化工具",
+        "commit_date": "2023-07-15 14:23:45",
+        "commit_message": "Update README.MD",
+        "release_tag": "v3.0",
+        "release_date": "2023-07-15 13:44:24",
+        "release_message": "版本：v3.0 2023/7/15\r\n\r\n·新增Censys\r\n\r\n·quake和zoomeye代码优化调整\r\n\r\n·界面改动,新增语法参考\r\n\r\n·修复查询过大闪退问题\r\n\r\n·修复导出时间戳被覆盖问题\r\n\r\n·修复已知BUG"
     },
     "https://github.com/Lotus6/ThinkphpGUI": {
         "created_at": "2021-06-22 15:01:04",
@@ -3050,8 +3050,8 @@
     "https://github.com/zan8in/afrog": {
         "created_at": "2022-02-24 06:00:32",
         "description": "A Security Tool for Bug Bounty, Pentest and Red Teaming.",
-        "commit_date": "2023-07-14 13:54:55",
-        "commit_message": "update poc",
+        "commit_date": "2023-07-15 15:03:00",
+        "commit_message": "update",
         "release_tag": "v2.7.2",
         "release_date": "2023-07-12 07:57:15",
         "release_message": "Changing the backlink alive check to concurrent execution.\r\nAdd go poc : ecology-filedownloadforoutdoc-sqli\r\nPoc Count:  1041\r\n\r\n将反链存活检查改为并发执行\r\n新增 go poc : ecology-filedownloadforoutdoc-sqli\r\nPoc 总数:  1041"
@@ -3406,8 +3406,8 @@
     "https://github.com/bit4woo/domain_hunter_pro": {
         "created_at": "2019-01-18 07:15:15",
         "description": "domain_hunter的高级版本，SRC挖洞、HW打点之必备！自动化资产收集；快速Title获取；外部工具联动；等等",
-        "commit_date": "2023-07-14 08:07:42",
-        "commit_message": "减少elastic的依赖包",
+        "commit_date": "2023-07-15 07:11:50",
+        "commit_message": "Update JSONHandler.java",
         "release_tag": "v1.9",
         "release_date": "2023-04-18 00:34:58",
         "release_message": "全局：\r\n多个bug修复\r\n布局模式优化\r\n基础方法实现逻辑优化\r\n\r\n右键菜单：\r\n“Do Search”提供主动在制定请求中进行搜索的能力，比如在某企业邮箱的流量中搜索以提取邮箱地址\r\n“Add Request And Comment”右键菜单添逻辑优化，修复一个bug\r\n“Send To Tool Panel”右键菜单处理逻辑优化，可合并发送多个数据包内容\r\n\r\nDomain面板：\r\nroot domain的comments逻辑更新\r\n提供多个网络搜索引擎的后台自动搜索功能\r\nroot domain双击，自动在浏览器中访问\r\n修改目标根域名删除失败的bug\r\n显示序号，以便在排序后恢复原始顺序\r\n\r\nTool面板：\r\n重写JTextArea的paste函数，避免大内容导致程序卡死\r\nJTextArea支持输入文件，而程序处理其内容。\r\n文本取提供简单的历史记录功能\r\nJSON提取逻辑优化\r\n新增多个功能，比如排序\r\n优化URL提取逻辑，避免遗漏没有以/开头的path\r\n\r\nTitle面板中：\r\n端口扫描命令生成逻辑优化\r\n备注和IP内容的显示优化，显示前排序\r\n备注添加逻辑优化\r\n给手动添加的记录添加已知的IP和CNAME、CertInfo\r\n搜索功能增强，支持对数字型字段进行大于、小于、等于等搜索\r\n添加多个搜索实例，以便用户熟悉搜索语法\r\n新增“Do Request Item Again”菜单，对DNS记录或无响应的数据包进行再次请求"
@@ -3890,8 +3890,8 @@
     "https://github.com/neuvector/neuvector": {
         "created_at": "2021-12-17 20:15:03",
         "description": "",
-        "commit_date": "2023-07-11 18:09:57",
-        "commit_message": "Merge pull request #910 from kyledong-suse/main\n\nNVSHAS-5703 & NVSHAS-5365: API document change for Violation",
+        "commit_date": "2023-07-15 20:15:54",
+        "commit_message": "Merge pull request #912 from becitsthere/dev\n\nNVSHAS-7449: option to report cve in layers",
         "release_tag": "v5.2.0",
         "release_date": "2023-07-06 05:43:13",
         "release_message": "##### Enhancements \r\n+ Searchable SaaS service for CVE lookups. NVSHAS-5852 Search the latest NeuVector CVE database to see if a specific CVE exists in the database.\r\n+ Support tokens for NeuVector API access. NVSHAS-6293\r\n+ Support AWS Marketplace PAYG billing for NeuVector monthly support subscriptions. Users can subscribe to NeuVector by SUSE support, billed monthly to their AWS account based on previous month's average node count usage. Details [here](https://open-docs.neuvector.com/deploying/awsmarketplace).\r\n+ Support image signing for admission controls. NVSHAS-6217, NVSHAS-6216.\r\n+ Enable each admission control rule to have its own mode of Monitor or Protect.NVSHAS-4062 A Deny action in Monitor mode will alert, and a Deny action in Protect mode will block. Allow actions are unaffected.\r\n+ Add a new \"operator\" in Policy > Admission Control > Add Rule. NVSHAS-6726 Support operators \"is between\" and \"is not between\" for both \"Users\" and \"User Groups\".\r\n+ Add support for custom admission control criteria such as resource limits. NVSHAS-7717\r\n+ Support invoking NeuVector scanner from Harbor registries through the [pluggable scanner](https://github.com/goharbor/pluggable-scanner-spec) interface.\r\n+ Allow user to disable network protection but keep WAF/DLP functioning. Configure Network Policy Enablement in Settings -> Configuration. NVSHAS-7725\r\n+ Use less privileged services accounts as required for each NeuVector component. NVSHAS-7603. A variable “leastPrivilege” is introduced. The default is false. NOTE: Using the current helm chart with this variable on a release prior to 5.2.0 will not function properly.\r\n+ Bind to non-default service account to meet CIS 1.5 5.1.5 recommendation. NVSHAS-7619\r\n+ Enable administrator to configure user default Session Time out. NVSHAS-7621\r\n+ Customizable login banner NVSHAS-6675. \r\n+ Customizable UI header text NVSHAS-7330.\r\n+ SYSLOG support for TLS encrypted transport. NVSHAS-4377\r\n+ Enable deployment of the NeuVector monitor helm chart from Rancher Manager.\r\n+ Remove upper limit for top level domain in URL validator for registry scanning. NVSHAS-7935\r\n+ Scan golang dependencies, including run-time scans.\r\n+ Support Debian 12 (Bookworm) vulnerability scan.\r\n+ Add CSV export for Registry / Details to export CVEs for all images in configured registry. NVSHAS-5993\r\n+ Allow NeuVector to set several ADFS certificates in parallel in x.509 certificate field. NVSHAS-7335\r\n+ Add and display the comment field for Response Rules.\r\n##### Bug Fixes\r\n+ Reduce repeating logs in enforcer/controller logs. NVSHAS-7832 {TBD???}\r\n+ Multiple clusters page does not render. NVSHAS-7742\r\n+ Empty group auto-removal takes 2 hours to delete instead of 1 hour according to schedule. NVSHAS-7791\r\n+ Manually allowed network rule not getting applied and resulting in violation for pause image. NVSHAS-7807\r\n+ Blocking SSL connections even if a network rule permits the traffic under certain initial conditions. NVSHAS-7923\r\n+ Security events warning even with allowed network rules due to policy update issue in synchronization. NVSHAS-8019\r\n+ Despite defining the network rules, violations getting logged under security events (false positives) when the container has stopped due to out of memory (OOM) error. NVSHAS-7830\r\n+ Allow user to disable/enable detection and protection against unmanaged container in cluster. NVSHAS-7804. This can be set through the Manager CLI:\r\n```\r\nset system detect_unmanaged_wl status -h\r\nUsage: cli set system detect_unmanaged_wl status [OPTIONS] {true|false}\r\n  Enable/disable detect unmanaged container\r\n```\r\n##### Other\r\n+ Add \"leastPrivilege\" setting in Helm chart.\r\n+ Enable AWS integration settings in Helm chart. "
@@ -4061,8 +4061,8 @@
     "https://github.com/WebGoat/WebGoat": {
         "created_at": "2015-03-06 14:02:02",
         "description": "WebGoat is a deliberately insecure application",
-        "commit_date": "2023-06-18 18:21:53",
-        "commit_message": "chore: bump asciidoctorj from 2.5.3 to 2.5.10 (#1498)\n\nBumps [asciidoctorj](https://github.com/asciidoctor/asciidoctorj) from 2.5.3 to 2.5.10.\r\n- [Release notes](https://github.com/asciidoctor/asciidoctorj/releases)\r\n- [Changelog](https://github.com/asciidoctor/asciidoctorj/blob/v2.5.10/CHANGELOG.adoc)\r\n- [Commits](https://github.com/asciidoctor/asciidoctorj/compare/v2.5.3...v2.5.10)\r\n\r\n---\r\nupdated-dependencies:\r\n- dependency-name: org.asciidoctor:asciidoctorj\r\n  dependency-type: direct:production\r\n  update-type: version-update:semver-patch\r\n...\r\n\r\nSigned-off-by: dependabot[bot] <support@github.com>\r\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
+        "commit_date": "2023-07-15 07:28:40",
+        "commit_message": "chore: bump commons-compress from 1.22 to 1.23.0 (#1514)\n\nBumps commons-compress from 1.22 to 1.23.0.\r\n\r\n---\r\nupdated-dependencies:\r\n- dependency-name: org.apache.commons:commons-compress\r\n  dependency-type: direct:production\r\n  update-type: version-update:semver-minor\r\n...\r\n\r\nSigned-off-by: dependabot[bot] <support@github.com>\r\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
         "release_tag": "v2023.4",
         "release_date": "2023-02-17 12:16:10",
         "release_message": "## Version 2023.4\r\n\r\n### New functionality\r\n\r\n- [#1422 Add Docker Linux Desktop variant with all tools installed](https://github.com/WebGoat/WebGoat/issues/1422). Thanks to the [OWASP WrongSecrets project](https://owasp.org/www-project-wrongsecrets/) we now have a Docker Linux desktop image with all the tools installed. No need to install any tools locally only run the new Docker image. See README.md for details on how to start it.\r\n- [#1411 JWT: looks that buy as Tom also works with alg:none](https://github.com/WebGoat/WebGoat/issues/1411).\r\n\r\n### Bug fixes\r\n\r\n- [#1410 WebWolf: JWT decode is broken](https://github.com/WebGoat/WebGoat/issues/1410).\r\n- [#1396 password_reset return 500 Error](https://github.com/WebGoat/WebGoat/issues/1396).\r\n- [#1379 Move XXE to A05:2021-Security Misconfiguration](https://github.com/WebGoat/WebGoat/issues/1379)."
@@ -4277,7 +4277,7 @@
     "https://github.com/aiboboxx/v2rayfree": {
         "created_at": "2021-10-13 11:34:53",
         "description": "v2ray公益免费节点、最新2ray免费v节点订阅地址、v2ray免费节点每日更新、免费ss/v2ray/trojan节点、freefq ",
-        "commit_date": "2023-07-14 12:44:10",
+        "commit_date": "2023-07-15 12:39:27",
         "commit_message": "update",
         "release_tag": "",
         "release_date": "",
@@ -4322,8 +4322,8 @@
     "https://github.com/freefq/free": {
         "created_at": "2020-06-07 02:48:33",
         "description": "翻墙、免费翻墙、免费科学上网、免费节点、免费梯子、免费ss/v2ray/trojan节点、蓝灯、谷歌商店、翻墙梯子",
-        "commit_date": "2023-07-15 00:00:03",
-        "commit_message": "updated_at 07-15 08:00",
+        "commit_date": "2023-07-16 00:00:02",
+        "commit_message": "updated_at 07-16 08:00",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -4781,8 +4781,8 @@
     "https://github.com/zaivanza/all-in-one-v2": {
         "created_at": "2023-04-29 09:03:49",
         "description": "",
-        "commit_date": "2023-07-14 16:36:46",
-        "commit_message": "update woofi",
+        "commit_date": "2023-07-15 14:14:10",
+        "commit_message": "update setting",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
