@@ -200,7 +200,7 @@
     "https://github.com/ycdxsb/PocOrExp_in_Github": {
         "created_at": "2021-04-13 05:46:16",
         "description": "聚合Github上已有的Poc或者Exp，CVE信息来自CVE官网。Auto Collect Poc Or Exp from Github by CVE ID.",
-        "commit_date": "2023-07-15 04:02:46",
+        "commit_date": "2023-07-16 04:02:45",
         "commit_message": "update Today.md",
         "release_tag": "",
         "release_date": "",
@@ -3059,8 +3059,8 @@
     "https://github.com/moonD4rk/HackBrowserData": {
         "created_at": "2020-06-18 03:24:31",
         "description": "Decrypt passwords/cookies/history/bookmarks from the browser. 一款可全平台运行的浏览器数据导出解密工具。",
-        "commit_date": "2023-07-10 09:53:13",
-        "commit_message": "fix: nil browsing data in case error and walkdir instead of walk (#229)\n\n* fix: nil browsing data in case error\r\n\r\nSigned-off-by: Andrii Ursulenko <a.ursulenko@gmail.com>\r\n\r\n* fix: ignore walk error, use walkdir instead of walk\r\n\r\n---------\r\n\r\nSigned-off-by: Andrii Ursulenko <a.ursulenko@gmail.com>\r\nCo-authored-by: Andrii Ursulenko <a.ursulenko@gmail.com>",
+        "commit_date": "2023-07-16 01:33:27",
+        "commit_message": "chore: update contributors [skip ci]",
         "release_tag": "v0.4.4",
         "release_date": "2022-08-16 11:59:57",
         "release_message": "## Changes\r\n- fix: find Chrome cookie file failed on windows @moonD4rk (#162)\r\n- deploy: update more check on CI @moonD4rk (#160)\r\n- refactor: formate code by golangci-lint @moonD4rk (#159)\r\n- fix: can not access the file Error when compress results @slimwang (#156)"
@@ -3971,8 +3971,8 @@
     "https://github.com/aquasecurity/trivy": {
         "created_at": "2019-04-11 01:01:07",
         "description": "Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more",
-        "commit_date": "2023-07-13 11:16:11",
-        "commit_message": "fix(sbom): cyclonedx recommendations should include fixed versions for each package (#4794)\n\n* add all fixed versions to recommendations\n\n* fix tests",
+        "commit_date": "2023-07-16 09:06:28",
+        "commit_message": "docs: correcting the trivy k8s tutorial (#4815)\n\n* correcting the trivy k8s tutorial\n\nSigned-off-by: AnaisUrlichs <urlichsanais@gmail.com>\n\n* docs: fix\n\n---------\n\nSigned-off-by: AnaisUrlichs <urlichsanais@gmail.com>\nCo-authored-by: knqyf263 <knqyf263@gmail.com>",
         "release_tag": "v0.43.1",
         "release_date": "2023-07-07 09:40:41",
         "release_message": "## Changelog\n* 5d76abadc chore(deps): Update defsec to v0.90.3 (#4793)\n* fed446c51 chore(deps): bump google.golang.org/protobuf from 1.30.0 to 1.31.0 (#4752)\n* df62927e5 chore(deps): bump alpine from 3.18.0 to 3.18.2 (#4748)\n* 1b9b9a84f chore(deps): bump github.com/alicebob/miniredis/v2 from 2.30.3 to 2.30.4 (#4758)\n* 3c16ca821 docs(image): fix the comment on the soft/hard link (#4740)\n* e5bee5ccc check Type when filling pkgs in vulns (#4776)\n* 4b9f310b9 feat: add support of linux/ppc64le and linux/s390x architectures for Install.sh script (#4770)\n* 8e7fb7cc8 chore(deps): bump modernc.org/sqlite from 1.20.3 to 1.23.1 (#4756)\n* a9badeaba fix(rocky): add architectures support for advisories (#4691)\n* f8ebccc68 chore(deps): bump github.com/opencontainers/image-spec (#4751)\n* 1c81948e0 chore(deps): bump github.com/package-url/packageurl-go (#4754)\n* 497cc10d8 chore(deps): bump golang.org/x/sync from 0.2.0 to 0.3.0 (#4750)\n* 065f0afa5 chore(deps): bump github.com/tetratelabs/wazero from 1.2.0 to 1.2.1 (#4755)\n* e2603056d chore(deps): bump github.com/testcontainers/testcontainers-go (#4759)\n* 0621402bf fix: documentation about reseting trivy image (#4733)\n* 798fdbc01 fix(suse): Add openSUSE Leap 15.5 eol date as well (#4744)\n* 34a89293d fix: update Amazon Linux 1 EOL (#4761)\n\n"
@@ -4061,8 +4061,8 @@
     "https://github.com/WebGoat/WebGoat": {
         "created_at": "2015-03-06 14:02:02",
         "description": "WebGoat is a deliberately insecure application",
-        "commit_date": "2023-07-15 07:28:40",
-        "commit_message": "chore: bump commons-compress from 1.22 to 1.23.0 (#1514)\n\nBumps commons-compress from 1.22 to 1.23.0.\r\n\r\n---\r\nupdated-dependencies:\r\n- dependency-name: org.apache.commons:commons-compress\r\n  dependency-type: direct:production\r\n  update-type: version-update:semver-minor\r\n...\r\n\r\nSigned-off-by: dependabot[bot] <support@github.com>\r\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
+        "commit_date": "2023-07-16 15:14:27",
+        "commit_message": "bug: Fix IDOR lesson",
         "release_tag": "v2023.4",
         "release_date": "2023-02-17 12:16:10",
         "release_message": "## Version 2023.4\r\n\r\n### New functionality\r\n\r\n- [#1422 Add Docker Linux Desktop variant with all tools installed](https://github.com/WebGoat/WebGoat/issues/1422). Thanks to the [OWASP WrongSecrets project](https://owasp.org/www-project-wrongsecrets/) we now have a Docker Linux desktop image with all the tools installed. No need to install any tools locally only run the new Docker image. See README.md for details on how to start it.\r\n- [#1411 JWT: looks that buy as Tom also works with alg:none](https://github.com/WebGoat/WebGoat/issues/1411).\r\n\r\n### Bug fixes\r\n\r\n- [#1410 WebWolf: JWT decode is broken](https://github.com/WebGoat/WebGoat/issues/1410).\r\n- [#1396 password_reset return 500 Error](https://github.com/WebGoat/WebGoat/issues/1396).\r\n- [#1379 Move XXE to A05:2021-Security Misconfiguration](https://github.com/WebGoat/WebGoat/issues/1379)."
@@ -4277,7 +4277,7 @@
     "https://github.com/aiboboxx/v2rayfree": {
         "created_at": "2021-10-13 11:34:53",
         "description": "v2ray公益免费节点、最新2ray免费v节点订阅地址、v2ray免费节点每日更新、免费ss/v2ray/trojan节点、freefq ",
-        "commit_date": "2023-07-15 12:39:27",
+        "commit_date": "2023-07-16 12:39:10",
         "commit_message": "update",
         "release_tag": "",
         "release_date": "",
@@ -4322,8 +4322,8 @@
     "https://github.com/freefq/free": {
         "created_at": "2020-06-07 02:48:33",
         "description": "翻墙、免费翻墙、免费科学上网、免费节点、免费梯子、免费ss/v2ray/trojan节点、蓝灯、谷歌商店、翻墙梯子",
-        "commit_date": "2023-07-16 00:00:02",
-        "commit_message": "updated_at 07-16 08:00",
+        "commit_date": "2023-07-17 00:00:02",
+        "commit_message": "updated_at 07-17 08:00",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -4601,8 +4601,8 @@
     "https://github.com/rockbenben/ChatGPT-Shortcut": {
         "created_at": "2023-02-24 12:53:49",
         "description": "🚀💪Maximize your efficiency and productivity, support for English,中文,Español,العربية. 让生产力加倍的 ChatGPT 快捷指令，按照领域和功能分区，可对提示词进行标签筛选、关键词搜索和一键复制。",
-        "commit_date": "2023-07-14 03:39:54",
-        "commit_message": "docs: update docs",
+        "commit_date": "2023-07-16 16:07:49",
+        "commit_message": "feat: Add API caching to optimize performance",
         "release_tag": "",
         "release_date": "",
         "release_message": ""

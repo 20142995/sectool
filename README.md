@@ -1,4 +1,4 @@
-# 更新于 2023-07-16 08:55:35
+# 更新于 2023-07-17 08:51:42
 
 ## 近15天release更新记录
 | 更新时间 | 项目名称 | 版本 | 更新内容 |
@@ -31,20 +31,22 @@
 |2023-07-02 10:36:57|[captcha-killer-mo<br>dified](https://github.com/f0ng/captcha-killer-modified)|0.24.1|【2023-7-2】 0.24.1  - #27 修复加载插<br>件影响intruder速度的问题(临时增加了一个<br>按钮控制是否开启该插件)      |
 |2023-07-02 06:47:07|[ShiroAttack2](https://github.com/SummerSec/ShiroAttack2)|4.7.0|https://github.com/SummerSec/ShiroAtt<br>ack2/issues/45 thanks @y4tacker |
 |2023-07-02 04:28:53|[PEASS-ng](https://github.com/carlospolop/PEASS-ng)|2023070<br>2-bc7ce3<br>ac||
-|2023-07-01 05:29:18|[NextScan](https://github.com/tongcheng-security-team/NextScan)|v1.2.0|##### v1.2.0发布    ## Changelog    -<br>  perf 🚀 : yaml模版格式更新  -  perf <br>🚀 : 漏洞详情页面优化  -  perf 🚀 : 任<br>务查询功能优化  -  fix🐛: 修复爬虫运行<br>时错误  - fix:🐛 任务运行异常问题若干  <br>  |
 ## 近15天commit提交记录
 | 提交时间 | 项目名称 | 更新内容 |
 | :---- | :---- | :---- |
-|2023-07-16 00:00:02|[free](https://github.com/freefq/free)|updated_at 07-16 08:00|
+|2023-07-17 00:00:02|[free](https://github.com/freefq/free)|updated_at 07-17 08:00|
+|2023-07-16 16:07:49|[ChatGPT-Shortcut](https://github.com/rockbenben/ChatGPT-Shortcut)|feat: Add API caching to optimize performance|
+|2023-07-16 15:14:27|[WebGoat](https://github.com/WebGoat/WebGoat)|bug: Fix IDOR lesson|
+|2023-07-16 12:39:10|[v2rayfree](https://github.com/aiboboxx/v2rayfree)|update|
+|2023-07-16 09:06:28|[trivy](https://github.com/aquasecurity/trivy)|docs: correcting the trivy k8s tutorial (#4815)  * <br>correcting the trivy k8s tutorial  Signed-off-by: An<br>aisUrlichs   * docs: fix  ---------  Signed-off-by: <br>AnaisUrlichs  Co-authored-by: knqyf263 |
+|2023-07-16 04:02:45|[PocOrExp_in_Githu<br>b](https://github.com/ycdxsb/PocOrExp_in_Github)|update Today.md|
+|2023-07-16 01:33:27|[HackBrowserData](https://github.com/moonD4rk/HackBrowserData)|chore: update contributors [skip ci]|
 |2023-07-15 20:15:54|[neuvector](https://github.com/neuvector/neuvector)|Merge pull request #912 from becitsthere/dev  NVSHA<br>S-7449: option to report cve in layers|
 |2023-07-15 15:03:00|[afrog](https://github.com/zan8in/afrog)|update|
 |2023-07-15 14:23:45|[Search_Viewer](https://github.com/G3et/Search_Viewer)|Update README.MD|
 |2023-07-15 14:14:10|[all-in-one-v2](https://github.com/zaivanza/all-in-one-v2)|update setting|
-|2023-07-15 12:39:27|[v2rayfree](https://github.com/aiboboxx/v2rayfree)|update|
 |2023-07-15 11:08:06|[BurpSuite-collect<br>ions](https://github.com/Mr-xn/BurpSuite-collections)|Update README.md|
-|2023-07-15 07:28:40|[WebGoat](https://github.com/WebGoat/WebGoat)|chore: bump commons-compress from 1.22 to 1.23.0 (#<br>1514)  Bumps commons-compress from 1.22 to 1.23.0.  <br>  ---  updated-dependencies:  - dependency-name: org<br>.apache.commons:commons-compress    dependency-type:<br> direct:production    update-type: version-update:se<br>mver-minor  ...    Signed-off-by: dependabot[bot]   <br>Co-authored-by: dependabot[bot] |
 |2023-07-15 07:11:50|[domain_hunter_pro](https://github.com/bit4woo/domain_hunter_pro)|Update JSONHandler.java|
-|2023-07-15 04:02:46|[PocOrExp_in_Githu<br>b](https://github.com/ycdxsb/PocOrExp_in_Github)|update Today.md|
 |2023-07-14 23:40:53|[mitaka](https://github.com/ninoseki/mitaka)|docs: update README [skip ci]|
 |2023-07-14 21:48:20|[Vuln-List](https://github.com/wwl012345/Vuln-List)|Update Windows&Linux提权&RCE合集.md|
 |2023-07-14 20:15:19|[NucleiTP](https://github.com/ExpLangcn/NucleiTP)|更新啦❤️|
@@ -55,14 +57,12 @@
 |2023-07-14 09:05:56|[Umi-OCR](https://github.com/hiroi-sora/Umi-OCR)|添加三个命令行指令（#173） 1. 指定弹出模式-window_t<br>op_mode，0为静默模式，1为自动弹出 2. 指定输出文件目<br>录，-output_file_path="目录" 3. 指定输出文件名前缀，-<br>output_file_name="文件名"|
 |2023-07-14 07:46:48|[dbeaver](https://github.com/dbeaver/dbeaver)|Dbeaver/pro#1440 truststore manager (#20505)  * dbe<br>aver/pro#1440 add truststore usage on launch & ui ch<br>anges    * dbeaver/pro#1440 remove winstore from gen<br>eral settings in DBeaverEE && code cleanup & localis<br>ation    * dbeaver/pro#1440 remove excessive changes|
 |2023-07-14 07:42:42|[Some-PoC-oR-ExP](https://github.com/coffeehb/Some-PoC-oR-ExP)|Create CVE-2023-37582.py|
-|2023-07-14 03:39:54|[ChatGPT-Shortcut](https://github.com/rockbenben/ChatGPT-Shortcut)|docs: update docs|
 |2023-07-14 02:31:29|[vulnerability](https://github.com/lal0ne/vulnerability)|CVE-2023-24489|
 |2023-07-14 00:50:25|[OA-EXPTOOL](https://github.com/LittleBear4/OA-EXPTOOL)|Add files via upload|
 |2023-07-13 17:26:12|[awesome-chatgpt-z<br>h](https://github.com/yzfly/awesome-chatgpt-zh)|add gpt-prompt-engineer|
 |2023-07-13 17:21:52|[syft](https://github.com/anchore/syft)|remove jotframe UI (#1932)  Signed-off-by: Alex Goo<br>dman |
 |2023-07-13 17:13:48|[grype](https://github.com/anchore/grype)|Port UI to bubbletea (#1385)  * initial port to bub<br>bletea    Signed-off-by: Alex Goodman     * remove j<br>otframe UI    Signed-off-by: Alex Goodman     * add <br>bubbletea component tests    Signed-off-by: Alex Goo<br>dman     * update main.go refs to cmd package    Sig<br>ned-off-by: Alex Goodman     * move goreleaser build<br> dir to cmd    Signed-off-by: Alex Goodman     * upg<br>rade yardstick for grype source installs and fix pos<br>t-ui tests    Signed-off-by: Alex Goodman     * ensu<br>re stable severity map in UI component test    Signe<br>d-off-by: Alex Goodman     * add windows support for<br> tui    Signed-off-by: Alex Goodman     ---------   <br> Signed-off-by: Alex Goodman |
 |2023-07-13 11:24:39|[zksync](https://github.com/nftscripts/zksync)|Update orbiter_bridge.py|
-|2023-07-13 11:16:11|[trivy](https://github.com/aquasecurity/trivy)|fix(sbom): cyclonedx recommendations should include<br> fixed versions for each package (#4794)  * add all <br>fixed versions to recommendations  * fix tests|
 |2023-07-13 07:35:28|[0day](https://github.com/helloexp/0day)|add linux privilege escalation  CVE-2023-35829|
 |2023-07-13 02:18:06|[Vulnerability-Wik<br>i](https://github.com/Threekiii/Vulnerability-Wiki)|更新README.md|
 |2023-07-12 14:23:51|[nemo_go](https://github.com/hanc00l/nemo_go)|Fix: domain列表和详情中的icon显示|
@@ -82,7 +82,6 @@
 |2023-07-10 21:03:54|[ghauri](https://github.com/r0oth3x49/ghauri)|updated code quality, fixed issue with payloads..|
 |2023-07-10 15:17:56|[ObserverWard](https://github.com/0x727/ObserverWard)|Merge pull request #177 from 0x727/dependabot/cargo<br>/serde_yaml-0.9.22  Bump serde_yaml from 0.9.21 to 0<br>.9.22|
 |2023-07-10 14:47:27|[subfinder](https://github.com/projectdiscovery/subfinder)|Remove additional -U of apk in Dockerfile (#886)|
-|2023-07-10 09:53:13|[HackBrowserData](https://github.com/moonD4rk/HackBrowserData)|fix: nil browsing data in case error and walkdir in<br>stead of walk (#229)  * fix: nil browsing data in ca<br>se error    Signed-off-by: Andrii Ursulenko     * fi<br>x: ignore walk error, use walkdir instead of walk   <br> ---------    Signed-off-by: Andrii Ursulenko   Co-a<br>uthored-by: Andrii Ursulenko |
 |2023-07-10 09:49:53|[404StarLink](https://github.com/knownsec/404StarLink)|weekly update at 2023-07-10|
 |2023-07-10 08:51:35|[murphysec](https://github.com/murphysecurity/murphysec)|fix(npm): lockfile|
 |2023-07-09 13:29:16|[X-Marshal](https://github.com/XTeam-Wing/X-Marshal)|Update README.md|
@@ -107,10 +106,7 @@
 |2023-07-03 16:14:56|[RedisEXP](https://github.com/yuyan-sec/RedisEXP)|github actions|
 |2023-07-03 13:12:25|[nuclei](https://github.com/projectdiscovery/nuclei)|dep update|
 |2023-07-03 07:07:35|[ARL](https://github.com/TophantTechnology/ARL)|Merge pull request #589 from ox01024/update-ipGeo-S<br>ource  使用第三方源的GeoLite2-City更新|
-|2023-07-02 16:09:12|[PEASS-ng](https://github.com/carlospolop/PEASS-ng)|Update aicoder.yml|
-|2023-07-01 22:24:38|[ShiroAttack2](https://github.com/SummerSec/ShiroAttack2)|:bug: fix https://github.com/SummerSec/ShiroAttack2<br>/issues/37|
-|2023-07-01 15:14:35|[pikachu](https://github.com/zhuifengshaonianhanlu/pikachu)|Merge pull request #33 from 8023/master  优化docker<br>file|
-|2023-07-01 15:12:07|[chatgpt](https://github.com/LangLangShanDeNanKe/chatgpt)|Update README.md|## 所有项目
+|2023-07-02 16:09:12|[PEASS-ng](https://github.com/carlospolop/PEASS-ng)|Update aicoder.yml|## 所有项目
 # 渗透测试
 ## 信息收集
 ### 资产测绘采集
