@@ -357,6 +357,7 @@
                 - https://github.com/dream0x01/weblogic-framework
                 - https://github.com/KimJun1010/WeblogicTool
                 - https://github.com/4ra1n/CVE-2023-21839
+                - https://github.com/TideSec/Decrypt_Weblogic_Password
 
 
         OA产品漏洞:
@@ -827,4 +828,9 @@ CTF:
         - https://github.com/EZLippi/WebBench
     其他:
         - https://github.com/baidu/dperf
+杂七杂八:
+    开源远程软件:
+        - https://github.com/FreeRDP/FreeRDP
+        - https://github.com/quasar/Quasar
+        - https://github.com/rustdesk/rustdesk
         
