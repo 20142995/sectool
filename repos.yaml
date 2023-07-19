@@ -298,6 +298,22 @@
                 - https://github.com/BishopFox/rmiscout
             JDWP:
                 - https://github.com/IOActive/jdwp-shellifier
+
+    漏洞检测利用库:
+        组件漏洞:
+            Fastjson:
+                - https://github.com/a1phaboy/FastjsonScan
+                - https://github.com/safe6Sec/Fastjson
+                - https://github.com/hosch3n/FastjsonVulns
+                - https://github.com/iSafeBlue/fastjson-autotype-bypass-dem
+        OA产品漏洞:
+            通达OA:
+                - https://github.com/xiaokp7/TongdaOATools
+            用友OA:
+                - https://github.com/novysodope/fupo_for_yonyou
+        数据库漏洞利用:
+            数据库自动化提权:
+                - https://github.com/Hel10-Web/Databasetools
     漏洞文库:
         - https://github.com/BaizeSec/bylibrary
         - https://github.com/PeiQi0/PeiQi-WIKI-Book
