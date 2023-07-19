@@ -623,7 +623,6 @@
             - https://github.com/nszy007/CN_Nessus_Plugins_Interface
             - https://github.com/xxcdd/docker_nessus_unlimited
             - https://github.com/starnightcyber/nessus_api
-            - "[nessus下载地址](https://www.tenable.com/downloads/nessus?loginAttempted=true)"
         rsas:
             - https://github.com/biggerwing/nsfocus-rsas-knowledge-base
             - https://github.com/autoing/RSAS-Data-Export
@@ -720,7 +719,6 @@ CTF:
             - https://github.com/Cl0udG0d/AWDDocker
             - https://github.com/yqw1212/Liaoning-provincial-competition-target-1
             - https://github.com/871339097/wordpress
-            - https://github.com/zhl2008/awd-platform
         防护:
             - https://github.com/DasSecurity-HatLab/AoiAWD
             - https://github.com/sharpleung/CTF-WAF
@@ -734,51 +732,8 @@ CTF:
         - https://github.com/Bypass007/Emergency-Response-Notes
     后门查杀:
         - https://github.com/RoomaSec/RmTools
-其他:
-    其他:
-        - https://github.com/joke2k/faker
-        - https://github.com/pppscn/SmsForwarder
-        - https://github.com/dbeaver/dbeaver
-        - https://github.com/TheKingOfDuck/MySQLMonitor
-        - https://github.com/alphasoc/flightsim
-        - https://github.com/babysor/MockingBird
-        - https://github.com/wgpsec/tig
-    渗透测试报告辅助:
-        - https://github.com/Anof-cyber/APTRS
-        - https://github.com/0x727/BugRepoter_0x727
-        - https://github.com/Mustard404/Savior
-        - https://github.com/1u0Hun/SAReport
-        - https://github.com/dbgee/pentest_report
-        - https://github.com/linshaoSec/WaterExp
-        - https://github.com/CTF-MissFeng/report
-    动态口令:
-        - https://github.com/mdp/rotp
-    科学上网:
-        - https://github.com/v2rayA/v2rayA
-        - https://github.com/freefq/free
-        - https://github.com/aiboboxx/v2rayfree
-    笔记:
-        - https://github.com/jackfrued/Python-100-Days
-        
-    文档:
-        - https://github.com/awake1t/HackReport
-    文字识别:
-        - https://github.com/hiroi-sora/Umi-OCR
-    chatgpt:
-        - https://github.com/LangLangShanDeNanKe/chatgpt
-        - https://github.com/dalinvip/Awesome-ChatGPT
-        - https://github.com/yzfly/awesome-chatgpt-zh
-        - https://github.com/vincelwt/chatgpt-mac
-        - https://github.com/rockbenben/ChatGPT-Shortcut
-    APP合规:
-        - https://github.com/zhengjim/camille
-    blockchain:
-        - https://github.com/zaivanza/all-in-one-v2
-        - https://github.com/nftscripts/zksync
-        - https://github.com/bxdoan/zksync-auto
-        - https://github.com/zksync-sdk/zksync2-python
-
-
+    威胁情报收集:
+        - https://github.com/wgpsec/tig 
 安全产品:
     威胁检测:
         - https://github.com/RoomaSec/RmEye
@@ -796,7 +751,62 @@ CTF:
         - https://github.com/4ra1n/mysql-fake-server
     主机入侵防御:
         - https://github.com/wecooperate/iDefender
-靶场:
+
+杂七杂八:
+    远程软件:
+        - https://github.com/FreeRDP/FreeRDP
+        - https://github.com/quasar/Quasar
+        - https://github.com/rustdesk/rustdesk
+    生成虚假数据:
+        - https://github.com/joke2k/faker
+    短信转发器:
+        - https://github.com/pppscn/SmsForwarder
+    数据库管理软件:
+        - https://github.com/dbeaver/dbeaver
+    MySQL实时监控工具:
+        - https://github.com/TheKingOfDuck/MySQLMonitor
+    恶意网络流量模拟:
+        - https://github.com/alphasoc/flightsim
+    克隆声音:
+        - https://github.com/babysor/MockingBird
+
+    渗透测试报告辅助:
+        - https://github.com/Anof-cyber/APTRS
+        - https://github.com/0x727/BugRepoter_0x727
+        - https://github.com/Mustard404/Savior
+        - https://github.com/1u0Hun/SAReport
+        - https://github.com/dbgee/pentest_report
+        - https://github.com/linshaoSec/WaterExp
+        - https://github.com/CTF-MissFeng/report
+    动态口令:
+        - https://github.com/mdp/rotp
+    科学上网:
+        - https://github.com/v2rayA/v2rayA
+        - https://github.com/freefq/free
+        - https://github.com/aiboboxx/v2rayfree
+    python笔记:
+        - https://github.com/jackfrued/Python-100-Days
+        
+    报告模板:
+        - https://github.com/awake1t/HackReport
+    文字识别:
+        - https://github.com/hiroi-sora/Umi-OCR
+    chatgpt:
+        - https://github.com/LangLangShanDeNanKe/chatgpt
+        - https://github.com/dalinvip/Awesome-ChatGPT
+        - https://github.com/yzfly/awesome-chatgpt-zh
+        - https://github.com/vincelwt/chatgpt-mac
+        - https://github.com/rockbenben/ChatGPT-Shortcut
+    APP合规:
+        - https://github.com/zhengjim/camille
+    区块链:
+        - https://github.com/zaivanza/all-in-one-v2
+        - https://github.com/nftscripts/zksync
+        - https://github.com/bxdoan/zksync-auto
+        - https://github.com/zksync-sdk/zksync2-python
+    网站压测工具:
+        - https://github.com/EZLippi/WebBench
+        - https://github.com/baidu/dperf
     web靶场:
         - https://github.com/linjiananallnt/ElectricRat
         - https://github.com/c0ny1/vulstudy
@@ -815,22 +825,3 @@ CTF:
         - https://github.com/bugku/BWVS
         - https://github.com/Medicean/VulApps
         - https://github.com/vulhub/vulhub
-    AWD靶场:
-        - https://github.com/glzjin/20190511_awd_docker
-        - https://github.com/zhl2008/awd-platform
-        - https://github.com/mo-xiaoxi/AWD_CTF_Platform
-        - https://github.com/Cl0udG0d/AWDDocker
-        - https://github.com/yqw1212/Liaoning-provincial-competition-target-1
-        - https://github.com/871339097/wordpress
-        - https://github.com/zhl2008/awd-platform
-压力测试:
-    网站压测工具:
-        - https://github.com/EZLippi/WebBench
-    其他:
-        - https://github.com/baidu/dperf
-杂七杂八:
-    开源远程软件:
-        - https://github.com/FreeRDP/FreeRDP
-        - https://github.com/quasar/Quasar
-        - https://github.com/rustdesk/rustdesk
-        
