@@ -727,6 +727,7 @@ CTF:
         - https://github.com/starjun/openstar
         - https://github.com/chaitin/safeline
     欺骗防御:
+        - https://github.com/decoymini/DecoyMini
         - https://github.com/C4o/Juggler
         - https://github.com/fnmsd/MySQL_Fake_Server
         - https://github.com/BeichenDream/MysqlT
