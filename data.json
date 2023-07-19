@@ -200,7 +200,7 @@
     "https://github.com/ycdxsb/PocOrExp_in_Github": {
         "created_at": "2021-04-13 05:46:16",
         "description": "聚合Github上已有的Poc或者Exp，CVE信息来自CVE官网。Auto Collect Poc Or Exp from Github by CVE ID.",
-        "commit_date": "2023-07-17 04:02:45",
+        "commit_date": "2023-07-18 04:03:04",
         "commit_message": "update Today.md",
         "release_tag": "",
         "release_date": "",
@@ -461,7 +461,7 @@
     "https://github.com/ExpLangcn/NucleiTP": {
         "created_at": "2022-11-08 13:16:56",
         "description": "自动整合全网Nuclei的漏洞POC，实时同步更新最新POC！",
-        "commit_date": "2023-07-14 20:15:19",
+        "commit_date": "2023-07-19 01:00:16",
         "commit_message": "更新啦❤️",
         "release_tag": "",
         "release_date": "",
@@ -648,8 +648,8 @@
     "https://github.com/helloexp/0day": {
         "created_at": "2022-04-07 04:28:29",
         "description": "各种CMS、各种平台、各种系统、各种软件漏洞的EXP、POC ,该项目将持续更新",
-        "commit_date": "2023-07-13 07:35:28",
-        "commit_message": "add linux privilege escalation  CVE-2023-35829",
+        "commit_date": "2023-07-18 08:43:29",
+        "commit_message": "add rocketMQ RCE  CVE-2023-33246",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -828,8 +828,8 @@
     "https://github.com/murphysecurity/murphysec": {
         "created_at": "2022-03-16 02:52:33",
         "description": "An open source tool focused on software supply chain security. 墨菲安全专注于软件供应链安全，具备专业的软件成分分析（SCA）、漏洞检测、专业漏洞库。",
-        "commit_date": "2023-07-17 09:15:02",
-        "commit_message": "feat: add --no-wait",
+        "commit_date": "2023-07-18 07:59:45",
+        "commit_message": "style: use `time.Since` instead of `time.Now().Sub` (gosimple)",
         "release_tag": "v3.1.1",
         "release_date": "2023-05-15 12:52:58",
         "release_message": "Support NPM lockfile v3 "
@@ -1888,11 +1888,11 @@
     "https://github.com/hanc00l/nemo_go": {
         "created_at": "2021-07-29 08:13:25",
         "description": "Nemo是用来进行自动化信息收集的一个简单平台，通过集成常用的信息收集工具和技术，实现对内网及互联网资产信息的自动收集，提高隐患排查和渗透测试的工作效率。",
-        "commit_date": "2023-07-12 14:23:51",
-        "commit_message": "Fix: domain列表和详情中的icon显示",
+        "commit_date": "2023-07-18 07:03:07",
+        "commit_message": "Fix: 修正domainscan对结果IP的端口扫描未执行的bug",
         "release_tag": "v2.9.4",
         "release_date": "2023-06-21 05:56:55",
-        "release_message": "### Updated\r\n\r\n- Nemo安装及使用文档v1.0；\r\n\r\n### Fix\r\n\r\n- v2.9.3的release包里，thirdparty/fingerprinthub目录里没有打包二进制文件\r\n"
+        "release_message": "### Updated\r\n\r\n- Nemo安装及使用文档v1.0；\r\n\r\n### Fix\r\n\r\n- v2.9.3的release包里，thirdparty/fingerprinthub目录里没有打包二进制文件\r\n- 修正domainscan对结果IP的端口扫描未执行的bug\r\n- domain列表和详情中的icon显示\r\n"
     },
     "https://github.com/yuyan-sec/RedisEXP": {
         "created_at": "2022-03-19 14:41:00",
@@ -2951,8 +2951,8 @@
     "https://github.com/dbeaver/dbeaver": {
         "created_at": "2015-10-21 08:26:28",
         "description": "Free universal database tool and SQL client",
-        "commit_date": "2023-07-17 15:38:12",
-        "commit_message": "dbeaver/pro#1645 Allow importing multiple sheets into different table (#20571)",
+        "commit_date": "2023-07-18 15:57:58",
+        "commit_message": "Merge remote-tracking branch 'origin/devel' into devel",
         "release_tag": "23.1.2",
         "release_date": "2023-07-09 16:23:13",
         "release_message": "\n                - SQL editor:\n                    - Mouse hovering over editor annotations was fixed\n                    - Trailing DDL query delimiter processing was fixed\n                - Data editor:\n                    - References panel refresh was fixed\n                    - XML presentation was fixed (NULL value handler)\n                - General UI:\n                    - Settings reset UI and behavior were redesigned\n                    - Editor tab tooltip now contains information abut resource's project\n                    - CLI parameter for app version print was added\n                    - Objects with mixed case names caching was fixed\n                    - Issue with program launch with wrong Java version was fixed\n                    - Preferences export/import UI was improved\n                    - Maven snapshot repository was added to default configuration\n                - Connections: kerberos support in legacy JDBC drivers (Hive) was fixed\n                - Data transfer: table information for tasks with broken connection was fixed\n                - Databases:\n                    - BigQuery: driver version was upgraded to 1.3.3 (thanks to @fredlegaucher)\n                    - DuckDB: LIST data type support was added\n                    - Firebird: filters and sorting in grouping panel were fixed\n                    - IBM i: driver download was fixed\n                    - Oracle:\n                        - Partitions cache refresh was fixed\n                        - Stored procedures edit/save was fixed\n                    - PostgreSQL: enum columns alter was fixed\n                    - Snowflake:\n                        - Client application name set was fixed\n                        - Quoted identifiers auto-completion was fixed\n                - Misc: internal app controller server now uses HTTP instead of RMI\n            "
@@ -3099,7 +3099,7 @@
         "commit_message": "Merge branch 'dev'",
         "release_tag": "v2.9.9",
         "release_date": "2023-07-17 23:33:47",
-        "release_message": "<!-- Release notes generated using configuration in .github/release.yml at main -->\r\n\r\n## What's Changed\r\n\r\n### 🎉 Features\r\n\r\n* Added env variable support to disable automatic template update from specifc source (#3705) by @kchason in https://github.com/projectdiscovery/nuclei/pull/3926\r\n```console\r\nexport DISABLE_NUCLEI_TEMPLATES_PUBLIC_DOWNLOAD=true # Disable download from the default nuclei-templates project\r\nexport DISABLE_NUCLEI_TEMPLATES_GITHUB_DOWNLOAD=true # Disable download from public / private GitHub project(s)\r\nexport DISABLE_NUCLEI_TEMPLATES_GITLAB_DOWNLOAD=true # Disable download from public / private GitLab project(s)\r\nexport DISABLE_NUCLEI_TEMPLATES_AWS_DOWNLOAD=true # Disable download from public / private AWS Bucket(s)\r\nexport DISABLE_NUCLEI_TEMPLATES_AZURE_DOWNLOAD=true # Disable download from public / private Azure Blob Storage\r\n```\r\n* Added helper function to calculate jarm hash by @Mzack9999 in https://github.com/projectdiscovery/nuclei/pull/3906\r\n```yaml\r\n{{jarm(\"1.1.1.1:443\")}}\r\n```\r\n* Added support for `disable-path-automerge` in unsafe mode by @RamanaReddy0M in https://github.com/projectdiscovery/nuclei/pull/3888\r\n* Added request/reponse in include in result as default by @kchason in https://github.com/projectdiscovery/nuclei/pull/3710\r\n* Added `epss-percentile` attribute template classification section by @ehsandeep in https://github.com/projectdiscovery/nuclei/pull/3911\r\n```yaml\r\n  classification:\r\n    epss-percentile: 0.00064\r\n```\r\n* Added option to optionally exclude request/reponse in results by @kchason in https://github.com/projectdiscovery/nuclei/pull/3710\r\n```console\r\n   -or, -omit-raw  omit request/response pairs in the JSON, JSONL, and Markdown outputs (for findings only)\r\n```\r\n* Added automatic target merge in network templates by @Mzack9999 in https://github.com/projectdiscovery/nuclei/pull/3904\r\n\r\n### 🐞 Bugs\r\n\r\n* Fixed issue in workflow concurrency by @Mzack9999 in https://github.com/projectdiscovery/nuclei/pull/3903\r\n\r\n### 🔨 Maintenance\r\n\r\n* Fixed issue in the payload generator by @tarunKoyalwar in https://github.com/projectdiscovery/nuclei/pull/3918\r\n\r\n### 🔨 Other Changes\r\n* Added ztls fallback support as default for tls connection by @tarunKoyalwar in https://github.com/projectdiscovery/nuclei/pull/3909\r\n\r\n### 🔨 Security - (breaking change ⚠️)\r\n\r\n* Fixed issue with payloads loading in sandbox mode by @Mzack9999 in https://github.com/projectdiscovery/nuclei/pull/3927\r\n* Disabled payload loading from arbitrary location as default by @Ice3man543  in https://github.com/projectdiscovery/nuclei/pull/3927\r\n* Added option to disable network connection to local / private by @Ice3man543 in https://github.com/projectdiscovery/nuclei/pull/3927\r\n```\r\n   -lfa, -allow-local-file-access        allows file (payload) access anywhere on the system\r\n   -lna, -restrict-local-network-access  blocks connections to the local / private network\r\n```\r\n\r\n### 🔨 Deprecated\r\n\r\n- `-sandbox` option (now brokedown into two new option `-lfa`, `-lna`)\r\n- `-irr, -include-rr` option (now enabled as default)\r\n\r\nIssues closed in this release - https://github.com/projectdiscovery/nuclei/milestone/36?closed=1\r\n\r\n**Full Changelog**: https://github.com/projectdiscovery/nuclei/compare/v2.9.8...v2.9.9"
+        "release_message": "<!-- Release notes generated using configuration in .github/release.yml at main -->\r\n\r\n## What's Changed\r\n\r\n### 🎉 Features\r\n\r\n* Added env variable support to disable automatic template update from specifc source (#3705) by @kchason in https://github.com/projectdiscovery/nuclei/pull/3926\r\n```console\r\nexport DISABLE_NUCLEI_TEMPLATES_PUBLIC_DOWNLOAD=true # Disable download from the default nuclei-templates project\r\nexport DISABLE_NUCLEI_TEMPLATES_GITHUB_DOWNLOAD=true # Disable download from public / private GitHub project(s)\r\nexport DISABLE_NUCLEI_TEMPLATES_GITLAB_DOWNLOAD=true # Disable download from public / private GitLab project(s)\r\nexport DISABLE_NUCLEI_TEMPLATES_AWS_DOWNLOAD=true # Disable download from public / private AWS Bucket(s)\r\nexport DISABLE_NUCLEI_TEMPLATES_AZURE_DOWNLOAD=true # Disable download from public / private Azure Blob Storage\r\n```\r\n* Added helper function to calculate jarm hash by @Mzack9999 in https://github.com/projectdiscovery/nuclei/pull/3906\r\n```yaml\r\n{{jarm(\"1.1.1.1:443\")}}\r\n```\r\n* Added support for `disable-path-automerge` in unsafe mode by @RamanaReddy0M in https://github.com/projectdiscovery/nuclei/pull/3888\r\n* Added request/reponse in include in result as default by @kchason in https://github.com/projectdiscovery/nuclei/pull/3710\r\n* Added `epss-percentile` attribute template classification section by @ehsandeep in https://github.com/projectdiscovery/nuclei/pull/3911\r\n```yaml\r\n  classification:\r\n    epss-percentile: 0.00064\r\n```\r\n* Added option to optionally exclude request/reponse in results by @kchason in https://github.com/projectdiscovery/nuclei/pull/3710\r\n```console\r\n   -or, -omit-raw  omit request/response pairs in the JSON, JSONL, and Markdown outputs (for findings only)\r\n```\r\n* Added automatic target merge in network templates by @Mzack9999 in https://github.com/projectdiscovery/nuclei/pull/3904\r\n\r\n### 🐞 Bugs\r\n\r\n* Fixed issue in workflow concurrency by @Mzack9999 in https://github.com/projectdiscovery/nuclei/pull/3903\r\n\r\n### 🔨 Maintenance\r\n\r\n* Fixed issue in the payload generator by @tarunKoyalwar in https://github.com/projectdiscovery/nuclei/pull/3918\r\n\r\n### 🔨 Other Changes\r\n* Added ztls fallback support as default for tls connection by @tarunKoyalwar in https://github.com/projectdiscovery/nuclei/pull/3909\r\n\r\n### ⚠️ Security (breaking change)\r\n\r\n* Fixed issue with payloads loading in sandbox mode by @Mzack9999 in https://github.com/projectdiscovery/nuclei/pull/3927\r\n* Disabled payload loading from arbitrary location as default by @Ice3man543  in https://github.com/projectdiscovery/nuclei/pull/3927\r\n* Added option to disable network connection to local / private by @Ice3man543 in https://github.com/projectdiscovery/nuclei/pull/3927\r\n```\r\n   -lfa, -allow-local-file-access        allows file (payload) access anywhere on the system\r\n   -lna, -restrict-local-network-access  blocks connections to the local / private network\r\n```\r\n\r\n### 🔨 Deprecated\r\n\r\n- `-sandbox` option (now brokedown into two new option `-lfa`, `-lna`)\r\n- `-irr, -include-rr` option (now enabled as default)\r\n\r\nIssues closed in this release - https://github.com/projectdiscovery/nuclei/milestone/36?closed=1\r\n\r\n**Full Changelog**: https://github.com/projectdiscovery/nuclei/compare/v2.9.8...v2.9.9"
     },
     "https://github.com/sleeyax/burp-awesome-tls": {
         "created_at": "2022-01-24 00:30:26",
@@ -3219,7 +3219,7 @@
     "https://github.com/Threekiii/Awesome-Redteam": {
         "created_at": "2022-02-08 00:45:03",
         "description": "一个红队知识仓库",
-        "commit_date": "2023-07-05 01:49:32",
+        "commit_date": "2023-07-18 06:56:48",
         "commit_message": "更新README.md",
         "release_tag": "",
         "release_date": "",
@@ -3406,8 +3406,8 @@
     "https://github.com/bit4woo/domain_hunter_pro": {
         "created_at": "2019-01-18 07:15:15",
         "description": "domain_hunter的高级版本，SRC挖洞、HW打点之必备！自动化资产收集；快速Title获取；外部工具联动；等等",
-        "commit_date": "2023-07-15 07:11:50",
-        "commit_message": "Update JSONHandler.java",
+        "commit_date": "2023-07-18 09:19:05",
+        "commit_message": "Update LineEntryMenu.java",
         "release_tag": "v1.9",
         "release_date": "2023-04-18 00:34:58",
         "release_message": "全局：\r\n多个bug修复\r\n布局模式优化\r\n基础方法实现逻辑优化\r\n\r\n右键菜单：\r\n“Do Search”提供主动在制定请求中进行搜索的能力，比如在某企业邮箱的流量中搜索以提取邮箱地址\r\n“Add Request And Comment”右键菜单添逻辑优化，修复一个bug\r\n“Send To Tool Panel”右键菜单处理逻辑优化，可合并发送多个数据包内容\r\n\r\nDomain面板：\r\nroot domain的comments逻辑更新\r\n提供多个网络搜索引擎的后台自动搜索功能\r\nroot domain双击，自动在浏览器中访问\r\n修改目标根域名删除失败的bug\r\n显示序号，以便在排序后恢复原始顺序\r\n\r\nTool面板：\r\n重写JTextArea的paste函数，避免大内容导致程序卡死\r\nJTextArea支持输入文件，而程序处理其内容。\r\n文本取提供简单的历史记录功能\r\nJSON提取逻辑优化\r\n新增多个功能，比如排序\r\n优化URL提取逻辑，避免遗漏没有以/开头的path\r\n\r\nTitle面板中：\r\n端口扫描命令生成逻辑优化\r\n备注和IP内容的显示优化，显示前排序\r\n备注添加逻辑优化\r\n给手动添加的记录添加已知的IP和CNAME、CertInfo\r\n搜索功能增强，支持对数字型字段进行大于、小于、等于等搜索\r\n添加多个搜索实例，以便用户熟悉搜索语法\r\n新增“Do Request Item Again”菜单，对DNS记录或无响应的数据包进行再次请求"
@@ -3908,8 +3908,8 @@
     "https://github.com/anchore/syft": {
         "created_at": "2020-05-07 18:19:29",
         "description": "CLI tool and library for generating a Software Bill of Materials from container images and filesystems",
-        "commit_date": "2023-07-17 18:19:21",
-        "commit_message": "docs: update docs with new docker specific instructions (#1941)\n\n* docs: update docs with new docker specific instructions\r\n---------\r\n\r\nSigned-off-by: Christopher Phillips <christopher.phillips@anchore.com>",
+        "commit_date": "2023-07-18 18:06:34",
+        "commit_message": "remove build binary and add explicit git ignore\n\n\nFormer-commit-id: 6455f2d8a5f1910b4a8b681ddef79919886d638d",
         "release_tag": "v0.85.0",
         "release_date": "2023-07-12 17:45:16",
         "release_message": "# Changelog\r\n\r\n## [v0.85.0](https://github.com/anchore/syft/tree/v0.85.0) (2023-07-12)\r\n\r\n[Full Changelog](https://github.com/anchore/syft/compare/v0.84.1...v0.85.0)\r\n\r\n### Added Features\r\n\r\n- Add a --base-path command line flag to set the directory base for scans (this option was previously exposed via API only) [[PR #1867](https://github.com/anchore/syft/pull/1867)] [[deitch](https://github.com/deitch)]\r\n- Add file source digest support [[PR #1914](https://github.com/anchore/syft/pull/1914)] [[wagoodman](https://github.com/wagoodman)]\r\n- Remove erroneous Java CPEs from generation [[PR #1918](https://github.com/anchore/syft/pull/1918)] [[luhring](https://github.com/luhring)]\r\n- Fix CPE generation for k8s python client [[PR #1921](https://github.com/anchore/syft/pull/1921)] [[luhring](https://github.com/luhring)]\r\n- Don't use the actual redis or grpc CPEs for gems [[PR #1926](https://github.com/anchore/syft/pull/1926)] [[luhring](https://github.com/luhring)]\r\n- The text user interface is now provided by the bubbletea library [[Issue #1441](https://github.com/anchore/syft/issues/1441)] [[PR #1888](https://github.com/anchore/syft/pull/1888)] [[wagoodman](https://github.com/wagoodman)]\r\n\r\n### Bug Fixes\r\n\r\n- Install script returns exit code 0 even if install fails [[Issue #1566](https://github.com/anchore/syft/issues/1566)] [[PR #1915](https://github.com/anchore/syft/pull/1915)] [[lorsatti](https://github.com/lorsatti)]\r\n- [Windows] Not able to scan volume mounted to folder [[Issue #1828](https://github.com/anchore/syft/issues/1828)] [[PR #1884](https://github.com/anchore/syft/pull/1884)] [[dd-cws](https://github.com/dd-cws)]\r\n- Deprecated license: GFDL-1.2+ [[Issue #1899](https://github.com/anchore/syft/issues/1899)] [[PR #1907](https://github.com/anchore/syft/pull/1907)] [[spiffcs](https://github.com/spiffcs)]\r\n\r\n### Breaking Changes\r\n\r\n- Revisit the `source.New*` set of functions [[Issue #1866](https://github.com/anchore/syft/issues/1866)] [[PR #1846](https://github.com/anchore/syft/pull/1846)] [[wagoodman](https://github.com/wagoodman)]\r\n\r\n### Additional Changes\r\n\r\n- chore: update iterations to protect against race [[PR #1927](https://github.com/anchore/syft/pull/1927)] [[spiffcs](https://github.com/spiffcs)]\r\n- fix: background reader apart from global handler for testing [[PR #1929](https://github.com/anchore/syft/pull/1929)] [[spiffcs](https://github.com/spiffcs)]\r\n\r\n\r\n\r\n"
@@ -3980,8 +3980,8 @@
     "https://github.com/anchore/grype": {
         "created_at": "2020-05-26 13:44:38",
         "description": "A vulnerability scanner for container images and filesystems",
-        "commit_date": "2023-07-17 20:16:34",
-        "commit_message": "Pass correct output file (#1391)\n\nPreviously, the wrong path would get passed, and the template file would\r\nget truncated.\r\n\r\nSigned-off-by: Will Murphy <will.murphy@anchore.com>",
+        "commit_date": "2023-07-18 16:54:19",
+        "commit_message": "chore: bump yardstick to address PyYAML cython compatibility issues (#1394)\n\nSigned-off-by: Weston Steimel <weston.steimel@anchore.com>",
         "release_tag": "v0.64.1",
         "release_date": "2023-07-17 20:34:48",
         "release_message": "# Changelog\r\n\r\n## [v0.64.1](https://github.com/anchore/grype/tree/v0.64.1) (2023-07-17)\r\n\r\n[Full Changelog](https://github.com/anchore/grype/compare/v0.64.0...v0.64.1)\r\n\r\n### Bug Fixes                                                                                                       \r\n                                                                                                                    \r\n- stop truncating template files [Issue #1388](https://github.com/anchore/grype/issues/1388) [PR #1391](https://github.com/anchore/grype/pull/1391) [willmurphyscode](https://github.com/willmurphyscode)\r\n\r\n### Additional Changes\r\n\r\n- Port UI to bubbletea [[PR #1385](https://github.com/anchore/grype/pull/1385)] [[wagoodman](https://github.com/wagoodman)]\r\n\r\n\r\n\r\n"
@@ -4277,7 +4277,7 @@
     "https://github.com/aiboboxx/v2rayfree": {
         "created_at": "2021-10-13 11:34:53",
         "description": "v2ray公益免费节点、最新2ray免费v节点订阅地址、v2ray免费节点每日更新、免费ss/v2ray/trojan节点、freefq ",
-        "commit_date": "2023-07-17 12:47:52",
+        "commit_date": "2023-07-18 12:41:12",
         "commit_message": "update",
         "release_tag": "",
         "release_date": "",
@@ -4322,8 +4322,8 @@
     "https://github.com/freefq/free": {
         "created_at": "2020-06-07 02:48:33",
         "description": "翻墙、免费翻墙、免费科学上网、免费节点、免费梯子、免费ss/v2ray/trojan节点、蓝灯、谷歌商店、翻墙梯子",
-        "commit_date": "2023-07-18 00:00:02",
-        "commit_message": "updated_at 07-18 08:00",
+        "commit_date": "2023-07-19 00:00:03",
+        "commit_message": "updated_at 07-19 08:00",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -4592,8 +4592,8 @@
     "https://github.com/yzfly/awesome-chatgpt-zh": {
         "created_at": "2023-03-21 02:16:34",
         "description": "ChatGPT 中文指南🔥，ChatGPT 中文调教指南，指令指南，应用开发指南，精选资源清单，更好的使用 chatGPT 让你的生产力 up up up! 🚀",
-        "commit_date": "2023-07-13 17:26:12",
-        "commit_message": "add gpt-prompt-engineer",
+        "commit_date": "2023-07-18 14:45:58",
+        "commit_message": "add gpt-runner",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
