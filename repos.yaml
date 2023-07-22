@@ -124,6 +124,7 @@
             - https://github.com/StarCrossPortal/QingTing
             - https://github.com/amcai/myscan
             - https://github.com/tongcheng-security-team/NextScan
+            - https://github.com/Bywalks/DarkAngel/
         中间件&框架漏洞扫描:
             - https://github.com/rabbitmask/WeblogicScan
             - https://github.com/woodpecker-appstore/weblogic-infodetector
@@ -148,6 +149,7 @@
         漏洞发现:
             - https://github.com/x364e3ab6/Dude
             - https://github.com/jorhelp/Ingram
+            - https://github.com/tongcheng-security-team/NextScan
         信息泄露监控:
             - https://github.com/4x99/code6
             - https://github.com/madneal/gshark
@@ -179,7 +181,8 @@
             - https://github.com/lz520520/railgun
             - https://github.com/gobysec/Goby
             - https://github.com/niudaii/zpscan
-
+        漏洞利用框架:
+            - https://github.com/woodpecker-framework/woodpecker-framework-release
 
 
         漏洞利用辅助:
@@ -330,6 +333,7 @@
                 - https://github.com/wyzxxz/shiro_rce_tool
                 - https://github.com/SummerSec/ShiroAttack2
                 - https://github.com/j1anFen/shiro_attack
+                - https://github.com/feihong-cs/ShiroExploit-Deprecated
             Apache Struts2:
                 - https://github.com/xfiftyone/STS2G
                 - https://github.com/HatBoy/Struts2-Scan
@@ -370,9 +374,11 @@
             用友OA:
                 - https://github.com/novysodope/fupo_for_yonyou
                 - https://github.com/li8u99/yonyou_exp_plus
+                - https://github.com/woodpecker-appstore/yonyou-nc-decrypter
             致远OA:
                 - https://github.com/Summer177/seeyon_exp
                 - https://github.com/God-Ok/SeeyonExploit-GUI
+                - https://github.com/Rvn0xsy/PassDecode-jar
             OA综合:
                 - https://github.com/LittleBear4/OA-EXPTOOL
         数据库漏洞利用:
@@ -399,6 +405,10 @@
             - https://github.com/AntSwordProject/antSword
             - https://github.com/WangYihang/Platypus
             - https://github.com/yzddmr6/As-Exploits
+        生成webshell:
+            - https://github.com/cseroad/Webshell_Generate
+        webshell:
+            - https://github.com/backlion/webshell
         后门:
             - https://github.com/wgpsec/CreateHiddenAccount
         远控:
@@ -415,6 +425,9 @@
             - https://github.com/jthuraisamy/SysWhispers2
             - https://github.com/Anyyy111/killEscaper
             - https://github.com/Axx8/ShellCode_Loader
+            - https://github.com/knownsec/shellcodeloader
+            - https://github.com/1y0n/AV_Evasion_Tool
+            - https://github.com/TideSec/GoBypassAV
     权限提升:
         windows提权:
             - https://github.com/BeichenDream/BadPotato
@@ -433,16 +446,16 @@
     内网渗透:
         网段探测:
             - https://github.com/shmilylty/netspy
-        免杀:
-            - https://github.com/knownsec/shellcodeloader
-            - https://github.com/1y0n/AV_Evasion_Tool
         代理转发:
             - https://github.com/sensepost/reGeorg
             - https://github.com/ph4ntonn/Stowaway
             - https://github.com/knownsec/PortForward
             - https://github.com/Mob2003/rakshasa
             - https://github.com/ehang-io/nps
+            - https://github.com/OrangeWatermelon/frp_cmd
         密码提取:
+            - https://github.com/gentilkiwi/mimikatz
+            
             - https://github.com/passer-W/FinalShell-Decoder
             - https://github.com/JDArmy/SharpXDecrypt
             - https://github.com/dzxs/Xdecrypt
@@ -591,6 +604,7 @@
             - https://github.com/Tsojan/TsojanScan
             - https://github.com/bit4woo/burp-api-drops
             - https://github.com/gand3lf/semgrepper
+            - https://github.com/tpt11fb/SpringVulScan
         xray:
             - https://github.com/zema1/yarx
             - https://github.com/phith0n/xray-poc-generation
