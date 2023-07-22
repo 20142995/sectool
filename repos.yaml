@@ -755,16 +755,50 @@ CTF:
             - https://github.com/sharpleung/CTF-WAF
             - https://github.com/dr0op/k4l0ng_WAF
 应急响应:
+    Linux:
+        自动化检查:
+            - https://github.com/grayddq/GScan
+            - https://github.com/al0ne/LinuxCheck
+            - https://github.com/alexandreborges/malwoverview
+            - http://rkhunter.sourceforge.net/
+            - https://github.com/RoomaSec/RmTools
+        进程分析:
+            - https://github.com/evilsocket/uroboros
+            - https://processhacker.sourceforge.io/
+        命令辅助:
+            - https://github.com/heikanet/whohk
+    Windows:
+        进程分析:
+            - https://github.com/ClownQq/YDArk
+            - https://docs.microsoft.com/zh-cn/sysinternals/downloads/
+        日志分析:
+            - https://www.microsoft.com/en-us/download/details.aspx?id=24659
+            - https://github.com/ahmedkhlief/APT-Hunter
+        信息采集:
+            - https://github.com/MountCloud/FireKylin
     web日志分析:
         - https://github.com/minhangxiaohui/DecodeSomeJSPWebshell
+        - https://github.com/r00tuser111/SerializationDumper-Shiro
+    webshell查杀:
+        - http://www.shelldetector.com/
+        - https://www.shellpub.com/
+        - https://github.com/kunwu2023/kunwu
     内存马查杀:
         - https://github.com/4ra1n/shell-analyzer
+        - https://github.com/alibaba/arthas
+        - https://github.com/huoji120/DuckMemoryScan
+        - https://github.com/c0ny1/java-memshell-scanner
+        - https://github.com/LandGrey/copagent
+        - https://github.com/r00t4dm/aLIEz
     知识库:
-        - https://github.com/Bypass007/Emergency-Response-Notes
-    后门查杀:
-        - https://github.com/RoomaSec/RmTools
+        - https://github.com/Bypass007/Emergency-Response-Notes 
     威胁情报收集:
-        - https://github.com/wgpsec/tig 
+        - https://github.com/wgpsec/tig
+        - https://github.com/CRED-CLUB/ARTIF
+    勒索解密:
+        - https://github.com/jiansiting/Decryption-Tools
+
+    
 安全产品:
     威胁检测:
         - https://github.com/RoomaSec/RmEye
@@ -780,6 +814,8 @@ CTF:
         - https://github.com/fnmsd/MySQL_Fake_Server
         - https://github.com/BeichenDream/MysqlT
         - https://github.com/4ra1n/mysql-fake-server
+        - https://github.com/BeichenDream/WhetherMysqlSham
+        - https://github.com/seccome/Ehoney
     主机入侵防御:
         - https://github.com/wecooperate/iDefender
 
