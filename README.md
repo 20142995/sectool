@@ -1,8 +1,9 @@
-# 更新于 2023-07-21 08:43:26
+# 更新于 2023-07-22 08:43:40
 
 ## 近15天release更新记录
 | 更新时间 | 项目名称 | 版本 | 更新内容 |
 | :---- | :---- | :---- | :---- |
+|2023-07-21 02:33:21|[ObserverWard](https://github.com/0x727/ObserverWard)|v2023.7<br>.21|## [2023.7.21] - 2023.7.21  ### Fixes<br>  - --gen参数可以配合--yaml参数将指定y<br>aml目录中的全部yaml指纹规则生成单个jso<br>n文件，主要方便自定义指纹，生成便携单<br>文件。 - /home/kali-team/IdeaProjects/F<br>ingerprintHub/web_fingerprint是存放yam<br>l的目录，web_fingerprint_v3.json是生成<br>的文件路径。  bash ➜  ~ ./observer_war<br>d --yaml /home/kali-team/IdeaProjects/<br>FingerprintHub/web_fingerprint --gen w<br>eb_fingerprint_v3.json ➜  ~ jq length<br> web_fingerprint_v3.json 3448  - 添加<br>如果本地没有指纹库，会自动更新指纹。防<br>止跑完发现没有下载指纹，白跑了目标。|
 |2023-07-20 16:57:57|[faker](https://github.com/joke2k/faker)|v19.2.0|See .|
 |2023-07-20 13:46:54|[grype](https://github.com/anchore/grype)|v0.64.2|# Changelog    ##  (2023-07-20)      <br>  ### Bug Fixes    - grype 0.64.0 does<br>n't list vulnerabilties if --fail-on f<br>ails ] ] ]    |
 |2023-07-20 09:49:02|[safeline](https://github.com/chaitin/safeline)|v2.3.1|### 新增    ‒ 检测日志升级为**攻击事<br>件** ，自动聚合同一攻击 IP 短时间内的所<br>有攻击日志，方便管理员进行监控和处置  <br>‒ 日志支持按时间（）、动作筛选    ### <br>修复    ‒ 修复添加/编辑站点时，上传证<br>书处未翻译中文的问题  ‒ 修复数据统计中<br>，“访问来源地区” 小概率出现的部分地区<br>显示不正确的问题|
@@ -25,39 +26,41 @@
 |2023-07-09 05:05:02|[ENScan_GO](https://github.com/wgpsec/ENScan_GO)|0.0.13|- 修复天X查BUG （需要设置代理挂上burp<br>参考 #66）   > -n 小米 -type tyc --debu<br>g --proxy http://127.0.0.1:8080/|
 |2023-07-07 11:36:04|[zksync2-python](https://github.com/zksync-sdk/zksync2-python)|v0.6.0|Add support for account abstraction a<br>nd paymaster features:    - Add smart <br>account deployment with create opcode.<br>  - Add smart account deployment with <br>create2 opcode.  - Support Paymaster p<br>arameters in EIP712 Transactions. Paym<br>aster features can be used with EIP712<br> Transactions.  |
 |2023-07-07 09:40:41|[trivy](https://github.com/aquasecurity/trivy)|v0.43.1|## Changelog * 5d76abadc chore(deps):<br> Update defsec to v0.90.3 (#4793) * fe<br>d446c51 chore(deps): bump google.golan<br>g.org/protobuf from 1.30.0 to 1.31.0 (<br>#4752) * df62927e5 chore(deps): bump a<br>lpine from 3.18.0 to 3.18.2 (#4748) * <br>1b9b9a84f chore(deps): bump github.com<br>/alicebob/miniredis/v2 from 2.30.3 to <br>2.30.4 (#4758) * 3c16ca821 docs(image)<br>: fix the comment on the soft/hard lin<br>k (#4740) * e5bee5ccc check Type when <br>filling pkgs in vulns (#4776) * 4b9f31<br>0b9 feat: add support of linux/ppc64le<br> and linux/s390x architectures for Ins<br>tall.sh script (#4770) * 8e7fb7cc8 cho<br>re(deps): bump modernc.org/sqlite from<br> 1.20.3 to 1.23.1 (#4756) * a9badeaba <br>fix(rocky): add architectures support <br>for advisories (#4691) * f8ebccc68 cho<br>re(deps): bump github.com/opencontaine<br>rs/image-spec (#4751) * 1c81948e0 chor<br>e(deps): bump github.com/package-url/p<br>ackageurl-go (#4754) * 497cc10d8 chore<br>(deps): bump golang.org/x/sync from 0.<br>2.0 to 0.3.0 (#4750) * 065f0afa5 chore<br>(deps): bump github.com/tetratelabs/wa<br>zero from 1.2.0 to 1.2.1 (#4755) * e26<br>03056d chore(deps): bump github.com/te<br>stcontainers/testcontainers-go (#4759)<br> * 0621402bf fix: documentation about <br>reseting trivy image (#4733) * 798fdbc<br>01 fix(suse): Add openSUSE Leap 15.5 e<br>ol date as well (#4744) * 34a89293d fi<br>x: update Amazon Linux 1 EOL (#4761)  |
-|2023-07-06 15:50:09|[WeblogicTool](https://github.com/KimJun1010/WeblogicTool)|v1.2|更新记录  - 新增批量探测T3、IIOP、web<br>接口功能  - 修复多个bug|
-|2023-07-06 15:21:10|[autoDecoder](https://github.com/f0ng/autoDecoder)|0.30|## 2023.7.6 更新0.30  1. Repeater、In<br>truder模块中，增加右键加密、解密，当设<br>置好相应的方法后可以对请求体的body进行<br>加密、解密        2. #16 修复Send to Re<br>peater、Send to Intruder不会带上端口号<br>的问题，感谢@P1a0z1 反馈|
-|2023-07-06 05:43:13|[neuvector](https://github.com/neuvector/neuvector)|v5.2.0|##### Enhancements   + Searchable Saa<br>S service for CVE lookups. NVSHAS-5852<br> Search the latest NeuVector CVE datab<br>ase to see if a specific CVE exists in<br> the database.  + Support tokens for N<br>euVector API access. NVSHAS-6293  + Su<br>pport AWS Marketplace PAYG billing for<br> NeuVector monthly support subscriptio<br>ns. Users can subscribe to NeuVector b<br>y SUSE support, billed monthly to thei<br>r AWS account based on previous month'<br>s average node count usage. Details . <br> + Support image signing for admission<br> controls. NVSHAS-6217, NVSHAS-6216.  <br>+ Enable each admission control rule t<br>o have its own mode of Monitor or Prot<br>ect.NVSHAS-4062 A Deny action in Monit<br>or mode will alert, and a Deny action <br>in Protect mode will block. Allow acti<br>ons are unaffected.  + Add a new "oper<br>ator" in Policy > Admission Control > <br>Add Rule. NVSHAS-6726 Support operator<br>s "is between" and "is not between" fo<br>r both "Users" and "User Groups".  + A<br>dd support for custom admission contro<br>l criteria such as resource limits. NV<br>SHAS-7717  + Support invoking NeuVecto<br>r scanner from Harbor registries throu<br>gh the  interface.  + Allow user to di<br>sable network protection but keep WAF/<br>DLP functioning. Configure Network Pol<br>icy Enablement in Settings -> Configur<br>ation. NVSHAS-7725  + Use less privile<br>ged services accounts as required for <br>each NeuVector component. NVSHAS-7603.<br> A variable “leastPrivilege” is intr<br>oduced. The default is false. NOTE: Us<br>ing the current helm chart with this v<br>ariable on a release prior to 5.2.0 wi<br>ll not function properly.  + Bind to n<br>on-default service account to meet CIS<br> 1.5 5.1.5 recommendation. NVSHAS-7619<br>  + Enable administrator to configure <br>user default Session Time out. NVSHAS-<br>7621  + Customizable login banner NVSH<br>AS-6675.   + Customizable UI header te<br>xt NVSHAS-7330.  + SYSLOG support for <br>TLS encrypted transport. NVSHAS-4377  <br>+ Enable deployment of the NeuVector m<br>onitor helm chart from Rancher Manager<br>.  + Remove upper limit for top level <br>domain in URL validator for registry s<br>canning. NVSHAS-7935  + Scan golang de<br>pendencies, including run-time scans. <br> + Support Debian 12 (Bookworm) vulner<br>ability scan.  + Add CSV export for Re<br>gistry / Details to export CVEs for al<br>l images in configured registry. NVSHA<br>S-5993  + Allow NeuVector to set sever<br>al ADFS certificates in parallel in x.<br>509 certificate field. NVSHAS-7335  + <br>Add and display the comment field for <br>Response Rules.  ##### Bug Fixes  + Re<br>duce repeating logs in enforcer/contro<br>ller logs. NVSHAS-7832 {TBD???}  + Mul<br>tiple clusters page does not render. N<br>VSHAS-7742  + Empty group auto-removal<br> takes 2 hours to delete instead of 1 <br>hour according to schedule. NVSHAS-779<br>1  + Manually allowed network rule not<br> getting applied and resulting in viol<br>ation for pause image. NVSHAS-7807  + <br>Blocking SSL connections even if a net<br>work rule permits the traffic under ce<br>rtain initial conditions. NVSHAS-7923 <br> + Security events warning even with a<br>llowed network rules due to policy upd<br>ate issue in synchronization. NVSHAS-8<br>019  + Despite defining the network ru<br>les, violations getting logged under s<br>ecurity events (false positives) when <br>the container has stopped due to out o<br>f memory (OOM) error. NVSHAS-7830  + A<br>llow user to disable/enable detection <br>and protection against unmanaged conta<br>iner in cluster. NVSHAS-7804. This can<br> be set through the Manager CLI:    se<br>t system detect_unmanaged_wl status -h<br>  Usage: cli set system detect_unmanag<br>ed_wl status [OPTIONS] {true|false}   <br> Enable/disable detect unmanaged conta<br>iner    ##### Other  + Add "leastPrivi<br>lege" setting in Helm chart.  + Enable<br> AWS integration settings in Helm char<br>t. |
 ## 近15天commit提交记录
 | 提交时间 | 项目名称 | 更新内容 |
 | :---- | :---- | :---- |
-|2023-07-21 00:30:16|[NucleiTP](https://github.com/ExpLangcn/NucleiTP)|更新啦❤️|
-|2023-07-21 00:00:02|[free](https://github.com/freefq/free)|updated_at 07-21 08:00|
-|2023-07-20 20:20:59|[FreeRDP](https://github.com/FreeRDP/FreeRDP)|[ci] add AAD support to nightly|
-|2023-07-20 18:13:37|[neuvector](https://github.com/neuvector/neuvector)|Merge pull request #918 from becitsthere/dev  NVSHA<br>S-7449: Support syslog in layers from configmap|
-|2023-07-20 18:03:34|[clair](https://github.com/quay/clair)|chore: Bump claircore to v1.5.10  Update claircore <br>dependency to latest tag.  Signed-off-by: crozzy |
+|2023-07-22 00:30:19|[NucleiTP](https://github.com/ExpLangcn/NucleiTP)|更新啦❤️|
+|2023-07-22 00:00:03|[free](https://github.com/freefq/free)|updated_at 07-22 08:00|
+|2023-07-21 22:49:52|[nuclei](https://github.com/projectdiscovery/nuclei)|adding set with httpx probe (#3955)|
+|2023-07-21 20:42:45|[clair](https://github.com/quay/clair)|chore: Bump claircore to v1.5.11  Update claircore <br>dependency to latest tag.  Signed-off-by: crozzy |
+|2023-07-21 20:41:26|[neuvector](https://github.com/neuvector/neuvector)|Merge pull request #921 from becitsthere/dev  NVSHA<br>S-8106: Correctly check USER cmd in Dockerfile|
+|2023-07-21 14:59:37|[rustdesk](https://github.com/rustdesk/rustdesk)|Merge pull request #5077 from flusheDData/master  U<br>pdate es.rs|
+|2023-07-21 14:04:49|[FreeRDP](https://github.com/FreeRDP/FreeRDP)|start new development cycle after 3.0.0-beta1 relea<br>se|
+|2023-07-21 13:54:19|[syft](https://github.com/anchore/syft)|Introduce indexed embedded CPE dictionary (#1897)  <br>* Introduce indexed embedded CPE dictionary    Signe<br>d-off-by: Dan Luhring     * Don't generate cpe-index<br> on make snapshot    Signed-off-by: Dan Luhring     <br>* Add unit tests for individual addEntry funcs    Si<br>gned-off-by: Dan Luhring     * migrate CPE index bui<br>ld to go generate and add periodic workflow    Signe<br>d-off-by: Alex Goodman     * add test to ensure gene<br>rated cpe index is wired up to function that uses it<br>    Signed-off-by: Alex Goodman     ---------    Sig<br>ned-off-by: Dan Luhring   Signed-off-by: Alex Goodma<br>n   Co-authored-by: Alex Goodman |
+|2023-07-21 12:37:29|[v2rayfree](https://github.com/aiboboxx/v2rayfree)|update|
+|2023-07-21 09:35:24|[heapdump_tool](https://github.com/wyzxxz/heapdump_tool)|Update README.md|
+|2023-07-21 09:00:35|[trivy](https://github.com/aquasecurity/trivy)|chore(deps): bump github.com/docker/docker from v23<br>.0.5+incompatible to v23.0.7-0.20230714215826-f00e7a<br>f96042+incompatible (#4849)  * use 1.19.10 version f<br>or integration tests  * fix go-version field  * reve<br>rt test workflow changes  * bump docker/docker|
+|2023-07-21 08:54:17|[sqlmap](https://github.com/sqlmapproject/sqlmap)|Removing support for lol FORKZ|
+|2023-07-21 08:42:17|[Awesome-Redteam](https://github.com/Threekiii/Awesome-Redteam)|更新README.md|
+|2023-07-21 08:11:39|[afrog](https://github.com/zan8in/afrog)|update ecology-filedownloadforoutdoc-sqli|
+|2023-07-21 06:38:23|[SmsForwarder](https://github.com/pppscn/SmsForwarder)|新增：转发规则可以设置免打扰(禁用转发)时间段 #318|
+|2023-07-21 04:27:37|[Burp-Non-HTTP-Ext<br>ension](https://github.com/summitt/Burp-Non-HTTP-Extension)|Update README.md|
+|2023-07-21 04:02:40|[PocOrExp_in_Githu<br>b](https://github.com/ycdxsb/PocOrExp_in_Github)|update Today.md|
+|2023-07-21 03:51:13|[safeline](https://github.com/chaitin/safeline)|Merge branch 'main' of github.com:chaitin/safeline <br>into main|
+|2023-07-21 02:31:53|[ObserverWard](https://github.com/0x727/ObserverWard)|自动更新指纹，添加生成json格式指纹库参数|
+|2023-07-21 01:37:09|[gshark](https://github.com/madneal/gshark)|Merge pull request #159 from madneal/dependabot/npm<br>_and_yarn/web/word-wrap-1.2.4  Bump word-wrap from 1<br>.2.3 to 1.2.4 in /web|
 |2023-07-20 18:02:12|[dbeaver](https://github.com/dbeaver/dbeaver)|SSH advanced settings UI fix|
 |2023-07-20 16:57:20|[faker](https://github.com/joke2k/faker)|Bump version: 19.1.0 → 19.2.0|
 |2023-07-20 16:28:06|[grype](https://github.com/anchore/grype)|chore(deps): bump github.com/gookit/color from 1.5.<br>3 to 1.5.4 (#1396)  Bumps  from 1.5.3 to 1.5.4.  -  <br> -     ---  updated-dependencies:  - dependency-name<br>: github.com/gookit/color    dependency-type: direct<br>:production    update-type: version-update:semver-pa<br>tch  ...    Signed-off-by: dependabot[bot]   Co-auth<br>ored-by: dependabot[bot] |
 |2023-07-20 15:53:51|[PEASS-ng](https://github.com/carlospolop/PEASS-ng)|Create AIPRChecker.yml|
-|2023-07-20 14:18:49|[afrog](https://github.com/zan8in/afrog)|update|
 |2023-07-20 13:37:25|[all-in-one-v2](https://github.com/zaivanza/all-in-one-v2)|add to_chains|
-|2023-07-20 13:10:59|[safeline](https://github.com/chaitin/safeline)|update qrcode|
-|2023-07-20 12:39:30|[v2rayfree](https://github.com/aiboboxx/v2rayfree)|update|
 |2023-07-20 11:09:15|[veinmind-tools](https://github.com/chaitin/veinmind-tools)|chore(libveinmind): upgrade libveinmind 1.19.42 (#2<br>58)|
 |2023-07-20 10:50:03|[domain_hunter_pro](https://github.com/bit4woo/domain_hunter_pro)|Update CertInfo.java|
 |2023-07-20 09:10:56|[Vulnerability-Wik<br>i](https://github.com/Threekiii/Vulnerability-Wiki)|Merge pull request #27 from Henry4E36/Henry4E36-pat<br>ch-1  Create 泛微OA e-cology FileDownloadForOutDoc前<br>台SQL注入漏洞.md|
 |2023-07-20 06:45:46|[fupo_for_yonyou](https://github.com/novysodope/fupo_for_yonyou)|Update README.md|
-|2023-07-20 04:02:42|[PocOrExp_in_Githu<br>b](https://github.com/ycdxsb/PocOrExp_in_Github)|update Today.md|
-|2023-07-20 02:40:45|[rustdesk](https://github.com/rustdesk/rustdesk)|Merge branch 'master' of github.com-rustdesk:rustde<br>sk/rustdesk|
-|2023-07-20 01:07:14|[SmsForwarder](https://github.com/pppscn/SmsForwarder)|去掉gitee敏感词|
-|2023-07-19 19:50:35|[Burp-Non-HTTP-Ext<br>ension](https://github.com/summitt/Burp-Non-HTTP-Extension)|adding request rules and some minor formating fixes|
-|2023-07-19 19:34:07|[syft](https://github.com/anchore/syft)|Add support for parsing .NET assemblies (#1943)  * <br>Add support for parsing .NET assemblies    Signed-of<br>f-by: Dan Luhring     Former-commit-id: 69c33fe4d773<br>57d843c11590f3b07825bc6249ac    * Add dll and exe fi<br>les    Signed-off-by: Dan Luhring     Former-commit-<br>id: b9d204efa6d2ef385b5fbb7a59a3474ecabea641    * Ad<br>d PE cataloger to directory catalogers    Signed-off<br>-by: Dan Luhring     Former-commit-id: 9711c00d9da92<br>e2887e0c1f92edd740ea5345849    * Don't set language <br>to dotnet for PEs    Signed-off-by: Dan Luhring     <br>Former-commit-id: 368313fddac9160d8a06a01ebe8c5ac799<br>0232f5    * Fix spelling of cataloger in constructor<br>    Signed-off-by: Dan Luhring     Former-commit-id:<br> e42fd77b2f8b6d42e076a84f6cce386861260941    * Adjus<br>t which cases in PE parsing return errors    Signed-<br>off-by: Dan Luhring     Former-commit-id: 95b25f8fc3<br>a7d4e18fe30e489b09851f316795ff    * remove build bin<br>ary from branch    Signed-off-by: Alex Goodman     F<br>ormer-commit-id: fa54c0d0aef0998d5520e9f44cae51f5f9c<br>d38a2    * Fix failing CLI tests    Signed-off-by: D<br>an Luhring     ---------    Signed-off-by: Dan Luhri<br>ng   Co-authored-by: Alex Goodman |
 |2023-07-19 16:43:10|[Stowaway](https://github.com/ph4ntonn/Stowaway)|Fix usage|
 |2023-07-19 09:25:26|[Scanners-Box](https://github.com/We5ter/Scanners-Box)|[+]大模型安全|
-|2023-07-19 08:56:58|[Awesome-Redteam](https://github.com/Threekiii/Awesome-Redteam)|更新README.md|
 |2023-07-19 08:06:37|[Elkeid](https://github.com/bytedance/Elkeid)|Merge pull request #518 from Hackerl/main  add name<br>sapce mount tool|
-|2023-07-19 08:05:43|[trivy](https://github.com/aquasecurity/trivy)|fix(license): using common way for splitting licens<br>es (#4434)  * fix(license): using common way for spl<br>itting licenses  * add test cases  * TEST new regex <br> * extract function  * fix version detection  ------<br>---  Co-authored-by: Nikita Pivkin |
 |2023-07-19 06:58:32|[0day](https://github.com/helloexp/0day)|add java based rocketMQ RCE  CVE-2023-33246|
 |2023-07-19 01:58:33|[vulnerability](https://github.com/lal0ne/vulnerability)|CVE-2023-31248|
 |2023-07-18 14:45:58|[awesome-chatgpt-z<br>h](https://github.com/yzfly/awesome-chatgpt-zh)|add gpt-runner|
@@ -66,7 +69,6 @@
 |2023-07-18 05:06:41|[dalfox](https://github.com/hahwul/dalfox)|Merge pull request #483 from hahwul/dependabot/go_m<br>odules/github.com/labstack/echo/v4-4.11.1  Bump gith<br>ub.com/labstack/echo/v4 from 4.10.2 to 4.11.1|
 |2023-07-17 23:00:15|[zksync](https://github.com/nftscripts/zksync)|Update runner.py|
 |2023-07-17 22:38:23|[WebGoat](https://github.com/WebGoat/WebGoat)|Add Assignment7 Tests|
-|2023-07-17 22:04:38|[nuclei](https://github.com/projectdiscovery/nuclei)|Merge branch 'dev'|
 |2023-07-17 16:25:36|[v2rayA](https://github.com/v2rayA/v2rayA)|Added pt-br.js file for brazilian portuguese langua<br>ge (#990)|
 |2023-07-17 12:36:24|[ChatGPT-Shortcut](https://github.com/rockbenben/ChatGPT-Shortcut)|style: Add tooltip explanations to community-prompt<br>s|
 |2023-07-17 09:09:21|[Awesome-POC](https://github.com/Threekiii/Awesome-POC)|更新漏洞|
@@ -92,22 +94,18 @@
 |2023-07-11 06:31:30|[flightsim](https://github.com/alphasoc/flightsim)|Adjust IRC and Telegram Bot API module descriptions|
 |2023-07-11 01:54:11|[RouteVulScan](https://github.com/F6JO/RouteVulScan)|update|
 |2023-07-10 21:03:54|[ghauri](https://github.com/r0oth3x49/ghauri)|updated code quality, fixed issue with payloads..|
-|2023-07-10 15:17:56|[ObserverWard](https://github.com/0x727/ObserverWard)|Merge pull request #177 from 0x727/dependabot/cargo<br>/serde_yaml-0.9.22  Bump serde_yaml from 0.9.21 to 0<br>.9.22|
 |2023-07-10 14:47:27|[subfinder](https://github.com/projectdiscovery/subfinder)|Remove additional -U of apk in Dockerfile (#886)|
 |2023-07-09 13:29:16|[X-Marshal](https://github.com/XTeam-Wing/X-Marshal)|Update README.md|
 |2023-07-09 09:38:47|[Viper](https://github.com/FunnyWolf/Viper)|update version v1.6.1|
 |2023-07-09 09:19:10|[OneScan](https://github.com/vaycore/OneScan)|更新README.md中的一些说明和截图|
 |2023-07-09 05:23:19|[ENScan_GO](https://github.com/wgpsec/ENScan_GO)|修改文档补充说明 fix #65|
+|2023-07-08 18:59:06|[Mantra](https://github.com/MrEmpy/Mantra)|Merge pull request #4 from MrEmpy/v.1.1  Makefile f<br>ile with more construction lines added.|
 |2023-07-08 18:09:34|[vulhub](https://github.com/vulhub/vulhub)|Merge pull request #449 from al4n233/patch-1  fixed<br> a typo|
 |2023-07-07 11:35:10|[zksync2-python](https://github.com/zksync-sdk/zksync2-python)|fix: update package version|
 |2023-07-07 07:14:15|[FrameVul](https://github.com/Awrrays/FrameVul)|Update README.md|
 |2023-07-07 07:09:42|[captcha-killer-mo<br>dified](https://github.com/f0ng/captcha-killer-modified)|Update FAQ.md|
 |2023-07-07 03:44:50|[Pentest-Windows](https://github.com/arch3rPro/Pentest-Windows)|Update README.md|
-|2023-07-07 02:24:11|[Awesome-ChatGPT](https://github.com/dalinvip/Awesome-ChatGPT)|Update README.md|
-|2023-07-06 16:05:15|[WeblogicTool](https://github.com/KimJun1010/WeblogicTool)|Update README.md|
-|2023-07-06 15:19:29|[autoDecoder](https://github.com/f0ng/autoDecoder)|Update README.md|
-|2023-07-06 08:43:43|[sqlmap](https://github.com/sqlmapproject/sqlmap)|Implements #5452|
-|2023-07-06 06:32:34|[CodeQLpy](https://github.com/webraybtl/CodeQLpy)|Update README.md|## 所有项目
+|2023-07-07 02:24:11|[Awesome-ChatGPT](https://github.com/dalinvip/Awesome-ChatGPT)|Update README.md|## 所有项目
 # 渗透测试
 ## 信息收集
 ### 资产测绘采集
@@ -120,6 +118,7 @@
 | [AsamF](https://github.com/Kento-Sec/AsamF) | v0.2.4 | AsamF是集成Fofa、Quake、Hunter、Shodan、Zoomeye、Chinaz、0.zon<br>e及爱企查的一站式企业信息资产收集、网络资产测绘工具。 |
 | [fshzqSearch](https://github.com/Ifory885/fshzqSearch) |  | fofa、shodan、hunter、zoomeye、quake网络空间搜索引擎及github聚<br>合搜索，并对结果进行finger指纹识别。 |
 | [0_zone_tool](https://github.com/wkend/0_zone_tool) |  | 零零信安api信息系统查询脚本 |
+| [TKHunter](https://github.com/HHa1ey/TKHunter) | TKHunte<br>r-v1.8 | 一个基于JavaFX写的一个Hunter资产测绘平台的图形化工具 |
 ### 子域名收集
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
@@ -160,7 +159,7 @@
 | [LazyDog](https://github.com/L10nK1n6/LazyDog) | 1.1 | LazyDog是一款通过网络空间测绘引擎读取资产并进行指纹识别的工具 |
 | [whatweb-plus](https://github.com/winezer0/whatweb-plus) | v0.5.5.<br>19.fix | whatweb 增强版  8000+插件（提供windows可执行文件） |
 | [Find-SomeThing](https://github.com/LittleBear4/Find-SomeThing) |  | 红队批量脆弱点搜集工具 |
-| [ObserverWard](https://github.com/0x727/ObserverWard) | v2023.6<br>.20 | Cross platform community web fingerprint identification tool |
+| [ObserverWard](https://github.com/0x727/ObserverWard) | v2023.7<br>.21 | Cross platform community web fingerprint identification tool |
 ### WAF识别
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
@@ -541,6 +540,7 @@
 | :---- | :---- | :---- |
 | [SecretFinder](https://github.com/m4ll0k/SecretFinder) |  | SecretFinder - A python script for find sensitive data (apikey<br>s, accesstoken,jwt,..) and search anything on javascript files  |
 | [JSFScan.sh](https://github.com/KathanP19/JSFScan.sh) |  | Automation for javascript recon in bug bounty.  |
+| [Mantra](https://github.com/MrEmpy/Mantra) | v.1.1 | 「🔑」A tool used to hunt down API key leaks in JS files and p<br>ages |
 ### 子域接管
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
