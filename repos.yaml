@@ -39,6 +39,10 @@
 
         指纹识别:
             - https://github.com/EdgeSecurityTeam/EHole
+            - https://github.com/projectdiscovery/wappalyzergo
+            - https://github.com/b1ackc4t/14Finger
+            - https://github.com/urbanadventurer/WhatWeb
+            - https://github.com/TideSec/TideFinger
             - https://github.com/s7ckTeam/Glass
             - https://github.com/EASY233/Finger
             - https://github.com/L10nK1n6/LazyDog
@@ -482,6 +486,7 @@
             - https://github.com/hack2fun/Gscan
             - https://github.com/Adminisme/ServerScan
             - https://github.com/grimlockx/ADCSKiller
+            - https://github.com/i11us0ry/goon
         漏洞利用:
             - https://github.com/FunnyWolf/Viper
         横向工具:
