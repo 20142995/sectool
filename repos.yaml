@@ -406,12 +406,13 @@
         - https://github.com/Awrrays/FrameVul
     权限维持:
         Shell管理:
+            - https://github.com/boy-hack/WebshellManager
+            - https://github.com/Chora10/Cknife
             - https://github.com/rebeyond/Behinder
             - https://github.com/BeichenDream/Godzilla
             - https://github.com/AntSwordProject/antSword
             - https://github.com/WangYihang/Platypus
             - https://github.com/yzddmr6/As-Exploits
-        生成webshell:
             - https://github.com/cseroad/Webshell_Generate
         webshell:
             - https://github.com/backlion/webshell
@@ -446,22 +447,38 @@
             - https://github.com/liamg/traitor
             - https://github.com/rebootuser/LinEnum
             - https://github.com/carlospolop/PEASS-ng
-            - https://github.com/liamg/traitor
+            - https://i.hacking8.com/tiquan/
         综合:
             - https://github.com/Ascotbe/Kernelhub
         容器提权:
             - https://github.com/teamssix/container-escape-check
             - https://github.com/cdk-team/CDK
     内网渗透:
+        信息收集:
+            - https://github.com/shmilylty/SharpHostInfo
+            - https://github.com/Y0-kan/HostInfoScan
+            - https://github.com/c1y2m3/ATAttack
         网段探测:
             - https://github.com/shmilylty/netspy
         代理转发:
+            - https://www.proxifier.com/
+            - http://rootkiter.com/Termite/
             - https://github.com/sensepost/reGeorg
+            - https://github.com/L-codes/Neo-reGeorg
+            - https://github.com/FunnyWolf/pystinger
             - https://github.com/ph4ntonn/Stowaway
             - https://github.com/knownsec/PortForward
             - https://github.com/Mob2003/rakshasa
             - https://github.com/ehang-io/nps
+            - https://github.com/fatedier/frp
+            - https://github.com/Goqi/Erfrp
             - https://github.com/OrangeWatermelon/frp_cmd
+            - https://github.com/alex-sector/dns2tcp
+            - https://github.com/iagox86/dnscat2
+            - https://github.com/inquisb/icmpsh
+            - https://github.com/esrrhs/pingtunnel
+            - https://github.com/inconshreveable/ngrok
+            - https://github.com/snail007/goproxy
         密码提取:
             - https://github.com/gentilkiwi/mimikatz
             - https://github.com/kerbyj/goLazagne
@@ -494,11 +511,21 @@
             - https://github.com/Adminisme/ServerScan
             - https://github.com/grimlockx/ADCSKiller
             - https://github.com/i11us0ry/goon
+            - https://github.com/1n7erface/Template
         漏洞利用:
             - https://github.com/FunnyWolf/Viper
         横向工具:
             - https://github.com/rootclay/WMIHACKER
             - https://github.com/QAX-A-Team/sharpwmi
+            - https://github.com/fortra/impacket
+            - https://github.com/XiaoliChan/wmiexec-Pro
+            - https://github.com/pandasec888/taowu-cobalt-strike
+            - https://github.com/d3ckx1/OLa
+            - https://xz.aliyun.com/t/9382
+            - https://github.com/hzphreak/VMInjector
+        域渗透工具:
+            - https://github.com/0x727/ShuiYing_0x727
+            - https://github.com/BloodHoundAD/BloodHound
         综合:
             - https://github.com/k8gege/Ladon
     社会工程学:
