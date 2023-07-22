@@ -381,6 +381,7 @@
                 - https://github.com/Rvn0xsy/PassDecode-jar
             OA综合:
                 - https://github.com/LittleBear4/OA-EXPTOOL
+                - https://github.com/achuna33/MYExploit
         数据库漏洞利用:
             数据库自动化提权:
                 - https://github.com/Hel10-Web/Databasetools
@@ -428,6 +429,7 @@
             - https://github.com/knownsec/shellcodeloader
             - https://github.com/1y0n/AV_Evasion_Tool
             - https://github.com/TideSec/GoBypassAV
+            - https://github.com/pureqh/bypassAV
     权限提升:
         windows提权:
             - https://github.com/BeichenDream/BadPotato
@@ -455,13 +457,14 @@
             - https://github.com/OrangeWatermelon/frp_cmd
         密码提取:
             - https://github.com/gentilkiwi/mimikatz
-            
+
             - https://github.com/passer-W/FinalShell-Decoder
             - https://github.com/JDArmy/SharpXDecrypt
             - https://github.com/dzxs/Xdecrypt
             - https://github.com/RowTeam/SharpDecryptPwd
             - https://github.com/ianxtianxt/SharpDecryptPwd
             - https://github.com/lele8/SharpDBeaver
+            - https://github.com/uknowsec/SharpDecryptPwd
 
             - https://github.com/moonD4rk/HackBrowserData
             - https://github.com/djhohnstein/SharpWeb
@@ -842,3 +845,5 @@ CTF:
         - https://github.com/bugku/BWVS
         - https://github.com/Medicean/VulApps
         - https://github.com/vulhub/vulhub
+    短信轰炸:
+        - https://github.com/OpenEthan/SMSBoom
