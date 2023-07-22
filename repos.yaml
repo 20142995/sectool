@@ -181,6 +181,7 @@
                 - https://github.com/aquasecurity/kube-bench
             云原生安全平台:
                 - https://github.com/neuvector/neuvector
+                - https://github.com/Rnalter/ThunderCloud
         半自动化漏洞利用:
             - https://github.com/lz520520/railgun
             - https://github.com/gobysec/Goby
@@ -878,6 +879,9 @@ CTF:
         - https://github.com/linjiananallnt/ElectricRat
         - https://github.com/c0ny1/vulstudy
         - https://github.com/Audi-1/sqli-labs
+        - https://github.com/c0ny1/upload-labs
+        - https://github.com/tangxiaofeng7/SecExample
+        - https://github.com/j3ers3/Hello-Java-Sec
         - https://github.com/psiinon/bodgeit
         - https://github.com/adamdoupe/WackoPicko
         - https://github.com/WebGoat/WebGoat
@@ -892,5 +896,12 @@ CTF:
         - https://github.com/bugku/BWVS
         - https://github.com/Medicean/VulApps
         - https://github.com/vulhub/vulhub
+        - https://github.com/c0ny1/xxe-lab
+        - https://dvwa.co.uk/
+        - https://www.pentesterlab.com/exercises/web_for_pentester/course
+        - https://github.com/LandGrey/SpringBootVulExploit
+        - https://github.com/vulhub/vulhub
+        - https://github.com/fofapro/vulfocus
+        - https://hackmyvm.eu/anon/
     短信轰炸:
         - https://github.com/OpenEthan/SMSBoom
