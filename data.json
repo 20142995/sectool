@@ -200,7 +200,7 @@
     "https://github.com/ycdxsb/PocOrExp_in_Github": {
         "created_at": "2021-04-13 05:46:16",
         "description": "聚合Github上已有的Poc或者Exp，CVE信息来自CVE官网。Auto Collect Poc Or Exp from Github by CVE ID.",
-        "commit_date": "2023-07-22 04:02:45",
+        "commit_date": "2023-07-23 04:02:43",
         "commit_message": "update Today.md",
         "release_tag": "",
         "release_date": "",
@@ -461,7 +461,7 @@
     "https://github.com/ExpLangcn/NucleiTP": {
         "created_at": "2022-11-08 13:16:56",
         "description": "自动整合全网Nuclei的漏洞POC，实时同步更新最新POC！",
-        "commit_date": "2023-07-23 00:30:20",
+        "commit_date": "2023-07-24 00:30:16",
         "commit_message": "更新啦❤️",
         "release_tag": "",
         "release_date": "",
@@ -1350,11 +1350,11 @@
     "https://github.com/projectdiscovery/subfinder": {
         "created_at": "2018-03-31 09:44:57",
         "description": "Fast passive subdomain enumeration tool.",
-        "commit_date": "2023-07-10 14:47:27",
-        "commit_message": "Remove additional `-U` of `apk` in Dockerfile (#886)",
-        "release_tag": "v2.6.0",
-        "release_date": "2023-06-07 18:30:42",
-        "release_message": "## What's Changed\r\n* Added `netlas.io` as new source by @Devang-Solanki in https://github.com/projectdiscovery/subfinder/pull/829\r\n* Added support to use provider config file when using as library by @nth347 in https://github.com/projectdiscovery/subfinder/pull/864\r\n* Added support to read API keys as env variable in the provider config file by @tarunKoyalwar in https://github.com/projectdiscovery/subfinder/pull/868\r\n```yaml\r\nnetlas:\r\n  - $NETLAS_API_KEY\r\n```\r\n\r\nIssues closed in this release - https://github.com/projectdiscovery/subfinder/milestone/8?closed=1\r\n\r\n## New Contributors\r\n* @nth347 made their first contribution in https://github.com/projectdiscovery/subfinder/pull/864\r\n* @tarunKoyalwar made their first contribution in https://github.com/projectdiscovery/subfinder/pull/868\r\n* @Devang-Solanki made their first contribution in https://github.com/projectdiscovery/subfinder/pull/829\r\n\r\n**Full Changelog**: https://github.com/projectdiscovery/subfinder/compare/v2.5.9...v2.6.0"
+        "commit_date": "2023-07-23 10:01:35",
+        "commit_message": "added dep auto merge workflow",
+        "release_tag": "v2.6.1",
+        "release_date": "2023-07-23 10:11:32",
+        "release_message": "<!-- Release notes generated using configuration in .github/release.yml at main -->\r\n\r\n## What's Changed\r\n### 🐞 Bug Fixes\r\n* Fixed panic issue with digitorus source by @dogancanbakir in https://github.com/projectdiscovery/subfinder/pull/882\r\n* Fixed issue parsing result from securitytrails by @ehsandeep in https://github.com/projectdiscovery/subfinder/pull/902\r\n\r\n### 🔨 Maintenance\r\n* Removed additional `-U` of `apk` in Dockerfile by @PeterDaveHello in https://github.com/projectdiscovery/subfinder/pull/886\r\n\r\n## New Contributors\r\n* @PeterDaveHello made their first contribution in https://github.com/projectdiscovery/subfinder/pull/886\r\n\r\n**Full Changelog**: https://github.com/projectdiscovery/subfinder/compare/v2.6.0...v2.6.1"
     },
     "https://github.com/webraybtl/CodeQLpy": {
         "created_at": "2022-12-22 12:54:03",
@@ -1735,8 +1735,8 @@
     "https://github.com/chaitin/veinmind-tools": {
         "created_at": "2022-02-08 08:12:15",
         "description": "veinmind-tools 是由长亭科技自研，基于 veinmind-sdk 打造的容器安全工具集",
-        "commit_date": "2023-07-20 11:09:15",
-        "commit_message": "chore(libveinmind): upgrade libveinmind 1.19.42 (#258)",
+        "commit_date": "2023-07-23 09:26:45",
+        "commit_message": "feat(veinmind-trace): init (#253)",
         "release_tag": "v2.1.4",
         "release_date": "2023-07-04 06:58:05",
         "release_message": "## 🔥 Feature\r\n* feat(plugins): Add veinmind-privilege-escalation plugin for detecting privilege escalation risks, including checks for suid and sudo  by @ek1ng in https://github.com/chaitin/veinmind-tools/pull/250\r\n\r\n## 🔧 Fix\r\n* fix(libveinmind): fix libveinmind walk data race error by @DVKunion in https://github.com/chaitin/veinmind-tools/pull/231\r\n* fix(veinmind-weakpass)/add_error_check by  @testwill in https://github.com/chaitin/veinmind-tools/pull/249\r\n* fix(docs): fix errors in documentation on how to initialize plugins by @ek1ng in https://github.com/chaitin/veinmind-tools/pull/247\r\n* fix(docs): fix README format by @ek1ng in https://github.com/chaitin/veinmind-tools/pull/251\r\n\r\n## 📒 Others\r\n* chore(libveinmind): update libveinmind 1.9.21 by @DVKunion in https://github.com/chaitin/veinmind-tools/pull/243\r\n* chore(ci):  add auto sync to registry by @DVKunion  in https://github.com/chaitin/veinmind-tools/pull/254\r\n\r\n\r\n**Full Changelog**: https://github.com/chaitin/veinmind-tools/compare/v2.1.3...v2.1.4"
@@ -1888,8 +1888,8 @@
     "https://github.com/hanc00l/nemo_go": {
         "created_at": "2021-07-29 08:13:25",
         "description": "Nemo是用来进行自动化信息收集的一个简单平台，通过集成常用的信息收集工具和技术，实现对内网及互联网资产信息的自动收集，提高隐患排查和渗透测试的工作效率。",
-        "commit_date": "2023-07-18 07:03:07",
-        "commit_message": "Fix: 修正domainscan对结果IP的端口扫描未执行的bug",
+        "commit_date": "2023-07-23 07:02:30",
+        "commit_message": "Update: onlineapi对域名搜索cert增加限制降低不相关干扰",
         "release_tag": "v2.9.4",
         "release_date": "2023-06-21 05:56:55",
         "release_message": "### Updated\r\n\r\n- Nemo安装及使用文档v1.0；\r\n\r\n### Fix\r\n\r\n- v2.9.3的release包里，thirdparty/fingerprinthub目录里没有打包二进制文件\r\n- 修正domainscan对结果IP的端口扫描未执行的bug\r\n- domain列表和详情中的icon显示\r\n"
@@ -2951,11 +2951,11 @@
     "https://github.com/dbeaver/dbeaver": {
         "created_at": "2015-10-21 08:26:28",
         "description": "Free universal database tool and SQL client",
-        "commit_date": "2023-07-22 21:28:53",
-        "commit_message": "dbeaver/dbeaver#20646 Dashboards reload fix (keep predefined)",
-        "release_tag": "23.1.2",
-        "release_date": "2023-07-09 16:23:13",
-        "release_message": "\n                - SQL editor:\n                    - Mouse hovering over editor annotations was fixed\n                    - Trailing DDL query delimiter processing was fixed\n                - Data editor:\n                    - References panel refresh was fixed\n                    - XML presentation was fixed (NULL value handler)\n                - General UI:\n                    - Settings reset UI and behavior were redesigned\n                    - Editor tab tooltip now contains information abut resource's project\n                    - CLI parameter for app version print was added\n                    - Objects with mixed case names caching was fixed\n                    - Issue with program launch with wrong Java version was fixed\n                    - Preferences export/import UI was improved\n                    - Maven snapshot repository was added to default configuration\n                - Connections: kerberos support in legacy JDBC drivers (Hive) was fixed\n                - Data transfer: table information for tasks with broken connection was fixed\n                - Databases:\n                    - BigQuery: driver version was upgraded to 1.3.3 (thanks to @fredlegaucher)\n                    - DuckDB: LIST data type support was added\n                    - Firebird: filters and sorting in grouping panel were fixed\n                    - IBM i: driver download was fixed\n                    - Oracle:\n                        - Partitions cache refresh was fixed\n                        - Stored procedures edit/save was fixed\n                    - PostgreSQL: enum columns alter was fixed\n                    - Snowflake:\n                        - Client application name set was fixed\n                        - Quoted identifiers auto-completion was fixed\n                - Misc: internal app controller server now uses HTTP instead of RMI\n            "
+        "commit_date": "2023-07-23 19:18:56",
+        "commit_message": "GEF backward compatibility",
+        "release_tag": "23.1.3",
+        "release_date": "2023-07-23 19:28:17",
+        "release_message": "\n                - Spatial data viewer:\n                    - Geometry object labels were added to the map (configurable)\n                    - Curves rendering was implemented\n                    - Coordinates and viewport bounds copy was implemented\n                    - EWKT format support was added\n                    - Toolbars and lasso visibility toggle was fixed\n                - Data transfer:\n                    - Import of multiple tables from an XLSX was implemented\n                    - Lazy initialization of configuration pages was implemented\n                    - Issue with duplicated file selector dialog was fixed\n                    - Export in XML format was fixed (doctype section is not optional)\n                    - Issue long filenames on Windows was fixed\n                - Data Editor:\n                    - Find/Replace dialog and shortcut in the Value view panel were fixed\n                    - Column description was added to the Metadata panel\n                    - Folding in the XML presentation was fixed\n                    - Displaying of images in the the value view panel was fixed on Linux\n                    - Confirmation dialog for the result set filtering was improved\n                - Accessibility:\n                    - JAWs screen reader can now read data in the Data grid\n                - General UI:\n                    - Tips of the day were updated\n                    - Creation of objects with mixed-case identifiers was fixed\n                    - DDL generation for sequence was fixed\n                    - Logical project deletion was fixed\n                    - Issue with opening of a local project was fixed\n                - AI:\n                    - New GPT 3.5 Turbo 16К model was added\n                    - Issue with long metadata information sending was fixed\n                - Connections:\n                    - Duplicates on driver creation were removed\n                    - Issue with maven artifacts editing was fixed\n                    - Certificate management UI was improved\n                - New drivers:\n                    - Materialize database driver was added (thanks @bobbyiliev)\n                    - Crate DB via PostgreSQL driver was improved (thanks @proddata)\n                - Databases:\n                    - DB2: users can see Column Mask Objects\n                    - TimescaleDB branding was updated\n                - Localization:\n                    - Chinese Simplified localization was improved (thanks @bynyun)\n                    - German localization was improved (thanks @fjf2002)\n            "
     },
     "https://github.com/zema1/yarx": {
         "created_at": "2021-11-11 09:43:21",
@@ -3050,11 +3050,11 @@
     "https://github.com/zan8in/afrog": {
         "created_at": "2022-02-24 06:00:32",
         "description": "A Security Tool for Bug Bounty, Pentest and Red Teaming.",
-        "commit_date": "2023-07-22 08:38:29",
+        "commit_date": "2023-07-23 15:25:51",
         "commit_message": "update",
-        "release_tag": "v2.7.3",
-        "release_date": "2023-07-17 14:17:27",
-        "release_message": "Add\r\n● -ep, --exclude-pocs，pocs to exclude from the scan (comma-separated)\r\n● -epf, --exclude-pocs-file，list of pocs to exclude from scan (file)\r\n\r\n新增命令 \r\n● -ep, --exclude-pocs，可用于排除扫描中的 POC（以逗号分隔）\r\n● -epf, --exclude-pocs-file，可用于从扫描中排除 POC 列表（以文件形式提供）"
+        "release_tag": "v2.7.5",
+        "release_date": "2023-07-23 13:22:52",
+        "release_message": "**optimization:**\r\n- Fix the false positive problem of ecology-filedownloadforoutdoc-sqli\r\n- Fix CVE-2023-28432 rule writing error\r\n- Fix CVE-2021-22205 rule writing error\r\n\r\n**优化：**\r\n- 修复 ecology-filedownloadforoutdoc-sqli 误报问题\r\n- 修复 CVE-2023-28432 规则编写错误问题\r\n- 修复 CVE-2021-22205 规则编写错误问题"
     },
     "https://github.com/moonD4rk/HackBrowserData": {
         "created_at": "2020-06-18 03:24:31",
@@ -3656,8 +3656,8 @@
     "https://github.com/AdminTest0/SharpWxDump": {
         "created_at": "2022-07-17 14:53:58",
         "description": "微信客户端取证，可获取用户个人信息(昵称/账号/手机/邮箱/数据库密钥(用来解密聊天记录))；支持获取多用户信息，不定期更新新版本偏移，目前支持所有新版本、正式版本",
-        "commit_date": "2023-05-08 01:09:24",
-        "commit_message": "Update Program.cs",
+        "commit_date": "2023-07-23 05:05:26",
+        "commit_message": "Update README.md",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -3703,8 +3703,8 @@
         "description": "PEASS - Privilege Escalation Awesome Scripts SUITE (with colors)",
         "commit_date": "2023-07-22 23:51:43",
         "commit_message": "Merge pull request #370 from takitakitanana/master\n\npath contains spaces check",
-        "release_tag": "20230723-107ba027",
-        "release_date": "2023-07-23 00:10:09",
+        "release_tag": "20230723-6e7e89ef",
+        "release_date": "2023-07-23 04:27:41",
         "release_message": ""
     },
     "https://github.com/waderwu/attackRmi": {
@@ -3971,8 +3971,8 @@
     "https://github.com/aquasecurity/trivy": {
         "created_at": "2019-04-11 01:01:07",
         "description": "Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more",
-        "commit_date": "2023-07-21 09:00:35",
-        "commit_message": "chore(deps): bump github.com/docker/docker from v23.0.5+incompatible to v23.0.7-0.20230714215826-f00e7af96042+incompatible (#4849)\n\n* use 1.19.10 version for integration tests\n\n* fix go-version field\n\n* revert test workflow changes\n\n* bump docker/docker",
+        "commit_date": "2023-07-23 13:37:18",
+        "commit_message": "fix(report): close the file (#4842)\n\n* fix(report): close the file\n\n* refactor: add the format type\n\n* fix: return errors in version printing\n\n* fix: lint issues\n\n* fix: do not fail on bogus cache dir\n\n---------\n\nCo-authored-by: DmitriyLewen <dmitriy.lewen@smartforce.io>",
         "release_tag": "v0.43.1",
         "release_date": "2023-07-07 09:40:41",
         "release_message": "## Changelog\n* 5d76abadc chore(deps): Update defsec to v0.90.3 (#4793)\n* fed446c51 chore(deps): bump google.golang.org/protobuf from 1.30.0 to 1.31.0 (#4752)\n* df62927e5 chore(deps): bump alpine from 3.18.0 to 3.18.2 (#4748)\n* 1b9b9a84f chore(deps): bump github.com/alicebob/miniredis/v2 from 2.30.3 to 2.30.4 (#4758)\n* 3c16ca821 docs(image): fix the comment on the soft/hard link (#4740)\n* e5bee5ccc check Type when filling pkgs in vulns (#4776)\n* 4b9f310b9 feat: add support of linux/ppc64le and linux/s390x architectures for Install.sh script (#4770)\n* 8e7fb7cc8 chore(deps): bump modernc.org/sqlite from 1.20.3 to 1.23.1 (#4756)\n* a9badeaba fix(rocky): add architectures support for advisories (#4691)\n* f8ebccc68 chore(deps): bump github.com/opencontainers/image-spec (#4751)\n* 1c81948e0 chore(deps): bump github.com/package-url/packageurl-go (#4754)\n* 497cc10d8 chore(deps): bump golang.org/x/sync from 0.2.0 to 0.3.0 (#4750)\n* 065f0afa5 chore(deps): bump github.com/tetratelabs/wazero from 1.2.0 to 1.2.1 (#4755)\n* e2603056d chore(deps): bump github.com/testcontainers/testcontainers-go (#4759)\n* 0621402bf fix: documentation about reseting trivy image (#4733)\n* 798fdbc01 fix(suse): Add openSUSE Leap 15.5 eol date as well (#4744)\n* 34a89293d fix: update Amazon Linux 1 EOL (#4761)\n\n"
@@ -4169,8 +4169,8 @@
     "https://github.com/vulhub/vulhub": {
         "created_at": "2017-04-09 10:13:13",
         "description": "Pre-Built Vulnerable Environments Based on Docker-Compose",
-        "commit_date": "2023-07-08 18:09:34",
-        "commit_message": "Merge pull request #449 from al4n233/patch-1\n\nfixed a typo",
+        "commit_date": "2023-07-23 06:16:10",
+        "commit_message": "Merge pull request #450 from cutem/patch-1\n\nUpdate README.zh-cn.md",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -4277,7 +4277,7 @@
     "https://github.com/aiboboxx/v2rayfree": {
         "created_at": "2021-10-13 11:34:53",
         "description": "v2ray公益免费节点、最新2ray免费v节点订阅地址、v2ray免费节点每日更新、免费ss/v2ray/trojan节点、freefq ",
-        "commit_date": "2023-07-22 12:34:56",
+        "commit_date": "2023-07-23 12:34:48",
         "commit_message": "update",
         "release_tag": "",
         "release_date": "",
@@ -4322,8 +4322,8 @@
     "https://github.com/freefq/free": {
         "created_at": "2020-06-07 02:48:33",
         "description": "翻墙、免费翻墙、免费科学上网、免费节点、免费梯子、免费ss/v2ray/trojan节点、蓝灯、谷歌商店、翻墙梯子",
-        "commit_date": "2023-07-23 00:00:03",
-        "commit_message": "updated_at 07-23 08:00",
+        "commit_date": "2023-07-24 00:00:02",
+        "commit_message": "updated_at 07-24 08:00",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -4529,11 +4529,11 @@
     "https://github.com/MobSF/Mobile-Security-Framework-MobSF": {
         "created_at": "2015-01-31 04:36:01",
         "description": "Mobile Security Framework (MobSF) is an automated, all-in-one mobile application (Android/iOS/Windows) pen-testing, malware analysis and security assessment framework capable of performing static and dynamic analysis.",
-        "commit_date": "2023-07-22 06:41:45",
-        "commit_message": "HOTFIX: MobSF Android Dynamic Analysis Docker Support (#2214)\n\n* MobSF Android Docker Support\r\n\r\n* Pin pip version\r\n\r\n* Update mobsf-test.yml",
-        "release_tag": "v3.6.0",
-        "release_date": "2022-10-04 04:46:23",
-        "release_message": "## IMPORTANT - IF YOU ARE UPDATING MOBSF\r\n\r\nThis release has database model changes. To update see: https://mobsf.github.io/docs/#/updating\r\nThis release has a breaking change. Please rescan all existing scans after the update. Perform rescan from Recent Scans view.\r\n\r\n### v3.6.0 Beta Changelog\r\n\r\n- Features or Enhancements\r\n   - False Positive Triaging / Suppression Triaging Support for critical Android and iOS Security Analysis features.\r\n      -  Android Binary & Source - Supports Code Analysis and Manifest Analysis\r\n      - iOS Binary - Supports Binary Code Analysis\r\n      - iOS Source - Supports Code Analysis\r\n      - New REST APIs for Suppression Support\r\n   - Android Certificate Analysis improvements\r\n   - Remove RELRO check from android binary analysis due to false positives\r\n   - iOS Bundle ID extraction improvements\r\n   - Feature parity - Allow IPA downloads from reports view \r\n   - Code QA: Reduce False positives in identified secrets\r\n   - Check for updates from Github releases\r\n   - M1 Mac support\r\n   - Disabled by default feature to support hotspots in AppSec Scorecard\r\n   - Dependency updates\r\n   - Added CodeQL scan on MobSF python code base\r\n\r\n- Bug Fixes\r\n  - Fixes #1999, #1917, #2042 #1981 #2014 #2043 \r\n  - Fixed a bug in JSON response REST API\r\n  - iOS URL view fix\r\n  - Code fixes to address minor security issues in thrid party libraries.\r\n  - Handle JADX timeouts\r\n "
+        "commit_date": "2023-07-23 19:48:17",
+        "commit_message": "Update setup.py",
+        "release_tag": "v3.6.9",
+        "release_date": "2023-07-23 19:43:02",
+        "release_message": "### v3.6.9 Beta Changelog\r\n\r\n- Features or Enhancements\r\n   - New Simplified and Updated Documentation https://mobsf.github.io/docs/#/\r\n   - MobSF Dynamic Analysis support for Docker image\r\n   - Updated Documentation to include support for Corellium ARM64 Android VMs\r\n   - Add support for environment variables to configure MobSF\r\n   - Android SCA extract icon from SVG\r\n   - OFAC Sanctioned Country Check\r\n   - Improved Android Certificate Analysis\r\n   - Updated Android Manifest Analysis Rules\r\n   - Enterprise Feature Request\r\n      - Summary of Findings under each section\r\n      - Support for independent scanning of AAR ad JAR files.\r\n\r\n## What's Changed\r\n* Adding numeric_owner as a keyword argument by @TrellixVulnTeam in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2050\r\n* Scheduled weekly dependency update for week 41 by @pyup-bot in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2046\r\n* HOTFIX: UI changes and warning on mobsf.live by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2051\r\n* Split certificate analysis out, suppression list fixes by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2052\r\n* hotfix for quark rules location by @superpoussin22 in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2053\r\n* HOTFIX: jadx update to 1.4.5  by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2064\r\n* Installation script error: Solving spelling error by @th3-d4v1d-c0de in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2067\r\n* Android APK support extracting icon SVG from XML by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2060\r\n* HOTFIX: Setup improvement by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2078\r\n* Apktool 2.7.0 update by @superpoussin22 in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2082\r\n* New Android Manifest Rule: App support vulnerable android versions by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2114\r\n* Fix for filenames containing ampersand by @evmxattr in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2129\r\n* HOTFIX - Fix broken docker builds by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2135\r\n* Fix Scorecard Severity Distribution chart data by @antoinbo in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2140\r\n* HOTIX: Update Dockerfile to install jq by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2149\r\n* [HOTFIX] Add support for environment variable for MobSF config by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2150\r\n* HOTFIX: Android min SDK check on janus vulnerability detection by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2159\r\n* [Enterprise Feature Request EFR02] Support summary of severity in each section. by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2160\r\n* [EFR05] Enterprise Feature Request: AAR and JAR support by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2163\r\n* Scheduled weekly dependency update for week 24 by @pyup-bot in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2187\r\n* Feature updates and Bug Fixes by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2197\r\n* HOTFIX: MobSF Android Dynamic Analysis Docker Support by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2214\r\n\r\n## New Contributors\r\n* @th3-d4v1d-c0de made their first contribution in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2067\r\n* @evmxattr made their first contribution in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2129\r\n* @antoinbo made their first contribution in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2140\r\n\r\n**Full Changelog**: https://github.com/MobSF/Mobile-Security-Framework-MobSF/compare/v3.6.0...v3.6.9"
     },
     "https://github.com/gand3lf/semgrepper": {
         "created_at": "2022-11-04 08:58:52",
@@ -4601,8 +4601,8 @@
     "https://github.com/rockbenben/ChatGPT-Shortcut": {
         "created_at": "2023-02-24 12:53:49",
         "description": "🚀💪Maximize your efficiency and productivity, support for English,中文,Español,العربية. 让生产力加倍的 ChatGPT 快捷指令，按照领域和功能分区，可对提示词进行标签筛选、关键词搜索和一键复制。",
-        "commit_date": "2023-07-23 00:12:14",
-        "commit_message": "fix: Resolve issue with incorrect copy on personal favorites page",
+        "commit_date": "2023-07-23 03:32:34",
+        "commit_message": "fix: Resolve issue with font color not switching in dark theme",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -5004,8 +5004,8 @@
     "https://github.com/rustdesk/rustdesk": {
         "created_at": "2020-09-28 15:36:08",
         "description": "Virtual / remote desktop infrastructure for everyone! Open source TeamViewer / Citrix alternative.",
-        "commit_date": "2023-07-22 11:21:31",
-        "commit_message": "Merge branch 'master' of github.com-rustdesk:rustdesk/rustdesk",
+        "commit_date": "2023-07-23 12:38:53",
+        "commit_message": "Merge pull request #5046 from 21pages/fps3\n\nmulti user video qos and fix quality change",
         "release_tag": "1.2.1",
         "release_date": "2023-07-12 07:28:05",
         "release_message": "\r\n![image](https://github.com/rustdesk/rustdesk/assets/71636191/b444deab-7971-4de7-b315-6a9b4974c7ea)\r\n\r\n> Winget, FDroid, Apple Sillicon, Google Play / App Store update will come soon.\r\n\r\nx86-64: [Windows](https://github.com/rustdesk/rustdesk/releases/download/1.2.1/rustdesk-1.2.1-x86_64.exe) | [Ubuntu](https://github.com/rustdesk/rustdesk/releases/download/1.2.1/rustdesk-1.2.1-x86_64.deb) | [Mac](https://github.com/rustdesk/rustdesk/releases/download/1.2.1/rustdesk-1.2.1-x86_64.dmg)\r\nAArch64 (ARM64):  [Ubuntu](https://github.com/rustdesk/rustdesk/releases/download/1.2.1/rustdesk-1.2.1-aarch64.deb) | [Android](https://github.com/rustdesk/rustdesk/releases/download/1.2.1/rustdesk-1.2.1-aarch64-signed.apk)\r\nMore: [check below please](#)\r\n\r\n<details>\r\n<summary>Changelog</summary>\r\n\r\n- fix #4856 \r\n- fix #4866 \r\n- fix email login verfication bug on mobile #4874, and fix email login verification wrong error message\r\n- refactor chat notification both on mobile and desktop #4878 #4889 #4943\r\n- fix #4890 \r\n- fix privacy broker zombie process #4916 \r\n- improve remote menubar #4922\r\n- try to fix issue #3261 with new api, but not sure if it works\r\n- adjust tab theme to make it more clear\r\n- partially fix #4896 \r\n- fix #4880 \r\n- refactor id inputbox on mobile\r\n\r\n</details>\r\n"
