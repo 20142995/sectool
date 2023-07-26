@@ -1,10 +1,11 @@
-# 更新于 2023-07-25 08:43:38
+# 更新于 2023-07-26 08:41:48
 
 ## 近15天release更新记录
 | 更新时间 | 项目名称 | 版本 | 更新内容 |
 | :---- | :---- | :---- | :---- |
+|2023-07-25 13:45:26|[frp](https://github.com/fatedier/frp)|v0.51.2|### Features  * Adds a completion com<br>mand for shell completions.  ### Fixes<br>  * fix a goroutine leak issue caused <br>by Login plugin timeout. * Fix an issu<br>e introduced in version 0.51.1, enabli<br>ng use_compression will cause some req<br>uests to fail.  |
+|2023-07-25 09:51:02|[kube-bench](https://github.com/aquasecurity/kube-bench)|v0.6.17|## Changelog * c8cabc4 Update job.yam<br>l (#1477)  |
 |2023-07-24 17:12:26|[PEASS-ng](https://github.com/carlospolop/PEASS-ng)|2023072<br>4-3e05f4<br>c7||
-|2023-07-24 08:12:56|[kube-bench](https://github.com/aquasecurity/kube-bench)|v0.6.16<br>-rc|## Changelog * aa16551 Fix node.yaml <br>- 4.1.7 and 4.1.8 audit by adding uniq<br> (#1472) * 40cdc1b Fix test_items in c<br>is-1.7 - node - 4.2.12 (#1469) * e2e35<br>3a build(deps): bump actions/setup-go <br>from 3 to 4 (#1402) * a727d73 build(de<br>ps): bump golang from 1.19.4 to 1.20.4<br> (#1436) * b29ed6b chore: add fips com<br>pliant images (#1473)  |
 |2023-07-24 03:56:07|[fupo_for_yonyou](https://github.com/novysodope/fupo_for_yonyou)|2.0|# 增加    根据 #2 的建议，增加批量检<br>测    新增socks5代理功能    # 优化    <br>修复 #4    优化用友 ajax JNDI注入漏洞探<br>测方式，避免waf阻断请求    优化部分漏洞<br>检测，减少误报漏报|
 |2023-07-23 19:43:02|[Mobile-Security-F<br>ramework-MobSF](https://github.com/MobSF/Mobile-Security-Framework-MobSF)|v3.6.9|### v3.6.9 Beta Changelog    - Featur<br>es or Enhancements     - New Simplifie<br>d and Updated Documentation https://mo<br>bsf.github.io/docs/#/     - MobSF Dyna<br>mic Analysis support for Docker image <br>    - Updated Documentation to include<br> support for Corellium ARM64 Android V<br>Ms     - Add support for environment v<br>ariables to configure MobSF     - Andr<br>oid SCA extract icon from SVG     - OF<br>AC Sanctioned Country Check     - Impr<br>oved Android Certificate Analysis     <br>- Updated Android Manifest Analysis Ru<br>les     - Enterprise Feature Request  <br>      - Summary of Findings under each<br> section        - Support for independ<br>ent scanning of AAR ad JAR files.    #<br># What's Changed  * Adding numeric_own<br>er as a keyword argument by @TrellixVu<br>lnTeam in https://github.com/MobSF/Mob<br>ile-Security-Framework-MobSF/pull/2050<br>  * Scheduled weekly dependency update<br> for week 41 by @pyup-bot in https://g<br>ithub.com/MobSF/Mobile-Security-Framew<br>ork-MobSF/pull/2046  * HOTFIX: UI chan<br>ges and warning on mobsf.live by @ajin<br>abraham in https://github.com/MobSF/Mo<br>bile-Security-Framework-MobSF/pull/205<br>1  * Split certificate analysis out, s<br>uppression list fixes by @ajinabraham <br>in https://github.com/MobSF/Mobile-Sec<br>urity-Framework-MobSF/pull/2052  * hot<br>fix for quark rules location by @super<br>poussin22 in https://github.com/MobSF/<br>Mobile-Security-Framework-MobSF/pull/2<br>053  * HOTFIX: jadx update to 1.4.5  b<br>y @ajinabraham in https://github.com/M<br>obSF/Mobile-Security-Framework-MobSF/p<br>ull/2064  * Installation script error:<br> Solving spelling error by @th3-d4v1d-<br>c0de in https://github.com/MobSF/Mobil<br>e-Security-Framework-MobSF/pull/2067  <br>* Android APK support extracting icon <br>SVG from XML by @ajinabraham in https:<br>//github.com/MobSF/Mobile-Security-Fra<br>mework-MobSF/pull/2060  * HOTFIX: Setu<br>p improvement by @ajinabraham in https<br>://github.com/MobSF/Mobile-Security-Fr<br>amework-MobSF/pull/2078  * Apktool 2.7<br>.0 update by @superpoussin22 in https:<br>//github.com/MobSF/Mobile-Security-Fra<br>mework-MobSF/pull/2082  * New Android <br>Manifest Rule: App support vulnerable <br>android versions by @ajinabraham in ht<br>tps://github.com/MobSF/Mobile-Security<br>-Framework-MobSF/pull/2114  * Fix for <br>filenames containing ampersand by @evm<br>xattr in https://github.com/MobSF/Mobi<br>le-Security-Framework-MobSF/pull/2129 <br> * HOTFIX - Fix broken docker builds b<br>y @ajinabraham in https://github.com/M<br>obSF/Mobile-Security-Framework-MobSF/p<br>ull/2135  * Fix Scorecard Severity Dis<br>tribution chart data by @antoinbo in h<br>ttps://github.com/MobSF/Mobile-Securit<br>y-Framework-MobSF/pull/2140  * HOTIX: <br>Update Dockerfile to install jq by @aj<br>inabraham in https://github.com/MobSF/<br>Mobile-Security-Framework-MobSF/pull/2<br>149  * [HOTFIX] Add support for enviro<br>nment variable for MobSF config by @aj<br>inabraham in https://github.com/MobSF/<br>Mobile-Security-Framework-MobSF/pull/2<br>150  * HOTFIX: Android min SDK check o<br>n janus vulnerability detection by @aj<br>inabraham in https://github.com/MobSF/<br>Mobile-Security-Framework-MobSF/pull/2<br>159  * [Enterprise Feature Request EFR<br>02] Support summary of severity in eac<br>h section. by @ajinabraham in https://<br>github.com/MobSF/Mobile-Security-Frame<br>work-MobSF/pull/2160  * [EFR05] Enterp<br>rise Feature Request: AAR and JAR supp<br>ort by @ajinabraham in https://github.<br>com/MobSF/Mobile-Security-Framework-Mo<br>bSF/pull/2163  * Scheduled weekly depe<br>ndency update for week 24 by @pyup-bot<br> in https://github.com/MobSF/Mobile-Se<br>curity-Framework-MobSF/pull/2187  * Fe<br>ature updates and Bug Fixes by @ajinab<br>raham in https://github.com/MobSF/Mobi<br>le-Security-Framework-MobSF/pull/2197 <br> * HOTFIX: MobSF Android Dynamic Analy<br>sis Docker Support by @ajinabraham in <br>https://github.com/MobSF/Mobile-Securi<br>ty-Framework-MobSF/pull/2214    ## New<br> Contributors  * @th3-d4v1d-c0de made <br>their first contribution in https://gi<br>thub.com/MobSF/Mobile-Security-Framewo<br>rk-MobSF/pull/2067  * @evmxattr made t<br>heir first contribution in https://git<br>hub.com/MobSF/Mobile-Security-Framewor<br>k-MobSF/pull/2129  * @antoinbo made th<br>eir first contribution in https://gith<br>ub.com/MobSF/Mobile-Security-Framework<br>-MobSF/pull/2140    **Full Changelog**<br>: https://github.com/MobSF/Mobile-Secu<br>rity-Framework-MobSF/compare/v3.6.0...<br>v3.6.9|
 |2023-07-23 19:28:17|[dbeaver](https://github.com/dbeaver/dbeaver)|23.1.3|                 - Spatial data viewe<br>r:                     - Geometry obje<br>ct labels were added to the map (confi<br>gurable)                     - Curves <br>rendering was implemented             <br>        - Coordinates and viewport bou<br>nds copy was implemented              <br>       - EWKT format support was added<br>                     - Toolbars and la<br>sso visibility toggle was fixed       <br>          - Data transfer:            <br>         - Import of multiple tables f<br>rom an XLSX was implemented           <br>          - Lazy initialization of con<br>figuration pages was implemented      <br>               - Issue with duplicated<br> file selector dialog was fixed       <br>              - Export in XML format w<br>as fixed (doctype section is not optio<br>nal)                     - Issue long <br>filenames on Windows was fixed        <br>         - Data Editor:               <br>      - Find/Replace dialog and shortc<br>ut in the Value view panel were fixed <br>                    - Column descripti<br>on was added to the Metadata panel    <br>                 - Folding in the XML <br>presentation was fixed                <br>     - Displaying of images in the the<br> value view panel was fixed on Linux  <br>                   - Confirmation dial<br>og for the result set filtering was im<br>proved                 - Accessibility<br>:                     - JAWs screen re<br>ader can now read data in the Data gri<br>d                 - General UI:       <br>              - Tips of the day were u<br>pdated                     - Creation <br>of objects with mixed-case identifiers<br> was fixed                     - DDL g<br>eneration for sequence was fixed      <br>               - Logical project delet<br>ion was fixed                     - Is<br>sue with opening of a local project wa<br>s fixed                 - AI:         <br>            - New GPT 3.5 Turbo 16К mo<br>del was added                     - Is<br>sue with long metadata information sen<br>ding was fixed                 - Conne<br>ctions:                     - Duplicat<br>es on driver creation were removed    <br>                 - Issue with maven ar<br>tifacts editing was fixed             <br>        - Certificate management UI wa<br>s improved                 - New drive<br>rs:                     - Materialize <br>database driver was added (thanks @bob<br>byiliev)                     - Crate D<br>B via PostgreSQL driver was improved (<br>thanks @proddata)                 - Da<br>tabases:                     - DB2: us<br>ers can see Column Mask Objects       <br>              - TimescaleDB branding w<br>as updated                 - Localizat<br>ion:                     - Chinese Sim<br>plified localization was improved (tha<br>nks @bynyun)                     - Ger<br>man localization was improved (thanks <br>@fjf2002)             |
@@ -15,7 +16,6 @@
 |2023-07-22 08:40:18|[wmiexec-Pro](https://github.com/XiaoliChan/wmiexec-Pro)|v0.2.6|### Changelog:  - Bugs fixed in exec-<br>command|
 |2023-07-21 02:33:21|[ObserverWard](https://github.com/0x727/ObserverWard)|v2023.7<br>.21|## [2023.7.21] - 2023.7.21  ### Fixes<br>  - --gen参数可以配合--yaml参数将指定y<br>aml目录中的全部yaml指纹规则生成单个jso<br>n文件，主要方便自定义指纹，生成便携单<br>文件。 - /home/kali-team/IdeaProjects/F<br>ingerprintHub/web_fingerprint是存放yam<br>l的目录，web_fingerprint_v3.json是生成<br>的文件路径。  bash ➜  ~ ./observer_war<br>d --yaml /home/kali-team/IdeaProjects/<br>FingerprintHub/web_fingerprint --gen w<br>eb_fingerprint_v3.json ➜  ~ jq length<br> web_fingerprint_v3.json 3448  - 添加<br>如果本地没有指纹库，会自动更新指纹。防<br>止跑完发现没有下载指纹，白跑了目标。|
 |2023-07-20 16:57:57|[faker](https://github.com/joke2k/faker)|v19.2.0|See .|
-|2023-07-20 14:49:48|[frp](https://github.com/fatedier/frp)|v0.51.1|### Fixes  * Fix the issue of not dis<br>abling tcp keepalive when configuring <br>tcp_keepalive = -1 in frps. * Fix a ra<br>ce condition error.  |
 |2023-07-20 13:46:54|[grype](https://github.com/anchore/grype)|v0.64.2|# Changelog    ##  (2023-07-20)      <br>  ### Bug Fixes    - grype 0.64.0 does<br>n't list vulnerabilties if --fail-on f<br>ails ] ] ]    |
 |2023-07-20 09:49:02|[safeline](https://github.com/chaitin/safeline)|v2.3.1|### 新增    ‒ 检测日志升级为**攻击事<br>件** ，自动聚合同一攻击 IP 短时间内的所<br>有攻击日志，方便管理员进行监控和处置  <br>‒ 日志支持按时间（）、动作筛选    ### <br>修复    ‒ 修复添加/编辑站点时，上传证<br>书处未翻译中文的问题  ‒ 修复数据统计中<br>，“访问来源地区” 小概率出现的部分地区<br>显示不正确的问题|
 |2023-07-19 08:35:01|[Elkeid](https://github.com/bytedance/Elkeid)|rasp-v2<br>.2.0.7-p<br>re||
@@ -28,36 +28,40 @@
 |2023-07-12 17:45:16|[syft](https://github.com/anchore/syft)|v0.85.0|# Changelog    ##  (2023-07-12)      <br>  ### Added Features    - Add a --base<br>-path command line flag to set the dir<br>ectory base for scans (this option was<br> previously exposed via API only) ] ] <br> - Add file source digest support ] ] <br> - Remove erroneous Java CPEs from gen<br>eration ] ]  - Fix CPE generation for <br>k8s python client ] ]  - Don't use the<br> actual redis or grpc CPEs for gems ] <br>]  - The text user interface is now pr<br>ovided by the bubbletea library ] ] ] <br>   ### Bug Fixes    - Install script r<br>eturns exit code 0 even if install fai<br>ls ] ] ]  - ] ] ]  - Deprecated licens<br>e: GFDL-1.2+ ] ] ]    ### Breaking Cha<br>nges    - Refactor the source API and <br>syft-json source block data shape ] ] <br>]    ### Additional Changes    - chore<br>: update iterations to protect against<br> race ] ]  - fix: background reader ap<br>art from global handler for testing ] <br>]        |
 |2023-07-12 08:50:03|[Burp-Non-HTTP-Ext<br>ension](https://github.com/summitt/Burp-Non-HTTP-Extension)|v1.7.2|* Fixed Port Monitor|
 |2023-07-12 07:28:05|[rustdesk](https://github.com/rustdesk/rustdesk)|1.2.1|      > Winget, FDroid, Apple Sillico<br>n, Google Play / App Store update will<br> come soon.    x86-64:  |  |   AArch64<br> (ARM64):   |   More:       Changelog <br>   - fix #4856   - fix #4866   - fix e<br>mail login verfication bug on mobile #<br>4874, and fix email login verification<br> wrong error message  - refactor chat <br>notification both on mobile and deskto<br>p #4878 #4889 #4943  - fix #4890   - f<br>ix privacy broker zombie process #4916<br>   - improve remote menubar #4922  - t<br>ry to fix issue #3261 with new api, bu<br>t not sure if it works  - adjust tab t<br>heme to make it more clear  - partiall<br>y fix #4896   - fix #4880   - refactor<br> id inputbox on mobile      |
-|2023-07-10 15:59:17|[flightsim](https://github.com/alphasoc/flightsim)|v2.4.0|## Network Flight Simulator v2.4.0 (2<br>023-07-10)    **This release adds:**  <br>- A new IRC module simulating traffic <br>to IRC servers  - A new Telegram Bot m<br>odule simulating traffic to Telegram A<br>PI    **Full Changelog**: https://gith<br>ub.com/alphasoc/flightsim/compare/v2.3<br>.0...v2.4.0    ## Enjoy!    |
-|2023-07-10 11:06:44|[ghauri](https://github.com/r0oth3x49/ghauri)|1.2.3|Feature:   - added support for URI in<br>jection in case of no parameters are d<br>etected in GET, POST or any custom inj<br>ection marker found. (#61 feature requ<br>est)       |
-|2023-07-10 06:23:51|[goproxy](https://github.com/snail007/goproxy)|v13.4|1、修复高并发，频繁短链接，开启认证的<br>情况下，流量上报模块可能存在着内存持续<br>增长问题。  2、优化授权认证。|
 ## 近15天commit提交记录
 | 提交时间 | 项目名称 | 更新内容 |
 | :---- | :---- | :---- |
-|2023-07-25 00:30:20|[NucleiTP](https://github.com/ExpLangcn/NucleiTP)|更新啦❤️|
-|2023-07-25 00:00:04|[free](https://github.com/freefq/free)|updated_at 07-25 08:00|
-|2023-07-24 23:46:07|[neuvector](https://github.com/neuvector/neuvector)|Merge pull request #925 from williamlin-suse/main  <br>NVSHAS-8141: Cannot delete CRD rules.|
+|2023-07-26 00:30:18|[NucleiTP](https://github.com/ExpLangcn/NucleiTP)|更新啦❤️|
+|2023-07-26 00:13:29|[PocOrExp_in_Githu<br>b](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-07-26 08:13:29|
+|2023-07-26 00:00:03|[free](https://github.com/freefq/free)|updated_at 07-26 08:00|
+|2023-07-25 20:19:06|[Mobile-Security-F<br>ramework-MobSF](https://github.com/MobSF/Mobile-Security-Framework-MobSF)|Hotfix: Handle Docker  ADB connectivity internally <br>(#2219)  * host.docker.internal transilation for loc<br>alhost    * Replace urlparse with re    * version bu<br>mp    * update ascii art|
+|2023-07-25 19:50:37|[clair](https://github.com/quay/clair)|clairctl: Add post 4.7 admin command to delete pyup<br>io vulns  Pyupio vulns should have been deleted in a<br> migration step but if the operator has had to rollb<br>ack they might still exist. This command can be used<br> after 4.7 is deployed.  Signed-off-by: crozzy |
+|2023-07-25 18:35:21|[syft](https://github.com/anchore/syft)|Add cataloger for Swift Package Manager. (#1919)  S<br>igned-off-by: Tristan Farkas |
+|2023-07-25 18:12:10|[FreeRDP](https://github.com/FreeRDP/FreeRDP)|Refactor: Improve error message in is_within_surfac<br>e function  In the function is_within_surface, the e<br>rror message for out-of-bounds command rectangles ha<br>s been enhanced for better clarity. The code has bee<br>n modified to display the rectangle coordinates and <br>surface dimensions in the error message. This change<br> aims to make debugging easier and improve the overa<br>ll code quality.|
+|2023-07-25 17:20:14|[neuvector](https://github.com/neuvector/neuvector)|Merge pull request #926 from williamlin-suse/main  <br>NVSHAS-8113: UI should not show expiry warning messa<br>ge when downloadi…|
+|2023-07-25 17:12:47|[flightsim](https://github.com/alphasoc/flightsim)|Minor update to README.md|
+|2023-07-25 15:29:53|[dbeaver](https://github.com/dbeaver/dbeaver)|dbeaver/pro Rename label for save password (#20663)|
+|2023-07-25 13:37:43|[afrog](https://github.com/zan8in/afrog)|update|
+|2023-07-25 13:35:20|[0_zone_tool](https://github.com/wkend/0_zone_tool)|Update 0_zone.py|
+|2023-07-25 13:31:26|[frp](https://github.com/fatedier/frp)|fix incorrect use of snappy pool (#3549)|
+|2023-07-25 12:45:56|[rustdesk](https://github.com/rustdesk/rustdesk)|Merge pull request #5120 from bovirus/master  Updat<br>e italian language|
+|2023-07-25 12:40:59|[v2rayfree](https://github.com/aiboboxx/v2rayfree)|update|
+|2023-07-25 10:23:14|[nemo_go](https://github.com/hanc00l/nemo_go)|Fix && Update: quake查询API参数服务器调整导致无法正<br>确搜索结果；Fofa默认分页数与实际不一致导致的重复调用A<br>PI|
+|2023-07-25 09:41:24|[kube-bench](https://github.com/aquasecurity/kube-bench)|release: prepare v0.6.17 (#1480)  Signed-off-by: ch<br>enk |
+|2023-07-25 09:19:35|[Awesome-POC](https://github.com/Threekiii/Awesome-POC)|更新漏洞|
+|2023-07-25 09:16:43|[Vulhub-Reproduce](https://github.com/Threekiii/Vulhub-Reproduce)|更新README.md|
+|2023-07-25 08:45:33|[sqlmap](https://github.com/sqlmapproject/sqlmap)|Fixes #5476|
+|2023-07-25 07:38:09|[murphysec](https://github.com/murphysecurity/murphysec)|chore(deps): Upgrade dependencies...|
+|2023-07-25 03:27:55|[Scanners-Box](https://github.com/We5ter/Scanners-Box)|Add the 1st sponsor @Albert, thanks, my friend.|
 |2023-07-24 16:52:48|[PEASS-ng](https://github.com/carlospolop/PEASS-ng)|Merge pull request #373 from galoget/master  Fix Br<br>oken Links for Cloud and Containers Pentesting|
-|2023-07-24 15:37:12|[afrog](https://github.com/zan8in/afrog)|update|
 |2023-07-24 15:36:01|[SmsForwarder](https://github.com/pppscn/SmsForwarder)|新增：通话转发规则的匹配字段增加通话类型 & 自定义模<br>板增加{{通话类型}}标签 #305|
-|2023-07-24 15:28:54|[syft](https://github.com/anchore/syft)|chore(deps): bump github.com/go-git/go-git/v5 from <br>5.7.0 to 5.8.0 (#1951)  Bumps  from 5.7.0 to 5.8.0. <br> -   -     ---  updated-dependencies:  - dependency-<br>name: github.com/go-git/go-git/v5    dependency-type<br>: direct:production    update-type: version-update:s<br>emver-minor  ...    Signed-off-by: dependabot[bot]  <br> Co-authored-by: dependabot[bot] |
-|2023-07-24 14:49:10|[dbeaver](https://github.com/dbeaver/dbeaver)|Cb 1768 ssl support (#20606)  * CB-1768 property fi<br>elds for ssl    * CB-1768 filter desktop network han<br>dlers    * CB-1768 use multiline for certificates   <br> * CB-1768 set secure properties fix    * CB-1768 se<br>t secure properties fix    * CB-1768 add password fe<br>ature    * CB-1768 filter other ssl configurations|
 |2023-07-24 14:19:35|[BloodHound](https://github.com/BloodHoundAD/BloodHound)|Merge pull request #670 from LuemmelSec/Extend-Defa<br>ult-Queries  Add Azure Queries|
 |2023-07-24 14:10:06|[grype](https://github.com/anchore/grype)|chore: in quality tests, only colorize quality outp<br>ut if in a tty (#1398)  Permit piping "make validate<br>" (from test/quality) to a file without filling it w<br>ith control  characters.    Signed-off-by: Will Murp<br>hy |
-|2023-07-24 13:57:26|[rustdesk](https://github.com/rustdesk/rustdesk)|Merge pull request #5106 from 21pages/fix  update h<br>wcodec|
-|2023-07-24 12:39:13|[v2rayfree](https://github.com/aiboboxx/v2rayfree)|update|
-|2023-07-24 12:10:28|[0_zone_tool](https://github.com/wkend/0_zone_tool)|Update README.md|
 |2023-07-24 11:06:54|[safeline](https://github.com/chaitin/safeline)|feat: release v2.3.2|
-|2023-07-24 09:16:54|[nemo_go](https://github.com/hanc00l/nemo_go)|Update: remove old updated sql|
-|2023-07-24 09:05:13|[FreeRDP](https://github.com/FreeRDP/FreeRDP)|[winpr,file] do not assume order for directory list<br>ings|
 |2023-07-24 08:54:54|[vulnerability](https://github.com/lal0ne/vulnerability)|CVE-2023-3836|
-|2023-07-24 08:01:43|[kube-bench](https://github.com/aquasecurity/kube-bench)|release: prepare v0.6.16-rc (#1476)  * release: pre<br>pare v0.6.16-rc    Signed-off-by: chenk     * releas<br>e: prepare v0.6.16-rc    Signed-off-by: chenk     --<br>-------    Signed-off-by: chenk |
 |2023-07-24 07:09:14|[trivy](https://github.com/aquasecurity/trivy)|refactor: replace with sortable packages (#4858)|
-|2023-07-24 06:04:00|[murphysec](https://github.com/murphysecurity/murphysec)|chore(deps): Upgrade dependencies...|
-|2023-07-24 04:02:37|[PocOrExp_in_Githu<br>b](https://github.com/ycdxsb/PocOrExp_in_Github)|update Today.md|
 |2023-07-24 04:01:14|[fupo_for_yonyou](https://github.com/novysodope/fupo_for_yonyou)|2.0更新  2.0更新|
 |2023-07-24 03:42:18|[404StarLink](https://github.com/knownsec/404StarLink)|weekly update at 2023-07-24|
-|2023-07-23 19:48:17|[Mobile-Security-F<br>ramework-MobSF](https://github.com/MobSF/Mobile-Security-Framework-MobSF)|Update setup.py|
 |2023-07-23 10:01:35|[subfinder](https://github.com/projectdiscovery/subfinder)|added dep auto merge workflow|
 |2023-07-23 09:26:45|[veinmind-tools](https://github.com/chaitin/veinmind-tools)|feat(veinmind-trace): init (#253)|
 |2023-07-23 06:16:10|[vulhub](https://github.com/vulhub/vulhub)|Merge pull request #450 from cutem/patch-1  Update <br>README.zh-cn.md|
@@ -73,11 +77,8 @@
 |2023-07-22 02:11:24|[GobypassAV-shellc<br>ode](https://github.com/Pizz33/GobypassAV-shellcode)|Update README.md|
 |2023-07-22 02:03:42|[Fvuln](https://github.com/d3ckx1/Fvuln)|Update README.md|
 |2023-07-21 22:49:52|[nuclei](https://github.com/projectdiscovery/nuclei)|adding set with httpx probe (#3955)|
-|2023-07-21 20:42:45|[clair](https://github.com/quay/clair)|chore: Bump claircore to v1.5.11  Update claircore <br>dependency to latest tag.  Signed-off-by: crozzy |
 |2023-07-21 09:35:24|[heapdump_tool](https://github.com/wyzxxz/heapdump_tool)|Update README.md|
-|2023-07-21 08:54:17|[sqlmap](https://github.com/sqlmapproject/sqlmap)|Removing support for lol FORKZ|
 |2023-07-21 08:42:17|[Awesome-Redteam](https://github.com/Threekiii/Awesome-Redteam)|更新README.md|
-|2023-07-21 06:34:44|[frp](https://github.com/fatedier/frp)|update dependencies (#3539)|
 |2023-07-21 04:27:37|[Burp-Non-HTTP-Ext<br>ension](https://github.com/summitt/Burp-Non-HTTP-Extension)|Update README.md|
 |2023-07-21 02:31:53|[ObserverWard](https://github.com/0x727/ObserverWard)|自动更新指纹，添加生成json格式指纹库参数|
 |2023-07-21 01:37:09|[gshark](https://github.com/madneal/gshark)|Merge pull request #159 from madneal/dependabot/npm<br>_and_yarn/web/word-wrap-1.2.4  Bump word-wrap from 1<br>.2.3 to 1.2.4 in /web|
@@ -86,7 +87,6 @@
 |2023-07-20 10:50:03|[domain_hunter_pro](https://github.com/bit4woo/domain_hunter_pro)|Update CertInfo.java|
 |2023-07-20 09:10:56|[Vulnerability-Wik<br>i](https://github.com/Threekiii/Vulnerability-Wiki)|Merge pull request #27 from Henry4E36/Henry4E36-pat<br>ch-1  Create 泛微OA e-cology FileDownloadForOutDoc前<br>台SQL注入漏洞.md|
 |2023-07-19 16:43:10|[Stowaway](https://github.com/ph4ntonn/Stowaway)|Fix usage|
-|2023-07-19 09:25:26|[Scanners-Box](https://github.com/We5ter/Scanners-Box)|[+]大模型安全|
 |2023-07-19 08:06:37|[Elkeid](https://github.com/bytedance/Elkeid)|Merge pull request #518 from Hackerl/main  add name<br>sapce mount tool|
 |2023-07-19 06:58:32|[0day](https://github.com/helloexp/0day)|add java based rocketMQ RCE  CVE-2023-33246|
 |2023-07-18 14:45:58|[awesome-chatgpt-z<br>h](https://github.com/yzfly/awesome-chatgpt-zh)|add gpt-runner|
@@ -95,8 +95,6 @@
 |2023-07-17 23:00:15|[zksync](https://github.com/nftscripts/zksync)|Update runner.py|
 |2023-07-17 22:38:23|[WebGoat](https://github.com/WebGoat/WebGoat)|Add Assignment7 Tests|
 |2023-07-17 16:25:36|[v2rayA](https://github.com/v2rayA/v2rayA)|Added pt-br.js file for brazilian portuguese langua<br>ge (#990)|
-|2023-07-17 09:09:21|[Awesome-POC](https://github.com/Threekiii/Awesome-POC)|更新漏洞|
-|2023-07-17 09:08:34|[Vulhub-Reproduce](https://github.com/Threekiii/Vulhub-Reproduce)|更新漏洞|
 |2023-07-17 02:02:03|[knife](https://github.com/bit4woo/knife)|改造FindUrlAndRequest的逻辑，使相同URL的不同请求位<br>置在一起，方便查看|
 |2023-07-16 01:33:27|[HackBrowserData](https://github.com/moonD4rk/HackBrowserData)|chore: update contributors [skip ci]|
 |2023-07-15 23:54:15|[DecoyMini](https://github.com/decoymini/DecoyMini)|Update README.md|
@@ -115,9 +113,7 @@
 |2023-07-11 10:35:21|[feroxbuster](https://github.com/epi052/feroxbuster)|Merge pull request #938 from epi052/all-contributor<br>s/add-ktecv2000  docs: add ktecv2000 as a contributo<br>r for bug|
 |2023-07-11 09:46:13|[SharpDBeaver](https://github.com/lele8/SharpDBeaver)|first commit|
 |2023-07-11 08:58:52|[JNDIExploit](https://github.com/qi4L/JNDIExploit)|更新说明文件|
-|2023-07-11 06:31:30|[flightsim](https://github.com/alphasoc/flightsim)|Adjust IRC and Telegram Bot API module descriptions|
-|2023-07-11 01:54:11|[RouteVulScan](https://github.com/F6JO/RouteVulScan)|update|
-|2023-07-10 21:03:54|[ghauri](https://github.com/r0oth3x49/ghauri)|updated code quality, fixed issue with payloads..|## 所有项目
+|2023-07-11 01:54:11|[RouteVulScan](https://github.com/F6JO/RouteVulScan)|update|## 所有项目
 # 渗透测试
 ## 信息收集
 ### 资产测绘采集
@@ -128,7 +124,7 @@
 | [Search_Viewer](https://github.com/G3et/Search_Viewer) | v3.0 | 集Fofa、Hunter鹰图、Shodan、360 quake、Zoomeye 钟馗之眼、censy<br>s 为一体的gui图形界面化工具 |
 | [koko-moni](https://github.com/burpheart/koko-moni) | v0.0.1 | 一个网络空间搜索引擎监控平台，可定时进行资产信息爬取，及时发现<br>新增资产，本项目聚合了 Fofa、Hunter、Quake、Zoomeye 和 Threatboo<br>k 的数据源，并对获取到的数据进行去重与清洗 |
 | [AsamF](https://github.com/Kento-Sec/AsamF) | v0.2.4 | AsamF是集成Fofa、Quake、Hunter、Shodan、Zoomeye、Chinaz、0.zon<br>e及爱企查的一站式企业信息资产收集、网络资产测绘工具。 |
-| [fshzqSearch](https://github.com/Ifory885/fshzqSearch) |  | fofa、shodan、hunter、zoomeye、quake网络空间搜索引擎及github聚<br>合搜索，并对结果进行finger指纹识别。 |
+| [fshzqSearch](https://github.com/Ifory885/fshzqSearch) |  |  |
 | [0_zone_tool](https://github.com/wkend/0_zone_tool) |  | 零零信安api信息系统查询脚本 |
 | [TKHunter](https://github.com/HHa1ey/TKHunter) | TKHunte<br>r-v1.8 | 一个基于JavaFX写的一个Hunter资产测绘平台的图形化工具 |
 ### 子域名收集
@@ -363,7 +359,7 @@
 #### K8S基线核查
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
-| [kube-bench](https://github.com/aquasecurity/kube-bench) | v0.6.16<br>-rc | Checks whether Kubernetes is deployed according to security be<br>st practices as defined in the CIS Kubernetes Benchmark |
+| [kube-bench](https://github.com/aquasecurity/kube-bench) | v0.6.17 | Checks whether Kubernetes is deployed according to security be<br>st practices as defined in the CIS Kubernetes Benchmark |
 #### 云原生安全平台
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
@@ -766,7 +762,7 @@
 | [PortForward](https://github.com/knownsec/PortForward) | 0.5.0 | The port forwarding tool developed by Golang solves the proble<br>m that the internal and external networks cannot communicate in<br> certain scenarios |
 | [rakshasa](https://github.com/Mob2003/rakshasa) | v0.2.3 | 基于go编写的跨平台、稳定、隐秘的多级代理内网穿透工具 |
 | [nps](https://github.com/ehang-io/nps) | v0.26.1<br>0 | 一款轻量级、高性能、功能强大的内网穿透代理服务器。支持tcp、udp<br>、socks5、http等几乎所有流量转发，可用来访问内网网站、本地支付接<br>口调试、ssh访问、远程桌面，内网dns解析、内网socks5代理等等……，<br>并带有功能强大的web管理端。a lightweight, high-performance, powe<br>rful intranet penetration proxy server, with a powerful web man<br>agement terminal. |
-| [frp](https://github.com/fatedier/frp) | v0.51.1 | A fast reverse proxy to help you expose a local server behind <br>a NAT or firewall to the internet. |
+| [frp](https://github.com/fatedier/frp) | v0.51.2 | A fast reverse proxy to help you expose a local server behind <br>a NAT or firewall to the internet. |
 | [Erfrp](https://github.com/Goqi/Erfrp) | v0.1 | Erfrp-frp二开-免杀与隐藏 |
 | [frp_cmd](https://github.com/OrangeWatermelon/frp_cmd) | v0.38.0<br>_modify | frp修改版，增加socks、pf命令，便捷启用socks5代理、端口转发，且<br>去除流量特征，增加loadini命令，支持命令行参数导入base64编码的配<br>置文件 |
 | [dns2tcp](https://github.com/alex-sector/dns2tcp) | v0.5.2 |  |
