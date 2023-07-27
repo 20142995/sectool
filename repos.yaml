@@ -189,7 +189,6 @@
         漏洞利用框架:
             - https://github.com/woodpecker-framework/woodpecker-framework-release
 
-
         漏洞利用辅助:
             - https://github.com/wyzxxz/jndi_tool
             - https://github.com/frohoff/ysoserial
@@ -208,7 +207,6 @@
             - https://github.com/0x727/JNDIExploit
             - https://github.com/cseroad/Exp-Tools
         重点CMS利用:
-            
             - https://github.com/yuanhaiGreg/LandrayExploit
             - https://github.com/z1un/weaver_exp
             - https://github.com/Tas9er/EgGateWayGetShell
@@ -219,7 +217,7 @@
             - https://github.com/AngraTeam/wprecon
 
             - https://github.com/White-hua/Apt_t00ls
-            
+
             - https://github.com/qi4L/QVD-2023-13065
             - https://github.com/chrisjd20/hikvision_CVE-2017-7921_auth_bypass_config_decryptor
             - https://github.com/SuperZero/CVE-2023-33246
@@ -245,7 +243,7 @@
                 - https://github.com/BishopFox/rmiscout
             JDWP:
                 - https://github.com/IOActive/jdwp-shellifier
-            
+
             数据库利用:
                 redis:
                     - https://github.com/n0b0dyCN/redis-rogue-server
@@ -329,7 +327,7 @@
         编辑器漏洞:
             UEditor:
                 - https://github.com/Tas9er/UEditorGetShell
-            
+
         产品/组件/框架漏洞:
             Apache Dubbo:
                 - https://github.com/threedr3am/dubbo-exp
@@ -360,7 +358,7 @@
                 - https://github.com/SummerSec/SpringExploit
                 - https://github.com/0x727/SpringBootExploit
                 - https://github.com/13exp/SpringBoot-Scan-GUI
-                
+
             Thinkphp:
                 - https://github.com/zangcc/Aazhen-RexHa
                 - https://github.com/Lotus6/ThinkphpGUI
@@ -370,7 +368,6 @@
                 - https://github.com/KimJun1010/WeblogicTool
                 - https://github.com/4ra1n/CVE-2023-21839
                 - https://github.com/TideSec/Decrypt_Weblogic_Password
-
 
         OA产品漏洞:
             通达OA:
@@ -502,7 +499,7 @@
 
             - https://github.com/Potato-py/getIntrInfo
             - https://github.com/GhostPack/SharpDPAPI
-            
+
         漏洞发现:
             - https://github.com/inbug-team/InScan
             - https://github.com/lcvvvv/kscan
@@ -675,7 +672,7 @@
             - https://github.com/ExpLangcn/NucleiTP
             - https://github.com/mlq574/nucleix
             - https://github.com/Yong-An-Dang/nuclei-plus
-            
+
         nessus:
             - https://github.com/Hypdncy/NessusToReport
             - https://github.com/FunnyKun/NessusReportInChinese
@@ -800,7 +797,9 @@ CTF:
             - https://github.com/ClownQq/YDArk
             - https://docs.microsoft.com/zh-cn/sysinternals/downloads/
         日志分析:
+            - https://www.nirsoft.net/utils/full_event_log_view.html
             - https://www.microsoft.com/en-us/download/details.aspx?id=24659
+            - https://github.com/dogadmin/windodws-logs-analysis
             - https://github.com/ahmedkhlief/APT-Hunter
         信息采集:
             - https://github.com/MountCloud/FireKylin
@@ -819,14 +818,13 @@ CTF:
         - https://github.com/LandGrey/copagent
         - https://github.com/r00t4dm/aLIEz
     知识库:
-        - https://github.com/Bypass007/Emergency-Response-Notes 
+        - https://github.com/Bypass007/Emergency-Response-Notes
     威胁情报收集:
         - https://github.com/wgpsec/tig
         - https://github.com/CRED-CLUB/ARTIF
     勒索解密:
         - https://github.com/jiansiting/Decryption-Tools
 
-    
 安全产品:
     威胁检测:
         - https://github.com/RoomaSec/RmEye
@@ -881,7 +879,7 @@ CTF:
         - https://github.com/aiboboxx/v2rayfree
     python笔记:
         - https://github.com/jackfrued/Python-100-Days
-        
+
     报告模板:
         - https://github.com/awake1t/HackReport
     文字识别:
