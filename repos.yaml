@@ -801,6 +801,7 @@ CTF:
             - https://www.microsoft.com/en-us/download/details.aspx?id=24659
             - https://github.com/dogadmin/windodws-logs-analysis
             - https://github.com/ahmedkhlief/APT-Hunter
+            - https://github.com/Yamato-Security/WELA
         信息采集:
             - https://github.com/MountCloud/FireKylin
     web日志分析:
