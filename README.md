@@ -1,8 +1,10 @@
-# 更新于 2023-07-26 08:41:48
+# 更新于 2023-07-27 08:38:50
 
 ## 近15天release更新记录
 | 更新时间 | 项目名称 | 版本 | 更新内容 |
 | :---- | :---- | :---- | :---- |
+|2023-07-26 21:22:17|[pocsuite3](https://github.com/knownsec/pocsuite3)|v2.0.5|* 修复 urllib3 更新导致 requests hook<br> 失效的问题 #368 #373   * 优化 DSL 表<br>达式执行 #372  * 将 mmh3 设置为可选依赖<br> #359   * 优化检查更新    ---    * fix<br> hook failure due to urllib3 update #3<br>68 #373  * optimize DSL expression exe<br>cution #372  * making mmh3 an optional<br> dependency #359  * disable mandatory <br>updates  |
+|2023-07-26 06:26:19|[veinmind-tools](https://github.com/chaitin/veinmind-tools)|v2.1.5|## 🔥 Feature  * feat(veinmind-trace)<br>: add veinmind-trace plugin for detect<br>ing attack trace in container  by @DVK<br>union in #253   * feat(veinmind-backdo<br>or): refactor backdoor go plugin  by @<br>ek1ng in #252   * feat(veinmind-backdo<br>or): add rootkit scan by @l2yyd5 in #2<br>56     ## 📒 Others  * chore(veinmind-<br>backdoor): disabled python plugin and <br>instead of go plugin by @DVKunion in #<br>257   * chore(libveinmind): update lib<br>veinmind 1.9.42 by @DVKunion in #258  <br>   ## 🎉 New Contributors  * @l2yyd5 m<br>ade their first contribution in #256  <br>   **Full Changelog**: https://github.<br>com/chaitin/veinmind-tools/compare/v2.<br>1.4...v2.1.5|
 |2023-07-25 13:45:26|[frp](https://github.com/fatedier/frp)|v0.51.2|### Features  * Adds a completion com<br>mand for shell completions.  ### Fixes<br>  * fix a goroutine leak issue caused <br>by Login plugin timeout. * Fix an issu<br>e introduced in version 0.51.1, enabli<br>ng use_compression will cause some req<br>uests to fail.  |
 |2023-07-25 09:51:02|[kube-bench](https://github.com/aquasecurity/kube-bench)|v0.6.17|## Changelog * c8cabc4 Update job.yam<br>l (#1477)  |
 |2023-07-24 17:12:26|[PEASS-ng](https://github.com/carlospolop/PEASS-ng)|2023072<br>4-3e05f4<br>c7||
@@ -31,39 +33,44 @@
 ## 近15天commit提交记录
 | 提交时间 | 项目名称 | 更新内容 |
 | :---- | :---- | :---- |
-|2023-07-26 00:30:18|[NucleiTP](https://github.com/ExpLangcn/NucleiTP)|更新啦❤️|
-|2023-07-26 00:13:29|[PocOrExp_in_Githu<br>b](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-07-26 08:13:29|
-|2023-07-26 00:00:03|[free](https://github.com/freefq/free)|updated_at 07-26 08:00|
+|2023-07-27 00:30:16|[NucleiTP](https://github.com/ExpLangcn/NucleiTP)|更新啦❤️|
+|2023-07-27 00:00:03|[free](https://github.com/freefq/free)|updated_at 07-27 08:00|
+|2023-07-26 23:25:54|[PocOrExp_in_Githu<br>b](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-07-27 07:25:54|
+|2023-07-26 21:18:59|[pocsuite3](https://github.com/knownsec/pocsuite3)|Merge pull request #375 from 13ph03nix/fix/urllib3-<br>hook  Bug fixes & improvements|
+|2023-07-26 21:09:32|[clair](https://github.com/quay/clair)|chore: bump claircore to v1.5.13  Update claircore <br>dependency to latest tag.  Signed-off-by: crozzy |
+|2023-07-26 20:16:48|[impacket](https://github.com/fortra/impacket)|Fixed typo, added description for net.py new exampl<br>e|
+|2023-07-26 18:50:21|[FreeRDP](https://github.com/FreeRDP/FreeRDP)|[client,sdl] set gui consent message|
+|2023-07-26 17:54:32|[syft](https://github.com/anchore/syft)|feat: support top-level SPDX package and graph (#19<br>34)  Signed-off-by: Keith Zantow |
+|2023-07-26 17:40:20|[grype](https://github.com/anchore/grype)|feat: implement secondary sorting for default json <br>output (#1403)  * feat: implement secondary sorting <br>for default json output  ---------  Signed-off-by: C<br>hristopher Phillips |
+|2023-07-26 15:55:47|[Stowaway](https://github.com/ph4ntonn/Stowaway)|Fix preauth|
+|2023-07-26 15:22:19|[kube-bench](https://github.com/aquasecurity/kube-bench)|Bump docker base images (#1465)  During a recent CV<br>E scan we found kube-bench to use alpine:3.18 as the<br> final image which has a known high CVE.      grype <br>aquasec/kube-bench:v0.6.15   ✔ Vulnerability DB    <br>    , hence updating the dockerfiles accordingly|
+|2023-07-26 14:58:46|[BloodHound](https://github.com/BloodHoundAD/BloodHound)|Merge pull request #687 from ShutdownRepo/patch-1  <br>Fixing LinuxAbuse.jsx dacledit.py DCSync command|
+|2023-07-26 14:43:54|[afrog](https://github.com/zan8in/afrog)|update|
+|2023-07-26 12:43:18|[rustdesk](https://github.com/rustdesk/rustdesk)|add ab full check|
+|2023-07-26 12:42:15|[dperf](https://github.com/baidu/dperf)|Merge pull request #345 from pengjianzhang/main  fi<br>x: create new connection after duration|
+|2023-07-26 12:38:22|[v2rayfree](https://github.com/aiboboxx/v2rayfree)|update|
+|2023-07-26 11:55:03|[trivy](https://github.com/aquasecurity/trivy)|feat(vuln): support vulnerability status (#4867)  *<br> feat: support vulnerability status  * feat: show st<br>atus in table  * don't add fixed status in debian/re<br>dhat  * update test golden files  * add Status in rp<br>c  * update docs  * update ignore-status example  * <br>add ignore-status in integration test  * docs: add t<br>he explanation for statuses  ---------  Co-authored-<br>by: DmitriyLewen |
+|2023-07-26 11:49:13|[dbeaver](https://github.com/dbeaver/dbeaver)|#20369 fix duplicates search in the grouping panel <br>for Derby (#20664)|
+|2023-07-26 08:55:46|[safeline](https://github.com/chaitin/safeline)|feat(fe): add new intercepted page|
+|2023-07-26 08:17:54|[veinmind-tools](https://github.com/chaitin/veinmind-tools)|docs: update plugins table (#261)|
+|2023-07-26 07:45:08|[murphysec](https://github.com/murphysecurity/murphysec)|feat(help): 补充命令帮助信息描述|
+|2023-07-26 05:04:37|[iDefender](https://github.com/wecooperate/iDefender)|update|
 |2023-07-25 20:19:06|[Mobile-Security-F<br>ramework-MobSF](https://github.com/MobSF/Mobile-Security-Framework-MobSF)|Hotfix: Handle Docker  ADB connectivity internally <br>(#2219)  * host.docker.internal transilation for loc<br>alhost    * Replace urlparse with re    * version bu<br>mp    * update ascii art|
-|2023-07-25 19:50:37|[clair](https://github.com/quay/clair)|clairctl: Add post 4.7 admin command to delete pyup<br>io vulns  Pyupio vulns should have been deleted in a<br> migration step but if the operator has had to rollb<br>ack they might still exist. This command can be used<br> after 4.7 is deployed.  Signed-off-by: crozzy |
-|2023-07-25 18:35:21|[syft](https://github.com/anchore/syft)|Add cataloger for Swift Package Manager. (#1919)  S<br>igned-off-by: Tristan Farkas |
-|2023-07-25 18:12:10|[FreeRDP](https://github.com/FreeRDP/FreeRDP)|Refactor: Improve error message in is_within_surfac<br>e function  In the function is_within_surface, the e<br>rror message for out-of-bounds command rectangles ha<br>s been enhanced for better clarity. The code has bee<br>n modified to display the rectangle coordinates and <br>surface dimensions in the error message. This change<br> aims to make debugging easier and improve the overa<br>ll code quality.|
 |2023-07-25 17:20:14|[neuvector](https://github.com/neuvector/neuvector)|Merge pull request #926 from williamlin-suse/main  <br>NVSHAS-8113: UI should not show expiry warning messa<br>ge when downloadi…|
 |2023-07-25 17:12:47|[flightsim](https://github.com/alphasoc/flightsim)|Minor update to README.md|
-|2023-07-25 15:29:53|[dbeaver](https://github.com/dbeaver/dbeaver)|dbeaver/pro Rename label for save password (#20663)|
-|2023-07-25 13:37:43|[afrog](https://github.com/zan8in/afrog)|update|
 |2023-07-25 13:35:20|[0_zone_tool](https://github.com/wkend/0_zone_tool)|Update 0_zone.py|
 |2023-07-25 13:31:26|[frp](https://github.com/fatedier/frp)|fix incorrect use of snappy pool (#3549)|
-|2023-07-25 12:45:56|[rustdesk](https://github.com/rustdesk/rustdesk)|Merge pull request #5120 from bovirus/master  Updat<br>e italian language|
-|2023-07-25 12:40:59|[v2rayfree](https://github.com/aiboboxx/v2rayfree)|update|
 |2023-07-25 10:23:14|[nemo_go](https://github.com/hanc00l/nemo_go)|Fix && Update: quake查询API参数服务器调整导致无法正<br>确搜索结果；Fofa默认分页数与实际不一致导致的重复调用A<br>PI|
-|2023-07-25 09:41:24|[kube-bench](https://github.com/aquasecurity/kube-bench)|release: prepare v0.6.17 (#1480)  Signed-off-by: ch<br>enk |
 |2023-07-25 09:19:35|[Awesome-POC](https://github.com/Threekiii/Awesome-POC)|更新漏洞|
 |2023-07-25 09:16:43|[Vulhub-Reproduce](https://github.com/Threekiii/Vulhub-Reproduce)|更新README.md|
 |2023-07-25 08:45:33|[sqlmap](https://github.com/sqlmapproject/sqlmap)|Fixes #5476|
-|2023-07-25 07:38:09|[murphysec](https://github.com/murphysecurity/murphysec)|chore(deps): Upgrade dependencies...|
 |2023-07-25 03:27:55|[Scanners-Box](https://github.com/We5ter/Scanners-Box)|Add the 1st sponsor @Albert, thanks, my friend.|
 |2023-07-24 16:52:48|[PEASS-ng](https://github.com/carlospolop/PEASS-ng)|Merge pull request #373 from galoget/master  Fix Br<br>oken Links for Cloud and Containers Pentesting|
 |2023-07-24 15:36:01|[SmsForwarder](https://github.com/pppscn/SmsForwarder)|新增：通话转发规则的匹配字段增加通话类型 & 自定义模<br>板增加{{通话类型}}标签 #305|
-|2023-07-24 14:19:35|[BloodHound](https://github.com/BloodHoundAD/BloodHound)|Merge pull request #670 from LuemmelSec/Extend-Defa<br>ult-Queries  Add Azure Queries|
-|2023-07-24 14:10:06|[grype](https://github.com/anchore/grype)|chore: in quality tests, only colorize quality outp<br>ut if in a tty (#1398)  Permit piping "make validate<br>" (from test/quality) to a file without filling it w<br>ith control  characters.    Signed-off-by: Will Murp<br>hy |
-|2023-07-24 11:06:54|[safeline](https://github.com/chaitin/safeline)|feat: release v2.3.2|
 |2023-07-24 08:54:54|[vulnerability](https://github.com/lal0ne/vulnerability)|CVE-2023-3836|
-|2023-07-24 07:09:14|[trivy](https://github.com/aquasecurity/trivy)|refactor: replace with sortable packages (#4858)|
 |2023-07-24 04:01:14|[fupo_for_yonyou](https://github.com/novysodope/fupo_for_yonyou)|2.0更新  2.0更新|
 |2023-07-24 03:42:18|[404StarLink](https://github.com/knownsec/404StarLink)|weekly update at 2023-07-24|
 |2023-07-23 10:01:35|[subfinder](https://github.com/projectdiscovery/subfinder)|added dep auto merge workflow|
-|2023-07-23 09:26:45|[veinmind-tools](https://github.com/chaitin/veinmind-tools)|feat(veinmind-trace): init (#253)|
 |2023-07-23 06:16:10|[vulhub](https://github.com/vulhub/vulhub)|Merge pull request #450 from cutem/patch-1  Update <br>README.zh-cn.md|
 |2023-07-23 05:05:26|[SharpWxDump](https://github.com/AdminTest0/SharpWxDump)|Update README.md|
 |2023-07-23 03:32:34|[ChatGPT-Shortcut](https://github.com/rockbenben/ChatGPT-Shortcut)|fix: Resolve issue with font color not switching in<br> dark theme|
@@ -86,11 +93,9 @@
 |2023-07-20 13:37:25|[all-in-one-v2](https://github.com/zaivanza/all-in-one-v2)|add to_chains|
 |2023-07-20 10:50:03|[domain_hunter_pro](https://github.com/bit4woo/domain_hunter_pro)|Update CertInfo.java|
 |2023-07-20 09:10:56|[Vulnerability-Wik<br>i](https://github.com/Threekiii/Vulnerability-Wiki)|Merge pull request #27 from Henry4E36/Henry4E36-pat<br>ch-1  Create 泛微OA e-cology FileDownloadForOutDoc前<br>台SQL注入漏洞.md|
-|2023-07-19 16:43:10|[Stowaway](https://github.com/ph4ntonn/Stowaway)|Fix usage|
 |2023-07-19 08:06:37|[Elkeid](https://github.com/bytedance/Elkeid)|Merge pull request #518 from Hackerl/main  add name<br>sapce mount tool|
 |2023-07-19 06:58:32|[0day](https://github.com/helloexp/0day)|add java based rocketMQ RCE  CVE-2023-33246|
 |2023-07-18 14:45:58|[awesome-chatgpt-z<br>h](https://github.com/yzfly/awesome-chatgpt-zh)|add gpt-runner|
-|2023-07-18 13:05:45|[impacket](https://github.com/fortra/impacket)|add net.py to examples (#1382)  * add net.py    * U<br>pdate net.py    * Update file banners to reflect For<br>tra ownership    ---------    Co-authored-by: Alexio<br>2   Co-authored-by: Alexio2 |
 |2023-07-18 05:06:41|[dalfox](https://github.com/hahwul/dalfox)|Merge pull request #483 from hahwul/dependabot/go_m<br>odules/github.com/labstack/echo/v4-4.11.1  Bump gith<br>ub.com/labstack/echo/v4 from 4.10.2 to 4.11.1|
 |2023-07-17 23:00:15|[zksync](https://github.com/nftscripts/zksync)|Update runner.py|
 |2023-07-17 22:38:23|[WebGoat](https://github.com/WebGoat/WebGoat)|Add Assignment7 Tests|
@@ -106,14 +111,8 @@
 |2023-07-14 09:05:56|[Umi-OCR](https://github.com/hiroi-sora/Umi-OCR)|添加三个命令行指令（#173） 1. 指定弹出模式-window_t<br>op_mode，0为静默模式，1为自动弹出 2. 指定输出文件目<br>录，-output_file_path="目录" 3. 指定输出文件名前缀，-<br>output_file_name="文件名"|
 |2023-07-14 07:42:42|[Some-PoC-oR-ExP](https://github.com/coffeehb/Some-PoC-oR-ExP)|Create CVE-2023-37582.py|
 |2023-07-14 00:50:25|[OA-EXPTOOL](https://github.com/LittleBear4/OA-EXPTOOL)|Add files via upload|
-|2023-07-12 12:57:22|[iDefender](https://github.com/wecooperate/iDefender)|update|
 |2023-07-12 06:05:56|[malwoverview](https://github.com/alexandreborges/malwoverview)|Malwoverview|
-|2023-07-12 04:16:16|[goproxy](https://github.com/snail007/goproxy)|update|
-|2023-07-11 13:24:31|[wpscan](https://github.com/wpscanteam/wpscan)|Updates DFs|
-|2023-07-11 10:35:21|[feroxbuster](https://github.com/epi052/feroxbuster)|Merge pull request #938 from epi052/all-contributor<br>s/add-ktecv2000  docs: add ktecv2000 as a contributo<br>r for bug|
-|2023-07-11 09:46:13|[SharpDBeaver](https://github.com/lele8/SharpDBeaver)|first commit|
-|2023-07-11 08:58:52|[JNDIExploit](https://github.com/qi4L/JNDIExploit)|更新说明文件|
-|2023-07-11 01:54:11|[RouteVulScan](https://github.com/F6JO/RouteVulScan)|update|## 所有项目
+|2023-07-12 04:16:16|[goproxy](https://github.com/snail007/goproxy)|update|## 所有项目
 # 渗透测试
 ## 信息收集
 ### 资产测绘采集
@@ -257,7 +256,7 @@
 ### 漏洞扫描框架
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
-| [pocsuite3](https://github.com/knownsec/pocsuite3) | v2.0.4 | pocsuite3 is an open-sourced remote vulnerability testing fram<br>ework developed by the Knownsec 404 Team. |
+| [pocsuite3](https://github.com/knownsec/pocsuite3) | v2.0.5 | pocsuite3 is an open-sourced remote vulnerability testing fram<br>ework developed by the Knownsec 404 Team. |
 | [Godscan](https://github.com/Guoke324/Godscan) | Godscan | Godscan 是一款python编写的具有图形化界面的漏洞检测框架，可以之<br>定义漏洞检测 poc ，主要是帮助安全测试者，更好的去记录和整理历史<br>漏洞，以便更好的进行漏洞检测，提高工作效率！ |
 | [FrameScan-GUI](https://github.com/qianxiao996/FrameScan-GUI) | v1.4.3 | FrameScan-GUI 一款python3和Pyqt编写的具有图形化界面的cms漏洞检<br>测框架。 |
 | [Gr33k](https://github.com/lijiaxing1997/Gr33k) |  | 图形化漏洞利用集成工具 |
@@ -299,7 +298,7 @@
 ### 容器漏洞扫描
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
-| [veinmind-tools](https://github.com/chaitin/veinmind-tools) | v2.1.4 | veinmind-tools 是由长亭科技自研，基于 veinmind-sdk 打造的容器<br>安全工具集 |
+| [veinmind-tools](https://github.com/chaitin/veinmind-tools) | v2.1.5 | veinmind-tools 是由长亭科技自研，基于 veinmind-sdk 打造的容器<br>安全工具集 |
 ### 口令爆破
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
@@ -337,7 +336,7 @@
 #### 容器安全检测工具
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
-| [veinmind-tools](https://github.com/chaitin/veinmind-tools) | v2.1.4 | veinmind-tools 是由长亭科技自研，基于 veinmind-sdk 打造的容器<br>安全工具集 |
+| [veinmind-tools](https://github.com/chaitin/veinmind-tools) | v2.1.5 | veinmind-tools 是由长亭科技自研，基于 veinmind-sdk 打造的容器<br>安全工具集 |
 | [grype](https://github.com/anchore/grype) | v0.64.2 | A vulnerability scanner for container images and filesystems |
 #### 容器漏洞分析工具
 | 项目名称 | 版本 | 项目描述 |

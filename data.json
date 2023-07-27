@@ -200,8 +200,8 @@
     "https://github.com/ycdxsb/PocOrExp_in_Github": {
         "created_at": "2021-04-13 05:46:16",
         "description": "聚合Github上已有的Poc或者Exp，CVE信息来自CVE官网。Auto Collect Poc Or Exp from Github by CVE ID.",
-        "commit_date": "2023-07-26 00:13:29",
-        "commit_message": "update 2023-07-26 08:13:29",
+        "commit_date": "2023-07-26 23:25:54",
+        "commit_message": "update 2023-07-27 07:25:54",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -461,7 +461,7 @@
     "https://github.com/ExpLangcn/NucleiTP": {
         "created_at": "2022-11-08 13:16:56",
         "description": "自动整合全网Nuclei的漏洞POC，实时同步更新最新POC！",
-        "commit_date": "2023-07-26 00:30:18",
+        "commit_date": "2023-07-27 00:30:16",
         "commit_message": "更新啦❤️",
         "release_tag": "",
         "release_date": "",
@@ -657,8 +657,8 @@
     "https://github.com/ph4ntonn/Stowaway": {
         "created_at": "2019-11-15 03:25:50",
         "description": "👻Stowaway -- Multi-hop Proxy Tool for pentesters",
-        "commit_date": "2023-07-19 16:43:10",
-        "commit_message": "Fix usage",
+        "commit_date": "2023-07-26 15:55:47",
+        "commit_message": "Fix preauth",
         "release_tag": "v2.1",
         "release_date": "2022-04-08 15:53:34",
         "release_message": "👻 v2.1 is released~ v2.1 is an upgraded version of v2.0\r\n\r\n## BE AWARE\r\n-  If you are trying to use admin on windows,plz make sure you have installed [ansicon](https://github.com/adoxa/ansicon/releases)\r\n- And if you have any problems when using command ```shell```,plz check the [shell.go](https://github.com/ph4ntonn/Stowaway/blob/master/agent/handler/shell.go) and read the annotation first!!! Maybe it can solve ur problems.\r\n\r\n## Update\r\n- 2021.10.1 \r\n    - Switch AES-CBC to AES-GCM.Thanks to @SignorMercurio \r\n    - Fix bugs. Thanks to @SignorMercurio \r\n- 2022.1.23\r\n    - Fix shell&topo bugs.Thanks to @lz520520\r\n- 2022.4.8 \r\n    - Fix data loss bug when closing a short connection.Thanks to @lz520520\r\n    - Add gzip function.Thanks to @lz520520 \r\n    - Optimize the key code\r\n    - Fix some bugs\r\n- 2022.7.19\r\n    - Fix nil pointer bug #41.Thanks to @zyylhn\r\n- 2023.7.20\r\n    - Add http proxy support"
@@ -819,17 +819,17 @@
     "https://github.com/knownsec/pocsuite3": {
         "created_at": "2019-03-15 07:01:04",
         "description": "pocsuite3 is an open-sourced remote vulnerability testing framework developed by the Knownsec 404 Team.",
-        "commit_date": "2023-04-29 06:15:36",
-        "commit_message": "Merge pull request #365 from 13ph03nix/nuclei-issue-3055-protocol-name\n\nfix: Updated protocol attribute name (requests=> http & network => tcp)",
-        "release_tag": "v2.0.4",
-        "release_date": "2023-04-29 06:20:47",
-        "release_message": "* 兼容 nuclei v2.9.1 的模版协议名称变化 #364 \r\n\r\n---\r\n\r\n* Updated protocol names that are compatible with Nuclei v2.9.1 #364 "
+        "commit_date": "2023-07-26 21:18:59",
+        "commit_message": "Merge pull request #375 from 13ph03nix/fix/urllib3-hook\n\nBug fixes & improvements",
+        "release_tag": "v2.0.5",
+        "release_date": "2023-07-26 21:22:17",
+        "release_message": "* 修复 urllib3 更新导致 requests hook 失效的问题 #368 #373 \r\n* 优化 DSL 表达式执行 #372\r\n* 将 mmh3 设置为可选依赖 #359 \r\n* 优化检查更新\r\n\r\n---\r\n\r\n* fix hook failure due to urllib3 update #368 #373\r\n* optimize DSL expression execution #372\r\n* making mmh3 an optional dependency #359\r\n* disable mandatory updates\r\n"
     },
     "https://github.com/murphysecurity/murphysec": {
         "created_at": "2022-03-16 02:52:33",
         "description": "An open source tool focused on software supply chain security. 墨菲安全专注于软件供应链安全，具备专业的软件成分分析（SCA）、漏洞检测、专业漏洞库。",
-        "commit_date": "2023-07-25 07:38:09",
-        "commit_message": "chore(deps): Upgrade dependencies...",
+        "commit_date": "2023-07-26 07:45:08",
+        "commit_message": "feat(help): 补充命令帮助信息描述",
         "release_tag": "v3.1.1",
         "release_date": "2023-05-15 12:52:58",
         "release_message": "Support NPM lockfile v3 "
@@ -1017,7 +1017,7 @@
     "https://github.com/wecooperate/iDefender": {
         "created_at": "2021-11-24 11:38:28",
         "description": "iDefender（冰盾 - 终端主动防御系统）",
-        "commit_date": "2023-07-12 12:57:22",
+        "commit_date": "2023-07-26 05:04:37",
         "commit_message": "update",
         "release_tag": "2.9.0",
         "release_date": "2023-07-19 02:37:26",
@@ -1735,11 +1735,11 @@
     "https://github.com/chaitin/veinmind-tools": {
         "created_at": "2022-02-08 08:12:15",
         "description": "veinmind-tools 是由长亭科技自研，基于 veinmind-sdk 打造的容器安全工具集",
-        "commit_date": "2023-07-23 09:26:45",
-        "commit_message": "feat(veinmind-trace): init (#253)",
-        "release_tag": "v2.1.4",
-        "release_date": "2023-07-04 06:58:05",
-        "release_message": "## 🔥 Feature\r\n* feat(plugins): Add veinmind-privilege-escalation plugin for detecting privilege escalation risks, including checks for suid and sudo  by @ek1ng in https://github.com/chaitin/veinmind-tools/pull/250\r\n\r\n## 🔧 Fix\r\n* fix(libveinmind): fix libveinmind walk data race error by @DVKunion in https://github.com/chaitin/veinmind-tools/pull/231\r\n* fix(veinmind-weakpass)/add_error_check by  @testwill in https://github.com/chaitin/veinmind-tools/pull/249\r\n* fix(docs): fix errors in documentation on how to initialize plugins by @ek1ng in https://github.com/chaitin/veinmind-tools/pull/247\r\n* fix(docs): fix README format by @ek1ng in https://github.com/chaitin/veinmind-tools/pull/251\r\n\r\n## 📒 Others\r\n* chore(libveinmind): update libveinmind 1.9.21 by @DVKunion in https://github.com/chaitin/veinmind-tools/pull/243\r\n* chore(ci):  add auto sync to registry by @DVKunion  in https://github.com/chaitin/veinmind-tools/pull/254\r\n\r\n\r\n**Full Changelog**: https://github.com/chaitin/veinmind-tools/compare/v2.1.3...v2.1.4"
+        "commit_date": "2023-07-26 08:17:54",
+        "commit_message": "docs: update plugins table (#261)",
+        "release_tag": "v2.1.5",
+        "release_date": "2023-07-26 06:26:19",
+        "release_message": "## 🔥 Feature\r\n* feat(veinmind-trace): add veinmind-trace plugin for detecting attack trace in container  by @DVKunion in #253 \r\n* feat(veinmind-backdoor): refactor backdoor go plugin  by @ek1ng in #252 \r\n* feat(veinmind-backdoor): add rootkit scan by @l2yyd5 in #256 \r\n\r\n## 📒 Others\r\n* chore(veinmind-backdoor): disabled python plugin and instead of go plugin by @DVKunion in #257 \r\n* chore(libveinmind): update libveinmind 1.9.42 by @DVKunion in #258 \r\n\r\n## 🎉 New Contributors\r\n* @l2yyd5 made their first contribution in #256 \r\n\r\n**Full Changelog**: https://github.com/chaitin/veinmind-tools/compare/v2.1.4...v2.1.5"
     },
     "https://github.com/cdk-team/CDK": {
         "created_at": "2020-11-05 09:18:51",
@@ -2951,8 +2951,8 @@
     "https://github.com/dbeaver/dbeaver": {
         "created_at": "2015-10-21 08:26:28",
         "description": "Free universal database tool and SQL client",
-        "commit_date": "2023-07-25 15:29:53",
-        "commit_message": "dbeaver/pro Rename label for save password (#20663)",
+        "commit_date": "2023-07-26 11:49:13",
+        "commit_message": "#20369 fix duplicates search in the grouping panel for Derby (#20664)",
         "release_tag": "23.1.3",
         "release_date": "2023-07-23 19:28:17",
         "release_message": "\n                - Spatial data viewer:\n                    - Geometry object labels were added to the map (configurable)\n                    - Curves rendering was implemented\n                    - Coordinates and viewport bounds copy was implemented\n                    - EWKT format support was added\n                    - Toolbars and lasso visibility toggle was fixed\n                - Data transfer:\n                    - Import of multiple tables from an XLSX was implemented\n                    - Lazy initialization of configuration pages was implemented\n                    - Issue with duplicated file selector dialog was fixed\n                    - Export in XML format was fixed (doctype section is not optional)\n                    - Issue long filenames on Windows was fixed\n                - Data Editor:\n                    - Find/Replace dialog and shortcut in the Value view panel were fixed\n                    - Column description was added to the Metadata panel\n                    - Folding in the XML presentation was fixed\n                    - Displaying of images in the the value view panel was fixed on Linux\n                    - Confirmation dialog for the result set filtering was improved\n                - Accessibility:\n                    - JAWs screen reader can now read data in the Data grid\n                - General UI:\n                    - Tips of the day were updated\n                    - Creation of objects with mixed-case identifiers was fixed\n                    - DDL generation for sequence was fixed\n                    - Logical project deletion was fixed\n                    - Issue with opening of a local project was fixed\n                - AI:\n                    - New GPT 3.5 Turbo 16К model was added\n                    - Issue with long metadata information sending was fixed\n                - Connections:\n                    - Duplicates on driver creation were removed\n                    - Issue with maven artifacts editing was fixed\n                    - Certificate management UI was improved\n                - New drivers:\n                    - Materialize database driver was added (thanks @bobbyiliev)\n                    - Crate DB via PostgreSQL driver was improved (thanks @proddata)\n                - Databases:\n                    - DB2: users can see Column Mask Objects\n                    - TimescaleDB branding was updated\n                - Localization:\n                    - Chinese Simplified localization was improved (thanks @bynyun)\n                    - German localization was improved (thanks @fjf2002)\n            "
@@ -3050,7 +3050,7 @@
     "https://github.com/zan8in/afrog": {
         "created_at": "2022-02-24 06:00:32",
         "description": "A Security Tool for Bug Bounty, Pentest and Red Teaming.",
-        "commit_date": "2023-07-25 13:37:43",
+        "commit_date": "2023-07-26 14:43:54",
         "commit_message": "update",
         "release_tag": "v2.7.5",
         "release_date": "2023-07-23 13:22:52",
@@ -3881,8 +3881,8 @@
     "https://github.com/aquasecurity/kube-bench": {
         "created_at": "2017-06-19 13:27:02",
         "description": "Checks whether Kubernetes is deployed according to security best practices as defined in the CIS Kubernetes Benchmark",
-        "commit_date": "2023-07-25 09:41:24",
-        "commit_message": "release: prepare v0.6.17 (#1480)\n\nSigned-off-by: chenk <hen.keinan@gmail.com>",
+        "commit_date": "2023-07-26 15:22:19",
+        "commit_message": "Bump docker base images (#1465)\n\nDuring a recent CVE scan we found kube-bench to use `alpine:3.18` as the final image which has a known high CVE.\r\n\r\n```\r\ngrype aquasec/kube-bench:v0.6.15\r\n ✔ Vulnerability DB        [no update available]\r\n ✔ Loaded image\r\n ✔ Parsed image\r\n ✔ Cataloged packages      [73 packages]\r\n ✔ Scanning image...       [4 vulnerabilities]\r\n   ├── 0 critical, 4 high, 0 medium, 0 low, 0 negligible\r\n   └── 4 fixed\r\nNAME        INSTALLED  FIXED-IN  TYPE  VULNERABILITY  SEVERITY\r\nlibcrypto3  3.1.0-r4   3.1.1-r0  apk   CVE-2023-2650  High\r\nlibssl3     3.1.0-r4   3.1.1-r0  apk   CVE-2023-2650  High\r\nopenssl     3.1.0-r4   3.1.1-r0  apk   CVE-2023-2650  High\r\n```\r\n\r\nThe CVE in question was addressed in the latest [alpine release](https://www.alpinelinux.org/posts/Alpine-3.15.9-3.16.6-3.17.4-3.18.2-released.html), hence updating the dockerfiles accordingly",
         "release_tag": "v0.6.17",
         "release_date": "2023-07-25 09:51:02",
         "release_message": "## Changelog\n* c8cabc4 Update job.yaml (#1477)\n\n"
@@ -3908,8 +3908,8 @@
     "https://github.com/anchore/syft": {
         "created_at": "2020-05-07 18:19:29",
         "description": "CLI tool and library for generating a Software Bill of Materials from container images and filesystems",
-        "commit_date": "2023-07-25 18:35:21",
-        "commit_message": "Add cataloger for Swift Package Manager. (#1919)\n\nSigned-off-by: Tristan Farkas <Tristan.Farkas@axis.com>",
+        "commit_date": "2023-07-26 17:54:32",
+        "commit_message": "feat: support top-level SPDX package and graph (#1934)\n\nSigned-off-by: Keith Zantow <kzantow@gmail.com>",
         "release_tag": "v0.85.0",
         "release_date": "2023-07-12 17:45:16",
         "release_message": "# Changelog\r\n\r\n## [v0.85.0](https://github.com/anchore/syft/tree/v0.85.0) (2023-07-12)\r\n\r\n[Full Changelog](https://github.com/anchore/syft/compare/v0.84.1...v0.85.0)\r\n\r\n### Added Features\r\n\r\n- Add a --base-path command line flag to set the directory base for scans (this option was previously exposed via API only) [[PR #1867](https://github.com/anchore/syft/pull/1867)] [[deitch](https://github.com/deitch)]\r\n- Add file source digest support [[PR #1914](https://github.com/anchore/syft/pull/1914)] [[wagoodman](https://github.com/wagoodman)]\r\n- Remove erroneous Java CPEs from generation [[PR #1918](https://github.com/anchore/syft/pull/1918)] [[luhring](https://github.com/luhring)]\r\n- Fix CPE generation for k8s python client [[PR #1921](https://github.com/anchore/syft/pull/1921)] [[luhring](https://github.com/luhring)]\r\n- Don't use the actual redis or grpc CPEs for gems [[PR #1926](https://github.com/anchore/syft/pull/1926)] [[luhring](https://github.com/luhring)]\r\n- The text user interface is now provided by the bubbletea library [[Issue #1441](https://github.com/anchore/syft/issues/1441)] [[PR #1888](https://github.com/anchore/syft/pull/1888)] [[wagoodman](https://github.com/wagoodman)]\r\n\r\n### Bug Fixes\r\n\r\n- Install script returns exit code 0 even if install fails [[Issue #1566](https://github.com/anchore/syft/issues/1566)] [[PR #1915](https://github.com/anchore/syft/pull/1915)] [[lorsatti](https://github.com/lorsatti)]\r\n- [Windows] Not able to scan volume mounted to folder [[Issue #1828](https://github.com/anchore/syft/issues/1828)] [[PR #1884](https://github.com/anchore/syft/pull/1884)] [[dd-cws](https://github.com/dd-cws)]\r\n- Deprecated license: GFDL-1.2+ [[Issue #1899](https://github.com/anchore/syft/issues/1899)] [[PR #1907](https://github.com/anchore/syft/pull/1907)] [[spiffcs](https://github.com/spiffcs)]\r\n\r\n### Breaking Changes\r\n\r\n- Refactor the `source` API and syft-json `source` block data shape [[Issue #1866](https://github.com/anchore/syft/issues/1866)] [[PR #1846](https://github.com/anchore/syft/pull/1846)] [[wagoodman](https://github.com/wagoodman)]\r\n\r\n### Additional Changes\r\n\r\n- chore: update iterations to protect against race [[PR #1927](https://github.com/anchore/syft/pull/1927)] [[spiffcs](https://github.com/spiffcs)]\r\n- fix: background reader apart from global handler for testing [[PR #1929](https://github.com/anchore/syft/pull/1929)] [[spiffcs](https://github.com/spiffcs)]\r\n\r\n\r\n\r\n"
@@ -3917,8 +3917,8 @@
     "https://github.com/chaitin/safeline": {
         "created_at": "2023-04-12 11:30:14",
         "description": "一款足够简单、足够好用、足够强的免费 WAF。基于业界领先的语义引擎检测技术，作为反向代理接入，保护你的网站不受黑客攻击。",
-        "commit_date": "2023-07-24 11:06:54",
-        "commit_message": "feat: release v2.3.2",
+        "commit_date": "2023-07-26 08:55:46",
+        "commit_message": "feat(fe): add new intercepted page",
         "release_tag": "v2.3.1",
         "release_date": "2023-07-20 09:49:02",
         "release_message": "### 新增\r\n\r\n‒ 检测日志升级为**攻击事件** ，自动聚合同一攻击 IP 短时间内的所有攻击日志，方便管理员进行监控和处置\r\n‒ 日志支持按时间（[#102](https://github.com/chaitin/safeline/issues/102)）、动作筛选\r\n\r\n### 修复\r\n\r\n‒ 修复添加/编辑站点时，上传证书处未翻译中文的问题\r\n‒ 修复数据统计中，“访问来源地区” 小概率出现的部分地区显示不正确的问题"
@@ -3953,8 +3953,8 @@
     "https://github.com/quay/clair": {
         "created_at": "2015-11-13 18:46:16",
         "description": "Vulnerability Static Analysis for Containers",
-        "commit_date": "2023-07-25 19:50:37",
-        "commit_message": "clairctl: Add post 4.7 admin command to delete pyupio vulns\n\nPyupio vulns should have been deleted in a migration step but if the\noperator has had to rollback they might still exist. This command can\nbe used after 4.7 is deployed.\n\nSigned-off-by: crozzy <joseph.crosland@gmail.com>",
+        "commit_date": "2023-07-26 21:09:32",
+        "commit_message": "chore: bump claircore to v1.5.13\n\nUpdate claircore dependency to latest tag.\n\nSigned-off-by: crozzy <joseph.crosland@gmail.com>",
         "release_tag": "v4.6.1",
         "release_date": "2023-04-13 18:29:02",
         "release_message": "<a name=\"unreleased\"></a>\n## [Unreleased]\n\n\n<a name=\"v4.6.1\"></a>\n## [v4.6.1] - 2023-04-13\n### Airgap\n- [e02aba27](https://github.com/quay/clair/commit/e02aba27de01cb461f79bee9644aac80c2f9bd65): Remove libindex Airgap option\n### Chore\n- [36990912](https://github.com/quay/clair/commit/36990912450fba2ccbef260a4829f1d9f69f45c6): v4.6.1 changelog bump\n- [e676671c](https://github.com/quay/clair/commit/e676671c17d2612470cd8de05aa668312fbb3036): Bump Claircore to v1.4.21\n### Go.Mod\n- [36de97cc](https://github.com/quay/clair/commit/36de97ccf619113b1ef4dff6bfd0e0c692252544): update json (de)serializer\n### Httptransport\n- [922f33d1](https://github.com/quay/clair/commit/922f33d18919578049fbf2ccb756e6990b66f280): fix request_id logging\n### Httputil\n- [9e8eacf5](https://github.com/quay/clair/commit/9e8eacf51b2a45f967036396b3dc14a52edc480d): fix ParseIP usage\n -  [#1689](https://github.com/quay/clair/issues/1689)### Notifier\n- [ffa4556d](https://github.com/quay/clair/commit/ffa4556d0f251cc984ed34594356625b9b747744): Avoid double reference\n\n[Unreleased]: https://github.com/quay/clair/compare/v4.6.1...HEAD\n[v4.6.1]: https://github.com/quay/clair/compare/v4.6.0...v4.6.1\n"
@@ -3971,8 +3971,8 @@
     "https://github.com/aquasecurity/trivy": {
         "created_at": "2019-04-11 01:01:07",
         "description": "Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more",
-        "commit_date": "2023-07-24 07:09:14",
-        "commit_message": "refactor: replace with sortable packages (#4858)",
+        "commit_date": "2023-07-26 11:55:03",
+        "commit_message": "feat(vuln): support vulnerability status (#4867)\n\n* feat: support vulnerability status\n\n* feat: show status in table\n\n* don't add `fixed` status in debian/redhat\n\n* update test golden files\n\n* add Status in rpc\n\n* update docs\n\n* update ignore-status example\n\n* add ignore-status in integration test\n\n* docs: add the explanation for statuses\n\n---------\n\nCo-authored-by: DmitriyLewen <dmitriy.lewen@smartforce.io>",
         "release_tag": "v0.43.1",
         "release_date": "2023-07-07 09:40:41",
         "release_message": "## Changelog\n* 5d76abadc chore(deps): Update defsec to v0.90.3 (#4793)\n* fed446c51 chore(deps): bump google.golang.org/protobuf from 1.30.0 to 1.31.0 (#4752)\n* df62927e5 chore(deps): bump alpine from 3.18.0 to 3.18.2 (#4748)\n* 1b9b9a84f chore(deps): bump github.com/alicebob/miniredis/v2 from 2.30.3 to 2.30.4 (#4758)\n* 3c16ca821 docs(image): fix the comment on the soft/hard link (#4740)\n* e5bee5ccc check Type when filling pkgs in vulns (#4776)\n* 4b9f310b9 feat: add support of linux/ppc64le and linux/s390x architectures for Install.sh script (#4770)\n* 8e7fb7cc8 chore(deps): bump modernc.org/sqlite from 1.20.3 to 1.23.1 (#4756)\n* a9badeaba fix(rocky): add architectures support for advisories (#4691)\n* f8ebccc68 chore(deps): bump github.com/opencontainers/image-spec (#4751)\n* 1c81948e0 chore(deps): bump github.com/package-url/packageurl-go (#4754)\n* 497cc10d8 chore(deps): bump golang.org/x/sync from 0.2.0 to 0.3.0 (#4750)\n* 065f0afa5 chore(deps): bump github.com/tetratelabs/wazero from 1.2.0 to 1.2.1 (#4755)\n* e2603056d chore(deps): bump github.com/testcontainers/testcontainers-go (#4759)\n* 0621402bf fix: documentation about reseting trivy image (#4733)\n* 798fdbc01 fix(suse): Add openSUSE Leap 15.5 eol date as well (#4744)\n* 34a89293d fix: update Amazon Linux 1 EOL (#4761)\n\n"
@@ -3980,8 +3980,8 @@
     "https://github.com/anchore/grype": {
         "created_at": "2020-05-26 13:44:38",
         "description": "A vulnerability scanner for container images and filesystems",
-        "commit_date": "2023-07-24 14:10:06",
-        "commit_message": "chore: in quality tests, only colorize quality output if in a tty (#1398)\n\nPermit piping \"make validate\" (from test/quality) to a file without filling it with control\r\ncharacters.\r\n\r\nSigned-off-by: Will Murphy <will.murphy@anchore.com>",
+        "commit_date": "2023-07-26 17:40:20",
+        "commit_message": "feat: implement secondary sorting for default json output (#1403)\n\n* feat: implement secondary sorting for default json output\r\n---------\r\nSigned-off-by: Christopher Phillips <christopher.phillips@anchore.com>",
         "release_tag": "v0.64.2",
         "release_date": "2023-07-20 13:46:54",
         "release_message": "# Changelog\r\n\r\n## [v0.64.2](https://github.com/anchore/grype/tree/v0.64.2) (2023-07-20)\r\n\r\n[Full Changelog](https://github.com/anchore/grype/compare/v0.64.1...v0.64.2)\r\n\r\n### Bug Fixes\r\n\r\n- grype 0.64.0 doesn't list vulnerabilties if `--fail-on` fails [[Issue #1392](https://github.com/anchore/grype/issues/1392)] [[PR #1395](https://github.com/anchore/grype/pull/1395)] [[willmurphyscode](https://github.com/willmurphyscode)]\r\n\r\n"
@@ -4277,7 +4277,7 @@
     "https://github.com/aiboboxx/v2rayfree": {
         "created_at": "2021-10-13 11:34:53",
         "description": "v2ray公益免费节点、最新2ray免费v节点订阅地址、v2ray免费节点每日更新、免费ss/v2ray/trojan节点、freefq ",
-        "commit_date": "2023-07-25 12:40:59",
+        "commit_date": "2023-07-26 12:38:22",
         "commit_message": "update",
         "release_tag": "",
         "release_date": "",
@@ -4322,8 +4322,8 @@
     "https://github.com/freefq/free": {
         "created_at": "2020-06-07 02:48:33",
         "description": "翻墙、免费翻墙、免费科学上网、免费节点、免费梯子、免费ss/v2ray/trojan节点、蓝灯、谷歌商店、翻墙梯子",
-        "commit_date": "2023-07-26 00:00:03",
-        "commit_message": "updated_at 07-26 08:00",
+        "commit_date": "2023-07-27 00:00:03",
+        "commit_message": "updated_at 07-27 08:00",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -4628,8 +4628,8 @@
     "https://github.com/baidu/dperf": {
         "created_at": "2021-12-21 08:02:08",
         "description": "dperf is a DPDK based 100Gbps network performance and load testing software.",
-        "commit_date": "2023-05-04 11:33:14",
-        "commit_message": "Merge pull request #304 from pengjianzhang/main\n\nlport_range minimun range is 1",
+        "commit_date": "2023-07-26 12:42:15",
+        "commit_message": "Merge pull request #345 from pengjianzhang/main\n\nfix: create new connection after duration",
         "release_tag": "v1.5.0",
         "release_date": "2023-03-10 07:39:07",
         "release_message": "## v1.5.0 - 2023-03-10\r\n### Added\r\n\r\n- udp elephant flow\r\n\r\n    thanks sheva7777\r\n- client_hop\r\n\r\n    thanks hgkiller\r\n- supported Mellanox MT27500 [ConnectX-3]\r\n\r\n    thanks SdotChen\r\n- article: Using dperf to test the performance of DPVS(zh)\r\n\r\n    thanks sheva7777\r\n- article: How to install dperf on ubuntu(zh)\r\n\r\n    thanks digger-yu\r\n- article: Using dperf to test 100Gbps bandwidth(zh)\r\n\r\n    thanks CHRIS123540\r\n- article: DPVS v1.9.2 Performance Tests by dperf\r\n\r\n    thanks ywc689\r\n- article: dperf FAQ(zh)\r\n\r\n### Changed\r\n\r\n- print error numbers with red color\r\n\r\n### Fixed\r\n\r\n- flood with rss l3l4\r\n\r\n    thanks sheva7777\r\n- use unlikeyly to predict condition\r\n\r\n    thanks panzhengyu\r\n- address conflict in configuration file\r\n\r\n    thanks CHRIS123540\r\n- docs/configuration: update payload_size"
@@ -5004,8 +5004,8 @@
     "https://github.com/rustdesk/rustdesk": {
         "created_at": "2020-09-28 15:36:08",
         "description": "Virtual / remote desktop infrastructure for everyone! Open source TeamViewer / Citrix alternative.",
-        "commit_date": "2023-07-25 12:45:56",
-        "commit_message": "Merge pull request #5120 from bovirus/master\n\nUpdate italian language",
+        "commit_date": "2023-07-26 12:43:18",
+        "commit_message": "add ab full check",
         "release_tag": "1.2.1",
         "release_date": "2023-07-12 07:28:05",
         "release_message": "\r\n![image](https://github.com/rustdesk/rustdesk/assets/71636191/b444deab-7971-4de7-b315-6a9b4974c7ea)\r\n\r\n> Winget, FDroid, Apple Sillicon, Google Play / App Store update will come soon.\r\n\r\nx86-64: [Windows](https://github.com/rustdesk/rustdesk/releases/download/1.2.1/rustdesk-1.2.1-x86_64.exe) | [Ubuntu](https://github.com/rustdesk/rustdesk/releases/download/1.2.1/rustdesk-1.2.1-x86_64.deb) | [Mac](https://github.com/rustdesk/rustdesk/releases/download/1.2.1/rustdesk-1.2.1-x86_64.dmg)\r\nAArch64 (ARM64):  [Ubuntu](https://github.com/rustdesk/rustdesk/releases/download/1.2.1/rustdesk-1.2.1-aarch64.deb) | [Android](https://github.com/rustdesk/rustdesk/releases/download/1.2.1/rustdesk-1.2.1-aarch64-signed.apk)\r\nMore: [check below please](#)\r\n\r\n<details>\r\n<summary>Changelog</summary>\r\n\r\n- fix #4856 \r\n- fix #4866 \r\n- fix email login verfication bug on mobile #4874, and fix email login verification wrong error message\r\n- refactor chat notification both on mobile and desktop #4878 #4889 #4943\r\n- fix #4890 \r\n- fix privacy broker zombie process #4916 \r\n- improve remote menubar #4922\r\n- try to fix issue #3261 with new api, but not sure if it works\r\n- adjust tab theme to make it more clear\r\n- partially fix #4896 \r\n- fix #4880 \r\n- refactor id inputbox on mobile\r\n\r\n</details>\r\n"
@@ -5148,8 +5148,8 @@
     "https://github.com/FreeRDP/FreeRDP": {
         "created_at": "2011-06-30 19:14:15",
         "description": "FreeRDP is a free remote desktop protocol library and clients",
-        "commit_date": "2023-07-25 18:12:10",
-        "commit_message": "Refactor: Improve error message in is_within_surface function\n\nIn the function is_within_surface, the error message for out-of-bounds command rectangles has been enhanced for better clarity. The code has been modified to display the rectangle coordinates and surface dimensions in the error message. This change aims to make debugging easier and improve the overall code quality.",
+        "commit_date": "2023-07-26 18:50:21",
+        "commit_message": "[client,sdl] set gui consent message",
         "release_tag": "2.10.0",
         "release_date": "2023-02-16 13:46:39",
         "release_message": " Notewhorth changes:\r\n * Fix android build scripts, use CMake from SDK\r\n * Fix connection negotiation with mstsc/msrdc #8426\r\n * [ntlm]: use rfc5929 binding hash algorithm #8430\r\n * [channels,printer] Fixed reference counting #8433\r\n * Fix uwac pixman #8439\r\n * Fix Rdp security #8457\r\n * [client,x11] Detect key autorepeat #8522\r\n * [build] add channel path to RPATH #8551\r\n * Fix build with BUILTIN_CHANNELS=OFF #8560\r\n * revert changes so that the osmajortype/osminortype is not overwritten #8571\r\n * [uwac] do not use iso C functions #8604\r\n * [winpr,sam] fix inalid NULL arguments #8605\r\n * Fix incompatible function pointer types #8625\r\n \r\n Fixed issues:\r\n * Backported #8581: Ignore data PDUs for DVCs that were not opened successfully\r\n * Backported #8498: [channel,urbdrc] fix type of usb hotplug callback\r\n * Backported #8537: Extended info enforce limits\r\n * Backported #8611: [core] add missing redirection fields\r\n \r\n"
@@ -5542,8 +5542,8 @@
     "https://github.com/BloodHoundAD/BloodHound": {
         "created_at": "2016-04-17 18:36:14",
         "description": "Six Degrees of Domain Admin",
-        "commit_date": "2023-07-24 14:19:35",
-        "commit_message": "Merge pull request #670 from LuemmelSec/Extend-Default-Queries\n\nAdd Azure Queries",
+        "commit_date": "2023-07-26 14:58:46",
+        "commit_message": "Merge pull request #687 from ShutdownRepo/patch-1\n\nFixing LinuxAbuse.jsx dacledit.py DCSync command",
         "release_tag": "v4.3.1",
         "release_date": "2023-05-23 17:06:23",
         "release_message": "## What's Changed\r\n* Adding abuse guidance from UNIX-like hosts by @ShutdownRepo in https://github.com/BloodHoundAD/BloodHound/pull/625\r\n* small typo: whisper -> whisker by @chadduffey in https://github.com/BloodHoundAD/BloodHound/pull/629\r\n* Update wording to \"acceptable\" terms by @cln-io in https://github.com/BloodHoundAD/BloodHound/pull/609\r\n* Fix Wrong Statements In Azure Post Processing setGlobalAdminHighValue & setPrivRoleAdminHighValue by @lbrauns in https://github.com/BloodHoundAD/BloodHound/pull/595\r\n* Fix edgeIncluded label partially clickable by @CravateRouge in https://github.com/BloodHoundAD/BloodHound/pull/597\r\n* Kerberoastable user with most priv query fix by @DoubtfulJerboa in https://github.com/BloodHoundAD/BloodHound/pull/606\r\n* Update sharphound.rst with up-to-date link by @Japillow in https://github.com/BloodHoundAD/BloodHound/pull/631\r\n* Remove .bin extension from instruction by @JonasBK in https://github.com/BloodHoundAD/BloodHound/pull/640\r\n* Minor Update of Neo4J Compatible Version to 4.4.19 by @kaydaskalakis in https://github.com/BloodHoundAD/BloodHound/pull/659\r\n* Added import of \"Group Types\" and \"Membership Rule\" for AZGroups by @ahazu in https://github.com/BloodHoundAD/BloodHound/pull/647\r\n* Update linux.rst - Fixed installation documentation to get correct version of neo4j by @angry-bender in https://github.com/BloodHoundAD/BloodHound/pull/622\r\n* Blood hound documentation update by @LuemmelSec in https://github.com/BloodHoundAD/BloodHound/pull/664\r\n* Contribution of the DumpSMSAPassword edge with its documentation by @simondotsh in https://github.com/BloodHoundAD/BloodHound/pull/626\r\n* 4.3.1 by @JonasBK in https://github.com/BloodHoundAD/BloodHound/pull/668\r\n\r\n## New Contributors\r\n* @ShutdownRepo made their first contribution in https://github.com/BloodHoundAD/BloodHound/pull/625\r\n* @chadduffey made their first contribution in https://github.com/BloodHoundAD/BloodHound/pull/629\r\n* @cln-io made their first contribution in https://github.com/BloodHoundAD/BloodHound/pull/609\r\n* @lbrauns made their first contribution in https://github.com/BloodHoundAD/BloodHound/pull/595\r\n* @CravateRouge made their first contribution in https://github.com/BloodHoundAD/BloodHound/pull/597\r\n* @DoubtfulJerboa made their first contribution in https://github.com/BloodHoundAD/BloodHound/pull/606\r\n* @Japillow made their first contribution in https://github.com/BloodHoundAD/BloodHound/pull/631\r\n* @kaydaskalakis made their first contribution in https://github.com/BloodHoundAD/BloodHound/pull/659\r\n* @ahazu made their first contribution in https://github.com/BloodHoundAD/BloodHound/pull/647\r\n* @angry-bender made their first contribution in https://github.com/BloodHoundAD/BloodHound/pull/622\r\n* @LuemmelSec made their first contribution in https://github.com/BloodHoundAD/BloodHound/pull/664\r\n\r\n**Full Changelog**: https://github.com/BloodHoundAD/BloodHound/compare/v4.3.0...v4.3.1"
@@ -5702,8 +5702,8 @@
     "https://github.com/fortra/impacket": {
         "created_at": "2015-04-15 14:04:07",
         "description": "Impacket is a collection of Python classes for working with network protocols.",
-        "commit_date": "2023-07-18 13:05:45",
-        "commit_message": "add net.py to examples (#1382)\n\n* add net.py\r\n\r\n* Update net.py\r\n\r\n* Update file banners to reflect Fortra ownership\r\n\r\n---------\r\n\r\nCo-authored-by: Alexio2 <colorain@protonmail.com>\r\nCo-authored-by: Alexio2 <110637492+Alexio2@users.noreply.github.com>",
+        "commit_date": "2023-07-26 20:16:48",
+        "commit_message": "Fixed typo, added description for net.py new example",
         "release_tag": "impacket_0_10_0",
         "release_date": "2022-05-04 14:55:44",
         "release_message": "Project's main page at https://www.secureauth.com/labs/open-source-tools/impacket/\r\n\r\nChangeLog for 0.10.0:\r\n\r\n1. Library improvements\r\n\r\n\t- Dropped support for Python 2.7.\r\n\t- Refactored the testing infrastructure (@martingalloar):\r\n\t   * Added pytest as the testing framework to organize and mark test cases. Tox remain as the automation framework, and Coverage.py for measuring code coverage.\r\n\t   * Custom bash scripts were replaced with test cases auto-discovery.\r\n\t   * Local and remote test cases were marked for easy run and configuration.\r\n\t   * DCE/RPC endpoint test cases were refactored and moved to a new layout.\r\n\t   * An initial testing guide with the main steps to prepare a testing environment and run them.\r\n\t   * Fixed a good amount of DCE/RPC endpoint test cases that were failing.\r\n\t   * Added tests for [MS-PAR], [MS-RPRN], CCache and DPAPI.\r\n\t- Added a function to compute the Netlogon Authenticator at client-side in [MS-NRPC] (@0xdeaddood)\r\n\t- Added [MS-DSSP] protocol implementation (@simondotsh)\r\n\t- Added GetDriverDirectory functions to [MS-PAR] and [MS-RPRN] (@raithedavion)\r\n\t- Refactored the Credential Cache:\r\n\t   * Added new parseFile function to ccache.py (@rmaksimov)\r\n\t   * Added support for loading CCache Version 3 (@reznok)\r\n\t   * Modified fromKRBCRED function used to load a Kirbi file (@0xdeaddood)\r\n\t   * Fixed Ccache to Kirbi conversion (@ShutdownRepo)\r\n\t- Fixed default NTLM server challenge in smbserver (@rtpt-jonaslieb)\r\n\r\n2. Examples improvements\r\n\r\n\t- [exchanger.py](https://github.com/SecureAuthCorp/impacket/blob/master/examples/exchanger.py):\r\n\t   * Fixed a bug when a Global Address List doesn't exist on the server (@mohemiv)\r\n\t- [mimikatz.py](https://github.com/SecureAuthCorp/impacket/blob/master/examples/mimikatz.py)\r\n\t   * Updated intro to not trigger the AV on windows (@mpgn)\r\n\t- [ntlmrelayx.py](https://github.com/SecureAuthCorp/impacket/blob/master/examples/ntlmrelayx.py):\r\n\t   * Implemented RAW Relay Server (@CCob)\r\n\t   * Added an LDAP attack dumping information about the domain's ADCS enrollment services (@SAERXCIT)\r\n\t   * Added multi-relay feature to the HTTP Relay Server. Now one incoming HTTP connection could be used against multiple targets (@0xdeaddood)\r\n\t   * Added an option to disable the multi-relay feature (@zblurx and @0xdeaddood)\r\n\t   * Added multiple HTTP listeners running at the same time (@SAERXCIT)\r\n\t   * Support for the ADCS ESC1 and ESC6 attacks (@hugo-syn)\r\n\t   * Added Shadow Credentials attack (@ShutdownRepo, @Tw1sm, @nodauf and @p0dalirius)\r\n\t   * Added the ability to define a password for the LDAP attack addComputer (@ShutdownRepo)\r\n\t   * Added rename_computer and modify add_computer in LDAP interactive shell (@capnkrunchy)\r\n\t   * Implemented StartTLS (@ThePirateWhoSmellsOfSunflowers)\r\n\t- [reg.py](https://github.com/SecureAuthCorp/impacket/blob/master/examples/reg.py):\r\n\t   * Added save function to allow remote saving of registry hives (@ShutdownRepo and @scopedsecurity)\r\n\t- [secretsdump.py](https://github.com/SecureAuthCorp/impacket/blob/master/examples/secretsdump.py):\r\n\t   * Added an option to dump credentials using the Kerberos Key List attack (@0xdeaddood)\r\n\t- [smbpasswd.py](https://github.com/SecureAuthCorp/impacket/blob/master/examples/smbpasswd.py):\r\n\t   * Added an option to force credentials change via injecting new values into SAM (@snovvcrash and @Alef-Burzmali!)\r\n\r\n3. New examples\r\n\r\n\t- [machine_role.py](https://github.com/SecureAuthCorp/impacket/blob/master/examples/machine_role.py): This script retrieves a host's role along with its primary domain details (@simondotsh)\r\n\t- [keylistattack.py](https://github.com/SecureAuthCorp/impacket/blob/master/examples/keylistattack.py): This example implements the Kerberos Key List attack to dump credentials abusing RODCs and Azure AD Kerberos Servers (@0xdeaddood)\r\n\r\nAs always, thanks a lot to all these contributors that make this library better every day (since last version):\r\n\r\n@rmaksimov @simondotsh @CCob @raithedavion @SAERXCIT @Maltemo @dirkjanm @reznok @ShutdownRepo @scopedsecurity @Tw1sm @nodauf @p0dalirius @zblurx @hugo-syn @capnkrunchy @mohemiv @mpgn @rtpt-jonaslieb @snovvcrash @Alef-Burzmali @ThePirateWhoSmellsOfSunflowers @jlvcm"
