@@ -65,7 +65,7 @@
     "https://github.com/pppscn/SmsForwarder": {
         "created_at": "2021-02-10 02:23:07",
         "description": "短信转发器——监控Android手机短信、来电、APP通知，并根据指定规则转发到其他手机：钉钉群自定义机器人、钉钉企业内机器人、企业微信群机器人、飞书机器人、企业微信应用消息、邮箱、bark、webhook、Telegram机器人、Server酱、PushPlus、手机短信等。包括主动控制服务端与客户端，让你轻松远程发短信、查短信、查通话、查话簿、查电量等。（V3.0 新增）PS.这个APK主要是学习与自用，如有BUG请提ISSUE，同时欢迎大家提PR指正",
-        "commit_date": "2023-07-24 15:36:01",
+        "commit_date": "2023-07-29 15:11:25",
         "commit_message": "新增：通话转发规则的`匹配字段`增加`通话类型` & 自定义模板增加`{{通话类型}}`标签 #305",
         "release_tag": "v3.2.0",
         "release_date": "2023-02-14 09:25:00",
@@ -200,8 +200,8 @@
     "https://github.com/ycdxsb/PocOrExp_in_Github": {
         "created_at": "2021-04-13 05:46:16",
         "description": "聚合Github上已有的Poc或者Exp，CVE信息来自CVE官网。Auto Collect Poc Or Exp from Github by CVE ID.",
-        "commit_date": "2023-07-28 21:00:16",
-        "commit_message": "update 2023-07-29 05:00:16",
+        "commit_date": "2023-07-29 22:57:01",
+        "commit_message": "update 2023-07-30 06:57:01",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -461,7 +461,7 @@
     "https://github.com/ExpLangcn/NucleiTP": {
         "created_at": "2022-11-08 13:16:56",
         "description": "自动整合全网Nuclei的漏洞POC，实时同步更新最新POC！",
-        "commit_date": "2023-07-29 00:30:20",
+        "commit_date": "2023-07-30 00:30:16",
         "commit_message": "更新啦❤️",
         "release_tag": "",
         "release_date": "",
@@ -1888,8 +1888,8 @@
     "https://github.com/hanc00l/nemo_go": {
         "created_at": "2021-07-29 08:13:25",
         "description": "Nemo是用来进行自动化信息收集的一个简单平台，通过集成常用的信息收集工具和技术，实现对内网及互联网资产信息的自动收集，提高隐患排查和渗透测试的工作效率。",
-        "commit_date": "2023-07-28 15:18:42",
-        "commit_message": "Fix: xray.yaml  file",
+        "commit_date": "2023-07-29 14:57:29",
+        "commit_message": "Update: crawler url for protocol",
         "release_tag": "v2.9.4",
         "release_date": "2023-06-21 05:56:55",
         "release_message": "### Updated\r\n\r\n- Nemo安装及使用文档v1.0；\r\n\r\n### Fix\r\n\r\n- v2.9.3的release包里，thirdparty/fingerprinthub目录里没有打包二进制文件\r\n- 修正domainscan对结果IP的端口扫描未执行的bug\r\n- domain列表和详情中的icon显示\r\n- domainscan对结果IP的端口扫描未执行的bug\r\n- 对fofa、hunter及quake查询的domain结果过滤（同一个IP关联的域名超过100个则认为是无效的域名）\r\n"
@@ -3050,8 +3050,8 @@
     "https://github.com/zan8in/afrog": {
         "created_at": "2022-02-24 06:00:32",
         "description": "A Security Tool for Bug Bounty, Pentest and Red Teaming.",
-        "commit_date": "2023-07-27 06:25:09",
-        "commit_message": "update poc",
+        "commit_date": "2023-07-29 15:07:57",
+        "commit_message": "update",
         "release_tag": "v2.7.5",
         "release_date": "2023-07-23 13:22:52",
         "release_message": "**optimization:**\r\n- Fix the false positive problem of ecology-filedownloadforoutdoc-sqli\r\n- Fix CVE-2023-28432 rule writing error\r\n- Fix CVE-2021-22205 rule writing error\r\n\r\n**优化：**\r\n- 修复 ecology-filedownloadforoutdoc-sqli 误报问题\r\n- 修复 CVE-2023-28432 规则编写错误问题\r\n- 修复 CVE-2021-22205 规则编写错误问题"
@@ -3406,8 +3406,8 @@
     "https://github.com/bit4woo/domain_hunter_pro": {
         "created_at": "2019-01-18 07:15:15",
         "description": "domain_hunter的高级版本，SRC挖洞、HW打点之必备！自动化资产收集；快速Title获取；外部工具联动；等等",
-        "commit_date": "2023-07-27 09:35:14",
-        "commit_message": "当单元格内容过长，通过tips显示完整内容",
+        "commit_date": "2023-07-29 12:55:37",
+        "commit_message": "Update DomainNameUtils.java",
         "release_tag": "v1.9",
         "release_date": "2023-04-18 00:34:58",
         "release_message": "全局：\r\n多个bug修复\r\n布局模式优化\r\n基础方法实现逻辑优化\r\n\r\n右键菜单：\r\n“Do Search”提供主动在制定请求中进行搜索的能力，比如在某企业邮箱的流量中搜索以提取邮箱地址\r\n“Add Request And Comment”右键菜单添逻辑优化，修复一个bug\r\n“Send To Tool Panel”右键菜单处理逻辑优化，可合并发送多个数据包内容\r\n\r\nDomain面板：\r\nroot domain的comments逻辑更新\r\n提供多个网络搜索引擎的后台自动搜索功能\r\nroot domain双击，自动在浏览器中访问\r\n修改目标根域名删除失败的bug\r\n显示序号，以便在排序后恢复原始顺序\r\n\r\nTool面板：\r\n重写JTextArea的paste函数，避免大内容导致程序卡死\r\nJTextArea支持输入文件，而程序处理其内容。\r\n文本取提供简单的历史记录功能\r\nJSON提取逻辑优化\r\n新增多个功能，比如排序\r\n优化URL提取逻辑，避免遗漏没有以/开头的path\r\n\r\nTitle面板中：\r\n端口扫描命令生成逻辑优化\r\n备注和IP内容的显示优化，显示前排序\r\n备注添加逻辑优化\r\n给手动添加的记录添加已知的IP和CNAME、CertInfo\r\n搜索功能增强，支持对数字型字段进行大于、小于、等于等搜索\r\n添加多个搜索实例，以便用户熟悉搜索语法\r\n新增“Do Request Item Again”菜单，对DNS记录或无响应的数据包进行再次请求"
@@ -4061,8 +4061,8 @@
     "https://github.com/WebGoat/WebGoat": {
         "created_at": "2015-03-06 14:02:02",
         "description": "WebGoat is a deliberately insecure application",
-        "commit_date": "2023-07-27 11:04:46",
-        "commit_message": "chore: bump jquery from 3.5.1 to 3.6.4 (#1529)\n\nBumps [jquery](https://github.com/webjars/jquery) from 3.5.1 to 3.6.4.\r\n- [Commits](https://github.com/webjars/jquery/compare/jquery-3.5.1...jquery-3.6.4)\r\n\r\n---\r\nupdated-dependencies:\r\n- dependency-name: org.webjars:jquery\r\n  dependency-type: direct:production\r\n  update-type: version-update:semver-minor\r\n...\r\n\r\nSigned-off-by: dependabot[bot] <support@github.com>\r\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>\r\nCo-authored-by: René Zubcevic <rene@zubcevic.com>",
+        "commit_date": "2023-07-29 10:35:06",
+        "commit_message": "chore: bump guava from 31.1-jre to 32.1.1-jre (#1530)\n\nBumps [guava](https://github.com/google/guava) from 31.1-jre to 32.1.1-jre.\r\n- [Release notes](https://github.com/google/guava/releases)\r\n- [Commits](https://github.com/google/guava/commits)\r\n\r\n---\r\nupdated-dependencies:\r\n- dependency-name: com.google.guava:guava\r\n  dependency-type: direct:production\r\n...\r\n\r\nSigned-off-by: dependabot[bot] <support@github.com>\r\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
         "release_tag": "v2023.4",
         "release_date": "2023-02-17 12:16:10",
         "release_message": "## Version 2023.4\r\n\r\n### New functionality\r\n\r\n- [#1422 Add Docker Linux Desktop variant with all tools installed](https://github.com/WebGoat/WebGoat/issues/1422). Thanks to the [OWASP WrongSecrets project](https://owasp.org/www-project-wrongsecrets/) we now have a Docker Linux desktop image with all the tools installed. No need to install any tools locally only run the new Docker image. See README.md for details on how to start it.\r\n- [#1411 JWT: looks that buy as Tom also works with alg:none](https://github.com/WebGoat/WebGoat/issues/1411).\r\n\r\n### Bug fixes\r\n\r\n- [#1410 WebWolf: JWT decode is broken](https://github.com/WebGoat/WebGoat/issues/1410).\r\n- [#1396 password_reset return 500 Error](https://github.com/WebGoat/WebGoat/issues/1396).\r\n- [#1379 Move XXE to A05:2021-Security Misconfiguration](https://github.com/WebGoat/WebGoat/issues/1379)."
@@ -4277,7 +4277,7 @@
     "https://github.com/aiboboxx/v2rayfree": {
         "created_at": "2021-10-13 11:34:53",
         "description": "v2ray公益免费节点、最新2ray免费v节点订阅地址、v2ray免费节点每日更新、免费ss/v2ray/trojan节点、freefq ",
-        "commit_date": "2023-07-28 12:37:43",
+        "commit_date": "2023-07-29 12:33:44",
         "commit_message": "update",
         "release_tag": "",
         "release_date": "",
@@ -4322,8 +4322,8 @@
     "https://github.com/freefq/free": {
         "created_at": "2020-06-07 02:48:33",
         "description": "翻墙、免费翻墙、免费科学上网、免费节点、免费梯子、免费ss/v2ray/trojan节点、蓝灯、谷歌商店、翻墙梯子",
-        "commit_date": "2023-07-29 00:00:02",
-        "commit_message": "updated_at 07-29 08:00",
+        "commit_date": "2023-07-30 00:00:02",
+        "commit_message": "updated_at 07-30 08:00",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -4601,8 +4601,8 @@
     "https://github.com/rockbenben/ChatGPT-Shortcut": {
         "created_at": "2023-02-24 12:53:49",
         "description": "🚀💪Maximize your efficiency and productivity, support for English,中文,Español,العربية. 让生产力加倍的 ChatGPT 快捷指令，按照领域和功能分区，可对提示词进行标签筛选、关键词搜索和一键复制。",
-        "commit_date": "2023-07-28 17:31:39",
-        "commit_message": "style: Comments component in Chinese",
+        "commit_date": "2023-07-29 06:17:50",
+        "commit_message": "perf: Change comment related elements from card to page, improving loading performance.",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -5004,8 +5004,8 @@
     "https://github.com/rustdesk/rustdesk": {
         "created_at": "2020-09-28 15:36:08",
         "description": "Virtual / remote desktop infrastructure for everyone! Open source TeamViewer / Citrix alternative.",
-        "commit_date": "2023-07-28 09:55:33",
-        "commit_message": "fix --option",
+        "commit_date": "2023-07-29 05:54:02",
+        "commit_message": "Merge pull request #5187 from 21pages/fix\n\nfix IDTextEditingController extra character",
         "release_tag": "1.2.1",
         "release_date": "2023-07-12 07:28:05",
         "release_message": "\r\n![image](https://github.com/rustdesk/rustdesk/assets/71636191/b444deab-7971-4de7-b315-6a9b4974c7ea)\r\n\r\n> Winget, FDroid, Apple Sillicon, Google Play / App Store update will come soon.\r\n\r\nx86-64: [Windows](https://github.com/rustdesk/rustdesk/releases/download/1.2.1/rustdesk-1.2.1-x86_64.exe) | [Ubuntu](https://github.com/rustdesk/rustdesk/releases/download/1.2.1/rustdesk-1.2.1-x86_64.deb) | [Mac](https://github.com/rustdesk/rustdesk/releases/download/1.2.1/rustdesk-1.2.1-x86_64.dmg)\r\nAArch64 (ARM64):  [Ubuntu](https://github.com/rustdesk/rustdesk/releases/download/1.2.1/rustdesk-1.2.1-aarch64.deb) | [Android](https://github.com/rustdesk/rustdesk/releases/download/1.2.1/rustdesk-1.2.1-aarch64-signed.apk)\r\nMore: [check below please](#)\r\n\r\n<details>\r\n<summary>Changelog</summary>\r\n\r\n- fix #4856 \r\n- fix #4866 \r\n- fix email login verfication bug on mobile #4874, and fix email login verification wrong error message\r\n- refactor chat notification both on mobile and desktop #4878 #4889 #4943\r\n- fix #4890 \r\n- fix privacy broker zombie process #4916 \r\n- improve remote menubar #4922\r\n- try to fix issue #3261 with new api, but not sure if it works\r\n- adjust tab theme to make it more clear\r\n- partially fix #4896 \r\n- fix #4880 \r\n- refactor id inputbox on mobile\r\n\r\n</details>\r\n"
@@ -5272,11 +5272,11 @@
     "https://github.com/projectdiscovery/wappalyzergo": {
         "created_at": "2021-04-06 09:54:00",
         "description": "A high performance go implementation of Wappalyzer Technology Detection Library",
-        "commit_date": "2023-07-23 00:24:34",
-        "commit_message": "Weekly fingerprints update [Sun Jul 23 00:24:34 UTC 2023] :robot:",
-        "release_tag": "v0.0.106",
-        "release_date": "2023-07-23 00:24:56",
-        "release_message": "### [0.0.106](https://github.com/projectdiscovery/wappalyzergo/compare/v0.0.105...v0.0.106) (2023-07-23)"
+        "commit_date": "2023-07-30 00:23:57",
+        "commit_message": "Weekly fingerprints update [Sun Jul 30 00:23:57 UTC 2023] :robot:",
+        "release_tag": "v0.0.107",
+        "release_date": "2023-07-30 00:24:17",
+        "release_message": "### [0.0.107](https://github.com/projectdiscovery/wappalyzergo/compare/v0.0.106...v0.0.107) (2023-07-30)"
     },
     "https://github.com/cseroad/Webshell_Generate": {
         "created_at": "2022-05-19 05:27:44",

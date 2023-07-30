@@ -1,8 +1,9 @@
-# 更新于 2023-07-29 08:38:18
+# 更新于 2023-07-30 08:44:00
 
 ## 近15天release更新记录
 | 更新时间 | 项目名称 | 版本 | 更新内容 |
 | :---- | :---- | :---- | :---- |
+|2023-07-30 00:24:17|[wappalyzergo](https://github.com/projectdiscovery/wappalyzergo)|v0.0.10<br>7|###  (2023-07-30)|
 |2023-07-28 16:47:41|[nuclei](https://github.com/projectdiscovery/nuclei)|v2.9.10|    ## What's Changed  ### 🎉 New Fea<br>tures  * Added markdown export sorting<br> options via env variable by @kchason <br>in https://github.com/projectdiscovery<br>/nuclei/pull/3961  console  export MAR<br>KDOWN_EXPORT_SORT_MODE=template # defa<br>ult  export MARKDOWN_EXPORT_SORT_MODE=<br>severity  export MARKDOWN_EXPORT_SORT_<br>MODE=host    * Added headless options <br>input by @dogancanbakir in https://git<br>hub.com/projectdiscovery/nuclei/pull/3<br>951  console     -ho, -headless-option<br>s string by @ehsandeep in https://gith<br>ub.com/projectdiscovery/nuclei/pull/39<br>68    Issues closed in this release - <br>https://github.com/projectdiscovery/nu<br>clei/milestone/37?closed=1    **Full C<br>hangelog**: https://github.com/project<br>discovery/nuclei/compare/v2.9.9...v2.9<br>.10|
 |2023-07-28 05:17:15|[fupo_for_yonyou](https://github.com/novysodope/fupo_for_yonyou)|2.0RC1|建议如果出现跟 #7 一样的问题再用这个<br>版本 |
 |2023-07-27 21:17:12|[clair](https://github.com/quay/clair)|v4.7.0| ## : enable mutex, blocking profiles<br> by default ### Build(Deps) - : bump g<br>olang.org/x/net from 0.11.0 to 0.12.0 <br>- : bump github.com/klauspost/compress<br> from 1.16.6 to 1.16.7 ### Chore - : b<br>ump claircore to v1.5.13 - : Bump clai<br>rcore to v1.5.12 - : Bump claircore to<br> v1.5.11 - : Bump claircore to v1.5.10<br> - : bump Claircore to v1.5.9 - : add <br>pyroscope to compose setup - : Update <br>outdated docs and comment with default<br> update period. - : remove refs to dep<br>recated io/ioutil - : Remove dogstatsd<br> variable and references ### Clairctl <br>- : Add post 4.7 admin command to dele<br>te pyupio vulns - : Scan the pointer t<br>o the pointer of the bool - : Add log <br>line signifying admin is done - : Remo<br>ve DSN logging - : admin subcommand ##<br># Cmd - : version for old gits  -  ###<br> Config - : pick a real versioning sch<br>eme ### Contrib - : Add manifest for a<br> Job to run DB jobs ### Docs - : Fix u<br>p debug tools table - : Add descriptio<br>n of debugging services available duri<br>ng local-dev ### Httptransport - : add<br> request ID to profiler labels ### Int<br>rospection - : add delta pprof endpoin<br>ts  [Unreleased]: https://github.com/q<br>uay/clair/compare/v4.7.0...HEAD [v4.7.<br>0]: https://github.com/quay/clair/comp<br>are/v4.7.0-rc.1...v4.7.0 |
@@ -16,7 +17,6 @@
 |2023-07-23 19:28:17|[dbeaver](https://github.com/dbeaver/dbeaver)|23.1.3|                 - Spatial data viewe<br>r:                     - Geometry obje<br>ct labels were added to the map (confi<br>gurable)                     - Curves <br>rendering was implemented             <br>        - Coordinates and viewport bou<br>nds copy was implemented              <br>       - EWKT format support was added<br>                     - Toolbars and la<br>sso visibility toggle was fixed       <br>          - Data transfer:            <br>         - Import of multiple tables f<br>rom an XLSX was implemented           <br>          - Lazy initialization of con<br>figuration pages was implemented      <br>               - Issue with duplicated<br> file selector dialog was fixed       <br>              - Export in XML format w<br>as fixed (doctype section is not optio<br>nal)                     - Issue long <br>filenames on Windows was fixed        <br>         - Data Editor:               <br>      - Find/Replace dialog and shortc<br>ut in the Value view panel were fixed <br>                    - Column descripti<br>on was added to the Metadata panel    <br>                 - Folding in the XML <br>presentation was fixed                <br>     - Displaying of images in the the<br> value view panel was fixed on Linux  <br>                   - Confirmation dial<br>og for the result set filtering was im<br>proved                 - Accessibility<br>:                     - JAWs screen re<br>ader can now read data in the Data gri<br>d                 - General UI:       <br>              - Tips of the day were u<br>pdated                     - Creation <br>of objects with mixed-case identifiers<br> was fixed                     - DDL g<br>eneration for sequence was fixed      <br>               - Logical project delet<br>ion was fixed                     - Is<br>sue with opening of a local project wa<br>s fixed                 - AI:         <br>            - New GPT 3.5 Turbo 16К mo<br>del was added                     - Is<br>sue with long metadata information sen<br>ding was fixed                 - Conne<br>ctions:                     - Duplicat<br>es on driver creation were removed    <br>                 - Issue with maven ar<br>tifacts editing was fixed             <br>        - Certificate management UI wa<br>s improved                 - New drive<br>rs:                     - Materialize <br>database driver was added (thanks @bob<br>byiliev)                     - Crate D<br>B via PostgreSQL driver was improved (<br>thanks @proddata)                 - Da<br>tabases:                     - DB2: us<br>ers can see Column Mask Objects       <br>              - TimescaleDB branding w<br>as updated                 - Localizat<br>ion:                     - Chinese Sim<br>plified localization was improved (tha<br>nks @bynyun)                     - Ger<br>man localization was improved (thanks <br>@fjf2002)             |
 |2023-07-23 13:22:52|[afrog](https://github.com/zan8in/afrog)|v2.7.5|**optimization:**  - Fix the false po<br>sitive problem of ecology-filedownload<br>foroutdoc-sqli  - Fix CVE-2023-28432 r<br>ule writing error  - Fix CVE-2021-2220<br>5 rule writing error    **优化：**  - <br>修复 ecology-filedownloadforoutdoc-sqli<br> 误报问题  - 修复 CVE-2023-28432 规则<br>编写错误问题  - 修复 CVE-2021-22205 规<br>则编写错误问题|
 |2023-07-23 10:11:32|[subfinder](https://github.com/projectdiscovery/subfinder)|v2.6.1|    ## What's Changed  ### 🐞 Bug Fix<br>es  * Fixed panic issue with digitorus<br> source by @dogancanbakir in https://g<br>ithub.com/projectdiscovery/subfinder/p<br>ull/882  * Fixed issue parsing result <br>from securitytrails by @ehsandeep in h<br>ttps://github.com/projectdiscovery/sub<br>finder/pull/902    ### 🔨 Maintenance <br> * Removed additional -U of apk in Doc<br>kerfile by @PeterDaveHello in https://<br>github.com/projectdiscovery/subfinder/<br>pull/886    ## New Contributors  * @Pe<br>terDaveHello made their first contribu<br>tion in https://github.com/projectdisc<br>overy/subfinder/pull/886    **Full Cha<br>ngelog**: https://github.com/projectdi<br>scovery/subfinder/compare/v2.6.0...v2.<br>6.1|
-|2023-07-23 00:24:56|[wappalyzergo](https://github.com/projectdiscovery/wappalyzergo)|v0.0.10<br>6|###  (2023-07-23)|
 |2023-07-22 11:58:12|[ENScan_GO](https://github.com/wgpsec/ENScan_GO)|0.0.14|配置文件更新升级到v0.4 请重新生成    <br>1. 修复TYC查询BUG，增加tycid参数，获取<br>方式详见README #69 #68  2. 修复qimai查<br>询问题 #67    若ENSCAN无法正常访问网站<br>可尝试挂上代理 -proxy http://127.0.0.1:<br>8080 （burp）  若查询还是有问题可开启d<br>ebug模式 --debug 查看报错内容    MD5 <br>校验  find . -type f -print0 | xargs -0<br> md5sum > md5.txt    e389bc9a479e7a730<br>a41c5dbe1b5aaaf  enscan-0.0.14-linux-3<br>86  7e797567c70931ebd6fad5f31be4f379  <br>enscan-0.0.14-darwin-amd64  977696e650<br>20c0970fc97a81377e5178  enscan-0.0.14-<br>linux-amd64  700a501f3994d2ed61fa4ff18<br>909f466  enscan-0.0.14-linux-arm64  80<br>4d658daa9c06eef5dfad83aac413cc  enscan<br>-0.0.14-darwin-arm64  a411a1f0bee1e3b9<br>ab5354e13d119b40  enscan-0.0.14-window<br>s-amd64.exe  0b4056ec65b53f4162d581eee<br>48e2cf8  enscan-0.0.14-linux-arm  |
 |2023-07-22 08:40:18|[wmiexec-Pro](https://github.com/XiaoliChan/wmiexec-Pro)|v0.2.6|### Changelog:  - Bugs fixed in exec-<br>command|
 |2023-07-21 02:33:21|[ObserverWard](https://github.com/0x727/ObserverWard)|v2023.7<br>.21|## [2023.7.21] - 2023.7.21  ### Fixes<br>  - --gen参数可以配合--yaml参数将指定y<br>aml目录中的全部yaml指纹规则生成单个jso<br>n文件，主要方便自定义指纹，生成便携单<br>文件。 - /home/kali-team/IdeaProjects/F<br>ingerprintHub/web_fingerprint是存放yam<br>l的目录，web_fingerprint_v3.json是生成<br>的文件路径。  bash ➜  ~ ./observer_war<br>d --yaml /home/kali-team/IdeaProjects/<br>FingerprintHub/web_fingerprint --gen w<br>eb_fingerprint_v3.json ➜  ~ jq length<br> web_fingerprint_v3.json 3448  - 添加<br>如果本地没有指纹库，会自动更新指纹。防<br>止跑完发现没有下载指纹，白跑了目标。|
@@ -26,23 +26,26 @@
 |2023-07-19 02:37:26|[iDefender](https://github.com/wecooperate/iDefender)|2.9.0|### 2.9.0.0    - 更新iMonitorSDK到最<br>新版本    - 添加监控扩展，允许自定义的<br>监控接入规则引擎      - 添加弹窗监控支<br>持      - 通配符支持       软件下载   |
 |2023-07-16 06:33:15|[Template](https://github.com/1n7erface/Template)|v1.2.1|2023.7.16 14:30  1.优化了指纹识别的一<br>些逻辑代码,但似乎还是不完美，有些指纹的<br>跳转逻辑不太好整  2.支持同时匹配多个指<br>纹  3.加了一些指纹的默认密码,似乎也不完<br>美,毕竟密码表有限|
 |2023-07-15 13:44:24|[Search_Viewer](https://github.com/G3et/Search_Viewer)|v3.0|版本：v3.0 2023/7/15    ·新增Censys  <br>  ·quake和zoomeye代码优化调整    ·界面<br>改动,新增语法参考    ·修复查询过大闪退<br>问题    ·修复导出时间戳被覆盖问题    ·<br>修复已知BUG    windows至少需要win7以上<br>系统|
-|2023-07-14 23:29:27|[mitaka](https://github.com/ninoseki/mitaka)|v1.3.1|Fiirefox only release to support Fire<br>fox MV3.    - https://addons.mozilla.o<br>rg/en-US/firefox/addon/mitaka/    ## N<br>otes    Please allow "Access your data<br> for all websites" permission. Otherwi<br>se this extension does not work.      |
-|2023-07-14 18:09:58|[CyberChef](https://github.com/gchq/CyberChef)|v10.5.2|See the  and  for details.|
 ## 近15天commit提交记录
 | 提交时间 | 项目名称 | 更新内容 |
 | :---- | :---- | :---- |
-|2023-07-29 00:30:20|[NucleiTP](https://github.com/ExpLangcn/NucleiTP)|更新啦❤️|
-|2023-07-29 00:00:02|[free](https://github.com/freefq/free)|updated_at 07-29 08:00|
-|2023-07-28 21:00:16|[PocOrExp_in_Githu<br>b](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-07-29 05:00:16|
+|2023-07-30 00:30:16|[NucleiTP](https://github.com/ExpLangcn/NucleiTP)|更新啦❤️|
+|2023-07-30 00:23:57|[wappalyzergo](https://github.com/projectdiscovery/wappalyzergo)|Weekly fingerprints update [Sun Jul 30 00:23:57 UTC<br> 2023] :robot:|
+|2023-07-30 00:00:02|[free](https://github.com/freefq/free)|updated_at 07-30 08:00|
+|2023-07-29 22:57:01|[PocOrExp_in_Githu<br>b](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-07-30 06:57:01|
+|2023-07-29 15:11:25|[SmsForwarder](https://github.com/pppscn/SmsForwarder)|新增：通话转发规则的匹配字段增加通话类型 & 自定义模<br>板增加{{通话类型}}标签 #305|
+|2023-07-29 15:07:57|[afrog](https://github.com/zan8in/afrog)|update|
+|2023-07-29 14:57:29|[nemo_go](https://github.com/hanc00l/nemo_go)|Update: crawler url for protocol|
+|2023-07-29 12:55:37|[domain_hunter_pro](https://github.com/bit4woo/domain_hunter_pro)|Update DomainNameUtils.java|
+|2023-07-29 12:33:44|[v2rayfree](https://github.com/aiboboxx/v2rayfree)|update|
+|2023-07-29 10:35:06|[WebGoat](https://github.com/WebGoat/WebGoat)|chore: bump guava from 31.1-jre to 32.1.1-jre (#153<br>0)  Bumps  from 31.1-jre to 32.1.1-jre.  -   -     -<br>--  updated-dependencies:  - dependency-name: com.go<br>ogle.guava:guava    dependency-type: direct:producti<br>on  ...    Signed-off-by: dependabot[bot]   Co-autho<br>red-by: dependabot[bot] |
+|2023-07-29 06:17:50|[ChatGPT-Shortcut](https://github.com/rockbenben/ChatGPT-Shortcut)|perf: Change comment related elements from card to <br>page, improving loading performance.|
+|2023-07-29 05:54:02|[rustdesk](https://github.com/rustdesk/rustdesk)|Merge pull request #5187 from 21pages/fix  fix IDTe<br>xtEditingController extra character|
 |2023-07-28 17:38:47|[vulhub](https://github.com/vulhub/vulhub)|Merge pull request #453 from vulhub/multiple-fixes <br> Multiple fixes|
-|2023-07-28 17:31:39|[ChatGPT-Shortcut](https://github.com/rockbenben/ChatGPT-Shortcut)|style: Comments component in Chinese|
 |2023-07-28 16:33:31|[dbeaver](https://github.com/dbeaver/dbeaver)|CB-3697 fix drivers (#20687)  Co-authored-by: Daria<br> Marutkina |
 |2023-07-28 16:13:09|[nuclei](https://github.com/projectdiscovery/nuclei)|version update|
-|2023-07-28 15:18:42|[nemo_go](https://github.com/hanc00l/nemo_go)|Fix: xray.yaml  file|
 |2023-07-28 14:46:23|[impacket](https://github.com/fortra/impacket)|Updated ChangeLog|
 |2023-07-28 14:42:23|[FreeRDP](https://github.com/FreeRDP/FreeRDP)|[aad] print http status response message|
-|2023-07-28 12:37:43|[v2rayfree](https://github.com/aiboboxx/v2rayfree)|update|
-|2023-07-28 09:55:33|[rustdesk](https://github.com/rustdesk/rustdesk)|fix --option|
 |2023-07-28 09:12:45|[kube-bench](https://github.com/aquasecurity/kube-bench)|build(deps): bump golang from 1.20.4 to 1.20.6 (#14<br>75)  Bumps golang from 1.20.4 to 1.20.6.    ---  upd<br>ated-dependencies:  - dependency-name: golang    dep<br>endency-type: direct:production    update-type: vers<br>ion-update:semver-patch  ...    Signed-off-by: depen<br>dabot[bot]   Co-authored-by: dependabot[bot] |
 |2023-07-28 07:09:56|[ShiroAttack2](https://github.com/SummerSec/ShiroAttack2)|Create LICENSE|
 |2023-07-28 05:18:24|[fupo_for_yonyou](https://github.com/novysodope/fupo_for_yonyou)|2.0RC1更新  2.0RC1更新|
@@ -52,13 +55,10 @@
 |2023-07-27 19:24:10|[clair](https://github.com/quay/clair)|cmd: version for old gits  This also adds a workaro<br>und for actions/checkout#882 where the new tag get b<br>lasted away with a new, lightweight tag for the dura<br>tion of the run.  Signed-off-by: Hank Donnay |
 |2023-07-27 16:54:06|[grype](https://github.com/anchore/grype)|chore(deps): bump github.com/hashicorp/go-getter fr<br>om 1.7.1 to 1.7.2 (#1406)  Bumps  from 1.7.1 to 1.7.<br>2.  -   -   -     ---  updated-dependencies:  - depe<br>ndency-name: github.com/hashicorp/go-getter    depen<br>dency-type: direct:production    update-type: versio<br>n-update:semver-patch  ...    Signed-off-by: dependa<br>bot[bot]   Co-authored-by: dependabot[bot] |
 |2023-07-27 11:49:34|[murphysec](https://github.com/murphysecurity/murphysec)|fix(pnpm): remove println|
-|2023-07-27 11:04:46|[WebGoat](https://github.com/WebGoat/WebGoat)|chore: bump jquery from 3.5.1 to 3.6.4 (#1529)  Bum<br>ps  from 3.5.1 to 3.6.4.  -     ---  updated-depende<br>ncies:  - dependency-name: org.webjars:jquery    dep<br>endency-type: direct:production    update-type: vers<br>ion-update:semver-minor  ...    Signed-off-by: depen<br>dabot[bot]   Co-authored-by: dependabot[bot]   Co-au<br>thored-by: René Zubcevic |
-|2023-07-27 09:35:14|[domain_hunter_pro](https://github.com/bit4woo/domain_hunter_pro)|当单元格内容过长，通过tips显示完整内容|
 |2023-07-27 08:22:25|[autoDecoder](https://github.com/f0ng/autoDecoder)|Update FAQ.md|
 |2023-07-27 07:43:15|[safeline](https://github.com/chaitin/safeline)|feat: release v2.4.0|
 |2023-07-27 07:07:29|[Pentest-Windows](https://github.com/arch3rPro/Pentest-Windows)|Merge pull request #24 from mlzxgzy/main  方便有百<br>度云的兄弟们用百度云下载|
 |2023-07-27 07:05:15|[trivy](https://github.com/aquasecurity/trivy)|chore: update CODEOWNERS (#4871)  * Update CODEOWNE<br>RS  * Add simar7|
-|2023-07-27 06:25:09|[afrog](https://github.com/zan8in/afrog)|update poc|
 |2023-07-27 06:11:08|[neuvector](https://github.com/neuvector/neuvector)|Merge pull request #928 from gfsuse/main_jiracase  <br>NVSHAS-8155, previous host ip reused by POD, remove <br>it from iphost cache|
 |2023-07-27 05:42:33|[vulnerability](https://github.com/lal0ne/vulnerability)|CVE-2020-15778|
 |2023-07-27 01:16:00|[Vulnerability-Wik<br>i](https://github.com/Threekiii/Vulnerability-Wiki)|更新漏洞|
@@ -77,11 +77,9 @@
 |2023-07-25 08:45:33|[sqlmap](https://github.com/sqlmapproject/sqlmap)|Fixes #5476|
 |2023-07-25 03:27:55|[Scanners-Box](https://github.com/We5ter/Scanners-Box)|Add the 1st sponsor @Albert, thanks, my friend.|
 |2023-07-24 16:52:48|[PEASS-ng](https://github.com/carlospolop/PEASS-ng)|Merge pull request #373 from galoget/master  Fix Br<br>oken Links for Cloud and Containers Pentesting|
-|2023-07-24 15:36:01|[SmsForwarder](https://github.com/pppscn/SmsForwarder)|新增：通话转发规则的匹配字段增加通话类型 & 自定义模<br>板增加{{通话类型}}标签 #305|
 |2023-07-24 03:42:18|[404StarLink](https://github.com/knownsec/404StarLink)|weekly update at 2023-07-24|
 |2023-07-23 10:01:35|[subfinder](https://github.com/projectdiscovery/subfinder)|added dep auto merge workflow|
 |2023-07-23 05:05:26|[SharpWxDump](https://github.com/AdminTest0/SharpWxDump)|Update README.md|
-|2023-07-23 00:24:34|[wappalyzergo](https://github.com/projectdiscovery/wappalyzergo)|Weekly fingerprints update [Sun Jul 23 00:24:34 UTC<br> 2023] :robot:|
 |2023-07-22 18:36:45|[rengine](https://github.com/yogeshojha/rengine)|remove redundant env vars|
 |2023-07-22 13:58:46|[superSearchPlus](https://github.com/dark-kingA/superSearchPlus)|1.优化ui以及bug 2.默认将扫描端口 使用fofa-host|
 |2023-07-22 12:03:27|[ENScan_GO](https://github.com/wgpsec/ENScan_GO)|漏了一张图。|
@@ -106,14 +104,7 @@
 |2023-07-17 02:02:03|[knife](https://github.com/bit4woo/knife)|改造FindUrlAndRequest的逻辑，使相同URL的不同请求位<br>置在一起，方便查看|
 |2023-07-16 01:33:27|[HackBrowserData](https://github.com/moonD4rk/HackBrowserData)|chore: update contributors [skip ci]|
 |2023-07-15 23:54:15|[DecoyMini](https://github.com/decoymini/DecoyMini)|Update README.md|
-|2023-07-15 11:08:06|[BurpSuite-collect<br>ions](https://github.com/Mr-xn/BurpSuite-collections)|Update README.md|
-|2023-07-14 23:40:53|[mitaka](https://github.com/ninoseki/mitaka)|docs: update README [skip ci]|
-|2023-07-14 21:48:20|[Vuln-List](https://github.com/wwl012345/Vuln-List)|Update Windows&Linux提权&RCE合集.md|
-|2023-07-14 18:01:41|[CyberChef](https://github.com/gchq/CyberChef)|10.5.2|
-|2023-07-14 09:50:08|[zpscan](https://github.com/niudaii/zpscan)|refactor: sth|
-|2023-07-14 09:05:56|[Umi-OCR](https://github.com/hiroi-sora/Umi-OCR)|添加三个命令行指令（#173） 1. 指定弹出模式-window_t<br>op_mode，0为静默模式，1为自动弹出 2. 指定输出文件目<br>录，-output_file_path="目录" 3. 指定输出文件名前缀，-<br>output_file_name="文件名"|
-|2023-07-14 07:42:42|[Some-PoC-oR-ExP](https://github.com/coffeehb/Some-PoC-oR-ExP)|Create CVE-2023-37582.py|
-|2023-07-14 00:50:25|[OA-EXPTOOL](https://github.com/LittleBear4/OA-EXPTOOL)|Add files via upload|## 所有项目
+|2023-07-15 11:08:06|[BurpSuite-collect<br>ions](https://github.com/Mr-xn/BurpSuite-collections)|Update README.md|## 所有项目
 # 渗透测试
 ## 信息收集
 ### 资产测绘采集
@@ -162,7 +153,7 @@
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
 | [EHole](https://github.com/EdgeSecurityTeam/EHole) | v3.1 | EHole(棱洞)3.0 重构版-红队重点攻击系统指纹探测工具 |
-| [wappalyzergo](https://github.com/projectdiscovery/wappalyzergo) | v0.0.10<br>6 | A high performance go implementation of Wappalyzer Technology <br>Detection Library |
+| [wappalyzergo](https://github.com/projectdiscovery/wappalyzergo) | v0.0.10<br>7 | A high performance go implementation of Wappalyzer Technology <br>Detection Library |
 | [14Finger](https://github.com/b1ackc4t/14Finger) | V1.1 | 功能齐全的Web指纹识别和分享平台,基于vue3+django前后端分离的web<br>架构，并集成了长亭出品的rad爬虫的功能，内置了一万多条互联网开源<br>的指纹信息。 |
 | [WhatWeb](https://github.com/urbanadventurer/WhatWeb) | v0.5.5 | Next generation web scanner |
 | [TideFinger](https://github.com/TideSec/TideFinger) |  | TideFinger——指纹识别小工具，汲取整合了多个web指纹库，结合了<br>多种指纹检测方法，让指纹检测更快捷、准确。 |
