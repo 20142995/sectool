@@ -931,3 +931,8 @@ CTF:
         - https://hackmyvm.eu/anon/
     短信轰炸:
         - https://github.com/OpenEthan/SMSBoom
+    验证码生成:
+        - https://github.com/fupinglee/Calculate_Captcha
+    机器学习:
+        - https://github.com/sml2h3/dddd_trainer
+        - https://github.com/mdbloice/Augmentor
