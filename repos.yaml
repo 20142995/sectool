@@ -137,10 +137,15 @@
         安卓漏洞扫描:
             - https://github.com/bytedance/appshark
         代码审计:
-            - https://github.com/murphysecurity/murphysec
-            - https://github.com/LoRexxar/Kunlun-M
-            - https://github.com/webraybtl/CodeQLpy
-            - https://github.com/4ra1n/jar-analyzer-gui
+            other:
+                - https://github.com/murphysecurity/murphysec
+                - https://github.com/LoRexxar/Kunlun-M
+                - https://github.com/webraybtl/CodeQLpy
+            java:
+                - https://github.com/4ra1n/jar-analyzer-gui
+                - https://github.com/4ra1n/code-inspector
+                - https://github.com/github/codeql-cli-binaries
+                - https://github.com/webraybtl/CodeQLpy
         容器漏洞扫描:
             - https://github.com/chaitin/veinmind-tools
         口令爆破:
