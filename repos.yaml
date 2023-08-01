@@ -352,6 +352,8 @@
                 - https://github.com/mrknow001/fastjson_rec_exploit
             JBoss:
                 - https://github.com/joaomatosf/jexboss
+            vmware:
+                - https://github.com/NS-Sp4ce/Vm4J
             log4j:
                 - https://github.com/kozmer/log4j-shell-poc
             Spring Boot:
@@ -477,6 +479,8 @@
             - https://github.com/inconshreveable/ngrok
             - https://github.com/snail007/goproxy
         密码提取:
+            - https://github.com/shmilylty/vhost_password_decrypt
+
             - https://github.com/gentilkiwi/mimikatz
             - https://github.com/kerbyj/goLazagne
             - https://github.com/DarkCoderSc/win-brute-logon
