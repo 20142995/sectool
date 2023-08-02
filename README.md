@@ -1,8 +1,10 @@
-# 更新于 2023-08-01 08:47:25
+# 更新于 2023-08-02 08:42:04
 
 ## 近15天release更新记录
 | 更新时间 | 项目名称 | 版本 | 更新内容 |
 | :---- | :---- | :---- | :---- |
+|2023-08-01 09:08:35|[trivy](https://github.com/aquasecurity/trivy)|v0.44.0|## ⚡Release highlights and summary⚡<br>    👉 https://github.com/aquasecurity<br>/trivy/discussions/4903    ## Changelo<br>g  * d19c7d9f2 feat(repo): support loc<br>al repositories (#4890)  * 3c1976187 b<br>ump go-dep-parser (#4893)  * e1c2a8c80<br> fix(misconf): add missing fields to p<br>roto (#4861)  * 8b8e0e83d fix: remove <br>trivy-db package replacement (#4877)  <br>* f9efe44fd chore(test): bump the inte<br>gration test timeout to 15m (#4880)  *<br> 7271d682f chore(deps): Update defsec <br>to v0.91.0 (#4886)  * c3bc67c89 chore:<br> update CODEOWNERS (#4871)  * 232ba823<br>e feat(vuln): support vulnerability st<br>atus (#4867)  * 11618c940 feat(misconf<br>): Support custom URLs for policy bund<br>le (#4834)  * 07075696d refactor: repl<br>ace with sortable packages (#4858)  * <br>fbe1c9eb1 docs: correct license scanni<br>ng sample command (#4855)  * 20c2246a6<br> fix(report): close the file (#4842)  <br>* 24a3e547d feat(nodejs): add support <br>for include-dev-deps flag for yarn (#4<br>812)  * a7bd7bb65 feat(misconf): Add s<br>upport for independently enabling libr<br>aries (#4070)  * 4aa9ea096 feat(secret<br>): add secret config file for cache ca<br>lculation (#4837)  * 5d349d814 Fix a l<br>ink in gitlab-ci.md (#4850)  * a61531c<br>1f fix(flag): use globalstar to skip d<br>irectories (#4854)  * 78cc20937 chore(<br>deps): bump github.com/docker/docker f<br>rom v23.0.5+incompatible to v23.0.7-0.<br>20230714215826-f00e7af96042+incompatib<br>le (#4849)  * 93996041b fix(license): <br>using common way for splitting license<br>s (#4434)  * 3e2416d77 fix(containerd)<br>: Use img platform in exporter instead<br> of strict host platform (#4477)  * ce<br>77bb46c remove govulndb (#4783)  * c05<br>caae43 fix(java): inherit licenses fro<br>m parents (#4817)  * aca11b95d refacto<br>r: add allowed values for CLI flags (#<br>4800)  * 4cecd17ea add example regex t<br>o allow rules (#4827)  * 4bc8d29c1 fea<br>t(misconf): Support custom data for re<br>go policies for cloud (#4745)  * 88243<br>a0ad docs: correcting the trivy k8s tu<br>torial (#4815)  * 3c7d988d7 feat(cli):<br> add --tf-exclude-downloaded-modules f<br>lag (#4810)  * fd0fd104f fix(sbom): cy<br>clonedx recommendations should include<br> fixed versions for each package (#479<br>4)  * d0d543b88 feat(misconf): enable <br>--policy flag to accept directory and <br>files both (#4777)  * b43a3e623 feat(p<br>ython): add license fields (#4722)  * <br>aef7b148a fix: support trivy k8s-versi<br>on on k8s sub-command (#4786)    |
+|2023-08-01 03:04:58|[goproxy](https://github.com/snail007/goproxy)|v13.5|1、认证API返回outgoing是一个网段不生<br>效的问题。|
 |2023-07-31 18:12:55|[grype](https://github.com/anchore/grype)|v0.65.0|# Changelog  ##  (2023-07-31)    ### <br>Added Features  - feat: implement seco<br>ndary sorting for default json output <br>] ] - Consistent sort order for grype <br>output ] ] ]  ### Bug Fixes  - Grype r<br>eading SPDX file with json output gets<br> UnknownScheme error ] - grype 0.64.0 <br>doesn't list vulnerabilties if --fail-<br>on fails ] ] ]  ### Additional Changes<br>  - chore: bump quality gate label dat<br>aset ] ]    |
 |2023-07-31 17:42:33|[syft](https://github.com/anchore/syft)|v0.86.1|# Changelog    ##  (2023-07-31)      <br>  ### Bug Fixes    - Source requires d<br>efault image name as user input for un<br>parsable reference ] ]       |
 |2023-07-31 14:52:44|[PEASS-ng](https://github.com/carlospolop/PEASS-ng)|2023073<br>1-452f0c<br>44||
@@ -12,6 +14,7 @@
 |2023-07-28 16:47:41|[nuclei](https://github.com/projectdiscovery/nuclei)|v2.9.10|    ## What's Changed  ### 🎉 New Fea<br>tures  * Added markdown export sorting<br> options via env variable by @kchason <br>in https://github.com/projectdiscovery<br>/nuclei/pull/3961  console  export MAR<br>KDOWN_EXPORT_SORT_MODE=template # defa<br>ult  export MARKDOWN_EXPORT_SORT_MODE=<br>severity  export MARKDOWN_EXPORT_SORT_<br>MODE=host    * Added headless options <br>input by @dogancanbakir in https://git<br>hub.com/projectdiscovery/nuclei/pull/3<br>951  console     -ho, -headless-option<br>s string by @ehsandeep in https://gith<br>ub.com/projectdiscovery/nuclei/pull/39<br>68    Issues closed in this release - <br>https://github.com/projectdiscovery/nu<br>clei/milestone/37?closed=1    **Full C<br>hangelog**: https://github.com/project<br>discovery/nuclei/compare/v2.9.9...v2.9<br>.10|
 |2023-07-28 05:17:15|[fupo_for_yonyou](https://github.com/novysodope/fupo_for_yonyou)|2.0RC1|建议如果出现跟 #7 一样的问题再用这个<br>版本 |
 |2023-07-27 21:17:12|[clair](https://github.com/quay/clair)|v4.7.0| ## : enable mutex, blocking profiles<br> by default ### Build(Deps) - : bump g<br>olang.org/x/net from 0.11.0 to 0.12.0 <br>- : bump github.com/klauspost/compress<br> from 1.16.6 to 1.16.7 ### Chore - : b<br>ump claircore to v1.5.13 - : Bump clai<br>rcore to v1.5.12 - : Bump claircore to<br> v1.5.11 - : Bump claircore to v1.5.10<br> - : bump Claircore to v1.5.9 - : add <br>pyroscope to compose setup - : Update <br>outdated docs and comment with default<br> update period. - : remove refs to dep<br>recated io/ioutil - : Remove dogstatsd<br> variable and references ### Clairctl <br>- : Add post 4.7 admin command to dele<br>te pyupio vulns - : Scan the pointer t<br>o the pointer of the bool - : Add log <br>line signifying admin is done - : Remo<br>ve DSN logging - : admin subcommand ##<br># Cmd - : version for old gits  -  ###<br> Config - : pick a real versioning sch<br>eme ### Contrib - : Add manifest for a<br> Job to run DB jobs ### Docs - : Fix u<br>p debug tools table - : Add descriptio<br>n of debugging services available duri<br>ng local-dev ### Httptransport - : add<br> request ID to profiler labels ### Int<br>rospection - : add delta pprof endpoin<br>ts  [Unreleased]: https://github.com/q<br>uay/clair/compare/v4.7.0...HEAD [v4.7.<br>0]: https://github.com/quay/clair/comp<br>are/v4.7.0-rc.1...v4.7.0 |
+|2023-07-27 12:30:53|[codeql-cli-binari<br>es](https://github.com/github/codeql-cli-binaries)|v2.14.1|- There are no user-facing changes in<br> this release.    For more information<br> about the changes included in this re<br>lease, see the .    You can download _<br>either_ the codeql-PLATFORM.zip for yo<br>ur platform, _or_ the generic codeql.z<br>ip which contains binaries for all sup<br>ported platforms. Please ignore the ad<br>ditional "source code" downloads below<br> the .zip artifacts.    This release i<br>s compatible with the CodeQL language <br>packs from .  |
 |2023-07-27 08:17:28|[safeline](https://github.com/chaitin/safeline)|v2.4.0|### 新增    - IP 组支持注释     ### <br>优化    - 优化编辑 IP 组和相关规则时的<br>性能  - 优化一些界面 UI 交互细节|
 |2023-07-26 21:22:17|[pocsuite3](https://github.com/knownsec/pocsuite3)|v2.0.5|* 修复 urllib3 更新导致 requests hook<br> 失效的问题 #368 #373   * 优化 DSL 表<br>达式执行 #372  * 将 mmh3 设置为可选依赖<br> #359   * 优化检查更新    ---    * fix<br> hook failure due to urllib3 update #3<br>68 #373  * optimize DSL expression exe<br>cution #372  * making mmh3 an optional<br> dependency #359  * disable mandatory <br>updates  |
 |2023-07-26 06:26:19|[veinmind-tools](https://github.com/chaitin/veinmind-tools)|v2.1.5|## 🔥 Feature  * feat(veinmind-trace)<br>: add veinmind-trace plugin for detect<br>ing attack trace in container  by @DVK<br>union in #253   * feat(veinmind-backdo<br>or): refactor backdoor go plugin  by @<br>ek1ng in #252   * feat(veinmind-backdo<br>or): add rootkit scan by @l2yyd5 in #2<br>56     ## 📒 Others  * chore(veinmind-<br>backdoor): disabled python plugin and <br>instead of go plugin by @DVKunion in #<br>257   * chore(libveinmind): update lib<br>veinmind 1.9.42 by @DVKunion in #258  <br>   ## 🎉 New Contributors  * @l2yyd5 m<br>ade their first contribution in #256  <br>   **Full Changelog**: https://github.<br>com/chaitin/veinmind-tools/compare/v2.<br>1.4...v2.1.5|
@@ -29,27 +32,38 @@
 ## 近15天commit提交记录
 | 提交时间 | 项目名称 | 更新内容 |
 | :---- | :---- | :---- |
-|2023-08-01 00:30:20|[NucleiTP](https://github.com/ExpLangcn/NucleiTP)|更新啦❤️|
-|2023-08-01 00:00:04|[free](https://github.com/freefq/free)|updated_at 08-01 08:00|
-|2023-07-31 23:00:40|[PocOrExp_in_Githu<br>b](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-08-01 07:00:40|
-|2023-07-31 21:46:53|[FreeRDP](https://github.com/FreeRDP/FreeRDP)|[build] use define WINPR_FALLTHROUGH  with c17 comp<br>atible compilers annotate with [[fallthrough]]|
-|2023-07-31 21:20:41|[ChatGPT-Shortcut](https://github.com/rockbenben/ChatGPT-Shortcut)|fix: Disable Google login temporarily|
-|2023-07-31 20:35:09|[syft](https://github.com/anchore/syft)|add metadata types to all cpe test fixtures (#1982)<br>  Signed-off-by: Alex Goodman |
+|2023-08-02 00:30:15|[NucleiTP](https://github.com/ExpLangcn/NucleiTP)|更新啦❤️|
+|2023-08-02 00:00:03|[free](https://github.com/freefq/free)|updated_at 08-02 08:00|
+|2023-08-01 23:46:51|[Mobile-Security-F<br>ramework-MobSF](https://github.com/MobSF/Mobile-Security-Framework-MobSF)|HOTFIX: translate upstream proxy ip for docker|
+|2023-08-01 23:01:08|[PocOrExp_in_Githu<br>b](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-08-02 07:01:08|
+|2023-08-01 22:44:01|[neuvector](https://github.com/neuvector/neuvector)|Merge pull request #936 from williamlin-suse/main  <br>NVSHAS-7994: the Federation.Demote event could be mi<br>ssing after a cluster is demoted|
+|2023-08-01 21:19:49|[syft](https://github.com/anchore/syft)|feat: use originator logic to fill supplier (#1980)<br>  * feat: use Originator to fill supplier for NTIA m<br>inimum  ---------  Signed-off-by: Christopher Philli<br>ps |
+|2023-08-01 21:02:21|[RsaCtfTool](https://github.com/RsaCtfTool/RsaCtfTool)|Update classical_shor.py|
+|2023-08-01 17:34:40|[dbeaver](https://github.com/dbeaver/dbeaver)|#20724 use text execution plan for YellowBrick (#20<br>742)|
+|2023-08-01 15:35:34|[FreeRDP](https://github.com/FreeRDP/FreeRDP)|client/cliprdr_file: Tighten up data size check for<br> FILE_SIZE requests  FILECONTENTS_SIZE requests expl<br>icitly specify the size of 8 Bytes, so expect that t<br>here are no further fill Bytes used.|
+|2023-08-01 14:24:13|[rustdesk](https://github.com/rustdesk/rustdesk)|fix issue #5224|
+|2023-08-01 13:38:49|[ChatGPT-Shortcut](https://github.com/rockbenben/ChatGPT-Shortcut)|fix: Google login functionality|
+|2023-08-01 12:38:11|[v2rayfree](https://github.com/aiboboxx/v2rayfree)|update|
+|2023-08-01 09:45:20|[sqlmap](https://github.com/sqlmapproject/sqlmap)|Fixes #5479|
+|2023-08-01 08:43:37|[GobypassAV-shellc<br>ode](https://github.com/Pizz33/GobypassAV-shellcode)|Update README.md|
+|2023-08-01 07:16:41|[domain_hunter_pro](https://github.com/bit4woo/domain_hunter_pro)|update|
+|2023-08-01 06:32:59|[dperf](https://github.com/baidu/dperf)|Merge pull request #347 from CChuancey/main  Update<br> port.c|
+|2023-08-01 04:44:27|[veinmind-tools](https://github.com/chaitin/veinmind-tools)|replace ioutil.ReadAll to io.ReadAll (#262)|
+|2023-08-01 03:18:15|[Vulhub-Reproduce](https://github.com/Threekiii/Vulhub-Reproduce)|更新漏洞|
+|2023-08-01 03:02:00|[murphysec](https://github.com/murphysecurity/murphysec)|chore(deps): upgrade dependencies...|
+|2023-08-01 02:53:22|[goproxy](https://github.com/snail007/goproxy)|update|
+|2023-08-01 00:58:28|[Awesome-Redteam](https://github.com/Threekiii/Awesome-Redteam)|更新README.md|
 |2023-07-31 17:58:36|[grype](https://github.com/anchore/grype)|chore(deps): update Syft to v0.86.1 (#1410)  * chor<br>e(deps): update Syft to v0.86.0    Signed-off-by: Gi<br>tHub     * fix python package metadata shape    Sign<br>ed-off-by: Alex Goodman     * account for new metada<br>tas added in syft    Signed-off-by: Alex Goodman    <br> * bump syft to unreleased but fixed version    Sign<br>ed-off-by: Alex Goodman     ---------    Signed-off-<br>by: GitHub   Signed-off-by: Alex Goodman   Co-author<br>ed-by: wagoodman |
 |2023-07-31 15:27:39|[flightsim](https://github.com/alphasoc/flightsim)|Pick random hosts if returned more than requested|
-|2023-07-31 15:26:21|[rustdesk](https://github.com/rustdesk/rustdesk)|Merge pull request #5210 from dignow/refact/no_sync<br>_file_clipboard_before_conn  Do not sync file clipbo<br>ard before conn|
 |2023-07-31 15:08:03|[impacket](https://github.com/fortra/impacket)|Fixed issue with a type in the final version|
 |2023-07-31 14:56:43|[PEASS-ng](https://github.com/carlospolop/PEASS-ng)|Merge pull request #375 from galoget/master  Fix ty<br>pos, grammar and spacing|
-|2023-07-31 13:52:33|[dbeaver](https://github.com/dbeaver/dbeaver)|dbeaver/dbeaver#19949 reset all settings (#20743)  <br>* #19949 Settings reset action customization    * #1<br>9949 Settings reset action customization    * #19949<br> Settings reset action customization    * #19949 Fil<br>ter actions    * #19949 Virtual model config on gene<br>ral page    * #19949 Virtual model config on general<br> page    * #19949 Virtual model reset    * #19949 Re<br>sets action icons    * #19949 New connection create <br>fix|
 |2023-07-31 13:16:02|[iDefender](https://github.com/wecooperate/iDefender)|update|
-|2023-07-31 12:40:08|[v2rayfree](https://github.com/aiboboxx/v2rayfree)|update|
 |2023-07-31 11:27:36|[trivy](https://github.com/aquasecurity/trivy)|feat(repo): support local repositories (#4890)  * f<br>eat(repo): support local repositories  * fix tests  <br>* test: fix client/server tests  * docs: update  * t<br>est: add fs tests  * test: do not update golden file<br>s if overridden  * docs: remove a comment about fs d<br>eprecation|
-|2023-07-31 10:42:46|[domain_hunter_pro](https://github.com/bit4woo/domain_hunter_pro)|update|
-|2023-07-31 07:58:21|[Mobile-Security-F<br>ramework-MobSF](https://github.com/MobSF/Mobile-Security-Framework-MobSF)|update apktool (#2225)  Co-authored-by: Ajin Abraha<br>m |
 |2023-07-31 05:47:18|[afrog](https://github.com/zan8in/afrog)|update|
 |2023-07-31 03:58:14|[wmiexec-Pro](https://github.com/XiaoliChan/wmiexec-Pro)|Declaration|
 |2023-07-31 03:03:09|[404StarLink](https://github.com/knownsec/404StarLink)|weekly update at 2023-07-31|
 |2023-07-31 01:06:00|[DecoyMini](https://github.com/decoymini/DecoyMini)|Update README.md|
+|2023-07-30 15:43:00|[Venom-Transponder](https://github.com/z-bool/Venom-Transponder)|finish|
 |2023-07-30 15:18:14|[0day](https://github.com/helloexp/0day)|update Metabase CVE-2023-38646 RCE add logging func|
 |2023-07-30 13:34:04|[ENScan_GO](https://github.com/wgpsec/ENScan_GO)|Merge pull request #71 from ruishawn/master  fix: <br>修复日志输出format格式不对的问题|
 |2023-07-30 13:10:31|[WebGoat](https://github.com/WebGoat/WebGoat)|chore: bump com.diffplug.spotless:spotless-maven-pl<br>ugin from 2.33.0 to 2.38.0 (#1535)  * chore: bump co<br>m.diffplug.spotless:spotless-maven-plugin    Bumps  <br>from 2.33.0 to 2.38.0.  -   -     ---  updated-depen<br>dencies:  - dependency-name: com.diffplug.spotless:s<br>potless-maven-plugin    dependency-type: direct:prod<br>uction    update-type: version-update:semver-minor  <br>...    Signed-off-by: dependabot[bot]     * chore: f<br>ormat code    ---------    Signed-off-by: dependabot<br>[bot]   Co-authored-by: dependabot[bot]   Co-authore<br>d-by: Nanne Baars |
@@ -65,23 +79,18 @@
 |2023-07-28 02:26:53|[Viper](https://github.com/FunnyWolf/Viper)|Merge remote-tracking branch 'origin/master'|
 |2023-07-28 01:49:29|[captcha-killer-mo<br>dified](https://github.com/f0ng/captcha-killer-modified)|Update FAQ.md|
 |2023-07-27 19:24:10|[clair](https://github.com/quay/clair)|cmd: version for old gits  This also adds a workaro<br>und for actions/checkout#882 where the new tag get b<br>lasted away with a new, lightweight tag for the dura<br>tion of the run.  Signed-off-by: Hank Donnay |
-|2023-07-27 11:49:34|[murphysec](https://github.com/murphysecurity/murphysec)|fix(pnpm): remove println|
+|2023-07-27 11:56:35|[codeql-cli-binari<br>es](https://github.com/github/codeql-cli-binaries)|Update CHANGELOG.md for 2.14.1 release|
 |2023-07-27 08:22:25|[autoDecoder](https://github.com/f0ng/autoDecoder)|Update FAQ.md|
 |2023-07-27 07:43:15|[safeline](https://github.com/chaitin/safeline)|feat: release v2.4.0|
 |2023-07-27 07:07:29|[Pentest-Windows](https://github.com/arch3rPro/Pentest-Windows)|Merge pull request #24 from mlzxgzy/main  方便有百<br>度云的兄弟们用百度云下载|
-|2023-07-27 06:11:08|[neuvector](https://github.com/neuvector/neuvector)|Merge pull request #928 from gfsuse/main_jiracase  <br>NVSHAS-8155, previous host ip reused by POD, remove <br>it from iphost cache|
 |2023-07-27 05:42:33|[vulnerability](https://github.com/lal0ne/vulnerability)|CVE-2020-15778|
 |2023-07-27 01:16:00|[Vulnerability-Wik<br>i](https://github.com/Threekiii/Vulnerability-Wiki)|更新漏洞|
 |2023-07-26 21:18:59|[pocsuite3](https://github.com/knownsec/pocsuite3)|Merge pull request #375 from 13ph03nix/fix/urllib3-<br>hook  Bug fixes & improvements|
 |2023-07-26 15:55:47|[Stowaway](https://github.com/ph4ntonn/Stowaway)|Fix preauth|
 |2023-07-26 14:58:46|[BloodHound](https://github.com/BloodHoundAD/BloodHound)|Merge pull request #687 from ShutdownRepo/patch-1  <br>Fixing LinuxAbuse.jsx dacledit.py DCSync command|
-|2023-07-26 12:42:15|[dperf](https://github.com/baidu/dperf)|Merge pull request #345 from pengjianzhang/main  fi<br>x: create new connection after duration|
-|2023-07-26 08:17:54|[veinmind-tools](https://github.com/chaitin/veinmind-tools)|docs: update plugins table (#261)|
 |2023-07-25 13:35:20|[0_zone_tool](https://github.com/wkend/0_zone_tool)|Update 0_zone.py|
 |2023-07-25 13:31:26|[frp](https://github.com/fatedier/frp)|fix incorrect use of snappy pool (#3549)|
 |2023-07-25 09:19:35|[Awesome-POC](https://github.com/Threekiii/Awesome-POC)|更新漏洞|
-|2023-07-25 09:16:43|[Vulhub-Reproduce](https://github.com/Threekiii/Vulhub-Reproduce)|更新README.md|
-|2023-07-25 08:45:33|[sqlmap](https://github.com/sqlmapproject/sqlmap)|Fixes #5476|
 |2023-07-25 03:27:55|[Scanners-Box](https://github.com/We5ter/Scanners-Box)|Add the 1st sponsor @Albert, thanks, my friend.|
 |2023-07-23 10:01:35|[subfinder](https://github.com/projectdiscovery/subfinder)|added dep auto merge workflow|
 |2023-07-23 05:05:26|[SharpWxDump](https://github.com/AdminTest0/SharpWxDump)|Update README.md|
@@ -89,10 +98,8 @@
 |2023-07-22 13:58:46|[superSearchPlus](https://github.com/dark-kingA/superSearchPlus)|1.优化ui以及bug 2.默认将扫描端口 使用fofa-host|
 |2023-07-22 07:09:52|[Search_Viewer](https://github.com/G3et/Search_Viewer)|Update LICENSE|
 |2023-07-22 05:15:02|[RmTools](https://github.com/RoomaSec/RmTools)|Merge branch 'main' of https://github.com/RoomaSec/<br>RmTools|
-|2023-07-22 02:11:24|[GobypassAV-shellc<br>ode](https://github.com/Pizz33/GobypassAV-shellcode)|Update README.md|
 |2023-07-22 02:03:42|[Fvuln](https://github.com/d3ckx1/Fvuln)|Update README.md|
 |2023-07-21 09:35:24|[heapdump_tool](https://github.com/wyzxxz/heapdump_tool)|Update README.md|
-|2023-07-21 08:42:17|[Awesome-Redteam](https://github.com/Threekiii/Awesome-Redteam)|更新README.md|
 |2023-07-21 04:27:37|[Burp-Non-HTTP-Ext<br>ension](https://github.com/summitt/Burp-Non-HTTP-Extension)|Update README.md|
 |2023-07-21 02:31:53|[ObserverWard](https://github.com/0x727/ObserverWard)|自动更新指纹，添加生成json格式指纹库参数|
 |2023-07-21 01:37:09|[gshark](https://github.com/madneal/gshark)|Merge pull request #159 from madneal/dependabot/npm<br>_and_yarn/web/word-wrap-1.2.4  Bump word-wrap from 1<br>.2.3 to 1.2.4 in /web|
@@ -100,9 +107,7 @@
 |2023-07-20 13:37:25|[all-in-one-v2](https://github.com/zaivanza/all-in-one-v2)|add to_chains|
 |2023-07-19 08:06:37|[Elkeid](https://github.com/bytedance/Elkeid)|Merge pull request #518 from Hackerl/main  add name<br>sapce mount tool|
 |2023-07-18 14:45:58|[awesome-chatgpt-z<br>h](https://github.com/yzfly/awesome-chatgpt-zh)|add gpt-runner|
-|2023-07-18 05:06:41|[dalfox](https://github.com/hahwul/dalfox)|Merge pull request #483 from hahwul/dependabot/go_m<br>odules/github.com/labstack/echo/v4-4.11.1  Bump gith<br>ub.com/labstack/echo/v4 from 4.10.2 to 4.11.1|
-|2023-07-17 23:00:15|[zksync](https://github.com/nftscripts/zksync)|Update runner.py|
-|2023-07-17 16:25:36|[v2rayA](https://github.com/v2rayA/v2rayA)|Added pt-br.js file for brazilian portuguese langua<br>ge (#990)|## 所有项目
+|2023-07-18 05:06:41|[dalfox](https://github.com/hahwul/dalfox)|Merge pull request #483 from hahwul/dependabot/go_m<br>odules/github.com/labstack/echo/v4-4.11.1  Bump gith<br>ub.com/labstack/echo/v4 from 4.10.2 to 4.11.1|## 所有项目
 # 渗透测试
 ## 信息收集
 ### 资产测绘采集
@@ -279,12 +284,19 @@
 | :---- | :---- | :---- |
 | [appshark](https://github.com/bytedance/appshark) | v0.1.2 | Appshark is a static taint analysis platform to scan vulnerabi<br>lities in an Android app. |
 ### 代码审计
+#### other
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
-| [murphysec](https://github.com/murphysecurity/murphysec) |  |  |
+| [murphysec](https://github.com/murphysecurity/murphysec) | v3.1.1 | An open source tool focused on software supply chain security.<br> 墨菲安全专注于软件供应链安全，具备专业的软件成分分析（SCA）、<br>漏洞检测、专业漏洞库。 |
 | [Kunlun-M](https://github.com/LoRexxar/Kunlun-M) | v2.6.5 | KunLun-M是一个完全开源的静态白盒扫描工具，支持PHP、JavaScript<br>的语义扫描，基础安全、组件安全扫描，Chrome Ext\Solidity的基础扫<br>描。 |
 | [CodeQLpy](https://github.com/webraybtl/CodeQLpy) |  | CodeQLpy是一款基于CodeQL实现的半自动化代码审计工具，目前仅支持<br>java语言。实现从源码反编译，数据库生成，脆弱性发现的全过程，可<br>以辅助代码审计人员快速定位源码可能存在的漏洞。 |
+#### java
+| 项目名称 | 版本 | 项目描述 |
+| :---- | :---- | :---- |
 | [jar-analyzer-gui](https://github.com/4ra1n/jar-analyzer-gui) | 1.1 | 一个用于分析Jar包的GUI工具，可以用多种方式搜索你想要的信息，自<br>动构建方法调用关系，支持分析Spring框架（A Java GUI Tool for Anal<br>yzing Jar） |
+| [code-inspector](https://github.com/4ra1n/code-inspector) | 0.2-bet<br>a | JavaWeb漏洞审计工具，构建方法调用链并模拟栈帧进行分析 |
+| [codeql-cli-binari<br>es](https://github.com/github/codeql-cli-binaries) | v2.14.1 | Binaries for the CodeQL CLI |
+| [CodeQLpy](https://github.com/webraybtl/CodeQLpy) |  | CodeQLpy是一款基于CodeQL实现的半自动化代码审计工具，目前仅支持<br>java语言。实现从源码反编译，数据库生成，脆弱性发现的全过程，可<br>以辅助代码审计人员快速定位源码可能存在的漏洞。 |
 ### 容器漏洞扫描
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
@@ -335,7 +347,7 @@
 #### 容器安全扫描
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
-| [trivy](https://github.com/aquasecurity/trivy) | v0.43.1 | Find vulnerabilities, misconfigurations, secrets, SBOM in cont<br>ainers, Kubernetes, code repositories, clouds and more |
+| [trivy](https://github.com/aquasecurity/trivy) | v0.44.0 | Find vulnerabilities, misconfigurations, secrets, SBOM in cont<br>ainers, Kubernetes, code repositories, clouds and more |
 #### 容器镜像扫描
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
@@ -594,6 +606,10 @@
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
 | [jexboss](https://github.com/joaomatosf/jexboss) |  | JexBoss: Jboss (and Java Deserialization Vulnerabilities) veri<br>fy and EXploitation Tool |
+#### vmware
+| 项目名称 | 版本 | 项目描述 |
+| :---- | :---- | :---- |
+| [Vm4J](https://github.com/NS-Sp4ce/Vm4J) |  | A tool for detect&exploit vmware product log4j(cve-2021-44228)<br> vulnerability.Support VMware HCX/vCenter/NSX/Horizon/vRealize <br>Operations Manager |
 #### log4j
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
@@ -759,10 +775,11 @@
 | [icmpsh](https://github.com/inquisb/icmpsh) |  |  |
 | [pingtunnel](https://github.com/esrrhs/pingtunnel) | 2.7 | Pingtunnel is a tool that send TCP/UDP traffic over ICMP |
 | [ngrok](https://github.com/inconshreveable/ngrok) |  | Introspected tunnels to localhost |
-| [goproxy](https://github.com/snail007/goproxy) | v13.4 | 🔥  Proxy is a high performance HTTP(S) proxies, SOCKS5 proxie<br>s,WEBSOCKET, TCP, UDP proxy server implemented by golang. Now, <br>it supports chain-style proxies,nat forwarding in different lan<br>,TCP/UDP port forwarding, SSH forwarding.Proxy是golang实现的高<br>性能http,https,websocket,tcp,socks5代理服务器,支持内网穿透,链式<br>代理,通讯加密,智能HTTP,SOCKS5代理,黑白名单,限速,限流量,限连接数,<br>跨平台,KCP支持,认证API。 |
+| [goproxy](https://github.com/snail007/goproxy) | v13.5 | 🔥  Proxy is a high performance HTTP(S) proxies, SOCKS5 proxie<br>s,WEBSOCKET, TCP, UDP proxy server implemented by golang. Now, <br>it supports chain-style proxies,nat forwarding in different lan<br>,TCP/UDP port forwarding, SSH forwarding.Proxy是golang实现的高<br>性能http,https,websocket,tcp,socks5代理服务器,支持内网穿透,链式<br>代理,通讯加密,智能HTTP,SOCKS5代理,黑白名单,限速,限流量,限连接数,<br>跨平台,KCP支持,认证API。 |
 ### 密码提取
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
+| [vhost_password_de<br>crypt](https://github.com/shmilylty/vhost_password_decrypt) |  | vhost password decrypt |
 | [mimikatz](https://github.com/gentilkiwi/mimikatz) | 2.2.0-2<br>0220919 | A little tool to play with Windows security |
 | [goLazagne](https://github.com/kerbyj/goLazagne) |  | Go library for credentials recovery  |
 | [win-brute-logon](https://github.com/DarkCoderSc/win-brute-logon) |  | Crack any Microsoft Windows users password without any privile<br>ge (Guest account included) |
@@ -861,6 +878,7 @@
 | [proxyServer](https://github.com/safe6Sec/proxyServer) | v1.0 | 本项目其实就是个简单的代理服务器，把代理池集成进来来了。 |
 | [proxy_pool](https://github.com/jhao104/proxy_pool) | 2.4.1 | Python爬虫代理IP池(proxy pool) |
 | [mubeng](https://github.com/kitabisa/mubeng) | v0.14.0 | An incredibly fast proxy checker & IP rotator with ease. |
+| [Venom-Transponder](https://github.com/z-bool/Venom-Transponder) |  | 毒液流量转发器：自动化捡洞/打点/跳板必备神器，支持联动URL爬虫<br>、各种被动扫描器。 |
 ### 工具集
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
@@ -1376,3 +1394,7 @@
 | :---- | :---- | :---- |
 | [dddd_trainer](https://github.com/sml2h3/dddd_trainer) |  | ddddocr训练工具 |
 | [Augmentor](https://github.com/mdbloice/Augmentor) |  | Image augmentation library in Python for machine learning. |
+## 安全思维脑图
+| 项目名称 | 版本 | 项目描述 |
+| :---- | :---- | :---- |
+| [HackerMind](https://github.com/Ascotbe/HackerMind) |  | 渗透步骤，web安全，CTF，业务安全，人工智能，区块链安全，数据安<br>全，安全开发，无线安全，社会工程学，二进制安全，移动安全，红蓝对<br>抗，运维安全，风控安全，linux安全 |
