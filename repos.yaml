@@ -261,6 +261,8 @@
                     - https://github.com/blackarrowsec/mssqlproxy
                 Oracle:
                     - https://github.com/quentinhardy/odat
+                postgresql:
+                    - https://github.com/No-Github/postgresql_udf_help
                 综合:
                     - https://github.com/SafeGroceryStore/MDUT
                     - https://github.com/1n7erface/RequestTemplate
