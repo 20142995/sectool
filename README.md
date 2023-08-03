@@ -1,8 +1,11 @@
-# 更新于 2023-08-02 08:42:04
+# 更新于 2023-08-03 08:42:24
 
 ## 近15天release更新记录
 | 更新时间 | 项目名称 | 版本 | 更新内容 |
 | :---- | :---- | :---- | :---- |
+|2023-08-02 17:00:47|[RedisEXP](https://github.com/yuyan-sec/RedisEXP)|0.0.3|修复服务器开启端口问题|
+|2023-08-02 13:39:17|[flightsim](https://github.com/alphasoc/flightsim)|v2.5.0|## Network Flight Simulator v2.5.0 (2<br>023-07-31)    This release add a new c<br>leartext module, which generates rando<br>m cleartext traffic on some common por<br>ts.    ## Enjoy!    |
+|2023-08-02 09:05:19|[arthas](https://github.com/alibaba/arthas)|arthas-<br>all-3.7.<br>0|Issues:  https://github.com/alibaba/a<br>rthas/milestone/48?closed=1    * https<br>://github.com/alibaba/arthas/issues/25<br>72  tunnel-server detail-pages 页面支<br>持自定义 port  * https://github.com/ali<br>baba/arthas/issues/2603 tunnel server <br>里的 SimpleHttpResponse 序列化增加白名<br>单|
 |2023-08-01 09:08:35|[trivy](https://github.com/aquasecurity/trivy)|v0.44.0|## ⚡Release highlights and summary⚡<br>    👉 https://github.com/aquasecurity<br>/trivy/discussions/4903    ## Changelo<br>g  * d19c7d9f2 feat(repo): support loc<br>al repositories (#4890)  * 3c1976187 b<br>ump go-dep-parser (#4893)  * e1c2a8c80<br> fix(misconf): add missing fields to p<br>roto (#4861)  * 8b8e0e83d fix: remove <br>trivy-db package replacement (#4877)  <br>* f9efe44fd chore(test): bump the inte<br>gration test timeout to 15m (#4880)  *<br> 7271d682f chore(deps): Update defsec <br>to v0.91.0 (#4886)  * c3bc67c89 chore:<br> update CODEOWNERS (#4871)  * 232ba823<br>e feat(vuln): support vulnerability st<br>atus (#4867)  * 11618c940 feat(misconf<br>): Support custom URLs for policy bund<br>le (#4834)  * 07075696d refactor: repl<br>ace with sortable packages (#4858)  * <br>fbe1c9eb1 docs: correct license scanni<br>ng sample command (#4855)  * 20c2246a6<br> fix(report): close the file (#4842)  <br>* 24a3e547d feat(nodejs): add support <br>for include-dev-deps flag for yarn (#4<br>812)  * a7bd7bb65 feat(misconf): Add s<br>upport for independently enabling libr<br>aries (#4070)  * 4aa9ea096 feat(secret<br>): add secret config file for cache ca<br>lculation (#4837)  * 5d349d814 Fix a l<br>ink in gitlab-ci.md (#4850)  * a61531c<br>1f fix(flag): use globalstar to skip d<br>irectories (#4854)  * 78cc20937 chore(<br>deps): bump github.com/docker/docker f<br>rom v23.0.5+incompatible to v23.0.7-0.<br>20230714215826-f00e7af96042+incompatib<br>le (#4849)  * 93996041b fix(license): <br>using common way for splitting license<br>s (#4434)  * 3e2416d77 fix(containerd)<br>: Use img platform in exporter instead<br> of strict host platform (#4477)  * ce<br>77bb46c remove govulndb (#4783)  * c05<br>caae43 fix(java): inherit licenses fro<br>m parents (#4817)  * aca11b95d refacto<br>r: add allowed values for CLI flags (#<br>4800)  * 4cecd17ea add example regex t<br>o allow rules (#4827)  * 4bc8d29c1 fea<br>t(misconf): Support custom data for re<br>go policies for cloud (#4745)  * 88243<br>a0ad docs: correcting the trivy k8s tu<br>torial (#4815)  * 3c7d988d7 feat(cli):<br> add --tf-exclude-downloaded-modules f<br>lag (#4810)  * fd0fd104f fix(sbom): cy<br>clonedx recommendations should include<br> fixed versions for each package (#479<br>4)  * d0d543b88 feat(misconf): enable <br>--policy flag to accept directory and <br>files both (#4777)  * b43a3e623 feat(p<br>ython): add license fields (#4722)  * <br>aef7b148a fix: support trivy k8s-versi<br>on on k8s sub-command (#4786)    |
 |2023-08-01 03:04:58|[goproxy](https://github.com/snail007/goproxy)|v13.5|1、认证API返回outgoing是一个网段不生<br>效的问题。|
 |2023-07-31 18:12:55|[grype](https://github.com/anchore/grype)|v0.65.0|# Changelog  ##  (2023-07-31)    ### <br>Added Features  - feat: implement seco<br>ndary sorting for default json output <br>] ] - Consistent sort order for grype <br>output ] ] ]  ### Bug Fixes  - Grype r<br>eading SPDX file with json output gets<br> UnknownScheme error ] - grype 0.64.0 <br>doesn't list vulnerabilties if --fail-<br>on fails ] ] ]  ### Additional Changes<br>  - chore: bump quality gate label dat<br>aset ] ]    |
@@ -32,22 +35,32 @@
 ## 近15天commit提交记录
 | 提交时间 | 项目名称 | 更新内容 |
 | :---- | :---- | :---- |
-|2023-08-02 00:30:15|[NucleiTP](https://github.com/ExpLangcn/NucleiTP)|更新啦❤️|
-|2023-08-02 00:00:03|[free](https://github.com/freefq/free)|updated_at 08-02 08:00|
-|2023-08-01 23:46:51|[Mobile-Security-F<br>ramework-MobSF](https://github.com/MobSF/Mobile-Security-Framework-MobSF)|HOTFIX: translate upstream proxy ip for docker|
-|2023-08-01 23:01:08|[PocOrExp_in_Githu<br>b](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-08-02 07:01:08|
-|2023-08-01 22:44:01|[neuvector](https://github.com/neuvector/neuvector)|Merge pull request #936 from williamlin-suse/main  <br>NVSHAS-7994: the Federation.Demote event could be mi<br>ssing after a cluster is demoted|
-|2023-08-01 21:19:49|[syft](https://github.com/anchore/syft)|feat: use originator logic to fill supplier (#1980)<br>  * feat: use Originator to fill supplier for NTIA m<br>inimum  ---------  Signed-off-by: Christopher Philli<br>ps |
+|2023-08-03 00:30:20|[NucleiTP](https://github.com/ExpLangcn/NucleiTP)|更新啦❤️|
+|2023-08-03 00:00:03|[free](https://github.com/freefq/free)|updated_at 08-03 08:00|
+|2023-08-02 23:13:09|[ChatGPT-Shortcut](https://github.com/rockbenben/ChatGPT-Shortcut)|feat: Display confirmation before deleting a commen<br>t.|
+|2023-08-02 23:01:09|[PocOrExp_in_Githu<br>b](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-08-03 07:01:09|
+|2023-08-02 20:02:49|[dbeaver](https://github.com/dbeaver/dbeaver)|23.1.4 config|
+|2023-08-02 19:55:04|[neuvector](https://github.com/neuvector/neuvector)|Merge pull request #896 from jayhuang-suse/eight  N<br>VSHAS-7949: suggest to not showing the sensitive inf<br>o in debug log|
+|2023-08-02 18:22:40|[naabu](https://github.com/projectdiscovery/naabu)|Revert "removing uncover"  This reverts commit d587<br>82fbb88e7669171b9d461444f416135e4b7b.|
+|2023-08-02 17:50:00|[FreeRDP](https://github.com/FreeRDP/FreeRDP)|[client,android] Fix keyboard ui issues Set inputTy<br>pe to system keyboard, otherwise keyboard can be ope<br>ned with last used input type (eg. numeric) Fix keyb<br>oard/modifiers panel opening, when keyboard stuck in<br> other app Hide zoom controls when keyboard is opene<br>d|
+|2023-08-02 17:26:01|[v2rayA](https://github.com/v2rayA/v2rayA)|feat: support reality|
+|2023-08-02 16:59:50|[RedisEXP](https://github.com/yuyan-sec/RedisEXP)|0.0.3|
+|2023-08-02 15:48:52|[trivy](https://github.com/aquasecurity/trivy)|test(aws): move part of unit tests to integration (<br>#4884)  * test(aws): move part of unit tests to inte<br>gration  * fix typo  * fix test  ---------  Co-autho<br>red-by: knqyf263 |
+|2023-08-02 15:18:13|[rustdesk](https://github.com/rustdesk/rustdesk)|Merge pull request #5236 from 21pages/ab  refactor <br>addressbook sync|
+|2023-08-02 14:28:35|[syft](https://github.com/anchore/syft)|chore: update bubbly to fix hanging (#1990)  Signed<br>-off-by: Keith Zantow |
+|2023-08-02 12:37:55|[v2rayfree](https://github.com/aiboboxx/v2rayfree)|update|
+|2023-08-02 11:03:44|[GobypassAV-shellc<br>ode](https://github.com/Pizz33/GobypassAV-shellcode)|Update README.md|
+|2023-08-02 09:04:20|[Viper](https://github.com/FunnyWolf/Viper)|Merge remote-tracking branch 'origin/master'|
+|2023-08-02 08:09:53|[arthas](https://github.com/alibaba/arthas)|upgrade bytekit to 0.0.9|
+|2023-08-02 07:51:15|[safeline](https://github.com/chaitin/safeline)|Merge pull request #190 from chaitin/website  feat:<br> new version of website|
+|2023-08-02 07:46:01|[Mobile-Security-F<br>ramework-MobSF](https://github.com/MobSF/Mobile-Security-Framework-MobSF)|Dynamic Analysis support alert (#2227)|
+|2023-08-02 05:57:09|[nemo_go](https://github.com/hanc00l/nemo_go)|Fix: subdomaincrawler define error|
+|2023-08-02 05:47:07|[afrog](https://github.com/zan8in/afrog)|update|
+|2023-08-02 03:11:35|[knife](https://github.com/bit4woo/knife)|新增2个功能菜单|
+|2023-08-02 02:10:03|[dperf](https://github.com/baidu/dperf)|Merge pull request #348 from pengjianzhang/main  op<br>timization: remove useless sockets outside lport_ran<br>ge|
 |2023-08-01 21:02:21|[RsaCtfTool](https://github.com/RsaCtfTool/RsaCtfTool)|Update classical_shor.py|
-|2023-08-01 17:34:40|[dbeaver](https://github.com/dbeaver/dbeaver)|#20724 use text execution plan for YellowBrick (#20<br>742)|
-|2023-08-01 15:35:34|[FreeRDP](https://github.com/FreeRDP/FreeRDP)|client/cliprdr_file: Tighten up data size check for<br> FILE_SIZE requests  FILECONTENTS_SIZE requests expl<br>icitly specify the size of 8 Bytes, so expect that t<br>here are no further fill Bytes used.|
-|2023-08-01 14:24:13|[rustdesk](https://github.com/rustdesk/rustdesk)|fix issue #5224|
-|2023-08-01 13:38:49|[ChatGPT-Shortcut](https://github.com/rockbenben/ChatGPT-Shortcut)|fix: Google login functionality|
-|2023-08-01 12:38:11|[v2rayfree](https://github.com/aiboboxx/v2rayfree)|update|
 |2023-08-01 09:45:20|[sqlmap](https://github.com/sqlmapproject/sqlmap)|Fixes #5479|
-|2023-08-01 08:43:37|[GobypassAV-shellc<br>ode](https://github.com/Pizz33/GobypassAV-shellcode)|Update README.md|
 |2023-08-01 07:16:41|[domain_hunter_pro](https://github.com/bit4woo/domain_hunter_pro)|update|
-|2023-08-01 06:32:59|[dperf](https://github.com/baidu/dperf)|Merge pull request #347 from CChuancey/main  Update<br> port.c|
 |2023-08-01 04:44:27|[veinmind-tools](https://github.com/chaitin/veinmind-tools)|replace ioutil.ReadAll to io.ReadAll (#262)|
 |2023-08-01 03:18:15|[Vulhub-Reproduce](https://github.com/Threekiii/Vulhub-Reproduce)|更新漏洞|
 |2023-08-01 03:02:00|[murphysec](https://github.com/murphysecurity/murphysec)|chore(deps): upgrade dependencies...|
@@ -58,8 +71,6 @@
 |2023-07-31 15:08:03|[impacket](https://github.com/fortra/impacket)|Fixed issue with a type in the final version|
 |2023-07-31 14:56:43|[PEASS-ng](https://github.com/carlospolop/PEASS-ng)|Merge pull request #375 from galoget/master  Fix ty<br>pos, grammar and spacing|
 |2023-07-31 13:16:02|[iDefender](https://github.com/wecooperate/iDefender)|update|
-|2023-07-31 11:27:36|[trivy](https://github.com/aquasecurity/trivy)|feat(repo): support local repositories (#4890)  * f<br>eat(repo): support local repositories  * fix tests  <br>* test: fix client/server tests  * docs: update  * t<br>est: add fs tests  * test: do not update golden file<br>s if overridden  * docs: remove a comment about fs d<br>eprecation|
-|2023-07-31 05:47:18|[afrog](https://github.com/zan8in/afrog)|update|
 |2023-07-31 03:58:14|[wmiexec-Pro](https://github.com/XiaoliChan/wmiexec-Pro)|Declaration|
 |2023-07-31 03:03:09|[404StarLink](https://github.com/knownsec/404StarLink)|weekly update at 2023-07-31|
 |2023-07-31 01:06:00|[DecoyMini](https://github.com/decoymini/DecoyMini)|Update README.md|
@@ -67,21 +78,17 @@
 |2023-07-30 15:18:14|[0day](https://github.com/helloexp/0day)|update Metabase CVE-2023-38646 RCE add logging func|
 |2023-07-30 13:34:04|[ENScan_GO](https://github.com/wgpsec/ENScan_GO)|Merge pull request #71 from ruishawn/master  fix: <br>修复日志输出format格式不对的问题|
 |2023-07-30 13:10:31|[WebGoat](https://github.com/WebGoat/WebGoat)|chore: bump com.diffplug.spotless:spotless-maven-pl<br>ugin from 2.33.0 to 2.38.0 (#1535)  * chore: bump co<br>m.diffplug.spotless:spotless-maven-plugin    Bumps  <br>from 2.33.0 to 2.38.0.  -   -     ---  updated-depen<br>dencies:  - dependency-name: com.diffplug.spotless:s<br>potless-maven-plugin    dependency-type: direct:prod<br>uction    update-type: version-update:semver-minor  <br>...    Signed-off-by: dependabot[bot]     * chore: f<br>ormat code    ---------    Signed-off-by: dependabot<br>[bot]   Co-authored-by: dependabot[bot]   Co-authore<br>d-by: Nanne Baars |
-|2023-07-30 09:42:46|[knife](https://github.com/bit4woo/knife)|Update FindUrlAndRequest.java|
 |2023-07-30 02:22:35|[SmsForwarder](https://github.com/pppscn/SmsForwarder)|新增：webParams 的 [receive_time] 标签支持自定义时<br>间格式 #327|
 |2023-07-30 00:23:57|[wappalyzergo](https://github.com/projectdiscovery/wappalyzergo)|Weekly fingerprints update [Sun Jul 30 00:23:57 UTC<br> 2023] :robot:|
-|2023-07-29 14:57:29|[nemo_go](https://github.com/hanc00l/nemo_go)|Update: crawler url for protocol|
 |2023-07-28 17:38:47|[vulhub](https://github.com/vulhub/vulhub)|Merge pull request #453 from vulhub/multiple-fixes <br> Multiple fixes|
 |2023-07-28 16:13:09|[nuclei](https://github.com/projectdiscovery/nuclei)|version update|
 |2023-07-28 09:12:45|[kube-bench](https://github.com/aquasecurity/kube-bench)|build(deps): bump golang from 1.20.4 to 1.20.6 (#14<br>75)  Bumps golang from 1.20.4 to 1.20.6.    ---  upd<br>ated-dependencies:  - dependency-name: golang    dep<br>endency-type: direct:production    update-type: vers<br>ion-update:semver-patch  ...    Signed-off-by: depen<br>dabot[bot]   Co-authored-by: dependabot[bot] |
 |2023-07-28 07:09:56|[ShiroAttack2](https://github.com/SummerSec/ShiroAttack2)|Create LICENSE|
 |2023-07-28 05:18:24|[fupo_for_yonyou](https://github.com/novysodope/fupo_for_yonyou)|2.0RC1更新  2.0RC1更新|
-|2023-07-28 02:26:53|[Viper](https://github.com/FunnyWolf/Viper)|Merge remote-tracking branch 'origin/master'|
 |2023-07-28 01:49:29|[captcha-killer-mo<br>dified](https://github.com/f0ng/captcha-killer-modified)|Update FAQ.md|
 |2023-07-27 19:24:10|[clair](https://github.com/quay/clair)|cmd: version for old gits  This also adds a workaro<br>und for actions/checkout#882 where the new tag get b<br>lasted away with a new, lightweight tag for the dura<br>tion of the run.  Signed-off-by: Hank Donnay |
 |2023-07-27 11:56:35|[codeql-cli-binari<br>es](https://github.com/github/codeql-cli-binaries)|Update CHANGELOG.md for 2.14.1 release|
 |2023-07-27 08:22:25|[autoDecoder](https://github.com/f0ng/autoDecoder)|Update FAQ.md|
-|2023-07-27 07:43:15|[safeline](https://github.com/chaitin/safeline)|feat: release v2.4.0|
 |2023-07-27 07:07:29|[Pentest-Windows](https://github.com/arch3rPro/Pentest-Windows)|Merge pull request #24 from mlzxgzy/main  方便有百<br>度云的兄弟们用百度云下载|
 |2023-07-27 05:42:33|[vulnerability](https://github.com/lal0ne/vulnerability)|CVE-2020-15778|
 |2023-07-27 01:16:00|[Vulnerability-Wik<br>i](https://github.com/Threekiii/Vulnerability-Wiki)|更新漏洞|
@@ -105,9 +112,7 @@
 |2023-07-21 01:37:09|[gshark](https://github.com/madneal/gshark)|Merge pull request #159 from madneal/dependabot/npm<br>_and_yarn/web/word-wrap-1.2.4  Bump word-wrap from 1<br>.2.3 to 1.2.4 in /web|
 |2023-07-20 16:57:20|[faker](https://github.com/joke2k/faker)|Bump version: 19.1.0 → 19.2.0|
 |2023-07-20 13:37:25|[all-in-one-v2](https://github.com/zaivanza/all-in-one-v2)|add to_chains|
-|2023-07-19 08:06:37|[Elkeid](https://github.com/bytedance/Elkeid)|Merge pull request #518 from Hackerl/main  add name<br>sapce mount tool|
-|2023-07-18 14:45:58|[awesome-chatgpt-z<br>h](https://github.com/yzfly/awesome-chatgpt-zh)|add gpt-runner|
-|2023-07-18 05:06:41|[dalfox](https://github.com/hahwul/dalfox)|Merge pull request #483 from hahwul/dependabot/go_m<br>odules/github.com/labstack/echo/v4-4.11.1  Bump gith<br>ub.com/labstack/echo/v4 from 4.10.2 to 4.11.1|## 所有项目
+|2023-07-19 08:06:37|[Elkeid](https://github.com/bytedance/Elkeid)|Merge pull request #518 from Hackerl/main  add name<br>sapce mount tool|## 所有项目
 # 渗透测试
 ## 信息收集
 ### 资产测绘采集
@@ -442,7 +447,7 @@
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
 | [redis-rogue-serve<br>r](https://github.com/n0b0dyCN/redis-rogue-server) |  | Redis(<=5.0.5) RCE |
-| [RedisEXP](https://github.com/yuyan-sec/RedisEXP) | 0.0.2 | Redis 漏洞利用工具 |
+| [RedisEXP](https://github.com/yuyan-sec/RedisEXP) | 0.0.3 | Redis 漏洞利用工具 |
 | [redis_rce](https://github.com/zyylhn/redis_rce) | v0.1.0 | Redis primary/secondary replication RCE |
 | [redis-rce](https://github.com/Ridter/redis-rce) |  | Redis 4.x/5.x RCE |
 | [redis-rogue-serve<br>r](https://github.com/Dliv3/redis-rogue-server) |  | Redis 4.x/5.x RCE |
@@ -455,6 +460,10 @@
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
 | [odat](https://github.com/quentinhardy/odat) | 5.1.1 | ODAT: Oracle Database Attacking Tool |
+##### postgresql
+| 项目名称 | 版本 | 项目描述 |
+| :---- | :---- | :---- |
+| [postgresql_udf_he<br>lp](https://github.com/No-Github/postgresql_udf_help) |  | PostgreSQL 提权辅助脚本 |
 ##### 综合
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
@@ -860,6 +869,7 @@
 | [PenetrationTestti<br>ps](https://github.com/CYJoe-Cyclone/PenetrationTesttips) |  | 渗透测试Tips - Version1.3 |
 | [Intranet_Penetrat<br>ion_Tips](https://github.com/Ridter/Intranet_Penetration_Tips) |  | 2018年初整理的一些内网渗透TIPS，后面更新的慢，所以整理出来希望<br>跟小伙伴们一起更新维护~ |
 | [Vuln-List](https://github.com/wwl012345/Vuln-List) |  | (持续更新)对网上出现的各种OA、中间件、CMS等漏洞进行整理，主要<br>包括漏洞介绍、漏洞影响版本以及漏洞POC/EXP等，并且会持续更新。 |
+| [1earn](https://github.com/ffffffff0x/1earn) |  | 暂停维护 | ffffffff0x 团队维护的安全知识框架,内容包括不仅限于 <br>web安全、工控安全、取证、应急、蓝队设施部署、后渗透、Linux安全<br>、各类靶机writup |
 ### 优秀项目集合
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
@@ -1217,7 +1227,7 @@
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
 | [shell-analyzer](https://github.com/4ra1n/shell-analyzer) | 0.1 | Java内存马查杀GUI工具，实时动态分析，支持本地和远程查杀 |
-| [arthas](https://github.com/alibaba/arthas) | arthas-<br>all-3.6.<br>9 | Alibaba Java Diagnostic Tool Arthas/Alibaba Java诊断利器Arthas |
+| [arthas](https://github.com/alibaba/arthas) | arthas-<br>all-3.7.<br>0 | Alibaba Java Diagnostic Tool Arthas/Alibaba Java诊断利器Arthas |
 | [DuckMemoryScan](https://github.com/huoji120/DuckMemoryScan) |  | 检测绝大部分所谓的内存免杀马 |
 | [java-memshell-sca<br>nner](https://github.com/c0ny1/java-memshell-scanner) |  | 通过jsp脚本扫描java web Filter/Servlet型内存马 |
 | [copagent](https://github.com/LandGrey/copagent) |  | java memory web shell extracting tool |
@@ -1270,7 +1280,7 @@
 | :---- | :---- | :---- |
 | [FreeRDP](https://github.com/FreeRDP/FreeRDP) | 2.10.0 | FreeRDP is a free remote desktop protocol library and clients |
 | [Quasar](https://github.com/quasar/Quasar) | v1.4.1 | Remote Administration Tool for Windows |
-| [rustdesk](https://github.com/rustdesk/rustdesk) | 1.2.1 | Virtual / remote desktop infrastructure for everyone! Open sou<br>rce TeamViewer / Citrix alternative. |
+| [rustdesk](https://github.com/rustdesk/rustdesk) | 1.2.1 | An open-source alternative to TeamViewer. |
 ## 生成虚假数据
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
@@ -1290,7 +1300,7 @@
 ## 恶意网络流量模拟
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
-| [flightsim](https://github.com/alphasoc/flightsim) | v2.4.0 | A utility to safely generate malicious network traffic pattern<br>s and evaluate controls. |
+| [flightsim](https://github.com/alphasoc/flightsim) | v2.5.0 | A utility to safely generate malicious network traffic pattern<br>s and evaluate controls. |
 ## 克隆声音
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
