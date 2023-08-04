@@ -1,8 +1,12 @@
-# 更新于 2023-08-03 08:42:24
+# 更新于 2023-08-04 08:42:38
 
 ## 近15天release更新记录
 | 更新时间 | 项目名称 | 版本 | 更新内容 |
 | :---- | :---- | :---- | :---- |
+|2023-08-03 17:36:40|[impacket](https://github.com/fortra/impacket)|impacke<br>t_0_11_0|## Impacket 0.11.0:  Project's main p<br>age at https://www.coresecurity.com/co<br>re-labs/open-source-tools/impacket    <br>ChangeLog for 0.11.0:  1. Library impr<br>ovements       * Added new Kerberos er<br>ror codes (@ly4k).   * Added , ,  and <br>:        * Added dc-host option to con<br>nect to specific KDC using its FQDN or<br> NetBIOS name (@rmaksimov and @0xdeadd<br>ood).      *         * Printing TGT in<br> stdout despite -outputfile parameter <br>(@alexisbalbachan and @Zamanry)       <br> * Fixed output hash format for AES128<br>/256 (etype 17/18) (@erasmusc)      * <br>:        * Added LDAP paged search (@T<br>hePirateWhoSmellsOfSunflowers and @SAE<br>RXCIT).        * Added a -stealth flag<br> to remove the SPN filter from the LDA<br>P query (@clavoillotte).        * Impr<br>oved searchFilter (@ShutdownRepo)     <br>   * Use LDAP paged search (@ThePirate<br>WhoSmellsOfSunflowers)      * :       <br> * Added support for name customizatio<br>n using a custom binary file (@Dramela<br>c).      * :        * Security fixes f<br>or privilege escalation vulnerabilitie<br>s (@bugch3ck).        * Fixed python3 <br>compatibility issues, added workaround<br> TCP over NetBIOS being disabled (@ljr<br>k0)      * :        * Added a new opti<br>on to extract only NTDS.DIT data for s<br>pecific users based on an LDAP filter <br>(@snovvcrash).        * Security fixes<br> for privilege escalation vulnerabilit<br>ies (@bugch3ck).        * :        * A<br>dded multiple new commands. Now suppor<br>ts xp_dirtree execution (@Mayfly277, @<br>trietend and @TurtleARM).      * :    <br>    * Added ability to trigger SQLShel<br>l when running ntlmrelayx in interacti<br>ve mode (@sploutchy).        * Added f<br>ilter option to the socks command in n<br>tlmrelayx CLI (@shoxxdj)        * Adde<br>d ability to register DNS records thro<br>ugh LDAP.      * , :        * Allow we<br>ak TLS ciphers for LDAP connections (@<br>AdrianVollmer)      * :        * Bette<br>r handling of various XML files in Gro<br>up Policy Preferences (@p0dalirius)   <br>   * :        * Added recursive file l<br>isting (@Sq00ky)      * :        * Tic<br>ket duration is now specified in hours<br> instead of days (@Dramelac)        * <br>Added extra-pac implementation (@Drame<br>lac)    3. New examples      *  Implem<br>entation of windows net.exe builtin to<br>ol (@NtAlexio2)      *  New example th<br>at allows password changing or resetin<br>g through multiple protocols (@Alef-Bu<br>rzmali, @snovvcrash, @bransh, @api0cra<br>dle and @p0dalirius)      *  New examp<br>le that dumps remote host information <br>in ntlm authentication model, without <br>credentials. For SMB protocols v1, v2 <br>and v3. (@NtAlexio2)        As always,<br> thanks a lot to all these contributor<br>s that make this library better every <br>day (up to now):    @ly4k @nopernik @s<br>novvcrash @ShutdownRepo @kiwids0220 @m<br>pgn @CT-H00K @rmaksimov @arossert @aev<br>y-syn @tirkarthi @p0dalirius @Dramelac<br> @Mayfly277 @S3cur3Th1sSh1t @nobbd @Ad<br>rianVollmer @trietend @TurtleARM @TheP<br>irateWhoSmellsOfSunflowers @SAERXCIT @<br>clavoillotte @Marshall-Hallenbeck @spl<br>outchy @almandin @rtpt-alexanderneuman<br>n @JerAxxxxxxx @NtAlexio2 @laxa @godyl<br>ockz @exploide @jojonas @Zamanry @eras<br>musc @bugch3ck @ljrk0 @Sq00ky @shoxxdj<br> @Alef-Burzmali @bransh @api0cradle @a<br>lexisbalbachan @0xdeaddood @sanmopre  |
+|2023-08-03 14:11:45|[nemo_go](https://github.com/hanc00l/nemo_go)|v2.10.0|### Updated    - 增加runtimelog数据库<br>表，worker的runtime日志通过RPC调用上传<br>并保存，在web增加日志查看和管理功能（需<br>要SuperAdmin权限），从v2.9升级需导入run<br>timelog.sql；  - 新增worker按任务功能<br>分别运行的模式（见安装手册）；  - 增加<br>根据工作空间对Worker进行自定义任务的实<br>现；  - 导出IP与Domain资产功能；  - 对F<br>ofa、quake及hunter的API增加查询限额； <br> - subfinder对子域名去除泛解析；  - wi<br>ndows平台的massdns使用和子域名爆破功能<br>（感谢github.com/penson233/TailorFinder<br>编译好二进制文件）    ### Fix    - quak<br>e查询API参数服务器调整导致无法正确搜索<br>结果；Fofa默认分页数与实际不一致导致的<br>重复调用API；  - subfinder v2.6.0异常退<br>出bug  - 导入离线扫描的gogo和fscan  - <br>域名一键拉黑的时候删除不彻底  -  XScan<br>任务的XOrganization直接调用数据库查询IP<br>和Domain资产的Bug    ### Thirdparty版本<br>    - Httpx：1.3.4  - Subfinder：2.6.1<br>  - Nuclei：2.9.10  - Observe_ward：20<br>23.8.3|
+|2023-08-03 10:18:28|[safeline](https://github.com/chaitin/safeline)|v2.5.0|### 新增    - 请求频率限制（）    ###<br> 优化    - 支持筛选攻击检测日志的 ID（<br>），优化筛选的交互  - 证书支持 .cer 格<br>式（）  - 优化人机校验页面，适配移动端<br>（）  - 界面增加一些配置提示：添加站点<br>时 “域名” 的格式、黑白名单/人机验证中<br>匹配条件的生效逻辑|
+|2023-08-03 05:06:15|[ObserverWard](https://github.com/0x727/ObserverWard)|v2023.8<br>.3|## [2023.8.3] - 2023.8.3  ### Fixes  <br>- 添加字段：extracted-results|
 |2023-08-02 17:00:47|[RedisEXP](https://github.com/yuyan-sec/RedisEXP)|0.0.3|修复服务器开启端口问题|
 |2023-08-02 13:39:17|[flightsim](https://github.com/alphasoc/flightsim)|v2.5.0|## Network Flight Simulator v2.5.0 (2<br>023-07-31)    This release add a new c<br>leartext module, which generates rando<br>m cleartext traffic on some common por<br>ts.    ## Enjoy!    |
 |2023-08-02 09:05:19|[arthas](https://github.com/alibaba/arthas)|arthas-<br>all-3.7.<br>0|Issues:  https://github.com/alibaba/a<br>rthas/milestone/48?closed=1    * https<br>://github.com/alibaba/arthas/issues/25<br>72  tunnel-server detail-pages 页面支<br>持自定义 port  * https://github.com/ali<br>baba/arthas/issues/2603 tunnel server <br>里的 SimpleHttpResponse 序列化增加白名<br>单|
@@ -18,7 +22,6 @@
 |2023-07-28 05:17:15|[fupo_for_yonyou](https://github.com/novysodope/fupo_for_yonyou)|2.0RC1|建议如果出现跟 #7 一样的问题再用这个<br>版本 |
 |2023-07-27 21:17:12|[clair](https://github.com/quay/clair)|v4.7.0| ## : enable mutex, blocking profiles<br> by default ### Build(Deps) - : bump g<br>olang.org/x/net from 0.11.0 to 0.12.0 <br>- : bump github.com/klauspost/compress<br> from 1.16.6 to 1.16.7 ### Chore - : b<br>ump claircore to v1.5.13 - : Bump clai<br>rcore to v1.5.12 - : Bump claircore to<br> v1.5.11 - : Bump claircore to v1.5.10<br> - : bump Claircore to v1.5.9 - : add <br>pyroscope to compose setup - : Update <br>outdated docs and comment with default<br> update period. - : remove refs to dep<br>recated io/ioutil - : Remove dogstatsd<br> variable and references ### Clairctl <br>- : Add post 4.7 admin command to dele<br>te pyupio vulns - : Scan the pointer t<br>o the pointer of the bool - : Add log <br>line signifying admin is done - : Remo<br>ve DSN logging - : admin subcommand ##<br># Cmd - : version for old gits  -  ###<br> Config - : pick a real versioning sch<br>eme ### Contrib - : Add manifest for a<br> Job to run DB jobs ### Docs - : Fix u<br>p debug tools table - : Add descriptio<br>n of debugging services available duri<br>ng local-dev ### Httptransport - : add<br> request ID to profiler labels ### Int<br>rospection - : add delta pprof endpoin<br>ts  [Unreleased]: https://github.com/q<br>uay/clair/compare/v4.7.0...HEAD [v4.7.<br>0]: https://github.com/quay/clair/comp<br>are/v4.7.0-rc.1...v4.7.0 |
 |2023-07-27 12:30:53|[codeql-cli-binari<br>es](https://github.com/github/codeql-cli-binaries)|v2.14.1|- There are no user-facing changes in<br> this release.    For more information<br> about the changes included in this re<br>lease, see the .    You can download _<br>either_ the codeql-PLATFORM.zip for yo<br>ur platform, _or_ the generic codeql.z<br>ip which contains binaries for all sup<br>ported platforms. Please ignore the ad<br>ditional "source code" downloads below<br> the .zip artifacts.    This release i<br>s compatible with the CodeQL language <br>packs from .  |
-|2023-07-27 08:17:28|[safeline](https://github.com/chaitin/safeline)|v2.4.0|### 新增    - IP 组支持注释     ### <br>优化    - 优化编辑 IP 组和相关规则时的<br>性能  - 优化一些界面 UI 交互细节|
 |2023-07-26 21:22:17|[pocsuite3](https://github.com/knownsec/pocsuite3)|v2.0.5|* 修复 urllib3 更新导致 requests hook<br> 失效的问题 #368 #373   * 优化 DSL 表<br>达式执行 #372  * 将 mmh3 设置为可选依赖<br> #359   * 优化检查更新    ---    * fix<br> hook failure due to urllib3 update #3<br>68 #373  * optimize DSL expression exe<br>cution #372  * making mmh3 an optional<br> dependency #359  * disable mandatory <br>updates  |
 |2023-07-26 06:26:19|[veinmind-tools](https://github.com/chaitin/veinmind-tools)|v2.1.5|## 🔥 Feature  * feat(veinmind-trace)<br>: add veinmind-trace plugin for detect<br>ing attack trace in container  by @DVK<br>union in #253   * feat(veinmind-backdo<br>or): refactor backdoor go plugin  by @<br>ek1ng in #252   * feat(veinmind-backdo<br>or): add rootkit scan by @l2yyd5 in #2<br>56     ## 📒 Others  * chore(veinmind-<br>backdoor): disabled python plugin and <br>instead of go plugin by @DVKunion in #<br>257   * chore(libveinmind): update lib<br>veinmind 1.9.42 by @DVKunion in #258  <br>   ## 🎉 New Contributors  * @l2yyd5 m<br>ade their first contribution in #256  <br>   **Full Changelog**: https://github.<br>com/chaitin/veinmind-tools/compare/v2.<br>1.4...v2.1.5|
 |2023-07-25 13:45:26|[frp](https://github.com/fatedier/frp)|v0.51.2|### Features  * Adds a completion com<br>mand for shell completions.  ### Fixes<br>  * fix a goroutine leak issue caused <br>by Login plugin timeout. * Fix an issu<br>e introduced in version 0.51.1, enabli<br>ng use_compression will cause some req<br>uests to fail.  |
@@ -28,49 +31,53 @@
 |2023-07-23 10:11:32|[subfinder](https://github.com/projectdiscovery/subfinder)|v2.6.1|    ## What's Changed  ### 🐞 Bug Fix<br>es  * Fixed panic issue with digitorus<br> source by @dogancanbakir in https://g<br>ithub.com/projectdiscovery/subfinder/p<br>ull/882  * Fixed issue parsing result <br>from securitytrails by @ehsandeep in h<br>ttps://github.com/projectdiscovery/sub<br>finder/pull/902    ### 🔨 Maintenance <br> * Removed additional -U of apk in Doc<br>kerfile by @PeterDaveHello in https://<br>github.com/projectdiscovery/subfinder/<br>pull/886    ## New Contributors  * @Pe<br>terDaveHello made their first contribu<br>tion in https://github.com/projectdisc<br>overy/subfinder/pull/886    **Full Cha<br>ngelog**: https://github.com/projectdi<br>scovery/subfinder/compare/v2.6.0...v2.<br>6.1|
 |2023-07-22 11:58:12|[ENScan_GO](https://github.com/wgpsec/ENScan_GO)|0.0.14|配置文件更新升级到v0.4 请重新生成    <br>1. 修复TYC查询BUG，增加tycid参数，获取<br>方式详见README #69 #68  2. 修复qimai查<br>询问题 #67    若ENSCAN无法正常访问网站<br>可尝试挂上代理 -proxy http://127.0.0.1:<br>8080 （burp）  若查询还是有问题可开启d<br>ebug模式 --debug 查看报错内容    MD5 <br>校验  find . -type f -print0 | xargs -0<br> md5sum > md5.txt    e389bc9a479e7a730<br>a41c5dbe1b5aaaf  enscan-0.0.14-linux-3<br>86  7e797567c70931ebd6fad5f31be4f379  <br>enscan-0.0.14-darwin-amd64  977696e650<br>20c0970fc97a81377e5178  enscan-0.0.14-<br>linux-amd64  700a501f3994d2ed61fa4ff18<br>909f466  enscan-0.0.14-linux-arm64  80<br>4d658daa9c06eef5dfad83aac413cc  enscan<br>-0.0.14-darwin-arm64  a411a1f0bee1e3b9<br>ab5354e13d119b40  enscan-0.0.14-window<br>s-amd64.exe  0b4056ec65b53f4162d581eee<br>48e2cf8  enscan-0.0.14-linux-arm  |
 |2023-07-22 08:40:18|[wmiexec-Pro](https://github.com/XiaoliChan/wmiexec-Pro)|v0.2.6|### Changelog:  - Bugs fixed in exec-<br>command|
-|2023-07-21 02:33:21|[ObserverWard](https://github.com/0x727/ObserverWard)|v2023.7<br>.21|## [2023.7.21] - 2023.7.21  ### Fixes<br>  - --gen参数可以配合--yaml参数将指定y<br>aml目录中的全部yaml指纹规则生成单个jso<br>n文件，主要方便自定义指纹，生成便携单<br>文件。 - /home/kali-team/IdeaProjects/F<br>ingerprintHub/web_fingerprint是存放yam<br>l的目录，web_fingerprint_v3.json是生成<br>的文件路径。  bash ➜  ~ ./observer_war<br>d --yaml /home/kali-team/IdeaProjects/<br>FingerprintHub/web_fingerprint --gen w<br>eb_fingerprint_v3.json ➜  ~ jq length<br> web_fingerprint_v3.json 3448  - 添加<br>如果本地没有指纹库，会自动更新指纹。防<br>止跑完发现没有下载指纹，白跑了目标。|
 |2023-07-20 16:57:57|[faker](https://github.com/joke2k/faker)|v19.2.0|See .|
-|2023-07-19 08:35:01|[Elkeid](https://github.com/bytedance/Elkeid)|rasp-v2<br>.2.0.7-p<br>re||
-|2023-07-19 02:37:26|[iDefender](https://github.com/wecooperate/iDefender)|2.9.0|### 2.9.0.0    - 更新iMonitorSDK到最<br>新版本    - 添加监控扩展，允许自定义的<br>监控接入规则引擎      - 添加弹窗监控支<br>持      - 通配符支持       软件下载   |
 ## 近15天commit提交记录
 | 提交时间 | 项目名称 | 更新内容 |
 | :---- | :---- | :---- |
-|2023-08-03 00:30:20|[NucleiTP](https://github.com/ExpLangcn/NucleiTP)|更新啦❤️|
-|2023-08-03 00:00:03|[free](https://github.com/freefq/free)|updated_at 08-03 08:00|
+|2023-08-04 00:00:02|[free](https://github.com/freefq/free)|updated_at 08-04 08:00|
+|2023-08-03 23:23:50|[syft](https://github.com/anchore/syft)|fix: update glob to use newer usr/lib/sysimage path<br> (#1997)  See this link for details on the path migr<br>ation for the rpmdb  https://fedoraproject.org/wiki/<br>Changes/RelocateRPMToUsr    Signed-off-by: Christoph<br>er Phillips |
+|2023-08-03 23:01:30|[nemo_go](https://github.com/hanc00l/nemo_go)|Fix: nemo_vps.png|
+|2023-08-03 23:01:01|[PocOrExp_in_Githu<br>b](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-08-04 07:01:01|
+|2023-08-03 22:30:16|[NucleiTP](https://github.com/ExpLangcn/NucleiTP)|更新啦❤️|
+|2023-08-03 21:28:37|[grype](https://github.com/anchore/grype)|fix: some hang conditions (#1414)  Signed-off-by: K<br>eith Zantow |
+|2023-08-03 20:29:31|[RsaCtfTool](https://github.com/RsaCtfTool/RsaCtfTool)|Fix Issue #426|
+|2023-08-03 17:40:57|[impacket](https://github.com/fortra/impacket)|Update setup.py|
+|2023-08-03 17:13:34|[dbeaver](https://github.com/dbeaver/dbeaver)|#20777 Sync "Show virtual model editor" with active<br> navigator view mode (#20791)|
+|2023-08-03 15:55:49|[FreeRDP](https://github.com/FreeRDP/FreeRDP)|[client,common] Fix minor code errors  cctx->contac<br>ts -> cctx->pens|
+|2023-08-03 15:32:39|[iDefender](https://github.com/wecooperate/iDefender)|update|
+|2023-08-03 14:06:31|[rustdesk](https://github.com/rustdesk/rustdesk)|Merge branch 'master' of github.com-rustdesk:rustde<br>sk/rustdesk|
+|2023-08-03 13:55:32|[AsamF](https://github.com/Kento-Sec/AsamF)|Update README.md|
+|2023-08-03 13:29:34|[PEASS-ng](https://github.com/carlospolop/PEASS-ng)|Merge pull request #378 from Mateodevv/master  Fixe<br>d Typo in Readme for linPEASS|
+|2023-08-03 13:07:12|[trivy](https://github.com/aquasecurity/trivy)|chore(deps): bump github.com/openvex/go-vex from 0.<br>2.0 to 0.2.1 (#4914)  Bumps  from 0.2.0 to 0.2.1. - <br> -   --- updated-dependencies: - dependency-name: gi<br>thub.com/openvex/go-vex   dependency-type: direct:pr<br>oduction   update-type: version-update:semver-patch <br>...  Signed-off-by: dependabot[bot]  Co-authored-by:<br> dependabot[bot] |
+|2023-08-03 12:38:17|[v2rayfree](https://github.com/aiboboxx/v2rayfree)|update|
+|2023-08-03 11:53:20|[RmTools](https://github.com/RoomaSec/RmTools)|支持ioc扫描|
+|2023-08-03 10:22:57|[safeline](https://github.com/chaitin/safeline)|feat: remove dup info of offline upgrade|
+|2023-08-03 09:37:48|[Awesome-Redteam](https://github.com/Threekiii/Awesome-Redteam)|更新README.md|
+|2023-08-03 08:37:07|[Log4j2Scan](https://github.com/whwlsfb/Log4j2Scan)|fix dig.pm backed. #62|
+|2023-08-03 08:19:04|[vulnerability](https://github.com/lal0ne/vulnerability)|CVE-2017-12617|
+|2023-08-03 07:17:17|[Vulnerability-Wik<br>i](https://github.com/Threekiii/Vulnerability-Wiki)|更新漏洞|
+|2023-08-03 07:07:36|[Vulhub-Reproduce](https://github.com/Threekiii/Vulhub-Reproduce)|更新漏洞|
+|2023-08-03 05:13:22|[neuvector](https://github.com/neuvector/neuvector)|Merge pull request #917 from jayhuang-suse/nine  NV<br>SHAS-8170: Auto profile collection feature to captur<br>e profile data at the maximum memory|
+|2023-08-03 05:05:33|[ObserverWard](https://github.com/0x727/ObserverWard)|extracted-results|
+|2023-08-03 04:55:58|[v2rayA](https://github.com/v2rayA/v2rayA)|Update after_upgrade.sh|
+|2023-08-03 04:37:38|[GobypassAV-shellc<br>ode](https://github.com/Pizz33/GobypassAV-shellcode)|Update README.md|
+|2023-08-03 00:54:06|[Awesome-POC](https://github.com/Threekiii/Awesome-POC)|更新漏洞|
 |2023-08-02 23:13:09|[ChatGPT-Shortcut](https://github.com/rockbenben/ChatGPT-Shortcut)|feat: Display confirmation before deleting a commen<br>t.|
-|2023-08-02 23:01:09|[PocOrExp_in_Githu<br>b](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-08-03 07:01:09|
-|2023-08-02 20:02:49|[dbeaver](https://github.com/dbeaver/dbeaver)|23.1.4 config|
-|2023-08-02 19:55:04|[neuvector](https://github.com/neuvector/neuvector)|Merge pull request #896 from jayhuang-suse/eight  N<br>VSHAS-7949: suggest to not showing the sensitive inf<br>o in debug log|
 |2023-08-02 18:22:40|[naabu](https://github.com/projectdiscovery/naabu)|Revert "removing uncover"  This reverts commit d587<br>82fbb88e7669171b9d461444f416135e4b7b.|
-|2023-08-02 17:50:00|[FreeRDP](https://github.com/FreeRDP/FreeRDP)|[client,android] Fix keyboard ui issues Set inputTy<br>pe to system keyboard, otherwise keyboard can be ope<br>ned with last used input type (eg. numeric) Fix keyb<br>oard/modifiers panel opening, when keyboard stuck in<br> other app Hide zoom controls when keyboard is opene<br>d|
-|2023-08-02 17:26:01|[v2rayA](https://github.com/v2rayA/v2rayA)|feat: support reality|
 |2023-08-02 16:59:50|[RedisEXP](https://github.com/yuyan-sec/RedisEXP)|0.0.3|
-|2023-08-02 15:48:52|[trivy](https://github.com/aquasecurity/trivy)|test(aws): move part of unit tests to integration (<br>#4884)  * test(aws): move part of unit tests to inte<br>gration  * fix typo  * fix test  ---------  Co-autho<br>red-by: knqyf263 |
-|2023-08-02 15:18:13|[rustdesk](https://github.com/rustdesk/rustdesk)|Merge pull request #5236 from 21pages/ab  refactor <br>addressbook sync|
-|2023-08-02 14:28:35|[syft](https://github.com/anchore/syft)|chore: update bubbly to fix hanging (#1990)  Signed<br>-off-by: Keith Zantow |
-|2023-08-02 12:37:55|[v2rayfree](https://github.com/aiboboxx/v2rayfree)|update|
-|2023-08-02 11:03:44|[GobypassAV-shellc<br>ode](https://github.com/Pizz33/GobypassAV-shellcode)|Update README.md|
 |2023-08-02 09:04:20|[Viper](https://github.com/FunnyWolf/Viper)|Merge remote-tracking branch 'origin/master'|
 |2023-08-02 08:09:53|[arthas](https://github.com/alibaba/arthas)|upgrade bytekit to 0.0.9|
-|2023-08-02 07:51:15|[safeline](https://github.com/chaitin/safeline)|Merge pull request #190 from chaitin/website  feat:<br> new version of website|
 |2023-08-02 07:46:01|[Mobile-Security-F<br>ramework-MobSF](https://github.com/MobSF/Mobile-Security-Framework-MobSF)|Dynamic Analysis support alert (#2227)|
-|2023-08-02 05:57:09|[nemo_go](https://github.com/hanc00l/nemo_go)|Fix: subdomaincrawler define error|
 |2023-08-02 05:47:07|[afrog](https://github.com/zan8in/afrog)|update|
 |2023-08-02 03:11:35|[knife](https://github.com/bit4woo/knife)|新增2个功能菜单|
 |2023-08-02 02:10:03|[dperf](https://github.com/baidu/dperf)|Merge pull request #348 from pengjianzhang/main  op<br>timization: remove useless sockets outside lport_ran<br>ge|
-|2023-08-01 21:02:21|[RsaCtfTool](https://github.com/RsaCtfTool/RsaCtfTool)|Update classical_shor.py|
 |2023-08-01 09:45:20|[sqlmap](https://github.com/sqlmapproject/sqlmap)|Fixes #5479|
 |2023-08-01 07:16:41|[domain_hunter_pro](https://github.com/bit4woo/domain_hunter_pro)|update|
 |2023-08-01 04:44:27|[veinmind-tools](https://github.com/chaitin/veinmind-tools)|replace ioutil.ReadAll to io.ReadAll (#262)|
-|2023-08-01 03:18:15|[Vulhub-Reproduce](https://github.com/Threekiii/Vulhub-Reproduce)|更新漏洞|
 |2023-08-01 03:02:00|[murphysec](https://github.com/murphysecurity/murphysec)|chore(deps): upgrade dependencies...|
 |2023-08-01 02:53:22|[goproxy](https://github.com/snail007/goproxy)|update|
-|2023-08-01 00:58:28|[Awesome-Redteam](https://github.com/Threekiii/Awesome-Redteam)|更新README.md|
-|2023-07-31 17:58:36|[grype](https://github.com/anchore/grype)|chore(deps): update Syft to v0.86.1 (#1410)  * chor<br>e(deps): update Syft to v0.86.0    Signed-off-by: Gi<br>tHub     * fix python package metadata shape    Sign<br>ed-off-by: Alex Goodman     * account for new metada<br>tas added in syft    Signed-off-by: Alex Goodman    <br> * bump syft to unreleased but fixed version    Sign<br>ed-off-by: Alex Goodman     ---------    Signed-off-<br>by: GitHub   Signed-off-by: Alex Goodman   Co-author<br>ed-by: wagoodman |
 |2023-07-31 15:27:39|[flightsim](https://github.com/alphasoc/flightsim)|Pick random hosts if returned more than requested|
-|2023-07-31 15:08:03|[impacket](https://github.com/fortra/impacket)|Fixed issue with a type in the final version|
-|2023-07-31 14:56:43|[PEASS-ng](https://github.com/carlospolop/PEASS-ng)|Merge pull request #375 from galoget/master  Fix ty<br>pos, grammar and spacing|
-|2023-07-31 13:16:02|[iDefender](https://github.com/wecooperate/iDefender)|update|
 |2023-07-31 03:58:14|[wmiexec-Pro](https://github.com/XiaoliChan/wmiexec-Pro)|Declaration|
 |2023-07-31 03:03:09|[404StarLink](https://github.com/knownsec/404StarLink)|weekly update at 2023-07-31|
 |2023-07-31 01:06:00|[DecoyMini](https://github.com/decoymini/DecoyMini)|Update README.md|
@@ -90,29 +97,23 @@
 |2023-07-27 11:56:35|[codeql-cli-binari<br>es](https://github.com/github/codeql-cli-binaries)|Update CHANGELOG.md for 2.14.1 release|
 |2023-07-27 08:22:25|[autoDecoder](https://github.com/f0ng/autoDecoder)|Update FAQ.md|
 |2023-07-27 07:07:29|[Pentest-Windows](https://github.com/arch3rPro/Pentest-Windows)|Merge pull request #24 from mlzxgzy/main  方便有百<br>度云的兄弟们用百度云下载|
-|2023-07-27 05:42:33|[vulnerability](https://github.com/lal0ne/vulnerability)|CVE-2020-15778|
-|2023-07-27 01:16:00|[Vulnerability-Wik<br>i](https://github.com/Threekiii/Vulnerability-Wiki)|更新漏洞|
 |2023-07-26 21:18:59|[pocsuite3](https://github.com/knownsec/pocsuite3)|Merge pull request #375 from 13ph03nix/fix/urllib3-<br>hook  Bug fixes & improvements|
 |2023-07-26 15:55:47|[Stowaway](https://github.com/ph4ntonn/Stowaway)|Fix preauth|
 |2023-07-26 14:58:46|[BloodHound](https://github.com/BloodHoundAD/BloodHound)|Merge pull request #687 from ShutdownRepo/patch-1  <br>Fixing LinuxAbuse.jsx dacledit.py DCSync command|
 |2023-07-25 13:35:20|[0_zone_tool](https://github.com/wkend/0_zone_tool)|Update 0_zone.py|
 |2023-07-25 13:31:26|[frp](https://github.com/fatedier/frp)|fix incorrect use of snappy pool (#3549)|
-|2023-07-25 09:19:35|[Awesome-POC](https://github.com/Threekiii/Awesome-POC)|更新漏洞|
 |2023-07-25 03:27:55|[Scanners-Box](https://github.com/We5ter/Scanners-Box)|Add the 1st sponsor @Albert, thanks, my friend.|
 |2023-07-23 10:01:35|[subfinder](https://github.com/projectdiscovery/subfinder)|added dep auto merge workflow|
 |2023-07-23 05:05:26|[SharpWxDump](https://github.com/AdminTest0/SharpWxDump)|Update README.md|
 |2023-07-22 18:36:45|[rengine](https://github.com/yogeshojha/rengine)|remove redundant env vars|
 |2023-07-22 13:58:46|[superSearchPlus](https://github.com/dark-kingA/superSearchPlus)|1.优化ui以及bug 2.默认将扫描端口 使用fofa-host|
 |2023-07-22 07:09:52|[Search_Viewer](https://github.com/G3et/Search_Viewer)|Update LICENSE|
-|2023-07-22 05:15:02|[RmTools](https://github.com/RoomaSec/RmTools)|Merge branch 'main' of https://github.com/RoomaSec/<br>RmTools|
 |2023-07-22 02:03:42|[Fvuln](https://github.com/d3ckx1/Fvuln)|Update README.md|
 |2023-07-21 09:35:24|[heapdump_tool](https://github.com/wyzxxz/heapdump_tool)|Update README.md|
 |2023-07-21 04:27:37|[Burp-Non-HTTP-Ext<br>ension](https://github.com/summitt/Burp-Non-HTTP-Extension)|Update README.md|
-|2023-07-21 02:31:53|[ObserverWard](https://github.com/0x727/ObserverWard)|自动更新指纹，添加生成json格式指纹库参数|
 |2023-07-21 01:37:09|[gshark](https://github.com/madneal/gshark)|Merge pull request #159 from madneal/dependabot/npm<br>_and_yarn/web/word-wrap-1.2.4  Bump word-wrap from 1<br>.2.3 to 1.2.4 in /web|
 |2023-07-20 16:57:20|[faker](https://github.com/joke2k/faker)|Bump version: 19.1.0 → 19.2.0|
-|2023-07-20 13:37:25|[all-in-one-v2](https://github.com/zaivanza/all-in-one-v2)|add to_chains|
-|2023-07-19 08:06:37|[Elkeid](https://github.com/bytedance/Elkeid)|Merge pull request #518 from Hackerl/main  add name<br>sapce mount tool|## 所有项目
+|2023-07-20 13:37:25|[all-in-one-v2](https://github.com/zaivanza/all-in-one-v2)|add to_chains|## 所有项目
 # 渗透测试
 ## 信息收集
 ### 资产测绘采集
@@ -120,7 +121,7 @@
 | :---- | :---- | :---- |
 | [InfoSearchAll](https://github.com/ExpLangcn/InfoSearchAll) | V1.2 | 为了方便安全从业人员在使用网络测绘平台进行信息搜集时的效率，本<br>程序集合了多个网络测绘平台，可以快速在多个网络测绘平台搜索信息并<br>且合并展示及导出。 |
 | [ThunderSearch](https://github.com/xzajyjs/ThunderSearch) | v2.3.3 | 【支持Fofa、Zoomeye、Quake等网络空间搜索引擎】闪电搜索器；GUI<br>图形化渗透测试信息搜集工具；资产搜集引擎 |
-| [Search_Viewer](https://github.com/G3et/Search_Viewer) | v3.0 | 集Fofa、Hunter鹰图、Shodan、360 quake、Zoomeye 钟馗之眼、censy<br>s 为一体的gui图形界面化工具 |
+| [Search_Viewer](https://github.com/G3et/Search_Viewer) | v3.0 | 集Fofa、Hunter鹰图、Shodan、360 quake、Zoomeye 钟馗之眼、censy<br>s 为一体的空间测绘gui图形界面化工具，支持一键采集爬取和导出fofa<br>、shodan等数据，方便快捷查看 |
 | [koko-moni](https://github.com/burpheart/koko-moni) | v0.0.1 | 一个网络空间搜索引擎监控平台，可定时进行资产信息爬取，及时发现<br>新增资产，本项目聚合了 Fofa、Hunter、Quake、Zoomeye 和 Threatboo<br>k 的数据源，并对获取到的数据进行去重与清洗 |
 | [AsamF](https://github.com/Kento-Sec/AsamF) | v0.2.5 | AsamF是集成Fofa、Quake、Hunter、Shodan、Zoomeye、Chinaz、0.zon<br>e及爱企查的一站式企业信息资产收集、网络资产测绘工具。 |
 | [fshzqSearch](https://github.com/Ifory885/fshzqSearch) |  |  |
@@ -170,7 +171,7 @@
 | [LazyDog](https://github.com/L10nK1n6/LazyDog) | 1.1 | LazyDog是一款通过网络空间测绘引擎读取资产并进行指纹识别的工具 |
 | [whatweb-plus](https://github.com/winezer0/whatweb-plus) | v0.5.5.<br>19.fix | whatweb 增强版  8000+插件（提供windows可执行文件） |
 | [Find-SomeThing](https://github.com/LittleBear4/Find-SomeThing) |  | 红队批量脆弱点搜集工具 |
-| [ObserverWard](https://github.com/0x727/ObserverWard) | v2023.7<br>.21 | Cross platform community web fingerprint identification tool |
+| [ObserverWard](https://github.com/0x727/ObserverWard) | v2023.8<br>.3 | Cross platform community web fingerprint identification tool |
 ### WAF识别
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
@@ -198,7 +199,7 @@
 | [X-Marshal](https://github.com/XTeam-Wing/X-Marshal) |  | Marshal-EASM |
 | [heartsk_community](https://github.com/yqcs/heartsk_community) | LOWBUG@<br>Latest | Hearts K-企业资产发现与脆弱性检查工具，自动化资产信息收集与漏<br>洞扫描 |
 | [AnScan](https://github.com/Arbor01/AnScan) |  | AnScan是一款集合信息收集、分布式漏洞扫描、漏洞POC管理等为一体<br>的红队扫描工具 |
-| [nemo_go](https://github.com/hanc00l/nemo_go) | v2.9.4 | Nemo是用来进行自动化信息收集的一个简单平台，通过集成常用的信息<br>收集工具和技术，实现对内网及互联网资产信息的自动收集，提高隐患排<br>查和渗透测试的工作效率。 |
+| [nemo_go](https://github.com/hanc00l/nemo_go) | v2.10.0 | Nemo是用来进行自动化信息收集的一个简单平台，通过集成常用的信息<br>收集工具和技术，实现对内网及互联网资产信息的自动收集，提高隐患排<br>查和渗透测试的工作效率。 |
 | [rengine](https://github.com/yogeshojha/rengine) | v1.3.6 | reNgine is an automated reconnaissance framework for web appli<br>cations with a focus on highly configurable streamlined recon p<br>rocess via Engines, recon data correlation and organization, co<br>ntinuous monitoring, backed by a database, and simple yet intui<br>tive User Interface. reNgine makes it easy for penetration test<br>ers to gather reconnaissance with minimal configuration and wit<br>h the help of reNgine's correlation, it just makes recon effort<br>less. |
 | [ShuiZe_0x727](https://github.com/0x727/ShuiZe_0x727) | v1.0 | 信息收集自动化工具 |
 | [DBJ](https://github.com/wgpsec/DBJ) |  | 大宝剑-边界资产梳理工具（红队、蓝队、企业组织架构、子域名、Web<br>资产梳理、Web指纹识别、ICON_Hash资产匹配） |
@@ -674,7 +675,7 @@
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
 | [bylibrary](https://github.com/BaizeSec/bylibrary) |  | 白阁文库是白泽Sec安全团队维护的一个漏洞POC和EXP公开项目 |
-| [PeiQi-WIKI-Book](https://github.com/PeiQi0/PeiQi-WIKI-Book) | PeiQi-W<br>IKI-Book<br>-2022-03<br>-20 | 面向网络安全从业者的知识文库🍃 |
+| [PeiQi-WIKI-Book](https://github.com/PeiQi0/PeiQi-WIKI-Book) |  | 面向网络安全从业者的知识文库🍃 |
 | [VulWiki](https://github.com/Ares-X/VulWiki) |  | VulWiki |
 | [vulbase](https://github.com/cckuailong/vulbase) |  | 各大漏洞文库合集 |
 | [Awesome-POC](https://github.com/Threekiii/Awesome-POC) |  | 一个各类漏洞POC知识库 |
@@ -828,7 +829,7 @@
 | :---- | :---- | :---- |
 | [WMIHACKER](https://github.com/rootclay/WMIHACKER) |  | A Bypass Anti-virus Software Lateral Movement Command Executio<br>n Tool |
 | [sharpwmi](https://github.com/QAX-A-Team/sharpwmi) | v2 | sharpwmi是一个基于rpc的横向移动工具，具有上传文件和执行命令功<br>能。 |
-| [impacket](https://github.com/fortra/impacket) | impacke<br>t_0_10_0 | Impacket is a collection of Python classes for working with ne<br>twork protocols. |
+| [impacket](https://github.com/fortra/impacket) | impacke<br>t_0_11_0 | Impacket is a collection of Python classes for working with ne<br>twork protocols. |
 | [wmiexec-Pro](https://github.com/XiaoliChan/wmiexec-Pro) | v0.2.6 | New generation of wmiexec.py |
 | [taowu-cobalt-stri<br>ke](https://github.com/pandasec888/taowu-cobalt-strike) |  |  |
 | [OLa](https://github.com/d3ckx1/OLa) | OLa__20<br>220724 |  |
@@ -1259,7 +1260,7 @@
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
 | [openstar](https://github.com/starjun/openstar) |  | lua waf,nginx+lua,openresty,luajit,waf+,cdn,nginx |
-| [safeline](https://github.com/chaitin/safeline) | v2.4.0 | 一款足够简单、足够好用、足够强的免费 WAF。基于业界领先的语义引<br>擎检测技术，作为反向代理接入，保护你的网站不受黑客攻击。 |
+| [safeline](https://github.com/chaitin/safeline) | v2.5.0 | 一款足够简单、足够好用、足够强的免费 WAF。基于业界领先的语义引<br>擎检测技术，作为反向代理接入，保护你的网站不受黑客攻击。 |
 ## 欺骗防御
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |

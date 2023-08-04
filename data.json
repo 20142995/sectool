@@ -29,8 +29,8 @@
     "https://github.com/RsaCtfTool/RsaCtfTool": {
         "created_at": "2015-03-07 17:29:33",
         "description": "RSA attack tool (mainly for ctf) - retreive private key from weak public key and/or uncipher data",
-        "commit_date": "2023-08-01 21:02:21",
-        "commit_message": "Update classical_shor.py",
+        "commit_date": "2023-08-03 20:29:31",
+        "commit_message": "Fix Issue #426",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -200,8 +200,8 @@
     "https://github.com/ycdxsb/PocOrExp_in_Github": {
         "created_at": "2021-04-13 05:46:16",
         "description": "聚合Github上已有的Poc或者Exp，CVE信息来自CVE官网。Auto Collect Poc Or Exp from Github by CVE ID.",
-        "commit_date": "2023-08-02 23:01:09",
-        "commit_message": "update 2023-08-03 07:01:09",
+        "commit_date": "2023-08-03 23:01:01",
+        "commit_message": "update 2023-08-04 07:01:01",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -218,7 +218,7 @@
     "https://github.com/Threekiii/Vulhub-Reproduce": {
         "created_at": "2022-03-03 08:38:29",
         "description": "一个Vulhub漏洞复现知识库",
-        "commit_date": "2023-08-01 03:18:15",
+        "commit_date": "2023-08-03 07:07:36",
         "commit_message": "更新漏洞",
         "release_tag": "",
         "release_date": "",
@@ -380,8 +380,8 @@
     "https://github.com/lal0ne/vulnerability": {
         "created_at": "2022-01-20 02:48:42",
         "description": "收集、整理、修改互联网上公开的漏洞POC",
-        "commit_date": "2023-07-27 05:42:33",
-        "commit_message": "CVE-2020-15778",
+        "commit_date": "2023-08-03 08:19:04",
+        "commit_message": "CVE-2017-12617",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -461,7 +461,7 @@
     "https://github.com/ExpLangcn/NucleiTP": {
         "created_at": "2022-11-08 13:16:56",
         "description": "自动整合全网Nuclei的漏洞POC，实时同步更新最新POC！",
-        "commit_date": "2023-08-03 00:30:20",
+        "commit_date": "2023-08-03 22:30:16",
         "commit_message": "更新啦❤️",
         "release_tag": "",
         "release_date": "",
@@ -1017,7 +1017,7 @@
     "https://github.com/wecooperate/iDefender": {
         "created_at": "2021-11-24 11:38:28",
         "description": "iDefender（冰盾 - 终端主动防御系统）",
-        "commit_date": "2023-07-31 13:16:02",
+        "commit_date": "2023-08-03 15:32:39",
         "commit_message": "update",
         "release_tag": "2.9.0",
         "release_date": "2023-07-19 02:37:26",
@@ -1071,8 +1071,8 @@
     "https://github.com/v2rayA/v2rayA": {
         "created_at": "2019-10-18 20:42:06",
         "description": "A web GUI client of Project V which supports V2Ray, Xray, SS, SSR, Trojan and Pingtunnel 🚀",
-        "commit_date": "2023-08-02 17:26:01",
-        "commit_message": "feat: support reality",
+        "commit_date": "2023-08-03 04:55:58",
+        "commit_message": "Update after_upgrade.sh",
         "release_tag": "v2.0.5",
         "release_date": "2023-04-08 06:20:57",
         "release_message": "## What's Changed\r\n* Fix tip label display by @aeeq in https://github.com/v2rayA/v2rayA/pull/889\r\n\r\n## New Contributors\r\n* @aeeq made their first contribution in https://github.com/v2rayA/v2rayA/pull/889\r\n\r\n**Full Changelog**: https://github.com/v2rayA/v2rayA/compare/v2.0.4...v2.0.5"
@@ -1098,7 +1098,7 @@
     "https://github.com/Threekiii/Vulnerability-Wiki": {
         "created_at": "2022-04-29 05:36:33",
         "description": "一个基于 docsify 的综合漏洞知识库，目前漏洞数量 900+",
-        "commit_date": "2023-07-27 01:16:00",
+        "commit_date": "2023-08-03 07:17:17",
         "commit_message": "更新漏洞",
         "release_tag": "v1.0",
         "release_date": "2022-07-15 01:58:00",
@@ -1107,8 +1107,8 @@
     "https://github.com/RoomaSec/RmTools": {
         "created_at": "2022-08-23 05:07:04",
         "description": "蓝队应急工具",
-        "commit_date": "2023-07-22 05:15:02",
-        "commit_message": "Merge branch 'main' of https://github.com/RoomaSec/RmTools",
+        "commit_date": "2023-08-03 11:53:20",
+        "commit_message": "支持ioc扫描",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -1179,7 +1179,7 @@
     "https://github.com/Kento-Sec/AsamF": {
         "created_at": "2022-08-03 03:52:09",
         "description": "AsamF是集成Fofa、Quake、Hunter、Shodan、Zoomeye、Chinaz、0.zone及爱企查的一站式企业信息资产收集、网络资产测绘工具。",
-        "commit_date": "2023-06-02 06:01:14",
+        "commit_date": "2023-08-03 13:55:32",
         "commit_message": "Update README.md",
         "release_tag": "v0.2.5",
         "release_date": "2023-07-31 01:44:05",
@@ -1888,11 +1888,11 @@
     "https://github.com/hanc00l/nemo_go": {
         "created_at": "2021-07-29 08:13:25",
         "description": "Nemo是用来进行自动化信息收集的一个简单平台，通过集成常用的信息收集工具和技术，实现对内网及互联网资产信息的自动收集，提高隐患排查和渗透测试的工作效率。",
-        "commit_date": "2023-08-02 05:57:09",
-        "commit_message": "Fix: subdomaincrawler define error",
-        "release_tag": "v2.9.4",
-        "release_date": "2023-06-21 05:56:55",
-        "release_message": "### Updated\r\n\r\n- Nemo安装及使用文档v1.0；\r\n\r\n### Fix\r\n\r\n- v2.9.3的release包里，thirdparty/fingerprinthub目录里没有打包二进制文件\r\n- 修正domainscan对结果IP的端口扫描未执行的bug\r\n- domain列表和详情中的icon显示\r\n- domainscan对结果IP的端口扫描未执行的bug\r\n- 对fofa、hunter及quake查询的domain结果过滤（同一个IP关联的域名超过100个则认为是无效的域名）\r\n"
+        "commit_date": "2023-08-03 23:01:30",
+        "commit_message": "Fix: nemo_vps.png",
+        "release_tag": "v2.10.0",
+        "release_date": "2023-08-03 14:11:45",
+        "release_message": "### Updated\r\n\r\n- 增加runtimelog数据库表，worker的runtime日志通过RPC调用上传并保存，在web增加日志查看和管理功能（需要SuperAdmin权限），从v2.9升级需导入runtimelog.sql；\r\n- 新增worker按任务功能分别运行的模式（见安装手册）；\r\n- 增加根据工作空间对Worker进行自定义任务的实现；\r\n- 导出IP与Domain资产功能；\r\n- 对Fofa、quake及hunter的API增加查询限额；\r\n- subfinder对子域名去除泛解析；\r\n- windows平台的massdns使用和子域名爆破功能（感谢github.com/penson233/TailorFinder编译好二进制文件）\r\n\r\n### Fix\r\n\r\n- quake查询API参数服务器调整导致无法正确搜索结果；Fofa默认分页数与实际不一致导致的重复调用API；\r\n- subfinder v2.6.0异常退出bug\r\n- 导入离线扫描的gogo和fscan\r\n- 域名一键拉黑的时候删除不彻底\r\n-  XScan任务的XOrganization直接调用数据库查询IP和Domain资产的Bug\r\n\r\n### Thirdparty版本\r\n\r\n- Httpx：1.3.4\r\n- Subfinder：2.6.1\r\n- Nuclei：2.9.10\r\n- Observe_ward：2023.8.3"
     },
     "https://github.com/yuyan-sec/RedisEXP": {
         "created_at": "2022-03-19 14:41:00",
@@ -2095,8 +2095,8 @@
     "https://github.com/whwlsfb/Log4j2Scan": {
         "created_at": "2021-12-10 06:16:52",
         "description": "Log4j2 RCE Passive Scanner plugin for BurpSuite",
-        "commit_date": "2023-03-23 02:26:17",
-        "commit_message": "add poc12. #57",
+        "commit_date": "2023-08-03 08:37:07",
+        "commit_message": "fix dig.pm backed. #62",
         "release_tag": "V0.13.1",
         "release_date": "2022-10-21 06:49:07",
         "release_message": "- 修复在BurpSuite 2022.9中兼容性问题 #49 .\r\n- 增加并发功能。\r\n- 增加延迟检测功能。"
@@ -2221,7 +2221,7 @@
     "https://github.com/Threekiii/Awesome-POC": {
         "created_at": "2022-02-20 06:43:22",
         "description": "一个各类漏洞POC知识库",
-        "commit_date": "2023-07-25 09:19:35",
+        "commit_date": "2023-08-03 00:54:06",
         "commit_message": "更新漏洞",
         "release_tag": "",
         "release_date": "",
@@ -2392,9 +2392,9 @@
         "description": "面向网络安全从业者的知识文库🍃",
         "commit_date": "2023-06-22 16:10:33",
         "commit_message": "漏洞相关:修复错误",
-        "release_tag": "PeiQi-WIKI-Book-2022-03-20",
-        "release_date": "2022-03-16 06:04:23",
-        "release_message": "PeiQi-WIKI-Book-2022-03-20 \r\n\r\n编译好的HTML源码打包，可以更简单的搭建在Web服务器中"
+        "release_tag": "",
+        "release_date": "",
+        "release_message": ""
     },
     "https://github.com/KathanP19/JSFScan.sh": {
         "created_at": "2020-06-30 06:05:32",
@@ -2824,7 +2824,7 @@
     },
     "https://github.com/G3et/Search_Viewer": {
         "created_at": "2022-11-12 14:23:48",
-        "description": "集Fofa、Hunter鹰图、Shodan、360 quake、Zoomeye 钟馗之眼、censys 为一体的gui图形界面化工具",
+        "description": "集Fofa、Hunter鹰图、Shodan、360 quake、Zoomeye 钟馗之眼、censys 为一体的空间测绘gui图形界面化工具，支持一键采集爬取和导出fofa、shodan等数据，方便快捷查看",
         "commit_date": "2023-07-22 07:09:52",
         "commit_message": "Update LICENSE",
         "release_tag": "v3.0",
@@ -2951,8 +2951,8 @@
     "https://github.com/dbeaver/dbeaver": {
         "created_at": "2015-10-21 08:26:28",
         "description": "Free universal database tool and SQL client",
-        "commit_date": "2023-08-02 20:02:49",
-        "commit_message": "23.1.4 config",
+        "commit_date": "2023-08-03 17:13:34",
+        "commit_message": "#20777 Sync \"Show virtual model editor\" with active navigator view mode (#20791)",
         "release_tag": "23.1.3",
         "release_date": "2023-07-23 19:28:17",
         "release_message": "\n                - Spatial data viewer:\n                    - Geometry object labels were added to the map (configurable)\n                    - Curves rendering was implemented\n                    - Coordinates and viewport bounds copy was implemented\n                    - EWKT format support was added\n                    - Toolbars and lasso visibility toggle was fixed\n                - Data transfer:\n                    - Import of multiple tables from an XLSX was implemented\n                    - Lazy initialization of configuration pages was implemented\n                    - Issue with duplicated file selector dialog was fixed\n                    - Export in XML format was fixed (doctype section is not optional)\n                    - Issue long filenames on Windows was fixed\n                - Data Editor:\n                    - Find/Replace dialog and shortcut in the Value view panel were fixed\n                    - Column description was added to the Metadata panel\n                    - Folding in the XML presentation was fixed\n                    - Displaying of images in the the value view panel was fixed on Linux\n                    - Confirmation dialog for the result set filtering was improved\n                - Accessibility:\n                    - JAWs screen reader can now read data in the Data grid\n                - General UI:\n                    - Tips of the day were updated\n                    - Creation of objects with mixed-case identifiers was fixed\n                    - DDL generation for sequence was fixed\n                    - Logical project deletion was fixed\n                    - Issue with opening of a local project was fixed\n                - AI:\n                    - New GPT 3.5 Turbo 16К model was added\n                    - Issue with long metadata information sending was fixed\n                - Connections:\n                    - Duplicates on driver creation were removed\n                    - Issue with maven artifacts editing was fixed\n                    - Certificate management UI was improved\n                - New drivers:\n                    - Materialize database driver was added (thanks @bobbyiliev)\n                    - Crate DB via PostgreSQL driver was improved (thanks @proddata)\n                - Databases:\n                    - DB2: users can see Column Mask Objects\n                    - TimescaleDB branding was updated\n                - Localization:\n                    - Chinese Simplified localization was improved (thanks @bynyun)\n                    - German localization was improved (thanks @fjf2002)\n            "
@@ -3219,7 +3219,7 @@
     "https://github.com/Threekiii/Awesome-Redteam": {
         "created_at": "2022-02-08 00:45:03",
         "description": "一个红队知识仓库",
-        "commit_date": "2023-08-01 00:58:28",
+        "commit_date": "2023-08-03 09:37:48",
         "commit_message": "更新README.md",
         "release_tag": "",
         "release_date": "",
@@ -3701,8 +3701,8 @@
     "https://github.com/carlospolop/PEASS-ng": {
         "created_at": "2019-01-13 19:58:24",
         "description": "PEASS - Privilege Escalation Awesome Scripts SUITE (with colors)",
-        "commit_date": "2023-07-31 14:56:43",
-        "commit_message": "Merge pull request #375 from galoget/master\n\nFix typos, grammar and spacing",
+        "commit_date": "2023-08-03 13:29:34",
+        "commit_message": "Merge pull request #378 from Mateodevv/master\n\nFixed Typo in Readme for linPEASS",
         "release_tag": "20230731-452f0c44",
         "release_date": "2023-07-31 14:52:44",
         "release_message": ""
@@ -3890,8 +3890,8 @@
     "https://github.com/neuvector/neuvector": {
         "created_at": "2021-12-17 20:15:03",
         "description": "",
-        "commit_date": "2023-08-02 19:55:04",
-        "commit_message": "Merge pull request #896 from jayhuang-suse/eight\n\nNVSHAS-7949: suggest to not showing the sensitive info in debug log",
+        "commit_date": "2023-08-03 05:13:22",
+        "commit_message": "Merge pull request #917 from jayhuang-suse/nine\n\nNVSHAS-8170: Auto profile collection feature to capture profile data at the maximum memory",
         "release_tag": "v5.2.0",
         "release_date": "2023-07-06 05:43:13",
         "release_message": "##### Enhancements \r\n+ Searchable SaaS service for CVE lookups. NVSHAS-5852 Search the latest NeuVector CVE database to see if a specific CVE exists in the database.\r\n+ Support tokens for NeuVector API access. NVSHAS-6293\r\n+ Support AWS Marketplace PAYG billing for NeuVector monthly support subscriptions. Users can subscribe to NeuVector by SUSE support, billed monthly to their AWS account based on previous month's average node count usage. Details [here](https://open-docs.neuvector.com/deploying/awsmarketplace).\r\n+ Support image signing for admission controls. NVSHAS-6217, NVSHAS-6216.\r\n+ Enable each admission control rule to have its own mode of Monitor or Protect.NVSHAS-4062 A Deny action in Monitor mode will alert, and a Deny action in Protect mode will block. Allow actions are unaffected.\r\n+ Add a new \"operator\" in Policy > Admission Control > Add Rule. NVSHAS-6726 Support operators \"is between\" and \"is not between\" for both \"Users\" and \"User Groups\".\r\n+ Add support for custom admission control criteria such as resource limits. NVSHAS-7717\r\n+ Support invoking NeuVector scanner from Harbor registries through the [pluggable scanner](https://github.com/goharbor/pluggable-scanner-spec) interface.\r\n+ Allow user to disable network protection but keep WAF/DLP functioning. Configure Network Policy Enablement in Settings -> Configuration. NVSHAS-7725\r\n+ Use less privileged services accounts as required for each NeuVector component. NVSHAS-7603. A variable “leastPrivilege” is introduced. The default is false. NOTE: Using the current helm chart with this variable on a release prior to 5.2.0 will not function properly.\r\n+ Bind to non-default service account to meet CIS 1.5 5.1.5 recommendation. NVSHAS-7619\r\n+ Enable administrator to configure user default Session Time out. NVSHAS-7621\r\n+ Customizable login banner NVSHAS-6675. \r\n+ Customizable UI header text NVSHAS-7330.\r\n+ SYSLOG support for TLS encrypted transport. NVSHAS-4377\r\n+ Enable deployment of the NeuVector monitor helm chart from Rancher Manager.\r\n+ Remove upper limit for top level domain in URL validator for registry scanning. NVSHAS-7935\r\n+ Scan golang dependencies, including run-time scans.\r\n+ Support Debian 12 (Bookworm) vulnerability scan.\r\n+ Add CSV export for Registry / Details to export CVEs for all images in configured registry. NVSHAS-5993\r\n+ Allow NeuVector to set several ADFS certificates in parallel in x.509 certificate field. NVSHAS-7335\r\n+ Add and display the comment field for Response Rules.\r\n##### Bug Fixes\r\n+ Reduce repeating logs in enforcer/controller logs. NVSHAS-7832 {TBD???}\r\n+ Multiple clusters page does not render. NVSHAS-7742\r\n+ Empty group auto-removal takes 2 hours to delete instead of 1 hour according to schedule. NVSHAS-7791\r\n+ Manually allowed network rule not getting applied and resulting in violation for pause image. NVSHAS-7807\r\n+ Blocking SSL connections even if a network rule permits the traffic under certain initial conditions. NVSHAS-7923\r\n+ Security events warning even with allowed network rules due to policy update issue in synchronization. NVSHAS-8019\r\n+ Despite defining the network rules, violations getting logged under security events (false positives) when the container has stopped due to out of memory (OOM) error. NVSHAS-7830\r\n+ Allow user to disable/enable detection and protection against unmanaged container in cluster. NVSHAS-7804. This can be set through the Manager CLI:\r\n```\r\nset system detect_unmanaged_wl status -h\r\nUsage: cli set system detect_unmanaged_wl status [OPTIONS] {true|false}\r\n  Enable/disable detect unmanaged container\r\n```\r\n##### Other\r\n+ Add \"leastPrivilege\" setting in Helm chart.\r\n+ Enable AWS integration settings in Helm chart. "
@@ -3908,8 +3908,8 @@
     "https://github.com/anchore/syft": {
         "created_at": "2020-05-07 18:19:29",
         "description": "CLI tool and library for generating a Software Bill of Materials from container images and filesystems",
-        "commit_date": "2023-08-02 14:28:35",
-        "commit_message": "chore: update bubbly to fix hanging (#1990)\n\nSigned-off-by: Keith Zantow <kzantow@gmail.com>",
+        "commit_date": "2023-08-03 23:23:50",
+        "commit_message": "fix: update glob to use newer usr/lib/sysimage path (#1997)\n\nSee this link for details on the path migration for the rpmdb\r\nhttps://fedoraproject.org/wiki/Changes/RelocateRPMToUsr\r\n\r\nSigned-off-by: Christopher Phillips <christopher.phillips@anchore.com>",
         "release_tag": "v0.86.1",
         "release_date": "2023-07-31 17:42:33",
         "release_message": "# Changelog\r\n\r\n## [v0.86.1](https://github.com/anchore/syft/tree/v0.86.1) (2023-07-31)\r\n\r\n[Full Changelog](https://github.com/anchore/syft/compare/v0.86.0...v0.86.1)\r\n\r\n### Bug Fixes\r\n\r\n- Source requires default image name as user input for unparsable reference [[PR #1979](https://github.com/anchore/syft/pull/1979)] [[kzantow](https://github.com/kzantow)] \r\n\r\n\r\n"
@@ -3917,11 +3917,11 @@
     "https://github.com/chaitin/safeline": {
         "created_at": "2023-04-12 11:30:14",
         "description": "一款足够简单、足够好用、足够强的免费 WAF。基于业界领先的语义引擎检测技术，作为反向代理接入，保护你的网站不受黑客攻击。",
-        "commit_date": "2023-08-02 07:51:15",
-        "commit_message": "Merge pull request #190 from chaitin/website\n\nfeat: new version of website",
-        "release_tag": "v2.4.0",
-        "release_date": "2023-07-27 08:17:28",
-        "release_message": "### 新增\r\n\r\n- IP 组支持注释 [#143](https://github.com/chaitin/safeline/issues/143)\r\n\r\n### 优化\r\n\r\n- 优化编辑 IP 组和相关规则时的性能\r\n- 优化一些界面 UI 交互细节"
+        "commit_date": "2023-08-03 10:22:57",
+        "commit_message": "feat: remove dup info of offline upgrade",
+        "release_tag": "v2.5.0",
+        "release_date": "2023-08-03 10:18:28",
+        "release_message": "### 新增\r\n\r\n- 请求频率限制（[#29](https://github.com/chaitin/safeline/issues/29)）\r\n\r\n### 优化\r\n\r\n- 支持筛选攻击检测日志的 ID（[#74](https://github.com/chaitin/safeline/issues/74)），优化筛选的交互\r\n- 证书支持 .cer 格式（[#181](https://github.com/chaitin/safeline/issues/181)）\r\n- 优化人机校验页面，适配移动端（[#184](https://github.com/chaitin/safeline/issues/184)）\r\n- 界面增加一些配置提示：添加站点时 “域名” 的格式、黑白名单/人机验证中匹配条件的生效逻辑"
     },
     "https://github.com/stamparm/identYwaf": {
         "created_at": "2019-01-10 11:27:58",
@@ -3971,8 +3971,8 @@
     "https://github.com/aquasecurity/trivy": {
         "created_at": "2019-04-11 01:01:07",
         "description": "Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more",
-        "commit_date": "2023-08-02 15:48:52",
-        "commit_message": "test(aws): move part of unit tests to integration (#4884)\n\n* test(aws): move part of unit tests to integration\n\n* fix typo\n\n* fix test\n\n---------\n\nCo-authored-by: knqyf263 <knqyf263@gmail.com>",
+        "commit_date": "2023-08-03 13:07:12",
+        "commit_message": "chore(deps): bump github.com/openvex/go-vex from 0.2.0 to 0.2.1 (#4914)\n\nBumps [github.com/openvex/go-vex](https://github.com/openvex/go-vex) from 0.2.0 to 0.2.1.\n- [Release notes](https://github.com/openvex/go-vex/releases)\n- [Commits](https://github.com/openvex/go-vex/compare/v0.2.0...v0.2.1)\n\n---\nupdated-dependencies:\n- dependency-name: github.com/openvex/go-vex\n  dependency-type: direct:production\n  update-type: version-update:semver-patch\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
         "release_tag": "v0.44.0",
         "release_date": "2023-08-01 09:08:35",
         "release_message": "## ⚡Release highlights and summary⚡\r\n\r\n👉 https://github.com/aquasecurity/trivy/discussions/4903\r\n\r\n## Changelog\r\n* d19c7d9f2 feat(repo): support local repositories (#4890)\r\n* 3c1976187 bump go-dep-parser (#4893)\r\n* e1c2a8c80 fix(misconf): add missing fields to proto (#4861)\r\n* 8b8e0e83d fix: remove trivy-db package replacement (#4877)\r\n* f9efe44fd chore(test): bump the integration test timeout to 15m (#4880)\r\n* 7271d682f chore(deps): Update defsec to v0.91.0 (#4886)\r\n* c3bc67c89 chore: update CODEOWNERS (#4871)\r\n* 232ba823e feat(vuln): support vulnerability status (#4867)\r\n* 11618c940 feat(misconf): Support custom URLs for policy bundle (#4834)\r\n* 07075696d refactor: replace with sortable packages (#4858)\r\n* fbe1c9eb1 docs: correct license scanning sample command (#4855)\r\n* 20c2246a6 fix(report): close the file (#4842)\r\n* 24a3e547d feat(nodejs): add support for include-dev-deps flag for yarn (#4812)\r\n* a7bd7bb65 feat(misconf): Add support for independently enabling libraries (#4070)\r\n* 4aa9ea096 feat(secret): add secret config file for cache calculation (#4837)\r\n* 5d349d814 Fix a link in gitlab-ci.md (#4850)\r\n* a61531c1f fix(flag): use globalstar to skip directories (#4854)\r\n* 78cc20937 chore(deps): bump github.com/docker/docker from v23.0.5+incompatible to v23.0.7-0.20230714215826-f00e7af96042+incompatible (#4849)\r\n* 93996041b fix(license): using common way for splitting licenses (#4434)\r\n* 3e2416d77 fix(containerd): Use img platform in exporter instead of strict host platform (#4477)\r\n* ce77bb46c remove govulndb (#4783)\r\n* c05caae43 fix(java): inherit licenses from parents (#4817)\r\n* aca11b95d refactor: add allowed values for CLI flags (#4800)\r\n* 4cecd17ea add example regex to allow rules (#4827)\r\n* 4bc8d29c1 feat(misconf): Support custom data for rego policies for cloud (#4745)\r\n* 88243a0ad docs: correcting the trivy k8s tutorial (#4815)\r\n* 3c7d988d7 feat(cli): add --tf-exclude-downloaded-modules flag (#4810)\r\n* fd0fd104f fix(sbom): cyclonedx recommendations should include fixed versions for each package (#4794)\r\n* d0d543b88 feat(misconf): enable --policy flag to accept directory and files both (#4777)\r\n* b43a3e623 feat(python): add license fields (#4722)\r\n* aef7b148a fix: support trivy k8s-version on k8s sub-command (#4786)\r\n\r\n"
@@ -3980,8 +3980,8 @@
     "https://github.com/anchore/grype": {
         "created_at": "2020-05-26 13:44:38",
         "description": "A vulnerability scanner for container images and filesystems",
-        "commit_date": "2023-07-31 17:58:36",
-        "commit_message": "chore(deps): update Syft to v0.86.1 (#1410)\n\n* chore(deps): update Syft to v0.86.0\r\n\r\nSigned-off-by: GitHub <noreply@github.com>\r\n\r\n* fix python package metadata shape\r\n\r\nSigned-off-by: Alex Goodman <wagoodman@users.noreply.github.com>\r\n\r\n* account for new metadatas added in syft\r\n\r\nSigned-off-by: Alex Goodman <wagoodman@users.noreply.github.com>\r\n\r\n* bump syft to unreleased but fixed version\r\n\r\nSigned-off-by: Alex Goodman <wagoodman@users.noreply.github.com>\r\n\r\n---------\r\n\r\nSigned-off-by: GitHub <noreply@github.com>\r\nSigned-off-by: Alex Goodman <wagoodman@users.noreply.github.com>\r\nCo-authored-by: wagoodman <wagoodman@users.noreply.github.com>",
+        "commit_date": "2023-08-03 21:28:37",
+        "commit_message": "fix: some hang conditions (#1414)\n\nSigned-off-by: Keith Zantow <kzantow@gmail.com>",
         "release_tag": "v0.65.0",
         "release_date": "2023-07-31 18:12:55",
         "release_message": "# Changelog\n\n## [v0.65.0](https://github.com/anchore/grype/tree/v0.65.0) (2023-07-31)\n\n[Full Changelog](https://github.com/anchore/grype/compare/v0.64.2...v0.65.0)\n\n### Added Features\n\n- feat: implement secondary sorting for default json output [[PR #1403](https://github.com/anchore/grype/pull/1403)] [[spiffcs](https://github.com/spiffcs)]\n- Consistent sort order for grype output [[Issue #709](https://github.com/anchore/grype/issues/709)] [[PR #1400](https://github.com/anchore/grype/pull/1400)] [[spiffcs](https://github.com/spiffcs)]\n\n### Bug Fixes\n\n- Grype reading SPDX file with json output gets UnknownScheme error [[Issue #948](https://github.com/anchore/grype/issues/948)]\n- grype 0.64.0 doesn't list vulnerabilties if `--fail-on` fails [[Issue #1392](https://github.com/anchore/grype/issues/1392)] [[PR #1395](https://github.com/anchore/grype/pull/1395)] [[willmurphyscode](https://github.com/willmurphyscode)]\n\n### Additional Changes\n\n- chore: bump quality gate label dataset [[PR #1404](https://github.com/anchore/grype/pull/1404)] [[westonsteimel](https://github.com/westonsteimel)]\n\n\n\n"
@@ -4250,7 +4250,7 @@
     "https://github.com/Pizz33/GobypassAV-shellcode": {
         "created_at": "2023-04-18 07:42:36",
         "description": "免杀shellcode加载器，使用go实现，免杀bypass火绒、360、核晶、def等主流杀软",
-        "commit_date": "2023-08-02 11:03:44",
+        "commit_date": "2023-08-03 04:37:38",
         "commit_message": "Update README.md",
         "release_tag": "",
         "release_date": "",
@@ -4277,7 +4277,7 @@
     "https://github.com/aiboboxx/v2rayfree": {
         "created_at": "2021-10-13 11:34:53",
         "description": "v2ray公益免费节点、最新2ray免费v节点订阅地址、v2ray免费节点每日更新、免费ss/v2ray/trojan节点、freefq ",
-        "commit_date": "2023-08-02 12:37:55",
+        "commit_date": "2023-08-03 12:38:17",
         "commit_message": "update",
         "release_tag": "",
         "release_date": "",
@@ -4322,8 +4322,8 @@
     "https://github.com/freefq/free": {
         "created_at": "2020-06-07 02:48:33",
         "description": "翻墙、免费翻墙、免费科学上网、免费节点、免费梯子、免费ss/v2ray/trojan节点、蓝灯、谷歌商店、翻墙梯子",
-        "commit_date": "2023-08-03 00:00:03",
-        "commit_message": "updated_at 08-03 08:00",
+        "commit_date": "2023-08-04 00:00:02",
+        "commit_message": "updated_at 08-04 08:00",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -4817,11 +4817,11 @@
     "https://github.com/0x727/ObserverWard": {
         "created_at": "2021-08-21 10:11:41",
         "description": "Cross platform community web fingerprint identification tool",
-        "commit_date": "2023-07-21 02:31:53",
-        "commit_message": "自动更新指纹，添加生成json格式指纹库参数",
-        "release_tag": "v2023.7.21",
-        "release_date": "2023-07-21 02:33:21",
-        "release_message": "## [2023.7.21] - 2023.7.21\n\n### Fixes\n\n- `--gen`参数可以配合`--yaml`参数将指定yaml目录中的全部yaml指纹规则生成单个json文件，主要方便自定义指纹，生成便携单文件。\n- `/home/kali-team/IdeaProjects/FingerprintHub/web_fingerprint`是存放yaml的目录，`web_fingerprint_v3.json`是生成的文件路径。\n\n```bash\n➜  ~ ./observer_ward --yaml /home/kali-team/IdeaProjects/FingerprintHub/web_fingerprint --gen web_fingerprint_v3.json\n➜  ~ jq length web_fingerprint_v3.json\n3448\n```\n- 添加如果本地没有指纹库，会自动更新指纹。防止跑完发现没有下载指纹，白跑了目标。"
+        "commit_date": "2023-08-03 05:05:33",
+        "commit_message": "extracted-results",
+        "release_tag": "v2023.8.3",
+        "release_date": "2023-08-03 05:06:15",
+        "release_message": "## [2023.8.3] - 2023.8.3\n\n### Fixes\n\n- 添加字段：extracted-results"
     },
     "https://github.com/SuperZero/CVE-2023-33246": {
         "created_at": "2023-06-01 06:27:09",
@@ -5004,8 +5004,8 @@
     "https://github.com/rustdesk/rustdesk": {
         "created_at": "2020-09-28 15:36:08",
         "description": "An open-source alternative to TeamViewer.",
-        "commit_date": "2023-08-02 15:18:13",
-        "commit_message": "Merge pull request #5236 from 21pages/ab\n\nrefactor addressbook sync",
+        "commit_date": "2023-08-03 14:06:31",
+        "commit_message": "Merge branch 'master' of github.com-rustdesk:rustdesk/rustdesk",
         "release_tag": "1.2.1",
         "release_date": "2023-07-12 07:28:05",
         "release_message": "\r\n![image](https://github.com/rustdesk/rustdesk/assets/71636191/b444deab-7971-4de7-b315-6a9b4974c7ea)\r\n\r\n> Winget, FDroid, Apple Sillicon, Google Play / App Store update will come soon.\r\n\r\nx86-64: [Windows](https://github.com/rustdesk/rustdesk/releases/download/1.2.1/rustdesk-1.2.1-x86_64.exe) | [Ubuntu](https://github.com/rustdesk/rustdesk/releases/download/1.2.1/rustdesk-1.2.1-x86_64.deb) | [Mac](https://github.com/rustdesk/rustdesk/releases/download/1.2.1/rustdesk-1.2.1-x86_64.dmg)\r\nAArch64 (ARM64):  [Ubuntu](https://github.com/rustdesk/rustdesk/releases/download/1.2.1/rustdesk-1.2.1-aarch64.deb) | [Android](https://github.com/rustdesk/rustdesk/releases/download/1.2.1/rustdesk-1.2.1-aarch64-signed.apk)\r\nMore: [check below please](#)\r\n\r\n<details>\r\n<summary>Changelog</summary>\r\n\r\n- fix #4856 \r\n- fix #4866 \r\n- fix email login verfication bug on mobile #4874, and fix email login verification wrong error message\r\n- refactor chat notification both on mobile and desktop #4878 #4889 #4943\r\n- fix #4890 \r\n- fix privacy broker zombie process #4916 \r\n- improve remote menubar #4922\r\n- try to fix issue #3261 with new api, but not sure if it works\r\n- adjust tab theme to make it more clear\r\n- partially fix #4896 \r\n- fix #4880 \r\n- refactor id inputbox on mobile\r\n\r\n</details>\r\n"
@@ -5148,8 +5148,8 @@
     "https://github.com/FreeRDP/FreeRDP": {
         "created_at": "2011-06-30 19:14:15",
         "description": "FreeRDP is a free remote desktop protocol library and clients",
-        "commit_date": "2023-08-02 17:50:00",
-        "commit_message": "[client,android] Fix keyboard ui issues\nSet inputType to system keyboard, otherwise keyboard can be opened with last used input type (eg. numeric)\nFix keyboard/modifiers panel opening, when keyboard stuck in other app\nHide zoom controls when keyboard is opened",
+        "commit_date": "2023-08-03 15:55:49",
+        "commit_message": "[client,common] Fix minor code errors\n\n`cctx->contacts` -> `cctx->pens`",
         "release_tag": "2.10.0",
         "release_date": "2023-02-16 13:46:39",
         "release_message": " Notewhorth changes:\r\n * Fix android build scripts, use CMake from SDK\r\n * Fix connection negotiation with mstsc/msrdc #8426\r\n * [ntlm]: use rfc5929 binding hash algorithm #8430\r\n * [channels,printer] Fixed reference counting #8433\r\n * Fix uwac pixman #8439\r\n * Fix Rdp security #8457\r\n * [client,x11] Detect key autorepeat #8522\r\n * [build] add channel path to RPATH #8551\r\n * Fix build with BUILTIN_CHANNELS=OFF #8560\r\n * revert changes so that the osmajortype/osminortype is not overwritten #8571\r\n * [uwac] do not use iso C functions #8604\r\n * [winpr,sam] fix inalid NULL arguments #8605\r\n * Fix incompatible function pointer types #8625\r\n \r\n Fixed issues:\r\n * Backported #8581: Ignore data PDUs for DVCs that were not opened successfully\r\n * Backported #8498: [channel,urbdrc] fix type of usb hotplug callback\r\n * Backported #8537: Extended info enforce limits\r\n * Backported #8611: [core] add missing redirection fields\r\n \r\n"
@@ -5702,11 +5702,11 @@
     "https://github.com/fortra/impacket": {
         "created_at": "2015-04-15 14:04:07",
         "description": "Impacket is a collection of Python classes for working with network protocols.",
-        "commit_date": "2023-07-31 15:08:03",
-        "commit_message": "Fixed issue with a type in the final version",
-        "release_tag": "impacket_0_10_0",
-        "release_date": "2022-05-04 14:55:44",
-        "release_message": "Project's main page at https://www.secureauth.com/labs/open-source-tools/impacket/\r\n\r\nChangeLog for 0.10.0:\r\n\r\n1. Library improvements\r\n\r\n\t- Dropped support for Python 2.7.\r\n\t- Refactored the testing infrastructure (@martingalloar):\r\n\t   * Added pytest as the testing framework to organize and mark test cases. Tox remain as the automation framework, and Coverage.py for measuring code coverage.\r\n\t   * Custom bash scripts were replaced with test cases auto-discovery.\r\n\t   * Local and remote test cases were marked for easy run and configuration.\r\n\t   * DCE/RPC endpoint test cases were refactored and moved to a new layout.\r\n\t   * An initial testing guide with the main steps to prepare a testing environment and run them.\r\n\t   * Fixed a good amount of DCE/RPC endpoint test cases that were failing.\r\n\t   * Added tests for [MS-PAR], [MS-RPRN], CCache and DPAPI.\r\n\t- Added a function to compute the Netlogon Authenticator at client-side in [MS-NRPC] (@0xdeaddood)\r\n\t- Added [MS-DSSP] protocol implementation (@simondotsh)\r\n\t- Added GetDriverDirectory functions to [MS-PAR] and [MS-RPRN] (@raithedavion)\r\n\t- Refactored the Credential Cache:\r\n\t   * Added new parseFile function to ccache.py (@rmaksimov)\r\n\t   * Added support for loading CCache Version 3 (@reznok)\r\n\t   * Modified fromKRBCRED function used to load a Kirbi file (@0xdeaddood)\r\n\t   * Fixed Ccache to Kirbi conversion (@ShutdownRepo)\r\n\t- Fixed default NTLM server challenge in smbserver (@rtpt-jonaslieb)\r\n\r\n2. Examples improvements\r\n\r\n\t- [exchanger.py](https://github.com/SecureAuthCorp/impacket/blob/master/examples/exchanger.py):\r\n\t   * Fixed a bug when a Global Address List doesn't exist on the server (@mohemiv)\r\n\t- [mimikatz.py](https://github.com/SecureAuthCorp/impacket/blob/master/examples/mimikatz.py)\r\n\t   * Updated intro to not trigger the AV on windows (@mpgn)\r\n\t- [ntlmrelayx.py](https://github.com/SecureAuthCorp/impacket/blob/master/examples/ntlmrelayx.py):\r\n\t   * Implemented RAW Relay Server (@CCob)\r\n\t   * Added an LDAP attack dumping information about the domain's ADCS enrollment services (@SAERXCIT)\r\n\t   * Added multi-relay feature to the HTTP Relay Server. Now one incoming HTTP connection could be used against multiple targets (@0xdeaddood)\r\n\t   * Added an option to disable the multi-relay feature (@zblurx and @0xdeaddood)\r\n\t   * Added multiple HTTP listeners running at the same time (@SAERXCIT)\r\n\t   * Support for the ADCS ESC1 and ESC6 attacks (@hugo-syn)\r\n\t   * Added Shadow Credentials attack (@ShutdownRepo, @Tw1sm, @nodauf and @p0dalirius)\r\n\t   * Added the ability to define a password for the LDAP attack addComputer (@ShutdownRepo)\r\n\t   * Added rename_computer and modify add_computer in LDAP interactive shell (@capnkrunchy)\r\n\t   * Implemented StartTLS (@ThePirateWhoSmellsOfSunflowers)\r\n\t- [reg.py](https://github.com/SecureAuthCorp/impacket/blob/master/examples/reg.py):\r\n\t   * Added save function to allow remote saving of registry hives (@ShutdownRepo and @scopedsecurity)\r\n\t- [secretsdump.py](https://github.com/SecureAuthCorp/impacket/blob/master/examples/secretsdump.py):\r\n\t   * Added an option to dump credentials using the Kerberos Key List attack (@0xdeaddood)\r\n\t- [smbpasswd.py](https://github.com/SecureAuthCorp/impacket/blob/master/examples/smbpasswd.py):\r\n\t   * Added an option to force credentials change via injecting new values into SAM (@snovvcrash and @Alef-Burzmali!)\r\n\r\n3. New examples\r\n\r\n\t- [machine_role.py](https://github.com/SecureAuthCorp/impacket/blob/master/examples/machine_role.py): This script retrieves a host's role along with its primary domain details (@simondotsh)\r\n\t- [keylistattack.py](https://github.com/SecureAuthCorp/impacket/blob/master/examples/keylistattack.py): This example implements the Kerberos Key List attack to dump credentials abusing RODCs and Azure AD Kerberos Servers (@0xdeaddood)\r\n\r\nAs always, thanks a lot to all these contributors that make this library better every day (since last version):\r\n\r\n@rmaksimov @simondotsh @CCob @raithedavion @SAERXCIT @Maltemo @dirkjanm @reznok @ShutdownRepo @scopedsecurity @Tw1sm @nodauf @p0dalirius @zblurx @hugo-syn @capnkrunchy @mohemiv @mpgn @rtpt-jonaslieb @snovvcrash @Alef-Burzmali @ThePirateWhoSmellsOfSunflowers @jlvcm"
+        "commit_date": "2023-08-03 17:40:57",
+        "commit_message": "Update setup.py",
+        "release_tag": "impacket_0_11_0",
+        "release_date": "2023-08-03 17:36:40",
+        "release_message": "## Impacket 0.11.0:\r\nProject's main page at https://www.coresecurity.com/core-labs/open-source-tools/impacket\r\n\r\nChangeLog for 0.11.0:\r\n1. Library improvements \r\n    * Added new Kerberos error codes (@ly4k).\r\n\t* Added `[MS-TSTS]` Terminal Services Terminal Server Runtime Interface Protocol implementation (@nopernik).\r\n    * Changed the setting up for new SSL connections (@mpgn, @CT-H00K and @0xdeaddood).\r\n    * Added a callback function to smbserver for incoming authentications (@p0dalirius).\r\n    * Fix crash in winregistry (@laxa)\r\n    * Fixes in IDispatch derived classes in comev implementation (@NtAlexio2)\r\n    * Fix CVE-2020-17049 in ccache.py (@godylockz)\r\n    * Smbserver: Added SMB2_FILE_ALLOCATION_INFO type determination (@JerAxxxxxxx)\r\n    * tds: Fixed python3 incompatibility when receiving over TLS socket (@exploide)\r\n    * crypto: Ensure passwords are utf-8 encoded before deriving Kerberos keys (@jojonas)\r\n    * ese: Fixed python3 incompatibility when reading from db (@alexisbalbachan)\r\n    * ldap queries: Escaped characters are now correctly parsed (@alexisbalbachan)\r\n    * Support SASL authentication in ldap protocol (@NtAlexio2)\r\n\r\n2. Examples improvements\r\n    * [GetADUsers.py](examples/GetADUsers.py), [GetNPUsers.py](examples/GetNPUsers.py), [GetUserSPNs.py](examples/GetUserSPNs.py) and [findDelegation.py](examples/findDelegation.py):\r\n      * Added dc-host option to connect to specific KDC using its FQDN or NetBIOS name (@rmaksimov and @0xdeaddood).\r\n    * [GetNPUsers.py](examples/GetNPUsers.py)\r\n      * Printing TGT in stdout despite -outputfile parameter (@alexisbalbachan and @Zamanry)\r\n      * Fixed output hash format for AES128/256 (etype 17/18) (@erasmusc)\r\n    * [GetUserSPNs.py](examples/GetUserSPNs.py):\r\n      * Added LDAP paged search (@ThePirateWhoSmellsOfSunflowers and @SAERXCIT).\r\n      * Added a -stealth flag to remove the SPN filter from the LDAP query (@clavoillotte).\r\n      * Improved searchFilter (@ShutdownRepo)\r\n      * Use LDAP paged search (@ThePirateWhoSmellsOfSunflowers)\r\n    * [psexec.py](examples/psexec.py):\r\n      * Added support for name customization using a custom binary file (@Dramelac).\r\n    * [smbexec.py](examples/smbexec.py):\r\n      * Security fixes for privilege escalation vulnerabilities (@bugch3ck).\r\n      * Fixed python3 compatibility issues, added workaround TCP over NetBIOS being disabled (@ljrk0)\r\n    * [secretsdump.py](examples/secretsdump.py):\r\n      * Added a new option to extract only NTDS.DIT data for specific users based on an LDAP filter (@snovvcrash).\r\n      * Security fixes for privilege escalation vulnerabilities (@bugch3ck).  \r\n    * [mssqlclient.py](examples/mssqlclient.py):\r\n      * Added multiple new commands. Now supports xp_dirtree execution (@Mayfly277, @trietend and @TurtleARM).\r\n    * [ntlmrelayx.py](examples/ntlmrelayx.py):\r\n      * Added ability to trigger SQLShell when running ntlmrelayx in interactive mode (@sploutchy).\r\n      * Added filter option to the socks command in ntlmrelayx CLI (@shoxxdj)\r\n      * Added ability to register DNS records through LDAP.\r\n    * [addcomputer.py](examples/addcomputer.py), [rbcd.py](examples/rbcd.py):\r\n      * Allow weak TLS ciphers for LDAP connections (@AdrianVollmer)\r\n    * [Get-GPPPassword.py](examples/Get-GPPPassword.py):\r\n      * Better handling of various XML files in Group Policy Preferences (@p0dalirius)\r\n    * [smbclient.py](examples/smbclient.py):\r\n      * Added recursive file listing (@Sq00ky)\r\n    * [ticketer.py](examples/ticketer.py):\r\n      * Ticket duration is now specified in hours instead of days (@Dramelac)\r\n      * Added extra-pac implementation (@Dramelac)\r\n\r\n3. New examples\r\n    * [net.py](examples/net.py) Implementation of windows net.exe builtin tool (@NtAlexio2)\r\n    * [changepasswd.py](examples/changepasswd.py) New example that allows password changing or reseting through multiple protocols (@Alef-Burzmali, @snovvcrash, @bransh, @api0cradle and @p0dalirius)\r\n    * [DumpNTLMInfo.py](examples/DumpNTLMInfo.py) New example that dumps remote host information in ntlm authentication model, without credentials. For SMB protocols v1, v2 and v3. (@NtAlexio2)\r\n    \r\nAs always, thanks a lot to all these contributors that make this library better every day (up to now):\r\n\r\n@ly4k @nopernik @snovvcrash @ShutdownRepo @kiwids0220 @mpgn @CT-H00K @rmaksimov @arossert @aevy-syn @tirkarthi @p0dalirius @Dramelac @Mayfly277 @S3cur3Th1sSh1t @nobbd @AdrianVollmer @trietend @TurtleARM @ThePirateWhoSmellsOfSunflowers @SAERXCIT @clavoillotte @Marshall-Hallenbeck @sploutchy @almandin @rtpt-alexanderneumann @JerAxxxxxxx @NtAlexio2 @laxa @godylockz @exploide @jojonas @Zamanry @erasmusc @bugch3ck @ljrk0 @Sq00ky @shoxxdj @Alef-Burzmali @bransh @api0cradle @alexisbalbachan @0xdeaddood @sanmopre\r\n"
     },
     "https://github.com/OpenEthan/SMSBoom": {
         "created_at": "2021-08-10 05:58:42",
