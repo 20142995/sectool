@@ -200,8 +200,8 @@
     "https://github.com/ycdxsb/PocOrExp_in_Github": {
         "created_at": "2021-04-13 05:46:16",
         "description": "聚合Github上已有的Poc或者Exp，CVE信息来自CVE官网。Auto Collect Poc Or Exp from Github by CVE ID.",
-        "commit_date": "2023-08-03 23:01:01",
-        "commit_message": "update 2023-08-04 07:01:01",
+        "commit_date": "2023-08-04 23:00:41",
+        "commit_message": "update 2023-08-05 07:00:41",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -1026,7 +1026,7 @@
     "https://github.com/Mr-xn/BurpSuite-collections": {
         "created_at": "2020-01-25 02:07:37",
         "description": "有关burpsuite的插件(非商店),文章以及使用技巧的收集(此项目不再提供burpsuite破解文件,如需要请在博客mrxn.net下载)---Collection of burpsuite plugins (non-stores), articles and tips for using Burpsuite, no crack version file",
-        "commit_date": "2023-07-15 11:08:06",
+        "commit_date": "2023-08-04 13:50:07",
         "commit_message": "Update README.md",
         "release_tag": "",
         "release_date": "",
@@ -1073,9 +1073,9 @@
         "description": "A web GUI client of Project V which supports V2Ray, Xray, SS, SSR, Trojan and Pingtunnel 🚀",
         "commit_date": "2023-08-03 04:55:58",
         "commit_message": "Update after_upgrade.sh",
-        "release_tag": "v2.0.5",
-        "release_date": "2023-04-08 06:20:57",
-        "release_message": "## What's Changed\r\n* Fix tip label display by @aeeq in https://github.com/v2rayA/v2rayA/pull/889\r\n\r\n## New Contributors\r\n* @aeeq made their first contribution in https://github.com/v2rayA/v2rayA/pull/889\r\n\r\n**Full Changelog**: https://github.com/v2rayA/v2rayA/compare/v2.0.4...v2.0.5"
+        "release_tag": "v2.1.0",
+        "release_date": "2023-08-02 17:29:39",
+        "release_message": "## What's Changed\r\n\r\n- 支持 Reality\r\n- 支持 TLS Flow\r\n- 支持 uTLS Fingerprint\r\n- 新增波兰语\r\n- 其他一些更新\r\n\r\n* Allow using flow option with TLS. by @Gh0u1L5 in https://github.com/v2rayA/v2rayA/pull/917\r\n* Add more flow and fix sni by @farhadjafari385 in https://github.com/v2rayA/v2rayA/pull/930\r\n* Fix Windows build workflow by @MarksonHon in https://github.com/v2rayA/v2rayA/pull/941\r\n* refactor: web gui by nuxt by @kecrily in https://github.com/v2rayA/v2rayA/pull/787\r\n* Added pt-br.js file for brazilian portuguese language by @talesam in https://github.com/v2rayA/v2rayA/pull/990\r\n* Persian Language Added by @DanielBlackBeard in https://github.com/v2rayA/v2rayA/pull/785\r\n* chore: upgrade buefy to eliminate sass deprecated syntax warnings by @kecrily in https://github.com/v2rayA/v2rayA/pull/777\r\n* Merge xray support from CI-He-O/v2rayA by @mzz2017 in https://github.com/v2rayA/v2rayA/pull/1004\r\n\r\n## New Contributors\r\n* @Gh0u1L5 made their first contribution in https://github.com/v2rayA/v2rayA/pull/917\r\n* @farhadjafari385 made their first contribution in https://github.com/v2rayA/v2rayA/pull/930\r\n* @talesam made their first contribution in https://github.com/v2rayA/v2rayA/pull/990\r\n* @DanielBlackBeard made their first contribution in https://github.com/v2rayA/v2rayA/pull/785\r\n\r\n**Full Changelog**: https://github.com/v2rayA/v2rayA/compare/v2.0.5...v2.1.0"
     },
     "https://github.com/silentsignal/burp-text4shell": {
         "created_at": "2022-10-18 15:07:57",
@@ -1485,8 +1485,8 @@
     "https://github.com/lcvvvv/kscan": {
         "created_at": "2021-01-25 02:15:36",
         "description": "Kscan是一款纯go开发的全方位扫描器，具备端口扫描、协议检测、指纹识别，暴力破解等功能。支持协议1200+，协议指纹10000+，应用指纹20000+，暴力破解协议10余种。",
-        "commit_date": "2023-02-15 09:46:59",
-        "commit_message": "[*]修复一个Redis协议爆破的bug，之前可能会存在误报",
+        "commit_date": "2023-08-04 06:20:58",
+        "commit_message": "Merge pull request #149 from ruishawn/dev\n\nfix: the judgment condition is always true in function recvProtocolVe…",
         "release_tag": "v1.85",
         "release_date": "2022-10-31 00:21:27",
         "release_message": "下一个版本将启用exploit功能，可以期待一下\r\n\r\n - 修复若干Bug\r\n - 新增-oC参数，将通过csv的格式保存扫描结果"
@@ -1888,11 +1888,11 @@
     "https://github.com/hanc00l/nemo_go": {
         "created_at": "2021-07-29 08:13:25",
         "description": "Nemo是用来进行自动化信息收集的一个简单平台，通过集成常用的信息收集工具和技术，实现对内网及互联网资产信息的自动收集，提高隐患排查和渗透测试的工作效率。",
-        "commit_date": "2023-08-03 23:01:30",
-        "commit_message": "Fix: nemo_vps.png",
+        "commit_date": "2023-08-04 09:30:01",
+        "commit_message": "Update: 为RPC及filesync启用TLS加密功能；升级rpcx依赖到1.8.11",
         "release_tag": "v2.10.0",
         "release_date": "2023-08-03 14:11:45",
-        "release_message": "### Updated\r\n\r\n- 增加runtimelog数据库表，worker的runtime日志通过RPC调用上传并保存，在web增加日志查看和管理功能（需要SuperAdmin权限），从v2.9升级需导入runtimelog.sql；\r\n- 新增worker按任务功能分别运行的模式（见安装手册）；\r\n- 增加根据工作空间对Worker进行自定义任务的实现；\r\n- 导出IP与Domain资产功能；\r\n- 对Fofa、quake及hunter的API增加查询限额；\r\n- subfinder对子域名去除泛解析；\r\n- windows平台的massdns使用和子域名爆破功能（感谢github.com/penson233/TailorFinder编译好二进制文件）\r\n\r\n### Fix\r\n\r\n- quake查询API参数服务器调整导致无法正确搜索结果；Fofa默认分页数与实际不一致导致的重复调用API；\r\n- subfinder v2.6.0异常退出bug\r\n- 导入离线扫描的gogo和fscan\r\n- 域名一键拉黑的时候删除不彻底\r\n-  XScan任务的XOrganization直接调用数据库查询IP和Domain资产的Bug\r\n\r\n### Thirdparty版本\r\n\r\n- Httpx：1.3.4\r\n- Subfinder：2.6.1\r\n- Nuclei：2.9.10\r\n- Observe_ward：2023.8.3"
+        "release_message": "### Updated\r\n\r\n- 增加runtimelog数据库表，worker的runtime日志通过RPC调用上传并保存，在web增加日志查看和管理功能（需要SuperAdmin权限），从v2.9升级需导入runtimelog.sql；\r\n- 新增worker按任务功能分别运行的模式（见安装手册）；\r\n- 增加根据工作空间对Worker进行自定义任务的实现；\r\n- 导出IP与Domain资产功能；\r\n- 对Fofa、quake及hunter的API增加查询限额；\r\n- subfinder对子域名去除泛解析；\r\n- windows平台的massdns使用和子域名爆破功能（感谢github.com/penson233/TailorFinder编译好二进制文件）\r\n- server增加HTTPS功能（启动命令-tls，详细见安装手册），为RPC及filesync启用TLS加密功能(-tls)\r\n- 升级beego至v2.1.1，rpcx到1.8.11\r\n\r\n### Fix\r\n\r\n- quake查询API参数服务器调整导致无法正确搜索结果；Fofa默认分页数与实际不一致导致的重复调用API；\r\n- subfinder v2.6.0异常退出bug\r\n- 导入离线扫描的gogo和fscan\r\n- 域名一键拉黑的时候删除不彻底\r\n-  XScan任务的XOrganization直接调用数据库查询IP和Domain资产的Bug\r\n\r\n### Thirdparty版本\r\n\r\n- Httpx：1.3.4\r\n- Subfinder：2.6.1\r\n- Nuclei：2.9.10\r\n- Observe_ward：2023.8.3"
     },
     "https://github.com/yuyan-sec/RedisEXP": {
         "created_at": "2022-03-19 14:41:00",
@@ -2095,11 +2095,11 @@
     "https://github.com/whwlsfb/Log4j2Scan": {
         "created_at": "2021-12-10 06:16:52",
         "description": "Log4j2 RCE Passive Scanner plugin for BurpSuite",
-        "commit_date": "2023-08-03 08:37:07",
-        "commit_message": "fix dig.pm backed. #62",
-        "release_tag": "V0.13.1",
-        "release_date": "2022-10-21 06:49:07",
-        "release_message": "- 修复在BurpSuite 2022.9中兼容性问题 #49 .\r\n- 增加并发功能。\r\n- 增加延迟检测功能。"
+        "commit_date": "2023-08-04 02:54:16",
+        "commit_message": "Update compile.yml",
+        "release_tag": "dev-20230804T025448",
+        "release_date": "2023-08-04 02:54:50",
+        "release_message": ""
     },
     "https://github.com/awake1t/linglong": {
         "created_at": "2020-09-08 16:56:37",
@@ -2951,8 +2951,8 @@
     "https://github.com/dbeaver/dbeaver": {
         "created_at": "2015-10-21 08:26:28",
         "description": "Free universal database tool and SQL client",
-        "commit_date": "2023-08-03 17:13:34",
-        "commit_message": "#20777 Sync \"Show virtual model editor\" with active navigator view mode (#20791)",
+        "commit_date": "2023-08-04 15:03:52",
+        "commit_message": "dbeaver/pro#1724 salesforce jdbc driver (#20799)\n\n* dbeaver/pro#1724 Execute queries\r\n\r\n* dbeaver/pro#1724 Execute queries + data types + icons\r\n\r\n* dbeaver/pro#1724 Debug logging\r\n\r\n* dbeaver/pro#1724 Nested attributes read\r\n\r\n* dbeaver/pro#1760 Use custom asterisk for count\r\n\r\n* dbeaver/pro#1760 Dictionary model refactoring. Search text separated from key value.\r\n\r\n* dbeaver/pro#1760 Generic DS info refactoring",
         "release_tag": "23.1.3",
         "release_date": "2023-07-23 19:28:17",
         "release_message": "\n                - Spatial data viewer:\n                    - Geometry object labels were added to the map (configurable)\n                    - Curves rendering was implemented\n                    - Coordinates and viewport bounds copy was implemented\n                    - EWKT format support was added\n                    - Toolbars and lasso visibility toggle was fixed\n                - Data transfer:\n                    - Import of multiple tables from an XLSX was implemented\n                    - Lazy initialization of configuration pages was implemented\n                    - Issue with duplicated file selector dialog was fixed\n                    - Export in XML format was fixed (doctype section is not optional)\n                    - Issue long filenames on Windows was fixed\n                - Data Editor:\n                    - Find/Replace dialog and shortcut in the Value view panel were fixed\n                    - Column description was added to the Metadata panel\n                    - Folding in the XML presentation was fixed\n                    - Displaying of images in the the value view panel was fixed on Linux\n                    - Confirmation dialog for the result set filtering was improved\n                - Accessibility:\n                    - JAWs screen reader can now read data in the Data grid\n                - General UI:\n                    - Tips of the day were updated\n                    - Creation of objects with mixed-case identifiers was fixed\n                    - DDL generation for sequence was fixed\n                    - Logical project deletion was fixed\n                    - Issue with opening of a local project was fixed\n                - AI:\n                    - New GPT 3.5 Turbo 16К model was added\n                    - Issue with long metadata information sending was fixed\n                - Connections:\n                    - Duplicates on driver creation were removed\n                    - Issue with maven artifacts editing was fixed\n                    - Certificate management UI was improved\n                - New drivers:\n                    - Materialize database driver was added (thanks @bobbyiliev)\n                    - Crate DB via PostgreSQL driver was improved (thanks @proddata)\n                - Databases:\n                    - DB2: users can see Column Mask Objects\n                    - TimescaleDB branding was updated\n                - Localization:\n                    - Chinese Simplified localization was improved (thanks @bynyun)\n                    - German localization was improved (thanks @fjf2002)\n            "
@@ -2987,8 +2987,8 @@
     "https://github.com/whwlsfb/BurpCrypto": {
         "created_at": "2020-05-29 02:59:15",
         "description": "BurpCrypto is a collection of burpsuite encryption plug-ins, support AES/RSA/DES/ExecJs(execute JS encryption code in burpsuite). 支持多种加密算法或直接执行JS代码的用于爆破前端加密的BurpSuite插件",
-        "commit_date": "2023-03-17 04:34:11",
-        "commit_message": "enhance rsa exponent logic.",
+        "commit_date": "2023-08-04 02:53:50",
+        "commit_message": "Update compile.yml",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -3050,8 +3050,8 @@
     "https://github.com/zan8in/afrog": {
         "created_at": "2022-02-24 06:00:32",
         "description": "A Security Tool for Bug Bounty, Pentest and Red Teaming.",
-        "commit_date": "2023-08-02 05:47:07",
-        "commit_message": "update",
+        "commit_date": "2023-08-04 01:58:58",
+        "commit_message": "update format bug",
         "release_tag": "v2.7.7",
         "release_date": "2023-07-30 06:12:36",
         "release_message": "**Add:**\r\n- \"POC Execution Duration Monitor\": This monitor tracks and records the execution time of each POC to identify the POC with the longest execution time.\r\n- \"Vulnerability Scanner Breakpoint\": Once a vulnerability is detected, the scanning program will immediately halt the scan and report the identified vulnerability.\r\n\r\n**新增：**\r\n- -pedm  \"POC Execution Duration Monitor\"（POC执行时长监视器）：监控并记录各个POC执行的时间，以便识别执行时间最长的POC。当一个POC执行时间超过1分钟时，将会触发提醒，接着每隔1分钟提醒一次，直到该POC执行完毕。\r\n- \"Vulnerability Scanner Breakpoint\"（漏洞扫描断点）：在发现漏洞后，扫描程序将立即停止扫描并报告该漏洞。此功能通常用于避免触发防火墙等情况下的过多扫描。\r\n\r\n**优化：**\r\n- \"arcgis-default-password\"（ArcGIS默认口令）：将ArcGIS的3个Admin/Manager/Rest默认口令的PoC合并为一个。\r\n- 对于 \"mysql-detect\" 和 \"CVE-2023-25573\"，进行误报修复。\r\n- 针对CVE-2023-25157，提升扫描速度。\r\n"
@@ -3300,8 +3300,8 @@
         "description": "Elkeid is an open source solution that can meet the security requirements of various workloads such as hosts, containers and K8s, and serverless. It is derived from ByteDance's internal best practices.",
         "commit_date": "2023-07-19 08:06:37",
         "commit_message": "Merge pull request #518 from Hackerl/main\n\nadd namesapce mount tool",
-        "release_tag": "rasp-v2.2.0.7-pre",
-        "release_date": "2023-07-19 08:35:01",
+        "release_tag": "scanner-v2.2.1.0_20230804_test_only",
+        "release_date": "2023-08-04 07:00:27",
         "release_message": ""
     },
     "https://github.com/knownsec/ct": {
@@ -3908,8 +3908,8 @@
     "https://github.com/anchore/syft": {
         "created_at": "2020-05-07 18:19:29",
         "description": "CLI tool and library for generating a Software Bill of Materials from container images and filesystems",
-        "commit_date": "2023-08-03 23:23:50",
-        "commit_message": "fix: update glob to use newer usr/lib/sysimage path (#1997)\n\nSee this link for details on the path migration for the rpmdb\r\nhttps://fedoraproject.org/wiki/Changes/RelocateRPMToUsr\r\n\r\nSigned-off-by: Christopher Phillips <christopher.phillips@anchore.com>",
+        "commit_date": "2023-08-04 18:24:31",
+        "commit_message": "chore(deps): bump modernc.org/sqlite from 1.24.0 to 1.25.0 (#1998)\n\nBumps [modernc.org/sqlite](https://gitlab.com/cznic/sqlite) from 1.24.0 to 1.25.0.\r\n- [Commits](https://gitlab.com/cznic/sqlite/compare/v1.24.0...v1.25.0)\r\n\r\n---\r\nupdated-dependencies:\r\n- dependency-name: modernc.org/sqlite\r\n  dependency-type: direct:production\r\n  update-type: version-update:semver-minor\r\n...\r\n\r\nSigned-off-by: dependabot[bot] <support@github.com>\r\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
         "release_tag": "v0.86.1",
         "release_date": "2023-07-31 17:42:33",
         "release_message": "# Changelog\r\n\r\n## [v0.86.1](https://github.com/anchore/syft/tree/v0.86.1) (2023-07-31)\r\n\r\n[Full Changelog](https://github.com/anchore/syft/compare/v0.86.0...v0.86.1)\r\n\r\n### Bug Fixes\r\n\r\n- Source requires default image name as user input for unparsable reference [[PR #1979](https://github.com/anchore/syft/pull/1979)] [[kzantow](https://github.com/kzantow)] \r\n\r\n\r\n"
@@ -3917,8 +3917,8 @@
     "https://github.com/chaitin/safeline": {
         "created_at": "2023-04-12 11:30:14",
         "description": "一款足够简单、足够好用、足够强的免费 WAF。基于业界领先的语义引擎检测技术，作为反向代理接入，保护你的网站不受黑客攻击。",
-        "commit_date": "2023-08-03 10:22:57",
-        "commit_message": "feat: remove dup info of offline upgrade",
+        "commit_date": "2023-08-03 10:53:39",
+        "commit_message": "feat(doc): adjust ui of detection page",
         "release_tag": "v2.5.0",
         "release_date": "2023-08-03 10:18:28",
         "release_message": "### 新增\r\n\r\n- 请求频率限制（[#29](https://github.com/chaitin/safeline/issues/29)）\r\n\r\n### 优化\r\n\r\n- 支持筛选攻击检测日志的 ID（[#74](https://github.com/chaitin/safeline/issues/74)），优化筛选的交互\r\n- 证书支持 .cer 格式（[#181](https://github.com/chaitin/safeline/issues/181)）\r\n- 优化人机校验页面，适配移动端（[#184](https://github.com/chaitin/safeline/issues/184)）\r\n- 界面增加一些配置提示：添加站点时 “域名” 的格式、黑白名单/人机验证中匹配条件的生效逻辑"
@@ -3980,11 +3980,11 @@
     "https://github.com/anchore/grype": {
         "created_at": "2020-05-26 13:44:38",
         "description": "A vulnerability scanner for container images and filesystems",
-        "commit_date": "2023-08-03 21:28:37",
-        "commit_message": "fix: some hang conditions (#1414)\n\nSigned-off-by: Keith Zantow <kzantow@gmail.com>",
-        "release_tag": "v0.65.0",
-        "release_date": "2023-07-31 18:12:55",
-        "release_message": "# Changelog\n\n## [v0.65.0](https://github.com/anchore/grype/tree/v0.65.0) (2023-07-31)\n\n[Full Changelog](https://github.com/anchore/grype/compare/v0.64.2...v0.65.0)\n\n### Added Features\n\n- feat: implement secondary sorting for default json output [[PR #1403](https://github.com/anchore/grype/pull/1403)] [[spiffcs](https://github.com/spiffcs)]\n- Consistent sort order for grype output [[Issue #709](https://github.com/anchore/grype/issues/709)] [[PR #1400](https://github.com/anchore/grype/pull/1400)] [[spiffcs](https://github.com/spiffcs)]\n\n### Bug Fixes\n\n- Grype reading SPDX file with json output gets UnknownScheme error [[Issue #948](https://github.com/anchore/grype/issues/948)]\n- grype 0.64.0 doesn't list vulnerabilties if `--fail-on` fails [[Issue #1392](https://github.com/anchore/grype/issues/1392)] [[PR #1395](https://github.com/anchore/grype/pull/1395)] [[willmurphyscode](https://github.com/willmurphyscode)]\n\n### Additional Changes\n\n- chore: bump quality gate label dataset [[PR #1404](https://github.com/anchore/grype/pull/1404)] [[westonsteimel](https://github.com/westonsteimel)]\n\n\n\n"
+        "commit_date": "2023-08-04 20:48:21",
+        "commit_message": "chore: use syft v0.86.1 in the quality gate tests (#1418)\n\n* chore: use syft v0.86.1 in the quality gate tests\r\n\r\nThis ensures the CPE dict enhancements are taken into account for\r\nfuture quality gate comparisons\r\n\r\nSigned-off-by: Weston Steimel <weston.steimel@anchore.com>\r\n\r\n* fix: bump runner to use larger disk\r\n\r\nSigned-off-by: Christopher Phillips <cphillips918@gmail.com>\r\n\r\n---------\r\n\r\nSigned-off-by: Weston Steimel <weston.steimel@anchore.com>\r\nSigned-off-by: Christopher Phillips <cphillips918@gmail.com>\r\nCo-authored-by: Christopher Phillips <cphillips918@gmail.com>",
+        "release_tag": "v0.65.1",
+        "release_date": "2023-08-04 13:06:03",
+        "release_message": "# \n\n## [v0.65.1](https://github.com/anchore/grype/tree/v0.65.1) (2023-08-04)\n\n[Full Changelog](https://github.com/anchore/grype/compare/v0.65.0...v0.65.1)\n\n### Bug Fixes\n\n- Grype cannot read SPDX documents generated by SPDX-maven-plugin [[Issue #1306](https://github.com/anchore/grype/issues/1306)]\n\n\n\n"
     },
     "https://github.com/Metarget/metarget": {
         "created_at": "2021-04-09 04:20:47",
@@ -4061,8 +4061,8 @@
     "https://github.com/WebGoat/WebGoat": {
         "created_at": "2015-03-06 14:02:02",
         "description": "WebGoat is a deliberately insecure application",
-        "commit_date": "2023-07-30 13:10:31",
-        "commit_message": "chore: bump com.diffplug.spotless:spotless-maven-plugin from 2.33.0 to 2.38.0 (#1535)\n\n* chore: bump com.diffplug.spotless:spotless-maven-plugin\r\n\r\nBumps [com.diffplug.spotless:spotless-maven-plugin](https://github.com/diffplug/spotless) from 2.33.0 to 2.38.0.\r\n- [Changelog](https://github.com/diffplug/spotless/blob/main/CHANGES.md)\r\n- [Commits](https://github.com/diffplug/spotless/compare/lib/2.33.0...lib/2.38.0)\r\n\r\n---\r\nupdated-dependencies:\r\n- dependency-name: com.diffplug.spotless:spotless-maven-plugin\r\n  dependency-type: direct:production\r\n  update-type: version-update:semver-minor\r\n...\r\n\r\nSigned-off-by: dependabot[bot] <support@github.com>\r\n\r\n* chore: format code\r\n\r\n---------\r\n\r\nSigned-off-by: dependabot[bot] <support@github.com>\r\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>\r\nCo-authored-by: Nanne Baars <nanne.baars@owasp.org>",
+        "commit_date": "2023-08-04 14:34:49",
+        "commit_message": "chore: bump com.nulab-inc:zxcvbn from 1.7.0 to 1.8.0 (#1542)\n\nBumps [com.nulab-inc:zxcvbn](https://github.com/nulab/zxcvbn4j) from 1.7.0 to 1.8.0.\r\n- [Release notes](https://github.com/nulab/zxcvbn4j/releases)\r\n- [Changelog](https://github.com/nulab/zxcvbn4j/blob/master/CHANGELOG.md)\r\n- [Commits](https://github.com/nulab/zxcvbn4j/compare/1.7.0...1.8.0)\r\n\r\n---\r\nupdated-dependencies:\r\n- dependency-name: com.nulab-inc:zxcvbn\r\n  dependency-type: direct:production\r\n  update-type: version-update:semver-minor\r\n...\r\n\r\nSigned-off-by: dependabot[bot] <support@github.com>\r\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
         "release_tag": "v2023.4",
         "release_date": "2023-02-17 12:16:10",
         "release_message": "## Version 2023.4\r\n\r\n### New functionality\r\n\r\n- [#1422 Add Docker Linux Desktop variant with all tools installed](https://github.com/WebGoat/WebGoat/issues/1422). Thanks to the [OWASP WrongSecrets project](https://owasp.org/www-project-wrongsecrets/) we now have a Docker Linux desktop image with all the tools installed. No need to install any tools locally only run the new Docker image. See README.md for details on how to start it.\r\n- [#1411 JWT: looks that buy as Tom also works with alg:none](https://github.com/WebGoat/WebGoat/issues/1411).\r\n\r\n### Bug fixes\r\n\r\n- [#1410 WebWolf: JWT decode is broken](https://github.com/WebGoat/WebGoat/issues/1410).\r\n- [#1396 password_reset return 500 Error](https://github.com/WebGoat/WebGoat/issues/1396).\r\n- [#1379 Move XXE to A05:2021-Security Misconfiguration](https://github.com/WebGoat/WebGoat/issues/1379)."
@@ -4277,7 +4277,7 @@
     "https://github.com/aiboboxx/v2rayfree": {
         "created_at": "2021-10-13 11:34:53",
         "description": "v2ray公益免费节点、最新2ray免费v节点订阅地址、v2ray免费节点每日更新、免费ss/v2ray/trojan节点、freefq ",
-        "commit_date": "2023-08-03 12:38:17",
+        "commit_date": "2023-08-04 12:36:14",
         "commit_message": "update",
         "release_tag": "",
         "release_date": "",
@@ -4295,8 +4295,8 @@
     "https://github.com/dark-kingA/superSearchPlus": {
         "created_at": "2022-10-04 10:08:42",
         "description": "谷歌插件版本- superSearchPlus是聚合型信息收集插件，支持综合查询，资产测绘查询，信息收集 敏感信息提取 js资源扫描 目录扫描 vue组件扫描 整合了目前常见的资产测绘平台 同时支持数据导出",
-        "commit_date": "2023-07-22 13:58:46",
-        "commit_message": "1.优化ui以及bug\n2.默认将扫描端口 使用fofa-host",
+        "commit_date": "2023-08-04 14:50:11",
+        "commit_message": "Update README.md",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -4322,8 +4322,8 @@
     "https://github.com/freefq/free": {
         "created_at": "2020-06-07 02:48:33",
         "description": "翻墙、免费翻墙、免费科学上网、免费节点、免费梯子、免费ss/v2ray/trojan节点、蓝灯、谷歌商店、翻墙梯子",
-        "commit_date": "2023-08-04 00:00:02",
-        "commit_message": "updated_at 08-04 08:00",
+        "commit_date": "2023-08-05 00:00:03",
+        "commit_message": "updated_at 08-05 08:00",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -4601,8 +4601,8 @@
     "https://github.com/rockbenben/ChatGPT-Shortcut": {
         "created_at": "2023-02-24 12:53:49",
         "description": "🚀💪Maximize your efficiency and productivity, support for English,中文,Español,العربية. 让生产力加倍的 ChatGPT 快捷指令，按照领域和功能分区，可对提示词进行标签筛选、关键词搜索和一键复制。",
-        "commit_date": "2023-08-02 23:13:09",
-        "commit_message": "feat: Display confirmation before deleting a comment.",
+        "commit_date": "2023-08-04 06:43:17",
+        "commit_message": "docs: update docs",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -4781,8 +4781,8 @@
     "https://github.com/zaivanza/all-in-one-v2": {
         "created_at": "2023-04-29 09:03:49",
         "description": "",
-        "commit_date": "2023-07-20 13:37:25",
-        "commit_message": "add to_chains",
+        "commit_date": "2023-08-04 03:51:24",
+        "commit_message": "removed sleeping between wallets if tx is falied",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -5004,8 +5004,8 @@
     "https://github.com/rustdesk/rustdesk": {
         "created_at": "2020-09-28 15:36:08",
         "description": "An open-source alternative to TeamViewer.",
-        "commit_date": "2023-08-03 14:06:31",
-        "commit_message": "Merge branch 'master' of github.com-rustdesk:rustdesk/rustdesk",
+        "commit_date": "2023-08-04 15:19:10",
+        "commit_message": "add uuid to heartbeat",
         "release_tag": "1.2.1",
         "release_date": "2023-07-12 07:28:05",
         "release_message": "\r\n![image](https://github.com/rustdesk/rustdesk/assets/71636191/b444deab-7971-4de7-b315-6a9b4974c7ea)\r\n\r\n> Winget, FDroid, Apple Sillicon, Google Play / App Store update will come soon.\r\n\r\nx86-64: [Windows](https://github.com/rustdesk/rustdesk/releases/download/1.2.1/rustdesk-1.2.1-x86_64.exe) | [Ubuntu](https://github.com/rustdesk/rustdesk/releases/download/1.2.1/rustdesk-1.2.1-x86_64.deb) | [Mac](https://github.com/rustdesk/rustdesk/releases/download/1.2.1/rustdesk-1.2.1-x86_64.dmg)\r\nAArch64 (ARM64):  [Ubuntu](https://github.com/rustdesk/rustdesk/releases/download/1.2.1/rustdesk-1.2.1-aarch64.deb) | [Android](https://github.com/rustdesk/rustdesk/releases/download/1.2.1/rustdesk-1.2.1-aarch64-signed.apk)\r\nMore: [check below please](#)\r\n\r\n<details>\r\n<summary>Changelog</summary>\r\n\r\n- fix #4856 \r\n- fix #4866 \r\n- fix email login verfication bug on mobile #4874, and fix email login verification wrong error message\r\n- refactor chat notification both on mobile and desktop #4878 #4889 #4943\r\n- fix #4890 \r\n- fix privacy broker zombie process #4916 \r\n- improve remote menubar #4922\r\n- try to fix issue #3261 with new api, but not sure if it works\r\n- adjust tab theme to make it more clear\r\n- partially fix #4896 \r\n- fix #4880 \r\n- refactor id inputbox on mobile\r\n\r\n</details>\r\n"
@@ -5148,8 +5148,8 @@
     "https://github.com/FreeRDP/FreeRDP": {
         "created_at": "2011-06-30 19:14:15",
         "description": "FreeRDP is a free remote desktop protocol library and clients",
-        "commit_date": "2023-08-03 15:55:49",
-        "commit_message": "[client,common] Fix minor code errors\n\n`cctx->contacts` -> `cctx->pens`",
+        "commit_date": "2023-08-04 13:09:59",
+        "commit_message": "[codec,rfx] fix possible out of bound read\n\nAllows malicious servers to crash FreeRDP based clients\nreported by @pwn2carr",
         "release_tag": "2.10.0",
         "release_date": "2023-02-16 13:46:39",
         "release_message": " Notewhorth changes:\r\n * Fix android build scripts, use CMake from SDK\r\n * Fix connection negotiation with mstsc/msrdc #8426\r\n * [ntlm]: use rfc5929 binding hash algorithm #8430\r\n * [channels,printer] Fixed reference counting #8433\r\n * Fix uwac pixman #8439\r\n * Fix Rdp security #8457\r\n * [client,x11] Detect key autorepeat #8522\r\n * [build] add channel path to RPATH #8551\r\n * Fix build with BUILTIN_CHANNELS=OFF #8560\r\n * revert changes so that the osmajortype/osminortype is not overwritten #8571\r\n * [uwac] do not use iso C functions #8604\r\n * [winpr,sam] fix inalid NULL arguments #8605\r\n * Fix incompatible function pointer types #8625\r\n \r\n Fixed issues:\r\n * Backported #8581: Ignore data PDUs for DVCs that were not opened successfully\r\n * Backported #8498: [channel,urbdrc] fix type of usb hotplug callback\r\n * Backported #8537: Extended info enforce limits\r\n * Backported #8611: [core] add missing redirection fields\r\n \r\n"
@@ -5542,8 +5542,8 @@
     "https://github.com/BloodHoundAD/BloodHound": {
         "created_at": "2016-04-17 18:36:14",
         "description": "Six Degrees of Domain Admin",
-        "commit_date": "2023-07-26 14:58:46",
-        "commit_message": "Merge pull request #687 from ShutdownRepo/patch-1\n\nFixing LinuxAbuse.jsx dacledit.py DCSync command",
+        "commit_date": "2023-08-04 21:08:37",
+        "commit_message": "Update bloodhound-py.rst",
         "release_tag": "v4.3.1",
         "release_date": "2023-05-23 17:06:23",
         "release_message": "## What's Changed\r\n* Adding abuse guidance from UNIX-like hosts by @ShutdownRepo in https://github.com/BloodHoundAD/BloodHound/pull/625\r\n* small typo: whisper -> whisker by @chadduffey in https://github.com/BloodHoundAD/BloodHound/pull/629\r\n* Update wording to \"acceptable\" terms by @cln-io in https://github.com/BloodHoundAD/BloodHound/pull/609\r\n* Fix Wrong Statements In Azure Post Processing setGlobalAdminHighValue & setPrivRoleAdminHighValue by @lbrauns in https://github.com/BloodHoundAD/BloodHound/pull/595\r\n* Fix edgeIncluded label partially clickable by @CravateRouge in https://github.com/BloodHoundAD/BloodHound/pull/597\r\n* Kerberoastable user with most priv query fix by @DoubtfulJerboa in https://github.com/BloodHoundAD/BloodHound/pull/606\r\n* Update sharphound.rst with up-to-date link by @Japillow in https://github.com/BloodHoundAD/BloodHound/pull/631\r\n* Remove .bin extension from instruction by @JonasBK in https://github.com/BloodHoundAD/BloodHound/pull/640\r\n* Minor Update of Neo4J Compatible Version to 4.4.19 by @kaydaskalakis in https://github.com/BloodHoundAD/BloodHound/pull/659\r\n* Added import of \"Group Types\" and \"Membership Rule\" for AZGroups by @ahazu in https://github.com/BloodHoundAD/BloodHound/pull/647\r\n* Update linux.rst - Fixed installation documentation to get correct version of neo4j by @angry-bender in https://github.com/BloodHoundAD/BloodHound/pull/622\r\n* Blood hound documentation update by @LuemmelSec in https://github.com/BloodHoundAD/BloodHound/pull/664\r\n* Contribution of the DumpSMSAPassword edge with its documentation by @simondotsh in https://github.com/BloodHoundAD/BloodHound/pull/626\r\n* 4.3.1 by @JonasBK in https://github.com/BloodHoundAD/BloodHound/pull/668\r\n\r\n## New Contributors\r\n* @ShutdownRepo made their first contribution in https://github.com/BloodHoundAD/BloodHound/pull/625\r\n* @chadduffey made their first contribution in https://github.com/BloodHoundAD/BloodHound/pull/629\r\n* @cln-io made their first contribution in https://github.com/BloodHoundAD/BloodHound/pull/609\r\n* @lbrauns made their first contribution in https://github.com/BloodHoundAD/BloodHound/pull/595\r\n* @CravateRouge made their first contribution in https://github.com/BloodHoundAD/BloodHound/pull/597\r\n* @DoubtfulJerboa made their first contribution in https://github.com/BloodHoundAD/BloodHound/pull/606\r\n* @Japillow made their first contribution in https://github.com/BloodHoundAD/BloodHound/pull/631\r\n* @kaydaskalakis made their first contribution in https://github.com/BloodHoundAD/BloodHound/pull/659\r\n* @ahazu made their first contribution in https://github.com/BloodHoundAD/BloodHound/pull/647\r\n* @angry-bender made their first contribution in https://github.com/BloodHoundAD/BloodHound/pull/622\r\n* @LuemmelSec made their first contribution in https://github.com/BloodHoundAD/BloodHound/pull/664\r\n\r\n**Full Changelog**: https://github.com/BloodHoundAD/BloodHound/compare/v4.3.0...v4.3.1"
@@ -5783,9 +5783,9 @@
         "description": "🔥  Proxy is a high performance HTTP(S) proxies, SOCKS5 proxies,WEBSOCKET, TCP, UDP proxy server implemented by golang. Now, it supports chain-style proxies,nat forwarding in different lan,TCP/UDP port forwarding, SSH forwarding.Proxy是golang实现的高性能http,https,websocket,tcp,socks5代理服务器,支持内网穿透,链式代理,通讯加密,智能HTTP,SOCKS5代理,黑白名单,限速,限流量,限连接数,跨平台,KCP支持,认证API。",
         "commit_date": "2023-08-01 02:53:22",
         "commit_message": "update",
-        "release_tag": "v13.5",
-        "release_date": "2023-08-01 03:04:58",
-        "release_message": "1、认证API返回outgoing是一个网段不生效的问题。"
+        "release_tag": "v13.6",
+        "release_date": "2023-08-04 10:04:08",
+        "release_message": "1、修复绑定出口ip的时候的一处逻辑bug。"
     },
     "https://github.com/jiansiting/Decryption-Tools": {
         "created_at": "2019-05-27 15:39:00",
