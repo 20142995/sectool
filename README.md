@@ -1,8 +1,11 @@
-# 更新于 2023-08-05 08:39:45
+# 更新于 2023-08-06 08:36:59
 
 ## 近15天release更新记录
 | 更新时间 | 项目名称 | 版本 | 更新内容 |
 | :---- | :---- | :---- | :---- |
+|2023-08-06 00:20:52|[wappalyzergo](https://github.com/projectdiscovery/wappalyzergo)|v0.0.10<br>8|###  (2023-08-06)|
+|2023-08-05 16:20:38|[PEASS-ng](https://github.com/carlospolop/PEASS-ng)|2023080<br>5-d16093<br>87||
+|2023-08-05 00:41:43|[neuvector](https://github.com/neuvector/neuvector)|v5.2.0-<br>s1||
 |2023-08-04 13:06:03|[grype](https://github.com/anchore/grype)|v0.65.1|#   ##  (2023-08-04)    ### Bug Fixes<br>  - Grype cannot read SPDX documents g<br>enerated by SPDX-maven-plugin ]    |
 |2023-08-04 10:04:08|[goproxy](https://github.com/snail007/goproxy)|v13.6|1、修复绑定出口ip的时候的一处逻辑bug<br>。|
 |2023-08-04 07:00:27|[Elkeid](https://github.com/bytedance/Elkeid)|scanner<br>-v2.2.1.<br>0_202308<br>04_test_<br>only||
@@ -17,10 +20,8 @@
 |2023-08-02 09:05:19|[arthas](https://github.com/alibaba/arthas)|arthas-<br>all-3.7.<br>0|Issues:  https://github.com/alibaba/a<br>rthas/milestone/48?closed=1    * https<br>://github.com/alibaba/arthas/issues/25<br>72  tunnel-server detail-pages 页面支<br>持自定义 port  * https://github.com/ali<br>baba/arthas/issues/2603 tunnel server <br>里的 SimpleHttpResponse 序列化增加白名<br>单|
 |2023-08-01 09:08:35|[trivy](https://github.com/aquasecurity/trivy)|v0.44.0|## ⚡Release highlights and summary⚡<br>    👉 https://github.com/aquasecurity<br>/trivy/discussions/4903    ## Changelo<br>g  * d19c7d9f2 feat(repo): support loc<br>al repositories (#4890)  * 3c1976187 b<br>ump go-dep-parser (#4893)  * e1c2a8c80<br> fix(misconf): add missing fields to p<br>roto (#4861)  * 8b8e0e83d fix: remove <br>trivy-db package replacement (#4877)  <br>* f9efe44fd chore(test): bump the inte<br>gration test timeout to 15m (#4880)  *<br> 7271d682f chore(deps): Update defsec <br>to v0.91.0 (#4886)  * c3bc67c89 chore:<br> update CODEOWNERS (#4871)  * 232ba823<br>e feat(vuln): support vulnerability st<br>atus (#4867)  * 11618c940 feat(misconf<br>): Support custom URLs for policy bund<br>le (#4834)  * 07075696d refactor: repl<br>ace with sortable packages (#4858)  * <br>fbe1c9eb1 docs: correct license scanni<br>ng sample command (#4855)  * 20c2246a6<br> fix(report): close the file (#4842)  <br>* 24a3e547d feat(nodejs): add support <br>for include-dev-deps flag for yarn (#4<br>812)  * a7bd7bb65 feat(misconf): Add s<br>upport for independently enabling libr<br>aries (#4070)  * 4aa9ea096 feat(secret<br>): add secret config file for cache ca<br>lculation (#4837)  * 5d349d814 Fix a l<br>ink in gitlab-ci.md (#4850)  * a61531c<br>1f fix(flag): use globalstar to skip d<br>irectories (#4854)  * 78cc20937 chore(<br>deps): bump github.com/docker/docker f<br>rom v23.0.5+incompatible to v23.0.7-0.<br>20230714215826-f00e7af96042+incompatib<br>le (#4849)  * 93996041b fix(license): <br>using common way for splitting license<br>s (#4434)  * 3e2416d77 fix(containerd)<br>: Use img platform in exporter instead<br> of strict host platform (#4477)  * ce<br>77bb46c remove govulndb (#4783)  * c05<br>caae43 fix(java): inherit licenses fro<br>m parents (#4817)  * aca11b95d refacto<br>r: add allowed values for CLI flags (#<br>4800)  * 4cecd17ea add example regex t<br>o allow rules (#4827)  * 4bc8d29c1 fea<br>t(misconf): Support custom data for re<br>go policies for cloud (#4745)  * 88243<br>a0ad docs: correcting the trivy k8s tu<br>torial (#4815)  * 3c7d988d7 feat(cli):<br> add --tf-exclude-downloaded-modules f<br>lag (#4810)  * fd0fd104f fix(sbom): cy<br>clonedx recommendations should include<br> fixed versions for each package (#479<br>4)  * d0d543b88 feat(misconf): enable <br>--policy flag to accept directory and <br>files both (#4777)  * b43a3e623 feat(p<br>ython): add license fields (#4722)  * <br>aef7b148a fix: support trivy k8s-versi<br>on on k8s sub-command (#4786)    |
 |2023-07-31 17:42:33|[syft](https://github.com/anchore/syft)|v0.86.1|# Changelog    ##  (2023-07-31)      <br>  ### Bug Fixes    - Source requires d<br>efault image name as user input for un<br>parsable reference ] ]       |
-|2023-07-31 14:52:44|[PEASS-ng](https://github.com/carlospolop/PEASS-ng)|2023073<br>1-452f0c<br>44||
 |2023-07-31 01:44:05|[AsamF](https://github.com/Kento-Sec/AsamF)|v0.2.5|Fofa无法查询的问题来源于他们平台移除<br>了lastupdatetime的字段，感谢提交issue的<br>朋友  该版本移除lastupdatetime字段|
 |2023-07-30 06:12:36|[afrog](https://github.com/zan8in/afrog)|v2.7.7|**Add:**  - "POC Execution Duration M<br>onitor": This monitor tracks and recor<br>ds the execution time of each POC to i<br>dentify the POC with the longest execu<br>tion time.  - "Vulnerability Scanner B<br>reakpoint": Once a vulnerability is de<br>tected, the scanning program will imme<br>diately halt the scan and report the i<br>dentified vulnerability.    **新增：**<br>  - -pedm  "POC Execution Duration Mon<br>itor"（POC执行时长监视器）：监控并记录<br>各个POC执行的时间，以便识别执行时间最长<br>的POC。当一个POC执行时间超过1分钟时，将<br>会触发提醒，接着每隔1分钟提醒一次，直到<br>该POC执行完毕。  - "Vulnerability Scann<br>er Breakpoint"（漏洞扫描断点）：在发现<br>漏洞后，扫描程序将立即停止扫描并报告该<br>漏洞。此功能通常用于避免触发防火墙等情<br>况下的过多扫描。    **优化：**  - "arcg<br>is-default-password"（ArcGIS默认口令）<br>：将ArcGIS的3个Admin/Manager/Rest默认口<br>令的PoC合并为一个。  - 对于 "mysql-dete<br>ct" 和 "CVE-2023-25573"，进行误报修复<br>。  - 针对CVE-2023-25157，提升扫描速度<br>。  |
-|2023-07-30 00:24:17|[wappalyzergo](https://github.com/projectdiscovery/wappalyzergo)|v0.0.10<br>7|###  (2023-07-30)|
 |2023-07-28 16:47:41|[nuclei](https://github.com/projectdiscovery/nuclei)|v2.9.10|    ## What's Changed  ### 🎉 New Fea<br>tures  * Added markdown export sorting<br> options via env variable by @kchason <br>in https://github.com/projectdiscovery<br>/nuclei/pull/3961  console  export MAR<br>KDOWN_EXPORT_SORT_MODE=template # defa<br>ult  export MARKDOWN_EXPORT_SORT_MODE=<br>severity  export MARKDOWN_EXPORT_SORT_<br>MODE=host    * Added headless options <br>input by @dogancanbakir in https://git<br>hub.com/projectdiscovery/nuclei/pull/3<br>951  console     -ho, -headless-option<br>s string by @ehsandeep in https://gith<br>ub.com/projectdiscovery/nuclei/pull/39<br>68    Issues closed in this release - <br>https://github.com/projectdiscovery/nu<br>clei/milestone/37?closed=1    **Full C<br>hangelog**: https://github.com/project<br>discovery/nuclei/compare/v2.9.9...v2.9<br>.10|
 |2023-07-28 05:17:15|[fupo_for_yonyou](https://github.com/novysodope/fupo_for_yonyou)|2.0RC1|建议如果出现跟 #7 一样的问题再用这个<br>版本 |
 |2023-07-27 21:17:12|[clair](https://github.com/quay/clair)|v4.7.0| ## : enable mutex, blocking profiles<br> by default ### Build(Deps) - : bump g<br>olang.org/x/net from 0.11.0 to 0.12.0 <br>- : bump github.com/klauspost/compress<br> from 1.16.6 to 1.16.7 ### Chore - : b<br>ump claircore to v1.5.13 - : Bump clai<br>rcore to v1.5.12 - : Bump claircore to<br> v1.5.11 - : Bump claircore to v1.5.10<br> - : bump Claircore to v1.5.9 - : add <br>pyroscope to compose setup - : Update <br>outdated docs and comment with default<br> update period. - : remove refs to dep<br>recated io/ioutil - : Remove dogstatsd<br> variable and references ### Clairctl <br>- : Add post 4.7 admin command to dele<br>te pyupio vulns - : Scan the pointer t<br>o the pointer of the bool - : Add log <br>line signifying admin is done - : Remo<br>ve DSN logging - : admin subcommand ##<br># Cmd - : version for old gits  -  ###<br> Config - : pick a real versioning sch<br>eme ### Contrib - : Add manifest for a<br> Job to run DB jobs ### Docs - : Fix u<br>p debug tools table - : Add descriptio<br>n of debugging services available duri<br>ng local-dev ### Httptransport - : add<br> request ID to profiler labels ### Int<br>rospection - : add delta pprof endpoin<br>ts  [Unreleased]: https://github.com/q<br>uay/clair/compare/v4.7.0...HEAD [v4.7.<br>0]: https://github.com/quay/clair/comp<br>are/v4.7.0-rc.1...v4.7.0 |
@@ -37,18 +38,24 @@
 ## 近15天commit提交记录
 | 提交时间 | 项目名称 | 更新内容 |
 | :---- | :---- | :---- |
-|2023-08-05 00:00:03|[free](https://github.com/freefq/free)|updated_at 08-05 08:00|
-|2023-08-04 23:00:41|[PocOrExp_in_Githu<br>b](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-08-05 07:00:41|
+|2023-08-06 00:20:36|[wappalyzergo](https://github.com/projectdiscovery/wappalyzergo)|Weekly fingerprints update [Sun Aug  6 00:20:36 UTC<br> 2023] :robot:|
+|2023-08-06 00:19:29|[rustdesk](https://github.com/rustdesk/rustdesk)|Merge pull request #5259 from 21pages/fix  try fix <br>waiting for image when already shown|
+|2023-08-06 00:00:02|[free](https://github.com/freefq/free)|updated_at 08-06 08:00|
+|2023-08-05 21:45:14|[awesome-chatgpt-z<br>h](https://github.com/yzfly/awesome-chatgpt-zh)|update prompt readme|
+|2023-08-05 20:33:27|[PocOrExp_in_Githu<br>b](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-08-06 04:33:27|
+|2023-08-05 16:02:31|[PEASS-ng](https://github.com/carlospolop/PEASS-ng)|Merge pull request #380 from makikvues/fix-tests-an<br>d-logo  Fixed logo, removed  long-running checks fro<br>m tests,  create search lists only if necessary|
+|2023-08-05 12:33:30|[v2rayfree](https://github.com/aiboboxx/v2rayfree)|update|
+|2023-08-05 10:41:22|[goproxy](https://github.com/snail007/goproxy)|update|
+|2023-08-05 09:14:45|[sqlmap](https://github.com/sqlmapproject/sqlmap)|Fixes #5477|
+|2023-08-05 06:43:00|[FreeRDP](https://github.com/FreeRDP/FreeRDP)|[nightly,deb] fix libwebkit2gtk-4.0 name|
+|2023-08-05 03:28:41|[dalfox](https://github.com/hahwul/dalfox)|Merge pull request #485 from hahwul/dependabot/go_m<br>odules/golang.org/x/term-0.11.0  Bump golang.org/x/t<br>erm from 0.10.0 to 0.11.0|
 |2023-08-04 21:08:37|[BloodHound](https://github.com/BloodHoundAD/BloodHound)|Update bloodhound-py.rst|
 |2023-08-04 20:48:21|[grype](https://github.com/anchore/grype)|chore: use syft v0.86.1 in the quality gate tests (<br>#1418)  * chore: use syft v0.86.1 in the quality gat<br>e tests    This ensures the CPE dict enhancements ar<br>e taken into account for  future quality gate compar<br>isons    Signed-off-by: Weston Steimel     * fix: bu<br>mp runner to use larger disk    Signed-off-by: Chris<br>topher Phillips     ---------    Signed-off-by: West<br>on Steimel   Signed-off-by: Christopher Phillips   C<br>o-authored-by: Christopher Phillips |
 |2023-08-04 18:24:31|[syft](https://github.com/anchore/syft)|chore(deps): bump modernc.org/sqlite from 1.24.0 to<br> 1.25.0 (#1998)  Bumps  from 1.24.0 to 1.25.0.  -   <br>  ---  updated-dependencies:  - dependency-name: mod<br>ernc.org/sqlite    dependency-type: direct:productio<br>n    update-type: version-update:semver-minor  ...  <br>  Signed-off-by: dependabot[bot]   Co-authored-by: d<br>ependabot[bot] |
-|2023-08-04 15:19:10|[rustdesk](https://github.com/rustdesk/rustdesk)|add uuid to heartbeat|
 |2023-08-04 15:03:52|[dbeaver](https://github.com/dbeaver/dbeaver)|dbeaver/pro#1724 salesforce jdbc driver (#20799)  *<br> dbeaver/pro#1724 Execute queries    * dbeaver/pro#1<br>724 Execute queries + data types + icons    * dbeave<br>r/pro#1724 Debug logging    * dbeaver/pro#1724 Neste<br>d attributes read    * dbeaver/pro#1760 Use custom a<br>sterisk for count    * dbeaver/pro#1760 Dictionary m<br>odel refactoring. Search text separated from key val<br>ue.    * dbeaver/pro#1760 Generic DS info refactorin<br>g|
 |2023-08-04 14:50:11|[superSearchPlus](https://github.com/dark-kingA/superSearchPlus)|Update README.md|
 |2023-08-04 14:34:49|[WebGoat](https://github.com/WebGoat/WebGoat)|chore: bump com.nulab-inc:zxcvbn from 1.7.0 to 1.8.<br>0 (#1542)  Bumps  from 1.7.0 to 1.8.0.  -   -   -   <br>  ---  updated-dependencies:  - dependency-name: com<br>.nulab-inc:zxcvbn    dependency-type: direct:product<br>ion    update-type: version-update:semver-minor  ...<br>    Signed-off-by: dependabot[bot]   Co-authored-by:<br> dependabot[bot] |
 |2023-08-04 13:50:07|[BurpSuite-collect<br>ions](https://github.com/Mr-xn/BurpSuite-collections)|Update README.md|
-|2023-08-04 13:09:59|[FreeRDP](https://github.com/FreeRDP/FreeRDP)|[codec,rfx] fix possible out of bound read  Allows <br>malicious servers to crash FreeRDP based clients rep<br>orted by @pwn2carr|
-|2023-08-04 12:36:14|[v2rayfree](https://github.com/aiboboxx/v2rayfree)|update|
 |2023-08-04 09:30:01|[nemo_go](https://github.com/hanc00l/nemo_go)|Update: 为RPC及filesync启用TLS加密功能；升级rpcx依<br>赖到1.8.11|
 |2023-08-04 06:43:17|[ChatGPT-Shortcut](https://github.com/rockbenben/ChatGPT-Shortcut)|docs: update docs|
 |2023-08-04 06:20:58|[kscan](https://github.com/lcvvvv/kscan)|Merge pull request #149 from ruishawn/dev  fix: the<br> judgment condition is always true in function recvP<br>rotocolVe…|
@@ -61,7 +68,6 @@
 |2023-08-03 17:40:57|[impacket](https://github.com/fortra/impacket)|Update setup.py|
 |2023-08-03 15:32:39|[iDefender](https://github.com/wecooperate/iDefender)|update|
 |2023-08-03 13:55:32|[AsamF](https://github.com/Kento-Sec/AsamF)|Update README.md|
-|2023-08-03 13:29:34|[PEASS-ng](https://github.com/carlospolop/PEASS-ng)|Merge pull request #378 from Mateodevv/master  Fixe<br>d Typo in Readme for linPEASS|
 |2023-08-03 13:07:12|[trivy](https://github.com/aquasecurity/trivy)|chore(deps): bump github.com/openvex/go-vex from 0.<br>2.0 to 0.2.1 (#4914)  Bumps  from 0.2.0 to 0.2.1. - <br> -   --- updated-dependencies: - dependency-name: gi<br>thub.com/openvex/go-vex   dependency-type: direct:pr<br>oduction   update-type: version-update:semver-patch <br>...  Signed-off-by: dependabot[bot]  Co-authored-by:<br> dependabot[bot] |
 |2023-08-03 11:53:20|[RmTools](https://github.com/RoomaSec/RmTools)|支持ioc扫描|
 |2023-08-03 10:53:39|[safeline](https://github.com/chaitin/safeline)|feat(doc): adjust ui of detection page|
@@ -81,11 +87,9 @@
 |2023-08-02 07:46:01|[Mobile-Security-F<br>ramework-MobSF](https://github.com/MobSF/Mobile-Security-Framework-MobSF)|Dynamic Analysis support alert (#2227)|
 |2023-08-02 03:11:35|[knife](https://github.com/bit4woo/knife)|新增2个功能菜单|
 |2023-08-02 02:10:03|[dperf](https://github.com/baidu/dperf)|Merge pull request #348 from pengjianzhang/main  op<br>timization: remove useless sockets outside lport_ran<br>ge|
-|2023-08-01 09:45:20|[sqlmap](https://github.com/sqlmapproject/sqlmap)|Fixes #5479|
 |2023-08-01 07:16:41|[domain_hunter_pro](https://github.com/bit4woo/domain_hunter_pro)|update|
 |2023-08-01 04:44:27|[veinmind-tools](https://github.com/chaitin/veinmind-tools)|replace ioutil.ReadAll to io.ReadAll (#262)|
 |2023-08-01 03:02:00|[murphysec](https://github.com/murphysecurity/murphysec)|chore(deps): upgrade dependencies...|
-|2023-08-01 02:53:22|[goproxy](https://github.com/snail007/goproxy)|update|
 |2023-07-31 15:27:39|[flightsim](https://github.com/alphasoc/flightsim)|Pick random hosts if returned more than requested|
 |2023-07-31 03:58:14|[wmiexec-Pro](https://github.com/XiaoliChan/wmiexec-Pro)|Declaration|
 |2023-07-31 03:03:09|[404StarLink](https://github.com/knownsec/404StarLink)|weekly update at 2023-07-31|
@@ -94,7 +98,6 @@
 |2023-07-30 15:18:14|[0day](https://github.com/helloexp/0day)|update Metabase CVE-2023-38646 RCE add logging func|
 |2023-07-30 13:34:04|[ENScan_GO](https://github.com/wgpsec/ENScan_GO)|Merge pull request #71 from ruishawn/master  fix: <br>修复日志输出format格式不对的问题|
 |2023-07-30 02:22:35|[SmsForwarder](https://github.com/pppscn/SmsForwarder)|新增：webParams 的 [receive_time] 标签支持自定义时<br>间格式 #327|
-|2023-07-30 00:23:57|[wappalyzergo](https://github.com/projectdiscovery/wappalyzergo)|Weekly fingerprints update [Sun Jul 30 00:23:57 UTC<br> 2023] :robot:|
 |2023-07-28 17:38:47|[vulhub](https://github.com/vulhub/vulhub)|Merge pull request #453 from vulhub/multiple-fixes <br> Multiple fixes|
 |2023-07-28 16:13:09|[nuclei](https://github.com/projectdiscovery/nuclei)|version update|
 |2023-07-28 09:12:45|[kube-bench](https://github.com/aquasecurity/kube-bench)|build(deps): bump golang from 1.20.4 to 1.20.6 (#14<br>75)  Bumps golang from 1.20.4 to 1.20.6.    ---  upd<br>ated-dependencies:  - dependency-name: golang    dep<br>endency-type: direct:production    update-type: vers<br>ion-update:semver-patch  ...    Signed-off-by: depen<br>dabot[bot]   Co-authored-by: dependabot[bot] |
@@ -114,10 +117,7 @@
 |2023-07-23 05:05:26|[SharpWxDump](https://github.com/AdminTest0/SharpWxDump)|Update README.md|
 |2023-07-22 18:36:45|[rengine](https://github.com/yogeshojha/rengine)|remove redundant env vars|
 |2023-07-22 07:09:52|[Search_Viewer](https://github.com/G3et/Search_Viewer)|Update LICENSE|
-|2023-07-22 02:03:42|[Fvuln](https://github.com/d3ckx1/Fvuln)|Update README.md|
-|2023-07-21 09:35:24|[heapdump_tool](https://github.com/wyzxxz/heapdump_tool)|Update README.md|
-|2023-07-21 04:27:37|[Burp-Non-HTTP-Ext<br>ension](https://github.com/summitt/Burp-Non-HTTP-Extension)|Update README.md|
-|2023-07-21 01:37:09|[gshark](https://github.com/madneal/gshark)|Merge pull request #159 from madneal/dependabot/npm<br>_and_yarn/web/word-wrap-1.2.4  Bump word-wrap from 1<br>.2.3 to 1.2.4 in /web|## 所有项目
+|2023-07-22 02:03:42|[Fvuln](https://github.com/d3ckx1/Fvuln)|Update README.md|## 所有项目
 # 渗透测试
 ## 信息收集
 ### 资产测绘采集
@@ -166,7 +166,7 @@
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
 | [EHole](https://github.com/EdgeSecurityTeam/EHole) | v3.1 | EHole(棱洞)3.0 重构版-红队重点攻击系统指纹探测工具 |
-| [wappalyzergo](https://github.com/projectdiscovery/wappalyzergo) | v0.0.10<br>7 | A high performance go implementation of Wappalyzer Technology <br>Detection Library |
+| [wappalyzergo](https://github.com/projectdiscovery/wappalyzergo) | v0.0.10<br>8 | A high performance go implementation of Wappalyzer Technology <br>Detection Library |
 | [14Finger](https://github.com/b1ackc4t/14Finger) | V1.1 | 功能齐全的Web指纹识别和分享平台,基于vue3+django前后端分离的web<br>架构，并集成了长亭出品的rad爬虫的功能，内置了一万多条互联网开源<br>的指纹信息。 |
 | [WhatWeb](https://github.com/urbanadventurer/WhatWeb) | v0.5.5 | Next generation web scanner |
 | [TideFinger](https://github.com/TideSec/TideFinger) |  | TideFinger——指纹识别小工具，汲取整合了多个web指纹库，结合了<br>多种指纹检测方法，让指纹检测更快捷、准确。 |
@@ -374,7 +374,7 @@
 #### 云原生安全平台
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
-| [neuvector](https://github.com/neuvector/neuvector) | v5.2.0 |  |
+| [neuvector](https://github.com/neuvector/neuvector) | v5.2.0-<br>s1 |  |
 | [ThunderCloud](https://github.com/Rnalter/ThunderCloud) |  | Cloud Exploit Framework |
 ### 半自动化漏洞利用
 | 项目名称 | 版本 | 项目描述 |
@@ -747,7 +747,7 @@
 | [dirtycow](https://github.com/firefart/dirtycow) |  | Dirty Cow exploit - CVE-2016-5195 |
 | [traitor](https://github.com/liamg/traitor) | v0.0.14 | :arrow_up: :skull_and_crossbones: :fire: Automatic Linux prive<br>sc via exploitation of low-hanging fruit e.g. gtfobins, pwnkit,<br> dirty pipe, +w docker.sock |
 | [LinEnum](https://github.com/rebootuser/LinEnum) |  | Scripted Local Linux Enumeration & Privilege Escalation Checks |
-| [PEASS-ng](https://github.com/carlospolop/PEASS-ng) | 2023073<br>1-452f0c<br>44 | PEASS - Privilege Escalation Awesome Scripts SUITE (with color<br>s) |
+| [PEASS-ng](https://github.com/carlospolop/PEASS-ng) | 2023080<br>5-d16093<br>87 | PEASS - Privilege Escalation Awesome Scripts SUITE (with color<br>s) |
 | | | https://i.hacking8.com/tiquan/ |
 ### 综合
 | 项目名称 | 版本 | 项目描述 |
