@@ -200,8 +200,8 @@
     "https://github.com/ycdxsb/PocOrExp_in_Github": {
         "created_at": "2021-04-13 05:46:16",
         "description": "聚合Github上已有的Poc或者Exp，CVE信息来自CVE官网。Auto Collect Poc Or Exp from Github by CVE ID.",
-        "commit_date": "2023-08-05 20:33:27",
-        "commit_message": "update 2023-08-06 04:33:27",
+        "commit_date": "2023-08-06 23:04:09",
+        "commit_message": "update 2023-08-07 07:04:09",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -479,7 +479,7 @@
     "https://github.com/k8gege/K8tools": {
         "created_at": "2019-02-23 14:04:52",
         "description": "K8工具合集(内网渗透/提权工具/远程溢出/漏洞利用/扫描工具/密码破解/免杀工具/Exploit/APT/0day/Shellcode/Payload/priviledge/BypassUAC/OverFlow/WebShell/PenTest) Web GetShell Exploit(Struts2/Zimbra/Weblogic/Tomcat/Apache/Jboss/DotNetNuke/zabbix)",
-        "commit_date": "2023-06-18 13:44:40",
+        "commit_date": "2023-08-06 17:33:45",
         "commit_message": "Add files via upload",
         "release_tag": "",
         "release_date": "",
@@ -1017,7 +1017,7 @@
     "https://github.com/wecooperate/iDefender": {
         "created_at": "2021-11-24 11:38:28",
         "description": "iDefender（冰盾 - 终端主动防御系统）",
-        "commit_date": "2023-08-03 15:32:39",
+        "commit_date": "2023-08-06 10:52:25",
         "commit_message": "update",
         "release_tag": "2.9.0",
         "release_date": "2023-07-19 02:37:26",
@@ -1861,7 +1861,7 @@
     "https://github.com/f0ng/captcha-killer-modified": {
         "created_at": "2022-03-18 12:41:58",
         "description": "captcha-killer的修改版，支持关键词识别base64编码的图片，添加免费ocr库，用于验证码爆破，适配新版Burpsuite",
-        "commit_date": "2023-07-28 01:49:29",
+        "commit_date": "2023-08-06 04:13:27",
         "commit_message": "Update FAQ.md",
         "release_tag": "0.24.1",
         "release_date": "2023-07-02 10:36:57",
@@ -1888,11 +1888,11 @@
     "https://github.com/hanc00l/nemo_go": {
         "created_at": "2021-07-29 08:13:25",
         "description": "Nemo是用来进行自动化信息收集的一个简单平台，通过集成常用的信息收集工具和技术，实现对内网及互联网资产信息的自动收集，提高隐患排查和渗透测试的工作效率。",
-        "commit_date": "2023-08-04 09:30:01",
-        "commit_message": "Update: 为RPC及filesync启用TLS加密功能；升级rpcx依赖到1.8.11",
+        "commit_date": "2023-08-06 10:14:16",
+        "commit_message": "Update: 增加tls方式下的自签名证书的生成",
         "release_tag": "v2.10.0",
         "release_date": "2023-08-03 14:11:45",
-        "release_message": "### Updated\r\n\r\n- 增加runtimelog数据库表，worker的runtime日志通过RPC调用上传并保存，在web增加日志查看和管理功能（需要SuperAdmin权限），从v2.9升级需导入runtimelog.sql；\r\n- 新增worker按任务功能分别运行的模式（见安装手册）；\r\n- 增加根据工作空间对Worker进行自定义任务的实现；\r\n- 导出IP与Domain资产功能；\r\n- 对Fofa、quake及hunter的API增加查询限额；\r\n- subfinder对子域名去除泛解析；\r\n- windows平台的massdns使用和子域名爆破功能（感谢github.com/penson233/TailorFinder编译好二进制文件）\r\n- server增加HTTPS功能（启动命令-tls，详细见安装手册），为RPC及filesync启用TLS加密功能(-tls)\r\n- 升级beego至v2.1.1，rpcx到1.8.11\r\n\r\n### Fix\r\n\r\n- quake查询API参数服务器调整导致无法正确搜索结果；Fofa默认分页数与实际不一致导致的重复调用API；\r\n- subfinder v2.6.0异常退出bug\r\n- 导入离线扫描的gogo和fscan\r\n- 域名一键拉黑的时候删除不彻底\r\n-  XScan任务的XOrganization直接调用数据库查询IP和Domain资产的Bug\r\n\r\n### Thirdparty版本\r\n\r\n- Httpx：1.3.4\r\n- Subfinder：2.6.1\r\n- Nuclei：2.9.10\r\n- Observe_ward：2023.8.3"
+        "release_message": "### Updated\r\n\r\n- 增加runtimelog数据库表，worker的runtime日志通过RPC调用上传并保存，在web增加日志查看和管理功能（需要SuperAdmin权限），从v2.9升级需导入runtimelog.sql；\r\n- 新增worker按任务功能分别运行的模式（见安装手册）；\r\n- 增加根据工作空间对Worker进行自定义任务的实现；\r\n- 导出IP与Domain资产功能；\r\n- 对Fofa、quake及hunter的API增加查询限额；\r\n- subfinder对子域名去除泛解析；\r\n- windows平台的massdns使用和子域名爆破功能（感谢github.com/penson233/TailorFinder编译好二进制文件）\r\n- server增加HTTPS功能（启动命令-tls，详细见安装手册），为RPC及filesync启用TLS加密功能(-tls)，默认自动生成和使用自签名证书\r\n- 升级beego至v2.1.1，rpcx到1.8.11\r\n\r\n### Fix\r\n\r\n- quake查询API参数服务器调整导致无法正确搜索结果；Fofa默认分页数与实际不一致导致的重复调用API；\r\n- subfinder v2.6.0异常退出bug\r\n- 导入离线扫描的gogo和fscan\r\n- 域名一键拉黑的时候删除不彻底\r\n-  XScan任务的XOrganization直接调用数据库查询IP和Domain资产的Bug\r\n\r\n### Thirdparty版本\r\n\r\n- Httpx：1.3.4\r\n- Subfinder：2.6.1\r\n- Nuclei：2.9.10\r\n- Observe_ward：2023.8.3"
     },
     "https://github.com/yuyan-sec/RedisEXP": {
         "created_at": "2022-03-19 14:41:00",
@@ -2699,8 +2699,8 @@
     "https://github.com/madneal/gshark": {
         "created_at": "2018-03-09 14:16:55",
         "description": "Scan for sensitive information easily and effectively.",
-        "commit_date": "2023-07-21 01:37:09",
-        "commit_message": "Merge pull request #159 from madneal/dependabot/npm_and_yarn/web/word-wrap-1.2.4\n\nBump word-wrap from 1.2.3 to 1.2.4 in /web",
+        "commit_date": "2023-08-06 07:40:12",
+        "commit_message": "Update README.md",
         "release_tag": "v1.1.4",
         "release_date": "2023-02-15 10:17:50",
         "release_message": "## Fixed\r\n\r\n* 修复无法变更规则状态的问题\r\n* 增加新增 token 的 postman 类型\r\n\r\n## Added \r\n\r\n* 增加 `startSecFilterTask` 以及 `getTaskStatus`  API 权限初始化"
@@ -2951,11 +2951,11 @@
     "https://github.com/dbeaver/dbeaver": {
         "created_at": "2015-10-21 08:26:28",
         "description": "Free universal database tool and SQL client",
-        "commit_date": "2023-08-04 15:03:52",
-        "commit_message": "dbeaver/pro#1724 salesforce jdbc driver (#20799)\n\n* dbeaver/pro#1724 Execute queries\r\n\r\n* dbeaver/pro#1724 Execute queries + data types + icons\r\n\r\n* dbeaver/pro#1724 Debug logging\r\n\r\n* dbeaver/pro#1724 Nested attributes read\r\n\r\n* dbeaver/pro#1760 Use custom asterisk for count\r\n\r\n* dbeaver/pro#1760 Dictionary model refactoring. Search text separated from key value.\r\n\r\n* dbeaver/pro#1760 Generic DS info refactoring",
-        "release_tag": "23.1.3",
-        "release_date": "2023-07-23 19:28:17",
-        "release_message": "\n                - Spatial data viewer:\n                    - Geometry object labels were added to the map (configurable)\n                    - Curves rendering was implemented\n                    - Coordinates and viewport bounds copy was implemented\n                    - EWKT format support was added\n                    - Toolbars and lasso visibility toggle was fixed\n                - Data transfer:\n                    - Import of multiple tables from an XLSX was implemented\n                    - Lazy initialization of configuration pages was implemented\n                    - Issue with duplicated file selector dialog was fixed\n                    - Export in XML format was fixed (doctype section is not optional)\n                    - Issue long filenames on Windows was fixed\n                - Data Editor:\n                    - Find/Replace dialog and shortcut in the Value view panel were fixed\n                    - Column description was added to the Metadata panel\n                    - Folding in the XML presentation was fixed\n                    - Displaying of images in the the value view panel was fixed on Linux\n                    - Confirmation dialog for the result set filtering was improved\n                - Accessibility:\n                    - JAWs screen reader can now read data in the Data grid\n                - General UI:\n                    - Tips of the day were updated\n                    - Creation of objects with mixed-case identifiers was fixed\n                    - DDL generation for sequence was fixed\n                    - Logical project deletion was fixed\n                    - Issue with opening of a local project was fixed\n                - AI:\n                    - New GPT 3.5 Turbo 16К model was added\n                    - Issue with long metadata information sending was fixed\n                - Connections:\n                    - Duplicates on driver creation were removed\n                    - Issue with maven artifacts editing was fixed\n                    - Certificate management UI was improved\n                - New drivers:\n                    - Materialize database driver was added (thanks @bobbyiliev)\n                    - Crate DB via PostgreSQL driver was improved (thanks @proddata)\n                - Databases:\n                    - DB2: users can see Column Mask Objects\n                    - TimescaleDB branding was updated\n                - Localization:\n                    - Chinese Simplified localization was improved (thanks @bynyun)\n                    - German localization was improved (thanks @fjf2002)\n            "
+        "commit_date": "2023-08-06 16:08:41",
+        "commit_message": "#19866 Find node with missing nodes in-between (#20772)\n\nCo-authored-by: MashaKorax <84867187+MashaKorax@users.noreply.github.com>",
+        "release_tag": "23.1.4",
+        "release_date": "2023-08-06 16:23:25",
+        "release_message": "\n                - SQL editor:\n                    - Table alias generation was fixed (issue with duplicated aliases)\n                    - Auto-proposals now respect option \"empty line is a query delimiter\"\n                    - Auto-proposals calculation performance was significantly improved in some cases\n                    - Aliases completion was fixed (issue with redundant spaces)\n                    - Table name completion was fixed for invalid SQL queries\n                    - Spelling errors and other annotations now work in console mode\n                    - @import command behavior is now configurable\n                - Data editor:\n                    - Filters/orderings/colors reset UI was significantly improved\n                    - Spatial viewer now hides empty labels\n                    - Copying of spatial viewport/selection bounds was fixed\n                    - Drag-n-drop in grouping panel fixed on Linux\n                - Data transfer: previous export settings loading was fixed\n                - General:\n                    - Auto-commit mode switch behavior was fixed\n                    - CLI processing was fixed in multi-workspace environment\n                    - \"Tip of the day\" now shows OS-specific shortcuts corectly\n                    - Redundant logs of SSH tunnel closing were removed\n                    - Logical database structure settings can be disabled or reset in the connection editor dialog\n                    - Driver search UI was fixed on MacOS\n                    - Number of minor UI bugs were resolved\n                - Database:\n                    - Athena: multi-catalog support was added\n                    - Derby: grouping queries generation fixed\n                    - DuckDB: time/timestamp data types support was added\n                    - MySQL: issue with missing table partitions folder was resolved\n                    - Oracle: table DDL shows permission grants in \"full\" mode\n                    - PostgreSQL: issue with duplicated tables was resolved\n                    - Redshift: SQL dialect was enhanced with extra keywords\n                    - Yellowbrick: execution plan visualization was fixed\n            "
     },
     "https://github.com/zema1/yarx": {
         "created_at": "2021-11-11 09:43:21",
@@ -3703,8 +3703,8 @@
         "description": "PEASS - Privilege Escalation Awesome Scripts SUITE (with colors)",
         "commit_date": "2023-08-05 16:02:31",
         "commit_message": "Merge pull request #380 from makikvues/fix-tests-and-logo\n\nFixed logo, removed  long-running checks from tests,  create search lists only if necessary",
-        "release_tag": "20230805-d1609387",
-        "release_date": "2023-08-05 16:20:38",
+        "release_tag": "20230806-74a715c0",
+        "release_date": "2023-08-06 04:31:37",
         "release_message": ""
     },
     "https://github.com/waderwu/attackRmi": {
@@ -3736,12 +3736,12 @@
     },
     "https://github.com/k8gege/Ladon": {
         "created_at": "2019-11-02 06:22:41",
-        "description": "Ladon大型内网渗透工具，可PowerShell模块化、可CS插件化、可内存加载，无文件扫描。含端口扫描、服务识别、网络资产探测、密码审计、高危漏洞检测、漏洞利用、密码读取以及一键GetShell，支持批量A段/B段/C段以及跨网段扫描，支持URL、主机、域名列表扫描等。Ladon 11.0内置234个功能,网络资产探测模块32个通过多种协议(ICMP\\NBT\\DNS\\MAC\\SMB\\WMI\\SSH\\HTTP\\HTTPS\\Exchange\\mssql\\FTP\\RDP)以及方法快速获取目标网络存活主机IP、计算机名、工作组、共享资源、网卡地址、操作系统版本、网站、子域名、中间件、开放服务、路由器、交换机、数据库、打印机等信息，高危漏洞检测16个含MS17010、Zimbra、Exchange",
-        "commit_date": "2023-06-18 13:58:33",
+        "description": "Ladon大型内网渗透工具，可PowerShell模块化、可CS插件化、可内存加载，无文件扫描。含端口扫描、服务识别、网络资产探测、密码审计、高危漏洞检测、漏洞利用、密码读取以及一键GetShell，支持批量A段/B段/C段以及跨网段扫描，支持URL、主机、域名列表扫描等。Ladon 11.4内置245个功能,网络资产探测模块32个通过多种协议(ICMP\\NBT\\DNS\\MAC\\SMB\\WMI\\SSH\\HTTP\\HTTPS\\Exchange\\mssql\\FTP\\RDP)以及方法快速获取目标网络存活主机IP、计算机名、工作组、共享资源、网卡地址、操作系统版本、网站、子域名、中间件、开放服务、路由器、交换机、数据库、打印机等信息，高危漏洞检测16个含MS17010、Zimbra、Exchange",
+        "commit_date": "2023-08-06 17:37:36",
         "commit_message": "Add files via upload",
-        "release_tag": "v11.0",
-        "release_date": "2023-06-18 14:47:06",
-        "release_message": "Ladon911_20230618  BypassAV一键免杀工具  LadonShell内存加载Ladon后渗透\r\n[+]RocketMQexp\t\t\t\tApache RocketMQ CVE-2023-33246 远程命令执行漏洞EXP (可Ladon渗透Web服务器获取回显)\r\n[+]BypassAV\t\t\t\t\tLadon一键免杀工具 PY XOR随机加密 (Main函数需Public）\r\n[u]InfoScan\t\t\t\t\t修复异常退出Bug\r\n[+]EventLog/LoginLog\t\t获取管理员IP 一键读取登陆成功日志4624 \r\n[u]Exp、GUI、Study、Chat\t更新UI按钮背景\r\n\r\n[+]RunCmd/Cmd\t\t\t\t执行Cmd命令/支持b64cmd\tLadon cmd whoami \r\n[+]RunPS/PowerShell\t\t\t执行PowerShell命令/脚本 Ladon powershell c $PSVersionTable\r\n\r\n20230603\r\n[u]LadonExp \t\t\t\t\t支持GET连接MS17010漏洞CmdShell执行命令\r\n[u]LadonExp\t\t\t\t\t\t生成EXE可解密Base64、Hex  PostShell结果\r\n[+]PostShell\t\t\t\t    增加HEX加密传输HEX解密结果,Base64结果解密Bug修复\r\n"
+        "release_tag": "v11.4",
+        "release_date": "2023-08-06 17:40:56",
+        "release_message": "Ladon 11.4 20230801\r\n[+]LadonGUI\t\t\t反弹Shell生成器 新增JAVA反序列化漏洞 JNDI\\ldap\\rmi反弹Shell\r\n[+]LadonGUI\t\t\t反弹Shell生成器 新增OpenSSL、Curl、Telnet、Ruby、Lua、Ncat、socat反弹Shell\r\n[+]LadonGUI\t\t\t反弹Shell生成器 添加全路径Ldon反弹shell、Jndi注入Windows反弹shell\r\n[+]web\t\t\t\t渗透专用Web服务器 Ldap\tnc  支持多系统反弹shell\r\n[+]web\t\t\t\t渗透专用Web服务器 Rmi\tnc\t支持多系统反弹shell\r\n[+]web\t\t\t\t渗透专用Web服务器 Ldap\tver 探测系统版本、java版本、当前用户、目录\r\n[+]web\t\t\t\t渗透专用Web服务器 Rmi\tver 探测系统版本、java版本、当前用户、目录\r\n[u]OnlinePC\t\t\t修复noping扫描崩溃的Bug\r\n\r\n\r\nLadon 11.3 2023.7.20\r\n[u]web\t\t\t\t渗透专用Web服务器 支持无后缀文件下载 如busybox、nc等任意文件\r\n[+]web\t\t\t\t渗透专用Web服务器 请求nc、exp、exploit、shell.class 记录IP到exp.txt\r\n[+]LadonGui\t\t\tNetcat、NC反弹Shell 支持回显速度设置\r\n[+]IisInfo\t\t\t增加IIS网站信息一键获取\r\n[u]LadonExp\t\t\t执行whoami  System或Root权限 回显高亮\r\n[u]LadonExp\t\t\t测试EXP时 勾选Save保存执行命令结果\r\n[u]PostShell\t\t执行whoami  System或Root权限 回显高亮\r\n[u]PostShell\t\t修复部分CFM WebShell结果回显乱码的问题\r\n[+]AddAdmin\t\t\tAPI添加管理员(无视系统net、net1禁用)\r\n[+]AddUser\t\t\tAPI添加用户(无视系统net、net1.exe禁用)\r\n[+]DelUser\t\t\tAPI删除用户(无视系统net、net1.exe禁用)\r\n[+]web\t\t\t\t渗透专用Web服务器 新增内网外网IP识别\r\n[+]web\t\t\t\t渗透专用Web服务器 新增外网IP国家城市\r\n[u]CS插件\t\t\tCobaltStrike插件Ladon支持mssqlcmd\r\n[u]Web\t\t\t\t渗透专用Web服务器 JNDI注入Ldap、Rmi漏洞IP保存到isvul_ldap.txt和isvul_rmi.txt\r\n[u]Web\t\t\t\t结果保护 isvul.txt isvul_ldap.txt isvul_rmi.txt 不管存不存在 访问都提示404\r\n[u]ClsLog\t\t\t新增清除C:\\Users\\当前用户\\AppData\\Local\\Temp 目录垃圾\r\n\r\n=========================================================================\r\nLadon 11.2 2023.7.11\r\n[+]McpPotato\t\t.NET>=4.0 Win11/2022提权至System  其它系统自测\r\n[u]GUI\t\t\t\t加强版NC、Netcat监听客户端 连接速度优化 回显响应更快\r\n[u]Web\t\t\t\t迷你Web服务器渗透保存的isvul.txt结果只保留IP(方便去重)\r\n[u]80天更新\t\t\t超过编译日期80天，会提示文件损坏 请下最新版Ladon\r\n\r\n2023.7.5\r\n修复一些bug\r\n\r\nLadon 11.1 2023.6.28\r\n[u]白名单启动\tC:\\Windows\\Microsoft.NET\\Framework\\v4.0.30319\\regasm.exe /U Ladon.exe whoami\r\n[u]修复t=50线程 或结尾http 有些模块报错的Bug 如Ladon noping 192.168.1.0/B XXXX t=50 http\r\n[u]web\t\t\t修复PowerShell DownLoadFile下载不了Bug\r\n[u]web\t\t\t修复非根目录文件，下载或访问不到的Bug\r\n[u]LadonGUI\t\t安装有.net 4.8时，默认加载Ladon911  如cmddll只有911有 无4.8用不了\r\n[+]exe2hex\t\tEXE转HEX，CMD命令写入文件\r\n[+]exe2b64\t\tEXE转Base64，CMD命令写入文件\r\n[u]cmddll\t\t仅保留911本地使用，无需在目标生成，减小体积 1K也是肉\r\n[+]ZimbraVer\tZimbra版本探测\r\n[+]SharpGPO     .NET>=4.0 否则报错  35可编译 但执行报错\r\n"
     },
     "https://github.com/lijiejie/subDomainsBrute": {
         "created_at": "2015-04-01 07:22:37",
@@ -3971,8 +3971,8 @@
     "https://github.com/aquasecurity/trivy": {
         "created_at": "2019-04-11 01:01:07",
         "description": "Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more",
-        "commit_date": "2023-08-03 13:07:12",
-        "commit_message": "chore(deps): bump github.com/openvex/go-vex from 0.2.0 to 0.2.1 (#4914)\n\nBumps [github.com/openvex/go-vex](https://github.com/openvex/go-vex) from 0.2.0 to 0.2.1.\n- [Release notes](https://github.com/openvex/go-vex/releases)\n- [Commits](https://github.com/openvex/go-vex/compare/v0.2.0...v0.2.1)\n\n---\nupdated-dependencies:\n- dependency-name: github.com/openvex/go-vex\n  dependency-type: direct:production\n  update-type: version-update:semver-patch\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
+        "commit_date": "2023-08-06 12:50:35",
+        "commit_message": "fix(sbom): move licenses to `name` field in Cyclonedx format (#4941)\n\n* use license.Name instead of Expression\n\n* update tests",
         "release_tag": "v0.44.0",
         "release_date": "2023-08-01 09:08:35",
         "release_message": "## ⚡Release highlights and summary⚡\r\n\r\n👉 https://github.com/aquasecurity/trivy/discussions/4903\r\n\r\n## Changelog\r\n* d19c7d9f2 feat(repo): support local repositories (#4890)\r\n* 3c1976187 bump go-dep-parser (#4893)\r\n* e1c2a8c80 fix(misconf): add missing fields to proto (#4861)\r\n* 8b8e0e83d fix: remove trivy-db package replacement (#4877)\r\n* f9efe44fd chore(test): bump the integration test timeout to 15m (#4880)\r\n* 7271d682f chore(deps): Update defsec to v0.91.0 (#4886)\r\n* c3bc67c89 chore: update CODEOWNERS (#4871)\r\n* 232ba823e feat(vuln): support vulnerability status (#4867)\r\n* 11618c940 feat(misconf): Support custom URLs for policy bundle (#4834)\r\n* 07075696d refactor: replace with sortable packages (#4858)\r\n* fbe1c9eb1 docs: correct license scanning sample command (#4855)\r\n* 20c2246a6 fix(report): close the file (#4842)\r\n* 24a3e547d feat(nodejs): add support for include-dev-deps flag for yarn (#4812)\r\n* a7bd7bb65 feat(misconf): Add support for independently enabling libraries (#4070)\r\n* 4aa9ea096 feat(secret): add secret config file for cache calculation (#4837)\r\n* 5d349d814 Fix a link in gitlab-ci.md (#4850)\r\n* a61531c1f fix(flag): use globalstar to skip directories (#4854)\r\n* 78cc20937 chore(deps): bump github.com/docker/docker from v23.0.5+incompatible to v23.0.7-0.20230714215826-f00e7af96042+incompatible (#4849)\r\n* 93996041b fix(license): using common way for splitting licenses (#4434)\r\n* 3e2416d77 fix(containerd): Use img platform in exporter instead of strict host platform (#4477)\r\n* ce77bb46c remove govulndb (#4783)\r\n* c05caae43 fix(java): inherit licenses from parents (#4817)\r\n* aca11b95d refactor: add allowed values for CLI flags (#4800)\r\n* 4cecd17ea add example regex to allow rules (#4827)\r\n* 4bc8d29c1 feat(misconf): Support custom data for rego policies for cloud (#4745)\r\n* 88243a0ad docs: correcting the trivy k8s tutorial (#4815)\r\n* 3c7d988d7 feat(cli): add --tf-exclude-downloaded-modules flag (#4810)\r\n* fd0fd104f fix(sbom): cyclonedx recommendations should include fixed versions for each package (#4794)\r\n* d0d543b88 feat(misconf): enable --policy flag to accept directory and files both (#4777)\r\n* b43a3e623 feat(python): add license fields (#4722)\r\n* aef7b148a fix: support trivy k8s-version on k8s sub-command (#4786)\r\n\r\n"
@@ -4277,7 +4277,7 @@
     "https://github.com/aiboboxx/v2rayfree": {
         "created_at": "2021-10-13 11:34:53",
         "description": "v2ray公益免费节点、最新2ray免费v节点订阅地址、v2ray免费节点每日更新、免费ss/v2ray/trojan节点、freefq ",
-        "commit_date": "2023-08-05 12:33:30",
+        "commit_date": "2023-08-06 12:32:38",
         "commit_message": "update",
         "release_tag": "",
         "release_date": "",
@@ -4322,8 +4322,8 @@
     "https://github.com/freefq/free": {
         "created_at": "2020-06-07 02:48:33",
         "description": "翻墙、免费翻墙、免费科学上网、免费节点、免费梯子、免费ss/v2ray/trojan节点、蓝灯、谷歌商店、翻墙梯子",
-        "commit_date": "2023-08-06 00:00:02",
-        "commit_message": "updated_at 08-06 08:00",
+        "commit_date": "2023-08-07 00:00:03",
+        "commit_message": "updated_at 08-07 08:00",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -4592,8 +4592,8 @@
     "https://github.com/yzfly/awesome-chatgpt-zh": {
         "created_at": "2023-03-21 02:16:34",
         "description": "ChatGPT 中文指南🔥，ChatGPT 中文调教指南，指令指南，应用开发指南，精选资源清单，更好的使用 chatGPT 让你的生产力 up up up! 🚀",
-        "commit_date": "2023-08-05 21:45:14",
-        "commit_message": "update prompt readme",
+        "commit_date": "2023-08-06 14:55:15",
+        "commit_message": "add MeatGPT, jupyter-ai",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -5004,8 +5004,8 @@
     "https://github.com/rustdesk/rustdesk": {
         "created_at": "2020-09-28 15:36:08",
         "description": "An open-source alternative to TeamViewer.",
-        "commit_date": "2023-08-06 00:19:29",
-        "commit_message": "Merge pull request #5259 from 21pages/fix\n\ntry fix waiting for image when already shown",
+        "commit_date": "2023-08-06 10:40:17",
+        "commit_message": "Merge pull request #5268 from dignow/fix/reuse_inactive_window\n\nfix, reuse inactive window",
         "release_tag": "1.2.1",
         "release_date": "2023-07-12 07:28:05",
         "release_message": "\r\n![image](https://github.com/rustdesk/rustdesk/assets/71636191/b444deab-7971-4de7-b315-6a9b4974c7ea)\r\n\r\n> Winget, FDroid, Apple Sillicon, Google Play / App Store update will come soon.\r\n\r\nx86-64: [Windows](https://github.com/rustdesk/rustdesk/releases/download/1.2.1/rustdesk-1.2.1-x86_64.exe) | [Ubuntu](https://github.com/rustdesk/rustdesk/releases/download/1.2.1/rustdesk-1.2.1-x86_64.deb) | [Mac](https://github.com/rustdesk/rustdesk/releases/download/1.2.1/rustdesk-1.2.1-x86_64.dmg)\r\nAArch64 (ARM64):  [Ubuntu](https://github.com/rustdesk/rustdesk/releases/download/1.2.1/rustdesk-1.2.1-aarch64.deb) | [Android](https://github.com/rustdesk/rustdesk/releases/download/1.2.1/rustdesk-1.2.1-aarch64-signed.apk)\r\nMore: [check below please](#)\r\n\r\n<details>\r\n<summary>Changelog</summary>\r\n\r\n- fix #4856 \r\n- fix #4866 \r\n- fix email login verfication bug on mobile #4874, and fix email login verification wrong error message\r\n- refactor chat notification both on mobile and desktop #4878 #4889 #4943\r\n- fix #4890 \r\n- fix privacy broker zombie process #4916 \r\n- improve remote menubar #4922\r\n- try to fix issue #3261 with new api, but not sure if it works\r\n- adjust tab theme to make it more clear\r\n- partially fix #4896 \r\n- fix #4880 \r\n- refactor id inputbox on mobile\r\n\r\n</details>\r\n"
@@ -5783,9 +5783,9 @@
         "description": "🔥  Proxy is a high performance HTTP(S) proxies, SOCKS5 proxies,WEBSOCKET, TCP, UDP proxy server implemented by golang. Now, it supports chain-style proxies,nat forwarding in different lan,TCP/UDP port forwarding, SSH forwarding.Proxy是golang实现的高性能http,https,websocket,tcp,socks5代理服务器,支持内网穿透,链式代理,通讯加密,智能HTTP,SOCKS5代理,黑白名单,限速,限流量,限连接数,跨平台,KCP支持,认证API。",
         "commit_date": "2023-08-05 10:41:22",
         "commit_message": "update",
-        "release_tag": "v13.6",
-        "release_date": "2023-08-04 10:04:08",
-        "release_message": "1、修复绑定出口ip的时候的一处逻辑bug。"
+        "release_tag": "v13.7",
+        "release_date": "2023-08-06 04:03:14",
+        "release_message": "1、优化授权认证。"
     },
     "https://github.com/jiansiting/Decryption-Tools": {
         "created_at": "2019-05-27 15:39:00",
