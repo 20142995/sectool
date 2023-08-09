@@ -200,8 +200,8 @@
     "https://github.com/ycdxsb/PocOrExp_in_Github": {
         "created_at": "2021-04-13 05:46:16",
         "description": "聚合Github上已有的Poc或者Exp，CVE信息来自CVE官网。Auto Collect Poc Or Exp from Github by CVE ID.",
-        "commit_date": "2023-08-07 22:57:38",
-        "commit_message": "update 2023-08-08 06:57:38",
+        "commit_date": "2023-08-08 23:04:27",
+        "commit_message": "update 2023-08-09 07:04:27",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -1071,8 +1071,8 @@
     "https://github.com/v2rayA/v2rayA": {
         "created_at": "2019-10-18 20:42:06",
         "description": "A web GUI client of Project V which supports V2Ray, Xray, SS, SSR, Trojan and Pingtunnel 🚀",
-        "commit_date": "2023-08-03 04:55:58",
-        "commit_message": "Update after_upgrade.sh",
+        "commit_date": "2023-08-08 01:28:50",
+        "commit_message": "fix: Farsi language standard flag. (#1011)",
         "release_tag": "v2.1.0",
         "release_date": "2023-08-02 17:29:39",
         "release_message": "## What's Changed\r\n\r\n- 支持 Reality\r\n- 支持 TLS Flow\r\n- 支持 uTLS Fingerprint\r\n- 新增波兰语\r\n- 其他一些更新\r\n\r\n* Allow using flow option with TLS. by @Gh0u1L5 in https://github.com/v2rayA/v2rayA/pull/917\r\n* Add more flow and fix sni by @farhadjafari385 in https://github.com/v2rayA/v2rayA/pull/930\r\n* Fix Windows build workflow by @MarksonHon in https://github.com/v2rayA/v2rayA/pull/941\r\n* refactor: web gui by nuxt by @kecrily in https://github.com/v2rayA/v2rayA/pull/787\r\n* Added pt-br.js file for brazilian portuguese language by @talesam in https://github.com/v2rayA/v2rayA/pull/990\r\n* Persian Language Added by @DanielBlackBeard in https://github.com/v2rayA/v2rayA/pull/785\r\n* chore: upgrade buefy to eliminate sass deprecated syntax warnings by @kecrily in https://github.com/v2rayA/v2rayA/pull/777\r\n* Merge xray support from CI-He-O/v2rayA by @mzz2017 in https://github.com/v2rayA/v2rayA/pull/1004\r\n\r\n## New Contributors\r\n* @Gh0u1L5 made their first contribution in https://github.com/v2rayA/v2rayA/pull/917\r\n* @farhadjafari385 made their first contribution in https://github.com/v2rayA/v2rayA/pull/930\r\n* @talesam made their first contribution in https://github.com/v2rayA/v2rayA/pull/990\r\n* @DanielBlackBeard made their first contribution in https://github.com/v2rayA/v2rayA/pull/785\r\n\r\n**Full Changelog**: https://github.com/v2rayA/v2rayA/compare/v2.0.5...v2.1.0"
@@ -1708,8 +1708,8 @@
     "https://github.com/TophantTechnology/ARL": {
         "created_at": "2020-09-10 07:41:12",
         "description": "ARL(Asset Reconnaissance Lighthouse)资产侦察灯塔系统旨在快速侦察与目标关联的互联网资产，构建基础资产信息库。 协助甲方安全团队或者渗透测试人员有效侦察和检索资产，发现存在的薄弱点和攻击面。",
-        "commit_date": "2023-07-03 07:07:35",
-        "commit_message": "Merge pull request #589 from ox01024/update-ipGeo-Source\n\n使用第三方源的GeoLite2-City更新",
+        "commit_date": "2023-08-08 03:43:04",
+        "commit_message": "Create 问题反馈.md",
         "release_tag": "v2.5.5",
         "release_date": "2023-05-18 03:27:00",
         "release_message": "\r\n1. 修复 nuclei 误报 CVE-2022-45362 问题 #559 #535\r\n2. 修复数据源 quake_360 查询错误问题  @原来是老王\r\n3. 删除数据源 threatminer (不可访问了)\r\n4. 过滤无效状态码 410, 减少无用数据入库\r\n"
@@ -2699,8 +2699,8 @@
     "https://github.com/madneal/gshark": {
         "created_at": "2018-03-09 14:16:55",
         "description": "Scan for sensitive information easily and effectively.",
-        "commit_date": "2023-08-07 13:02:24",
-        "commit_message": "refactor to move it to api",
+        "commit_date": "2023-08-08 10:19:38",
+        "commit_message": "modify sql.md",
         "release_tag": "v1.2.0",
         "release_date": "2023-08-06 06:55:24",
         "release_message": "* 任务无需通过命令行启动\r\n* 通过 Web 直接管理扫描任务"
@@ -2951,8 +2951,8 @@
     "https://github.com/dbeaver/dbeaver": {
         "created_at": "2015-10-21 08:26:28",
         "description": "Free universal database tool and SQL client",
-        "commit_date": "2023-08-07 18:02:14",
-        "commit_message": "#19866 Revert node resolution changes (#20831)",
+        "commit_date": "2023-08-08 15:59:17",
+        "commit_message": "dbeaver/dbeaver#20834 Fix editor input read-only status detection (#20836)",
         "release_tag": "23.1.4",
         "release_date": "2023-08-06 16:23:25",
         "release_message": "\n                - SQL editor:\n                    - Table alias generation was fixed (issue with duplicated aliases)\n                    - Auto-proposals now respect option \"empty line is a query delimiter\"\n                    - Auto-proposals calculation performance was significantly improved in some cases\n                    - Aliases completion was fixed (issue with redundant spaces)\n                    - Table name completion was fixed for invalid SQL queries\n                    - Spelling errors and other annotations now work in console mode\n                    - @import command behavior is now configurable\n                - Data editor:\n                    - Filters/orderings/colors reset UI was significantly improved\n                    - Spatial viewer now hides empty labels\n                    - Copying of spatial viewport/selection bounds was fixed\n                    - Drag-n-drop in grouping panel fixed on Linux\n                - Data transfer: previous export settings loading was fixed\n                - General:\n                    - Auto-commit mode switch behavior was fixed\n                    - CLI processing was fixed in multi-workspace environment\n                    - \"Tip of the day\" now shows OS-specific shortcuts corectly\n                    - Redundant logs of SSH tunnel closing were removed\n                    - Logical database structure settings can be disabled or reset in the connection editor dialog\n                    - Driver search UI was fixed on MacOS\n                    - Number of minor UI bugs were resolved\n                - Database:\n                    - Athena: multi-catalog support was added\n                    - Derby: grouping queries generation fixed\n                    - DuckDB: time/timestamp data types support was added\n                    - MySQL: issue with missing table partitions folder was resolved\n                    - Oracle: table DDL shows permission grants in \"full\" mode\n                    - PostgreSQL: issue with duplicated tables was resolved\n                    - Redshift: SQL dialect was enhanced with extra keywords\n                    - Yellowbrick: execution plan visualization was fixed\n            "
@@ -3050,7 +3050,7 @@
     "https://github.com/zan8in/afrog": {
         "created_at": "2022-02-24 06:00:32",
         "description": "A Security Tool for Bug Bounty, Pentest and Red Teaming.",
-        "commit_date": "2023-08-07 13:57:29",
+        "commit_date": "2023-08-08 14:36:16",
         "commit_message": "update",
         "release_tag": "v2.7.7",
         "release_date": "2023-07-30 06:12:36",
@@ -3237,8 +3237,8 @@
     "https://github.com/coffeehb/Some-PoC-oR-ExP": {
         "created_at": "2015-03-13 15:31:35",
         "description": "各种漏洞poc、Exp的收集或编写",
-        "commit_date": "2023-07-14 07:42:42",
-        "commit_message": "Create CVE-2023-37582.py",
+        "commit_date": "2023-08-08 08:44:35",
+        "commit_message": "Update 一些已知漏洞.md",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -3262,8 +3262,8 @@
     "https://github.com/F6JO/RouteVulScan": {
         "created_at": "2022-06-01 07:07:38",
         "description": "Burpsuite - Route Vulnerable Scanning 递归式被动检测脆弱路径的burp插件",
-        "commit_date": "2023-07-11 01:54:11",
-        "commit_message": "update",
+        "commit_date": "2023-08-08 14:56:38",
+        "commit_message": "update rule",
         "release_tag": "RouteVulScan1.5",
         "release_date": "2023-05-09 09:57:25",
         "release_message": "2023-05-09 将默认扫描子域和根域改为可开关\r\n2023-05-09 将匹配的state状态码改为可以设置范围\r\n2023-05-09 添加类似模板语言的标记，可在Config中配置标记获取当前请求的各类信息并当作路径或正则"
@@ -3701,10 +3701,10 @@
     "https://github.com/carlospolop/PEASS-ng": {
         "created_at": "2019-01-13 19:58:24",
         "description": "PEASS - Privilege Escalation Awesome Scripts SUITE (with colors)",
-        "commit_date": "2023-08-07 06:35:15",
-        "commit_message": "Update 1_system_information.sh",
-        "release_tag": "20230807-37cf266d",
-        "release_date": "2023-08-07 06:54:21",
+        "commit_date": "2023-08-08 05:41:42",
+        "commit_message": "Merge pull request #382 from RandolphConley/master\n\nFeature add, bug fix",
+        "release_tag": "20230808-5e84dec0",
+        "release_date": "2023-08-08 06:02:26",
         "release_message": ""
     },
     "https://github.com/waderwu/attackRmi": {
@@ -3908,8 +3908,8 @@
     "https://github.com/anchore/syft": {
         "created_at": "2020-05-07 18:19:29",
         "description": "CLI tool and library for generating a Software Bill of Materials from container images and filesystems",
-        "commit_date": "2023-08-07 14:34:00",
-        "commit_message": "chore(deps): bump golang.org/x/net from 0.13.0 to 0.14.0 (#2004)\n\nBumps [golang.org/x/net](https://github.com/golang/net) from 0.13.0 to 0.14.0.\r\n- [Commits](https://github.com/golang/net/compare/v0.13.0...v0.14.0)\r\n\r\n---\r\nupdated-dependencies:\r\n- dependency-name: golang.org/x/net\r\n  dependency-type: direct:production\r\n  update-type: version-update:semver-minor\r\n...\r\n\r\nSigned-off-by: dependabot[bot] <support@github.com>\r\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
+        "commit_date": "2023-08-08 19:55:50",
+        "commit_message": "fix: SPDX license values and download location (#2007)\n\nSigned-off-by: Keith Zantow <kzantow@gmail.com>",
         "release_tag": "v0.86.1",
         "release_date": "2023-07-31 17:42:33",
         "release_message": "# Changelog\r\n\r\n## [v0.86.1](https://github.com/anchore/syft/tree/v0.86.1) (2023-07-31)\r\n\r\n[Full Changelog](https://github.com/anchore/syft/compare/v0.86.0...v0.86.1)\r\n\r\n### Bug Fixes\r\n\r\n- Source requires default image name as user input for unparsable reference [[PR #1979](https://github.com/anchore/syft/pull/1979)] [[kzantow](https://github.com/kzantow)] \r\n\r\n\r\n"
@@ -3917,8 +3917,8 @@
     "https://github.com/chaitin/safeline": {
         "created_at": "2023-04-12 11:30:14",
         "description": "一款足够简单、足够好用、足够强的免费 WAF。基于业界领先的语义引擎检测技术，作为反向代理接入，保护你的网站不受黑客攻击。",
-        "commit_date": "2023-08-07 10:28:08",
-        "commit_message": "feat: change the subnet prefix in docs",
+        "commit_date": "2023-08-08 08:47:59",
+        "commit_message": "feat(website): mobile mode show menu button",
         "release_tag": "v2.5.0",
         "release_date": "2023-08-03 10:18:28",
         "release_message": "### 新增\r\n\r\n- 请求频率限制（[#29](https://github.com/chaitin/safeline/issues/29)）\r\n\r\n### 优化\r\n\r\n- 支持筛选攻击检测日志的 ID（[#74](https://github.com/chaitin/safeline/issues/74)），优化筛选的交互\r\n- 证书支持 .cer 格式（[#181](https://github.com/chaitin/safeline/issues/181)）\r\n- 优化人机校验页面，适配移动端（[#184](https://github.com/chaitin/safeline/issues/184)）\r\n- 界面增加一些配置提示：添加站点时 “域名” 的格式、黑白名单/人机验证中匹配条件的生效逻辑"
@@ -3971,8 +3971,8 @@
     "https://github.com/aquasecurity/trivy": {
         "created_at": "2019-04-11 01:01:07",
         "description": "Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more",
-        "commit_date": "2023-08-06 12:50:35",
-        "commit_message": "fix(sbom): move licenses to `name` field in Cyclonedx format (#4941)\n\n* use license.Name instead of Expression\n\n* update tests",
+        "commit_date": "2023-08-08 12:51:10",
+        "commit_message": "test: validate CycloneDX with the JSON schema (#4956)\n\n* test: validate CycloneDX with the JSON schema\n\n* fix(sbom): move licenses to `name` field in Cyclonedx format (#4941)\n\n* use license.Name instead of Expression\n\n* update tests\n\n* test: add uuid package\n\n* test: compare UUID\n\n---------\n\nCo-authored-by: DmitriyLewen <91113035+DmitriyLewen@users.noreply.github.com>",
         "release_tag": "v0.44.0",
         "release_date": "2023-08-01 09:08:35",
         "release_message": "## ⚡Release highlights and summary⚡\r\n\r\n👉 https://github.com/aquasecurity/trivy/discussions/4903\r\n\r\n## Changelog\r\n* d19c7d9f2 feat(repo): support local repositories (#4890)\r\n* 3c1976187 bump go-dep-parser (#4893)\r\n* e1c2a8c80 fix(misconf): add missing fields to proto (#4861)\r\n* 8b8e0e83d fix: remove trivy-db package replacement (#4877)\r\n* f9efe44fd chore(test): bump the integration test timeout to 15m (#4880)\r\n* 7271d682f chore(deps): Update defsec to v0.91.0 (#4886)\r\n* c3bc67c89 chore: update CODEOWNERS (#4871)\r\n* 232ba823e feat(vuln): support vulnerability status (#4867)\r\n* 11618c940 feat(misconf): Support custom URLs for policy bundle (#4834)\r\n* 07075696d refactor: replace with sortable packages (#4858)\r\n* fbe1c9eb1 docs: correct license scanning sample command (#4855)\r\n* 20c2246a6 fix(report): close the file (#4842)\r\n* 24a3e547d feat(nodejs): add support for include-dev-deps flag for yarn (#4812)\r\n* a7bd7bb65 feat(misconf): Add support for independently enabling libraries (#4070)\r\n* 4aa9ea096 feat(secret): add secret config file for cache calculation (#4837)\r\n* 5d349d814 Fix a link in gitlab-ci.md (#4850)\r\n* a61531c1f fix(flag): use globalstar to skip directories (#4854)\r\n* 78cc20937 chore(deps): bump github.com/docker/docker from v23.0.5+incompatible to v23.0.7-0.20230714215826-f00e7af96042+incompatible (#4849)\r\n* 93996041b fix(license): using common way for splitting licenses (#4434)\r\n* 3e2416d77 fix(containerd): Use img platform in exporter instead of strict host platform (#4477)\r\n* ce77bb46c remove govulndb (#4783)\r\n* c05caae43 fix(java): inherit licenses from parents (#4817)\r\n* aca11b95d refactor: add allowed values for CLI flags (#4800)\r\n* 4cecd17ea add example regex to allow rules (#4827)\r\n* 4bc8d29c1 feat(misconf): Support custom data for rego policies for cloud (#4745)\r\n* 88243a0ad docs: correcting the trivy k8s tutorial (#4815)\r\n* 3c7d988d7 feat(cli): add --tf-exclude-downloaded-modules flag (#4810)\r\n* fd0fd104f fix(sbom): cyclonedx recommendations should include fixed versions for each package (#4794)\r\n* d0d543b88 feat(misconf): enable --policy flag to accept directory and files both (#4777)\r\n* b43a3e623 feat(python): add license fields (#4722)\r\n* aef7b148a fix: support trivy k8s-version on k8s sub-command (#4786)\r\n\r\n"
@@ -3980,8 +3980,8 @@
     "https://github.com/anchore/grype": {
         "created_at": "2020-05-26 13:44:38",
         "description": "A vulnerability scanner for container images and filesystems",
-        "commit_date": "2023-08-07 22:11:09",
-        "commit_message": "chore(deps): bump golang.org/x/term from 0.10.0 to 0.11.0 (#1420)\n\nBumps [golang.org/x/term](https://github.com/golang/term) from 0.10.0 to 0.11.0.\r\n- [Commits](https://github.com/golang/term/compare/v0.10.0...v0.11.0)\r\n\r\n---\r\nupdated-dependencies:\r\n- dependency-name: golang.org/x/term\r\n  dependency-type: direct:production\r\n  update-type: version-update:semver-minor\r\n...\r\n\r\nSigned-off-by: dependabot[bot] <support@github.com>\r\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
+        "commit_date": "2023-08-08 17:29:12",
+        "commit_message": "chore(deps): bump actions/setup-go from 4.0.1 to 4.1.0 (#1421)\n\nBumps [actions/setup-go](https://github.com/actions/setup-go) from 4.0.1 to 4.1.0.\r\n- [Release notes](https://github.com/actions/setup-go/releases)\r\n- [Commits](https://github.com/actions/setup-go/compare/fac708d6674e30b6ba41289acaab6d4b75aa0753...93397bea11091df50f3d7e59dc26a7711a8bcfbe)\r\n\r\n---\r\nupdated-dependencies:\r\n- dependency-name: actions/setup-go\r\n  dependency-type: direct:production\r\n  update-type: version-update:semver-minor\r\n...\r\n\r\nSigned-off-by: dependabot[bot] <support@github.com>\r\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
         "release_tag": "v0.65.1",
         "release_date": "2023-08-04 13:06:03",
         "release_message": "# \n\n## [v0.65.1](https://github.com/anchore/grype/tree/v0.65.1) (2023-08-04)\n\n[Full Changelog](https://github.com/anchore/grype/compare/v0.65.0...v0.65.1)\n\n### Bug Fixes\n\n- Grype cannot read SPDX documents generated by SPDX-maven-plugin [[Issue #1306](https://github.com/anchore/grype/issues/1306)]\n\n\n\n"
@@ -4061,8 +4061,8 @@
     "https://github.com/WebGoat/WebGoat": {
         "created_at": "2015-03-06 14:02:02",
         "description": "WebGoat is a deliberately insecure application",
-        "commit_date": "2023-08-04 14:34:49",
-        "commit_message": "chore: bump com.nulab-inc:zxcvbn from 1.7.0 to 1.8.0 (#1542)\n\nBumps [com.nulab-inc:zxcvbn](https://github.com/nulab/zxcvbn4j) from 1.7.0 to 1.8.0.\r\n- [Release notes](https://github.com/nulab/zxcvbn4j/releases)\r\n- [Changelog](https://github.com/nulab/zxcvbn4j/blob/master/CHANGELOG.md)\r\n- [Commits](https://github.com/nulab/zxcvbn4j/compare/1.7.0...1.8.0)\r\n\r\n---\r\nupdated-dependencies:\r\n- dependency-name: com.nulab-inc:zxcvbn\r\n  dependency-type: direct:production\r\n  update-type: version-update:semver-minor\r\n...\r\n\r\nSigned-off-by: dependabot[bot] <support@github.com>\r\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
+        "commit_date": "2023-08-08 23:32:03",
+        "commit_message": "fix: WebWolf JWT jquery webjar",
         "release_tag": "v2023.4",
         "release_date": "2023-02-17 12:16:10",
         "release_message": "## Version 2023.4\r\n\r\n### New functionality\r\n\r\n- [#1422 Add Docker Linux Desktop variant with all tools installed](https://github.com/WebGoat/WebGoat/issues/1422). Thanks to the [OWASP WrongSecrets project](https://owasp.org/www-project-wrongsecrets/) we now have a Docker Linux desktop image with all the tools installed. No need to install any tools locally only run the new Docker image. See README.md for details on how to start it.\r\n- [#1411 JWT: looks that buy as Tom also works with alg:none](https://github.com/WebGoat/WebGoat/issues/1411).\r\n\r\n### Bug fixes\r\n\r\n- [#1410 WebWolf: JWT decode is broken](https://github.com/WebGoat/WebGoat/issues/1410).\r\n- [#1396 password_reset return 500 Error](https://github.com/WebGoat/WebGoat/issues/1396).\r\n- [#1379 Move XXE to A05:2021-Security Misconfiguration](https://github.com/WebGoat/WebGoat/issues/1379)."
@@ -4169,8 +4169,8 @@
     "https://github.com/vulhub/vulhub": {
         "created_at": "2017-04-09 10:13:13",
         "description": "Pre-Built Vulnerable Environments Based on Docker-Compose",
-        "commit_date": "2023-07-28 17:38:47",
-        "commit_message": "Merge pull request #453 from vulhub/multiple-fixes\n\nMultiple fixes",
+        "commit_date": "2023-08-08 09:59:24",
+        "commit_message": "Merge pull request #455 from vulhub/metersphere-plugin-rce\n\nMeterSphere plugin RCE",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -4277,7 +4277,7 @@
     "https://github.com/aiboboxx/v2rayfree": {
         "created_at": "2021-10-13 11:34:53",
         "description": "v2ray公益免费节点、最新2ray免费v节点订阅地址、v2ray免费节点每日更新、免费ss/v2ray/trojan节点、freefq ",
-        "commit_date": "2023-08-07 12:37:12",
+        "commit_date": "2023-08-08 12:36:56",
         "commit_message": "update",
         "release_tag": "",
         "release_date": "",
@@ -4322,8 +4322,8 @@
     "https://github.com/freefq/free": {
         "created_at": "2020-06-07 02:48:33",
         "description": "翻墙、免费翻墙、免费科学上网、免费节点、免费梯子、免费ss/v2ray/trojan节点、蓝灯、谷歌商店、翻墙梯子",
-        "commit_date": "2023-08-08 00:00:02",
-        "commit_message": "updated_at 08-08 08:00",
+        "commit_date": "2023-08-09 00:00:03",
+        "commit_message": "updated_at 08-09 08:00",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -4601,8 +4601,8 @@
     "https://github.com/rockbenben/ChatGPT-Shortcut": {
         "created_at": "2023-02-24 12:53:49",
         "description": "🚀💪Maximize your efficiency and productivity, support for English,中文,Español,العربية. 让生产力加倍的 ChatGPT 快捷指令，按照领域和功能分区，可对提示词进行标签筛选、关键词搜索和一键复制。",
-        "commit_date": "2023-08-04 06:43:17",
-        "commit_message": "docs: update docs",
+        "commit_date": "2023-08-08 21:09:10",
+        "commit_message": "perf: Replace Google authentication API",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -4628,8 +4628,8 @@
     "https://github.com/baidu/dperf": {
         "created_at": "2021-12-21 08:02:08",
         "description": "dperf is a DPDK based 100Gbps network performance and load testing software.",
-        "commit_date": "2023-08-02 02:10:03",
-        "commit_message": "Merge pull request #348 from pengjianzhang/main\n\noptimization: remove useless sockets outside lport_range",
+        "commit_date": "2023-08-08 11:47:30",
+        "commit_message": "Merge pull request #355 from pengjianzhang/main\n\nfix: lport_range check late",
         "release_tag": "v1.5.0",
         "release_date": "2023-03-10 07:39:07",
         "release_message": "## v1.5.0 - 2023-03-10\r\n### Added\r\n\r\n- udp elephant flow\r\n\r\n    thanks sheva7777\r\n- client_hop\r\n\r\n    thanks hgkiller\r\n- supported Mellanox MT27500 [ConnectX-3]\r\n\r\n    thanks SdotChen\r\n- article: Using dperf to test the performance of DPVS(zh)\r\n\r\n    thanks sheva7777\r\n- article: How to install dperf on ubuntu(zh)\r\n\r\n    thanks digger-yu\r\n- article: Using dperf to test 100Gbps bandwidth(zh)\r\n\r\n    thanks CHRIS123540\r\n- article: DPVS v1.9.2 Performance Tests by dperf\r\n\r\n    thanks ywc689\r\n- article: dperf FAQ(zh)\r\n\r\n### Changed\r\n\r\n- print error numbers with red color\r\n\r\n### Fixed\r\n\r\n- flood with rss l3l4\r\n\r\n    thanks sheva7777\r\n- use unlikeyly to predict condition\r\n\r\n    thanks panzhengyu\r\n- address conflict in configuration file\r\n\r\n    thanks CHRIS123540\r\n- docs/configuration: update payload_size"
@@ -4954,9 +4954,9 @@
         "description": "网络摄像头漏洞扫描工具 | Webcam vulnerability scanning tool",
         "commit_date": "2023-03-13 02:17:25",
         "commit_message": "readme file merge conflict",
-        "release_tag": "",
-        "release_date": "",
-        "release_message": ""
+        "release_tag": "v2.0.0",
+        "release_date": "2023-08-08 15:05:58",
+        "release_message": "nothing"
     },
     "https://github.com/shmilylty/netspy": {
         "created_at": "2022-01-01 14:20:27",
@@ -5004,8 +5004,8 @@
     "https://github.com/rustdesk/rustdesk": {
         "created_at": "2020-09-28 15:36:08",
         "description": "An open-source alternative to TeamViewer.",
-        "commit_date": "2023-08-08 00:20:27",
-        "commit_message": "Merge pull request #5285 from BestiaPL/master\n\nUpdate pl.rs",
+        "commit_date": "2023-08-08 13:40:18",
+        "commit_message": "Merge pull request #5296 from dignow/fix/id_server\n\noidc does not use api server cache & fix logout after changing server",
         "release_tag": "1.2.1",
         "release_date": "2023-07-12 07:28:05",
         "release_message": "\r\n![image](https://github.com/rustdesk/rustdesk/assets/71636191/b444deab-7971-4de7-b315-6a9b4974c7ea)\r\n\r\n> Winget, FDroid, Apple Sillicon, Google Play / App Store update will come soon.\r\n\r\nx86-64: [Windows](https://github.com/rustdesk/rustdesk/releases/download/1.2.1/rustdesk-1.2.1-x86_64.exe) | [Ubuntu](https://github.com/rustdesk/rustdesk/releases/download/1.2.1/rustdesk-1.2.1-x86_64.deb) | [Mac](https://github.com/rustdesk/rustdesk/releases/download/1.2.1/rustdesk-1.2.1-x86_64.dmg)\r\nAArch64 (ARM64):  [Ubuntu](https://github.com/rustdesk/rustdesk/releases/download/1.2.1/rustdesk-1.2.1-aarch64.deb) | [Android](https://github.com/rustdesk/rustdesk/releases/download/1.2.1/rustdesk-1.2.1-aarch64-signed.apk)\r\nMore: [check below please](#)\r\n\r\n<details>\r\n<summary>Changelog</summary>\r\n\r\n- fix #4856 \r\n- fix #4866 \r\n- fix email login verfication bug on mobile #4874, and fix email login verification wrong error message\r\n- refactor chat notification both on mobile and desktop #4878 #4889 #4943\r\n- fix #4890 \r\n- fix privacy broker zombie process #4916 \r\n- improve remote menubar #4922\r\n- try to fix issue #3261 with new api, but not sure if it works\r\n- adjust tab theme to make it more clear\r\n- partially fix #4896 \r\n- fix #4880 \r\n- refactor id inputbox on mobile\r\n\r\n</details>\r\n"
@@ -5200,8 +5200,8 @@
     "https://github.com/novysodope/fupo_for_yonyou": {
         "created_at": "2023-07-12 04:28:15",
         "description": "用友漏洞检测，持续更新漏洞检测模块",
-        "commit_date": "2023-07-28 05:18:24",
-        "commit_message": "2.0RC1更新\n\n2.0RC1更新",
+        "commit_date": "2023-08-08 07:10:46",
+        "commit_message": "Update main.go",
         "release_tag": "2.0RC1",
         "release_date": "2023-07-28 05:17:15",
         "release_message": "建议如果出现跟 #7 一样的问题再用这个版本 "
@@ -5542,8 +5542,8 @@
     "https://github.com/BloodHoundAD/BloodHound": {
         "created_at": "2016-04-17 18:36:14",
         "description": "Six Degrees of Domain Admin",
-        "commit_date": "2023-08-04 21:08:37",
-        "commit_message": "Update bloodhound-py.rst",
+        "commit_date": "2023-08-08 21:48:35",
+        "commit_message": "Update index.rst",
         "release_tag": "v4.3.1",
         "release_date": "2023-05-23 17:06:23",
         "release_message": "## What's Changed\r\n* Adding abuse guidance from UNIX-like hosts by @ShutdownRepo in https://github.com/BloodHoundAD/BloodHound/pull/625\r\n* small typo: whisper -> whisker by @chadduffey in https://github.com/BloodHoundAD/BloodHound/pull/629\r\n* Update wording to \"acceptable\" terms by @cln-io in https://github.com/BloodHoundAD/BloodHound/pull/609\r\n* Fix Wrong Statements In Azure Post Processing setGlobalAdminHighValue & setPrivRoleAdminHighValue by @lbrauns in https://github.com/BloodHoundAD/BloodHound/pull/595\r\n* Fix edgeIncluded label partially clickable by @CravateRouge in https://github.com/BloodHoundAD/BloodHound/pull/597\r\n* Kerberoastable user with most priv query fix by @DoubtfulJerboa in https://github.com/BloodHoundAD/BloodHound/pull/606\r\n* Update sharphound.rst with up-to-date link by @Japillow in https://github.com/BloodHoundAD/BloodHound/pull/631\r\n* Remove .bin extension from instruction by @JonasBK in https://github.com/BloodHoundAD/BloodHound/pull/640\r\n* Minor Update of Neo4J Compatible Version to 4.4.19 by @kaydaskalakis in https://github.com/BloodHoundAD/BloodHound/pull/659\r\n* Added import of \"Group Types\" and \"Membership Rule\" for AZGroups by @ahazu in https://github.com/BloodHoundAD/BloodHound/pull/647\r\n* Update linux.rst - Fixed installation documentation to get correct version of neo4j by @angry-bender in https://github.com/BloodHoundAD/BloodHound/pull/622\r\n* Blood hound documentation update by @LuemmelSec in https://github.com/BloodHoundAD/BloodHound/pull/664\r\n* Contribution of the DumpSMSAPassword edge with its documentation by @simondotsh in https://github.com/BloodHoundAD/BloodHound/pull/626\r\n* 4.3.1 by @JonasBK in https://github.com/BloodHoundAD/BloodHound/pull/668\r\n\r\n## New Contributors\r\n* @ShutdownRepo made their first contribution in https://github.com/BloodHoundAD/BloodHound/pull/625\r\n* @chadduffey made their first contribution in https://github.com/BloodHoundAD/BloodHound/pull/629\r\n* @cln-io made their first contribution in https://github.com/BloodHoundAD/BloodHound/pull/609\r\n* @lbrauns made their first contribution in https://github.com/BloodHoundAD/BloodHound/pull/595\r\n* @CravateRouge made their first contribution in https://github.com/BloodHoundAD/BloodHound/pull/597\r\n* @DoubtfulJerboa made their first contribution in https://github.com/BloodHoundAD/BloodHound/pull/606\r\n* @Japillow made their first contribution in https://github.com/BloodHoundAD/BloodHound/pull/631\r\n* @kaydaskalakis made their first contribution in https://github.com/BloodHoundAD/BloodHound/pull/659\r\n* @ahazu made their first contribution in https://github.com/BloodHoundAD/BloodHound/pull/647\r\n* @angry-bender made their first contribution in https://github.com/BloodHoundAD/BloodHound/pull/622\r\n* @LuemmelSec made their first contribution in https://github.com/BloodHoundAD/BloodHound/pull/664\r\n\r\n**Full Changelog**: https://github.com/BloodHoundAD/BloodHound/compare/v4.3.0...v4.3.1"
