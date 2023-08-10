@@ -1,8 +1,9 @@
-# 更新于 2023-08-09 08:41:16
+# 更新于 2023-08-10 08:41:29
 
 ## 近15天release更新记录
 | 更新时间 | 项目名称 | 版本 | 更新内容 |
 | :---- | :---- | :---- | :---- |
+|2023-08-09 13:53:39|[afrog](https://github.com/zan8in/afrog)|v2.7.8|**Add:**  - Version 2.7.8 introduced <br>the Eye.sh backlink configuration opti<br>on. For more detailed information, ple<br>ase refer to the afrog wiki.    - In o<br>rder to mitigate the impact of a large<br> number of requests on the reverse-lin<br>k platform and enhance the accuracy of<br> POC validation, an independent concur<br>rent rate control is implemented for P<br>OCs that require support from the reve<br>rse-link platform.(The "smart" paramet<br>er does not affect the concurrency of <br>reverse-link POCs)      **新增：**  - <br>2.7.8 版本引入了 Eye.sh 反链配置项，有<br>关详细信息，请参阅 afrog wiki。  最终效<br>果示例可参考 afrog-config.yaml，如需添<br>加 "eye" 相关内容，请在删除 afrog-confi<br>g.yaml 后重新启动 afrog，系统将自动生<br>成新的 afrog-config.yaml。  **示例：** <br>   reverse:    ceye:      api-key: "bb<br>a3368******630b8fca0"      domain: "**<br>***.ceye.io"    jndi:      jndi_addres<br>s: "x.x.x.x"      ldap_port: "1389"   <br>   api_port: "34567"    eye:      toke<br>n: "1f****4d"      domain: "****.eyes.<br>sh"    - 为了减少大量请求对反链平台造<br>成的影响，并提高POC验证的准确性，对需要<br>反链平台支持的POC进行独立的并发速率控制<br>。("smart" 参数不会影响反向链 POC 的并<br>发数量)    - -reverse-rate-limit/-rrl  <br>和 -reverse-concurrency/-rc 这两个参数<br>用于调控反链平台支持的 PoC 并发速率，建<br>议不要设置得过高。    **修复：**  - eof<br>fice-v9-file-upload 严重误报问题  - CV<br>E-2023-38646、CVE-2021-36260|
 |2023-08-08 15:05:58|[Ingram](https://github.com/jorhelp/Ingram)|v2.0.0|nothing|
 |2023-08-08 06:02:26|[PEASS-ng](https://github.com/carlospolop/PEASS-ng)|2023080<br>8-5e84de<br>c0||
 |2023-08-07 19:40:37|[malwoverview](https://github.com/alexandreborges/malwoverview)|v5.4.1|Malwoverview 5.4.1|
@@ -27,42 +28,44 @@
 |2023-08-01 09:08:35|[trivy](https://github.com/aquasecurity/trivy)|v0.44.0|## ⚡Release highlights and summary⚡<br>    👉 https://github.com/aquasecurity<br>/trivy/discussions/4903    ## Changelo<br>g  * d19c7d9f2 feat(repo): support loc<br>al repositories (#4890)  * 3c1976187 b<br>ump go-dep-parser (#4893)  * e1c2a8c80<br> fix(misconf): add missing fields to p<br>roto (#4861)  * 8b8e0e83d fix: remove <br>trivy-db package replacement (#4877)  <br>* f9efe44fd chore(test): bump the inte<br>gration test timeout to 15m (#4880)  *<br> 7271d682f chore(deps): Update defsec <br>to v0.91.0 (#4886)  * c3bc67c89 chore:<br> update CODEOWNERS (#4871)  * 232ba823<br>e feat(vuln): support vulnerability st<br>atus (#4867)  * 11618c940 feat(misconf<br>): Support custom URLs for policy bund<br>le (#4834)  * 07075696d refactor: repl<br>ace with sortable packages (#4858)  * <br>fbe1c9eb1 docs: correct license scanni<br>ng sample command (#4855)  * 20c2246a6<br> fix(report): close the file (#4842)  <br>* 24a3e547d feat(nodejs): add support <br>for include-dev-deps flag for yarn (#4<br>812)  * a7bd7bb65 feat(misconf): Add s<br>upport for independently enabling libr<br>aries (#4070)  * 4aa9ea096 feat(secret<br>): add secret config file for cache ca<br>lculation (#4837)  * 5d349d814 Fix a l<br>ink in gitlab-ci.md (#4850)  * a61531c<br>1f fix(flag): use globalstar to skip d<br>irectories (#4854)  * 78cc20937 chore(<br>deps): bump github.com/docker/docker f<br>rom v23.0.5+incompatible to v23.0.7-0.<br>20230714215826-f00e7af96042+incompatib<br>le (#4849)  * 93996041b fix(license): <br>using common way for splitting license<br>s (#4434)  * 3e2416d77 fix(containerd)<br>: Use img platform in exporter instead<br> of strict host platform (#4477)  * ce<br>77bb46c remove govulndb (#4783)  * c05<br>caae43 fix(java): inherit licenses fro<br>m parents (#4817)  * aca11b95d refacto<br>r: add allowed values for CLI flags (#<br>4800)  * 4cecd17ea add example regex t<br>o allow rules (#4827)  * 4bc8d29c1 fea<br>t(misconf): Support custom data for re<br>go policies for cloud (#4745)  * 88243<br>a0ad docs: correcting the trivy k8s tu<br>torial (#4815)  * 3c7d988d7 feat(cli):<br> add --tf-exclude-downloaded-modules f<br>lag (#4810)  * fd0fd104f fix(sbom): cy<br>clonedx recommendations should include<br> fixed versions for each package (#479<br>4)  * d0d543b88 feat(misconf): enable <br>--policy flag to accept directory and <br>files both (#4777)  * b43a3e623 feat(p<br>ython): add license fields (#4722)  * <br>aef7b148a fix: support trivy k8s-versi<br>on on k8s sub-command (#4786)    |
 |2023-07-31 17:42:33|[syft](https://github.com/anchore/syft)|v0.86.1|# Changelog    ##  (2023-07-31)      <br>  ### Bug Fixes    - Source requires d<br>efault image name as user input for un<br>parsable reference ] ]       |
 |2023-07-31 01:44:05|[AsamF](https://github.com/Kento-Sec/AsamF)|v0.2.5|Fofa无法查询的问题来源于他们平台移除<br>了lastupdatetime的字段，感谢提交issue的<br>朋友  该版本移除lastupdatetime字段|
-|2023-07-30 06:12:36|[afrog](https://github.com/zan8in/afrog)|v2.7.7|**Add:**  - "POC Execution Duration M<br>onitor": This monitor tracks and recor<br>ds the execution time of each POC to i<br>dentify the POC with the longest execu<br>tion time.  - "Vulnerability Scanner B<br>reakpoint": Once a vulnerability is de<br>tected, the scanning program will imme<br>diately halt the scan and report the i<br>dentified vulnerability.    **新增：**<br>  - -pedm  "POC Execution Duration Mon<br>itor"（POC执行时长监视器）：监控并记录<br>各个POC执行的时间，以便识别执行时间最长<br>的POC。当一个POC执行时间超过1分钟时，将<br>会触发提醒，接着每隔1分钟提醒一次，直到<br>该POC执行完毕。  - "Vulnerability Scann<br>er Breakpoint"（漏洞扫描断点）：在发现<br>漏洞后，扫描程序将立即停止扫描并报告该<br>漏洞。此功能通常用于避免触发防火墙等情<br>况下的过多扫描。    **优化：**  - "arcg<br>is-default-password"（ArcGIS默认口令）<br>：将ArcGIS的3个Admin/Manager/Rest默认口<br>令的PoC合并为一个。  - 对于 "mysql-dete<br>ct" 和 "CVE-2023-25573"，进行误报修复<br>。  - 针对CVE-2023-25157，提升扫描速度<br>。  |
 |2023-07-28 16:47:41|[nuclei](https://github.com/projectdiscovery/nuclei)|v2.9.10|    ## What's Changed  ### 🎉 New Fea<br>tures  * Added markdown export sorting<br> options via env variable by @kchason <br>in https://github.com/projectdiscovery<br>/nuclei/pull/3961  console  export MAR<br>KDOWN_EXPORT_SORT_MODE=template # defa<br>ult  export MARKDOWN_EXPORT_SORT_MODE=<br>severity  export MARKDOWN_EXPORT_SORT_<br>MODE=host    * Added headless options <br>input by @dogancanbakir in https://git<br>hub.com/projectdiscovery/nuclei/pull/3<br>951  console     -ho, -headless-option<br>s string by @ehsandeep in https://gith<br>ub.com/projectdiscovery/nuclei/pull/39<br>68    Issues closed in this release - <br>https://github.com/projectdiscovery/nu<br>clei/milestone/37?closed=1    **Full C<br>hangelog**: https://github.com/project<br>discovery/nuclei/compare/v2.9.9...v2.9<br>.10|
 |2023-07-28 05:17:15|[fupo_for_yonyou](https://github.com/novysodope/fupo_for_yonyou)|2.0RC1|建议如果出现跟 #7 一样的问题再用这个<br>版本 |
 |2023-07-27 21:17:12|[clair](https://github.com/quay/clair)|v4.7.0| ## : enable mutex, blocking profiles<br> by default ### Build(Deps) - : bump g<br>olang.org/x/net from 0.11.0 to 0.12.0 <br>- : bump github.com/klauspost/compress<br> from 1.16.6 to 1.16.7 ### Chore - : b<br>ump claircore to v1.5.13 - : Bump clai<br>rcore to v1.5.12 - : Bump claircore to<br> v1.5.11 - : Bump claircore to v1.5.10<br> - : bump Claircore to v1.5.9 - : add <br>pyroscope to compose setup - : Update <br>outdated docs and comment with default<br> update period. - : remove refs to dep<br>recated io/ioutil - : Remove dogstatsd<br> variable and references ### Clairctl <br>- : Add post 4.7 admin command to dele<br>te pyupio vulns - : Scan the pointer t<br>o the pointer of the bool - : Add log <br>line signifying admin is done - : Remo<br>ve DSN logging - : admin subcommand ##<br># Cmd - : version for old gits  -  ###<br> Config - : pick a real versioning sch<br>eme ### Contrib - : Add manifest for a<br> Job to run DB jobs ### Docs - : Fix u<br>p debug tools table - : Add descriptio<br>n of debugging services available duri<br>ng local-dev ### Httptransport - : add<br> request ID to profiler labels ### Int<br>rospection - : add delta pprof endpoin<br>ts  [Unreleased]: https://github.com/q<br>uay/clair/compare/v4.7.0...HEAD [v4.7.<br>0]: https://github.com/quay/clair/comp<br>are/v4.7.0-rc.1...v4.7.0 |
 |2023-07-27 12:30:53|[codeql-cli-binari<br>es](https://github.com/github/codeql-cli-binaries)|v2.14.1|- There are no user-facing changes in<br> this release.    For more information<br> about the changes included in this re<br>lease, see the .    You can download _<br>either_ the codeql-PLATFORM.zip for yo<br>ur platform, _or_ the generic codeql.z<br>ip which contains binaries for all sup<br>ported platforms. Please ignore the ad<br>ditional "source code" downloads below<br> the .zip artifacts.    This release i<br>s compatible with the CodeQL language <br>packs from .  |
 |2023-07-26 21:22:17|[pocsuite3](https://github.com/knownsec/pocsuite3)|v2.0.5|* 修复 urllib3 更新导致 requests hook<br> 失效的问题 #368 #373   * 优化 DSL 表<br>达式执行 #372  * 将 mmh3 设置为可选依赖<br> #359   * 优化检查更新    ---    * fix<br> hook failure due to urllib3 update #3<br>68 #373  * optimize DSL expression exe<br>cution #372  * making mmh3 an optional<br> dependency #359  * disable mandatory <br>updates  |
 |2023-07-26 06:26:19|[veinmind-tools](https://github.com/chaitin/veinmind-tools)|v2.1.5|## 🔥 Feature  * feat(veinmind-trace)<br>: add veinmind-trace plugin for detect<br>ing attack trace in container  by @DVK<br>union in #253   * feat(veinmind-backdo<br>or): refactor backdoor go plugin  by @<br>ek1ng in #252   * feat(veinmind-backdo<br>or): add rootkit scan by @l2yyd5 in #2<br>56     ## 📒 Others  * chore(veinmind-<br>backdoor): disabled python plugin and <br>instead of go plugin by @DVKunion in #<br>257   * chore(libveinmind): update lib<br>veinmind 1.9.42 by @DVKunion in #258  <br>   ## 🎉 New Contributors  * @l2yyd5 m<br>ade their first contribution in #256  <br>   **Full Changelog**: https://github.<br>com/chaitin/veinmind-tools/compare/v2.<br>1.4...v2.1.5|
-|2023-07-25 13:45:26|[frp](https://github.com/fatedier/frp)|v0.51.2|### Features  * Adds a completion com<br>mand for shell completions.  ### Fixes<br>  * fix a goroutine leak issue caused <br>by Login plugin timeout. * Fix an issu<br>e introduced in version 0.51.1, enabli<br>ng use_compression will cause some req<br>uests to fail.  |
-|2023-07-25 09:51:02|[kube-bench](https://github.com/aquasecurity/kube-bench)|v0.6.17|## Changelog * c8cabc4 Update job.yam<br>l (#1477)  |
 ## 近15天commit提交记录
 | 提交时间 | 项目名称 | 更新内容 |
 | :---- | :---- | :---- |
-|2023-08-09 00:00:03|[free](https://github.com/freefq/free)|updated_at 08-09 08:00|
+|2023-08-10 00:33:03|[rustdesk](https://github.com/rustdesk/rustdesk)|Merge pull request #5311 from PeterDaveHello/tw  Up<br>date and improve tw translation|
+|2023-08-10 00:10:11|[neuvector](https://github.com/neuvector/neuvector)|Merge pull request #945 from becitsthere/dev  NVSHA<br>S-7379: exit container if proc keep restarting|
+|2023-08-10 00:00:05|[free](https://github.com/freefq/free)|updated_at 08-10 08:00|
+|2023-08-09 23:04:47|[PocOrExp_in_Githu<br>b](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-08-10 07:04:47|
+|2023-08-09 21:22:51|[syft](https://github.com/anchore/syft)|chore(deps): bump github.com/vifraa/gopom from 0.2.<br>2 to 1.0.0 (#2008)  * chore(deps): bump github.com/v<br>ifraa/gopom from 0.2.2 to 1.0.0  * refactor: update <br>consumer code to use new optional values    Bumps  f<br>rom 0.2.2 to 1.0.0.  -   -     ---  updated-dependen<br>cies:  - dependency-name: github.com/vifraa/gopom   <br> dependency-type: direct:production    update-type: <br>version-update:semver-major  ...  ---------    Signe<br>d-off-by: dependabot[bot]   Signed-off-by: Christoph<br>er Phillips   Co-authored-by: dependabot[bot]   Co-a<br>uthored-by: Christopher Phillips |
+|2023-08-09 18:18:15|[trivy](https://github.com/aquasecurity/trivy)|build: maximize available disk space for release (#<br>4937)  * remove unneeded bins and archives  * use jl<br>umbroso/free-disk-space  * remove repeating step  * <br>use maximize-build-space  * build: remove unused ste<br>p  ---------  Co-authored-by: knqyf263 |
+|2023-08-09 17:25:05|[clair](https://github.com/quay/clair)|build(deps): bump github.com/pyroscope-io/godeltapr<br>of  Bumps  from 0.1.1 to 0.1.2. -   --- updated-depe<br>ndencies: - dependency-name: github.com/pyroscope-io<br>/godeltaprof   dependency-type: direct:production   <br>update-type: version-update:semver-patch ...  Signed<br>-off-by: dependabot[bot] |
+|2023-08-09 15:45:31|[DecoyMini](https://github.com/decoymini/DecoyMini)|Update README.md|
+|2023-08-09 13:38:42|[afrog](https://github.com/zan8in/afrog)|version 2.7.8|
+|2023-08-09 12:44:39|[dbeaver](https://github.com/dbeaver/dbeaver)|#20797 Support Array(T), Map(K, V), and Tuple(T...)<br> types (#20842)  * #20797 Support Array(T), Map(K, V<br>), and Tuple(T...) types    * #20797 Add several sim<br>ple types, handle parsing errors|
+|2023-08-09 12:39:45|[v2rayfree](https://github.com/aiboboxx/v2rayfree)|update|
+|2023-08-09 07:20:43|[safeline](https://github.com/chaitin/safeline)|fix: update image.tar download link|
+|2023-08-09 07:09:32|[Scanners-Box](https://github.com/We5ter/Scanners-Box)|[+]MrEmpy/Mantra|
+|2023-08-09 06:51:12|[PeiQi-WIKI-Book](https://github.com/PeiQi0/PeiQi-WIKI-Book)|漏洞相关:海康,用友等:tada:|
+|2023-08-09 01:33:36|[Viper](https://github.com/FunnyWolf/Viper)|Update issue templates|
 |2023-08-08 23:32:03|[WebGoat](https://github.com/WebGoat/WebGoat)|fix: WebWolf JWT jquery webjar|
-|2023-08-08 23:04:27|[PocOrExp_in_Githu<br>b](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-08-09 07:04:27|
 |2023-08-08 21:48:35|[BloodHound](https://github.com/BloodHoundAD/BloodHound)|Update index.rst|
 |2023-08-08 21:09:10|[ChatGPT-Shortcut](https://github.com/rockbenben/ChatGPT-Shortcut)|perf: Replace Google authentication API|
-|2023-08-08 19:55:50|[syft](https://github.com/anchore/syft)|fix: SPDX license values and download location (#20<br>07)  Signed-off-by: Keith Zantow |
 |2023-08-08 17:29:12|[grype](https://github.com/anchore/grype)|chore(deps): bump actions/setup-go from 4.0.1 to 4.<br>1.0 (#1421)  Bumps  from 4.0.1 to 4.1.0.  -   -     <br>---  updated-dependencies:  - dependency-name: actio<br>ns/setup-go    dependency-type: direct:production   <br> update-type: version-update:semver-minor  ...    Si<br>gned-off-by: dependabot[bot]   Co-authored-by: depen<br>dabot[bot] |
-|2023-08-08 15:59:17|[dbeaver](https://github.com/dbeaver/dbeaver)|dbeaver/dbeaver#20834 Fix editor input read-only st<br>atus detection (#20836)|
 |2023-08-08 14:56:38|[RouteVulScan](https://github.com/F6JO/RouteVulScan)|update rule|
-|2023-08-08 14:36:16|[afrog](https://github.com/zan8in/afrog)|update|
-|2023-08-08 13:40:18|[rustdesk](https://github.com/rustdesk/rustdesk)|Merge pull request #5296 from dignow/fix/id_server <br> oidc does not use api server cache & fix logout aft<br>er changing server|
-|2023-08-08 12:51:10|[trivy](https://github.com/aquasecurity/trivy)|test: validate CycloneDX with the JSON schema (#495<br>6)  * test: validate CycloneDX with the JSON schema <br> * fix(sbom): move licenses to name field in Cyclone<br>dx format (#4941)  * use license.Name instead of Exp<br>ression  * update tests  * test: add uuid package  *<br> test: compare UUID  ---------  Co-authored-by: Dmit<br>riyLewen |
-|2023-08-08 12:36:56|[v2rayfree](https://github.com/aiboboxx/v2rayfree)|update|
 |2023-08-08 11:47:30|[dperf](https://github.com/baidu/dperf)|Merge pull request #355 from pengjianzhang/main  fi<br>x: lport_range check late|
 |2023-08-08 10:19:38|[gshark](https://github.com/madneal/gshark)|modify sql.md|
 |2023-08-08 09:59:24|[vulhub](https://github.com/vulhub/vulhub)|Merge pull request #455 from vulhub/metersphere-plu<br>gin-rce  MeterSphere plugin RCE|
-|2023-08-08 08:47:59|[safeline](https://github.com/chaitin/safeline)|feat(website): mobile mode show menu button|
 |2023-08-08 08:44:35|[Some-PoC-oR-ExP](https://github.com/coffeehb/Some-PoC-oR-ExP)|Update 一些已知漏洞.md|
 |2023-08-08 07:10:46|[fupo_for_yonyou](https://github.com/novysodope/fupo_for_yonyou)|Update main.go|
 |2023-08-08 05:41:42|[PEASS-ng](https://github.com/carlospolop/PEASS-ng)|Merge pull request #382 from RandolphConley/master <br> Feature add, bug fix|
 |2023-08-08 03:43:04|[ARL](https://github.com/TophantTechnology/ARL)|Create 问题反馈.md|
 |2023-08-08 01:28:50|[v2rayA](https://github.com/v2rayA/v2rayA)|fix: Farsi language standard flag. (#1011)|
 |2023-08-07 19:36:46|[malwoverview](https://github.com/alexandreborges/malwoverview)|Malwoverview|
-|2023-08-07 18:59:19|[clair](https://github.com/quay/clair)|chore: bump claircore to v1.5.14  Update claircore <br>dependency to latest tag.  Signed-off-by: crozzy |
 |2023-08-07 18:30:01|[faker](https://github.com/joke2k/faker)|Bump version: 19.2.0 → 19.3.0|
 |2023-08-07 10:11:12|[veinmind-tools](https://github.com/chaitin/veinmind-tools)|docs: 修复readme描述 (#264)|
 |2023-08-07 08:32:55|[RmTools](https://github.com/RoomaSec/RmTools)|Update README.md|
@@ -93,13 +96,11 @@
 |2023-08-03 09:37:48|[Awesome-Redteam](https://github.com/Threekiii/Awesome-Redteam)|更新README.md|
 |2023-08-03 07:17:17|[Vulnerability-Wik<br>i](https://github.com/Threekiii/Vulnerability-Wiki)|更新漏洞|
 |2023-08-03 07:07:36|[Vulhub-Reproduce](https://github.com/Threekiii/Vulhub-Reproduce)|更新漏洞|
-|2023-08-03 05:13:22|[neuvector](https://github.com/neuvector/neuvector)|Merge pull request #917 from jayhuang-suse/nine  NV<br>SHAS-8170: Auto profile collection feature to captur<br>e profile data at the maximum memory|
 |2023-08-03 05:05:33|[ObserverWard](https://github.com/0x727/ObserverWard)|extracted-results|
 |2023-08-03 04:37:38|[GobypassAV-shellc<br>ode](https://github.com/Pizz33/GobypassAV-shellcode)|Update README.md|
 |2023-08-03 00:54:06|[Awesome-POC](https://github.com/Threekiii/Awesome-POC)|更新漏洞|
 |2023-08-02 18:22:40|[naabu](https://github.com/projectdiscovery/naabu)|Revert "removing uncover"  This reverts commit d587<br>82fbb88e7669171b9d461444f416135e4b7b.|
 |2023-08-02 16:59:50|[RedisEXP](https://github.com/yuyan-sec/RedisEXP)|0.0.3|
-|2023-08-02 09:04:20|[Viper](https://github.com/FunnyWolf/Viper)|Merge remote-tracking branch 'origin/master'|
 |2023-08-02 08:09:53|[arthas](https://github.com/alibaba/arthas)|upgrade bytekit to 0.0.9|
 |2023-08-02 07:46:01|[Mobile-Security-F<br>ramework-MobSF](https://github.com/MobSF/Mobile-Security-Framework-MobSF)|Dynamic Analysis support alert (#2227)|
 |2023-08-02 03:11:35|[knife](https://github.com/bit4woo/knife)|新增2个功能菜单|
@@ -107,7 +108,6 @@
 |2023-08-01 03:02:00|[murphysec](https://github.com/murphysecurity/murphysec)|chore(deps): upgrade dependencies...|
 |2023-07-31 15:27:39|[flightsim](https://github.com/alphasoc/flightsim)|Pick random hosts if returned more than requested|
 |2023-07-31 03:58:14|[wmiexec-Pro](https://github.com/XiaoliChan/wmiexec-Pro)|Declaration|
-|2023-07-31 01:06:00|[DecoyMini](https://github.com/decoymini/DecoyMini)|Update README.md|
 |2023-07-30 15:43:00|[Venom-Transponder](https://github.com/z-bool/Venom-Transponder)|finish|
 |2023-07-30 15:18:14|[0day](https://github.com/helloexp/0day)|update Metabase CVE-2023-38646 RCE add logging func|
 |2023-07-30 13:34:04|[ENScan_GO](https://github.com/wgpsec/ENScan_GO)|Merge pull request #71 from ruishawn/master  fix: <br>修复日志输出format格式不对的问题|
@@ -119,10 +119,7 @@
 |2023-07-27 08:22:25|[autoDecoder](https://github.com/f0ng/autoDecoder)|Update FAQ.md|
 |2023-07-27 07:07:29|[Pentest-Windows](https://github.com/arch3rPro/Pentest-Windows)|Merge pull request #24 from mlzxgzy/main  方便有百<br>度云的兄弟们用百度云下载|
 |2023-07-26 21:18:59|[pocsuite3](https://github.com/knownsec/pocsuite3)|Merge pull request #375 from 13ph03nix/fix/urllib3-<br>hook  Bug fixes & improvements|
-|2023-07-26 15:55:47|[Stowaway](https://github.com/ph4ntonn/Stowaway)|Fix preauth|
-|2023-07-25 13:35:20|[0_zone_tool](https://github.com/wkend/0_zone_tool)|Update 0_zone.py|
-|2023-07-25 13:31:26|[frp](https://github.com/fatedier/frp)|fix incorrect use of snappy pool (#3549)|
-|2023-07-25 03:27:55|[Scanners-Box](https://github.com/We5ter/Scanners-Box)|Add the 1st sponsor @Albert, thanks, my friend.|## 所有项目
+|2023-07-26 15:55:47|[Stowaway](https://github.com/ph4ntonn/Stowaway)|Fix preauth|## 所有项目
 # 渗透测试
 ## 信息收集
 ### 资产测绘采集
@@ -280,7 +277,7 @@
 | [w13scan](https://github.com/w-digital-scanner/w13scan) |  | Passive Security Scanner (被动式安全扫描器) |
 | [Fvuln](https://github.com/d3ckx1/Fvuln) | Fvuln-1<br>.4.9 | F-vuln（全称：Find-Vulnerability）是为了自己工作方便专门编写的<br>一款自动化工具，主要适用于日常安全服务、渗透测试人员和RedTeam红<br>队人员，它集合的功能包括：存活IP探测、开放端口探测、web服务探测<br>、web漏洞扫描、smb爆破、ssh爆破、ftp爆破、mssql爆破等其他数据库<br>爆破工作以及大量web漏洞检测模块。 |
 | [nuclei](https://github.com/projectdiscovery/nuclei) | v2.9.10 | Fast and customizable vulnerability scanner based on simple YA<br>ML based DSL. |
-| [afrog](https://github.com/zan8in/afrog) | v2.7.7 | A Security Tool for Bug Bounty, Pentest and Red Teaming. |
+| [afrog](https://github.com/zan8in/afrog) | v2.7.8 | A Security Tool for Bug Bounty, Pentest and Red Teaming. |
 | [vulmap](https://github.com/zhzyker/vulmap) | v0.9 | Vulmap 是一款 web 漏洞扫描和验证工具, 可对 webapps 进行漏洞扫<br>描, 并且具备漏洞验证功能 |
 | [POC-bomber](https://github.com/tr0uble-mAker/POC-bomber) | POC-bom<br>ber-for-<br>Redteam-<br>v3.0.0 | 利用大量高威胁poc/exp快速获取目标权限，用于渗透和红队快速打点 |
 | [QingTing](https://github.com/StarCrossPortal/QingTing) | v0.3 | 蜻蜓安全一个安全工具编排平台,可以自由编排你的工具流,集成108款<br>工具,包括xray、nmap、awvs等;你可以将喜欢的工具编排成一个场景，快<br>速打造适合自己的安全工作台~ |
@@ -542,7 +539,7 @@
 | [Cloud-Bucket-Leak<br>-Detection-Tools](https://github.com/UzJu/Cloud-Bucket-Leak-Detection-Tools) | v0.4.0 | 六大云存储，泄露利用检测工具 |
 | [aksk_tool](https://github.com/wyzxxz/aksk_tool) |  | AK资源管理工具，阿里云/腾讯云/华为云/AWS/UCLOUD/京东云/百度云/<br>七牛云存储  AccessKey AccessKeySecret，利用AK获取资源信息和操作<br>资源，ECS/CVM/E2/UHOST/ECI/BCC执行命令，OSS/COS/S3/BOS管理，RDS/<br>DB管理，域名管理，添加RAM/CAM/IAM账号等 |
 | [AliyunAccessKeyTo<br>ols](https://github.com/NS-Sp4ce/AliyunAccessKeyTools) | 1.0 | 阿里云AccessKey泄漏利用工具 |
-| [cf](https://github.com/teamssix/cf) | v0.5.0 | Cloud Exploitation Framework 云环境利用框架，方便安全人员在获<br>得 AK 的后续工作 |
+| [cf](https://github.com/teamssix/cf) |  |  |
 #### swagger接口
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
