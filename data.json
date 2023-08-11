@@ -200,8 +200,8 @@
     "https://github.com/ycdxsb/PocOrExp_in_Github": {
         "created_at": "2021-04-13 05:46:16",
         "description": "聚合Github上已有的Poc或者Exp，CVE信息来自CVE官网。Auto Collect Poc Or Exp from Github by CVE ID.",
-        "commit_date": "2023-08-09 23:04:47",
-        "commit_message": "update 2023-08-10 07:04:47",
+        "commit_date": "2023-08-10 23:08:51",
+        "commit_message": "update 2023-08-11 07:08:51",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -380,8 +380,8 @@
     "https://github.com/lal0ne/vulnerability": {
         "created_at": "2022-01-20 02:48:42",
         "description": "收集、整理、修改互联网上公开的漏洞POC",
-        "commit_date": "2023-08-07 07:16:43",
-        "commit_message": "CVE-2023-36255",
+        "commit_date": "2023-08-10 03:17:55",
+        "commit_message": "CVE-2020-1472",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -999,7 +999,7 @@
     "https://github.com/LittleBear4/OA-EXPTOOL": {
         "created_at": "2022-10-13 12:31:21",
         "description": "OA综合利用工具，集合将近20款OA漏洞批量扫描",
-        "commit_date": "2023-07-14 00:50:25",
+        "commit_date": "2023-08-10 08:33:16",
         "commit_message": "Add files via upload",
         "release_tag": "OA-EXPTOOL-0.72",
         "release_date": "2023-04-23 06:08:32",
@@ -2374,9 +2374,9 @@
         "description": "Redteam operation  platform with webui 图形化红队行动辅助平台",
         "commit_date": "2023-08-09 01:33:36",
         "commit_message": "Update issue templates",
-        "release_tag": "v1.6.1",
-        "release_date": "2023-07-09 09:39:37",
-        "release_message": "## v1.6.1 20230709\r\n### 优化\r\n- 合并metasploit-framework 6.3.25版本\r\n### Bugfix\r\n- 修复NAT网络Linux主机(各大云厂商VPS)IP显示为::1问题\r\n- 修复NAT网络Linux主机(各大云厂商VPS)上线生成多个主机问题"
+        "release_tag": "v1.6.2",
+        "release_date": "2023-08-02 09:03:57",
+        "release_message": "\r\n### 优化\r\n- 优化Session Timeout默认值,断线可自动切换传输协议\r\n- reverse_http监听不再返回404页面,直接关闭连接\r\n- 优化`网络拓扑`,根据载荷类型确认方向并动态显示当前存活的连接\r\n- 合并metasploit-framework 6.3.28版本\r\n### Bugfix\r\n- Socks5代理在存在连接时无法正确关闭问题"
     },
     "https://github.com/kost/dvcs-ripper": {
         "created_at": "2012-10-23 04:55:18",
@@ -2390,8 +2390,8 @@
     "https://github.com/PeiQi0/PeiQi-WIKI-Book": {
         "created_at": "2022-03-12 12:38:56",
         "description": "面向网络安全从业者的知识文库🍃",
-        "commit_date": "2023-08-09 06:51:12",
-        "commit_message": "漏洞相关:海康,用友等:tada:",
+        "commit_date": "2023-08-10 08:05:05",
+        "commit_message": "漏洞相关: 绿盟,海康等",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -2951,8 +2951,8 @@
     "https://github.com/dbeaver/dbeaver": {
         "created_at": "2015-10-21 08:26:28",
         "description": "Free universal database tool and SQL client",
-        "commit_date": "2023-08-09 12:44:39",
-        "commit_message": "#20797 Support `Array(T)`, `Map(K, V)`, and `Tuple(T...)` types (#20842)\n\n* #20797 Support `Array(T)`, `Map(K, V)`, and `Tuple(T...)` types\r\n\r\n* #20797 Add several simple types, handle parsing errors",
+        "commit_date": "2023-08-10 18:52:29",
+        "commit_message": "CB-3742 connect with key file in bigquery (#20768)\n\n* CB-3742 connect with key file in bigquery\r\n\r\n* CB-3742 remove server name field\r\n\r\n* remove keypath param from url\r\n\r\n---------\r\n\r\nCo-authored-by: Daria Marutkina <125263541+dariamarutkina@users.noreply.github.com>",
         "release_tag": "23.1.4",
         "release_date": "2023-08-06 16:23:25",
         "release_message": "\n                - SQL editor:\n                    - Table alias generation was fixed (issue with duplicated aliases)\n                    - Auto-proposals now respect option \"empty line is a query delimiter\"\n                    - Auto-proposals calculation performance was significantly improved in some cases\n                    - Aliases completion was fixed (issue with redundant spaces)\n                    - Table name completion was fixed for invalid SQL queries\n                    - Spelling errors and other annotations now work in console mode\n                    - @import command behavior is now configurable\n                - Data editor:\n                    - Filters/orderings/colors reset UI was significantly improved\n                    - Spatial viewer now hides empty labels\n                    - Copying of spatial viewport/selection bounds was fixed\n                    - Drag-n-drop in grouping panel fixed on Linux\n                - Data transfer: previous export settings loading was fixed\n                - General:\n                    - Auto-commit mode switch behavior was fixed\n                    - CLI processing was fixed in multi-workspace environment\n                    - \"Tip of the day\" now shows OS-specific shortcuts corectly\n                    - Redundant logs of SSH tunnel closing were removed\n                    - Logical database structure settings can be disabled or reset in the connection editor dialog\n                    - Driver search UI was fixed on MacOS\n                    - Number of minor UI bugs were resolved\n                - Database:\n                    - Athena: multi-catalog support was added\n                    - Derby: grouping queries generation fixed\n                    - DuckDB: time/timestamp data types support was added\n                    - MySQL: issue with missing table partitions folder was resolved\n                    - Oracle: table DDL shows permission grants in \"full\" mode\n                    - PostgreSQL: issue with duplicated tables was resolved\n                    - Redshift: SQL dialect was enhanced with extra keywords\n                    - Yellowbrick: execution plan visualization was fixed\n            "
@@ -3050,8 +3050,8 @@
     "https://github.com/zan8in/afrog": {
         "created_at": "2022-02-24 06:00:32",
         "description": "A Security Tool for Bug Bounty, Pentest and Red Teaming.",
-        "commit_date": "2023-08-09 13:38:42",
-        "commit_message": "version 2.7.8",
+        "commit_date": "2023-08-10 12:36:06",
+        "commit_message": "update",
         "release_tag": "v2.7.8",
         "release_date": "2023-08-09 13:53:39",
         "release_message": "**Add:**\r\n- Version 2.7.8 introduced the Eye.sh backlink configuration option. For more detailed information, please refer to the afrog wiki.\r\n\r\n- In order to mitigate the impact of a large number of requests on the reverse-link platform and enhance the accuracy of POC validation, an independent concurrent rate control is implemented for POCs that require support from the reverse-link platform.(The \"smart\" parameter does not affect the concurrency of reverse-link POCs)\r\n\r\n\r\n**新增：**\r\n- 2.7.8 版本引入了 Eye.sh 反链配置项，有关详细信息，请参阅 afrog wiki。\r\n最终效果示例可参考 afrog-config.yaml，如需添加 \"eye\" 相关内容，请在删除 afrog-config.yaml 后重新启动 afrog，系统将自动生成新的 afrog-config.yaml。\r\n**示例：**\r\n```\r\nreverse:\r\n  ceye:\r\n    api-key: \"bba3368******630b8fca0\"\r\n    domain: \"*****.ceye.io\"\r\n  jndi:\r\n    jndi_address: \"x.x.x.x\"\r\n    ldap_port: \"1389\"\r\n    api_port: \"34567\"\r\n  eye:\r\n    token: \"1f****4d\"\r\n    domain: \"****.eyes.sh\"\r\n```\r\n- 为了减少大量请求对反链平台造成的影响，并提高POC验证的准确性，对需要反链平台支持的POC进行独立的并发速率控制。(\"smart\" 参数不会影响反向链 POC 的并发数量)\r\n\r\n- -reverse-rate-limit/-rrl  和 -reverse-concurrency/-rc 这两个参数用于调控反链平台支持的 PoC 并发速率，建议不要设置得过高。\r\n\r\n**修复：**\r\n- eoffice-v9-file-upload 严重误报问题\r\n- CVE-2023-38646、CVE-2021-36260"
@@ -3300,8 +3300,8 @@
         "description": "Elkeid is an open source solution that can meet the security requirements of various workloads such as hosts, containers and K8s, and serverless. It is derived from ByteDance's internal best practices.",
         "commit_date": "2023-07-19 08:06:37",
         "commit_message": "Merge pull request #518 from Hackerl/main\n\nadd namesapce mount tool",
-        "release_tag": "scanner-v2.2.1.0_20230804_test_only",
-        "release_date": "2023-08-04 07:00:27",
+        "release_tag": "v1.7.0.13-driver-ko-20230810",
+        "release_date": "2023-08-10 12:34:39",
         "release_message": ""
     },
     "https://github.com/knownsec/ct": {
@@ -3908,8 +3908,8 @@
     "https://github.com/anchore/syft": {
         "created_at": "2020-05-07 18:19:29",
         "description": "CLI tool and library for generating a Software Bill of Materials from container images and filesystems",
-        "commit_date": "2023-08-09 21:22:51",
-        "commit_message": "chore(deps): bump github.com/vifraa/gopom from 0.2.2 to 1.0.0 (#2008)\n\n* chore(deps): bump github.com/vifraa/gopom from 0.2.2 to 1.0.0\r\n* refactor: update consumer code to use new optional values\r\n\r\nBumps [github.com/vifraa/gopom](https://github.com/vifraa/gopom) from 0.2.2 to 1.0.0.\r\n- [Release notes](https://github.com/vifraa/gopom/releases)\r\n- [Commits](https://github.com/vifraa/gopom/compare/v0.2.2...v1.0.0)\r\n\r\n---\r\nupdated-dependencies:\r\n- dependency-name: github.com/vifraa/gopom\r\n  dependency-type: direct:production\r\n  update-type: version-update:semver-major\r\n...\r\n---------\r\n\r\nSigned-off-by: dependabot[bot] <support@github.com>\r\nSigned-off-by: Christopher Phillips <christopher.phillips@anchore.com>\r\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>\r\nCo-authored-by: Christopher Phillips <christopher.phillips@anchore.com>",
+        "commit_date": "2023-08-10 17:20:09",
+        "commit_message": "chore(deps): update bootstrap tools to latest versions (#2012)\n\nSigned-off-by: GitHub <noreply@github.com>\r\nCo-authored-by: spiffcs <spiffcs@users.noreply.github.com>",
         "release_tag": "v0.86.1",
         "release_date": "2023-07-31 17:42:33",
         "release_message": "# Changelog\r\n\r\n## [v0.86.1](https://github.com/anchore/syft/tree/v0.86.1) (2023-07-31)\r\n\r\n[Full Changelog](https://github.com/anchore/syft/compare/v0.86.0...v0.86.1)\r\n\r\n### Bug Fixes\r\n\r\n- Source requires default image name as user input for unparsable reference [[PR #1979](https://github.com/anchore/syft/pull/1979)] [[kzantow](https://github.com/kzantow)] \r\n\r\n\r\n"
@@ -3917,11 +3917,11 @@
     "https://github.com/chaitin/safeline": {
         "created_at": "2023-04-12 11:30:14",
         "description": "一款足够简单、足够好用、足够强的免费 WAF。基于业界领先的语义引擎检测技术，作为反向代理接入，保护你的网站不受黑客攻击。",
-        "commit_date": "2023-08-09 07:20:43",
-        "commit_message": "fix: update image.tar download link",
-        "release_tag": "v2.5.0",
-        "release_date": "2023-08-03 10:18:28",
-        "release_message": "### 新增\r\n\r\n- 请求频率限制（[#29](https://github.com/chaitin/safeline/issues/29)）\r\n\r\n### 优化\r\n\r\n- 支持筛选攻击检测日志的 ID（[#74](https://github.com/chaitin/safeline/issues/74)），优化筛选的交互\r\n- 证书支持 .cer 格式（[#181](https://github.com/chaitin/safeline/issues/181)）\r\n- 优化人机校验页面，适配移动端（[#184](https://github.com/chaitin/safeline/issues/184)）\r\n- 界面增加一些配置提示：添加站点时 “域名” 的格式、黑白名单/人机验证中匹配条件的生效逻辑"
+        "commit_date": "2023-08-10 10:18:35",
+        "commit_message": "Merge pull request #210 from chaitin/Lorna0-Update-issue-template\n\nUpdate issue template: add some hits in feature-request issue",
+        "release_tag": "v2.6.0",
+        "release_date": "2023-08-10 09:06:39",
+        "release_message": "### 新增\r\n\r\n- 新增高频攻击封禁，即多次攻击后自动封禁 IP ([#29](https://github.com/chaitin/safeline/issues/29))\r\n- 频率限制日志显示封禁 IP 的地理位置 ([#198](https://github.com/chaitin/safeline/issues/198))\r\n\r\n### 优化\r\n\r\n- 攻击检测的原始日志支持搜索端口 ([#193](https://github.com/chaitin/safeline/issues/193))\r\n- 修复编辑站点后，“维护模式” 会失效的问题\r\n- 修改默认占用的网段，避免跟腾讯云默认网段冲突 ([#40](https://github.com/chaitin/safeline/issues/40))\r\n- 优化安装脚本 ([#194](https://github.com/chaitin/safeline/issues/194))，优化界面一些 UI 交互、错误提示"
     },
     "https://github.com/stamparm/identYwaf": {
         "created_at": "2019-01-10 11:27:58",
@@ -3955,9 +3955,9 @@
         "description": "Vulnerability Static Analysis for Containers",
         "commit_date": "2023-08-09 17:25:05",
         "commit_message": "build(deps): bump github.com/pyroscope-io/godeltaprof\n\nBumps [github.com/pyroscope-io/godeltaprof](https://github.com/pyroscope-io/godeltaprof) from 0.1.1 to 0.1.2.\n- [Commits](https://github.com/pyroscope-io/godeltaprof/compare/v0.1.1...v0.1.2)\n\n---\nupdated-dependencies:\n- dependency-name: github.com/pyroscope-io/godeltaprof\n  dependency-type: direct:production\n  update-type: version-update:semver-patch\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>",
-        "release_tag": "v4.7.0",
-        "release_date": "2023-07-27 21:17:12",
-        "release_message": "<a name=\"unreleased\"></a>\n## [Unreleased]\n\n\n<a name=\"v4.7.0\"></a>\n## [v4.7.0] - 2023-07-27\n### Auto\n- [1e574c25](https://github.com/quay/clair/commit/1e574c25a3830b1d2f1b420c9ea2deaaba13a238): enable mutex, blocking profiles by default\n### Build(Deps)\n- [adee21df](https://github.com/quay/clair/commit/adee21df77903f159ca1b6dc631700d096c42f0f): bump golang.org/x/net from 0.11.0 to 0.12.0\n- [32c9ae2e](https://github.com/quay/clair/commit/32c9ae2e81c4ab8a443f50926697a40a6cf9af56): bump github.com/klauspost/compress from 1.16.6 to 1.16.7\n### Chore\n- [1bfbfa1b](https://github.com/quay/clair/commit/1bfbfa1bcf5489bcc91ad34aef0d4517cc6bb2e4): bump claircore to v1.5.13\n- [31cf5570](https://github.com/quay/clair/commit/31cf5570673f8e34a9fd40dfe3e6710cf517da17): Bump claircore to v1.5.12\n- [2d2d16a1](https://github.com/quay/clair/commit/2d2d16a15ad90928174d1549d7a17bf24aa285aa): Bump claircore to v1.5.11\n- [048ad2f1](https://github.com/quay/clair/commit/048ad2f1dd03197afd3434ef0bec83d1d3dedd1a): Bump claircore to v1.5.10\n- [5550b27a](https://github.com/quay/clair/commit/5550b27a89e1004e93d85d6194dbe5132a9c2659): bump Claircore to v1.5.9\n- [7df2b863](https://github.com/quay/clair/commit/7df2b86372b18ba9eeb07ffe87f17e80a04e26d4): add pyroscope to compose setup\n- [c28648e5](https://github.com/quay/clair/commit/c28648e5ea7336bf6e2a70cb1d3d9dbb6c706b95): Update outdated docs and comment with default update period.\n- [a02a0f2f](https://github.com/quay/clair/commit/a02a0f2f0d6315250a083351a584ce11e8a55dcf): remove refs to deprecated io/ioutil\n- [44638edf](https://github.com/quay/clair/commit/44638edf5b99ddcc7c73b8313557f200469228d4): Remove dogstatsd variable and references\n### Clairctl\n- [bccabff1](https://github.com/quay/clair/commit/bccabff1a003a37a35b7976eb1ff3e9fce35e97e): Add post 4.7 admin command to delete pyupio vulns\n- [d2b3d826](https://github.com/quay/clair/commit/d2b3d826bba6522e69d214023d16070287b9da15): Scan the pointer to the pointer of the bool\n- [05bd8fa0](https://github.com/quay/clair/commit/05bd8fa0382c6527d49627aff70cbfc9dd8ad9e1): Add log line signifying admin is done\n- [c636e207](https://github.com/quay/clair/commit/c636e207b3ad3a07512035dc228a5af9c75a12cd): Remove DSN logging\n- [89cae779](https://github.com/quay/clair/commit/89cae7796e63749f7b0dd123135d96af6cf91d48): `admin` subcommand\n### Cmd\n- [8231b438](https://github.com/quay/clair/commit/8231b438bedf60bbfeb3b8ac8bcd384a28f63d5e): version for old gits\n -  [#882](https://github.com/quay/clair/issues/882)### Config\n- [83ee24af](https://github.com/quay/clair/commit/83ee24afd2262353dfe41c0f6bec8d64e289c27b): pick a real versioning scheme\n### Contrib\n- [70d878eb](https://github.com/quay/clair/commit/70d878eb268f17f4f92b1833a634c367e3bacc1b): Add manifest for a Job to run DB jobs\n### Docs\n- [394efe15](https://github.com/quay/clair/commit/394efe1557b8edd9f01d3d2d7a129bbc91b657ed): Fix up debug tools table\n- [a4ec17f6](https://github.com/quay/clair/commit/a4ec17f618708480613c94bedfced910ae892d76): Add description of debugging services available during local-dev\n### Httptransport\n- [86f7a86a](https://github.com/quay/clair/commit/86f7a86aaa45f6bb6b9f8422678996a69b2f64ef): add request ID to profiler labels\n### Introspection\n- [caba76e1](https://github.com/quay/clair/commit/caba76e1329660c1c136130e5619626c308e514f): add delta pprof endpoints\n\n[Unreleased]: https://github.com/quay/clair/compare/v4.7.0...HEAD\n[v4.7.0]: https://github.com/quay/clair/compare/v4.7.0-rc.1...v4.7.0\n"
+        "release_tag": "v4.7.1",
+        "release_date": "2023-08-10 22:02:47",
+        "release_message": "<a name=\"unreleased\"></a>\n## [Unreleased]\n\n\n<a name=\"v4.7.1\"></a>\n## [v4.7.1] - 2023-08-10\n### Build(Deps)\n- [bd4bdbf6](https://github.com/quay/clair/commit/bd4bdbf68c62eb9982e028cafcabd58eb4e91c6c): bump github.com/pyroscope-io/godeltaprof\n### Chore\n- [25ab0f4e](https://github.com/quay/clair/commit/25ab0f4e01ac08870b6e8fe9cccc134a011a4f4f): bump claircore to v1.5.15\n- [4bf37a11](https://github.com/quay/clair/commit/4bf37a11861ca89c56dc94db9b1e002ef3d44265): bump claircore to v1.5.14\n\n[Unreleased]: https://github.com/quay/clair/compare/v4.7.1...HEAD\n[v4.7.1]: https://github.com/quay/clair/compare/v4.7.0...v4.7.1\n"
     },
     "https://github.com/alphasoc/flightsim": {
         "created_at": "2018-01-10 12:31:31",
@@ -3971,11 +3971,11 @@
     "https://github.com/aquasecurity/trivy": {
         "created_at": "2019-04-11 01:01:07",
         "description": "Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more",
-        "commit_date": "2023-08-09 18:18:15",
-        "commit_message": "build: maximize available disk space for release (#4937)\n\n* remove unneeded bins and archives\n\n* use jlumbroso/free-disk-space\n\n* remove repeating step\n\n* use maximize-build-space\n\n* build: remove unused step\n\n---------\n\nCo-authored-by: knqyf263 <knqyf263@gmail.com>",
-        "release_tag": "v0.44.0",
-        "release_date": "2023-08-01 09:08:35",
-        "release_message": "## ⚡Release highlights and summary⚡\r\n\r\n👉 https://github.com/aquasecurity/trivy/discussions/4903\r\n\r\n## Changelog\r\n* d19c7d9f2 feat(repo): support local repositories (#4890)\r\n* 3c1976187 bump go-dep-parser (#4893)\r\n* e1c2a8c80 fix(misconf): add missing fields to proto (#4861)\r\n* 8b8e0e83d fix: remove trivy-db package replacement (#4877)\r\n* f9efe44fd chore(test): bump the integration test timeout to 15m (#4880)\r\n* 7271d682f chore(deps): Update defsec to v0.91.0 (#4886)\r\n* c3bc67c89 chore: update CODEOWNERS (#4871)\r\n* 232ba823e feat(vuln): support vulnerability status (#4867)\r\n* 11618c940 feat(misconf): Support custom URLs for policy bundle (#4834)\r\n* 07075696d refactor: replace with sortable packages (#4858)\r\n* fbe1c9eb1 docs: correct license scanning sample command (#4855)\r\n* 20c2246a6 fix(report): close the file (#4842)\r\n* 24a3e547d feat(nodejs): add support for include-dev-deps flag for yarn (#4812)\r\n* a7bd7bb65 feat(misconf): Add support for independently enabling libraries (#4070)\r\n* 4aa9ea096 feat(secret): add secret config file for cache calculation (#4837)\r\n* 5d349d814 Fix a link in gitlab-ci.md (#4850)\r\n* a61531c1f fix(flag): use globalstar to skip directories (#4854)\r\n* 78cc20937 chore(deps): bump github.com/docker/docker from v23.0.5+incompatible to v23.0.7-0.20230714215826-f00e7af96042+incompatible (#4849)\r\n* 93996041b fix(license): using common way for splitting licenses (#4434)\r\n* 3e2416d77 fix(containerd): Use img platform in exporter instead of strict host platform (#4477)\r\n* ce77bb46c remove govulndb (#4783)\r\n* c05caae43 fix(java): inherit licenses from parents (#4817)\r\n* aca11b95d refactor: add allowed values for CLI flags (#4800)\r\n* 4cecd17ea add example regex to allow rules (#4827)\r\n* 4bc8d29c1 feat(misconf): Support custom data for rego policies for cloud (#4745)\r\n* 88243a0ad docs: correcting the trivy k8s tutorial (#4815)\r\n* 3c7d988d7 feat(cli): add --tf-exclude-downloaded-modules flag (#4810)\r\n* fd0fd104f fix(sbom): cyclonedx recommendations should include fixed versions for each package (#4794)\r\n* d0d543b88 feat(misconf): enable --policy flag to accept directory and files both (#4777)\r\n* b43a3e623 feat(python): add license fields (#4722)\r\n* aef7b148a fix: support trivy k8s-version on k8s sub-command (#4786)\r\n\r\n"
+        "commit_date": "2023-08-10 08:21:41",
+        "commit_message": "chore(deps): bump github.com/xlab/treeprint from 1.1.0 to 1.2.0 (#4917)\n\nBumps [github.com/xlab/treeprint](https://github.com/xlab/treeprint) from 1.1.0 to 1.2.0.\n- [Release notes](https://github.com/xlab/treeprint/releases)\n- [Commits](https://github.com/xlab/treeprint/compare/v1.1.0...v1.2.0)\n\n---\nupdated-dependencies:\n- dependency-name: github.com/xlab/treeprint\n  dependency-type: direct:production\n  update-type: version-update:semver-minor\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
+        "release_tag": "v0.44.1",
+        "release_date": "2023-08-10 05:41:12",
+        "release_message": "## Changelog\n* f10527998 fix(report): return severity colors in table format (#4969)\n* bc2b0ca6c build: maximize available disk space for release (#4937)\n* 9493c6f08 test(cli): Fix assertion helptext (#4966)\n* b0359de66 chore(deps): Bump defsec to v0.91.1 (#4965)\n* d3a34e409 test: validate CycloneDX with the JSON schema (#4956)\n* 798ef1b64 fix(server): add licenses to the Result message (#4955)\n* e8cf28147 fix(aws): resolve endpoint if endpoint is passed (#4925)\n* f18b0db58 fix(sbom): move licenses to `name` field in Cyclonedx format (#4941)\n* a79670156 add only uniq deps in dependsOn (#4943)\n* b544e0dea use testify instead of gotest.tools (#4946)\n* 067a0fcb9 fix(nodejs): do not detect lock file in node_modules as an app (#4949)\n* e6d7705a5 bump go-dep-parser (#4936)\n* c584dc176 chore(deps): bump github.com/openvex/go-vex from 0.2.0 to 0.2.1 (#4914)\n* 358d56b6b chore(deps): bump helm/kind-action from 1.7.0 to 1.8.0 (#4909)\n* 17f3ea918 chore(deps): bump github.com/Azure/azure-sdk-for-go/sdk/azcore (#4912)\n* 39ccbf7b5 test(aws): move part of unit tests to integration (#4884)\n* 6d3ae3bcf docs(cli): update help string for file and dir skipping (#4872)\n* 7d7a1ef54 chore(deps): bump sigstore/cosign-installer (#4910)\n* fc7495017 chore(deps): bump github.com/sosedoff/gitkit from 0.3.0 to 0.4.0 (#4916)\n* b2a68bc06 chore(deps): bump k8s.io/api from 0.27.3 to 0.27.4 (#4918)\n* e5c0c15b6 chore(deps): bump github.com/secure-systems-lab/go-securesystemslib (#4919)\n* da37803d5 chore(deps): bump github.com/aws/aws-sdk-go-v2/service/sts (#4913)\n* 9744e6498 chore(deps): bump github.com/magefile/mage from 1.14.0 to 1.15.0 (#4915)\n* 99eebc670 docs: update the discussion template (#4928)\n\n"
     },
     "https://github.com/anchore/grype": {
         "created_at": "2020-05-26 13:44:38",
@@ -4277,7 +4277,7 @@
     "https://github.com/aiboboxx/v2rayfree": {
         "created_at": "2021-10-13 11:34:53",
         "description": "v2ray公益免费节点、最新2ray免费v节点订阅地址、v2ray免费节点每日更新、免费ss/v2ray/trojan节点、freefq ",
-        "commit_date": "2023-08-09 12:39:45",
+        "commit_date": "2023-08-10 12:39:48",
         "commit_message": "update",
         "release_tag": "",
         "release_date": "",
@@ -4322,8 +4322,8 @@
     "https://github.com/freefq/free": {
         "created_at": "2020-06-07 02:48:33",
         "description": "翻墙、免费翻墙、免费科学上网、免费节点、免费梯子、免费ss/v2ray/trojan节点、蓝灯、谷歌商店、翻墙梯子",
-        "commit_date": "2023-08-10 00:00:05",
-        "commit_message": "updated_at 08-10 08:00",
+        "commit_date": "2023-08-11 00:00:02",
+        "commit_message": "updated_at 08-11 08:00",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -4529,8 +4529,8 @@
     "https://github.com/MobSF/Mobile-Security-Framework-MobSF": {
         "created_at": "2015-01-31 04:36:01",
         "description": "Mobile Security Framework (MobSF) is an automated, all-in-one mobile application (Android/iOS/Windows) pen-testing, malware analysis and security assessment framework capable of performing static and dynamic analysis.",
-        "commit_date": "2023-08-02 07:46:01",
-        "commit_message": "Dynamic Analysis support alert (#2227)",
+        "commit_date": "2023-08-10 08:16:12",
+        "commit_message": "[HOTFIX] Regex + Rule Update (#2232)\n\n* IOS Swift Rules updates\r\n  *  Updated or added rules `ios_biometric_bool`, `ios_biometric_acl`, `ios_keychain_weak_acl_device_passcode`, `ios_keychain_weak_accessibility_value`, `ios_insecure_random_no_generator`, `ios_biometry_hardened`\r\n * Regex Hardening: Fixes possible Regex DoS in rules and MobSF code base",
         "release_tag": "v3.6.9",
         "release_date": "2023-07-23 19:43:02",
         "release_message": "### v3.6.9 Beta Changelog\r\n\r\n- Features or Enhancements\r\n   - New Simplified and Updated Documentation https://mobsf.github.io/docs/#/\r\n   - MobSF Dynamic Analysis support for Docker image\r\n   - Updated Documentation to include support for Corellium ARM64 Android VMs\r\n   - Add support for environment variables to configure MobSF\r\n   - Android SCA extract icon from SVG\r\n   - OFAC Sanctioned Country Check\r\n   - Improved Android Certificate Analysis\r\n   - Updated Android Manifest Analysis Rules\r\n   - Enterprise Feature Request\r\n      - Summary of Findings under each section\r\n      - Support for independent scanning of AAR ad JAR files.\r\n\r\n## What's Changed\r\n* Adding numeric_owner as a keyword argument by @TrellixVulnTeam in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2050\r\n* Scheduled weekly dependency update for week 41 by @pyup-bot in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2046\r\n* HOTFIX: UI changes and warning on mobsf.live by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2051\r\n* Split certificate analysis out, suppression list fixes by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2052\r\n* hotfix for quark rules location by @superpoussin22 in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2053\r\n* HOTFIX: jadx update to 1.4.5  by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2064\r\n* Installation script error: Solving spelling error by @th3-d4v1d-c0de in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2067\r\n* Android APK support extracting icon SVG from XML by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2060\r\n* HOTFIX: Setup improvement by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2078\r\n* Apktool 2.7.0 update by @superpoussin22 in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2082\r\n* New Android Manifest Rule: App support vulnerable android versions by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2114\r\n* Fix for filenames containing ampersand by @evmxattr in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2129\r\n* HOTFIX - Fix broken docker builds by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2135\r\n* Fix Scorecard Severity Distribution chart data by @antoinbo in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2140\r\n* HOTIX: Update Dockerfile to install jq by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2149\r\n* [HOTFIX] Add support for environment variable for MobSF config by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2150\r\n* HOTFIX: Android min SDK check on janus vulnerability detection by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2159\r\n* [Enterprise Feature Request EFR02] Support summary of severity in each section. by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2160\r\n* [EFR05] Enterprise Feature Request: AAR and JAR support by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2163\r\n* Scheduled weekly dependency update for week 24 by @pyup-bot in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2187\r\n* Feature updates and Bug Fixes by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2197\r\n* HOTFIX: MobSF Android Dynamic Analysis Docker Support by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2214\r\n\r\n## New Contributors\r\n* @th3-d4v1d-c0de made their first contribution in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2067\r\n* @evmxattr made their first contribution in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2129\r\n* @antoinbo made their first contribution in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2140\r\n\r\n**Full Changelog**: https://github.com/MobSF/Mobile-Security-Framework-MobSF/compare/v3.6.0...v3.6.9"
@@ -4889,8 +4889,8 @@
     "https://github.com/babysor/MockingBird": {
         "created_at": "2021-08-07 03:53:39",
         "description": "🚀AI拟声: 5秒内克隆您的声音并生成任意语音内容 Clone a voice in 5 seconds to generate arbitrary speech in real-time",
-        "commit_date": "2023-06-15 09:39:13",
-        "commit_message": "Merge pull request #914 from cloudxu/readme_update\n\nRemoving ongoing work session in README",
+        "commit_date": "2023-08-10 07:54:23",
+        "commit_message": "Merge pull request #945 from babysor/babysor-patch-1\n\nUpdate README.md",
         "release_tag": "v0.0.1",
         "release_date": "2021-11-07 13:53:53",
         "release_message": ""
@@ -5004,8 +5004,8 @@
     "https://github.com/rustdesk/rustdesk": {
         "created_at": "2020-09-28 15:36:08",
         "description": "An open-source alternative to TeamViewer.",
-        "commit_date": "2023-08-10 00:33:03",
-        "commit_message": "Merge pull request #5311 from PeterDaveHello/tw\n\nUpdate and improve tw translation",
+        "commit_date": "2023-08-11 00:07:49",
+        "commit_message": "Merge pull request #5334 from sahilyeole/master\n\nImprove tooltip consistency",
         "release_tag": "1.2.1",
         "release_date": "2023-07-12 07:28:05",
         "release_message": "\r\n![image](https://github.com/rustdesk/rustdesk/assets/71636191/b444deab-7971-4de7-b315-6a9b4974c7ea)\r\n\r\n> Winget, FDroid, Apple Sillicon, Google Play / App Store update will come soon.\r\n\r\nx86-64: [Windows](https://github.com/rustdesk/rustdesk/releases/download/1.2.1/rustdesk-1.2.1-x86_64.exe) | [Ubuntu](https://github.com/rustdesk/rustdesk/releases/download/1.2.1/rustdesk-1.2.1-x86_64.deb) | [Mac](https://github.com/rustdesk/rustdesk/releases/download/1.2.1/rustdesk-1.2.1-x86_64.dmg)\r\nAArch64 (ARM64):  [Ubuntu](https://github.com/rustdesk/rustdesk/releases/download/1.2.1/rustdesk-1.2.1-aarch64.deb) | [Android](https://github.com/rustdesk/rustdesk/releases/download/1.2.1/rustdesk-1.2.1-aarch64-signed.apk)\r\nMore: [check below please](#)\r\n\r\n<details>\r\n<summary>Changelog</summary>\r\n\r\n- fix #4856 \r\n- fix #4866 \r\n- fix email login verfication bug on mobile #4874, and fix email login verification wrong error message\r\n- refactor chat notification both on mobile and desktop #4878 #4889 #4943\r\n- fix #4890 \r\n- fix privacy broker zombie process #4916 \r\n- improve remote menubar #4922\r\n- try to fix issue #3261 with new api, but not sure if it works\r\n- adjust tab theme to make it more clear\r\n- partially fix #4896 \r\n- fix #4880 \r\n- refactor id inputbox on mobile\r\n\r\n</details>\r\n"
