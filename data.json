@@ -200,8 +200,8 @@
     "https://github.com/ycdxsb/PocOrExp_in_Github": {
         "created_at": "2021-04-13 05:46:16",
         "description": "聚合Github上已有的Poc或者Exp，CVE信息来自CVE官网。Auto Collect Poc Or Exp from Github by CVE ID.",
-        "commit_date": "2023-08-10 23:08:51",
-        "commit_message": "update 2023-08-11 07:08:51",
+        "commit_date": "2023-08-11 21:50:54",
+        "commit_message": "update 2023-08-12 05:50:54",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -1107,8 +1107,8 @@
     "https://github.com/RoomaSec/RmTools": {
         "created_at": "2022-08-23 05:07:04",
         "description": "蓝队应急工具",
-        "commit_date": "2023-08-07 08:32:55",
-        "commit_message": "Update README.md",
+        "commit_date": "2023-08-11 04:21:17",
+        "commit_message": "Merge branch 'main' of https://github.com/RoomaSec/RmTools",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -1662,12 +1662,12 @@
     },
     "https://github.com/xzajyjs/ThunderSearch": {
         "created_at": "2022-01-14 14:53:32",
-        "description": "【支持Fofa、Zoomeye、Quake等网络空间搜索引擎】闪电搜索器；GUI图形化渗透测试信息搜集工具；资产搜集引擎",
-        "commit_date": "2023-04-05 12:47:13",
-        "commit_message": "update to v2.3.3",
-        "release_tag": "v2.3.3",
-        "release_date": "2023-04-05 13:07:25",
-        "release_message": "- 新增了Sqlite3支持\r\n- 微调UI尺寸\r\n---\r\n- Add sqlite3 support\r\n- Fine-tuned the UI size\r\n---\r\n> md5\r\nThunderSearch_darwin_universal.zip = d9b134f8311935f75577667dc7e02b78\r\nThunderSearch_win_x86.zip = a2cd29776336d1ece4e0d494e676566a\r\n注意：win版本是旧版，并未更新"
+        "description": "【支持Fofa、Shodan、Zoomeye、Quake等网络空间搜索引擎】闪电搜索器；GUI图形化渗透测试信息搜集工具；资产搜集引擎",
+        "commit_date": "2023-08-11 12:09:03",
+        "commit_message": "fix fofa bug",
+        "release_tag": "v2.4.1",
+        "release_date": "2023-08-11 08:37:01",
+        "release_message": "- 增加Shodan搜索\r\n- 优化搜索结果获取方式\r\n- 优化报错提示\r\n\r\n---\r\n\r\n- Support `Shodan` search\r\n- Optimize the way to obtain search results\r\n- Optimize Fofa error prompt\r\n\r\n---\r\n\r\n> MD5 (ThunderSearch.dmg) = 0d623d16d397a513a1fe27c4defc6801\r\n> MD5 (ThunderSearch_win.zip) = c7403131fc556b2a00651e9e85afb289\r\n> Mac版密码: Hi!j3@/J\r\n"
     },
     "https://github.com/foryujian/yjdirscan": {
         "created_at": "2020-10-05 15:37:28",
@@ -2390,8 +2390,8 @@
     "https://github.com/PeiQi0/PeiQi-WIKI-Book": {
         "created_at": "2022-03-12 12:38:56",
         "description": "面向网络安全从业者的知识文库🍃",
-        "commit_date": "2023-08-10 08:05:05",
-        "commit_message": "漏洞相关: 绿盟,海康等",
+        "commit_date": "2023-08-11 10:21:43",
+        "commit_message": "漏洞相关:广联达,1Panel等",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -2951,8 +2951,8 @@
     "https://github.com/dbeaver/dbeaver": {
         "created_at": "2015-10-21 08:26:28",
         "description": "Free universal database tool and SQL client",
-        "commit_date": "2023-08-10 18:52:29",
-        "commit_message": "CB-3742 connect with key file in bigquery (#20768)\n\n* CB-3742 connect with key file in bigquery\r\n\r\n* CB-3742 remove server name field\r\n\r\n* remove keypath param from url\r\n\r\n---------\r\n\r\nCo-authored-by: Daria Marutkina <125263541+dariamarutkina@users.noreply.github.com>",
+        "commit_date": "2023-08-11 12:06:58",
+        "commit_message": "Do not create empty property by default",
         "release_tag": "23.1.4",
         "release_date": "2023-08-06 16:23:25",
         "release_message": "\n                - SQL editor:\n                    - Table alias generation was fixed (issue with duplicated aliases)\n                    - Auto-proposals now respect option \"empty line is a query delimiter\"\n                    - Auto-proposals calculation performance was significantly improved in some cases\n                    - Aliases completion was fixed (issue with redundant spaces)\n                    - Table name completion was fixed for invalid SQL queries\n                    - Spelling errors and other annotations now work in console mode\n                    - @import command behavior is now configurable\n                - Data editor:\n                    - Filters/orderings/colors reset UI was significantly improved\n                    - Spatial viewer now hides empty labels\n                    - Copying of spatial viewport/selection bounds was fixed\n                    - Drag-n-drop in grouping panel fixed on Linux\n                - Data transfer: previous export settings loading was fixed\n                - General:\n                    - Auto-commit mode switch behavior was fixed\n                    - CLI processing was fixed in multi-workspace environment\n                    - \"Tip of the day\" now shows OS-specific shortcuts corectly\n                    - Redundant logs of SSH tunnel closing were removed\n                    - Logical database structure settings can be disabled or reset in the connection editor dialog\n                    - Driver search UI was fixed on MacOS\n                    - Number of minor UI bugs were resolved\n                - Database:\n                    - Athena: multi-catalog support was added\n                    - Derby: grouping queries generation fixed\n                    - DuckDB: time/timestamp data types support was added\n                    - MySQL: issue with missing table partitions folder was resolved\n                    - Oracle: table DDL shows permission grants in \"full\" mode\n                    - PostgreSQL: issue with duplicated tables was resolved\n                    - Redshift: SQL dialect was enhanced with extra keywords\n                    - Yellowbrick: execution plan visualization was fixed\n            "
@@ -3917,8 +3917,8 @@
     "https://github.com/chaitin/safeline": {
         "created_at": "2023-04-12 11:30:14",
         "description": "一款足够简单、足够好用、足够强的免费 WAF。基于业界领先的语义引擎检测技术，作为反向代理接入，保护你的网站不受黑客攻击。",
-        "commit_date": "2023-08-10 10:18:35",
-        "commit_message": "Merge pull request #210 from chaitin/Lorna0-Update-issue-template\n\nUpdate issue template: add some hits in feature-request issue",
+        "commit_date": "2023-08-11 09:19:12",
+        "commit_message": "feat: use the dns to enable threat info",
         "release_tag": "v2.6.0",
         "release_date": "2023-08-10 09:06:39",
         "release_message": "### 新增\r\n\r\n- 新增高频攻击封禁，即多次攻击后自动封禁 IP ([#29](https://github.com/chaitin/safeline/issues/29))\r\n- 频率限制日志显示封禁 IP 的地理位置 ([#198](https://github.com/chaitin/safeline/issues/198))\r\n\r\n### 优化\r\n\r\n- 攻击检测的原始日志支持搜索端口 ([#193](https://github.com/chaitin/safeline/issues/193))\r\n- 修复编辑站点后，“维护模式” 会失效的问题\r\n- 修改默认占用的网段，避免跟腾讯云默认网段冲突 ([#40](https://github.com/chaitin/safeline/issues/40))\r\n- 优化安装脚本 ([#194](https://github.com/chaitin/safeline/issues/194))，优化界面一些 UI 交互、错误提示"
@@ -4277,7 +4277,7 @@
     "https://github.com/aiboboxx/v2rayfree": {
         "created_at": "2021-10-13 11:34:53",
         "description": "v2ray公益免费节点、最新2ray免费v节点订阅地址、v2ray免费节点每日更新、免费ss/v2ray/trojan节点、freefq ",
-        "commit_date": "2023-08-10 12:39:48",
+        "commit_date": "2023-08-11 12:34:14",
         "commit_message": "update",
         "release_tag": "",
         "release_date": "",
@@ -4322,8 +4322,8 @@
     "https://github.com/freefq/free": {
         "created_at": "2020-06-07 02:48:33",
         "description": "翻墙、免费翻墙、免费科学上网、免费节点、免费梯子、免费ss/v2ray/trojan节点、蓝灯、谷歌商店、翻墙梯子",
-        "commit_date": "2023-08-11 00:00:02",
-        "commit_message": "updated_at 08-11 08:00",
+        "commit_date": "2023-08-12 00:00:02",
+        "commit_message": "updated_at 08-12 08:00",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -4600,7 +4600,7 @@
     },
     "https://github.com/rockbenben/ChatGPT-Shortcut": {
         "created_at": "2023-02-24 12:53:49",
-        "description": "🚀💪Maximize your efficiency and productivity, support for English,中文,Español,العربية. 让生产力加倍的 ChatGPT 快捷指令，按照领域和功能分区，可对提示词进行标签筛选、关键词搜索和一键复制。",
+        "description": "🚀💪Maximize your efficiency and productivity, support for English,中文,Español,العربية. 让生产力加倍的ChatGPT快捷指令，无需熟悉提示词，就能轻松搜索、优化和管理Prompts，适应多语言及各种生产效率场景。",
         "commit_date": "2023-08-08 21:09:10",
         "commit_message": "perf: Replace Google authentication API",
         "release_tag": "",
@@ -4628,8 +4628,8 @@
     "https://github.com/baidu/dperf": {
         "created_at": "2021-12-21 08:02:08",
         "description": "dperf is a DPDK based 100Gbps network performance and load testing software.",
-        "commit_date": "2023-08-08 11:47:30",
-        "commit_message": "Merge pull request #355 from pengjianzhang/main\n\nfix: lport_range check late",
+        "commit_date": "2023-08-11 08:11:58",
+        "commit_message": "Merge pull request #357 from pengjianzhang/main\n\nfix: http_host or http_path can only be configured when http is enabled",
         "release_tag": "v1.5.0",
         "release_date": "2023-03-10 07:39:07",
         "release_message": "## v1.5.0 - 2023-03-10\r\n### Added\r\n\r\n- udp elephant flow\r\n\r\n    thanks sheva7777\r\n- client_hop\r\n\r\n    thanks hgkiller\r\n- supported Mellanox MT27500 [ConnectX-3]\r\n\r\n    thanks SdotChen\r\n- article: Using dperf to test the performance of DPVS(zh)\r\n\r\n    thanks sheva7777\r\n- article: How to install dperf on ubuntu(zh)\r\n\r\n    thanks digger-yu\r\n- article: Using dperf to test 100Gbps bandwidth(zh)\r\n\r\n    thanks CHRIS123540\r\n- article: DPVS v1.9.2 Performance Tests by dperf\r\n\r\n    thanks ywc689\r\n- article: dperf FAQ(zh)\r\n\r\n### Changed\r\n\r\n- print error numbers with red color\r\n\r\n### Fixed\r\n\r\n- flood with rss l3l4\r\n\r\n    thanks sheva7777\r\n- use unlikeyly to predict condition\r\n\r\n    thanks panzhengyu\r\n- address conflict in configuration file\r\n\r\n    thanks CHRIS123540\r\n- docs/configuration: update payload_size"
@@ -4889,8 +4889,8 @@
     "https://github.com/babysor/MockingBird": {
         "created_at": "2021-08-07 03:53:39",
         "description": "🚀AI拟声: 5秒内克隆您的声音并生成任意语音内容 Clone a voice in 5 seconds to generate arbitrary speech in real-time",
-        "commit_date": "2023-08-10 07:54:23",
-        "commit_message": "Merge pull request #945 from babysor/babysor-patch-1\n\nUpdate README.md",
+        "commit_date": "2023-08-11 14:02:41",
+        "commit_message": "Merge pull request #947 from FawenYo/doc/update_link\n\n📝 Update model download link",
         "release_tag": "v0.0.1",
         "release_date": "2021-11-07 13:53:53",
         "release_message": ""
@@ -5004,8 +5004,8 @@
     "https://github.com/rustdesk/rustdesk": {
         "created_at": "2020-09-28 15:36:08",
         "description": "An open-source alternative to TeamViewer.",
-        "commit_date": "2023-08-11 00:07:49",
-        "commit_message": "Merge pull request #5334 from sahilyeole/master\n\nImprove tooltip consistency",
+        "commit_date": "2023-08-11 14:19:10",
+        "commit_message": "Merge pull request #5353 from dignow/refact/remove_login_device_info_in_sciter\n\nrefactor, remove login device info in sciter",
         "release_tag": "1.2.1",
         "release_date": "2023-07-12 07:28:05",
         "release_message": "\r\n![image](https://github.com/rustdesk/rustdesk/assets/71636191/b444deab-7971-4de7-b315-6a9b4974c7ea)\r\n\r\n> Winget, FDroid, Apple Sillicon, Google Play / App Store update will come soon.\r\n\r\nx86-64: [Windows](https://github.com/rustdesk/rustdesk/releases/download/1.2.1/rustdesk-1.2.1-x86_64.exe) | [Ubuntu](https://github.com/rustdesk/rustdesk/releases/download/1.2.1/rustdesk-1.2.1-x86_64.deb) | [Mac](https://github.com/rustdesk/rustdesk/releases/download/1.2.1/rustdesk-1.2.1-x86_64.dmg)\r\nAArch64 (ARM64):  [Ubuntu](https://github.com/rustdesk/rustdesk/releases/download/1.2.1/rustdesk-1.2.1-aarch64.deb) | [Android](https://github.com/rustdesk/rustdesk/releases/download/1.2.1/rustdesk-1.2.1-aarch64-signed.apk)\r\nMore: [check below please](#)\r\n\r\n<details>\r\n<summary>Changelog</summary>\r\n\r\n- fix #4856 \r\n- fix #4866 \r\n- fix email login verfication bug on mobile #4874, and fix email login verification wrong error message\r\n- refactor chat notification both on mobile and desktop #4878 #4889 #4943\r\n- fix #4890 \r\n- fix privacy broker zombie process #4916 \r\n- improve remote menubar #4922\r\n- try to fix issue #3261 with new api, but not sure if it works\r\n- adjust tab theme to make it more clear\r\n- partially fix #4896 \r\n- fix #4880 \r\n- refactor id inputbox on mobile\r\n\r\n</details>\r\n"
@@ -5031,8 +5031,8 @@
     "https://github.com/hahwul/dalfox": {
         "created_at": "2020-04-12 07:04:10",
         "description": "🌙🦊 Dalfox is a powerful open-source XSS scanner and utility focused on automation.",
-        "commit_date": "2023-08-05 03:28:41",
-        "commit_message": "Merge pull request #485 from hahwul/dependabot/go_modules/golang.org/x/term-0.11.0\n\nBump golang.org/x/term from 0.10.0 to 0.11.0",
+        "commit_date": "2023-08-11 16:53:23",
+        "commit_message": "Merge pull request #486 from hahwul/dependabot/go_modules/github.com/chromedp/chromedp-0.9.2\n\nBump github.com/chromedp/chromedp from 0.9.1 to 0.9.2",
         "release_tag": "v2.9.0",
         "release_date": "2023-03-28 02:32:38",
         "release_message": "## Summary\r\n- Add `--output-reqeust`, `--output-response` flag for HTTP Raw Req/Res\r\n- Add HAR file writing support (https://github.com/hahwul/dalfox/issues/439)\r\n- Add arm64(apple sillicon) docker image in GHCR\r\n- Update Packages\r\n- Fixed bugs (https://github.com/hahwul/dalfox/pull/453)\r\n\r\n## Changelog\r\n* 61be435 fix: small typo errors\r\n* 3c5c8da chore: update contributors [skip ci]\r\n* c344c58 chore: update contributors [skip ci]\r\n* 64226be chore: update contributors [skip ci]\r\n* 8eada06 chore: update contributors [skip ci]\r\n* 6b7b555 chore: update contributors [skip ci]\r\n* a7de6ac chore: update contributors [skip ci]\r\n* b3dc29b add HAR file writing support (#439)\r\n* 51a659e Update test code\r\n* dc5d11b Update test code\r\n* 32d8f63 Update parameterAnlaysis.go\r\n* 7d01041 Update parameter-mining.md\r\n* 681b809 Update param.go\r\n* 1b559a5 Update json.md\r\n* 5773cf0 Update json.md\r\n* 00a1899 Update index.md\r\n* 6451c5b Update found-action.md\r\n* 83ec9f7 Update format-of-poc.md\r\n* ac5a9e1 Update doc\r\n* b5769e1 Update descriptions\r\n* 9515691 Update banner\r\n* a33988a Update README.md\r\n* 5244169 Update README\r\n* 6c24c65 Tap 2.9.0\r\n* 094a710 Remove race\r\n* ff31dab Merge pull request #7 from 0xflotus/patch-3\r\n* 28f4446 Merge pull request #6 from 0xflotus/patch-3\r\n* 8f74dd1 Merge pull request #5 from 0xflotus/patch-2\r\n* a43ae1c Merge pull request #459 from hahwul/dependabot/go_modules/github.com/swaggo/swag-1.8.11\r\n* 0069bc3 Merge pull request #457 from hahwul/dependabot/go_modules/github.com/chromedp/chromedp-0.9.1\r\n* 591e690 Merge pull request #455 from hahwul/dependabot/go_modules/github.com/briandowns/spinner-1.23.0\r\n* b5083df Merge pull request #454 from hahwul/dependabot/go_modules/golang.org/x/term-0.6.0\r\n* 04d833a Merge pull request #453 from rudSarkar/main\r\n* 779f121 Merge pull request #451 from hahwul/dependabot/go_modules/golang.org/x/sync-0.1.0\r\n* 316e1e7 Merge pull request #450 from hahwul/dependabot/go_modules/github.com/stretchr/testify-1.8.2\r\n* a953704 Merge pull request #449 from hahwul/dependabot/go_modules/github.com/briandowns/spinner-1.22.0\r\n* ea9d581 Merge pull request #448 from hahwul/dependabot/go_modules/golang.org/x/net-0.7.0\r\n* 4a8cba2 Merge pull request #447 from hahwul/dependabot/go_modules/golang.org/x/term-0.5.0\r\n* d22d80a Merge pull request #445 from hahwul/dependabot/go_modules/github.com/labstack/echo/v4-4.10.2\r\n* ae52c66 Merge pull request #443 from hahwul/dependabot/go_modules/github.com/PuerkitoBio/goquery-1.8.1\r\n* 09468c4 Merge pull request #440 from aidansteele/main\r\n* 08854c2 Merge pull request #438 from hahwul/dependabot/go_modules/github.com/briandowns/spinner-1.21.0\r\n* 53410a7 Merge pull request #437 from hahwul/dependabot/go_modules/github.com/swaggo/swag-1.8.10\r\n* 0f003e7 Merge pull request #436 from hahwul/dependabot/go_modules/github.com/chromedp/chromedp-0.8.7\r\n* bc3a875 Merge pull request #433 from InfoSec-Le/main\r\n* f78a653 Merge pull request #432 from hahwul/dependabot/go_modules/github.com/swaggo/swag-1.8.9\r\n* 863c1ce Merge pull request #427 from dkegel-fastly/dkegel-issue426-payloadbox-typo\r\n* d7cfae5 Merge pull request #425 from hahwul/dependabot/go_modules/github.com/swaggo/swag-1.8.8\r\n* eb8f109 Merge pull request #419 from hahwul/dependabot/go_modules/github.com/spf13/cobra-1.6.1\r\n* de0b838 Merge pull request #418 from hahwul/dependabot/go_modules/github.com/stretchr/testify-1.8.1\r\n* c176094 Merge pull request #415 from hahwul/dependabot/go_modules/github.com/labstack/echo/v4-4.9.1\r\n* ceea290 Merge pull request #414 from hahwul/dependabot/go_modules/github.com/spf13/cobra-1.6.0\r\n* 0dbbd22 Merge pull request #413 from hahwul/dependabot/go_modules/github.com/swaggo/echo-swagger-1.3.5\r\n* 4154ab4 Merge pull request #411 from hahwul/dependabot/go_modules/github.com/chromedp/chromedp-0.8.6\r\n* 0e7fca0 Merge pull request #4 from 0xflotus/patch-2\r\n* 32187f9 Merge pull request #3 from 0xflotus/patch-1\r\n* 8065723 Merge pull request #2 from 0xflotus/patch-1\r\n* f8f1394 Merge pull request #1 from 0xflotus/patch-1\r\n* 6dc0541 Merge branch 'main' into dependabot/go_modules/golang.org/x/term-0.5.0\r\n* 0a1184d Merge branch 'main' into dependabot/go_modules/github.com/stretchr/testify-1.8.1\r\n* 1484c85 Improve test code\r\n* 7195f11 Improve test code\r\n* 15ff616 Improve interface\r\n* 587e094 Error handled for index out of range\r\n* 0b6a4ed Bump golang.org/x/term from 0.5.0 to 0.6.0\r\n* f0c1af3 Bump golang.org/x/term from 0.0.0-20210927222741-03fcf44c2211 to 0.5.0\r\n* 0146b90 Bump golang.org/x/sync from 0.0.0-20220722155255-886fb9371eb4 to 0.1.0\r\n* 8f2513d Bump golang.org/x/net from 0.0.0-20220722155237-a158d28d115b to 0.7.0\r\n* 0dc2990 Bump github.com/swaggo/swag from 1.8.9 to 1.8.10\r\n* 0602158 Bump github.com/swaggo/swag from 1.8.8 to 1.8.9\r\n* bc8128d Bump github.com/swaggo/swag from 1.8.6 to 1.8.8\r\n* c64a9ff Bump github.com/swaggo/swag from 1.8.10 to 1.8.11\r\n* 3530d42 Bump github.com/swaggo/echo-swagger from 1.3.4 to 1.3.5\r\n* 62ef0f8 Bump github.com/stretchr/testify from 1.8.1 to 1.8.2\r\n* e27eac7 Bump github.com/stretchr/testify from 1.8.0 to 1.8.1\r\n* 966d923 Bump github.com/spf13/cobra from 1.6.0 to 1.6.1\r\n* 722cbbb Bump github.com/spf13/cobra from 1.5.0 to 1.6.0\r\n* 014bb5f Bump github.com/labstack/echo/v4 from 4.9.1 to 4.10.2\r\n* 583c043 Bump github.com/labstack/echo/v4 from 4.9.0 to 4.9.1\r\n* 4a2191e Bump github.com/chromedp/chromedp from 0.8.7 to 0.9.1\r\n* b1995bb Bump github.com/chromedp/chromedp from 0.8.6 to 0.8.7\r\n* f4157ea Bump github.com/chromedp/chromedp from 0.8.5 to 0.8.6\r\n* 180ba57 Bump github.com/briandowns/spinner from 1.22.0 to 1.23.0\r\n* 9f09c01 Bump github.com/briandowns/spinner from 1.21.0 to 1.22.0\r\n* 218d2c1 Bump github.com/briandowns/spinner from 1.19.0 to 1.21.0\r\n* f9045f1 Bump github.com/PuerkitoBio/goquery from 1.8.0 to 1.8.1\r\n* 782255c Add documents for HAR\r\n* efcef0f Add check script\r\n* a74f4ec Add arm64(apple sillicon) docker image in GHCR\r\n* e74c5da Add HarWriter in Interface\r\n* d4b2055 --remote-payloads: fix typo 'paylaodbox' [issue 426]\r\n* e8f9d49 (#423) Add --output-request and --output-response flags\r\n* fc61602 (#422) Add MessageStr in All logs\r\n\r\n"
@@ -5263,8 +5263,8 @@
     "https://github.com/alibaba/arthas": {
         "created_at": "2018-08-29 17:15:57",
         "description": "Alibaba Java Diagnostic Tool Arthas/Alibaba Java诊断利器Arthas",
-        "commit_date": "2023-08-02 08:09:53",
-        "commit_message": "upgrade bytekit to 0.0.9",
+        "commit_date": "2023-08-11 12:32:26",
+        "commit_message": "fix classloader command (#2601)",
         "release_tag": "arthas-all-3.7.0",
         "release_date": "2023-08-02 09:05:19",
         "release_message": "Issues:  https://github.com/alibaba/arthas/milestone/48?closed=1\r\n\r\n* https://github.com/alibaba/arthas/issues/2572  tunnel-server detail-pages 页面支持自定义 port\r\n* https://github.com/alibaba/arthas/issues/2603 tunnel server 里的 SimpleHttpResponse 序列化增加白名单"
@@ -5986,11 +5986,11 @@
     "https://github.com/github/codeql-cli-binaries": {
         "created_at": "2019-10-15 09:46:34",
         "description": "Binaries for the CodeQL CLI",
-        "commit_date": "2023-07-27 11:56:35",
-        "commit_message": "Update CHANGELOG.md for 2.14.1 release",
-        "release_tag": "v2.14.1",
-        "release_date": "2023-07-27 12:30:53",
-        "release_message": "- There are no user-facing changes in this release.\r\n\r\nFor more information about the changes included in this release, see the [CodeQL CLI changelog](https://github.com/github/codeql-cli-binaries/blob/HEAD/CHANGELOG.md).\r\n\r\nYou can download _either_ the `codeql-PLATFORM.zip` for your platform, _or_ the generic `codeql.zip` which contains binaries for all supported platforms. Please ignore the additional \"source code\" downloads below the `.zip` artifacts.\r\n\r\nThis release is compatible with the CodeQL language packs from [`github/codeql@codeql-cli/v2.14.1`](https://github.com/github/codeql/tree/codeql-cli/v2.14.1).\r\n"
+        "commit_date": "2023-08-11 11:10:22",
+        "commit_message": "Update changelog for 2.14.2",
+        "release_tag": "v2.14.2",
+        "release_date": "2023-08-11 11:12:07",
+        "release_message": "### Breaking changes\r\n\r\n- The functionality provided by the `codeql execute query-server` subcommand has been removed. The subcommand now responds to all JSON RPC requests with an error response. Correspondingly, this release is no longer compatible with versions of the CodeQL extension for Visual Studio Code prior to 1.7.6.\r\n\r\n  This change also breaks third-party CodeQL IDE integrations that still rely on the `codeql execute query-server` subcommand. Maintainers of such CodeQL IDE integrations should migrate to the `codeql execute query-server2` subcommand at the earliest opportunity.\r\n\r\n### Improvements\r\n\r\n- Switched from prefix filtering of autocomplete suggestions in the language server to client-side filtering. This improves autocomplete suggestions in contexts with an autocompletion prefix.\r\n\r\n- The CodeQL language server now checks query metadata for errors. This allows Visual Studio Code users to see errors in their query metadata without needing to compile the query.\r\n\r\n### Bugs fixed\r\n\r\n- Fixed bug that made the `--warnings=hide` option do nothing in `codeql database analyze` and other commands that _evaluate_ queries.\r\n\r\nFor more information about the changes included in this release, see the [CodeQL CLI changelog](https://github.com/github/codeql-cli-binaries/blob/HEAD/CHANGELOG.md).\r\n\r\nYou can download _either_ the `codeql-PLATFORM.zip` for your platform, _or_ the generic `codeql.zip` which contains binaries for all supported platforms. Please ignore the additional \"source code\" downloads below the `.zip` artifacts.\r\n\r\nThis release is compatible with the CodeQL language packs from [`github/codeql@codeql-cli/v2.14.2`](https://github.com/github/codeql/tree/codeql-cli/v2.14.2).\r\n"
     },
     "https://github.com/Ascotbe/HackerMind": {
         "created_at": "2019-02-21 01:03:39",

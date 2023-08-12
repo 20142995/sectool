@@ -1,8 +1,10 @@
-# 更新于 2023-08-11 08:32:30
+# 更新于 2023-08-12 08:33:32
 
 ## 近15天release更新记录
 | 更新时间 | 项目名称 | 版本 | 更新内容 |
 | :---- | :---- | :---- | :---- |
+|2023-08-11 11:12:07|[codeql-cli-binari<br>es](https://github.com/github/codeql-cli-binaries)|v2.14.2|### Breaking changes    - The functio<br>nality provided by the codeql execute <br>query-server subcommand has been remov<br>ed. The subcommand now responds to all<br> JSON RPC requests with an error respo<br>nse. Correspondingly, this release is <br>no longer compatible with versions of <br>the CodeQL extension for Visual Studio<br> Code prior to 1.7.6.      This change<br> also breaks third-party CodeQL IDE in<br>tegrations that still rely on the code<br>ql execute query-server subcommand. Ma<br>intainers of such CodeQL IDE integrati<br>ons should migrate to the codeql execu<br>te query-server2 subcommand at the ear<br>liest opportunity.    ### Improvements<br>    - Switched from prefix filtering o<br>f autocomplete suggestions in the lang<br>uage server to client-side filtering. <br>This improves autocomplete suggestions<br> in contexts with an autocompletion pr<br>efix.    - The CodeQL language server <br>now checks query metadata for errors. <br>This allows Visual Studio Code users t<br>o see errors in their query metadata w<br>ithout needing to compile the query.  <br>  ### Bugs fixed    - Fixed bug that m<br>ade the --warnings=hide option do noth<br>ing in codeql database analyze and oth<br>er commands that _evaluate_ queries.  <br>  For more information about the chang<br>es included in this release, see the .<br>    You can download _either_ the code<br>ql-PLATFORM.zip for your platform, _or<br>_ the generic codeql.zip which contain<br>s binaries for all supported platforms<br>. Please ignore the additional "source<br> code" downloads below the .zip artifa<br>cts.    This release is compatible wit<br>h the CodeQL language packs from .  |
+|2023-08-11 08:37:01|[ThunderSearch](https://github.com/xzajyjs/ThunderSearch)|v2.4.1|- 增加Shodan搜索  - 优化搜索结果获取<br>方式  - 优化报错提示    ---    - Suppor<br>t Shodan search  - Optimize the way to<br> obtain search results  - Optimize Fof<br>a error prompt    ---    > MD5 (Thunde<br>rSearch.dmg) = 0d623d16d397a513a1fe27c<br>4defc6801  > MD5 (ThunderSearch_win.zi<br>p) = c7403131fc556b2a00651e9e85afb289 <br> > Mac版密码: Hi!j3@/J  |
 |2023-08-10 22:02:47|[clair](https://github.com/quay/clair)|v4.7.1| ## : bump github.com/pyroscope-io/go<br>deltaprof ### Chore - : bump claircore<br> to v1.5.15 - : bump claircore to v1.5<br>.14  [Unreleased]: https://github.com/<br>quay/clair/compare/v4.7.1...HEAD [v4.7<br>.1]: https://github.com/quay/clair/com<br>pare/v4.7.0...v4.7.1 |
 |2023-08-10 12:34:39|[Elkeid](https://github.com/bytedance/Elkeid)|v1.7.0.<br>13-drive<br>r-ko-202<br>30810||
 |2023-08-10 09:06:39|[safeline](https://github.com/chaitin/safeline)|v2.6.0|### 新增    - 新增高频攻击封禁，即多<br>次攻击后自动封禁 IP ()  - 频率限制日志<br>显示封禁 IP 的地理位置 ()    ### 优化  <br>  - 攻击检测的原始日志支持搜索端口 () <br> - 修复编辑站点后，“维护模式” 会失效<br>的问题  - 修改默认占用的网段，避免跟腾<br>讯云默认网段冲突 ()  - 优化安装脚本 ()<br>，优化界面一些 UI 交互、错误提示|
@@ -32,23 +34,28 @@
 |2023-07-31 01:44:05|[AsamF](https://github.com/Kento-Sec/AsamF)|v0.2.5|Fofa无法查询的问题来源于他们平台移除<br>了lastupdatetime的字段，感谢提交issue的<br>朋友  该版本移除lastupdatetime字段|
 |2023-07-28 16:47:41|[nuclei](https://github.com/projectdiscovery/nuclei)|v2.9.10|    ## What's Changed  ### 🎉 New Fea<br>tures  * Added markdown export sorting<br> options via env variable by @kchason <br>in https://github.com/projectdiscovery<br>/nuclei/pull/3961  console  export MAR<br>KDOWN_EXPORT_SORT_MODE=template # defa<br>ult  export MARKDOWN_EXPORT_SORT_MODE=<br>severity  export MARKDOWN_EXPORT_SORT_<br>MODE=host    * Added headless options <br>input by @dogancanbakir in https://git<br>hub.com/projectdiscovery/nuclei/pull/3<br>951  console     -ho, -headless-option<br>s string by @ehsandeep in https://gith<br>ub.com/projectdiscovery/nuclei/pull/39<br>68    Issues closed in this release - <br>https://github.com/projectdiscovery/nu<br>clei/milestone/37?closed=1    **Full C<br>hangelog**: https://github.com/project<br>discovery/nuclei/compare/v2.9.9...v2.9<br>.10|
 |2023-07-28 05:17:15|[fupo_for_yonyou](https://github.com/novysodope/fupo_for_yonyou)|2.0RC1|建议如果出现跟 #7 一样的问题再用这个<br>版本 |
-|2023-07-27 12:30:53|[codeql-cli-binari<br>es](https://github.com/github/codeql-cli-binaries)|v2.14.1|- There are no user-facing changes in<br> this release.    For more information<br> about the changes included in this re<br>lease, see the .    You can download _<br>either_ the codeql-PLATFORM.zip for yo<br>ur platform, _or_ the generic codeql.z<br>ip which contains binaries for all sup<br>ported platforms. Please ignore the ad<br>ditional "source code" downloads below<br> the .zip artifacts.    This release i<br>s compatible with the CodeQL language <br>packs from .  |
 ## 近15天commit提交记录
 | 提交时间 | 项目名称 | 更新内容 |
 | :---- | :---- | :---- |
-|2023-08-11 00:07:49|[rustdesk](https://github.com/rustdesk/rustdesk)|Merge pull request #5334 from sahilyeole/master  Im<br>prove tooltip consistency|
-|2023-08-11 00:00:02|[free](https://github.com/freefq/free)|updated_at 08-11 08:00|
-|2023-08-10 23:08:51|[PocOrExp_in_Githu<br>b](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-08-11 07:08:51|
-|2023-08-10 18:52:29|[dbeaver](https://github.com/dbeaver/dbeaver)|CB-3742 connect with key file in bigquery (#20768) <br> * CB-3742 connect with key file in bigquery    * CB<br>-3742 remove server name field    * remove keypath p<br>aram from url    ---------    Co-authored-by: Daria <br>Marutkina |
+|2023-08-12 00:00:02|[free](https://github.com/freefq/free)|updated_at 08-12 08:00|
+|2023-08-11 21:50:54|[PocOrExp_in_Githu<br>b](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-08-12 05:50:54|
+|2023-08-11 16:53:23|[dalfox](https://github.com/hahwul/dalfox)|Merge pull request #486 from hahwul/dependabot/go_m<br>odules/github.com/chromedp/chromedp-0.9.2  Bump gith<br>ub.com/chromedp/chromedp from 0.9.1 to 0.9.2|
+|2023-08-11 14:19:10|[rustdesk](https://github.com/rustdesk/rustdesk)|Merge pull request #5353 from dignow/refact/remove_<br>login_device_info_in_sciter  refactor, remove login <br>device info in sciter|
+|2023-08-11 14:02:41|[MockingBird](https://github.com/babysor/MockingBird)|Merge pull request #947 from FawenYo/doc/update_lin<br>k  📝 Update model download link|
+|2023-08-11 12:34:14|[v2rayfree](https://github.com/aiboboxx/v2rayfree)|update|
+|2023-08-11 12:32:26|[arthas](https://github.com/alibaba/arthas)|fix classloader command (#2601)|
+|2023-08-11 12:09:03|[ThunderSearch](https://github.com/xzajyjs/ThunderSearch)|fix fofa bug|
+|2023-08-11 12:06:58|[dbeaver](https://github.com/dbeaver/dbeaver)|Do not create empty property by default|
+|2023-08-11 11:10:22|[codeql-cli-binari<br>es](https://github.com/github/codeql-cli-binaries)|Update changelog for 2.14.2|
+|2023-08-11 10:21:43|[PeiQi-WIKI-Book](https://github.com/PeiQi0/PeiQi-WIKI-Book)|漏洞相关:广联达,1Panel等|
+|2023-08-11 09:19:12|[safeline](https://github.com/chaitin/safeline)|feat: use the dns to enable threat info|
+|2023-08-11 08:11:58|[dperf](https://github.com/baidu/dperf)|Merge pull request #357 from pengjianzhang/main  fi<br>x: http_host or http_path can only be configured whe<br>n http is enabled|
+|2023-08-11 04:21:17|[RmTools](https://github.com/RoomaSec/RmTools)|Merge branch 'main' of https://github.com/RoomaSec/<br>RmTools|
 |2023-08-10 17:20:09|[syft](https://github.com/anchore/syft)|chore(deps): update bootstrap tools to latest versi<br>ons (#2012)  Signed-off-by: GitHub   Co-authored-by:<br> spiffcs |
-|2023-08-10 12:39:48|[v2rayfree](https://github.com/aiboboxx/v2rayfree)|update|
 |2023-08-10 12:36:06|[afrog](https://github.com/zan8in/afrog)|update|
-|2023-08-10 10:18:35|[safeline](https://github.com/chaitin/safeline)|Merge pull request #210 from chaitin/Lorna0-Update-<br>issue-template  Update issue template: add some hits<br> in feature-request issue|
 |2023-08-10 08:33:16|[OA-EXPTOOL](https://github.com/LittleBear4/OA-EXPTOOL)|Add files via upload|
 |2023-08-10 08:21:41|[trivy](https://github.com/aquasecurity/trivy)|chore(deps): bump github.com/xlab/treeprint from 1.<br>1.0 to 1.2.0 (#4917)  Bumps  from 1.1.0 to 1.2.0. - <br> -   --- updated-dependencies: - dependency-name: gi<br>thub.com/xlab/treeprint   dependency-type: direct:pr<br>oduction   update-type: version-update:semver-minor <br>...  Signed-off-by: dependabot[bot]  Co-authored-by:<br> dependabot[bot] |
 |2023-08-10 08:16:12|[Mobile-Security-F<br>ramework-MobSF](https://github.com/MobSF/Mobile-Security-Framework-MobSF)|[HOTFIX] Regex + Rule Update (#2232)  * IOS Swift R<br>ules updates    *  Updated or added rules ios_biomet<br>ric_bool, ios_biometric_acl, ios_keychain_weak_acl_d<br>evice_passcode, ios_keychain_weak_accessibility_valu<br>e, ios_insecure_random_no_generator, ios_biometry_ha<br>rdened   * Regex Hardening: Fixes possible Regex DoS<br> in rules and MobSF code base|
-|2023-08-10 08:05:05|[PeiQi-WIKI-Book](https://github.com/PeiQi0/PeiQi-WIKI-Book)|漏洞相关: 绿盟,海康等|
-|2023-08-10 07:54:23|[MockingBird](https://github.com/babysor/MockingBird)|Merge pull request #945 from babysor/babysor-patch-<br>1  Update README.md|
 |2023-08-10 03:17:55|[vulnerability](https://github.com/lal0ne/vulnerability)|CVE-2020-1472|
 |2023-08-10 00:10:11|[neuvector](https://github.com/neuvector/neuvector)|Merge pull request #945 from becitsthere/dev  NVSHA<br>S-7379: exit container if proc keep restarting|
 |2023-08-09 17:25:05|[clair](https://github.com/quay/clair)|build(deps): bump github.com/pyroscope-io/godeltapr<br>of  Bumps  from 0.1.1 to 0.1.2. -   --- updated-depe<br>ndencies: - dependency-name: github.com/pyroscope-io<br>/godeltaprof   dependency-type: direct:production   <br>update-type: version-update:semver-patch ...  Signed<br>-off-by: dependabot[bot] |
@@ -60,7 +67,6 @@
 |2023-08-08 21:09:10|[ChatGPT-Shortcut](https://github.com/rockbenben/ChatGPT-Shortcut)|perf: Replace Google authentication API|
 |2023-08-08 17:29:12|[grype](https://github.com/anchore/grype)|chore(deps): bump actions/setup-go from 4.0.1 to 4.<br>1.0 (#1421)  Bumps  from 4.0.1 to 4.1.0.  -   -     <br>---  updated-dependencies:  - dependency-name: actio<br>ns/setup-go    dependency-type: direct:production   <br> update-type: version-update:semver-minor  ...    Si<br>gned-off-by: dependabot[bot]   Co-authored-by: depen<br>dabot[bot] |
 |2023-08-08 14:56:38|[RouteVulScan](https://github.com/F6JO/RouteVulScan)|update rule|
-|2023-08-08 11:47:30|[dperf](https://github.com/baidu/dperf)|Merge pull request #355 from pengjianzhang/main  fi<br>x: lport_range check late|
 |2023-08-08 10:19:38|[gshark](https://github.com/madneal/gshark)|modify sql.md|
 |2023-08-08 09:59:24|[vulhub](https://github.com/vulhub/vulhub)|Merge pull request #455 from vulhub/metersphere-plu<br>gin-rce  MeterSphere plugin RCE|
 |2023-08-08 08:44:35|[Some-PoC-oR-ExP](https://github.com/coffeehb/Some-PoC-oR-ExP)|Update 一些已知漏洞.md|
@@ -71,7 +77,6 @@
 |2023-08-07 19:36:46|[malwoverview](https://github.com/alexandreborges/malwoverview)|Malwoverview|
 |2023-08-07 18:30:01|[faker](https://github.com/joke2k/faker)|Bump version: 19.2.0 → 19.3.0|
 |2023-08-07 10:11:12|[veinmind-tools](https://github.com/chaitin/veinmind-tools)|docs: 修复readme描述 (#264)|
-|2023-08-07 08:32:55|[RmTools](https://github.com/RoomaSec/RmTools)|Update README.md|
 |2023-08-07 07:29:39|[nemo_go](https://github.com/hanc00l/nemo_go)|Update: Domain列表增加端口的显示和快速链接|
 |2023-08-07 03:52:52|[Sec-Tools](https://github.com/jwt1399/Sec-Tools)|Update README.md|
 |2023-08-07 03:47:19|[404StarLink](https://github.com/knownsec/404StarLink)|weekly update at 2023-08-07|
@@ -84,7 +89,6 @@
 |2023-08-05 10:41:22|[goproxy](https://github.com/snail007/goproxy)|update|
 |2023-08-05 09:14:45|[sqlmap](https://github.com/sqlmapproject/sqlmap)|Fixes #5477|
 |2023-08-05 06:43:00|[FreeRDP](https://github.com/FreeRDP/FreeRDP)|[nightly,deb] fix libwebkit2gtk-4.0 name|
-|2023-08-05 03:28:41|[dalfox](https://github.com/hahwul/dalfox)|Merge pull request #485 from hahwul/dependabot/go_m<br>odules/golang.org/x/term-0.11.0  Bump golang.org/x/t<br>erm from 0.10.0 to 0.11.0|
 |2023-08-04 14:50:11|[superSearchPlus](https://github.com/dark-kingA/superSearchPlus)|Update README.md|
 |2023-08-04 13:50:07|[BurpSuite-collect<br>ions](https://github.com/Mr-xn/BurpSuite-collections)|Update README.md|
 |2023-08-04 06:20:58|[kscan](https://github.com/lcvvvv/kscan)|Merge pull request #149 from ruishawn/dev  fix: the<br> judgment condition is always true in function recvP<br>rotocolVe…|
@@ -103,7 +107,6 @@
 |2023-08-03 00:54:06|[Awesome-POC](https://github.com/Threekiii/Awesome-POC)|更新漏洞|
 |2023-08-02 18:22:40|[naabu](https://github.com/projectdiscovery/naabu)|Revert "removing uncover"  This reverts commit d587<br>82fbb88e7669171b9d461444f416135e4b7b.|
 |2023-08-02 16:59:50|[RedisEXP](https://github.com/yuyan-sec/RedisEXP)|0.0.3|
-|2023-08-02 08:09:53|[arthas](https://github.com/alibaba/arthas)|upgrade bytekit to 0.0.9|
 |2023-08-02 03:11:35|[knife](https://github.com/bit4woo/knife)|新增2个功能菜单|
 |2023-08-01 07:16:41|[domain_hunter_pro](https://github.com/bit4woo/domain_hunter_pro)|update|
 |2023-08-01 03:02:00|[murphysec](https://github.com/murphysecurity/murphysec)|chore(deps): upgrade dependencies...|
@@ -115,17 +118,14 @@
 |2023-07-30 02:22:35|[SmsForwarder](https://github.com/pppscn/SmsForwarder)|新增：webParams 的 [receive_time] 标签支持自定义时<br>间格式 #327|
 |2023-07-28 16:13:09|[nuclei](https://github.com/projectdiscovery/nuclei)|version update|
 |2023-07-28 09:12:45|[kube-bench](https://github.com/aquasecurity/kube-bench)|build(deps): bump golang from 1.20.4 to 1.20.6 (#14<br>75)  Bumps golang from 1.20.4 to 1.20.6.    ---  upd<br>ated-dependencies:  - dependency-name: golang    dep<br>endency-type: direct:production    update-type: vers<br>ion-update:semver-patch  ...    Signed-off-by: depen<br>dabot[bot]   Co-authored-by: dependabot[bot] |
-|2023-07-28 07:09:56|[ShiroAttack2](https://github.com/SummerSec/ShiroAttack2)|Create LICENSE|
-|2023-07-27 11:56:35|[codeql-cli-binari<br>es](https://github.com/github/codeql-cli-binaries)|Update CHANGELOG.md for 2.14.1 release|
-|2023-07-27 08:22:25|[autoDecoder](https://github.com/f0ng/autoDecoder)|Update FAQ.md|
-|2023-07-27 07:07:29|[Pentest-Windows](https://github.com/arch3rPro/Pentest-Windows)|Merge pull request #24 from mlzxgzy/main  方便有百<br>度云的兄弟们用百度云下载|## 所有项目
+|2023-07-28 07:09:56|[ShiroAttack2](https://github.com/SummerSec/ShiroAttack2)|Create LICENSE|## 所有项目
 # 渗透测试
 ## 信息收集
 ### 资产测绘采集
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
 | [InfoSearchAll](https://github.com/ExpLangcn/InfoSearchAll) | V1.2 | 为了方便安全从业人员在使用网络测绘平台进行信息搜集时的效率，本<br>程序集合了多个网络测绘平台，可以快速在多个网络测绘平台搜索信息并<br>且合并展示及导出。 |
-| [ThunderSearch](https://github.com/xzajyjs/ThunderSearch) | v2.3.3 | 【支持Fofa、Zoomeye、Quake等网络空间搜索引擎】闪电搜索器；GUI<br>图形化渗透测试信息搜集工具；资产搜集引擎 |
+| [ThunderSearch](https://github.com/xzajyjs/ThunderSearch) | v2.4.1 | 【支持Fofa、Shodan、Zoomeye、Quake等网络空间搜索引擎】闪电搜索<br>器；GUI图形化渗透测试信息搜集工具；资产搜集引擎 |
 | [Search_Viewer](https://github.com/G3et/Search_Viewer) | v3.0 | 集Fofa、Hunter鹰图、Shodan、360 quake、Zoomeye 钟馗之眼、censy<br>s 为一体的空间测绘gui图形界面化工具，支持一键采集爬取和导出fofa<br>、shodan等数据，方便快捷查看 |
 | [koko-moni](https://github.com/burpheart/koko-moni) | v0.0.1 | 一个网络空间搜索引擎监控平台，可定时进行资产信息爬取，及时发现<br>新增资产，本项目聚合了 Fofa、Hunter、Quake、Zoomeye 和 Threatboo<br>k 的数据源，并对获取到的数据进行去重与清洗 |
 | [AsamF](https://github.com/Kento-Sec/AsamF) | v0.2.5 | AsamF是集成Fofa、Quake、Hunter、Shodan、Zoomeye、Chinaz、0.zon<br>e及爱企查的一站式企业信息资产收集、网络资产测绘工具。 |
@@ -306,7 +306,7 @@
 | :---- | :---- | :---- |
 | [jar-analyzer-gui](https://github.com/4ra1n/jar-analyzer-gui) | 1.1 | 一个用于分析Jar包的GUI工具，可以用多种方式搜索你想要的信息，自<br>动构建方法调用关系，支持分析Spring框架（A Java GUI Tool for Anal<br>yzing Jar） |
 | [code-inspector](https://github.com/4ra1n/code-inspector) | 0.2-bet<br>a | JavaWeb漏洞审计工具，构建方法调用链并模拟栈帧进行分析 |
-| [codeql-cli-binari<br>es](https://github.com/github/codeql-cli-binaries) | v2.14.1 | Binaries for the CodeQL CLI |
+| [codeql-cli-binari<br>es](https://github.com/github/codeql-cli-binaries) | v2.14.2 | Binaries for the CodeQL CLI |
 | [CodeQLpy](https://github.com/webraybtl/CodeQLpy) |  | CodeQLpy是一款基于CodeQL实现的半自动化代码审计工具，目前仅支持<br>java语言。实现从源码反编译，数据库生成，脆弱性发现的全过程，可<br>以辅助代码审计人员快速定位源码可能存在的漏洞。 |
 ### 容器漏洞扫描
 | 项目名称 | 版本 | 项目描述 |
@@ -1350,7 +1350,7 @@
 | [Awesome-ChatGPT](https://github.com/dalinvip/Awesome-ChatGPT) |  | ChatGPT资料汇总学习，持续更新...... |
 | [awesome-chatgpt-z<br>h](https://github.com/yzfly/awesome-chatgpt-zh) |  | ChatGPT 中文指南🔥，ChatGPT 中文调教指南，指令指南，应用开发指<br>南，精选资源清单，更好的使用 chatGPT 让你的生产力 up up up! 🚀 |
 | [chatgpt-mac](https://github.com/vincelwt/chatgpt-mac) | v0.0.5 | ChatGPT for Mac, living in your menubar. |
-| [ChatGPT-Shortcut](https://github.com/rockbenben/ChatGPT-Shortcut) |  | 🚀💪Maximize your efficiency and productivity, support for Eng<br>lish,中文,Español,العربية. 让生产力加倍的 ChatGPT 快捷指令，按<br>照领域和功能分区，可对提示词进行标签筛选、关键词搜索和一键复制。 |
+| [ChatGPT-Shortcut](https://github.com/rockbenben/ChatGPT-Shortcut) |  | 🚀💪Maximize your efficiency and productivity, support for Eng<br>lish,中文,Español,العربية. 让生产力加倍的ChatGPT快捷指令，无需<br>熟悉提示词，就能轻松搜索、优化和管理Prompts，适应多语言及各种生<br>产效率场景。 |
 ## APP合规
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
