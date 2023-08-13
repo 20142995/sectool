@@ -200,8 +200,8 @@
     "https://github.com/ycdxsb/PocOrExp_in_Github": {
         "created_at": "2021-04-13 05:46:16",
         "description": "聚合Github上已有的Poc或者Exp，CVE信息来自CVE官网。Auto Collect Poc Or Exp from Github by CVE ID.",
-        "commit_date": "2023-08-11 21:50:54",
-        "commit_message": "update 2023-08-12 05:50:54",
+        "commit_date": "2023-08-13 00:26:43",
+        "commit_message": "update 2023-08-13 08:26:43",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -1062,8 +1062,8 @@
     "https://github.com/ninoseki/mitaka": {
         "created_at": "2018-02-09 00:13:30",
         "description": "A browser extension for OSINT search",
-        "commit_date": "2023-07-14 23:40:53",
-        "commit_message": "docs: update README [skip ci]",
+        "commit_date": "2023-08-12 05:15:05",
+        "commit_message": "Merge pull request #748 from ninoseki/update-ioc-extractor\n\nchore: update ioc-extractor",
         "release_tag": "v1.3.1",
         "release_date": "2023-07-14 23:29:27",
         "release_message": "Fiirefox only release to support Firefox MV3.\r\n\r\n- https://addons.mozilla.org/en-US/firefox/addon/mitaka/\r\n\r\n## Notes\r\n\r\nPlease allow \"Access your data for all websites\" permission. Otherwise this extension does not work.\r\n\r\n<img width=\"703\" alt=\"Screenshot 2023-07-15 at 8 27 26\" src=\"https://github.com/ninoseki/mitaka/assets/291028/40a5709a-bb4a-4078-b135-287c07ecabef\">\r\n"
@@ -1071,11 +1071,11 @@
     "https://github.com/v2rayA/v2rayA": {
         "created_at": "2019-10-18 20:42:06",
         "description": "A web GUI client of Project V which supports V2Ray, Xray, SS, SSR, Trojan and Pingtunnel 🚀",
-        "commit_date": "2023-08-08 01:28:50",
-        "commit_message": "fix: Farsi language standard flag. (#1011)",
-        "release_tag": "v2.1.0",
-        "release_date": "2023-08-02 17:29:39",
-        "release_message": "## What's Changed\r\n\r\n- 支持 Reality\r\n- 支持 TLS Flow\r\n- 支持 uTLS Fingerprint\r\n- 新增波兰语\r\n- 其他一些更新\r\n\r\n* Allow using flow option with TLS. by @Gh0u1L5 in https://github.com/v2rayA/v2rayA/pull/917\r\n* Add more flow and fix sni by @farhadjafari385 in https://github.com/v2rayA/v2rayA/pull/930\r\n* Fix Windows build workflow by @MarksonHon in https://github.com/v2rayA/v2rayA/pull/941\r\n* refactor: web gui by nuxt by @kecrily in https://github.com/v2rayA/v2rayA/pull/787\r\n* Added pt-br.js file for brazilian portuguese language by @talesam in https://github.com/v2rayA/v2rayA/pull/990\r\n* Persian Language Added by @DanielBlackBeard in https://github.com/v2rayA/v2rayA/pull/785\r\n* chore: upgrade buefy to eliminate sass deprecated syntax warnings by @kecrily in https://github.com/v2rayA/v2rayA/pull/777\r\n* Merge xray support from CI-He-O/v2rayA by @mzz2017 in https://github.com/v2rayA/v2rayA/pull/1004\r\n\r\n## New Contributors\r\n* @Gh0u1L5 made their first contribution in https://github.com/v2rayA/v2rayA/pull/917\r\n* @farhadjafari385 made their first contribution in https://github.com/v2rayA/v2rayA/pull/930\r\n* @talesam made their first contribution in https://github.com/v2rayA/v2rayA/pull/990\r\n* @DanielBlackBeard made their first contribution in https://github.com/v2rayA/v2rayA/pull/785\r\n\r\n**Full Changelog**: https://github.com/v2rayA/v2rayA/compare/v2.0.5...v2.1.0"
+        "commit_date": "2023-08-13 00:12:13",
+        "commit_message": "remove useless homebrew.yml",
+        "release_tag": "v2.1.3",
+        "release_date": "2023-08-12 17:23:55",
+        "release_message": "**Compared to v2.1.2, this release fixes supervisor panic and creating Juicity node in pannel problem**\r\n\r\n## 更新内容\r\n* 支持 [Juicity](https://github.com/juicity/juicity)。\r\n\r\n## What's Changed\r\n* fix: Farsi language standard flag. by @neilbowman666 in https://github.com/v2rayA/v2rayA/pull/1011\r\n* feat(protocol): support [Juicity](https://github.com/juicity/juicity) in https://github.com/v2rayA/v2rayA/commit/0e4803cc98926e56aa55ee8f65a8db0ee23a6040\r\n\r\n## New Contributors\r\n* @neilbowman666 made their first contribution in https://github.com/v2rayA/v2rayA/pull/1011\r\n\r\n**Full Changelog**: https://github.com/v2rayA/v2rayA/compare/v2.1.0...v2.1.3"
     },
     "https://github.com/silentsignal/burp-text4shell": {
         "created_at": "2022-10-18 15:07:57",
@@ -1350,11 +1350,11 @@
     "https://github.com/projectdiscovery/subfinder": {
         "created_at": "2018-03-31 09:44:57",
         "description": "Fast passive subdomain enumeration tool.",
-        "commit_date": "2023-07-23 10:01:35",
-        "commit_message": "added dep auto merge workflow",
-        "release_tag": "v2.6.1",
-        "release_date": "2023-07-23 10:11:32",
-        "release_message": "<!-- Release notes generated using configuration in .github/release.yml at main -->\r\n\r\n## What's Changed\r\n### 🐞 Bug Fixes\r\n* Fixed panic issue with digitorus source by @dogancanbakir in https://github.com/projectdiscovery/subfinder/pull/882\r\n* Fixed issue parsing result from securitytrails by @ehsandeep in https://github.com/projectdiscovery/subfinder/pull/902\r\n\r\n### 🔨 Maintenance\r\n* Removed additional `-U` of `apk` in Dockerfile by @PeterDaveHello in https://github.com/projectdiscovery/subfinder/pull/886\r\n\r\n## New Contributors\r\n* @PeterDaveHello made their first contribution in https://github.com/projectdiscovery/subfinder/pull/886\r\n\r\n**Full Changelog**: https://github.com/projectdiscovery/subfinder/compare/v2.6.0...v2.6.1"
+        "commit_date": "2023-08-12 18:10:07",
+        "commit_message": "version update",
+        "release_tag": "v2.6.2",
+        "release_date": "2023-08-12 18:17:48",
+        "release_message": "<!-- Release notes generated using configuration in .github/release.yml at main -->\r\n\r\n## What's Changed\r\n### 🎉 New Features\r\n\r\n* Added [Facebook certificate transparency logs](https://developers.facebook.com/tools/ct/search/) as new source by @tarunKoyalwar in https://github.com/projectdiscovery/subfinder/pull/912\r\n```console\r\nsubfinder -d hackerone.com -s facebook\r\n```\r\n* Added rate limit per source support by @dogancanbakir in https://github.com/projectdiscovery/subfinder/pull/891\r\n```console\r\nsubfinder -d hackerone.com -rls \"crtsh=10/s,shodan=1/s\"\r\n```\r\n\r\n###  🐞 Bug Fixes\r\n* Fixed issue with censys source by using v2 api by @dogancanbakir in https://github.com/projectdiscovery/subfinder/pull/929\r\n\r\n\r\n**Full Changelog**: https://github.com/projectdiscovery/subfinder/compare/v2.6.1...v2.6.2"
     },
     "https://github.com/webraybtl/CodeQLpy": {
         "created_at": "2022-12-22 12:54:03",
@@ -1663,7 +1663,7 @@
     "https://github.com/xzajyjs/ThunderSearch": {
         "created_at": "2022-01-14 14:53:32",
         "description": "【支持Fofa、Shodan、Zoomeye、Quake等网络空间搜索引擎】闪电搜索器；GUI图形化渗透测试信息搜集工具；资产搜集引擎",
-        "commit_date": "2023-08-11 12:09:03",
+        "commit_date": "2023-08-12 12:33:48",
         "commit_message": "fix fofa bug",
         "release_tag": "v2.4.1",
         "release_date": "2023-08-11 08:37:01",
@@ -1888,8 +1888,8 @@
     "https://github.com/hanc00l/nemo_go": {
         "created_at": "2021-07-29 08:13:25",
         "description": "Nemo是用来进行自动化信息收集的一个简单平台，通过集成常用的信息收集工具和技术，实现对内网及互联网资产信息的自动收集，提高隐患排查和渗透测试的工作效率。",
-        "commit_date": "2023-08-07 07:29:39",
-        "commit_message": "Update: Domain列表增加端口的显示和快速链接",
+        "commit_date": "2023-08-12 03:47:28",
+        "commit_message": "Update: 优化web测试在线资产api代码限制只测试100条记录",
         "release_tag": "v2.10.0",
         "release_date": "2023-08-03 14:11:45",
         "release_message": "### Updated\r\n\r\n- 增加runtimelog数据库表，worker的runtime日志通过RPC调用上传并保存，在web增加日志查看和管理功能（需要SuperAdmin权限），从v2.9升级需导入runtimelog.sql；\r\n- 新增worker按任务功能分别运行的模式（见安装手册）；\r\n- 增加根据工作空间对Worker进行自定义任务的实现；\r\n- 导出IP与Domain资产功能；\r\n- 对Fofa、quake及hunter的API增加查询限额；\r\n- subfinder对子域名去除泛解析；\r\n- windows平台的massdns使用和子域名爆破功能（感谢github.com/penson233/TailorFinder编译好二进制文件）\r\n- server增加HTTPS功能（启动命令-tls，详细见安装手册），为RPC及filesync启用TLS加密功能(-tls)，默认自动生成和使用自签名证书\r\n- 升级beego至v2.1.1，rpcx到1.8.11\r\n\r\n### Fix\r\n\r\n- quake查询API参数服务器调整导致无法正确搜索结果；Fofa默认分页数与实际不一致导致的重复调用API；\r\n- subfinder v2.6.0异常退出bug\r\n- 导入离线扫描的gogo和fscan\r\n- 域名一键拉黑的时候删除不彻底\r\n-  XScan任务的XOrganization直接调用数据库查询IP和Domain资产的Bug\r\n\r\n### Thirdparty版本\r\n\r\n- Httpx：1.3.4\r\n- Subfinder：2.6.1\r\n- Nuclei：2.9.10\r\n- Observe_ward：2023.8.3"
@@ -2372,11 +2372,11 @@
     "https://github.com/FunnyWolf/Viper": {
         "created_at": "2020-05-29 12:53:42",
         "description": "Redteam operation  platform with webui 图形化红队行动辅助平台",
-        "commit_date": "2023-08-09 01:33:36",
-        "commit_message": "Update issue templates",
-        "release_tag": "v1.6.2",
-        "release_date": "2023-08-02 09:03:57",
-        "release_message": "\r\n### 优化\r\n- 优化Session Timeout默认值,断线可自动切换传输协议\r\n- reverse_http监听不再返回404页面,直接关闭连接\r\n- 优化`网络拓扑`,根据载荷类型确认方向并动态显示当前存活的连接\r\n- 合并metasploit-framework 6.3.28版本\r\n### Bugfix\r\n- Socks5代理在存在连接时无法正确关闭问题"
+        "commit_date": "2023-08-12 06:22:00",
+        "commit_message": "Merge remote-tracking branch 'origin/master'",
+        "release_tag": "prod",
+        "release_date": "2023-08-12 06:23:28",
+        "release_message": "### 优化\r\n- 调整vipermsf及viperpython日志级别及格式,便于定位问题\r\n- 关闭vipermsf的cpulimit\r\n- 新增vipermsf心跳异常提示\r\n- 更新沙箱IP列表,参考项目: https://github.com/0x727/CloudSandbox\r\n- 优化网络拓扑动态效果\r\n- 合并metasploit-framework 6.3.30版本\r\n### Bugfix\r\n- Fix https://github.com/FunnyWolf/Viper/issues/150 session下载文件时会偶发性的下载了1m中断\r\n- Fix https://github.com/FunnyWolf/Viper/issues/145 thin的pid文件未清除导致重启msf后台服务无法启动"
     },
     "https://github.com/kost/dvcs-ripper": {
         "created_at": "2012-10-23 04:55:18",
@@ -2390,8 +2390,8 @@
     "https://github.com/PeiQi0/PeiQi-WIKI-Book": {
         "created_at": "2022-03-12 12:38:56",
         "description": "面向网络安全从业者的知识文库🍃",
-        "commit_date": "2023-08-11 10:21:43",
-        "commit_message": "漏洞相关:广联达,1Panel等",
+        "commit_date": "2023-08-12 08:48:53",
+        "commit_message": "漏洞相关:腾讯,大华等:tada:",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -4277,7 +4277,7 @@
     "https://github.com/aiboboxx/v2rayfree": {
         "created_at": "2021-10-13 11:34:53",
         "description": "v2ray公益免费节点、最新2ray免费v节点订阅地址、v2ray免费节点每日更新、免费ss/v2ray/trojan节点、freefq ",
-        "commit_date": "2023-08-11 12:34:14",
+        "commit_date": "2023-08-12 12:31:43",
         "commit_message": "update",
         "release_tag": "",
         "release_date": "",
@@ -4322,8 +4322,8 @@
     "https://github.com/freefq/free": {
         "created_at": "2020-06-07 02:48:33",
         "description": "翻墙、免费翻墙、免费科学上网、免费节点、免费梯子、免费ss/v2ray/trojan节点、蓝灯、谷歌商店、翻墙梯子",
-        "commit_date": "2023-08-12 00:00:02",
-        "commit_message": "updated_at 08-12 08:00",
+        "commit_date": "2023-08-13 00:00:03",
+        "commit_message": "updated_at 08-13 08:00",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -5003,9 +5003,9 @@
     },
     "https://github.com/rustdesk/rustdesk": {
         "created_at": "2020-09-28 15:36:08",
-        "description": "An open-source alternative to TeamViewer.",
-        "commit_date": "2023-08-11 14:19:10",
-        "commit_message": "Merge pull request #5353 from dignow/refact/remove_login_device_info_in_sciter\n\nrefactor, remove login device info in sciter",
+        "description": "An open-source remote desktop, and alternative to TeamViewer.",
+        "commit_date": "2023-08-12 07:40:51",
+        "commit_message": "Merge pull request #5363 from sahilyeole/master\n\nAdd more tooltips",
         "release_tag": "1.2.1",
         "release_date": "2023-07-12 07:28:05",
         "release_message": "\r\n![image](https://github.com/rustdesk/rustdesk/assets/71636191/b444deab-7971-4de7-b315-6a9b4974c7ea)\r\n\r\n> Winget, FDroid, Apple Sillicon, Google Play / App Store update will come soon.\r\n\r\nx86-64: [Windows](https://github.com/rustdesk/rustdesk/releases/download/1.2.1/rustdesk-1.2.1-x86_64.exe) | [Ubuntu](https://github.com/rustdesk/rustdesk/releases/download/1.2.1/rustdesk-1.2.1-x86_64.deb) | [Mac](https://github.com/rustdesk/rustdesk/releases/download/1.2.1/rustdesk-1.2.1-x86_64.dmg)\r\nAArch64 (ARM64):  [Ubuntu](https://github.com/rustdesk/rustdesk/releases/download/1.2.1/rustdesk-1.2.1-aarch64.deb) | [Android](https://github.com/rustdesk/rustdesk/releases/download/1.2.1/rustdesk-1.2.1-aarch64-signed.apk)\r\nMore: [check below please](#)\r\n\r\n<details>\r\n<summary>Changelog</summary>\r\n\r\n- fix #4856 \r\n- fix #4866 \r\n- fix email login verfication bug on mobile #4874, and fix email login verification wrong error message\r\n- refactor chat notification both on mobile and desktop #4878 #4889 #4943\r\n- fix #4890 \r\n- fix privacy broker zombie process #4916 \r\n- improve remote menubar #4922\r\n- try to fix issue #3261 with new api, but not sure if it works\r\n- adjust tab theme to make it more clear\r\n- partially fix #4896 \r\n- fix #4880 \r\n- refactor id inputbox on mobile\r\n\r\n</details>\r\n"
@@ -5148,8 +5148,8 @@
     "https://github.com/FreeRDP/FreeRDP": {
         "created_at": "2011-06-30 19:14:15",
         "description": "FreeRDP is a free remote desktop protocol library and clients",
-        "commit_date": "2023-08-05 06:43:00",
-        "commit_message": "[nightly,deb] fix libwebkit2gtk-4.0 name",
+        "commit_date": "2023-08-12 13:24:08",
+        "commit_message": "TestThreadExitThread: fix messages and wait timeout for the windows CI\n\nLooks like for the windows x86_86 CI host 100ms is too small for a thread to terminate\nso let's wait for longer and decrease the number of loops.",
         "release_tag": "2.10.0",
         "release_date": "2023-02-16 13:46:39",
         "release_message": " Notewhorth changes:\r\n * Fix android build scripts, use CMake from SDK\r\n * Fix connection negotiation with mstsc/msrdc #8426\r\n * [ntlm]: use rfc5929 binding hash algorithm #8430\r\n * [channels,printer] Fixed reference counting #8433\r\n * Fix uwac pixman #8439\r\n * Fix Rdp security #8457\r\n * [client,x11] Detect key autorepeat #8522\r\n * [build] add channel path to RPATH #8551\r\n * Fix build with BUILTIN_CHANNELS=OFF #8560\r\n * revert changes so that the osmajortype/osminortype is not overwritten #8571\r\n * [uwac] do not use iso C functions #8604\r\n * [winpr,sam] fix inalid NULL arguments #8605\r\n * Fix incompatible function pointer types #8625\r\n \r\n Fixed issues:\r\n * Backported #8581: Ignore data PDUs for DVCs that were not opened successfully\r\n * Backported #8498: [channel,urbdrc] fix type of usb hotplug callback\r\n * Backported #8537: Extended info enforce limits\r\n * Backported #8611: [core] add missing redirection fields\r\n \r\n"
@@ -5272,8 +5272,8 @@
     "https://github.com/projectdiscovery/wappalyzergo": {
         "created_at": "2021-04-06 09:54:00",
         "description": "A high performance go implementation of Wappalyzer Technology Detection Library",
-        "commit_date": "2023-08-06 00:20:36",
-        "commit_message": "Weekly fingerprints update [Sun Aug  6 00:20:36 UTC 2023] :robot:",
+        "commit_date": "2023-08-13 00:19:13",
+        "commit_message": "Weekly fingerprints update [Sun Aug 13 00:19:13 UTC 2023] :robot:",
         "release_tag": "v0.0.108",
         "release_date": "2023-08-06 00:20:52",
         "release_message": "### [0.0.108](https://github.com/projectdiscovery/wappalyzergo/compare/v0.0.107...v0.0.108) (2023-08-06)"

@@ -1,8 +1,11 @@
-# 更新于 2023-08-12 08:33:32
+# 更新于 2023-08-13 08:35:34
 
 ## 近15天release更新记录
 | 更新时间 | 项目名称 | 版本 | 更新内容 |
 | :---- | :---- | :---- | :---- |
+|2023-08-12 18:17:48|[subfinder](https://github.com/projectdiscovery/subfinder)|v2.6.2|    ## What's Changed  ### 🎉 New Fea<br>tures    * Added  as new source by @ta<br>runKoyalwar in https://github.com/proj<br>ectdiscovery/subfinder/pull/912  conso<br>le  subfinder -d hackerone.com -s face<br>book    * Added rate limit per source <br>support by @dogancanbakir in https://g<br>ithub.com/projectdiscovery/subfinder/p<br>ull/891  console  subfinder -d hackero<br>ne.com -rls "crtsh=10/s,shodan=1/s"   <br>   ###  🐞 Bug Fixes  * Fixed issue wi<br>th censys source by using v2 api by @d<br>ogancanbakir in https://github.com/pro<br>jectdiscovery/subfinder/pull/929      <br>**Full Changelog**: https://github.com<br>/projectdiscovery/subfinder/compare/v2<br>.6.1...v2.6.2|
+|2023-08-12 17:23:55|[v2rayA](https://github.com/v2rayA/v2rayA)|v2.1.3|**Compared to v2.1.2, this release fi<br>xes supervisor panic and creating Juic<br>ity node in pannel problem**    ## 更<br>新内容  * 支持 。    ## What's Changed <br> * fix: Farsi language standard flag. <br>by @neilbowman666 in https://github.co<br>m/v2rayA/v2rayA/pull/1011  * feat(prot<br>ocol): support  in https://github.com/<br>v2rayA/v2rayA/commit/0e4803cc98926e56a<br>a55ee8f65a8db0ee23a6040    ## New Cont<br>ributors  * @neilbowman666 made their <br>first contribution in https://github.c<br>om/v2rayA/v2rayA/pull/1011    **Full C<br>hangelog**: https://github.com/v2rayA/<br>v2rayA/compare/v2.1.0...v2.1.3|
+|2023-08-12 06:23:28|[Viper](https://github.com/FunnyWolf/Viper)|prod|### 优化  - 调整vipermsf及viperpython<br>日志级别及格式,便于定位问题  - 关闭vipe<br>rmsf的cpulimit  - 新增vipermsf心跳异常<br>提示  - 更新沙箱IP列表,参考项目: https:<br>//github.com/0x727/CloudSandbox  - 优<br>化网络拓扑动态效果  - 合并metasploit-fr<br>amework 6.3.30版本  ### Bugfix  - Fix <br>https://github.com/FunnyWolf/Viper/iss<br>ues/150 session下载文件时会偶发性的下<br>载了1m中断  - Fix https://github.com/Fu<br>nnyWolf/Viper/issues/145 thin的pid文件<br>未清除导致重启msf后台服务无法启动|
 |2023-08-11 11:12:07|[codeql-cli-binari<br>es](https://github.com/github/codeql-cli-binaries)|v2.14.2|### Breaking changes    - The functio<br>nality provided by the codeql execute <br>query-server subcommand has been remov<br>ed. The subcommand now responds to all<br> JSON RPC requests with an error respo<br>nse. Correspondingly, this release is <br>no longer compatible with versions of <br>the CodeQL extension for Visual Studio<br> Code prior to 1.7.6.      This change<br> also breaks third-party CodeQL IDE in<br>tegrations that still rely on the code<br>ql execute query-server subcommand. Ma<br>intainers of such CodeQL IDE integrati<br>ons should migrate to the codeql execu<br>te query-server2 subcommand at the ear<br>liest opportunity.    ### Improvements<br>    - Switched from prefix filtering o<br>f autocomplete suggestions in the lang<br>uage server to client-side filtering. <br>This improves autocomplete suggestions<br> in contexts with an autocompletion pr<br>efix.    - The CodeQL language server <br>now checks query metadata for errors. <br>This allows Visual Studio Code users t<br>o see errors in their query metadata w<br>ithout needing to compile the query.  <br>  ### Bugs fixed    - Fixed bug that m<br>ade the --warnings=hide option do noth<br>ing in codeql database analyze and oth<br>er commands that _evaluate_ queries.  <br>  For more information about the chang<br>es included in this release, see the .<br>    You can download _either_ the code<br>ql-PLATFORM.zip for your platform, _or<br>_ the generic codeql.zip which contain<br>s binaries for all supported platforms<br>. Please ignore the additional "source<br> code" downloads below the .zip artifa<br>cts.    This release is compatible wit<br>h the CodeQL language packs from .  |
 |2023-08-11 08:37:01|[ThunderSearch](https://github.com/xzajyjs/ThunderSearch)|v2.4.1|- 增加Shodan搜索  - 优化搜索结果获取<br>方式  - 优化报错提示    ---    - Suppor<br>t Shodan search  - Optimize the way to<br> obtain search results  - Optimize Fof<br>a error prompt    ---    > MD5 (Thunde<br>rSearch.dmg) = 0d623d16d397a513a1fe27c<br>4defc6801  > MD5 (ThunderSearch_win.zi<br>p) = c7403131fc556b2a00651e9e85afb289 <br> > Mac版密码: Hi!j3@/J  |
 |2023-08-10 22:02:47|[clair](https://github.com/quay/clair)|v4.7.1| ## : bump github.com/pyroscope-io/go<br>deltaprof ### Chore - : bump claircore<br> to v1.5.15 - : bump claircore to v1.5<br>.14  [Unreleased]: https://github.com/<br>quay/clair/compare/v4.7.1...HEAD [v4.7<br>.1]: https://github.com/quay/clair/com<br>pare/v4.7.0...v4.7.1 |
@@ -25,29 +28,32 @@
 |2023-08-03 17:36:40|[impacket](https://github.com/fortra/impacket)|impacke<br>t_0_11_0|## Impacket 0.11.0:  Project's main p<br>age at https://www.coresecurity.com/co<br>re-labs/open-source-tools/impacket    <br>ChangeLog for 0.11.0:  1. Library impr<br>ovements       * Added new Kerberos er<br>ror codes (@ly4k).   * Added , ,  and <br>:        * Added dc-host option to con<br>nect to specific KDC using its FQDN or<br> NetBIOS name (@rmaksimov and @0xdeadd<br>ood).      *         * Printing TGT in<br> stdout despite -outputfile parameter <br>(@alexisbalbachan and @Zamanry)       <br> * Fixed output hash format for AES128<br>/256 (etype 17/18) (@erasmusc)      * <br>:        * Added LDAP paged search (@T<br>hePirateWhoSmellsOfSunflowers and @SAE<br>RXCIT).        * Added a -stealth flag<br> to remove the SPN filter from the LDA<br>P query (@clavoillotte).        * Impr<br>oved searchFilter (@ShutdownRepo)     <br>   * Use LDAP paged search (@ThePirate<br>WhoSmellsOfSunflowers)      * :       <br> * Added support for name customizatio<br>n using a custom binary file (@Dramela<br>c).      * :        * Security fixes f<br>or privilege escalation vulnerabilitie<br>s (@bugch3ck).        * Fixed python3 <br>compatibility issues, added workaround<br> TCP over NetBIOS being disabled (@ljr<br>k0)      * :        * Added a new opti<br>on to extract only NTDS.DIT data for s<br>pecific users based on an LDAP filter <br>(@snovvcrash).        * Security fixes<br> for privilege escalation vulnerabilit<br>ies (@bugch3ck).        * :        * A<br>dded multiple new commands. Now suppor<br>ts xp_dirtree execution (@Mayfly277, @<br>trietend and @TurtleARM).      * :    <br>    * Added ability to trigger SQLShel<br>l when running ntlmrelayx in interacti<br>ve mode (@sploutchy).        * Added f<br>ilter option to the socks command in n<br>tlmrelayx CLI (@shoxxdj)        * Adde<br>d ability to register DNS records thro<br>ugh LDAP.      * , :        * Allow we<br>ak TLS ciphers for LDAP connections (@<br>AdrianVollmer)      * :        * Bette<br>r handling of various XML files in Gro<br>up Policy Preferences (@p0dalirius)   <br>   * :        * Added recursive file l<br>isting (@Sq00ky)      * :        * Tic<br>ket duration is now specified in hours<br> instead of days (@Dramelac)        * <br>Added extra-pac implementation (@Drame<br>lac)    3. New examples      *  Implem<br>entation of windows net.exe builtin to<br>ol (@NtAlexio2)      *  New example th<br>at allows password changing or resetin<br>g through multiple protocols (@Alef-Bu<br>rzmali, @snovvcrash, @bransh, @api0cra<br>dle and @p0dalirius)      *  New examp<br>le that dumps remote host information <br>in ntlm authentication model, without <br>credentials. For SMB protocols v1, v2 <br>and v3. (@NtAlexio2)        As always,<br> thanks a lot to all these contributor<br>s that make this library better every <br>day (up to now):    @ly4k @nopernik @s<br>novvcrash @ShutdownRepo @kiwids0220 @m<br>pgn @CT-H00K @rmaksimov @arossert @aev<br>y-syn @tirkarthi @p0dalirius @Dramelac<br> @Mayfly277 @S3cur3Th1sSh1t @nobbd @Ad<br>rianVollmer @trietend @TurtleARM @TheP<br>irateWhoSmellsOfSunflowers @SAERXCIT @<br>clavoillotte @Marshall-Hallenbeck @spl<br>outchy @almandin @rtpt-alexanderneuman<br>n @JerAxxxxxxx @NtAlexio2 @laxa @godyl<br>ockz @exploide @jojonas @Zamanry @eras<br>musc @bugch3ck @ljrk0 @Sq00ky @shoxxdj<br> @Alef-Burzmali @bransh @api0cradle @a<br>lexisbalbachan @0xdeaddood @sanmopre  |
 |2023-08-03 14:11:45|[nemo_go](https://github.com/hanc00l/nemo_go)|v2.10.0|### Updated    - 增加runtimelog数据库<br>表，worker的runtime日志通过RPC调用上传<br>并保存，在web增加日志查看和管理功能（需<br>要SuperAdmin权限），从v2.9升级需导入run<br>timelog.sql；  - 新增worker按任务功能<br>分别运行的模式（见安装手册）；  - 增加<br>根据工作空间对Worker进行自定义任务的实<br>现；  - 导出IP与Domain资产功能；  - 对F<br>ofa、quake及hunter的API增加查询限额； <br> - subfinder对子域名去除泛解析；  - wi<br>ndows平台的massdns使用和子域名爆破功能<br>（感谢github.com/penson233/TailorFinder<br>编译好二进制文件）  - server增加HTTPS功<br>能（启动命令-tls，详细见安装手册），为R<br>PC及filesync启用TLS加密功能(-tls)，默<br>认自动生成和使用自签名证书  - 升级beego<br>至v2.1.1，rpcx到1.8.11    ### Fix    - <br>quake查询API参数服务器调整导致无法正确<br>搜索结果；Fofa默认分页数与实际不一致导<br>致的重复调用API；  - subfinder v2.6.0异<br>常退出bug  - 导入离线扫描的gogo和fscan <br> - 域名一键拉黑的时候删除不彻底  -  XS<br>can任务的XOrganization直接调用数据库查<br>询IP和Domain资产的Bug    ### Thirdparty<br>版本    - Httpx：1.3.4  - Subfinder：2.<br>6.1  - Nuclei：2.9.10  - Observe_ward<br>：2023.8.3|
 |2023-08-03 05:06:15|[ObserverWard](https://github.com/0x727/ObserverWard)|v2023.8<br>.3|## [2023.8.3] - 2023.8.3  ### Fixes  <br>- 添加字段：extracted-results|
-|2023-08-02 17:29:39|[v2rayA](https://github.com/v2rayA/v2rayA)|v2.1.0|## What's Changed    - 支持 Reality  <br>- 支持 TLS Flow  - 支持 uTLS Fingerpri<br>nt  - 新增波兰语  - 其他一些更新    * <br>Allow using flow option with TLS. by @<br>Gh0u1L5 in https://github.com/v2rayA/v<br>2rayA/pull/917  * Add more flow and fi<br>x sni by @farhadjafari385 in https://g<br>ithub.com/v2rayA/v2rayA/pull/930  * Fi<br>x Windows build workflow by @MarksonHo<br>n in https://github.com/v2rayA/v2rayA/<br>pull/941  * refactor: web gui by nuxt <br>by @kecrily in https://github.com/v2ra<br>yA/v2rayA/pull/787  * Added pt-br.js f<br>ile for brazilian portuguese language <br>by @talesam in https://github.com/v2ra<br>yA/v2rayA/pull/990  * Persian Language<br> Added by @DanielBlackBeard in https:/<br>/github.com/v2rayA/v2rayA/pull/785  * <br>chore: upgrade buefy to eliminate sass<br> deprecated syntax warnings by @kecril<br>y in https://github.com/v2rayA/v2rayA/<br>pull/777  * Merge xray support from CI<br>-He-O/v2rayA by @mzz2017 in https://gi<br>thub.com/v2rayA/v2rayA/pull/1004    ##<br> New Contributors  * @Gh0u1L5 made the<br>ir first contribution in https://githu<br>b.com/v2rayA/v2rayA/pull/917  * @farha<br>djafari385 made their first contributi<br>on in https://github.com/v2rayA/v2rayA<br>/pull/930  * @talesam made their first<br> contribution in https://github.com/v2<br>rayA/v2rayA/pull/990  * @DanielBlackBe<br>ard made their first contribution in h<br>ttps://github.com/v2rayA/v2rayA/pull/7<br>85    **Full Changelog**: https://gith<br>ub.com/v2rayA/v2rayA/compare/v2.0.5...<br>v2.1.0|
 |2023-08-02 17:00:47|[RedisEXP](https://github.com/yuyan-sec/RedisEXP)|0.0.3|修复服务器开启端口问题|
 |2023-08-02 13:39:17|[flightsim](https://github.com/alphasoc/flightsim)|v2.5.0|## Network Flight Simulator v2.5.0 (2<br>023-07-31)    This release add a new c<br>leartext module, which generates rando<br>m cleartext traffic on some common por<br>ts.    ## Enjoy!    |
 |2023-08-02 09:05:19|[arthas](https://github.com/alibaba/arthas)|arthas-<br>all-3.7.<br>0|Issues:  https://github.com/alibaba/a<br>rthas/milestone/48?closed=1    * https<br>://github.com/alibaba/arthas/issues/25<br>72  tunnel-server detail-pages 页面支<br>持自定义 port  * https://github.com/ali<br>baba/arthas/issues/2603 tunnel server <br>里的 SimpleHttpResponse 序列化增加白名<br>单|
-|2023-08-02 09:03:57|[Viper](https://github.com/FunnyWolf/Viper)|v1.6.2|  ### 优化  - 优化Session Timeout默认<br>值,断线可自动切换传输协议  - reverse_ht<br>tp监听不再返回404页面,直接关闭连接  - <br>优化网络拓扑,根据载荷类型确认方向并动态<br>显示当前存活的连接  - 合并metasploit-fr<br>amework 6.3.28版本  ### Bugfix  - Sock<br>s5代理在存在连接时无法正确关闭问题|
 |2023-07-31 17:42:33|[syft](https://github.com/anchore/syft)|v0.86.1|# Changelog    ##  (2023-07-31)      <br>  ### Bug Fixes    - Source requires d<br>efault image name as user input for un<br>parsable reference ] ]       |
 |2023-07-31 01:44:05|[AsamF](https://github.com/Kento-Sec/AsamF)|v0.2.5|Fofa无法查询的问题来源于他们平台移除<br>了lastupdatetime的字段，感谢提交issue的<br>朋友  该版本移除lastupdatetime字段|
-|2023-07-28 16:47:41|[nuclei](https://github.com/projectdiscovery/nuclei)|v2.9.10|    ## What's Changed  ### 🎉 New Fea<br>tures  * Added markdown export sorting<br> options via env variable by @kchason <br>in https://github.com/projectdiscovery<br>/nuclei/pull/3961  console  export MAR<br>KDOWN_EXPORT_SORT_MODE=template # defa<br>ult  export MARKDOWN_EXPORT_SORT_MODE=<br>severity  export MARKDOWN_EXPORT_SORT_<br>MODE=host    * Added headless options <br>input by @dogancanbakir in https://git<br>hub.com/projectdiscovery/nuclei/pull/3<br>951  console     -ho, -headless-option<br>s string by @ehsandeep in https://gith<br>ub.com/projectdiscovery/nuclei/pull/39<br>68    Issues closed in this release - <br>https://github.com/projectdiscovery/nu<br>clei/milestone/37?closed=1    **Full C<br>hangelog**: https://github.com/project<br>discovery/nuclei/compare/v2.9.9...v2.9<br>.10|
-|2023-07-28 05:17:15|[fupo_for_yonyou](https://github.com/novysodope/fupo_for_yonyou)|2.0RC1|建议如果出现跟 #7 一样的问题再用这个<br>版本 |
 ## 近15天commit提交记录
 | 提交时间 | 项目名称 | 更新内容 |
 | :---- | :---- | :---- |
-|2023-08-12 00:00:02|[free](https://github.com/freefq/free)|updated_at 08-12 08:00|
-|2023-08-11 21:50:54|[PocOrExp_in_Githu<br>b](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-08-12 05:50:54|
+|2023-08-13 00:26:43|[PocOrExp_in_Githu<br>b](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-08-13 08:26:43|
+|2023-08-13 00:19:13|[wappalyzergo](https://github.com/projectdiscovery/wappalyzergo)|Weekly fingerprints update [Sun Aug 13 00:19:13 UTC<br> 2023] :robot:|
+|2023-08-13 00:12:13|[v2rayA](https://github.com/v2rayA/v2rayA)|remove useless homebrew.yml|
+|2023-08-13 00:00:03|[free](https://github.com/freefq/free)|updated_at 08-13 08:00|
+|2023-08-12 18:10:07|[subfinder](https://github.com/projectdiscovery/subfinder)|version update|
+|2023-08-12 13:24:08|[FreeRDP](https://github.com/FreeRDP/FreeRDP)|TestThreadExitThread: fix messages and wait timeout<br> for the windows CI  Looks like for the windows x86_<br>86 CI host 100ms is too small for a thread to termin<br>ate so let's wait for longer and decrease the number<br> of loops.|
+|2023-08-12 12:33:48|[ThunderSearch](https://github.com/xzajyjs/ThunderSearch)|fix fofa bug|
+|2023-08-12 12:31:43|[v2rayfree](https://github.com/aiboboxx/v2rayfree)|update|
+|2023-08-12 08:48:53|[PeiQi-WIKI-Book](https://github.com/PeiQi0/PeiQi-WIKI-Book)|漏洞相关:腾讯,大华等:tada:|
+|2023-08-12 07:40:51|[rustdesk](https://github.com/rustdesk/rustdesk)|Merge pull request #5363 from sahilyeole/master  Ad<br>d more tooltips|
+|2023-08-12 06:22:00|[Viper](https://github.com/FunnyWolf/Viper)|Merge remote-tracking branch 'origin/master'|
+|2023-08-12 05:15:05|[mitaka](https://github.com/ninoseki/mitaka)|Merge pull request #748 from ninoseki/update-ioc-ex<br>tractor  chore: update ioc-extractor|
+|2023-08-12 03:47:28|[nemo_go](https://github.com/hanc00l/nemo_go)|Update: 优化web测试在线资产api代码限制只测试100条记<br>录|
 |2023-08-11 16:53:23|[dalfox](https://github.com/hahwul/dalfox)|Merge pull request #486 from hahwul/dependabot/go_m<br>odules/github.com/chromedp/chromedp-0.9.2  Bump gith<br>ub.com/chromedp/chromedp from 0.9.1 to 0.9.2|
-|2023-08-11 14:19:10|[rustdesk](https://github.com/rustdesk/rustdesk)|Merge pull request #5353 from dignow/refact/remove_<br>login_device_info_in_sciter  refactor, remove login <br>device info in sciter|
 |2023-08-11 14:02:41|[MockingBird](https://github.com/babysor/MockingBird)|Merge pull request #947 from FawenYo/doc/update_lin<br>k  📝 Update model download link|
-|2023-08-11 12:34:14|[v2rayfree](https://github.com/aiboboxx/v2rayfree)|update|
 |2023-08-11 12:32:26|[arthas](https://github.com/alibaba/arthas)|fix classloader command (#2601)|
-|2023-08-11 12:09:03|[ThunderSearch](https://github.com/xzajyjs/ThunderSearch)|fix fofa bug|
 |2023-08-11 12:06:58|[dbeaver](https://github.com/dbeaver/dbeaver)|Do not create empty property by default|
 |2023-08-11 11:10:22|[codeql-cli-binari<br>es](https://github.com/github/codeql-cli-binaries)|Update changelog for 2.14.2|
-|2023-08-11 10:21:43|[PeiQi-WIKI-Book](https://github.com/PeiQi0/PeiQi-WIKI-Book)|漏洞相关:广联达,1Panel等|
 |2023-08-11 09:19:12|[safeline](https://github.com/chaitin/safeline)|feat: use the dns to enable threat info|
 |2023-08-11 08:11:58|[dperf](https://github.com/baidu/dperf)|Merge pull request #357 from pengjianzhang/main  fi<br>x: http_host or http_path can only be configured whe<br>n http is enabled|
 |2023-08-11 04:21:17|[RmTools](https://github.com/RoomaSec/RmTools)|Merge branch 'main' of https://github.com/RoomaSec/<br>RmTools|
@@ -61,7 +67,6 @@
 |2023-08-09 17:25:05|[clair](https://github.com/quay/clair)|build(deps): bump github.com/pyroscope-io/godeltapr<br>of  Bumps  from 0.1.1 to 0.1.2. -   --- updated-depe<br>ndencies: - dependency-name: github.com/pyroscope-io<br>/godeltaprof   dependency-type: direct:production   <br>update-type: version-update:semver-patch ...  Signed<br>-off-by: dependabot[bot] |
 |2023-08-09 15:45:31|[DecoyMini](https://github.com/decoymini/DecoyMini)|Update README.md|
 |2023-08-09 07:09:32|[Scanners-Box](https://github.com/We5ter/Scanners-Box)|[+]MrEmpy/Mantra|
-|2023-08-09 01:33:36|[Viper](https://github.com/FunnyWolf/Viper)|Update issue templates|
 |2023-08-08 23:32:03|[WebGoat](https://github.com/WebGoat/WebGoat)|fix: WebWolf JWT jquery webjar|
 |2023-08-08 21:48:35|[BloodHound](https://github.com/BloodHoundAD/BloodHound)|Update index.rst|
 |2023-08-08 21:09:10|[ChatGPT-Shortcut](https://github.com/rockbenben/ChatGPT-Shortcut)|perf: Replace Google authentication API|
@@ -73,11 +78,9 @@
 |2023-08-08 07:10:46|[fupo_for_yonyou](https://github.com/novysodope/fupo_for_yonyou)|Update main.go|
 |2023-08-08 05:41:42|[PEASS-ng](https://github.com/carlospolop/PEASS-ng)|Merge pull request #382 from RandolphConley/master <br> Feature add, bug fix|
 |2023-08-08 03:43:04|[ARL](https://github.com/TophantTechnology/ARL)|Create 问题反馈.md|
-|2023-08-08 01:28:50|[v2rayA](https://github.com/v2rayA/v2rayA)|fix: Farsi language standard flag. (#1011)|
 |2023-08-07 19:36:46|[malwoverview](https://github.com/alexandreborges/malwoverview)|Malwoverview|
 |2023-08-07 18:30:01|[faker](https://github.com/joke2k/faker)|Bump version: 19.2.0 → 19.3.0|
 |2023-08-07 10:11:12|[veinmind-tools](https://github.com/chaitin/veinmind-tools)|docs: 修复readme描述 (#264)|
-|2023-08-07 07:29:39|[nemo_go](https://github.com/hanc00l/nemo_go)|Update: Domain列表增加端口的显示和快速链接|
 |2023-08-07 03:52:52|[Sec-Tools](https://github.com/jwt1399/Sec-Tools)|Update README.md|
 |2023-08-07 03:47:19|[404StarLink](https://github.com/knownsec/404StarLink)|weekly update at 2023-08-07|
 |2023-08-06 17:37:36|[Ladon](https://github.com/k8gege/Ladon)|Add files via upload|
@@ -85,10 +88,8 @@
 |2023-08-06 14:55:15|[awesome-chatgpt-z<br>h](https://github.com/yzfly/awesome-chatgpt-zh)|add MeatGPT, jupyter-ai|
 |2023-08-06 10:52:25|[iDefender](https://github.com/wecooperate/iDefender)|update|
 |2023-08-06 04:13:27|[captcha-killer-mo<br>dified](https://github.com/f0ng/captcha-killer-modified)|Update FAQ.md|
-|2023-08-06 00:20:36|[wappalyzergo](https://github.com/projectdiscovery/wappalyzergo)|Weekly fingerprints update [Sun Aug  6 00:20:36 UTC<br> 2023] :robot:|
 |2023-08-05 10:41:22|[goproxy](https://github.com/snail007/goproxy)|update|
 |2023-08-05 09:14:45|[sqlmap](https://github.com/sqlmapproject/sqlmap)|Fixes #5477|
-|2023-08-05 06:43:00|[FreeRDP](https://github.com/FreeRDP/FreeRDP)|[nightly,deb] fix libwebkit2gtk-4.0 name|
 |2023-08-04 14:50:11|[superSearchPlus](https://github.com/dark-kingA/superSearchPlus)|Update README.md|
 |2023-08-04 13:50:07|[BurpSuite-collect<br>ions](https://github.com/Mr-xn/BurpSuite-collections)|Update README.md|
 |2023-08-04 06:20:58|[kscan](https://github.com/lcvvvv/kscan)|Merge pull request #149 from ruishawn/dev  fix: the<br> judgment condition is always true in function recvP<br>rotocolVe…|
@@ -115,10 +116,7 @@
 |2023-07-30 15:43:00|[Venom-Transponder](https://github.com/z-bool/Venom-Transponder)|finish|
 |2023-07-30 15:18:14|[0day](https://github.com/helloexp/0day)|update Metabase CVE-2023-38646 RCE add logging func|
 |2023-07-30 13:34:04|[ENScan_GO](https://github.com/wgpsec/ENScan_GO)|Merge pull request #71 from ruishawn/master  fix: <br>修复日志输出format格式不对的问题|
-|2023-07-30 02:22:35|[SmsForwarder](https://github.com/pppscn/SmsForwarder)|新增：webParams 的 [receive_time] 标签支持自定义时<br>间格式 #327|
-|2023-07-28 16:13:09|[nuclei](https://github.com/projectdiscovery/nuclei)|version update|
-|2023-07-28 09:12:45|[kube-bench](https://github.com/aquasecurity/kube-bench)|build(deps): bump golang from 1.20.4 to 1.20.6 (#14<br>75)  Bumps golang from 1.20.4 to 1.20.6.    ---  upd<br>ated-dependencies:  - dependency-name: golang    dep<br>endency-type: direct:production    update-type: vers<br>ion-update:semver-patch  ...    Signed-off-by: depen<br>dabot[bot]   Co-authored-by: dependabot[bot] |
-|2023-07-28 07:09:56|[ShiroAttack2](https://github.com/SummerSec/ShiroAttack2)|Create LICENSE|## 所有项目
+|2023-07-30 02:22:35|[SmsForwarder](https://github.com/pppscn/SmsForwarder)|新增：webParams 的 [receive_time] 标签支持自定义时<br>间格式 #327|## 所有项目
 # 渗透测试
 ## 信息收集
 ### 资产测绘采集
@@ -135,7 +133,7 @@
 ### 子域名收集
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
-| [subfinder](https://github.com/projectdiscovery/subfinder) | v2.6.1 | Fast passive subdomain enumeration tool. |
+| [subfinder](https://github.com/projectdiscovery/subfinder) | v2.6.2 | Fast passive subdomain enumeration tool. |
 | [ksubdomain](https://github.com/knownsec/ksubdomain) | v0.7 | 无状态子域名爆破工具 |
 | [OneForAll](https://github.com/shmilylty/OneForAll) | v0.4.5 | OneForAll是一款功能强大的子域收集工具 |
 | [LangSrcCurise](https://github.com/LangziFun/LangSrcCurise) |  | SRC子域名资产监控 |
@@ -828,7 +826,7 @@
 ### 漏洞利用
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
-| [Viper](https://github.com/FunnyWolf/Viper) | v1.6.2 | Redteam operation  platform with webui 图形化红队行动辅助平台 |
+| [Viper](https://github.com/FunnyWolf/Viper) | prod | Redteam operation  platform with webui 图形化红队行动辅助平台 |
 ### 横向工具
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
@@ -1286,7 +1284,7 @@
 | :---- | :---- | :---- |
 | [FreeRDP](https://github.com/FreeRDP/FreeRDP) | 2.10.0 | FreeRDP is a free remote desktop protocol library and clients |
 | [Quasar](https://github.com/quasar/Quasar) | v1.4.1 | Remote Administration Tool for Windows |
-| [rustdesk](https://github.com/rustdesk/rustdesk) | 1.2.1 | An open-source alternative to TeamViewer. |
+| [rustdesk](https://github.com/rustdesk/rustdesk) | 1.2.1 | An open-source remote desktop, and alternative to TeamViewer. |
 ## 生成虚假数据
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
@@ -1328,7 +1326,7 @@
 ## 科学上网
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
-| [v2rayA](https://github.com/v2rayA/v2rayA) | v2.1.0 | A web GUI client of Project V which supports V2Ray, Xray, SS, <br>SSR, Trojan and Pingtunnel 🚀 |
+| [v2rayA](https://github.com/v2rayA/v2rayA) | v2.1.3 | A web GUI client of Project V which supports V2Ray, Xray, SS, <br>SSR, Trojan and Pingtunnel 🚀 |
 | [free](https://github.com/freefq/free) |  | 翻墙、免费翻墙、免费科学上网、免费节点、免费梯子、免费ss/v2ray<br>/trojan节点、蓝灯、谷歌商店、翻墙梯子 |
 | [v2rayfree](https://github.com/aiboboxx/v2rayfree) |  | v2ray公益免费节点、最新2ray免费v节点订阅地址、v2ray免费节点每<br>日更新、免费ss/v2ray/trojan节点、freefq  |
 ## python笔记
