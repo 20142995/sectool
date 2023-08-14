@@ -1,8 +1,12 @@
-# 更新于 2023-08-13 08:35:34
+# 更新于 2023-08-14 08:35:21
 
 ## 近15天release更新记录
 | 更新时间 | 项目名称 | 版本 | 更新内容 |
 | :---- | :---- | :---- | :---- |
+|2023-08-13 12:28:31|[Apt_t00ls](https://github.com/White-hua/Apt_t00ls)|v0.7|泛微e-mobile-sql注入rce  综合安防文件<br>上传RCE * 2  用友nc jsInovke-RCE  大华<br>文件上传RCE  畅捷通反序列化RCE  深信服<br>应用交付系统RCE|
+|2023-08-13 07:51:34|[Exp-Tools](https://github.com/cseroad/Exp-Tools)|v1.2.1|- 新增用友反序列化-3  - 新增泛微ecolo<br>gy WorkflowServiceXml命令执行  - 新增<br>用友U8 cloud文件上传  - 新增用友NC 文件<br>上传  - 新增帆软报表文件读取-bypass  - <br>新增帆软报表未授权命令执行  - 新增用友<br>移动管理平台文件上传  - 优化部分代码|
+|2023-08-13 04:29:02|[PEASS-ng](https://github.com/carlospolop/PEASS-ng)|2023081<br>3-dc8384<br>b3||
+|2023-08-13 00:53:11|[Dirscan](https://github.com/corunb/Dirscan)|v.1.5.2|v1.5.2-修复递归扫描已知bug|
 |2023-08-12 18:17:48|[subfinder](https://github.com/projectdiscovery/subfinder)|v2.6.2|    ## What's Changed  ### 🎉 New Fea<br>tures    * Added  as new source by @ta<br>runKoyalwar in https://github.com/proj<br>ectdiscovery/subfinder/pull/912  conso<br>le  subfinder -d hackerone.com -s face<br>book    * Added rate limit per source <br>support by @dogancanbakir in https://g<br>ithub.com/projectdiscovery/subfinder/p<br>ull/891  console  subfinder -d hackero<br>ne.com -rls "crtsh=10/s,shodan=1/s"   <br>   ###  🐞 Bug Fixes  * Fixed issue wi<br>th censys source by using v2 api by @d<br>ogancanbakir in https://github.com/pro<br>jectdiscovery/subfinder/pull/929      <br>**Full Changelog**: https://github.com<br>/projectdiscovery/subfinder/compare/v2<br>.6.1...v2.6.2|
 |2023-08-12 17:23:55|[v2rayA](https://github.com/v2rayA/v2rayA)|v2.1.3|**Compared to v2.1.2, this release fi<br>xes supervisor panic and creating Juic<br>ity node in pannel problem**    ## 更<br>新内容  * 支持 。    ## What's Changed <br> * fix: Farsi language standard flag. <br>by @neilbowman666 in https://github.co<br>m/v2rayA/v2rayA/pull/1011  * feat(prot<br>ocol): support  in https://github.com/<br>v2rayA/v2rayA/commit/0e4803cc98926e56a<br>a55ee8f65a8db0ee23a6040    ## New Cont<br>ributors  * @neilbowman666 made their <br>first contribution in https://github.c<br>om/v2rayA/v2rayA/pull/1011    **Full C<br>hangelog**: https://github.com/v2rayA/<br>v2rayA/compare/v2.1.0...v2.1.3|
 |2023-08-12 06:23:28|[Viper](https://github.com/FunnyWolf/Viper)|prod|### 优化  - 调整vipermsf及viperpython<br>日志级别及格式,便于定位问题  - 关闭vipe<br>rmsf的cpulimit  - 新增vipermsf心跳异常<br>提示  - 更新沙箱IP列表,参考项目: https:<br>//github.com/0x727/CloudSandbox  - 优<br>化网络拓扑动态效果  - 合并metasploit-fr<br>amework 6.3.30版本  ### Bugfix  - Fix <br>https://github.com/FunnyWolf/Viper/iss<br>ues/150 session下载文件时会偶发性的下<br>载了1m中断  - Fix https://github.com/Fu<br>nnyWolf/Viper/issues/145 thin的pid文件<br>未清除导致重启msf后台服务无法启动|
@@ -14,7 +18,6 @@
 |2023-08-10 05:41:12|[trivy](https://github.com/aquasecurity/trivy)|v0.44.1|## Changelog * f10527998 fix(report):<br> return severity colors in table forma<br>t (#4969) * bc2b0ca6c build: maximize <br>available disk space for release (#493<br>7) * 9493c6f08 test(cli): Fix assertio<br>n helptext (#4966) * b0359de66 chore(d<br>eps): Bump defsec to v0.91.1 (#4965) *<br> d3a34e409 test: validate CycloneDX wi<br>th the JSON schema (#4956) * 798ef1b64<br> fix(server): add licenses to the Resu<br>lt message (#4955) * e8cf28147 fix(aws<br>): resolve endpoint if endpoint is pas<br>sed (#4925) * f18b0db58 fix(sbom): mov<br>e licenses to name field in Cyclonedx <br>format (#4941) * a79670156 add only un<br>iq deps in dependsOn (#4943) * b544e0d<br>ea use testify instead of gotest.tools<br> (#4946) * 067a0fcb9 fix(nodejs): do n<br>ot detect lock file in node_modules as<br> an app (#4949) * e6d7705a5 bump go-de<br>p-parser (#4936) * c584dc176 chore(dep<br>s): bump github.com/openvex/go-vex fro<br>m 0.2.0 to 0.2.1 (#4914) * 358d56b6b c<br>hore(deps): bump helm/kind-action from<br> 1.7.0 to 1.8.0 (#4909) * 17f3ea918 ch<br>ore(deps): bump github.com/Azure/azure<br>-sdk-for-go/sdk/azcore (#4912) * 39ccb<br>f7b5 test(aws): move part of unit test<br>s to integration (#4884) * 6d3ae3bcf d<br>ocs(cli): update help string for file <br>and dir skipping (#4872) * 7d7a1ef54 c<br>hore(deps): bump sigstore/cosign-insta<br>ller (#4910) * fc7495017 chore(deps): <br>bump github.com/sosedoff/gitkit from 0<br>.3.0 to 0.4.0 (#4916) * b2a68bc06 chor<br>e(deps): bump k8s.io/api from 0.27.3 t<br>o 0.27.4 (#4918) * e5c0c15b6 chore(dep<br>s): bump github.com/secure-systems-lab<br>/go-securesystemslib (#4919) * da37803<br>d5 chore(deps): bump github.com/aws/aw<br>s-sdk-go-v2/service/sts (#4913) * 9744<br>e6498 chore(deps): bump github.com/mag<br>efile/mage from 1.14.0 to 1.15.0 (#491<br>5) * 99eebc670 docs: update the discus<br>sion template (#4928)  |
 |2023-08-09 13:53:39|[afrog](https://github.com/zan8in/afrog)|v2.7.8|**Add:**  - Version 2.7.8 introduced <br>the Eye.sh backlink configuration opti<br>on. For more detailed information, ple<br>ase refer to the afrog wiki.    - In o<br>rder to mitigate the impact of a large<br> number of requests on the reverse-lin<br>k platform and enhance the accuracy of<br> POC validation, an independent concur<br>rent rate control is implemented for P<br>OCs that require support from the reve<br>rse-link platform.(The "smart" paramet<br>er does not affect the concurrency of <br>reverse-link POCs)      **新增：**  - <br>2.7.8 版本引入了 Eye.sh 反链配置项，有<br>关详细信息，请参阅 afrog wiki。  最终效<br>果示例可参考 afrog-config.yaml，如需添<br>加 "eye" 相关内容，请在删除 afrog-confi<br>g.yaml 后重新启动 afrog，系统将自动生<br>成新的 afrog-config.yaml。  **示例：** <br>   reverse:    ceye:      api-key: "bb<br>a3368******630b8fca0"      domain: "**<br>***.ceye.io"    jndi:      jndi_addres<br>s: "x.x.x.x"      ldap_port: "1389"   <br>   api_port: "34567"    eye:      toke<br>n: "1f****4d"      domain: "****.eyes.<br>sh"    - 为了减少大量请求对反链平台造<br>成的影响，并提高POC验证的准确性，对需要<br>反链平台支持的POC进行独立的并发速率控制<br>。("smart" 参数不会影响反向链 POC 的并<br>发数量)    - -reverse-rate-limit/-rrl  <br>和 -reverse-concurrency/-rc 这两个参数<br>用于调控反链平台支持的 PoC 并发速率，建<br>议不要设置得过高。    **修复：**  - eof<br>fice-v9-file-upload 严重误报问题  - CV<br>E-2023-38646、CVE-2021-36260|
 |2023-08-08 15:05:58|[Ingram](https://github.com/jorhelp/Ingram)|v2.0.0|nothing|
-|2023-08-08 06:02:26|[PEASS-ng](https://github.com/carlospolop/PEASS-ng)|2023080<br>8-5e84de<br>c0||
 |2023-08-07 19:40:37|[malwoverview](https://github.com/alexandreborges/malwoverview)|v5.4.1|Malwoverview 5.4.1|
 |2023-08-07 18:30:38|[faker](https://github.com/joke2k/faker)|v19.3.0|See .|
 |2023-08-06 17:40:56|[Ladon](https://github.com/k8gege/Ladon)|v11.4|Ladon 11.4 20230801  [+]LadonGUI   反<br>弹Shell生成器 新增JAVA反序列化漏洞 JNDI<br>\ldap\rmi反弹Shell  [+]LadonGUI   反弹<br>Shell生成器 新增OpenSSL、Curl、Telnet<br>、Ruby、Lua、Ncat、socat反弹Shell  [+]L<br>adonGUI   反弹Shell生成器 添加全路径Ld<br>on反弹shell、Jndi注入Windows反弹shell <br> [+]web    渗透专用Web服务器 Ldap nc  <br>支持多系统反弹shell  [+]web    渗透专用<br>Web服务器 Rmi nc 支持多系统反弹shell  <br>[+]web    渗透专用Web服务器 Ldap ver <br>探测系统版本、java版本、当前用户、目录 <br> [+]web    渗透专用Web服务器 Rmi ver <br>探测系统版本、java版本、当前用户、目录 <br> [u]OnlinePC   修复noping扫描崩溃的Bug<br>      Ladon 11.3 2023.7.20  [u]web    <br>渗透专用Web服务器 支持无后缀文件下载 如<br>busybox、nc等任意文件  [+]web    渗透<br>专用Web服务器 请求nc、exp、exploit、she<br>ll.class 记录IP到exp.txt  [+]LadonGui <br>  Netcat、NC反弹Shell 支持回显速度设置<br>  [+]IisInfo   增加IIS网站信息一键获取<br>  [u]LadonExp   执行whoami  System或Ro<br>ot权限 回显高亮  [u]LadonExp   测试EXP<br>时 勾选Save保存执行命令结果  [u]PostShe<br>ll  执行whoami  System或Root权限 回显<br>高亮  [u]PostShell  修复部分CFM WebShel<br>l结果回显乱码的问题  [+]AddAdmin   API<br>添加管理员(无视系统net、net1禁用)  [+]A<br>ddUser   API添加用户(无视系统net、net1<br>.exe禁用)  [+]DelUser   API删除用户(无<br>视系统net、net1.exe禁用)  [+]web    渗<br>透专用Web服务器 新增内网外网IP识别  [+]<br>web    渗透专用Web服务器 新增外网IP国<br>家城市  [u]CS插件   CobaltStrike插件Lad<br>on支持mssqlcmd  [u]Web    渗透专用Web<br>服务器 JNDI注入Ldap、Rmi漏洞IP保存到isv<br>ul_ldap.txt和isvul_rmi.txt  [u]Web    <br>结果保护 isvul.txt isvul_ldap.txt isvul<br>_rmi.txt 不管存不存在 访问都提示404  [<br>u]ClsLog   新增清除C:\Users\当前用户\A<br>ppData\Local\Temp 目录垃圾    ========<br>======================================<br>===========================  Ladon 11.<br>2 2023.7.11  [+]McpPotato  .NET>=4.0 W<br>in11/2022提权至System  其它系统自测  [<br>u]GUI    加强版NC、Netcat监听客户端 连<br>接速度优化 回显响应更快  [u]Web    迷你<br>Web服务器渗透保存的isvul.txt结果只保留<br>IP(方便去重)  [u]80天更新   超过编译日<br>期80天，会提示文件损坏 请下最新版Ladon <br>   2023.7.5  修复一些bug    Ladon 11.1<br> 2023.6.28  [u]白名单启动 C:\Windows\M<br>icrosoft.NET\Framework\v4.0.30319\rega<br>sm.exe /U Ladon.exe whoami  [u]修复t=5<br>0线程 或结尾http 有些模块报错的Bug 如L<br>adon noping 192.168.1.0/B XXXX t=50 ht<br>tp  [u]web   修复PowerShell DownLoadFi<br>le下载不了Bug  [u]web   修复非根目录文<br>件，下载或访问不到的Bug  [u]LadonGUI  <br>安装有.net 4.8时，默认加载Ladon911  如c<br>mddll只有911有 无4.8用不了  [+]exe2hex<br>  EXE转HEX，CMD命令写入文件  [+]exe2b6<br>4  EXE转Base64，CMD命令写入文件  [u]cm<br>ddll  仅保留911本地使用，无需在目标生<br>成，减小体积 1K也是肉  [+]ZimbraVer Zim<br>bra版本探测  [+]SharpGPO     .NET>=4.0<br> 否则报错  35可编译 但执行报错  |
@@ -36,19 +39,25 @@
 ## 近15天commit提交记录
 | 提交时间 | 项目名称 | 更新内容 |
 | :---- | :---- | :---- |
-|2023-08-13 00:26:43|[PocOrExp_in_Githu<br>b](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-08-13 08:26:43|
+|2023-08-14 00:32:11|[PocOrExp_in_Githu<br>b](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-08-14 08:32:10|
+|2023-08-14 00:00:02|[free](https://github.com/freefq/free)|updated_at 08-14 08:00|
+|2023-08-13 14:57:33|[afrog](https://github.com/zan8in/afrog)|update|
+|2023-08-13 13:28:54|[rustdesk](https://github.com/rustdesk/rustdesk)|Merge pull request #5376 from Mr-Update/master-1  M<br>issing translation for tooltips in #5363 added|
+|2023-08-13 12:33:36|[Apt_t00ls](https://github.com/White-hua/Apt_t00ls)|Update README.md|
+|2023-08-13 12:31:56|[v2rayfree](https://github.com/aiboboxx/v2rayfree)|update|
+|2023-08-13 08:37:07|[PeiQi-WIKI-Book](https://github.com/PeiQi0/PeiQi-WIKI-Book)|漏洞相关:KubePi,Metabase|
+|2023-08-13 07:52:14|[Exp-Tools](https://github.com/cseroad/Exp-Tools)|Update README.md|
+|2023-08-13 07:40:08|[trivy](https://github.com/aquasecurity/trivy)|docs: adding blog post on ec2 (#4813)  * adding blo<br>g post on ec2  Signed-off-by: AnaisUrlichs   * updat<br>e title of section  Signed-off-by: AnaisUrlichs   * <br>changing the location of the article to be under Vul<br>nerabilities  ---------  Signed-off-by: AnaisUrlichs<br> |
+|2023-08-13 06:05:18|[all-in-one-v2](https://github.com/zaivanza/all-in-one-v2)|add tg_send error to 0x|
+|2023-08-13 05:17:36|[nemo_go](https://github.com/hanc00l/nemo_go)|Update: 重构离线扫描结果资产导入，去除naabu和TXPort<br>map|
+|2023-08-13 00:50:23|[Dirscan](https://github.com/corunb/Dirscan)|v1.5.2-修复递归扫描已知bug|
 |2023-08-13 00:19:13|[wappalyzergo](https://github.com/projectdiscovery/wappalyzergo)|Weekly fingerprints update [Sun Aug 13 00:19:13 UTC<br> 2023] :robot:|
 |2023-08-13 00:12:13|[v2rayA](https://github.com/v2rayA/v2rayA)|remove useless homebrew.yml|
-|2023-08-13 00:00:03|[free](https://github.com/freefq/free)|updated_at 08-13 08:00|
 |2023-08-12 18:10:07|[subfinder](https://github.com/projectdiscovery/subfinder)|version update|
 |2023-08-12 13:24:08|[FreeRDP](https://github.com/FreeRDP/FreeRDP)|TestThreadExitThread: fix messages and wait timeout<br> for the windows CI  Looks like for the windows x86_<br>86 CI host 100ms is too small for a thread to termin<br>ate so let's wait for longer and decrease the number<br> of loops.|
 |2023-08-12 12:33:48|[ThunderSearch](https://github.com/xzajyjs/ThunderSearch)|fix fofa bug|
-|2023-08-12 12:31:43|[v2rayfree](https://github.com/aiboboxx/v2rayfree)|update|
-|2023-08-12 08:48:53|[PeiQi-WIKI-Book](https://github.com/PeiQi0/PeiQi-WIKI-Book)|漏洞相关:腾讯,大华等:tada:|
-|2023-08-12 07:40:51|[rustdesk](https://github.com/rustdesk/rustdesk)|Merge pull request #5363 from sahilyeole/master  Ad<br>d more tooltips|
 |2023-08-12 06:22:00|[Viper](https://github.com/FunnyWolf/Viper)|Merge remote-tracking branch 'origin/master'|
 |2023-08-12 05:15:05|[mitaka](https://github.com/ninoseki/mitaka)|Merge pull request #748 from ninoseki/update-ioc-ex<br>tractor  chore: update ioc-extractor|
-|2023-08-12 03:47:28|[nemo_go](https://github.com/hanc00l/nemo_go)|Update: 优化web测试在线资产api代码限制只测试100条记<br>录|
 |2023-08-11 16:53:23|[dalfox](https://github.com/hahwul/dalfox)|Merge pull request #486 from hahwul/dependabot/go_m<br>odules/github.com/chromedp/chromedp-0.9.2  Bump gith<br>ub.com/chromedp/chromedp from 0.9.1 to 0.9.2|
 |2023-08-11 14:02:41|[MockingBird](https://github.com/babysor/MockingBird)|Merge pull request #947 from FawenYo/doc/update_lin<br>k  📝 Update model download link|
 |2023-08-11 12:32:26|[arthas](https://github.com/alibaba/arthas)|fix classloader command (#2601)|
@@ -58,9 +67,7 @@
 |2023-08-11 08:11:58|[dperf](https://github.com/baidu/dperf)|Merge pull request #357 from pengjianzhang/main  fi<br>x: http_host or http_path can only be configured whe<br>n http is enabled|
 |2023-08-11 04:21:17|[RmTools](https://github.com/RoomaSec/RmTools)|Merge branch 'main' of https://github.com/RoomaSec/<br>RmTools|
 |2023-08-10 17:20:09|[syft](https://github.com/anchore/syft)|chore(deps): update bootstrap tools to latest versi<br>ons (#2012)  Signed-off-by: GitHub   Co-authored-by:<br> spiffcs |
-|2023-08-10 12:36:06|[afrog](https://github.com/zan8in/afrog)|update|
 |2023-08-10 08:33:16|[OA-EXPTOOL](https://github.com/LittleBear4/OA-EXPTOOL)|Add files via upload|
-|2023-08-10 08:21:41|[trivy](https://github.com/aquasecurity/trivy)|chore(deps): bump github.com/xlab/treeprint from 1.<br>1.0 to 1.2.0 (#4917)  Bumps  from 1.1.0 to 1.2.0. - <br> -   --- updated-dependencies: - dependency-name: gi<br>thub.com/xlab/treeprint   dependency-type: direct:pr<br>oduction   update-type: version-update:semver-minor <br>...  Signed-off-by: dependabot[bot]  Co-authored-by:<br> dependabot[bot] |
 |2023-08-10 08:16:12|[Mobile-Security-F<br>ramework-MobSF](https://github.com/MobSF/Mobile-Security-Framework-MobSF)|[HOTFIX] Regex + Rule Update (#2232)  * IOS Swift R<br>ules updates    *  Updated or added rules ios_biomet<br>ric_bool, ios_biometric_acl, ios_keychain_weak_acl_d<br>evice_passcode, ios_keychain_weak_accessibility_valu<br>e, ios_insecure_random_no_generator, ios_biometry_ha<br>rdened   * Regex Hardening: Fixes possible Regex DoS<br> in rules and MobSF code base|
 |2023-08-10 03:17:55|[vulnerability](https://github.com/lal0ne/vulnerability)|CVE-2020-1472|
 |2023-08-10 00:10:11|[neuvector](https://github.com/neuvector/neuvector)|Merge pull request #945 from becitsthere/dev  NVSHA<br>S-7379: exit container if proc keep restarting|
@@ -93,7 +100,6 @@
 |2023-08-04 14:50:11|[superSearchPlus](https://github.com/dark-kingA/superSearchPlus)|Update README.md|
 |2023-08-04 13:50:07|[BurpSuite-collect<br>ions](https://github.com/Mr-xn/BurpSuite-collections)|Update README.md|
 |2023-08-04 06:20:58|[kscan](https://github.com/lcvvvv/kscan)|Merge pull request #149 from ruishawn/dev  fix: the<br> judgment condition is always true in function recvP<br>rotocolVe…|
-|2023-08-04 03:51:24|[all-in-one-v2](https://github.com/zaivanza/all-in-one-v2)|removed sleeping between wallets if tx is falied|
 |2023-08-04 02:54:16|[Log4j2Scan](https://github.com/whwlsfb/Log4j2Scan)|Update compile.yml|
 |2023-08-04 02:53:50|[BurpCrypto](https://github.com/whwlsfb/BurpCrypto)|Update compile.yml|
 |2023-08-03 22:30:16|[NucleiTP](https://github.com/ExpLangcn/NucleiTP)|更新啦❤️|
@@ -160,7 +166,7 @@
 | [URLFinder](https://github.com/pingc0y/URLFinder) | 2023.5.<br>11 | 一款快速、全面、易用的页面信息提取工具，可快速发现和提取页面中<br>的JS、URL和敏感信息。 |
 | [JSFinder](https://github.com/Threezh1/JSFinder) |  | JSFinder is a tool for quickly extracting URLs and subdomains <br>from JS files on a website. |
 | [BBScan](https://github.com/lijiejie/BBScan) | v1.5 | A fast vulnerability scanner |
-| [Dirscan](https://github.com/corunb/Dirscan) | v1.5.1 | Dirscan是一款由go编写的高性能、高并发的目录扫描器，现在已经支<br>持GET、HEAD、递归扫描、代理、爬虫等功能功能,后续努力实现更多功能<br>。 |
+| [Dirscan](https://github.com/corunb/Dirscan) | v.1.5.2 | Dirscan是一款由go编写的高性能、高并发的目录扫描器，现在已经支<br>持GET、HEAD、递归扫描、代理、爬虫等功能功能,后续努力实现更多功能<br>。 |
 ### 指纹识别
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
@@ -403,7 +409,7 @@
 | [JNDIExploit](https://github.com/WhiteHSBG/JNDIExploit) | v1.4 | 对原版https://github.com/feihong-cs/JNDIExploit 进行了实用化修<br>改 |
 | [JNDIExploit-1](https://github.com/Mr-xn/JNDIExploit-1) | v1.2 | 一款用于 JNDI注入 利用的工具，大量参考/引用了 Rogue JNDI 项目<br>的代码，支持直接植入内存shell，并集成了常见的bypass 高版本JDK的<br>方式，适用于与自动化工具配合使用。（from https://github.com/feih<br>ong-cs/JNDIExploit） |
 | [JNDIExploit](https://github.com/0x727/JNDIExploit) | 1.1 | 一款用于JNDI注入利用的工具，大量参考/引用了Rogue JNDI项目的代<br>码，支持直接植入内存shell，并集成了常见的bypass 高版本JDK的方式<br>，适用于与自动化工具配合使用。 |
-| [Exp-Tools](https://github.com/cseroad/Exp-Tools) | v1.2.0 | 一款集成各种exp的实用性工具 |
+| [Exp-Tools](https://github.com/cseroad/Exp-Tools) | v1.2.1 | 一款集成各种exp的实用性工具 |
 ### 重点CMS利用
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
@@ -415,7 +421,7 @@
 | [wordpress-exploit<br>-framework](https://github.com/rastating/wordpress-exploit-framework) | v2.0.1 | A Ruby framework designed to aid in the penetration testing of<br> WordPress systems.  |
 | [wpscan](https://github.com/wpscanteam/wpscan) | v3.8.24 | WPScan WordPress security scanner. Written for security profes<br>sionals and blog maintainers to test the security of their Word<br>Press websites. Contact us via contact@wpscan.com |
 | [wprecon](https://github.com/AngraTeam/wprecon) |  |  |
-| [Apt_t00ls](https://github.com/White-hua/Apt_t00ls) | v0.6 | 高危漏洞利用工具 |
+| [Apt_t00ls](https://github.com/White-hua/Apt_t00ls) | v0.7 | 高危漏洞利用工具 |
 | [QVD-2023-13065](https://github.com/qi4L/QVD-2023-13065) |  | Nacos JRaft Hessian 反序列化 RCE EXP |
 | [hikvision_CVE-201<br>7-7921_auth_bypass<br>_config_decryptor](https://github.com/chrisjd20/hikvision_CVE-2017-7921_auth_bypass_config_decryptor) |  | This python file will decrypt the configurationFile used by hi<br>kvision cameras vulnerable to CVE-2017-7921. |
 | [CVE-2023-33246](https://github.com/SuperZero/CVE-2023-33246) |  | Apache RocketMQ 远程代码执行漏洞(CVE-2023-33246) Exploit |
@@ -746,7 +752,7 @@
 | [dirtycow](https://github.com/firefart/dirtycow) |  | Dirty Cow exploit - CVE-2016-5195 |
 | [traitor](https://github.com/liamg/traitor) | v0.0.14 | :arrow_up: :skull_and_crossbones: :fire: Automatic Linux prive<br>sc via exploitation of low-hanging fruit e.g. gtfobins, pwnkit,<br> dirty pipe, +w docker.sock |
 | [LinEnum](https://github.com/rebootuser/LinEnum) |  | Scripted Local Linux Enumeration & Privilege Escalation Checks |
-| [PEASS-ng](https://github.com/carlospolop/PEASS-ng) | 2023080<br>8-5e84de<br>c0 | PEASS - Privilege Escalation Awesome Scripts SUITE (with color<br>s) |
+| [PEASS-ng](https://github.com/carlospolop/PEASS-ng) | 2023081<br>3-dc8384<br>b3 | PEASS - Privilege Escalation Awesome Scripts SUITE (with color<br>s) |
 | | | https://i.hacking8.com/tiquan/ |
 ### 综合
 | 项目名称 | 版本 | 项目描述 |
@@ -1326,7 +1332,7 @@
 ## 科学上网
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
-| [v2rayA](https://github.com/v2rayA/v2rayA) | v2.1.3 | A web GUI client of Project V which supports V2Ray, Xray, SS, <br>SSR, Trojan and Pingtunnel 🚀 |
+| [v2rayA](https://github.com/v2rayA/v2rayA) | v2.1.3 | A web GUI client of Project V which supports V2Ray, Xray, SS, <br>SSR, Trojan and Juicity. 🚀🚀 |
 | [free](https://github.com/freefq/free) |  | 翻墙、免费翻墙、免费科学上网、免费节点、免费梯子、免费ss/v2ray<br>/trojan节点、蓝灯、谷歌商店、翻墙梯子 |
 | [v2rayfree](https://github.com/aiboboxx/v2rayfree) |  | v2ray公益免费节点、最新2ray免费v节点订阅地址、v2ray免费节点每<br>日更新、免费ss/v2ray/trojan节点、freefq  |
 ## python笔记
