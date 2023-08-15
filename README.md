@@ -1,8 +1,12 @@
-# 更新于 2023-08-14 08:35:21
+# 更新于 2023-08-15 08:32:49
 
 ## 近15天release更新记录
 | 更新时间 | 项目名称 | 版本 | 更新内容 |
 | :---- | :---- | :---- | :---- |
+|2023-08-14 18:05:24|[syft](https://github.com/anchore/syft)|v0.87.0|#   ##  (2023-08-14)    ### Added Fea<br>tures  - feat: use originator logic to<br> fill supplier ] ] - Expand deb catalo<br>ger to include opkg ] ] - Package dupl<br>icated by different cataloger ] ] ] - <br>Add binary cataloger for Nginx built f<br>rom source ] ] ]  ### Bug Fixes  - cho<br>re: update bubbly to fix hanging ] ] -<br> fix: update glob to use newer usr/lib<br>/sysimage path ] ] - fix: SPDX license<br> values and download location ] ] - Di<br>fferent CPEs between java-cataloger an<br>d java-gradle-lockfile-cataloger ] ] ]<br>    |
+|2023-08-14 08:25:54|[ThunderSearch](https://github.com/xzajyjs/ThunderSearch)|v2.5|- 增加Hunter搜索    - 增加版本更新检<br>测    - 适当调整界面布局      ---    - <br>Support Hunter search  - Add version u<br>pdate detection  - Appropriately adjus<br>t the interface layout    ---    > MD5<br> (ThunderSearch.dmg) = cbcc8247dd6f445<br>de5db5f6b5e35b795  > MD5 (ThunderSearc<br>h_win.zip) = 0c1eed85000788ccbbaba7523<br>d491035  > Mac版密码: Hi!j3@/J  |
+|2023-08-14 06:24:28|[ObserverWard](https://github.com/0x727/ObserverWard)|v2023.8<br>.14|## [2023.8.14] - 2023.8.14  ### Fixes<br>  - 修复获取html编码charset属性时存在<br>双引号导致gb2312解码乱码 - 修复favicon<br>响应错误没有保存命中到缓存，导致多次请<br>求同一个url，浪费请求资源|
+|2023-08-14 04:10:03|[frp](https://github.com/fatedier/frp)|v0.51.3|### Features  * Support Go 1.21.  |
 |2023-08-13 12:28:31|[Apt_t00ls](https://github.com/White-hua/Apt_t00ls)|v0.7|泛微e-mobile-sql注入rce  综合安防文件<br>上传RCE * 2  用友nc jsInovke-RCE  大华<br>文件上传RCE  畅捷通反序列化RCE  深信服<br>应用交付系统RCE|
 |2023-08-13 07:51:34|[Exp-Tools](https://github.com/cseroad/Exp-Tools)|v1.2.1|- 新增用友反序列化-3  - 新增泛微ecolo<br>gy WorkflowServiceXml命令执行  - 新增<br>用友U8 cloud文件上传  - 新增用友NC 文件<br>上传  - 新增帆软报表文件读取-bypass  - <br>新增帆软报表未授权命令执行  - 新增用友<br>移动管理平台文件上传  - 优化部分代码|
 |2023-08-13 04:29:02|[PEASS-ng](https://github.com/carlospolop/PEASS-ng)|2023081<br>3-dc8384<br>b3||
@@ -11,7 +15,6 @@
 |2023-08-12 17:23:55|[v2rayA](https://github.com/v2rayA/v2rayA)|v2.1.3|**Compared to v2.1.2, this release fi<br>xes supervisor panic and creating Juic<br>ity node in pannel problem**    ## 更<br>新内容  * 支持 。    ## What's Changed <br> * fix: Farsi language standard flag. <br>by @neilbowman666 in https://github.co<br>m/v2rayA/v2rayA/pull/1011  * feat(prot<br>ocol): support  in https://github.com/<br>v2rayA/v2rayA/commit/0e4803cc98926e56a<br>a55ee8f65a8db0ee23a6040    ## New Cont<br>ributors  * @neilbowman666 made their <br>first contribution in https://github.c<br>om/v2rayA/v2rayA/pull/1011    **Full C<br>hangelog**: https://github.com/v2rayA/<br>v2rayA/compare/v2.1.0...v2.1.3|
 |2023-08-12 06:23:28|[Viper](https://github.com/FunnyWolf/Viper)|prod|### 优化  - 调整vipermsf及viperpython<br>日志级别及格式,便于定位问题  - 关闭vipe<br>rmsf的cpulimit  - 新增vipermsf心跳异常<br>提示  - 更新沙箱IP列表,参考项目: https:<br>//github.com/0x727/CloudSandbox  - 优<br>化网络拓扑动态效果  - 合并metasploit-fr<br>amework 6.3.30版本  ### Bugfix  - Fix <br>https://github.com/FunnyWolf/Viper/iss<br>ues/150 session下载文件时会偶发性的下<br>载了1m中断  - Fix https://github.com/Fu<br>nnyWolf/Viper/issues/145 thin的pid文件<br>未清除导致重启msf后台服务无法启动|
 |2023-08-11 11:12:07|[codeql-cli-binari<br>es](https://github.com/github/codeql-cli-binaries)|v2.14.2|### Breaking changes    - The functio<br>nality provided by the codeql execute <br>query-server subcommand has been remov<br>ed. The subcommand now responds to all<br> JSON RPC requests with an error respo<br>nse. Correspondingly, this release is <br>no longer compatible with versions of <br>the CodeQL extension for Visual Studio<br> Code prior to 1.7.6.      This change<br> also breaks third-party CodeQL IDE in<br>tegrations that still rely on the code<br>ql execute query-server subcommand. Ma<br>intainers of such CodeQL IDE integrati<br>ons should migrate to the codeql execu<br>te query-server2 subcommand at the ear<br>liest opportunity.    ### Improvements<br>    - Switched from prefix filtering o<br>f autocomplete suggestions in the lang<br>uage server to client-side filtering. <br>This improves autocomplete suggestions<br> in contexts with an autocompletion pr<br>efix.    - The CodeQL language server <br>now checks query metadata for errors. <br>This allows Visual Studio Code users t<br>o see errors in their query metadata w<br>ithout needing to compile the query.  <br>  ### Bugs fixed    - Fixed bug that m<br>ade the --warnings=hide option do noth<br>ing in codeql database analyze and oth<br>er commands that _evaluate_ queries.  <br>  For more information about the chang<br>es included in this release, see the .<br>    You can download _either_ the code<br>ql-PLATFORM.zip for your platform, _or<br>_ the generic codeql.zip which contain<br>s binaries for all supported platforms<br>. Please ignore the additional "source<br> code" downloads below the .zip artifa<br>cts.    This release is compatible wit<br>h the CodeQL language packs from .  |
-|2023-08-11 08:37:01|[ThunderSearch](https://github.com/xzajyjs/ThunderSearch)|v2.4.1|- 增加Shodan搜索  - 优化搜索结果获取<br>方式  - 优化报错提示    ---    - Suppor<br>t Shodan search  - Optimize the way to<br> obtain search results  - Optimize Fof<br>a error prompt    ---    > MD5 (Thunde<br>rSearch.dmg) = 0d623d16d397a513a1fe27c<br>4defc6801  > MD5 (ThunderSearch_win.zi<br>p) = c7403131fc556b2a00651e9e85afb289 <br> > Mac版密码: Hi!j3@/J  |
 |2023-08-10 22:02:47|[clair](https://github.com/quay/clair)|v4.7.1| ## : bump github.com/pyroscope-io/go<br>deltaprof ### Chore - : bump claircore<br> to v1.5.15 - : bump claircore to v1.5<br>.14  [Unreleased]: https://github.com/<br>quay/clair/compare/v4.7.1...HEAD [v4.7<br>.1]: https://github.com/quay/clair/com<br>pare/v4.7.0...v4.7.1 |
 |2023-08-10 12:34:39|[Elkeid](https://github.com/bytedance/Elkeid)|v1.7.0.<br>13-drive<br>r-ko-202<br>30810||
 |2023-08-10 09:06:39|[safeline](https://github.com/chaitin/safeline)|v2.6.0|### 新增    - 新增高频攻击封禁，即多<br>次攻击后自动封禁 IP ()  - 频率限制日志<br>显示封禁 IP 的地理位置 ()    ### 优化  <br>  - 攻击检测的原始日志支持搜索端口 () <br> - 修复编辑站点后，“维护模式” 会失效<br>的问题  - 修改默认占用的网段，避免跟腾<br>讯云默认网段冲突 ()  - 优化安装脚本 ()<br>，优化界面一些 UI 交互、错误提示|
@@ -30,48 +33,54 @@
 |2023-08-04 02:54:50|[Log4j2Scan](https://github.com/whwlsfb/Log4j2Scan)|dev-202<br>30804T02<br>5448||
 |2023-08-03 17:36:40|[impacket](https://github.com/fortra/impacket)|impacke<br>t_0_11_0|## Impacket 0.11.0:  Project's main p<br>age at https://www.coresecurity.com/co<br>re-labs/open-source-tools/impacket    <br>ChangeLog for 0.11.0:  1. Library impr<br>ovements       * Added new Kerberos er<br>ror codes (@ly4k).   * Added , ,  and <br>:        * Added dc-host option to con<br>nect to specific KDC using its FQDN or<br> NetBIOS name (@rmaksimov and @0xdeadd<br>ood).      *         * Printing TGT in<br> stdout despite -outputfile parameter <br>(@alexisbalbachan and @Zamanry)       <br> * Fixed output hash format for AES128<br>/256 (etype 17/18) (@erasmusc)      * <br>:        * Added LDAP paged search (@T<br>hePirateWhoSmellsOfSunflowers and @SAE<br>RXCIT).        * Added a -stealth flag<br> to remove the SPN filter from the LDA<br>P query (@clavoillotte).        * Impr<br>oved searchFilter (@ShutdownRepo)     <br>   * Use LDAP paged search (@ThePirate<br>WhoSmellsOfSunflowers)      * :       <br> * Added support for name customizatio<br>n using a custom binary file (@Dramela<br>c).      * :        * Security fixes f<br>or privilege escalation vulnerabilitie<br>s (@bugch3ck).        * Fixed python3 <br>compatibility issues, added workaround<br> TCP over NetBIOS being disabled (@ljr<br>k0)      * :        * Added a new opti<br>on to extract only NTDS.DIT data for s<br>pecific users based on an LDAP filter <br>(@snovvcrash).        * Security fixes<br> for privilege escalation vulnerabilit<br>ies (@bugch3ck).        * :        * A<br>dded multiple new commands. Now suppor<br>ts xp_dirtree execution (@Mayfly277, @<br>trietend and @TurtleARM).      * :    <br>    * Added ability to trigger SQLShel<br>l when running ntlmrelayx in interacti<br>ve mode (@sploutchy).        * Added f<br>ilter option to the socks command in n<br>tlmrelayx CLI (@shoxxdj)        * Adde<br>d ability to register DNS records thro<br>ugh LDAP.      * , :        * Allow we<br>ak TLS ciphers for LDAP connections (@<br>AdrianVollmer)      * :        * Bette<br>r handling of various XML files in Gro<br>up Policy Preferences (@p0dalirius)   <br>   * :        * Added recursive file l<br>isting (@Sq00ky)      * :        * Tic<br>ket duration is now specified in hours<br> instead of days (@Dramelac)        * <br>Added extra-pac implementation (@Drame<br>lac)    3. New examples      *  Implem<br>entation of windows net.exe builtin to<br>ol (@NtAlexio2)      *  New example th<br>at allows password changing or resetin<br>g through multiple protocols (@Alef-Bu<br>rzmali, @snovvcrash, @bransh, @api0cra<br>dle and @p0dalirius)      *  New examp<br>le that dumps remote host information <br>in ntlm authentication model, without <br>credentials. For SMB protocols v1, v2 <br>and v3. (@NtAlexio2)        As always,<br> thanks a lot to all these contributor<br>s that make this library better every <br>day (up to now):    @ly4k @nopernik @s<br>novvcrash @ShutdownRepo @kiwids0220 @m<br>pgn @CT-H00K @rmaksimov @arossert @aev<br>y-syn @tirkarthi @p0dalirius @Dramelac<br> @Mayfly277 @S3cur3Th1sSh1t @nobbd @Ad<br>rianVollmer @trietend @TurtleARM @TheP<br>irateWhoSmellsOfSunflowers @SAERXCIT @<br>clavoillotte @Marshall-Hallenbeck @spl<br>outchy @almandin @rtpt-alexanderneuman<br>n @JerAxxxxxxx @NtAlexio2 @laxa @godyl<br>ockz @exploide @jojonas @Zamanry @eras<br>musc @bugch3ck @ljrk0 @Sq00ky @shoxxdj<br> @Alef-Burzmali @bransh @api0cradle @a<br>lexisbalbachan @0xdeaddood @sanmopre  |
 |2023-08-03 14:11:45|[nemo_go](https://github.com/hanc00l/nemo_go)|v2.10.0|### Updated    - 增加runtimelog数据库<br>表，worker的runtime日志通过RPC调用上传<br>并保存，在web增加日志查看和管理功能（需<br>要SuperAdmin权限），从v2.9升级需导入run<br>timelog.sql；  - 新增worker按任务功能<br>分别运行的模式（见安装手册）；  - 增加<br>根据工作空间对Worker进行自定义任务的实<br>现；  - 导出IP与Domain资产功能；  - 对F<br>ofa、quake及hunter的API增加查询限额； <br> - subfinder对子域名去除泛解析；  - wi<br>ndows平台的massdns使用和子域名爆破功能<br>（感谢github.com/penson233/TailorFinder<br>编译好二进制文件）  - server增加HTTPS功<br>能（启动命令-tls，详细见安装手册），为R<br>PC及filesync启用TLS加密功能(-tls)，默<br>认自动生成和使用自签名证书  - 升级beego<br>至v2.1.1，rpcx到1.8.11    ### Fix    - <br>quake查询API参数服务器调整导致无法正确<br>搜索结果；Fofa默认分页数与实际不一致导<br>致的重复调用API；  - subfinder v2.6.0异<br>常退出bug  - 导入离线扫描的gogo和fscan <br> - 域名一键拉黑的时候删除不彻底  -  XS<br>can任务的XOrganization直接调用数据库查<br>询IP和Domain资产的Bug    ### Thirdparty<br>版本    - Httpx：1.3.4  - Subfinder：2.<br>6.1  - Nuclei：2.9.10  - Observe_ward<br>：2023.8.3|
-|2023-08-03 05:06:15|[ObserverWard](https://github.com/0x727/ObserverWard)|v2023.8<br>.3|## [2023.8.3] - 2023.8.3  ### Fixes  <br>- 添加字段：extracted-results|
 |2023-08-02 17:00:47|[RedisEXP](https://github.com/yuyan-sec/RedisEXP)|0.0.3|修复服务器开启端口问题|
 |2023-08-02 13:39:17|[flightsim](https://github.com/alphasoc/flightsim)|v2.5.0|## Network Flight Simulator v2.5.0 (2<br>023-07-31)    This release add a new c<br>leartext module, which generates rando<br>m cleartext traffic on some common por<br>ts.    ## Enjoy!    |
 |2023-08-02 09:05:19|[arthas](https://github.com/alibaba/arthas)|arthas-<br>all-3.7.<br>0|Issues:  https://github.com/alibaba/a<br>rthas/milestone/48?closed=1    * https<br>://github.com/alibaba/arthas/issues/25<br>72  tunnel-server detail-pages 页面支<br>持自定义 port  * https://github.com/ali<br>baba/arthas/issues/2603 tunnel server <br>里的 SimpleHttpResponse 序列化增加白名<br>单|
-|2023-07-31 17:42:33|[syft](https://github.com/anchore/syft)|v0.86.1|# Changelog    ##  (2023-07-31)      <br>  ### Bug Fixes    - Source requires d<br>efault image name as user input for un<br>parsable reference ] ]       |
 |2023-07-31 01:44:05|[AsamF](https://github.com/Kento-Sec/AsamF)|v0.2.5|Fofa无法查询的问题来源于他们平台移除<br>了lastupdatetime的字段，感谢提交issue的<br>朋友  该版本移除lastupdatetime字段|
 ## 近15天commit提交记录
 | 提交时间 | 项目名称 | 更新内容 |
 | :---- | :---- | :---- |
-|2023-08-14 00:32:11|[PocOrExp_in_Githu<br>b](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-08-14 08:32:10|
-|2023-08-14 00:00:02|[free](https://github.com/freefq/free)|updated_at 08-14 08:00|
+|2023-08-15 00:10:15|[Mobile-Security-F<br>ramework-MobSF](https://github.com/MobSF/Mobile-Security-Framework-MobSF)|HOTFIX: Improve code string extraction|
+|2023-08-15 00:00:02|[free](https://github.com/freefq/free)|updated_at 08-15 08:00|
+|2023-08-14 20:40:11|[clair](https://github.com/quay/clair)|chore: bump claircore to v1.5.16  Update claircore <br>dep to latest tag.  Signed-off-by: crozzy |
+|2023-08-14 20:28:07|[syft](https://github.com/anchore/syft)|chore: restore cataloger.DefaultConfig (#2028)  Sig<br>ned-off-by: Keith Zantow |
+|2023-08-14 20:07:01|[PocOrExp_in_Githu<br>b](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-08-15 04:07:01|
+|2023-08-14 19:33:43|[Quasar](https://github.com/quasar/Quasar)|Add link to Getting Started guide to README|
+|2023-08-14 19:15:44|[dbeaver](https://github.com/dbeaver/dbeaver)|CB-3382 default grouping check fix (#20847)  Co-aut<br>hored-by: EvgeniaBzzz |
+|2023-08-14 14:33:28|[zksync](https://github.com/nftscripts/zksync)|Update requirements.txt|
+|2023-08-14 12:55:26|[rustdesk](https://github.com/rustdesk/rustdesk)|Merge pull request #5377 from dignow/fix/handle_pee<br>r_info_cached  Fix, check if is cached peer info whe<br>n handle_peer_info|
+|2023-08-14 12:35:09|[v2rayfree](https://github.com/aiboboxx/v2rayfree)|update|
+|2023-08-14 09:19:15|[dismap](https://github.com/zhzyker/dismap)|Update readme.md|
+|2023-08-14 09:19:08|[arthas](https://github.com/alibaba/arthas)|feat: update online tutorials, switch to killercoda<br> (#2604)|
+|2023-08-14 08:36:00|[ThunderSearch](https://github.com/xzajyjs/ThunderSearch)|fix README|
+|2023-08-14 07:58:52|[nemo_go](https://github.com/hanc00l/nemo_go)|Fix: IP和域名详情页http_header字段超长导致显示效果<br>异常|
+|2023-08-14 07:34:09|[PeiQi-WIKI-Book](https://github.com/PeiQi0/PeiQi-WIKI-Book)|漏洞相关:启明星辰,大华|
+|2023-08-14 06:23:39|[ObserverWard](https://github.com/0x727/ObserverWard)|修复编码和重复请求|
+|2023-08-14 04:41:21|[v2rayA](https://github.com/v2rayA/v2rayA)|ci: fix build debian repo|
+|2023-08-14 03:39:13|[404StarLink](https://github.com/knownsec/404StarLink)|weekly update at 2023-08-14|
+|2023-08-14 03:21:50|[FrameVul](https://github.com/Awrrays/FrameVul)|Add files via upload|
+|2023-08-14 03:10:38|[frp](https://github.com/fatedier/frp)|support go1.21 (#3573)|
+|2023-08-14 02:12:29|[malwoverview](https://github.com/alexandreborges/malwoverview)|Malwoverview|
 |2023-08-13 14:57:33|[afrog](https://github.com/zan8in/afrog)|update|
-|2023-08-13 13:28:54|[rustdesk](https://github.com/rustdesk/rustdesk)|Merge pull request #5376 from Mr-Update/master-1  M<br>issing translation for tooltips in #5363 added|
 |2023-08-13 12:33:36|[Apt_t00ls](https://github.com/White-hua/Apt_t00ls)|Update README.md|
-|2023-08-13 12:31:56|[v2rayfree](https://github.com/aiboboxx/v2rayfree)|update|
-|2023-08-13 08:37:07|[PeiQi-WIKI-Book](https://github.com/PeiQi0/PeiQi-WIKI-Book)|漏洞相关:KubePi,Metabase|
 |2023-08-13 07:52:14|[Exp-Tools](https://github.com/cseroad/Exp-Tools)|Update README.md|
 |2023-08-13 07:40:08|[trivy](https://github.com/aquasecurity/trivy)|docs: adding blog post on ec2 (#4813)  * adding blo<br>g post on ec2  Signed-off-by: AnaisUrlichs   * updat<br>e title of section  Signed-off-by: AnaisUrlichs   * <br>changing the location of the article to be under Vul<br>nerabilities  ---------  Signed-off-by: AnaisUrlichs<br> |
 |2023-08-13 06:05:18|[all-in-one-v2](https://github.com/zaivanza/all-in-one-v2)|add tg_send error to 0x|
-|2023-08-13 05:17:36|[nemo_go](https://github.com/hanc00l/nemo_go)|Update: 重构离线扫描结果资产导入，去除naabu和TXPort<br>map|
 |2023-08-13 00:50:23|[Dirscan](https://github.com/corunb/Dirscan)|v1.5.2-修复递归扫描已知bug|
 |2023-08-13 00:19:13|[wappalyzergo](https://github.com/projectdiscovery/wappalyzergo)|Weekly fingerprints update [Sun Aug 13 00:19:13 UTC<br> 2023] :robot:|
-|2023-08-13 00:12:13|[v2rayA](https://github.com/v2rayA/v2rayA)|remove useless homebrew.yml|
 |2023-08-12 18:10:07|[subfinder](https://github.com/projectdiscovery/subfinder)|version update|
 |2023-08-12 13:24:08|[FreeRDP](https://github.com/FreeRDP/FreeRDP)|TestThreadExitThread: fix messages and wait timeout<br> for the windows CI  Looks like for the windows x86_<br>86 CI host 100ms is too small for a thread to termin<br>ate so let's wait for longer and decrease the number<br> of loops.|
-|2023-08-12 12:33:48|[ThunderSearch](https://github.com/xzajyjs/ThunderSearch)|fix fofa bug|
 |2023-08-12 06:22:00|[Viper](https://github.com/FunnyWolf/Viper)|Merge remote-tracking branch 'origin/master'|
 |2023-08-12 05:15:05|[mitaka](https://github.com/ninoseki/mitaka)|Merge pull request #748 from ninoseki/update-ioc-ex<br>tractor  chore: update ioc-extractor|
 |2023-08-11 16:53:23|[dalfox](https://github.com/hahwul/dalfox)|Merge pull request #486 from hahwul/dependabot/go_m<br>odules/github.com/chromedp/chromedp-0.9.2  Bump gith<br>ub.com/chromedp/chromedp from 0.9.1 to 0.9.2|
 |2023-08-11 14:02:41|[MockingBird](https://github.com/babysor/MockingBird)|Merge pull request #947 from FawenYo/doc/update_lin<br>k  📝 Update model download link|
-|2023-08-11 12:32:26|[arthas](https://github.com/alibaba/arthas)|fix classloader command (#2601)|
-|2023-08-11 12:06:58|[dbeaver](https://github.com/dbeaver/dbeaver)|Do not create empty property by default|
 |2023-08-11 11:10:22|[codeql-cli-binari<br>es](https://github.com/github/codeql-cli-binaries)|Update changelog for 2.14.2|
 |2023-08-11 09:19:12|[safeline](https://github.com/chaitin/safeline)|feat: use the dns to enable threat info|
 |2023-08-11 08:11:58|[dperf](https://github.com/baidu/dperf)|Merge pull request #357 from pengjianzhang/main  fi<br>x: http_host or http_path can only be configured whe<br>n http is enabled|
 |2023-08-11 04:21:17|[RmTools](https://github.com/RoomaSec/RmTools)|Merge branch 'main' of https://github.com/RoomaSec/<br>RmTools|
-|2023-08-10 17:20:09|[syft](https://github.com/anchore/syft)|chore(deps): update bootstrap tools to latest versi<br>ons (#2012)  Signed-off-by: GitHub   Co-authored-by:<br> spiffcs |
 |2023-08-10 08:33:16|[OA-EXPTOOL](https://github.com/LittleBear4/OA-EXPTOOL)|Add files via upload|
-|2023-08-10 08:16:12|[Mobile-Security-F<br>ramework-MobSF](https://github.com/MobSF/Mobile-Security-Framework-MobSF)|[HOTFIX] Regex + Rule Update (#2232)  * IOS Swift R<br>ules updates    *  Updated or added rules ios_biomet<br>ric_bool, ios_biometric_acl, ios_keychain_weak_acl_d<br>evice_passcode, ios_keychain_weak_accessibility_valu<br>e, ios_insecure_random_no_generator, ios_biometry_ha<br>rdened   * Regex Hardening: Fixes possible Regex DoS<br> in rules and MobSF code base|
 |2023-08-10 03:17:55|[vulnerability](https://github.com/lal0ne/vulnerability)|CVE-2020-1472|
 |2023-08-10 00:10:11|[neuvector](https://github.com/neuvector/neuvector)|Merge pull request #945 from becitsthere/dev  NVSHA<br>S-7379: exit container if proc keep restarting|
-|2023-08-09 17:25:05|[clair](https://github.com/quay/clair)|build(deps): bump github.com/pyroscope-io/godeltapr<br>of  Bumps  from 0.1.1 to 0.1.2. -   --- updated-depe<br>ndencies: - dependency-name: github.com/pyroscope-io<br>/godeltaprof   dependency-type: direct:production   <br>update-type: version-update:semver-patch ...  Signed<br>-off-by: dependabot[bot] |
 |2023-08-09 15:45:31|[DecoyMini](https://github.com/decoymini/DecoyMini)|Update README.md|
 |2023-08-09 07:09:32|[Scanners-Box](https://github.com/We5ter/Scanners-Box)|[+]MrEmpy/Mantra|
 |2023-08-08 23:32:03|[WebGoat](https://github.com/WebGoat/WebGoat)|fix: WebWolf JWT jquery webjar|
@@ -85,11 +94,9 @@
 |2023-08-08 07:10:46|[fupo_for_yonyou](https://github.com/novysodope/fupo_for_yonyou)|Update main.go|
 |2023-08-08 05:41:42|[PEASS-ng](https://github.com/carlospolop/PEASS-ng)|Merge pull request #382 from RandolphConley/master <br> Feature add, bug fix|
 |2023-08-08 03:43:04|[ARL](https://github.com/TophantTechnology/ARL)|Create 问题反馈.md|
-|2023-08-07 19:36:46|[malwoverview](https://github.com/alexandreborges/malwoverview)|Malwoverview|
 |2023-08-07 18:30:01|[faker](https://github.com/joke2k/faker)|Bump version: 19.2.0 → 19.3.0|
 |2023-08-07 10:11:12|[veinmind-tools](https://github.com/chaitin/veinmind-tools)|docs: 修复readme描述 (#264)|
 |2023-08-07 03:52:52|[Sec-Tools](https://github.com/jwt1399/Sec-Tools)|Update README.md|
-|2023-08-07 03:47:19|[404StarLink](https://github.com/knownsec/404StarLink)|weekly update at 2023-08-07|
 |2023-08-06 17:37:36|[Ladon](https://github.com/k8gege/Ladon)|Add files via upload|
 |2023-08-06 17:33:45|[K8tools](https://github.com/k8gege/K8tools)|Add files via upload|
 |2023-08-06 14:55:15|[awesome-chatgpt-z<br>h](https://github.com/yzfly/awesome-chatgpt-zh)|add MeatGPT, jupyter-ai|
@@ -109,7 +116,6 @@
 |2023-08-03 09:37:48|[Awesome-Redteam](https://github.com/Threekiii/Awesome-Redteam)|更新README.md|
 |2023-08-03 07:17:17|[Vulnerability-Wik<br>i](https://github.com/Threekiii/Vulnerability-Wiki)|更新漏洞|
 |2023-08-03 07:07:36|[Vulhub-Reproduce](https://github.com/Threekiii/Vulhub-Reproduce)|更新漏洞|
-|2023-08-03 05:05:33|[ObserverWard](https://github.com/0x727/ObserverWard)|extracted-results|
 |2023-08-03 04:37:38|[GobypassAV-shellc<br>ode](https://github.com/Pizz33/GobypassAV-shellcode)|Update README.md|
 |2023-08-03 00:54:06|[Awesome-POC](https://github.com/Threekiii/Awesome-POC)|更新漏洞|
 |2023-08-02 18:22:40|[naabu](https://github.com/projectdiscovery/naabu)|Revert "removing uncover"  This reverts commit d587<br>82fbb88e7669171b9d461444f416135e4b7b.|
@@ -118,18 +124,14 @@
 |2023-08-01 07:16:41|[domain_hunter_pro](https://github.com/bit4woo/domain_hunter_pro)|update|
 |2023-08-01 03:02:00|[murphysec](https://github.com/murphysecurity/murphysec)|chore(deps): upgrade dependencies...|
 |2023-07-31 15:27:39|[flightsim](https://github.com/alphasoc/flightsim)|Pick random hosts if returned more than requested|
-|2023-07-31 03:58:14|[wmiexec-Pro](https://github.com/XiaoliChan/wmiexec-Pro)|Declaration|
-|2023-07-30 15:43:00|[Venom-Transponder](https://github.com/z-bool/Venom-Transponder)|finish|
-|2023-07-30 15:18:14|[0day](https://github.com/helloexp/0day)|update Metabase CVE-2023-38646 RCE add logging func|
-|2023-07-30 13:34:04|[ENScan_GO](https://github.com/wgpsec/ENScan_GO)|Merge pull request #71 from ruishawn/master  fix: <br>修复日志输出format格式不对的问题|
-|2023-07-30 02:22:35|[SmsForwarder](https://github.com/pppscn/SmsForwarder)|新增：webParams 的 [receive_time] 标签支持自定义时<br>间格式 #327|## 所有项目
+|2023-07-31 03:58:14|[wmiexec-Pro](https://github.com/XiaoliChan/wmiexec-Pro)|Declaration|## 所有项目
 # 渗透测试
 ## 信息收集
 ### 资产测绘采集
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
 | [InfoSearchAll](https://github.com/ExpLangcn/InfoSearchAll) | V1.2 | 为了方便安全从业人员在使用网络测绘平台进行信息搜集时的效率，本<br>程序集合了多个网络测绘平台，可以快速在多个网络测绘平台搜索信息并<br>且合并展示及导出。 |
-| [ThunderSearch](https://github.com/xzajyjs/ThunderSearch) | v2.4.1 | 【支持Fofa、Shodan、Zoomeye、Quake等网络空间搜索引擎】闪电搜索<br>器；GUI图形化渗透测试信息搜集工具；资产搜集引擎 |
+| [ThunderSearch](https://github.com/xzajyjs/ThunderSearch) | v2.5 | 【支持Fofa、Shodan、Hunter、Zoomeye、Quake网络空间搜索引擎】闪<br>电搜索器；GUI图形化渗透测试信息搜集工具；资产搜集引擎 |
 | [Search_Viewer](https://github.com/G3et/Search_Viewer) | v3.0 | 集Fofa、Hunter鹰图、Shodan、360 quake、Zoomeye 钟馗之眼、censy<br>s 为一体的空间测绘gui图形界面化工具，支持一键采集爬取和导出fofa<br>、shodan等数据，方便快捷查看 |
 | [koko-moni](https://github.com/burpheart/koko-moni) | v0.0.1 | 一个网络空间搜索引擎监控平台，可定时进行资产信息爬取，及时发现<br>新增资产，本项目聚合了 Fofa、Hunter、Quake、Zoomeye 和 Threatboo<br>k 的数据源，并对获取到的数据进行去重与清洗 |
 | [AsamF](https://github.com/Kento-Sec/AsamF) | v0.2.5 | AsamF是集成Fofa、Quake、Hunter、Shodan、Zoomeye、Chinaz、0.zon<br>e及爱企查的一站式企业信息资产收集、网络资产测绘工具。 |
@@ -180,7 +182,7 @@
 | [LazyDog](https://github.com/L10nK1n6/LazyDog) | 1.1 | LazyDog是一款通过网络空间测绘引擎读取资产并进行指纹识别的工具 |
 | [whatweb-plus](https://github.com/winezer0/whatweb-plus) | v0.5.5.<br>19.fix | whatweb 增强版  8000+插件（提供windows可执行文件） |
 | [Find-SomeThing](https://github.com/LittleBear4/Find-SomeThing) |  | 红队批量脆弱点搜集工具 |
-| [ObserverWard](https://github.com/0x727/ObserverWard) | v2023.8<br>.3 | Cross platform community web fingerprint identification tool |
+| [ObserverWard](https://github.com/0x727/ObserverWard) | v2023.8<br>.14 | Cross platform community web fingerprint identification tool |
 ### WAF识别
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
@@ -367,7 +369,7 @@
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
 | [grype](https://github.com/anchore/grype) | v0.65.1 | A vulnerability scanner for container images and filesystems |
-| [syft](https://github.com/anchore/syft) | v0.86.1 | CLI tool and library for generating a Software Bill of Materia<br>ls from container images and filesystems |
+| [syft](https://github.com/anchore/syft) | v0.87.0 | CLI tool and library for generating a Software Bill of Materia<br>ls from container images and filesystems |
 #### K8S漏洞扫描
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
@@ -786,7 +788,7 @@
 | [PortForward](https://github.com/knownsec/PortForward) | 0.5.0 | The port forwarding tool developed by Golang solves the proble<br>m that the internal and external networks cannot communicate in<br> certain scenarios |
 | [rakshasa](https://github.com/Mob2003/rakshasa) | v0.2.3 | 基于go编写的跨平台、稳定、隐秘的多级代理内网穿透工具 |
 | [nps](https://github.com/ehang-io/nps) | v0.26.1<br>0 | 一款轻量级、高性能、功能强大的内网穿透代理服务器。支持tcp、udp<br>、socks5、http等几乎所有流量转发，可用来访问内网网站、本地支付接<br>口调试、ssh访问、远程桌面，内网dns解析、内网socks5代理等等……，<br>并带有功能强大的web管理端。a lightweight, high-performance, powe<br>rful intranet penetration proxy server, with a powerful web man<br>agement terminal. |
-| [frp](https://github.com/fatedier/frp) | v0.51.2 | A fast reverse proxy to help you expose a local server behind <br>a NAT or firewall to the internet. |
+| [frp](https://github.com/fatedier/frp) | v0.51.3 | A fast reverse proxy to help you expose a local server behind <br>a NAT or firewall to the internet. |
 | [Erfrp](https://github.com/Goqi/Erfrp) | v0.1 | Erfrp-frp二开-免杀与隐藏 |
 | [frp_cmd](https://github.com/OrangeWatermelon/frp_cmd) | v0.38.0<br>_modify | frp修改版，增加socks、pf命令，便捷启用socks5代理、端口转发，且<br>去除流量特征，增加loadini命令，支持命令行参数导入base64编码的配<br>置文件 |
 | [dns2tcp](https://github.com/alex-sector/dns2tcp) | v0.5.2 |  |
