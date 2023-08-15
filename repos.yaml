@@ -361,6 +361,7 @@
                 - https://github.com/joaomatosf/jexboss
             vmware:
                 - https://github.com/NS-Sp4ce/Vm4J
+                - https://github.com/Schira4396/VcenterKiller
             log4j:
                 - https://github.com/kozmer/log4j-shell-poc
             Spring Boot:
