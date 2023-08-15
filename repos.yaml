@@ -379,6 +379,8 @@
                 - https://github.com/TideSec/Decrypt_Weblogic_Password
             SmartBI:
                 - https://github.com/yggo/SmartBIAttackTool
+            Hikvision:
+                - https://github.com/baogod404/HikvisionDecode
 
         OA产品漏洞:
             通达OA:
