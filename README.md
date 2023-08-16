@@ -1,4 +1,4 @@
-# 更新于 2023-08-15 08:32:49
+# 更新于 2023-08-16 08:37:15
 
 ## 近15天release更新记录
 | 更新时间 | 项目名称 | 版本 | 更新内容 |
@@ -21,6 +21,7 @@
 |2023-08-10 05:41:12|[trivy](https://github.com/aquasecurity/trivy)|v0.44.1|## Changelog * f10527998 fix(report):<br> return severity colors in table forma<br>t (#4969) * bc2b0ca6c build: maximize <br>available disk space for release (#493<br>7) * 9493c6f08 test(cli): Fix assertio<br>n helptext (#4966) * b0359de66 chore(d<br>eps): Bump defsec to v0.91.1 (#4965) *<br> d3a34e409 test: validate CycloneDX wi<br>th the JSON schema (#4956) * 798ef1b64<br> fix(server): add licenses to the Resu<br>lt message (#4955) * e8cf28147 fix(aws<br>): resolve endpoint if endpoint is pas<br>sed (#4925) * f18b0db58 fix(sbom): mov<br>e licenses to name field in Cyclonedx <br>format (#4941) * a79670156 add only un<br>iq deps in dependsOn (#4943) * b544e0d<br>ea use testify instead of gotest.tools<br> (#4946) * 067a0fcb9 fix(nodejs): do n<br>ot detect lock file in node_modules as<br> an app (#4949) * e6d7705a5 bump go-de<br>p-parser (#4936) * c584dc176 chore(dep<br>s): bump github.com/openvex/go-vex fro<br>m 0.2.0 to 0.2.1 (#4914) * 358d56b6b c<br>hore(deps): bump helm/kind-action from<br> 1.7.0 to 1.8.0 (#4909) * 17f3ea918 ch<br>ore(deps): bump github.com/Azure/azure<br>-sdk-for-go/sdk/azcore (#4912) * 39ccb<br>f7b5 test(aws): move part of unit test<br>s to integration (#4884) * 6d3ae3bcf d<br>ocs(cli): update help string for file <br>and dir skipping (#4872) * 7d7a1ef54 c<br>hore(deps): bump sigstore/cosign-insta<br>ller (#4910) * fc7495017 chore(deps): <br>bump github.com/sosedoff/gitkit from 0<br>.3.0 to 0.4.0 (#4916) * b2a68bc06 chor<br>e(deps): bump k8s.io/api from 0.27.3 t<br>o 0.27.4 (#4918) * e5c0c15b6 chore(dep<br>s): bump github.com/secure-systems-lab<br>/go-securesystemslib (#4919) * da37803<br>d5 chore(deps): bump github.com/aws/aw<br>s-sdk-go-v2/service/sts (#4913) * 9744<br>e6498 chore(deps): bump github.com/mag<br>efile/mage from 1.14.0 to 1.15.0 (#491<br>5) * 99eebc670 docs: update the discus<br>sion template (#4928)  |
 |2023-08-09 13:53:39|[afrog](https://github.com/zan8in/afrog)|v2.7.8|**Add:**  - Version 2.7.8 introduced <br>the Eye.sh backlink configuration opti<br>on. For more detailed information, ple<br>ase refer to the afrog wiki.    - In o<br>rder to mitigate the impact of a large<br> number of requests on the reverse-lin<br>k platform and enhance the accuracy of<br> POC validation, an independent concur<br>rent rate control is implemented for P<br>OCs that require support from the reve<br>rse-link platform.(The "smart" paramet<br>er does not affect the concurrency of <br>reverse-link POCs)      **新增：**  - <br>2.7.8 版本引入了 Eye.sh 反链配置项，有<br>关详细信息，请参阅 afrog wiki。  最终效<br>果示例可参考 afrog-config.yaml，如需添<br>加 "eye" 相关内容，请在删除 afrog-confi<br>g.yaml 后重新启动 afrog，系统将自动生<br>成新的 afrog-config.yaml。  **示例：** <br>   reverse:    ceye:      api-key: "bb<br>a3368******630b8fca0"      domain: "**<br>***.ceye.io"    jndi:      jndi_addres<br>s: "x.x.x.x"      ldap_port: "1389"   <br>   api_port: "34567"    eye:      toke<br>n: "1f****4d"      domain: "****.eyes.<br>sh"    - 为了减少大量请求对反链平台造<br>成的影响，并提高POC验证的准确性，对需要<br>反链平台支持的POC进行独立的并发速率控制<br>。("smart" 参数不会影响反向链 POC 的并<br>发数量)    - -reverse-rate-limit/-rrl  <br>和 -reverse-concurrency/-rc 这两个参数<br>用于调控反链平台支持的 PoC 并发速率，建<br>议不要设置得过高。    **修复：**  - eof<br>fice-v9-file-upload 严重误报问题  - CV<br>E-2023-38646、CVE-2021-36260|
 |2023-08-08 15:05:58|[Ingram](https://github.com/jorhelp/Ingram)|v2.0.0|nothing|
+|2023-08-08 12:53:48|[SmartBIAttackTool](https://github.com/yggo/SmartBIAttackTool)|v1.0|玩得开心师傅们，有新的需求或者问题请<br>在issue中反馈。|
 |2023-08-07 19:40:37|[malwoverview](https://github.com/alexandreborges/malwoverview)|v5.4.1|Malwoverview 5.4.1|
 |2023-08-07 18:30:38|[faker](https://github.com/joke2k/faker)|v19.3.0|See .|
 |2023-08-06 17:40:56|[Ladon](https://github.com/k8gege/Ladon)|v11.4|Ladon 11.4 20230801  [+]LadonGUI   反<br>弹Shell生成器 新增JAVA反序列化漏洞 JNDI<br>\ldap\rmi反弹Shell  [+]LadonGUI   反弹<br>Shell生成器 新增OpenSSL、Curl、Telnet<br>、Ruby、Lua、Ncat、socat反弹Shell  [+]L<br>adonGUI   反弹Shell生成器 添加全路径Ld<br>on反弹shell、Jndi注入Windows反弹shell <br> [+]web    渗透专用Web服务器 Ldap nc  <br>支持多系统反弹shell  [+]web    渗透专用<br>Web服务器 Rmi nc 支持多系统反弹shell  <br>[+]web    渗透专用Web服务器 Ldap ver <br>探测系统版本、java版本、当前用户、目录 <br> [+]web    渗透专用Web服务器 Rmi ver <br>探测系统版本、java版本、当前用户、目录 <br> [u]OnlinePC   修复noping扫描崩溃的Bug<br>      Ladon 11.3 2023.7.20  [u]web    <br>渗透专用Web服务器 支持无后缀文件下载 如<br>busybox、nc等任意文件  [+]web    渗透<br>专用Web服务器 请求nc、exp、exploit、she<br>ll.class 记录IP到exp.txt  [+]LadonGui <br>  Netcat、NC反弹Shell 支持回显速度设置<br>  [+]IisInfo   增加IIS网站信息一键获取<br>  [u]LadonExp   执行whoami  System或Ro<br>ot权限 回显高亮  [u]LadonExp   测试EXP<br>时 勾选Save保存执行命令结果  [u]PostShe<br>ll  执行whoami  System或Root权限 回显<br>高亮  [u]PostShell  修复部分CFM WebShel<br>l结果回显乱码的问题  [+]AddAdmin   API<br>添加管理员(无视系统net、net1禁用)  [+]A<br>ddUser   API添加用户(无视系统net、net1<br>.exe禁用)  [+]DelUser   API删除用户(无<br>视系统net、net1.exe禁用)  [+]web    渗<br>透专用Web服务器 新增内网外网IP识别  [+]<br>web    渗透专用Web服务器 新增外网IP国<br>家城市  [u]CS插件   CobaltStrike插件Lad<br>on支持mssqlcmd  [u]Web    渗透专用Web<br>服务器 JNDI注入Ldap、Rmi漏洞IP保存到isv<br>ul_ldap.txt和isvul_rmi.txt  [u]Web    <br>结果保护 isvul.txt isvul_ldap.txt isvul<br>_rmi.txt 不管存不存在 访问都提示404  [<br>u]ClsLog   新增清除C:\Users\当前用户\A<br>ppData\Local\Temp 目录垃圾    ========<br>======================================<br>===========================  Ladon 11.<br>2 2023.7.11  [+]McpPotato  .NET>=4.0 W<br>in11/2022提权至System  其它系统自测  [<br>u]GUI    加强版NC、Netcat监听客户端 连<br>接速度优化 回显响应更快  [u]Web    迷你<br>Web服务器渗透保存的isvul.txt结果只保留<br>IP(方便去重)  [u]80天更新   超过编译日<br>期80天，会提示文件损坏 请下最新版Ladon <br>   2023.7.5  修复一些bug    Ladon 11.1<br> 2023.6.28  [u]白名单启动 C:\Windows\M<br>icrosoft.NET\Framework\v4.0.30319\rega<br>sm.exe /U Ladon.exe whoami  [u]修复t=5<br>0线程 或结尾http 有些模块报错的Bug 如L<br>adon noping 192.168.1.0/B XXXX t=50 ht<br>tp  [u]web   修复PowerShell DownLoadFi<br>le下载不了Bug  [u]web   修复非根目录文<br>件，下载或访问不到的Bug  [u]LadonGUI  <br>安装有.net 4.8时，默认加载Ladon911  如c<br>mddll只有911有 无4.8用不了  [+]exe2hex<br>  EXE转HEX，CMD命令写入文件  [+]exe2b6<br>4  EXE转Base64，CMD命令写入文件  [u]cm<br>ddll  仅保留911本地使用，无需在目标生<br>成，减小体积 1K也是肉  [+]ZimbraVer Zim<br>bra版本探测  [+]SharpGPO     .NET>=4.0<br> 否则报错  35可编译 但执行报错  |
@@ -28,6 +29,7 @@
 |2023-08-06 06:55:24|[gshark](https://github.com/madneal/gshark)|v1.2.0|* 任务无需通过命令行启动  * 通过 Web <br>直接管理扫描任务|
 |2023-08-06 04:03:14|[goproxy](https://github.com/snail007/goproxy)|v13.7|1、优化授权认证。|
 |2023-08-06 00:20:52|[wappalyzergo](https://github.com/projectdiscovery/wappalyzergo)|v0.0.10<br>8|###  (2023-08-06)|
+|2023-08-05 07:44:59|[slcx](https://github.com/sechelper/slcx)|v1.0.2|23年8月5号更新  - 新增随机生成服务端<br>证书，进一步去除特征  - 修改帮助信息  |
 |2023-08-05 00:41:43|[neuvector](https://github.com/neuvector/neuvector)|v5.2.0-<br>s1||
 |2023-08-04 13:06:03|[grype](https://github.com/anchore/grype)|v0.65.1|#   ##  (2023-08-04)    ### Bug Fixes<br>  - Grype cannot read SPDX documents g<br>enerated by SPDX-maven-plugin ]    |
 |2023-08-04 02:54:50|[Log4j2Scan](https://github.com/whwlsfb/Log4j2Scan)|dev-202<br>30804T02<br>5448||
@@ -36,27 +38,33 @@
 |2023-08-02 17:00:47|[RedisEXP](https://github.com/yuyan-sec/RedisEXP)|0.0.3|修复服务器开启端口问题|
 |2023-08-02 13:39:17|[flightsim](https://github.com/alphasoc/flightsim)|v2.5.0|## Network Flight Simulator v2.5.0 (2<br>023-07-31)    This release add a new c<br>leartext module, which generates rando<br>m cleartext traffic on some common por<br>ts.    ## Enjoy!    |
 |2023-08-02 09:05:19|[arthas](https://github.com/alibaba/arthas)|arthas-<br>all-3.7.<br>0|Issues:  https://github.com/alibaba/a<br>rthas/milestone/48?closed=1    * https<br>://github.com/alibaba/arthas/issues/25<br>72  tunnel-server detail-pages 页面支<br>持自定义 port  * https://github.com/ali<br>baba/arthas/issues/2603 tunnel server <br>里的 SimpleHttpResponse 序列化增加白名<br>单|
-|2023-07-31 01:44:05|[AsamF](https://github.com/Kento-Sec/AsamF)|v0.2.5|Fofa无法查询的问题来源于他们平台移除<br>了lastupdatetime的字段，感谢提交issue的<br>朋友  该版本移除lastupdatetime字段|
 ## 近15天commit提交记录
 | 提交时间 | 项目名称 | 更新内容 |
 | :---- | :---- | :---- |
-|2023-08-15 00:10:15|[Mobile-Security-F<br>ramework-MobSF](https://github.com/MobSF/Mobile-Security-Framework-MobSF)|HOTFIX: Improve code string extraction|
-|2023-08-15 00:00:02|[free](https://github.com/freefq/free)|updated_at 08-15 08:00|
-|2023-08-14 20:40:11|[clair](https://github.com/quay/clair)|chore: bump claircore to v1.5.16  Update claircore <br>dep to latest tag.  Signed-off-by: crozzy |
+|2023-08-16 00:00:03|[free](https://github.com/freefq/free)|updated_at 08-16 08:00|
+|2023-08-15 21:06:57|[PocOrExp_in_Githu<br>b](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-08-16 05:06:57|
+|2023-08-15 19:51:10|[clair](https://github.com/quay/clair)|config: fix typo  Signed-off-by: Mark Frost |
+|2023-08-15 19:48:27|[impacket](https://github.com/fortra/impacket)|secretsdump - Double DC Sync performance for DCs su<br>pporting SID lookups (#1578)  * Remove unnecessary c<br>alls to DRSCrackNames in LDAP and full DRSUAPI DC Sy<br>ncs    * Support graceful fallback for DCs that don'<br>t support SID lookups|
+|2023-08-15 19:31:20|[dbeaver](https://github.com/dbeaver/dbeaver)|Merge branch 'devel' of https://github.com/dbeaver/<br>dbeaver into devel|
+|2023-08-15 19:08:18|[grype](https://github.com/anchore/grype)|fix: update semver regular expression constraint to<br> allow for 1.20rc1 cases no '-' (#1434)|
+|2023-08-15 16:47:26|[Mobile-Security-F<br>ramework-MobSF](https://github.com/MobSF/Mobile-Security-Framework-MobSF)|Update macho_analysis.py - SYMBOLS STRIPPED False N<br>egative (#2234)  * Update macho_analysis.py    PR fo<br>r this issue:   https://github.com/MobSF/Mobile-Secu<br>rity-Framework-MobSF/issues/2233    * Update macho_a<br>nalysis.py      Co-authored-by: Ajin Abraham |
+|2023-08-15 13:19:59|[rustdesk](https://github.com/rustdesk/rustdesk)|fix conn log|
+|2023-08-15 13:00:49|[FreeRDP](https://github.com/FreeRDP/FreeRDP)|fix freerdp_key_generate for some versions of OpenS<br>SL (null key->evp)|
+|2023-08-15 12:34:28|[v2rayfree](https://github.com/aiboboxx/v2rayfree)|update|
+|2023-08-15 10:55:32|[domain_hunter_pro](https://github.com/bit4woo/domain_hunter_pro)|refresh icon hash|
+|2023-08-15 10:47:28|[v2rayA](https://github.com/v2rayA/v2rayA)|Merge pull request #1035 from v2rayA/feat_v5  ci(re<br>lease_feat_v5): Fixed GitHub releases|
+|2023-08-15 09:23:53|[Elkeid](https://github.com/bytedance/Elkeid)|change CDN url of php headers|
+|2023-08-15 09:06:28|[sqlmap](https://github.com/sqlmapproject/sqlmap)|Patch for #5484|
+|2023-08-15 04:09:38|[nemo_go](https://github.com/hanc00l/nemo_go)|Update: 取消web显示页面的siderbar的隐藏|
+|2023-08-15 02:29:13|[appshark](https://github.com/bytedance/appshark)|bugfix: sanitizer's taintCheck error|
+|2023-08-15 01:44:49|[PeiQi-WIKI-Book](https://github.com/PeiQi0/PeiQi-WIKI-Book)|漏洞相关:明源云,新开普等|
+|2023-08-15 01:44:12|[ObserverWard](https://github.com/0x727/ObserverWard)|Update README.md|
 |2023-08-14 20:28:07|[syft](https://github.com/anchore/syft)|chore: restore cataloger.DefaultConfig (#2028)  Sig<br>ned-off-by: Keith Zantow |
-|2023-08-14 20:07:01|[PocOrExp_in_Githu<br>b](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-08-15 04:07:01|
 |2023-08-14 19:33:43|[Quasar](https://github.com/quasar/Quasar)|Add link to Getting Started guide to README|
-|2023-08-14 19:15:44|[dbeaver](https://github.com/dbeaver/dbeaver)|CB-3382 default grouping check fix (#20847)  Co-aut<br>hored-by: EvgeniaBzzz |
 |2023-08-14 14:33:28|[zksync](https://github.com/nftscripts/zksync)|Update requirements.txt|
-|2023-08-14 12:55:26|[rustdesk](https://github.com/rustdesk/rustdesk)|Merge pull request #5377 from dignow/fix/handle_pee<br>r_info_cached  Fix, check if is cached peer info whe<br>n handle_peer_info|
-|2023-08-14 12:35:09|[v2rayfree](https://github.com/aiboboxx/v2rayfree)|update|
 |2023-08-14 09:19:15|[dismap](https://github.com/zhzyker/dismap)|Update readme.md|
 |2023-08-14 09:19:08|[arthas](https://github.com/alibaba/arthas)|feat: update online tutorials, switch to killercoda<br> (#2604)|
 |2023-08-14 08:36:00|[ThunderSearch](https://github.com/xzajyjs/ThunderSearch)|fix README|
-|2023-08-14 07:58:52|[nemo_go](https://github.com/hanc00l/nemo_go)|Fix: IP和域名详情页http_header字段超长导致显示效果<br>异常|
-|2023-08-14 07:34:09|[PeiQi-WIKI-Book](https://github.com/PeiQi0/PeiQi-WIKI-Book)|漏洞相关:启明星辰,大华|
-|2023-08-14 06:23:39|[ObserverWard](https://github.com/0x727/ObserverWard)|修复编码和重复请求|
-|2023-08-14 04:41:21|[v2rayA](https://github.com/v2rayA/v2rayA)|ci: fix build debian repo|
 |2023-08-14 03:39:13|[404StarLink](https://github.com/knownsec/404StarLink)|weekly update at 2023-08-14|
 |2023-08-14 03:21:50|[FrameVul](https://github.com/Awrrays/FrameVul)|Add files via upload|
 |2023-08-14 03:10:38|[frp](https://github.com/fatedier/frp)|support go1.21 (#3573)|
@@ -69,7 +77,6 @@
 |2023-08-13 00:50:23|[Dirscan](https://github.com/corunb/Dirscan)|v1.5.2-修复递归扫描已知bug|
 |2023-08-13 00:19:13|[wappalyzergo](https://github.com/projectdiscovery/wappalyzergo)|Weekly fingerprints update [Sun Aug 13 00:19:13 UTC<br> 2023] :robot:|
 |2023-08-12 18:10:07|[subfinder](https://github.com/projectdiscovery/subfinder)|version update|
-|2023-08-12 13:24:08|[FreeRDP](https://github.com/FreeRDP/FreeRDP)|TestThreadExitThread: fix messages and wait timeout<br> for the windows CI  Looks like for the windows x86_<br>86 CI host 100ms is too small for a thread to termin<br>ate so let's wait for longer and decrease the number<br> of loops.|
 |2023-08-12 06:22:00|[Viper](https://github.com/FunnyWolf/Viper)|Merge remote-tracking branch 'origin/master'|
 |2023-08-12 05:15:05|[mitaka](https://github.com/ninoseki/mitaka)|Merge pull request #748 from ninoseki/update-ioc-ex<br>tractor  chore: update ioc-extractor|
 |2023-08-11 16:53:23|[dalfox](https://github.com/hahwul/dalfox)|Merge pull request #486 from hahwul/dependabot/go_m<br>odules/github.com/chromedp/chromedp-0.9.2  Bump gith<br>ub.com/chromedp/chromedp from 0.9.1 to 0.9.2|
@@ -86,7 +93,6 @@
 |2023-08-08 23:32:03|[WebGoat](https://github.com/WebGoat/WebGoat)|fix: WebWolf JWT jquery webjar|
 |2023-08-08 21:48:35|[BloodHound](https://github.com/BloodHoundAD/BloodHound)|Update index.rst|
 |2023-08-08 21:09:10|[ChatGPT-Shortcut](https://github.com/rockbenben/ChatGPT-Shortcut)|perf: Replace Google authentication API|
-|2023-08-08 17:29:12|[grype](https://github.com/anchore/grype)|chore(deps): bump actions/setup-go from 4.0.1 to 4.<br>1.0 (#1421)  Bumps  from 4.0.1 to 4.1.0.  -   -     <br>---  updated-dependencies:  - dependency-name: actio<br>ns/setup-go    dependency-type: direct:production   <br> update-type: version-update:semver-minor  ...    Si<br>gned-off-by: dependabot[bot]   Co-authored-by: depen<br>dabot[bot] |
 |2023-08-08 14:56:38|[RouteVulScan](https://github.com/F6JO/RouteVulScan)|update rule|
 |2023-08-08 10:19:38|[gshark](https://github.com/madneal/gshark)|modify sql.md|
 |2023-08-08 09:59:24|[vulhub](https://github.com/vulhub/vulhub)|Merge pull request #455 from vulhub/metersphere-plu<br>gin-rce  MeterSphere plugin RCE|
@@ -103,7 +109,7 @@
 |2023-08-06 10:52:25|[iDefender](https://github.com/wecooperate/iDefender)|update|
 |2023-08-06 04:13:27|[captcha-killer-mo<br>dified](https://github.com/f0ng/captcha-killer-modified)|Update FAQ.md|
 |2023-08-05 10:41:22|[goproxy](https://github.com/snail007/goproxy)|update|
-|2023-08-05 09:14:45|[sqlmap](https://github.com/sqlmapproject/sqlmap)|Fixes #5477|
+|2023-08-05 07:52:12|[slcx](https://github.com/sechelper/slcx)|update ssh login port|
 |2023-08-04 14:50:11|[superSearchPlus](https://github.com/dark-kingA/superSearchPlus)|Update README.md|
 |2023-08-04 13:50:07|[BurpSuite-collect<br>ions](https://github.com/Mr-xn/BurpSuite-collections)|Update README.md|
 |2023-08-04 06:20:58|[kscan](https://github.com/lcvvvv/kscan)|Merge pull request #149 from ruishawn/dev  fix: the<br> judgment condition is always true in function recvP<br>rotocolVe…|
@@ -111,7 +117,6 @@
 |2023-08-04 02:53:50|[BurpCrypto](https://github.com/whwlsfb/BurpCrypto)|Update compile.yml|
 |2023-08-03 22:30:16|[NucleiTP](https://github.com/ExpLangcn/NucleiTP)|更新啦❤️|
 |2023-08-03 20:29:31|[RsaCtfTool](https://github.com/RsaCtfTool/RsaCtfTool)|Fix Issue #426|
-|2023-08-03 17:40:57|[impacket](https://github.com/fortra/impacket)|Update setup.py|
 |2023-08-03 13:55:32|[AsamF](https://github.com/Kento-Sec/AsamF)|Update README.md|
 |2023-08-03 09:37:48|[Awesome-Redteam](https://github.com/Threekiii/Awesome-Redteam)|更新README.md|
 |2023-08-03 07:17:17|[Vulnerability-Wik<br>i](https://github.com/Threekiii/Vulnerability-Wiki)|更新漏洞|
@@ -121,10 +126,7 @@
 |2023-08-02 18:22:40|[naabu](https://github.com/projectdiscovery/naabu)|Revert "removing uncover"  This reverts commit d587<br>82fbb88e7669171b9d461444f416135e4b7b.|
 |2023-08-02 16:59:50|[RedisEXP](https://github.com/yuyan-sec/RedisEXP)|0.0.3|
 |2023-08-02 03:11:35|[knife](https://github.com/bit4woo/knife)|新增2个功能菜单|
-|2023-08-01 07:16:41|[domain_hunter_pro](https://github.com/bit4woo/domain_hunter_pro)|update|
-|2023-08-01 03:02:00|[murphysec](https://github.com/murphysecurity/murphysec)|chore(deps): upgrade dependencies...|
-|2023-07-31 15:27:39|[flightsim](https://github.com/alphasoc/flightsim)|Pick random hosts if returned more than requested|
-|2023-07-31 03:58:14|[wmiexec-Pro](https://github.com/XiaoliChan/wmiexec-Pro)|Declaration|## 所有项目
+|2023-08-01 03:02:00|[murphysec](https://github.com/murphysecurity/murphysec)|chore(deps): upgrade dependencies...|## 所有项目
 # 渗透测试
 ## 信息收集
 ### 资产测绘采集
@@ -411,7 +413,7 @@
 | [JNDIExploit](https://github.com/WhiteHSBG/JNDIExploit) | v1.4 | 对原版https://github.com/feihong-cs/JNDIExploit 进行了实用化修<br>改 |
 | [JNDIExploit-1](https://github.com/Mr-xn/JNDIExploit-1) | v1.2 | 一款用于 JNDI注入 利用的工具，大量参考/引用了 Rogue JNDI 项目<br>的代码，支持直接植入内存shell，并集成了常见的bypass 高版本JDK的<br>方式，适用于与自动化工具配合使用。（from https://github.com/feih<br>ong-cs/JNDIExploit） |
 | [JNDIExploit](https://github.com/0x727/JNDIExploit) | 1.1 | 一款用于JNDI注入利用的工具，大量参考/引用了Rogue JNDI项目的代<br>码，支持直接植入内存shell，并集成了常见的bypass 高版本JDK的方式<br>，适用于与自动化工具配合使用。 |
-| [Exp-Tools](https://github.com/cseroad/Exp-Tools) | v1.2.1 | 一款集成各种exp的实用性工具 |
+| [Exp-Tools](https://github.com/cseroad/Exp-Tools) | v1.2.1 | 一款集成高危漏洞exp的实用性工具 |
 ### 重点CMS利用
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
@@ -631,6 +633,7 @@
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
 | [Vm4J](https://github.com/NS-Sp4ce/Vm4J) |  | A tool for detect&exploit vmware product log4j(cve-2021-44228)<br> vulnerability.Support VMware HCX/vCenter/NSX/Horizon/vRealize <br>Operations Manager |
+| [VcenterKiller](https://github.com/Schira4396/VcenterKiller) | v1.3.6 | 一款针对Vcenter的综合利用工具，包含目前最主流的CVE-2021-21972<br>、CVE-2021-21985以及CVE-2021-22005、One Access的CVE-2022-22954、<br>CVE-2022-22972/31656以及log4j，提供一键上传webshell，命令执行或<br>者上传公钥使用SSH免密连接 |
 #### log4j
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
@@ -654,6 +657,14 @@
 | [WeblogicTool](https://github.com/KimJun1010/WeblogicTool) | v1.2 | WeblogicTool，GUI漏洞利用工具，支持漏洞检测、命令执行、内存马<br>注入、密码解密等（深信服深蓝实验室天威战队强力驱动） |
 | [CVE-2023-21839](https://github.com/4ra1n/CVE-2023-21839) |  | Weblogic CVE-2023-21839 / CVE-2023-21931 / CVE-2023-21979 一键<br>检测 |
 | [Decrypt_Weblogic_<br>Password](https://github.com/TideSec/Decrypt_Weblogic_Password) |  | 搜集了市面上绝大部分weblogic解密方式，整理了7种解密weblogic的<br>方法及响应工具。 |
+#### SmartBI
+| 项目名称 | 版本 | 项目描述 |
+| :---- | :---- | :---- |
+| [SmartBIAttackTool](https://github.com/yggo/SmartBIAttackTool) | v1.0 | SmartBI 登录代码逻辑漏洞导致的远程代码执行利用工具 |
+#### Hikvision
+| 项目名称 | 版本 | 项目描述 |
+| :---- | :---- | :---- |
+| [HikvisionDecode](https://github.com/baogod404/HikvisionDecode) |  |  |
 ### OA产品漏洞
 #### 通达OA
 | 项目名称 | 版本 | 项目描述 |
@@ -783,6 +794,8 @@
 | | | http://rootkiter.com/Termite/ |
 | [reGeorg](https://github.com/sensepost/reGeorg) |  | The successor to reDuh, pwn a bastion webserver and create SOC<br>KS proxies through the DMZ. Pivot and pwn. |
 | [Neo-reGeorg](https://github.com/L-codes/Neo-reGeorg) | v5.1.0 | Neo-reGeorg is a project that seeks to aggressively refactor r<br>eGeorg |
+| [suo5](https://github.com/zema1/suo5) | v0.9.0 | 一款高性能 HTTP 代理隧道工具 | A high-performance http proxy t<br>unneling tool |
+| [slcx](https://github.com/sechelper/slcx) | v1.0.2 | 端口转发工具，绕过流量安全检测。 |
 | [pystinger](https://github.com/FunnyWolf/pystinger) | v1.6 | Bypass firewall for traffic forwarding using webshell 一款使用<br>webshell进行流量转发的出网工具 |
 | [Stowaway](https://github.com/ph4ntonn/Stowaway) | v2.1 | 👻Stowaway -- Multi-hop Proxy Tool for pentesters |
 | [PortForward](https://github.com/knownsec/PortForward) | 0.5.0 | The port forwarding tool developed by Golang solves the proble<br>m that the internal and external networks cannot communicate in<br> certain scenarios |
@@ -1336,7 +1349,7 @@
 | :---- | :---- | :---- |
 | [v2rayA](https://github.com/v2rayA/v2rayA) | v2.1.3 | A web GUI client of Project V which supports V2Ray, Xray, SS, <br>SSR, Trojan and Juicity. 🚀🚀 |
 | [free](https://github.com/freefq/free) |  | 翻墙、免费翻墙、免费科学上网、免费节点、免费梯子、免费ss/v2ray<br>/trojan节点、蓝灯、谷歌商店、翻墙梯子 |
-| [v2rayfree](https://github.com/aiboboxx/v2rayfree) |  | v2ray公益免费节点、最新2ray免费v节点订阅地址、v2ray免费节点每<br>日更新、免费ss/v2ray/trojan节点、freefq  |
+| [v2rayfree](https://github.com/aiboboxx/v2rayfree) |  | v2ray节点、v2ray免费节点、免费v2ray节点、最新公益免费v2ray节点<br>订阅地址、免费v2ray节点每日更新、免费ss/v2ray/trojan节点、freefq<br>  |
 ## python笔记
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
