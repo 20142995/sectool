@@ -1,8 +1,9 @@
-# 更新于 2023-08-16 08:37:15
+# 更新于 2023-08-17 08:33:57
 
 ## 近15天release更新记录
 | 更新时间 | 项目名称 | 版本 | 更新内容 |
 | :---- | :---- | :---- | :---- |
+|2023-08-16 02:13:55|[ENScan_GO](https://github.com/wgpsec/ENScan_GO)|0.0.15||
 |2023-08-14 18:05:24|[syft](https://github.com/anchore/syft)|v0.87.0|#   ##  (2023-08-14)    ### Added Fea<br>tures  - feat: use originator logic to<br> fill supplier ] ] - Expand deb catalo<br>ger to include opkg ] ] - Package dupl<br>icated by different cataloger ] ] ] - <br>Add binary cataloger for Nginx built f<br>rom source ] ] ]  ### Bug Fixes  - cho<br>re: update bubbly to fix hanging ] ] -<br> fix: update glob to use newer usr/lib<br>/sysimage path ] ] - fix: SPDX license<br> values and download location ] ] - Di<br>fferent CPEs between java-cataloger an<br>d java-gradle-lockfile-cataloger ] ] ]<br>    |
 |2023-08-14 08:25:54|[ThunderSearch](https://github.com/xzajyjs/ThunderSearch)|v2.5|- 增加Hunter搜索    - 增加版本更新检<br>测    - 适当调整界面布局      ---    - <br>Support Hunter search  - Add version u<br>pdate detection  - Appropriately adjus<br>t the interface layout    ---    > MD5<br> (ThunderSearch.dmg) = cbcc8247dd6f445<br>de5db5f6b5e35b795  > MD5 (ThunderSearc<br>h_win.zip) = 0c1eed85000788ccbbaba7523<br>d491035  > Mac版密码: Hi!j3@/J  |
 |2023-08-14 06:24:28|[ObserverWard](https://github.com/0x727/ObserverWard)|v2023.8<br>.14|## [2023.8.14] - 2023.8.14  ### Fixes<br>  - 修复获取html编码charset属性时存在<br>双引号导致gb2312解码乱码 - 修复favicon<br>响应错误没有保存命中到缓存，导致多次请<br>求同一个url，浪费请求资源|
@@ -41,23 +42,30 @@
 ## 近15天commit提交记录
 | 提交时间 | 项目名称 | 更新内容 |
 | :---- | :---- | :---- |
-|2023-08-16 00:00:03|[free](https://github.com/freefq/free)|updated_at 08-16 08:00|
-|2023-08-15 21:06:57|[PocOrExp_in_Githu<br>b](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-08-16 05:06:57|
+|2023-08-17 00:07:24|[neuvector](https://github.com/neuvector/neuvector)|Merge pull request #950 from williamlin-suse/main  <br>NVSHAS-8196: Deleted CRD network rule's id stays in <br>rules header list even after the CRD network rule is<br> deleted|
+|2023-08-17 00:00:02|[free](https://github.com/freefq/free)|updated_at 08-17 08:00|
+|2023-08-16 23:07:58|[PocOrExp_in_Githu<br>b](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-08-17 07:07:58|
+|2023-08-16 21:42:30|[Mobile-Security-F<br>ramework-MobSF](https://github.com/MobSF/Mobile-Security-Framework-MobSF)|HOTFIX: fix IPA download support|
+|2023-08-16 20:11:41|[grype](https://github.com/anchore/grype)|chore: exclude yardstick store from filename rules <br>(#1440)  Enables "make lint" to be run after "make q<br>uality". Previously, the  linter rules that prohibit<br> ":" in any filename would fail if the  yardstick or<br> vulnerability-match-labels directories had been ini<br>tialized  (e.g. if "make quality" had been run), sin<br>ce they have filenames like  "sha256:abcd" in them. <br>Exclude them from this lint, since they are not  go <br>files.    Signed-off-by: Will Murphy |
+|2023-08-16 19:44:09|[dbeaver](https://github.com/dbeaver/dbeaver)|Cb 3814 add ssl tab for all databases that support <br>it (#20884)  * CB-3814 add ssl config for all databa<br>ses    * CB-3814 cassandra support keystore    * CB-<br>3814 ycql use same key store reader as in cassandra <br>   * CB-3814 trust store read from path fix    -----<br>----    Co-authored-by: EvgeniaBzzz |
+|2023-08-16 13:59:23|[WebGoat](https://github.com/WebGoat/WebGoat)|doc: fix version strings  Replace 2023.3 with 2023.<br>4|
+|2023-08-16 13:54:35|[rustdesk](https://github.com/rustdesk/rustdesk)|Merge pull request #5413 from dignow/fix/move_tab_t<br>o_new_window_unregister_texture  Do not unregister t<br>exture if move to new window|
+|2023-08-16 12:35:07|[v2rayfree](https://github.com/aiboboxx/v2rayfree)|update|
+|2023-08-16 12:31:21|[nemo_go](https://github.com/hanc00l/nemo_go)|Update: 对FOFA自定义关键词进行界面的优化|
+|2023-08-16 12:16:57|[gshark](https://github.com/madneal/gshark)|add log information for nil database|
+|2023-08-16 11:34:03|[trivy](https://github.com/aquasecurity/trivy)|feat(c): add location for lock file dependencies. (<br>#4994)  * add location for conan lock files  * bump <br>go-dep-parser  * go mod tidy|
+|2023-08-16 10:43:55|[sqlmap](https://github.com/sqlmapproject/sqlmap)|Fixes #5493|
+|2023-08-16 09:54:24|[domain_hunter_pro](https://github.com/bit4woo/domain_hunter_pro)|copy 任意指定header的值|
+|2023-08-16 08:22:56|[PeiQi-WIKI-Book](https://github.com/PeiQi0/PeiQi-WIKI-Book)|漏洞相关:亿赛通,LiveBOS|
+|2023-08-16 08:19:15|[FreeRDP](https://github.com/FreeRDP/FreeRDP)|[winpr] cipher enable setting the padding option  I<br>t happens that with some ciphers the standard behavi<br>our that disables padding is not desired. This patch<br> adds a function to enable padding.|
+|2023-08-16 07:20:28|[safeline](https://github.com/chaitin/safeline)|feat: add the file extend|
+|2023-08-16 02:43:03|[Platypus](https://github.com/WangYihang/Platypus)|build(deps): bump word-wrap from 1.2.3 to 1.2.4 in <br>/web/frontend (#196)  Bumps  from 1.2.3 to 1.2.4.  -<br>   -     ---  updated-dependencies:  - dependency-na<br>me: word-wrap    dependency-type: indirect  ...    S<br>igned-off-by: dependabot[bot]   Co-authored-by: depe<br>ndabot[bot] |
+|2023-08-16 02:07:01|[ENScan_GO](https://github.com/wgpsec/ENScan_GO)|修复AQC查询BUG 还是需要挂上burp fix #77|
 |2023-08-15 19:51:10|[clair](https://github.com/quay/clair)|config: fix typo  Signed-off-by: Mark Frost |
 |2023-08-15 19:48:27|[impacket](https://github.com/fortra/impacket)|secretsdump - Double DC Sync performance for DCs su<br>pporting SID lookups (#1578)  * Remove unnecessary c<br>alls to DRSCrackNames in LDAP and full DRSUAPI DC Sy<br>ncs    * Support graceful fallback for DCs that don'<br>t support SID lookups|
-|2023-08-15 19:31:20|[dbeaver](https://github.com/dbeaver/dbeaver)|Merge branch 'devel' of https://github.com/dbeaver/<br>dbeaver into devel|
-|2023-08-15 19:08:18|[grype](https://github.com/anchore/grype)|fix: update semver regular expression constraint to<br> allow for 1.20rc1 cases no '-' (#1434)|
-|2023-08-15 16:47:26|[Mobile-Security-F<br>ramework-MobSF](https://github.com/MobSF/Mobile-Security-Framework-MobSF)|Update macho_analysis.py - SYMBOLS STRIPPED False N<br>egative (#2234)  * Update macho_analysis.py    PR fo<br>r this issue:   https://github.com/MobSF/Mobile-Secu<br>rity-Framework-MobSF/issues/2233    * Update macho_a<br>nalysis.py      Co-authored-by: Ajin Abraham |
-|2023-08-15 13:19:59|[rustdesk](https://github.com/rustdesk/rustdesk)|fix conn log|
-|2023-08-15 13:00:49|[FreeRDP](https://github.com/FreeRDP/FreeRDP)|fix freerdp_key_generate for some versions of OpenS<br>SL (null key->evp)|
-|2023-08-15 12:34:28|[v2rayfree](https://github.com/aiboboxx/v2rayfree)|update|
-|2023-08-15 10:55:32|[domain_hunter_pro](https://github.com/bit4woo/domain_hunter_pro)|refresh icon hash|
 |2023-08-15 10:47:28|[v2rayA](https://github.com/v2rayA/v2rayA)|Merge pull request #1035 from v2rayA/feat_v5  ci(re<br>lease_feat_v5): Fixed GitHub releases|
 |2023-08-15 09:23:53|[Elkeid](https://github.com/bytedance/Elkeid)|change CDN url of php headers|
-|2023-08-15 09:06:28|[sqlmap](https://github.com/sqlmapproject/sqlmap)|Patch for #5484|
-|2023-08-15 04:09:38|[nemo_go](https://github.com/hanc00l/nemo_go)|Update: 取消web显示页面的siderbar的隐藏|
 |2023-08-15 02:29:13|[appshark](https://github.com/bytedance/appshark)|bugfix: sanitizer's taintCheck error|
-|2023-08-15 01:44:49|[PeiQi-WIKI-Book](https://github.com/PeiQi0/PeiQi-WIKI-Book)|漏洞相关:明源云,新开普等|
 |2023-08-15 01:44:12|[ObserverWard](https://github.com/0x727/ObserverWard)|Update README.md|
 |2023-08-14 20:28:07|[syft](https://github.com/anchore/syft)|chore: restore cataloger.DefaultConfig (#2028)  Sig<br>ned-off-by: Keith Zantow |
 |2023-08-14 19:33:43|[Quasar](https://github.com/quasar/Quasar)|Add link to Getting Started guide to README|
@@ -72,7 +80,6 @@
 |2023-08-13 14:57:33|[afrog](https://github.com/zan8in/afrog)|update|
 |2023-08-13 12:33:36|[Apt_t00ls](https://github.com/White-hua/Apt_t00ls)|Update README.md|
 |2023-08-13 07:52:14|[Exp-Tools](https://github.com/cseroad/Exp-Tools)|Update README.md|
-|2023-08-13 07:40:08|[trivy](https://github.com/aquasecurity/trivy)|docs: adding blog post on ec2 (#4813)  * adding blo<br>g post on ec2  Signed-off-by: AnaisUrlichs   * updat<br>e title of section  Signed-off-by: AnaisUrlichs   * <br>changing the location of the article to be under Vul<br>nerabilities  ---------  Signed-off-by: AnaisUrlichs<br> |
 |2023-08-13 06:05:18|[all-in-one-v2](https://github.com/zaivanza/all-in-one-v2)|add tg_send error to 0x|
 |2023-08-13 00:50:23|[Dirscan](https://github.com/corunb/Dirscan)|v1.5.2-修复递归扫描已知bug|
 |2023-08-13 00:19:13|[wappalyzergo](https://github.com/projectdiscovery/wappalyzergo)|Weekly fingerprints update [Sun Aug 13 00:19:13 UTC<br> 2023] :robot:|
@@ -82,19 +89,15 @@
 |2023-08-11 16:53:23|[dalfox](https://github.com/hahwul/dalfox)|Merge pull request #486 from hahwul/dependabot/go_m<br>odules/github.com/chromedp/chromedp-0.9.2  Bump gith<br>ub.com/chromedp/chromedp from 0.9.1 to 0.9.2|
 |2023-08-11 14:02:41|[MockingBird](https://github.com/babysor/MockingBird)|Merge pull request #947 from FawenYo/doc/update_lin<br>k  📝 Update model download link|
 |2023-08-11 11:10:22|[codeql-cli-binari<br>es](https://github.com/github/codeql-cli-binaries)|Update changelog for 2.14.2|
-|2023-08-11 09:19:12|[safeline](https://github.com/chaitin/safeline)|feat: use the dns to enable threat info|
 |2023-08-11 08:11:58|[dperf](https://github.com/baidu/dperf)|Merge pull request #357 from pengjianzhang/main  fi<br>x: http_host or http_path can only be configured whe<br>n http is enabled|
 |2023-08-11 04:21:17|[RmTools](https://github.com/RoomaSec/RmTools)|Merge branch 'main' of https://github.com/RoomaSec/<br>RmTools|
 |2023-08-10 08:33:16|[OA-EXPTOOL](https://github.com/LittleBear4/OA-EXPTOOL)|Add files via upload|
 |2023-08-10 03:17:55|[vulnerability](https://github.com/lal0ne/vulnerability)|CVE-2020-1472|
-|2023-08-10 00:10:11|[neuvector](https://github.com/neuvector/neuvector)|Merge pull request #945 from becitsthere/dev  NVSHA<br>S-7379: exit container if proc keep restarting|
 |2023-08-09 15:45:31|[DecoyMini](https://github.com/decoymini/DecoyMini)|Update README.md|
 |2023-08-09 07:09:32|[Scanners-Box](https://github.com/We5ter/Scanners-Box)|[+]MrEmpy/Mantra|
-|2023-08-08 23:32:03|[WebGoat](https://github.com/WebGoat/WebGoat)|fix: WebWolf JWT jquery webjar|
 |2023-08-08 21:48:35|[BloodHound](https://github.com/BloodHoundAD/BloodHound)|Update index.rst|
 |2023-08-08 21:09:10|[ChatGPT-Shortcut](https://github.com/rockbenben/ChatGPT-Shortcut)|perf: Replace Google authentication API|
 |2023-08-08 14:56:38|[RouteVulScan](https://github.com/F6JO/RouteVulScan)|update rule|
-|2023-08-08 10:19:38|[gshark](https://github.com/madneal/gshark)|modify sql.md|
 |2023-08-08 09:59:24|[vulhub](https://github.com/vulhub/vulhub)|Merge pull request #455 from vulhub/metersphere-plu<br>gin-rce  MeterSphere plugin RCE|
 |2023-08-08 08:44:35|[Some-PoC-oR-ExP](https://github.com/coffeehb/Some-PoC-oR-ExP)|Update 一些已知漏洞.md|
 |2023-08-08 07:10:46|[fupo_for_yonyou](https://github.com/novysodope/fupo_for_yonyou)|Update main.go|
@@ -125,8 +128,7 @@
 |2023-08-03 00:54:06|[Awesome-POC](https://github.com/Threekiii/Awesome-POC)|更新漏洞|
 |2023-08-02 18:22:40|[naabu](https://github.com/projectdiscovery/naabu)|Revert "removing uncover"  This reverts commit d587<br>82fbb88e7669171b9d461444f416135e4b7b.|
 |2023-08-02 16:59:50|[RedisEXP](https://github.com/yuyan-sec/RedisEXP)|0.0.3|
-|2023-08-02 03:11:35|[knife](https://github.com/bit4woo/knife)|新增2个功能菜单|
-|2023-08-01 03:02:00|[murphysec](https://github.com/murphysecurity/murphysec)|chore(deps): upgrade dependencies...|## 所有项目
+|2023-08-02 03:11:35|[knife](https://github.com/bit4woo/knife)|新增2个功能菜单|## 所有项目
 # 渗透测试
 ## 信息收集
 ### 资产测绘采集
@@ -239,7 +241,7 @@
 ### 企业信息收集
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
-| [ENScan_GO](https://github.com/wgpsec/ENScan_GO) | 0.0.14 | 一款基于各大企业信息API的工具，解决在遇到的各种针对国内企业信<br>息收集难题。一键收集控股公司ICP备案、APP、小程序、微信公众号等信<br>息聚合导出。 |
+| [ENScan_GO](https://github.com/wgpsec/ENScan_GO) | 0.0.15 | 一款基于各大企业信息API的工具，解决在遇到的各种针对国内企业信<br>息收集难题。一键收集控股公司ICP备案、APP、小程序、微信公众号等信<br>息聚合导出。 |
 | [IEyes](https://github.com/SiJiDo/IEyes) | v0.1.2 | icp备案查询 |
 ### 小程序信息收集
 | 项目名称 | 版本 | 项目描述 |
@@ -911,7 +913,7 @@
 | [Gofreeproxy](https://github.com/ja9er/Gofreeproxy) | v0.1 | 自用的动态代理小工具 |
 | [ProxyPoolxSocks](https://github.com/Anyyy111/ProxyPoolxSocks) | v1.2 | ☁️Socks代理池服务端自动化搭建工具☁️ |
 | [proxyServer](https://github.com/safe6Sec/proxyServer) | v1.0 | 本项目其实就是个简单的代理服务器，把代理池集成进来来了。 |
-| [proxy_pool](https://github.com/jhao104/proxy_pool) | 2.4.1 | Python爬虫代理IP池(proxy pool) |
+| [proxy_pool](https://github.com/jhao104/proxy_pool) | 2.4.1 | Python ProxyPool for web spider |
 | [mubeng](https://github.com/kitabisa/mubeng) | v0.14.0 | An incredibly fast proxy checker & IP rotator with ease. |
 | [Venom-Transponder](https://github.com/z-bool/Venom-Transponder) |  | 毒液流量转发器：自动化捡洞/打点/跳板必备神器，支持联动URL爬虫<br>、各种被动扫描器。 |
 ### 工具集
