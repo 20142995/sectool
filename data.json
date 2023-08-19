@@ -200,8 +200,8 @@
     "https://github.com/ycdxsb/PocOrExp_in_Github": {
         "created_at": "2021-04-13 05:46:16",
         "description": "聚合Github上已有的Poc或者Exp，CVE信息来自CVE官网。Auto Collect Poc Or Exp from Github by CVE ID.",
-        "commit_date": "2023-08-17 23:08:07",
-        "commit_message": "update 2023-08-18 07:08:07",
+        "commit_date": "2023-08-18 23:09:10",
+        "commit_message": "update 2023-08-19 07:09:10",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -634,7 +634,7 @@
         "commit_message": "修复AQC查询BUG 还是需要挂上burp fix #77",
         "release_tag": "0.0.15",
         "release_date": "2023-08-16 02:13:55",
-        "release_message": ""
+        "release_message": "修复AQC查询问题\r\n\r\n若ENSCAN无法正常访问网站可尝试挂上代理 -proxy http://127.0.0.1:8080/ （burp）\r\n若查询还是有问题可开启debug模式 --debug 查看报错内容\r\n无法正常查询可以在网站上多查询几次后获取**完整COOKIE**进行尝试"
     },
     "https://github.com/jackfrued/Python-100-Days": {
         "created_at": "2018-03-01 16:05:52",
@@ -828,8 +828,8 @@
     "https://github.com/murphysecurity/murphysec": {
         "created_at": "2022-03-16 02:52:33",
         "description": "An open source tool focused on software supply chain security. 墨菲安全专注于软件供应链安全，具备专业的软件成分分析（SCA）、漏洞检测、专业漏洞库。",
-        "commit_date": "2023-08-01 03:02:00",
-        "commit_message": "chore(deps): upgrade dependencies...",
+        "commit_date": "2023-08-18 11:51:53",
+        "commit_message": "feat(gradle): add DO_NOT_SCAN_GRADLE",
         "release_tag": "v3.1.1",
         "release_date": "2023-05-15 12:52:58",
         "release_message": "Support NPM lockfile v3 "
@@ -999,8 +999,8 @@
     "https://github.com/LittleBear4/OA-EXPTOOL": {
         "created_at": "2022-10-13 12:31:21",
         "description": "OA综合利用工具，集合将近20款OA漏洞批量扫描",
-        "commit_date": "2023-08-17 09:39:16",
-        "commit_message": "Update E-Cology LoginSSO.jsp SQL注入.yaml",
+        "commit_date": "2023-08-18 08:47:01",
+        "commit_message": "Add files via upload",
         "release_tag": "OA-EXPTOOL-0.72",
         "release_date": "2023-04-23 06:08:32",
         "release_message": "最近更新日志：\r\n泛微前台sql注入的poc验证，暂无exp\r\n万户OA_UploadServlet.py\r\n万户OA_xfire_xxe\r\n优化poc的验证功能"
@@ -2372,8 +2372,8 @@
     "https://github.com/FunnyWolf/Viper": {
         "created_at": "2020-05-29 12:53:42",
         "description": "Redteam operation  platform with webui 图形化红队行动辅助平台",
-        "commit_date": "2023-08-12 06:22:00",
-        "commit_message": "Merge remote-tracking branch 'origin/master'",
+        "commit_date": "2023-08-18 05:58:27",
+        "commit_message": "Update issue templates",
         "release_tag": "prod",
         "release_date": "2023-08-12 06:23:28",
         "release_message": "### 优化\r\n- 调整vipermsf及viperpython日志级别及格式,便于定位问题\r\n- 关闭vipermsf的cpulimit\r\n- 新增vipermsf心跳异常提示\r\n- 更新沙箱IP列表,参考项目: https://github.com/0x727/CloudSandbox\r\n- 优化网络拓扑动态效果\r\n- 合并metasploit-framework 6.3.30版本\r\n### Bugfix\r\n- Fix https://github.com/FunnyWolf/Viper/issues/150 session下载文件时会偶发性的下载了1m中断\r\n- Fix https://github.com/FunnyWolf/Viper/issues/145 thin的pid文件未清除导致重启msf后台服务无法启动"
@@ -3095,11 +3095,11 @@
     "https://github.com/projectdiscovery/nuclei": {
         "created_at": "2020-04-03 18:47:11",
         "description": "Fast and customizable vulnerability scanner based on simple YAML based DSL.",
-        "commit_date": "2023-07-28 16:13:09",
-        "commit_message": "version update",
-        "release_tag": "v2.9.10",
-        "release_date": "2023-07-28 16:47:41",
-        "release_message": "<!-- Release notes generated using configuration in .github/release.yml at main -->\r\n\r\n## What's Changed\r\n### 🎉 New Features\r\n* Added markdown export sorting options via env variable by @kchason in https://github.com/projectdiscovery/nuclei/pull/3961\r\n```console\r\nexport MARKDOWN_EXPORT_SORT_MODE=template # default\r\nexport MARKDOWN_EXPORT_SORT_MODE=severity\r\nexport MARKDOWN_EXPORT_SORT_MODE=host\r\n```\r\n* Added headless options input by @dogancanbakir in https://github.com/projectdiscovery/nuclei/pull/3951\r\n```console\r\n   -ho, -headless-options string[]  start headless chrome with additional options\r\n```\r\n* Added wildcard filter for `-id` option by @lu4nx in https://github.com/projectdiscovery/nuclei/pull/3967\r\n```console\r\nnuclei -id '*fingerprint*,*waf*' -u example.com\r\n```\r\n* Added path/query automerge and other improvements in headless protocol by @tarunKoyalwar in https://github.com/projectdiscovery/nuclei/pull/3958\r\n\r\n### 🐞 Bug Fixes\r\n* Fixed issue with httpx probe when used as SDK by @Mzack9999 in https://github.com/projectdiscovery/nuclei/pull/3955\r\n* Fixed data race via SyncLockMap by @Mzack9999 in https://github.com/projectdiscovery/nuclei/pull/3959\r\n* Fixed dsl parsing error by @tarunKoyalwar in https://github.com/projectdiscovery/nuclei/pull/3984\r\n\r\n### 🔨 Maintenance\r\n* Removed unused code by @kchason in https://github.com/projectdiscovery/nuclei/pull/3962\r\n* Removed keys with null value in jsonl output by @kchason in https://github.com/projectdiscovery/nuclei/pull/3977\r\n* Fixed certificate expiration date in tests by @Mzack9999 in https://github.com/projectdiscovery/nuclei/pull/3995\r\n\r\n### Other Changes\r\n* Addded [CONTRIBUTING.md](https://github.com/projectdiscovery/nuclei/blob/main/CONTRIBUTING.md) by @ehsandeep in https://github.com/projectdiscovery/nuclei/pull/3968\r\n\r\nIssues closed in this release - https://github.com/projectdiscovery/nuclei/milestone/37?closed=1\r\n\r\n**Full Changelog**: https://github.com/projectdiscovery/nuclei/compare/v2.9.9...v2.9.10"
+        "commit_date": "2023-08-18 23:16:31",
+        "commit_message": "misc docs update",
+        "release_tag": "v2.9.11",
+        "release_date": "2023-08-18 21:50:24",
+        "release_message": "<!-- Release notes generated using configuration in .github/release.yml at main -->\r\n\r\n## What's Changed\r\n\r\n### :tada: New Feature\r\n* __Added request/response in JSONL output for failed match with `-ms` option__ by @seeyarh in https://github.com/projectdiscovery/nuclei/pull/3986\r\n\r\n### 🐞 Bug Fixes\r\n* __Fixed issues with interactsh integration to improve matcher accuracy__ by @tarunKoyalwar in https://github.com/projectdiscovery/nuclei/pull/4059\r\n* Fixed issue with using interactsh matcher with request condition by @tarunKoyalwar in https://github.com/projectdiscovery/nuclei/pull/4064\r\n* Fixed `reference` info nil pointer dereference with `-me` option by @lu4nx in https://github.com/projectdiscovery/nuclei/pull/4006\r\n* Fixed issue transfer encoding header by @cn-kali-team in https://github.com/projectdiscovery/nuclei/pull/3947\r\n* Fixed SDK issue by adding default resp size to options by @Mzack9999 in https://github.com/projectdiscovery/nuclei/pull/4050\r\n\r\n### 🔨 Maintenance\r\n* __Migrated nuclei docs from [nuclei-docs](https://github.com/projectdiscovery/nuclei-docs) to nuclei project__ in https://github.com/projectdiscovery/nuclei/commit/36af9417bc053691efeb8148a6549228944795cb\r\n* Fixed DSL integration tests syntax by @Mzack9999 in https://github.com/projectdiscovery/nuclei/pull/4003\r\n* Fixed default permission by @dogancanbakir in https://github.com/projectdiscovery/nuclei/pull/4039\r\n\r\n### Other Changes\r\n* Fixed spelling mistake by @jsoref in https://github.com/projectdiscovery/nuclei/pull/4008\r\n* Fixed bug in `curl` command generation by @dogancanbakir in https://github.com/projectdiscovery/nuclei/pull/4014\r\n* Fixed removing double slash prefix in raw request path by @RamanaReddy0M in https://github.com/projectdiscovery/nuclei/pull/3960\r\n* Fixed edge case with `disable-path-automerge` attribute by @RamanaReddy0M in https://github.com/projectdiscovery/nuclei/pull/4035\r\n\r\nIssues closed in this release - https://github.com/projectdiscovery/nuclei/milestone/38?closed=1\r\n\r\n## New Contributors\r\n* @jsoref made their first contribution in https://github.com/projectdiscovery/nuclei/pull/4008\r\n* @Ovi3 made their first contribution in https://github.com/projectdiscovery/nuclei/pull/4019\r\n* @seeyarh made their first contribution in https://github.com/projectdiscovery/nuclei/pull/3986\r\n\r\n**Full Changelog**: https://github.com/projectdiscovery/nuclei/compare/v2.9.10...v2.9.11"
     },
     "https://github.com/sleeyax/burp-awesome-tls": {
         "created_at": "2022-01-24 00:30:26",
@@ -3505,8 +3505,8 @@
     "https://github.com/projectdiscovery/naabu": {
         "created_at": "2020-01-21 10:56:32",
         "description": "A fast port scanner written in go with a focus on reliability and simplicity. Designed to be used in combination with other tools for attack surface discovery in bug bounties and pentests",
-        "commit_date": "2023-08-02 18:22:40",
-        "commit_message": "Revert \"removing uncover\"\n\nThis reverts commit d58782fbb88e7669171b9d461444f416135e4b7b.",
+        "commit_date": "2023-08-18 15:14:08",
+        "commit_message": "Merge branch 'dev'",
         "release_tag": "v2.1.6",
         "release_date": "2023-04-30 15:08:56",
         "release_message": "## What's Changed\r\n* Fixed an issue with `-ec` option by @RamanaReddy0M in https://github.com/projectdiscovery/naabu/pull/637\r\n* Fixed an issue with `-eh` option by @iamargus95 in https://github.com/projectdiscovery/naabu/pull/640\r\n* Fixed an issue with `-stats` option by @Mzack9999 in https://github.com/projectdiscovery/naabu/pull/639\r\n\r\nIssues closed in this release - https://github.com/projectdiscovery/naabu/milestone/7\r\n\r\n## New Contributors\r\n* @iamargus95 made their first contribution in https://github.com/projectdiscovery/naabu/pull/640\r\n\r\n**Full Changelog**: https://github.com/projectdiscovery/naabu/compare/v2.1.5...v2.1.6"
@@ -3701,10 +3701,10 @@
     "https://github.com/carlospolop/PEASS-ng": {
         "created_at": "2019-01-13 19:58:24",
         "description": "PEASS - Privilege Escalation Awesome Scripts SUITE (with colors)",
-        "commit_date": "2023-08-17 20:00:57",
-        "commit_message": "Merge pull request #387 from RandolphConley/master\n\nUpdated switch parameter to TimeStamp",
-        "release_tag": "20230813-dc8384b3",
-        "release_date": "2023-08-13 04:29:02",
+        "commit_date": "2023-08-18 11:19:53",
+        "commit_message": "Update linpeas_base.sh",
+        "release_tag": "20230818-dce666cb",
+        "release_date": "2023-08-18 11:26:34",
         "release_message": ""
     },
     "https://github.com/waderwu/attackRmi": {
@@ -3908,8 +3908,8 @@
     "https://github.com/anchore/syft": {
         "created_at": "2020-05-07 18:19:29",
         "description": "CLI tool and library for generating a Software Bill of Materials from container images and filesystems",
-        "commit_date": "2023-08-17 16:55:25",
-        "commit_message": "feat: use java package names to determine known groupids (#2032)\n\nSigned-off-by: Keith Zantow <kzantow@gmail.com>",
+        "commit_date": "2023-08-18 20:03:11",
+        "commit_message": "fill out new version notice (#2042)\n\nSigned-off-by: Alex Goodman <wagoodman@users.noreply.github.com>",
         "release_tag": "v0.87.1",
         "release_date": "2023-08-17 19:06:06",
         "release_message": "# \r\n\r\n## [v0.87.1](https://github.com/anchore/syft/tree/v0.87.1) (2023-08-17)\r\n\r\n[Full Changelog](https://github.com/anchore/syft/compare/v0.87.0...v0.87.1)\r\n\r\n### Bug Fixes\r\n\r\n- Use Java package names to determine known groupIDs [[PR #2032](https://github.com/anchore/syft/pull/2032)] [[kzantow](https://github.com/kzantow)]\r\n- Relationships section of CycloneDX is not outputting even when the data is present [[Issue #1972](https://github.com/anchore/syft/issues/1972)] [[PR #1974](https://github.com/anchore/syft/pull/1974)] [[markgalpin](https://github.com/markgalpin)] [[kzantow](https://github.com/kzantow)]\r\n- SPDX Tag-Value conversion not handling files directly set on packages [[Issue #2013](https://github.com/anchore/syft/issues/2013)] [[PR #2014](https://github.com/anchore/syft/pull/2014)] [[kzantow](https://github.com/kzantow)]\r\n- Intermittent binary listings, different results every time [[Issue #2035](https://github.com/anchore/syft/issues/2035)] [[PR #2036](https://github.com/anchore/syft/pull/2036)] [[kzantow](https://github.com/kzantow)]\r\n\r\n\r\n\r\n"
@@ -3917,11 +3917,11 @@
     "https://github.com/chaitin/safeline": {
         "created_at": "2023-04-12 11:30:14",
         "description": "一款足够简单、足够好用、足够强的免费 WAF。基于业界领先的语义引擎检测技术，作为反向代理接入，保护你的网站不受黑客攻击。",
-        "commit_date": "2023-08-17 11:54:41",
-        "commit_message": "feat: pre-release 3.0.0",
-        "release_tag": "v2.6.0",
-        "release_date": "2023-08-10 09:06:39",
-        "release_message": "### 新增\r\n\r\n- 新增高频攻击封禁，即多次攻击后自动封禁 IP ([#29](https://github.com/chaitin/safeline/issues/29))\r\n- 频率限制日志显示封禁 IP 的地理位置 ([#198](https://github.com/chaitin/safeline/issues/198))\r\n\r\n### 优化\r\n\r\n- 攻击检测的原始日志支持搜索端口 ([#193](https://github.com/chaitin/safeline/issues/193))\r\n- 修复编辑站点后，“维护模式” 会失效的问题\r\n- 修改默认占用的网段，避免跟腾讯云默认网段冲突 ([#40](https://github.com/chaitin/safeline/issues/40))\r\n- 优化安装脚本 ([#194](https://github.com/chaitin/safeline/issues/194))，优化界面一些 UI 交互、错误提示"
+        "commit_date": "2023-08-18 11:39:46",
+        "commit_message": "feat: remove links",
+        "release_tag": "v3.0.1",
+        "release_date": "2023-08-18 10:56:18",
+        "release_message": "- 更新底层语义分析引擎，加强基础防护能力\r\n- 修复站点详情中，不同域名的资源会重复记录问题\r\n- 修复攻击事件有小概率时间排序错误的问题\r\n- 修复关闭再打开频率限制时，配置不会重置到默认值的问题\r\n- 修复首次创建站点且配置 SSL 端口的情况下提示“端口被占用”的问题"
     },
     "https://github.com/stamparm/identYwaf": {
         "created_at": "2019-01-10 11:27:58",
@@ -3980,11 +3980,11 @@
     "https://github.com/anchore/grype": {
         "created_at": "2020-05-26 13:44:38",
         "description": "A vulnerability scanner for container images and filesystems",
-        "commit_date": "2023-08-17 19:39:41",
-        "commit_message": "chore(deps): update Syft to v0.87.1 (#1432)",
+        "commit_date": "2023-08-18 20:03:18",
+        "commit_message": "fill out new version notice (#1445)\n\nSigned-off-by: Alex Goodman <wagoodman@users.noreply.github.com>",
         "release_tag": "v0.65.2",
         "release_date": "2023-08-17 20:07:01",
-        "release_message": "# \r\n\r\n## [v0.65.2](https://github.com/anchore/grype/tree/v0.65.2) (2023-08-17)\r\n\r\n[Full Changelog](https://github.com/anchore/grype/compare/v0.65.1...v0.65.2)\r\n\r\n### Additional Changes\r\n\r\n- Include Syft 0.87.1\r\n- chore: use syft v0.86.1 in the quality gate tests [[PR #1418](https://github.com/anchore/grype/pull/1418)] [[westonsteimel](https://github.com/westonsteimel)]\r\n- Add a simple JUnit XML template [[PR #1422](https://github.com/anchore/grype/pull/1422)] [[YevheniiPokhvalii](https://github.com/YevheniiPokhvalii)]\r\n- fix: update semver regular expression constraint to allow for 1.20rc1 cases no '-' [[PR #1434](https://github.com/anchore/grype/pull/1434)] [[spiffcs](https://github.com/spiffcs)]\r\n- chore: use latest yardstick [[PR #1438](https://github.com/anchore/grype/pull/1438)] [[willmurphyscode](https://github.com/willmurphyscode)]\r\n\r\n\r\n\r\n\r\n"
+        "release_message": "# \r\n\r\n## [v0.65.2](https://github.com/anchore/grype/tree/v0.65.2) (2023-08-17)\r\n\r\n[Full Changelog](https://github.com/anchore/grype/compare/v0.65.1...v0.65.2)\r\n\r\n### Additional Changes\r\n\r\n- Update Syft to v0.87.1\r\n- Add a simple JUnit XML template [[PR #1422](https://github.com/anchore/grype/pull/1422)] [[YevheniiPokhvalii](https://github.com/YevheniiPokhvalii)]\r\n- Update semver regular expression constraint to allow for 1.20rc1 cases no '-' [[PR #1434](https://github.com/anchore/grype/pull/1434)] [[spiffcs](https://github.com/spiffcs)]\r\n"
     },
     "https://github.com/Metarget/metarget": {
         "created_at": "2021-04-09 04:20:47",
@@ -4061,8 +4061,8 @@
     "https://github.com/WebGoat/WebGoat": {
         "created_at": "2015-03-06 14:02:02",
         "description": "WebGoat is a deliberately insecure application",
-        "commit_date": "2023-08-16 13:59:23",
-        "commit_message": "doc: fix version strings\n\nReplace `2023.3` with `2023.4`",
+        "commit_date": "2023-08-18 22:20:59",
+        "commit_message": "chore: bump org.jruby:jruby from 9.4.2.0 to 9.4.3.0\n\nBumps org.jruby:jruby from 9.4.2.0 to 9.4.3.0.\n\n---\nupdated-dependencies:\n- dependency-name: org.jruby:jruby\n  dependency-type: direct:production\n  update-type: version-update:semver-patch\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>",
         "release_tag": "v2023.4",
         "release_date": "2023-02-17 12:16:10",
         "release_message": "## Version 2023.4\r\n\r\n### New functionality\r\n\r\n- [#1422 Add Docker Linux Desktop variant with all tools installed](https://github.com/WebGoat/WebGoat/issues/1422). Thanks to the [OWASP WrongSecrets project](https://owasp.org/www-project-wrongsecrets/) we now have a Docker Linux desktop image with all the tools installed. No need to install any tools locally only run the new Docker image. See README.md for details on how to start it.\r\n- [#1411 JWT: looks that buy as Tom also works with alg:none](https://github.com/WebGoat/WebGoat/issues/1411).\r\n\r\n### Bug fixes\r\n\r\n- [#1410 WebWolf: JWT decode is broken](https://github.com/WebGoat/WebGoat/issues/1410).\r\n- [#1396 password_reset return 500 Error](https://github.com/WebGoat/WebGoat/issues/1396).\r\n- [#1379 Move XXE to A05:2021-Security Misconfiguration](https://github.com/WebGoat/WebGoat/issues/1379)."
@@ -4169,8 +4169,8 @@
     "https://github.com/vulhub/vulhub": {
         "created_at": "2017-04-09 10:13:13",
         "description": "Pre-Built Vulnerable Environments Based on Docker-Compose",
-        "commit_date": "2023-08-08 09:59:24",
-        "commit_message": "Merge pull request #455 from vulhub/metersphere-plugin-rce\n\nMeterSphere plugin RCE",
+        "commit_date": "2023-08-18 08:47:41",
+        "commit_message": "simplify the exploit of MeterSphere plugin RCE",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -4277,7 +4277,7 @@
     "https://github.com/aiboboxx/v2rayfree": {
         "created_at": "2021-10-13 11:34:53",
         "description": "v2ray节点、v2ray免费节点、免费v2ray节点、最新公益免费v2ray节点订阅地址、免费v2ray节点每日更新、免费ss/v2ray/trojan节点、freefq ",
-        "commit_date": "2023-08-17 12:33:43",
+        "commit_date": "2023-08-18 12:33:28",
         "commit_message": "update",
         "release_tag": "",
         "release_date": "",
@@ -4322,8 +4322,8 @@
     "https://github.com/freefq/free": {
         "created_at": "2020-06-07 02:48:33",
         "description": "翻墙、免费翻墙、免费科学上网、免费节点、免费梯子、免费ss/v2ray/trojan节点、蓝灯、谷歌商店、翻墙梯子",
-        "commit_date": "2023-08-18 00:00:02",
-        "commit_message": "updated_at 08-18 08:00",
+        "commit_date": "2023-08-19 00:00:02",
+        "commit_message": "updated_at 08-19 08:00",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -4700,8 +4700,8 @@
     "https://github.com/zksync-sdk/zksync2-python": {
         "created_at": "2022-05-19 10:19:07",
         "description": "",
-        "commit_date": "2023-07-07 11:35:10",
-        "commit_message": "fix: update package version",
+        "commit_date": "2023-08-18 13:06:29",
+        "commit_message": "docs: add changelog",
         "release_tag": "v0.6.0",
         "release_date": "2023-07-07 11:36:04",
         "release_message": "Add support for account abstraction and paymaster features:\r\n\r\n- Add smart account deployment with create opcode.\r\n- Add smart account deployment with create2 opcode.\r\n- Support Paymaster parameters in EIP712 Transactions. Paymaster features can be used with EIP712 Transactions.\r\n"
@@ -5004,8 +5004,8 @@
     "https://github.com/rustdesk/rustdesk": {
         "created_at": "2020-09-28 15:36:08",
         "description": "An open-source remote desktop, and alternative to TeamViewer.",
-        "commit_date": "2023-08-17 13:07:20",
-        "commit_message": "Update history.yml",
+        "commit_date": "2023-08-18 11:53:06",
+        "commit_message": "Merge pull request #5437 from 21pages/ab\n\nfix missing await in pullAb",
         "release_tag": "1.2.1",
         "release_date": "2023-07-12 07:28:05",
         "release_message": "\r\n![image](https://github.com/rustdesk/rustdesk/assets/71636191/b444deab-7971-4de7-b315-6a9b4974c7ea)\r\n\r\n> Winget, FDroid, Apple Sillicon, Google Play / App Store update will come soon.\r\n\r\nx86-64: [Windows](https://github.com/rustdesk/rustdesk/releases/download/1.2.1/rustdesk-1.2.1-x86_64.exe) | [Ubuntu](https://github.com/rustdesk/rustdesk/releases/download/1.2.1/rustdesk-1.2.1-x86_64.deb) | [Mac](https://github.com/rustdesk/rustdesk/releases/download/1.2.1/rustdesk-1.2.1-x86_64.dmg)\r\nAArch64 (ARM64):  [Ubuntu](https://github.com/rustdesk/rustdesk/releases/download/1.2.1/rustdesk-1.2.1-aarch64.deb) | [Android](https://github.com/rustdesk/rustdesk/releases/download/1.2.1/rustdesk-1.2.1-aarch64-signed.apk)\r\nMore: [check below please](#)\r\n\r\n<details>\r\n<summary>Changelog</summary>\r\n\r\n- fix #4856 \r\n- fix #4866 \r\n- fix email login verfication bug on mobile #4874, and fix email login verification wrong error message\r\n- refactor chat notification both on mobile and desktop #4878 #4889 #4943\r\n- fix #4890 \r\n- fix privacy broker zombie process #4916 \r\n- improve remote menubar #4922\r\n- try to fix issue #3261 with new api, but not sure if it works\r\n- adjust tab theme to make it more clear\r\n- partially fix #4896 \r\n- fix #4880 \r\n- refactor id inputbox on mobile\r\n\r\n</details>\r\n"
@@ -5263,8 +5263,8 @@
     "https://github.com/alibaba/arthas": {
         "created_at": "2018-08-29 17:15:57",
         "description": "Alibaba Java Diagnostic Tool Arthas/Alibaba Java诊断利器Arthas",
-        "commit_date": "2023-08-14 09:19:08",
-        "commit_message": "feat: update online tutorials, switch to killercoda (#2604)",
+        "commit_date": "2023-08-18 03:03:26",
+        "commit_message": "Add -s,-g,-a,-l option for profiler command, better support farmat option (#2613)",
         "release_tag": "arthas-all-3.7.0",
         "release_date": "2023-08-02 09:05:19",
         "release_message": "Issues:  https://github.com/alibaba/arthas/milestone/48?closed=1\r\n\r\n* https://github.com/alibaba/arthas/issues/2572  tunnel-server detail-pages 页面支持自定义 port\r\n* https://github.com/alibaba/arthas/issues/2603 tunnel server 里的 SimpleHttpResponse 序列化增加白名单"
