@@ -1,8 +1,10 @@
-# 更新于 2023-08-19 08:32:42
+# 更新于 2023-08-20 08:37:20
 
 ## 近15天release更新记录
 | 更新时间 | 项目名称 | 版本 | 更新内容 |
 | :---- | :---- | :---- | :---- |
+|2023-08-20 00:19:37|[wappalyzergo](https://github.com/projectdiscovery/wappalyzergo)|v0.0.10<br>9|###  (2023-08-20)|
+|2023-08-19 08:45:57|[naabu](https://github.com/projectdiscovery/naabu)|v2.1.7|    ## What's Changed  ### 🎉 New Fea<br>tures    * Added support for [host|ip]<br>:port format input by @Mzack9999 in ht<br>tps://github.com/projectdiscovery/naab<br>u/pull/767  console  echo google.com:4<br>43 | ./naabu -silent  echo 142.250.183<br>.174:443 | ./naabu -silent  echo 142.2<br>50.183.174:443 | ./naabu -silent -p 80<br>      ### 🔨 Maintenance  * Added more<br> test coverage by @Mzack9999 in https:<br>//github.com/projectdiscovery/naabu/pu<br>ll/708  * Added arm64 on linux gorelea<br>ser by @Mzack9999 in https://github.co<br>m/projectdiscovery/naabu/pull/716  * A<br>dded ValidateOptions method for use as<br> go library by @Y4er in https://github<br>.com/projectdiscovery/naabu/pull/762  <br>* Updated JSONL representation of port<br> and protocol by @kimtruth in https://<br>github.com/projectdiscovery/naabu/pull<br>/729  * Removed sudo in brew install b<br>y @sttlr in https://github.com/project<br>discovery/naabu/pull/742    ### Other <br>Changes  * Fixed issue with -ec option<br> to exclude WAF by @JoshuaMart in http<br>s://github.com/projectdiscovery/naabu/<br>pull/749  * Added open ports to scan r<br>esult on privileged by @RamanaReddy0M <br>in https://github.com/projectdiscovery<br>/naabu/pull/638    Issues closed in th<br>is release - https://github.com/projec<br>tdiscovery/naabu/milestone/8?closed=1 <br>   ## New Contributors  * @kimtruth ma<br>de their first contribution in https:/<br>/github.com/projectdiscovery/naabu/pul<br>l/729  * @sttlr made their first contr<br>ibution in https://github.com/projectd<br>iscovery/naabu/pull/742  * @Y4er made <br>their first contribution in https://gi<br>thub.com/projectdiscovery/naabu/pull/7<br>62  * @JoshuaMart made their first con<br>tribution in https://github.com/projec<br>tdiscovery/naabu/pull/749    **Full Ch<br>angelog**: https://github.com/projectd<br>iscovery/naabu/compare/v2.1.6...v2.1.7<br>  |
 |2023-08-18 21:50:24|[nuclei](https://github.com/projectdiscovery/nuclei)|v2.9.11|    ## What's Changed    ### :tada: N<br>ew Feature  * __Added request/response<br> in JSONL output for failed match with<br> -ms option__ by @seeyarh in https://g<br>ithub.com/projectdiscovery/nuclei/pull<br>/3986    ### 🐞 Bug Fixes  * __Fixed i<br>ssues with interactsh integration to i<br>mprove matcher accuracy__ by @tarunKoy<br>alwar in https://github.com/projectdis<br>covery/nuclei/pull/4059  * Fixed issue<br> with using interactsh matcher with re<br>quest condition by @tarunKoyalwar in h<br>ttps://github.com/projectdiscovery/nuc<br>lei/pull/4064  * Fixed reference info <br>nil pointer dereference with -me optio<br>n by @lu4nx in https://github.com/proj<br>ectdiscovery/nuclei/pull/4006  * Fixed<br> issue transfer encoding header by @cn<br>-kali-team in https://github.com/proje<br>ctdiscovery/nuclei/pull/3947  * Fixed <br>SDK issue by adding default resp size <br>to options by @Mzack9999 in https://gi<br>thub.com/projectdiscovery/nuclei/pull/<br>4050    ### 🔨 Maintenance  * __Migrat<br>ed nuclei docs from  to nuclei project<br>__ in https://github.com/projectdiscov<br>ery/nuclei/commit/36af9417bc053691efeb<br>8148a6549228944795cb  * Fixed DSL inte<br>gration tests syntax by @Mzack9999 in <br>https://github.com/projectdiscovery/nu<br>clei/pull/4003  * Fixed default permis<br>sion by @dogancanbakir in https://gith<br>ub.com/projectdiscovery/nuclei/pull/40<br>39    ### Other Changes  * Fixed spell<br>ing mistake by @jsoref in https://gith<br>ub.com/projectdiscovery/nuclei/pull/40<br>08  * Fixed bug in curl command genera<br>tion by @dogancanbakir in https://gith<br>ub.com/projectdiscovery/nuclei/pull/40<br>14  * Fixed removing double slash pref<br>ix in raw request path by @RamanaReddy<br>0M in https://github.com/projectdiscov<br>ery/nuclei/pull/3960  * Fixed edge cas<br>e with disable-path-automerge attribut<br>e by @RamanaReddy0M in https://github.<br>com/projectdiscovery/nuclei/pull/4035 <br>   Issues closed in this release - htt<br>ps://github.com/projectdiscovery/nucle<br>i/milestone/38?closed=1    ## New Cont<br>ributors  * @jsoref made their first c<br>ontribution in https://github.com/proj<br>ectdiscovery/nuclei/pull/4008  * @Ovi3<br> made their first contribution in http<br>s://github.com/projectdiscovery/nuclei<br>/pull/4019  * @seeyarh made their firs<br>t contribution in https://github.com/p<br>rojectdiscovery/nuclei/pull/3986    **<br>Full Changelog**: https://github.com/p<br>rojectdiscovery/nuclei/compare/v2.9.10<br>...v2.9.11|
 |2023-08-18 11:26:34|[PEASS-ng](https://github.com/carlospolop/PEASS-ng)|2023081<br>8-dce666<br>cb||
 |2023-08-18 10:56:18|[safeline](https://github.com/chaitin/safeline)|v3.0.1|- 更新底层语义分析引擎，加强基础防护<br>能力  - 修复站点详情中，不同域名的资源<br>会重复记录问题  - 修复攻击事件有小概率<br>时间排序错误的问题  - 修复关闭再打开频<br>率限制时，配置不会重置到默认值的问题  -<br> 修复首次创建站点且配置 SSL 端口的情况<br>下提示“端口被占用”的问题|
@@ -31,23 +33,27 @@
 |2023-08-06 16:23:25|[dbeaver](https://github.com/dbeaver/dbeaver)|23.1.4|                 - SQL editor:       <br>              - Table alias generation<br> was fixed (issue with duplicated alia<br>ses)                     - Auto-propos<br>als now respect option "empty line is <br>a query delimiter"                    <br> - Auto-proposals calculation performa<br>nce was significantly improved in some<br> cases                     - Aliases c<br>ompletion was fixed (issue with redund<br>ant spaces)                     - Tabl<br>e name completion was fixed for invali<br>d SQL queries                     - Sp<br>elling errors and other annotations no<br>w work in console mode                <br>     - @import command behavior is now<br> configurable                 - Data e<br>ditor:                     - Filters/o<br>rderings/colors reset UI was significa<br>ntly improved                     - Sp<br>atial viewer now hides empty labels   <br>                  - Copying of spatial<br> viewport/selection bounds was fixed  <br>                   - Drag-n-drop in gr<br>ouping panel fixed on Linux           <br>      - Data transfer: previous export<br> settings loading was fixed           <br>      - General:                     -<br> Auto-commit mode switch behavior was <br>fixed                     - CLI proces<br>sing was fixed in multi-workspace envi<br>ronment                     - "Tip of <br>the day" now shows OS-specific shortcu<br>ts corectly                     - Redu<br>ndant logs of SSH tunnel closing were <br>removed                     - Logical <br>database structure settings can be dis<br>abled or reset in the connection edito<br>r dialog                     - Driver <br>search UI was fixed on MacOS          <br>           - Number of minor UI bugs w<br>ere resolved                 - Databas<br>e:                     - Athena: multi<br>-catalog support was added            <br>         - Derby: grouping queries gen<br>eration fixed                     - Du<br>ckDB: time/timestamp data types suppor<br>t was added                     - MySQ<br>L: issue with missing table partitions<br> folder was resolved                  <br>   - Oracle: table DDL shows permissio<br>n grants in "full" mode               <br>      - PostgreSQL: issue with duplica<br>ted tables was resolved               <br>      - Redshift: SQL dialect was enha<br>nced with extra keywords              <br>       - Yellowbrick: execution plan v<br>isualization was fixed             |
 |2023-08-06 06:55:24|[gshark](https://github.com/madneal/gshark)|v1.2.0|* 任务无需通过命令行启动  * 通过 Web <br>直接管理扫描任务|
 |2023-08-06 04:03:14|[goproxy](https://github.com/snail007/goproxy)|v13.7|1、优化授权认证。|
-|2023-08-06 00:20:52|[wappalyzergo](https://github.com/projectdiscovery/wappalyzergo)|v0.0.10<br>8|###  (2023-08-06)|
 |2023-08-05 07:44:59|[slcx](https://github.com/sechelper/slcx)|v1.0.2|23年8月5号更新  - 新增随机生成服务端<br>证书，进一步去除特征  - 修改帮助信息  |
 |2023-08-05 00:41:43|[neuvector](https://github.com/neuvector/neuvector)|v5.2.0-<br>s1||
-|2023-08-04 02:54:50|[Log4j2Scan](https://github.com/whwlsfb/Log4j2Scan)|dev-202<br>30804T02<br>5448||
 ## 近15天commit提交记录
 | 提交时间 | 项目名称 | 更新内容 |
 | :---- | :---- | :---- |
-|2023-08-19 00:00:02|[free](https://github.com/freefq/free)|updated_at 08-19 08:00|
+|2023-08-20 00:19:18|[wappalyzergo](https://github.com/projectdiscovery/wappalyzergo)|Weekly fingerprints update [Sun Aug 20 00:19:18 UTC<br> 2023] :robot:|
+|2023-08-20 00:00:04|[free](https://github.com/freefq/free)|updated_at 08-20 08:00|
+|2023-08-19 23:11:50|[PocOrExp_in_Githu<br>b](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-08-20 07:11:50|
+|2023-08-19 15:53:44|[afrog](https://github.com/zan8in/afrog)|update|
+|2023-08-19 15:16:49|[v2rayA](https://github.com/v2rayA/v2rayA)|chore: upgrade go mod|
+|2023-08-19 14:00:32|[rustdesk](https://github.com/rustdesk/rustdesk)|Merge pull request #5444 from 21pages/fix  encrypt <br>return emtpy if exceed max len to avoid another encr<br>ypt|
+|2023-08-19 12:30:52|[v2rayfree](https://github.com/aiboboxx/v2rayfree)|update|
+|2023-08-19 08:36:56|[naabu](https://github.com/projectdiscovery/naabu)|Merge branch 'dev'|
+|2023-08-19 08:24:20|[sqlmap](https://github.com/sqlmapproject/sqlmap)|Fixes #5483|
+|2023-08-19 07:19:55|[Mobile-Security-F<br>ramework-MobSF](https://github.com/MobSF/Mobile-Security-Framework-MobSF)|[HOTFIX][EFR09] AAR/JAR obfuscation and debug check<br> + Exception Handed strings and symbols extraction (<br>#2240)  * AAR/JAR obfuscation and debug check  * Exc<br>eption handling symbols and strings from so/dylib|
+|2023-08-19 05:14:59|[all-in-one-v2](https://github.com/zaivanza/all-in-one-v2)|add tracks|
 |2023-08-18 23:16:31|[nuclei](https://github.com/projectdiscovery/nuclei)|misc docs update|
-|2023-08-18 23:09:10|[PocOrExp_in_Githu<br>b](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-08-19 07:09:10|
 |2023-08-18 22:20:59|[WebGoat](https://github.com/WebGoat/WebGoat)|chore: bump org.jruby:jruby from 9.4.2.0 to 9.4.3.0<br>  Bumps org.jruby:jruby from 9.4.2.0 to 9.4.3.0.  --<br>- updated-dependencies: - dependency-name: org.jruby<br>:jruby   dependency-type: direct:production   update<br>-type: version-update:semver-patch ...  Signed-off-b<br>y: dependabot[bot] |
 |2023-08-18 20:03:18|[grype](https://github.com/anchore/grype)|fill out new version notice (#1445)  Signed-off-by:<br> Alex Goodman |
 |2023-08-18 20:03:11|[syft](https://github.com/anchore/syft)|fill out new version notice (#2042)  Signed-off-by:<br> Alex Goodman |
-|2023-08-18 15:14:08|[naabu](https://github.com/projectdiscovery/naabu)|Merge branch 'dev'|
 |2023-08-18 13:06:29|[zksync2-python](https://github.com/zksync-sdk/zksync2-python)|docs: add changelog|
-|2023-08-18 12:33:28|[v2rayfree](https://github.com/aiboboxx/v2rayfree)|update|
-|2023-08-18 11:53:06|[rustdesk](https://github.com/rustdesk/rustdesk)|Merge pull request #5437 from 21pages/ab  fix missi<br>ng await in pullAb|
 |2023-08-18 11:51:53|[murphysec](https://github.com/murphysecurity/murphysec)|feat(gradle): add DO_NOT_SCAN_GRADLE|
 |2023-08-18 11:39:46|[safeline](https://github.com/chaitin/safeline)|feat: remove links|
 |2023-08-18 11:19:53|[PEASS-ng](https://github.com/carlospolop/PEASS-ng)|Update linpeas_base.sh|
@@ -58,21 +64,17 @@
 |2023-08-17 12:40:16|[Venom-Transponder](https://github.com/z-bool/Venom-Transponder)|push|
 |2023-08-17 11:49:05|[dbeaver](https://github.com/dbeaver/dbeaver)|CB-3787 add additional parameters for database conf<br>iguration (#20787)  * CB-3787 add additional paramet<br>ers for database configuration    * CB-3787 add url <br>fields    ---------    Co-authored-by: Daria Marutki<br>na |
 |2023-08-17 08:57:20|[trivy](https://github.com/aquasecurity/trivy)|fix(server): add indirect prop to package (#4974)  <br>* fix(server): add indirect prop to package  * fix(s<br>erver): fix test|
-|2023-08-17 07:21:05|[all-in-one-v2](https://github.com/zaivanza/all-in-one-v2)|fix swap_all_balance|
 |2023-08-17 06:24:22|[impacket](https://github.com/fortra/impacket)|Merge pull request #1550 from Adamkadaban/master  A<br>dded query information level 0x0109 for smb1 "SMB_QU<br>ERY_FILE_STREAM_INFO"|
 |2023-08-17 04:35:47|[iDefender](https://github.com/wecooperate/iDefender)|update|
 |2023-08-17 03:46:22|[neuvector](https://github.com/neuvector/neuvector)|Merge pull request #954 from becitsthere/dev  NVSHA<br>S-8106: Prefer manifest v2 cmds|
-|2023-08-16 21:42:30|[Mobile-Security-F<br>ramework-MobSF](https://github.com/MobSF/Mobile-Security-Framework-MobSF)|HOTFIX: fix IPA download support|
 |2023-08-16 12:31:21|[nemo_go](https://github.com/hanc00l/nemo_go)|Update: 对FOFA自定义关键词进行界面的优化|
 |2023-08-16 12:16:57|[gshark](https://github.com/madneal/gshark)|add log information for nil database|
-|2023-08-16 10:43:55|[sqlmap](https://github.com/sqlmapproject/sqlmap)|Fixes #5493|
 |2023-08-16 09:54:24|[domain_hunter_pro](https://github.com/bit4woo/domain_hunter_pro)|copy 任意指定header的值|
 |2023-08-16 08:22:56|[PeiQi-WIKI-Book](https://github.com/PeiQi0/PeiQi-WIKI-Book)|漏洞相关:亿赛通,LiveBOS|
 |2023-08-16 08:19:15|[FreeRDP](https://github.com/FreeRDP/FreeRDP)|[winpr] cipher enable setting the padding option  I<br>t happens that with some ciphers the standard behavi<br>our that disables padding is not desired. This patch<br> adds a function to enable padding.|
 |2023-08-16 02:43:03|[Platypus](https://github.com/WangYihang/Platypus)|build(deps): bump word-wrap from 1.2.3 to 1.2.4 in <br>/web/frontend (#196)  Bumps  from 1.2.3 to 1.2.4.  -<br>   -     ---  updated-dependencies:  - dependency-na<br>me: word-wrap    dependency-type: indirect  ...    S<br>igned-off-by: dependabot[bot]   Co-authored-by: depe<br>ndabot[bot] |
 |2023-08-16 02:07:01|[ENScan_GO](https://github.com/wgpsec/ENScan_GO)|修复AQC查询BUG 还是需要挂上burp fix #77|
 |2023-08-15 19:51:10|[clair](https://github.com/quay/clair)|config: fix typo  Signed-off-by: Mark Frost |
-|2023-08-15 10:47:28|[v2rayA](https://github.com/v2rayA/v2rayA)|Merge pull request #1035 from v2rayA/feat_v5  ci(re<br>lease_feat_v5): Fixed GitHub releases|
 |2023-08-15 09:23:53|[Elkeid](https://github.com/bytedance/Elkeid)|change CDN url of php headers|
 |2023-08-15 02:29:13|[appshark](https://github.com/bytedance/appshark)|bugfix: sanitizer's taintCheck error|
 |2023-08-15 01:44:12|[ObserverWard](https://github.com/0x727/ObserverWard)|Update README.md|
@@ -84,11 +86,9 @@
 |2023-08-14 03:21:50|[FrameVul](https://github.com/Awrrays/FrameVul)|Add files via upload|
 |2023-08-14 03:10:38|[frp](https://github.com/fatedier/frp)|support go1.21 (#3573)|
 |2023-08-14 02:12:29|[malwoverview](https://github.com/alexandreborges/malwoverview)|Malwoverview|
-|2023-08-13 14:57:33|[afrog](https://github.com/zan8in/afrog)|update|
 |2023-08-13 12:33:36|[Apt_t00ls](https://github.com/White-hua/Apt_t00ls)|Update README.md|
 |2023-08-13 07:52:14|[Exp-Tools](https://github.com/cseroad/Exp-Tools)|Update README.md|
 |2023-08-13 00:50:23|[Dirscan](https://github.com/corunb/Dirscan)|v1.5.2-修复递归扫描已知bug|
-|2023-08-13 00:19:13|[wappalyzergo](https://github.com/projectdiscovery/wappalyzergo)|Weekly fingerprints update [Sun Aug 13 00:19:13 UTC<br> 2023] :robot:|
 |2023-08-12 18:10:07|[subfinder](https://github.com/projectdiscovery/subfinder)|version update|
 |2023-08-12 05:15:05|[mitaka](https://github.com/ninoseki/mitaka)|Merge pull request #748 from ninoseki/update-ioc-ex<br>tractor  chore: update ioc-extractor|
 |2023-08-11 16:53:23|[dalfox](https://github.com/hahwul/dalfox)|Merge pull request #486 from hahwul/dependabot/go_m<br>odules/github.com/chromedp/chromedp-0.9.2  Bump gith<br>ub.com/chromedp/chromedp from 0.9.1 to 0.9.2|
@@ -113,12 +113,7 @@
 |2023-08-06 14:55:15|[awesome-chatgpt-z<br>h](https://github.com/yzfly/awesome-chatgpt-zh)|add MeatGPT, jupyter-ai|
 |2023-08-06 04:13:27|[captcha-killer-mo<br>dified](https://github.com/f0ng/captcha-killer-modified)|Update FAQ.md|
 |2023-08-05 10:41:22|[goproxy](https://github.com/snail007/goproxy)|update|
-|2023-08-05 07:52:12|[slcx](https://github.com/sechelper/slcx)|update ssh login port|
-|2023-08-04 14:50:11|[superSearchPlus](https://github.com/dark-kingA/superSearchPlus)|Update README.md|
-|2023-08-04 13:50:07|[BurpSuite-collect<br>ions](https://github.com/Mr-xn/BurpSuite-collections)|Update README.md|
-|2023-08-04 06:20:58|[kscan](https://github.com/lcvvvv/kscan)|Merge pull request #149 from ruishawn/dev  fix: the<br> judgment condition is always true in function recvP<br>rotocolVe…|
-|2023-08-04 02:54:16|[Log4j2Scan](https://github.com/whwlsfb/Log4j2Scan)|Update compile.yml|
-|2023-08-04 02:53:50|[BurpCrypto](https://github.com/whwlsfb/BurpCrypto)|Update compile.yml|## 所有项目
+|2023-08-05 07:52:12|[slcx](https://github.com/sechelper/slcx)|update ssh login port|## 所有项目
 # 渗透测试
 ## 信息收集
 ### 资产测绘采集
@@ -167,7 +162,7 @@
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
 | [EHole](https://github.com/EdgeSecurityTeam/EHole) | v3.1 | EHole(棱洞)3.0 重构版-红队重点攻击系统指纹探测工具 |
-| [wappalyzergo](https://github.com/projectdiscovery/wappalyzergo) | v0.0.10<br>8 | A high performance go implementation of Wappalyzer Technology <br>Detection Library |
+| [wappalyzergo](https://github.com/projectdiscovery/wappalyzergo) | v0.0.10<br>9 | A high performance go implementation of Wappalyzer Technology <br>Detection Library |
 | [14Finger](https://github.com/b1ackc4t/14Finger) | V1.1 | 功能齐全的Web指纹识别和分享平台,基于vue3+django前后端分离的web<br>架构，并集成了长亭出品的rad爬虫的功能，内置了一万多条互联网开源<br>的指纹信息。 |
 | [WhatWeb](https://github.com/urbanadventurer/WhatWeb) | v0.5.5 | Next generation web scanner |
 | [TideFinger](https://github.com/TideSec/TideFinger) |  | TideFinger——指纹识别小工具，汲取整合了多个web指纹库，结合了<br>多种指纹检测方法，让指纹检测更快捷、准确。 |
@@ -187,7 +182,7 @@
 | [webfinder-next](https://github.com/Liqunkit/webfinder-next) |  | 对小米范webfinder http://www.cnblogs.com/SEC-fsq/p/5610981.htm<br>l 进行了小修改 |
 | [yujianportscan](https://github.com/foryujian/yujianportscan) |  | 一个基于VB.NET + IOCP模型开发的高效端口扫描工具，支持IP区间合<br>并，端口区间合并，端口指纹深度探测 |
 | [TXPortMap](https://github.com/4dogs-cn/TXPortMap) | v1.1.2 | Port Scanner & Banner Identify From TianXiang |
-| [naabu](https://github.com/projectdiscovery/naabu) | v2.1.6 | A fast port scanner written in go with a focus on reliability <br>and simplicity. Designed to be used in combination with other t<br>ools for attack surface discovery in bug bounties and pentests |
+| [naabu](https://github.com/projectdiscovery/naabu) | v2.1.7 | A fast port scanner written in go with a focus on reliability <br>and simplicity. Designed to be used in combination with other t<br>ools for attack surface discovery in bug bounties and pentests |
 | [scaninfo](https://github.com/redtoolskobe/scaninfo) | v1.1.0 | fast scan for redtools |
 | [portscan](https://github.com/20142995/portscan) |  |  |
 ### 综合

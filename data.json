@@ -200,8 +200,8 @@
     "https://github.com/ycdxsb/PocOrExp_in_Github": {
         "created_at": "2021-04-13 05:46:16",
         "description": "聚合Github上已有的Poc或者Exp，CVE信息来自CVE官网。Auto Collect Poc Or Exp from Github by CVE ID.",
-        "commit_date": "2023-08-18 23:09:10",
-        "commit_message": "update 2023-08-19 07:09:10",
+        "commit_date": "2023-08-19 23:11:50",
+        "commit_message": "update 2023-08-20 07:11:50",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -981,8 +981,8 @@
     "https://github.com/sqlmapproject/sqlmap": {
         "created_at": "2012-06-26 09:52:15",
         "description": "Automatic SQL injection and database takeover tool",
-        "commit_date": "2023-08-16 10:43:55",
-        "commit_message": "Fixes #5493",
+        "commit_date": "2023-08-19 08:24:20",
+        "commit_message": "Fixes #5483",
         "release_tag": "1.7",
         "release_date": "2023-01-02 22:32:55",
         "release_message": "Stable version 1.7 ([changeset](https://github.com/sqlmapproject/sqlmap/compare/1.6...1.7))"
@@ -1071,8 +1071,8 @@
     "https://github.com/v2rayA/v2rayA": {
         "created_at": "2019-10-18 20:42:06",
         "description": "A web GUI client of Project V which supports V2Ray, Xray, SS, SSR, Trojan and Juicity. 🚀🚀",
-        "commit_date": "2023-08-15 10:47:28",
-        "commit_message": "Merge pull request #1035 from v2rayA/feat_v5\n\nci(release_feat_v5): Fixed GitHub releases",
+        "commit_date": "2023-08-19 15:16:49",
+        "commit_message": "chore: upgrade go mod",
         "release_tag": "v2.1.3",
         "release_date": "2023-08-12 17:23:55",
         "release_message": "**Compared to v2.1.2, this release fixes supervisor panic and creating Juicity node in pannel problem**\r\n\r\n## 更新内容\r\n* 支持 [Juicity](https://github.com/juicity/juicity)。\r\n\r\n## What's Changed\r\n* fix: Farsi language standard flag. by @neilbowman666 in https://github.com/v2rayA/v2rayA/pull/1011\r\n* feat(protocol): support [Juicity](https://github.com/juicity/juicity) in https://github.com/v2rayA/v2rayA/commit/0e4803cc98926e56aa55ee8f65a8db0ee23a6040\r\n\r\n## New Contributors\r\n* @neilbowman666 made their first contribution in https://github.com/v2rayA/v2rayA/pull/1011\r\n\r\n**Full Changelog**: https://github.com/v2rayA/v2rayA/compare/v2.1.0...v2.1.3"
@@ -3050,7 +3050,7 @@
     "https://github.com/zan8in/afrog": {
         "created_at": "2022-02-24 06:00:32",
         "description": "A Security Tool for Bug Bounty, Pentest and Red Teaming.",
-        "commit_date": "2023-08-13 14:57:33",
+        "commit_date": "2023-08-19 15:53:44",
         "commit_message": "update",
         "release_tag": "v2.7.8",
         "release_date": "2023-08-09 13:53:39",
@@ -3505,11 +3505,11 @@
     "https://github.com/projectdiscovery/naabu": {
         "created_at": "2020-01-21 10:56:32",
         "description": "A fast port scanner written in go with a focus on reliability and simplicity. Designed to be used in combination with other tools for attack surface discovery in bug bounties and pentests",
-        "commit_date": "2023-08-18 15:14:08",
+        "commit_date": "2023-08-19 08:36:56",
         "commit_message": "Merge branch 'dev'",
-        "release_tag": "v2.1.6",
-        "release_date": "2023-04-30 15:08:56",
-        "release_message": "## What's Changed\r\n* Fixed an issue with `-ec` option by @RamanaReddy0M in https://github.com/projectdiscovery/naabu/pull/637\r\n* Fixed an issue with `-eh` option by @iamargus95 in https://github.com/projectdiscovery/naabu/pull/640\r\n* Fixed an issue with `-stats` option by @Mzack9999 in https://github.com/projectdiscovery/naabu/pull/639\r\n\r\nIssues closed in this release - https://github.com/projectdiscovery/naabu/milestone/7\r\n\r\n## New Contributors\r\n* @iamargus95 made their first contribution in https://github.com/projectdiscovery/naabu/pull/640\r\n\r\n**Full Changelog**: https://github.com/projectdiscovery/naabu/compare/v2.1.5...v2.1.6"
+        "release_tag": "v2.1.7",
+        "release_date": "2023-08-19 08:45:57",
+        "release_message": "<!-- Release notes generated using configuration in .github/release.yml at main -->\r\n\r\n## What's Changed\r\n### 🎉 New Features\r\n\r\n* Added support for `[host|ip]:port` format input by @Mzack9999 in https://github.com/projectdiscovery/naabu/pull/767\r\n```console\r\necho google.com:443 | ./naabu -silent\r\necho 142.250.183.174:443 | ./naabu -silent\r\necho 142.250.183.174:443 | ./naabu -silent -p 80\r\n```\r\n\r\n### 🔨 Maintenance\r\n* Added more test coverage by @Mzack9999 in https://github.com/projectdiscovery/naabu/pull/708\r\n* Added arm64 on linux goreleaser by @Mzack9999 in https://github.com/projectdiscovery/naabu/pull/716\r\n* Added `ValidateOptions` method for use as go library by @Y4er in https://github.com/projectdiscovery/naabu/pull/762\r\n* Updated JSONL representation of `port` and `protocol` by @kimtruth in https://github.com/projectdiscovery/naabu/pull/729\r\n* Removed sudo in brew install by @sttlr in https://github.com/projectdiscovery/naabu/pull/742\r\n\r\n### Other Changes\r\n* Fixed issue with `-ec` option to exclude WAF by @JoshuaMart in https://github.com/projectdiscovery/naabu/pull/749\r\n* Added open ports to scan result on privileged by @RamanaReddy0M in https://github.com/projectdiscovery/naabu/pull/638\r\n\r\nIssues closed in this release - https://github.com/projectdiscovery/naabu/milestone/8?closed=1\r\n\r\n## New Contributors\r\n* @kimtruth made their first contribution in https://github.com/projectdiscovery/naabu/pull/729\r\n* @sttlr made their first contribution in https://github.com/projectdiscovery/naabu/pull/742\r\n* @Y4er made their first contribution in https://github.com/projectdiscovery/naabu/pull/762\r\n* @JoshuaMart made their first contribution in https://github.com/projectdiscovery/naabu/pull/749\r\n\r\n**Full Changelog**: https://github.com/projectdiscovery/naabu/compare/v2.1.6...v2.1.7\r\n"
     },
     "https://github.com/Threekiii/Awesome-Exploit": {
         "created_at": "2022-04-22 02:08:08",
@@ -4277,7 +4277,7 @@
     "https://github.com/aiboboxx/v2rayfree": {
         "created_at": "2021-10-13 11:34:53",
         "description": "v2ray节点、v2ray免费节点、免费v2ray节点、最新公益免费v2ray节点订阅地址、免费v2ray节点每日更新、免费ss/v2ray/trojan节点、freefq ",
-        "commit_date": "2023-08-18 12:33:28",
+        "commit_date": "2023-08-19 12:30:52",
         "commit_message": "update",
         "release_tag": "",
         "release_date": "",
@@ -4322,8 +4322,8 @@
     "https://github.com/freefq/free": {
         "created_at": "2020-06-07 02:48:33",
         "description": "翻墙、免费翻墙、免费科学上网、免费节点、免费梯子、免费ss/v2ray/trojan节点、蓝灯、谷歌商店、翻墙梯子",
-        "commit_date": "2023-08-19 00:00:02",
-        "commit_message": "updated_at 08-19 08:00",
+        "commit_date": "2023-08-20 00:00:04",
+        "commit_message": "updated_at 08-20 08:00",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -4529,8 +4529,8 @@
     "https://github.com/MobSF/Mobile-Security-Framework-MobSF": {
         "created_at": "2015-01-31 04:36:01",
         "description": "Mobile Security Framework (MobSF) is an automated, all-in-one mobile application (Android/iOS/Windows) pen-testing, malware analysis and security assessment framework capable of performing static and dynamic analysis.",
-        "commit_date": "2023-08-16 21:42:30",
-        "commit_message": "HOTFIX: fix IPA download support",
+        "commit_date": "2023-08-19 07:19:55",
+        "commit_message": "[HOTFIX][EFR09] AAR/JAR obfuscation and debug check + Exception Handed strings and symbols extraction (#2240)\n\n* AAR/JAR obfuscation and debug check\r\n* Exception handling symbols and strings from so/dylib",
         "release_tag": "v3.6.9",
         "release_date": "2023-07-23 19:43:02",
         "release_message": "### v3.6.9 Beta Changelog\r\n\r\n- Features or Enhancements\r\n   - New Simplified and Updated Documentation https://mobsf.github.io/docs/#/\r\n   - MobSF Dynamic Analysis support for Docker image\r\n   - Updated Documentation to include support for Corellium ARM64 Android VMs\r\n   - Add support for environment variables to configure MobSF\r\n   - Android SCA extract icon from SVG\r\n   - OFAC Sanctioned Country Check\r\n   - Improved Android Certificate Analysis\r\n   - Updated Android Manifest Analysis Rules\r\n   - Enterprise Feature Request\r\n      - Summary of Findings under each section\r\n      - Support for independent scanning of AAR ad JAR files.\r\n\r\n## What's Changed\r\n* Adding numeric_owner as a keyword argument by @TrellixVulnTeam in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2050\r\n* Scheduled weekly dependency update for week 41 by @pyup-bot in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2046\r\n* HOTFIX: UI changes and warning on mobsf.live by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2051\r\n* Split certificate analysis out, suppression list fixes by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2052\r\n* hotfix for quark rules location by @superpoussin22 in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2053\r\n* HOTFIX: jadx update to 1.4.5  by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2064\r\n* Installation script error: Solving spelling error by @th3-d4v1d-c0de in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2067\r\n* Android APK support extracting icon SVG from XML by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2060\r\n* HOTFIX: Setup improvement by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2078\r\n* Apktool 2.7.0 update by @superpoussin22 in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2082\r\n* New Android Manifest Rule: App support vulnerable android versions by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2114\r\n* Fix for filenames containing ampersand by @evmxattr in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2129\r\n* HOTFIX - Fix broken docker builds by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2135\r\n* Fix Scorecard Severity Distribution chart data by @antoinbo in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2140\r\n* HOTIX: Update Dockerfile to install jq by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2149\r\n* [HOTFIX] Add support for environment variable for MobSF config by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2150\r\n* HOTFIX: Android min SDK check on janus vulnerability detection by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2159\r\n* [Enterprise Feature Request EFR02] Support summary of severity in each section. by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2160\r\n* [EFR05] Enterprise Feature Request: AAR and JAR support by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2163\r\n* Scheduled weekly dependency update for week 24 by @pyup-bot in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2187\r\n* Feature updates and Bug Fixes by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2197\r\n* HOTFIX: MobSF Android Dynamic Analysis Docker Support by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2214\r\n\r\n## New Contributors\r\n* @th3-d4v1d-c0de made their first contribution in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2067\r\n* @evmxattr made their first contribution in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2129\r\n* @antoinbo made their first contribution in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2140\r\n\r\n**Full Changelog**: https://github.com/MobSF/Mobile-Security-Framework-MobSF/compare/v3.6.0...v3.6.9"
@@ -4781,8 +4781,8 @@
     "https://github.com/zaivanza/all-in-one-v2": {
         "created_at": "2023-04-29 09:03:49",
         "description": "",
-        "commit_date": "2023-08-17 07:21:05",
-        "commit_message": "fix swap_all_balance",
+        "commit_date": "2023-08-19 05:14:59",
+        "commit_message": "add tracks",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -5004,8 +5004,8 @@
     "https://github.com/rustdesk/rustdesk": {
         "created_at": "2020-09-28 15:36:08",
         "description": "An open-source remote desktop, and alternative to TeamViewer.",
-        "commit_date": "2023-08-18 11:53:06",
-        "commit_message": "Merge pull request #5437 from 21pages/ab\n\nfix missing await in pullAb",
+        "commit_date": "2023-08-19 14:00:32",
+        "commit_message": "Merge pull request #5444 from 21pages/fix\n\nencrypt return emtpy if exceed max len to avoid another encrypt",
         "release_tag": "1.2.1",
         "release_date": "2023-07-12 07:28:05",
         "release_message": "\r\n![image](https://github.com/rustdesk/rustdesk/assets/71636191/b444deab-7971-4de7-b315-6a9b4974c7ea)\r\n\r\n> Winget, FDroid, Apple Sillicon, Google Play / App Store update will come soon.\r\n\r\nx86-64: [Windows](https://github.com/rustdesk/rustdesk/releases/download/1.2.1/rustdesk-1.2.1-x86_64.exe) | [Ubuntu](https://github.com/rustdesk/rustdesk/releases/download/1.2.1/rustdesk-1.2.1-x86_64.deb) | [Mac](https://github.com/rustdesk/rustdesk/releases/download/1.2.1/rustdesk-1.2.1-x86_64.dmg)\r\nAArch64 (ARM64):  [Ubuntu](https://github.com/rustdesk/rustdesk/releases/download/1.2.1/rustdesk-1.2.1-aarch64.deb) | [Android](https://github.com/rustdesk/rustdesk/releases/download/1.2.1/rustdesk-1.2.1-aarch64-signed.apk)\r\nMore: [check below please](#)\r\n\r\n<details>\r\n<summary>Changelog</summary>\r\n\r\n- fix #4856 \r\n- fix #4866 \r\n- fix email login verfication bug on mobile #4874, and fix email login verification wrong error message\r\n- refactor chat notification both on mobile and desktop #4878 #4889 #4943\r\n- fix #4890 \r\n- fix privacy broker zombie process #4916 \r\n- improve remote menubar #4922\r\n- try to fix issue #3261 with new api, but not sure if it works\r\n- adjust tab theme to make it more clear\r\n- partially fix #4896 \r\n- fix #4880 \r\n- refactor id inputbox on mobile\r\n\r\n</details>\r\n"
@@ -5272,11 +5272,11 @@
     "https://github.com/projectdiscovery/wappalyzergo": {
         "created_at": "2021-04-06 09:54:00",
         "description": "A high performance go implementation of Wappalyzer Technology Detection Library",
-        "commit_date": "2023-08-13 00:19:13",
-        "commit_message": "Weekly fingerprints update [Sun Aug 13 00:19:13 UTC 2023] :robot:",
-        "release_tag": "v0.0.108",
-        "release_date": "2023-08-06 00:20:52",
-        "release_message": "### [0.0.108](https://github.com/projectdiscovery/wappalyzergo/compare/v0.0.107...v0.0.108) (2023-08-06)"
+        "commit_date": "2023-08-20 00:19:18",
+        "commit_message": "Weekly fingerprints update [Sun Aug 20 00:19:18 UTC 2023] :robot:",
+        "release_tag": "v0.0.109",
+        "release_date": "2023-08-20 00:19:37",
+        "release_message": "### [0.0.109](https://github.com/projectdiscovery/wappalyzergo/compare/v0.0.108...v0.0.109) (2023-08-20)"
     },
     "https://github.com/cseroad/Webshell_Generate": {
         "created_at": "2022-05-19 05:27:44",
