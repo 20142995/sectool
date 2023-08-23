@@ -200,8 +200,8 @@
     "https://github.com/ycdxsb/PocOrExp_in_Github": {
         "created_at": "2021-04-13 05:46:16",
         "description": "聚合Github上已有的Poc或者Exp，CVE信息来自CVE官网。Auto Collect Poc Or Exp from Github by CVE ID.",
-        "commit_date": "2023-08-21 23:12:42",
-        "commit_message": "update 2023-08-22 07:12:42",
+        "commit_date": "2023-08-22 23:08:36",
+        "commit_message": "update 2023-08-23 07:08:36",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -828,8 +828,8 @@
     "https://github.com/murphysecurity/murphysec": {
         "created_at": "2022-03-16 02:52:33",
         "description": "An open source tool focused on software supply chain security. 墨菲安全专注于软件供应链安全，具备专业的软件成分分析（SCA）、漏洞检测、专业漏洞库。",
-        "commit_date": "2023-08-21 08:51:22",
-        "commit_message": "feat(cli): env TLE_ALLOW_INSECURE",
+        "commit_date": "2023-08-22 06:24:19",
+        "commit_message": "chore(deps): upgrade dependencies...",
         "release_tag": "v3.1.1",
         "release_date": "2023-05-15 12:52:58",
         "release_message": "Support NPM lockfile v3 "
@@ -999,7 +999,7 @@
     "https://github.com/LittleBear4/OA-EXPTOOL": {
         "created_at": "2022-10-13 12:31:21",
         "description": "OA综合利用工具，集合将近20款OA漏洞批量扫描",
-        "commit_date": "2023-08-21 08:01:06",
+        "commit_date": "2023-08-22 02:09:58",
         "commit_message": "Add files via upload",
         "release_tag": "0.83",
         "release_date": "2023-08-21 03:14:36",
@@ -1073,9 +1073,9 @@
         "description": "A web GUI client of Project V which supports V2Ray, Xray, SS, SSR, Trojan and Juicity. 🚀🚀",
         "commit_date": "2023-08-21 14:26:54",
         "commit_message": "chore: bump quic-go to v0.38.0",
-        "release_tag": "v2.2.0",
-        "release_date": "2023-08-19 13:47:29",
-        "release_message": "* 修复 ssr 问题\r\n* 支持 tuic 协议\r\n\r\n## What's Changed\r\n* chore(deps): bump decode-uri-component from 0.2.0 to 0.2.2 in /gui by @dependabot in https://github.com/v2rayA/v2rayA/pull/731\r\n* chore(deps): bump github.com/gin-gonic/gin from 1.7.1 to 1.7.7 in /service by @dependabot in https://github.com/v2rayA/v2rayA/pull/817\r\n* chore(deps): bump word-wrap from 1.2.3 to 1.2.5 in /gui by @dependabot in https://github.com/v2rayA/v2rayA/pull/1019\r\n* chore(deps): bump github.com/gin-gonic/gin from 1.7.7 to 1.9.1 in /service by @dependabot in https://github.com/v2rayA/v2rayA/pull/1021\r\n* chore(deps): bump word-wrap from 1.2.3 to 1.2.5 in /ngui by @dependabot in https://github.com/v2rayA/v2rayA/pull/1023\r\n* ci(release_feat_v5.yml): update by @MarksonHon in https://github.com/v2rayA/v2rayA/pull/1032\r\n* ci(release_feat_v5): Fixed GitHub releases by @MarksonHon in https://github.com/v2rayA/v2rayA/pull/1035\r\n* fix(ssr): broken ssr dialer\r\n* feat(tuic): support tuic protocol\r\n\r\n\r\n**Full Changelog**: https://github.com/v2rayA/v2rayA/compare/v2.1.3...v2.2.0"
+        "release_tag": "v2.2.1",
+        "release_date": "2023-08-21 12:35:40",
+        "release_message": "## What's Changed\r\n* fix a bug in /build.sh by @youcancharm in https://github.com/v2rayA/v2rayA/pull/1041\r\n* ci(release_feat_v5): Fix APT repo and AUR by @MarksonHon in https://github.com/v2rayA/v2rayA/pull/1044\r\n* chore(deps): bump webpack from 5.75.0 to 5.88.2 in /gui by @dependabot in https://github.com/v2rayA/v2rayA/pull/1026\r\n\r\n## New Contributors\r\n* @youcancharm made their first contribution in https://github.com/v2rayA/v2rayA/pull/1041\r\n\r\n**Full Changelog**: https://github.com/v2rayA/v2rayA/compare/v2.2.0...v2.2.1"
     },
     "https://github.com/silentsignal/burp-text4shell": {
         "created_at": "2022-10-18 15:07:57",
@@ -1485,8 +1485,8 @@
     "https://github.com/lcvvvv/kscan": {
         "created_at": "2021-01-25 02:15:36",
         "description": "Kscan是一款纯go开发的全方位扫描器，具备端口扫描、协议检测、指纹识别，暴力破解等功能。支持协议1200+，协议指纹10000+，应用指纹20000+，暴力破解协议10余种。",
-        "commit_date": "2023-08-04 06:20:58",
-        "commit_message": "Merge pull request #149 from ruishawn/dev\n\nfix: the judgment condition is always true in function recvProtocolVe…",
+        "commit_date": "2023-08-22 10:45:48",
+        "commit_message": "Update README.md",
         "release_tag": "v1.85",
         "release_date": "2022-10-31 00:21:27",
         "release_message": "下一个版本将启用exploit功能，可以期待一下\r\n\r\n - 修复若干Bug\r\n - 新增-oC参数，将通过csv的格式保存扫描结果"
@@ -2951,8 +2951,8 @@
     "https://github.com/dbeaver/dbeaver": {
         "created_at": "2015-10-21 08:26:28",
         "description": "Free universal database tool and SQL client",
-        "commit_date": "2023-08-21 15:49:13",
-        "commit_message": "Merge branch 'devel' of https://github.com/dbeaver/dbeaver into devel",
+        "commit_date": "2023-08-22 12:35:37",
+        "commit_message": "#20924 set property name for a plan node (#20940)\n\nCo-authored-by: Matvey16 <82543000+Matvey16@users.noreply.github.com>",
         "release_tag": "23.1.5",
         "release_date": "2023-08-20 19:54:12",
         "release_message": "\n                - Data editor:\n                    - Dictionary viewer panel UI was redesigned\n                    - Spatial data types: curved geometries linearizing was fixed\n                    - Issue was result tab close on data save was resolved\n                    - Column tooltips was fixed\n                    - Charts rendering errors visualization was improved\n                - SQL editor:\n                    - Autocompletion in single-line comments was fixed\n                    - Variable value editor was fixed\n                    - Smart completion for CTE queries (WITH/SELECT) was fixed\n                    - @include command handler was fixed (reuse the console for the same included script)\n                    - INSERT SQL query generation was fixed (identity columns)\n                    - Issue with text search/replace in hidden files was fixed\n                - ERD editor: grid foreground color was fixed\n                - General UI:\n                    - Objects sorting in tables now can be reset to the original ordering\n                    - Network handlers (SSH, SSL, etc) UI was redesigned\n                    - New object creation shortcut was added (Alt+Insert)\n                    - External files opening was fixed on MacOS and Linux\n                    - Command line connection opening was fixed\n                    - User name/password prompt dialog as fixed for SSH tunnels\n                    - Issue with preference pages in Eclipse plugin was resolved\n                - Accessibility:\n                    - JAWS and Narrator support was improved for data editor and vertical tabs\n                    - High contrast theme support was significantly improved\n                - Databases:\n                    - Clickhouse: map and array data types visualization was added\n                    - Greenplum: tables DDL was fixed (for version 7)\n                    - OpenGauss DB: json data types support was added\n                    - PostgreSQL: default native clients (pgsql, pg_dump) version was changed to 15\n                    - Yellowbrick: stored procedures drop query was fixed\n                - Localization:\n                    - Chinese localization was updated (thanks to @bianyun)\n            "
@@ -3095,11 +3095,11 @@
     "https://github.com/projectdiscovery/nuclei": {
         "created_at": "2020-04-03 18:47:11",
         "description": "Fast and customizable vulnerability scanner based on simple YAML based DSL.",
-        "commit_date": "2023-08-18 23:16:31",
-        "commit_message": "misc docs update",
-        "release_tag": "v2.9.11",
-        "release_date": "2023-08-18 21:50:24",
-        "release_message": "<!-- Release notes generated using configuration in .github/release.yml at main -->\r\n\r\n## What's Changed\r\n\r\n### :tada: New Feature\r\n* __Added request/response in JSONL output for failed match with `-ms` option__ by @seeyarh in https://github.com/projectdiscovery/nuclei/pull/3986\r\n\r\n### 🐞 Bug Fixes\r\n* __Fixed issues with interactsh integration to improve matcher accuracy__ by @tarunKoyalwar in https://github.com/projectdiscovery/nuclei/pull/4059\r\n* Fixed issue with using interactsh matcher with request condition by @tarunKoyalwar in https://github.com/projectdiscovery/nuclei/pull/4064\r\n* Fixed `reference` info nil pointer dereference with `-me` option by @lu4nx in https://github.com/projectdiscovery/nuclei/pull/4006\r\n* Fixed issue transfer encoding header by @cn-kali-team in https://github.com/projectdiscovery/nuclei/pull/3947\r\n* Fixed SDK issue by adding default resp size to options by @Mzack9999 in https://github.com/projectdiscovery/nuclei/pull/4050\r\n\r\n### 🔨 Maintenance\r\n* __Migrated nuclei docs from [nuclei-docs](https://github.com/projectdiscovery/nuclei-docs) to nuclei project__ in https://github.com/projectdiscovery/nuclei/commit/36af9417bc053691efeb8148a6549228944795cb\r\n* Fixed DSL integration tests syntax by @Mzack9999 in https://github.com/projectdiscovery/nuclei/pull/4003\r\n* Fixed default permission by @dogancanbakir in https://github.com/projectdiscovery/nuclei/pull/4039\r\n\r\n### Other Changes\r\n* Fixed spelling mistake by @jsoref in https://github.com/projectdiscovery/nuclei/pull/4008\r\n* Fixed bug in `curl` command generation by @dogancanbakir in https://github.com/projectdiscovery/nuclei/pull/4014\r\n* Fixed removing double slash prefix in raw request path by @RamanaReddy0M in https://github.com/projectdiscovery/nuclei/pull/3960\r\n* Fixed edge case with `disable-path-automerge` attribute by @RamanaReddy0M in https://github.com/projectdiscovery/nuclei/pull/4035\r\n\r\nIssues closed in this release - https://github.com/projectdiscovery/nuclei/milestone/38?closed=1\r\n\r\n## New Contributors\r\n* @jsoref made their first contribution in https://github.com/projectdiscovery/nuclei/pull/4008\r\n* @Ovi3 made their first contribution in https://github.com/projectdiscovery/nuclei/pull/4019\r\n* @seeyarh made their first contribution in https://github.com/projectdiscovery/nuclei/pull/3986\r\n\r\n**Full Changelog**: https://github.com/projectdiscovery/nuclei/compare/v2.9.10...v2.9.11"
+        "commit_date": "2023-08-22 11:16:40",
+        "commit_message": "Merge branch 'dev'",
+        "release_tag": "v2.9.12",
+        "release_date": "2023-08-22 11:23:38",
+        "release_message": "<!-- Release notes generated using configuration in .github/release.yml at main -->\r\n\r\n## What's Changed\r\n### 🐞 Bug Fixes\r\n* Fixed https://github.com/projectdiscovery/nuclei/issues/4025 panic crash in https://github.com/projectdiscovery/dsl/pull/80 by @Mzack9999\r\n\r\n### Other Changes\r\n* Fixed broken image link in `TestActionGetResource` test by @tarunKoyalwar in https://github.com/projectdiscovery/nuclei/pull/4075\r\n\r\n\r\n**Full Changelog**: https://github.com/projectdiscovery/nuclei/compare/v2.9.11...v2.9.12"
     },
     "https://github.com/sleeyax/burp-awesome-tls": {
         "created_at": "2022-01-24 00:30:26",
@@ -3406,8 +3406,8 @@
     "https://github.com/bit4woo/domain_hunter_pro": {
         "created_at": "2019-01-18 07:15:15",
         "description": "domain_hunter的高级版本，SRC挖洞、HW打点之必备！自动化资产收集；快速Title获取；外部工具联动；等等",
-        "commit_date": "2023-08-16 09:54:24",
-        "commit_message": "copy 任意指定header的值",
+        "commit_date": "2023-08-22 06:54:25",
+        "commit_message": "update",
         "release_tag": "v1.9",
         "release_date": "2023-04-18 00:34:58",
         "release_message": "全局：\r\n多个bug修复\r\n布局模式优化\r\n基础方法实现逻辑优化\r\n\r\n右键菜单：\r\n“Do Search”提供主动在制定请求中进行搜索的能力，比如在某企业邮箱的流量中搜索以提取邮箱地址\r\n“Add Request And Comment”右键菜单添逻辑优化，修复一个bug\r\n“Send To Tool Panel”右键菜单处理逻辑优化，可合并发送多个数据包内容\r\n\r\nDomain面板：\r\nroot domain的comments逻辑更新\r\n提供多个网络搜索引擎的后台自动搜索功能\r\nroot domain双击，自动在浏览器中访问\r\n修改目标根域名删除失败的bug\r\n显示序号，以便在排序后恢复原始顺序\r\n\r\nTool面板：\r\n重写JTextArea的paste函数，避免大内容导致程序卡死\r\nJTextArea支持输入文件，而程序处理其内容。\r\n文本取提供简单的历史记录功能\r\nJSON提取逻辑优化\r\n新增多个功能，比如排序\r\n优化URL提取逻辑，避免遗漏没有以/开头的path\r\n\r\nTitle面板中：\r\n端口扫描命令生成逻辑优化\r\n备注和IP内容的显示优化，显示前排序\r\n备注添加逻辑优化\r\n给手动添加的记录添加已知的IP和CNAME、CertInfo\r\n搜索功能增强，支持对数字型字段进行大于、小于、等于等搜索\r\n添加多个搜索实例，以便用户熟悉搜索语法\r\n新增“Do Request Item Again”菜单，对DNS记录或无响应的数据包进行再次请求"
@@ -3890,11 +3890,11 @@
     "https://github.com/neuvector/neuvector": {
         "created_at": "2021-12-17 20:15:03",
         "description": "",
-        "commit_date": "2023-08-17 03:46:22",
-        "commit_message": "Merge pull request #954 from becitsthere/dev\n\nNVSHAS-8106: Prefer manifest v2 cmds",
-        "release_tag": "v5.2.0-s1",
-        "release_date": "2023-08-05 00:41:43",
-        "release_message": ""
+        "commit_date": "2023-08-22 23:07:37",
+        "commit_message": "NVSHAS-8229: goroutine crash at rest.importGroupPolicy(0x2cbdae1, 0x5, 0xc00060fe30, 0xc00315d380, 0x20, 0x2cbd915, 0x5, 0xc00037d6c0, 0x40, 0xc003013e90, ...)",
+        "release_tag": "v5.2.1",
+        "release_date": "2023-08-22 23:29:15",
+        "release_message": "Features\r\nNVSHAS-7449: Report layered scan result to syslog\r\nNVSHAS-6974: Export NIST compliance report\r\nNVSHAS-8157: Handle Proxy setting in image signature verification\r\nNVSHAS-8034: Include image signature result in the downloaded CVE report\r\nNVSHAS-7483: Pod annotations for Admission Control Policies\r\n\r\nBug fixes\r\nNVSHAS-8200: Do not create default admin with default password in NV fresh deployment for AWS billing offering\r\nNVSHAS-8172: .json file increased size and crashed a kubernetes node\r\nNVSHAS-7963: Improve SQL injection detection logics\r\nNVSHAS-8128: when install helm crd chart first before insatlling core chart, service accounts are missing\r\nNVSHAS-8106: Image scan I.4.1 compliance result is incorrect\r\nNVSHAS-8050: Vulnerability advance filter report showing images from all other namespace"
     },
     "https://github.com/lijiejie/BBScan": {
         "created_at": "2015-11-13 07:41:10",
@@ -3908,8 +3908,8 @@
     "https://github.com/anchore/syft": {
         "created_at": "2020-05-07 18:19:29",
         "description": "CLI tool and library for generating a Software Bill of Materials from container images and filesystems",
-        "commit_date": "2023-08-21 14:37:11",
-        "commit_message": "chore(deps): bump github.com/jinzhu/copier from 0.3.5 to 0.4.0 (#2045)\n\nBumps [github.com/jinzhu/copier](https://github.com/jinzhu/copier) from 0.3.5 to 0.4.0.\r\n- [Commits](https://github.com/jinzhu/copier/compare/v0.3.5...v0.4.0)\r\n\r\n---\r\nupdated-dependencies:\r\n- dependency-name: github.com/jinzhu/copier\r\n  dependency-type: direct:production\r\n  update-type: version-update:semver-minor\r\n...\r\n\r\nSigned-off-by: dependabot[bot] <support@github.com>\r\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
+        "commit_date": "2023-08-22 14:47:07",
+        "commit_message": "feat: 1944 - update purl generation to use a consistent groupID (#2033)\n\nSeparate the logic for CPE and PURL generation. \r\n\r\nPURL generation needs a single answer for groupID based on a priority of discovering the field. \r\nCPE generation still uses multiple potential groupID to populate the candidate cpe.\r\n\r\nImprove GroupID detection. \r\n\r\nCurrently syft does not use any hierarchy for GroupID detection and treats all sources as equal. \r\nIt treats fields from the manifest file with priority. This change adds a hierarchy to the fields and returns a single answer based on that hierarchy.\r\n---------\r\nSigned-off-by: Christopher Phillips <christopher.phillips@anchore.com>\r\nSigned-off-by: Keith Zantow <kzantow@gmail.com>\r\nCo-authored-by: Keith Zantow <kzantow@gmail.com>",
         "release_tag": "v0.87.1",
         "release_date": "2023-08-17 19:06:06",
         "release_message": "# \r\n\r\n## [v0.87.1](https://github.com/anchore/syft/tree/v0.87.1) (2023-08-17)\r\n\r\n[Full Changelog](https://github.com/anchore/syft/compare/v0.87.0...v0.87.1)\r\n\r\n### Bug Fixes\r\n\r\n- Use Java package names to determine known groupIDs [[PR #2032](https://github.com/anchore/syft/pull/2032)] [[kzantow](https://github.com/kzantow)]\r\n- Relationships section of CycloneDX is not outputting even when the data is present [[Issue #1972](https://github.com/anchore/syft/issues/1972)] [[PR #1974](https://github.com/anchore/syft/pull/1974)] [[markgalpin](https://github.com/markgalpin)] [[kzantow](https://github.com/kzantow)]\r\n- SPDX Tag-Value conversion not handling files directly set on packages [[Issue #2013](https://github.com/anchore/syft/issues/2013)] [[PR #2014](https://github.com/anchore/syft/pull/2014)] [[kzantow](https://github.com/kzantow)]\r\n- Intermittent binary listings, different results every time [[Issue #2035](https://github.com/anchore/syft/issues/2035)] [[PR #2036](https://github.com/anchore/syft/pull/2036)] [[kzantow](https://github.com/kzantow)]\r\n\r\n\r\n\r\n"
@@ -3917,8 +3917,8 @@
     "https://github.com/chaitin/safeline": {
         "created_at": "2023-04-12 11:30:14",
         "description": "一款足够简单、足够好用、足够强的免费 WAF。基于业界领先的语义引擎检测技术，作为反向代理接入，保护你的网站不受黑客攻击。",
-        "commit_date": "2023-08-18 11:39:46",
-        "commit_message": "feat: remove links",
+        "commit_date": "2023-08-22 09:34:04",
+        "commit_message": "feat: add cpu ssse3 check and info",
         "release_tag": "v3.0.1",
         "release_date": "2023-08-18 10:56:18",
         "release_message": "- 更新底层语义分析引擎，加强基础防护能力\r\n- 修复站点详情中，不同域名的资源会重复记录问题\r\n- 修复攻击事件有小概率时间排序错误的问题\r\n- 修复关闭再打开频率限制时，配置不会重置到默认值的问题\r\n- 修复首次创建站点且配置 SSL 端口的情况下提示“端口被占用”的问题"
@@ -3980,8 +3980,8 @@
     "https://github.com/anchore/grype": {
         "created_at": "2020-05-26 13:44:38",
         "description": "A vulnerability scanner for container images and filesystems",
-        "commit_date": "2023-08-18 20:03:18",
-        "commit_message": "fill out new version notice (#1445)\n\nSigned-off-by: Alex Goodman <wagoodman@users.noreply.github.com>",
+        "commit_date": "2023-08-22 12:48:59",
+        "commit_message": "chore(deps): update bootstrap tools to latest versions (#1450)\n\nSigned-off-by: GitHub <noreply@github.com>\r\nCo-authored-by: westonsteimel <westonsteimel@users.noreply.github.com>",
         "release_tag": "v0.65.2",
         "release_date": "2023-08-17 20:07:01",
         "release_message": "# \r\n\r\n## [v0.65.2](https://github.com/anchore/grype/tree/v0.65.2) (2023-08-17)\r\n\r\n[Full Changelog](https://github.com/anchore/grype/compare/v0.65.1...v0.65.2)\r\n\r\n### Additional Changes\r\n\r\n- Update Syft to v0.87.1\r\n- Add a simple JUnit XML template [[PR #1422](https://github.com/anchore/grype/pull/1422)] [[YevheniiPokhvalii](https://github.com/YevheniiPokhvalii)]\r\n- Update semver regular expression constraint to allow for 1.20rc1 cases no '-' [[PR #1434](https://github.com/anchore/grype/pull/1434)] [[spiffcs](https://github.com/spiffcs)]\r\n"
@@ -4277,7 +4277,7 @@
     "https://github.com/aiboboxx/v2rayfree": {
         "created_at": "2021-10-13 11:34:53",
         "description": "v2ray节点、v2ray免费节点、免费v2ray节点、最新公益免费v2ray节点订阅地址、免费v2ray节点每日更新、免费ss/v2ray/trojan节点、freefq ",
-        "commit_date": "2023-08-21 12:34:49",
+        "commit_date": "2023-08-22 12:34:46",
         "commit_message": "update",
         "release_tag": "",
         "release_date": "",
@@ -4322,8 +4322,8 @@
     "https://github.com/freefq/free": {
         "created_at": "2020-06-07 02:48:33",
         "description": "翻墙、免费翻墙、免费科学上网、免费节点、免费梯子、免费ss/v2ray/trojan节点、蓝灯、谷歌商店、翻墙梯子",
-        "commit_date": "2023-08-22 00:00:03",
-        "commit_message": "updated_at 08-22 08:00",
+        "commit_date": "2023-08-23 00:00:04",
+        "commit_message": "updated_at 08-23 08:00",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -5004,11 +5004,11 @@
     "https://github.com/rustdesk/rustdesk": {
         "created_at": "2020-09-28 15:36:08",
         "description": "An open-source remote desktop, and alternative to TeamViewer.",
-        "commit_date": "2023-08-21 14:40:04",
-        "commit_message": "Merge pull request #5465 from jimmyGALLAND/master-1\n\nImprove some translate fr.rs",
+        "commit_date": "2023-08-22 14:02:42",
+        "commit_message": "svgo gitlab.svg",
         "release_tag": "1.2.2",
-        "release_date": "2023-08-21 03:18:30",
-        "release_message": "\r\n![image](https://github.com/rustdesk/rustdesk/assets/71636191/b444deab-7971-4de7-b315-6a9b4974c7ea)\r\n\r\n> Winget, FDroid, Apple Sillicon, Google Play / App Store update will come soon.\r\n\r\nx86-64: [Windows](https://github.com/rustdesk/rustdesk/releases/download/1.2.2/rustdesk-1.2.2-x86_64.exe) | [Ubuntu](https://github.com/rustdesk/rustdesk/releases/download/1.2.2/rustdesk-1.2.2-x86_64.deb) | [Mac](https://github.com/rustdesk/rustdesk/releases/download/1.2.2/rustdesk-1.2.2-x86_64.dmg)\r\nAArch64 (ARM64):  [Ubuntu](https://github.com/rustdesk/rustdesk/releases/download/1.2.2/rustdesk-1.2.2-aarch64.deb) | [Android](https://github.com/rustdesk/rustdesk/releases/download/1.2.2/rustdesk-1.2.2-aarch64-signed.apk) | [Mac](https://github.com/rustdesk/rustdesk/releases/download/1.2.2/rustdesk-1.2.2-aarch64.dmg)\r\n\r\nMore: [check below please](#)\r\n\r\n<details>\r\n<summary>Changelog</summary>\r\n\r\n- Add separate window mode (tab window by default), https://github.com/rustdesk/rustdesk/discussions/2889\r\n- Fix and improve responsiveness issue introduced in 1.2.0. https://github.com/rustdesk/rustdesk/discussions/5231\r\n- Add device list batch handle\r\n- Add command to assign user and strategy for [RustDesk Server Pro](https://rustdesk.com/docs/en/self-host/pro/)\r\n- Optimize address book, syncing password, alias name, device name etc, add tag color, improve error and update status handling\r\n- Fix windows file copy/paste\r\n- Fix \"waiting for image...\" still shown after receiving image bug, refactored rust->flutter message handling https://github.com/rustdesk/rustdesk/issues/4533\r\n- Improve some touchpad support, https://github.com/rustdesk/rustdesk/pull/5049\r\n- Bug fixes.\r\n\r\n</details>\r\n"
+        "release_date": "2023-08-22 01:44:36",
+        "release_message": "\r\n![image](https://github.com/rustdesk/rustdesk/assets/71636191/b444deab-7971-4de7-b315-6a9b4974c7ea)\r\n\r\n> Winget, FDroid, Apple Sillicon, Google Play / App Store update will come soon.\r\n\r\nx86-64: [Windows](https://github.com/rustdesk/rustdesk/releases/download/1.2.2/rustdesk-1.2.2-x86_64.exe) | [Ubuntu](https://github.com/rustdesk/rustdesk/releases/download/1.2.2/rustdesk-1.2.2-x86_64.deb) | [Mac](https://github.com/rustdesk/rustdesk/releases/download/1.2.2/rustdesk-1.2.2-x86_64.dmg)\r\nAArch64 (ARM64):  [Ubuntu](https://github.com/rustdesk/rustdesk/releases/download/1.2.2/rustdesk-1.2.2-aarch64.deb) | [Android](https://github.com/rustdesk/rustdesk/releases/download/1.2.2/rustdesk-1.2.2-aarch64-signed.apk) | [Mac](https://github.com/rustdesk/rustdesk/releases/download/1.2.2/rustdesk-1.2.2-aarch64.dmg)\r\n\r\nMore: [check below please](#)\r\n\r\n<details>\r\n<summary>Changelog</summary>\r\n\r\n- Add separate window mode (tab window by default), https://github.com/rustdesk/rustdesk/discussions/2889\r\n![image](https://github.com/rustdesk/rustdesk/assets/71636191/0c73bc6a-8659-4a67-9425-47625a6aded3)\r\n- Fix and improve responsiveness issue introduced in 1.2.0. https://github.com/rustdesk/rustdesk/discussions/5231\r\n- Add device list batch handle\r\n![image](https://github.com/rustdesk/rustdesk/assets/71636191/0ca85b8e-bed3-48ad-a43f-82df983986f3)\r\n- Add command to assign user and strategy for [RustDesk Server Pro](https://rustdesk.com/docs/en/self-host/pro/)\r\n- Optimize address book, syncing password, alias name, device name etc, add tag color, improve error and update status handling\r\n![image](https://github.com/rustdesk/rustdesk/assets/71636191/21d7a226-b863-4dc2-a9d3-fb6cd3a56c5c)\r\n- Fix windows file copy/paste\r\n- Fix \"waiting for image...\" still shown after receiving image bug, refactored rust->flutter message handling https://github.com/rustdesk/rustdesk/issues/4533\r\n- Improve some touchpad support, https://github.com/rustdesk/rustdesk/pull/5049\r\n- Bug fixes.\r\n\r\n</details>\r\n"
     },
     "https://github.com/chenjj/CORScanner": {
         "created_at": "2018-05-06 05:57:09",
@@ -5148,8 +5148,8 @@
     "https://github.com/FreeRDP/FreeRDP": {
         "created_at": "2011-06-30 19:14:15",
         "description": "FreeRDP is a free remote desktop protocol library and clients",
-        "commit_date": "2023-08-21 14:09:05",
-        "commit_message": "[server,shadow] fix initialization of [MS-RDPEGFX]\n\nthe channel was initialized with handling messages in a thread and\nhandling the channel messages on main thread. fix that.",
+        "commit_date": "2023-08-22 13:39:00",
+        "commit_message": "[winpr,wtypes] add WINPR_RESTRICT macro",
         "release_tag": "2.10.0",
         "release_date": "2023-02-16 13:46:39",
         "release_message": " Notewhorth changes:\r\n * Fix android build scripts, use CMake from SDK\r\n * Fix connection negotiation with mstsc/msrdc #8426\r\n * [ntlm]: use rfc5929 binding hash algorithm #8430\r\n * [channels,printer] Fixed reference counting #8433\r\n * Fix uwac pixman #8439\r\n * Fix Rdp security #8457\r\n * [client,x11] Detect key autorepeat #8522\r\n * [build] add channel path to RPATH #8551\r\n * Fix build with BUILTIN_CHANNELS=OFF #8560\r\n * revert changes so that the osmajortype/osminortype is not overwritten #8571\r\n * [uwac] do not use iso C functions #8604\r\n * [winpr,sam] fix inalid NULL arguments #8605\r\n * Fix incompatible function pointer types #8625\r\n \r\n Fixed issues:\r\n * Backported #8581: Ignore data PDUs for DVCs that were not opened successfully\r\n * Backported #8498: [channel,urbdrc] fix type of usb hotplug callback\r\n * Backported #8537: Extended info enforce limits\r\n * Backported #8611: [core] add missing redirection fields\r\n \r\n"
