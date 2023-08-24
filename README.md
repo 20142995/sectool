@@ -1,8 +1,10 @@
-# 更新于 2023-08-23 08:32:59
+# 更新于 2023-08-24 08:32:59
 
 ## 近15天release更新记录
 | 更新时间 | 项目名称 | 版本 | 更新内容 |
 | :---- | :---- | :---- | :---- |
+|2023-08-23 21:37:04|[faker](https://github.com/joke2k/faker)|v19.3.1|See .|
+|2023-08-23 06:23:07|[AV_Evasion_Tool](https://github.com/1y0n/AV_Evasion_Tool)|2023082<br>3|1. 效果优化|
 |2023-08-22 23:29:15|[neuvector](https://github.com/neuvector/neuvector)|v5.2.1|Features  NVSHAS-7449: Report layered<br> scan result to syslog  NVSHAS-6974: E<br>xport NIST compliance report  NVSHAS-8<br>157: Handle Proxy setting in image sig<br>nature verification  NVSHAS-8034: Incl<br>ude image signature result in the down<br>loaded CVE report  NVSHAS-7483: Pod an<br>notations for Admission Control Polici<br>es    Bug fixes  NVSHAS-8200: Do not c<br>reate default admin with default passw<br>ord in NV fresh deployment for AWS bil<br>ling offering  NVSHAS-8172: .json file<br> increased size and crashed a kubernet<br>es node  NVSHAS-7963: Improve SQL inje<br>ction detection logics  NVSHAS-8128: w<br>hen install helm crd chart first befor<br>e insatlling core chart, service accou<br>nts are missing  NVSHAS-8106: Image sc<br>an I.4.1 compliance result is incorrec<br>t  NVSHAS-8050: Vulnerability advance <br>filter report showing images from all <br>other namespace|
 |2023-08-22 11:23:38|[nuclei](https://github.com/projectdiscovery/nuclei)|v2.9.12|    ## What's Changed  ### 🐞 Bug Fix<br>es  * Fixed https://github.com/project<br>discovery/nuclei/issues/4025 panic cra<br>sh in https://github.com/projectdiscov<br>ery/dsl/pull/80 by @Mzack9999    ### O<br>ther Changes  * Fixed broken image lin<br>k in TestActionGetResource test by @ta<br>runKoyalwar in https://github.com/proj<br>ectdiscovery/nuclei/pull/4075      **F<br>ull Changelog**: https://github.com/pr<br>ojectdiscovery/nuclei/compare/v2.9.11.<br>..v2.9.12|
 |2023-08-22 01:44:36|[rustdesk](https://github.com/rustdesk/rustdesk)|1.2.2|      > Winget, FDroid, Apple Sillico<br>n, Google Play / App Store update will<br> come soon.    x86-64:  |  |   AArch64<br> (ARM64):   |  |     More:       Chang<br>elog    - Add separate window mode (ta<br>b window by default), https://github.c<br>om/rustdesk/rustdesk/discussions/2889 <br>   - Fix and improve responsiveness is<br>sue introduced in 1.2.0. https://githu<br>b.com/rustdesk/rustdesk/discussions/52<br>31  - Add device list batch handle    <br>- Add command to assign user and strat<br>egy for   - Optimize address book, syn<br>cing password, alias name, device name<br> etc, add tag color, improve error and<br> update status handling    - Fix windo<br>ws file copy/paste  - Fix "waiting for<br> image..." still shown after receiving<br> image bug, refactored rust->flutter m<br>essage handling https://github.com/rus<br>tdesk/rustdesk/issues/4533  - Improve <br>some touchpad support, https://github.<br>com/rustdesk/rustdesk/pull/5049  - Bug<br> fixes.      |
@@ -31,35 +33,36 @@
 |2023-08-11 11:12:07|[codeql-cli-binari<br>es](https://github.com/github/codeql-cli-binaries)|v2.14.2|### Breaking changes    - The functio<br>nality provided by the codeql execute <br>query-server subcommand has been remov<br>ed. The subcommand now responds to all<br> JSON RPC requests with an error respo<br>nse. Correspondingly, this release is <br>no longer compatible with versions of <br>the CodeQL extension for Visual Studio<br> Code prior to 1.7.6.      This change<br> also breaks third-party CodeQL IDE in<br>tegrations that still rely on the code<br>ql execute query-server subcommand. Ma<br>intainers of such CodeQL IDE integrati<br>ons should migrate to the codeql execu<br>te query-server2 subcommand at the ear<br>liest opportunity.    ### Improvements<br>    - Switched from prefix filtering o<br>f autocomplete suggestions in the lang<br>uage server to client-side filtering. <br>This improves autocomplete suggestions<br> in contexts with an autocompletion pr<br>efix.    - The CodeQL language server <br>now checks query metadata for errors. <br>This allows Visual Studio Code users t<br>o see errors in their query metadata w<br>ithout needing to compile the query.  <br>  ### Bugs fixed    - Fixed bug that m<br>ade the --warnings=hide option do noth<br>ing in codeql database analyze and oth<br>er commands that _evaluate_ queries.  <br>  For more information about the chang<br>es included in this release, see the .<br>    You can download _either_ the code<br>ql-PLATFORM.zip for your platform, _or<br>_ the generic codeql.zip which contain<br>s binaries for all supported platforms<br>. Please ignore the additional "source<br> code" downloads below the .zip artifa<br>cts.    This release is compatible wit<br>h the CodeQL language packs from .  |
 |2023-08-10 22:02:47|[clair](https://github.com/quay/clair)|v4.7.1| ## : bump github.com/pyroscope-io/go<br>deltaprof ### Chore - : bump claircore<br> to v1.5.15 - : bump claircore to v1.5<br>.14  [Unreleased]: https://github.com/<br>quay/clair/compare/v4.7.1...HEAD [v4.7<br>.1]: https://github.com/quay/clair/com<br>pare/v4.7.0...v4.7.1 |
 |2023-08-10 05:41:12|[trivy](https://github.com/aquasecurity/trivy)|v0.44.1|## Changelog * f10527998 fix(report):<br> return severity colors in table forma<br>t (#4969) * bc2b0ca6c build: maximize <br>available disk space for release (#493<br>7) * 9493c6f08 test(cli): Fix assertio<br>n helptext (#4966) * b0359de66 chore(d<br>eps): Bump defsec to v0.91.1 (#4965) *<br> d3a34e409 test: validate CycloneDX wi<br>th the JSON schema (#4956) * 798ef1b64<br> fix(server): add licenses to the Resu<br>lt message (#4955) * e8cf28147 fix(aws<br>): resolve endpoint if endpoint is pas<br>sed (#4925) * f18b0db58 fix(sbom): mov<br>e licenses to name field in Cyclonedx <br>format (#4941) * a79670156 add only un<br>iq deps in dependsOn (#4943) * b544e0d<br>ea use testify instead of gotest.tools<br> (#4946) * 067a0fcb9 fix(nodejs): do n<br>ot detect lock file in node_modules as<br> an app (#4949) * e6d7705a5 bump go-de<br>p-parser (#4936) * c584dc176 chore(dep<br>s): bump github.com/openvex/go-vex fro<br>m 0.2.0 to 0.2.1 (#4914) * 358d56b6b c<br>hore(deps): bump helm/kind-action from<br> 1.7.0 to 1.8.0 (#4909) * 17f3ea918 ch<br>ore(deps): bump github.com/Azure/azure<br>-sdk-for-go/sdk/azcore (#4912) * 39ccb<br>f7b5 test(aws): move part of unit test<br>s to integration (#4884) * 6d3ae3bcf d<br>ocs(cli): update help string for file <br>and dir skipping (#4872) * 7d7a1ef54 c<br>hore(deps): bump sigstore/cosign-insta<br>ller (#4910) * fc7495017 chore(deps): <br>bump github.com/sosedoff/gitkit from 0<br>.3.0 to 0.4.0 (#4916) * b2a68bc06 chor<br>e(deps): bump k8s.io/api from 0.27.3 t<br>o 0.27.4 (#4918) * e5c0c15b6 chore(dep<br>s): bump github.com/secure-systems-lab<br>/go-securesystemslib (#4919) * da37803<br>d5 chore(deps): bump github.com/aws/aw<br>s-sdk-go-v2/service/sts (#4913) * 9744<br>e6498 chore(deps): bump github.com/mag<br>efile/mage from 1.14.0 to 1.15.0 (#491<br>5) * 99eebc670 docs: update the discus<br>sion template (#4928)  |
-|2023-08-08 15:05:58|[Ingram](https://github.com/jorhelp/Ingram)|v2.0.0|nothing|
-|2023-08-08 12:53:48|[SmartBIAttackTool](https://github.com/yggo/SmartBIAttackTool)|v1.0|玩得开心师傅们，有新的需求或者问题请<br>在issue中反馈。|
 ## 近15天commit提交记录
 | 提交时间 | 项目名称 | 更新内容 |
 | :---- | :---- | :---- |
-|2023-08-23 00:00:04|[free](https://github.com/freefq/free)|updated_at 08-23 08:00|
-|2023-08-22 23:08:36|[PocOrExp_in_Githu<br>b](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-08-23 07:08:36|
-|2023-08-22 23:07:37|[neuvector](https://github.com/neuvector/neuvector)|NVSHAS-8229: goroutine crash at rest.importGroupPol<br>icy(0x2cbdae1, 0x5, 0xc00060fe30, 0xc00315d380, 0x20<br>, 0x2cbd915, 0x5, 0xc00037d6c0, 0x40, 0xc003013e90, <br>...)|
-|2023-08-22 14:47:07|[syft](https://github.com/anchore/syft)|feat: 1944 - update purl generation to use a consis<br>tent groupID (#2033)  Separate the logic for CPE and<br> PURL generation.     PURL generation needs a single<br> answer for groupID based on a priority of discoveri<br>ng the field.   CPE generation still uses multiple p<br>otential groupID to populate the candidate cpe.    I<br>mprove GroupID detection.     Currently syft does no<br>t use any hierarchy for GroupID detection and treats<br> all sources as equal.   It treats fields from the m<br>anifest file with priority. This change adds a hiera<br>rchy to the fields and returns a single answer based<br> on that hierarchy.  ---------  Signed-off-by: Chris<br>topher Phillips   Signed-off-by: Keith Zantow   Co-a<br>uthored-by: Keith Zantow |
-|2023-08-22 14:02:42|[rustdesk](https://github.com/rustdesk/rustdesk)|svgo gitlab.svg|
-|2023-08-22 13:39:00|[FreeRDP](https://github.com/FreeRDP/FreeRDP)|[winpr,wtypes] add WINPR_RESTRICT macro|
-|2023-08-22 12:48:59|[grype](https://github.com/anchore/grype)|chore(deps): update bootstrap tools to latest versi<br>ons (#1450)  Signed-off-by: GitHub   Co-authored-by:<br> westonsteimel |
-|2023-08-22 12:35:37|[dbeaver](https://github.com/dbeaver/dbeaver)|#20924 set property name for a plan node (#20940)  <br>Co-authored-by: Matvey16 |
-|2023-08-22 12:34:46|[v2rayfree](https://github.com/aiboboxx/v2rayfree)|update|
+|2023-08-24 00:00:04|[free](https://github.com/freefq/free)|updated_at 08-24 08:00|
+|2023-08-23 23:16:24|[neuvector](https://github.com/neuvector/neuvector)|Merge pull request #961 from minchao/api-doc-securi<br>ty-definitions  Add ApiKey support to the API doc|
+|2023-08-23 23:09:38|[PocOrExp_in_Githu<br>b](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-08-24 07:09:38|
+|2023-08-23 21:36:16|[faker](https://github.com/joke2k/faker)|Bump version: 19.3.0 → 19.3.1|
+|2023-08-23 17:51:07|[syft](https://github.com/anchore/syft)|fix: properly parse conan ref and include user and <br>channel (#2034)  * fix: properly parse conan ref and<br> include user and channel    Signed-off-by: Stefan P<br>rofanter     * unexport the conanRef type    Signed-<br>off-by: Alex Goodman     ---------    Signed-off-by:<br> Stefan Profanter   Signed-off-by: Alex Goodman   Co<br>-authored-by: Alex Goodman |
+|2023-08-23 17:40:49|[grype](https://github.com/anchore/grype)|chore(deps): bump github.com/google/uuid from 1.3.0<br> to 1.3.1 (#1453)  Bumps  from 1.3.0 to 1.3.1.  -   <br>-   -     ---  updated-dependencies:  - dependency-n<br>ame: github.com/google/uuid    dependency-type: dire<br>ct:production    update-type: version-update:semver-<br>patch  ...    Signed-off-by: dependabot[bot]   Co-au<br>thored-by: dependabot[bot] |
+|2023-08-23 15:38:25|[dbeaver](https://github.com/dbeaver/dbeaver)|dbeaver/pro#1874 External configuration save/load f<br>ix (#20955)|
+|2023-08-23 13:59:50|[rustdesk](https://github.com/rustdesk/rustdesk)|Merge branch 'master' of github.com-rustdesk:rustde<br>sk/rustdesk|
+|2023-08-23 12:34:55|[v2rayfree](https://github.com/aiboboxx/v2rayfree)|update|
+|2023-08-23 12:27:51|[FreeRDP](https://github.com/FreeRDP/FreeRDP)|[core,update] log BeginPaint/EndPaint failure|
+|2023-08-23 11:56:08|[trivy](https://github.com/aquasecurity/trivy)|feat(report): add licenses to sarif format (#4866) <br> * feat(report): add licenses to sarif format  * upd<br>ate doc|
+|2023-08-23 07:23:32|[Some-PoC-oR-ExP](https://github.com/coffeehb/Some-PoC-oR-ExP)|Create windowUnloading_bypass.md|
+|2023-08-23 06:25:21|[AV_Evasion_Tool](https://github.com/1y0n/AV_Evasion_Tool)|Update README.md|
+|2023-08-23 06:17:17|[arthas](https://github.com/alibaba/arthas)|Upgrade profiler action: version, meminfo (#2626)|
+|2023-08-23 03:01:15|[OA-EXPTOOL](https://github.com/LittleBear4/OA-EXPTOOL)|Delete tongda-V11.10-未授权任意文件上传.yaml|
+|2023-08-23 02:56:53|[Library-POC](https://github.com/luck-ying/Library-POC)|Update README.md|
 |2023-08-22 11:16:40|[nuclei](https://github.com/projectdiscovery/nuclei)|Merge branch 'dev'|
 |2023-08-22 10:45:48|[kscan](https://github.com/lcvvvv/kscan)|Update README.md|
 |2023-08-22 09:34:04|[safeline](https://github.com/chaitin/safeline)|feat: add cpu ssse3 check and info|
 |2023-08-22 06:54:25|[domain_hunter_pro](https://github.com/bit4woo/domain_hunter_pro)|update|
 |2023-08-22 06:24:19|[murphysec](https://github.com/murphysecurity/murphysec)|chore(deps): upgrade dependencies...|
-|2023-08-22 02:09:58|[OA-EXPTOOL](https://github.com/LittleBear4/OA-EXPTOOL)|Add files via upload|
 |2023-08-22 00:23:38|[nemo_go](https://github.com/hanc00l/nemo_go)|Merge pull request #120 from sh3d0ww01f/sh3d0ww01f-<br>patch-1  Update quake.go|
-|2023-08-21 16:08:40|[faker](https://github.com/joke2k/faker)|Remove spurious space in uk_UA first_name (#1896)  <br>Co-authored-by: Roman |
 |2023-08-21 14:26:54|[v2rayA](https://github.com/v2rayA/v2rayA)|chore: bump quic-go to v0.38.0|
 |2023-08-21 13:13:54|[ObserverWard](https://github.com/0x727/ObserverWard)|添加从API读取多个目标支持字段|
 |2023-08-21 12:24:24|[gshark](https://github.com/madneal/gshark)|modify struct|
-|2023-08-21 12:00:04|[trivy](https://github.com/aquasecurity/trivy)|fix: k8s private registries support (#5021)  Signed<br>-off-by: chenk |
 |2023-08-21 08:42:01|[Viper](https://github.com/FunnyWolf/Viper)|update version 1.6.4|
 |2023-08-21 07:17:22|[Elkeid](https://github.com/bytedance/Elkeid)|Windows libplugin (#521)  * update for windows libp<br>lugin-rs    * update Cargo.toml|
-|2023-08-21 04:58:28|[arthas](https://github.com/alibaba/arthas)|profiler command add dump action (#2622)|
 |2023-08-21 02:56:07|[afrog](https://github.com/zan8in/afrog)|update|
 |2023-08-21 02:44:36|[404StarLink](https://github.com/knownsec/404StarLink)|weekly update at 2023-08-21|
 |2023-08-20 06:06:08|[HackReport](https://github.com/awake1t/HackReport)|2023-08-20 14:06:08|
@@ -100,13 +103,7 @@
 |2023-08-11 04:21:17|[RmTools](https://github.com/RoomaSec/RmTools)|Merge branch 'main' of https://github.com/RoomaSec/<br>RmTools|
 |2023-08-10 03:17:55|[vulnerability](https://github.com/lal0ne/vulnerability)|CVE-2020-1472|
 |2023-08-09 15:45:31|[DecoyMini](https://github.com/decoymini/DecoyMini)|Update README.md|
-|2023-08-09 07:09:32|[Scanners-Box](https://github.com/We5ter/Scanners-Box)|[+]MrEmpy/Mantra|
-|2023-08-08 21:48:35|[BloodHound](https://github.com/BloodHoundAD/BloodHound)|Update index.rst|
-|2023-08-08 21:09:10|[ChatGPT-Shortcut](https://github.com/rockbenben/ChatGPT-Shortcut)|perf: Replace Google authentication API|
-|2023-08-08 14:56:38|[RouteVulScan](https://github.com/F6JO/RouteVulScan)|update rule|
-|2023-08-08 08:44:35|[Some-PoC-oR-ExP](https://github.com/coffeehb/Some-PoC-oR-ExP)|Update 一些已知漏洞.md|
-|2023-08-08 07:10:46|[fupo_for_yonyou](https://github.com/novysodope/fupo_for_yonyou)|Update main.go|
-|2023-08-08 03:43:04|[ARL](https://github.com/TophantTechnology/ARL)|Create 问题反馈.md|## 所有项目
+|2023-08-09 07:09:32|[Scanners-Box](https://github.com/We5ter/Scanners-Box)|[+]MrEmpy/Mantra|## 所有项目
 # 渗透测试
 ## 信息收集
 ### 资产测绘采集
@@ -722,7 +719,7 @@
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
 | [shellcodeloader](https://github.com/knownsec/shellcodeloader) | v1.1 | shellcodeloader |
-| [AV_Evasion_Tool](https://github.com/1y0n/AV_Evasion_Tool) | 2023041<br>7 | 掩日 - 免杀执行器生成工具 |
+| [AV_Evasion_Tool](https://github.com/1y0n/AV_Evasion_Tool) | 2023082<br>3 | 掩日 - 免杀执行器生成工具 |
 | [GobypassAV-shellc<br>ode](https://github.com/Pizz33/GobypassAV-shellcode) |  | 免杀shellcode加载器，使用go实现，免杀bypass火绒、360、核晶、de<br>f等主流杀软 |
 | [ZheTian](https://github.com/yqcs/ZheTian) | v3 | ::ZheTian / 强大的免杀生成工具，Bypass All. |
 | [encdecshellcode](https://github.com/blacknbunny/encdecshellcode) |  | Shellcode Encrypter & Decrypter via XOR Cipher |
@@ -730,7 +727,7 @@
 | [killEscaper](https://github.com/Anyyy111/killEscaper) |  | Shellcode 免杀生成器 绕过火绒、360（Windows版本） |
 | [ShellCode_Loader](https://github.com/Axx8/ShellCode_Loader) | v0.0.1 | ShellCode_Loader - Msf&CobaltStrike免杀ShellCode加载器、Shellc<br>ode_encryption - 免杀Shellcode加密生成工具，目前测试免杀360&火<br>绒&电脑管家&Windows Defender（其他杀软未测试）。 |
 | [shellcodeloader](https://github.com/knownsec/shellcodeloader) | v1.1 | shellcodeloader |
-| [AV_Evasion_Tool](https://github.com/1y0n/AV_Evasion_Tool) | 2023041<br>7 | 掩日 - 免杀执行器生成工具 |
+| [AV_Evasion_Tool](https://github.com/1y0n/AV_Evasion_Tool) | 2023082<br>3 | 掩日 - 免杀执行器生成工具 |
 | [GoBypassAV](https://github.com/TideSec/GoBypassAV) |  | 整理了基于Go的16种API免杀测试、8种加密测试、反沙盒测试、编译混<br>淆、加壳、资源修改等免杀技术，并搜集汇总了一些资料和工具。 |
 | [bypassAV](https://github.com/pureqh/bypassAV) |  | 免杀shellcode加载器 |
 ## 权限提升
@@ -1289,7 +1286,7 @@
 ## 生成虚假数据
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
-| [faker](https://github.com/joke2k/faker) | v19.3.0 | Faker is a Python package that generates fake data for you. |
+| [faker](https://github.com/joke2k/faker) | v19.3.1 | Faker is a Python package that generates fake data for you. |
 ## 短信转发器
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
