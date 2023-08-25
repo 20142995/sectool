@@ -1,8 +1,11 @@
-# 更新于 2023-08-24 08:32:59
+# 更新于 2023-08-25 08:33:29
 
 ## 近15天release更新记录
 | 更新时间 | 项目名称 | 版本 | 更新内容 |
 | :---- | :---- | :---- | :---- |
+|2023-08-24 18:11:26|[PEASS-ng](https://github.com/carlospolop/PEASS-ng)|2023082<br>4-811c36<br>54||
+|2023-08-24 12:32:49|[arthas](https://github.com/alibaba/arthas)|arthas-<br>all-3.7.<br>1||
+|2023-08-24 12:07:24|[mitaka](https://github.com/ninoseki/mitaka)|v1.3.2|- Fix Censys's search query format (#<br>749)   - Disable IntelligenceX (#749)|
 |2023-08-23 21:37:04|[faker](https://github.com/joke2k/faker)|v19.3.1|See .|
 |2023-08-23 06:23:07|[AV_Evasion_Tool](https://github.com/1y0n/AV_Evasion_Tool)|2023082<br>3|1. 效果优化|
 |2023-08-22 23:29:15|[neuvector](https://github.com/neuvector/neuvector)|v5.2.1|Features  NVSHAS-7449: Report layered<br> scan result to syslog  NVSHAS-6974: E<br>xport NIST compliance report  NVSHAS-8<br>157: Handle Proxy setting in image sig<br>nature verification  NVSHAS-8034: Incl<br>ude image signature result in the down<br>loaded CVE report  NVSHAS-7483: Pod an<br>notations for Admission Control Polici<br>es    Bug fixes  NVSHAS-8200: Do not c<br>reate default admin with default passw<br>ord in NV fresh deployment for AWS bil<br>ling offering  NVSHAS-8172: .json file<br> increased size and crashed a kubernet<br>es node  NVSHAS-7963: Improve SQL inje<br>ction detection logics  NVSHAS-8128: w<br>hen install helm crd chart first befor<br>e insatlling core chart, service accou<br>nts are missing  NVSHAS-8106: Image sc<br>an I.4.1 compliance result is incorrec<br>t  NVSHAS-8050: Vulnerability advance <br>filter report showing images from all <br>other namespace|
@@ -16,7 +19,6 @@
 |2023-08-21 03:14:36|[OA-EXPTOOL](https://github.com/LittleBear4/OA-EXPTOOL)|0.83||
 |2023-08-20 19:54:12|[dbeaver](https://github.com/dbeaver/dbeaver)|23.1.5|                 - Data editor:      <br>               - Dictionary viewer pan<br>el UI was redesigned                  <br>   - Spatial data types: curved geomet<br>ries linearizing was fixed            <br>         - Issue was result tab close <br>on data save was resolved             <br>        - Column tooltips was fixed   <br>                  - Charts rendering e<br>rrors visualization was improved      <br>           - SQL editor:              <br>       - Autocompletion in single-line<br> comments was fixed                   <br>  - Variable value editor was fixed   <br>                  - Smart completion f<br>or CTE queries (WITH/SELECT) was fixed<br>                     - @include comman<br>d handler was fixed (reuse the console<br> for the same included script)        <br>             - INSERT SQL query genera<br>tion was fixed (identity columns)     <br>                - Issue with text sear<br>ch/replace in hidden files was fixed  <br>               - ERD editor: grid fore<br>ground color was fixed                <br> - General UI:                     - O<br>bjects sorting in tables now can be re<br>set to the original ordering          <br>           - Network handlers (SSH, SS<br>L, etc) UI was redesigned             <br>        - New object creation shortcut<br> was added (Alt+Insert)               <br>      - External files opening was fix<br>ed on MacOS and Linux                 <br>    - Command line connection opening <br>was fixed                     - User n<br>ame/password prompt dialog as fixed fo<br>r SSH tunnels                     - Is<br>sue with preference pages in Eclipse p<br>lugin was resolved                 - A<br>ccessibility:                     - JA<br>WS and Narrator support was improved f<br>or data editor and vertical tabs      <br>               - High contrast theme s<br>upport was significantly improved     <br>            - Databases:              <br>       - Clickhouse: map and array dat<br>a types visualization was added       <br>              - Greenplum: tables DDL <br>was fixed (for version 7)             <br>        - OpenGauss DB: json data type<br>s support was added                   <br>  - PostgreSQL: default native clients<br> (pgsql, pg_dump) version was changed <br>to 15                     - Yellowbric<br>k: stored procedures drop query was fi<br>xed                 - Localization:   <br>                  - Chinese localizati<br>on was updated (thanks to @bianyun)   <br>          |
 |2023-08-20 10:19:21|[afrog](https://github.com/zan8in/afrog)|v2.7.9|- Resolved the issue of console outpu<br>t content being escaped #76.  - The is<br>sue of incorrect version when using th<br>e go install ..afrog/v2 command has be<br>en resolved.  - Added 24 new PoCs, tot<br>aling 1105 PoCs.    ----------------  <br>  - 解决 console 输出内容被转义问题 #7<br>6   - 解决了使用 go install ..afrog/v2<br> 命令时版本不正确的问题。  - 新增 24 P<br>oC，共 1105 个 PoC|
-|2023-08-20 04:26:33|[PEASS-ng](https://github.com/carlospolop/PEASS-ng)|2023082<br>0-71908c<br>a0||
 |2023-08-20 00:19:37|[wappalyzergo](https://github.com/projectdiscovery/wappalyzergo)|v0.0.10<br>9|###  (2023-08-20)|
 |2023-08-19 08:45:57|[naabu](https://github.com/projectdiscovery/naabu)|v2.1.7|    ## What's Changed  ### 🎉 New Fea<br>tures    * Added support for [host|ip]<br>:port format input by @Mzack9999 in ht<br>tps://github.com/projectdiscovery/naab<br>u/pull/767  console  echo google.com:4<br>43 | ./naabu -silent  echo 142.250.183<br>.174:443 | ./naabu -silent  echo 142.2<br>50.183.174:443 | ./naabu -silent -p 80<br>      ### 🔨 Maintenance  * Added more<br> test coverage by @Mzack9999 in https:<br>//github.com/projectdiscovery/naabu/pu<br>ll/708  * Added arm64 on linux gorelea<br>ser by @Mzack9999 in https://github.co<br>m/projectdiscovery/naabu/pull/716  * A<br>dded ValidateOptions method for use as<br> go library by @Y4er in https://github<br>.com/projectdiscovery/naabu/pull/762  <br>* Updated JSONL representation of port<br> and protocol by @kimtruth in https://<br>github.com/projectdiscovery/naabu/pull<br>/729  * Removed sudo in brew install b<br>y @sttlr in https://github.com/project<br>discovery/naabu/pull/742    ### Other <br>Changes  * Fixed issue with -ec option<br> to exclude WAF by @JoshuaMart in http<br>s://github.com/projectdiscovery/naabu/<br>pull/749  * Added open ports to scan r<br>esult on privileged by @RamanaReddy0M <br>in https://github.com/projectdiscovery<br>/naabu/pull/638    Issues closed in th<br>is release - https://github.com/projec<br>tdiscovery/naabu/milestone/8?closed=1 <br>   ## New Contributors  * @kimtruth ma<br>de their first contribution in https:/<br>/github.com/projectdiscovery/naabu/pul<br>l/729  * @sttlr made their first contr<br>ibution in https://github.com/projectd<br>iscovery/naabu/pull/742  * @Y4er made <br>their first contribution in https://gi<br>thub.com/projectdiscovery/naabu/pull/7<br>62  * @JoshuaMart made their first con<br>tribution in https://github.com/projec<br>tdiscovery/naabu/pull/749    **Full Ch<br>angelog**: https://github.com/projectd<br>iscovery/naabu/compare/v2.1.6...v2.1.7<br>  |
 |2023-08-18 10:56:18|[safeline](https://github.com/chaitin/safeline)|v3.0.1|- 更新底层语义分析引擎，加强基础防护<br>能力  - 修复站点详情中，不同域名的资源<br>会重复记录问题  - 修复攻击事件有小概率<br>时间排序错误的问题  - 修复关闭再打开频<br>率限制时，配置不会重置到默认值的问题  -<br> 修复首次创建站点且配置 SSL 端口的情况<br>下提示“端口被占用”的问题|
@@ -36,25 +38,34 @@
 ## 近15天commit提交记录
 | 提交时间 | 项目名称 | 更新内容 |
 | :---- | :---- | :---- |
-|2023-08-24 00:00:04|[free](https://github.com/freefq/free)|updated_at 08-24 08:00|
-|2023-08-23 23:16:24|[neuvector](https://github.com/neuvector/neuvector)|Merge pull request #961 from minchao/api-doc-securi<br>ty-definitions  Add ApiKey support to the API doc|
-|2023-08-23 23:09:38|[PocOrExp_in_Githu<br>b](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-08-24 07:09:38|
+|2023-08-25 00:18:12|[neuvector](https://github.com/neuvector/neuvector)|Merge pull request #972 from williamlin-suse/main  <br>NVSHAS-8197: configMap: No error is reported if pass<br>word do not comply password profile|
+|2023-08-25 00:00:02|[free](https://github.com/freefq/free)|updated_at 08-25 08:00|
+|2023-08-24 23:11:17|[PocOrExp_in_Githu<br>b](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-08-25 07:11:17|
+|2023-08-24 22:31:04|[WebGoat](https://github.com/WebGoat/WebGoat)|chore: bump org.webjars:jquery from 3.6.4 to 3.7.0 <br> Bumps  from 3.6.4 to 3.7.0. -   --- updated-depende<br>ncies: - dependency-name: org.webjars:jquery   depen<br>dency-type: direct:production   update-type: version<br>-update:semver-minor ...  Signed-off-by: dependabot[<br>bot] |
+|2023-08-24 20:14:53|[rotp](https://github.com/mdp/rotp)|Chore: run CI on all pull requests (#130)|
+|2023-08-24 19:31:09|[grype](https://github.com/anchore/grype)|note supported versions of grype (#1458)  Signed-of<br>f-by: Alex Goodman |
+|2023-08-24 17:48:31|[PEASS-ng](https://github.com/carlospolop/PEASS-ng)|Update ProcessInfo.cs|
+|2023-08-24 17:28:40|[syft](https://github.com/anchore/syft)|Fix: don't validate pom declared group (#2054)  Sig<br>ned-off-by: Will Murphy |
+|2023-08-24 15:08:14|[AsamF](https://github.com/Kento-Sec/AsamF)|Update README.md|
+|2023-08-24 14:49:35|[iDefender](https://github.com/wecooperate/iDefender)|update|
+|2023-08-24 13:43:05|[dbeaver](https://github.com/dbeaver/dbeaver)|CB-3449. Fixed formatting sql script at macOs/linux<br>. (#20929)  * CB-3449. Fixed formatting sql script a<br>t macOs/linux.    * CB-3449. Fixed formatting sql sc<br>ript at macOs/linux.    * CB-3449. Refactor after re<br>view, delete duplicate method    * CB-3449. Refactor<br> after review, delete duplicate method    --------- <br>   Co-authored-by: Daria Marutkina |
+|2023-08-24 12:35:27|[v2rayfree](https://github.com/aiboboxx/v2rayfree)|update|
+|2023-08-24 12:10:09|[arthas](https://github.com/alibaba/arthas)|Prettified Code!|
+|2023-08-24 12:05:51|[mitaka](https://github.com/ninoseki/mitaka)|Merge pull request #750 from ninoseki/v1.3.2  v1.3.<br>2|
+|2023-08-24 12:04:50|[rustdesk](https://github.com/rustdesk/rustdesk)|Merge pull request #5498 from 21pages/audit  alarm <br>audit more info|
+|2023-08-24 11:17:57|[FreeRDP](https://github.com/FreeRDP/FreeRDP)|[winpr,file] fix FindFirstFile issues with android <br> Fixes #9277: On android parent directories are not <br>accessible, so if opendir fails and the pattern is j<br>ust the directory name without any pattern (e.g. sta<br>t tells the full path is a directory) directly open <br>it and set the pattern to '*'|
+|2023-08-24 10:35:15|[afrog](https://github.com/zan8in/afrog)|update|
+|2023-08-24 09:24:05|[ARL](https://github.com/TophantTechnology/ARL)|Merge pull request #622 from NAXG/master  add chaos|
+|2023-08-24 07:24:36|[wpscan](https://github.com/wpscanteam/wpscan)|Adds DFs|
+|2023-08-24 03:08:46|[safeline](https://github.com/chaitin/safeline)|feat: add permenent redirect links|
 |2023-08-23 21:36:16|[faker](https://github.com/joke2k/faker)|Bump version: 19.3.0 → 19.3.1|
-|2023-08-23 17:51:07|[syft](https://github.com/anchore/syft)|fix: properly parse conan ref and include user and <br>channel (#2034)  * fix: properly parse conan ref and<br> include user and channel    Signed-off-by: Stefan P<br>rofanter     * unexport the conanRef type    Signed-<br>off-by: Alex Goodman     ---------    Signed-off-by:<br> Stefan Profanter   Signed-off-by: Alex Goodman   Co<br>-authored-by: Alex Goodman |
-|2023-08-23 17:40:49|[grype](https://github.com/anchore/grype)|chore(deps): bump github.com/google/uuid from 1.3.0<br> to 1.3.1 (#1453)  Bumps  from 1.3.0 to 1.3.1.  -   <br>-   -     ---  updated-dependencies:  - dependency-n<br>ame: github.com/google/uuid    dependency-type: dire<br>ct:production    update-type: version-update:semver-<br>patch  ...    Signed-off-by: dependabot[bot]   Co-au<br>thored-by: dependabot[bot] |
-|2023-08-23 15:38:25|[dbeaver](https://github.com/dbeaver/dbeaver)|dbeaver/pro#1874 External configuration save/load f<br>ix (#20955)|
-|2023-08-23 13:59:50|[rustdesk](https://github.com/rustdesk/rustdesk)|Merge branch 'master' of github.com-rustdesk:rustde<br>sk/rustdesk|
-|2023-08-23 12:34:55|[v2rayfree](https://github.com/aiboboxx/v2rayfree)|update|
-|2023-08-23 12:27:51|[FreeRDP](https://github.com/FreeRDP/FreeRDP)|[core,update] log BeginPaint/EndPaint failure|
 |2023-08-23 11:56:08|[trivy](https://github.com/aquasecurity/trivy)|feat(report): add licenses to sarif format (#4866) <br> * feat(report): add licenses to sarif format  * upd<br>ate doc|
 |2023-08-23 07:23:32|[Some-PoC-oR-ExP](https://github.com/coffeehb/Some-PoC-oR-ExP)|Create windowUnloading_bypass.md|
 |2023-08-23 06:25:21|[AV_Evasion_Tool](https://github.com/1y0n/AV_Evasion_Tool)|Update README.md|
-|2023-08-23 06:17:17|[arthas](https://github.com/alibaba/arthas)|Upgrade profiler action: version, meminfo (#2626)|
 |2023-08-23 03:01:15|[OA-EXPTOOL](https://github.com/LittleBear4/OA-EXPTOOL)|Delete tongda-V11.10-未授权任意文件上传.yaml|
 |2023-08-23 02:56:53|[Library-POC](https://github.com/luck-ying/Library-POC)|Update README.md|
 |2023-08-22 11:16:40|[nuclei](https://github.com/projectdiscovery/nuclei)|Merge branch 'dev'|
 |2023-08-22 10:45:48|[kscan](https://github.com/lcvvvv/kscan)|Update README.md|
-|2023-08-22 09:34:04|[safeline](https://github.com/chaitin/safeline)|feat: add cpu ssse3 check and info|
 |2023-08-22 06:54:25|[domain_hunter_pro](https://github.com/bit4woo/domain_hunter_pro)|update|
 |2023-08-22 06:24:19|[murphysec](https://github.com/murphysecurity/murphysec)|chore(deps): upgrade dependencies...|
 |2023-08-22 00:23:38|[nemo_go](https://github.com/hanc00l/nemo_go)|Merge pull request #120 from sh3d0ww01f/sh3d0ww01f-<br>patch-1  Update quake.go|
@@ -63,7 +74,6 @@
 |2023-08-21 12:24:24|[gshark](https://github.com/madneal/gshark)|modify struct|
 |2023-08-21 08:42:01|[Viper](https://github.com/FunnyWolf/Viper)|update version 1.6.4|
 |2023-08-21 07:17:22|[Elkeid](https://github.com/bytedance/Elkeid)|Windows libplugin (#521)  * update for windows libp<br>lugin-rs    * update Cargo.toml|
-|2023-08-21 02:56:07|[afrog](https://github.com/zan8in/afrog)|update|
 |2023-08-21 02:44:36|[404StarLink](https://github.com/knownsec/404StarLink)|weekly update at 2023-08-21|
 |2023-08-20 06:06:08|[HackReport](https://github.com/awake1t/HackReport)|2023-08-20 14:06:08|
 |2023-08-20 05:06:09|[superSearchPlus](https://github.com/dark-kingA/superSearchPlus)|更新 兼容最新谷歌浏览器|
@@ -72,13 +82,10 @@
 |2023-08-19 08:24:20|[sqlmap](https://github.com/sqlmapproject/sqlmap)|Fixes #5483|
 |2023-08-19 07:19:55|[Mobile-Security-F<br>ramework-MobSF](https://github.com/MobSF/Mobile-Security-Framework-MobSF)|[HOTFIX][EFR09] AAR/JAR obfuscation and debug check<br> + Exception Handed strings and symbols extraction (<br>#2240)  * AAR/JAR obfuscation and debug check  * Exc<br>eption handling symbols and strings from so/dylib|
 |2023-08-19 05:14:59|[all-in-one-v2](https://github.com/zaivanza/all-in-one-v2)|add tracks|
-|2023-08-18 22:20:59|[WebGoat](https://github.com/WebGoat/WebGoat)|chore: bump org.jruby:jruby from 9.4.2.0 to 9.4.3.0<br>  Bumps org.jruby:jruby from 9.4.2.0 to 9.4.3.0.  --<br>- updated-dependencies: - dependency-name: org.jruby<br>:jruby   dependency-type: direct:production   update<br>-type: version-update:semver-patch ...  Signed-off-b<br>y: dependabot[bot] |
 |2023-08-18 13:06:29|[zksync2-python](https://github.com/zksync-sdk/zksync2-python)|docs: add changelog|
-|2023-08-18 11:19:53|[PEASS-ng](https://github.com/carlospolop/PEASS-ng)|Update linpeas_base.sh|
 |2023-08-18 08:47:41|[vulhub](https://github.com/vulhub/vulhub)|simplify the exploit of MeterSphere plugin RCE|
 |2023-08-17 12:40:16|[Venom-Transponder](https://github.com/z-bool/Venom-Transponder)|push|
 |2023-08-17 06:24:22|[impacket](https://github.com/fortra/impacket)|Merge pull request #1550 from Adamkadaban/master  A<br>dded query information level 0x0109 for smb1 "SMB_QU<br>ERY_FILE_STREAM_INFO"|
-|2023-08-17 04:35:47|[iDefender](https://github.com/wecooperate/iDefender)|update|
 |2023-08-16 08:22:56|[PeiQi-WIKI-Book](https://github.com/PeiQi0/PeiQi-WIKI-Book)|漏洞相关:亿赛通,LiveBOS|
 |2023-08-16 02:43:03|[Platypus](https://github.com/WangYihang/Platypus)|build(deps): bump word-wrap from 1.2.3 to 1.2.4 in <br>/web/frontend (#196)  Bumps  from 1.2.3 to 1.2.4.  -<br>   -     ---  updated-dependencies:  - dependency-na<br>me: word-wrap    dependency-type: indirect  ...    S<br>igned-off-by: dependabot[bot]   Co-authored-by: depe<br>ndabot[bot] |
 |2023-08-16 02:07:01|[ENScan_GO](https://github.com/wgpsec/ENScan_GO)|修复AQC查询BUG 还是需要挂上burp fix #77|
@@ -95,15 +102,12 @@
 |2023-08-13 07:52:14|[Exp-Tools](https://github.com/cseroad/Exp-Tools)|Update README.md|
 |2023-08-13 00:50:23|[Dirscan](https://github.com/corunb/Dirscan)|v1.5.2-修复递归扫描已知bug|
 |2023-08-12 18:10:07|[subfinder](https://github.com/projectdiscovery/subfinder)|version update|
-|2023-08-12 05:15:05|[mitaka](https://github.com/ninoseki/mitaka)|Merge pull request #748 from ninoseki/update-ioc-ex<br>tractor  chore: update ioc-extractor|
 |2023-08-11 16:53:23|[dalfox](https://github.com/hahwul/dalfox)|Merge pull request #486 from hahwul/dependabot/go_m<br>odules/github.com/chromedp/chromedp-0.9.2  Bump gith<br>ub.com/chromedp/chromedp from 0.9.1 to 0.9.2|
 |2023-08-11 14:02:41|[MockingBird](https://github.com/babysor/MockingBird)|Merge pull request #947 from FawenYo/doc/update_lin<br>k  📝 Update model download link|
 |2023-08-11 11:10:22|[codeql-cli-binari<br>es](https://github.com/github/codeql-cli-binaries)|Update changelog for 2.14.2|
 |2023-08-11 08:11:58|[dperf](https://github.com/baidu/dperf)|Merge pull request #357 from pengjianzhang/main  fi<br>x: http_host or http_path can only be configured whe<br>n http is enabled|
 |2023-08-11 04:21:17|[RmTools](https://github.com/RoomaSec/RmTools)|Merge branch 'main' of https://github.com/RoomaSec/<br>RmTools|
-|2023-08-10 03:17:55|[vulnerability](https://github.com/lal0ne/vulnerability)|CVE-2020-1472|
-|2023-08-09 15:45:31|[DecoyMini](https://github.com/decoymini/DecoyMini)|Update README.md|
-|2023-08-09 07:09:32|[Scanners-Box](https://github.com/We5ter/Scanners-Box)|[+]MrEmpy/Mantra|## 所有项目
+|2023-08-10 03:17:55|[vulnerability](https://github.com/lal0ne/vulnerability)|CVE-2020-1472|## 所有项目
 # 渗透测试
 ## 信息收集
 ### 资产测绘采集
@@ -742,7 +746,7 @@
 | [dirtycow](https://github.com/firefart/dirtycow) |  | Dirty Cow exploit - CVE-2016-5195 |
 | [traitor](https://github.com/liamg/traitor) | v0.0.14 | :arrow_up: :skull_and_crossbones: :fire: Automatic Linux prive<br>sc via exploitation of low-hanging fruit e.g. gtfobins, pwnkit,<br> dirty pipe, +w docker.sock |
 | [LinEnum](https://github.com/rebootuser/LinEnum) |  | Scripted Local Linux Enumeration & Privilege Escalation Checks |
-| [PEASS-ng](https://github.com/carlospolop/PEASS-ng) | 2023082<br>0-71908c<br>a0 | PEASS - Privilege Escalation Awesome Scripts SUITE (with color<br>s) |
+| [PEASS-ng](https://github.com/carlospolop/PEASS-ng) | 2023082<br>4-811c36<br>54 | PEASS - Privilege Escalation Awesome Scripts SUITE (with color<br>s) |
 | | | https://i.hacking8.com/tiquan/ |
 ### 综合
 | 项目名称 | 版本 | 项目描述 |
@@ -998,7 +1002,7 @@
 | [SwitchyOmega](https://github.com/FelisCatus/SwitchyOmega) | v2.5.20 | Manage and switch between multiple proxies quickly & easily. |
 | [untrusted-types](https://github.com/filedescriptor/untrusted-types) | 1.1.1 |  |
 | [fofa_view](https://github.com/fofapro/fofa_view) | v0.0.5 | FOFA Pro view 是一款FOFA Pro 资产展示浏览器插件，目前兼容  Chr<br>ome、Firefox、Opera。 |
-| [mitaka](https://github.com/ninoseki/mitaka) | v1.3.1 | A browser extension for OSINT search |
+| [mitaka](https://github.com/ninoseki/mitaka) | v1.3.2 | A browser extension for OSINT search |
 | [anti-honeypot](https://github.com/cnrstar/anti-honeypot) |  | 一款可以检测WEB蜜罐并阻断请求的Chrome插件 |
 | [Chromium-based-XS<br>S-Taint-Tracking](https://github.com/v8blink/Chromium-based-XSS-Taint-Tracking) | v0.3 | Cyclops 是一款具有 XSS 检测功能的浏览器 |
 | [Zoomeye-Tools](https://github.com/knownsec/Zoomeye-Tools) |  | Zoomeye Tools是配合Zoomeye使用的Chrome插件 |
@@ -1229,7 +1233,7 @@
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
 | [shell-analyzer](https://github.com/4ra1n/shell-analyzer) | 0.1 | Java内存马查杀GUI工具，实时动态分析，支持本地和远程查杀 |
-| [arthas](https://github.com/alibaba/arthas) | arthas-<br>all-3.7.<br>0 | Alibaba Java Diagnostic Tool Arthas/Alibaba Java诊断利器Arthas |
+| [arthas](https://github.com/alibaba/arthas) | arthas-<br>all-3.7.<br>1 | Alibaba Java Diagnostic Tool Arthas/Alibaba Java诊断利器Arthas |
 | [DuckMemoryScan](https://github.com/huoji120/DuckMemoryScan) |  | 检测绝大部分所谓的内存免杀马 |
 | [java-memshell-sca<br>nner](https://github.com/c0ny1/java-memshell-scanner) |  | 通过jsp脚本扫描java web Filter/Servlet型内存马 |
 | [copagent](https://github.com/LandGrey/copagent) |  | java memory web shell extracting tool |

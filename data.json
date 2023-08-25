@@ -47,8 +47,8 @@
     "https://github.com/wpscanteam/wpscan": {
         "created_at": "2012-07-11 20:27:47",
         "description": "WPScan WordPress security scanner. Written for security professionals and blog maintainers to test the security of their WordPress websites. Contact us via contact@wpscan.com",
-        "commit_date": "2023-07-11 13:24:31",
-        "commit_message": "Updates DFs",
+        "commit_date": "2023-08-24 07:24:36",
+        "commit_message": "Adds DFs",
         "release_tag": "v3.8.24",
         "release_date": "2023-06-09 12:43:46",
         "release_message": "This is a management release to ensure that the gem is properly pushed to the rubygems channel, as this has failed with the last tagged release. No functionality has changed since v3.8.23."
@@ -200,8 +200,8 @@
     "https://github.com/ycdxsb/PocOrExp_in_Github": {
         "created_at": "2021-04-13 05:46:16",
         "description": "聚合Github上已有的Poc或者Exp，CVE信息来自CVE官网。Auto Collect Poc Or Exp from Github by CVE ID.",
-        "commit_date": "2023-08-23 23:09:38",
-        "commit_message": "update 2023-08-24 07:09:38",
+        "commit_date": "2023-08-24 23:11:17",
+        "commit_message": "update 2023-08-25 07:11:17",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -1017,7 +1017,7 @@
     "https://github.com/wecooperate/iDefender": {
         "created_at": "2021-11-24 11:38:28",
         "description": "iDefender（冰盾 - 终端主动防御系统）",
-        "commit_date": "2023-08-17 04:35:47",
+        "commit_date": "2023-08-24 14:49:35",
         "commit_message": "update",
         "release_tag": "2.9.0",
         "release_date": "2023-07-19 02:37:26",
@@ -1062,11 +1062,11 @@
     "https://github.com/ninoseki/mitaka": {
         "created_at": "2018-02-09 00:13:30",
         "description": "A browser extension for OSINT search",
-        "commit_date": "2023-08-12 05:15:05",
-        "commit_message": "Merge pull request #748 from ninoseki/update-ioc-extractor\n\nchore: update ioc-extractor",
-        "release_tag": "v1.3.1",
-        "release_date": "2023-07-14 23:29:27",
-        "release_message": "Fiirefox only release to support Firefox MV3.\r\n\r\n- https://addons.mozilla.org/en-US/firefox/addon/mitaka/\r\n\r\n## Notes\r\n\r\nPlease allow \"Access your data for all websites\" permission. Otherwise this extension does not work.\r\n\r\n<img width=\"703\" alt=\"Screenshot 2023-07-15 at 8 27 26\" src=\"https://github.com/ninoseki/mitaka/assets/291028/40a5709a-bb4a-4078-b135-287c07ecabef\">\r\n"
+        "commit_date": "2023-08-24 12:05:51",
+        "commit_message": "Merge pull request #750 from ninoseki/v1.3.2\n\nv1.3.2",
+        "release_tag": "v1.3.2",
+        "release_date": "2023-08-24 12:07:24",
+        "release_message": "- Fix Censys's search query format (#749) \r\n- Disable IntelligenceX (#749)"
     },
     "https://github.com/v2rayA/v2rayA": {
         "created_at": "2019-10-18 20:42:06",
@@ -1134,8 +1134,8 @@
     "https://github.com/mdp/rotp": {
         "created_at": "2011-02-13 18:20:59",
         "description": "Ruby One Time Password library",
-        "commit_date": "2023-06-12 16:54:15",
-        "commit_message": "chore: docker-compose.yml: Use ruby-3.0 (#128)\n\nThis prepares to add new stable Ruby versions.\r\n\r\nCo-authored-by: Olle Jonsson <olle.jonsson@gmail.com>",
+        "commit_date": "2023-08-24 20:14:53",
+        "commit_message": "Chore: run CI on all pull requests (#130)",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -1179,7 +1179,7 @@
     "https://github.com/Kento-Sec/AsamF": {
         "created_at": "2022-08-03 03:52:09",
         "description": "AsamF是集成Fofa、Quake、Hunter、Shodan、Zoomeye、Chinaz、0.zone及爱企查的一站式企业信息资产收集、网络资产测绘工具。",
-        "commit_date": "2023-08-03 13:55:32",
+        "commit_date": "2023-08-24 15:08:14",
         "commit_message": "Update README.md",
         "release_tag": "v0.2.5",
         "release_date": "2023-07-31 01:44:05",
@@ -1708,8 +1708,8 @@
     "https://github.com/TophantTechnology/ARL": {
         "created_at": "2020-09-10 07:41:12",
         "description": "ARL(Asset Reconnaissance Lighthouse)资产侦察灯塔系统旨在快速侦察与目标关联的互联网资产，构建基础资产信息库。 协助甲方安全团队或者渗透测试人员有效侦察和检索资产，发现存在的薄弱点和攻击面。",
-        "commit_date": "2023-08-08 03:43:04",
-        "commit_message": "Create 问题反馈.md",
+        "commit_date": "2023-08-24 09:24:05",
+        "commit_message": "Merge pull request #622 from NAXG/master\n\nadd chaos",
         "release_tag": "v2.5.5",
         "release_date": "2023-05-18 03:27:00",
         "release_message": "\r\n1. 修复 nuclei 误报 CVE-2022-45362 问题 #559 #535\r\n2. 修复数据源 quake_360 查询错误问题  @原来是老王\r\n3. 删除数据源 threatminer (不可访问了)\r\n4. 过滤无效状态码 410, 减少无用数据入库\r\n"
@@ -2951,8 +2951,8 @@
     "https://github.com/dbeaver/dbeaver": {
         "created_at": "2015-10-21 08:26:28",
         "description": "Free universal database tool and SQL client",
-        "commit_date": "2023-08-23 15:38:25",
-        "commit_message": "dbeaver/pro#1874 External configuration save/load fix (#20955)",
+        "commit_date": "2023-08-24 13:43:05",
+        "commit_message": "CB-3449. Fixed formatting sql script at macOs/linux. (#20929)\n\n* CB-3449. Fixed formatting sql script at macOs/linux.\r\n\r\n* CB-3449. Fixed formatting sql script at macOs/linux.\r\n\r\n* CB-3449. Refactor after review, delete duplicate method\r\n\r\n* CB-3449. Refactor after review, delete duplicate method\r\n\r\n---------\r\n\r\nCo-authored-by: Daria Marutkina <125263541+dariamarutkina@users.noreply.github.com>",
         "release_tag": "23.1.5",
         "release_date": "2023-08-20 19:54:12",
         "release_message": "\n                - Data editor:\n                    - Dictionary viewer panel UI was redesigned\n                    - Spatial data types: curved geometries linearizing was fixed\n                    - Issue was result tab close on data save was resolved\n                    - Column tooltips was fixed\n                    - Charts rendering errors visualization was improved\n                - SQL editor:\n                    - Autocompletion in single-line comments was fixed\n                    - Variable value editor was fixed\n                    - Smart completion for CTE queries (WITH/SELECT) was fixed\n                    - @include command handler was fixed (reuse the console for the same included script)\n                    - INSERT SQL query generation was fixed (identity columns)\n                    - Issue with text search/replace in hidden files was fixed\n                - ERD editor: grid foreground color was fixed\n                - General UI:\n                    - Objects sorting in tables now can be reset to the original ordering\n                    - Network handlers (SSH, SSL, etc) UI was redesigned\n                    - New object creation shortcut was added (Alt+Insert)\n                    - External files opening was fixed on MacOS and Linux\n                    - Command line connection opening was fixed\n                    - User name/password prompt dialog as fixed for SSH tunnels\n                    - Issue with preference pages in Eclipse plugin was resolved\n                - Accessibility:\n                    - JAWS and Narrator support was improved for data editor and vertical tabs\n                    - High contrast theme support was significantly improved\n                - Databases:\n                    - Clickhouse: map and array data types visualization was added\n                    - Greenplum: tables DDL was fixed (for version 7)\n                    - OpenGauss DB: json data types support was added\n                    - PostgreSQL: default native clients (pgsql, pg_dump) version was changed to 15\n                    - Yellowbrick: stored procedures drop query was fixed\n                - Localization:\n                    - Chinese localization was updated (thanks to @bianyun)\n            "
@@ -3050,7 +3050,7 @@
     "https://github.com/zan8in/afrog": {
         "created_at": "2022-02-24 06:00:32",
         "description": "A Security Tool for Bug Bounty, Pentest and Red Teaming.",
-        "commit_date": "2023-08-21 02:56:07",
+        "commit_date": "2023-08-24 10:35:15",
         "commit_message": "update",
         "release_tag": "v2.7.9",
         "release_date": "2023-08-20 10:19:21",
@@ -3701,10 +3701,10 @@
     "https://github.com/carlospolop/PEASS-ng": {
         "created_at": "2019-01-13 19:58:24",
         "description": "PEASS - Privilege Escalation Awesome Scripts SUITE (with colors)",
-        "commit_date": "2023-08-18 11:19:53",
-        "commit_message": "Update linpeas_base.sh",
-        "release_tag": "20230820-71908ca0",
-        "release_date": "2023-08-20 04:26:33",
+        "commit_date": "2023-08-24 17:48:31",
+        "commit_message": "Update ProcessInfo.cs",
+        "release_tag": "20230824-811c3654",
+        "release_date": "2023-08-24 18:11:26",
         "release_message": ""
     },
     "https://github.com/waderwu/attackRmi": {
@@ -3890,8 +3890,8 @@
     "https://github.com/neuvector/neuvector": {
         "created_at": "2021-12-17 20:15:03",
         "description": "",
-        "commit_date": "2023-08-23 23:16:24",
-        "commit_message": "Merge pull request #961 from minchao/api-doc-security-definitions\n\nAdd ApiKey support to the API doc",
+        "commit_date": "2023-08-25 00:18:12",
+        "commit_message": "Merge pull request #972 from williamlin-suse/main\n\nNVSHAS-8197: configMap: No error is reported if password do not comply password profile",
         "release_tag": "v5.2.1",
         "release_date": "2023-08-22 23:29:15",
         "release_message": "Features\r\nNVSHAS-7449: Report layered scan result to syslog\r\nNVSHAS-6974: Export NIST compliance report\r\nNVSHAS-8157: Handle Proxy setting in image signature verification\r\nNVSHAS-8034: Include image signature result in the downloaded CVE report\r\nNVSHAS-7483: Pod annotations for Admission Control Policies\r\n\r\nBug fixes\r\nNVSHAS-8200: Do not create default admin with default password in NV fresh deployment for AWS billing offering\r\nNVSHAS-8172: .json file increased size and crashed a kubernetes node\r\nNVSHAS-7963: Improve SQL injection detection logics\r\nNVSHAS-8128: when install helm crd chart first before insatlling core chart, service accounts are missing\r\nNVSHAS-8106: Image scan I.4.1 compliance result is incorrect\r\nNVSHAS-8050: Vulnerability advance filter report showing images from all other namespace"
@@ -3908,8 +3908,8 @@
     "https://github.com/anchore/syft": {
         "created_at": "2020-05-07 18:19:29",
         "description": "CLI tool and library for generating a Software Bill of Materials from container images and filesystems",
-        "commit_date": "2023-08-23 17:51:07",
-        "commit_message": "fix: properly parse conan ref and include user and channel (#2034)\n\n* fix: properly parse conan ref and include user and channel\r\n\r\nSigned-off-by: Stefan Profanter <stefan.profanter@agile-robots.com>\r\n\r\n* unexport the conanRef type\r\n\r\nSigned-off-by: Alex Goodman <wagoodman@users.noreply.github.com>\r\n\r\n---------\r\n\r\nSigned-off-by: Stefan Profanter <stefan.profanter@agile-robots.com>\r\nSigned-off-by: Alex Goodman <wagoodman@users.noreply.github.com>\r\nCo-authored-by: Alex Goodman <wagoodman@users.noreply.github.com>",
+        "commit_date": "2023-08-24 17:28:40",
+        "commit_message": "Fix: don't validate pom declared group (#2054)\n\nSigned-off-by: Will Murphy <will.murphy@anchore.com>",
         "release_tag": "v0.87.1",
         "release_date": "2023-08-17 19:06:06",
         "release_message": "# \r\n\r\n## [v0.87.1](https://github.com/anchore/syft/tree/v0.87.1) (2023-08-17)\r\n\r\n[Full Changelog](https://github.com/anchore/syft/compare/v0.87.0...v0.87.1)\r\n\r\n### Bug Fixes\r\n\r\n- Use Java package names to determine known groupIDs [[PR #2032](https://github.com/anchore/syft/pull/2032)] [[kzantow](https://github.com/kzantow)]\r\n- Relationships section of CycloneDX is not outputting even when the data is present [[Issue #1972](https://github.com/anchore/syft/issues/1972)] [[PR #1974](https://github.com/anchore/syft/pull/1974)] [[markgalpin](https://github.com/markgalpin)] [[kzantow](https://github.com/kzantow)]\r\n- SPDX Tag-Value conversion not handling files directly set on packages [[Issue #2013](https://github.com/anchore/syft/issues/2013)] [[PR #2014](https://github.com/anchore/syft/pull/2014)] [[kzantow](https://github.com/kzantow)]\r\n- Intermittent binary listings, different results every time [[Issue #2035](https://github.com/anchore/syft/issues/2035)] [[PR #2036](https://github.com/anchore/syft/pull/2036)] [[kzantow](https://github.com/kzantow)]\r\n\r\n\r\n\r\n"
@@ -3917,8 +3917,8 @@
     "https://github.com/chaitin/safeline": {
         "created_at": "2023-04-12 11:30:14",
         "description": "一款足够简单、足够好用、足够强的免费 WAF。基于业界领先的语义引擎检测技术，作为反向代理接入，保护你的网站不受黑客攻击。",
-        "commit_date": "2023-08-22 09:34:04",
-        "commit_message": "feat: add cpu ssse3 check and info",
+        "commit_date": "2023-08-24 03:08:46",
+        "commit_message": "feat: add permenent redirect links",
         "release_tag": "v3.0.1",
         "release_date": "2023-08-18 10:56:18",
         "release_message": "- 更新底层语义分析引擎，加强基础防护能力\r\n- 修复站点详情中，不同域名的资源会重复记录问题\r\n- 修复攻击事件有小概率时间排序错误的问题\r\n- 修复关闭再打开频率限制时，配置不会重置到默认值的问题\r\n- 修复首次创建站点且配置 SSL 端口的情况下提示“端口被占用”的问题"
@@ -3980,8 +3980,8 @@
     "https://github.com/anchore/grype": {
         "created_at": "2020-05-26 13:44:38",
         "description": "A vulnerability scanner for container images and filesystems",
-        "commit_date": "2023-08-23 17:40:49",
-        "commit_message": "chore(deps): bump github.com/google/uuid from 1.3.0 to 1.3.1 (#1453)\n\nBumps [github.com/google/uuid](https://github.com/google/uuid) from 1.3.0 to 1.3.1.\r\n- [Release notes](https://github.com/google/uuid/releases)\r\n- [Changelog](https://github.com/google/uuid/blob/master/CHANGELOG.md)\r\n- [Commits](https://github.com/google/uuid/compare/v1.3.0...v1.3.1)\r\n\r\n---\r\nupdated-dependencies:\r\n- dependency-name: github.com/google/uuid\r\n  dependency-type: direct:production\r\n  update-type: version-update:semver-patch\r\n...\r\n\r\nSigned-off-by: dependabot[bot] <support@github.com>\r\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
+        "commit_date": "2023-08-24 19:31:09",
+        "commit_message": "note supported versions of grype (#1458)\n\nSigned-off-by: Alex Goodman <wagoodman@users.noreply.github.com>",
         "release_tag": "v0.65.2",
         "release_date": "2023-08-17 20:07:01",
         "release_message": "# \r\n\r\n## [v0.65.2](https://github.com/anchore/grype/tree/v0.65.2) (2023-08-17)\r\n\r\n[Full Changelog](https://github.com/anchore/grype/compare/v0.65.1...v0.65.2)\r\n\r\n### Additional Changes\r\n\r\n- Update Syft to v0.87.1\r\n- Add a simple JUnit XML template [[PR #1422](https://github.com/anchore/grype/pull/1422)] [[YevheniiPokhvalii](https://github.com/YevheniiPokhvalii)]\r\n- Update semver regular expression constraint to allow for 1.20rc1 cases no '-' [[PR #1434](https://github.com/anchore/grype/pull/1434)] [[spiffcs](https://github.com/spiffcs)]\r\n"
@@ -4061,8 +4061,8 @@
     "https://github.com/WebGoat/WebGoat": {
         "created_at": "2015-03-06 14:02:02",
         "description": "WebGoat is a deliberately insecure application",
-        "commit_date": "2023-08-18 22:20:59",
-        "commit_message": "chore: bump org.jruby:jruby from 9.4.2.0 to 9.4.3.0\n\nBumps org.jruby:jruby from 9.4.2.0 to 9.4.3.0.\n\n---\nupdated-dependencies:\n- dependency-name: org.jruby:jruby\n  dependency-type: direct:production\n  update-type: version-update:semver-patch\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>",
+        "commit_date": "2023-08-24 22:31:04",
+        "commit_message": "chore: bump org.webjars:jquery from 3.6.4 to 3.7.0\n\nBumps [org.webjars:jquery](https://github.com/webjars/jquery) from 3.6.4 to 3.7.0.\n- [Commits](https://github.com/webjars/jquery/compare/jquery-3.6.4...jquery-3.7.0)\n\n---\nupdated-dependencies:\n- dependency-name: org.webjars:jquery\n  dependency-type: direct:production\n  update-type: version-update:semver-minor\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>",
         "release_tag": "v2023.4",
         "release_date": "2023-02-17 12:16:10",
         "release_message": "## Version 2023.4\r\n\r\n### New functionality\r\n\r\n- [#1422 Add Docker Linux Desktop variant with all tools installed](https://github.com/WebGoat/WebGoat/issues/1422). Thanks to the [OWASP WrongSecrets project](https://owasp.org/www-project-wrongsecrets/) we now have a Docker Linux desktop image with all the tools installed. No need to install any tools locally only run the new Docker image. See README.md for details on how to start it.\r\n- [#1411 JWT: looks that buy as Tom also works with alg:none](https://github.com/WebGoat/WebGoat/issues/1411).\r\n\r\n### Bug fixes\r\n\r\n- [#1410 WebWolf: JWT decode is broken](https://github.com/WebGoat/WebGoat/issues/1410).\r\n- [#1396 password_reset return 500 Error](https://github.com/WebGoat/WebGoat/issues/1396).\r\n- [#1379 Move XXE to A05:2021-Security Misconfiguration](https://github.com/WebGoat/WebGoat/issues/1379)."
@@ -4277,7 +4277,7 @@
     "https://github.com/aiboboxx/v2rayfree": {
         "created_at": "2021-10-13 11:34:53",
         "description": "v2ray节点、v2ray免费节点、免费v2ray节点、最新公益免费v2ray节点订阅地址、免费v2ray节点每日更新、免费ss/v2ray/trojan节点、freefq ",
-        "commit_date": "2023-08-23 12:34:55",
+        "commit_date": "2023-08-24 12:35:27",
         "commit_message": "update",
         "release_tag": "",
         "release_date": "",
@@ -4322,8 +4322,8 @@
     "https://github.com/freefq/free": {
         "created_at": "2020-06-07 02:48:33",
         "description": "翻墙、免费翻墙、免费科学上网、免费节点、免费梯子、免费ss/v2ray/trojan节点、蓝灯、谷歌商店、翻墙梯子",
-        "commit_date": "2023-08-24 00:00:04",
-        "commit_message": "updated_at 08-24 08:00",
+        "commit_date": "2023-08-25 00:00:02",
+        "commit_message": "updated_at 08-25 08:00",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -5004,8 +5004,8 @@
     "https://github.com/rustdesk/rustdesk": {
         "created_at": "2020-09-28 15:36:08",
         "description": "An open-source remote desktop, and alternative to TeamViewer.",
-        "commit_date": "2023-08-23 13:59:50",
-        "commit_message": "Merge branch 'master' of github.com-rustdesk:rustdesk/rustdesk",
+        "commit_date": "2023-08-24 12:04:50",
+        "commit_message": "Merge pull request #5498 from 21pages/audit\n\nalarm audit more info",
         "release_tag": "1.2.2",
         "release_date": "2023-08-22 01:44:36",
         "release_message": "\r\n![image](https://github.com/rustdesk/rustdesk/assets/71636191/b444deab-7971-4de7-b315-6a9b4974c7ea)\r\n\r\n> Winget, FDroid, Apple Sillicon, Google Play / App Store update will come soon.\r\n\r\nx86-64: [Windows](https://github.com/rustdesk/rustdesk/releases/download/1.2.2/rustdesk-1.2.2-x86_64.exe) | [Ubuntu](https://github.com/rustdesk/rustdesk/releases/download/1.2.2/rustdesk-1.2.2-x86_64.deb) | [Mac](https://github.com/rustdesk/rustdesk/releases/download/1.2.2/rustdesk-1.2.2-x86_64.dmg)\r\nAArch64 (ARM64):  [Ubuntu](https://github.com/rustdesk/rustdesk/releases/download/1.2.2/rustdesk-1.2.2-aarch64.deb) | [Android](https://github.com/rustdesk/rustdesk/releases/download/1.2.2/rustdesk-1.2.2-aarch64-signed.apk) | [Mac](https://github.com/rustdesk/rustdesk/releases/download/1.2.2/rustdesk-1.2.2-aarch64.dmg)\r\n\r\nMore: [check below please](#)\r\n\r\n<details>\r\n<summary>Changelog</summary>\r\n\r\n- Add separate window mode (tab window by default), https://github.com/rustdesk/rustdesk/discussions/2889\r\n![image](https://github.com/rustdesk/rustdesk/assets/71636191/0c73bc6a-8659-4a67-9425-47625a6aded3)\r\n- Fix and improve responsiveness issue introduced in 1.2.0. https://github.com/rustdesk/rustdesk/discussions/5231\r\n- Add device list batch handle\r\n![image](https://github.com/rustdesk/rustdesk/assets/71636191/0ca85b8e-bed3-48ad-a43f-82df983986f3)\r\n- Add command to assign user and strategy for [RustDesk Server Pro](https://rustdesk.com/docs/en/self-host/pro/)\r\n- Optimize address book, syncing password, alias name, device name etc, add tag color, improve error and update status handling\r\n![image](https://github.com/rustdesk/rustdesk/assets/71636191/21d7a226-b863-4dc2-a9d3-fb6cd3a56c5c)\r\n- Fix windows file copy/paste\r\n- Fix \"waiting for image...\" still shown after receiving image bug, refactored rust->flutter message handling https://github.com/rustdesk/rustdesk/issues/4533\r\n- Improve some touchpad support, https://github.com/rustdesk/rustdesk/pull/5049\r\n- Bug fixes.\r\n\r\n</details>\r\n"
@@ -5148,8 +5148,8 @@
     "https://github.com/FreeRDP/FreeRDP": {
         "created_at": "2011-06-30 19:14:15",
         "description": "FreeRDP is a free remote desktop protocol library and clients",
-        "commit_date": "2023-08-23 12:27:51",
-        "commit_message": "[core,update] log BeginPaint/EndPaint failure",
+        "commit_date": "2023-08-24 11:17:57",
+        "commit_message": "[winpr,file] fix FindFirstFile issues with android\n\nFixes #9277: On android parent directories are not accessible, so if\nopendir fails and the pattern is just the directory name without any\npattern (e.g. stat tells the full path is a directory) directly open it\nand set the pattern to '*'",
         "release_tag": "2.10.0",
         "release_date": "2023-02-16 13:46:39",
         "release_message": " Notewhorth changes:\r\n * Fix android build scripts, use CMake from SDK\r\n * Fix connection negotiation with mstsc/msrdc #8426\r\n * [ntlm]: use rfc5929 binding hash algorithm #8430\r\n * [channels,printer] Fixed reference counting #8433\r\n * Fix uwac pixman #8439\r\n * Fix Rdp security #8457\r\n * [client,x11] Detect key autorepeat #8522\r\n * [build] add channel path to RPATH #8551\r\n * Fix build with BUILTIN_CHANNELS=OFF #8560\r\n * revert changes so that the osmajortype/osminortype is not overwritten #8571\r\n * [uwac] do not use iso C functions #8604\r\n * [winpr,sam] fix inalid NULL arguments #8605\r\n * Fix incompatible function pointer types #8625\r\n \r\n Fixed issues:\r\n * Backported #8581: Ignore data PDUs for DVCs that were not opened successfully\r\n * Backported #8498: [channel,urbdrc] fix type of usb hotplug callback\r\n * Backported #8537: Extended info enforce limits\r\n * Backported #8611: [core] add missing redirection fields\r\n \r\n"
@@ -5263,11 +5263,11 @@
     "https://github.com/alibaba/arthas": {
         "created_at": "2018-08-29 17:15:57",
         "description": "Alibaba Java Diagnostic Tool Arthas/Alibaba Java诊断利器Arthas",
-        "commit_date": "2023-08-23 06:17:17",
-        "commit_message": "Upgrade profiler action: version, meminfo (#2626)",
-        "release_tag": "arthas-all-3.7.0",
-        "release_date": "2023-08-02 09:05:19",
-        "release_message": "Issues:  https://github.com/alibaba/arthas/milestone/48?closed=1\r\n\r\n* https://github.com/alibaba/arthas/issues/2572  tunnel-server detail-pages 页面支持自定义 port\r\n* https://github.com/alibaba/arthas/issues/2603 tunnel server 里的 SimpleHttpResponse 序列化增加白名单"
+        "commit_date": "2023-08-24 12:10:09",
+        "commit_message": "Prettified Code!",
+        "release_tag": "arthas-all-3.7.1",
+        "release_date": "2023-08-24 12:32:49",
+        "release_message": ""
     },
     "https://github.com/projectdiscovery/wappalyzergo": {
         "created_at": "2021-04-06 09:54:00",
