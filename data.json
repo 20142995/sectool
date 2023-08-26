@@ -200,8 +200,8 @@
     "https://github.com/ycdxsb/PocOrExp_in_Github": {
         "created_at": "2021-04-13 05:46:16",
         "description": "聚合Github上已有的Poc或者Exp，CVE信息来自CVE官网。Auto Collect Poc Or Exp from Github by CVE ID.",
-        "commit_date": "2023-08-24 23:11:17",
-        "commit_message": "update 2023-08-25 07:11:17",
+        "commit_date": "2023-08-25 23:12:14",
+        "commit_message": "update 2023-08-26 07:12:14",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -218,7 +218,7 @@
     "https://github.com/Threekiii/Vulhub-Reproduce": {
         "created_at": "2022-03-03 08:38:29",
         "description": "一个Vulhub漏洞复现知识库",
-        "commit_date": "2023-08-03 07:07:36",
+        "commit_date": "2023-08-25 08:09:30",
         "commit_message": "更新漏洞",
         "release_tag": "",
         "release_date": "",
@@ -1017,7 +1017,7 @@
     "https://github.com/wecooperate/iDefender": {
         "created_at": "2021-11-24 11:38:28",
         "description": "iDefender（冰盾 - 终端主动防御系统）",
-        "commit_date": "2023-08-24 14:49:35",
+        "commit_date": "2023-08-25 16:26:19",
         "commit_message": "update",
         "release_tag": "2.9.0",
         "release_date": "2023-07-19 02:37:26",
@@ -1098,7 +1098,7 @@
     "https://github.com/Threekiii/Vulnerability-Wiki": {
         "created_at": "2022-04-29 05:36:33",
         "description": "一个基于 docsify 的综合漏洞知识库，目前漏洞数量 900+",
-        "commit_date": "2023-08-03 07:17:17",
+        "commit_date": "2023-08-25 08:08:55",
         "commit_message": "更新漏洞",
         "release_tag": "v1.0",
         "release_date": "2022-07-15 01:58:00",
@@ -2221,7 +2221,7 @@
     "https://github.com/Threekiii/Awesome-POC": {
         "created_at": "2022-02-20 06:43:22",
         "description": "一个各类漏洞POC知识库",
-        "commit_date": "2023-08-03 00:54:06",
+        "commit_date": "2023-08-25 08:10:08",
         "commit_message": "更新漏洞",
         "release_tag": "",
         "release_date": "",
@@ -2951,8 +2951,8 @@
     "https://github.com/dbeaver/dbeaver": {
         "created_at": "2015-10-21 08:26:28",
         "description": "Free universal database tool and SQL client",
-        "commit_date": "2023-08-24 13:43:05",
-        "commit_message": "CB-3449. Fixed formatting sql script at macOs/linux. (#20929)\n\n* CB-3449. Fixed formatting sql script at macOs/linux.\r\n\r\n* CB-3449. Fixed formatting sql script at macOs/linux.\r\n\r\n* CB-3449. Refactor after review, delete duplicate method\r\n\r\n* CB-3449. Refactor after review, delete duplicate method\r\n\r\n---------\r\n\r\nCo-authored-by: Daria Marutkina <125263541+dariamarutkina@users.noreply.github.com>",
+        "commit_date": "2023-08-25 12:29:25",
+        "commit_message": "dbeaver/cloudbeaver#1951 Handle parsing errors (#20993)\n\n* dbeaver/cloudbeaver#1951 Handle parsing errors\r\n\r\n* dbeaver/cloudbeaver#1951 Add logging",
         "release_tag": "23.1.5",
         "release_date": "2023-08-20 19:54:12",
         "release_message": "\n                - Data editor:\n                    - Dictionary viewer panel UI was redesigned\n                    - Spatial data types: curved geometries linearizing was fixed\n                    - Issue was result tab close on data save was resolved\n                    - Column tooltips was fixed\n                    - Charts rendering errors visualization was improved\n                - SQL editor:\n                    - Autocompletion in single-line comments was fixed\n                    - Variable value editor was fixed\n                    - Smart completion for CTE queries (WITH/SELECT) was fixed\n                    - @include command handler was fixed (reuse the console for the same included script)\n                    - INSERT SQL query generation was fixed (identity columns)\n                    - Issue with text search/replace in hidden files was fixed\n                - ERD editor: grid foreground color was fixed\n                - General UI:\n                    - Objects sorting in tables now can be reset to the original ordering\n                    - Network handlers (SSH, SSL, etc) UI was redesigned\n                    - New object creation shortcut was added (Alt+Insert)\n                    - External files opening was fixed on MacOS and Linux\n                    - Command line connection opening was fixed\n                    - User name/password prompt dialog as fixed for SSH tunnels\n                    - Issue with preference pages in Eclipse plugin was resolved\n                - Accessibility:\n                    - JAWS and Narrator support was improved for data editor and vertical tabs\n                    - High contrast theme support was significantly improved\n                - Databases:\n                    - Clickhouse: map and array data types visualization was added\n                    - Greenplum: tables DDL was fixed (for version 7)\n                    - OpenGauss DB: json data types support was added\n                    - PostgreSQL: default native clients (pgsql, pg_dump) version was changed to 15\n                    - Yellowbrick: stored procedures drop query was fixed\n                - Localization:\n                    - Chinese localization was updated (thanks to @bianyun)\n            "
@@ -3219,7 +3219,7 @@
     "https://github.com/Threekiii/Awesome-Redteam": {
         "created_at": "2022-02-08 00:45:03",
         "description": "一个攻防知识仓库",
-        "commit_date": "2023-08-03 09:37:48",
+        "commit_date": "2023-08-25 09:10:09",
         "commit_message": "更新README.md",
         "release_tag": "",
         "release_date": "",
@@ -3908,20 +3908,20 @@
     "https://github.com/anchore/syft": {
         "created_at": "2020-05-07 18:19:29",
         "description": "CLI tool and library for generating a Software Bill of Materials from container images and filesystems",
-        "commit_date": "2023-08-24 17:28:40",
-        "commit_message": "Fix: don't validate pom declared group (#2054)\n\nSigned-off-by: Will Murphy <will.murphy@anchore.com>",
-        "release_tag": "v0.87.1",
-        "release_date": "2023-08-17 19:06:06",
-        "release_message": "# \r\n\r\n## [v0.87.1](https://github.com/anchore/syft/tree/v0.87.1) (2023-08-17)\r\n\r\n[Full Changelog](https://github.com/anchore/syft/compare/v0.87.0...v0.87.1)\r\n\r\n### Bug Fixes\r\n\r\n- Use Java package names to determine known groupIDs [[PR #2032](https://github.com/anchore/syft/pull/2032)] [[kzantow](https://github.com/kzantow)]\r\n- Relationships section of CycloneDX is not outputting even when the data is present [[Issue #1972](https://github.com/anchore/syft/issues/1972)] [[PR #1974](https://github.com/anchore/syft/pull/1974)] [[markgalpin](https://github.com/markgalpin)] [[kzantow](https://github.com/kzantow)]\r\n- SPDX Tag-Value conversion not handling files directly set on packages [[Issue #2013](https://github.com/anchore/syft/issues/2013)] [[PR #2014](https://github.com/anchore/syft/pull/2014)] [[kzantow](https://github.com/kzantow)]\r\n- Intermittent binary listings, different results every time [[Issue #2035](https://github.com/anchore/syft/issues/2035)] [[PR #2036](https://github.com/anchore/syft/pull/2036)] [[kzantow](https://github.com/kzantow)]\r\n\r\n\r\n\r\n"
+        "commit_date": "2023-08-25 20:45:04",
+        "commit_message": "chore: update quill to the latest version (#2065)\n\nSigned-off-by: Keith Zantow <kzantow@gmail.com>",
+        "release_tag": "v0.88.0",
+        "release_date": "2023-08-25 21:01:23",
+        "release_message": "# \n\n## [v0.88.0](https://github.com/anchore/syft/tree/v0.88.0) (2023-08-25)\n\n[Full Changelog](https://github.com/anchore/syft/compare/v0.87.1...v0.88.0)\n\n### Added Features\n\n- Detect golang boring crypto and fipsonly modules [[PR #2021](https://github.com/anchore/syft/pull/2021)] [[bathina2](https://github.com/bathina2)]\n- feat: 1944 - update purl generation to use a consistent groupID [[PR #2033](https://github.com/anchore/syft/pull/2033)] [[spiffcs](https://github.com/spiffcs)]\n- Add support to detect bash binaries [[Issue #1963](https://github.com/anchore/syft/issues/1963)] [[PR #2055](https://github.com/anchore/syft/pull/2055)] [[witchcraze](https://github.com/witchcraze)]\n\n### Bug Fixes\n\n- fix: properly parse conan ref and include user and channel [[PR #2034](https://github.com/anchore/syft/pull/2034)] [[Pro](https://github.com/Pro)]\n- New version notice only showing the version and no text [[PR #2042](https://github.com/anchore/syft/pull/2042)] [[wagoodman](https://github.com/wagoodman)]\n- Fix: don't validate pom declared group [[PR #2054](https://github.com/anchore/syft/pull/2054)] [[willmurphyscode](https://github.com/willmurphyscode)]\n- Errors when handling symlinks on Windows with syft v0.85.0 [[Issue #1950](https://github.com/anchore/syft/issues/1950)] [[PR #2051](https://github.com/anchore/syft/pull/2051)] [[selzoc](https://github.com/selzoc)]\n- Syft seems unable to parse non UTF-8 pom.xml files [[Issue #2044](https://github.com/anchore/syft/issues/2044)] [[PR #2047](https://github.com/anchore/syft/pull/2047)] [[wagoodman](https://github.com/wagoodman)]\n- Error parsing pom.xml with v0.87.1 [[Issue #2060](https://github.com/anchore/syft/issues/2060)] [[PR #2064](https://github.com/anchore/syft/pull/2064)] [[willmurphyscode](https://github.com/willmurphyscode)]\n- Invalid CycloneDX: duplicates in relationships section [[Issue #2062](https://github.com/anchore/syft/issues/2062)] [[PR #2063](https://github.com/anchore/syft/pull/2063)] [[kzantow](https://github.com/kzantow)]\n\n\n\n"
     },
     "https://github.com/chaitin/safeline": {
         "created_at": "2023-04-12 11:30:14",
         "description": "一款足够简单、足够好用、足够强的免费 WAF。基于业界领先的语义引擎检测技术，作为反向代理接入，保护你的网站不受黑客攻击。",
-        "commit_date": "2023-08-24 03:08:46",
-        "commit_message": "feat: add permenent redirect links",
-        "release_tag": "v3.0.1",
-        "release_date": "2023-08-18 10:56:18",
-        "release_message": "- 更新底层语义分析引擎，加强基础防护能力\r\n- 修复站点详情中，不同域名的资源会重复记录问题\r\n- 修复攻击事件有小概率时间排序错误的问题\r\n- 修复关闭再打开频率限制时，配置不会重置到默认值的问题\r\n- 修复首次创建站点且配置 SSL 端口的情况下提示“端口被占用”的问题"
+        "commit_date": "2023-08-25 07:54:26",
+        "commit_message": "Merge branch 'main' of github.com:chaitin/safeline into main",
+        "release_tag": "v3.1.0",
+        "release_date": "2023-08-25 03:15:56",
+        "release_message": "### 新增\r\n\r\n- 新增证书管理。自动判断域名与过期状态，配置站点时可以直接选择（[#111](https://github.com/chaitin/SafeLine/issues/111)），还可以修改管理后台的证书（[#201](https://github.com/chaitin/SafeLine/issues/201)）\r\n\r\n- 新增系统信息\r\n\r\n### 优化\r\n\r\n- 修复站点详情全局只支持 250 个资源的问题。现在是每个站点各支持 250 个\r\n- 修复站点详情中，路径太长样式会错位的问题\r\n- 修复站点从维护切换成其他状态时，微信会缓存维护页面的问题（[#221](https://github.com/chaitin/SafeLine/issues/221)）\r\n- 修复手机和平板上不能输入动态口令的问题（[#234](https://github.com/chaitin/SafeLine/issues/234)）\r\n- 优化导航栏和若干 UI 交互细节"
     },
     "https://github.com/stamparm/identYwaf": {
         "created_at": "2019-01-10 11:27:58",
@@ -3980,8 +3980,8 @@
     "https://github.com/anchore/grype": {
         "created_at": "2020-05-26 13:44:38",
         "description": "A vulnerability scanner for container images and filesystems",
-        "commit_date": "2023-08-24 19:31:09",
-        "commit_message": "note supported versions of grype (#1458)\n\nSigned-off-by: Alex Goodman <wagoodman@users.noreply.github.com>",
+        "commit_date": "2023-08-25 21:23:52",
+        "commit_message": "chore(deps): update Syft to v0.88.0 (#1466)",
         "release_tag": "v0.65.2",
         "release_date": "2023-08-17 20:07:01",
         "release_message": "# \r\n\r\n## [v0.65.2](https://github.com/anchore/grype/tree/v0.65.2) (2023-08-17)\r\n\r\n[Full Changelog](https://github.com/anchore/grype/compare/v0.65.1...v0.65.2)\r\n\r\n### Additional Changes\r\n\r\n- Update Syft to v0.87.1\r\n- Add a simple JUnit XML template [[PR #1422](https://github.com/anchore/grype/pull/1422)] [[YevheniiPokhvalii](https://github.com/YevheniiPokhvalii)]\r\n- Update semver regular expression constraint to allow for 1.20rc1 cases no '-' [[PR #1434](https://github.com/anchore/grype/pull/1434)] [[spiffcs](https://github.com/spiffcs)]\r\n"
@@ -4061,8 +4061,8 @@
     "https://github.com/WebGoat/WebGoat": {
         "created_at": "2015-03-06 14:02:02",
         "description": "WebGoat is a deliberately insecure application",
-        "commit_date": "2023-08-24 22:31:04",
-        "commit_message": "chore: bump org.webjars:jquery from 3.6.4 to 3.7.0\n\nBumps [org.webjars:jquery](https://github.com/webjars/jquery) from 3.6.4 to 3.7.0.\n- [Commits](https://github.com/webjars/jquery/compare/jquery-3.6.4...jquery-3.7.0)\n\n---\nupdated-dependencies:\n- dependency-name: org.webjars:jquery\n  dependency-type: direct:production\n  update-type: version-update:semver-minor\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>",
+        "commit_date": "2023-08-26 00:22:33",
+        "commit_message": "Fix NPE in IDOR lesson",
         "release_tag": "v2023.4",
         "release_date": "2023-02-17 12:16:10",
         "release_message": "## Version 2023.4\r\n\r\n### New functionality\r\n\r\n- [#1422 Add Docker Linux Desktop variant with all tools installed](https://github.com/WebGoat/WebGoat/issues/1422). Thanks to the [OWASP WrongSecrets project](https://owasp.org/www-project-wrongsecrets/) we now have a Docker Linux desktop image with all the tools installed. No need to install any tools locally only run the new Docker image. See README.md for details on how to start it.\r\n- [#1411 JWT: looks that buy as Tom also works with alg:none](https://github.com/WebGoat/WebGoat/issues/1411).\r\n\r\n### Bug fixes\r\n\r\n- [#1410 WebWolf: JWT decode is broken](https://github.com/WebGoat/WebGoat/issues/1410).\r\n- [#1396 password_reset return 500 Error](https://github.com/WebGoat/WebGoat/issues/1396).\r\n- [#1379 Move XXE to A05:2021-Security Misconfiguration](https://github.com/WebGoat/WebGoat/issues/1379)."
@@ -4277,7 +4277,7 @@
     "https://github.com/aiboboxx/v2rayfree": {
         "created_at": "2021-10-13 11:34:53",
         "description": "v2ray节点、v2ray免费节点、免费v2ray节点、最新公益免费v2ray节点订阅地址、免费v2ray节点每日更新、免费ss/v2ray/trojan节点、freefq ",
-        "commit_date": "2023-08-24 12:35:27",
+        "commit_date": "2023-08-25 12:34:36",
         "commit_message": "update",
         "release_tag": "",
         "release_date": "",
@@ -4322,8 +4322,8 @@
     "https://github.com/freefq/free": {
         "created_at": "2020-06-07 02:48:33",
         "description": "翻墙、免费翻墙、免费科学上网、免费节点、免费梯子、免费ss/v2ray/trojan节点、蓝灯、谷歌商店、翻墙梯子",
-        "commit_date": "2023-08-25 00:00:02",
-        "commit_message": "updated_at 08-25 08:00",
+        "commit_date": "2023-08-26 00:00:03",
+        "commit_message": "updated_at 08-26 08:00",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -4529,8 +4529,8 @@
     "https://github.com/MobSF/Mobile-Security-Framework-MobSF": {
         "created_at": "2015-01-31 04:36:01",
         "description": "Mobile Security Framework (MobSF) is an automated, all-in-one mobile application (Android/iOS/Windows) pen-testing, malware analysis and security assessment framework capable of performing static and dynamic analysis.",
-        "commit_date": "2023-08-19 07:19:55",
-        "commit_message": "[HOTFIX][EFR09] AAR/JAR obfuscation and debug check + Exception Handed strings and symbols extraction (#2240)\n\n* AAR/JAR obfuscation and debug check\r\n* Exception handling symbols and strings from so/dylib",
+        "commit_date": "2023-08-25 01:39:56",
+        "commit_message": "[HOTFIX][EFR10] Independent Static Library(.a) ELF/MachO Analysis + Graceful Analysis (#2242)\n\n* Independent Static Library(.a) ELF/MachO Analysis\r\n   * Mac FAT binary only supported on Mac\r\n* Static and Dynamic Binary Analysis QA\r\n* Refactor Dex permissions\r\n* Fallback certificate analysis using apksigtool\r\n* Refactor Androguard `apk.APK()` usage",
         "release_tag": "v3.6.9",
         "release_date": "2023-07-23 19:43:02",
         "release_message": "### v3.6.9 Beta Changelog\r\n\r\n- Features or Enhancements\r\n   - New Simplified and Updated Documentation https://mobsf.github.io/docs/#/\r\n   - MobSF Dynamic Analysis support for Docker image\r\n   - Updated Documentation to include support for Corellium ARM64 Android VMs\r\n   - Add support for environment variables to configure MobSF\r\n   - Android SCA extract icon from SVG\r\n   - OFAC Sanctioned Country Check\r\n   - Improved Android Certificate Analysis\r\n   - Updated Android Manifest Analysis Rules\r\n   - Enterprise Feature Request\r\n      - Summary of Findings under each section\r\n      - Support for independent scanning of AAR ad JAR files.\r\n\r\n## What's Changed\r\n* Adding numeric_owner as a keyword argument by @TrellixVulnTeam in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2050\r\n* Scheduled weekly dependency update for week 41 by @pyup-bot in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2046\r\n* HOTFIX: UI changes and warning on mobsf.live by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2051\r\n* Split certificate analysis out, suppression list fixes by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2052\r\n* hotfix for quark rules location by @superpoussin22 in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2053\r\n* HOTFIX: jadx update to 1.4.5  by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2064\r\n* Installation script error: Solving spelling error by @th3-d4v1d-c0de in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2067\r\n* Android APK support extracting icon SVG from XML by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2060\r\n* HOTFIX: Setup improvement by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2078\r\n* Apktool 2.7.0 update by @superpoussin22 in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2082\r\n* New Android Manifest Rule: App support vulnerable android versions by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2114\r\n* Fix for filenames containing ampersand by @evmxattr in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2129\r\n* HOTFIX - Fix broken docker builds by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2135\r\n* Fix Scorecard Severity Distribution chart data by @antoinbo in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2140\r\n* HOTIX: Update Dockerfile to install jq by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2149\r\n* [HOTFIX] Add support for environment variable for MobSF config by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2150\r\n* HOTFIX: Android min SDK check on janus vulnerability detection by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2159\r\n* [Enterprise Feature Request EFR02] Support summary of severity in each section. by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2160\r\n* [EFR05] Enterprise Feature Request: AAR and JAR support by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2163\r\n* Scheduled weekly dependency update for week 24 by @pyup-bot in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2187\r\n* Feature updates and Bug Fixes by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2197\r\n* HOTFIX: MobSF Android Dynamic Analysis Docker Support by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2214\r\n\r\n## New Contributors\r\n* @th3-d4v1d-c0de made their first contribution in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2067\r\n* @evmxattr made their first contribution in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2129\r\n* @antoinbo made their first contribution in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2140\r\n\r\n**Full Changelog**: https://github.com/MobSF/Mobile-Security-Framework-MobSF/compare/v3.6.0...v3.6.9"
@@ -4601,8 +4601,8 @@
     "https://github.com/rockbenben/ChatGPT-Shortcut": {
         "created_at": "2023-02-24 12:53:49",
         "description": "🚀💪Maximize your efficiency and productivity, support for English,中文,Español,العربية. 让生产力加倍的ChatGPT快捷指令，无需熟悉提示词，就能轻松搜索、优化和管理Prompts，适应多语言及各种生产效率场景。",
-        "commit_date": "2023-08-08 21:09:10",
-        "commit_message": "perf: Replace Google authentication API",
+        "commit_date": "2023-08-25 10:11:47",
+        "commit_message": "prompt: add prompt and update weight\n\ncontributed by @aliliin @xingyueye5 @miaonia",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -5004,8 +5004,8 @@
     "https://github.com/rustdesk/rustdesk": {
         "created_at": "2020-09-28 15:36:08",
         "description": "An open-source remote desktop, and alternative to TeamViewer.",
-        "commit_date": "2023-08-24 12:04:50",
-        "commit_message": "Merge pull request #5498 from 21pages/audit\n\nalarm audit more info",
+        "commit_date": "2023-08-25 13:45:00",
+        "commit_message": "Update README-TR.md",
         "release_tag": "1.2.2",
         "release_date": "2023-08-22 01:44:36",
         "release_message": "\r\n![image](https://github.com/rustdesk/rustdesk/assets/71636191/b444deab-7971-4de7-b315-6a9b4974c7ea)\r\n\r\n> Winget, FDroid, Apple Sillicon, Google Play / App Store update will come soon.\r\n\r\nx86-64: [Windows](https://github.com/rustdesk/rustdesk/releases/download/1.2.2/rustdesk-1.2.2-x86_64.exe) | [Ubuntu](https://github.com/rustdesk/rustdesk/releases/download/1.2.2/rustdesk-1.2.2-x86_64.deb) | [Mac](https://github.com/rustdesk/rustdesk/releases/download/1.2.2/rustdesk-1.2.2-x86_64.dmg)\r\nAArch64 (ARM64):  [Ubuntu](https://github.com/rustdesk/rustdesk/releases/download/1.2.2/rustdesk-1.2.2-aarch64.deb) | [Android](https://github.com/rustdesk/rustdesk/releases/download/1.2.2/rustdesk-1.2.2-aarch64-signed.apk) | [Mac](https://github.com/rustdesk/rustdesk/releases/download/1.2.2/rustdesk-1.2.2-aarch64.dmg)\r\n\r\nMore: [check below please](#)\r\n\r\n<details>\r\n<summary>Changelog</summary>\r\n\r\n- Add separate window mode (tab window by default), https://github.com/rustdesk/rustdesk/discussions/2889\r\n![image](https://github.com/rustdesk/rustdesk/assets/71636191/0c73bc6a-8659-4a67-9425-47625a6aded3)\r\n- Fix and improve responsiveness issue introduced in 1.2.0. https://github.com/rustdesk/rustdesk/discussions/5231\r\n- Add device list batch handle\r\n![image](https://github.com/rustdesk/rustdesk/assets/71636191/0ca85b8e-bed3-48ad-a43f-82df983986f3)\r\n- Add command to assign user and strategy for [RustDesk Server Pro](https://rustdesk.com/docs/en/self-host/pro/)\r\n- Optimize address book, syncing password, alias name, device name etc, add tag color, improve error and update status handling\r\n![image](https://github.com/rustdesk/rustdesk/assets/71636191/21d7a226-b863-4dc2-a9d3-fb6cd3a56c5c)\r\n- Fix windows file copy/paste\r\n- Fix \"waiting for image...\" still shown after receiving image bug, refactored rust->flutter message handling https://github.com/rustdesk/rustdesk/issues/4533\r\n- Improve some touchpad support, https://github.com/rustdesk/rustdesk/pull/5049\r\n- Bug fixes.\r\n\r\n</details>\r\n"
@@ -5148,8 +5148,8 @@
     "https://github.com/FreeRDP/FreeRDP": {
         "created_at": "2011-06-30 19:14:15",
         "description": "FreeRDP is a free remote desktop protocol library and clients",
-        "commit_date": "2023-08-24 11:17:57",
-        "commit_message": "[winpr,file] fix FindFirstFile issues with android\n\nFixes #9277: On android parent directories are not accessible, so if\nopendir fails and the pattern is just the directory name without any\npattern (e.g. stat tells the full path is a directory) directly open it\nand set the pattern to '*'",
+        "commit_date": "2023-08-25 12:36:05",
+        "commit_message": "[api] fix integer overflow warnings",
         "release_tag": "2.10.0",
         "release_date": "2023-02-16 13:46:39",
         "release_message": " Notewhorth changes:\r\n * Fix android build scripts, use CMake from SDK\r\n * Fix connection negotiation with mstsc/msrdc #8426\r\n * [ntlm]: use rfc5929 binding hash algorithm #8430\r\n * [channels,printer] Fixed reference counting #8433\r\n * Fix uwac pixman #8439\r\n * Fix Rdp security #8457\r\n * [client,x11] Detect key autorepeat #8522\r\n * [build] add channel path to RPATH #8551\r\n * Fix build with BUILTIN_CHANNELS=OFF #8560\r\n * revert changes so that the osmajortype/osminortype is not overwritten #8571\r\n * [uwac] do not use iso C functions #8604\r\n * [winpr,sam] fix inalid NULL arguments #8605\r\n * Fix incompatible function pointer types #8625\r\n \r\n Fixed issues:\r\n * Backported #8581: Ignore data PDUs for DVCs that were not opened successfully\r\n * Backported #8498: [channel,urbdrc] fix type of usb hotplug callback\r\n * Backported #8537: Extended info enforce limits\r\n * Backported #8611: [core] add missing redirection fields\r\n \r\n"
@@ -5267,7 +5267,7 @@
         "commit_message": "Prettified Code!",
         "release_tag": "arthas-all-3.7.1",
         "release_date": "2023-08-24 12:32:49",
-        "release_message": ""
+        "release_message": "Issues: https://github.com/alibaba/arthas/milestone/49?closed=1\r\n\r\n* #2620 当 listen 0.0.0.0 时，默认生成随机密码，需要鉴权\r\n\r\n* #2633  修复在线教程，切换到 killercoda feat: update online tutorials, switch to killercoda "
     },
     "https://github.com/projectdiscovery/wappalyzergo": {
         "created_at": "2021-04-06 09:54:00",
@@ -5986,11 +5986,11 @@
     "https://github.com/github/codeql-cli-binaries": {
         "created_at": "2019-10-15 09:46:34",
         "description": "Binaries for the CodeQL CLI",
-        "commit_date": "2023-08-11 11:10:22",
-        "commit_message": "Update changelog for 2.14.2",
-        "release_tag": "v2.14.2",
-        "release_date": "2023-08-11 11:12:07",
-        "release_message": "### Breaking changes\r\n\r\n- The functionality provided by the `codeql execute query-server` subcommand has been removed. The subcommand now responds to all JSON RPC requests with an error response. Correspondingly, this release is no longer compatible with versions of the CodeQL extension for Visual Studio Code prior to 1.7.6.\r\n\r\n  This change also breaks third-party CodeQL IDE integrations that still rely on the `codeql execute query-server` subcommand. Maintainers of such CodeQL IDE integrations should migrate to the `codeql execute query-server2` subcommand at the earliest opportunity.\r\n\r\n### Improvements\r\n\r\n- Switched from prefix filtering of autocomplete suggestions in the language server to client-side filtering. This improves autocomplete suggestions in contexts with an autocompletion prefix.\r\n\r\n- The CodeQL language server now checks query metadata for errors. This allows Visual Studio Code users to see errors in their query metadata without needing to compile the query.\r\n\r\n### Bugs fixed\r\n\r\n- Fixed bug that made the `--warnings=hide` option do nothing in `codeql database analyze` and other commands that _evaluate_ queries.\r\n\r\nFor more information about the changes included in this release, see the [CodeQL CLI changelog](https://github.com/github/codeql-cli-binaries/blob/HEAD/CHANGELOG.md).\r\n\r\nYou can download _either_ the `codeql-PLATFORM.zip` for your platform, _or_ the generic `codeql.zip` which contains binaries for all supported platforms. Please ignore the additional \"source code\" downloads below the `.zip` artifacts.\r\n\r\nThis release is compatible with the CodeQL language packs from [`github/codeql@codeql-cli/v2.14.2`](https://github.com/github/codeql/tree/codeql-cli/v2.14.2).\r\n"
+        "commit_date": "2023-08-25 15:48:38",
+        "commit_message": "Update changelog for 2.14.3",
+        "release_tag": "v2.14.3",
+        "release_date": "2023-08-25 16:21:04",
+        "release_message": "### Breaking changes\r\n\r\n- The `<run>.tool.extensions` property in the SARIF generated by `codeql database analyze` now contains the\r\n  following packs:\r\n\r\n  - The containing query pack for each query that was evaluated.\r\n  - Each model pack that was specified via the `--model-packs` option, regardless of whether\r\n    that model pack affected any of the evaluated queries.\r\n    Library packs are no longer included in the list.\r\n\r\n### Miscellaneous\r\n\r\n- The build of Eclipse Temurin OpenJDK that is bundled with the CodeQL\r\n  CLI has been updated to version 17.0.8.\r\n\r\n- When `codeql test` generates `.actual` files, they will in some cases\r\n  list the query predicates in a different order than past versions.\r\n  There is no need to update `.expected` files, as `codeql test` sorts\r\n  their results accordingly before diffing.\r\n  However, when there are genuine changes in expected results, the\r\n  generated `.actual` file can show additional changes against the\r\n  `.expected` due to the reordering.\r\n\r\nFor more information about the changes included in this release, see the [CodeQL CLI changelog](https://github.com/github/codeql-cli-binaries/blob/HEAD/CHANGELOG.md).\r\n\r\nYou can download _either_ the `codeql-PLATFORM.zip` for your platform, _or_ the generic `codeql.zip` which contains binaries for all supported platforms. Please ignore the additional \"source code\" downloads below the `.zip` artifacts.\r\n\r\nThis release is compatible with the CodeQL language packs from [`github/codeql@codeql-cli/v2.14.3`](https://github.com/github/codeql/tree/codeql-cli/v2.14.3).\r\n"
     },
     "https://github.com/Ascotbe/HackerMind": {
         "created_at": "2019-02-21 01:03:39",
