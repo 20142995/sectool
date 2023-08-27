@@ -119,11 +119,11 @@
     "https://github.com/Moxin1044/qsnctf-python": {
         "created_at": "2023-01-01 01:56:43",
         "description": "青少年CTF的Python包，方便大家调用一些CTF常用功能。",
-        "commit_date": "2023-04-02 17:16:18",
-        "commit_message": "增加求等差数列第n项和n项和",
-        "release_tag": "0.0.8.9",
-        "release_date": "2023-02-26 00:35:49",
-        "release_message": "更新了之前版本不存在的Web请求timeout导致扫描时间过长，在0.0.8.9版本已修复此问题。\r\n您甚至可以指定timeout，感谢问题反馈！"
+        "commit_date": "2023-08-26 02:35:55",
+        "commit_message": "build( Version ): ⬆️ 0.0.8.10",
+        "release_tag": "0.0.8.10",
+        "release_date": "2023-08-26 02:44:27",
+        "release_message": "### 说明\r\n本次根据Issues提升了依赖PyExecJS的版本，由原先的**PyExecJS 1.5.1**直升到了**PyExecJS2 1.6.1**。\r\n已经安装的用户可以使用`python3 -m pip install -U qsnctf` 进行更新，目前版本为0.0.8.10。\r\n如果在使用过程中有其他的问题，您可使用Issues提交。"
     },
     "https://github.com/jdr2021/wxapkgUnpack": {
         "created_at": "2023-02-19 17:30:27",
@@ -200,8 +200,8 @@
     "https://github.com/ycdxsb/PocOrExp_in_Github": {
         "created_at": "2021-04-13 05:46:16",
         "description": "聚合Github上已有的Poc或者Exp，CVE信息来自CVE官网。Auto Collect Poc Or Exp from Github by CVE ID.",
-        "commit_date": "2023-08-25 23:12:14",
-        "commit_message": "update 2023-08-26 07:12:14",
+        "commit_date": "2023-08-26 23:12:29",
+        "commit_message": "update 2023-08-27 07:12:29",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -864,11 +864,11 @@
     "https://github.com/vaycore/OneScan": {
         "created_at": "2023-02-14 01:59:45",
         "description": "OneScan是递归目录扫描的BurpSuite插件",
-        "commit_date": "2023-07-09 09:19:10",
-        "commit_message": "更新README.md中的一些说明和截图",
-        "release_tag": "v1.1.0",
-        "release_date": "2023-07-09 09:23:08",
-        "release_message": "\r\n1.1.0 版本发布，版本更新内容如下\r\n\r\n### 新增\r\n\r\n- 新增停止扫描任务功能（停止正在扫描的所有任务）\r\n- 新增导入 Url 功能（需要导入完整 Url 链接）\r\n- 数据看板列表新增请求包来源 `From` 字段（方便过滤）\r\n- 数据看板列表新增 “获取bodyMd5值”、“获取bodyHash值” 菜单项（更方便师傅们添加指纹规则）\r\n- 指纹模块新增 `bodyHash` 数据源（与 Fofa 的 `icon_hash` 计算方式一样）\r\n"
+        "commit_date": "2023-08-26 11:37:40",
+        "commit_message": "修复扫描时请求包出现-1的问题；更新版本号为1.2.1",
+        "release_tag": "v1.2.1",
+        "release_date": "2023-08-26 11:42:13",
+        "release_message": "1.2.1 版本发布，紧急修复\r\n\r\n### 修复\r\n\r\n- 修复扫描时请求包出现 `-1` 的问题"
     },
     "https://github.com/ianxtianxt/SharpDecryptPwd": {
         "created_at": "2019-10-12 11:43:26",
@@ -981,8 +981,8 @@
     "https://github.com/sqlmapproject/sqlmap": {
         "created_at": "2012-06-26 09:52:15",
         "description": "Automatic SQL injection and database takeover tool",
-        "commit_date": "2023-08-19 08:24:20",
-        "commit_message": "Fixes #5483",
+        "commit_date": "2023-08-26 14:02:17",
+        "commit_message": "Minor update of SQLite specific payload (#5501)",
         "release_tag": "1.7",
         "release_date": "2023-01-02 22:32:55",
         "release_message": "Stable version 1.7 ([changeset](https://github.com/sqlmapproject/sqlmap/compare/1.6...1.7))"
@@ -1062,8 +1062,8 @@
     "https://github.com/ninoseki/mitaka": {
         "created_at": "2018-02-09 00:13:30",
         "description": "A browser extension for OSINT search",
-        "commit_date": "2023-08-24 12:05:51",
-        "commit_message": "Merge pull request #750 from ninoseki/v1.3.2\n\nv1.3.2",
+        "commit_date": "2023-08-26 10:15:19",
+        "commit_message": "Merge pull request #751 from ninoseki/refaoctor-null-undefined\n\nrefactor: remove !== null/undefined",
         "release_tag": "v1.3.2",
         "release_date": "2023-08-24 12:07:24",
         "release_message": "- Fix Censys's search query format (#749) \r\n- Disable IntelligenceX (#749)"
@@ -2654,8 +2654,8 @@
     "https://github.com/maurosoria/dirsearch": {
         "created_at": "2013-04-30 15:57:40",
         "description": "Web path scanner",
-        "commit_date": "2023-06-24 05:05:29",
-        "commit_message": "Merge pull request #1302 from drego85/patch-13\n\nAdding \"config.properties\" and sort+remove duplicate",
+        "commit_date": "2023-08-26 03:35:58",
+        "commit_message": "Merge pull request #1310 from godspeedcurry/master\n\nUpdate dicc.txt",
         "release_tag": "v0.4.3",
         "release_date": "2022-10-05 13:01:24",
         "release_message": "- Automatically detect the URI scheme (`http` or `https`) if no scheme is provided\r\n- SQLite report format\r\n- Option to overwrite unwanted extensions with selected extensions\r\n- Option to view redirects history when following redirects\r\n- Option to crawl web paths in the responses\r\n- HTTP traffic is saved inside log file\r\n- Capability to save progress and resume later\r\n- Support client certificate\r\n- Maximum size of the log file via configuration\r\n- More accurate"
@@ -3095,11 +3095,11 @@
     "https://github.com/projectdiscovery/nuclei": {
         "created_at": "2020-04-03 18:47:11",
         "description": "Fast and customizable vulnerability scanner based on simple YAML based DSL.",
-        "commit_date": "2023-08-22 11:16:40",
-        "commit_message": "Merge branch 'dev'",
-        "release_tag": "v2.9.12",
-        "release_date": "2023-08-22 11:23:38",
-        "release_message": "<!-- Release notes generated using configuration in .github/release.yml at main -->\r\n\r\n## What's Changed\r\n### 🐞 Bug Fixes\r\n* Fixed https://github.com/projectdiscovery/nuclei/issues/4025 panic crash in https://github.com/projectdiscovery/dsl/pull/80 by @Mzack9999\r\n\r\n### Other Changes\r\n* Fixed broken image link in `TestActionGetResource` test by @tarunKoyalwar in https://github.com/projectdiscovery/nuclei/pull/4075\r\n\r\n\r\n**Full Changelog**: https://github.com/projectdiscovery/nuclei/compare/v2.9.11...v2.9.12"
+        "commit_date": "2023-08-26 20:34:18",
+        "commit_message": "Added initial API docs",
+        "release_tag": "v2.9.13",
+        "release_date": "2023-08-26 08:47:01",
+        "release_message": "<!-- Release notes generated using configuration in .github/release.yml at main -->\r\n\r\n## What's Changed\r\n### 🎉 New Features\r\n* **Added support to run public / shared template from [templates.nuclei.sh](https://templates.nuclei.sh) with `-t` option** by @Ice3man543 in https://github.com/projectdiscovery/nuclei/pull/4089\r\n```console\r\nnuclei -t https://templates.nuclei.sh/@sandeep/5SmazAQDG6TDaYSaAJ8jAJ -u https://example.com\r\nnuclei -t https://templates.nuclei.sh/public/CVE-2023-38035 -u https://example.com\r\n```\r\n* **Added **xpath** as new matcher type** by @denandz in https://github.com/projectdiscovery/nuclei/pull/4087\r\n```yaml\r\n    matchers:\r\n      - type: xpath\r\n        part: body\r\n        xpath:\r\n          - \"//script[contains(@src,'//') and not(contains(translate(@integrity,'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz'),'^sha'))]\"\r\n```\r\n* Added file read restriction in headless protocol similar to other protocols by @tarunKoyalwar in https://github.com/projectdiscovery/nuclei/pull/4055\r\n\r\n### Other Changes\r\n* Added support to render nuclei-templates changelog is CLI output with `-vv` option by @tarunKoyalwar in https://github.com/projectdiscovery/nuclei/pull/4082\r\n* Updated short options `-tu`, `-wu` to `-turl` and `-wurl` by @Ice3man543 in https://github.com/projectdiscovery/nuclei/pull/4089\r\n\r\n## New Contributors\r\n* @denandz made their first contribution in https://github.com/projectdiscovery/nuclei/pull/4087\r\n\r\n**Full Changelog**: https://github.com/projectdiscovery/nuclei/compare/v2.9.12...v2.9.13"
     },
     "https://github.com/sleeyax/burp-awesome-tls": {
         "created_at": "2022-01-24 00:30:26",
@@ -4061,8 +4061,8 @@
     "https://github.com/WebGoat/WebGoat": {
         "created_at": "2015-03-06 14:02:02",
         "description": "WebGoat is a deliberately insecure application",
-        "commit_date": "2023-08-26 00:22:33",
-        "commit_message": "Fix NPE in IDOR lesson",
+        "commit_date": "2023-08-27 00:08:52",
+        "commit_message": "bug: fix hint that was breaking the template, causing hints from different assignments to mix (#1424)",
         "release_tag": "v2023.4",
         "release_date": "2023-02-17 12:16:10",
         "release_message": "## Version 2023.4\r\n\r\n### New functionality\r\n\r\n- [#1422 Add Docker Linux Desktop variant with all tools installed](https://github.com/WebGoat/WebGoat/issues/1422). Thanks to the [OWASP WrongSecrets project](https://owasp.org/www-project-wrongsecrets/) we now have a Docker Linux desktop image with all the tools installed. No need to install any tools locally only run the new Docker image. See README.md for details on how to start it.\r\n- [#1411 JWT: looks that buy as Tom also works with alg:none](https://github.com/WebGoat/WebGoat/issues/1411).\r\n\r\n### Bug fixes\r\n\r\n- [#1410 WebWolf: JWT decode is broken](https://github.com/WebGoat/WebGoat/issues/1410).\r\n- [#1396 password_reset return 500 Error](https://github.com/WebGoat/WebGoat/issues/1396).\r\n- [#1379 Move XXE to A05:2021-Security Misconfiguration](https://github.com/WebGoat/WebGoat/issues/1379)."
@@ -4277,7 +4277,7 @@
     "https://github.com/aiboboxx/v2rayfree": {
         "created_at": "2021-10-13 11:34:53",
         "description": "v2ray节点、v2ray免费节点、免费v2ray节点、最新公益免费v2ray节点订阅地址、免费v2ray节点每日更新、免费ss/v2ray/trojan节点、freefq ",
-        "commit_date": "2023-08-25 12:34:36",
+        "commit_date": "2023-08-26 12:31:19",
         "commit_message": "update",
         "release_tag": "",
         "release_date": "",
@@ -4322,8 +4322,8 @@
     "https://github.com/freefq/free": {
         "created_at": "2020-06-07 02:48:33",
         "description": "翻墙、免费翻墙、免费科学上网、免费节点、免费梯子、免费ss/v2ray/trojan节点、蓝灯、谷歌商店、翻墙梯子",
-        "commit_date": "2023-08-26 00:00:03",
-        "commit_message": "updated_at 08-26 08:00",
+        "commit_date": "2023-08-27 00:00:02",
+        "commit_message": "updated_at 08-27 08:00",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -4529,8 +4529,8 @@
     "https://github.com/MobSF/Mobile-Security-Framework-MobSF": {
         "created_at": "2015-01-31 04:36:01",
         "description": "Mobile Security Framework (MobSF) is an automated, all-in-one mobile application (Android/iOS/Windows) pen-testing, malware analysis and security assessment framework capable of performing static and dynamic analysis.",
-        "commit_date": "2023-08-25 01:39:56",
-        "commit_message": "[HOTFIX][EFR10] Independent Static Library(.a) ELF/MachO Analysis + Graceful Analysis (#2242)\n\n* Independent Static Library(.a) ELF/MachO Analysis\r\n   * Mac FAT binary only supported on Mac\r\n* Static and Dynamic Binary Analysis QA\r\n* Refactor Dex permissions\r\n* Fallback certificate analysis using apksigtool\r\n* Refactor Androguard `apk.APK()` usage",
+        "commit_date": "2023-08-26 18:45:39",
+        "commit_message": "[HOTFIX] Docker Buildx test (#2247)\n\n* Docker image build test for PRs",
         "release_tag": "v3.6.9",
         "release_date": "2023-07-23 19:43:02",
         "release_message": "### v3.6.9 Beta Changelog\r\n\r\n- Features or Enhancements\r\n   - New Simplified and Updated Documentation https://mobsf.github.io/docs/#/\r\n   - MobSF Dynamic Analysis support for Docker image\r\n   - Updated Documentation to include support for Corellium ARM64 Android VMs\r\n   - Add support for environment variables to configure MobSF\r\n   - Android SCA extract icon from SVG\r\n   - OFAC Sanctioned Country Check\r\n   - Improved Android Certificate Analysis\r\n   - Updated Android Manifest Analysis Rules\r\n   - Enterprise Feature Request\r\n      - Summary of Findings under each section\r\n      - Support for independent scanning of AAR ad JAR files.\r\n\r\n## What's Changed\r\n* Adding numeric_owner as a keyword argument by @TrellixVulnTeam in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2050\r\n* Scheduled weekly dependency update for week 41 by @pyup-bot in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2046\r\n* HOTFIX: UI changes and warning on mobsf.live by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2051\r\n* Split certificate analysis out, suppression list fixes by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2052\r\n* hotfix for quark rules location by @superpoussin22 in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2053\r\n* HOTFIX: jadx update to 1.4.5  by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2064\r\n* Installation script error: Solving spelling error by @th3-d4v1d-c0de in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2067\r\n* Android APK support extracting icon SVG from XML by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2060\r\n* HOTFIX: Setup improvement by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2078\r\n* Apktool 2.7.0 update by @superpoussin22 in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2082\r\n* New Android Manifest Rule: App support vulnerable android versions by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2114\r\n* Fix for filenames containing ampersand by @evmxattr in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2129\r\n* HOTFIX - Fix broken docker builds by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2135\r\n* Fix Scorecard Severity Distribution chart data by @antoinbo in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2140\r\n* HOTIX: Update Dockerfile to install jq by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2149\r\n* [HOTFIX] Add support for environment variable for MobSF config by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2150\r\n* HOTFIX: Android min SDK check on janus vulnerability detection by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2159\r\n* [Enterprise Feature Request EFR02] Support summary of severity in each section. by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2160\r\n* [EFR05] Enterprise Feature Request: AAR and JAR support by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2163\r\n* Scheduled weekly dependency update for week 24 by @pyup-bot in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2187\r\n* Feature updates and Bug Fixes by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2197\r\n* HOTFIX: MobSF Android Dynamic Analysis Docker Support by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2214\r\n\r\n## New Contributors\r\n* @th3-d4v1d-c0de made their first contribution in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2067\r\n* @evmxattr made their first contribution in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2129\r\n* @antoinbo made their first contribution in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2140\r\n\r\n**Full Changelog**: https://github.com/MobSF/Mobile-Security-Framework-MobSF/compare/v3.6.0...v3.6.9"
@@ -4592,8 +4592,8 @@
     "https://github.com/yzfly/awesome-chatgpt-zh": {
         "created_at": "2023-03-21 02:16:34",
         "description": "ChatGPT 中文指南🔥，ChatGPT 中文调教指南，指令指南，应用开发指南，精选资源清单，更好的使用 chatGPT 让你的生产力 up up up! 🚀",
-        "commit_date": "2023-08-06 14:55:15",
-        "commit_message": "add MeatGPT, jupyter-ai",
+        "commit_date": "2023-08-26 15:08:43",
+        "commit_message": "update contact",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -5004,8 +5004,8 @@
     "https://github.com/rustdesk/rustdesk": {
         "created_at": "2020-09-28 15:36:08",
         "description": "An open-source remote desktop, and alternative to TeamViewer.",
-        "commit_date": "2023-08-25 13:45:00",
-        "commit_message": "Update README-TR.md",
+        "commit_date": "2023-08-26 11:07:25",
+        "commit_message": "Merge pull request #5514 from 21pages/cm\n\nDo not start cm if file permission not allowed",
         "release_tag": "1.2.2",
         "release_date": "2023-08-22 01:44:36",
         "release_message": "\r\n![image](https://github.com/rustdesk/rustdesk/assets/71636191/b444deab-7971-4de7-b315-6a9b4974c7ea)\r\n\r\n> Winget, FDroid, Apple Sillicon, Google Play / App Store update will come soon.\r\n\r\nx86-64: [Windows](https://github.com/rustdesk/rustdesk/releases/download/1.2.2/rustdesk-1.2.2-x86_64.exe) | [Ubuntu](https://github.com/rustdesk/rustdesk/releases/download/1.2.2/rustdesk-1.2.2-x86_64.deb) | [Mac](https://github.com/rustdesk/rustdesk/releases/download/1.2.2/rustdesk-1.2.2-x86_64.dmg)\r\nAArch64 (ARM64):  [Ubuntu](https://github.com/rustdesk/rustdesk/releases/download/1.2.2/rustdesk-1.2.2-aarch64.deb) | [Android](https://github.com/rustdesk/rustdesk/releases/download/1.2.2/rustdesk-1.2.2-aarch64-signed.apk) | [Mac](https://github.com/rustdesk/rustdesk/releases/download/1.2.2/rustdesk-1.2.2-aarch64.dmg)\r\n\r\nMore: [check below please](#)\r\n\r\n<details>\r\n<summary>Changelog</summary>\r\n\r\n- Add separate window mode (tab window by default), https://github.com/rustdesk/rustdesk/discussions/2889\r\n![image](https://github.com/rustdesk/rustdesk/assets/71636191/0c73bc6a-8659-4a67-9425-47625a6aded3)\r\n- Fix and improve responsiveness issue introduced in 1.2.0. https://github.com/rustdesk/rustdesk/discussions/5231\r\n- Add device list batch handle\r\n![image](https://github.com/rustdesk/rustdesk/assets/71636191/0ca85b8e-bed3-48ad-a43f-82df983986f3)\r\n- Add command to assign user and strategy for [RustDesk Server Pro](https://rustdesk.com/docs/en/self-host/pro/)\r\n- Optimize address book, syncing password, alias name, device name etc, add tag color, improve error and update status handling\r\n![image](https://github.com/rustdesk/rustdesk/assets/71636191/21d7a226-b863-4dc2-a9d3-fb6cd3a56c5c)\r\n- Fix windows file copy/paste\r\n- Fix \"waiting for image...\" still shown after receiving image bug, refactored rust->flutter message handling https://github.com/rustdesk/rustdesk/issues/4533\r\n- Improve some touchpad support, https://github.com/rustdesk/rustdesk/pull/5049\r\n- Bug fixes.\r\n\r\n</details>\r\n"

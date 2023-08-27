@@ -1,8 +1,11 @@
-# 更新于 2023-08-26 08:33:25
+# 更新于 2023-08-27 08:36:55
 
 ## 近15天release更新记录
 | 更新时间 | 项目名称 | 版本 | 更新内容 |
 | :---- | :---- | :---- | :---- |
+|2023-08-26 11:42:13|[OneScan](https://github.com/vaycore/OneScan)|v1.2.1|1.2.1 版本发布，紧急修复    ### 修复 <br>   - 修复扫描时请求包出现 -1 的问题|
+|2023-08-26 08:47:01|[nuclei](https://github.com/projectdiscovery/nuclei)|v2.9.13|    ## What's Changed  ### 🎉 New Fea<br>tures  * **Added support to run public<br> / shared template from  with -t optio<br>n** by @Ice3man543 in https://github.c<br>om/projectdiscovery/nuclei/pull/4089  <br>console  nuclei -t https://templates.n<br>uclei.sh/@sandeep/5SmazAQDG6TDaYSaAJ8j<br>AJ -u https://example.com  nuclei -t h<br>ttps://templates.nuclei.sh/public/CVE-<br>2023-38035 -u https://example.com    *<br> **Added **xpath** as new matcher type<br>** by @denandz in https://github.com/p<br>rojectdiscovery/nuclei/pull/4087  yaml<br>      matchers:        - type: xpath  <br>        part: body          xpath:    <br>        - "//script[contains(@src,'//'<br>) and not(contains(translate(@integrit<br>y,'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdef<br>ghijklmnopqrstuvwxyz'),'^sha'))]"    *<br> Added file read restriction in headle<br>ss protocol similar to other protocols<br> by @tarunKoyalwar in https://github.c<br>om/projectdiscovery/nuclei/pull/4055  <br>  ### Other Changes  * Added support t<br>o render nuclei-templates changelog is<br> CLI output with -vv option by @tarunK<br>oyalwar in https://github.com/projectd<br>iscovery/nuclei/pull/4082  * Updated s<br>hort options -tu, -wu to -turl and -wu<br>rl by @Ice3man543 in https://github.co<br>m/projectdiscovery/nuclei/pull/4089   <br> ## New Contributors  * @denandz made <br>their first contribution in https://gi<br>thub.com/projectdiscovery/nuclei/pull/<br>4087    **Full Changelog**: https://gi<br>thub.com/projectdiscovery/nuclei/compa<br>re/v2.9.12...v2.9.13|
+|2023-08-26 02:44:27|[qsnctf-python](https://github.com/Moxin1044/qsnctf-python)|0.0.8.1<br>0|### 说明  本次根据Issues提升了依赖PyE<br>xecJS的版本，由原先的**PyExecJS 1.5.1*<br>*直升到了**PyExecJS2 1.6.1**。  已经安<br>装的用户可以使用python3 -m pip install <br>-U qsnctf 进行更新，目前版本为0.0.8.10<br>。  如果在使用过程中有其他的问题，您可<br>使用Issues提交。|
 |2023-08-25 21:01:23|[syft](https://github.com/anchore/syft)|v0.88.0|#   ##  (2023-08-25)    ### Added Fea<br>tures  - Detect golang boring crypto a<br>nd fipsonly modules ] ] - feat: 1944 -<br> update purl generation to use a consi<br>stent groupID ] ] - Add support to det<br>ect bash binaries ] ] ]  ### Bug Fixes<br>  - fix: properly parse conan ref and <br>include user and channel ] ] - New ver<br>sion notice only showing the version a<br>nd no text ] ] - Fix: don't validate p<br>om declared group ] ] - Errors when ha<br>ndling symlinks on Windows with syft v<br>0.85.0 ] ] ] - Syft seems unable to pa<br>rse non UTF-8 pom.xml files ] ] ] - Er<br>ror parsing pom.xml with v0.87.1 ] ] ]<br> - Invalid CycloneDX: duplicates in re<br>lationships section ] ] ]    |
 |2023-08-25 16:21:04|[codeql-cli-binari<br>es](https://github.com/github/codeql-cli-binaries)|v2.14.3|### Breaking changes    - The .tool.e<br>xtensions property in the SARIF genera<br>ted by codeql database analyze now con<br>tains the    following packs:      - T<br>he containing query pack for each quer<br>y that was evaluated.    - Each model <br>pack that was specified via the --mode<br>l-packs option, regardless of whether <br>     that model pack affected any of t<br>he evaluated queries.      Library pac<br>ks are no longer included in the list.<br>    ### Miscellaneous    - The build o<br>f Eclipse Temurin OpenJDK that is bund<br>led with the CodeQL    CLI has been up<br>dated to version 17.0.8.    - When cod<br>eql test generates .actual files, they<br> will in some cases    list the query <br>predicates in a different order than p<br>ast versions.    There is no need to u<br>pdate .expected files, as codeql test <br>sorts    their results accordingly bef<br>ore diffing.    However, when there ar<br>e genuine changes in expected results,<br> the    generated .actual file can sho<br>w additional changes against the    .e<br>xpected due to the reordering.    For <br>more information about the changes inc<br>luded in this release, see the .    Yo<br>u can download _either_ the codeql-PLA<br>TFORM.zip for your platform, _or_ the <br>generic codeql.zip which contains bina<br>ries for all supported platforms. Plea<br>se ignore the additional "source code"<br> downloads below the .zip artifacts.  <br>  This release is compatible with the <br>CodeQL language packs from .  |
 |2023-08-25 03:15:56|[safeline](https://github.com/chaitin/safeline)|v3.1.0|### 新增    - 新增证书管理。自动判断<br>域名与过期状态，配置站点时可以直接选择<br>（），还可以修改管理后台的证书（）    -<br> 新增系统信息    ### 优化    - 修复站<br>点详情全局只支持 250 个资源的问题。现在<br>是每个站点各支持 250 个  - 修复站点详情<br>中，路径太长样式会错位的问题  - 修复站<br>点从维护切换成其他状态时，微信会缓存维<br>护页面的问题（）  - 修复手机和平板上不<br>能输入动态口令的问题（）  - 优化导航栏<br>和若干 UI 交互细节|
@@ -12,7 +15,6 @@
 |2023-08-23 21:37:04|[faker](https://github.com/joke2k/faker)|v19.3.1|See .|
 |2023-08-23 06:23:07|[AV_Evasion_Tool](https://github.com/1y0n/AV_Evasion_Tool)|2023082<br>3|1. 效果优化|
 |2023-08-22 23:29:15|[neuvector](https://github.com/neuvector/neuvector)|v5.2.1|Features  NVSHAS-7449: Report layered<br> scan result to syslog  NVSHAS-6974: E<br>xport NIST compliance report  NVSHAS-8<br>157: Handle Proxy setting in image sig<br>nature verification  NVSHAS-8034: Incl<br>ude image signature result in the down<br>loaded CVE report  NVSHAS-7483: Pod an<br>notations for Admission Control Polici<br>es    Bug fixes  NVSHAS-8200: Do not c<br>reate default admin with default passw<br>ord in NV fresh deployment for AWS bil<br>ling offering  NVSHAS-8172: .json file<br> increased size and crashed a kubernet<br>es node  NVSHAS-7963: Improve SQL inje<br>ction detection logics  NVSHAS-8128: w<br>hen install helm crd chart first befor<br>e insatlling core chart, service accou<br>nts are missing  NVSHAS-8106: Image sc<br>an I.4.1 compliance result is incorrec<br>t  NVSHAS-8050: Vulnerability advance <br>filter report showing images from all <br>other namespace|
-|2023-08-22 11:23:38|[nuclei](https://github.com/projectdiscovery/nuclei)|v2.9.12|    ## What's Changed  ### 🐞 Bug Fix<br>es  * Fixed https://github.com/project<br>discovery/nuclei/issues/4025 panic cra<br>sh in https://github.com/projectdiscov<br>ery/dsl/pull/80 by @Mzack9999    ### O<br>ther Changes  * Fixed broken image lin<br>k in TestActionGetResource test by @ta<br>runKoyalwar in https://github.com/proj<br>ectdiscovery/nuclei/pull/4075      **F<br>ull Changelog**: https://github.com/pr<br>ojectdiscovery/nuclei/compare/v2.9.11.<br>..v2.9.12|
 |2023-08-22 01:44:36|[rustdesk](https://github.com/rustdesk/rustdesk)|1.2.2|      > Winget, FDroid, Apple Sillico<br>n, Google Play / App Store update will<br> come soon.    x86-64:  |  |   AArch64<br> (ARM64):   |  |     More:       Chang<br>elog    - Add separate window mode (ta<br>b window by default), https://github.c<br>om/rustdesk/rustdesk/discussions/2889 <br>   - Fix and improve responsiveness is<br>sue introduced in 1.2.0. https://githu<br>b.com/rustdesk/rustdesk/discussions/52<br>31  - Add device list batch handle    <br>- Add command to assign user and strat<br>egy for   - Optimize address book, syn<br>cing password, alias name, device name<br> etc, add tag color, improve error and<br> update status handling    - Fix windo<br>ws file copy/paste  - Fix "waiting for<br> image..." still shown after receiving<br> image bug, refactored rust->flutter m<br>essage handling https://github.com/rus<br>tdesk/rustdesk/issues/4533  - Improve <br>some touchpad support, https://github.<br>com/rustdesk/rustdesk/pull/5049  - Bug<br> fixes.      |
 |2023-08-21 13:13:00|[ObserverWard](https://github.com/0x727/ObserverWard)|v2023.8<br>.21|## [2023.8.21] - 2023.8.21  ### Fixes<br>  - 修复webhook判断 - 添加webhook_auth<br>字段用来标识任务，还可以作为webhook的认<br>证 - 添加从API读取多个目标支持targets字<br>段|
 |2023-08-21 12:35:40|[v2rayA](https://github.com/v2rayA/v2rayA)|v2.2.1|## What's Changed  * fix a bug in /bu<br>ild.sh by @youcancharm in https://gith<br>ub.com/v2rayA/v2rayA/pull/1041  * ci(r<br>elease_feat_v5): Fix APT repo and AUR <br>by @MarksonHon in https://github.com/v<br>2rayA/v2rayA/pull/1044  * chore(deps):<br> bump webpack from 5.75.0 to 5.88.2 in<br> /gui by @dependabot in https://github<br>.com/v2rayA/v2rayA/pull/1026    ## New<br> Contributors  * @youcancharm made the<br>ir first contribution in https://githu<br>b.com/v2rayA/v2rayA/pull/1041    **Ful<br>l Changelog**: https://github.com/v2ra<br>yA/v2rayA/compare/v2.2.0...v2.2.1|
@@ -36,16 +38,24 @@
 ## 近15天commit提交记录
 | 提交时间 | 项目名称 | 更新内容 |
 | :---- | :---- | :---- |
-|2023-08-26 00:22:33|[WebGoat](https://github.com/WebGoat/WebGoat)|Fix NPE in IDOR lesson|
-|2023-08-26 00:00:03|[free](https://github.com/freefq/free)|updated_at 08-26 08:00|
-|2023-08-25 23:12:14|[PocOrExp_in_Githu<br>b](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-08-26 07:12:14|
+|2023-08-27 00:08:52|[WebGoat](https://github.com/WebGoat/WebGoat)|bug: fix hint that was breaking the template, causi<br>ng hints from different assignments to mix (#1424)|
+|2023-08-27 00:00:02|[free](https://github.com/freefq/free)|updated_at 08-27 08:00|
+|2023-08-26 23:12:29|[PocOrExp_in_Githu<br>b](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-08-27 07:12:29|
+|2023-08-26 20:34:18|[nuclei](https://github.com/projectdiscovery/nuclei)|Added initial API docs|
+|2023-08-26 18:45:39|[Mobile-Security-F<br>ramework-MobSF](https://github.com/MobSF/Mobile-Security-Framework-MobSF)|[HOTFIX] Docker Buildx test (#2247)  * Docker image<br> build test for PRs|
+|2023-08-26 15:08:43|[awesome-chatgpt-z<br>h](https://github.com/yzfly/awesome-chatgpt-zh)|update contact|
+|2023-08-26 14:02:17|[sqlmap](https://github.com/sqlmapproject/sqlmap)|Minor update of SQLite specific payload (#5501)|
+|2023-08-26 12:31:19|[v2rayfree](https://github.com/aiboboxx/v2rayfree)|update|
+|2023-08-26 11:37:40|[OneScan](https://github.com/vaycore/OneScan)|修复扫描时请求包出现-1的问题；更新版本号为1.2.1|
+|2023-08-26 11:07:25|[rustdesk](https://github.com/rustdesk/rustdesk)|Merge pull request #5514 from 21pages/cm  Do not st<br>art cm if file permission not allowed|
+|2023-08-26 10:15:19|[mitaka](https://github.com/ninoseki/mitaka)|Merge pull request #751 from ninoseki/refaoctor-nul<br>l-undefined  refactor: remove !== null/undefined|
+|2023-08-26 03:35:58|[dirsearch](https://github.com/maurosoria/dirsearch)|Merge pull request #1310 from godspeedcurry/master <br> Update dicc.txt|
+|2023-08-26 02:35:55|[qsnctf-python](https://github.com/Moxin1044/qsnctf-python)|build( Version ): ⬆️ 0.0.8.10|
 |2023-08-25 21:23:52|[grype](https://github.com/anchore/grype)|chore(deps): update Syft to v0.88.0 (#1466)|
 |2023-08-25 20:45:04|[syft](https://github.com/anchore/syft)|chore: update quill to the latest version (#2065)  <br>Signed-off-by: Keith Zantow |
 |2023-08-25 16:26:19|[iDefender](https://github.com/wecooperate/iDefender)|update|
 |2023-08-25 15:48:38|[codeql-cli-binari<br>es](https://github.com/github/codeql-cli-binaries)|Update changelog for 2.14.3|
-|2023-08-25 13:45:00|[rustdesk](https://github.com/rustdesk/rustdesk)|Update README-TR.md|
 |2023-08-25 12:36:05|[FreeRDP](https://github.com/FreeRDP/FreeRDP)|[api] fix integer overflow warnings|
-|2023-08-25 12:34:36|[v2rayfree](https://github.com/aiboboxx/v2rayfree)|update|
 |2023-08-25 12:29:25|[dbeaver](https://github.com/dbeaver/dbeaver)|dbeaver/cloudbeaver#1951 Handle parsing errors (#20<br>993)  * dbeaver/cloudbeaver#1951 Handle parsing erro<br>rs    * dbeaver/cloudbeaver#1951 Add logging|
 |2023-08-25 10:11:47|[ChatGPT-Shortcut](https://github.com/rockbenben/ChatGPT-Shortcut)|prompt: add prompt and update weight  contributed b<br>y @aliliin @xingyueye5 @miaonia|
 |2023-08-25 09:10:09|[Awesome-Redteam](https://github.com/Threekiii/Awesome-Redteam)|更新README.md|
@@ -53,13 +63,11 @@
 |2023-08-25 08:09:30|[Vulhub-Reproduce](https://github.com/Threekiii/Vulhub-Reproduce)|更新漏洞|
 |2023-08-25 08:08:55|[Vulnerability-Wik<br>i](https://github.com/Threekiii/Vulnerability-Wiki)|更新漏洞|
 |2023-08-25 07:54:26|[safeline](https://github.com/chaitin/safeline)|Merge branch 'main' of github.com:chaitin/safeline <br>into main|
-|2023-08-25 01:39:56|[Mobile-Security-F<br>ramework-MobSF](https://github.com/MobSF/Mobile-Security-Framework-MobSF)|[HOTFIX][EFR10] Independent Static Library(.a) ELF/<br>MachO Analysis + Graceful Analysis (#2242)  * Indepe<br>ndent Static Library(.a) ELF/MachO Analysis     * Ma<br>c FAT binary only supported on Mac  * Static and Dyn<br>amic Binary Analysis QA  * Refactor Dex permissions <br> * Fallback certificate analysis using apksigtool  *<br> Refactor Androguard apk.APK() usage|
 |2023-08-25 00:18:12|[neuvector](https://github.com/neuvector/neuvector)|Merge pull request #972 from williamlin-suse/main  <br>NVSHAS-8197: configMap: No error is reported if pass<br>word do not comply password profile|
 |2023-08-24 20:14:53|[rotp](https://github.com/mdp/rotp)|Chore: run CI on all pull requests (#130)|
 |2023-08-24 17:48:31|[PEASS-ng](https://github.com/carlospolop/PEASS-ng)|Update ProcessInfo.cs|
 |2023-08-24 15:08:14|[AsamF](https://github.com/Kento-Sec/AsamF)|Update README.md|
 |2023-08-24 12:10:09|[arthas](https://github.com/alibaba/arthas)|Prettified Code!|
-|2023-08-24 12:05:51|[mitaka](https://github.com/ninoseki/mitaka)|Merge pull request #750 from ninoseki/v1.3.2  v1.3.<br>2|
 |2023-08-24 10:35:15|[afrog](https://github.com/zan8in/afrog)|update|
 |2023-08-24 09:24:05|[ARL](https://github.com/TophantTechnology/ARL)|Merge pull request #622 from NAXG/master  add chaos|
 |2023-08-24 07:24:36|[wpscan](https://github.com/wpscanteam/wpscan)|Adds DFs|
@@ -69,7 +77,6 @@
 |2023-08-23 06:25:21|[AV_Evasion_Tool](https://github.com/1y0n/AV_Evasion_Tool)|Update README.md|
 |2023-08-23 03:01:15|[OA-EXPTOOL](https://github.com/LittleBear4/OA-EXPTOOL)|Delete tongda-V11.10-未授权任意文件上传.yaml|
 |2023-08-23 02:56:53|[Library-POC](https://github.com/luck-ying/Library-POC)|Update README.md|
-|2023-08-22 11:16:40|[nuclei](https://github.com/projectdiscovery/nuclei)|Merge branch 'dev'|
 |2023-08-22 10:45:48|[kscan](https://github.com/lcvvvv/kscan)|Update README.md|
 |2023-08-22 06:54:25|[domain_hunter_pro](https://github.com/bit4woo/domain_hunter_pro)|update|
 |2023-08-22 06:24:19|[murphysec](https://github.com/murphysecurity/murphysec)|chore(deps): upgrade dependencies...|
@@ -84,7 +91,6 @@
 |2023-08-20 05:06:09|[superSearchPlus](https://github.com/dark-kingA/superSearchPlus)|更新 兼容最新谷歌浏览器|
 |2023-08-20 00:19:18|[wappalyzergo](https://github.com/projectdiscovery/wappalyzergo)|Weekly fingerprints update [Sun Aug 20 00:19:18 UTC<br> 2023] :robot:|
 |2023-08-19 08:36:56|[naabu](https://github.com/projectdiscovery/naabu)|Merge branch 'dev'|
-|2023-08-19 08:24:20|[sqlmap](https://github.com/sqlmapproject/sqlmap)|Fixes #5483|
 |2023-08-19 05:14:59|[all-in-one-v2](https://github.com/zaivanza/all-in-one-v2)|add tracks|
 |2023-08-18 13:06:29|[zksync2-python](https://github.com/zksync-sdk/zksync2-python)|docs: add changelog|
 |2023-08-18 08:47:41|[vulhub](https://github.com/vulhub/vulhub)|simplify the exploit of MeterSphere plugin RCE|
@@ -105,11 +111,7 @@
 |2023-08-13 12:33:36|[Apt_t00ls](https://github.com/White-hua/Apt_t00ls)|Update README.md|
 |2023-08-13 07:52:14|[Exp-Tools](https://github.com/cseroad/Exp-Tools)|Update README.md|
 |2023-08-13 00:50:23|[Dirscan](https://github.com/corunb/Dirscan)|v1.5.2-修复递归扫描已知bug|
-|2023-08-12 18:10:07|[subfinder](https://github.com/projectdiscovery/subfinder)|version update|
-|2023-08-11 16:53:23|[dalfox](https://github.com/hahwul/dalfox)|Merge pull request #486 from hahwul/dependabot/go_m<br>odules/github.com/chromedp/chromedp-0.9.2  Bump gith<br>ub.com/chromedp/chromedp from 0.9.1 to 0.9.2|
-|2023-08-11 14:02:41|[MockingBird](https://github.com/babysor/MockingBird)|Merge pull request #947 from FawenYo/doc/update_lin<br>k  📝 Update model download link|
-|2023-08-11 08:11:58|[dperf](https://github.com/baidu/dperf)|Merge pull request #357 from pengjianzhang/main  fi<br>x: http_host or http_path can only be configured whe<br>n http is enabled|
-|2023-08-11 04:21:17|[RmTools](https://github.com/RoomaSec/RmTools)|Merge branch 'main' of https://github.com/RoomaSec/<br>RmTools|## 所有项目
+|2023-08-12 18:10:07|[subfinder](https://github.com/projectdiscovery/subfinder)|version update|## 所有项目
 # 渗透测试
 ## 信息收集
 ### 资产测绘采集
@@ -266,7 +268,7 @@
 | [xray](https://github.com/chaitin/xray) | 1.9.11 | 一款完善的安全评估工具，支持常见 web 安全问题扫描和自定义 poc <br>| 使用之前务必先阅读文档 |
 | [w13scan](https://github.com/w-digital-scanner/w13scan) |  | Passive Security Scanner (被动式安全扫描器) |
 | [Fvuln](https://github.com/d3ckx1/Fvuln) | Fvuln-1<br>.4.9 | F-vuln（全称：Find-Vulnerability）是为了自己工作方便专门编写的<br>一款自动化工具，主要适用于日常安全服务、渗透测试人员和RedTeam红<br>队人员，它集合的功能包括：存活IP探测、开放端口探测、web服务探测<br>、web漏洞扫描、smb爆破、ssh爆破、ftp爆破、mssql爆破等其他数据库<br>爆破工作以及大量web漏洞检测模块。 |
-| [nuclei](https://github.com/projectdiscovery/nuclei) | v2.9.12 | Fast and customizable vulnerability scanner based on simple YA<br>ML based DSL. |
+| [nuclei](https://github.com/projectdiscovery/nuclei) | v2.9.13 | Fast and customizable vulnerability scanner based on simple YA<br>ML based DSL. |
 | [afrog](https://github.com/zan8in/afrog) | v2.7.9 | A Security Tool for Bug Bounty, Pentest and Red Teaming. |
 | [vulmap](https://github.com/zhzyker/vulmap) | v0.9 | Vulmap 是一款 web 漏洞扫描和验证工具, 可对 webapps 进行漏洞扫<br>描, 并且具备漏洞验证功能 |
 | [POC-bomber](https://github.com/tr0uble-mAker/POC-bomber) | POC-bom<br>ber-for-<br>Redteam-<br>v3.0.0 | 利用大量高威胁poc/exp快速获取目标权限，用于渗透和红队快速打点 |
@@ -933,7 +935,7 @@
 | [BurpSuiteCn](https://github.com/funkyoummp/BurpSuiteCn) |  |  |
 | [NEW_xp_CAPTCHA](https://github.com/smxiazi/NEW_xp_CAPTCHA) | 4.2 | xp_CAPTCHA(瞎跑 白嫖版) burp 验证码 识别 burp插件 |
 | [npscrack](https://github.com/weishen250/npscrack) | npscrac<br>k-1.0 | 蓝队利器、溯源反制、NPS 漏洞利用、NPS exp、NPS poc、Burp插件、<br>一键利用 |
-| [OneScan](https://github.com/vaycore/OneScan) | v1.1.0 | OneScan是递归目录扫描的BurpSuite插件 |
+| [OneScan](https://github.com/vaycore/OneScan) | v1.2.1 | OneScan是递归目录扫描的BurpSuite插件 |
 | [OutLook](https://github.com/KrystianLi/OutLook) |  |  |
 | [passive-scan-clie<br>nt-plus](https://github.com/winezer0/passive-scan-client-plus) | v0.4.12<br>.0 | burpsuite passive-scan-client 插件维护分支 |
 | [BpScan](https://github.com/EASY233/BpScan) | 1.0.0 | 一款用于辅助渗透测试工程师日常渗透测试的Burp被动漏扫插件 |
@@ -1121,7 +1123,7 @@
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
 | [CTF-Tools](https://github.com/Aabyss-Team/CTF-Tools) |  | 渊龙Sec安全团队CTF&AWD工具箱 |
-| [qsnctf-python](https://github.com/Moxin1044/qsnctf-python) | 0.0.8.9 | 青少年CTF的Python包，方便大家调用一些CTF常用功能。 |
+| [qsnctf-python](https://github.com/Moxin1044/qsnctf-python) | 0.0.8.1<br>0 | 青少年CTF的Python包，方便大家调用一些CTF常用功能。 |
 | [CTF-Tools](https://github.com/qianxiao996/CTF-Tools) | v1.3.7 | 一款Python+Pyqt写的CTF编码、解码、加密、解密工具。 |
 | [CTF_Hacker-Tools](https://github.com/Harveysn0w/CTF_Hacker-Tools) |  |  |
 ## 知识库
