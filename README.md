@@ -1,15 +1,17 @@
-# 更新于 2023-08-27 08:36:55
+# 更新于 2023-08-28 08:35:50
 
 ## 近15天release更新记录
 | 更新时间 | 项目名称 | 版本 | 更新内容 |
 | :---- | :---- | :---- | :---- |
+|2023-08-27 18:25:14|[ghauri](https://github.com/r0oth3x49/ghauri)|1.2.4|## Fixes   - updated code quality   -<br> added payload for data extraction for<br> MSSQL|
+|2023-08-27 04:28:53|[PEASS-ng](https://github.com/carlospolop/PEASS-ng)|2023082<br>7-2ed374<br>9a||
+|2023-08-27 03:42:06|[Viper](https://github.com/FunnyWolf/Viper)|2023082<br>7|  ### 优化  - 反溯源脚本nobody.sh可以<br>快速使用初始nginx配置  - 合并metasploit<br>-framework 6.3.32版本  - Viper后续使用<br>构建时间作为版本号  ### Bugfix  - fix h<br>ttps://github.com/FunnyWolf/Viper/issu<br>es/155  - fix https://github.com/Funny<br>Wolf/Viper/issues/163  - fix https://g<br>ithub.com/FunnyWolf/Viper/issues/161|
 |2023-08-26 11:42:13|[OneScan](https://github.com/vaycore/OneScan)|v1.2.1|1.2.1 版本发布，紧急修复    ### 修复 <br>   - 修复扫描时请求包出现 -1 的问题|
 |2023-08-26 08:47:01|[nuclei](https://github.com/projectdiscovery/nuclei)|v2.9.13|    ## What's Changed  ### 🎉 New Fea<br>tures  * **Added support to run public<br> / shared template from  with -t optio<br>n** by @Ice3man543 in https://github.c<br>om/projectdiscovery/nuclei/pull/4089  <br>console  nuclei -t https://templates.n<br>uclei.sh/@sandeep/5SmazAQDG6TDaYSaAJ8j<br>AJ -u https://example.com  nuclei -t h<br>ttps://templates.nuclei.sh/public/CVE-<br>2023-38035 -u https://example.com    *<br> **Added **xpath** as new matcher type<br>** by @denandz in https://github.com/p<br>rojectdiscovery/nuclei/pull/4087  yaml<br>      matchers:        - type: xpath  <br>        part: body          xpath:    <br>        - "//script[contains(@src,'//'<br>) and not(contains(translate(@integrit<br>y,'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdef<br>ghijklmnopqrstuvwxyz'),'^sha'))]"    *<br> Added file read restriction in headle<br>ss protocol similar to other protocols<br> by @tarunKoyalwar in https://github.c<br>om/projectdiscovery/nuclei/pull/4055  <br>  ### Other Changes  * Added support t<br>o render nuclei-templates changelog is<br> CLI output with -vv option by @tarunK<br>oyalwar in https://github.com/projectd<br>iscovery/nuclei/pull/4082  * Updated s<br>hort options -tu, -wu to -turl and -wu<br>rl by @Ice3man543 in https://github.co<br>m/projectdiscovery/nuclei/pull/4089   <br> ## New Contributors  * @denandz made <br>their first contribution in https://gi<br>thub.com/projectdiscovery/nuclei/pull/<br>4087    **Full Changelog**: https://gi<br>thub.com/projectdiscovery/nuclei/compa<br>re/v2.9.12...v2.9.13|
 |2023-08-26 02:44:27|[qsnctf-python](https://github.com/Moxin1044/qsnctf-python)|0.0.8.1<br>0|### 说明  本次根据Issues提升了依赖PyE<br>xecJS的版本，由原先的**PyExecJS 1.5.1*<br>*直升到了**PyExecJS2 1.6.1**。  已经安<br>装的用户可以使用python3 -m pip install <br>-U qsnctf 进行更新，目前版本为0.0.8.10<br>。  如果在使用过程中有其他的问题，您可<br>使用Issues提交。|
 |2023-08-25 21:01:23|[syft](https://github.com/anchore/syft)|v0.88.0|#   ##  (2023-08-25)    ### Added Fea<br>tures  - Detect golang boring crypto a<br>nd fipsonly modules ] ] - feat: 1944 -<br> update purl generation to use a consi<br>stent groupID ] ] - Add support to det<br>ect bash binaries ] ] ]  ### Bug Fixes<br>  - fix: properly parse conan ref and <br>include user and channel ] ] - New ver<br>sion notice only showing the version a<br>nd no text ] ] - Fix: don't validate p<br>om declared group ] ] - Errors when ha<br>ndling symlinks on Windows with syft v<br>0.85.0 ] ] ] - Syft seems unable to pa<br>rse non UTF-8 pom.xml files ] ] ] - Er<br>ror parsing pom.xml with v0.87.1 ] ] ]<br> - Invalid CycloneDX: duplicates in re<br>lationships section ] ] ]    |
 |2023-08-25 16:21:04|[codeql-cli-binari<br>es](https://github.com/github/codeql-cli-binaries)|v2.14.3|### Breaking changes    - The .tool.e<br>xtensions property in the SARIF genera<br>ted by codeql database analyze now con<br>tains the    following packs:      - T<br>he containing query pack for each quer<br>y that was evaluated.    - Each model <br>pack that was specified via the --mode<br>l-packs option, regardless of whether <br>     that model pack affected any of t<br>he evaluated queries.      Library pac<br>ks are no longer included in the list.<br>    ### Miscellaneous    - The build o<br>f Eclipse Temurin OpenJDK that is bund<br>led with the CodeQL    CLI has been up<br>dated to version 17.0.8.    - When cod<br>eql test generates .actual files, they<br> will in some cases    list the query <br>predicates in a different order than p<br>ast versions.    There is no need to u<br>pdate .expected files, as codeql test <br>sorts    their results accordingly bef<br>ore diffing.    However, when there ar<br>e genuine changes in expected results,<br> the    generated .actual file can sho<br>w additional changes against the    .e<br>xpected due to the reordering.    For <br>more information about the changes inc<br>luded in this release, see the .    Yo<br>u can download _either_ the codeql-PLA<br>TFORM.zip for your platform, _or_ the <br>generic codeql.zip which contains bina<br>ries for all supported platforms. Plea<br>se ignore the additional "source code"<br> downloads below the .zip artifacts.  <br>  This release is compatible with the <br>CodeQL language packs from .  |
 |2023-08-25 03:15:56|[safeline](https://github.com/chaitin/safeline)|v3.1.0|### 新增    - 新增证书管理。自动判断<br>域名与过期状态，配置站点时可以直接选择<br>（），还可以修改管理后台的证书（）    -<br> 新增系统信息    ### 优化    - 修复站<br>点详情全局只支持 250 个资源的问题。现在<br>是每个站点各支持 250 个  - 修复站点详情<br>中，路径太长样式会错位的问题  - 修复站<br>点从维护切换成其他状态时，微信会缓存维<br>护页面的问题（）  - 修复手机和平板上不<br>能输入动态口令的问题（）  - 优化导航栏<br>和若干 UI 交互细节|
-|2023-08-24 18:11:26|[PEASS-ng](https://github.com/carlospolop/PEASS-ng)|2023082<br>4-811c36<br>54||
 |2023-08-24 12:32:49|[arthas](https://github.com/alibaba/arthas)|arthas-<br>all-3.7.<br>1|Issues: https://github.com/alibaba/ar<br>thas/milestone/49?closed=1    * #2620 <br>当 listen 0.0.0.0 时，默认生成随机密码<br>，需要鉴权    * #2633  修复在线教程，切<br>换到 killercoda feat: update online tut<br>orials, switch to killercoda |
 |2023-08-24 12:07:24|[mitaka](https://github.com/ninoseki/mitaka)|v1.3.2|- Fix Censys's search query format (#<br>749)   - Disable IntelligenceX (#749)|
 |2023-08-23 21:37:04|[faker](https://github.com/joke2k/faker)|v19.3.1|See .|
@@ -20,7 +22,6 @@
 |2023-08-21 12:35:40|[v2rayA](https://github.com/v2rayA/v2rayA)|v2.2.1|## What's Changed  * fix a bug in /bu<br>ild.sh by @youcancharm in https://gith<br>ub.com/v2rayA/v2rayA/pull/1041  * ci(r<br>elease_feat_v5): Fix APT repo and AUR <br>by @MarksonHon in https://github.com/v<br>2rayA/v2rayA/pull/1044  * chore(deps):<br> bump webpack from 5.75.0 to 5.88.2 in<br> /gui by @dependabot in https://github<br>.com/v2rayA/v2rayA/pull/1026    ## New<br> Contributors  * @youcancharm made the<br>ir first contribution in https://githu<br>b.com/v2rayA/v2rayA/pull/1041    **Ful<br>l Changelog**: https://github.com/v2ra<br>yA/v2rayA/compare/v2.2.0...v2.2.1|
 |2023-08-21 12:25:57|[gshark](https://github.com/madneal/gshark)|v1.2.1|## Fixed  * 修复数据库初始化错误  * <br>依赖包安全升级|
 |2023-08-21 09:25:39|[goproxy](https://github.com/snail007/goproxy)|v13.8|1、修复内网穿透server端，UDP gc可能报<br>错端问题。|
-|2023-08-21 08:43:45|[Viper](https://github.com/FunnyWolf/Viper)|v1.6.4|  ### 新功能  - 新增判断Session是否运<br>行在容器中模块  ### 优化  - session通过<br>鼠标提示展示英文的地理位置信息  - Viper<br>通过CI自动更新Geolite数据库  - Viper当<br>前通过CI自动构建  - 优化模块运行部分前<br>端提示信息  - 优化viperpython日志格式  <br>- 提高运行信息执行速度  - 渗透服务异常<br>时日志更详细说明异常类型  - 合并metaspl<br>oit-framework 6.3.31版本  ### Bugfix  <br>- Fix https://github.com/FunnyWolf/Vip<br>er/issues/155 Session心跳显示999,msfrp<br>c状态正常,界面显示渗透服务心跳异常  - <br>Fix https://github.com/FunnyWolf/Viper<br>/issues/150 session下载文件时会偶发性<br>的下载了1m中断  - Fix https://github.co<br>m/FunnyWolf/Viper/issues/156 已经上线<br>的session界面未显示  - Fix https://gith<br>ub.com/FunnyWolf/Viper/issues/153 日志<br>逻辑问题  |
 |2023-08-21 03:14:36|[OA-EXPTOOL](https://github.com/LittleBear4/OA-EXPTOOL)|0.83||
 |2023-08-20 19:54:12|[dbeaver](https://github.com/dbeaver/dbeaver)|23.1.5|                 - Data editor:      <br>               - Dictionary viewer pan<br>el UI was redesigned                  <br>   - Spatial data types: curved geomet<br>ries linearizing was fixed            <br>         - Issue was result tab close <br>on data save was resolved             <br>        - Column tooltips was fixed   <br>                  - Charts rendering e<br>rrors visualization was improved      <br>           - SQL editor:              <br>       - Autocompletion in single-line<br> comments was fixed                   <br>  - Variable value editor was fixed   <br>                  - Smart completion f<br>or CTE queries (WITH/SELECT) was fixed<br>                     - @include comman<br>d handler was fixed (reuse the console<br> for the same included script)        <br>             - INSERT SQL query genera<br>tion was fixed (identity columns)     <br>                - Issue with text sear<br>ch/replace in hidden files was fixed  <br>               - ERD editor: grid fore<br>ground color was fixed                <br> - General UI:                     - O<br>bjects sorting in tables now can be re<br>set to the original ordering          <br>           - Network handlers (SSH, SS<br>L, etc) UI was redesigned             <br>        - New object creation shortcut<br> was added (Alt+Insert)               <br>      - External files opening was fix<br>ed on MacOS and Linux                 <br>    - Command line connection opening <br>was fixed                     - User n<br>ame/password prompt dialog as fixed fo<br>r SSH tunnels                     - Is<br>sue with preference pages in Eclipse p<br>lugin was resolved                 - A<br>ccessibility:                     - JA<br>WS and Narrator support was improved f<br>or data editor and vertical tabs      <br>               - High contrast theme s<br>upport was significantly improved     <br>            - Databases:              <br>       - Clickhouse: map and array dat<br>a types visualization was added       <br>              - Greenplum: tables DDL <br>was fixed (for version 7)             <br>        - OpenGauss DB: json data type<br>s support was added                   <br>  - PostgreSQL: default native clients<br> (pgsql, pg_dump) version was changed <br>to 15                     - Yellowbric<br>k: stored procedures drop query was fi<br>xed                 - Localization:   <br>                  - Chinese localizati<br>on was updated (thanks to @bianyun)   <br>          |
 |2023-08-20 10:19:21|[afrog](https://github.com/zan8in/afrog)|v2.7.9|- Resolved the issue of console outpu<br>t content being escaped #76.  - The is<br>sue of incorrect version when using th<br>e go install ..afrog/v2 command has be<br>en resolved.  - Added 24 new PoCs, tot<br>aling 1105 PoCs.    ----------------  <br>  - 解决 console 输出内容被转义问题 #7<br>6   - 解决了使用 go install ..afrog/v2<br> 命令时版本不正确的问题。  - 新增 24 P<br>oC，共 1105 个 PoC|
@@ -34,20 +35,24 @@
 |2023-08-13 12:28:31|[Apt_t00ls](https://github.com/White-hua/Apt_t00ls)|v0.7|泛微e-mobile-sql注入rce  综合安防文件<br>上传RCE * 2  用友nc jsInovke-RCE  大华<br>文件上传RCE  畅捷通反序列化RCE  深信服<br>应用交付系统RCE|
 |2023-08-13 07:51:34|[Exp-Tools](https://github.com/cseroad/Exp-Tools)|v1.2.1|- 新增用友反序列化-3  - 新增泛微ecolo<br>gy WorkflowServiceXml命令执行  - 新增<br>用友U8 cloud文件上传  - 新增用友NC 文件<br>上传  - 新增帆软报表文件读取-bypass  - <br>新增帆软报表未授权命令执行  - 新增用友<br>移动管理平台文件上传  - 优化部分代码|
 |2023-08-13 00:53:11|[Dirscan](https://github.com/corunb/Dirscan)|v.1.5.2|v1.5.2-修复递归扫描已知bug|
-|2023-08-12 18:17:48|[subfinder](https://github.com/projectdiscovery/subfinder)|v2.6.2|    ## What's Changed  ### 🎉 New Fea<br>tures    * Added  as new source by @ta<br>runKoyalwar in https://github.com/proj<br>ectdiscovery/subfinder/pull/912  conso<br>le  subfinder -d hackerone.com -s face<br>book    * Added rate limit per source <br>support by @dogancanbakir in https://g<br>ithub.com/projectdiscovery/subfinder/p<br>ull/891  console  subfinder -d hackero<br>ne.com -rls "crtsh=10/s,shodan=1/s"   <br>   ###  🐞 Bug Fixes  * Fixed issue wi<br>th censys source by using v2 api by @d<br>ogancanbakir in https://github.com/pro<br>jectdiscovery/subfinder/pull/929      <br>**Full Changelog**: https://github.com<br>/projectdiscovery/subfinder/compare/v2<br>.6.1...v2.6.2|
 ## 近15天commit提交记录
 | 提交时间 | 项目名称 | 更新内容 |
 | :---- | :---- | :---- |
-|2023-08-27 00:08:52|[WebGoat](https://github.com/WebGoat/WebGoat)|bug: fix hint that was breaking the template, causi<br>ng hints from different assignments to mix (#1424)|
-|2023-08-27 00:00:02|[free](https://github.com/freefq/free)|updated_at 08-27 08:00|
-|2023-08-26 23:12:29|[PocOrExp_in_Githu<br>b](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-08-27 07:12:29|
+|2023-08-28 00:00:02|[free](https://github.com/freefq/free)|updated_at 08-28 08:00|
+|2023-08-27 21:36:23|[PocOrExp_in_Githu<br>b](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-08-28 05:36:23|
+|2023-08-27 18:21:43|[ghauri](https://github.com/r0oth3x49/ghauri)|updated code quality, added payload for mssql, bump<br>ed version 1.2.3|
+|2023-08-27 14:20:30|[Fastjson](https://github.com/safe6Sec/Fastjson)|Update README.md|
+|2023-08-27 12:31:35|[WebGoat](https://github.com/WebGoat/WebGoat)|fix: potential NPE in the stored XSS assignment|
+|2023-08-27 12:31:32|[v2rayfree](https://github.com/aiboboxx/v2rayfree)|update|
+|2023-08-27 12:22:34|[rustdesk](https://github.com/rustdesk/rustdesk)|Merge pull request #5516 from iAbdullah/master-ar  <br>Add Arabic translation|
+|2023-08-27 07:52:02|[trivy](https://github.com/aquasecurity/trivy)|perf: Optimize Dockerfile for reduced layers and si<br>ze (#5038)  * Optimize Dockerfile for reduced layers<br> and size  * Optimize Dockerfile for clarity and eff<br>iciency without compromising debuggability|
+|2023-08-27 03:41:09|[Viper](https://github.com/FunnyWolf/Viper)|update version|
+|2023-08-27 03:18:25|[DecoyMini](https://github.com/decoymini/DecoyMini)|Update README.md|
+|2023-08-27 01:32:07|[Mobile-Security-F<br>ramework-MobSF](https://github.com/MobSF/Mobile-Security-Framework-MobSF)|[HOTFIX] bs4 malformed xml parsing + xml namespace <br>detection (#2248)  * Use BeautifulSoup4 to prettify <br>malformed XML  * Detect non standard XML namespace i<br>n AndroidManifest.xml (Fixes : https://github.com/Mo<br>bSF/Mobile-Security-Framework-MobSF/issues/2198)   *<br> Updated android permissions list  * Updated android<br> permission update check script|
 |2023-08-26 20:34:18|[nuclei](https://github.com/projectdiscovery/nuclei)|Added initial API docs|
-|2023-08-26 18:45:39|[Mobile-Security-F<br>ramework-MobSF](https://github.com/MobSF/Mobile-Security-Framework-MobSF)|[HOTFIX] Docker Buildx test (#2247)  * Docker image<br> build test for PRs|
 |2023-08-26 15:08:43|[awesome-chatgpt-z<br>h](https://github.com/yzfly/awesome-chatgpt-zh)|update contact|
 |2023-08-26 14:02:17|[sqlmap](https://github.com/sqlmapproject/sqlmap)|Minor update of SQLite specific payload (#5501)|
-|2023-08-26 12:31:19|[v2rayfree](https://github.com/aiboboxx/v2rayfree)|update|
 |2023-08-26 11:37:40|[OneScan](https://github.com/vaycore/OneScan)|修复扫描时请求包出现-1的问题；更新版本号为1.2.1|
-|2023-08-26 11:07:25|[rustdesk](https://github.com/rustdesk/rustdesk)|Merge pull request #5514 from 21pages/cm  Do not st<br>art cm if file permission not allowed|
 |2023-08-26 10:15:19|[mitaka](https://github.com/ninoseki/mitaka)|Merge pull request #751 from ninoseki/refaoctor-nul<br>l-undefined  refactor: remove !== null/undefined|
 |2023-08-26 03:35:58|[dirsearch](https://github.com/maurosoria/dirsearch)|Merge pull request #1310 from godspeedcurry/master <br> Update dicc.txt|
 |2023-08-26 02:35:55|[qsnctf-python](https://github.com/Moxin1044/qsnctf-python)|build( Version ): ⬆️ 0.0.8.10|
@@ -72,7 +77,6 @@
 |2023-08-24 09:24:05|[ARL](https://github.com/TophantTechnology/ARL)|Merge pull request #622 from NAXG/master  add chaos|
 |2023-08-24 07:24:36|[wpscan](https://github.com/wpscanteam/wpscan)|Adds DFs|
 |2023-08-23 21:36:16|[faker](https://github.com/joke2k/faker)|Bump version: 19.3.0 → 19.3.1|
-|2023-08-23 11:56:08|[trivy](https://github.com/aquasecurity/trivy)|feat(report): add licenses to sarif format (#4866) <br> * feat(report): add licenses to sarif format  * upd<br>ate doc|
 |2023-08-23 07:23:32|[Some-PoC-oR-ExP](https://github.com/coffeehb/Some-PoC-oR-ExP)|Create windowUnloading_bypass.md|
 |2023-08-23 06:25:21|[AV_Evasion_Tool](https://github.com/1y0n/AV_Evasion_Tool)|Update README.md|
 |2023-08-23 03:01:15|[OA-EXPTOOL](https://github.com/LittleBear4/OA-EXPTOOL)|Delete tongda-V11.10-未授权任意文件上传.yaml|
@@ -84,7 +88,6 @@
 |2023-08-21 14:26:54|[v2rayA](https://github.com/v2rayA/v2rayA)|chore: bump quic-go to v0.38.0|
 |2023-08-21 13:13:54|[ObserverWard](https://github.com/0x727/ObserverWard)|添加从API读取多个目标支持字段|
 |2023-08-21 12:24:24|[gshark](https://github.com/madneal/gshark)|modify struct|
-|2023-08-21 08:42:01|[Viper](https://github.com/FunnyWolf/Viper)|update version 1.6.4|
 |2023-08-21 07:17:22|[Elkeid](https://github.com/bytedance/Elkeid)|Windows libplugin (#521)  * update for windows libp<br>lugin-rs    * update Cargo.toml|
 |2023-08-21 02:44:36|[404StarLink](https://github.com/knownsec/404StarLink)|weekly update at 2023-08-21|
 |2023-08-20 06:06:08|[HackReport](https://github.com/awake1t/HackReport)|2023-08-20 14:06:08|
@@ -110,8 +113,7 @@
 |2023-08-14 02:12:29|[malwoverview](https://github.com/alexandreborges/malwoverview)|Malwoverview|
 |2023-08-13 12:33:36|[Apt_t00ls](https://github.com/White-hua/Apt_t00ls)|Update README.md|
 |2023-08-13 07:52:14|[Exp-Tools](https://github.com/cseroad/Exp-Tools)|Update README.md|
-|2023-08-13 00:50:23|[Dirscan](https://github.com/corunb/Dirscan)|v1.5.2-修复递归扫描已知bug|
-|2023-08-12 18:10:07|[subfinder](https://github.com/projectdiscovery/subfinder)|version update|## 所有项目
+|2023-08-13 00:50:23|[Dirscan](https://github.com/corunb/Dirscan)|v1.5.2-修复递归扫描已知bug|## 所有项目
 # 渗透测试
 ## 信息收集
 ### 资产测绘采集
@@ -482,7 +484,7 @@
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
 | [sqlmap](https://github.com/sqlmapproject/sqlmap) | 1.7 | Automatic SQL injection and database takeover tool |
-| [ghauri](https://github.com/r0oth3x49/ghauri) | 1.2.3 | An advanced cross-platform tool that automates the process of <br>detecting and exploiting SQL injection security flaws |
+| [ghauri](https://github.com/r0oth3x49/ghauri) | 1.2.4 | An advanced cross-platform tool that automates the process of <br>detecting and exploiting SQL injection security flaws |
 #### CLRF
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
@@ -750,7 +752,7 @@
 | [dirtycow](https://github.com/firefart/dirtycow) |  | Dirty Cow exploit - CVE-2016-5195 |
 | [traitor](https://github.com/liamg/traitor) | v0.0.14 | :arrow_up: :skull_and_crossbones: :fire: Automatic Linux prive<br>sc via exploitation of low-hanging fruit e.g. gtfobins, pwnkit,<br> dirty pipe, +w docker.sock |
 | [LinEnum](https://github.com/rebootuser/LinEnum) |  | Scripted Local Linux Enumeration & Privilege Escalation Checks |
-| [PEASS-ng](https://github.com/carlospolop/PEASS-ng) | 2023082<br>4-811c36<br>54 | PEASS - Privilege Escalation Awesome Scripts SUITE (with color<br>s) |
+| [PEASS-ng](https://github.com/carlospolop/PEASS-ng) | 2023082<br>7-2ed374<br>9a | PEASS - Privilege Escalation Awesome Scripts SUITE (with color<br>s) |
 | | | https://i.hacking8.com/tiquan/ |
 ### 综合
 | 项目名称 | 版本 | 项目描述 |
@@ -832,7 +834,7 @@
 ### 漏洞利用
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
-| [Viper](https://github.com/FunnyWolf/Viper) | v1.6.4 | Redteam operation  platform with webui 图形化红队行动辅助平台 |
+| [Viper](https://github.com/FunnyWolf/Viper) | 2023082<br>7 | Redteam operation  platform with webui 图形化红队行动辅助平台 |
 ### 横向工具
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
