@@ -200,8 +200,8 @@
     "https://github.com/ycdxsb/PocOrExp_in_Github": {
         "created_at": "2021-04-13 05:46:16",
         "description": "聚合Github上已有的Poc或者Exp，CVE信息来自CVE官网。Auto Collect Poc Or Exp from Github by CVE ID.",
-        "commit_date": "2023-08-27 21:36:23",
-        "commit_message": "update 2023-08-28 05:36:23",
+        "commit_date": "2023-08-28 23:13:21",
+        "commit_message": "update 2023-08-29 07:13:21",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -218,7 +218,7 @@
     "https://github.com/Threekiii/Vulhub-Reproduce": {
         "created_at": "2022-03-03 08:38:29",
         "description": "一个Vulhub漏洞复现知识库",
-        "commit_date": "2023-08-25 08:09:30",
+        "commit_date": "2023-08-28 07:56:06",
         "commit_message": "更新漏洞",
         "release_tag": "",
         "release_date": "",
@@ -531,8 +531,8 @@
     "https://github.com/knownsec/404StarLink": {
         "created_at": "2020-11-17 08:10:18",
         "description": "404StarLink - 推荐优质、有意义、有趣、坚持维护的安全开源项目",
-        "commit_date": "2023-08-21 02:44:36",
-        "commit_message": "weekly update at 2023-08-21",
+        "commit_date": "2023-08-28 03:36:32",
+        "commit_message": "weekly update at 2023-08-28",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -1098,7 +1098,7 @@
     "https://github.com/Threekiii/Vulnerability-Wiki": {
         "created_at": "2022-04-29 05:36:33",
         "description": "一个基于 docsify 的综合漏洞知识库，目前漏洞数量 900+",
-        "commit_date": "2023-08-25 08:08:55",
+        "commit_date": "2023-08-28 08:55:05",
         "commit_message": "更新漏洞",
         "release_tag": "v1.0",
         "release_date": "2022-07-15 01:58:00",
@@ -2221,7 +2221,7 @@
     "https://github.com/Threekiii/Awesome-POC": {
         "created_at": "2022-02-20 06:43:22",
         "description": "一个各类漏洞POC知识库",
-        "commit_date": "2023-08-25 08:10:08",
+        "commit_date": "2023-08-28 08:53:48",
         "commit_message": "更新漏洞",
         "release_tag": "",
         "release_date": "",
@@ -2390,8 +2390,8 @@
     "https://github.com/PeiQi0/PeiQi-WIKI-Book": {
         "created_at": "2022-03-12 12:38:56",
         "description": "面向网络安全从业者的知识文库🍃",
-        "commit_date": "2023-08-16 08:22:56",
-        "commit_message": "漏洞相关:亿赛通,LiveBOS",
+        "commit_date": "2023-08-28 07:37:55",
+        "commit_message": "Update README.md",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -2951,8 +2951,8 @@
     "https://github.com/dbeaver/dbeaver": {
         "created_at": "2015-10-21 08:26:28",
         "description": "Free universal database tool and SQL client",
-        "commit_date": "2023-08-25 12:29:25",
-        "commit_message": "dbeaver/cloudbeaver#1951 Handle parsing errors (#20993)\n\n* dbeaver/cloudbeaver#1951 Handle parsing errors\r\n\r\n* dbeaver/cloudbeaver#1951 Add logging",
+        "commit_date": "2023-08-28 14:02:42",
+        "commit_message": "dbeaver/dbeaver#18188 allow multiple certs (#20971)\n\n* dbeaver/dbeaver#18188 allow multiple certs\r\n\r\n* dbeaver/dbeaver#18188 use indexed loop\r\n\r\n* dbeaver/dbeaver#18188 codestyle\r\n\r\n---------\r\n\r\nCo-authored-by: Dziyana <31996417+uslss@users.noreply.github.com>",
         "release_tag": "23.1.5",
         "release_date": "2023-08-20 19:54:12",
         "release_message": "\n                - Data editor:\n                    - Dictionary viewer panel UI was redesigned\n                    - Spatial data types: curved geometries linearizing was fixed\n                    - Issue was result tab close on data save was resolved\n                    - Column tooltips was fixed\n                    - Charts rendering errors visualization was improved\n                - SQL editor:\n                    - Autocompletion in single-line comments was fixed\n                    - Variable value editor was fixed\n                    - Smart completion for CTE queries (WITH/SELECT) was fixed\n                    - @include command handler was fixed (reuse the console for the same included script)\n                    - INSERT SQL query generation was fixed (identity columns)\n                    - Issue with text search/replace in hidden files was fixed\n                - ERD editor: grid foreground color was fixed\n                - General UI:\n                    - Objects sorting in tables now can be reset to the original ordering\n                    - Network handlers (SSH, SSL, etc) UI was redesigned\n                    - New object creation shortcut was added (Alt+Insert)\n                    - External files opening was fixed on MacOS and Linux\n                    - Command line connection opening was fixed\n                    - User name/password prompt dialog as fixed for SSH tunnels\n                    - Issue with preference pages in Eclipse plugin was resolved\n                - Accessibility:\n                    - JAWS and Narrator support was improved for data editor and vertical tabs\n                    - High contrast theme support was significantly improved\n                - Databases:\n                    - Clickhouse: map and array data types visualization was added\n                    - Greenplum: tables DDL was fixed (for version 7)\n                    - OpenGauss DB: json data types support was added\n                    - PostgreSQL: default native clients (pgsql, pg_dump) version was changed to 15\n                    - Yellowbrick: stored procedures drop query was fixed\n                - Localization:\n                    - Chinese localization was updated (thanks to @bianyun)\n            "
@@ -3050,8 +3050,8 @@
     "https://github.com/zan8in/afrog": {
         "created_at": "2022-02-24 06:00:32",
         "description": "A Security Tool for Bug Bounty, Pentest and Red Teaming.",
-        "commit_date": "2023-08-24 10:35:15",
-        "commit_message": "update",
+        "commit_date": "2023-08-28 01:08:49",
+        "commit_message": "update readme",
         "release_tag": "v2.7.9",
         "release_date": "2023-08-20 10:19:21",
         "release_message": "- Resolved the issue of console output content being escaped #76.\r\n- The issue of incorrect version when using the `go install ..afrog/v2` command has been resolved.\r\n- Added 24 new PoCs, totaling 1105 PoCs.\r\n\r\n----------------\r\n\r\n- 解决 console 输出内容被转义问题 #76 \r\n- 解决了使用 `go install ..afrog/v2` 命令时版本不正确的问题。\r\n- 新增 24 PoC，共 1105 个 PoC"
@@ -3298,10 +3298,10 @@
     "https://github.com/bytedance/Elkeid": {
         "created_at": "2020-12-18 03:15:54",
         "description": "Elkeid is an open source solution that can meet the security requirements of various workloads such as hosts, containers and K8s, and serverless. It is derived from ByteDance's internal best practices.",
-        "commit_date": "2023-08-21 07:17:22",
-        "commit_message": "Windows libplugin (#521)\n\n* update for windows libplugin-rs\r\n\r\n* update Cargo.toml",
-        "release_tag": "scanner-v2.2.1.1_20230817_test_only",
-        "release_date": "2023-08-17 13:47:18",
+        "commit_date": "2023-08-28 09:03:59",
+        "commit_message": "Merge pull request #527 from Hackerl/main\n\nfix bugs of RASP probe",
+        "release_tag": "scanner-v2.2.1.2_20230823_test_only",
+        "release_date": "2023-08-28 02:55:05",
         "release_message": ""
     },
     "https://github.com/knownsec/ct": {
@@ -3890,8 +3890,8 @@
     "https://github.com/neuvector/neuvector": {
         "created_at": "2021-12-17 20:15:03",
         "description": "",
-        "commit_date": "2023-08-25 00:18:12",
-        "commit_message": "Merge pull request #972 from williamlin-suse/main\n\nNVSHAS-8197: configMap: No error is reported if password do not comply password profile",
+        "commit_date": "2023-08-28 18:55:10",
+        "commit_message": "Merge pull request #968 from minchao/fix-api-doc\n\nFix parameter definition for post /v1/api_key api and properties for role_domains in api doc",
         "release_tag": "v5.2.1",
         "release_date": "2023-08-22 23:29:15",
         "release_message": "Features\r\nNVSHAS-7449: Report layered scan result to syslog\r\nNVSHAS-6974: Export NIST compliance report\r\nNVSHAS-8157: Handle Proxy setting in image signature verification\r\nNVSHAS-8034: Include image signature result in the downloaded CVE report\r\nNVSHAS-7483: Pod annotations for Admission Control Policies\r\n\r\nBug fixes\r\nNVSHAS-8200: Do not create default admin with default password in NV fresh deployment for AWS billing offering\r\nNVSHAS-8172: .json file increased size and crashed a kubernetes node\r\nNVSHAS-7963: Improve SQL injection detection logics\r\nNVSHAS-8128: when install helm crd chart first before insatlling core chart, service accounts are missing\r\nNVSHAS-8106: Image scan I.4.1 compliance result is incorrect\r\nNVSHAS-8050: Vulnerability advance filter report showing images from all other namespace"
@@ -3908,8 +3908,8 @@
     "https://github.com/anchore/syft": {
         "created_at": "2020-05-07 18:19:29",
         "description": "CLI tool and library for generating a Software Bill of Materials from container images and filesystems",
-        "commit_date": "2023-08-25 20:45:04",
-        "commit_message": "chore: update quill to the latest version (#2065)\n\nSigned-off-by: Keith Zantow <kzantow@gmail.com>",
+        "commit_date": "2023-08-28 12:28:01",
+        "commit_message": "fix: CPE generation for django (#2068)\n\nSigned-off-by: witchcraze <witchcraze@gmail.com>",
         "release_tag": "v0.88.0",
         "release_date": "2023-08-25 21:01:23",
         "release_message": "# \n\n## [v0.88.0](https://github.com/anchore/syft/tree/v0.88.0) (2023-08-25)\n\n[Full Changelog](https://github.com/anchore/syft/compare/v0.87.1...v0.88.0)\n\n### Added Features\n\n- Detect golang boring crypto and fipsonly modules [[PR #2021](https://github.com/anchore/syft/pull/2021)] [[bathina2](https://github.com/bathina2)]\n- feat: 1944 - update purl generation to use a consistent groupID [[PR #2033](https://github.com/anchore/syft/pull/2033)] [[spiffcs](https://github.com/spiffcs)]\n- Add support to detect bash binaries [[Issue #1963](https://github.com/anchore/syft/issues/1963)] [[PR #2055](https://github.com/anchore/syft/pull/2055)] [[witchcraze](https://github.com/witchcraze)]\n\n### Bug Fixes\n\n- fix: properly parse conan ref and include user and channel [[PR #2034](https://github.com/anchore/syft/pull/2034)] [[Pro](https://github.com/Pro)]\n- New version notice only showing the version and no text [[PR #2042](https://github.com/anchore/syft/pull/2042)] [[wagoodman](https://github.com/wagoodman)]\n- Fix: don't validate pom declared group [[PR #2054](https://github.com/anchore/syft/pull/2054)] [[willmurphyscode](https://github.com/willmurphyscode)]\n- Errors when handling symlinks on Windows with syft v0.85.0 [[Issue #1950](https://github.com/anchore/syft/issues/1950)] [[PR #2051](https://github.com/anchore/syft/pull/2051)] [[selzoc](https://github.com/selzoc)]\n- Syft seems unable to parse non UTF-8 pom.xml files [[Issue #2044](https://github.com/anchore/syft/issues/2044)] [[PR #2047](https://github.com/anchore/syft/pull/2047)] [[wagoodman](https://github.com/wagoodman)]\n- Error parsing pom.xml with v0.87.1 [[Issue #2060](https://github.com/anchore/syft/issues/2060)] [[PR #2064](https://github.com/anchore/syft/pull/2064)] [[willmurphyscode](https://github.com/willmurphyscode)]\n- Invalid CycloneDX: duplicates in relationships section [[Issue #2062](https://github.com/anchore/syft/issues/2062)] [[PR #2063](https://github.com/anchore/syft/pull/2063)] [[kzantow](https://github.com/kzantow)]\n\n\n\n"
@@ -3917,8 +3917,8 @@
     "https://github.com/chaitin/safeline": {
         "created_at": "2023-04-12 11:30:14",
         "description": "一款足够简单、足够好用、足够强的免费 WAF。基于业界领先的语义引擎检测技术，作为反向代理接入，保护你的网站不受黑客攻击。",
-        "commit_date": "2023-08-25 07:54:26",
-        "commit_message": "Merge branch 'main' of github.com:chaitin/safeline into main",
+        "commit_date": "2023-08-28 10:41:58",
+        "commit_message": "Update version.json",
         "release_tag": "v3.1.0",
         "release_date": "2023-08-25 03:15:56",
         "release_message": "### 新增\r\n\r\n- 新增证书管理。自动判断域名与过期状态，配置站点时可以直接选择（[#111](https://github.com/chaitin/SafeLine/issues/111)），还可以修改管理后台的证书（[#201](https://github.com/chaitin/SafeLine/issues/201)）\r\n\r\n- 新增系统信息\r\n\r\n### 优化\r\n\r\n- 修复站点详情全局只支持 250 个资源的问题。现在是每个站点各支持 250 个\r\n- 修复站点详情中，路径太长样式会错位的问题\r\n- 修复站点从维护切换成其他状态时，微信会缓存维护页面的问题（[#221](https://github.com/chaitin/SafeLine/issues/221)）\r\n- 修复手机和平板上不能输入动态口令的问题（[#234](https://github.com/chaitin/SafeLine/issues/234)）\r\n- 优化导航栏和若干 UI 交互细节"
@@ -3971,8 +3971,8 @@
     "https://github.com/aquasecurity/trivy": {
         "created_at": "2019-04-11 01:01:07",
         "description": "Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more",
-        "commit_date": "2023-08-27 07:52:02",
-        "commit_message": "perf: Optimize Dockerfile for reduced layers and size (#5038)\n\n* Optimize Dockerfile for reduced layers and size\n\n* Optimize Dockerfile for clarity and efficiency without compromising debuggability",
+        "commit_date": "2023-08-28 12:20:02",
+        "commit_message": "fix: #5033 Superfluous double quote in html.tpl (#5036)",
         "release_tag": "v0.44.1",
         "release_date": "2023-08-10 05:41:12",
         "release_message": "## Changelog\n* f10527998 fix(report): return severity colors in table format (#4969)\n* bc2b0ca6c build: maximize available disk space for release (#4937)\n* 9493c6f08 test(cli): Fix assertion helptext (#4966)\n* b0359de66 chore(deps): Bump defsec to v0.91.1 (#4965)\n* d3a34e409 test: validate CycloneDX with the JSON schema (#4956)\n* 798ef1b64 fix(server): add licenses to the Result message (#4955)\n* e8cf28147 fix(aws): resolve endpoint if endpoint is passed (#4925)\n* f18b0db58 fix(sbom): move licenses to `name` field in Cyclonedx format (#4941)\n* a79670156 add only uniq deps in dependsOn (#4943)\n* b544e0dea use testify instead of gotest.tools (#4946)\n* 067a0fcb9 fix(nodejs): do not detect lock file in node_modules as an app (#4949)\n* e6d7705a5 bump go-dep-parser (#4936)\n* c584dc176 chore(deps): bump github.com/openvex/go-vex from 0.2.0 to 0.2.1 (#4914)\n* 358d56b6b chore(deps): bump helm/kind-action from 1.7.0 to 1.8.0 (#4909)\n* 17f3ea918 chore(deps): bump github.com/Azure/azure-sdk-for-go/sdk/azcore (#4912)\n* 39ccbf7b5 test(aws): move part of unit tests to integration (#4884)\n* 6d3ae3bcf docs(cli): update help string for file and dir skipping (#4872)\n* 7d7a1ef54 chore(deps): bump sigstore/cosign-installer (#4910)\n* fc7495017 chore(deps): bump github.com/sosedoff/gitkit from 0.3.0 to 0.4.0 (#4916)\n* b2a68bc06 chore(deps): bump k8s.io/api from 0.27.3 to 0.27.4 (#4918)\n* e5c0c15b6 chore(deps): bump github.com/secure-systems-lab/go-securesystemslib (#4919)\n* da37803d5 chore(deps): bump github.com/aws/aws-sdk-go-v2/service/sts (#4913)\n* 9744e6498 chore(deps): bump github.com/magefile/mage from 1.14.0 to 1.15.0 (#4915)\n* 99eebc670 docs: update the discussion template (#4928)\n\n"
@@ -3980,8 +3980,8 @@
     "https://github.com/anchore/grype": {
         "created_at": "2020-05-26 13:44:38",
         "description": "A vulnerability scanner for container images and filesystems",
-        "commit_date": "2023-08-25 21:23:52",
-        "commit_message": "chore(deps): update Syft to v0.88.0 (#1466)",
+        "commit_date": "2023-08-28 21:00:51",
+        "commit_message": "fix: set correct default to exclude overlapping binaries (#1452)\n\nSigned-off-by: Keith Zantow <kzantow@gmail.com>",
         "release_tag": "v0.65.2",
         "release_date": "2023-08-17 20:07:01",
         "release_message": "# \r\n\r\n## [v0.65.2](https://github.com/anchore/grype/tree/v0.65.2) (2023-08-17)\r\n\r\n[Full Changelog](https://github.com/anchore/grype/compare/v0.65.1...v0.65.2)\r\n\r\n### Additional Changes\r\n\r\n- Update Syft to v0.87.1\r\n- Add a simple JUnit XML template [[PR #1422](https://github.com/anchore/grype/pull/1422)] [[YevheniiPokhvalii](https://github.com/YevheniiPokhvalii)]\r\n- Update semver regular expression constraint to allow for 1.20rc1 cases no '-' [[PR #1434](https://github.com/anchore/grype/pull/1434)] [[spiffcs](https://github.com/spiffcs)]\r\n"
@@ -4277,7 +4277,7 @@
     "https://github.com/aiboboxx/v2rayfree": {
         "created_at": "2021-10-13 11:34:53",
         "description": "v2ray节点、v2ray免费节点、免费v2ray节点、最新公益免费v2ray节点订阅地址、免费v2ray节点每日更新、免费ss/v2ray/trojan节点、freefq ",
-        "commit_date": "2023-08-27 12:31:32",
+        "commit_date": "2023-08-28 12:36:02",
         "commit_message": "update",
         "release_tag": "",
         "release_date": "",
@@ -4322,8 +4322,8 @@
     "https://github.com/freefq/free": {
         "created_at": "2020-06-07 02:48:33",
         "description": "翻墙、免费翻墙、免费科学上网、免费节点、免费梯子、免费ss/v2ray/trojan节点、蓝灯、谷歌商店、翻墙梯子",
-        "commit_date": "2023-08-28 00:00:02",
-        "commit_message": "updated_at 08-28 08:00",
+        "commit_date": "2023-08-29 00:00:02",
+        "commit_message": "updated_at 08-29 08:00",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -4529,17 +4529,17 @@
     "https://github.com/MobSF/Mobile-Security-Framework-MobSF": {
         "created_at": "2015-01-31 04:36:01",
         "description": "Mobile Security Framework (MobSF) is an automated, all-in-one mobile application (Android/iOS/Windows) pen-testing, malware analysis and security assessment framework capable of performing static and dynamic analysis.",
-        "commit_date": "2023-08-27 01:32:07",
-        "commit_message": "[HOTFIX] bs4 malformed xml parsing + xml namespace detection (#2248)\n\n* Use BeautifulSoup4 to prettify malformed XML\r\n* Detect non standard XML namespace in AndroidManifest.xml (Fixes : https://github.com/MobSF/Mobile-Security-Framework-MobSF/issues/2198) \r\n* Updated android permissions list\r\n* Updated android permission update check script",
-        "release_tag": "v3.6.9",
-        "release_date": "2023-07-23 19:43:02",
-        "release_message": "### v3.6.9 Beta Changelog\r\n\r\n- Features or Enhancements\r\n   - New Simplified and Updated Documentation https://mobsf.github.io/docs/#/\r\n   - MobSF Dynamic Analysis support for Docker image\r\n   - Updated Documentation to include support for Corellium ARM64 Android VMs\r\n   - Add support for environment variables to configure MobSF\r\n   - Android SCA extract icon from SVG\r\n   - OFAC Sanctioned Country Check\r\n   - Improved Android Certificate Analysis\r\n   - Updated Android Manifest Analysis Rules\r\n   - Enterprise Feature Request\r\n      - Summary of Findings under each section\r\n      - Support for independent scanning of AAR ad JAR files.\r\n\r\n## What's Changed\r\n* Adding numeric_owner as a keyword argument by @TrellixVulnTeam in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2050\r\n* Scheduled weekly dependency update for week 41 by @pyup-bot in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2046\r\n* HOTFIX: UI changes and warning on mobsf.live by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2051\r\n* Split certificate analysis out, suppression list fixes by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2052\r\n* hotfix for quark rules location by @superpoussin22 in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2053\r\n* HOTFIX: jadx update to 1.4.5  by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2064\r\n* Installation script error: Solving spelling error by @th3-d4v1d-c0de in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2067\r\n* Android APK support extracting icon SVG from XML by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2060\r\n* HOTFIX: Setup improvement by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2078\r\n* Apktool 2.7.0 update by @superpoussin22 in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2082\r\n* New Android Manifest Rule: App support vulnerable android versions by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2114\r\n* Fix for filenames containing ampersand by @evmxattr in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2129\r\n* HOTFIX - Fix broken docker builds by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2135\r\n* Fix Scorecard Severity Distribution chart data by @antoinbo in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2140\r\n* HOTIX: Update Dockerfile to install jq by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2149\r\n* [HOTFIX] Add support for environment variable for MobSF config by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2150\r\n* HOTFIX: Android min SDK check on janus vulnerability detection by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2159\r\n* [Enterprise Feature Request EFR02] Support summary of severity in each section. by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2160\r\n* [EFR05] Enterprise Feature Request: AAR and JAR support by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2163\r\n* Scheduled weekly dependency update for week 24 by @pyup-bot in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2187\r\n* Feature updates and Bug Fixes by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2197\r\n* HOTFIX: MobSF Android Dynamic Analysis Docker Support by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2214\r\n\r\n## New Contributors\r\n* @th3-d4v1d-c0de made their first contribution in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2067\r\n* @evmxattr made their first contribution in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2129\r\n* @antoinbo made their first contribution in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2140\r\n\r\n**Full Changelog**: https://github.com/MobSF/Mobile-Security-Framework-MobSF/compare/v3.6.0...v3.6.9"
+        "commit_date": "2023-08-28 04:08:29",
+        "commit_message": "[HOTFIX] Migrate from setup.py to poetry, tox QA (#2249)\n\n* Migrate from setup.py to use poetry build and publish\r\n* Tox QA\r\n* Version is now configured only at pyproject.toml\r\n* Added poetry build test\r\n* Updated mobsf PyPI publishing workflow \r\n* Update local DBs",
+        "release_tag": "v3.7.6",
+        "release_date": "2023-08-28 04:57:05",
+        "release_message": "### v3.7.6 Beta Changelog\r\n\r\n- Features or Enhancements\r\n   - Docker base image update to Ubuntu 22.04\r\n   - Dockerfile QA\r\n   - Migrated from Pip to Poetry for dependency management\r\n   - Migrate from setup.py to use poetry for build and publish\r\n   - Python 3.11 support\r\n   - Docker ADB connection improvements (host.docker.internal translation for localhost)\r\n   -  IOS Swift RulesUpdates `ios_biometric_bool`, `ios_biometric_acl`, `ios_keychain_weak_acl_device_passcode`, `ios_keychain_weak_accessibility_value`, `ios_insecure_random_no_generator`, `ios_biometry_hardened`\r\n   - Android SCA rules update\r\n   - Entropies scan support for strings\r\n   - Regex Hardening: Fixes possible Regex DoS in rules and MobSF code base\r\n   - Tox QA\r\n   - Added poetry build test\r\n   - Updated mobsf PyPI publishing workflow \r\n   - Update local DBs\r\n   - URLs/Email extraction refactor\r\n   - Static and Dynamic Binary Analysis QA\r\n   - Refactor Dex permissions\r\n   - Refactor Androguard `apk.APK()` usage\r\n   - Fallback certificate analysis using apksigtool\r\n   - Use BeautifulSoup4 to prettify malformed XML\r\n   - Detect non standard XML namespace in AndroidManifest.xml, Fixes : #2198\r\n   - Updated android permissions list\r\n   - Updated android permission update check script\r\n   - Github Actions version update\r\n   - Apktool bump\r\n   - Bump httptools\r\n   - Bump yara-python-dex\r\n   - Docker image build test for PRs\r\n   - iOS Source Report Fix\r\n   - Removed unwanted pinned repository\r\n   - Frida APK Patcher (WIP)\r\n   - Fix for Recent Scans `scan not completed` for iOS zip\r\n   - Fix for MachO stripped symbols false positive\r\n   - Fix bug in IPA download\r\n   - iOS/Android form validation fix\r\n   - Fix missing exported components\r\n - Enterprise Feature Request\r\n      - String extraction from APK, Source, AAR, JAR, SO.\r\n      - Android strings sections to show source of strings extracted\r\n      - Strings extraction refactor\r\n      - Support for independent `.so` scan\r\n      - Dylib analysis support\r\n      - Dylib string extraction\r\n      - Improved iOS Plist secret extraction\r\n      - Support for Independent `.dylib` scan\r\n      - Symbols view for dylib and so\r\n      - Trackers support for so\r\n      - AAR/JAR obfuscation and debug check\r\n      - Independent Static Library(.a) ELF/MachO Analysis\r\n      - Mac FAT binary only supported on Mac\r\n\r\n\r\n  \r\n     \r\n    \r\n  \r\n\r\n## What's Changed\r\n* Update dynamic_analysis.html by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2218\r\n* Hotfix: Handle Docker <-> ADB connectivity internally by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2219\r\n* update apktool to 2.8.1 by @superpoussin22 in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2220\r\n* update apktool by @superpoussin22 in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2225\r\n* HOTFIX: Dynamic Analyzer Support Alert by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2227\r\n* [HOTFIX] Regex + Rule Update by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2232\r\n* [EFR06] Independent Shared Object (.so) Scan and Improved String search by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2228\r\n* Update macho_analysis.py - SYMBOLS STRIPPED False Negative by @Karmaz95 in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2234\r\n* [EFR-08] Dylib + Symbols + Other Features by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2239\r\n* Fix missing exported components by @Abb4d0n in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2176\r\n* [EFR09] AAR/JAR obfuscation and debug check + Exception Handed strings and symbols extraction by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2240\r\n* [EFR10] Independent Static Library(.a) ELF/MachO Analysis by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2242\r\n* Pip to poetry and Dockerfile update by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2244\r\n* Docker Buildx test by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2247\r\n* [HOTFIX] bs4 malformed xml parsing + xml namespace detection by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2248\r\n* [HOTFIX] Migrate from setup.py to poetry, tox QA by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2249\r\n\r\n## New Contributors\r\n* @Karmaz95 made their first contribution in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2234\r\n* @Abb4d0n made their first contribution in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2176\r\n\r\n**Full Changelog**: https://github.com/MobSF/Mobile-Security-Framework-MobSF/compare/v3.6.9...v3.7.6"
     },
     "https://github.com/gand3lf/semgrepper": {
         "created_at": "2022-11-04 08:58:52",
         "description": "An extension to use Semgrep inside Burp Suite.",
-        "commit_date": "2023-04-26 08:25:39",
-        "commit_message": "Update for version 3",
+        "commit_date": "2023-08-28 09:28:41",
+        "commit_message": "Merge pull request #9 from tghosth/clarify-running\n\nUpdate README.md with tutorial",
         "release_tag": "v1.3",
         "release_date": "2023-04-26 08:37:24",
         "release_message": "Minor update.\r\nNews:\r\n- improve support for MacOS\r\n- include support for WSL\r\n- improve \"Issue Detail\" section\r\n- bug fixing"
@@ -5004,8 +5004,8 @@
     "https://github.com/rustdesk/rustdesk": {
         "created_at": "2020-09-28 15:36:08",
         "description": "An open-source remote desktop, and alternative to TeamViewer.",
-        "commit_date": "2023-08-27 12:22:34",
-        "commit_message": "Merge pull request #5516 from iAbdullah/master-ar\n\nAdd Arabic translation",
+        "commit_date": "2023-08-28 02:48:13",
+        "commit_message": "Merge pull request #5528 from fufesou/refact/remove_virtual_display_tmp\n\nremove virtual display",
         "release_tag": "1.2.2",
         "release_date": "2023-08-22 01:44:36",
         "release_message": "\r\n![image](https://github.com/rustdesk/rustdesk/assets/71636191/b444deab-7971-4de7-b315-6a9b4974c7ea)\r\n\r\n> Winget, FDroid, Apple Sillicon, Google Play / App Store update will come soon.\r\n\r\nx86-64: [Windows](https://github.com/rustdesk/rustdesk/releases/download/1.2.2/rustdesk-1.2.2-x86_64.exe) | [Ubuntu](https://github.com/rustdesk/rustdesk/releases/download/1.2.2/rustdesk-1.2.2-x86_64.deb) | [Mac](https://github.com/rustdesk/rustdesk/releases/download/1.2.2/rustdesk-1.2.2-x86_64.dmg)\r\nAArch64 (ARM64):  [Ubuntu](https://github.com/rustdesk/rustdesk/releases/download/1.2.2/rustdesk-1.2.2-aarch64.deb) | [Android](https://github.com/rustdesk/rustdesk/releases/download/1.2.2/rustdesk-1.2.2-aarch64-signed.apk) | [Mac](https://github.com/rustdesk/rustdesk/releases/download/1.2.2/rustdesk-1.2.2-aarch64.dmg)\r\n\r\nMore: [check below please](#)\r\n\r\n<details>\r\n<summary>Changelog</summary>\r\n\r\n- Add separate window mode (tab window by default), https://github.com/rustdesk/rustdesk/discussions/2889\r\n![image](https://github.com/rustdesk/rustdesk/assets/71636191/0c73bc6a-8659-4a67-9425-47625a6aded3)\r\n- Fix and improve responsiveness issue introduced in 1.2.0. https://github.com/rustdesk/rustdesk/discussions/5231\r\n- Add device list batch handle\r\n![image](https://github.com/rustdesk/rustdesk/assets/71636191/0ca85b8e-bed3-48ad-a43f-82df983986f3)\r\n- Add command to assign user and strategy for [RustDesk Server Pro](https://rustdesk.com/docs/en/self-host/pro/)\r\n- Optimize address book, syncing password, alias name, device name etc, add tag color, improve error and update status handling\r\n![image](https://github.com/rustdesk/rustdesk/assets/71636191/21d7a226-b863-4dc2-a9d3-fb6cd3a56c5c)\r\n- Fix windows file copy/paste\r\n- Fix \"waiting for image...\" still shown after receiving image bug, refactored rust->flutter message handling https://github.com/rustdesk/rustdesk/issues/4533\r\n- Improve some touchpad support, https://github.com/rustdesk/rustdesk/pull/5049\r\n- Bug fixes.\r\n\r\n</details>\r\n"
@@ -5148,11 +5148,11 @@
     "https://github.com/FreeRDP/FreeRDP": {
         "created_at": "2011-06-30 19:14:15",
         "description": "FreeRDP is a free remote desktop protocol library and clients",
-        "commit_date": "2023-08-25 12:36:05",
-        "commit_message": "[api] fix integer overflow warnings",
-        "release_tag": "2.10.0",
-        "release_date": "2023-02-16 13:46:39",
-        "release_message": " Notewhorth changes:\r\n * Fix android build scripts, use CMake from SDK\r\n * Fix connection negotiation with mstsc/msrdc #8426\r\n * [ntlm]: use rfc5929 binding hash algorithm #8430\r\n * [channels,printer] Fixed reference counting #8433\r\n * Fix uwac pixman #8439\r\n * Fix Rdp security #8457\r\n * [client,x11] Detect key autorepeat #8522\r\n * [build] add channel path to RPATH #8551\r\n * Fix build with BUILTIN_CHANNELS=OFF #8560\r\n * revert changes so that the osmajortype/osminortype is not overwritten #8571\r\n * [uwac] do not use iso C functions #8604\r\n * [winpr,sam] fix inalid NULL arguments #8605\r\n * Fix incompatible function pointer types #8625\r\n \r\n Fixed issues:\r\n * Backported #8581: Ignore data PDUs for DVCs that were not opened successfully\r\n * Backported #8498: [channel,urbdrc] fix type of usb hotplug callback\r\n * Backported #8537: Extended info enforce limits\r\n * Backported #8611: [core] add missing redirection fields\r\n \r\n"
+        "commit_date": "2023-08-28 12:26:10",
+        "commit_message": "[codec,yuv] check rectangles for validity\n\nthe decoder needs to check bounds for supplied rectangles for both,\ninput and output buffers.",
+        "release_tag": "2.11.0",
+        "release_date": "2023-08-28 12:37:38",
+        "release_message": "Noteworthy changes:\r\n* Various input validation fixes\r\n* Added various CMake options #9317\r\n* LibreSSL build fixes #8709\r\n\r\nFixed issues:\r\n* Backported #9233: Big endian support\r\n* Backported #9099: Mouse grabbing support\r\n* Backported #6851: wayland scrolling fix\r\n* Backported #8690: Update h264 to use new FFMPEG API\r\n* Backported #7306: early bail from update_read_window_state_order breaks protocol\r\n* Backported #8903: rdpecam/server: Remove wrong assertion\r\n* Backported #8994: bounds checks for gdi/gfx rectangles\r\n* Backported #9023: enforce rdpdr client side state checks\r\n* Backported #6331: deactivate mouse grabbing by default\r\n* Cherry-pick out of #9172: channels/cliprdr: Fix writing incorrect PDU type for unlock PDUs"
     },
     "https://github.com/iSafeBlue/fastjson-autotype-bypass-dem": {
         "created_at": "",

@@ -1,8 +1,11 @@
-# 更新于 2023-08-28 08:35:50
+# 更新于 2023-08-29 08:35:39
 
 ## 近15天release更新记录
 | 更新时间 | 项目名称 | 版本 | 更新内容 |
 | :---- | :---- | :---- | :---- |
+|2023-08-28 12:37:38|[FreeRDP](https://github.com/FreeRDP/FreeRDP)|2.11.0|Noteworthy changes:  * Various input <br>validation fixes  * Added various CMak<br>e options #9317  * LibreSSL build fixe<br>s #8709    Fixed issues:  * Backported<br> #9233: Big endian support  * Backport<br>ed #9099: Mouse grabbing support  * Ba<br>ckported #6851: wayland scrolling fix <br> * Backported #8690: Update h264 to us<br>e new FFMPEG API  * Backported #7306: <br>early bail from update_read_window_sta<br>te_order breaks protocol  * Backported<br> #8903: rdpecam/server: Remove wrong a<br>ssertion  * Backported #8994: bounds c<br>hecks for gdi/gfx rectangles  * Backpo<br>rted #9023: enforce rdpdr client side <br>state checks  * Backported #6331: deac<br>tivate mouse grabbing by default  * Ch<br>erry-pick out of #9172: channels/clipr<br>dr: Fix writing incorrect PDU type for<br> unlock PDUs|
+|2023-08-28 04:57:05|[Mobile-Security-F<br>ramework-MobSF](https://github.com/MobSF/Mobile-Security-Framework-MobSF)|v3.7.6|### v3.7.6 Beta Changelog    - Featur<br>es or Enhancements     - Docker base i<br>mage update to Ubuntu 22.04     - Dock<br>erfile QA     - Migrated from Pip to P<br>oetry for dependency management     - <br>Migrate from setup.py to use poetry fo<br>r build and publish     - Python 3.11 <br>support     - Docker ADB connection im<br>provements (host.docker.internal trans<br>lation for localhost)     -  IOS Swift<br> RulesUpdates ios_biometric_bool, ios_<br>biometric_acl, ios_keychain_weak_acl_d<br>evice_passcode, ios_keychain_weak_acce<br>ssibility_value, ios_insecure_random_n<br>o_generator, ios_biometry_hardened    <br> - Android SCA rules update     - Entr<br>opies scan support for strings     - R<br>egex Hardening: Fixes possible Regex D<br>oS in rules and MobSF code base     - <br>Tox QA     - Added poetry build test  <br>   - Updated mobsf PyPI publishing wor<br>kflow      - Update local DBs     - UR<br>Ls/Email extraction refactor     - Sta<br>tic and Dynamic Binary Analysis QA    <br> - Refactor Dex permissions     - Refa<br>ctor Androguard apk.APK() usage     - <br>Fallback certificate analysis using ap<br>ksigtool     - Use BeautifulSoup4 to p<br>rettify malformed XML     - Detect non<br> standard XML namespace in AndroidMani<br>fest.xml, Fixes : #2198     - Updated <br>android permissions list     - Updated<br> android permission update check scrip<br>t     - Github Actions version update <br>    - Apktool bump     - Bump httptool<br>s     - Bump yara-python-dex     - Doc<br>ker image build test for PRs     - iOS<br> Source Report Fix     - Removed unwan<br>ted pinned repository     - Frida APK <br>Patcher (WIP)     - Fix for Recent Sca<br>ns scan not completed for iOS zip     <br>- Fix for MachO stripped symbols false<br> positive     - Fix bug in IPA downloa<br>d     - iOS/Android form validation fi<br>x     - Fix missing exported component<br>s   - Enterprise Feature Request      <br>  - String extraction from APK, Source<br>, AAR, JAR, SO.        - Android strin<br>gs sections to show source of strings <br>extracted        - Strings extraction <br>refactor        - Support for independ<br>ent .so scan        - Dylib analysis s<br>upport        - Dylib string extractio<br>n        - Improved iOS Plist secret e<br>xtraction        - Support for Indepen<br>dent .dylib scan        - Symbols view<br> for dylib and so        - Trackers su<br>pport for so        - AAR/JAR obfuscat<br>ion and debug check        - Independe<br>nt Static Library(.a) ELF/MachO Analys<br>is        - Mac FAT binary only suppor<br>ted on Mac                            <br> ## What's Changed  * Update dynamic_a<br>nalysis.html by @ajinabraham in https:<br>//github.com/MobSF/Mobile-Security-Fra<br>mework-MobSF/pull/2218  * Hotfix: Hand<br>le Docker  ADB connectivity internally<br> by @ajinabraham in https://github.com<br>/MobSF/Mobile-Security-Framework-MobSF<br>/pull/2219  * update apktool to 2.8.1 <br>by @superpoussin22 in https://github.c<br>om/MobSF/Mobile-Security-Framework-Mob<br>SF/pull/2220  * update apktool by @sup<br>erpoussin22 in https://github.com/MobS<br>F/Mobile-Security-Framework-MobSF/pull<br>/2225  * HOTFIX: Dynamic Analyzer Supp<br>ort Alert by @ajinabraham in https://g<br>ithub.com/MobSF/Mobile-Security-Framew<br>ork-MobSF/pull/2227  * [HOTFIX] Regex <br>+ Rule Update by @ajinabraham in https<br>://github.com/MobSF/Mobile-Security-Fr<br>amework-MobSF/pull/2232  * [EFR06] Ind<br>ependent Shared Object (.so) Scan and <br>Improved String search by @ajinabraham<br> in https://github.com/MobSF/Mobile-Se<br>curity-Framework-MobSF/pull/2228  * Up<br>date macho_analysis.py - SYMBOLS STRIP<br>PED False Negative by @Karmaz95 in htt<br>ps://github.com/MobSF/Mobile-Security-<br>Framework-MobSF/pull/2234  * [EFR-08] <br>Dylib + Symbols + Other Features by @a<br>jinabraham in https://github.com/MobSF<br>/Mobile-Security-Framework-MobSF/pull/<br>2239  * Fix missing exported component<br>s by @Abb4d0n in https://github.com/Mo<br>bSF/Mobile-Security-Framework-MobSF/pu<br>ll/2176  * [EFR09] AAR/JAR obfuscation<br> and debug check + Exception Handed st<br>rings and symbols extraction by @ajina<br>braham in https://github.com/MobSF/Mob<br>ile-Security-Framework-MobSF/pull/2240<br>  * [EFR10] Independent Static Library<br>(.a) ELF/MachO Analysis by @ajinabraha<br>m in https://github.com/MobSF/Mobile-S<br>ecurity-Framework-MobSF/pull/2242  * P<br>ip to poetry and Dockerfile update by <br>@ajinabraham in https://github.com/Mob<br>SF/Mobile-Security-Framework-MobSF/pul<br>l/2244  * Docker Buildx test by @ajina<br>braham in https://github.com/MobSF/Mob<br>ile-Security-Framework-MobSF/pull/2247<br>  * [HOTFIX] bs4 malformed xml parsing<br> + xml namespace detection by @ajinabr<br>aham in https://github.com/MobSF/Mobil<br>e-Security-Framework-MobSF/pull/2248  <br>* [HOTFIX] Migrate from setup.py to po<br>etry, tox QA by @ajinabraham in https:<br>//github.com/MobSF/Mobile-Security-Fra<br>mework-MobSF/pull/2249    ## New Contr<br>ibutors  * @Karmaz95 made their first <br>contribution in https://github.com/Mob<br>SF/Mobile-Security-Framework-MobSF/pul<br>l/2234  * @Abb4d0n made their first co<br>ntribution in https://github.com/MobSF<br>/Mobile-Security-Framework-MobSF/pull/<br>2176    **Full Changelog**: https://gi<br>thub.com/MobSF/Mobile-Security-Framewo<br>rk-MobSF/compare/v3.6.9...v3.7.6|
+|2023-08-28 02:55:05|[Elkeid](https://github.com/bytedance/Elkeid)|scanner<br>-v2.2.1.<br>2_202308<br>23_test_<br>only||
 |2023-08-27 18:25:14|[ghauri](https://github.com/r0oth3x49/ghauri)|1.2.4|## Fixes   - updated code quality   -<br> added payload for data extraction for<br> MSSQL|
 |2023-08-27 04:28:53|[PEASS-ng](https://github.com/carlospolop/PEASS-ng)|2023082<br>7-2ed374<br>9a||
 |2023-08-27 03:42:06|[Viper](https://github.com/FunnyWolf/Viper)|2023082<br>7|  ### 优化  - 反溯源脚本nobody.sh可以<br>快速使用初始nginx配置  - 合并metasploit<br>-framework 6.3.32版本  - Viper后续使用<br>构建时间作为版本号  ### Bugfix  - fix h<br>ttps://github.com/FunnyWolf/Viper/issu<br>es/155  - fix https://github.com/Funny<br>Wolf/Viper/issues/163  - fix https://g<br>ithub.com/FunnyWolf/Viper/issues/161|
@@ -28,27 +31,37 @@
 |2023-08-20 00:19:37|[wappalyzergo](https://github.com/projectdiscovery/wappalyzergo)|v0.0.10<br>9|###  (2023-08-20)|
 |2023-08-19 08:45:57|[naabu](https://github.com/projectdiscovery/naabu)|v2.1.7|    ## What's Changed  ### 🎉 New Fea<br>tures    * Added support for [host|ip]<br>:port format input by @Mzack9999 in ht<br>tps://github.com/projectdiscovery/naab<br>u/pull/767  console  echo google.com:4<br>43 | ./naabu -silent  echo 142.250.183<br>.174:443 | ./naabu -silent  echo 142.2<br>50.183.174:443 | ./naabu -silent -p 80<br>      ### 🔨 Maintenance  * Added more<br> test coverage by @Mzack9999 in https:<br>//github.com/projectdiscovery/naabu/pu<br>ll/708  * Added arm64 on linux gorelea<br>ser by @Mzack9999 in https://github.co<br>m/projectdiscovery/naabu/pull/716  * A<br>dded ValidateOptions method for use as<br> go library by @Y4er in https://github<br>.com/projectdiscovery/naabu/pull/762  <br>* Updated JSONL representation of port<br> and protocol by @kimtruth in https://<br>github.com/projectdiscovery/naabu/pull<br>/729  * Removed sudo in brew install b<br>y @sttlr in https://github.com/project<br>discovery/naabu/pull/742    ### Other <br>Changes  * Fixed issue with -ec option<br> to exclude WAF by @JoshuaMart in http<br>s://github.com/projectdiscovery/naabu/<br>pull/749  * Added open ports to scan r<br>esult on privileged by @RamanaReddy0M <br>in https://github.com/projectdiscovery<br>/naabu/pull/638    Issues closed in th<br>is release - https://github.com/projec<br>tdiscovery/naabu/milestone/8?closed=1 <br>   ## New Contributors  * @kimtruth ma<br>de their first contribution in https:/<br>/github.com/projectdiscovery/naabu/pul<br>l/729  * @sttlr made their first contr<br>ibution in https://github.com/projectd<br>iscovery/naabu/pull/742  * @Y4er made <br>their first contribution in https://gi<br>thub.com/projectdiscovery/naabu/pull/7<br>62  * @JoshuaMart made their first con<br>tribution in https://github.com/projec<br>tdiscovery/naabu/pull/749    **Full Ch<br>angelog**: https://github.com/projectd<br>iscovery/naabu/compare/v2.1.6...v2.1.7<br>  |
 |2023-08-17 20:07:01|[grype](https://github.com/anchore/grype)|v0.65.2|#     ##  (2023-08-17)        ### Add<br>itional Changes    - Update Syft to v0<br>.87.1  - Add a simple JUnit XML templa<br>te ] ]  - Update semver regular expres<br>sion constraint to allow for 1.20rc1 c<br>ases no '-' ] ]  |
-|2023-08-17 13:47:18|[Elkeid](https://github.com/bytedance/Elkeid)|scanner<br>-v2.2.1.<br>1_202308<br>17_test_<br>only||
 |2023-08-16 02:13:55|[ENScan_GO](https://github.com/wgpsec/ENScan_GO)|0.0.15|修复AQC查询问题    若ENSCAN无法正常访<br>问网站可尝试挂上代理 -proxy http://127.<br>0.0.1:8080/ （burp）  若查询还是有问题<br>可开启debug模式 --debug 查看报错内容  <br>无法正常查询可以在网站上多查询几次后获<br>取**完整COOKIE**进行尝试|
 |2023-08-14 08:25:54|[ThunderSearch](https://github.com/xzajyjs/ThunderSearch)|v2.5|- 增加Hunter搜索    - 增加版本更新检<br>测    - 适当调整界面布局      ---    - <br>Support Hunter search  - Add version u<br>pdate detection  - Appropriately adjus<br>t the interface layout    ---    > MD5<br> (ThunderSearch.dmg) = cbcc8247dd6f445<br>de5db5f6b5e35b795  > MD5 (ThunderSearc<br>h_win.zip) = 0c1eed85000788ccbbaba7523<br>d491035  > Mac版密码: Hi!j3@/J  |
 |2023-08-14 04:10:03|[frp](https://github.com/fatedier/frp)|v0.51.3|### Features  * Support Go 1.21.  |
-|2023-08-13 12:28:31|[Apt_t00ls](https://github.com/White-hua/Apt_t00ls)|v0.7|泛微e-mobile-sql注入rce  综合安防文件<br>上传RCE * 2  用友nc jsInovke-RCE  大华<br>文件上传RCE  畅捷通反序列化RCE  深信服<br>应用交付系统RCE|
-|2023-08-13 07:51:34|[Exp-Tools](https://github.com/cseroad/Exp-Tools)|v1.2.1|- 新增用友反序列化-3  - 新增泛微ecolo<br>gy WorkflowServiceXml命令执行  - 新增<br>用友U8 cloud文件上传  - 新增用友NC 文件<br>上传  - 新增帆软报表文件读取-bypass  - <br>新增帆软报表未授权命令执行  - 新增用友<br>移动管理平台文件上传  - 优化部分代码|
-|2023-08-13 00:53:11|[Dirscan](https://github.com/corunb/Dirscan)|v.1.5.2|v1.5.2-修复递归扫描已知bug|
 ## 近15天commit提交记录
 | 提交时间 | 项目名称 | 更新内容 |
 | :---- | :---- | :---- |
-|2023-08-28 00:00:02|[free](https://github.com/freefq/free)|updated_at 08-28 08:00|
-|2023-08-27 21:36:23|[PocOrExp_in_Githu<br>b](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-08-28 05:36:23|
+|2023-08-29 00:00:02|[free](https://github.com/freefq/free)|updated_at 08-29 08:00|
+|2023-08-28 23:13:21|[PocOrExp_in_Githu<br>b](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-08-29 07:13:21|
+|2023-08-28 21:00:51|[grype](https://github.com/anchore/grype)|fix: set correct default to exclude overlapping bin<br>aries (#1452)  Signed-off-by: Keith Zantow |
+|2023-08-28 18:55:10|[neuvector](https://github.com/neuvector/neuvector)|Merge pull request #968 from minchao/fix-api-doc  F<br>ix parameter definition for post /v1/api_key api and<br> properties for role_domains in api doc|
+|2023-08-28 14:02:42|[dbeaver](https://github.com/dbeaver/dbeaver)|dbeaver/dbeaver#18188 allow multiple certs (#20971)<br>  * dbeaver/dbeaver#18188 allow multiple certs    * <br>dbeaver/dbeaver#18188 use indexed loop    * dbeaver/<br>dbeaver#18188 codestyle    ---------    Co-authored-<br>by: Dziyana |
+|2023-08-28 12:36:02|[v2rayfree](https://github.com/aiboboxx/v2rayfree)|update|
+|2023-08-28 12:28:01|[syft](https://github.com/anchore/syft)|fix: CPE generation for django (#2068)  Signed-off-<br>by: witchcraze |
+|2023-08-28 12:26:10|[FreeRDP](https://github.com/FreeRDP/FreeRDP)|[codec,yuv] check rectangles for validity  the deco<br>der needs to check bounds for supplied rectangles fo<br>r both, input and output buffers.|
+|2023-08-28 12:20:02|[trivy](https://github.com/aquasecurity/trivy)|fix: #5033 Superfluous double quote in html.tpl (#5<br>036)|
+|2023-08-28 10:41:58|[safeline](https://github.com/chaitin/safeline)|Update version.json|
+|2023-08-28 09:28:41|[semgrepper](https://github.com/gand3lf/semgrepper)|Merge pull request #9 from tghosth/clarify-running <br> Update README.md with tutorial|
+|2023-08-28 09:03:59|[Elkeid](https://github.com/bytedance/Elkeid)|Merge pull request #527 from Hackerl/main  fix bugs<br> of RASP probe|
+|2023-08-28 08:55:05|[Vulnerability-Wik<br>i](https://github.com/Threekiii/Vulnerability-Wiki)|更新漏洞|
+|2023-08-28 08:53:48|[Awesome-POC](https://github.com/Threekiii/Awesome-POC)|更新漏洞|
+|2023-08-28 07:56:06|[Vulhub-Reproduce](https://github.com/Threekiii/Vulhub-Reproduce)|更新漏洞|
+|2023-08-28 07:37:55|[PeiQi-WIKI-Book](https://github.com/PeiQi0/PeiQi-WIKI-Book)|Update README.md|
+|2023-08-28 04:08:29|[Mobile-Security-F<br>ramework-MobSF](https://github.com/MobSF/Mobile-Security-Framework-MobSF)|[HOTFIX] Migrate from setup.py to poetry, tox QA (#<br>2249)  * Migrate from setup.py to use poetry build a<br>nd publish  * Tox QA  * Version is now configured on<br>ly at pyproject.toml  * Added poetry build test  * U<br>pdated mobsf PyPI publishing workflow   * Update loc<br>al DBs|
+|2023-08-28 03:36:32|[404StarLink](https://github.com/knownsec/404StarLink)|weekly update at 2023-08-28|
+|2023-08-28 02:48:13|[rustdesk](https://github.com/rustdesk/rustdesk)|Merge pull request #5528 from fufesou/refact/remove<br>_virtual_display_tmp  remove virtual display|
+|2023-08-28 01:08:49|[afrog](https://github.com/zan8in/afrog)|update readme|
 |2023-08-27 18:21:43|[ghauri](https://github.com/r0oth3x49/ghauri)|updated code quality, added payload for mssql, bump<br>ed version 1.2.3|
 |2023-08-27 14:20:30|[Fastjson](https://github.com/safe6Sec/Fastjson)|Update README.md|
 |2023-08-27 12:31:35|[WebGoat](https://github.com/WebGoat/WebGoat)|fix: potential NPE in the stored XSS assignment|
-|2023-08-27 12:31:32|[v2rayfree](https://github.com/aiboboxx/v2rayfree)|update|
-|2023-08-27 12:22:34|[rustdesk](https://github.com/rustdesk/rustdesk)|Merge pull request #5516 from iAbdullah/master-ar  <br>Add Arabic translation|
-|2023-08-27 07:52:02|[trivy](https://github.com/aquasecurity/trivy)|perf: Optimize Dockerfile for reduced layers and si<br>ze (#5038)  * Optimize Dockerfile for reduced layers<br> and size  * Optimize Dockerfile for clarity and eff<br>iciency without compromising debuggability|
 |2023-08-27 03:41:09|[Viper](https://github.com/FunnyWolf/Viper)|update version|
 |2023-08-27 03:18:25|[DecoyMini](https://github.com/decoymini/DecoyMini)|Update README.md|
-|2023-08-27 01:32:07|[Mobile-Security-F<br>ramework-MobSF](https://github.com/MobSF/Mobile-Security-Framework-MobSF)|[HOTFIX] bs4 malformed xml parsing + xml namespace <br>detection (#2248)  * Use BeautifulSoup4 to prettify <br>malformed XML  * Detect non standard XML namespace i<br>n AndroidManifest.xml (Fixes : https://github.com/Mo<br>bSF/Mobile-Security-Framework-MobSF/issues/2198)   *<br> Updated android permissions list  * Updated android<br> permission update check script|
 |2023-08-26 20:34:18|[nuclei](https://github.com/projectdiscovery/nuclei)|Added initial API docs|
 |2023-08-26 15:08:43|[awesome-chatgpt-z<br>h](https://github.com/yzfly/awesome-chatgpt-zh)|update contact|
 |2023-08-26 14:02:17|[sqlmap](https://github.com/sqlmapproject/sqlmap)|Minor update of SQLite specific payload (#5501)|
@@ -56,24 +69,14 @@
 |2023-08-26 10:15:19|[mitaka](https://github.com/ninoseki/mitaka)|Merge pull request #751 from ninoseki/refaoctor-nul<br>l-undefined  refactor: remove !== null/undefined|
 |2023-08-26 03:35:58|[dirsearch](https://github.com/maurosoria/dirsearch)|Merge pull request #1310 from godspeedcurry/master <br> Update dicc.txt|
 |2023-08-26 02:35:55|[qsnctf-python](https://github.com/Moxin1044/qsnctf-python)|build( Version ): ⬆️ 0.0.8.10|
-|2023-08-25 21:23:52|[grype](https://github.com/anchore/grype)|chore(deps): update Syft to v0.88.0 (#1466)|
-|2023-08-25 20:45:04|[syft](https://github.com/anchore/syft)|chore: update quill to the latest version (#2065)  <br>Signed-off-by: Keith Zantow |
 |2023-08-25 16:26:19|[iDefender](https://github.com/wecooperate/iDefender)|update|
 |2023-08-25 15:48:38|[codeql-cli-binari<br>es](https://github.com/github/codeql-cli-binaries)|Update changelog for 2.14.3|
-|2023-08-25 12:36:05|[FreeRDP](https://github.com/FreeRDP/FreeRDP)|[api] fix integer overflow warnings|
-|2023-08-25 12:29:25|[dbeaver](https://github.com/dbeaver/dbeaver)|dbeaver/cloudbeaver#1951 Handle parsing errors (#20<br>993)  * dbeaver/cloudbeaver#1951 Handle parsing erro<br>rs    * dbeaver/cloudbeaver#1951 Add logging|
 |2023-08-25 10:11:47|[ChatGPT-Shortcut](https://github.com/rockbenben/ChatGPT-Shortcut)|prompt: add prompt and update weight  contributed b<br>y @aliliin @xingyueye5 @miaonia|
 |2023-08-25 09:10:09|[Awesome-Redteam](https://github.com/Threekiii/Awesome-Redteam)|更新README.md|
-|2023-08-25 08:10:08|[Awesome-POC](https://github.com/Threekiii/Awesome-POC)|更新漏洞|
-|2023-08-25 08:09:30|[Vulhub-Reproduce](https://github.com/Threekiii/Vulhub-Reproduce)|更新漏洞|
-|2023-08-25 08:08:55|[Vulnerability-Wik<br>i](https://github.com/Threekiii/Vulnerability-Wiki)|更新漏洞|
-|2023-08-25 07:54:26|[safeline](https://github.com/chaitin/safeline)|Merge branch 'main' of github.com:chaitin/safeline <br>into main|
-|2023-08-25 00:18:12|[neuvector](https://github.com/neuvector/neuvector)|Merge pull request #972 from williamlin-suse/main  <br>NVSHAS-8197: configMap: No error is reported if pass<br>word do not comply password profile|
 |2023-08-24 20:14:53|[rotp](https://github.com/mdp/rotp)|Chore: run CI on all pull requests (#130)|
 |2023-08-24 17:48:31|[PEASS-ng](https://github.com/carlospolop/PEASS-ng)|Update ProcessInfo.cs|
 |2023-08-24 15:08:14|[AsamF](https://github.com/Kento-Sec/AsamF)|Update README.md|
 |2023-08-24 12:10:09|[arthas](https://github.com/alibaba/arthas)|Prettified Code!|
-|2023-08-24 10:35:15|[afrog](https://github.com/zan8in/afrog)|update|
 |2023-08-24 09:24:05|[ARL](https://github.com/TophantTechnology/ARL)|Merge pull request #622 from NAXG/master  add chaos|
 |2023-08-24 07:24:36|[wpscan](https://github.com/wpscanteam/wpscan)|Adds DFs|
 |2023-08-23 21:36:16|[faker](https://github.com/joke2k/faker)|Bump version: 19.3.0 → 19.3.1|
@@ -88,8 +91,6 @@
 |2023-08-21 14:26:54|[v2rayA](https://github.com/v2rayA/v2rayA)|chore: bump quic-go to v0.38.0|
 |2023-08-21 13:13:54|[ObserverWard](https://github.com/0x727/ObserverWard)|添加从API读取多个目标支持字段|
 |2023-08-21 12:24:24|[gshark](https://github.com/madneal/gshark)|modify struct|
-|2023-08-21 07:17:22|[Elkeid](https://github.com/bytedance/Elkeid)|Windows libplugin (#521)  * update for windows libp<br>lugin-rs    * update Cargo.toml|
-|2023-08-21 02:44:36|[404StarLink](https://github.com/knownsec/404StarLink)|weekly update at 2023-08-21|
 |2023-08-20 06:06:08|[HackReport](https://github.com/awake1t/HackReport)|2023-08-20 14:06:08|
 |2023-08-20 05:06:09|[superSearchPlus](https://github.com/dark-kingA/superSearchPlus)|更新 兼容最新谷歌浏览器|
 |2023-08-20 00:19:18|[wappalyzergo](https://github.com/projectdiscovery/wappalyzergo)|Weekly fingerprints update [Sun Aug 20 00:19:18 UTC<br> 2023] :robot:|
@@ -99,7 +100,6 @@
 |2023-08-18 08:47:41|[vulhub](https://github.com/vulhub/vulhub)|simplify the exploit of MeterSphere plugin RCE|
 |2023-08-17 12:40:16|[Venom-Transponder](https://github.com/z-bool/Venom-Transponder)|push|
 |2023-08-17 06:24:22|[impacket](https://github.com/fortra/impacket)|Merge pull request #1550 from Adamkadaban/master  A<br>dded query information level 0x0109 for smb1 "SMB_QU<br>ERY_FILE_STREAM_INFO"|
-|2023-08-16 08:22:56|[PeiQi-WIKI-Book](https://github.com/PeiQi0/PeiQi-WIKI-Book)|漏洞相关:亿赛通,LiveBOS|
 |2023-08-16 02:43:03|[Platypus](https://github.com/WangYihang/Platypus)|build(deps): bump word-wrap from 1.2.3 to 1.2.4 in <br>/web/frontend (#196)  Bumps  from 1.2.3 to 1.2.4.  -<br>   -     ---  updated-dependencies:  - dependency-na<br>me: word-wrap    dependency-type: indirect  ...    S<br>igned-off-by: dependabot[bot]   Co-authored-by: depe<br>ndabot[bot] |
 |2023-08-16 02:07:01|[ENScan_GO](https://github.com/wgpsec/ENScan_GO)|修复AQC查询BUG 还是需要挂上burp fix #77|
 |2023-08-15 19:51:10|[clair](https://github.com/quay/clair)|config: fix typo  Signed-off-by: Mark Frost |
@@ -110,10 +110,7 @@
 |2023-08-14 08:36:00|[ThunderSearch](https://github.com/xzajyjs/ThunderSearch)|fix README|
 |2023-08-14 03:21:50|[FrameVul](https://github.com/Awrrays/FrameVul)|Add files via upload|
 |2023-08-14 03:10:38|[frp](https://github.com/fatedier/frp)|support go1.21 (#3573)|
-|2023-08-14 02:12:29|[malwoverview](https://github.com/alexandreborges/malwoverview)|Malwoverview|
-|2023-08-13 12:33:36|[Apt_t00ls](https://github.com/White-hua/Apt_t00ls)|Update README.md|
-|2023-08-13 07:52:14|[Exp-Tools](https://github.com/cseroad/Exp-Tools)|Update README.md|
-|2023-08-13 00:50:23|[Dirscan](https://github.com/corunb/Dirscan)|v1.5.2-修复递归扫描已知bug|## 所有项目
+|2023-08-14 02:12:29|[malwoverview](https://github.com/alexandreborges/malwoverview)|Malwoverview|## 所有项目
 # 渗透测试
 ## 信息收集
 ### 资产测绘采集
@@ -252,7 +249,7 @@
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
 | [ApkAnalyser](https://github.com/TheKingOfDuck/ApkAnalyser) |  | 一键提取安卓应用中可能存在的敏感信息。 |
-| [Mobile-Security-F<br>ramework-MobSF](https://github.com/MobSF/Mobile-Security-Framework-MobSF) | v3.6.9 | Mobile Security Framework (MobSF) is an automated, all-in-one <br>mobile application (Android/iOS/Windows) pen-testing, malware a<br>nalysis and security assessment framework capable of performing<br> static and dynamic analysis. |
+| [Mobile-Security-F<br>ramework-MobSF](https://github.com/MobSF/Mobile-Security-Framework-MobSF) | v3.7.6 | Mobile Security Framework (MobSF) is an automated, all-in-one <br>mobile application (Android/iOS/Windows) pen-testing, malware a<br>nalysis and security assessment framework capable of performing<br> static and dynamic analysis. |
 ## 漏洞发现
 ### 漏洞扫描框架
 | 项目名称 | 版本 | 项目描述 |
@@ -1265,7 +1262,7 @@
 ## 主机入侵检测
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
-| [Elkeid](https://github.com/bytedance/Elkeid) | scanner<br>-v2.2.1.<br>1_202308<br>17_test_<br>only | Elkeid is an open source solution that can meet the security r<br>equirements of various workloads such as hosts, containers and <br>K8s, and serverless. It is derived from ByteDance's internal be<br>st practices. |
+| [Elkeid](https://github.com/bytedance/Elkeid) | scanner<br>-v2.2.1.<br>2_202308<br>23_test_<br>only | Elkeid is an open source solution that can meet the security r<br>equirements of various workloads such as hosts, containers and <br>K8s, and serverless. It is derived from ByteDance's internal be<br>st practices. |
 | [Hades](https://github.com/theSecHunter/Hades) |  | Hades is an cross-platform HIDS with kernel-space data collect<br>ion. |
 ## Web应用防火墙
 | 项目名称 | 版本 | 项目描述 |
@@ -1290,7 +1287,7 @@
 ## 远程软件
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
-| [FreeRDP](https://github.com/FreeRDP/FreeRDP) | 2.10.0 | FreeRDP is a free remote desktop protocol library and clients |
+| [FreeRDP](https://github.com/FreeRDP/FreeRDP) | 2.11.0 | FreeRDP is a free remote desktop protocol library and clients |
 | [Quasar](https://github.com/quasar/Quasar) | v1.4.1 | Remote Administration Tool for Windows |
 | [rustdesk](https://github.com/rustdesk/rustdesk) | 1.2.2 | An open-source remote desktop, and alternative to TeamViewer. |
 ## 生成虚假数据
