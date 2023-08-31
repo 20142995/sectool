@@ -200,8 +200,8 @@
     "https://github.com/ycdxsb/PocOrExp_in_Github": {
         "created_at": "2021-04-13 05:46:16",
         "description": "聚合Github上已有的Poc或者Exp，CVE信息来自CVE官网。Auto Collect Poc Or Exp from Github by CVE ID.",
-        "commit_date": "2023-08-29 21:34:05",
-        "commit_message": "update 2023-08-30 05:34:05",
+        "commit_date": "2023-08-30 23:13:12",
+        "commit_message": "update 2023-08-31 07:13:12",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -648,8 +648,8 @@
     "https://github.com/helloexp/0day": {
         "created_at": "2022-04-07 04:28:29",
         "description": "各种CMS、各种平台、各种系统、各种软件漏洞的EXP、POC ,该项目将持续更新",
-        "commit_date": "2023-07-30 15:18:14",
-        "commit_message": "update Metabase CVE-2023-38646 RCE add logging func",
+        "commit_date": "2023-08-30 04:52:26",
+        "commit_message": "add CVE-2023-36899 IIS Identity authentication bypass vulnerability",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -828,8 +828,8 @@
     "https://github.com/murphysecurity/murphysec": {
         "created_at": "2022-03-16 02:52:33",
         "description": "An open source tool focused on software supply chain security. 墨菲安全专注于软件供应链安全，具备专业的软件成分分析（SCA）、漏洞检测、专业漏洞库。",
-        "commit_date": "2023-08-22 06:24:19",
-        "commit_message": "chore(deps): upgrade dependencies...",
+        "commit_date": "2023-08-30 10:05:22",
+        "commit_message": "refactor(python): rewrite requirements parser",
         "release_tag": "v3.1.1",
         "release_date": "2023-05-15 12:52:58",
         "release_message": "Support NPM lockfile v3 "
@@ -1044,8 +1044,8 @@
     "https://github.com/sml2h3/ddddocr": {
         "created_at": "2021-07-14 09:00:06",
         "description": "带带弟弟 通用验证码识别OCR pypi版",
-        "commit_date": "2023-06-12 08:09:49",
-        "commit_message": "Update README.md",
+        "commit_date": "2023-08-30 13:24:01",
+        "commit_message": "修复pillow的版本引用问题",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -1071,8 +1071,8 @@
     "https://github.com/v2rayA/v2rayA": {
         "created_at": "2019-10-18 20:42:06",
         "description": "A web GUI client of Project V which supports V2Ray, Xray, SS, SSR, Trojan and Juicity. 🚀🚀",
-        "commit_date": "2023-08-29 12:17:53",
-        "commit_message": "Merge pull request #1056 from MarksonHon/feat_v5\n\nRestart service after upgrading",
+        "commit_date": "2023-08-30 12:32:31",
+        "commit_message": "fix: plugin (tuic/juicity/ssr/...) with tproxy not work (#1059)",
         "release_tag": "v2.2.1",
         "release_date": "2023-08-21 12:35:40",
         "release_message": "## What's Changed\r\n* fix a bug in /build.sh by @youcancharm in https://github.com/v2rayA/v2rayA/pull/1041\r\n* ci(release_feat_v5): Fix APT repo and AUR by @MarksonHon in https://github.com/v2rayA/v2rayA/pull/1044\r\n* chore(deps): bump webpack from 5.75.0 to 5.88.2 in /gui by @dependabot in https://github.com/v2rayA/v2rayA/pull/1026\r\n\r\n## New Contributors\r\n* @youcancharm made their first contribution in https://github.com/v2rayA/v2rayA/pull/1041\r\n\r\n**Full Changelog**: https://github.com/v2rayA/v2rayA/compare/v2.2.0...v2.2.1"
@@ -1134,11 +1134,11 @@
     "https://github.com/mdp/rotp": {
         "created_at": "2011-02-13 18:20:59",
         "description": "Ruby One Time Password library",
-        "commit_date": "2023-08-24 20:14:53",
-        "commit_message": "Chore: run CI on all pull requests (#130)",
-        "release_tag": "",
-        "release_date": "",
-        "release_message": ""
+        "commit_date": "2023-08-30 19:25:56",
+        "commit_message": "chore: Add the .gem file to release for easier publishing in an MFA world (#133)",
+        "release_tag": "v6.3.0",
+        "release_date": "2023-08-30 18:53:08",
+        "release_message": "## [6.3.0](https://github.com/mdp/rotp/compare/v6.2.2...v6.3.0) (2023-08-30)\n\n\n### Features\n\n* Allow for non-standard provisioning URI params, eg. image/icon ([#91](https://github.com/mdp/rotp/issues/91)) ([45d8aac](https://github.com/mdp/rotp/commit/45d8aac8356424897faf3a0dbda59f88b22df775))"
     },
     "https://github.com/gchq/CyberChef": {
         "created_at": "2016-11-28 10:34:07",
@@ -1422,11 +1422,11 @@
     "https://github.com/pingc0y/URLFinder": {
         "created_at": "2022-06-06 10:17:00",
         "description": "一款快速、全面、易用的页面信息提取工具，可快速发现和提取页面中的JS、URL和敏感信息。",
-        "commit_date": "2023-05-11 07:23:51",
-        "commit_message": "Update README.md\n\n2023/5/11更新",
-        "release_tag": "2023.5.11",
-        "release_date": "2023-05-11 07:00:15",
-        "release_message": "2023/5/11\r\n变化 -i 配置文件可自定义：线程数、抓取深度、敏感路由、超时时间、最大抓取数\r\n新增 -time 设置超时时间\r\n新增 -max 设置最大抓取数\r\n新增 添加版本更新提示\r\n修复 已知bug"
+        "commit_date": "2023-08-30 07:11:14",
+        "commit_message": "2023/8/30更新",
+        "release_tag": "2023.8.30",
+        "release_date": "2023-08-30 07:16:29",
+        "release_message": "2023/8/30\r\n修复 -i 配置请求头错误问题\r\n变化 支持自动识别http/https\r\n变化 -o 输入完整文件名可只导出指定类型\r\n变化 无 -s 参数时，链接改为无颜色方便使用管道符"
     },
     "https://github.com/0x727/ShuiZe_0x727": {
         "created_at": "2021-07-28 11:34:10",
@@ -2221,8 +2221,8 @@
     "https://github.com/Threekiii/Awesome-POC": {
         "created_at": "2022-02-20 06:43:22",
         "description": "一个各类漏洞POC知识库",
-        "commit_date": "2023-08-28 08:53:48",
-        "commit_message": "更新漏洞",
+        "commit_date": "2023-08-30 01:54:42",
+        "commit_message": "更新CHECKLIST",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -2951,8 +2951,8 @@
     "https://github.com/dbeaver/dbeaver": {
         "created_at": "2015-10-21 08:26:28",
         "description": "Free universal database tool and SQL client",
-        "commit_date": "2023-08-29 19:35:44",
-        "commit_message": "CB-3874 reset password on connections reload (#21034)\n\nCo-authored-by: EvgeniaBzzz <139753579+EvgeniaBzzz@users.noreply.github.com>",
+        "commit_date": "2023-08-30 13:22:24",
+        "commit_message": "dbeaver/dbeaver#21040 fix npe (#21041)",
         "release_tag": "23.1.5",
         "release_date": "2023-08-20 19:54:12",
         "release_message": "\n                - Data editor:\n                    - Dictionary viewer panel UI was redesigned\n                    - Spatial data types: curved geometries linearizing was fixed\n                    - Issue was result tab close on data save was resolved\n                    - Column tooltips was fixed\n                    - Charts rendering errors visualization was improved\n                - SQL editor:\n                    - Autocompletion in single-line comments was fixed\n                    - Variable value editor was fixed\n                    - Smart completion for CTE queries (WITH/SELECT) was fixed\n                    - @include command handler was fixed (reuse the console for the same included script)\n                    - INSERT SQL query generation was fixed (identity columns)\n                    - Issue with text search/replace in hidden files was fixed\n                - ERD editor: grid foreground color was fixed\n                - General UI:\n                    - Objects sorting in tables now can be reset to the original ordering\n                    - Network handlers (SSH, SSL, etc) UI was redesigned\n                    - New object creation shortcut was added (Alt+Insert)\n                    - External files opening was fixed on MacOS and Linux\n                    - Command line connection opening was fixed\n                    - User name/password prompt dialog as fixed for SSH tunnels\n                    - Issue with preference pages in Eclipse plugin was resolved\n                - Accessibility:\n                    - JAWS and Narrator support was improved for data editor and vertical tabs\n                    - High contrast theme support was significantly improved\n                - Databases:\n                    - Clickhouse: map and array data types visualization was added\n                    - Greenplum: tables DDL was fixed (for version 7)\n                    - OpenGauss DB: json data types support was added\n                    - PostgreSQL: default native clients (pgsql, pg_dump) version was changed to 15\n                    - Yellowbrick: stored procedures drop query was fixed\n                - Localization:\n                    - Chinese localization was updated (thanks to @bianyun)\n            "
@@ -3219,7 +3219,7 @@
     "https://github.com/Threekiii/Awesome-Redteam": {
         "created_at": "2022-02-08 00:45:03",
         "description": "一个攻防知识仓库",
-        "commit_date": "2023-08-29 07:02:59",
+        "commit_date": "2023-08-30 01:47:19",
         "commit_message": "更新README.md",
         "release_tag": "",
         "release_date": "",
@@ -3890,8 +3890,8 @@
     "https://github.com/neuvector/neuvector": {
         "created_at": "2021-12-17 20:15:03",
         "description": "",
-        "commit_date": "2023-08-29 17:55:18",
-        "commit_message": "Merge pull request #963 from holyspectral/autogen-certs\n\nNVSHAS-8210: use installation-specific key",
+        "commit_date": "2023-08-30 21:44:20",
+        "commit_message": "Merge pull request #970 from jaimeyu-suse/NVSHAS-7990-7925-fixes\n\nNVSHAS 7990 & 7925 - cgroup error log fixes",
         "release_tag": "v5.2.1",
         "release_date": "2023-08-22 23:29:15",
         "release_message": "Features\r\nNVSHAS-7449: Report layered scan result to syslog\r\nNVSHAS-6974: Export NIST compliance report\r\nNVSHAS-8157: Handle Proxy setting in image signature verification\r\nNVSHAS-8034: Include image signature result in the downloaded CVE report\r\nNVSHAS-7483: Pod annotations for Admission Control Policies\r\n\r\nBug fixes\r\nNVSHAS-8200: Do not create default admin with default password in NV fresh deployment for AWS billing offering\r\nNVSHAS-8172: .json file increased size and crashed a kubernetes node\r\nNVSHAS-7963: Improve SQL injection detection logics\r\nNVSHAS-8128: when install helm crd chart first before insatlling core chart, service accounts are missing\r\nNVSHAS-8106: Image scan I.4.1 compliance result is incorrect\r\nNVSHAS-8050: Vulnerability advance filter report showing images from all other namespace"
@@ -3908,8 +3908,8 @@
     "https://github.com/anchore/syft": {
         "created_at": "2020-05-07 18:19:29",
         "description": "CLI tool and library for generating a Software Bill of Materials from container images and filesystems",
-        "commit_date": "2023-08-29 19:52:26",
-        "commit_message": "chore: update CLI to CLIO (#2001)\n\nSigned-off-by: Keith Zantow <kzantow@gmail.com>\r\nSigned-off-by: Alex Goodman <wagoodman@users.noreply.github.com>\r\nCo-authored-by: Alex Goodman <wagoodman@users.noreply.github.com>",
+        "commit_date": "2023-08-30 12:37:50",
+        "commit_message": "fix: don't panic on universal go binaries (#2078)\n\nIf crypto settings or arch cannot be determined, still attempt to catalog packages from\r\nthe build info, rather than panicking.\r\n\r\nSigned-off-by: Will Murphy <will.murphy@anchore.com>",
         "release_tag": "v0.88.0",
         "release_date": "2023-08-25 21:01:23",
         "release_message": "# \n\n## [v0.88.0](https://github.com/anchore/syft/tree/v0.88.0) (2023-08-25)\n\n[Full Changelog](https://github.com/anchore/syft/compare/v0.87.1...v0.88.0)\n\n### Added Features\n\n- Detect golang boring crypto and fipsonly modules [[PR #2021](https://github.com/anchore/syft/pull/2021)] [[bathina2](https://github.com/bathina2)]\n- feat: 1944 - update purl generation to use a consistent groupID [[PR #2033](https://github.com/anchore/syft/pull/2033)] [[spiffcs](https://github.com/spiffcs)]\n- Add support to detect bash binaries [[Issue #1963](https://github.com/anchore/syft/issues/1963)] [[PR #2055](https://github.com/anchore/syft/pull/2055)] [[witchcraze](https://github.com/witchcraze)]\n\n### Bug Fixes\n\n- fix: properly parse conan ref and include user and channel [[PR #2034](https://github.com/anchore/syft/pull/2034)] [[Pro](https://github.com/Pro)]\n- New version notice only showing the version and no text [[PR #2042](https://github.com/anchore/syft/pull/2042)] [[wagoodman](https://github.com/wagoodman)]\n- Fix: don't validate pom declared group [[PR #2054](https://github.com/anchore/syft/pull/2054)] [[willmurphyscode](https://github.com/willmurphyscode)]\n- Errors when handling symlinks on Windows with syft v0.85.0 [[Issue #1950](https://github.com/anchore/syft/issues/1950)] [[PR #2051](https://github.com/anchore/syft/pull/2051)] [[selzoc](https://github.com/selzoc)]\n- Syft seems unable to parse non UTF-8 pom.xml files [[Issue #2044](https://github.com/anchore/syft/issues/2044)] [[PR #2047](https://github.com/anchore/syft/pull/2047)] [[wagoodman](https://github.com/wagoodman)]\n- Error parsing pom.xml with v0.87.1 [[Issue #2060](https://github.com/anchore/syft/issues/2060)] [[PR #2064](https://github.com/anchore/syft/pull/2064)] [[willmurphyscode](https://github.com/willmurphyscode)]\n- Invalid CycloneDX: duplicates in relationships section [[Issue #2062](https://github.com/anchore/syft/issues/2062)] [[PR #2063](https://github.com/anchore/syft/pull/2063)] [[kzantow](https://github.com/kzantow)]\n\n\n\n"
@@ -3917,8 +3917,8 @@
     "https://github.com/chaitin/safeline": {
         "created_at": "2023-04-12 11:30:14",
         "description": "一款足够简单、足够好用、足够强的免费 WAF。基于业界领先的语义引擎检测技术，作为反向代理接入，保护你的网站不受黑客攻击。",
-        "commit_date": "2023-08-29 07:40:41",
-        "commit_message": "增加了网站监控的说明文档",
+        "commit_date": "2023-08-30 10:50:52",
+        "commit_message": "Merge pull request #265 from dundunHa/main\n\nfix: update install doc,faq",
         "release_tag": "v3.1.0",
         "release_date": "2023-08-25 03:15:56",
         "release_message": "### 新增\r\n\r\n- 新增证书管理。自动判断域名与过期状态，配置站点时可以直接选择（[#111](https://github.com/chaitin/SafeLine/issues/111)），还可以修改管理后台的证书（[#201](https://github.com/chaitin/SafeLine/issues/201)）\r\n\r\n- 新增系统信息\r\n\r\n### 优化\r\n\r\n- 修复站点详情全局只支持 250 个资源的问题。现在是每个站点各支持 250 个\r\n- 修复站点详情中，路径太长样式会错位的问题\r\n- 修复站点从维护切换成其他状态时，微信会缓存维护页面的问题（[#221](https://github.com/chaitin/SafeLine/issues/221)）\r\n- 修复手机和平板上不能输入动态口令的问题（[#234](https://github.com/chaitin/SafeLine/issues/234)）\r\n- 优化导航栏和若干 UI 交互细节"
@@ -3971,8 +3971,8 @@
     "https://github.com/aquasecurity/trivy": {
         "created_at": "2019-04-11 01:01:07",
         "description": "Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more",
-        "commit_date": "2023-08-29 12:46:49",
-        "commit_message": "feat(swift): add vulns for cocoapods (#5037)\n\n* add vulns for cocoapods, fix purl\n\n* update docs\n\n* remove go-dep-parser replace\n\n* update purl and test\n\n* bump github.com/DmitriyLewen/trivy-db\n\n* remove replace for trivy-db\n\n* remove added sbom tests\n\n* add test for Package() func\n\n* add wrong epoch test\n\n* refactor docs\n\n* add comment to join the module and submodule in purl\n\n* docs: add an example\n\n---------\n\nCo-authored-by: knqyf263 <knqyf263@gmail.com>",
+        "commit_date": "2023-08-30 20:43:08",
+        "commit_message": "chore(deps): Update defsec to v0.92.0 (#5068)\n\n* chore(deps): Update defsec to v0.92.0\n\n* update tests\n\n* update integration tests",
         "release_tag": "v0.44.1",
         "release_date": "2023-08-10 05:41:12",
         "release_message": "## Changelog\n* f10527998 fix(report): return severity colors in table format (#4969)\n* bc2b0ca6c build: maximize available disk space for release (#4937)\n* 9493c6f08 test(cli): Fix assertion helptext (#4966)\n* b0359de66 chore(deps): Bump defsec to v0.91.1 (#4965)\n* d3a34e409 test: validate CycloneDX with the JSON schema (#4956)\n* 798ef1b64 fix(server): add licenses to the Result message (#4955)\n* e8cf28147 fix(aws): resolve endpoint if endpoint is passed (#4925)\n* f18b0db58 fix(sbom): move licenses to `name` field in Cyclonedx format (#4941)\n* a79670156 add only uniq deps in dependsOn (#4943)\n* b544e0dea use testify instead of gotest.tools (#4946)\n* 067a0fcb9 fix(nodejs): do not detect lock file in node_modules as an app (#4949)\n* e6d7705a5 bump go-dep-parser (#4936)\n* c584dc176 chore(deps): bump github.com/openvex/go-vex from 0.2.0 to 0.2.1 (#4914)\n* 358d56b6b chore(deps): bump helm/kind-action from 1.7.0 to 1.8.0 (#4909)\n* 17f3ea918 chore(deps): bump github.com/Azure/azure-sdk-for-go/sdk/azcore (#4912)\n* 39ccbf7b5 test(aws): move part of unit tests to integration (#4884)\n* 6d3ae3bcf docs(cli): update help string for file and dir skipping (#4872)\n* 7d7a1ef54 chore(deps): bump sigstore/cosign-installer (#4910)\n* fc7495017 chore(deps): bump github.com/sosedoff/gitkit from 0.3.0 to 0.4.0 (#4916)\n* b2a68bc06 chore(deps): bump k8s.io/api from 0.27.3 to 0.27.4 (#4918)\n* e5c0c15b6 chore(deps): bump github.com/secure-systems-lab/go-securesystemslib (#4919)\n* da37803d5 chore(deps): bump github.com/aws/aws-sdk-go-v2/service/sts (#4913)\n* 9744e6498 chore(deps): bump github.com/magefile/mage from 1.14.0 to 1.15.0 (#4915)\n* 99eebc670 docs: update the discussion template (#4928)\n\n"
@@ -4277,7 +4277,7 @@
     "https://github.com/aiboboxx/v2rayfree": {
         "created_at": "2021-10-13 11:34:53",
         "description": "v2ray节点、免费节点、免费v2ray节点、最新公益免费v2ray节点订阅地址、免费v2ray节点每日更新、免费ss/v2ray/trojan节点、freefq ",
-        "commit_date": "2023-08-29 12:35:52",
+        "commit_date": "2023-08-30 12:35:26",
         "commit_message": "update",
         "release_tag": "",
         "release_date": "",
@@ -4322,8 +4322,8 @@
     "https://github.com/freefq/free": {
         "created_at": "2020-06-07 02:48:33",
         "description": "翻墙、免费翻墙、免费科学上网、免费节点、免费梯子、免费ss/v2ray/trojan节点、蓝灯、谷歌商店、翻墙梯子",
-        "commit_date": "2023-08-30 00:00:02",
-        "commit_message": "updated_at 08-30 08:00",
+        "commit_date": "2023-08-31 00:00:02",
+        "commit_message": "updated_at 08-31 08:00",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -4529,8 +4529,8 @@
     "https://github.com/MobSF/Mobile-Security-Framework-MobSF": {
         "created_at": "2015-01-31 04:36:01",
         "description": "Mobile Security Framework (MobSF) is an automated, all-in-one mobile application (Android/iOS/Windows) pen-testing, malware analysis and security assessment framework capable of performing static and dynamic analysis.",
-        "commit_date": "2023-08-28 04:08:29",
-        "commit_message": "[HOTFIX] Migrate from setup.py to poetry, tox QA (#2249)\n\n* Migrate from setup.py to use poetry build and publish\r\n* Tox QA\r\n* Version is now configured only at pyproject.toml\r\n* Added poetry build test\r\n* Updated mobsf PyPI publishing workflow \r\n* Update local DBs",
+        "commit_date": "2023-08-30 07:03:07",
+        "commit_message": "Performance Improvements on SAST (#2251)\n\n* Performance improvements in SAST scans (Code Analysis, API Analysis, NIAP etc.) with libsast bump\r\n* Android API rule QA\r\n* Manifest analysis continuation on apktool failure\r\n* Linux setup script fix\r\n* Disable NIAP by default",
         "release_tag": "v3.7.6",
         "release_date": "2023-08-28 04:57:05",
         "release_message": "### v3.7.6 Beta Changelog\r\n\r\n- Features or Enhancements\r\n   - Docker base image update to Ubuntu 22.04\r\n   - Dockerfile QA\r\n   - Migrated from Pip to Poetry for dependency management\r\n   - Migrate from setup.py to use poetry for build and publish\r\n   - Python 3.11 support\r\n   - Docker ADB connection improvements (host.docker.internal translation for localhost)\r\n   -  IOS Swift RulesUpdates `ios_biometric_bool`, `ios_biometric_acl`, `ios_keychain_weak_acl_device_passcode`, `ios_keychain_weak_accessibility_value`, `ios_insecure_random_no_generator`, `ios_biometry_hardened`\r\n   - Android SCA rules update\r\n   - Entropies scan support for strings\r\n   - Regex Hardening: Fixes possible Regex DoS in rules and MobSF code base\r\n   - Tox QA\r\n   - Added poetry build test\r\n   - Updated mobsf PyPI publishing workflow \r\n   - Update local DBs\r\n   - URLs/Email extraction refactor\r\n   - Static and Dynamic Binary Analysis QA\r\n   - Refactor Dex permissions\r\n   - Refactor Androguard `apk.APK()` usage\r\n   - Fallback certificate analysis using apksigtool\r\n   - Use BeautifulSoup4 to prettify malformed XML\r\n   - Detect non standard XML namespace in AndroidManifest.xml, Fixes : #2198\r\n   - Updated android permissions list\r\n   - Updated android permission update check script\r\n   - Github Actions version update\r\n   - Apktool bump\r\n   - Bump httptools\r\n   - Bump yara-python-dex\r\n   - Docker image build test for PRs\r\n   - iOS Source Report Fix\r\n   - Removed unwanted pinned repository\r\n   - Frida APK Patcher (WIP)\r\n   - Fix for Recent Scans `scan not completed` for iOS zip\r\n   - Fix for MachO stripped symbols false positive\r\n   - Fix bug in IPA download\r\n   - iOS/Android form validation fix\r\n   - Fix missing exported components\r\n - Enterprise Feature Request\r\n      - String extraction from APK, Source, AAR, JAR, SO.\r\n      - Android strings sections to show source of strings extracted\r\n      - Strings extraction refactor\r\n      - Support for independent `.so` scan\r\n      - Dylib analysis support\r\n      - Dylib string extraction\r\n      - Improved iOS Plist secret extraction\r\n      - Support for Independent `.dylib` scan\r\n      - Symbols view for dylib and so\r\n      - Trackers support for so\r\n      - AAR/JAR obfuscation and debug check\r\n      - Independent Static Library(.a) ELF/MachO Analysis\r\n      - Mac FAT binary only supported on Mac\r\n\r\n\r\n  \r\n     \r\n    \r\n  \r\n\r\n## What's Changed\r\n* Update dynamic_analysis.html by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2218\r\n* Hotfix: Handle Docker <-> ADB connectivity internally by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2219\r\n* update apktool to 2.8.1 by @superpoussin22 in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2220\r\n* update apktool by @superpoussin22 in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2225\r\n* HOTFIX: Dynamic Analyzer Support Alert by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2227\r\n* [HOTFIX] Regex + Rule Update by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2232\r\n* [EFR06] Independent Shared Object (.so) Scan and Improved String search by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2228\r\n* Update macho_analysis.py - SYMBOLS STRIPPED False Negative by @Karmaz95 in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2234\r\n* [EFR-08] Dylib + Symbols + Other Features by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2239\r\n* Fix missing exported components by @Abb4d0n in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2176\r\n* [EFR09] AAR/JAR obfuscation and debug check + Exception Handed strings and symbols extraction by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2240\r\n* [EFR10] Independent Static Library(.a) ELF/MachO Analysis by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2242\r\n* Pip to poetry and Dockerfile update by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2244\r\n* Docker Buildx test by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2247\r\n* [HOTFIX] bs4 malformed xml parsing + xml namespace detection by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2248\r\n* [HOTFIX] Migrate from setup.py to poetry, tox QA by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2249\r\n\r\n## New Contributors\r\n* @Karmaz95 made their first contribution in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2234\r\n* @Abb4d0n made their first contribution in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2176\r\n\r\n**Full Changelog**: https://github.com/MobSF/Mobile-Security-Framework-MobSF/compare/v3.6.9...v3.7.6"
@@ -5004,8 +5004,8 @@
     "https://github.com/rustdesk/rustdesk": {
         "created_at": "2020-09-28 15:36:08",
         "description": "An open-source remote desktop, and alternative to TeamViewer.",
-        "commit_date": "2023-08-28 02:48:13",
-        "commit_message": "Merge pull request #5528 from fufesou/refact/remove_virtual_display_tmp\n\nremove virtual display",
+        "commit_date": "2023-08-30 12:58:47",
+        "commit_message": "Merge pull request #5554 from 21pages/elevate\n\nclose elevation request dialog on submit",
         "release_tag": "1.2.2",
         "release_date": "2023-08-22 01:44:36",
         "release_message": "\r\n![image](https://github.com/rustdesk/rustdesk/assets/71636191/b444deab-7971-4de7-b315-6a9b4974c7ea)\r\n\r\n> Winget, FDroid, Apple Sillicon, Google Play / App Store update will come soon.\r\n\r\nx86-64: [Windows](https://github.com/rustdesk/rustdesk/releases/download/1.2.2/rustdesk-1.2.2-x86_64.exe) | [Ubuntu](https://github.com/rustdesk/rustdesk/releases/download/1.2.2/rustdesk-1.2.2-x86_64.deb) | [Mac](https://github.com/rustdesk/rustdesk/releases/download/1.2.2/rustdesk-1.2.2-x86_64.dmg)\r\nAArch64 (ARM64):  [Ubuntu](https://github.com/rustdesk/rustdesk/releases/download/1.2.2/rustdesk-1.2.2-aarch64.deb) | [Android](https://github.com/rustdesk/rustdesk/releases/download/1.2.2/rustdesk-1.2.2-aarch64-signed.apk) | [Mac](https://github.com/rustdesk/rustdesk/releases/download/1.2.2/rustdesk-1.2.2-aarch64.dmg)\r\n\r\nMore: [check below please](#)\r\n\r\n<details>\r\n<summary>Changelog</summary>\r\n\r\n- Add separate window mode (tab window by default), https://github.com/rustdesk/rustdesk/discussions/2889\r\n![image](https://github.com/rustdesk/rustdesk/assets/71636191/0c73bc6a-8659-4a67-9425-47625a6aded3)\r\n- Fix and improve responsiveness issue introduced in 1.2.0. https://github.com/rustdesk/rustdesk/discussions/5231\r\n- Add device list batch handle\r\n![image](https://github.com/rustdesk/rustdesk/assets/71636191/0ca85b8e-bed3-48ad-a43f-82df983986f3)\r\n- Add command to assign user and strategy for [RustDesk Server Pro](https://rustdesk.com/docs/en/self-host/pro/)\r\n- Optimize address book, syncing password, alias name, device name etc, add tag color, improve error and update status handling\r\n![image](https://github.com/rustdesk/rustdesk/assets/71636191/21d7a226-b863-4dc2-a9d3-fb6cd3a56c5c)\r\n- Fix windows file copy/paste\r\n- Fix \"waiting for image...\" still shown after receiving image bug, refactored rust->flutter message handling https://github.com/rustdesk/rustdesk/issues/4533\r\n- Improve some touchpad support, https://github.com/rustdesk/rustdesk/pull/5049\r\n- Bug fixes.\r\n\r\n</details>\r\n"
@@ -5148,8 +5148,8 @@
     "https://github.com/FreeRDP/FreeRDP": {
         "created_at": "2011-06-30 19:14:15",
         "description": "FreeRDP is a free remote desktop protocol library and clients",
-        "commit_date": "2023-08-28 12:26:10",
-        "commit_message": "[codec,yuv] check rectangles for validity\n\nthe decoder needs to check bounds for supplied rectangles for both,\ninput and output buffers.",
+        "commit_date": "2023-08-30 09:12:09",
+        "commit_message": "[codec,planar] fix reset",
         "release_tag": "2.11.0",
         "release_date": "2023-08-28 12:37:38",
         "release_message": "Noteworthy changes:\r\n* Various input validation fixes\r\n* Added various CMake options #9317\r\n* LibreSSL build fixes #8709\r\n\r\nFixed issues:\r\n* Backported #9233: Big endian support\r\n* Backported #9099: Mouse grabbing support\r\n* Backported #6851: wayland scrolling fix\r\n* Backported #8690: Update h264 to use new FFMPEG API\r\n* Backported #7306: early bail from update_read_window_state_order breaks protocol\r\n* Backported #8903: rdpecam/server: Remove wrong assertion\r\n* Backported #8994: bounds checks for gdi/gfx rectangles\r\n* Backported #9023: enforce rdpdr client side state checks\r\n* Backported #6331: deactivate mouse grabbing by default\r\n* Cherry-pick out of #9172: channels/cliprdr: Fix writing incorrect PDU type for unlock PDUs"
@@ -5263,8 +5263,8 @@
     "https://github.com/alibaba/arthas": {
         "created_at": "2018-08-29 17:15:57",
         "description": "Alibaba Java Diagnostic Tool Arthas/Alibaba Java诊断利器Arthas",
-        "commit_date": "2023-08-24 12:10:09",
-        "commit_message": "Prettified Code!",
+        "commit_date": "2023-08-30 07:08:43",
+        "commit_message": "fix: update platform name in Arthas tutorials (#2641)",
         "release_tag": "arthas-all-3.7.1",
         "release_date": "2023-08-24 12:32:49",
         "release_message": "Issues: https://github.com/alibaba/arthas/milestone/49?closed=1\r\n\r\n* #2620 当 listen 0.0.0.0 时，默认生成随机密码，需要鉴权\r\n\r\n* #2633  修复在线教程，切换到 killercoda feat: update online tutorials, switch to killercoda "
