@@ -1,10 +1,12 @@
-# 更新于 2023-09-01 08:37:45
+# 更新于 2023-09-02 08:32:22
 
 ## 近15天release更新记录
 | 更新时间 | 项目名称 | 版本 | 更新内容 |
 | :---- | :---- | :---- | :---- |
+|2023-09-01 06:38:35|[trivy](https://github.com/aquasecurity/trivy)|v0.45.0|## ⚡Release highlights and summary⚡<br>    👉 https://github.com/aquasecurity<br>/trivy/discussions/5082    ## Changelo<br>g  * cdab67e7f docs: add Bitnami (#507<br>8)  * 7acc5e831 feat(docker): add supp<br>ort for scanning Bitnami components (#<br>5062)  * 9628b1cbf feat: add support f<br>or .trivyignore.yaml (#5070)  * 4547e2<br>766 fix(terraform): improve detection <br>of terraform files (#4984)  * 0c8919e1<br>e feat: filter artifacts on --exclude-<br>owned flag (#5059)  * c04f234fa fix(sb<br>om): cyclonedx advisory should omit nu<br>ll value (#5041)  * f811ed2d4 build: m<br>aximize build space for build tests (#<br>5072)  * 69ea5bf70 feat: improve kbom <br>component name (#5058)  * 3715dcb3f fi<br>x(pom): add licenses for pom artifacts<br> (#5071)  * 07f7e9853 chore(deps): Upd<br>ate defsec to v0.92.0 (#5068)  * d4ca3<br>cce2 chore: bump Go to 1.20 (#5067)  *<br> 49fdd584b feat: PURL matching with qu<br>alifiers in OpenVEX (#5061)  * 4401998<br>ec feat(java): add graph support for p<br>om.xml (#4902)  * 9c211d005 feat(swift<br>): add vulns for cocoapods (#5037)  * <br>422fa414e fix: support image pull secr<br>et for additional workloads (#5052)  *<br> 8e933860a fix: #5033 Superfluous doub<br>le quote in html.tpl (#5036)  * 9345a9<br>8ed docs(repo): update trivy repo usag<br>e and example (#5049)  * 5d8da70c6 per<br>f: Optimize Dockerfile for reduced lay<br>ers and size (#5038)  * 1be9da7aa feat<br>: scan K8s Resources Kind with --all-n<br>amespaces (#5043)  * 0e17d0bef fix: vu<br>lnerability typo (#5044)  * d70fab231 <br>docs: adding a terraform tutorial to t<br>he docs (#3708)  * 2fa264ac1 feat(repo<br>rt): add licenses to sarif format (#48<br>66)  * 07ddf4790 feat(misconf): show t<br>he resource name in the report (#4806)<br>  * 9de360623 chore: update alpine bas<br>e images (#5015)  * ef70d2076 feat: ad<br>d Package.resolved swift files support<br> (#4932)  * ec5d8bec0 feat(nodejs): pa<br>rse licenses in yarn projects (#4652) <br> * 3114c87e6 fix: k8s private registri<br>es support (#5021)  * 6d79f55db bump g<br>ithub.com/testcontainers/testcontainer<br>s-go from 0.21.0 to 0.23.0 (#5018)  * <br>9ace59106 feat(vuln): support last_aff<br>ected field from osv (#4944)  * d44217<br>640 feat(server): add version endpoint<br> (#4869)  * 63cd41d20 feat: k8s privat<br>e registries support (#4987)  * cb16e2<br>3f1 fix(server): add indirect prop to <br>package (#4974)  * a4e981b4e docs: add<br> coverage (#4954)  * 6f03c7940 feat(c)<br>: add location for lock file dependenc<br>ies. (#4994)  * c74870500 docs: adding<br> blog post on ec2 (#4813)  * 4e1316c37<br> revert 32bit bins (#4977)  * fc959fc5<br>7 chore(deps): bump github.com/xlab/tr<br>eeprint from 1.1.0 to 1.2.0 (#4917)   <br> |
 |2023-08-31 16:50:30|[grype](https://github.com/anchore/grype)|v0.66.0|#     ##  (2023-08-31)        ### Add<br>ed Features    - Allow for access to p<br>rivate CAs securely ] ] ]  - Filter ou<br>t packages that are owned by OS packag<br>es (ownership overlap) ] ] ]    ### Bu<br>g Fixes    - fix: Only remove packages<br> by binary overlap ] ]  - New version <br>notice only showing the version and no<br> text ] ]  - fix: set correct default <br>to exclude overlapping binaries ] ]  -<br> Portage version comparison is not wor<br>king ] ] ]    ### Additional Changes  <br>  - Update Syft to 0.89.0      |
 |2023-08-31 15:42:19|[syft](https://github.com/anchore/syft)|v0.89.0|#     ##  (2023-08-31)        ### Add<br>ed Features    - Add registry certific<br>ate verification support  ] ]  - Add S<br>YFT_CONFIG environment variable for co<br>nfiguration file path ] ] ]    ### Bug<br> Fixes    - Fix quiet flag ] ]  - Comm<br>and line flags not overriding configur<br>ation file values ] ] ]  - Django pack<br>age CPE is not correct ] ] ]  - Config<br> parsing includes config.yaml in worki<br>ng dir ] ] ]  - Fix a possible panic o<br>n universal go binaries ] ] ]  - Disab<br>ling catalogers is not working in powe<br>r user command ] ] ]  - Virtual path c<br>hanges to java cataloger causing creat<br>ion of extra incorrect packages when j<br>ars are renamed ] ] ]      |
+|2023-08-31 15:39:59|[v2rayA](https://github.com/v2rayA/v2rayA)|v2.2.2|## What's Changed  * aur: fix v2raya-<br>bin scrinfo by @MarksonHon in https://<br>github.com/v2rayA/v2rayA/pull/1045  * <br>Restart service after upgrading by @Ma<br>rksonHon in https://github.com/v2rayA/<br>v2rayA/pull/1056  * fix: plugin (tuic/<br>juicity/ssr/...) with tproxy not work <br>by @mzz2017 in https://github.com/v2ra<br>yA/v2rayA/pull/1059  * fix: port occup<br>ation when latency test by @mzz2017 in<br> https://github.com/v2rayA/v2rayA/pull<br>/1058      **Full Changelog**: https:/<br>/github.com/v2rayA/v2rayA/compare/v2.2<br>.1...v2.2.2|
 |2023-08-31 13:11:08|[Elkeid](https://github.com/bytedance/Elkeid)|v1.7.0.<br>13-drive<br>r-ko-202<br>30831||
 |2023-08-31 11:03:51|[safeline](https://github.com/chaitin/safeline)|v3.2.0|#### 新增    - 证书管理支持上传 PKCS1<br>、PKCS8、ECC 私钥格式的证书（）  - 站点<br>详情新增近 30 天请求数，支持批量删除   <br> #### 优化    - 优化站点详情页面，提高<br>加载速度、优化界面样式和逻辑  - 限频的<br>生效阈值由 “超过 xx 次” 改为 “达到 x<br>x 次”（）  - 修复频率限制所拦截的请求<br>，没有被计入站点列表的 “今日访问/拦截<br>量” 的问题  - 修复证书管理的证书有时候<br>无法正常删除的问题（）  - 修复证书管理<br>中，有时候一个证书内会解析出几个重复的<br>域名的问题  - 去掉对 docker 的 seccomp <br>特性的依赖（）  - 优化大量界面样式、交<br>互和操作提示细节|
 |2023-08-31 08:41:49|[Viper](https://github.com/FunnyWolf/Viper)|2023083<br>1|  ### 优化  - 清除不需要的日志,提高系<br>统运行速度  - 优化docker logs日志,存储<br>到日志目录便于问题定位  - docker health<br>check当前检查所有后台服务    ### Bugfi<br>x  - fix https://github.com/FunnyWolf/<br>Viper/issues/117  - fix https://github<br>.com/FunnyWolf/Viper/issues/145|
@@ -26,7 +28,6 @@
 |2023-08-22 23:29:15|[neuvector](https://github.com/neuvector/neuvector)|v5.2.1|Features  NVSHAS-7449: Report layered<br> scan result to syslog  NVSHAS-6974: E<br>xport NIST compliance report  NVSHAS-8<br>157: Handle Proxy setting in image sig<br>nature verification  NVSHAS-8034: Incl<br>ude image signature result in the down<br>loaded CVE report  NVSHAS-7483: Pod an<br>notations for Admission Control Polici<br>es    Bug fixes  NVSHAS-8200: Do not c<br>reate default admin with default passw<br>ord in NV fresh deployment for AWS bil<br>ling offering  NVSHAS-8172: .json file<br> increased size and crashed a kubernet<br>es node  NVSHAS-7963: Improve SQL inje<br>ction detection logics  NVSHAS-8128: w<br>hen install helm crd chart first befor<br>e insatlling core chart, service accou<br>nts are missing  NVSHAS-8106: Image sc<br>an I.4.1 compliance result is incorrec<br>t  NVSHAS-8050: Vulnerability advance <br>filter report showing images from all <br>other namespace|
 |2023-08-22 01:44:36|[rustdesk](https://github.com/rustdesk/rustdesk)|1.2.2|      > Winget, FDroid, Apple Sillico<br>n, Google Play / App Store update will<br> come soon.    x86-64:  |  |   AArch64<br> (ARM64):   |  |     More:       Chang<br>elog    - Add separate window mode (ta<br>b window by default), https://github.c<br>om/rustdesk/rustdesk/discussions/2889 <br>   - Fix and improve responsiveness is<br>sue introduced in 1.2.0. https://githu<br>b.com/rustdesk/rustdesk/discussions/52<br>31  - Add device list batch handle    <br>- Add command to assign user and strat<br>egy for   - Optimize address book, syn<br>cing password, alias name, device name<br> etc, add tag color, improve error and<br> update status handling    - Fix windo<br>ws file copy/paste  - Fix "waiting for<br> image..." still shown after receiving<br> image bug, refactored rust->flutter m<br>essage handling https://github.com/rus<br>tdesk/rustdesk/issues/4533  - Improve <br>some touchpad support, https://github.<br>com/rustdesk/rustdesk/pull/5049  - Bug<br> fixes.      |
 |2023-08-21 13:13:00|[ObserverWard](https://github.com/0x727/ObserverWard)|v2023.8<br>.21|## [2023.8.21] - 2023.8.21  ### Fixes<br>  - 修复webhook判断 - 添加webhook_auth<br>字段用来标识任务，还可以作为webhook的认<br>证 - 添加从API读取多个目标支持targets字<br>段|
-|2023-08-21 12:35:40|[v2rayA](https://github.com/v2rayA/v2rayA)|v2.2.1|## What's Changed  * fix a bug in /bu<br>ild.sh by @youcancharm in https://gith<br>ub.com/v2rayA/v2rayA/pull/1041  * ci(r<br>elease_feat_v5): Fix APT repo and AUR <br>by @MarksonHon in https://github.com/v<br>2rayA/v2rayA/pull/1044  * chore(deps):<br> bump webpack from 5.75.0 to 5.88.2 in<br> /gui by @dependabot in https://github<br>.com/v2rayA/v2rayA/pull/1026    ## New<br> Contributors  * @youcancharm made the<br>ir first contribution in https://githu<br>b.com/v2rayA/v2rayA/pull/1041    **Ful<br>l Changelog**: https://github.com/v2ra<br>yA/v2rayA/compare/v2.2.0...v2.2.1|
 |2023-08-21 12:25:57|[gshark](https://github.com/madneal/gshark)|v1.2.1|## Fixed  * 修复数据库初始化错误  * <br>依赖包安全升级|
 |2023-08-21 09:25:39|[goproxy](https://github.com/snail007/goproxy)|v13.8|1、修复内网穿透server端，UDP gc可能报<br>错端问题。|
 |2023-08-21 03:14:36|[OA-EXPTOOL](https://github.com/LittleBear4/OA-EXPTOOL)|0.83||
@@ -37,38 +38,41 @@
 ## 近15天commit提交记录
 | 提交时间 | 项目名称 | 更新内容 |
 | :---- | :---- | :---- |
-|2023-09-01 00:00:02|[free](https://github.com/freefq/free)|updated_at 09-01 08:00|
+|2023-09-02 00:00:03|[free](https://github.com/freefq/free)|updated_at 09-02 08:00|
+|2023-09-01 23:15:24|[PocOrExp_in_Githu<br>b](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-09-02 07:15:24|
+|2023-09-01 18:42:12|[trivy](https://github.com/aquasecurity/trivy)|chore(deps): bump actions/checkout from 3.5.3 to 3.<br>6.0 (#5106)  Bumps  from 3.5.3 to 3.6.0. -  -  -   -<br>-- updated-dependencies: - dependency-name: actions/<br>checkout   dependency-type: direct:production   upda<br>te-type: version-update:semver-minor ...  Signed-off<br>-by: dependabot[bot]  Co-authored-by: dependabot[bot<br>] |
+|2023-09-01 16:13:26|[neuvector](https://github.com/neuvector/neuvector)|Merge pull request #982 from becitsthere/dev  NVSHA<br>S-8181: cleanup cgroup path logic|
+|2023-09-01 14:06:59|[dperf](https://github.com/baidu/dperf)|Merge pull request #368 from pengjianzhang/main  mo<br>ve docs to dperf.org|
+|2023-09-01 13:28:37|[v2rayA](https://github.com/v2rayA/v2rayA)|aur: remove notice of systemd service|
+|2023-09-01 12:34:58|[v2rayfree](https://github.com/aiboboxx/v2rayfree)|update|
+|2023-09-01 11:00:54|[veinmind-tools](https://github.com/chaitin/veinmind-tools)|docs: update report manual (#266)|
+|2023-09-01 10:19:41|[Elkeid](https://github.com/bytedance/Elkeid)|Merge pull request #529 from yoloyyh/main|
+|2023-09-01 09:18:02|[murphysec](https://github.com/murphysecurity/murphysec)|feat: add fake command machine-id|
+|2023-09-01 07:34:07|[ObserverWard](https://github.com/0x727/ObserverWard)|Merge pull request #195 from 0x727/dependabot/cargo<br>/actix-web-4.4.0  Bump actix-web from 4.3.1 to 4.4.0|
+|2023-09-01 06:10:01|[vulnerability](https://github.com/lal0ne/vulnerability)|CVE-2023-4596|
+|2023-09-01 04:59:09|[Mobile-Security-F<br>ramework-MobSF](https://github.com/MobSF/Mobile-Security-Framework-MobSF)|[HOTFIX] add jar (#2255)  * Add apksigner jar|
 |2023-08-31 20:57:55|[syft](https://github.com/anchore/syft)|fix: correct group IDs for commons-codec, okhttp, o<br>kio, and add integration tests for Java PURL generat<br>ion (#2075)  Add overall integration test for java P<br>URL detection.    Signed-off-by: Will Murphy |
-|2023-08-31 20:18:05|[trivy](https://github.com/aquasecurity/trivy)|feat(docker): add support for scanning Bitnami comp<br>onents (#5062)  * feat(bitnami): add support for sca<br>nning Bitnami components  Signed-off-by: juan131   *<br> chore(deps): bump packageurl-go  TypeBitnami is not<br> included in v0.1.1  * feat(spdx): handle orphan pac<br>kages  * fix: update Elastic SPDX  Signed-off-by: ju<br>an131   * Update pkg/fanal/analyzer/sbom/sbom.go  Co<br>-authored-by: DmitriyLewen   * fix: remove useless e<br>lse  Signed-off-by: juan131   * call AnalysisResult.<br>Sort()  Signed-off-by: knqyf263   * delete app packa<br>ges  Signed-off-by: knqyf263   * fix: set the compon<br>ent path to packages  Signed-off-by: knqyf263   * do<br>cs: add a comment about continue  Signed-off-by: knq<br>yf263   * chore: bump trivy-db  Signed-off-by: knqyf<br>263   * docs: add Bitnami  Signed-off-by: knqyf263  <br> ---------  Signed-off-by: juan131  Signed-off-by: k<br>nqyf263  Co-authored-by: knqyf263  Co-authored-by: D<br>mitriyLewen |
 |2023-08-31 16:15:04|[faker](https://github.com/joke2k/faker)|Add schemes and deep argument to uri method|
 |2023-08-31 16:02:11|[grype](https://github.com/anchore/grype)|chore(deps): update Syft to v0.89.0 (#1472)  Signed<br>-off-by: GitHub   Co-authored-by: wagoodman |
-|2023-08-31 15:36:08|[v2rayA](https://github.com/v2rayA/v2rayA)|fix: port occupation when latency test (#1058)|
 |2023-08-31 12:40:57|[dbeaver](https://github.com/dbeaver/dbeaver)|#20916 Add commandId to the widget data of the prog<br>ress page control's toolbar item (#20980)|
-|2023-08-31 12:35:42|[v2rayfree](https://github.com/aiboboxx/v2rayfree)|update|
 |2023-08-31 10:44:05|[safeline](https://github.com/chaitin/safeline)|Merge pull request #270 from dundunHa/main  feat: r<br>elease v3.2.0|
 |2023-08-31 10:27:06|[FreeRDP](https://github.com/FreeRDP/FreeRDP)|[version] start 3.0.0-dev4 cycle|
 |2023-08-31 10:22:11|[sqlmap](https://github.com/sqlmapproject/sqlmap)|Update for #5508|
 |2023-08-31 08:41:02|[Viper](https://github.com/FunnyWolf/Viper)|update version 2023-08-31|
 |2023-08-31 06:41:55|[afrog](https://github.com/zan8in/afrog)|update|
-|2023-08-31 04:45:54|[Elkeid](https://github.com/bytedance/Elkeid)|FIXME: building issue on OpenSUSE 42.1 (4.1.12.1)  <br>caused by backporting of trace_fs and trace_seq, now<br> check header structures dynamically rather than ker<br>nel versions  Signed-off-by: shenping.matt |
-|2023-08-31 04:03:08|[PocOrExp_in_Githu<br>b](https://github.com/ycdxsb/PocOrExp_in_Github)|update Today.md|
 |2023-08-31 03:42:15|[MockingBird](https://github.com/babysor/MockingBird)|Merge pull request #953 from babysor/babysor-patch-<br>3  Update README.md|
 |2023-08-31 03:16:20|[frp](https://github.com/fatedier/frp)|remove arch 386 (#3593)|
 |2023-08-31 01:49:58|[rustdesk](https://github.com/rustdesk/rustdesk)|Merge pull request #5557 from 21pages/fix  fix ios <br>build|
 |2023-08-31 01:18:18|[ChatGPT-Shortcut](https://github.com/rockbenben/ChatGPT-Shortcut)|docs: update docs|
-|2023-08-30 21:44:20|[neuvector](https://github.com/neuvector/neuvector)|Merge pull request #970 from jaimeyu-suse/NVSHAS-79<br>90-7925-fixes  NVSHAS 7990 & 7925 - cgroup error log<br> fixes|
 |2023-08-30 19:25:56|[rotp](https://github.com/mdp/rotp)|chore: Add the .gem file to release for easier publ<br>ishing in an MFA world (#133)|
 |2023-08-30 13:24:01|[ddddocr](https://github.com/sml2h3/ddddocr)|修复pillow的版本引用问题|
-|2023-08-30 10:05:22|[murphysec](https://github.com/murphysecurity/murphysec)|refactor(python): rewrite requirements parser|
 |2023-08-30 07:11:14|[URLFinder](https://github.com/pingc0y/URLFinder)|2023/8/30更新|
 |2023-08-30 07:08:43|[arthas](https://github.com/alibaba/arthas)|fix: update platform name in Arthas tutorials (#264<br>1)|
-|2023-08-30 07:03:07|[Mobile-Security-F<br>ramework-MobSF](https://github.com/MobSF/Mobile-Security-Framework-MobSF)|Performance Improvements on SAST (#2251)  * Perform<br>ance improvements in SAST scans (Code Analysis, API <br>Analysis, NIAP etc.) with libsast bump  * Android AP<br>I rule QA  * Manifest analysis continuation on apkto<br>ol failure  * Linux setup script fix  * Disable NIAP<br> by default|
 |2023-08-30 04:52:26|[0day](https://github.com/helloexp/0day)|add CVE-2023-36899 IIS Identity authentication bypa<br>ss vulnerability|
 |2023-08-30 01:54:42|[Awesome-POC](https://github.com/Threekiii/Awesome-POC)|更新CHECKLIST|
 |2023-08-30 01:47:19|[Awesome-Redteam](https://github.com/Threekiii/Awesome-Redteam)|更新README.md|
 |2023-08-29 15:14:11|[mubeng](https://github.com/kitabisa/mubeng)|build(deps): bump github.com/sourcegraph/conc from <br>0.2.0 to 0.3.0 (#187)  Bumps  from 0.2.0 to 0.3.0.  <br>-   -     ---  updated-dependencies:  - dependency-n<br>ame: github.com/sourcegraph/conc    dependency-type:<br> direct:production    update-type: version-update:se<br>mver-minor  ...    Signed-off-by: dependabot[bot]   <br>Co-authored-by: dependabot[bot] |
 |2023-08-29 06:09:32|[Vuln-List](https://github.com/wwl012345/Vuln-List)|Update 终端软件漏洞合集.md|
-|2023-08-29 03:06:02|[vulnerability](https://github.com/lal0ne/vulnerability)|CVE-2023-4542|
 |2023-08-28 09:28:41|[semgrepper](https://github.com/gand3lf/semgrepper)|Merge pull request #9 from tghosth/clarify-running <br> Update README.md with tutorial|
 |2023-08-28 08:55:05|[Vulnerability-Wik<br>i](https://github.com/Threekiii/Vulnerability-Wiki)|更新漏洞|
 |2023-08-28 07:56:06|[Vulhub-Reproduce](https://github.com/Threekiii/Vulhub-Reproduce)|更新漏洞|
@@ -97,7 +101,6 @@
 |2023-08-22 10:45:48|[kscan](https://github.com/lcvvvv/kscan)|Update README.md|
 |2023-08-22 06:54:25|[domain_hunter_pro](https://github.com/bit4woo/domain_hunter_pro)|update|
 |2023-08-22 00:23:38|[nemo_go](https://github.com/hanc00l/nemo_go)|Merge pull request #120 from sh3d0ww01f/sh3d0ww01f-<br>patch-1  Update quake.go|
-|2023-08-21 13:13:54|[ObserverWard](https://github.com/0x727/ObserverWard)|添加从API读取多个目标支持字段|
 |2023-08-21 12:24:24|[gshark](https://github.com/madneal/gshark)|modify struct|
 |2023-08-20 06:06:08|[HackReport](https://github.com/awake1t/HackReport)|2023-08-20 14:06:08|
 |2023-08-20 05:06:09|[superSearchPlus](https://github.com/dark-kingA/superSearchPlus)|更新 兼容最新谷歌浏览器|
@@ -105,9 +108,7 @@
 |2023-08-19 08:36:56|[naabu](https://github.com/projectdiscovery/naabu)|Merge branch 'dev'|
 |2023-08-19 05:14:59|[all-in-one-v2](https://github.com/zaivanza/all-in-one-v2)|add tracks|
 |2023-08-18 13:06:29|[zksync2-python](https://github.com/zksync-sdk/zksync2-python)|docs: add changelog|
-|2023-08-18 08:47:41|[vulhub](https://github.com/vulhub/vulhub)|simplify the exploit of MeterSphere plugin RCE|
-|2023-08-17 12:40:16|[Venom-Transponder](https://github.com/z-bool/Venom-Transponder)|push|
-|2023-08-17 06:24:22|[impacket](https://github.com/fortra/impacket)|Merge pull request #1550 from Adamkadaban/master  A<br>dded query information level 0x0109 for smb1 "SMB_QU<br>ERY_FILE_STREAM_INFO"|## 所有项目
+|2023-08-18 08:47:41|[vulhub](https://github.com/vulhub/vulhub)|simplify the exploit of MeterSphere plugin RCE|## 所有项目
 # 渗透测试
 ## 信息收集
 ### 资产测绘采集
@@ -347,7 +348,7 @@
 #### 容器安全扫描
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
-| [trivy](https://github.com/aquasecurity/trivy) | v0.44.1 | Find vulnerabilities, misconfigurations, secrets, SBOM in cont<br>ainers, Kubernetes, code repositories, clouds and more |
+| [trivy](https://github.com/aquasecurity/trivy) | v0.45.0 | Find vulnerabilities, misconfigurations, secrets, SBOM in cont<br>ainers, Kubernetes, code repositories, clouds and more |
 #### 容器镜像扫描
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
@@ -1328,7 +1329,7 @@
 ## 科学上网
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
-| [v2rayA](https://github.com/v2rayA/v2rayA) | v2.2.1 | A web GUI client of Project V which supports VMess, VLESS, SS,<br> SSR, Trojan, Tuic and Juicity protocols. 🚀 |
+| [v2rayA](https://github.com/v2rayA/v2rayA) | v2.2.2 | A web GUI client of Project V which supports VMess, VLESS, SS,<br> SSR, Trojan, Tuic and Juicity protocols. 🚀 |
 | [free](https://github.com/freefq/free) |  | 翻墙、免费翻墙、免费科学上网、免费节点、免费梯子、免费ss/v2ray<br>/trojan节点、蓝灯、谷歌商店、翻墙梯子 |
 | [v2rayfree](https://github.com/aiboboxx/v2rayfree) |  | v2ray节点、免费节点、免费v2ray节点、最新公益免费v2ray节点订阅<br>地址、免费v2ray节点每日更新、免费ss/v2ray/trojan节点、freefq  |
 ## python笔记
