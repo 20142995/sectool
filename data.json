@@ -200,8 +200,8 @@
     "https://github.com/ycdxsb/PocOrExp_in_Github": {
         "created_at": "2021-04-13 05:46:16",
         "description": "聚合Github上已有的Poc或者Exp，CVE信息来自CVE官网。Auto Collect Poc Or Exp from Github by CVE ID.",
-        "commit_date": "2023-09-01 23:15:24",
-        "commit_message": "update 2023-09-02 07:15:24",
+        "commit_date": "2023-09-02 23:17:56",
+        "commit_message": "update 2023-09-03 07:17:56",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -1071,8 +1071,8 @@
     "https://github.com/v2rayA/v2rayA": {
         "created_at": "2019-10-18 20:42:06",
         "description": "A web GUI client of Project V which supports VMess, VLESS, SS, SSR, Trojan, Tuic and Juicity protocols. 🚀",
-        "commit_date": "2023-09-01 13:28:37",
-        "commit_message": "aur: remove notice of systemd service",
+        "commit_date": "2023-09-02 11:35:21",
+        "commit_message": "fix(ntp): assume network error as no error",
         "release_tag": "v2.2.2",
         "release_date": "2023-08-31 15:39:59",
         "release_message": "## What's Changed\r\n* aur: fix v2raya-bin scrinfo by @MarksonHon in https://github.com/v2rayA/v2rayA/pull/1045\r\n* Restart service after upgrading by @MarksonHon in https://github.com/v2rayA/v2rayA/pull/1056\r\n* fix: plugin (tuic/juicity/ssr/...) with tproxy not work by @mzz2017 in https://github.com/v2rayA/v2rayA/pull/1059\r\n* fix: port occupation when latency test by @mzz2017 in https://github.com/v2rayA/v2rayA/pull/1058\r\n\r\n\r\n**Full Changelog**: https://github.com/v2rayA/v2rayA/compare/v2.2.1...v2.2.2"
@@ -1422,11 +1422,11 @@
     "https://github.com/pingc0y/URLFinder": {
         "created_at": "2022-06-06 10:17:00",
         "description": "一款快速、全面、易用的页面信息提取工具，可快速发现和提取页面中的JS、URL和敏感信息。",
-        "commit_date": "2023-08-30 07:11:14",
-        "commit_message": "2023/8/30更新",
-        "release_tag": "2023.8.30",
-        "release_date": "2023-08-30 07:16:29",
-        "release_message": "2023/8/30\r\n修复 -i 配置请求头错误问题\r\n变化 支持自动识别http/https\r\n变化 -o 输入完整文件名可只导出指定类型\r\n变化 无 -s 参数时，链接改为无颜色方便使用管道符"
+        "commit_date": "2023-09-02 05:17:50",
+        "commit_message": "2023/9/2更新",
+        "release_tag": "2023.9.2",
+        "release_date": "2023-09-02 05:18:52",
+        "release_message": "2023/9/2  \r\n修复 子目录定位bug  "
     },
     "https://github.com/0x727/ShuiZe_0x727": {
         "created_at": "2021-07-28 11:34:10",
@@ -3050,7 +3050,7 @@
     "https://github.com/zan8in/afrog": {
         "created_at": "2022-02-24 06:00:32",
         "description": "A Security Tool for Bug Bounty, Pentest and Red Teaming.",
-        "commit_date": "2023-08-31 06:41:55",
+        "commit_date": "2023-09-02 09:59:43",
         "commit_message": "update",
         "release_tag": "v2.7.9",
         "release_date": "2023-08-20 10:19:21",
@@ -3262,11 +3262,11 @@
     "https://github.com/F6JO/RouteVulScan": {
         "created_at": "2022-06-01 07:07:38",
         "description": "Burpsuite - Route Vulnerable Scanning 递归式被动检测脆弱路径的burp插件",
-        "commit_date": "2023-08-08 14:56:38",
-        "commit_message": "update rule",
+        "commit_date": "2023-09-02 14:00:29",
+        "commit_message": "Update Small problem",
         "release_tag": "RouteVulScan1.5",
         "release_date": "2023-05-09 09:57:25",
-        "release_message": "2023-05-09 将默认扫描子域和根域改为可开关\r\n2023-05-09 将匹配的state状态码改为可以设置范围\r\n2023-05-09 添加类似模板语言的标记，可在Config中配置标记获取当前请求的各类信息并当作路径或正则"
+        "release_message": "2023-05-09 将默认扫描子域和根域改为可开关\r\n2023-05-09 将匹配的state状态码改为可以设置范围\r\n2023-05-09 添加类似模板语言的标记，可在Config中配置标记获取当前请求的各类信息并当作路径或正则\r\n2023-09-02 将内存中记录的已请求的完整路径改为一个目录，减少大量内存占用"
     },
     "https://github.com/komomon/Komo": {
         "created_at": "2022-09-27 07:23:05",
@@ -4277,7 +4277,7 @@
     "https://github.com/aiboboxx/v2rayfree": {
         "created_at": "2021-10-13 11:34:53",
         "description": "v2ray节点、免费节点、免费v2ray节点、最新公益免费v2ray节点订阅地址、免费v2ray节点每日更新、免费ss/v2ray/trojan节点、freefq ",
-        "commit_date": "2023-09-01 12:34:58",
+        "commit_date": "2023-09-02 12:31:36",
         "commit_message": "update",
         "release_tag": "",
         "release_date": "",
@@ -4322,8 +4322,8 @@
     "https://github.com/freefq/free": {
         "created_at": "2020-06-07 02:48:33",
         "description": "翻墙、免费翻墙、免费科学上网、免费节点、免费梯子、免费ss/v2ray/trojan节点、蓝灯、谷歌商店、翻墙梯子",
-        "commit_date": "2023-09-02 00:00:03",
-        "commit_message": "updated_at 09-02 08:00",
+        "commit_date": "2023-09-03 00:00:03",
+        "commit_message": "updated_at 09-03 08:00",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -4592,8 +4592,8 @@
     "https://github.com/yzfly/awesome-chatgpt-zh": {
         "created_at": "2023-03-21 02:16:34",
         "description": "ChatGPT 中文指南🔥，ChatGPT 中文调教指南，指令指南，应用开发指南，精选资源清单，更好的使用 chatGPT 让你的生产力 up up up! 🚀",
-        "commit_date": "2023-08-26 15:08:43",
-        "commit_message": "update contact",
+        "commit_date": "2023-09-02 15:38:22",
+        "commit_message": "add codellama, llms",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -5004,8 +5004,8 @@
     "https://github.com/rustdesk/rustdesk": {
         "created_at": "2020-09-28 15:36:08",
         "description": "An open-source remote desktop, and alternative to TeamViewer.",
-        "commit_date": "2023-08-31 01:49:58",
-        "commit_message": "Merge pull request #5557 from 21pages/fix\n\nfix ios build",
+        "commit_date": "2023-09-02 16:16:08",
+        "commit_message": "Merge branch 'ios_1.2.2'",
         "release_tag": "1.2.2",
         "release_date": "2023-08-22 01:44:36",
         "release_message": "\r\n![image](https://github.com/rustdesk/rustdesk/assets/71636191/b444deab-7971-4de7-b315-6a9b4974c7ea)\r\n\r\n> Winget, FDroid, Apple Sillicon, Google Play / App Store update will come soon.\r\n\r\nx86-64: [Windows](https://github.com/rustdesk/rustdesk/releases/download/1.2.2/rustdesk-1.2.2-x86_64.exe) | [Ubuntu](https://github.com/rustdesk/rustdesk/releases/download/1.2.2/rustdesk-1.2.2-x86_64.deb) | [Mac](https://github.com/rustdesk/rustdesk/releases/download/1.2.2/rustdesk-1.2.2-x86_64.dmg)\r\nAArch64 (ARM64):  [Ubuntu](https://github.com/rustdesk/rustdesk/releases/download/1.2.2/rustdesk-1.2.2-aarch64.deb) | [Android](https://github.com/rustdesk/rustdesk/releases/download/1.2.2/rustdesk-1.2.2-aarch64-signed.apk) | [Mac](https://github.com/rustdesk/rustdesk/releases/download/1.2.2/rustdesk-1.2.2-aarch64.dmg)\r\n\r\nMore: [check below please](#)\r\n\r\n<details>\r\n<summary>Changelog</summary>\r\n\r\n- Add separate window mode (tab window by default), https://github.com/rustdesk/rustdesk/discussions/2889\r\n![image](https://github.com/rustdesk/rustdesk/assets/71636191/0c73bc6a-8659-4a67-9425-47625a6aded3)\r\n- Fix and improve responsiveness issue introduced in 1.2.0. https://github.com/rustdesk/rustdesk/discussions/5231\r\n- Add device list batch handle\r\n![image](https://github.com/rustdesk/rustdesk/assets/71636191/0ca85b8e-bed3-48ad-a43f-82df983986f3)\r\n- Add command to assign user and strategy for [RustDesk Server Pro](https://rustdesk.com/docs/en/self-host/pro/)\r\n- Optimize address book, syncing password, alias name, device name etc, add tag color, improve error and update status handling\r\n![image](https://github.com/rustdesk/rustdesk/assets/71636191/21d7a226-b863-4dc2-a9d3-fb6cd3a56c5c)\r\n- Fix windows file copy/paste\r\n- Fix \"waiting for image...\" still shown after receiving image bug, refactored rust->flutter message handling https://github.com/rustdesk/rustdesk/issues/4533\r\n- Improve some touchpad support, https://github.com/rustdesk/rustdesk/pull/5049\r\n- Bug fixes.\r\n\r\n</details>\r\n"
@@ -5049,7 +5049,7 @@
     "https://github.com/decoymini/DecoyMini": {
         "created_at": "2021-07-23 06:31:52",
         "description": "🐝 A highly scalable, safe, free enterprise honeypots 一款高可扩展、安全、免费的企业级蜜罐系统",
-        "commit_date": "2023-08-27 03:18:25",
+        "commit_date": "2023-09-02 23:11:37",
         "commit_message": "Update README.md",
         "release_tag": "v2.0.6691",
         "release_date": "2023-01-03 10:27:42",
@@ -5148,8 +5148,8 @@
     "https://github.com/FreeRDP/FreeRDP": {
         "created_at": "2011-06-30 19:14:15",
         "description": "FreeRDP is a free remote desktop protocol library and clients",
-        "commit_date": "2023-08-31 10:27:06",
-        "commit_message": "[version] start 3.0.0-dev4 cycle",
+        "commit_date": "2023-09-02 05:56:21",
+        "commit_message": "[core,info] fix rdp_read_info_string\n\n* Use proper freerdp_set_string* functions to set string\n* In case of failure clean up existing string values",
         "release_tag": "2.11.0",
         "release_date": "2023-08-28 12:37:38",
         "release_message": "Noteworthy changes:\r\n* Various input validation fixes\r\n* Added various CMake options #9317\r\n* LibreSSL build fixes #8709\r\n\r\nFixed issues:\r\n* Backported #9233: Big endian support\r\n* Backported #9099: Mouse grabbing support\r\n* Backported #6851: wayland scrolling fix\r\n* Backported #8690: Update h264 to use new FFMPEG API\r\n* Backported #7306: early bail from update_read_window_state_order breaks protocol\r\n* Backported #8903: rdpecam/server: Remove wrong assertion\r\n* Backported #8994: bounds checks for gdi/gfx rectangles\r\n* Backported #9023: enforce rdpdr client side state checks\r\n* Backported #6331: deactivate mouse grabbing by default\r\n* Cherry-pick out of #9172: channels/cliprdr: Fix writing incorrect PDU type for unlock PDUs"
