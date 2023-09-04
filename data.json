@@ -200,8 +200,8 @@
     "https://github.com/ycdxsb/PocOrExp_in_Github": {
         "created_at": "2021-04-13 05:46:16",
         "description": "聚合Github上已有的Poc或者Exp，CVE信息来自CVE官网。Auto Collect Poc Or Exp from Github by CVE ID.",
-        "commit_date": "2023-09-02 23:17:56",
-        "commit_message": "update 2023-09-03 07:17:56",
+        "commit_date": "2023-09-03 21:38:27",
+        "commit_message": "update 2023-09-04 05:38:27",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -1017,7 +1017,7 @@
     "https://github.com/wecooperate/iDefender": {
         "created_at": "2021-11-24 11:38:28",
         "description": "iDefender（冰盾 - 终端主动防御系统）",
-        "commit_date": "2023-08-25 16:26:19",
+        "commit_date": "2023-09-03 03:26:17",
         "commit_message": "update",
         "release_tag": "2.9.0",
         "release_date": "2023-07-19 02:37:26",
@@ -1071,11 +1071,11 @@
     "https://github.com/v2rayA/v2rayA": {
         "created_at": "2019-10-18 20:42:06",
         "description": "A web GUI client of Project V which supports VMess, VLESS, SS, SSR, Trojan, Tuic and Juicity protocols. 🚀",
-        "commit_date": "2023-09-02 11:35:21",
-        "commit_message": "fix(ntp): assume network error as no error",
-        "release_tag": "v2.2.2",
-        "release_date": "2023-08-31 15:39:59",
-        "release_message": "## What's Changed\r\n* aur: fix v2raya-bin scrinfo by @MarksonHon in https://github.com/v2rayA/v2rayA/pull/1045\r\n* Restart service after upgrading by @MarksonHon in https://github.com/v2rayA/v2rayA/pull/1056\r\n* fix: plugin (tuic/juicity/ssr/...) with tproxy not work by @mzz2017 in https://github.com/v2rayA/v2rayA/pull/1059\r\n* fix: port occupation when latency test by @mzz2017 in https://github.com/v2rayA/v2rayA/pull/1058\r\n\r\n\r\n**Full Changelog**: https://github.com/v2rayA/v2rayA/compare/v2.2.1...v2.2.2"
+        "commit_date": "2023-09-03 12:24:13",
+        "commit_message": "fix: building",
+        "release_tag": "v2.2.3",
+        "release_date": "2023-09-03 06:11:01",
+        "release_message": "Fix some problems.\r\n\r\n1. Juicity/Tuic cannot work.\r\n2. Incorrect value showing of allow_insecure for Juicity/Tuic.\r\n3. Cannot automatically keep running after reboot.\r\n\r\n**Full Changelog**: https://github.com/v2rayA/v2rayA/compare/v2.2.2...v2.2.3"
     },
     "https://github.com/silentsignal/burp-text4shell": {
         "created_at": "2022-10-18 15:07:57",
@@ -2953,9 +2953,9 @@
         "description": "Free universal database tool and SQL client",
         "commit_date": "2023-08-31 12:40:57",
         "commit_message": "#20916 Add commandId to the widget data of the progress page control's toolbar item (#20980)",
-        "release_tag": "23.1.5",
-        "release_date": "2023-08-20 19:54:12",
-        "release_message": "\n                - Data editor:\n                    - Dictionary viewer panel UI was redesigned\n                    - Spatial data types: curved geometries linearizing was fixed\n                    - Issue was result tab close on data save was resolved\n                    - Column tooltips was fixed\n                    - Charts rendering errors visualization was improved\n                - SQL editor:\n                    - Autocompletion in single-line comments was fixed\n                    - Variable value editor was fixed\n                    - Smart completion for CTE queries (WITH/SELECT) was fixed\n                    - @include command handler was fixed (reuse the console for the same included script)\n                    - INSERT SQL query generation was fixed (identity columns)\n                    - Issue with text search/replace in hidden files was fixed\n                - ERD editor: grid foreground color was fixed\n                - General UI:\n                    - Objects sorting in tables now can be reset to the original ordering\n                    - Network handlers (SSH, SSL, etc) UI was redesigned\n                    - New object creation shortcut was added (Alt+Insert)\n                    - External files opening was fixed on MacOS and Linux\n                    - Command line connection opening was fixed\n                    - User name/password prompt dialog as fixed for SSH tunnels\n                    - Issue with preference pages in Eclipse plugin was resolved\n                - Accessibility:\n                    - JAWS and Narrator support was improved for data editor and vertical tabs\n                    - High contrast theme support was significantly improved\n                - Databases:\n                    - Clickhouse: map and array data types visualization was added\n                    - Greenplum: tables DDL was fixed (for version 7)\n                    - OpenGauss DB: json data types support was added\n                    - PostgreSQL: default native clients (pgsql, pg_dump) version was changed to 15\n                    - Yellowbrick: stored procedures drop query was fixed\n                - Localization:\n                    - Chinese localization was updated (thanks to @bianyun)\n            "
+        "release_tag": "23.2.0",
+        "release_date": "2023-09-03 16:21:48",
+        "release_message": "\n            - Changes since 23.1.5:\n                - Data Editor:\n                    - Spatial values rendering was fixed\n                    - Spatial images capture was fixed\n                    - Special characters rendering was improved\n                    - Grouping panel icons were improved\n                - ER Diagrams: saved diagrams now can be opened on another computers\n                - Data transfer: import settings handling was improved\n                - Accessibility:\n                    - Connection dialog now supports screen readers\n                    - Cell value reading was improved\n                    - Ctrl+Shift/Alt+PageDn: vertical tabs switch\n                    - Ctrl+ALT+6: SQL editor and results tab switch\n                    - Ctrl+Shift+Enter now opens ER diagram entities\n                    - Ctrl+Shift+N: new connection dialog open\n                - Database drivers:\n                    - Bigquery: DDL for tables, views and stored procedures was added\n                    - Clickhouse: arrays and structures visualization was fixed\n                    - Greenplum: external tables reading was fixed\n                    - Teradata: issue with the missing templates was fixed\n                - Many minor UI and database issues were resolved\n            "
     },
     "https://github.com/zema1/yarx": {
         "created_at": "2021-11-11 09:43:21",
@@ -3050,11 +3050,11 @@
     "https://github.com/zan8in/afrog": {
         "created_at": "2022-02-24 06:00:32",
         "description": "A Security Tool for Bug Bounty, Pentest and Red Teaming.",
-        "commit_date": "2023-09-02 09:59:43",
+        "commit_date": "2023-09-03 08:59:16",
         "commit_message": "update",
-        "release_tag": "v2.7.9",
-        "release_date": "2023-08-20 10:19:21",
-        "release_message": "- Resolved the issue of console output content being escaped #76.\r\n- The issue of incorrect version when using the `go install ..afrog/v2` command has been resolved.\r\n- Added 24 new PoCs, totaling 1105 PoCs.\r\n\r\n----------------\r\n\r\n- 解决 console 输出内容被转义问题 #76 \r\n- 解决了使用 `go install ..afrog/v2` 命令时版本不正确的问题。\r\n- 新增 24 PoC，共 1105 个 PoC"
+        "release_tag": "v2.8.0",
+        "release_date": "2023-09-03 09:29:04",
+        "release_message": "**Add**\r\n- Added PoC for backup file detection\r\n- Customize global cookies and will not overwrite the cookies of the original POC\r\n\r\n**Optimization**\r\n- afrog API has been synchronized with the latest features\r\n\r\n**新增**\r\n- 新增备份文件检测的 PoC\r\n- 自定义全局 cookie，不会覆盖原 POC 的 cookie\r\n- 新增一批 HVV2023 PoCs\r\n\r\n**优化**\r\n- afrog API 已同步最新功能"
     },
     "https://github.com/moonD4rk/HackBrowserData": {
         "created_at": "2020-06-18 03:24:31",
@@ -3262,11 +3262,11 @@
     "https://github.com/F6JO/RouteVulScan": {
         "created_at": "2022-06-01 07:07:38",
         "description": "Burpsuite - Route Vulnerable Scanning 递归式被动检测脆弱路径的burp插件",
-        "commit_date": "2023-09-02 14:00:29",
-        "commit_message": "Update Small problem",
+        "commit_date": "2023-09-03 14:15:59",
+        "commit_message": "Update threads.java",
         "release_tag": "RouteVulScan1.5",
         "release_date": "2023-05-09 09:57:25",
-        "release_message": "2023-05-09 将默认扫描子域和根域改为可开关\r\n2023-05-09 将匹配的state状态码改为可以设置范围\r\n2023-05-09 添加类似模板语言的标记，可在Config中配置标记获取当前请求的各类信息并当作路径或正则\r\n2023-09-02 将内存中记录的已请求的完整路径改为一个目录，减少大量内存占用"
+        "release_message": "2023-05-09 将默认扫描子域和根域改为可开关\r\n2023-05-09 将匹配的state状态码改为可以设置范围\r\n2023-05-09 添加类似模板语言的标记，可在Config中配置标记获取当前请求的各类信息并当作路径或正则\r\n2023-09-02 将内存中记录的已请求的完整路径改为一个目录，减少大量内存占用\r\n2023-09-03 修复请求为空时，报Response cannot be null的bug"
     },
     "https://github.com/komomon/Komo": {
         "created_at": "2022-09-27 07:23:05",
@@ -3703,8 +3703,8 @@
         "description": "PEASS - Privilege Escalation Awesome Scripts SUITE (with colors)",
         "commit_date": "2023-08-24 17:48:31",
         "commit_message": "Update ProcessInfo.cs",
-        "release_tag": "20230827-2ed3749a",
-        "release_date": "2023-08-27 04:28:53",
+        "release_tag": "20230903-188479ae",
+        "release_date": "2023-09-03 04:30:00",
         "release_message": ""
     },
     "https://github.com/waderwu/attackRmi": {
@@ -4277,7 +4277,7 @@
     "https://github.com/aiboboxx/v2rayfree": {
         "created_at": "2021-10-13 11:34:53",
         "description": "v2ray节点、免费节点、免费v2ray节点、最新公益免费v2ray节点订阅地址、免费v2ray节点每日更新、免费ss/v2ray/trojan节点、freefq ",
-        "commit_date": "2023-09-02 12:31:36",
+        "commit_date": "2023-09-03 12:32:18",
         "commit_message": "update",
         "release_tag": "",
         "release_date": "",
@@ -4322,8 +4322,8 @@
     "https://github.com/freefq/free": {
         "created_at": "2020-06-07 02:48:33",
         "description": "翻墙、免费翻墙、免费科学上网、免费节点、免费梯子、免费ss/v2ray/trojan节点、蓝灯、谷歌商店、翻墙梯子",
-        "commit_date": "2023-09-03 00:00:03",
-        "commit_message": "updated_at 09-03 08:00",
+        "commit_date": "2023-09-04 00:00:02",
+        "commit_message": "updated_at 09-04 08:00",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -5004,8 +5004,8 @@
     "https://github.com/rustdesk/rustdesk": {
         "created_at": "2020-09-28 15:36:08",
         "description": "An open-source remote desktop, and alternative to TeamViewer.",
-        "commit_date": "2023-09-02 16:16:08",
-        "commit_message": "Merge branch 'ios_1.2.2'",
+        "commit_date": "2023-09-03 14:31:54",
+        "commit_message": "Merge pull request #5593 from dignow/fix/remove_dup_maximized_state\n\nRemove dup maximized state",
         "release_tag": "1.2.2",
         "release_date": "2023-08-22 01:44:36",
         "release_message": "\r\n![image](https://github.com/rustdesk/rustdesk/assets/71636191/b444deab-7971-4de7-b315-6a9b4974c7ea)\r\n\r\n> Winget, FDroid, Apple Sillicon, Google Play / App Store update will come soon.\r\n\r\nx86-64: [Windows](https://github.com/rustdesk/rustdesk/releases/download/1.2.2/rustdesk-1.2.2-x86_64.exe) | [Ubuntu](https://github.com/rustdesk/rustdesk/releases/download/1.2.2/rustdesk-1.2.2-x86_64.deb) | [Mac](https://github.com/rustdesk/rustdesk/releases/download/1.2.2/rustdesk-1.2.2-x86_64.dmg)\r\nAArch64 (ARM64):  [Ubuntu](https://github.com/rustdesk/rustdesk/releases/download/1.2.2/rustdesk-1.2.2-aarch64.deb) | [Android](https://github.com/rustdesk/rustdesk/releases/download/1.2.2/rustdesk-1.2.2-aarch64-signed.apk) | [Mac](https://github.com/rustdesk/rustdesk/releases/download/1.2.2/rustdesk-1.2.2-aarch64.dmg)\r\n\r\nMore: [check below please](#)\r\n\r\n<details>\r\n<summary>Changelog</summary>\r\n\r\n- Add separate window mode (tab window by default), https://github.com/rustdesk/rustdesk/discussions/2889\r\n![image](https://github.com/rustdesk/rustdesk/assets/71636191/0c73bc6a-8659-4a67-9425-47625a6aded3)\r\n- Fix and improve responsiveness issue introduced in 1.2.0. https://github.com/rustdesk/rustdesk/discussions/5231\r\n- Add device list batch handle\r\n![image](https://github.com/rustdesk/rustdesk/assets/71636191/0ca85b8e-bed3-48ad-a43f-82df983986f3)\r\n- Add command to assign user and strategy for [RustDesk Server Pro](https://rustdesk.com/docs/en/self-host/pro/)\r\n- Optimize address book, syncing password, alias name, device name etc, add tag color, improve error and update status handling\r\n![image](https://github.com/rustdesk/rustdesk/assets/71636191/21d7a226-b863-4dc2-a9d3-fb6cd3a56c5c)\r\n- Fix windows file copy/paste\r\n- Fix \"waiting for image...\" still shown after receiving image bug, refactored rust->flutter message handling https://github.com/rustdesk/rustdesk/issues/4533\r\n- Improve some touchpad support, https://github.com/rustdesk/rustdesk/pull/5049\r\n- Bug fixes.\r\n\r\n</details>\r\n"
