@@ -200,8 +200,8 @@
     "https://github.com/ycdxsb/PocOrExp_in_Github": {
         "created_at": "2021-04-13 05:46:16",
         "description": "聚合Github上已有的Poc或者Exp，CVE信息来自CVE官网。Auto Collect Poc Or Exp from Github by CVE ID.",
-        "commit_date": "2023-09-05 23:17:16",
-        "commit_message": "update 2023-09-06 07:17:16",
+        "commit_date": "2023-09-06 23:21:12",
+        "commit_message": "update 2023-09-07 07:21:12",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -380,8 +380,8 @@
     "https://github.com/lal0ne/vulnerability": {
         "created_at": "2022-01-20 02:48:42",
         "description": "收集、整理、修改互联网上公开的漏洞POC",
-        "commit_date": "2023-09-04 09:08:48",
-        "commit_message": "CVE-2023-34039",
+        "commit_date": "2023-09-06 07:33:21",
+        "commit_message": "CVE-2023-28434",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -648,8 +648,8 @@
     "https://github.com/helloexp/0day": {
         "created_at": "2022-04-07 04:28:29",
         "description": "各种CMS、各种平台、各种系统、各种软件漏洞的EXP、POC ,该项目将持续更新",
-        "commit_date": "2023-08-30 04:52:26",
-        "commit_message": "add CVE-2023-36899 IIS Identity authentication bypass vulnerability",
+        "commit_date": "2023-09-06 09:32:18",
+        "commit_message": "add CVE-2021-4034 polkit privilege escalation exploit",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -828,8 +828,8 @@
     "https://github.com/murphysecurity/murphysec": {
         "created_at": "2022-03-16 02:52:33",
         "description": "An open source tool focused on software supply chain security. 墨菲安全专注于软件供应链安全，具备专业的软件成分分析（SCA）、漏洞检测、专业漏洞库。",
-        "commit_date": "2023-09-04 12:54:26",
-        "commit_message": "feat(cmd): sbom scan",
+        "commit_date": "2023-09-06 15:42:01",
+        "commit_message": "feat(env): DO_NOT_BUILD",
         "release_tag": "v3.1.1",
         "release_date": "2023-05-15 12:52:58",
         "release_message": "Support NPM lockfile v3 "
@@ -1017,7 +1017,7 @@
     "https://github.com/wecooperate/iDefender": {
         "created_at": "2021-11-24 11:38:28",
         "description": "iDefender（冰盾 - 终端主动防御系统）",
-        "commit_date": "2023-09-03 03:26:17",
+        "commit_date": "2023-09-06 13:59:16",
         "commit_message": "update",
         "release_tag": "2.9.0",
         "release_date": "2023-07-19 02:37:26",
@@ -1071,8 +1071,8 @@
     "https://github.com/v2rayA/v2rayA": {
         "created_at": "2019-10-18 20:42:06",
         "description": "A web GUI client of Project V which supports VMess, VLESS, SS, SSR, Trojan, Tuic and Juicity protocols. 🚀",
-        "commit_date": "2023-09-05 12:06:23",
-        "commit_message": "Merge pull request #1079 from MarksonHon/feat_v5\n\nFix Windows installers' blank version string",
+        "commit_date": "2023-09-06 07:16:01",
+        "commit_message": "Merge pull request #1081 from MarksonHon/feat_v5\n\nci(release_feat_v5): some changes",
         "release_tag": "v2.2.4",
         "release_date": "2023-09-05 13:23:34",
         "release_message": "## What's Changed\n* Fix Windows installers' blank version string by @MarksonHon in https://github.com/v2rayA/v2rayA/pull/1079\n\n\n**Full Changelog**: https://github.com/v2rayA/v2rayA/compare/v2.2.3...v2.2.4"
@@ -2951,8 +2951,8 @@
     "https://github.com/dbeaver/dbeaver": {
         "created_at": "2015-10-21 08:26:28",
         "description": "Free universal database tool and SQL client",
-        "commit_date": "2023-09-05 07:34:22",
-        "commit_message": "dbeaver/pro#1912 Snowflake driver upgrade to 3.13.25 (#21105)\n\n* dbeaver/pro#1912 Snowflake driver upgrade to 3.13.25\r\n\r\n* dbeaver/pro#1912 Snowflake driver upgrade to 3.13.30",
+        "commit_date": "2023-09-06 12:03:39",
+        "commit_message": "#21114 Handle cases with null key value (#21118)",
         "release_tag": "23.2.0",
         "release_date": "2023-09-04 12:23:06",
         "release_message": "\n            - Changes since 23.1.5:\n                - Data Editor:\n                    - Spatial values rendering was fixed\n                    - Spatial images capture was fixed\n                    - Special characters rendering was improved\n                    - Grouping panel icons were improved\n                - ER Diagrams: saved diagrams now can be opened on another computers\n                - Data transfer: import settings handling was improved\n                - Accessibility:\n                    - Connection dialog now supports screen readers\n                    - Cell value reading was improved\n                    - Ctrl+Shift/Alt+PageDn: vertical tabs switch\n                    - Ctrl+ALT+6: SQL editor and results tab switch\n                    - Ctrl+Shift+Enter now opens ER diagram entities\n                    - Ctrl+Shift+N: new connection dialog open\n                - Database drivers:\n                    - Bigquery: DDL for tables, views and stored procedures was added\n                    - Clickhouse: arrays and structures visualization was fixed\n                    - Greenplum: external tables reading was fixed\n                    - Teradata: issue with the missing templates was fixed\n                - Many minor UI and database issues were resolved\n            "
@@ -3050,7 +3050,7 @@
     "https://github.com/zan8in/afrog": {
         "created_at": "2022-02-24 06:00:32",
         "description": "A Security Tool for Bug Bounty, Pentest and Red Teaming.",
-        "commit_date": "2023-09-05 14:11:18",
+        "commit_date": "2023-09-06 00:52:01",
         "commit_message": "update",
         "release_tag": "v2.8.0",
         "release_date": "2023-09-03 09:29:04",
@@ -3890,8 +3890,8 @@
     "https://github.com/neuvector/neuvector": {
         "created_at": "2021-12-17 20:15:03",
         "description": "",
-        "commit_date": "2023-09-05 19:53:49",
-        "commit_message": "Merge pull request #989 from jayhuang-suse/six\n\nNVSHAS-7728: NeuVector should provide container image build date in Assets -> Container details",
+        "commit_date": "2023-09-06 20:09:04",
+        "commit_message": "Merge pull request #994 from becitsthere/dev\n\nNVSHAS-8241: Add description to vul log",
         "release_tag": "v5.2.1",
         "release_date": "2023-08-22 23:29:15",
         "release_message": "Features\r\nNVSHAS-7449: Report layered scan result to syslog\r\nNVSHAS-6974: Export NIST compliance report\r\nNVSHAS-8157: Handle Proxy setting in image signature verification\r\nNVSHAS-8034: Include image signature result in the downloaded CVE report\r\nNVSHAS-7483: Pod annotations for Admission Control Policies\r\n\r\nBug fixes\r\nNVSHAS-8200: Do not create default admin with default password in NV fresh deployment for AWS billing offering\r\nNVSHAS-8172: .json file increased size and crashed a kubernetes node\r\nNVSHAS-7963: Improve SQL injection detection logics\r\nNVSHAS-8128: when install helm crd chart first before insatlling core chart, service accounts are missing\r\nNVSHAS-8106: Image scan I.4.1 compliance result is incorrect\r\nNVSHAS-8050: Vulnerability advance filter report showing images from all other namespace"
@@ -3908,8 +3908,8 @@
     "https://github.com/anchore/syft": {
         "created_at": "2020-05-07 18:19:29",
         "description": "CLI tool and library for generating a Software Bill of Materials from container images and filesystems",
-        "commit_date": "2023-09-05 14:39:51",
-        "commit_message": "fix(cdx): validate external refs before encoding (#2091)\n\nSigned-off-by: hainenber <dotronghai96@gmail.com>",
+        "commit_date": "2023-09-06 15:43:01",
+        "commit_message": "feat(cmd/update): add UA header with current ver when check for update (#2100)\n\nSigned-off-by: hainenber <dotronghai96@gmail.com>",
         "release_tag": "v0.89.0",
         "release_date": "2023-08-31 15:42:19",
         "release_message": "# \r\n\r\n## [v0.89.0](https://github.com/anchore/syft/tree/v0.89.0) (2023-08-31)\r\n\r\n[Full Changelog](https://github.com/anchore/syft/compare/v0.88.0...v0.89.0)\r\n\r\n### Added Features\r\n\r\n- Add registry certificate verification support  [[PR #1734](https://github.com/anchore/syft/pull/1734)] [[5p2O5pe25ouT](https://github.com/5p2O5pe25ouT)]\r\n- Add SYFT_CONFIG environment variable for configuration file path [[Issue #1986](https://github.com/anchore/syft/issues/1986)] [[PR #2001](https://github.com/anchore/syft/pull/2001)] [[kzantow](https://github.com/kzantow)]\r\n\r\n### Bug Fixes\r\n\r\n- Fix quiet flag [[PR #2081](https://github.com/anchore/syft/pull/2081)] [[wagoodman](https://github.com/wagoodman)]\r\n- Command line flags not overriding configuration file values [[Issue #1143](https://github.com/anchore/syft/issues/1143)] [[PR #2001](https://github.com/anchore/syft/pull/2001)] [[kzantow](https://github.com/kzantow)]\r\n- Django package CPE is not correct [[Issue #1298](https://github.com/anchore/syft/issues/1298)] [[PR #2068](https://github.com/anchore/syft/pull/2068)] [[witchcraze](https://github.com/witchcraze)]\r\n- Config parsing includes `config.yaml` in working dir [[Issue #1634](https://github.com/anchore/syft/issues/1634)] [[PR #2001](https://github.com/anchore/syft/pull/2001)] [[kzantow](https://github.com/kzantow)]\r\n- Fix a possible panic on universal go binaries [[Issue #2073](https://github.com/anchore/syft/issues/2073)] [[PR #2078](https://github.com/anchore/syft/pull/2078)] [[willmurphyscode](https://github.com/willmurphyscode)]\r\n- Disabling catalogers is not working in power user command [[Issue #2074](https://github.com/anchore/syft/issues/2074)] [[PR #2001](https://github.com/anchore/syft/pull/2001)] [[kzantow](https://github.com/kzantow)]\r\n- Virtual path changes to java cataloger causing creation of extra incorrect packages when jars are renamed [[Issue #2077](https://github.com/anchore/syft/issues/2077)] [[PR #2080](https://github.com/anchore/syft/pull/2080)] [[willmurphyscode](https://github.com/willmurphyscode)]\r\n\r\n\r\n"
@@ -3971,8 +3971,8 @@
     "https://github.com/aquasecurity/trivy": {
         "created_at": "2019-04-11 01:01:07",
         "description": "Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more",
-        "commit_date": "2023-09-05 20:55:25",
-        "commit_message": "chaging adopters discussion tempalte (#5091)\n\nSigned-off-by: AnaisUrlichs <urlichsanais@gmail.com>",
+        "commit_date": "2023-09-06 11:09:44",
+        "commit_message": "chore(deps): bump github.com/aws/aws-sdk-go from 1.44.273 to 1.45.3 (#5126)\n\nBumps [github.com/aws/aws-sdk-go](https://github.com/aws/aws-sdk-go) from 1.44.273 to 1.45.3.\n- [Release notes](https://github.com/aws/aws-sdk-go/releases)\n- [Commits](https://github.com/aws/aws-sdk-go/compare/v1.44.273...v1.45.3)\n\n---\nupdated-dependencies:\n- dependency-name: github.com/aws/aws-sdk-go\n  dependency-type: direct:production\n  update-type: version-update:semver-minor\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
         "release_tag": "v0.45.0",
         "release_date": "2023-09-01 06:38:35",
         "release_message": "## ⚡Release highlights and summary⚡\r\n\r\n👉 https://github.com/aquasecurity/trivy/discussions/5082\r\n\r\n## Changelog\r\n* cdab67e7f docs: add Bitnami (#5078)\r\n* 7acc5e831 feat(docker): add support for scanning Bitnami components (#5062)\r\n* 9628b1cbf feat: add support for .trivyignore.yaml (#5070)\r\n* 4547e2766 fix(terraform): improve detection of terraform files (#4984)\r\n* 0c8919e1e feat: filter artifacts on --exclude-owned flag (#5059)\r\n* c04f234fa fix(sbom): cyclonedx advisory should omit `null` value (#5041)\r\n* f811ed2d4 build: maximize build space for build tests (#5072)\r\n* 69ea5bf70 feat: improve kbom component name (#5058)\r\n* 3715dcb3f fix(pom): add licenses for pom artifacts (#5071)\r\n* 07f7e9853 chore(deps): Update defsec to v0.92.0 (#5068)\r\n* d4ca3cce2 chore: bump Go to `1.20` (#5067)\r\n* 49fdd584b feat: PURL matching with qualifiers in OpenVEX (#5061)\r\n* 4401998ec feat(java): add graph support for pom.xml (#4902)\r\n* 9c211d005 feat(swift): add vulns for cocoapods (#5037)\r\n* 422fa414e fix: support image pull secret for additional workloads (#5052)\r\n* 8e933860a fix: #5033 Superfluous double quote in html.tpl (#5036)\r\n* 9345a98ed docs(repo): update trivy repo usage and example (#5049)\r\n* 5d8da70c6 perf: Optimize Dockerfile for reduced layers and size (#5038)\r\n* 1be9da7aa feat: scan K8s Resources Kind with --all-namespaces (#5043)\r\n* 0e17d0bef fix: vulnerability typo (#5044)\r\n* d70fab231 docs: adding a terraform tutorial to the docs (#3708)\r\n* 2fa264ac1 feat(report): add licenses to sarif format (#4866)\r\n* 07ddf4790 feat(misconf): show the resource name in the report (#4806)\r\n* 9de360623 chore: update alpine base images (#5015)\r\n* ef70d2076 feat: add Package.resolved swift files support (#4932)\r\n* ec5d8bec0 feat(nodejs): parse licenses in yarn projects (#4652)\r\n* 3114c87e6 fix: k8s private registries support (#5021)\r\n* 6d79f55db bump github.com/testcontainers/testcontainers-go from 0.21.0 to 0.23.0 (#5018)\r\n* 9ace59106 feat(vuln): support last_affected field from osv (#4944)\r\n* d44217640 feat(server): add version endpoint (#4869)\r\n* 63cd41d20 feat: k8s private registries support (#4987)\r\n* cb16e23f1 fix(server): add indirect prop to package (#4974)\r\n* a4e981b4e docs: add coverage (#4954)\r\n* 6f03c7940 feat(c): add location for lock file dependencies. (#4994)\r\n* c74870500 docs: adding blog post on ec2 (#4813)\r\n* 4e1316c37 revert 32bit bins (#4977)\r\n* fc959fc57 chore(deps): bump github.com/xlab/treeprint from 1.1.0 to 1.2.0 (#4917)\r\n\r\n"
@@ -3980,8 +3980,8 @@
     "https://github.com/anchore/grype": {
         "created_at": "2020-05-26 13:44:38",
         "description": "A vulnerability scanner for container images and filesystems",
-        "commit_date": "2023-08-31 16:02:11",
-        "commit_message": "chore(deps): update Syft to v0.89.0 (#1472)\n\nSigned-off-by: GitHub <noreply@github.com>\r\nCo-authored-by: wagoodman <wagoodman@users.noreply.github.com>",
+        "commit_date": "2023-09-06 17:51:51",
+        "commit_message": "chore: bump quality gate to use syft v0.89.0 (#1479)\n\nSigned-off-by: Weston Steimel <weston.steimel@proton.me>",
         "release_tag": "v0.66.0",
         "release_date": "2023-08-31 16:50:30",
         "release_message": "# \r\n\r\n## [v0.66.0](https://github.com/anchore/grype/tree/v0.66.0) (2023-08-31)\r\n\r\n[Full Changelog](https://github.com/anchore/grype/compare/v0.65.2...v0.66.0)\r\n\r\n### Added Features\r\n\r\n- Allow for access to private CAs securely [[Issue #1226](https://github.com/anchore/grype/issues/1226)] [[PR #1232](https://github.com/anchore/grype/pull/1232)] [[5p2O5pe25ouT](https://github.com/5p2O5pe25ouT)]\r\n- Filter out packages that are owned by OS packages (ownership overlap) [[Issue #1373](https://github.com/anchore/grype/issues/1373)] [[PR #1387](https://github.com/anchore/grype/pull/1387)] [[willmurphyscode](https://github.com/willmurphyscode)]\r\n\r\n### Bug Fixes\r\n\r\n- fix: Only remove packages by binary overlap [[PR #1444](https://github.com/anchore/grype/pull/1444)] [[willmurphyscode](https://github.com/willmurphyscode)]\r\n- New version notice only showing the version and no text [[PR #1445](https://github.com/anchore/grype/pull/1445)] [[wagoodman](https://github.com/wagoodman)]\r\n- fix: set correct default to exclude overlapping binaries [[PR #1452](https://github.com/anchore/grype/pull/1452)] [[kzantow](https://github.com/kzantow)]\r\n- Portage version comparison is not working [[Issue #1459](https://github.com/anchore/grype/issues/1459)] [[PR #1468](https://github.com/anchore/grype/pull/1468)] [[barnuri](https://github.com/barnuri)]\r\n\r\n### Additional Changes\r\n\r\n- Update Syft to 0.89.0\r\n\r\n\r\n"
@@ -4249,7 +4249,7 @@
     },
     "https://github.com/Pizz33/GobypassAV-shellcode": {
         "created_at": "2023-04-18 07:42:36",
-        "description": "免杀shellcode加载器，使用go实现，免杀bypass火绒、360、核晶、def等主流杀软",
+        "description": "shellcode免杀加载器，使用go实现，免杀bypass火绒、360、核晶、def等主流杀软",
         "commit_date": "2023-08-03 04:37:38",
         "commit_message": "Update README.md",
         "release_tag": "",
@@ -4277,7 +4277,7 @@
     "https://github.com/aiboboxx/v2rayfree": {
         "created_at": "2021-10-13 11:34:53",
         "description": "v2ray节点、免费节点、免费v2ray节点、最新公益免费v2ray节点订阅地址、免费v2ray节点每日更新、免费ss/v2ray/trojan节点、freefq ",
-        "commit_date": "2023-09-05 12:35:25",
+        "commit_date": "2023-09-06 12:35:56",
         "commit_message": "update",
         "release_tag": "",
         "release_date": "",
@@ -4304,8 +4304,8 @@
     "https://github.com/niudaii/zpscan": {
         "created_at": "2022-09-16 03:03:20",
         "description": "一个有点好用的信息收集工具。A somewhat useful information gathering tool.",
-        "commit_date": "2023-09-04 12:10:50",
-        "commit_message": "fix: tls: server selected unsupported protocol version 301 #34",
+        "commit_date": "2023-09-06 04:26:00",
+        "commit_message": "fix: jsjump",
         "release_tag": "v1.8.39",
         "release_date": "2023-03-21 06:02:58",
         "release_message": ""
@@ -4322,8 +4322,8 @@
     "https://github.com/freefq/free": {
         "created_at": "2020-06-07 02:48:33",
         "description": "翻墙、免费翻墙、免费科学上网、免费节点、免费梯子、免费ss/v2ray/trojan节点、蓝灯、谷歌商店、翻墙梯子",
-        "commit_date": "2023-09-06 00:00:02",
-        "commit_message": "updated_at 09-06 08:00",
+        "commit_date": "2023-09-07 00:00:03",
+        "commit_message": "updated_at 09-07 08:00",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -4601,8 +4601,8 @@
     "https://github.com/rockbenben/ChatGPT-Shortcut": {
         "created_at": "2023-02-24 12:53:49",
         "description": "🚀💪Maximize your efficiency and productivity, support for English,中文,Español,العربية. 让生产力加倍的ChatGPT快捷指令，无需熟悉提示词，就能轻松搜索、优化和管理Prompts，适应多语言及各种生产效率场景。",
-        "commit_date": "2023-09-04 11:16:11",
-        "commit_message": "fix: Resolve search functionality issue in community-prompts",
+        "commit_date": "2023-09-06 12:42:03",
+        "commit_message": "feat: Switch authentication from cookies to localStorage to support new extension features",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -5729,8 +5729,8 @@
     "https://github.com/fatedier/frp": {
         "created_at": "2015-12-21 15:24:59",
         "description": "A fast reverse proxy to help you expose a local server behind a NAT or firewall to the internet.",
-        "commit_date": "2023-08-31 03:16:20",
-        "commit_message": "remove arch 386 (#3593)",
+        "commit_date": "2023-09-06 02:18:02",
+        "commit_message": "support yaml/json/toml configuration format, make ini deprecated (#3599)",
         "release_tag": "v0.51.3",
         "release_date": "2023-08-14 04:10:03",
         "release_message": "### Features\n\n* Support Go 1.21.\n\n"

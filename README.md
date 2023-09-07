@@ -1,4 +1,4 @@
-# 更新于 2023-09-06 08:35:08
+# 更新于 2023-09-07 08:33:16
 
 ## 近15天release更新记录
 | 更新时间 | 项目名称 | 版本 | 更新内容 |
@@ -30,25 +30,31 @@
 |2023-08-24 12:07:24|[mitaka](https://github.com/ninoseki/mitaka)|v1.3.2|- Fix Censys's search query format (#<br>749)   - Disable IntelligenceX (#749)|
 |2023-08-23 21:37:04|[faker](https://github.com/joke2k/faker)|v19.3.1|See .|
 |2023-08-23 06:23:07|[AV_Evasion_Tool](https://github.com/1y0n/AV_Evasion_Tool)|2023082<br>3|1. 效果优化|
-|2023-08-22 23:29:15|[neuvector](https://github.com/neuvector/neuvector)|v5.2.1|Features  NVSHAS-7449: Report layered<br> scan result to syslog  NVSHAS-6974: E<br>xport NIST compliance report  NVSHAS-8<br>157: Handle Proxy setting in image sig<br>nature verification  NVSHAS-8034: Incl<br>ude image signature result in the down<br>loaded CVE report  NVSHAS-7483: Pod an<br>notations for Admission Control Polici<br>es    Bug fixes  NVSHAS-8200: Do not c<br>reate default admin with default passw<br>ord in NV fresh deployment for AWS bil<br>ling offering  NVSHAS-8172: .json file<br> increased size and crashed a kubernet<br>es node  NVSHAS-7963: Improve SQL inje<br>ction detection logics  NVSHAS-8128: w<br>hen install helm crd chart first befor<br>e insatlling core chart, service accou<br>nts are missing  NVSHAS-8106: Image sc<br>an I.4.1 compliance result is incorrec<br>t  NVSHAS-8050: Vulnerability advance <br>filter report showing images from all <br>other namespace|
-|2023-08-22 01:44:36|[rustdesk](https://github.com/rustdesk/rustdesk)|1.2.2|      > Winget, FDroid, Apple Sillico<br>n, Google Play / App Store update will<br> come soon.    x86-64:  |  |   AArch64<br> (ARM64):   |  |     More:       Chang<br>elog    - Add separate window mode (ta<br>b window by default), https://github.c<br>om/rustdesk/rustdesk/discussions/2889 <br>   - Fix and improve responsiveness is<br>sue introduced in 1.2.0. https://githu<br>b.com/rustdesk/rustdesk/discussions/52<br>31  - Add device list batch handle    <br>- Add command to assign user and strat<br>egy for   - Optimize address book, syn<br>cing password, alias name, device name<br> etc, add tag color, improve error and<br> update status handling    - Fix windo<br>ws file copy/paste  - Fix "waiting for<br> image..." still shown after receiving<br> image bug, refactored rust->flutter m<br>essage handling https://github.com/rus<br>tdesk/rustdesk/issues/4533  - Improve <br>some touchpad support, https://github.<br>com/rustdesk/rustdesk/pull/5049  - Bug<br> fixes.      |
 ## 近15天commit提交记录
 | 提交时间 | 项目名称 | 更新内容 |
 | :---- | :---- | :---- |
-|2023-09-06 00:00:02|[free](https://github.com/freefq/free)|updated_at 09-06 08:00|
-|2023-09-05 23:17:16|[PocOrExp_in_Githu<br>b](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-09-06 07:17:16|
-|2023-09-05 20:55:25|[trivy](https://github.com/aquasecurity/trivy)|chaging adopters discussion tempalte (#5091)  Signe<br>d-off-by: AnaisUrlichs |
-|2023-09-05 19:53:49|[neuvector](https://github.com/neuvector/neuvector)|Merge pull request #989 from jayhuang-suse/six  NVS<br>HAS-7728: NeuVector should provide container image b<br>uild date in Assets -> Container details|
+|2023-09-07 00:00:03|[free](https://github.com/freefq/free)|updated_at 09-07 08:00|
+|2023-09-06 23:21:12|[PocOrExp_in_Githu<br>b](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-09-07 07:21:12|
+|2023-09-06 20:09:04|[neuvector](https://github.com/neuvector/neuvector)|Merge pull request #994 from becitsthere/dev  NVSHA<br>S-8241: Add description to vul log|
+|2023-09-06 17:51:51|[grype](https://github.com/anchore/grype)|chore: bump quality gate to use syft v0.89.0 (#1479<br>)  Signed-off-by: Weston Steimel |
+|2023-09-06 15:43:01|[syft](https://github.com/anchore/syft)|feat(cmd/update): add UA header with current ver wh<br>en check for update (#2100)  Signed-off-by: hainenbe<br>r |
+|2023-09-06 15:42:01|[murphysec](https://github.com/murphysecurity/murphysec)|feat(env): DO_NOT_BUILD|
+|2023-09-06 13:59:16|[iDefender](https://github.com/wecooperate/iDefender)|update|
+|2023-09-06 12:42:03|[ChatGPT-Shortcut](https://github.com/rockbenben/ChatGPT-Shortcut)|feat: Switch authentication from cookies to localSt<br>orage to support new extension features|
+|2023-09-06 12:35:56|[v2rayfree](https://github.com/aiboboxx/v2rayfree)|update|
+|2023-09-06 12:03:39|[dbeaver](https://github.com/dbeaver/dbeaver)|#21114 Handle cases with null key value (#21118)|
+|2023-09-06 11:09:44|[trivy](https://github.com/aquasecurity/trivy)|chore(deps): bump github.com/aws/aws-sdk-go from 1.<br>44.273 to 1.45.3 (#5126)  Bumps  from 1.44.273 to 1.<br>45.3. -  -   --- updated-dependencies: - dependency-<br>name: github.com/aws/aws-sdk-go   dependency-type: d<br>irect:production   update-type: version-update:semve<br>r-minor ...  Signed-off-by: dependabot[bot]  Co-auth<br>ored-by: dependabot[bot] |
+|2023-09-06 09:32:18|[0day](https://github.com/helloexp/0day)|add CVE-2021-4034 polkit privilege escalation explo<br>it|
+|2023-09-06 07:33:21|[vulnerability](https://github.com/lal0ne/vulnerability)|CVE-2023-28434|
+|2023-09-06 07:16:01|[v2rayA](https://github.com/v2rayA/v2rayA)|Merge pull request #1081 from MarksonHon/feat_v5  c<br>i(release_feat_v5): some changes|
+|2023-09-06 04:26:00|[zpscan](https://github.com/niudaii/zpscan)|fix: jsjump|
+|2023-09-06 02:18:02|[frp](https://github.com/fatedier/frp)|support yaml/json/toml configuration format, make i<br>ni deprecated (#3599)|
+|2023-09-06 00:52:01|[afrog](https://github.com/zan8in/afrog)|update|
 |2023-09-05 15:15:04|[MockingBird](https://github.com/babysor/MockingBird)|Skip embedding (#950)  * Skip embedding    * Skip e<br>arlier    * Remove unused paramater    * Pass param|
 |2023-09-05 15:00:35|[autoDecoder](https://github.com/f0ng/autoDecoder)|Update FAQ.md|
-|2023-09-05 14:39:51|[syft](https://github.com/anchore/syft)|fix(cdx): validate external refs before encoding (#<br>2091)  Signed-off-by: hainenber |
 |2023-09-05 14:23:40|[rustdesk](https://github.com/rustdesk/rustdesk)|Merge pull request #5607 from flusheDData/master  U<br>pdate es.rs|
-|2023-09-05 14:11:18|[afrog](https://github.com/zan8in/afrog)|update|
-|2023-09-05 12:35:25|[v2rayfree](https://github.com/aiboboxx/v2rayfree)|update|
-|2023-09-05 12:06:23|[v2rayA](https://github.com/v2rayA/v2rayA)|Merge pull request #1079 from MarksonHon/feat_v5  F<br>ix Windows installers' blank version string|
 |2023-09-05 10:15:30|[safeline](https://github.com/chaitin/safeline)|Merge pull request #285 from YueWey/main  feat(): c<br>heck IS flag in both lscpu and cpuinfo file|
 |2023-09-05 09:40:09|[FreeRDP](https://github.com/FreeRDP/FreeRDP)|[codec,progressive] expose progressive simple  serv<br>er implementations might require serializing message<br>s to a simple tile, so expose this function.|
-|2023-09-05 07:34:22|[dbeaver](https://github.com/dbeaver/dbeaver)|dbeaver/pro#1912 Snowflake driver upgrade to 3.13.2<br>5 (#21105)  * dbeaver/pro#1912 Snowflake driver upgr<br>ade to 3.13.25    * dbeaver/pro#1912 Snowflake drive<br>r upgrade to 3.13.30|
 |2023-09-05 06:56:25|[Awesome-POC](https://github.com/Threekiii/Awesome-POC)|更新漏洞|
 |2023-09-05 06:44:46|[Awesome-Redteam](https://github.com/Threekiii/Awesome-Redteam)|更新README.md|
 |2023-09-04 22:12:36|[Mobile-Security-F<br>ramework-MobSF](https://github.com/MobSF/Mobile-Security-Framework-MobSF)|[HOTFIX] simplify scan api (#2259)  * Simplify Scan<br> API  * Need only scan hash to trigger a scan  * Upd<br>ated API Docs|
@@ -56,14 +62,9 @@
 |2023-09-04 16:47:25|[sqlmap](https://github.com/sqlmapproject/sqlmap)|Minor patch (#5508)|
 |2023-09-04 16:15:17|[nemo_go](https://github.com/hanc00l/nemo_go)|Update: v2.10.1|
 |2023-09-04 13:20:16|[RouteVulScan](https://github.com/F6JO/RouteVulScan)|Update threads.java|
-|2023-09-04 12:54:26|[murphysec](https://github.com/murphysecurity/murphysec)|feat(cmd): sbom scan|
-|2023-09-04 12:10:50|[zpscan](https://github.com/niudaii/zpscan)|fix: tls: server selected unsupported protocol vers<br>ion 301 #34|
-|2023-09-04 11:16:11|[ChatGPT-Shortcut](https://github.com/rockbenben/ChatGPT-Shortcut)|fix: Resolve search functionality issue in communit<br>y-prompts|
 |2023-09-04 10:22:18|[suo5](https://github.com/zema1/suo5)|Merge pull request #37 from zema1/bump-go-version  <br>feat: bump up go to v1.20|
 |2023-09-04 09:41:55|[nuclei](https://github.com/projectdiscovery/nuclei)|Merge branch 'dev'|
-|2023-09-04 09:08:48|[vulnerability](https://github.com/lal0ne/vulnerability)|CVE-2023-34039|
 |2023-09-04 03:12:54|[404StarLink](https://github.com/knownsec/404StarLink)|weekly update at 2023-09-04|
-|2023-09-03 03:26:17|[iDefender](https://github.com/wecooperate/iDefender)|update|
 |2023-09-02 23:11:37|[DecoyMini](https://github.com/decoymini/DecoyMini)|Update README.md|
 |2023-09-02 15:38:22|[awesome-chatgpt-z<br>h](https://github.com/yzfly/awesome-chatgpt-zh)|add codellama, llms|
 |2023-09-02 05:17:50|[URLFinder](https://github.com/pingc0y/URLFinder)|2023/9/2更新|
@@ -72,13 +73,10 @@
 |2023-09-01 10:19:41|[Elkeid](https://github.com/bytedance/Elkeid)|Merge pull request #529 from yoloyyh/main|
 |2023-09-01 07:34:07|[ObserverWard](https://github.com/0x727/ObserverWard)|Merge pull request #195 from 0x727/dependabot/cargo<br>/actix-web-4.4.0  Bump actix-web from 4.3.1 to 4.4.0|
 |2023-08-31 16:15:04|[faker](https://github.com/joke2k/faker)|Add schemes and deep argument to uri method|
-|2023-08-31 16:02:11|[grype](https://github.com/anchore/grype)|chore(deps): update Syft to v0.89.0 (#1472)  Signed<br>-off-by: GitHub   Co-authored-by: wagoodman |
 |2023-08-31 08:41:02|[Viper](https://github.com/FunnyWolf/Viper)|update version 2023-08-31|
-|2023-08-31 03:16:20|[frp](https://github.com/fatedier/frp)|remove arch 386 (#3593)|
 |2023-08-30 19:25:56|[rotp](https://github.com/mdp/rotp)|chore: Add the .gem file to release for easier publ<br>ishing in an MFA world (#133)|
 |2023-08-30 13:24:01|[ddddocr](https://github.com/sml2h3/ddddocr)|修复pillow的版本引用问题|
 |2023-08-30 07:08:43|[arthas](https://github.com/alibaba/arthas)|fix: update platform name in Arthas tutorials (#264<br>1)|
-|2023-08-30 04:52:26|[0day](https://github.com/helloexp/0day)|add CVE-2023-36899 IIS Identity authentication bypa<br>ss vulnerability|
 |2023-08-29 15:14:11|[mubeng](https://github.com/kitabisa/mubeng)|build(deps): bump github.com/sourcegraph/conc from <br>0.2.0 to 0.3.0 (#187)  Bumps  from 0.2.0 to 0.3.0.  <br>-   -     ---  updated-dependencies:  - dependency-n<br>ame: github.com/sourcegraph/conc    dependency-type:<br> direct:production    update-type: version-update:se<br>mver-minor  ...    Signed-off-by: dependabot[bot]   <br>Co-authored-by: dependabot[bot] |
 |2023-08-29 06:09:32|[Vuln-List](https://github.com/wwl012345/Vuln-List)|Update 终端软件漏洞合集.md|
 |2023-08-28 09:28:41|[semgrepper](https://github.com/gand3lf/semgrepper)|Merge pull request #9 from tghosth/clarify-running <br> Update README.md with tutorial|
@@ -100,9 +98,7 @@
 |2023-08-23 07:23:32|[Some-PoC-oR-ExP](https://github.com/coffeehb/Some-PoC-oR-ExP)|Create windowUnloading_bypass.md|
 |2023-08-23 06:25:21|[AV_Evasion_Tool](https://github.com/1y0n/AV_Evasion_Tool)|Update README.md|
 |2023-08-23 03:01:15|[OA-EXPTOOL](https://github.com/LittleBear4/OA-EXPTOOL)|Delete tongda-V11.10-未授权任意文件上传.yaml|
-|2023-08-23 02:56:53|[Library-POC](https://github.com/luck-ying/Library-POC)|Update README.md|
-|2023-08-22 10:45:48|[kscan](https://github.com/lcvvvv/kscan)|Update README.md|
-|2023-08-22 06:54:25|[domain_hunter_pro](https://github.com/bit4woo/domain_hunter_pro)|update|## 所有项目
+|2023-08-23 02:56:53|[Library-POC](https://github.com/luck-ying/Library-POC)|Update README.md|## 所有项目
 # 渗透测试
 ## 信息收集
 ### 资产测绘采集
@@ -719,7 +715,7 @@
 | :---- | :---- | :---- |
 | [shellcodeloader](https://github.com/knownsec/shellcodeloader) | v1.1 | shellcodeloader |
 | [AV_Evasion_Tool](https://github.com/1y0n/AV_Evasion_Tool) | 2023082<br>3 | 掩日 - 免杀执行器生成工具 |
-| [GobypassAV-shellc<br>ode](https://github.com/Pizz33/GobypassAV-shellcode) |  | 免杀shellcode加载器，使用go实现，免杀bypass火绒、360、核晶、de<br>f等主流杀软 |
+| [GobypassAV-shellc<br>ode](https://github.com/Pizz33/GobypassAV-shellcode) |  | shellcode免杀加载器，使用go实现，免杀bypass火绒、360、核晶、de<br>f等主流杀软 |
 | [ZheTian](https://github.com/yqcs/ZheTian) | v3 | ::ZheTian / 强大的免杀生成工具，Bypass All. |
 | [encdecshellcode](https://github.com/blacknbunny/encdecshellcode) |  | Shellcode Encrypter & Decrypter via XOR Cipher |
 | [SysWhispers2](https://github.com/jthuraisamy/SysWhispers2) |  | AV/EDR evasion via direct system calls. |
