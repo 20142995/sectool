@@ -200,8 +200,8 @@
     "https://github.com/ycdxsb/PocOrExp_in_Github": {
         "created_at": "2021-04-13 05:46:16",
         "description": "聚合Github上已有的Poc或者Exp，CVE信息来自CVE官网。Auto Collect Poc Or Exp from Github by CVE ID.",
-        "commit_date": "2023-09-06 23:21:12",
-        "commit_message": "update 2023-09-07 07:21:12",
+        "commit_date": "2023-09-07 23:18:19",
+        "commit_message": "update 2023-09-08 07:18:19",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -380,8 +380,8 @@
     "https://github.com/lal0ne/vulnerability": {
         "created_at": "2022-01-20 02:48:42",
         "description": "收集、整理、修改互联网上公开的漏洞POC",
-        "commit_date": "2023-09-06 07:33:21",
-        "commit_message": "CVE-2023-28434",
+        "commit_date": "2023-09-07 07:50:34",
+        "commit_message": "CVE-2023-38035",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -981,8 +981,8 @@
     "https://github.com/sqlmapproject/sqlmap": {
         "created_at": "2012-06-26 09:52:15",
         "description": "Automatic SQL injection and database takeover tool",
-        "commit_date": "2023-09-04 16:47:25",
-        "commit_message": "Minor patch (#5508)",
+        "commit_date": "2023-09-07 09:03:01",
+        "commit_message": "Fixes #5521",
         "release_tag": "1.7",
         "release_date": "2023-01-02 22:32:55",
         "release_message": "Stable version 1.7 ([changeset](https://github.com/sqlmapproject/sqlmap/compare/1.6...1.7))"
@@ -2951,8 +2951,8 @@
     "https://github.com/dbeaver/dbeaver": {
         "created_at": "2015-10-21 08:26:28",
         "description": "Free universal database tool and SQL client",
-        "commit_date": "2023-09-06 12:03:39",
-        "commit_message": "#21114 Handle cases with null key value (#21118)",
+        "commit_date": "2023-09-07 14:28:49",
+        "commit_message": "dbeaver/pro#1776 Pronounce editor tab names (#21075)",
         "release_tag": "23.2.0",
         "release_date": "2023-09-04 12:23:06",
         "release_message": "\n            - Changes since 23.1.5:\n                - Data Editor:\n                    - Spatial values rendering was fixed\n                    - Spatial images capture was fixed\n                    - Special characters rendering was improved\n                    - Grouping panel icons were improved\n                - ER Diagrams: saved diagrams now can be opened on another computers\n                - Data transfer: import settings handling was improved\n                - Accessibility:\n                    - Connection dialog now supports screen readers\n                    - Cell value reading was improved\n                    - Ctrl+Shift/Alt+PageDn: vertical tabs switch\n                    - Ctrl+ALT+6: SQL editor and results tab switch\n                    - Ctrl+Shift+Enter now opens ER diagram entities\n                    - Ctrl+Shift+N: new connection dialog open\n                - Database drivers:\n                    - Bigquery: DDL for tables, views and stored procedures was added\n                    - Clickhouse: arrays and structures visualization was fixed\n                    - Greenplum: external tables reading was fixed\n                    - Teradata: issue with the missing templates was fixed\n                - Many minor UI and database issues were resolved\n            "
@@ -3192,11 +3192,11 @@
     "https://github.com/joke2k/faker": {
         "created_at": "2012-11-12 23:00:09",
         "description": "Faker is a Python package that generates fake data for you.",
-        "commit_date": "2023-08-31 16:15:04",
-        "commit_message": "Add `schemes` and `deep` argument to `uri` method",
-        "release_tag": "v19.3.1",
-        "release_date": "2023-08-23 21:37:04",
-        "release_message": "See [CHANGELOG.md](https://github.com/joke2k/faker/blob/refs/tags/v19.3.1/CHANGELOG.md)."
+        "commit_date": "2023-09-07 15:09:44",
+        "commit_message": "Bump version: 19.3.1 → 19.4.0",
+        "release_tag": "v19.4.0",
+        "release_date": "2023-09-07 15:11:02",
+        "release_message": "See [CHANGELOG.md](https://github.com/joke2k/faker/blob/refs/tags/v19.4.0/CHANGELOG.md)."
     },
     "https://github.com/NHPT/Xray_Cracked": {
         "created_at": "2022-08-10 13:51:19",
@@ -3298,8 +3298,8 @@
     "https://github.com/bytedance/Elkeid": {
         "created_at": "2020-12-18 03:15:54",
         "description": "Elkeid is an open source solution that can meet the security requirements of various workloads such as hosts, containers and K8s, and serverless. It is derived from ByteDance's internal best practices.",
-        "commit_date": "2023-09-01 10:19:41",
-        "commit_message": "Merge pull request #529 from yoloyyh/main",
+        "commit_date": "2023-09-07 11:15:11",
+        "commit_message": "Merge pull request #533 from bytedance/fix-python-build\n\nFix python build",
         "release_tag": "rasp-v2.2.0.8",
         "release_date": "2023-09-05 10:48:19",
         "release_message": ""
@@ -3908,8 +3908,8 @@
     "https://github.com/anchore/syft": {
         "created_at": "2020-05-07 18:19:29",
         "description": "CLI tool and library for generating a Software Bill of Materials from container images and filesystems",
-        "commit_date": "2023-09-06 15:43:01",
-        "commit_message": "feat(cmd/update): add UA header with current ver when check for update (#2100)\n\nSigned-off-by: hainenber <dotronghai96@gmail.com>",
+        "commit_date": "2023-09-07 19:54:42",
+        "commit_message": "fix: update codeql-analysis for go 1.21 (#2108)\n\n* fix: update codeql-analysis for go 1.21\r\n\r\nSigned-off-by: Christopher Phillips <christopher.phillips@anchore.com>\r\n\r\n* nit: remove comment\r\n\r\nSigned-off-by: Christopher Phillips <christopher.phillips@anchore.com>\r\n\r\n---------\r\n\r\nSigned-off-by: Christopher Phillips <christopher.phillips@anchore.com>",
         "release_tag": "v0.89.0",
         "release_date": "2023-08-31 15:42:19",
         "release_message": "# \r\n\r\n## [v0.89.0](https://github.com/anchore/syft/tree/v0.89.0) (2023-08-31)\r\n\r\n[Full Changelog](https://github.com/anchore/syft/compare/v0.88.0...v0.89.0)\r\n\r\n### Added Features\r\n\r\n- Add registry certificate verification support  [[PR #1734](https://github.com/anchore/syft/pull/1734)] [[5p2O5pe25ouT](https://github.com/5p2O5pe25ouT)]\r\n- Add SYFT_CONFIG environment variable for configuration file path [[Issue #1986](https://github.com/anchore/syft/issues/1986)] [[PR #2001](https://github.com/anchore/syft/pull/2001)] [[kzantow](https://github.com/kzantow)]\r\n\r\n### Bug Fixes\r\n\r\n- Fix quiet flag [[PR #2081](https://github.com/anchore/syft/pull/2081)] [[wagoodman](https://github.com/wagoodman)]\r\n- Command line flags not overriding configuration file values [[Issue #1143](https://github.com/anchore/syft/issues/1143)] [[PR #2001](https://github.com/anchore/syft/pull/2001)] [[kzantow](https://github.com/kzantow)]\r\n- Django package CPE is not correct [[Issue #1298](https://github.com/anchore/syft/issues/1298)] [[PR #2068](https://github.com/anchore/syft/pull/2068)] [[witchcraze](https://github.com/witchcraze)]\r\n- Config parsing includes `config.yaml` in working dir [[Issue #1634](https://github.com/anchore/syft/issues/1634)] [[PR #2001](https://github.com/anchore/syft/pull/2001)] [[kzantow](https://github.com/kzantow)]\r\n- Fix a possible panic on universal go binaries [[Issue #2073](https://github.com/anchore/syft/issues/2073)] [[PR #2078](https://github.com/anchore/syft/pull/2078)] [[willmurphyscode](https://github.com/willmurphyscode)]\r\n- Disabling catalogers is not working in power user command [[Issue #2074](https://github.com/anchore/syft/issues/2074)] [[PR #2001](https://github.com/anchore/syft/pull/2001)] [[kzantow](https://github.com/kzantow)]\r\n- Virtual path changes to java cataloger causing creation of extra incorrect packages when jars are renamed [[Issue #2077](https://github.com/anchore/syft/issues/2077)] [[PR #2080](https://github.com/anchore/syft/pull/2080)] [[willmurphyscode](https://github.com/willmurphyscode)]\r\n\r\n\r\n"
@@ -3917,11 +3917,11 @@
     "https://github.com/chaitin/safeline": {
         "created_at": "2023-04-12 11:30:14",
         "description": "一款足够简单、足够好用、足够强的免费 WAF。基于业界领先的语义引擎检测技术，作为反向代理接入，保护你的网站不受黑客攻击。",
-        "commit_date": "2023-09-05 10:15:30",
-        "commit_message": "Merge pull request #285 from YueWey/main\n\nfeat(): check IS flag in both lscpu and cpuinfo file",
-        "release_tag": "v3.2.0",
-        "release_date": "2023-08-31 11:03:51",
-        "release_message": "#### 新增\r\n\r\n- 证书管理支持上传 PKCS1、PKCS8、ECC 私钥格式的证书（[#257](https://github.com/chaitin/SafeLine/issues/257)）\r\n- 站点详情新增近 30 天请求数，支持批量删除\r\n\r\n#### 优化\r\n\r\n- 优化站点详情页面，提高加载速度、优化界面样式和逻辑\r\n- 限频的生效阈值由 “超过 xx 次” 改为 “达到 xx 次”（[#245](https://github.com/chaitin/SafeLine/issues/245)）\r\n- 修复频率限制所拦截的请求，没有被计入站点列表的 “今日访问/拦截量” 的问题\r\n- 修复证书管理的证书有时候无法正常删除的问题（[#268](https://github.com/chaitin/SafeLine/issues/268)）\r\n- 修复证书管理中，有时候一个证书内会解析出几个重复的域名的问题\r\n- 去掉对 docker 的 seccomp 特性的依赖（[#255](https://github.com/chaitin/SafeLine/issues/255)）\r\n- 优化大量界面样式、交互和操作提示细节"
+        "commit_date": "2023-09-07 09:54:04",
+        "commit_message": "fix(websiet): node 20.6 version can't compile docs",
+        "release_tag": "v3.3.0",
+        "release_date": "2023-09-07 10:01:41",
+        "release_message": "### 新增\r\n\r\n- 支持设置拦截页面附加说明（[#192](https://github.com/chaitin/SafeLine/issues/192)）\r\n- 频率限制新增 “人机验证” 的限制方式（[#226](https://github.com/chaitin/SafeLine/issues/226)）\r\n\r\n### 优化\r\n\r\n- 当网站域名不匹配的时候，返回 “网站不存在” ，提示更清晰（[#58](https://github.com/chaitin/SafeLine/issues/58)）\r\n- 修复 攻击事件->原始日志 的 “攻击地址” 中显示额外的转义符的问题\r\n- 修复站点详情中 “今日总请求量” 和站点列表的 “今日访问量” 不一致的问题（[#279](https://github.com/chaitin/SafeLine/issues/279)）\r\n- 频率限制后直接封禁的拦截状态码改为 429，和普通拦截 403 区分开，方便排查拦截原因\r\n- 加强后台登录安全性（感谢微信交流 20 群「千年之狐」提供的建议）\r\n- 优化安装/升级时 CPU ssse3 指令集的检查方式（[#273](https://github.com/chaitin/SafeLine/issues/273)）\r\n- 优化界面样式交互，修复一些已知问题"
     },
     "https://github.com/stamparm/identYwaf": {
         "created_at": "2019-01-10 11:27:58",
@@ -3971,8 +3971,8 @@
     "https://github.com/aquasecurity/trivy": {
         "created_at": "2019-04-11 01:01:07",
         "description": "Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more",
-        "commit_date": "2023-09-06 11:09:44",
-        "commit_message": "chore(deps): bump github.com/aws/aws-sdk-go from 1.44.273 to 1.45.3 (#5126)\n\nBumps [github.com/aws/aws-sdk-go](https://github.com/aws/aws-sdk-go) from 1.44.273 to 1.45.3.\n- [Release notes](https://github.com/aws/aws-sdk-go/releases)\n- [Commits](https://github.com/aws/aws-sdk-go/compare/v1.44.273...v1.45.3)\n\n---\nupdated-dependencies:\n- dependency-name: github.com/aws/aws-sdk-go\n  dependency-type: direct:production\n  update-type: version-update:semver-minor\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
+        "commit_date": "2023-09-07 20:17:29",
+        "commit_message": "chore(deps): bump golangci/golangci-lint-action from 3.6.0 to 3.7.0 (#5103)\n\nBumps [golangci/golangci-lint-action](https://github.com/golangci/golangci-lint-action) from 3.6.0 to 3.7.0.\n- [Release notes](https://github.com/golangci/golangci-lint-action/releases)\n- [Commits](https://github.com/golangci/golangci-lint-action/compare/v3.6.0...v3.7.0)\n\n---\nupdated-dependencies:\n- dependency-name: golangci/golangci-lint-action\n  dependency-type: direct:production\n  update-type: version-update:semver-minor\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
         "release_tag": "v0.45.0",
         "release_date": "2023-09-01 06:38:35",
         "release_message": "## ⚡Release highlights and summary⚡\r\n\r\n👉 https://github.com/aquasecurity/trivy/discussions/5082\r\n\r\n## Changelog\r\n* cdab67e7f docs: add Bitnami (#5078)\r\n* 7acc5e831 feat(docker): add support for scanning Bitnami components (#5062)\r\n* 9628b1cbf feat: add support for .trivyignore.yaml (#5070)\r\n* 4547e2766 fix(terraform): improve detection of terraform files (#4984)\r\n* 0c8919e1e feat: filter artifacts on --exclude-owned flag (#5059)\r\n* c04f234fa fix(sbom): cyclonedx advisory should omit `null` value (#5041)\r\n* f811ed2d4 build: maximize build space for build tests (#5072)\r\n* 69ea5bf70 feat: improve kbom component name (#5058)\r\n* 3715dcb3f fix(pom): add licenses for pom artifacts (#5071)\r\n* 07f7e9853 chore(deps): Update defsec to v0.92.0 (#5068)\r\n* d4ca3cce2 chore: bump Go to `1.20` (#5067)\r\n* 49fdd584b feat: PURL matching with qualifiers in OpenVEX (#5061)\r\n* 4401998ec feat(java): add graph support for pom.xml (#4902)\r\n* 9c211d005 feat(swift): add vulns for cocoapods (#5037)\r\n* 422fa414e fix: support image pull secret for additional workloads (#5052)\r\n* 8e933860a fix: #5033 Superfluous double quote in html.tpl (#5036)\r\n* 9345a98ed docs(repo): update trivy repo usage and example (#5049)\r\n* 5d8da70c6 perf: Optimize Dockerfile for reduced layers and size (#5038)\r\n* 1be9da7aa feat: scan K8s Resources Kind with --all-namespaces (#5043)\r\n* 0e17d0bef fix: vulnerability typo (#5044)\r\n* d70fab231 docs: adding a terraform tutorial to the docs (#3708)\r\n* 2fa264ac1 feat(report): add licenses to sarif format (#4866)\r\n* 07ddf4790 feat(misconf): show the resource name in the report (#4806)\r\n* 9de360623 chore: update alpine base images (#5015)\r\n* ef70d2076 feat: add Package.resolved swift files support (#4932)\r\n* ec5d8bec0 feat(nodejs): parse licenses in yarn projects (#4652)\r\n* 3114c87e6 fix: k8s private registries support (#5021)\r\n* 6d79f55db bump github.com/testcontainers/testcontainers-go from 0.21.0 to 0.23.0 (#5018)\r\n* 9ace59106 feat(vuln): support last_affected field from osv (#4944)\r\n* d44217640 feat(server): add version endpoint (#4869)\r\n* 63cd41d20 feat: k8s private registries support (#4987)\r\n* cb16e23f1 fix(server): add indirect prop to package (#4974)\r\n* a4e981b4e docs: add coverage (#4954)\r\n* 6f03c7940 feat(c): add location for lock file dependencies. (#4994)\r\n* c74870500 docs: adding blog post on ec2 (#4813)\r\n* 4e1316c37 revert 32bit bins (#4977)\r\n* fc959fc57 chore(deps): bump github.com/xlab/treeprint from 1.1.0 to 1.2.0 (#4917)\r\n\r\n"
@@ -3980,8 +3980,8 @@
     "https://github.com/anchore/grype": {
         "created_at": "2020-05-26 13:44:38",
         "description": "A vulnerability scanner for container images and filesystems",
-        "commit_date": "2023-09-06 17:51:51",
-        "commit_message": "chore: bump quality gate to use syft v0.89.0 (#1479)\n\nSigned-off-by: Weston Steimel <weston.steimel@proton.me>",
+        "commit_date": "2023-09-07 18:55:38",
+        "commit_message": "chore: update grype to use Go v1.21 (#1480)\n\nSigned-off-by: Christopher Phillips <christopher.phillips@anchore.com>",
         "release_tag": "v0.66.0",
         "release_date": "2023-08-31 16:50:30",
         "release_message": "# \r\n\r\n## [v0.66.0](https://github.com/anchore/grype/tree/v0.66.0) (2023-08-31)\r\n\r\n[Full Changelog](https://github.com/anchore/grype/compare/v0.65.2...v0.66.0)\r\n\r\n### Added Features\r\n\r\n- Allow for access to private CAs securely [[Issue #1226](https://github.com/anchore/grype/issues/1226)] [[PR #1232](https://github.com/anchore/grype/pull/1232)] [[5p2O5pe25ouT](https://github.com/5p2O5pe25ouT)]\r\n- Filter out packages that are owned by OS packages (ownership overlap) [[Issue #1373](https://github.com/anchore/grype/issues/1373)] [[PR #1387](https://github.com/anchore/grype/pull/1387)] [[willmurphyscode](https://github.com/willmurphyscode)]\r\n\r\n### Bug Fixes\r\n\r\n- fix: Only remove packages by binary overlap [[PR #1444](https://github.com/anchore/grype/pull/1444)] [[willmurphyscode](https://github.com/willmurphyscode)]\r\n- New version notice only showing the version and no text [[PR #1445](https://github.com/anchore/grype/pull/1445)] [[wagoodman](https://github.com/wagoodman)]\r\n- fix: set correct default to exclude overlapping binaries [[PR #1452](https://github.com/anchore/grype/pull/1452)] [[kzantow](https://github.com/kzantow)]\r\n- Portage version comparison is not working [[Issue #1459](https://github.com/anchore/grype/issues/1459)] [[PR #1468](https://github.com/anchore/grype/pull/1468)] [[barnuri](https://github.com/barnuri)]\r\n\r\n### Additional Changes\r\n\r\n- Update Syft to 0.89.0\r\n\r\n\r\n"
@@ -4169,8 +4169,8 @@
     "https://github.com/vulhub/vulhub": {
         "created_at": "2017-04-09 10:13:13",
         "description": "Pre-Built Vulnerable Environments Based on Docker-Compose",
-        "commit_date": "2023-08-18 08:47:41",
-        "commit_message": "simplify the exploit of MeterSphere plugin RCE",
+        "commit_date": "2023-09-07 17:44:13",
+        "commit_message": "Merge pull request #460 from vulhub/hadolint-upgrade\n\nupgrade hadolint to 2.12.0",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -4277,7 +4277,7 @@
     "https://github.com/aiboboxx/v2rayfree": {
         "created_at": "2021-10-13 11:34:53",
         "description": "v2ray节点、免费节点、免费v2ray节点、最新公益免费v2ray节点订阅地址、免费v2ray节点每日更新、免费ss/v2ray/trojan节点、freefq ",
-        "commit_date": "2023-09-06 12:35:56",
+        "commit_date": "2023-09-07 12:35:34",
         "commit_message": "update",
         "release_tag": "",
         "release_date": "",
@@ -4322,8 +4322,8 @@
     "https://github.com/freefq/free": {
         "created_at": "2020-06-07 02:48:33",
         "description": "翻墙、免费翻墙、免费科学上网、免费节点、免费梯子、免费ss/v2ray/trojan节点、蓝灯、谷歌商店、翻墙梯子",
-        "commit_date": "2023-09-07 00:00:03",
-        "commit_message": "updated_at 09-07 08:00",
+        "commit_date": "2023-09-08 00:00:04",
+        "commit_message": "updated_at 09-08 08:00",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -4529,8 +4529,8 @@
     "https://github.com/MobSF/Mobile-Security-Framework-MobSF": {
         "created_at": "2015-01-31 04:36:01",
         "description": "Mobile Security Framework (MobSF) is an automated, all-in-one mobile application (Android/iOS/Windows) pen-testing, malware analysis and security assessment framework capable of performing static and dynamic analysis.",
-        "commit_date": "2023-09-04 22:12:36",
-        "commit_message": "[HOTFIX] simplify scan api (#2259)\n\n* Simplify Scan API\r\n* Need only scan hash to trigger a scan\r\n* Updated API Docs",
+        "commit_date": "2023-09-07 06:55:06",
+        "commit_message": "[HOTFIX] iOS Framework Analysis + Multiple Feature QA (#2260)\n\n* iOS Framework Analysis\r\n* Static Analysis URL simplification\r\n* Replace hardcoded urls in template with `{% url %}`\r\n* Code QA\r\n* Remove unwanted template file\r\n* Remove `rescan` query param from url\r\n* Android icon SVG guessing improvements\r\n* Icon analysis refactoring, change icon storage location\r\n* Remove SVG to PNG converter. Support PNG and SVG icon.\r\n* Github docker release action update",
         "release_tag": "v3.7.6",
         "release_date": "2023-08-28 04:57:05",
         "release_message": "### v3.7.6 Beta Changelog\r\n\r\n- Features or Enhancements\r\n   - Docker base image update to Ubuntu 22.04\r\n   - Dockerfile QA\r\n   - Migrated from Pip to Poetry for dependency management\r\n   - Migrate from setup.py to use poetry for build and publish\r\n   - Python 3.11 support\r\n   - Docker ADB connection improvements (host.docker.internal translation for localhost)\r\n   -  IOS Swift RulesUpdates `ios_biometric_bool`, `ios_biometric_acl`, `ios_keychain_weak_acl_device_passcode`, `ios_keychain_weak_accessibility_value`, `ios_insecure_random_no_generator`, `ios_biometry_hardened`\r\n   - Android SCA rules update\r\n   - Entropies scan support for strings\r\n   - Regex Hardening: Fixes possible Regex DoS in rules and MobSF code base\r\n   - Tox QA\r\n   - Added poetry build test\r\n   - Updated mobsf PyPI publishing workflow \r\n   - Update local DBs\r\n   - URLs/Email extraction refactor\r\n   - Static and Dynamic Binary Analysis QA\r\n   - Refactor Dex permissions\r\n   - Refactor Androguard `apk.APK()` usage\r\n   - Fallback certificate analysis using apksigtool\r\n   - Use BeautifulSoup4 to prettify malformed XML\r\n   - Detect non standard XML namespace in AndroidManifest.xml, Fixes : #2198\r\n   - Updated android permissions list\r\n   - Updated android permission update check script\r\n   - Github Actions version update\r\n   - Apktool bump\r\n   - Bump httptools\r\n   - Bump yara-python-dex\r\n   - Docker image build test for PRs\r\n   - iOS Source Report Fix\r\n   - Removed unwanted pinned repository\r\n   - Frida APK Patcher (WIP)\r\n   - Fix for Recent Scans `scan not completed` for iOS zip\r\n   - Fix for MachO stripped symbols false positive\r\n   - Fix bug in IPA download\r\n   - iOS/Android form validation fix\r\n   - Fix missing exported components\r\n - Enterprise Feature Request\r\n      - String extraction from APK, Source, AAR, JAR, SO.\r\n      - Android strings sections to show source of strings extracted\r\n      - Strings extraction refactor\r\n      - Support for independent `.so` scan\r\n      - Dylib analysis support\r\n      - Dylib string extraction\r\n      - Improved iOS Plist secret extraction\r\n      - Support for Independent `.dylib` scan\r\n      - Symbols view for dylib and so\r\n      - Trackers support for so\r\n      - AAR/JAR obfuscation and debug check\r\n      - Independent Static Library(.a) ELF/MachO Analysis\r\n      - Mac FAT binary only supported on Mac\r\n\r\n\r\n  \r\n     \r\n    \r\n  \r\n\r\n## What's Changed\r\n* Update dynamic_analysis.html by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2218\r\n* Hotfix: Handle Docker <-> ADB connectivity internally by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2219\r\n* update apktool to 2.8.1 by @superpoussin22 in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2220\r\n* update apktool by @superpoussin22 in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2225\r\n* HOTFIX: Dynamic Analyzer Support Alert by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2227\r\n* [HOTFIX] Regex + Rule Update by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2232\r\n* [EFR06] Independent Shared Object (.so) Scan and Improved String search by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2228\r\n* Update macho_analysis.py - SYMBOLS STRIPPED False Negative by @Karmaz95 in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2234\r\n* [EFR-08] Dylib + Symbols + Other Features by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2239\r\n* Fix missing exported components by @Abb4d0n in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2176\r\n* [EFR09] AAR/JAR obfuscation and debug check + Exception Handed strings and symbols extraction by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2240\r\n* [EFR10] Independent Static Library(.a) ELF/MachO Analysis by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2242\r\n* Pip to poetry and Dockerfile update by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2244\r\n* Docker Buildx test by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2247\r\n* [HOTFIX] bs4 malformed xml parsing + xml namespace detection by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2248\r\n* [HOTFIX] Migrate from setup.py to poetry, tox QA by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2249\r\n\r\n## New Contributors\r\n* @Karmaz95 made their first contribution in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2234\r\n* @Abb4d0n made their first contribution in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2176\r\n\r\n**Full Changelog**: https://github.com/MobSF/Mobile-Security-Framework-MobSF/compare/v3.6.9...v3.7.6"
@@ -5004,8 +5004,8 @@
     "https://github.com/rustdesk/rustdesk": {
         "created_at": "2020-09-28 15:36:08",
         "description": "An open-source remote desktop, and alternative to TeamViewer.",
-        "commit_date": "2023-09-05 14:23:40",
-        "commit_message": "Merge pull request #5607 from flusheDData/master\n\nUpdate es.rs",
+        "commit_date": "2023-09-07 16:41:38",
+        "commit_message": "Merge pull request #5625 from dignow/feat/remember_remote_window_fullscreen\n\nFeat/remember remote window fullscreen",
         "release_tag": "1.2.2",
         "release_date": "2023-08-22 01:44:36",
         "release_message": "\r\n![image](https://github.com/rustdesk/rustdesk/assets/71636191/b444deab-7971-4de7-b315-6a9b4974c7ea)\r\n\r\n> Winget, FDroid, Apple Sillicon, Google Play / App Store update will come soon.\r\n\r\nx86-64: [Windows](https://github.com/rustdesk/rustdesk/releases/download/1.2.2/rustdesk-1.2.2-x86_64.exe) | [Ubuntu](https://github.com/rustdesk/rustdesk/releases/download/1.2.2/rustdesk-1.2.2-x86_64.deb) | [Mac](https://github.com/rustdesk/rustdesk/releases/download/1.2.2/rustdesk-1.2.2-x86_64.dmg)\r\nAArch64 (ARM64):  [Ubuntu](https://github.com/rustdesk/rustdesk/releases/download/1.2.2/rustdesk-1.2.2-aarch64.deb) | [Android](https://github.com/rustdesk/rustdesk/releases/download/1.2.2/rustdesk-1.2.2-aarch64-signed.apk) | [Mac](https://github.com/rustdesk/rustdesk/releases/download/1.2.2/rustdesk-1.2.2-aarch64.dmg)\r\n\r\nMore: [check below please](#)\r\n\r\n<details>\r\n<summary>Changelog</summary>\r\n\r\n- Add separate window mode (tab window by default), https://github.com/rustdesk/rustdesk/discussions/2889\r\n![image](https://github.com/rustdesk/rustdesk/assets/71636191/0c73bc6a-8659-4a67-9425-47625a6aded3)\r\n- Fix and improve responsiveness issue introduced in 1.2.0. https://github.com/rustdesk/rustdesk/discussions/5231\r\n- Add device list batch handle\r\n![image](https://github.com/rustdesk/rustdesk/assets/71636191/0ca85b8e-bed3-48ad-a43f-82df983986f3)\r\n- Add command to assign user and strategy for [RustDesk Server Pro](https://rustdesk.com/docs/en/self-host/pro/)\r\n- Optimize address book, syncing password, alias name, device name etc, add tag color, improve error and update status handling\r\n![image](https://github.com/rustdesk/rustdesk/assets/71636191/21d7a226-b863-4dc2-a9d3-fb6cd3a56c5c)\r\n- Fix windows file copy/paste\r\n- Fix \"waiting for image...\" still shown after receiving image bug, refactored rust->flutter message handling https://github.com/rustdesk/rustdesk/issues/4533\r\n- Improve some touchpad support, https://github.com/rustdesk/rustdesk/pull/5049\r\n- Bug fixes.\r\n\r\n</details>\r\n"
@@ -5263,8 +5263,8 @@
     "https://github.com/alibaba/arthas": {
         "created_at": "2018-08-29 17:15:57",
         "description": "Alibaba Java Diagnostic Tool Arthas/Alibaba Java诊断利器Arthas",
-        "commit_date": "2023-08-30 07:08:43",
-        "commit_message": "fix: update platform name in Arthas tutorials (#2641)",
+        "commit_date": "2023-09-07 08:43:51",
+        "commit_message": "change revision to 4.0.0-SNAPSHOT",
         "release_tag": "arthas-all-3.7.1",
         "release_date": "2023-08-24 12:32:49",
         "release_message": "Issues: https://github.com/alibaba/arthas/milestone/49?closed=1\r\n\r\n* #2620 当 listen 0.0.0.0 时，默认生成随机密码，需要鉴权\r\n\r\n* #2633  修复在线教程，切换到 killercoda feat: update online tutorials, switch to killercoda "
@@ -5702,8 +5702,8 @@
     "https://github.com/fortra/impacket": {
         "created_at": "2015-04-15 14:04:07",
         "description": "Impacket is a collection of Python classes for working with network protocols.",
-        "commit_date": "2023-09-04 21:49:50",
-        "commit_message": "Merge pull request #1598 from dependencies_update\n\n* added setuptools requirement for pkg_resources python library\r\nremoved future as it wasn't being used\r\n\r\n* added setuptools to requirements, removed future",
+        "commit_date": "2023-09-07 06:33:11",
+        "commit_message": "Address DHCP python3 bug (#1398)\n\n* Address DHCP python3 bug\r\n\r\n* Fix packed packet format error\r\n\r\n* Apply suggestions from code review\r\n\r\n---------\r\n\r\nCo-authored-by: Ujwal Komarla <ujwalkomarla@duck.com>\r\nCo-authored-by: alexisbalbachan <alexisbalbachan@gmail.com>",
         "release_tag": "impacket_0_11_0",
         "release_date": "2023-08-03 17:36:40",
         "release_message": "## Impacket 0.11.0:\r\nProject's main page at https://www.coresecurity.com/core-labs/open-source-tools/impacket\r\n\r\nChangeLog for 0.11.0:\r\n1. Library improvements \r\n    * Added new Kerberos error codes (@ly4k).\r\n\t* Added `[MS-TSTS]` Terminal Services Terminal Server Runtime Interface Protocol implementation (@nopernik).\r\n    * Changed the setting up for new SSL connections (@mpgn, @CT-H00K and @0xdeaddood).\r\n    * Added a callback function to smbserver for incoming authentications (@p0dalirius).\r\n    * Fix crash in winregistry (@laxa)\r\n    * Fixes in IDispatch derived classes in comev implementation (@NtAlexio2)\r\n    * Fix CVE-2020-17049 in ccache.py (@godylockz)\r\n    * Smbserver: Added SMB2_FILE_ALLOCATION_INFO type determination (@JerAxxxxxxx)\r\n    * tds: Fixed python3 incompatibility when receiving over TLS socket (@exploide)\r\n    * crypto: Ensure passwords are utf-8 encoded before deriving Kerberos keys (@jojonas)\r\n    * ese: Fixed python3 incompatibility when reading from db (@alexisbalbachan)\r\n    * ldap queries: Escaped characters are now correctly parsed (@alexisbalbachan)\r\n    * Support SASL authentication in ldap protocol (@NtAlexio2)\r\n\r\n2. Examples improvements\r\n    * [GetADUsers.py](examples/GetADUsers.py), [GetNPUsers.py](examples/GetNPUsers.py), [GetUserSPNs.py](examples/GetUserSPNs.py) and [findDelegation.py](examples/findDelegation.py):\r\n      * Added dc-host option to connect to specific KDC using its FQDN or NetBIOS name (@rmaksimov and @0xdeaddood).\r\n    * [GetNPUsers.py](examples/GetNPUsers.py)\r\n      * Printing TGT in stdout despite -outputfile parameter (@alexisbalbachan and @Zamanry)\r\n      * Fixed output hash format for AES128/256 (etype 17/18) (@erasmusc)\r\n    * [GetUserSPNs.py](examples/GetUserSPNs.py):\r\n      * Added LDAP paged search (@ThePirateWhoSmellsOfSunflowers and @SAERXCIT).\r\n      * Added a -stealth flag to remove the SPN filter from the LDAP query (@clavoillotte).\r\n      * Improved searchFilter (@ShutdownRepo)\r\n      * Use LDAP paged search (@ThePirateWhoSmellsOfSunflowers)\r\n    * [psexec.py](examples/psexec.py):\r\n      * Added support for name customization using a custom binary file (@Dramelac).\r\n    * [smbexec.py](examples/smbexec.py):\r\n      * Security fixes for privilege escalation vulnerabilities (@bugch3ck).\r\n      * Fixed python3 compatibility issues, added workaround TCP over NetBIOS being disabled (@ljrk0)\r\n    * [secretsdump.py](examples/secretsdump.py):\r\n      * Added a new option to extract only NTDS.DIT data for specific users based on an LDAP filter (@snovvcrash).\r\n      * Security fixes for privilege escalation vulnerabilities (@bugch3ck).  \r\n    * [mssqlclient.py](examples/mssqlclient.py):\r\n      * Added multiple new commands. Now supports xp_dirtree execution (@Mayfly277, @trietend and @TurtleARM).\r\n    * [ntlmrelayx.py](examples/ntlmrelayx.py):\r\n      * Added ability to trigger SQLShell when running ntlmrelayx in interactive mode (@sploutchy).\r\n      * Added filter option to the socks command in ntlmrelayx CLI (@shoxxdj)\r\n      * Added ability to register DNS records through LDAP.\r\n    * [addcomputer.py](examples/addcomputer.py), [rbcd.py](examples/rbcd.py):\r\n      * Allow weak TLS ciphers for LDAP connections (@AdrianVollmer)\r\n    * [Get-GPPPassword.py](examples/Get-GPPPassword.py):\r\n      * Better handling of various XML files in Group Policy Preferences (@p0dalirius)\r\n    * [smbclient.py](examples/smbclient.py):\r\n      * Added recursive file listing (@Sq00ky)\r\n    * [ticketer.py](examples/ticketer.py):\r\n      * Ticket duration is now specified in hours instead of days (@Dramelac)\r\n      * Added extra-pac implementation (@Dramelac)\r\n\r\n3. New examples\r\n    * [net.py](examples/net.py) Implementation of windows net.exe builtin tool (@NtAlexio2)\r\n    * [changepasswd.py](examples/changepasswd.py) New example that allows password changing or reseting through multiple protocols (@Alef-Burzmali, @snovvcrash, @bransh, @api0cradle and @p0dalirius)\r\n    * [DumpNTLMInfo.py](examples/DumpNTLMInfo.py) New example that dumps remote host information in ntlm authentication model, without credentials. For SMB protocols v1, v2 and v3. (@NtAlexio2)\r\n    \r\nAs always, thanks a lot to all these contributors that make this library better every day (up to now):\r\n\r\n@ly4k @nopernik @snovvcrash @ShutdownRepo @kiwids0220 @mpgn @CT-H00K @rmaksimov @arossert @aevy-syn @tirkarthi @p0dalirius @Dramelac @Mayfly277 @S3cur3Th1sSh1t @nobbd @AdrianVollmer @trietend @TurtleARM @ThePirateWhoSmellsOfSunflowers @SAERXCIT @clavoillotte @Marshall-Hallenbeck @sploutchy @almandin @rtpt-alexanderneumann @JerAxxxxxxx @NtAlexio2 @laxa @godylockz @exploide @jojonas @Zamanry @erasmusc @bugch3ck @ljrk0 @Sq00ky @shoxxdj @Alef-Burzmali @bransh @api0cradle @alexisbalbachan @0xdeaddood @sanmopre\r\n"

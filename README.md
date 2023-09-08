@@ -1,8 +1,10 @@
-# 更新于 2023-09-07 08:33:16
+# 更新于 2023-09-08 08:34:21
 
 ## 近15天release更新记录
 | 更新时间 | 项目名称 | 版本 | 更新内容 |
 | :---- | :---- | :---- | :---- |
+|2023-09-07 15:11:02|[faker](https://github.com/joke2k/faker)|v19.4.0|See .|
+|2023-09-07 10:01:41|[safeline](https://github.com/chaitin/safeline)|v3.3.0|### 新增    - 支持设置拦截页面附加说<br>明（）  - 频率限制新增 “人机验证” 的<br>限制方式（）    ### 优化    - 当网站域<br>名不匹配的时候，返回 “网站不存在” ，<br>提示更清晰（）  - 修复 攻击事件->原始日<br>志 的 “攻击地址” 中显示额外的转义符的<br>问题  - 修复站点详情中 “今日总请求量”<br> 和站点列表的 “今日访问量” 不一致的<br>问题（）  - 频率限制后直接封禁的拦截状<br>态码改为 429，和普通拦截 403 区分开，方<br>便排查拦截原因  - 加强后台登录安全性（<br>感谢微信交流 20 群「千年之狐」提供的建<br>议）  - 优化安装/升级时 CPU ssse3 指令<br>集的检查方式（）  - 优化界面样式交互，<br>修复一些已知问题|
 |2023-09-05 15:46:30|[goproxy](https://github.com/snail007/goproxy)|v13.9|1、修复了开启流量上报后，一定条件下导<br>致的内存上涨问题。|
 |2023-09-05 14:59:29|[autoDecoder](https://github.com/f0ng/autoDecoder)|0.31|## 2023.9.5 更新0.31  1. 域名匹配模块<br>中可以进行多域名匹配，修复了原版本无法<br>在多个域名下显示选项卡问题  2. 将接口调<br>试模块的两个换行符取消|
 |2023-09-05 13:23:34|[v2rayA](https://github.com/v2rayA/v2rayA)|v2.2.4|## What's Changed * Fix Windows insta<br>llers' blank version string by @Markso<br>nHon in https://github.com/v2rayA/v2ra<br>yA/pull/1079   **Full Changelog**: htt<br>ps://github.com/v2rayA/v2rayA/compare/<br>v2.2.3...v2.2.4|
@@ -17,7 +19,6 @@
 |2023-09-01 06:38:35|[trivy](https://github.com/aquasecurity/trivy)|v0.45.0|## ⚡Release highlights and summary⚡<br>    👉 https://github.com/aquasecurity<br>/trivy/discussions/5082    ## Changelo<br>g  * cdab67e7f docs: add Bitnami (#507<br>8)  * 7acc5e831 feat(docker): add supp<br>ort for scanning Bitnami components (#<br>5062)  * 9628b1cbf feat: add support f<br>or .trivyignore.yaml (#5070)  * 4547e2<br>766 fix(terraform): improve detection <br>of terraform files (#4984)  * 0c8919e1<br>e feat: filter artifacts on --exclude-<br>owned flag (#5059)  * c04f234fa fix(sb<br>om): cyclonedx advisory should omit nu<br>ll value (#5041)  * f811ed2d4 build: m<br>aximize build space for build tests (#<br>5072)  * 69ea5bf70 feat: improve kbom <br>component name (#5058)  * 3715dcb3f fi<br>x(pom): add licenses for pom artifacts<br> (#5071)  * 07f7e9853 chore(deps): Upd<br>ate defsec to v0.92.0 (#5068)  * d4ca3<br>cce2 chore: bump Go to 1.20 (#5067)  *<br> 49fdd584b feat: PURL matching with qu<br>alifiers in OpenVEX (#5061)  * 4401998<br>ec feat(java): add graph support for p<br>om.xml (#4902)  * 9c211d005 feat(swift<br>): add vulns for cocoapods (#5037)  * <br>422fa414e fix: support image pull secr<br>et for additional workloads (#5052)  *<br> 8e933860a fix: #5033 Superfluous doub<br>le quote in html.tpl (#5036)  * 9345a9<br>8ed docs(repo): update trivy repo usag<br>e and example (#5049)  * 5d8da70c6 per<br>f: Optimize Dockerfile for reduced lay<br>ers and size (#5038)  * 1be9da7aa feat<br>: scan K8s Resources Kind with --all-n<br>amespaces (#5043)  * 0e17d0bef fix: vu<br>lnerability typo (#5044)  * d70fab231 <br>docs: adding a terraform tutorial to t<br>he docs (#3708)  * 2fa264ac1 feat(repo<br>rt): add licenses to sarif format (#48<br>66)  * 07ddf4790 feat(misconf): show t<br>he resource name in the report (#4806)<br>  * 9de360623 chore: update alpine bas<br>e images (#5015)  * ef70d2076 feat: ad<br>d Package.resolved swift files support<br> (#4932)  * ec5d8bec0 feat(nodejs): pa<br>rse licenses in yarn projects (#4652) <br> * 3114c87e6 fix: k8s private registri<br>es support (#5021)  * 6d79f55db bump g<br>ithub.com/testcontainers/testcontainer<br>s-go from 0.21.0 to 0.23.0 (#5018)  * <br>9ace59106 feat(vuln): support last_aff<br>ected field from osv (#4944)  * d44217<br>640 feat(server): add version endpoint<br> (#4869)  * 63cd41d20 feat: k8s privat<br>e registries support (#4987)  * cb16e2<br>3f1 fix(server): add indirect prop to <br>package (#4974)  * a4e981b4e docs: add<br> coverage (#4954)  * 6f03c7940 feat(c)<br>: add location for lock file dependenc<br>ies. (#4994)  * c74870500 docs: adding<br> blog post on ec2 (#4813)  * 4e1316c37<br> revert 32bit bins (#4977)  * fc959fc5<br>7 chore(deps): bump github.com/xlab/tr<br>eeprint from 1.1.0 to 1.2.0 (#4917)   <br> |
 |2023-08-31 16:50:30|[grype](https://github.com/anchore/grype)|v0.66.0|#     ##  (2023-08-31)        ### Add<br>ed Features    - Allow for access to p<br>rivate CAs securely ] ] ]  - Filter ou<br>t packages that are owned by OS packag<br>es (ownership overlap) ] ] ]    ### Bu<br>g Fixes    - fix: Only remove packages<br> by binary overlap ] ]  - New version <br>notice only showing the version and no<br> text ] ]  - fix: set correct default <br>to exclude overlapping binaries ] ]  -<br> Portage version comparison is not wor<br>king ] ] ]    ### Additional Changes  <br>  - Update Syft to 0.89.0      |
 |2023-08-31 15:42:19|[syft](https://github.com/anchore/syft)|v0.89.0|#     ##  (2023-08-31)        ### Add<br>ed Features    - Add registry certific<br>ate verification support  ] ]  - Add S<br>YFT_CONFIG environment variable for co<br>nfiguration file path ] ] ]    ### Bug<br> Fixes    - Fix quiet flag ] ]  - Comm<br>and line flags not overriding configur<br>ation file values ] ] ]  - Django pack<br>age CPE is not correct ] ] ]  - Config<br> parsing includes config.yaml in worki<br>ng dir ] ] ]  - Fix a possible panic o<br>n universal go binaries ] ] ]  - Disab<br>ling catalogers is not working in powe<br>r user command ] ] ]  - Virtual path c<br>hanges to java cataloger causing creat<br>ion of extra incorrect packages when j<br>ars are renamed ] ] ]      |
-|2023-08-31 11:03:51|[safeline](https://github.com/chaitin/safeline)|v3.2.0|#### 新增    - 证书管理支持上传 PKCS1<br>、PKCS8、ECC 私钥格式的证书（）  - 站点<br>详情新增近 30 天请求数，支持批量删除   <br> #### 优化    - 优化站点详情页面，提高<br>加载速度、优化界面样式和逻辑  - 限频的<br>生效阈值由 “超过 xx 次” 改为 “达到 x<br>x 次”（）  - 修复频率限制所拦截的请求<br>，没有被计入站点列表的 “今日访问/拦截<br>量” 的问题  - 修复证书管理的证书有时候<br>无法正常删除的问题（）  - 修复证书管理<br>中，有时候一个证书内会解析出几个重复的<br>域名的问题  - 去掉对 docker 的 seccomp <br>特性的依赖（）  - 优化大量界面样式、交<br>互和操作提示细节|
 |2023-08-31 08:41:49|[Viper](https://github.com/FunnyWolf/Viper)|2023083<br>1|  ### 优化  - 清除不需要的日志,提高系<br>统运行速度  - 优化docker logs日志,存储<br>到日志目录便于问题定位  - docker health<br>check当前检查所有后台服务    ### Bugfi<br>x  - fix https://github.com/FunnyWolf/<br>Viper/issues/117  - fix https://github<br>.com/FunnyWolf/Viper/issues/145|
 |2023-08-30 18:53:08|[rotp](https://github.com/mdp/rotp)|v6.3.0|##  (2023-08-30)   ### Features  * Al<br>low for non-standard provisioning URI <br>params, eg. image/icon () ()|
 |2023-08-29 17:33:01|[mubeng](https://github.com/kitabisa/mubeng)|v0.14.1|## Changelog * 62f3832 build(deps): b<br>ump github.com/sourcegraph/conc from 0<br>.2.0 to 0.3.0 (#187) * 4535c2f build(d<br>eps): bump github.com/briandowns/spinn<br>er from 1.15.0 to 1.23.0 (#190) * 629e<br>737 build(deps): bump github.com/AlecA<br>ivazis/survey/v2 from 2.2.12 to 2.3.7 <br>(#198) * 236d3dc build(deps): bump git<br>hub.com/henvic/httpretty from 0.0.6 to<br> 0.1.2 (#199) * 8459f63 build(deps): b<br>ump docker/login-action from 2.1.0 to <br>2.2.0 (#200) * e3c1ced build(deps): bu<br>mp docker/build-push-action from 4.0.0<br> to 4.1.1 (#202) * 84f4788 build(deps)<br>: bump goreleaser/goreleaser-action fr<br>om 4.2.0 to 4.4.0 (#205) * 2d50755 mis<br>c: Update CONTRIBUTORS * 706cba6 build<br>(deps): bump golangci/golangci-lint-ac<br>tion from 3.4.0 to 3.7.0 (#206) * 5876<br>259 build(deps): bump github.com/valya<br>la/fasttemplate from 1.2.1 to 1.2.2 (#<br>172) * f1b84c8 build(deps): bump actio<br>ns/setup-go from 3 to 4 (#192) * 00c7f<br>87 build(deps): bump peter-evans/creat<br>e-pull-request from 4 to 5 (#194)  |
@@ -28,38 +29,40 @@
 |2023-08-25 16:21:04|[codeql-cli-binari<br>es](https://github.com/github/codeql-cli-binaries)|v2.14.3|### Breaking changes    - The .tool.e<br>xtensions property in the SARIF genera<br>ted by codeql database analyze now con<br>tains the    following packs:      - T<br>he containing query pack for each quer<br>y that was evaluated.    - Each model <br>pack that was specified via the --mode<br>l-packs option, regardless of whether <br>     that model pack affected any of t<br>he evaluated queries.      Library pac<br>ks are no longer included in the list.<br>    ### Miscellaneous    - The build o<br>f Eclipse Temurin OpenJDK that is bund<br>led with the CodeQL    CLI has been up<br>dated to version 17.0.8.    - When cod<br>eql test generates .actual files, they<br> will in some cases    list the query <br>predicates in a different order than p<br>ast versions.    There is no need to u<br>pdate .expected files, as codeql test <br>sorts    their results accordingly bef<br>ore diffing.    However, when there ar<br>e genuine changes in expected results,<br> the    generated .actual file can sho<br>w additional changes against the    .e<br>xpected due to the reordering.    For <br>more information about the changes inc<br>luded in this release, see the .    Yo<br>u can download _either_ the codeql-PLA<br>TFORM.zip for your platform, _or_ the <br>generic codeql.zip which contains bina<br>ries for all supported platforms. Plea<br>se ignore the additional "source code"<br> downloads below the .zip artifacts.  <br>  This release is compatible with the <br>CodeQL language packs from .  |
 |2023-08-24 12:32:49|[arthas](https://github.com/alibaba/arthas)|arthas-<br>all-3.7.<br>1|Issues: https://github.com/alibaba/ar<br>thas/milestone/49?closed=1    * #2620 <br>当 listen 0.0.0.0 时，默认生成随机密码<br>，需要鉴权    * #2633  修复在线教程，切<br>换到 killercoda feat: update online tut<br>orials, switch to killercoda |
 |2023-08-24 12:07:24|[mitaka](https://github.com/ninoseki/mitaka)|v1.3.2|- Fix Censys's search query format (#<br>749)   - Disable IntelligenceX (#749)|
-|2023-08-23 21:37:04|[faker](https://github.com/joke2k/faker)|v19.3.1|See .|
-|2023-08-23 06:23:07|[AV_Evasion_Tool](https://github.com/1y0n/AV_Evasion_Tool)|2023082<br>3|1. 效果优化|
 ## 近15天commit提交记录
 | 提交时间 | 项目名称 | 更新内容 |
 | :---- | :---- | :---- |
-|2023-09-07 00:00:03|[free](https://github.com/freefq/free)|updated_at 09-07 08:00|
-|2023-09-06 23:21:12|[PocOrExp_in_Githu<br>b](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-09-07 07:21:12|
+|2023-09-08 00:00:04|[free](https://github.com/freefq/free)|updated_at 09-08 08:00|
+|2023-09-07 23:18:19|[PocOrExp_in_Githu<br>b](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-09-08 07:18:19|
+|2023-09-07 20:17:29|[trivy](https://github.com/aquasecurity/trivy)|chore(deps): bump golangci/golangci-lint-action fro<br>m 3.6.0 to 3.7.0 (#5103)  Bumps  from 3.6.0 to 3.7.0<br>. -  -   --- updated-dependencies: - dependency-name<br>: golangci/golangci-lint-action   dependency-type: d<br>irect:production   update-type: version-update:semve<br>r-minor ...  Signed-off-by: dependabot[bot]  Co-auth<br>ored-by: dependabot[bot] |
+|2023-09-07 19:54:42|[syft](https://github.com/anchore/syft)|fix: update codeql-analysis for go 1.21 (#2108)  * <br>fix: update codeql-analysis for go 1.21    Signed-of<br>f-by: Christopher Phillips     * nit: remove comment<br>    Signed-off-by: Christopher Phillips     --------<br>-    Signed-off-by: Christopher Phillips |
+|2023-09-07 18:55:38|[grype](https://github.com/anchore/grype)|chore: update grype to use Go v1.21 (#1480)  Signed<br>-off-by: Christopher Phillips |
+|2023-09-07 17:44:13|[vulhub](https://github.com/vulhub/vulhub)|Merge pull request #460 from vulhub/hadolint-upgrad<br>e  upgrade hadolint to 2.12.0|
+|2023-09-07 16:41:38|[rustdesk](https://github.com/rustdesk/rustdesk)|Merge pull request #5625 from dignow/feat/remember_<br>remote_window_fullscreen  Feat/remember remote windo<br>w fullscreen|
+|2023-09-07 15:09:44|[faker](https://github.com/joke2k/faker)|Bump version: 19.3.1 → 19.4.0|
+|2023-09-07 14:28:49|[dbeaver](https://github.com/dbeaver/dbeaver)|dbeaver/pro#1776 Pronounce editor tab names (#21075<br>)|
+|2023-09-07 12:35:34|[v2rayfree](https://github.com/aiboboxx/v2rayfree)|update|
+|2023-09-07 11:15:11|[Elkeid](https://github.com/bytedance/Elkeid)|Merge pull request #533 from bytedance/fix-python-b<br>uild  Fix python build|
+|2023-09-07 09:54:04|[safeline](https://github.com/chaitin/safeline)|fix(websiet): node 20.6 version can't compile docs|
+|2023-09-07 09:03:01|[sqlmap](https://github.com/sqlmapproject/sqlmap)|Fixes #5521|
+|2023-09-07 08:43:51|[arthas](https://github.com/alibaba/arthas)|change revision to 4.0.0-SNAPSHOT|
+|2023-09-07 07:50:34|[vulnerability](https://github.com/lal0ne/vulnerability)|CVE-2023-38035|
+|2023-09-07 06:55:06|[Mobile-Security-F<br>ramework-MobSF](https://github.com/MobSF/Mobile-Security-Framework-MobSF)|[HOTFIX] iOS Framework Analysis + Multiple Feature <br>QA (#2260)  * iOS Framework Analysis  * Static Analy<br>sis URL simplification  * Replace hardcoded urls in <br>template with {% url %}  * Code QA  * Remove unwante<br>d template file  * Remove rescan query param from ur<br>l  * Android icon SVG guessing improvements  * Icon <br>analysis refactoring, change icon storage location  <br>* Remove SVG to PNG converter. Support PNG and SVG i<br>con.  * Github docker release action update|
+|2023-09-07 06:33:11|[impacket](https://github.com/fortra/impacket)|Address DHCP python3 bug (#1398)  * Address DHCP py<br>thon3 bug    * Fix packed packet format error    * A<br>pply suggestions from code review    ---------    Co<br>-authored-by: Ujwal Komarla   Co-authored-by: alexis<br>balbachan |
 |2023-09-06 20:09:04|[neuvector](https://github.com/neuvector/neuvector)|Merge pull request #994 from becitsthere/dev  NVSHA<br>S-8241: Add description to vul log|
-|2023-09-06 17:51:51|[grype](https://github.com/anchore/grype)|chore: bump quality gate to use syft v0.89.0 (#1479<br>)  Signed-off-by: Weston Steimel |
-|2023-09-06 15:43:01|[syft](https://github.com/anchore/syft)|feat(cmd/update): add UA header with current ver wh<br>en check for update (#2100)  Signed-off-by: hainenbe<br>r |
 |2023-09-06 15:42:01|[murphysec](https://github.com/murphysecurity/murphysec)|feat(env): DO_NOT_BUILD|
 |2023-09-06 13:59:16|[iDefender](https://github.com/wecooperate/iDefender)|update|
 |2023-09-06 12:42:03|[ChatGPT-Shortcut](https://github.com/rockbenben/ChatGPT-Shortcut)|feat: Switch authentication from cookies to localSt<br>orage to support new extension features|
-|2023-09-06 12:35:56|[v2rayfree](https://github.com/aiboboxx/v2rayfree)|update|
-|2023-09-06 12:03:39|[dbeaver](https://github.com/dbeaver/dbeaver)|#21114 Handle cases with null key value (#21118)|
-|2023-09-06 11:09:44|[trivy](https://github.com/aquasecurity/trivy)|chore(deps): bump github.com/aws/aws-sdk-go from 1.<br>44.273 to 1.45.3 (#5126)  Bumps  from 1.44.273 to 1.<br>45.3. -  -   --- updated-dependencies: - dependency-<br>name: github.com/aws/aws-sdk-go   dependency-type: d<br>irect:production   update-type: version-update:semve<br>r-minor ...  Signed-off-by: dependabot[bot]  Co-auth<br>ored-by: dependabot[bot] |
 |2023-09-06 09:32:18|[0day](https://github.com/helloexp/0day)|add CVE-2021-4034 polkit privilege escalation explo<br>it|
-|2023-09-06 07:33:21|[vulnerability](https://github.com/lal0ne/vulnerability)|CVE-2023-28434|
 |2023-09-06 07:16:01|[v2rayA](https://github.com/v2rayA/v2rayA)|Merge pull request #1081 from MarksonHon/feat_v5  c<br>i(release_feat_v5): some changes|
 |2023-09-06 04:26:00|[zpscan](https://github.com/niudaii/zpscan)|fix: jsjump|
 |2023-09-06 02:18:02|[frp](https://github.com/fatedier/frp)|support yaml/json/toml configuration format, make i<br>ni deprecated (#3599)|
 |2023-09-06 00:52:01|[afrog](https://github.com/zan8in/afrog)|update|
 |2023-09-05 15:15:04|[MockingBird](https://github.com/babysor/MockingBird)|Skip embedding (#950)  * Skip embedding    * Skip e<br>arlier    * Remove unused paramater    * Pass param|
 |2023-09-05 15:00:35|[autoDecoder](https://github.com/f0ng/autoDecoder)|Update FAQ.md|
-|2023-09-05 14:23:40|[rustdesk](https://github.com/rustdesk/rustdesk)|Merge pull request #5607 from flusheDData/master  U<br>pdate es.rs|
-|2023-09-05 10:15:30|[safeline](https://github.com/chaitin/safeline)|Merge pull request #285 from YueWey/main  feat(): c<br>heck IS flag in both lscpu and cpuinfo file|
 |2023-09-05 09:40:09|[FreeRDP](https://github.com/FreeRDP/FreeRDP)|[codec,progressive] expose progressive simple  serv<br>er implementations might require serializing message<br>s to a simple tile, so expose this function.|
 |2023-09-05 06:56:25|[Awesome-POC](https://github.com/Threekiii/Awesome-POC)|更新漏洞|
 |2023-09-05 06:44:46|[Awesome-Redteam](https://github.com/Threekiii/Awesome-Redteam)|更新README.md|
-|2023-09-04 22:12:36|[Mobile-Security-F<br>ramework-MobSF](https://github.com/MobSF/Mobile-Security-Framework-MobSF)|[HOTFIX] simplify scan api (#2259)  * Simplify Scan<br> API  * Need only scan hash to trigger a scan  * Upd<br>ated API Docs|
-|2023-09-04 21:49:50|[impacket](https://github.com/fortra/impacket)|Merge pull request #1598 from dependencies_update  <br>* added setuptools requirement for pkg_resources pyt<br>hon library  removed future as it wasn't being used <br>   * added setuptools to requirements, removed futur<br>e|
-|2023-09-04 16:47:25|[sqlmap](https://github.com/sqlmapproject/sqlmap)|Minor patch (#5508)|
 |2023-09-04 16:15:17|[nemo_go](https://github.com/hanc00l/nemo_go)|Update: v2.10.1|
 |2023-09-04 13:20:16|[RouteVulScan](https://github.com/F6JO/RouteVulScan)|Update threads.java|
 |2023-09-04 10:22:18|[suo5](https://github.com/zema1/suo5)|Merge pull request #37 from zema1/bump-go-version  <br>feat: bump up go to v1.20|
@@ -70,13 +73,10 @@
 |2023-09-02 05:17:50|[URLFinder](https://github.com/pingc0y/URLFinder)|2023/9/2更新|
 |2023-09-01 14:06:59|[dperf](https://github.com/baidu/dperf)|Merge pull request #368 from pengjianzhang/main  mo<br>ve docs to dperf.org|
 |2023-09-01 11:00:54|[veinmind-tools](https://github.com/chaitin/veinmind-tools)|docs: update report manual (#266)|
-|2023-09-01 10:19:41|[Elkeid](https://github.com/bytedance/Elkeid)|Merge pull request #529 from yoloyyh/main|
 |2023-09-01 07:34:07|[ObserverWard](https://github.com/0x727/ObserverWard)|Merge pull request #195 from 0x727/dependabot/cargo<br>/actix-web-4.4.0  Bump actix-web from 4.3.1 to 4.4.0|
-|2023-08-31 16:15:04|[faker](https://github.com/joke2k/faker)|Add schemes and deep argument to uri method|
 |2023-08-31 08:41:02|[Viper](https://github.com/FunnyWolf/Viper)|update version 2023-08-31|
 |2023-08-30 19:25:56|[rotp](https://github.com/mdp/rotp)|chore: Add the .gem file to release for easier publ<br>ishing in an MFA world (#133)|
 |2023-08-30 13:24:01|[ddddocr](https://github.com/sml2h3/ddddocr)|修复pillow的版本引用问题|
-|2023-08-30 07:08:43|[arthas](https://github.com/alibaba/arthas)|fix: update platform name in Arthas tutorials (#264<br>1)|
 |2023-08-29 15:14:11|[mubeng](https://github.com/kitabisa/mubeng)|build(deps): bump github.com/sourcegraph/conc from <br>0.2.0 to 0.3.0 (#187)  Bumps  from 0.2.0 to 0.3.0.  <br>-   -     ---  updated-dependencies:  - dependency-n<br>ame: github.com/sourcegraph/conc    dependency-type:<br> direct:production    update-type: version-update:se<br>mver-minor  ...    Signed-off-by: dependabot[bot]   <br>Co-authored-by: dependabot[bot] |
 |2023-08-29 06:09:32|[Vuln-List](https://github.com/wwl012345/Vuln-List)|Update 终端软件漏洞合集.md|
 |2023-08-28 09:28:41|[semgrepper](https://github.com/gand3lf/semgrepper)|Merge pull request #9 from tghosth/clarify-running <br> Update README.md with tutorial|
@@ -94,11 +94,7 @@
 |2023-08-24 17:48:31|[PEASS-ng](https://github.com/carlospolop/PEASS-ng)|Update ProcessInfo.cs|
 |2023-08-24 15:08:14|[AsamF](https://github.com/Kento-Sec/AsamF)|Update README.md|
 |2023-08-24 09:24:05|[ARL](https://github.com/TophantTechnology/ARL)|Merge pull request #622 from NAXG/master  add chaos|
-|2023-08-24 07:24:36|[wpscan](https://github.com/wpscanteam/wpscan)|Adds DFs|
-|2023-08-23 07:23:32|[Some-PoC-oR-ExP](https://github.com/coffeehb/Some-PoC-oR-ExP)|Create windowUnloading_bypass.md|
-|2023-08-23 06:25:21|[AV_Evasion_Tool](https://github.com/1y0n/AV_Evasion_Tool)|Update README.md|
-|2023-08-23 03:01:15|[OA-EXPTOOL](https://github.com/LittleBear4/OA-EXPTOOL)|Delete tongda-V11.10-未授权任意文件上传.yaml|
-|2023-08-23 02:56:53|[Library-POC](https://github.com/luck-ying/Library-POC)|Update README.md|## 所有项目
+|2023-08-24 07:24:36|[wpscan](https://github.com/wpscanteam/wpscan)|Adds DFs|## 所有项目
 # 渗透测试
 ## 信息收集
 ### 资产测绘采集
@@ -1256,7 +1252,7 @@
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
 | [openstar](https://github.com/starjun/openstar) |  | lua waf,nginx+lua,openresty,luajit,waf+,cdn,nginx |
-| [safeline](https://github.com/chaitin/safeline) | v3.2.0 | 一款足够简单、足够好用、足够强的免费 WAF。基于业界领先的语义引<br>擎检测技术，作为反向代理接入，保护你的网站不受黑客攻击。 |
+| [safeline](https://github.com/chaitin/safeline) | v3.3.0 | 一款足够简单、足够好用、足够强的免费 WAF。基于业界领先的语义引<br>擎检测技术，作为反向代理接入，保护你的网站不受黑客攻击。 |
 ## 欺骗防御
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
@@ -1281,7 +1277,7 @@
 ## 生成虚假数据
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
-| [faker](https://github.com/joke2k/faker) | v19.3.1 | Faker is a Python package that generates fake data for you. |
+| [faker](https://github.com/joke2k/faker) | v19.4.0 | Faker is a Python package that generates fake data for you. |
 ## 短信转发器
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
