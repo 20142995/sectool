@@ -1,14 +1,14 @@
-# 更新于 2023-09-08 08:34:21
+# 更新于 2023-09-09 08:34:11
 
 ## 近15天release更新记录
 | 更新时间 | 项目名称 | 版本 | 更新内容 |
 | :---- | :---- | :---- | :---- |
-|2023-09-07 15:11:02|[faker](https://github.com/joke2k/faker)|v19.4.0|See .|
+|2023-09-08 21:18:40|[faker](https://github.com/joke2k/faker)|v19.6.0|See .|
+|2023-09-08 02:11:54|[Elkeid](https://github.com/bytedance/Elkeid)|rasp-v2<br>.2.0.9||
 |2023-09-07 10:01:41|[safeline](https://github.com/chaitin/safeline)|v3.3.0|### 新增    - 支持设置拦截页面附加说<br>明（）  - 频率限制新增 “人机验证” 的<br>限制方式（）    ### 优化    - 当网站域<br>名不匹配的时候，返回 “网站不存在” ，<br>提示更清晰（）  - 修复 攻击事件->原始日<br>志 的 “攻击地址” 中显示额外的转义符的<br>问题  - 修复站点详情中 “今日总请求量”<br> 和站点列表的 “今日访问量” 不一致的<br>问题（）  - 频率限制后直接封禁的拦截状<br>态码改为 429，和普通拦截 403 区分开，方<br>便排查拦截原因  - 加强后台登录安全性（<br>感谢微信交流 20 群「千年之狐」提供的建<br>议）  - 优化安装/升级时 CPU ssse3 指令<br>集的检查方式（）  - 优化界面样式交互，<br>修复一些已知问题|
 |2023-09-05 15:46:30|[goproxy](https://github.com/snail007/goproxy)|v13.9|1、修复了开启流量上报后，一定条件下导<br>致的内存上涨问题。|
 |2023-09-05 14:59:29|[autoDecoder](https://github.com/f0ng/autoDecoder)|0.31|## 2023.9.5 更新0.31  1. 域名匹配模块<br>中可以进行多域名匹配，修复了原版本无法<br>在多个域名下显示选项卡问题  2. 将接口调<br>试模块的两个换行符取消|
 |2023-09-05 13:23:34|[v2rayA](https://github.com/v2rayA/v2rayA)|v2.2.4|## What's Changed * Fix Windows insta<br>llers' blank version string by @Markso<br>nHon in https://github.com/v2rayA/v2ra<br>yA/pull/1079   **Full Changelog**: htt<br>ps://github.com/v2rayA/v2rayA/compare/<br>v2.2.3...v2.2.4|
-|2023-09-05 10:48:19|[Elkeid](https://github.com/bytedance/Elkeid)|rasp-v2<br>.2.0.8||
 |2023-09-04 16:43:03|[nemo_go](https://github.com/hanc00l/nemo_go)|v2.10.1|### Update    - IP/Domain列表视图下显<br>示当前页的统计信息，优化IP和Domain的列<br>表查询功能；  - 增加XScan任务通过API接<br>口获取资产、重构自定义API搜索代码，目前<br>支持FOFA、Hunter及Quake引擎； 对FOFA自<br>定义关键词进行界面的优化  - 重构网络空<br>间在线资产搜索接口的代码；在线资产搜索<br>平台FOFA、Hunter、Quake及备案查询的API<br>口支持同时配置多个（以,分开）；FOFA的AP<br>I采用email:  token的方式配置（取消单独<br>的email字段）；  - quake的域名从quake.3<br>60.cn 变更为quake.360.net；完善onlinea<br>pi查询的查询语句、去除可能包含敏感信息<br>的过滤词（可能API导致查询失败）  - 取消<br>web显示页面的siderbar的隐藏； Domain列<br>表增加端口的显示和快速链接  - web测试在<br>线资产api可用性采用多线程方式；优化web<br>测试在线资产api代码限制只测试100条记录 <br> - 在IP和Domain的Web列表视图中，只显示<br>前5张screenshot，添加点击显示更多的提示<br>信息  - 重构离线扫描结果资产导入，去除n<br>aabu和TXPortmap  - 增加web的https功能<br>，为RPC及filesync启用TLS加密功能；增加t<br>ls方式下的自签名证书的生成  - 文件同步<br>文件对比列表代码重构  - Makefile    ###<br> Fix    - Hunter与Fofa在重构代码时base<br>64编码器错误  - online search sizeTota<br>l limit  - IP和域名详情页http_header字<br>段超长导致显示效果异常  - XScan根据的Xo<br>rganization直接调用数据库查询IP和Domai<br>n资产的Bug|
 |2023-09-04 12:23:06|[dbeaver](https://github.com/dbeaver/dbeaver)|23.2.0|             - Changes since 23.1.5: <br>                - Data Editor:        <br>             - Spatial values renderin<br>g was fixed                     - Spat<br>ial images capture was fixed          <br>           - Special characters render<br>ing was improved                     -<br> Grouping panel icons were improved   <br>              - ER Diagrams: saved dia<br>grams now can be opened on another com<br>puters                 - Data transfer<br>: import settings handling was improve<br>d                 - Accessibility:    <br>                 - Connection dialog n<br>ow supports screen readers            <br>         - Cell value reading was impr<br>oved                     - Ctrl+Shift/<br>Alt+PageDn: vertical tabs switch      <br>               - Ctrl+ALT+6: SQL edito<br>r and results tab switch              <br>       - Ctrl+Shift+Enter now opens ER<br> diagram entities                     <br>- Ctrl+Shift+N: new connection dialog <br>open                 - Database driver<br>s:                     - Bigquery: DDL<br> for tables, views and stored procedur<br>es was added                     - Cli<br>ckhouse: arrays and structures visuali<br>zation was fixed                     -<br> Greenplum: external tables reading wa<br>s fixed                     - Teradata<br>: issue with the missing templates was<br> fixed                 - Many minor UI<br> and database issues were resolved    <br>         |
 |2023-09-04 10:30:10|[nuclei](https://github.com/projectdiscovery/nuclei)|v2.9.14|    ## What's Changed  ### 🎉 New Fea<br>tures  * Added **impact** field under <br>template information block by @ehsande<br>ep in https://github.com/projectdiscov<br>ery/nuclei/pull/4121    yaml    impact<br>: |      Successful exploitation of th<br>is vulnerability could allow an attack<br>er to send arbitrary requests from the<br> server, potentially leading to unauth<br>orized access or data leakage.      ##<br># 🔨 Maintenance  * Updated mock outpu<br>t writer to write the failed event by <br>@ShubhamRasal in https://github.com/pr<br>ojectdiscovery/nuclei/pull/4099  * Upd<br>ated stringsutil.HasPrefixAnyI by @dog<br>ancanbakir in https://github.com/proje<br>ctdiscovery/nuclei/pull/4097    ### Ot<br>her Changes  * Fixed data-race warning<br>s by @RamanaReddy0M in https://github.<br>com/projectdiscovery/nuclei/pull/4036 <br> * Fixed issue with connection reuse i<br>n host-spray mode by @Mzack9999 in htt<br>ps://github.com/projectdiscovery/nucle<br>i/pull/3991  * Added utm_source in ver<br>sion check by @tarunKoyalwar in https:<br>//github.com/projectdiscovery/nuclei/p<br>ull/4112  * Updated template URL from <br>GitHub to https://templates.nuclei.sh <br>in jsonl output  by @dogancanbakir in <br>https://github.com/projectdiscovery/nu<br>clei/pull/4110        **Full Changelog<br>**: https://github.com/projectdiscover<br>y/nuclei/compare/v2.9.13...v2.9.14|
@@ -27,30 +27,31 @@
 |2023-08-26 11:42:13|[OneScan](https://github.com/vaycore/OneScan)|v1.2.1|1.2.1 版本发布，紧急修复    ### 修复 <br>   - 修复扫描时请求包出现 -1 的问题|
 |2023-08-26 02:44:27|[qsnctf-python](https://github.com/Moxin1044/qsnctf-python)|0.0.8.1<br>0|### 说明  本次根据Issues提升了依赖PyE<br>xecJS的版本，由原先的**PyExecJS 1.5.1*<br>*直升到了**PyExecJS2 1.6.1**。  已经安<br>装的用户可以使用python3 -m pip install <br>-U qsnctf 进行更新，目前版本为0.0.8.10<br>。  如果在使用过程中有其他的问题，您可<br>使用Issues提交。|
 |2023-08-25 16:21:04|[codeql-cli-binari<br>es](https://github.com/github/codeql-cli-binaries)|v2.14.3|### Breaking changes    - The .tool.e<br>xtensions property in the SARIF genera<br>ted by codeql database analyze now con<br>tains the    following packs:      - T<br>he containing query pack for each quer<br>y that was evaluated.    - Each model <br>pack that was specified via the --mode<br>l-packs option, regardless of whether <br>     that model pack affected any of t<br>he evaluated queries.      Library pac<br>ks are no longer included in the list.<br>    ### Miscellaneous    - The build o<br>f Eclipse Temurin OpenJDK that is bund<br>led with the CodeQL    CLI has been up<br>dated to version 17.0.8.    - When cod<br>eql test generates .actual files, they<br> will in some cases    list the query <br>predicates in a different order than p<br>ast versions.    There is no need to u<br>pdate .expected files, as codeql test <br>sorts    their results accordingly bef<br>ore diffing.    However, when there ar<br>e genuine changes in expected results,<br> the    generated .actual file can sho<br>w additional changes against the    .e<br>xpected due to the reordering.    For <br>more information about the changes inc<br>luded in this release, see the .    Yo<br>u can download _either_ the codeql-PLA<br>TFORM.zip for your platform, _or_ the <br>generic codeql.zip which contains bina<br>ries for all supported platforms. Plea<br>se ignore the additional "source code"<br> downloads below the .zip artifacts.  <br>  This release is compatible with the <br>CodeQL language packs from .  |
-|2023-08-24 12:32:49|[arthas](https://github.com/alibaba/arthas)|arthas-<br>all-3.7.<br>1|Issues: https://github.com/alibaba/ar<br>thas/milestone/49?closed=1    * #2620 <br>当 listen 0.0.0.0 时，默认生成随机密码<br>，需要鉴权    * #2633  修复在线教程，切<br>换到 killercoda feat: update online tut<br>orials, switch to killercoda |
-|2023-08-24 12:07:24|[mitaka](https://github.com/ninoseki/mitaka)|v1.3.2|- Fix Censys's search query format (#<br>749)   - Disable IntelligenceX (#749)|
 ## 近15天commit提交记录
 | 提交时间 | 项目名称 | 更新内容 |
 | :---- | :---- | :---- |
-|2023-09-08 00:00:04|[free](https://github.com/freefq/free)|updated_at 09-08 08:00|
-|2023-09-07 23:18:19|[PocOrExp_in_Githu<br>b](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-09-08 07:18:19|
-|2023-09-07 20:17:29|[trivy](https://github.com/aquasecurity/trivy)|chore(deps): bump golangci/golangci-lint-action fro<br>m 3.6.0 to 3.7.0 (#5103)  Bumps  from 3.6.0 to 3.7.0<br>. -  -   --- updated-dependencies: - dependency-name<br>: golangci/golangci-lint-action   dependency-type: d<br>irect:production   update-type: version-update:semve<br>r-minor ...  Signed-off-by: dependabot[bot]  Co-auth<br>ored-by: dependabot[bot] |
-|2023-09-07 19:54:42|[syft](https://github.com/anchore/syft)|fix: update codeql-analysis for go 1.21 (#2108)  * <br>fix: update codeql-analysis for go 1.21    Signed-of<br>f-by: Christopher Phillips     * nit: remove comment<br>    Signed-off-by: Christopher Phillips     --------<br>-    Signed-off-by: Christopher Phillips |
+|2023-09-09 00:00:02|[free](https://github.com/freefq/free)|updated_at 09-09 08:00|
+|2023-09-08 23:19:50|[PocOrExp_in_Githu<br>b](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-09-09 07:19:50|
+|2023-09-08 21:18:01|[faker](https://github.com/joke2k/faker)|Bump version: 19.5.0 → 19.6.0|
+|2023-09-08 18:10:00|[syft](https://github.com/anchore/syft)|chore(deps): update stereoscope to 057dda3667e7f2b5<br>e6ec6716747badd5f403c6de (#2109)  Signed-off-by: Git<br>Hub   Co-authored-by: kzantow |
+|2023-09-08 17:31:55|[neuvector](https://github.com/neuvector/neuvector)|Merge pull request #997 from gfsuse/prune_ns  NVSHA<br>S-8246, Improve pruning namespace func to delete rel<br>ated rules faster to avoid holding lock too long|
+|2023-09-08 16:16:36|[nuclei](https://github.com/projectdiscovery/nuclei)|dark mode fixes!|
+|2023-09-08 15:01:49|[dbeaver](https://github.com/dbeaver/dbeaver)|Merge branch 'devel' of https://github.com/dbeaver/<br>dbeaver into devel|
+|2023-09-08 14:04:16|[trivy](https://github.com/aquasecurity/trivy)|chore(deps): bump sigstore/cosign-installer (#5104)<br>  Bumps  from a5d81fb6bdbcbb3d239e864d65528204202544<br>94 to 4a861528be5e691840a69536975ada1d4c30349d. -  -<br>   --- updated-dependencies: - dependency-name: sigs<br>tore/cosign-installer   dependency-type: direct:prod<br>uction ...  Signed-off-by: dependabot[bot]  Co-autho<br>red-by: dependabot[bot] |
+|2023-09-08 12:44:22|[FreeRDP](https://github.com/FreeRDP/FreeRDP)|[codec,interleaved] fix type definition|
+|2023-09-08 12:35:05|[v2rayfree](https://github.com/aiboboxx/v2rayfree)|update|
+|2023-09-08 08:40:42|[murphysec](https://github.com/murphysecurity/murphysec)|feat(cmd): SBOM scan|
+|2023-09-08 08:35:10|[rustdesk](https://github.com/rustdesk/rustdesk)|Merge pull request #5635 from solokot/master  Updat<br>e ru.rs|
+|2023-09-08 05:43:49|[autoDecoder](https://github.com/f0ng/autoDecoder)|Update README.md|
+|2023-09-08 04:05:36|[arthas](https://github.com/alibaba/arthas)|sysenv/sysprop command sorted by key #2619 (#2652)|
 |2023-09-07 18:55:38|[grype](https://github.com/anchore/grype)|chore: update grype to use Go v1.21 (#1480)  Signed<br>-off-by: Christopher Phillips |
 |2023-09-07 17:44:13|[vulhub](https://github.com/vulhub/vulhub)|Merge pull request #460 from vulhub/hadolint-upgrad<br>e  upgrade hadolint to 2.12.0|
-|2023-09-07 16:41:38|[rustdesk](https://github.com/rustdesk/rustdesk)|Merge pull request #5625 from dignow/feat/remember_<br>remote_window_fullscreen  Feat/remember remote windo<br>w fullscreen|
-|2023-09-07 15:09:44|[faker](https://github.com/joke2k/faker)|Bump version: 19.3.1 → 19.4.0|
-|2023-09-07 14:28:49|[dbeaver](https://github.com/dbeaver/dbeaver)|dbeaver/pro#1776 Pronounce editor tab names (#21075<br>)|
-|2023-09-07 12:35:34|[v2rayfree](https://github.com/aiboboxx/v2rayfree)|update|
 |2023-09-07 11:15:11|[Elkeid](https://github.com/bytedance/Elkeid)|Merge pull request #533 from bytedance/fix-python-b<br>uild  Fix python build|
 |2023-09-07 09:54:04|[safeline](https://github.com/chaitin/safeline)|fix(websiet): node 20.6 version can't compile docs|
 |2023-09-07 09:03:01|[sqlmap](https://github.com/sqlmapproject/sqlmap)|Fixes #5521|
-|2023-09-07 08:43:51|[arthas](https://github.com/alibaba/arthas)|change revision to 4.0.0-SNAPSHOT|
 |2023-09-07 07:50:34|[vulnerability](https://github.com/lal0ne/vulnerability)|CVE-2023-38035|
 |2023-09-07 06:55:06|[Mobile-Security-F<br>ramework-MobSF](https://github.com/MobSF/Mobile-Security-Framework-MobSF)|[HOTFIX] iOS Framework Analysis + Multiple Feature <br>QA (#2260)  * iOS Framework Analysis  * Static Analy<br>sis URL simplification  * Replace hardcoded urls in <br>template with {% url %}  * Code QA  * Remove unwante<br>d template file  * Remove rescan query param from ur<br>l  * Android icon SVG guessing improvements  * Icon <br>analysis refactoring, change icon storage location  <br>* Remove SVG to PNG converter. Support PNG and SVG i<br>con.  * Github docker release action update|
 |2023-09-07 06:33:11|[impacket](https://github.com/fortra/impacket)|Address DHCP python3 bug (#1398)  * Address DHCP py<br>thon3 bug    * Fix packed packet format error    * A<br>pply suggestions from code review    ---------    Co<br>-authored-by: Ujwal Komarla   Co-authored-by: alexis<br>balbachan |
-|2023-09-06 20:09:04|[neuvector](https://github.com/neuvector/neuvector)|Merge pull request #994 from becitsthere/dev  NVSHA<br>S-8241: Add description to vul log|
-|2023-09-06 15:42:01|[murphysec](https://github.com/murphysecurity/murphysec)|feat(env): DO_NOT_BUILD|
 |2023-09-06 13:59:16|[iDefender](https://github.com/wecooperate/iDefender)|update|
 |2023-09-06 12:42:03|[ChatGPT-Shortcut](https://github.com/rockbenben/ChatGPT-Shortcut)|feat: Switch authentication from cookies to localSt<br>orage to support new extension features|
 |2023-09-06 09:32:18|[0day](https://github.com/helloexp/0day)|add CVE-2021-4034 polkit privilege escalation explo<br>it|
@@ -59,14 +60,11 @@
 |2023-09-06 02:18:02|[frp](https://github.com/fatedier/frp)|support yaml/json/toml configuration format, make i<br>ni deprecated (#3599)|
 |2023-09-06 00:52:01|[afrog](https://github.com/zan8in/afrog)|update|
 |2023-09-05 15:15:04|[MockingBird](https://github.com/babysor/MockingBird)|Skip embedding (#950)  * Skip embedding    * Skip e<br>arlier    * Remove unused paramater    * Pass param|
-|2023-09-05 15:00:35|[autoDecoder](https://github.com/f0ng/autoDecoder)|Update FAQ.md|
-|2023-09-05 09:40:09|[FreeRDP](https://github.com/FreeRDP/FreeRDP)|[codec,progressive] expose progressive simple  serv<br>er implementations might require serializing message<br>s to a simple tile, so expose this function.|
 |2023-09-05 06:56:25|[Awesome-POC](https://github.com/Threekiii/Awesome-POC)|更新漏洞|
 |2023-09-05 06:44:46|[Awesome-Redteam](https://github.com/Threekiii/Awesome-Redteam)|更新README.md|
 |2023-09-04 16:15:17|[nemo_go](https://github.com/hanc00l/nemo_go)|Update: v2.10.1|
 |2023-09-04 13:20:16|[RouteVulScan](https://github.com/F6JO/RouteVulScan)|Update threads.java|
 |2023-09-04 10:22:18|[suo5](https://github.com/zema1/suo5)|Merge pull request #37 from zema1/bump-go-version  <br>feat: bump up go to v1.20|
-|2023-09-04 09:41:55|[nuclei](https://github.com/projectdiscovery/nuclei)|Merge branch 'dev'|
 |2023-09-04 03:12:54|[404StarLink](https://github.com/knownsec/404StarLink)|weekly update at 2023-09-04|
 |2023-09-02 23:11:37|[DecoyMini](https://github.com/decoymini/DecoyMini)|Update README.md|
 |2023-09-02 15:38:22|[awesome-chatgpt-z<br>h](https://github.com/yzfly/awesome-chatgpt-zh)|add codellama, llms|
@@ -90,11 +88,7 @@
 |2023-08-26 10:15:19|[mitaka](https://github.com/ninoseki/mitaka)|Merge pull request #751 from ninoseki/refaoctor-nul<br>l-undefined  refactor: remove !== null/undefined|
 |2023-08-26 03:35:58|[dirsearch](https://github.com/maurosoria/dirsearch)|Merge pull request #1310 from godspeedcurry/master <br> Update dicc.txt|
 |2023-08-26 02:35:55|[qsnctf-python](https://github.com/Moxin1044/qsnctf-python)|build( Version ): ⬆️ 0.0.8.10|
-|2023-08-25 15:48:38|[codeql-cli-binari<br>es](https://github.com/github/codeql-cli-binaries)|Update changelog for 2.14.3|
-|2023-08-24 17:48:31|[PEASS-ng](https://github.com/carlospolop/PEASS-ng)|Update ProcessInfo.cs|
-|2023-08-24 15:08:14|[AsamF](https://github.com/Kento-Sec/AsamF)|Update README.md|
-|2023-08-24 09:24:05|[ARL](https://github.com/TophantTechnology/ARL)|Merge pull request #622 from NAXG/master  add chaos|
-|2023-08-24 07:24:36|[wpscan](https://github.com/wpscanteam/wpscan)|Adds DFs|## 所有项目
+|2023-08-25 15:48:38|[codeql-cli-binari<br>es](https://github.com/github/codeql-cli-binaries)|Update changelog for 2.14.3|## 所有项目
 # 渗透测试
 ## 信息收集
 ### 资产测绘采集
@@ -669,7 +663,7 @@
 | [VulWiki](https://github.com/Ares-X/VulWiki) |  | VulWiki |
 | [vulbase](https://github.com/cckuailong/vulbase) |  | 各大漏洞文库合集 |
 | [Awesome-POC](https://github.com/Threekiii/Awesome-POC) |  | 一个各类漏洞POC知识库 |
-| [Vulnerability-Wik<br>i](https://github.com/Threekiii/Vulnerability-Wiki) | v1.0 | 一个基于 docsify 的综合漏洞知识库，目前漏洞数量 999+ |
+| [Vulnerability-Wik<br>i](https://github.com/Threekiii/Vulnerability-Wiki) | v1.0 | 基于 docsify 部署，目前漏洞数量 999+ |
 | [yougar0.github.io](https://github.com/heise5yuetian/yougar0.github.io) |  | 漏洞知识库 |
 | [Vulhub-Reproduce](https://github.com/Threekiii/Vulhub-Reproduce) |  | 一个Vulhub漏洞复现知识库 |
 | [Report_Public](https://github.com/DVPNET/Report_Public) |  |  DVPNET 公开漏洞知识库 |
@@ -1246,7 +1240,7 @@
 ## 主机入侵检测
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
-| [Elkeid](https://github.com/bytedance/Elkeid) | rasp-v2<br>.2.0.8 | Elkeid is an open source solution that can meet the security r<br>equirements of various workloads such as hosts, containers and <br>K8s, and serverless. It is derived from ByteDance's internal be<br>st practices. |
+| [Elkeid](https://github.com/bytedance/Elkeid) | rasp-v2<br>.2.0.9 | Elkeid is an open source solution that can meet the security r<br>equirements of various workloads such as hosts, containers and <br>K8s, and serverless. It is derived from ByteDance's internal be<br>st practices. |
 | [Hades](https://github.com/theSecHunter/Hades) |  | Hades is an cross-platform HIDS with kernel-space data collect<br>ion. |
 ## Web应用防火墙
 | 项目名称 | 版本 | 项目描述 |
@@ -1277,7 +1271,7 @@
 ## 生成虚假数据
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
-| [faker](https://github.com/joke2k/faker) | v19.4.0 | Faker is a Python package that generates fake data for you. |
+| [faker](https://github.com/joke2k/faker) | v19.6.0 | Faker is a Python package that generates fake data for you. |
 ## 短信转发器
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
