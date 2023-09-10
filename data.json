@@ -200,8 +200,8 @@
     "https://github.com/ycdxsb/PocOrExp_in_Github": {
         "created_at": "2021-04-13 05:46:16",
         "description": "聚合Github上已有的Poc或者Exp，CVE信息来自CVE官网。Auto Collect Poc Or Exp from Github by CVE ID.",
-        "commit_date": "2023-09-08 23:19:50",
-        "commit_message": "update 2023-09-09 07:19:50",
+        "commit_date": "2023-09-09 23:20:58",
+        "commit_message": "update 2023-09-10 07:20:58",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -1422,11 +1422,11 @@
     "https://github.com/pingc0y/URLFinder": {
         "created_at": "2022-06-06 10:17:00",
         "description": "一款快速、全面、易用的页面信息提取工具，可快速发现和提取页面中的JS、URL和敏感信息。",
-        "commit_date": "2023-09-02 05:17:50",
-        "commit_message": "2023/9/2更新",
-        "release_tag": "2023.9.2",
-        "release_date": "2023-09-02 05:18:52",
-        "release_message": "2023/9/2  \r\n修复 子目录定位bug  "
+        "commit_date": "2023-09-09 14:01:45",
+        "commit_message": "2023/9/9更新",
+        "release_tag": "2023.9.9",
+        "release_date": "2023-09-09 14:03:15",
+        "release_message": "修复 -ff 重复验证问题\r\n修复 自动识别协议bug"
     },
     "https://github.com/0x727/ShuiZe_0x727": {
         "created_at": "2021-07-28 11:34:10",
@@ -2005,8 +2005,8 @@
     "https://github.com/bit4woo/knife": {
         "created_at": "2018-06-12 14:25:18",
         "description": "A burp extension that add some useful function to  Context Menu 添加一些右键菜单让burp用起来更顺畅",
-        "commit_date": "2023-08-02 03:11:35",
-        "commit_message": "新增2个功能菜单",
+        "commit_date": "2023-09-09 11:09:19",
+        "commit_message": "Update FindUrlAndRequest.java",
         "release_tag": "v2.2",
         "release_date": "2023-04-25 03:38:54",
         "release_message": "更新“Find URL And Request”功能\r\n更新chinese中文显示面板逻辑，及时刷新避免有时显示不一致的问题\r\n端口扫描逻辑优化，多个host在同一个命令行中完成扫描，避免打开太多窗口\r\n更新dismiss功能，规则更清晰也更容易自行编辑处理。\r\n让proxy中的数据包编辑更改可视化，更容易判断数据处理规则是否正确\r\n数据包修改更新、丢弃转发的规则类型更丰富，适应更多场景。"
@@ -3271,8 +3271,8 @@
     "https://github.com/komomon/Komo": {
         "created_at": "2022-09-27 07:23:05",
         "description": "🚀Komo, a comprehensive asset collection and vulnerability scanning tool. Komo 一个综合资产收集和漏洞扫描工具，集成了20余款工具，通过多种方式对子域进行获取，收集域名邮箱，进行存活探测，域名指纹识别，域名反查ip，ip端口扫描，web服务链接爬取并发送给xray，对web服务进行POC漏洞扫描，对主机进行主机漏洞扫描。",
-        "commit_date": "2023-04-24 09:07:59",
-        "commit_message": "Update sensitiveinfo_main.py",
+        "commit_date": "2023-09-09 10:35:10",
+        "commit_message": "Update requirement.txt",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -3406,8 +3406,8 @@
     "https://github.com/bit4woo/domain_hunter_pro": {
         "created_at": "2019-01-18 07:15:15",
         "description": "domain_hunter的高级版本，SRC挖洞、HW打点之必备！自动化资产收集；快速Title获取；外部工具联动；等等",
-        "commit_date": "2023-08-22 06:54:25",
-        "commit_message": "update",
+        "commit_date": "2023-09-09 11:09:02",
+        "commit_message": "Update SearchMenu.java",
         "release_tag": "v1.9",
         "release_date": "2023-04-18 00:34:58",
         "release_message": "全局：\r\n多个bug修复\r\n布局模式优化\r\n基础方法实现逻辑优化\r\n\r\n右键菜单：\r\n“Do Search”提供主动在制定请求中进行搜索的能力，比如在某企业邮箱的流量中搜索以提取邮箱地址\r\n“Add Request And Comment”右键菜单添逻辑优化，修复一个bug\r\n“Send To Tool Panel”右键菜单处理逻辑优化，可合并发送多个数据包内容\r\n\r\nDomain面板：\r\nroot domain的comments逻辑更新\r\n提供多个网络搜索引擎的后台自动搜索功能\r\nroot domain双击，自动在浏览器中访问\r\n修改目标根域名删除失败的bug\r\n显示序号，以便在排序后恢复原始顺序\r\n\r\nTool面板：\r\n重写JTextArea的paste函数，避免大内容导致程序卡死\r\nJTextArea支持输入文件，而程序处理其内容。\r\n文本取提供简单的历史记录功能\r\nJSON提取逻辑优化\r\n新增多个功能，比如排序\r\n优化URL提取逻辑，避免遗漏没有以/开头的path\r\n\r\nTitle面板中：\r\n端口扫描命令生成逻辑优化\r\n备注和IP内容的显示优化，显示前排序\r\n备注添加逻辑优化\r\n给手动添加的记录添加已知的IP和CNAME、CertInfo\r\n搜索功能增强，支持对数字型字段进行大于、小于、等于等搜索\r\n添加多个搜索实例，以便用户熟悉搜索语法\r\n新增“Do Request Item Again”菜单，对DNS记录或无响应的数据包进行再次请求"
@@ -3881,8 +3881,8 @@
     "https://github.com/aquasecurity/kube-bench": {
         "created_at": "2017-06-19 13:27:02",
         "description": "Checks whether Kubernetes is deployed according to security best practices as defined in the CIS Kubernetes Benchmark",
-        "commit_date": "2023-07-28 09:12:45",
-        "commit_message": "build(deps): bump golang from 1.20.4 to 1.20.6 (#1475)\n\nBumps golang from 1.20.4 to 1.20.6.\r\n\r\n---\r\nupdated-dependencies:\r\n- dependency-name: golang\r\n  dependency-type: direct:production\r\n  update-type: version-update:semver-patch\r\n...\r\n\r\nSigned-off-by: dependabot[bot] <support@github.com>\r\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
+        "commit_date": "2023-09-09 18:37:29",
+        "commit_message": "build(deps): bump alpine from 3.18.2 to 3.18.3 (#1487)\n\nBumps alpine from 3.18.2 to 3.18.3.\r\n\r\n---\r\nupdated-dependencies:\r\n- dependency-name: alpine\r\n  dependency-type: direct:production\r\n  update-type: version-update:semver-patch\r\n...\r\n\r\nSigned-off-by: dependabot[bot] <support@github.com>\r\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
         "release_tag": "v0.6.17",
         "release_date": "2023-07-25 09:51:02",
         "release_message": "## Changelog\n* c8cabc4 Update job.yaml (#1477)\n\n"
@@ -4124,8 +4124,8 @@
     "https://github.com/wkend/0_zone_tool": {
         "created_at": "2023-03-01 17:59:57",
         "description": "零零信安api信息系统查询脚本",
-        "commit_date": "2023-07-25 13:35:20",
-        "commit_message": "Update 0_zone.py",
+        "commit_date": "2023-09-09 01:16:17",
+        "commit_message": "Update README.md",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -4277,7 +4277,7 @@
     "https://github.com/aiboboxx/v2rayfree": {
         "created_at": "2021-10-13 11:34:53",
         "description": "v2ray节点、免费节点、免费v2ray节点、最新公益免费v2ray节点订阅地址、免费v2ray节点每日更新、免费ss/v2ray/trojan节点、freefq ",
-        "commit_date": "2023-09-08 12:35:05",
+        "commit_date": "2023-09-09 12:31:38",
         "commit_message": "update",
         "release_tag": "",
         "release_date": "",
@@ -4322,8 +4322,8 @@
     "https://github.com/freefq/free": {
         "created_at": "2020-06-07 02:48:33",
         "description": "翻墙、免费翻墙、免费科学上网、免费节点、免费梯子、免费ss/v2ray/trojan节点、蓝灯、谷歌商店、翻墙梯子",
-        "commit_date": "2023-09-09 00:00:02",
-        "commit_message": "updated_at 09-09 08:00",
+        "commit_date": "2023-09-10 00:00:03",
+        "commit_message": "updated_at 09-10 08:00",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -4781,8 +4781,8 @@
     "https://github.com/zaivanza/all-in-one-v2": {
         "created_at": "2023-04-29 09:03:49",
         "description": "",
-        "commit_date": "2023-08-19 05:14:59",
-        "commit_message": "add tracks",
+        "commit_date": "2023-09-09 05:14:34",
+        "commit_message": "add zora, linea, base to merkly",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -5004,8 +5004,8 @@
     "https://github.com/rustdesk/rustdesk": {
         "created_at": "2020-09-28 15:36:08",
         "description": "An open-source remote desktop, and alternative to TeamViewer.",
-        "commit_date": "2023-09-08 08:35:10",
-        "commit_message": "Merge pull request #5635 from solokot/master\n\nUpdate ru.rs",
+        "commit_date": "2023-09-09 06:57:59",
+        "commit_message": "Merge pull request #5639 from Mr-Update/patch-1\n\nUpdate de.rs",
         "release_tag": "1.2.2",
         "release_date": "2023-08-22 01:44:36",
         "release_message": "\r\n![image](https://github.com/rustdesk/rustdesk/assets/71636191/b444deab-7971-4de7-b315-6a9b4974c7ea)\r\n\r\n> Winget, FDroid, Apple Sillicon, Google Play / App Store update will come soon.\r\n\r\nx86-64: [Windows](https://github.com/rustdesk/rustdesk/releases/download/1.2.2/rustdesk-1.2.2-x86_64.exe) | [Ubuntu](https://github.com/rustdesk/rustdesk/releases/download/1.2.2/rustdesk-1.2.2-x86_64.deb) | [Mac](https://github.com/rustdesk/rustdesk/releases/download/1.2.2/rustdesk-1.2.2-x86_64.dmg)\r\nAArch64 (ARM64):  [Ubuntu](https://github.com/rustdesk/rustdesk/releases/download/1.2.2/rustdesk-1.2.2-aarch64.deb) | [Android](https://github.com/rustdesk/rustdesk/releases/download/1.2.2/rustdesk-1.2.2-aarch64-signed.apk) | [Mac](https://github.com/rustdesk/rustdesk/releases/download/1.2.2/rustdesk-1.2.2-aarch64.dmg)\r\n\r\nMore: [check below please](#)\r\n\r\n<details>\r\n<summary>Changelog</summary>\r\n\r\n- Add separate window mode (tab window by default), https://github.com/rustdesk/rustdesk/discussions/2889\r\n![image](https://github.com/rustdesk/rustdesk/assets/71636191/0c73bc6a-8659-4a67-9425-47625a6aded3)\r\n- Fix and improve responsiveness issue introduced in 1.2.0. https://github.com/rustdesk/rustdesk/discussions/5231\r\n- Add device list batch handle\r\n![image](https://github.com/rustdesk/rustdesk/assets/71636191/0ca85b8e-bed3-48ad-a43f-82df983986f3)\r\n- Add command to assign user and strategy for [RustDesk Server Pro](https://rustdesk.com/docs/en/self-host/pro/)\r\n- Optimize address book, syncing password, alias name, device name etc, add tag color, improve error and update status handling\r\n![image](https://github.com/rustdesk/rustdesk/assets/71636191/21d7a226-b863-4dc2-a9d3-fb6cd3a56c5c)\r\n- Fix windows file copy/paste\r\n- Fix \"waiting for image...\" still shown after receiving image bug, refactored rust->flutter message handling https://github.com/rustdesk/rustdesk/issues/4533\r\n- Improve some touchpad support, https://github.com/rustdesk/rustdesk/pull/5049\r\n- Bug fixes.\r\n\r\n</details>\r\n"
@@ -5049,7 +5049,7 @@
     "https://github.com/decoymini/DecoyMini": {
         "created_at": "2021-07-23 06:31:52",
         "description": "🐝 A highly scalable, safe, free enterprise honeypots 一款高可扩展、安全、免费的企业级蜜罐系统",
-        "commit_date": "2023-09-02 23:11:37",
+        "commit_date": "2023-09-09 23:57:41",
         "commit_message": "Update README.md",
         "release_tag": "v2.0.6691",
         "release_date": "2023-01-03 10:27:42",

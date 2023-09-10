@@ -1,8 +1,9 @@
-# 更新于 2023-09-09 08:34:11
+# 更新于 2023-09-10 08:35:47
 
 ## 近15天release更新记录
 | 更新时间 | 项目名称 | 版本 | 更新内容 |
 | :---- | :---- | :---- | :---- |
+|2023-09-09 14:03:15|[URLFinder](https://github.com/pingc0y/URLFinder)|2023.9.<br>9|修复 -ff 重复验证问题  修复 自动识别<br>协议bug|
 |2023-09-08 21:18:40|[faker](https://github.com/joke2k/faker)|v19.6.0|See .|
 |2023-09-08 02:11:54|[Elkeid](https://github.com/bytedance/Elkeid)|rasp-v2<br>.2.0.9||
 |2023-09-07 10:01:41|[safeline](https://github.com/chaitin/safeline)|v3.3.0|### 新增    - 支持设置拦截页面附加说<br>明（）  - 频率限制新增 “人机验证” 的<br>限制方式（）    ### 优化    - 当网站域<br>名不匹配的时候，返回 “网站不存在” ，<br>提示更清晰（）  - 修复 攻击事件->原始日<br>志 的 “攻击地址” 中显示额外的转义符的<br>问题  - 修复站点详情中 “今日总请求量”<br> 和站点列表的 “今日访问量” 不一致的<br>问题（）  - 频率限制后直接封禁的拦截状<br>态码改为 429，和普通拦截 403 区分开，方<br>便排查拦截原因  - 加强后台登录安全性（<br>感谢微信交流 20 群「千年之狐」提供的建<br>议）  - 优化安装/升级时 CPU ssse3 指令<br>集的检查方式（）  - 优化界面样式交互，<br>修复一些已知问题|
@@ -15,7 +16,6 @@
 |2023-09-04 10:27:44|[FreeRDP](https://github.com/FreeRDP/FreeRDP)|2.11.1|Notworthy changes:  * Backported #935<br>6: Fix issues with order updates    Fo<br>r a complete and detailed change log s<br>ince the last release run:  git log 2.<br>11.1...2.11.0|
 |2023-09-03 09:29:04|[afrog](https://github.com/zan8in/afrog)|v2.8.0|**Add**  - Added PoC for backup file <br>detection  - Customize global cookies <br>and will not overwrite the cookies of <br>the original POC    **Optimization**  <br>- afrog API has been synchronized with<br> the latest features    **新增**  - 新<br>增备份文件检测的 PoC  - 自定义全局 cook<br>ie，不会覆盖原 POC 的 cookie  - 新增一<br>批 HVV2023 PoCs    **优化**  - afrog AP<br>I 已同步最新功能|
 |2023-09-03 04:30:00|[PEASS-ng](https://github.com/carlospolop/PEASS-ng)|2023090<br>3-188479<br>ae||
-|2023-09-02 05:18:52|[URLFinder](https://github.com/pingc0y/URLFinder)|2023.9.<br>2|2023/9/2    修复 子目录定位bug  |
 |2023-09-01 06:38:35|[trivy](https://github.com/aquasecurity/trivy)|v0.45.0|## ⚡Release highlights and summary⚡<br>    👉 https://github.com/aquasecurity<br>/trivy/discussions/5082    ## Changelo<br>g  * cdab67e7f docs: add Bitnami (#507<br>8)  * 7acc5e831 feat(docker): add supp<br>ort for scanning Bitnami components (#<br>5062)  * 9628b1cbf feat: add support f<br>or .trivyignore.yaml (#5070)  * 4547e2<br>766 fix(terraform): improve detection <br>of terraform files (#4984)  * 0c8919e1<br>e feat: filter artifacts on --exclude-<br>owned flag (#5059)  * c04f234fa fix(sb<br>om): cyclonedx advisory should omit nu<br>ll value (#5041)  * f811ed2d4 build: m<br>aximize build space for build tests (#<br>5072)  * 69ea5bf70 feat: improve kbom <br>component name (#5058)  * 3715dcb3f fi<br>x(pom): add licenses for pom artifacts<br> (#5071)  * 07f7e9853 chore(deps): Upd<br>ate defsec to v0.92.0 (#5068)  * d4ca3<br>cce2 chore: bump Go to 1.20 (#5067)  *<br> 49fdd584b feat: PURL matching with qu<br>alifiers in OpenVEX (#5061)  * 4401998<br>ec feat(java): add graph support for p<br>om.xml (#4902)  * 9c211d005 feat(swift<br>): add vulns for cocoapods (#5037)  * <br>422fa414e fix: support image pull secr<br>et for additional workloads (#5052)  *<br> 8e933860a fix: #5033 Superfluous doub<br>le quote in html.tpl (#5036)  * 9345a9<br>8ed docs(repo): update trivy repo usag<br>e and example (#5049)  * 5d8da70c6 per<br>f: Optimize Dockerfile for reduced lay<br>ers and size (#5038)  * 1be9da7aa feat<br>: scan K8s Resources Kind with --all-n<br>amespaces (#5043)  * 0e17d0bef fix: vu<br>lnerability typo (#5044)  * d70fab231 <br>docs: adding a terraform tutorial to t<br>he docs (#3708)  * 2fa264ac1 feat(repo<br>rt): add licenses to sarif format (#48<br>66)  * 07ddf4790 feat(misconf): show t<br>he resource name in the report (#4806)<br>  * 9de360623 chore: update alpine bas<br>e images (#5015)  * ef70d2076 feat: ad<br>d Package.resolved swift files support<br> (#4932)  * ec5d8bec0 feat(nodejs): pa<br>rse licenses in yarn projects (#4652) <br> * 3114c87e6 fix: k8s private registri<br>es support (#5021)  * 6d79f55db bump g<br>ithub.com/testcontainers/testcontainer<br>s-go from 0.21.0 to 0.23.0 (#5018)  * <br>9ace59106 feat(vuln): support last_aff<br>ected field from osv (#4944)  * d44217<br>640 feat(server): add version endpoint<br> (#4869)  * 63cd41d20 feat: k8s privat<br>e registries support (#4987)  * cb16e2<br>3f1 fix(server): add indirect prop to <br>package (#4974)  * a4e981b4e docs: add<br> coverage (#4954)  * 6f03c7940 feat(c)<br>: add location for lock file dependenc<br>ies. (#4994)  * c74870500 docs: adding<br> blog post on ec2 (#4813)  * 4e1316c37<br> revert 32bit bins (#4977)  * fc959fc5<br>7 chore(deps): bump github.com/xlab/tr<br>eeprint from 1.1.0 to 1.2.0 (#4917)   <br> |
 |2023-08-31 16:50:30|[grype](https://github.com/anchore/grype)|v0.66.0|#     ##  (2023-08-31)        ### Add<br>ed Features    - Allow for access to p<br>rivate CAs securely ] ] ]  - Filter ou<br>t packages that are owned by OS packag<br>es (ownership overlap) ] ] ]    ### Bu<br>g Fixes    - fix: Only remove packages<br> by binary overlap ] ]  - New version <br>notice only showing the version and no<br> text ] ]  - fix: set correct default <br>to exclude overlapping binaries ] ]  -<br> Portage version comparison is not wor<br>king ] ] ]    ### Additional Changes  <br>  - Update Syft to 0.89.0      |
 |2023-08-31 15:42:19|[syft](https://github.com/anchore/syft)|v0.89.0|#     ##  (2023-08-31)        ### Add<br>ed Features    - Add registry certific<br>ate verification support  ] ]  - Add S<br>YFT_CONFIG environment variable for co<br>nfiguration file path ] ] ]    ### Bug<br> Fixes    - Fix quiet flag ] ]  - Comm<br>and line flags not overriding configur<br>ation file values ] ] ]  - Django pack<br>age CPE is not correct ] ] ]  - Config<br> parsing includes config.yaml in worki<br>ng dir ] ] ]  - Fix a possible panic o<br>n universal go binaries ] ] ]  - Disab<br>ling catalogers is not working in powe<br>r user command ] ] ]  - Virtual path c<br>hanges to java cataloger causing creat<br>ion of extra incorrect packages when j<br>ars are renamed ] ] ]      |
@@ -26,12 +26,21 @@
 |2023-08-27 18:25:14|[ghauri](https://github.com/r0oth3x49/ghauri)|1.2.4|## Fixes   - updated code quality   -<br> added payload for data extraction for<br> MSSQL|
 |2023-08-26 11:42:13|[OneScan](https://github.com/vaycore/OneScan)|v1.2.1|1.2.1 版本发布，紧急修复    ### 修复 <br>   - 修复扫描时请求包出现 -1 的问题|
 |2023-08-26 02:44:27|[qsnctf-python](https://github.com/Moxin1044/qsnctf-python)|0.0.8.1<br>0|### 说明  本次根据Issues提升了依赖PyE<br>xecJS的版本，由原先的**PyExecJS 1.5.1*<br>*直升到了**PyExecJS2 1.6.1**。  已经安<br>装的用户可以使用python3 -m pip install <br>-U qsnctf 进行更新，目前版本为0.0.8.10<br>。  如果在使用过程中有其他的问题，您可<br>使用Issues提交。|
-|2023-08-25 16:21:04|[codeql-cli-binari<br>es](https://github.com/github/codeql-cli-binaries)|v2.14.3|### Breaking changes    - The .tool.e<br>xtensions property in the SARIF genera<br>ted by codeql database analyze now con<br>tains the    following packs:      - T<br>he containing query pack for each quer<br>y that was evaluated.    - Each model <br>pack that was specified via the --mode<br>l-packs option, regardless of whether <br>     that model pack affected any of t<br>he evaluated queries.      Library pac<br>ks are no longer included in the list.<br>    ### Miscellaneous    - The build o<br>f Eclipse Temurin OpenJDK that is bund<br>led with the CodeQL    CLI has been up<br>dated to version 17.0.8.    - When cod<br>eql test generates .actual files, they<br> will in some cases    list the query <br>predicates in a different order than p<br>ast versions.    There is no need to u<br>pdate .expected files, as codeql test <br>sorts    their results accordingly bef<br>ore diffing.    However, when there ar<br>e genuine changes in expected results,<br> the    generated .actual file can sho<br>w additional changes against the    .e<br>xpected due to the reordering.    For <br>more information about the changes inc<br>luded in this release, see the .    Yo<br>u can download _either_ the codeql-PLA<br>TFORM.zip for your platform, _or_ the <br>generic codeql.zip which contains bina<br>ries for all supported platforms. Plea<br>se ignore the additional "source code"<br> downloads below the .zip artifacts.  <br>  This release is compatible with the <br>CodeQL language packs from .  |
 ## 近15天commit提交记录
 | 提交时间 | 项目名称 | 更新内容 |
 | :---- | :---- | :---- |
-|2023-09-09 00:00:02|[free](https://github.com/freefq/free)|updated_at 09-09 08:00|
-|2023-09-08 23:19:50|[PocOrExp_in_Githu<br>b](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-09-09 07:19:50|
+|2023-09-10 00:00:03|[free](https://github.com/freefq/free)|updated_at 09-10 08:00|
+|2023-09-09 23:57:41|[DecoyMini](https://github.com/decoymini/DecoyMini)|Update README.md|
+|2023-09-09 23:20:58|[PocOrExp_in_Githu<br>b](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-09-10 07:20:58|
+|2023-09-09 18:37:29|[kube-bench](https://github.com/aquasecurity/kube-bench)|build(deps): bump alpine from 3.18.2 to 3.18.3 (#14<br>87)  Bumps alpine from 3.18.2 to 3.18.3.    ---  upd<br>ated-dependencies:  - dependency-name: alpine    dep<br>endency-type: direct:production    update-type: vers<br>ion-update:semver-patch  ...    Signed-off-by: depen<br>dabot[bot]   Co-authored-by: dependabot[bot] |
+|2023-09-09 14:01:45|[URLFinder](https://github.com/pingc0y/URLFinder)|2023/9/9更新|
+|2023-09-09 12:31:38|[v2rayfree](https://github.com/aiboboxx/v2rayfree)|update|
+|2023-09-09 11:09:19|[knife](https://github.com/bit4woo/knife)|Update FindUrlAndRequest.java|
+|2023-09-09 11:09:02|[domain_hunter_pro](https://github.com/bit4woo/domain_hunter_pro)|Update SearchMenu.java|
+|2023-09-09 10:35:10|[Komo](https://github.com/komomon/Komo)|Update requirement.txt|
+|2023-09-09 06:57:59|[rustdesk](https://github.com/rustdesk/rustdesk)|Merge pull request #5639 from Mr-Update/patch-1  Up<br>date de.rs|
+|2023-09-09 05:14:34|[all-in-one-v2](https://github.com/zaivanza/all-in-one-v2)|add zora, linea, base to merkly|
+|2023-09-09 01:16:17|[0_zone_tool](https://github.com/wkend/0_zone_tool)|Update README.md|
 |2023-09-08 21:18:01|[faker](https://github.com/joke2k/faker)|Bump version: 19.5.0 → 19.6.0|
 |2023-09-08 18:10:00|[syft](https://github.com/anchore/syft)|chore(deps): update stereoscope to 057dda3667e7f2b5<br>e6ec6716747badd5f403c6de (#2109)  Signed-off-by: Git<br>Hub   Co-authored-by: kzantow |
 |2023-09-08 17:31:55|[neuvector](https://github.com/neuvector/neuvector)|Merge pull request #997 from gfsuse/prune_ns  NVSHA<br>S-8246, Improve pruning namespace func to delete rel<br>ated rules faster to avoid holding lock too long|
@@ -39,9 +48,7 @@
 |2023-09-08 15:01:49|[dbeaver](https://github.com/dbeaver/dbeaver)|Merge branch 'devel' of https://github.com/dbeaver/<br>dbeaver into devel|
 |2023-09-08 14:04:16|[trivy](https://github.com/aquasecurity/trivy)|chore(deps): bump sigstore/cosign-installer (#5104)<br>  Bumps  from a5d81fb6bdbcbb3d239e864d65528204202544<br>94 to 4a861528be5e691840a69536975ada1d4c30349d. -  -<br>   --- updated-dependencies: - dependency-name: sigs<br>tore/cosign-installer   dependency-type: direct:prod<br>uction ...  Signed-off-by: dependabot[bot]  Co-autho<br>red-by: dependabot[bot] |
 |2023-09-08 12:44:22|[FreeRDP](https://github.com/FreeRDP/FreeRDP)|[codec,interleaved] fix type definition|
-|2023-09-08 12:35:05|[v2rayfree](https://github.com/aiboboxx/v2rayfree)|update|
 |2023-09-08 08:40:42|[murphysec](https://github.com/murphysecurity/murphysec)|feat(cmd): SBOM scan|
-|2023-09-08 08:35:10|[rustdesk](https://github.com/rustdesk/rustdesk)|Merge pull request #5635 from solokot/master  Updat<br>e ru.rs|
 |2023-09-08 05:43:49|[autoDecoder](https://github.com/f0ng/autoDecoder)|Update README.md|
 |2023-09-08 04:05:36|[arthas](https://github.com/alibaba/arthas)|sysenv/sysprop command sorted by key #2619 (#2652)|
 |2023-09-07 18:55:38|[grype](https://github.com/anchore/grype)|chore: update grype to use Go v1.21 (#1480)  Signed<br>-off-by: Christopher Phillips |
@@ -66,9 +73,7 @@
 |2023-09-04 13:20:16|[RouteVulScan](https://github.com/F6JO/RouteVulScan)|Update threads.java|
 |2023-09-04 10:22:18|[suo5](https://github.com/zema1/suo5)|Merge pull request #37 from zema1/bump-go-version  <br>feat: bump up go to v1.20|
 |2023-09-04 03:12:54|[404StarLink](https://github.com/knownsec/404StarLink)|weekly update at 2023-09-04|
-|2023-09-02 23:11:37|[DecoyMini](https://github.com/decoymini/DecoyMini)|Update README.md|
 |2023-09-02 15:38:22|[awesome-chatgpt-z<br>h](https://github.com/yzfly/awesome-chatgpt-zh)|add codellama, llms|
-|2023-09-02 05:17:50|[URLFinder](https://github.com/pingc0y/URLFinder)|2023/9/2更新|
 |2023-09-01 14:06:59|[dperf](https://github.com/baidu/dperf)|Merge pull request #368 from pengjianzhang/main  mo<br>ve docs to dperf.org|
 |2023-09-01 11:00:54|[veinmind-tools](https://github.com/chaitin/veinmind-tools)|docs: update report manual (#266)|
 |2023-09-01 07:34:07|[ObserverWard](https://github.com/0x727/ObserverWard)|Merge pull request #195 from 0x727/dependabot/cargo<br>/actix-web-4.4.0  Bump actix-web from 4.3.1 to 4.4.0|
@@ -87,8 +92,7 @@
 |2023-08-26 11:37:40|[OneScan](https://github.com/vaycore/OneScan)|修复扫描时请求包出现-1的问题；更新版本号为1.2.1|
 |2023-08-26 10:15:19|[mitaka](https://github.com/ninoseki/mitaka)|Merge pull request #751 from ninoseki/refaoctor-nul<br>l-undefined  refactor: remove !== null/undefined|
 |2023-08-26 03:35:58|[dirsearch](https://github.com/maurosoria/dirsearch)|Merge pull request #1310 from godspeedcurry/master <br> Update dicc.txt|
-|2023-08-26 02:35:55|[qsnctf-python](https://github.com/Moxin1044/qsnctf-python)|build( Version ): ⬆️ 0.0.8.10|
-|2023-08-25 15:48:38|[codeql-cli-binari<br>es](https://github.com/github/codeql-cli-binaries)|Update changelog for 2.14.3|## 所有项目
+|2023-08-26 02:35:55|[qsnctf-python](https://github.com/Moxin1044/qsnctf-python)|build( Version ): ⬆️ 0.0.8.10|## 所有项目
 # 渗透测试
 ## 信息收集
 ### 资产测绘采集
@@ -129,7 +133,7 @@
 | [yuhScan](https://github.com/hunyaio/yuhScan) | v1.0 | web目录快速扫描工具 |
 | [gospider](https://github.com/jaeles-project/gospider) | v1.1.6 | Gospider - Fast web spider written in Go |
 | [rad](https://github.com/chaitin/rad) | 1.0 |  |
-| [URLFinder](https://github.com/pingc0y/URLFinder) | 2023.9.<br>2 | 一款快速、全面、易用的页面信息提取工具，可快速发现和提取页面中<br>的JS、URL和敏感信息。 |
+| [URLFinder](https://github.com/pingc0y/URLFinder) | 2023.9.<br>9 | 一款快速、全面、易用的页面信息提取工具，可快速发现和提取页面中<br>的JS、URL和敏感信息。 |
 | [JSFinder](https://github.com/Threezh1/JSFinder) |  | JSFinder is a tool for quickly extracting URLs and subdomains <br>from JS files on a website. |
 | [BBScan](https://github.com/lijiejie/BBScan) | v1.5 | A fast vulnerability scanner |
 | [Dirscan](https://github.com/corunb/Dirscan) | v.1.5.2 | Dirscan是一款由go编写的高性能、高并发的目录扫描器，现在已经支<br>持GET、HEAD、递归扫描、代理、爬虫等功能功能,后续努力实现更多功能<br>。 |
