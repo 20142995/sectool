@@ -200,8 +200,8 @@
     "https://github.com/ycdxsb/PocOrExp_in_Github": {
         "created_at": "2021-04-13 05:46:16",
         "description": "聚合Github上已有的Poc或者Exp，CVE信息来自CVE官网。Auto Collect Poc Or Exp from Github by CVE ID.",
-        "commit_date": "2023-09-09 23:20:58",
-        "commit_message": "update 2023-09-10 07:20:58",
+        "commit_date": "2023-09-10 23:24:33",
+        "commit_message": "update 2023-09-11 07:24:33",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -1062,8 +1062,8 @@
     "https://github.com/ninoseki/mitaka": {
         "created_at": "2018-02-09 00:13:30",
         "description": "A browser extension for OSINT search",
-        "commit_date": "2023-08-26 10:15:19",
-        "commit_message": "Merge pull request #751 from ninoseki/refaoctor-null-undefined\n\nrefactor: remove !== null/undefined",
+        "commit_date": "2023-09-10 07:21:51",
+        "commit_message": "Merge pull request #755 from ninoseki/remove-label\n\nrefactor: remove checkbox labels [skip ci]",
         "release_tag": "v1.3.2",
         "release_date": "2023-08-24 12:07:24",
         "release_message": "- Fix Censys's search query format (#749) \r\n- Disable IntelligenceX (#749)"
@@ -2005,7 +2005,7 @@
     "https://github.com/bit4woo/knife": {
         "created_at": "2018-06-12 14:25:18",
         "description": "A burp extension that add some useful function to  Context Menu 添加一些右键菜单让burp用起来更顺畅",
-        "commit_date": "2023-09-09 11:09:19",
+        "commit_date": "2023-09-10 08:12:57",
         "commit_message": "Update FindUrlAndRequest.java",
         "release_tag": "v2.2",
         "release_date": "2023-04-25 03:38:54",
@@ -3050,7 +3050,7 @@
     "https://github.com/zan8in/afrog": {
         "created_at": "2022-02-24 06:00:32",
         "description": "A Security Tool for Bug Bounty, Pentest and Red Teaming.",
-        "commit_date": "2023-09-06 00:52:01",
+        "commit_date": "2023-09-10 04:42:27",
         "commit_message": "update",
         "release_tag": "v2.8.0",
         "release_date": "2023-09-03 09:29:04",
@@ -3703,8 +3703,8 @@
         "description": "PEASS - Privilege Escalation Awesome Scripts SUITE (with colors)",
         "commit_date": "2023-08-24 17:48:31",
         "commit_message": "Update ProcessInfo.cs",
-        "release_tag": "20230903-188479ae",
-        "release_date": "2023-09-03 04:30:00",
+        "release_tag": "20230910-ae32193f",
+        "release_date": "2023-09-10 04:30:54",
         "release_message": ""
     },
     "https://github.com/waderwu/attackRmi": {
@@ -3736,8 +3736,8 @@
     },
     "https://github.com/k8gege/Ladon": {
         "created_at": "2019-11-02 06:22:41",
-        "description": "Ladon大型内网渗透工具，可PowerShell模块化、可CS插件化、可内存加载，无文件扫描。含端口扫描、服务识别、网络资产探测、密码审计、高危漏洞检测、漏洞利用、密码读取以及一键GetShell，支持批量A段/B段/C段以及跨网段扫描，支持URL、主机、域名列表扫描等。Ladon 11.4内置245个功能,网络资产探测模块32个通过多种协议(ICMP\\NBT\\DNS\\MAC\\SMB\\WMI\\SSH\\HTTP\\HTTPS\\Exchange\\mssql\\FTP\\RDP)以及方法快速获取目标网络存活主机IP、计算机名、工作组、共享资源、网卡地址、操作系统版本、网站、子域名、中间件、开放服务、路由器、交换机、数据库、打印机等信息，高危漏洞检测16个含MS17010、Zimbra、Exchange",
-        "commit_date": "2023-08-06 17:37:36",
+        "description": "Ladon大型内网渗透工具，可PowerShell模块化、可CS插件化、可内存加载，无文件扫描。含端口扫描、服务识别、网络资产探测、密码审计、高危漏洞检测、漏洞利用、密码读取以及一键GetShell，支持批量A段/B段/C段以及跨网段扫描，支持URL、主机、域名列表扫描等。Ladon 11.6内置252个功能,网络资产探测模块32个通过多种协议(ICMP\\NBT\\DNS\\MAC\\SMB\\WMI\\SSH\\HTTP\\HTTPS\\Exchange\\mssql\\FTP\\RDP)以及方法快速获取目标网络存活主机IP、计算机名、工作组、共享资源、网卡地址、操作系统版本、网站、子域名、中间件、开放服务、路由器、交换机、数据库、打印机等信息，高危漏洞检测16个含MS17010、Zimbra、Exchange",
+        "commit_date": "2023-09-10 16:30:46",
         "commit_message": "Add files via upload",
         "release_tag": "v11.4",
         "release_date": "2023-08-06 17:40:56",
@@ -3971,8 +3971,8 @@
     "https://github.com/aquasecurity/trivy": {
         "created_at": "2019-04-11 01:01:07",
         "description": "Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more",
-        "commit_date": "2023-09-08 14:04:16",
-        "commit_message": "chore(deps): bump sigstore/cosign-installer (#5104)\n\nBumps [sigstore/cosign-installer](https://github.com/sigstore/cosign-installer) from a5d81fb6bdbcbb3d239e864d6552820420254494 to 4a861528be5e691840a69536975ada1d4c30349d.\n- [Release notes](https://github.com/sigstore/cosign-installer/releases)\n- [Commits](https://github.com/sigstore/cosign-installer/compare/a5d81fb6bdbcbb3d239e864d6552820420254494...4a861528be5e691840a69536975ada1d4c30349d)\n\n---\nupdated-dependencies:\n- dependency-name: sigstore/cosign-installer\n  dependency-type: direct:production\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
+        "commit_date": "2023-09-10 15:08:09",
+        "commit_message": "fix(fs): assign the absolute path to be inspected to ROOTPATH when filesystem (#5158)",
         "release_tag": "v0.45.0",
         "release_date": "2023-09-01 06:38:35",
         "release_message": "## ⚡Release highlights and summary⚡\r\n\r\n👉 https://github.com/aquasecurity/trivy/discussions/5082\r\n\r\n## Changelog\r\n* cdab67e7f docs: add Bitnami (#5078)\r\n* 7acc5e831 feat(docker): add support for scanning Bitnami components (#5062)\r\n* 9628b1cbf feat: add support for .trivyignore.yaml (#5070)\r\n* 4547e2766 fix(terraform): improve detection of terraform files (#4984)\r\n* 0c8919e1e feat: filter artifacts on --exclude-owned flag (#5059)\r\n* c04f234fa fix(sbom): cyclonedx advisory should omit `null` value (#5041)\r\n* f811ed2d4 build: maximize build space for build tests (#5072)\r\n* 69ea5bf70 feat: improve kbom component name (#5058)\r\n* 3715dcb3f fix(pom): add licenses for pom artifacts (#5071)\r\n* 07f7e9853 chore(deps): Update defsec to v0.92.0 (#5068)\r\n* d4ca3cce2 chore: bump Go to `1.20` (#5067)\r\n* 49fdd584b feat: PURL matching with qualifiers in OpenVEX (#5061)\r\n* 4401998ec feat(java): add graph support for pom.xml (#4902)\r\n* 9c211d005 feat(swift): add vulns for cocoapods (#5037)\r\n* 422fa414e fix: support image pull secret for additional workloads (#5052)\r\n* 8e933860a fix: #5033 Superfluous double quote in html.tpl (#5036)\r\n* 9345a98ed docs(repo): update trivy repo usage and example (#5049)\r\n* 5d8da70c6 perf: Optimize Dockerfile for reduced layers and size (#5038)\r\n* 1be9da7aa feat: scan K8s Resources Kind with --all-namespaces (#5043)\r\n* 0e17d0bef fix: vulnerability typo (#5044)\r\n* d70fab231 docs: adding a terraform tutorial to the docs (#3708)\r\n* 2fa264ac1 feat(report): add licenses to sarif format (#4866)\r\n* 07ddf4790 feat(misconf): show the resource name in the report (#4806)\r\n* 9de360623 chore: update alpine base images (#5015)\r\n* ef70d2076 feat: add Package.resolved swift files support (#4932)\r\n* ec5d8bec0 feat(nodejs): parse licenses in yarn projects (#4652)\r\n* 3114c87e6 fix: k8s private registries support (#5021)\r\n* 6d79f55db bump github.com/testcontainers/testcontainers-go from 0.21.0 to 0.23.0 (#5018)\r\n* 9ace59106 feat(vuln): support last_affected field from osv (#4944)\r\n* d44217640 feat(server): add version endpoint (#4869)\r\n* 63cd41d20 feat: k8s private registries support (#4987)\r\n* cb16e23f1 fix(server): add indirect prop to package (#4974)\r\n* a4e981b4e docs: add coverage (#4954)\r\n* 6f03c7940 feat(c): add location for lock file dependencies. (#4994)\r\n* c74870500 docs: adding blog post on ec2 (#4813)\r\n* 4e1316c37 revert 32bit bins (#4977)\r\n* fc959fc57 chore(deps): bump github.com/xlab/treeprint from 1.1.0 to 1.2.0 (#4917)\r\n\r\n"
@@ -4277,7 +4277,7 @@
     "https://github.com/aiboboxx/v2rayfree": {
         "created_at": "2021-10-13 11:34:53",
         "description": "v2ray节点、免费节点、免费v2ray节点、最新公益免费v2ray节点订阅地址、免费v2ray节点每日更新、免费ss/v2ray/trojan节点、freefq ",
-        "commit_date": "2023-09-09 12:31:38",
+        "commit_date": "2023-09-10 12:31:54",
         "commit_message": "update",
         "release_tag": "",
         "release_date": "",
@@ -4322,8 +4322,8 @@
     "https://github.com/freefq/free": {
         "created_at": "2020-06-07 02:48:33",
         "description": "翻墙、免费翻墙、免费科学上网、免费节点、免费梯子、免费ss/v2ray/trojan节点、蓝灯、谷歌商店、翻墙梯子",
-        "commit_date": "2023-09-10 00:00:03",
-        "commit_message": "updated_at 09-10 08:00",
+        "commit_date": "2023-09-11 00:00:02",
+        "commit_message": "updated_at 09-11 08:00",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -4592,8 +4592,8 @@
     "https://github.com/yzfly/awesome-chatgpt-zh": {
         "created_at": "2023-03-21 02:16:34",
         "description": "ChatGPT 中文指南🔥，ChatGPT 中文调教指南，指令指南，应用开发指南，精选资源清单，更好的使用 chatGPT 让你的生产力 up up up! 🚀",
-        "commit_date": "2023-09-02 15:38:22",
-        "commit_message": "add codellama, llms",
+        "commit_date": "2023-09-10 23:51:16",
+        "commit_message": "add AoT, Open Interpreter, PromptFlow",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -4601,8 +4601,8 @@
     "https://github.com/rockbenben/ChatGPT-Shortcut": {
         "created_at": "2023-02-24 12:53:49",
         "description": "🚀💪Maximize your efficiency and productivity, support for English,中文,Español,العربية. 让生产力加倍的ChatGPT快捷指令，无需熟悉提示词，就能轻松搜索、优化和管理Prompts，适应多语言及各种生产效率场景。",
-        "commit_date": "2023-09-06 12:42:03",
-        "commit_message": "feat: Switch authentication from cookies to localStorage to support new extension features",
+        "commit_date": "2023-09-10 11:39:15",
+        "commit_message": "style: Rename \"My Prompts\" label",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -5004,8 +5004,8 @@
     "https://github.com/rustdesk/rustdesk": {
         "created_at": "2020-09-28 15:36:08",
         "description": "An open-source remote desktop, and alternative to TeamViewer.",
-        "commit_date": "2023-09-09 06:57:59",
-        "commit_message": "Merge pull request #5639 from Mr-Update/patch-1\n\nUpdate de.rs",
+        "commit_date": "2023-09-10 15:04:25",
+        "commit_message": "Merge pull request #5649 from solokot/master\n\nUpdate ru.rs",
         "release_tag": "1.2.2",
         "release_date": "2023-08-22 01:44:36",
         "release_message": "\r\n![image](https://github.com/rustdesk/rustdesk/assets/71636191/b444deab-7971-4de7-b315-6a9b4974c7ea)\r\n\r\n> Winget, FDroid, Apple Sillicon, Google Play / App Store update will come soon.\r\n\r\nx86-64: [Windows](https://github.com/rustdesk/rustdesk/releases/download/1.2.2/rustdesk-1.2.2-x86_64.exe) | [Ubuntu](https://github.com/rustdesk/rustdesk/releases/download/1.2.2/rustdesk-1.2.2-x86_64.deb) | [Mac](https://github.com/rustdesk/rustdesk/releases/download/1.2.2/rustdesk-1.2.2-x86_64.dmg)\r\nAArch64 (ARM64):  [Ubuntu](https://github.com/rustdesk/rustdesk/releases/download/1.2.2/rustdesk-1.2.2-aarch64.deb) | [Android](https://github.com/rustdesk/rustdesk/releases/download/1.2.2/rustdesk-1.2.2-aarch64-signed.apk) | [Mac](https://github.com/rustdesk/rustdesk/releases/download/1.2.2/rustdesk-1.2.2-aarch64.dmg)\r\n\r\nMore: [check below please](#)\r\n\r\n<details>\r\n<summary>Changelog</summary>\r\n\r\n- Add separate window mode (tab window by default), https://github.com/rustdesk/rustdesk/discussions/2889\r\n![image](https://github.com/rustdesk/rustdesk/assets/71636191/0c73bc6a-8659-4a67-9425-47625a6aded3)\r\n- Fix and improve responsiveness issue introduced in 1.2.0. https://github.com/rustdesk/rustdesk/discussions/5231\r\n- Add device list batch handle\r\n![image](https://github.com/rustdesk/rustdesk/assets/71636191/0ca85b8e-bed3-48ad-a43f-82df983986f3)\r\n- Add command to assign user and strategy for [RustDesk Server Pro](https://rustdesk.com/docs/en/self-host/pro/)\r\n- Optimize address book, syncing password, alias name, device name etc, add tag color, improve error and update status handling\r\n![image](https://github.com/rustdesk/rustdesk/assets/71636191/21d7a226-b863-4dc2-a9d3-fb6cd3a56c5c)\r\n- Fix windows file copy/paste\r\n- Fix \"waiting for image...\" still shown after receiving image bug, refactored rust->flutter message handling https://github.com/rustdesk/rustdesk/issues/4533\r\n- Improve some touchpad support, https://github.com/rustdesk/rustdesk/pull/5049\r\n- Bug fixes.\r\n\r\n</details>\r\n"
