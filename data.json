@@ -200,8 +200,8 @@
     "https://github.com/ycdxsb/PocOrExp_in_Github": {
         "created_at": "2021-04-13 05:46:16",
         "description": "聚合Github上已有的Poc或者Exp，CVE信息来自CVE官网。Auto Collect Poc Or Exp from Github by CVE ID.",
-        "commit_date": "2023-09-11 23:23:51",
-        "commit_message": "update 2023-09-12 07:23:51",
+        "commit_date": "2023-09-12 23:23:13",
+        "commit_message": "update 2023-09-13 07:23:13",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -648,8 +648,8 @@
     "https://github.com/helloexp/0day": {
         "created_at": "2022-04-07 04:28:29",
         "description": "各种CMS、各种平台、各种系统、各种软件漏洞的EXP、POC ,该项目将持续更新",
-        "commit_date": "2023-09-06 09:32:18",
-        "commit_message": "add CVE-2021-4034 polkit privilege escalation exploit",
+        "commit_date": "2023-09-12 00:57:05",
+        "commit_message": "add CVE-2023-37582 RocketMQ RCE",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -828,8 +828,8 @@
     "https://github.com/murphysecurity/murphysec": {
         "created_at": "2022-03-16 02:52:33",
         "description": "An open source tool focused on software supply chain security. 墨菲安全专注于软件供应链安全，具备专业的软件成分分析（SCA）、漏洞检测、专业漏洞库。",
-        "commit_date": "2023-09-11 09:32:12",
-        "commit_message": "fix(cmd): 跳过初始化APIclient，当不需要的时候",
+        "commit_date": "2023-09-12 06:17:04",
+        "commit_message": "feat(maven): 把对scope的过滤去掉",
         "release_tag": "v3.1.1",
         "release_date": "2023-05-15 12:52:58",
         "release_message": "Support NPM lockfile v3 "
@@ -1035,8 +1035,8 @@
     "https://github.com/ffuf/ffuf": {
         "created_at": "2018-11-08 09:25:49",
         "description": "Fast web fuzzer written in Go",
-        "commit_date": "2023-04-21 15:19:18",
-        "commit_message": "Fix md output format (#672)\n\n* Fix MD output\r\n\r\n* Add CHANGELOG.md entry",
+        "commit_date": "2023-09-12 12:50:31",
+        "commit_message": "Add cert authentication to crawl (#713)\n\n* Add cert authentication to crawl\r\n\r\n* Update CONTRIBUTORS.md\r\n\r\n* Update CONTRIBUTORS.md",
         "release_tag": "v2.0.0",
         "release_date": "2023-02-06 09:28:04",
         "release_message": "## Changelog\n* e952deb Fix the v2 tagging for go install (#639)\n* 19e07c0 Fix required go version (#637)\n* 77cc45c Prepare for v2.0 release (#635)\n* c7d0fb5 Gracefully error in case stdin is used for search result (#634)\n* 643f6b8 Scraper functionality (#633)\n* 39c8934 Added additional proxy URL verification (#574)\n* bbb97ab Typo fix (#581)\n* 3b219f2 fix: changed usage from version 1.3.0 to version 1.5.0 (#595)\n* 633893c Change precedence of quiet and JSON output to favour JSON (#570)\n* 0236210 Add homebrew install method (#552)\n* 7bff9e7 Fix time-based matcher (#575)\n* ebb4c44 Sniper template parsing - fixes #579 (#580)\n* 9bddff7 New functionality to map fired blind payloads back to the initial request (#632)\n* b7adc50 Fix jsonlines output while in silent mode (#630)\n* 2ce2217 Enhanced rate limiting (#620)\n* 1a684a9 Fix the ac for good now (#615)\n* 3328a28 Fix linter workflow and autocalibration for lines & words match (#614)\n\n"
@@ -1350,11 +1350,11 @@
     "https://github.com/projectdiscovery/subfinder": {
         "created_at": "2018-03-31 09:44:57",
         "description": "Fast passive subdomain enumeration tool.",
-        "commit_date": "2023-08-12 18:10:07",
+        "commit_date": "2023-09-12 09:25:38",
         "commit_message": "version update",
-        "release_tag": "v2.6.2",
-        "release_date": "2023-08-12 18:17:48",
-        "release_message": "<!-- Release notes generated using configuration in .github/release.yml at main -->\r\n\r\n## What's Changed\r\n### 🎉 New Features\r\n\r\n* Added [Facebook certificate transparency logs](https://developers.facebook.com/tools/ct/search/) as new source by @tarunKoyalwar in https://github.com/projectdiscovery/subfinder/pull/912\r\n```console\r\nsubfinder -d hackerone.com -s facebook\r\n```\r\n* Added rate limit per source support by @dogancanbakir in https://github.com/projectdiscovery/subfinder/pull/891\r\n```console\r\nsubfinder -d hackerone.com -rls \"crtsh=10/s,shodan=1/s\"\r\n```\r\n\r\n###  🐞 Bug Fixes\r\n* Fixed issue with censys source by using v2 api by @dogancanbakir in https://github.com/projectdiscovery/subfinder/pull/929\r\n\r\n\r\n**Full Changelog**: https://github.com/projectdiscovery/subfinder/compare/v2.6.1...v2.6.2"
+        "release_tag": "v2.6.3",
+        "release_date": "2023-09-12 09:40:25",
+        "release_message": "<!-- Release notes generated using configuration in .github/release.yml at main -->\r\n\r\n## What's Changed\r\n\r\n### 🎉 New Features\r\n* Added RedHuntLabs as a source by @umair-rhl in https://github.com/projectdiscovery/subfinder/pull/978\r\n* Added Builtwith as a source by @dogancanbakir in https://github.com/projectdiscovery/subfinder/pull/960\r\n\r\n### 🐞 Bug Fixes\r\n* Fixed pagination issue in facebook source by @tarunKoyalwar in https://github.com/projectdiscovery/subfinder/pull/944\r\n* Fixed filtering active subdomains when using as lib by @RamanaReddy0M in https://github.com/projectdiscovery/subfinder/pull/977\r\n* Fixed selfupdate option for android by @dogancanbakir in https://github.com/projectdiscovery/subfinder/pull/985\r\n\r\n### 🔨 Maintenance\r\n* Cleanup migration code by @dogancanbakir in https://github.com/projectdiscovery/subfinder/pull/941\r\n* Use `-short` mode for excluding long running tests by @dogancanbakir in https://github.com/projectdiscovery/subfinder/pull/948\r\n\r\n### Other Changes\r\n* Added warning for passivetotal source by @dogancanbakir in https://github.com/projectdiscovery/subfinder/pull/942\r\n* Removed zoomeye legacy support by @dogancanbakir in https://github.com/projectdiscovery/subfinder/pull/943\r\n* Updated to v3 API for virustotal source by @dogancanbakir in https://github.com/projectdiscovery/subfinder/pull/962\r\n\r\nIssues closed in this release - https://github.com/projectdiscovery/subfinder/milestone/11?closed=1\r\n\r\n## New Contributors\r\n* @umair-rhl made their first contribution in https://github.com/projectdiscovery/subfinder/pull/978\r\n\r\n**Full Changelog**: https://github.com/projectdiscovery/subfinder/compare/v2.6.2...v2.6.3"
     },
     "https://github.com/webraybtl/CodeQLpy": {
         "created_at": "2022-12-22 12:54:03",
@@ -1663,11 +1663,11 @@
     "https://github.com/xzajyjs/ThunderSearch": {
         "created_at": "2022-01-14 14:53:32",
         "description": "【支持Fofa、Shodan、Hunter、Zoomeye、Quake网络空间搜索引擎】闪电搜索器；GUI图形化渗透测试信息搜集工具；资产搜集引擎；hw红队工具hvv",
-        "commit_date": "2023-08-14 08:36:00",
-        "commit_message": "fix README",
-        "release_tag": "v2.5",
-        "release_date": "2023-08-14 08:25:54",
-        "release_message": "- 增加Hunter搜索  \r\n- 增加版本更新检测  \r\n- 适当调整界面布局  \r\n\r\n---\r\n\r\n- Support `Hunter` search\r\n- Add version update detection\r\n- Appropriately adjust the interface layout\r\n\r\n---\r\n\r\n> MD5 (ThunderSearch.dmg) = cbcc8247dd6f445de5db5f6b5e35b795\r\n> MD5 (ThunderSearch_win.zip) = 0c1eed85000788ccbbaba7523d491035\r\n> Mac版密码: Hi!j3@/J\r\n"
+        "commit_date": "2023-09-12 17:45:36",
+        "commit_message": "fix bug",
+        "release_tag": "v2.5.1",
+        "release_date": "2023-09-12 17:55:11",
+        "release_message": "- 新增页面自适应, 针对Windows的HiDPI进行优化\r\n- 完善英文支持\r\n---\r\n- Added page adaptation, optimized for Windows HiDPI\r\n- Improve English support\r\n---\r\n> MD5 (ThunderSearch_darwin_universal.dmg) = a910b7226c88a588e932161d2c016a32\r\nMD5 (ThunderSearch_win.zip) = ab1b385c836a7903d2c2075c37e9feb9\r\nMac版密码: Hi!j3@/J"
     },
     "https://github.com/foryujian/yjdirscan": {
         "created_at": "2020-10-05 15:37:28",
@@ -2220,7 +2220,7 @@
     },
     "https://github.com/Threekiii/Awesome-POC": {
         "created_at": "2022-02-20 06:43:22",
-        "description": "一个各类漏洞POC知识库",
+        "description": "一个漏洞POC知识库",
         "commit_date": "2023-09-05 06:56:25",
         "commit_message": "更新漏洞",
         "release_tag": "",
@@ -2248,8 +2248,8 @@
     "https://github.com/epi052/feroxbuster": {
         "created_at": "2020-08-22 15:36:19",
         "description": "A fast, simple, recursive content discovery tool written in Rust.",
-        "commit_date": "2023-09-11 12:02:35",
-        "commit_message": "clippy",
+        "commit_date": "2023-09-12 01:18:35",
+        "commit_message": "Merge pull request #980 from epi052/all-contributors/add-sawmj\n\ndocs: add sawmj as a contributor for bug",
         "release_tag": "v2.10.0",
         "release_date": "2023-05-06 13:19:20",
         "release_message": "## What's Changed\r\n* Adds server and client certificate management; enables mTLS by @lavafroth in https://github.com/epi052/feroxbuster/pull/892\r\n    * `--server-certs`\r\n    * `--client-cert`\r\n    * `--client-key` \r\n\r\n## New Contributors\r\n* @lavafroth made their first contribution in https://github.com/epi052/feroxbuster/pull/892 :tada: \r\n\r\n**Full Changelog**: https://github.com/epi052/feroxbuster/compare/v2.9.5...v2.10.0"
@@ -2951,8 +2951,8 @@
     "https://github.com/dbeaver/dbeaver": {
         "created_at": "2015-10-21 08:26:28",
         "description": "Free universal database tool and SQL client",
-        "commit_date": "2023-09-11 18:13:48",
-        "commit_message": "dbeaver/pro#1948 Fix TE developer permissions check (#21178)",
+        "commit_date": "2023-09-12 14:28:21",
+        "commit_message": "dbeaver/dbeaver#21053 Display errors in the result tab  (#21162)\n\n* Display errors in the result tab #21053\r\n\r\nThe display error state reset to default in case of catching errors.\r\n\r\n* Display errors in the result tab #21053\r\n\r\nThe display error state reset to default in case of catching errors.\r\n\r\n* Display errors in the result tab #21053\r\n\r\nRemoved unused method\r\n\r\n* dbeaver/dbeaver#21053 Display errors in the result tab\r\n\r\nfixed result view\r\n\r\n* dbeaver/dbeaver#21053 Display errors in the result tab\r\n\r\nEmpty line for style check\r\n\r\n* dbeaver/dbeaver#21053 Display errors in the result tab\r\n\r\nRemoved the keep state behavior of sash.\r\n\r\n* dbeaver/dbeaver#21053 Display errors in the result tab\r\n\r\nRevert to keep changes for future decision",
         "release_tag": "23.2.0",
         "release_date": "2023-09-04 12:23:06",
         "release_message": "\n            - Changes since 23.1.5:\n                - Data Editor:\n                    - Spatial values rendering was fixed\n                    - Spatial images capture was fixed\n                    - Special characters rendering was improved\n                    - Grouping panel icons were improved\n                - ER Diagrams: saved diagrams now can be opened on another computers\n                - Data transfer: import settings handling was improved\n                - Accessibility:\n                    - Connection dialog now supports screen readers\n                    - Cell value reading was improved\n                    - Ctrl+Shift/Alt+PageDn: vertical tabs switch\n                    - Ctrl+ALT+6: SQL editor and results tab switch\n                    - Ctrl+Shift+Enter now opens ER diagram entities\n                    - Ctrl+Shift+N: new connection dialog open\n                - Database drivers:\n                    - Bigquery: DDL for tables, views and stored procedures was added\n                    - Clickhouse: arrays and structures visualization was fixed\n                    - Greenplum: external tables reading was fixed\n                    - Teradata: issue with the missing templates was fixed\n                - Many minor UI and database issues were resolved\n            "
@@ -3050,8 +3050,8 @@
     "https://github.com/zan8in/afrog": {
         "created_at": "2022-02-24 06:00:32",
         "description": "A Security Tool for Bug Bounty, Pentest and Red Teaming.",
-        "commit_date": "2023-09-10 04:42:27",
-        "commit_message": "update",
+        "commit_date": "2023-09-12 06:10:02",
+        "commit_message": "update poc",
         "release_tag": "v2.8.0",
         "release_date": "2023-09-03 09:29:04",
         "release_message": "**Add**\r\n- Added PoC for backup file detection\r\n- Customize global cookies and will not overwrite the cookies of the original POC\r\n\r\n**Optimization**\r\n- afrog API has been synchronized with the latest features\r\n\r\n**新增**\r\n- 新增备份文件检测的 PoC\r\n- 自定义全局 cookie，不会覆盖原 POC 的 cookie\r\n- 新增一批 HVV2023 PoCs\r\n\r\n**优化**\r\n- afrog API 已同步最新功能"
@@ -3219,7 +3219,7 @@
     "https://github.com/Threekiii/Awesome-Redteam": {
         "created_at": "2022-02-08 00:45:03",
         "description": "一个攻防知识仓库",
-        "commit_date": "2023-09-05 06:44:46",
+        "commit_date": "2023-09-12 03:27:14",
         "commit_message": "更新README.md",
         "release_tag": "",
         "release_date": "",
@@ -3881,8 +3881,8 @@
     "https://github.com/aquasecurity/kube-bench": {
         "created_at": "2017-06-19 13:27:02",
         "description": "Checks whether Kubernetes is deployed according to security best practices as defined in the CIS Kubernetes Benchmark",
-        "commit_date": "2023-09-09 18:37:29",
-        "commit_message": "build(deps): bump alpine from 3.18.2 to 3.18.3 (#1487)\n\nBumps alpine from 3.18.2 to 3.18.3.\r\n\r\n---\r\nupdated-dependencies:\r\n- dependency-name: alpine\r\n  dependency-type: direct:production\r\n  update-type: version-update:semver-patch\r\n...\r\n\r\nSigned-off-by: dependabot[bot] <support@github.com>\r\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
+        "commit_date": "2023-09-12 05:11:27",
+        "commit_message": "build(deps): bump goreleaser/goreleaser-action from 4 to 5 (#1495)\n\nBumps [goreleaser/goreleaser-action](https://github.com/goreleaser/goreleaser-action) from 4 to 5.\r\n- [Release notes](https://github.com/goreleaser/goreleaser-action/releases)\r\n- [Commits](https://github.com/goreleaser/goreleaser-action/compare/v4...v5)\r\n\r\n---\r\nupdated-dependencies:\r\n- dependency-name: goreleaser/goreleaser-action\r\n  dependency-type: direct:production\r\n  update-type: version-update:semver-major\r\n...\r\n\r\nSigned-off-by: dependabot[bot] <support@github.com>\r\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
         "release_tag": "v0.6.17",
         "release_date": "2023-07-25 09:51:02",
         "release_message": "## Changelog\n* c8cabc4 Update job.yaml (#1477)\n\n"
@@ -3908,8 +3908,8 @@
     "https://github.com/anchore/syft": {
         "created_at": "2020-05-07 18:19:29",
         "description": "CLI tool and library for generating a Software Bill of Materials from container images and filesystems",
-        "commit_date": "2023-09-11 16:12:04",
-        "commit_message": "fix(help): power-user help text to indicate it supports file-system (#2113)\n\nSigned-off-by: tomersein <tomersein@gmail.com>",
+        "commit_date": "2023-09-12 17:09:18",
+        "commit_message": "chore: enforce race detector (#2122)\n\nPreviously, there were some data races in syft. Right now, none are\r\ndetected, so check for data races on the overall command, and on unit\r\ntests. (Checking for races on integration tests triples the time needed\r\nfor those tests, from ~1 minute to ~3 minutes on my workstation, so that\r\nwas not done at this time.)\r\n\r\nSigned-off-by: Will Murphy <will.murphy@anchore.com>",
         "release_tag": "v0.90.0",
         "release_date": "2023-09-11 21:26:23",
         "release_message": "# \n\n## [v0.90.0](https://github.com/anchore/syft/tree/v0.90.0) (2023-09-11)\n\n[Full Changelog](https://github.com/anchore/syft/compare/v0.89.0...v0.90.0)\n\n### Added Features\n\n- Expose cobra command in cli package [[PR #2097](https://github.com/anchore/syft/pull/2097)] [[wagoodman](https://github.com/wagoodman)]\n- Explicitly test PURL generation against key packages [[Issue #2071](https://github.com/anchore/syft/issues/2071)]\n- Add User-Agent with Syft version during update check [[Issue #2072](https://github.com/anchore/syft/issues/2072)] [[PR #2100](https://github.com/anchore/syft/pull/2100)] [[hainenber](https://github.com/hainenber)]\n\n### Bug Fixes\n\n- fix: correct group IDs for commons-codec, okhttp, okio, and add integration tests for Java PURL generation [[PR #2075](https://github.com/anchore/syft/pull/2075)] [[willmurphyscode](https://github.com/willmurphyscode)]\n- Cyclonedx external reference URLs are not validated when encoding [[Issue #2079](https://github.com/anchore/syft/issues/2079)] [[PR #2091](https://github.com/anchore/syft/pull/2091)] [[hainenber](https://github.com/hainenber)]\n\n### Additional Changes\n\n- Bump the golang.org/x/exp dependency and fix a build breakage. [[PR #2088](https://github.com/anchore/syft/pull/2088)] [[dlorenc](https://github.com/dlorenc)]\n- fix: update codeql-analysis for go 1.21 [[PR #2108](https://github.com/anchore/syft/pull/2108)] [[spiffcs](https://github.com/spiffcs)]\n\n\n\n"
@@ -3917,8 +3917,8 @@
     "https://github.com/chaitin/safeline": {
         "created_at": "2023-04-12 11:30:14",
         "description": "一款足够简单、足够好用、足够强的免费 WAF。基于业界领先的语义引擎检测技术，作为反向代理接入，保护你的网站不受黑客攻击。",
-        "commit_date": "2023-09-07 09:54:04",
-        "commit_message": "fix(websiet): node 20.6 version can't compile docs",
+        "commit_date": "2023-09-12 07:23:48",
+        "commit_message": "feat: update the dns to list",
         "release_tag": "v3.3.0",
         "release_date": "2023-09-07 10:01:41",
         "release_message": "### 新增\r\n\r\n- 支持设置拦截页面附加说明（[#192](https://github.com/chaitin/SafeLine/issues/192)）\r\n- 频率限制新增 “人机验证” 的限制方式（[#226](https://github.com/chaitin/SafeLine/issues/226)）\r\n\r\n### 优化\r\n\r\n- 当网站域名不匹配的时候，返回 “网站不存在” ，提示更清晰（[#58](https://github.com/chaitin/SafeLine/issues/58)）\r\n- 修复 攻击事件->原始日志 的 “攻击地址” 中显示额外的转义符的问题\r\n- 修复站点详情中 “今日总请求量” 和站点列表的 “今日访问量” 不一致的问题（[#279](https://github.com/chaitin/SafeLine/issues/279)）\r\n- 频率限制后直接封禁的拦截状态码改为 429，和普通拦截 403 区分开，方便排查拦截原因\r\n- 加强后台登录安全性（感谢微信交流 20 群「千年之狐」提供的建议）\r\n- 优化安装/升级时 CPU ssse3 指令集的检查方式（[#273](https://github.com/chaitin/SafeLine/issues/273)）\r\n- 优化界面样式交互，修复一些已知问题"
@@ -3953,8 +3953,8 @@
     "https://github.com/quay/clair": {
         "created_at": "2015-11-13 18:46:16",
         "description": "Vulnerability Static Analysis for Containers",
-        "commit_date": "2023-09-11 22:35:42",
-        "commit_message": "contrib: add grafana dashboards for deletion metrics\n\nThis has been a part of the API for some time and is starting to be\nused extensively.\n\nSigned-off-by: crozzy <joseph.crosland@gmail.com>",
+        "commit_date": "2023-09-12 18:25:58",
+        "commit_message": "build(deps): bump actions/checkout from 3 to 4\n\nBumps [actions/checkout](https://github.com/actions/checkout) from 3 to 4.\n- [Release notes](https://github.com/actions/checkout/releases)\n- [Changelog](https://github.com/actions/checkout/blob/main/CHANGELOG.md)\n- [Commits](https://github.com/actions/checkout/compare/v3...v4)\n\n---\nupdated-dependencies:\n- dependency-name: actions/checkout\n  dependency-type: direct:production\n  update-type: version-update:semver-major\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>",
         "release_tag": "v4.7.1",
         "release_date": "2023-08-10 22:02:47",
         "release_message": "<a name=\"unreleased\"></a>\n## [Unreleased]\n\n\n<a name=\"v4.7.1\"></a>\n## [v4.7.1] - 2023-08-10\n### Build(Deps)\n- [bd4bdbf6](https://github.com/quay/clair/commit/bd4bdbf68c62eb9982e028cafcabd58eb4e91c6c): bump github.com/pyroscope-io/godeltaprof\n### Chore\n- [25ab0f4e](https://github.com/quay/clair/commit/25ab0f4e01ac08870b6e8fe9cccc134a011a4f4f): bump claircore to v1.5.15\n- [4bf37a11](https://github.com/quay/clair/commit/4bf37a11861ca89c56dc94db9b1e002ef3d44265): bump claircore to v1.5.14\n\n[Unreleased]: https://github.com/quay/clair/compare/v4.7.1...HEAD\n[v4.7.1]: https://github.com/quay/clair/compare/v4.7.0...v4.7.1\n"
@@ -3971,8 +3971,8 @@
     "https://github.com/aquasecurity/trivy": {
         "created_at": "2019-04-11 01:01:07",
         "description": "Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more",
-        "commit_date": "2023-09-11 09:18:56",
-        "commit_message": "docs: add image-scanner-with-trivy for ecosystem (#5159)",
+        "commit_date": "2023-09-12 07:21:44",
+        "commit_message": "chore: bump trivy-kubernetes-latest (#5161)\n\nSigned-off-by: chenk <hen.keinan@gmail.com>",
         "release_tag": "v0.45.0",
         "release_date": "2023-09-01 06:38:35",
         "release_message": "## ⚡Release highlights and summary⚡\r\n\r\n👉 https://github.com/aquasecurity/trivy/discussions/5082\r\n\r\n## Changelog\r\n* cdab67e7f docs: add Bitnami (#5078)\r\n* 7acc5e831 feat(docker): add support for scanning Bitnami components (#5062)\r\n* 9628b1cbf feat: add support for .trivyignore.yaml (#5070)\r\n* 4547e2766 fix(terraform): improve detection of terraform files (#4984)\r\n* 0c8919e1e feat: filter artifacts on --exclude-owned flag (#5059)\r\n* c04f234fa fix(sbom): cyclonedx advisory should omit `null` value (#5041)\r\n* f811ed2d4 build: maximize build space for build tests (#5072)\r\n* 69ea5bf70 feat: improve kbom component name (#5058)\r\n* 3715dcb3f fix(pom): add licenses for pom artifacts (#5071)\r\n* 07f7e9853 chore(deps): Update defsec to v0.92.0 (#5068)\r\n* d4ca3cce2 chore: bump Go to `1.20` (#5067)\r\n* 49fdd584b feat: PURL matching with qualifiers in OpenVEX (#5061)\r\n* 4401998ec feat(java): add graph support for pom.xml (#4902)\r\n* 9c211d005 feat(swift): add vulns for cocoapods (#5037)\r\n* 422fa414e fix: support image pull secret for additional workloads (#5052)\r\n* 8e933860a fix: #5033 Superfluous double quote in html.tpl (#5036)\r\n* 9345a98ed docs(repo): update trivy repo usage and example (#5049)\r\n* 5d8da70c6 perf: Optimize Dockerfile for reduced layers and size (#5038)\r\n* 1be9da7aa feat: scan K8s Resources Kind with --all-namespaces (#5043)\r\n* 0e17d0bef fix: vulnerability typo (#5044)\r\n* d70fab231 docs: adding a terraform tutorial to the docs (#3708)\r\n* 2fa264ac1 feat(report): add licenses to sarif format (#4866)\r\n* 07ddf4790 feat(misconf): show the resource name in the report (#4806)\r\n* 9de360623 chore: update alpine base images (#5015)\r\n* ef70d2076 feat: add Package.resolved swift files support (#4932)\r\n* ec5d8bec0 feat(nodejs): parse licenses in yarn projects (#4652)\r\n* 3114c87e6 fix: k8s private registries support (#5021)\r\n* 6d79f55db bump github.com/testcontainers/testcontainers-go from 0.21.0 to 0.23.0 (#5018)\r\n* 9ace59106 feat(vuln): support last_affected field from osv (#4944)\r\n* d44217640 feat(server): add version endpoint (#4869)\r\n* 63cd41d20 feat: k8s private registries support (#4987)\r\n* cb16e23f1 fix(server): add indirect prop to package (#4974)\r\n* a4e981b4e docs: add coverage (#4954)\r\n* 6f03c7940 feat(c): add location for lock file dependencies. (#4994)\r\n* c74870500 docs: adding blog post on ec2 (#4813)\r\n* 4e1316c37 revert 32bit bins (#4977)\r\n* fc959fc57 chore(deps): bump github.com/xlab/treeprint from 1.1.0 to 1.2.0 (#4917)\r\n\r\n"
@@ -3980,8 +3980,8 @@
     "https://github.com/anchore/grype": {
         "created_at": "2020-05-26 13:44:38",
         "description": "A vulnerability scanner for container images and filesystems",
-        "commit_date": "2023-09-11 19:23:55",
-        "commit_message": "chore(deps): bump tibdex/github-app-token from 1.8.2 to 2.0.0 (#1485)\n\nBumps [tibdex/github-app-token](https://github.com/tibdex/github-app-token) from 1.8.2 to 2.0.0.\r\n- [Release notes](https://github.com/tibdex/github-app-token/releases)\r\n- [Commits](https://github.com/tibdex/github-app-token/compare/0d49dd721133f900ebd5e0dff2810704e8defbc6...0914d50df753bbc42180d982a6550f195390069f)\r\n\r\n---\r\nupdated-dependencies:\r\n- dependency-name: tibdex/github-app-token\r\n  dependency-type: direct:production\r\n  update-type: version-update:semver-major\r\n...\r\n\r\nSigned-off-by: dependabot[bot] <support@github.com>\r\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
+        "commit_date": "2023-09-12 18:04:24",
+        "commit_message": "chore(deps): bump docker/login-action from 2 to 3 (#1488)\n\nBumps [docker/login-action](https://github.com/docker/login-action) from 2 to 3.\r\n- [Release notes](https://github.com/docker/login-action/releases)\r\n- [Commits](https://github.com/docker/login-action/compare/v2...v3)\r\n\r\n---\r\nupdated-dependencies:\r\n- dependency-name: docker/login-action\r\n  dependency-type: direct:production\r\n  update-type: version-update:semver-major\r\n...\r\n\r\nSigned-off-by: dependabot[bot] <support@github.com>\r\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
         "release_tag": "v0.67.0",
         "release_date": "2023-09-11 18:18:57",
         "release_message": "# \n\n## [v0.67.0](https://github.com/anchore/grype/tree/v0.67.0) (2023-09-11)\n\n[Full Changelog](https://github.com/anchore/grype/compare/v0.66.0...v0.67.0)\n\n### Additional Changes\n\n- chore: bump quality gate to use syft v0.89.0 [[PR #1479](https://github.com/anchore/grype/pull/1479)] [[westonsteimel](https://github.com/westonsteimel)]\n- chore: update grype to use Go v1.21 [[PR #1480](https://github.com/anchore/grype/pull/1480)] [[spiffcs](https://github.com/spiffcs)]\n\n\n\n"
@@ -4277,7 +4277,7 @@
     "https://github.com/aiboboxx/v2rayfree": {
         "created_at": "2021-10-13 11:34:53",
         "description": "v2ray节点、免费节点、免费v2ray节点、最新公益免费v2ray节点订阅地址、免费v2ray节点每日更新、免费ss/v2ray/trojan节点、freefq ",
-        "commit_date": "2023-09-11 12:36:32",
+        "commit_date": "2023-09-12 12:35:18",
         "commit_message": "update",
         "release_tag": "",
         "release_date": "",
@@ -4322,8 +4322,8 @@
     "https://github.com/freefq/free": {
         "created_at": "2020-06-07 02:48:33",
         "description": "翻墙、免费翻墙、免费科学上网、免费节点、免费梯子、免费ss/v2ray/trojan节点、蓝灯、谷歌商店、翻墙梯子",
-        "commit_date": "2023-09-12 00:00:03",
-        "commit_message": "updated_at 09-12 08:00",
+        "commit_date": "2023-09-13 00:00:02",
+        "commit_message": "updated_at 09-13 08:00",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -5263,8 +5263,8 @@
     "https://github.com/alibaba/arthas": {
         "created_at": "2018-08-29 17:15:57",
         "description": "Alibaba Java Diagnostic Tool Arthas/Alibaba Java诊断利器Arthas",
-        "commit_date": "2023-09-08 04:05:36",
-        "commit_message": "sysenv/sysprop command sorted by key #2619 (#2652)",
+        "commit_date": "2023-09-12 02:28:50",
+        "commit_message": "fix Override  annotation (#2653)",
         "release_tag": "arthas-all-3.7.1",
         "release_date": "2023-08-24 12:32:49",
         "release_message": "Issues: https://github.com/alibaba/arthas/milestone/49?closed=1\r\n\r\n* #2620 当 listen 0.0.0.0 时，默认生成随机密码，需要鉴权\r\n\r\n* #2633  修复在线教程，切换到 killercoda feat: update online tutorials, switch to killercoda "
@@ -5986,11 +5986,11 @@
     "https://github.com/github/codeql-cli-binaries": {
         "created_at": "2019-10-15 09:46:34",
         "description": "Binaries for the CodeQL CLI",
-        "commit_date": "2023-08-25 15:48:38",
-        "commit_message": "Update changelog for 2.14.3",
-        "release_tag": "v2.14.3",
-        "release_date": "2023-08-25 16:21:04",
-        "release_message": "### Breaking changes\r\n\r\n- The `<run>.tool.extensions` property in the SARIF generated by `codeql database analyze` now contains the\r\n  following packs:\r\n\r\n  - The containing query pack for each query that was evaluated.\r\n  - Each model pack that was specified via the `--model-packs` option, regardless of whether\r\n    that model pack affected any of the evaluated queries.\r\n    Library packs are no longer included in the list.\r\n\r\n### Miscellaneous\r\n\r\n- The build of Eclipse Temurin OpenJDK that is bundled with the CodeQL\r\n  CLI has been updated to version 17.0.8.\r\n\r\n- When `codeql test` generates `.actual` files, they will in some cases\r\n  list the query predicates in a different order than past versions.\r\n  There is no need to update `.expected` files, as `codeql test` sorts\r\n  their results accordingly before diffing.\r\n  However, when there are genuine changes in expected results, the\r\n  generated `.actual` file can show additional changes against the\r\n  `.expected` due to the reordering.\r\n\r\nFor more information about the changes included in this release, see the [CodeQL CLI changelog](https://github.com/github/codeql-cli-binaries/blob/HEAD/CHANGELOG.md).\r\n\r\nYou can download _either_ the `codeql-PLATFORM.zip` for your platform, _or_ the generic `codeql.zip` which contains binaries for all supported platforms. Please ignore the additional \"source code\" downloads below the `.zip` artifacts.\r\n\r\nThis release is compatible with the CodeQL language packs from [`github/codeql@codeql-cli/v2.14.3`](https://github.com/github/codeql/tree/codeql-cli/v2.14.3).\r\n"
+        "commit_date": "2023-09-12 14:26:09",
+        "commit_message": "Update changelog for 2.14.4",
+        "release_tag": "v2.14.4",
+        "release_date": "2023-09-12 14:29:14",
+        "release_message": "### Potentially breaking changes\r\n\r\n- The CodeQL CLI no longer supports the `SEMMLE_JAVA_ARGS` environment variable. All previous versions of the CodeQL CLI perform command substitution on the `SEMMLE_JAVA_ARGS` value (for example, replacing `'$(echo foo)'` with `'foo'`) when starting a new Java virtual machine, which, depending on the execution environment, may have security implications.  Users are advised to check their environments for possible `SEMMLE_JAVA_ARGS` misuse.\r\n\r\n### New Features\r\n\r\n- The Java extractor now supports files that use Lombok.\r\n\r\n### Bugs fixed\r\n\r\n- `codeql database init` (and `github/codeql-action/init@v2` on GitHub Actions) should no longer hang or crash for traced languages on 64-bit Windows machines when certain antivirus software is installed.\r\n- During `codeql pack create` and `codeql pack publish`, a source version of a pack coming from `--additional-packs` can explicitly be used to override a requested pack version even if this source version is incompatible with the requested version in the pack file. Previously, this would fail with a confusing error message.\r\n- Fixed a bug where `codeql database interpret-results` hangs when a path query produces a result that has no paths from source to sink.\r\n\r\n### Miscellaneous\r\n\r\n- The build of Eclipse Temurin OpenJDK that is bundled with the CodeQL\r\n  CLI has been updated to version 17.0.8.\r\n\r\nFor more information about the changes included in this release, see the [CodeQL CLI changelog](https://github.com/github/codeql-cli-binaries/blob/HEAD/CHANGELOG.md).\r\n\r\nYou can download _either_ the `codeql-PLATFORM.zip` for your platform, _or_ the generic `codeql.zip` which contains binaries for all supported platforms. Please ignore the additional \"source code\" downloads below the `.zip` artifacts.\r\n\r\nThis release is compatible with the CodeQL language packs from [`github/codeql@codeql-cli/v2.14.4`](https://github.com/github/codeql/tree/codeql-cli/v2.14.4).\r\n"
     },
     "https://github.com/Ascotbe/HackerMind": {
         "created_at": "2019-02-21 01:03:39",
