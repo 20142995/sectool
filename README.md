@@ -1,13 +1,15 @@
-# 更新于 2023-09-15 08:35:06
+# 更新于 2023-09-16 08:32:56
 
 ## 近15天release更新记录
 | 更新时间 | 项目名称 | 版本 | 更新内容 |
 | :---- | :---- | :---- | :---- |
-|2023-09-14 21:31:18|[grype](https://github.com/anchore/grype)|v0.68.0|#     ##  (2023-09-14)        ### Add<br>ed Features    - Ignore/add match resu<br>lts based on OpenVEX documents ] ]  - <br>Introduce exit code failure option for<br> db update check ] ]    ### Bug Fixes <br>   - Fix race conditions around stager<br>, enable detector ] ]  - Grype hangs f<br>orever if gets interrupted during work<br> (in rare cases) ] ] ]        |
+|2023-09-15 18:49:03|[grype](https://github.com/anchore/grype)|v0.68.1|#     ##  (2023-09-15)        ### Bug<br> Fixes    - Version output was not inc<br>luding supported db schema ] ]|
+|2023-09-15 11:11:09|[Elkeid](https://github.com/bytedance/Elkeid)|scanner<br>-v2.2.1.<br>3_202309<br>15_test_<br>only||
+|2023-09-15 09:14:03|[safeline](https://github.com/chaitin/safeline)|v3.4.1|### 优化    - 修复请求上游服务器的 ti<br>tle 和 icon 时间过长导致站点相关功能异<br>常的问题  - 修复站点列表中站点标题的优<br>先显示顺序，先显示“备注”，如果没有“<br>备注”再显示网页的“标题”|
+|2023-09-15 04:53:52|[captcha-killer-mo<br>dified](https://github.com/f0ng/captcha-killer-modified)|0.24.2|【2023-9-15】 0.24.2  - 优化@captcha-<br>killer-modified@关键字|
 |2023-09-14 18:14:15|[mysql-fake-server](https://github.com/4ra1n/mysql-fake-server)|0.0.3|## 0.0.3    支持了自定义反序列化paylo<br>ad功能，内部仅保留最常见的链，其他情况<br>自行导入    - 希望支持yso自定义 #3  - <br>支持调用自己的yso #2  - 命令行版本也支<br>持了自定义序列化数据  - 修复了dockerfil<br>e版本问题  - 删除了基本不会使用的rpc模<br>块  - 完善README信息|
 |2023-09-14 15:09:45|[codeql-cli-binari<br>es](https://github.com/github/codeql-cli-binaries)|v2.14.5|### Bugs fixed    - Fixed a JavaScrip<br>t extractor crash that was introduced <br>in 2.14.4.    For more information abo<br>ut the changes included in this releas<br>e, see the .    You can download _eith<br>er_ the codeql-PLATFORM.zip for your p<br>latform, _or_ the generic codeql.zip w<br>hich contains binaries for all support<br>ed platforms. Please ignore the additi<br>onal "source code" downloads below the<br> .zip artifacts.    This release is co<br>mpatible with the CodeQL language pack<br>s from .  |
 |2023-09-14 12:46:17|[Viper](https://github.com/FunnyWolf/Viper)|2023091<br>4195943|### 优化  - 清理不必要的日志打印  - <br>合并metasploit-framework 6.3.34版本  - <br>增加后台服务监控日志  - 渗透服务使用多<br>线程模式,解决Session操作执行超时导致其<br>他任务无法进行    ### Bugfix  - fix Pyt<br>hon Meterpreter断线后无法重连问题  - f<br>ix https://github.com/FunnyWolf/Viper/<br>issues/145|
-|2023-09-14 09:28:56|[safeline](https://github.com/chaitin/safeline)|v3.4.0|### 新增    - “防护站点” 新增站点的<br>标题和 Favicon，每天更新一次，管理起来<br>更加清晰  - 站点详情新增“采集设置”，<br>支持设置不记录的路径前缀和类型    ### <br>优化    - 限频后封禁的拦截页面改为 “请<br>求频率过高，已被拦截”，与语义分析和黑<br>名单的拦截页面区分开，方便管理员确认拦<br>截原因  - 修复有时候无法正常通过路径搜<br>索日志的问题  - 修复限频中，同时配置人<br>机验证、直接封禁两类限制结果时，直接封<br>禁有时候不会被触发的问题  - 修复黑名单<br>拦截的请求也会触发限频，导致限频日志中<br>出现很多 “已限制请求数” 为 0 的记录的<br>问题  - 优化界面的一些样式交互|
 |2023-09-12 17:55:11|[ThunderSearch](https://github.com/xzajyjs/ThunderSearch)|v2.5.1|- 新增页面自适应, 针对Windows的HiDPI<br>进行优化  - 完善英文支持  ---  - Added <br>page adaptation, optimized for Windows<br> HiDPI  - Improve English support  ---<br>  > MD5 (ThunderSearch_darwin_universa<br>l.dmg) = a910b7226c88a588e932161d2c016<br>a32  MD5 (ThunderSearch_win.zip) = ab1<br>b385c836a7903d2c2075c37e9feb9  Mac版密<br>码: Hi!j3@/J|
 |2023-09-12 09:40:25|[subfinder](https://github.com/projectdiscovery/subfinder)|v2.6.3|    ## What's Changed    ### 🎉 New F<br>eatures  * Added RedHuntLabs as a sour<br>ce by @umair-rhl in https://github.com<br>/projectdiscovery/subfinder/pull/978  <br>* Added Builtwith as a source by @doga<br>ncanbakir in https://github.com/projec<br>tdiscovery/subfinder/pull/960    ### <br>🐞 Bug Fixes  * Fixed pagination issue <br>in facebook source by @tarunKoyalwar i<br>n https://github.com/projectdiscovery/<br>subfinder/pull/944  * Fixed filtering <br>active subdomains when using as lib by<br> @RamanaReddy0M in https://github.com/<br>projectdiscovery/subfinder/pull/977  *<br> Fixed selfupdate option for android b<br>y @dogancanbakir in https://github.com<br>/projectdiscovery/subfinder/pull/985  <br>  ### 🔨 Maintenance  * Cleanup migrat<br>ion code by @dogancanbakir in https://<br>github.com/projectdiscovery/subfinder/<br>pull/941  * Use -short mode for exclud<br>ing long running tests by @dogancanbak<br>ir in https://github.com/projectdiscov<br>ery/subfinder/pull/948    ### Other Ch<br>anges  * Added warning for passivetota<br>l source by @dogancanbakir in https://<br>github.com/projectdiscovery/subfinder/<br>pull/942  * Removed zoomeye legacy sup<br>port by @dogancanbakir in https://gith<br>ub.com/projectdiscovery/subfinder/pull<br>/943  * Updated to v3 API for virustot<br>al source by @dogancanbakir in https:/<br>/github.com/projectdiscovery/subfinder<br>/pull/962    Issues closed in this rel<br>ease - https://github.com/projectdisco<br>very/subfinder/milestone/11?closed=1  <br>  ## New Contributors  * @umair-rhl ma<br>de their first contribution in https:/<br>/github.com/projectdiscovery/subfinder<br>/pull/978    **Full Changelog**: https<br>://github.com/projectdiscovery/subfind<br>er/compare/v2.6.2...v2.6.3|
 |2023-09-11 21:26:23|[syft](https://github.com/anchore/syft)|v0.90.0|#   ##  (2023-09-11)    ### Added Fea<br>tures  - Expose cobra command in cli p<br>ackage ] ] - Explicitly test PURL gene<br>ration against key packages ] - Add Us<br>er-Agent with Syft version during upda<br>te check ] ] ]  ### Bug Fixes  - fix: <br>correct group IDs for commons-codec, o<br>khttp, okio, and add integration tests<br> for Java PURL generation ] ] - Cyclon<br>edx external reference URLs are not va<br>lidated when encoding ] ] ]  ### Addit<br>ional Changes  - Bump the golang.org/x<br>/exp dependency and fix a build breaka<br>ge. ] ] - fix: update codeql-analysis <br>for go 1.21 ] ]    |
@@ -15,7 +17,6 @@
 |2023-09-10 04:30:54|[PEASS-ng](https://github.com/carlospolop/PEASS-ng)|2023091<br>0-ae3219<br>3f||
 |2023-09-09 14:03:15|[URLFinder](https://github.com/pingc0y/URLFinder)|2023.9.<br>9|修复 -ff 重复验证问题  修复 自动识别<br>协议bug|
 |2023-09-08 21:18:40|[faker](https://github.com/joke2k/faker)|v19.6.0|See .|
-|2023-09-08 02:11:54|[Elkeid](https://github.com/bytedance/Elkeid)|rasp-v2<br>.2.0.9||
 |2023-09-05 15:46:30|[goproxy](https://github.com/snail007/goproxy)|v13.9|1、修复了开启流量上报后，一定条件下导<br>致的内存上涨问题。|
 |2023-09-05 14:59:29|[autoDecoder](https://github.com/f0ng/autoDecoder)|0.31|## 2023.9.5 更新0.31  1. 域名匹配模块<br>中可以进行多域名匹配，修复了原版本无法<br>在多个域名下显示选项卡问题  2. 将接口调<br>试模块的两个换行符取消|
 |2023-09-05 13:23:34|[v2rayA](https://github.com/v2rayA/v2rayA)|v2.2.4|## What's Changed * Fix Windows insta<br>llers' blank version string by @Markso<br>nHon in https://github.com/v2rayA/v2ra<br>yA/pull/1079   **Full Changelog**: htt<br>ps://github.com/v2rayA/v2rayA/compare/<br>v2.2.3...v2.2.4|
@@ -28,34 +29,35 @@
 ## 近15天commit提交记录
 | 提交时间 | 项目名称 | 更新内容 |
 | :---- | :---- | :---- |
-|2023-09-15 00:00:02|[free](https://github.com/freefq/free)|updated_at 09-15 08:00|
-|2023-09-14 23:23:39|[PocOrExp_in_Githu<br>b](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-09-15 07:23:39|
-|2023-09-14 18:18:22|[mysql-fake-server](https://github.com/4ra1n/mysql-fake-server)|after release|
-|2023-09-14 17:59:31|[neuvector](https://github.com/neuvector/neuvector)|Merge pull request #1004 from williamlin-suse/main <br> NVSHAS-8287: Skip handling the CRD CREATE/UPDATE re<br>quests if the CR's…|
-|2023-09-14 16:12:38|[grype](https://github.com/anchore/grype)|feat: introduce exit code failure option for db upd<br>ate check (#1463)  Signed-off-by: Felix Becker   Sig<br>ned-off-by: Christopher Phillips   Signed-off-by: Ke<br>ith Zantow   Co-authored-by: Christopher Phillips   <br>Co-authored-by: Keith Zantow |
-|2023-09-14 16:08:31|[dbeaver](https://github.com/dbeaver/dbeaver)|CB-3934 save all auth-properties in credentials con<br>figuration (#21124)  Co-authored-by: EvgeniaBzzz |
-|2023-09-14 15:38:08|[FreeRDP](https://github.com/FreeRDP/FreeRDP)|[gateway,http] const correct HttpResponse|
+|2023-09-16 00:00:04|[free](https://github.com/freefq/free)|updated_at 09-16 08:00|
+|2023-09-15 20:58:10|[trivy](https://github.com/aquasecurity/trivy)|fix(purl): handle rust types (#5186)  Signed-off-by<br>: knqyf263 |
+|2023-09-15 20:47:40|[neuvector](https://github.com/neuvector/neuvector)|Merge pull request #1007 from williamlin-suse/main <br> NVSHAS-8285: part of CRD groups cannot be pruned su<br>ccessfully after n…|
+|2023-09-15 20:30:41|[PocOrExp_in_Githu<br>b](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-09-16 04:30:41|
+|2023-09-15 20:07:17|[grype](https://github.com/anchore/grype)|chore: pin cache versions (#1495)  Signed-off-by: C<br>hristopher Phillips |
+|2023-09-15 20:00:15|[syft](https://github.com/anchore/syft)|chore: pin workflow checkout for cpe update-cpe-dic<br>tionary-index (#2141)  Signed-off-by: Christopher Ph<br>illips |
+|2023-09-15 16:11:48|[ffuf](https://github.com/ffuf/ffuf)|Default to match 2XX  (#723)  * Change the status m<br>atcher defaults to accept any 2XX response code    *<br> Add changelog entry|
+|2023-09-15 14:58:21|[rustdesk](https://github.com/rustdesk/rustdesk)|Merge pull request #5705 from Kleofass/master  Upda<br>te latvian lv.rs|
+|2023-09-15 14:42:20|[dbeaver](https://github.com/dbeaver/dbeaver)|#21077 Grammar improvements and fixes (#21078)  * #<br>21077 Fix aliases autocompletion bug, add notnull ke<br>yword, support of != and function calls in order by <br>clause    * #21077 Fix NPE|
+|2023-09-15 12:35:22|[v2rayfree](https://github.com/aiboboxx/v2rayfree)|update|
+|2023-09-15 10:48:09|[arthas](https://github.com/alibaba/arthas)|improve UserStatUtil|
+|2023-09-15 09:24:21|[FreeRDP](https://github.com/FreeRDP/FreeRDP)|[codec,progressive] fix overlapping buffers|
+|2023-09-15 09:19:20|[safeline](https://github.com/chaitin/safeline)|feat: rec_version is  v3.4.1|
+|2023-09-15 06:39:39|[mysql-fake-server](https://github.com/4ra1n/mysql-fake-server)|all code fomat|
+|2023-09-15 04:53:00|[captcha-killer-mo<br>dified](https://github.com/f0ng/captcha-killer-modified)|Update README.md|
+|2023-09-15 02:33:32|[frp](https://github.com/fatedier/frp)|optimize the code of the command line (#3614)|
+|2023-09-15 01:53:58|[vulnerability](https://github.com/lal0ne/vulnerability)|CVE-2023-26469|
+|2023-09-15 01:34:09|[afrog](https://github.com/zan8in/afrog)|update|
 |2023-09-14 15:07:04|[codeql-cli-binari<br>es](https://github.com/github/codeql-cli-binaries)|Update changelog for 2.14.5|
 |2023-09-14 12:44:43|[Viper](https://github.com/FunnyWolf/Viper)|update version|
-|2023-09-14 12:35:46|[v2rayfree](https://github.com/aiboboxx/v2rayfree)|update|
 |2023-09-14 11:45:05|[v2rayA](https://github.com/v2rayA/v2rayA)|Merge pull request #1025 from v2rayA/dependabot/npm<br>_and_yarn/gui/nunjucks-3.2.4  chore(deps): bump nunj<br>ucks from 3.2.3 to 3.2.4 in /gui|
-|2023-09-14 09:17:57|[safeline](https://github.com/chaitin/safeline)|feat: release v3.4.0|
 |2023-09-14 09:05:08|[domain_hunter_pro](https://github.com/bit4woo/domain_hunter_pro)|update|
 |2023-09-14 08:56:34|[murphysec](https://github.com/murphysecurity/murphysec)|文案|
-|2023-09-14 07:19:36|[arthas](https://github.com/alibaba/arthas)|Prettified Code!|
 |2023-09-14 06:39:41|[Mobile-Security-F<br>ramework-MobSF](https://github.com/MobSF/Mobile-Security-Framework-MobSF)|Allow jpeg icons (#2268)|
-|2023-09-14 06:19:59|[trivy](https://github.com/aquasecurity/trivy)|chore: auto-close issues (#5177)  * chore: auto clo<br>se issues  Signed-off-by: knqyf263   * chore: add st<br>ate_reason  * docs: add a warning message about issu<br>es  Signed-off-by: knqyf263   ---------  Signed-off-<br>by: knqyf263 |
 |2023-09-14 06:17:13|[impacket](https://github.com/fortra/impacket)|fix NextEntryOffset for large directory listings (#<br>1587)  Co-authored-by: robn-applaton |
-|2023-09-14 04:03:14|[rustdesk](https://github.com/rustdesk/rustdesk)|Update vcpkg-deps-linux.yml|
-|2023-09-13 20:14:20|[syft](https://github.com/anchore/syft)|fix: encode and decode FileLicenses and FileContent<br>s in Syft JSON (#2083)  Signed-off-by: Keith Zantow |
 |2023-09-13 15:36:33|[iDefender](https://github.com/wecooperate/iDefender)|update|
 |2023-09-13 13:37:12|[ThunderSearch](https://github.com/xzajyjs/ThunderSearch)|improve en support|
-|2023-09-13 10:59:51|[frp](https://github.com/fatedier/frp)|config: add some validations (#3610)|
-|2023-09-13 08:39:12|[ffuf](https://github.com/ffuf/ffuf)|fix csv output file format (#683)  * fix csv output<br> file format    * Add my username to the CONTRIBUTOR<br>S.md    ---------    Co-authored-by: Joona Hoikkala |
-|2023-09-13 08:00:06|[vulnerability](https://github.com/lal0ne/vulnerability)|CVE-2023-33246|
 |2023-09-12 18:25:58|[clair](https://github.com/quay/clair)|build(deps): bump actions/checkout from 3 to 4  Bum<br>ps  from 3 to 4. -  -  -   --- updated-dependencies:<br> - dependency-name: actions/checkout   dependency-ty<br>pe: direct:production   update-type: version-update:<br>semver-major ...  Signed-off-by: dependabot[bot] |
 |2023-09-12 09:25:38|[subfinder](https://github.com/projectdiscovery/subfinder)|version update|
-|2023-09-12 06:10:02|[afrog](https://github.com/zan8in/afrog)|update poc|
 |2023-09-12 05:11:27|[kube-bench](https://github.com/aquasecurity/kube-bench)|build(deps): bump goreleaser/goreleaser-action from<br> 4 to 5 (#1495)  Bumps  from 4 to 5.  -   -     --- <br> updated-dependencies:  - dependency-name: gorelease<br>r/goreleaser-action    dependency-type: direct:produ<br>ction    update-type: version-update:semver-major  .<br>..    Signed-off-by: dependabot[bot]   Co-authored-b<br>y: dependabot[bot] |
 |2023-09-12 03:27:14|[Awesome-Redteam](https://github.com/Threekiii/Awesome-Redteam)|更新README.md|
 |2023-09-12 01:18:35|[feroxbuster](https://github.com/epi052/feroxbuster)|Merge pull request #980 from epi052/all-contributor<br>s/add-sawmj  docs: add sawmj as a contributor for bu<br>g|
@@ -320,7 +322,7 @@
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
 | [veinmind-tools](https://github.com/chaitin/veinmind-tools) | v2.1.5 | veinmind-tools 是由长亭科技自研，基于 veinmind-sdk 打造的容器<br>安全工具集 |
-| [grype](https://github.com/anchore/grype) | v0.68.0 | A vulnerability scanner for container images and filesystems |
+| [grype](https://github.com/anchore/grype) | v0.68.1 | A vulnerability scanner for container images and filesystems |
 #### 容器漏洞分析工具
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
@@ -332,7 +334,7 @@
 #### 容器镜像扫描
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
-| [grype](https://github.com/anchore/grype) | v0.68.0 | A vulnerability scanner for container images and filesystems |
+| [grype](https://github.com/anchore/grype) | v0.68.1 | A vulnerability scanner for container images and filesystems |
 | [syft](https://github.com/anchore/syft) | v0.90.0 | CLI tool and library for generating a Software Bill of Materia<br>ls from container images and filesystems |
 #### K8S漏洞扫描
 | 项目名称 | 版本 | 项目描述 |
@@ -895,7 +897,7 @@
 | [Sylas](https://github.com/Acmesec/Sylas) | 1.1.1 | 新一代子域名主/被动收集工具 - Subdomain automatic/passive coll<br>ection tool |
 | [GadgetProbe](https://github.com/BishopFox/GadgetProbe) | v1.0 | Probe endpoints consuming Java serialized objects to identify <br>classes, libraries, and library versions on remote Java classpa<br>ths. |
 | [HopLa](https://github.com/synacktiv/HopLa) | 1.2 |  HopLa Burp Suite Extender plugin -  Adds autocompletion suppo<br>rt and useful payloads in Burp Suite |
-| [captcha-killer-mo<br>dified](https://github.com/f0ng/captcha-killer-modified) | 0.24.1 | captcha-killer的修改版，支持关键词识别base64编码的图片，添加免<br>费ocr库，用于验证码爆破，适配新版Burpsuite |
+| [captcha-killer-mo<br>dified](https://github.com/f0ng/captcha-killer-modified) | 0.24.2 | captcha-killer的修改版，支持关键词识别base64编码的图片，添加免<br>费ocr库，用于验证码爆破，适配新版Burpsuite |
 | [BurpCrypto](https://github.com/whwlsfb/BurpCrypto) |  | BurpCrypto is a collection of burpsuite encryption plug-ins, s<br>upport AES/RSA/DES/ExecJs(execute JS encryption code in burpsui<br>te). 支持多种加密算法或直接执行JS代码的用于爆破前端加密的BurpSu<br>ite插件 |
 | [autoDecoder](https://github.com/f0ng/autoDecoder) | 0.31 | Burp插件，根据自定义来达到对数据包的处理（适用于加解密、爆破等<br>），类似mitmproxy，不同点在于经过了burp中转，在自动加解密的基础<br>上，不影响APP、网站加解密正常逻辑等。 |
 | [burpFakeIP](https://github.com/TheKingOfDuck/burpFakeIP) | 1.1 | 服务端配置错误情况下用于伪造ip地址进行测试的Burp Suite插件 |
@@ -929,7 +931,7 @@
 | [burp-awesome-tls](https://github.com/sleeyax/burp-awesome-tls) | v1.1.0 | Fixes Burp Suite's poor TLS stack. Bypass WAF, spoof any brows<br>er. |
 | [JustC2file](https://github.com/Peithon/JustC2file) | v1.0.2 | Burp插件，Malleable C2 Profiles生成器；可以通过Burp代理选中请<br>求，生成Cobalt Strike的profile文件(CSprofile) |
 | [SpringScan](https://github.com/metaStor/SpringScan) | V1.7 | SpringScan 漏洞检测 Burp插件 |
-| [captcha-killer-mo<br>dified](https://github.com/f0ng/captcha-killer-modified) | 0.24.1 | captcha-killer的修改版，支持关键词识别base64编码的图片，添加免<br>费ocr库，用于验证码爆破，适配新版Burpsuite |
+| [captcha-killer-mo<br>dified](https://github.com/f0ng/captcha-killer-modified) | 0.24.2 | captcha-killer的修改版，支持关键词识别base64编码的图片，添加免<br>费ocr库，用于验证码爆破，适配新版Burpsuite |
 | [BurpFastJsonScan](https://github.com/pmiaowu/BurpFastJsonScan) | BurpFas<br>tJsonSca<br>n-2.2.2 | 一款基于BurpSuite的被动式FastJson检测插件 |
 | [burpFakeIP](https://github.com/TheKingOfDuck/burpFakeIP) | 1.1 | 服务端配置错误情况下用于伪造ip地址进行测试的Burp Suite插件 |
 | [Log4j-check](https://github.com/bigsizeme/Log4j-check) |  | log4J burp被扫插件、CVE-2021-44228、支持dnclog.cn和burp内置DNS<br>、可配合JNDIExploit生成payload |
@@ -1240,13 +1242,13 @@
 ## 主机入侵检测
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
-| [Elkeid](https://github.com/bytedance/Elkeid) | rasp-v2<br>.2.0.9 | Elkeid is an open source solution that can meet the security r<br>equirements of various workloads such as hosts, containers and <br>K8s, and serverless. It is derived from ByteDance's internal be<br>st practices. |
+| [Elkeid](https://github.com/bytedance/Elkeid) | scanner<br>-v2.2.1.<br>3_202309<br>15_test_<br>only | Elkeid is an open source solution that can meet the security r<br>equirements of various workloads such as hosts, containers and <br>K8s, and serverless. It is derived from ByteDance's internal be<br>st practices. |
 | [Hades](https://github.com/theSecHunter/Hades) |  | Hades is an cross-platform HIDS with kernel-space data collect<br>ion. |
 ## Web应用防火墙
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
 | [openstar](https://github.com/starjun/openstar) |  | lua waf,nginx+lua,openresty,luajit,waf+,cdn,nginx |
-| [safeline](https://github.com/chaitin/safeline) | v3.4.0 | 一款足够简单、足够好用、足够强的免费 WAF。基于业界领先的语义引<br>擎检测技术，作为反向代理接入，保护你的网站不受黑客攻击。 |
+| [safeline](https://github.com/chaitin/safeline) | v3.4.1 | 一款足够简单、足够好用、足够强的免费 WAF。基于业界领先的语义引<br>擎检测技术，作为反向代理接入，保护你的网站不受黑客攻击。 |
 ## 欺骗防御
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
