@@ -330,7 +330,11 @@ def main():
                             print("[fail 2]", url)
                             traceback.print_exc()
                     else:
-                        msg.append("| | | {} |".format(url))
+                        urln = url.split('|')
+                        if len(urln) == 3:
+                            msg.append("|[{}]({}) | | {} |".format(urln[1],urln[0],urln[2]))
+                        else:
+                            msg.append("| | | {} |".format(url))
 
             else:
                 parse_tree(v, path=path + 1)
