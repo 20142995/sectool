@@ -758,9 +758,7 @@ CTF:
             - https://github.com/Moxin1044/qsnctf-python
             - https://github.com/qianxiao996/CTF-Tools
             - https://github.com/Harveysn0w/CTF_Hacker-Tools
-    知识库:
-        - https://github.com/kitezzzGrim/CTF-Note
-        - https://github.com/apachecn/apachecn-ctf-wiki
+
 
     逆向:
         pyc逆向:
@@ -800,6 +798,10 @@ CTF:
             - https://github.com/DasSecurity-HatLab/AoiAWD
             - https://github.com/sharpleung/CTF-WAF
             - https://github.com/dr0op/k4l0ng_WAF
+    相关资源:
+        - https://github.com/kitezzzGrim/CTF-Note
+        - https://github.com/apachecn/apachecn-ctf-wiki
+        - http://www.ctftools.com/
 应急响应:
     Linux:
         自动化检查:
