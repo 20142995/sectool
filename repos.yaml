@@ -549,7 +549,6 @@
     相关资源:
         工具集成环境:
             - https://github.com/makoto56/penetration-suite-toolkit
-            - https://github.com/Aabyss-Team/CTF-Tools
             - https://github.com/ccc-f/PenKitGui
             - https://github.com/taielab/Taie-RedTeam-OS
             - https://github.com/tyB-or/FreeGui
@@ -733,6 +732,7 @@ CTF:
             - https://github.com/zR00t1/ImageStrike
             - https://github.com/dhsdshdhk/stegpy
             - https://github.com/7thSamurai/steganography
+            - https://github.com/JamesHoi/PuzzleSolver
         流量分析:
             - https://github.com/WangYihang/UsbMiceDataHacker
             - https://github.com/WangYihang/UsbKeyboardDataHacker
@@ -802,6 +802,11 @@ CTF:
         - https://github.com/kitezzzGrim/CTF-Note
         - https://github.com/apachecn/apachecn-ctf-wiki
         - http://www.ctftools.com/
+        - https://github.com/ctf-wiki/ctf-tools
+        - https://github.com/NewBee119/ctf_ics_traffic
+        - https://github.com/Aabyss-Team/CTF-Tools
+        - https://github.com/ffffffff0x/BerylEnigma
+
 应急响应:
     Linux:
         自动化检查:
