@@ -1,8 +1,10 @@
-# 更新于 2023-09-17 08:35:52
+# 更新于 2023-09-18 08:34:27
 
 ## 近15天release更新记录
 | 更新时间 | 项目名称 | 版本 | 更新内容 |
 | :---- | :---- | :---- | :---- |
+|2023-09-17 08:47:51|[mitaka](https://github.com/ninoseki/mitaka)|v1.3.3|- Fix notification issue (#757)  - In<br>troduce  (#756)|
+|2023-09-17 04:28:28|[PEASS-ng](https://github.com/carlospolop/PEASS-ng)|2023091<br>7-ec5887<br>06||
 |2023-09-16 16:46:31|[Template](https://github.com/1n7erface/Template)|v1.2.5|2023.9.17  1.更新了爆破模块多个底层库<br>的版本，可能会有些兼容问题，可以提bug. <br> 2.修改了一些隐藏的bug，增加了一些指纹<br>.  3.其他的优化～  因为工作调整原因,此<br>后的项目可能更新缓慢,朋友可以联系我微信<br>要最新版.  留在最后:  本项目是我在探索<br>内网之路的一些理解,比如极致并发(数据原<br>子化)、指纹识别、网段探测算法、启发式扫<br>描、生产者消费者模型、RPC远程调用.  市<br>场上的同款竞品很多,但希望各位还是能从本<br>项目中有所启发、有所收获.  用心去感受需<br>求,在产品中注入心血.  需要压缩版本的各<br>位可以自己使用upx压缩,也方便逆向的大佬<br>来检测是否存在后门.|
 |2023-09-16 16:01:01|[nuclei](https://github.com/projectdiscovery/nuclei)|v2.9.15|    ## What's Changed    ### 🐞 Bug F<br>ixes  * Fixed issue with request using<br> TE instead of CL header in certain ca<br>se by @tarunKoyalwar in https://github<br>.com/projectdiscovery/nuclei/pull/4154<br>  * Fixed issue with matcher status op<br>tion for cluster template execution by<br> @ShubhamRasal in https://github.com/p<br>rojectdiscovery/nuclei/pull/4132  * Fi<br>xed issue with loader for deterministi<br>c clustering by @Mzack9999 in https://<br>github.com/projectdiscovery/nuclei/pul<br>l/4124    ### 🔨 Maintenance  * Added <br>GH workflow for weekly performance tes<br>t by @Mzack9999 in https://github.com/<br>projectdiscovery/nuclei/pull/3861    #<br>## Other Changes  * Added port field i<br>n network protocol by @tarunKoyalwar i<br>n https://github.com/projectdiscovery/<br>nuclei/pull/4123  * Added docker usage<br> documentation by @kchason in https://<br>github.com/projectdiscovery/nuclei/pul<br>l/4155  * Added automated dockerhub do<br>cumentation by @kchason in https://git<br>hub.com/projectdiscovery/nuclei/pull/4<br>148  * Documentation typo updates by @<br>kchason in https://github.com/projectd<br>iscovery/nuclei/pull/4138  * Custom te<br>mplates documentation fixes by @kchaso<br>n in https://github.com/projectdiscove<br>ry/nuclei/pull/4149    **Full Changelo<br>g**: https://github.com/projectdiscove<br>ry/nuclei/compare/v2.9.14...v2.9.15|
 |2023-09-16 15:49:24|[autoDecoder](https://github.com/f0ng/autoDecoder)|0.32|## 2023.9.16 更新0.32  1. 明文关键字<br>、密文关键字的设置优化|
@@ -19,9 +21,10 @@
 |2023-09-12 09:40:25|[subfinder](https://github.com/projectdiscovery/subfinder)|v2.6.3|    ## What's Changed    ### 🎉 New F<br>eatures  * Added RedHuntLabs as a sour<br>ce by @umair-rhl in https://github.com<br>/projectdiscovery/subfinder/pull/978  <br>* Added Builtwith as a source by @doga<br>ncanbakir in https://github.com/projec<br>tdiscovery/subfinder/pull/960    ### <br>🐞 Bug Fixes  * Fixed pagination issue <br>in facebook source by @tarunKoyalwar i<br>n https://github.com/projectdiscovery/<br>subfinder/pull/944  * Fixed filtering <br>active subdomains when using as lib by<br> @RamanaReddy0M in https://github.com/<br>projectdiscovery/subfinder/pull/977  *<br> Fixed selfupdate option for android b<br>y @dogancanbakir in https://github.com<br>/projectdiscovery/subfinder/pull/985  <br>  ### 🔨 Maintenance  * Cleanup migrat<br>ion code by @dogancanbakir in https://<br>github.com/projectdiscovery/subfinder/<br>pull/941  * Use -short mode for exclud<br>ing long running tests by @dogancanbak<br>ir in https://github.com/projectdiscov<br>ery/subfinder/pull/948    ### Other Ch<br>anges  * Added warning for passivetota<br>l source by @dogancanbakir in https://<br>github.com/projectdiscovery/subfinder/<br>pull/942  * Removed zoomeye legacy sup<br>port by @dogancanbakir in https://gith<br>ub.com/projectdiscovery/subfinder/pull<br>/943  * Updated to v3 API for virustot<br>al source by @dogancanbakir in https:/<br>/github.com/projectdiscovery/subfinder<br>/pull/962    Issues closed in this rel<br>ease - https://github.com/projectdisco<br>very/subfinder/milestone/11?closed=1  <br>  ## New Contributors  * @umair-rhl ma<br>de their first contribution in https:/<br>/github.com/projectdiscovery/subfinder<br>/pull/978    **Full Changelog**: https<br>://github.com/projectdiscovery/subfind<br>er/compare/v2.6.2...v2.6.3|
 |2023-09-11 21:26:23|[syft](https://github.com/anchore/syft)|v0.90.0|#   ##  (2023-09-11)    ### Added Fea<br>tures  - Expose cobra command in cli p<br>ackage ] ] - Explicitly test PURL gene<br>ration against key packages ] - Add Us<br>er-Agent with Syft version during upda<br>te check ] ] ]  ### Bug Fixes  - fix: <br>correct group IDs for commons-codec, o<br>khttp, okio, and add integration tests<br> for Java PURL generation ] ] - Cyclon<br>edx external reference URLs are not va<br>lidated when encoding ] ] ]  ### Addit<br>ional Changes  - Bump the golang.org/x<br>/exp dependency and fix a build breaka<br>ge. ] ] - fix: update codeql-analysis <br>for go 1.21 ] ]    |
 |2023-09-11 14:38:16|[Ladon](https://github.com/k8gege/Ladon)|v11.6|  Ladon 11.6 20230911  [+]MmcExec    <br>Dcom远程执行命令之MMC20(域控或管理员权<br>限、需目标关闭防火墙) 横向移动 内网渗透<br> 支持BASE64命令  [+]ShellExec   Dcom远<br>程执行命令之ShellWindows(域控或管理员权<br>限、需目标关闭防火墙) 横向移动 内网渗透<br> 支持BASE64命令  [+]ShellBrowserExec  <br>Dcom远程执行命令之ShellBrowserWindow(<br>域控或管理员权限、需目标关闭防火墙) 横<br>向移动 内网渗透 支持BASE64命令  [+]Shar<br>pSphere   .NET>=4.0 SharpSphere 使红队<br>人员能够轻松地与 vCenter 管理的虚拟机的<br>来宾操作系统进行交互 执行命令  [+]noPac<br>    .NET>=4.0 域渗透 域内提权CVE-2021-<br>42287/CVE-2021-42278 横向移动 内网渗透<br>  [+]SharpGPOAbuse  .NET>=4.0 域渗透 <br>组策略(GPO)横向移动 内网渗透 下发脚本  <br>[+]Rubeus        .NET>=4.0 域渗透 Kerb<br>eros攻击比如TGT请求/ST请求/AS-REP Roas<br>ting/Kerberoasting/委派攻击/黄金票据/<br>白银票据/钻石票据/蓝宝石票据等  [u]Lado<br>nEXP    结果不含路径 也可自动解密  [u]<br>PostShell   结果不含路径 也可自动解密 <br> [u]web     AuthBasic认证监听 捕获密码<br> 解密bug修复  [u]Ladon.ps1   默认使用L<br>adon40版本,Win10/11是主流系统，Win7可<br>自行转换Ladon35  [u]Ladon.exe   默认使<br>用Ladon48版本    Ladon 11.5 20230812  [<br>u]LdapScan   域控密码爆破成功 回显域信<br>息  [u]OnlinePC   超时8s  [u]SmbInfo   <br>超时8s  [u]WhatCms   超时8s  [u]SmbGhos<br>t   超时8s  [u]MS17010   超时8s    [+]<br>LadonExp   CMD变量 $hexcmd$   $asciicm<br>d$   $unicodecmd$ 使用对应编码加密命令<br>  [+]LadonExp   Unicdoe加密通信Shell c<br>md=\u006e\u0065\u0074\u0020\u0075\u007<br>3\u0065\u0072  [+]LadonExp   Ascii码加<br>密通信Shell cmd=110,101,116,32,117,115,<br>101,114  [+]LadonExp   Hex加密通信Shel<br>l  cmd=6E65742075736572  [+]PostShell <br> Unicdoe加密通信Shell CMD值自动加密  [<br>+]PostShell  Ascii码加密通信Shell(超出<br>ASCII值范围不可解密)  [+]exe2hex   EXE<br>转HEX，CMD命令Echo写入文件 支持指定长度<br>、添加前缀  [+]exe2b64   EXE转Base64，C<br>MD命令写入文件 支持指定长度、添加前缀|
-|2023-09-10 04:30:54|[PEASS-ng](https://github.com/carlospolop/PEASS-ng)|2023091<br>0-ae3219<br>3f||
 |2023-09-09 14:03:15|[URLFinder](https://github.com/pingc0y/URLFinder)|2023.9.<br>9|修复 -ff 重复验证问题  修复 自动识别<br>协议bug|
 |2023-09-08 21:18:40|[faker](https://github.com/joke2k/faker)|v19.6.0|See .|
+|2023-09-06 05:36:34|[Impacket_For_Web](https://github.com/XiaoBai-12138/Impacket_For_Web)|2023090<br>6||
+|2023-09-06 04:47:47|[BlueTeamTools](https://github.com/abc123info/BlueTeamTools)|BlueTea<br>mToolsV0<br>.73版本|2023.09.06 更正"网空资产测绘"功能Hunt<br>er界面的显示问题。|
 |2023-09-05 15:46:30|[goproxy](https://github.com/snail007/goproxy)|v13.9|1、修复了开启流量上报后，一定条件下导<br>致的内存上涨问题。|
 |2023-09-05 13:23:34|[v2rayA](https://github.com/v2rayA/v2rayA)|v2.2.4|## What's Changed * Fix Windows insta<br>llers' blank version string by @Markso<br>nHon in https://github.com/v2rayA/v2ra<br>yA/pull/1079   **Full Changelog**: htt<br>ps://github.com/v2rayA/v2rayA/compare/<br>v2.2.3...v2.2.4|
 |2023-09-04 16:43:03|[nemo_go](https://github.com/hanc00l/nemo_go)|v2.10.1|### Update    - IP/Domain列表视图下显<br>示当前页的统计信息，优化IP和Domain的列<br>表查询功能；  - 增加XScan任务通过API接<br>口获取资产、重构自定义API搜索代码，目前<br>支持FOFA、Hunter及Quake引擎； 对FOFA自<br>定义关键词进行界面的优化  - 重构网络空<br>间在线资产搜索接口的代码；在线资产搜索<br>平台FOFA、Hunter、Quake及备案查询的API<br>口支持同时配置多个（以,分开）；FOFA的AP<br>I采用email:  token的方式配置（取消单独<br>的email字段）；  - quake的域名从quake.3<br>60.cn 变更为quake.360.net；完善onlinea<br>pi查询的查询语句、去除可能包含敏感信息<br>的过滤词（可能API导致查询失败）  - 取消<br>web显示页面的siderbar的隐藏； Domain列<br>表增加端口的显示和快速链接  - web测试在<br>线资产api可用性采用多线程方式；优化web<br>测试在线资产api代码限制只测试100条记录 <br> - 在IP和Domain的Web列表视图中，只显示<br>前5张screenshot，添加点击显示更多的提示<br>信息  - 重构离线扫描结果资产导入，去除n<br>aabu和TXPortmap  - 增加web的https功能<br>，为RPC及filesync启用TLS加密功能；增加t<br>ls方式下的自签名证书的生成  - 文件同步<br>文件对比列表代码重构  - Makefile    ###<br> Fix    - Hunter与Fofa在重构代码时base<br>64编码器错误  - online search sizeTota<br>l limit  - IP和域名详情页http_header字<br>段超长导致显示效果异常  - XScan根据的Xo<br>rganization直接调用数据库查询IP和Domai<br>n资产的Bug|
@@ -31,13 +34,17 @@
 ## 近15天commit提交记录
 | 提交时间 | 项目名称 | 更新内容 |
 | :---- | :---- | :---- |
-|2023-09-17 00:00:03|[free](https://github.com/freefq/free)|updated_at 09-17 08:00|
-|2023-09-16 23:28:48|[PocOrExp_in_Githu<br>b](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-09-17 07:28:48|
+|2023-09-18 00:00:03|[free](https://github.com/freefq/free)|updated_at 09-18 08:00|
+|2023-09-17 23:31:36|[PocOrExp_in_Githu<br>b](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-09-18 07:31:36|
+|2023-09-17 15:55:30|[rustdesk](https://github.com/rustdesk/rustdesk)|Merge pull request #5724 from dignow/fix/try_fix_bu<br>ild_ios  try fix build, ios|
+|2023-09-17 13:47:48|[DecoyMini](https://github.com/decoymini/DecoyMini)|Update README.md|
+|2023-09-17 13:23:36|[iDefender](https://github.com/wecooperate/iDefender)|update|
+|2023-09-17 12:32:16|[v2rayfree](https://github.com/aiboboxx/v2rayfree)|update|
+|2023-09-17 08:40:13|[mitaka](https://github.com/ninoseki/mitaka)|Merge pull request #758 from ninoseki/v1.3.3  v1.3.<br>3|
+|2023-09-17 06:18:15|[Mobile-Security-F<br>ramework-MobSF](https://github.com/MobSF/Mobile-Security-Framework-MobSF)|[HOTFIX] Fix jadx and apktool failure due to JDK ch<br>anges (#2269)  * Fix jadx and apktool failure due to<br> JDK zip64 changes|
 |2023-09-16 16:50:54|[Template](https://github.com/1n7erface/Template)|Update README.md|
 |2023-09-16 15:53:22|[autoDecoder](https://github.com/f0ng/autoDecoder)|Update FAQ.md|
 |2023-09-16 15:33:03|[nuclei](https://github.com/projectdiscovery/nuclei)|Merge branch 'dev'|
-|2023-09-16 13:53:52|[rustdesk](https://github.com/rustdesk/rustdesk)|Merge pull request #5713 from bovirus/master  Updat<br>e italian language|
-|2023-09-16 12:32:09|[v2rayfree](https://github.com/aiboboxx/v2rayfree)|update|
 |2023-09-16 12:18:12|[ffuf](https://github.com/ffuf/ffuf)|Prepare for v2.1.0 release (#724)|
 |2023-09-16 12:17:38|[ChatGPT-Shortcut](https://github.com/rockbenben/ChatGPT-Shortcut)|docs: update docs|
 |2023-09-16 09:59:20|[kube-bench](https://github.com/aquasecurity/kube-bench)|build(deps): bump golang from 1.20.6 to 1.21.1 (#14<br>94)  Bumps golang from 1.20.6 to 1.21.1.    ---  upd<br>ated-dependencies:  - dependency-name: golang    dep<br>endency-type: direct:production    update-type: vers<br>ion-update:semver-minor  ...    Signed-off-by: depen<br>dabot[bot]   Co-authored-by: dependabot[bot] |
@@ -51,6 +58,7 @@
 |2023-09-15 09:19:20|[safeline](https://github.com/chaitin/safeline)|feat: rec_version is  v3.4.1|
 |2023-09-15 06:39:39|[mysql-fake-server](https://github.com/4ra1n/mysql-fake-server)|all code fomat|
 |2023-09-15 04:53:00|[captcha-killer-mo<br>dified](https://github.com/f0ng/captcha-killer-modified)|Update README.md|
+|2023-09-15 04:31:07|[Intranet-tools](https://github.com/private-null/Intranet-tools)|Add files via upload|
 |2023-09-15 02:33:32|[frp](https://github.com/fatedier/frp)|optimize the code of the command line (#3614)|
 |2023-09-15 01:53:58|[vulnerability](https://github.com/lal0ne/vulnerability)|CVE-2023-26469|
 |2023-09-15 01:34:09|[afrog](https://github.com/zan8in/afrog)|update|
@@ -59,9 +67,7 @@
 |2023-09-14 11:45:05|[v2rayA](https://github.com/v2rayA/v2rayA)|Merge pull request #1025 from v2rayA/dependabot/npm<br>_and_yarn/gui/nunjucks-3.2.4  chore(deps): bump nunj<br>ucks from 3.2.3 to 3.2.4 in /gui|
 |2023-09-14 09:05:08|[domain_hunter_pro](https://github.com/bit4woo/domain_hunter_pro)|update|
 |2023-09-14 08:56:34|[murphysec](https://github.com/murphysecurity/murphysec)|文案|
-|2023-09-14 06:39:41|[Mobile-Security-F<br>ramework-MobSF](https://github.com/MobSF/Mobile-Security-Framework-MobSF)|Allow jpeg icons (#2268)|
 |2023-09-14 06:17:13|[impacket](https://github.com/fortra/impacket)|fix NextEntryOffset for large directory listings (#<br>1587)  Co-authored-by: robn-applaton |
-|2023-09-13 15:36:33|[iDefender](https://github.com/wecooperate/iDefender)|update|
 |2023-09-13 13:37:12|[ThunderSearch](https://github.com/xzajyjs/ThunderSearch)|improve en support|
 |2023-09-12 18:25:58|[clair](https://github.com/quay/clair)|build(deps): bump actions/checkout from 3 to 4  Bum<br>ps  from 3 to 4. -  -  -   --- updated-dependencies:<br> - dependency-name: actions/checkout   dependency-ty<br>pe: direct:production   update-type: version-update:<br>semver-major ...  Signed-off-by: dependabot[bot] |
 |2023-09-12 09:25:38|[subfinder](https://github.com/projectdiscovery/subfinder)|version update|
@@ -75,21 +81,24 @@
 |2023-09-11 07:56:02|[appshark](https://github.com/bytedance/appshark)|handle OutOfMemoryError|
 |2023-09-10 23:51:16|[awesome-chatgpt-z<br>h](https://github.com/yzfly/awesome-chatgpt-zh)|add AoT, Open Interpreter, PromptFlow|
 |2023-09-10 08:12:57|[knife](https://github.com/bit4woo/knife)|Update FindUrlAndRequest.java|
-|2023-09-10 07:21:51|[mitaka](https://github.com/ninoseki/mitaka)|Merge pull request #755 from ninoseki/remove-label <br> refactor: remove checkbox labels [skip ci]|
-|2023-09-09 23:57:41|[DecoyMini](https://github.com/decoymini/DecoyMini)|Update README.md|
 |2023-09-09 14:01:45|[URLFinder](https://github.com/pingc0y/URLFinder)|2023/9/9更新|
 |2023-09-09 10:35:10|[Komo](https://github.com/komomon/Komo)|Update requirement.txt|
 |2023-09-09 05:14:34|[all-in-one-v2](https://github.com/zaivanza/all-in-one-v2)|add zora, linea, base to merkly|
 |2023-09-09 01:16:17|[0_zone_tool](https://github.com/wkend/0_zone_tool)|Update README.md|
 |2023-09-07 17:44:13|[vulhub](https://github.com/vulhub/vulhub)|Merge pull request #460 from vulhub/hadolint-upgrad<br>e  upgrade hadolint to 2.12.0|
+|2023-09-07 12:55:07|[java-impacket-gui](https://github.com/Suq3rm4n/java-impacket-gui)|Update Impacketexec.fxml  密码传递的tab出现不适配问<br>题修复|
 |2023-09-07 11:15:11|[Elkeid](https://github.com/bytedance/Elkeid)|Merge pull request #533 from bytedance/fix-python-b<br>uild  Fix python build|
 |2023-09-07 09:03:01|[sqlmap](https://github.com/sqlmapproject/sqlmap)|Fixes #5521|
+|2023-09-06 05:26:46|[Impacket_For_Web](https://github.com/XiaoBai-12138/Impacket_For_Web)|Merge remote-tracking branch 'origin/main'|
+|2023-09-06 04:56:41|[BlueTeamTools](https://github.com/abc123info/BlueTeamTools)|Update README.md|
 |2023-09-06 04:26:00|[zpscan](https://github.com/niudaii/zpscan)|fix: jsjump|
 |2023-09-05 15:15:04|[MockingBird](https://github.com/babysor/MockingBird)|Skip embedding (#950)  * Skip embedding    * Skip e<br>arlier    * Remove unused paramater    * Pass param|
 |2023-09-05 06:56:25|[Awesome-POC](https://github.com/Threekiii/Awesome-POC)|更新漏洞|
 |2023-09-04 16:15:17|[nemo_go](https://github.com/hanc00l/nemo_go)|Update: v2.10.1|
 |2023-09-04 13:20:16|[RouteVulScan](https://github.com/F6JO/RouteVulScan)|Update threads.java|
 |2023-09-04 10:22:18|[suo5](https://github.com/zema1/suo5)|Merge pull request #37 from zema1/bump-go-version  <br>feat: bump up go to v1.20|
+|2023-09-04 09:36:39|[BerylEnigma](https://github.com/ffffffff0x/BerylEnigma)|现代加密的部分log功能|
+|2023-09-04 08:25:09|[impacket-gui](https://github.com/yutianqaq/impacket-gui)|Merge pull request #1 from outmansec/master   升级P<br>yQt5到PyQt6支持mac全系列|
 |2023-09-04 03:12:54|[404StarLink](https://github.com/knownsec/404StarLink)|weekly update at 2023-09-04|## 所有项目
 # 渗透测试
 ## 信息收集
@@ -266,6 +275,10 @@
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
 | [appshark](https://github.com/bytedance/appshark) | v0.1.2 | Appshark is a static taint analysis platform to scan vulnerabi<br>lities in an Android app. |
+### 安卓抓包辅助
+| 项目名称 | 版本 | 项目描述 |
+| :---- | :---- | :---- |
+| [r0capture](https://github.com/r0ysue/r0capture) |  | 安卓应用层抓包通杀脚本 |
 ### 代码审计
 #### other
 | 项目名称 | 版本 | 项目描述 |
@@ -614,6 +627,7 @@
 | [Aazhen-RexHa](https://github.com/zangcc/Aazhen-RexHa) |  | 自研JavaFX图形化漏洞扫描工具，支持扫描的漏洞分别是： ThinkPHP-<br>2.x-RCE， ThinkPHP-5.0.23-RCE， ThinkPHP5.0.x-5.0.23通杀RCE， T<br>hinkPHP5-SQL注入&敏感信息泄露， ThinkPHP 3.x 日志泄露NO.1， Thi<br>nkPHP 3.x 日志泄露NO.2， ThinkPHP 5.x 数据库信息泄露的漏洞检测<br>，以及批量检测的功能。漏洞POC基本适用ThinkPHP全版本漏洞。 |
 | [ThinkphpGUI](https://github.com/Lotus6/ThinkphpGUI) | 1.3 | Thinkphp(GUI)漏洞利用工具，支持各版本TP漏洞检测，命令执行，get<br>shell。 |
 | [thinkphp_gui_tool<br>s](https://github.com/bewhale/thinkphp_gui_tools) | v2.4.2 | ThinkPHP漏洞综合利用工具, 图形化界面, 命令执行, 一键getshell, <br>批量检测, 日志遍历, session包含,宝塔绕过 |
+| [VulnerabilityTool<br>s](https://github.com/bingtangbanli/VulnerabilityTools) |  | [CVE_2023_28432漏洞 、CVE_2023_32315漏洞、 ThinkPHP 2.x 任意代<br>码执行漏洞 、ThinkPHP5 5.0.22/5.1.29 远程代码执行漏洞、 ThinkPHP<br>5 5.0.23 远程代码执行漏洞 ThinkPHP 多语言本地文件包含漏洞] |
 #### Weblogic
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
@@ -729,7 +743,7 @@
 | [dirtycow](https://github.com/firefart/dirtycow) |  | Dirty Cow exploit - CVE-2016-5195 |
 | [traitor](https://github.com/liamg/traitor) | v0.0.14 | :arrow_up: :skull_and_crossbones: :fire: Automatic Linux prive<br>sc via exploitation of low-hanging fruit e.g. gtfobins, pwnkit,<br> dirty pipe, +w docker.sock |
 | [LinEnum](https://github.com/rebootuser/LinEnum) |  | Scripted Local Linux Enumeration & Privilege Escalation Checks |
-| [PEASS-ng](https://github.com/carlospolop/PEASS-ng) | 2023091<br>0-ae3219<br>3f | PEASS - Privilege Escalation Awesome Scripts SUITE (with color<br>s) |
+| [PEASS-ng](https://github.com/carlospolop/PEASS-ng) | 2023091<br>7-ec5887<br>06 | PEASS - Privilege Escalation Awesome Scripts SUITE (with color<br>s) |
 | | | https://i.hacking8.com/tiquan/ |
 ### 综合
 | 项目名称 | 版本 | 项目描述 |
@@ -823,6 +837,11 @@
 | [OLa](https://github.com/d3ckx1/OLa) | OLa__20<br>220724 |  |
 | | | https://xz.aliyun.com/t/9382 |
 | [VMInjector](https://github.com/hzphreak/VMInjector) |  | DLL Injection tool to unlock guest VMs |
+| [Intranet-tools](https://github.com/private-null/Intranet-tools) |  |  |
+| [impacket-gui](https://github.com/yutianqaq/impacket-gui) |  | impacket-gui |
+| [Intranet-Movement<br>-Kit](https://github.com/AduraK2/Intranet-Movement-Kit) | V1.0 | 内网横向移动工具箱 |
+| [Impacket_For_Web](https://github.com/XiaoBai-12138/Impacket_For_Web) | 2023090<br>6 | 内网工具箱 图形化Impacket 实现让Impacket部分横向模块可视化操作 |
+| [java-impacket-gui](https://github.com/Suq3rm4n/java-impacket-gui) |  | java-impacket-gui |
 ### 域渗透工具
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
@@ -842,13 +861,13 @@
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
 | [penetration-suite<br>-toolkit](https://github.com/makoto56/penetration-suite-toolkit) | v4.0 | 本项目制作的初衷是帮助渗透新手快速搭建工作环境，工欲善其事，必<br>先利其器。 |
-| [CTF-Tools](https://github.com/Aabyss-Team/CTF-Tools) |  | 渊龙Sec安全团队CTF&AWD工具箱 |
 | [PenKitGui](https://github.com/ccc-f/PenKitGui) |  | 渗透测试武器库 |
 | [Taie-RedTeam-OS](https://github.com/taielab/Taie-RedTeam-OS) |  | 泰阿安全实验室-基于XUbuntu私人订制的红蓝对抗渗透操作系统 |
 | [FreeGui](https://github.com/tyB-or/FreeGui) | v2.5 | freeGui：基于ttkbootstrap开发的一款用来管理自己的渗透测试工具<br>的一个小工具，并提供一些实用小功能，例如打开目录，运行工具，工具<br>备忘命令。 |
 | [GUI_Tools](https://github.com/ghealer/GUI_Tools) | V1.1 | 一个由各种图形化渗透工具组成的工具集 |
 | [Pentest-Windows](https://github.com/arch3rPro/Pentest-Windows) | v2.1 | Windows11 Penetration Suite Toolkit |
 | [ApoalypseSecTools](https://github.com/ApocalypseSec/ApoalypseSecTools) |  | ApoalypseSecTool更新地址 |
+| [commando-vm](https://github.com/mandiant/commando-vm) |  | Complete Mandiant Offensive VM (Commando VM), a fully customiz<br>able Windows-based pentesting virtual machine distribution. com<br>mandovm@mandiant.com |
 ### 知识库
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
@@ -985,7 +1004,7 @@
 | [SwitchyOmega](https://github.com/FelisCatus/SwitchyOmega) | v2.5.20 | Manage and switch between multiple proxies quickly & easily. |
 | [untrusted-types](https://github.com/filedescriptor/untrusted-types) | 1.1.1 |  |
 | [fofa_view](https://github.com/fofapro/fofa_view) | v0.0.5 | FOFA Pro view 是一款FOFA Pro 资产展示浏览器插件，目前兼容  Chr<br>ome、Firefox、Opera。 |
-| [mitaka](https://github.com/ninoseki/mitaka) | v1.3.2 | A browser extension for OSINT search |
+| [mitaka](https://github.com/ninoseki/mitaka) | v1.3.3 | A browser extension for OSINT search |
 | [anti-honeypot](https://github.com/cnrstar/anti-honeypot) |  | 一款可以检测WEB蜜罐并阻断请求的Chrome插件 |
 | [Chromium-based-XS<br>S-Taint-Tracking](https://github.com/v8blink/Chromium-based-XSS-Taint-Tracking) | v0.3 | Cyclops 是一款具有 XSS 检测功能的浏览器 |
 | [Zoomeye-Tools](https://github.com/knownsec/Zoomeye-Tools) |  | Zoomeye Tools是配合Zoomeye使用的Chrome插件 |
@@ -1066,6 +1085,7 @@
 | [ImageStrike](https://github.com/zR00t1/ImageStrike) | V0.2 | ImageStrike是一款用于CTF中图片隐写的综合利用工具 |
 | [stegpy](https://github.com/dhsdshdhk/stegpy) |  | Simple steganography program based on the LSB method. |
 | [steganography](https://github.com/7thSamurai/steganography) |  | Simple C++ Image Steganography tool to encrypt and hide files <br>insde images using Least-Significant-Bit encoding. |
+| [PuzzleSolver](https://github.com/JamesHoi/PuzzleSolver) | v1.0.1-<br>beta | 一款专门为CTF比赛设计的拼图工具 |
 ### 流量分析
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
@@ -1105,11 +1125,6 @@
 | [qsnctf-python](https://github.com/Moxin1044/qsnctf-python) | 0.0.8.1<br>0 | 青少年CTF的Python包，方便大家调用一些CTF常用功能。 |
 | [CTF-Tools](https://github.com/qianxiao996/CTF-Tools) | v1.3.7 | 一款Python+Pyqt写的CTF编码、解码、加密、解密工具。 |
 | [CTF_Hacker-Tools](https://github.com/Harveysn0w/CTF_Hacker-Tools) |  |  |
-## 知识库
-| 项目名称 | 版本 | 项目描述 |
-| :---- | :---- | :---- |
-| [CTF-Note](https://github.com/kitezzzGrim/CTF-Note) |  | CTF笔记：该项目主要记录CTF知识、刷题记录、工具等。 |
-| [apachecn-ctf-wiki](https://github.com/apachecn/apachecn-ctf-wiki) |  |  |
 ## 逆向
 ### pyc逆向
 | 项目名称 | 版本 | 项目描述 |
@@ -1164,6 +1179,16 @@
 | [AoiAWD](https://github.com/DasSecurity-HatLab/AoiAWD) |  | AoiAWD-专为比赛设计，便携性好，低权限运行的EDR系统。 |
 | [CTF-WAF](https://github.com/sharpleung/CTF-WAF) |  | 针对CTF线下赛的通用WAF，日志审计功能。 |
 | [k4l0ng_WAF](https://github.com/dr0op/k4l0ng_WAF) |  | A broute detect WAF by PHP using to AWD |
+## 相关资源
+| 项目名称 | 版本 | 项目描述 |
+| :---- | :---- | :---- |
+| [CTF-Note](https://github.com/kitezzzGrim/CTF-Note) |  | CTF笔记：该项目主要记录CTF知识、刷题记录、工具等。 |
+| [apachecn-ctf-wiki](https://github.com/apachecn/apachecn-ctf-wiki) |  |  |
+| | | http://www.ctftools.com/ |
+| [ctf-tools](https://github.com/ctf-wiki/ctf-tools) |  | CTF 工具集合 |
+| [ctf_ics_traffic](https://github.com/NewBee119/ctf_ics_traffic) |  | 工控CTF比赛工具，各种网络数据包处理脚本 |
+| [CTF-Tools](https://github.com/Aabyss-Team/CTF-Tools) |  | 渊龙Sec安全团队CTF&AWD工具箱 |
+| [BerylEnigma](https://github.com/ffffffff0x/BerylEnigma) | 1.15.0 | ffffffff0x team toolset for penetration testing, cryptography <br>research, CTF and daily use. | ffffffff0x 团队工具集，用来进行<br>渗透测试，密码学研究，CTF和日常使用。 |
 # 应急响应
 ## Linux
 ### 自动化检查
@@ -1221,6 +1246,11 @@
 | [java-memshell-sca<br>nner](https://github.com/c0ny1/java-memshell-scanner) |  | 通过jsp脚本扫描java web Filter/Servlet型内存马 |
 | [copagent](https://github.com/LandGrey/copagent) |  | java memory web shell extracting tool |
 | [aLIEz](https://github.com/r00t4dm/aLIEz) |  | 杀内存马的工具，欢迎code review，提出更好的意见 |
+| [ASP.NET-Memshell-<br>Scanner](https://github.com/yzddmr6/ASP.NET-Memshell-Scanner) |  | asp.net内存马检测工具 |
+## 分析辅助
+| 项目名称 | 版本 | 项目描述 |
+| :---- | :---- | :---- |
+| [BlueTeamTools](https://github.com/abc123info/BlueTeamTools) | BlueTea<br>mToolsV0<br>.73版本 | 蓝队分析研判工具箱，自带的反编译工具对红队也有帮助，有建议欢迎<br>给我留言 |
 ## 知识库
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |

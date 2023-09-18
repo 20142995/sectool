@@ -200,8 +200,8 @@
     "https://github.com/ycdxsb/PocOrExp_in_Github": {
         "created_at": "2021-04-13 05:46:16",
         "description": "聚合Github上已有的Poc或者Exp，CVE信息来自CVE官网。Auto Collect Poc Or Exp from Github by CVE ID.",
-        "commit_date": "2023-09-16 23:28:48",
-        "commit_message": "update 2023-09-17 07:28:48",
+        "commit_date": "2023-09-17 23:31:36",
+        "commit_message": "update 2023-09-18 07:31:36",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -1017,7 +1017,7 @@
     "https://github.com/wecooperate/iDefender": {
         "created_at": "2021-11-24 11:38:28",
         "description": "iDefender（冰盾 - 终端主动防御系统）",
-        "commit_date": "2023-09-13 15:36:33",
+        "commit_date": "2023-09-17 13:23:36",
         "commit_message": "update",
         "release_tag": "2.9.0",
         "release_date": "2023-07-19 02:37:26",
@@ -1062,11 +1062,11 @@
     "https://github.com/ninoseki/mitaka": {
         "created_at": "2018-02-09 00:13:30",
         "description": "A browser extension for OSINT search",
-        "commit_date": "2023-09-10 07:21:51",
-        "commit_message": "Merge pull request #755 from ninoseki/remove-label\n\nrefactor: remove checkbox labels [skip ci]",
-        "release_tag": "v1.3.2",
-        "release_date": "2023-08-24 12:07:24",
-        "release_message": "- Fix Censys's search query format (#749) \r\n- Disable IntelligenceX (#749)"
+        "commit_date": "2023-09-17 08:40:13",
+        "commit_message": "Merge pull request #758 from ninoseki/v1.3.3\n\nv1.3.3",
+        "release_tag": "v1.3.3",
+        "release_date": "2023-09-17 08:47:51",
+        "release_message": "- Fix notification issue (#757)\r\n- Introduce [neverthrow](https://github.com/supermacro/neverthrow) (#756)"
     },
     "https://github.com/v2rayA/v2rayA": {
         "created_at": "2019-10-18 20:42:06",
@@ -3703,8 +3703,8 @@
         "description": "PEASS - Privilege Escalation Awesome Scripts SUITE (with colors)",
         "commit_date": "2023-08-24 17:48:31",
         "commit_message": "Update ProcessInfo.cs",
-        "release_tag": "20230910-ae32193f",
-        "release_date": "2023-09-10 04:30:54",
+        "release_tag": "20230917-ec588706",
+        "release_date": "2023-09-17 04:28:28",
         "release_message": ""
     },
     "https://github.com/waderwu/attackRmi": {
@@ -4277,7 +4277,7 @@
     "https://github.com/aiboboxx/v2rayfree": {
         "created_at": "2021-10-13 11:34:53",
         "description": "v2ray节点、免费节点、免费v2ray节点、最新公益免费v2ray节点订阅地址、免费v2ray节点每日更新、免费ss/v2ray/trojan节点、freefq ",
-        "commit_date": "2023-09-16 12:32:09",
+        "commit_date": "2023-09-17 12:32:16",
         "commit_message": "update",
         "release_tag": "",
         "release_date": "",
@@ -4322,8 +4322,8 @@
     "https://github.com/freefq/free": {
         "created_at": "2020-06-07 02:48:33",
         "description": "翻墙、免费翻墙、免费科学上网、免费节点、免费梯子、免费ss/v2ray/trojan节点、蓝灯、谷歌商店、翻墙梯子",
-        "commit_date": "2023-09-17 00:00:03",
-        "commit_message": "updated_at 09-17 08:00",
+        "commit_date": "2023-09-18 00:00:03",
+        "commit_message": "updated_at 09-18 08:00",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -4529,8 +4529,8 @@
     "https://github.com/MobSF/Mobile-Security-Framework-MobSF": {
         "created_at": "2015-01-31 04:36:01",
         "description": "Mobile Security Framework (MobSF) is an automated, all-in-one mobile application (Android/iOS/Windows) pen-testing, malware analysis and security assessment framework capable of performing static and dynamic analysis.",
-        "commit_date": "2023-09-14 06:39:41",
-        "commit_message": "Allow jpeg icons (#2268)",
+        "commit_date": "2023-09-17 06:18:15",
+        "commit_message": "[HOTFIX] Fix jadx and apktool failure due to JDK changes (#2269)\n\n* Fix jadx and apktool failure due to JDK zip64 changes",
         "release_tag": "v3.7.6",
         "release_date": "2023-08-28 04:57:05",
         "release_message": "### v3.7.6 Beta Changelog\r\n\r\n- Features or Enhancements\r\n   - Docker base image update to Ubuntu 22.04\r\n   - Dockerfile QA\r\n   - Migrated from Pip to Poetry for dependency management\r\n   - Migrate from setup.py to use poetry for build and publish\r\n   - Python 3.11 support\r\n   - Docker ADB connection improvements (host.docker.internal translation for localhost)\r\n   -  IOS Swift RulesUpdates `ios_biometric_bool`, `ios_biometric_acl`, `ios_keychain_weak_acl_device_passcode`, `ios_keychain_weak_accessibility_value`, `ios_insecure_random_no_generator`, `ios_biometry_hardened`\r\n   - Android SCA rules update\r\n   - Entropies scan support for strings\r\n   - Regex Hardening: Fixes possible Regex DoS in rules and MobSF code base\r\n   - Tox QA\r\n   - Added poetry build test\r\n   - Updated mobsf PyPI publishing workflow \r\n   - Update local DBs\r\n   - URLs/Email extraction refactor\r\n   - Static and Dynamic Binary Analysis QA\r\n   - Refactor Dex permissions\r\n   - Refactor Androguard `apk.APK()` usage\r\n   - Fallback certificate analysis using apksigtool\r\n   - Use BeautifulSoup4 to prettify malformed XML\r\n   - Detect non standard XML namespace in AndroidManifest.xml, Fixes : #2198\r\n   - Updated android permissions list\r\n   - Updated android permission update check script\r\n   - Github Actions version update\r\n   - Apktool bump\r\n   - Bump httptools\r\n   - Bump yara-python-dex\r\n   - Docker image build test for PRs\r\n   - iOS Source Report Fix\r\n   - Removed unwanted pinned repository\r\n   - Frida APK Patcher (WIP)\r\n   - Fix for Recent Scans `scan not completed` for iOS zip\r\n   - Fix for MachO stripped symbols false positive\r\n   - Fix bug in IPA download\r\n   - iOS/Android form validation fix\r\n   - Fix missing exported components\r\n - Enterprise Feature Request\r\n      - String extraction from APK, Source, AAR, JAR, SO.\r\n      - Android strings sections to show source of strings extracted\r\n      - Strings extraction refactor\r\n      - Support for independent `.so` scan\r\n      - Dylib analysis support\r\n      - Dylib string extraction\r\n      - Improved iOS Plist secret extraction\r\n      - Support for Independent `.dylib` scan\r\n      - Symbols view for dylib and so\r\n      - Trackers support for so\r\n      - AAR/JAR obfuscation and debug check\r\n      - Independent Static Library(.a) ELF/MachO Analysis\r\n      - Mac FAT binary only supported on Mac\r\n\r\n\r\n  \r\n     \r\n    \r\n  \r\n\r\n## What's Changed\r\n* Update dynamic_analysis.html by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2218\r\n* Hotfix: Handle Docker <-> ADB connectivity internally by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2219\r\n* update apktool to 2.8.1 by @superpoussin22 in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2220\r\n* update apktool by @superpoussin22 in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2225\r\n* HOTFIX: Dynamic Analyzer Support Alert by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2227\r\n* [HOTFIX] Regex + Rule Update by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2232\r\n* [EFR06] Independent Shared Object (.so) Scan and Improved String search by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2228\r\n* Update macho_analysis.py - SYMBOLS STRIPPED False Negative by @Karmaz95 in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2234\r\n* [EFR-08] Dylib + Symbols + Other Features by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2239\r\n* Fix missing exported components by @Abb4d0n in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2176\r\n* [EFR09] AAR/JAR obfuscation and debug check + Exception Handed strings and symbols extraction by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2240\r\n* [EFR10] Independent Static Library(.a) ELF/MachO Analysis by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2242\r\n* Pip to poetry and Dockerfile update by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2244\r\n* Docker Buildx test by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2247\r\n* [HOTFIX] bs4 malformed xml parsing + xml namespace detection by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2248\r\n* [HOTFIX] Migrate from setup.py to poetry, tox QA by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2249\r\n\r\n## New Contributors\r\n* @Karmaz95 made their first contribution in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2234\r\n* @Abb4d0n made their first contribution in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2176\r\n\r\n**Full Changelog**: https://github.com/MobSF/Mobile-Security-Framework-MobSF/compare/v3.6.9...v3.7.6"
@@ -5004,8 +5004,8 @@
     "https://github.com/rustdesk/rustdesk": {
         "created_at": "2020-09-28 15:36:08",
         "description": "An open-source remote desktop, and alternative to TeamViewer.",
-        "commit_date": "2023-09-16 13:53:52",
-        "commit_message": "Merge pull request #5713 from bovirus/master\n\nUpdate italian language",
+        "commit_date": "2023-09-17 15:55:30",
+        "commit_message": "Merge pull request #5724 from dignow/fix/try_fix_build_ios\n\ntry fix build, ios",
         "release_tag": "1.2.2",
         "release_date": "2023-08-22 01:44:36",
         "release_message": "![image](https://github.com/rustdesk/rustdesk/assets/71636191/83754a64-31b8-47f0-8570-da22207759a9)\r\n\r\n> Winget, FDroid, Apple Sillicon, Google Play / App Store update will come soon.\r\n\r\nx86-64: [Windows](https://github.com/rustdesk/rustdesk/releases/download/1.2.2/rustdesk-1.2.2-x86_64.exe) | [Ubuntu](https://github.com/rustdesk/rustdesk/releases/download/1.2.2/rustdesk-1.2.2-x86_64.deb) | [Mac](https://github.com/rustdesk/rustdesk/releases/download/1.2.2/rustdesk-1.2.2-x86_64.dmg)\r\nAArch64 (ARM64):  [Ubuntu](https://github.com/rustdesk/rustdesk/releases/download/1.2.2/rustdesk-1.2.2-aarch64.deb) | [Android](https://github.com/rustdesk/rustdesk/releases/download/1.2.2/rustdesk-1.2.2-aarch64-signed.apk) | [Mac](https://github.com/rustdesk/rustdesk/releases/download/1.2.2/rustdesk-1.2.2-aarch64.dmg)\r\n\r\nMore: [check below please](#)\r\n\r\n<details>\r\n<summary>Changelog</summary>\r\n\r\n- Add separate window mode (tab window by default), https://github.com/rustdesk/rustdesk/discussions/2889\r\n![image](https://github.com/rustdesk/rustdesk/assets/71636191/0c73bc6a-8659-4a67-9425-47625a6aded3)\r\n- Fix and improve responsiveness issue introduced in 1.2.0. https://github.com/rustdesk/rustdesk/discussions/5231\r\n- Add device list batch handle\r\n![image](https://github.com/rustdesk/rustdesk/assets/71636191/0ca85b8e-bed3-48ad-a43f-82df983986f3)\r\n- Add command to assign user and strategy for [RustDesk Server Pro](https://rustdesk.com/docs/en/self-host/pro/)\r\n- Optimize address book, syncing password, alias name, device name etc, add tag color, improve error and update status handling\r\n![image](https://github.com/rustdesk/rustdesk/assets/71636191/21d7a226-b863-4dc2-a9d3-fb6cd3a56c5c)\r\n- Fix windows file copy/paste\r\n- Fix \"waiting for image...\" still shown after receiving image bug, refactored rust->flutter message handling https://github.com/rustdesk/rustdesk/issues/4533\r\n- Improve some touchpad support, https://github.com/rustdesk/rustdesk/pull/5049\r\n- Bug fixes.\r\n\r\n</details>\r\n"
@@ -5049,7 +5049,7 @@
     "https://github.com/decoymini/DecoyMini": {
         "created_at": "2021-07-23 06:31:52",
         "description": "🐝 A highly scalable, safe, free enterprise honeypots 一款高可扩展、安全、免费的企业级蜜罐系统",
-        "commit_date": "2023-09-09 23:57:41",
+        "commit_date": "2023-09-17 13:47:48",
         "commit_message": "Update README.md",
         "release_tag": "v2.0.6691",
         "release_date": "2023-01-03 10:27:42",
@@ -6060,6 +6060,132 @@
         "description": "",
         "commit_date": "2023-07-04 10:25:23",
         "commit_message": "Add files via upload",
+        "release_tag": "",
+        "release_date": "",
+        "release_message": ""
+    },
+    "https://github.com/JamesHoi/PuzzleSolver": {
+        "created_at": "2021-04-26 02:27:38",
+        "description": "一款专门为CTF比赛设计的拼图工具",
+        "commit_date": "2021-04-27 10:49:31",
+        "commit_message": "Update README.md",
+        "release_tag": "v1.0.1-beta",
+        "release_date": "2021-04-26 09:47:47",
+        "release_message": ""
+    },
+    "https://github.com/Suq3rm4n/java-impacket-gui": {
+        "created_at": "2023-09-02 14:43:27",
+        "description": "java-impacket-gui",
+        "commit_date": "2023-09-07 12:55:07",
+        "commit_message": "Update Impacketexec.fxml\n\n密码传递的tab出现不适配问题修复",
+        "release_tag": "",
+        "release_date": "",
+        "release_message": ""
+    },
+    "https://github.com/mandiant/commando-vm": {
+        "created_at": "2019-03-26 22:36:32",
+        "description": "Complete Mandiant Offensive VM (Commando VM), a fully customizable Windows-based pentesting virtual machine distribution. commandovm@mandiant.com",
+        "commit_date": "2023-08-09 22:00:33",
+        "commit_message": "Update README.md",
+        "release_tag": "",
+        "release_date": "",
+        "release_message": ""
+    },
+    "https://github.com/yzddmr6/ASP.NET-Memshell-Scanner": {
+        "created_at": "2021-12-19 07:31:31",
+        "description": "asp.net内存马检测工具",
+        "commit_date": "2023-08-22 08:10:22",
+        "commit_message": "update",
+        "release_tag": "",
+        "release_date": "",
+        "release_message": ""
+    },
+    "https://github.com/ffffffff0x/BerylEnigma": {
+        "created_at": "2020-11-11 10:07:43",
+        "description": "ffffffff0x team toolset for penetration testing, cryptography research, CTF and daily use. | ffffffff0x 团队工具集，用来进行渗透测试，密码学研究，CTF和日常使用。",
+        "commit_date": "2023-09-04 09:36:39",
+        "commit_message": "现代加密的部分log功能",
+        "release_tag": "1.15.0",
+        "release_date": "2023-08-28 11:56:32",
+        "release_message": "![文件头检测加载文件后 (小)](https://github.com/ffffffff0x/BerylEnigma/assets/16266917/f652ebd2-c329-47d1-a468-cbbd1a33a52a)\r\n![文件头检测面板02 (小)](https://github.com/ffffffff0x/BerylEnigma/assets/16266917/4c58ac56-84b8-4f8e-81e1-01cfeeddee36)\r\n\r\n```\r\n+ 文件头检测模块\r\n\r\n- 时间戳视图文件命名问题\r\n- 对称加密使用错误加密器问题\r\n```\r\n\r\n详情见 [BE工具的文件头检测功能](https://ryuzu.blog.ffffffff0x.com/post/be%E5%B7%A5%E5%85%B7%E7%9A%84%E6%96%87%E4%BB%B6%E5%A4%B4%E6%A3%80%E6%B5%8B%E5%8A%9F%E8%83%BD/)"
+    },
+    "https://github.com/abc123info/BlueTeamTools": {
+        "created_at": "2023-09-05 08:54:32",
+        "description": "蓝队分析研判工具箱，自带的反编译工具对红队也有帮助，有建议欢迎给我留言",
+        "commit_date": "2023-09-06 04:56:41",
+        "commit_message": "Update README.md",
+        "release_tag": "BlueTeamToolsV0.73版本",
+        "release_date": "2023-09-06 04:47:47",
+        "release_message": "2023.09.06 更正\"网空资产测绘\"功能Hunter界面的显示问题。"
+    },
+    "https://github.com/yutianqaq/impacket-gui": {
+        "created_at": "2023-09-01 10:27:31",
+        "description": "impacket-gui",
+        "commit_date": "2023-09-04 08:25:09",
+        "commit_message": "Merge pull request #1 from outmansec/master\n\n 升级PyQt5到PyQt6支持mac全系列",
+        "release_tag": "",
+        "release_date": "",
+        "release_message": ""
+    },
+    "https://github.com/AduraK2/Intranet-Movement-Kit": {
+        "created_at": "2023-04-18 08:16:25",
+        "description": "内网横向移动工具箱",
+        "commit_date": "2023-08-28 07:22:55",
+        "commit_message": "Update README.md",
+        "release_tag": "V1.0",
+        "release_date": "2023-04-20 03:56:45",
+        "release_message": "### 下载链接\r\n链接: https://pan.baidu.com/s/13frgP7DSAj_37jEp1var4Q  密码: fsw1\r\n--来自百度网盘超级会员V4的分享"
+    },
+    "https://github.com/ctf-wiki/ctf-tools": {
+        "created_at": "2017-06-04 15:31:47",
+        "description": "CTF 工具集合",
+        "commit_date": "2022-08-10 11:25:15",
+        "commit_message": "Merge pull request #28 from Ariana1729/patch-1\n\nUpdate crypto.md",
+        "release_tag": "",
+        "release_date": "",
+        "release_message": ""
+    },
+    "https://github.com/private-null/Intranet-tools": {
+        "created_at": "2023-09-14 06:36:09",
+        "description": "",
+        "commit_date": "2023-09-15 04:31:07",
+        "commit_message": "Add files via upload",
+        "release_tag": "",
+        "release_date": "",
+        "release_message": ""
+    },
+    "https://github.com/r0ysue/r0capture": {
+        "created_at": "2020-11-29 07:37:06",
+        "description": "安卓应用层抓包通杀脚本",
+        "commit_date": "2023-06-17 08:52:34",
+        "commit_message": "Update README.md",
+        "release_tag": "",
+        "release_date": "",
+        "release_message": ""
+    },
+    "https://github.com/NewBee119/ctf_ics_traffic": {
+        "created_at": "2018-07-06 12:41:09",
+        "description": "工控CTF比赛工具，各种网络数据包处理脚本",
+        "commit_date": "2018-08-09 02:48:04",
+        "commit_message": "Update README.md",
+        "release_tag": "",
+        "release_date": "",
+        "release_message": ""
+    },
+    "https://github.com/XiaoBai-12138/Impacket_For_Web": {
+        "created_at": "2023-09-02 13:09:58",
+        "description": "内网工具箱 图形化Impacket 实现让Impacket部分横向模块可视化操作",
+        "commit_date": "2023-09-06 05:26:46",
+        "commit_message": "Merge remote-tracking branch 'origin/main'",
+        "release_tag": "20230906",
+        "release_date": "2023-09-06 05:36:34",
+        "release_message": ""
+    },
+    "https://github.com/bingtangbanli/VulnerabilityTools": {
+        "created_at": "2023-08-31 03:22:09",
+        "description": "[CVE_2023_28432漏洞 、CVE_2023_32315漏洞、 ThinkPHP 2.x 任意代码执行漏洞 、ThinkPHP5 5.0.22/5.1.29 远程代码执行漏洞、 ThinkPHP5 5.0.23 远程代码执行漏洞 ThinkPHP 多语言本地文件包含漏洞]",
+        "commit_date": "2023-08-31 06:46:17",
+        "commit_message": "Update README.md",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
