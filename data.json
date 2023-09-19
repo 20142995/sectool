@@ -200,8 +200,8 @@
     "https://github.com/ycdxsb/PocOrExp_in_Github": {
         "created_at": "2021-04-13 05:46:16",
         "description": "聚合Github上已有的Poc或者Exp，CVE信息来自CVE官网。Auto Collect Poc Or Exp from Github by CVE ID.",
-        "commit_date": "2023-09-17 23:31:36",
-        "commit_message": "update 2023-09-18 07:31:36",
+        "commit_date": "2023-09-18 23:27:36",
+        "commit_message": "update 2023-09-19 07:27:36",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -531,8 +531,8 @@
     "https://github.com/knownsec/404StarLink": {
         "created_at": "2020-11-17 08:10:18",
         "description": "404StarLink - 推荐优质、有意义、有趣、坚持维护的安全开源项目",
-        "commit_date": "2023-09-04 03:12:54",
-        "commit_message": "weekly update at 2023-09-04",
+        "commit_date": "2023-09-18 03:32:12",
+        "commit_message": "weekly update at 2023-09-18",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -828,8 +828,8 @@
     "https://github.com/murphysecurity/murphysec": {
         "created_at": "2022-03-16 02:52:33",
         "description": "An open source tool focused on software supply chain security. 墨菲安全专注于软件供应链安全，具备专业的软件成分分析（SCA）、漏洞检测、专业漏洞库。",
-        "commit_date": "2023-09-14 08:56:34",
-        "commit_message": "文案",
+        "commit_date": "2023-09-16 09:19:44",
+        "commit_message": "feat(cmd): add --project-name",
         "release_tag": "v3.1.1",
         "release_date": "2023-05-15 12:52:58",
         "release_message": "Support NPM lockfile v3 "
@@ -3050,11 +3050,11 @@
     "https://github.com/zan8in/afrog": {
         "created_at": "2022-02-24 06:00:32",
         "description": "A Security Tool for Bug Bounty, Pentest and Red Teaming.",
-        "commit_date": "2023-09-15 01:34:09",
+        "commit_date": "2023-09-18 06:58:22",
         "commit_message": "update",
-        "release_tag": "v2.8.0",
-        "release_date": "2023-09-03 09:29:04",
-        "release_message": "**Add**\r\n- Added PoC for backup file detection\r\n- Customize global cookies and will not overwrite the cookies of the original POC\r\n\r\n**Optimization**\r\n- afrog API has been synchronized with the latest features\r\n\r\n**新增**\r\n- 新增备份文件检测的 PoC\r\n- 自定义全局 cookie，不会覆盖原 POC 的 cookie\r\n- 新增一批 HVV2023 PoCs\r\n\r\n**优化**\r\n- afrog API 已同步最新功能"
+        "release_tag": "v2.8.1",
+        "release_date": "2023-09-18 01:19:00",
+        "release_message": "- Added PoC for backup file detection\r\n- Customize global cookies and will not overwrite the cookies of the original POC\r\noptimization\r\n- afrog API has been synchronized with the latest features\r\n\r\n-------------\r\n\r\n- 新增备份文件检测的 PoC\r\n- 自定义全局 cookie，不会覆盖原 POC 的 cookie\r\n- 新增一批 HVV2023 PoCs"
     },
     "https://github.com/moonD4rk/HackBrowserData": {
         "created_at": "2020-06-18 03:24:31",
@@ -3219,7 +3219,7 @@
     "https://github.com/Threekiii/Awesome-Redteam": {
         "created_at": "2022-02-08 00:45:03",
         "description": "一个攻防知识仓库",
-        "commit_date": "2023-09-12 03:27:14",
+        "commit_date": "2023-09-18 07:40:58",
         "commit_message": "更新README.md",
         "release_tag": "",
         "release_date": "",
@@ -3890,8 +3890,8 @@
     "https://github.com/neuvector/neuvector": {
         "created_at": "2021-12-17 20:15:03",
         "description": "",
-        "commit_date": "2023-09-15 20:47:40",
-        "commit_message": "Merge pull request #1007 from williamlin-suse/main\n\nNVSHAS-8285: part of CRD groups cannot be pruned successfully after n…",
+        "commit_date": "2023-09-18 23:37:49",
+        "commit_message": "Merge pull request #1005 from jayhuang-suse/seven\n\nNVSHAS-7764: \"Maximum concurrent syslog message reached Check syslog server settings \" ERROR log can be rate limited",
         "release_tag": "v5.2.1",
         "release_date": "2023-08-22 23:29:15",
         "release_message": "Features\r\nNVSHAS-7449: Report layered scan result to syslog\r\nNVSHAS-6974: Export NIST compliance report\r\nNVSHAS-8157: Handle Proxy setting in image signature verification\r\nNVSHAS-8034: Include image signature result in the downloaded CVE report\r\nNVSHAS-7483: Pod annotations for Admission Control Policies\r\n\r\nBug fixes\r\nNVSHAS-8200: Do not create default admin with default password in NV fresh deployment for AWS billing offering\r\nNVSHAS-8172: .json file increased size and crashed a kubernetes node\r\nNVSHAS-7963: Improve SQL injection detection logics\r\nNVSHAS-8128: when install helm crd chart first before insatlling core chart, service accounts are missing\r\nNVSHAS-8106: Image scan I.4.1 compliance result is incorrect\r\nNVSHAS-8050: Vulnerability advance filter report showing images from all other namespace"
@@ -3908,8 +3908,8 @@
     "https://github.com/anchore/syft": {
         "created_at": "2020-05-07 18:19:29",
         "description": "CLI tool and library for generating a Software Bill of Materials from container images and filesystems",
-        "commit_date": "2023-09-15 20:00:15",
-        "commit_message": "chore: pin workflow checkout for cpe update-cpe-dictionary-index (#2141)\n\nSigned-off-by: Christopher Phillips <christopher.phillips@anchore.com>",
+        "commit_date": "2023-09-18 15:33:43",
+        "commit_message": "Add containerd support (#1793)\n\n* [wip] add containerd UI handlers\r\n\r\nSigned-off-by: Alex Goodman <alex.goodman@anchore.com>\r\n\r\n* Add containerd support\r\n\r\n- Add UI handlers (done by @wagoodman)\r\n- Add containerd types and wrappers (done by @wagoodman)\r\n- Add flag for specifying containerd address\r\n\r\nCloses #201\r\n\r\nSigned-off-by: Shane Dell <shanedell100@gmail.com>\r\n\r\n* Fix lint\r\n\r\nSigned-off-by: Shane Dell <shanedell100@gmail.com>\r\n\r\n* add containerd ui handler\r\n\r\nSigned-off-by: Alex Goodman <wagoodman@users.noreply.github.com>\r\n\r\n* add containerd scheme to readme\r\n\r\nSigned-off-by: Alex Goodman <wagoodman@users.noreply.github.com>\r\n\r\n* add test for scheme detection\r\n\r\nSigned-off-by: Alex Goodman <wagoodman@users.noreply.github.com>\r\n\r\n---------\r\n\r\nSigned-off-by: Alex Goodman <alex.goodman@anchore.com>\r\nSigned-off-by: Shane Dell <shanedell100@gmail.com>\r\nSigned-off-by: Alex Goodman <wagoodman@users.noreply.github.com>\r\nCo-authored-by: Alex Goodman <alex.goodman@anchore.com>\r\nCo-authored-by: Alex Goodman <wagoodman@users.noreply.github.com>",
         "release_tag": "v0.90.0",
         "release_date": "2023-09-11 21:26:23",
         "release_message": "# \n\n## [v0.90.0](https://github.com/anchore/syft/tree/v0.90.0) (2023-09-11)\n\n[Full Changelog](https://github.com/anchore/syft/compare/v0.89.0...v0.90.0)\n\n### Added Features\n\n- Expose cobra command in cli package [[PR #2097](https://github.com/anchore/syft/pull/2097)] [[wagoodman](https://github.com/wagoodman)]\n- Explicitly test PURL generation against key packages [[Issue #2071](https://github.com/anchore/syft/issues/2071)]\n- Add User-Agent with Syft version during update check [[Issue #2072](https://github.com/anchore/syft/issues/2072)] [[PR #2100](https://github.com/anchore/syft/pull/2100)] [[hainenber](https://github.com/hainenber)]\n\n### Bug Fixes\n\n- fix: correct group IDs for commons-codec, okhttp, okio, and add integration tests for Java PURL generation [[PR #2075](https://github.com/anchore/syft/pull/2075)] [[willmurphyscode](https://github.com/willmurphyscode)]\n- Cyclonedx external reference URLs are not validated when encoding [[Issue #2079](https://github.com/anchore/syft/issues/2079)] [[PR #2091](https://github.com/anchore/syft/pull/2091)] [[hainenber](https://github.com/hainenber)]\n\n### Additional Changes\n\n- Bump the golang.org/x/exp dependency and fix a build breakage. [[PR #2088](https://github.com/anchore/syft/pull/2088)] [[dlorenc](https://github.com/dlorenc)]\n- fix: update codeql-analysis for go 1.21 [[PR #2108](https://github.com/anchore/syft/pull/2108)] [[spiffcs](https://github.com/spiffcs)]\n\n\n\n"
@@ -3971,8 +3971,8 @@
     "https://github.com/aquasecurity/trivy": {
         "created_at": "2019-04-11 01:01:07",
         "description": "Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more",
-        "commit_date": "2023-09-15 20:58:10",
-        "commit_message": "fix(purl): handle rust types (#5186)\n\nSigned-off-by: knqyf263 <knqyf263@gmail.com>",
+        "commit_date": "2023-09-18 13:51:12",
+        "commit_message": "ci: auto apply labels (#5200)\n\n* add label for mage file. Create workflow.\n\n* fix typo\n\n* setup go and aqua tools\n\n* set fetch-depth == 1",
         "release_tag": "v0.45.1",
         "release_date": "2023-09-16 07:29:33",
         "release_message": "## Changelog\n* daae88287 fix(purl): handle rust types (#5186)\n* 81240cf08 chore: auto-close issues (#5177)\n* bd0accd8a chore(deps): bump github.com/spf13/viper from 1.15.0 to 1.16.0 (#5093)\n* ecee79403 fix(k8s): kbom support addons labels (#5178)\n* 9ebc25d88 test: validate SPDX with the JSON schema (#5124)\n* 9a49a3773 chore: bump trivy-kubernetes-latest (#5161)\n* ad1dc6327 docs: add 'Signature Verification' guide (#4731)\n* 7c68d4a7e docs: add image-scanner-with-trivy for ecosystem (#5159)\n* ed49609a7 fix(fs): assign the absolute path to be inspected to ROOTPATH when filesystem (#5158)\n* 19539722e chore(deps): bump github.com/CycloneDX/cyclonedx-go (#5102)\n* c7516011b Update filtering.md (#5131)\n* ccc6d7cb2 chore(deps): bump sigstore/cosign-installer (#5104)\n* 48cbf4553 chore(deps): bump github.com/cyphar/filepath-securejoin (#5143)\n* a9c2c74c5 chore(deps): bump golangci/golangci-lint-action from 3.6.0 to 3.7.0 (#5103)\n* 120ac68b5 chore(deps): bump easimon/maximize-build-space from 7 to 8 (#5105)\n* 41eaa78ae chore(deps): bump github.com/aws/aws-sdk-go from 1.44.273 to 1.45.3 (#5126)\n* 932f92755 chaging adopters discussion tempalte (#5091)\n* db3133346 chore(deps): bump github.com/cheggaaa/pb/v3 from 3.1.2 to 3.1.4 (#5092)\n* 8c0b7d619 chore(deps): bump github.com/hashicorp/golang-lru/v2 from 2.0.2 to 2.0.6 (#5094)\n* c61c664c3 chore(deps): bump github.com/aws/aws-sdk-go-v2/config (#5095)\n* a99944c1c chore(deps): bump github.com/containerd/containerd from 1.7.3 to 1.7.5 (#5097)\n* 9fc844ecf chore(deps): bump github.com/Azure/azure-sdk-for-go/sdk/azidentity (#5098)\n* c504f8be4 chore(deps): bump actions/checkout from 3.5.3 to 3.6.0 (#5106)\n\n"
@@ -3980,8 +3980,8 @@
     "https://github.com/anchore/grype": {
         "created_at": "2020-05-26 13:44:38",
         "description": "A vulnerability scanner for container images and filesystems",
-        "commit_date": "2023-09-15 20:07:17",
-        "commit_message": "chore: pin cache versions (#1495)\n\nSigned-off-by: Christopher Phillips <christopher.phillips@anchore.com>",
+        "commit_date": "2023-09-18 20:54:14",
+        "commit_message": "Fix typo in flag (#1501)\n\nSigned-off-by: Rob Szumski <rob@robszumski.com>",
         "release_tag": "v0.68.1",
         "release_date": "2023-09-15 18:49:03",
         "release_message": "# \r\n\r\n## [v0.68.1](https://github.com/anchore/grype/tree/v0.68.1) (2023-09-15)\r\n\r\n[Full Changelog](https://github.com/anchore/grype/compare/v0.68.0...v0.68.1)\r\n\r\n### Bug Fixes\r\n\r\n- Version output was not including supported db schema [[PR #1494](https://github.com/anchore/grype/pull/1494)] [[kzantow](https://github.com/kzantow)]"
@@ -4124,7 +4124,7 @@
     "https://github.com/wkend/0_zone_tool": {
         "created_at": "2023-03-01 17:59:57",
         "description": "零零信安api信息系统查询脚本",
-        "commit_date": "2023-09-09 01:16:17",
+        "commit_date": "2023-09-18 06:56:15",
         "commit_message": "Update README.md",
         "release_tag": "",
         "release_date": "",
@@ -4277,7 +4277,7 @@
     "https://github.com/aiboboxx/v2rayfree": {
         "created_at": "2021-10-13 11:34:53",
         "description": "v2ray节点、免费节点、免费v2ray节点、最新公益免费v2ray节点订阅地址、免费v2ray节点每日更新、免费ss/v2ray/trojan节点、freefq ",
-        "commit_date": "2023-09-17 12:32:16",
+        "commit_date": "2023-09-18 12:36:53",
         "commit_message": "update",
         "release_tag": "",
         "release_date": "",
@@ -4322,8 +4322,8 @@
     "https://github.com/freefq/free": {
         "created_at": "2020-06-07 02:48:33",
         "description": "翻墙、免费翻墙、免费科学上网、免费节点、免费梯子、免费ss/v2ray/trojan节点、蓝灯、谷歌商店、翻墙梯子",
-        "commit_date": "2023-09-18 00:00:03",
-        "commit_message": "updated_at 09-18 08:00",
+        "commit_date": "2023-09-19 00:00:02",
+        "commit_message": "updated_at 09-19 08:00",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -4817,11 +4817,11 @@
     "https://github.com/0x727/ObserverWard": {
         "created_at": "2021-08-21 10:11:41",
         "description": "Cross platform community web fingerprint identification tool",
-        "commit_date": "2023-09-01 07:34:07",
-        "commit_message": "Merge pull request #195 from 0x727/dependabot/cargo/actix-web-4.4.0\n\nBump actix-web from 4.3.1 to 4.4.0",
-        "release_tag": "v2023.8.21",
-        "release_date": "2023-08-21 13:13:00",
-        "release_message": "## [2023.8.21] - 2023.8.21\n\n### Fixes\n\n- 修复webhook判断\n- 添加`webhook_auth`字段用来标识任务，还可以作为webhook的认证\n- 添加从API读取多个目标支持`targets`字段"
+        "commit_date": "2023-09-18 12:53:55",
+        "commit_message": "update",
+        "release_tag": "v2023.9.18",
+        "release_date": "2023-09-18 12:54:21",
+        "release_message": "## [2023.9.18] - 2023.9.18\n\n### Fixes\n\n- 修复charset没覆盖的情况，感谢@zema1"
     },
     "https://github.com/SuperZero/CVE-2023-33246": {
         "created_at": "2023-06-01 06:27:09",
@@ -4915,12 +4915,12 @@
     },
     "https://github.com/4ra1n/mysql-fake-server": {
         "created_at": "2023-05-15 09:06:44",
-        "description": "MySQL Fake Server (纯Java实现，内置常见Java反序列化Payload，支持GUI版和命令行版，提供Dockerfile)",
-        "commit_date": "2023-09-15 06:39:39",
-        "commit_message": "all code fomat",
-        "release_tag": "0.0.3",
-        "release_date": "2023-09-14 18:14:15",
-        "release_message": "## 0.0.3\r\n\r\n支持了自定义反序列化payload功能，内部仅保留最常见的链，其他情况自行导入\r\n\r\n- 希望支持yso自定义 #3\r\n- 支持调用自己的yso #2\r\n- 命令行版本也支持了自定义序列化数据\r\n- 修复了dockerfile版本问题\r\n- 删除了基本不会使用的rpc模块\r\n- 完善README信息"
+        "description": "MySQL Fake Server (纯Java实现，支持GUI版和命令行版，提供Dockerfile，支持多种常见JDBC利用)",
+        "commit_date": "2023-09-18 15:12:06",
+        "commit_message": "change log",
+        "release_tag": "0.0.4",
+        "release_date": "2023-09-18 15:13:23",
+        "release_message": "## 0.0.4\r\n\r\n支持了两种JDBC的利用：`PgSQL`和`Apache Derby`\r\n\r\n- 重要更新：支持了PgSQL RCE的利用Server\r\n- 重要更新：支持了Apache Derby利用Slave功能的RCE\r\n- 优化依赖减小体积，使用更标准的Maven插件打包配置\r\n- 修复了某些情况下日志输出的问题\r\n- 恢复日志模式到INFO级别避免打印过多无意义信息\r\n- 对UI做了一些小改善"
     },
     "https://github.com/Anyyy111/killEscaper": {
         "created_at": "2023-06-08 06:54:54",
@@ -5004,8 +5004,8 @@
     "https://github.com/rustdesk/rustdesk": {
         "created_at": "2020-09-28 15:36:08",
         "description": "An open-source remote desktop, and alternative to TeamViewer.",
-        "commit_date": "2023-09-17 15:55:30",
-        "commit_message": "Merge pull request #5724 from dignow/fix/try_fix_build_ios\n\ntry fix build, ios",
+        "commit_date": "2023-09-18 14:23:34",
+        "commit_message": "Merge pull request #5737 from fufesou/refact/details_on_privacy_mode\n\nFix, privacy on, missing failed details",
         "release_tag": "1.2.2",
         "release_date": "2023-08-22 01:44:36",
         "release_message": "![image](https://github.com/rustdesk/rustdesk/assets/71636191/83754a64-31b8-47f0-8570-da22207759a9)\r\n\r\n> Winget, FDroid, Apple Sillicon, Google Play / App Store update will come soon.\r\n\r\nx86-64: [Windows](https://github.com/rustdesk/rustdesk/releases/download/1.2.2/rustdesk-1.2.2-x86_64.exe) | [Ubuntu](https://github.com/rustdesk/rustdesk/releases/download/1.2.2/rustdesk-1.2.2-x86_64.deb) | [Mac](https://github.com/rustdesk/rustdesk/releases/download/1.2.2/rustdesk-1.2.2-x86_64.dmg)\r\nAArch64 (ARM64):  [Ubuntu](https://github.com/rustdesk/rustdesk/releases/download/1.2.2/rustdesk-1.2.2-aarch64.deb) | [Android](https://github.com/rustdesk/rustdesk/releases/download/1.2.2/rustdesk-1.2.2-aarch64-signed.apk) | [Mac](https://github.com/rustdesk/rustdesk/releases/download/1.2.2/rustdesk-1.2.2-aarch64.dmg)\r\n\r\nMore: [check below please](#)\r\n\r\n<details>\r\n<summary>Changelog</summary>\r\n\r\n- Add separate window mode (tab window by default), https://github.com/rustdesk/rustdesk/discussions/2889\r\n![image](https://github.com/rustdesk/rustdesk/assets/71636191/0c73bc6a-8659-4a67-9425-47625a6aded3)\r\n- Fix and improve responsiveness issue introduced in 1.2.0. https://github.com/rustdesk/rustdesk/discussions/5231\r\n- Add device list batch handle\r\n![image](https://github.com/rustdesk/rustdesk/assets/71636191/0ca85b8e-bed3-48ad-a43f-82df983986f3)\r\n- Add command to assign user and strategy for [RustDesk Server Pro](https://rustdesk.com/docs/en/self-host/pro/)\r\n- Optimize address book, syncing password, alias name, device name etc, add tag color, improve error and update status handling\r\n![image](https://github.com/rustdesk/rustdesk/assets/71636191/21d7a226-b863-4dc2-a9d3-fb6cd3a56c5c)\r\n- Fix windows file copy/paste\r\n- Fix \"waiting for image...\" still shown after receiving image bug, refactored rust->flutter message handling https://github.com/rustdesk/rustdesk/issues/4533\r\n- Improve some touchpad support, https://github.com/rustdesk/rustdesk/pull/5049\r\n- Bug fixes.\r\n\r\n</details>\r\n"
@@ -5031,8 +5031,8 @@
     "https://github.com/hahwul/dalfox": {
         "created_at": "2020-04-12 07:04:10",
         "description": "🌙🦊 Dalfox is a powerful open-source XSS scanner and utility focused on automation.",
-        "commit_date": "2023-08-11 16:53:23",
-        "commit_message": "Merge pull request #486 from hahwul/dependabot/go_modules/github.com/chromedp/chromedp-0.9.2\n\nBump github.com/chromedp/chromedp from 0.9.1 to 0.9.2",
+        "commit_date": "2023-09-18 15:32:22",
+        "commit_message": "Merge pull request #489 from hahwul/dependabot/go_modules/github.com/swaggo/swag-1.16.2\n\nBump github.com/swaggo/swag from 1.16.1 to 1.16.2",
         "release_tag": "v2.9.0",
         "release_date": "2023-03-28 02:32:38",
         "release_message": "## Summary\r\n- Add `--output-reqeust`, `--output-response` flag for HTTP Raw Req/Res\r\n- Add HAR file writing support (https://github.com/hahwul/dalfox/issues/439)\r\n- Add arm64(apple sillicon) docker image in GHCR\r\n- Update Packages\r\n- Fixed bugs (https://github.com/hahwul/dalfox/pull/453)\r\n\r\n## Changelog\r\n* 61be435 fix: small typo errors\r\n* 3c5c8da chore: update contributors [skip ci]\r\n* c344c58 chore: update contributors [skip ci]\r\n* 64226be chore: update contributors [skip ci]\r\n* 8eada06 chore: update contributors [skip ci]\r\n* 6b7b555 chore: update contributors [skip ci]\r\n* a7de6ac chore: update contributors [skip ci]\r\n* b3dc29b add HAR file writing support (#439)\r\n* 51a659e Update test code\r\n* dc5d11b Update test code\r\n* 32d8f63 Update parameterAnlaysis.go\r\n* 7d01041 Update parameter-mining.md\r\n* 681b809 Update param.go\r\n* 1b559a5 Update json.md\r\n* 5773cf0 Update json.md\r\n* 00a1899 Update index.md\r\n* 6451c5b Update found-action.md\r\n* 83ec9f7 Update format-of-poc.md\r\n* ac5a9e1 Update doc\r\n* b5769e1 Update descriptions\r\n* 9515691 Update banner\r\n* a33988a Update README.md\r\n* 5244169 Update README\r\n* 6c24c65 Tap 2.9.0\r\n* 094a710 Remove race\r\n* ff31dab Merge pull request #7 from 0xflotus/patch-3\r\n* 28f4446 Merge pull request #6 from 0xflotus/patch-3\r\n* 8f74dd1 Merge pull request #5 from 0xflotus/patch-2\r\n* a43ae1c Merge pull request #459 from hahwul/dependabot/go_modules/github.com/swaggo/swag-1.8.11\r\n* 0069bc3 Merge pull request #457 from hahwul/dependabot/go_modules/github.com/chromedp/chromedp-0.9.1\r\n* 591e690 Merge pull request #455 from hahwul/dependabot/go_modules/github.com/briandowns/spinner-1.23.0\r\n* b5083df Merge pull request #454 from hahwul/dependabot/go_modules/golang.org/x/term-0.6.0\r\n* 04d833a Merge pull request #453 from rudSarkar/main\r\n* 779f121 Merge pull request #451 from hahwul/dependabot/go_modules/golang.org/x/sync-0.1.0\r\n* 316e1e7 Merge pull request #450 from hahwul/dependabot/go_modules/github.com/stretchr/testify-1.8.2\r\n* a953704 Merge pull request #449 from hahwul/dependabot/go_modules/github.com/briandowns/spinner-1.22.0\r\n* ea9d581 Merge pull request #448 from hahwul/dependabot/go_modules/golang.org/x/net-0.7.0\r\n* 4a8cba2 Merge pull request #447 from hahwul/dependabot/go_modules/golang.org/x/term-0.5.0\r\n* d22d80a Merge pull request #445 from hahwul/dependabot/go_modules/github.com/labstack/echo/v4-4.10.2\r\n* ae52c66 Merge pull request #443 from hahwul/dependabot/go_modules/github.com/PuerkitoBio/goquery-1.8.1\r\n* 09468c4 Merge pull request #440 from aidansteele/main\r\n* 08854c2 Merge pull request #438 from hahwul/dependabot/go_modules/github.com/briandowns/spinner-1.21.0\r\n* 53410a7 Merge pull request #437 from hahwul/dependabot/go_modules/github.com/swaggo/swag-1.8.10\r\n* 0f003e7 Merge pull request #436 from hahwul/dependabot/go_modules/github.com/chromedp/chromedp-0.8.7\r\n* bc3a875 Merge pull request #433 from InfoSec-Le/main\r\n* f78a653 Merge pull request #432 from hahwul/dependabot/go_modules/github.com/swaggo/swag-1.8.9\r\n* 863c1ce Merge pull request #427 from dkegel-fastly/dkegel-issue426-payloadbox-typo\r\n* d7cfae5 Merge pull request #425 from hahwul/dependabot/go_modules/github.com/swaggo/swag-1.8.8\r\n* eb8f109 Merge pull request #419 from hahwul/dependabot/go_modules/github.com/spf13/cobra-1.6.1\r\n* de0b838 Merge pull request #418 from hahwul/dependabot/go_modules/github.com/stretchr/testify-1.8.1\r\n* c176094 Merge pull request #415 from hahwul/dependabot/go_modules/github.com/labstack/echo/v4-4.9.1\r\n* ceea290 Merge pull request #414 from hahwul/dependabot/go_modules/github.com/spf13/cobra-1.6.0\r\n* 0dbbd22 Merge pull request #413 from hahwul/dependabot/go_modules/github.com/swaggo/echo-swagger-1.3.5\r\n* 4154ab4 Merge pull request #411 from hahwul/dependabot/go_modules/github.com/chromedp/chromedp-0.8.6\r\n* 0e7fca0 Merge pull request #4 from 0xflotus/patch-2\r\n* 32187f9 Merge pull request #3 from 0xflotus/patch-1\r\n* 8065723 Merge pull request #2 from 0xflotus/patch-1\r\n* f8f1394 Merge pull request #1 from 0xflotus/patch-1\r\n* 6dc0541 Merge branch 'main' into dependabot/go_modules/golang.org/x/term-0.5.0\r\n* 0a1184d Merge branch 'main' into dependabot/go_modules/github.com/stretchr/testify-1.8.1\r\n* 1484c85 Improve test code\r\n* 7195f11 Improve test code\r\n* 15ff616 Improve interface\r\n* 587e094 Error handled for index out of range\r\n* 0b6a4ed Bump golang.org/x/term from 0.5.0 to 0.6.0\r\n* f0c1af3 Bump golang.org/x/term from 0.0.0-20210927222741-03fcf44c2211 to 0.5.0\r\n* 0146b90 Bump golang.org/x/sync from 0.0.0-20220722155255-886fb9371eb4 to 0.1.0\r\n* 8f2513d Bump golang.org/x/net from 0.0.0-20220722155237-a158d28d115b to 0.7.0\r\n* 0dc2990 Bump github.com/swaggo/swag from 1.8.9 to 1.8.10\r\n* 0602158 Bump github.com/swaggo/swag from 1.8.8 to 1.8.9\r\n* bc8128d Bump github.com/swaggo/swag from 1.8.6 to 1.8.8\r\n* c64a9ff Bump github.com/swaggo/swag from 1.8.10 to 1.8.11\r\n* 3530d42 Bump github.com/swaggo/echo-swagger from 1.3.4 to 1.3.5\r\n* 62ef0f8 Bump github.com/stretchr/testify from 1.8.1 to 1.8.2\r\n* e27eac7 Bump github.com/stretchr/testify from 1.8.0 to 1.8.1\r\n* 966d923 Bump github.com/spf13/cobra from 1.6.0 to 1.6.1\r\n* 722cbbb Bump github.com/spf13/cobra from 1.5.0 to 1.6.0\r\n* 014bb5f Bump github.com/labstack/echo/v4 from 4.9.1 to 4.10.2\r\n* 583c043 Bump github.com/labstack/echo/v4 from 4.9.0 to 4.9.1\r\n* 4a2191e Bump github.com/chromedp/chromedp from 0.8.7 to 0.9.1\r\n* b1995bb Bump github.com/chromedp/chromedp from 0.8.6 to 0.8.7\r\n* f4157ea Bump github.com/chromedp/chromedp from 0.8.5 to 0.8.6\r\n* 180ba57 Bump github.com/briandowns/spinner from 1.22.0 to 1.23.0\r\n* 9f09c01 Bump github.com/briandowns/spinner from 1.21.0 to 1.22.0\r\n* 218d2c1 Bump github.com/briandowns/spinner from 1.19.0 to 1.21.0\r\n* f9045f1 Bump github.com/PuerkitoBio/goquery from 1.8.0 to 1.8.1\r\n* 782255c Add documents for HAR\r\n* efcef0f Add check script\r\n* a74f4ec Add arm64(apple sillicon) docker image in GHCR\r\n* e74c5da Add HarWriter in Interface\r\n* d4b2055 --remote-payloads: fix typo 'paylaodbox' [issue 426]\r\n* e8f9d49 (#423) Add --output-request and --output-response flags\r\n* fc61602 (#422) Add MessageStr in All logs\r\n\r\n"
@@ -5148,8 +5148,8 @@
     "https://github.com/FreeRDP/FreeRDP": {
         "created_at": "2011-06-30 19:14:15",
         "description": "FreeRDP is a free remote desktop protocol library and clients",
-        "commit_date": "2023-09-15 09:24:21",
-        "commit_message": "[codec,progressive] fix overlapping buffers",
+        "commit_date": "2023-09-18 11:05:44",
+        "commit_message": "[drdynvc] improvements of server-side DRDYNVC\n\nThis patch prepares the reading of the dynamic channel version so that next we\ncan take in account this to take advantage of advanced features in last versions\n(compressions or priorities).\nThe patch also implement notifying the VCM event when the dynamic channel becomes ready\nso that users of FreeRDP can just do calls to WTSVirtualChannelManagerGetDrdynvcState\nwhen the channel event is set (no blind calls).",
         "release_tag": "2.11.1",
         "release_date": "2023-09-04 10:27:44",
         "release_message": "Notworthy changes:\r\n* Backported #9356: Fix issues with order updates\r\n\r\nFor a complete and detailed change log since the last release run:\r\n`git log 2.11.1...2.11.0`"
@@ -5729,8 +5729,8 @@
     "https://github.com/fatedier/frp": {
         "created_at": "2015-12-21 15:24:59",
         "description": "A fast reverse proxy to help you expose a local server behind a NAT or firewall to the internet.",
-        "commit_date": "2023-09-15 02:33:32",
-        "commit_message": "optimize the code of the command line (#3614)",
+        "commit_date": "2023-09-18 06:28:05",
+        "commit_message": "return ssl alert unrecognized_name when https domain not registered (#3620)",
         "release_tag": "v0.51.3",
         "release_date": "2023-08-14 04:10:03",
         "release_message": "### Features\n\n* Support Go 1.21.\n\n"
@@ -6173,12 +6173,12 @@
         "release_message": ""
     },
     "https://github.com/XiaoBai-12138/Impacket_For_Web": {
-        "created_at": "2023-09-02 13:09:58",
-        "description": "内网工具箱 图形化Impacket 实现让Impacket部分横向模块可视化操作",
+        "created_at": "",
+        "description": "",
         "commit_date": "2023-09-06 05:26:46",
         "commit_message": "Merge remote-tracking branch 'origin/main'",
-        "release_tag": "20230906",
-        "release_date": "2023-09-06 05:36:34",
+        "release_tag": "",
+        "release_date": "",
         "release_message": ""
     },
     "https://github.com/bingtangbanli/VulnerabilityTools": {
