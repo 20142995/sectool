@@ -1,4 +1,4 @@
-# 更新于 2023-09-19 08:34:26
+# 更新于 2023-09-20 08:36:19
 
 ## 近15天release更新记录
 | 更新时间 | 项目名称 | 版本 | 更新内容 |
@@ -28,31 +28,35 @@
 |2023-09-06 04:47:47|[BlueTeamTools](https://github.com/abc123info/BlueTeamTools)|BlueTea<br>mToolsV0<br>.73版本|2023.09.06 更正"网空资产测绘"功能Hunt<br>er界面的显示问题。|
 |2023-09-05 15:46:30|[goproxy](https://github.com/snail007/goproxy)|v13.9|1、修复了开启流量上报后，一定条件下导<br>致的内存上涨问题。|
 |2023-09-05 13:23:34|[v2rayA](https://github.com/v2rayA/v2rayA)|v2.2.4|## What's Changed * Fix Windows insta<br>llers' blank version string by @Markso<br>nHon in https://github.com/v2rayA/v2ra<br>yA/pull/1079   **Full Changelog**: htt<br>ps://github.com/v2rayA/v2rayA/compare/<br>v2.2.3...v2.2.4|
-|2023-09-04 16:43:03|[nemo_go](https://github.com/hanc00l/nemo_go)|v2.10.1|### Update    - IP/Domain列表视图下显<br>示当前页的统计信息，优化IP和Domain的列<br>表查询功能；  - 增加XScan任务通过API接<br>口获取资产、重构自定义API搜索代码，目前<br>支持FOFA、Hunter及Quake引擎； 对FOFA自<br>定义关键词进行界面的优化  - 重构网络空<br>间在线资产搜索接口的代码；在线资产搜索<br>平台FOFA、Hunter、Quake及备案查询的API<br>口支持同时配置多个（以,分开）；FOFA的AP<br>I采用email:  token的方式配置（取消单独<br>的email字段）；  - quake的域名从quake.3<br>60.cn 变更为quake.360.net；完善onlinea<br>pi查询的查询语句、去除可能包含敏感信息<br>的过滤词（可能API导致查询失败）  - 取消<br>web显示页面的siderbar的隐藏； Domain列<br>表增加端口的显示和快速链接  - web测试在<br>线资产api可用性采用多线程方式；优化web<br>测试在线资产api代码限制只测试100条记录 <br> - 在IP和Domain的Web列表视图中，只显示<br>前5张screenshot，添加点击显示更多的提示<br>信息  - 重构离线扫描结果资产导入，去除n<br>aabu和TXPortmap  - 增加web的https功能<br>，为RPC及filesync启用TLS加密功能；增加t<br>ls方式下的自签名证书的生成  - 文件同步<br>文件对比列表代码重构  - Makefile    ###<br> Fix    - Hunter与Fofa在重构代码时base<br>64编码器错误  - online search sizeTota<br>l limit  - IP和域名详情页http_header字<br>段超长导致显示效果异常  - XScan根据的Xo<br>rganization直接调用数据库查询IP和Domai<br>n资产的Bug|
-|2023-09-04 12:23:06|[dbeaver](https://github.com/dbeaver/dbeaver)|23.2.0|             - Changes since 23.1.5: <br>                - Data Editor:        <br>             - Spatial values renderin<br>g was fixed                     - Spat<br>ial images capture was fixed          <br>           - Special characters render<br>ing was improved                     -<br> Grouping panel icons were improved   <br>              - ER Diagrams: saved dia<br>grams now can be opened on another com<br>puters                 - Data transfer<br>: import settings handling was improve<br>d                 - Accessibility:    <br>                 - Connection dialog n<br>ow supports screen readers            <br>         - Cell value reading was impr<br>oved                     - Ctrl+Shift/<br>Alt+PageDn: vertical tabs switch      <br>               - Ctrl+ALT+6: SQL edito<br>r and results tab switch              <br>       - Ctrl+Shift+Enter now opens ER<br> diagram entities                     <br>- Ctrl+Shift+N: new connection dialog <br>open                 - Database driver<br>s:                     - Bigquery: DDL<br> for tables, views and stored procedur<br>es was added                     - Cli<br>ckhouse: arrays and structures visuali<br>zation was fixed                     -<br> Greenplum: external tables reading wa<br>s fixed                     - Teradata<br>: issue with the missing templates was<br> fixed                 - Many minor UI<br> and database issues were resolved    <br>         |
-|2023-09-04 10:27:44|[FreeRDP](https://github.com/FreeRDP/FreeRDP)|2.11.1|Notworthy changes:  * Backported #935<br>6: Fix issues with order updates    Fo<br>r a complete and detailed change log s<br>ince the last release run:  git log 2.<br>11.1...2.11.0|
 ## 近15天commit提交记录
 | 提交时间 | 项目名称 | 更新内容 |
 | :---- | :---- | :---- |
-|2023-09-19 00:00:02|[free](https://github.com/freefq/free)|updated_at 09-19 08:00|
-|2023-09-18 23:37:49|[neuvector](https://github.com/neuvector/neuvector)|Merge pull request #1005 from jayhuang-suse/seven  <br>NVSHAS-7764: "Maximum concurrent syslog message reac<br>hed Check syslog server settings " ERROR log can be <br>rate limited|
-|2023-09-18 23:27:36|[PocOrExp_in_Githu<br>b](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-09-19 07:27:36|
+|2023-09-20 00:00:02|[free](https://github.com/freefq/free)|updated_at 09-20 08:00|
+|2023-09-19 23:28:57|[PocOrExp_in_Githu<br>b](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-09-20 07:28:57|
+|2023-09-19 22:09:11|[neuvector](https://github.com/neuvector/neuvector)|Merge pull request #1012 from williamlin-suse/main <br> NVSHAS-5295: extend options for cve report criteria<br> in response rules…|
+|2023-09-19 20:43:54|[faker](https://github.com/joke2k/faker)|fix type error in pyfloat  when max_value is None (<br>#1908)|
+|2023-09-19 19:57:20|[clair](https://github.com/quay/clair)|docs: add dropins to prose documentation  This chan<br>ge explains how to use the dropins and updates the l<br>ocal-dev config to do so.  Closes: #1783 Signed-off-<br>by: Hank Donnay |
+|2023-09-19 19:22:10|[syft](https://github.com/anchore/syft)|chore: update to latest stereoscope (#2151)  * chor<br>e: update to latest stereoscope    Signed-off-by: Ch<br>ristopher Phillips     * chore: go mod tidy    Signe<br>d-off-by: Christopher Phillips     ---------    Sign<br>ed-off-by: Christopher Phillips |
+|2023-09-19 15:16:47|[rustdesk](https://github.com/rustdesk/rustdesk)|Merge pull request #5750 from flusheDData/master  U<br>pdate es.rs|
+|2023-09-19 14:17:37|[dbeaver](https://github.com/dbeaver/dbeaver)|#19676 Save console as a script (#21142)  * #19676 <br>Save console as a new script    * #19676 Mark consol<br>e as dirty only if its content was changed    ------<br>---    Co-authored-by: Dziyana |
+|2023-09-19 14:14:44|[dirsearch](https://github.com/maurosoria/dirsearch)|Merge pull request #1325 from huyphan/master  Allow<br> dirsearch to use a non-default network interface #1<br>323|
+|2023-09-19 12:59:55|[iDefender](https://github.com/wecooperate/iDefender)|update|
+|2023-09-19 12:36:46|[v2rayfree](https://github.com/aiboboxx/v2rayfree)|update|
+|2023-09-19 12:29:48|[All-Defense-Tool](https://github.com/guchangan1/All-Defense-Tool)|更新v3.0|
+|2023-09-19 07:35:52|[FreeRDP](https://github.com/FreeRDP/FreeRDP)|[core] fix leaks reported in #9400|
+|2023-09-19 06:24:11|[trivy](https://github.com/aquasecurity/trivy)|docs: update info about license scanning in Yarn pr<br>ojects (#5207)|
+|2023-09-19 02:00:38|[vulnerability](https://github.com/lal0ne/vulnerability)|CVE-2023-38146|
+|2023-09-19 00:38:38|[nemo_go](https://github.com/hanc00l/nemo_go)|Update: 新增Worker通过iptables+redsocks进行全局代理<br>的测试和文档|
 |2023-09-18 20:54:14|[grype](https://github.com/anchore/grype)|Fix typo in flag (#1501)  Signed-off-by: Rob Szumsk<br>i |
-|2023-09-18 15:33:43|[syft](https://github.com/anchore/syft)|Add containerd support (#1793)  * [wip] add contain<br>erd UI handlers    Signed-off-by: Alex Goodman     *<br> Add containerd support    - Add UI handlers (done b<br>y @wagoodman)  - Add containerd types and wrappers (<br>done by @wagoodman)  - Add flag for specifying conta<br>inerd address    Closes #201    Signed-off-by: Shane<br> Dell     * Fix lint    Signed-off-by: Shane Dell   <br>  * add containerd ui handler    Signed-off-by: Alex<br> Goodman     * add containerd scheme to readme    Si<br>gned-off-by: Alex Goodman     * add test for scheme <br>detection    Signed-off-by: Alex Goodman     -------<br>--    Signed-off-by: Alex Goodman   Signed-off-by: S<br>hane Dell   Signed-off-by: Alex Goodman   Co-authore<br>d-by: Alex Goodman   Co-authored-by: Alex Goodman |
 |2023-09-18 15:32:22|[dalfox](https://github.com/hahwul/dalfox)|Merge pull request #489 from hahwul/dependabot/go_m<br>odules/github.com/swaggo/swag-1.16.2  Bump github.co<br>m/swaggo/swag from 1.16.1 to 1.16.2|
 |2023-09-18 15:12:06|[mysql-fake-server](https://github.com/4ra1n/mysql-fake-server)|change log|
-|2023-09-18 14:23:34|[rustdesk](https://github.com/rustdesk/rustdesk)|Merge pull request #5737 from fufesou/refact/detail<br>s_on_privacy_mode  Fix, privacy on, missing failed d<br>etails|
-|2023-09-18 13:51:12|[trivy](https://github.com/aquasecurity/trivy)|ci: auto apply labels (#5200)  * add label for mage<br> file. Create workflow.  * fix typo  * setup go and <br>aqua tools  * set fetch-depth == 1|
 |2023-09-18 12:53:55|[ObserverWard](https://github.com/0x727/ObserverWard)|update|
-|2023-09-18 12:36:53|[v2rayfree](https://github.com/aiboboxx/v2rayfree)|update|
-|2023-09-18 11:05:44|[FreeRDP](https://github.com/FreeRDP/FreeRDP)|[drdynvc] improvements of server-side DRDYNVC  This<br> patch prepares the reading of the dynamic channel v<br>ersion so that next we can take in account this to t<br>ake advantage of advanced features in last versions <br>(compressions or priorities). The patch also impleme<br>nt notifying the VCM event when the dynamic channel <br>becomes ready so that users of FreeRDP can just do c<br>alls to WTSVirtualChannelManagerGetDrdynvcState when<br> the channel event is set (no blind calls).|
 |2023-09-18 07:40:58|[Awesome-Redteam](https://github.com/Threekiii/Awesome-Redteam)|更新README.md|
 |2023-09-18 06:58:22|[afrog](https://github.com/zan8in/afrog)|update|
 |2023-09-18 06:56:15|[0_zone_tool](https://github.com/wkend/0_zone_tool)|Update README.md|
 |2023-09-18 06:28:05|[frp](https://github.com/fatedier/frp)|return ssl alert unrecognized_name when https domai<br>n not registered (#3620)|
 |2023-09-18 03:32:12|[404StarLink](https://github.com/knownsec/404StarLink)|weekly update at 2023-09-18|
 |2023-09-17 13:47:48|[DecoyMini](https://github.com/decoymini/DecoyMini)|Update README.md|
-|2023-09-17 13:23:36|[iDefender](https://github.com/wecooperate/iDefender)|update|
 |2023-09-17 08:40:13|[mitaka](https://github.com/ninoseki/mitaka)|Merge pull request #758 from ninoseki/v1.3.3  v1.3.<br>3|
 |2023-09-17 06:18:15|[Mobile-Security-F<br>ramework-MobSF](https://github.com/MobSF/Mobile-Security-Framework-MobSF)|[HOTFIX] Fix jadx and apktool failure due to JDK ch<br>anges (#2269)  * Fix jadx and apktool failure due to<br> JDK zip64 changes|
 |2023-09-16 16:50:54|[Template](https://github.com/1n7erface/Template)|Update README.md|
@@ -62,24 +66,20 @@
 |2023-09-16 12:17:38|[ChatGPT-Shortcut](https://github.com/rockbenben/ChatGPT-Shortcut)|docs: update docs|
 |2023-09-16 09:59:20|[kube-bench](https://github.com/aquasecurity/kube-bench)|build(deps): bump golang from 1.20.6 to 1.21.1 (#14<br>94)  Bumps golang from 1.20.6 to 1.21.1.    ---  upd<br>ated-dependencies:  - dependency-name: golang    dep<br>endency-type: direct:production    update-type: vers<br>ion-update:semver-minor  ...    Signed-off-by: depen<br>dabot[bot]   Co-authored-by: dependabot[bot] |
 |2023-09-16 09:19:44|[murphysec](https://github.com/murphysecurity/murphysec)|feat(cmd): add --project-name|
-|2023-09-15 14:42:20|[dbeaver](https://github.com/dbeaver/dbeaver)|#21077 Grammar improvements and fixes (#21078)  * #<br>21077 Fix aliases autocompletion bug, add notnull ke<br>yword, support of != and function calls in order by <br>clause    * #21077 Fix NPE|
 |2023-09-15 10:48:09|[arthas](https://github.com/alibaba/arthas)|improve UserStatUtil|
 |2023-09-15 09:19:20|[safeline](https://github.com/chaitin/safeline)|feat: rec_version is  v3.4.1|
 |2023-09-15 04:53:00|[captcha-killer-mo<br>dified](https://github.com/f0ng/captcha-killer-modified)|Update README.md|
 |2023-09-15 04:31:07|[Intranet-tools](https://github.com/private-null/Intranet-tools)|Add files via upload|
-|2023-09-15 01:53:58|[vulnerability](https://github.com/lal0ne/vulnerability)|CVE-2023-26469|
 |2023-09-14 15:07:04|[codeql-cli-binari<br>es](https://github.com/github/codeql-cli-binaries)|Update changelog for 2.14.5|
 |2023-09-14 12:44:43|[Viper](https://github.com/FunnyWolf/Viper)|update version|
 |2023-09-14 11:45:05|[v2rayA](https://github.com/v2rayA/v2rayA)|Merge pull request #1025 from v2rayA/dependabot/npm<br>_and_yarn/gui/nunjucks-3.2.4  chore(deps): bump nunj<br>ucks from 3.2.3 to 3.2.4 in /gui|
 |2023-09-14 09:05:08|[domain_hunter_pro](https://github.com/bit4woo/domain_hunter_pro)|update|
 |2023-09-14 06:17:13|[impacket](https://github.com/fortra/impacket)|fix NextEntryOffset for large directory listings (#<br>1587)  Co-authored-by: robn-applaton |
 |2023-09-13 13:37:12|[ThunderSearch](https://github.com/xzajyjs/ThunderSearch)|improve en support|
-|2023-09-12 18:25:58|[clair](https://github.com/quay/clair)|build(deps): bump actions/checkout from 3 to 4  Bum<br>ps  from 3 to 4. -  -  -   --- updated-dependencies:<br> - dependency-name: actions/checkout   dependency-ty<br>pe: direct:production   update-type: version-update:<br>semver-major ...  Signed-off-by: dependabot[bot] |
 |2023-09-12 09:25:38|[subfinder](https://github.com/projectdiscovery/subfinder)|version update|
 |2023-09-12 01:18:35|[feroxbuster](https://github.com/epi052/feroxbuster)|Merge pull request #980 from epi052/all-contributor<br>s/add-sawmj  docs: add sawmj as a contributor for bu<br>g|
 |2023-09-12 00:57:05|[0day](https://github.com/helloexp/0day)|add CVE-2023-37582 RocketMQ RCE|
 |2023-09-11 17:57:32|[slowhttptest](https://github.com/shekyan/slowhttptest)|support mtls (#86)|
-|2023-09-11 16:17:55|[faker](https://github.com/joke2k/faker)|Bump version: 19.6.0 → 19.6.1|
 |2023-09-11 14:47:26|[Ladon](https://github.com/k8gege/Ladon)|Add files via upload|
 |2023-09-11 14:36:46|[K8tools](https://github.com/k8gege/K8tools)|Add files via upload|
 |2023-09-11 07:56:02|[appshark](https://github.com/bytedance/appshark)|handle OutOfMemoryError|
@@ -96,12 +96,7 @@
 |2023-09-06 04:56:41|[BlueTeamTools](https://github.com/abc123info/BlueTeamTools)|Update README.md|
 |2023-09-06 04:26:00|[zpscan](https://github.com/niudaii/zpscan)|fix: jsjump|
 |2023-09-05 15:15:04|[MockingBird](https://github.com/babysor/MockingBird)|Skip embedding (#950)  * Skip embedding    * Skip e<br>arlier    * Remove unused paramater    * Pass param|
-|2023-09-05 06:56:25|[Awesome-POC](https://github.com/Threekiii/Awesome-POC)|更新漏洞|
-|2023-09-04 16:15:17|[nemo_go](https://github.com/hanc00l/nemo_go)|Update: v2.10.1|
-|2023-09-04 13:20:16|[RouteVulScan](https://github.com/F6JO/RouteVulScan)|Update threads.java|
-|2023-09-04 10:22:18|[suo5](https://github.com/zema1/suo5)|Merge pull request #37 from zema1/bump-go-version  <br>feat: bump up go to v1.20|
-|2023-09-04 09:36:39|[BerylEnigma](https://github.com/ffffffff0x/BerylEnigma)|现代加密的部分log功能|
-|2023-09-04 08:25:09|[impacket-gui](https://github.com/yutianqaq/impacket-gui)|Merge pull request #1 from outmansec/master   升级P<br>yQt5到PyQt6支持mac全系列|## 所有项目
+|2023-09-05 06:56:25|[Awesome-POC](https://github.com/Threekiii/Awesome-POC)|更新漏洞|## 所有项目
 # 渗透测试
 ## 信息收集
 ### 资产测绘采集

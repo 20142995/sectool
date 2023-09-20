@@ -200,8 +200,8 @@
     "https://github.com/ycdxsb/PocOrExp_in_Github": {
         "created_at": "2021-04-13 05:46:16",
         "description": "聚合Github上已有的Poc或者Exp，CVE信息来自CVE官网。Auto Collect Poc Or Exp from Github by CVE ID.",
-        "commit_date": "2023-09-18 23:27:36",
-        "commit_message": "update 2023-09-19 07:27:36",
+        "commit_date": "2023-09-19 23:28:57",
+        "commit_message": "update 2023-09-20 07:28:57",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -326,8 +326,8 @@
     "https://github.com/guchangan1/All-Defense-Tool": {
         "created_at": "2022-04-25 11:45:06",
         "description": "本项目集成了全网优秀的攻防武器工具项目，包含自动化利用，子域名、目录扫描、端口扫描等信息收集工具，各大中间件、cms漏洞利用工具，爆破工具、内网横向及免杀、社工钓鱼以及应急响应等资料。",
-        "commit_date": "2023-06-30 16:04:02",
-        "commit_message": "更新v2.4",
+        "commit_date": "2023-09-19 12:29:48",
+        "commit_message": "更新v3.0",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -380,8 +380,8 @@
     "https://github.com/lal0ne/vulnerability": {
         "created_at": "2022-01-20 02:48:42",
         "description": "收集、整理、修改互联网上公开的漏洞POC",
-        "commit_date": "2023-09-15 01:53:58",
-        "commit_message": "CVE-2023-26469",
+        "commit_date": "2023-09-19 02:00:38",
+        "commit_message": "CVE-2023-38146",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -1017,7 +1017,7 @@
     "https://github.com/wecooperate/iDefender": {
         "created_at": "2021-11-24 11:38:28",
         "description": "iDefender（冰盾 - 终端主动防御系统）",
-        "commit_date": "2023-09-17 13:23:36",
+        "commit_date": "2023-09-19 12:59:55",
         "commit_message": "update",
         "release_tag": "2.9.0",
         "release_date": "2023-07-19 02:37:26",
@@ -1888,8 +1888,8 @@
     "https://github.com/hanc00l/nemo_go": {
         "created_at": "2021-07-29 08:13:25",
         "description": "Nemo是用来进行自动化信息收集的一个简单平台，通过集成常用的信息收集工具和技术，实现对内网及互联网资产信息的自动收集，提高隐患排查和渗透测试的工作效率。",
-        "commit_date": "2023-09-04 16:15:17",
-        "commit_message": "Update: v2.10.1",
+        "commit_date": "2023-09-19 00:38:38",
+        "commit_message": "Update: 新增Worker通过iptables+redsocks进行全局代理的测试和文档",
         "release_tag": "v2.10.1",
         "release_date": "2023-09-04 16:43:03",
         "release_message": "### Update\r\n\r\n- IP/Domain列表视图下显示当前页的统计信息，优化IP和Domain的列表查询功能；\r\n- 增加XScan任务通过API接口获取资产、重构自定义API搜索代码，目前支持FOFA、Hunter及Quake引擎； 对FOFA自定义关键词进行界面的优化\r\n- 重构网络空间在线资产搜索接口的代码；在线资产搜索平台FOFA、Hunter、Quake及备案查询的API口支持同时配置多个（以,分开）；FOFA的API采用email:\r\ntoken的方式配置（取消单独的email字段）；\r\n- quake的域名从quake.360.cn 变更为quake.360.net；完善onlineapi查询的查询语句、去除可能包含敏感信息的过滤词（可能API导致查询失败）\r\n- 取消web显示页面的siderbar的隐藏； Domain列表增加端口的显示和快速链接\r\n- web测试在线资产api可用性采用多线程方式；优化web测试在线资产api代码限制只测试100条记录\r\n- 在IP和Domain的Web列表视图中，只显示前5张screenshot，添加点击显示更多的提示信息\r\n- 重构离线扫描结果资产导入，去除naabu和TXPortmap\r\n- 增加web的https功能，为RPC及filesync启用TLS加密功能；增加tls方式下的自签名证书的生成\r\n- 文件同步文件对比列表代码重构\r\n- Makefile\r\n\r\n### Fix\r\n\r\n- Hunter与Fofa在重构代码时base64编码器错误\r\n- online search sizeTotal limit\r\n- IP和域名详情页http_header字段超长导致显示效果异常\r\n- XScan根据的Xorganization直接调用数据库查询IP和Domain资产的Bug"
@@ -2654,8 +2654,8 @@
     "https://github.com/maurosoria/dirsearch": {
         "created_at": "2013-04-30 15:57:40",
         "description": "Web path scanner",
-        "commit_date": "2023-08-26 03:35:58",
-        "commit_message": "Merge pull request #1310 from godspeedcurry/master\n\nUpdate dicc.txt",
+        "commit_date": "2023-09-19 14:14:44",
+        "commit_message": "Merge pull request #1325 from huyphan/master\n\nAllow dirsearch to use a non-default network interface #1323",
         "release_tag": "v0.4.3",
         "release_date": "2022-10-05 13:01:24",
         "release_message": "- Automatically detect the URI scheme (`http` or `https`) if no scheme is provided\r\n- SQLite report format\r\n- Option to overwrite unwanted extensions with selected extensions\r\n- Option to view redirects history when following redirects\r\n- Option to crawl web paths in the responses\r\n- HTTP traffic is saved inside log file\r\n- Capability to save progress and resume later\r\n- Support client certificate\r\n- Maximum size of the log file via configuration\r\n- More accurate"
@@ -2951,8 +2951,8 @@
     "https://github.com/dbeaver/dbeaver": {
         "created_at": "2015-10-21 08:26:28",
         "description": "Free universal database tool and SQL client",
-        "commit_date": "2023-09-15 14:42:20",
-        "commit_message": "#21077 Grammar improvements and fixes (#21078)\n\n* #21077 Fix aliases autocompletion bug, add notnull keyword, support of != and function calls in order by clause\r\n\r\n* #21077 Fix NPE",
+        "commit_date": "2023-09-19 14:17:37",
+        "commit_message": "#19676 Save console as a script (#21142)\n\n* #19676 Save console as a new script\r\n\r\n* #19676 Mark console as dirty only if its content was changed\r\n\r\n---------\r\n\r\nCo-authored-by: Dziyana <31996417+uslss@users.noreply.github.com>",
         "release_tag": "23.2.0",
         "release_date": "2023-09-04 12:23:06",
         "release_message": "\n            - Changes since 23.1.5:\n                - Data Editor:\n                    - Spatial values rendering was fixed\n                    - Spatial images capture was fixed\n                    - Special characters rendering was improved\n                    - Grouping panel icons were improved\n                - ER Diagrams: saved diagrams now can be opened on another computers\n                - Data transfer: import settings handling was improved\n                - Accessibility:\n                    - Connection dialog now supports screen readers\n                    - Cell value reading was improved\n                    - Ctrl+Shift/Alt+PageDn: vertical tabs switch\n                    - Ctrl+ALT+6: SQL editor and results tab switch\n                    - Ctrl+Shift+Enter now opens ER diagram entities\n                    - Ctrl+Shift+N: new connection dialog open\n                - Database drivers:\n                    - Bigquery: DDL for tables, views and stored procedures was added\n                    - Clickhouse: arrays and structures visualization was fixed\n                    - Greenplum: external tables reading was fixed\n                    - Teradata: issue with the missing templates was fixed\n                - Many minor UI and database issues were resolved\n            "
@@ -3192,8 +3192,8 @@
     "https://github.com/joke2k/faker": {
         "created_at": "2012-11-12 23:00:09",
         "description": "Faker is a Python package that generates fake data for you.",
-        "commit_date": "2023-09-11 16:17:55",
-        "commit_message": "Bump version: 19.6.0 → 19.6.1",
+        "commit_date": "2023-09-19 20:43:54",
+        "commit_message": "fix type error in `pyfloat`  when `max_value` is `None` (#1908)",
         "release_tag": "v19.6.0",
         "release_date": "2023-09-08 21:18:40",
         "release_message": "See [CHANGELOG.md](https://github.com/joke2k/faker/blob/refs/tags/v19.6.0/CHANGELOG.md)."
@@ -3890,8 +3890,8 @@
     "https://github.com/neuvector/neuvector": {
         "created_at": "2021-12-17 20:15:03",
         "description": "",
-        "commit_date": "2023-09-18 23:37:49",
-        "commit_message": "Merge pull request #1005 from jayhuang-suse/seven\n\nNVSHAS-7764: \"Maximum concurrent syslog message reached Check syslog server settings \" ERROR log can be rate limited",
+        "commit_date": "2023-09-19 22:09:11",
+        "commit_message": "Merge pull request #1012 from williamlin-suse/main\n\nNVSHAS-5295: extend options for cve report criteria in response rules…",
         "release_tag": "v5.2.1",
         "release_date": "2023-08-22 23:29:15",
         "release_message": "Features\r\nNVSHAS-7449: Report layered scan result to syslog\r\nNVSHAS-6974: Export NIST compliance report\r\nNVSHAS-8157: Handle Proxy setting in image signature verification\r\nNVSHAS-8034: Include image signature result in the downloaded CVE report\r\nNVSHAS-7483: Pod annotations for Admission Control Policies\r\n\r\nBug fixes\r\nNVSHAS-8200: Do not create default admin with default password in NV fresh deployment for AWS billing offering\r\nNVSHAS-8172: .json file increased size and crashed a kubernetes node\r\nNVSHAS-7963: Improve SQL injection detection logics\r\nNVSHAS-8128: when install helm crd chart first before insatlling core chart, service accounts are missing\r\nNVSHAS-8106: Image scan I.4.1 compliance result is incorrect\r\nNVSHAS-8050: Vulnerability advance filter report showing images from all other namespace"
@@ -3908,8 +3908,8 @@
     "https://github.com/anchore/syft": {
         "created_at": "2020-05-07 18:19:29",
         "description": "CLI tool and library for generating a Software Bill of Materials from container images and filesystems",
-        "commit_date": "2023-09-18 15:33:43",
-        "commit_message": "Add containerd support (#1793)\n\n* [wip] add containerd UI handlers\r\n\r\nSigned-off-by: Alex Goodman <alex.goodman@anchore.com>\r\n\r\n* Add containerd support\r\n\r\n- Add UI handlers (done by @wagoodman)\r\n- Add containerd types and wrappers (done by @wagoodman)\r\n- Add flag for specifying containerd address\r\n\r\nCloses #201\r\n\r\nSigned-off-by: Shane Dell <shanedell100@gmail.com>\r\n\r\n* Fix lint\r\n\r\nSigned-off-by: Shane Dell <shanedell100@gmail.com>\r\n\r\n* add containerd ui handler\r\n\r\nSigned-off-by: Alex Goodman <wagoodman@users.noreply.github.com>\r\n\r\n* add containerd scheme to readme\r\n\r\nSigned-off-by: Alex Goodman <wagoodman@users.noreply.github.com>\r\n\r\n* add test for scheme detection\r\n\r\nSigned-off-by: Alex Goodman <wagoodman@users.noreply.github.com>\r\n\r\n---------\r\n\r\nSigned-off-by: Alex Goodman <alex.goodman@anchore.com>\r\nSigned-off-by: Shane Dell <shanedell100@gmail.com>\r\nSigned-off-by: Alex Goodman <wagoodman@users.noreply.github.com>\r\nCo-authored-by: Alex Goodman <alex.goodman@anchore.com>\r\nCo-authored-by: Alex Goodman <wagoodman@users.noreply.github.com>",
+        "commit_date": "2023-09-19 19:22:10",
+        "commit_message": "chore: update to latest stereoscope (#2151)\n\n* chore: update to latest stereoscope\r\n\r\nSigned-off-by: Christopher Phillips <christopher.phillips@anchore.com>\r\n\r\n* chore: go mod tidy\r\n\r\nSigned-off-by: Christopher Phillips <christopher.phillips@anchore.com>\r\n\r\n---------\r\n\r\nSigned-off-by: Christopher Phillips <christopher.phillips@anchore.com>",
         "release_tag": "v0.90.0",
         "release_date": "2023-09-11 21:26:23",
         "release_message": "# \n\n## [v0.90.0](https://github.com/anchore/syft/tree/v0.90.0) (2023-09-11)\n\n[Full Changelog](https://github.com/anchore/syft/compare/v0.89.0...v0.90.0)\n\n### Added Features\n\n- Expose cobra command in cli package [[PR #2097](https://github.com/anchore/syft/pull/2097)] [[wagoodman](https://github.com/wagoodman)]\n- Explicitly test PURL generation against key packages [[Issue #2071](https://github.com/anchore/syft/issues/2071)]\n- Add User-Agent with Syft version during update check [[Issue #2072](https://github.com/anchore/syft/issues/2072)] [[PR #2100](https://github.com/anchore/syft/pull/2100)] [[hainenber](https://github.com/hainenber)]\n\n### Bug Fixes\n\n- fix: correct group IDs for commons-codec, okhttp, okio, and add integration tests for Java PURL generation [[PR #2075](https://github.com/anchore/syft/pull/2075)] [[willmurphyscode](https://github.com/willmurphyscode)]\n- Cyclonedx external reference URLs are not validated when encoding [[Issue #2079](https://github.com/anchore/syft/issues/2079)] [[PR #2091](https://github.com/anchore/syft/pull/2091)] [[hainenber](https://github.com/hainenber)]\n\n### Additional Changes\n\n- Bump the golang.org/x/exp dependency and fix a build breakage. [[PR #2088](https://github.com/anchore/syft/pull/2088)] [[dlorenc](https://github.com/dlorenc)]\n- fix: update codeql-analysis for go 1.21 [[PR #2108](https://github.com/anchore/syft/pull/2108)] [[spiffcs](https://github.com/spiffcs)]\n\n\n\n"
@@ -3953,8 +3953,8 @@
     "https://github.com/quay/clair": {
         "created_at": "2015-11-13 18:46:16",
         "description": "Vulnerability Static Analysis for Containers",
-        "commit_date": "2023-09-12 18:25:58",
-        "commit_message": "build(deps): bump actions/checkout from 3 to 4\n\nBumps [actions/checkout](https://github.com/actions/checkout) from 3 to 4.\n- [Release notes](https://github.com/actions/checkout/releases)\n- [Changelog](https://github.com/actions/checkout/blob/main/CHANGELOG.md)\n- [Commits](https://github.com/actions/checkout/compare/v3...v4)\n\n---\nupdated-dependencies:\n- dependency-name: actions/checkout\n  dependency-type: direct:production\n  update-type: version-update:semver-major\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>",
+        "commit_date": "2023-09-19 19:57:20",
+        "commit_message": "docs: add dropins to prose documentation\n\nThis change explains how to use the dropins and updates the local-dev\nconfig to do so.\n\nCloses: #1783\nSigned-off-by: Hank Donnay <hdonnay@redhat.com>",
         "release_tag": "v4.7.1",
         "release_date": "2023-08-10 22:02:47",
         "release_message": "<a name=\"unreleased\"></a>\n## [Unreleased]\n\n\n<a name=\"v4.7.1\"></a>\n## [v4.7.1] - 2023-08-10\n### Build(Deps)\n- [bd4bdbf6](https://github.com/quay/clair/commit/bd4bdbf68c62eb9982e028cafcabd58eb4e91c6c): bump github.com/pyroscope-io/godeltaprof\n### Chore\n- [25ab0f4e](https://github.com/quay/clair/commit/25ab0f4e01ac08870b6e8fe9cccc134a011a4f4f): bump claircore to v1.5.15\n- [4bf37a11](https://github.com/quay/clair/commit/4bf37a11861ca89c56dc94db9b1e002ef3d44265): bump claircore to v1.5.14\n\n[Unreleased]: https://github.com/quay/clair/compare/v4.7.1...HEAD\n[v4.7.1]: https://github.com/quay/clair/compare/v4.7.0...v4.7.1\n"
@@ -3971,8 +3971,8 @@
     "https://github.com/aquasecurity/trivy": {
         "created_at": "2019-04-11 01:01:07",
         "description": "Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more",
-        "commit_date": "2023-09-18 13:51:12",
-        "commit_message": "ci: auto apply labels (#5200)\n\n* add label for mage file. Create workflow.\n\n* fix typo\n\n* setup go and aqua tools\n\n* set fetch-depth == 1",
+        "commit_date": "2023-09-19 06:24:11",
+        "commit_message": "docs: update info about license scanning in Yarn projects (#5207)",
         "release_tag": "v0.45.1",
         "release_date": "2023-09-16 07:29:33",
         "release_message": "## Changelog\n* daae88287 fix(purl): handle rust types (#5186)\n* 81240cf08 chore: auto-close issues (#5177)\n* bd0accd8a chore(deps): bump github.com/spf13/viper from 1.15.0 to 1.16.0 (#5093)\n* ecee79403 fix(k8s): kbom support addons labels (#5178)\n* 9ebc25d88 test: validate SPDX with the JSON schema (#5124)\n* 9a49a3773 chore: bump trivy-kubernetes-latest (#5161)\n* ad1dc6327 docs: add 'Signature Verification' guide (#4731)\n* 7c68d4a7e docs: add image-scanner-with-trivy for ecosystem (#5159)\n* ed49609a7 fix(fs): assign the absolute path to be inspected to ROOTPATH when filesystem (#5158)\n* 19539722e chore(deps): bump github.com/CycloneDX/cyclonedx-go (#5102)\n* c7516011b Update filtering.md (#5131)\n* ccc6d7cb2 chore(deps): bump sigstore/cosign-installer (#5104)\n* 48cbf4553 chore(deps): bump github.com/cyphar/filepath-securejoin (#5143)\n* a9c2c74c5 chore(deps): bump golangci/golangci-lint-action from 3.6.0 to 3.7.0 (#5103)\n* 120ac68b5 chore(deps): bump easimon/maximize-build-space from 7 to 8 (#5105)\n* 41eaa78ae chore(deps): bump github.com/aws/aws-sdk-go from 1.44.273 to 1.45.3 (#5126)\n* 932f92755 chaging adopters discussion tempalte (#5091)\n* db3133346 chore(deps): bump github.com/cheggaaa/pb/v3 from 3.1.2 to 3.1.4 (#5092)\n* 8c0b7d619 chore(deps): bump github.com/hashicorp/golang-lru/v2 from 2.0.2 to 2.0.6 (#5094)\n* c61c664c3 chore(deps): bump github.com/aws/aws-sdk-go-v2/config (#5095)\n* a99944c1c chore(deps): bump github.com/containerd/containerd from 1.7.3 to 1.7.5 (#5097)\n* 9fc844ecf chore(deps): bump github.com/Azure/azure-sdk-for-go/sdk/azidentity (#5098)\n* c504f8be4 chore(deps): bump actions/checkout from 3.5.3 to 3.6.0 (#5106)\n\n"
@@ -4277,7 +4277,7 @@
     "https://github.com/aiboboxx/v2rayfree": {
         "created_at": "2021-10-13 11:34:53",
         "description": "v2ray节点、免费节点、免费v2ray节点、最新公益免费v2ray节点订阅地址、免费v2ray节点每日更新、免费ss/v2ray/trojan节点、freefq ",
-        "commit_date": "2023-09-18 12:36:53",
+        "commit_date": "2023-09-19 12:36:46",
         "commit_message": "update",
         "release_tag": "",
         "release_date": "",
@@ -4322,8 +4322,8 @@
     "https://github.com/freefq/free": {
         "created_at": "2020-06-07 02:48:33",
         "description": "翻墙、免费翻墙、免费科学上网、免费节点、免费梯子、免费ss/v2ray/trojan节点、蓝灯、谷歌商店、翻墙梯子",
-        "commit_date": "2023-09-19 00:00:02",
-        "commit_message": "updated_at 09-19 08:00",
+        "commit_date": "2023-09-20 00:00:02",
+        "commit_message": "updated_at 09-20 08:00",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -5004,8 +5004,8 @@
     "https://github.com/rustdesk/rustdesk": {
         "created_at": "2020-09-28 15:36:08",
         "description": "An open-source remote desktop, and alternative to TeamViewer.",
-        "commit_date": "2023-09-18 14:23:34",
-        "commit_message": "Merge pull request #5737 from fufesou/refact/details_on_privacy_mode\n\nFix, privacy on, missing failed details",
+        "commit_date": "2023-09-19 15:16:47",
+        "commit_message": "Merge pull request #5750 from flusheDData/master\n\nUpdate es.rs",
         "release_tag": "1.2.2",
         "release_date": "2023-08-22 01:44:36",
         "release_message": "![image](https://github.com/rustdesk/rustdesk/assets/71636191/83754a64-31b8-47f0-8570-da22207759a9)\r\n\r\n> Winget, FDroid, Apple Sillicon, Google Play / App Store update will come soon.\r\n\r\nx86-64: [Windows](https://github.com/rustdesk/rustdesk/releases/download/1.2.2/rustdesk-1.2.2-x86_64.exe) | [Ubuntu](https://github.com/rustdesk/rustdesk/releases/download/1.2.2/rustdesk-1.2.2-x86_64.deb) | [Mac](https://github.com/rustdesk/rustdesk/releases/download/1.2.2/rustdesk-1.2.2-x86_64.dmg)\r\nAArch64 (ARM64):  [Ubuntu](https://github.com/rustdesk/rustdesk/releases/download/1.2.2/rustdesk-1.2.2-aarch64.deb) | [Android](https://github.com/rustdesk/rustdesk/releases/download/1.2.2/rustdesk-1.2.2-aarch64-signed.apk) | [Mac](https://github.com/rustdesk/rustdesk/releases/download/1.2.2/rustdesk-1.2.2-aarch64.dmg)\r\n\r\nMore: [check below please](#)\r\n\r\n<details>\r\n<summary>Changelog</summary>\r\n\r\n- Add separate window mode (tab window by default), https://github.com/rustdesk/rustdesk/discussions/2889\r\n![image](https://github.com/rustdesk/rustdesk/assets/71636191/0c73bc6a-8659-4a67-9425-47625a6aded3)\r\n- Fix and improve responsiveness issue introduced in 1.2.0. https://github.com/rustdesk/rustdesk/discussions/5231\r\n- Add device list batch handle\r\n![image](https://github.com/rustdesk/rustdesk/assets/71636191/0ca85b8e-bed3-48ad-a43f-82df983986f3)\r\n- Add command to assign user and strategy for [RustDesk Server Pro](https://rustdesk.com/docs/en/self-host/pro/)\r\n- Optimize address book, syncing password, alias name, device name etc, add tag color, improve error and update status handling\r\n![image](https://github.com/rustdesk/rustdesk/assets/71636191/21d7a226-b863-4dc2-a9d3-fb6cd3a56c5c)\r\n- Fix windows file copy/paste\r\n- Fix \"waiting for image...\" still shown after receiving image bug, refactored rust->flutter message handling https://github.com/rustdesk/rustdesk/issues/4533\r\n- Improve some touchpad support, https://github.com/rustdesk/rustdesk/pull/5049\r\n- Bug fixes.\r\n\r\n</details>\r\n"
@@ -5148,8 +5148,8 @@
     "https://github.com/FreeRDP/FreeRDP": {
         "created_at": "2011-06-30 19:14:15",
         "description": "FreeRDP is a free remote desktop protocol library and clients",
-        "commit_date": "2023-09-18 11:05:44",
-        "commit_message": "[drdynvc] improvements of server-side DRDYNVC\n\nThis patch prepares the reading of the dynamic channel version so that next we\ncan take in account this to take advantage of advanced features in last versions\n(compressions or priorities).\nThe patch also implement notifying the VCM event when the dynamic channel becomes ready\nso that users of FreeRDP can just do calls to WTSVirtualChannelManagerGetDrdynvcState\nwhen the channel event is set (no blind calls).",
+        "commit_date": "2023-09-19 07:35:52",
+        "commit_message": "[core] fix leaks reported in #9400",
         "release_tag": "2.11.1",
         "release_date": "2023-09-04 10:27:44",
         "release_message": "Notworthy changes:\r\n* Backported #9356: Fix issues with order updates\r\n\r\nFor a complete and detailed change log since the last release run:\r\n`git log 2.11.1...2.11.0`"
