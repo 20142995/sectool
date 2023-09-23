@@ -1,9 +1,10 @@
-# 更新于 2023-09-22 08:34:41
+# 更新于 2023-09-23 08:34:24
 
 ## 近15天release更新记录
 | 更新时间 | 项目名称 | 版本 | 更新内容 |
 | :---- | :---- | :---- | :---- |
-|2023-09-21 12:44:27|[Elkeid](https://github.com/bytedance/Elkeid)|rasp-v2<br>.2.0.9-t<br>est||
+|2023-09-22 09:29:27|[naabu](https://github.com/projectdiscovery/naabu)|v2.1.8|    ## What's Changed  ### Other Chan<br>ges  * Fixed issue with printing hostn<br>ame in passive mode by @dogancanbakir <br>in https://github.com/projectdiscovery<br>/naabu/pull/788      **Full Changelog*<br>*: https://github.com/projectdiscovery<br>/naabu/compare/v2.1.7...v2.1.8|
+|2023-09-22 07:45:22|[Elkeid](https://github.com/bytedance/Elkeid)|rasp-v2<br>.2.1.3|based on rasp-v2.2.0.3 tag  add Java <br>version check|
 |2023-09-21 11:20:59|[safeline](https://github.com/chaitin/safeline)|v3.5.0|### 新增    - 人机验证新增每个规则的 <br>“今日验证情况”，方便判断规则配置的效<br>果：    ### 优化    - 站点列表新增 “资<br>源数”，方便判断判断资源管理情况  - 优<br>化 攻击事件->原始日志 默认的筛选条件（<br>）  - 修复自动采集的站点 favicon 有时候<br>显示不出来的问题（）  - 修复自动采集的<br>站点标题有时候显示成乱码的问题  - 修复<br>站点详情的 “今日请求总量” 有时候不显<br>示最新值的问题  - 优化一些界面样式交互<br>细节|
 |2023-09-20 21:10:07|[grype](https://github.com/anchore/grype)|v0.69.0|### Added Features  - Upgrade syft to<br> v0.91.0 (and CycloneDX to v1.5)  @wag<br>oodman]  ### Bug Fixes  - Grype doesn'<br>t exit cleanly on error   @kzantow]  #<br>## Additional Changes  - Fix typo in f<br>lag on Readme  @robszumski] - pin cach<br>e versions  @spiffcs]  ****  |
 |2023-09-20 19:45:40|[syft](https://github.com/anchore/syft)|v0.91.0|### Added Features    - Add support f<br>or CycloneDX 1.5   @spiffcs]  - Add su<br>pport for containerd as an image sourc<br>e   @shanedell]  - Support cataloging <br>github workflow & github action usages<br>   @wagoodman]    ### Bug Fixes    - A<br>llow CycloneDX json input with no comp<br>onents  @ahoz]  - Prevent errors from <br>clobbering terminal  @kzantow]  - Usin<br>g syft as a go library to decode a syf<br>t json has incomplete data   @kzantow]<br>  - SBOMs are not the same on multiple<br> runs of syft ]    ### Additional Chan<br>ges    - Switch to stdlib's slices pkg<br>  @hainenber]  - Remove unneeded arch <br>switch in unit test  @willmurphyscode]<br>  - Update chronicle to v0.8.0  @wagoo<br>dman]  - Update to latest stereoscope <br> @spiffcs]  - Pin workflow checkout fo<br>r cpe update-cpe-dictionary-index  @sp<br>iffcs]  - Add dependency information t<br>o conan lockfile parser  @Pro]  - Pin <br>and update all workflow dependencies; <br>add permission scopes  @spiffcs]  - En<br>force race detector  @willmurphyscode]<br>    ****    |
@@ -30,26 +31,28 @@
 ## 近15天commit提交记录
 | 提交时间 | 项目名称 | 更新内容 |
 | :---- | :---- | :---- |
-|2023-09-22 00:00:25|[free](https://github.com/freefq/free)|updated_at 09-22 08:00|
-|2023-09-21 23:29:33|[PocOrExp_in_Githu<br>b](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-09-22 07:29:33|
-|2023-09-21 23:20:16|[beef](https://github.com/beefproject/beef)|Merge remote-tracking branch 'remotes/origin/depend<br>abot/bundler/rubocop-1.56.3'|
-|2023-09-21 18:27:20|[vulhub](https://github.com/vulhub/vulhub)|add Imagemagick tricks|
-|2023-09-21 17:55:06|[neuvector](https://github.com/neuvector/neuvector)|Merge pull request #1017 from alopez-suse/main  NVH<br>SAS-8302: fix manifest scan error for unsigned image<br>s|
+|2023-09-23 00:00:05|[free](https://github.com/freefq/free)|updated_at 09-23 08:00|
+|2023-09-22 23:30:32|[PocOrExp_in_Githu<br>b](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-09-23 07:30:32|
+|2023-09-22 23:09:48|[neuvector](https://github.com/neuvector/neuvector)|Merge pull request #1019 from alopez-suse/main  NVS<br>HAS-7704: show all deny rule violations during confi<br>guration assessment|
+|2023-09-22 17:34:47|[grype](https://github.com/anchore/grype)|chore(deps): bump github.com/spf13/afero from 1.9.5<br> to 1.10.0 (#1514)  Bumps  from 1.9.5 to 1.10.0.  - <br>  -     ---  updated-dependencies:  - dependency-nam<br>e: github.com/spf13/afero    dependency-type: direct<br>:production    update-type: version-update:semver-mi<br>nor  ...    Signed-off-by: dependabot[bot]   Co-auth<br>ored-by: dependabot[bot] |
+|2023-09-22 15:17:08|[vulhub](https://github.com/vulhub/vulhub)|Merge pull request #463 from vulhub/librsvg-cve-202<br>3-38633  added librsvg CVE-2023-38633|
+|2023-09-22 12:35:21|[v2rayfree](https://github.com/aiboboxx/v2rayfree)|update|
+|2023-09-22 10:44:39|[trivy](https://github.com/aquasecurity/trivy)|refactor: use defined types (#5225)  * refactor: re<br>place string with defined types  Signed-off-by: knqy<br>f263   * chore: add gci  Signed-off-by: knqyf263   *<br> fix(purl): not confuse trivy type with purl type  S<br>igned-off-by: knqyf263   * test: fix cyclonedx fixtu<br>re  Signed-off-by: knqyf263   * fix(template): cast <br>TargetType to string  Signed-off-by: knqyf263   * ch<br>ore: bump TinyGo to v0.29.0  Signed-off-by: knqyf263<br>   * test: change license to licence  Signed-off-by:<br> knqyf263   * use analyzer.TypeGoMod for gomod analy<br>zer  * ignore licence for misspell linter  ---------<br>  Signed-off-by: knqyf263  Co-authored-by: DmitriyLe<br>wen |
+|2023-09-22 10:30:38|[safeline](https://github.com/chaitin/safeline)|Update 2bug-report.yaml  复现方式改为必填|
+|2023-09-22 09:22:12|[naabu](https://github.com/projectdiscovery/naabu)|Merge branch 'dev'|
+|2023-09-22 06:48:26|[0_zone_tool](https://github.com/wkend/0_zone_tool)|Update README.md|
+|2023-09-22 06:48:11|[arthas](https://github.com/alibaba/arthas)|add arthas-grpc-web-proxy module (#2668)|
+|2023-09-22 01:39:04|[beef](https://github.com/beefproject/beef)|Merge pull request #2929 from beefproject/dependabo<br>t/bundler/sqlite3-1.6.6  Bump sqlite3 from 1.6.1 to <br>1.6.6|
 |2023-09-21 13:40:58|[dbeaver](https://github.com/dbeaver/dbeaver)|Revert "dbeaver/dbeaver#20522 Remove Entries per pa<br>ge setting for QM (#21131)" (#21264)  This reverts c<br>ommit 9f0b24a88eea958e11867bae80d3e883e60af8aa.|
-|2023-09-21 12:36:48|[v2rayfree](https://github.com/aiboboxx/v2rayfree)|update|
 |2023-09-21 12:04:28|[Elkeid](https://github.com/bytedance/Elkeid)|Merge pull request #538 from bytedance/fix-python-s<br>taticmethod  fix python staticmethod|
 |2023-09-21 11:57:48|[FreeRDP](https://github.com/FreeRDP/FreeRDP)|open 3.0.0-dev5 cycle|
 |2023-09-21 11:06:04|[rustdesk](https://github.com/rustdesk/rustdesk)|Update README.md|
-|2023-09-21 10:19:36|[safeline](https://github.com/chaitin/safeline)|feat: release v3.5.0|
 |2023-09-21 09:41:13|[afrog](https://github.com/zan8in/afrog)|update poc|
 |2023-09-21 05:07:54|[impacket](https://github.com/fortra/impacket)|Updated the help information for -outputfile to be <br>consistent with -save with it enabling -request (if <br>previously omitted). (#1607)|
-|2023-09-21 02:31:16|[arthas](https://github.com/alibaba/arthas)|Polishing #2663 (#2672)|
 |2023-09-20 21:39:30|[RsaCtfTool](https://github.com/RsaCtfTool/RsaCtfTool)|Update number_theory.py|
-|2023-09-20 20:39:49|[grype](https://github.com/anchore/grype)|chore(deps): bump tibdex/github-app-token from 2.0.<br>0 to 2.1.0 (#1506)  Bumps  from 2.0.0 to 2.1.0.  -  <br> -     ---  updated-dependencies:  - dependency-name<br>: tibdex/github-app-token    dependency-type: direct<br>:production    update-type: version-update:semver-mi<br>nor  ...    Signed-off-by: dependabot[bot]   Co-auth<br>ored-by: dependabot[bot] |
 |2023-09-20 20:18:44|[syft](https://github.com/anchore/syft)|Correcting behavior based on Syft release v0.91.0 r<br>un (#2162)  * dont show the title in the release not<br>es    Signed-off-by: Alex Goodman     * dont upload <br>assets on the release pipeline    Signed-off-by: Ale<br>x Goodman     * bump action-slack action to v3.15.1 <br>   Signed-off-by: Alex Goodman     * remove custom g<br>o mod and build cache    Signed-off-by: Alex Goodman<br>     ---------    Signed-off-by: Alex Goodman |
 |2023-09-20 15:47:23|[nuclei](https://github.com/projectdiscovery/nuclei)|added docs for env variable to optional disable upd<br>ate sources|
 |2023-09-20 14:41:31|[faker](https://github.com/joke2k/faker)|Bump version: 19.6.1 → 19.6.2|
-|2023-09-20 14:19:21|[trivy](https://github.com/aquasecurity/trivy)|fix(purl): skip local Go packages (#5190)  * fix(pu<br>rl): trim a final slash  * fix(purl): skip local Go <br>packages  * fix(purl): a few improvements|
 |2023-09-20 10:22:05|[ffuf](https://github.com/ffuf/ffuf)|Fix autocalibration-strategy merging, add tests (#7<br>32)|
 |2023-09-20 07:18:50|[frp](https://github.com/fatedier/frp)|code optimization (#3625)|
 |2023-09-20 03:16:23|[vulnerability](https://github.com/lal0ne/vulnerability)|CVE-2023-36319|
@@ -63,7 +66,6 @@
 |2023-09-18 15:12:06|[mysql-fake-server](https://github.com/4ra1n/mysql-fake-server)|change log|
 |2023-09-18 12:53:55|[ObserverWard](https://github.com/0x727/ObserverWard)|update|
 |2023-09-18 07:40:58|[Awesome-Redteam](https://github.com/Threekiii/Awesome-Redteam)|更新README.md|
-|2023-09-18 06:56:15|[0_zone_tool](https://github.com/wkend/0_zone_tool)|Update README.md|
 |2023-09-18 03:32:12|[404StarLink](https://github.com/knownsec/404StarLink)|weekly update at 2023-09-18|
 |2023-09-17 13:47:48|[DecoyMini](https://github.com/decoymini/DecoyMini)|Update README.md|
 |2023-09-17 08:40:13|[mitaka](https://github.com/ninoseki/mitaka)|Merge pull request #758 from ninoseki/v1.3.3  v1.3.<br>3|
@@ -91,9 +93,7 @@
 |2023-09-10 08:12:57|[knife](https://github.com/bit4woo/knife)|Update FindUrlAndRequest.java|
 |2023-09-09 14:01:45|[URLFinder](https://github.com/pingc0y/URLFinder)|2023/9/9更新|
 |2023-09-09 10:35:10|[Komo](https://github.com/komomon/Komo)|Update requirement.txt|
-|2023-09-09 05:14:34|[all-in-one-v2](https://github.com/zaivanza/all-in-one-v2)|add zora, linea, base to merkly|
-|2023-09-07 12:55:07|[java-impacket-gui](https://github.com/Suq3rm4n/java-impacket-gui)|Update Impacketexec.fxml  密码传递的tab出现不适配问<br>题修复|
-|2023-09-07 09:03:01|[sqlmap](https://github.com/sqlmapproject/sqlmap)|Fixes #5521|## 所有项目
+|2023-09-09 05:14:34|[all-in-one-v2](https://github.com/zaivanza/all-in-one-v2)|add zora, linea, base to merkly|## 所有项目
 # 渗透测试
 ## 信息收集
 ### 资产测绘采集
@@ -162,7 +162,7 @@
 | [webfinder-next](https://github.com/Liqunkit/webfinder-next) |  | 对小米范webfinder http://www.cnblogs.com/SEC-fsq/p/5610981.htm<br>l 进行了小修改 |
 | [yujianportscan](https://github.com/foryujian/yujianportscan) |  | 一个基于VB.NET + IOCP模型开发的高效端口扫描工具，支持IP区间合<br>并，端口区间合并，端口指纹深度探测 |
 | [TXPortMap](https://github.com/4dogs-cn/TXPortMap) | v1.1.2 | Port Scanner & Banner Identify From TianXiang |
-| [naabu](https://github.com/projectdiscovery/naabu) | v2.1.7 | A fast port scanner written in go with a focus on reliability <br>and simplicity. Designed to be used in combination with other t<br>ools for attack surface discovery in bug bounties and pentests |
+| [naabu](https://github.com/projectdiscovery/naabu) | v2.1.8 | A fast port scanner written in go with a focus on reliability <br>and simplicity. Designed to be used in combination with other t<br>ools for attack surface discovery in bug bounties and pentests |
 | [scaninfo](https://github.com/redtoolskobe/scaninfo) | v1.1.0 | fast scan for redtools |
 | [portscan](https://github.com/20142995/portscan) |  |  |
 ### 综合
@@ -1266,7 +1266,7 @@
 ## 主机入侵检测
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
-| [Elkeid](https://github.com/bytedance/Elkeid) | rasp-v2<br>.2.0.9-t<br>est | Elkeid is an open source solution that can meet the security r<br>equirements of various workloads such as hosts, containers and <br>K8s, and serverless. It is derived from ByteDance's internal be<br>st practices. |
+| [Elkeid](https://github.com/bytedance/Elkeid) | rasp-v2<br>.2.1.3 | Elkeid is an open source solution that can meet the security r<br>equirements of various workloads such as hosts, containers and <br>K8s, and serverless. It is derived from ByteDance's internal be<br>st practices. |
 | [Hades](https://github.com/theSecHunter/Hades) |  | Hades is an cross-platform HIDS with kernel-space data collect<br>ion. |
 ## Web应用防火墙
 | 项目名称 | 版本 | 项目描述 |

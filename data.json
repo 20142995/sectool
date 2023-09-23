@@ -200,8 +200,8 @@
     "https://github.com/ycdxsb/PocOrExp_in_Github": {
         "created_at": "2021-04-13 05:46:16",
         "description": "聚合Github上已有的Poc或者Exp，CVE信息来自CVE官网。Auto Collect Poc Or Exp from Github by CVE ID.",
-        "commit_date": "2023-09-21 23:29:33",
-        "commit_message": "update 2023-09-22 07:29:33",
+        "commit_date": "2023-09-22 23:30:32",
+        "commit_message": "update 2023-09-23 07:30:32",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -3300,9 +3300,9 @@
         "description": "Elkeid is an open source solution that can meet the security requirements of various workloads such as hosts, containers and K8s, and serverless. It is derived from ByteDance's internal best practices.",
         "commit_date": "2023-09-21 12:04:28",
         "commit_message": "Merge pull request #538 from bytedance/fix-python-staticmethod\n\nfix python staticmethod",
-        "release_tag": "rasp-v2.2.0.9-test",
-        "release_date": "2023-09-21 12:44:27",
-        "release_message": ""
+        "release_tag": "rasp-v2.2.1.3",
+        "release_date": "2023-09-22 07:45:22",
+        "release_message": "based on rasp-v2.2.0.3 tag\r\nadd Java version check"
     },
     "https://github.com/knownsec/ct": {
         "created_at": "2021-11-30 09:09:30",
@@ -3505,11 +3505,11 @@
     "https://github.com/projectdiscovery/naabu": {
         "created_at": "2020-01-21 10:56:32",
         "description": "A fast port scanner written in go with a focus on reliability and simplicity. Designed to be used in combination with other tools for attack surface discovery in bug bounties and pentests",
-        "commit_date": "2023-08-19 08:36:56",
+        "commit_date": "2023-09-22 09:22:12",
         "commit_message": "Merge branch 'dev'",
-        "release_tag": "v2.1.7",
-        "release_date": "2023-08-19 08:45:57",
-        "release_message": "<!-- Release notes generated using configuration in .github/release.yml at main -->\r\n\r\n## What's Changed\r\n### 🎉 New Features\r\n\r\n* Added support for `[host|ip]:port` format input by @Mzack9999 in https://github.com/projectdiscovery/naabu/pull/767\r\n```console\r\necho google.com:443 | ./naabu -silent\r\necho 142.250.183.174:443 | ./naabu -silent\r\necho 142.250.183.174:443 | ./naabu -silent -p 80\r\n```\r\n\r\n### 🔨 Maintenance\r\n* Added more test coverage by @Mzack9999 in https://github.com/projectdiscovery/naabu/pull/708\r\n* Added arm64 on linux goreleaser by @Mzack9999 in https://github.com/projectdiscovery/naabu/pull/716\r\n* Added `ValidateOptions` method for use as go library by @Y4er in https://github.com/projectdiscovery/naabu/pull/762\r\n* Updated JSONL representation of `port` and `protocol` by @kimtruth in https://github.com/projectdiscovery/naabu/pull/729\r\n* Removed sudo in brew install by @sttlr in https://github.com/projectdiscovery/naabu/pull/742\r\n\r\n### Other Changes\r\n* Fixed issue with `-ec` option to exclude WAF by @JoshuaMart in https://github.com/projectdiscovery/naabu/pull/749\r\n* Added open ports to scan result on privileged by @RamanaReddy0M in https://github.com/projectdiscovery/naabu/pull/638\r\n\r\nIssues closed in this release - https://github.com/projectdiscovery/naabu/milestone/8?closed=1\r\n\r\n## New Contributors\r\n* @kimtruth made their first contribution in https://github.com/projectdiscovery/naabu/pull/729\r\n* @sttlr made their first contribution in https://github.com/projectdiscovery/naabu/pull/742\r\n* @Y4er made their first contribution in https://github.com/projectdiscovery/naabu/pull/762\r\n* @JoshuaMart made their first contribution in https://github.com/projectdiscovery/naabu/pull/749\r\n\r\n**Full Changelog**: https://github.com/projectdiscovery/naabu/compare/v2.1.6...v2.1.7\r\n"
+        "release_tag": "v2.1.8",
+        "release_date": "2023-09-22 09:29:27",
+        "release_message": "<!-- Release notes generated using configuration in .github/release.yml at main -->\r\n\r\n## What's Changed\r\n### Other Changes\r\n* Fixed issue with printing hostname in passive mode by @dogancanbakir in https://github.com/projectdiscovery/naabu/pull/788\r\n\r\n\r\n**Full Changelog**: https://github.com/projectdiscovery/naabu/compare/v2.1.7...v2.1.8"
     },
     "https://github.com/Threekiii/Awesome-Exploit": {
         "created_at": "2022-04-22 02:08:08",
@@ -3890,8 +3890,8 @@
     "https://github.com/neuvector/neuvector": {
         "created_at": "2021-12-17 20:15:03",
         "description": "",
-        "commit_date": "2023-09-21 17:55:06",
-        "commit_message": "Merge pull request #1017 from alopez-suse/main\n\nNVHSAS-8302: fix manifest scan error for unsigned images",
+        "commit_date": "2023-09-22 23:09:48",
+        "commit_message": "Merge pull request #1019 from alopez-suse/main\n\nNVSHAS-7704: show all deny rule violations during configuration assessment",
         "release_tag": "v5.2.1",
         "release_date": "2023-08-22 23:29:15",
         "release_message": "Features\r\nNVSHAS-7449: Report layered scan result to syslog\r\nNVSHAS-6974: Export NIST compliance report\r\nNVSHAS-8157: Handle Proxy setting in image signature verification\r\nNVSHAS-8034: Include image signature result in the downloaded CVE report\r\nNVSHAS-7483: Pod annotations for Admission Control Policies\r\n\r\nBug fixes\r\nNVSHAS-8200: Do not create default admin with default password in NV fresh deployment for AWS billing offering\r\nNVSHAS-8172: .json file increased size and crashed a kubernetes node\r\nNVSHAS-7963: Improve SQL injection detection logics\r\nNVSHAS-8128: when install helm crd chart first before insatlling core chart, service accounts are missing\r\nNVSHAS-8106: Image scan I.4.1 compliance result is incorrect\r\nNVSHAS-8050: Vulnerability advance filter report showing images from all other namespace"
@@ -3917,8 +3917,8 @@
     "https://github.com/chaitin/safeline": {
         "created_at": "2023-04-12 11:30:14",
         "description": "一款足够简单、足够好用、足够强的免费 WAF。基于业界领先的语义引擎检测技术，作为反向代理接入，保护你的网站不受黑客攻击。",
-        "commit_date": "2023-09-21 10:19:36",
-        "commit_message": "feat: release v3.5.0",
+        "commit_date": "2023-09-22 10:30:38",
+        "commit_message": "Update 2bug-report.yaml\n\n复现方式改为必填",
         "release_tag": "v3.5.0",
         "release_date": "2023-09-21 11:20:59",
         "release_message": "### 新增\r\n\r\n- 人机验证新增每个规则的 “今日验证情况”，方便判断规则配置的效果：\r\n\r\n### 优化\r\n\r\n- 站点列表新增 “资源数”，方便判断判断资源管理情况\r\n- 优化 攻击事件->原始日志 默认的筛选条件（[#288](https://github.com/chaitin/SafeLine/issues/288)）\r\n- 修复自动采集的站点 favicon 有时候显示不出来的问题（[#316](https://github.com/chaitin/SafeLine/issues/316)）\r\n- 修复自动采集的站点标题有时候显示成乱码的问题\r\n- 修复站点详情的 “今日请求总量” 有时候不显示最新值的问题\r\n- 优化一些界面样式交互细节"
@@ -3971,8 +3971,8 @@
     "https://github.com/aquasecurity/trivy": {
         "created_at": "2019-04-11 01:01:07",
         "description": "Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more",
-        "commit_date": "2023-09-20 14:19:21",
-        "commit_message": "fix(purl): skip local Go packages (#5190)\n\n* fix(purl): trim a final slash\n\n* fix(purl): skip local Go packages\n\n* fix(purl): a few improvements",
+        "commit_date": "2023-09-22 10:44:39",
+        "commit_message": "refactor: use defined types (#5225)\n\n* refactor: replace string with defined types\n\nSigned-off-by: knqyf263 <knqyf263@gmail.com>\n\n* chore: add gci\n\nSigned-off-by: knqyf263 <knqyf263@gmail.com>\n\n* fix(purl): not confuse trivy type with purl type\n\nSigned-off-by: knqyf263 <knqyf263@gmail.com>\n\n* test: fix cyclonedx fixture\n\nSigned-off-by: knqyf263 <knqyf263@gmail.com>\n\n* fix(template): cast TargetType to string\n\nSigned-off-by: knqyf263 <knqyf263@gmail.com>\n\n* chore: bump TinyGo to v0.29.0\n\nSigned-off-by: knqyf263 <knqyf263@gmail.com>\n\n* test: change license to licence\n\nSigned-off-by: knqyf263 <knqyf263@gmail.com>\n\n* use `analyzer.TypeGoMod` for gomod analyzer\n\n* ignore `licence` for misspell linter\n\n---------\n\nSigned-off-by: knqyf263 <knqyf263@gmail.com>\nCo-authored-by: DmitriyLewen <dmitriy.lewen@smartforce.io>",
         "release_tag": "v0.45.1",
         "release_date": "2023-09-16 07:29:33",
         "release_message": "## Changelog\n* daae88287 fix(purl): handle rust types (#5186)\n* 81240cf08 chore: auto-close issues (#5177)\n* bd0accd8a chore(deps): bump github.com/spf13/viper from 1.15.0 to 1.16.0 (#5093)\n* ecee79403 fix(k8s): kbom support addons labels (#5178)\n* 9ebc25d88 test: validate SPDX with the JSON schema (#5124)\n* 9a49a3773 chore: bump trivy-kubernetes-latest (#5161)\n* ad1dc6327 docs: add 'Signature Verification' guide (#4731)\n* 7c68d4a7e docs: add image-scanner-with-trivy for ecosystem (#5159)\n* ed49609a7 fix(fs): assign the absolute path to be inspected to ROOTPATH when filesystem (#5158)\n* 19539722e chore(deps): bump github.com/CycloneDX/cyclonedx-go (#5102)\n* c7516011b Update filtering.md (#5131)\n* ccc6d7cb2 chore(deps): bump sigstore/cosign-installer (#5104)\n* 48cbf4553 chore(deps): bump github.com/cyphar/filepath-securejoin (#5143)\n* a9c2c74c5 chore(deps): bump golangci/golangci-lint-action from 3.6.0 to 3.7.0 (#5103)\n* 120ac68b5 chore(deps): bump easimon/maximize-build-space from 7 to 8 (#5105)\n* 41eaa78ae chore(deps): bump github.com/aws/aws-sdk-go from 1.44.273 to 1.45.3 (#5126)\n* 932f92755 chaging adopters discussion tempalte (#5091)\n* db3133346 chore(deps): bump github.com/cheggaaa/pb/v3 from 3.1.2 to 3.1.4 (#5092)\n* 8c0b7d619 chore(deps): bump github.com/hashicorp/golang-lru/v2 from 2.0.2 to 2.0.6 (#5094)\n* c61c664c3 chore(deps): bump github.com/aws/aws-sdk-go-v2/config (#5095)\n* a99944c1c chore(deps): bump github.com/containerd/containerd from 1.7.3 to 1.7.5 (#5097)\n* 9fc844ecf chore(deps): bump github.com/Azure/azure-sdk-for-go/sdk/azidentity (#5098)\n* c504f8be4 chore(deps): bump actions/checkout from 3.5.3 to 3.6.0 (#5106)\n\n"
@@ -3980,8 +3980,8 @@
     "https://github.com/anchore/grype": {
         "created_at": "2020-05-26 13:44:38",
         "description": "A vulnerability scanner for container images and filesystems",
-        "commit_date": "2023-09-20 20:39:49",
-        "commit_message": "chore(deps): bump tibdex/github-app-token from 2.0.0 to 2.1.0 (#1506)\n\nBumps [tibdex/github-app-token](https://github.com/tibdex/github-app-token) from 2.0.0 to 2.1.0.\r\n- [Release notes](https://github.com/tibdex/github-app-token/releases)\r\n- [Commits](https://github.com/tibdex/github-app-token/compare/0914d50df753bbc42180d982a6550f195390069f...3beb63f4bd073e61482598c45c71c1019b59b73a)\r\n\r\n---\r\nupdated-dependencies:\r\n- dependency-name: tibdex/github-app-token\r\n  dependency-type: direct:production\r\n  update-type: version-update:semver-minor\r\n...\r\n\r\nSigned-off-by: dependabot[bot] <support@github.com>\r\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
+        "commit_date": "2023-09-22 17:34:47",
+        "commit_message": "chore(deps): bump github.com/spf13/afero from 1.9.5 to 1.10.0 (#1514)\n\nBumps [github.com/spf13/afero](https://github.com/spf13/afero) from 1.9.5 to 1.10.0.\r\n- [Release notes](https://github.com/spf13/afero/releases)\r\n- [Commits](https://github.com/spf13/afero/compare/v1.9.5...v1.10.0)\r\n\r\n---\r\nupdated-dependencies:\r\n- dependency-name: github.com/spf13/afero\r\n  dependency-type: direct:production\r\n  update-type: version-update:semver-minor\r\n...\r\n\r\nSigned-off-by: dependabot[bot] <support@github.com>\r\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
         "release_tag": "v0.69.0",
         "release_date": "2023-09-20 21:10:07",
         "release_message": "### Added Features\n\n- Upgrade syft to v0.91.0 (and CycloneDX to v1.5) [[#1508](https://github.com/anchore/grype/pull/1508) @wagoodman]\n\n### Bug Fixes\n\n- Grype doesn't exit cleanly on error [[#1492](https://github.com/anchore/grype/issues/1492) [#1505](https://github.com/anchore/grype/pull/1505) @kzantow]\n\n### Additional Changes\n\n- Fix typo in flag on Readme [[#1501](https://github.com/anchore/grype/pull/1501) @robszumski]\n- pin cache versions [[#1495](https://github.com/anchore/grype/pull/1495) @spiffcs]\n\n**[(Full Changelog)](https://github.com/anchore/grype/compare/v0.68.1...v0.69.0)**\n\n"
@@ -4124,7 +4124,7 @@
     "https://github.com/wkend/0_zone_tool": {
         "created_at": "2023-03-01 17:59:57",
         "description": "零零信安api信息系统查询脚本",
-        "commit_date": "2023-09-18 06:56:15",
+        "commit_date": "2023-09-22 06:48:26",
         "commit_message": "Update README.md",
         "release_tag": "",
         "release_date": "",
@@ -4169,8 +4169,8 @@
     "https://github.com/vulhub/vulhub": {
         "created_at": "2017-04-09 10:13:13",
         "description": "Pre-Built Vulnerable Environments Based on Docker-Compose",
-        "commit_date": "2023-09-21 18:27:20",
-        "commit_message": "add Imagemagick tricks",
+        "commit_date": "2023-09-22 15:17:08",
+        "commit_message": "Merge pull request #463 from vulhub/librsvg-cve-2023-38633\n\nadded librsvg CVE-2023-38633",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -4277,7 +4277,7 @@
     "https://github.com/aiboboxx/v2rayfree": {
         "created_at": "2021-10-13 11:34:53",
         "description": "v2ray节点、免费节点、免费v2ray节点、最新公益免费v2ray节点订阅地址、免费v2ray节点每日更新、免费ss/v2ray/trojan节点、freefq ",
-        "commit_date": "2023-09-21 12:36:48",
+        "commit_date": "2023-09-22 12:35:21",
         "commit_message": "update",
         "release_tag": "",
         "release_date": "",
@@ -4322,8 +4322,8 @@
     "https://github.com/freefq/free": {
         "created_at": "2020-06-07 02:48:33",
         "description": "翻墙、免费翻墙、免费科学上网、免费节点、免费梯子、免费ss/v2ray/trojan节点、蓝灯、谷歌商店、翻墙梯子",
-        "commit_date": "2023-09-22 00:00:25",
-        "commit_message": "updated_at 09-22 08:00",
+        "commit_date": "2023-09-23 00:00:05",
+        "commit_message": "updated_at 09-23 08:00",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -5209,8 +5209,8 @@
     "https://github.com/beefproject/beef": {
         "created_at": "2011-11-23 06:53:25",
         "description": "The Browser Exploitation Framework Project",
-        "commit_date": "2023-09-21 23:20:16",
-        "commit_message": "Merge remote-tracking branch 'remotes/origin/dependabot/bundler/rubocop-1.56.3'",
+        "commit_date": "2023-09-22 01:39:04",
+        "commit_message": "Merge pull request #2929 from beefproject/dependabot/bundler/sqlite3-1.6.6\n\nBump sqlite3 from 1.6.1 to 1.6.6",
         "release_tag": "v0.5.4.0",
         "release_date": "2021-11-25 23:47:24",
         "release_message": "## Bug Fixes\r\n* #2190 -  Maintainability - Improved CI workflow\r\n* #2185 - Could not minify JavaScript file: web_ui_all\r\n## Enchancements\r\n* #2205 - Modules - Apache Tomcat Examples Default Install Exploit\r\n* #2157 -  Maintainability - Implement GitHub Actions and added confirmation step to PRs\r\n* #2190 -  Maintainability - Improved CI workflow: \r\n  * Refactor Rakefile to accommodate Browserstack implementation\r\n  * Installer improvements\r\n  * Test suite performance improvements\r\n* #2199  - Enhancement - Check for update on launch works with beef-xss kali package install\r\n\r\n**Full Changelog**: https://github.com/beefproject/beef/compare/v0.5.3.0...v0.5.4.0"
@@ -5263,8 +5263,8 @@
     "https://github.com/alibaba/arthas": {
         "created_at": "2018-08-29 17:15:57",
         "description": "Alibaba Java Diagnostic Tool Arthas/Alibaba Java诊断利器Arthas",
-        "commit_date": "2023-09-21 02:31:16",
-        "commit_message": "Polishing #2663 (#2672)",
+        "commit_date": "2023-09-22 06:48:11",
+        "commit_message": "add arthas-grpc-web-proxy module (#2668)",
         "release_tag": "arthas-all-3.7.1",
         "release_date": "2023-08-24 12:32:49",
         "release_message": "Issues: https://github.com/alibaba/arthas/milestone/49?closed=1\r\n\r\n* #2620 当 listen 0.0.0.0 时，默认生成随机密码，需要鉴权\r\n\r\n* #2633  修复在线教程，切换到 killercoda feat: update online tutorials, switch to killercoda "
