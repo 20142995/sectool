@@ -1,4 +1,4 @@
-# 更新于 2023-09-23 08:34:24
+# 更新于 2023-09-24 08:38:54
 
 ## 近15天release更新记录
 | 更新时间 | 项目名称 | 版本 | 更新内容 |
@@ -31,23 +31,23 @@
 ## 近15天commit提交记录
 | 提交时间 | 项目名称 | 更新内容 |
 | :---- | :---- | :---- |
-|2023-09-23 00:00:05|[free](https://github.com/freefq/free)|updated_at 09-23 08:00|
-|2023-09-22 23:30:32|[PocOrExp_in_Githu<br>b](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-09-23 07:30:32|
-|2023-09-22 23:09:48|[neuvector](https://github.com/neuvector/neuvector)|Merge pull request #1019 from alopez-suse/main  NVS<br>HAS-7704: show all deny rule violations during confi<br>guration assessment|
+|2023-09-24 00:00:05|[free](https://github.com/freefq/free)|updated_at 09-24 08:00|
+|2023-09-23 21:52:56|[PocOrExp_in_Githu<br>b](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-09-24 05:52:55|
+|2023-09-23 15:45:17|[rustdesk](https://github.com/rustdesk/rustdesk)|Merge pull request #5788 from 21pages/fix  fix file<br> transfer affect codec selection|
+|2023-09-23 12:49:00|[neuvector](https://github.com/neuvector/neuvector)|Merge pull request #1021 from williamlin-suse/main <br> NVSHAS-8311: goroutine crash at scan.GetCosignSigna<br>tureTagFromDigest(…|
+|2023-09-23 12:32:07|[v2rayfree](https://github.com/aiboboxx/v2rayfree)|update|
+|2023-09-23 03:11:10|[beef](https://github.com/beefproject/beef)|Merge remote-tracking branch 'remotes/origin/depend<br>abot/bundler/net-smtp-0.4.0'|
+|2023-09-23 01:20:14|[afrog](https://github.com/zan8in/afrog)|update|
 |2023-09-22 17:34:47|[grype](https://github.com/anchore/grype)|chore(deps): bump github.com/spf13/afero from 1.9.5<br> to 1.10.0 (#1514)  Bumps  from 1.9.5 to 1.10.0.  - <br>  -     ---  updated-dependencies:  - dependency-nam<br>e: github.com/spf13/afero    dependency-type: direct<br>:production    update-type: version-update:semver-mi<br>nor  ...    Signed-off-by: dependabot[bot]   Co-auth<br>ored-by: dependabot[bot] |
 |2023-09-22 15:17:08|[vulhub](https://github.com/vulhub/vulhub)|Merge pull request #463 from vulhub/librsvg-cve-202<br>3-38633  added librsvg CVE-2023-38633|
-|2023-09-22 12:35:21|[v2rayfree](https://github.com/aiboboxx/v2rayfree)|update|
 |2023-09-22 10:44:39|[trivy](https://github.com/aquasecurity/trivy)|refactor: use defined types (#5225)  * refactor: re<br>place string with defined types  Signed-off-by: knqy<br>f263   * chore: add gci  Signed-off-by: knqyf263   *<br> fix(purl): not confuse trivy type with purl type  S<br>igned-off-by: knqyf263   * test: fix cyclonedx fixtu<br>re  Signed-off-by: knqyf263   * fix(template): cast <br>TargetType to string  Signed-off-by: knqyf263   * ch<br>ore: bump TinyGo to v0.29.0  Signed-off-by: knqyf263<br>   * test: change license to licence  Signed-off-by:<br> knqyf263   * use analyzer.TypeGoMod for gomod analy<br>zer  * ignore licence for misspell linter  ---------<br>  Signed-off-by: knqyf263  Co-authored-by: DmitriyLe<br>wen |
 |2023-09-22 10:30:38|[safeline](https://github.com/chaitin/safeline)|Update 2bug-report.yaml  复现方式改为必填|
 |2023-09-22 09:22:12|[naabu](https://github.com/projectdiscovery/naabu)|Merge branch 'dev'|
 |2023-09-22 06:48:26|[0_zone_tool](https://github.com/wkend/0_zone_tool)|Update README.md|
 |2023-09-22 06:48:11|[arthas](https://github.com/alibaba/arthas)|add arthas-grpc-web-proxy module (#2668)|
-|2023-09-22 01:39:04|[beef](https://github.com/beefproject/beef)|Merge pull request #2929 from beefproject/dependabo<br>t/bundler/sqlite3-1.6.6  Bump sqlite3 from 1.6.1 to <br>1.6.6|
 |2023-09-21 13:40:58|[dbeaver](https://github.com/dbeaver/dbeaver)|Revert "dbeaver/dbeaver#20522 Remove Entries per pa<br>ge setting for QM (#21131)" (#21264)  This reverts c<br>ommit 9f0b24a88eea958e11867bae80d3e883e60af8aa.|
 |2023-09-21 12:04:28|[Elkeid](https://github.com/bytedance/Elkeid)|Merge pull request #538 from bytedance/fix-python-s<br>taticmethod  fix python staticmethod|
 |2023-09-21 11:57:48|[FreeRDP](https://github.com/FreeRDP/FreeRDP)|open 3.0.0-dev5 cycle|
-|2023-09-21 11:06:04|[rustdesk](https://github.com/rustdesk/rustdesk)|Update README.md|
-|2023-09-21 09:41:13|[afrog](https://github.com/zan8in/afrog)|update poc|
 |2023-09-21 05:07:54|[impacket](https://github.com/fortra/impacket)|Updated the help information for -outputfile to be <br>consistent with -save with it enabling -request (if <br>previously omitted). (#1607)|
 |2023-09-20 21:39:30|[RsaCtfTool](https://github.com/RsaCtfTool/RsaCtfTool)|Update number_theory.py|
 |2023-09-20 20:18:44|[syft](https://github.com/anchore/syft)|Correcting behavior based on Syft release v0.91.0 r<br>un (#2162)  * dont show the title in the release not<br>es    Signed-off-by: Alex Goodman     * dont upload <br>assets on the release pipeline    Signed-off-by: Ale<br>x Goodman     * bump action-slack action to v3.15.1 <br>   Signed-off-by: Alex Goodman     * remove custom g<br>o mod and build cache    Signed-off-by: Alex Goodman<br>     ---------    Signed-off-by: Alex Goodman |
