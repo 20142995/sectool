@@ -200,8 +200,8 @@
     "https://github.com/ycdxsb/PocOrExp_in_Github": {
         "created_at": "2021-04-13 05:46:16",
         "description": "聚合Github上已有的Poc或者Exp，CVE信息来自CVE官网。Auto Collect Poc Or Exp from Github by CVE ID.",
-        "commit_date": "2023-09-23 21:52:56",
-        "commit_message": "update 2023-09-24 05:52:55",
+        "commit_date": "2023-09-25 00:05:48",
+        "commit_message": "update 2023-09-25 08:05:48",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -1368,8 +1368,8 @@
     "https://github.com/knownsec/ZoomEye-python": {
         "created_at": "2016-05-20 03:45:25",
         "description": "ZoomEye-python: The official Python library and CLI by Knownsec 404 Team.",
-        "commit_date": "2023-04-12 07:44:49",
-        "commit_message": "Merge pull request #87 from knownsec/dev\n\nupdate():remove username and password authenticate method",
+        "commit_date": "2023-09-24 05:33:31",
+        "commit_message": "Update cli.py\n\nfix bug",
         "release_tag": "v2.2.0",
         "release_date": "2023-04-12 08:22:22",
         "release_message": "### update\r\n - remove username and password authenticate method, only support API-KEY authenticate.\r\n\r\n### 更新\r\n - 移除用户名和密码的认证方式，仅支持 API- KEY 认证。"
@@ -2372,11 +2372,11 @@
     "https://github.com/FunnyWolf/Viper": {
         "created_at": "2020-05-29 12:53:42",
         "description": "Redteam operation  platform with webui 图形化红队行动辅助平台",
-        "commit_date": "2023-09-14 12:44:43",
-        "commit_message": "update version",
-        "release_tag": "20230914195943",
-        "release_date": "2023-09-14 12:46:17",
-        "release_message": "### 优化\r\n- 清理不必要的日志打印\r\n- 合并metasploit-framework 6.3.34版本\r\n- 增加后台服务监控日志\r\n- 渗透服务使用多线程模式,解决Session操作执行超时导致其他任务无法进行\r\n\r\n### Bugfix\r\n- fix Python Meterpreter断线后无法重连问题\r\n- fix https://github.com/FunnyWolf/Viper/issues/145"
+        "commit_date": "2023-09-24 12:40:27",
+        "commit_message": "update version 2023-09-24-20-18-56",
+        "release_tag": "2023-09-24-20-18-56",
+        "release_date": "2023-09-24 12:43:39",
+        "release_message": "\r\n### 新功能\r\n- `自动编排`新增`Session定时任务`功能\r\n- 新增`TCPLOG服务器`模块 (作者[xizyy](https://github.com/xizyy))\r\n- 新增`Last日志删除`模块 (作者[xizyy](https://github.com/xizyy))\r\n### 优化\r\n- 前端界面支持OSX的Payload和Handler生成\r\n- Session展示区域支持伸缩(点击右侧按钮扩大缩小)\r\n- 合并metasploit-framework 6.3.35版本\r\n\r\n\r\n### Bugfix\r\n- fix 监听`通信通道`选择Session后不显示问题\r\n- fix https://github.com/FunnyWolf/Viper/issues/177 `内存执行C#可执行文件`模块报错问题\r\n"
     },
     "https://github.com/kost/dvcs-ripper": {
         "created_at": "2012-10-23 04:55:18",
@@ -2951,11 +2951,11 @@
     "https://github.com/dbeaver/dbeaver": {
         "created_at": "2015-10-21 08:26:28",
         "description": "Free universal database tool and SQL client",
-        "commit_date": "2023-09-21 13:40:58",
-        "commit_message": "Revert \"dbeaver/dbeaver#20522 Remove `Entries per page` setting for QM (#21131)\" (#21264)\n\nThis reverts commit 9f0b24a88eea958e11867bae80d3e883e60af8aa.",
-        "release_tag": "23.2.0",
-        "release_date": "2023-09-04 12:23:06",
-        "release_message": "\n            - Changes since 23.1.5:\n                - Data Editor:\n                    - Spatial values rendering was fixed\n                    - Spatial images capture was fixed\n                    - Special characters rendering was improved\n                    - Grouping panel icons were improved\n                - ER Diagrams: saved diagrams now can be opened on another computers\n                - Data transfer: import settings handling was improved\n                - Accessibility:\n                    - Connection dialog now supports screen readers\n                    - Cell value reading was improved\n                    - Ctrl+Shift/Alt+PageDn: vertical tabs switch\n                    - Ctrl+ALT+6: SQL editor and results tab switch\n                    - Ctrl+Shift+Enter now opens ER diagram entities\n                    - Ctrl+Shift+N: new connection dialog open\n                - Database drivers:\n                    - Bigquery: DDL for tables, views and stored procedures was added\n                    - Clickhouse: arrays and structures visualization was fixed\n                    - Greenplum: external tables reading was fixed\n                    - Teradata: issue with the missing templates was fixed\n                - Many minor UI and database issues were resolved\n            "
+        "commit_date": "2023-09-24 19:03:28",
+        "commit_message": "AWT peer inject error handle",
+        "release_tag": "23.2.1",
+        "release_date": "2023-09-24 18:56:49",
+        "release_message": "\n                - SQL Editor:\n                    - Aliases proposals for tables with joins were improved\n                    - SQL console can now be saved as a script\n                    - Enhanced smart completion is enabled (configurable)\n                    - Issue with big string contents (json, xml) edit was resolved\n                    - JSON formatting in the separate editor was fixed\n                    - Ctrl+Alt+6 shortcut was changed to Ctrl+Alt+T\n                    - JSON functions keywords were added to the SQL Assist\n                    - Representation of errors on query execution was fixed\n                - ER Diagrams:\n                    - Crow's foot and Bachman diagram notation styles were added\n                    - Issues with duplicate relations on the diagram was fixed\n                - Data Editor:\n                    - Big content representation end editing was limited to 1MB (configurable)\n                    - User can now add a shortcut for setting row color\n                    - Issue with hiding the wrong column from the context menu was resolved\n                    - Grouping panel now shows actual executed SQL\n                    - Decimal rounding error was fixed\n                - General UI:\n                    - When exporting a project, a warning about replacing an existing project was added (thanks to @MontejoJorge)\n                    - Scroll bars were added on the connection page, and other wizards\n                    - Issue with broken quotes in localization files was resolved\n                - Connectivity:\n                    - Driver download UI was improved: already downloaded driver files are colored in grey\n                    - JDBC drivers maven artifacts resolve was fixed\n                    - The \"Propagate driver properties\" option was added to the driver settings\n                - New drivers:\n                    - JDBCX driver was added (thanks to @zhicwu)\n                - Databases:\n                    - Clickhouse: IPv4 data representation was fixed\n                    - Greenplum: External tables representation was fixe\n                    - MySQL: Unsupported engine types are replaced with the default one\n                    - Oceanbase:\n                        - Views editor was supported\n                        - Routines and procedure parameters read was fixed\n                    - PostgreSQL:\n                        - Foreign tables folder was added\n                        - Enum data types reading performance was enhanced\n                    - Redshift: Backup/Restore tools were deprecated and removed from UI\n                    - Snowflake:\n                        - Driver was updated to 3.13.25\n                        - Materialized views are now supported\n                        - Schema create UI was enhanced was enhanced\n                    Trino: Views DDL support was added\n            "
     },
     "https://github.com/zema1/yarx": {
         "created_at": "2021-11-11 09:43:21",
@@ -3050,7 +3050,7 @@
     "https://github.com/zan8in/afrog": {
         "created_at": "2022-02-24 06:00:32",
         "description": "A Security Tool for Bug Bounty, Pentest and Red Teaming.",
-        "commit_date": "2023-09-23 01:20:14",
+        "commit_date": "2023-09-24 15:02:40",
         "commit_message": "update",
         "release_tag": "v2.8.1",
         "release_date": "2023-09-18 01:19:00",
@@ -3300,9 +3300,9 @@
         "description": "Elkeid is an open source solution that can meet the security requirements of various workloads such as hosts, containers and K8s, and serverless. It is derived from ByteDance's internal best practices.",
         "commit_date": "2023-09-21 12:04:28",
         "commit_message": "Merge pull request #538 from bytedance/fix-python-staticmethod\n\nfix python staticmethod",
-        "release_tag": "rasp-v2.2.1.3",
-        "release_date": "2023-09-22 07:45:22",
-        "release_message": "based on rasp-v2.2.0.3 tag\r\nadd Java version check"
+        "release_tag": "rasp-v2.2.1.3-pre",
+        "release_date": "2023-09-24 03:36:59",
+        "release_message": ""
     },
     "https://github.com/knownsec/ct": {
         "created_at": "2021-11-30 09:09:30",
@@ -3703,8 +3703,8 @@
         "description": "PEASS - Privilege Escalation Awesome Scripts SUITE (with colors)",
         "commit_date": "2023-08-24 17:48:31",
         "commit_message": "Update ProcessInfo.cs",
-        "release_tag": "20230917-ec588706",
-        "release_date": "2023-09-17 04:28:28",
+        "release_tag": "20230924-10138da9",
+        "release_date": "2023-09-24 04:28:39",
         "release_message": ""
     },
     "https://github.com/waderwu/attackRmi": {
@@ -3890,8 +3890,8 @@
     "https://github.com/neuvector/neuvector": {
         "created_at": "2021-12-17 20:15:03",
         "description": "",
-        "commit_date": "2023-09-23 12:49:00",
-        "commit_message": "Merge pull request #1021 from williamlin-suse/main\n\nNVSHAS-8311: goroutine crash at scan.GetCosignSignatureTagFromDigest(…",
+        "commit_date": "2023-09-24 05:48:27",
+        "commit_message": "Merge pull request #1023 from williamlin-suse/main\n\nNVSHAS-8169: Namespace admin should be able to see the namespaces he/…",
         "release_tag": "v5.2.1",
         "release_date": "2023-08-22 23:29:15",
         "release_message": "Features\r\nNVSHAS-7449: Report layered scan result to syslog\r\nNVSHAS-6974: Export NIST compliance report\r\nNVSHAS-8157: Handle Proxy setting in image signature verification\r\nNVSHAS-8034: Include image signature result in the downloaded CVE report\r\nNVSHAS-7483: Pod annotations for Admission Control Policies\r\n\r\nBug fixes\r\nNVSHAS-8200: Do not create default admin with default password in NV fresh deployment for AWS billing offering\r\nNVSHAS-8172: .json file increased size and crashed a kubernetes node\r\nNVSHAS-7963: Improve SQL injection detection logics\r\nNVSHAS-8128: when install helm crd chart first before insatlling core chart, service accounts are missing\r\nNVSHAS-8106: Image scan I.4.1 compliance result is incorrect\r\nNVSHAS-8050: Vulnerability advance filter report showing images from all other namespace"
@@ -3980,8 +3980,8 @@
     "https://github.com/anchore/grype": {
         "created_at": "2020-05-26 13:44:38",
         "description": "A vulnerability scanner for container images and filesystems",
-        "commit_date": "2023-09-22 17:34:47",
-        "commit_message": "chore(deps): bump github.com/spf13/afero from 1.9.5 to 1.10.0 (#1514)\n\nBumps [github.com/spf13/afero](https://github.com/spf13/afero) from 1.9.5 to 1.10.0.\r\n- [Release notes](https://github.com/spf13/afero/releases)\r\n- [Commits](https://github.com/spf13/afero/compare/v1.9.5...v1.10.0)\r\n\r\n---\r\nupdated-dependencies:\r\n- dependency-name: github.com/spf13/afero\r\n  dependency-type: direct:production\r\n  update-type: version-update:semver-minor\r\n...\r\n\r\nSigned-off-by: dependabot[bot] <support@github.com>\r\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
+        "commit_date": "2023-09-24 10:17:55",
+        "commit_message": "chore(deps): update bootstrap tools to latest versions (#1515)\n\nSigned-off-by: GitHub <noreply@github.com>\r\nCo-authored-by: westonsteimel <westonsteimel@users.noreply.github.com>",
         "release_tag": "v0.69.0",
         "release_date": "2023-09-20 21:10:07",
         "release_message": "### Added Features\n\n- Upgrade syft to v0.91.0 (and CycloneDX to v1.5) [[#1508](https://github.com/anchore/grype/pull/1508) @wagoodman]\n\n### Bug Fixes\n\n- Grype doesn't exit cleanly on error [[#1492](https://github.com/anchore/grype/issues/1492) [#1505](https://github.com/anchore/grype/pull/1505) @kzantow]\n\n### Additional Changes\n\n- Fix typo in flag on Readme [[#1501](https://github.com/anchore/grype/pull/1501) @robszumski]\n- pin cache versions [[#1495](https://github.com/anchore/grype/pull/1495) @spiffcs]\n\n**[(Full Changelog)](https://github.com/anchore/grype/compare/v0.68.1...v0.69.0)**\n\n"
@@ -4277,7 +4277,7 @@
     "https://github.com/aiboboxx/v2rayfree": {
         "created_at": "2021-10-13 11:34:53",
         "description": "v2ray节点、免费节点、免费v2ray节点、最新公益免费v2ray节点订阅地址、免费v2ray节点每日更新、免费ss/v2ray/trojan节点、freefq ",
-        "commit_date": "2023-09-23 12:32:07",
+        "commit_date": "2023-09-24 12:32:36",
         "commit_message": "update",
         "release_tag": "",
         "release_date": "",
@@ -4322,8 +4322,8 @@
     "https://github.com/freefq/free": {
         "created_at": "2020-06-07 02:48:33",
         "description": "翻墙、免费翻墙、免费科学上网、免费节点、免费梯子、免费ss/v2ray/trojan节点、蓝灯、谷歌商店、翻墙梯子",
-        "commit_date": "2023-09-24 00:00:05",
-        "commit_message": "updated_at 09-24 08:00",
+        "commit_date": "2023-09-25 00:00:03",
+        "commit_message": "updated_at 09-25 08:00",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -4565,11 +4565,11 @@
     "https://github.com/r0oth3x49/ghauri": {
         "created_at": "2022-10-01 11:21:50",
         "description": "An advanced cross-platform tool that automates the process of detecting and exploiting SQL injection security flaws",
-        "commit_date": "2023-08-27 18:21:43",
-        "commit_message": "updated code quality, added payload for mssql, bumped version 1.2.3",
-        "release_tag": "1.2.4",
-        "release_date": "2023-08-27 18:25:14",
-        "release_message": "## Fixes\r\n - updated code quality\r\n - added payload for data extraction for MSSQL"
+        "commit_date": "2023-09-24 02:45:20",
+        "commit_message": "added multiple fixes such as considering --batch switch on 403 forbidden, csv export data, csv re-dump, invaludURL with --skip-urlencode switch, fixed #90, fixed #92, fixed #96, fixed #100, bumped version 1.2.5",
+        "release_tag": "1.2.5",
+        "release_date": "2023-09-24 02:48:52",
+        "release_message": "Fixes:\r\n - fixed #100 (--batch considering on 403)\r\n - fixed #90 (output of re-dump properly)\r\n - fixed #96 (updated payloads)"
     },
     "https://github.com/dalinvip/Awesome-ChatGPT": {
         "created_at": "2023-02-06 11:57:37",
@@ -4627,9 +4627,9 @@
     },
     "https://github.com/baidu/dperf": {
         "created_at": "2021-12-21 08:02:08",
-        "description": "dperf is a DPDK based 100Gbps network performance and load testing software.",
-        "commit_date": "2023-09-01 14:06:59",
-        "commit_message": "Merge pull request #368 from pengjianzhang/main\n\nmove docs to dperf.org",
+        "description": "dperf is a 100Gbps network load tester.",
+        "commit_date": "2023-09-24 12:02:34",
+        "commit_message": "Merge pull request #373 from pengjianzhang/main\n\nupdate CONTRIBUTING, Copyright, Author",
         "release_tag": "v1.5.0",
         "release_date": "2023-03-10 07:39:07",
         "release_message": "## v1.5.0 - 2023-03-10\r\n### Added\r\n\r\n- udp elephant flow\r\n\r\n    thanks sheva7777\r\n- client_hop\r\n\r\n    thanks hgkiller\r\n- supported Mellanox MT27500 [ConnectX-3]\r\n\r\n    thanks SdotChen\r\n- article: Using dperf to test the performance of DPVS(zh)\r\n\r\n    thanks sheva7777\r\n- article: How to install dperf on ubuntu(zh)\r\n\r\n    thanks digger-yu\r\n- article: Using dperf to test 100Gbps bandwidth(zh)\r\n\r\n    thanks CHRIS123540\r\n- article: DPVS v1.9.2 Performance Tests by dperf\r\n\r\n    thanks ywc689\r\n- article: dperf FAQ(zh)\r\n\r\n### Changed\r\n\r\n- print error numbers with red color\r\n\r\n### Fixed\r\n\r\n- flood with rss l3l4\r\n\r\n    thanks sheva7777\r\n- use unlikeyly to predict condition\r\n\r\n    thanks panzhengyu\r\n- address conflict in configuration file\r\n\r\n    thanks CHRIS123540\r\n- docs/configuration: update payload_size"
@@ -5004,8 +5004,8 @@
     "https://github.com/rustdesk/rustdesk": {
         "created_at": "2020-09-28 15:36:08",
         "description": "An open-source remote desktop, and alternative to TeamViewer.",
-        "commit_date": "2023-09-23 15:45:17",
-        "commit_message": "Merge pull request #5788 from 21pages/fix\n\nfix file transfer affect codec selection",
+        "commit_date": "2023-09-24 12:51:09",
+        "commit_message": "Merge pull request #5798 from 21pages/mobile\n\nmobile still use no scrollable widgets",
         "release_tag": "1.2.2",
         "release_date": "2023-08-22 01:44:36",
         "release_message": "![image](https://github.com/rustdesk/rustdesk/assets/71636191/83754a64-31b8-47f0-8570-da22207759a9)\r\n\r\n> Winget, FDroid, Apple Sillicon, Google Play / App Store update will come soon.\r\n\r\nx86-64: [Windows](https://github.com/rustdesk/rustdesk/releases/download/1.2.2/rustdesk-1.2.2-x86_64.exe) | [Ubuntu](https://github.com/rustdesk/rustdesk/releases/download/1.2.2/rustdesk-1.2.2-x86_64.deb) | [Mac](https://github.com/rustdesk/rustdesk/releases/download/1.2.2/rustdesk-1.2.2-x86_64.dmg)\r\nAArch64 (ARM64):  [Ubuntu](https://github.com/rustdesk/rustdesk/releases/download/1.2.2/rustdesk-1.2.2-aarch64.deb) | [Android](https://github.com/rustdesk/rustdesk/releases/download/1.2.2/rustdesk-1.2.2-aarch64-signed.apk) | [Mac](https://github.com/rustdesk/rustdesk/releases/download/1.2.2/rustdesk-1.2.2-aarch64.dmg)\r\n\r\nMore: [check below please](#)\r\n\r\n<details>\r\n<summary>Changelog</summary>\r\n\r\n- Add separate window mode (tab window by default), https://github.com/rustdesk/rustdesk/discussions/2889\r\n![image](https://github.com/rustdesk/rustdesk/assets/71636191/0c73bc6a-8659-4a67-9425-47625a6aded3)\r\n- Fix and improve responsiveness issue introduced in 1.2.0. https://github.com/rustdesk/rustdesk/discussions/5231\r\n- Add device list batch handle\r\n![image](https://github.com/rustdesk/rustdesk/assets/71636191/0ca85b8e-bed3-48ad-a43f-82df983986f3)\r\n- Add command to assign user and strategy for [RustDesk Server Pro](https://rustdesk.com/docs/en/self-host/pro/)\r\n- Optimize address book, syncing password, alias name, device name etc, add tag color, improve error and update status handling\r\n![image](https://github.com/rustdesk/rustdesk/assets/71636191/21d7a226-b863-4dc2-a9d3-fb6cd3a56c5c)\r\n- Fix windows file copy/paste\r\n- Fix \"waiting for image...\" still shown after receiving image bug, refactored rust->flutter message handling https://github.com/rustdesk/rustdesk/issues/4533\r\n- Improve some touchpad support, https://github.com/rustdesk/rustdesk/pull/5049\r\n- Bug fixes.\r\n\r\n</details>\r\n"
