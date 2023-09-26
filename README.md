@@ -1,12 +1,12 @@
-# 更新于 2023-09-25 08:36:37
+# 更新于 2023-09-26 08:35:15
 
 ## 近15天release更新记录
 | 更新时间 | 项目名称 | 版本 | 更新内容 |
 | :---- | :---- | :---- | :---- |
-|2023-09-24 18:56:49|[dbeaver](https://github.com/dbeaver/dbeaver)|23.2.1|                 - SQL Editor:       <br>              - Aliases proposals for <br>tables with joins were improved       <br>              - SQL console can now be<br> saved as a script                    <br> - Enhanced smart completion is enable<br>d (configurable)                     -<br> Issue with big string contents (json,<br> xml) edit was resolved               <br>      - JSON formatting in the separat<br>e editor was fixed                    <br> - Ctrl+Alt+6 shortcut was changed to <br>Ctrl+Alt+T                     - JSON <br>functions keywords were added to the S<br>QL Assist                     - Repres<br>entation of errors on query execution <br>was fixed                 - ER Diagram<br>s:                     - Crow's foot a<br>nd Bachman diagram notation styles wer<br>e added                     - Issues w<br>ith duplicate relations on the diagram<br> was fixed                 - Data Edit<br>or:                     - Big content <br>representation end editing was limited<br> to 1MB (configurable)                <br>     - User can now add a shortcut for<br> setting row color                    <br> - Issue with hiding the wrong column <br>from the context menu was resolved    <br>                 - Grouping panel now <br>shows actual executed SQL             <br>        - Decimal rounding error was f<br>ixed                 - General UI:    <br>                 - When exporting a pr<br>oject, a warning about replacing an ex<br>isting project was added (thanks to @M<br>ontejoJorge)                     - Scr<br>oll bars were added on the connection <br>page, and other wizards               <br>      - Issue with broken quotes in lo<br>calization files was resolved         <br>        - Connectivity:               <br>      - Driver download UI was improve<br>d: already downloaded driver files are<br> colored in grey                     -<br> JDBC drivers maven artifacts resolve <br>was fixed                     - The "P<br>ropagate driver properties" option was<br> added to the driver settings         <br>        - New drivers:                <br>     - JDBCX driver was added (thanks <br>to @zhicwu)                 - Database<br>s:                     - Clickhouse: I<br>Pv4 data representation was fixed     <br>                - Greenplum: External <br>tables representation was fixe        <br>             - MySQL: Unsupported engi<br>ne types are replaced with the default<br> one                     - Oceanbase: <br>                        - Views editor<br> was supported                        <br> - Routines and procedure parameters r<br>ead was fixed                     - Po<br>stgreSQL:                         - Fo<br>reign tables folder was added         <br>                - Enum data types read<br>ing performance was enhanced          <br>           - Redshift: Backup/Restore <br>tools were deprecated and removed from<br> UI                     - Snowflake:  <br>                       - Driver was up<br>dated to 3.13.25                      <br>   - Materialized views are now suppor<br>ted                         - Schema c<br>reate UI was enhanced was enhanced    <br>                 Trino: Views DDL supp<br>ort was added             |
-|2023-09-24 12:43:39|[Viper](https://github.com/FunnyWolf/Viper)|2023-09<br>-24-20-1<br>8-56|  ### 新功能  - 自动编排新增Session定<br>时任务功能  - 新增TCPLOG服务器模块 (作<br>者)  - 新增Last日志删除模块 (作者)  ###<br> 优化  - 前端界面支持OSX的Payload和Han<br>dler生成  - Session展示区域支持伸缩(点<br>击右侧按钮扩大缩小)  - 合并metasploit-f<br>ramework 6.3.35版本      ### Bugfix  -<br> fix 监听通信通道选择Session后不显示问<br>题  - fix https://github.com/FunnyWolf/<br>Viper/issues/177 内存执行C#可执行文件<br>模块报错问题  |
+|2023-09-25 09:57:48|[Elkeid](https://github.com/bytedance/Elkeid)|scanner<br>-v2.2.0.<br>1-202309<br>25_2_tes<br>t_only||
+|2023-09-25 03:27:23|[dbeaver](https://github.com/dbeaver/dbeaver)|23.2.1|                 - SQL Editor:       <br>              - Aliases proposals for <br>tables with joins were improved       <br>              - SQL console can now be<br> saved as a script                    <br> - Enhanced smart completion is enable<br>d (configurable)                     -<br> Issue with big string contents (json,<br> xml) edit was resolved               <br>      - JSON formatting in the separat<br>e editor was fixed                    <br> - Ctrl+Alt+6 shortcut was changed to <br>Ctrl+Alt+T                     - JSON <br>functions keywords were added to the S<br>QL Assist                     - Repres<br>entation of errors on query execution <br>was fixed                 - ER Diagram<br>s: issue with duplicate relations on t<br>he diagram was fixed                 -<br> Data Editor:                     - Bi<br>g content representation end editing w<br>as limited to 1MB (configurable)      <br>               - User can now add a sh<br>ortcut for setting row color          <br>           - Issue with hiding the wro<br>ng column from the context menu was re<br>solved                     - Grouping <br>panel now shows actual executed SQL   <br>                  - Decimal rounding e<br>rror was fixed                 - Gener<br>al UI:                     - When expo<br>rting a project, a warning about repla<br>cing an existing project was added (th<br>anks to @MontejoJorge)                <br>     - Scroll bars were added on the c<br>onnection page, and other wizards     <br>                - Issue with broken qu<br>otes in localization files was resolve<br>d                 - Connectivity:     <br>                - Driver download UI w<br>as improved: already downloaded driver<br> files are colored in grey            <br>         - JDBC drivers maven artifact<br>s resolve was fixed                   <br>  - The "Propagate driver properties" <br>option was added to the driver setting<br>s                 - New drivers:      <br>               - JDBCX driver was adde<br>d (thanks to @zhicwu)                 <br>- Databases:                     - Cli<br>ckhouse: IPv4 data representation was <br>fixed                     - Greenplum:<br> External tables representation was fi<br>xe                     - MySQL: Unsupp<br>orted engine types are replaced with t<br>he default one                     - O<br>ceanbase:                         - Vi<br>ews editor was supported              <br>           - Routines and procedure pa<br>rameters read was fixed               <br>      - PostgreSQL:                   <br>      - Foreign tables folder was adde<br>d                         - Enum data <br>types reading performance was enhanced<br>                     - Redshift: Backu<br>p/Restore tools were deprecated and re<br>moved from UI                     - Sn<br>owflake:                         - Dri<br>ver was updated to 3.13.25            <br>             - Materialized views are <br>now supported                         <br>- Schema create UI was enhanced was en<br>hanced                     Trino: View<br>s DDL support was added             |
+|2023-09-24 12:43:39|[Viper](https://github.com/FunnyWolf/Viper)|2023-09<br>-25-09-5<br>8-43|  ### 新功能  - 自动编排新增Session定<br>时任务功能  - 新增TCPLOG服务器模块 (作<br>者)  - 新增Last日志删除模块 (作者)  ###<br> 优化  - 前端界面支持OSX的Payload和Han<br>dler生成  - Session展示区域支持伸缩(点<br>击右侧按钮扩大缩小)  - 合并metasploit-f<br>ramework 6.3.35版本      ### Bugfix  -<br> fix 监听通信通道选择Session后不显示问<br>题  - fix https://github.com/FunnyWolf/<br>Viper/issues/177 内存执行C#可执行文件<br>模块报错问题  |
 |2023-09-24 04:28:39|[PEASS-ng](https://github.com/carlospolop/PEASS-ng)|2023092<br>4-10138d<br>a9||
-|2023-09-24 03:36:59|[Elkeid](https://github.com/bytedance/Elkeid)|rasp-v2<br>.2.1.3-p<br>re||
 |2023-09-24 02:48:52|[ghauri](https://github.com/r0oth3x49/ghauri)|1.2.5|Fixes:   - fixed #100 (--batch consid<br>ering on 403)   - fixed #90 (output of<br> re-dump properly)   - fixed #96 (upda<br>ted payloads)|
 |2023-09-22 09:29:27|[naabu](https://github.com/projectdiscovery/naabu)|v2.1.8|    ## What's Changed  ### Other Chan<br>ges  * Fixed issue with printing hostn<br>ame in passive mode by @dogancanbakir <br>in https://github.com/projectdiscovery<br>/naabu/pull/788      **Full Changelog*<br>*: https://github.com/projectdiscovery<br>/naabu/compare/v2.1.7...v2.1.8|
 |2023-09-21 11:20:59|[safeline](https://github.com/chaitin/safeline)|v3.5.0|### 新增    - 人机验证新增每个规则的 <br>“今日验证情况”，方便判断规则配置的效<br>果：    ### 优化    - 站点列表新增 “资<br>源数”，方便判断判断资源管理情况  - 优<br>化 攻击事件->原始日志 默认的筛选条件（<br>）  - 修复自动采集的站点 favicon 有时候<br>显示不出来的问题（）  - 修复自动采集的<br>站点标题有时候显示成乱码的问题  - 修复<br>站点详情的 “今日请求总量” 有时候不显<br>示最新值的问题  - 优化一些界面样式交互<br>细节|
@@ -32,30 +32,32 @@
 ## 近15天commit提交记录
 | 提交时间 | 项目名称 | 更新内容 |
 | :---- | :---- | :---- |
-|2023-09-25 00:05:48|[PocOrExp_in_Githu<br>b](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-09-25 08:05:48|
-|2023-09-25 00:00:03|[free](https://github.com/freefq/free)|updated_at 09-25 08:00|
-|2023-09-24 19:03:28|[dbeaver](https://github.com/dbeaver/dbeaver)|AWT peer inject error handle|
-|2023-09-24 15:02:40|[afrog](https://github.com/zan8in/afrog)|update|
-|2023-09-24 12:51:09|[rustdesk](https://github.com/rustdesk/rustdesk)|Merge pull request #5798 from 21pages/mobile  mobil<br>e still use no scrollable widgets|
+|2023-09-26 00:00:02|[free](https://github.com/freefq/free)|updated_at 09-26 08:00|
+|2023-09-25 21:51:48|[PocOrExp_in_Githu<br>b](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-09-26 05:51:48|
+|2023-09-25 19:53:11|[RsaCtfTool](https://github.com/RsaCtfTool/RsaCtfTool)|Refactor codebase|
+|2023-09-25 19:08:53|[trivy](https://github.com/aquasecurity/trivy)|ci: bump GoReleaser from 1.16.2 to 1.20.0 (#5236)  <br>* chore: replace brews.tap with brews.repository  * <br>ci: bump GoReleaser from 1.16.2 to 1.20.0|
+|2023-09-25 19:07:19|[syft](https://github.com/anchore/syft)|chore(deps): bump github.com/spf13/afero from 1.9.5<br> to 1.10.0 (#2174)  Bumps  from 1.9.5 to 1.10.0.  - <br>  -     ---  updated-dependencies:  - dependency-nam<br>e: github.com/spf13/afero    dependency-type: direct<br>:production    update-type: version-update:semver-mi<br>nor  ...    Signed-off-by: dependabot[bot]   Co-auth<br>ored-by: dependabot[bot] |
+|2023-09-25 18:16:15|[neuvector](https://github.com/neuvector/neuvector)|Merge pull request #1024 from williamlin-suse/main <br> NVSHAS-8270: Add more control on custom checks (con<br>troller)|
+|2023-09-25 15:56:51|[grype](https://github.com/anchore/grype)|chore: bump stereoscope to fix data race in UI (#15<br>17)  Pulls in a fix to go-progress so that scanning <br>large images no longer  results in a data race in th<br>e UI code.    Signed-off-by: Will Murphy |
+|2023-09-25 15:48:56|[afrog](https://github.com/zan8in/afrog)|update|
+|2023-09-25 14:56:53|[rustdesk](https://github.com/rustdesk/rustdesk)|Merge pull request #5816 from solokot/master  Updat<br>e ru.rs|
+|2023-09-25 13:28:41|[dbeaver](https://github.com/dbeaver/dbeaver)|#21302 Fix tool task wizard finish (#21308)|
+|2023-09-25 13:24:54|[dperf](https://github.com/baidu/dperf)|Merge pull request #374 from pengjianzhang/main  up<br>date readme|
+|2023-09-25 12:37:06|[v2rayfree](https://github.com/aiboboxx/v2rayfree)|update|
+|2023-09-25 11:32:33|[arthas](https://github.com/alibaba/arthas)|support windows file separator for file path comple<br>tion|
+|2023-09-25 10:57:37|[safeline](https://github.com/chaitin/safeline)|feat: add the redis url to redis|
+|2023-09-25 09:44:37|[FreeRDP](https://github.com/FreeRDP/FreeRDP)|[client,cmdline] Advertise Image RFX GUID when rfx-<br>mode:image|
+|2023-09-25 07:10:14|[appshark](https://github.com/bytedance/appshark)|Merge pull request #52 from firmianay/dev3  use 'sa<br>nitizer' in new rules|
+|2023-09-25 03:59:08|[404StarLink](https://github.com/knownsec/404StarLink)|weekly update at 2023-09-25|
+|2023-09-25 02:51:15|[ZoomEye-python](https://github.com/knownsec/ZoomEye-python)|Merge pull request #99 from WuZhaominn/master  upda<br>te config.py|
 |2023-09-24 12:40:27|[Viper](https://github.com/FunnyWolf/Viper)|update version 2023-09-24-20-18-56|
-|2023-09-24 12:32:36|[v2rayfree](https://github.com/aiboboxx/v2rayfree)|update|
-|2023-09-24 12:02:34|[dperf](https://github.com/baidu/dperf)|Merge pull request #373 from pengjianzhang/main  up<br>date CONTRIBUTING, Copyright, Author|
-|2023-09-24 10:17:55|[grype](https://github.com/anchore/grype)|chore(deps): update bootstrap tools to latest versi<br>ons (#1515)  Signed-off-by: GitHub   Co-authored-by:<br> westonsteimel |
-|2023-09-24 05:48:27|[neuvector](https://github.com/neuvector/neuvector)|Merge pull request #1023 from williamlin-suse/main <br> NVSHAS-8169: Namespace admin should be able to see <br>the namespaces he/…|
-|2023-09-24 05:33:31|[ZoomEye-python](https://github.com/knownsec/ZoomEye-python)|Update cli.py  fix bug|
 |2023-09-24 02:45:20|[ghauri](https://github.com/r0oth3x49/ghauri)|added multiple fixes such as considering --batch sw<br>itch on 403 forbidden, csv export data, csv re-dump,<br> invaludURL with --skip-urlencode switch, fixed #90,<br> fixed #92, fixed #96, fixed #100, bumped version 1.<br>2.5|
 |2023-09-23 03:11:10|[beef](https://github.com/beefproject/beef)|Merge remote-tracking branch 'remotes/origin/depend<br>abot/bundler/net-smtp-0.4.0'|
 |2023-09-22 15:17:08|[vulhub](https://github.com/vulhub/vulhub)|Merge pull request #463 from vulhub/librsvg-cve-202<br>3-38633  added librsvg CVE-2023-38633|
-|2023-09-22 10:44:39|[trivy](https://github.com/aquasecurity/trivy)|refactor: use defined types (#5225)  * refactor: re<br>place string with defined types  Signed-off-by: knqy<br>f263   * chore: add gci  Signed-off-by: knqyf263   *<br> fix(purl): not confuse trivy type with purl type  S<br>igned-off-by: knqyf263   * test: fix cyclonedx fixtu<br>re  Signed-off-by: knqyf263   * fix(template): cast <br>TargetType to string  Signed-off-by: knqyf263   * ch<br>ore: bump TinyGo to v0.29.0  Signed-off-by: knqyf263<br>   * test: change license to licence  Signed-off-by:<br> knqyf263   * use analyzer.TypeGoMod for gomod analy<br>zer  * ignore licence for misspell linter  ---------<br>  Signed-off-by: knqyf263  Co-authored-by: DmitriyLe<br>wen |
-|2023-09-22 10:30:38|[safeline](https://github.com/chaitin/safeline)|Update 2bug-report.yaml  复现方式改为必填|
 |2023-09-22 09:22:12|[naabu](https://github.com/projectdiscovery/naabu)|Merge branch 'dev'|
 |2023-09-22 06:48:26|[0_zone_tool](https://github.com/wkend/0_zone_tool)|Update README.md|
-|2023-09-22 06:48:11|[arthas](https://github.com/alibaba/arthas)|add arthas-grpc-web-proxy module (#2668)|
 |2023-09-21 12:04:28|[Elkeid](https://github.com/bytedance/Elkeid)|Merge pull request #538 from bytedance/fix-python-s<br>taticmethod  fix python staticmethod|
-|2023-09-21 11:57:48|[FreeRDP](https://github.com/FreeRDP/FreeRDP)|open 3.0.0-dev5 cycle|
 |2023-09-21 05:07:54|[impacket](https://github.com/fortra/impacket)|Updated the help information for -outputfile to be <br>consistent with -save with it enabling -request (if <br>previously omitted). (#1607)|
-|2023-09-20 21:39:30|[RsaCtfTool](https://github.com/RsaCtfTool/RsaCtfTool)|Update number_theory.py|
-|2023-09-20 20:18:44|[syft](https://github.com/anchore/syft)|Correcting behavior based on Syft release v0.91.0 r<br>un (#2162)  * dont show the title in the release not<br>es    Signed-off-by: Alex Goodman     * dont upload <br>assets on the release pipeline    Signed-off-by: Ale<br>x Goodman     * bump action-slack action to v3.15.1 <br>   Signed-off-by: Alex Goodman     * remove custom g<br>o mod and build cache    Signed-off-by: Alex Goodman<br>     ---------    Signed-off-by: Alex Goodman |
 |2023-09-20 15:47:23|[nuclei](https://github.com/projectdiscovery/nuclei)|added docs for env variable to optional disable upd<br>ate sources|
 |2023-09-20 14:41:31|[faker](https://github.com/joke2k/faker)|Bump version: 19.6.1 → 19.6.2|
 |2023-09-20 10:22:05|[ffuf](https://github.com/ffuf/ffuf)|Fix autocalibration-strategy merging, add tests (#7<br>32)|
@@ -71,7 +73,6 @@
 |2023-09-18 15:12:06|[mysql-fake-server](https://github.com/4ra1n/mysql-fake-server)|change log|
 |2023-09-18 12:53:55|[ObserverWard](https://github.com/0x727/ObserverWard)|update|
 |2023-09-18 07:40:58|[Awesome-Redteam](https://github.com/Threekiii/Awesome-Redteam)|更新README.md|
-|2023-09-18 03:32:12|[404StarLink](https://github.com/knownsec/404StarLink)|weekly update at 2023-09-18|
 |2023-09-17 13:47:48|[DecoyMini](https://github.com/decoymini/DecoyMini)|Update README.md|
 |2023-09-17 08:40:13|[mitaka](https://github.com/ninoseki/mitaka)|Merge pull request #758 from ninoseki/v1.3.3  v1.3.<br>3|
 |2023-09-17 06:18:15|[Mobile-Security-F<br>ramework-MobSF](https://github.com/MobSF/Mobile-Security-Framework-MobSF)|[HOTFIX] Fix jadx and apktool failure due to JDK ch<br>anges (#2269)  * Fix jadx and apktool failure due to<br> JDK zip64 changes|
@@ -91,10 +92,7 @@
 |2023-09-12 00:57:05|[0day](https://github.com/helloexp/0day)|add CVE-2023-37582 RocketMQ RCE|
 |2023-09-11 17:57:32|[slowhttptest](https://github.com/shekyan/slowhttptest)|support mtls (#86)|
 |2023-09-11 14:47:26|[Ladon](https://github.com/k8gege/Ladon)|Add files via upload|
-|2023-09-11 14:36:46|[K8tools](https://github.com/k8gege/K8tools)|Add files via upload|
-|2023-09-11 07:56:02|[appshark](https://github.com/bytedance/appshark)|handle OutOfMemoryError|
-|2023-09-10 23:51:16|[awesome-chatgpt-z<br>h](https://github.com/yzfly/awesome-chatgpt-zh)|add AoT, Open Interpreter, PromptFlow|
-|2023-09-10 08:12:57|[knife](https://github.com/bit4woo/knife)|Update FindUrlAndRequest.java|## 所有项目
+|2023-09-11 14:36:46|[K8tools](https://github.com/k8gege/K8tools)|Add files via upload|## 所有项目
 # 渗透测试
 ## 信息收集
 ### 资产测绘采集
@@ -820,7 +818,7 @@
 ### 漏洞利用
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
-| [Viper](https://github.com/FunnyWolf/Viper) | 2023-09<br>-24-20-1<br>8-56 | Redteam operation  platform with webui 图形化红队行动辅助平台 |
+| [Viper](https://github.com/FunnyWolf/Viper) | 2023-09<br>-25-09-5<br>8-43 | Redteam operation  platform with webui 图形化红队行动辅助平台 |
 ### 横向工具
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
@@ -1267,7 +1265,7 @@
 ## 主机入侵检测
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
-| [Elkeid](https://github.com/bytedance/Elkeid) | rasp-v2<br>.2.1.3-p<br>re | Elkeid is an open source solution that can meet the security r<br>equirements of various workloads such as hosts, containers and <br>K8s, and serverless. It is derived from ByteDance's internal be<br>st practices. |
+| [Elkeid](https://github.com/bytedance/Elkeid) | scanner<br>-v2.2.0.<br>1-202309<br>25_2_tes<br>t_only | Elkeid is an open source solution that can meet the security r<br>equirements of various workloads such as hosts, containers and <br>K8s, and serverless. It is derived from ByteDance's internal be<br>st practices. |
 | [Hades](https://github.com/theSecHunter/Hades) |  | Hades is an cross-platform HIDS with kernel-space data collect<br>ion. |
 ## Web应用防火墙
 | 项目名称 | 版本 | 项目描述 |
