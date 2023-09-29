@@ -1,8 +1,10 @@
-# 更新于 2023-09-28 08:34:45
+# 更新于 2023-09-29 08:34:39
 
 ## 近15天release更新记录
 | 更新时间 | 项目名称 | 版本 | 更新内容 |
 | :---- | :---- | :---- | :---- |
+|2023-09-28 14:33:58|[nemo_go](https://github.com/hanc00l/nemo_go)|v2.10.2|  ### Update    - 信息收集全面支持ipv<br>6！|
+|2023-09-28 09:48:42|[afrog](https://github.com/zan8in/afrog)|v2.8.8|Added the '-web' command to start a w<br>eb service for viewing vulnerability r<br>eports, including current and historic<br>al records.   Updated some PoCs."    <br>新增 -web 命令用于启动一个 Web 服务，用<br>于查看漏洞报告（包括当前和历史记录）  <br>更新一部分 PoCs    Happy October 1st!|
 |2023-09-27 17:03:54|[grype](https://github.com/anchore/grype)|v0.69.1|### Bug Fixes  - Incorrect python ver<br>sion comparisons for rc releases   @wi<br>llmurphyscode] - False Positive: CVE-2<br>023-37920 reported for certifi library<br> in python   @willmurphyscode] - Grype<br> is not recognizing python-certifi is <br>patched for GHSA-43fp-rhv2-5gv8   @wil<br>lmurphyscode] - False positive on cert<br>ifi 2022.12.07   @willmurphyscode] - L<br>eading zeros seen as difference in ver<br>sion numbers   @willmurphyscode]  ### <br>Additional Changes  - add OpenSSF Best<br> Practices badge  @spiffcs] - Bump vul<br>nerability match labels  @wagoodman] -<br> bump stereoscope to fix data race in <br>UI  @willmurphyscode]  ****  |
 |2023-09-27 15:52:50|[syft](https://github.com/anchore/syft)|v0.92.0|### Added Features  - Support for mul<br>tiple image refs of same sha in OCI la<br>yout ]  ### Bug Fixes  - Generated pur<br>ls are different between runs of syft <br>against the same image and artifact   <br>@willmurphyscode]  ### Additional Chan<br>ges  - bump stereoscope to fix data ra<br>ce in UI code  @willmurphyscode]  ****<br>  |
 |2023-09-26 13:53:55|[Supershell](https://github.com/tdragon6/Supershell)|v2.0.0|## v2.0.0    **2023-09-26**    **提前<br>预祝各位师傅双节快乐！**  ### 安全漏洞 <br>   1. 修复share_pwd权限提升漏洞，参考<br>：  2. 修复几处XSS漏洞（待好心人测试）<br>：   - 备忘录处XSS #8   - 客户端用户名<br>处XSS #24   - 浏览文件处XSS #28   - 常<br>用文件名XSS  ### 功能BUG  1. 修复rssh d<br>ockerfile换源错误，现可通过远程pull和<br>本地原生两种方式构建镜像 #6 #13   - doc<br>ker-compose.yml 从云端仓库下载镜像，极<br>速构建，云端镜像构建时基于linux/amd64架<br>构   - docker-compose.yml.local 从本地<br>构建镜像，兼容本地系统架构  2. 修复非 u<br>tf-8 编码文件读取出错的BUG  3. 修复客<br>户端生成界面切换页数失效的BUG  4. 修复<br>更改rssh端口后无法回连的BUG，更改rssh端<br>口参考： #14    ### 功能新增  1. 新增分<br>组备注历史记录存储功能，现数据校准后分<br>组记录不会丢失，可在设置中清除历史冗余<br>缓存 #12   - 历史冗余缓存是指在客户端列<br>表记录中已删除的主机分组备注历史记录   <br>- 同主机名会话视为同一主机，修改其中一<br>个主机会话记录的分组备注后，后续同主机<br>上线或数据校准时会设置同样的分组备注信<br>息  2. 新增设置界面下载 rssh 私钥功能，<br>可配合本地ssh使用，参考wiki   3. 新增自<br>定义页面显示个数功能 #18  4. 新增客户端<br>会话批量断开、删除和设置分组备注功能 #1<br>8   - 批量断开只能断开在线客户端，批量<br>删除只能删除离线记录  5. 新增Linux客户<br>端执行时自定义进程名功能，可通过客户端<br>参数 --process_name 指定进程名 #5  6. <br>新增一行命令上线功能，使用此功能需要在<br>启动 docker-compose up -d 前设置公网地<br>址环境变量 #16   - 格式：export EXTERNA<br>L_ADDRESS=:   - 支持shell和python脚本<br>一行命令上线，参考：  7. 新增客户端回连<br>代理，可在客户端生成中指定，仅支持http<br>代理 #31  8. 新增客户端流量封装，默认为<br>ssh，可封装为 tls、websockets 和 secur<br>e websockets   - 自定义tls证书时，可在<br> ./volume/rssh/tls 目录中放置证书文件<br>，将tls cert文件命名为 tls.cert，tls ke<br>y文件命名为 tls.key   - 默认没有放置证<br>书文件时，使用自签名证书  9. 新增客户端<br>开启监听功能，对于内网不出网的主机，可<br>通过其他客户端的监听端口回连，实现内网<br>链，参考 ：  10. 新增客户端参数功能，可<br>在执行客户端时指定代理和目的地址等参数 <br>  - 格式：./client -d : --proxy : --pr<br>ocess_name     ### 功能优化  1. 优化回<br>连地址支持域名 #7  2. 优化docker映射时s<br>sh私钥的权限问题 #3   3. 优化garble，<br>进一步模糊签名  4. 优化稳定性和其他代码<br>结构    *从旧版本升级参考：*|
@@ -21,7 +23,6 @@
 |2023-09-20 01:41:11|[OneScan](https://github.com/vaycore/OneScan)|v1.3.0|1.3.0 版本发布，版本更新内容如下    #<br>## 新增    - 新增 {{subdomain}} 子域名<br>动态变量  - 新增 {{webroot}} 一级目录动<br>态变量  - 导入URL对话框新增配置URL前缀<br>功能  - 新增请求重试机制    ### 优化   <br> - 从 0.x 版本升级到 1.x 版本时，自动<br>备份配置文件  - 移除默认请求头配置中的 <br>Origin 头（可自行在配置页面添加）    #<br>## 修复    - 修复 Payload Process 中 U<br>RL 范围不正确的问题|
 |2023-09-18 15:13:23|[mysql-fake-server](https://github.com/4ra1n/mysql-fake-server)|0.0.4|## 0.0.4    支持了两种JDBC的利用：PgS<br>QL和Apache Derby    - 重要更新：支持了<br>PgSQL RCE的利用Server  - 重要更新：支<br>持了Apache Derby利用Slave功能的RCE  - <br>优化依赖减小体积，使用更标准的Maven插件<br>打包配置  - 修复了某些情况下日志输出的<br>问题  - 恢复日志模式到INFO级别避免打印<br>过多无意义信息  - 对UI做了一些小改善|
 |2023-09-18 12:54:21|[ObserverWard](https://github.com/0x727/ObserverWard)|v2023.9<br>.18|## [2023.9.18] - 2023.9.18  ### Fixes<br>  - 修复charset没覆盖的情况，感谢@zema<br>1|
-|2023-09-18 01:19:00|[afrog](https://github.com/zan8in/afrog)|v2.8.1|- Added PoC for backup file detection<br>  - Customize global cookies and will <br>not overwrite the cookies of the origi<br>nal POC  optimization  - afrog API has<br> been synchronized with the latest fea<br>tures    -------------    - 新增备份文<br>件检测的 PoC  - 自定义全局 cookie，不会<br>覆盖原 POC 的 cookie  - 新增一批 HVV202<br>3 PoCs|
 |2023-09-17 08:47:51|[mitaka](https://github.com/ninoseki/mitaka)|v1.3.3|- Fix notification issue (#757)  - In<br>troduce  (#756)|
 |2023-09-16 16:46:31|[Template](https://github.com/1n7erface/Template)|v1.2.5|2023.9.17  1.更新了爆破模块多个底层库<br>的版本，可能会有些兼容问题，可以提bug. <br> 2.修改了一些隐藏的bug，增加了一些指纹<br>.  3.其他的优化～  因为工作调整原因,此<br>后的项目可能更新缓慢,朋友可以联系我微信<br>要最新版.  留在最后:  本项目是我在探索<br>内网之路的一些理解,比如极致并发(数据原<br>子化)、指纹识别、网段探测算法、启发式扫<br>描、生产者消费者模型、RPC远程调用.  市<br>场上的同款竞品很多,但希望各位还是能从本<br>项目中有所启发、有所收获.  用心去感受需<br>求,在产品中注入心血.  需要压缩版本的各<br>位可以自己使用upx压缩,也方便逆向的大佬<br>来检测是否存在后门.|
 |2023-09-16 16:01:01|[nuclei](https://github.com/projectdiscovery/nuclei)|v2.9.15|    ## What's Changed    ### 🐞 Bug F<br>ixes  * Fixed issue with request using<br> TE instead of CL header in certain ca<br>se by @tarunKoyalwar in https://github<br>.com/projectdiscovery/nuclei/pull/4154<br>  * Fixed issue with matcher status op<br>tion for cluster template execution by<br> @ShubhamRasal in https://github.com/p<br>rojectdiscovery/nuclei/pull/4132  * Fi<br>xed issue with loader for deterministi<br>c clustering by @Mzack9999 in https://<br>github.com/projectdiscovery/nuclei/pul<br>l/4124    ### 🔨 Maintenance  * Added <br>GH workflow for weekly performance tes<br>t by @Mzack9999 in https://github.com/<br>projectdiscovery/nuclei/pull/3861    #<br>## Other Changes  * Added port field i<br>n network protocol by @tarunKoyalwar i<br>n https://github.com/projectdiscovery/<br>nuclei/pull/4123  * Added docker usage<br> documentation by @kchason in https://<br>github.com/projectdiscovery/nuclei/pul<br>l/4155  * Added automated dockerhub do<br>cumentation by @kchason in https://git<br>hub.com/projectdiscovery/nuclei/pull/4<br>148  * Documentation typo updates by @<br>kchason in https://github.com/projectd<br>iscovery/nuclei/pull/4138  * Custom te<br>mplates documentation fixes by @kchaso<br>n in https://github.com/projectdiscove<br>ry/nuclei/pull/4149    **Full Changelo<br>g**: https://github.com/projectdiscove<br>ry/nuclei/compare/v2.9.14...v2.9.15|
@@ -33,24 +34,30 @@
 ## 近15天commit提交记录
 | 提交时间 | 项目名称 | 更新内容 |
 | :---- | :---- | :---- |
-|2023-09-28 00:00:03|[free](https://github.com/freefq/free)|updated_at 09-28 08:00|
-|2023-09-27 20:29:24|[PocOrExp_in_Githu<br>b](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-09-28 04:29:24|
-|2023-09-27 19:05:15|[syft](https://github.com/anchore/syft)|chore(deps): update bootstrap tools to latest versi<br>ons (#2178)  Signed-off-by: GitHub   Co-authored-by:<br> spiffcs |
-|2023-09-27 18:51:26|[neuvector](https://github.com/neuvector/neuvector)|Merge pull request #1033 from williamlin-suse/main <br> NVSHAS-8270: Add more control on custom checks (con<br>troller)|
-|2023-09-27 17:08:53|[dbeaver](https://github.com/dbeaver/dbeaver)|dbeaver/dbeaver#21237 Eclipse 2023-09 API support (<br>#21352)|
+|2023-09-29 00:29:52|[PocOrExp_in_Githu<br>b](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-09-29 08:29:52|
+|2023-09-29 00:00:03|[free](https://github.com/freefq/free)|updated_at 09-29 08:00|
+|2023-09-28 22:55:05|[neuvector](https://github.com/neuvector/neuvector)|Merge pull request #1030 from holyspectral/maintain<br>-jwt-cert  NVSHAS-8212: Maintain JWT certificate ins<br>ide NeuVector controllers|
+|2023-09-28 22:05:27|[clair](https://github.com/quay/clair)|'chore: update claircore to v1.5.17  Update clairco<br>re to latest release. '  Signed-off-by: Claircore-CI<br> |
+|2023-09-28 20:32:59|[impacket](https://github.com/fortra/impacket)|Merge pull request #1602 from rtpt-erikgeiser:ntlmr<br>elayx_log_initial_authentication|
+|2023-09-28 19:16:17|[FreeRDP](https://github.com/FreeRDP/FreeRDP)|locale: Fix X11 keyboard layout detection  This fix<br>es an issue with keyboard layout detection reintrodu<br>ced in #8960  The problem has already been fixed in <br>#6688 but got lost after refactoring.  The issue is <br>that the layout specifier might be a comma separated<br> list with country specifiers i.e. "at,us" which was<br> not correctly handled.|
+|2023-09-28 18:40:45|[trivy](https://github.com/aquasecurity/trivy)|docs: add info about github format (#5265)  * docs:<br> add info about github format  * rename GitHub SBOM <br>to GitHub dependency snapshots|
+|2023-09-28 18:34:52|[sqlmap](https://github.com/sqlmapproject/sqlmap)|Implements option --time-limit (#5502)|
+|2023-09-28 17:26:48|[dbeaver](https://github.com/dbeaver/dbeaver)|#21281 Don't apply mysql execute script task to any<br> DBSDataManipulator (#21333)|
+|2023-09-28 14:56:08|[syft](https://github.com/anchore/syft)|chore(deps): bump github/codeql-action from 2.21.8 <br>to 2.21.9 (#2182)  Bumps  from 2.21.8 to 2.21.9.  - <br>  -   -     ---  updated-dependencies:  - dependency<br>-name: github/codeql-action    dependency-type: dire<br>ct:production    update-type: version-update:semver-<br>patch  ...    Signed-off-by: dependabot[bot]   Co-au<br>thored-by: dependabot[bot] |
+|2023-09-28 14:23:14|[nemo_go](https://github.com/hanc00l/nemo_go)|Update: v2.10.2|
+|2023-09-28 13:38:02|[gshark](https://github.com/madneal/gshark)|add build for darwin arm64|
+|2023-09-28 12:36:23|[v2rayfree](https://github.com/aiboboxx/v2rayfree)|update|
+|2023-09-28 09:40:28|[afrog](https://github.com/zan8in/afrog)|update|
+|2023-09-28 08:24:35|[appshark](https://github.com/bytedance/appshark)|Merge pull request #53 from firmianay/dev3  fix doc|
+|2023-09-28 04:50:53|[autoDecoder](https://github.com/f0ng/autoDecoder)|Update flasktest.py|
+|2023-09-28 02:58:23|[beef](https://github.com/beefproject/beef)|Revert "Update install"  This reverts commit 61528a<br>408a2f30e0bfa1413a15ea36c3221fbe47.|
+|2023-09-28 02:39:21|[rustdesk](https://github.com/rustdesk/rustdesk)|Merge pull request #5847 from 21pages/tab_label  tr<br>y fix remote tab label update|
 |2023-09-27 16:27:32|[grype](https://github.com/anchore/grype)|chore(deps): update Syft to v0.92.0 (#1527)  Signed<br>-off-by: GitHub   Co-authored-by: willmurphyscode |
-|2023-09-27 13:17:11|[trivy](https://github.com/aquasecurity/trivy)|feat(db): allow passing registry options (#5226)  *<br> feat(db): allow passing registry options  Signed-of<br>f-by: Michel Meyer   * feat(db): pass cli registry o<br>ptions to javaDB  ---------  Signed-off-by: Michel M<br>eyer |
-|2023-09-27 12:36:56|[v2rayfree](https://github.com/aiboboxx/v2rayfree)|update|
 |2023-09-27 11:03:23|[nuclei](https://github.com/projectdiscovery/nuclei)|updated template paths in workflows docs to match c<br>urrent locations (#4197)|
-|2023-09-27 10:50:18|[rustdesk](https://github.com/rustdesk/rustdesk)|Merge pull request #5841 from 21pages/av1_auto_code<br>c  Give higher priority to AV1 over VP9 in the auto <br>codec|
 |2023-09-27 10:12:16|[arthas](https://github.com/alibaba/arthas)|Prettified Code!|
-|2023-09-27 09:57:49|[FreeRDP](https://github.com/FreeRDP/FreeRDP)|[client,win32] implement connection to child sessio<br>n  Under windows you can connect to a child session <br>by requesting a named pipe to the local server, and <br>then do some RDP on this named pipe. The protocol is<br> like for /vmconnect with CredSSP, then Nego and the<br>n the "normal" workflow for a connection. For CredSS<br>P we force the usage of NTLM for the Negociate SSPI,<br> and the credentials are empty.|
-|2023-09-27 08:21:52|[nemo_go](https://github.com/hanc00l/nemo_go)|Update:对任务的ip拆分为子任务代码重构（支持ipv4/ip6<br>)|
 |2023-09-27 02:37:34|[vulnerability](https://github.com/lal0ne/vulnerability)|CVE-2023-31719|
 |2023-09-26 23:57:04|[awesome-chatgpt-z<br>h](https://github.com/yzfly/awesome-chatgpt-zh)|add FLAML, txtai|
 |2023-09-26 18:41:37|[wpscan](https://github.com/wpscanteam/wpscan)|Bump version|
-|2023-09-26 15:33:15|[afrog](https://github.com/zan8in/afrog)|update|
-|2023-09-26 14:59:17|[clair](https://github.com/quay/clair)|build(deps): bump github.com/rs/zerolog from 1.30.0<br> to 1.31.0  Bumps  from 1.30.0 to 1.31.0. -  -   ---<br> updated-dependencies: - dependency-name: github.com<br>/rs/zerolog   dependency-type: direct:production   u<br>pdate-type: version-update:semver-minor ...  Signed-<br>off-by: dependabot[bot] |
 |2023-09-26 14:15:53|[iDefender](https://github.com/wecooperate/iDefender)|update|
 |2023-09-26 13:49:47|[Supershell](https://github.com/tdragon6/Supershell)|Update Changelog.md|
 |2023-09-26 13:05:52|[codeql-cli-binari<br>es](https://github.com/github/codeql-cli-binaries)|Update CHANGELOG for 2.14.6|
@@ -59,17 +66,14 @@
 |2023-09-26 02:12:05|[Elkeid](https://github.com/bytedance/Elkeid)|Merge pull request #539 from bytedance/fix-rasp-mou<br>nt  fix mount when process not in container and feat<br> JVM version check|
 |2023-09-25 19:53:11|[RsaCtfTool](https://github.com/RsaCtfTool/RsaCtfTool)|Refactor codebase|
 |2023-09-25 13:24:54|[dperf](https://github.com/baidu/dperf)|Merge pull request #374 from pengjianzhang/main  up<br>date readme|
-|2023-09-25 07:10:14|[appshark](https://github.com/bytedance/appshark)|Merge pull request #52 from firmianay/dev3  use 'sa<br>nitizer' in new rules|
 |2023-09-25 05:23:56|[HackerPermKeeper](https://github.com/RuoJi6/HackerPermKeeper)|Add files via upload|
 |2023-09-25 03:59:08|[404StarLink](https://github.com/knownsec/404StarLink)|weekly update at 2023-09-25|
 |2023-09-25 02:51:15|[ZoomEye-python](https://github.com/knownsec/ZoomEye-python)|Merge pull request #99 from WuZhaominn/master  upda<br>te config.py|
 |2023-09-24 12:40:27|[Viper](https://github.com/FunnyWolf/Viper)|update version 2023-09-24-20-18-56|
 |2023-09-24 02:45:20|[ghauri](https://github.com/r0oth3x49/ghauri)|added multiple fixes such as considering --batch sw<br>itch on 403 forbidden, csv export data, csv re-dump,<br> invaludURL with --skip-urlencode switch, fixed #90,<br> fixed #92, fixed #96, fixed #100, bumped version 1.<br>2.5|
-|2023-09-23 03:11:10|[beef](https://github.com/beefproject/beef)|Merge remote-tracking branch 'remotes/origin/depend<br>abot/bundler/net-smtp-0.4.0'|
 |2023-09-22 15:17:08|[vulhub](https://github.com/vulhub/vulhub)|Merge pull request #463 from vulhub/librsvg-cve-202<br>3-38633  added librsvg CVE-2023-38633|
 |2023-09-22 09:22:12|[naabu](https://github.com/projectdiscovery/naabu)|Merge branch 'dev'|
 |2023-09-22 06:48:26|[0_zone_tool](https://github.com/wkend/0_zone_tool)|Update README.md|
-|2023-09-21 05:07:54|[impacket](https://github.com/fortra/impacket)|Updated the help information for -outputfile to be <br>consistent with -save with it enabling -request (if <br>previously omitted). (#1607)|
 |2023-09-20 14:41:31|[faker](https://github.com/joke2k/faker)|Bump version: 19.6.1 → 19.6.2|
 |2023-09-20 10:22:05|[ffuf](https://github.com/ffuf/ffuf)|Fix autocalibration-strategy merging, add tests (#7<br>32)|
 |2023-09-20 07:18:50|[frp](https://github.com/fatedier/frp)|code optimization (#3625)|
@@ -84,7 +88,6 @@
 |2023-09-17 08:40:13|[mitaka](https://github.com/ninoseki/mitaka)|Merge pull request #758 from ninoseki/v1.3.3  v1.3.<br>3|
 |2023-09-17 06:18:15|[Mobile-Security-F<br>ramework-MobSF](https://github.com/MobSF/Mobile-Security-Framework-MobSF)|[HOTFIX] Fix jadx and apktool failure due to JDK ch<br>anges (#2269)  * Fix jadx and apktool failure due to<br> JDK zip64 changes|
 |2023-09-16 16:50:54|[Template](https://github.com/1n7erface/Template)|Update README.md|
-|2023-09-16 15:53:22|[autoDecoder](https://github.com/f0ng/autoDecoder)|Update FAQ.md|
 |2023-09-16 12:17:38|[ChatGPT-Shortcut](https://github.com/rockbenben/ChatGPT-Shortcut)|docs: update docs|
 |2023-09-16 09:59:20|[kube-bench](https://github.com/aquasecurity/kube-bench)|build(deps): bump golang from 1.20.6 to 1.21.1 (#14<br>94)  Bumps golang from 1.20.6 to 1.21.1.    ---  upd<br>ated-dependencies:  - dependency-name: golang    dep<br>endency-type: direct:production    update-type: vers<br>ion-update:semver-minor  ...    Signed-off-by: depen<br>dabot[bot]   Co-authored-by: dependabot[bot] |
 |2023-09-16 09:19:44|[murphysec](https://github.com/murphysecurity/murphysec)|feat(cmd): add --project-name|
@@ -92,8 +95,7 @@
 |2023-09-15 04:31:07|[Intranet-tools](https://github.com/private-null/Intranet-tools)|Add files via upload|
 |2023-09-14 11:45:05|[v2rayA](https://github.com/v2rayA/v2rayA)|Merge pull request #1025 from v2rayA/dependabot/npm<br>_and_yarn/gui/nunjucks-3.2.4  chore(deps): bump nunj<br>ucks from 3.2.3 to 3.2.4 in /gui|
 |2023-09-14 10:11:38|[API-T00L](https://github.com/pykiller/API-T00L)|Update README.md|
-|2023-09-14 09:05:08|[domain_hunter_pro](https://github.com/bit4woo/domain_hunter_pro)|update|
-|2023-09-13 13:37:12|[ThunderSearch](https://github.com/xzajyjs/ThunderSearch)|improve en support|## 所有项目
+|2023-09-14 09:05:08|[domain_hunter_pro](https://github.com/bit4woo/domain_hunter_pro)|update|## 所有项目
 # 渗透测试
 ## 信息收集
 ### 资产测绘采集
@@ -179,7 +181,7 @@
 | [X-Marshal](https://github.com/XTeam-Wing/X-Marshal) |  | Marshal-EASM |
 | [heartsk_community](https://github.com/yqcs/heartsk_community) | LOWBUG@<br>Latest | Hearts K-企业资产发现与脆弱性检查工具，自动化资产信息收集与漏<br>洞扫描 |
 | [AnScan](https://github.com/Arbor01/AnScan) |  | AnScan是一款集合信息收集、分布式漏洞扫描、漏洞POC管理等为一体<br>的红队扫描工具 |
-| [nemo_go](https://github.com/hanc00l/nemo_go) | v2.10.1 | Nemo是用来进行自动化信息收集的一个简单平台，通过集成常用的信息<br>收集工具和技术，实现对内网及互联网资产信息的自动收集，提高隐患排<br>查和渗透测试的工作效率。 |
+| [nemo_go](https://github.com/hanc00l/nemo_go) | v2.10.2 | Nemo是用来进行自动化信息收集的一个简单平台，通过集成常用的信息<br>收集工具和技术，实现对内网及互联网资产信息的自动收集，提高隐患排<br>查和渗透测试的工作效率。 |
 | [rengine](https://github.com/yogeshojha/rengine) | v1.3.6 | reNgine is an automated reconnaissance framework for web appli<br>cations with a focus on highly configurable streamlined recon p<br>rocess via Engines, recon data correlation and organization, co<br>ntinuous monitoring, backed by a database, and simple yet intui<br>tive User Interface. reNgine makes it easy for penetration test<br>ers to gather reconnaissance with minimal configuration and wit<br>h the help of reNgine's correlation, it just makes recon effort<br>less. |
 | [ShuiZe_0x727](https://github.com/0x727/ShuiZe_0x727) | v1.0 | 信息收集自动化工具 |
 | [DBJ](https://github.com/wgpsec/DBJ) |  | 大宝剑-边界资产梳理工具（红队、蓝队、企业组织架构、子域名、Web<br>资产梳理、Web指纹识别、ICON_Hash资产匹配） |
@@ -251,7 +253,7 @@
 | [w13scan](https://github.com/w-digital-scanner/w13scan) |  | Passive Security Scanner (被动式安全扫描器) |
 | [Fvuln](https://github.com/d3ckx1/Fvuln) | Fvuln-1<br>.4.9 | F-vuln（全称：Find-Vulnerability）是为了自己工作方便专门编写的<br>一款自动化工具，主要适用于日常安全服务、渗透测试人员和RedTeam红<br>队人员，它集合的功能包括：存活IP探测、开放端口探测、web服务探测<br>、web漏洞扫描、smb爆破、ssh爆破、ftp爆破、mssql爆破等其他数据库<br>爆破工作以及大量web漏洞检测模块。 |
 | [nuclei](https://github.com/projectdiscovery/nuclei) | v2.9.15 | Fast and customizable vulnerability scanner based on simple YA<br>ML based DSL. |
-| [afrog](https://github.com/zan8in/afrog) | v2.8.1 | A Security Tool for Bug Bounty, Pentest and Red Teaming. |
+| [afrog](https://github.com/zan8in/afrog) | v2.8.8 | A Security Tool for Bug Bounty, Pentest and Red Teaming. |
 | [vulmap](https://github.com/zhzyker/vulmap) | v0.9 | Vulmap 是一款 web 漏洞扫描和验证工具, 可对 webapps 进行漏洞扫<br>描, 并且具备漏洞验证功能 |
 | [POC-bomber](https://github.com/tr0uble-mAker/POC-bomber) | POC-bom<br>ber-for-<br>Redteam-<br>v3.0.0 | 利用大量高威胁poc/exp快速获取目标权限，用于渗透和红队快速打点 |
 | [QingTing](https://github.com/StarCrossPortal/QingTing) | v0.3 | 蜻蜓安全一个安全工具编排平台,可以自由编排你的工具流,集成108款<br>工具,包括xray、nmap、awvs等;你可以将喜欢的工具编排成一个场景，快<br>速打造适合自己的安全工作台~ |
