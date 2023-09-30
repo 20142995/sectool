@@ -49,9 +49,9 @@
         "description": "WPScan WordPress security scanner. Written for security professionals and blog maintainers to test the security of their WordPress websites. Contact us via contact@wpscan.com",
         "commit_date": "2023-09-26 18:41:37",
         "commit_message": "Bump version",
-        "release_tag": "v3.8.24",
-        "release_date": "2023-06-09 12:43:46",
-        "release_message": "This is a management release to ensure that the gem is properly pushed to the rubygems channel, as this has failed with the last tagged release. No functionality has changed since v3.8.23."
+        "release_tag": "v3.8.25",
+        "release_date": "2023-09-29 12:22:42",
+        "release_message": "## What's Changed\r\n* Bump actions/checkout from 3 to 4 by @dependabot in https://github.com/wpscanteam/wpscan/pull/1798\r\n* Update webmock requirement from ~> 3.18.1 to ~> 3.19.1 by @dependabot in https://github.com/wpscanteam/wpscan/pull/1797\r\n* Bump docker/login-action from 2.1.0 to 2.2.0 by @dependabot in https://github.com/wpscanteam/wpscan/pull/1785\r\n\r\n\r\n**Full Changelog**: https://github.com/wpscanteam/wpscan/compare/v3.8.24...v3.8.25"
     },
     "https://github.com/zzzskd/CORSScanner": {
         "created_at": "2021-11-24 09:04:08",
@@ -200,8 +200,8 @@
     "https://github.com/ycdxsb/PocOrExp_in_Github": {
         "created_at": "2021-04-13 05:46:16",
         "description": "聚合Github上已有的Poc或者Exp，CVE信息来自CVE官网。Auto Collect Poc Or Exp from Github by CVE ID.",
-        "commit_date": "2023-09-29 00:29:52",
-        "commit_message": "update 2023-09-29 08:29:52",
+        "commit_date": "2023-09-29 23:36:21",
+        "commit_message": "update 2023-09-30 07:36:21",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -2951,8 +2951,8 @@
     "https://github.com/dbeaver/dbeaver": {
         "created_at": "2015-10-21 08:26:28",
         "description": "Free universal database tool and SQL client",
-        "commit_date": "2023-09-28 17:26:48",
-        "commit_message": "#21281 Don't apply mysql execute script task to any DBSDataManipulator (#21333)",
+        "commit_date": "2023-09-29 14:49:14",
+        "commit_message": "dbeaver/pro#1916 Disable project settings save/load for distributed projects",
         "release_tag": "23.2.1",
         "release_date": "2023-09-26 05:31:33",
         "release_message": "\n                - SQL Editor:\n                    - Aliases proposals for tables with joins were improved\n                    - SQL console can now be saved as a script\n                    - Enhanced smart completion is enabled (configurable)\n                    - Issue with big string contents (json, xml) edit was resolved\n                    - JSON formatting in the separate editor was fixed\n                    - Ctrl+Alt+6 shortcut was changed to Ctrl+Alt+T\n                    - JSON functions keywords were added to the SQL Assist\n                    - Representation of errors on query execution was fixed\n                - ER Diagrams: issue with duplicate relations on the diagram was fixed\n                - Data Editor:\n                    - Big content representation end editing was limited to 1MB (configurable)\n                    - User can now add a shortcut for setting row color\n                    - Issue with hiding the wrong column from the context menu was resolved\n                    - Grouping panel now shows actual executed SQL\n                    - Decimal rounding error was fixed\n                - General UI:\n                    - When exporting a project, a warning about replacing an existing project was added (thanks to @MontejoJorge)\n                    - Scroll bars were added on the connection page, and other wizards\n                    - Issue with broken quotes in localization files was resolved\n                - Connectivity:\n                    - Driver download UI was improved: already downloaded driver files are colored in grey\n                    - JDBC drivers maven artifacts resolve was fixed\n                    - The \"Propagate driver properties\" option was added to the driver settings\n                - New drivers:\n                    - JDBCX driver was added (thanks to @zhicwu)\n                - Databases:\n                    - Clickhouse: IPv4 data representation was fixed\n                    - Greenplum: External tables representation was fixe\n                    - MySQL: Unsupported engine types are replaced with the default one\n                    - Oceanbase:\n                        - Views editor was supported\n                        - Routines and procedure parameters read was fixed\n                    - PostgreSQL:\n                        - Foreign tables folder was added\n                        - Enum data types reading performance was enhanced\n                    - Redshift: Backup/Restore tools were deprecated and removed from UI\n                    - Snowflake:\n                        - Driver was updated to 3.13.25\n                        - Materialized views are now supported\n                        - Schema create UI was enhanced was enhanced\n                    Trino: Views DDL support was added\n            "
@@ -3469,8 +3469,8 @@
     "https://github.com/yogeshojha/rengine": {
         "created_at": "2020-05-03 12:13:12",
         "description": "reNgine is an automated reconnaissance framework for web applications with a focus on highly configurable streamlined recon process via Engines, recon data correlation and organization, continuous monitoring, backed by a database, and simple yet intuitive User Interface. reNgine makes it easy for penetration testers to gather reconnaissance with minimal configuration and with the help of reNgine's correlation, it just makes recon effortless.",
-        "commit_date": "2023-07-22 18:36:45",
-        "commit_message": "remove redundant env vars",
+        "commit_date": "2023-09-29 17:01:38",
+        "commit_message": "Merge pull request #884 from AnonymousWP/Add-licenses-to-tool-arsenal\n\nAdd licenses to tool arsenal",
         "release_tag": "v1.3.6",
         "release_date": "2023-03-22 04:31:21",
         "release_message": "Fixed Various Installation Errors\r\nFixed Naabu Port Scanning Issue"
@@ -3890,8 +3890,8 @@
     "https://github.com/neuvector/neuvector": {
         "created_at": "2021-12-17 20:15:03",
         "description": "",
-        "commit_date": "2023-09-28 22:55:05",
-        "commit_message": "Merge pull request #1030 from holyspectral/maintain-jwt-cert\n\nNVSHAS-8212: Maintain JWT certificate inside NeuVector controllers",
+        "commit_date": "2023-09-29 02:39:23",
+        "commit_message": "Merge pull request #1036 from kyledong-suse/main\n\nNVSHAS-5703: Improve update FQDN field in graph",
         "release_tag": "v5.2.1",
         "release_date": "2023-08-22 23:29:15",
         "release_message": "Features\r\nNVSHAS-7449: Report layered scan result to syslog\r\nNVSHAS-6974: Export NIST compliance report\r\nNVSHAS-8157: Handle Proxy setting in image signature verification\r\nNVSHAS-8034: Include image signature result in the downloaded CVE report\r\nNVSHAS-7483: Pod annotations for Admission Control Policies\r\n\r\nBug fixes\r\nNVSHAS-8200: Do not create default admin with default password in NV fresh deployment for AWS billing offering\r\nNVSHAS-8172: .json file increased size and crashed a kubernetes node\r\nNVSHAS-7963: Improve SQL injection detection logics\r\nNVSHAS-8128: when install helm crd chart first before insatlling core chart, service accounts are missing\r\nNVSHAS-8106: Image scan I.4.1 compliance result is incorrect\r\nNVSHAS-8050: Vulnerability advance filter report showing images from all other namespace"
@@ -4277,7 +4277,7 @@
     "https://github.com/aiboboxx/v2rayfree": {
         "created_at": "2021-10-13 11:34:53",
         "description": "v2ray节点、免费节点、免费v2ray节点、最新公益免费v2ray节点订阅地址、免费v2ray节点每日更新、免费ss/v2ray/trojan节点、freefq ",
-        "commit_date": "2023-09-28 12:36:23",
+        "commit_date": "2023-09-29 12:35:47",
         "commit_message": "update",
         "release_tag": "",
         "release_date": "",
@@ -4322,8 +4322,8 @@
     "https://github.com/freefq/free": {
         "created_at": "2020-06-07 02:48:33",
         "description": "翻墙、免费翻墙、免费科学上网、免费节点、免费梯子、免费ss/v2ray/trojan节点、蓝灯、谷歌商店、翻墙梯子",
-        "commit_date": "2023-09-29 00:00:03",
-        "commit_message": "updated_at 09-29 08:00",
+        "commit_date": "2023-09-30 00:00:03",
+        "commit_message": "updated_at 09-30 08:00",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -5004,8 +5004,8 @@
     "https://github.com/rustdesk/rustdesk": {
         "created_at": "2020-09-28 15:36:08",
         "description": "An open-source remote desktop, and alternative to TeamViewer.",
-        "commit_date": "2023-09-28 02:39:21",
-        "commit_message": "Merge pull request #5847 from 21pages/tab_label\n\ntry fix remote tab label update",
+        "commit_date": "2023-09-29 05:09:13",
+        "commit_message": "Merge pull request #5856 from 21pages/fix\n\nshow rdp menu only windows to windows",
         "release_tag": "1.2.2",
         "release_date": "2023-08-22 01:44:36",
         "release_message": "![image](https://github.com/rustdesk/rustdesk/assets/71636191/83754a64-31b8-47f0-8570-da22207759a9)\r\n\r\n> Winget, FDroid, Apple Sillicon, Google Play / App Store update will come soon.\r\n\r\nx86-64: [Windows](https://github.com/rustdesk/rustdesk/releases/download/1.2.2/rustdesk-1.2.2-x86_64.exe) | [Ubuntu](https://github.com/rustdesk/rustdesk/releases/download/1.2.2/rustdesk-1.2.2-x86_64.deb) | [Mac](https://github.com/rustdesk/rustdesk/releases/download/1.2.2/rustdesk-1.2.2-x86_64.dmg)\r\nAArch64 (ARM64):  [Ubuntu](https://github.com/rustdesk/rustdesk/releases/download/1.2.2/rustdesk-1.2.2-aarch64.deb) | [Android](https://github.com/rustdesk/rustdesk/releases/download/1.2.2/rustdesk-1.2.2-aarch64-signed.apk) | [Mac](https://github.com/rustdesk/rustdesk/releases/download/1.2.2/rustdesk-1.2.2-aarch64.dmg)\r\n\r\nMore: [check below please](#)\r\n\r\n<details>\r\n<summary>Changelog</summary>\r\n\r\n- Add separate window mode (tab window by default), https://github.com/rustdesk/rustdesk/discussions/2889\r\n![image](https://github.com/rustdesk/rustdesk/assets/71636191/0c73bc6a-8659-4a67-9425-47625a6aded3)\r\n- Fix and improve responsiveness issue introduced in 1.2.0. https://github.com/rustdesk/rustdesk/discussions/5231\r\n- Add device list batch handle\r\n![image](https://github.com/rustdesk/rustdesk/assets/71636191/0ca85b8e-bed3-48ad-a43f-82df983986f3)\r\n- Add command to assign user and strategy for [RustDesk Server Pro](https://rustdesk.com/docs/en/self-host/pro/)\r\n- Optimize address book, syncing password, alias name, device name etc, add tag color, improve error and update status handling\r\n![image](https://github.com/rustdesk/rustdesk/assets/71636191/21d7a226-b863-4dc2-a9d3-fb6cd3a56c5c)\r\n- Fix windows file copy/paste\r\n- Fix \"waiting for image...\" still shown after receiving image bug, refactored rust->flutter message handling https://github.com/rustdesk/rustdesk/issues/4533\r\n- Improve some touchpad support, https://github.com/rustdesk/rustdesk/pull/5049\r\n- Bug fixes.\r\n\r\n</details>\r\n"
@@ -6207,5 +6207,14 @@
         "release_tag": "4.0",
         "release_date": "2023-09-25 05:24:42",
         "release_message": "修改ssh密钥以及添加用户中重新运行时候，检测是否加锁解锁操作"
+    },
+    "https://github.com/dark-kingA/cloudTools": {
+        "created_at": "2023-09-18 11:51:28",
+        "description": "云资产管理工具 目前工具定位是云安全相关工具，目前是两个模块 云存储工具、云服务器工具， 云存储工具主要是针对oss存储、查看、删除、上传、下载、预览等等 云服务器工具主要是针对ecs服务器的管理，查看、执行命令等等",
+        "commit_date": "2023-09-26 14:26:40",
+        "commit_message": "update md",
+        "release_tag": "main-cloud",
+        "release_date": "2023-09-26 14:49:56",
+        "release_message": "1.阿里云添加接管控制台、取消接管功能。\r\n2.添加腾讯云服务器检索、接管功能、取消接管。"
     }
 }
