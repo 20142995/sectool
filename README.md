@@ -1,4 +1,4 @@
-# 更新于 2023-09-30 08:34:32
+# 更新于 2023-10-01 08:39:26
 
 ## 近15天release更新记录
 | 更新时间 | 项目名称 | 版本 | 更新内容 |
@@ -31,17 +31,18 @@
 |2023-09-16 15:49:24|[autoDecoder](https://github.com/f0ng/autoDecoder)|0.32|## 2023.9.16 更新0.32  1. 明文关键字<br>、密文关键字的设置优化|
 |2023-09-16 12:23:19|[ffuf](https://github.com/ffuf/ffuf)|v2.1.0|## Changelog * 7a2756a Prepare for v2<br>.1.0 release (#724) * 36124a1 Default <br>to match 2XX  (#723) * e3e4e62 Report <br>if request times out while time matche<br>r / filter is active (#722) * e80fdc4 <br>[FEATURE] Extensible Auto-calibration <br>strategies (#694) * a7dea16 allow unus<br>ed wordlist in config file (#652) * 84<br>53335 Don't write a finishing newline <br>in silent mode (#677) * 02e6a73 Add -r<br>aw cli flag (#721) * 3fdb4e2 Automatic<br> brotli and deflate decompression (#72<br>0) * 6731988 Fix #718 (#719) * 9f2163a<br> fix csv output file format (#683) * 6<br>f29907 Fixed Error for HTML Output (#7<br>14) * 96fef62 Fix Issue696 -- Divide b<br>y 0 Error when setting rate to 0 manua<br>lly (#700) * 301968c Add cert authenti<br>cation to crawl (#713) * ca2224c Penco<br>de (#717) * 5fd821c Fix md output form<br>at (#672) * e979f72 bump golang.org/x/<br>net from 0.5.0 to 0.7.0 (#650) * b8705<br>ef Add additional check for keywords w<br>hen using sniper mode (#661) * a3bd865<br> Support older versions of TLS regardl<br>ess of Go defaults (#671) * 627c871 [F<br>ix] Fixed multiline output when using <br>only one fuzz variable (issue #645) (#<br>656) * b2c1f94 Fix HTML output (#640) <br> |
 |2023-09-16 07:29:33|[trivy](https://github.com/aquasecurity/trivy)|v0.45.1|## Changelog * daae88287 fix(purl): h<br>andle rust types (#5186) * 81240cf08 c<br>hore: auto-close issues (#5177) * bd0a<br>ccd8a chore(deps): bump github.com/spf<br>13/viper from 1.15.0 to 1.16.0 (#5093)<br> * ecee79403 fix(k8s): kbom support ad<br>dons labels (#5178) * 9ebc25d88 test: <br>validate SPDX with the JSON schema (#5<br>124) * 9a49a3773 chore: bump trivy-kub<br>ernetes-latest (#5161) * ad1dc6327 doc<br>s: add 'Signature Verification' guide <br>(#4731) * 7c68d4a7e docs: add image-sc<br>anner-with-trivy for ecosystem (#5159)<br> * ed49609a7 fix(fs): assign the absol<br>ute path to be inspected to ROOTPATH w<br>hen filesystem (#5158) * 19539722e cho<br>re(deps): bump github.com/CycloneDX/cy<br>clonedx-go (#5102) * c7516011b Update <br>filtering.md (#5131) * ccc6d7cb2 chore<br>(deps): bump sigstore/cosign-installer<br> (#5104) * 48cbf4553 chore(deps): bump<br> github.com/cyphar/filepath-securejoin<br> (#5143) * a9c2c74c5 chore(deps): bump<br> golangci/golangci-lint-action from 3.<br>6.0 to 3.7.0 (#5103) * 120ac68b5 chore<br>(deps): bump easimon/maximize-build-sp<br>ace from 7 to 8 (#5105) * 41eaa78ae ch<br>ore(deps): bump github.com/aws/aws-sdk<br>-go from 1.44.273 to 1.45.3 (#5126) * <br>932f92755 chaging adopters discussion <br>tempalte (#5091) * db3133346 chore(dep<br>s): bump github.com/cheggaaa/pb/v3 fro<br>m 3.1.2 to 3.1.4 (#5092) * 8c0b7d619 c<br>hore(deps): bump github.com/hashicorp/<br>golang-lru/v2 from 2.0.2 to 2.0.6 (#50<br>94) * c61c664c3 chore(deps): bump gith<br>ub.com/aws/aws-sdk-go-v2/config (#5095<br>) * a99944c1c chore(deps): bump github<br>.com/containerd/containerd from 1.7.3 <br>to 1.7.5 (#5097) * 9fc844ecf chore(dep<br>s): bump github.com/Azure/azure-sdk-fo<br>r-go/sdk/azidentity (#5098) * c504f8be<br>4 chore(deps): bump actions/checkout f<br>rom 3.5.3 to 3.6.0 (#5106)  |
-|2023-09-15 04:53:52|[captcha-killer-mo<br>dified](https://github.com/f0ng/captcha-killer-modified)|0.24.2|【2023-9-15】 0.24.2  - 优化@captcha-<br>killer-modified@关键字|
 ## 近15天commit提交记录
 | 提交时间 | 项目名称 | 更新内容 |
 | :---- | :---- | :---- |
-|2023-09-30 00:00:03|[free](https://github.com/freefq/free)|updated_at 09-30 08:00|
-|2023-09-29 23:36:21|[PocOrExp_in_Githu<br>b](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-09-30 07:36:21|
+|2023-10-01 00:00:03|[free](https://github.com/freefq/free)|updated_at 10-01 08:00|
+|2023-09-30 23:34:53|[PocOrExp_in_Githu<br>b](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-10-01 07:34:53|
+|2023-09-30 17:02:12|[beef](https://github.com/beefproject/beef)|Merge branch 'master' of https://github.com/beefpro<br>ject/beef|
+|2023-09-30 16:34:22|[kube-bench](https://github.com/aquasecurity/kube-bench)|build(deps): bump crazy-max/ghaction-docker-meta fr<br>om 4 to 5 (#1499)  Bumps  from 4 to 5. -  -  -   ---<br> updated-dependencies: - dependency-name: crazy-max/<br>ghaction-docker-meta   dependency-type: direct:produ<br>ction   update-type: version-update:semver-major ...<br>  Signed-off-by: dependabot[bot]  Co-authored-by: de<br>pendabot[bot] |
+|2023-09-30 14:26:57|[rustdesk](https://github.com/rustdesk/rustdesk)|Merge pull request #5868 from dignow/fix/reconnect_<br>potential_deadlock  fix, reconnect deadlock, introdu<br>ce connection round control|
+|2023-09-30 12:32:43|[v2rayfree](https://github.com/aiboboxx/v2rayfree)|update|
+|2023-09-30 01:05:09|[neuvector](https://github.com/neuvector/neuvector)|Merge pull request #1040 from gfsuse/main  NVSHAS-8<br>336, still need to let relevant nodes know there are<br> new workload detected so policy can be learned|
 |2023-09-29 17:01:38|[rengine](https://github.com/yogeshojha/rengine)|Merge pull request #884 from AnonymousWP/Add-licens<br>es-to-tool-arsenal  Add licenses to tool arsenal|
 |2023-09-29 14:49:14|[dbeaver](https://github.com/dbeaver/dbeaver)|dbeaver/pro#1916 Disable project settings save/load<br> for distributed projects|
-|2023-09-29 12:35:47|[v2rayfree](https://github.com/aiboboxx/v2rayfree)|update|
-|2023-09-29 05:09:13|[rustdesk](https://github.com/rustdesk/rustdesk)|Merge pull request #5856 from 21pages/fix  show rdp<br> menu only windows to windows|
-|2023-09-29 02:39:23|[neuvector](https://github.com/neuvector/neuvector)|Merge pull request #1036 from kyledong-suse/main  N<br>VSHAS-5703: Improve update FQDN field in graph|
 |2023-09-28 22:05:27|[clair](https://github.com/quay/clair)|'chore: update claircore to v1.5.17  Update clairco<br>re to latest release. '  Signed-off-by: Claircore-CI<br> |
 |2023-09-28 20:32:59|[impacket](https://github.com/fortra/impacket)|Merge pull request #1602 from rtpt-erikgeiser:ntlmr<br>elayx_log_initial_authentication|
 |2023-09-28 19:16:17|[FreeRDP](https://github.com/FreeRDP/FreeRDP)|locale: Fix X11 keyboard layout detection  This fix<br>es an issue with keyboard layout detection reintrodu<br>ced in #8960  The problem has already been fixed in <br>#6688 but got lost after refactoring.  The issue is <br>that the layout specifier might be a comma separated<br> list with country specifiers i.e. "at,us" which was<br> not correctly handled.|
@@ -53,7 +54,6 @@
 |2023-09-28 09:40:28|[afrog](https://github.com/zan8in/afrog)|update|
 |2023-09-28 08:24:35|[appshark](https://github.com/bytedance/appshark)|Merge pull request #53 from firmianay/dev3  fix doc|
 |2023-09-28 04:50:53|[autoDecoder](https://github.com/f0ng/autoDecoder)|Update flasktest.py|
-|2023-09-28 02:58:23|[beef](https://github.com/beefproject/beef)|Revert "Update install"  This reverts commit 61528a<br>408a2f30e0bfa1413a15ea36c3221fbe47.|
 |2023-09-27 16:27:32|[grype](https://github.com/anchore/grype)|chore(deps): update Syft to v0.92.0 (#1527)  Signed<br>-off-by: GitHub   Co-authored-by: willmurphyscode |
 |2023-09-27 11:03:23|[nuclei](https://github.com/projectdiscovery/nuclei)|updated template paths in workflows docs to match c<br>urrent locations (#4197)|
 |2023-09-27 10:12:16|[arthas](https://github.com/alibaba/arthas)|Prettified Code!|
@@ -92,10 +92,7 @@
 |2023-09-17 06:18:15|[Mobile-Security-F<br>ramework-MobSF](https://github.com/MobSF/Mobile-Security-Framework-MobSF)|[HOTFIX] Fix jadx and apktool failure due to JDK ch<br>anges (#2269)  * Fix jadx and apktool failure due to<br> JDK zip64 changes|
 |2023-09-16 16:50:54|[Template](https://github.com/1n7erface/Template)|Update README.md|
 |2023-09-16 12:17:38|[ChatGPT-Shortcut](https://github.com/rockbenben/ChatGPT-Shortcut)|docs: update docs|
-|2023-09-16 09:59:20|[kube-bench](https://github.com/aquasecurity/kube-bench)|build(deps): bump golang from 1.20.6 to 1.21.1 (#14<br>94)  Bumps golang from 1.20.6 to 1.21.1.    ---  upd<br>ated-dependencies:  - dependency-name: golang    dep<br>endency-type: direct:production    update-type: vers<br>ion-update:semver-minor  ...    Signed-off-by: depen<br>dabot[bot]   Co-authored-by: dependabot[bot] |
-|2023-09-16 09:19:44|[murphysec](https://github.com/murphysecurity/murphysec)|feat(cmd): add --project-name|
-|2023-09-15 04:53:00|[captcha-killer-mo<br>dified](https://github.com/f0ng/captcha-killer-modified)|Update README.md|
-|2023-09-15 04:31:07|[Intranet-tools](https://github.com/private-null/Intranet-tools)|Add files via upload|## 所有项目
+|2023-09-16 09:19:44|[murphysec](https://github.com/murphysecurity/murphysec)|feat(cmd): add --project-name|## 所有项目
 # 渗透测试
 ## 信息收集
 ### 资产测绘采集
