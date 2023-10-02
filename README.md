@@ -1,8 +1,9 @@
-# 更新于 2023-10-01 08:39:26
+# 更新于 2023-10-02 08:35:03
 
 ## 近15天release更新记录
 | 更新时间 | 项目名称 | 版本 | 更新内容 |
 | :---- | :---- | :---- | :---- |
+|2023-10-01 04:27:38|[PEASS-ng](https://github.com/carlospolop/PEASS-ng)|2023100<br>1-98cc00<br>49||
 |2023-09-29 12:22:42|[wpscan](https://github.com/wpscanteam/wpscan)|v3.8.25|## What's Changed  * Bump actions/che<br>ckout from 3 to 4 by @dependabot in ht<br>tps://github.com/wpscanteam/wpscan/pul<br>l/1798  * Update webmock requirement f<br>rom ~> 3.18.1 to ~> 3.19.1 by @dependa<br>bot in https://github.com/wpscanteam/w<br>pscan/pull/1797  * Bump docker/login-a<br>ction from 2.1.0 to 2.2.0 by @dependab<br>ot in https://github.com/wpscanteam/wp<br>scan/pull/1785      **Full Changelog**<br>: https://github.com/wpscanteam/wpscan<br>/compare/v3.8.24...v3.8.25|
 |2023-09-28 14:33:58|[nemo_go](https://github.com/hanc00l/nemo_go)|v2.10.2|  ### Update    - 信息收集全面支持ipv<br>6！|
 |2023-09-28 09:48:42|[afrog](https://github.com/zan8in/afrog)|v2.8.8|Added the '-web' command to start a w<br>eb service for viewing vulnerability r<br>eports, including current and historic<br>al records.   Updated some PoCs."    <br>新增 -web 命令用于启动一个 Web 服务，用<br>于查看漏洞报告（包括当前和历史记录）  <br>更新一部分 PoCs    Happy October 1st!|
@@ -17,7 +18,6 @@
 |2023-09-25 09:57:48|[Elkeid](https://github.com/bytedance/Elkeid)|scanner<br>-v2.2.0.<br>1-202309<br>25_2_tes<br>t_only||
 |2023-09-25 05:24:42|[HackerPermKeeper](https://github.com/RuoJi6/HackerPermKeeper)|4.0|修改ssh密钥以及添加用户中重新运行时候<br>，检测是否加锁解锁操作|
 |2023-09-24 12:43:39|[Viper](https://github.com/FunnyWolf/Viper)|2023-09<br>-25-09-5<br>8-43|  ### 新功能  - 自动编排新增Session定<br>时任务功能  - 新增TCPLOG服务器模块 (作<br>者)  - 新增Last日志删除模块 (作者)  ###<br> 优化  - 前端界面支持OSX的Payload和Han<br>dler生成  - Session展示区域支持伸缩(点<br>击右侧按钮扩大缩小)  - 合并metasploit-f<br>ramework 6.3.35版本      ### Bugfix  -<br> fix 监听通信通道选择Session后不显示问<br>题  - fix https://github.com/FunnyWolf/<br>Viper/issues/177 内存执行C#可执行文件<br>模块报错问题  |
-|2023-09-24 04:28:39|[PEASS-ng](https://github.com/carlospolop/PEASS-ng)|2023092<br>4-10138d<br>a9||
 |2023-09-24 02:48:52|[ghauri](https://github.com/r0oth3x49/ghauri)|1.2.5|Fixes:   - fixed #100 (--batch consid<br>ering on 403)   - fixed #90 (output of<br> re-dump properly)   - fixed #96 (upda<br>ted payloads)|
 |2023-09-22 09:29:27|[naabu](https://github.com/projectdiscovery/naabu)|v2.1.8|    ## What's Changed  ### Other Chan<br>ges  * Fixed issue with printing hostn<br>ame in passive mode by @dogancanbakir <br>in https://github.com/projectdiscovery<br>/naabu/pull/788      **Full Changelog*<br>*: https://github.com/projectdiscovery<br>/naabu/compare/v2.1.7...v2.1.8|
 |2023-09-20 14:43:08|[faker](https://github.com/joke2k/faker)|v19.6.2|See .|
@@ -26,27 +26,25 @@
 |2023-09-18 15:13:23|[mysql-fake-server](https://github.com/4ra1n/mysql-fake-server)|0.0.4|## 0.0.4    支持了两种JDBC的利用：PgS<br>QL和Apache Derby    - 重要更新：支持了<br>PgSQL RCE的利用Server  - 重要更新：支<br>持了Apache Derby利用Slave功能的RCE  - <br>优化依赖减小体积，使用更标准的Maven插件<br>打包配置  - 修复了某些情况下日志输出的<br>问题  - 恢复日志模式到INFO级别避免打印<br>过多无意义信息  - 对UI做了一些小改善|
 |2023-09-18 12:54:21|[ObserverWard](https://github.com/0x727/ObserverWard)|v2023.9<br>.18|## [2023.9.18] - 2023.9.18  ### Fixes<br>  - 修复charset没覆盖的情况，感谢@zema<br>1|
 |2023-09-17 08:47:51|[mitaka](https://github.com/ninoseki/mitaka)|v1.3.3|- Fix notification issue (#757)  - In<br>troduce  (#756)|
-|2023-09-16 16:46:31|[Template](https://github.com/1n7erface/Template)|v1.2.5|2023.9.17  1.更新了爆破模块多个底层库<br>的版本，可能会有些兼容问题，可以提bug. <br> 2.修改了一些隐藏的bug，增加了一些指纹<br>.  3.其他的优化～  因为工作调整原因,此<br>后的项目可能更新缓慢,朋友可以联系我微信<br>要最新版.  留在最后:  本项目是我在探索<br>内网之路的一些理解,比如极致并发(数据原<br>子化)、指纹识别、网段探测算法、启发式扫<br>描、生产者消费者模型、RPC远程调用.  市<br>场上的同款竞品很多,但希望各位还是能从本<br>项目中有所启发、有所收获.  用心去感受需<br>求,在产品中注入心血.  需要压缩版本的各<br>位可以自己使用upx压缩,也方便逆向的大佬<br>来检测是否存在后门.|
-|2023-09-16 16:01:01|[nuclei](https://github.com/projectdiscovery/nuclei)|v2.9.15|    ## What's Changed    ### 🐞 Bug F<br>ixes  * Fixed issue with request using<br> TE instead of CL header in certain ca<br>se by @tarunKoyalwar in https://github<br>.com/projectdiscovery/nuclei/pull/4154<br>  * Fixed issue with matcher status op<br>tion for cluster template execution by<br> @ShubhamRasal in https://github.com/p<br>rojectdiscovery/nuclei/pull/4132  * Fi<br>xed issue with loader for deterministi<br>c clustering by @Mzack9999 in https://<br>github.com/projectdiscovery/nuclei/pul<br>l/4124    ### 🔨 Maintenance  * Added <br>GH workflow for weekly performance tes<br>t by @Mzack9999 in https://github.com/<br>projectdiscovery/nuclei/pull/3861    #<br>## Other Changes  * Added port field i<br>n network protocol by @tarunKoyalwar i<br>n https://github.com/projectdiscovery/<br>nuclei/pull/4123  * Added docker usage<br> documentation by @kchason in https://<br>github.com/projectdiscovery/nuclei/pul<br>l/4155  * Added automated dockerhub do<br>cumentation by @kchason in https://git<br>hub.com/projectdiscovery/nuclei/pull/4<br>148  * Documentation typo updates by @<br>kchason in https://github.com/projectd<br>iscovery/nuclei/pull/4138  * Custom te<br>mplates documentation fixes by @kchaso<br>n in https://github.com/projectdiscove<br>ry/nuclei/pull/4149    **Full Changelo<br>g**: https://github.com/projectdiscove<br>ry/nuclei/compare/v2.9.14...v2.9.15|
-|2023-09-16 15:49:24|[autoDecoder](https://github.com/f0ng/autoDecoder)|0.32|## 2023.9.16 更新0.32  1. 明文关键字<br>、密文关键字的设置优化|
-|2023-09-16 12:23:19|[ffuf](https://github.com/ffuf/ffuf)|v2.1.0|## Changelog * 7a2756a Prepare for v2<br>.1.0 release (#724) * 36124a1 Default <br>to match 2XX  (#723) * e3e4e62 Report <br>if request times out while time matche<br>r / filter is active (#722) * e80fdc4 <br>[FEATURE] Extensible Auto-calibration <br>strategies (#694) * a7dea16 allow unus<br>ed wordlist in config file (#652) * 84<br>53335 Don't write a finishing newline <br>in silent mode (#677) * 02e6a73 Add -r<br>aw cli flag (#721) * 3fdb4e2 Automatic<br> brotli and deflate decompression (#72<br>0) * 6731988 Fix #718 (#719) * 9f2163a<br> fix csv output file format (#683) * 6<br>f29907 Fixed Error for HTML Output (#7<br>14) * 96fef62 Fix Issue696 -- Divide b<br>y 0 Error when setting rate to 0 manua<br>lly (#700) * 301968c Add cert authenti<br>cation to crawl (#713) * ca2224c Penco<br>de (#717) * 5fd821c Fix md output form<br>at (#672) * e979f72 bump golang.org/x/<br>net from 0.5.0 to 0.7.0 (#650) * b8705<br>ef Add additional check for keywords w<br>hen using sniper mode (#661) * a3bd865<br> Support older versions of TLS regardl<br>ess of Go defaults (#671) * 627c871 [F<br>ix] Fixed multiline output when using <br>only one fuzz variable (issue #645) (#<br>656) * b2c1f94 Fix HTML output (#640) <br> |
-|2023-09-16 07:29:33|[trivy](https://github.com/aquasecurity/trivy)|v0.45.1|## Changelog * daae88287 fix(purl): h<br>andle rust types (#5186) * 81240cf08 c<br>hore: auto-close issues (#5177) * bd0a<br>ccd8a chore(deps): bump github.com/spf<br>13/viper from 1.15.0 to 1.16.0 (#5093)<br> * ecee79403 fix(k8s): kbom support ad<br>dons labels (#5178) * 9ebc25d88 test: <br>validate SPDX with the JSON schema (#5<br>124) * 9a49a3773 chore: bump trivy-kub<br>ernetes-latest (#5161) * ad1dc6327 doc<br>s: add 'Signature Verification' guide <br>(#4731) * 7c68d4a7e docs: add image-sc<br>anner-with-trivy for ecosystem (#5159)<br> * ed49609a7 fix(fs): assign the absol<br>ute path to be inspected to ROOTPATH w<br>hen filesystem (#5158) * 19539722e cho<br>re(deps): bump github.com/CycloneDX/cy<br>clonedx-go (#5102) * c7516011b Update <br>filtering.md (#5131) * ccc6d7cb2 chore<br>(deps): bump sigstore/cosign-installer<br> (#5104) * 48cbf4553 chore(deps): bump<br> github.com/cyphar/filepath-securejoin<br> (#5143) * a9c2c74c5 chore(deps): bump<br> golangci/golangci-lint-action from 3.<br>6.0 to 3.7.0 (#5103) * 120ac68b5 chore<br>(deps): bump easimon/maximize-build-sp<br>ace from 7 to 8 (#5105) * 41eaa78ae ch<br>ore(deps): bump github.com/aws/aws-sdk<br>-go from 1.44.273 to 1.45.3 (#5126) * <br>932f92755 chaging adopters discussion <br>tempalte (#5091) * db3133346 chore(dep<br>s): bump github.com/cheggaaa/pb/v3 fro<br>m 3.1.2 to 3.1.4 (#5092) * 8c0b7d619 c<br>hore(deps): bump github.com/hashicorp/<br>golang-lru/v2 from 2.0.2 to 2.0.6 (#50<br>94) * c61c664c3 chore(deps): bump gith<br>ub.com/aws/aws-sdk-go-v2/config (#5095<br>) * a99944c1c chore(deps): bump github<br>.com/containerd/containerd from 1.7.3 <br>to 1.7.5 (#5097) * 9fc844ecf chore(dep<br>s): bump github.com/Azure/azure-sdk-fo<br>r-go/sdk/azidentity (#5098) * c504f8be<br>4 chore(deps): bump actions/checkout f<br>rom 3.5.3 to 3.6.0 (#5106)  |
 ## 近15天commit提交记录
 | 提交时间 | 项目名称 | 更新内容 |
 | :---- | :---- | :---- |
-|2023-10-01 00:00:03|[free](https://github.com/freefq/free)|updated_at 10-01 08:00|
-|2023-09-30 23:34:53|[PocOrExp_in_Githu<br>b](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-10-01 07:34:53|
+|2023-10-02 00:05:47|[rustdesk](https://github.com/rustdesk/rustdesk)|Merge pull request #5877 from leroyloren/master  Up<br>date cs.rs|
+|2023-10-02 00:00:04|[free](https://github.com/freefq/free)|updated_at 10-02 08:00|
+|2023-10-01 23:38:36|[PocOrExp_in_Githu<br>b](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-10-02 07:38:36|
+|2023-10-01 18:13:12|[trivy](https://github.com/aquasecurity/trivy)|Improve the meaning of  sentence (#5301)  Sentence <br>has incomplete meaning .  Go to this link to see the<br> issue: https://aquasecurity.github.io/trivy/v0.45/t<br>utorials/kubernetes/gitops/|
+|2023-10-01 17:36:05|[vulhub](https://github.com/vulhub/vulhub)|add librsvg CVE-2023-38633 and jumpserver CVE-2023-<br>42820 into environments.toml|
+|2023-10-01 12:50:32|[ObserverWard](https://github.com/0x727/ObserverWard)|Merge pull request #202 from 0x727/dependabot/cargo<br>/actix-web-httpauth-0.8.1  Bump actix-web-httpauth f<br>rom 0.8.0 to 0.8.1|
+|2023-10-01 12:32:54|[v2rayfree](https://github.com/aiboboxx/v2rayfree)|update|
+|2023-10-01 08:10:10|[awesome-chatgpt-z<br>h](https://github.com/yzfly/awesome-chatgpt-zh)|update openai plus|
 |2023-09-30 17:02:12|[beef](https://github.com/beefproject/beef)|Merge branch 'master' of https://github.com/beefpro<br>ject/beef|
 |2023-09-30 16:34:22|[kube-bench](https://github.com/aquasecurity/kube-bench)|build(deps): bump crazy-max/ghaction-docker-meta fr<br>om 4 to 5 (#1499)  Bumps  from 4 to 5. -  -  -   ---<br> updated-dependencies: - dependency-name: crazy-max/<br>ghaction-docker-meta   dependency-type: direct:produ<br>ction   update-type: version-update:semver-major ...<br>  Signed-off-by: dependabot[bot]  Co-authored-by: de<br>pendabot[bot] |
-|2023-09-30 14:26:57|[rustdesk](https://github.com/rustdesk/rustdesk)|Merge pull request #5868 from dignow/fix/reconnect_<br>potential_deadlock  fix, reconnect deadlock, introdu<br>ce connection round control|
-|2023-09-30 12:32:43|[v2rayfree](https://github.com/aiboboxx/v2rayfree)|update|
 |2023-09-30 01:05:09|[neuvector](https://github.com/neuvector/neuvector)|Merge pull request #1040 from gfsuse/main  NVSHAS-8<br>336, still need to let relevant nodes know there are<br> new workload detected so policy can be learned|
 |2023-09-29 17:01:38|[rengine](https://github.com/yogeshojha/rengine)|Merge pull request #884 from AnonymousWP/Add-licens<br>es-to-tool-arsenal  Add licenses to tool arsenal|
 |2023-09-29 14:49:14|[dbeaver](https://github.com/dbeaver/dbeaver)|dbeaver/pro#1916 Disable project settings save/load<br> for distributed projects|
 |2023-09-28 22:05:27|[clair](https://github.com/quay/clair)|'chore: update claircore to v1.5.17  Update clairco<br>re to latest release. '  Signed-off-by: Claircore-CI<br> |
 |2023-09-28 20:32:59|[impacket](https://github.com/fortra/impacket)|Merge pull request #1602 from rtpt-erikgeiser:ntlmr<br>elayx_log_initial_authentication|
 |2023-09-28 19:16:17|[FreeRDP](https://github.com/FreeRDP/FreeRDP)|locale: Fix X11 keyboard layout detection  This fix<br>es an issue with keyboard layout detection reintrodu<br>ced in #8960  The problem has already been fixed in <br>#6688 but got lost after refactoring.  The issue is <br>that the layout specifier might be a comma separated<br> list with country specifiers i.e. "at,us" which was<br> not correctly handled.|
-|2023-09-28 18:40:45|[trivy](https://github.com/aquasecurity/trivy)|docs: add info about github format (#5265)  * docs:<br> add info about github format  * rename GitHub SBOM <br>to GitHub dependency snapshots|
 |2023-09-28 18:34:52|[sqlmap](https://github.com/sqlmapproject/sqlmap)|Implements option --time-limit (#5502)|
 |2023-09-28 14:56:08|[syft](https://github.com/anchore/syft)|chore(deps): bump github/codeql-action from 2.21.8 <br>to 2.21.9 (#2182)  Bumps  from 2.21.8 to 2.21.9.  - <br>  -   -     ---  updated-dependencies:  - dependency<br>-name: github/codeql-action    dependency-type: dire<br>ct:production    update-type: version-update:semver-<br>patch  ...    Signed-off-by: dependabot[bot]   Co-au<br>thored-by: dependabot[bot] |
 |2023-09-28 14:23:14|[nemo_go](https://github.com/hanc00l/nemo_go)|Update: v2.10.2|
@@ -58,7 +56,6 @@
 |2023-09-27 11:03:23|[nuclei](https://github.com/projectdiscovery/nuclei)|updated template paths in workflows docs to match c<br>urrent locations (#4197)|
 |2023-09-27 10:12:16|[arthas](https://github.com/alibaba/arthas)|Prettified Code!|
 |2023-09-27 02:37:34|[vulnerability](https://github.com/lal0ne/vulnerability)|CVE-2023-31719|
-|2023-09-26 23:57:04|[awesome-chatgpt-z<br>h](https://github.com/yzfly/awesome-chatgpt-zh)|add FLAML, txtai|
 |2023-09-26 18:41:37|[wpscan](https://github.com/wpscanteam/wpscan)|Bump version|
 |2023-09-26 14:26:40|[cloudTools](https://github.com/dark-kingA/cloudTools)|update md|
 |2023-09-26 14:15:53|[iDefender](https://github.com/wecooperate/iDefender)|update|
@@ -74,7 +71,6 @@
 |2023-09-25 02:51:15|[ZoomEye-python](https://github.com/knownsec/ZoomEye-python)|Merge pull request #99 from WuZhaominn/master  upda<br>te config.py|
 |2023-09-24 12:40:27|[Viper](https://github.com/FunnyWolf/Viper)|update version 2023-09-24-20-18-56|
 |2023-09-24 02:45:20|[ghauri](https://github.com/r0oth3x49/ghauri)|added multiple fixes such as considering --batch sw<br>itch on 403 forbidden, csv export data, csv re-dump,<br> invaludURL with --skip-urlencode switch, fixed #90,<br> fixed #92, fixed #96, fixed #100, bumped version 1.<br>2.5|
-|2023-09-22 15:17:08|[vulhub](https://github.com/vulhub/vulhub)|Merge pull request #463 from vulhub/librsvg-cve-202<br>3-38633  added librsvg CVE-2023-38633|
 |2023-09-22 09:22:12|[naabu](https://github.com/projectdiscovery/naabu)|Merge branch 'dev'|
 |2023-09-22 06:48:26|[0_zone_tool](https://github.com/wkend/0_zone_tool)|Update README.md|
 |2023-09-20 14:41:31|[faker](https://github.com/joke2k/faker)|Bump version: 19.6.1 → 19.6.2|
@@ -85,14 +81,10 @@
 |2023-09-19 12:29:48|[All-Defense-Tool](https://github.com/guchangan1/All-Defense-Tool)|更新v3.0|
 |2023-09-18 15:32:22|[dalfox](https://github.com/hahwul/dalfox)|Merge pull request #489 from hahwul/dependabot/go_m<br>odules/github.com/swaggo/swag-1.16.2  Bump github.co<br>m/swaggo/swag from 1.16.1 to 1.16.2|
 |2023-09-18 15:12:06|[mysql-fake-server](https://github.com/4ra1n/mysql-fake-server)|change log|
-|2023-09-18 12:53:55|[ObserverWard](https://github.com/0x727/ObserverWard)|update|
 |2023-09-18 07:40:58|[Awesome-Redteam](https://github.com/Threekiii/Awesome-Redteam)|更新README.md|
 |2023-09-17 13:47:48|[DecoyMini](https://github.com/decoymini/DecoyMini)|Update README.md|
 |2023-09-17 08:40:13|[mitaka](https://github.com/ninoseki/mitaka)|Merge pull request #758 from ninoseki/v1.3.3  v1.3.<br>3|
-|2023-09-17 06:18:15|[Mobile-Security-F<br>ramework-MobSF](https://github.com/MobSF/Mobile-Security-Framework-MobSF)|[HOTFIX] Fix jadx and apktool failure due to JDK ch<br>anges (#2269)  * Fix jadx and apktool failure due to<br> JDK zip64 changes|
-|2023-09-16 16:50:54|[Template](https://github.com/1n7erface/Template)|Update README.md|
-|2023-09-16 12:17:38|[ChatGPT-Shortcut](https://github.com/rockbenben/ChatGPT-Shortcut)|docs: update docs|
-|2023-09-16 09:19:44|[murphysec](https://github.com/murphysecurity/murphysec)|feat(cmd): add --project-name|## 所有项目
+|2023-09-17 06:18:15|[Mobile-Security-F<br>ramework-MobSF](https://github.com/MobSF/Mobile-Security-Framework-MobSF)|[HOTFIX] Fix jadx and apktool failure due to JDK ch<br>anges (#2269)  * Fix jadx and apktool failure due to<br> JDK zip64 changes|## 所有项目
 # 渗透测试
 ## 信息收集
 ### 资产测绘采集
@@ -740,7 +732,7 @@
 | [dirtycow](https://github.com/firefart/dirtycow) |  | Dirty Cow exploit - CVE-2016-5195 |
 | [traitor](https://github.com/liamg/traitor) | v0.0.14 | :arrow_up: :skull_and_crossbones: :fire: Automatic Linux prive<br>sc via exploitation of low-hanging fruit e.g. gtfobins, pwnkit,<br> dirty pipe, +w docker.sock |
 | [LinEnum](https://github.com/rebootuser/LinEnum) |  | Scripted Local Linux Enumeration & Privilege Escalation Checks |
-| [PEASS-ng](https://github.com/carlospolop/PEASS-ng) | 2023092<br>4-10138d<br>a9 | PEASS - Privilege Escalation Awesome Scripts SUITE (with color<br>s) |
+| [PEASS-ng](https://github.com/carlospolop/PEASS-ng) | 2023100<br>1-98cc00<br>49 | PEASS - Privilege Escalation Awesome Scripts SUITE (with color<br>s) |
 | | | https://i.hacking8.com/tiquan/ |
 ### 综合
 | 项目名称 | 版本 | 项目描述 |

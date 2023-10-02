@@ -200,8 +200,8 @@
     "https://github.com/ycdxsb/PocOrExp_in_Github": {
         "created_at": "2021-04-13 05:46:16",
         "description": "聚合Github上已有的Poc或者Exp，CVE信息来自CVE官网。Auto Collect Poc Or Exp from Github by CVE ID.",
-        "commit_date": "2023-09-30 23:34:53",
-        "commit_message": "update 2023-10-01 07:34:53",
+        "commit_date": "2023-10-01 23:38:36",
+        "commit_message": "update 2023-10-02 07:38:36",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -3703,8 +3703,8 @@
         "description": "PEASS - Privilege Escalation Awesome Scripts SUITE (with colors)",
         "commit_date": "2023-08-24 17:48:31",
         "commit_message": "Update ProcessInfo.cs",
-        "release_tag": "20230924-10138da9",
-        "release_date": "2023-09-24 04:28:39",
+        "release_tag": "20231001-98cc0049",
+        "release_date": "2023-10-01 04:27:38",
         "release_message": ""
     },
     "https://github.com/waderwu/attackRmi": {
@@ -3971,8 +3971,8 @@
     "https://github.com/aquasecurity/trivy": {
         "created_at": "2019-04-11 01:01:07",
         "description": "Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more",
-        "commit_date": "2023-09-28 18:40:45",
-        "commit_message": "docs: add info about `github` format (#5265)\n\n* docs: add info about github format\n\n* rename `GitHub SBOM` to `GitHub dependency snapshots`",
+        "commit_date": "2023-10-01 18:13:12",
+        "commit_message": "Improve the meaning of  sentence (#5301)\n\nSentence has incomplete meaning .\r\nGo to this link to see the issue: https://aquasecurity.github.io/trivy/v0.45/tutorials/kubernetes/gitops/",
         "release_tag": "v0.45.1",
         "release_date": "2023-09-16 07:29:33",
         "release_message": "## Changelog\n* daae88287 fix(purl): handle rust types (#5186)\n* 81240cf08 chore: auto-close issues (#5177)\n* bd0accd8a chore(deps): bump github.com/spf13/viper from 1.15.0 to 1.16.0 (#5093)\n* ecee79403 fix(k8s): kbom support addons labels (#5178)\n* 9ebc25d88 test: validate SPDX with the JSON schema (#5124)\n* 9a49a3773 chore: bump trivy-kubernetes-latest (#5161)\n* ad1dc6327 docs: add 'Signature Verification' guide (#4731)\n* 7c68d4a7e docs: add image-scanner-with-trivy for ecosystem (#5159)\n* ed49609a7 fix(fs): assign the absolute path to be inspected to ROOTPATH when filesystem (#5158)\n* 19539722e chore(deps): bump github.com/CycloneDX/cyclonedx-go (#5102)\n* c7516011b Update filtering.md (#5131)\n* ccc6d7cb2 chore(deps): bump sigstore/cosign-installer (#5104)\n* 48cbf4553 chore(deps): bump github.com/cyphar/filepath-securejoin (#5143)\n* a9c2c74c5 chore(deps): bump golangci/golangci-lint-action from 3.6.0 to 3.7.0 (#5103)\n* 120ac68b5 chore(deps): bump easimon/maximize-build-space from 7 to 8 (#5105)\n* 41eaa78ae chore(deps): bump github.com/aws/aws-sdk-go from 1.44.273 to 1.45.3 (#5126)\n* 932f92755 chaging adopters discussion tempalte (#5091)\n* db3133346 chore(deps): bump github.com/cheggaaa/pb/v3 from 3.1.2 to 3.1.4 (#5092)\n* 8c0b7d619 chore(deps): bump github.com/hashicorp/golang-lru/v2 from 2.0.2 to 2.0.6 (#5094)\n* c61c664c3 chore(deps): bump github.com/aws/aws-sdk-go-v2/config (#5095)\n* a99944c1c chore(deps): bump github.com/containerd/containerd from 1.7.3 to 1.7.5 (#5097)\n* 9fc844ecf chore(deps): bump github.com/Azure/azure-sdk-for-go/sdk/azidentity (#5098)\n* c504f8be4 chore(deps): bump actions/checkout from 3.5.3 to 3.6.0 (#5106)\n\n"
@@ -4169,8 +4169,8 @@
     "https://github.com/vulhub/vulhub": {
         "created_at": "2017-04-09 10:13:13",
         "description": "Pre-Built Vulnerable Environments Based on Docker-Compose",
-        "commit_date": "2023-09-22 15:17:08",
-        "commit_message": "Merge pull request #463 from vulhub/librsvg-cve-2023-38633\n\nadded librsvg CVE-2023-38633",
+        "commit_date": "2023-10-01 17:36:05",
+        "commit_message": "add librsvg CVE-2023-38633 and jumpserver CVE-2023-42820 into environments.toml",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -4277,7 +4277,7 @@
     "https://github.com/aiboboxx/v2rayfree": {
         "created_at": "2021-10-13 11:34:53",
         "description": "v2ray节点、免费节点、免费v2ray节点、最新公益免费v2ray节点订阅地址、免费v2ray节点每日更新、免费ss/v2ray/trojan节点、freefq ",
-        "commit_date": "2023-09-30 12:32:43",
+        "commit_date": "2023-10-01 12:32:54",
         "commit_message": "update",
         "release_tag": "",
         "release_date": "",
@@ -4322,8 +4322,8 @@
     "https://github.com/freefq/free": {
         "created_at": "2020-06-07 02:48:33",
         "description": "翻墙、免费翻墙、免费科学上网、免费节点、免费梯子、免费ss/v2ray/trojan节点、蓝灯、谷歌商店、翻墙梯子",
-        "commit_date": "2023-10-01 00:00:03",
-        "commit_message": "updated_at 10-01 08:00",
+        "commit_date": "2023-10-02 00:00:04",
+        "commit_message": "updated_at 10-02 08:00",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -4592,8 +4592,8 @@
     "https://github.com/yzfly/awesome-chatgpt-zh": {
         "created_at": "2023-03-21 02:16:34",
         "description": "ChatGPT 中文指南🔥，ChatGPT 中文调教指南，指令指南，应用开发指南，精选资源清单，更好的使用 chatGPT 让你的生产力 up up up! 🚀",
-        "commit_date": "2023-09-26 23:57:04",
-        "commit_message": "add FLAML, txtai",
+        "commit_date": "2023-10-01 08:10:10",
+        "commit_message": "update openai plus",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -4817,8 +4817,8 @@
     "https://github.com/0x727/ObserverWard": {
         "created_at": "2021-08-21 10:11:41",
         "description": "Cross platform community web fingerprint identification tool",
-        "commit_date": "2023-09-18 12:53:55",
-        "commit_message": "update",
+        "commit_date": "2023-10-01 12:50:32",
+        "commit_message": "Merge pull request #202 from 0x727/dependabot/cargo/actix-web-httpauth-0.8.1\n\nBump actix-web-httpauth from 0.8.0 to 0.8.1",
         "release_tag": "v2023.9.18",
         "release_date": "2023-09-18 12:54:21",
         "release_message": "## [2023.9.18] - 2023.9.18\n\n### Fixes\n\n- 修复charset没覆盖的情况，感谢@zema1"
@@ -5004,8 +5004,8 @@
     "https://github.com/rustdesk/rustdesk": {
         "created_at": "2020-09-28 15:36:08",
         "description": "An open-source remote desktop, and alternative to TeamViewer.",
-        "commit_date": "2023-09-30 14:26:57",
-        "commit_message": "Merge pull request #5868 from dignow/fix/reconnect_potential_deadlock\n\nfix, reconnect deadlock, introduce connection round control",
+        "commit_date": "2023-10-02 00:05:47",
+        "commit_message": "Merge pull request #5877 from leroyloren/master\n\nUpdate cs.rs",
         "release_tag": "1.2.2",
         "release_date": "2023-08-22 01:44:36",
         "release_message": "![image](https://github.com/rustdesk/rustdesk/assets/71636191/83754a64-31b8-47f0-8570-da22207759a9)\r\n\r\n> Winget, FDroid, Apple Sillicon, Google Play / App Store update will come soon.\r\n\r\nx86-64: [Windows](https://github.com/rustdesk/rustdesk/releases/download/1.2.2/rustdesk-1.2.2-x86_64.exe) | [Ubuntu](https://github.com/rustdesk/rustdesk/releases/download/1.2.2/rustdesk-1.2.2-x86_64.deb) | [Mac](https://github.com/rustdesk/rustdesk/releases/download/1.2.2/rustdesk-1.2.2-x86_64.dmg)\r\nAArch64 (ARM64):  [Ubuntu](https://github.com/rustdesk/rustdesk/releases/download/1.2.2/rustdesk-1.2.2-aarch64.deb) | [Android](https://github.com/rustdesk/rustdesk/releases/download/1.2.2/rustdesk-1.2.2-aarch64-signed.apk) | [Mac](https://github.com/rustdesk/rustdesk/releases/download/1.2.2/rustdesk-1.2.2-aarch64.dmg)\r\n\r\nMore: [check below please](#)\r\n\r\n<details>\r\n<summary>Changelog</summary>\r\n\r\n- Add separate window mode (tab window by default), https://github.com/rustdesk/rustdesk/discussions/2889\r\n![image](https://github.com/rustdesk/rustdesk/assets/71636191/0c73bc6a-8659-4a67-9425-47625a6aded3)\r\n- Fix and improve responsiveness issue introduced in 1.2.0. https://github.com/rustdesk/rustdesk/discussions/5231\r\n- Add device list batch handle\r\n![image](https://github.com/rustdesk/rustdesk/assets/71636191/0ca85b8e-bed3-48ad-a43f-82df983986f3)\r\n- Add command to assign user and strategy for [RustDesk Server Pro](https://rustdesk.com/docs/en/self-host/pro/)\r\n- Optimize address book, syncing password, alias name, device name etc, add tag color, improve error and update status handling\r\n![image](https://github.com/rustdesk/rustdesk/assets/71636191/21d7a226-b863-4dc2-a9d3-fb6cd3a56c5c)\r\n- Fix windows file copy/paste\r\n- Fix \"waiting for image...\" still shown after receiving image bug, refactored rust->flutter message handling https://github.com/rustdesk/rustdesk/issues/4533\r\n- Improve some touchpad support, https://github.com/rustdesk/rustdesk/pull/5049\r\n- Bug fixes.\r\n\r\n</details>\r\n"
