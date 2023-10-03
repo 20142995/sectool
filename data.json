@@ -65,8 +65,8 @@
     "https://github.com/pppscn/SmsForwarder": {
         "created_at": "2021-02-10 02:23:07",
         "description": "短信转发器——监控Android手机短信、来电、APP通知，并根据指定规则转发到其他手机：钉钉群自定义机器人、钉钉企业内机器人、企业微信群机器人、飞书机器人、企业微信应用消息、邮箱、bark、webhook、Telegram机器人、Server酱、PushPlus、手机短信等。包括主动控制服务端与客户端，让你轻松远程发短信、查短信、查通话、查话簿、查电量等。（V3.0 新增）PS.这个APK主要是学习与自用，如有BUG请提ISSUE，同时欢迎大家提PR指正",
-        "commit_date": "2023-07-30 02:22:35",
-        "commit_message": "新增：webParams 的 `[receive_time]` 标签支持自定义时间格式 #327",
+        "commit_date": "2023-10-02 14:32:38",
+        "commit_message": "新增：短信指令增加短信发送功能 #338",
         "release_tag": "v3.2.0",
         "release_date": "2023-02-14 09:25:00",
         "release_message": "PS. 距离上一次1024发版，已经过去快5个月了，期间发生不少事，一直没更新这个项目，不管如何，魔幻的2022年都过去了！\r\n\r\n感谢大家这2年来的陪伴与支持，祝大家有情人终成眷属，情人节快乐！\r\n\r\n---\r\n\r\n### 【注意】\r\n\r\n* v3.x版本是全新重构开发，可能一开始并不稳定，建议升级前先做好数据备份！（客户端>一键换新机>离线模式>导出）\r\n\r\n* `v3.2.0` 去除了 `mmkv` 依赖，采用 `SharedPreferences` 来保存配置，升级之后通用设置中的配置请重新配置，具体原因参见 [Issue #245](https://github.com/pppscn/SmsForwarder/issues/245)\r\n\r\n* 升级完毕后，建议离线导出配置，完全卸载干净全新安装后再导入配置（可以避免一些莫名其妙的玄学问题，例如：耗电异常）\r\n\r\n---\r\n\r\n### 更新日志\r\n\r\n* 新增：短信指令（根据短信指令开关对应功能） #I5YX3F\r\n* 新增：监听网络状态变化提醒（APP通知转发，包名：77777777） #259\r\n* 新增：远程改话簿（方便给老人家添加联系人） #256\r\n* 新增：远程查询手机定位（方便找回手机/防止老少走丢） #256\r\n* 新增：Socket发送通道（支持MQTT/TCP/UDP协议） #252\r\n* 新增：发送通道 URL Scheme（支持跨应用数据传递）#250\r\n* 新增：自动消除额外APP通知 #232 #248\r\n\r\n* 优化：短信/通话转发获取卡槽信息机制（自行备注卡槽SubId对应）#228 #235\r\n* 优化：来电转发逻辑 & 新增提醒类型（1.来电挂机 2.去电挂机 3.未接来电 4.来电提醒 5.来电接通 6.去电拨出）\r\n* 优化：单个转发规则支持绑定多个发送通道，且支持执行逻辑（全部执行/失败即止/成功即止） #247\r\n* 优化：转发日志列表以原始信息为主，聚合展示转发日志（一对多）\r\n* 优化：已安装App信息列表异步加载机制\r\n* 优化：电池状态监听/网络状态监控 在未开启去重时默认开启1秒去重\r\n* 优化：利用BatteryReceiver守护自启动的Frpc (试验) #254\r\n\r\n* 修复：Android 13 无法授予通知权限 #255\r\n* 修复：重启手机自动启动APP时加载配置失败 #233 #245\r\n* 修复：转发消息遍历发送通道时未跳过已禁用的通道\r\n* 修复：降级Android Gradle插件版本以兼容4.4 (#249 by NyaMisty)\r\n\r\n* 升级：andserver到2.1.12（加快web端上下行速度等）\r\n* 升级：frpclib 到 v0.47.0\r\n* 升级：androidx组件和kotlin版本\r\n\r\n还有一些细微调整参见`github`提交记录\r\n\r\n---\r\n\r\n### APK版本说明：\r\n* universal（10XXXX）: 通用版（不在乎安装包大小/懒得选就用这个版本，包含以下4种CPU架构so）\r\n* armeabi-v7a（20XXXX）: 32位ARM设备（备用机首选）\r\n* arm64-v8a（30XXXX）: 64位ARM设备（主流旗舰机）\r\n* x86（40XXXX）: 32位Intel设备\r\n* x86_64（50XXXX）: 64/32位Intel设备"
@@ -200,8 +200,8 @@
     "https://github.com/ycdxsb/PocOrExp_in_Github": {
         "created_at": "2021-04-13 05:46:16",
         "description": "聚合Github上已有的Poc或者Exp，CVE信息来自CVE官网。Auto Collect Poc Or Exp from Github by CVE ID.",
-        "commit_date": "2023-10-01 23:38:36",
-        "commit_message": "update 2023-10-02 07:38:36",
+        "commit_date": "2023-10-02 23:33:26",
+        "commit_message": "update 2023-10-03 07:33:26",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -1467,11 +1467,11 @@
     "https://github.com/summitt/Burp-Non-HTTP-Extension": {
         "created_at": "2016-05-23 20:30:34",
         "description": "Non-HTTP Protocol Extension (NoPE) Proxy and DNS for Burp Suite.",
-        "commit_date": "2023-07-21 04:27:37",
+        "commit_date": "2023-10-02 15:24:23",
         "commit_message": "Update README.md",
-        "release_tag": "v1.7.2",
-        "release_date": "2023-07-12 08:50:03",
-        "release_message": "* Fixed Port Monitor"
+        "release_tag": "v1.8.0",
+        "release_date": "2023-10-02 14:46:33",
+        "release_message": "### New Features\r\n- UDP proxy with python manglers and interceptor support\r\n- Better search features\r\n\r\n### Bug Fixes\r\n- Fixed bug when clearing request table that would freeze the UI\r\n- Minor bugs and UI tweaks\r\n\r\n### Known issues:\r\n- Repeater not working for UDP"
     },
     "https://github.com/SiJiDo/H": {
         "created_at": "2021-09-10 06:49:28",
@@ -2951,8 +2951,8 @@
     "https://github.com/dbeaver/dbeaver": {
         "created_at": "2015-10-21 08:26:28",
         "description": "Free universal database tool and SQL client",
-        "commit_date": "2023-09-29 14:49:14",
-        "commit_message": "dbeaver/pro#1916 Disable project settings save/load for distributed projects",
+        "commit_date": "2023-10-02 13:47:46",
+        "commit_message": "dbeaver/pro#1605 add custom endpoint configuration & UI refactoring (#20069)\n\n* dbeaver/pro#1605 add custom endpoint configuration & UI refactoring\r\n\r\nSigned-off-by: Georgii Gvinepadze <fireshowel@gmail.com>\r\n\r\n* dbeaver/pro#1605 code cleanup\r\n\r\nSigned-off-by: Georgii Gvinepadze <fireshowel@gmail.com>\r\n\r\n* dbeaver/pro#1605 azure service\r\n\r\n* dbeaver/pro#1605 AI Engine model refactoring & Preferences UI change & Add Azure OpenAI Engine\r\n\r\n* dbeaver/pro#1605 formatting\r\n\r\n---------\r\n\r\nSigned-off-by: Georgii Gvinepadze <fireshowel@gmail.com>\r\nCo-authored-by: Serge Rider <serge@jkiss.org>",
         "release_tag": "23.2.1",
         "release_date": "2023-09-26 05:31:33",
         "release_message": "\n                - SQL Editor:\n                    - Aliases proposals for tables with joins were improved\n                    - SQL console can now be saved as a script\n                    - Enhanced smart completion is enabled (configurable)\n                    - Issue with big string contents (json, xml) edit was resolved\n                    - JSON formatting in the separate editor was fixed\n                    - Ctrl+Alt+6 shortcut was changed to Ctrl+Alt+T\n                    - JSON functions keywords were added to the SQL Assist\n                    - Representation of errors on query execution was fixed\n                - ER Diagrams: issue with duplicate relations on the diagram was fixed\n                - Data Editor:\n                    - Big content representation end editing was limited to 1MB (configurable)\n                    - User can now add a shortcut for setting row color\n                    - Issue with hiding the wrong column from the context menu was resolved\n                    - Grouping panel now shows actual executed SQL\n                    - Decimal rounding error was fixed\n                - General UI:\n                    - When exporting a project, a warning about replacing an existing project was added (thanks to @MontejoJorge)\n                    - Scroll bars were added on the connection page, and other wizards\n                    - Issue with broken quotes in localization files was resolved\n                - Connectivity:\n                    - Driver download UI was improved: already downloaded driver files are colored in grey\n                    - JDBC drivers maven artifacts resolve was fixed\n                    - The \"Propagate driver properties\" option was added to the driver settings\n                - New drivers:\n                    - JDBCX driver was added (thanks to @zhicwu)\n                - Databases:\n                    - Clickhouse: IPv4 data representation was fixed\n                    - Greenplum: External tables representation was fixe\n                    - MySQL: Unsupported engine types are replaced with the default one\n                    - Oceanbase:\n                        - Views editor was supported\n                        - Routines and procedure parameters read was fixed\n                    - PostgreSQL:\n                        - Foreign tables folder was added\n                        - Enum data types reading performance was enhanced\n                    - Redshift: Backup/Restore tools were deprecated and removed from UI\n                    - Snowflake:\n                        - Driver was updated to 3.13.25\n                        - Materialized views are now supported\n                        - Schema create UI was enhanced was enhanced\n                    Trino: Views DDL support was added\n            "
@@ -3059,8 +3059,8 @@
     "https://github.com/moonD4rk/HackBrowserData": {
         "created_at": "2020-06-18 03:24:31",
         "description": "Decrypt passwords/cookies/history/bookmarks from the browser. 一款可全平台运行的浏览器数据导出解密工具。",
-        "commit_date": "2023-07-16 01:33:27",
-        "commit_message": "chore: update contributors [skip ci]",
+        "commit_date": "2023-10-02 14:37:42",
+        "commit_message": "chore: update Go version and dependencies for builds\n\n- Update Go version from `1.20` to `1.21` in go.mod, .github/workflows/build.yml, and .github/workflows/lint.yml",
         "release_tag": "v0.4.4",
         "release_date": "2022-08-16 11:59:57",
         "release_message": "## Changes\r\n- fix: find Chrome cookie file failed on windows @moonD4rk (#162)\r\n- deploy: update more check on CI @moonD4rk (#160)\r\n- refactor: formate code by golangci-lint @moonD4rk (#159)\r\n- fix: can not access the file Error when compress results @slimwang (#156)"
@@ -3469,8 +3469,8 @@
     "https://github.com/yogeshojha/rengine": {
         "created_at": "2020-05-03 12:13:12",
         "description": "reNgine is an automated reconnaissance framework for web applications with a focus on highly configurable streamlined recon process via Engines, recon data correlation and organization, continuous monitoring, backed by a database, and simple yet intuitive User Interface. reNgine makes it easy for penetration testers to gather reconnaissance with minimal configuration and with the help of reNgine's correlation, it just makes recon effortless.",
-        "commit_date": "2023-09-29 17:01:38",
-        "commit_message": "Merge pull request #884 from AnonymousWP/Add-licenses-to-tool-arsenal\n\nAdd licenses to tool arsenal",
+        "commit_date": "2023-10-02 11:38:00",
+        "commit_message": "Merge pull request #964 from AnonymousWP/make-fields-mandatory\n\nchore(issue-templates): require more fields to be filled in",
         "release_tag": "v1.3.6",
         "release_date": "2023-03-22 04:31:21",
         "release_message": "Fixed Various Installation Errors\r\nFixed Naabu Port Scanning Issue"
@@ -3701,10 +3701,10 @@
     "https://github.com/carlospolop/PEASS-ng": {
         "created_at": "2019-01-13 19:58:24",
         "description": "PEASS - Privilege Escalation Awesome Scripts SUITE (with colors)",
-        "commit_date": "2023-08-24 17:48:31",
-        "commit_message": "Update ProcessInfo.cs",
-        "release_tag": "20231001-98cc0049",
-        "release_date": "2023-10-01 04:27:38",
+        "commit_date": "2023-10-02 21:54:28",
+        "commit_message": "Update 9_interesting_files.sh",
+        "release_tag": "20231002-59c6f6e6",
+        "release_date": "2023-10-02 22:12:50",
         "release_message": ""
     },
     "https://github.com/waderwu/attackRmi": {
@@ -3881,8 +3881,8 @@
     "https://github.com/aquasecurity/kube-bench": {
         "created_at": "2017-06-19 13:27:02",
         "description": "Checks whether Kubernetes is deployed according to security best practices as defined in the CIS Kubernetes Benchmark",
-        "commit_date": "2023-09-30 16:34:22",
-        "commit_message": "build(deps): bump crazy-max/ghaction-docker-meta from 4 to 5 (#1499)\n\nBumps [crazy-max/ghaction-docker-meta](https://github.com/crazy-max/ghaction-docker-meta) from 4 to 5.\n- [Release notes](https://github.com/crazy-max/ghaction-docker-meta/releases)\n- [Upgrade guide](https://github.com/docker/metadata-action/blob/master/UPGRADE.md)\n- [Commits](https://github.com/crazy-max/ghaction-docker-meta/compare/v4...v5)\n\n---\nupdated-dependencies:\n- dependency-name: crazy-max/ghaction-docker-meta\n  dependency-type: direct:production\n  update-type: version-update:semver-major\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
+        "commit_date": "2023-10-02 09:39:24",
+        "commit_message": "updates to the readme\n\nSigned-off-by: AnaisUrlichs <urlichsanais@gmail.com>",
         "release_tag": "v0.6.17",
         "release_date": "2023-07-25 09:51:02",
         "release_message": "## Changelog\n* c8cabc4 Update job.yaml (#1477)\n\n"
@@ -3890,8 +3890,8 @@
     "https://github.com/neuvector/neuvector": {
         "created_at": "2021-12-17 20:15:03",
         "description": "",
-        "commit_date": "2023-09-30 01:05:09",
-        "commit_message": "Merge pull request #1040 from gfsuse/main\n\nNVSHAS-8336, still need to let relevant nodes know there are new workload detected so policy can be learned",
+        "commit_date": "2023-10-02 16:55:30",
+        "commit_message": "Merge pull request #1041 from gfsuse/main\n\nNVSHAS-8338, fix crash due to assignment to entry in nil map",
         "release_tag": "v5.2.1",
         "release_date": "2023-08-22 23:29:15",
         "release_message": "Features\r\nNVSHAS-7449: Report layered scan result to syslog\r\nNVSHAS-6974: Export NIST compliance report\r\nNVSHAS-8157: Handle Proxy setting in image signature verification\r\nNVSHAS-8034: Include image signature result in the downloaded CVE report\r\nNVSHAS-7483: Pod annotations for Admission Control Policies\r\n\r\nBug fixes\r\nNVSHAS-8200: Do not create default admin with default password in NV fresh deployment for AWS billing offering\r\nNVSHAS-8172: .json file increased size and crashed a kubernetes node\r\nNVSHAS-7963: Improve SQL injection detection logics\r\nNVSHAS-8128: when install helm crd chart first before insatlling core chart, service accounts are missing\r\nNVSHAS-8106: Image scan I.4.1 compliance result is incorrect\r\nNVSHAS-8050: Vulnerability advance filter report showing images from all other namespace"
@@ -3908,8 +3908,8 @@
     "https://github.com/anchore/syft": {
         "created_at": "2020-05-07 18:19:29",
         "description": "CLI tool and library for generating a Software Bill of Materials from container images and filesystems",
-        "commit_date": "2023-09-28 14:56:08",
-        "commit_message": "chore(deps): bump github/codeql-action from 2.21.8 to 2.21.9 (#2182)\n\nBumps [github/codeql-action](https://github.com/github/codeql-action) from 2.21.8 to 2.21.9.\r\n- [Release notes](https://github.com/github/codeql-action/releases)\r\n- [Changelog](https://github.com/github/codeql-action/blob/main/CHANGELOG.md)\r\n- [Commits](https://github.com/github/codeql-action/compare/6a28655e3dcb49cb0840ea372fd6d17733edd8a4...ddccb873888234080b77e9bc2d4764d5ccaaccf9)\r\n\r\n---\r\nupdated-dependencies:\r\n- dependency-name: github/codeql-action\r\n  dependency-type: direct:production\r\n  update-type: version-update:semver-patch\r\n...\r\n\r\nSigned-off-by: dependabot[bot] <support@github.com>\r\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
+        "commit_date": "2023-10-02 16:34:59",
+        "commit_message": "chore(deps): bump modernc.org/sqlite from 1.25.0 to 1.26.0 (#2189)\n\nBumps [modernc.org/sqlite](https://gitlab.com/cznic/sqlite) from 1.25.0 to 1.26.0.\r\n- [Commits](https://gitlab.com/cznic/sqlite/compare/v1.25.0...v1.26.0)\r\n\r\n---\r\nupdated-dependencies:\r\n- dependency-name: modernc.org/sqlite\r\n  dependency-type: direct:production\r\n  update-type: version-update:semver-minor\r\n...\r\n\r\nSigned-off-by: dependabot[bot] <support@github.com>\r\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
         "release_tag": "v0.92.0",
         "release_date": "2023-09-27 15:52:50",
         "release_message": "### Added Features\n\n- Support for multiple image refs of same sha in OCI layout [[#1544](https://github.com/anchore/syft/issues/1544)]\n\n### Bug Fixes\n\n- Generated purls are different between runs of syft against the same image and artifact [[#2169](https://github.com/anchore/syft/issues/2169) [#2170](https://github.com/anchore/syft/pull/2170) @willmurphyscode]\n\n### Additional Changes\n\n- bump stereoscope to fix data race in UI code [[#2173](https://github.com/anchore/syft/pull/2173) @willmurphyscode]\n\n**[(Full Changelog)](https://github.com/anchore/syft/compare/v0.91.0...v0.92.0)**\n\n"
@@ -3962,8 +3962,8 @@
     "https://github.com/alphasoc/flightsim": {
         "created_at": "2018-01-10 12:31:31",
         "description": "A utility to safely generate malicious network traffic patterns and evaluate controls.",
-        "commit_date": "2023-07-31 15:27:39",
-        "commit_message": "Pick random hosts if returned more than requested",
+        "commit_date": "2023-10-02 07:30:27",
+        "commit_message": "Merge pull request #66 from alphasoc/mariusz/go-install-docs-fix\n\nAdjust install from source command in the readme. Resolves #65",
         "release_tag": "v2.5.0",
         "release_date": "2023-08-02 13:39:17",
         "release_message": "## Network Flight Simulator v2.5.0 (2023-07-31)\r\n\r\nThis release add a new `cleartext` module, which generates random cleartext traffic on some common ports.\r\n\r\n## Enjoy!\r\n\r\n"
@@ -3971,8 +3971,8 @@
     "https://github.com/aquasecurity/trivy": {
         "created_at": "2019-04-11 01:01:07",
         "description": "Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more",
-        "commit_date": "2023-10-01 18:13:12",
-        "commit_message": "Improve the meaning of  sentence (#5301)\n\nSentence has incomplete meaning .\r\nGo to this link to see the issue: https://aquasecurity.github.io/trivy/v0.45/tutorials/kubernetes/gitops/",
+        "commit_date": "2023-10-02 15:54:49",
+        "commit_message": "chore(deps): bump actions/cache from 3.3.1 to 3.3.2 (#5293)\n\nBumps [actions/cache](https://github.com/actions/cache) from 3.3.1 to 3.3.2.\n- [Release notes](https://github.com/actions/cache/releases)\n- [Changelog](https://github.com/actions/cache/blob/main/RELEASES.md)\n- [Commits](https://github.com/actions/cache/compare/v3.3.1...v3.3.2)\n\n---\nupdated-dependencies:\n- dependency-name: actions/cache\n  dependency-type: direct:production\n  update-type: version-update:semver-patch\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
         "release_tag": "v0.45.1",
         "release_date": "2023-09-16 07:29:33",
         "release_message": "## Changelog\n* daae88287 fix(purl): handle rust types (#5186)\n* 81240cf08 chore: auto-close issues (#5177)\n* bd0accd8a chore(deps): bump github.com/spf13/viper from 1.15.0 to 1.16.0 (#5093)\n* ecee79403 fix(k8s): kbom support addons labels (#5178)\n* 9ebc25d88 test: validate SPDX with the JSON schema (#5124)\n* 9a49a3773 chore: bump trivy-kubernetes-latest (#5161)\n* ad1dc6327 docs: add 'Signature Verification' guide (#4731)\n* 7c68d4a7e docs: add image-scanner-with-trivy for ecosystem (#5159)\n* ed49609a7 fix(fs): assign the absolute path to be inspected to ROOTPATH when filesystem (#5158)\n* 19539722e chore(deps): bump github.com/CycloneDX/cyclonedx-go (#5102)\n* c7516011b Update filtering.md (#5131)\n* ccc6d7cb2 chore(deps): bump sigstore/cosign-installer (#5104)\n* 48cbf4553 chore(deps): bump github.com/cyphar/filepath-securejoin (#5143)\n* a9c2c74c5 chore(deps): bump golangci/golangci-lint-action from 3.6.0 to 3.7.0 (#5103)\n* 120ac68b5 chore(deps): bump easimon/maximize-build-space from 7 to 8 (#5105)\n* 41eaa78ae chore(deps): bump github.com/aws/aws-sdk-go from 1.44.273 to 1.45.3 (#5126)\n* 932f92755 chaging adopters discussion tempalte (#5091)\n* db3133346 chore(deps): bump github.com/cheggaaa/pb/v3 from 3.1.2 to 3.1.4 (#5092)\n* 8c0b7d619 chore(deps): bump github.com/hashicorp/golang-lru/v2 from 2.0.2 to 2.0.6 (#5094)\n* c61c664c3 chore(deps): bump github.com/aws/aws-sdk-go-v2/config (#5095)\n* a99944c1c chore(deps): bump github.com/containerd/containerd from 1.7.3 to 1.7.5 (#5097)\n* 9fc844ecf chore(deps): bump github.com/Azure/azure-sdk-for-go/sdk/azidentity (#5098)\n* c504f8be4 chore(deps): bump actions/checkout from 3.5.3 to 3.6.0 (#5106)\n\n"
@@ -3980,8 +3980,8 @@
     "https://github.com/anchore/grype": {
         "created_at": "2020-05-26 13:44:38",
         "description": "A vulnerability scanner for container images and filesystems",
-        "commit_date": "2023-09-27 16:27:32",
-        "commit_message": "chore(deps): update Syft to v0.92.0 (#1527)\n\nSigned-off-by: GitHub <noreply@github.com>\r\nCo-authored-by: willmurphyscode <willmurphyscode@users.noreply.github.com>",
+        "commit_date": "2023-10-02 16:35:31",
+        "commit_message": "chore(deps): bump github.com/gkampitakis/go-snaps from 0.4.10 to 0.4.11 (#1533)\n\nBumps [github.com/gkampitakis/go-snaps](https://github.com/gkampitakis/go-snaps) from 0.4.10 to 0.4.11.\r\n- [Release notes](https://github.com/gkampitakis/go-snaps/releases)\r\n- [Commits](https://github.com/gkampitakis/go-snaps/compare/v0.4.10...v0.4.11)\r\n\r\n---\r\nupdated-dependencies:\r\n- dependency-name: github.com/gkampitakis/go-snaps\r\n  dependency-type: direct:production\r\n  update-type: version-update:semver-patch\r\n...\r\n\r\nSigned-off-by: dependabot[bot] <support@github.com>\r\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
         "release_tag": "v0.69.1",
         "release_date": "2023-09-27 17:03:54",
         "release_message": "### Bug Fixes\n\n- Incorrect python version comparisons for rc releases [[#986](https://github.com/anchore/grype/issues/986) [#1510](https://github.com/anchore/grype/pull/1510) @willmurphyscode]\n- False Positive: CVE-2023-37920 reported for certifi library in python [[#1417](https://github.com/anchore/grype/issues/1417) [#1510](https://github.com/anchore/grype/pull/1510) @willmurphyscode]\n- Grype is not recognizing python-certifi is patched for GHSA-43fp-rhv2-5gv8 [[#1172](https://github.com/anchore/grype/issues/1172) [#1510](https://github.com/anchore/grype/pull/1510) @willmurphyscode]\n- False positive on certifi 2022.12.07 [[#1034](https://github.com/anchore/grype/issues/1034) [#1510](https://github.com/anchore/grype/pull/1510) @willmurphyscode]\n- Leading zeros seen as difference in version numbers [[#1430](https://github.com/anchore/grype/issues/1430) [#1510](https://github.com/anchore/grype/pull/1510) @willmurphyscode]\n\n### Additional Changes\n\n- add OpenSSF Best Practices badge [[#1523](https://github.com/anchore/grype/pull/1523) @spiffcs]\n- Bump vulnerability match labels [[#1525](https://github.com/anchore/grype/pull/1525) @wagoodman]\n- bump stereoscope to fix data race in UI [[#1517](https://github.com/anchore/grype/pull/1517) @willmurphyscode]\n\n**[(Full Changelog)](https://github.com/anchore/grype/compare/v0.69.0...v0.69.1)**\n\n"
@@ -4277,7 +4277,7 @@
     "https://github.com/aiboboxx/v2rayfree": {
         "created_at": "2021-10-13 11:34:53",
         "description": "v2ray节点、免费节点、免费v2ray节点、最新公益免费v2ray节点订阅地址、免费v2ray节点每日更新、免费ss/v2ray/trojan节点、freefq ",
-        "commit_date": "2023-10-01 12:32:54",
+        "commit_date": "2023-10-02 12:36:44",
         "commit_message": "update",
         "release_tag": "",
         "release_date": "",
@@ -4322,8 +4322,8 @@
     "https://github.com/freefq/free": {
         "created_at": "2020-06-07 02:48:33",
         "description": "翻墙、免费翻墙、免费科学上网、免费节点、免费梯子、免费ss/v2ray/trojan节点、蓝灯、谷歌商店、翻墙梯子",
-        "commit_date": "2023-10-02 00:00:04",
-        "commit_message": "updated_at 10-02 08:00",
+        "commit_date": "2023-10-03 00:00:03",
+        "commit_message": "updated_at 10-03 08:00",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -4592,7 +4592,7 @@
     "https://github.com/yzfly/awesome-chatgpt-zh": {
         "created_at": "2023-03-21 02:16:34",
         "description": "ChatGPT 中文指南🔥，ChatGPT 中文调教指南，指令指南，应用开发指南，精选资源清单，更好的使用 chatGPT 让你的生产力 up up up! 🚀",
-        "commit_date": "2023-10-01 08:10:10",
+        "commit_date": "2023-10-02 09:54:11",
         "commit_message": "update openai plus",
         "release_tag": "",
         "release_date": "",
@@ -5004,8 +5004,8 @@
     "https://github.com/rustdesk/rustdesk": {
         "created_at": "2020-09-28 15:36:08",
         "description": "An open-source remote desktop, and alternative to TeamViewer.",
-        "commit_date": "2023-10-02 00:05:47",
-        "commit_message": "Merge pull request #5877 from leroyloren/master\n\nUpdate cs.rs",
+        "commit_date": "2023-10-02 12:40:15",
+        "commit_message": "Merge pull request #5884 from fufesou/fix/sciter_reconnect_state\n\nfix, sciter, reconnect, check thread running before the state",
         "release_tag": "1.2.2",
         "release_date": "2023-08-22 01:44:36",
         "release_message": "![image](https://github.com/rustdesk/rustdesk/assets/71636191/83754a64-31b8-47f0-8570-da22207759a9)\r\n\r\n> Winget, FDroid, Apple Sillicon, Google Play / App Store update will come soon.\r\n\r\nx86-64: [Windows](https://github.com/rustdesk/rustdesk/releases/download/1.2.2/rustdesk-1.2.2-x86_64.exe) | [Ubuntu](https://github.com/rustdesk/rustdesk/releases/download/1.2.2/rustdesk-1.2.2-x86_64.deb) | [Mac](https://github.com/rustdesk/rustdesk/releases/download/1.2.2/rustdesk-1.2.2-x86_64.dmg)\r\nAArch64 (ARM64):  [Ubuntu](https://github.com/rustdesk/rustdesk/releases/download/1.2.2/rustdesk-1.2.2-aarch64.deb) | [Android](https://github.com/rustdesk/rustdesk/releases/download/1.2.2/rustdesk-1.2.2-aarch64-signed.apk) | [Mac](https://github.com/rustdesk/rustdesk/releases/download/1.2.2/rustdesk-1.2.2-aarch64.dmg)\r\n\r\nMore: [check below please](#)\r\n\r\n<details>\r\n<summary>Changelog</summary>\r\n\r\n- Add separate window mode (tab window by default), https://github.com/rustdesk/rustdesk/discussions/2889\r\n![image](https://github.com/rustdesk/rustdesk/assets/71636191/0c73bc6a-8659-4a67-9425-47625a6aded3)\r\n- Fix and improve responsiveness issue introduced in 1.2.0. https://github.com/rustdesk/rustdesk/discussions/5231\r\n- Add device list batch handle\r\n![image](https://github.com/rustdesk/rustdesk/assets/71636191/0ca85b8e-bed3-48ad-a43f-82df983986f3)\r\n- Add command to assign user and strategy for [RustDesk Server Pro](https://rustdesk.com/docs/en/self-host/pro/)\r\n- Optimize address book, syncing password, alias name, device name etc, add tag color, improve error and update status handling\r\n![image](https://github.com/rustdesk/rustdesk/assets/71636191/21d7a226-b863-4dc2-a9d3-fb6cd3a56c5c)\r\n- Fix windows file copy/paste\r\n- Fix \"waiting for image...\" still shown after receiving image bug, refactored rust->flutter message handling https://github.com/rustdesk/rustdesk/issues/4533\r\n- Improve some touchpad support, https://github.com/rustdesk/rustdesk/pull/5049\r\n- Bug fixes.\r\n\r\n</details>\r\n"
@@ -5148,8 +5148,8 @@
     "https://github.com/FreeRDP/FreeRDP": {
         "created_at": "2011-06-30 19:14:15",
         "description": "FreeRDP is a free remote desktop protocol library and clients",
-        "commit_date": "2023-09-28 19:16:17",
-        "commit_message": "locale: Fix X11 keyboard layout detection\n\nThis fixes an issue with keyboard layout detection reintroduced in #8960\n\nThe problem has already been fixed in #6688 but got lost after\nrefactoring.\n\nThe issue is that the layout specifier might be a comma separated list\nwith country specifiers i.e. `\"at,us\"` which was not correctly handled.",
+        "commit_date": "2023-10-02 06:51:53",
+        "commit_message": "[flatpak] added opensc to build",
         "release_tag": "2.11.2",
         "release_date": "2023-09-20 08:12:02",
         "release_message": "Notworthy changes:\r\n* Backported #9378: backported wArrayList (optional) copy on insert\r\n* Backported #9360: backported certificate algorithm detection\r\n\r\n[freerdp-2.11.2.zip](https://github.com/FreeRDP/FreeRDP/files/12670556/freerdp-2.11.2.zip)\r\n[freerdp-2.11.2.tar.gz](https://github.com/FreeRDP/FreeRDP/files/12670558/freerdp-2.11.2.tar.gz)\r\n"
@@ -6112,11 +6112,11 @@
     "https://github.com/abc123info/BlueTeamTools": {
         "created_at": "2023-09-05 08:54:32",
         "description": "蓝队分析研判工具箱，自带的反编译工具对红队也有帮助，有建议欢迎给我留言",
-        "commit_date": "2023-09-06 04:56:41",
+        "commit_date": "2023-10-02 07:55:28",
         "commit_message": "Update README.md",
-        "release_tag": "BlueTeamToolsV0.73版本",
-        "release_date": "2023-09-06 04:47:47",
-        "release_message": "2023.09.06 更正\"网空资产测绘\"功能Hunter界面的显示问题。"
+        "release_tag": "BlueTeamToolsV0.81版本",
+        "release_date": "2023-10-02 07:53:39",
+        "release_message": "2023.10.02 更新哥斯拉webshell的csharp流量解密功能，asp流量解密功能。\r\n2023.10.01 更新哥斯拉webshell的java流量解密功能、php流量解密功能。\r\n2023.09.11 更新Xml转Json、Json转Xml功能。\r\n2023.09.08 更新Mysql、SQLServer、Oracle、Postgresql、Hive数据库语句的格式化功能。\r\n2023.09.06 更正\"网空资产测绘\"功能Hunter界面的显示问题。"
     },
     "https://github.com/yutianqaq/impacket-gui": {
         "created_at": "2023-09-01 10:27:31",

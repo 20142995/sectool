@@ -1,9 +1,11 @@
-# 更新于 2023-10-02 08:35:03
+# 更新于 2023-10-03 08:34:54
 
 ## 近15天release更新记录
 | 更新时间 | 项目名称 | 版本 | 更新内容 |
 | :---- | :---- | :---- | :---- |
-|2023-10-01 04:27:38|[PEASS-ng](https://github.com/carlospolop/PEASS-ng)|2023100<br>1-98cc00<br>49||
+|2023-10-02 22:12:50|[PEASS-ng](https://github.com/carlospolop/PEASS-ng)|2023100<br>2-59c6f6<br>e6||
+|2023-10-02 14:46:33|[Burp-Non-HTTP-Ext<br>ension](https://github.com/summitt/Burp-Non-HTTP-Extension)|v1.8.0|### New Features  - UDP proxy with py<br>thon manglers and interceptor support <br> - Better search features    ### Bug F<br>ixes  - Fixed bug when clearing reques<br>t table that would freeze the UI  - Mi<br>nor bugs and UI tweaks    ### Known is<br>sues:  - Repeater not working for UDP|
+|2023-10-02 07:53:39|[BlueTeamTools](https://github.com/abc123info/BlueTeamTools)|BlueTea<br>mToolsV0<br>.81版本|2023.10.02 更新哥斯拉webshell的csharp<br>流量解密功能，asp流量解密功能。  2023.1<br>0.01 更新哥斯拉webshell的java流量解密<br>功能、php流量解密功能。  2023.09.11 更<br>新Xml转Json、Json转Xml功能。  2023.09.0<br>8 更新Mysql、SQLServer、Oracle、Postgr<br>esql、Hive数据库语句的格式化功能。  20<br>23.09.06 更正"网空资产测绘"功能Hunter<br>界面的显示问题。|
 |2023-09-29 12:22:42|[wpscan](https://github.com/wpscanteam/wpscan)|v3.8.25|## What's Changed  * Bump actions/che<br>ckout from 3 to 4 by @dependabot in ht<br>tps://github.com/wpscanteam/wpscan/pul<br>l/1798  * Update webmock requirement f<br>rom ~> 3.18.1 to ~> 3.19.1 by @dependa<br>bot in https://github.com/wpscanteam/w<br>pscan/pull/1797  * Bump docker/login-a<br>ction from 2.1.0 to 2.2.0 by @dependab<br>ot in https://github.com/wpscanteam/wp<br>scan/pull/1785      **Full Changelog**<br>: https://github.com/wpscanteam/wpscan<br>/compare/v3.8.24...v3.8.25|
 |2023-09-28 14:33:58|[nemo_go](https://github.com/hanc00l/nemo_go)|v2.10.2|  ### Update    - 信息收集全面支持ipv<br>6！|
 |2023-09-28 09:48:42|[afrog](https://github.com/zan8in/afrog)|v2.8.8|Added the '-web' command to start a w<br>eb service for viewing vulnerability r<br>eports, including current and historic<br>al records.   Updated some PoCs."    <br>新增 -web 命令用于启动一个 Web 服务，用<br>于查看漏洞报告（包括当前和历史记录）  <br>更新一部分 PoCs    Happy October 1st!|
@@ -25,34 +27,39 @@
 |2023-09-20 01:41:11|[OneScan](https://github.com/vaycore/OneScan)|v1.3.0|1.3.0 版本发布，版本更新内容如下    #<br>## 新增    - 新增 {{subdomain}} 子域名<br>动态变量  - 新增 {{webroot}} 一级目录动<br>态变量  - 导入URL对话框新增配置URL前缀<br>功能  - 新增请求重试机制    ### 优化   <br> - 从 0.x 版本升级到 1.x 版本时，自动<br>备份配置文件  - 移除默认请求头配置中的 <br>Origin 头（可自行在配置页面添加）    #<br>## 修复    - 修复 Payload Process 中 U<br>RL 范围不正确的问题|
 |2023-09-18 15:13:23|[mysql-fake-server](https://github.com/4ra1n/mysql-fake-server)|0.0.4|## 0.0.4    支持了两种JDBC的利用：PgS<br>QL和Apache Derby    - 重要更新：支持了<br>PgSQL RCE的利用Server  - 重要更新：支<br>持了Apache Derby利用Slave功能的RCE  - <br>优化依赖减小体积，使用更标准的Maven插件<br>打包配置  - 修复了某些情况下日志输出的<br>问题  - 恢复日志模式到INFO级别避免打印<br>过多无意义信息  - 对UI做了一些小改善|
 |2023-09-18 12:54:21|[ObserverWard](https://github.com/0x727/ObserverWard)|v2023.9<br>.18|## [2023.9.18] - 2023.9.18  ### Fixes<br>  - 修复charset没覆盖的情况，感谢@zema<br>1|
-|2023-09-17 08:47:51|[mitaka](https://github.com/ninoseki/mitaka)|v1.3.3|- Fix notification issue (#757)  - In<br>troduce  (#756)|
 ## 近15天commit提交记录
 | 提交时间 | 项目名称 | 更新内容 |
 | :---- | :---- | :---- |
-|2023-10-02 00:05:47|[rustdesk](https://github.com/rustdesk/rustdesk)|Merge pull request #5877 from leroyloren/master  Up<br>date cs.rs|
-|2023-10-02 00:00:04|[free](https://github.com/freefq/free)|updated_at 10-02 08:00|
-|2023-10-01 23:38:36|[PocOrExp_in_Githu<br>b](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-10-02 07:38:36|
-|2023-10-01 18:13:12|[trivy](https://github.com/aquasecurity/trivy)|Improve the meaning of  sentence (#5301)  Sentence <br>has incomplete meaning .  Go to this link to see the<br> issue: https://aquasecurity.github.io/trivy/v0.45/t<br>utorials/kubernetes/gitops/|
+|2023-10-03 00:00:03|[free](https://github.com/freefq/free)|updated_at 10-03 08:00|
+|2023-10-02 23:33:26|[PocOrExp_in_Githu<br>b](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-10-03 07:33:26|
+|2023-10-02 21:54:28|[PEASS-ng](https://github.com/carlospolop/PEASS-ng)|Update 9_interesting_files.sh|
+|2023-10-02 16:55:30|[neuvector](https://github.com/neuvector/neuvector)|Merge pull request #1041 from gfsuse/main  NVSHAS-8<br>338, fix crash due to assignment to entry in nil map|
+|2023-10-02 16:35:31|[grype](https://github.com/anchore/grype)|chore(deps): bump github.com/gkampitakis/go-snaps f<br>rom 0.4.10 to 0.4.11 (#1533)  Bumps  from 0.4.10 to <br>0.4.11.  -   -     ---  updated-dependencies:  - dep<br>endency-name: github.com/gkampitakis/go-snaps    dep<br>endency-type: direct:production    update-type: vers<br>ion-update:semver-patch  ...    Signed-off-by: depen<br>dabot[bot]   Co-authored-by: dependabot[bot] |
+|2023-10-02 16:34:59|[syft](https://github.com/anchore/syft)|chore(deps): bump modernc.org/sqlite from 1.25.0 to<br> 1.26.0 (#2189)  Bumps  from 1.25.0 to 1.26.0.  -   <br>  ---  updated-dependencies:  - dependency-name: mod<br>ernc.org/sqlite    dependency-type: direct:productio<br>n    update-type: version-update:semver-minor  ...  <br>  Signed-off-by: dependabot[bot]   Co-authored-by: d<br>ependabot[bot] |
+|2023-10-02 15:54:49|[trivy](https://github.com/aquasecurity/trivy)|chore(deps): bump actions/cache from 3.3.1 to 3.3.2<br> (#5293)  Bumps  from 3.3.1 to 3.3.2. -  -  -   --- <br>updated-dependencies: - dependency-name: actions/cac<br>he   dependency-type: direct:production   update-typ<br>e: version-update:semver-patch ...  Signed-off-by: d<br>ependabot[bot]  Co-authored-by: dependabot[bot] |
+|2023-10-02 15:24:23|[Burp-Non-HTTP-Ext<br>ension](https://github.com/summitt/Burp-Non-HTTP-Extension)|Update README.md|
+|2023-10-02 14:37:42|[HackBrowserData](https://github.com/moonD4rk/HackBrowserData)|chore: update Go version and dependencies for build<br>s  - Update Go version from 1.20 to 1.21 in go.mod, <br>.github/workflows/build.yml, and .github/workflows/l<br>int.yml|
+|2023-10-02 14:32:38|[SmsForwarder](https://github.com/pppscn/SmsForwarder)|新增：短信指令增加短信发送功能 #338|
+|2023-10-02 13:47:46|[dbeaver](https://github.com/dbeaver/dbeaver)|dbeaver/pro#1605 add custom endpoint configuration <br>& UI refactoring (#20069)  * dbeaver/pro#1605 add cu<br>stom endpoint configuration & UI refactoring    Sign<br>ed-off-by: Georgii Gvinepadze     * dbeaver/pro#1605<br> code cleanup    Signed-off-by: Georgii Gvinepadze  <br>   * dbeaver/pro#1605 azure service    * dbeaver/pro<br>#1605 AI Engine model refactoring & Preferences UI c<br>hange & Add Azure OpenAI Engine    * dbeaver/pro#160<br>5 formatting    ---------    Signed-off-by: Georgii <br>Gvinepadze   Co-authored-by: Serge Rider |
+|2023-10-02 12:40:15|[rustdesk](https://github.com/rustdesk/rustdesk)|Merge pull request #5884 from fufesou/fix/sciter_re<br>connect_state  fix, sciter, reconnect, check thread <br>running before the state|
+|2023-10-02 12:36:44|[v2rayfree](https://github.com/aiboboxx/v2rayfree)|update|
+|2023-10-02 11:38:00|[rengine](https://github.com/yogeshojha/rengine)|Merge pull request #964 from AnonymousWP/make-field<br>s-mandatory  chore(issue-templates): require more fi<br>elds to be filled in|
+|2023-10-02 09:54:11|[awesome-chatgpt-z<br>h](https://github.com/yzfly/awesome-chatgpt-zh)|update openai plus|
+|2023-10-02 09:39:24|[kube-bench](https://github.com/aquasecurity/kube-bench)|updates to the readme  Signed-off-by: AnaisUrlichs |
+|2023-10-02 07:55:28|[BlueTeamTools](https://github.com/abc123info/BlueTeamTools)|Update README.md|
+|2023-10-02 07:30:27|[flightsim](https://github.com/alphasoc/flightsim)|Merge pull request #66 from alphasoc/mariusz/go-ins<br>tall-docs-fix  Adjust install from source command in<br> the readme. Resolves #65|
+|2023-10-02 06:51:53|[FreeRDP](https://github.com/FreeRDP/FreeRDP)|[flatpak] added opensc to build|
 |2023-10-01 17:36:05|[vulhub](https://github.com/vulhub/vulhub)|add librsvg CVE-2023-38633 and jumpserver CVE-2023-<br>42820 into environments.toml|
 |2023-10-01 12:50:32|[ObserverWard](https://github.com/0x727/ObserverWard)|Merge pull request #202 from 0x727/dependabot/cargo<br>/actix-web-httpauth-0.8.1  Bump actix-web-httpauth f<br>rom 0.8.0 to 0.8.1|
-|2023-10-01 12:32:54|[v2rayfree](https://github.com/aiboboxx/v2rayfree)|update|
-|2023-10-01 08:10:10|[awesome-chatgpt-z<br>h](https://github.com/yzfly/awesome-chatgpt-zh)|update openai plus|
 |2023-09-30 17:02:12|[beef](https://github.com/beefproject/beef)|Merge branch 'master' of https://github.com/beefpro<br>ject/beef|
-|2023-09-30 16:34:22|[kube-bench](https://github.com/aquasecurity/kube-bench)|build(deps): bump crazy-max/ghaction-docker-meta fr<br>om 4 to 5 (#1499)  Bumps  from 4 to 5. -  -  -   ---<br> updated-dependencies: - dependency-name: crazy-max/<br>ghaction-docker-meta   dependency-type: direct:produ<br>ction   update-type: version-update:semver-major ...<br>  Signed-off-by: dependabot[bot]  Co-authored-by: de<br>pendabot[bot] |
-|2023-09-30 01:05:09|[neuvector](https://github.com/neuvector/neuvector)|Merge pull request #1040 from gfsuse/main  NVSHAS-8<br>336, still need to let relevant nodes know there are<br> new workload detected so policy can be learned|
-|2023-09-29 17:01:38|[rengine](https://github.com/yogeshojha/rengine)|Merge pull request #884 from AnonymousWP/Add-licens<br>es-to-tool-arsenal  Add licenses to tool arsenal|
-|2023-09-29 14:49:14|[dbeaver](https://github.com/dbeaver/dbeaver)|dbeaver/pro#1916 Disable project settings save/load<br> for distributed projects|
 |2023-09-28 22:05:27|[clair](https://github.com/quay/clair)|'chore: update claircore to v1.5.17  Update clairco<br>re to latest release. '  Signed-off-by: Claircore-CI<br> |
 |2023-09-28 20:32:59|[impacket](https://github.com/fortra/impacket)|Merge pull request #1602 from rtpt-erikgeiser:ntlmr<br>elayx_log_initial_authentication|
-|2023-09-28 19:16:17|[FreeRDP](https://github.com/FreeRDP/FreeRDP)|locale: Fix X11 keyboard layout detection  This fix<br>es an issue with keyboard layout detection reintrodu<br>ced in #8960  The problem has already been fixed in <br>#6688 but got lost after refactoring.  The issue is <br>that the layout specifier might be a comma separated<br> list with country specifiers i.e. "at,us" which was<br> not correctly handled.|
 |2023-09-28 18:34:52|[sqlmap](https://github.com/sqlmapproject/sqlmap)|Implements option --time-limit (#5502)|
-|2023-09-28 14:56:08|[syft](https://github.com/anchore/syft)|chore(deps): bump github/codeql-action from 2.21.8 <br>to 2.21.9 (#2182)  Bumps  from 2.21.8 to 2.21.9.  - <br>  -   -     ---  updated-dependencies:  - dependency<br>-name: github/codeql-action    dependency-type: dire<br>ct:production    update-type: version-update:semver-<br>patch  ...    Signed-off-by: dependabot[bot]   Co-au<br>thored-by: dependabot[bot] |
 |2023-09-28 14:23:14|[nemo_go](https://github.com/hanc00l/nemo_go)|Update: v2.10.2|
 |2023-09-28 13:38:02|[gshark](https://github.com/madneal/gshark)|add build for darwin arm64|
 |2023-09-28 09:40:28|[afrog](https://github.com/zan8in/afrog)|update|
 |2023-09-28 08:24:35|[appshark](https://github.com/bytedance/appshark)|Merge pull request #53 from firmianay/dev3  fix doc|
 |2023-09-28 04:50:53|[autoDecoder](https://github.com/f0ng/autoDecoder)|Update flasktest.py|
-|2023-09-27 16:27:32|[grype](https://github.com/anchore/grype)|chore(deps): update Syft to v0.92.0 (#1527)  Signed<br>-off-by: GitHub   Co-authored-by: willmurphyscode |
 |2023-09-27 11:03:23|[nuclei](https://github.com/projectdiscovery/nuclei)|updated template paths in workflows docs to match c<br>urrent locations (#4197)|
 |2023-09-27 10:12:16|[arthas](https://github.com/alibaba/arthas)|Prettified Code!|
 |2023-09-27 02:37:34|[vulnerability](https://github.com/lal0ne/vulnerability)|CVE-2023-31719|
@@ -81,10 +88,7 @@
 |2023-09-19 12:29:48|[All-Defense-Tool](https://github.com/guchangan1/All-Defense-Tool)|更新v3.0|
 |2023-09-18 15:32:22|[dalfox](https://github.com/hahwul/dalfox)|Merge pull request #489 from hahwul/dependabot/go_m<br>odules/github.com/swaggo/swag-1.16.2  Bump github.co<br>m/swaggo/swag from 1.16.1 to 1.16.2|
 |2023-09-18 15:12:06|[mysql-fake-server](https://github.com/4ra1n/mysql-fake-server)|change log|
-|2023-09-18 07:40:58|[Awesome-Redteam](https://github.com/Threekiii/Awesome-Redteam)|更新README.md|
-|2023-09-17 13:47:48|[DecoyMini](https://github.com/decoymini/DecoyMini)|Update README.md|
-|2023-09-17 08:40:13|[mitaka](https://github.com/ninoseki/mitaka)|Merge pull request #758 from ninoseki/v1.3.3  v1.3.<br>3|
-|2023-09-17 06:18:15|[Mobile-Security-F<br>ramework-MobSF](https://github.com/MobSF/Mobile-Security-Framework-MobSF)|[HOTFIX] Fix jadx and apktool failure due to JDK ch<br>anges (#2269)  * Fix jadx and apktool failure due to<br> JDK zip64 changes|## 所有项目
+|2023-09-18 07:40:58|[Awesome-Redteam](https://github.com/Threekiii/Awesome-Redteam)|更新README.md|## 所有项目
 # 渗透测试
 ## 信息收集
 ### 资产测绘采集
@@ -732,7 +736,7 @@
 | [dirtycow](https://github.com/firefart/dirtycow) |  | Dirty Cow exploit - CVE-2016-5195 |
 | [traitor](https://github.com/liamg/traitor) | v0.0.14 | :arrow_up: :skull_and_crossbones: :fire: Automatic Linux prive<br>sc via exploitation of low-hanging fruit e.g. gtfobins, pwnkit,<br> dirty pipe, +w docker.sock |
 | [LinEnum](https://github.com/rebootuser/LinEnum) |  | Scripted Local Linux Enumeration & Privilege Escalation Checks |
-| [PEASS-ng](https://github.com/carlospolop/PEASS-ng) | 2023100<br>1-98cc00<br>49 | PEASS - Privilege Escalation Awesome Scripts SUITE (with color<br>s) |
+| [PEASS-ng](https://github.com/carlospolop/PEASS-ng) | 2023100<br>2-59c6f6<br>e6 | PEASS - Privilege Escalation Awesome Scripts SUITE (with color<br>s) |
 | | | https://i.hacking8.com/tiquan/ |
 ### 综合
 | 项目名称 | 版本 | 项目描述 |
@@ -952,8 +956,8 @@
 | [domain_hunter_pro](https://github.com/bit4woo/domain_hunter_pro) | v1.9 | domain_hunter的高级版本，SRC挖洞、HW打点之必备！自动化资产收集<br>；快速Title获取；外部工具联动；等等 |
 | [JC-AntiToken](https://github.com/chroblert/JC-AntiToken) |  | burp插件：python版，token防重放绕过 |
 | [BurpSuite_403Bypa<br>sser](https://github.com/sting8k/BurpSuite_403Bypasser) |  | Burpsuite Extension to bypass 403 restricted directory |
-| [Burp-Non-HTTP-Ext<br>ension](https://github.com/summitt/Burp-Non-HTTP-Extension) | v1.7.2 | Non-HTTP Protocol Extension (NoPE) Proxy and DNS for Burp Suit<br>e. |
-| [Burp-Non-HTTP-Ext<br>ension](https://github.com/summitt/Burp-Non-HTTP-Extension) | v1.7.2 | Non-HTTP Protocol Extension (NoPE) Proxy and DNS for Burp Suit<br>e. |
+| [Burp-Non-HTTP-Ext<br>ension](https://github.com/summitt/Burp-Non-HTTP-Extension) | v1.8.0 | Non-HTTP Protocol Extension (NoPE) Proxy and DNS for Burp Suit<br>e. |
+| [Burp-Non-HTTP-Ext<br>ension](https://github.com/summitt/Burp-Non-HTTP-Extension) | v1.8.0 | Non-HTTP Protocol Extension (NoPE) Proxy and DNS for Burp Suit<br>e. |
 | [shiro-check](https://github.com/bigsizeme/shiro-check) | shiroch<br>ek3.0 | Shiro反序列化回显利用、内存shell、检查 Burp插件 |
 | [FastjsonScan](https://github.com/Maskhe/FastjsonScan) | 1.0 | 一个简单的Fastjson反序列化检测burp插件 |
 | [fastjsonScan](https://github.com/zilong3033/fastjsonScan) |  | fastjson漏洞burp插件，检测fastjson<1.2.68基于dnslog，fastjson<<br>=1.2.24和1.2.33<=fatjson<=1.2.47的不出网检测和TomcatEcho,Spring<br>Echo回显方案。 |
@@ -1239,7 +1243,7 @@
 ## 分析辅助
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
-| [BlueTeamTools](https://github.com/abc123info/BlueTeamTools) | BlueTea<br>mToolsV0<br>.73版本 | 蓝队分析研判工具箱，自带的反编译工具对红队也有帮助，有建议欢迎<br>给我留言 |
+| [BlueTeamTools](https://github.com/abc123info/BlueTeamTools) | BlueTea<br>mToolsV0<br>.81版本 | 蓝队分析研判工具箱，自带的反编译工具对红队也有帮助，有建议欢迎<br>给我留言 |
 ## 知识库
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
