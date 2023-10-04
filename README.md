@@ -1,4 +1,4 @@
-# 更新于 2023-10-03 08:34:54
+# 更新于 2023-10-04 08:36:38
 
 ## 近15天release更新记录
 | 更新时间 | 项目名称 | 版本 | 更新内容 |
@@ -25,24 +25,26 @@
 |2023-09-20 14:43:08|[faker](https://github.com/joke2k/faker)|v19.6.2|See .|
 |2023-09-20 08:12:02|[FreeRDP](https://github.com/FreeRDP/FreeRDP)|2.11.2|Notworthy changes:  * Backported #937<br>8: backported wArrayList (optional) co<br>py on insert  * Backported #9360: back<br>ported certificate algorithm detection<br>        |
 |2023-09-20 01:41:11|[OneScan](https://github.com/vaycore/OneScan)|v1.3.0|1.3.0 版本发布，版本更新内容如下    #<br>## 新增    - 新增 {{subdomain}} 子域名<br>动态变量  - 新增 {{webroot}} 一级目录动<br>态变量  - 导入URL对话框新增配置URL前缀<br>功能  - 新增请求重试机制    ### 优化   <br> - 从 0.x 版本升级到 1.x 版本时，自动<br>备份配置文件  - 移除默认请求头配置中的 <br>Origin 头（可自行在配置页面添加）    #<br>## 修复    - 修复 Payload Process 中 U<br>RL 范围不正确的问题|
-|2023-09-18 15:13:23|[mysql-fake-server](https://github.com/4ra1n/mysql-fake-server)|0.0.4|## 0.0.4    支持了两种JDBC的利用：PgS<br>QL和Apache Derby    - 重要更新：支持了<br>PgSQL RCE的利用Server  - 重要更新：支<br>持了Apache Derby利用Slave功能的RCE  - <br>优化依赖减小体积，使用更标准的Maven插件<br>打包配置  - 修复了某些情况下日志输出的<br>问题  - 恢复日志模式到INFO级别避免打印<br>过多无意义信息  - 对UI做了一些小改善|
-|2023-09-18 12:54:21|[ObserverWard](https://github.com/0x727/ObserverWard)|v2023.9<br>.18|## [2023.9.18] - 2023.9.18  ### Fixes<br>  - 修复charset没覆盖的情况，感谢@zema<br>1|
 ## 近15天commit提交记录
 | 提交时间 | 项目名称 | 更新内容 |
 | :---- | :---- | :---- |
-|2023-10-03 00:00:03|[free](https://github.com/freefq/free)|updated_at 10-03 08:00|
-|2023-10-02 23:33:26|[PocOrExp_in_Githu<br>b](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-10-03 07:33:26|
+|2023-10-04 00:00:03|[free](https://github.com/freefq/free)|updated_at 10-04 08:00|
+|2023-10-03 23:39:47|[PocOrExp_in_Githu<br>b](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-10-04 07:39:47|
+|2023-10-03 20:04:10|[clair](https://github.com/quay/clair)|'chore: update claircore to v1.5.19  Update clairco<br>re to latest release. '  Signed-off-by: Claircore-CI<br> |
+|2023-10-03 19:02:49|[commando-vm](https://github.com/mandiant/commando-vm)|Installer updates (#306)  * Update 3.1    ---------<br>    Co-authored-by: Alex | NoSecurity |
+|2023-10-03 17:29:26|[RsaCtfTool](https://github.com/RsaCtfTool/RsaCtfTool)|Add digital_sum check for miller_rabin prime test|
+|2023-10-03 15:37:45|[rustdesk](https://github.com/rustdesk/rustdesk)|Merge pull request #5901 from fufesou/fix/cursor_ho<br>txy_mismatch  fix, cursor (hotx,hoty) mismatch somet<br>imes|
+|2023-10-03 15:18:17|[dbeaver](https://github.com/dbeaver/dbeaver)|Merge branch 'devel' of https://github.com/dbeaver/<br>dbeaver into devel|
+|2023-10-03 15:13:07|[syft](https://github.com/anchore/syft)|chore: improve --output help text and deprecate --f<br>ile (#2187)  Signed-off-by: Mohammad Sharief Baig |
+|2023-10-03 14:02:51|[Burp-Non-HTTP-Ext<br>ension](https://github.com/summitt/Burp-Non-HTTP-Extension)|Update README.md|
+|2023-10-03 12:36:59|[v2rayfree](https://github.com/aiboboxx/v2rayfree)|update|
+|2023-10-03 12:22:40|[neuvector](https://github.com/neuvector/neuvector)|Merge pull request #1044 from jayhuang-suse/seven  <br>NVSHAS-8327: FileMonitor: Many automation cases fail<br> due to many fields missing in the event.|
+|2023-10-03 11:10:05|[trivy](https://github.com/aquasecurity/trivy)|ci: do not trigger tests on the push event (#5313) <br> Signed-off-by: knqyf263 |
+|2023-10-03 03:56:50|[domain_hunter_pro](https://github.com/bit4woo/domain_hunter_pro)|update|
+|2023-10-03 02:06:30|[SmsForwarder](https://github.com/pppscn/SmsForwarder)|优化：在选择Web客户端目录的时候弹出授权管理所有文件<br>访问的权限 #332|
 |2023-10-02 21:54:28|[PEASS-ng](https://github.com/carlospolop/PEASS-ng)|Update 9_interesting_files.sh|
-|2023-10-02 16:55:30|[neuvector](https://github.com/neuvector/neuvector)|Merge pull request #1041 from gfsuse/main  NVSHAS-8<br>338, fix crash due to assignment to entry in nil map|
 |2023-10-02 16:35:31|[grype](https://github.com/anchore/grype)|chore(deps): bump github.com/gkampitakis/go-snaps f<br>rom 0.4.10 to 0.4.11 (#1533)  Bumps  from 0.4.10 to <br>0.4.11.  -   -     ---  updated-dependencies:  - dep<br>endency-name: github.com/gkampitakis/go-snaps    dep<br>endency-type: direct:production    update-type: vers<br>ion-update:semver-patch  ...    Signed-off-by: depen<br>dabot[bot]   Co-authored-by: dependabot[bot] |
-|2023-10-02 16:34:59|[syft](https://github.com/anchore/syft)|chore(deps): bump modernc.org/sqlite from 1.25.0 to<br> 1.26.0 (#2189)  Bumps  from 1.25.0 to 1.26.0.  -   <br>  ---  updated-dependencies:  - dependency-name: mod<br>ernc.org/sqlite    dependency-type: direct:productio<br>n    update-type: version-update:semver-minor  ...  <br>  Signed-off-by: dependabot[bot]   Co-authored-by: d<br>ependabot[bot] |
-|2023-10-02 15:54:49|[trivy](https://github.com/aquasecurity/trivy)|chore(deps): bump actions/cache from 3.3.1 to 3.3.2<br> (#5293)  Bumps  from 3.3.1 to 3.3.2. -  -  -   --- <br>updated-dependencies: - dependency-name: actions/cac<br>he   dependency-type: direct:production   update-typ<br>e: version-update:semver-patch ...  Signed-off-by: d<br>ependabot[bot]  Co-authored-by: dependabot[bot] |
-|2023-10-02 15:24:23|[Burp-Non-HTTP-Ext<br>ension](https://github.com/summitt/Burp-Non-HTTP-Extension)|Update README.md|
 |2023-10-02 14:37:42|[HackBrowserData](https://github.com/moonD4rk/HackBrowserData)|chore: update Go version and dependencies for build<br>s  - Update Go version from 1.20 to 1.21 in go.mod, <br>.github/workflows/build.yml, and .github/workflows/l<br>int.yml|
-|2023-10-02 14:32:38|[SmsForwarder](https://github.com/pppscn/SmsForwarder)|新增：短信指令增加短信发送功能 #338|
-|2023-10-02 13:47:46|[dbeaver](https://github.com/dbeaver/dbeaver)|dbeaver/pro#1605 add custom endpoint configuration <br>& UI refactoring (#20069)  * dbeaver/pro#1605 add cu<br>stom endpoint configuration & UI refactoring    Sign<br>ed-off-by: Georgii Gvinepadze     * dbeaver/pro#1605<br> code cleanup    Signed-off-by: Georgii Gvinepadze  <br>   * dbeaver/pro#1605 azure service    * dbeaver/pro<br>#1605 AI Engine model refactoring & Preferences UI c<br>hange & Add Azure OpenAI Engine    * dbeaver/pro#160<br>5 formatting    ---------    Signed-off-by: Georgii <br>Gvinepadze   Co-authored-by: Serge Rider |
-|2023-10-02 12:40:15|[rustdesk](https://github.com/rustdesk/rustdesk)|Merge pull request #5884 from fufesou/fix/sciter_re<br>connect_state  fix, sciter, reconnect, check thread <br>running before the state|
-|2023-10-02 12:36:44|[v2rayfree](https://github.com/aiboboxx/v2rayfree)|update|
 |2023-10-02 11:38:00|[rengine](https://github.com/yogeshojha/rengine)|Merge pull request #964 from AnonymousWP/make-field<br>s-mandatory  chore(issue-templates): require more fi<br>elds to be filled in|
 |2023-10-02 09:54:11|[awesome-chatgpt-z<br>h](https://github.com/yzfly/awesome-chatgpt-zh)|update openai plus|
 |2023-10-02 09:39:24|[kube-bench](https://github.com/aquasecurity/kube-bench)|updates to the readme  Signed-off-by: AnaisUrlichs |
@@ -52,7 +54,6 @@
 |2023-10-01 17:36:05|[vulhub](https://github.com/vulhub/vulhub)|add librsvg CVE-2023-38633 and jumpserver CVE-2023-<br>42820 into environments.toml|
 |2023-10-01 12:50:32|[ObserverWard](https://github.com/0x727/ObserverWard)|Merge pull request #202 from 0x727/dependabot/cargo<br>/actix-web-httpauth-0.8.1  Bump actix-web-httpauth f<br>rom 0.8.0 to 0.8.1|
 |2023-09-30 17:02:12|[beef](https://github.com/beefproject/beef)|Merge branch 'master' of https://github.com/beefpro<br>ject/beef|
-|2023-09-28 22:05:27|[clair](https://github.com/quay/clair)|'chore: update claircore to v1.5.17  Update clairco<br>re to latest release. '  Signed-off-by: Claircore-CI<br> |
 |2023-09-28 20:32:59|[impacket](https://github.com/fortra/impacket)|Merge pull request #1602 from rtpt-erikgeiser:ntlmr<br>elayx_log_initial_authentication|
 |2023-09-28 18:34:52|[sqlmap](https://github.com/sqlmapproject/sqlmap)|Implements option --time-limit (#5502)|
 |2023-09-28 14:23:14|[nemo_go](https://github.com/hanc00l/nemo_go)|Update: v2.10.2|
@@ -71,7 +72,6 @@
 |2023-09-26 07:31:55|[Umi-OCR](https://github.com/hiroi-sora/Umi-OCR)|Update v1.3.6|
 |2023-09-26 03:15:43|[safeline](https://github.com/chaitin/safeline)|feat: release v3.5.1|
 |2023-09-26 02:12:05|[Elkeid](https://github.com/bytedance/Elkeid)|Merge pull request #539 from bytedance/fix-rasp-mou<br>nt  fix mount when process not in container and feat<br> JVM version check|
-|2023-09-25 19:53:11|[RsaCtfTool](https://github.com/RsaCtfTool/RsaCtfTool)|Refactor codebase|
 |2023-09-25 13:24:54|[dperf](https://github.com/baidu/dperf)|Merge pull request #374 from pengjianzhang/main  up<br>date readme|
 |2023-09-25 05:23:56|[HackerPermKeeper](https://github.com/RuoJi6/HackerPermKeeper)|Add files via upload|
 |2023-09-25 03:59:08|[404StarLink](https://github.com/knownsec/404StarLink)|weekly update at 2023-09-25|
@@ -85,10 +85,7 @@
 |2023-09-20 07:18:50|[frp](https://github.com/fatedier/frp)|code optimization (#3625)|
 |2023-09-20 01:37:24|[OneScan](https://github.com/vaycore/OneScan)|更新版本号为1.3.0；更新README.md说明文档|
 |2023-09-19 14:14:44|[dirsearch](https://github.com/maurosoria/dirsearch)|Merge pull request #1325 from huyphan/master  Allow<br> dirsearch to use a non-default network interface #1<br>323|
-|2023-09-19 12:29:48|[All-Defense-Tool](https://github.com/guchangan1/All-Defense-Tool)|更新v3.0|
-|2023-09-18 15:32:22|[dalfox](https://github.com/hahwul/dalfox)|Merge pull request #489 from hahwul/dependabot/go_m<br>odules/github.com/swaggo/swag-1.16.2  Bump github.co<br>m/swaggo/swag from 1.16.1 to 1.16.2|
-|2023-09-18 15:12:06|[mysql-fake-server](https://github.com/4ra1n/mysql-fake-server)|change log|
-|2023-09-18 07:40:58|[Awesome-Redteam](https://github.com/Threekiii/Awesome-Redteam)|更新README.md|## 所有项目
+|2023-09-19 12:29:48|[All-Defense-Tool](https://github.com/guchangan1/All-Defense-Tool)|更新v3.0|## 所有项目
 # 渗透测试
 ## 信息收集
 ### 资产测绘采集
@@ -956,8 +953,8 @@
 | [domain_hunter_pro](https://github.com/bit4woo/domain_hunter_pro) | v1.9 | domain_hunter的高级版本，SRC挖洞、HW打点之必备！自动化资产收集<br>；快速Title获取；外部工具联动；等等 |
 | [JC-AntiToken](https://github.com/chroblert/JC-AntiToken) |  | burp插件：python版，token防重放绕过 |
 | [BurpSuite_403Bypa<br>sser](https://github.com/sting8k/BurpSuite_403Bypasser) |  | Burpsuite Extension to bypass 403 restricted directory |
-| [Burp-Non-HTTP-Ext<br>ension](https://github.com/summitt/Burp-Non-HTTP-Extension) | v1.8.0 | Non-HTTP Protocol Extension (NoPE) Proxy and DNS for Burp Suit<br>e. |
-| [Burp-Non-HTTP-Ext<br>ension](https://github.com/summitt/Burp-Non-HTTP-Extension) | v1.8.0 | Non-HTTP Protocol Extension (NoPE) Proxy and DNS for Burp Suit<br>e. |
+| [Burp-Non-HTTP-Ext<br>ension](https://github.com/summitt/Burp-Non-HTTP-Extension) | v1.8.0 | Non-HTTP Proxy Extension (NoPE) and DNS for Burp Suite. |
+| [Burp-Non-HTTP-Ext<br>ension](https://github.com/summitt/Burp-Non-HTTP-Extension) | v1.8.0 | Non-HTTP Proxy Extension (NoPE) and DNS for Burp Suite. |
 | [shiro-check](https://github.com/bigsizeme/shiro-check) | shiroch<br>ek3.0 | Shiro反序列化回显利用、内存shell、检查 Burp插件 |
 | [FastjsonScan](https://github.com/Maskhe/FastjsonScan) | 1.0 | 一个简单的Fastjson反序列化检测burp插件 |
 | [fastjsonScan](https://github.com/zilong3033/fastjsonScan) |  | fastjson漏洞burp插件，检测fastjson<1.2.68基于dnslog，fastjson<<br>=1.2.24和1.2.33<=fatjson<=1.2.47的不出网检测和TomcatEcho,Spring<br>Echo回显方案。 |
