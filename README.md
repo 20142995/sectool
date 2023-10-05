@@ -1,8 +1,10 @@
-# 更新于 2023-10-04 08:36:38
+# 更新于 2023-10-05 08:37:32
 
 ## 近15天release更新记录
 | 更新时间 | 项目名称 | 版本 | 更新内容 |
 | :---- | :---- | :---- | :---- |
+|2023-10-04 09:42:08|[cloudTools](https://github.com/dark-kingA/cloudTools)|main-cl<br>oud-0|1.云服务工具模块：  阿里云：添加告警<br>管理、可处理告警、配置告警通知。云数据<br>库rds添加账号，添加白名单，开通外网地址<br>  2.云存储工具模块：  阿里云、AWS、京<br>东云 添加STS临时授权|
+|2023-10-04 08:15:57|[neuvector](https://github.com/neuvector/neuvector)|v5.2.2|  ##### Security Advisory for CVE-202<br>3-32188  + Remediate CVE-2023-32188 “<br>JWT token compromise can allow malicio<br>us actions including Remote Code Execu<br>tion (RCE)” by auto-generating certif<br>icate used for singing JWT token upon <br>deployment and upgrade. Manual mount c<br>ertificates is still supported and rec<br>ommended for replacing certificate for<br> RESTful API and manager UI.  + Add ad<br>ditional controls on custom compliance<br> scripts. By default, custom script ar<br>e now not allowed to be added, unless <br>the environment variable CUSTOM_CHECK_<br>CONTROL is added to Controller and Enf<br>orcer. Values are "disable" (default, <br>not allowed), "strict" (admin role onl<br>y), or "loose" (admin, compliance, and<br> runtime-policy roles).  at: NVSHAS-82<br>13 Vuln Report - LDAP injection  #####<br> Enhancements  + Add additional scan d<br>ata to CVE results sent by SYSLOG for <br>layered scans  + Support NVD API 2.0 f<br>or scan CVE database (at: not in yet) <br> + Provide container image build date <br>in Assets -> Container details  + Adju<br>st sorting for Network rules: disable <br>sorting in Network rules view but enab<br>le sorting of network rules in Group v<br>iew.  + Enable/disable TLS 1.0 and TLS<br> 1.1 detection/alerting with environme<br>nt variables to Enforcer THRT_SSL_TLS_<br>1DOT0, THRT_SSL_TLS_1DOT1. Disabled by<br> default.  at: NVSHAS-8170 Auto profil<br>e collection: capture profile data at <br>the peak memory. a new env AUTO_PROFIL<br>E_COLLECT is added  at: NVSHAS-7704 Co<br>nfiguration assessments against Admiss<br>ion Control should show all violation <br>with one scan  at: NVSHAS-8261 Nuvecto<br>r namespace user cannot see assets-->n<br>amespaces  at: NVSHAS-5295 extend opti<br>ons for cve report criteria in respons<br>e rules conf  ##### Bug Fixes  + Expor<br>t of group policy does not return any <br>actual YAML contents  + Improve prunin<br>g of namespaces with dedicated functio<br>n  + Skip handling the CRD CREATE/UPDA<br>TE requests if the CR's namespace is a<br>lready deleted  + Provide workaround f<br>or part of CRD groups which cannot be <br>pruned successfully after namespaces a<br>re deleted|
 |2023-10-02 22:12:50|[PEASS-ng](https://github.com/carlospolop/PEASS-ng)|2023100<br>2-59c6f6<br>e6||
 |2023-10-02 14:46:33|[Burp-Non-HTTP-Ext<br>ension](https://github.com/summitt/Burp-Non-HTTP-Extension)|v1.8.0|### New Features  - UDP proxy with py<br>thon manglers and interceptor support <br> - Better search features    ### Bug F<br>ixes  - Fixed bug when clearing reques<br>t table that would freeze the UI  - Mi<br>nor bugs and UI tweaks    ### Known is<br>sues:  - Repeater not working for UDP|
 |2023-10-02 07:53:39|[BlueTeamTools](https://github.com/abc123info/BlueTeamTools)|BlueTea<br>mToolsV0<br>.81版本|2023.10.02 更新哥斯拉webshell的csharp<br>流量解密功能，asp流量解密功能。  2023.1<br>0.01 更新哥斯拉webshell的java流量解密<br>功能、php流量解密功能。  2023.09.11 更<br>新Xml转Json、Json转Xml功能。  2023.09.0<br>8 更新Mysql、SQLServer、Oracle、Postgr<br>esql、Hive数据库语句的格式化功能。  20<br>23.09.06 更正"网空资产测绘"功能Hunter<br>界面的显示问题。|
@@ -11,7 +13,6 @@
 |2023-09-28 09:48:42|[afrog](https://github.com/zan8in/afrog)|v2.8.8|Added the '-web' command to start a w<br>eb service for viewing vulnerability r<br>eports, including current and historic<br>al records.   Updated some PoCs."    <br>新增 -web 命令用于启动一个 Web 服务，用<br>于查看漏洞报告（包括当前和历史记录）  <br>更新一部分 PoCs    Happy October 1st!|
 |2023-09-27 17:03:54|[grype](https://github.com/anchore/grype)|v0.69.1|### Bug Fixes  - Incorrect python ver<br>sion comparisons for rc releases   @wi<br>llmurphyscode] - False Positive: CVE-2<br>023-37920 reported for certifi library<br> in python   @willmurphyscode] - Grype<br> is not recognizing python-certifi is <br>patched for GHSA-43fp-rhv2-5gv8   @wil<br>lmurphyscode] - False positive on cert<br>ifi 2022.12.07   @willmurphyscode] - L<br>eading zeros seen as difference in ver<br>sion numbers   @willmurphyscode]  ### <br>Additional Changes  - add OpenSSF Best<br> Practices badge  @spiffcs] - Bump vul<br>nerability match labels  @wagoodman] -<br> bump stereoscope to fix data race in <br>UI  @willmurphyscode]  ****  |
 |2023-09-27 15:52:50|[syft](https://github.com/anchore/syft)|v0.92.0|### Added Features  - Support for mul<br>tiple image refs of same sha in OCI la<br>yout ]  ### Bug Fixes  - Generated pur<br>ls are different between runs of syft <br>against the same image and artifact   <br>@willmurphyscode]  ### Additional Chan<br>ges  - bump stereoscope to fix data ra<br>ce in UI code  @willmurphyscode]  ****<br>  |
-|2023-09-26 14:49:56|[cloudTools](https://github.com/dark-kingA/cloudTools)|main-cl<br>oud|1.阿里云添加接管控制台、取消接管功能<br>。  2.添加腾讯云服务器检索、接管功能、<br>取消接管。|
 |2023-09-26 13:53:55|[Supershell](https://github.com/tdragon6/Supershell)|v2.0.0|## v2.0.0    **2023-09-26**    **提前<br>预祝各位师傅双节快乐！**  ### 安全漏洞 <br>   1. 修复share_pwd权限提升漏洞，参考<br>：  2. 修复几处XSS漏洞（待好心人测试）<br>：   - 备忘录处XSS #8   - 客户端用户名<br>处XSS #24   - 浏览文件处XSS #28   - 常<br>用文件名XSS  ### 功能BUG  1. 修复rssh d<br>ockerfile换源错误，现可通过远程pull和<br>本地原生两种方式构建镜像 #6 #13   - doc<br>ker-compose.yml 从云端仓库下载镜像，极<br>速构建，云端镜像构建时基于linux/amd64架<br>构   - docker-compose.yml.local 从本地<br>构建镜像，兼容本地系统架构  2. 修复非 u<br>tf-8 编码文件读取出错的BUG  3. 修复客<br>户端生成界面切换页数失效的BUG  4. 修复<br>更改rssh端口后无法回连的BUG，更改rssh端<br>口参考： #14    ### 功能新增  1. 新增分<br>组备注历史记录存储功能，现数据校准后分<br>组记录不会丢失，可在设置中清除历史冗余<br>缓存 #12   - 历史冗余缓存是指在客户端列<br>表记录中已删除的主机分组备注历史记录   <br>- 同主机名会话视为同一主机，修改其中一<br>个主机会话记录的分组备注后，后续同主机<br>上线或数据校准时会设置同样的分组备注信<br>息  2. 新增设置界面下载 rssh 私钥功能，<br>可配合本地ssh使用，参考wiki   3. 新增自<br>定义页面显示个数功能 #18  4. 新增客户端<br>会话批量断开、删除和设置分组备注功能 #1<br>8   - 批量断开只能断开在线客户端，批量<br>删除只能删除离线记录  5. 新增Linux客户<br>端执行时自定义进程名功能，可通过客户端<br>参数 --process_name 指定进程名 #5  6. <br>新增一行命令上线功能，使用此功能需要在<br>启动 docker-compose up -d 前设置公网地<br>址环境变量 #16   - 格式：export EXTERNA<br>L_ADDRESS=:   - 支持shell和python脚本<br>一行命令上线，参考：  7. 新增客户端回连<br>代理，可在客户端生成中指定，仅支持http<br>代理 #31  8. 新增客户端流量封装，默认为<br>ssh，可封装为 tls、websockets 和 secur<br>e websockets   - 自定义tls证书时，可在<br> ./volume/rssh/tls 目录中放置证书文件<br>，将tls cert文件命名为 tls.cert，tls ke<br>y文件命名为 tls.key   - 默认没有放置证<br>书文件时，使用自签名证书  9. 新增客户端<br>开启监听功能，对于内网不出网的主机，可<br>通过其他客户端的监听端口回连，实现内网<br>链，参考 ：  10. 新增客户端参数功能，可<br>在执行客户端时指定代理和目的地址等参数 <br>  - 格式：./client -d : --proxy : --pr<br>ocess_name     ### 功能优化  1. 优化回<br>连地址支持域名 #7  2. 优化docker映射时s<br>sh私钥的权限问题 #3   3. 优化garble，<br>进一步模糊签名  4. 优化稳定性和其他代码<br>结构    *从旧版本升级参考：*|
 |2023-09-26 13:07:24|[codeql-cli-binari<br>es](https://github.com/github/codeql-cli-binaries)|v2.14.6|### Bugs fixed    - The tracking of R<br>AM usage has been improved. This fixes<br> some cases    where CodeQL uses more <br>RAM than requested.    For more inform<br>ation about the changes included in th<br>is release, see the .    You can downl<br>oad _either_ the codeql-PLATFORM.zip f<br>or your platform, _or_ the generic cod<br>eql.zip which contains binaries for al<br>l supported platforms. Please ignore t<br>he additional "source code" downloads <br>below the .zip artifacts.    This rele<br>ase is compatible with the CodeQL lang<br>uage packs from .  |
 |2023-09-26 08:05:08|[Umi-OCR](https://github.com/hiroi-sora/Umi-OCR)|v1.3.6|### 公告： v2.0.0 预览版开放测试！  <br>经过数月的工作，Umi-OCR v2.0.0 完成了主<br>要功能的开发，已开放预览版本。v2重构了<br>整个项目，提供焕然一新的界面和更强大的<br>功能。        如果有兴趣，请前往  下载<br>体验。    测试阶段的 v2 可能含Bug。注重<br>稳定的用户可继续使用 v1.3 版本。    ---<br>    ### v1.3.6 主要更新：  - 优化了段<br>落合并的功能：      - 单行 方案的文本排<br>序更准确。      - 多行-自然段 方案更加<br>智能，支持自动判断中/英文段落，采取不同<br>的合并规则。      - 新增多行-代码段方案<br>，支持还原图中的缩进与空格，适合用来识<br>别代码片段。      - 移除了 西文、左对齐<br>、模糊匹配等方案，它们可以用现有方案代<br>替。  - 功能调整：截图联动 划分为独立的<br>功能，以单独快捷键触发，不受常规截图OCR<br>影响。    ### 文件说明：  软件本体：Umi<br>-OCR.v1.3.6.7z（67MB），内置简体中文&<br>英文通用识别库。  - SHA256: 7dd686f8443<br>7df6add5f276019d067c52674d463000ac7d76<br>22c5fcd38649efd    软件（多国语言整合<br>版）：Umi-OCR.v1.3.5_ALL_languages.7z（<br>117.5MB），内置多国语言识别库。  - SHA<br>256: 829c815905c695db262e1101b4b2af392<br>9e4779d1c4b4e3a2db7136096d4aeff    多<br>国语言扩展包：Umi-OCR.v1.3_DLC_language<br>s.7z（50.5MB），可向软件本体导入繁中,<br>英,日,韩,俄,德,法 多国语言识别库。  - S<br>HA256: 709c867a610346217fc19a2251ead2a<br>27d9dd0cf25e26ce05af007dbfc492974|
@@ -28,33 +29,36 @@
 ## 近15天commit提交记录
 | 提交时间 | 项目名称 | 更新内容 |
 | :---- | :---- | :---- |
-|2023-10-04 00:00:03|[free](https://github.com/freefq/free)|updated_at 10-04 08:00|
-|2023-10-03 23:39:47|[PocOrExp_in_Githu<br>b](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-10-04 07:39:47|
+|2023-10-05 00:00:02|[free](https://github.com/freefq/free)|updated_at 10-05 08:00|
+|2023-10-04 22:24:32|[impacket](https://github.com/fortra/impacket)|[ticketer.py] Sapphire tickets (#1411)  * Adding -i<br>mpersonate flag to ingest S4U2self+U2U TGT    * Func<br>tional version    * Commenting out duration customiz<br>ation for sapphire    * Fixes #1605    * Adding AD_I<br>F_RELEVANT reference    * Fixing undefined tgt sessi<br>on key and wrong cname for impersonation    * Adding<br> missing and ignored params|
+|2023-10-04 19:15:09|[dbeaver](https://github.com/dbeaver/dbeaver)|dbeaver/pro#1986 don't show deleteContentsCheck in <br>distributed app (#21429)|
+|2023-10-04 18:08:34|[grype](https://github.com/anchore/grype)|chore: removes unnecessary conditional (#1539)  Sig<br>ned-off-by: chavacava |
+|2023-10-04 18:06:12|[syft](https://github.com/anchore/syft)|chore: removes unnecessary conditional (#2194)  Sig<br>ned-off-by: chavacava |
+|2023-10-04 17:06:23|[PocOrExp_in_Githu<br>b](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-10-05 01:06:23|
+|2023-10-04 12:38:02|[v2rayfree](https://github.com/aiboboxx/v2rayfree)|update|
+|2023-10-04 12:13:20|[trivy](https://github.com/aquasecurity/trivy)|chore: update adopters template (#5330)|
+|2023-10-04 10:03:26|[Awesome-Redteam](https://github.com/Threekiii/Awesome-Redteam)|更新README.md|
+|2023-10-04 09:35:24|[cloudTools](https://github.com/dark-kingA/cloudTools)|update md|
+|2023-10-04 07:41:43|[Burp-Non-HTTP-Ext<br>ension](https://github.com/summitt/Burp-Non-HTTP-Extension)|Update version|
+|2023-10-04 07:22:49|[FreeRDP](https://github.com/FreeRDP/FreeRDP)|[core,nla] Inject received TSCredentials in the pee<br>r's settings  The RDP client sends TSCredentials so <br>that the server can reuse these credentials. This pa<br>tch stores these values in the peer's rdpSettings in<br> the corresponding fields. It handles TSPasswordCred<br>s for user/domain/password connection but also TSSma<br>rtCardCreds when the users has connected with a smar<br>tcard.|
+|2023-10-04 02:06:29|[ChatGPT-Shortcut](https://github.com/rockbenben/ChatGPT-Shortcut)|chore: upgrade dependencies|
 |2023-10-03 20:04:10|[clair](https://github.com/quay/clair)|'chore: update claircore to v1.5.19  Update clairco<br>re to latest release. '  Signed-off-by: Claircore-CI<br> |
 |2023-10-03 19:02:49|[commando-vm](https://github.com/mandiant/commando-vm)|Installer updates (#306)  * Update 3.1    ---------<br>    Co-authored-by: Alex | NoSecurity |
 |2023-10-03 17:29:26|[RsaCtfTool](https://github.com/RsaCtfTool/RsaCtfTool)|Add digital_sum check for miller_rabin prime test|
 |2023-10-03 15:37:45|[rustdesk](https://github.com/rustdesk/rustdesk)|Merge pull request #5901 from fufesou/fix/cursor_ho<br>txy_mismatch  fix, cursor (hotx,hoty) mismatch somet<br>imes|
-|2023-10-03 15:18:17|[dbeaver](https://github.com/dbeaver/dbeaver)|Merge branch 'devel' of https://github.com/dbeaver/<br>dbeaver into devel|
-|2023-10-03 15:13:07|[syft](https://github.com/anchore/syft)|chore: improve --output help text and deprecate --f<br>ile (#2187)  Signed-off-by: Mohammad Sharief Baig |
-|2023-10-03 14:02:51|[Burp-Non-HTTP-Ext<br>ension](https://github.com/summitt/Burp-Non-HTTP-Extension)|Update README.md|
-|2023-10-03 12:36:59|[v2rayfree](https://github.com/aiboboxx/v2rayfree)|update|
 |2023-10-03 12:22:40|[neuvector](https://github.com/neuvector/neuvector)|Merge pull request #1044 from jayhuang-suse/seven  <br>NVSHAS-8327: FileMonitor: Many automation cases fail<br> due to many fields missing in the event.|
-|2023-10-03 11:10:05|[trivy](https://github.com/aquasecurity/trivy)|ci: do not trigger tests on the push event (#5313) <br> Signed-off-by: knqyf263 |
 |2023-10-03 03:56:50|[domain_hunter_pro](https://github.com/bit4woo/domain_hunter_pro)|update|
 |2023-10-03 02:06:30|[SmsForwarder](https://github.com/pppscn/SmsForwarder)|优化：在选择Web客户端目录的时候弹出授权管理所有文件<br>访问的权限 #332|
 |2023-10-02 21:54:28|[PEASS-ng](https://github.com/carlospolop/PEASS-ng)|Update 9_interesting_files.sh|
-|2023-10-02 16:35:31|[grype](https://github.com/anchore/grype)|chore(deps): bump github.com/gkampitakis/go-snaps f<br>rom 0.4.10 to 0.4.11 (#1533)  Bumps  from 0.4.10 to <br>0.4.11.  -   -     ---  updated-dependencies:  - dep<br>endency-name: github.com/gkampitakis/go-snaps    dep<br>endency-type: direct:production    update-type: vers<br>ion-update:semver-patch  ...    Signed-off-by: depen<br>dabot[bot]   Co-authored-by: dependabot[bot] |
 |2023-10-02 14:37:42|[HackBrowserData](https://github.com/moonD4rk/HackBrowserData)|chore: update Go version and dependencies for build<br>s  - Update Go version from 1.20 to 1.21 in go.mod, <br>.github/workflows/build.yml, and .github/workflows/l<br>int.yml|
 |2023-10-02 11:38:00|[rengine](https://github.com/yogeshojha/rengine)|Merge pull request #964 from AnonymousWP/make-field<br>s-mandatory  chore(issue-templates): require more fi<br>elds to be filled in|
 |2023-10-02 09:54:11|[awesome-chatgpt-z<br>h](https://github.com/yzfly/awesome-chatgpt-zh)|update openai plus|
 |2023-10-02 09:39:24|[kube-bench](https://github.com/aquasecurity/kube-bench)|updates to the readme  Signed-off-by: AnaisUrlichs |
 |2023-10-02 07:55:28|[BlueTeamTools](https://github.com/abc123info/BlueTeamTools)|Update README.md|
 |2023-10-02 07:30:27|[flightsim](https://github.com/alphasoc/flightsim)|Merge pull request #66 from alphasoc/mariusz/go-ins<br>tall-docs-fix  Adjust install from source command in<br> the readme. Resolves #65|
-|2023-10-02 06:51:53|[FreeRDP](https://github.com/FreeRDP/FreeRDP)|[flatpak] added opensc to build|
 |2023-10-01 17:36:05|[vulhub](https://github.com/vulhub/vulhub)|add librsvg CVE-2023-38633 and jumpserver CVE-2023-<br>42820 into environments.toml|
 |2023-10-01 12:50:32|[ObserverWard](https://github.com/0x727/ObserverWard)|Merge pull request #202 from 0x727/dependabot/cargo<br>/actix-web-httpauth-0.8.1  Bump actix-web-httpauth f<br>rom 0.8.0 to 0.8.1|
 |2023-09-30 17:02:12|[beef](https://github.com/beefproject/beef)|Merge branch 'master' of https://github.com/beefpro<br>ject/beef|
-|2023-09-28 20:32:59|[impacket](https://github.com/fortra/impacket)|Merge pull request #1602 from rtpt-erikgeiser:ntlmr<br>elayx_log_initial_authentication|
 |2023-09-28 18:34:52|[sqlmap](https://github.com/sqlmapproject/sqlmap)|Implements option --time-limit (#5502)|
 |2023-09-28 14:23:14|[nemo_go](https://github.com/hanc00l/nemo_go)|Update: v2.10.2|
 |2023-09-28 13:38:02|[gshark](https://github.com/madneal/gshark)|add build for darwin arm64|
@@ -65,7 +69,6 @@
 |2023-09-27 10:12:16|[arthas](https://github.com/alibaba/arthas)|Prettified Code!|
 |2023-09-27 02:37:34|[vulnerability](https://github.com/lal0ne/vulnerability)|CVE-2023-31719|
 |2023-09-26 18:41:37|[wpscan](https://github.com/wpscanteam/wpscan)|Bump version|
-|2023-09-26 14:26:40|[cloudTools](https://github.com/dark-kingA/cloudTools)|update md|
 |2023-09-26 14:15:53|[iDefender](https://github.com/wecooperate/iDefender)|update|
 |2023-09-26 13:49:47|[Supershell](https://github.com/tdragon6/Supershell)|Update Changelog.md|
 |2023-09-26 13:05:52|[codeql-cli-binari<br>es](https://github.com/github/codeql-cli-binaries)|Update CHANGELOG for 2.14.6|
@@ -83,9 +86,7 @@
 |2023-09-20 14:41:31|[faker](https://github.com/joke2k/faker)|Bump version: 19.6.1 → 19.6.2|
 |2023-09-20 10:22:05|[ffuf](https://github.com/ffuf/ffuf)|Fix autocalibration-strategy merging, add tests (#7<br>32)|
 |2023-09-20 07:18:50|[frp](https://github.com/fatedier/frp)|code optimization (#3625)|
-|2023-09-20 01:37:24|[OneScan](https://github.com/vaycore/OneScan)|更新版本号为1.3.0；更新README.md说明文档|
-|2023-09-19 14:14:44|[dirsearch](https://github.com/maurosoria/dirsearch)|Merge pull request #1325 from huyphan/master  Allow<br> dirsearch to use a non-default network interface #1<br>323|
-|2023-09-19 12:29:48|[All-Defense-Tool](https://github.com/guchangan1/All-Defense-Tool)|更新v3.0|## 所有项目
+|2023-09-20 01:37:24|[OneScan](https://github.com/vaycore/OneScan)|更新版本号为1.3.0；更新README.md说明文档|## 所有项目
 # 渗透测试
 ## 信息收集
 ### 资产测绘采集
@@ -346,7 +347,7 @@
 #### 云原生安全平台
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
-| [neuvector](https://github.com/neuvector/neuvector) | v5.2.1 |  |
+| [neuvector](https://github.com/neuvector/neuvector) | v5.2.2 |  |
 | [ThunderCloud](https://github.com/Rnalter/ThunderCloud) |  | Cloud Exploit Framework |
 ### 半自动化漏洞利用
 | 项目名称 | 版本 | 项目描述 |
@@ -510,7 +511,7 @@
 | [aksk_tool](https://github.com/wyzxxz/aksk_tool) |  | AK资源管理工具，阿里云/腾讯云/华为云/AWS/UCLOUD/京东云/百度云/<br>七牛云存储  AccessKey AccessKeySecret，利用AK获取资源信息和操作<br>资源，ECS/CVM/E2/UHOST/ECI/BCC执行命令，OSS/COS/S3/BOS管理，RDS/<br>DB管理，域名管理，添加RAM/CAM/IAM账号等 |
 | [AliyunAccessKeyTo<br>ols](https://github.com/NS-Sp4ce/AliyunAccessKeyTools) | 1.0 | 阿里云AccessKey泄漏利用工具 |
 | [cf](https://github.com/teamssix/cf) |  |  |
-| [cloudTools](https://github.com/dark-kingA/cloudTools) | main-cl<br>oud | 云资产管理工具 目前工具定位是云安全相关工具，目前是两个模块 云<br>存储工具、云服务器工具， 云存储工具主要是针对oss存储、查看、删除<br>、上传、下载、预览等等 云服务器工具主要是针对ecs服务器的管理，查<br>看、执行命令等等 |
+| [cloudTools](https://github.com/dark-kingA/cloudTools) | main-cl<br>oud-0 | 云资产管理工具 目前工具定位是云安全相关工具，目前是两个模块 云<br>存储工具、云服务器工具， 云存储工具主要是针对oss存储、查看、删除<br>、上传、下载、预览等等 云服务器工具主要是针对ecs服务器的管理，查<br>看、执行命令等等 |
 | [API-T00L](https://github.com/pykiller/API-T00L) | v1.2 |  |
 #### swagger接口
 | 项目名称 | 版本 | 项目描述 |

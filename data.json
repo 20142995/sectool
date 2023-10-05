@@ -200,8 +200,8 @@
     "https://github.com/ycdxsb/PocOrExp_in_Github": {
         "created_at": "2021-04-13 05:46:16",
         "description": "聚合Github上已有的Poc或者Exp，CVE信息来自CVE官网。Auto Collect Poc Or Exp from Github by CVE ID.",
-        "commit_date": "2023-10-03 23:39:47",
-        "commit_message": "update 2023-10-04 07:39:47",
+        "commit_date": "2023-10-04 17:06:23",
+        "commit_message": "update 2023-10-05 01:06:23",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -1467,8 +1467,8 @@
     "https://github.com/summitt/Burp-Non-HTTP-Extension": {
         "created_at": "2016-05-23 20:30:34",
         "description": "Non-HTTP Proxy Extension (NoPE) and DNS for Burp Suite.",
-        "commit_date": "2023-10-03 14:02:51",
-        "commit_message": "Update README.md",
+        "commit_date": "2023-10-04 07:41:43",
+        "commit_message": "Update version",
         "release_tag": "v1.8.0",
         "release_date": "2023-10-02 14:46:33",
         "release_message": "### New Features\r\n- UDP proxy with python manglers and interceptor support\r\n- Better search features\r\n\r\n### Bug Fixes\r\n- Fixed bug when clearing request table that would freeze the UI\r\n- Minor bugs and UI tweaks\r\n\r\n### Known issues:\r\n- Repeater not working for UDP"
@@ -2951,8 +2951,8 @@
     "https://github.com/dbeaver/dbeaver": {
         "created_at": "2015-10-21 08:26:28",
         "description": "Free universal database tool and SQL client",
-        "commit_date": "2023-10-03 15:18:17",
-        "commit_message": "Merge branch 'devel' of https://github.com/dbeaver/dbeaver into devel",
+        "commit_date": "2023-10-04 19:15:09",
+        "commit_message": "dbeaver/pro#1986 don't show deleteContentsCheck in distributed app (#21429)",
         "release_tag": "23.2.1",
         "release_date": "2023-09-26 05:31:33",
         "release_message": "\n                - SQL Editor:\n                    - Aliases proposals for tables with joins were improved\n                    - SQL console can now be saved as a script\n                    - Enhanced smart completion is enabled (configurable)\n                    - Issue with big string contents (json, xml) edit was resolved\n                    - JSON formatting in the separate editor was fixed\n                    - Ctrl+Alt+6 shortcut was changed to Ctrl+Alt+T\n                    - JSON functions keywords were added to the SQL Assist\n                    - Representation of errors on query execution was fixed\n                - ER Diagrams: issue with duplicate relations on the diagram was fixed\n                - Data Editor:\n                    - Big content representation end editing was limited to 1MB (configurable)\n                    - User can now add a shortcut for setting row color\n                    - Issue with hiding the wrong column from the context menu was resolved\n                    - Grouping panel now shows actual executed SQL\n                    - Decimal rounding error was fixed\n                - General UI:\n                    - When exporting a project, a warning about replacing an existing project was added (thanks to @MontejoJorge)\n                    - Scroll bars were added on the connection page, and other wizards\n                    - Issue with broken quotes in localization files was resolved\n                - Connectivity:\n                    - Driver download UI was improved: already downloaded driver files are colored in grey\n                    - JDBC drivers maven artifacts resolve was fixed\n                    - The \"Propagate driver properties\" option was added to the driver settings\n                - New drivers:\n                    - JDBCX driver was added (thanks to @zhicwu)\n                - Databases:\n                    - Clickhouse: IPv4 data representation was fixed\n                    - Greenplum: External tables representation was fixe\n                    - MySQL: Unsupported engine types are replaced with the default one\n                    - Oceanbase:\n                        - Views editor was supported\n                        - Routines and procedure parameters read was fixed\n                    - PostgreSQL:\n                        - Foreign tables folder was added\n                        - Enum data types reading performance was enhanced\n                    - Redshift: Backup/Restore tools were deprecated and removed from UI\n                    - Snowflake:\n                        - Driver was updated to 3.13.25\n                        - Materialized views are now supported\n                        - Schema create UI was enhanced was enhanced\n                    Trino: Views DDL support was added\n            "
@@ -3219,7 +3219,7 @@
     "https://github.com/Threekiii/Awesome-Redteam": {
         "created_at": "2022-02-08 00:45:03",
         "description": "一个攻防知识仓库",
-        "commit_date": "2023-09-18 07:40:58",
+        "commit_date": "2023-10-04 10:03:26",
         "commit_message": "更新README.md",
         "release_tag": "",
         "release_date": "",
@@ -3892,9 +3892,9 @@
         "description": "",
         "commit_date": "2023-10-03 12:22:40",
         "commit_message": "Merge pull request #1044 from jayhuang-suse/seven\n\nNVSHAS-8327: FileMonitor: Many automation cases fail due to many fields missing in the event.",
-        "release_tag": "v5.2.1",
-        "release_date": "2023-08-22 23:29:15",
-        "release_message": "Features\r\nNVSHAS-7449: Report layered scan result to syslog\r\nNVSHAS-6974: Export NIST compliance report\r\nNVSHAS-8157: Handle Proxy setting in image signature verification\r\nNVSHAS-8034: Include image signature result in the downloaded CVE report\r\nNVSHAS-7483: Pod annotations for Admission Control Policies\r\n\r\nBug fixes\r\nNVSHAS-8200: Do not create default admin with default password in NV fresh deployment for AWS billing offering\r\nNVSHAS-8172: .json file increased size and crashed a kubernetes node\r\nNVSHAS-7963: Improve SQL injection detection logics\r\nNVSHAS-8128: when install helm crd chart first before insatlling core chart, service accounts are missing\r\nNVSHAS-8106: Image scan I.4.1 compliance result is incorrect\r\nNVSHAS-8050: Vulnerability advance filter report showing images from all other namespace"
+        "release_tag": "v5.2.2",
+        "release_date": "2023-10-04 08:15:57",
+        "release_message": "\r\n##### Security Advisory for CVE-2023-32188\r\n+ Remediate CVE-2023-32188 “JWT token compromise can allow malicious actions including Remote Code Execution (RCE)” by auto-generating certificate used for singing JWT token upon deployment and upgrade. Manual mount certificates is still supported and recommended for replacing certificate for RESTful API and manager UI.\r\n+ Add additional controls on custom compliance scripts. By default, custom script are now not allowed to be added, unless the environment variable CUSTOM_CHECK_CONTROL is added to Controller and Enforcer. Values are \"disable\" (default, not allowed), \"strict\" (admin role only), or \"loose\" (admin, compliance, and runtime-policy roles).\r\nat: NVSHAS-8213 Vuln Report - LDAP injection\r\n##### Enhancements\r\n+ Add additional scan data to CVE results sent by SYSLOG for layered scans\r\n+ Support NVD API 2.0 for scan CVE database (at: not in yet)\r\n+ Provide container image build date in Assets -> Container details\r\n+ Adjust sorting for Network rules: disable sorting in Network rules view but enable sorting of network rules in Group view.\r\n+ Enable/disable TLS 1.0 and TLS 1.1 detection/alerting with environment variables to Enforcer THRT_SSL_TLS_1DOT0, THRT_SSL_TLS_1DOT1. Disabled by default.\r\nat: NVSHAS-8170 Auto profile collection: capture profile data at the peak memory. a new env AUTO_PROFILE_COLLECT is added\r\nat: NVSHAS-7704 Configuration assessments against Admission Control should show all violation with one scan\r\nat: NVSHAS-8261 Nuvector namespace user cannot see assets-->namespaces\r\nat: NVSHAS-5295 extend options for cve report criteria in response rules conf\r\n##### Bug Fixes\r\n+ Export of group policy does not return any actual YAML contents\r\n+ Improve pruning of namespaces with dedicated function\r\n+ Skip handling the CRD CREATE/UPDATE requests if the CR's namespace is already deleted\r\n+ Provide workaround for part of CRD groups which cannot be pruned successfully after namespaces are deleted"
     },
     "https://github.com/lijiejie/BBScan": {
         "created_at": "2015-11-13 07:41:10",
@@ -3908,8 +3908,8 @@
     "https://github.com/anchore/syft": {
         "created_at": "2020-05-07 18:19:29",
         "description": "CLI tool and library for generating a Software Bill of Materials from container images and filesystems",
-        "commit_date": "2023-10-03 15:13:07",
-        "commit_message": "chore: improve --output help text and deprecate --file (#2187)\n\nSigned-off-by: Mohammad Sharief Baig <shariefmohammad007@gmail.com>",
+        "commit_date": "2023-10-04 18:06:12",
+        "commit_message": "chore: removes unnecessary conditional (#2194)\n\nSigned-off-by: chavacava <salvadorcavadini+github@gmail.com>",
         "release_tag": "v0.92.0",
         "release_date": "2023-09-27 15:52:50",
         "release_message": "### Added Features\n\n- Support for multiple image refs of same sha in OCI layout [[#1544](https://github.com/anchore/syft/issues/1544)]\n\n### Bug Fixes\n\n- Generated purls are different between runs of syft against the same image and artifact [[#2169](https://github.com/anchore/syft/issues/2169) [#2170](https://github.com/anchore/syft/pull/2170) @willmurphyscode]\n\n### Additional Changes\n\n- bump stereoscope to fix data race in UI code [[#2173](https://github.com/anchore/syft/pull/2173) @willmurphyscode]\n\n**[(Full Changelog)](https://github.com/anchore/syft/compare/v0.91.0...v0.92.0)**\n\n"
@@ -3971,8 +3971,8 @@
     "https://github.com/aquasecurity/trivy": {
         "created_at": "2019-04-11 01:01:07",
         "description": "Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more",
-        "commit_date": "2023-10-03 11:10:05",
-        "commit_message": "ci: do not trigger tests on the push event (#5313)\n\nSigned-off-by: knqyf263 <knqyf263@gmail.com>",
+        "commit_date": "2023-10-04 12:13:20",
+        "commit_message": "chore: update adopters template (#5330)",
         "release_tag": "v0.45.1",
         "release_date": "2023-09-16 07:29:33",
         "release_message": "## Changelog\n* daae88287 fix(purl): handle rust types (#5186)\n* 81240cf08 chore: auto-close issues (#5177)\n* bd0accd8a chore(deps): bump github.com/spf13/viper from 1.15.0 to 1.16.0 (#5093)\n* ecee79403 fix(k8s): kbom support addons labels (#5178)\n* 9ebc25d88 test: validate SPDX with the JSON schema (#5124)\n* 9a49a3773 chore: bump trivy-kubernetes-latest (#5161)\n* ad1dc6327 docs: add 'Signature Verification' guide (#4731)\n* 7c68d4a7e docs: add image-scanner-with-trivy for ecosystem (#5159)\n* ed49609a7 fix(fs): assign the absolute path to be inspected to ROOTPATH when filesystem (#5158)\n* 19539722e chore(deps): bump github.com/CycloneDX/cyclonedx-go (#5102)\n* c7516011b Update filtering.md (#5131)\n* ccc6d7cb2 chore(deps): bump sigstore/cosign-installer (#5104)\n* 48cbf4553 chore(deps): bump github.com/cyphar/filepath-securejoin (#5143)\n* a9c2c74c5 chore(deps): bump golangci/golangci-lint-action from 3.6.0 to 3.7.0 (#5103)\n* 120ac68b5 chore(deps): bump easimon/maximize-build-space from 7 to 8 (#5105)\n* 41eaa78ae chore(deps): bump github.com/aws/aws-sdk-go from 1.44.273 to 1.45.3 (#5126)\n* 932f92755 chaging adopters discussion tempalte (#5091)\n* db3133346 chore(deps): bump github.com/cheggaaa/pb/v3 from 3.1.2 to 3.1.4 (#5092)\n* 8c0b7d619 chore(deps): bump github.com/hashicorp/golang-lru/v2 from 2.0.2 to 2.0.6 (#5094)\n* c61c664c3 chore(deps): bump github.com/aws/aws-sdk-go-v2/config (#5095)\n* a99944c1c chore(deps): bump github.com/containerd/containerd from 1.7.3 to 1.7.5 (#5097)\n* 9fc844ecf chore(deps): bump github.com/Azure/azure-sdk-for-go/sdk/azidentity (#5098)\n* c504f8be4 chore(deps): bump actions/checkout from 3.5.3 to 3.6.0 (#5106)\n\n"
@@ -3980,8 +3980,8 @@
     "https://github.com/anchore/grype": {
         "created_at": "2020-05-26 13:44:38",
         "description": "A vulnerability scanner for container images and filesystems",
-        "commit_date": "2023-10-02 16:35:31",
-        "commit_message": "chore(deps): bump github.com/gkampitakis/go-snaps from 0.4.10 to 0.4.11 (#1533)\n\nBumps [github.com/gkampitakis/go-snaps](https://github.com/gkampitakis/go-snaps) from 0.4.10 to 0.4.11.\r\n- [Release notes](https://github.com/gkampitakis/go-snaps/releases)\r\n- [Commits](https://github.com/gkampitakis/go-snaps/compare/v0.4.10...v0.4.11)\r\n\r\n---\r\nupdated-dependencies:\r\n- dependency-name: github.com/gkampitakis/go-snaps\r\n  dependency-type: direct:production\r\n  update-type: version-update:semver-patch\r\n...\r\n\r\nSigned-off-by: dependabot[bot] <support@github.com>\r\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
+        "commit_date": "2023-10-04 18:08:34",
+        "commit_message": "chore: removes unnecessary conditional (#1539)\n\nSigned-off-by: chavacava <salvadorcavadini+github@gmail.com>",
         "release_tag": "v0.69.1",
         "release_date": "2023-09-27 17:03:54",
         "release_message": "### Bug Fixes\n\n- Incorrect python version comparisons for rc releases [[#986](https://github.com/anchore/grype/issues/986) [#1510](https://github.com/anchore/grype/pull/1510) @willmurphyscode]\n- False Positive: CVE-2023-37920 reported for certifi library in python [[#1417](https://github.com/anchore/grype/issues/1417) [#1510](https://github.com/anchore/grype/pull/1510) @willmurphyscode]\n- Grype is not recognizing python-certifi is patched for GHSA-43fp-rhv2-5gv8 [[#1172](https://github.com/anchore/grype/issues/1172) [#1510](https://github.com/anchore/grype/pull/1510) @willmurphyscode]\n- False positive on certifi 2022.12.07 [[#1034](https://github.com/anchore/grype/issues/1034) [#1510](https://github.com/anchore/grype/pull/1510) @willmurphyscode]\n- Leading zeros seen as difference in version numbers [[#1430](https://github.com/anchore/grype/issues/1430) [#1510](https://github.com/anchore/grype/pull/1510) @willmurphyscode]\n\n### Additional Changes\n\n- add OpenSSF Best Practices badge [[#1523](https://github.com/anchore/grype/pull/1523) @spiffcs]\n- Bump vulnerability match labels [[#1525](https://github.com/anchore/grype/pull/1525) @wagoodman]\n- bump stereoscope to fix data race in UI [[#1517](https://github.com/anchore/grype/pull/1517) @willmurphyscode]\n\n**[(Full Changelog)](https://github.com/anchore/grype/compare/v0.69.0...v0.69.1)**\n\n"
@@ -4277,7 +4277,7 @@
     "https://github.com/aiboboxx/v2rayfree": {
         "created_at": "2021-10-13 11:34:53",
         "description": "v2ray节点、免费节点、免费v2ray节点、最新公益免费v2ray节点订阅地址、免费v2ray节点每日更新、免费ss/v2ray/trojan节点、freefq ",
-        "commit_date": "2023-10-03 12:36:59",
+        "commit_date": "2023-10-04 12:38:02",
         "commit_message": "update",
         "release_tag": "",
         "release_date": "",
@@ -4322,8 +4322,8 @@
     "https://github.com/freefq/free": {
         "created_at": "2020-06-07 02:48:33",
         "description": "翻墙、免费翻墙、免费科学上网、免费节点、免费梯子、免费ss/v2ray/trojan节点、蓝灯、谷歌商店、翻墙梯子",
-        "commit_date": "2023-10-04 00:00:03",
-        "commit_message": "updated_at 10-04 08:00",
+        "commit_date": "2023-10-05 00:00:02",
+        "commit_message": "updated_at 10-05 08:00",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -4601,8 +4601,8 @@
     "https://github.com/rockbenben/ChatGPT-Shortcut": {
         "created_at": "2023-02-24 12:53:49",
         "description": "🚀💪Maximize your efficiency and productivity, support for English,中文,Español,العربية. 让生产力加倍的ChatGPT快捷指令，无需熟悉提示词，就能轻松搜索、优化和管理Prompts，适应多语言及各种生产效率场景。",
-        "commit_date": "2023-09-16 12:17:38",
-        "commit_message": "docs: update docs",
+        "commit_date": "2023-10-04 02:06:29",
+        "commit_message": "chore: upgrade dependencies",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -5148,8 +5148,8 @@
     "https://github.com/FreeRDP/FreeRDP": {
         "created_at": "2011-06-30 19:14:15",
         "description": "FreeRDP is a free remote desktop protocol library and clients",
-        "commit_date": "2023-10-02 06:51:53",
-        "commit_message": "[flatpak] added opensc to build",
+        "commit_date": "2023-10-04 07:22:49",
+        "commit_message": "[core,nla] Inject received TSCredentials in the peer's settings\n\nThe RDP client sends TSCredentials so that the server can reuse these credentials. This\npatch stores these values in the peer's rdpSettings in the corresponding fields.\nIt handles TSPasswordCreds for user/domain/password connection but also TSSmartCardCreds\nwhen the users has connected with a smartcard.",
         "release_tag": "2.11.2",
         "release_date": "2023-09-20 08:12:02",
         "release_message": "Notworthy changes:\r\n* Backported #9378: backported wArrayList (optional) copy on insert\r\n* Backported #9360: backported certificate algorithm detection\r\n\r\n[freerdp-2.11.2.zip](https://github.com/FreeRDP/FreeRDP/files/12670556/freerdp-2.11.2.zip)\r\n[freerdp-2.11.2.tar.gz](https://github.com/FreeRDP/FreeRDP/files/12670558/freerdp-2.11.2.tar.gz)\r\n"
@@ -5702,8 +5702,8 @@
     "https://github.com/fortra/impacket": {
         "created_at": "2015-04-15 14:04:07",
         "description": "Impacket is a collection of Python classes for working with network protocols.",
-        "commit_date": "2023-09-28 20:32:59",
-        "commit_message": "Merge pull request #1602 from rtpt-erikgeiser:ntlmrelayx_log_initial_authentication",
+        "commit_date": "2023-10-04 22:24:32",
+        "commit_message": "[ticketer.py] Sapphire tickets (#1411)\n\n* Adding -impersonate flag to ingest S4U2self+U2U TGT\r\n\r\n* Functional version\r\n\r\n* Commenting out duration customization for sapphire\r\n\r\n* Fixes #1605\r\n\r\n* Adding AD_IF_RELEVANT reference\r\n\r\n* Fixing undefined tgt session key and wrong cname for impersonation\r\n\r\n* Adding missing and ignored params",
         "release_tag": "impacket_0_11_0",
         "release_date": "2023-08-03 17:36:40",
         "release_message": "## Impacket 0.11.0:\r\nProject's main page at https://www.coresecurity.com/core-labs/open-source-tools/impacket\r\n\r\nChangeLog for 0.11.0:\r\n1. Library improvements \r\n    * Added new Kerberos error codes (@ly4k).\r\n\t* Added `[MS-TSTS]` Terminal Services Terminal Server Runtime Interface Protocol implementation (@nopernik).\r\n    * Changed the setting up for new SSL connections (@mpgn, @CT-H00K and @0xdeaddood).\r\n    * Added a callback function to smbserver for incoming authentications (@p0dalirius).\r\n    * Fix crash in winregistry (@laxa)\r\n    * Fixes in IDispatch derived classes in comev implementation (@NtAlexio2)\r\n    * Fix CVE-2020-17049 in ccache.py (@godylockz)\r\n    * Smbserver: Added SMB2_FILE_ALLOCATION_INFO type determination (@JerAxxxxxxx)\r\n    * tds: Fixed python3 incompatibility when receiving over TLS socket (@exploide)\r\n    * crypto: Ensure passwords are utf-8 encoded before deriving Kerberos keys (@jojonas)\r\n    * ese: Fixed python3 incompatibility when reading from db (@alexisbalbachan)\r\n    * ldap queries: Escaped characters are now correctly parsed (@alexisbalbachan)\r\n    * Support SASL authentication in ldap protocol (@NtAlexio2)\r\n\r\n2. Examples improvements\r\n    * [GetADUsers.py](examples/GetADUsers.py), [GetNPUsers.py](examples/GetNPUsers.py), [GetUserSPNs.py](examples/GetUserSPNs.py) and [findDelegation.py](examples/findDelegation.py):\r\n      * Added dc-host option to connect to specific KDC using its FQDN or NetBIOS name (@rmaksimov and @0xdeaddood).\r\n    * [GetNPUsers.py](examples/GetNPUsers.py)\r\n      * Printing TGT in stdout despite -outputfile parameter (@alexisbalbachan and @Zamanry)\r\n      * Fixed output hash format for AES128/256 (etype 17/18) (@erasmusc)\r\n    * [GetUserSPNs.py](examples/GetUserSPNs.py):\r\n      * Added LDAP paged search (@ThePirateWhoSmellsOfSunflowers and @SAERXCIT).\r\n      * Added a -stealth flag to remove the SPN filter from the LDAP query (@clavoillotte).\r\n      * Improved searchFilter (@ShutdownRepo)\r\n      * Use LDAP paged search (@ThePirateWhoSmellsOfSunflowers)\r\n    * [psexec.py](examples/psexec.py):\r\n      * Added support for name customization using a custom binary file (@Dramelac).\r\n    * [smbexec.py](examples/smbexec.py):\r\n      * Security fixes for privilege escalation vulnerabilities (@bugch3ck).\r\n      * Fixed python3 compatibility issues, added workaround TCP over NetBIOS being disabled (@ljrk0)\r\n    * [secretsdump.py](examples/secretsdump.py):\r\n      * Added a new option to extract only NTDS.DIT data for specific users based on an LDAP filter (@snovvcrash).\r\n      * Security fixes for privilege escalation vulnerabilities (@bugch3ck).  \r\n    * [mssqlclient.py](examples/mssqlclient.py):\r\n      * Added multiple new commands. Now supports xp_dirtree execution (@Mayfly277, @trietend and @TurtleARM).\r\n    * [ntlmrelayx.py](examples/ntlmrelayx.py):\r\n      * Added ability to trigger SQLShell when running ntlmrelayx in interactive mode (@sploutchy).\r\n      * Added filter option to the socks command in ntlmrelayx CLI (@shoxxdj)\r\n      * Added ability to register DNS records through LDAP.\r\n    * [addcomputer.py](examples/addcomputer.py), [rbcd.py](examples/rbcd.py):\r\n      * Allow weak TLS ciphers for LDAP connections (@AdrianVollmer)\r\n    * [Get-GPPPassword.py](examples/Get-GPPPassword.py):\r\n      * Better handling of various XML files in Group Policy Preferences (@p0dalirius)\r\n    * [smbclient.py](examples/smbclient.py):\r\n      * Added recursive file listing (@Sq00ky)\r\n    * [ticketer.py](examples/ticketer.py):\r\n      * Ticket duration is now specified in hours instead of days (@Dramelac)\r\n      * Added extra-pac implementation (@Dramelac)\r\n\r\n3. New examples\r\n    * [net.py](examples/net.py) Implementation of windows net.exe builtin tool (@NtAlexio2)\r\n    * [changepasswd.py](examples/changepasswd.py) New example that allows password changing or reseting through multiple protocols (@Alef-Burzmali, @snovvcrash, @bransh, @api0cradle and @p0dalirius)\r\n    * [DumpNTLMInfo.py](examples/DumpNTLMInfo.py) New example that dumps remote host information in ntlm authentication model, without credentials. For SMB protocols v1, v2 and v3. (@NtAlexio2)\r\n    \r\nAs always, thanks a lot to all these contributors that make this library better every day (up to now):\r\n\r\n@ly4k @nopernik @snovvcrash @ShutdownRepo @kiwids0220 @mpgn @CT-H00K @rmaksimov @arossert @aevy-syn @tirkarthi @p0dalirius @Dramelac @Mayfly277 @S3cur3Th1sSh1t @nobbd @AdrianVollmer @trietend @TurtleARM @ThePirateWhoSmellsOfSunflowers @SAERXCIT @clavoillotte @Marshall-Hallenbeck @sploutchy @almandin @rtpt-alexanderneumann @JerAxxxxxxx @NtAlexio2 @laxa @godylockz @exploide @jojonas @Zamanry @erasmusc @bugch3ck @ljrk0 @Sq00ky @shoxxdj @Alef-Burzmali @bransh @api0cradle @alexisbalbachan @0xdeaddood @sanmopre\r\n"
@@ -6211,10 +6211,10 @@
     "https://github.com/dark-kingA/cloudTools": {
         "created_at": "2023-09-18 11:51:28",
         "description": "云资产管理工具 目前工具定位是云安全相关工具，目前是两个模块 云存储工具、云服务器工具， 云存储工具主要是针对oss存储、查看、删除、上传、下载、预览等等 云服务器工具主要是针对ecs服务器的管理，查看、执行命令等等",
-        "commit_date": "2023-09-26 14:26:40",
+        "commit_date": "2023-10-04 09:35:24",
         "commit_message": "update md",
-        "release_tag": "main-cloud",
-        "release_date": "2023-09-26 14:49:56",
-        "release_message": "1.阿里云添加接管控制台、取消接管功能。\r\n2.添加腾讯云服务器检索、接管功能、取消接管。"
+        "release_tag": "main-cloud-0",
+        "release_date": "2023-10-04 09:42:08",
+        "release_message": "1.云服务工具模块：\r\n阿里云：添加告警管理、可处理告警、配置告警通知。云数据库rds添加账号，添加白名单，开通外网地址\r\n2.云存储工具模块：\r\n阿里云、AWS、京东云 添加STS临时授权"
     }
 }
