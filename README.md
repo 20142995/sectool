@@ -1,4 +1,4 @@
-# 更新于 2023-10-05 08:37:32
+# 更新于 2023-10-06 08:35:26
 
 ## 近15天release更新记录
 | 更新时间 | 项目名称 | 版本 | 更新内容 |
@@ -23,20 +23,22 @@
 |2023-09-24 12:43:39|[Viper](https://github.com/FunnyWolf/Viper)|2023-09<br>-25-09-5<br>8-43|  ### 新功能  - 自动编排新增Session定<br>时任务功能  - 新增TCPLOG服务器模块 (作<br>者)  - 新增Last日志删除模块 (作者)  ###<br> 优化  - 前端界面支持OSX的Payload和Han<br>dler生成  - Session展示区域支持伸缩(点<br>击右侧按钮扩大缩小)  - 合并metasploit-f<br>ramework 6.3.35版本      ### Bugfix  -<br> fix 监听通信通道选择Session后不显示问<br>题  - fix https://github.com/FunnyWolf/<br>Viper/issues/177 内存执行C#可执行文件<br>模块报错问题  |
 |2023-09-24 02:48:52|[ghauri](https://github.com/r0oth3x49/ghauri)|1.2.5|Fixes:   - fixed #100 (--batch consid<br>ering on 403)   - fixed #90 (output of<br> re-dump properly)   - fixed #96 (upda<br>ted payloads)|
 |2023-09-22 09:29:27|[naabu](https://github.com/projectdiscovery/naabu)|v2.1.8|    ## What's Changed  ### Other Chan<br>ges  * Fixed issue with printing hostn<br>ame in passive mode by @dogancanbakir <br>in https://github.com/projectdiscovery<br>/naabu/pull/788      **Full Changelog*<br>*: https://github.com/projectdiscovery<br>/naabu/compare/v2.1.7...v2.1.8|
-|2023-09-20 14:43:08|[faker](https://github.com/joke2k/faker)|v19.6.2|See .|
-|2023-09-20 08:12:02|[FreeRDP](https://github.com/FreeRDP/FreeRDP)|2.11.2|Notworthy changes:  * Backported #937<br>8: backported wArrayList (optional) co<br>py on insert  * Backported #9360: back<br>ported certificate algorithm detection<br>        |
-|2023-09-20 01:41:11|[OneScan](https://github.com/vaycore/OneScan)|v1.3.0|1.3.0 版本发布，版本更新内容如下    #<br>## 新增    - 新增 {{subdomain}} 子域名<br>动态变量  - 新增 {{webroot}} 一级目录动<br>态变量  - 导入URL对话框新增配置URL前缀<br>功能  - 新增请求重试机制    ### 优化   <br> - 从 0.x 版本升级到 1.x 版本时，自动<br>备份配置文件  - 移除默认请求头配置中的 <br>Origin 头（可自行在配置页面添加）    #<br>## 修复    - 修复 Payload Process 中 U<br>RL 范围不正确的问题|
 ## 近15天commit提交记录
 | 提交时间 | 项目名称 | 更新内容 |
 | :---- | :---- | :---- |
-|2023-10-05 00:00:02|[free](https://github.com/freefq/free)|updated_at 10-05 08:00|
+|2023-10-06 00:19:33|[neuvector](https://github.com/neuvector/neuvector)|Merge pull request #1051 from williamlin-suse/main <br> NVSHAS-8344: REST API DELETE /v1/response/rule does<br>n't work|
+|2023-10-06 00:00:03|[free](https://github.com/freefq/free)|updated_at 10-06 08:00|
+|2023-10-05 20:43:04|[PocOrExp_in_Githu<br>b](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-10-06 04:43:04|
+|2023-10-05 18:48:30|[syft](https://github.com/anchore/syft)|Add exact syntax of the conversion formats (#2196) <br> Signed-off-by: Marc-Etienne Vargenau |
+|2023-10-05 14:45:45|[trivy](https://github.com/aquasecurity/trivy)|fix: Report error when os.CreateTemp fails (to be c<br>onsistent with other uses) (#5342)|
+|2023-10-05 13:43:09|[rustdesk](https://github.com/rustdesk/rustdesk)|Merge pull request #5917 from bankzst/feature/updat<br>e-thai-language-fields  lang: (Thai) add new words a<br>nd update existing words to up-to-date|
+|2023-10-05 12:38:18|[v2rayfree](https://github.com/aiboboxx/v2rayfree)|update|
+|2023-10-05 09:15:01|[nemo_go](https://github.com/hanc00l/nemo_go)|Fix: nemo的数据库导入sql文件在key_word表里增加的字<br>段|
+|2023-10-05 08:35:53|[all-in-one-v2](https://github.com/zaivanza/all-in-one-v2)|change converters decimals|
+|2023-10-05 08:28:41|[dbeaver](https://github.com/dbeaver/dbeaver)|Merge branch 'devel' of https://github.com/dbeaver/<br>dbeaver into devel|
+|2023-10-05 01:43:17|[feroxbuster](https://github.com/epi052/feroxbuster)|nitpickery; added success msg|
 |2023-10-04 22:24:32|[impacket](https://github.com/fortra/impacket)|[ticketer.py] Sapphire tickets (#1411)  * Adding -i<br>mpersonate flag to ingest S4U2self+U2U TGT    * Func<br>tional version    * Commenting out duration customiz<br>ation for sapphire    * Fixes #1605    * Adding AD_I<br>F_RELEVANT reference    * Fixing undefined tgt sessi<br>on key and wrong cname for impersonation    * Adding<br> missing and ignored params|
-|2023-10-04 19:15:09|[dbeaver](https://github.com/dbeaver/dbeaver)|dbeaver/pro#1986 don't show deleteContentsCheck in <br>distributed app (#21429)|
 |2023-10-04 18:08:34|[grype](https://github.com/anchore/grype)|chore: removes unnecessary conditional (#1539)  Sig<br>ned-off-by: chavacava |
-|2023-10-04 18:06:12|[syft](https://github.com/anchore/syft)|chore: removes unnecessary conditional (#2194)  Sig<br>ned-off-by: chavacava |
-|2023-10-04 17:06:23|[PocOrExp_in_Githu<br>b](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-10-05 01:06:23|
-|2023-10-04 12:38:02|[v2rayfree](https://github.com/aiboboxx/v2rayfree)|update|
-|2023-10-04 12:13:20|[trivy](https://github.com/aquasecurity/trivy)|chore: update adopters template (#5330)|
 |2023-10-04 10:03:26|[Awesome-Redteam](https://github.com/Threekiii/Awesome-Redteam)|更新README.md|
 |2023-10-04 09:35:24|[cloudTools](https://github.com/dark-kingA/cloudTools)|update md|
 |2023-10-04 07:41:43|[Burp-Non-HTTP-Ext<br>ension](https://github.com/summitt/Burp-Non-HTTP-Extension)|Update version|
@@ -45,8 +47,6 @@
 |2023-10-03 20:04:10|[clair](https://github.com/quay/clair)|'chore: update claircore to v1.5.19  Update clairco<br>re to latest release. '  Signed-off-by: Claircore-CI<br> |
 |2023-10-03 19:02:49|[commando-vm](https://github.com/mandiant/commando-vm)|Installer updates (#306)  * Update 3.1    ---------<br>    Co-authored-by: Alex | NoSecurity |
 |2023-10-03 17:29:26|[RsaCtfTool](https://github.com/RsaCtfTool/RsaCtfTool)|Add digital_sum check for miller_rabin prime test|
-|2023-10-03 15:37:45|[rustdesk](https://github.com/rustdesk/rustdesk)|Merge pull request #5901 from fufesou/fix/cursor_ho<br>txy_mismatch  fix, cursor (hotx,hoty) mismatch somet<br>imes|
-|2023-10-03 12:22:40|[neuvector](https://github.com/neuvector/neuvector)|Merge pull request #1044 from jayhuang-suse/seven  <br>NVSHAS-8327: FileMonitor: Many automation cases fail<br> due to many fields missing in the event.|
 |2023-10-03 03:56:50|[domain_hunter_pro](https://github.com/bit4woo/domain_hunter_pro)|update|
 |2023-10-03 02:06:30|[SmsForwarder](https://github.com/pppscn/SmsForwarder)|优化：在选择Web客户端目录的时候弹出授权管理所有文件<br>访问的权限 #332|
 |2023-10-02 21:54:28|[PEASS-ng](https://github.com/carlospolop/PEASS-ng)|Update 9_interesting_files.sh|
@@ -60,7 +60,6 @@
 |2023-10-01 12:50:32|[ObserverWard](https://github.com/0x727/ObserverWard)|Merge pull request #202 from 0x727/dependabot/cargo<br>/actix-web-httpauth-0.8.1  Bump actix-web-httpauth f<br>rom 0.8.0 to 0.8.1|
 |2023-09-30 17:02:12|[beef](https://github.com/beefproject/beef)|Merge branch 'master' of https://github.com/beefpro<br>ject/beef|
 |2023-09-28 18:34:52|[sqlmap](https://github.com/sqlmapproject/sqlmap)|Implements option --time-limit (#5502)|
-|2023-09-28 14:23:14|[nemo_go](https://github.com/hanc00l/nemo_go)|Update: v2.10.2|
 |2023-09-28 13:38:02|[gshark](https://github.com/madneal/gshark)|add build for darwin arm64|
 |2023-09-28 09:40:28|[afrog](https://github.com/zan8in/afrog)|update|
 |2023-09-28 08:24:35|[appshark](https://github.com/bytedance/appshark)|Merge pull request #53 from firmianay/dev3  fix doc|
@@ -82,11 +81,7 @@
 |2023-09-24 12:40:27|[Viper](https://github.com/FunnyWolf/Viper)|update version 2023-09-24-20-18-56|
 |2023-09-24 02:45:20|[ghauri](https://github.com/r0oth3x49/ghauri)|added multiple fixes such as considering --batch sw<br>itch on 403 forbidden, csv export data, csv re-dump,<br> invaludURL with --skip-urlencode switch, fixed #90,<br> fixed #92, fixed #96, fixed #100, bumped version 1.<br>2.5|
 |2023-09-22 09:22:12|[naabu](https://github.com/projectdiscovery/naabu)|Merge branch 'dev'|
-|2023-09-22 06:48:26|[0_zone_tool](https://github.com/wkend/0_zone_tool)|Update README.md|
-|2023-09-20 14:41:31|[faker](https://github.com/joke2k/faker)|Bump version: 19.6.1 → 19.6.2|
-|2023-09-20 10:22:05|[ffuf](https://github.com/ffuf/ffuf)|Fix autocalibration-strategy merging, add tests (#7<br>32)|
-|2023-09-20 07:18:50|[frp](https://github.com/fatedier/frp)|code optimization (#3625)|
-|2023-09-20 01:37:24|[OneScan](https://github.com/vaycore/OneScan)|更新版本号为1.3.0；更新README.md说明文档|## 所有项目
+|2023-09-22 06:48:26|[0_zone_tool](https://github.com/wkend/0_zone_tool)|Update README.md|## 所有项目
 # 渗透测试
 ## 信息收集
 ### 资产测绘采集

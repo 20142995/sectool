@@ -200,8 +200,8 @@
     "https://github.com/ycdxsb/PocOrExp_in_Github": {
         "created_at": "2021-04-13 05:46:16",
         "description": "聚合Github上已有的Poc或者Exp，CVE信息来自CVE官网。Auto Collect Poc Or Exp from Github by CVE ID.",
-        "commit_date": "2023-10-04 17:06:23",
-        "commit_message": "update 2023-10-05 01:06:23",
+        "commit_date": "2023-10-05 20:43:04",
+        "commit_message": "update 2023-10-06 04:43:04",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -1888,8 +1888,8 @@
     "https://github.com/hanc00l/nemo_go": {
         "created_at": "2021-07-29 08:13:25",
         "description": "Nemo是用来进行自动化信息收集的一个简单平台，通过集成常用的信息收集工具和技术，实现对内网及互联网资产信息的自动收集，提高隐患排查和渗透测试的工作效率。",
-        "commit_date": "2023-09-28 14:23:14",
-        "commit_message": "Update: v2.10.2",
+        "commit_date": "2023-10-05 09:15:01",
+        "commit_message": "Fix: nemo的数据库导入sql文件在key_word表里增加的字段",
         "release_tag": "v2.10.2",
         "release_date": "2023-09-28 14:33:58",
         "release_message": "\r\n### Update\r\n\r\n- 信息收集全面支持ipv6！"
@@ -2248,8 +2248,8 @@
     "https://github.com/epi052/feroxbuster": {
         "created_at": "2020-08-22 15:36:19",
         "description": "A fast, simple, recursive content discovery tool written in Rust.",
-        "commit_date": "2023-09-12 01:18:35",
-        "commit_message": "Merge pull request #980 from epi052/all-contributors/add-sawmj\n\ndocs: add sawmj as a contributor for bug",
+        "commit_date": "2023-10-05 01:43:17",
+        "commit_message": "nitpickery; added success msg",
         "release_tag": "v2.10.0",
         "release_date": "2023-05-06 13:19:20",
         "release_message": "## What's Changed\r\n* Adds server and client certificate management; enables mTLS by @lavafroth in https://github.com/epi052/feroxbuster/pull/892\r\n    * `--server-certs`\r\n    * `--client-cert`\r\n    * `--client-key` \r\n\r\n## New Contributors\r\n* @lavafroth made their first contribution in https://github.com/epi052/feroxbuster/pull/892 :tada: \r\n\r\n**Full Changelog**: https://github.com/epi052/feroxbuster/compare/v2.9.5...v2.10.0"
@@ -2951,8 +2951,8 @@
     "https://github.com/dbeaver/dbeaver": {
         "created_at": "2015-10-21 08:26:28",
         "description": "Free universal database tool and SQL client",
-        "commit_date": "2023-10-04 19:15:09",
-        "commit_message": "dbeaver/pro#1986 don't show deleteContentsCheck in distributed app (#21429)",
+        "commit_date": "2023-10-05 08:28:41",
+        "commit_message": "Merge branch 'devel' of https://github.com/dbeaver/dbeaver into devel",
         "release_tag": "23.2.1",
         "release_date": "2023-09-26 05:31:33",
         "release_message": "\n                - SQL Editor:\n                    - Aliases proposals for tables with joins were improved\n                    - SQL console can now be saved as a script\n                    - Enhanced smart completion is enabled (configurable)\n                    - Issue with big string contents (json, xml) edit was resolved\n                    - JSON formatting in the separate editor was fixed\n                    - Ctrl+Alt+6 shortcut was changed to Ctrl+Alt+T\n                    - JSON functions keywords were added to the SQL Assist\n                    - Representation of errors on query execution was fixed\n                - ER Diagrams: issue with duplicate relations on the diagram was fixed\n                - Data Editor:\n                    - Big content representation end editing was limited to 1MB (configurable)\n                    - User can now add a shortcut for setting row color\n                    - Issue with hiding the wrong column from the context menu was resolved\n                    - Grouping panel now shows actual executed SQL\n                    - Decimal rounding error was fixed\n                - General UI:\n                    - When exporting a project, a warning about replacing an existing project was added (thanks to @MontejoJorge)\n                    - Scroll bars were added on the connection page, and other wizards\n                    - Issue with broken quotes in localization files was resolved\n                - Connectivity:\n                    - Driver download UI was improved: already downloaded driver files are colored in grey\n                    - JDBC drivers maven artifacts resolve was fixed\n                    - The \"Propagate driver properties\" option was added to the driver settings\n                - New drivers:\n                    - JDBCX driver was added (thanks to @zhicwu)\n                - Databases:\n                    - Clickhouse: IPv4 data representation was fixed\n                    - Greenplum: External tables representation was fixe\n                    - MySQL: Unsupported engine types are replaced with the default one\n                    - Oceanbase:\n                        - Views editor was supported\n                        - Routines and procedure parameters read was fixed\n                    - PostgreSQL:\n                        - Foreign tables folder was added\n                        - Enum data types reading performance was enhanced\n                    - Redshift: Backup/Restore tools were deprecated and removed from UI\n                    - Snowflake:\n                        - Driver was updated to 3.13.25\n                        - Materialized views are now supported\n                        - Schema create UI was enhanced was enhanced\n                    Trino: Views DDL support was added\n            "
@@ -3890,8 +3890,8 @@
     "https://github.com/neuvector/neuvector": {
         "created_at": "2021-12-17 20:15:03",
         "description": "",
-        "commit_date": "2023-10-03 12:22:40",
-        "commit_message": "Merge pull request #1044 from jayhuang-suse/seven\n\nNVSHAS-8327: FileMonitor: Many automation cases fail due to many fields missing in the event.",
+        "commit_date": "2023-10-06 00:19:33",
+        "commit_message": "Merge pull request #1051 from williamlin-suse/main\n\nNVSHAS-8344: REST API DELETE /v1/response/rule doesn't work",
         "release_tag": "v5.2.2",
         "release_date": "2023-10-04 08:15:57",
         "release_message": "\r\n##### Security Advisory for CVE-2023-32188\r\n+ Remediate CVE-2023-32188 “JWT token compromise can allow malicious actions including Remote Code Execution (RCE)” by auto-generating certificate used for singing JWT token upon deployment and upgrade. Manual mount certificates is still supported and recommended for replacing certificate for RESTful API and manager UI.\r\n+ Add additional controls on custom compliance scripts. By default, custom script are now not allowed to be added, unless the environment variable CUSTOM_CHECK_CONTROL is added to Controller and Enforcer. Values are \"disable\" (default, not allowed), \"strict\" (admin role only), or \"loose\" (admin, compliance, and runtime-policy roles).\r\nat: NVSHAS-8213 Vuln Report - LDAP injection\r\n##### Enhancements\r\n+ Add additional scan data to CVE results sent by SYSLOG for layered scans\r\n+ Support NVD API 2.0 for scan CVE database (at: not in yet)\r\n+ Provide container image build date in Assets -> Container details\r\n+ Adjust sorting for Network rules: disable sorting in Network rules view but enable sorting of network rules in Group view.\r\n+ Enable/disable TLS 1.0 and TLS 1.1 detection/alerting with environment variables to Enforcer THRT_SSL_TLS_1DOT0, THRT_SSL_TLS_1DOT1. Disabled by default.\r\nat: NVSHAS-8170 Auto profile collection: capture profile data at the peak memory. a new env AUTO_PROFILE_COLLECT is added\r\nat: NVSHAS-7704 Configuration assessments against Admission Control should show all violation with one scan\r\nat: NVSHAS-8261 Nuvector namespace user cannot see assets-->namespaces\r\nat: NVSHAS-5295 extend options for cve report criteria in response rules conf\r\n##### Bug Fixes\r\n+ Export of group policy does not return any actual YAML contents\r\n+ Improve pruning of namespaces with dedicated function\r\n+ Skip handling the CRD CREATE/UPDATE requests if the CR's namespace is already deleted\r\n+ Provide workaround for part of CRD groups which cannot be pruned successfully after namespaces are deleted"
@@ -3908,8 +3908,8 @@
     "https://github.com/anchore/syft": {
         "created_at": "2020-05-07 18:19:29",
         "description": "CLI tool and library for generating a Software Bill of Materials from container images and filesystems",
-        "commit_date": "2023-10-04 18:06:12",
-        "commit_message": "chore: removes unnecessary conditional (#2194)\n\nSigned-off-by: chavacava <salvadorcavadini+github@gmail.com>",
+        "commit_date": "2023-10-05 18:48:30",
+        "commit_message": "Add exact syntax of the conversion formats (#2196)\n\nSigned-off-by: Marc-Etienne Vargenau <marc-etienne.vargenau@nokia.com>",
         "release_tag": "v0.92.0",
         "release_date": "2023-09-27 15:52:50",
         "release_message": "### Added Features\n\n- Support for multiple image refs of same sha in OCI layout [[#1544](https://github.com/anchore/syft/issues/1544)]\n\n### Bug Fixes\n\n- Generated purls are different between runs of syft against the same image and artifact [[#2169](https://github.com/anchore/syft/issues/2169) [#2170](https://github.com/anchore/syft/pull/2170) @willmurphyscode]\n\n### Additional Changes\n\n- bump stereoscope to fix data race in UI code [[#2173](https://github.com/anchore/syft/pull/2173) @willmurphyscode]\n\n**[(Full Changelog)](https://github.com/anchore/syft/compare/v0.91.0...v0.92.0)**\n\n"
@@ -3971,8 +3971,8 @@
     "https://github.com/aquasecurity/trivy": {
         "created_at": "2019-04-11 01:01:07",
         "description": "Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more",
-        "commit_date": "2023-10-04 12:13:20",
-        "commit_message": "chore: update adopters template (#5330)",
+        "commit_date": "2023-10-05 14:45:45",
+        "commit_message": "fix: Report error when os.CreateTemp fails (to be consistent with other uses) (#5342)",
         "release_tag": "v0.45.1",
         "release_date": "2023-09-16 07:29:33",
         "release_message": "## Changelog\n* daae88287 fix(purl): handle rust types (#5186)\n* 81240cf08 chore: auto-close issues (#5177)\n* bd0accd8a chore(deps): bump github.com/spf13/viper from 1.15.0 to 1.16.0 (#5093)\n* ecee79403 fix(k8s): kbom support addons labels (#5178)\n* 9ebc25d88 test: validate SPDX with the JSON schema (#5124)\n* 9a49a3773 chore: bump trivy-kubernetes-latest (#5161)\n* ad1dc6327 docs: add 'Signature Verification' guide (#4731)\n* 7c68d4a7e docs: add image-scanner-with-trivy for ecosystem (#5159)\n* ed49609a7 fix(fs): assign the absolute path to be inspected to ROOTPATH when filesystem (#5158)\n* 19539722e chore(deps): bump github.com/CycloneDX/cyclonedx-go (#5102)\n* c7516011b Update filtering.md (#5131)\n* ccc6d7cb2 chore(deps): bump sigstore/cosign-installer (#5104)\n* 48cbf4553 chore(deps): bump github.com/cyphar/filepath-securejoin (#5143)\n* a9c2c74c5 chore(deps): bump golangci/golangci-lint-action from 3.6.0 to 3.7.0 (#5103)\n* 120ac68b5 chore(deps): bump easimon/maximize-build-space from 7 to 8 (#5105)\n* 41eaa78ae chore(deps): bump github.com/aws/aws-sdk-go from 1.44.273 to 1.45.3 (#5126)\n* 932f92755 chaging adopters discussion tempalte (#5091)\n* db3133346 chore(deps): bump github.com/cheggaaa/pb/v3 from 3.1.2 to 3.1.4 (#5092)\n* 8c0b7d619 chore(deps): bump github.com/hashicorp/golang-lru/v2 from 2.0.2 to 2.0.6 (#5094)\n* c61c664c3 chore(deps): bump github.com/aws/aws-sdk-go-v2/config (#5095)\n* a99944c1c chore(deps): bump github.com/containerd/containerd from 1.7.3 to 1.7.5 (#5097)\n* 9fc844ecf chore(deps): bump github.com/Azure/azure-sdk-for-go/sdk/azidentity (#5098)\n* c504f8be4 chore(deps): bump actions/checkout from 3.5.3 to 3.6.0 (#5106)\n\n"
@@ -4277,7 +4277,7 @@
     "https://github.com/aiboboxx/v2rayfree": {
         "created_at": "2021-10-13 11:34:53",
         "description": "v2ray节点、免费节点、免费v2ray节点、最新公益免费v2ray节点订阅地址、免费v2ray节点每日更新、免费ss/v2ray/trojan节点、freefq ",
-        "commit_date": "2023-10-04 12:38:02",
+        "commit_date": "2023-10-05 12:38:18",
         "commit_message": "update",
         "release_tag": "",
         "release_date": "",
@@ -4322,8 +4322,8 @@
     "https://github.com/freefq/free": {
         "created_at": "2020-06-07 02:48:33",
         "description": "翻墙、免费翻墙、免费科学上网、免费节点、免费梯子、免费ss/v2ray/trojan节点、蓝灯、谷歌商店、翻墙梯子",
-        "commit_date": "2023-10-05 00:00:02",
-        "commit_message": "updated_at 10-05 08:00",
+        "commit_date": "2023-10-06 00:00:03",
+        "commit_message": "updated_at 10-06 08:00",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -4781,8 +4781,8 @@
     "https://github.com/zaivanza/all-in-one-v2": {
         "created_at": "2023-04-29 09:03:49",
         "description": "",
-        "commit_date": "2023-09-09 05:14:34",
-        "commit_message": "add zora, linea, base to merkly",
+        "commit_date": "2023-10-05 08:35:53",
+        "commit_message": "change converters decimals",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -5004,8 +5004,8 @@
     "https://github.com/rustdesk/rustdesk": {
         "created_at": "2020-09-28 15:36:08",
         "description": "An open-source remote desktop, and alternative to TeamViewer.",
-        "commit_date": "2023-10-03 15:37:45",
-        "commit_message": "Merge pull request #5901 from fufesou/fix/cursor_hotxy_mismatch\n\nfix, cursor (hotx,hoty) mismatch sometimes",
+        "commit_date": "2023-10-05 13:43:09",
+        "commit_message": "Merge pull request #5917 from bankzst/feature/update-thai-language-fields\n\nlang: (Thai) add new words and update existing words to up-to-date",
         "release_tag": "1.2.2",
         "release_date": "2023-08-22 01:44:36",
         "release_message": "![image](https://github.com/rustdesk/rustdesk/assets/71636191/83754a64-31b8-47f0-8570-da22207759a9)\r\n\r\n> Winget, FDroid, Apple Sillicon, Google Play / App Store update will come soon.\r\n\r\nx86-64: [Windows](https://github.com/rustdesk/rustdesk/releases/download/1.2.2/rustdesk-1.2.2-x86_64.exe) | [Ubuntu](https://github.com/rustdesk/rustdesk/releases/download/1.2.2/rustdesk-1.2.2-x86_64.deb) | [Mac](https://github.com/rustdesk/rustdesk/releases/download/1.2.2/rustdesk-1.2.2-x86_64.dmg)\r\nAArch64 (ARM64):  [Ubuntu](https://github.com/rustdesk/rustdesk/releases/download/1.2.2/rustdesk-1.2.2-aarch64.deb) | [Android](https://github.com/rustdesk/rustdesk/releases/download/1.2.2/rustdesk-1.2.2-aarch64-signed.apk) | [Mac](https://github.com/rustdesk/rustdesk/releases/download/1.2.2/rustdesk-1.2.2-aarch64.dmg)\r\n\r\nMore: [check below please](#)\r\n\r\n<details>\r\n<summary>Changelog</summary>\r\n\r\n- Add separate window mode (tab window by default), https://github.com/rustdesk/rustdesk/discussions/2889\r\n![image](https://github.com/rustdesk/rustdesk/assets/71636191/0c73bc6a-8659-4a67-9425-47625a6aded3)\r\n- Fix and improve responsiveness issue introduced in 1.2.0. https://github.com/rustdesk/rustdesk/discussions/5231\r\n- Add device list batch handle\r\n![image](https://github.com/rustdesk/rustdesk/assets/71636191/0ca85b8e-bed3-48ad-a43f-82df983986f3)\r\n- Add command to assign user and strategy for [RustDesk Server Pro](https://rustdesk.com/docs/en/self-host/pro/)\r\n- Optimize address book, syncing password, alias name, device name etc, add tag color, improve error and update status handling\r\n![image](https://github.com/rustdesk/rustdesk/assets/71636191/21d7a226-b863-4dc2-a9d3-fb6cd3a56c5c)\r\n- Fix windows file copy/paste\r\n- Fix \"waiting for image...\" still shown after receiving image bug, refactored rust->flutter message handling https://github.com/rustdesk/rustdesk/issues/4533\r\n- Improve some touchpad support, https://github.com/rustdesk/rustdesk/pull/5049\r\n- Bug fixes.\r\n\r\n</details>\r\n"
