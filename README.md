@@ -1,13 +1,12 @@
-# 更新于 2023-10-06 08:35:26
+# 更新于 2023-10-07 08:33:43
 
 ## 近15天release更新记录
 | 更新时间 | 项目名称 | 版本 | 更新内容 |
 | :---- | :---- | :---- | :---- |
+|2023-10-06 13:53:39|[BlueTeamTools](https://github.com/abc123info/BlueTeamTools)|BlueTea<br>mToolsV0<br>.83版本|2023.10.06 对"IP/端口连接分析"功能添<br>加IPv6的支持，支持查询ipv6的物理地址。|
 |2023-10-04 09:42:08|[cloudTools](https://github.com/dark-kingA/cloudTools)|main-cl<br>oud-0|1.云服务工具模块：  阿里云：添加告警<br>管理、可处理告警、配置告警通知。云数据<br>库rds添加账号，添加白名单，开通外网地址<br>  2.云存储工具模块：  阿里云、AWS、京<br>东云 添加STS临时授权|
-|2023-10-04 08:15:57|[neuvector](https://github.com/neuvector/neuvector)|v5.2.2|  ##### Security Advisory for CVE-202<br>3-32188  + Remediate CVE-2023-32188 “<br>JWT token compromise can allow malicio<br>us actions including Remote Code Execu<br>tion (RCE)” by auto-generating certif<br>icate used for singing JWT token upon <br>deployment and upgrade. Manual mount c<br>ertificates is still supported and rec<br>ommended for replacing certificate for<br> RESTful API and manager UI.  + Add ad<br>ditional controls on custom compliance<br> scripts. By default, custom script ar<br>e now not allowed to be added, unless <br>the environment variable CUSTOM_CHECK_<br>CONTROL is added to Controller and Enf<br>orcer. Values are "disable" (default, <br>not allowed), "strict" (admin role onl<br>y), or "loose" (admin, compliance, and<br> runtime-policy roles).  at: NVSHAS-82<br>13 Vuln Report - LDAP injection  #####<br> Enhancements  + Add additional scan d<br>ata to CVE results sent by SYSLOG for <br>layered scans  + Support NVD API 2.0 f<br>or scan CVE database (at: not in yet) <br> + Provide container image build date <br>in Assets -> Container details  + Adju<br>st sorting for Network rules: disable <br>sorting in Network rules view but enab<br>le sorting of network rules in Group v<br>iew.  + Enable/disable TLS 1.0 and TLS<br> 1.1 detection/alerting with environme<br>nt variables to Enforcer THRT_SSL_TLS_<br>1DOT0, THRT_SSL_TLS_1DOT1. Disabled by<br> default.  at: NVSHAS-8170 Auto profil<br>e collection: capture profile data at <br>the peak memory. a new env AUTO_PROFIL<br>E_COLLECT is added  at: NVSHAS-7704 Co<br>nfiguration assessments against Admiss<br>ion Control should show all violation <br>with one scan  at: NVSHAS-8261 Nuvecto<br>r namespace user cannot see assets-->n<br>amespaces  at: NVSHAS-5295 extend opti<br>ons for cve report criteria in respons<br>e rules conf  ##### Bug Fixes  + Expor<br>t of group policy does not return any <br>actual YAML contents  + Improve prunin<br>g of namespaces with dedicated functio<br>n  + Skip handling the CRD CREATE/UPDA<br>TE requests if the CR's namespace is a<br>lready deleted  + Provide workaround f<br>or part of CRD groups which cannot be <br>pruned successfully after namespaces a<br>re deleted|
+|2023-10-04 08:15:57|[neuvector](https://github.com/neuvector/neuvector)|v5.2.2|##### Security Advisory for CVE-2023-<br>32188  + Remediate CVE-2023-32188 “JW<br>T token compromise can allow malicious<br> actions including Remote Code Executi<br>on (RCE)” by auto-generating certific<br>ate used for signing JWT token upon de<br>ployment and upgrade, and auto-generat<br>ing Manager/RESTful API certificate du<br>ring Helm based deployments.    - Cert<br>ificate for JWT-signing is created aut<br>omatically by controller with validity<br> of 90days and rotated automatically. <br>   - Auto-generation of Manager, REST <br>API, and registry adapter certificate <br>requires using Helm-based install usin<br>g NeuVector helm version 2.6.3 or late<br>r.     - Built-in certificate is still<br> used for yaml based deployments if no<br>t replaced during deployment; however,<br> it is recommended to replace these (s<br>ee next line).    - Manual  is still s<br>upported and recommended for previous <br>releases or yaml based deployments. Se<br>e the NeuVector GitHub security adviso<br>ry  for a description.    - Use of use<br>r-supplied certificates is still suppo<br>rted as before for both Helm and yaml <br>based deployments.  + Add additional c<br>ontrols on custom compliance scripts. <br>By default, custom script are now not <br>allowed to be added, unless the enviro<br>nment variable CUSTOM_CHECK_CONTROL is<br> added to Controller and Enforcer. Val<br>ues are "disable" (default, not allowe<br>d), "strict" (admin role only), or "lo<br>ose" (admin, compliance, and runtime-p<br>olicy roles).  + Prevent LDAP injectio<br>n - username field is escaped.  ##### <br>Enhancements  + Add additional scan da<br>ta to CVE results sent by SYSLOG for l<br>ayered scans  + Support NVD API 2.0 fo<br>r scan CVE database  + Provide contain<br>er image build date in Assets -> Conta<br>iner details  + Adjust sorting for Net<br>work rules: disable sorting in Network<br> rules view but enable sorting of netw<br>ork rules in Group view.  + Enable/dis<br>able TLS 1.0 and TLS 1.1 detection/ale<br>rting with environment variables to En<br>forcer THRT_SSL_TLS_1DOT0, THRT_SSL_TL<br>S_1DOT1. Disabled by default.  + Add e<br>nvironment variable AUTO_PROFILE_COLLE<br>CT for Controller and Enforcer to assi<br>st in capturing memory usage when inve<br>stigating memory pressure events. Set <br>value = 1 to enable.  + Configuration <br>assessments against Admission Control <br>should show all violations with one sc<br>an.  + Add more options for CVE report<br> criteria in Response Rules. Example 1<br> - "cve-high-with-fix:X" means: When #<br> of (high vulnerability that have been<br> fixed) >= X, trigger the response rul<br>e. Example 2 - "cve-high-with-fix:X/Y"<br> means: When # of (high vulnerability <br>that were reported Y days ago & have b<br>een fixed) >= X, trigger the response <br>rule.  ##### Bug Fixes  + Export of gr<br>oup policy does not return any actual <br>YAML contents  + Improve pruning of na<br>mespaces with dedicated function  + Ne<br>uVector namespace user cannot see asse<br>ts-->namespaces  + Skip handling the C<br>RD CREATE/UPDATE requests if the CR's <br>namespace is already deleted  + Provid<br>e workaround for part of CRD groups wh<br>ich cannot be pruned successfully afte<br>r namespaces are deleted:    kubectl c<br>reate -f neuvector-prune-orphan-crd-gr<br>oups.yaml  kubectl delete -f neuvector<br>-prune-orphan-crd-groups.yaml      api<br>Version: admissionregistration.k8s.io/<br>v1  kind: ValidatingWebhookConfigurati<br>on  metadata:    name: neuvector-prune<br>-orphan-crd-groups  webhooks:  - admis<br>sionReviewVersions:    - v1beta1    cl<br>ientConfig:      service:        name:<br> neuvector-svc-prune-orphan-crd-groups<br>-dummy        namespace: neuvector    <br>    path: /v1/neuvector-support/neuvec<br>tor-prune-orphan-crd-groups        por<br>t: 65432    failurePolicy: Ignore    m<br>atchPolicy: Exact    name: neuvector-p<br>rune-orphan-crd-groups.neuvector.svc  <br>  namespaceSelector: {}    objectSelec<br>tor: {}    rules:    - apiGroups:     <br> - 'neuvector-support'      apiVersion<br>s:      - v1      operations:      - D<br>ELETE      resources:      - nvdummy  <br>    scope: '*'    sideEffects: NoneOnD<br>ryRun    timeoutSeconds: 3  |
 |2023-10-02 22:12:50|[PEASS-ng](https://github.com/carlospolop/PEASS-ng)|2023100<br>2-59c6f6<br>e6||
-|2023-10-02 14:46:33|[Burp-Non-HTTP-Ext<br>ension](https://github.com/summitt/Burp-Non-HTTP-Extension)|v1.8.0|### New Features  - UDP proxy with py<br>thon manglers and interceptor support <br> - Better search features    ### Bug F<br>ixes  - Fixed bug when clearing reques<br>t table that would freeze the UI  - Mi<br>nor bugs and UI tweaks    ### Known is<br>sues:  - Repeater not working for UDP|
-|2023-10-02 07:53:39|[BlueTeamTools](https://github.com/abc123info/BlueTeamTools)|BlueTea<br>mToolsV0<br>.81版本|2023.10.02 更新哥斯拉webshell的csharp<br>流量解密功能，asp流量解密功能。  2023.1<br>0.01 更新哥斯拉webshell的java流量解密<br>功能、php流量解密功能。  2023.09.11 更<br>新Xml转Json、Json转Xml功能。  2023.09.0<br>8 更新Mysql、SQLServer、Oracle、Postgr<br>esql、Hive数据库语句的格式化功能。  20<br>23.09.06 更正"网空资产测绘"功能Hunter<br>界面的显示问题。|
 |2023-09-29 12:22:42|[wpscan](https://github.com/wpscanteam/wpscan)|v3.8.25|## What's Changed  * Bump actions/che<br>ckout from 3 to 4 by @dependabot in ht<br>tps://github.com/wpscanteam/wpscan/pul<br>l/1798  * Update webmock requirement f<br>rom ~> 3.18.1 to ~> 3.19.1 by @dependa<br>bot in https://github.com/wpscanteam/w<br>pscan/pull/1797  * Bump docker/login-a<br>ction from 2.1.0 to 2.2.0 by @dependab<br>ot in https://github.com/wpscanteam/wp<br>scan/pull/1785      **Full Changelog**<br>: https://github.com/wpscanteam/wpscan<br>/compare/v3.8.24...v3.8.25|
 |2023-09-28 14:33:58|[nemo_go](https://github.com/hanc00l/nemo_go)|v2.10.2|  ### Update    - 信息收集全面支持ipv<br>6！|
 |2023-09-28 09:48:42|[afrog](https://github.com/zan8in/afrog)|v2.8.8|Added the '-web' command to start a w<br>eb service for viewing vulnerability r<br>eports, including current and historic<br>al records.   Updated some PoCs."    <br>新增 -web 命令用于启动一个 Web 服务，用<br>于查看漏洞报告（包括当前和历史记录）  <br>更新一部分 PoCs    Happy October 1st!|
@@ -26,19 +25,26 @@
 ## 近15天commit提交记录
 | 提交时间 | 项目名称 | 更新内容 |
 | :---- | :---- | :---- |
+|2023-10-07 00:00:02|[free](https://github.com/freefq/free)|updated_at 10-07 08:00|
+|2023-10-06 23:47:36|[DecoyMini](https://github.com/decoymini/DecoyMini)|Update README.md|
+|2023-10-06 23:40:34|[PocOrExp_in_Githu<br>b](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-10-07 07:40:34|
+|2023-10-06 17:48:30|[sqlmap](https://github.com/sqlmapproject/sqlmap)|Fixes #5536|
+|2023-10-06 17:15:50|[syft](https://github.com/anchore/syft)|feat: add package for go compiler given binary dete<br>ction (#2195)  adds a unique synthetic package to th<br>e SBOM output that represents the go compiler when i<br>t is detected as a part of a package discovered by t<br>he go binary cataloger.    When using an SBOM genera<br>ted by syft - downstream vulnerability scanners now <br>have the opportunity to detect/report on the PURL/CP<br>Es attached to the new stdlib package.  ---------   <br> Signed-off-by: Christopher Phillips |
+|2023-10-06 15:49:05|[rustdesk](https://github.com/rustdesk/rustdesk)|Merge pull request #5932 from fufesou/fix/mobile_cu<br>rsor_offset  fix, mobile curosr (hotx,hoty)|
+|2023-10-06 14:58:31|[dirsearch](https://github.com/maurosoria/dirsearch)|Merge pull request #1330 from drego85/patch-14  Add<br>ing configure.php|
+|2023-10-06 14:48:27|[iDefender](https://github.com/wecooperate/iDefender)|update|
+|2023-10-06 14:43:11|[grype](https://github.com/anchore/grype)|fix: empty descriptor name and version (#1542)  Sig<br>ned-off-by: Keith Zantow |
+|2023-10-06 13:57:00|[faker](https://github.com/joke2k/faker)|format code|
+|2023-10-06 13:53:55|[BlueTeamTools](https://github.com/abc123info/BlueTeamTools)|Update README.md|
+|2023-10-06 13:10:01|[dbeaver](https://github.com/dbeaver/dbeaver)|CB-4085 dispose project after task finished (#21455<br>)|
+|2023-10-06 12:37:12|[v2rayfree](https://github.com/aiboboxx/v2rayfree)|update|
+|2023-10-06 08:18:41|[awesome-chatgpt-z<br>h](https://github.com/yzfly/awesome-chatgpt-zh)|add Awesome-Multimodal-Prompts|
+|2023-10-06 06:07:11|[trivy](https://github.com/aquasecurity/trivy)|chore(deps): bump alpine from 3.18.3 to 3.18.4 (#53<br>00)  Signed-off-by: dependabot[bot]  Co-authored-by:<br> dependabot[bot] |
+|2023-10-06 05:57:01|[all-in-one-v2](https://github.com/zaivanza/all-in-one-v2)|fix proxy|
 |2023-10-06 00:19:33|[neuvector](https://github.com/neuvector/neuvector)|Merge pull request #1051 from williamlin-suse/main <br> NVSHAS-8344: REST API DELETE /v1/response/rule does<br>n't work|
-|2023-10-06 00:00:03|[free](https://github.com/freefq/free)|updated_at 10-06 08:00|
-|2023-10-05 20:43:04|[PocOrExp_in_Githu<br>b](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-10-06 04:43:04|
-|2023-10-05 18:48:30|[syft](https://github.com/anchore/syft)|Add exact syntax of the conversion formats (#2196) <br> Signed-off-by: Marc-Etienne Vargenau |
-|2023-10-05 14:45:45|[trivy](https://github.com/aquasecurity/trivy)|fix: Report error when os.CreateTemp fails (to be c<br>onsistent with other uses) (#5342)|
-|2023-10-05 13:43:09|[rustdesk](https://github.com/rustdesk/rustdesk)|Merge pull request #5917 from bankzst/feature/updat<br>e-thai-language-fields  lang: (Thai) add new words a<br>nd update existing words to up-to-date|
-|2023-10-05 12:38:18|[v2rayfree](https://github.com/aiboboxx/v2rayfree)|update|
 |2023-10-05 09:15:01|[nemo_go](https://github.com/hanc00l/nemo_go)|Fix: nemo的数据库导入sql文件在key_word表里增加的字<br>段|
-|2023-10-05 08:35:53|[all-in-one-v2](https://github.com/zaivanza/all-in-one-v2)|change converters decimals|
-|2023-10-05 08:28:41|[dbeaver](https://github.com/dbeaver/dbeaver)|Merge branch 'devel' of https://github.com/dbeaver/<br>dbeaver into devel|
 |2023-10-05 01:43:17|[feroxbuster](https://github.com/epi052/feroxbuster)|nitpickery; added success msg|
 |2023-10-04 22:24:32|[impacket](https://github.com/fortra/impacket)|[ticketer.py] Sapphire tickets (#1411)  * Adding -i<br>mpersonate flag to ingest S4U2self+U2U TGT    * Func<br>tional version    * Commenting out duration customiz<br>ation for sapphire    * Fixes #1605    * Adding AD_I<br>F_RELEVANT reference    * Fixing undefined tgt sessi<br>on key and wrong cname for impersonation    * Adding<br> missing and ignored params|
-|2023-10-04 18:08:34|[grype](https://github.com/anchore/grype)|chore: removes unnecessary conditional (#1539)  Sig<br>ned-off-by: chavacava |
 |2023-10-04 10:03:26|[Awesome-Redteam](https://github.com/Threekiii/Awesome-Redteam)|更新README.md|
 |2023-10-04 09:35:24|[cloudTools](https://github.com/dark-kingA/cloudTools)|update md|
 |2023-10-04 07:41:43|[Burp-Non-HTTP-Ext<br>ension](https://github.com/summitt/Burp-Non-HTTP-Extension)|Update version|
@@ -52,14 +58,11 @@
 |2023-10-02 21:54:28|[PEASS-ng](https://github.com/carlospolop/PEASS-ng)|Update 9_interesting_files.sh|
 |2023-10-02 14:37:42|[HackBrowserData](https://github.com/moonD4rk/HackBrowserData)|chore: update Go version and dependencies for build<br>s  - Update Go version from 1.20 to 1.21 in go.mod, <br>.github/workflows/build.yml, and .github/workflows/l<br>int.yml|
 |2023-10-02 11:38:00|[rengine](https://github.com/yogeshojha/rengine)|Merge pull request #964 from AnonymousWP/make-field<br>s-mandatory  chore(issue-templates): require more fi<br>elds to be filled in|
-|2023-10-02 09:54:11|[awesome-chatgpt-z<br>h](https://github.com/yzfly/awesome-chatgpt-zh)|update openai plus|
 |2023-10-02 09:39:24|[kube-bench](https://github.com/aquasecurity/kube-bench)|updates to the readme  Signed-off-by: AnaisUrlichs |
-|2023-10-02 07:55:28|[BlueTeamTools](https://github.com/abc123info/BlueTeamTools)|Update README.md|
 |2023-10-02 07:30:27|[flightsim](https://github.com/alphasoc/flightsim)|Merge pull request #66 from alphasoc/mariusz/go-ins<br>tall-docs-fix  Adjust install from source command in<br> the readme. Resolves #65|
 |2023-10-01 17:36:05|[vulhub](https://github.com/vulhub/vulhub)|add librsvg CVE-2023-38633 and jumpserver CVE-2023-<br>42820 into environments.toml|
 |2023-10-01 12:50:32|[ObserverWard](https://github.com/0x727/ObserverWard)|Merge pull request #202 from 0x727/dependabot/cargo<br>/actix-web-httpauth-0.8.1  Bump actix-web-httpauth f<br>rom 0.8.0 to 0.8.1|
 |2023-09-30 17:02:12|[beef](https://github.com/beefproject/beef)|Merge branch 'master' of https://github.com/beefpro<br>ject/beef|
-|2023-09-28 18:34:52|[sqlmap](https://github.com/sqlmapproject/sqlmap)|Implements option --time-limit (#5502)|
 |2023-09-28 13:38:02|[gshark](https://github.com/madneal/gshark)|add build for darwin arm64|
 |2023-09-28 09:40:28|[afrog](https://github.com/zan8in/afrog)|update|
 |2023-09-28 08:24:35|[appshark](https://github.com/bytedance/appshark)|Merge pull request #53 from firmianay/dev3  fix doc|
@@ -68,7 +71,6 @@
 |2023-09-27 10:12:16|[arthas](https://github.com/alibaba/arthas)|Prettified Code!|
 |2023-09-27 02:37:34|[vulnerability](https://github.com/lal0ne/vulnerability)|CVE-2023-31719|
 |2023-09-26 18:41:37|[wpscan](https://github.com/wpscanteam/wpscan)|Bump version|
-|2023-09-26 14:15:53|[iDefender](https://github.com/wecooperate/iDefender)|update|
 |2023-09-26 13:49:47|[Supershell](https://github.com/tdragon6/Supershell)|Update Changelog.md|
 |2023-09-26 13:05:52|[codeql-cli-binari<br>es](https://github.com/github/codeql-cli-binaries)|Update CHANGELOG for 2.14.6|
 |2023-09-26 07:31:55|[Umi-OCR](https://github.com/hiroi-sora/Umi-OCR)|Update v1.3.6|
@@ -949,8 +951,8 @@
 | [domain_hunter_pro](https://github.com/bit4woo/domain_hunter_pro) | v1.9 | domain_hunter的高级版本，SRC挖洞、HW打点之必备！自动化资产收集<br>；快速Title获取；外部工具联动；等等 |
 | [JC-AntiToken](https://github.com/chroblert/JC-AntiToken) |  | burp插件：python版，token防重放绕过 |
 | [BurpSuite_403Bypa<br>sser](https://github.com/sting8k/BurpSuite_403Bypasser) |  | Burpsuite Extension to bypass 403 restricted directory |
-| [Burp-Non-HTTP-Ext<br>ension](https://github.com/summitt/Burp-Non-HTTP-Extension) | v1.8.0 | Non-HTTP Proxy Extension (NoPE) and DNS for Burp Suite. |
-| [Burp-Non-HTTP-Ext<br>ension](https://github.com/summitt/Burp-Non-HTTP-Extension) | v1.8.0 | Non-HTTP Proxy Extension (NoPE) and DNS for Burp Suite. |
+| [Burp-Non-HTTP-Ext<br>ension](https://github.com/summitt/Burp-Non-HTTP-Extension) |  |  |
+| [Burp-Non-HTTP-Ext<br>ension](https://github.com/summitt/Burp-Non-HTTP-Extension) |  |  |
 | [shiro-check](https://github.com/bigsizeme/shiro-check) | shiroch<br>ek3.0 | Shiro反序列化回显利用、内存shell、检查 Burp插件 |
 | [FastjsonScan](https://github.com/Maskhe/FastjsonScan) | 1.0 | 一个简单的Fastjson反序列化检测burp插件 |
 | [fastjsonScan](https://github.com/zilong3033/fastjsonScan) |  | fastjson漏洞burp插件，检测fastjson<1.2.68基于dnslog，fastjson<<br>=1.2.24和1.2.33<=fatjson<=1.2.47的不出网检测和TomcatEcho,Spring<br>Echo回显方案。 |
@@ -1236,7 +1238,7 @@
 ## 分析辅助
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
-| [BlueTeamTools](https://github.com/abc123info/BlueTeamTools) | BlueTea<br>mToolsV0<br>.81版本 | 蓝队分析研判工具箱，自带的反编译工具对红队也有帮助，有建议欢迎<br>给我留言 |
+| [BlueTeamTools](https://github.com/abc123info/BlueTeamTools) | BlueTea<br>mToolsV0<br>.83版本 | 蓝队分析研判工具箱，自带的反编译工具对红队也有帮助，有建议欢迎<br>给我留言 |
 ## 知识库
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |

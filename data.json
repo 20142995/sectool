@@ -200,8 +200,8 @@
     "https://github.com/ycdxsb/PocOrExp_in_Github": {
         "created_at": "2021-04-13 05:46:16",
         "description": "聚合Github上已有的Poc或者Exp，CVE信息来自CVE官网。Auto Collect Poc Or Exp from Github by CVE ID.",
-        "commit_date": "2023-10-05 20:43:04",
-        "commit_message": "update 2023-10-06 04:43:04",
+        "commit_date": "2023-10-06 23:40:34",
+        "commit_message": "update 2023-10-07 07:40:34",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -981,8 +981,8 @@
     "https://github.com/sqlmapproject/sqlmap": {
         "created_at": "2012-06-26 09:52:15",
         "description": "Automatic SQL injection and database takeover tool",
-        "commit_date": "2023-09-28 18:34:52",
-        "commit_message": "Implements option --time-limit (#5502)",
+        "commit_date": "2023-10-06 17:48:30",
+        "commit_message": "Fixes #5536",
         "release_tag": "1.7",
         "release_date": "2023-01-02 22:32:55",
         "release_message": "Stable version 1.7 ([changeset](https://github.com/sqlmapproject/sqlmap/compare/1.6...1.7))"
@@ -1017,7 +1017,7 @@
     "https://github.com/wecooperate/iDefender": {
         "created_at": "2021-11-24 11:38:28",
         "description": "iDefender（冰盾 - 终端主动防御系统）",
-        "commit_date": "2023-09-26 14:15:53",
+        "commit_date": "2023-10-06 14:48:27",
         "commit_message": "update",
         "release_tag": "2.9.0",
         "release_date": "2023-07-19 02:37:26",
@@ -1465,13 +1465,13 @@
         "release_message": "MySQLMonitor Java版本"
     },
     "https://github.com/summitt/Burp-Non-HTTP-Extension": {
-        "created_at": "2016-05-23 20:30:34",
-        "description": "Non-HTTP Proxy Extension (NoPE) and DNS for Burp Suite.",
+        "created_at": "",
+        "description": "",
         "commit_date": "2023-10-04 07:41:43",
         "commit_message": "Update version",
-        "release_tag": "v1.8.0",
-        "release_date": "2023-10-02 14:46:33",
-        "release_message": "### New Features\r\n- UDP proxy with python manglers and interceptor support\r\n- Better search features\r\n\r\n### Bug Fixes\r\n- Fixed bug when clearing request table that would freeze the UI\r\n- Minor bugs and UI tweaks\r\n\r\n### Known issues:\r\n- Repeater not working for UDP"
+        "release_tag": "",
+        "release_date": "",
+        "release_message": ""
     },
     "https://github.com/SiJiDo/H": {
         "created_at": "2021-09-10 06:49:28",
@@ -2654,8 +2654,8 @@
     "https://github.com/maurosoria/dirsearch": {
         "created_at": "2013-04-30 15:57:40",
         "description": "Web path scanner",
-        "commit_date": "2023-09-19 14:14:44",
-        "commit_message": "Merge pull request #1325 from huyphan/master\n\nAllow dirsearch to use a non-default network interface #1323",
+        "commit_date": "2023-10-06 14:58:31",
+        "commit_message": "Merge pull request #1330 from drego85/patch-14\n\nAdding configure.php",
         "release_tag": "v0.4.3",
         "release_date": "2022-10-05 13:01:24",
         "release_message": "- Automatically detect the URI scheme (`http` or `https`) if no scheme is provided\r\n- SQLite report format\r\n- Option to overwrite unwanted extensions with selected extensions\r\n- Option to view redirects history when following redirects\r\n- Option to crawl web paths in the responses\r\n- HTTP traffic is saved inside log file\r\n- Capability to save progress and resume later\r\n- Support client certificate\r\n- Maximum size of the log file via configuration\r\n- More accurate"
@@ -2951,8 +2951,8 @@
     "https://github.com/dbeaver/dbeaver": {
         "created_at": "2015-10-21 08:26:28",
         "description": "Free universal database tool and SQL client",
-        "commit_date": "2023-10-05 08:28:41",
-        "commit_message": "Merge branch 'devel' of https://github.com/dbeaver/dbeaver into devel",
+        "commit_date": "2023-10-06 13:10:01",
+        "commit_message": "CB-4085 dispose project after task finished (#21455)",
         "release_tag": "23.2.1",
         "release_date": "2023-09-26 05:31:33",
         "release_message": "\n                - SQL Editor:\n                    - Aliases proposals for tables with joins were improved\n                    - SQL console can now be saved as a script\n                    - Enhanced smart completion is enabled (configurable)\n                    - Issue with big string contents (json, xml) edit was resolved\n                    - JSON formatting in the separate editor was fixed\n                    - Ctrl+Alt+6 shortcut was changed to Ctrl+Alt+T\n                    - JSON functions keywords were added to the SQL Assist\n                    - Representation of errors on query execution was fixed\n                - ER Diagrams: issue with duplicate relations on the diagram was fixed\n                - Data Editor:\n                    - Big content representation end editing was limited to 1MB (configurable)\n                    - User can now add a shortcut for setting row color\n                    - Issue with hiding the wrong column from the context menu was resolved\n                    - Grouping panel now shows actual executed SQL\n                    - Decimal rounding error was fixed\n                - General UI:\n                    - When exporting a project, a warning about replacing an existing project was added (thanks to @MontejoJorge)\n                    - Scroll bars were added on the connection page, and other wizards\n                    - Issue with broken quotes in localization files was resolved\n                - Connectivity:\n                    - Driver download UI was improved: already downloaded driver files are colored in grey\n                    - JDBC drivers maven artifacts resolve was fixed\n                    - The \"Propagate driver properties\" option was added to the driver settings\n                - New drivers:\n                    - JDBCX driver was added (thanks to @zhicwu)\n                - Databases:\n                    - Clickhouse: IPv4 data representation was fixed\n                    - Greenplum: External tables representation was fixe\n                    - MySQL: Unsupported engine types are replaced with the default one\n                    - Oceanbase:\n                        - Views editor was supported\n                        - Routines and procedure parameters read was fixed\n                    - PostgreSQL:\n                        - Foreign tables folder was added\n                        - Enum data types reading performance was enhanced\n                    - Redshift: Backup/Restore tools were deprecated and removed from UI\n                    - Snowflake:\n                        - Driver was updated to 3.13.25\n                        - Materialized views are now supported\n                        - Schema create UI was enhanced was enhanced\n                    Trino: Views DDL support was added\n            "
@@ -3192,8 +3192,8 @@
     "https://github.com/joke2k/faker": {
         "created_at": "2012-11-12 23:00:09",
         "description": "Faker is a Python package that generates fake data for you.",
-        "commit_date": "2023-09-20 14:41:31",
-        "commit_message": "Bump version: 19.6.1 → 19.6.2",
+        "commit_date": "2023-10-06 13:57:00",
+        "commit_message": "format code",
         "release_tag": "v19.6.2",
         "release_date": "2023-09-20 14:43:08",
         "release_message": "See [CHANGELOG.md](https://github.com/joke2k/faker/blob/refs/tags/v19.6.2/CHANGELOG.md)."
@@ -3894,7 +3894,7 @@
         "commit_message": "Merge pull request #1051 from williamlin-suse/main\n\nNVSHAS-8344: REST API DELETE /v1/response/rule doesn't work",
         "release_tag": "v5.2.2",
         "release_date": "2023-10-04 08:15:57",
-        "release_message": "\r\n##### Security Advisory for CVE-2023-32188\r\n+ Remediate CVE-2023-32188 “JWT token compromise can allow malicious actions including Remote Code Execution (RCE)” by auto-generating certificate used for singing JWT token upon deployment and upgrade. Manual mount certificates is still supported and recommended for replacing certificate for RESTful API and manager UI.\r\n+ Add additional controls on custom compliance scripts. By default, custom script are now not allowed to be added, unless the environment variable CUSTOM_CHECK_CONTROL is added to Controller and Enforcer. Values are \"disable\" (default, not allowed), \"strict\" (admin role only), or \"loose\" (admin, compliance, and runtime-policy roles).\r\nat: NVSHAS-8213 Vuln Report - LDAP injection\r\n##### Enhancements\r\n+ Add additional scan data to CVE results sent by SYSLOG for layered scans\r\n+ Support NVD API 2.0 for scan CVE database (at: not in yet)\r\n+ Provide container image build date in Assets -> Container details\r\n+ Adjust sorting for Network rules: disable sorting in Network rules view but enable sorting of network rules in Group view.\r\n+ Enable/disable TLS 1.0 and TLS 1.1 detection/alerting with environment variables to Enforcer THRT_SSL_TLS_1DOT0, THRT_SSL_TLS_1DOT1. Disabled by default.\r\nat: NVSHAS-8170 Auto profile collection: capture profile data at the peak memory. a new env AUTO_PROFILE_COLLECT is added\r\nat: NVSHAS-7704 Configuration assessments against Admission Control should show all violation with one scan\r\nat: NVSHAS-8261 Nuvector namespace user cannot see assets-->namespaces\r\nat: NVSHAS-5295 extend options for cve report criteria in response rules conf\r\n##### Bug Fixes\r\n+ Export of group policy does not return any actual YAML contents\r\n+ Improve pruning of namespaces with dedicated function\r\n+ Skip handling the CRD CREATE/UPDATE requests if the CR's namespace is already deleted\r\n+ Provide workaround for part of CRD groups which cannot be pruned successfully after namespaces are deleted"
+        "release_message": "##### Security Advisory for CVE-2023-32188\r\n+ Remediate CVE-2023-32188 “JWT token compromise can allow malicious actions including Remote Code Execution (RCE)” by auto-generating certificate used for signing JWT token upon deployment and upgrade, and auto-generating Manager/RESTful API certificate during Helm based deployments.\r\n  - Certificate for JWT-signing is created automatically by controller with validity of 90days and rotated automatically.\r\n  - Auto-generation of Manager, REST API, and registry adapter certificate requires using Helm-based install using NeuVector helm version 2.6.3 or later. \r\n  - Built-in certificate is still used for yaml based deployments if not replaced during deployment; however, it is recommended to replace these (see next line).\r\n  - Manual [replacement of certificate](/configuration/console/replacecert) is still supported and recommended for previous releases or yaml based deployments. See the NeuVector GitHub security advisory [here](https://github.com/neuvector/neuvector/security/advisories/GHSA-622h-h2p8-743x) for a description.\r\n  - Use of user-supplied certificates is still supported as before for both Helm and yaml based deployments.\r\n+ Add additional controls on custom compliance scripts. By default, custom script are now not allowed to be added, unless the environment variable CUSTOM_CHECK_CONTROL is added to Controller and Enforcer. Values are \"disable\" (default, not allowed), \"strict\" (admin role only), or \"loose\" (admin, compliance, and runtime-policy roles).\r\n+ Prevent LDAP injection - username field is escaped.\r\n##### Enhancements\r\n+ Add additional scan data to CVE results sent by SYSLOG for layered scans\r\n+ Support NVD API 2.0 for scan CVE database\r\n+ Provide container image build date in Assets -> Container details\r\n+ Adjust sorting for Network rules: disable sorting in Network rules view but enable sorting of network rules in Group view.\r\n+ Enable/disable TLS 1.0 and TLS 1.1 detection/alerting with environment variables to Enforcer THRT_SSL_TLS_1DOT0, THRT_SSL_TLS_1DOT1. Disabled by default.\r\n+ Add environment variable AUTO_PROFILE_COLLECT for Controller and Enforcer to assist in capturing memory usage when investigating memory pressure events. Set value = 1 to enable.\r\n+ Configuration assessments against Admission Control should show all violations with one scan.\r\n+ Add more options for CVE report criteria in Response Rules. Example 1 - \"cve-high-with-fix:X\" means: When # of (high vulnerability that have been fixed) >= X, trigger the response rule. Example 2 - \"cve-high-with-fix:X/Y\" means: When # of (high vulnerability that were reported Y days ago & have been fixed) >= X, trigger the response rule.\r\n##### Bug Fixes\r\n+ Export of group policy does not return any actual YAML contents\r\n+ Improve pruning of namespaces with dedicated function\r\n+ NeuVector namespace user cannot see assets-->namespaces\r\n+ Skip handling the CRD CREATE/UPDATE requests if the CR's namespace is already deleted\r\n+ Provide workaround for part of CRD groups which cannot be pruned successfully after namespaces are deleted:\r\n```\r\nkubectl create -f neuvector-prune-orphan-crd-groups.yaml\r\nkubectl delete -f neuvector-prune-orphan-crd-groups.yaml\r\n```\r\n```\r\napiVersion: admissionregistration.k8s.io/v1\r\nkind: ValidatingWebhookConfiguration\r\nmetadata:\r\n  name: neuvector-prune-orphan-crd-groups\r\nwebhooks:\r\n- admissionReviewVersions:\r\n  - v1beta1\r\n  clientConfig:\r\n    service:\r\n      name: neuvector-svc-prune-orphan-crd-groups-dummy\r\n      namespace: neuvector\r\n      path: /v1/neuvector-support/neuvector-prune-orphan-crd-groups\r\n      port: 65432\r\n  failurePolicy: Ignore\r\n  matchPolicy: Exact\r\n  name: neuvector-prune-orphan-crd-groups.neuvector.svc\r\n  namespaceSelector: {}\r\n  objectSelector: {}\r\n  rules:\r\n  - apiGroups:\r\n    - 'neuvector-support'\r\n    apiVersions:\r\n    - v1\r\n    operations:\r\n    - DELETE\r\n    resources:\r\n    - nvdummy\r\n    scope: '*'\r\n  sideEffects: NoneOnDryRun\r\n  timeoutSeconds: 3\r\n```"
     },
     "https://github.com/lijiejie/BBScan": {
         "created_at": "2015-11-13 07:41:10",
@@ -3908,8 +3908,8 @@
     "https://github.com/anchore/syft": {
         "created_at": "2020-05-07 18:19:29",
         "description": "CLI tool and library for generating a Software Bill of Materials from container images and filesystems",
-        "commit_date": "2023-10-05 18:48:30",
-        "commit_message": "Add exact syntax of the conversion formats (#2196)\n\nSigned-off-by: Marc-Etienne Vargenau <marc-etienne.vargenau@nokia.com>",
+        "commit_date": "2023-10-06 17:15:50",
+        "commit_message": "feat: add package for go compiler given binary detection (#2195)\n\nadds a unique synthetic package to the SBOM output that represents the go compiler when it is detected as a part of a package discovered by the go binary cataloger.\r\n\r\nWhen using an SBOM generated by syft - downstream vulnerability scanners now have the opportunity to detect/report on the PURL/CPEs attached to the new stdlib package.\r\n---------\r\n\r\nSigned-off-by: Christopher Phillips <christopher.phillips@anchore.com>",
         "release_tag": "v0.92.0",
         "release_date": "2023-09-27 15:52:50",
         "release_message": "### Added Features\n\n- Support for multiple image refs of same sha in OCI layout [[#1544](https://github.com/anchore/syft/issues/1544)]\n\n### Bug Fixes\n\n- Generated purls are different between runs of syft against the same image and artifact [[#2169](https://github.com/anchore/syft/issues/2169) [#2170](https://github.com/anchore/syft/pull/2170) @willmurphyscode]\n\n### Additional Changes\n\n- bump stereoscope to fix data race in UI code [[#2173](https://github.com/anchore/syft/pull/2173) @willmurphyscode]\n\n**[(Full Changelog)](https://github.com/anchore/syft/compare/v0.91.0...v0.92.0)**\n\n"
@@ -3971,8 +3971,8 @@
     "https://github.com/aquasecurity/trivy": {
         "created_at": "2019-04-11 01:01:07",
         "description": "Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more",
-        "commit_date": "2023-10-05 14:45:45",
-        "commit_message": "fix: Report error when os.CreateTemp fails (to be consistent with other uses) (#5342)",
+        "commit_date": "2023-10-06 06:07:11",
+        "commit_message": "chore(deps): bump alpine from 3.18.3 to 3.18.4 (#5300)\n\nSigned-off-by: dependabot[bot] <support@github.com>\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
         "release_tag": "v0.45.1",
         "release_date": "2023-09-16 07:29:33",
         "release_message": "## Changelog\n* daae88287 fix(purl): handle rust types (#5186)\n* 81240cf08 chore: auto-close issues (#5177)\n* bd0accd8a chore(deps): bump github.com/spf13/viper from 1.15.0 to 1.16.0 (#5093)\n* ecee79403 fix(k8s): kbom support addons labels (#5178)\n* 9ebc25d88 test: validate SPDX with the JSON schema (#5124)\n* 9a49a3773 chore: bump trivy-kubernetes-latest (#5161)\n* ad1dc6327 docs: add 'Signature Verification' guide (#4731)\n* 7c68d4a7e docs: add image-scanner-with-trivy for ecosystem (#5159)\n* ed49609a7 fix(fs): assign the absolute path to be inspected to ROOTPATH when filesystem (#5158)\n* 19539722e chore(deps): bump github.com/CycloneDX/cyclonedx-go (#5102)\n* c7516011b Update filtering.md (#5131)\n* ccc6d7cb2 chore(deps): bump sigstore/cosign-installer (#5104)\n* 48cbf4553 chore(deps): bump github.com/cyphar/filepath-securejoin (#5143)\n* a9c2c74c5 chore(deps): bump golangci/golangci-lint-action from 3.6.0 to 3.7.0 (#5103)\n* 120ac68b5 chore(deps): bump easimon/maximize-build-space from 7 to 8 (#5105)\n* 41eaa78ae chore(deps): bump github.com/aws/aws-sdk-go from 1.44.273 to 1.45.3 (#5126)\n* 932f92755 chaging adopters discussion tempalte (#5091)\n* db3133346 chore(deps): bump github.com/cheggaaa/pb/v3 from 3.1.2 to 3.1.4 (#5092)\n* 8c0b7d619 chore(deps): bump github.com/hashicorp/golang-lru/v2 from 2.0.2 to 2.0.6 (#5094)\n* c61c664c3 chore(deps): bump github.com/aws/aws-sdk-go-v2/config (#5095)\n* a99944c1c chore(deps): bump github.com/containerd/containerd from 1.7.3 to 1.7.5 (#5097)\n* 9fc844ecf chore(deps): bump github.com/Azure/azure-sdk-for-go/sdk/azidentity (#5098)\n* c504f8be4 chore(deps): bump actions/checkout from 3.5.3 to 3.6.0 (#5106)\n\n"
@@ -3980,8 +3980,8 @@
     "https://github.com/anchore/grype": {
         "created_at": "2020-05-26 13:44:38",
         "description": "A vulnerability scanner for container images and filesystems",
-        "commit_date": "2023-10-04 18:08:34",
-        "commit_message": "chore: removes unnecessary conditional (#1539)\n\nSigned-off-by: chavacava <salvadorcavadini+github@gmail.com>",
+        "commit_date": "2023-10-06 14:43:11",
+        "commit_message": "fix: empty descriptor name and version (#1542)\n\nSigned-off-by: Keith Zantow <kzantow@gmail.com>",
         "release_tag": "v0.69.1",
         "release_date": "2023-09-27 17:03:54",
         "release_message": "### Bug Fixes\n\n- Incorrect python version comparisons for rc releases [[#986](https://github.com/anchore/grype/issues/986) [#1510](https://github.com/anchore/grype/pull/1510) @willmurphyscode]\n- False Positive: CVE-2023-37920 reported for certifi library in python [[#1417](https://github.com/anchore/grype/issues/1417) [#1510](https://github.com/anchore/grype/pull/1510) @willmurphyscode]\n- Grype is not recognizing python-certifi is patched for GHSA-43fp-rhv2-5gv8 [[#1172](https://github.com/anchore/grype/issues/1172) [#1510](https://github.com/anchore/grype/pull/1510) @willmurphyscode]\n- False positive on certifi 2022.12.07 [[#1034](https://github.com/anchore/grype/issues/1034) [#1510](https://github.com/anchore/grype/pull/1510) @willmurphyscode]\n- Leading zeros seen as difference in version numbers [[#1430](https://github.com/anchore/grype/issues/1430) [#1510](https://github.com/anchore/grype/pull/1510) @willmurphyscode]\n\n### Additional Changes\n\n- add OpenSSF Best Practices badge [[#1523](https://github.com/anchore/grype/pull/1523) @spiffcs]\n- Bump vulnerability match labels [[#1525](https://github.com/anchore/grype/pull/1525) @wagoodman]\n- bump stereoscope to fix data race in UI [[#1517](https://github.com/anchore/grype/pull/1517) @willmurphyscode]\n\n**[(Full Changelog)](https://github.com/anchore/grype/compare/v0.69.0...v0.69.1)**\n\n"
@@ -4277,7 +4277,7 @@
     "https://github.com/aiboboxx/v2rayfree": {
         "created_at": "2021-10-13 11:34:53",
         "description": "v2ray节点、免费节点、免费v2ray节点、最新公益免费v2ray节点订阅地址、免费v2ray节点每日更新、免费ss/v2ray/trojan节点、freefq ",
-        "commit_date": "2023-10-05 12:38:18",
+        "commit_date": "2023-10-06 12:37:12",
         "commit_message": "update",
         "release_tag": "",
         "release_date": "",
@@ -4322,8 +4322,8 @@
     "https://github.com/freefq/free": {
         "created_at": "2020-06-07 02:48:33",
         "description": "翻墙、免费翻墙、免费科学上网、免费节点、免费梯子、免费ss/v2ray/trojan节点、蓝灯、谷歌商店、翻墙梯子",
-        "commit_date": "2023-10-06 00:00:03",
-        "commit_message": "updated_at 10-06 08:00",
+        "commit_date": "2023-10-07 00:00:02",
+        "commit_message": "updated_at 10-07 08:00",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -4592,8 +4592,8 @@
     "https://github.com/yzfly/awesome-chatgpt-zh": {
         "created_at": "2023-03-21 02:16:34",
         "description": "ChatGPT 中文指南🔥，ChatGPT 中文调教指南，指令指南，应用开发指南，精选资源清单，更好的使用 chatGPT 让你的生产力 up up up! 🚀",
-        "commit_date": "2023-10-02 09:54:11",
-        "commit_message": "update openai plus",
+        "commit_date": "2023-10-06 08:18:41",
+        "commit_message": "add Awesome-Multimodal-Prompts",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -4781,8 +4781,8 @@
     "https://github.com/zaivanza/all-in-one-v2": {
         "created_at": "2023-04-29 09:03:49",
         "description": "",
-        "commit_date": "2023-10-05 08:35:53",
-        "commit_message": "change converters decimals",
+        "commit_date": "2023-10-06 05:57:01",
+        "commit_message": "fix proxy",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -5004,8 +5004,8 @@
     "https://github.com/rustdesk/rustdesk": {
         "created_at": "2020-09-28 15:36:08",
         "description": "An open-source remote desktop, and alternative to TeamViewer.",
-        "commit_date": "2023-10-05 13:43:09",
-        "commit_message": "Merge pull request #5917 from bankzst/feature/update-thai-language-fields\n\nlang: (Thai) add new words and update existing words to up-to-date",
+        "commit_date": "2023-10-06 15:49:05",
+        "commit_message": "Merge pull request #5932 from fufesou/fix/mobile_cursor_offset\n\nfix, mobile curosr (hotx,hoty)",
         "release_tag": "1.2.2",
         "release_date": "2023-08-22 01:44:36",
         "release_message": "![image](https://github.com/rustdesk/rustdesk/assets/71636191/83754a64-31b8-47f0-8570-da22207759a9)\r\n\r\n> Winget, FDroid, Apple Sillicon, Google Play / App Store update will come soon.\r\n\r\nx86-64: [Windows](https://github.com/rustdesk/rustdesk/releases/download/1.2.2/rustdesk-1.2.2-x86_64.exe) | [Ubuntu](https://github.com/rustdesk/rustdesk/releases/download/1.2.2/rustdesk-1.2.2-x86_64.deb) | [Mac](https://github.com/rustdesk/rustdesk/releases/download/1.2.2/rustdesk-1.2.2-x86_64.dmg)\r\nAArch64 (ARM64):  [Ubuntu](https://github.com/rustdesk/rustdesk/releases/download/1.2.2/rustdesk-1.2.2-aarch64.deb) | [Android](https://github.com/rustdesk/rustdesk/releases/download/1.2.2/rustdesk-1.2.2-aarch64-signed.apk) | [Mac](https://github.com/rustdesk/rustdesk/releases/download/1.2.2/rustdesk-1.2.2-aarch64.dmg)\r\n\r\nMore: [check below please](#)\r\n\r\n<details>\r\n<summary>Changelog</summary>\r\n\r\n- Add separate window mode (tab window by default), https://github.com/rustdesk/rustdesk/discussions/2889\r\n![image](https://github.com/rustdesk/rustdesk/assets/71636191/0c73bc6a-8659-4a67-9425-47625a6aded3)\r\n- Fix and improve responsiveness issue introduced in 1.2.0. https://github.com/rustdesk/rustdesk/discussions/5231\r\n- Add device list batch handle\r\n![image](https://github.com/rustdesk/rustdesk/assets/71636191/0ca85b8e-bed3-48ad-a43f-82df983986f3)\r\n- Add command to assign user and strategy for [RustDesk Server Pro](https://rustdesk.com/docs/en/self-host/pro/)\r\n- Optimize address book, syncing password, alias name, device name etc, add tag color, improve error and update status handling\r\n![image](https://github.com/rustdesk/rustdesk/assets/71636191/21d7a226-b863-4dc2-a9d3-fb6cd3a56c5c)\r\n- Fix windows file copy/paste\r\n- Fix \"waiting for image...\" still shown after receiving image bug, refactored rust->flutter message handling https://github.com/rustdesk/rustdesk/issues/4533\r\n- Improve some touchpad support, https://github.com/rustdesk/rustdesk/pull/5049\r\n- Bug fixes.\r\n\r\n</details>\r\n"
@@ -5049,7 +5049,7 @@
     "https://github.com/decoymini/DecoyMini": {
         "created_at": "2021-07-23 06:31:52",
         "description": "🐝 A highly scalable, safe, free enterprise honeypots 一款高可扩展、安全、免费的企业级蜜罐系统",
-        "commit_date": "2023-09-17 13:47:48",
+        "commit_date": "2023-10-06 23:47:36",
         "commit_message": "Update README.md",
         "release_tag": "v2.0.6691",
         "release_date": "2023-01-03 10:27:42",
@@ -6112,11 +6112,11 @@
     "https://github.com/abc123info/BlueTeamTools": {
         "created_at": "2023-09-05 08:54:32",
         "description": "蓝队分析研判工具箱，自带的反编译工具对红队也有帮助，有建议欢迎给我留言",
-        "commit_date": "2023-10-02 07:55:28",
+        "commit_date": "2023-10-06 13:53:55",
         "commit_message": "Update README.md",
-        "release_tag": "BlueTeamToolsV0.81版本",
-        "release_date": "2023-10-02 07:53:39",
-        "release_message": "2023.10.02 更新哥斯拉webshell的csharp流量解密功能，asp流量解密功能。\r\n2023.10.01 更新哥斯拉webshell的java流量解密功能、php流量解密功能。\r\n2023.09.11 更新Xml转Json、Json转Xml功能。\r\n2023.09.08 更新Mysql、SQLServer、Oracle、Postgresql、Hive数据库语句的格式化功能。\r\n2023.09.06 更正\"网空资产测绘\"功能Hunter界面的显示问题。"
+        "release_tag": "BlueTeamToolsV0.83版本",
+        "release_date": "2023-10-06 13:53:39",
+        "release_message": "2023.10.06 对\"IP/端口连接分析\"功能添加IPv6的支持，支持查询ipv6的物理地址。"
     },
     "https://github.com/yutianqaq/impacket-gui": {
         "created_at": "2023-09-01 10:27:31",
