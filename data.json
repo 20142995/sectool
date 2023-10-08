@@ -200,8 +200,8 @@
     "https://github.com/ycdxsb/PocOrExp_in_Github": {
         "created_at": "2021-04-13 05:46:16",
         "description": "聚合Github上已有的Poc或者Exp，CVE信息来自CVE官网。Auto Collect Poc Or Exp from Github by CVE ID.",
-        "commit_date": "2023-10-06 23:40:34",
-        "commit_message": "update 2023-10-07 07:40:34",
+        "commit_date": "2023-10-07 23:41:49",
+        "commit_message": "update 2023-10-08 07:41:49",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -531,8 +531,8 @@
     "https://github.com/knownsec/404StarLink": {
         "created_at": "2020-11-17 08:10:18",
         "description": "404StarLink - 推荐优质、有意义、有趣、坚持维护的安全开源项目",
-        "commit_date": "2023-09-25 03:59:08",
-        "commit_message": "weekly update at 2023-09-25",
+        "commit_date": "2023-10-07 03:24:25",
+        "commit_message": "weekly update at 2023-10-07",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -3469,11 +3469,11 @@
     "https://github.com/yogeshojha/rengine": {
         "created_at": "2020-05-03 12:13:12",
         "description": "reNgine is an automated reconnaissance framework for web applications with a focus on highly configurable streamlined recon process via Engines, recon data correlation and organization, continuous monitoring, backed by a database, and simple yet intuitive User Interface. reNgine makes it easy for penetration testers to gather reconnaissance with minimal configuration and with the help of reNgine's correlation, it just makes recon effortless.",
-        "commit_date": "2023-10-02 11:38:00",
-        "commit_message": "Merge pull request #964 from AnonymousWP/make-fields-mandatory\n\nchore(issue-templates): require more fields to be filled in",
-        "release_tag": "v1.3.6",
-        "release_date": "2023-03-22 04:31:21",
-        "release_message": "Fixed Various Installation Errors\r\nFixed Naabu Port Scanning Issue"
+        "commit_date": "2023-10-07 10:37:23",
+        "commit_message": "Merge pull request #963 from yogeshojha/2.0_release\n\n2.0-jasper release",
+        "release_tag": "v2.0.0",
+        "release_date": "2023-10-07 10:44:17",
+        "release_message": "###  Added\r\n - Projects: Projects allow you to efficiently organize their web application reconnaissance efforts. With this feature, you can create distinct project spaces, each tailored to a specific purpose, such as personal bug bounty hunting, client engagements, or any other specialized recon task.\r\n - Roles and Permissions: assign distinct roles to your team members: Sys Admin, Penetration Tester, and Auditor—each with precisely defined permissions to tailor their access and actions within the reNgine ecosystem.\r\n - GPT-powered Report Generation: With the power of OpenAI's GPT, reNgine now provides you with detailed vulnerability descriptions, remediation strategies, and impact assessments.\r\n - API Vault: This feature allows you to organize your API keys such as OpenAI or Netlas API keys.\r\n - GPT-powered Attack Surface Generation\r\n - URL gathering now is much more efficient, removing duplicate endpoints based on similar HTTP Responses, having the same content_lenth, or page_title. Custom duplicate fields can also be set from the scan engine configuration.\r\n - URL Path filtering while initiating scan: For instance, if we want to scan only endpoints starting with https://example.com/start/, we can pass the /start as a path filter while starting the scan. @ocervell\r\n - Expanding Target Concept: reNgine 2.0 now accepts IPs, URLS, etc as targets. (#678, #658) Excellent work by @ocervell\r\n - A ton of refactoring on reNgine's core to improve scan efficiency. Massive kudos to @ocervell\r\n - Created a custom celery workflow to be able to run several tasks in parallel that are not dependent on each other, such OSINT task and subdomain discovery will run in parallel, and directory and file fuzzing, vulnerability scan, screenshot gathering etc. will run in parallel after port scan or url fetching is completed. This will increase the efficiency of scans and instead of having one long flow of tasks, they can run independently on their own. @ocervell\r\n - Refactored all tasks to run asynchronously @ocervell\r\n - Added a stream_command that allows to read the output of a command live: this means the UI is updated with results while the command runs and does not have to wait until the task completes. Excellent work by @ocervell\r\n - Pwndb is now replaced by h8mail. @ocervell\r\n - Group Scan Results: reNgine 2.0 allows to group of subdomains based on similar page titles and HTTP status, and also vulnerability grouping based on the same vulnerability title and severity.\r\n - Added Support for Nmap: reNgine 2.0 allows to run Nmap scripts and vuln scans on ports found by Naabu. @ocervell\r\n - Added support for Shared Scan Variables in Scan Engine Configuration:\r\n    - `enable_http_crawl`: (true/false) You can disable it to be more stealthy or focus on something different than HTTP\r\n    - `timeout`: set timeout for all tasks\r\n    - `rate_limit`: set rate limit for all tasks\r\n    - `retries`: set retries for all tasks\r\n    - `custom_header`: set the custom header for all tasks\r\n - Added Dalfox for XSS Vulnerability Scan\r\n - Added CRLFuzz for CRLF Vulnerability Scan\r\n - Added S3Scanner for scanning misconfigured S3 buckets\r\n - Improve OSINT Dork results, now detects admin panels, login pages and dashboards\r\n - Added Custom Dorks\r\n - Improved UI for vulnerability results, clicking on each vulnerability will open up a sidebar with vulnerability details.\r\n - Added HTTP Request and Response in vulnerability Results\r\n - Under Admin Settings, added an option to allow add/remove/deactivate additional users\r\n - Added Option to Preview Scan Report instead of forcing to download\r\n - Added Katana for crawling and spidering URLs\r\n - Added Netlas for Whois and subdomain gathering\r\n - Added TLSX for subdomain gathering\r\n - Added CTFR for subdomain gathering\r\n - Added historical IP in whois section\r\n\r\n\r\n### Fixes\r\n - GF patterns do not run on 404 endpoints (#574 closed)\r\n - Fixes for retrieving whois data (#693 closed)\r\n - Related/Associated Domains in Whois section is now fixed\r\n\r\n\r\n### Removed\r\n - Removed pwndb and tor related to it.\r\n - Removed tor for pwndb"
     },
     "https://github.com/rootclay/WMIHACKER": {
         "created_at": "2020-07-02 06:57:25",
@@ -4277,7 +4277,7 @@
     "https://github.com/aiboboxx/v2rayfree": {
         "created_at": "2021-10-13 11:34:53",
         "description": "v2ray节点、免费节点、免费v2ray节点、最新公益免费v2ray节点订阅地址、免费v2ray节点每日更新、免费ss/v2ray/trojan节点、freefq ",
-        "commit_date": "2023-10-06 12:37:12",
+        "commit_date": "2023-10-07 12:33:14",
         "commit_message": "update",
         "release_tag": "",
         "release_date": "",
@@ -4322,8 +4322,8 @@
     "https://github.com/freefq/free": {
         "created_at": "2020-06-07 02:48:33",
         "description": "翻墙、免费翻墙、免费科学上网、免费节点、免费梯子、免费ss/v2ray/trojan节点、蓝灯、谷歌商店、翻墙梯子",
-        "commit_date": "2023-10-07 00:00:02",
-        "commit_message": "updated_at 10-07 08:00",
+        "commit_date": "2023-10-08 00:00:02",
+        "commit_message": "updated_at 10-08 08:00",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -4529,8 +4529,8 @@
     "https://github.com/MobSF/Mobile-Security-Framework-MobSF": {
         "created_at": "2015-01-31 04:36:01",
         "description": "Mobile Security Framework (MobSF) is an automated, all-in-one mobile application (Android/iOS/Windows) pen-testing, malware analysis and security assessment framework capable of performing static and dynamic analysis.",
-        "commit_date": "2023-09-17 06:18:15",
-        "commit_message": "[HOTFIX] Fix jadx and apktool failure due to JDK changes (#2269)\n\n* Fix jadx and apktool failure due to JDK zip64 changes",
+        "commit_date": "2023-10-07 06:34:59",
+        "commit_message": "[HOTFIX][EFR] Priority Bug Fixes (#2275)\n\n* P1.1 AAR Permissions not properly listed \r\n* P1.2 Local variable table not listed in proper section\r\n* P1.3 static library strings are not listed\r\n* P1.5 Stripping of dynamic and static libraries are not correctly reported\r\n* Dependency bump\r\n* MobSF version bump",
         "release_tag": "v3.7.6",
         "release_date": "2023-08-28 04:57:05",
         "release_message": "### v3.7.6 Beta Changelog\r\n\r\n- Features or Enhancements\r\n   - Docker base image update to Ubuntu 22.04\r\n   - Dockerfile QA\r\n   - Migrated from Pip to Poetry for dependency management\r\n   - Migrate from setup.py to use poetry for build and publish\r\n   - Python 3.11 support\r\n   - Docker ADB connection improvements (host.docker.internal translation for localhost)\r\n   -  IOS Swift RulesUpdates `ios_biometric_bool`, `ios_biometric_acl`, `ios_keychain_weak_acl_device_passcode`, `ios_keychain_weak_accessibility_value`, `ios_insecure_random_no_generator`, `ios_biometry_hardened`\r\n   - Android SCA rules update\r\n   - Entropies scan support for strings\r\n   - Regex Hardening: Fixes possible Regex DoS in rules and MobSF code base\r\n   - Tox QA\r\n   - Added poetry build test\r\n   - Updated mobsf PyPI publishing workflow \r\n   - Update local DBs\r\n   - URLs/Email extraction refactor\r\n   - Static and Dynamic Binary Analysis QA\r\n   - Refactor Dex permissions\r\n   - Refactor Androguard `apk.APK()` usage\r\n   - Fallback certificate analysis using apksigtool\r\n   - Use BeautifulSoup4 to prettify malformed XML\r\n   - Detect non standard XML namespace in AndroidManifest.xml, Fixes : #2198\r\n   - Updated android permissions list\r\n   - Updated android permission update check script\r\n   - Github Actions version update\r\n   - Apktool bump\r\n   - Bump httptools\r\n   - Bump yara-python-dex\r\n   - Docker image build test for PRs\r\n   - iOS Source Report Fix\r\n   - Removed unwanted pinned repository\r\n   - Frida APK Patcher (WIP)\r\n   - Fix for Recent Scans `scan not completed` for iOS zip\r\n   - Fix for MachO stripped symbols false positive\r\n   - Fix bug in IPA download\r\n   - iOS/Android form validation fix\r\n   - Fix missing exported components\r\n - Enterprise Feature Request\r\n      - String extraction from APK, Source, AAR, JAR, SO.\r\n      - Android strings sections to show source of strings extracted\r\n      - Strings extraction refactor\r\n      - Support for independent `.so` scan\r\n      - Dylib analysis support\r\n      - Dylib string extraction\r\n      - Improved iOS Plist secret extraction\r\n      - Support for Independent `.dylib` scan\r\n      - Symbols view for dylib and so\r\n      - Trackers support for so\r\n      - AAR/JAR obfuscation and debug check\r\n      - Independent Static Library(.a) ELF/MachO Analysis\r\n      - Mac FAT binary only supported on Mac\r\n\r\n\r\n  \r\n     \r\n    \r\n  \r\n\r\n## What's Changed\r\n* Update dynamic_analysis.html by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2218\r\n* Hotfix: Handle Docker <-> ADB connectivity internally by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2219\r\n* update apktool to 2.8.1 by @superpoussin22 in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2220\r\n* update apktool by @superpoussin22 in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2225\r\n* HOTFIX: Dynamic Analyzer Support Alert by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2227\r\n* [HOTFIX] Regex + Rule Update by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2232\r\n* [EFR06] Independent Shared Object (.so) Scan and Improved String search by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2228\r\n* Update macho_analysis.py - SYMBOLS STRIPPED False Negative by @Karmaz95 in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2234\r\n* [EFR-08] Dylib + Symbols + Other Features by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2239\r\n* Fix missing exported components by @Abb4d0n in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2176\r\n* [EFR09] AAR/JAR obfuscation and debug check + Exception Handed strings and symbols extraction by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2240\r\n* [EFR10] Independent Static Library(.a) ELF/MachO Analysis by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2242\r\n* Pip to poetry and Dockerfile update by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2244\r\n* Docker Buildx test by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2247\r\n* [HOTFIX] bs4 malformed xml parsing + xml namespace detection by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2248\r\n* [HOTFIX] Migrate from setup.py to poetry, tox QA by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2249\r\n\r\n## New Contributors\r\n* @Karmaz95 made their first contribution in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2234\r\n* @Abb4d0n made their first contribution in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2176\r\n\r\n**Full Changelog**: https://github.com/MobSF/Mobile-Security-Framework-MobSF/compare/v3.6.9...v3.7.6"
@@ -4592,8 +4592,8 @@
     "https://github.com/yzfly/awesome-chatgpt-zh": {
         "created_at": "2023-03-21 02:16:34",
         "description": "ChatGPT 中文指南🔥，ChatGPT 中文调教指南，指令指南，应用开发指南，精选资源清单，更好的使用 chatGPT 让你的生产力 up up up! 🚀",
-        "commit_date": "2023-10-06 08:18:41",
-        "commit_message": "add Awesome-Multimodal-Prompts",
+        "commit_date": "2023-10-07 12:28:00",
+        "commit_message": "add chatglm",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -4628,8 +4628,8 @@
     "https://github.com/baidu/dperf": {
         "created_at": "2021-12-21 08:02:08",
         "description": "dperf is a 100Gbps network load tester.",
-        "commit_date": "2023-09-25 13:24:54",
-        "commit_message": "Merge pull request #374 from pengjianzhang/main\n\nupdate readme",
+        "commit_date": "2023-10-07 16:28:36",
+        "commit_message": "Merge pull request #377 from amberlipp/main\n\nfix: dperf make error on dpdk-18.11(link rte_pmd_bond)",
         "release_tag": "v1.5.0",
         "release_date": "2023-03-10 07:39:07",
         "release_message": "## v1.5.0 - 2023-03-10\r\n### Added\r\n\r\n- udp elephant flow\r\n\r\n    thanks sheva7777\r\n- client_hop\r\n\r\n    thanks hgkiller\r\n- supported Mellanox MT27500 [ConnectX-3]\r\n\r\n    thanks SdotChen\r\n- article: Using dperf to test the performance of DPVS(zh)\r\n\r\n    thanks sheva7777\r\n- article: How to install dperf on ubuntu(zh)\r\n\r\n    thanks digger-yu\r\n- article: Using dperf to test 100Gbps bandwidth(zh)\r\n\r\n    thanks CHRIS123540\r\n- article: DPVS v1.9.2 Performance Tests by dperf\r\n\r\n    thanks ywc689\r\n- article: dperf FAQ(zh)\r\n\r\n### Changed\r\n\r\n- print error numbers with red color\r\n\r\n### Fixed\r\n\r\n- flood with rss l3l4\r\n\r\n    thanks sheva7777\r\n- use unlikeyly to predict condition\r\n\r\n    thanks panzhengyu\r\n- address conflict in configuration file\r\n\r\n    thanks CHRIS123540\r\n- docs/configuration: update payload_size"
@@ -5004,8 +5004,8 @@
     "https://github.com/rustdesk/rustdesk": {
         "created_at": "2020-09-28 15:36:08",
         "description": "An open-source remote desktop, and alternative to TeamViewer.",
-        "commit_date": "2023-10-06 15:49:05",
-        "commit_message": "Merge pull request #5932 from fufesou/fix/mobile_cursor_offset\n\nfix, mobile curosr (hotx,hoty)",
+        "commit_date": "2023-10-07 06:14:28",
+        "commit_message": "Merge pull request #5936 from hms5232/fix-term-in-tw\n\nfix wrong terms in tw lang",
         "release_tag": "1.2.2",
         "release_date": "2023-08-22 01:44:36",
         "release_message": "![image](https://github.com/rustdesk/rustdesk/assets/71636191/83754a64-31b8-47f0-8570-da22207759a9)\r\n\r\n> Winget, FDroid, Apple Sillicon, Google Play / App Store update will come soon.\r\n\r\nx86-64: [Windows](https://github.com/rustdesk/rustdesk/releases/download/1.2.2/rustdesk-1.2.2-x86_64.exe) | [Ubuntu](https://github.com/rustdesk/rustdesk/releases/download/1.2.2/rustdesk-1.2.2-x86_64.deb) | [Mac](https://github.com/rustdesk/rustdesk/releases/download/1.2.2/rustdesk-1.2.2-x86_64.dmg)\r\nAArch64 (ARM64):  [Ubuntu](https://github.com/rustdesk/rustdesk/releases/download/1.2.2/rustdesk-1.2.2-aarch64.deb) | [Android](https://github.com/rustdesk/rustdesk/releases/download/1.2.2/rustdesk-1.2.2-aarch64-signed.apk) | [Mac](https://github.com/rustdesk/rustdesk/releases/download/1.2.2/rustdesk-1.2.2-aarch64.dmg)\r\n\r\nMore: [check below please](#)\r\n\r\n<details>\r\n<summary>Changelog</summary>\r\n\r\n- Add separate window mode (tab window by default), https://github.com/rustdesk/rustdesk/discussions/2889\r\n![image](https://github.com/rustdesk/rustdesk/assets/71636191/0c73bc6a-8659-4a67-9425-47625a6aded3)\r\n- Fix and improve responsiveness issue introduced in 1.2.0. https://github.com/rustdesk/rustdesk/discussions/5231\r\n- Add device list batch handle\r\n![image](https://github.com/rustdesk/rustdesk/assets/71636191/0ca85b8e-bed3-48ad-a43f-82df983986f3)\r\n- Add command to assign user and strategy for [RustDesk Server Pro](https://rustdesk.com/docs/en/self-host/pro/)\r\n- Optimize address book, syncing password, alias name, device name etc, add tag color, improve error and update status handling\r\n![image](https://github.com/rustdesk/rustdesk/assets/71636191/21d7a226-b863-4dc2-a9d3-fb6cd3a56c5c)\r\n- Fix windows file copy/paste\r\n- Fix \"waiting for image...\" still shown after receiving image bug, refactored rust->flutter message handling https://github.com/rustdesk/rustdesk/issues/4533\r\n- Improve some touchpad support, https://github.com/rustdesk/rustdesk/pull/5049\r\n- Bug fixes.\r\n\r\n</details>\r\n"
@@ -5148,8 +5148,8 @@
     "https://github.com/FreeRDP/FreeRDP": {
         "created_at": "2011-06-30 19:14:15",
         "description": "FreeRDP is a free remote desktop protocol library and clients",
-        "commit_date": "2023-10-04 07:22:49",
-        "commit_message": "[core,nla] Inject received TSCredentials in the peer's settings\n\nThe RDP client sends TSCredentials so that the server can reuse these credentials. This\npatch stores these values in the peer's rdpSettings in the corresponding fields.\nIt handles TSPasswordCreds for user/domain/password connection but also TSSmartCardCreds\nwhen the users has connected with a smartcard.",
+        "commit_date": "2023-10-07 19:26:27",
+        "commit_message": "[codec,rfx] added missing RFX encoder API calls",
         "release_tag": "2.11.2",
         "release_date": "2023-09-20 08:12:02",
         "release_message": "Notworthy changes:\r\n* Backported #9378: backported wArrayList (optional) copy on insert\r\n* Backported #9360: backported certificate algorithm detection\r\n\r\n[freerdp-2.11.2.zip](https://github.com/FreeRDP/FreeRDP/files/12670556/freerdp-2.11.2.zip)\r\n[freerdp-2.11.2.tar.gz](https://github.com/FreeRDP/FreeRDP/files/12670558/freerdp-2.11.2.tar.gz)\r\n"
