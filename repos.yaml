@@ -138,6 +138,8 @@
             - https://github.com/bytedance/appshark
         安卓抓包辅助:
             - https://github.com/r0ysue/r0capture
+        微信小程序辅助:
+            - https://github.com/wux1an/wxapkg
         代码审计:
             other:
                 - https://github.com/murphysecurity/murphysec
@@ -456,6 +458,7 @@
             - https://github.com/TideSec/GoBypassAV
             - https://github.com/pureqh/bypassAV
             - https://github.com/xiao-zhu-zhu/noterce
+            - https://github.com/TideSec/BypassAntiVirus
     权限提升:
         windows提权:
             - https://github.com/BeichenDream/BadPotato
@@ -818,6 +821,8 @@ CTF:
         - https://github.com/NewBee119/ctf_ics_traffic
         - https://github.com/Aabyss-Team/CTF-Tools
         - https://github.com/ffffffff0x/BerylEnigma
+        - https://github.com/CTFd/CTFd
+        - https://github.com/Gu-f/CTFd_chinese_CN
 
 应急响应:
     Linux:
@@ -981,3 +986,5 @@ CTF:
         - https://github.com/mdbloice/Augmentor
     安全思维脑图:
         - https://github.com/Ascotbe/HackerMind
+    github加速:
+        - https://github.com/dotnetcore/FastGithub
