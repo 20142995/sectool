@@ -1,15 +1,18 @@
-# 更新于 2023-10-09 08:37:03
+# 更新于 2023-10-10 08:35:27
 
 ## 近15天release更新记录
 | 更新时间 | 项目名称 | 版本 | 更新内容 |
 | :---- | :---- | :---- | :---- |
+|2023-10-09 20:27:15|[clair](https://github.com/quay/clair)|v4.7.2|  ##   - crda: remove crda support   <br>     The CRDA API has been decommissio<br>ned and the functionality has been    <br>superseded by OSV support.      - chor<br>e: update toolkit to latest version v1<br>.1.1        v1.5.17 (toolkit/v1.1.0) i<br>ntroduced a bug where claircore    cou<br>ld not handle empty strings when tryin<br>g to Scan() a value    into a cpe.WFN.<br> toolkit/v1.1.1 mitigates this bug.   <br>     ### Clair  -         In order to <br>facilitate faster deletes we need to a<br>dd a migration to    add an index in v<br>4.7.3. This change adds an admin comma<br>nd to allow    users to "manually" cre<br>ate the index CONCURRENTLY before the <br>migration    to avoid any down-time. T<br>his is something for users with larger<br>    indexer DBs to consider.        - <br>        This has been a part of the AP<br>I for some time and is starting to be <br>   used extensively.        -         <br>This change explains how to use the dr<br>opins and updates the local-dev    con<br>fig to do so.        [Unreleased]: htt<br>ps://github.com/quay/clair/compare/v4.<br>7.2...HEAD  [v4.7.2]: https://github.c<br>om/quay/clair/compare/v4.7.1...v4.7.2 <br> |
+|2023-10-09 15:36:37|[faker](https://github.com/joke2k/faker)|v19.8.0|See .|
+|2023-10-09 12:55:22|[BlueTeamTools](https://github.com/abc123info/BlueTeamTools)|BlueTea<br>mToolsV0<br>.85版本|2023.10.09 解决苹果Mac系统下的软件界<br>面模糊问题。|
+|2023-10-09 08:56:31|[safeline](https://github.com/chaitin/safeline)|v3.6.3|### 新增    - 新增申请免费证书。只要<br>域名已经指向雷池，就可以在界面上直接申<br>请证书了  - 证书管理新增 “使用站点”，<br>并且会自动检查站点和证书的域名是否一致 <br>   ### 优化    - 优化站点配置证书的流<br>程，现在所有证书都在证书管理配置，方便<br>统一查看  - 雷池控制台证书的配置移动到<br>了 “通用配置” -> “其他” 中，更符合<br>直觉  - 修复某些情况下采集不到站点 favi<br>con 的问题  - 修复采集站点标题的时候，<br>会把英文大写转成小写的问题  - 修复站点<br>详情中，删除文件夹的操作不会生效的问题 <br> - 修复站点详情中，资源的 今日请求 / <br>近 30 日请求 始终为 0 的问题  |
 |2023-10-08 16:59:05|[dbeaver](https://github.com/dbeaver/dbeaver)|23.2.2|                 - SQL editor:       <br>              - Aut-completion for com<br>plex SQL queries was improved         <br>            - Reconnecting of open edi<br>tors when switching between Simple and<br> Advanced view was fixed              <br>       - SQL console now can be saved <br>as script                 - ER diagram<br>s:                     - Diagrams nota<br>tions switcher was added              <br>       - Connections rendering was imp<br>roved                     - Crow’s fo<br>ot notation was added                 <br>- Data editor:                     - M<br>ultiple query results now can be displ<br>ayed vertically                     - <br>Go to column (Ctrl+F) action was added<br>                     - Column search w<br>as added to Metadata panel            <br>         - Numeric formatting was fixe<br>d for floating point numbers          <br>           - Issue with empty table af<br>ter opening the Calc panel was resolve<br>d                     - Setting row co<br>lor for the result set was fixed      <br>           - Data transfer: columns au<br>tomating mapping is now configurable  <br>               - General:             <br>        - Restore defaults on preferen<br>ce pages now resets to actual default <br>preferences                     - Ecli<br>pse 2023-09 plugin API is now supporte<br>d                     - Reset UI setti<br>ngs was fixed on macOS                <br>     - App crash when running on Wayla<br>nd was fixed                     - jav<br>a.compiler and java.scripting modules <br>were included in bundled Java         <br>        Databases:                    <br> - Dameng database extension was added<br> (thanks to @Stkai)                   <br>  - Clickhouse: array map representati<br>on was fixed                     - Goo<br>gle Spanner: table DDL generation was <br>fixed                     - DB2 LUW: t<br>rigger editor was fixed               <br>      - Exasol: customer group creatio<br>n was fixed                     - Fire<br>berd: several keywords were added     <br>                - Materialized: system<br> schemas loading was fixed            <br>         - PostgreSQL:                <br>         - Backup/restore native tools<br> execution was fixed                  <br>       - Europe/Kyiv timezone support <br>was fixed                     - Redshi<br>ft:                         - Schemas <br>loading was fixed                     <br>    - Spectrum tables loading was fixe<br>d (for custom driver configurations)  <br>           |
-|2023-10-08 10:53:30|[rustdesk](https://github.com/rustdesk/rustdesk)|1.2.3|      > Winget, FDroid update will co<br>me soon.     x86-64:  |  |    AArch64 <br>(ARM64):   |  |      More:         Cha<br>ngelog    - Improve Wayland support, c<br>ursor/clipboard/multi-monitors etc, bu<br>t highly depends on Xwayland, work ing<br>well on GNOME, bad compatibility on KD<br>E. We will continue working on Wayland<br>  - Add group tab  - Add software upda<br>te check based on github latest tag  -<br> Some fixes for Kaspersky compliance, <br>https://github.com/rustdesk/rustdesk/d<br>iscussions/5624, but they requested mo<br>re  - A lot of fixes since 1.2.2  - We<br> are still hard working on dual-monito<br>rs-dual-windows and new hardware codec<br>s, hopefully be in 1.2.4     |
+|2023-10-08 10:53:30|[rustdesk](https://github.com/rustdesk/rustdesk)|1.2.3|      > Winget, FDroid update will co<br>me soon.     x86-64:  |  |    AArch64 <br>(ARM64):   |  |      More:         Cha<br>ngelog    - Improve Wayland support, c<br>ursor/clipboard/multi-monitors etc, bu<br>t highly depends on Xwayland, working <br>well on GNOME, bad compatibility on KD<br>E. We will continue working on Wayland<br>  - Add group tab  - Add software upda<br>te check based on github latest tag  -<br> Some fixes for Kaspersky compliance, <br>https://github.com/rustdesk/rustdesk/d<br>iscussions/5624, but they requested mo<br>re  - A lot of fixes since 1.2.2  - We<br> are still working hard on dual-monito<br>rs-dual-windows and new hardware codec<br>s, hopefully be in 1.2.4     |
 |2023-10-08 06:30:45|[Elkeid](https://github.com/bytedance/Elkeid)|rasp-v2<br>.2.0.9-p<br>re||
 |2023-10-08 04:29:02|[PEASS-ng](https://github.com/carlospolop/PEASS-ng)|2023100<br>8-041e37<br>9c||
 |2023-10-08 02:34:24|[DNSlog-GO](https://github.com/lanyi1998/DNSlog-GO)|master||
 |2023-10-07 10:44:17|[rengine](https://github.com/yogeshojha/rengine)|v2.0.0|###  Added   - Projects: Projects all<br>ow you to efficiently organize their w<br>eb application reconnaissance efforts.<br> With this feature, you can create dis<br>tinct project spaces, each tailored to<br> a specific purpose, such as personal <br>bug bounty hunting, client engagements<br>, or any other specialized recon task.<br>   - Roles and Permissions: assign dis<br>tinct roles to your team members: Sys <br>Admin, Penetration Tester, and Auditor<br>—each with precisely defined permissio<br>ns to tailor their access and actions <br>within the reNgine ecosystem.   - GPT-<br>powered Report Generation: With the po<br>wer of OpenAI's GPT, reNgine now provi<br>des you with detailed vulnerability de<br>scriptions, remediation strategies, an<br>d impact assessments.   - API Vault: T<br>his feature allows you to organize you<br>r API keys such as OpenAI or Netlas AP<br>I keys.   - GPT-powered Attack Surface<br> Generation   - URL gathering now is m<br>uch more efficient, removing duplicate<br> endpoints based on similar HTTP Respo<br>nses, having the same content_lenth, o<br>r page_title. Custom duplicate fields <br>can also be set from the scan engine c<br>onfiguration.   - URL Path filtering w<br>hile initiating scan: For instance, if<br> we want to scan only endpoints starti<br>ng with https://example.com/start/, we<br> can pass the /start as a path filter <br>while starting the scan. @ocervell   -<br> Expanding Target Concept: reNgine 2.0<br> now accepts IPs, URLS, etc as targets<br>. (#678, #658) Excellent work by @ocer<br>vell   - A ton of refactoring on reNgi<br>ne's core to improve scan efficiency. <br>Massive kudos to @ocervell   - Created<br> a custom celery workflow to be able t<br>o run several tasks in parallel that a<br>re not dependent on each other, such O<br>SINT task and subdomain discovery will<br> run in parallel, and directory and fi<br>le fuzzing, vulnerability scan, screen<br>shot gathering etc. will run in parall<br>el after port scan or url fetching is <br>completed. This will increase the effi<br>ciency of scans and instead of having <br>one long flow of tasks, they can run i<br>ndependently on their own. @ocervell  <br> - Refactored all tasks to run asynchr<br>onously @ocervell   - Added a stream_c<br>ommand that allows to read the output <br>of a command live: this means the UI i<br>s updated with results while the comma<br>nd runs and does not have to wait unti<br>l the task completes. Excellent work b<br>y @ocervell   - Pwndb is now replaced <br>by h8mail. @ocervell   - Group Scan Re<br>sults: reNgine 2.0 allows to group of <br>subdomains based on similar page title<br>s and HTTP status, and also vulnerabil<br>ity grouping based on the same vulnera<br>bility title and severity.   - Added S<br>upport for Nmap: reNgine 2.0 allows to<br> run Nmap scripts and vuln scans on po<br>rts found by Naabu. @ocervell   - Adde<br>d support for Shared Scan Variables in<br> Scan Engine Configuration:      - ena<br>ble_http_crawl: (true/false) You can d<br>isable it to be more stealthy or focus<br> on something different than HTTP     <br> - timeout: set timeout for all tasks <br>     - rate_limit: set rate limit for <br>all tasks      - retries: set retries <br>for all tasks      - custom_header: se<br>t the custom header for all tasks   - <br>Added Dalfox for XSS Vulnerability Sca<br>n   - Added CRLFuzz for CRLF Vulnerabi<br>lity Scan   - Added S3Scanner for scan<br>ning misconfigured S3 buckets   - Impr<br>ove OSINT Dork results, now detects ad<br>min panels, login pages and dashboards<br>   - Added Custom Dorks   - Improved U<br>I for vulnerability results, clicking <br>on each vulnerability will open up a s<br>idebar with vulnerability details.   -<br> Added HTTP Request and Response in vu<br>lnerability Results   - Under Admin Se<br>ttings, added an option to allow add/r<br>emove/deactivate additional users   - <br>Added Option to Preview Scan Report in<br>stead of forcing to download   - Added<br> Katana for crawling and spidering URL<br>s   - Added Netlas for Whois and subdo<br>main gathering   - Added TLSX for subd<br>omain gathering   - Added CTFR for sub<br>domain gathering   - Added historical <br>IP in whois section      ### Fixes   -<br> GF patterns do not run on 404 endpoin<br>ts (#574 closed)   - Fixes for retriev<br>ing whois data (#693 closed)   - Relat<br>ed/Associated Domains in Whois section<br> is now fixed      ### Removed   - Rem<br>oved pwndb and tor related to it.   - <br>Removed tor for pwndb|
-|2023-10-06 13:53:39|[BlueTeamTools](https://github.com/abc123info/BlueTeamTools)|BlueTea<br>mToolsV0<br>.83版本|2023.10.06 对"IP/端口连接分析"功能添<br>加IPv6的支持，支持查询ipv6的物理地址。|
 |2023-10-04 09:42:08|[cloudTools](https://github.com/dark-kingA/cloudTools)|main-cl<br>oud-0|1.云服务工具模块：  阿里云：添加告警<br>管理、可处理告警、配置告警通知。云数据<br>库rds添加账号，添加白名单，开通外网地址<br>  2.云存储工具模块：  阿里云、AWS、京<br>东云 添加STS临时授权|
 |2023-10-04 08:15:57|[neuvector](https://github.com/neuvector/neuvector)|v5.2.2|##### Security Advisory for CVE-2023-<br>32188  + Remediate CVE-2023-32188 “JW<br>T token compromise can allow malicious<br> actions including Remote Code Executi<br>on (RCE)” by auto-generating certific<br>ate used for signing JWT token upon de<br>ployment and upgrade, and auto-generat<br>ing Manager/RESTful API certificate du<br>ring Helm based deployments.    - Cert<br>ificate for JWT-signing is created aut<br>omatically by controller with validity<br> of 90days and rotated automatically. <br>   - Auto-generation of Manager, REST <br>API, and registry adapter certificate <br>requires using Helm-based install usin<br>g NeuVector helm version 2.6.3 or late<br>r.     - Built-in certificate is still<br> used for yaml based deployments if no<br>t replaced during deployment; however,<br> it is recommended to replace these (s<br>ee next line).    - Manual  is still s<br>upported and recommended for previous <br>releases or yaml based deployments. Se<br>e the NeuVector GitHub security adviso<br>ry  for a description.    - Use of use<br>r-supplied certificates is still suppo<br>rted as before for both Helm and yaml <br>based deployments.  + Add additional c<br>ontrols on custom compliance scripts. <br>By default, custom script are now not <br>allowed to be added, unless the enviro<br>nment variable CUSTOM_CHECK_CONTROL is<br> added to Controller and Enforcer. Val<br>ues are "disable" (default, not allowe<br>d), "strict" (admin role only), or "lo<br>ose" (admin, compliance, and runtime-p<br>olicy roles).  + Prevent LDAP injectio<br>n - username field is escaped.  ##### <br>Enhancements  + Add additional scan da<br>ta to CVE results sent by SYSLOG for l<br>ayered scans  + Support NVD API 2.0 fo<br>r scan CVE database  + Provide contain<br>er image build date in Assets -> Conta<br>iner details  + Adjust sorting for Net<br>work rules: disable sorting in Network<br> rules view but enable sorting of netw<br>ork rules in Group view.  + Enable/dis<br>able TLS 1.0 and TLS 1.1 detection/ale<br>rting with environment variables to En<br>forcer THRT_SSL_TLS_1DOT0, THRT_SSL_TL<br>S_1DOT1. Disabled by default.  + Add e<br>nvironment variable AUTO_PROFILE_COLLE<br>CT for Controller and Enforcer to assi<br>st in capturing memory usage when inve<br>stigating memory pressure events. Set <br>value = 1 to enable.  + Configuration <br>assessments against Admission Control <br>should show all violations with one sc<br>an.  + Add more options for CVE report<br> criteria in Response Rules. Example 1<br> - "cve-high-with-fix:X" means: When #<br> of (high vulnerability that have been<br> fixed) >= X, trigger the response rul<br>e. Example 2 - "cve-high-with-fix:X/Y"<br> means: When # of (high vulnerability <br>that were reported Y days ago & have b<br>een fixed) >= X, trigger the response <br>rule.  ##### Bug Fixes  + Export of gr<br>oup policy does not return any actual <br>YAML contents  + Improve pruning of na<br>mespaces with dedicated function  + Ne<br>uVector namespace user cannot see asse<br>ts-->namespaces  + Skip handling the C<br>RD CREATE/UPDATE requests if the CR's <br>namespace is already deleted  + Provid<br>e workaround for part of CRD groups wh<br>ich cannot be pruned successfully afte<br>r namespaces are deleted:    kubectl c<br>reate -f neuvector-prune-orphan-crd-gr<br>oups.yaml  kubectl delete -f neuvector<br>-prune-orphan-crd-groups.yaml      api<br>Version: admissionregistration.k8s.io/<br>v1  kind: ValidatingWebhookConfigurati<br>on  metadata:    name: neuvector-prune<br>-orphan-crd-groups  webhooks:  - admis<br>sionReviewVersions:    - v1beta1    cl<br>ientConfig:      service:        name:<br> neuvector-svc-prune-orphan-crd-groups<br>-dummy        namespace: neuvector    <br>    path: /v1/neuvector-support/neuvec<br>tor-prune-orphan-crd-groups        por<br>t: 65432    failurePolicy: Ignore    m<br>atchPolicy: Exact    name: neuvector-p<br>rune-orphan-crd-groups.neuvector.svc  <br>  namespaceSelector: {}    objectSelec<br>tor: {}    rules:    - apiGroups:     <br> - 'neuvector-support'      apiVersion<br>s:      - v1      operations:      - D<br>ELETE      resources:      - nvdummy  <br>    scope: '*'    sideEffects: NoneOnD<br>ryRun    timeoutSeconds: 3  |
 |2023-09-29 12:22:42|[wpscan](https://github.com/wpscanteam/wpscan)|v3.8.25|## What's Changed  * Bump actions/che<br>ckout from 3 to 4 by @dependabot in ht<br>tps://github.com/wpscanteam/wpscan/pul<br>l/1798  * Update webmock requirement f<br>rom ~> 3.18.1 to ~> 3.19.1 by @dependa<br>bot in https://github.com/wpscanteam/w<br>pscan/pull/1797  * Bump docker/login-a<br>ction from 2.1.0 to 2.2.0 by @dependab<br>ot in https://github.com/wpscanteam/wp<br>scan/pull/1785      **Full Changelog**<br>: https://github.com/wpscanteam/wpscan<br>/compare/v3.8.24...v3.8.25|
@@ -20,52 +23,54 @@
 |2023-09-26 13:53:55|[Supershell](https://github.com/tdragon6/Supershell)|v2.0.0|## v2.0.0    **2023-09-26**    **提前<br>预祝各位师傅双节快乐！**  ### 安全漏洞 <br>   1. 修复share_pwd权限提升漏洞，参考<br>：  2. 修复几处XSS漏洞（待好心人测试）<br>：   - 备忘录处XSS #8   - 客户端用户名<br>处XSS #24   - 浏览文件处XSS #28   - 常<br>用文件名XSS  ### 功能BUG  1. 修复rssh d<br>ockerfile换源错误，现可通过远程pull和<br>本地原生两种方式构建镜像 #6 #13   - doc<br>ker-compose.yml 从云端仓库下载镜像，极<br>速构建，云端镜像构建时基于linux/amd64架<br>构   - docker-compose.yml.local 从本地<br>构建镜像，兼容本地系统架构  2. 修复非 u<br>tf-8 编码文件读取出错的BUG  3. 修复客<br>户端生成界面切换页数失效的BUG  4. 修复<br>更改rssh端口后无法回连的BUG，更改rssh端<br>口参考： #14    ### 功能新增  1. 新增分<br>组备注历史记录存储功能，现数据校准后分<br>组记录不会丢失，可在设置中清除历史冗余<br>缓存 #12   - 历史冗余缓存是指在客户端列<br>表记录中已删除的主机分组备注历史记录   <br>- 同主机名会话视为同一主机，修改其中一<br>个主机会话记录的分组备注后，后续同主机<br>上线或数据校准时会设置同样的分组备注信<br>息  2. 新增设置界面下载 rssh 私钥功能，<br>可配合本地ssh使用，参考wiki   3. 新增自<br>定义页面显示个数功能 #18  4. 新增客户端<br>会话批量断开、删除和设置分组备注功能 #1<br>8   - 批量断开只能断开在线客户端，批量<br>删除只能删除离线记录  5. 新增Linux客户<br>端执行时自定义进程名功能，可通过客户端<br>参数 --process_name 指定进程名 #5  6. <br>新增一行命令上线功能，使用此功能需要在<br>启动 docker-compose up -d 前设置公网地<br>址环境变量 #16   - 格式：export EXTERNA<br>L_ADDRESS=:   - 支持shell和python脚本<br>一行命令上线，参考：  7. 新增客户端回连<br>代理，可在客户端生成中指定，仅支持http<br>代理 #31  8. 新增客户端流量封装，默认为<br>ssh，可封装为 tls、websockets 和 secur<br>e websockets   - 自定义tls证书时，可在<br> ./volume/rssh/tls 目录中放置证书文件<br>，将tls cert文件命名为 tls.cert，tls ke<br>y文件命名为 tls.key   - 默认没有放置证<br>书文件时，使用自签名证书  9. 新增客户端<br>开启监听功能，对于内网不出网的主机，可<br>通过其他客户端的监听端口回连，实现内网<br>链，参考 ：  10. 新增客户端参数功能，可<br>在执行客户端时指定代理和目的地址等参数 <br>  - 格式：./client -d : --proxy : --pr<br>ocess_name     ### 功能优化  1. 优化回<br>连地址支持域名 #7  2. 优化docker映射时s<br>sh私钥的权限问题 #3   3. 优化garble，<br>进一步模糊签名  4. 优化稳定性和其他代码<br>结构    *从旧版本升级参考：*|
 |2023-09-26 13:07:24|[codeql-cli-binari<br>es](https://github.com/github/codeql-cli-binaries)|v2.14.6|### Bugs fixed    - The tracking of R<br>AM usage has been improved. This fixes<br> some cases    where CodeQL uses more <br>RAM than requested.    For more inform<br>ation about the changes included in th<br>is release, see the .    You can downl<br>oad _either_ the codeql-PLATFORM.zip f<br>or your platform, _or_ the generic cod<br>eql.zip which contains binaries for al<br>l supported platforms. Please ignore t<br>he additional "source code" downloads <br>below the .zip artifacts.    This rele<br>ase is compatible with the CodeQL lang<br>uage packs from .  |
 |2023-09-26 08:05:08|[Umi-OCR](https://github.com/hiroi-sora/Umi-OCR)|v1.3.6|### 公告： v2.0.0 预览版开放测试！  <br>经过数月的工作，Umi-OCR v2.0.0 完成了主<br>要功能的开发，已开放预览版本。v2重构了<br>整个项目，提供焕然一新的界面和更强大的<br>功能。        如果有兴趣，请前往  下载<br>体验。    测试阶段的 v2 可能含Bug。注重<br>稳定的用户可继续使用 v1.3 版本。    ---<br>    ### v1.3.6 主要更新：  - 优化了段<br>落合并的功能：      - 单行 方案的文本排<br>序更准确。      - 多行-自然段 方案更加<br>智能，支持自动判断中/英文段落，采取不同<br>的合并规则。      - 新增多行-代码段方案<br>，支持还原图中的缩进与空格，适合用来识<br>别代码片段。      - 移除了 西文、左对齐<br>、模糊匹配等方案，它们可以用现有方案代<br>替。  - 功能调整：截图联动 划分为独立的<br>功能，以单独快捷键触发，不受常规截图OCR<br>影响。    ### 文件说明：  软件本体：Umi<br>-OCR.v1.3.6.7z（67MB），内置简体中文&<br>英文通用识别库。  - SHA256: 7dd686f8443<br>7df6add5f276019d067c52674d463000ac7d76<br>22c5fcd38649efd    软件（多国语言整合<br>版）：Umi-OCR.v1.3.5_ALL_languages.7z（<br>117.5MB），内置多国语言识别库。  - SHA<br>256: 829c815905c695db262e1101b4b2af392<br>9e4779d1c4b4e3a2db7136096d4aeff    多<br>国语言扩展包：Umi-OCR.v1.3_DLC_language<br>s.7z（50.5MB），可向软件本体导入繁中,<br>英,日,韩,俄,德,法 多国语言识别库。  - S<br>HA256: 709c867a610346217fc19a2251ead2a<br>27d9dd0cf25e26ce05af007dbfc492974|
-|2023-09-26 03:18:02|[safeline](https://github.com/chaitin/safeline)|v3.5.1|### 优化：    - 修复站点详情中，今日<br>请求量一直为 0 的问题  - 修复获取站点 f<br>avicon 时没有尝试默认路径，导致某些站<br>点获取不到的问题  - 修复小概率出现无法<br>对站点进行任何操作的问题（不影响已配置<br>站点的防护）|
 |2023-09-25 05:24:42|[HackerPermKeeper](https://github.com/RuoJi6/HackerPermKeeper)|4.0|修改ssh密钥以及添加用户中重新运行时候<br>，检测是否加锁解锁操作|
-|2023-09-24 12:43:39|[Viper](https://github.com/FunnyWolf/Viper)|2023-09<br>-25-09-5<br>8-43|  ### 新功能  - 自动编排新增Session定<br>时任务功能  - 新增TCPLOG服务器模块 (作<br>者)  - 新增Last日志删除模块 (作者)  ###<br> 优化  - 前端界面支持OSX的Payload和Han<br>dler生成  - Session展示区域支持伸缩(点<br>击右侧按钮扩大缩小)  - 合并metasploit-f<br>ramework 6.3.35版本      ### Bugfix  -<br> fix 监听通信通道选择Session后不显示问<br>题  - fix https://github.com/FunnyWolf/<br>Viper/issues/177 内存执行C#可执行文件<br>模块报错问题  |
-|2023-09-24 02:48:52|[ghauri](https://github.com/r0oth3x49/ghauri)|1.2.5|Fixes:   - fixed #100 (--batch consid<br>ering on 403)   - fixed #90 (output of<br> re-dump properly)   - fixed #96 (upda<br>ted payloads)|
 ## 近15天commit提交记录
 | 提交时间 | 项目名称 | 更新内容 |
 | :---- | :---- | :---- |
-|2023-10-09 00:00:17|[free](https://github.com/freefq/free)|updated_at 10-09 08:00|
-|2023-10-08 23:45:31|[PocOrExp_in_Githu<br>b](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-10-09 07:45:31|
-|2023-10-08 22:45:49|[faker](https://github.com/joke2k/faker)|fix spelling error for pyspark (#1920)|
+|2023-10-10 00:00:15|[free](https://github.com/freefq/free)|updated_at 10-10 08:00|
+|2023-10-09 23:50:06|[PocOrExp_in_Githu<br>b](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-10-10 07:50:06|
+|2023-10-09 17:44:38|[syft](https://github.com/anchore/syft)|Refine the docs for building a cataloger (#2175)  *<br> refine the docs for building a cataloger    Signed-<br>off-by: Alex Goodman     * incorporate comments    S<br>igned-off-by: Alex Goodman     ---------    Signed-o<br>ff-by: Alex Goodman |
+|2023-10-09 17:05:06|[grype](https://github.com/anchore/grype)|chore(deps): bump ossf/scorecard-action from 2.2.0 <br>to 2.3.0 (#1544)  Bumps  from 2.2.0 to 2.3.0.  -   -<br>   -     ---  updated-dependencies:  - dependency-na<br>me: ossf/scorecard-action    dependency-type: direct<br>:production    update-type: version-update:semver-mi<br>nor  ...    Signed-off-by: dependabot[bot]   Co-auth<br>ored-by: dependabot[bot] |
+|2023-10-09 16:53:42|[clair](https://github.com/quay/clair)|admin: add pre v4.7.3 admin command to create index<br>  In order to facilitate faster deletes we need to a<br>dd a migration to add an index in v4.7.3. This chang<br>e adds an admin command to allow users to "manually"<br> create the index CONCURRENTLY before the migration <br>to avoid any down-time. This is something for users <br>with larger indexer DBs to consider.  Signed-off-by:<br> crozzy |
+|2023-10-09 15:30:29|[faker](https://github.com/joke2k/faker)|Bump version: 19.7.0 → 19.8.0|
+|2023-10-09 14:41:21|[vulhub](https://github.com/vulhub/vulhub)|Merge pull request #469 from vulhub/jumpserver-cve-<br>2023-42820-improve  added DOMAINS description for ma<br>nual|
+|2023-10-09 13:02:55|[safeline](https://github.com/chaitin/safeline)|feat: update the detail|
+|2023-10-09 12:56:03|[BlueTeamTools](https://github.com/abc123info/BlueTeamTools)|Update README.md|
+|2023-10-09 12:38:52|[v2rayfree](https://github.com/aiboboxx/v2rayfree)|update|
+|2023-10-09 12:15:44|[naabu](https://github.com/projectdiscovery/naabu)|Update README.md (#820)  Small grammatical change. <br>:)|
+|2023-10-09 11:04:09|[trivy](https://github.com/aquasecurity/trivy)|ci: add workflow to check Go versions of dependenci<br>es (#5340)|
+|2023-10-09 09:07:09|[sqlmap](https://github.com/sqlmapproject/sqlmap)|Fixes #5539|
+|2023-10-09 08:47:34|[FreeRDP](https://github.com/FreeRDP/FreeRDP)|[server,drdynvc] use a hashtable for dynamic channe<br>ls instead of an arrayList  This speeds up all opera<br>tions around dynamic channels.|
+|2023-10-09 07:05:03|[frp](https://github.com/fatedier/frp)|mentioned antivirus detection in installation instr<br>uctions, added recommendation to whitelist client bi<br>naries in antivirus (#3647)|
+|2023-10-09 06:13:27|[rustdesk](https://github.com/rustdesk/rustdesk)|Merge pull request #5947 from AnonymousWP/translati<br>on/dutch  feat(translation): add and fix Dutch strin<br>gs|
+|2023-10-09 04:49:58|[all-in-one-v2](https://github.com/zaivanza/all-in-one-v2)|change is_private_key|
+|2023-10-09 03:34:53|[murphysec](https://github.com/murphysecurity/murphysec)|feat(cmd): 增加参数 --maven-settings|
+|2023-10-09 02:54:31|[vulnerability](https://github.com/lal0ne/vulnerability)|CVE-2023-45303|
 |2023-10-08 16:28:38|[dbeaver](https://github.com/dbeaver/dbeaver)|23.2.2 version bump|
 |2023-10-08 14:08:59|[afrog](https://github.com/zan8in/afrog)|update|
-|2023-10-08 12:40:21|[trivy](https://github.com/aquasecurity/trivy)|chore(deps): Upgrade defsec to v0.93.1 (#5348)|
-|2023-10-08 12:33:06|[v2rayfree](https://github.com/aiboboxx/v2rayfree)|update|
-|2023-10-08 11:48:04|[rustdesk](https://github.com/rustdesk/rustdesk)|Merge pull request #5944 from leroyloren/master  Up<br>date cs.rs|
 |2023-10-08 10:13:06|[X-Marshal](https://github.com/XTeam-Wing/X-Marshal)|Update README.md|
-|2023-10-08 08:09:41|[vulnerability](https://github.com/lal0ne/vulnerability)|CVE-2023-4911|
 |2023-10-08 07:52:08|[Vulhub-Reproduce](https://github.com/Threekiii/Vulhub-Reproduce)|更新漏洞|
 |2023-10-08 07:47:23|[Vulnerability-Wik<br>i](https://github.com/Threekiii/Vulnerability-Wiki)|commit message|
 |2023-10-08 07:27:46|[HackerPermKeeper](https://github.com/RuoJi6/HackerPermKeeper)|Update choose.py|
-|2023-10-08 06:14:38|[murphysec](https://github.com/murphysecurity/murphysec)|feat(npm): 没有找到lockfile时，npm install 一下|
 |2023-10-08 03:45:51|[Awesome-Redteam](https://github.com/Threekiii/Awesome-Redteam)|更新README.md|
 |2023-10-08 03:20:48|[cloudTools](https://github.com/dark-kingA/cloudTools)|Update README.md|
 |2023-10-08 02:32:31|[DNSlog-GO](https://github.com/lanyi1998/DNSlog-GO)|Update README.md|
 |2023-10-08 02:15:51|[FrameVul](https://github.com/Awrrays/FrameVul)|Update README.md|
-|2023-10-07 19:26:27|[FreeRDP](https://github.com/FreeRDP/FreeRDP)|[codec,rfx] added missing RFX encoder API calls|
 |2023-10-07 16:28:36|[dperf](https://github.com/baidu/dperf)|Merge pull request #377 from amberlipp/main  fix: d<br>perf make error on dpdk-18.11(link rte_pmd_bond)|
 |2023-10-07 12:28:00|[awesome-chatgpt-z<br>h](https://github.com/yzfly/awesome-chatgpt-zh)|add chatglm|
 |2023-10-07 10:37:23|[rengine](https://github.com/yogeshojha/rengine)|Merge pull request #963 from yogeshojha/2.0_release<br>  2.0-jasper release|
+|2023-10-07 08:07:56|[CTFd](https://github.com/CTFd/CTFd)|Merge pull request #2411 from CTFd/update-translati<br>ons  * Add Arabic, Chinese, Taiwanese, French, Korea<br>n, Russian, Brazilian Portugese  * Update Polish, Ch<br>inese, Spanish, German translations  * Update .pot f<br>ile for English from core-beta changes|
 |2023-10-07 06:34:59|[Mobile-Security-F<br>ramework-MobSF](https://github.com/MobSF/Mobile-Security-Framework-MobSF)|[HOTFIX][EFR] Priority Bug Fixes (#2275)  * P1.1 AA<br>R Permissions not properly listed   * P1.2 Local var<br>iable table not listed in proper section  * P1.3 sta<br>tic library strings are not listed  * P1.5 Stripping<br> of dynamic and static libraries are not correctly r<br>eported  * Dependency bump  * MobSF version bump|
 |2023-10-07 03:24:25|[404StarLink](https://github.com/knownsec/404StarLink)|weekly update at 2023-10-07|
 |2023-10-06 23:47:36|[DecoyMini](https://github.com/decoymini/DecoyMini)|Update README.md|
-|2023-10-06 17:48:30|[sqlmap](https://github.com/sqlmapproject/sqlmap)|Fixes #5536|
-|2023-10-06 17:15:50|[syft](https://github.com/anchore/syft)|feat: add package for go compiler given binary dete<br>ction (#2195)  adds a unique synthetic package to th<br>e SBOM output that represents the go compiler when i<br>t is detected as a part of a package discovered by t<br>he go binary cataloger.    When using an SBOM genera<br>ted by syft - downstream vulnerability scanners now <br>have the opportunity to detect/report on the PURL/CP<br>Es attached to the new stdlib package.  ---------   <br> Signed-off-by: Christopher Phillips |
 |2023-10-06 14:58:31|[dirsearch](https://github.com/maurosoria/dirsearch)|Merge pull request #1330 from drego85/patch-14  Add<br>ing configure.php|
 |2023-10-06 14:48:27|[iDefender](https://github.com/wecooperate/iDefender)|update|
-|2023-10-06 14:43:11|[grype](https://github.com/anchore/grype)|fix: empty descriptor name and version (#1542)  Sig<br>ned-off-by: Keith Zantow |
-|2023-10-06 13:53:55|[BlueTeamTools](https://github.com/abc123info/BlueTeamTools)|Update README.md|
-|2023-10-06 05:57:01|[all-in-one-v2](https://github.com/zaivanza/all-in-one-v2)|fix proxy|
 |2023-10-06 00:19:33|[neuvector](https://github.com/neuvector/neuvector)|Merge pull request #1051 from williamlin-suse/main <br> NVSHAS-8344: REST API DELETE /v1/response/rule does<br>n't work|
 |2023-10-05 09:15:01|[nemo_go](https://github.com/hanc00l/nemo_go)|Fix: nemo的数据库导入sql文件在key_word表里增加的字<br>段|
 |2023-10-05 01:43:17|[feroxbuster](https://github.com/epi052/feroxbuster)|nitpickery; added success msg|
 |2023-10-04 22:24:32|[impacket](https://github.com/fortra/impacket)|[ticketer.py] Sapphire tickets (#1411)  * Adding -i<br>mpersonate flag to ingest S4U2self+U2U TGT    * Func<br>tional version    * Commenting out duration customiz<br>ation for sapphire    * Fixes #1605    * Adding AD_I<br>F_RELEVANT reference    * Fixing undefined tgt sessi<br>on key and wrong cname for impersonation    * Adding<br> missing and ignored params|
 |2023-10-04 07:41:43|[Burp-Non-HTTP-Ext<br>ension](https://github.com/summitt/Burp-Non-HTTP-Extension)|Update version|
 |2023-10-04 02:06:29|[ChatGPT-Shortcut](https://github.com/rockbenben/ChatGPT-Shortcut)|chore: upgrade dependencies|
-|2023-10-03 20:04:10|[clair](https://github.com/quay/clair)|'chore: update claircore to v1.5.19  Update clairco<br>re to latest release. '  Signed-off-by: Claircore-CI<br> |
 |2023-10-03 19:02:49|[commando-vm](https://github.com/mandiant/commando-vm)|Installer updates (#306)  * Update 3.1    ---------<br>    Co-authored-by: Alex | NoSecurity |
 |2023-10-03 17:29:26|[RsaCtfTool](https://github.com/RsaCtfTool/RsaCtfTool)|Add digital_sum check for miller_rabin prime test|
 |2023-10-03 03:56:50|[domain_hunter_pro](https://github.com/bit4woo/domain_hunter_pro)|update|
@@ -74,7 +79,6 @@
 |2023-10-02 14:37:42|[HackBrowserData](https://github.com/moonD4rk/HackBrowserData)|chore: update Go version and dependencies for build<br>s  - Update Go version from 1.20 to 1.21 in go.mod, <br>.github/workflows/build.yml, and .github/workflows/l<br>int.yml|
 |2023-10-02 09:39:24|[kube-bench](https://github.com/aquasecurity/kube-bench)|updates to the readme  Signed-off-by: AnaisUrlichs |
 |2023-10-02 07:30:27|[flightsim](https://github.com/alphasoc/flightsim)|Merge pull request #66 from alphasoc/mariusz/go-ins<br>tall-docs-fix  Adjust install from source command in<br> the readme. Resolves #65|
-|2023-10-01 17:36:05|[vulhub](https://github.com/vulhub/vulhub)|add librsvg CVE-2023-38633 and jumpserver CVE-2023-<br>42820 into environments.toml|
 |2023-10-01 12:50:32|[ObserverWard](https://github.com/0x727/ObserverWard)|Merge pull request #202 from 0x727/dependabot/cargo<br>/actix-web-httpauth-0.8.1  Bump actix-web-httpauth f<br>rom 0.8.0 to 0.8.1|
 |2023-09-30 17:02:12|[beef](https://github.com/beefproject/beef)|Merge branch 'master' of https://github.com/beefpro<br>ject/beef|
 |2023-09-28 13:38:02|[gshark](https://github.com/madneal/gshark)|add build for darwin arm64|
@@ -86,11 +90,8 @@
 |2023-09-26 13:49:47|[Supershell](https://github.com/tdragon6/Supershell)|Update Changelog.md|
 |2023-09-26 13:05:52|[codeql-cli-binari<br>es](https://github.com/github/codeql-cli-binaries)|Update CHANGELOG for 2.14.6|
 |2023-09-26 07:31:55|[Umi-OCR](https://github.com/hiroi-sora/Umi-OCR)|Update v1.3.6|
-|2023-09-26 03:15:43|[safeline](https://github.com/chaitin/safeline)|feat: release v3.5.1|
 |2023-09-26 02:12:05|[Elkeid](https://github.com/bytedance/Elkeid)|Merge pull request #539 from bytedance/fix-rasp-mou<br>nt  fix mount when process not in container and feat<br> JVM version check|
-|2023-09-25 02:51:15|[ZoomEye-python](https://github.com/knownsec/ZoomEye-python)|Merge pull request #99 from WuZhaominn/master  upda<br>te config.py|
-|2023-09-24 12:40:27|[Viper](https://github.com/FunnyWolf/Viper)|update version 2023-09-24-20-18-56|
-|2023-09-24 02:45:20|[ghauri](https://github.com/r0oth3x49/ghauri)|added multiple fixes such as considering --batch sw<br>itch on 403 forbidden, csv export data, csv re-dump,<br> invaludURL with --skip-urlencode switch, fixed #90,<br> fixed #92, fixed #96, fixed #100, bumped version 1.<br>2.5|## 所有项目
+|2023-09-25 02:51:15|[ZoomEye-python](https://github.com/knownsec/ZoomEye-python)|Merge pull request #99 from WuZhaominn/master  upda<br>te config.py|## 所有项目
 # 渗透测试
 ## 信息收集
 ### 资产测绘采集
@@ -270,6 +271,10 @@
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
 | [r0capture](https://github.com/r0ysue/r0capture) |  | 安卓应用层抓包通杀脚本 |
+### 微信小程序辅助
+| 项目名称 | 版本 | 项目描述 |
+| :---- | :---- | :---- |
+| [wxapkg](https://github.com/wux1an/wxapkg) | v1.5.0 | 微信小程序 .wxapkg 文件扫描 + 解密 + 解包工具 |
 ### 代码审计
 #### other
 | 项目名称 | 版本 | 项目描述 |
@@ -330,7 +335,7 @@
 #### 容器漏洞分析工具
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
-| [clair](https://github.com/quay/clair) | v4.7.1 | Vulnerability Static Analysis for Containers |
+| [clair](https://github.com/quay/clair) | v4.7.2 | Vulnerability Static Analysis for Containers |
 #### 容器安全扫描
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
@@ -726,6 +731,7 @@
 | [GoBypassAV](https://github.com/TideSec/GoBypassAV) |  | 整理了基于Go的16种API免杀测试、8种加密测试、反沙盒测试、编译混<br>淆、加壳、资源修改等免杀技术，并搜集汇总了一些资料和工具。 |
 | [bypassAV](https://github.com/pureqh/bypassAV) |  | 免杀shellcode加载器 |
 | [noterce](https://github.com/xiao-zhu-zhu/noterce) | 1.3 | 一种另辟蹊径的免杀执行系统命令的木马 |
+| [BypassAntiVirus](https://github.com/TideSec/BypassAntiVirus) |  | 远控免杀系列文章及配套工具，汇总测试了互联网上的几十种免杀工具<br>、113种白名单免杀方式、8种代码编译免杀、若干免杀实战技术，并对免<br>杀效果进行了一一测试，为远控的免杀和杀软对抗免杀提供参考。 |
 ## 权限提升
 ### windows提权
 | 项目名称 | 版本 | 项目描述 |
@@ -1184,6 +1190,8 @@
 | [ctf_ics_traffic](https://github.com/NewBee119/ctf_ics_traffic) |  | 工控CTF比赛工具，各种网络数据包处理脚本 |
 | [CTF-Tools](https://github.com/Aabyss-Team/CTF-Tools) |  | 渊龙Sec安全团队CTF&AWD工具箱 |
 | [BerylEnigma](https://github.com/ffffffff0x/BerylEnigma) | 1.15.0 | ffffffff0x team toolset for penetration testing, cryptography <br>research, CTF and daily use. | ffffffff0x 团队工具集，用来进行<br>渗透测试，密码学研究，CTF和日常使用。 |
+| [CTFd](https://github.com/CTFd/CTFd) | 3.6.0 | CTFs as you need them |
+| [CTFd_chinese_CN](https://github.com/Gu-f/CTFd_chinese_CN) | v1.2.0 | 对CTFd平台各版本的汉化记录。key:中文、汉化、翻译、chinese、CN<br>、CTFd |
 # 应急响应
 ## Linux
 ### 自动化检查
@@ -1245,7 +1253,7 @@
 ## 分析辅助
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
-| [BlueTeamTools](https://github.com/abc123info/BlueTeamTools) | BlueTea<br>mToolsV0<br>.83版本 | 蓝队分析研判工具箱，自带的反编译工具对红队也有帮助，有建议欢迎<br>给我留言 |
+| [BlueTeamTools](https://github.com/abc123info/BlueTeamTools) | BlueTea<br>mToolsV0<br>.85版本 | 蓝队分析研判工具箱，自带的反编译工具对红队也有帮助，有建议欢迎<br>给我留言 |
 ## 知识库
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
@@ -1273,7 +1281,7 @@
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
 | [openstar](https://github.com/starjun/openstar) |  | lua waf,nginx+lua,openresty,luajit,waf+,cdn,nginx |
-| [safeline](https://github.com/chaitin/safeline) | v3.5.1 | 一款足够简单、足够好用、足够强的免费 WAF。基于业界领先的语义引<br>擎检测技术，作为反向代理接入，保护你的网站不受黑客攻击。 |
+| [safeline](https://github.com/chaitin/safeline) | v3.6.3 | 一款足够简单、足够好用、足够强的免费 WAF。基于业界领先的语义引<br>擎检测技术，作为反向代理接入，保护你的网站不受黑客攻击。 |
 ## 欺骗防御
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
@@ -1298,7 +1306,7 @@
 ## 生成虚假数据
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
-| [faker](https://github.com/joke2k/faker) | v19.6.2 | Faker is a Python package that generates fake data for you. |
+| [faker](https://github.com/joke2k/faker) | v19.8.0 | Faker is a Python package that generates fake data for you. |
 ## 短信转发器
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
@@ -1422,3 +1430,7 @@
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
 | [HackerMind](https://github.com/Ascotbe/HackerMind) |  | 渗透步骤，web安全，CTF，业务安全，人工智能，区块链安全，数据安<br>全，安全开发，无线安全，社会工程学，二进制安全，移动安全，红蓝对<br>抗，运维安全，风控安全，linux安全 |
+## github加速
+| 项目名称 | 版本 | 项目描述 |
+| :---- | :---- | :---- |
+| [FastGithub](https://github.com/dotnetcore/FastGithub) | 2.1.4 | github加速神器，解决github打不开、用户头像无法加载、releases无<br>法上传下载、git-clone、git-pull、git-push失败等问题 |
