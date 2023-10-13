@@ -1,16 +1,17 @@
-# 更新于 2023-10-12 08:33:58
+# 更新于 2023-10-13 08:36:37
 
 ## 近15天release更新记录
 | 更新时间 | 项目名称 | 版本 | 更新内容 |
 | :---- | :---- | :---- | :---- |
+|2023-10-12 13:44:19|[grype](https://github.com/anchore/grype)|v0.71.0|### Added Features  - use ghsa to imp<br>rove matching for cpes   @westonsteime<br>l]  ****  |
 |2023-10-11 21:21:07|[PEASS-ng](https://github.com/carlospolop/PEASS-ng)|2023101<br>1-b4d494<br>e5||
 |2023-10-11 19:10:08|[faker](https://github.com/joke2k/faker)|v19.10.<br>0|See .|
 |2023-10-11 12:24:03|[codeql-cli-binari<br>es](https://github.com/github/codeql-cli-binaries)|v2.15.0|### Deprecations    - pragma."    ###<br> New Features    - The output of codeq<br>l version --format json now includes a<br> features property. Each key in the ma<br>p identifies a feature of the CodeQL C<br>LI. The value for a key is always true<br>. Going forward, whenever a significan<br>t new feature is added to the CodeQL C<br>LI, a corresponding entry will be adde<br>d to the features map. This is intende<br>d to make it easier for tools that inv<br>oke the CodeQL CLI to know if the part<br>icular version of the CLI they are inv<br>oking supports a given feature, withou<br>t having to know exactly what CLI vers<br>ion introduced that feature.    ### Im<br>provements    - You can now specify th<br>e CodeQL languages C/C++, Java/Kotlin,<br> and JavaScript/TypeScript using --lan<br>guage c-cpp, --language java-kotlin, a<br>nd --language javascript-typescript re<br>spectively. These new CodeQL language <br>names convey more clearly what languag<br>es each CodeQL language will analyze. <br> - CodeQL now respects custom home dir<br>ectories set by the $HOME environment <br>variable on MacOS and Linux and %USERP<br>ROFILE% on Windows. When set, CodeQL w<br>ill use the variable's value to change<br> the default location of downloaded pa<br>ckages and the global compilation cach<br>e.  - This release improves the qualit<br>y of  for repositories that vendor the<br>ir dependencies. This is currently sup<br>ported for Go and JavaScript projects.<br>    ### Bugs fixed    - Fixed an issue<br> with analyzing Python projects using <br>Python 3.12.    ### QL language improv<br>ements    - The QL language now has tw<br>o new methods codePointAt and codePoin<br>tCount on the string type. The methods<br> both return integers and act the same<br> as the similarly named Java methods o<br>n strings. For example, "abc".codePoin<br>tAt(2) is 99 and ("a" + 128512.toUnico<br>de() + "c").codePointAt(1) is a 128512<br>.    For more information about the ch<br>anges included in this release, see th<br>e .    You can download _either_ the c<br>odeql-PLATFORM.zip for your platform, <br>_or_ the generic codeql.zip which cont<br>ains binaries for all supported platfo<br>rms. Please ignore the additional "sou<br>rce code" downloads below the .zip art<br>ifacts.    This release is compatible <br>with the CodeQL language packs from . <br> |
+|2023-10-11 09:47:02|[rustdesk](https://github.com/rustdesk/rustdesk)|1.2.3|      > Winget, FDroid update will co<br>me soon.     x86-64:  |  |    AArch64 <br>(ARM64):   |  |      More:         Cha<br>ngelog    - Improve Wayland support, c<br>ursor/clipboard/multi-monitors etc, bu<br>t highly depends on Xwayland, working <br>well on GNOME, bad compatibility on KD<br>E. We will continue working on Wayland<br>  - Add group tab  - Add software upda<br>te check based on github latest tag  -<br> Some fixes for Kaspersky compliance, <br>https://github.com/rustdesk/rustdesk/d<br>iscussions/5624, but they requested mo<br>re  - A lot of fixes since 1.2.2  - We<br> are still working hard on dual-monito<br>rs-dual-windows and new hardware codec<br>s, hopefully be in 1.2.4     |
 |2023-10-11 09:36:22|[naabu](https://github.com/projectdiscovery/naabu)|v2.1.9|    ## What's Changed  ### 🐞 Bugs Fi<br>xes  * Added support for hostnames wit<br>h -eh option by @Mzack9999 in https://<br>github.com/projectdiscovery/naabu/pull<br>/823  ### Other Changes  * Update READ<br>ME.md (small grammar change) by @jdtri<br>ax in https://github.com/projectdiscov<br>ery/naabu/pull/820  * Fix typo in READ<br>ME.md by @sttlr in https://github.com/<br>projectdiscovery/naabu/pull/822    ## <br>New Contributors  * @jdtriax made thei<br>r first contribution in https://github<br>.com/projectdiscovery/naabu/pull/820  <br>  **Full Changelog**: https://github.c<br>om/projectdiscovery/naabu/compare/v2.1<br>.8...v2.1.9|
 |2023-10-11 09:20:40|[frp](https://github.com/fatedier/frp)|v0.52.1|### Fixes  * transport.tls.disableCus<br>tomTLSFirstByte doesn't have any effec<br>t. * The Server API did not return the<br> data correctly. * The Dashboard is un<br>able to display data. * natHoleStunSer<br>ver is missing a default value.  |
 |2023-10-11 03:06:50|[Elkeid](https://github.com/bytedance/Elkeid)|rasp-v2<br>.2.0.9-p<br>angolin||
 |2023-10-10 21:34:19|[neuvector](https://github.com/neuvector/neuvector)|v5.2.2-<br>s1||
-|2023-10-10 20:01:20|[grype](https://github.com/anchore/grype)|v0.70.0|### Added Features    - Update Syft t<br>o v0.93.0 + enable golang stdlib match<br>ing  @spiffcs ]    ### Bug Fixes    - <br>JSON output: descriptor name is missin<br>g "grype" value   @kzantow]    ****   <br> |
 |2023-10-10 17:38:19|[syft](https://github.com/anchore/syft)|v0.93.0|### Added Features  - Parse license f<br>rom the pom.xml if not contained in th<br>e manifest  @coheigea] - Add Golang ST<br>D library package given a Golang binar<br>y has been discovered compiled with th<br>at go binary   @spiffcs] - Improve --o<br>utput CLI help and deprecate --file   <br>@sharief007]  ### Bug Fixes  - Convert<br>ing a SBOM looses the algorithm type f<br>or added checksums   @sharief007]  ###<br> Additional Changes  - Refine the docs<br> for building a cataloger  @wagoodman]<br> - update license list to 3.22  @spiff<br>cs] - Add exact syntax of the conversi<br>on formats  @vargenau]  ****  |
 |2023-10-10 14:13:05|[Umi-OCR](https://github.com/hiroi-sora/Umi-OCR)|v1.3.7|### 公告： 开放测试！    开发重心转向<br>v2，v1.x 版本可能将逐步停止维护。    <br>测试阶段的 v2 可能含Bug。注重稳定的用户<br>可继续使用 v1.3 版本。    ---    ### v1<br>.3.7 主要更新：  - 兼容 Win7 x64 。  -<br> （若 Win7 报错计算机中丢失 VCOMP140.D<br>LL ，请安装  ）    感谢 @vector090 提<br>供的！    ### 文件说明：  软件本体：Umi<br>-OCR.v1.3.7.7z（67.3 MB），内置简体中<br>文&英文通用识别库。  - SHA256: 8aff9198<br>a5c1328c986fd13d9c17491727e994908f722c<br>dea661dfcc01970587    软件（多国语言整<br>合版）：Umi-OCR.v1.3.7_ALL_languages.7z<br>（118 MB），内置多国语言识别库。  - SHA<br>256: 5fcfbffce0148ff09ce58eea15a52c4d4<br>9c99903c7b5afd712f45862ba4026e1    多<br>国语言扩展包：Umi-OCR.v1.3_DLC_language<br>s.7z（50.5 MB），可向软件本体导入繁中,<br>英,日,韩,俄,德,法 多国语言识别库。  - S<br>HA256: 709c867a610346217fc19a2251ead2a<br>27d9dd0cf25e26ce05af007dbfc492974|
 |2023-10-10 05:33:22|[dperf](https://github.com/baidu/dperf)|v1.6.0|## v1.6.0 - 2023-10-10  ### Added    <br>- dperf server returns large payload  <br>  - you can use the default l3 or l3l4<br> rss algorithm    ### Changed    - min<br>imun local port range(lport_range) can<br> be set to 1    - optimization: remove<br> useless sockets outside lport_range  <br>  - move docs to dperf.org    - adjust<br> jumbo MTU    ### Fixed    - fix: nega<br>tive number of udp connections    - pr<br>int more information when startup fail<br>s      - not enough ports available   <br>   - error message of server ip number<br>s    - spelling errors and expression <br>issues        thanks digger-yu, CChuan<br>cey, zrmin    - fix: find port id    -<br> fix: create new connection after "dur<br>ation" time        thanks zrgtester   <br> - fix: http_host or http_path can onl<br>y be configured when http is enabled  <br>  - fix: dperf make error on dpdk-18.1<br>1        thanks amberlipp|
@@ -27,30 +28,39 @@
 ## 近15天commit提交记录
 | 提交时间 | 项目名称 | 更新内容 |
 | :---- | :---- | :---- |
-|2023-10-12 00:00:03|[free](https://github.com/freefq/free)|updated_at 10-12 08:00|
+|2023-10-13 00:00:03|[free](https://github.com/freefq/free)|updated_at 10-13 08:00|
+|2023-10-12 23:40:54|[PocOrExp_in_Githu<br>b](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-10-13 07:40:54|
+|2023-10-12 20:29:52|[wpscan](https://github.com/wpscanteam/wpscan)|Merge pull request #1711 from devidw/patch-1  READM<br>E: Inline to code block for macOS download|
+|2023-10-12 19:39:09|[grype](https://github.com/anchore/grype)|chore(deps): bump github.com/gabriel-vasile/mimetyp<br>e from 1.4.2 to 1.4.3 (#1558)  Bumps  from 1.4.2 to <br>1.4.3.  -   -     ---  updated-dependencies:  - depe<br>ndency-name: github.com/gabriel-vasile/mimetype    d<br>ependency-type: direct:production    update-type: ve<br>rsion-update:semver-patch  ...    Signed-off-by: dep<br>endabot[bot]   Co-authored-by: dependabot[bot] |
+|2023-10-12 15:45:22|[trivy](https://github.com/aquasecurity/trivy)|chore(deps): bump golang.org/x/net from 0.15.0 to 0<br>.17.0 (#5365)  Signed-off-by: dependabot[bot]  Co-au<br>thored-by: dependabot[bot] |
+|2023-10-12 15:43:19|[rustdesk](https://github.com/rustdesk/rustdesk)|Merge pull request #6005 from 21pages/remove_option<br>_enable_rdp  remove option enable rdp|
+|2023-10-12 15:10:56|[syft](https://github.com/anchore/syft)|chore(deps): bump github.com/charmbracelet/lipgloss<br> from 0.9.0 to 0.9.1 (#2222)  Bumps  from 0.9.0 to 0<br>.9.1.  -   -     ---  updated-dependencies:  - depen<br>dency-name: github.com/charmbracelet/lipgloss    dep<br>endency-type: direct:production    update-type: vers<br>ion-update:semver-patch  ...    Signed-off-by: depen<br>dabot[bot]   Co-authored-by: dependabot[bot] |
+|2023-10-12 14:51:37|[dbeaver](https://github.com/dbeaver/dbeaver)|dbeaver/pro#2003 Fix output folder path (#21512)|
+|2023-10-12 14:28:16|[dalfox](https://github.com/hahwul/dalfox)|chore: update contributors [skip ci]|
+|2023-10-12 14:12:58|[afrog](https://github.com/zan8in/afrog)|backup bug|
+|2023-10-12 12:37:05|[v2rayfree](https://github.com/aiboboxx/v2rayfree)|update|
+|2023-10-12 11:57:59|[frp](https://github.com/fatedier/frp)|update README (#3670)|
+|2023-10-12 08:54:34|[subfinder](https://github.com/projectdiscovery/subfinder)|chore(deps): bump golang.org/x/net from 0.14.0 to 0<br>.17.0 in /v2 (#1014)  Bumps  from 0.14.0 to 0.17.0. <br> -     ---  updated-dependencies:  - dependency-name<br>: golang.org/x/net    dependency-type: indirect  ...<br>    Signed-off-by: dependabot[bot]   Co-authored-by:<br> dependabot[bot] |
+|2023-10-12 05:20:17|[impacket](https://github.com/fortra/impacket)|Enhanced MSSQLShell in NTLMRelayX leveraging TcpShe<br>ll & output messages (#1617)  * * Enhanced MSSQLShel<br>l in NTLMRelayX leveraging TcpShell (as in SMB and L<br>DAP)    * * Created handle_lastError decorator appli<br>ed to every command to show errors in the correspond<br>ing SQLShell|
+|2023-10-12 03:02:38|[Scanners-Box](https://github.com/We5ter/Scanners-Box)|[+]anchore/grype|
+|2023-10-12 02:09:03|[neuvector](https://github.com/neuvector/neuvector)|Merge pull request #1056 from williamlin-suse/main <br> NVSHAS-8362: Support GCP for csp-adapter cloud bill<br>ing|
+|2023-10-12 01:51:48|[Awesome-Redteam](https://github.com/Threekiii/Awesome-Redteam)|更新README.md|
+|2023-10-12 01:51:01|[Awesome-POC](https://github.com/Threekiii/Awesome-POC)|更新漏洞|
+|2023-10-12 01:19:58|[pingtunnel](https://github.com/esrrhs/pingtunnel)|Merge pull request #59 from esrrhs/dependabot/go_mo<br>dules/golang.org/x/net-0.17.0  Bump golang.org/x/net<br> from 0.8.0 to 0.17.0|
+|2023-10-12 01:14:37|[FrameVul](https://github.com/Awrrays/FrameVul)|Update README.md|
+|2023-10-12 00:41:28|[beef](https://github.com/beefproject/beef)|Merge branch 'dependabot/bundler/rubocop-1.57.0' in<br>to dependabot-updates upddate rubocop gem|
 |2023-10-11 23:57:10|[awesome-chatgpt-z<br>h](https://github.com/yzfly/awesome-chatgpt-zh)|add virtual_girl_bot|
-|2023-10-11 23:20:00|[PocOrExp_in_Githu<br>b](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-10-12 07:20:00|
 |2023-10-11 21:48:45|[clair](https://github.com/quay/clair)|build(deps): bump golang.org/x/net from 0.15.0 to 0<br>.16.0  Bumps  from 0.15.0 to 0.16.0. -   --- updated<br>-dependencies: - dependency-name: golang.org/x/net  <br> dependency-type: direct:production   update-type: v<br>ersion-update:semver-minor ...  Signed-off-by: depen<br>dabot[bot] |
 |2023-10-11 20:59:21|[PEASS-ng](https://github.com/carlospolop/PEASS-ng)|Merge pull request #396 from RandolphConley/master <br> logo color, updated output, added -fullcheck flag|
 |2023-10-11 19:09:08|[faker](https://github.com/joke2k/faker)|Bump version: 19.9.1 → 19.10.0|
-|2023-10-11 18:01:24|[syft](https://github.com/anchore/syft)|Parse donet dependency trees (#2143)  * add depende<br>ncy information for .NET pkgs    Signed-off-by: Benj<br>i Visser     * update pkg coverage directory test   <br> Signed-off-by: Benji Visser     * reverse dependsOn<br> relationship    Signed-off-by: Benji Visser     * u<br>pdate root pkg parsing    Signed-off-by: Benji Visse<br>r     * add comments about the test relationships re<br>presented    Signed-off-by: Alex Goodman     * add d<br>ocs around relationship sorting functions + update t<br>est helpers    Signed-off-by: Alex Goodman     -----<br>----    Signed-off-by: Benji Visser   Signed-off-by:<br> Alex Goodman   Co-authored-by: Alex Goodman |
-|2023-10-11 17:51:20|[grype](https://github.com/anchore/grype)|chore(deps): bump github.com/google/go-cmp from 0.5<br>.9 to 0.6.0 (#1552)  Bumps  from 0.5.9 to 0.6.0.  - <br>  -     ---  updated-dependencies:  - dependency-nam<br>e: github.com/google/go-cmp    dependency-type: dire<br>ct:production    update-type: version-update:semver-<br>minor  ...    Signed-off-by: dependabot[bot]   Co-au<br>thored-by: dependabot[bot] |
-|2023-10-11 15:47:21|[dalfox](https://github.com/hahwul/dalfox)|Merge pull request #496 from hahwul/dependabot/go_m<br>odules/golang.org/x/sync-0.4.0  Bump golang.org/x/sy<br>nc from 0.3.0 to 0.4.0|
 |2023-10-11 15:21:13|[CTFd](https://github.com/CTFd/CTFd)|Fix issue where NULL password prevented custom fiel<br>ds from being set (#2414)|
-|2023-10-11 12:36:53|[v2rayfree](https://github.com/aiboboxx/v2rayfree)|update|
 |2023-10-11 12:23:35|[codeql-cli-binari<br>es](https://github.com/github/codeql-cli-binaries)|Update changelog for 2.15.0|
-|2023-10-11 10:16:43|[rustdesk](https://github.com/rustdesk/rustdesk)|Merge pull request #5987 from AnonymousWP/translati<br>on/dutch  fix(translation/Dutch): use formal transla<br>tion|
 |2023-10-11 10:03:51|[jar-analyzer-gui](https://github.com/4ra1n/jar-analyzer-gui)|Update README.md|
 |2023-10-11 09:28:19|[naabu](https://github.com/projectdiscovery/naabu)|Merge branch 'dev'|
-|2023-10-11 08:53:03|[frp](https://github.com/fatedier/frp)|fix legacy ini proxy conversion panic (#3667)|
 |2023-10-11 08:38:19|[safeline](https://github.com/chaitin/safeline)|fix(fe): add min page height, avoid footer cover on<br> content|
-|2023-10-11 07:38:07|[trivy](https://github.com/aquasecurity/trivy)|fix(report): add escaping quotes in misconfig Title<br> for asff template (#5351)|
 |2023-10-11 05:40:48|[vulnerability](https://github.com/lal0ne/vulnerability)|CVE-2023-22515|
-|2023-10-11 02:42:10|[afrog](https://github.com/zan8in/afrog)|update|
-|2023-10-11 00:12:40|[impacket](https://github.com/fortra/impacket)|Added CREDHIST support (#1564)  * Added CREDHIST su<br>pport  * Added fixes from suggestions|
 |2023-10-10 20:59:53|[FreeRDP](https://github.com/FreeRDP/FreeRDP)|[client,sdl] keep SDL_RWops open  the application c<br>rashes if we close the SDL_RWops after opening the f<br>ont. keep it open until the widget is destroyed|
 |2023-10-10 17:03:33|[vulhub](https://github.com/vulhub/vulhub)|Merge pull request #470 from vulhub/confluence-cve-<br>2023-22515  Added Confluence CVE-2023-22515|
-|2023-10-10 16:50:42|[dbeaver](https://github.com/dbeaver/dbeaver)|dbeaver/pro#2000 Java 17 (#21497)|
 |2023-10-10 14:11:30|[Umi-OCR](https://github.com/hiroi-sora/Umi-OCR)|update v1.3.7|
 |2023-10-10 09:30:00|[Pentest-Windows](https://github.com/arch3rPro/Pentest-Windows)|Update Version 2.2|
 |2023-10-10 09:15:15|[rengine](https://github.com/yogeshojha/rengine)|Update CHANGELOG.md|
@@ -66,17 +76,14 @@
 |2023-10-08 10:13:06|[X-Marshal](https://github.com/XTeam-Wing/X-Marshal)|Update README.md|
 |2023-10-08 07:52:08|[Vulhub-Reproduce](https://github.com/Threekiii/Vulhub-Reproduce)|更新漏洞|
 |2023-10-08 07:47:23|[Vulnerability-Wik<br>i](https://github.com/Threekiii/Vulnerability-Wiki)|commit message|
-|2023-10-08 03:45:51|[Awesome-Redteam](https://github.com/Threekiii/Awesome-Redteam)|更新README.md|
 |2023-10-08 03:20:48|[cloudTools](https://github.com/dark-kingA/cloudTools)|Update README.md|
 |2023-10-08 02:32:31|[DNSlog-GO](https://github.com/lanyi1998/DNSlog-GO)|Update README.md|
-|2023-10-08 02:15:51|[FrameVul](https://github.com/Awrrays/FrameVul)|Update README.md|
 |2023-10-07 07:22:24|[SharpShellcodeLoa<br>der_Rc4Aes](https://github.com/xf555er/SharpShellcodeLoader_Rc4Aes)|first commit|
 |2023-10-07 06:34:59|[Mobile-Security-F<br>ramework-MobSF](https://github.com/MobSF/Mobile-Security-Framework-MobSF)|[HOTFIX][EFR] Priority Bug Fixes (#2275)  * P1.1 AA<br>R Permissions not properly listed   * P1.2 Local var<br>iable table not listed in proper section  * P1.3 sta<br>tic library strings are not listed  * P1.5 Stripping<br> of dynamic and static libraries are not correctly r<br>eported  * Dependency bump  * MobSF version bump|
 |2023-10-07 03:24:25|[404StarLink](https://github.com/knownsec/404StarLink)|weekly update at 2023-10-07|
 |2023-10-06 23:47:36|[DecoyMini](https://github.com/decoymini/DecoyMini)|Update README.md|
 |2023-10-06 14:58:31|[dirsearch](https://github.com/maurosoria/dirsearch)|Merge pull request #1330 from drego85/patch-14  Add<br>ing configure.php|
 |2023-10-06 14:48:27|[iDefender](https://github.com/wecooperate/iDefender)|update|
-|2023-10-06 00:19:33|[neuvector](https://github.com/neuvector/neuvector)|Merge pull request #1051 from williamlin-suse/main <br> NVSHAS-8344: REST API DELETE /v1/response/rule does<br>n't work|
 |2023-10-05 09:15:01|[nemo_go](https://github.com/hanc00l/nemo_go)|Fix: nemo的数据库导入sql文件在key_word表里增加的字<br>段|
 |2023-10-05 01:43:17|[feroxbuster](https://github.com/epi052/feroxbuster)|nitpickery; added success msg|
 |2023-10-04 07:41:43|[Burp-Non-HTTP-Ext<br>ension](https://github.com/summitt/Burp-Non-HTTP-Extension)|Update version|
@@ -87,12 +94,9 @@
 |2023-10-02 09:39:24|[kube-bench](https://github.com/aquasecurity/kube-bench)|updates to the readme  Signed-off-by: AnaisUrlichs |
 |2023-10-02 07:30:27|[flightsim](https://github.com/alphasoc/flightsim)|Merge pull request #66 from alphasoc/mariusz/go-ins<br>tall-docs-fix  Adjust install from source command in<br> the readme. Resolves #65|
 |2023-10-01 12:50:32|[ObserverWard](https://github.com/0x727/ObserverWard)|Merge pull request #202 from 0x727/dependabot/cargo<br>/actix-web-httpauth-0.8.1  Bump actix-web-httpauth f<br>rom 0.8.0 to 0.8.1|
-|2023-09-30 17:02:12|[beef](https://github.com/beefproject/beef)|Merge branch 'master' of https://github.com/beefpro<br>ject/beef|
 |2023-09-28 13:38:02|[gshark](https://github.com/madneal/gshark)|add build for darwin arm64|
 |2023-09-28 08:24:35|[appshark](https://github.com/bytedance/appshark)|Merge pull request #53 from firmianay/dev3  fix doc|
-|2023-09-28 04:50:53|[autoDecoder](https://github.com/f0ng/autoDecoder)|Update flasktest.py|
-|2023-09-27 11:03:23|[nuclei](https://github.com/projectdiscovery/nuclei)|updated template paths in workflows docs to match c<br>urrent locations (#4197)|
-|2023-09-27 10:12:16|[arthas](https://github.com/alibaba/arthas)|Prettified Code!|## 所有项目
+|2023-09-28 04:50:53|[autoDecoder](https://github.com/f0ng/autoDecoder)|Update flasktest.py|## 所有项目
 # 渗透测试
 ## 信息收集
 ### 资产测绘采集
@@ -332,7 +336,7 @@
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
 | [veinmind-tools](https://github.com/chaitin/veinmind-tools) | v2.1.5 | veinmind-tools 是由长亭科技自研，基于 veinmind-sdk 打造的容器<br>安全工具集 |
-| [grype](https://github.com/anchore/grype) | v0.70.0 | A vulnerability scanner for container images and filesystems |
+| [grype](https://github.com/anchore/grype) | v0.71.0 | A vulnerability scanner for container images and filesystems |
 #### 容器漏洞分析工具
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
@@ -344,7 +348,7 @@
 #### 容器镜像扫描
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
-| [grype](https://github.com/anchore/grype) | v0.70.0 | A vulnerability scanner for container images and filesystems |
+| [grype](https://github.com/anchore/grype) | v0.71.0 | A vulnerability scanner for container images and filesystems |
 | [syft](https://github.com/anchore/syft) | v0.93.0 | CLI tool and library for generating a Software Bill of Materia<br>ls from container images and filesystems |
 #### K8S漏洞扫描
 | 项目名称 | 版本 | 项目描述 |
@@ -1304,7 +1308,7 @@
 | :---- | :---- | :---- |
 | [FreeRDP](https://github.com/FreeRDP/FreeRDP) | 2.11.2 | FreeRDP is a free remote desktop protocol library and clients |
 | [Quasar](https://github.com/quasar/Quasar) | v1.4.1 | Remote Administration Tool for Windows |
-| [rustdesk](https://github.com/rustdesk/rustdesk) | 1.2.2 | An open-source remote desktop, and alternative to TeamViewer. |
+| [rustdesk](https://github.com/rustdesk/rustdesk) | 1.2.3 | An open-source remote desktop, and alternative to TeamViewer. |
 ## 生成虚假数据
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
