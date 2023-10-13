@@ -432,6 +432,7 @@
             - https://github.com/WangYihang/Platypus
             - https://github.com/yzddmr6/As-Exploits
             - https://github.com/cseroad/Webshell_Generate
+            - https://github.com/pen4uin/java-memshell-generator-release
         webshell:
             - https://github.com/backlion/webshell
         后门:
