@@ -200,8 +200,8 @@
     "https://github.com/ycdxsb/PocOrExp_in_Github": {
         "created_at": "2021-04-13 05:46:16",
         "description": "聚合Github上已有的Poc或者Exp，CVE信息来自CVE官网。Auto Collect Poc Or Exp from Github by CVE ID.",
-        "commit_date": "2023-10-12 23:40:54",
-        "commit_message": "update 2023-10-13 07:40:54",
+        "commit_date": "2023-10-13 23:40:35",
+        "commit_message": "update 2023-10-14 07:40:35",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -281,8 +281,8 @@
     "https://github.com/wh1t3p1g/ysomap": {
         "created_at": "2020-02-08 12:59:32",
         "description": "A helpful Java Deserialization exploit framework.",
-        "commit_date": "2023-05-04 03:08:55",
-        "commit_message": "update",
+        "commit_date": "2023-10-13 15:34:37",
+        "commit_message": "remove unnecessary dependencies",
         "release_tag": "v0.1.3",
         "release_date": "2022-04-15 14:25:17",
         "release_message": "Update:\r\n- 新增若干payloads、bullets，目前共计 `[+] exploits(12) payloads(31) bullets(36)`\r\n- 支持设置编码器、输出方式、serialVersionUid、序列器类型，具体方法见wiki\r\n\r\nMD5 (cli/target/ysomap.jar) = d4e72def5bfd8ab1d341a6b71caf16c0\r\n\r\n感谢如下小伙伴的提交 XD\r\n[@orleven](https://github.com/orleven)、[@G0doot](https://github.com/G0doot)、[@BeichenDream](https://github.com/BeichenDream)、[@sf197](https://github.com/sf197)"
@@ -657,8 +657,8 @@
     "https://github.com/ph4ntonn/Stowaway": {
         "created_at": "2019-11-15 03:25:50",
         "description": "👻Stowaway -- Multi-hop Proxy Tool for pentesters",
-        "commit_date": "2023-07-26 15:55:47",
-        "commit_message": "Fix preauth",
+        "commit_date": "2023-10-13 02:22:13",
+        "commit_message": "Merge pull request #57 from testwill/typo\n\nfix: typo",
         "release_tag": "v2.1",
         "release_date": "2022-04-08 15:53:34",
         "release_message": "👻 v2.1 is released~ v2.1 is an upgraded version of v2.0\r\n\r\n## BE AWARE\r\n-  If you are trying to use admin on windows,plz make sure you have installed [ansicon](https://github.com/adoxa/ansicon/releases)\r\n- And if you have any problems when using command ```shell```,plz check the [shell.go](https://github.com/ph4ntonn/Stowaway/blob/master/agent/handler/shell.go) and read the annotation first!!! Maybe it can solve ur problems.\r\n\r\n## Update\r\n- 2021.10.1 \r\n    - Switch AES-CBC to AES-GCM.Thanks to @SignorMercurio \r\n    - Fix bugs. Thanks to @SignorMercurio \r\n- 2022.1.23\r\n    - Fix shell&topo bugs.Thanks to @lz520520\r\n- 2022.4.8 \r\n    - Fix data loss bug when closing a short connection.Thanks to @lz520520\r\n    - Add gzip function.Thanks to @lz520520 \r\n    - Optimize the key code\r\n    - Fix some bugs\r\n- 2022.7.19\r\n    - Fix nil pointer bug #41.Thanks to @zyylhn\r\n- 2023.7.20\r\n    - Add http proxy support"
@@ -864,11 +864,11 @@
     "https://github.com/vaycore/OneScan": {
         "created_at": "2023-02-14 01:59:45",
         "description": "OneScan是递归目录扫描的BurpSuite插件",
-        "commit_date": "2023-09-20 01:37:24",
-        "commit_message": "更新版本号为1.3.0；更新README.md说明文档",
-        "release_tag": "v1.3.0",
-        "release_date": "2023-09-20 01:41:11",
-        "release_message": "1.3.0 版本发布，版本更新内容如下\r\n\r\n### 新增\r\n\r\n- 新增 `{{subdomain}}` 子域名动态变量\r\n- 新增 `{{webroot}}` 一级目录动态变量\r\n- 导入URL对话框新增配置URL前缀功能\r\n- 新增请求重试机制\r\n\r\n### 优化\r\n\r\n- 从 `0.x` 版本升级到 `1.x` 版本时，自动备份配置文件\r\n- 移除默认请求头配置中的 `Origin` 头（可自行在配置页面添加）\r\n\r\n### 修复\r\n\r\n- 修复 `Payload Process` 中 URL 范围不正确的问题"
+        "commit_date": "2023-10-13 05:24:12",
+        "commit_message": "更新版本号为1.3.4",
+        "release_tag": "v1.3.4",
+        "release_date": "2023-10-13 18:02:15",
+        "release_message": "1.3.4 版本发布，版本更新内容如下\r\n\r\n### 优化\r\n\r\n- 优化字典组件的使用体验（可以在插件内添加、删除字典；新增去重功能）\r\n- 兼容 [HaE](https://github.com/gh0stkey/HaE) 插件 2.5 版本\r\n- 优化使用体验：数据看板新增 `Color-level` 字段，用于过滤高亮颜色显示\r\n\r\n### 修复\r\n\r\n- 修复导入URL时无法停止扫描的问题\r\n- 修复 `deleteFile` 方法无法删除目录的问题\r\n"
     },
     "https://github.com/ianxtianxt/SharpDecryptPwd": {
         "created_at": "2019-10-12 11:43:26",
@@ -999,8 +999,8 @@
     "https://github.com/LittleBear4/OA-EXPTOOL": {
         "created_at": "2022-10-13 12:31:21",
         "description": "OA综合利用工具，集合将近20款OA漏洞批量扫描",
-        "commit_date": "2023-08-23 03:01:15",
-        "commit_message": "Delete tongda-V11.10-未授权任意文件上传.yaml",
+        "commit_date": "2023-10-13 02:45:49",
+        "commit_message": "Update README.md",
         "release_tag": "0.83",
         "release_date": "2023-08-21 03:14:36",
         "release_message": ""
@@ -1017,7 +1017,7 @@
     "https://github.com/wecooperate/iDefender": {
         "created_at": "2021-11-24 11:38:28",
         "description": "iDefender（冰盾 - 终端主动防御系统）",
-        "commit_date": "2023-10-06 14:48:27",
+        "commit_date": "2023-10-13 10:21:50",
         "commit_message": "update",
         "release_tag": "2.9.0",
         "release_date": "2023-07-19 02:37:26",
@@ -2951,8 +2951,8 @@
     "https://github.com/dbeaver/dbeaver": {
         "created_at": "2015-10-21 08:26:28",
         "description": "Free universal database tool and SQL client",
-        "commit_date": "2023-10-12 14:51:37",
-        "commit_message": "dbeaver/pro#2003 Fix output folder path (#21512)",
+        "commit_date": "2023-10-13 14:56:16",
+        "commit_message": "Merge branch 'devel' of https://github.com/dbeaver/dbeaver into devel",
         "release_tag": "23.2.2",
         "release_date": "2023-10-08 16:59:05",
         "release_message": "\n                - SQL editor:\n                    - Aut-completion for complex SQL queries was improved\n                    - Reconnecting of open editors when switching between Simple and Advanced view was fixed\n                    - SQL console now can be saved as script\n                - ER diagrams:\n                    - Diagrams notations switcher was added\n                    - Connections rendering was improved\n                    - Crow’s foot notation was added\n                - Data editor:\n                    - Multiple query results now can be displayed vertically\n                    - `Go to column` (Ctrl+F) action was added\n                    - Column search was added to Metadata panel\n                    - Numeric formatting was fixed for floating point numbers\n                    - Issue with empty table after opening the Calc panel was resolved\n                    - Setting row color for the result set was fixed\n                - Data transfer: columns automating mapping is now configurable\n                - General:\n                    - `Restore defaults` on preference pages now resets to actual default preferences\n                    - Eclipse 2023-09 plugin API is now supported\n                    - Reset UI settings was fixed on macOS\n                    - App crash when running on Wayland was fixed\n                    - java.compiler and java.scripting modules were included in bundled Java\n                Databases:\n                    - Dameng database extension was added (thanks to @Stkai)\n                    - Clickhouse: array map representation was fixed\n                    - Google Spanner: table DDL generation was fixed\n                    - DB2 LUW: trigger editor was fixed\n                    - Exasol: customer group creation was fixed\n                    - Fireberd: several keywords were added\n                    - Materialized: system schemas loading was fixed\n                    - PostgreSQL:\n                        - Backup/restore native tools execution was fixed\n                        - `Europe/Kyiv` timezone support was fixed\n                    - Redshift:\n                        - Schemas loading was fixed\n                        - Spectrum tables loading was fixed (for custom driver configurations)\n            "
@@ -3050,8 +3050,8 @@
     "https://github.com/zan8in/afrog": {
         "created_at": "2022-02-24 06:00:32",
         "description": "A Security Tool for Bug Bounty, Pentest and Red Teaming.",
-        "commit_date": "2023-10-12 14:12:58",
-        "commit_message": "backup bug",
+        "commit_date": "2023-10-13 04:33:25",
+        "commit_message": "update poc",
         "release_tag": "v2.8.8",
         "release_date": "2023-09-28 09:48:42",
         "release_message": "Added the '-web' command to start a web service for viewing vulnerability reports, including current and historical records. \r\nUpdated some PoCs.\"\r\n\r\n新增 -web 命令用于启动一个 Web 服务，用于查看漏洞报告（包括当前和历史记录）\r\n更新一部分 PoCs\r\n\r\nHappy October 1st!"
@@ -3095,8 +3095,8 @@
     "https://github.com/projectdiscovery/nuclei": {
         "created_at": "2020-04-03 18:47:11",
         "description": "Fast and customizable vulnerability scanner based on simple YAML based DSL.",
-        "commit_date": "2023-09-27 11:03:23",
-        "commit_message": "updated template paths in workflows docs to match current locations (#4197)",
+        "commit_date": "2023-10-13 06:28:31",
+        "commit_message": "chore(deps): bump golang.org/x/net from 0.14.0 to 0.17.0 in /v2 (#4233)\n\nBumps [golang.org/x/net](https://github.com/golang/net) from 0.14.0 to 0.17.0.\r\n- [Commits](https://github.com/golang/net/compare/v0.14.0...v0.17.0)\r\n\r\n---\r\nupdated-dependencies:\r\n- dependency-name: golang.org/x/net\r\n  dependency-type: direct:production\r\n...\r\n\r\nSigned-off-by: dependabot[bot] <support@github.com>\r\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
         "release_tag": "v2.9.15",
         "release_date": "2023-09-16 16:01:01",
         "release_message": "<!-- Release notes generated using configuration in .github/release.yml at main -->\r\n\r\n## What's Changed\r\n\r\n### 🐞 Bug Fixes\r\n* Fixed issue with request using TE instead of CL header in certain case by @tarunKoyalwar in https://github.com/projectdiscovery/nuclei/pull/4154\r\n* Fixed issue with matcher status option for cluster template execution by @ShubhamRasal in https://github.com/projectdiscovery/nuclei/pull/4132\r\n* Fixed issue with loader for deterministic clustering by @Mzack9999 in https://github.com/projectdiscovery/nuclei/pull/4124\r\n\r\n### 🔨 Maintenance\r\n* Added GH workflow for weekly performance test by @Mzack9999 in https://github.com/projectdiscovery/nuclei/pull/3861\r\n\r\n### Other Changes\r\n* Added `port` field in network protocol by @tarunKoyalwar in https://github.com/projectdiscovery/nuclei/pull/4123\r\n* Added docker usage documentation by @kchason in https://github.com/projectdiscovery/nuclei/pull/4155\r\n* Added automated dockerhub documentation by @kchason in https://github.com/projectdiscovery/nuclei/pull/4148\r\n* Documentation typo updates by @kchason in https://github.com/projectdiscovery/nuclei/pull/4138\r\n* Custom templates documentation fixes by @kchason in https://github.com/projectdiscovery/nuclei/pull/4149\r\n\r\n**Full Changelog**: https://github.com/projectdiscovery/nuclei/compare/v2.9.14...v2.9.15"
@@ -3550,8 +3550,8 @@
     "https://github.com/bytedance/appshark": {
         "created_at": "2022-09-01 03:39:03",
         "description": "Appshark is a static taint analysis platform to scan vulnerabilities in an Android app.",
-        "commit_date": "2023-09-28 08:24:35",
-        "commit_message": "Merge pull request #53 from firmianay/dev3\n\nfix doc",
+        "commit_date": "2023-10-13 11:23:32",
+        "commit_message": "Merge pull request #54 from firmianay/dev3\n\nfix dexToJava on Mac/Windows",
         "release_tag": "v0.1.2",
         "release_date": "2022-09-22 10:03:10",
         "release_message": "fix problems running on windows."
@@ -3917,11 +3917,11 @@
     "https://github.com/chaitin/safeline": {
         "created_at": "2023-04-12 11:30:14",
         "description": "一款足够简单、足够好用、足够强的免费 WAF。基于业界领先的语义引擎检测技术，作为反向代理接入，保护你的网站不受黑客攻击。",
-        "commit_date": "2023-10-11 08:38:19",
-        "commit_message": "fix(fe): add min page height, avoid footer cover on content",
-        "release_tag": "v3.6.3",
-        "release_date": "2023-10-09 08:56:31",
-        "release_message": "### 新增\r\n\r\n- 新增申请免费证书。只要域名已经指向雷池，就可以在界面上直接申请证书了\r\n- 证书管理新增 “使用站点”，并且会自动检查站点和证书的域名是否一致\r\n\r\n### 优化\r\n\r\n- 优化站点配置证书的流程，现在所有证书都在证书管理配置，方便统一查看\r\n- 雷池控制台证书的配置移动到了 “通用配置” -> “其他” 中，更符合直觉\r\n- 修复某些情况下采集不到站点 favicon 的问题\r\n- 修复采集站点标题的时候，会把英文大写转成小写的问题\r\n- 修复站点详情中，删除文件夹的操作不会生效的问题\r\n- 修复站点详情中，资源的 今日请求 / 近 30 日请求 始终为 0 的问题\r\n"
+        "commit_date": "2023-10-13 10:00:44",
+        "commit_message": "feat: release v3.7.2",
+        "release_tag": "v3.7.2",
+        "release_date": "2023-10-13 10:20:32",
+        "release_message": "### 优化\r\n\r\n- 修复无法更新威胁情报 IP 的问题\r\n- 修复编辑人机验证配置时不回显的问题\r\n"
     },
     "https://github.com/stamparm/identYwaf": {
         "created_at": "2019-01-10 11:27:58",
@@ -3953,8 +3953,8 @@
     "https://github.com/quay/clair": {
         "created_at": "2015-11-13 18:46:16",
         "description": "Vulnerability Static Analysis for Containers",
-        "commit_date": "2023-10-11 21:48:45",
-        "commit_message": "build(deps): bump golang.org/x/net from 0.15.0 to 0.16.0\n\nBumps [golang.org/x/net](https://github.com/golang/net) from 0.15.0 to 0.16.0.\n- [Commits](https://github.com/golang/net/compare/v0.15.0...v0.16.0)\n\n---\nupdated-dependencies:\n- dependency-name: golang.org/x/net\n  dependency-type: direct:production\n  update-type: version-update:semver-minor\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>",
+        "commit_date": "2023-10-13 14:53:22",
+        "commit_message": "chore: update claircore to v1.5.20\n\nUpdate claircore to latest release.\n\nSigned-off-by: Claircore-CI <crozzy@users.noreply.github.com>",
         "release_tag": "v4.7.2",
         "release_date": "2023-10-09 20:27:15",
         "release_message": "<a name=\"unreleased\"></a>\r\n## [Unreleased]\r\n\r\n\r\n<a name=\"v4.7.2\"></a>\r\n## [v4.7.2] - 2023-10-09\r\n### Claircore\r\n- [chore: update claircore to v1.5.19](https://github.com/quay/clair/commit/9a3cde3b16bb0c0e02fb7e128ff86e255ec6112f)\r\n- crda: remove crda support\r\n  <details>\r\n  The CRDA API has been decommissioned and the functionality has been\r\n  superseded by OSV support.\r\n  </details>\r\n- chore: update toolkit to latest version v1.1.1\r\n  <details>\r\n  v1.5.17 (toolkit/v1.1.0) introduced a bug where claircore\r\n  could not handle empty strings when trying to Scan() a value\r\n  into a cpe.WFN. toolkit/v1.1.1 mitigates this bug.\r\n  </details>\r\n\r\n### Clair\r\n- [admin: add pre v4.7.3 admin command to create index](https://github.com/quay/clair/commit/5a825a07191e62f3214700df519202806a39d6c9)\r\n  <details>\r\n  In order to facilitate faster deletes we need to add a migration to\r\n  add an index in v4.7.3. This change adds an admin command to allow\r\n  users to \"manually\" create the index CONCURRENTLY before the migration\r\n  to avoid any down-time. This is something for users with larger\r\n  indexer DBs to consider.\r\n  </details>\r\n\r\n- [contrib: add grafana dashboards for deletion metrics](https://github.com/quay/clair/commit/04f36991e19cfb44423cbb2e96ccfcd786dd85c5)\r\n  <details>\r\n  This has been a part of the API for some time and is starting to be\r\n  used extensively.\r\n  </details>\r\n\r\n- [docs: add dropins to prose documentation](https://github.com/quay/clair/commit/8a2d99f4da70de6bdf14858c6163a2e3b8042782)\r\n  <details>\r\n  This change explains how to use the dropins and updates the local-dev\r\n  config to do so.\r\n  </details>\r\n\r\n[Unreleased]: https://github.com/quay/clair/compare/v4.7.2...HEAD\r\n[v4.7.2]: https://github.com/quay/clair/compare/v4.7.1...v4.7.2\r\n"
@@ -3971,8 +3971,8 @@
     "https://github.com/aquasecurity/trivy": {
         "created_at": "2019-04-11 01:01:07",
         "description": "Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more",
-        "commit_date": "2023-10-12 15:45:22",
-        "commit_message": "chore(deps): bump golang.org/x/net from 0.15.0 to 0.17.0 (#5365)\n\nSigned-off-by: dependabot[bot] <support@github.com>\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
+        "commit_date": "2023-10-13 09:00:28",
+        "commit_message": "docs: add kbom documentation (#5363)",
         "release_tag": "v0.45.1",
         "release_date": "2023-09-16 07:29:33",
         "release_message": "## Changelog\n* daae88287 fix(purl): handle rust types (#5186)\n* 81240cf08 chore: auto-close issues (#5177)\n* bd0accd8a chore(deps): bump github.com/spf13/viper from 1.15.0 to 1.16.0 (#5093)\n* ecee79403 fix(k8s): kbom support addons labels (#5178)\n* 9ebc25d88 test: validate SPDX with the JSON schema (#5124)\n* 9a49a3773 chore: bump trivy-kubernetes-latest (#5161)\n* ad1dc6327 docs: add 'Signature Verification' guide (#4731)\n* 7c68d4a7e docs: add image-scanner-with-trivy for ecosystem (#5159)\n* ed49609a7 fix(fs): assign the absolute path to be inspected to ROOTPATH when filesystem (#5158)\n* 19539722e chore(deps): bump github.com/CycloneDX/cyclonedx-go (#5102)\n* c7516011b Update filtering.md (#5131)\n* ccc6d7cb2 chore(deps): bump sigstore/cosign-installer (#5104)\n* 48cbf4553 chore(deps): bump github.com/cyphar/filepath-securejoin (#5143)\n* a9c2c74c5 chore(deps): bump golangci/golangci-lint-action from 3.6.0 to 3.7.0 (#5103)\n* 120ac68b5 chore(deps): bump easimon/maximize-build-space from 7 to 8 (#5105)\n* 41eaa78ae chore(deps): bump github.com/aws/aws-sdk-go from 1.44.273 to 1.45.3 (#5126)\n* 932f92755 chaging adopters discussion tempalte (#5091)\n* db3133346 chore(deps): bump github.com/cheggaaa/pb/v3 from 3.1.2 to 3.1.4 (#5092)\n* 8c0b7d619 chore(deps): bump github.com/hashicorp/golang-lru/v2 from 2.0.2 to 2.0.6 (#5094)\n* c61c664c3 chore(deps): bump github.com/aws/aws-sdk-go-v2/config (#5095)\n* a99944c1c chore(deps): bump github.com/containerd/containerd from 1.7.3 to 1.7.5 (#5097)\n* 9fc844ecf chore(deps): bump github.com/Azure/azure-sdk-for-go/sdk/azidentity (#5098)\n* c504f8be4 chore(deps): bump actions/checkout from 3.5.3 to 3.6.0 (#5106)\n\n"
@@ -4277,7 +4277,7 @@
     "https://github.com/aiboboxx/v2rayfree": {
         "created_at": "2021-10-13 11:34:53",
         "description": "v2ray节点、免费节点、免费v2ray节点、最新公益免费v2ray节点订阅地址、免费v2ray节点每日更新、免费ss/v2ray/trojan节点、freefq ",
-        "commit_date": "2023-10-12 12:37:05",
+        "commit_date": "2023-10-13 12:36:46",
         "commit_message": "update",
         "release_tag": "",
         "release_date": "",
@@ -4322,8 +4322,8 @@
     "https://github.com/freefq/free": {
         "created_at": "2020-06-07 02:48:33",
         "description": "翻墙、免费翻墙、免费科学上网、免费节点、免费梯子、免费ss/v2ray/trojan节点、蓝灯、谷歌商店、翻墙梯子",
-        "commit_date": "2023-10-13 00:00:03",
-        "commit_message": "updated_at 10-13 08:00",
+        "commit_date": "2023-10-14 00:00:02",
+        "commit_message": "updated_at 10-14 08:00",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -4781,8 +4781,8 @@
     "https://github.com/zaivanza/all-in-one-v2": {
         "created_at": "2023-04-29 09:03:49",
         "description": "",
-        "commit_date": "2023-10-09 04:49:58",
-        "commit_message": "change is_private_key",
+        "commit_date": "2023-10-13 14:20:01",
+        "commit_message": "fix decimals",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -4817,11 +4817,11 @@
     "https://github.com/0x727/ObserverWard": {
         "created_at": "2021-08-21 10:11:41",
         "description": "Cross platform community web fingerprint identification tool",
-        "commit_date": "2023-10-01 12:50:32",
-        "commit_message": "Merge pull request #202 from 0x727/dependabot/cargo/actix-web-httpauth-0.8.1\n\nBump actix-web-httpauth from 0.8.0 to 0.8.1",
-        "release_tag": "v2023.9.18",
-        "release_date": "2023-09-18 12:54:21",
-        "release_message": "## [2023.9.18] - 2023.9.18\n\n### Fixes\n\n- 修复charset没覆盖的情况，感谢@zema1"
+        "commit_date": "2023-10-13 04:12:01",
+        "commit_message": "麒麟aarch64",
+        "release_tag": "v2023.10.13",
+        "release_date": "2023-10-13 04:13:14",
+        "release_message": ""
     },
     "https://github.com/SuperZero/CVE-2023-33246": {
         "created_at": "2023-06-01 06:27:09",
@@ -5004,11 +5004,11 @@
     "https://github.com/rustdesk/rustdesk": {
         "created_at": "2020-09-28 15:36:08",
         "description": "An open-source remote desktop, and alternative to TeamViewer.",
-        "commit_date": "2023-10-12 15:43:19",
-        "commit_message": "Merge pull request #6005 from 21pages/remove_option_enable_rdp\n\nremove option enable rdp",
-        "release_tag": "1.2.3",
-        "release_date": "2023-10-11 09:47:02",
-        "release_message": " ![image](https://github.com/rustdesk/rustdesk/assets/71636191/83754a64-31b8-47f0-8570-da22207759a9)\r\n\r\n > Winget, FDroid update will come soon.\r\n\r\n x86-64: [Windows](https://github.com/rustdesk/rustdesk/releases/download/1.2.3/rustdesk-1.2.3-x86_64.exe) | [Ubuntu](https://github.com/rustdesk/rustdesk/releases/download/1.2.3/rustdesk-1.2.3-x86_64.deb) | [Mac](https://github.com/rustdesk/rustdesk/releases/download/1.2.3/rustdesk-1.2.3-x86_64.dmg)\r\n AArch64 (ARM64):  [Ubuntu](https://github.com/rustdesk/rustdesk/releases/download/1.2.3/rustdesk-1.2.3-aarch64.deb) | [Android](https://github.com/rustdesk/rustdesk/releases/download/1.2.3/rustdesk-1.2.3-aarch64-signed.apk) | [Mac](https://github.com/rustdesk/rustdesk/releases/download/1.2.3/rustdesk-1.2.3-aarch64.dmg)\r\n\r\n More: [check below please](#)\r\n\r\n <details>\r\n <summary>Changelog</summary>\r\n\r\n- Improve Wayland support, cursor/clipboard/multi-monitors etc, but highly depends on Xwayland, working well on GNOME, bad compatibility on KDE. We will continue working on Wayland\r\n- Add group tab\r\n- Add software update check based on github latest tag\r\n- Some fixes for Kaspersky compliance, https://github.com/rustdesk/rustdesk/discussions/5624, but they requested more\r\n- A lot of fixes since 1.2.2\r\n- We are still working hard on dual-monitors-dual-windows and new hardware codecs, hopefully be in 1.2.4\r\n\r\n </details>"
+        "commit_date": "2023-10-13 09:58:32",
+        "commit_message": "Merge pull request #6024 from Mr-Update/patch-8\n\nUpdate de.rs",
+        "release_tag": "1.2.2",
+        "release_date": "2023-08-22 01:44:36",
+        "release_message": "![image](https://github.com/rustdesk/rustdesk/assets/71636191/83754a64-31b8-47f0-8570-da22207759a9)\r\n\r\n> Winget, FDroid, Apple Sillicon, Google Play / App Store update will come soon.\r\n\r\nx86-64: [Windows](https://github.com/rustdesk/rustdesk/releases/download/1.2.2/rustdesk-1.2.2-x86_64.exe) | [Ubuntu](https://github.com/rustdesk/rustdesk/releases/download/1.2.2/rustdesk-1.2.2-x86_64.deb) | [Mac](https://github.com/rustdesk/rustdesk/releases/download/1.2.2/rustdesk-1.2.2-x86_64.dmg)\r\nAArch64 (ARM64):  [Ubuntu](https://github.com/rustdesk/rustdesk/releases/download/1.2.2/rustdesk-1.2.2-aarch64.deb) | [Android](https://github.com/rustdesk/rustdesk/releases/download/1.2.2/rustdesk-1.2.2-aarch64-signed.apk) | [Mac](https://github.com/rustdesk/rustdesk/releases/download/1.2.2/rustdesk-1.2.2-aarch64.dmg)\r\n\r\nMore: [check below please](#)\r\n\r\n<details>\r\n<summary>Changelog</summary>\r\n\r\n- Add separate window mode (tab window by default), https://github.com/rustdesk/rustdesk/discussions/2889\r\n![image](https://github.com/rustdesk/rustdesk/assets/71636191/0c73bc6a-8659-4a67-9425-47625a6aded3)\r\n- Fix and improve responsiveness issue introduced in 1.2.0. https://github.com/rustdesk/rustdesk/discussions/5231\r\n- Add device list batch handle\r\n![image](https://github.com/rustdesk/rustdesk/assets/71636191/0ca85b8e-bed3-48ad-a43f-82df983986f3)\r\n- Add command to assign user and strategy for [RustDesk Server Pro](https://rustdesk.com/docs/en/self-host/pro/)\r\n- Optimize address book, syncing password, alias name, device name etc, add tag color, improve error and update status handling\r\n![image](https://github.com/rustdesk/rustdesk/assets/71636191/21d7a226-b863-4dc2-a9d3-fb6cd3a56c5c)\r\n- Fix windows file copy/paste\r\n- Fix \"waiting for image...\" still shown after receiving image bug, refactored rust->flutter message handling https://github.com/rustdesk/rustdesk/issues/4533\r\n- Improve some touchpad support, https://github.com/rustdesk/rustdesk/pull/5049\r\n- Bug fixes.\r\n\r\n</details>\r\n"
     },
     "https://github.com/chenjj/CORScanner": {
         "created_at": "2018-05-06 05:57:09",
@@ -5148,8 +5148,8 @@
     "https://github.com/FreeRDP/FreeRDP": {
         "created_at": "2011-06-30 19:14:15",
         "description": "FreeRDP is a free remote desktop protocol library and clients",
-        "commit_date": "2023-10-10 20:59:53",
-        "commit_message": "[client,sdl] keep SDL_RWops open\n\nthe application crashes if we close the SDL_RWops after opening the\nfont. keep it open until the widget is destroyed",
+        "commit_date": "2023-10-13 14:06:18",
+        "commit_message": "[client,sdl] Fix primary monitor logic in multimon",
         "release_tag": "2.11.2",
         "release_date": "2023-09-20 08:12:02",
         "release_message": "Notworthy changes:\r\n* Backported #9378: backported wArrayList (optional) copy on insert\r\n* Backported #9360: backported certificate algorithm detection\r\n\r\n[freerdp-2.11.2.zip](https://github.com/FreeRDP/FreeRDP/files/12670556/freerdp-2.11.2.zip)\r\n[freerdp-2.11.2.tar.gz](https://github.com/FreeRDP/FreeRDP/files/12670558/freerdp-2.11.2.tar.gz)\r\n"
@@ -6270,5 +6270,14 @@
         "release_tag": "",
         "release_date": "",
         "release_message": ""
+    },
+    "https://github.com/pen4uin/java-memshell-generator-release": {
+        "created_at": "2023-06-03 19:49:29",
+        "description": "一款支持高度自定义的 Java 内存马生成工具",
+        "commit_date": "2023-09-29 04:29:30",
+        "commit_message": "Update README.md",
+        "release_tag": "v1.0.7.beta2",
+        "release_date": "2023-09-30 17:45:15",
+        "release_message": "### 更新日志\r\n1. 新增对代理工具「Neo-reGeorg」 的支持，提供 Listener/Filter/Interceptor 类型内存马的注入 [#10]\r\n2. 新增对自定义服务端的支持 [#8]\r\n3. 修复 BCEL 格式注入失败的问题 [#7]\r\n4. 其他优化\r\n\r\n"
     }
 }
