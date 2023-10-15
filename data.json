@@ -47,8 +47,8 @@
     "https://github.com/wpscanteam/wpscan": {
         "created_at": "2012-07-11 20:27:47",
         "description": "WPScan WordPress security scanner. Written for security professionals and blog maintainers to test the security of their WordPress websites. Contact us via contact@wpscan.com",
-        "commit_date": "2023-10-12 20:29:52",
-        "commit_message": "Merge pull request #1711 from devidw/patch-1\n\nREADME: Inline to code block for macOS download",
+        "commit_date": "2023-10-14 02:21:50",
+        "commit_message": "Merge pull request #1787 from 0n1shi/fix/db-exports-not-detected\n\nFixed #1759",
         "release_tag": "v3.8.25",
         "release_date": "2023-09-29 12:22:42",
         "release_message": "## What's Changed\r\n* Bump actions/checkout from 3 to 4 by @dependabot in https://github.com/wpscanteam/wpscan/pull/1798\r\n* Update webmock requirement from ~> 3.18.1 to ~> 3.19.1 by @dependabot in https://github.com/wpscanteam/wpscan/pull/1797\r\n* Bump docker/login-action from 2.1.0 to 2.2.0 by @dependabot in https://github.com/wpscanteam/wpscan/pull/1785\r\n\r\n\r\n**Full Changelog**: https://github.com/wpscanteam/wpscan/compare/v3.8.24...v3.8.25"
@@ -65,8 +65,8 @@
     "https://github.com/pppscn/SmsForwarder": {
         "created_at": "2021-02-10 02:23:07",
         "description": "短信转发器——监控Android手机短信、来电、APP通知，并根据指定规则转发到其他手机：钉钉群自定义机器人、钉钉企业内机器人、企业微信群机器人、飞书机器人、企业微信应用消息、邮箱、bark、webhook、Telegram机器人、Server酱、PushPlus、手机短信等。包括主动控制服务端与客户端，让你轻松远程发短信、查短信、查通话、查话簿、查电量等。（V3.0 新增）PS.这个APK主要是学习与自用，如有BUG请提ISSUE，同时欢迎大家提PR指正",
-        "commit_date": "2023-10-10 08:38:46",
-        "commit_message": "优化：增加企业专有钉钉的支持 #348 （填写`Webhook`全地址）",
+        "commit_date": "2023-10-14 06:46:26",
+        "commit_message": "优化：`Webhook`通道新增成功应答关键字（置空则http状态200即为成功） #346",
         "release_tag": "v3.2.0",
         "release_date": "2023-02-14 09:25:00",
         "release_message": "PS. 距离上一次1024发版，已经过去快5个月了，期间发生不少事，一直没更新这个项目，不管如何，魔幻的2022年都过去了！\r\n\r\n感谢大家这2年来的陪伴与支持，祝大家有情人终成眷属，情人节快乐！\r\n\r\n---\r\n\r\n### 【注意】\r\n\r\n* v3.x版本是全新重构开发，可能一开始并不稳定，建议升级前先做好数据备份！（客户端>一键换新机>离线模式>导出）\r\n\r\n* `v3.2.0` 去除了 `mmkv` 依赖，采用 `SharedPreferences` 来保存配置，升级之后通用设置中的配置请重新配置，具体原因参见 [Issue #245](https://github.com/pppscn/SmsForwarder/issues/245)\r\n\r\n* 升级完毕后，建议离线导出配置，完全卸载干净全新安装后再导入配置（可以避免一些莫名其妙的玄学问题，例如：耗电异常）\r\n\r\n---\r\n\r\n### 更新日志\r\n\r\n* 新增：短信指令（根据短信指令开关对应功能） #I5YX3F\r\n* 新增：监听网络状态变化提醒（APP通知转发，包名：77777777） #259\r\n* 新增：远程改话簿（方便给老人家添加联系人） #256\r\n* 新增：远程查询手机定位（方便找回手机/防止老少走丢） #256\r\n* 新增：Socket发送通道（支持MQTT/TCP/UDP协议） #252\r\n* 新增：发送通道 URL Scheme（支持跨应用数据传递）#250\r\n* 新增：自动消除额外APP通知 #232 #248\r\n\r\n* 优化：短信/通话转发获取卡槽信息机制（自行备注卡槽SubId对应）#228 #235\r\n* 优化：来电转发逻辑 & 新增提醒类型（1.来电挂机 2.去电挂机 3.未接来电 4.来电提醒 5.来电接通 6.去电拨出）\r\n* 优化：单个转发规则支持绑定多个发送通道，且支持执行逻辑（全部执行/失败即止/成功即止） #247\r\n* 优化：转发日志列表以原始信息为主，聚合展示转发日志（一对多）\r\n* 优化：已安装App信息列表异步加载机制\r\n* 优化：电池状态监听/网络状态监控 在未开启去重时默认开启1秒去重\r\n* 优化：利用BatteryReceiver守护自启动的Frpc (试验) #254\r\n\r\n* 修复：Android 13 无法授予通知权限 #255\r\n* 修复：重启手机自动启动APP时加载配置失败 #233 #245\r\n* 修复：转发消息遍历发送通道时未跳过已禁用的通道\r\n* 修复：降级Android Gradle插件版本以兼容4.4 (#249 by NyaMisty)\r\n\r\n* 升级：andserver到2.1.12（加快web端上下行速度等）\r\n* 升级：frpclib 到 v0.47.0\r\n* 升级：androidx组件和kotlin版本\r\n\r\n还有一些细微调整参见`github`提交记录\r\n\r\n---\r\n\r\n### APK版本说明：\r\n* universal（10XXXX）: 通用版（不在乎安装包大小/懒得选就用这个版本，包含以下4种CPU架构so）\r\n* armeabi-v7a（20XXXX）: 32位ARM设备（备用机首选）\r\n* arm64-v8a（30XXXX）: 64位ARM设备（主流旗舰机）\r\n* x86（40XXXX）: 32位Intel设备\r\n* x86_64（50XXXX）: 64/32位Intel设备"
@@ -200,8 +200,8 @@
     "https://github.com/ycdxsb/PocOrExp_in_Github": {
         "created_at": "2021-04-13 05:46:16",
         "description": "聚合Github上已有的Poc或者Exp，CVE信息来自CVE官网。Auto Collect Poc Or Exp from Github by CVE ID.",
-        "commit_date": "2023-10-13 23:40:35",
-        "commit_message": "update 2023-10-14 07:40:35",
+        "commit_date": "2023-10-14 23:47:03",
+        "commit_message": "update 2023-10-15 07:47:03",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -281,8 +281,8 @@
     "https://github.com/wh1t3p1g/ysomap": {
         "created_at": "2020-02-08 12:59:32",
         "description": "A helpful Java Deserialization exploit framework.",
-        "commit_date": "2023-10-13 15:34:37",
-        "commit_message": "remove unnecessary dependencies",
+        "commit_date": "2023-10-14 16:18:47",
+        "commit_message": "add dump function",
         "release_tag": "v0.1.3",
         "release_date": "2022-04-15 14:25:17",
         "release_message": "Update:\r\n- 新增若干payloads、bullets，目前共计 `[+] exploits(12) payloads(31) bullets(36)`\r\n- 支持设置编码器、输出方式、serialVersionUid、序列器类型，具体方法见wiki\r\n\r\nMD5 (cli/target/ysomap.jar) = d4e72def5bfd8ab1d341a6b71caf16c0\r\n\r\n感谢如下小伙伴的提交 XD\r\n[@orleven](https://github.com/orleven)、[@G0doot](https://github.com/G0doot)、[@BeichenDream](https://github.com/BeichenDream)、[@sf197](https://github.com/sf197)"
@@ -3050,7 +3050,7 @@
     "https://github.com/zan8in/afrog": {
         "created_at": "2022-02-24 06:00:32",
         "description": "A Security Tool for Bug Bounty, Pentest and Red Teaming.",
-        "commit_date": "2023-10-13 04:33:25",
+        "commit_date": "2023-10-14 15:08:07",
         "commit_message": "update poc",
         "release_tag": "v2.8.8",
         "release_date": "2023-09-28 09:48:42",
@@ -3971,11 +3971,11 @@
     "https://github.com/aquasecurity/trivy": {
         "created_at": "2019-04-11 01:01:07",
         "description": "Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more",
-        "commit_date": "2023-10-13 09:00:28",
-        "commit_message": "docs: add kbom documentation (#5363)",
-        "release_tag": "v0.45.1",
-        "release_date": "2023-09-16 07:29:33",
-        "release_message": "## Changelog\n* daae88287 fix(purl): handle rust types (#5186)\n* 81240cf08 chore: auto-close issues (#5177)\n* bd0accd8a chore(deps): bump github.com/spf13/viper from 1.15.0 to 1.16.0 (#5093)\n* ecee79403 fix(k8s): kbom support addons labels (#5178)\n* 9ebc25d88 test: validate SPDX with the JSON schema (#5124)\n* 9a49a3773 chore: bump trivy-kubernetes-latest (#5161)\n* ad1dc6327 docs: add 'Signature Verification' guide (#4731)\n* 7c68d4a7e docs: add image-scanner-with-trivy for ecosystem (#5159)\n* ed49609a7 fix(fs): assign the absolute path to be inspected to ROOTPATH when filesystem (#5158)\n* 19539722e chore(deps): bump github.com/CycloneDX/cyclonedx-go (#5102)\n* c7516011b Update filtering.md (#5131)\n* ccc6d7cb2 chore(deps): bump sigstore/cosign-installer (#5104)\n* 48cbf4553 chore(deps): bump github.com/cyphar/filepath-securejoin (#5143)\n* a9c2c74c5 chore(deps): bump golangci/golangci-lint-action from 3.6.0 to 3.7.0 (#5103)\n* 120ac68b5 chore(deps): bump easimon/maximize-build-space from 7 to 8 (#5105)\n* 41eaa78ae chore(deps): bump github.com/aws/aws-sdk-go from 1.44.273 to 1.45.3 (#5126)\n* 932f92755 chaging adopters discussion tempalte (#5091)\n* db3133346 chore(deps): bump github.com/cheggaaa/pb/v3 from 3.1.2 to 3.1.4 (#5092)\n* 8c0b7d619 chore(deps): bump github.com/hashicorp/golang-lru/v2 from 2.0.2 to 2.0.6 (#5094)\n* c61c664c3 chore(deps): bump github.com/aws/aws-sdk-go-v2/config (#5095)\n* a99944c1c chore(deps): bump github.com/containerd/containerd from 1.7.3 to 1.7.5 (#5097)\n* 9fc844ecf chore(deps): bump github.com/Azure/azure-sdk-for-go/sdk/azidentity (#5098)\n* c504f8be4 chore(deps): bump actions/checkout from 3.5.3 to 3.6.0 (#5106)\n\n"
+        "commit_date": "2023-10-14 12:32:55",
+        "commit_message": "feat(k8s): add support for vulnerability detection (#5268)\n\nSigned-off-by: knqyf263 <knqyf263@gmail.com>\nSigned-off-by: chenk <hen.keinan@gmail.com>\nCo-authored-by: DmitriyLewen <dmitriy.lewen@smartforce.io>\nCo-authored-by: chenk <hen.keinan@gmail.com>",
+        "release_tag": "v0.46.0",
+        "release_date": "2023-10-14 15:14:05",
+        "release_message": "## Changelog\n* cbbd1ce1f feat(k8s): add support for vulnerability detection (#5268)\n* 24a0d9214 fix(python): override BOM in `requirements.txt` files (#5375)\n* 0c3e2f08b docs: add kbom documentation (#5363)\n* 6c12f0428 test: use maximize build space for VM tests (#5362)\n* c4134224a chore(deps): bump golang.org/x/net from 0.15.0 to 0.17.0 (#5365)\n* 20ab7033b fix(report): add escaping quotes in misconfig Title for asff template (#5351)\n* 91841f59b ci: add workflow to check Go versions of dependencies (#5340)\n* 57ba05c76 chore(deps): Upgrade defsec to v0.93.1 (#5348)\n* fef3ed435 chore(deps): bump alpine from 3.18.3 to 3.18.4 (#5300)\n* ced54aced fix: Report error when os.CreateTemp fails (to be consistent with other uses) (#5342)\n* 2798df916 fix: add config files to FS for post-analyzers (#5333)\n* af485b33f fix: fix MIME warnings after updating to Go 1.20 (#5336)\n* 008babfb8 build: fix a compile error with Go 1.21 (#5339)\n* 00d9c4666 feat: added `Metadata` into the k8s resource's scan report (#5322)\n* 03b6787c4 ci: check only PR's in `actions/stale` (#5337)\n* e6d5889ed chore: update adopters template (#5330)\n* 74dbd8a1f ci: do not trigger tests on the push event (#5313)\n* 393bfdc1a fix(sbom): use PURL or Group and Name in case of Java  (#5154)\n* 76eb8a57b docs: add buildkite repository to ecosystem page (#5316)\n* 6c74ee11f chore(deps): bump docker/setup-qemu-action from 2 to 3 (#5290)\n* 6119878de chore(deps): bump docker/setup-buildx-action from 2 to 3 (#5292)\n* a346587b8 chore(deps): bump actions/cache from 3.3.1 to 3.3.2 (#5293)\n* 7e613cc5f chore(deps): bump github.com/google/uuid from 1.3.0 to 1.3.1 (#5286)\n* f05bc4be4 chore(deps): bump github.com/hashicorp/go-getter from 1.7.1 to 1.7.2 (#5289)\n* 3be5e6b24 chore: enable go-critic (#5302)\n* f6cd21c87 chore(deps): bump actions/checkout from 3.6.0 to 4.1.0 (#5288)\n* f7b975187 chore(deps): bump github.com/aws/aws-sdk-go from 1.45.3 to 1.45.19 (#5287)\n* 18d168769 close java-db client (#5273)\n* eb60e9f3c chore(deps): bump docker/login-action from 2 to 3 (#5291)\n* 5a92055e1 chore(deps): bump github.com/aws/aws-sdk-go-v2/service/sts (#5294)\n* 46afe65ee chore(deps): bump github.com/sigstore/rekor from 1.2.1 to 1.3.0 (#5304)\n* 0bf2a11a2 chore(deps): bump github.com/opencontainers/image-spec (#5295)\n* 23b5fece0 fix(report): removes git::http from uri in sarif (#5244)\n* 4f1d576e5 Improve the meaning of  sentence (#5301)\n* 6ab2bdfa7 chore(deps): bump github.com/owenrumney/go-sarif/v2 from 2.2.0 to 2.2.2 (#5297)\n* 4217cffb5 chore(deps): bump golang.org/x/term from 0.11.0 to 0.12.0 (#5296)\n* 184058470 add app nil check (#5274)\n* c5ae9f265 typo: in secret.md (#5281)\n* 562723f0a docs: add info about `github` format (#5265)\n* 3dd5b1e94 feat(dotnet): add license support for NuGet (#5217)\n* 5c18475f3 docs: correctly export variables (#5260)\n* 0c08dde01 chore: Add line numbers for lint output (#5247)\n* 0ccbb4f7f chore(cli): disable java-db flags in server mode (#5263)\n* 908a4914c feat(db): allow passing registry options (#5226)\n* 5b4652d79 chore(deps): Bump up defsec to v0.93.0 (#5253)\n* faf8d49c4 refactor(purl): use TypeApk from purl (#5232)\n* 559c0f30b chore: enable more linters (#5228)\n* 2baad4618 ci: bump GoReleaser from 1.16.2 to 1.20.0 (#5236)\n* df2bff9f5 Fix typo on ide.md (#5239)\n* 44656f285 refactor: use defined types (#5225)\n* 37af52994 fix(purl): skip local Go packages (#5190)\n* eea3320d8 docs: update info about license scanning in Yarn projects (#5207)\n* 2e6662060 ci: auto apply labels (#5200)\n* 49680dc88 fix link (#5203)\n\n"
     },
     "https://github.com/anchore/grype": {
         "created_at": "2020-05-26 13:44:38",
@@ -4277,7 +4277,7 @@
     "https://github.com/aiboboxx/v2rayfree": {
         "created_at": "2021-10-13 11:34:53",
         "description": "v2ray节点、免费节点、免费v2ray节点、最新公益免费v2ray节点订阅地址、免费v2ray节点每日更新、免费ss/v2ray/trojan节点、freefq ",
-        "commit_date": "2023-10-13 12:36:46",
+        "commit_date": "2023-10-14 12:32:53",
         "commit_message": "update",
         "release_tag": "",
         "release_date": "",
@@ -4322,8 +4322,8 @@
     "https://github.com/freefq/free": {
         "created_at": "2020-06-07 02:48:33",
         "description": "翻墙、免费翻墙、免费科学上网、免费节点、免费梯子、免费ss/v2ray/trojan节点、蓝灯、谷歌商店、翻墙梯子",
-        "commit_date": "2023-10-14 00:00:02",
-        "commit_message": "updated_at 10-14 08:00",
+        "commit_date": "2023-10-15 00:00:01",
+        "commit_message": "updated_at 10-15 08:00",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -4600,9 +4600,9 @@
     },
     "https://github.com/rockbenben/ChatGPT-Shortcut": {
         "created_at": "2023-02-24 12:53:49",
-        "description": "🚀💪Maximize your efficiency and productivity, support for English,中文,Español,العربية. 让生产力加倍的ChatGPT快捷指令，无需熟悉提示词，就能轻松搜索、优化和管理Prompts，适应多语言及各种生产效率场景。",
-        "commit_date": "2023-10-04 02:06:29",
-        "commit_message": "chore: upgrade dependencies",
+        "description": "🚀💪Maximize your efficiency and productivity, support for English,中文,Español,العربية. 让生产力加倍的AI快捷指令。更有效地定制、保存和分享自己的提示词。在提示词分享社区中，轻松找到适用于不同场景的指令。",
+        "commit_date": "2023-10-14 22:52:33",
+        "commit_message": "docs: update docs",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -5004,11 +5004,11 @@
     "https://github.com/rustdesk/rustdesk": {
         "created_at": "2020-09-28 15:36:08",
         "description": "An open-source remote desktop, and alternative to TeamViewer.",
-        "commit_date": "2023-10-13 09:58:32",
-        "commit_message": "Merge pull request #6024 from Mr-Update/patch-8\n\nUpdate de.rs",
-        "release_tag": "1.2.2",
-        "release_date": "2023-08-22 01:44:36",
-        "release_message": "![image](https://github.com/rustdesk/rustdesk/assets/71636191/83754a64-31b8-47f0-8570-da22207759a9)\r\n\r\n> Winget, FDroid, Apple Sillicon, Google Play / App Store update will come soon.\r\n\r\nx86-64: [Windows](https://github.com/rustdesk/rustdesk/releases/download/1.2.2/rustdesk-1.2.2-x86_64.exe) | [Ubuntu](https://github.com/rustdesk/rustdesk/releases/download/1.2.2/rustdesk-1.2.2-x86_64.deb) | [Mac](https://github.com/rustdesk/rustdesk/releases/download/1.2.2/rustdesk-1.2.2-x86_64.dmg)\r\nAArch64 (ARM64):  [Ubuntu](https://github.com/rustdesk/rustdesk/releases/download/1.2.2/rustdesk-1.2.2-aarch64.deb) | [Android](https://github.com/rustdesk/rustdesk/releases/download/1.2.2/rustdesk-1.2.2-aarch64-signed.apk) | [Mac](https://github.com/rustdesk/rustdesk/releases/download/1.2.2/rustdesk-1.2.2-aarch64.dmg)\r\n\r\nMore: [check below please](#)\r\n\r\n<details>\r\n<summary>Changelog</summary>\r\n\r\n- Add separate window mode (tab window by default), https://github.com/rustdesk/rustdesk/discussions/2889\r\n![image](https://github.com/rustdesk/rustdesk/assets/71636191/0c73bc6a-8659-4a67-9425-47625a6aded3)\r\n- Fix and improve responsiveness issue introduced in 1.2.0. https://github.com/rustdesk/rustdesk/discussions/5231\r\n- Add device list batch handle\r\n![image](https://github.com/rustdesk/rustdesk/assets/71636191/0ca85b8e-bed3-48ad-a43f-82df983986f3)\r\n- Add command to assign user and strategy for [RustDesk Server Pro](https://rustdesk.com/docs/en/self-host/pro/)\r\n- Optimize address book, syncing password, alias name, device name etc, add tag color, improve error and update status handling\r\n![image](https://github.com/rustdesk/rustdesk/assets/71636191/21d7a226-b863-4dc2-a9d3-fb6cd3a56c5c)\r\n- Fix windows file copy/paste\r\n- Fix \"waiting for image...\" still shown after receiving image bug, refactored rust->flutter message handling https://github.com/rustdesk/rustdesk/issues/4533\r\n- Improve some touchpad support, https://github.com/rustdesk/rustdesk/pull/5049\r\n- Bug fixes.\r\n\r\n</details>\r\n"
+        "commit_date": "2023-10-14 15:54:36",
+        "commit_message": "Merge pull request #6036 from Kleofass/patch-1\n\nUpdate lv.rs",
+        "release_tag": "1.2.3",
+        "release_date": "2023-10-13 10:47:12",
+        "release_message": " ![image](https://github.com/rustdesk/rustdesk/assets/71636191/83754a64-31b8-47f0-8570-da22207759a9)\r\n\r\n > Winget, FDroid update will come soon.\r\n\r\n x86-64: [Windows](https://github.com/rustdesk/rustdesk/releases/download/1.2.3/rustdesk-1.2.3-x86_64.exe) | [Ubuntu](https://github.com/rustdesk/rustdesk/releases/download/1.2.3/rustdesk-1.2.3-x86_64.deb) | [Mac](https://github.com/rustdesk/rustdesk/releases/download/1.2.3/rustdesk-1.2.3-x86_64.dmg)\r\n AArch64 (ARM64):  [Ubuntu](https://github.com/rustdesk/rustdesk/releases/download/1.2.3/rustdesk-1.2.3-aarch64.deb) | [Android](https://github.com/rustdesk/rustdesk/releases/download/1.2.3/rustdesk-1.2.3-aarch64-signed.apk) | [Mac](https://github.com/rustdesk/rustdesk/releases/download/1.2.3/rustdesk-1.2.3-aarch64.dmg)\r\n\r\n More: [check below please](#)\r\n\r\n <details>\r\n <summary>Changelog</summary>\r\n\r\n- Improve Wayland support, cursor/clipboard/multi-monitors etc, but highly depends on Xwayland, working well on GNOME, bad compatibility on KDE. We will continue working on Wayland\r\n- Add group tab\r\n- Add software update check based on github latest tag\r\n- Some fixes for Kaspersky compliance, https://github.com/rustdesk/rustdesk/discussions/5624, but they requested more\r\n- A lot of fixes since 1.2.2\r\n- We are still working hard on dual-monitors-dual-windows and new hardware codecs, hopefully be in 1.2.4\r\n\r\n </details>"
     },
     "https://github.com/chenjj/CORScanner": {
         "created_at": "2018-05-06 05:57:09",
@@ -6210,12 +6210,12 @@
     },
     "https://github.com/dark-kingA/cloudTools": {
         "created_at": "2023-09-18 11:51:28",
-        "description": "云资产管理工具 目前工具定位是云安全相关工具，目前是两个模块 云存储工具、云服务器工具， 云存储工具主要是针对oss存储、查看、删除、上传、下载、预览等等 云服务器工具主要是针对ecs服务器的管理，查看、执行命令等等",
-        "commit_date": "2023-10-08 03:20:48",
+        "description": "云资产管理工具 目前工具定位是云安全相关工具，目前是两个模块 云存储工具、云服务工具， 云存储工具主要是针对oss存储、查看、删除、上传、下载、预览等等 云服务工具主要是针对rds、服务器的管理，查看、执行命令、接管等等",
+        "commit_date": "2023-10-14 08:49:08",
         "commit_message": "Update README.md",
-        "release_tag": "main-cloud-0",
-        "release_date": "2023-10-04 09:42:08",
-        "release_message": "1.云服务工具模块：\r\n阿里云：添加告警管理、可处理告警、配置告警通知。云数据库rds添加账号，添加白名单，开通外网地址\r\n2.云存储工具模块：\r\n阿里云、AWS、京东云 添加STS临时授权"
+        "release_tag": "main",
+        "release_date": "2023-10-14 16:27:55",
+        "release_message": " 1.云服务工具模块：\r\n阿里云：添加子用户列表查看\r\n华为云：添加子用户列表查看\r\n腾讯云：添加子用户列表查看\r\n#7 解决腾讯云主机只能查询20个限制BUG\r\nucloud：新增ucloud、主机查询、接管控制台、子用户列表查看、主用户查看、订单查看\r\n更新应用图标"
     },
     "https://github.com/TideSec/BypassAntiVirus": {
         "created_at": "2019-12-16 06:26:32",
