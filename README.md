@@ -1,8 +1,10 @@
-# 更新于 2023-10-19 08:34:25
+# 更新于 2023-10-20 08:36:07
 
 ## 近15天release更新记录
 | 更新时间 | 项目名称 | 版本 | 更新内容 |
 | :---- | :---- | :---- | :---- |
+|2023-10-19 15:39:26|[codeql-cli-binari<br>es](https://github.com/github/codeql-cli-binaries)|v2.15.1|## Release 2.15.1 (2023-10-19)    ###<br> Potentially Breaking Changes    - The<br> query server's evaluation/trimCache c<br>ommand was previously equivalent to th<br>e codeql database cleanup --mode=gentl<br>e CLI command, but is now equivalent t<br>o using --mode=normal.    ### Deprecat<br>ions    - The accepted values of the c<br>odeql database cleanup --mode= command<br> line option have been renamed to brin<br>g them in line with what they are call<br>ed in the VSCode extension and the que<br>ry server:    - --mode=brutal is now -<br>-mode=clear.    - --mode=normal is now<br> --mode=trim.    - --mode=light is now<br> --mode=fit.    - The old names are de<br>precated, but will be accepted for bac<br>kwards-compatibility reasons until fur<br>ther notice.    ### New Features    - <br>The output of codeql version --format <br>json now includes a features property.<br> Each key in the    map identifies a f<br>eature of the CodeQL CLI. The value fo<br>r a key is always true. Going forward,<br>    whenever a significant new feature<br> is added to the CodeQL CLI, a corresp<br>onding entry will be added to the    f<br>eatures map.     ### Improvements    -<br> The list of failed tests at the end o<br>f a codeql test run is now sorted lexi<br>cographically.    ### Bugs fixed    - <br>Fixed a bug where the $CODEQL_JAVA_HOM<br>E environment variable was    erroneou<br>sly ignored for certain subsidiary Jav<br>a processes started by    codeql.  - F<br>ixed a bug in the CodeQL build tracer <br>on Apple Silicon machines that prevent<br>ed database creation if System Integri<br>ty Protection was disabled.    For mor<br>e information about the changes includ<br>ed in this release, see the .    You c<br>an download _either_ the codeql-PLATFO<br>RM.zip for your platform, _or_ the gen<br>eric codeql.zip which contains binarie<br>s for all supported platforms. Please <br>ignore the additional "source code" do<br>wnloads below the .zip artifacts.    T<br>his release is compatible with the Cod<br>eQL language packs from .  |
+|2023-10-19 15:11:38|[nuclei](https://github.com/projectdiscovery/nuclei)|v3.0.0|**Nuclei v3 is now live and kicking!*<br>*    We're excited to announce a varie<br>ty of new features, enhancements, and <br>bug fixes for seamless vulnerability i<br>dentification!    - For an in-depth un<br>derstanding and details of the new ele<br>ments, visit our .  - To get a detaile<br>d overview of all the closed issues li<br>nked with this release, please explore<br> the .  - Looking to get started with <br>these features? Our  will guide you th<br>rough everything you need to know.    <br>## What's Changed  ### 🎉 New Features<br>    * **Added support for code templat<br>es by @Mzack9999** in https://github.c<br>om/projectdiscovery/nuclei/pull/2930  <br>* **Added support for template signing<br> + verification by @Mzack9999** in htt<br>ps://github.com/projectdiscovery/nucle<br>i/pull/2930  * **Added support for mul<br>ti protocol execution by @tarunKoyalwa<br>r** in https://github.com/projectdisco<br>very/nuclei/pull/3672  * **Added suppo<br>rt for template flow control in templa<br>te (i.e javascript scripting)** by @ta<br>runKoyalwar in https://github.com/proj<br>ectdiscovery/nuclei/pull/4015  * **Add<br>ed support for javascript protocol for<br> scripting (includes 15+ protocol libs<br>) by @ice3man543, @tarunKoyalwar** in <br>https://github.com/projectdiscovery/nu<br>clei/pull/4109  * **Added support for <br>abstracted SDK to use nuclei as librar<br>y by @tarunKoyalwar** in https://githu<br>b.com/projectdiscovery/nuclei/pull/410<br>4    ### 🐞 Bug Fixes  * Fixed issue w<br>ith -fh2 option to make http2 connecti<br>on request by @Mzack9999 in https://gi<br>thub.com/projectdiscovery/nuclei/pull/<br>4237  * Added support to avoid duplica<br>te issue creation in GitHab reporting <br>by @mionskowski-form3 in https://githu<br>b.com/projectdiscovery/nuclei/pull/420<br>1  * Added support to avoid duplicate <br>issue creation in GitLab reporting by <br>@skahn007gl in https://github.com/proj<br>ectdiscovery/nuclei/pull/4152    ### <br>🔨 Maintenance  * Added support to use <br>OS specfic default config location by <br>@tarunKoyalwar in https://github.com/p<br>rojectdiscovery/nuclei/pull/4228    ##<br># Other Changes  * Added header fuzzin<br>g support in http templates (WIP) by @<br>0x123456789 in https://github.com/proj<br>ectdiscovery/nuclei/pull/4114  * Added<br> examples in help menu by @kchason in <br>https://github.com/projectdiscovery/nu<br>clei/pull/3978      ## New Contributor<br>s  * @0x123456789 made their first con<br>tribution in https://github.com/projec<br>tdiscovery/nuclei/pull/4114  * @sttlr <br>made their first contribution in https<br>://github.com/projectdiscovery/nuclei/<br>pull/4169  * @skahn007gl made their fi<br>rst contribution in https://github.com<br>/projectdiscovery/nuclei/pull/4152  * <br>@meme-lord made their first contributi<br>on in https://github.com/projectdiscov<br>ery/nuclei/pull/4197  * @mionskowski-f<br>orm3 made their first contribution in <br>https://github.com/projectdiscovery/nu<br>clei/pull/4201    **Full Changelog**: <br>https://github.com/projectdiscovery/nu<br>clei/compare/v2.9.15...v3.0.0|
 |2023-10-18 17:32:04|[faker](https://github.com/joke2k/faker)|v19.11.<br>0|See .|
 |2023-10-18 06:39:45|[BlueTeamTools](https://github.com/abc123info/BlueTeamTools)|BlueTea<br>mToolsV0<br>.88版本|2023.10.18 更新"常用网址"的url列表，<br>并重新整理。   2023.10.14 识别哥斯拉web<br>shell的流量解密结果，发现class文件格式<br>，输出文件名GodzillaDecode.class。|
 |2023-10-17 13:38:13|[kube-bench](https://github.com/aquasecurity/kube-bench)|v0.6.18|## Changelog  |
@@ -19,7 +21,6 @@
 |2023-10-13 10:47:12|[rustdesk](https://github.com/rustdesk/rustdesk)|1.2.3|      > Winget, FDroid update will co<br>me soon.     x86-64:  |  |    AArch64 <br>(ARM64):   |  |      More:         Cha<br>ngelog    - Improve Wayland support, c<br>ursor/clipboard/multi-monitors etc, bu<br>t highly depends on Xwayland, working <br>well on GNOME, bad compatibility on KD<br>E. We will continue working on Wayland<br>  - Add group tab  - Add software upda<br>te check based on github latest tag  -<br> Some fixes for Kaspersky compliance, <br>https://github.com/rustdesk/rustdesk/d<br>iscussions/5624, but they requested mo<br>re  - A lot of fixes since 1.2.2  - We<br> are still working hard on dual-monito<br>rs-dual-windows and new hardware codec<br>s, hopefully be in 1.2.4     |
 |2023-10-13 04:13:14|[ObserverWard](https://github.com/0x727/ObserverWard)|v2023.1<br>0.13||
 |2023-10-12 13:44:19|[grype](https://github.com/anchore/grype)|v0.71.0|### Added Features  - use ghsa to imp<br>rove matching for cpes   @westonsteime<br>l]  ****  |
-|2023-10-11 12:24:03|[codeql-cli-binari<br>es](https://github.com/github/codeql-cli-binaries)|v2.15.0|### Deprecations    - pragma."    ###<br> New Features    - The output of codeq<br>l version --format json now includes a<br> features property. Each key in the ma<br>p identifies a feature of the CodeQL C<br>LI. The value for a key is always true<br>. Going forward, whenever a significan<br>t new feature is added to the CodeQL C<br>LI, a corresponding entry will be adde<br>d to the features map. This is intende<br>d to make it easier for tools that inv<br>oke the CodeQL CLI to know if the part<br>icular version of the CLI they are inv<br>oking supports a given feature, withou<br>t having to know exactly what CLI vers<br>ion introduced that feature.    ### Im<br>provements    - You can now specify th<br>e CodeQL languages C/C++, Java/Kotlin,<br> and JavaScript/TypeScript using --lan<br>guage c-cpp, --language java-kotlin, a<br>nd --language javascript-typescript re<br>spectively. These new CodeQL language <br>names convey more clearly what languag<br>es each CodeQL language will analyze. <br> - CodeQL now respects custom home dir<br>ectories set by the $HOME environment <br>variable on MacOS and Linux and %USERP<br>ROFILE% on Windows. When set, CodeQL w<br>ill use the variable's value to change<br> the default location of downloaded pa<br>ckages and the global compilation cach<br>e.  - This release improves the qualit<br>y of  for repositories that vendor the<br>ir dependencies. This is currently sup<br>ported for Go and JavaScript projects.<br>    ### Bugs fixed    - Fixed an issue<br> with analyzing Python projects using <br>Python 3.12.    ### QL language improv<br>ements    - The QL language now has tw<br>o new methods codePointAt and codePoin<br>tCount on the string type. The methods<br> both return integers and act the same<br> as the similarly named Java methods o<br>n strings. For example, "abc".codePoin<br>tAt(2) is 99 and ("a" + 128512.toUnico<br>de() + "c").codePointAt(1) is a 128512<br>.    For more information about the ch<br>anges included in this release, see th<br>e .    You can download _either_ the c<br>odeql-PLATFORM.zip for your platform, <br>_or_ the generic codeql.zip which cont<br>ains binaries for all supported platfo<br>rms. Please ignore the additional "sou<br>rce code" downloads below the .zip art<br>ifacts.    This release is compatible <br>with the CodeQL language packs from . <br> |
 |2023-10-11 09:36:22|[naabu](https://github.com/projectdiscovery/naabu)|v2.1.9|    ## What's Changed  ### 🐞 Bugs Fi<br>xes  * Added support for hostnames wit<br>h -eh option by @Mzack9999 in https://<br>github.com/projectdiscovery/naabu/pull<br>/823  ### Other Changes  * Update READ<br>ME.md (small grammar change) by @jdtri<br>ax in https://github.com/projectdiscov<br>ery/naabu/pull/820  * Fix typo in READ<br>ME.md by @sttlr in https://github.com/<br>projectdiscovery/naabu/pull/822    ## <br>New Contributors  * @jdtriax made thei<br>r first contribution in https://github<br>.com/projectdiscovery/naabu/pull/820  <br>  **Full Changelog**: https://github.c<br>om/projectdiscovery/naabu/compare/v2.1<br>.8...v2.1.9|
 |2023-10-11 09:20:40|[frp](https://github.com/fatedier/frp)|v0.52.1|### Fixes  * transport.tls.disableCus<br>tomTLSFirstByte doesn't have any effec<br>t. * The Server API did not return the<br> data correctly. * The Dashboard is un<br>able to display data. * natHoleStunSer<br>ver is missing a default value.  |
 |2023-10-11 03:06:50|[Elkeid](https://github.com/bytedance/Elkeid)|rasp-v2<br>.2.0.9-p<br>angolin||
@@ -34,35 +35,41 @@
 ## 近15天commit提交记录
 | 提交时间 | 项目名称 | 更新内容 |
 | :---- | :---- | :---- |
-|2023-10-19 00:00:02|[free](https://github.com/freefq/free)|updated_at 10-19 08:00|
-|2023-10-18 23:44:29|[PocOrExp_in_Githu<br>b](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-10-19 07:44:29|
-|2023-10-18 22:47:13|[clair](https://github.com/quay/clair)|build(deps): bump go.opentelemetry.io/otel from 1.1<br>8.0 to 1.19.0  Bumps  from 1.18.0 to 1.19.0. -  -  -<br>   --- updated-dependencies: - dependency-name: go.o<br>pentelemetry.io/otel   dependency-type: direct:produ<br>ction   update-type: version-update:semver-minor ...<br>  Signed-off-by: dependabot[bot] |
-|2023-10-18 18:18:10|[dbeaver](https://github.com/dbeaver/dbeaver)|dbeaver/#21573 Adjust preference page layout for Di<br>agram Editor Page (#21575)  Packed controls on prefe<br>rences page.|
+|2023-10-20 00:00:02|[free](https://github.com/freefq/free)|updated_at 10-20 08:00|
+|2023-10-19 23:46:40|[PocOrExp_in_Githu<br>b](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-10-20 07:46:40|
+|2023-10-19 21:57:23|[syft](https://github.com/anchore/syft)|Account for maven bundle plugin and fix filename ma<br>tching (#2220)  * account for maven bundle plugin an<br>d fix filename matching    Signed-off-by: Alex Goodm<br>an     * add in-repo jar tests based on metadata to <br>cover #2130    Signed-off-by: Alex Goodman     * tes<br>ts: fix test merge commit    Signed-off-by: Christop<br>her Phillips     ---------    Signed-off-by: Alex Go<br>odman   Signed-off-by: Christopher Phillips   Co-aut<br>hored-by: Christopher Angelo Phillips   Co-authored-<br>by: Christopher Phillips |
+|2023-10-19 20:38:41|[neuvector](https://github.com/neuvector/neuvector)|Merge pull request #1055 from gfsuse/group_sesscnt <br> NVSHAS-8171, Report stats at group level|
+|2023-10-19 20:11:29|[clair](https://github.com/quay/clair)|build(deps): bump go.opentelemetry.io/otel/sdk from<br> 1.17.0 to 1.19.0  Bumps  from 1.17.0 to 1.19.0. -  <br>-  -   --- updated-dependencies: - dependency-name: <br>go.opentelemetry.io/otel/sdk   dependency-type: dire<br>ct:production   update-type: version-update:semver-m<br>inor ...  Signed-off-by: dependabot[bot] |
+|2023-10-19 18:52:50|[RsaCtfTool](https://github.com/RsaCtfTool/RsaCtfTool)|Update factor_2PN.py|
+|2023-10-19 15:36:55|[codeql-cli-binari<br>es](https://github.com/github/codeql-cli-binaries)|Changelog for 2.15.1|
+|2023-10-19 15:34:18|[v2rayA](https://github.com/v2rayA/v2rayA)|feat(gui): remember last node tab. (#1076)|
+|2023-10-19 14:37:28|[FreeRDP](https://github.com/FreeRDP/FreeRDP)|[core,input] use time() instead of timespec_get  an<br>droid only supports the latter with API >= 29|
+|2023-10-19 13:40:29|[nuclei](https://github.com/projectdiscovery/nuclei)|version update|
+|2023-10-19 12:37:05|[v2rayfree](https://github.com/aiboboxx/v2rayfree)|update|
+|2023-10-19 12:36:40|[dbeaver](https://github.com/dbeaver/dbeaver)|JSON utils update|
+|2023-10-19 12:02:42|[murphysec](https://github.com/murphysecurity/murphysec)|fix(lint): suppress ctx key linting|
+|2023-10-19 11:52:08|[rustdesk](https://github.com/rustdesk/rustdesk)|Merge pull request #6099 from solokot/master  Updat<br>e ru.rs|
+|2023-10-19 11:48:09|[mitaka](https://github.com/ninoseki/mitaka)|Merge pull request #760 from ninoseki/renovate/acti<br>ons-checkout-4.x|
+|2023-10-19 11:01:13|[domain_hunter_pro](https://github.com/bit4woo/domain_hunter_pro)|Update LineTable.java|
+|2023-10-19 09:28:35|[frp](https://github.com/fatedier/frp)|fix example config (#3701)|
+|2023-10-19 09:25:45|[safeline](https://github.com/chaitin/safeline)|feat: release v3.8.2|
+|2023-10-19 06:39:31|[Elkeid](https://github.com/bytedance/Elkeid)|Merge pull request #542 from bytedance/fix-mount-no<br>deblock  fix mount repeat failed and nodejs cannot b<br>lock|
+|2023-10-19 06:35:38|[FrameVul](https://github.com/Awrrays/FrameVul)|Update README.md|
+|2023-10-19 05:37:32|[trivy](https://github.com/aquasecurity/trivy)|fix(sbom): add missed primaryURL and source severit<br>y for CycloneDX (#5399)  Signed-off-by: knqyf263  Co<br>-authored-by: knqyf263 |
 |2023-10-18 17:50:51|[grype](https://github.com/anchore/grype)|chore(deps): bump actions/checkout from 4.1.0 to 4.<br>1.1 (#1564)  Bumps  from 4.1.0 to 4.1.1.  -   -   - <br>    ---  updated-dependencies:  - dependency-name: a<br>ctions/checkout    dependency-type: direct:productio<br>n    update-type: version-update:semver-patch  ...  <br>  Signed-off-by: dependabot[bot]   Co-authored-by: d<br>ependabot[bot] |
 |2023-10-18 17:31:32|[faker](https://github.com/joke2k/faker)|Bump version: 19.10.0 → 19.11.0|
 |2023-10-18 15:18:44|[afrog](https://github.com/zan8in/afrog)|update|
-|2023-10-18 15:15:28|[rustdesk](https://github.com/rustdesk/rustdesk)|Merge pull request #6086 from dignow/fix/try_video_<br>capturing_on_close_window  try stop video capturing,<br> on close window|
-|2023-10-18 14:21:56|[trivy](https://github.com/aquasecurity/trivy)|chore(deps): move to aws-sdk-go-v2 (#5381)|
-|2023-10-18 13:54:26|[syft](https://github.com/anchore/syft)|chore(deps): bump actions/checkout from 4.1.0 to 4.<br>1.1 (#2236)  Bumps  from 4.1.0 to 4.1.1.  -   -   - <br>    ---  updated-dependencies:  - dependency-name: a<br>ctions/checkout    dependency-type: direct:productio<br>n    update-type: version-update:semver-patch  ...  <br>  Signed-off-by: dependabot[bot]   Co-authored-by: d<br>ependabot[bot] |
 |2023-10-18 13:44:42|[vulhub](https://github.com/vulhub/vulhub)|Merge pull request #471 from vulhub/code-improve  C<br>ode improve for CVE-2023-4450|
-|2023-10-18 12:37:05|[v2rayfree](https://github.com/aiboboxx/v2rayfree)|update|
-|2023-10-18 09:51:47|[FreeRDP](https://github.com/FreeRDP/FreeRDP)|codec/audio: Add missing format id for Opus codec  <br>Id taken from [0].  [0]: https://learn.microsoft.com<br>/en-us/windows/win32/medfound/audio-subtype-guids|
-|2023-10-18 08:30:51|[domain_hunter_pro](https://github.com/bit4woo/domain_hunter_pro)|显示Favicon|
 |2023-10-18 08:28:32|[SmsForwarder](https://github.com/pppscn/SmsForwarder)|新增：网络状态监控通知增加IPv6获取（排除本地地址） <br>#321|
 |2023-10-18 06:21:58|[BlueTeamTools](https://github.com/abc123info/BlueTeamTools)|Update README.md|
 |2023-10-18 02:50:06|[Library-POC](https://github.com/luck-ying/Library-POC)|Update README.md|
-|2023-10-17 15:33:28|[RsaCtfTool](https://github.com/RsaCtfTool/RsaCtfTool)|Update setup.py|
 |2023-10-17 13:28:52|[kube-bench](https://github.com/aquasecurity/kube-bench)|release: prepare v0.6.18 (#1509)  Signed-off-by: ch<br>enk |
 |2023-10-17 07:50:43|[ARL](https://github.com/TophantTechnology/ARL)|Merge pull request #639 from TophantTechnology/upda<br>te/v2.6  Update/v2.6|
 |2023-10-17 05:59:09|[vulnerability](https://github.com/lal0ne/vulnerability)|CVE-2023-33831|
 |2023-10-17 04:33:06|[ghauri](https://github.com/r0oth3x49/ghauri)|fixed issue with JSON body when content-type header<br> is not properly set, fixed retry mechanism as it go<br>es into an infinite loop on error, fixed #104, bumpe<br>d version 1.2.6|
-|2023-10-16 22:53:49|[neuvector](https://github.com/neuvector/neuvector)|Merge pull request #1058 from williamlin-suse/main <br> NVSHAS-8350: Too many admission control logs when 3<br>rd party keeps upd…|
-|2023-10-16 09:45:28|[safeline](https://github.com/chaitin/safeline)|feat: release v3.7.3|
 |2023-10-16 06:51:42|[all-in-one-v2](https://github.com/zaivanza/all-in-one-v2)|fix 1inch from|
 |2023-10-16 03:47:44|[404StarLink](https://github.com/knownsec/404StarLink)|weekly update at 2023-10-16|
-|2023-10-16 03:29:51|[frp](https://github.com/fatedier/frp)|README typo (#3683)|
 |2023-10-16 01:31:10|[DecoyMini](https://github.com/decoymini/DecoyMini)|Update README.md|
-|2023-10-16 00:31:39|[FrameVul](https://github.com/Awrrays/FrameVul)|Update README.md|
 |2023-10-15 23:30:43|[impacket](https://github.com/fortra/impacket)|The tree command of "smbclient.py" does not parse t<br>he path correct. (#1614)  * Update smbclient.py    *<br> Avoid closing down the connection if a folder does <br>not exist|
 |2023-10-15 23:20:07|[awesome-chatgpt-z<br>h](https://github.com/yzfly/awesome-chatgpt-zh)|update readme|
 |2023-10-15 15:02:42|[ysomap](https://github.com/wh1t3p1g/ysomap)|update|
@@ -73,7 +80,6 @@
 |2023-10-14 02:21:50|[wpscan](https://github.com/wpscanteam/wpscan)|Merge pull request #1787 from 0n1shi/fix/db-exports<br>-not-detected  Fixed #1759|
 |2023-10-13 11:23:32|[appshark](https://github.com/bytedance/appshark)|Merge pull request #54 from firmianay/dev3  fix dex<br>ToJava on Mac/Windows|
 |2023-10-13 10:21:50|[iDefender](https://github.com/wecooperate/iDefender)|update|
-|2023-10-13 06:28:31|[nuclei](https://github.com/projectdiscovery/nuclei)|chore(deps): bump golang.org/x/net from 0.14.0 to 0<br>.17.0 in /v2 (#4233)  Bumps  from 0.14.0 to 0.17.0. <br> -     ---  updated-dependencies:  - dependency-name<br>: golang.org/x/net    dependency-type: direct:produc<br>tion  ...    Signed-off-by: dependabot[bot]   Co-aut<br>hored-by: dependabot[bot] |
 |2023-10-13 05:24:12|[OneScan](https://github.com/vaycore/OneScan)|更新版本号为1.3.4|
 |2023-10-13 04:12:01|[ObserverWard](https://github.com/0x727/ObserverWard)|麒麟aarch64|
 |2023-10-13 02:45:49|[OA-EXPTOOL](https://github.com/LittleBear4/OA-EXPTOOL)|Update README.md|
@@ -86,7 +92,6 @@
 |2023-10-12 00:41:28|[beef](https://github.com/beefproject/beef)|Merge branch 'dependabot/bundler/rubocop-1.57.0' in<br>to dependabot-updates upddate rubocop gem|
 |2023-10-11 20:59:21|[PEASS-ng](https://github.com/carlospolop/PEASS-ng)|Merge pull request #396 from RandolphConley/master <br> logo color, updated output, added -fullcheck flag|
 |2023-10-11 15:21:13|[CTFd](https://github.com/CTFd/CTFd)|Fix issue where NULL password prevented custom fiel<br>ds from being set (#2414)|
-|2023-10-11 12:23:35|[codeql-cli-binari<br>es](https://github.com/github/codeql-cli-binaries)|Update changelog for 2.15.0|
 |2023-10-11 10:03:51|[jar-analyzer-gui](https://github.com/4ra1n/jar-analyzer-gui)|Update README.md|
 |2023-10-11 09:28:19|[naabu](https://github.com/projectdiscovery/naabu)|Merge branch 'dev'|
 |2023-10-10 14:11:30|[Umi-OCR](https://github.com/hiroi-sora/Umi-OCR)|update v1.3.7|
@@ -95,7 +100,6 @@
 |2023-10-10 06:12:34|[HackerMind](https://github.com/Ascotbe/HackerMind)|Add files via upload|
 |2023-10-10 05:50:56|[dperf](https://github.com/baidu/dperf)|Merge pull request #380 from pengjianzhang/main  v1<br>.7.0-dev|
 |2023-10-10 03:44:58|[HackerPermKeeper](https://github.com/RuoJi6/HackerPermKeeper)|Update adduser_new_user.py|
-|2023-10-10 03:10:03|[murphysec](https://github.com/murphysecurity/murphysec)|feat(env): 兼容 MPS_DO_NOT_BUILD|
 |2023-10-09 09:07:09|[sqlmap](https://github.com/sqlmapproject/sqlmap)|Fixes #5539|
 |2023-10-08 10:13:06|[X-Marshal](https://github.com/XTeam-Wing/X-Marshal)|Update README.md|
 |2023-10-08 07:52:08|[Vulhub-Reproduce](https://github.com/Threekiii/Vulhub-Reproduce)|更新漏洞|
@@ -105,8 +109,7 @@
 |2023-10-07 06:34:59|[Mobile-Security-F<br>ramework-MobSF](https://github.com/MobSF/Mobile-Security-Framework-MobSF)|[HOTFIX][EFR] Priority Bug Fixes (#2275)  * P1.1 AA<br>R Permissions not properly listed   * P1.2 Local var<br>iable table not listed in proper section  * P1.3 sta<br>tic library strings are not listed  * P1.5 Stripping<br> of dynamic and static libraries are not correctly r<br>eported  * Dependency bump  * MobSF version bump|
 |2023-10-06 14:58:31|[dirsearch](https://github.com/maurosoria/dirsearch)|Merge pull request #1330 from drego85/patch-14  Add<br>ing configure.php|
 |2023-10-05 09:15:01|[nemo_go](https://github.com/hanc00l/nemo_go)|Fix: nemo的数据库导入sql文件在key_word表里增加的字<br>段|
-|2023-10-05 01:43:17|[feroxbuster](https://github.com/epi052/feroxbuster)|nitpickery; added success msg|
-|2023-10-04 07:41:43|[Burp-Non-HTTP-Ext<br>ension](https://github.com/summitt/Burp-Non-HTTP-Extension)|Update version|## 所有项目
+|2023-10-05 01:43:17|[feroxbuster](https://github.com/epi052/feroxbuster)|nitpickery; added success msg|## 所有项目
 # 渗透测试
 ## 信息收集
 ### 资产测绘采集
@@ -263,7 +266,7 @@
 | [xray](https://github.com/chaitin/xray) | 1.9.11 | 一款完善的安全评估工具，支持常见 web 安全问题扫描和自定义 poc <br>| 使用之前务必先阅读文档 |
 | [w13scan](https://github.com/w-digital-scanner/w13scan) |  | Passive Security Scanner (被动式安全扫描器) |
 | [Fvuln](https://github.com/d3ckx1/Fvuln) | Fvuln-1<br>.4.9 | F-vuln（全称：Find-Vulnerability）是为了自己工作方便专门编写的<br>一款自动化工具，主要适用于日常安全服务、渗透测试人员和RedTeam红<br>队人员，它集合的功能包括：存活IP探测、开放端口探测、web服务探测<br>、web漏洞扫描、smb爆破、ssh爆破、ftp爆破、mssql爆破等其他数据库<br>爆破工作以及大量web漏洞检测模块。 |
-| [nuclei](https://github.com/projectdiscovery/nuclei) | v2.9.15 | Fast and customizable vulnerability scanner based on simple YA<br>ML based DSL. |
+| [nuclei](https://github.com/projectdiscovery/nuclei) | v3.0.0 | Fast and customizable vulnerability scanner based on simple YA<br>ML based DSL. |
 | [afrog](https://github.com/zan8in/afrog) | v2.8.9 | A Security Tool for Bug Bounty, Pentest and Red Teaming. |
 | [vulmap](https://github.com/zhzyker/vulmap) | v0.9 | Vulmap 是一款 web 漏洞扫描和验证工具, 可对 webapps 进行漏洞扫<br>描, 并且具备漏洞验证功能 |
 | [POC-bomber](https://github.com/tr0uble-mAker/POC-bomber) | POC-bom<br>ber-for-<br>Redteam-<br>v3.0.0 | 利用大量高威胁poc/exp快速获取目标权限，用于渗透和红队快速打点 |
@@ -302,7 +305,7 @@
 | :---- | :---- | :---- |
 | [jar-analyzer-gui](https://github.com/4ra1n/jar-analyzer-gui) | 1.1 | 一个用于分析Jar包的GUI工具，可以用多种方式搜索你想要的信息，自<br>动构建方法调用关系，支持分析Spring框架（A Java GUI Tool for Anal<br>yzing Jar） |
 | [code-inspector](https://github.com/4ra1n/code-inspector) | 0.2-bet<br>a | JavaWeb漏洞审计工具，构建方法调用链并模拟栈帧进行分析 |
-| [codeql-cli-binari<br>es](https://github.com/github/codeql-cli-binaries) | v2.15.0 | Binaries for the CodeQL CLI |
+| [codeql-cli-binari<br>es](https://github.com/github/codeql-cli-binaries) | v2.15.1 | Binaries for the CodeQL CLI |
 | [CodeQLpy](https://github.com/webraybtl/CodeQLpy) |  | CodeQLpy是一款基于CodeQL实现的半自动化代码审计工具，目前仅支持<br>java语言。实现从源码反编译，数据库生成，脆弱性发现的全过程，可<br>以辅助代码审计人员快速定位源码可能存在的漏洞。 |
 ### 容器漏洞扫描
 | 项目名称 | 版本 | 项目描述 |
