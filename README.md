@@ -1,15 +1,15 @@
-# 更新于 2023-10-21 08:34:34
+# 更新于 2023-10-22 08:38:36
 
 ## 近15天release更新记录
 | 更新时间 | 项目名称 | 版本 | 更新内容 |
 | :---- | :---- | :---- | :---- |
+|2023-10-21 13:51:16|[BlueTeamTools](https://github.com/abc123info/BlueTeamTools)|BlueTea<br>mToolsV0<br>.89版本|2023.10.21 修正"ip地址处理"功能192.16<br>8.1.1/16, 192.168.10.1/8不能解析的bug<br>。|
 |2023-10-20 18:28:42|[grype](https://github.com/anchore/grype)|v0.72.0|### Added Features  - Add --ignore-st<br>ates flag for ignoring findings with s<br>pecific fix states  @jhebden-gl] - Imp<br>lement checksum & artifact signing   @<br>hibare]  ### Bug Fixes  - Report error<br>s to stderr not stdout  @wagoodman] - <br>grype v0.71.0 stopped showing vulnerab<br>ilities for Go stdlib   @wagoodman] - <br>SARIF output not compatible with GitHu<br>b   @spiffcs]  ****  |
 |2023-10-20 17:31:29|[syft](https://github.com/anchore/syft)|v0.94.0|### Added Features  - Add additional <br>license filenames  @coheigea] - Parse <br>donet dependency trees  @noqcks] - Fin<br>d license by embedded license text   @<br>coheigea] - Add support for dpkg depen<br>dency relationships   @wagoodman]  ###<br> Bug Fixes  - Report errors to stderr <br>not stdout  @wagoodman] - Python egg p<br>ackages are not parsed for SBOM   @spi<br>ffcs] - Java archive is listed twice  <br> @wagoodman] - Java archives not from <br>Maven   @wagoodman] - Remove internal.<br>StringSet   @wagoodman] - Invalid inte<br>rface conversion in Swift cataloger   <br>@wagoodman]  ****  |
 |2023-10-20 12:38:57|[nuclei](https://github.com/projectdiscovery/nuclei)|v3.0.1|    ## What's Changed  ### 🐞 Bug Fix<br>es  * Fixed issues with template prepr<br>ocessor + multi request variables inde<br>xing by @tarunKoyalwar in https://gith<br>ub.com/projectdiscovery/nuclei/pull/42<br>62    **Note**:   > This release inclu<br>des fixes for bugs introduced in v3.0;<br> upgrade to the latest version if you <br>are using v3.      **Full Changelog**:<br> https://github.com/projectdiscovery/n<br>uclei/compare/v3.0.0...v3.0.1|
 |2023-10-20 03:29:18|[goproxy](https://github.com/snail007/goproxy)|v14.0|1、sps/http(s)/socks5新增tcps加密协议<br>，使用更方便。  2、socks5/sps的udp 更新<br>了底层传输加密方式，如果设置了加密传输<br>的socks5，而且使用了udp功能，服务端和客<br>户端都升级到最新版udp功能才能使用。  |
 |2023-10-19 15:39:26|[codeql-cli-binari<br>es](https://github.com/github/codeql-cli-binaries)|v2.15.1|## Release 2.15.1 (2023-10-19)    ###<br> Potentially Breaking Changes    - The<br> query server's evaluation/trimCache c<br>ommand was previously equivalent to th<br>e codeql database cleanup --mode=gentl<br>e CLI command, but is now equivalent t<br>o using --mode=normal.    ### Deprecat<br>ions    - The accepted values of the c<br>odeql database cleanup --mode= command<br> line option have been renamed to brin<br>g them in line with what they are call<br>ed in the VSCode extension and the que<br>ry server:    - --mode=brutal is now -<br>-mode=clear.    - --mode=normal is now<br> --mode=trim.    - --mode=light is now<br> --mode=fit.    - The old names are de<br>precated, but will be accepted for bac<br>kwards-compatibility reasons until fur<br>ther notice.    ### Improvements    - <br>The list of failed tests at the end of<br> a codeql test run is now sorted lexic<br>ographically.    ### Bugs fixed    - F<br>ixed a bug where the $CODEQL_JAVA_HOME<br> environment variable was    erroneous<br>ly ignored for certain subsidiary Java<br> processes started by    codeql.  - Fi<br>xed a bug in the CodeQL build tracer o<br>n Apple Silicon machines that prevente<br>d database creation if System Integrit<br>y Protection was disabled.    For more<br> information about the changes include<br>d in this release, see the .    You ca<br>n download _either_ the codeql-PLATFOR<br>M.zip for your platform, _or_ the gene<br>ric codeql.zip which contains binaries<br> for all supported platforms. Please i<br>gnore the additional "source code" dow<br>nloads below the .zip artifacts.    Th<br>is release is compatible with the Code<br>QL language packs from .  |
 |2023-10-18 17:32:04|[faker](https://github.com/joke2k/faker)|v19.11.<br>0|See .|
-|2023-10-18 06:39:45|[BlueTeamTools](https://github.com/abc123info/BlueTeamTools)|BlueTea<br>mToolsV0<br>.88版本|2023.10.18 更新"常用网址"的url列表，<br>并重新整理。   2023.10.14 识别哥斯拉web<br>shell的流量解密结果，发现class文件格式<br>，输出文件名GodzillaDecode.class。|
 |2023-10-17 13:38:13|[kube-bench](https://github.com/aquasecurity/kube-bench)|v0.6.18|## Changelog  |
 |2023-10-17 07:59:10|[ARL](https://github.com/TophantTechnology/ARL)|v2.6|1. 域名查询插件 添加 Chaos 源，感谢 @<br>NAXG  #622  2. 增加一些常见的WAF和CDN<br>的CNAME, 感谢 @ox01024  #586  3. 更新 G<br>eoLite2 db 文件, 感谢 @ox01024 #587  4<br>. 添加企业微信和飞书消息推送 (监控任务<br>) #447  5. 资产 IP 选项卡可以分别导出<br>域名和IP  6. 任务详情 添加 导出 C 段 按<br>钮  7. nuclei 版本更新   8. HTTP 存活探<br>测改为 GET 请求  9. 增加 js文件敏感信息<br>搜集 (WebInfoHunter)工具调用 #474 #532 <br> 10. 添加 WebInfoHunter 任务和监控任务<br>  11. 修复 策略配置 - 新建策略时勾选掉<br>了"跳过CDN"，但实际不会生效 #618  12. <br>全端口扫描速率参数调大  13. PoC 信息第<br>一次启动时更新优化  #604  14. 任务界面<br>添加全局查看的按钮 #625     |
 |2023-10-17 04:36:09|[ghauri](https://github.com/r0oth3x49/ghauri)|1.2.6|### Fixes   - fixed #104    - fixed i<br>ssue with POST body type detection whe<br>n content-type is not properly set on <br>web server.   - fixed issue with infin<br>ite loop on retry mechanism.|
@@ -36,8 +36,17 @@
 ## 近15天commit提交记录
 | 提交时间 | 项目名称 | 更新内容 |
 | :---- | :---- | :---- |
-|2023-10-21 00:00:04|[free](https://github.com/freefq/free)|updated_at 10-21 08:00|
-|2023-10-20 23:47:08|[PocOrExp_in_Githu<br>b](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-10-21 07:47:08|
+|2023-10-22 00:00:02|[free](https://github.com/freefq/free)|updated_at 10-22 08:00|
+|2023-10-21 23:49:11|[PocOrExp_in_Githu<br>b](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-10-22 07:49:11|
+|2023-10-21 13:53:57|[BlueTeamTools](https://github.com/abc123info/BlueTeamTools)|Update README.md|
+|2023-10-21 12:32:55|[v2rayfree](https://github.com/aiboboxx/v2rayfree)|update|
+|2023-10-21 10:02:12|[gshark](https://github.com/madneal/gshark)|Merge pull request #169 from madneal/dependabot/npm<br>_and_yarn/web/babel/traverse-7.23.2  Bump @babel/tra<br>verse from 7.17.3 to 7.23.2 in /web|
+|2023-10-21 08:14:39|[rustdesk](https://github.com/rustdesk/rustdesk)|Merge pull request #6125 from 21pages/reconnect  sh<br>ow reconnect timeout and dismiss all dialog when sho<br>w reconnecting|
+|2023-10-21 07:31:20|[Vulhub-Reproduce](https://github.com/Threekiii/Vulhub-Reproduce)|更新README.md|
+|2023-10-21 06:12:59|[Awesome-Redteam](https://github.com/Threekiii/Awesome-Redteam)|更新README.md|
+|2023-10-21 05:16:08|[neuvector](https://github.com/neuvector/neuvector)|Merge pull request #1069 from williamlin-suse/main <br> NVSHAS-7520: CRD policy in k8s is different from th<br>e one in NV (after…|
+|2023-10-21 05:12:25|[SmsForwarder](https://github.com/pppscn/SmsForwarder)|优化：企业微信应用发送通道允许自定义API地址【通过反<br>向代理(proxy_pass https://qyapi.weixin.qq.com;)绕过IP<br>白名单限制】 #352|
+|2023-10-21 03:26:59|[domain_hunter_pro](https://github.com/bit4woo/domain_hunter_pro)|update|
 |2023-10-20 20:13:02|[dbeaver](https://github.com/dbeaver/dbeaver)|dbeaver/dbeaver#21611 NIO path resolve fix (#21612)<br>  * dbeaver/dbeaver#21611 NIO path resolve fix    * <br>dbeaver/dbeaver#21611 NIO path resolve fix|
 |2023-10-20 18:31:41|[syft](https://github.com/anchore/syft)|change homebrew release trigger (#2242)  Signed-off<br>-by: Alex Goodman |
 |2023-10-20 17:57:36|[grype](https://github.com/anchore/grype)|chore(deps): update Syft to v0.94.0 (#1566)  Signed<br>-off-by: GitHub   Co-authored-by: wagoodman |
@@ -45,30 +54,24 @@
 |2023-10-20 16:31:35|[kube-bench](https://github.com/aquasecurity/kube-bench)|build(deps): bump docker/build-push-action from 4 t<br>o 5 (#1498)  Bumps  from 4 to 5.  -   -     ---  upd<br>ated-dependencies:  - dependency-name: docker/build-<br>push-action    dependency-type: direct:production   <br> update-type: version-update:semver-major  ...    Si<br>gned-off-by: dependabot[bot]   Co-authored-by: depen<br>dabot[bot]   Co-authored-by: chenk |
 |2023-10-20 16:09:16|[naabu](https://github.com/projectdiscovery/naabu)|chore(deps): bump golang.org/x/net from 0.16.0 to 0<br>.17.0 in /v2 (#829)  Bumps  from 0.16.0 to 0.17.0.  <br>-     ---  updated-dependencies:  - dependency-name:<br> golang.org/x/net    dependency-type: direct:product<br>ion  ...    Signed-off-by: dependabot[bot]   Co-auth<br>ored-by: dependabot[bot] |
 |2023-10-20 16:03:29|[faker](https://github.com/joke2k/faker)|Add more geolocation to cs_CZ (#1935)|
-|2023-10-20 15:53:31|[SmsForwarder](https://github.com/pppscn/SmsForwarder)|优化：企业微信应用发送通道允许自定义API地址【通过反<br>向代理(proxy_pass)绕过IP白名单限制】 #352|
 |2023-10-20 15:49:50|[v2rayA](https://github.com/v2rayA/v2rayA)|ci: fix yaml's form|
 |2023-10-20 13:24:41|[sqlmap](https://github.com/sqlmapproject/sqlmap)|Fixes #5549|
 |2023-10-20 12:52:11|[codeql-cli-binari<br>es](https://github.com/github/codeql-cli-binaries)|Remove duplicate changelog entry|
-|2023-10-20 12:35:58|[v2rayfree](https://github.com/aiboboxx/v2rayfree)|update|
 |2023-10-20 12:26:04|[nuclei](https://github.com/projectdiscovery/nuclei)|Merge branch 'dev'|
 |2023-10-20 11:59:50|[r0capture](https://github.com/r0ysue/r0capture)|Update README.md|
-|2023-10-20 11:09:13|[rustdesk](https://github.com/rustdesk/rustdesk)|remove wayland related from readme|
 |2023-10-20 09:46:45|[all-in-one-v2](https://github.com/zaivanza/all-in-one-v2)|add base, zora, scroll + fixes|
 |2023-10-20 09:16:23|[trivy](https://github.com/aquasecurity/trivy)|feat(dart): add graph support (#5374)  Signed-off-b<br>y: knqyf263  Co-authored-by: knqyf263 |
 |2023-10-20 07:14:11|[FreeRDP](https://github.com/FreeRDP/FreeRDP)|Activate GFX and H264 by default|
 |2023-10-20 02:50:54|[Fastjson](https://github.com/safe6Sec/Fastjson)|Update README.md|
-|2023-10-19 20:38:41|[neuvector](https://github.com/neuvector/neuvector)|Merge pull request #1055 from gfsuse/group_sesscnt <br> NVSHAS-8171, Report stats at group level|
 |2023-10-19 18:52:50|[RsaCtfTool](https://github.com/RsaCtfTool/RsaCtfTool)|Update factor_2PN.py|
 |2023-10-19 12:02:42|[murphysec](https://github.com/murphysecurity/murphysec)|fix(lint): suppress ctx key linting|
 |2023-10-19 11:48:09|[mitaka](https://github.com/ninoseki/mitaka)|Merge pull request #760 from ninoseki/renovate/acti<br>ons-checkout-4.x|
-|2023-10-19 11:01:13|[domain_hunter_pro](https://github.com/bit4woo/domain_hunter_pro)|Update LineTable.java|
 |2023-10-19 09:28:35|[frp](https://github.com/fatedier/frp)|fix example config (#3701)|
 |2023-10-19 09:25:45|[safeline](https://github.com/chaitin/safeline)|feat: release v3.8.2|
 |2023-10-19 06:39:31|[Elkeid](https://github.com/bytedance/Elkeid)|Merge pull request #542 from bytedance/fix-mount-no<br>deblock  fix mount repeat failed and nodejs cannot b<br>lock|
 |2023-10-19 06:35:38|[FrameVul](https://github.com/Awrrays/FrameVul)|Update README.md|
 |2023-10-18 15:18:44|[afrog](https://github.com/zan8in/afrog)|update|
 |2023-10-18 13:44:42|[vulhub](https://github.com/vulhub/vulhub)|Merge pull request #471 from vulhub/code-improve  C<br>ode improve for CVE-2023-4450|
-|2023-10-18 06:21:58|[BlueTeamTools](https://github.com/abc123info/BlueTeamTools)|Update README.md|
 |2023-10-18 02:50:06|[Library-POC](https://github.com/luck-ying/Library-POC)|Update README.md|
 |2023-10-17 07:50:43|[ARL](https://github.com/TophantTechnology/ARL)|Merge pull request #639 from TophantTechnology/upda<br>te/v2.6  Update/v2.6|
 |2023-10-17 05:59:09|[vulnerability](https://github.com/lal0ne/vulnerability)|CVE-2023-33831|
@@ -91,7 +94,6 @@
 |2023-10-13 02:22:13|[Stowaway](https://github.com/ph4ntonn/Stowaway)|Merge pull request #57 from testwill/typo  fix: typ<br>o|
 |2023-10-12 08:54:34|[subfinder](https://github.com/projectdiscovery/subfinder)|chore(deps): bump golang.org/x/net from 0.14.0 to 0<br>.17.0 in /v2 (#1014)  Bumps  from 0.14.0 to 0.17.0. <br> -     ---  updated-dependencies:  - dependency-name<br>: golang.org/x/net    dependency-type: indirect  ...<br>    Signed-off-by: dependabot[bot]   Co-authored-by:<br> dependabot[bot] |
 |2023-10-12 03:02:38|[Scanners-Box](https://github.com/We5ter/Scanners-Box)|[+]anchore/grype|
-|2023-10-12 01:51:48|[Awesome-Redteam](https://github.com/Threekiii/Awesome-Redteam)|更新README.md|
 |2023-10-12 01:51:01|[Awesome-POC](https://github.com/Threekiii/Awesome-POC)|更新漏洞|
 |2023-10-12 01:19:58|[pingtunnel](https://github.com/esrrhs/pingtunnel)|Merge pull request #59 from esrrhs/dependabot/go_mo<br>dules/golang.org/x/net-0.17.0  Bump golang.org/x/net<br> from 0.8.0 to 0.17.0|
 |2023-10-12 00:41:28|[beef](https://github.com/beefproject/beef)|Merge branch 'dependabot/bundler/rubocop-1.57.0' in<br>to dependabot-updates upddate rubocop gem|
@@ -105,12 +107,10 @@
 |2023-10-10 05:50:56|[dperf](https://github.com/baidu/dperf)|Merge pull request #380 from pengjianzhang/main  v1<br>.7.0-dev|
 |2023-10-10 03:44:58|[HackerPermKeeper](https://github.com/RuoJi6/HackerPermKeeper)|Update adduser_new_user.py|
 |2023-10-08 10:13:06|[X-Marshal](https://github.com/XTeam-Wing/X-Marshal)|Update README.md|
-|2023-10-08 07:52:08|[Vulhub-Reproduce](https://github.com/Threekiii/Vulhub-Reproduce)|更新漏洞|
 |2023-10-08 07:47:23|[Vulnerability-Wik<br>i](https://github.com/Threekiii/Vulnerability-Wiki)|commit message|
 |2023-10-08 02:32:31|[DNSlog-GO](https://github.com/lanyi1998/DNSlog-GO)|Update README.md|
 |2023-10-07 07:22:24|[SharpShellcodeLoa<br>der_Rc4Aes](https://github.com/xf555er/SharpShellcodeLoader_Rc4Aes)|first commit|
-|2023-10-07 06:34:59|[Mobile-Security-F<br>ramework-MobSF](https://github.com/MobSF/Mobile-Security-Framework-MobSF)|[HOTFIX][EFR] Priority Bug Fixes (#2275)  * P1.1 AA<br>R Permissions not properly listed   * P1.2 Local var<br>iable table not listed in proper section  * P1.3 sta<br>tic library strings are not listed  * P1.5 Stripping<br> of dynamic and static libraries are not correctly r<br>eported  * Dependency bump  * MobSF version bump|
-|2023-10-06 14:58:31|[dirsearch](https://github.com/maurosoria/dirsearch)|Merge pull request #1330 from drego85/patch-14  Add<br>ing configure.php|## 所有项目
+|2023-10-07 06:34:59|[Mobile-Security-F<br>ramework-MobSF](https://github.com/MobSF/Mobile-Security-Framework-MobSF)|[HOTFIX][EFR] Priority Bug Fixes (#2275)  * P1.1 AA<br>R Permissions not properly listed   * P1.2 Local var<br>iable table not listed in proper section  * P1.3 sta<br>tic library strings are not listed  * P1.5 Stripping<br> of dynamic and static libraries are not correctly r<br>eported  * Dependency bump  * MobSF version bump|## 所有项目
 # 渗透测试
 ## 信息收集
 ### 资产测绘采集
@@ -1274,7 +1274,7 @@
 ## 分析辅助
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
-| [BlueTeamTools](https://github.com/abc123info/BlueTeamTools) | BlueTea<br>mToolsV0<br>.88版本 | 蓝队分析研判工具箱，自带的反编译工具对红队也有帮助，有建议欢迎<br>给我留言 |
+| [BlueTeamTools](https://github.com/abc123info/BlueTeamTools) | BlueTea<br>mToolsV0<br>.89版本 | 蓝队分析研判工具箱，功能包括内存马反编译分析、各种代码格式化、<br>网空资产测绘功能、溯源辅助、解密冰蝎流量、解密哥斯拉流量、解密Sh<br>iro/CAS/Log4j2的攻击payload、IP/端口连接分析、各种编码/解码功能<br>、蓝队分析常用网址、java反序列化数据包分析、Java类名搜索、Fofa搜<br>索、Hunter搜索等。 |
 ## 知识库
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
