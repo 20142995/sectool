@@ -200,8 +200,8 @@
     "https://github.com/ycdxsb/PocOrExp_in_Github": {
         "created_at": "2021-04-13 05:46:16",
         "description": "聚合Github上已有的Poc或者Exp，CVE信息来自CVE官网。Auto Collect Poc Or Exp from Github by CVE ID.",
-        "commit_date": "2023-10-21 23:49:11",
-        "commit_message": "update 2023-10-22 07:49:11",
+        "commit_date": "2023-10-22 23:53:25",
+        "commit_message": "update 2023-10-23 07:53:25",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -981,8 +981,8 @@
     "https://github.com/sqlmapproject/sqlmap": {
         "created_at": "2012-06-26 09:52:15",
         "description": "Automatic SQL injection and database takeover tool",
-        "commit_date": "2023-10-20 13:24:41",
-        "commit_message": "Fixes #5549",
+        "commit_date": "2023-10-22 09:13:17",
+        "commit_message": "Minor patch",
         "release_tag": "1.7",
         "release_date": "2023-01-02 22:32:55",
         "release_message": "Stable version 1.7 ([changeset](https://github.com/sqlmapproject/sqlmap/compare/1.6...1.7))"
@@ -1035,8 +1035,8 @@
     "https://github.com/ffuf/ffuf": {
         "created_at": "2018-11-08 09:25:49",
         "description": "Fast web fuzzer written in Go",
-        "commit_date": "2023-09-20 10:22:05",
-        "commit_message": "Fix autocalibration-strategy merging, add tests (#732)",
+        "commit_date": "2023-10-22 14:34:24",
+        "commit_message": "Fixed setting unlimited rate in interactive console (#748)\n\n* Fixed setting unlimited rate in interactive console\r\n\r\n* Add changelog entry",
         "release_tag": "v2.1.0",
         "release_date": "2023-09-16 12:23:19",
         "release_message": "## Changelog\n* 7a2756a Prepare for v2.1.0 release (#724)\n* 36124a1 Default to match 2XX  (#723)\n* e3e4e62 Report if request times out while time matcher / filter is active (#722)\n* e80fdc4 [FEATURE] Extensible Auto-calibration strategies (#694)\n* a7dea16 allow unused wordlist in config file (#652)\n* 8453335 Don't write a finishing newline in silent mode (#677)\n* 02e6a73 Add -raw cli flag (#721)\n* 3fdb4e2 Automatic brotli and deflate decompression (#720)\n* 6731988 Fix #718 (#719)\n* 9f2163a fix csv output file format (#683)\n* 6f29907 Fixed Error for HTML Output (#714)\n* 96fef62 Fix Issue696 -- Divide by 0 Error when setting rate to 0 manually (#700)\n* 301968c Add cert authentication to crawl (#713)\n* ca2224c Pencode (#717)\n* 5fd821c Fix md output format (#672)\n* e979f72 bump golang.org/x/net from 0.5.0 to 0.7.0 (#650)\n* b8705ef Add additional check for keywords when using sniper mode (#661)\n* a3bd865 Support older versions of TLS regardless of Go defaults (#671)\n* 627c871 [Fix] Fixed multiline output when using only one fuzz variable (issue #645) (#656)\n* b2c1f94 Fix HTML output (#640)\n\n"
@@ -1861,8 +1861,8 @@
     "https://github.com/f0ng/captcha-killer-modified": {
         "created_at": "2022-03-18 12:41:58",
         "description": "captcha-killer的修改版，支持关键词识别base64编码的图片，添加免费ocr库，用于验证码爆破，适配新版Burpsuite",
-        "commit_date": "2023-09-15 04:53:00",
-        "commit_message": "Update README.md",
+        "commit_date": "2023-10-22 10:02:32",
+        "commit_message": "Add files via upload",
         "release_tag": "0.24.2",
         "release_date": "2023-09-15 04:53:52",
         "release_message": "【2023-9-15】 0.24.2\r\n- 优化@captcha-killer-modified@关键字"
@@ -2953,9 +2953,9 @@
         "description": "Free universal database tool and SQL client",
         "commit_date": "2023-10-20 20:13:02",
         "commit_message": "dbeaver/dbeaver#21611 NIO path resolve fix (#21612)\n\n* dbeaver/dbeaver#21611 NIO path resolve fix\r\n\r\n* dbeaver/dbeaver#21611 NIO path resolve fix",
-        "release_tag": "23.2.2",
-        "release_date": "2023-10-08 16:59:05",
-        "release_message": "\n                - SQL editor:\n                    - Aut-completion for complex SQL queries was improved\n                    - Reconnecting of open editors when switching between Simple and Advanced view was fixed\n                    - SQL console now can be saved as script\n                - ER diagrams:\n                    - Diagrams notations switcher was added\n                    - Connections rendering was improved\n                    - Crow’s foot notation was added\n                - Data editor:\n                    - Multiple query results now can be displayed vertically\n                    - `Go to column` (Ctrl+F) action was added\n                    - Column search was added to Metadata panel\n                    - Numeric formatting was fixed for floating point numbers\n                    - Issue with empty table after opening the Calc panel was resolved\n                    - Setting row color for the result set was fixed\n                - Data transfer: columns automating mapping is now configurable\n                - General:\n                    - `Restore defaults` on preference pages now resets to actual default preferences\n                    - Eclipse 2023-09 plugin API is now supported\n                    - Reset UI settings was fixed on macOS\n                    - App crash when running on Wayland was fixed\n                    - java.compiler and java.scripting modules were included in bundled Java\n                Databases:\n                    - Dameng database extension was added (thanks to @Stkai)\n                    - Clickhouse: array map representation was fixed\n                    - Google Spanner: table DDL generation was fixed\n                    - DB2 LUW: trigger editor was fixed\n                    - Exasol: customer group creation was fixed\n                    - Fireberd: several keywords were added\n                    - Materialized: system schemas loading was fixed\n                    - PostgreSQL:\n                        - Backup/restore native tools execution was fixed\n                        - `Europe/Kyiv` timezone support was fixed\n                    - Redshift:\n                        - Schemas loading was fixed\n                        - Spectrum tables loading was fixed (for custom driver configurations)\n            "
+        "release_tag": "23.2.3",
+        "release_date": "2023-10-22 15:59:28",
+        "release_message": "\n                - Data editor:\n                    - Excel (XLSX) export now supports columns auto-fit\n                    - Copy from row bellow/above command was fixed\n                    - Shortcut for \"Got to column\" column was changed to Ctrl+Shift+G\n                - SQL editor:\n                    - Script statistics configuration was extended\n                    - AI completion bugs were fixed and configuration UI was redesigned\n                    - Tabs close in horizontal mode was fixed\n                    - Script to connection association save was fixed\n                - Data export:\n                    - Data import tasks wer fixed for schema-less databases\n                    - Columns value transform expressions evaluation was fixed\n                    - All data transfer were migrated to a new IO API\n                    - Export functionality now can be disabled completely\n                    - Tasks loading for missing database objects was fixed\n                - ER diagrams: one-to-one connections rendering was fixed\n                - General:\n                    - Default file encoding was changed to UTF-8. IT affects all external tools integration.\n                    - Web based authentication is now opened in external browser by default\n                    - Version update functionality now can be disabled completely\n                - Databases:\n                    - Clickhouse: map data type visualization was fixed\n                    - Databricks: issue with national encodings was resolved\n                    - Greenplum:\n                        - Issue with case-sensitive table names was resolved\n                        - FFL for function parameters was fixed\n                    - MySQL: session manager now shows info from performance_schema\n                    - OpenEdge: root catalog is now hidden; data export was fixed\n                    - PostgreSQL: foreign key DDL was fixed (MATCH FULL)\n                - Misc: we switched to Eclipse 2023-09\n            "
     },
     "https://github.com/zema1/yarx": {
         "created_at": "2021-11-11 09:43:21",
@@ -3406,7 +3406,7 @@
     "https://github.com/bit4woo/domain_hunter_pro": {
         "created_at": "2019-01-18 07:15:15",
         "description": "domain_hunter的高级版本，SRC挖洞、HW打点之必备！自动化资产收集；快速Title获取；外部工具联动；等等",
-        "commit_date": "2023-10-21 03:26:59",
+        "commit_date": "2023-10-22 03:11:27",
         "commit_message": "update",
         "release_tag": "v1.9",
         "release_date": "2023-04-18 00:34:58",
@@ -3703,8 +3703,8 @@
         "description": "PEASS - Privilege Escalation Awesome Scripts SUITE (with colors)",
         "commit_date": "2023-10-11 20:59:21",
         "commit_message": "Merge pull request #396 from RandolphConley/master\n\nlogo color, updated output, added -fullcheck flag",
-        "release_tag": "20231015-0ad0e48c",
-        "release_date": "2023-10-15 04:29:20",
+        "release_tag": "20231022-e8682dd7",
+        "release_date": "2023-10-22 04:27:09",
         "release_message": ""
     },
     "https://github.com/waderwu/attackRmi": {
@@ -4061,8 +4061,8 @@
     "https://github.com/WebGoat/WebGoat": {
         "created_at": "2015-03-06 14:02:02",
         "description": "WebGoat is a deliberately insecure application",
-        "commit_date": "2023-08-27 12:31:35",
-        "commit_message": "fix: potential NPE in the stored XSS assignment",
+        "commit_date": "2023-10-22 13:25:52",
+        "commit_message": "Fix servers id (#1619)",
         "release_tag": "v2023.4",
         "release_date": "2023-02-17 12:16:10",
         "release_message": "## Version 2023.4\r\n\r\n### New functionality\r\n\r\n- [#1422 Add Docker Linux Desktop variant with all tools installed](https://github.com/WebGoat/WebGoat/issues/1422). Thanks to the [OWASP WrongSecrets project](https://owasp.org/www-project-wrongsecrets/) we now have a Docker Linux desktop image with all the tools installed. No need to install any tools locally only run the new Docker image. See README.md for details on how to start it.\r\n- [#1411 JWT: looks that buy as Tom also works with alg:none](https://github.com/WebGoat/WebGoat/issues/1411).\r\n\r\n### Bug fixes\r\n\r\n- [#1410 WebWolf: JWT decode is broken](https://github.com/WebGoat/WebGoat/issues/1410).\r\n- [#1396 password_reset return 500 Error](https://github.com/WebGoat/WebGoat/issues/1396).\r\n- [#1379 Move XXE to A05:2021-Security Misconfiguration](https://github.com/WebGoat/WebGoat/issues/1379)."
@@ -4277,7 +4277,7 @@
     "https://github.com/aiboboxx/v2rayfree": {
         "created_at": "2021-10-13 11:34:53",
         "description": "v2ray节点、免费节点、免费v2ray节点、最新公益免费v2ray节点订阅地址、免费v2ray节点每日更新、免费ss/v2ray/trojan节点、freefq ",
-        "commit_date": "2023-10-21 12:32:55",
+        "commit_date": "2023-10-22 12:33:04",
         "commit_message": "update",
         "release_tag": "",
         "release_date": "",
@@ -4322,8 +4322,8 @@
     "https://github.com/freefq/free": {
         "created_at": "2020-06-07 02:48:33",
         "description": "翻墙、免费翻墙、免费科学上网、免费节点、免费梯子、免费ss/v2ray/trojan节点、蓝灯、谷歌商店、翻墙梯子",
-        "commit_date": "2023-10-22 00:00:02",
-        "commit_message": "updated_at 10-22 08:00",
+        "commit_date": "2023-10-23 00:00:03",
+        "commit_message": "updated_at 10-23 08:00",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -4565,11 +4565,11 @@
     "https://github.com/r0oth3x49/ghauri": {
         "created_at": "2022-10-01 11:21:50",
         "description": "An advanced cross-platform tool that automates the process of detecting and exploiting SQL injection security flaws",
-        "commit_date": "2023-10-17 04:33:06",
-        "commit_message": "fixed issue with JSON body when content-type header is not properly set, fixed retry mechanism as it goes into an infinite loop on error, fixed #104, bumped version 1.2.6",
-        "release_tag": "1.2.6",
-        "release_date": "2023-10-17 04:36:09",
-        "release_message": "### Fixes\r\n - fixed #104 \r\n - fixed issue with POST body type detection when content-type is not properly set on web server.\r\n - fixed issue with infinite loop on retry mechanism."
+        "commit_date": "2023-10-22 10:04:48",
+        "commit_message": "updated README file for proper instruction on how to get this latest  switch to work.",
+        "release_tag": "1.2.7",
+        "release_date": "2023-10-22 09:45:04",
+        "release_message": "Features:\r\n - added feature to update using command line when the ghauri cloned and installed from github using git: `--update`"
     },
     "https://github.com/dalinvip/Awesome-ChatGPT": {
         "created_at": "2023-02-06 11:57:37",
@@ -4781,8 +4781,8 @@
     "https://github.com/zaivanza/all-in-one-v2": {
         "created_at": "2023-04-29 09:03:49",
         "description": "",
-        "commit_date": "2023-10-20 09:46:45",
-        "commit_message": "add base, zora, scroll + fixes",
+        "commit_date": "2023-10-22 07:11:06",
+        "commit_message": "fix readme",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -5004,8 +5004,8 @@
     "https://github.com/rustdesk/rustdesk": {
         "created_at": "2020-09-28 15:36:08",
         "description": "An open-source remote desktop, and alternative to TeamViewer.",
-        "commit_date": "2023-10-21 08:14:39",
-        "commit_message": "Merge pull request #6125 from 21pages/reconnect\n\nshow reconnect timeout and dismiss all dialog when show reconnecting",
+        "commit_date": "2023-10-22 15:06:37",
+        "commit_message": "Merge pull request #6134 from Kleofass/patch-3\n\nUpdate lv.rs",
         "release_tag": "1.2.3",
         "release_date": "2023-10-13 10:47:12",
         "release_message": " ![image](https://github.com/rustdesk/rustdesk/assets/71636191/83754a64-31b8-47f0-8570-da22207759a9)\r\n\r\n > Winget, FDroid update will come soon.\r\n\r\n x86-64: [Windows](https://github.com/rustdesk/rustdesk/releases/download/1.2.3/rustdesk-1.2.3-x86_64.exe) | [Ubuntu](https://github.com/rustdesk/rustdesk/releases/download/1.2.3/rustdesk-1.2.3-x86_64.deb) | [Mac](https://github.com/rustdesk/rustdesk/releases/download/1.2.3/rustdesk-1.2.3-x86_64.dmg)\r\n AArch64 (ARM64):  [Ubuntu](https://github.com/rustdesk/rustdesk/releases/download/1.2.3/rustdesk-1.2.3-aarch64.deb) | [Android](https://github.com/rustdesk/rustdesk/releases/download/1.2.3/rustdesk-1.2.3-aarch64-signed.apk) | [Mac](https://github.com/rustdesk/rustdesk/releases/download/1.2.3/rustdesk-1.2.3-aarch64.dmg)\r\n\r\n More: [check below please](#)\r\n\r\n <details>\r\n <summary>Changelog</summary>\r\n\r\n- Improve Wayland support, cursor/clipboard/multi-monitors etc, but highly depends on Xwayland, working well on GNOME, bad compatibility on KDE. We will continue working on Wayland\r\n- Add group tab\r\n- Add software update check based on github latest tag\r\n- Some fixes for Kaspersky compliance, https://github.com/rustdesk/rustdesk/discussions/5624, but they requested more\r\n- A lot of fixes since 1.2.2\r\n- We are still working hard on dual-monitors-dual-windows and new hardware codecs, hopefully be in 1.2.4\r\n\r\n </details>"
