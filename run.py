@@ -116,7 +116,7 @@ def json2yaml(path, data, encoding="utf8"):
 
 def yaml2json(path, encoding="utf8"):
     with open(path, "r", encoding=encoding) as f:
-        data = yaml.load(f, Loader=yaml.Loader)
+        data = yaml.safe_load(f)
     return data
 
 
