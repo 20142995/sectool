@@ -801,6 +801,7 @@ CTF:
             - https://github.com/denny0223/scrabble
     密码学:
         RSA:
+            - https://github.com/6u661e/CTF-RSA-tool
             - https://github.com/pablocelayes/rsa-wiener-attack
             - https://github.com/Mr-Aur0ra/RSA
             - https://github.com/RsaCtfTool/RsaCtfTool
