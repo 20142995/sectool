@@ -323,6 +323,7 @@
             Webpack接口:
                 - https://github.com/rtcatc/Packer-Fuzzer
             .git泄露:
+                - https://github.com/lijiejie/GitHack
                 - https://github.com/BugScanTeam/GitHack
                 - https://github.com/arthaud/git-dumper
                 - https://github.com/obheda12/GitDorker
@@ -330,6 +331,8 @@
                 - https://github.com/lijiejie/ds_store_exp
             .svn泄露:
                 - https://github.com/admintony/svnExploit
+            idea:
+                - https://github.com/lijiejie/idea_exploit
             代码泄露综合:
                 - https://github.com/kost/dvcs-ripper
             敏感数据泄露:
@@ -343,6 +346,8 @@
                 - https://github.com/Tas9er/UEditorGetShell
 
         产品/组件/框架漏洞:
+            IIS:
+                - https://github.com/lijiejie/IIS_shortname_Scanner
             Apache Dubbo:
                 - https://github.com/threedr3am/dubbo-exp
 
@@ -530,6 +535,8 @@
 
             - https://github.com/Potato-py/getIntrInfo
             - https://github.com/GhostPack/SharpDPAPI
+
+            - https://github.com/lijiejie/WIFIpass
 
         漏洞发现:
             - https://github.com/inbug-team/InScan
