@@ -9,7 +9,7 @@ import traceback
 import time
 import re
 import requests
-import ruamel.yaml as yaml
+import yaml
 
 requests.packages.urllib3.disable_warnings()
 
@@ -113,10 +113,9 @@ def json2yaml(path, data, encoding="utf8"):
         yml.indent(mapping=4, sequence=4, offset=4)
         yml.dump(data, f)
 
-
 def yaml2json(path, encoding="utf8"):
-    with open(path, "r", encoding=encoding) as f:
-        data = yaml.safe_load(f)
+    with open(path, 'r', encoding=encoding) as f:
+        data = yaml.load(stream=f, Loader=yaml.FullLoader)
     return data
 
 

@@ -22,7 +22,7 @@ jobs:
     - name: Install dependencies
       run: |
         pip install requests
-        pip install ruamel.yaml
+        pip install pyyaml
     - name: sectool
       env: 
          GH_TOKEN: ${{ secrets.GH_TOKEN }}
