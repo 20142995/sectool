@@ -751,18 +751,23 @@
             - https://github.com/SleepingBag945/frpCracker
 CTF:
     杂项:
-        图片隐写:
-            - https://github.com/Giotino/stegsolve
-            - https://github.com/chishaxie/BlindWaterMark
-            - https://github.com/ww23/BlindWatermark
-            - https://github.com/linyacool/blind-watermark
-            - https://github.com/guofei9987/blind_watermark
-            - https://github.com/livz/cloacked-pixel
-            - https://github.com/RetrO-hash/CTFpics
-            - https://github.com/zR00t1/ImageStrike
-            - https://github.com/dhsdshdhk/stegpy
-            - https://github.com/7thSamurai/steganography
+        自动拼图:
             - https://github.com/JamesHoi/PuzzleSolver
+        图片隐写:
+            其他:
+                - https://github.com/Giotino/stegsolve
+                - https://github.com/livz/cloacked-pixel
+                - https://github.com/RetrO-hash/CTFpics
+                - https://github.com/zR00t1/ImageStrike
+                - https://github.com/dhsdshdhk/stegpy
+                - https://github.com/7thSamurai/steganography
+                
+            图片盲水印:
+                - https://github.com/ww23/BlindWatermark
+                - https://github.com/chishaxie/BlindWaterMark
+                - https://github.com/ww23/BlindWatermark
+                - https://github.com/linyacool/blind-watermark
+                - https://github.com/guofei9987/blind_watermark
         流量分析:
             - https://github.com/WangYihang/UsbMiceDataHacker
             - https://github.com/WangYihang/UsbKeyboardDataHacker
