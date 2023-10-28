@@ -786,8 +786,6 @@ CTF:
             - https://github.com/saucer-man/qq_msg_decode
         音频隐写:
             - https://github.com/ribt/dtmf-decoder
-        文件分离:
-            - https://github.com/chishaxie/BlindWaterMark
         压缩文件分析:
             - https://github.com/AabyssZG/CRC32-Tools
         综合:
