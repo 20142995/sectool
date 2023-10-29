@@ -1,8 +1,10 @@
-# 更新于 2023-10-28 08:34:34
+# 更新于 2023-10-29 08:37:54
 
 ## 近15天release更新记录
 | 更新时间 | 项目名称 | 版本 | 更新内容 |
 | :---- | :---- | :---- | :---- |
+|2023-10-28 06:46:36|[HackerPermKeeper](https://github.com/RuoJi6/HackerPermKeeper)|5.0|1、检测docker，k8s环境  2、检测docker<br>逃逸，特权逃逸，Docker Socket逃逸，dock<br>er procfs逃逸[以后会添加针对k8s横向以<br>及逃逸]  3、别名权限维持文件不存在bug修<br>复  4、修复检测脚本bug|
+|2023-10-28 04:38:57|[trivy](https://github.com/aquasecurity/trivy)|v0.46.1|## Changelog * 27a3e55e8 fix(java): d<br>ownload java-db once (#5442) * d223732<br>65 chore(deps): bump google.golang.org<br>/grpc from 1.57.0 to 1.57.1 (#5447)  |
 |2023-10-27 16:42:15|[neuvector](https://github.com/neuvector/neuvector)|v5.0.7-<br>s6||
 |2023-10-27 11:00:44|[Pentest-Windows](https://github.com/arch3rPro/Pentest-Windows)|v2.2|新增内网渗透工具和远程管理工具、删除<br>了部分已不再维护或基本不用的工具    Win<br>dows11 Penetration Suite Toolkit v2.2 <br>(WSL) 【推荐】  下载链接：https://www.<br>123pan.com/s/q59KVv-T4Qpd.html 提取码:<br>wpst  文件大小：8.55GB，解压后：23.2GB<br>  SHA256：7305DBFFF38EAAD59373C8232EB4<br>17F6E996A5E80F379D22688BAC0E7C8CA6A9  <br>Windows11 Penetration Suite Toolkit v2<br>.2 (NoWSL) 【无WSL】  下载链接：https:<br>//www.123pan.com/s/q59KVv-tvQpd.html <br>提取码:wpst  文件大小：7.13 GB，解压后<br>：17.6GB  SHA256：D05F8366E1054911AAE88<br>5A61D2621786B74CC6050F55A66B90CE4EDD38<br>CFD98|
 |2023-10-27 10:48:46|[gshark](https://github.com/madneal/gshark)|v1.2.2|## Fixed    * 修复数据库初始化逻辑问<br>题  * 升级前端组件版本|
@@ -28,38 +30,40 @@
 |2023-10-15 07:22:27|[Exp-Tools](https://github.com/cseroad/Exp-Tools)|v1.2.3|- 集合最近爆出的漏洞，跳过1.2.2版本，<br>更新到1.2.3  - 更新多个漏洞|
 |2023-10-15 06:38:23|[afrog](https://github.com/zan8in/afrog)|v2.8.9|Added:  - Command: -dingtalk Function<br>: Dingtalk webhook    Optimization:  -<br> Sqlite warehousing error retry functi<br>on, up to 5 retries  - PoC: weblogic-p<br>anel, weblogic-weak-login    Deteled: <br> - PoC: backup-files    Total number o<br>f PoCs: 1169    --------------------  <br>  新增：   - 命令：-dingtalk    作用：<br>Dingtalk webhook     优化：  - Sqlite <br>入库错误重试功能，最大重试 5 次  - PoC<br>：weblogic-panel、weblogic-weak-login  <br>  删除：  - PoC：backup-files    PoC <br>总数：1169  |
 |2023-10-14 16:27:55|[cloudTools](https://github.com/dark-kingA/cloudTools)|main| 1.云服务工具模块：  阿里云：添加子用<br>户列表查看  华为云：添加子用户列表查看 <br> 腾讯云：添加子用户列表查看  #7 解决腾<br>讯云主机只能查询20个限制BUG  ucloud：新<br>增ucloud、主机查询、接管控制台、子用户<br>列表查看、主用户查看、订单查看  更新应<br>用图标|
-|2023-10-14 15:14:05|[trivy](https://github.com/aquasecurity/trivy)|v0.46.0|⚡Release highlights and summary⚡   <br> 👉 https://github.com/aquasecurity/tr<br>ivy/discussions/5377    ## Changelog  <br>* cbbd1ce1f feat(k8s): add support for<br> vulnerability detection (#5268)  * 24<br>a0d9214 fix(python): override BOM in r<br>equirements.txt files (#5375)  * 0c3e2<br>f08b docs: add kbom documentation (#53<br>63)  * 6c12f0428 test: use maximize bu<br>ild space for VM tests (#5362)  * c413<br>4224a chore(deps): bump golang.org/x/n<br>et from 0.15.0 to 0.17.0 (#5365)  * 20<br>ab7033b fix(report): add escaping quot<br>es in misconfig Title for asff templat<br>e (#5351)  * 91841f59b ci: add workflo<br>w to check Go versions of dependencies<br> (#5340)  * 57ba05c76 chore(deps): Upg<br>rade defsec to v0.93.1 (#5348)  * fef3<br>ed435 chore(deps): bump alpine from 3.<br>18.3 to 3.18.4 (#5300)  * ced54aced fi<br>x: Report error when os.CreateTemp fai<br>ls (to be consistent with other uses) <br>(#5342)  * 2798df916 fix: add config f<br>iles to FS for post-analyzers (#5333) <br> * af485b33f fix: fix MIME warnings af<br>ter updating to Go 1.20 (#5336)  * 008<br>babfb8 build: fix a compile error with<br> Go 1.21 (#5339)  * 00d9c4666 feat: ad<br>ded Metadata into the k8s resource's s<br>can report (#5322)  * 03b6787c4 ci: ch<br>eck only PR's in actions/stale (#5337)<br>  * e6d5889ed chore: update adopters t<br>emplate (#5330)  * 74dbd8a1f ci: do no<br>t trigger tests on the push event (#53<br>13)  * 393bfdc1a fix(sbom): use PURL o<br>r Group and Name in case of Java  (#51<br>54)  * 76eb8a57b docs: add buildkite r<br>epository to ecosystem page (#5316)  *<br> 6c74ee11f chore(deps): bump docker/se<br>tup-qemu-action from 2 to 3 (#5290)  *<br> 6119878de chore(deps): bump docker/se<br>tup-buildx-action from 2 to 3 (#5292) <br> * a346587b8 chore(deps): bump actions<br>/cache from 3.3.1 to 3.3.2 (#5293)  * <br>7e613cc5f chore(deps): bump github.com<br>/google/uuid from 1.3.0 to 1.3.1 (#528<br>6)  * f05bc4be4 chore(deps): bump gith<br>ub.com/hashicorp/go-getter from 1.7.1 <br>to 1.7.2 (#5289)  * 3be5e6b24 chore: e<br>nable go-critic (#5302)  * f6cd21c87 c<br>hore(deps): bump actions/checkout from<br> 3.6.0 to 4.1.0 (#5288)  * f7b975187 c<br>hore(deps): bump github.com/aws/aws-sd<br>k-go from 1.45.3 to 1.45.19 (#5287)  *<br> 18d168769 close java-db client (#5273<br>)  * eb60e9f3c chore(deps): bump docke<br>r/login-action from 2 to 3 (#5291)  * <br>5a92055e1 chore(deps): bump github.com<br>/aws/aws-sdk-go-v2/service/sts (#5294)<br>  * 46afe65ee chore(deps): bump github<br>.com/sigstore/rekor from 1.2.1 to 1.3.<br>0 (#5304)  * 0bf2a11a2 chore(deps): bu<br>mp github.com/opencontainers/image-spe<br>c (#5295)  * 23b5fece0 fix(report): re<br>moves git::http from uri in sarif (#52<br>44)  * 4f1d576e5 Improve the meaning o<br>f  sentence (#5301)  * 6ab2bdfa7 chore<br>(deps): bump github.com/owenrumney/go-<br>sarif/v2 from 2.2.0 to 2.2.2 (#5297)  <br>* 4217cffb5 chore(deps): bump golang.o<br>rg/x/term from 0.11.0 to 0.12.0 (#5296<br>)  * 184058470 add app nil check (#527<br>4)  * c5ae9f265 typo: in secret.md (#5<br>281)  * 562723f0a docs: add info about<br> github format (#5265)  * 3dd5b1e94 fe<br>at(dotnet): add license support for Nu<br>Get (#5217)  * 5c18475f3 docs: correct<br>ly export variables (#5260)  * 0c08dde<br>01 chore: Add line numbers for lint ou<br>tput (#5247)  * 0ccbb4f7f chore(cli): <br>disable java-db flags in server mode (<br>#5263)  * 908a4914c feat(db): allow pa<br>ssing registry options (#5226)  * 5b46<br>52d79 chore(deps): Bump up defsec to v<br>0.93.0 (#5253)  * faf8d49c4 refactor(p<br>url): use TypeApk from purl (#5232)  *<br> 559c0f30b chore: enable more linters <br>(#5228)  * 2baad4618 ci: bump GoReleas<br>er from 1.16.2 to 1.20.0 (#5236)  * df<br>2bff9f5 Fix typo on ide.md (#5239)  * <br>44656f285 refactor: use defined types <br>(#5225)  * 37af52994 fix(purl): skip l<br>ocal Go packages (#5190)  * eea3320d8 <br>docs: update info about license scanni<br>ng in Yarn projects (#5207)  * 2e66620<br>60 ci: auto apply labels (#5200)  * 49<br>680dc88 fix link (#5203)    |
-|2023-10-13 10:47:12|[rustdesk](https://github.com/rustdesk/rustdesk)|1.2.3|      > Winget, FDroid update will co<br>me soon.     x86-64:  |  |    AArch64 <br>(ARM64):   |  |      More:         Cha<br>ngelog    - Improve Wayland support, c<br>ursor/clipboard/multi-monitors etc, bu<br>t highly depends on Xwayland, working <br>well on GNOME, bad compatibility on KD<br>E. We will continue working on Wayland<br>  - Add group tab  - Add software upda<br>te check based on github latest tag  -<br> Some fixes for Kaspersky compliance, <br>https://github.com/rustdesk/rustdesk/d<br>iscussions/5624, but they requested mo<br>re  - A lot of fixes since 1.2.2  - We<br> are still working hard on dual-monito<br>rs-dual-windows and new hardware codec<br>s, hopefully be in 1.2.4     |
-|2023-10-13 04:13:14|[ObserverWard](https://github.com/0x727/ObserverWard)|v2023.1<br>0.13||
 ## 近15天commit提交记录
 | 提交时间 | 项目名称 | 更新内容 |
 | :---- | :---- | :---- |
-|2023-10-28 00:00:02|[free](https://github.com/freefq/free)|updated_at 10-28 08:00|
-|2023-10-27 23:53:00|[PocOrExp_in_Githu<br>b](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-10-28 07:53:00|
+|2023-10-29 00:00:02|[free](https://github.com/freefq/free)|updated_at 10-29 08:00|
+|2023-10-28 23:49:58|[PocOrExp_in_Githu<br>b](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-10-29 07:49:58|
+|2023-10-28 15:44:36|[RsaCtfTool](https://github.com/RsaCtfTool/RsaCtfTool)|Merge pull request #431 from benhunter/mac-requirem<br>ents  Update version of gmpy2 for installing require<br>ments on Mac with Apple Arm Silicon|
+|2023-10-28 13:07:38|[OneScan](https://github.com/vaycore/OneScan)|更新说明文档，优化图片尺寸|
+|2023-10-28 12:32:06|[v2rayfree](https://github.com/aiboboxx/v2rayfree)|update|
+|2023-10-28 06:59:49|[HackerPermKeeper](https://github.com/RuoJi6/HackerPermKeeper)|Update README.md|
+|2023-10-28 04:46:18|[OA-EXPTOOL](https://github.com/LittleBear4/OA-EXPTOOL)|Update README.md|
+|2023-10-28 04:45:10|[domain_hunter_pro](https://github.com/bit4woo/domain_hunter_pro)|Update maven.yml|
+|2023-10-28 04:17:23|[Stowaway](https://github.com/ph4ntonn/Stowaway)|Add Apple Silicon support|
+|2023-10-28 04:09:36|[trivy](https://github.com/aquasecurity/trivy)|fix(sbom): save digests for package/application whe<br>n scanning SBOM files (#5432)  Signed-off-by: knqyf2<br>63  Co-authored-by: knqyf263 |
+|2023-10-28 02:48:54|[rustdesk](https://github.com/rustdesk/rustdesk)|Merge pull request #6208 from fufesou/fix/prompt_dr<br>iver_cert_on_disconn  fix, prompt, driver cert , on <br>disconnecting|
+|2023-10-28 01:11:30|[DecoyMini](https://github.com/decoymini/DecoyMini)|Update README.md|
+|2023-10-28 00:43:59|[CTFd](https://github.com/CTFd/CTFd)|Merge pull request #2417 from CTFd/allow-searching-<br>in-extra-column-model-filters  * Allow searches base<br>d on build_model_filters using extra_columns to do a<br> string search. This really only applies to Admin Pa<br>nel submission search|
 |2023-10-27 20:28:13|[clair](https://github.com/quay/clair)|config: add OTLP configuration types  Signed-off-by<br>: Hank Donnay |
 |2023-10-27 18:45:30|[kube-bench](https://github.com/aquasecurity/kube-bench)|build(deps): bump github.com/golang/glog from 1.0.0<br> to 1.1.2 (#1489)  Bumps  from 1.0.0 to 1.1.2.  -   <br>-     ---  updated-dependencies:  - dependency-name:<br> github.com/golang/glog    dependency-type: direct:p<br>roduction    update-type: version-update:semver-mino<br>r  ...    Signed-off-by: dependabot[bot]   Co-author<br>ed-by: dependabot[bot]   Co-authored-by: chenk |
 |2023-10-27 18:24:56|[grype](https://github.com/anchore/grype)|feat: add custom maven comparator (#1571)  This PR <br>takes the recommendation from #1526 and adapts the g<br>o-mvn-version to be used as a custom comparator for <br>matching against packages that have the JavaPkg type<br>. Packages of type JavaPkg will no longer use the st<br>ock matcher.  ---------  Signed-off-by: Christopher <br>Phillips   Co-authored-by: Alex Goodman |
-|2023-10-27 18:03:24|[rustdesk](https://github.com/rustdesk/rustdesk)|Merge pull request #6199 from fufesou/feat/windows_<br>virtual_displays  feat, win virtual display|
 |2023-10-27 17:09:41|[FreeRDP](https://github.com/FreeRDP/FreeRDP)|[egfx] reset total decoded frames when receiving ca<br>ps  It seems like some windows servers don't like to<br> receive ack frame messages with a totalDecodedFrame<br> number that is bigger than the frameId. That can ha<br>ppen if the connection starts, some frames are decod<br>ed, we receive a renegotiate message, then egfx chan<br>nel is reopened and the frame ids we receive go back<br> to 1. In the previous situation, we ended up with s<br>ending an ack with frameId=1 and totalDecodedFrames=<br>38, with the patch totalDecodedFrames is reset when <br>receiving caps, so it's always lower than frameId.|
 |2023-10-27 16:36:01|[neuvector](https://github.com/neuvector/neuvector)|Merge pull request #1074 from gfsuse/main  NVSHAS-8<br>406, only set service container's hasDatapath to tru<br>e in istio case to avoid unexpected policy behavior|
 |2023-10-27 16:11:16|[dbeaver](https://github.com/dbeaver/dbeaver)|dbeaver/pro#2014 fix sequences permissions reading <br>for quoted roles (#21626)  Co-authored-by: MashaKora<br>x |
 |2023-10-27 15:37:03|[impacket](https://github.com/fortra/impacket)|[DumpNTLMInfo.py] fix error with 2003 (#1630)  * [D<br>umpNTLMInfo.py] fix error with 2003    Signed-off-by<br>: XiaoliChan     * [DumpNTLMInfo.py] garbrielg5: rev<br>iew I    Signed-off-by: Xiaoli Chan     ---------   <br> Signed-off-by: XiaoliChan   Signed-off-by: Xiaoli C<br>han |
 |2023-10-27 13:55:04|[syft](https://github.com/anchore/syft)|chore(deps): bump github.com/google/uuid from 1.3.1<br> to 1.4.0 (#2262)  Bumps  from 1.3.1 to 1.4.0.  -   <br>-   -     ---  updated-dependencies:  - dependency-n<br>ame: github.com/google/uuid    dependency-type: dire<br>ct:production    update-type: version-update:semver-<br>minor  ...    Signed-off-by: dependabot[bot]   Co-au<br>thored-by: dependabot[bot] |
 |2023-10-27 13:17:47|[sqlmap](https://github.com/sqlmapproject/sqlmap)|Minor update of fingerprinting payloads|
-|2023-10-27 12:34:43|[v2rayfree](https://github.com/aiboboxx/v2rayfree)|update|
 |2023-10-27 10:57:06|[Pentest-Windows](https://github.com/arch3rPro/Pentest-Windows)|Update README.md|
 |2023-10-27 10:47:19|[gshark](https://github.com/madneal/gshark)|Merge branch 'master' of github.com:madneal/gshark|
 |2023-10-27 08:53:20|[arthas](https://github.com/alibaba/arthas)|update ognl website url|
 |2023-10-27 07:15:45|[safeline](https://github.com/chaitin/safeline)|Update 2bug-report.yaml  add input "version"|
 |2023-10-27 06:03:00|[all-in-one-v2](https://github.com/zaivanza/all-in-one-v2)|fix sleeping|
-|2023-10-27 05:16:32|[OneScan](https://github.com/vaycore/OneScan)|更新版本号为1.3.7|
 |2023-10-27 00:29:54|[Awesome-Redteam](https://github.com/Threekiii/Awesome-Redteam)|更新README.md|
 |2023-10-26 15:58:08|[nuclei](https://github.com/projectdiscovery/nuclei)|Merge branch 'dev'|
-|2023-10-26 09:28:54|[HackerPermKeeper](https://github.com/RuoJi6/HackerPermKeeper)|Update README.md|
 |2023-10-26 08:19:35|[murphysec](https://github.com/murphysecurity/murphysec)|feat(cmd): add flag --only-task-id|
-|2023-10-26 07:22:19|[OA-EXPTOOL](https://github.com/LittleBear4/OA-EXPTOOL)|Update requirements.txt|
 |2023-10-26 02:54:29|[vulnerability](https://github.com/lal0ne/vulnerability)|CVE-2023-34051|
-|2023-10-26 01:50:32|[trivy](https://github.com/aquasecurity/trivy)|fix(java): download java-db once (#5442)|
 |2023-10-25 13:34:13|[afrog](https://github.com/zan8in/afrog)|update|
 |2023-10-25 12:16:45|[rengine](https://github.com/yogeshojha/rengine)|Merge pull request #1020 from AnonymousWP/bump-to-2<br>.0.1  fix(versioning): bump version number to 2.0.1|
 |2023-10-25 11:04:20|[iDefender](https://github.com/wecooperate/iDefender)|update|
@@ -71,7 +75,6 @@
 |2023-10-24 16:35:56|[faker](https://github.com/joke2k/faker)|Bump version: 19.11.1 → 19.12.0|
 |2023-10-24 11:15:57|[Elkeid](https://github.com/bytedance/Elkeid)|Merge pull request #545 from bytedance/fix-probe-ms<br>g  fix probe reconnect send data and block|
 |2023-10-24 10:34:02|[PEASS-ng](https://github.com/carlospolop/PEASS-ng)|Merge pull request #397 from RandolphConley/master <br> code update ; Added search / function for excel fil<br>es|
-|2023-10-24 09:40:03|[domain_hunter_pro](https://github.com/bit4woo/domain_hunter_pro)|Update LineTableModel.java|
 |2023-10-24 09:20:57|[Umi-OCR](https://github.com/hiroi-sora/Umi-OCR)|update readme|
 |2023-10-24 05:02:08|[ghauri](https://github.com/r0oth3x49/ghauri)|added support/donation page..|
 |2023-10-24 04:45:51|[goproxy](https://github.com/snail007/goproxy)|Update ISSUE_TEMPLATE.md|
@@ -91,20 +94,16 @@
 |2023-10-20 12:52:11|[codeql-cli-binari<br>es](https://github.com/github/codeql-cli-binaries)|Remove duplicate changelog entry|
 |2023-10-20 11:59:50|[r0capture](https://github.com/r0ysue/r0capture)|Update README.md|
 |2023-10-20 02:50:54|[Fastjson](https://github.com/safe6Sec/Fastjson)|Update README.md|
-|2023-10-19 18:52:50|[RsaCtfTool](https://github.com/RsaCtfTool/RsaCtfTool)|Update factor_2PN.py|
 |2023-10-19 11:48:09|[mitaka](https://github.com/ninoseki/mitaka)|Merge pull request #760 from ninoseki/renovate/acti<br>ons-checkout-4.x|
 |2023-10-18 02:50:06|[Library-POC](https://github.com/luck-ying/Library-POC)|Update README.md|
 |2023-10-17 07:50:43|[ARL](https://github.com/TophantTechnology/ARL)|Merge pull request #639 from TophantTechnology/upda<br>te/v2.6  Update/v2.6|
-|2023-10-16 01:31:10|[DecoyMini](https://github.com/decoymini/DecoyMini)|Update README.md|
 |2023-10-15 23:20:07|[awesome-chatgpt-z<br>h](https://github.com/yzfly/awesome-chatgpt-zh)|update readme|
 |2023-10-15 15:02:42|[ysomap](https://github.com/wh1t3p1g/ysomap)|update|
 |2023-10-15 07:28:21|[Exp-Tools](https://github.com/cseroad/Exp-Tools)|Update README.md|
 |2023-10-15 01:29:45|[dalfox](https://github.com/hahwul/dalfox)|chore: update contributors [skip ci]|
 |2023-10-14 22:52:33|[ChatGPT-Shortcut](https://github.com/rockbenben/ChatGPT-Shortcut)|docs: update docs|
 |2023-10-14 08:49:08|[cloudTools](https://github.com/dark-kingA/cloudTools)|Update README.md|
-|2023-10-14 02:21:50|[wpscan](https://github.com/wpscanteam/wpscan)|Merge pull request #1787 from 0n1shi/fix/db-exports<br>-not-detected  Fixed #1759|
-|2023-10-13 11:23:32|[appshark](https://github.com/bytedance/appshark)|Merge pull request #54 from firmianay/dev3  fix dex<br>ToJava on Mac/Windows|
-|2023-10-13 02:22:13|[Stowaway](https://github.com/ph4ntonn/Stowaway)|Merge pull request #57 from testwill/typo  fix: typ<br>o|## 所有项目
+|2023-10-14 02:21:50|[wpscan](https://github.com/wpscanteam/wpscan)|Merge pull request #1787 from 0n1shi/fix/db-exports<br>-not-detected  Fixed #1759|## 所有项目
 # 渗透测试
 ## 信息收集
 ### 资产测绘采集
@@ -353,7 +352,7 @@
 #### 容器安全扫描
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
-| [trivy](https://github.com/aquasecurity/trivy) | v0.46.0 | Find vulnerabilities, misconfigurations, secrets, SBOM in cont<br>ainers, Kubernetes, code repositories, clouds and more |
+| [trivy](https://github.com/aquasecurity/trivy) | v0.46.1 | Find vulnerabilities, misconfigurations, secrets, SBOM in cont<br>ainers, Kubernetes, code repositories, clouds and more |
 #### 容器镜像扫描
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
@@ -733,7 +732,7 @@
 | [CreateHiddenAccou<br>nt](https://github.com/wgpsec/CreateHiddenAccount) | 0.2 | A tool for creating hidden accounts using the registry || 一个<br>使用注册表创建隐藏帐户的工具 |
 | [SchTask_0x727](https://github.com/0x727/SchTask_0x727) | v1.0 | 创建隐藏计划任务，权限维持，Bypass AV |
 | [CloneX_0x727](https://github.com/0x727/CloneX_0x727) | 1.0 | 进行克隆用户、添加用户等账户防护安全检测的轻巧工具 |
-| [HackerPermKeeper](https://github.com/RuoJi6/HackerPermKeeper) | 4.0 |  |
+| [HackerPermKeeper](https://github.com/RuoJi6/HackerPermKeeper) | 5.0 |  |
 ### 远控
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
@@ -1104,17 +1103,28 @@
 | [frpCracker](https://github.com/SleepingBag945/frpCracker) | v0.1 | 一款golang编写的，批量检测frp server未授权访问、弱token的工具 |
 # CTF
 ## 杂项
+### 自动拼图
+| 项目名称 | 版本 | 项目描述 |
+| :---- | :---- | :---- |
+| [PuzzleSolver](https://github.com/JamesHoi/PuzzleSolver) | v1.0.1-<br>beta | 一款专门为CTF比赛设计的拼图工具 |
 ### 图片隐写
+#### 其他
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
 | [stegsolve](https://github.com/Giotino/stegsolve) | v1.4 |  |
-| [BlindWatermark](https://github.com/ww23/BlindWatermark) | v0.0.3 | Java 盲水印 |
 | [cloacked-pixel](https://github.com/livz/cloacked-pixel) |  | LSB steganography and detection |
 | [CTFpics](https://github.com/RetrO-hash/CTFpics) |  |  |
 | [ImageStrike](https://github.com/zR00t1/ImageStrike) | V0.2 | ImageStrike是一款用于CTF中图片隐写的综合利用工具 |
 | [stegpy](https://github.com/dhsdshdhk/stegpy) |  | Simple steganography program based on the LSB method. |
 | [steganography](https://github.com/7thSamurai/steganography) |  | Simple C++ Image Steganography tool to encrypt and hide files <br>insde images using Least-Significant-Bit encoding. |
-| [PuzzleSolver](https://github.com/JamesHoi/PuzzleSolver) | v1.0.1-<br>beta | 一款专门为CTF比赛设计的拼图工具 |
+#### 图片盲水印
+| 项目名称 | 版本 | 项目描述 |
+| :---- | :---- | :---- |
+| [BlindWatermark](https://github.com/ww23/BlindWatermark) | v0.0.3 | Java 盲水印 |
+| [BlindWaterMark](https://github.com/chishaxie/BlindWaterMark) |  | 盲水印 by python |
+| [BlindWatermark](https://github.com/ww23/BlindWatermark) | v0.0.3 | Java 盲水印 |
+| [blind-watermark](https://github.com/linyacool/blind-watermark) |  | Watermark added to the frequency domain by Fourier transform |
+| [blind_watermark](https://github.com/guofei9987/blind_watermark) | 0.2.1 | Blind&Invisible Watermark ，图片盲水印，提取水印无须原图！ |
 ### 流量分析
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
@@ -1141,10 +1151,6 @@
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
 | [dtmf-decoder](https://github.com/ribt/dtmf-decoder) |  | Extract phone numbers from an audio recording of the dial tone<br>s. |
-### 文件分离
-| 项目名称 | 版本 | 项目描述 |
-| :---- | :---- | :---- |
-| [BlindWaterMark](https://github.com/chishaxie/BlindWaterMark) |  | 盲水印 by python |
 ### 压缩文件分析
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
