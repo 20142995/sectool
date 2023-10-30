@@ -1,9 +1,11 @@
-# 更新于 2023-10-29 08:37:54
+# 更新于 2023-10-30 08:36:35
 
 ## 近15天release更新记录
 | 更新时间 | 项目名称 | 版本 | 更新内容 |
 | :---- | :---- | :---- | :---- |
-|2023-10-28 06:46:36|[HackerPermKeeper](https://github.com/RuoJi6/HackerPermKeeper)|5.0|1、检测docker，k8s环境  2、检测docker<br>逃逸，特权逃逸，Docker Socket逃逸，dock<br>er procfs逃逸[以后会添加针对k8s横向以<br>及逃逸]  3、别名权限维持文件不存在bug修<br>复  4、修复检测脚本bug|
+|2023-10-29 18:50:38|[malwoverview](https://github.com/alexandreborges/malwoverview)|v5.4.2|Malwoverview 5.4.2|
+|2023-10-29 10:13:17|[HackerPermKeeper](https://github.com/RuoJi6/HackerPermKeeper)|6.0| 1、Suid shell bash权限维持    2、重<br>写生成代码(连续生成)    3、添加不记录历<br>史命令临时操作，同时可以批量删除指定的.<br>bash_history文件中的历史记录    4、修<br>改检查脚本(添加检查环境)    5、使用tabu<br>late模块进行格式化输出|
+|2023-10-29 04:29:20|[PEASS-ng](https://github.com/carlospolop/PEASS-ng)|2023102<br>9-83b8fb<br>e1||
 |2023-10-28 04:38:57|[trivy](https://github.com/aquasecurity/trivy)|v0.46.1|## Changelog * 27a3e55e8 fix(java): d<br>ownload java-db once (#5442) * d223732<br>65 chore(deps): bump google.golang.org<br>/grpc from 1.57.0 to 1.57.1 (#5447)  |
 |2023-10-27 16:42:15|[neuvector](https://github.com/neuvector/neuvector)|v5.0.7-<br>s6||
 |2023-10-27 11:00:44|[Pentest-Windows](https://github.com/arch3rPro/Pentest-Windows)|v2.2|新增内网渗透工具和远程管理工具、删除<br>了部分已不再维护或基本不用的工具    Win<br>dows11 Penetration Suite Toolkit v2.2 <br>(WSL) 【推荐】  下载链接：https://www.<br>123pan.com/s/q59KVv-T4Qpd.html 提取码:<br>wpst  文件大小：8.55GB，解压后：23.2GB<br>  SHA256：7305DBFFF38EAAD59373C8232EB4<br>17F6E996A5E80F379D22688BAC0E7C8CA6A9  <br>Windows11 Penetration Suite Toolkit v2<br>.2 (NoWSL) 【无WSL】  下载链接：https:<br>//www.123pan.com/s/q59KVv-tvQpd.html <br>提取码:wpst  文件大小：7.13 GB，解压后<br>：17.6GB  SHA256：D05F8366E1054911AAE88<br>5A61D2621786B74CC6050F55A66B90CE4EDD38<br>CFD98|
@@ -12,7 +14,6 @@
 |2023-10-26 16:00:33|[nuclei](https://github.com/projectdiscovery/nuclei)|v3.0.2|    ## What's Changed  ### Other Chan<br>ges  * Fixed relative path issue for t<br>emplate loading by @tarunKoyalwar in h<br>ttps://github.com/projectdiscovery/nuc<br>lei/pull/4284      **Full Changelog**:<br> https://github.com/projectdiscovery/n<br>uclei/compare/v3.0.1...v3.0.2|
 |2023-10-25 09:32:17|[Elkeid](https://github.com/bytedance/Elkeid)|rasp-v2<br>.2.1.0-p<br>re||
 |2023-10-24 16:36:29|[faker](https://github.com/joke2k/faker)|v19.12.<br>0|See .|
-|2023-10-24 10:55:21|[PEASS-ng](https://github.com/carlospolop/PEASS-ng)|2023102<br>4-f6adaa<br>47||
 |2023-10-24 05:51:26|[rengine](https://github.com/yogeshojha/rengine)|v2.0.1|2.0.1 fixes a ton of issues in reNgin<br>e 2.0.    Fixes:   1. Prevent duplicat<br>ing Nuclei vulns for subdomain #1012 @<br>psyray  2. Fixes for empty subdomain r<br>eturned during nuclei scan #1011 @psyr<br>ay  3. Add all the missing slug in sca<br>nEngine view & other places #1005 @psy<br>ray  4. Foxes for missing vulscan scri<br>pt #1004 @psyray  5. Fixes for missing<br> slug in report settings saving #1003 <br> 6. Fixes for Nmap Parsing Error #1001<br> #1002 @psyray  7. Fix nmap script por<br>ts iterable args #1000 @psyray  8. Ite<br>rate over hostnames when multiple #100<br>2 @psyray  8. Gau install #998, change<br> gauplus to gau @psyray  9. Add missin<br>g slug parameter in schedule scan #996<br> @psyray  10. Add missing slug paramet<br>er in schedule scan #996, fixes #940, <br>#937, #897, #764 @psyray  11. Add stac<br>k trace into make logs if DEBUG True #<br>994 @psyray  12. Fix dirfuzz base64 na<br>me display #993 #992 @psyray  13. Fix <br>target subdomains list not loading #99<br>1 @psyray  14. Change WORDLIST constan<br>t value #987, fixes #986@psyray   15. <br>fix(notification_settings): submitting<br> results in error 502 #981 fixes #970 <br>@psyray  16. Fixes with documentation <br>and installation/update/uninstall scri<br>pts @anonymousWP  17. Fix file directo<br>ry popup not showing in detailed scan <br>#912 @psyray      @AnonymousWP and @ps<br>yray have been phenomenal in fixing th<br>ese bugs. Thanks to both of you! :hear<br>t: :rocket: |
 |2023-10-24 02:57:54|[frp](https://github.com/fatedier/frp)|v0.52.3|### Fixes  * admin_user is not effect<br>ive in the INI configuration.  |
 |2023-10-23 13:43:41|[autoDecoder](https://github.com/f0ng/autoDecoder)|0.33|## 2023.10.23 更新0.33  1. 增加响应ba<br>se64自动解码，当响应包返回的为base64时<br>，可以自动解码，防止二进制数据包损坏  2<br>. 增加选项保存、读取|
@@ -29,21 +30,22 @@
 |2023-10-15 15:13:22|[ysomap](https://github.com/wh1t3p1g/ysomap)|v0.1.4|Release v0.1.4, current exploits(28) <br>payloads(43) bullets(45):  - add 16 ex<br>ploits  - add 12 payloads  - add 9  bu<br>llets    Console functions:  - add yso<br> script support  - use script /path/to<br>/file.yso to load yso script on cli mo<br>de  - use dump /path/to/file.yso to du<br>mp current session's settings on cli m<br>ode    Running mode:  - java -jar ysom<br>ap.jar cli to trigger cli mode  - java<br> -jar ysomap.jar script /path/to/file.<br>yso to trigger script mode    Contribu<br>tors on v0.1.4  - @whocansee  - @Ar3h <br>   v0.1.4 2023.10.15 auto-generated by<br> github actions|
 |2023-10-15 07:22:27|[Exp-Tools](https://github.com/cseroad/Exp-Tools)|v1.2.3|- 集合最近爆出的漏洞，跳过1.2.2版本，<br>更新到1.2.3  - 更新多个漏洞|
 |2023-10-15 06:38:23|[afrog](https://github.com/zan8in/afrog)|v2.8.9|Added:  - Command: -dingtalk Function<br>: Dingtalk webhook    Optimization:  -<br> Sqlite warehousing error retry functi<br>on, up to 5 retries  - PoC: weblogic-p<br>anel, weblogic-weak-login    Deteled: <br> - PoC: backup-files    Total number o<br>f PoCs: 1169    --------------------  <br>  新增：   - 命令：-dingtalk    作用：<br>Dingtalk webhook     优化：  - Sqlite <br>入库错误重试功能，最大重试 5 次  - PoC<br>：weblogic-panel、weblogic-weak-login  <br>  删除：  - PoC：backup-files    PoC <br>总数：1169  |
-|2023-10-14 16:27:55|[cloudTools](https://github.com/dark-kingA/cloudTools)|main| 1.云服务工具模块：  阿里云：添加子用<br>户列表查看  华为云：添加子用户列表查看 <br> 腾讯云：添加子用户列表查看  #7 解决腾<br>讯云主机只能查询20个限制BUG  ucloud：新<br>增ucloud、主机查询、接管控制台、子用户<br>列表查看、主用户查看、订单查看  更新应<br>用图标|
 ## 近15天commit提交记录
 | 提交时间 | 项目名称 | 更新内容 |
 | :---- | :---- | :---- |
-|2023-10-29 00:00:02|[free](https://github.com/freefq/free)|updated_at 10-29 08:00|
-|2023-10-28 23:49:58|[PocOrExp_in_Githu<br>b](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-10-29 07:49:58|
+|2023-10-30 00:00:01|[free](https://github.com/freefq/free)|updated_at 10-30 08:00|
+|2023-10-29 23:56:10|[PocOrExp_in_Githu<br>b](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-10-30 07:56:10|
+|2023-10-29 18:49:03|[malwoverview](https://github.com/alexandreborges/malwoverview)|Malwoverview|
+|2023-10-29 12:32:35|[v2rayfree](https://github.com/aiboboxx/v2rayfree)|update|
+|2023-10-29 10:12:11|[HackerPermKeeper](https://github.com/RuoJi6/HackerPermKeeper)|Update README.md|
+|2023-10-29 08:56:49|[all-in-one-v2](https://github.com/zaivanza/all-in-one-v2)|fix slippage sushiswap|
+|2023-10-29 08:48:17|[rustdesk](https://github.com/rustdesk/rustdesk)|Merge pull request #6219 from bovirus/master  Updat<br>e Italian language|
 |2023-10-28 15:44:36|[RsaCtfTool](https://github.com/RsaCtfTool/RsaCtfTool)|Merge pull request #431 from benhunter/mac-requirem<br>ents  Update version of gmpy2 for installing require<br>ments on Mac with Apple Arm Silicon|
 |2023-10-28 13:07:38|[OneScan](https://github.com/vaycore/OneScan)|更新说明文档，优化图片尺寸|
-|2023-10-28 12:32:06|[v2rayfree](https://github.com/aiboboxx/v2rayfree)|update|
-|2023-10-28 06:59:49|[HackerPermKeeper](https://github.com/RuoJi6/HackerPermKeeper)|Update README.md|
 |2023-10-28 04:46:18|[OA-EXPTOOL](https://github.com/LittleBear4/OA-EXPTOOL)|Update README.md|
 |2023-10-28 04:45:10|[domain_hunter_pro](https://github.com/bit4woo/domain_hunter_pro)|Update maven.yml|
 |2023-10-28 04:17:23|[Stowaway](https://github.com/ph4ntonn/Stowaway)|Add Apple Silicon support|
 |2023-10-28 04:09:36|[trivy](https://github.com/aquasecurity/trivy)|fix(sbom): save digests for package/application whe<br>n scanning SBOM files (#5432)  Signed-off-by: knqyf2<br>63  Co-authored-by: knqyf263 |
-|2023-10-28 02:48:54|[rustdesk](https://github.com/rustdesk/rustdesk)|Merge pull request #6208 from fufesou/fix/prompt_dr<br>iver_cert_on_disconn  fix, prompt, driver cert , on <br>disconnecting|
 |2023-10-28 01:11:30|[DecoyMini](https://github.com/decoymini/DecoyMini)|Update README.md|
 |2023-10-28 00:43:59|[CTFd](https://github.com/CTFd/CTFd)|Merge pull request #2417 from CTFd/allow-searching-<br>in-extra-column-model-filters  * Allow searches base<br>d on build_model_filters using extra_columns to do a<br> string search. This really only applies to Admin Pa<br>nel submission search|
 |2023-10-27 20:28:13|[clair](https://github.com/quay/clair)|config: add OTLP configuration types  Signed-off-by<br>: Hank Donnay |
@@ -59,7 +61,6 @@
 |2023-10-27 10:47:19|[gshark](https://github.com/madneal/gshark)|Merge branch 'master' of github.com:madneal/gshark|
 |2023-10-27 08:53:20|[arthas](https://github.com/alibaba/arthas)|update ognl website url|
 |2023-10-27 07:15:45|[safeline](https://github.com/chaitin/safeline)|Update 2bug-report.yaml  add input "version"|
-|2023-10-27 06:03:00|[all-in-one-v2](https://github.com/zaivanza/all-in-one-v2)|fix sleeping|
 |2023-10-27 00:29:54|[Awesome-Redteam](https://github.com/Threekiii/Awesome-Redteam)|更新README.md|
 |2023-10-26 15:58:08|[nuclei](https://github.com/projectdiscovery/nuclei)|Merge branch 'dev'|
 |2023-10-26 08:19:35|[murphysec](https://github.com/murphysecurity/murphysec)|feat(cmd): add flag --only-task-id|
@@ -100,10 +101,7 @@
 |2023-10-15 23:20:07|[awesome-chatgpt-z<br>h](https://github.com/yzfly/awesome-chatgpt-zh)|update readme|
 |2023-10-15 15:02:42|[ysomap](https://github.com/wh1t3p1g/ysomap)|update|
 |2023-10-15 07:28:21|[Exp-Tools](https://github.com/cseroad/Exp-Tools)|Update README.md|
-|2023-10-15 01:29:45|[dalfox](https://github.com/hahwul/dalfox)|chore: update contributors [skip ci]|
-|2023-10-14 22:52:33|[ChatGPT-Shortcut](https://github.com/rockbenben/ChatGPT-Shortcut)|docs: update docs|
-|2023-10-14 08:49:08|[cloudTools](https://github.com/dark-kingA/cloudTools)|Update README.md|
-|2023-10-14 02:21:50|[wpscan](https://github.com/wpscanteam/wpscan)|Merge pull request #1787 from 0n1shi/fix/db-exports<br>-not-detected  Fixed #1759|## 所有项目
+|2023-10-15 01:29:45|[dalfox](https://github.com/hahwul/dalfox)|chore: update contributors [skip ci]|## 所有项目
 # 渗透测试
 ## 信息收集
 ### 资产测绘采集
@@ -732,7 +730,7 @@
 | [CreateHiddenAccou<br>nt](https://github.com/wgpsec/CreateHiddenAccount) | 0.2 | A tool for creating hidden accounts using the registry || 一个<br>使用注册表创建隐藏帐户的工具 |
 | [SchTask_0x727](https://github.com/0x727/SchTask_0x727) | v1.0 | 创建隐藏计划任务，权限维持，Bypass AV |
 | [CloneX_0x727](https://github.com/0x727/CloneX_0x727) | 1.0 | 进行克隆用户、添加用户等账户防护安全检测的轻巧工具 |
-| [HackerPermKeeper](https://github.com/RuoJi6/HackerPermKeeper) | 5.0 |  |
+| [HackerPermKeeper](https://github.com/RuoJi6/HackerPermKeeper) | 6.0 |  |
 ### 远控
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
@@ -770,7 +768,7 @@
 | [dirtycow](https://github.com/firefart/dirtycow) |  | Dirty Cow exploit - CVE-2016-5195 |
 | [traitor](https://github.com/liamg/traitor) | v0.0.14 | :arrow_up: :skull_and_crossbones: :fire: Automatic Linux prive<br>sc via exploitation of low-hanging fruit e.g. gtfobins, pwnkit,<br> dirty pipe, +w docker.sock |
 | [LinEnum](https://github.com/rebootuser/LinEnum) |  | Scripted Local Linux Enumeration & Privilege Escalation Checks |
-| [PEASS-ng](https://github.com/carlospolop/PEASS-ng) | 2023102<br>4-f6adaa<br>47 | PEASS - Privilege Escalation Awesome Scripts SUITE (with color<br>s) |
+| [PEASS-ng](https://github.com/carlospolop/PEASS-ng) | 2023102<br>9-83b8fb<br>e1 | PEASS - Privilege Escalation Awesome Scripts SUITE (with color<br>s) |
 | | | https://i.hacking8.com/tiquan/ |
 ### 综合
 | 项目名称 | 版本 | 项目描述 |
@@ -1236,7 +1234,7 @@
 | :---- | :---- | :---- |
 | [GScan](https://github.com/grayddq/GScan) |  | 本程序旨在为安全应急响应人员对Linux主机排查时提供便利，实现主<br>机侧Checklist的自动全面化检测，根据检测结果自动数据聚合，进行黑<br>客攻击路径溯源。 |
 | [LinuxCheck](https://github.com/al0ne/LinuxCheck) | V2.3 | Linux应急处置/信息搜集/漏洞检测工具，支持基础配置/网络流量/任<br>务计划/环境变量/用户信息/Services/bash/恶意文件/内核Rootkit/SSH/<br>Webshell/挖矿文件/挖矿进程/供应链/服务器风险等13类70+项检查 |
-| [malwoverview](https://github.com/alexandreborges/malwoverview) | v5.4.1 | Malwoverview is a first response tool used for threat hunting <br>and offers intel information from Virus Total, Hybrid Analysis,<br> URLHaus, Polyswarm, Malshare, Alien Vault, Malpedia, Malware B<br>azaar, ThreatFox, Triage, InQuest and it is able to scan Androi<br>d devices against VT. |
+| [malwoverview](https://github.com/alexandreborges/malwoverview) | v5.4.2 | Malwoverview is a first response tool used for threat hunting <br>and offers intel information from Virus Total, Hybrid Analysis,<br> URLHaus, Polyswarm, Malshare, Alien Vault, Malpedia, Malware B<br>azaar, ThreatFox, Triage, InQuest and it is able to scan Androi<br>d devices against VT. |
 | | | http://rkhunter.sourceforge.net/ |
 | [RmTools](https://github.com/RoomaSec/RmTools) |  | 蓝队应急工具 |
 ### 进程分析
