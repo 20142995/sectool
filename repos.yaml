@@ -583,6 +583,7 @@
             - https://github.com/arch3rPro/Pentest-Windows
             - https://github.com/ApocalypseSec/ApoalypseSecTools
             - https://github.com/mandiant/commando-vm
+            - https://github.com/arch3rPro/PST-Bucket
         知识库:
             - https://github.com/makoto56/penetration-suite-toolkit
             - https://github.com/Threekiii/Awesome-Redteam
@@ -591,6 +592,7 @@
             - https://github.com/Ridter/Intranet_Penetration_Tips
             - https://github.com/wwl012345/Vuln-List
             - https://github.com/ffffffff0x/1earn
+            - https://github.com/ProbiusOfficial/Pentools-wiki
         优秀项目集合:
             - https://github.com/knownsec/404StarLink
             - https://github.com/We5ter/Scanners-Box
@@ -773,21 +775,36 @@ CTF:
             - https://github.com/WangYihang/UsbKeyboardDataHacker
             - https://github.com/P001water/UsbKbCracker
             - https://github.com/webraybtl/webshell_detect
+        16进制编辑:
+            - https://github.com/WerWolv/ImHex
         编码解码:
+            - https://github.com/Ciphey/Ciphey
             - https://github.com/ht0Ruial/TomatoTools
             - https://github.com/gchq/CyberChef
+            - https://github.com/0Chencc/CTFCrackTools
         取证分析:
-            - https://github.com/axcheron/pyvmx-cracker
-            - https://github.com/Ormicron/chatViewTool
-            - https://github.com/Ormicron/Sharp-dumpkey
-            - https://github.com/wafinfo/Sunflower_get_Password
-            - https://github.com/AdminTest0/SharpWxDump
-            - https://github.com/SpenserCai/GoWxDump
-            - https://github.com/saucer-man/qq_msg_decode
+            内存取证:
+                - https://github.com/Tokeii0/VolatilityPro
+                - https://github.com/ufrisk/MemProcFS
+            vmx加密破解:
+                - https://github.com/axcheron/pyvmx-cracker
+            微信取证:
+                - https://github.com/Ormicron/chatViewTool
+                - https://github.com/Ormicron/Sharp-dumpkey
+                - https://github.com/AdminTest0/SharpWxDump
+                - https://github.com/SpenserCai/GoWxDump
+            向日葵取证:
+                - https://github.com/wafinfo/Sunflower_get_Password
+            QQ取证:
+                - https://github.com/saucer-man/qq_msg_decode
         音频隐写:
+            - https://github.com/audacity/audacity
             - https://github.com/ribt/dtmf-decoder
         压缩文件分析:
-            - https://github.com/AabyssZG/CRC32-Tools
+            CRC爆破:
+                - https://github.com/AabyssZG/CRC32-Tools
+            ZIP伪加密:
+                - https://github.com/442048209as/ZipCenOp
         综合:
             - https://github.com/Aabyss-Team/CTF-Tools
             - https://github.com/Moxin1044/qsnctf-python
@@ -835,6 +852,9 @@ CTF:
             - https://github.com/sharpleung/CTF-WAF
             - https://github.com/dr0op/k4l0ng_WAF
     相关资源:
+        - https://github.com/ProbiusOfficial/SecToolKit
+        - https://github.com/ProbiusOfficial/CTF-QuickStart
+        - https://github.com/ProbiusOfficial/CTFtools-wiki
         - https://github.com/kitezzzGrim/CTF-Note
         - https://github.com/apachecn/apachecn-ctf-wiki
         - http://www.ctftools.com/
