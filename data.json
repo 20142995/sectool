@@ -29,8 +29,8 @@
     "https://github.com/RsaCtfTool/RsaCtfTool": {
         "created_at": "2015-03-07 17:29:33",
         "description": "RSA attack tool (mainly for ctf) - retreive private key from weak public key and/or uncipher data",
-        "commit_date": "2023-10-28 15:44:36",
-        "commit_message": "Merge pull request #431 from benhunter/mac-requirements\n\nUpdate version of gmpy2 for installing requirements on Mac with Apple Arm Silicon",
+        "commit_date": "2023-10-30 21:32:33",
+        "commit_message": "Merge pull request #445 from Shivam250702/master\n\nUpdate README.md",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -200,8 +200,8 @@
     "https://github.com/ycdxsb/PocOrExp_in_Github": {
         "created_at": "2021-04-13 05:46:16",
         "description": "聚合Github上已有的Poc或者Exp，CVE信息来自CVE官网。Auto Collect Poc Or Exp from Github by CVE ID.",
-        "commit_date": "2023-10-29 23:56:10",
-        "commit_message": "update 2023-10-30 07:56:10",
+        "commit_date": "2023-10-30 23:52:47",
+        "commit_message": "update 2023-10-31 07:52:47",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -531,8 +531,8 @@
     "https://github.com/knownsec/404StarLink": {
         "created_at": "2020-11-17 08:10:18",
         "description": "404StarLink - 推荐优质、有意义、有趣、坚持维护的安全开源项目",
-        "commit_date": "2023-10-23 03:25:03",
-        "commit_message": "weekly update at 2023-10-23",
+        "commit_date": "2023-10-30 03:03:25",
+        "commit_message": "weekly update at 2023-10-30",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -864,8 +864,8 @@
     "https://github.com/vaycore/OneScan": {
         "created_at": "2023-02-14 01:59:45",
         "description": "OneScan是递归目录扫描的BurpSuite插件",
-        "commit_date": "2023-10-28 13:07:38",
-        "commit_message": "更新说明文档，优化图片尺寸",
+        "commit_date": "2023-10-30 07:29:41",
+        "commit_message": "更新说明文档",
         "release_tag": "v1.3.7",
         "release_date": "2023-10-27 05:20:29",
         "release_message": "1.3.7 版本发布，版本更新内容如下\r\n\r\n### 优化\r\n\r\n- 优化导入 URL 功能：在 UI 界面中保留最后一次导入的数据\r\n- Databoard 数据看板新增 “删除选中项” 菜单项；调整菜单项的顺序，防止误操作\r\n- 优先检测当前插件 jar 包所在目录下是否存在 `OneScan` 目录，如果存在，将使用该目录作为工作目录\r\n\r\n"
@@ -1098,8 +1098,8 @@
     "https://github.com/Threekiii/Vulnerability-Wiki": {
         "created_at": "2022-04-29 05:36:33",
         "description": "基于 docsify 部署，目前漏洞数量 1000+",
-        "commit_date": "2023-10-08 07:47:23",
-        "commit_message": "commit message",
+        "commit_date": "2023-10-30 01:24:55",
+        "commit_message": "更新漏洞",
         "release_tag": "v1.0",
         "release_date": "2022-07-15 01:58:00",
         "release_message": "Vulnerability-Wiki项目中docs-0sec的打包文件，下载后于主项目docs-0sec文件夹下解压即可。\r\n\r\n\r\n"
@@ -2221,7 +2221,7 @@
     "https://github.com/Threekiii/Awesome-POC": {
         "created_at": "2022-02-20 06:43:22",
         "description": "一个漏洞POC知识库",
-        "commit_date": "2023-10-12 01:51:01",
+        "commit_date": "2023-10-30 01:25:20",
         "commit_message": "更新漏洞",
         "release_tag": "",
         "release_date": "",
@@ -2951,8 +2951,8 @@
     "https://github.com/dbeaver/dbeaver": {
         "created_at": "2015-10-21 08:26:28",
         "description": "Free universal database tool and SQL client",
-        "commit_date": "2023-10-27 16:11:16",
-        "commit_message": "dbeaver/pro#2014 fix sequences permissions reading for quoted roles (#21626)\n\nCo-authored-by: MashaKorax <84867187+MashaKorax@users.noreply.github.com>",
+        "commit_date": "2023-10-30 20:12:47",
+        "commit_message": "CB-4180 fix node name (#21707)",
         "release_tag": "23.2.3",
         "release_date": "2023-10-22 15:59:28",
         "release_message": "\n                - Data editor:\n                    - Excel (XLSX) export now supports columns auto-fit\n                    - Copy from row bellow/above command was fixed\n                    - Shortcut for \"Got to column\" column was changed to Ctrl+Shift+G\n                - SQL editor:\n                    - Script statistics configuration was extended\n                    - AI completion bugs were fixed and configuration UI was redesigned\n                    - Tabs close in horizontal mode was fixed\n                    - Script to connection association save was fixed\n                - Data export:\n                    - Data import tasks wer fixed for schema-less databases\n                    - Columns value transform expressions evaluation was fixed\n                    - All data transfer were migrated to a new IO API\n                    - Export functionality now can be disabled completely\n                    - Tasks loading for missing database objects was fixed\n                - ER diagrams: one-to-one connections rendering was fixed\n                - General:\n                    - Default file encoding was changed to UTF-8. IT affects all external tools integration.\n                    - Web based authentication is now opened in external browser by default\n                    - Version update functionality now can be disabled completely\n                - Databases:\n                    - Clickhouse: map data type visualization was fixed\n                    - Databricks: issue with national encodings was resolved\n                    - Greenplum:\n                        - Issue with case-sensitive table names was resolved\n                        - FFL for function parameters was fixed\n                    - MySQL: session manager now shows info from performance_schema\n                    - OpenEdge: root catalog is now hidden; data export was fixed\n                    - PostgreSQL: foreign key DDL was fixed (MATCH FULL)\n                - Misc: we switched to Eclipse 2023-09\n            "
@@ -3050,8 +3050,8 @@
     "https://github.com/zan8in/afrog": {
         "created_at": "2022-02-24 06:00:32",
         "description": "A Security Tool for Bug Bounty, Pentest and Red Teaming.",
-        "commit_date": "2023-10-25 13:34:13",
-        "commit_message": "update",
+        "commit_date": "2023-10-30 13:21:30",
+        "commit_message": "update poc",
         "release_tag": "v2.8.9",
         "release_date": "2023-10-15 06:38:23",
         "release_message": "Added:\r\n- Command: -dingtalk Function: Dingtalk webhook\r\n\r\nOptimization:\r\n- Sqlite warehousing error retry function, up to 5 retries\r\n- PoC: weblogic-panel, weblogic-weak-login\r\n\r\nDeteled:\r\n- PoC: backup-files\r\n\r\nTotal number of PoCs: 1169\r\n\r\n--------------------\r\n\r\n新增： \r\n- 命令：-dingtalk    作用：Dingtalk webhook \r\n\r\n优化：\r\n- Sqlite 入库错误重试功能，最大重试 5 次\r\n- PoC：weblogic-panel、weblogic-weak-login\r\n\r\n删除：\r\n- PoC：backup-files\r\n\r\nPoC 总数：1169\r\n"
@@ -3908,8 +3908,8 @@
     "https://github.com/anchore/syft": {
         "created_at": "2020-05-07 18:19:29",
         "description": "CLI tool and library for generating a Software Bill of Materials from container images and filesystems",
-        "commit_date": "2023-10-27 13:55:04",
-        "commit_message": "chore(deps): bump github.com/google/uuid from 1.3.1 to 1.4.0 (#2262)\n\nBumps [github.com/google/uuid](https://github.com/google/uuid) from 1.3.1 to 1.4.0.\r\n- [Release notes](https://github.com/google/uuid/releases)\r\n- [Changelog](https://github.com/google/uuid/blob/master/CHANGELOG.md)\r\n- [Commits](https://github.com/google/uuid/compare/v1.3.1...v1.4.0)\r\n\r\n---\r\nupdated-dependencies:\r\n- dependency-name: github.com/google/uuid\r\n  dependency-type: direct:production\r\n  update-type: version-update:semver-minor\r\n...\r\n\r\nSigned-off-by: dependabot[bot] <support@github.com>\r\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
+        "commit_date": "2023-10-30 21:48:16",
+        "commit_message": "Read a license from a parent pom stored in Maven Central (#2228)\n\n* Read a license from a parent pom stored in Maven Central\r\n---------\r\nSigned-off-by: Colm O hEigeartaigh <coheigea@apache.org>\r\nSigned-off-by: Christopher Phillips <christopher.phillips@anchore.com>\r\nCo-authored-by: Christopher Phillips <christopher.phillips@anchore.com>",
         "release_tag": "v0.94.0",
         "release_date": "2023-10-20 17:31:29",
         "release_message": "### Added Features\n\n- Add additional license filenames [[#2227](https://github.com/anchore/syft/pull/2227) @coheigea]\n- Parse donet dependency trees [[#2143](https://github.com/anchore/syft/pull/2143) @noqcks]\n- Find license by embedded license text [[#2147](https://github.com/anchore/syft/issues/2147) [#2213](https://github.com/anchore/syft/pull/2213) @coheigea]\n- Add support for dpkg dependency relationships [[#2040](https://github.com/anchore/syft/issues/2040) [#2212](https://github.com/anchore/syft/pull/2212) @wagoodman]\n\n### Bug Fixes\n\n- Report errors to stderr not stdout [[#2232](https://github.com/anchore/syft/pull/2232) @wagoodman]\n- Python egg packages are not parsed for SBOM [[#1761](https://github.com/anchore/syft/issues/1761) [#2239](https://github.com/anchore/syft/pull/2239) @spiffcs]\n- Java archive is listed twice [[#2130](https://github.com/anchore/syft/issues/2130) [#2220](https://github.com/anchore/syft/pull/2220) @wagoodman]\n- Java archives not from Maven [[#2217](https://github.com/anchore/syft/issues/2217) [#2220](https://github.com/anchore/syft/pull/2220) @wagoodman]\n- Remove internal.StringSet [[#2209](https://github.com/anchore/syft/issues/2209) [#2219](https://github.com/anchore/syft/pull/2219) @wagoodman]\n- Invalid interface conversion in Swift cataloger [[#2225](https://github.com/anchore/syft/issues/2225) [#2226](https://github.com/anchore/syft/pull/2226) @wagoodman]\n\n**[(Full Changelog)](https://github.com/anchore/syft/compare/v0.93.0...v0.94.0)**\n\n"
@@ -3953,8 +3953,8 @@
     "https://github.com/quay/clair": {
         "created_at": "2015-11-13 18:46:16",
         "description": "Vulnerability Static Analysis for Containers",
-        "commit_date": "2023-10-27 20:28:13",
-        "commit_message": "config: add OTLP configuration types\n\nSigned-off-by: Hank Donnay <hdonnay@redhat.com>",
+        "commit_date": "2023-10-30 16:02:15",
+        "commit_message": "contrib: simplify openshift/pr_check.sh\n\nThis script is used in the pipeline for the quay.io Clair instance. All\nthe real CI is done in GitHub Actions, so this is just to make that\nprocess' happy.\n\nSigned-off-by: Hank Donnay <hdonnay@redhat.com>",
         "release_tag": "v4.7.2",
         "release_date": "2023-10-09 20:27:15",
         "release_message": "<a name=\"unreleased\"></a>\r\n## [Unreleased]\r\n\r\n\r\n<a name=\"v4.7.2\"></a>\r\n## [v4.7.2] - 2023-10-09\r\n### Claircore\r\n- [chore: update claircore to v1.5.19](https://github.com/quay/clair/commit/9a3cde3b16bb0c0e02fb7e128ff86e255ec6112f)\r\n- crda: remove crda support\r\n  <details>\r\n  The CRDA API has been decommissioned and the functionality has been\r\n  superseded by OSV support.\r\n  </details>\r\n- chore: update toolkit to latest version v1.1.1\r\n  <details>\r\n  v1.5.17 (toolkit/v1.1.0) introduced a bug where claircore\r\n  could not handle empty strings when trying to Scan() a value\r\n  into a cpe.WFN. toolkit/v1.1.1 mitigates this bug.\r\n  </details>\r\n\r\n### Clair\r\n- [admin: add pre v4.7.3 admin command to create index](https://github.com/quay/clair/commit/5a825a07191e62f3214700df519202806a39d6c9)\r\n  <details>\r\n  In order to facilitate faster deletes we need to add a migration to\r\n  add an index in v4.7.3. This change adds an admin command to allow\r\n  users to \"manually\" create the index CONCURRENTLY before the migration\r\n  to avoid any down-time. This is something for users with larger\r\n  indexer DBs to consider.\r\n  </details>\r\n\r\n- [contrib: add grafana dashboards for deletion metrics](https://github.com/quay/clair/commit/04f36991e19cfb44423cbb2e96ccfcd786dd85c5)\r\n  <details>\r\n  This has been a part of the API for some time and is starting to be\r\n  used extensively.\r\n  </details>\r\n\r\n- [docs: add dropins to prose documentation](https://github.com/quay/clair/commit/8a2d99f4da70de6bdf14858c6163a2e3b8042782)\r\n  <details>\r\n  This change explains how to use the dropins and updates the local-dev\r\n  config to do so.\r\n  </details>\r\n\r\n[Unreleased]: https://github.com/quay/clair/compare/v4.7.2...HEAD\r\n[v4.7.2]: https://github.com/quay/clair/compare/v4.7.1...v4.7.2\r\n"
@@ -3980,8 +3980,8 @@
     "https://github.com/anchore/grype": {
         "created_at": "2020-05-26 13:44:38",
         "description": "A vulnerability scanner for container images and filesystems",
-        "commit_date": "2023-10-27 18:24:56",
-        "commit_message": "feat: add custom maven comparator (#1571)\n\nThis PR takes the recommendation from #1526 and adapts the go-mvn-version to be used as a custom comparator for matching against packages that have the JavaPkg type. Packages of type JavaPkg will no longer use the stock matcher.\r\n---------\r\nSigned-off-by: Christopher Phillips <christopher.phillips@anchore.com>\r\nCo-authored-by: Alex Goodman <wagoodman@users.noreply.github.com>",
+        "commit_date": "2023-10-30 19:31:42",
+        "commit_message": "feat(config): added reason field (#1532)\n\n* feat(config): added reason field\r\n\r\nSigned-off-by: Mateusz Urbanek <mateusz.urbanek.98@gmail.com>\r\n\r\n* add CLI test for ignore reason field\r\n\r\nSigned-off-by: Will Murphy <will.murphy@anchore.com>\r\n\r\n---------\r\n\r\nSigned-off-by: Mateusz Urbanek <mateusz.urbanek.98@gmail.com>\r\nSigned-off-by: Will Murphy <will.murphy@anchore.com>\r\nCo-authored-by: Will Murphy <will.murphy@anchore.com>",
         "release_tag": "v0.72.0",
         "release_date": "2023-10-20 18:28:42",
         "release_message": "### Added Features\n\n- Add --ignore-states flag for ignoring findings with specific fix states [[#1473](https://github.com/anchore/grype/pull/1473) @jhebden-gl]\n- Implement checksum & artifact signing [[#1513](https://github.com/anchore/grype/issues/1513) [#1535](https://github.com/anchore/grype/pull/1535) @hibare]\n\n### Bug Fixes\n\n- Report errors to stderr not stdout [[#1561](https://github.com/anchore/grype/pull/1561) @wagoodman]\n- grype v0.71.0 stopped showing vulnerabilities for Go stdlib [[#1562](https://github.com/anchore/grype/issues/1562) [#1565](https://github.com/anchore/grype/pull/1565) @wagoodman]\n- SARIF output not compatible with GitHub [[#1518](https://github.com/anchore/grype/issues/1518) [#1563](https://github.com/anchore/grype/pull/1563) @spiffcs]\n\n**[(Full Changelog)](https://github.com/anchore/grype/compare/v0.71.0...v0.72.0)**\n\n"
@@ -4277,7 +4277,7 @@
     "https://github.com/aiboboxx/v2rayfree": {
         "created_at": "2021-10-13 11:34:53",
         "description": "v2ray节点、免费节点、免费v2ray节点、最新公益免费v2ray节点订阅地址、免费v2ray节点每日更新、免费ss/v2ray/trojan节点、freefq ",
-        "commit_date": "2023-10-29 12:32:35",
+        "commit_date": "2023-10-30 12:36:07",
         "commit_message": "update",
         "release_tag": "",
         "release_date": "",
@@ -4322,8 +4322,8 @@
     "https://github.com/freefq/free": {
         "created_at": "2020-06-07 02:48:33",
         "description": "翻墙、免费翻墙、免费科学上网、免费节点、免费梯子、免费ss/v2ray/trojan节点、蓝灯、谷歌商店、翻墙梯子",
-        "commit_date": "2023-10-30 00:00:01",
-        "commit_message": "updated_at 10-30 08:00",
+        "commit_date": "2023-10-31 00:00:02",
+        "commit_message": "updated_at 10-31 08:00",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -5004,8 +5004,8 @@
     "https://github.com/rustdesk/rustdesk": {
         "created_at": "2020-09-28 15:36:08",
         "description": "An open-source remote desktop, and alternative to TeamViewer.",
-        "commit_date": "2023-10-29 08:48:17",
-        "commit_message": "Merge pull request #6219 from bovirus/master\n\nUpdate Italian language",
+        "commit_date": "2023-10-30 14:52:35",
+        "commit_message": "Merge pull request #6227 from ClSlaid/feat/osx/pasteboard-file\n\n[feat] osx pasteboard file copy and paste support",
         "release_tag": "1.2.3",
         "release_date": "2023-10-13 10:47:12",
         "release_message": " ![image](https://github.com/rustdesk/rustdesk/assets/71636191/83754a64-31b8-47f0-8570-da22207759a9)\r\n\r\n > Winget, FDroid update will come soon.\r\n\r\n x86-64: [Windows](https://github.com/rustdesk/rustdesk/releases/download/1.2.3/rustdesk-1.2.3-x86_64.exe) | [Ubuntu](https://github.com/rustdesk/rustdesk/releases/download/1.2.3/rustdesk-1.2.3-x86_64.deb) | [Mac](https://github.com/rustdesk/rustdesk/releases/download/1.2.3/rustdesk-1.2.3-x86_64.dmg)\r\n AArch64 (ARM64):  [Ubuntu](https://github.com/rustdesk/rustdesk/releases/download/1.2.3/rustdesk-1.2.3-aarch64.deb) | [Android](https://github.com/rustdesk/rustdesk/releases/download/1.2.3/rustdesk-1.2.3-aarch64-signed.apk) | [Mac](https://github.com/rustdesk/rustdesk/releases/download/1.2.3/rustdesk-1.2.3-aarch64.dmg)\r\n\r\n More: [check below please](#)\r\n\r\n <details>\r\n <summary>Changelog</summary>\r\n\r\n- Improve Wayland support, cursor/clipboard/multi-monitors etc, but highly depends on Xwayland, working well on GNOME, bad compatibility on KDE. We will continue working on Wayland\r\n- Add group tab\r\n- Add software update check based on github latest tag\r\n- Some fixes for Kaspersky compliance, https://github.com/rustdesk/rustdesk/discussions/5624, but they requested more\r\n- A lot of fixes since 1.2.2\r\n- We are still working hard on dual-monitors-dual-windows and new hardware codecs, hopefully be in 1.2.4\r\n\r\n </details>"
@@ -5209,8 +5209,8 @@
     "https://github.com/beefproject/beef": {
         "created_at": "2011-11-23 06:53:25",
         "description": "The Browser Exploitation Framework Project",
-        "commit_date": "2023-10-12 00:41:28",
-        "commit_message": "Merge branch 'dependabot/bundler/rubocop-1.57.0' into dependabot-updates\nupddate rubocop gem",
+        "commit_date": "2023-10-30 08:28:08",
+        "commit_message": "Locking otr-activerecord to version 2.1.2 until we\ncan fix the bugs with the later version",
         "release_tag": "v0.5.4.0",
         "release_date": "2021-11-25 23:47:24",
         "release_message": "## Bug Fixes\r\n* #2190 -  Maintainability - Improved CI workflow\r\n* #2185 - Could not minify JavaScript file: web_ui_all\r\n## Enchancements\r\n* #2205 - Modules - Apache Tomcat Examples Default Install Exploit\r\n* #2157 -  Maintainability - Implement GitHub Actions and added confirmation step to PRs\r\n* #2190 -  Maintainability - Improved CI workflow: \r\n  * Refactor Rakefile to accommodate Browserstack implementation\r\n  * Installer improvements\r\n  * Test suite performance improvements\r\n* #2199  - Enhancement - Check for update on launch works with beef-xss kali package install\r\n\r\n**Full Changelog**: https://github.com/beefproject/beef/compare/v0.5.3.0...v0.5.4.0"
@@ -5729,8 +5729,8 @@
     "https://github.com/fatedier/frp": {
         "created_at": "2015-12-21 15:24:59",
         "description": "A fast reverse proxy to help you expose a local server behind a NAT or firewall to the internet.",
-        "commit_date": "2023-10-24 02:42:51",
-        "commit_message": "rename example configuration file name (#3721)",
+        "commit_date": "2023-10-30 12:24:57",
+        "commit_message": "fix: set ping (#3734)\n\nCo-authored-by: int7 <int7@gmail.com>",
         "release_tag": "v0.52.3",
         "release_date": "2023-10-24 02:57:54",
         "release_message": "### Fixes\n\n* `admin_user` is not effective in the INI configuration.\n\n"
@@ -6238,8 +6238,8 @@
     "https://github.com/CTFd/CTFd": {
         "created_at": "2015-01-01 05:36:55",
         "description": "CTFs as you need them",
-        "commit_date": "2023-10-28 00:43:59",
-        "commit_message": "Merge pull request #2417 from CTFd/allow-searching-in-extra-column-model-filters\n\n* Allow searches based on `build_model_filters` using `extra_columns` to do a string search. This really only applies to Admin Panel submission search",
+        "commit_date": "2023-10-30 03:15:51",
+        "commit_message": "Merge pull request #2419 from Nils1729/fix/dynamic-challenge-next\n\n* Fix missing next_id on dynamic challenges\r\n* Closes #2418.",
         "release_tag": "3.6.0",
         "release_date": "2023-08-21 22:40:58",
         "release_message": "# 3.6.0 / 2023-08-21\r\n\r\n**General**\r\n\r\n- Translations support for Spanish, Polish, German, Chinese\r\n  - If you wish to fix or maintain a language translation please join at CTFd's public [POEditor page](https://poeditor.com/join/project/p5jhdcrlm7).\r\n- Add a total user registration limit option\r\n- Dynamic value challenges can now choose between linear and logarithmic decay functions\r\n- Free hints are now visible by unauthenticated users if challenges are visible by unauthenticated users\r\n- Fix issue where a custom field named affiliation or website prevented registration\r\n  - No longer special case \"Affiliation\" or \"Website\" as custom field titles. Previously custom fields with those titles would set the user's affiliation or website but this behavior has been removed.\r\n\r\n**Admin Panel**\r\n\r\n- Challenge Preview has been improved to support arbitrary custom themes\r\n- Long flags in the Admin Panel are now truncated but can be expanded and copied\r\n- Add UI to mark incorrect submissions as correct\r\n  - Add the `discard` type for submissions\r\n  - Add `PATCH /api/v1/submissions/[submission_id]` to mark submissions as correct\r\n- Add section in the Config Panel to configure `HTML_SANITIZATION`\r\n  - Setting `HTML_SANITIZATION` to true in `config.ini` cannot be disabled via the Admin Panel\r\n- Add wildcard for email whitelisting\r\n\r\n**Deployment**\r\n\r\n- Add new envvar `SKIP_DB_PING` to instruct the CTFd Docker image to not test if the database server is available\r\n- Add new config `AWS_S3_ADDRESSING_STYLE`\r\n  - Support selecting the [S3 addressing style](https://docs.aws.amazon.com/AmazonS3/latest/userguide/access-bucket-intro.html#access-bucket-console-ex). It defaults to \"auto\" as when it's not set, but can also be set to `virtual` or `path`\r\n- Add new config `AWS_S3_CUSTOM_DOMAIN` which specifies a domain that replaces the default one in presigned download URLs\r\n  - Required for certain S3 implementations\r\n- Flask and Werkzeug have been upgraded to v2.0.3. Other dependencies have been updated for compatability.\r\n- SQLAlchemy has been updated to v1.4.\r\n- PyMySQL has been upgraded to v1.0.2.\r\n- The `flask` cli tool is now offered as an alternative to the `manage.py` script.\r\n- gzip compression is now enabled in the provided nginx configuration\r\n\r\n**API**\r\n\r\n- API tokens now have a description field\r\n- API tokens now start with a `ctfd_` prefix to make them easier to identify\r\n- `GET /api/v1/hints/[hint_id]` will now return hint information for free hints for unauthenticated users if challenges are visible\r\n\r\n**Themes**\r\n\r\n- core-beta is now provided in all CTFd instances\r\n- core-beta is the default theme during setup"
