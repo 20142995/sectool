@@ -29,8 +29,8 @@
     "https://github.com/RsaCtfTool/RsaCtfTool": {
         "created_at": "2015-03-07 17:29:33",
         "description": "RSA attack tool (mainly for ctf) - retreive private key from weak public key and/or uncipher data",
-        "commit_date": "2023-10-30 21:32:33",
-        "commit_message": "Merge pull request #445 from Shivam250702/master\n\nUpdate README.md",
+        "commit_date": "2023-10-31 22:23:03",
+        "commit_message": "Updated convert_idrsa_pub function (#455)\n\n* Updated convert_idrsa_pub function",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -200,8 +200,8 @@
     "https://github.com/ycdxsb/PocOrExp_in_Github": {
         "created_at": "2021-04-13 05:46:16",
         "description": "聚合Github上已有的Poc或者Exp，CVE信息来自CVE官网。Auto Collect Poc Or Exp from Github by CVE ID.",
-        "commit_date": "2023-10-30 23:52:47",
-        "commit_message": "update 2023-10-31 07:52:47",
+        "commit_date": "2023-10-31 23:47:12",
+        "commit_message": "update 2023-11-01 07:47:12",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -661,7 +661,7 @@
         "commit_message": "Add Apple Silicon support",
         "release_tag": "v2.1",
         "release_date": "2022-04-08 15:53:34",
-        "release_message": "👻 v2.1 is released~ v2.1 is an upgraded version of v2.0\r\n\r\n## BE AWARE\r\n-  If you are trying to use admin on windows,plz make sure you have installed [ansicon](https://github.com/adoxa/ansicon/releases)\r\n- And if you have any problems when using command ```shell```,plz check the [shell.go](https://github.com/ph4ntonn/Stowaway/blob/master/agent/handler/shell.go) and read the annotation first!!! Maybe it can solve ur problems.\r\n\r\n## Update\r\n- 2021.10.1 \r\n    - Switch AES-CBC to AES-GCM.Thanks to @SignorMercurio \r\n    - Fix bugs. Thanks to @SignorMercurio \r\n- 2022.1.23\r\n    - Fix shell&topo bugs.Thanks to @lz520520\r\n- 2022.4.8 \r\n    - Fix data loss bug when closing a short connection.Thanks to @lz520520\r\n    - Add gzip function.Thanks to @lz520520 \r\n    - Optimize the key code\r\n    - Fix some bugs\r\n- 2022.7.19\r\n    - Fix nil pointer bug #41.Thanks to @zyylhn\r\n- 2023.7.20\r\n    - Add http proxy support"
+        "release_message": "👻 v2.1 is released~ v2.1 is an upgraded version of v2.0\r\n\r\n## BE AWARE\r\n-  If you are trying to use admin on windows,plz make sure you have installed [ansicon](https://github.com/adoxa/ansicon/releases)\r\n- And if you have any problems when using command ```shell```,plz check the [shell.go](https://github.com/ph4ntonn/Stowaway/blob/master/agent/handler/shell.go) and read the annotation first!!! Maybe it can solve ur problems.\r\n\r\n## Update\r\n- 2021.10.1 \r\n    - Switch AES-CBC to AES-GCM.Thanks to @SignorMercurio \r\n    - Fix bugs. Thanks to @SignorMercurio \r\n- 2022.1.23\r\n    - Fix shell&topo bugs.Thanks to @lz520520\r\n- 2022.4.8 \r\n    - Fix data loss bug when closing a short connection.Thanks to @lz520520\r\n    - Add gzip function.Thanks to @lz520520 \r\n    - Optimize the key code\r\n    - Fix some bugs\r\n- 2022.7.19\r\n    - Fix nil pointer bug #41.Thanks to @zyylhn\r\n- 2023.7.20\r\n    - Add http proxy support\r\n- 2023.10.31\r\n    - Replace compressed macos executable file with uncompressed one, since the system version newer than macOS Ventura(13.5) will make upx crash. Users can compress Stowaway themselves if necessary(Target MacOS system version must below 13.0). If you want to learn more, see the details https://github.com/upx/upx/issues/612"
     },
     "https://github.com/uknowsec/BurpSuite-Extender-fastjson": {
         "created_at": "2020-03-07 13:17:08",
@@ -981,8 +981,8 @@
     "https://github.com/sqlmapproject/sqlmap": {
         "created_at": "2012-06-26 09:52:15",
         "description": "Automatic SQL injection and database takeover tool",
-        "commit_date": "2023-10-27 13:17:47",
-        "commit_message": "Minor update of fingerprinting payloads",
+        "commit_date": "2023-10-31 14:16:15",
+        "commit_message": "Fixes #5560",
         "release_tag": "1.7",
         "release_date": "2023-01-02 22:32:55",
         "release_message": "Stable version 1.7 ([changeset](https://github.com/sqlmapproject/sqlmap/compare/1.6...1.7))"
@@ -1062,8 +1062,8 @@
     "https://github.com/ninoseki/mitaka": {
         "created_at": "2018-02-09 00:13:30",
         "description": "A browser extension for OSINT search",
-        "commit_date": "2023-10-19 11:48:09",
-        "commit_message": "Merge pull request #760 from ninoseki/renovate/actions-checkout-4.x",
+        "commit_date": "2023-10-31 12:02:27",
+        "commit_message": "Merge pull request #762 from ninoseki/renovate/npm-zod-vulnerability\n\nfix(deps): update dependency zod to v3.22.3 [security]",
         "release_tag": "v1.3.3",
         "release_date": "2023-09-17 08:47:51",
         "release_message": "- Fix notification issue (#757)\r\n- Introduce [neverthrow](https://github.com/supermacro/neverthrow) (#756)"
@@ -1071,8 +1071,8 @@
     "https://github.com/v2rayA/v2rayA": {
         "created_at": "2019-10-18 20:42:06",
         "description": "A web GUI client of Project V which supports VMess, VLESS, SS, SSR, Trojan, Tuic and Juicity protocols. 🚀",
-        "commit_date": "2023-10-20 15:49:50",
-        "commit_message": "ci: fix yaml's form",
+        "commit_date": "2023-10-31 14:02:54",
+        "commit_message": "Fix build of PR go moudle",
         "release_tag": "v2.2.4",
         "release_date": "2023-09-05 13:23:34",
         "release_message": "## What's Changed\n* Fix Windows installers' blank version string by @MarksonHon in https://github.com/v2rayA/v2rayA/pull/1079\n\n\n**Full Changelog**: https://github.com/v2rayA/v2rayA/compare/v2.2.3...v2.2.4"
@@ -2951,8 +2951,8 @@
     "https://github.com/dbeaver/dbeaver": {
         "created_at": "2015-10-21 08:26:28",
         "description": "Free universal database tool and SQL client",
-        "commit_date": "2023-10-30 20:12:47",
-        "commit_message": "CB-4180 fix node name (#21707)",
+        "commit_date": "2023-10-31 14:33:39",
+        "commit_message": "dbeaver/pro#1899 GCP FS (#21686)\n\n* dbeaver/pro#1899 FS URI resolve enhancements\r\n\r\n* dbeaver/pro#1899 DBF identification and refresh\r\n\r\n* dbeaver/pro#1899 Parallel execution (performance)",
         "release_tag": "23.2.3",
         "release_date": "2023-10-22 15:59:28",
         "release_message": "\n                - Data editor:\n                    - Excel (XLSX) export now supports columns auto-fit\n                    - Copy from row bellow/above command was fixed\n                    - Shortcut for \"Got to column\" column was changed to Ctrl+Shift+G\n                - SQL editor:\n                    - Script statistics configuration was extended\n                    - AI completion bugs were fixed and configuration UI was redesigned\n                    - Tabs close in horizontal mode was fixed\n                    - Script to connection association save was fixed\n                - Data export:\n                    - Data import tasks wer fixed for schema-less databases\n                    - Columns value transform expressions evaluation was fixed\n                    - All data transfer were migrated to a new IO API\n                    - Export functionality now can be disabled completely\n                    - Tasks loading for missing database objects was fixed\n                - ER diagrams: one-to-one connections rendering was fixed\n                - General:\n                    - Default file encoding was changed to UTF-8. IT affects all external tools integration.\n                    - Web based authentication is now opened in external browser by default\n                    - Version update functionality now can be disabled completely\n                - Databases:\n                    - Clickhouse: map data type visualization was fixed\n                    - Databricks: issue with national encodings was resolved\n                    - Greenplum:\n                        - Issue with case-sensitive table names was resolved\n                        - FFL for function parameters was fixed\n                    - MySQL: session manager now shows info from performance_schema\n                    - OpenEdge: root catalog is now hidden; data export was fixed\n                    - PostgreSQL: foreign key DDL was fixed (MATCH FULL)\n                - Misc: we switched to Eclipse 2023-09\n            "
@@ -3050,11 +3050,11 @@
     "https://github.com/zan8in/afrog": {
         "created_at": "2022-02-24 06:00:32",
         "description": "A Security Tool for Bug Bounty, Pentest and Red Teaming.",
-        "commit_date": "2023-10-30 13:21:30",
-        "commit_message": "update poc",
-        "release_tag": "v2.8.9",
-        "release_date": "2023-10-15 06:38:23",
-        "release_message": "Added:\r\n- Command: -dingtalk Function: Dingtalk webhook\r\n\r\nOptimization:\r\n- Sqlite warehousing error retry function, up to 5 retries\r\n- PoC: weblogic-panel, weblogic-weak-login\r\n\r\nDeteled:\r\n- PoC: backup-files\r\n\r\nTotal number of PoCs: 1169\r\n\r\n--------------------\r\n\r\n新增： \r\n- 命令：-dingtalk    作用：Dingtalk webhook \r\n\r\n优化：\r\n- Sqlite 入库错误重试功能，最大重试 5 次\r\n- PoC：weblogic-panel、weblogic-weak-login\r\n\r\n删除：\r\n- PoC：backup-files\r\n\r\nPoC 总数：1169\r\n"
+        "commit_date": "2023-10-31 13:56:19",
+        "commit_message": "update 2.9.0",
+        "release_tag": "v2.9.0",
+        "release_date": "2023-10-31 14:06:03",
+        "release_message": "### Added -resume command to resume scanning using the specified afrog-resume.cfg file\r\n\r\n### 新增 -resume 命令，使用指定的 afrog-resume.cfg 文件恢复扫描\r\n"
     },
     "https://github.com/moonD4rk/HackBrowserData": {
         "created_at": "2020-06-18 03:24:31",
@@ -3192,11 +3192,11 @@
     "https://github.com/joke2k/faker": {
         "created_at": "2012-11-12 23:00:09",
         "description": "Faker is a Python package that generates fake data for you.",
-        "commit_date": "2023-10-24 16:35:56",
-        "commit_message": "Bump version: 19.11.1 → 19.12.0",
-        "release_tag": "v19.12.0",
-        "release_date": "2023-10-24 16:36:29",
-        "release_message": "See [CHANGELOG.md](https://github.com/joke2k/faker/blob/refs/tags/v19.12.0/CHANGELOG.md)."
+        "commit_date": "2023-10-31 17:15:30",
+        "commit_message": "Bump version: 19.12.0 → 19.12.1",
+        "release_tag": "v19.12.1",
+        "release_date": "2023-10-31 17:16:08",
+        "release_message": "See [CHANGELOG.md](https://github.com/joke2k/faker/blob/refs/tags/v19.12.1/CHANGELOG.md)."
     },
     "https://github.com/NHPT/Xray_Cracked": {
         "created_at": "2022-08-10 13:51:19",
@@ -3890,8 +3890,8 @@
     "https://github.com/neuvector/neuvector": {
         "created_at": "2021-12-17 20:15:03",
         "description": "",
-        "commit_date": "2023-10-27 16:36:01",
-        "commit_message": "Merge pull request #1074 from gfsuse/main\n\nNVSHAS-8406, only set service container's hasDatapath to true in istio case to avoid unexpected policy behavior",
+        "commit_date": "2023-10-31 20:29:18",
+        "commit_message": "Merge pull request #1078 from jayhuang-suse/four\n\nAdd rlock protection on the shared map, \"activeContainers\", access.",
         "release_tag": "v5.0.7-s6",
         "release_date": "2023-10-27 16:42:15",
         "release_message": ""
@@ -3908,8 +3908,8 @@
     "https://github.com/anchore/syft": {
         "created_at": "2020-05-07 18:19:29",
         "description": "CLI tool and library for generating a Software Bill of Materials from container images and filesystems",
-        "commit_date": "2023-10-30 21:48:16",
-        "commit_message": "Read a license from a parent pom stored in Maven Central (#2228)\n\n* Read a license from a parent pom stored in Maven Central\r\n---------\r\nSigned-off-by: Colm O hEigeartaigh <coheigea@apache.org>\r\nSigned-off-by: Christopher Phillips <christopher.phillips@anchore.com>\r\nCo-authored-by: Christopher Phillips <christopher.phillips@anchore.com>",
+        "commit_date": "2023-10-31 19:33:52",
+        "commit_message": "test: remove dll files and updates tests to use versionResources (#2276)\n\n* test: remove dll files and updates tests to use versionResources\r\n\r\nSigned-off-by: Christopher Phillips <christopher.phillips@anchore.com>\r\n\r\n* test: update integration tests with dot net coverage\r\n\r\nSigned-off-by: Christopher Phillips <christopher.phillips@anchore.com>\r\n\r\n* chore: move test cases to appropriate blocks\r\n\r\nSigned-off-by: Christopher Phillips <christopher.phillips@anchore.com>\r\n\r\n* fix: chmod only the dll\r\n\r\nSigned-off-by: Christopher Phillips <christopher.phillips@anchore.com>\r\n\r\n* fix: add primary annotation key to packages\r\n\r\nSigned-off-by: Christopher Phillips <christopher.phillips@anchore.com>\r\n\r\n* chore: bump number of packages with new dotnet package\r\n\r\nSigned-off-by: Christopher Phillips <christopher.phillips@anchore.com>\r\n\r\n---------\r\n\r\nSigned-off-by: Christopher Phillips <christopher.phillips@anchore.com>",
         "release_tag": "v0.94.0",
         "release_date": "2023-10-20 17:31:29",
         "release_message": "### Added Features\n\n- Add additional license filenames [[#2227](https://github.com/anchore/syft/pull/2227) @coheigea]\n- Parse donet dependency trees [[#2143](https://github.com/anchore/syft/pull/2143) @noqcks]\n- Find license by embedded license text [[#2147](https://github.com/anchore/syft/issues/2147) [#2213](https://github.com/anchore/syft/pull/2213) @coheigea]\n- Add support for dpkg dependency relationships [[#2040](https://github.com/anchore/syft/issues/2040) [#2212](https://github.com/anchore/syft/pull/2212) @wagoodman]\n\n### Bug Fixes\n\n- Report errors to stderr not stdout [[#2232](https://github.com/anchore/syft/pull/2232) @wagoodman]\n- Python egg packages are not parsed for SBOM [[#1761](https://github.com/anchore/syft/issues/1761) [#2239](https://github.com/anchore/syft/pull/2239) @spiffcs]\n- Java archive is listed twice [[#2130](https://github.com/anchore/syft/issues/2130) [#2220](https://github.com/anchore/syft/pull/2220) @wagoodman]\n- Java archives not from Maven [[#2217](https://github.com/anchore/syft/issues/2217) [#2220](https://github.com/anchore/syft/pull/2220) @wagoodman]\n- Remove internal.StringSet [[#2209](https://github.com/anchore/syft/issues/2209) [#2219](https://github.com/anchore/syft/pull/2219) @wagoodman]\n- Invalid interface conversion in Swift cataloger [[#2225](https://github.com/anchore/syft/issues/2225) [#2226](https://github.com/anchore/syft/pull/2226) @wagoodman]\n\n**[(Full Changelog)](https://github.com/anchore/syft/compare/v0.93.0...v0.94.0)**\n\n"
@@ -3971,8 +3971,8 @@
     "https://github.com/aquasecurity/trivy": {
         "created_at": "2019-04-11 01:01:07",
         "description": "Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more",
-        "commit_date": "2023-10-28 04:09:36",
-        "commit_message": "fix(sbom): save digests for package/application when scanning SBOM files (#5432)\n\nSigned-off-by: knqyf263 <knqyf263@gmail.com>\nCo-authored-by: knqyf263 <knqyf263@gmail.com>",
+        "commit_date": "2023-10-31 01:47:58",
+        "commit_message": "fix(java): fix infinite loop when `relativePath` field points to `pom.xml` being scanned (#5470)",
         "release_tag": "v0.46.1",
         "release_date": "2023-10-28 04:38:57",
         "release_message": "## Changelog\n* 27a3e55e8 fix(java): download java-db once (#5442)\n* d22373265 chore(deps): bump google.golang.org/grpc from 1.57.0 to 1.57.1 (#5447)\n\n"
@@ -3980,8 +3980,8 @@
     "https://github.com/anchore/grype": {
         "created_at": "2020-05-26 13:44:38",
         "description": "A vulnerability scanner for container images and filesystems",
-        "commit_date": "2023-10-30 19:31:42",
-        "commit_message": "feat(config): added reason field (#1532)\n\n* feat(config): added reason field\r\n\r\nSigned-off-by: Mateusz Urbanek <mateusz.urbanek.98@gmail.com>\r\n\r\n* add CLI test for ignore reason field\r\n\r\nSigned-off-by: Will Murphy <will.murphy@anchore.com>\r\n\r\n---------\r\n\r\nSigned-off-by: Mateusz Urbanek <mateusz.urbanek.98@gmail.com>\r\nSigned-off-by: Will Murphy <will.murphy@anchore.com>\r\nCo-authored-by: Will Murphy <will.murphy@anchore.com>",
+        "commit_date": "2023-10-31 17:48:52",
+        "commit_message": "chore(deps): bump github.com/docker/docker (#1579)\n\nBumps [github.com/docker/docker](https://github.com/docker/docker) from 24.0.6+incompatible to 24.0.7+incompatible.\r\n- [Release notes](https://github.com/docker/docker/releases)\r\n- [Commits](https://github.com/docker/docker/compare/v24.0.6...v24.0.7)\r\n\r\n---\r\nupdated-dependencies:\r\n- dependency-name: github.com/docker/docker\r\n  dependency-type: direct:production\r\n  update-type: version-update:semver-patch\r\n...\r\n\r\nSigned-off-by: dependabot[bot] <support@github.com>\r\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
         "release_tag": "v0.72.0",
         "release_date": "2023-10-20 18:28:42",
         "release_message": "### Added Features\n\n- Add --ignore-states flag for ignoring findings with specific fix states [[#1473](https://github.com/anchore/grype/pull/1473) @jhebden-gl]\n- Implement checksum & artifact signing [[#1513](https://github.com/anchore/grype/issues/1513) [#1535](https://github.com/anchore/grype/pull/1535) @hibare]\n\n### Bug Fixes\n\n- Report errors to stderr not stdout [[#1561](https://github.com/anchore/grype/pull/1561) @wagoodman]\n- grype v0.71.0 stopped showing vulnerabilities for Go stdlib [[#1562](https://github.com/anchore/grype/issues/1562) [#1565](https://github.com/anchore/grype/pull/1565) @wagoodman]\n- SARIF output not compatible with GitHub [[#1518](https://github.com/anchore/grype/issues/1518) [#1563](https://github.com/anchore/grype/pull/1563) @spiffcs]\n\n**[(Full Changelog)](https://github.com/anchore/grype/compare/v0.71.0...v0.72.0)**\n\n"
@@ -4106,7 +4106,7 @@
     "https://github.com/arch3rPro/Pentest-Windows": {
         "created_at": "2022-07-08 02:43:58",
         "description": "Windows11 Penetration Suite Toolkit 一个开箱即用的windows渗透测试环境",
-        "commit_date": "2023-10-27 10:57:06",
+        "commit_date": "2023-10-31 01:56:54",
         "commit_message": "Update README.md",
         "release_tag": "v2.2",
         "release_date": "2023-10-27 11:00:44",
@@ -4169,8 +4169,8 @@
     "https://github.com/vulhub/vulhub": {
         "created_at": "2017-04-09 10:13:13",
         "description": "Pre-Built Vulnerable Environments Based on Docker-Compose",
-        "commit_date": "2023-10-24 17:04:10",
-        "commit_message": "update cdn.vulhub.org to download.vulhub.org",
+        "commit_date": "2023-10-31 12:26:47",
+        "commit_message": "Merge pull request #473 from D3vil0p3r/patch-1",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -4277,7 +4277,7 @@
     "https://github.com/aiboboxx/v2rayfree": {
         "created_at": "2021-10-13 11:34:53",
         "description": "v2ray节点、免费节点、免费v2ray节点、最新公益免费v2ray节点订阅地址、免费v2ray节点每日更新、免费ss/v2ray/trojan节点、freefq ",
-        "commit_date": "2023-10-30 12:36:07",
+        "commit_date": "2023-10-31 12:35:42",
         "commit_message": "update",
         "release_tag": "",
         "release_date": "",
@@ -4322,8 +4322,8 @@
     "https://github.com/freefq/free": {
         "created_at": "2020-06-07 02:48:33",
         "description": "翻墙、免费翻墙、免费科学上网、免费节点、免费梯子、免费ss/v2ray/trojan节点、蓝灯、谷歌商店、翻墙梯子",
-        "commit_date": "2023-10-31 00:00:02",
-        "commit_message": "updated_at 10-31 08:00",
+        "commit_date": "2023-11-01 00:00:02",
+        "commit_message": "updated_at 11-01 08:00",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -4529,8 +4529,8 @@
     "https://github.com/MobSF/Mobile-Security-Framework-MobSF": {
         "created_at": "2015-01-31 04:36:01",
         "description": "Mobile Security Framework (MobSF) is an automated, all-in-one mobile application (Android/iOS/Windows) pen-testing, malware analysis and security assessment framework capable of performing static and dynamic analysis.",
-        "commit_date": "2023-10-07 06:34:59",
-        "commit_message": "[HOTFIX][EFR] Priority Bug Fixes (#2275)\n\n* P1.1 AAR Permissions not properly listed \r\n* P1.2 Local variable table not listed in proper section\r\n* P1.3 static library strings are not listed\r\n* P1.5 Stripping of dynamic and static libraries are not correctly reported\r\n* Dependency bump\r\n* MobSF version bump",
+        "commit_date": "2023-10-31 18:23:03",
+        "commit_message": "Hotfix: Bump deps",
         "release_tag": "v3.7.6",
         "release_date": "2023-08-28 04:57:05",
         "release_message": "### v3.7.6 Beta Changelog\r\n\r\n- Features or Enhancements\r\n   - Docker base image update to Ubuntu 22.04\r\n   - Dockerfile QA\r\n   - Migrated from Pip to Poetry for dependency management\r\n   - Migrate from setup.py to use poetry for build and publish\r\n   - Python 3.11 support\r\n   - Docker ADB connection improvements (host.docker.internal translation for localhost)\r\n   -  IOS Swift RulesUpdates `ios_biometric_bool`, `ios_biometric_acl`, `ios_keychain_weak_acl_device_passcode`, `ios_keychain_weak_accessibility_value`, `ios_insecure_random_no_generator`, `ios_biometry_hardened`\r\n   - Android SCA rules update\r\n   - Entropies scan support for strings\r\n   - Regex Hardening: Fixes possible Regex DoS in rules and MobSF code base\r\n   - Tox QA\r\n   - Added poetry build test\r\n   - Updated mobsf PyPI publishing workflow \r\n   - Update local DBs\r\n   - URLs/Email extraction refactor\r\n   - Static and Dynamic Binary Analysis QA\r\n   - Refactor Dex permissions\r\n   - Refactor Androguard `apk.APK()` usage\r\n   - Fallback certificate analysis using apksigtool\r\n   - Use BeautifulSoup4 to prettify malformed XML\r\n   - Detect non standard XML namespace in AndroidManifest.xml, Fixes : #2198\r\n   - Updated android permissions list\r\n   - Updated android permission update check script\r\n   - Github Actions version update\r\n   - Apktool bump\r\n   - Bump httptools\r\n   - Bump yara-python-dex\r\n   - Docker image build test for PRs\r\n   - iOS Source Report Fix\r\n   - Removed unwanted pinned repository\r\n   - Frida APK Patcher (WIP)\r\n   - Fix for Recent Scans `scan not completed` for iOS zip\r\n   - Fix for MachO stripped symbols false positive\r\n   - Fix bug in IPA download\r\n   - iOS/Android form validation fix\r\n   - Fix missing exported components\r\n - Enterprise Feature Request\r\n      - String extraction from APK, Source, AAR, JAR, SO.\r\n      - Android strings sections to show source of strings extracted\r\n      - Strings extraction refactor\r\n      - Support for independent `.so` scan\r\n      - Dylib analysis support\r\n      - Dylib string extraction\r\n      - Improved iOS Plist secret extraction\r\n      - Support for Independent `.dylib` scan\r\n      - Symbols view for dylib and so\r\n      - Trackers support for so\r\n      - AAR/JAR obfuscation and debug check\r\n      - Independent Static Library(.a) ELF/MachO Analysis\r\n      - Mac FAT binary only supported on Mac\r\n\r\n\r\n  \r\n     \r\n    \r\n  \r\n\r\n## What's Changed\r\n* Update dynamic_analysis.html by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2218\r\n* Hotfix: Handle Docker <-> ADB connectivity internally by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2219\r\n* update apktool to 2.8.1 by @superpoussin22 in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2220\r\n* update apktool by @superpoussin22 in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2225\r\n* HOTFIX: Dynamic Analyzer Support Alert by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2227\r\n* [HOTFIX] Regex + Rule Update by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2232\r\n* [EFR06] Independent Shared Object (.so) Scan and Improved String search by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2228\r\n* Update macho_analysis.py - SYMBOLS STRIPPED False Negative by @Karmaz95 in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2234\r\n* [EFR-08] Dylib + Symbols + Other Features by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2239\r\n* Fix missing exported components by @Abb4d0n in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2176\r\n* [EFR09] AAR/JAR obfuscation and debug check + Exception Handed strings and symbols extraction by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2240\r\n* [EFR10] Independent Static Library(.a) ELF/MachO Analysis by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2242\r\n* Pip to poetry and Dockerfile update by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2244\r\n* Docker Buildx test by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2247\r\n* [HOTFIX] bs4 malformed xml parsing + xml namespace detection by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2248\r\n* [HOTFIX] Migrate from setup.py to poetry, tox QA by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2249\r\n\r\n## New Contributors\r\n* @Karmaz95 made their first contribution in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2234\r\n* @Abb4d0n made their first contribution in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2176\r\n\r\n**Full Changelog**: https://github.com/MobSF/Mobile-Security-Framework-MobSF/compare/v3.6.9...v3.7.6"
@@ -5004,8 +5004,8 @@
     "https://github.com/rustdesk/rustdesk": {
         "created_at": "2020-09-28 15:36:08",
         "description": "An open-source remote desktop, and alternative to TeamViewer.",
-        "commit_date": "2023-10-30 14:52:35",
-        "commit_message": "Merge pull request #6227 from ClSlaid/feat/osx/pasteboard-file\n\n[feat] osx pasteboard file copy and paste support",
+        "commit_date": "2023-10-31 13:10:23",
+        "commit_message": "bump flutter to 3.13.9 and bridge to 1.79",
         "release_tag": "1.2.3",
         "release_date": "2023-10-13 10:47:12",
         "release_message": " ![image](https://github.com/rustdesk/rustdesk/assets/71636191/83754a64-31b8-47f0-8570-da22207759a9)\r\n\r\n > Winget, FDroid update will come soon.\r\n\r\n x86-64: [Windows](https://github.com/rustdesk/rustdesk/releases/download/1.2.3/rustdesk-1.2.3-x86_64.exe) | [Ubuntu](https://github.com/rustdesk/rustdesk/releases/download/1.2.3/rustdesk-1.2.3-x86_64.deb) | [Mac](https://github.com/rustdesk/rustdesk/releases/download/1.2.3/rustdesk-1.2.3-x86_64.dmg)\r\n AArch64 (ARM64):  [Ubuntu](https://github.com/rustdesk/rustdesk/releases/download/1.2.3/rustdesk-1.2.3-aarch64.deb) | [Android](https://github.com/rustdesk/rustdesk/releases/download/1.2.3/rustdesk-1.2.3-aarch64-signed.apk) | [Mac](https://github.com/rustdesk/rustdesk/releases/download/1.2.3/rustdesk-1.2.3-aarch64.dmg)\r\n\r\n More: [check below please](#)\r\n\r\n <details>\r\n <summary>Changelog</summary>\r\n\r\n- Improve Wayland support, cursor/clipboard/multi-monitors etc, but highly depends on Xwayland, working well on GNOME, bad compatibility on KDE. We will continue working on Wayland\r\n- Add group tab\r\n- Add software update check based on github latest tag\r\n- Some fixes for Kaspersky compliance, https://github.com/rustdesk/rustdesk/discussions/5624, but they requested more\r\n- A lot of fixes since 1.2.2\r\n- We are still working hard on dual-monitors-dual-windows and new hardware codecs, hopefully be in 1.2.4\r\n\r\n </details>"
@@ -5729,8 +5729,8 @@
     "https://github.com/fatedier/frp": {
         "created_at": "2015-12-21 15:24:59",
         "description": "A fast reverse proxy to help you expose a local server behind a NAT or firewall to the internet.",
-        "commit_date": "2023-10-30 12:24:57",
-        "commit_message": "fix: set ping (#3734)\n\nCo-authored-by: int7 <int7@gmail.com>",
+        "commit_date": "2023-10-31 11:40:48",
+        "commit_message": "chore: Update dependencies (#3738)\n\n* chore: Update dependencies\r\n\r\n* Removed all foolish updates",
         "release_tag": "v0.52.3",
         "release_date": "2023-10-24 02:57:54",
         "release_message": "### Fixes\n\n* `admin_user` is not effective in the INI configuration.\n\n"
@@ -6384,6 +6384,132 @@
         "description": "Watermark added to the frequency domain by Fourier transform",
         "commit_date": "2018-04-24 14:43:57",
         "commit_message": "Update README.md",
+        "release_tag": "",
+        "release_date": "",
+        "release_message": ""
+    },
+    "https://github.com/WerWolv/ImHex": {
+        "created_at": "2020-11-10 14:27:00",
+        "description": "🔍 A Hex Editor for Reverse Engineers, Programmers and people who value their retinas when working at 3 AM.",
+        "commit_date": "2023-10-31 20:59:22",
+        "commit_message": "build: Updated libromfs",
+        "release_tag": "v1.31.0",
+        "release_date": "2023-09-24 18:52:41",
+        "release_message": "## Additions\r\n- **Added a command line interface to ImHex.** Huge thanks to @iTrooz\r\n    - Get started by typing `imhex --help`\r\n- **Added initial support for .NET scripts**\r\n    - These scripts are meant to be a cross-platform way of performing automated actions.\r\n    - They cannot be used to add new features like native plugins can\r\n    - Special thanks to @PerikiyoXD for some really involved fixes around this\r\n- **Added Achievements**\r\n    - These are meant to provide an easy and fun way to learn and get used to ImHex\r\n    - The achievement window can be opened by going to Extras -> Achievement\r\n    - If you don't like the achievements and just want to use ImHex like before, open the achievements window and disable the popups there\r\n- Added a new and much nicer splash screen\r\n- Allow memory files to be saved to project files and be renamed\r\n    - Files can also be converted to memory files now\r\n- Added support for hashing arbitrary strings using the hashes view\r\n- Added built-in logging console\r\n- Allow hex editor data visualizers to be switched to big-endian mode\r\n- Upgraded to Capstone V5 finally\r\n- Encoding names are now being displayed in the header of the hex editor\r\n- Added a \"Update All\" button to the content store\r\n- Linux now uses the GTK filepicker whenever possible\r\n    - This should correct issues where the file picker didn't work correctly on some Linux systems by default\r\n    - The AppImage and Flatpak still use the Portals filepicker because it's necessary there\r\n- The hex editor editing mode is now being entered when pressing Enter\r\n- Added a setting to remember the current main window size and position\r\n- Added option to fill a selected region with bytes\r\n- Added option to switch between human-readable sizes and bytes in the hex editor footer. Thanks to @LennardF1989 \r\n- Removed Anonfiles file uploader. Rest in Peace ✝️\r\n- Added windo actions popup when clicking on the header icon\r\n- Added authors and descriptions to things in the content store\r\n- Added shortcuts to switch between providers, evaluate patterns and interact with the pattern debugger\r\n\r\n## Improvements\r\n- Improved the data information diagrams look and field\r\n- Multi-window support is now being disabled properly by default on Linux\r\n- Plugins are now being loaded asynchronously to improve startup times\r\n- Pattern console is automatically scrolled to the bottom now when new lines are being added\r\n- Unidentifiable data is being handled better now in the data information view\r\n- Allow hex editor view to be scrolled slightly past the end\r\n- Made demangler results selectable and copyable\r\n- Timestamp of files is being updated correctly now on Windows. Thanks to @lorsanta \r\n- ImHex should now exit cleanly when crashing\r\n- Bytes per row count setting in the hex editor is being remembered now. Thanks to @LennardF1989 \r\n\r\n## Bug Fixes\r\n- Fixed raw disk provider not working correctly on non-windows platforms. Thanks a lot to @Nowilltolife \r\n- Fixed disassembler view not clearning selection when typing in the region field\r\n- Fixed page count displaying wrongly in empty files\r\n- Fixed crash when trying to paste bytes without a selection\r\n- Fixed occasional crash when evaluating patterns\r\n- Fixed scaling not being applied properly in some cases\r\n- Fixed bookmarks not being loaded correctly from project files\r\n- Fixed menu bar being scrollable sideways\r\n- Fixed loading projects when an existing project is loaded already\r\n- Fixed issues where the cursor started flickering when hovering certain elements\r\n- Fixed crash when clicking on \"Open in new view\" in a bookmark\r\n- Fixed occasional crash when loading incorrect data processor node files\r\n- Fixed writing to non-zero pages in the hex editor when a custom base address has been set\r\n- Fixed issue where libmagic dumped a bunch of compiled files into the cwd on Linux and macOS. Thanks to @iTrooz \r\n- Fixed endianess of all CRC hashes\r\n- Fixed highest/lowest entropy block address in the data information view being wrong\r\n- Fixed issue where downloading items from the store was suceptible for path traversal. Thanks to @iTrooz \r\n- Fixed various data processor issues\r\n\r\n## Pattern Language\r\n- Added `typenameof` operator\r\n- Added `[[hex::favorite]]` attribute to mark patterns as favorites directly\r\n- Added `[[hex::group]]` attribute to add patterns to custom groups in the pattern data view\r\n- Added single-stepping feature to pattern debugger\r\n- Added coordinates visualizer\r\n- Added timestamp visualizer\r\n- Images in the pattern image and bitmap visualizer can now be scaled\r\n- Added various new inline visualizers such as \"color\", \"guage\" and \"button\"\r\n- Format functions are no longer being evaluated during highlighting\r\n- Sections without a name are being hidden now and treated as \"internal\" sections\r\n- Added `[[hex::spec_name]]` attribute to document names for pattern variables taken from the documentation\r\n- Added string in/out variables\r\n- Fixed issue where pattern local variables sometimes allocated huge amounts of memory\r\n\r\n![image](https://github.com/WerWolv/ImHex/assets/10835354/9bcaf682-ed02-4e3d-9d06-0c55a1ddc030)\r\n\r\n\r\n<br/>\r\n\r\n<p align=\"center\">If you like my work, please consider supporting me on GitHub Sponsors, Patreon or PayPal. Thanks a lot!</p>\r\n<p align=\"center\">\r\n<a href=\"https://github.com/sponsors/WerWolv\"><img src=\"https://werwolv.net/assets/github_banner.png\" alt=\"GitHub donate button\" /> </a>\r\n<a href=\"https://www.patreon.com/werwolv\"><img src=\"https://c5.patreon.com/external/logo/become_a_patron_button.png\" alt=\"Patreon donate button\" /> </a>\r\n<a href=\"https://werwolv.net/donate\"><img src=\"https://werwolv.net/assets/paypal_banner.png\" alt=\"PayPal donate button\" /> </a>\r\n</p"
+    },
+    "https://github.com/JarlPenguin/BeCyIconGrabberPortable": {
+        "created_at": "2018-05-04 19:26:22",
+        "description": "BeCyIconGrabber allows you to extract icons from almost any file!",
+        "commit_date": "2019-06-30 08:30:25",
+        "commit_message": "Mark as deprecated\n\nSigned-off-by: Jarl-Penguin <jarlpenguin@outlook.com>",
+        "release_tag": "",
+        "release_date": "",
+        "release_message": ""
+    },
+    "https://github.com/442048209as/ZipCenOp": {
+        "created_at": "2021-09-04 14:15:13",
+        "description": "ZipCenOp is a Java tool to play with Zip pseudo-encryption.",
+        "commit_date": "2021-02-15 06:10:22",
+        "commit_message": "Add README.md",
+        "release_tag": "",
+        "release_date": "",
+        "release_message": ""
+    },
+    "https://github.com/Ciphey/Ciphey": {
+        "created_at": "2019-07-16 20:20:39",
+        "description": "⚡ Automatically decrypt encryptions without knowing the key or cipher, decode encodings, and crack hashes ⚡",
+        "commit_date": "2023-10-12 07:20:40",
+        "commit_message": "Merge pull request #773 from PunGrumpy/master\n\nAdded translation Thai language",
+        "release_tag": "5.14.0",
+        "release_date": "2021-06-06 17:14:16",
+        "release_message": "## What’s Changed\r\n\r\n* Updated `__main__` to be smarter (#652) @bee-san\r\n* Added linking & description to Cipheys pywhat (#645) @bee-san\r\n* Add click tests & fix greppable bug with `pywhat` (#654) @bee-san\r\n* Update pywhat requirement from >=0.2.5,<1.1.0 to >=0.2.5,<1.2.0 (#650) @dependabot\r\n* Remove unnecessary newline (#649) @swanandx\r\n* Update pywhat requirement from ^0.2.5 to >=0.2.5,<1.1.0 (#647) @dependabot\r\n* Remove yaspin and replace it with Rich (#638) @bee-san\r\n"
+    },
+    "https://github.com/audacity/audacity": {
+        "created_at": "2015-03-26 10:46:17",
+        "description": "Audio Editor                                     ",
+        "commit_date": "2023-10-31 17:09:15",
+        "commit_message": "Merge pull request #4684 from Paul-Licameli/More-registry-type-checking\n\nMore registry type checking\r\n\r\nSimplify calls to visit registries. (When only visiting leaf nodes of one type, the visitor can be just one lambda).\r\n\r\nEliminate many dynamic_casts. Instead TypeSwitch hides all the casting.\r\n\r\nThis also makes better type safety. GroupItemBase because a detail class that applications should not use.",
+        "release_tag": "Audacity-3.3.3",
+        "release_date": "2023-06-08 20:10:45",
+        "release_message": " This is a hotfix release. It fixes the following bugs: \r\n * #4618 Fixed EQ not scaling properly when resizing the window.\r\n * #4743 Fixed the audio.com upload flow. "
+    },
+    "https://github.com/0Chencc/CTFCrackTools": {
+        "created_at": "2016-08-26 08:19:35",
+        "description": "China's first CTFTools framework.中国国内首个CTF工具框架,旨在帮助CTFer快速攻克难关",
+        "commit_date": "2022-11-16 22:23:09",
+        "commit_message": "修复了一处bug\n\nclose #38 #40 #41\n该版本以及后续版本插件功能不再是强制启动的功能",
+        "release_tag": "4.0.7",
+        "release_date": "2022-11-16 22:31:00",
+        "release_message": "修复了一处由于插件功能强制启动导致的bug\r\n修复了摩斯密码没有符号加解密的问题\r\n"
+    },
+    "https://github.com/secretsquirrel/SigThief": {
+        "created_at": "2017-09-01 20:35:48",
+        "description": "Stealing Signatures and Making One Invalid Signature at a Time",
+        "commit_date": "2021-08-11 19:34:42",
+        "commit_message": "test",
+        "release_tag": "",
+        "release_date": "",
+        "release_message": ""
+    },
+    "https://github.com/ufrisk/MemProcFS": {
+        "created_at": "2018-11-18 18:19:49",
+        "description": "MemProcFS",
+        "commit_date": "2023-10-22 19:16:13",
+        "commit_message": "Version 5.8.15",
+        "release_tag": "v5.8",
+        "release_date": "2023-08-20 19:36:51",
+        "release_message": "* LeechCore API updates for C/C++, C#, Rust, Python, Java.\r\n* Support for analyzing ARM64 Windows memory.\r\n\r\nFor previous release builds see the [release archive](https://github.com/ufrisk/MemProcFS/releases/tag/v5_archive)."
+    },
+    "https://github.com/ProbiusOfficial/Pentools-wiki": {
+        "created_at": "2023-06-23 20:11:28",
+        "description": "先是渗透工具合集，其次是wiki，做点不一样的x",
+        "commit_date": "2023-06-24 18:33:52",
+        "commit_message": "归档",
+        "release_tag": "",
+        "release_date": "",
+        "release_message": ""
+    },
+    "https://github.com/Tokeii0/VolatilityPro": {
+        "created_at": "2023-05-28 01:45:45",
+        "description": "一款用于自动化处理内存取证的Python脚本，并提供GUI界面",
+        "commit_date": "2023-06-29 02:25:56",
+        "commit_message": "Add files via upload",
+        "release_tag": "",
+        "release_date": "",
+        "release_message": ""
+    },
+    "https://github.com/ProbiusOfficial/CTF-QuickStart": {
+        "created_at": "2023-04-16 05:12:55",
+        "description": "【Hello CTF】题目配套，免费开源的CTF入门教程，针对0基础新手编写，同时兼顾信息差的填补，对各阶段的CTFer都友好的开源教程，致力于CTF和网络安全的开源生态！",
+        "commit_date": "2023-10-31 00:43:27",
+        "commit_message": "Automatically update friends.md",
+        "release_tag": "",
+        "release_date": "",
+        "release_message": ""
+    },
+    "https://github.com/ProbiusOfficial/SecToolKit": {
+        "created_at": "2023-06-13 11:35:19",
+        "description": "Cybersecurity tool repository / Wiki 收录常用 / 前沿 的CTF和渗透工具以及其 官方/使用 文档，致力于让每个工具都能发挥作用ww，不管你是萌新还是领域从业者希望你都能在这里找到适合你的工具或者获得一定的启发。",
+        "commit_date": "2023-09-02 12:11:27",
+        "commit_message": "fix ci",
+        "release_tag": "",
+        "release_date": "",
+        "release_message": ""
+    },
+    "https://github.com/ProbiusOfficial/CTFtools-wiki": {
+        "created_at": "2023-06-23 20:05:38",
+        "description": "【Hello CTF】录常用 / 优秀 的CTF工具项目及其文档,一个对各阶段CTFer都很友好的工具仓库,让所有的工具都发挥作用！",
+        "commit_date": "2023-07-07 13:19:18",
+        "commit_message": "Update README.md",
+        "release_tag": "",
+        "release_date": "",
+        "release_message": ""
+    },
+    "https://github.com/arch3rPro/PST-Bucket": {
+        "created_at": "2023-04-24 06:49:11",
+        "description": "Scoop-Buket for Penetration Suite Toolkit",
+        "commit_date": "2023-10-31 16:32:01",
+        "commit_message": "afrog: Update to version 2.9.0",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
