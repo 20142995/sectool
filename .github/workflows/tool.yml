@@ -21,8 +21,7 @@ jobs:
         python-version: "3.10"
     - name: Install dependencies
       run: |
-        pip install requests
-        pip install pyyaml
+        pip install -r requirements.txt
     - name: sectool
       env: 
          GH_TOKEN: ${{ secrets.GH_TOKEN }}
