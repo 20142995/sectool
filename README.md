@@ -1,10 +1,11 @@
-# 更新于 2023-11-01 08:38:12
+# 更新于 2023-11-02 08:35:45
 
 ## 近15天release更新记录
 | 更新时间 | 项目名称 | 版本 | 更新内容 |
 | :---- | :---- | :---- | :---- |
-|2023-10-31 17:16:08|[faker](https://github.com/joke2k/faker)|v19.12.<br>1|See .|
-|2023-10-31 14:06:03|[afrog](https://github.com/zan8in/afrog)|v2.9.0|### Added -resume command to resume s<br>canning using the specified afrog-resu<br>me.cfg file    ### 新增 -resume 命令，<br>使用指定的 afrog-resume.cfg 文件恢复扫<br>描  |
+|2023-11-01 18:27:18|[faker](https://github.com/joke2k/faker)|v19.13.<br>0|See .|
+|2023-11-01 03:30:09|[WeblogicTool](https://github.com/KimJun1010/WeblogicTool)|v1.3|更新记录    - 修复CVE_2020_14882特殊<br>环境下漏报问题  - 修复CVE_2018_2894工作<br>目录路径问题|
+|2023-11-01 03:28:43|[afrog](https://github.com/zan8in/afrog)|v2.9.1|### 为了解决2.9.0版本代码优化引发的重<br>大漏洞问题，该漏洞会严重干扰漏洞探测结<br>果，我们强烈建议您立即升级到2.9.1版本，<br>或者使用2.8.9版本或更低版本。  ### 受影<br>响的版本：v2.9.0    ### Added -resume c<br>ommand to resume scanning using the sp<br>ecified afrog-resume.cfg file  ### 新<br>增 -resume 命令，使用指定的 afrog-resum<br>e.cfg 文件恢复扫描    |
 |2023-10-29 18:50:38|[malwoverview](https://github.com/alexandreborges/malwoverview)|v5.4.2|Malwoverview 5.4.2|
 |2023-10-29 10:13:17|[HackerPermKeeper](https://github.com/RuoJi6/HackerPermKeeper)|6.0| 1、Suid shell bash权限维持    2、重<br>写生成代码(连续生成)    3、添加不记录历<br>史命令临时操作，同时可以批量删除指定的.<br>bash_history文件中的历史记录    4、修<br>改检查脚本(添加检查环境)    5、使用tabu<br>late模块进行格式化输出|
 |2023-10-29 04:29:20|[PEASS-ng](https://github.com/carlospolop/PEASS-ng)|2023102<br>9-83b8fb<br>e1||
@@ -26,33 +27,37 @@
 |2023-10-20 17:31:29|[syft](https://github.com/anchore/syft)|v0.94.0|### Added Features  - Add additional <br>license filenames  @coheigea] - Parse <br>donet dependency trees  @noqcks] - Fin<br>d license by embedded license text   @<br>coheigea] - Add support for dpkg depen<br>dency relationships   @wagoodman]  ###<br> Bug Fixes  - Report errors to stderr <br>not stdout  @wagoodman] - Python egg p<br>ackages are not parsed for SBOM   @spi<br>ffcs] - Java archive is listed twice  <br> @wagoodman] - Java archives not from <br>Maven   @wagoodman] - Remove internal.<br>StringSet   @wagoodman] - Invalid inte<br>rface conversion in Swift cataloger   <br>@wagoodman]  ****  |
 |2023-10-20 03:29:18|[goproxy](https://github.com/snail007/goproxy)|v14.0|1、sps/http(s)/socks5新增tcps加密协议<br>，使用更方便。  2、socks5/sps的udp 更新<br>了底层传输加密方式，如果设置了加密传输<br>的socks5，而且使用了udp功能，服务端和客<br>户端都升级到最新版udp功能才能使用。  |
 |2023-10-19 15:39:26|[codeql-cli-binari<br>es](https://github.com/github/codeql-cli-binaries)|v2.15.1|## Release 2.15.1 (2023-10-19)    ###<br> Potentially Breaking Changes    - The<br> query server's evaluation/trimCache c<br>ommand was previously equivalent to th<br>e codeql database cleanup --mode=gentl<br>e CLI command, but is now equivalent t<br>o using --mode=normal.    ### Deprecat<br>ions    - The accepted values of the c<br>odeql database cleanup --mode= command<br> line option have been renamed to brin<br>g them in line with what they are call<br>ed in the VSCode extension and the que<br>ry server:    - --mode=brutal is now -<br>-mode=clear.    - --mode=normal is now<br> --mode=trim.    - --mode=light is now<br> --mode=fit.    - The old names are de<br>precated, but will be accepted for bac<br>kwards-compatibility reasons until fur<br>ther notice.    ### Improvements    - <br>The list of failed tests at the end of<br> a codeql test run is now sorted lexic<br>ographically.    ### Bugs fixed    - F<br>ixed a bug where the $CODEQL_JAVA_HOME<br> environment variable was    erroneous<br>ly ignored for certain subsidiary Java<br> processes started by    codeql.  - Fi<br>xed a bug in the CodeQL build tracer o<br>n Apple Silicon machines that prevente<br>d database creation if System Integrit<br>y Protection was disabled.    For more<br> information about the changes include<br>d in this release, see the .    You ca<br>n download _either_ the codeql-PLATFOR<br>M.zip for your platform, _or_ the gene<br>ric codeql.zip which contains binaries<br> for all supported platforms. Please i<br>gnore the additional "source code" dow<br>nloads below the .zip artifacts.    Th<br>is release is compatible with the Code<br>QL language packs from .  |
-|2023-10-17 07:59:10|[ARL](https://github.com/TophantTechnology/ARL)|v2.6|1. 域名查询插件 添加 Chaos 源，感谢 @<br>NAXG  #622  2. 增加一些常见的WAF和CDN<br>的CNAME, 感谢 @ox01024  #586  3. 更新 G<br>eoLite2 db 文件, 感谢 @ox01024 #587  4<br>. 添加企业微信和飞书消息推送 (监控任务<br>) #447  5. 资产 IP 选项卡可以分别导出<br>域名和IP  6. 任务详情 添加 导出 C 段 按<br>钮  7. nuclei 版本更新   8. HTTP 存活探<br>测改为 GET 请求  9. 增加 js文件敏感信息<br>搜集 (WebInfoHunter)工具调用 #474 #532 <br> 10. 添加 WebInfoHunter 任务和监控任务<br>  11. 修复 策略配置 - 新建策略时勾选掉<br>了"跳过CDN"，但实际不会生效 #618  12. <br>全端口扫描速率参数调大  13. PoC 信息第<br>一次启动时更新优化  #604  14. 任务界面<br>添加全局查看的按钮 #625     |
 ## 近15天commit提交记录
 | 提交时间 | 项目名称 | 更新内容 |
 | :---- | :---- | :---- |
-|2023-11-01 00:00:02|[free](https://github.com/freefq/free)|updated_at 11-01 08:00|
-|2023-10-31 23:47:12|[PocOrExp_in_Githu<br>b](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-11-01 07:47:12|
-|2023-10-31 22:23:03|[RsaCtfTool](https://github.com/RsaCtfTool/RsaCtfTool)|Updated convert_idrsa_pub function (#455)  * Update<br>d convert_idrsa_pub function|
-|2023-10-31 20:59:22|[ImHex](https://github.com/WerWolv/ImHex)|build: Updated libromfs|
+|2023-11-02 00:00:02|[free](https://github.com/freefq/free)|updated_at 11-02 08:00|
+|2023-11-01 22:49:52|[PocOrExp_in_Githu<br>b](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-11-02 06:49:52|
+|2023-11-01 19:21:14|[dbeaver](https://github.com/dbeaver/dbeaver)|23.2.4 version bump|
+|2023-11-01 18:26:33|[faker](https://github.com/joke2k/faker)|Bump version: 19.12.1 → 19.13.0|
+|2023-11-01 17:10:17|[syft](https://github.com/anchore/syft)|fix: syft does not handle the case of parsing a jar<br> with multiple poms (#2231)  ---------    Signed-off<br>-by: Colm O hEigeartaigh   Signed-off-by: Christophe<br>r Phillips   Co-authored-by: Christopher Phillips |
+|2023-11-01 14:37:12|[afrog](https://github.com/zan8in/afrog)|update|
+|2023-11-01 13:54:19|[ChatGPT-Shortcut](https://github.com/rockbenben/ChatGPT-Shortcut)|style: Optimize the style of the favor icon for log<br>ged-out users|
+|2023-11-01 13:32:29|[RsaCtfTool](https://github.com/RsaCtfTool/RsaCtfTool)|Merge pull request #464 from crypto-vbg/patch-3  Up<br>date abstract_attack.py|
+|2023-11-01 13:09:36|[v2rayA](https://github.com/v2rayA/v2rayA)|chore: rename feat_v5 to main|
+|2023-11-01 12:35:55|[v2rayfree](https://github.com/aiboboxx/v2rayfree)|update|
+|2023-11-01 12:06:12|[rustdesk](https://github.com/rustdesk/rustdesk)|Merge pull request #6258 from fufesou/fix/remove_un<br>used_capturer_on_peer  fix, remove unused capturer w<br>hen switching display|
+|2023-11-01 11:10:09|[nuclei](https://github.com/projectdiscovery/nuclei)|chore(deps): bump github.com/docker/docker (#4316) <br> Bumps  from 24.0.5+incompatible to 24.0.7+incompati<br>ble.  -   -     ---  updated-dependencies:  - depend<br>ency-name: github.com/docker/docker    dependency-ty<br>pe: indirect  ...    Signed-off-by: dependabot[bot] <br>  Co-authored-by: dependabot[bot] |
+|2023-11-01 10:07:11|[ImHex](https://github.com/WerWolv/ImHex)|build: Updated dependencies|
+|2023-11-01 09:33:57|[FreeRDP](https://github.com/FreeRDP/FreeRDP)|Revise Korean translations.|
+|2023-11-01 09:31:48|[trivy](https://github.com/aquasecurity/trivy)|feat: scan vulns on k8s core component apps (#5418)<br>  Signed-off-by: chenk |
+|2023-11-01 09:06:55|[frp](https://github.com/fatedier/frp)|frpc: exit with code 1 if first login failed (#3740<br>)|
+|2023-11-01 08:28:53|[PST-Bucket](https://github.com/arch3rPro/PST-Bucket)|afrog: Update to version 2.9.1|
+|2023-11-01 05:06:44|[iDefender](https://github.com/wecooperate/iDefender)|update|
+|2023-11-01 04:18:55|[java-memshell-gen<br>erator-release](https://github.com/pen4uin/java-memshell-generator-release)|archived|
+|2023-11-01 00:46:30|[CTF-QuickStart](https://github.com/ProbiusOfficial/CTF-QuickStart)|Automatically update friends.md|
 |2023-10-31 20:29:18|[neuvector](https://github.com/neuvector/neuvector)|Merge pull request #1078 from jayhuang-suse/four  A<br>dd rlock protection on the shared map, "activeContai<br>ners", access.|
-|2023-10-31 19:33:52|[syft](https://github.com/anchore/syft)|test: remove dll files and updates tests to use ver<br>sionResources (#2276)  * test: remove dll files and <br>updates tests to use versionResources    Signed-off-<br>by: Christopher Phillips     * test: update integrat<br>ion tests with dot net coverage    Signed-off-by: Ch<br>ristopher Phillips     * chore: move test cases to a<br>ppropriate blocks    Signed-off-by: Christopher Phil<br>lips     * fix: chmod only the dll    Signed-off-by:<br> Christopher Phillips     * fix: add primary annotat<br>ion key to packages    Signed-off-by: Christopher Ph<br>illips     * chore: bump number of packages with new<br> dotnet package    Signed-off-by: Christopher Philli<br>ps     ---------    Signed-off-by: Christopher Phill<br>ips |
 |2023-10-31 18:23:03|[Mobile-Security-F<br>ramework-MobSF](https://github.com/MobSF/Mobile-Security-Framework-MobSF)|Hotfix: Bump deps|
 |2023-10-31 17:48:52|[grype](https://github.com/anchore/grype)|chore(deps): bump github.com/docker/docker (#1579) <br> Bumps  from 24.0.6+incompatible to 24.0.7+incompati<br>ble.  -   -     ---  updated-dependencies:  - depend<br>ency-name: github.com/docker/docker    dependency-ty<br>pe: direct:production    update-type: version-update<br>:semver-patch  ...    Signed-off-by: dependabot[bot]<br>   Co-authored-by: dependabot[bot] |
-|2023-10-31 17:15:30|[faker](https://github.com/joke2k/faker)|Bump version: 19.12.0 → 19.12.1|
 |2023-10-31 17:09:15|[audacity](https://github.com/audacity/audacity)|Merge pull request #4684 from Paul-Licameli/More-re<br>gistry-type-checking  More registry type checking   <br> Simplify calls to visit registries. (When only visi<br>ting leaf nodes of one type, the visitor can be just<br> one lambda).    Eliminate many dynamic_casts. Inste<br>ad TypeSwitch hides all the casting.    This also ma<br>kes better type safety. GroupItemBase because a deta<br>il class that applications should not use.|
-|2023-10-31 16:32:01|[PST-Bucket](https://github.com/arch3rPro/PST-Bucket)|afrog: Update to version 2.9.0|
-|2023-10-31 14:33:39|[dbeaver](https://github.com/dbeaver/dbeaver)|dbeaver/pro#1899 GCP FS (#21686)  * dbeaver/pro#189<br>9 FS URI resolve enhancements    * dbeaver/pro#1899 <br>DBF identification and refresh    * dbeaver/pro#1899<br> Parallel execution (performance)|
 |2023-10-31 14:16:15|[sqlmap](https://github.com/sqlmapproject/sqlmap)|Fixes #5560|
-|2023-10-31 14:02:54|[v2rayA](https://github.com/v2rayA/v2rayA)|Fix build of PR go moudle|
-|2023-10-31 13:56:19|[afrog](https://github.com/zan8in/afrog)|update 2.9.0|
-|2023-10-31 13:10:23|[rustdesk](https://github.com/rustdesk/rustdesk)|bump flutter to 3.13.9 and bridge to 1.79|
-|2023-10-31 12:35:42|[v2rayfree](https://github.com/aiboboxx/v2rayfree)|update|
 |2023-10-31 12:26:47|[vulhub](https://github.com/vulhub/vulhub)|Merge pull request #473 from D3vil0p3r/patch-1|
 |2023-10-31 12:02:27|[mitaka](https://github.com/ninoseki/mitaka)|Merge pull request #762 from ninoseki/renovate/npm-<br>zod-vulnerability  fix(deps): update dependency zod <br>to v3.22.3 [security]|
-|2023-10-31 11:40:48|[frp](https://github.com/fatedier/frp)|chore: Update dependencies (#3738)  * chore: Update<br> dependencies    * Removed all foolish updates|
 |2023-10-31 01:56:54|[Pentest-Windows](https://github.com/arch3rPro/Pentest-Windows)|Update README.md|
-|2023-10-31 01:47:58|[trivy](https://github.com/aquasecurity/trivy)|fix(java): fix infinite loop when relativePath fiel<br>d points to pom.xml being scanned (#5470)|
-|2023-10-31 00:43:27|[CTF-QuickStart](https://github.com/ProbiusOfficial/CTF-QuickStart)|Automatically update friends.md|
 |2023-10-30 16:02:15|[clair](https://github.com/quay/clair)|contrib: simplify openshift/pr_check.sh  This scrip<br>t is used in the pipeline for the quay.io Clair inst<br>ance. All the real CI is done in GitHub Actions, so <br>this is just to make that process' happy.  Signed-of<br>f-by: Hank Donnay |
 |2023-10-30 08:28:08|[beef](https://github.com/beefproject/beef)|Locking otr-activerecord to version 2.1.2 until we <br>can fix the bugs with the later version|
 |2023-10-30 07:29:41|[OneScan](https://github.com/vaycore/OneScan)|更新说明文档|
@@ -68,17 +73,14 @@
 |2023-10-28 04:17:23|[Stowaway](https://github.com/ph4ntonn/Stowaway)|Add Apple Silicon support|
 |2023-10-28 01:11:30|[DecoyMini](https://github.com/decoymini/DecoyMini)|Update README.md|
 |2023-10-27 18:45:30|[kube-bench](https://github.com/aquasecurity/kube-bench)|build(deps): bump github.com/golang/glog from 1.0.0<br> to 1.1.2 (#1489)  Bumps  from 1.0.0 to 1.1.2.  -   <br>-     ---  updated-dependencies:  - dependency-name:<br> github.com/golang/glog    dependency-type: direct:p<br>roduction    update-type: version-update:semver-mino<br>r  ...    Signed-off-by: dependabot[bot]   Co-author<br>ed-by: dependabot[bot]   Co-authored-by: chenk |
-|2023-10-27 17:09:41|[FreeRDP](https://github.com/FreeRDP/FreeRDP)|[egfx] reset total decoded frames when receiving ca<br>ps  It seems like some windows servers don't like to<br> receive ack frame messages with a totalDecodedFrame<br> number that is bigger than the frameId. That can ha<br>ppen if the connection starts, some frames are decod<br>ed, we receive a renegotiate message, then egfx chan<br>nel is reopened and the frame ids we receive go back<br> to 1. In the previous situation, we ended up with s<br>ending an ack with frameId=1 and totalDecodedFrames=<br>38, with the patch totalDecodedFrames is reset when <br>receiving caps, so it's always lower than frameId.|
 |2023-10-27 15:37:03|[impacket](https://github.com/fortra/impacket)|[DumpNTLMInfo.py] fix error with 2003 (#1630)  * [D<br>umpNTLMInfo.py] fix error with 2003    Signed-off-by<br>: XiaoliChan     * [DumpNTLMInfo.py] garbrielg5: rev<br>iew I    Signed-off-by: Xiaoli Chan     ---------   <br> Signed-off-by: XiaoliChan   Signed-off-by: Xiaoli C<br>han |
 |2023-10-27 10:47:19|[gshark](https://github.com/madneal/gshark)|Merge branch 'master' of github.com:madneal/gshark|
 |2023-10-27 08:53:20|[arthas](https://github.com/alibaba/arthas)|update ognl website url|
 |2023-10-27 07:15:45|[safeline](https://github.com/chaitin/safeline)|Update 2bug-report.yaml  add input "version"|
 |2023-10-27 00:29:54|[Awesome-Redteam](https://github.com/Threekiii/Awesome-Redteam)|更新README.md|
-|2023-10-26 15:58:08|[nuclei](https://github.com/projectdiscovery/nuclei)|Merge branch 'dev'|
 |2023-10-26 08:19:35|[murphysec](https://github.com/murphysecurity/murphysec)|feat(cmd): add flag --only-task-id|
 |2023-10-26 02:54:29|[vulnerability](https://github.com/lal0ne/vulnerability)|CVE-2023-34051|
 |2023-10-25 12:16:45|[rengine](https://github.com/yogeshojha/rengine)|Merge pull request #1020 from AnonymousWP/bump-to-2<br>.0.1  fix(versioning): bump version number to 2.0.1|
-|2023-10-25 11:04:20|[iDefender](https://github.com/wecooperate/iDefender)|update|
 |2023-10-25 07:56:46|[RmTools](https://github.com/RoomaSec/RmTools)|Update README.md|
 |2023-10-25 07:55:45|[RmEye](https://github.com/RoomaSec/RmEye)|Update readme.md|
 |2023-10-25 06:45:41|[ObserverWard](https://github.com/0x727/ObserverWard)|Merge pull request #204 from 0x727/dependabot/cargo<br>/rustix-0.36.16  Bump rustix from 0.36.4 to 0.36.16|
@@ -102,8 +104,7 @@
 |2023-10-20 12:52:11|[codeql-cli-binari<br>es](https://github.com/github/codeql-cli-binaries)|Remove duplicate changelog entry|
 |2023-10-20 11:59:50|[r0capture](https://github.com/r0ysue/r0capture)|Update README.md|
 |2023-10-20 02:50:54|[Fastjson](https://github.com/safe6Sec/Fastjson)|Update README.md|
-|2023-10-18 02:50:06|[Library-POC](https://github.com/luck-ying/Library-POC)|Update README.md|
-|2023-10-17 07:50:43|[ARL](https://github.com/TophantTechnology/ARL)|Merge pull request #639 from TophantTechnology/upda<br>te/v2.6  Update/v2.6|## 所有项目
+|2023-10-18 02:50:06|[Library-POC](https://github.com/luck-ying/Library-POC)|Update README.md|## 所有项目
 # 渗透测试
 ## 信息收集
 ### 资产测绘采集
@@ -262,7 +263,7 @@
 | [w13scan](https://github.com/w-digital-scanner/w13scan) |  | Passive Security Scanner (被动式安全扫描器) |
 | [Fvuln](https://github.com/d3ckx1/Fvuln) | Fvuln-1<br>.4.9 | F-vuln（全称：Find-Vulnerability）是为了自己工作方便专门编写的<br>一款自动化工具，主要适用于日常安全服务、渗透测试人员和RedTeam红<br>队人员，它集合的功能包括：存活IP探测、开放端口探测、web服务探测<br>、web漏洞扫描、smb爆破、ssh爆破、ftp爆破、mssql爆破等其他数据库<br>爆破工作以及大量web漏洞检测模块。 |
 | [nuclei](https://github.com/projectdiscovery/nuclei) | v3.0.2 | Fast and customizable vulnerability scanner based on simple YA<br>ML based DSL. |
-| [afrog](https://github.com/zan8in/afrog) | v2.9.0 | A Security Tool for Bug Bounty, Pentest and Red Teaming. |
+| [afrog](https://github.com/zan8in/afrog) | v2.9.1 | A Security Tool for Bug Bounty, Pentest and Red Teaming. |
 | [vulmap](https://github.com/zhzyker/vulmap) | v0.9 | Vulmap 是一款 web 漏洞扫描和验证工具, 可对 webapps 进行漏洞扫<br>描, 并且具备漏洞验证功能 |
 | [POC-bomber](https://github.com/tr0uble-mAker/POC-bomber) | POC-bom<br>ber-for-<br>Redteam-<br>v3.0.0 | 利用大量高威胁poc/exp快速获取目标权限，用于渗透和红队快速打点 |
 | [QingTing](https://github.com/StarCrossPortal/QingTing) | v0.3 | 蜻蜓安全一个安全工具编排平台,可以自由编排你的工具流,集成108款<br>工具,包括xray、nmap、awvs等;你可以将喜欢的工具编排成一个场景，快<br>速打造适合自己的安全工作台~ |
@@ -654,7 +655,7 @@
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
 | [weblogic-framewor<br>k](https://github.com/dream0x01/weblogic-framework) | v0.2.3 | weblogic-framework is the best tool for detecting weblogic vul<br>nerabilities. |
-| [WeblogicTool](https://github.com/KimJun1010/WeblogicTool) | v1.2 | WeblogicTool，GUI漏洞利用工具，支持漏洞检测、命令执行、内存马<br>注入、密码解密等（深信服深蓝实验室天威战队强力驱动） |
+| [WeblogicTool](https://github.com/KimJun1010/WeblogicTool) | v1.3 | WeblogicTool，GUI漏洞利用工具，支持漏洞检测、命令执行、内存马<br>注入、密码解密等（深信服深蓝实验室天威战队强力驱动） |
 | [CVE-2023-21839](https://github.com/4ra1n/CVE-2023-21839) |  |  |
 | [Decrypt_Weblogic_<br>Password](https://github.com/TideSec/Decrypt_Weblogic_Password) |  | 搜集了市面上绝大部分weblogic解密方式，整理了7种解密weblogic的<br>方法及响应工具。 |
 #### SmartBI
@@ -1384,7 +1385,7 @@
 ## 生成虚假数据
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
-| [faker](https://github.com/joke2k/faker) | v19.12.<br>1 | Faker is a Python package that generates fake data for you. |
+| [faker](https://github.com/joke2k/faker) | v19.13.<br>0 | Faker is a Python package that generates fake data for you. |
 ## 短信转发器
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
