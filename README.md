@@ -1,8 +1,11 @@
-# 更新于 2023-11-02 08:35:45
+# 更新于 2023-11-03 08:34:55
 
 ## 近15天release更新记录
 | 更新时间 | 项目名称 | 版本 | 更新内容 |
 | :---- | :---- | :---- | :---- |
+|2023-11-02 16:46:16|[audacity](https://github.com/audacity/audacity)|Audacit<br>y-3.4.0|Audacity 3.4 adds a musical view, tim<br>e stretching and a new exporter.     #<br># Major changes     * Music workflows <br>      Audacity now features several mu<br>sic related features, such as switchin<br>g between hh:mm:ss time and Beats & Me<br>asures, and time-stretching clips to a<br>lign them to a song's tempo.      * Ti<br>me stretching       Hold Alt (macOS: O<br>ption) while hovering over the top thi<br>rd of a clip edge to stretch it.      <br>* New exporter       Audacity now feat<br>ures a new export window with easier a<br>ccess to options such as sample rate a<br>nd custom mapping (for 5.1 or 7.1 audi<br>o). Additionally, the "Browse" button <br>uses the native file browser now!     <br>## Other changes     * For MP3, Audaci<br>ty now always uses Joint Stereo mode, <br>which always delivers the best possibl<br>e quality.     * #4720 Simplified past<br>ing logic.     * Simplified stereo tra<br>cks. Left and right channels now alway<br>s have synchronized clip starts and en<br>ds, and the same sample rate in both c<br>hannels.      * #5014 Added cursors tr<br>imming and stretching left and right, <br>and changed the I-beam cursor to be le<br>ss similar to either.     * #4448 When<br> importing audio, the project sample r<br>ate no longer changes.     * #5204 The<br> spectrogram colors are now perceptual<br>ly uniform, and the colormap has gotte<br>n a name: Roseus. It also can be used <br>for dataviz outside of Audacity, see h<br>ttps://github.com/dofuuz/roseus for mo<br>re info! (Thanks, Myungchul Keum)     <br>* New defaults: The Time Signature too<br>lbar now gets shown, the solo button i<br>s set to multi-track mode, time tracks<br> have a wider starting range.     * #5<br>291 Unsquished the Audacity logo found<br> in some places of the app.     * #233<br>0 Clicking on the border of two clips <br>no longer merges them.     * #2530 Ove<br>rdubbing on Windows fails with WASAPI <br>with default Recording device.     * #<br>443 Built-in Opus support.     ## Libr<br>aries     * lib-time-and-pitch impleme<br>nts a time stretching algorithm origin<br>ating in Staffpad.     * Audacity now <br>uses Conan 2.     * Continued extracti<br>ng code into libraries and modules, es<br>pecially in the context of importing a<br>nd exporting.     ## Bug fixes     * #<br>3778 --nogap metadata no longer is ign<br>ored.     * #4410 fixed a crash with L<br>V2 plugins (thanks jfroyall!).     * #<br>2471 #4798 fixed some crashes related <br>to macros.     * #4769 fixed a crash w<br>hen pasting in certain configurations.<br>     * #4677 Accessibility: GUI can be<br> disabled again for VST2 plugins (than<br>ks, David Bailes!).     * #4988 Access<br>ibility: Restored window control IDs, <br>improving NVDA compatibility (thanks a<br>gain, David Bailes!).     * #4872 fixe<br>d a crash on launch on OSX 10.9 (thank<br>s, René Bertin!).|
+|2023-11-02 14:46:40|[nuclei](https://github.com/projectdiscovery/nuclei)|v3.0.3|    ## What's Changed  * Added self-c<br>ontained template support to headless <br>protocol by @dogancanbakir in https://<br>github.com/projectdiscovery/nuclei/pul<br>l/4322  * Added miscellaneous SDK enha<br>ncements by @tarunKoyalwar in https://<br>github.com/projectdiscovery/nuclei/pul<br>l/4301  * Fixed issue with trailing do<br>t in dns protocol by @dogancanbakir in<br> https://github.com/projectdiscovery/n<br>uclei/pull/4295  * Fixed connection is<br>sues in javascript, network protocol @<br>tarunKoyalwar in https://github.com/pr<br>ojectdiscovery/nuclei/pull/4313  * Fix<br>ed issue in flow to use javascript by <br>@tarunKoyalwar in https://github.com/p<br>rojectdiscovery/nuclei/pull/4313  * Up<br>dated cloned directory structure (proj<br>ect owner => repo) for GitHub by @doga<br>ncanbakir in https://github.com/projec<br>tdiscovery/nuclei/pull/4293    ## New <br>Contributors  * @atomiczsec made their<br> first contribution in https://github.<br>com/projectdiscovery/nuclei/pull/4296 <br>   **Full Changelog**: https://github.<br>com/projectdiscovery/nuclei/compare/v3<br>.0.2...v3.0.3|
+|2023-11-02 09:10:25|[safeline](https://github.com/chaitin/safeline)|v3.10.0|### 新增    - 在证书管理创建证书时，<br>支持直接粘贴证书与私钥内容（）    ### <br>优化    - 人机验证的客户端文件从 138k <br>减小到 78k，提高加载速度  - 人机验证 co<br>okie 改为 httpOnly 模式，避免在 JavaSc<br>ript 运行时泄露  - 人机验证防止简单绕<br>过 （）  - 修复站点详情中，资源 “今日<br>请求” 的总和大于站点 “今日请求总量” <br>的问题（）|
 |2023-11-01 18:27:18|[faker](https://github.com/joke2k/faker)|v19.13.<br>0|See .|
 |2023-11-01 03:30:09|[WeblogicTool](https://github.com/KimJun1010/WeblogicTool)|v1.3|更新记录    - 修复CVE_2020_14882特殊<br>环境下漏报问题  - 修复CVE_2018_2894工作<br>目录路径问题|
 |2023-11-01 03:28:43|[afrog](https://github.com/zan8in/afrog)|v2.9.1|### 为了解决2.9.0版本代码优化引发的重<br>大漏洞问题，该漏洞会严重干扰漏洞探测结<br>果，我们强烈建议您立即升级到2.9.1版本，<br>或者使用2.8.9版本或更低版本。  ### 受影<br>响的版本：v2.9.0    ### Added -resume c<br>ommand to resume scanning using the sp<br>ecified afrog-resume.cfg file  ### 新<br>增 -resume 命令，使用指定的 afrog-resum<br>e.cfg 文件恢复扫描    |
@@ -14,7 +17,6 @@
 |2023-10-27 11:00:44|[Pentest-Windows](https://github.com/arch3rPro/Pentest-Windows)|v2.2|新增内网渗透工具和远程管理工具、删除<br>了部分已不再维护或基本不用的工具    Win<br>dows11 Penetration Suite Toolkit v2.2 <br>(WSL) 【推荐】  下载链接：https://www.<br>123pan.com/s/q59KVv-T4Qpd.html 提取码:<br>wpst  文件大小：8.55GB，解压后：23.2GB<br>  SHA256：7305DBFFF38EAAD59373C8232EB4<br>17F6E996A5E80F379D22688BAC0E7C8CA6A9  <br>Windows11 Penetration Suite Toolkit v2<br>.2 (NoWSL) 【无WSL】  下载链接：https:<br>//www.123pan.com/s/q59KVv-tvQpd.html <br>提取码:wpst  文件大小：7.13 GB，解压后<br>：17.6GB  SHA256：D05F8366E1054911AAE88<br>5A61D2621786B74CC6050F55A66B90CE4EDD38<br>CFD98|
 |2023-10-27 10:48:46|[gshark](https://github.com/madneal/gshark)|v1.2.2|## Fixed    * 修复数据库初始化逻辑问<br>题  * 升级前端组件版本|
 |2023-10-27 05:20:29|[OneScan](https://github.com/vaycore/OneScan)|v1.3.7|1.3.7 版本发布，版本更新内容如下    #<br>## 优化    - 优化导入 URL 功能：在 UI <br>界面中保留最后一次导入的数据  - Databoa<br>rd 数据看板新增 “删除选中项” 菜单项<br>；调整菜单项的顺序，防止误操作  - 优先<br>检测当前插件 jar 包所在目录下是否存在 O<br>neScan 目录，如果存在，将使用该目录作<br>为工作目录    |
-|2023-10-26 16:00:33|[nuclei](https://github.com/projectdiscovery/nuclei)|v3.0.2|    ## What's Changed  ### Other Chan<br>ges  * Fixed relative path issue for t<br>emplate loading by @tarunKoyalwar in h<br>ttps://github.com/projectdiscovery/nuc<br>lei/pull/4284      **Full Changelog**:<br> https://github.com/projectdiscovery/n<br>uclei/compare/v3.0.1...v3.0.2|
 |2023-10-25 09:32:17|[Elkeid](https://github.com/bytedance/Elkeid)|rasp-v2<br>.2.1.0-p<br>re||
 |2023-10-24 05:51:26|[rengine](https://github.com/yogeshojha/rengine)|v2.0.1|2.0.1 fixes a ton of issues in reNgin<br>e 2.0.    Fixes:   1. Prevent duplicat<br>ing Nuclei vulns for subdomain #1012 @<br>psyray  2. Fixes for empty subdomain r<br>eturned during nuclei scan #1011 @psyr<br>ay  3. Add all the missing slug in sca<br>nEngine view & other places #1005 @psy<br>ray  4. Foxes for missing vulscan scri<br>pt #1004 @psyray  5. Fixes for missing<br> slug in report settings saving #1003 <br> 6. Fixes for Nmap Parsing Error #1001<br> #1002 @psyray  7. Fix nmap script por<br>ts iterable args #1000 @psyray  8. Ite<br>rate over hostnames when multiple #100<br>2 @psyray  8. Gau install #998, change<br> gauplus to gau @psyray  9. Add missin<br>g slug parameter in schedule scan #996<br> @psyray  10. Add missing slug paramet<br>er in schedule scan #996, fixes #940, <br>#937, #897, #764 @psyray  11. Add stac<br>k trace into make logs if DEBUG True #<br>994 @psyray  12. Fix dirfuzz base64 na<br>me display #993 #992 @psyray  13. Fix <br>target subdomains list not loading #99<br>1 @psyray  14. Change WORDLIST constan<br>t value #987, fixes #986@psyray   15. <br>fix(notification_settings): submitting<br> results in error 502 #981 fixes #970 <br>@psyray  16. Fixes with documentation <br>and installation/update/uninstall scri<br>pts @anonymousWP  17. Fix file directo<br>ry popup not showing in detailed scan <br>#912 @psyray      @AnonymousWP and @ps<br>yray have been phenomenal in fixing th<br>ese bugs. Thanks to both of you! :hear<br>t: :rocket: |
 |2023-10-24 02:57:54|[frp](https://github.com/fatedier/frp)|v0.52.3|### Fixes  * admin_user is not effect<br>ive in the INI configuration.  |
@@ -30,29 +32,36 @@
 ## 近15天commit提交记录
 | 提交时间 | 项目名称 | 更新内容 |
 | :---- | :---- | :---- |
-|2023-11-02 00:00:02|[free](https://github.com/freefq/free)|updated_at 11-02 08:00|
-|2023-11-01 22:49:52|[PocOrExp_in_Githu<br>b](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-11-02 06:49:52|
-|2023-11-01 19:21:14|[dbeaver](https://github.com/dbeaver/dbeaver)|23.2.4 version bump|
+|2023-11-03 00:00:02|[free](https://github.com/freefq/free)|updated_at 11-03 08:00|
+|2023-11-02 23:49:21|[PocOrExp_in_Githu<br>b](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-11-03 07:49:21|
+|2023-11-02 19:48:34|[ImHex](https://github.com/WerWolv/ImHex)|build: Removed old jthread search|
+|2023-11-02 19:35:52|[Vuln-List](https://github.com/wwl012345/Vuln-List)|Update 中间件&框架&平台&第三方服务漏洞.md|
+|2023-11-02 19:25:48|[grype](https://github.com/anchore/grype)|Incorporate format API changes from syft (#1582)  *<br> incorporate changes from anchore/syft#2228    Signe<br>d-off-by: Alex Goodman     * fix testing utils to us<br>e syft SBOM    Signed-off-by: Alex Goodman     -----<br>----    Signed-off-by: Alex Goodman |
+|2023-11-02 16:32:41|[PST-Bucket](https://github.com/arch3rPro/PST-Bucket)|cudatext-cn: Update to version 1.201.0.1|
+|2023-11-02 16:28:15|[dbeaver](https://github.com/dbeaver/dbeaver)|Java 17 code style + formatting|
+|2023-11-02 14:33:19|[nuclei](https://github.com/projectdiscovery/nuclei)|Merge branch 'dev'|
+|2023-11-02 13:20:27|[syft](https://github.com/anchore/syft)|chore(deps): update tools to latest versions (#2280<br>)  Signed-off-by: GitHub   Co-authored-by: spiffcs |
+|2023-11-02 12:35:41|[v2rayfree](https://github.com/aiboboxx/v2rayfree)|update|
+|2023-11-02 12:31:38|[VolatilityPro](https://github.com/Tokeii0/VolatilityPro)|Delete volprogui.py|
+|2023-11-02 12:23:13|[pingtunnel](https://github.com/esrrhs/pingtunnel)|Merge pull request #60 from esrrhs/esrrhs-patch-1  <br>Update go.yml|
+|2023-11-02 11:44:28|[FreeRDP](https://github.com/FreeRDP/FreeRDP)|[channels] add _CHANNEL_NAME for each  * made _CHAN<br>NEL_NAME defines consistent, each channel now has a <br>  define for the library name. * use these defines i<br>nstead of string constants|
+|2023-11-02 10:49:48|[Elkeid](https://github.com/bytedance/Elkeid)|Merge pull request #548 from askyLYZ/main  baseline<br> task bug fix|
+|2023-11-02 08:44:21|[safeline](https://github.com/chaitin/safeline)|feat: release v3.10.0|
+|2023-11-02 07:13:39|[WebGoat](https://github.com/WebGoat/WebGoat)|chore: bump org.apache.maven.plugins:maven-checksty<br>le-plugin (#1640)  Bumps  from 3.3.0 to 3.3.1.  -   <br>  ---  updated-dependencies:  - dependency-name: org<br>.apache.maven.plugins:maven-checkstyle-plugin    dep<br>endency-type: direct:production    update-type: vers<br>ion-update:semver-patch  ...    Signed-off-by: depen<br>dabot[bot]   Co-authored-by: dependabot[bot] |
+|2023-11-02 06:56:40|[rustdesk](https://github.com/rustdesk/rustdesk)|Merge pull request #6264 from fufesou/fix/win_crash<br>_tokio_1.28.1_upgrade_1.33.0  fix, win crash, tokio <br>1.28.1 to 1.33.0, revert|
+|2023-11-02 04:14:54|[trivy](https://github.com/aquasecurity/trivy)|chore: remove unused logger attribute in amazon det<br>ector (#5476)|
+|2023-11-02 02:34:34|[Awesome-Redteam](https://github.com/Threekiii/Awesome-Redteam)|更新README.md|
 |2023-11-01 18:26:33|[faker](https://github.com/joke2k/faker)|Bump version: 19.12.1 → 19.13.0|
-|2023-11-01 17:10:17|[syft](https://github.com/anchore/syft)|fix: syft does not handle the case of parsing a jar<br> with multiple poms (#2231)  ---------    Signed-off<br>-by: Colm O hEigeartaigh   Signed-off-by: Christophe<br>r Phillips   Co-authored-by: Christopher Phillips |
 |2023-11-01 14:37:12|[afrog](https://github.com/zan8in/afrog)|update|
 |2023-11-01 13:54:19|[ChatGPT-Shortcut](https://github.com/rockbenben/ChatGPT-Shortcut)|style: Optimize the style of the favor icon for log<br>ged-out users|
 |2023-11-01 13:32:29|[RsaCtfTool](https://github.com/RsaCtfTool/RsaCtfTool)|Merge pull request #464 from crypto-vbg/patch-3  Up<br>date abstract_attack.py|
 |2023-11-01 13:09:36|[v2rayA](https://github.com/v2rayA/v2rayA)|chore: rename feat_v5 to main|
-|2023-11-01 12:35:55|[v2rayfree](https://github.com/aiboboxx/v2rayfree)|update|
-|2023-11-01 12:06:12|[rustdesk](https://github.com/rustdesk/rustdesk)|Merge pull request #6258 from fufesou/fix/remove_un<br>used_capturer_on_peer  fix, remove unused capturer w<br>hen switching display|
-|2023-11-01 11:10:09|[nuclei](https://github.com/projectdiscovery/nuclei)|chore(deps): bump github.com/docker/docker (#4316) <br> Bumps  from 24.0.5+incompatible to 24.0.7+incompati<br>ble.  -   -     ---  updated-dependencies:  - depend<br>ency-name: github.com/docker/docker    dependency-ty<br>pe: indirect  ...    Signed-off-by: dependabot[bot] <br>  Co-authored-by: dependabot[bot] |
-|2023-11-01 10:07:11|[ImHex](https://github.com/WerWolv/ImHex)|build: Updated dependencies|
-|2023-11-01 09:33:57|[FreeRDP](https://github.com/FreeRDP/FreeRDP)|Revise Korean translations.|
-|2023-11-01 09:31:48|[trivy](https://github.com/aquasecurity/trivy)|feat: scan vulns on k8s core component apps (#5418)<br>  Signed-off-by: chenk |
 |2023-11-01 09:06:55|[frp](https://github.com/fatedier/frp)|frpc: exit with code 1 if first login failed (#3740<br>)|
-|2023-11-01 08:28:53|[PST-Bucket](https://github.com/arch3rPro/PST-Bucket)|afrog: Update to version 2.9.1|
 |2023-11-01 05:06:44|[iDefender](https://github.com/wecooperate/iDefender)|update|
 |2023-11-01 04:18:55|[java-memshell-gen<br>erator-release](https://github.com/pen4uin/java-memshell-generator-release)|archived|
 |2023-11-01 00:46:30|[CTF-QuickStart](https://github.com/ProbiusOfficial/CTF-QuickStart)|Automatically update friends.md|
 |2023-10-31 20:29:18|[neuvector](https://github.com/neuvector/neuvector)|Merge pull request #1078 from jayhuang-suse/four  A<br>dd rlock protection on the shared map, "activeContai<br>ners", access.|
 |2023-10-31 18:23:03|[Mobile-Security-F<br>ramework-MobSF](https://github.com/MobSF/Mobile-Security-Framework-MobSF)|Hotfix: Bump deps|
-|2023-10-31 17:48:52|[grype](https://github.com/anchore/grype)|chore(deps): bump github.com/docker/docker (#1579) <br> Bumps  from 24.0.6+incompatible to 24.0.7+incompati<br>ble.  -   -     ---  updated-dependencies:  - depend<br>ency-name: github.com/docker/docker    dependency-ty<br>pe: direct:production    update-type: version-update<br>:semver-patch  ...    Signed-off-by: dependabot[bot]<br>   Co-authored-by: dependabot[bot] |
 |2023-10-31 17:09:15|[audacity](https://github.com/audacity/audacity)|Merge pull request #4684 from Paul-Licameli/More-re<br>gistry-type-checking  More registry type checking   <br> Simplify calls to visit registries. (When only visi<br>ting leaf nodes of one type, the visitor can be just<br> one lambda).    Eliminate many dynamic_casts. Inste<br>ad TypeSwitch hides all the casting.    This also ma<br>kes better type safety. GroupItemBase because a deta<br>il class that applications should not use.|
 |2023-10-31 14:16:15|[sqlmap](https://github.com/sqlmapproject/sqlmap)|Fixes #5560|
 |2023-10-31 12:26:47|[vulhub](https://github.com/vulhub/vulhub)|Merge pull request #473 from D3vil0p3r/patch-1|
@@ -76,8 +85,6 @@
 |2023-10-27 15:37:03|[impacket](https://github.com/fortra/impacket)|[DumpNTLMInfo.py] fix error with 2003 (#1630)  * [D<br>umpNTLMInfo.py] fix error with 2003    Signed-off-by<br>: XiaoliChan     * [DumpNTLMInfo.py] garbrielg5: rev<br>iew I    Signed-off-by: Xiaoli Chan     ---------   <br> Signed-off-by: XiaoliChan   Signed-off-by: Xiaoli C<br>han |
 |2023-10-27 10:47:19|[gshark](https://github.com/madneal/gshark)|Merge branch 'master' of github.com:madneal/gshark|
 |2023-10-27 08:53:20|[arthas](https://github.com/alibaba/arthas)|update ognl website url|
-|2023-10-27 07:15:45|[safeline](https://github.com/chaitin/safeline)|Update 2bug-report.yaml  add input "version"|
-|2023-10-27 00:29:54|[Awesome-Redteam](https://github.com/Threekiii/Awesome-Redteam)|更新README.md|
 |2023-10-26 08:19:35|[murphysec](https://github.com/murphysecurity/murphysec)|feat(cmd): add flag --only-task-id|
 |2023-10-26 02:54:29|[vulnerability](https://github.com/lal0ne/vulnerability)|CVE-2023-34051|
 |2023-10-25 12:16:45|[rengine](https://github.com/yogeshojha/rengine)|Merge pull request #1020 from AnonymousWP/bump-to-2<br>.0.1  fix(versioning): bump version number to 2.0.1|
@@ -85,12 +92,10 @@
 |2023-10-25 07:55:45|[RmEye](https://github.com/RoomaSec/RmEye)|Update readme.md|
 |2023-10-25 06:45:41|[ObserverWard](https://github.com/0x727/ObserverWard)|Merge pull request #204 from 0x727/dependabot/cargo<br>/rustix-0.36.16  Bump rustix from 0.36.4 to 0.36.16|
 |2023-10-25 03:49:28|[Kunlun-M](https://github.com/LoRexxar/Kunlun-M)|Merge pull request #240 from LoRexxar/develop  fix <br>bug|
-|2023-10-24 11:15:57|[Elkeid](https://github.com/bytedance/Elkeid)|Merge pull request #545 from bytedance/fix-probe-ms<br>g  fix probe reconnect send data and block|
 |2023-10-24 10:34:02|[PEASS-ng](https://github.com/carlospolop/PEASS-ng)|Merge pull request #397 from RandolphConley/master <br> code update ; Added search / function for excel fil<br>es|
 |2023-10-24 09:20:57|[Umi-OCR](https://github.com/hiroi-sora/Umi-OCR)|update readme|
 |2023-10-24 05:02:08|[ghauri](https://github.com/r0oth3x49/ghauri)|added support/donation page..|
 |2023-10-24 04:45:51|[goproxy](https://github.com/snail007/goproxy)|Update ISSUE_TEMPLATE.md|
-|2023-10-23 18:21:00|[WebGoat](https://github.com/WebGoat/WebGoat)|Java 21 initial support (#1622)  * check java 17 an<br>d 21 in build    * build on regular branch push    *<br> build on regular branch push    * build on regular <br>branch push    * update spring boot for Java21 suppo<br>rt|
 |2023-10-23 16:02:10|[ThunderSearch](https://github.com/xzajyjs/ThunderSearch)|fix checkUpdate bug|
 |2023-10-23 13:41:49|[autoDecoder](https://github.com/f0ng/autoDecoder)|Update README.md|
 |2023-10-23 00:50:56|[FrameVul](https://github.com/Awrrays/FrameVul)|Update README.md|
@@ -103,8 +108,7 @@
 |2023-10-20 16:09:16|[naabu](https://github.com/projectdiscovery/naabu)|chore(deps): bump golang.org/x/net from 0.16.0 to 0<br>.17.0 in /v2 (#829)  Bumps  from 0.16.0 to 0.17.0.  <br>-     ---  updated-dependencies:  - dependency-name:<br> golang.org/x/net    dependency-type: direct:product<br>ion  ...    Signed-off-by: dependabot[bot]   Co-auth<br>ored-by: dependabot[bot] |
 |2023-10-20 12:52:11|[codeql-cli-binari<br>es](https://github.com/github/codeql-cli-binaries)|Remove duplicate changelog entry|
 |2023-10-20 11:59:50|[r0capture](https://github.com/r0ysue/r0capture)|Update README.md|
-|2023-10-20 02:50:54|[Fastjson](https://github.com/safe6Sec/Fastjson)|Update README.md|
-|2023-10-18 02:50:06|[Library-POC](https://github.com/luck-ying/Library-POC)|Update README.md|## 所有项目
+|2023-10-20 02:50:54|[Fastjson](https://github.com/safe6Sec/Fastjson)|Update README.md|## 所有项目
 # 渗透测试
 ## 信息收集
 ### 资产测绘采集
@@ -262,7 +266,7 @@
 | [xray](https://github.com/chaitin/xray) | 1.9.11 | 一款完善的安全评估工具，支持常见 web 安全问题扫描和自定义 poc <br>| 使用之前务必先阅读文档 |
 | [w13scan](https://github.com/w-digital-scanner/w13scan) |  | Passive Security Scanner (被动式安全扫描器) |
 | [Fvuln](https://github.com/d3ckx1/Fvuln) | Fvuln-1<br>.4.9 | F-vuln（全称：Find-Vulnerability）是为了自己工作方便专门编写的<br>一款自动化工具，主要适用于日常安全服务、渗透测试人员和RedTeam红<br>队人员，它集合的功能包括：存活IP探测、开放端口探测、web服务探测<br>、web漏洞扫描、smb爆破、ssh爆破、ftp爆破、mssql爆破等其他数据库<br>爆破工作以及大量web漏洞检测模块。 |
-| [nuclei](https://github.com/projectdiscovery/nuclei) | v3.0.2 | Fast and customizable vulnerability scanner based on simple YA<br>ML based DSL. |
+| [nuclei](https://github.com/projectdiscovery/nuclei) | v3.0.3 | Fast and customizable vulnerability scanner based on simple YA<br>ML based DSL. |
 | [afrog](https://github.com/zan8in/afrog) | v2.9.1 | A Security Tool for Bug Bounty, Pentest and Red Teaming. |
 | [vulmap](https://github.com/zhzyker/vulmap) | v0.9 | Vulmap 是一款 web 漏洞扫描和验证工具, 可对 webapps 进行漏洞扫<br>描, 并且具备漏洞验证功能 |
 | [POC-bomber](https://github.com/tr0uble-mAker/POC-bomber) | POC-bom<br>ber-for-<br>Redteam-<br>v3.0.0 | 利用大量高威胁poc/exp快速获取目标权限，用于渗透和红队快速打点 |
@@ -1183,7 +1187,7 @@
 ### 音频隐写
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
-| [audacity](https://github.com/audacity/audacity) | Audacit<br>y-3.3.3 | Audio Editor                                      |
+| [audacity](https://github.com/audacity/audacity) | Audacit<br>y-3.4.0 | Audio Editor                                      |
 | [dtmf-decoder](https://github.com/ribt/dtmf-decoder) |  | Extract phone numbers from an audio recording of the dial tone<br>s. |
 ### 压缩文件分析
 #### CRC爆破
@@ -1360,7 +1364,7 @@
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
 | [openstar](https://github.com/starjun/openstar) |  | lua waf,nginx+lua,openresty,luajit,waf+,cdn,nginx |
-| [safeline](https://github.com/chaitin/safeline) | v3.7.3 | 一款足够简单、足够好用、足够强的免费 WAF。基于业界领先的语义引<br>擎检测技术，作为反向代理接入，保护你的网站不受黑客攻击。 |
+| [safeline](https://github.com/chaitin/safeline) | v3.10.0 | 一款足够简单、足够好用、足够强的免费 WAF。基于业界领先的语义引<br>擎检测技术，作为反向代理接入，保护你的网站不受黑客攻击。 |
 ## 欺骗防御
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
