@@ -1,11 +1,11 @@
-# 更新于 2023-11-03 08:34:55
+# 更新于 2023-11-04 08:34:12
 
 ## 近15天release更新记录
 | 更新时间 | 项目名称 | 版本 | 更新内容 |
 | :---- | :---- | :---- | :---- |
+|2023-11-03 04:34:30|[safeline](https://github.com/chaitin/safeline)|v3.10.1|### 修复    - 修复无法修改 通用配置-<br>其他-拦截页面附加说明 的问题|
 |2023-11-02 16:46:16|[audacity](https://github.com/audacity/audacity)|Audacit<br>y-3.4.0|Audacity 3.4 adds a musical view, tim<br>e stretching and a new exporter.     #<br># Major changes     * Music workflows <br>      Audacity now features several mu<br>sic related features, such as switchin<br>g between hh:mm:ss time and Beats & Me<br>asures, and time-stretching clips to a<br>lign them to a song's tempo.      * Ti<br>me stretching       Hold Alt (macOS: O<br>ption) while hovering over the top thi<br>rd of a clip edge to stretch it.      <br>* New exporter       Audacity now feat<br>ures a new export window with easier a<br>ccess to options such as sample rate a<br>nd custom mapping (for 5.1 or 7.1 audi<br>o). Additionally, the "Browse" button <br>uses the native file browser now!     <br>## Other changes     * For MP3, Audaci<br>ty now always uses Joint Stereo mode, <br>which always delivers the best possibl<br>e quality.     * #4720 Simplified past<br>ing logic.     * Simplified stereo tra<br>cks. Left and right channels now alway<br>s have synchronized clip starts and en<br>ds, and the same sample rate in both c<br>hannels.      * #5014 Added cursors tr<br>imming and stretching left and right, <br>and changed the I-beam cursor to be le<br>ss similar to either.     * #4448 When<br> importing audio, the project sample r<br>ate no longer changes.     * #5204 The<br> spectrogram colors are now perceptual<br>ly uniform, and the colormap has gotte<br>n a name: Roseus. It also can be used <br>for dataviz outside of Audacity, see h<br>ttps://github.com/dofuuz/roseus for mo<br>re info! (Thanks, Myungchul Keum)     <br>* New defaults: The Time Signature too<br>lbar now gets shown, the solo button i<br>s set to multi-track mode, time tracks<br> have a wider starting range.     * #5<br>291 Unsquished the Audacity logo found<br> in some places of the app.     * #233<br>0 Clicking on the border of two clips <br>no longer merges them.     * #2530 Ove<br>rdubbing on Windows fails with WASAPI <br>with default Recording device.     * #<br>443 Built-in Opus support.     ## Libr<br>aries     * lib-time-and-pitch impleme<br>nts a time stretching algorithm origin<br>ating in Staffpad.     * Audacity now <br>uses Conan 2.     * Continued extracti<br>ng code into libraries and modules, es<br>pecially in the context of importing a<br>nd exporting.     ## Bug fixes     * #<br>3778 --nogap metadata no longer is ign<br>ored.     * #4410 fixed a crash with L<br>V2 plugins (thanks jfroyall!).     * #<br>2471 #4798 fixed some crashes related <br>to macros.     * #4769 fixed a crash w<br>hen pasting in certain configurations.<br>     * #4677 Accessibility: GUI can be<br> disabled again for VST2 plugins (than<br>ks, David Bailes!).     * #4988 Access<br>ibility: Restored window control IDs, <br>improving NVDA compatibility (thanks a<br>gain, David Bailes!).     * #4872 fixe<br>d a crash on launch on OSX 10.9 (thank<br>s, René Bertin!).|
 |2023-11-02 14:46:40|[nuclei](https://github.com/projectdiscovery/nuclei)|v3.0.3|    ## What's Changed  * Added self-c<br>ontained template support to headless <br>protocol by @dogancanbakir in https://<br>github.com/projectdiscovery/nuclei/pul<br>l/4322  * Added miscellaneous SDK enha<br>ncements by @tarunKoyalwar in https://<br>github.com/projectdiscovery/nuclei/pul<br>l/4301  * Fixed issue with trailing do<br>t in dns protocol by @dogancanbakir in<br> https://github.com/projectdiscovery/n<br>uclei/pull/4295  * Fixed connection is<br>sues in javascript, network protocol @<br>tarunKoyalwar in https://github.com/pr<br>ojectdiscovery/nuclei/pull/4313  * Fix<br>ed issue in flow to use javascript by <br>@tarunKoyalwar in https://github.com/p<br>rojectdiscovery/nuclei/pull/4313  * Up<br>dated cloned directory structure (proj<br>ect owner => repo) for GitHub by @doga<br>ncanbakir in https://github.com/projec<br>tdiscovery/nuclei/pull/4293    ## New <br>Contributors  * @atomiczsec made their<br> first contribution in https://github.<br>com/projectdiscovery/nuclei/pull/4296 <br>   **Full Changelog**: https://github.<br>com/projectdiscovery/nuclei/compare/v3<br>.0.2...v3.0.3|
-|2023-11-02 09:10:25|[safeline](https://github.com/chaitin/safeline)|v3.10.0|### 新增    - 在证书管理创建证书时，<br>支持直接粘贴证书与私钥内容（）    ### <br>优化    - 人机验证的客户端文件从 138k <br>减小到 78k，提高加载速度  - 人机验证 co<br>okie 改为 httpOnly 模式，避免在 JavaSc<br>ript 运行时泄露  - 人机验证防止简单绕<br>过 （）  - 修复站点详情中，资源 “今日<br>请求” 的总和大于站点 “今日请求总量” <br>的问题（）|
 |2023-11-01 18:27:18|[faker](https://github.com/joke2k/faker)|v19.13.<br>0|See .|
 |2023-11-01 03:30:09|[WeblogicTool](https://github.com/KimJun1010/WeblogicTool)|v1.3|更新记录    - 修复CVE_2020_14882特殊<br>环境下漏报问题  - 修复CVE_2018_2894工作<br>目录路径问题|
 |2023-11-01 03:28:43|[afrog](https://github.com/zan8in/afrog)|v2.9.1|### 为了解决2.9.0版本代码优化引发的重<br>大漏洞问题，该漏洞会严重干扰漏洞探测结<br>果，我们强烈建议您立即升级到2.9.1版本，<br>或者使用2.8.9版本或更低版本。  ### 受影<br>响的版本：v2.9.0    ### Added -resume c<br>ommand to resume scanning using the sp<br>ecified afrog-resume.cfg file  ### 新<br>增 -resume 命令，使用指定的 afrog-resum<br>e.cfg 文件恢复扫描    |
@@ -28,43 +28,49 @@
 |2023-10-20 18:28:42|[grype](https://github.com/anchore/grype)|v0.72.0|### Added Features  - Add --ignore-st<br>ates flag for ignoring findings with s<br>pecific fix states  @jhebden-gl] - Imp<br>lement checksum & artifact signing   @<br>hibare]  ### Bug Fixes  - Report error<br>s to stderr not stdout  @wagoodman] - <br>grype v0.71.0 stopped showing vulnerab<br>ilities for Go stdlib   @wagoodman] - <br>SARIF output not compatible with GitHu<br>b   @spiffcs]  ****  |
 |2023-10-20 17:31:29|[syft](https://github.com/anchore/syft)|v0.94.0|### Added Features  - Add additional <br>license filenames  @coheigea] - Parse <br>donet dependency trees  @noqcks] - Fin<br>d license by embedded license text   @<br>coheigea] - Add support for dpkg depen<br>dency relationships   @wagoodman]  ###<br> Bug Fixes  - Report errors to stderr <br>not stdout  @wagoodman] - Python egg p<br>ackages are not parsed for SBOM   @spi<br>ffcs] - Java archive is listed twice  <br> @wagoodman] - Java archives not from <br>Maven   @wagoodman] - Remove internal.<br>StringSet   @wagoodman] - Invalid inte<br>rface conversion in Swift cataloger   <br>@wagoodman]  ****  |
 |2023-10-20 03:29:18|[goproxy](https://github.com/snail007/goproxy)|v14.0|1、sps/http(s)/socks5新增tcps加密协议<br>，使用更方便。  2、socks5/sps的udp 更新<br>了底层传输加密方式，如果设置了加密传输<br>的socks5，而且使用了udp功能，服务端和客<br>户端都升级到最新版udp功能才能使用。  |
-|2023-10-19 15:39:26|[codeql-cli-binari<br>es](https://github.com/github/codeql-cli-binaries)|v2.15.1|## Release 2.15.1 (2023-10-19)    ###<br> Potentially Breaking Changes    - The<br> query server's evaluation/trimCache c<br>ommand was previously equivalent to th<br>e codeql database cleanup --mode=gentl<br>e CLI command, but is now equivalent t<br>o using --mode=normal.    ### Deprecat<br>ions    - The accepted values of the c<br>odeql database cleanup --mode= command<br> line option have been renamed to brin<br>g them in line with what they are call<br>ed in the VSCode extension and the que<br>ry server:    - --mode=brutal is now -<br>-mode=clear.    - --mode=normal is now<br> --mode=trim.    - --mode=light is now<br> --mode=fit.    - The old names are de<br>precated, but will be accepted for bac<br>kwards-compatibility reasons until fur<br>ther notice.    ### Improvements    - <br>The list of failed tests at the end of<br> a codeql test run is now sorted lexic<br>ographically.    ### Bugs fixed    - F<br>ixed a bug where the $CODEQL_JAVA_HOME<br> environment variable was    erroneous<br>ly ignored for certain subsidiary Java<br> processes started by    codeql.  - Fi<br>xed a bug in the CodeQL build tracer o<br>n Apple Silicon machines that prevente<br>d database creation if System Integrit<br>y Protection was disabled.    For more<br> information about the changes include<br>d in this release, see the .    You ca<br>n download _either_ the codeql-PLATFOR<br>M.zip for your platform, _or_ the gene<br>ric codeql.zip which contains binaries<br> for all supported platforms. Please i<br>gnore the additional "source code" dow<br>nloads below the .zip artifacts.    Th<br>is release is compatible with the Code<br>QL language packs from .  |
 ## 近15天commit提交记录
 | 提交时间 | 项目名称 | 更新内容 |
 | :---- | :---- | :---- |
-|2023-11-03 00:00:02|[free](https://github.com/freefq/free)|updated_at 11-03 08:00|
-|2023-11-02 23:49:21|[PocOrExp_in_Githu<br>b](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-11-03 07:49:21|
-|2023-11-02 19:48:34|[ImHex](https://github.com/WerWolv/ImHex)|build: Removed old jthread search|
+|2023-11-04 00:11:50|[ImHex](https://github.com/WerWolv/ImHex)|build: Improve names of packaging cmake options (#1<br>398)  This PR is simply a refactor, to clarify these<br> flags that shouldn't  impact anything|
+|2023-11-04 00:00:02|[free](https://github.com/freefq/free)|updated_at 11-04 08:00|
+|2023-11-03 23:58:20|[trivy](https://github.com/aquasecurity/trivy)|chore(deps): bump github.com/aws/aws-sdk-go-v2/serv<br>ice/sts from 1.23.2 to 1.25.0 (#5506)  Signed-off-by<br>: dependabot[bot]  Co-authored-by: dependabot[bot] |
+|2023-11-03 22:32:31|[PocOrExp_in_Githu<br>b](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-11-04 06:32:31|
+|2023-11-03 20:32:39|[Mobile-Security-F<br>ramework-MobSF](https://github.com/MobSF/Mobile-Security-Framework-MobSF)|Build(deps): Bump django from 4.1.12 to 4.1.13 (#22<br>82)  Bumps  from 4.1.12 to 4.1.13.  -     ---  updat<br>ed-dependencies:  - dependency-name: django    depen<br>dency-type: direct:production  ...    Signed-off-by:<br> dependabot[bot]   Co-authored-by: dependabot[bot] |
+|2023-11-03 18:47:09|[syft](https://github.com/anchore/syft)|Use case-insensitive matching for Go license files <br>(#2286)  Signed-off-by: Mark Severson |
+|2023-11-03 18:22:47|[neuvector](https://github.com/neuvector/neuvector)|Merge pull request #1080 from holyspectral/NVSHAS-8<br>431-log-level  NVSHAS-8431 reduce log level for jwt <br>cert manager|
+|2023-11-03 16:33:42|[kube-bench](https://github.com/aquasecurity/kube-bench)|build(deps): bump golang from 1.21.1 to 1.21.3 (#15<br>07)  Bumps golang from 1.21.1 to 1.21.3.    ---  upd<br>ated-dependencies:  - dependency-name: golang    dep<br>endency-type: direct:production    update-type: vers<br>ion-update:semver-patch  ...    Signed-off-by: depen<br>dabot[bot]   Co-authored-by: dependabot[bot]   Co-au<br>thored-by: chenk |
+|2023-11-03 16:31:34|[PST-Bucket](https://github.com/arch3rPro/PST-Bucket)|goby: Update to version 2.7.9|
+|2023-11-03 16:06:43|[dbeaver](https://github.com/dbeaver/dbeaver)|NPE fix|
+|2023-11-03 14:30:49|[impacket](https://github.com/fortra/impacket)|start remote registry as unprivileged user in reg.p<br>y (#1638)  * start remote registry as unprivileged u<br>ser in reg.py    Trigger the start of the RemoteRegi<br>stry service as unprivileged user by opening the win<br>reg named pipe.    * enable access to HKEY_USERS tro<br>ugh reg.py|
+|2023-11-03 13:13:26|[audacity](https://github.com/audacity/audacity)|mod-pcm didn't really need lib-wx-init|
+|2023-11-03 12:36:18|[v2rayfree](https://github.com/aiboboxx/v2rayfree)|update|
+|2023-11-03 11:43:25|[FreeRDP](https://github.com/FreeRDP/FreeRDP)|[core] VirtualChannelChunkSize adjustments  * add C<br>HANNEL_CHUNK_MAX_LENGTH * remove duplicate definitio<br>ns * default to CHANNEL_CHUNK_MAX_LENGTH|
+|2023-11-03 10:51:38|[appshark](https://github.com/bytedance/appshark)|Merge pull request #50 from firmianay/dev  add Mani<br>festRisk|
+|2023-11-03 10:38:55|[feroxbuster](https://github.com/epi052/feroxbuster)|added test for robots/--dont-extract-links|
+|2023-11-03 10:10:51|[CTF-QuickStart](https://github.com/ProbiusOfficial/CTF-QuickStart)|Merge branch 'main' of https://github.com/ProbiusOf<br>ficial/CTF-QuickStart|
+|2023-11-03 09:31:09|[safeline](https://github.com/chaitin/safeline)|Update setup.sh|
+|2023-11-03 07:06:46|[rustdesk](https://github.com/rustdesk/rustdesk)|Merge pull request #6275 from 21pages/opt_codec  op<br>t codec|
+|2023-11-03 06:26:55|[pingtunnel](https://github.com/esrrhs/pingtunnel)|delete|
+|2023-11-03 06:25:59|[all-in-one-v2](https://github.com/zaivanza/all-in-one-v2)|update reqs|
+|2023-11-03 03:45:48|[v2rayA](https://github.com/v2rayA/v2rayA)|rename release.yml to release_main.yml|
+|2023-11-03 03:27:51|[vulhub](https://github.com/vulhub/vulhub)|Merge pull request #465 from za/update-readme-cve-2<br>022-34265|
+|2023-11-03 03:00:45|[iDefender](https://github.com/wecooperate/iDefender)|update|
+|2023-11-03 01:51:33|[BerylEnigma](https://github.com/ffffffff0x/BerylEnigma)|节点添加可显示/隐藏属性|
+|2023-11-03 01:07:55|[ObserverWard](https://github.com/0x727/ObserverWard)|Merge pull request #211 from 0x727/dependabot/cargo<br>/csv-1.3.0  Bump csv from 1.2.2 to 1.3.0|
 |2023-11-02 19:35:52|[Vuln-List](https://github.com/wwl012345/Vuln-List)|Update 中间件&框架&平台&第三方服务漏洞.md|
 |2023-11-02 19:25:48|[grype](https://github.com/anchore/grype)|Incorporate format API changes from syft (#1582)  *<br> incorporate changes from anchore/syft#2228    Signe<br>d-off-by: Alex Goodman     * fix testing utils to us<br>e syft SBOM    Signed-off-by: Alex Goodman     -----<br>----    Signed-off-by: Alex Goodman |
-|2023-11-02 16:32:41|[PST-Bucket](https://github.com/arch3rPro/PST-Bucket)|cudatext-cn: Update to version 1.201.0.1|
-|2023-11-02 16:28:15|[dbeaver](https://github.com/dbeaver/dbeaver)|Java 17 code style + formatting|
 |2023-11-02 14:33:19|[nuclei](https://github.com/projectdiscovery/nuclei)|Merge branch 'dev'|
-|2023-11-02 13:20:27|[syft](https://github.com/anchore/syft)|chore(deps): update tools to latest versions (#2280<br>)  Signed-off-by: GitHub   Co-authored-by: spiffcs |
-|2023-11-02 12:35:41|[v2rayfree](https://github.com/aiboboxx/v2rayfree)|update|
 |2023-11-02 12:31:38|[VolatilityPro](https://github.com/Tokeii0/VolatilityPro)|Delete volprogui.py|
-|2023-11-02 12:23:13|[pingtunnel](https://github.com/esrrhs/pingtunnel)|Merge pull request #60 from esrrhs/esrrhs-patch-1  <br>Update go.yml|
-|2023-11-02 11:44:28|[FreeRDP](https://github.com/FreeRDP/FreeRDP)|[channels] add _CHANNEL_NAME for each  * made _CHAN<br>NEL_NAME defines consistent, each channel now has a <br>  define for the library name. * use these defines i<br>nstead of string constants|
 |2023-11-02 10:49:48|[Elkeid](https://github.com/bytedance/Elkeid)|Merge pull request #548 from askyLYZ/main  baseline<br> task bug fix|
-|2023-11-02 08:44:21|[safeline](https://github.com/chaitin/safeline)|feat: release v3.10.0|
 |2023-11-02 07:13:39|[WebGoat](https://github.com/WebGoat/WebGoat)|chore: bump org.apache.maven.plugins:maven-checksty<br>le-plugin (#1640)  Bumps  from 3.3.0 to 3.3.1.  -   <br>  ---  updated-dependencies:  - dependency-name: org<br>.apache.maven.plugins:maven-checkstyle-plugin    dep<br>endency-type: direct:production    update-type: vers<br>ion-update:semver-patch  ...    Signed-off-by: depen<br>dabot[bot]   Co-authored-by: dependabot[bot] |
-|2023-11-02 06:56:40|[rustdesk](https://github.com/rustdesk/rustdesk)|Merge pull request #6264 from fufesou/fix/win_crash<br>_tokio_1.28.1_upgrade_1.33.0  fix, win crash, tokio <br>1.28.1 to 1.33.0, revert|
-|2023-11-02 04:14:54|[trivy](https://github.com/aquasecurity/trivy)|chore: remove unused logger attribute in amazon det<br>ector (#5476)|
 |2023-11-02 02:34:34|[Awesome-Redteam](https://github.com/Threekiii/Awesome-Redteam)|更新README.md|
 |2023-11-01 18:26:33|[faker](https://github.com/joke2k/faker)|Bump version: 19.12.1 → 19.13.0|
 |2023-11-01 14:37:12|[afrog](https://github.com/zan8in/afrog)|update|
 |2023-11-01 13:54:19|[ChatGPT-Shortcut](https://github.com/rockbenben/ChatGPT-Shortcut)|style: Optimize the style of the favor icon for log<br>ged-out users|
 |2023-11-01 13:32:29|[RsaCtfTool](https://github.com/RsaCtfTool/RsaCtfTool)|Merge pull request #464 from crypto-vbg/patch-3  Up<br>date abstract_attack.py|
-|2023-11-01 13:09:36|[v2rayA](https://github.com/v2rayA/v2rayA)|chore: rename feat_v5 to main|
 |2023-11-01 09:06:55|[frp](https://github.com/fatedier/frp)|frpc: exit with code 1 if first login failed (#3740<br>)|
-|2023-11-01 05:06:44|[iDefender](https://github.com/wecooperate/iDefender)|update|
 |2023-11-01 04:18:55|[java-memshell-gen<br>erator-release](https://github.com/pen4uin/java-memshell-generator-release)|archived|
-|2023-11-01 00:46:30|[CTF-QuickStart](https://github.com/ProbiusOfficial/CTF-QuickStart)|Automatically update friends.md|
-|2023-10-31 20:29:18|[neuvector](https://github.com/neuvector/neuvector)|Merge pull request #1078 from jayhuang-suse/four  A<br>dd rlock protection on the shared map, "activeContai<br>ners", access.|
-|2023-10-31 18:23:03|[Mobile-Security-F<br>ramework-MobSF](https://github.com/MobSF/Mobile-Security-Framework-MobSF)|Hotfix: Bump deps|
-|2023-10-31 17:09:15|[audacity](https://github.com/audacity/audacity)|Merge pull request #4684 from Paul-Licameli/More-re<br>gistry-type-checking  More registry type checking   <br> Simplify calls to visit registries. (When only visi<br>ting leaf nodes of one type, the visitor can be just<br> one lambda).    Eliminate many dynamic_casts. Inste<br>ad TypeSwitch hides all the casting.    This also ma<br>kes better type safety. GroupItemBase because a deta<br>il class that applications should not use.|
 |2023-10-31 14:16:15|[sqlmap](https://github.com/sqlmapproject/sqlmap)|Fixes #5560|
-|2023-10-31 12:26:47|[vulhub](https://github.com/vulhub/vulhub)|Merge pull request #473 from D3vil0p3r/patch-1|
 |2023-10-31 12:02:27|[mitaka](https://github.com/ninoseki/mitaka)|Merge pull request #762 from ninoseki/renovate/npm-<br>zod-vulnerability  fix(deps): update dependency zod <br>to v3.22.3 [security]|
 |2023-10-31 01:56:54|[Pentest-Windows](https://github.com/arch3rPro/Pentest-Windows)|Update README.md|
 |2023-10-30 16:02:15|[clair](https://github.com/quay/clair)|contrib: simplify openshift/pr_check.sh  This scrip<br>t is used in the pipeline for the quay.io Clair inst<br>ance. All the real CI is done in GitHub Actions, so <br>this is just to make that process' happy.  Signed-of<br>f-by: Hank Donnay |
@@ -76,13 +82,10 @@
 |2023-10-30 01:24:55|[Vulnerability-Wik<br>i](https://github.com/Threekiii/Vulnerability-Wiki)|更新漏洞|
 |2023-10-29 18:49:03|[malwoverview](https://github.com/alexandreborges/malwoverview)|Malwoverview|
 |2023-10-29 10:12:11|[HackerPermKeeper](https://github.com/RuoJi6/HackerPermKeeper)|Update README.md|
-|2023-10-29 08:56:49|[all-in-one-v2](https://github.com/zaivanza/all-in-one-v2)|fix slippage sushiswap|
 |2023-10-28 04:46:18|[OA-EXPTOOL](https://github.com/LittleBear4/OA-EXPTOOL)|Update README.md|
 |2023-10-28 04:45:10|[domain_hunter_pro](https://github.com/bit4woo/domain_hunter_pro)|Update maven.yml|
 |2023-10-28 04:17:23|[Stowaway](https://github.com/ph4ntonn/Stowaway)|Add Apple Silicon support|
 |2023-10-28 01:11:30|[DecoyMini](https://github.com/decoymini/DecoyMini)|Update README.md|
-|2023-10-27 18:45:30|[kube-bench](https://github.com/aquasecurity/kube-bench)|build(deps): bump github.com/golang/glog from 1.0.0<br> to 1.1.2 (#1489)  Bumps  from 1.0.0 to 1.1.2.  -   <br>-     ---  updated-dependencies:  - dependency-name:<br> github.com/golang/glog    dependency-type: direct:p<br>roduction    update-type: version-update:semver-mino<br>r  ...    Signed-off-by: dependabot[bot]   Co-author<br>ed-by: dependabot[bot]   Co-authored-by: chenk |
-|2023-10-27 15:37:03|[impacket](https://github.com/fortra/impacket)|[DumpNTLMInfo.py] fix error with 2003 (#1630)  * [D<br>umpNTLMInfo.py] fix error with 2003    Signed-off-by<br>: XiaoliChan     * [DumpNTLMInfo.py] garbrielg5: rev<br>iew I    Signed-off-by: Xiaoli Chan     ---------   <br> Signed-off-by: XiaoliChan   Signed-off-by: Xiaoli C<br>han |
 |2023-10-27 10:47:19|[gshark](https://github.com/madneal/gshark)|Merge branch 'master' of github.com:madneal/gshark|
 |2023-10-27 08:53:20|[arthas](https://github.com/alibaba/arthas)|update ognl website url|
 |2023-10-26 08:19:35|[murphysec](https://github.com/murphysecurity/murphysec)|feat(cmd): add flag --only-task-id|
@@ -90,7 +93,6 @@
 |2023-10-25 12:16:45|[rengine](https://github.com/yogeshojha/rengine)|Merge pull request #1020 from AnonymousWP/bump-to-2<br>.0.1  fix(versioning): bump version number to 2.0.1|
 |2023-10-25 07:56:46|[RmTools](https://github.com/RoomaSec/RmTools)|Update README.md|
 |2023-10-25 07:55:45|[RmEye](https://github.com/RoomaSec/RmEye)|Update readme.md|
-|2023-10-25 06:45:41|[ObserverWard](https://github.com/0x727/ObserverWard)|Merge pull request #204 from 0x727/dependabot/cargo<br>/rustix-0.36.16  Bump rustix from 0.36.4 to 0.36.16|
 |2023-10-25 03:49:28|[Kunlun-M](https://github.com/LoRexxar/Kunlun-M)|Merge pull request #240 from LoRexxar/develop  fix <br>bug|
 |2023-10-24 10:34:02|[PEASS-ng](https://github.com/carlospolop/PEASS-ng)|Merge pull request #397 from RandolphConley/master <br> code update ; Added search / function for excel fil<br>es|
 |2023-10-24 09:20:57|[Umi-OCR](https://github.com/hiroi-sora/Umi-OCR)|update readme|
@@ -826,7 +828,7 @@
 | [dns2tcp](https://github.com/alex-sector/dns2tcp) | v0.5.2 |  |
 | [dnscat2](https://github.com/iagox86/dnscat2) |  |  |
 | [icmpsh](https://github.com/inquisb/icmpsh) |  |  |
-| [pingtunnel](https://github.com/esrrhs/pingtunnel) | 2.7 | Pingtunnel is a tool that send TCP/UDP traffic over ICMP |
+| [pingtunnel](https://github.com/esrrhs/pingtunnel) |  | Pingtunnel is a tool that send TCP/UDP traffic over ICMP |
 | [ngrok](https://github.com/inconshreveable/ngrok) |  | Introspected tunnels to localhost |
 | [goproxy](https://github.com/snail007/goproxy) | v14.0 | 🔥  Proxy is a high performance HTTP(S) proxies, SOCKS5 proxie<br>s,WEBSOCKET, TCP, UDP proxy server implemented by golang. Now, <br>it supports chain-style proxies,nat forwarding in different lan<br>,TCP/UDP port forwarding, SSH forwarding.Proxy是golang实现的高<br>性能http,https,websocket,tcp,socks5代理服务器,支持内网穿透,链式<br>代理,通讯加密,智能HTTP,SOCKS5代理,黑白名单,限速,限流量,限连接数,<br>跨平台,KCP支持,认证API。 |
 ### 密码提取
@@ -1364,7 +1366,7 @@
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
 | [openstar](https://github.com/starjun/openstar) |  | lua waf,nginx+lua,openresty,luajit,waf+,cdn,nginx |
-| [safeline](https://github.com/chaitin/safeline) | v3.10.0 | 一款足够简单、足够好用、足够强的免费 WAF。基于业界领先的语义引<br>擎检测技术，作为反向代理接入，保护你的网站不受黑客攻击。 |
+| [safeline](https://github.com/chaitin/safeline) | v3.10.1 | 一款足够简单、足够好用、足够强的免费 WAF。基于业界领先的语义引<br>擎检测技术，作为反向代理接入，保护你的网站不受黑客攻击。 |
 ## 欺骗防御
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
