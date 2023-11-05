@@ -200,8 +200,8 @@
     "https://github.com/ycdxsb/PocOrExp_in_Github": {
         "created_at": "2021-04-13 05:46:16",
         "description": "聚合Github上已有的Poc或者Exp，CVE信息来自CVE官网。Auto Collect Poc Or Exp from Github by CVE ID.",
-        "commit_date": "2023-11-03 22:32:31",
-        "commit_message": "update 2023-11-04 06:32:31",
+        "commit_date": "2023-11-04 20:16:37",
+        "commit_message": "update 2023-11-05 04:16:37",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -1071,8 +1071,8 @@
     "https://github.com/v2rayA/v2rayA": {
         "created_at": "2019-10-18 20:42:06",
         "description": "A web GUI client of Project V which supports VMess, VLESS, SS, SSR, Trojan, Tuic and Juicity protocols. 🚀",
-        "commit_date": "2023-11-03 03:45:48",
-        "commit_message": "rename release.yml to release_main.yml",
+        "commit_date": "2023-11-04 14:10:51",
+        "commit_message": "Merge pull request #1147 from MarksonHon/feat_v5\n\nrelease_main.yml: set winget's download source to GitHub",
         "release_tag": "v2.2.4",
         "release_date": "2023-09-05 13:23:34",
         "release_message": "## What's Changed\n* Fix Windows installers' blank version string by @MarksonHon in https://github.com/v2rayA/v2rayA/pull/1079\n\n\n**Full Changelog**: https://github.com/v2rayA/v2rayA/compare/v2.2.3...v2.2.4"
@@ -2699,8 +2699,8 @@
     "https://github.com/madneal/gshark": {
         "created_at": "2018-03-09 14:16:55",
         "description": "Scan for sensitive information easily and effectively.",
-        "commit_date": "2023-10-27 10:47:19",
-        "commit_message": "Merge branch 'master' of github.com:madneal/gshark",
+        "commit_date": "2023-11-04 01:46:55",
+        "commit_message": "Merge pull request #173 from madneal/dependabot/go_modules/server/golang.org/x/image-0.10.0\n\nBump golang.org/x/image from 0.5.0 to 0.10.0 in /server",
         "release_tag": "v1.2.2",
         "release_date": "2023-10-27 10:48:46",
         "release_message": "## Fixed\r\n\r\n* 修复数据库初始化逻辑问题\r\n* 升级前端组件版本"
@@ -3917,8 +3917,8 @@
     "https://github.com/chaitin/safeline": {
         "created_at": "2023-04-12 11:30:14",
         "description": "一款足够简单、足够好用、足够强的免费 WAF。基于业界领先的语义引擎检测技术，作为反向代理接入，保护你的网站不受黑客攻击。",
-        "commit_date": "2023-11-03 09:31:09",
-        "commit_message": "Update setup.sh",
+        "commit_date": "2023-11-04 10:17:11",
+        "commit_message": "feat: add dockerfile for whole site",
         "release_tag": "v3.10.1",
         "release_date": "2023-11-03 04:34:30",
         "release_message": "### 修复\r\n\r\n- 修复无法修改 通用配置-其他-拦截页面附加说明 的问题"
@@ -4277,7 +4277,7 @@
     "https://github.com/aiboboxx/v2rayfree": {
         "created_at": "2021-10-13 11:34:53",
         "description": "v2ray节点、免费节点、免费v2ray节点、最新公益免费v2ray节点订阅地址、免费v2ray节点每日更新、免费ss/v2ray/trojan节点、freefq ",
-        "commit_date": "2023-11-03 12:36:18",
+        "commit_date": "2023-11-04 12:32:31",
         "commit_message": "update",
         "release_tag": "",
         "release_date": "",
@@ -4322,8 +4322,8 @@
     "https://github.com/freefq/free": {
         "created_at": "2020-06-07 02:48:33",
         "description": "翻墙、免费翻墙、免费科学上网、免费节点、免费梯子、免费ss/v2ray/trojan节点、蓝灯、谷歌商店、翻墙梯子",
-        "commit_date": "2023-11-04 00:00:02",
-        "commit_message": "updated_at 11-04 08:00",
+        "commit_date": "2023-11-05 00:00:04",
+        "commit_message": "updated_at 11-05 08:00",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -4628,8 +4628,8 @@
     "https://github.com/baidu/dperf": {
         "created_at": "2021-12-21 08:02:08",
         "description": "dperf is a 100Gbps network load tester.",
-        "commit_date": "2023-10-10 05:50:56",
-        "commit_message": "Merge pull request #380 from pengjianzhang/main\n\nv1.7.0-dev",
+        "commit_date": "2023-11-04 03:19:34",
+        "commit_message": "Merge pull request #387 from pengjianzhang/main\n\nfix: 1. compile warnnings,  2 don't clear sequences in time-wait state",
         "release_tag": "v1.6.0",
         "release_date": "2023-10-10 05:33:22",
         "release_message": "## v1.6.0 - 2023-10-10\r\n### Added\r\n\r\n- dperf server returns large payload\r\n\r\n- you can use the default l3 or l3l4 rss algorithm\r\n\r\n### Changed\r\n\r\n- minimun local port range(lport_range) can be set to 1\r\n\r\n- optimization: remove useless sockets outside lport_range\r\n\r\n- move docs to dperf.org\r\n\r\n- adjust jumbo MTU\r\n\r\n### Fixed\r\n\r\n- fix: negative number of udp connections\r\n\r\n- print more information when startup fails\r\n    - not enough ports available\r\n    - error message of server ip numbers\r\n\r\n- spelling errors and expression issues\r\n\r\n    thanks digger-yu, CChuancey, zrmin\r\n\r\n- fix: find port id\r\n\r\n- fix: create new connection after \"duration\" time\r\n\r\n    thanks zrgtester\r\n\r\n- fix: http_host or http_path can only be configured when http is enabled\r\n\r\n- fix: dperf make error on dpdk-18.11\r\n\r\n    thanks amberlipp"
@@ -5004,8 +5004,8 @@
     "https://github.com/rustdesk/rustdesk": {
         "created_at": "2020-09-28 15:36:08",
         "description": "An open-source remote desktop, and alternative to TeamViewer.",
-        "commit_date": "2023-11-03 07:06:46",
-        "commit_message": "Merge pull request #6275 from 21pages/opt_codec\n\nopt codec",
+        "commit_date": "2023-11-04 13:22:23",
+        "commit_message": "Merge pull request #6285 from jxdv/sk-rs-update\n\nupdate sk.rs",
         "release_tag": "1.2.3",
         "release_date": "2023-10-13 10:47:12",
         "release_message": " ![image](https://github.com/rustdesk/rustdesk/assets/71636191/83754a64-31b8-47f0-8570-da22207759a9)\r\n\r\n > Winget, FDroid update will come soon.\r\n\r\n x86-64: [Windows](https://github.com/rustdesk/rustdesk/releases/download/1.2.3/rustdesk-1.2.3-x86_64.exe) | [Ubuntu](https://github.com/rustdesk/rustdesk/releases/download/1.2.3/rustdesk-1.2.3-x86_64.deb) | [Mac](https://github.com/rustdesk/rustdesk/releases/download/1.2.3/rustdesk-1.2.3-x86_64.dmg)\r\n AArch64 (ARM64):  [Ubuntu](https://github.com/rustdesk/rustdesk/releases/download/1.2.3/rustdesk-1.2.3-aarch64.deb) | [Android](https://github.com/rustdesk/rustdesk/releases/download/1.2.3/rustdesk-1.2.3-aarch64-signed.apk) | [Mac](https://github.com/rustdesk/rustdesk/releases/download/1.2.3/rustdesk-1.2.3-aarch64.dmg)\r\n\r\n More: [check below please](#)\r\n\r\n <details>\r\n <summary>Changelog</summary>\r\n\r\n- Improve Wayland support, cursor/clipboard/multi-monitors etc, but highly depends on Xwayland, working well on GNOME, bad compatibility on KDE. We will continue working on Wayland\r\n- Add group tab\r\n- Add software update check based on github latest tag\r\n- Some fixes for Kaspersky compliance, https://github.com/rustdesk/rustdesk/discussions/5624, but they requested more\r\n- A lot of fixes since 1.2.2\r\n- We are still working hard on dual-monitors-dual-windows and new hardware codecs, hopefully be in 1.2.4\r\n\r\n </details>"
@@ -6202,8 +6202,8 @@
     "https://github.com/RuoJi6/HackerPermKeeper": {
         "created_at": "2023-07-19 03:23:21",
         "description": "",
-        "commit_date": "2023-10-29 10:12:11",
-        "commit_message": "Update README.md",
+        "commit_date": "2023-11-04 11:26:49",
+        "commit_message": "Update adduser_new_user.py",
         "release_tag": "6.0",
         "release_date": "2023-10-29 10:13:17",
         "release_message": " 1、Suid shell bash权限维持\r\n  2、重写生成代码(连续生成)\r\n  3、添加不记录历史命令临时操作，同时可以批量删除指定的.bash_history文件中的历史记录\r\n  4、修改检查脚本(添加检查环境)\r\n  5、使用tabulate模块进行格式化输出"
@@ -6391,8 +6391,8 @@
     "https://github.com/WerWolv/ImHex": {
         "created_at": "2020-11-10 14:27:00",
         "description": "🔍 A Hex Editor for Reverse Engineers, Programmers and people who value their retinas when working at 3 AM.",
-        "commit_date": "2023-11-04 00:11:50",
-        "commit_message": "build: Improve names of packaging cmake options (#1398)\n\nThis PR is simply a refactor, to clarify these flags that shouldn't\r\nimpact anything",
+        "commit_date": "2023-11-05 00:03:19",
+        "commit_message": "build: Updated libromfs",
         "release_tag": "v1.31.0",
         "release_date": "2023-09-24 18:52:41",
         "release_message": "## Additions\r\n- **Added a command line interface to ImHex.** Huge thanks to @iTrooz\r\n    - Get started by typing `imhex --help`\r\n- **Added initial support for .NET scripts**\r\n    - These scripts are meant to be a cross-platform way of performing automated actions.\r\n    - They cannot be used to add new features like native plugins can\r\n    - Special thanks to @PerikiyoXD for some really involved fixes around this\r\n- **Added Achievements**\r\n    - These are meant to provide an easy and fun way to learn and get used to ImHex\r\n    - The achievement window can be opened by going to Extras -> Achievement\r\n    - If you don't like the achievements and just want to use ImHex like before, open the achievements window and disable the popups there\r\n- Added a new and much nicer splash screen\r\n- Allow memory files to be saved to project files and be renamed\r\n    - Files can also be converted to memory files now\r\n- Added support for hashing arbitrary strings using the hashes view\r\n- Added built-in logging console\r\n- Allow hex editor data visualizers to be switched to big-endian mode\r\n- Upgraded to Capstone V5 finally\r\n- Encoding names are now being displayed in the header of the hex editor\r\n- Added a \"Update All\" button to the content store\r\n- Linux now uses the GTK filepicker whenever possible\r\n    - This should correct issues where the file picker didn't work correctly on some Linux systems by default\r\n    - The AppImage and Flatpak still use the Portals filepicker because it's necessary there\r\n- The hex editor editing mode is now being entered when pressing Enter\r\n- Added a setting to remember the current main window size and position\r\n- Added option to fill a selected region with bytes\r\n- Added option to switch between human-readable sizes and bytes in the hex editor footer. Thanks to @LennardF1989 \r\n- Removed Anonfiles file uploader. Rest in Peace ✝️\r\n- Added windo actions popup when clicking on the header icon\r\n- Added authors and descriptions to things in the content store\r\n- Added shortcuts to switch between providers, evaluate patterns and interact with the pattern debugger\r\n\r\n## Improvements\r\n- Improved the data information diagrams look and field\r\n- Multi-window support is now being disabled properly by default on Linux\r\n- Plugins are now being loaded asynchronously to improve startup times\r\n- Pattern console is automatically scrolled to the bottom now when new lines are being added\r\n- Unidentifiable data is being handled better now in the data information view\r\n- Allow hex editor view to be scrolled slightly past the end\r\n- Made demangler results selectable and copyable\r\n- Timestamp of files is being updated correctly now on Windows. Thanks to @lorsanta \r\n- ImHex should now exit cleanly when crashing\r\n- Bytes per row count setting in the hex editor is being remembered now. Thanks to @LennardF1989 \r\n\r\n## Bug Fixes\r\n- Fixed raw disk provider not working correctly on non-windows platforms. Thanks a lot to @Nowilltolife \r\n- Fixed disassembler view not clearning selection when typing in the region field\r\n- Fixed page count displaying wrongly in empty files\r\n- Fixed crash when trying to paste bytes without a selection\r\n- Fixed occasional crash when evaluating patterns\r\n- Fixed scaling not being applied properly in some cases\r\n- Fixed bookmarks not being loaded correctly from project files\r\n- Fixed menu bar being scrollable sideways\r\n- Fixed loading projects when an existing project is loaded already\r\n- Fixed issues where the cursor started flickering when hovering certain elements\r\n- Fixed crash when clicking on \"Open in new view\" in a bookmark\r\n- Fixed occasional crash when loading incorrect data processor node files\r\n- Fixed writing to non-zero pages in the hex editor when a custom base address has been set\r\n- Fixed issue where libmagic dumped a bunch of compiled files into the cwd on Linux and macOS. Thanks to @iTrooz \r\n- Fixed endianess of all CRC hashes\r\n- Fixed highest/lowest entropy block address in the data information view being wrong\r\n- Fixed issue where downloading items from the store was suceptible for path traversal. Thanks to @iTrooz \r\n- Fixed various data processor issues\r\n\r\n## Pattern Language\r\n- Added `typenameof` operator\r\n- Added `[[hex::favorite]]` attribute to mark patterns as favorites directly\r\n- Added `[[hex::group]]` attribute to add patterns to custom groups in the pattern data view\r\n- Added single-stepping feature to pattern debugger\r\n- Added coordinates visualizer\r\n- Added timestamp visualizer\r\n- Images in the pattern image and bitmap visualizer can now be scaled\r\n- Added various new inline visualizers such as \"color\", \"guage\" and \"button\"\r\n- Format functions are no longer being evaluated during highlighting\r\n- Sections without a name are being hidden now and treated as \"internal\" sections\r\n- Added `[[hex::spec_name]]` attribute to document names for pattern variables taken from the documentation\r\n- Added string in/out variables\r\n- Fixed issue where pattern local variables sometimes allocated huge amounts of memory\r\n\r\n![image](https://github.com/WerWolv/ImHex/assets/10835354/9bcaf682-ed02-4e3d-9d06-0c55a1ddc030)\r\n\r\n\r\n<br/>\r\n\r\n<p align=\"center\">If you like my work, please consider supporting me on GitHub Sponsors, Patreon or PayPal. Thanks a lot!</p>\r\n<p align=\"center\">\r\n<a href=\"https://github.com/sponsors/WerWolv\"><img src=\"https://werwolv.net/assets/github_banner.png\" alt=\"GitHub donate button\" /> </a>\r\n<a href=\"https://www.patreon.com/werwolv\"><img src=\"https://c5.patreon.com/external/logo/become_a_patron_button.png\" alt=\"Patreon donate button\" /> </a>\r\n<a href=\"https://werwolv.net/donate\"><img src=\"https://werwolv.net/assets/paypal_banner.png\" alt=\"PayPal donate button\" /> </a>\r\n</p"
@@ -6427,8 +6427,8 @@
     "https://github.com/audacity/audacity": {
         "created_at": "2015-03-26 10:46:17",
         "description": "Audio Editor                                     ",
-        "commit_date": "2023-11-03 13:13:26",
-        "commit_message": "mod-pcm didn't really need lib-wx-init",
+        "commit_date": "2023-11-04 12:18:34",
+        "commit_message": "Merge commit '74050e8cd4051a3f73644ebba6c72d7d6f7dfa17' into master",
         "release_tag": "Audacity-3.4.0",
         "release_date": "2023-11-02 16:46:16",
         "release_message": "Audacity 3.4 adds a musical view, time stretching and a new exporter.\r\n\r\n ## Major changes\r\n   * Music workflows\r\n     Audacity now features several music related features, such as switching between hh:mm:ss time and Beats & Measures, and time-stretching clips to align them to a song's tempo. \r\n   * Time stretching\r\n     Hold Alt (macOS: Option) while hovering over the top third of a clip edge to stretch it. \r\n   * New exporter\r\n     Audacity now features a new export window with easier access to options such as sample rate and custom mapping (for 5.1 or 7.1 audio). Additionally, the \"Browse\" button uses the native file browser now!\r\n\r\n ## Other changes\r\n   * For MP3, Audacity now always uses Joint Stereo mode, which always delivers the best possible quality.\r\n   * #4720 Simplified pasting logic.\r\n   * Simplified stereo tracks. Left and right channels now always have synchronized clip starts and ends, and the same sample rate in both channels. \r\n   * #5014 Added cursors trimming and stretching left and right, and changed the I-beam cursor to be less similar to either.\r\n   * #4448 When importing audio, the project sample rate no longer changes.\r\n   * #5204 The spectrogram colors are now perceptually uniform, and the colormap has gotten a name: Roseus. It also can be used for dataviz outside of Audacity, see https://github.com/dofuuz/roseus for more info! (Thanks, Myungchul Keum)\r\n   * New defaults: The Time Signature toolbar now gets shown, the solo button is set to multi-track mode, time tracks have a wider starting range.\r\n   * #5291 Unsquished the Audacity logo found in some places of the app.\r\n   * #2330 Clicking on the border of two clips no longer merges them.\r\n   * #2530 Overdubbing on Windows fails with WASAPI with default Recording device.\r\n   * #443 Built-in Opus support.\r\n\r\n ## Libraries\r\n   * lib-time-and-pitch implements a time stretching algorithm originating in Staffpad.\r\n   * Audacity now uses Conan 2.\r\n   * Continued extracting code into libraries and modules, especially in the context of importing and exporting.\r\n\r\n ## Bug fixes\r\n   * #3778 --nogap metadata no longer is ignored.\r\n   * #4410 fixed a crash with LV2 plugins (thanks jfroyall!).\r\n   * #2471 #4798 fixed some crashes related to macros.\r\n   * #4769 fixed a crash when pasting in certain configurations.\r\n   * #4677 Accessibility: GUI can be disabled again for VST2 plugins (thanks, David Bailes!).\r\n   * #4988 Accessibility: Restored window control IDs, improving NVDA compatibility (thanks again, David Bailes!).\r\n   * #4872 fixed a crash on launch on OSX 10.9 (thanks, René Bertin!)."
@@ -6481,8 +6481,8 @@
     "https://github.com/ProbiusOfficial/CTF-QuickStart": {
         "created_at": "2023-04-16 05:12:55",
         "description": "【Hello CTF】题目配套，免费开源的CTF入门教程，针对0基础新手编写，同时兼顾信息差的填补，对各阶段的CTFer都友好的开源教程，致力于CTF和网络安全的开源生态！",
-        "commit_date": "2023-11-03 10:10:51",
-        "commit_message": "Merge branch 'main' of https://github.com/ProbiusOfficial/CTF-QuickStart",
+        "commit_date": "2023-11-04 21:27:29",
+        "commit_message": "Update README.md with new image and CDN link",
         "release_tag": "",
         "release_date": "",
         "release_message": ""

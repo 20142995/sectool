@@ -1,4 +1,4 @@
-# 更新于 2023-11-04 08:34:12
+# 更新于 2023-11-05 08:38:40
 
 ## 近15天release更新记录
 | 更新时间 | 项目名称 | 版本 | 更新内容 |
@@ -25,16 +25,22 @@
 |2023-10-22 15:59:28|[dbeaver](https://github.com/dbeaver/dbeaver)|23.2.3|                 - Data editor:      <br>               - Excel (XLSX) export n<br>ow supports columns auto-fit          <br>           - Copy from row bellow/abov<br>e command was fixed                   <br>  - Shortcut for "Got to column" colum<br>n was changed to Ctrl+Shift+G         <br>        - SQL editor:                 <br>    - Script statistics configuration <br>was extended                     - AI <br>completion bugs were fixed and configu<br>ration UI was redesigned              <br>       - Tabs close in horizontal mode<br> was fixed                     - Scrip<br>t to connection association save was f<br>ixed                 - Data export:   <br>                  - Data import tasks <br>wer fixed for schema-less databases   <br>                  - Columns value tran<br>sform expressions evaluation was fixed<br>                     - All data transf<br>er were migrated to a new IO API      <br>               - Export functionality <br>now can be disabled completely        <br>             - Tasks loading for missi<br>ng database objects was fixed         <br>        - ER diagrams: one-to-one conn<br>ections rendering was fixed           <br>      - General:                     -<br> Default file encoding was changed to <br>UTF-8. IT affects all external tools i<br>ntegration.                     - Web <br>based authentication is now opened in <br>external browser by default           <br>          - Version update functionali<br>ty now can be disabled completely     <br>            - Databases:              <br>       - Clickhouse: map data type vis<br>ualization was fixed                  <br>   - Databricks: issue with national e<br>ncodings was resolved                 <br>    - Greenplum:                      <br>   - Issue with case-sensitive table n<br>ames was resolved                     <br>    - FFL for function parameters was <br>fixed                     - MySQL: ses<br>sion manager now shows info from perfo<br>rmance_schema                     - Op<br>enEdge: root catalog is now hidden; da<br>ta export was fixed                   <br>  - PostgreSQL: foreign key DDL was fi<br>xed (MATCH FULL)                 - Mis<br>c: we switched to Eclipse 2023-09     <br>        |
 |2023-10-22 09:45:04|[ghauri](https://github.com/r0oth3x49/ghauri)|1.2.7|Features:   - added feature to update<br> using command line when the ghauri cl<br>oned and installed from github using g<br>it: --update|
 |2023-10-21 13:51:16|[BlueTeamTools](https://github.com/abc123info/BlueTeamTools)|BlueTea<br>mToolsV0<br>.89版本|2023.10.21 修正"ip地址处理"功能192.16<br>8.1.1/16, 192.168.10.1/8不能解析的bug<br>。|
-|2023-10-20 18:28:42|[grype](https://github.com/anchore/grype)|v0.72.0|### Added Features  - Add --ignore-st<br>ates flag for ignoring findings with s<br>pecific fix states  @jhebden-gl] - Imp<br>lement checksum & artifact signing   @<br>hibare]  ### Bug Fixes  - Report error<br>s to stderr not stdout  @wagoodman] - <br>grype v0.71.0 stopped showing vulnerab<br>ilities for Go stdlib   @wagoodman] - <br>SARIF output not compatible with GitHu<br>b   @spiffcs]  ****  |
-|2023-10-20 17:31:29|[syft](https://github.com/anchore/syft)|v0.94.0|### Added Features  - Add additional <br>license filenames  @coheigea] - Parse <br>donet dependency trees  @noqcks] - Fin<br>d license by embedded license text   @<br>coheigea] - Add support for dpkg depen<br>dency relationships   @wagoodman]  ###<br> Bug Fixes  - Report errors to stderr <br>not stdout  @wagoodman] - Python egg p<br>ackages are not parsed for SBOM   @spi<br>ffcs] - Java archive is listed twice  <br> @wagoodman] - Java archives not from <br>Maven   @wagoodman] - Remove internal.<br>StringSet   @wagoodman] - Invalid inte<br>rface conversion in Swift cataloger   <br>@wagoodman]  ****  |
-|2023-10-20 03:29:18|[goproxy](https://github.com/snail007/goproxy)|v14.0|1、sps/http(s)/socks5新增tcps加密协议<br>，使用更方便。  2、socks5/sps的udp 更新<br>了底层传输加密方式，如果设置了加密传输<br>的socks5，而且使用了udp功能，服务端和客<br>户端都升级到最新版udp功能才能使用。  |
 ## 近15天commit提交记录
 | 提交时间 | 项目名称 | 更新内容 |
 | :---- | :---- | :---- |
-|2023-11-04 00:11:50|[ImHex](https://github.com/WerWolv/ImHex)|build: Improve names of packaging cmake options (#1<br>398)  This PR is simply a refactor, to clarify these<br> flags that shouldn't  impact anything|
-|2023-11-04 00:00:02|[free](https://github.com/freefq/free)|updated_at 11-04 08:00|
+|2023-11-05 00:03:19|[ImHex](https://github.com/WerWolv/ImHex)|build: Updated libromfs|
+|2023-11-05 00:00:04|[free](https://github.com/freefq/free)|updated_at 11-05 08:00|
+|2023-11-04 21:27:29|[CTF-QuickStart](https://github.com/ProbiusOfficial/CTF-QuickStart)|Update README.md with new image and CDN link|
+|2023-11-04 20:16:37|[PocOrExp_in_Githu<br>b](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-11-05 04:16:37|
+|2023-11-04 14:10:51|[v2rayA](https://github.com/v2rayA/v2rayA)|Merge pull request #1147 from MarksonHon/feat_v5  r<br>elease_main.yml: set winget's download source to Git<br>Hub|
+|2023-11-04 13:22:23|[rustdesk](https://github.com/rustdesk/rustdesk)|Merge pull request #6285 from jxdv/sk-rs-update  up<br>date sk.rs|
+|2023-11-04 12:32:31|[v2rayfree](https://github.com/aiboboxx/v2rayfree)|update|
+|2023-11-04 12:18:34|[audacity](https://github.com/audacity/audacity)|Merge commit '74050e8cd4051a3f73644ebba6c72d7d6f7df<br>a17' into master|
+|2023-11-04 11:26:49|[HackerPermKeeper](https://github.com/RuoJi6/HackerPermKeeper)|Update adduser_new_user.py|
+|2023-11-04 10:17:11|[safeline](https://github.com/chaitin/safeline)|feat: add dockerfile for whole site|
+|2023-11-04 03:19:34|[dperf](https://github.com/baidu/dperf)|Merge pull request #387 from pengjianzhang/main  fi<br>x: 1. compile warnnings,  2 don't clear sequences in<br> time-wait state|
+|2023-11-04 01:46:55|[gshark](https://github.com/madneal/gshark)|Merge pull request #173 from madneal/dependabot/go_<br>modules/server/golang.org/x/image-0.10.0  Bump golan<br>g.org/x/image from 0.5.0 to 0.10.0 in /server|
 |2023-11-03 23:58:20|[trivy](https://github.com/aquasecurity/trivy)|chore(deps): bump github.com/aws/aws-sdk-go-v2/serv<br>ice/sts from 1.23.2 to 1.25.0 (#5506)  Signed-off-by<br>: dependabot[bot]  Co-authored-by: dependabot[bot] |
-|2023-11-03 22:32:31|[PocOrExp_in_Githu<br>b](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-11-04 06:32:31|
 |2023-11-03 20:32:39|[Mobile-Security-F<br>ramework-MobSF](https://github.com/MobSF/Mobile-Security-Framework-MobSF)|Build(deps): Bump django from 4.1.12 to 4.1.13 (#22<br>82)  Bumps  from 4.1.12 to 4.1.13.  -     ---  updat<br>ed-dependencies:  - dependency-name: django    depen<br>dency-type: direct:production  ...    Signed-off-by:<br> dependabot[bot]   Co-authored-by: dependabot[bot] |
 |2023-11-03 18:47:09|[syft](https://github.com/anchore/syft)|Use case-insensitive matching for Go license files <br>(#2286)  Signed-off-by: Mark Severson |
 |2023-11-03 18:22:47|[neuvector](https://github.com/neuvector/neuvector)|Merge pull request #1080 from holyspectral/NVSHAS-8<br>431-log-level  NVSHAS-8431 reduce log level for jwt <br>cert manager|
@@ -42,17 +48,11 @@
 |2023-11-03 16:31:34|[PST-Bucket](https://github.com/arch3rPro/PST-Bucket)|goby: Update to version 2.7.9|
 |2023-11-03 16:06:43|[dbeaver](https://github.com/dbeaver/dbeaver)|NPE fix|
 |2023-11-03 14:30:49|[impacket](https://github.com/fortra/impacket)|start remote registry as unprivileged user in reg.p<br>y (#1638)  * start remote registry as unprivileged u<br>ser in reg.py    Trigger the start of the RemoteRegi<br>stry service as unprivileged user by opening the win<br>reg named pipe.    * enable access to HKEY_USERS tro<br>ugh reg.py|
-|2023-11-03 13:13:26|[audacity](https://github.com/audacity/audacity)|mod-pcm didn't really need lib-wx-init|
-|2023-11-03 12:36:18|[v2rayfree](https://github.com/aiboboxx/v2rayfree)|update|
 |2023-11-03 11:43:25|[FreeRDP](https://github.com/FreeRDP/FreeRDP)|[core] VirtualChannelChunkSize adjustments  * add C<br>HANNEL_CHUNK_MAX_LENGTH * remove duplicate definitio<br>ns * default to CHANNEL_CHUNK_MAX_LENGTH|
 |2023-11-03 10:51:38|[appshark](https://github.com/bytedance/appshark)|Merge pull request #50 from firmianay/dev  add Mani<br>festRisk|
 |2023-11-03 10:38:55|[feroxbuster](https://github.com/epi052/feroxbuster)|added test for robots/--dont-extract-links|
-|2023-11-03 10:10:51|[CTF-QuickStart](https://github.com/ProbiusOfficial/CTF-QuickStart)|Merge branch 'main' of https://github.com/ProbiusOf<br>ficial/CTF-QuickStart|
-|2023-11-03 09:31:09|[safeline](https://github.com/chaitin/safeline)|Update setup.sh|
-|2023-11-03 07:06:46|[rustdesk](https://github.com/rustdesk/rustdesk)|Merge pull request #6275 from 21pages/opt_codec  op<br>t codec|
 |2023-11-03 06:26:55|[pingtunnel](https://github.com/esrrhs/pingtunnel)|delete|
 |2023-11-03 06:25:59|[all-in-one-v2](https://github.com/zaivanza/all-in-one-v2)|update reqs|
-|2023-11-03 03:45:48|[v2rayA](https://github.com/v2rayA/v2rayA)|rename release.yml to release_main.yml|
 |2023-11-03 03:27:51|[vulhub](https://github.com/vulhub/vulhub)|Merge pull request #465 from za/update-readme-cve-2<br>022-34265|
 |2023-11-03 03:00:45|[iDefender](https://github.com/wecooperate/iDefender)|update|
 |2023-11-03 01:51:33|[BerylEnigma](https://github.com/ffffffff0x/BerylEnigma)|节点添加可显示/隐藏属性|
@@ -81,12 +81,10 @@
 |2023-10-30 01:25:20|[Awesome-POC](https://github.com/Threekiii/Awesome-POC)|更新漏洞|
 |2023-10-30 01:24:55|[Vulnerability-Wik<br>i](https://github.com/Threekiii/Vulnerability-Wiki)|更新漏洞|
 |2023-10-29 18:49:03|[malwoverview](https://github.com/alexandreborges/malwoverview)|Malwoverview|
-|2023-10-29 10:12:11|[HackerPermKeeper](https://github.com/RuoJi6/HackerPermKeeper)|Update README.md|
 |2023-10-28 04:46:18|[OA-EXPTOOL](https://github.com/LittleBear4/OA-EXPTOOL)|Update README.md|
 |2023-10-28 04:45:10|[domain_hunter_pro](https://github.com/bit4woo/domain_hunter_pro)|Update maven.yml|
 |2023-10-28 04:17:23|[Stowaway](https://github.com/ph4ntonn/Stowaway)|Add Apple Silicon support|
 |2023-10-28 01:11:30|[DecoyMini](https://github.com/decoymini/DecoyMini)|Update README.md|
-|2023-10-27 10:47:19|[gshark](https://github.com/madneal/gshark)|Merge branch 'master' of github.com:madneal/gshark|
 |2023-10-27 08:53:20|[arthas](https://github.com/alibaba/arthas)|update ognl website url|
 |2023-10-26 08:19:35|[murphysec](https://github.com/murphysecurity/murphysec)|feat(cmd): add flag --only-task-id|
 |2023-10-26 02:54:29|[vulnerability](https://github.com/lal0ne/vulnerability)|CVE-2023-34051|
@@ -106,11 +104,7 @@
 |2023-10-22 10:02:32|[captcha-killer-mo<br>dified](https://github.com/f0ng/captcha-killer-modified)|Add files via upload|
 |2023-10-21 13:53:57|[BlueTeamTools](https://github.com/abc123info/BlueTeamTools)|Update README.md|
 |2023-10-21 07:31:20|[Vulhub-Reproduce](https://github.com/Threekiii/Vulhub-Reproduce)|更新README.md|
-|2023-10-21 05:12:25|[SmsForwarder](https://github.com/pppscn/SmsForwarder)|优化：企业微信应用发送通道允许自定义API地址【通过反<br>向代理(proxy_pass https://qyapi.weixin.qq.com;)绕过IP<br>白名单限制】 #352|
-|2023-10-20 16:09:16|[naabu](https://github.com/projectdiscovery/naabu)|chore(deps): bump golang.org/x/net from 0.16.0 to 0<br>.17.0 in /v2 (#829)  Bumps  from 0.16.0 to 0.17.0.  <br>-     ---  updated-dependencies:  - dependency-name:<br> golang.org/x/net    dependency-type: direct:product<br>ion  ...    Signed-off-by: dependabot[bot]   Co-auth<br>ored-by: dependabot[bot] |
-|2023-10-20 12:52:11|[codeql-cli-binari<br>es](https://github.com/github/codeql-cli-binaries)|Remove duplicate changelog entry|
-|2023-10-20 11:59:50|[r0capture](https://github.com/r0ysue/r0capture)|Update README.md|
-|2023-10-20 02:50:54|[Fastjson](https://github.com/safe6Sec/Fastjson)|Update README.md|## 所有项目
+|2023-10-21 05:12:25|[SmsForwarder](https://github.com/pppscn/SmsForwarder)|优化：企业微信应用发送通道允许自定义API地址【通过反<br>向代理(proxy_pass https://qyapi.weixin.qq.com;)绕过IP<br>白名单限制】 #352|## 所有项目
 # 渗透测试
 ## 信息收集
 ### 资产测绘采集
