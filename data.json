@@ -200,8 +200,8 @@
     "https://github.com/ycdxsb/PocOrExp_in_Github": {
         "created_at": "2021-04-13 05:46:16",
         "description": "聚合Github上已有的Poc或者Exp，CVE信息来自CVE官网。Auto Collect Poc Or Exp from Github by CVE ID.",
-        "commit_date": "2023-11-04 20:16:37",
-        "commit_message": "update 2023-11-05 04:16:37",
+        "commit_date": "2023-11-06 00:04:48",
+        "commit_message": "update 2023-11-06 08:04:48",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -479,7 +479,7 @@
     "https://github.com/k8gege/K8tools": {
         "created_at": "2019-02-23 14:04:52",
         "description": "K8工具合集(内网渗透/提权工具/远程溢出/漏洞利用/扫描工具/密码破解/免杀工具/Exploit/APT/0day/Shellcode/Payload/priviledge/BypassUAC/OverFlow/WebShell/PenTest) Web GetShell Exploit(Struts2/Zimbra/Weblogic/Tomcat/Apache/Jboss/DotNetNuke/zabbix)",
-        "commit_date": "2023-09-11 14:36:46",
+        "commit_date": "2023-11-05 03:49:11",
         "commit_message": "Add files via upload",
         "release_tag": "",
         "release_date": "",
@@ -864,7 +864,7 @@
     "https://github.com/vaycore/OneScan": {
         "created_at": "2023-02-14 01:59:45",
         "description": "OneScan是递归目录扫描的BurpSuite插件",
-        "commit_date": "2023-10-30 07:29:41",
+        "commit_date": "2023-11-05 09:12:49",
         "commit_message": "更新说明文档",
         "release_tag": "v1.3.7",
         "release_date": "2023-10-27 05:20:29",
@@ -1071,11 +1071,11 @@
     "https://github.com/v2rayA/v2rayA": {
         "created_at": "2019-10-18 20:42:06",
         "description": "A web GUI client of Project V which supports VMess, VLESS, SS, SSR, Trojan, Tuic and Juicity protocols. 🚀",
-        "commit_date": "2023-11-04 14:10:51",
-        "commit_message": "Merge pull request #1147 from MarksonHon/feat_v5\n\nrelease_main.yml: set winget's download source to GitHub",
-        "release_tag": "v2.2.4",
-        "release_date": "2023-09-05 13:23:34",
-        "release_message": "## What's Changed\n* Fix Windows installers' blank version string by @MarksonHon in https://github.com/v2rayA/v2rayA/pull/1079\n\n\n**Full Changelog**: https://github.com/v2rayA/v2rayA/compare/v2.2.3...v2.2.4"
+        "commit_date": "2023-11-05 23:23:46",
+        "commit_message": "Merge pull request #1148 from MarksonHon/feat_v5\n\nRemove all of v2raya.org domain, use GitHub's link instead.",
+        "release_tag": "v2.2.4.1",
+        "release_date": "2023-11-05 23:47:12",
+        "release_message": "Use GitHub's urls instead of v2raya.org for v2rayA's own server has been shutdown for out of money"
     },
     "https://github.com/silentsignal/burp-text4shell": {
         "created_at": "2022-10-18 15:07:57",
@@ -1906,8 +1906,8 @@
     "https://github.com/hiroi-sora/Umi-OCR": {
         "created_at": "2022-03-28 04:01:46",
         "description": "OCR图片转文字识别软件，完全离线。截屏/批量导入图片，支持多国语言、合并段落、竖排文字。可排除水印区域，提取干净的文本。基于 PaddleOCR 。",
-        "commit_date": "2023-10-24 09:20:57",
-        "commit_message": "update readme",
+        "commit_date": "2023-11-05 06:27:53",
+        "commit_message": "Merge branch 'main' of https://github.com/hiroi-sora/Umi-OCR\n\n# Conflicts:\n#\tREADME.md",
         "release_tag": "v1.3.7",
         "release_date": "2023-10-10 14:13:05",
         "release_message": "### 公告：[v2.0.0 预览版](https://github.com/hiroi-sora/Umi-OCR_v2) 开放测试！\r\n\r\n开发重心转向v2，v1.x 版本可能将逐步停止维护。\r\n\r\n测试阶段的 v2 可能含Bug。注重稳定的用户可继续使用 v1.3 版本。\r\n\r\n---\r\n\r\n### `v1.3.7` 主要更新：\r\n- 兼容 Win7 x64 。\r\n- （若 Win7 报错`计算机中丢失 VCOMP140.DLL` ，请安装 [VC运行库](https://aka.ms/vs/17/release/vc_redist.x64.exe) ）\r\n\r\n感谢 @vector090 提供的[协助](https://github.com/hiroi-sora/Umi-OCR/issues/78#issuecomment-1754559790)！\r\n\r\n### 文件说明：\r\n软件本体：`Umi-OCR.v1.3.7.7z`（67.3 MB），内置`简体中文&英文`通用识别库。\r\n- SHA256: `8aff9198a5c1328c986fd13d9c17491727e994908f722cdea661dfcc01970587`\r\n\r\n软件（多国语言整合版）：`Umi-OCR.v1.3.7_ALL_languages.7z`（118 MB），内置多国语言识别库。\r\n- SHA256: `5fcfbffce0148ff09ce58eea15a52c4d49c99903c7b5afd712f45862ba4026e1`\r\n\r\n多国语言扩展包：`Umi-OCR.v1.3_DLC_languages.7z`（50.5 MB），可向软件本体导入`繁中,英,日,韩,俄,德,法` 多国语言识别库。\r\n- SHA256: `709c867a610346217fc19a2251ead2a27d9dd0cf25e26ce05af007dbfc492974`"
@@ -2699,10 +2699,10 @@
     "https://github.com/madneal/gshark": {
         "created_at": "2018-03-09 14:16:55",
         "description": "Scan for sensitive information easily and effectively.",
-        "commit_date": "2023-11-04 01:46:55",
-        "commit_message": "Merge pull request #173 from madneal/dependabot/go_modules/server/golang.org/x/image-0.10.0\n\nBump golang.org/x/image from 0.5.0 to 0.10.0 in /server",
+        "commit_date": "2023-11-05 05:03:51",
+        "commit_message": "Update release.yml",
         "release_tag": "v1.2.2",
-        "release_date": "2023-10-27 10:48:46",
+        "release_date": "2023-11-05 07:49:31",
         "release_message": "## Fixed\r\n\r\n* 修复数据库初始化逻辑问题\r\n* 升级前端组件版本"
     },
     "https://github.com/kozmer/log4j-shell-poc": {
@@ -2953,9 +2953,9 @@
         "description": "Free universal database tool and SQL client",
         "commit_date": "2023-11-03 16:06:43",
         "commit_message": "NPE fix",
-        "release_tag": "23.2.3",
-        "release_date": "2023-10-22 15:59:28",
-        "release_message": "\n                - Data editor:\n                    - Excel (XLSX) export now supports columns auto-fit\n                    - Copy from row bellow/above command was fixed\n                    - Shortcut for \"Got to column\" column was changed to Ctrl+Shift+G\n                - SQL editor:\n                    - Script statistics configuration was extended\n                    - AI completion bugs were fixed and configuration UI was redesigned\n                    - Tabs close in horizontal mode was fixed\n                    - Script to connection association save was fixed\n                - Data export:\n                    - Data import tasks wer fixed for schema-less databases\n                    - Columns value transform expressions evaluation was fixed\n                    - All data transfer were migrated to a new IO API\n                    - Export functionality now can be disabled completely\n                    - Tasks loading for missing database objects was fixed\n                - ER diagrams: one-to-one connections rendering was fixed\n                - General:\n                    - Default file encoding was changed to UTF-8. IT affects all external tools integration.\n                    - Web based authentication is now opened in external browser by default\n                    - Version update functionality now can be disabled completely\n                - Databases:\n                    - Clickhouse: map data type visualization was fixed\n                    - Databricks: issue with national encodings was resolved\n                    - Greenplum:\n                        - Issue with case-sensitive table names was resolved\n                        - FFL for function parameters was fixed\n                    - MySQL: session manager now shows info from performance_schema\n                    - OpenEdge: root catalog is now hidden; data export was fixed\n                    - PostgreSQL: foreign key DDL was fixed (MATCH FULL)\n                - Misc: we switched to Eclipse 2023-09\n            "
+        "release_tag": "23.2.4",
+        "release_date": "2023-11-05 17:31:13",
+        "release_message": "\n                - SQL editor:\n                    - Code completion for update statements was added\n                    - Smart completion and replacements of quoted expressions was fixed\n                    - Redundant errors on opening SQL Editor for the first time were removed from the logs\n                - Database Navigator:\n                    - Filtered objects visualization was added\n                    - Script folder opening was fixed\n                - Data transfer:\n                    - Attributes names for quoted attributes are handled correctly\n                    - \"Copy as HTML\" result presentation is improved\n                - Data editor:\n                    - Background color reset was fixed\n                    - Message about content representation size limit was fixed\n                    - App freeze in binary editor was fixed (MacOS)\n                - ER diagrams: one-to-one connection rendering was fixed\n                - Connections:\n                    - SSH connection page validation is enhanced for jump servers\n                    - Complex JDBC driver support was improved (context classloader + driver cache)\n                - General:\n                    - Script names are sorted alphabetically\n                    - Refresh button was added to the ‘Generate DDL’ dialog\n                    - Issue with app launch was fixed (rare case)\n                - Databases:\n                    - Oracle: search package bodies as packages was supported\n                    - PostgreSQL:\n                        - Default privileges presentation and editing was supported\n                        - Sequences permissions reading for quoted roles was fixed\n                    - SQLite: required columns creating was fixed\n            "
     },
     "https://github.com/zema1/yarx": {
         "created_at": "2021-11-11 09:43:21",
@@ -3703,8 +3703,8 @@
         "description": "PEASS - Privilege Escalation Awesome Scripts SUITE (with colors)",
         "commit_date": "2023-10-24 10:34:02",
         "commit_message": "Merge pull request #397 from RandolphConley/master\n\ncode update ; Added search / function for excel files",
-        "release_tag": "20231029-83b8fbe1",
-        "release_date": "2023-10-29 04:29:20",
+        "release_tag": "20231105-d387d97f",
+        "release_date": "2023-11-05 04:27:02",
         "release_message": ""
     },
     "https://github.com/waderwu/attackRmi": {
@@ -3736,12 +3736,12 @@
     },
     "https://github.com/k8gege/Ladon": {
         "created_at": "2019-11-02 06:22:41",
-        "description": "Ladon大型内网渗透工具，可PowerShell模块化、可CS插件化、可内存加载，无文件扫描。含端口扫描、服务识别、网络资产探测、密码审计、高危漏洞检测、漏洞利用、密码读取以及一键GetShell，支持批量A段/B段/C段以及跨网段扫描，支持URL、主机、域名列表扫描等。Ladon 11.6内置252个功能,网络资产探测模块32个通过多种协议(ICMP\\NBT\\DNS\\MAC\\SMB\\WMI\\SSH\\HTTP\\HTTPS\\Exchange\\mssql\\FTP\\RDP)以及方法快速获取目标网络存活主机IP、计算机名、工作组、共享资源、网卡地址、操作系统版本、网站、子域名、中间件、开放服务、路由器、交换机、数据库、打印机等信息，高危漏洞检测16个含MS17010、Zimbra、Exchange",
-        "commit_date": "2023-09-11 14:47:26",
+        "description": "Ladon大型内网渗透工具，可PowerShell模块化、可CS插件化、可内存加载，无文件扫描。含端口扫描、服务识别、网络资产探测、密码审计、高危漏洞检测、漏洞利用、密码读取以及一键GetShell，支持批量A段/B段/C段以及跨网段扫描，支持URL、主机、域名列表扫描等。Ladon 11.9内置255个功能,网络资产探测模块32个通过多种协议(ICMP\\NBT\\DNS\\MAC\\SMB\\WMI\\SSH\\HTTP\\HTTPS\\Exchange\\mssql\\FTP\\RDP)以及方法快速获取目标网络存活主机IP、计算机名、工作组、共享资源、网卡地址、操作系统版本、网站、子域名、中间件、开放服务、路由器、交换机、数据库、打印机等信息，高危漏洞检测16个含MS17010、Zimbra、Exchange",
+        "commit_date": "2023-11-05 03:42:03",
         "commit_message": "Add files via upload",
-        "release_tag": "v11.6",
-        "release_date": "2023-09-11 14:38:16",
-        "release_message": "\r\nLadon 11.6 20230911\r\n[+]MmcExec\t\t\t\tDcom远程执行命令之MMC20(域控或管理员权限、需目标关闭防火墙) 横向移动 内网渗透 支持BASE64命令\r\n[+]ShellExec\t\t\tDcom远程执行命令之ShellWindows(域控或管理员权限、需目标关闭防火墙) 横向移动 内网渗透 支持BASE64命令\r\n[+]ShellBrowserExec\t\tDcom远程执行命令之ShellBrowserWindow(域控或管理员权限、需目标关闭防火墙) 横向移动 内网渗透 支持BASE64命令\r\n[+]SharpSphere\t\t\t.NET>=4.0 SharpSphere 使红队人员能够轻松地与 vCenter 管理的虚拟机的来宾操作系统进行交互 执行命令\r\n[+]noPac\t\t\t\t.NET>=4.0 域渗透 域内提权CVE-2021-42287/CVE-2021-42278 横向移动 内网渗透\r\n[+]SharpGPOAbuse\t\t.NET>=4.0 域渗透 组策略(GPO)横向移动 内网渗透 下发脚本\r\n[+]Rubeus     \t\t\t.NET>=4.0 域渗透 Kerberos攻击比如TGT请求/ST请求/AS-REP Roasting/Kerberoasting/委派攻击/黄金票据/白银票据/钻石票据/蓝宝石票据等\r\n[u]LadonEXP\t\t\t\t结果不含路径 也可自动解密\r\n[u]PostShell\t\t\t结果不含路径 也可自动解密\r\n[u]web\t\t\t\t\tAuthBasic认证监听 捕获密码 解密bug修复\r\n[u]Ladon.ps1\t\t\t默认使用Ladon40版本,Win10/11是主流系统，Win7可自行转换Ladon35\r\n[u]Ladon.exe\t\t\t默认使用Ladon48版本\r\n\r\nLadon 11.5 20230812\r\n[u]LdapScan\t\t\t域控密码爆破成功 回显域信息\r\n[u]OnlinePC \t\t超时8s\r\n[u]SmbInfo\t\t\t超时8s\r\n[u]WhatCms\t\t\t超时8s\r\n[u]SmbGhost\t\t\t超时8s\r\n[u]MS17010\t\t\t超时8s\r\n\r\n[+]LadonExp\t\t\tCMD变量 $hexcmd$   $asciicmd$   $unicodecmd$ 使用对应编码加密命令\r\n[+]LadonExp\t\t\tUnicdoe加密通信Shell\tcmd=\\u006e\\u0065\\u0074\\u0020\\u0075\\u0073\\u0065\\u0072\r\n[+]LadonExp\t\t\tAscii码加密通信Shell\tcmd=110,101,116,32,117,115,101,114\r\n[+]LadonExp\t\t\tHex加密通信Shell\t\tcmd=6E65742075736572\r\n[+]PostShell\t\tUnicdoe加密通信Shell\tCMD值自动加密\r\n[+]PostShell\t\tAscii码加密通信Shell(超出ASCII值范围不可解密)\r\n[+]exe2hex\t\t\tEXE转HEX，CMD命令Echo写入文件\t支持指定长度、添加前缀\r\n[+]exe2b64\t\t\tEXE转Base64，CMD命令写入文件\t支持指定长度、添加前缀"
+        "release_tag": "v11.9",
+        "release_date": "2023-11-05 03:44:43",
+        "release_message": "Ladon 11.9  20231105\r\n[u]LadonStudy\t\t支持bypassEDR\r\n[u]LadonShell\t\t支持tls 1.2\r\n[u]RdpInfo \t\t\t优化RDP Ntlm探测系统信息\r\n[u]RdpLog\t\t\t查看3389连接日志(IP、用户名、CertHash)\r\n[+]CVE-2023-46604\tActiveMQ CVE-2023-46604 RCE Exploit\r\n\r\n\r\nLadon 11.8  20231018\r\n[u]InfoScan\t\t\t新增SmtpInfo\r\n[+]SmtpInfo\t\t\t新增Smtp Ntlm探测系统信息(25、465、587端口)\r\n[u]InfoScan\t\t\t新增HttpInfo\r\n[+]HttpInfo\t\t\t新增Http/Https Ntlm探测系统信息(SharePoint)\r\n\r\n\r\nLadon 11.7 20231010\r\n[u]BadPotato\t\t本地提权 支持Base64参数 解决Cobalt Strike或LadonShell下双引号等问题\r\n[u]EfsPotato\t\t本地提权 支持Base64参数 解决Cobalt Strike或LadonShell下双引号等问题\r\n[u]GodPotato\t\t本地提权 支持Base64参数 解决Cobalt Strike或LadonShell下双引号等问题\r\n[u]SweetPotato\t\t本地提权 支持Base64参数 解决Cobalt Strike或LadonShell下双引号等问题\r\n[u]McpPotato\t\t本地提权 支持Base64参数 解决Cobalt Strike或LadonShell下双引号等问题\r\n[+]clsLog\t\t\t新增清理最近访问文件记录\r\n\r\n9.24\r\n[u] WmiExec2\t\t横向移动 内网渗透 修复b64cmd参数Bug\r\n[u] WmiExec\t\t\t横向移动 内网渗透 修复域用户连接Bug\r\n[+] AtExec\t\t\t横向移动 内网渗透 Base64统一为Unicode(如whoami编码 dwBoAG8AYQBtAGkA )\r\n\r\n9.18\r\n[u]PostShell\t\t\thexupload支持任意文件上传-当前目录"
     },
     "https://github.com/lijiejie/subDomainsBrute": {
         "created_at": "2015-04-01 07:22:37",
@@ -3890,8 +3890,8 @@
     "https://github.com/neuvector/neuvector": {
         "created_at": "2021-12-17 20:15:03",
         "description": "",
-        "commit_date": "2023-11-03 18:22:47",
-        "commit_message": "Merge pull request #1080 from holyspectral/NVSHAS-8431-log-level\n\nNVSHAS-8431 reduce log level for jwt cert manager",
+        "commit_date": "2023-11-05 02:56:19",
+        "commit_message": "Merge pull request #1081 from becitsthere/dev\n\nNVSHAS-6739: ARM support for fanotify",
         "release_tag": "v5.0.7-s6",
         "release_date": "2023-10-27 16:42:15",
         "release_message": ""
@@ -4277,7 +4277,7 @@
     "https://github.com/aiboboxx/v2rayfree": {
         "created_at": "2021-10-13 11:34:53",
         "description": "v2ray节点、免费节点、免费v2ray节点、最新公益免费v2ray节点订阅地址、免费v2ray节点每日更新、免费ss/v2ray/trojan节点、freefq ",
-        "commit_date": "2023-11-04 12:32:31",
+        "commit_date": "2023-11-05 12:33:17",
         "commit_message": "update",
         "release_tag": "",
         "release_date": "",
@@ -4322,8 +4322,8 @@
     "https://github.com/freefq/free": {
         "created_at": "2020-06-07 02:48:33",
         "description": "翻墙、免费翻墙、免费科学上网、免费节点、免费梯子、免费ss/v2ray/trojan节点、蓝灯、谷歌商店、翻墙梯子",
-        "commit_date": "2023-11-05 00:00:04",
-        "commit_message": "updated_at 11-05 08:00",
+        "commit_date": "2023-11-06 00:00:02",
+        "commit_message": "updated_at 11-06 08:00",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -6391,8 +6391,8 @@
     "https://github.com/WerWolv/ImHex": {
         "created_at": "2020-11-10 14:27:00",
         "description": "🔍 A Hex Editor for Reverse Engineers, Programmers and people who value their retinas when working at 3 AM.",
-        "commit_date": "2023-11-05 00:03:19",
-        "commit_message": "build: Updated libromfs",
+        "commit_date": "2023-11-05 20:52:12",
+        "commit_message": "impr: Make TCP Client/Server table visible when detaching tool",
         "release_tag": "v1.31.0",
         "release_date": "2023-09-24 18:52:41",
         "release_message": "## Additions\r\n- **Added a command line interface to ImHex.** Huge thanks to @iTrooz\r\n    - Get started by typing `imhex --help`\r\n- **Added initial support for .NET scripts**\r\n    - These scripts are meant to be a cross-platform way of performing automated actions.\r\n    - They cannot be used to add new features like native plugins can\r\n    - Special thanks to @PerikiyoXD for some really involved fixes around this\r\n- **Added Achievements**\r\n    - These are meant to provide an easy and fun way to learn and get used to ImHex\r\n    - The achievement window can be opened by going to Extras -> Achievement\r\n    - If you don't like the achievements and just want to use ImHex like before, open the achievements window and disable the popups there\r\n- Added a new and much nicer splash screen\r\n- Allow memory files to be saved to project files and be renamed\r\n    - Files can also be converted to memory files now\r\n- Added support for hashing arbitrary strings using the hashes view\r\n- Added built-in logging console\r\n- Allow hex editor data visualizers to be switched to big-endian mode\r\n- Upgraded to Capstone V5 finally\r\n- Encoding names are now being displayed in the header of the hex editor\r\n- Added a \"Update All\" button to the content store\r\n- Linux now uses the GTK filepicker whenever possible\r\n    - This should correct issues where the file picker didn't work correctly on some Linux systems by default\r\n    - The AppImage and Flatpak still use the Portals filepicker because it's necessary there\r\n- The hex editor editing mode is now being entered when pressing Enter\r\n- Added a setting to remember the current main window size and position\r\n- Added option to fill a selected region with bytes\r\n- Added option to switch between human-readable sizes and bytes in the hex editor footer. Thanks to @LennardF1989 \r\n- Removed Anonfiles file uploader. Rest in Peace ✝️\r\n- Added windo actions popup when clicking on the header icon\r\n- Added authors and descriptions to things in the content store\r\n- Added shortcuts to switch between providers, evaluate patterns and interact with the pattern debugger\r\n\r\n## Improvements\r\n- Improved the data information diagrams look and field\r\n- Multi-window support is now being disabled properly by default on Linux\r\n- Plugins are now being loaded asynchronously to improve startup times\r\n- Pattern console is automatically scrolled to the bottom now when new lines are being added\r\n- Unidentifiable data is being handled better now in the data information view\r\n- Allow hex editor view to be scrolled slightly past the end\r\n- Made demangler results selectable and copyable\r\n- Timestamp of files is being updated correctly now on Windows. Thanks to @lorsanta \r\n- ImHex should now exit cleanly when crashing\r\n- Bytes per row count setting in the hex editor is being remembered now. Thanks to @LennardF1989 \r\n\r\n## Bug Fixes\r\n- Fixed raw disk provider not working correctly on non-windows platforms. Thanks a lot to @Nowilltolife \r\n- Fixed disassembler view not clearning selection when typing in the region field\r\n- Fixed page count displaying wrongly in empty files\r\n- Fixed crash when trying to paste bytes without a selection\r\n- Fixed occasional crash when evaluating patterns\r\n- Fixed scaling not being applied properly in some cases\r\n- Fixed bookmarks not being loaded correctly from project files\r\n- Fixed menu bar being scrollable sideways\r\n- Fixed loading projects when an existing project is loaded already\r\n- Fixed issues where the cursor started flickering when hovering certain elements\r\n- Fixed crash when clicking on \"Open in new view\" in a bookmark\r\n- Fixed occasional crash when loading incorrect data processor node files\r\n- Fixed writing to non-zero pages in the hex editor when a custom base address has been set\r\n- Fixed issue where libmagic dumped a bunch of compiled files into the cwd on Linux and macOS. Thanks to @iTrooz \r\n- Fixed endianess of all CRC hashes\r\n- Fixed highest/lowest entropy block address in the data information view being wrong\r\n- Fixed issue where downloading items from the store was suceptible for path traversal. Thanks to @iTrooz \r\n- Fixed various data processor issues\r\n\r\n## Pattern Language\r\n- Added `typenameof` operator\r\n- Added `[[hex::favorite]]` attribute to mark patterns as favorites directly\r\n- Added `[[hex::group]]` attribute to add patterns to custom groups in the pattern data view\r\n- Added single-stepping feature to pattern debugger\r\n- Added coordinates visualizer\r\n- Added timestamp visualizer\r\n- Images in the pattern image and bitmap visualizer can now be scaled\r\n- Added various new inline visualizers such as \"color\", \"guage\" and \"button\"\r\n- Format functions are no longer being evaluated during highlighting\r\n- Sections without a name are being hidden now and treated as \"internal\" sections\r\n- Added `[[hex::spec_name]]` attribute to document names for pattern variables taken from the documentation\r\n- Added string in/out variables\r\n- Fixed issue where pattern local variables sometimes allocated huge amounts of memory\r\n\r\n![image](https://github.com/WerWolv/ImHex/assets/10835354/9bcaf682-ed02-4e3d-9d06-0c55a1ddc030)\r\n\r\n\r\n<br/>\r\n\r\n<p align=\"center\">If you like my work, please consider supporting me on GitHub Sponsors, Patreon or PayPal. Thanks a lot!</p>\r\n<p align=\"center\">\r\n<a href=\"https://github.com/sponsors/WerWolv\"><img src=\"https://werwolv.net/assets/github_banner.png\" alt=\"GitHub donate button\" /> </a>\r\n<a href=\"https://www.patreon.com/werwolv\"><img src=\"https://c5.patreon.com/external/logo/become_a_patron_button.png\" alt=\"Patreon donate button\" /> </a>\r\n<a href=\"https://werwolv.net/donate\"><img src=\"https://werwolv.net/assets/paypal_banner.png\" alt=\"PayPal donate button\" /> </a>\r\n</p"
@@ -6472,17 +6472,17 @@
     "https://github.com/Tokeii0/VolatilityPro": {
         "created_at": "2023-05-28 01:45:45",
         "description": "一款用于自动化处理内存取证的Python脚本，并提供GUI界面",
-        "commit_date": "2023-11-02 12:31:38",
-        "commit_message": "Delete volprogui.py",
+        "commit_date": "2023-11-05 06:09:31",
+        "commit_message": "Update README.md",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
     },
     "https://github.com/ProbiusOfficial/CTF-QuickStart": {
-        "created_at": "2023-04-16 05:12:55",
-        "description": "【Hello CTF】题目配套，免费开源的CTF入门教程，针对0基础新手编写，同时兼顾信息差的填补，对各阶段的CTFer都友好的开源教程，致力于CTF和网络安全的开源生态！",
-        "commit_date": "2023-11-04 21:27:29",
-        "commit_message": "Update README.md with new image and CDN link",
+        "created_at": "2023-11-05 09:17:23",
+        "description": "源仓库存档",
+        "commit_date": "2023-11-05 08:22:46",
+        "commit_message": "Update README.md",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
