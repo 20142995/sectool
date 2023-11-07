@@ -1,8 +1,9 @@
-# 更新于 2023-11-06 08:37:20
+# 更新于 2023-11-07 08:37:04
 
 ## 近15天release更新记录
 | 更新时间 | 项目名称 | 版本 | 更新内容 |
 | :---- | :---- | :---- | :---- |
+|2023-11-06 06:41:17|[trivy](https://github.com/aquasecurity/trivy)|v0.47.0|## ⚡Release highlights and summary⚡<br>    👉 https://github.com/aquasecurity<br>/trivy/discussions/5520    ## Changelo<br>g  * d6df5fbcd docs: add info that lic<br>ense scanning supports file-patterns f<br>lag (#5484)  * 156d4cc60 docs: add Zor<br>a integration into Ecosystem session (<br>#5490)  * 772d1d08f fix(sbom): Use UUI<br>D as BomRef for packages with empty pu<br>rl (#5448)  * df47073fa ci: use maximi<br>ze build space for K8s tests (#5387)  <br>* fed471018 fix: correct error mismatc<br>h causing race in fast walks (#5516)  <br>* 46f1b9e7d docs: k8s vulnerability sc<br>anning (#5515)  * fdb3a15b2 chore(deps<br>): bump github.com/aws/aws-sdk-go-v2/s<br>ervice/sts from 1.23.2 to 1.25.0 (#550<br>6)  * d0d956fdc chore(deps): bump gith<br>ub.com/owenrumney/go-sarif/v2 from 2.2<br>.2 to 2.3.0 (#5493)  * 68b0797e5 docs:<br> remove glad for java datasources (#55<br>08)  * 474167c47 chore(deps): bump git<br>hub.com/testcontainers/testcontainers-<br>go/modules/localstack from 0.21.0 to 0<br>.26.0 (#5475)  * 7299867c2 chore: remo<br>ve unused logger attribute in amazon d<br>etector (#5476)  * 8656bd9f7 fix: corr<br>ect error mismatch causing race in fas<br>t walks (#5482)  * 2e10cd2eb chore(dep<br>s): bump goreleaser/goreleaser-action <br>from 4 to 5 (#5502)  * 13df74652 chore<br>(deps): bump docker/build-push-action <br>from 4 to 5 (#5500)  * b0141cfba chore<br>(deps): bump github.com/package-url/pa<br>ckageurl-go from 0.1.2-0.2023081222382<br>8-f8bb31c1f10b to 0.1.2 (#5491)  * 520<br>830b51 fix(server): add licenses to Bl<br>obInfo message (#5382)  * 9a6e125c7 ch<br>ore(deps): bump actions/checkout from <br>4.1.0 to 4.1.1 (#5501)  * 6e5927266 ch<br>ore(deps): bump github.com/aws/aws-sdk<br>-go-v2/service/ecr from 1.17.18 to 1.2<br>1.0 (#5497)  * f3de7bc3b feat: scan vu<br>lns on k8s core component apps (#5418)<br>  * e2fb3dd58 fix(java): fix infinite <br>loop when relativePath field points to<br> pom.xml being scanned (#5470)  * 3e83<br>3be7d chore(deps): bump github.com/doc<br>ker/docker from 24.0.5+incompatible to<br> 24.0.7+incompatible (#5472)  * ca50b7<br>7a3 fix(sbom): save digests for packag<br>e/application when scanning SBOM files<br> (#5432)  * 048150d43 docs: fix the br<br>oken link (#5454)  * 013d90199 docs: f<br>ix error when installing PyYAML for gh<br> pages (#5462)  * 26b495954 fix(java):<br> download java-db once (#5442)  * 57fa<br>701a8 chore(deps): bump google.golang.<br>org/grpc from 1.57.0 to 1.57.1 (#5447)<br>  * 53c9a7d76 docs(misconf): Update --<br>tf-exclude-downloaded-modules descript<br>ion (#5419)  * 01c98d151 feat(misconf)<br>: Support --ignore-policy in config sc<br>ans (#5359)  * 05b3c86a1 docs(misconf)<br>: fix broken table for Use container i<br>mage section (#5425)  * 1a15a3adb feat<br>(dart): add graph support (#5374)  * f<br>2a12f5f9 refactor: define a new struct<br> for scan targets (#5397)  * 6040d9f43<br> fix(sbom): add missed primaryURL and <br>source severity for CycloneDX (#5399) <br> * e5317c7bc fix: correct invalid MD5 <br>hashes for rpms ending with one or mor<br>e zero bytes (#5393)  * 9fba79f0b chor<br>e(deps): move to aws-sdk-go-v2 (#5381)<br>  * 00f2059e5 docs: remove --scanners <br>none (#5384)  * 57a102231 docs: Update<br> container_image.md #5182 (#5193)  * 5<br>b2b4ea38 feat(report): Add InstalledFi<br>les field to Package (#4706)    |
 |2023-11-05 23:47:12|[v2rayA](https://github.com/v2rayA/v2rayA)|v2.2.4.<br>1|Use GitHub's urls instead of v2raya.o<br>rg for v2rayA's own server has been sh<br>utdown for out of money|
 |2023-11-05 17:31:13|[dbeaver](https://github.com/dbeaver/dbeaver)|23.2.4|                 - SQL editor:       <br>              - Code completion for up<br>date statements was added             <br>        - Smart completion and replace<br>ments of quoted expressions was fixed <br>                    - Redundant errors<br> on opening SQL Editor for the first t<br>ime were removed from the logs        <br>         - Database Navigator:        <br>             - Filtered objects visual<br>ization was added                     <br>- Script folder opening was fixed     <br>            - Data transfer:          <br>           - Attributes names for quot<br>ed attributes are handled correctly   <br>                  - "Copy as HTML" res<br>ult presentation is improved          <br>       - Data editor:                 <br>    - Background color reset was fixed<br>                     - Message about c<br>ontent representation size limit was f<br>ixed                     - App freeze <br>in binary editor was fixed (MacOS)    <br>             - ER diagrams: one-to-one<br> connection rendering was fixed       <br>          - Connections:              <br>       - SSH connection page validatio<br>n is enhanced for jump servers        <br>             - Complex JDBC driver sup<br>port was improved (context classloader<br> + driver cache)                 - Gen<br>eral:                     - Script nam<br>es are sorted alphabetically          <br>           - Refresh button was added <br>to the ‘Generate DDL’ dialog        <br>             - Issue with app launch w<br>as fixed (rare case)                 -<br> Databases:                     - Orac<br>le: search package bodies as packages <br>was supported                     - Po<br>stgreSQL:                         - De<br>fault privileges presentation and edit<br>ing was supported                     <br>    - Sequences permissions reading fo<br>r quoted roles was fixed              <br>       - SQLite: required columns crea<br>ting was fixed             |
 |2023-11-05 07:49:31|[gshark](https://github.com/madneal/gshark)|v1.2.2|## Fixed    * 修复数据库初始化逻辑问<br>题  * 升级前端组件版本|
@@ -16,7 +17,6 @@
 |2023-11-01 03:28:43|[afrog](https://github.com/zan8in/afrog)|v2.9.1|### 为了解决2.9.0版本代码优化引发的重<br>大漏洞问题，该漏洞会严重干扰漏洞探测结<br>果，我们强烈建议您立即升级到2.9.1版本，<br>或者使用2.8.9版本或更低版本。  ### 受影<br>响的版本：v2.9.0    ### Added -resume c<br>ommand to resume scanning using the sp<br>ecified afrog-resume.cfg file  ### 新<br>增 -resume 命令，使用指定的 afrog-resum<br>e.cfg 文件恢复扫描    |
 |2023-10-29 18:50:38|[malwoverview](https://github.com/alexandreborges/malwoverview)|v5.4.2|Malwoverview 5.4.2|
 |2023-10-29 10:13:17|[HackerPermKeeper](https://github.com/RuoJi6/HackerPermKeeper)|6.0| 1、Suid shell bash权限维持    2、重<br>写生成代码(连续生成)    3、添加不记录历<br>史命令临时操作，同时可以批量删除指定的.<br>bash_history文件中的历史记录    4、修<br>改检查脚本(添加检查环境)    5、使用tabu<br>late模块进行格式化输出|
-|2023-10-28 04:38:57|[trivy](https://github.com/aquasecurity/trivy)|v0.46.1|## Changelog * 27a3e55e8 fix(java): d<br>ownload java-db once (#5442) * d223732<br>65 chore(deps): bump google.golang.org<br>/grpc from 1.57.0 to 1.57.1 (#5447)  |
 |2023-10-27 16:42:15|[neuvector](https://github.com/neuvector/neuvector)|v5.0.7-<br>s6||
 |2023-10-27 11:00:44|[Pentest-Windows](https://github.com/arch3rPro/Pentest-Windows)|v2.2|新增内网渗透工具和远程管理工具、删除<br>了部分已不再维护或基本不用的工具    Win<br>dows11 Penetration Suite Toolkit v2.2 <br>(WSL) 【推荐】  下载链接：https://www.<br>123pan.com/s/q59KVv-T4Qpd.html 提取码:<br>wpst  文件大小：8.55GB，解压后：23.2GB<br>  SHA256：7305DBFFF38EAAD59373C8232EB4<br>17F6E996A5E80F379D22688BAC0E7C8CA6A9  <br>Windows11 Penetration Suite Toolkit v2<br>.2 (NoWSL) 【无WSL】  下载链接：https:<br>//www.123pan.com/s/q59KVv-tvQpd.html <br>提取码:wpst  文件大小：7.13 GB，解压后<br>：17.6GB  SHA256：D05F8366E1054911AAE88<br>5A61D2621786B74CC6050F55A66B90CE4EDD38<br>CFD98|
 |2023-10-27 05:20:29|[OneScan](https://github.com/vaycore/OneScan)|v1.3.7|1.3.7 版本发布，版本更新内容如下    #<br>## 优化    - 优化导入 URL 功能：在 UI <br>界面中保留最后一次导入的数据  - Databoa<br>rd 数据看板新增 “删除选中项” 菜单项<br>；调整菜单项的顺序，防止误操作  - 优先<br>检测当前插件 jar 包所在目录下是否存在 O<br>neScan 目录，如果存在，将使用该目录作<br>为工作目录    |
@@ -25,15 +25,29 @@
 |2023-10-24 02:57:54|[frp](https://github.com/fatedier/frp)|v0.52.3|### Fixes  * admin_user is not effect<br>ive in the INI configuration.  |
 |2023-10-23 13:43:41|[autoDecoder](https://github.com/f0ng/autoDecoder)|0.33|## 2023.10.23 更新0.33  1. 增加响应ba<br>se64自动解码，当响应包返回的为base64时<br>，可以自动解码，防止二进制数据包损坏  2<br>. 增加选项保存、读取|
 |2023-10-23 07:12:26|[kube-bench](https://github.com/aquasecurity/kube-bench)|v0.6.19|## Changelog * 7f5a2eb build(deps): b<br>ump docker/build-push-action from 4 to<br> 5 (#1498)  |
-|2023-10-22 09:45:04|[ghauri](https://github.com/r0oth3x49/ghauri)|1.2.7|Features:   - added feature to update<br> using command line when the ghauri cl<br>oned and installed from github using g<br>it: --update|
 ## 近15天commit提交记录
 | 提交时间 | 项目名称 | 更新内容 |
 | :---- | :---- | :---- |
-|2023-11-06 00:04:48|[PocOrExp_in_Githu<br>b](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-11-06 08:04:48|
-|2023-11-06 00:00:02|[free](https://github.com/freefq/free)|updated_at 11-06 08:00|
-|2023-11-05 23:23:46|[v2rayA](https://github.com/v2rayA/v2rayA)|Merge pull request #1148 from MarksonHon/feat_v5  R<br>emove all of v2raya.org domain, use GitHub's link in<br>stead.|
-|2023-11-05 20:52:12|[ImHex](https://github.com/WerWolv/ImHex)|impr: Make TCP Client/Server table visible when det<br>aching tool|
-|2023-11-05 12:33:17|[v2rayfree](https://github.com/aiboboxx/v2rayfree)|update|
+|2023-11-07 00:00:04|[free](https://github.com/freefq/free)|updated_at 11-07 08:00|
+|2023-11-06 23:52:32|[PocOrExp_in_Githu<br>b](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-11-07 07:52:32|
+|2023-11-06 23:47:10|[ImHex](https://github.com/WerWolv/ImHex)|feat: Added Euclidean Algorithms tools|
+|2023-11-06 18:16:22|[grype](https://github.com/anchore/grype)|chore(deps): update bootstrap tools to latest versi<br>ons (#1584)  Signed-off-by: GitHub   Co-authored-by:<br> westonsteimel |
+|2023-11-06 16:33:02|[PST-Bucket](https://github.com/arch3rPro/PST-Bucket)|easysrv: Update to version 2.0.1|
+|2023-11-06 16:29:00|[dbeaver](https://github.com/dbeaver/dbeaver)|dbeaver/pro#2063 NIO FS events propogation fix (#21<br>752)  * dbeaver/pro#2063 NIO FS events propogation f<br>ix    * dbeaver/pro#2064 FS node type fix    * dbeav<br>er/pro#2063 Node type model extension    * dbeaver/p<br>ro#2063 Browse from here fix|
+|2023-11-06 15:15:18|[RsaCtfTool](https://github.com/RsaCtfTool/RsaCtfTool)|sed -e 's/uncipher/decipher/g'|
+|2023-11-06 14:38:58|[v2rayA](https://github.com/v2rayA/v2rayA)|chore: upgrade node-ipc|
+|2023-11-06 14:27:30|[iDefender](https://github.com/wecooperate/iDefender)|update|
+|2023-11-06 14:23:46|[syft](https://github.com/anchore/syft)|chore(deps): update tools to latest versions (#2289<br>)  Signed-off-by: GitHub   Co-authored-by: spiffcs |
+|2023-11-06 13:56:48|[afrog](https://github.com/zan8in/afrog)|fix set-cookie|
+|2023-11-06 12:37:57|[v2rayfree](https://github.com/aiboboxx/v2rayfree)|update|
+|2023-11-06 12:36:03|[rustdesk](https://github.com/rustdesk/rustdesk)|fix ci|
+|2023-11-06 08:29:49|[safeline](https://github.com/chaitin/safeline)|feat: upgrade version to 3.10.3|
+|2023-11-06 07:48:49|[FreeRDP](https://github.com/FreeRDP/FreeRDP)|[client,sdl] clear screen on resize  * clear screen<br> on window resize * redraw window on window resize|
+|2023-11-06 04:55:08|[trivy](https://github.com/aquasecurity/trivy)|docs: add info that license scanning supports file-<br>patterns flag (#5484)  Co-authored-by: Teppei Fukuda<br> |
+|2023-11-06 03:46:07|[404StarLink](https://github.com/knownsec/404StarLink)|weekly update at 2023-11-06|
+|2023-11-06 03:24:23|[vulnerability](https://github.com/lal0ne/vulnerability)|CVE-2023-46604|
+|2023-11-06 02:51:48|[frp](https://github.com/fatedier/frp)|Code refactoring related to message handling and re<br>try logic. (#3745)|
+|2023-11-06 02:32:31|[FrameVul](https://github.com/Awrrays/FrameVul)|Update README.md|
 |2023-11-05 09:12:49|[OneScan](https://github.com/vaycore/OneScan)|更新说明文档|
 |2023-11-05 08:22:46|[CTF-QuickStart](https://github.com/ProbiusOfficial/CTF-QuickStart)|Update README.md|
 |2023-11-05 06:27:53|[Umi-OCR](https://github.com/hiroi-sora/Umi-OCR)|Merge branch 'main' of https://github.com/hiroi-sor<br>a/Umi-OCR  # Conflicts: # README.md|
@@ -42,38 +56,26 @@
 |2023-11-05 03:49:11|[K8tools](https://github.com/k8gege/K8tools)|Add files via upload|
 |2023-11-05 03:42:03|[Ladon](https://github.com/k8gege/Ladon)|Add files via upload|
 |2023-11-05 02:56:19|[neuvector](https://github.com/neuvector/neuvector)|Merge pull request #1081 from becitsthere/dev  NVSH<br>AS-6739: ARM support for fanotify|
-|2023-11-04 13:22:23|[rustdesk](https://github.com/rustdesk/rustdesk)|Merge pull request #6285 from jxdv/sk-rs-update  up<br>date sk.rs|
 |2023-11-04 12:18:34|[audacity](https://github.com/audacity/audacity)|Merge commit '74050e8cd4051a3f73644ebba6c72d7d6f7df<br>a17' into master|
 |2023-11-04 11:26:49|[HackerPermKeeper](https://github.com/RuoJi6/HackerPermKeeper)|Update adduser_new_user.py|
-|2023-11-04 10:17:11|[safeline](https://github.com/chaitin/safeline)|feat: add dockerfile for whole site|
 |2023-11-04 03:19:34|[dperf](https://github.com/baidu/dperf)|Merge pull request #387 from pengjianzhang/main  fi<br>x: 1. compile warnnings,  2 don't clear sequences in<br> time-wait state|
-|2023-11-03 23:58:20|[trivy](https://github.com/aquasecurity/trivy)|chore(deps): bump github.com/aws/aws-sdk-go-v2/serv<br>ice/sts from 1.23.2 to 1.25.0 (#5506)  Signed-off-by<br>: dependabot[bot]  Co-authored-by: dependabot[bot] |
 |2023-11-03 20:32:39|[Mobile-Security-F<br>ramework-MobSF](https://github.com/MobSF/Mobile-Security-Framework-MobSF)|Build(deps): Bump django from 4.1.12 to 4.1.13 (#22<br>82)  Bumps  from 4.1.12 to 4.1.13.  -     ---  updat<br>ed-dependencies:  - dependency-name: django    depen<br>dency-type: direct:production  ...    Signed-off-by:<br> dependabot[bot]   Co-authored-by: dependabot[bot] |
-|2023-11-03 18:47:09|[syft](https://github.com/anchore/syft)|Use case-insensitive matching for Go license files <br>(#2286)  Signed-off-by: Mark Severson |
 |2023-11-03 16:33:42|[kube-bench](https://github.com/aquasecurity/kube-bench)|build(deps): bump golang from 1.21.1 to 1.21.3 (#15<br>07)  Bumps golang from 1.21.1 to 1.21.3.    ---  upd<br>ated-dependencies:  - dependency-name: golang    dep<br>endency-type: direct:production    update-type: vers<br>ion-update:semver-patch  ...    Signed-off-by: depen<br>dabot[bot]   Co-authored-by: dependabot[bot]   Co-au<br>thored-by: chenk |
-|2023-11-03 16:31:34|[PST-Bucket](https://github.com/arch3rPro/PST-Bucket)|goby: Update to version 2.7.9|
-|2023-11-03 16:06:43|[dbeaver](https://github.com/dbeaver/dbeaver)|NPE fix|
 |2023-11-03 14:30:49|[impacket](https://github.com/fortra/impacket)|start remote registry as unprivileged user in reg.p<br>y (#1638)  * start remote registry as unprivileged u<br>ser in reg.py    Trigger the start of the RemoteRegi<br>stry service as unprivileged user by opening the win<br>reg named pipe.    * enable access to HKEY_USERS tro<br>ugh reg.py|
-|2023-11-03 11:43:25|[FreeRDP](https://github.com/FreeRDP/FreeRDP)|[core] VirtualChannelChunkSize adjustments  * add C<br>HANNEL_CHUNK_MAX_LENGTH * remove duplicate definitio<br>ns * default to CHANNEL_CHUNK_MAX_LENGTH|
 |2023-11-03 10:51:38|[appshark](https://github.com/bytedance/appshark)|Merge pull request #50 from firmianay/dev  add Mani<br>festRisk|
 |2023-11-03 10:38:55|[feroxbuster](https://github.com/epi052/feroxbuster)|added test for robots/--dont-extract-links|
 |2023-11-03 06:26:55|[pingtunnel](https://github.com/esrrhs/pingtunnel)|delete|
 |2023-11-03 06:25:59|[all-in-one-v2](https://github.com/zaivanza/all-in-one-v2)|update reqs|
 |2023-11-03 03:27:51|[vulhub](https://github.com/vulhub/vulhub)|Merge pull request #465 from za/update-readme-cve-2<br>022-34265|
-|2023-11-03 03:00:45|[iDefender](https://github.com/wecooperate/iDefender)|update|
 |2023-11-03 01:51:33|[BerylEnigma](https://github.com/ffffffff0x/BerylEnigma)|节点添加可显示/隐藏属性|
 |2023-11-03 01:07:55|[ObserverWard](https://github.com/0x727/ObserverWard)|Merge pull request #211 from 0x727/dependabot/cargo<br>/csv-1.3.0  Bump csv from 1.2.2 to 1.3.0|
 |2023-11-02 19:35:52|[Vuln-List](https://github.com/wwl012345/Vuln-List)|Update 中间件&框架&平台&第三方服务漏洞.md|
-|2023-11-02 19:25:48|[grype](https://github.com/anchore/grype)|Incorporate format API changes from syft (#1582)  *<br> incorporate changes from anchore/syft#2228    Signe<br>d-off-by: Alex Goodman     * fix testing utils to us<br>e syft SBOM    Signed-off-by: Alex Goodman     -----<br>----    Signed-off-by: Alex Goodman |
 |2023-11-02 14:33:19|[nuclei](https://github.com/projectdiscovery/nuclei)|Merge branch 'dev'|
 |2023-11-02 10:49:48|[Elkeid](https://github.com/bytedance/Elkeid)|Merge pull request #548 from askyLYZ/main  baseline<br> task bug fix|
 |2023-11-02 07:13:39|[WebGoat](https://github.com/WebGoat/WebGoat)|chore: bump org.apache.maven.plugins:maven-checksty<br>le-plugin (#1640)  Bumps  from 3.3.0 to 3.3.1.  -   <br>  ---  updated-dependencies:  - dependency-name: org<br>.apache.maven.plugins:maven-checkstyle-plugin    dep<br>endency-type: direct:production    update-type: vers<br>ion-update:semver-patch  ...    Signed-off-by: depen<br>dabot[bot]   Co-authored-by: dependabot[bot] |
 |2023-11-02 02:34:34|[Awesome-Redteam](https://github.com/Threekiii/Awesome-Redteam)|更新README.md|
 |2023-11-01 18:26:33|[faker](https://github.com/joke2k/faker)|Bump version: 19.12.1 → 19.13.0|
-|2023-11-01 14:37:12|[afrog](https://github.com/zan8in/afrog)|update|
 |2023-11-01 13:54:19|[ChatGPT-Shortcut](https://github.com/rockbenben/ChatGPT-Shortcut)|style: Optimize the style of the favor icon for log<br>ged-out users|
-|2023-11-01 13:32:29|[RsaCtfTool](https://github.com/RsaCtfTool/RsaCtfTool)|Merge pull request #464 from crypto-vbg/patch-3  Up<br>date abstract_attack.py|
-|2023-11-01 09:06:55|[frp](https://github.com/fatedier/frp)|frpc: exit with code 1 if first login failed (#3740<br>)|
 |2023-11-01 04:18:55|[java-memshell-gen<br>erator-release](https://github.com/pen4uin/java-memshell-generator-release)|archived|
 |2023-10-31 14:16:15|[sqlmap](https://github.com/sqlmapproject/sqlmap)|Fixes #5560|
 |2023-10-31 12:02:27|[mitaka](https://github.com/ninoseki/mitaka)|Merge pull request #762 from ninoseki/renovate/npm-<br>zod-vulnerability  fix(deps): update dependency zod <br>to v3.22.3 [security]|
@@ -81,7 +83,6 @@
 |2023-10-30 16:02:15|[clair](https://github.com/quay/clair)|contrib: simplify openshift/pr_check.sh  This scrip<br>t is used in the pipeline for the quay.io Clair inst<br>ance. All the real CI is done in GitHub Actions, so <br>this is just to make that process' happy.  Signed-of<br>f-by: Hank Donnay |
 |2023-10-30 08:28:08|[beef](https://github.com/beefproject/beef)|Locking otr-activerecord to version 2.1.2 until we <br>can fix the bugs with the later version|
 |2023-10-30 03:15:51|[CTFd](https://github.com/CTFd/CTFd)|Merge pull request #2419 from Nils1729/fix/dynamic-<br>challenge-next  * Fix missing next_id on dynamic cha<br>llenges  * Closes #2418.|
-|2023-10-30 03:03:25|[404StarLink](https://github.com/knownsec/404StarLink)|weekly update at 2023-10-30|
 |2023-10-30 01:25:20|[Awesome-POC](https://github.com/Threekiii/Awesome-POC)|更新漏洞|
 |2023-10-30 01:24:55|[Vulnerability-Wik<br>i](https://github.com/Threekiii/Vulnerability-Wiki)|更新漏洞|
 |2023-10-29 18:49:03|[malwoverview](https://github.com/alexandreborges/malwoverview)|Malwoverview|
@@ -91,7 +92,6 @@
 |2023-10-28 01:11:30|[DecoyMini](https://github.com/decoymini/DecoyMini)|Update README.md|
 |2023-10-27 08:53:20|[arthas](https://github.com/alibaba/arthas)|update ognl website url|
 |2023-10-26 08:19:35|[murphysec](https://github.com/murphysecurity/murphysec)|feat(cmd): add flag --only-task-id|
-|2023-10-26 02:54:29|[vulnerability](https://github.com/lal0ne/vulnerability)|CVE-2023-34051|
 |2023-10-25 12:16:45|[rengine](https://github.com/yogeshojha/rengine)|Merge pull request #1020 from AnonymousWP/bump-to-2<br>.0.1  fix(versioning): bump version number to 2.0.1|
 |2023-10-25 07:56:46|[RmTools](https://github.com/RoomaSec/RmTools)|Update README.md|
 |2023-10-25 07:55:45|[RmEye](https://github.com/RoomaSec/RmEye)|Update readme.md|
@@ -100,11 +100,7 @@
 |2023-10-24 05:02:08|[ghauri](https://github.com/r0oth3x49/ghauri)|added support/donation page..|
 |2023-10-24 04:45:51|[goproxy](https://github.com/snail007/goproxy)|Update ISSUE_TEMPLATE.md|
 |2023-10-23 16:02:10|[ThunderSearch](https://github.com/xzajyjs/ThunderSearch)|fix checkUpdate bug|
-|2023-10-23 13:41:49|[autoDecoder](https://github.com/f0ng/autoDecoder)|Update README.md|
-|2023-10-23 00:50:56|[FrameVul](https://github.com/Awrrays/FrameVul)|Update README.md|
-|2023-10-22 19:16:13|[MemProcFS](https://github.com/ufrisk/MemProcFS)|Version 5.8.15|
-|2023-10-22 14:34:24|[ffuf](https://github.com/ffuf/ffuf)|Fixed setting unlimited rate in interactive console<br> (#748)  * Fixed setting unlimited rate in interacti<br>ve console    * Add changelog entry|
-|2023-10-22 10:02:32|[captcha-killer-mo<br>dified](https://github.com/f0ng/captcha-killer-modified)|Add files via upload|## 所有项目
+|2023-10-23 13:41:49|[autoDecoder](https://github.com/f0ng/autoDecoder)|Update README.md|## 所有项目
 # 渗透测试
 ## 信息收集
 ### 资产测绘采集
@@ -353,7 +349,7 @@
 #### 容器安全扫描
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
-| [trivy](https://github.com/aquasecurity/trivy) | v0.46.1 | Find vulnerabilities, misconfigurations, secrets, SBOM in cont<br>ainers, Kubernetes, code repositories, clouds and more |
+| [trivy](https://github.com/aquasecurity/trivy) | v0.47.0 | Find vulnerabilities, misconfigurations, secrets, SBOM in cont<br>ainers, Kubernetes, code repositories, clouds and more |
 #### 容器镜像扫描
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
