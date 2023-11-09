@@ -299,6 +299,7 @@
             JWT:
                 - https://github.com/ticarpi/jwt_tool
                 - https://github.com/hahwul/jwt-hack
+                - https://github.com/Aiyflowers/JWT_GUI
             DOS:
                 - https://github.com/shekyan/slowhttptest
             文件包含:
@@ -590,6 +591,7 @@
             - https://github.com/mandiant/commando-vm
             - https://github.com/arch3rPro/PST-Bucket
             - https://github.com/mrl64/okfafu-pentestVM-public
+            - https://github.com/Zhao-sai-sai/Online_tools
         知识库:
             - https://github.com/makoto56/penetration-suite-toolkit
             - https://github.com/Threekiii/Awesome-Redteam
@@ -759,6 +761,9 @@
             - https://github.com/SleepingBag945/frpCracker
 CTF:
     杂项:
+        二维码批量识别:
+            - https://github.com/zfb132/QrScan
+            
         自动拼图:
             - https://github.com/JamesHoi/PuzzleSolver
         图片隐写:
@@ -769,11 +774,12 @@ CTF:
                 - https://github.com/zR00t1/ImageStrike
                 - https://github.com/dhsdshdhk/stegpy
                 - https://github.com/7thSamurai/steganography
+                - https://github.com/frankthetank-music/Acropalypse-Multi-Tool
+                - https://github.com/ImageMagick/ImageMagick
                 
             图片盲水印:
                 - https://github.com/ww23/BlindWatermark
                 - https://github.com/chishaxie/BlindWaterMark
-                - https://github.com/ww23/BlindWatermark
                 - https://github.com/linyacool/blind-watermark
                 - https://github.com/guofei9987/blind_watermark
         流量分析:
@@ -806,6 +812,7 @@ CTF:
         音频隐写:
             - https://github.com/audacity/audacity
             - https://github.com/ribt/dtmf-decoder
+            - https://github.com/ON4QZ/QSSTV
         压缩文件分析:
             CRC爆破:
                 - https://github.com/AabyssZG/CRC32-Tools
@@ -824,6 +831,8 @@ CTF:
         Java反编译:
             - https://github.com/MountCloud/JavaDecompileTool-GUI
             - https://github.com/Ppsoft1991/CodeReviewTools
+        查壳:
+            - https://github.com/horsicq/DIE-engine
     WEB:
         敏感目录:
             - https://github.com/OrangeWatermelon/ctf-wscan
@@ -896,6 +905,7 @@ CTF:
             - https://github.com/Yamato-Security/WELA
         信息采集:
             - https://github.com/MountCloud/FireKylin
+            - https://github.com/SwiftOnSecurity/sysmon-config
     web日志分析:
         - https://github.com/minhangxiaohui/DecodeSomeJSPWebshell
         - https://github.com/r00tuser111/SerializationDumper-Shiro
@@ -1037,3 +1047,5 @@ CTF:
         - https://github.com/dotnetcore/FastGithub
     按键精灵:
         - https://github.com/taojy123/KeymouseGo
+    pppoe拦截:
+        - https://github.com/akkuman/pppoe-intercept
