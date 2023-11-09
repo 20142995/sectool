@@ -200,8 +200,8 @@
     "https://github.com/ycdxsb/PocOrExp_in_Github": {
         "created_at": "2021-04-13 05:46:16",
         "description": "聚合Github上已有的Poc或者Exp，CVE信息来自CVE官网。Auto Collect Poc Or Exp from Github by CVE ID.",
-        "commit_date": "2023-11-08 00:00:13",
-        "commit_message": "update 2023-11-08 08:00:13",
+        "commit_date": "2023-11-08 23:54:42",
+        "commit_message": "update 2023-11-09 07:54:42",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -1017,7 +1017,7 @@
     "https://github.com/wecooperate/iDefender": {
         "created_at": "2021-11-24 11:38:28",
         "description": "iDefender（冰盾 - 终端主动防御系统）",
-        "commit_date": "2023-11-06 14:27:30",
+        "commit_date": "2023-11-08 15:42:15",
         "commit_message": "update",
         "release_tag": "2.9.0",
         "release_date": "2023-07-19 02:37:26",
@@ -1888,8 +1888,8 @@
     "https://github.com/hanc00l/nemo_go": {
         "created_at": "2021-07-29 08:13:25",
         "description": "Nemo是用来进行自动化信息收集的一个简单平台，通过集成常用的信息收集工具和技术，实现对内网及互联网资产信息的自动收集，提高隐患排查和渗透测试的工作效率。",
-        "commit_date": "2023-10-05 09:15:01",
-        "commit_message": "Fix: nemo的数据库导入sql文件在key_word表里增加的字段",
+        "commit_date": "2023-11-08 06:32:16",
+        "commit_message": "Update: 一些测试用例信息",
         "release_tag": "v2.10.2",
         "release_date": "2023-09-28 14:33:58",
         "release_message": "\r\n### Update\r\n\r\n- 信息收集全面支持ipv6！"
@@ -2248,8 +2248,8 @@
     "https://github.com/epi052/feroxbuster": {
         "created_at": "2020-08-22 15:36:19",
         "description": "A fast, simple, recursive content discovery tool written in Rust.",
-        "commit_date": "2023-11-03 10:38:55",
-        "commit_message": "added test for robots/--dont-extract-links",
+        "commit_date": "2023-11-08 11:22:00",
+        "commit_message": "add http/2 support (#1020)\n\n* added http/2 support\r\n* updated deps",
         "release_tag": "v2.10.0",
         "release_date": "2023-05-06 13:19:20",
         "release_message": "## What's Changed\r\n* Adds server and client certificate management; enables mTLS by @lavafroth in https://github.com/epi052/feroxbuster/pull/892\r\n    * `--server-certs`\r\n    * `--client-cert`\r\n    * `--client-key` \r\n\r\n## New Contributors\r\n* @lavafroth made their first contribution in https://github.com/epi052/feroxbuster/pull/892 :tada: \r\n\r\n**Full Changelog**: https://github.com/epi052/feroxbuster/compare/v2.9.5...v2.10.0"
@@ -2390,8 +2390,8 @@
     "https://github.com/PeiQi0/PeiQi-WIKI-Book": {
         "created_at": "2022-03-12 12:38:56",
         "description": "面向网络安全从业者的知识文库🍃",
-        "commit_date": "2023-08-28 07:37:55",
-        "commit_message": "Update README.md",
+        "commit_date": "2023-11-08 06:09:01",
+        "commit_message": "Merge branch 'main' of github.com:PeiQi0/PeiQi-WIKI-Book",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -2951,8 +2951,8 @@
     "https://github.com/dbeaver/dbeaver": {
         "created_at": "2015-10-21 08:26:28",
         "description": "Free universal database tool and SQL client",
-        "commit_date": "2023-11-07 14:33:23",
-        "commit_message": "CB-3971 add main auth flag (#21751)\n\nCo-authored-by: Daria Marutkina <125263541+dariamarutkina@users.noreply.github.com>",
+        "commit_date": "2023-11-08 21:00:35",
+        "commit_message": "Merge remote-tracking branch 'origin/devel' into devel",
         "release_tag": "23.2.4",
         "release_date": "2023-11-05 17:31:13",
         "release_message": "\n                - SQL editor:\n                    - Code completion for update statements was added\n                    - Smart completion and replacements of quoted expressions was fixed\n                    - Redundant errors on opening SQL Editor for the first time were removed from the logs\n                - Database Navigator:\n                    - Filtered objects visualization was added\n                    - Script folder opening was fixed\n                - Data transfer:\n                    - Attributes names for quoted attributes are handled correctly\n                    - \"Copy as HTML\" result presentation is improved\n                - Data editor:\n                    - Background color reset was fixed\n                    - Message about content representation size limit was fixed\n                    - App freeze in binary editor was fixed (MacOS)\n                - ER diagrams: one-to-one connection rendering was fixed\n                - Connections:\n                    - SSH connection page validation is enhanced for jump servers\n                    - Complex JDBC driver support was improved (context classloader + driver cache)\n                - General:\n                    - Script names are sorted alphabetically\n                    - Refresh button was added to the ‘Generate DDL’ dialog\n                    - Issue with app launch was fixed (rare case)\n                - Databases:\n                    - Oracle: search package bodies as packages was supported\n                    - PostgreSQL:\n                        - Default privileges presentation and editing was supported\n                        - Sequences permissions reading for quoted roles was fixed\n                    - SQLite: required columns creating was fixed\n            "
@@ -3406,8 +3406,8 @@
     "https://github.com/bit4woo/domain_hunter_pro": {
         "created_at": "2019-01-18 07:15:15",
         "description": "domain_hunter的高级版本，SRC挖洞、HW打点之必备！自动化资产收集；快速Title获取；外部工具联动；等等",
-        "commit_date": "2023-11-07 11:03:43",
-        "commit_message": "Update WebIcon.java",
+        "commit_date": "2023-11-08 08:11:34",
+        "commit_message": "update",
         "release_tag": "v1.9",
         "release_date": "2023-04-18 00:34:58",
         "release_message": "全局：\r\n多个bug修复\r\n布局模式优化\r\n基础方法实现逻辑优化\r\n\r\n右键菜单：\r\n“Do Search”提供主动在制定请求中进行搜索的能力，比如在某企业邮箱的流量中搜索以提取邮箱地址\r\n“Add Request And Comment”右键菜单添逻辑优化，修复一个bug\r\n“Send To Tool Panel”右键菜单处理逻辑优化，可合并发送多个数据包内容\r\n\r\nDomain面板：\r\nroot domain的comments逻辑更新\r\n提供多个网络搜索引擎的后台自动搜索功能\r\nroot domain双击，自动在浏览器中访问\r\n修改目标根域名删除失败的bug\r\n显示序号，以便在排序后恢复原始顺序\r\n\r\nTool面板：\r\n重写JTextArea的paste函数，避免大内容导致程序卡死\r\nJTextArea支持输入文件，而程序处理其内容。\r\n文本取提供简单的历史记录功能\r\nJSON提取逻辑优化\r\n新增多个功能，比如排序\r\n优化URL提取逻辑，避免遗漏没有以/开头的path\r\n\r\nTitle面板中：\r\n端口扫描命令生成逻辑优化\r\n备注和IP内容的显示优化，显示前排序\r\n备注添加逻辑优化\r\n给手动添加的记录添加已知的IP和CNAME、CertInfo\r\n搜索功能增强，支持对数字型字段进行大于、小于、等于等搜索\r\n添加多个搜索实例，以便用户熟悉搜索语法\r\n新增“Do Request Item Again”菜单，对DNS记录或无响应的数据包进行再次请求"
@@ -3908,8 +3908,8 @@
     "https://github.com/anchore/syft": {
         "created_at": "2020-05-07 18:19:29",
         "description": "CLI tool and library for generating a Software Bill of Materials from container images and filesystems",
-        "commit_date": "2023-11-07 16:33:06",
-        "commit_message": "chore: setup release task before calling go releaser (#2297)\n\n* chore: update release command to use config at repo root\r\n\r\n---------\r\n\r\nSigned-off-by: Christopher Phillips <christopher.phillips@anchore.com>",
+        "commit_date": "2023-11-08 23:13:04",
+        "commit_message": "include image labels in cycloneDX SBOM (#2294)\n\n* include image labels in SBOM\r\n\r\nSigned-off-by: Benji Visser <benji@093b.org>\r\n\r\n* update tests\r\n\r\nSigned-off-by: Benji Visser <benji@093b.org>\r\n\r\n* gocritic\r\n\r\nSigned-off-by: Benji Visser <benji@093b.org>\r\n\r\n* add properties\r\n\r\nSigned-off-by: Benji Visser <benji@093b.org>\r\n\r\n* add decoder\r\n\r\nSigned-off-by: Benji Visser <benji@093b.org>\r\n\r\n* update golden snapshots\r\n\r\nSigned-off-by: Benji Visser <benji@093b.org>\r\n\r\n* decodeProperties\r\n\r\nSigned-off-by: Benji Visser <benji@093b.org>\r\n\r\n* add test\r\n\r\nSigned-off-by: Alex Goodman <wagoodman@users.noreply.github.com>\r\n\r\n* remove the snapshot test changes\r\n\r\nSigned-off-by: Alex Goodman <wagoodman@users.noreply.github.com>\r\n\r\n* restore snapshots\r\n\r\nSigned-off-by: Alex Goodman <wagoodman@users.noreply.github.com>\r\n\r\n---------\r\n\r\nSigned-off-by: Benji Visser <benji@093b.org>\r\nSigned-off-by: Alex Goodman <wagoodman@users.noreply.github.com>\r\nCo-authored-by: Alex Goodman <wagoodman@users.noreply.github.com>",
         "release_tag": "v0.95.0",
         "release_date": "2023-11-07 16:49:49",
         "release_message": "### Added Features\r\n\r\n- Use case-insensitive matching for Go license files [[#2286](https://github.com/anchore/syft/pull/2286) @miquella]\r\n- Add conaninfo.txt parser to detect conan packages in docker images [[#2234](https://github.com/anchore/syft/pull/2234) @Pro]\r\n- Perform case insensitive matching on Java License files [[#2235](https://github.com/anchore/syft/pull/2235) @coheigea]\r\n- Read a license from a parent pom stored in Maven Central [[#2228](https://github.com/anchore/syft/pull/2228) @coheigea]\r\n- Add PURLs when scanning Gradle lock files [[#2278](https://github.com/anchore/syft/pull/2278) @robbiev]\r\n\r\n\r\n### Bug Fixes\r\n\r\n- Fix CPE index workflow [[#2252](https://github.com/anchore/syft/pull/2252) @wagoodman]\r\n- Fix cpe generation task [[#2270](https://github.com/anchore/syft/pull/2270) @willmurphyscode]\r\n- Introduce cataloger naming conventions [[#1578](https://github.com/anchore/syft/issues/1578) [#2277](https://github.com/anchore/syft/pull/2277) @wagoodman]\r\n- .NET / nuget - invalid SBOM generated after parsing [[#2255](https://github.com/anchore/syft/issues/2255) [#2273](https://github.com/anchore/syft/pull/2273) @spiffcs]\r\n- Wrong parsing after v0.85.0 syft for some components [[#2241](https://github.com/anchore/syft/issues/2241) [#2273](https://github.com/anchore/syft/pull/2273) @spiffcs]\r\n- SPDX-2.3 is misidentified as SPDX-2.2 [[#2112](https://github.com/anchore/syft/issues/2112) [#2186](https://github.com/anchore/syft/pull/2186) @wagoodman]\r\n- Jar parser chokes on empty lines [[#2179](https://github.com/anchore/syft/issues/2179) [#2254](https://github.com/anchore/syft/pull/2254) @spiffcs]\r\n- Add a new Java configuration option to recursively search parent poms… [[#2274](https://github.com/anchore/syft/pull/2274) @coheigea]\r\n- Fix directory resolver to always return virtual path [[#2259](https://github.com/anchore/syft/pull/2259) @wagoodman]\r\n- Syft can now handle the case of parsing a jar with multiple poms [[#2231](https://github.com/anchore/syft/pull/2231) @coheigea]\r\n- Add ruby.NewGemSpecCataloger to DirectoryCatalogers [[#1971](https://github.com/anchore/syft/pull/1971) @evanchaoli]\r\n\r\n### Breaking Changes\r\n\r\n- Introduce cataloger naming conventions [[#1578](https://github.com/anchore/syft/issues/1578) [#2277](https://github.com/anchore/syft/pull/2277) @wagoodman]\r\n- Remove MetadataType from the core package struct [[#1735](https://github.com/anchore/syft/issues/1735) [#1983](https://github.com/anchore/syft/pull/1983) @wagoodman]\r\n- Add convention for JSON metadata type names and port existing values to the new convention [[#1844](https://github.com/anchore/syft/issues/1844) [#1983](https://github.com/anchore/syft/pull/1983) @wagoodman]\r\n- Remove deprecated syft.Format functions [[#1344](https://github.com/anchore/syft/issues/1344) [#2186](https://github.com/anchore/syft/pull/2186) @wagoodman]\r\n\r\n### Additional Changes\r\n\r\n- Upgrade tool management [[#2188](https://github.com/anchore/syft/pull/2188) @wagoodman]\r\n- Fix homebrew post-release workflow [[#2242](https://github.com/anchore/syft/pull/2242) @wagoodman]\r\n\r\n**[(Full Changelog)](https://github.com/anchore/syft/compare/v0.94.0...v0.95.0)**\r\n\r\n"
@@ -3971,8 +3971,8 @@
     "https://github.com/aquasecurity/trivy": {
         "created_at": "2019-04-11 01:01:07",
         "description": "Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more",
-        "commit_date": "2023-11-07 23:40:42",
-        "commit_message": "refactor(misconf): don't remove Highlighted in json format (#5531)",
+        "commit_date": "2023-11-08 05:39:53",
+        "commit_message": "fix: fail k8s resource scanning (#5529)\n\nSigned-off-by: chenk <hen.keinan@gmail.com>",
         "release_tag": "v0.47.0",
         "release_date": "2023-11-06 06:41:17",
         "release_message": "## ⚡Release highlights and summary⚡\r\n\r\n👉 https://github.com/aquasecurity/trivy/discussions/5520\r\n\r\n## Changelog\r\n* d6df5fbcd docs: add info that license scanning supports file-patterns flag (#5484)\r\n* 156d4cc60 docs: add Zora integration into Ecosystem session (#5490)\r\n* 772d1d08f fix(sbom): Use UUID as BomRef for packages with empty purl (#5448)\r\n* df47073fa ci: use maximize build space for K8s tests (#5387)\r\n* fed471018 fix: correct error mismatch causing race in fast walks (#5516)\r\n* 46f1b9e7d docs: k8s vulnerability scanning (#5515)\r\n* fdb3a15b2 chore(deps): bump github.com/aws/aws-sdk-go-v2/service/sts from 1.23.2 to 1.25.0 (#5506)\r\n* d0d956fdc chore(deps): bump github.com/owenrumney/go-sarif/v2 from 2.2.2 to 2.3.0 (#5493)\r\n* 68b0797e5 docs: remove glad for java datasources (#5508)\r\n* 474167c47 chore(deps): bump github.com/testcontainers/testcontainers-go/modules/localstack from 0.21.0 to 0.26.0 (#5475)\r\n* 7299867c2 chore: remove unused logger attribute in amazon detector (#5476)\r\n* 8656bd9f7 fix: correct error mismatch causing race in fast walks (#5482)\r\n* 2e10cd2eb chore(deps): bump goreleaser/goreleaser-action from 4 to 5 (#5502)\r\n* 13df74652 chore(deps): bump docker/build-push-action from 4 to 5 (#5500)\r\n* b0141cfba chore(deps): bump github.com/package-url/packageurl-go from 0.1.2-0.20230812223828-f8bb31c1f10b to 0.1.2 (#5491)\r\n* 520830b51 fix(server): add licenses to `BlobInfo` message (#5382)\r\n* 9a6e125c7 chore(deps): bump actions/checkout from 4.1.0 to 4.1.1 (#5501)\r\n* 6e5927266 chore(deps): bump github.com/aws/aws-sdk-go-v2/service/ecr from 1.17.18 to 1.21.0 (#5497)\r\n* f3de7bc3b feat: scan vulns on k8s core component apps (#5418)\r\n* e2fb3dd58 fix(java): fix infinite loop when `relativePath` field points to `pom.xml` being scanned (#5470)\r\n* 3e833be7d chore(deps): bump github.com/docker/docker from 24.0.5+incompatible to 24.0.7+incompatible (#5472)\r\n* ca50b77a3 fix(sbom): save digests for package/application when scanning SBOM files (#5432)\r\n* 048150d43 docs: fix the broken link (#5454)\r\n* 013d90199 docs: fix error when installing `PyYAML` for gh pages (#5462)\r\n* 26b495954 fix(java): download java-db once (#5442)\r\n* 57fa701a8 chore(deps): bump google.golang.org/grpc from 1.57.0 to 1.57.1 (#5447)\r\n* 53c9a7d76 docs(misconf): Update `--tf-exclude-downloaded-modules` description (#5419)\r\n* 01c98d151 feat(misconf): Support `--ignore-policy` in config scans (#5359)\r\n* 05b3c86a1 docs(misconf): fix broken table for `Use container image` section (#5425)\r\n* 1a15a3adb feat(dart): add graph support (#5374)\r\n* f2a12f5f9 refactor: define a new struct for scan targets (#5397)\r\n* 6040d9f43 fix(sbom): add missed `primaryURL` and `source severity` for CycloneDX (#5399)\r\n* e5317c7bc fix: correct invalid MD5 hashes for rpms ending with one or more zero bytes (#5393)\r\n* 9fba79f0b chore(deps): move to aws-sdk-go-v2 (#5381)\r\n* 00f2059e5 docs: remove --scanners none (#5384)\r\n* 57a102231 docs: Update container_image.md #5182 (#5193)\r\n* 5b2b4ea38 feat(report): Add `InstalledFiles` field to Package (#4706)\r\n\r\n"
@@ -3980,8 +3980,8 @@
     "https://github.com/anchore/grype": {
         "created_at": "2020-05-26 13:44:38",
         "description": "A vulnerability scanner for container images and filesystems",
-        "commit_date": "2023-11-07 20:42:43",
-        "commit_message": "chore(deps): update Syft to v0.95.0 (#1591)",
+        "commit_date": "2023-11-08 20:17:01",
+        "commit_message": "fix: match against debian unstable (#1593)\n\nThis is done by special casing \"sid\" in the pretty name of \r\na Linux distro to point to the grype-db debian unstable namespace.\r\n\r\nSigned-off-by: Will Murphy <will.murphy@anchore.com>",
         "release_tag": "v0.73.0",
         "release_date": "2023-11-07 21:04:54",
         "release_message": "### Added Features\r\n\r\n- Add a reason field to ignore config [[#1337](https://github.com/anchore/grype/issues/1337) [#1532](https://github.com/anchore/grype/pull/1532) @shanduur]\r\n- Colorize severity in table output [[#225](https://github.com/anchore/grype/issues/225) [#1284](https://github.com/anchore/grype/pull/1284) @shanedell]\r\n\r\n### Bug Fixes\r\n\r\n- Enable setting golang CPE config using env var [[#1585](https://github.com/anchore/grype/pull/1585) @willmurphyscode]\r\n- Incorrect version comparisons for maven packages [[#1526](https://github.com/anchore/grype/issues/1526) [#1571](https://github.com/anchore/grype/pull/1571) @spiffcs]\r\n- Grype fails to detect postgresql jdbc driver CVEs when scanning .jar [[#1482](https://github.com/anchore/grype/issues/1482)]\r\n\r\n### Additional Changes\r\n\r\n- Incorporate format API changes from syft [[#1582](https://github.com/anchore/grype/pull/1582) @wagoodman]\r\n\r\n**[(Full Changelog)](https://github.com/anchore/grype/compare/v0.72.0...v0.73.0)**\r\n\r\n"
@@ -4277,7 +4277,7 @@
     "https://github.com/aiboboxx/v2rayfree": {
         "created_at": "2021-10-13 11:34:53",
         "description": "v2ray节点、免费节点、免费v2ray节点、最新公益免费v2ray节点订阅地址、免费v2ray节点每日更新、免费ss/v2ray/trojan节点、freefq ",
-        "commit_date": "2023-11-07 12:35:43",
+        "commit_date": "2023-11-08 12:35:43",
         "commit_message": "update",
         "release_tag": "",
         "release_date": "",
@@ -4322,8 +4322,8 @@
     "https://github.com/freefq/free": {
         "created_at": "2020-06-07 02:48:33",
         "description": "翻墙、免费翻墙、免费科学上网、免费节点、免费梯子、免费ss/v2ray/trojan节点、蓝灯、谷歌商店、翻墙梯子",
-        "commit_date": "2023-11-08 00:00:03",
-        "commit_message": "updated_at 11-08 08:00",
+        "commit_date": "2023-11-09 00:00:03",
+        "commit_message": "updated_at 11-09 08:00",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -4565,11 +4565,11 @@
     "https://github.com/r0oth3x49/ghauri": {
         "created_at": "2022-10-01 11:21:50",
         "description": "An advanced cross-platform tool that automates the process of detecting and exploiting SQL injection security flaws",
-        "commit_date": "2023-10-24 05:02:08",
-        "commit_message": "added support/donation page..",
-        "release_tag": "1.2.7",
-        "release_date": "2023-10-22 09:45:04",
-        "release_message": "Features:\r\n - added feature to update using command line when the ghauri cloned and installed from github using git: `--update`"
+        "commit_date": "2023-11-08 09:28:46",
+        "commit_message": "updated readme with latest version..",
+        "release_tag": "1.2.8",
+        "release_date": "2023-11-08 09:31:17",
+        "release_message": "### Fixes:\r\n - fixed issue #110 \r\n - fixed issue with payload encoding when injection is found in cookies."
     },
     "https://github.com/dalinvip/Awesome-ChatGPT": {
         "created_at": "2023-02-06 11:57:37",
@@ -4781,8 +4781,8 @@
     "https://github.com/zaivanza/all-in-one-v2": {
         "created_at": "2023-04-29 09:03:49",
         "description": "",
-        "commit_date": "2023-11-07 17:18:31",
-        "commit_message": "add links",
+        "commit_date": "2023-11-08 17:56:59",
+        "commit_message": "fix readme",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -5702,8 +5702,8 @@
     "https://github.com/fortra/impacket": {
         "created_at": "2015-04-15 14:04:07",
         "description": "Impacket is a collection of Python classes for working with network protocols.",
-        "commit_date": "2023-11-03 14:30:49",
-        "commit_message": "start remote registry as unprivileged user in reg.py (#1638)\n\n* start remote registry as unprivileged user in reg.py\r\n\r\nTrigger the start of the RemoteRegistry service as unprivileged user by opening the winreg named pipe.\r\n\r\n* enable access to HKEY_USERS trough reg.py",
+        "commit_date": "2023-11-08 16:08:28",
+        "commit_message": "Handle unknown NTSTATUS in SessionError (#1311)\n\n* Handle unknown NTSTATUS in SessionError\r\n\r\n* Handle unknown NTSTATUS in other places",
         "release_tag": "impacket_0_11_0",
         "release_date": "2023-08-03 17:36:40",
         "release_message": "## Impacket 0.11.0:\r\nProject's main page at https://www.coresecurity.com/core-labs/open-source-tools/impacket\r\n\r\nChangeLog for 0.11.0:\r\n1. Library improvements \r\n    * Added new Kerberos error codes (@ly4k).\r\n\t* Added `[MS-TSTS]` Terminal Services Terminal Server Runtime Interface Protocol implementation (@nopernik).\r\n    * Changed the setting up for new SSL connections (@mpgn, @CT-H00K and @0xdeaddood).\r\n    * Added a callback function to smbserver for incoming authentications (@p0dalirius).\r\n    * Fix crash in winregistry (@laxa)\r\n    * Fixes in IDispatch derived classes in comev implementation (@NtAlexio2)\r\n    * Fix CVE-2020-17049 in ccache.py (@godylockz)\r\n    * Smbserver: Added SMB2_FILE_ALLOCATION_INFO type determination (@JerAxxxxxxx)\r\n    * tds: Fixed python3 incompatibility when receiving over TLS socket (@exploide)\r\n    * crypto: Ensure passwords are utf-8 encoded before deriving Kerberos keys (@jojonas)\r\n    * ese: Fixed python3 incompatibility when reading from db (@alexisbalbachan)\r\n    * ldap queries: Escaped characters are now correctly parsed (@alexisbalbachan)\r\n    * Support SASL authentication in ldap protocol (@NtAlexio2)\r\n\r\n2. Examples improvements\r\n    * [GetADUsers.py](examples/GetADUsers.py), [GetNPUsers.py](examples/GetNPUsers.py), [GetUserSPNs.py](examples/GetUserSPNs.py) and [findDelegation.py](examples/findDelegation.py):\r\n      * Added dc-host option to connect to specific KDC using its FQDN or NetBIOS name (@rmaksimov and @0xdeaddood).\r\n    * [GetNPUsers.py](examples/GetNPUsers.py)\r\n      * Printing TGT in stdout despite -outputfile parameter (@alexisbalbachan and @Zamanry)\r\n      * Fixed output hash format for AES128/256 (etype 17/18) (@erasmusc)\r\n    * [GetUserSPNs.py](examples/GetUserSPNs.py):\r\n      * Added LDAP paged search (@ThePirateWhoSmellsOfSunflowers and @SAERXCIT).\r\n      * Added a -stealth flag to remove the SPN filter from the LDAP query (@clavoillotte).\r\n      * Improved searchFilter (@ShutdownRepo)\r\n      * Use LDAP paged search (@ThePirateWhoSmellsOfSunflowers)\r\n    * [psexec.py](examples/psexec.py):\r\n      * Added support for name customization using a custom binary file (@Dramelac).\r\n    * [smbexec.py](examples/smbexec.py):\r\n      * Security fixes for privilege escalation vulnerabilities (@bugch3ck).\r\n      * Fixed python3 compatibility issues, added workaround TCP over NetBIOS being disabled (@ljrk0)\r\n    * [secretsdump.py](examples/secretsdump.py):\r\n      * Added a new option to extract only NTDS.DIT data for specific users based on an LDAP filter (@snovvcrash).\r\n      * Security fixes for privilege escalation vulnerabilities (@bugch3ck).  \r\n    * [mssqlclient.py](examples/mssqlclient.py):\r\n      * Added multiple new commands. Now supports xp_dirtree execution (@Mayfly277, @trietend and @TurtleARM).\r\n    * [ntlmrelayx.py](examples/ntlmrelayx.py):\r\n      * Added ability to trigger SQLShell when running ntlmrelayx in interactive mode (@sploutchy).\r\n      * Added filter option to the socks command in ntlmrelayx CLI (@shoxxdj)\r\n      * Added ability to register DNS records through LDAP.\r\n    * [addcomputer.py](examples/addcomputer.py), [rbcd.py](examples/rbcd.py):\r\n      * Allow weak TLS ciphers for LDAP connections (@AdrianVollmer)\r\n    * [Get-GPPPassword.py](examples/Get-GPPPassword.py):\r\n      * Better handling of various XML files in Group Policy Preferences (@p0dalirius)\r\n    * [smbclient.py](examples/smbclient.py):\r\n      * Added recursive file listing (@Sq00ky)\r\n    * [ticketer.py](examples/ticketer.py):\r\n      * Ticket duration is now specified in hours instead of days (@Dramelac)\r\n      * Added extra-pac implementation (@Dramelac)\r\n\r\n3. New examples\r\n    * [net.py](examples/net.py) Implementation of windows net.exe builtin tool (@NtAlexio2)\r\n    * [changepasswd.py](examples/changepasswd.py) New example that allows password changing or reseting through multiple protocols (@Alef-Burzmali, @snovvcrash, @bransh, @api0cradle and @p0dalirius)\r\n    * [DumpNTLMInfo.py](examples/DumpNTLMInfo.py) New example that dumps remote host information in ntlm authentication model, without credentials. For SMB protocols v1, v2 and v3. (@NtAlexio2)\r\n    \r\nAs always, thanks a lot to all these contributors that make this library better every day (up to now):\r\n\r\n@ly4k @nopernik @snovvcrash @ShutdownRepo @kiwids0220 @mpgn @CT-H00K @rmaksimov @arossert @aevy-syn @tirkarthi @p0dalirius @Dramelac @Mayfly277 @S3cur3Th1sSh1t @nobbd @AdrianVollmer @trietend @TurtleARM @ThePirateWhoSmellsOfSunflowers @SAERXCIT @clavoillotte @Marshall-Hallenbeck @sploutchy @almandin @rtpt-alexanderneumann @JerAxxxxxxx @NtAlexio2 @laxa @godylockz @exploide @jojonas @Zamanry @erasmusc @bugch3ck @ljrk0 @Sq00ky @shoxxdj @Alef-Burzmali @bransh @api0cradle @alexisbalbachan @0xdeaddood @sanmopre\r\n"
@@ -6391,8 +6391,8 @@
     "https://github.com/WerWolv/ImHex": {
         "created_at": "2020-11-10 14:27:00",
         "description": "🔍 A Hex Editor for Reverse Engineers, Programmers and people who value their retinas when working at 3 AM.",
-        "commit_date": "2023-11-07 15:40:41",
-        "commit_message": "impr: Make sidebar look better",
+        "commit_date": "2023-11-08 20:57:19",
+        "commit_message": "fix: Force achievement popup to front",
         "release_tag": "v1.31.0",
         "release_date": "2023-09-24 18:52:41",
         "release_message": "## Additions\r\n- **Added a command line interface to ImHex.** Huge thanks to @iTrooz\r\n    - Get started by typing `imhex --help`\r\n- **Added initial support for .NET scripts**\r\n    - These scripts are meant to be a cross-platform way of performing automated actions.\r\n    - They cannot be used to add new features like native plugins can\r\n    - Special thanks to @PerikiyoXD for some really involved fixes around this\r\n- **Added Achievements**\r\n    - These are meant to provide an easy and fun way to learn and get used to ImHex\r\n    - The achievement window can be opened by going to Extras -> Achievement\r\n    - If you don't like the achievements and just want to use ImHex like before, open the achievements window and disable the popups there\r\n- Added a new and much nicer splash screen\r\n- Allow memory files to be saved to project files and be renamed\r\n    - Files can also be converted to memory files now\r\n- Added support for hashing arbitrary strings using the hashes view\r\n- Added built-in logging console\r\n- Allow hex editor data visualizers to be switched to big-endian mode\r\n- Upgraded to Capstone V5 finally\r\n- Encoding names are now being displayed in the header of the hex editor\r\n- Added a \"Update All\" button to the content store\r\n- Linux now uses the GTK filepicker whenever possible\r\n    - This should correct issues where the file picker didn't work correctly on some Linux systems by default\r\n    - The AppImage and Flatpak still use the Portals filepicker because it's necessary there\r\n- The hex editor editing mode is now being entered when pressing Enter\r\n- Added a setting to remember the current main window size and position\r\n- Added option to fill a selected region with bytes\r\n- Added option to switch between human-readable sizes and bytes in the hex editor footer. Thanks to @LennardF1989 \r\n- Removed Anonfiles file uploader. Rest in Peace ✝️\r\n- Added windo actions popup when clicking on the header icon\r\n- Added authors and descriptions to things in the content store\r\n- Added shortcuts to switch between providers, evaluate patterns and interact with the pattern debugger\r\n\r\n## Improvements\r\n- Improved the data information diagrams look and field\r\n- Multi-window support is now being disabled properly by default on Linux\r\n- Plugins are now being loaded asynchronously to improve startup times\r\n- Pattern console is automatically scrolled to the bottom now when new lines are being added\r\n- Unidentifiable data is being handled better now in the data information view\r\n- Allow hex editor view to be scrolled slightly past the end\r\n- Made demangler results selectable and copyable\r\n- Timestamp of files is being updated correctly now on Windows. Thanks to @lorsanta \r\n- ImHex should now exit cleanly when crashing\r\n- Bytes per row count setting in the hex editor is being remembered now. Thanks to @LennardF1989 \r\n\r\n## Bug Fixes\r\n- Fixed raw disk provider not working correctly on non-windows platforms. Thanks a lot to @Nowilltolife \r\n- Fixed disassembler view not clearning selection when typing in the region field\r\n- Fixed page count displaying wrongly in empty files\r\n- Fixed crash when trying to paste bytes without a selection\r\n- Fixed occasional crash when evaluating patterns\r\n- Fixed scaling not being applied properly in some cases\r\n- Fixed bookmarks not being loaded correctly from project files\r\n- Fixed menu bar being scrollable sideways\r\n- Fixed loading projects when an existing project is loaded already\r\n- Fixed issues where the cursor started flickering when hovering certain elements\r\n- Fixed crash when clicking on \"Open in new view\" in a bookmark\r\n- Fixed occasional crash when loading incorrect data processor node files\r\n- Fixed writing to non-zero pages in the hex editor when a custom base address has been set\r\n- Fixed issue where libmagic dumped a bunch of compiled files into the cwd on Linux and macOS. Thanks to @iTrooz \r\n- Fixed endianess of all CRC hashes\r\n- Fixed highest/lowest entropy block address in the data information view being wrong\r\n- Fixed issue where downloading items from the store was suceptible for path traversal. Thanks to @iTrooz \r\n- Fixed various data processor issues\r\n\r\n## Pattern Language\r\n- Added `typenameof` operator\r\n- Added `[[hex::favorite]]` attribute to mark patterns as favorites directly\r\n- Added `[[hex::group]]` attribute to add patterns to custom groups in the pattern data view\r\n- Added single-stepping feature to pattern debugger\r\n- Added coordinates visualizer\r\n- Added timestamp visualizer\r\n- Images in the pattern image and bitmap visualizer can now be scaled\r\n- Added various new inline visualizers such as \"color\", \"guage\" and \"button\"\r\n- Format functions are no longer being evaluated during highlighting\r\n- Sections without a name are being hidden now and treated as \"internal\" sections\r\n- Added `[[hex::spec_name]]` attribute to document names for pattern variables taken from the documentation\r\n- Added string in/out variables\r\n- Fixed issue where pattern local variables sometimes allocated huge amounts of memory\r\n\r\n![image](https://github.com/WerWolv/ImHex/assets/10835354/9bcaf682-ed02-4e3d-9d06-0c55a1ddc030)\r\n\r\n\r\n<br/>\r\n\r\n<p align=\"center\">If you like my work, please consider supporting me on GitHub Sponsors, Patreon or PayPal. Thanks a lot!</p>\r\n<p align=\"center\">\r\n<a href=\"https://github.com/sponsors/WerWolv\"><img src=\"https://werwolv.net/assets/github_banner.png\" alt=\"GitHub donate button\" /> </a>\r\n<a href=\"https://www.patreon.com/werwolv\"><img src=\"https://c5.patreon.com/external/logo/become_a_patron_button.png\" alt=\"Patreon donate button\" /> </a>\r\n<a href=\"https://werwolv.net/donate\"><img src=\"https://werwolv.net/assets/paypal_banner.png\" alt=\"PayPal donate button\" /> </a>\r\n</p"
@@ -6427,11 +6427,11 @@
     "https://github.com/audacity/audacity": {
         "created_at": "2015-03-26 10:46:17",
         "description": "Audio Editor                                     ",
-        "commit_date": "2023-11-07 10:30:00",
-        "commit_message": "Merge remote-tracking branch 'audacity/release-3.4.1' into master...\n\n... Conflicts:\n    CMakeLists.txt",
-        "release_tag": "Audacity-3.4.0",
-        "release_date": "2023-11-02 16:46:16",
-        "release_message": "Audacity 3.4 adds a musical view, time stretching and a new exporter.\r\n\r\n ## Major changes\r\n   * Music workflows\r\n     Audacity now features several music related features, such as switching between hh:mm:ss time and Beats & Measures, and time-stretching clips to align them to a song's tempo. \r\n   * Time stretching\r\n     Hold Alt (macOS: Option) while hovering over the top third of a clip edge to stretch it. \r\n   * New exporter\r\n     Audacity now features a new export window with easier access to options such as sample rate and custom mapping (for 5.1 or 7.1 audio). Additionally, the \"Browse\" button uses the native file browser now!\r\n\r\n ## Other changes\r\n   * For MP3, Audacity now always uses Joint Stereo mode, which always delivers the best possible quality.\r\n   * #4720 Simplified pasting logic.\r\n   * Simplified stereo tracks. Left and right channels now always have synchronized clip starts and ends, and the same sample rate in both channels. \r\n   * #5014 Added cursors trimming and stretching left and right, and changed the I-beam cursor to be less similar to either.\r\n   * #4448 When importing audio, the project sample rate no longer changes.\r\n   * #5204 The spectrogram colors are now perceptually uniform, and the colormap has gotten a name: Roseus. It also can be used for dataviz outside of Audacity, see https://github.com/dofuuz/roseus for more info! (Thanks, Myungchul Keum)\r\n   * New defaults: The Time Signature toolbar now gets shown, the solo button is set to multi-track mode, time tracks have a wider starting range.\r\n   * #5291 Unsquished the Audacity logo found in some places of the app.\r\n   * #2330 Clicking on the border of two clips no longer merges them.\r\n   * #2530 Overdubbing on Windows fails with WASAPI with default Recording device.\r\n   * #443 Built-in Opus support.\r\n\r\n ## Libraries\r\n   * lib-time-and-pitch implements a time stretching algorithm originating in Staffpad.\r\n   * Audacity now uses Conan 2.\r\n   * Continued extracting code into libraries and modules, especially in the context of importing and exporting.\r\n\r\n ## Bug fixes\r\n   * #3778 --nogap metadata no longer is ignored.\r\n   * #4410 fixed a crash with LV2 plugins (thanks jfroyall!).\r\n   * #2471 #4798 fixed some crashes related to macros.\r\n   * #4769 fixed a crash when pasting in certain configurations.\r\n   * #4677 Accessibility: GUI can be disabled again for VST2 plugins (thanks, David Bailes!).\r\n   * #4988 Accessibility: Restored window control IDs, improving NVDA compatibility (thanks again, David Bailes!).\r\n   * #4872 fixed a crash on launch on OSX 10.9 (thanks, René Bertin!)."
+        "commit_date": "2023-11-08 14:21:17",
+        "commit_message": "Merge branch 'release-3.4.1'",
+        "release_tag": "Audacity-3.4.1",
+        "release_date": "2023-11-08 17:22:30",
+        "release_message": " This is a hotfix release. It fixes the following bugs:\r\n\r\n * #5467 Fix 24-bit recording.\r\n * #5488 Fix a crash with .aup importing.\r\n * #5471 #5483 Fix crossfading of clips and tracks.\r\n * #5473 Exporting multiple files honors sample rate settings again.\r\n * #5480 #5417 Fix crashes related to external program exports.\r\n * #5479 #5476 Fix BSD and ARM builds.\r\n * #5498 Ctrl+J is now a standard shortcut for joining clips.\r\n * #5389 Stereo tracks no longer randomly split into mono.\r\n * #5007 When exporting a file, the file extension is now always added (except for custom FFmpeg and external program exports).\r\n * #5516 Fix a crash when exporting Opus with older CPUs that don't support AVX."
     },
     "https://github.com/0Chencc/CTFCrackTools": {
         "created_at": "2016-08-26 08:19:35",
@@ -6508,8 +6508,8 @@
     "https://github.com/arch3rPro/PST-Bucket": {
         "created_at": "2023-04-24 06:49:11",
         "description": "Scoop-Buket for Penetration Suite Toolkit",
-        "commit_date": "2023-11-07 08:28:51",
-        "commit_message": "easysrv: Update to version 2.0.0",
+        "commit_date": "2023-11-08 16:32:33",
+        "commit_message": "siyuan: Update to version 2.10.14",
         "release_tag": "",
         "release_date": "",
         "release_message": ""

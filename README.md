@@ -1,8 +1,10 @@
-# 更新于 2023-11-08 08:35:26
+# 更新于 2023-11-09 08:34:55
 
 ## 近15天release更新记录
 | 更新时间 | 项目名称 | 版本 | 更新内容 |
 | :---- | :---- | :---- | :---- |
+|2023-11-08 17:22:30|[audacity](https://github.com/audacity/audacity)|Audacit<br>y-3.4.1| This is a hotfix release. It fixes t<br>he following bugs:     * #5467 Fix 24-<br>bit recording.   * #5488 Fix a crash w<br>ith .aup importing.   * #5471 #5483 Fi<br>x crossfading of clips and tracks.   *<br> #5473 Exporting multiple files honors<br> sample rate settings again.   * #5480<br> #5417 Fix crashes related to external<br> program exports.   * #5479 #5476 Fix <br>BSD and ARM builds.   * #5498 Ctrl+J i<br>s now a standard shortcut for joining <br>clips.   * #5389 Stereo tracks no long<br>er randomly split into mono.   * #5007<br> When exporting a file, the file exten<br>sion is now always added (except for c<br>ustom FFmpeg and external program expo<br>rts).   * #5516 Fix a crash when expor<br>ting Opus with older CPUs that don't s<br>upport AVX.|
+|2023-11-08 09:31:17|[ghauri](https://github.com/r0oth3x49/ghauri)|1.2.8|### Fixes:   - fixed issue #110    - <br>fixed issue with payload encoding when<br> injection is found in cookies.|
 |2023-11-07 21:04:54|[grype](https://github.com/anchore/grype)|v0.73.0|### Added Features    - Add a reason <br>field to ignore config   @shanduur]  -<br> Colorize severity in table output   @<br>shanedell]    ### Bug Fixes    - Enabl<br>e setting golang CPE config using env <br>var  @willmurphyscode]  - Incorrect ve<br>rsion comparisons for maven packages  <br> @spiffcs]  - Grype fails to detect po<br>stgresql jdbc driver CVEs when scannin<br>g .jar ]    ### Additional Changes    <br>- Incorporate format API changes from <br>syft  @wagoodman]    ****    |
 |2023-11-07 16:49:49|[syft](https://github.com/anchore/syft)|v0.95.0|### Added Features    - Use case-inse<br>nsitive matching for Go license files <br> @miquella]  - Add conaninfo.txt parse<br>r to detect conan packages in docker i<br>mages  @Pro]  - Perform case insensiti<br>ve matching on Java License files  @co<br>heigea]  - Read a license from a paren<br>t pom stored in Maven Central  @coheig<br>ea]  - Add PURLs when scanning Gradle <br>lock files  @robbiev]      ### Bug Fix<br>es    - Fix CPE index workflow  @wagoo<br>dman]  - Fix cpe generation task  @wil<br>lmurphyscode]  - Introduce cataloger n<br>aming conventions   @wagoodman]  - .NE<br>T / nuget - invalid SBOM generated aft<br>er parsing   @spiffcs]  - Wrong parsin<br>g after v0.85.0 syft for some componen<br>ts   @spiffcs]  - SPDX-2.3 is misident<br>ified as SPDX-2.2   @wagoodman]  - Jar<br> parser chokes on empty lines   @spiff<br>cs]  - Add a new Java configuration op<br>tion to recursively search parent poms<br>…  @coheigea]  - Fix directory resolve<br>r to always return virtual path  @wago<br>odman]  - Syft can now handle the case<br> of parsing a jar with multiple poms  <br>@coheigea]  - Add ruby.NewGemSpecCatal<br>oger to DirectoryCatalogers  @evanchao<br>li]    ### Breaking Changes    - Intro<br>duce cataloger naming conventions   @w<br>agoodman]  - Remove MetadataType from <br>the core package struct   @wagoodman] <br> - Add convention for JSON metadata ty<br>pe names and port existing values to t<br>he new convention   @wagoodman]  - Rem<br>ove deprecated syft.Format functions  <br> @wagoodman]    ### Additional Changes<br>    - Upgrade tool management  @wagood<br>man]  - Fix homebrew post-release work<br>flow  @wagoodman]    ****    |
 |2023-11-07 16:10:39|[OneScan](https://github.com/vaycore/OneScan)|v1.4.0|1.4.0 版本发布，版本更新内容如下    #<br>## 新增    - 新增 Payload Processing <br>开关，用于控制 Payload Processing 功能<br>的启用与禁用  - 数据看板的 From 字段新<br>增 Process 来源显示（表示 Payload Proce<br>ssing 处理后的数据包）    ### 优化    <br>- 增强 Payload Processing 功能，可添加<br>多条规则，每条规则处理完成后会单独发起<br>请求  - 优化 Databoard 数据看板的过滤功<br>能，将过滤规则存储到配置文件中  - 删除 <br>Databoard 数据看板中的 Merge Payload P<br>rocessing 开关  |
@@ -13,7 +15,6 @@
 |2023-11-05 04:27:02|[PEASS-ng](https://github.com/carlospolop/PEASS-ng)|2023110<br>5-d387d9<br>7f||
 |2023-11-05 03:44:43|[Ladon](https://github.com/k8gege/Ladon)|v11.9|Ladon 11.9  20231105  [u]LadonStudy  <br>支持bypassEDR  [u]LadonShell  支持tls 1<br>.2  [u]RdpInfo    优化RDP Ntlm探测系统<br>信息  [u]RdpLog   查看3389连接日志(IP、<br>用户名、CertHash)  [+]CVE-2023-46604 Ac<br>tiveMQ CVE-2023-46604 RCE Exploit     <br> Ladon 11.8  20231018  [u]InfoScan   <br>新增SmtpInfo  [+]SmtpInfo   新增Smtp Nt<br>lm探测系统信息(25、465、587端口)  [u]I<br>nfoScan   新增HttpInfo  [+]HttpInfo   <br>新增Http/Https Ntlm探测系统信息(SharePo<br>int)      Ladon 11.7 20231010  [u]BadP<br>otato  本地提权 支持Base64参数 解决Cob<br>alt Strike或LadonShell下双引号等问题  <br>[u]EfsPotato  本地提权 支持Base64参数 <br>解决Cobalt Strike或LadonShell下双引号等<br>问题  [u]GodPotato  本地提权 支持Base64<br>参数 解决Cobalt Strike或LadonShell下双<br>引号等问题  [u]SweetPotato  本地提权 支<br>持Base64参数 解决Cobalt Strike或LadonSh<br>ell下双引号等问题  [u]McpPotato  本地<br>提权 支持Base64参数 解决Cobalt Strike或<br>LadonShell下双引号等问题  [+]clsLog   <br>新增清理最近访问文件记录    9.24  [u] W<br>miExec2  横向移动 内网渗透 修复b64cmd<br>参数Bug  [u] WmiExec   横向移动 内网渗<br>透 修复域用户连接Bug  [+] AtExec   横向<br>移动 内网渗透 Base64统一为Unicode(如who<br>ami编码 dwBoAG8AYQBtAGkA )    9.18  [u<br>]PostShell   hexupload支持任意文件上传<br>-当前目录|
 |2023-11-03 04:34:30|[safeline](https://github.com/chaitin/safeline)|v3.10.1|### 修复    - 修复无法修改 通用配置-<br>其他-拦截页面附加说明 的问题|
-|2023-11-02 16:46:16|[audacity](https://github.com/audacity/audacity)|Audacit<br>y-3.4.0|Audacity 3.4 adds a musical view, tim<br>e stretching and a new exporter.     #<br># Major changes     * Music workflows <br>      Audacity now features several mu<br>sic related features, such as switchin<br>g between hh:mm:ss time and Beats & Me<br>asures, and time-stretching clips to a<br>lign them to a song's tempo.      * Ti<br>me stretching       Hold Alt (macOS: O<br>ption) while hovering over the top thi<br>rd of a clip edge to stretch it.      <br>* New exporter       Audacity now feat<br>ures a new export window with easier a<br>ccess to options such as sample rate a<br>nd custom mapping (for 5.1 or 7.1 audi<br>o). Additionally, the "Browse" button <br>uses the native file browser now!     <br>## Other changes     * For MP3, Audaci<br>ty now always uses Joint Stereo mode, <br>which always delivers the best possibl<br>e quality.     * #4720 Simplified past<br>ing logic.     * Simplified stereo tra<br>cks. Left and right channels now alway<br>s have synchronized clip starts and en<br>ds, and the same sample rate in both c<br>hannels.      * #5014 Added cursors tr<br>imming and stretching left and right, <br>and changed the I-beam cursor to be le<br>ss similar to either.     * #4448 When<br> importing audio, the project sample r<br>ate no longer changes.     * #5204 The<br> spectrogram colors are now perceptual<br>ly uniform, and the colormap has gotte<br>n a name: Roseus. It also can be used <br>for dataviz outside of Audacity, see h<br>ttps://github.com/dofuuz/roseus for mo<br>re info! (Thanks, Myungchul Keum)     <br>* New defaults: The Time Signature too<br>lbar now gets shown, the solo button i<br>s set to multi-track mode, time tracks<br> have a wider starting range.     * #5<br>291 Unsquished the Audacity logo found<br> in some places of the app.     * #233<br>0 Clicking on the border of two clips <br>no longer merges them.     * #2530 Ove<br>rdubbing on Windows fails with WASAPI <br>with default Recording device.     * #<br>443 Built-in Opus support.     ## Libr<br>aries     * lib-time-and-pitch impleme<br>nts a time stretching algorithm origin<br>ating in Staffpad.     * Audacity now <br>uses Conan 2.     * Continued extracti<br>ng code into libraries and modules, es<br>pecially in the context of importing a<br>nd exporting.     ## Bug fixes     * #<br>3778 --nogap metadata no longer is ign<br>ored.     * #4410 fixed a crash with L<br>V2 plugins (thanks jfroyall!).     * #<br>2471 #4798 fixed some crashes related <br>to macros.     * #4769 fixed a crash w<br>hen pasting in certain configurations.<br>     * #4677 Accessibility: GUI can be<br> disabled again for VST2 plugins (than<br>ks, David Bailes!).     * #4988 Access<br>ibility: Restored window control IDs, <br>improving NVDA compatibility (thanks a<br>gain, David Bailes!).     * #4872 fixe<br>d a crash on launch on OSX 10.9 (thank<br>s, René Bertin!).|
 |2023-11-02 14:46:40|[nuclei](https://github.com/projectdiscovery/nuclei)|v3.0.3|    ## What's Changed  * Added self-c<br>ontained template support to headless <br>protocol by @dogancanbakir in https://<br>github.com/projectdiscovery/nuclei/pul<br>l/4322  * Added miscellaneous SDK enha<br>ncements by @tarunKoyalwar in https://<br>github.com/projectdiscovery/nuclei/pul<br>l/4301  * Fixed issue with trailing do<br>t in dns protocol by @dogancanbakir in<br> https://github.com/projectdiscovery/n<br>uclei/pull/4295  * Fixed connection is<br>sues in javascript, network protocol @<br>tarunKoyalwar in https://github.com/pr<br>ojectdiscovery/nuclei/pull/4313  * Fix<br>ed issue in flow to use javascript by <br>@tarunKoyalwar in https://github.com/p<br>rojectdiscovery/nuclei/pull/4313  * Up<br>dated cloned directory structure (proj<br>ect owner => repo) for GitHub by @doga<br>ncanbakir in https://github.com/projec<br>tdiscovery/nuclei/pull/4293    ## New <br>Contributors  * @atomiczsec made their<br> first contribution in https://github.<br>com/projectdiscovery/nuclei/pull/4296 <br>   **Full Changelog**: https://github.<br>com/projectdiscovery/nuclei/compare/v3<br>.0.2...v3.0.3|
 |2023-11-01 18:27:18|[faker](https://github.com/joke2k/faker)|v19.13.<br>0|See .|
 |2023-11-01 03:30:09|[WeblogicTool](https://github.com/KimJun1010/WeblogicTool)|v1.3|更新记录    - 修复CVE_2020_14882特殊<br>环境下漏报问题  - 修复CVE_2018_2894工作<br>目录路径问题|
@@ -23,35 +24,38 @@
 |2023-10-27 16:42:15|[neuvector](https://github.com/neuvector/neuvector)|v5.0.7-<br>s6||
 |2023-10-27 11:00:44|[Pentest-Windows](https://github.com/arch3rPro/Pentest-Windows)|v2.2|新增内网渗透工具和远程管理工具、删除<br>了部分已不再维护或基本不用的工具    Win<br>dows11 Penetration Suite Toolkit v2.2 <br>(WSL) 【推荐】  下载链接：https://www.<br>123pan.com/s/q59KVv-T4Qpd.html 提取码:<br>wpst  文件大小：8.55GB，解压后：23.2GB<br>  SHA256：7305DBFFF38EAAD59373C8232EB4<br>17F6E996A5E80F379D22688BAC0E7C8CA6A9  <br>Windows11 Penetration Suite Toolkit v2<br>.2 (NoWSL) 【无WSL】  下载链接：https:<br>//www.123pan.com/s/q59KVv-tvQpd.html <br>提取码:wpst  文件大小：7.13 GB，解压后<br>：17.6GB  SHA256：D05F8366E1054911AAE88<br>5A61D2621786B74CC6050F55A66B90CE4EDD38<br>CFD98|
 |2023-10-25 09:32:17|[Elkeid](https://github.com/bytedance/Elkeid)|rasp-v2<br>.2.1.0-p<br>re||
-|2023-10-24 05:51:26|[rengine](https://github.com/yogeshojha/rengine)|v2.0.1|2.0.1 fixes a ton of issues in reNgin<br>e 2.0.    Fixes:   1. Prevent duplicat<br>ing Nuclei vulns for subdomain #1012 @<br>psyray  2. Fixes for empty subdomain r<br>eturned during nuclei scan #1011 @psyr<br>ay  3. Add all the missing slug in sca<br>nEngine view & other places #1005 @psy<br>ray  4. Foxes for missing vulscan scri<br>pt #1004 @psyray  5. Fixes for missing<br> slug in report settings saving #1003 <br> 6. Fixes for Nmap Parsing Error #1001<br> #1002 @psyray  7. Fix nmap script por<br>ts iterable args #1000 @psyray  8. Ite<br>rate over hostnames when multiple #100<br>2 @psyray  8. Gau install #998, change<br> gauplus to gau @psyray  9. Add missin<br>g slug parameter in schedule scan #996<br> @psyray  10. Add missing slug paramet<br>er in schedule scan #996, fixes #940, <br>#937, #897, #764 @psyray  11. Add stac<br>k trace into make logs if DEBUG True #<br>994 @psyray  12. Fix dirfuzz base64 na<br>me display #993 #992 @psyray  13. Fix <br>target subdomains list not loading #99<br>1 @psyray  14. Change WORDLIST constan<br>t value #987, fixes #986@psyray   15. <br>fix(notification_settings): submitting<br> results in error 502 #981 fixes #970 <br>@psyray  16. Fixes with documentation <br>and installation/update/uninstall scri<br>pts @anonymousWP  17. Fix file directo<br>ry popup not showing in detailed scan <br>#912 @psyray      @AnonymousWP and @ps<br>yray have been phenomenal in fixing th<br>ese bugs. Thanks to both of you! :hear<br>t: :rocket: |
-|2023-10-24 02:57:54|[frp](https://github.com/fatedier/frp)|v0.52.3|### Fixes  * admin_user is not effect<br>ive in the INI configuration.  |
 ## 近15天commit提交记录
 | 提交时间 | 项目名称 | 更新内容 |
 | :---- | :---- | :---- |
-|2023-11-08 00:00:13|[PocOrExp_in_Githu<br>b](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-11-08 08:00:13|
-|2023-11-08 00:00:03|[free](https://github.com/freefq/free)|updated_at 11-08 08:00|
-|2023-11-07 23:40:42|[trivy](https://github.com/aquasecurity/trivy)|refactor(misconf): don't remove Highlighted in json<br> format (#5531)|
-|2023-11-07 20:42:43|[grype](https://github.com/anchore/grype)|chore(deps): update Syft to v0.95.0 (#1591)|
+|2023-11-09 00:00:03|[free](https://github.com/freefq/free)|updated_at 11-09 08:00|
+|2023-11-08 23:54:42|[PocOrExp_in_Githu<br>b](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-11-09 07:54:42|
+|2023-11-08 23:13:04|[syft](https://github.com/anchore/syft)|include image labels in cycloneDX SBOM (#2294)  * i<br>nclude image labels in SBOM    Signed-off-by: Benji <br>Visser     * update tests    Signed-off-by: Benji Vi<br>sser     * gocritic    Signed-off-by: Benji Visser  <br>   * add properties    Signed-off-by: Benji Visser  <br>   * add decoder    Signed-off-by: Benji Visser     <br>* update golden snapshots    Signed-off-by: Benji Vi<br>sser     * decodeProperties    Signed-off-by: Benji <br>Visser     * add test    Signed-off-by: Alex Goodman<br>     * remove the snapshot test changes    Signed-of<br>f-by: Alex Goodman     * restore snapshots    Signed<br>-off-by: Alex Goodman     ---------    Signed-off-by<br>: Benji Visser   Signed-off-by: Alex Goodman   Co-au<br>thored-by: Alex Goodman |
+|2023-11-08 21:00:35|[dbeaver](https://github.com/dbeaver/dbeaver)|Merge remote-tracking branch 'origin/devel' into de<br>vel|
+|2023-11-08 20:57:19|[ImHex](https://github.com/WerWolv/ImHex)|fix: Force achievement popup to front|
+|2023-11-08 20:17:01|[grype](https://github.com/anchore/grype)|fix: match against debian unstable (#1593)  This is<br> done by special casing "sid" in the pretty name of <br>  a Linux distro to point to the grype-db debian uns<br>table namespace.    Signed-off-by: Will Murphy |
+|2023-11-08 17:56:59|[all-in-one-v2](https://github.com/zaivanza/all-in-one-v2)|fix readme|
+|2023-11-08 16:32:33|[PST-Bucket](https://github.com/arch3rPro/PST-Bucket)|siyuan: Update to version 2.10.14|
+|2023-11-08 16:08:28|[impacket](https://github.com/fortra/impacket)|Handle unknown NTSTATUS in SessionError (#1311)  * <br>Handle unknown NTSTATUS in SessionError    * Handle <br>unknown NTSTATUS in other places|
+|2023-11-08 15:42:15|[iDefender](https://github.com/wecooperate/iDefender)|update|
+|2023-11-08 14:21:17|[audacity](https://github.com/audacity/audacity)|Merge branch 'release-3.4.1'|
+|2023-11-08 12:35:43|[v2rayfree](https://github.com/aiboboxx/v2rayfree)|update|
+|2023-11-08 11:22:00|[feroxbuster](https://github.com/epi052/feroxbuster)|add http/2 support (#1020)  * added http/2 support <br> * updated deps|
+|2023-11-08 09:28:46|[ghauri](https://github.com/r0oth3x49/ghauri)|updated readme with latest version..|
+|2023-11-08 08:11:34|[domain_hunter_pro](https://github.com/bit4woo/domain_hunter_pro)|update|
+|2023-11-08 06:32:16|[nemo_go](https://github.com/hanc00l/nemo_go)|Update: 一些测试用例信息|
+|2023-11-08 06:09:01|[PeiQi-WIKI-Book](https://github.com/PeiQi0/PeiQi-WIKI-Book)|Merge branch 'main' of github.com:PeiQi0/PeiQi-WIKI<br>-Book|
+|2023-11-08 05:39:53|[trivy](https://github.com/aquasecurity/trivy)|fix: fail k8s resource scanning (#5529)  Signed-off<br>-by: chenk |
 |2023-11-07 19:49:53|[RsaCtfTool](https://github.com/RsaCtfTool/RsaCtfTool)|update carmichael|
 |2023-11-07 19:43:35|[wpscan](https://github.com/wpscanteam/wpscan)|Merge pull request #1814 from wpscanteam/fix/non-la<br>tin-character-slugs  Fix case where a theme slug is <br>all non-latin characters|
-|2023-11-07 17:18:31|[all-in-one-v2](https://github.com/zaivanza/all-in-one-v2)|add links|
-|2023-11-07 16:33:06|[syft](https://github.com/anchore/syft)|chore: setup release task before calling go release<br>r (#2297)  * chore: update release command to use co<br>nfig at repo root    ---------    Signed-off-by: Chr<br>istopher Phillips |
 |2023-11-07 16:04:17|[OneScan](https://github.com/vaycore/OneScan)|更新版本号为1.4.0；更新说明文档和部分截图|
-|2023-11-07 15:40:41|[ImHex](https://github.com/WerWolv/ImHex)|impr: Make sidebar look better|
 |2023-11-07 15:07:17|[FreeRDP](https://github.com/FreeRDP/FreeRDP)|[utils,smartcard] fix reading of context ref  unify<br> read of context and context pointer data for all ca<br>lls. fixes #9480|
-|2023-11-07 14:33:23|[dbeaver](https://github.com/dbeaver/dbeaver)|CB-3971 add main auth flag (#21751)  Co-authored-by<br>: Daria Marutkina |
-|2023-11-07 12:35:43|[v2rayfree](https://github.com/aiboboxx/v2rayfree)|update|
 |2023-11-07 12:23:47|[rustdesk](https://github.com/rustdesk/rustdesk)|Merge pull request #6322 from BestiaPL/master  Upda<br>te pl.rs|
 |2023-11-07 12:16:48|[ARL](https://github.com/TophantTechnology/ARL)|Merge pull request #652 from chushuai/patch-1  360Q<br>uake子域名查询优化|
-|2023-11-07 11:03:43|[domain_hunter_pro](https://github.com/bit4woo/domain_hunter_pro)|Update WebIcon.java|
 |2023-11-07 10:53:08|[heapdump_tool](https://github.com/wyzxxz/heapdump_tool)|Update README.md|
-|2023-11-07 10:30:00|[audacity](https://github.com/audacity/audacity)|Merge remote-tracking branch 'audacity/release-3.4.<br>1' into master...  ... Conflicts:     CMakeLists.txt|
-|2023-11-07 08:28:51|[PST-Bucket](https://github.com/arch3rPro/PST-Bucket)|easysrv: Update to version 2.0.0|
 |2023-11-07 07:01:17|[VolatilityPro](https://github.com/Tokeii0/VolatilityPro)|Update README.md|
 |2023-11-07 02:03:50|[Elkeid](https://github.com/bytedance/Elkeid)|Merge pull request #551 from bytedance/fix-re_match<br>  Fix re match|
 |2023-11-07 01:04:42|[FrameVul](https://github.com/Awrrays/FrameVul)|Update README.md|
 |2023-11-06 14:38:58|[v2rayA](https://github.com/v2rayA/v2rayA)|chore: upgrade node-ipc|
-|2023-11-06 14:27:30|[iDefender](https://github.com/wecooperate/iDefender)|update|
 |2023-11-06 13:56:48|[afrog](https://github.com/zan8in/afrog)|fix set-cookie|
 |2023-11-06 09:03:06|[safeline](https://github.com/chaitin/safeline)|feat(doc): update 3.10.3 change log|
 |2023-11-06 03:46:07|[404StarLink](https://github.com/knownsec/404StarLink)|weekly update at 2023-11-06|
@@ -67,9 +71,7 @@
 |2023-11-04 03:19:34|[dperf](https://github.com/baidu/dperf)|Merge pull request #387 from pengjianzhang/main  fi<br>x: 1. compile warnnings,  2 don't clear sequences in<br> time-wait state|
 |2023-11-03 20:32:39|[Mobile-Security-F<br>ramework-MobSF](https://github.com/MobSF/Mobile-Security-Framework-MobSF)|Build(deps): Bump django from 4.1.12 to 4.1.13 (#22<br>82)  Bumps  from 4.1.12 to 4.1.13.  -     ---  updat<br>ed-dependencies:  - dependency-name: django    depen<br>dency-type: direct:production  ...    Signed-off-by:<br> dependabot[bot]   Co-authored-by: dependabot[bot] |
 |2023-11-03 16:33:42|[kube-bench](https://github.com/aquasecurity/kube-bench)|build(deps): bump golang from 1.21.1 to 1.21.3 (#15<br>07)  Bumps golang from 1.21.1 to 1.21.3.    ---  upd<br>ated-dependencies:  - dependency-name: golang    dep<br>endency-type: direct:production    update-type: vers<br>ion-update:semver-patch  ...    Signed-off-by: depen<br>dabot[bot]   Co-authored-by: dependabot[bot]   Co-au<br>thored-by: chenk |
-|2023-11-03 14:30:49|[impacket](https://github.com/fortra/impacket)|start remote registry as unprivileged user in reg.p<br>y (#1638)  * start remote registry as unprivileged u<br>ser in reg.py    Trigger the start of the RemoteRegi<br>stry service as unprivileged user by opening the win<br>reg named pipe.    * enable access to HKEY_USERS tro<br>ugh reg.py|
 |2023-11-03 10:51:38|[appshark](https://github.com/bytedance/appshark)|Merge pull request #50 from firmianay/dev  add Mani<br>festRisk|
-|2023-11-03 10:38:55|[feroxbuster](https://github.com/epi052/feroxbuster)|added test for robots/--dont-extract-links|
 |2023-11-03 06:26:55|[pingtunnel](https://github.com/esrrhs/pingtunnel)|delete|
 |2023-11-03 03:27:51|[vulhub](https://github.com/vulhub/vulhub)|Merge pull request #465 from za/update-readme-cve-2<br>022-34265|
 |2023-11-03 01:51:33|[BerylEnigma](https://github.com/ffffffff0x/BerylEnigma)|节点添加可显示/隐藏属性|
@@ -98,10 +100,7 @@
 |2023-10-25 12:16:45|[rengine](https://github.com/yogeshojha/rengine)|Merge pull request #1020 from AnonymousWP/bump-to-2<br>.0.1  fix(versioning): bump version number to 2.0.1|
 |2023-10-25 07:56:46|[RmTools](https://github.com/RoomaSec/RmTools)|Update README.md|
 |2023-10-25 07:55:45|[RmEye](https://github.com/RoomaSec/RmEye)|Update readme.md|
-|2023-10-25 03:49:28|[Kunlun-M](https://github.com/LoRexxar/Kunlun-M)|Merge pull request #240 from LoRexxar/develop  fix <br>bug|
-|2023-10-24 10:34:02|[PEASS-ng](https://github.com/carlospolop/PEASS-ng)|Merge pull request #397 from RandolphConley/master <br> code update ; Added search / function for excel fil<br>es|
-|2023-10-24 05:02:08|[ghauri](https://github.com/r0oth3x49/ghauri)|added support/donation page..|
-|2023-10-24 04:45:51|[goproxy](https://github.com/snail007/goproxy)|Update ISSUE_TEMPLATE.md|## 所有项目
+|2023-10-25 03:49:28|[Kunlun-M](https://github.com/LoRexxar/Kunlun-M)|Merge pull request #240 from LoRexxar/develop  fix <br>bug|## 所有项目
 # 渗透测试
 ## 信息收集
 ### 资产测绘采集
@@ -482,7 +481,7 @@
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
 | [sqlmap](https://github.com/sqlmapproject/sqlmap) | 1.7 | Automatic SQL injection and database takeover tool |
-| [ghauri](https://github.com/r0oth3x49/ghauri) | 1.2.7 | An advanced cross-platform tool that automates the process of <br>detecting and exploiting SQL injection security flaws |
+| [ghauri](https://github.com/r0oth3x49/ghauri) | 1.2.8 | An advanced cross-platform tool that automates the process of <br>detecting and exploiting SQL injection security flaws |
 #### CLRF
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
@@ -1180,7 +1179,7 @@
 ### 音频隐写
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
-| [audacity](https://github.com/audacity/audacity) | Audacit<br>y-3.4.0 | Audio Editor                                      |
+| [audacity](https://github.com/audacity/audacity) | Audacit<br>y-3.4.1 | Audio Editor                                      |
 | [dtmf-decoder](https://github.com/ribt/dtmf-decoder) |  | Extract phone numbers from an audio recording of the dial tone<br>s. |
 ### 压缩文件分析
 #### CRC爆破
