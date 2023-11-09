@@ -299,6 +299,7 @@
             JWT:
                 - https://github.com/ticarpi/jwt_tool
                 - https://github.com/hahwul/jwt-hack
+                - https://github.com/Ch1ngg/JWTPyCrack
                 - https://github.com/Aiyflowers/JWT_GUI
             DOS:
                 - https://github.com/shekyan/slowhttptest
@@ -785,6 +786,9 @@ CTF:
                 - https://github.com/chishaxie/BlindWaterMark
                 - https://github.com/linyacool/blind-watermark
                 - https://github.com/guofei9987/blind_watermark
+            png隐写:
+                png宽高修复:
+                    - https://github.com/AabyssZG/Deformed-Image-Restorer
         流量分析:
             - https://github.com/WangYihang/UsbMiceDataHacker
             - https://github.com/WangYihang/UsbKeyboardDataHacker
@@ -846,6 +850,8 @@ CTF:
             - https://github.com/pablocelayes/rsa-wiener-attack
             - https://github.com/Mr-Aur0ra/RSA
             - https://github.com/RsaCtfTool/RsaCtfTool
+        autokey:
+            - https://github.com/hotzzzzy/breakautokey
     AWD:
         线下平台:
             - https://github.com/vidar-team/Cardinal
