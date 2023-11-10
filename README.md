@@ -1,16 +1,18 @@
-# 更新于 2023-11-09 08:34:55
+# 更新于 2023-11-10 08:36:09
 
 ## 近15天release更新记录
 | 更新时间 | 项目名称 | 版本 | 更新内容 |
 | :---- | :---- | :---- | :---- |
+|2023-11-09 15:02:57|[grype](https://github.com/anchore/grype)|v0.73.1|### Bug Fixes  - CycloneDX based anal<br>ysis failing   @anchore-actions-token-<br>generator] - False negatives when scan<br>ning debian trixie/sid images from Doc<br>kerhub   @willmurphyscode]  ### Additi<br>onal Changes  - avoid allocations with<br> (*regexp.Regexp).MatchString  @Juneez<br>ee]  ****  |
+|2023-11-09 14:11:50|[syft](https://github.com/anchore/syft)|v0.96.0|### Added Features  - Check maven cen<br>tral as well for licenses in parents p<br>oms for nested jars  @coheigea] - stor<br>e image annotations inside the SBOM   <br>@noqcks] - Support parsing license inf<br>ormation in Maven projects via parent <br>poms ]  ### Bug Fixes  - SPDX file has<br> duplicate sha256 tag in versionInfo  <br>@coheigea] - Report virtual path consi<br>stently between file.Resolvers   @wago<br>odman] - Unable to identify CycloneDX <br>JSON documents without $schema propert<br>y   @kzantow]  ****  |
+|2023-11-09 02:37:19|[feroxbuster](https://github.com/epi052/feroxbuster)|v2.10.1|## What's Changed  * fixed scan menu <br>range issue by @epi052 in https://gith<br>ub.com/epi052/feroxbuster/pull/936  * <br>enable reading extensions from file by<br> @andreademurtas in https://github.com<br>/epi052/feroxbuster/pull/976  * fixed <br>collect backups filtering by @epi052 i<br>n https://github.com/epi052/feroxbuste<br>r/pull/1016  * added http/2 support by<br> @epi052 in https://github.com/epi052/<br>feroxbuster/pull/1020  * allowed --jso<br>n in conjunction with --silent by @epi<br>052 in https://github.com/epi052/ferox<br>buster/pull/1022    ## New Contributor<br>s  * @andreademurtas made their first <br>contribution in https://github.com/epi<br>052/feroxbuster/pull/976    **Full Cha<br>ngelog**: https://github.com/epi052/fe<br>roxbuster/compare/v2.10.0...v2.10.1|
 |2023-11-08 17:22:30|[audacity](https://github.com/audacity/audacity)|Audacit<br>y-3.4.1| This is a hotfix release. It fixes t<br>he following bugs:     * #5467 Fix 24-<br>bit recording.   * #5488 Fix a crash w<br>ith .aup importing.   * #5471 #5483 Fi<br>x crossfading of clips and tracks.   *<br> #5473 Exporting multiple files honors<br> sample rate settings again.   * #5480<br> #5417 Fix crashes related to external<br> program exports.   * #5479 #5476 Fix <br>BSD and ARM builds.   * #5498 Ctrl+J i<br>s now a standard shortcut for joining <br>clips.   * #5389 Stereo tracks no long<br>er randomly split into mono.   * #5007<br> When exporting a file, the file exten<br>sion is now always added (except for c<br>ustom FFmpeg and external program expo<br>rts).   * #5516 Fix a crash when expor<br>ting Opus with older CPUs that don't s<br>upport AVX.|
 |2023-11-08 09:31:17|[ghauri](https://github.com/r0oth3x49/ghauri)|1.2.8|### Fixes:   - fixed issue #110    - <br>fixed issue with payload encoding when<br> injection is found in cookies.|
-|2023-11-07 21:04:54|[grype](https://github.com/anchore/grype)|v0.73.0|### Added Features    - Add a reason <br>field to ignore config   @shanduur]  -<br> Colorize severity in table output   @<br>shanedell]    ### Bug Fixes    - Enabl<br>e setting golang CPE config using env <br>var  @willmurphyscode]  - Incorrect ve<br>rsion comparisons for maven packages  <br> @spiffcs]  - Grype fails to detect po<br>stgresql jdbc driver CVEs when scannin<br>g .jar ]    ### Additional Changes    <br>- Incorporate format API changes from <br>syft  @wagoodman]    ****    |
-|2023-11-07 16:49:49|[syft](https://github.com/anchore/syft)|v0.95.0|### Added Features    - Use case-inse<br>nsitive matching for Go license files <br> @miquella]  - Add conaninfo.txt parse<br>r to detect conan packages in docker i<br>mages  @Pro]  - Perform case insensiti<br>ve matching on Java License files  @co<br>heigea]  - Read a license from a paren<br>t pom stored in Maven Central  @coheig<br>ea]  - Add PURLs when scanning Gradle <br>lock files  @robbiev]      ### Bug Fix<br>es    - Fix CPE index workflow  @wagoo<br>dman]  - Fix cpe generation task  @wil<br>lmurphyscode]  - Introduce cataloger n<br>aming conventions   @wagoodman]  - .NE<br>T / nuget - invalid SBOM generated aft<br>er parsing   @spiffcs]  - Wrong parsin<br>g after v0.85.0 syft for some componen<br>ts   @spiffcs]  - SPDX-2.3 is misident<br>ified as SPDX-2.2   @wagoodman]  - Jar<br> parser chokes on empty lines   @spiff<br>cs]  - Add a new Java configuration op<br>tion to recursively search parent poms<br>…  @coheigea]  - Fix directory resolve<br>r to always return virtual path  @wago<br>odman]  - Syft can now handle the case<br> of parsing a jar with multiple poms  <br>@coheigea]  - Add ruby.NewGemSpecCatal<br>oger to DirectoryCatalogers  @evanchao<br>li]    ### Breaking Changes    - Intro<br>duce cataloger naming conventions   @w<br>agoodman]  - Remove MetadataType from <br>the core package struct   @wagoodman] <br> - Add convention for JSON metadata ty<br>pe names and port existing values to t<br>he new convention   @wagoodman]  - Rem<br>ove deprecated syft.Format functions  <br> @wagoodman]    ### Additional Changes<br>    - Upgrade tool management  @wagood<br>man]  - Fix homebrew post-release work<br>flow  @wagoodman]    ****    |
 |2023-11-07 16:10:39|[OneScan](https://github.com/vaycore/OneScan)|v1.4.0|1.4.0 版本发布，版本更新内容如下    #<br>## 新增    - 新增 Payload Processing <br>开关，用于控制 Payload Processing 功能<br>的启用与禁用  - 数据看板的 From 字段新<br>增 Process 来源显示（表示 Payload Proce<br>ssing 处理后的数据包）    ### 优化    <br>- 增强 Payload Processing 功能，可添加<br>多条规则，每条规则处理完成后会单独发起<br>请求  - 优化 Databoard 数据看板的过滤功<br>能，将过滤规则存储到配置文件中  - 删除 <br>Databoard 数据看板中的 Merge Payload P<br>rocessing 开关  |
 |2023-11-06 06:41:17|[trivy](https://github.com/aquasecurity/trivy)|v0.47.0|## ⚡Release highlights and summary⚡<br>    👉 https://github.com/aquasecurity<br>/trivy/discussions/5520    ## Changelo<br>g  * d6df5fbcd docs: add info that lic<br>ense scanning supports file-patterns f<br>lag (#5484)  * 156d4cc60 docs: add Zor<br>a integration into Ecosystem session (<br>#5490)  * 772d1d08f fix(sbom): Use UUI<br>D as BomRef for packages with empty pu<br>rl (#5448)  * df47073fa ci: use maximi<br>ze build space for K8s tests (#5387)  <br>* fed471018 fix: correct error mismatc<br>h causing race in fast walks (#5516)  <br>* 46f1b9e7d docs: k8s vulnerability sc<br>anning (#5515)  * fdb3a15b2 chore(deps<br>): bump github.com/aws/aws-sdk-go-v2/s<br>ervice/sts from 1.23.2 to 1.25.0 (#550<br>6)  * d0d956fdc chore(deps): bump gith<br>ub.com/owenrumney/go-sarif/v2 from 2.2<br>.2 to 2.3.0 (#5493)  * 68b0797e5 docs:<br> remove glad for java datasources (#55<br>08)  * 474167c47 chore(deps): bump git<br>hub.com/testcontainers/testcontainers-<br>go/modules/localstack from 0.21.0 to 0<br>.26.0 (#5475)  * 7299867c2 chore: remo<br>ve unused logger attribute in amazon d<br>etector (#5476)  * 8656bd9f7 fix: corr<br>ect error mismatch causing race in fas<br>t walks (#5482)  * 2e10cd2eb chore(dep<br>s): bump goreleaser/goreleaser-action <br>from 4 to 5 (#5502)  * 13df74652 chore<br>(deps): bump docker/build-push-action <br>from 4 to 5 (#5500)  * b0141cfba chore<br>(deps): bump github.com/package-url/pa<br>ckageurl-go from 0.1.2-0.2023081222382<br>8-f8bb31c1f10b to 0.1.2 (#5491)  * 520<br>830b51 fix(server): add licenses to Bl<br>obInfo message (#5382)  * 9a6e125c7 ch<br>ore(deps): bump actions/checkout from <br>4.1.0 to 4.1.1 (#5501)  * 6e5927266 ch<br>ore(deps): bump github.com/aws/aws-sdk<br>-go-v2/service/ecr from 1.17.18 to 1.2<br>1.0 (#5497)  * f3de7bc3b feat: scan vu<br>lns on k8s core component apps (#5418)<br>  * e2fb3dd58 fix(java): fix infinite <br>loop when relativePath field points to<br> pom.xml being scanned (#5470)  * 3e83<br>3be7d chore(deps): bump github.com/doc<br>ker/docker from 24.0.5+incompatible to<br> 24.0.7+incompatible (#5472)  * ca50b7<br>7a3 fix(sbom): save digests for packag<br>e/application when scanning SBOM files<br> (#5432)  * 048150d43 docs: fix the br<br>oken link (#5454)  * 013d90199 docs: f<br>ix error when installing PyYAML for gh<br> pages (#5462)  * 26b495954 fix(java):<br> download java-db once (#5442)  * 57fa<br>701a8 chore(deps): bump google.golang.<br>org/grpc from 1.57.0 to 1.57.1 (#5447)<br>  * 53c9a7d76 docs(misconf): Update --<br>tf-exclude-downloaded-modules descript<br>ion (#5419)  * 01c98d151 feat(misconf)<br>: Support --ignore-policy in config sc<br>ans (#5359)  * 05b3c86a1 docs(misconf)<br>: fix broken table for Use container i<br>mage section (#5425)  * 1a15a3adb feat<br>(dart): add graph support (#5374)  * f<br>2a12f5f9 refactor: define a new struct<br> for scan targets (#5397)  * 6040d9f43<br> fix(sbom): add missed primaryURL and <br>source severity for CycloneDX (#5399) <br> * e5317c7bc fix: correct invalid MD5 <br>hashes for rpms ending with one or mor<br>e zero bytes (#5393)  * 9fba79f0b chor<br>e(deps): move to aws-sdk-go-v2 (#5381)<br>  * 00f2059e5 docs: remove --scanners <br>none (#5384)  * 57a102231 docs: Update<br> container_image.md #5182 (#5193)  * 5<br>b2b4ea38 feat(report): Add InstalledFi<br>les field to Package (#4706)    |
 |2023-11-05 23:47:12|[v2rayA](https://github.com/v2rayA/v2rayA)|v2.2.4.<br>1|Use GitHub's urls instead of v2raya.o<br>rg for v2rayA's own server has been sh<br>utdown for out of money|
 |2023-11-05 17:31:13|[dbeaver](https://github.com/dbeaver/dbeaver)|23.2.4|                 - SQL editor:       <br>              - Code completion for up<br>date statements was added             <br>        - Smart completion and replace<br>ments of quoted expressions was fixed <br>                    - Redundant errors<br> on opening SQL Editor for the first t<br>ime were removed from the logs        <br>         - Database Navigator:        <br>             - Filtered objects visual<br>ization was added                     <br>- Script folder opening was fixed     <br>            - Data transfer:          <br>           - Attributes names for quot<br>ed attributes are handled correctly   <br>                  - "Copy as HTML" res<br>ult presentation is improved          <br>       - Data editor:                 <br>    - Background color reset was fixed<br>                     - Message about c<br>ontent representation size limit was f<br>ixed                     - App freeze <br>in binary editor was fixed (MacOS)    <br>             - ER diagrams: one-to-one<br> connection rendering was fixed       <br>          - Connections:              <br>       - SSH connection page validatio<br>n is enhanced for jump servers        <br>             - Complex JDBC driver sup<br>port was improved (context classloader<br> + driver cache)                 - Gen<br>eral:                     - Script nam<br>es are sorted alphabetically          <br>           - Refresh button was added <br>to the ‘Generate DDL’ dialog        <br>             - Issue with app launch w<br>as fixed (rare case)                 -<br> Databases:                     - Orac<br>le: search package bodies as packages <br>was supported                     - Po<br>stgreSQL:                         - De<br>fault privileges presentation and edit<br>ing was supported                     <br>    - Sequences permissions reading fo<br>r quoted roles was fixed              <br>       - SQLite: required columns crea<br>ting was fixed             |
+|2023-11-05 14:30:07|[Online_tools](https://github.com/Zhao-sai-sai/Online_tools)|0.4.0|### 增加新工具  - nc  - Nmap  - D盾  <br>- 河马webshell查杀    ### 新功能添加  <br>增加了工具搜索功能，可以按alt+d键快速弹<br>出|
 |2023-11-05 07:49:31|[gshark](https://github.com/madneal/gshark)|v1.2.2|## Fixed    * 修复数据库初始化逻辑问<br>题  * 升级前端组件版本|
 |2023-11-05 04:27:02|[PEASS-ng](https://github.com/carlospolop/PEASS-ng)|2023110<br>5-d387d9<br>7f||
 |2023-11-05 03:44:43|[Ladon](https://github.com/k8gege/Ladon)|v11.9|Ladon 11.9  20231105  [u]LadonStudy  <br>支持bypassEDR  [u]LadonShell  支持tls 1<br>.2  [u]RdpInfo    优化RDP Ntlm探测系统<br>信息  [u]RdpLog   查看3389连接日志(IP、<br>用户名、CertHash)  [+]CVE-2023-46604 Ac<br>tiveMQ CVE-2023-46604 RCE Exploit     <br> Ladon 11.8  20231018  [u]InfoScan   <br>新增SmtpInfo  [+]SmtpInfo   新增Smtp Nt<br>lm探测系统信息(25、465、587端口)  [u]I<br>nfoScan   新增HttpInfo  [+]HttpInfo   <br>新增Http/Https Ntlm探测系统信息(SharePo<br>int)      Ladon 11.7 20231010  [u]BadP<br>otato  本地提权 支持Base64参数 解决Cob<br>alt Strike或LadonShell下双引号等问题  <br>[u]EfsPotato  本地提权 支持Base64参数 <br>解决Cobalt Strike或LadonShell下双引号等<br>问题  [u]GodPotato  本地提权 支持Base64<br>参数 解决Cobalt Strike或LadonShell下双<br>引号等问题  [u]SweetPotato  本地提权 支<br>持Base64参数 解决Cobalt Strike或LadonSh<br>ell下双引号等问题  [u]McpPotato  本地<br>提权 支持Base64参数 解决Cobalt Strike或<br>LadonShell下双引号等问题  [+]clsLog   <br>新增清理最近访问文件记录    9.24  [u] W<br>miExec2  横向移动 内网渗透 修复b64cmd<br>参数Bug  [u] WmiExec   横向移动 内网渗<br>透 修复域用户连接Bug  [+] AtExec   横向<br>移动 内网渗透 Base64统一为Unicode(如who<br>ami编码 dwBoAG8AYQBtAGkA )    9.18  [u<br>]PostShell   hexupload支持任意文件上传<br>-当前目录|
@@ -23,50 +25,52 @@
 |2023-10-29 10:13:17|[HackerPermKeeper](https://github.com/RuoJi6/HackerPermKeeper)|6.0| 1、Suid shell bash权限维持    2、重<br>写生成代码(连续生成)    3、添加不记录历<br>史命令临时操作，同时可以批量删除指定的.<br>bash_history文件中的历史记录    4、修<br>改检查脚本(添加检查环境)    5、使用tabu<br>late模块进行格式化输出|
 |2023-10-27 16:42:15|[neuvector](https://github.com/neuvector/neuvector)|v5.0.7-<br>s6||
 |2023-10-27 11:00:44|[Pentest-Windows](https://github.com/arch3rPro/Pentest-Windows)|v2.2|新增内网渗透工具和远程管理工具、删除<br>了部分已不再维护或基本不用的工具    Win<br>dows11 Penetration Suite Toolkit v2.2 <br>(WSL) 【推荐】  下载链接：https://www.<br>123pan.com/s/q59KVv-T4Qpd.html 提取码:<br>wpst  文件大小：8.55GB，解压后：23.2GB<br>  SHA256：7305DBFFF38EAAD59373C8232EB4<br>17F6E996A5E80F379D22688BAC0E7C8CA6A9  <br>Windows11 Penetration Suite Toolkit v2<br>.2 (NoWSL) 【无WSL】  下载链接：https:<br>//www.123pan.com/s/q59KVv-tvQpd.html <br>提取码:wpst  文件大小：7.13 GB，解压后<br>：17.6GB  SHA256：D05F8366E1054911AAE88<br>5A61D2621786B74CC6050F55A66B90CE4EDD38<br>CFD98|
-|2023-10-25 09:32:17|[Elkeid](https://github.com/bytedance/Elkeid)|rasp-v2<br>.2.1.0-p<br>re||
 ## 近15天commit提交记录
 | 提交时间 | 项目名称 | 更新内容 |
 | :---- | :---- | :---- |
-|2023-11-09 00:00:03|[free](https://github.com/freefq/free)|updated_at 11-09 08:00|
-|2023-11-08 23:54:42|[PocOrExp_in_Githu<br>b](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-11-09 07:54:42|
-|2023-11-08 23:13:04|[syft](https://github.com/anchore/syft)|include image labels in cycloneDX SBOM (#2294)  * i<br>nclude image labels in SBOM    Signed-off-by: Benji <br>Visser     * update tests    Signed-off-by: Benji Vi<br>sser     * gocritic    Signed-off-by: Benji Visser  <br>   * add properties    Signed-off-by: Benji Visser  <br>   * add decoder    Signed-off-by: Benji Visser     <br>* update golden snapshots    Signed-off-by: Benji Vi<br>sser     * decodeProperties    Signed-off-by: Benji <br>Visser     * add test    Signed-off-by: Alex Goodman<br>     * remove the snapshot test changes    Signed-of<br>f-by: Alex Goodman     * restore snapshots    Signed<br>-off-by: Alex Goodman     ---------    Signed-off-by<br>: Benji Visser   Signed-off-by: Alex Goodman   Co-au<br>thored-by: Alex Goodman |
-|2023-11-08 21:00:35|[dbeaver](https://github.com/dbeaver/dbeaver)|Merge remote-tracking branch 'origin/devel' into de<br>vel|
-|2023-11-08 20:57:19|[ImHex](https://github.com/WerWolv/ImHex)|fix: Force achievement popup to front|
-|2023-11-08 20:17:01|[grype](https://github.com/anchore/grype)|fix: match against debian unstable (#1593)  This is<br> done by special casing "sid" in the pretty name of <br>  a Linux distro to point to the grype-db debian uns<br>table namespace.    Signed-off-by: Will Murphy |
-|2023-11-08 17:56:59|[all-in-one-v2](https://github.com/zaivanza/all-in-one-v2)|fix readme|
-|2023-11-08 16:32:33|[PST-Bucket](https://github.com/arch3rPro/PST-Bucket)|siyuan: Update to version 2.10.14|
+|2023-11-10 00:00:05|[free](https://github.com/freefq/free)|updated_at 11-10 08:00|
+|2023-11-09 23:58:28|[PocOrExp_in_Githu<br>b](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-11-10 07:58:27|
+|2023-11-09 23:11:23|[DIE-engine](https://github.com/horsicq/DIE-engine)|Update module: XShortcuts 2023-11-10|
+|2023-11-09 19:50:45|[audacity](https://github.com/audacity/audacity)|Merge pull request #5415 from Paul-Licameli/extract<br>-lib-menus  Extract lib menus    The difficult depen<br>dency cycle of CommandManager and Menus is now broke<br>n!    A toolkit-neutral library for declarative desc<br>riptions of menu trees.    Also some reduced depende<br>ncies in CommandManager.cpp, but it is  not yet tool<br>kit neutral too because it depends on ProjectWindows<br>.h, wx/app.h, wx/menu.h|
+|2023-11-09 18:09:14|[neuvector](https://github.com/neuvector/neuvector)|Merge pull request #1077 from williamlin-suse/main <br> NVSHAS-6097/7821: Import/Export of Vulnerability/Co<br>mpliance Profiles|
+|2023-11-09 17:30:08|[syft](https://github.com/anchore/syft)|rename file.Location.VirtualPath to AccessPath (#22<br>88)  Signed-off-by: Alex Goodman |
+|2023-11-09 16:51:21|[dbeaver](https://github.com/dbeaver/dbeaver)|#19188 Strip comments before JSQL parser parsing, a<br>dd # comments to our lexer (#21800)|
+|2023-11-09 16:25:48|[RsaCtfTool](https://github.com/RsaCtfTool/RsaCtfTool)|sed -e's/decipher/decrypt/g'|
+|2023-11-09 16:08:22|[grype](https://github.com/anchore/grype)|chore(deps): update bootstrap tools to latest versi<br>ons (#1595)  Signed-off-by: GitHub   Co-authored-by:<br> westonsteimel |
+|2023-11-09 15:09:58|[Online_tools](https://github.com/Zhao-sai-sai/Online_tools)|Delete zss.exe|
+|2023-11-09 15:07:14|[ImHex](https://github.com/WerWolv/ImHex)|fix: PageUp/PageDown being slightly weird|
+|2023-11-09 13:58:03|[rustdesk](https://github.com/rustdesk/rustdesk)|allow /r in command line|
+|2023-11-09 12:54:20|[FreeRDP](https://github.com/FreeRDP/FreeRDP)|cient/common: Apply GatewayCredentialsSource settin<br>g read from rdp files|
+|2023-11-09 12:35:44|[v2rayfree](https://github.com/aiboboxx/v2rayfree)|update|
+|2023-11-09 12:04:42|[all-in-one-v2](https://github.com/zaivanza/all-in-one-v2)|change data to datas|
+|2023-11-09 10:04:27|[safeline](https://github.com/chaitin/safeline)|feat: release v3.11.0|
+|2023-11-09 09:25:27|[trivy](https://github.com/aquasecurity/trivy)|fix(sbom): add FilesAnalyzed and PackageVerificatio<br>nCode fields for SPDX (#5533)|
+|2023-11-09 08:28:32|[PST-Bucket](https://github.com/arch3rPro/PST-Bucket)|easysrv: Update to version 2.1.1|
+|2023-11-09 08:21:03|[FrameVul](https://github.com/Awrrays/FrameVul)|Update README.md|
+|2023-11-09 02:24:35|[feroxbuster](https://github.com/epi052/feroxbuster)|docs: add RavySena as a contributor for ideas (#102<br>5)  * docs: update README.md [skip ci]    * docs: up<br>date .all-contributorsrc [skip ci]    ---------    C<br>o-authored-by: allcontributors[bot] |
 |2023-11-08 16:08:28|[impacket](https://github.com/fortra/impacket)|Handle unknown NTSTATUS in SessionError (#1311)  * <br>Handle unknown NTSTATUS in SessionError    * Handle <br>unknown NTSTATUS in other places|
 |2023-11-08 15:42:15|[iDefender](https://github.com/wecooperate/iDefender)|update|
-|2023-11-08 14:21:17|[audacity](https://github.com/audacity/audacity)|Merge branch 'release-3.4.1'|
-|2023-11-08 12:35:43|[v2rayfree](https://github.com/aiboboxx/v2rayfree)|update|
-|2023-11-08 11:22:00|[feroxbuster](https://github.com/epi052/feroxbuster)|add http/2 support (#1020)  * added http/2 support <br> * updated deps|
 |2023-11-08 09:28:46|[ghauri](https://github.com/r0oth3x49/ghauri)|updated readme with latest version..|
 |2023-11-08 08:11:34|[domain_hunter_pro](https://github.com/bit4woo/domain_hunter_pro)|update|
 |2023-11-08 06:32:16|[nemo_go](https://github.com/hanc00l/nemo_go)|Update: 一些测试用例信息|
 |2023-11-08 06:09:01|[PeiQi-WIKI-Book](https://github.com/PeiQi0/PeiQi-WIKI-Book)|Merge branch 'main' of github.com:PeiQi0/PeiQi-WIKI<br>-Book|
-|2023-11-08 05:39:53|[trivy](https://github.com/aquasecurity/trivy)|fix: fail k8s resource scanning (#5529)  Signed-off<br>-by: chenk |
-|2023-11-07 19:49:53|[RsaCtfTool](https://github.com/RsaCtfTool/RsaCtfTool)|update carmichael|
 |2023-11-07 19:43:35|[wpscan](https://github.com/wpscanteam/wpscan)|Merge pull request #1814 from wpscanteam/fix/non-la<br>tin-character-slugs  Fix case where a theme slug is <br>all non-latin characters|
 |2023-11-07 16:04:17|[OneScan](https://github.com/vaycore/OneScan)|更新版本号为1.4.0；更新说明文档和部分截图|
-|2023-11-07 15:07:17|[FreeRDP](https://github.com/FreeRDP/FreeRDP)|[utils,smartcard] fix reading of context ref  unify<br> read of context and context pointer data for all ca<br>lls. fixes #9480|
-|2023-11-07 12:23:47|[rustdesk](https://github.com/rustdesk/rustdesk)|Merge pull request #6322 from BestiaPL/master  Upda<br>te pl.rs|
 |2023-11-07 12:16:48|[ARL](https://github.com/TophantTechnology/ARL)|Merge pull request #652 from chushuai/patch-1  360Q<br>uake子域名查询优化|
 |2023-11-07 10:53:08|[heapdump_tool](https://github.com/wyzxxz/heapdump_tool)|Update README.md|
 |2023-11-07 07:01:17|[VolatilityPro](https://github.com/Tokeii0/VolatilityPro)|Update README.md|
 |2023-11-07 02:03:50|[Elkeid](https://github.com/bytedance/Elkeid)|Merge pull request #551 from bytedance/fix-re_match<br>  Fix re match|
-|2023-11-07 01:04:42|[FrameVul](https://github.com/Awrrays/FrameVul)|Update README.md|
 |2023-11-06 14:38:58|[v2rayA](https://github.com/v2rayA/v2rayA)|chore: upgrade node-ipc|
 |2023-11-06 13:56:48|[afrog](https://github.com/zan8in/afrog)|fix set-cookie|
-|2023-11-06 09:03:06|[safeline](https://github.com/chaitin/safeline)|feat(doc): update 3.10.3 change log|
 |2023-11-06 03:46:07|[404StarLink](https://github.com/knownsec/404StarLink)|weekly update at 2023-11-06|
 |2023-11-06 03:24:23|[vulnerability](https://github.com/lal0ne/vulnerability)|CVE-2023-46604|
 |2023-11-06 02:51:48|[frp](https://github.com/fatedier/frp)|Code refactoring related to message handling and re<br>try logic. (#3745)|
+|2023-11-05 10:27:08|[ImageMagick](https://github.com/ImageMagick/ImageMagick)|Increase timeout for signing because we sign a lot <br>of files.|
 |2023-11-05 08:22:46|[CTF-QuickStart](https://github.com/ProbiusOfficial/CTF-QuickStart)|Update README.md|
 |2023-11-05 06:27:53|[Umi-OCR](https://github.com/hiroi-sora/Umi-OCR)|Merge branch 'main' of https://github.com/hiroi-sor<br>a/Umi-OCR  # Conflicts: # README.md|
 |2023-11-05 05:03:51|[gshark](https://github.com/madneal/gshark)|Update release.yml|
 |2023-11-05 03:49:11|[K8tools](https://github.com/k8gege/K8tools)|Add files via upload|
 |2023-11-05 03:42:03|[Ladon](https://github.com/k8gege/Ladon)|Add files via upload|
-|2023-11-05 02:56:19|[neuvector](https://github.com/neuvector/neuvector)|Merge pull request #1081 from becitsthere/dev  NVSH<br>AS-6739: ARM support for fanotify|
 |2023-11-04 11:26:49|[HackerPermKeeper](https://github.com/RuoJi6/HackerPermKeeper)|Update adduser_new_user.py|
 |2023-11-04 03:19:34|[dperf](https://github.com/baidu/dperf)|Merge pull request #387 from pengjianzhang/main  fi<br>x: 1. compile warnnings,  2 don't clear sequences in<br> time-wait state|
 |2023-11-03 20:32:39|[Mobile-Security-F<br>ramework-MobSF](https://github.com/MobSF/Mobile-Security-Framework-MobSF)|Build(deps): Bump django from 4.1.12 to 4.1.13 (#22<br>82)  Bumps  from 4.1.12 to 4.1.13.  -     ---  updat<br>ed-dependencies:  - dependency-name: django    depen<br>dency-type: direct:production  ...    Signed-off-by:<br> dependabot[bot]   Co-authored-by: dependabot[bot] |
@@ -96,11 +100,7 @@
 |2023-10-28 04:17:23|[Stowaway](https://github.com/ph4ntonn/Stowaway)|Add Apple Silicon support|
 |2023-10-28 01:11:30|[DecoyMini](https://github.com/decoymini/DecoyMini)|Update README.md|
 |2023-10-27 08:53:20|[arthas](https://github.com/alibaba/arthas)|update ognl website url|
-|2023-10-26 08:19:35|[murphysec](https://github.com/murphysecurity/murphysec)|feat(cmd): add flag --only-task-id|
-|2023-10-25 12:16:45|[rengine](https://github.com/yogeshojha/rengine)|Merge pull request #1020 from AnonymousWP/bump-to-2<br>.0.1  fix(versioning): bump version number to 2.0.1|
-|2023-10-25 07:56:46|[RmTools](https://github.com/RoomaSec/RmTools)|Update README.md|
-|2023-10-25 07:55:45|[RmEye](https://github.com/RoomaSec/RmEye)|Update readme.md|
-|2023-10-25 03:49:28|[Kunlun-M](https://github.com/LoRexxar/Kunlun-M)|Merge pull request #240 from LoRexxar/develop  fix <br>bug|## 所有项目
+|2023-10-26 08:19:35|[murphysec](https://github.com/murphysecurity/murphysec)|feat(cmd): add flag --only-task-id|## 所有项目
 # 渗透测试
 ## 信息收集
 ### 资产测绘采集
@@ -132,7 +132,7 @@
 | :---- | :---- | :---- |
 | [dirsearch_bypass4<br>03](https://github.com/lemonlove7/dirsearch_bypass403) | v0.2 | 目录扫描+JS文件中提取URL和子域+403状态绕过+指纹识别 |
 | [dirsearch](https://github.com/maurosoria/dirsearch) | v0.4.3 | Web path scanner |
-| [feroxbuster](https://github.com/epi052/feroxbuster) | v2.10.0 | A fast, simple, recursive content discovery tool written in Ru<br>st. |
+| [feroxbuster](https://github.com/epi052/feroxbuster) | v2.10.1 | A fast, simple, recursive content discovery tool written in Ru<br>st. |
 | [ffuf](https://github.com/ffuf/ffuf) | v2.1.0 | Fast web fuzzer written in Go |
 | [dirmap](https://github.com/H4ckForJob/dirmap) |  | An advanced web directory & file scanning tool that will be mo<br>re powerful than DirBuster, Dirsearch, cansina, and Yu Jian.一<br>个高级web目录、文件扫描工具，功能将会强于DirBuster、Dirsearch、c<br>ansina、御剑。 |
 | [cansina](https://github.com/deibit/cansina) | 1.0.0 | Web Content Discovery Tool |
@@ -341,7 +341,7 @@
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
 | [veinmind-tools](https://github.com/chaitin/veinmind-tools) | v2.1.5 | veinmind-tools 是由长亭科技自研，基于 veinmind-sdk 打造的容器<br>安全工具集 |
-| [grype](https://github.com/anchore/grype) | v0.73.0 | A vulnerability scanner for container images and filesystems |
+| [grype](https://github.com/anchore/grype) | v0.73.1 | A vulnerability scanner for container images and filesystems |
 #### 容器漏洞分析工具
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
@@ -353,8 +353,8 @@
 #### 容器镜像扫描
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
-| [grype](https://github.com/anchore/grype) | v0.73.0 | A vulnerability scanner for container images and filesystems |
-| [syft](https://github.com/anchore/syft) | v0.95.0 | CLI tool and library for generating a Software Bill of Materia<br>ls from container images and filesystems |
+| [grype](https://github.com/anchore/grype) | v0.73.1 | A vulnerability scanner for container images and filesystems |
+| [syft](https://github.com/anchore/syft) | v0.96.0 | CLI tool and library for generating a Software Bill of Materia<br>ls from container images and filesystems |
 #### K8S漏洞扫描
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
@@ -510,6 +510,8 @@
 | :---- | :---- | :---- |
 | [jwt_tool](https://github.com/ticarpi/jwt_tool) | v2.2.6 | :snake: A toolkit for testing, tweaking and cracking JSON Web <br>Tokens |
 | [jwt-hack](https://github.com/hahwul/jwt-hack) | v1.1.2 | 🔩 jwt-hack is tool for hacking / security testing to JWT. Sup<br>ported for En/decoding JWT, Generate payload for JWT attack and<br> very fast cracking(dict/brutefoce) |
+| [JWTPyCrack](https://github.com/Ch1ngg/JWTPyCrack) |  | JWT 弱口令 Key 爆破以及生成 NONE 加密的无 Key 的 JWTString |
+| [JWT_GUI](https://github.com/Aiyflowers/JWT_GUI) | replace<br>_brute_e<br>rror | 基于pyqt5和pyjwt实现的jwt加解密爆破一体化工具(ps:其实是水的pyt<br>hon课设) |
 #### DOS
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
@@ -746,6 +748,11 @@
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
 | [BeCyIconGrabberPo<br>rtable](https://github.com/JarlPenguin/BeCyIconGrabberPortable) |  | BeCyIconGrabber allows you to extract icons from almost any fi<br>le! |
+#### 文件时间修改
+| 项目名称 | 版本 | 项目描述 |
+| :---- | :---- | :---- |
+| [ChangeTimestamp](https://github.com/sorabug/ChangeTimestamp) |  | 一键修改exe、dll的编译时间、创建时间、修改时间和访问时间 |
+| [ChTimeStamp](https://github.com/MsF-NTDLL/ChTimeStamp) |  | Changing the Creation time and the Last Written time of a drop<br>ped file by the timestamp of  other one , like the "kernel32.dl<br>l" timestamp |
 ### 免杀
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
@@ -903,6 +910,8 @@
 | [ApoalypseSecTools](https://github.com/ApocalypseSec/ApoalypseSecTools) |  | ApoalypseSecTool更新地址 |
 | [commando-vm](https://github.com/mandiant/commando-vm) |  | Complete Mandiant Offensive VM (Commando VM), a fully customiz<br>able Windows-based pentesting virtual machine distribution. com<br>mandovm@mandiant.com |
 | [PST-Bucket](https://github.com/arch3rPro/PST-Bucket) |  | Scoop-Buket for Penetration Suite Toolkit |
+| [okfafu-pentestVM-<br>public](https://github.com/mrl64/okfafu-pentestVM-public) |  | okfafu渗透虚拟机公开版 |
+| [Online_tools](https://github.com/Zhao-sai-sai/Online_tools) | 0.4.0 | 该工具是一个集成了非常多渗透测试工具，类似软件商城的工具可以进<br>行工具下载，工具的更新，工具编写了自动化的安装脚本，不用担心工具<br>跑不起来。 |
 ### 知识库
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
@@ -1111,6 +1120,10 @@
 | [frpCracker](https://github.com/SleepingBag945/frpCracker) | v0.1 | 一款golang编写的，批量检测frp server未授权访问、弱token的工具 |
 # CTF
 ## 杂项
+### 二维码批量识别
+| 项目名称 | 版本 | 项目描述 |
+| :---- | :---- | :---- |
+| [QrScan](https://github.com/zfb132/QrScan) | v2.9.0 | 离线批量检测图片是否包含二维码以及识别二维码 |
 ### 自动拼图
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
@@ -1125,14 +1138,20 @@
 | [ImageStrike](https://github.com/zR00t1/ImageStrike) | V0.2 | ImageStrike是一款用于CTF中图片隐写的综合利用工具 |
 | [stegpy](https://github.com/dhsdshdhk/stegpy) |  | Simple steganography program based on the LSB method. |
 | [steganography](https://github.com/7thSamurai/steganography) |  | Simple C++ Image Steganography tool to encrypt and hide files <br>insde images using Least-Significant-Bit encoding. |
+| [Acropalypse-Multi<br>-Tool](https://github.com/frankthetank-music/Acropalypse-Multi-Tool) | v1.0.0 | Easily detect and restore Acropalypse vulnerable PNG and GIF f<br>iles with simple Python GUI. |
+| [ImageMagick](https://github.com/ImageMagick/ImageMagick) | 7.1.1-2<br>1 | 🧙‍♂️ ImageMagick 7 |
 #### 图片盲水印
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
 | [BlindWatermark](https://github.com/ww23/BlindWatermark) | v0.0.3 | Java 盲水印 |
 | [BlindWaterMark](https://github.com/chishaxie/BlindWaterMark) |  | 盲水印 by python |
-| [BlindWatermark](https://github.com/ww23/BlindWatermark) | v0.0.3 | Java 盲水印 |
 | [blind-watermark](https://github.com/linyacool/blind-watermark) |  | Watermark added to the frequency domain by Fourier transform |
 | [blind_watermark](https://github.com/guofei9987/blind_watermark) | 0.2.1 | Blind&Invisible Watermark ，图片盲水印，提取水印无须原图！ |
+#### png隐写
+##### png宽高修复
+| 项目名称 | 版本 | 项目描述 |
+| :---- | :---- | :---- |
+| [Deformed-Image-Re<br>storer](https://github.com/AabyssZG/Deformed-Image-Restorer) | V1.02 | 自动爆破PNG图片宽高并一键修复工具 |
 ### 流量分析
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
@@ -1181,6 +1200,7 @@
 | :---- | :---- | :---- |
 | [audacity](https://github.com/audacity/audacity) | Audacit<br>y-3.4.1 | Audio Editor                                      |
 | [dtmf-decoder](https://github.com/ribt/dtmf-decoder) |  | Extract phone numbers from an audio recording of the dial tone<br>s. |
+| [QSSTV](https://github.com/ON4QZ/QSSTV) |  | Receive and transmit images over radio using analog SSTV or di<br>gital DRM |
 ### 压缩文件分析
 #### CRC爆破
 | 项目名称 | 版本 | 项目描述 |
@@ -1207,6 +1227,10 @@
 | :---- | :---- | :---- |
 | [JavaDecompileTool<br>-GUI](https://github.com/MountCloud/JavaDecompileTool-GUI) | V1.2 | Java Decompile Tool GUI-JAVA反编译工具（界面版） |
 | [CodeReviewTools](https://github.com/Ppsoft1991/CodeReviewTools) | v1.31 | 通过正则搜索、批量反编译特定Jar包中的class名称 |
+### 查壳
+| 项目名称 | 版本 | 项目描述 |
+| :---- | :---- | :---- |
+| [DIE-engine](https://github.com/horsicq/DIE-engine) | 3.08 | DIE engine |
 ## WEB
 ### 敏感目录
 | 项目名称 | 版本 | 项目描述 |
@@ -1221,6 +1245,10 @@
 | [rsa-wiener-attack](https://github.com/pablocelayes/rsa-wiener-attack) |  | A Python implementation of the Wiener attack on RSA public-key<br> encryption scheme. |
 | [RSA](https://github.com/Mr-Aur0ra/RSA) |  |  |
 | [RsaCtfTool](https://github.com/RsaCtfTool/RsaCtfTool) |  | RSA attack tool (mainly for ctf) - retreive private key from w<br>eak public key and/or uncipher data |
+### autokey
+| 项目名称 | 版本 | 项目描述 |
+| :---- | :---- | :---- |
+| [breakautokey](https://github.com/hotzzzzy/breakautokey) |  | breakautokey |
 ## AWD
 ### 线下平台
 | 项目名称 | 版本 | 项目描述 |
@@ -1304,6 +1332,7 @@
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
 | [FireKylin](https://github.com/MountCloud/FireKylin) | v1.4.0 | 🔥火麒麟-网络安全应急响应工具(系统痕迹采集)Cybersecurity emerg<br>ency response tool.👍👍👍 |
+| [sysmon-config](https://github.com/SwiftOnSecurity/sysmon-config) |  | Sysmon configuration file template with default high-quality e<br>vent tracing |
 ## web日志分析
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
@@ -1513,3 +1542,7 @@
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
 | [KeymouseGo](https://github.com/taojy123/KeymouseGo) | v5.1.1 | 类似按键精灵的鼠标键盘录制和自动化操作 模拟点击和键入 | automa<br>te mouse clicks and keyboard input |
+## pppoe拦截
+| 项目名称 | 版本 | 项目描述 |
+| :---- | :---- | :---- |
+| [pppoe-intercept](https://github.com/akkuman/pppoe-intercept) | v0.3 | 用来模拟中间人拦截 pppoe 拨号过程的账号密码 |
