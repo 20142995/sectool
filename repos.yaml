@@ -458,6 +458,7 @@
         免杀相关:
             签名伪造:
                 - https://github.com/secretsquirrel/SigThief
+                - https://github.com/langsasec/Sign-Sacker
             图标提取:
                 - https://github.com/JarlPenguin/BeCyIconGrabberPortable
             文件时间修改:
