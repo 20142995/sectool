@@ -1,8 +1,10 @@
-# 更新于 2023-11-10 08:36:09
+# 更新于 2023-11-11 08:34:09
 
 ## 近15天release更新记录
 | 更新时间 | 项目名称 | 版本 | 更新内容 |
 | :---- | :---- | :---- | :---- |
+|2023-11-10 18:30:08|[neuvector](https://github.com/neuvector/neuvector)|v5.2.3|New Features:  Support usage based bi<br>lling in GCP and Azure     Bug fixes: <br> NVSHAS-8426: Not to revert admission <br>control webhook if the cloud service m<br>odify it at the same time  NVSHAS-8411<br>: possible deadlock when running on si<br>ngle node  Various bug fixes on vulner<br>ability reporting    Scanner:  Support<br> container host scan in standalone mod<br>e  Support vulnerability NVD API 2.0|
+|2023-11-10 16:21:49|[faker](https://github.com/joke2k/faker)|v20.0.0|See .|
 |2023-11-09 15:02:57|[grype](https://github.com/anchore/grype)|v0.73.1|### Bug Fixes  - CycloneDX based anal<br>ysis failing   @anchore-actions-token-<br>generator] - False negatives when scan<br>ning debian trixie/sid images from Doc<br>kerhub   @willmurphyscode]  ### Additi<br>onal Changes  - avoid allocations with<br> (*regexp.Regexp).MatchString  @Juneez<br>ee]  ****  |
 |2023-11-09 14:11:50|[syft](https://github.com/anchore/syft)|v0.96.0|### Added Features  - Check maven cen<br>tral as well for licenses in parents p<br>oms for nested jars  @coheigea] - stor<br>e image annotations inside the SBOM   <br>@noqcks] - Support parsing license inf<br>ormation in Maven projects via parent <br>poms ]  ### Bug Fixes  - SPDX file has<br> duplicate sha256 tag in versionInfo  <br>@coheigea] - Report virtual path consi<br>stently between file.Resolvers   @wago<br>odman] - Unable to identify CycloneDX <br>JSON documents without $schema propert<br>y   @kzantow]  ****  |
 |2023-11-09 02:37:19|[feroxbuster](https://github.com/epi052/feroxbuster)|v2.10.1|## What's Changed  * fixed scan menu <br>range issue by @epi052 in https://gith<br>ub.com/epi052/feroxbuster/pull/936  * <br>enable reading extensions from file by<br> @andreademurtas in https://github.com<br>/epi052/feroxbuster/pull/976  * fixed <br>collect backups filtering by @epi052 i<br>n https://github.com/epi052/feroxbuste<br>r/pull/1016  * added http/2 support by<br> @epi052 in https://github.com/epi052/<br>feroxbuster/pull/1020  * allowed --jso<br>n in conjunction with --silent by @epi<br>052 in https://github.com/epi052/ferox<br>buster/pull/1022    ## New Contributor<br>s  * @andreademurtas made their first <br>contribution in https://github.com/epi<br>052/feroxbuster/pull/976    **Full Cha<br>ngelog**: https://github.com/epi052/fe<br>roxbuster/compare/v2.10.0...v2.10.1|
@@ -18,35 +20,36 @@
 |2023-11-05 03:44:43|[Ladon](https://github.com/k8gege/Ladon)|v11.9|Ladon 11.9  20231105  [u]LadonStudy  <br>支持bypassEDR  [u]LadonShell  支持tls 1<br>.2  [u]RdpInfo    优化RDP Ntlm探测系统<br>信息  [u]RdpLog   查看3389连接日志(IP、<br>用户名、CertHash)  [+]CVE-2023-46604 Ac<br>tiveMQ CVE-2023-46604 RCE Exploit     <br> Ladon 11.8  20231018  [u]InfoScan   <br>新增SmtpInfo  [+]SmtpInfo   新增Smtp Nt<br>lm探测系统信息(25、465、587端口)  [u]I<br>nfoScan   新增HttpInfo  [+]HttpInfo   <br>新增Http/Https Ntlm探测系统信息(SharePo<br>int)      Ladon 11.7 20231010  [u]BadP<br>otato  本地提权 支持Base64参数 解决Cob<br>alt Strike或LadonShell下双引号等问题  <br>[u]EfsPotato  本地提权 支持Base64参数 <br>解决Cobalt Strike或LadonShell下双引号等<br>问题  [u]GodPotato  本地提权 支持Base64<br>参数 解决Cobalt Strike或LadonShell下双<br>引号等问题  [u]SweetPotato  本地提权 支<br>持Base64参数 解决Cobalt Strike或LadonSh<br>ell下双引号等问题  [u]McpPotato  本地<br>提权 支持Base64参数 解决Cobalt Strike或<br>LadonShell下双引号等问题  [+]clsLog   <br>新增清理最近访问文件记录    9.24  [u] W<br>miExec2  横向移动 内网渗透 修复b64cmd<br>参数Bug  [u] WmiExec   横向移动 内网渗<br>透 修复域用户连接Bug  [+] AtExec   横向<br>移动 内网渗透 Base64统一为Unicode(如who<br>ami编码 dwBoAG8AYQBtAGkA )    9.18  [u<br>]PostShell   hexupload支持任意文件上传<br>-当前目录|
 |2023-11-03 04:34:30|[safeline](https://github.com/chaitin/safeline)|v3.10.1|### 修复    - 修复无法修改 通用配置-<br>其他-拦截页面附加说明 的问题|
 |2023-11-02 14:46:40|[nuclei](https://github.com/projectdiscovery/nuclei)|v3.0.3|    ## What's Changed  * Added self-c<br>ontained template support to headless <br>protocol by @dogancanbakir in https://<br>github.com/projectdiscovery/nuclei/pul<br>l/4322  * Added miscellaneous SDK enha<br>ncements by @tarunKoyalwar in https://<br>github.com/projectdiscovery/nuclei/pul<br>l/4301  * Fixed issue with trailing do<br>t in dns protocol by @dogancanbakir in<br> https://github.com/projectdiscovery/n<br>uclei/pull/4295  * Fixed connection is<br>sues in javascript, network protocol @<br>tarunKoyalwar in https://github.com/pr<br>ojectdiscovery/nuclei/pull/4313  * Fix<br>ed issue in flow to use javascript by <br>@tarunKoyalwar in https://github.com/p<br>rojectdiscovery/nuclei/pull/4313  * Up<br>dated cloned directory structure (proj<br>ect owner => repo) for GitHub by @doga<br>ncanbakir in https://github.com/projec<br>tdiscovery/nuclei/pull/4293    ## New <br>Contributors  * @atomiczsec made their<br> first contribution in https://github.<br>com/projectdiscovery/nuclei/pull/4296 <br>   **Full Changelog**: https://github.<br>com/projectdiscovery/nuclei/compare/v3<br>.0.2...v3.0.3|
-|2023-11-01 18:27:18|[faker](https://github.com/joke2k/faker)|v19.13.<br>0|See .|
 |2023-11-01 03:30:09|[WeblogicTool](https://github.com/KimJun1010/WeblogicTool)|v1.3|更新记录    - 修复CVE_2020_14882特殊<br>环境下漏报问题  - 修复CVE_2018_2894工作<br>目录路径问题|
 |2023-11-01 03:28:43|[afrog](https://github.com/zan8in/afrog)|v2.9.1|### 为了解决2.9.0版本代码优化引发的重<br>大漏洞问题，该漏洞会严重干扰漏洞探测结<br>果，我们强烈建议您立即升级到2.9.1版本，<br>或者使用2.8.9版本或更低版本。  ### 受影<br>响的版本：v2.9.0    ### Added -resume c<br>ommand to resume scanning using the sp<br>ecified afrog-resume.cfg file  ### 新<br>增 -resume 命令，使用指定的 afrog-resum<br>e.cfg 文件恢复扫描    |
 |2023-10-29 18:50:38|[malwoverview](https://github.com/alexandreborges/malwoverview)|v5.4.2|Malwoverview 5.4.2|
 |2023-10-29 10:13:17|[HackerPermKeeper](https://github.com/RuoJi6/HackerPermKeeper)|6.0| 1、Suid shell bash权限维持    2、重<br>写生成代码(连续生成)    3、添加不记录历<br>史命令临时操作，同时可以批量删除指定的.<br>bash_history文件中的历史记录    4、修<br>改检查脚本(添加检查环境)    5、使用tabu<br>late模块进行格式化输出|
-|2023-10-27 16:42:15|[neuvector](https://github.com/neuvector/neuvector)|v5.0.7-<br>s6||
 |2023-10-27 11:00:44|[Pentest-Windows](https://github.com/arch3rPro/Pentest-Windows)|v2.2|新增内网渗透工具和远程管理工具、删除<br>了部分已不再维护或基本不用的工具    Win<br>dows11 Penetration Suite Toolkit v2.2 <br>(WSL) 【推荐】  下载链接：https://www.<br>123pan.com/s/q59KVv-T4Qpd.html 提取码:<br>wpst  文件大小：8.55GB，解压后：23.2GB<br>  SHA256：7305DBFFF38EAAD59373C8232EB4<br>17F6E996A5E80F379D22688BAC0E7C8CA6A9  <br>Windows11 Penetration Suite Toolkit v2<br>.2 (NoWSL) 【无WSL】  下载链接：https:<br>//www.123pan.com/s/q59KVv-tvQpd.html <br>提取码:wpst  文件大小：7.13 GB，解压后<br>：17.6GB  SHA256：D05F8366E1054911AAE88<br>5A61D2621786B74CC6050F55A66B90CE4EDD38<br>CFD98|
 ## 近15天commit提交记录
 | 提交时间 | 项目名称 | 更新内容 |
 | :---- | :---- | :---- |
-|2023-11-10 00:00:05|[free](https://github.com/freefq/free)|updated_at 11-10 08:00|
-|2023-11-09 23:58:28|[PocOrExp_in_Githu<br>b](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-11-10 07:58:27|
-|2023-11-09 23:11:23|[DIE-engine](https://github.com/horsicq/DIE-engine)|Update module: XShortcuts 2023-11-10|
-|2023-11-09 19:50:45|[audacity](https://github.com/audacity/audacity)|Merge pull request #5415 from Paul-Licameli/extract<br>-lib-menus  Extract lib menus    The difficult depen<br>dency cycle of CommandManager and Menus is now broke<br>n!    A toolkit-neutral library for declarative desc<br>riptions of menu trees.    Also some reduced depende<br>ncies in CommandManager.cpp, but it is  not yet tool<br>kit neutral too because it depends on ProjectWindows<br>.h, wx/app.h, wx/menu.h|
-|2023-11-09 18:09:14|[neuvector](https://github.com/neuvector/neuvector)|Merge pull request #1077 from williamlin-suse/main <br> NVSHAS-6097/7821: Import/Export of Vulnerability/Co<br>mpliance Profiles|
+|2023-11-11 00:00:02|[free](https://github.com/freefq/free)|updated_at 11-11 08:00|
+|2023-11-10 23:55:27|[PocOrExp_in_Githu<br>b](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-11-11 07:55:27|
+|2023-11-10 23:54:16|[ImHex](https://github.com/WerWolv/ImHex)|feat: Added simple graphing calculator|
+|2023-11-10 23:12:08|[DIE-engine](https://github.com/horsicq/DIE-engine)|Update module: XInfoDB 2023-11-11|
+|2023-11-10 23:06:22|[neuvector](https://github.com/neuvector/neuvector)|Merge pull request #1090 from holyspectral/saml-slo<br>  NVSHAS-7616 SAML Single Logout (SLO) support|
+|2023-11-10 17:40:47|[dbeaver](https://github.com/dbeaver/dbeaver)|dbeaver/pro#2055 AI chat improvements (again) (#217<br>37)  * dbeaver/pro#2055 Don't include prompt text in<br> the chat    * dbeaver/pro#2055 Update connection in<br>formation    * dbeaver/pro#2055 Fix clipping when ch<br>anging scope    * dbeaver/pro#2055 Hide AI chat if A<br>I integration is disabled    * dbeaver/pro#2055 Upda<br>te connection information    * dbeaver/pro#2055 Show<br> result tabs when opening AI chat    * dbeaver/pro#2<br>055 Show presentation toggle shortcut    * dbeaver/p<br>ro#2055 Toggle presentation by clicking on toggle bu<br>tton again    * dbeaver/pro#2055 Replace toolbar wit<br>h popup menu    * dbeaver/pro#2055 Code style    ---<br>------    Co-authored-by: MashaKorax |
+|2023-11-10 16:21:15|[faker](https://github.com/joke2k/faker)|Bump version: 19.13.0 → 20.0.0|
+|2023-11-10 15:00:52|[audacity](https://github.com/audacity/audacity)|Merge remote-tracking branch 'audacity/release-3.4.<br>2' into master|
+|2023-11-10 13:54:18|[RsaCtfTool](https://github.com/RsaCtfTool/RsaCtfTool)|Change uncipher to decrypt. issue 398|
+|2023-11-10 12:35:39|[v2rayfree](https://github.com/aiboboxx/v2rayfree)|update|
+|2023-11-10 12:31:31|[rengine](https://github.com/yogeshojha/rengine)|Merge pull request #1029 from luizmlo/patch-1  Adde<br>d tooltip text to dashboard total vulnerabilities to<br>oltip|
+|2023-11-10 09:27:18|[safeline](https://github.com/chaitin/safeline)|fix(fe): missing install count|
+|2023-11-10 08:58:23|[FreeRDP](https://github.com/FreeRDP/FreeRDP)|[ifdef] properly check for defined|
+|2023-11-10 08:28:33|[PST-Bucket](https://github.com/arch3rPro/PST-Bucket)|yakit: Update to version 1.2.7-sp4|
+|2023-11-10 08:08:31|[ImageMagick](https://github.com/ImageMagick/ImageMagick)|Switch to using GetEnvironmentVariableW on Windows <br>(#6843).|
+|2023-11-10 03:36:23|[Online_tools](https://github.com/Zhao-sai-sai/Online_tools)|0.4.0文件下载错修复|
+|2023-11-10 00:55:01|[FrameVul](https://github.com/Awrrays/FrameVul)|Update README.md|
 |2023-11-09 17:30:08|[syft](https://github.com/anchore/syft)|rename file.Location.VirtualPath to AccessPath (#22<br>88)  Signed-off-by: Alex Goodman |
-|2023-11-09 16:51:21|[dbeaver](https://github.com/dbeaver/dbeaver)|#19188 Strip comments before JSQL parser parsing, a<br>dd # comments to our lexer (#21800)|
-|2023-11-09 16:25:48|[RsaCtfTool](https://github.com/RsaCtfTool/RsaCtfTool)|sed -e's/decipher/decrypt/g'|
 |2023-11-09 16:08:22|[grype](https://github.com/anchore/grype)|chore(deps): update bootstrap tools to latest versi<br>ons (#1595)  Signed-off-by: GitHub   Co-authored-by:<br> westonsteimel |
-|2023-11-09 15:09:58|[Online_tools](https://github.com/Zhao-sai-sai/Online_tools)|Delete zss.exe|
-|2023-11-09 15:07:14|[ImHex](https://github.com/WerWolv/ImHex)|fix: PageUp/PageDown being slightly weird|
 |2023-11-09 13:58:03|[rustdesk](https://github.com/rustdesk/rustdesk)|allow /r in command line|
-|2023-11-09 12:54:20|[FreeRDP](https://github.com/FreeRDP/FreeRDP)|cient/common: Apply GatewayCredentialsSource settin<br>g read from rdp files|
-|2023-11-09 12:35:44|[v2rayfree](https://github.com/aiboboxx/v2rayfree)|update|
 |2023-11-09 12:04:42|[all-in-one-v2](https://github.com/zaivanza/all-in-one-v2)|change data to datas|
-|2023-11-09 10:04:27|[safeline](https://github.com/chaitin/safeline)|feat: release v3.11.0|
 |2023-11-09 09:25:27|[trivy](https://github.com/aquasecurity/trivy)|fix(sbom): add FilesAnalyzed and PackageVerificatio<br>nCode fields for SPDX (#5533)|
-|2023-11-09 08:28:32|[PST-Bucket](https://github.com/arch3rPro/PST-Bucket)|easysrv: Update to version 2.1.1|
-|2023-11-09 08:21:03|[FrameVul](https://github.com/Awrrays/FrameVul)|Update README.md|
 |2023-11-09 02:24:35|[feroxbuster](https://github.com/epi052/feroxbuster)|docs: add RavySena as a contributor for ideas (#102<br>5)  * docs: update README.md [skip ci]    * docs: up<br>date .all-contributorsrc [skip ci]    ---------    C<br>o-authored-by: allcontributors[bot] |
 |2023-11-08 16:08:28|[impacket](https://github.com/fortra/impacket)|Handle unknown NTSTATUS in SessionError (#1311)  * <br>Handle unknown NTSTATUS in SessionError    * Handle <br>unknown NTSTATUS in other places|
 |2023-11-08 15:42:15|[iDefender](https://github.com/wecooperate/iDefender)|update|
@@ -65,7 +68,6 @@
 |2023-11-06 03:46:07|[404StarLink](https://github.com/knownsec/404StarLink)|weekly update at 2023-11-06|
 |2023-11-06 03:24:23|[vulnerability](https://github.com/lal0ne/vulnerability)|CVE-2023-46604|
 |2023-11-06 02:51:48|[frp](https://github.com/fatedier/frp)|Code refactoring related to message handling and re<br>try logic. (#3745)|
-|2023-11-05 10:27:08|[ImageMagick](https://github.com/ImageMagick/ImageMagick)|Increase timeout for signing because we sign a lot <br>of files.|
 |2023-11-05 08:22:46|[CTF-QuickStart](https://github.com/ProbiusOfficial/CTF-QuickStart)|Update README.md|
 |2023-11-05 06:27:53|[Umi-OCR](https://github.com/hiroi-sora/Umi-OCR)|Merge branch 'main' of https://github.com/hiroi-sor<br>a/Umi-OCR  # Conflicts: # README.md|
 |2023-11-05 05:03:51|[gshark](https://github.com/madneal/gshark)|Update release.yml|
@@ -84,7 +86,6 @@
 |2023-11-02 14:33:19|[nuclei](https://github.com/projectdiscovery/nuclei)|Merge branch 'dev'|
 |2023-11-02 07:13:39|[WebGoat](https://github.com/WebGoat/WebGoat)|chore: bump org.apache.maven.plugins:maven-checksty<br>le-plugin (#1640)  Bumps  from 3.3.0 to 3.3.1.  -   <br>  ---  updated-dependencies:  - dependency-name: org<br>.apache.maven.plugins:maven-checkstyle-plugin    dep<br>endency-type: direct:production    update-type: vers<br>ion-update:semver-patch  ...    Signed-off-by: depen<br>dabot[bot]   Co-authored-by: dependabot[bot] |
 |2023-11-02 02:34:34|[Awesome-Redteam](https://github.com/Threekiii/Awesome-Redteam)|更新README.md|
-|2023-11-01 18:26:33|[faker](https://github.com/joke2k/faker)|Bump version: 19.12.1 → 19.13.0|
 |2023-11-01 13:54:19|[ChatGPT-Shortcut](https://github.com/rockbenben/ChatGPT-Shortcut)|style: Optimize the style of the favor icon for log<br>ged-out users|
 |2023-11-01 04:18:55|[java-memshell-gen<br>erator-release](https://github.com/pen4uin/java-memshell-generator-release)|archived|
 |2023-10-31 14:16:15|[sqlmap](https://github.com/sqlmapproject/sqlmap)|Fixes #5560|
@@ -99,8 +100,7 @@
 |2023-10-28 04:46:18|[OA-EXPTOOL](https://github.com/LittleBear4/OA-EXPTOOL)|Update README.md|
 |2023-10-28 04:17:23|[Stowaway](https://github.com/ph4ntonn/Stowaway)|Add Apple Silicon support|
 |2023-10-28 01:11:30|[DecoyMini](https://github.com/decoymini/DecoyMini)|Update README.md|
-|2023-10-27 08:53:20|[arthas](https://github.com/alibaba/arthas)|update ognl website url|
-|2023-10-26 08:19:35|[murphysec](https://github.com/murphysecurity/murphysec)|feat(cmd): add flag --only-task-id|## 所有项目
+|2023-10-27 08:53:20|[arthas](https://github.com/alibaba/arthas)|update ognl website url|## 所有项目
 # 渗透测试
 ## 信息收集
 ### 资产测绘采集
@@ -366,7 +366,7 @@
 #### 云原生安全平台
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
-| [neuvector](https://github.com/neuvector/neuvector) | v5.0.7-<br>s6 |  |
+| [neuvector](https://github.com/neuvector/neuvector) | v5.2.3 |  |
 | [ThunderCloud](https://github.com/Rnalter/ThunderCloud) |  | Cloud Exploit Framework |
 ### 半自动化漏洞利用
 | 项目名称 | 版本 | 项目描述 |
@@ -744,6 +744,7 @@
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
 | [SigThief](https://github.com/secretsquirrel/SigThief) |  | Stealing Signatures and Making One Invalid Signature at a Time |
+| [Sign-Sacker](https://github.com/langsasec/Sign-Sacker) |  | Sign-Sacker(签名掠夺者)：一款数字签名复制器，可将其他官方exe中<br>数字签名，图标，详细信息复制到没有签名的exe中，作为免杀，权限维<br>持，伪装的一种小手段。 |
 #### 图标提取
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
@@ -948,6 +949,11 @@
 | [K8tools](https://github.com/k8gege/K8tools) |  | K8工具合集(内网渗透/提权工具/远程溢出/漏洞利用/扫描工具/密码破<br>解/免杀工具/Exploit/APT/0day/Shellcode/Payload/priviledge/Bypass<br>UAC/OverFlow/WebShell/PenTest) Web GetShell Exploit(Struts2/Zim<br>bra/Weblogic/Tomcat/Apache/Jboss/DotNetNuke/zabbix) |
 ## 工具周边
 ### Burpsuite
+#### 绕过指纹检测
+| 项目名称 | 版本 | 项目描述 |
+| :---- | :---- | :---- |
+| [burp-awesome-tls](https://github.com/sleeyax/burp-awesome-tls) | v1.1.0 | Fixes Burp Suite's poor TLS stack. Bypass WAF, spoof any brows<br>er. |
+#### 未分类
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
 | [PowerScanner](https://github.com/NeoTheCapt/PowerScanner) | 1.1.3 | 面向HW的红队半自动扫描器 |
@@ -1244,7 +1250,7 @@
 | [CTF-RSA-tool](https://github.com/6u661e/CTF-RSA-tool) |  | a little tool help CTFer solve RSA problem |
 | [rsa-wiener-attack](https://github.com/pablocelayes/rsa-wiener-attack) |  | A Python implementation of the Wiener attack on RSA public-key<br> encryption scheme. |
 | [RSA](https://github.com/Mr-Aur0ra/RSA) |  |  |
-| [RsaCtfTool](https://github.com/RsaCtfTool/RsaCtfTool) |  | RSA attack tool (mainly for ctf) - retreive private key from w<br>eak public key and/or uncipher data |
+| [RsaCtfTool](https://github.com/RsaCtfTool/RsaCtfTool) |  | RSA attack tool (mainly for ctf) - retrieve private key from w<br>eak public key and/or uncipher data |
 ### autokey
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
@@ -1410,7 +1416,7 @@
 ## 生成虚假数据
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
-| [faker](https://github.com/joke2k/faker) | v19.13.<br>0 | Faker is a Python package that generates fake data for you. |
+| [faker](https://github.com/joke2k/faker) | v20.0.0 | Faker is a Python package that generates fake data for you. |
 ## 短信转发器
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
