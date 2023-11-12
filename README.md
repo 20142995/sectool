@@ -1,8 +1,9 @@
-# 更新于 2023-11-11 08:34:09
+# 更新于 2023-11-12 08:37:53
 
 ## 近15天release更新记录
 | 更新时间 | 项目名称 | 版本 | 更新内容 |
 | :---- | :---- | :---- | :---- |
+|2023-11-11 15:14:40|[autoDecoder](https://github.com/f0ng/autoDecoder)|0.34|## 2023.11.11 更新0.34  1. 增加header<br>头关键字判断|
 |2023-11-10 18:30:08|[neuvector](https://github.com/neuvector/neuvector)|v5.2.3|New Features:  Support usage based bi<br>lling in GCP and Azure     Bug fixes: <br> NVSHAS-8426: Not to revert admission <br>control webhook if the cloud service m<br>odify it at the same time  NVSHAS-8411<br>: possible deadlock when running on si<br>ngle node  Various bug fixes on vulner<br>ability reporting    Scanner:  Support<br> container host scan in standalone mod<br>e  Support vulnerability NVD API 2.0|
 |2023-11-10 16:21:49|[faker](https://github.com/joke2k/faker)|v20.0.0|See .|
 |2023-11-09 15:02:57|[grype](https://github.com/anchore/grype)|v0.73.1|### Bug Fixes  - CycloneDX based anal<br>ysis failing   @anchore-actions-token-<br>generator] - False negatives when scan<br>ning debian trixie/sid images from Doc<br>kerhub   @willmurphyscode]  ### Additi<br>onal Changes  - avoid allocations with<br> (*regexp.Regexp).MatchString  @Juneez<br>ee]  ****  |
@@ -24,30 +25,30 @@
 |2023-11-01 03:28:43|[afrog](https://github.com/zan8in/afrog)|v2.9.1|### 为了解决2.9.0版本代码优化引发的重<br>大漏洞问题，该漏洞会严重干扰漏洞探测结<br>果，我们强烈建议您立即升级到2.9.1版本，<br>或者使用2.8.9版本或更低版本。  ### 受影<br>响的版本：v2.9.0    ### Added -resume c<br>ommand to resume scanning using the sp<br>ecified afrog-resume.cfg file  ### 新<br>增 -resume 命令，使用指定的 afrog-resum<br>e.cfg 文件恢复扫描    |
 |2023-10-29 18:50:38|[malwoverview](https://github.com/alexandreborges/malwoverview)|v5.4.2|Malwoverview 5.4.2|
 |2023-10-29 10:13:17|[HackerPermKeeper](https://github.com/RuoJi6/HackerPermKeeper)|6.0| 1、Suid shell bash权限维持    2、重<br>写生成代码(连续生成)    3、添加不记录历<br>史命令临时操作，同时可以批量删除指定的.<br>bash_history文件中的历史记录    4、修<br>改检查脚本(添加检查环境)    5、使用tabu<br>late模块进行格式化输出|
-|2023-10-27 11:00:44|[Pentest-Windows](https://github.com/arch3rPro/Pentest-Windows)|v2.2|新增内网渗透工具和远程管理工具、删除<br>了部分已不再维护或基本不用的工具    Win<br>dows11 Penetration Suite Toolkit v2.2 <br>(WSL) 【推荐】  下载链接：https://www.<br>123pan.com/s/q59KVv-T4Qpd.html 提取码:<br>wpst  文件大小：8.55GB，解压后：23.2GB<br>  SHA256：7305DBFFF38EAAD59373C8232EB4<br>17F6E996A5E80F379D22688BAC0E7C8CA6A9  <br>Windows11 Penetration Suite Toolkit v2<br>.2 (NoWSL) 【无WSL】  下载链接：https:<br>//www.123pan.com/s/q59KVv-tvQpd.html <br>提取码:wpst  文件大小：7.13 GB，解压后<br>：17.6GB  SHA256：D05F8366E1054911AAE88<br>5A61D2621786B74CC6050F55A66B90CE4EDD38<br>CFD98|
 ## 近15天commit提交记录
 | 提交时间 | 项目名称 | 更新内容 |
 | :---- | :---- | :---- |
-|2023-11-11 00:00:02|[free](https://github.com/freefq/free)|updated_at 11-11 08:00|
-|2023-11-10 23:55:27|[PocOrExp_in_Githu<br>b](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-11-11 07:55:27|
-|2023-11-10 23:54:16|[ImHex](https://github.com/WerWolv/ImHex)|feat: Added simple graphing calculator|
-|2023-11-10 23:12:08|[DIE-engine](https://github.com/horsicq/DIE-engine)|Update module: XInfoDB 2023-11-11|
-|2023-11-10 23:06:22|[neuvector](https://github.com/neuvector/neuvector)|Merge pull request #1090 from holyspectral/saml-slo<br>  NVSHAS-7616 SAML Single Logout (SLO) support|
-|2023-11-10 17:40:47|[dbeaver](https://github.com/dbeaver/dbeaver)|dbeaver/pro#2055 AI chat improvements (again) (#217<br>37)  * dbeaver/pro#2055 Don't include prompt text in<br> the chat    * dbeaver/pro#2055 Update connection in<br>formation    * dbeaver/pro#2055 Fix clipping when ch<br>anging scope    * dbeaver/pro#2055 Hide AI chat if A<br>I integration is disabled    * dbeaver/pro#2055 Upda<br>te connection information    * dbeaver/pro#2055 Show<br> result tabs when opening AI chat    * dbeaver/pro#2<br>055 Show presentation toggle shortcut    * dbeaver/p<br>ro#2055 Toggle presentation by clicking on toggle bu<br>tton again    * dbeaver/pro#2055 Replace toolbar wit<br>h popup menu    * dbeaver/pro#2055 Code style    ---<br>------    Co-authored-by: MashaKorax |
+|2023-11-12 00:22:01|[ImHex](https://github.com/WerWolv/ImHex)|refactor: refactor tools_entries.cpp into several s<br>maller files (#1418)|
+|2023-11-12 00:00:02|[free](https://github.com/freefq/free)|updated_at 11-12 08:00|
+|2023-11-11 23:57:37|[PocOrExp_in_Githu<br>b](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-11-12 07:57:37|
+|2023-11-11 20:19:39|[ImageMagick](https://github.com/ImageMagick/ImageMagick)|revert|
+|2023-11-11 15:14:47|[autoDecoder](https://github.com/f0ng/autoDecoder)|Update README.md|
+|2023-11-11 14:38:01|[DIE-engine](https://github.com/horsicq/DIE-engine)|Update module: Detect-It-Easy 2023-11-11|
+|2023-11-11 12:32:57|[v2rayfree](https://github.com/aiboboxx/v2rayfree)|update|
+|2023-11-11 11:36:13|[rustdesk](https://github.com/rustdesk/rustdesk)|Merge pull request #6374 from jxdv/cs-tr  update cs<br>.rs|
+|2023-11-11 07:35:02|[dbeaver](https://github.com/dbeaver/dbeaver)|23.2.5 version bump|
+|2023-11-11 06:50:07|[neuvector](https://github.com/neuvector/neuvector)|Merge pull request #1091 from holyspectral/dismiss-<br>gosaml2-false-positive  NVSHAS-7616 dismiss false po<br>sitive on dependabot|
+|2023-11-11 03:02:53|[syft](https://github.com/anchore/syft)|Fall back to searching maven central using groupIDF<br>romJavaMetadata (#2295)  Signed-off-by: Colm O hEige<br>artaigh |
 |2023-11-10 16:21:15|[faker](https://github.com/joke2k/faker)|Bump version: 19.13.0 → 20.0.0|
 |2023-11-10 15:00:52|[audacity](https://github.com/audacity/audacity)|Merge remote-tracking branch 'audacity/release-3.4.<br>2' into master|
 |2023-11-10 13:54:18|[RsaCtfTool](https://github.com/RsaCtfTool/RsaCtfTool)|Change uncipher to decrypt. issue 398|
-|2023-11-10 12:35:39|[v2rayfree](https://github.com/aiboboxx/v2rayfree)|update|
 |2023-11-10 12:31:31|[rengine](https://github.com/yogeshojha/rengine)|Merge pull request #1029 from luizmlo/patch-1  Adde<br>d tooltip text to dashboard total vulnerabilities to<br>oltip|
 |2023-11-10 09:27:18|[safeline](https://github.com/chaitin/safeline)|fix(fe): missing install count|
 |2023-11-10 08:58:23|[FreeRDP](https://github.com/FreeRDP/FreeRDP)|[ifdef] properly check for defined|
 |2023-11-10 08:28:33|[PST-Bucket](https://github.com/arch3rPro/PST-Bucket)|yakit: Update to version 1.2.7-sp4|
-|2023-11-10 08:08:31|[ImageMagick](https://github.com/ImageMagick/ImageMagick)|Switch to using GetEnvironmentVariableW on Windows <br>(#6843).|
 |2023-11-10 03:36:23|[Online_tools](https://github.com/Zhao-sai-sai/Online_tools)|0.4.0文件下载错修复|
 |2023-11-10 00:55:01|[FrameVul](https://github.com/Awrrays/FrameVul)|Update README.md|
-|2023-11-09 17:30:08|[syft](https://github.com/anchore/syft)|rename file.Location.VirtualPath to AccessPath (#22<br>88)  Signed-off-by: Alex Goodman |
 |2023-11-09 16:08:22|[grype](https://github.com/anchore/grype)|chore(deps): update bootstrap tools to latest versi<br>ons (#1595)  Signed-off-by: GitHub   Co-authored-by:<br> westonsteimel |
-|2023-11-09 13:58:03|[rustdesk](https://github.com/rustdesk/rustdesk)|allow /r in command line|
 |2023-11-09 12:04:42|[all-in-one-v2](https://github.com/zaivanza/all-in-one-v2)|change data to datas|
 |2023-11-09 09:25:27|[trivy](https://github.com/aquasecurity/trivy)|fix(sbom): add FilesAnalyzed and PackageVerificatio<br>nCode fields for SPDX (#5533)|
 |2023-11-09 02:24:35|[feroxbuster](https://github.com/epi052/feroxbuster)|docs: add RavySena as a contributor for ideas (#102<br>5)  * docs: update README.md [skip ci]    * docs: up<br>date .all-contributorsrc [skip ci]    ---------    C<br>o-authored-by: allcontributors[bot] |
@@ -99,8 +100,7 @@
 |2023-10-29 18:49:03|[malwoverview](https://github.com/alexandreborges/malwoverview)|Malwoverview|
 |2023-10-28 04:46:18|[OA-EXPTOOL](https://github.com/LittleBear4/OA-EXPTOOL)|Update README.md|
 |2023-10-28 04:17:23|[Stowaway](https://github.com/ph4ntonn/Stowaway)|Add Apple Silicon support|
-|2023-10-28 01:11:30|[DecoyMini](https://github.com/decoymini/DecoyMini)|Update README.md|
-|2023-10-27 08:53:20|[arthas](https://github.com/alibaba/arthas)|update ognl website url|## 所有项目
+|2023-10-28 01:11:30|[DecoyMini](https://github.com/decoymini/DecoyMini)|Update README.md|## 所有项目
 # 渗透测试
 ## 信息收集
 ### 资产测绘采集
@@ -969,7 +969,7 @@
 | [HopLa](https://github.com/synacktiv/HopLa) | 1.2 |  HopLa Burp Suite Extender plugin -  Adds autocompletion suppo<br>rt and useful payloads in Burp Suite |
 | [captcha-killer-mo<br>dified](https://github.com/f0ng/captcha-killer-modified) | 0.24.2 | captcha-killer的修改版，支持关键词识别base64编码的图片，添加免<br>费ocr库，用于验证码爆破，适配新版Burpsuite |
 | [BurpCrypto](https://github.com/whwlsfb/BurpCrypto) |  | BurpCrypto is a collection of burpsuite encryption plug-ins, s<br>upport AES/RSA/DES/ExecJs(execute JS encryption code in burpsui<br>te). 支持多种加密算法或直接执行JS代码的用于爆破前端加密的BurpSu<br>ite插件 |
-| [autoDecoder](https://github.com/f0ng/autoDecoder) | 0.33 | Burp插件，根据自定义来达到对数据包的处理（适用于加解密、爆破等<br>），类似mitmproxy，不同点在于经过了burp中转，在自动加解密的基础<br>上，不影响APP、网站加解密正常逻辑等。 |
+| [autoDecoder](https://github.com/f0ng/autoDecoder) | 0.34 | Burp插件，根据自定义来达到对数据包的处理（适用于加解密、爆破等<br>），类似mitmproxy，不同点在于经过了burp中转，在自动加解密的基础<br>上，不影响APP、网站加解密正常逻辑等。 |
 | [burpFakeIP](https://github.com/TheKingOfDuck/burpFakeIP) | 1.1 | 服务端配置错误情况下用于伪造ip地址进行测试的Burp Suite插件 |
 | [AutoRepeater](https://github.com/nccgroup/AutoRepeater) |  | Automated HTTP Request Repeating With Burp Suite |
 | [http-request-smug<br>gler](https://github.com/portswigger/http-request-smuggler) |  |  |
@@ -990,7 +990,7 @@
 | [BpScan](https://github.com/EASY233/BpScan) | 1.0.0 | 一款用于辅助渗透测试工程师日常渗透测试的Burp被动漏扫插件 |
 | [BurpCRLFScan](https://github.com/A0WaQ4/BurpCRLFScan) | 1.4 | 使用java编写的CRLF-Injection-burp被动扫描插件 |
 | [JsonDetect](https://github.com/a1phaboy/JsonDetect) | v1.0 | A burp Extender to detect json, include fastjson,jackson,gson |
-| [autoDecoder](https://github.com/f0ng/autoDecoder) | 0.33 | Burp插件，根据自定义来达到对数据包的处理（适用于加解密、爆破等<br>），类似mitmproxy，不同点在于经过了burp中转，在自动加解密的基础<br>上，不影响APP、网站加解密正常逻辑等。 |
+| [autoDecoder](https://github.com/f0ng/autoDecoder) | 0.34 | Burp插件，根据自定义来达到对数据包的处理（适用于加解密、爆破等<br>），类似mitmproxy，不同点在于经过了burp中转，在自动加解密的基础<br>上，不影响APP、网站加解密正常逻辑等。 |
 | [burp-text4shell](https://github.com/silentsignal/burp-text4shell) | v0.1 | Text4Shell scanner for Burp Suite |
 | [sweetPotato](https://github.com/z2p/sweetPotato) | version<br>1.6 | 基于burpsuite的资产分析工具 |
 | [xia_Liao](https://github.com/smxiazi/xia_Liao) | 1.6 | xia Liao（瞎料）burp插件 用于Windows在线进程/杀软识别 与 web渗<br>透注册时，快速生成需要的资料用来填写，资料包含：姓名、手机号、身<br>份证、统一社会信用代码、组织机构代码、银行卡，以及各类web语言的h<br>ello world输出和生成弱口令字典等。 |
