@@ -19,6 +19,8 @@
                 - https://github.com/seccome/Ehoney
             主机入侵防御:
                 - https://github.com/wecooperate/iDefender
+
+            
         取证:
             数据恢复:
                 - ''
@@ -65,6 +67,8 @@
                     - https://github.com/minhangxiaohui/DecodeSomeJSPWebshell
                 哥斯拉(Godzilla)流量取证:
                     - https://github.com/webraybtl/webshell_detect
+                Shiro流量取证:
+                    - https://github.com/r00tuser111/SerializationDumper-Shiro
             USB取证:
                 鼠标流量:
                     - https://github.com/WangYihang/UsbMiceDataHacker
@@ -113,7 +117,82 @@
                     - https://github.com/GhostPack/SharpDPAPI
                 Wifi:
                     - https://github.com/lijiejie/WIFIpass
-            Web取证:
+        应急:
+            威胁情报:
+                钓鱼监测:
+                    - https://github.com/x0rz/phishing_catcher
+                暗网监测:
+                    - https://github.com/s045pd/DarkNet_ChineseTrading
+                IP分析:
+                    - https://github.com/wgpsec/tig
+                    - https://github.com/CRED-CLUB/ARTIF
+            系统层面:
+                Windows 应急工具:
+                    信息采集:
+                        - https://github.com/travisfoley/dfirtriage
+                        - https://github.com/MountCloud/FireKylin
+                        - https://github.com/SwiftOnSecurity/sysmon-config
+                    异常检测:
+                        - https://github.com/RoomaSec/RmTools
+                    内核小工具:
+                        - https://github.com/ClownQq/YDArk
+                    windows日志分析:
+                        - https://www.nirsoft.net/utils/full_event_log_view.html
+                        - https://www.microsoft.com/en-us/download/details.aspx?id=24659
+                        - https://github.com/dogadmin/windodws-logs-analysis
+                        - https://github.com/ahmedkhlief/APT-Hunter
+                        - https://github.com/Yamato-Security/WELA
+                    进程监控:
+                        - https://processhacker.sourceforge.io/
+                    其他:
+                        - https://docs.microsoft.com/zh-cn/sysinternals/downloads/
+                Linux 应急工具:
+                    - https://github.com/grayddq/GScan
+                    - https://github.com/al0ne/LinuxCheck
+                    - https://github.com/alexandreborges/malwoverview
+                    - https://github.com/tide-emergency/yingji
+                    - https://github.com/P4ck/Emergency/blob/master/linux.sh
+                    - https://github.com/heikanet/whohk
+                    - https://github.com/evilsocket/uroboros
+                    - https://rkhunter.sourceforge.net/
+                DLL劫持:
+                    - https://github.com/cyberark/DLLSpy
+                勒索软件:
+                    解密工具:
+                        - https://github.com/jiansiting/Decryption-Tools
+            Web层面:
+                暗链:
+                    - ''
+                webshell后门:
+                    - https://github.com/cys3c/BackdoorMan
+                    - https://github.com/he1m4n6a/findWebshell
+                    - https://github.com/mornone/webshell-find-tools
+                    - https://github.com/chiruom/Webshell_finder
+                    - https://github.com/virink/as_scanwebshell
+                    - https://github.com/c0ny1/java-memshell-scanner
+                    - http://www.shelldetector.com/
+                    - https://www.shellpub.com/
+                    - https://github.com/kunwu2023/kunwu
+                内存马查杀:
+                    - https://github.com/4ra1n/shell-analyzer
+                    - https://github.com/alibaba/arthas
+                    - https://github.com/huoji120/DuckMemoryScan
+                    - https://github.com/c0ny1/java-memshell-scanner
+                    - https://github.com/LandGrey/copagent
+                    - https://github.com/r00t4dm/aLIEz
+                    - https://github.com/yzddmr6/ASP.NET-Memshell-Scanner
+            网络层面:
+                IP信息:
+                    - https://github.com/Hackl0us/GeoIP2-CN
+                    - https://github.com/gaoyifan/china-operator-ip
+                DOS:
+                    - ''
+            综合:
+                分析辅助:
+                    - https://github.com/abc123info/BlueTeamTools
+            相关资源:
+                - https://github.com/Bypass007/Emergency-Response-Notes
+            
 
     红队:
         信息收集:
@@ -378,6 +457,18 @@
                 
             自动拼图:
                 - https://github.com/JamesHoi/PuzzleSolver
+            16进制编辑:
+                - https://github.com/WerWolv/ImHex
+            编码解码:
+                - https://github.com/Ciphey/Ciphey
+                - https://github.com/ht0Ruial/TomatoTools
+                - https://github.com/gchq/CyberChef
+                - https://github.com/0Chencc/CTFCrackTools
+            综合:
+                - https://github.com/Aabyss-Team/CTF-Tools
+                - https://github.com/Moxin1044/qsnctf-python
+                - https://github.com/qianxiao996/CTF-Tools
+                - https://github.com/Harveysn0w/CTF_Hacker-Tools
         Crypto:
             现代密码:
                 RSA:
@@ -389,11 +480,55 @@
                 autokey:
                     - https://github.com/hotzzzzy/breakautokey
         Web:
-            - ''
+            定向目录扫描:
+                - https://github.com/OrangeWatermelon/ctf-wscan
         Reverse:
-            - ''
+            查壳:
+                - https://github.com/horsicq/DIE-engine
+            pyc逆向:
+                - https://github.com/AngelKitty/stegosaurus
+            Java反编译:
+                - https://github.com/MountCloud/JavaDecompileTool-GUI
+                - https://github.com/Ppsoft1991/CodeReviewTools
         Pwn:
             - ''
+        AWD:
+            开源平台:
+                - https://github.com/vidar-team/Cardinal
+                - https://github.com/D0g3-Lab/H1ve
+                - https://github.com/mo-xiaoxi/AWD_CTF_Platform
+                - https://github.com/xuchaoa/CTF_AWD_Platform
+                - https://github.com/zhl2008/awd-platform
+                - https://github.com/BJLIYANLIANG/JJUCTF_V2.0
+            脚本:
+                - https://github.com/admintony/Prepare-for-AWD
+                - https://github.com/Ares-X/AWD-Predator-Framework
+                - https://github.com/Wfzsec/awd_attack_framework
+            靶场:
+                - https://github.com/glzjin/20190511_awd_docker
+                - https://github.com/zhl2008/awd-platform
+                - https://github.com/mo-xiaoxi/AWD_CTF_Platform
+                - https://github.com/Cl0udG0d/AWDDocker
+                - https://github.com/yqw1212/Liaoning-provincial-competition-target-1
+                - https://github.com/871339097/wordpress
+            防护:
+                - https://github.com/DasSecurity-HatLab/AoiAWD
+                - https://github.com/sharpleung/CTF-WAF
+                - https://github.com/dr0op/k4l0ng_WAF
+        相关资源:
+            - https://github.com/ProbiusOfficial/SecToolKit
+            - https://github.com/ProbiusOfficial/CTF-QuickStart
+            - https://github.com/ProbiusOfficial/CTFtools-wiki
+            - https://github.com/kitezzzGrim/CTF-Note
+            - https://github.com/apachecn/apachecn-ctf-wiki
+            - http://www.ctftools.com/
+            - https://github.com/ctf-wiki/ctf-tools
+            - https://github.com/NewBee119/ctf_ics_traffic
+            - https://github.com/Aabyss-Team/CTF-Tools
+            - https://github.com/ffffffff0x/BerylEnigma
+            - https://github.com/CTFd/CTFd
+            - https://github.com/Gu-f/CTFd_chinese_CN
+
 开发:
     Python:
         - ''
@@ -928,122 +1063,6 @@
             - https://github.com/20142995/fofa_GUI
         frp:
             - https://github.com/SleepingBag945/frpCracker
-CTF:
-    杂项:
-        16进制编辑:
-            - https://github.com/WerWolv/ImHex
-        编码解码:
-            - https://github.com/Ciphey/Ciphey
-            - https://github.com/ht0Ruial/TomatoTools
-            - https://github.com/gchq/CyberChef
-            - https://github.com/0Chencc/CTFCrackTools
-        综合:
-            - https://github.com/Aabyss-Team/CTF-Tools
-            - https://github.com/Moxin1044/qsnctf-python
-            - https://github.com/qianxiao996/CTF-Tools
-            - https://github.com/Harveysn0w/CTF_Hacker-Tools
-    逆向:
-        pyc逆向:
-            - https://github.com/AngelKitty/stegosaurus
-        Java反编译:
-            - https://github.com/MountCloud/JavaDecompileTool-GUI
-            - https://github.com/Ppsoft1991/CodeReviewTools
-        查壳:
-            - https://github.com/horsicq/DIE-engine
-    WEB:
-        敏感目录:
-            - https://github.com/OrangeWatermelon/ctf-wscan
-            - https://github.com/denny0223/scrabble
-
-    AWD:
-        线下平台:
-            - https://github.com/vidar-team/Cardinal
-            - https://github.com/D0g3-Lab/H1ve
-            - https://github.com/mo-xiaoxi/AWD_CTF_Platform
-            - https://github.com/xuchaoa/CTF_AWD_Platform
-            - https://github.com/zhl2008/awd-platform
-            - https://github.com/BJLIYANLIANG/JJUCTF_V2.0
-        脚本:
-            - https://github.com/admintony/Prepare-for-AWD
-            - https://github.com/Ares-X/AWD-Predator-Framework
-            - https://github.com/Wfzsec/awd_attack_framework
-        靶场:
-            - https://github.com/glzjin/20190511_awd_docker
-            - https://github.com/zhl2008/awd-platform
-            - https://github.com/mo-xiaoxi/AWD_CTF_Platform
-            - https://github.com/Cl0udG0d/AWDDocker
-            - https://github.com/yqw1212/Liaoning-provincial-competition-target-1
-            - https://github.com/871339097/wordpress
-        防护:
-            - https://github.com/DasSecurity-HatLab/AoiAWD
-            - https://github.com/sharpleung/CTF-WAF
-            - https://github.com/dr0op/k4l0ng_WAF
-    相关资源:
-        - https://github.com/ProbiusOfficial/SecToolKit
-        - https://github.com/ProbiusOfficial/CTF-QuickStart
-        - https://github.com/ProbiusOfficial/CTFtools-wiki
-        - https://github.com/kitezzzGrim/CTF-Note
-        - https://github.com/apachecn/apachecn-ctf-wiki
-        - http://www.ctftools.com/
-        - https://github.com/ctf-wiki/ctf-tools
-        - https://github.com/NewBee119/ctf_ics_traffic
-        - https://github.com/Aabyss-Team/CTF-Tools
-        - https://github.com/ffffffff0x/BerylEnigma
-        - https://github.com/CTFd/CTFd
-        - https://github.com/Gu-f/CTFd_chinese_CN
-
-应急响应:
-    Linux:
-        自动化检查:
-            - https://github.com/grayddq/GScan
-            - https://github.com/al0ne/LinuxCheck
-            - https://github.com/alexandreborges/malwoverview
-            - http://rkhunter.sourceforge.net/
-            - https://github.com/RoomaSec/RmTools
-        进程分析:
-            - https://github.com/evilsocket/uroboros
-            - https://processhacker.sourceforge.io/
-        命令辅助:
-            - https://github.com/heikanet/whohk
-    Windows:
-        进程分析:
-            - https://github.com/ClownQq/YDArk
-            - https://docs.microsoft.com/zh-cn/sysinternals/downloads/
-        日志分析:
-            - https://www.nirsoft.net/utils/full_event_log_view.html
-            - https://www.microsoft.com/en-us/download/details.aspx?id=24659
-            - https://github.com/dogadmin/windodws-logs-analysis
-            - https://github.com/ahmedkhlief/APT-Hunter
-            - https://github.com/Yamato-Security/WELA
-        信息采集:
-            - https://github.com/MountCloud/FireKylin
-            - https://github.com/SwiftOnSecurity/sysmon-config
-    web日志分析:
-        
-        - https://github.com/r00tuser111/SerializationDumper-Shiro
-    webshell查杀:
-        - http://www.shelldetector.com/
-        - https://www.shellpub.com/
-        - https://github.com/kunwu2023/kunwu
-    内存马查杀:
-        - https://github.com/4ra1n/shell-analyzer
-        - https://github.com/alibaba/arthas
-        - https://github.com/huoji120/DuckMemoryScan
-        - https://github.com/c0ny1/java-memshell-scanner
-        - https://github.com/LandGrey/copagent
-        - https://github.com/r00t4dm/aLIEz
-        - https://github.com/yzddmr6/ASP.NET-Memshell-Scanner
-    分析辅助:
-        - https://github.com/abc123info/BlueTeamTools
-    知识库:
-        - https://github.com/Bypass007/Emergency-Response-Notes
-    威胁情报收集:
-        - https://github.com/wgpsec/tig
-        - https://github.com/CRED-CLUB/ARTIF
-    勒索解密:
-        - https://github.com/jiansiting/Decryption-Tools
-
-
 
 
 杂七杂八:
@@ -2822,7 +2841,6 @@ CTF:
     - https://github.com/Cybereason/Logout4Shell
     - https://github.com/SentineLabs/AlphaGolang
     - https://github.com/Mithrilwoodrat/FBI-WARNING-in-console
-    - https://github.com/travisfoley/dfirtriage
     - https://github.com/comwrg/package-manager-proxy-settings
     - https://github.com/jas502n/CVE-2019-8451
     - https://github.com/Larryxi/MSSQL-SQLi-Labs
