@@ -36,11 +36,21 @@
                             - https://github.com/AabyssZG/Deformed-Image-Restorer
                         LSB隐写:
                             - https://github.com/livz/cloacked-pixel
+                            - https://github.com/dhsdshdhk/stegpy
+                            - https://github.com/7thSamurai/steganography
+                        截图漏洞:
+                            - https://github.com/frankthetank-music/Acropalypse-Multi-Tool
                     盲水印:
                         - https://github.com/ww23/BlindWatermark
                         - https://github.com/chishaxie/BlindWaterMark
                         - https://github.com/linyacool/blind-watermark
                         - https://github.com/guofei9987/blind_watermark
+                    综合:
+                        - https://github.com/Giotino/stegsolve
+                        - https://github.com/zR00t1/ImageStrike
+                    其他:
+                        - https://github.com/ImageMagick/ImageMagick
+
                 音频:
                     - https://github.com/audacity/audacity
                     - https://github.com/ribt/dtmf-decoder
@@ -50,7 +60,11 @@
                 电子文档:
                     - ''
             网络取证:
-                - https://github.com/webraybtl/webshell_detect
+                冰蝎(Behinder)流量取证:
+                    - https://github.com/webraybtl/webshell_detect
+                    - https://github.com/minhangxiaohui/DecodeSomeJSPWebshell
+                哥斯拉(Godzilla)流量取证:
+                    - https://github.com/webraybtl/webshell_detect
             USB取证:
                 鼠标流量:
                     - https://github.com/WangYihang/UsbMiceDataHacker
@@ -62,8 +76,44 @@
                 - https://github.com/ufrisk/MemProcFS
             应用程序取证:
                 浏览器取证:
-                    
-                    
+                    - https://github.com/moonD4rk/HackBrowserData
+                    - https://github.com/djhohnstein/SharpWeb
+                    - https://github.com/hayasec/360SafeBrowsergetpass
+                    - https://github.com/QAX-A-Team/BrowserGhost
+                    - https://github.com/DeEpinGh0st/Browser-cookie-steal 
+                vmware vcenter:
+                    - https://github.com/shmilylty/vhost_password_decrypt
+                vmx加密破解:
+                    - https://github.com/axcheron/pyvmx-cracker
+                主机账号:
+                    - https://github.com/gentilkiwi/mimikatz
+                    - https://github.com/kerbyj/goLazagne
+                    - https://github.com/DarkCoderSc/win-brute-logon
+                    - https://github.com/bitsadmin/fakelogonscreen
+
+                微信取证:
+                    - https://github.com/Ormicron/chatViewTool
+                    - https://github.com/Ormicron/Sharp-dumpkey
+                    - https://github.com/AdminTest0/SharpWxDump
+                    - https://github.com/SpenserCai/GoWxDump
+                向日葵取证:
+                    - https://github.com/wafinfo/Sunflower_get_Password
+                QQ取证:
+                    - https://github.com/saucer-man/qq_msg_decode
+                远程软件:
+                    - https://github.com/passer-W/FinalShell-Decoder
+                    - https://github.com/JDArmy/SharpXDecrypt
+                    - https://github.com/dzxs/Xdecrypt
+                    - https://github.com/RowTeam/SharpDecryptPwd
+                    - https://github.com/ianxtianxt/SharpDecryptPwd
+                    - https://github.com/lele8/SharpDBeaver
+                    - https://github.com/uknowsec/SharpDecryptPwd
+                    - https://github.com/wafinfo/TeamViewer
+                    - https://github.com/Potato-py/getIntrInfo
+                    - https://github.com/GhostPack/SharpDPAPI
+                Wifi:
+                    - https://github.com/lijiejie/WIFIpass
+            Web取证:
 
     红队:
         信息收集:
@@ -274,6 +324,27 @@
                 容器提权:
                     - https://github.com/teamssix/container-escape-check
                     - https://github.com/cdk-team/CDK
+            代理转发:
+                - https://www.proxifier.com/
+                - http://rootkiter.com/Termite/
+                - https://github.com/sensepost/reGeorg
+                - https://github.com/L-codes/Neo-reGeorg
+                - https://github.com/zema1/suo5
+                - https://github.com/sechelper/slcx
+                - https://github.com/FunnyWolf/pystinger
+                - https://github.com/ph4ntonn/Stowaway
+                - https://github.com/knownsec/PortForward
+                - https://github.com/Mob2003/rakshasa
+                - https://github.com/ehang-io/nps
+                - https://github.com/fatedier/frp
+                - https://github.com/Goqi/Erfrp
+                - https://github.com/OrangeWatermelon/frp_cmd
+                - https://github.com/alex-sector/dns2tcp
+                - https://github.com/iagox86/dnscat2
+                - https://github.com/inquisb/icmpsh
+                - https://github.com/esrrhs/pingtunnel
+                - https://github.com/inconshreveable/ngrok
+                - https://github.com/snail007/goproxy
         语言安全:
             - ''    
         云安全:
@@ -308,7 +379,15 @@
             自动拼图:
                 - https://github.com/JamesHoi/PuzzleSolver
         Crypto:
-            - ''
+            现代密码:
+                RSA:
+                    - https://github.com/6u661e/CTF-RSA-tool
+                    - https://github.com/pablocelayes/rsa-wiener-attack
+                    - https://github.com/Mr-Aur0ra/RSA
+                    - https://github.com/RsaCtfTool/RsaCtfTool
+            古典密码:
+                autokey:
+                    - https://github.com/hotzzzzy/breakautokey
         Web:
             - ''
         Reverse:
@@ -630,54 +709,8 @@
             - https://github.com/c1y2m3/ATAttack
         网段探测:
             - https://github.com/shmilylty/netspy
-        代理转发:
-            - https://www.proxifier.com/
-            - http://rootkiter.com/Termite/
-            - https://github.com/sensepost/reGeorg
-            - https://github.com/L-codes/Neo-reGeorg
-            - https://github.com/zema1/suo5
-            - https://github.com/sechelper/slcx
-            - https://github.com/FunnyWolf/pystinger
-            - https://github.com/ph4ntonn/Stowaway
-            - https://github.com/knownsec/PortForward
-            - https://github.com/Mob2003/rakshasa
-            - https://github.com/ehang-io/nps
-            - https://github.com/fatedier/frp
-            - https://github.com/Goqi/Erfrp
-            - https://github.com/OrangeWatermelon/frp_cmd
-            - https://github.com/alex-sector/dns2tcp
-            - https://github.com/iagox86/dnscat2
-            - https://github.com/inquisb/icmpsh
-            - https://github.com/esrrhs/pingtunnel
-            - https://github.com/inconshreveable/ngrok
-            - https://github.com/snail007/goproxy
-        密码提取:
-            - https://github.com/shmilylty/vhost_password_decrypt
 
-            - https://github.com/gentilkiwi/mimikatz
-            - https://github.com/kerbyj/goLazagne
-            - https://github.com/DarkCoderSc/win-brute-logon
-            - https://github.com/bitsadmin/fakelogonscreen
 
-            - https://github.com/passer-W/FinalShell-Decoder
-            - https://github.com/JDArmy/SharpXDecrypt
-            - https://github.com/dzxs/Xdecrypt
-            - https://github.com/RowTeam/SharpDecryptPwd
-            - https://github.com/ianxtianxt/SharpDecryptPwd
-            - https://github.com/lele8/SharpDBeaver
-            - https://github.com/uknowsec/SharpDecryptPwd
-            - https://github.com/wafinfo/TeamViewer
-
-            - https://github.com/moonD4rk/HackBrowserData
-            - https://github.com/djhohnstein/SharpWeb
-            - https://github.com/hayasec/360SafeBrowsergetpass
-            - https://github.com/QAX-A-Team/BrowserGhost
-            - https://github.com/DeEpinGh0st/Browser-cookie-steal
-
-            - https://github.com/Potato-py/getIntrInfo
-            - https://github.com/GhostPack/SharpDPAPI
-
-            - https://github.com/lijiejie/WIFIpass
 
         漏洞发现:
             - https://github.com/inbug-team/InScan
@@ -897,21 +930,6 @@
             - https://github.com/SleepingBag945/frpCracker
 CTF:
     杂项:
-
-        图片隐写:
-            其他:
-                - https://github.com/Giotino/stegsolve
-                
-                - https://github.com/RetrO-hash/CTFpics
-                - https://github.com/zR00t1/ImageStrike
-                - https://github.com/dhsdshdhk/stegpy
-                - https://github.com/7thSamurai/steganography
-                - https://github.com/frankthetank-music/Acropalypse-Multi-Tool
-                - https://github.com/ImageMagick/ImageMagick
-                
-
-
-
         16进制编辑:
             - https://github.com/WerWolv/ImHex
         编码解码:
@@ -919,29 +937,11 @@ CTF:
             - https://github.com/ht0Ruial/TomatoTools
             - https://github.com/gchq/CyberChef
             - https://github.com/0Chencc/CTFCrackTools
-        取证分析:
-
-            vmx加密破解:
-                - https://github.com/axcheron/pyvmx-cracker
-            微信取证:
-                - https://github.com/Ormicron/chatViewTool
-                - https://github.com/Ormicron/Sharp-dumpkey
-                - https://github.com/AdminTest0/SharpWxDump
-                - https://github.com/SpenserCai/GoWxDump
-            向日葵取证:
-                - https://github.com/wafinfo/Sunflower_get_Password
-            QQ取证:
-                - https://github.com/saucer-man/qq_msg_decode
-
-
-
         综合:
             - https://github.com/Aabyss-Team/CTF-Tools
             - https://github.com/Moxin1044/qsnctf-python
             - https://github.com/qianxiao996/CTF-Tools
             - https://github.com/Harveysn0w/CTF_Hacker-Tools
-
-
     逆向:
         pyc逆向:
             - https://github.com/AngelKitty/stegosaurus
@@ -954,14 +954,7 @@ CTF:
         敏感目录:
             - https://github.com/OrangeWatermelon/ctf-wscan
             - https://github.com/denny0223/scrabble
-    密码学:
-        RSA:
-            - https://github.com/6u661e/CTF-RSA-tool
-            - https://github.com/pablocelayes/rsa-wiener-attack
-            - https://github.com/Mr-Aur0ra/RSA
-            - https://github.com/RsaCtfTool/RsaCtfTool
-        autokey:
-            - https://github.com/hotzzzzy/breakautokey
+
     AWD:
         线下平台:
             - https://github.com/vidar-team/Cardinal
@@ -1026,7 +1019,7 @@ CTF:
             - https://github.com/MountCloud/FireKylin
             - https://github.com/SwiftOnSecurity/sysmon-config
     web日志分析:
-        - https://github.com/minhangxiaohui/DecodeSomeJSPWebshell
+        
         - https://github.com/r00tuser111/SerializationDumper-Shiro
     webshell查杀:
         - http://www.shelldetector.com/
