@@ -157,7 +157,7 @@ def main():
             json.dump(data, f, ensure_ascii=False, indent=4)
     # 跳过commit_date为空的
     data_b = {url: data[url] for url in data if data[url].get("commit_date", "") != ""}
-    # 跳过commit_date距今超过180天的
+    # 跳过commit_date距今超过90天的
     data_b = {
         url: data_b[url]
         for url in data_b
@@ -167,7 +167,7 @@ def main():
                 data_b[url]["commit_date"], "%Y-%m-%d %H:%M:%S"
             )
         ).days
-        > 180
+        > 90
     }
     # 读取项目列表
     repos = yaml2json("repos.yaml")
@@ -297,7 +297,7 @@ def main():
     commits = sorted(commits, key=lambda x: x[0], reverse=True)
     commit_md += "\n".join(
         [
-            f"|{commit_date}|[{repo}]({url})|{commit_message}|"
+            f"|{commit_date}|[{repo}]({url})|{commit_message[:63]}|"
             for commit_date, repo, url, commit_message in commits
         ]
     )
@@ -323,7 +323,7 @@ def main():
                                         data.get(url, {}).get("release_tag", ""), 8
                                     ),
                                     parse_len(
-                                        data.get(url, {}).get("description", ""), 63
+                                        data.get(url, {}).get("description", "")[:63], 63
                                     ),
                                 )
                             )
