@@ -1,6 +1,24 @@
 安全:
     蓝队:
-        - ''
+        安全建设:
+            威胁检测:
+                - https://github.com/RoomaSec/RmEye
+            主机入侵检测:
+                - https://github.com/bytedance/Elkeid
+                - https://github.com/theSecHunter/Hades
+            Web应用防火墙:
+                - https://github.com/starjun/openstar
+                - https://github.com/chaitin/safeline
+            欺骗防御:
+                - https://github.com/decoymini/DecoyMini
+                - https://github.com/C4o/Juggler
+                - https://github.com/fnmsd/MySQL_Fake_Server
+                - https://github.com/BeichenDream/MysqlT
+                - https://github.com/4ra1n/mysql-fake-server
+                - https://github.com/BeichenDream/WhetherMysqlSham
+                - https://github.com/seccome/Ehoney
+            主机入侵防御:
+                - https://github.com/wecooperate/iDefender
     红队:
         信息收集:
             资产测绘采集:
@@ -146,7 +164,70 @@
                 文件包含:
                     - https://github.com/mzfr/liffy
         后渗透:
-            - ''
+            权限维持:
+                Shell管理:
+                    - https://github.com/boy-hack/WebshellManager
+                    - https://github.com/Chora10/Cknife
+                    - https://github.com/rebeyond/Behinder
+                    - https://github.com/BeichenDream/Godzilla
+                    - https://github.com/AntSwordProject/antSword
+                    - https://github.com/WangYihang/Platypus
+                    - https://github.com/yzddmr6/As-Exploits
+                    - https://github.com/cseroad/Webshell_Generate
+                    - https://github.com/pen4uin/java-memshell-generator-release
+                webshell:
+                    - https://github.com/backlion/webshell
+                后门:
+                    - https://github.com/wgpsec/CreateHiddenAccount
+                    - https://github.com/0x727/SchTask_0x727
+                    - https://github.com/0x727/CloneX_0x727
+                    - https://github.com/RuoJi6/HackerPermKeeper
+                远控:
+                    - https://github.com/xiao-zhu-zhu/noterce
+                    - https://github.com/tdragon6/Supershell
+                    - https://github.com/yuanyuanxiang/SimpleRemoter
+                    - https://github.com/Ciyfly/trojan_simple_demo
+                免杀相关:
+                    签名伪造:
+                        - https://github.com/secretsquirrel/SigThief
+                        - https://github.com/langsasec/Sign-Sacker
+                    图标提取:
+                        - https://github.com/JarlPenguin/BeCyIconGrabberPortable
+                    文件时间修改:
+                        - https://github.com/sorabug/ChangeTimestamp
+                        - https://github.com/MsF-NTDLL/ChTimeStamp
+                免杀:
+                    - https://github.com/knownsec/shellcodeloader
+                    - https://github.com/1y0n/AV_Evasion_Tool
+                    - https://github.com/Pizz33/GobypassAV-shellcode
+                    - https://github.com/yqcs/ZheTian
+                    - https://github.com/blacknbunny/encdecshellcode
+                    - https://github.com/jthuraisamy/SysWhispers2
+                    - https://github.com/Anyyy111/killEscaper
+                    - https://github.com/Axx8/ShellCode_Loader
+                    - https://github.com/knownsec/shellcodeloader
+                    - https://github.com/1y0n/AV_Evasion_Tool
+                    - https://github.com/TideSec/GoBypassAV
+                    - https://github.com/pureqh/bypassAV
+                    - https://github.com/xiao-zhu-zhu/noterce
+                    - https://github.com/TideSec/BypassAntiVirus
+                    - https://github.com/xf555er/SharpShellcodeLoader_Rc4Aes
+
+            权限提升:
+                windows提权:
+                    - https://github.com/BeichenDream/BadPotato
+                    - https://github.com/lyshark/Windows-exploits
+                linux提权:
+                    - https://github.com/firefart/dirtycow
+                    - https://github.com/liamg/traitor
+                    - https://github.com/rebootuser/LinEnum
+                    - https://github.com/carlospolop/PEASS-ng
+                    - https://i.hacking8.com/tiquan/
+                综合:
+                    - https://github.com/Ascotbe/Kernelhub
+                容器提权:
+                    - https://github.com/teamssix/container-escape-check
+                    - https://github.com/cdk-team/CDK
         语言安全:
             - ''    
         云安全:
@@ -490,69 +571,8 @@
         - https://github.com/ScarecrowSec/WiKi
         - https://github.com/Cuerz/PoC-ExP
         - https://github.com/Awrrays/FrameVul
-    权限维持:
-        Shell管理:
-            - https://github.com/boy-hack/WebshellManager
-            - https://github.com/Chora10/Cknife
-            - https://github.com/rebeyond/Behinder
-            - https://github.com/BeichenDream/Godzilla
-            - https://github.com/AntSwordProject/antSword
-            - https://github.com/WangYihang/Platypus
-            - https://github.com/yzddmr6/As-Exploits
-            - https://github.com/cseroad/Webshell_Generate
-            - https://github.com/pen4uin/java-memshell-generator-release
-        webshell:
-            - https://github.com/backlion/webshell
-        后门:
-            - https://github.com/wgpsec/CreateHiddenAccount
-            - https://github.com/0x727/SchTask_0x727
-            - https://github.com/0x727/CloneX_0x727
-            - https://github.com/RuoJi6/HackerPermKeeper
-        远控:
-            - https://github.com/xiao-zhu-zhu/noterce
-            - https://github.com/tdragon6/Supershell
-            - https://github.com/yuanyuanxiang/SimpleRemoter
-            - https://github.com/Ciyfly/trojan_simple_demo
-        免杀相关:
-            签名伪造:
-                - https://github.com/secretsquirrel/SigThief
-                - https://github.com/langsasec/Sign-Sacker
-            图标提取:
-                - https://github.com/JarlPenguin/BeCyIconGrabberPortable
-            文件时间修改:
-                - https://github.com/sorabug/ChangeTimestamp
-                - https://github.com/MsF-NTDLL/ChTimeStamp
-        免杀:
-            - https://github.com/knownsec/shellcodeloader
-            - https://github.com/1y0n/AV_Evasion_Tool
-            - https://github.com/Pizz33/GobypassAV-shellcode
-            - https://github.com/yqcs/ZheTian
-            - https://github.com/blacknbunny/encdecshellcode
-            - https://github.com/jthuraisamy/SysWhispers2
-            - https://github.com/Anyyy111/killEscaper
-            - https://github.com/Axx8/ShellCode_Loader
-            - https://github.com/knownsec/shellcodeloader
-            - https://github.com/1y0n/AV_Evasion_Tool
-            - https://github.com/TideSec/GoBypassAV
-            - https://github.com/pureqh/bypassAV
-            - https://github.com/xiao-zhu-zhu/noterce
-            - https://github.com/TideSec/BypassAntiVirus
-            - https://github.com/xf555er/SharpShellcodeLoader_Rc4Aes
-    权限提升:
-        windows提权:
-            - https://github.com/BeichenDream/BadPotato
-            - https://github.com/lyshark/Windows-exploits
-        linux提权:
-            - https://github.com/firefart/dirtycow
-            - https://github.com/liamg/traitor
-            - https://github.com/rebootuser/LinEnum
-            - https://github.com/carlospolop/PEASS-ng
-            - https://i.hacking8.com/tiquan/
-        综合:
-            - https://github.com/Ascotbe/Kernelhub
-        容器提权:
-            - https://github.com/teamssix/container-escape-check
-            - https://github.com/cdk-team/CDK
+
+
     内网渗透:
         信息收集:
             - https://github.com/shmilylty/SharpHostInfo
@@ -1002,25 +1022,8 @@ CTF:
     勒索解密:
         - https://github.com/jiansiting/Decryption-Tools
 
-安全产品:
-    威胁检测:
-        - https://github.com/RoomaSec/RmEye
-    主机入侵检测:
-        - https://github.com/bytedance/Elkeid
-        - https://github.com/theSecHunter/Hades
-    Web应用防火墙:
-        - https://github.com/starjun/openstar
-        - https://github.com/chaitin/safeline
-    欺骗防御:
-        - https://github.com/decoymini/DecoyMini
-        - https://github.com/C4o/Juggler
-        - https://github.com/fnmsd/MySQL_Fake_Server
-        - https://github.com/BeichenDream/MysqlT
-        - https://github.com/4ra1n/mysql-fake-server
-        - https://github.com/BeichenDream/WhetherMysqlSham
-        - https://github.com/seccome/Ehoney
-    主机入侵防御:
-        - https://github.com/wecooperate/iDefender
+
+
 
 杂七杂八:
     远程软件:
