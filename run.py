@@ -297,7 +297,7 @@ def main():
     commits = sorted(commits, key=lambda x: x[0], reverse=True)
     commit_md += "\n".join(
         [
-            f"|{commit_date}|[{repo}]({url})|{commit_message[:63]}|"
+            f"|{commit_date}|[{repo}]({url})|{commit_message[:180]}|"
             for commit_date, repo, url, commit_message in commits
         ]
     )
@@ -323,7 +323,7 @@ def main():
                                         data.get(url, {}).get("release_tag", ""), 8
                                     ),
                                     parse_len(
-                                        data.get(url, {}).get("description", "")[:63], 63
+                                        data.get(url, {}).get("description", "")[:180], 63
                                     ),
                                 )
                             )
