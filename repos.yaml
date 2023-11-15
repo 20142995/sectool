@@ -634,6 +634,7 @@
                         - https://github.com/sorabug/ChangeTimestamp
                         - https://github.com/MsF-NTDLL/ChTimeStamp
                 免杀:
+                    - https://github.com/Pizz33/Qianji
                     - https://github.com/knownsec/shellcodeloader
                     - https://github.com/1y0n/AV_Evasion_Tool
                     - https://github.com/Pizz33/GobypassAV-shellcode
