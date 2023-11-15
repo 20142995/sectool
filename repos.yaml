@@ -1,114 +1,195 @@
-渗透测试:
-    信息收集:
-        资产测绘采集:
-            - https://github.com/ExpLangcn/InfoSearchAll
-            - https://github.com/xzajyjs/ThunderSearch
-            - https://github.com/G3et/Search_Viewer
-            - https://github.com/burpheart/koko-moni
-            - https://github.com/Kento-Sec/AsamF
-            - https://github.com/Ifory885/fshzqSearch
-            - https://github.com/wkend/0_zone_tool
-            - https://github.com/HHa1ey/TKHunter
-        子域名收集:
-            - https://github.com/projectdiscovery/subfinder
-            - https://github.com/knownsec/ksubdomain
-            - https://github.com/shmilylty/OneForAll
-            - https://github.com/LangziFun/LangSrcCurise
-            - https://github.com/gwen001/github-subdomains
-            - https://github.com/euphrat1ca/LayerDomainFinder
-            - https://github.com/yunxu1/dnsub
-            - https://github.com/boy-hack/ksubdomain
-            - https://github.com/knownsec/ct
-            - https://github.com/lijiejie/subDomainsBrute
-        目录扫描:
-            - https://github.com/lemonlove7/dirsearch_bypass403
-            - https://github.com/maurosoria/dirsearch
-            - https://github.com/epi052/feroxbuster
-            - https://github.com/ffuf/ffuf
-            - https://github.com/H4ckForJob/dirmap
-            - https://github.com/deibit/cansina
-            - https://github.com/ReddyyZ/urlbrute
-            - https://github.com/foryujian/yjdirscan
-            - https://github.com/shack2/SWebScan
-            - https://github.com/hunyaio/yuhScan
-            - https://github.com/jaeles-project/gospider
-            - https://github.com/chaitin/rad
-            - https://github.com/pingc0y/URLFinder
-            - https://github.com/Threezh1/JSFinder
-            - https://github.com/lijiejie/BBScan
-            - https://github.com/corunb/Dirscan
+安全:
+    蓝队:
+        - ''
+    红队:
+        信息收集:
+            资产测绘采集:
+                - https://github.com/ExpLangcn/InfoSearchAll
+                - https://github.com/xzajyjs/ThunderSearch
+                - https://github.com/G3et/Search_Viewer
+                - https://github.com/burpheart/koko-moni
+                - https://github.com/Kento-Sec/AsamF
+                - https://github.com/Ifory885/fshzqSearch
+                - https://github.com/wkend/0_zone_tool
+                - https://github.com/HHa1ey/TKHunter
+            子域名收集:
+                - https://github.com/projectdiscovery/subfinder
+                - https://github.com/knownsec/ksubdomain
+                - https://github.com/shmilylty/OneForAll
+                - https://github.com/LangziFun/LangSrcCurise
+                - https://github.com/gwen001/github-subdomains
+                - https://github.com/euphrat1ca/LayerDomainFinder
+                - https://github.com/yunxu1/dnsub
+                - https://github.com/boy-hack/ksubdomain
+                - https://github.com/knownsec/ct
+                - https://github.com/lijiejie/subDomainsBrute
+            目录扫描:
+                - https://github.com/lemonlove7/dirsearch_bypass403
+                - https://github.com/maurosoria/dirsearch
+                - https://github.com/epi052/feroxbuster
+                - https://github.com/ffuf/ffuf
+                - https://github.com/H4ckForJob/dirmap
+                - https://github.com/deibit/cansina
+                - https://github.com/ReddyyZ/urlbrute
+                - https://github.com/foryujian/yjdirscan
+                - https://github.com/shack2/SWebScan
+                - https://github.com/hunyaio/yuhScan
+                - https://github.com/jaeles-project/gospider
+                - https://github.com/chaitin/rad
+                - https://github.com/pingc0y/URLFinder
+                - https://github.com/Threezh1/JSFinder
+                - https://github.com/lijiejie/BBScan
+                - https://github.com/corunb/Dirscan
 
-        指纹识别:
-            - https://github.com/EdgeSecurityTeam/EHole
-            - https://github.com/projectdiscovery/wappalyzergo
-            - https://github.com/b1ackc4t/14Finger
-            - https://github.com/urbanadventurer/WhatWeb
-            - https://github.com/TideSec/TideFinger
-            - https://github.com/s7ckTeam/Glass
-            - https://github.com/EASY233/Finger
-            - https://github.com/L10nK1n6/LazyDog
-            - https://github.com/winezer0/whatweb-plus
-            - https://github.com/LittleBear4/Find-SomeThing
-            - https://github.com/0x727/ObserverWard
-        WAF识别:
-            - https://github.com/stamparm/identYwaf
-        端口扫描:
-            - https://github.com/Liqunkit/webfinder-next
-            - https://github.com/foryujian/yujianportscan
-            - https://github.com/4dogs-cn/TXPortMap
-            - https://github.com/projectdiscovery/naabu
-            - https://github.com/redtoolskobe/scaninfo
-            - https://github.com/20142995/portscan
-        综合:
-            - https://github.com/zhzyker/dismap
-            - https://github.com/rabbitmask/AssetsHunter
-            - https://github.com/dyboy2017/TScan
-        自动化信息收集:
-            - https://github.com/SiJiDo/H
-            - https://github.com/ccreater222/slime
-            - https://github.com/XTeam-Wing/X-Marshal
-            - https://github.com/yqcs/heartsk_community
-            - https://github.com/Arbor01/AnScan
-            - https://github.com/hanc00l/nemo_go
-            - https://github.com/yogeshojha/rengine
-            - https://github.com/0x727/ShuiZe_0x727
-            - https://github.com/wgpsec/DBJ
-            - https://github.com/xundididi/Voyager
-            - https://github.com/CTF-MissFeng/GoScan
-            - https://github.com/zongdeiqianxing/Autoscanner
-            - https://github.com/er10yi/MagiCude
-            - https://github.com/CTF-MissFeng/Watchdog
-            - https://github.com/TideSec/Tide
-            - https://github.com/TophantTechnology/ARL
-            - https://github.com/awake1t/linglong
-            - https://github.com/smallcham/sec-admin
-            - https://github.com/taomujian/linbing
-            - https://github.com/XTeam-Wing/Vulcan
-            - https://github.com/CTF-MissFeng/bayonet
-            - https://github.com/jeffzh3ng/fuxi
-            - https://github.com/xuchaoa/WebScan
-            - https://github.com/ysrc/xunfeng
-            - https://github.com/kelvinBen/AppInfoScanner
-            - https://github.com/jwt1399/Sec-Tools
-            - https://github.com/komomon/Komo
-            - https://github.com/mscandev/mscan
-            - https://github.com/CLincat/vulcat
-        企业信息收集:
-            - https://github.com/wgpsec/ENScan_GO
-            - https://github.com/SiJiDo/IEyes
-        小程序信息收集:
-            - https://github.com/jdr2021/wxapkgUnpack
-        C段信息收集:
-            - https://github.com/SleepingBag945/IPSearch
-        IP反查域名:
-            - https://github.com/Lengso/iplookup
-        反查域名:
-            - https://github.com/Potato-py/ipInfoSearch
-        域名信息查询:
-            - https://github.com/z-bool/QueryTools
-        apk:
-            - https://github.com/TheKingOfDuck/ApkAnalyser
-            - https://github.com/MobSF/Mobile-Security-Framework-MobSF
+            指纹识别:
+                - https://github.com/EdgeSecurityTeam/EHole
+                - https://github.com/projectdiscovery/wappalyzergo
+                - https://github.com/b1ackc4t/14Finger
+                - https://github.com/urbanadventurer/WhatWeb
+                - https://github.com/TideSec/TideFinger
+                - https://github.com/s7ckTeam/Glass
+                - https://github.com/EASY233/Finger
+                - https://github.com/L10nK1n6/LazyDog
+                - https://github.com/winezer0/whatweb-plus
+                - https://github.com/LittleBear4/Find-SomeThing
+                - https://github.com/0x727/ObserverWard
+            WAF识别:
+                - https://github.com/stamparm/identYwaf
+            端口扫描:
+                - https://github.com/Liqunkit/webfinder-next
+                - https://github.com/foryujian/yujianportscan
+                - https://github.com/4dogs-cn/TXPortMap
+                - https://github.com/projectdiscovery/naabu
+                - https://github.com/redtoolskobe/scaninfo
+                - https://github.com/20142995/portscan
+            综合:
+                - https://github.com/zhzyker/dismap
+                - https://github.com/rabbitmask/AssetsHunter
+                - https://github.com/dyboy2017/TScan
+            自动化信息收集:
+                - https://github.com/SiJiDo/H
+                - https://github.com/ccreater222/slime
+                - https://github.com/XTeam-Wing/X-Marshal
+                - https://github.com/yqcs/heartsk_community
+                - https://github.com/Arbor01/AnScan
+                - https://github.com/hanc00l/nemo_go
+                - https://github.com/yogeshojha/rengine
+                - https://github.com/0x727/ShuiZe_0x727
+                - https://github.com/wgpsec/DBJ
+                - https://github.com/xundididi/Voyager
+                - https://github.com/CTF-MissFeng/GoScan
+                - https://github.com/zongdeiqianxing/Autoscanner
+                - https://github.com/er10yi/MagiCude
+                - https://github.com/CTF-MissFeng/Watchdog
+                - https://github.com/TideSec/Tide
+                - https://github.com/TophantTechnology/ARL
+                - https://github.com/awake1t/linglong
+                - https://github.com/smallcham/sec-admin
+                - https://github.com/taomujian/linbing
+                - https://github.com/XTeam-Wing/Vulcan
+                - https://github.com/CTF-MissFeng/bayonet
+                - https://github.com/jeffzh3ng/fuxi
+                - https://github.com/xuchaoa/WebScan
+                - https://github.com/ysrc/xunfeng
+                - https://github.com/kelvinBen/AppInfoScanner
+                - https://github.com/jwt1399/Sec-Tools
+                - https://github.com/komomon/Komo
+                - https://github.com/mscandev/mscan
+                - https://github.com/CLincat/vulcat
+            企业信息收集:
+                - https://github.com/wgpsec/ENScan_GO
+                - https://github.com/SiJiDo/IEyes
+            小程序信息收集:
+                - https://github.com/jdr2021/wxapkgUnpack
+            C段信息收集:
+                - https://github.com/SleepingBag945/IPSearch
+            IP反查域名:
+                - https://github.com/Lengso/iplookup
+            反查域名:
+                - https://github.com/Potato-py/ipInfoSearch
+            域名信息查询:
+                - https://github.com/z-bool/QueryTools
+            apk:
+                - https://github.com/TheKingOfDuck/ApkAnalyser
+                - https://github.com/MobSF/Mobile-Security-Framework-MobSF
+        Web安全:
+            常规web漏洞:
+                XSS:
+                    - https://github.com/hahwul/dalfox
+                    - https://github.com/dwisiswant0/findom-xss
+                    - https://github.com/v8blink/Chromium-based-XSS-Taint-Tracking
+                    - https://github.com/beefproject/beef
+                    - https://github.com/DanMcInerney/xsscrapy
+                SQL注入:
+                    - https://github.com/sqlmapproject/sqlmap
+                    - https://github.com/r0oth3x49/ghauri
+                CLRF:
+                    - https://github.com/Nefcore/CRLFsuite
+                CORS:
+                    - https://github.com/chenjj/CORScanner
+                XXE:
+                    - https://github.com/BuffaloWill/oxml_xxe
+                    - https://github.com/whitel1st/docem
+                SSTI:
+                    - https://github.com/vladko312/SSTImap
+                    - https://github.com/epinna/tplmap
+                SSRF:
+                    - https://github.com/teknogeek/ssrf-sheriff
+                    - https://github.com/swisskyrepo/SSRFmap
+                JWT:
+                    - https://github.com/ticarpi/jwt_tool
+                    - https://github.com/hahwul/jwt-hack
+                    - https://github.com/Ch1ngg/JWTPyCrack
+                    - https://github.com/Aiyflowers/JWT_GUI
+                DOS:
+                    - https://github.com/shekyan/slowhttptest
+                文件包含:
+                    - https://github.com/mzfr/liffy
+        后渗透:
+            - ''
+        语言安全:
+            - ''    
+        云安全:
+            云原生攻防靶场:
+                - https://github.com/Metarget/metarget
+            容器漏洞利用工具:
+                - https://github.com/cdk-team/CDK
+            容器逃逸检测工具:
+                - https://github.com/teamssix/container-escape-check
+            容器安全检测工具:
+                - https://github.com/chaitin/veinmind-tools
+                - https://github.com/anchore/grype
+            容器漏洞分析工具:
+                - https://github.com/quay/clair
+            容器安全扫描:
+                - https://github.com/aquasecurity/trivy
+            容器镜像扫描:
+                - https://github.com/anchore/grype
+                - https://github.com/anchore/syft
+            K8S漏洞扫描:
+                - https://github.com/aquasecurity/kube-hunter
+            K8S基线核查:
+                - https://github.com/aquasecurity/kube-bench
+            云原生安全平台:
+                - https://github.com/neuvector/neuvector
+                - https://github.com/Rnalter/ThunderCloud
+    CTF:
+        Misc:
+            - ''
+        Crypto:
+            - ''
+        Web:
+            - ''
+        Reverse:
+            - ''
+        Pwn:
+            - ''
+开发:
+    Python:
+        - ''
+    正则:
+        - ''
+渗透测试:
     漏洞发现:
         漏洞扫描框架:
             - https://github.com/knownsec/pocsuite3
@@ -168,30 +249,7 @@
             - https://github.com/4x99/code6
             - https://github.com/madneal/gshark
     漏洞利用:
-        云原生安全工具合集:
-            云原生攻防靶场:
-                - https://github.com/Metarget/metarget
-            容器漏洞利用工具:
-                - https://github.com/cdk-team/CDK
-            容器逃逸检测工具:
-                - https://github.com/teamssix/container-escape-check
-            容器安全检测工具:
-                - https://github.com/chaitin/veinmind-tools
-                - https://github.com/anchore/grype
-            容器漏洞分析工具:
-                - https://github.com/quay/clair
-            容器安全扫描:
-                - https://github.com/aquasecurity/trivy
-            容器镜像扫描:
-                - https://github.com/anchore/grype
-                - https://github.com/anchore/syft
-            K8S漏洞扫描:
-                - https://github.com/aquasecurity/kube-hunter
-            K8S基线核查:
-                - https://github.com/aquasecurity/kube-bench
-            云原生安全平台:
-                - https://github.com/neuvector/neuvector
-                - https://github.com/Rnalter/ThunderCloud
+
         半自动化漏洞利用:
             - https://github.com/lz520520/railgun
             - https://github.com/gobysec/Goby
