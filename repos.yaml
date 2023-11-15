@@ -338,6 +338,144 @@
                     - https://github.com/shekyan/slowhttptest
                 文件包含:
                     - https://github.com/mzfr/liffy
+            信息泄露漏洞:
+                key泄露:
+                    - https://github.com/UzJu/Cloud-Bucket-Leak-Detection-Tools
+                    - https://github.com/wyzxxz/aksk_tool
+                    - https://github.com/NS-Sp4ce/AliyunAccessKeyTools
+                    - https://github.com/teamssix/cf
+                    - https://github.com/dark-kingA/cloudTools
+                    - https://github.com/pykiller/API-T00L
+                swagger接口:
+                    - https://github.com/lijiejie/swagger-exp
+                    - https://github.com/jayus0821/swagger-hack
+                heapdump泄露:
+                    - https://github.com/wyzxxz/heapdump_tool
+                    - https://github.com/whwlsfb/JDumpSpider
+                Webpack接口:
+                    - https://github.com/rtcatc/Packer-Fuzzer
+                .git泄露:
+                    - https://github.com/lijiejie/GitHack
+                    - https://github.com/BugScanTeam/GitHack
+                    - https://github.com/arthaud/git-dumper
+                    - https://github.com/obheda12/GitDorker
+                    - https://github.com/denny0223/scrabble
+                .DS_Store泄露:
+                    - https://github.com/lijiejie/ds_store_exp
+                .svn泄露:
+                    - https://github.com/admintony/svnExploit
+                idea:
+                    - https://github.com/lijiejie/idea_exploit
+                代码泄露综合:
+                    - https://github.com/kost/dvcs-ripper
+                敏感数据泄露:
+                    - https://github.com/m4ll0k/SecretFinder
+                    - https://github.com/KathanP19/JSFScan.sh
+                    - https://github.com/MrEmpy/Mantra
+            子域接管:
+                - https://github.com/Ice3man543/SubOver
+            编辑器漏洞:
+                UEditor:
+                    - https://github.com/Tas9er/UEditorGetShell
+
+            产品/组件/框架漏洞:
+                IIS:
+                    - https://github.com/lijiejie/IIS_shortname_Scanner
+                Apache Dubbo:
+                    - https://github.com/threedr3am/dubbo-exp
+
+                Apache Shiro:
+                    - https://github.com/wyzxxz/shiro_rce_tool
+                    - https://github.com/SummerSec/ShiroAttack2
+                    - https://github.com/j1anFen/shiro_attack
+                    - https://github.com/feihong-cs/ShiroExploit-Deprecated
+                Apache Struts2:
+                    - https://github.com/xfiftyone/STS2G
+                    - https://github.com/HatBoy/Struts2-Scan
+                Apache Tomcat:
+                    - https://github.com/tpt11fb/AttackTomcat
+                    - https://github.com/xiaokp7/Tomcat_PUT_GUI_EXP
+                Fastjson:
+                    - https://github.com/a1phaboy/FastjsonScan
+                    - https://github.com/safe6Sec/Fastjson
+                    - https://github.com/hosch3n/FastjsonVulns
+                    - https://github.com/iSafeBlue/fastjson-autotype-bypass-dem
+                    - https://github.com/c0ny1/FastjsonExploit
+                    - https://github.com/mrknow001/fastjson_rec_exploit
+                JBoss:
+                    - https://github.com/joaomatosf/jexboss
+                vmware:
+                    - https://github.com/NS-Sp4ce/Vm4J
+                    - https://github.com/Schira4396/VcenterKiller
+                log4j:
+                    - https://github.com/kozmer/log4j-shell-poc
+                Spring Boot:
+                    - https://github.com/SummerSec/SpringExploit
+                    - https://github.com/0x727/SpringBootExploit
+                    - https://github.com/13exp/SpringBoot-Scan-GUI
+
+                Thinkphp:
+                    - https://github.com/zangcc/Aazhen-RexHa
+                    - https://github.com/Lotus6/ThinkphpGUI
+                    - https://github.com/bewhale/thinkphp_gui_tools
+                    - https://github.com/bingtangbanli/VulnerabilityTools
+                Weblogic:
+                    - https://github.com/dream0x01/weblogic-framework
+                    - https://github.com/KimJun1010/WeblogicTool
+                    - https://github.com/4ra1n/CVE-2023-21839
+                    - https://github.com/TideSec/Decrypt_Weblogic_Password
+                SmartBI:
+                    - https://github.com/yggo/SmartBIAttackTool
+                Hikvision:
+                    - https://github.com/baogod404/HikvisionDecode
+
+            OA产品漏洞:
+                通达OA:
+                    - https://github.com/xiaokp7/TongdaOATools
+                    - https://github.com/xinyu2428/TDOA_RCE
+                用友OA:
+                    - https://github.com/novysodope/fupo_for_yonyou
+                    - https://github.com/li8u99/yonyou_exp_plus
+                    - https://github.com/woodpecker-appstore/yonyou-nc-decrypter
+                致远OA:
+                    - https://github.com/Summer177/seeyon_exp
+                    - https://github.com/God-Ok/SeeyonExploit-GUI
+                    - https://github.com/Rvn0xsy/PassDecode-jar
+                OA综合:
+                    - https://github.com/LittleBear4/OA-EXPTOOL
+                    - https://github.com/achuna33/MYExploit
+            数据库漏洞利用:
+                数据库自动化提权:
+                    - https://github.com/Hel10-Web/Databasetools
+        端口服务安全:
+            服务漏洞:
+                RMI:
+                    - https://github.com/waderwu/attackRmi
+                    - https://github.com/A-D-Team/attackRmi
+                    - https://github.com/NickstaDB/BaRMIe
+                    - https://github.com/BishopFox/rmiscout
+                JDWP:
+                    - https://github.com/IOActive/jdwp-shellifier
+                    - https://github.com/Lz1y/jdwp-shellifier
+
+                数据库利用:
+                    redis:
+                        - https://github.com/n0b0dyCN/redis-rogue-server
+                        - https://github.com/yuyan-sec/RedisEXP
+                        - https://github.com/zyylhn/redis_rce
+                        - https://github.com/Ridter/redis-rce
+                        - https://github.com/Dliv3/redis-rogue-server
+                    mssql:
+                        - https://github.com/uknowsec/SharpSQLTools
+                        - https://github.com/blackarrowsec/mssqlproxy
+                    Oracle:
+                        - https://github.com/quentinhardy/odat
+                    postgresql:
+                        - https://github.com/No-Github/postgresql_udf_help
+                    综合:
+                        - https://github.com/SafeGroceryStore/MDUT
+                        - https://github.com/1n7erface/RequestTemplate
+                        - https://github.com/Hel10-Web/Databasetools
         后渗透:
             权限维持:
                 Shell管理:
@@ -528,11 +666,11 @@
             - https://github.com/CTFd/CTFd
             - https://github.com/Gu-f/CTFd_chinese_CN
 
-开发:
-    Python:
-        - ''
-    正则:
-        - ''
+# 开发:
+#     Python:
+#         - ''
+#     正则:
+#         - ''
 渗透测试:
     漏洞发现:
         漏洞扫描框架:
@@ -647,179 +785,13 @@
             - https://github.com/ycdxsb/PocOrExp_in_Github
             - https://github.com/CLincat/vulcat
     漏洞检测利用库:
-        服务漏洞:
-            RMI:
-                - https://github.com/waderwu/attackRmi
-                - https://github.com/A-D-Team/attackRmi
-                - https://github.com/NickstaDB/BaRMIe
-                - https://github.com/BishopFox/rmiscout
-            JDWP:
-                - https://github.com/IOActive/jdwp-shellifier
-                - https://github.com/Lz1y/jdwp-shellifier
 
-            数据库利用:
-                redis:
-                    - https://github.com/n0b0dyCN/redis-rogue-server
-                    - https://github.com/yuyan-sec/RedisEXP
-                    - https://github.com/zyylhn/redis_rce
-                    - https://github.com/Ridter/redis-rce
-                    - https://github.com/Dliv3/redis-rogue-server
-                mssql:
-                    - https://github.com/uknowsec/SharpSQLTools
-                    - https://github.com/blackarrowsec/mssqlproxy
-                Oracle:
-                    - https://github.com/quentinhardy/odat
-                postgresql:
-                    - https://github.com/No-Github/postgresql_udf_help
-                综合:
-                    - https://github.com/SafeGroceryStore/MDUT
-                    - https://github.com/1n7erface/RequestTemplate
-                    - https://github.com/Hel10-Web/Databasetools
         常规web漏洞:
-            XSS:
-                - https://github.com/hahwul/dalfox
-                - https://github.com/dwisiswant0/findom-xss
-                - https://github.com/v8blink/Chromium-based-XSS-Taint-Tracking
-                - https://github.com/beefproject/beef
-                - https://github.com/DanMcInerney/xsscrapy
-            SQL注入:
-                - https://github.com/sqlmapproject/sqlmap
-                - https://github.com/r0oth3x49/ghauri
-            CLRF:
-                - https://github.com/Nefcore/CRLFsuite
-            CORS:
-                - https://github.com/chenjj/CORScanner
-            XXE:
-                - https://github.com/BuffaloWill/oxml_xxe
-                - https://github.com/whitel1st/docem
-            SSTI:
-                - https://github.com/vladko312/SSTImap
-                - https://github.com/epinna/tplmap
-            SSRF:
-                - https://github.com/teknogeek/ssrf-sheriff
-                - https://github.com/swisskyrepo/SSRFmap
-            JWT:
-                - https://github.com/ticarpi/jwt_tool
-                - https://github.com/hahwul/jwt-hack
-                - https://github.com/Ch1ngg/JWTPyCrack
-                - https://github.com/Aiyflowers/JWT_GUI
-            DOS:
-                - https://github.com/shekyan/slowhttptest
-            文件包含:
-                - https://github.com/mzfr/liffy
-
             解析漏洞:
                 Nginx:
                     - https://github.com/stark0de/nginxpwner
-        信息泄露漏洞:
-            key泄露:
-                - https://github.com/UzJu/Cloud-Bucket-Leak-Detection-Tools
-                - https://github.com/wyzxxz/aksk_tool
-                - https://github.com/NS-Sp4ce/AliyunAccessKeyTools
-                - https://github.com/teamssix/cf
-                - https://github.com/dark-kingA/cloudTools
-                - https://github.com/pykiller/API-T00L
-            swagger接口:
-                - https://github.com/lijiejie/swagger-exp
-                - https://github.com/jayus0821/swagger-hack
-            heapdump泄露:
-                - https://github.com/wyzxxz/heapdump_tool
-                - https://github.com/whwlsfb/JDumpSpider
-            Webpack接口:
-                - https://github.com/rtcatc/Packer-Fuzzer
-            .git泄露:
-                - https://github.com/lijiejie/GitHack
-                - https://github.com/BugScanTeam/GitHack
-                - https://github.com/arthaud/git-dumper
-                - https://github.com/obheda12/GitDorker
-                - https://github.com/denny0223/scrabble
-            .DS_Store泄露:
-                - https://github.com/lijiejie/ds_store_exp
-            .svn泄露:
-                - https://github.com/admintony/svnExploit
-            idea:
-                - https://github.com/lijiejie/idea_exploit
-            代码泄露综合:
-                - https://github.com/kost/dvcs-ripper
-            敏感数据泄露:
-                - https://github.com/m4ll0k/SecretFinder
-                - https://github.com/KathanP19/JSFScan.sh
-                - https://github.com/MrEmpy/Mantra
-        子域接管:
-            - https://github.com/Ice3man543/SubOver
-        编辑器漏洞:
-            UEditor:
-                - https://github.com/Tas9er/UEditorGetShell
 
-        产品/组件/框架漏洞:
-            IIS:
-                - https://github.com/lijiejie/IIS_shortname_Scanner
-            Apache Dubbo:
-                - https://github.com/threedr3am/dubbo-exp
 
-            Apache Shiro:
-                - https://github.com/wyzxxz/shiro_rce_tool
-                - https://github.com/SummerSec/ShiroAttack2
-                - https://github.com/j1anFen/shiro_attack
-                - https://github.com/feihong-cs/ShiroExploit-Deprecated
-            Apache Struts2:
-                - https://github.com/xfiftyone/STS2G
-                - https://github.com/HatBoy/Struts2-Scan
-            Apache Tomcat:
-                - https://github.com/tpt11fb/AttackTomcat
-                - https://github.com/xiaokp7/Tomcat_PUT_GUI_EXP
-            Fastjson:
-                - https://github.com/a1phaboy/FastjsonScan
-                - https://github.com/safe6Sec/Fastjson
-                - https://github.com/hosch3n/FastjsonVulns
-                - https://github.com/iSafeBlue/fastjson-autotype-bypass-dem
-                - https://github.com/c0ny1/FastjsonExploit
-                - https://github.com/mrknow001/fastjson_rec_exploit
-            JBoss:
-                - https://github.com/joaomatosf/jexboss
-            vmware:
-                - https://github.com/NS-Sp4ce/Vm4J
-                - https://github.com/Schira4396/VcenterKiller
-            log4j:
-                - https://github.com/kozmer/log4j-shell-poc
-            Spring Boot:
-                - https://github.com/SummerSec/SpringExploit
-                - https://github.com/0x727/SpringBootExploit
-                - https://github.com/13exp/SpringBoot-Scan-GUI
-
-            Thinkphp:
-                - https://github.com/zangcc/Aazhen-RexHa
-                - https://github.com/Lotus6/ThinkphpGUI
-                - https://github.com/bewhale/thinkphp_gui_tools
-                - https://github.com/bingtangbanli/VulnerabilityTools
-            Weblogic:
-                - https://github.com/dream0x01/weblogic-framework
-                - https://github.com/KimJun1010/WeblogicTool
-                - https://github.com/4ra1n/CVE-2023-21839
-                - https://github.com/TideSec/Decrypt_Weblogic_Password
-            SmartBI:
-                - https://github.com/yggo/SmartBIAttackTool
-            Hikvision:
-                - https://github.com/baogod404/HikvisionDecode
-
-        OA产品漏洞:
-            通达OA:
-                - https://github.com/xiaokp7/TongdaOATools
-                - https://github.com/xinyu2428/TDOA_RCE
-            用友OA:
-                - https://github.com/novysodope/fupo_for_yonyou
-                - https://github.com/li8u99/yonyou_exp_plus
-                - https://github.com/woodpecker-appstore/yonyou-nc-decrypter
-            致远OA:
-                - https://github.com/Summer177/seeyon_exp
-                - https://github.com/God-Ok/SeeyonExploit-GUI
-                - https://github.com/Rvn0xsy/PassDecode-jar
-            OA综合:
-                - https://github.com/LittleBear4/OA-EXPTOOL
-                - https://github.com/achuna33/MYExploit
-        数据库漏洞利用:
-            数据库自动化提权:
-                - https://github.com/Hel10-Web/Databasetools
     漏洞文库:
         - https://github.com/BaizeSec/bylibrary
         - https://github.com/PeiQi0/PeiQi-WIKI-Book
