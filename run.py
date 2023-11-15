@@ -130,7 +130,7 @@ def parse_len(x, y):
 
     x = x if x else ""
     x = re.sub(r"<[^>]+>", "", x)
-    x = x.replace("`", "")
+    x = x.replace("`", "")[:180]
     s = ""
     n = 0
     for i in x:
@@ -297,7 +297,7 @@ def main():
     commits = sorted(commits, key=lambda x: x[0], reverse=True)
     commit_md += "\n".join(
         [
-            f"|{commit_date}|[{repo}]({url})|{commit_message[:180]}|"
+            f"|{commit_date}|[{repo}]({url})|{commit_message}|"
             for commit_date, repo, url, commit_message in commits
         ]
     )
@@ -323,7 +323,7 @@ def main():
                                         data.get(url, {}).get("release_tag", ""), 8
                                     ),
                                     parse_len(
-                                        data.get(url, {}).get("description", "")[:180], 63
+                                        data.get(url, {}).get("description", ""), 63
                                     ),
                                 )
                             )
