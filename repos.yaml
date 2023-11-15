@@ -588,6 +588,7 @@
                         - https://github.com/zyylhn/redis_rce
                         - https://github.com/Ridter/redis-rce
                         - https://github.com/Dliv3/redis-rogue-server
+                        - https://github.com/0671/RabR
                     mssql:
                         - https://github.com/uknowsec/SharpSQLTools
                         - https://github.com/blackarrowsec/mssqlproxy
@@ -1008,11 +1009,11 @@
             - https://github.com/CTFd/CTFd
             - https://github.com/Gu-f/CTFd_chinese_CN
 
-# 开发:
-#     Python:
-#         - ''
-#     正则:
-#         - ''
+开发:
+    Python:
+        - ''
+    正则:
+        - https://github.com/cdoco/common-regex
 
 杂七杂八:
     远程软件:
@@ -2557,7 +2558,7 @@
     - https://github.com/horizon3ai/CVE-2022-40684
     - https://github.com/merttasci/csrf-poc-generator
     - https://github.com/lengjibo/NetUser
-    - https://github.com/cdoco/common-regex
+    
     - https://github.com/Coalfire-Research/java-deserialization-exploits
     - https://github.com/crisprss/Extracted_WD_VDM
     - https://github.com/Swagger2Markup/swagger2markup
@@ -2757,7 +2758,7 @@
     - https://github.com/jackzhenguo/python-small-examples
     - https://github.com/assetnote/jira-mobile-ssrf-exploit
     - https://github.com/L-codes/MX1014
-    - https://github.com/0671/RabR
+    
     - https://github.com/f3d0x0/GPON
     - https://github.com/volatilityfoundation/volatility3
     - https://github.com/Keramas/mssqli-duet
