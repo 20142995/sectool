@@ -22,10 +22,10 @@
 
             
         取证:
-            数据恢复:
-                - ''
-            操作系统取证:
-                - ''
+            # 数据恢复:
+            #     - ''
+            # 操作系统取证:
+            #     - ''
             文件取证:
                 压缩包:
                     ZIP伪加密:
@@ -57,10 +57,10 @@
                     - https://github.com/audacity/audacity
                     - https://github.com/ribt/dtmf-decoder
                     - https://github.com/ON4QZ/QSSTV
-                文本:
-                    - ''
-                电子文档:
-                    - ''
+                # 文本:
+                #     - ''
+                # 电子文档:
+                #     - ''
             网络取证:
                 冰蝎(Behinder)流量取证:
                     - https://github.com/webraybtl/webshell_detect
@@ -127,7 +127,7 @@
                     - https://github.com/wgpsec/tig
                     - https://github.com/CRED-CLUB/ARTIF
             系统层面:
-                Windows 应急工具:
+                Windows应急工具:
                     信息采集:
                         - https://github.com/travisfoley/dfirtriage
                         - https://github.com/MountCloud/FireKylin
@@ -146,7 +146,7 @@
                         - https://processhacker.sourceforge.io/
                     其他:
                         - https://docs.microsoft.com/zh-cn/sysinternals/downloads/
-                Linux 应急工具:
+                Linux应急工具:
                     - https://github.com/grayddq/GScan
                     - https://github.com/al0ne/LinuxCheck
                     - https://github.com/alexandreborges/malwoverview
@@ -161,8 +161,8 @@
                     解密工具:
                         - https://github.com/jiansiting/Decryption-Tools
             Web层面:
-                暗链:
-                    - ''
+                # 暗链:
+                #     - ''
                 webshell后门:
                     - https://github.com/cys3c/BackdoorMan
                     - https://github.com/he1m4n6a/findWebshell
@@ -185,8 +185,8 @@
                 IP信息:
                     - https://github.com/Hackl0us/GeoIP2-CN
                     - https://github.com/gaoyifan/china-operator-ip
-                DOS:
-                    - ''
+                # DOS:
+                #     - ''
             综合:
                 分析辅助:
                     - https://github.com/abc123info/BlueTeamTools
@@ -424,8 +424,8 @@
                 - https://github.com/esrrhs/pingtunnel
                 - https://github.com/inconshreveable/ngrok
                 - https://github.com/snail007/goproxy
-        语言安全:
-            - ''    
+        # 语言安全:
+        #     - ''    
         云安全:
             云原生攻防靶场:
                 - https://github.com/Metarget/metarget
@@ -454,7 +454,6 @@
         Misc:
             二维码批量识别:
                 - https://github.com/zfb132/QrScan
-                
             自动拼图:
                 - https://github.com/JamesHoi/PuzzleSolver
             16进制编辑:
