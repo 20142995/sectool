@@ -200,8 +200,8 @@
     "https://github.com/ycdxsb/PocOrExp_in_Github": {
         "created_at": "2021-04-13 05:46:16",
         "description": "聚合Github上已有的Poc或者Exp，CVE信息来自CVE官网。Auto Collect Poc Or Exp from Github by CVE ID.",
-        "commit_date": "2023-11-15 00:01:28",
-        "commit_message": "update 2023-11-15 08:01:28",
+        "commit_date": "2023-11-16 00:01:12",
+        "commit_message": "update 2023-11-16 08:01:12",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -594,9 +594,9 @@
     "https://github.com/shadow1ng/fscan": {
         "created_at": "2020-11-13 16:35:20",
         "description": "一款内网综合扫描工具，方便一键自动化、全方位漏扫扫描。",
-        "commit_date": "2023-11-14 16:02:28",
+        "commit_date": "2023-11-15 04:07:25",
         "commit_message": "Update",
-        "release_tag": "1.8.3-build2",
+        "release_tag": "1.8.3",
         "release_date": "2023-11-13 04:43:05",
         "release_message": "加入控制台颜色输出(可-nocolor)、保存文件json结构(-json)、修改tls最低版本为1.0、端口分组(-p db,web,service)。"
     },
@@ -1098,7 +1098,7 @@
     "https://github.com/Threekiii/Vulnerability-Wiki": {
         "created_at": "2022-04-29 05:36:33",
         "description": "基于 docsify 部署，目前漏洞数量 1000+",
-        "commit_date": "2023-10-30 01:24:55",
+        "commit_date": "2023-11-15 03:04:47",
         "commit_message": "更新漏洞",
         "release_tag": "v1.0",
         "release_date": "2022-07-15 01:58:00",
@@ -2221,7 +2221,7 @@
     "https://github.com/Threekiii/Awesome-POC": {
         "created_at": "2022-02-20 06:43:22",
         "description": "一个漏洞POC知识库",
-        "commit_date": "2023-10-30 01:25:20",
+        "commit_date": "2023-11-15 03:03:03",
         "commit_message": "更新漏洞",
         "release_tag": "",
         "release_date": "",
@@ -2951,8 +2951,8 @@
     "https://github.com/dbeaver/dbeaver": {
         "created_at": "2015-10-21 08:26:28",
         "description": "Free universal database tool and SQL client",
-        "commit_date": "2023-11-14 16:42:40",
-        "commit_message": "#21123 Show a countdown before rollback/disconnect (#21835)\n\n* #21123 Show a countdown before rollback/disconnect\r\n\r\n* #21123 Fix preference link",
+        "commit_date": "2023-11-15 20:09:38",
+        "commit_message": "CB-4197 add events for deleting user (#21867)\n\n* CB-4197 add events for deleting user\r\n\r\n* CB-4197 code style fix\r\n\r\n---------\r\n\r\nCo-authored-by: Evgenia Bezborodova <139753579+EvgeniaBzzz@users.noreply.github.com>",
         "release_tag": "23.2.4",
         "release_date": "2023-11-05 17:31:13",
         "release_message": "\n                - SQL editor:\n                    - Code completion for update statements was added\n                    - Smart completion and replacements of quoted expressions was fixed\n                    - Redundant errors on opening SQL Editor for the first time were removed from the logs\n                - Database Navigator:\n                    - Filtered objects visualization was added\n                    - Script folder opening was fixed\n                - Data transfer:\n                    - Attributes names for quoted attributes are handled correctly\n                    - \"Copy as HTML\" result presentation is improved\n                - Data editor:\n                    - Background color reset was fixed\n                    - Message about content representation size limit was fixed\n                    - App freeze in binary editor was fixed (MacOS)\n                - ER diagrams: one-to-one connection rendering was fixed\n                - Connections:\n                    - SSH connection page validation is enhanced for jump servers\n                    - Complex JDBC driver support was improved (context classloader + driver cache)\n                - General:\n                    - Script names are sorted alphabetically\n                    - Refresh button was added to the ‘Generate DDL’ dialog\n                    - Issue with app launch was fixed (rare case)\n                - Databases:\n                    - Oracle: search package bodies as packages was supported\n                    - PostgreSQL:\n                        - Default privileges presentation and editing was supported\n                        - Sequences permissions reading for quoted roles was fixed\n                    - SQLite: required columns creating was fixed\n            "
@@ -3219,7 +3219,7 @@
     "https://github.com/Threekiii/Awesome-Redteam": {
         "created_at": "2022-02-08 00:45:03",
         "description": "一个攻防知识仓库",
-        "commit_date": "2023-11-13 10:12:02",
+        "commit_date": "2023-11-15 05:46:53",
         "commit_message": "更新README.md",
         "release_tag": "",
         "release_date": "",
@@ -3890,8 +3890,8 @@
     "https://github.com/neuvector/neuvector": {
         "created_at": "2021-12-17 20:15:03",
         "description": "",
-        "commit_date": "2023-11-14 02:35:12",
-        "commit_message": "Merge pull request #1095 from becitsthere/dev\n\nLog event name in msg if msg is missing",
+        "commit_date": "2023-11-16 00:27:24",
+        "commit_message": "Merge pull request #1100 from williamlin-suse/main\n\nNVSHAS-8462: show unexpected crd error message in /v1/system/rbac",
         "release_tag": "v5.2.3",
         "release_date": "2023-11-10 18:30:08",
         "release_message": "New Features:\r\nSupport usage based billing in GCP and Azure \r\n\r\nBug fixes:\r\nNVSHAS-8426: Not to revert admission control webhook if the cloud service modify it at the same time\r\nNVSHAS-8411: possible deadlock when running on single node\r\nVarious bug fixes on vulnerability reporting\r\n\r\nScanner:\r\nSupport container host scan in standalone mode\r\nSupport vulnerability NVD API 2.0"
@@ -3908,8 +3908,8 @@
     "https://github.com/anchore/syft": {
         "created_at": "2020-05-07 18:19:29",
         "description": "CLI tool and library for generating a Software Bill of Materials from container images and filesystems",
-        "commit_date": "2023-11-14 17:01:47",
-        "commit_message": "chore(deps): update tools to latest versions (#2318)\n\nSigned-off-by: GitHub <noreply@github.com>\r\nCo-authored-by: spiffcs <spiffcs@users.noreply.github.com>",
+        "commit_date": "2023-11-15 19:05:18",
+        "commit_message": "export metadata type helper (#2328)\n\nSigned-off-by: Alex Goodman <wagoodman@users.noreply.github.com>",
         "release_tag": "v0.96.0",
         "release_date": "2023-11-09 14:11:50",
         "release_message": "### Added Features\n\n- Check maven central as well for licenses in parents poms for nested jars [[#2302](https://github.com/anchore/syft/pull/2302) @coheigea]\n- store image annotations inside the SBOM [[#2267](https://github.com/anchore/syft/issues/2267) [#2294](https://github.com/anchore/syft/pull/2294) @noqcks]\n- Support parsing license information in Maven projects via parent poms [[#2103](https://github.com/anchore/syft/issues/2103)]\n\n### Bug Fixes\n\n- SPDX file has duplicate sha256 tag in versionInfo [[#2300](https://github.com/anchore/syft/pull/2300) @coheigea]\n- Report virtual path consistently between file.Resolvers [[#1836](https://github.com/anchore/syft/issues/1836) [#2287](https://github.com/anchore/syft/pull/2287) @wagoodman]\n- Unable to identify CycloneDX JSON documents without $schema property [[#2299](https://github.com/anchore/syft/issues/2299) [#2303](https://github.com/anchore/syft/pull/2303) @kzantow]\n\n**[(Full Changelog)](https://github.com/anchore/syft/compare/v0.95.0...v0.96.0)**\n\n"
@@ -3917,8 +3917,8 @@
     "https://github.com/chaitin/safeline": {
         "created_at": "2023-04-12 11:30:14",
         "description": "一款足够简单、足够好用、足够强的免费 WAF。基于业界领先的语义引擎检测技术，作为反向代理接入，保护你的网站不受黑客攻击。",
-        "commit_date": "2023-11-10 09:27:18",
-        "commit_message": "fix(fe): missing install count",
+        "commit_date": "2023-11-14 08:08:30",
+        "commit_message": "fix(test): zip testcases package during compile",
         "release_tag": "v3.10.1",
         "release_date": "2023-11-03 04:34:30",
         "release_message": "### 修复\r\n\r\n- 修复无法修改 通用配置-其他-拦截页面附加说明 的问题"
@@ -3971,8 +3971,8 @@
     "https://github.com/aquasecurity/trivy": {
         "created_at": "2019-04-11 01:01:07",
         "description": "Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more",
-        "commit_date": "2023-11-14 12:32:23",
-        "commit_message": "refactor: reintroduce output writer (#5564)\n\nSigned-off-by: knqyf263 <knqyf263@gmail.com>",
+        "commit_date": "2023-11-15 07:04:22",
+        "commit_message": "feat(misconf): Add support for `--cf-params` for CFT (#5507)\n\nSigned-off-by: Simar <simar@linux.com>\nCo-authored-by: nikpivkin <nikita.pivkin@smartforce.io>",
         "release_tag": "v0.47.0",
         "release_date": "2023-11-06 06:41:17",
         "release_message": "## ⚡Release highlights and summary⚡\r\n\r\n👉 https://github.com/aquasecurity/trivy/discussions/5520\r\n\r\n## Changelog\r\n* d6df5fbcd docs: add info that license scanning supports file-patterns flag (#5484)\r\n* 156d4cc60 docs: add Zora integration into Ecosystem session (#5490)\r\n* 772d1d08f fix(sbom): Use UUID as BomRef for packages with empty purl (#5448)\r\n* df47073fa ci: use maximize build space for K8s tests (#5387)\r\n* fed471018 fix: correct error mismatch causing race in fast walks (#5516)\r\n* 46f1b9e7d docs: k8s vulnerability scanning (#5515)\r\n* fdb3a15b2 chore(deps): bump github.com/aws/aws-sdk-go-v2/service/sts from 1.23.2 to 1.25.0 (#5506)\r\n* d0d956fdc chore(deps): bump github.com/owenrumney/go-sarif/v2 from 2.2.2 to 2.3.0 (#5493)\r\n* 68b0797e5 docs: remove glad for java datasources (#5508)\r\n* 474167c47 chore(deps): bump github.com/testcontainers/testcontainers-go/modules/localstack from 0.21.0 to 0.26.0 (#5475)\r\n* 7299867c2 chore: remove unused logger attribute in amazon detector (#5476)\r\n* 8656bd9f7 fix: correct error mismatch causing race in fast walks (#5482)\r\n* 2e10cd2eb chore(deps): bump goreleaser/goreleaser-action from 4 to 5 (#5502)\r\n* 13df74652 chore(deps): bump docker/build-push-action from 4 to 5 (#5500)\r\n* b0141cfba chore(deps): bump github.com/package-url/packageurl-go from 0.1.2-0.20230812223828-f8bb31c1f10b to 0.1.2 (#5491)\r\n* 520830b51 fix(server): add licenses to `BlobInfo` message (#5382)\r\n* 9a6e125c7 chore(deps): bump actions/checkout from 4.1.0 to 4.1.1 (#5501)\r\n* 6e5927266 chore(deps): bump github.com/aws/aws-sdk-go-v2/service/ecr from 1.17.18 to 1.21.0 (#5497)\r\n* f3de7bc3b feat: scan vulns on k8s core component apps (#5418)\r\n* e2fb3dd58 fix(java): fix infinite loop when `relativePath` field points to `pom.xml` being scanned (#5470)\r\n* 3e833be7d chore(deps): bump github.com/docker/docker from 24.0.5+incompatible to 24.0.7+incompatible (#5472)\r\n* ca50b77a3 fix(sbom): save digests for package/application when scanning SBOM files (#5432)\r\n* 048150d43 docs: fix the broken link (#5454)\r\n* 013d90199 docs: fix error when installing `PyYAML` for gh pages (#5462)\r\n* 26b495954 fix(java): download java-db once (#5442)\r\n* 57fa701a8 chore(deps): bump google.golang.org/grpc from 1.57.0 to 1.57.1 (#5447)\r\n* 53c9a7d76 docs(misconf): Update `--tf-exclude-downloaded-modules` description (#5419)\r\n* 01c98d151 feat(misconf): Support `--ignore-policy` in config scans (#5359)\r\n* 05b3c86a1 docs(misconf): fix broken table for `Use container image` section (#5425)\r\n* 1a15a3adb feat(dart): add graph support (#5374)\r\n* f2a12f5f9 refactor: define a new struct for scan targets (#5397)\r\n* 6040d9f43 fix(sbom): add missed `primaryURL` and `source severity` for CycloneDX (#5399)\r\n* e5317c7bc fix: correct invalid MD5 hashes for rpms ending with one or more zero bytes (#5393)\r\n* 9fba79f0b chore(deps): move to aws-sdk-go-v2 (#5381)\r\n* 00f2059e5 docs: remove --scanners none (#5384)\r\n* 57a102231 docs: Update container_image.md #5182 (#5193)\r\n* 5b2b4ea38 feat(report): Add `InstalledFiles` field to Package (#4706)\r\n\r\n"
@@ -3980,8 +3980,8 @@
     "https://github.com/anchore/grype": {
         "created_at": "2020-05-26 13:44:38",
         "description": "A vulnerability scanner for container images and filesystems",
-        "commit_date": "2023-11-09 16:08:22",
-        "commit_message": "chore(deps): update bootstrap tools to latest versions (#1595)\n\nSigned-off-by: GitHub <noreply@github.com>\r\nCo-authored-by: westonsteimel <westonsteimel@users.noreply.github.com>",
+        "commit_date": "2023-11-15 22:25:32",
+        "commit_message": "fix: golang version parsing (#1599)\n\nAdd a golang version parser, which is a very thin wrapper\r\naround a semantic vesion, but knows to trim \"go\" before attempting\r\nto parse as a semantic version.\r\n\r\nSigned-off-by: Will Murphy <will.murphy@anchore.com>",
         "release_tag": "v0.73.1",
         "release_date": "2023-11-09 15:02:57",
         "release_message": "### Bug Fixes\n\n- CycloneDX based analysis failing [[#1594](https://github.com/anchore/grype/issues/1594) [#1596](https://github.com/anchore/grype/pull/1596) @anchore-actions-token-generator]\n- False negatives when scanning debian trixie/sid images from Dockerhub [[#1446](https://github.com/anchore/grype/issues/1446) [#1593](https://github.com/anchore/grype/pull/1593) @willmurphyscode]\n\n### Additional Changes\n\n- avoid allocations with `(*regexp.Regexp).MatchString` [[#1592](https://github.com/anchore/grype/pull/1592) @Juneezee]\n\n**[(Full Changelog)](https://github.com/anchore/grype/compare/v0.73.0...v0.73.1)**\n\n"
@@ -4061,8 +4061,8 @@
     "https://github.com/WebGoat/WebGoat": {
         "created_at": "2015-03-06 14:02:02",
         "description": "WebGoat is a deliberately insecure application",
-        "commit_date": "2023-11-14 17:14:48",
-        "commit_message": "fixed issue in JWT test tool and added robot test (#1658)",
+        "commit_date": "2023-11-15 17:30:14",
+        "commit_message": "skip validation for JWT (#1663)\n\n* skip validation for JWT\r\n\r\n* skip validation for JWT\r\n\r\n* skip validation for JWT",
         "release_tag": "v2023.4",
         "release_date": "2023-02-17 12:16:10",
         "release_message": "## Version 2023.4\r\n\r\n### New functionality\r\n\r\n- [#1422 Add Docker Linux Desktop variant with all tools installed](https://github.com/WebGoat/WebGoat/issues/1422). Thanks to the [OWASP WrongSecrets project](https://owasp.org/www-project-wrongsecrets/) we now have a Docker Linux desktop image with all the tools installed. No need to install any tools locally only run the new Docker image. See README.md for details on how to start it.\r\n- [#1411 JWT: looks that buy as Tom also works with alg:none](https://github.com/WebGoat/WebGoat/issues/1411).\r\n\r\n### Bug fixes\r\n\r\n- [#1410 WebWolf: JWT decode is broken](https://github.com/WebGoat/WebGoat/issues/1410).\r\n- [#1396 password_reset return 500 Error](https://github.com/WebGoat/WebGoat/issues/1396).\r\n- [#1379 Move XXE to A05:2021-Security Misconfiguration](https://github.com/WebGoat/WebGoat/issues/1379)."
@@ -4277,7 +4277,7 @@
     "https://github.com/aiboboxx/v2rayfree": {
         "created_at": "2021-10-13 11:34:53",
         "description": "v2ray节点、免费节点、免费v2ray节点、最新公益免费v2ray节点订阅地址、免费v2ray节点每日更新、免费ss/v2ray/trojan节点、freefq ",
-        "commit_date": "2023-11-14 12:35:56",
+        "commit_date": "2023-11-15 12:37:02",
         "commit_message": "update",
         "release_tag": "",
         "release_date": "",
@@ -4322,8 +4322,8 @@
     "https://github.com/freefq/free": {
         "created_at": "2020-06-07 02:48:33",
         "description": "翻墙、免费翻墙、免费科学上网、免费节点、免费梯子、免费ss/v2ray/trojan节点、蓝灯、谷歌商店、翻墙梯子",
-        "commit_date": "2023-11-15 00:00:14",
-        "commit_message": "updated_at 11-15 08:00",
+        "commit_date": "2023-11-16 00:00:03",
+        "commit_message": "updated_at 11-16 08:00",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -4781,8 +4781,8 @@
     "https://github.com/zaivanza/all-in-one-v2": {
         "created_at": "2023-04-29 09:03:49",
         "description": "",
-        "commit_date": "2023-11-09 12:04:42",
-        "commit_message": "change data to datas",
+        "commit_date": "2023-11-15 17:15:04",
+        "commit_message": "fix",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -5004,8 +5004,8 @@
     "https://github.com/rustdesk/rustdesk": {
         "created_at": "2020-09-28 15:36:08",
         "description": "An open-source remote desktop, and alternative to TeamViewer.",
-        "commit_date": "2023-11-14 13:54:14",
-        "commit_message": "Merge pull request #6406 from fufesou/feat/virtual_display_privacy_mode\n\nFeat/Windows - virtual display privacy mode",
+        "commit_date": "2023-11-15 08:32:54",
+        "commit_message": "Merge pull request #6414 from solokot/master\n\nUpdate Russian translation",
         "release_tag": "1.2.3",
         "release_date": "2023-10-13 10:47:12",
         "release_message": " ![image](https://github.com/rustdesk/rustdesk/assets/71636191/83754a64-31b8-47f0-8570-da22207759a9)\r\n\r\n > Winget, FDroid update will come soon.\r\n\r\n x86-64: [Windows](https://github.com/rustdesk/rustdesk/releases/download/1.2.3/rustdesk-1.2.3-x86_64.exe) | [Ubuntu](https://github.com/rustdesk/rustdesk/releases/download/1.2.3/rustdesk-1.2.3-x86_64.deb) | [Mac](https://github.com/rustdesk/rustdesk/releases/download/1.2.3/rustdesk-1.2.3-x86_64.dmg)\r\n AArch64 (ARM64):  [Ubuntu](https://github.com/rustdesk/rustdesk/releases/download/1.2.3/rustdesk-1.2.3-aarch64.deb) | [Android](https://github.com/rustdesk/rustdesk/releases/download/1.2.3/rustdesk-1.2.3-aarch64-signed.apk) | [Mac](https://github.com/rustdesk/rustdesk/releases/download/1.2.3/rustdesk-1.2.3-aarch64.dmg)\r\n\r\n More: [check below please](#)\r\n\r\n <details>\r\n <summary>Changelog</summary>\r\n\r\n- Improve Wayland support, cursor/clipboard/multi-monitors etc, but highly depends on Xwayland, working well on GNOME, bad compatibility on KDE. We will continue working on Wayland\r\n- Add group tab\r\n- Add software update check based on github latest tag\r\n- Some fixes for Kaspersky compliance, https://github.com/rustdesk/rustdesk/discussions/5624, but they requested more\r\n- A lot of fixes since 1.2.2\r\n- We are still working hard on dual-monitors-dual-windows and new hardware codecs, hopefully be in 1.2.4\r\n\r\n </details>"
@@ -5148,8 +5148,8 @@
     "https://github.com/FreeRDP/FreeRDP": {
         "created_at": "2011-06-30 19:14:15",
         "description": "FreeRDP is a free remote desktop protocol library and clients",
-        "commit_date": "2023-11-13 18:43:44",
-        "commit_message": "[build] fix windows build under mingw\n\nThe path to resource file was wrong.",
+        "commit_date": "2023-11-15 16:03:29",
+        "commit_message": "fix [rpm]: add missing dependency for freerdp-nightly build",
         "release_tag": "2.11.2",
         "release_date": "2023-09-20 08:12:02",
         "release_message": "Notworthy changes:\r\n* Backported #9378: backported wArrayList (optional) copy on insert\r\n* Backported #9360: backported certificate algorithm detection\r\n\r\n[freerdp-2.11.2.zip](https://github.com/FreeRDP/FreeRDP/files/12670556/freerdp-2.11.2.zip)\r\n[freerdp-2.11.2.tar.gz](https://github.com/FreeRDP/FreeRDP/files/12670558/freerdp-2.11.2.tar.gz)\r\n"
@@ -6238,8 +6238,8 @@
     "https://github.com/CTFd/CTFd": {
         "created_at": "2015-01-01 05:36:55",
         "description": "CTFs as you need them",
-        "commit_date": "2023-10-30 03:15:51",
-        "commit_message": "Merge pull request #2419 from Nils1729/fix/dynamic-challenge-next\n\n* Fix missing next_id on dynamic challenges\r\n* Closes #2418.",
+        "commit_date": "2023-11-15 16:36:32",
+        "commit_message": "Merge pull request #2422 from CTFd/fix-user-score\n\nFix issue where the API was not respecting score visibility",
         "release_tag": "3.6.0",
         "release_date": "2023-08-21 22:40:58",
         "release_message": "# 3.6.0 / 2023-08-21\r\n\r\n**General**\r\n\r\n- Translations support for Spanish, Polish, German, Chinese\r\n  - If you wish to fix or maintain a language translation please join at CTFd's public [POEditor page](https://poeditor.com/join/project/p5jhdcrlm7).\r\n- Add a total user registration limit option\r\n- Dynamic value challenges can now choose between linear and logarithmic decay functions\r\n- Free hints are now visible by unauthenticated users if challenges are visible by unauthenticated users\r\n- Fix issue where a custom field named affiliation or website prevented registration\r\n  - No longer special case \"Affiliation\" or \"Website\" as custom field titles. Previously custom fields with those titles would set the user's affiliation or website but this behavior has been removed.\r\n\r\n**Admin Panel**\r\n\r\n- Challenge Preview has been improved to support arbitrary custom themes\r\n- Long flags in the Admin Panel are now truncated but can be expanded and copied\r\n- Add UI to mark incorrect submissions as correct\r\n  - Add the `discard` type for submissions\r\n  - Add `PATCH /api/v1/submissions/[submission_id]` to mark submissions as correct\r\n- Add section in the Config Panel to configure `HTML_SANITIZATION`\r\n  - Setting `HTML_SANITIZATION` to true in `config.ini` cannot be disabled via the Admin Panel\r\n- Add wildcard for email whitelisting\r\n\r\n**Deployment**\r\n\r\n- Add new envvar `SKIP_DB_PING` to instruct the CTFd Docker image to not test if the database server is available\r\n- Add new config `AWS_S3_ADDRESSING_STYLE`\r\n  - Support selecting the [S3 addressing style](https://docs.aws.amazon.com/AmazonS3/latest/userguide/access-bucket-intro.html#access-bucket-console-ex). It defaults to \"auto\" as when it's not set, but can also be set to `virtual` or `path`\r\n- Add new config `AWS_S3_CUSTOM_DOMAIN` which specifies a domain that replaces the default one in presigned download URLs\r\n  - Required for certain S3 implementations\r\n- Flask and Werkzeug have been upgraded to v2.0.3. Other dependencies have been updated for compatability.\r\n- SQLAlchemy has been updated to v1.4.\r\n- PyMySQL has been upgraded to v1.0.2.\r\n- The `flask` cli tool is now offered as an alternative to the `manage.py` script.\r\n- gzip compression is now enabled in the provided nginx configuration\r\n\r\n**API**\r\n\r\n- API tokens now have a description field\r\n- API tokens now start with a `ctfd_` prefix to make them easier to identify\r\n- `GET /api/v1/hints/[hint_id]` will now return hint information for free hints for unauthenticated users if challenges are visible\r\n\r\n**Themes**\r\n\r\n- core-beta is now provided in all CTFd instances\r\n- core-beta is the default theme during setup"
@@ -6391,8 +6391,8 @@
     "https://github.com/WerWolv/ImHex": {
         "created_at": "2020-11-10 14:27:00",
         "description": "🔍 A Hex Editor for Reverse Engineers, Programmers and people who value their retinas when working at 3 AM.",
-        "commit_date": "2023-11-14 22:04:45",
-        "commit_message": "impr: Don't wrap centered text anymore",
+        "commit_date": "2023-11-15 21:23:17",
+        "commit_message": "impr: Replace old headers with new ones in UNIX permission calculator",
         "release_tag": "v1.31.0",
         "release_date": "2023-09-24 18:52:41",
         "release_message": "## Additions\r\n- **Added a command line interface to ImHex.** Huge thanks to @iTrooz\r\n    - Get started by typing `imhex --help`\r\n- **Added initial support for .NET scripts**\r\n    - These scripts are meant to be a cross-platform way of performing automated actions.\r\n    - They cannot be used to add new features like native plugins can\r\n    - Special thanks to @PerikiyoXD for some really involved fixes around this\r\n- **Added Achievements**\r\n    - These are meant to provide an easy and fun way to learn and get used to ImHex\r\n    - The achievement window can be opened by going to Extras -> Achievement\r\n    - If you don't like the achievements and just want to use ImHex like before, open the achievements window and disable the popups there\r\n- Added a new and much nicer splash screen\r\n- Allow memory files to be saved to project files and be renamed\r\n    - Files can also be converted to memory files now\r\n- Added support for hashing arbitrary strings using the hashes view\r\n- Added built-in logging console\r\n- Allow hex editor data visualizers to be switched to big-endian mode\r\n- Upgraded to Capstone V5 finally\r\n- Encoding names are now being displayed in the header of the hex editor\r\n- Added a \"Update All\" button to the content store\r\n- Linux now uses the GTK filepicker whenever possible\r\n    - This should correct issues where the file picker didn't work correctly on some Linux systems by default\r\n    - The AppImage and Flatpak still use the Portals filepicker because it's necessary there\r\n- The hex editor editing mode is now being entered when pressing Enter\r\n- Added a setting to remember the current main window size and position\r\n- Added option to fill a selected region with bytes\r\n- Added option to switch between human-readable sizes and bytes in the hex editor footer. Thanks to @LennardF1989 \r\n- Removed Anonfiles file uploader. Rest in Peace ✝️\r\n- Added windo actions popup when clicking on the header icon\r\n- Added authors and descriptions to things in the content store\r\n- Added shortcuts to switch between providers, evaluate patterns and interact with the pattern debugger\r\n\r\n## Improvements\r\n- Improved the data information diagrams look and field\r\n- Multi-window support is now being disabled properly by default on Linux\r\n- Plugins are now being loaded asynchronously to improve startup times\r\n- Pattern console is automatically scrolled to the bottom now when new lines are being added\r\n- Unidentifiable data is being handled better now in the data information view\r\n- Allow hex editor view to be scrolled slightly past the end\r\n- Made demangler results selectable and copyable\r\n- Timestamp of files is being updated correctly now on Windows. Thanks to @lorsanta \r\n- ImHex should now exit cleanly when crashing\r\n- Bytes per row count setting in the hex editor is being remembered now. Thanks to @LennardF1989 \r\n\r\n## Bug Fixes\r\n- Fixed raw disk provider not working correctly on non-windows platforms. Thanks a lot to @Nowilltolife \r\n- Fixed disassembler view not clearning selection when typing in the region field\r\n- Fixed page count displaying wrongly in empty files\r\n- Fixed crash when trying to paste bytes without a selection\r\n- Fixed occasional crash when evaluating patterns\r\n- Fixed scaling not being applied properly in some cases\r\n- Fixed bookmarks not being loaded correctly from project files\r\n- Fixed menu bar being scrollable sideways\r\n- Fixed loading projects when an existing project is loaded already\r\n- Fixed issues where the cursor started flickering when hovering certain elements\r\n- Fixed crash when clicking on \"Open in new view\" in a bookmark\r\n- Fixed occasional crash when loading incorrect data processor node files\r\n- Fixed writing to non-zero pages in the hex editor when a custom base address has been set\r\n- Fixed issue where libmagic dumped a bunch of compiled files into the cwd on Linux and macOS. Thanks to @iTrooz \r\n- Fixed endianess of all CRC hashes\r\n- Fixed highest/lowest entropy block address in the data information view being wrong\r\n- Fixed issue where downloading items from the store was suceptible for path traversal. Thanks to @iTrooz \r\n- Fixed various data processor issues\r\n\r\n## Pattern Language\r\n- Added `typenameof` operator\r\n- Added `[[hex::favorite]]` attribute to mark patterns as favorites directly\r\n- Added `[[hex::group]]` attribute to add patterns to custom groups in the pattern data view\r\n- Added single-stepping feature to pattern debugger\r\n- Added coordinates visualizer\r\n- Added timestamp visualizer\r\n- Images in the pattern image and bitmap visualizer can now be scaled\r\n- Added various new inline visualizers such as \"color\", \"guage\" and \"button\"\r\n- Format functions are no longer being evaluated during highlighting\r\n- Sections without a name are being hidden now and treated as \"internal\" sections\r\n- Added `[[hex::spec_name]]` attribute to document names for pattern variables taken from the documentation\r\n- Added string in/out variables\r\n- Fixed issue where pattern local variables sometimes allocated huge amounts of memory\r\n\r\n![image](https://github.com/WerWolv/ImHex/assets/10835354/9bcaf682-ed02-4e3d-9d06-0c55a1ddc030)\r\n\r\n\r\n<br/>\r\n\r\n<p align=\"center\">If you like my work, please consider supporting me on GitHub Sponsors, Patreon or PayPal. Thanks a lot!</p>\r\n<p align=\"center\">\r\n<a href=\"https://github.com/sponsors/WerWolv\"><img src=\"https://werwolv.net/assets/github_banner.png\" alt=\"GitHub donate button\" /> </a>\r\n<a href=\"https://www.patreon.com/werwolv\"><img src=\"https://c5.patreon.com/external/logo/become_a_patron_button.png\" alt=\"Patreon donate button\" /> </a>\r\n<a href=\"https://werwolv.net/donate\"><img src=\"https://werwolv.net/assets/paypal_banner.png\" alt=\"PayPal donate button\" /> </a>\r\n</p"
@@ -6427,8 +6427,8 @@
     "https://github.com/audacity/audacity": {
         "created_at": "2015-03-26 10:46:17",
         "description": "Audio Editor                                     ",
-        "commit_date": "2023-11-14 14:14:17",
-        "commit_message": "fix bug Audacity#3723: Add clip name to GetInfo: Type=Clips\n\nOne-liner to add \"name\" to the info struct, populating with the existing GetName() from WaveClip.",
+        "commit_date": "2023-11-15 12:57:22",
+        "commit_message": "Merge remote-tracking branch 'audacity/release-3.4.2' into master",
         "release_tag": "Audacity-3.4.1",
         "release_date": "2023-11-08 17:22:30",
         "release_message": " This is a hotfix release. It fixes the following bugs:\r\n\r\n * #5467 Fix 24-bit recording.\r\n * #5488 Fix a crash with .aup importing.\r\n * #5471 #5483 Fix crossfading of clips and tracks.\r\n * #5473 Exporting multiple files honors sample rate settings again.\r\n * #5480 #5417 Fix crashes related to external program exports.\r\n * #5479 #5476 Fix BSD and ARM builds.\r\n * #5498 Ctrl+J is now a standard shortcut for joining clips.\r\n * #5389 Stereo tracks no longer randomly split into mono.\r\n * #5007 When exporting a file, the file extension is now always added (except for custom FFmpeg and external program exports).\r\n * #5516 Fix a crash when exporting Opus with older CPUs that don't support AVX."
@@ -6508,8 +6508,8 @@
     "https://github.com/arch3rPro/PST-Bucket": {
         "created_at": "2023-04-24 06:49:11",
         "description": "Scoop-Buket for Penetration Suite Toolkit",
-        "commit_date": "2023-11-14 16:27:36",
-        "commit_message": "easysrv: Update to version 2.2.5",
+        "commit_date": "2023-11-15 08:29:03",
+        "commit_message": "siyuan: Update to version 2.10.15",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -6562,8 +6562,8 @@
     "https://github.com/horsicq/DIE-engine": {
         "created_at": "2014-10-13 15:20:21",
         "description": "DIE engine",
-        "commit_date": "2023-11-14 15:28:13",
-        "commit_message": "Update module: FormatWidgets 2023-11-14",
+        "commit_date": "2023-11-15 16:29:25",
+        "commit_message": "Update module: Detect-It-Easy 2023-11-15",
         "release_tag": "3.08",
         "release_date": "2023-07-21 22:49:18",
         "release_message": "Please see the file [CHANGELOG](https://github.com/horsicq/Detect-It-Easy/blob/master/changelog.txt) for a detailed list of changes.\r\n\r\n\r\n| Asset / File | Description / Host OS |\r\n| ----------- | ----------- |\r\n| [die_sourcecode_3.08.tar.gz](https://github.com/horsicq/DIE-engine/releases/download/3.08/die_sourcecode_3.08.tar.gz) | Source code tarball |\r\n| [Detect_It_Easy-3.08-x86_64.AppImage](https://github.com/horsicq/DIE-engine/releases/download/3.08/Detect_It_Easy-3.08-x86_64.AppImage) | Portable version for Linux [How to run](https://github.com/horsicq/Detect-It-Easy/blob/master/docs/RUN.md) |\r\n| [die_3.08_Debian_10_amd64.deb](https://github.com/horsicq/DIE-engine/releases/download/3.08/die_3.08_Debian_10_amd64.deb) | Installer for Debian 10 |\r\n| [die_3.08_Debian_11_amd64.deb](https://github.com/horsicq/DIE-engine/releases/download/3.08/die_3.08_Debian_11_amd64.deb) | Installer for Debian 11 |\r\n| [die_3.08_Debian_12_amd64.deb](https://github.com/horsicq/DIE-engine/releases/download/3.08/die_3.08_Debian_12_amd64.deb) | Installer for Debian 12 |\r\n| [die_3.08_Ubuntu_14.04_amd64.deb](https://github.com/horsicq/DIE-engine/releases/download/3.08/die_3.08_Ubuntu_14.04_amd64.deb) | Installer for Ubuntu 14.04 |\r\n| [die_3.08_Ubuntu_16.04_amd64.deb](https://github.com/horsicq/DIE-engine/releases/download/3.08/die_3.08_Ubuntu_16.04_amd64.deb) | Installer for Ubuntu 16.04 |\r\n| [die_3.08_Ubuntu_18.04_amd64.deb](https://github.com/horsicq/DIE-engine/releases/download/3.08/die_3.08_Ubuntu_18.04_amd64.deb) | Installer for Ubuntu 18.04 |\r\n| [die_3.08_Ubuntu_20.04_amd64.deb](https://github.com/horsicq/DIE-engine/releases/download/3.08/die_3.08_Ubuntu_20.04_amd64.deb) | Installer for Ubuntu 20.04 |\r\n| [die_3.08_Ubuntu_22.04_amd64.deb](https://github.com/horsicq/DIE-engine/releases/download/3.08/die_3.08_Ubuntu_22.04_amd64.deb) | Installer for Ubuntu 22.04 |\r\n| [die_3.08_Ubuntu_22.10_amd64.deb](https://github.com/horsicq/DIE-engine/releases/download/3.08/die_3.08_Ubuntu_22.10_amd64.deb) | Installer for Ubuntu 22.10 |\r\n| [die_3.08_Ubuntu_23.04_amd64.deb](https://github.com/horsicq/DIE-engine/releases/download/3.08/die_3.08_Ubuntu_23.04_amd64.deb) | Installer for Ubuntu 23.04 |\r\n| [die_3.08_portable_Ubuntu_20.04_amd64.tar.gz](https://github.com/horsicq/DIE-engine/releases/download/3.08/die_3.08_portable_Ubuntu_20.04_amd64.tar.gz) | Portable version for Ubuntu 20.04 |\r\n| [detect-it-easy-3.08-1-x86_64.pkg.tar.zst](https://github.com/horsicq/DIE-engine/releases/download/3.08/detect-it-easy-3.08-1-x86_64.pkg.tar.zst) | Installer for Arch Linux |\r\n| [die_mac_3.08_x86_64.pkg](https://github.com/horsicq/DIE-engine/releases/download/3.08/die_mac_3.08_x86_64.pkg) | Installer for macOS |\r\n| [die_mac_qt6_3.08_arm64.pkg](https://github.com/horsicq/DIE-engine/releases/download/3.08/die_mac_qt6_3.08_arm64.pkg) | Installer for macOS Qt6 M1 processor|\r\n| [die_mac_portable_3.08_x86_64.zip](https://github.com/horsicq/DIE-engine/releases/download/3.08/die_mac_portable_3.08_x86_64.zip) | Portable version for macOS |\r\n| [die_win32_portable_3.08_x86.zip](https://github.com/horsicq/DIE-engine/releases/download/3.08/die_win32_portable_3.08_x86.zip) | Portable version for x86 Win32 (Win7-Win11)|\r\n| [die_win64_portable_3.08_x64.zip](https://github.com/horsicq/DIE-engine/releases/download/3.08/die_win64_portable_3.08_x64.zip) | Portable version for x64 Win64 (Win7-Win11) |\r\n| [die_winxp_portable_3.08_x86.zip](https://github.com/horsicq/DIE-engine/releases/download/3.08/die_winxp_portable_3.08_x86.zip) | Portable version for Windows XP (WinXP-Win11) |\r\n\r\n\r\nExperimental versions - There may be bugs in the GUI\r\n\r\n| Asset / File | Description / Host OS |\r\n| ----------- | ----------- |\r\n| [die_win64_qt6_portable_3.08_x64.zip](https://github.com/horsicq/DIE-engine/releases/download/3.08/die_win64_qt6_portable_3.08_x64.zip) | Portable version for x64 Win64 Qt6 (Win10-Win11)|\r\n\r\n"
@@ -6661,8 +6661,8 @@
     "https://github.com/apereo/cas": {
         "created_at": "2011-09-09 01:36:42",
         "description": "Apereo CAS - Identity & Single Sign On for all earthlings and beyond.",
-        "commit_date": "2023-11-14 23:04:11",
-        "commit_message": "renovatebot(deps): update dependency checkstyle to v10.12.5\n\n[![Mend Renovate logo banner](https://app.renovatebot.com/images/banner.svg)](https://renovatebot.com)\n\nThis PR contains the following updates:\n\n| Package | Change | Age | Adoption | Passing | Confidence |\n|---|---|---|---|---|---|\n| [checkstyle](https://checkstyle.org/) ([source](https://togithub.com/checkstyle/checkstyle)) | `10.12.4` -> `10.12.5` | [![age](https://developer.mend.io/api/mc/badges/age/maven/checkstyle/10.12.5?slim=true)](https://docs.renovatebot.com/merge-confidence/) | [![adoption](https://developer.mend.io/api/mc/badges/adoption/maven/checkstyle/10.12.5?slim=true)](https://docs.renovatebot.com/merge-confidence/) | [![passing](https://developer.mend.io/api/mc/badges/compatibility/maven/checkstyle/10.12.4/10.12.5?slim=true)](https://docs.renovatebot.com/merge-confidence/) | [![confidence](https://developer.mend.io/api/mc/badges/confidence/maven/checkstyle/10.12.4/10.12.5?slim=true)](https://docs.renovatebot.com/merge-confidence/) |\n\n---\n\n### Configuration\n\n📅 **Schedule**: Branch creation - \"after 10pm every weekday,before 6am every weekday\" (UTC), Automerge - At any time (no schedule defined).\n\n🚦 **Automerge**: Enabled.\n\n♻ **Rebasing**: Whenever PR is behind base branch, or you tick the rebase/retry checkbox.\n\n🔕 **Ignore**: Close this PR and you won't be reminded about this update again.\n\n---\n\n - [ ] <!-- rebase-check -->If you want to rebase/retry this PR, check this box\n\n---\n\nThis PR has been generated by [Mend Renovate](https://www.mend.io/free-developer-tools/renovate/). View repository job log [here](https://developer.mend.io/github/apereo/cas).\n<!--renovate-debug:eyJjcmVhdGVkSW5WZXIiOiIzNy40Ni4wIiwidXBkYXRlZEluVmVyIjoiMzcuNDYuMCIsInRhcmdldEJyYW5jaCI6Im1hc3RlciJ9-->",
+        "commit_date": "2023-11-15 12:50:44",
+        "commit_message": "test fixes",
         "release_tag": "v6.6.13",
         "release_date": "2023-10-16 07:04:06",
         "release_message": "# :star: Release Notes\r\n\r\n- [Documentation](https://apereo.github.io/cas/6.6.x)\r\n- [Commit Log](https://github.com/apereo/cas/commits/6.6.x)\r\n- [Pull Requests](https://github.com/apereo/cas/pulls?q=is%3Apr+milestone%3A6.6.13+is%3Aclosed+sort%3Aupdated-desc)\r\n- [Maintenance Policy](https://apereo.github.io/cas/developer/Maintenance-Policy.html)\r\n- [Release Policy](https://apereo.github.io/cas/developer/Release-Policy.html)\r\n- [Release Schedule](https://github.com/apereo/cas/milestones)\r\n\r\n# :couple: Contributions\r\n\r\nSpecial thanks to the following individuals for their excellent contributions:\r\n\r\n- @mmoayyed \r\n- @leleuj \r\n\r\nTo learn how to contribute to the project, [please see this guide](https://apereo.github.io/cas/developer/Contributor-Guidelines.html)."
@@ -6961,8 +6961,8 @@
     "https://github.com/goharbor/harbor": {
         "created_at": "2016-01-28 21:10:28",
         "description": "An open source trusted cloud native registry project that stores, signs, and scans content.",
-        "commit_date": "2023-11-14 01:38:39",
-        "commit_message": "Add API permission testcase (#19571)\n\nusage example:\r\nHARBOR_BASE_URL=https://{ip_or_domain}/api/v2.0 RESOURCE=preheat-instance  USER_NAME={username} PASSWORD={password}  python tests/apitests/python/test_permission.py\r\n\r\nSigned-off-by: Yang Jiao <jiaoya@vmware.com>",
+        "commit_date": "2023-11-15 09:50:06",
+        "commit_message": "Correct loop condition for replication tasks (#19570)\n\nSigned-off-by: AllForNothing <sshijun@vmware.com>",
         "release_tag": "v2.9.1",
         "release_date": "2023-11-02 01:22:36",
         "release_message": "<!-- Release notes generated using configuration in .github/release.yml at v2.9.1 -->\n\n## What's Changed\n### Component updates ⬆️\n* (cherry-pick) Remove job status track information from redis after stop the job in the queue by @stonezdj in https://github.com/goharbor/harbor/pull/19307\n* (cherry-pick) fix storage.redirect.disable migrate template error release-2.9.0 by @MinerYang in https://github.com/goharbor/harbor/pull/19336\n* [Cherry-pick]Hide version property if the value is undefined by @AllForNothing in https://github.com/goharbor/harbor/pull/19396\n* (cherry-pick) Change fixed_version to package_version by @stonezdj in https://github.com/goharbor/harbor/pull/19432\n* [cherry-pick]bump golang to 1.20.10 by @MinerYang in https://github.com/goharbor/harbor/pull/19431\n* fix: bump up TRIVYVERSION=v0.46.0 && TRIVYADAPTERVERSION=v0.30.17 by @zyyw in https://github.com/goharbor/harbor/pull/19447\n* [cherry-pick] Use batch to list the job id in the job queue to avoid crash redis by @stonezdj in https://github.com/goharbor/harbor/pull/19455\n* bump golang.org/x/net to v0.17.0 && go.opentelemetry.io/contrib on release-2.9.0 by @MinerYang in https://github.com/goharbor/harbor/pull/19460\n* bump go.opentelemetry.io/contrib/instrumentation/github.com/gorilla/m… by @MinerYang in https://github.com/goharbor/harbor/pull/19476\n* bump golang to 1.21.3 on release-2.9.0 by @MinerYang in https://github.com/goharbor/harbor/pull/19503\n* fix: bump up TRIVYVERSION=v0.46.1 && TRIVYADAPTERVERSION=v0.30.18 by @zyyw in https://github.com/goharbor/harbor/pull/19499\n* update ut mock anything by @MinerYang in https://github.com/goharbor/harbor/pull/19506\n* bump google.golang.org/grpc by @MinerYang in https://github.com/goharbor/harbor/pull/19513\n### Other Changes\n* [cherry-pick]Refactor unstable test cases by @YangJiao0817 in https://github.com/goharbor/harbor/pull/19351\n* [cherry-pick]Add security hub API test case by @YangJiao0817 in https://github.com/goharbor/harbor/pull/19377\n* [cherry-pick]Add security hub UI test case by @YangJiao0817 in https://github.com/goharbor/harbor/pull/19449\n* Bump up version to v2.9.1 by @YangJiao0817 in https://github.com/goharbor/harbor/pull/19451\n* [cherry-pick]Add GC accessory API test case by @YangJiao0817 in https://github.com/goharbor/harbor/pull/19463\n* [cherry-pick]Add GC accessory UI test case by @YangJiao0817 in https://github.com/goharbor/harbor/pull/19471\n* Refresh base images on release-2.9.0 by @YangJiao0817 in https://github.com/goharbor/harbor/pull/19475\n* [cherry-pick]Add GC details and GC workers API test case by @YangJiao0817 in https://github.com/goharbor/harbor/pull/19483\n* [cherry-pick]Add GC details and GC workers UI test case by @YangJiao0817 in https://github.com/goharbor/harbor/pull/19488\n* [cherry-pick]Add banner message API test case by @YangJiao0817 in https://github.com/goharbor/harbor/pull/19514\n\n\n**Full Changelog**: https://github.com/goharbor/harbor/compare/v2.9.0...v2.9.1\n"
@@ -7040,11 +7040,11 @@
     "https://github.com/JPCERTCC/LogonTracer": {
         "created_at": "2017-11-24 06:07:49",
         "description": "Investigate malicious Windows logon by visualizing and analyzing Windows event log",
-        "commit_date": "2023-11-14 04:48:18",
-        "commit_message": "Updated bootstrap4-toggle to bootstrap5-toggle",
-        "release_tag": "v1.6.0",
-        "release_date": "2022-12-21 02:41:54",
-        "release_message": "**New**\r\n* Added login page\r\n* Added SSL support\r\n* Added case management function\r\n* Added user management function\r\n* Added the Sigma rule scan function (Beta)\r\n* Added configuration file\r\n\r\n**Update**\r\n* Support neo4j version 4.4\r\n* Deleted supported Python version 3.6\r\n\r\n**Bug fix**\r\n* Fixed a bug that hmmlearn 0.2.8 could not load old pkl file (issue #127)\r\n* Fixed a bug where tooltip was hidden in modal\r\n* Fixed a bug where modal was hidden in navbar\r\n* Fixed a bug that caused parse status to over 100% (issue #115)\r\n* Fixed a bug that did not error when time zone was not set (issue #130)"
+        "commit_date": "2023-11-15 13:07:29",
+        "commit_message": "Update publish-docker-image.yml",
+        "release_tag": "v1.6.1",
+        "release_date": "2023-11-15 12:39:57",
+        "release_message": "**Update**\r\n* Updated to display all logs in Timeline graph #130 \r\n* Updated bootstrap4-toggle to bootstrap5-toggle\r\n* Updated neo4j-driver 4.4.10 to 4.4.11\r\n* Updated bootstrap 5.0.1 to 5.3.2\r\n* Supported SQLAlchemy 1.4\r\n\r\n**Bug fix**\r\n* Fixed a bug can't import evtx using pandas 2.0 (issue #135)\r\n* Fixed a bug that docker-compose build error on M1 Mac #131"
     },
     "https://github.com/Metarget/cloud-native-security-book": {
         "created_at": "2021-09-25 13:56:05",
@@ -7776,8 +7776,8 @@
     "https://github.com/locustio/locust": {
         "created_at": "2011-02-17 11:08:03",
         "description": "Write scalable load tests in plain Python 🚗💨",
-        "commit_date": "2023-11-14 17:00:08",
-        "commit_message": "Merge pull request #2464 from andrewbaldwin44/bugfix/2463\n\nModern UI: Wrong chart's legend for Response Times",
+        "commit_date": "2023-11-15 13:36:37",
+        "commit_message": "Ensure to wait a second before next `tick()` (#2465)\n\n* Ensure to wait a second before next tick()\r\n\r\n* Add test case",
         "release_tag": "2.18.3",
         "release_date": "2023-11-12 17:54:46",
         "release_message": "## What's Changed\r\n* Modern UI: Add sorting to columns on statistics page and downloaded report by @andrewbaldwin44 in https://github.com/locustio/locust/pull/2453\r\n* Add Modern UI HTML Report to --html Option by @andrewbaldwin44 in https://github.com/locustio/locust/pull/2459\r\n* List Andrew as maintainer of the Modern web UI by @cyberw in https://github.com/locustio/locust/pull/2460\r\n\r\n\r\n**Full Changelog**: https://github.com/locustio/locust/compare/2.18.2...2.18.3"
@@ -7843,7 +7843,7 @@
         "commit_message": "Merge pull request #1192 from yaklang/song/feat/runNode\n\nSong/feat/run node",
         "release_tag": "v1.2.7-sp4",
         "release_date": "2023-11-10 07:18:45",
-        "release_message": ""
+        "release_message": "Yakit v1.2.7-sp4\r\n1. 优化插件调试交互\r\n2. History数据包显示对应id，点击可跳转到数据包对应的数据\r\n3. ChatCS改为流式输出，增加参数型prompt\r\n4. 可保存多个过滤器配置\r\n5. 漏洞通知优先显示中文标题\r\n6. 为了防止挡住操作，牛牛可上下拖动\r\n7. 修复WebFuzzer导出数据弹框的bug"
     },
     "https://github.com/bartblaze/Yara-rules": {
         "created_at": "2020-03-26 20:20:29",
@@ -8205,8 +8205,8 @@
     "https://github.com/lwouis/alt-tab-macos": {
         "created_at": "2019-08-14 13:11:57",
         "description": "Windows alt-tab on macOS ",
-        "commit_date": "2023-10-24 21:47:54",
-        "commit_message": "chore(release): 6.64.0 [skip ci]\n\n# [6.64.0](https://github.com/lwouis/alt-tab-macos/compare/v6.63.0...v6.64.0) (2023-10-24)\n\n### Bug Fixes\n\n* don't absorb key up events after summon (closes [#2914](https://github.com/lwouis/alt-tab-macos/issues/2914)) ([3b0194d](https://github.com/lwouis/alt-tab-macos/commit/3b0194d))\n* stop vim keys preference disabling on launch (closes [#2919](https://github.com/lwouis/alt-tab-macos/issues/2919)) ([53692ff](https://github.com/lwouis/alt-tab-macos/commit/53692ff))\n\n### Features\n\n* improve fr,de localizations ([c4ae549](https://github.com/lwouis/alt-tab-macos/commit/c4ae549))",
+        "commit_date": "2023-11-15 23:44:37",
+        "commit_message": "docs: add github sponsorship",
         "release_tag": "v6.64.0",
         "release_date": "2023-10-24 21:50:19",
         "release_message": ""
@@ -8253,11 +8253,11 @@
     "https://github.com/aria2/aria2": {
         "created_at": "2010-11-27 09:41:48",
         "description": "aria2 is a lightweight multi-protocol & multi-source, cross platform download utility operated in command-line. It supports HTTP/HTTPS, FTP, SFTP, BitTorrent and Metalink.",
-        "commit_date": "2023-11-12 12:29:34",
-        "commit_message": "Merge pull request #2132 from aria2/docker-bump-cares\n\nDockerfile: Bump c-ares to 1.21.0",
-        "release_tag": "release-1.36.0",
-        "release_date": "2021-08-21 09:14:10",
-        "release_message": "Release Note\r\n------------\r\n\r\nThis release fixes several bugs.  See Changes for details.\r\n\r\nChanges\r\n-------\r\n\r\n* Update wslay\r\n\r\n* Bump Windows build dependencies\r\n\r\n* Bump android build dependencies\r\n\r\n* Fix segfault when time_t is 64bit on 32bit arch\r\n\r\n  Patch from Natanael Copa\r\n\r\n  GH-1666\r\n\r\n* Updates the make_bash_completion script to Python3.\r\n\r\n  Patch from sleepymac\r\n\r\n  GH-1672\r\n\r\n* Prevent corrupt downloads after app and/or system crash\r\n\r\n  Patch from Ali MJ Al-Nasrawy\r\n\r\n  GH-1644\r\n\r\n* Reset sessionDownloadLength and sessionUploadLength on download start\r\n\r\n  GH-1486\r\n\r\n* AppleTLS: Add TLSv1.3 support\r\n"
+        "commit_date": "2023-11-15 12:09:36",
+        "commit_message": "Fix makerelease",
+        "release_tag": "release-1.37.0",
+        "release_date": "2023-11-15 12:07:32",
+        "release_message": "## What's Changed\r\n* Fix header in --http-accept-gzip documentation by @richardnias in https://github.com/aria2/aria2/pull/1824\r\n* Fix typo in documentation, --help text by @h3xx in https://github.com/aria2/aria2/pull/1877\r\n* Update aria2c.rst by @ITriskTI in https://github.com/aria2/aria2/pull/1902\r\n* Allow empty dist name in bencode which is needed for hybrid torrent by @tatsuhiro-t in https://github.com/aria2/aria2/pull/1905\r\n* Better entropy for getRandomBytes by @tatsuhiro-t in https://github.com/aria2/aria2/pull/1907\r\n* Deal with missing nproc on macos by @tatsuhiro-t in https://github.com/aria2/aria2/pull/1924\r\n* Bump actions by @tatsuhiro-t in https://github.com/aria2/aria2/pull/1923\r\n* Bump workflow ubuntu by @tatsuhiro-t in https://github.com/aria2/aria2/pull/1929\r\n* Add missing <array> include to WinTLSSession.h by @hmartinez82 in https://github.com/aria2/aria2/pull/1943\r\n* Fix undefined behavior/crash in GZipEncoder by @himikof in https://github.com/aria2/aria2/pull/1970\r\n* Fix Metalink4 parsing with foreign namespaces by @himikof in https://github.com/aria2/aria2/pull/1969\r\n* fix wrong `dht.dat` binary file structure in docs by @yixinBC in https://github.com/aria2/aria2/pull/2068\r\n* Increase ByteArrayDiskWriter maximum size by @kelson42 in https://github.com/aria2/aria2/pull/1893\r\n* Minor grammar improvements by @nkh0472 in https://github.com/aria2/aria2/pull/1804\r\n* Fix static link failure against libssh2 by @tatsuhiro-t in https://github.com/aria2/aria2/pull/2088\r\n* Update Dockerfile.mingw by @tatsuhiro-t in https://github.com/aria2/aria2/pull/2089\r\n* Prefer random number generator from crypto libraries by @tatsuhiro-t in https://github.com/aria2/aria2/pull/2091\r\n* android(ndk r23) has timegm by @FH0 in https://github.com/aria2/aria2/pull/1822\r\n* Add Dockerfile.android by @tatsuhiro-t in https://github.com/aria2/aria2/pull/2092\r\n* Remove deprecated std::unary_function and std::binary_function by @tatsuhiro-t in https://github.com/aria2/aria2/pull/2093\r\n* Update wslay by @tatsuhiro-t in https://github.com/aria2/aria2/pull/2094\r\n* Fix test errors with ubsan by @tatsuhiro-t in https://github.com/aria2/aria2/pull/2095\r\n* ci: Build with gnutls by @tatsuhiro-t in https://github.com/aria2/aria2/pull/2096\r\n* ci: Build mingw image by @tatsuhiro-t in https://github.com/aria2/aria2/pull/2097\r\n* Revert \"ci: Build mingw image\" by @tatsuhiro-t in https://github.com/aria2/aria2/pull/2098\r\n* Fix overflow by @tatsuhiro-t in https://github.com/aria2/aria2/pull/2099\r\n* Make releases with docker by @tatsuhiro-t in https://github.com/aria2/aria2/pull/2100\r\n* Dockerfile.mingw: Parallel build by @tatsuhiro-t in https://github.com/aria2/aria2/pull/2101\r\n* Dockerfile.android: Add dpkg-dev for dpkg-architecture by @tatsuhiro-t in https://github.com/aria2/aria2/pull/2102\r\n* Dockerfile.mingw: Remove deprecated libssh2 configure flags by @tatsuhiro-t in https://github.com/aria2/aria2/pull/2103\r\n* Dockerfile.mingw: Update how to get aria2c.exe from a container by @tatsuhiro-t in https://github.com/aria2/aria2/pull/2104\r\n* Update sphinx_rtd_theme by @tatsuhiro-t in https://github.com/aria2/aria2/pull/2105\r\n* Static check fix by @tatsuhiro-t in https://github.com/aria2/aria2/pull/2106\r\n* Do not close stdout and stderr by @tatsuhiro-t in https://github.com/aria2/aria2/pull/2107\r\n* Avoid non-nil argument errors by @tatsuhiro-t in https://github.com/aria2/aria2/pull/2108\r\n* Logger: Fix format string overflow in writeHeader() by @egorenar in https://github.com/aria2/aria2/pull/2117\r\n* ci: Bump gcc and clang by @tatsuhiro-t in https://github.com/aria2/aria2/pull/2125\r\n* Do not require strict C++ mode and update ax_cxx_compile_stdcxx.m4 by @tatsuhiro-t in https://github.com/aria2/aria2/pull/2126\r\n* Cap infoHashLength in .aria2 file by @tatsuhiro-t in https://github.com/aria2/aria2/pull/2127\r\n* Fix non bt build error by @tatsuhiro-t in https://github.com/aria2/aria2/pull/2129\r\n* Various documenation fixes and rewords  by @h3xx in https://github.com/aria2/aria2/pull/1982\r\n* Change 'meta data' to 'metadata' by @h3xx in https://github.com/aria2/aria2/pull/1983\r\n* Dockerfile: Bump c-ares to 1.21.0 by @tatsuhiro-t in https://github.com/aria2/aria2/pull/2132\r\n* Dockerfile.mingw: Downgrade c-ares to 1.19.1 by @tatsuhiro-t in https://github.com/aria2/aria2/pull/2135\r\n\r\n## New Contributors\r\n* @richardnias made their first contribution in https://github.com/aria2/aria2/pull/1824\r\n* @h3xx made their first contribution in https://github.com/aria2/aria2/pull/1877\r\n* @hmartinez82 made their first contribution in https://github.com/aria2/aria2/pull/1943\r\n* @himikof made their first contribution in https://github.com/aria2/aria2/pull/1970\r\n* @yixinBC made their first contribution in https://github.com/aria2/aria2/pull/2068\r\n* @kelson42 made their first contribution in https://github.com/aria2/aria2/pull/1893\r\n* @nkh0472 made their first contribution in https://github.com/aria2/aria2/pull/1804\r\n* @FH0 made their first contribution in https://github.com/aria2/aria2/pull/1822\r\n* @egorenar made their first contribution in https://github.com/aria2/aria2/pull/2117\r\n\r\n**Full Changelog**: https://github.com/aria2/aria2/compare/release-1.36.0...release-1.37.0"
     },
     "https://github.com/chroblert/SecurityBaselineCheck": {
         "created_at": "2019-12-26 05:46:22",
@@ -8674,8 +8674,8 @@
     "https://github.com/nomi-sec/PoC-in-GitHub": {
         "created_at": "2019-12-08 13:03:54",
         "description": "📡 PoC auto collect from GitHub. ⚠️ Be careful Malware.",
-        "commit_date": "2023-11-15 00:28:42",
-        "commit_message": "Auto Update 2023/11/15 00:28:42",
+        "commit_date": "2023-11-16 00:32:02",
+        "commit_message": "Auto Update 2023/11/16 00:32:02",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -8927,8 +8927,8 @@
     "https://github.com/PostgresApp/PostgresApp": {
         "created_at": "2012-04-06 03:38:37",
         "description": "The easiest way to get started with PostgreSQL on the Mac",
-        "commit_date": "2023-11-14 19:39:20",
-        "commit_message": "Release Postgres.app 2.6.8a",
+        "commit_date": "2023-11-15 08:52:12",
+        "commit_message": "Don't auto-create a server when Postgres.app is built without binaries",
         "release_tag": "v2.6.8a",
         "release_date": "2023-11-14 19:41:38",
         "release_message": "The November builds with PostgreSQL 12, 13, 14 and 15 were missing the \"latest\" symlink (#735).\r\n\r\nThis release fixes this issue. It is otherwise identical to 2.6.8."
@@ -9935,8 +9935,8 @@
     "https://github.com/eikek/sharry": {
         "created_at": "2017-05-08 13:05:14",
         "description": "Sharry is a self-hosted file sharing web application.",
-        "commit_date": "2023-11-14 07:51:49",
-        "commit_message": "Update postgres Docker tag to v16.1",
+        "commit_date": "2023-11-15 19:05:16",
+        "commit_message": "Merge pull request #1249 from eikek/update/http4s-circe-0.23.24\n\nUpdate http4s-circe, http4s-dsl, ... to 0.23.24",
         "release_tag": "v1.12.1",
         "release_date": "2023-05-01 17:10:59",
         "release_message": "A bug fix release addressing #1025 and #1039 (the latter is fixed by upgrading a library)"
@@ -10124,8 +10124,8 @@
     "https://github.com/minio/console": {
         "created_at": "2020-04-02 04:55:44",
         "description": "Simple UI for MinIO Object Storage :abacus:",
-        "commit_date": "2023-11-14 16:22:47",
-        "commit_message": "Removed MUI dependencies from console (#3126)\n\n- Updated DateTime Selector\r\n- Updated last dependency functions\r\n- Removed mui theming tools\r\n\r\nSigned-off-by: Benjamin Perez <benjamin@bexsoft.net>",
+        "commit_date": "2023-11-15 21:51:55",
+        "commit_message": "Added matchMedia mock function for Testing purposes (#3130)\n\nSigned-off-by: Benjamin Perez <benjamin@bexsoft.net>",
         "release_tag": "v0.41.0",
         "release_date": "2023-11-02 23:33:26",
         "release_message": "## What's Changed\r\n* Updated Playwright tests by @bexsoft in https://github.com/minio/console/pull/3070\r\n* Fixed Failing integration test by @bexsoft in https://github.com/minio/console/pull/3071\r\n* mds-released-v0.9.3 by @minio-bot in https://github.com/minio/console/pull/3073\r\n* Updated README file by @bexsoft in https://github.com/minio/console/pull/3074\r\n* Removed deprecated components and replaced them with mds ones by @bexsoft in https://github.com/minio/console/pull/3077\r\n* Updated FileSelector and removed old component by @bexsoft in https://github.com/minio/console/pull/3076\r\n* Removed mui support from PasswordSelector component by @bexsoft in https://github.com/minio/console/pull/3078\r\n* Add HelpTips to Console by @jinapurapu in https://github.com/minio/console/pull/3054\r\n* Fix: cache clientIP in GetConsoleHTTPClient by @adriangitvitz in https://github.com/minio/console/pull/3056\r\n* Components cleanup by @bexsoft in https://github.com/minio/console/pull/3079\r\n* Removed FormSwitchWrapper component by @bexsoft in https://github.com/minio/console/pull/3081\r\n* Migrated mui Box to use mds component by @bexsoft in https://github.com/minio/console/pull/3082\r\n* mui Grid component replacement by @bexsoft in https://github.com/minio/console/pull/3084\r\n* Bump golang.org/x/net from 0.15.0 to 0.17.0 by @dependabot in https://github.com/minio/console/pull/3086\r\n* Use the new golang version 1.21.3 by @shtripat in https://github.com/minio/console/pull/3087\r\n* Updated styling methods to remove mui and replace it with mds by @bexsoft in https://github.com/minio/console/pull/3085\r\n* Updated mds version to v0.9.6 by @bexsoft in https://github.com/minio/console/pull/3090\r\n* Replaced mui accordion with mds component by @bexsoft in https://github.com/minio/console/pull/3089\r\n* Update swagger generated files with latest swagger version by @cesnietor in https://github.com/minio/console/pull/3094\r\n* Add global params for limit and offset by @reivaj05 in https://github.com/minio/console/pull/3096\r\n* Add share link exp api by @cesnietor in https://github.com/minio/console/pull/3095\r\n* Improved error handling in Object Browser by @bexsoft in https://github.com/minio/console/pull/3097\r\n* Replace missing icons from mui by @bexsoft in https://github.com/minio/console/pull/3101\r\n* MDS Console improvements by @bexsoft in https://github.com/minio/console/pull/3102\r\n* Replaced Notification components with mds variants by @bexsoft in https://github.com/minio/console/pull/3103\r\n* Autocomplete component replacement by @bexsoft in https://github.com/minio/console/pull/3104\r\n* Migrated Selector & Chart Tooltips styles by @bexsoft in https://github.com/minio/console/pull/3107\r\n* Migrated Object Manager components to mds by @bexsoft in https://github.com/minio/console/pull/3108\r\n* update docker file to ubi9 base image by @aead in https://github.com/minio/console/pull/3109\r\n* Restored ENV var display support in Console Configuration pages. by @bexsoft in https://github.com/minio/console/pull/3112\r\n* Replaced MenuDropdown components with mds variables by @bexsoft in https://github.com/minio/console/pull/3113\r\n* Support resolving of listen addrs to multiple IPv4/IPv6 by @vadmeste in https://github.com/minio/console/pull/3100\r\n* Updated Logs Page to use mds components by @bexsoft in https://github.com/minio/console/pull/3114\r\n* update the madmin-go dep by @jiuker in https://github.com/minio/console/pull/3115\r\n* Fix days selector to ignore daylight savings by @nreisingercres in https://github.com/minio/console/pull/3117\r\n* Updated common bars by @bexsoft in https://github.com/minio/console/pull/3118\r\n* Updated HelpMenu components to use only mds subcomponents by @bexsoft in https://github.com/minio/console/pull/3119\r\n* Updated Login Error Callback page to mds by @bexsoft in https://github.com/minio/console/pull/3120\r\n* Release v0.41.0 by @bexsoft in https://github.com/minio/console/pull/3121\r\n\r\n## New Contributors\r\n* @adriangitvitz made their first contribution in https://github.com/minio/console/pull/3056\r\n* @aead made their first contribution in https://github.com/minio/console/pull/3109\r\n* @nreisingercres made their first contribution in https://github.com/minio/console/pull/3117\r\n\r\n**Full Changelog**: https://github.com/minio/console/compare/v0.40.0...v0.41.10"
@@ -10688,8 +10688,8 @@
     "https://github.com/OISF/suricata": {
         "created_at": "2012-08-14 08:30:06",
         "description": "Suricata is a network Intrusion Detection System, Intrusion Prevention System and Network Security Monitoring engine developed by the OISF and the Suricata community.",
-        "commit_date": "2023-11-09 17:40:54",
-        "commit_message": "http2: update brotli crate\n\nFixes debug assertion found by oss-fuzz:\nhttps://bugs.chromium.org/p/oss-fuzz/issues/detail?id=63144",
+        "commit_date": "2023-11-14 18:28:13",
+        "commit_message": "macset: remove dead flow init/cleanup code\n\nFlowInit() will only be called on a newly allocated, or a fully cleaned\nup flow, so no existing storage will exist.\n\nThe only caller of `FLOW_RECYCLE` first calls `FlowFreeStorage()`, so\nthe reset logic in `FLOW_RECYCLE` can never trigger.\n\nRemove now unused MacSetReset logic.",
         "release_tag": "suricata-7.0.2",
         "release_date": "2023-10-19 12:47:22",
         "release_message": "## Release Notes\r\n\r\nhttps://forum.suricata.io/t/suricata-7-0-2-released/\r\n\r\n## Redmine Tracker\r\n\r\nhttps://redmine.openinfosecfoundation.org/versions/198\r\n\r\n## Download\r\n\r\nhttps://www.openinfosecfoundation.org/download/suricata-7.0.2.tar.gz\r\nhttps://www.openinfosecfoundation.org/download/suricata-7.0.2.tar.gz.sig\r\n\r\n## Documentation\r\n\r\nhttps://docs.suricata.io/en/suricata-7.0.2"
@@ -10961,8 +10961,8 @@
     "https://github.com/HXSecurity/DongTai": {
         "created_at": "2021-03-22 04:08:18",
         "description": "Dongtai IAST is an open-source Interactive Application Security Testing (IAST) tool that enables real-time detection of common vulnerabilities in Java applications and third-party components through passive instrumentation. It is particularly suitable for use in the testing phase of the development pipeline.",
-        "commit_date": "2023-11-13 10:08:19",
-        "commit_message": "Merge pull request #1906 from st1020/fix/schemathesis-workflows\n\nfix: schemathesis workflows",
+        "commit_date": "2023-11-15 06:17:52",
+        "commit_message": "Merge pull request #1909 from st1020/fix/method-pool-format-error\n\nfix: method pool format error",
         "release_tag": "v1.16.0",
         "release_date": "2023-11-03 03:30:09",
         "release_message": "## What's Changed\r\n* feat: improve patch type hint by @st1020 in https://github.com/HXSecurity/DongTai/pull/1841\r\n* feat: modify user field by @st1020 in https://github.com/HXSecurity/DongTai/pull/1839\r\n* feat: remove login lock by @st1020 in https://github.com/HXSecurity/DongTai/pull/1840\r\n* feat:add agent version api. by @Bidaya0 in https://github.com/HXSecurity/DongTai/pull/1838\r\n* feat/project_type_summary by @Bidaya0 in https://github.com/HXSecurity/DongTai/pull/1842\r\n* deps: add pyotp dep by @st1020 in https://github.com/HXSecurity/DongTai/pull/1846\r\n* feat: add project status change notify by @st1020 in https://github.com/HXSecurity/DongTai/pull/1845\r\n* fix: percentage zero error. by @Bidaya0 in https://github.com/HXSecurity/DongTai/pull/1847\r\n* fix: zero divide by @Bidaya0 in https://github.com/HXSecurity/DongTai/pull/1849\r\n* fix: project current version auth fix. by @Bidaya0 in https://github.com/HXSecurity/DongTai/pull/1848\r\n* feat: add request topo models. by @Bidaya0 in https://github.com/HXSecurity/DongTai/pull/1853\r\n* feat: project type summary list. by @Bidaya0 in https://github.com/HXSecurity/DongTai/pull/1854\r\n* feat: modify user info api by @st1020 in https://github.com/HXSecurity/DongTai/pull/1856\r\n* feat: increase buffer size. by @Bidaya0 in https://github.com/HXSecurity/DongTai/pull/1855\r\n* feat: add tantivy search by @st1020 in https://github.com/HXSecurity/DongTai/pull/1857\r\n* deps: add qrcode dep by @st1020 in https://github.com/HXSecurity/DongTai/pull/1858\r\n* feat: change tantivy index path by @st1020 in https://github.com/HXSecurity/DongTai/pull/1859\r\n* Feat/add ldap settings by @Bidaya0 in https://github.com/HXSecurity/DongTai/pull/1860\r\n* feat: add update vul tantivy index receiver by @st1020 in https://github.com/HXSecurity/DongTai/pull/1861\r\n* feat: vul status change msg. by @Bidaya0 in https://github.com/HXSecurity/DongTai/pull/1862\r\n* build(deps):  fix deps . by @Bidaya0 in https://github.com/HXSecurity/DongTai/pull/1864\r\n* build(deps):  fix deps . by @Bidaya0 in https://github.com/HXSecurity/DongTai/pull/1865\r\n* fix: tantivy search error by @st1020 in https://github.com/HXSecurity/DongTai/pull/1866\r\n* build(deps):  fix deps . by @Bidaya0 in https://github.com/HXSecurity/DongTai/pull/1867\r\n* fix: tantivy search error by @st1020 in https://github.com/HXSecurity/DongTai/pull/1868\r\n* feat/msg_status_log by @Bidaya0 in https://github.com/HXSecurity/DongTai/pull/1869\r\n* feat load vul fix by @Bidaya0 in https://github.com/HXSecurity/DongTai/pull/1870\r\n* fix: change log level. by @Bidaya0 in https://github.com/HXSecurity/DongTai/pull/1873\r\n* fix: load hook strategy with dup data. by @Bidaya0 in https://github.com/HXSecurity/DongTai/pull/1874\r\n* fix: tantivy path error by @st1020 in https://github.com/HXSecurity/DongTai/pull/1875\r\n* feat: add strategy case. by @Bidaya0 in https://github.com/HXSecurity/DongTai/pull/1877\r\n* feat: add vul log time range. by @Bidaya0 in https://github.com/HXSecurity/DongTai/pull/1878\r\n* Feat/add vul log time range by @Bidaya0 in https://github.com/HXSecurity/DongTai/pull/1879\r\n* Feat/add 1.16 strategy p2 by @Bidaya0 in https://github.com/HXSecurity/DongTai/pull/1880\r\n* feat: add 1.16 strategy. by @Bidaya0 in https://github.com/HXSecurity/DongTai/pull/1876\r\n* fix: vul_log msg record by @Bidaya0 in https://github.com/HXSecurity/DongTai/pull/1881\r\n* fix: vul_log msg record by @Bidaya0 in https://github.com/HXSecurity/DongTai/pull/1882\r\n* fix: vul_log msg record by @Bidaya0 in https://github.com/HXSecurity/DongTai/pull/1883\r\n* feat: migration permissions. by @Bidaya0 in https://github.com/HXSecurity/DongTai/pull/1884\r\n* feat: update ci by @tscuite in https://github.com/HXSecurity/DongTai/pull/1885\r\n* feat: update ci by @tscuite in https://github.com/HXSecurity/DongTai/pull/1886\r\n* feat: update ci by @tscuite in https://github.com/HXSecurity/DongTai/pull/1887\r\n* feat: update ci by @tscuite in https://github.com/HXSecurity/DongTai/pull/1888\r\n* fix: dockerfile by @st1020 in https://github.com/HXSecurity/DongTai/pull/1889\r\n* Develop to Beta by @st1020 in https://github.com/HXSecurity/DongTai/pull/1892\r\n* Beta to Main by @st1020 in https://github.com/HXSecurity/DongTai/pull/1893\r\n* Develop to Beta by @st1020 in https://github.com/HXSecurity/DongTai/pull/1895\r\n* Beta to Main by @st1020 in https://github.com/HXSecurity/DongTai/pull/1896\r\n* Update release_dongtai.yml by @lingyuguo in https://github.com/HXSecurity/DongTai/pull/1898\r\n* Beta by @lingyuguo in https://github.com/HXSecurity/DongTai/pull/1899\r\n* cos gitaction by @lingyuguo in https://github.com/HXSecurity/DongTai/pull/1902\r\n* Beta by @lingyuguo in https://github.com/HXSecurity/DongTai/pull/1903\r\n\r\n## New Contributors\r\n* @lingyuguo made their first contribution in https://github.com/HXSecurity/DongTai/pull/1898\r\n\r\n**Full Changelog**: https://github.com/HXSecurity/DongTai/compare/v1.15.0...v1.16.0"
@@ -11207,8 +11207,8 @@
     "https://github.com/ruby/ruby": {
         "created_at": "2010-02-27 15:55:23",
         "description": "The Ruby Programming Language",
-        "commit_date": "2023-11-14 21:22:03",
-        "commit_message": "Resync prism delete bin/dot",
+        "commit_date": "2023-11-15 23:08:11",
+        "commit_message": "[ruby/prism] Track the then keyword for conditionals\n\nhttps://github.com/ruby/prism/commit/fef0019a25",
         "release_tag": "v3_2_2",
         "release_date": "2023-03-30 13:12:56",
         "release_message": "## Security Fixes\r\n\r\n* [CVE-2023-28755: ReDoS vulnerability in URI](https://www.ruby-lang.org/en/news/2023/03/28/redos-in-uri-cve-2023-28755/)\r\n* [CVE-2023-28756: ReDoS vulnerability in Time](https://www.ruby-lang.org/en/news/2023/03/30/redos-in-time-cve-2023-28756/)\r\n\r\n\r\n\r\n## What's Changed\r\n\r\n* [Backport [Bug #19158] for Ruby 3.2 by hsbt · Pull Request #7356](https://github.com/ruby/ruby/pull/7356)\r\n* [Bug #19415: Incorrect circularity warning for concurrent requires](https://bugs.ruby-lang.org/issues/19415)\r\n* [Bug #19400: YJIT fails to boot on ARM64 systems with 64 KiB pages](https://bugs.ruby-lang.org/issues/19400)\r\n* [Bug #19419: [BUG] try to mark T_NONE object in `ibf_dump_mark`](https://bugs.ruby-lang.org/issues/19419)\r\n* [Bug #19444: YJIT String#+@ miscompilations](https://bugs.ruby-lang.org/issues/19444)\r\n* [Bug #19445: Segmentation fault with Numeric#step](https://bugs.ruby-lang.org/issues/19445)\r\n* [Bug #19439: Marshal.load doesn't load Regexp instance variables](https://bugs.ruby-lang.org/issues/19439)\r\n* [Bug #19459: Is `length` of `IO::Buffer#read` required or optional?](https://bugs.ruby-lang.org/issues/19459)\r\n* [Bug #19464: YJIT miscompiles `BasicObject#__send__` to alias methods of `send`](https://bugs.ruby-lang.org/issues/19464)\r\n* [Bug #19468: Ruby 3.2: net/http sets UTF-8 encoding for binary responses](https://bugs.ruby-lang.org/issues/19468)\r\n* [Bug #19469: Crash when resizing generic iv list](https://bugs.ruby-lang.org/issues/19469)\r\n* [Bug #19161: Cannot compile 3.0.5 or 3.1.3 on Red Hat Enterprise Linux 7](https://bugs.ruby-lang.org/issues/19161)\r\n* [Bug #19467: Some linear_time regexp does not match in linear time](https://bugs.ruby-lang.org/issues/19467)\r\n* [Bug #19476: Regexp unexpected partial match](https://bugs.ruby-lang.org/issues/19476)\r\n* [Bug #19536: Frozen status loss when moving objects](https://bugs.ruby-lang.org/issues/19536)\r\n* [Bug #19485: Unexpected behavior in squiggly heredocs](https://bugs.ruby-lang.org/issues/19485)\r\n* [Bug #19471: Regexp::compile does not handle :timeout argument](https://bugs.ruby-lang.org/issues/19471)\r\n* [Use URI-0.12.1 for Ruby 3.2 by hsbt · Pull Request #7603](https://github.com/ruby/ruby/pull/7603)\r\n* [Merge RubyGems-3.4.10 and Bundler-2.4.10 by hsbt · Pull Request #7479](https://github.com/ruby/ruby/pull/7479)\r\n* [Merge Time-0.2.2 by hsbt · Pull Request #7623](https://github.com/ruby/ruby/pull/7623)\r\n\r\nNote: This list is automatically generated by tool/gen-github-release.rb. Because of this, some commits may be missing.\r\n\r\n## Full Changelog\r\n\r\nhttps://github.com/ruby/ruby/compare/v3_2_1...v3_2_2\r\n\r\n"
@@ -11643,8 +11643,8 @@
     "https://github.com/aristocratos/btop": {
         "created_at": "2021-05-06 18:40:21",
         "description": "A monitor of resources",
-        "commit_date": "2023-10-21 00:09:55",
-        "commit_message": "Merge pull request #649 from nobounce/workflow-timeout\n\nSet FreeBSD workflow timeout",
+        "commit_date": "2023-11-15 20:43:18",
+        "commit_message": "Merge pull request #659 from ivanp7/patch-1\n\nAdd alternative key codes for Delete, Insert, Home, End",
         "release_tag": "v1.2.13",
         "release_date": "2022-11-06 21:36:41",
         "release_message": "## Changelog v1.2.13\r\n\r\n* Makefile: VERBOSE=true flag for Makefile to display all compiler commands and fixed so already set CXXFLAGS and LDFLAGS are displayed.\r\n* Makefile: Added autodetection for gcc12 to make compiling on macos Ventura easier.\r\n* Changed: Reverted back to sysconf(_SC_NPROCESSORS_ONLN) for Cpu core count ant let the new dynamic update fix if cores are turned on later\r\n* Fixed: Ignore disks that fails in statvfs64() to avoid slowdowns and possible crashes.\r\n* Fixed: Moved up get_cpuHz() in the execution order to get better cpu clock reading.\r\n* Added: proc tree view: if there's more than 40 width left, try to print full cmd, by @Superty\r\n* Fixed: Show the first IP of the interface in NET box instead of the last, by @correabuscar\r\n* Changed: Replace getnameinfo with inet_ntop [on Linux], by @correabuscar\r\n* Fixed: Not picking up last username from /etc/passwd\r\n* Fixed: Process nice value underflowing, issue #461\r\n* Changed: Replace getnameinfo with inet_ntop [on FreeBSD], by @correabuscar\r\n* Changed: Replace getnameinfo with inet_ntop [on macos], by @correabuscar\r\n\r\nEdit:\r\n\r\n* Changed: Release packages folder structure, all files now contained in `btop` folder, for reason see #242\r\n\r\n**For additional binaries see the [Continuous Builds](https://github.com/aristocratos/btop/actions).**\r\n\r\n**Linux binaries for each architecture are statically linked with musl and works on kernel 2.6.39 and newer.**\r\n\r\n**Macos binaries are statically linked with libgcc and libstdc++ but only guaranteed to work on the OSX version mentioned in the name.**\r\n\r\n**Notice! Use x86_64 for 64-bit x86 systems, i486 and i686 are 32-bit!**\r\n"
@@ -12043,11 +12043,11 @@
     "https://github.com/pulumi/pulumi": {
         "created_at": "2016-10-31 21:02:47",
         "description": "Pulumi - Infrastructure as Code in any programming language. Build infrastructure intuitively on any cloud using familiar languages 🚀",
-        "commit_date": "2023-11-14 22:52:57",
-        "commit_message": "[cli] Colorize table headers (#14557)\n\nThese changes colorize the header row of each table printed by the CLI\nusing the `SpecHeadline` style (bold + pinkish). This improves the\nreadability of the tables on rich terminals.",
-        "release_tag": "v3.93.0",
-        "release_date": "2023-11-10 19:29:05",
-        "release_message": "## 3.93.0 (2023-11-09)\r\n\r\n\r\n### Features\r\n\r\n- [sdk/python] Add provider side caching for dynamic provider deserialization.\r\n  [#14491](https://github.com/pulumi/pulumi/pull/14491)\r\n\r\n\r\n### Bug Fixes\r\n\r\n- [cli/new] Fix panic parsing template URL.\r\n  [#14504](https://github.com/pulumi/pulumi/pull/14504)\r\n\r\n- [pkg] Fixes a panic in property mapping logic\r\n  [#14498](https://github.com/pulumi/pulumi/pull/14498)\r\n\r\n- [sdkgen/go] Remove generic ToOutput methods from legacy non-generic go SDKs\r\n  [#14492](https://github.com/pulumi/pulumi/pull/14492)"
+        "commit_date": "2023-11-15 18:44:02",
+        "commit_message": "Update test matrix to run on Python 3.8.x (#14581)\n\nIn general, our test matrix runs on the minimum supported version and\nlatest version of each language runtime. Python 3.8.x is still a\nsupported version so try running the tests on 3.8.x.",
+        "release_tag": "v3.94.0",
+        "release_date": "2023-11-15 02:25:57",
+        "release_message": "## 3.94.0 (2023-11-14)\r\n\r\n\r\n### Features\r\n\r\n- [engine] `import` can now create empty component resource to use as the parent of other imported resources.\r\n  [#14467](https://github.com/pulumi/pulumi/pull/14467)\r\n\r\n- [engine] `import` can now import a parent resource in the same deployment as a child resource.\r\n  [#14461](https://github.com/pulumi/pulumi/pull/14461)\r\n\r\n- [engine] Import files no longer need parent URNs in the name table for resource being imported in the same file.\r\n  [#14524](https://github.com/pulumi/pulumi/pull/14524)\r\n\r\n- [cli/config] `config refresh` will now restore secret provider config from the last deployment.\r\n  [#13900](https://github.com/pulumi/pulumi/pull/13900)\r\n\r\n- [cli/new] Simplifies URL parsing for pulumi new zip\r\n  [#14546](https://github.com/pulumi/pulumi/pull/14546)\r\n\r\n\r\n### Bug Fixes\r\n\r\n- [components/yaml] Upgrade yaml to 1.4.1\r\n  [#14542](https://github.com/pulumi/pulumi/pull/14542)\r\n\r\n- [engine] Ignore spurious error from Kubernetes providers DiffConfig method.\r\n  [#14533](https://github.com/pulumi/pulumi/pull/14533)\r\n\r\n- [sdk/python] Maintain old behavior for empty Kubernetes invoke results\r\n  [#14535](https://github.com/pulumi/pulumi/pull/14535)"
     },
     "https://github.com/AhMyth/AhMyth-Android-RAT": {
         "created_at": "2017-07-07 03:03:37",
@@ -13000,8 +13000,8 @@
     "https://github.com/rapid7/metasploit-framework": {
         "created_at": "2011-08-30 06:13:20",
         "description": "Metasploit Framework",
-        "commit_date": "2023-11-13 12:08:00",
-        "commit_message": "Land #18524, Update reverse_tcp.md, improper switches",
+        "commit_date": "2023-11-15 11:25:52",
+        "commit_message": "Land #18516, extract common dispatcher commands into a single resuable mixin\n\nExtract reusable core session commands",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -13009,8 +13009,8 @@
     "https://github.com/PowerDNS/pdns": {
         "created_at": "2013-04-26 11:16:49",
         "description": "PowerDNS Authoritative, PowerDNS Recursor, dnsdist",
-        "commit_date": "2023-11-14 15:47:22",
-        "commit_message": "Merge pull request #13488 from rgacogne/ddist-fix-last-rule-removal-by-uuid-or-name\n\ndnsdist: Fix the removal of the last rule by name or UUID",
+        "commit_date": "2023-11-15 13:09:31",
+        "commit_message": "Merge pull request #13493 from romeroalx/cleanup-actions-setup-script\n\nRemove unused pip packages from gh-actions-setup",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -13018,8 +13018,8 @@
     "https://github.com/volatilityfoundation/volatility3": {
         "created_at": "2014-01-26 18:09:20",
         "description": "Volatility 3.0 development",
-        "commit_date": "2023-11-14 23:38:53",
-        "commit_message": "Merge pull request #1027 from daddycocoaman/fix/pdbutility-signature\n\nfix guid and pdb_name for #1026",
+        "commit_date": "2023-11-15 23:00:25",
+        "commit_message": "Merge pull request #1038 from eve-mem/linux_check_afinfo_member_checks\n\nLinux: add member presence checks to linux.checks_afinfo",
         "release_tag": "v2.5.0",
         "release_date": "2023-09-27 19:55:43",
         "release_message": "* New plugins:\r\n  * Linux capabilities plugin\r\n* Linux process dumping\r\n* Add support for Xen ELF file format\r\n* Improved Linux subsystem support\r\n* Added tutorials to the documentation \r\n* Improved core API"
@@ -13205,8 +13205,8 @@
     "https://github.com/fish-shell/fish-shell": {
         "created_at": "2012-05-10 03:00:55",
         "description": "The user-friendly command line shell.",
-        "commit_date": "2023-11-14 15:32:43",
-        "commit_message": "docs/complete: List --description with the options",
+        "commit_date": "2023-11-15 16:58:42",
+        "commit_message": "tests: Increase a sleep",
         "release_tag": "3.6.1",
         "release_date": "2023-03-25 09:09:19",
         "release_message": "This release of fish contains a number of fixes for problems identified in fish 3.6.0, as well as some enhancements.\r\n\r\n### Notable improvements and fixes\r\n\r\n* `abbr --erase` now also erases the universal variables used by the old abbr function. That means\r\n\r\n```fish\r\n    abbr --erase (abbr --list)\r\n```\r\n\r\ncan now be used to clean out all old abbreviations ([#9468](https://github.com/fish-shell/fish-shell/issues/9468)).\r\n* `abbr --add --universal` now warns about `--universal` being non-functional, to make it easier to detect old-style `abbr` calls ([#9475](https://github.com/fish-shell/fish-shell/issues/9475)).\r\n\r\n### Deprecations and removed features\r\n\r\n* The Web-based configuration for abbreviations has been removed, as it was not functional with the changes abbreviations introduced in 3.6.0 ([#9460](https://github.com/fish-shell/fish-shell/issues/9460)).\r\n\r\n### Scripting improvements\r\n\r\n* `abbr --list` no longer escapes the abbr name, which is necessary to be able to pass it to `abbr --erase` ([#9470](https://github.com/fish-shell/fish-shell/issues/9470)).\r\n* `read` will now print an error if told to set a read-only variable, instead of silently doing nothing ([#9346](https://github.com/fish-shell/fish-shell/issues/9346)).\r\n* `set_color -v` no longer crashes fish ([#9640](https://github.com/fish-shell/fish-shell/issues/9640)).\r\n\r\n### Interactive improvements\r\n\r\n* Using `fish_vi_key_bindings` in combination with fish’s `--no-config` mode works without locking up the shell ([#9443](https://github.com/fish-shell/fish-shell/issues/9443)).\r\n* The history pager now uses more screen space, usually half the screen ([#9458](https://github.com/fish-shell/fish-shell/issues/9458))\r\n* Variables that were set while the locale was C (the default ASCII-only locale) will now properly be encoded if the locale is switched ([#2613](https://github.com/fish-shell/fish-shell/issues/2613), [#9473](https://github.com/fish-shell/fish-shell/issues/9473)).\r\n* Escape during history search restores the original command line again (fixing a regression in 3.6.0).\r\n* Using `--help` on builtins now respects the `$MANPAGER` variable, in preference to `$PAGER` ([#9488](https://github.com/fish-shell/fish-shell/issues/9488)).\r\n* `Control-G` closes the history pager, like other shells ([#9484](https://github.com/fish-shell/fish-shell/issues/9484)).\r\n* The documentation for the `:`, `[` and `.` builtin commands can now be looked up with `man` ([#9552](https://github.com/fish-shell/fish-shell/issues/9552)).\r\n* fish no longer crashes when searching history for non-ASCII codepoints case-insensitively ([#9628](https://github.com/fish-shell/fish-shell/issues/9628)).\r\n* The `Alt-S` binding will now also use `please` if available ([#9635](https://github.com/fish-shell/fish-shell/issues/9635)).\r\n* Themes that don’t specify every color option can be installed correctly in the Web-based configuration ([#9590](https://github.com/fish-shell/fish-shell/issues/9590)).\r\n* Compatibility with Midnight Commander’s prompt integration has been improved ([#9540](https://github.com/fish-shell/fish-shell/issues/9540)).\r\n* A spurious error, noted when using fish in Google Drive directories under WSL 2, has been silenced ([#9550](https://github.com/fish-shell/fish-shell/issues/9550)).\r\n* Using `read` in `fish_greeting` or similar functions will not trigger an infinite loop ([#9564](https://github.com/fish-shell/fish-shell/issues/9564)).\r\n* Compatibility when upgrading from old versions of fish (before 3.4.0) has been improved ([#9569](https://github.com/fish-shell/fish-shell/issues/9569)).\r\n\r\n#### Improved prompts\r\n\r\n* The git prompt will compute the stash count to be used independently of the informative status ([#9572](https://github.com/fish-shell/fish-shell/issues/9572)).\r\n\r\n#### Completions\r\n\r\n* Added completions for:\r\n  * `apkanalyzer` ([#9558](https://github.com/fish-shell/fish-shell/issues/9558))\r\n  * `neovim` ([#9543](https://github.com/fish-shell/fish-shell/issues/9543))\r\n  * `otool`\r\n  * `pre-commit` ([#9521](https://github.com/fish-shell/fish-shell/issues/9521))\r\n  * `proxychains` ([#9486](https://github.com/fish-shell/fish-shell/issues/9486))\r\n  * `scrypt` ([#9583](https://github.com/fish-shell/fish-shell/issues/9583))\r\n  * `stow` ([#9571](https://github.com/fish-shell/fish-shell/issues/9571))\r\n  * `trash` and helper utilities `trash-empty`, `trash-list`, `trash-put`, `trash-restore` ([#9560](https://github.com/fish-shell/fish-shell/issues/9560))\r\n  * `ssh-copy-id` ([#9675](https://github.com/fish-shell/fish-shell/issues/9675))\r\n* Improvements to many completions, including the speed of completing directories in WSL 2 ([#9574](https://github.com/fish-shell/fish-shell/issues/9574)).\r\n* Completions using `__fish_complete_suffix` are now offered in the correct order, fixing a regression in 3.6.0 ([#8924](https://github.com/fish-shell/fish-shell/issues/8924)).\r\n* `git` completions for `git-foo`-style commands was restored, fixing a regression in 3.6.0 ([#9457](https://github.com/fish-shell/fish-shell/issues/9457)).\r\n* File completion now offers `../` and `./` again, fixing a regression in 3.6.0 ([#9477](https://github.com/fish-shell/fish-shell/issues/9477)).\r\n* The behaviour of completions using `__fish_complete_path` matches standard path completions ([#9285](https://github.com/fish-shell/fish-shell/issues/9285)).\r\n\r\n### Other improvements\r\n\r\n* Improvements and corrections to the documentation.\r\n\r\n### For distributors\r\n\r\n* fish 3.6.1 builds correctly on Cygwin ([#9502](https://github.com/fish-shell/fish-shell/issues/9502)).\r\n---\r\n\r\n*Download links: To download the source code for fish, we suggest the file named \"fish-3.6.1.tar.xz\". The file downloaded from \"Source code (tar.gz)\" may not build correctly. The SHA-256 sum of this file is `55402bb47ca6739d8aba25e41780905b5ce1bce0a5e0dd17dca908b5bc0b49b2`. A GPG signature from David Adam (key ID `0x7A67D962D88A709A`) is available as \"fish-3.6.1.tar.xz.asc\".*"
@@ -13259,8 +13259,8 @@
     "https://github.com/Danny-Dasilva/CycleTLS": {
         "created_at": "2021-03-09 19:11:50",
         "description": "Spoof TLS/JA3 fingerprints in GO and Javascript ",
-        "commit_date": "2023-10-24 18:38:05",
-        "commit_message": "Release",
+        "commit_date": "2023-11-15 11:30:39",
+        "commit_message": "add in request option param: InsecureSkipVerify; (#279)\n\nCo-authored-by: Kadi Gasanguseynov <kagasanguseynov@avito.ru>",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -13473,8 +13473,8 @@
     "https://github.com/guardicore/monkey": {
         "created_at": "2015-08-30 07:22:51",
         "description": "Infection Monkey - An open-source adversary emulation platform",
-        "commit_date": "2023-11-14 12:00:59",
-        "commit_message": "Merge branch '3684-fix-agent-event-registration' into develop\n\nIssue #3684\nPR #3865",
+        "commit_date": "2023-11-15 13:32:17",
+        "commit_message": "Merge branch '2378-automatic-event-registration' into develop\n\nIssue #2378\nPR #3867",
         "release_tag": "v2.3.0",
         "release_date": "2023-09-19 16:53:21",
         "release_message": "## Highlights\r\n### Objective\r\n\r\nThis release is focused on adding high-value features to Infection Monkey.\r\n\r\n### New Features\r\n#### Propagation via RDP\r\nInfection Monkey can now use RDP to propagate itself to Windows targets. According to [The DFIR Report's 2022 Year in Review](https://thedfirreport.com/2023/03/06/2022-year-in-review/), 41.2% of lateral movement occurs via RDP. Infection Monkey users can now simulate this behavior in their environments and ensure they are prepared to detect and handle it.\r\n\r\n#### Cryptojacker simulation\r\nA new cryptojacker payload has been added that performs cryptographic functions with the goal of consuming a configurable amount of CPU. It can also consume a configurable quantity of RAM, as well as simulate some bitcoin mining traffic.\r\n\r\n#### Steal credentials from Chrome\r\nCredentials can be stolen from Chrome-based browsers and used for lateral movement. On Windows hosts, credentials can be stolen from Chrome and Edge. On Linux hosts, credentials can be stolen from Chrome and Chromium.\r\n\r\n#### Plugin installation menu\r\nInfection Monkey provides capabilities for exploitation/propagation, credentials stealing, and payloads via plugins. These plugins are now installable from a remote repository. This results in some highly impactful advantages for users.\r\n\r\n1. Users can receive and use new features without completely reinstalling Infection Monkey.\r\n2. Users can receive bug fixes in certain modules without completely reinstalling Infection Monkey.\r\n3. Users can choose not to install certain plugins, eliminating the risk of certain kinds of misconfigurations. This makes Infection Monkey safer in mission-critical environments.\r\n\r\n## Changelog\r\n### Added\r\n- Ability to filter Agent events by timestamp. #3397\r\n- Ability to filter Agent events by tag. #3396\r\n- Provide a common server object to the plugins that can be used to serve agent\r\n  binaries to the exploited machine over HTTP. #3410\r\n- CPUConsumptionEvent. #3411\r\n- RAMConsumptionEvent. #3411\r\n- HTTPRequestEvent. #3411\r\n- DefacementEvent. #1247\r\n- RDP exploiter plugin. #3425\r\n- A cryptojacker payload to simulate cryptojacker attacks. #3411\r\n- `PUT /api/install-agent-plugin`. #3417\r\n- `GET /api/agent-plugins/installed/manifests`. #3424\r\n- `GET /api/agent-plugins/available/index`. #3420\r\n- `POST /api/uninstall-agent-plugin` # 3422\r\n- Chrome credentials collector plugin. #3426\r\n- A plugin interface for payloads. #3390\r\n- The ability to install plugins from an online repository. #3413, #3418, #3616\r\n- Support for SMBv2+ in SMB exploiter. #3577\r\n- A UI for uploading agent plugin archives. #3417, #3611\r\n\r\n### Changed\r\n- Plugin source is now gzipped. #3392\r\n- Allowed characters in Agent event tags. #3399, #3676\r\n- Hard-coded Log4Shell exploiter to a plugin. #3388\r\n- Hard-coded SSH exploiter to a plugin. #3170\r\n- Identities and secrets can be associated when configuring credentials in the\r\n  UI. #3393\r\n- Hard-coded ransomware payload to a plugin. #3391\r\n- Text on the registration screen to improve clarity. #1984\r\n\r\n### Fixed\r\n- Agent hanging if plugins do not shut down. #3557\r\n- WMI exploiter hanging. #3543\r\n- Discovered network services are displayed in reports. #3000\r\n\r\n### Removed\r\n- Island mode configuration. #3400\r\n- Agent plugins from Island packages. #3616\r\n\r\n### Security\r\n- Fixed a ReDoS issue when validating ransomware file extensions. #3391\r\n\r\n## New contributors 🙌\r\nWelcome and thanks to our new contributors:\r\n@Akhil-Sharma30 \r\n@Mishrasubha "
@@ -13509,8 +13509,8 @@
     "https://github.com/alibaba/nacos": {
         "created_at": "2018-06-15 06:49:27",
         "description": "an easy-to-use dynamic service discovery, configuration and service management platform for building cloud native applications.",
-        "commit_date": "2023-11-09 09:19:27",
-        "commit_message": "Develop refactor topn (#11352)\n\n* Move topn to core module.\r\n\r\n* StringTopNCounter replace TopnCounterMetricsContainer.java\r\n\r\n* Use ServiceTopNCounter replace StringTopNCounterTest for naming.\r\n\r\n* Use FixedSizePriorityQueue replace PriorityQueue to save memory.\r\n\r\n* For PMD.",
+        "commit_date": "2023-11-15 08:21:51",
+        "commit_message": "strip groupNamePrefix of instance serviceName at register or deregister (#11354)",
         "release_tag": "2.2.3",
         "release_date": "2023-05-25 07:40:58",
         "release_message": "该版本主要针对部分Jraft请求处理时，使用hessian进行反序列化未限制而造成的RCE漏洞进行修复。\r\n\r\n该漏洞仅影响7848端口（默认设置下），一般使用时该端口为Nacos集群间Raft协议的通信端口，不承载客户端请求，因此老版本可以通过禁止该端口来自Nacos集群外的请求达到止血目的（如部署时已进行限制或未暴露，则风险可控）。\r\n\r\n变更详情：\r\n- [#10318](https://github.com/alibaba/nacos/pull/10318) Fix import problem when disable auth.\r\n- [#10542](https://github.com/alibaba/nacos/pull/10542) Add classes whitelist for HessianSerializer.\r\n\r\n-----\r\n\r\nThe version mainly fixes an RCE vulnerability caused by unbounded use of hessian during some Jraft request processing. \r\n\r\nThe vulnerability only affects port 7848 (by default), which is typically used as the communication port for Nacos cluster inter-raft protocol and does not handle client requests. Therefore, the risk can be controlled by disabling requests from outside of Nacos clusters (e.g. by limiting or not exposing the port) in older versions.\r\n\r\nDetail:\r\n- [#10318](https://github.com/alibaba/nacos/pull/10318) Fix import problem when disable auth.\r\n- [#10542](https://github.com/alibaba/nacos/pull/10542) Add classes whitelist for HessianSerializer."
@@ -14046,8 +14046,8 @@
     "https://github.com/dirkjanm/krbrelayx": {
         "created_at": "2019-01-08 18:42:07",
         "description": "Kerberos unconstrained delegation abuse toolkit",
-        "commit_date": "2023-08-30 01:01:34",
-        "commit_message": "Merge pull request #35 from rtpt-erikgeiser/numbered_unknown_user\n\nAdd random number to unknown username to obtain multiple certificates",
+        "commit_date": "2023-11-15 12:49:20",
+        "commit_message": "Add port and SSL options (#37)",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -14220,8 +14220,8 @@
     "https://github.com/glpi-project/glpi": {
         "created_at": "2015-07-16 07:20:21",
         "description": "GLPI is a Free Asset and IT Management Software package, Data center management, ITIL Service Desk, licenses tracking and software auditing.",
-        "commit_date": "2023-11-14 14:16:24",
-        "commit_message": "feat: move read more setting",
+        "commit_date": "2023-11-15 14:56:03",
+        "commit_message": "Do not display Log tab if user do not have right to see logs",
         "release_tag": "10.0.10",
         "release_date": "2023-09-25 08:43:55",
         "release_message": "## This is a security release, upgrading is recommended\r\n\r\n[![Download it](https://img.shields.io/badge/10.0.10-DOWNLOAD_GLPI-green.svg?logo=php&logoColor=white&style=for-the-badge)](https://github.com/glpi-project/glpi/releases/download/10.0.10/glpi-10.0.10.tgz)\r\n\r\nThis release fixes a security issue that has been recently discovered. Update is **recommended!**\r\n\r\nYou can download the **[GLPI 10.0.10 archive](https://github.com/glpi-project/glpi/releases/download/10.0.10/glpi-10.0.10.tgz)** on GitHub.\r\n\r\nYou will find below security issues fixed in this bugfixes version:\r\n\r\n- [SECURITY - Critical] Unallowed PHP script execution (CVE-2023-42802).\r\n- [SECURITY - High] Account takeover via SQL Injection in UI layout preferences (CVE-2023-41320).\r\n- [SECURITY - High] Account takeover via Kanban feature (CVE-2023-41326).\r\n- [SECURITY - High] Account takeover through API (CVE-2023-41324).\r\n- [SECURITY - High] File deletion through document upload process (CVE-2023-42462).\r\n- [SECURITY - Moderate] Sensitive fields enumeration through API (CVE-2023-41321).\r\n- [SECURITY - Moderate] Privilege Escalation from technician to super-admin (CVE-2023-41322).\r\n- [SECURITY - Moderate] Users login enumeration by unauthenticated user (CVE-2023-41323).\r\n- [SECURITY - Moderate] Phishing through a login page malicious URL (CVE-2023-41888).\r\n- [SECURITY - Moderate] SQL injection in ITIL actors (CVE-2023-42461).\r\n\r\nAlso, here is a short list of main changes done in this version:\r\n\r\n- [FEATURE] PHP 8.3 and MySQL 8.1 support.\r\n- [FEATURE] Enable usage of images in rich text of followups/tasks/solution templates.\r\n- [PERFORMANCES] Improve ticket timeline rendering performances.\r\n- [FIX] Fix issues with usage of LDAP bind options.\r\n- [FIX] Fix some issues on SLA/OLA escalation levels computation.\r\n- [FIX] Fix some issues on search on numeric and dates fields.\r\n- Several minor fixes\r\n\r\nThe **[full changelog is available](https://github.com/glpi-project/glpi/milestone/62?closed=1)** for more details.\r\n\r\nWe would like to thank all people who contributed to this new version and all those who contributes regularly to the GLPI project!\r\n\r\nRegards."
@@ -14288,11 +14288,11 @@
     "https://github.com/hashicorp/terraform": {
         "created_at": "2014-03-13 22:25:48",
         "description": "Terraform enables you to safely and predictably create, change, and improve infrastructure. It is a source-available tool that codifies APIs into declarative configuration files that can be shared amongst team members, treated as code, edited, reviewed, and versioned.",
-        "commit_date": "2023-11-14 22:19:39",
-        "commit_message": "Merge pull request #34195 from hashicorp/f-sso-endpoint\n\nbackend/s3: Adds SSO endpoint override",
-        "release_tag": "v1.6.3",
-        "release_date": "2023-11-01 15:32:57",
-        "release_message": "## 1.6.3 (November 1, 2023)\n\nENHANCEMENTS:\n* backend/s3: Adds the parameter `skip_s3_checksum` to allow users to disable checksum on S3 uploads for compatibility with \"S3-compatible\" APIs. ([#34127](https://github.com/hashicorp/terraform/pull/34127))\n\n"
+        "commit_date": "2023-11-15 21:19:59",
+        "commit_message": "Merge pull request #34240 from hashicorp/jbardin/generate-config-no-instances\n\nimport: don't panic if expanded import returns no instances with config generation",
+        "release_tag": "v1.6.4",
+        "release_date": "2023-11-15 16:01:27",
+        "release_message": "## 1.6.4 (November 15, 2023)\n\nENHANCEMENTS:\n* backend/s3: Add the parameter `endpoints.sso` to allow overriding the AWS SSO API endpoint. ([#34195](https://github.com/hashicorp/terraform/pull/34195))\n\nBUG FIXES:\n* `terraform test`: Fix bug preventing passing sensitive output values from previous run blocks as inputs to future run blocks. ([#34190](https://github.com/hashicorp/terraform/pull/34190))\n* backend/s3: Add `https_proxy` and `no_proxy` parameters to allow fully specifying proxy configuration ([#34243](https://github.com/hashicorp/terraform/pull/34243))\n\n"
     },
     "https://github.com/ffffffff0x/Pentest101": {
         "created_at": "2021-01-14 14:54:59",
@@ -14772,8 +14772,8 @@
     "https://github.com/falcosecurity/falco": {
         "created_at": "2016-01-19 21:58:12",
         "description": "Cloud Native Runtime Security",
-        "commit_date": "2023-11-14 19:36:15",
-        "commit_message": "update(engine): add tests for decode_url()\n\nSigned-off-by: Luca Guerra <luca@guerra.sh>",
+        "commit_date": "2023-11-15 15:05:15",
+        "commit_message": "cleanup(userspace/engine): remove legacy k8saudit implementation\n\nSigned-off-by: Jason Dellaluce <jasondellaluce@gmail.com>",
         "release_tag": "0.36.2",
         "release_date": "2023-10-27 09:48:00",
         "release_message": "![LIBS](https://img.shields.io/badge/LIBS-0.13.4-yellow)\r\n![DRIVER](https://img.shields.io/badge/DRIVER-6.0.1-yellow)\r\n\r\n| Packages | Download                                                                                                                                               |\r\n| -------- | ------------------------------------------------------------------------------------------------------------------------------------------------------ |\r\n| rpm-x86_64      | [![rpm](https://img.shields.io/badge/Falco-0.36.2-%2300aec7?style=flat-square)](https://download.falco.org/packages/rpm/falco-0.36.2-x86_64.rpm)        |\r\n| deb-x86_64      | [![deb](https://img.shields.io/badge/Falco-0.36.2-%2300aec7?style=flat-square)](https://download.falco.org/packages/deb/stable/falco-0.36.2-x86_64.deb) |\r\n| tgz-x86_64      | [![tgz](https://img.shields.io/badge/Falco-0.36.2-%2300aec7?style=flat-square)](https://download.falco.org/packages/bin/x86_64/falco-0.36.2-x86_64.tar.gz) |\r\n| rpm-aarch64      | [![rpm](https://img.shields.io/badge/Falco-0.36.2-%2300aec7?style=flat-square)](https://download.falco.org/packages/rpm/falco-0.36.2-aarch64.rpm)        |\r\n| deb-aarch64      | [![deb](https://img.shields.io/badge/Falco-0.36.2-%2300aec7?style=flat-square)](https://download.falco.org/packages/deb/stable/falco-0.36.2-aarch64.deb) |\r\n| tgz-aarch64      | [![tgz](https://img.shields.io/badge/Falco-0.36.2-%2300aec7?style=flat-square)](https://download.falco.org/packages/bin/aarch64/falco-0.36.2-aarch64.tar.gz) |\r\n\r\n| Images                                                                      |\r\n| --------------------------------------------------------------------------- |\r\n| `docker pull docker.io/falcosecurity/falco:0.36.2`                           |\r\n| `docker pull public.ecr.aws/falcosecurity/falco:0.36.2`                      |\r\n| `docker pull docker.io/falcosecurity/falco-driver-loader:0.36.2`             |\r\n| `docker pull docker.io/falcosecurity/falco-driver-loader-legacy:0.36.2`      |\r\n| `docker pull docker.io/falcosecurity/falco-no-driver:0.36.2`                 |\r\n| `docker pull docker.io/falcosecurity/falco-distroless:0.36.2`                |\r\n\r\n## v0.36.2\r\n\r\nReleased on 2023-10-27\r\n\r\n### Major Changes\r\n\r\n\r\n### Minor Changes\r\n\r\n\r\n### Bug Fixes\r\n\r\n* Bumped libs to  [0.13.4](https://github.com/falcosecurity/libs/releases/tag/0.13.4)\r\n\r\n\r\n#### Release Manager @FedeDP "
@@ -14925,8 +14925,8 @@
     "https://github.com/MicrosoftDocs/sdk-api": {
         "created_at": "2019-05-29 20:48:50",
         "description": "Public contributions for win32 API documentation",
-        "commit_date": "2023-11-13 22:06:12",
-        "commit_message": "Merge pull request #1683 from DJm00n/patch-10\n\nUpdate nf-rpcdce-uuidtostring.md",
+        "commit_date": "2023-11-15 22:21:07",
+        "commit_message": "Merge pull request #1684 from DJm00n/patch-10\n\nUpdate ns-wingdi-bitmapinfoheader.md",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -15056,8 +15056,8 @@
     "https://github.com/VirusTotal/yara": {
         "created_at": "2012-12-06 15:33:08",
         "description": "The pattern matching swiss knife",
-        "commit_date": "2023-11-09 11:03:40",
-        "commit_message": "Add missing data file to BUILD.bazel",
+        "commit_date": "2023-11-15 22:50:23",
+        "commit_message": "fix: check mmap result (#2003)\n\n* fix: check mmap result\r\n\r\nCheck if mmap failed (return value MAP_FAILED) and, if yes, exit.\r\n\r\n* feat: fallback to pread() if file mmap failed\r\n\r\n* fix: initialize zero buffer for uninitialized mapping",
         "release_tag": "v4.3.2",
         "release_date": "2023-06-12 14:28:09",
         "release_message": "* BUGFIX: assertion triggered with certain hex patterns when scanning arbitrary files (https://github.com/VirusTotal/yara/commit/bcc631299c9eba3af1fbf6e8a466650185e94988). Reported by Huawei Central Software Institute Security Team."
@@ -15554,8 +15554,8 @@
     "https://github.com/containerd/containerd": {
         "created_at": "2015-11-13 00:27:43",
         "description": "An open and reliable container runtime",
-        "commit_date": "2023-11-14 04:20:00",
-        "commit_message": "Merge pull request #9266 from akhilerm/refactor-cri-labels\n\nrefactor labels used in cri server",
+        "commit_date": "2023-11-15 23:21:26",
+        "commit_message": "Merge pull request #9368 from thaJeztah/shim_logs\n\nservices/server, runtime/v2/shim: use structured log for plugin ID",
         "release_tag": "v1.7.8",
         "release_date": "2023-10-26 22:21:17",
         "release_message": "Welcome to the v1.7.8 release of containerd!\n\nThe eighth patch release for containerd 1.7 contains various fixes and updates.\n\n### Notable Updates\n\n* **Fix ambiguous TLS fallback** ([#9299](https://github.com/containerd/containerd/pull/9299))\n* **Update Go to 1.20.10** ([#9265](https://github.com/containerd/containerd/pull/9265))\n* **Add a new image label on converted schema 1 images** ([#9252](https://github.com/containerd/containerd/pull/9252))\n* **Fix handling for missing basic auth credentials** ([#9235](https://github.com/containerd/containerd/pull/9235))\n* **Fix potential deadlock in create handler for containerd-shim-runc-v2** ([#9209](https://github.com/containerd/containerd/pull/9209))\n\nSee the changelog for complete list of changes\n\nPlease try out the release binaries and report any issues at\nhttps://github.com/containerd/containerd/issues.\n\n### Contributors\n\n* Sebastiaan van Stijn\n* Derek McGowan\n* Phil Estes\n* Chen Yiyang\n* Wei Fu\n* Akihiro Suda\n* Maksym Pavlenko\n* Marat Radchenko\n* Milas Bowman\n* Qiutong Song\n* Samuel Karp\n\n### Changes\n<details><summary>27 commits</summary>\n<p>\n\n* [release/1.7] Prepare release notes for v1.7.8 ([#9278](https://github.com/containerd/containerd/pull/9278))\n  * [`48dbdf871`](https://github.com/containerd/containerd/commit/48dbdf871b43ca94f243779bd641fcda49c94f66) Prepare release notes for v1.7.8\n* [release/1.7] Fix ambiguous tls fallback ([#9299](https://github.com/containerd/containerd/pull/9299))\n  * [`68abc543b`](https://github.com/containerd/containerd/commit/68abc543b1eb4a8196842de6c83115ba4e5698b0) Check scheme and host of request on push redirect\n  * [`35c7634e3`](https://github.com/containerd/containerd/commit/35c7634e33651053a934bbcb831c90ddc65ede2e) Avoid TLS fallback when protocol is not ambiguous\n* [release/1.7] vendor: google.golang.org/grpc v1.58.3 ([#9281](https://github.com/containerd/containerd/pull/9281))\n  * [`f36948cad`](https://github.com/containerd/containerd/commit/f36948cad712b9f813518ceaa5ac5441b6e10347) vendor: gRPC v1.58.3\n* [release/1.7 backport] vendor: golang.org/x/net v0.17.0 ([#9276](https://github.com/containerd/containerd/pull/9276))\n  * [`c67a53190`](https://github.com/containerd/containerd/commit/c67a5319050614a947c9e5c133e44164e487a223) vendor: golang.org/x/net v0.17.0\n  * [`71f4b36ca`](https://github.com/containerd/containerd/commit/71f4b36ca7a420d53a9f6c1b3f846a4a94b739de) vendor: golang.org/x/text v0.13.0\n  * [`a7b3b7090`](https://github.com/containerd/containerd/commit/a7b3b70909a99f47845b74a3dbe58032c17bd1e0) vendor: golang.org/x/sys v0.13.0\n* [release/1.7] vendor: google.golang.org/grpc v1.56.3 ([#9248](https://github.com/containerd/containerd/pull/9248))\n  * [`26736d6e1`](https://github.com/containerd/containerd/commit/26736d6e1af5f45386ae9382a6a951aee33c9ca7) vendor: google.golang.org/grpc v1.56.3\n  * [`54a69a6e4`](https://github.com/containerd/containerd/commit/54a69a6e448d61fe88ad90bd476f8f65cf21277f) vendor: golang.org/x/oauth2 v0.7.0\n  * [`ac15a7f5b`](https://github.com/containerd/containerd/commit/ac15a7f5b9da1b45ffc66bb8ccdcaed2f571c73a) vendor: google.golang.org/protobuf v1.30.0\n* [release/1.7] update to go1.20.10, test go1.21.3 ([#9265](https://github.com/containerd/containerd/pull/9265))\n  * [`2479c3321`](https://github.com/containerd/containerd/commit/2479c332173014f3086d9b016214c536a7c03f39) [release/1.7] update to go1.20.10, test go1.21.3\n  * [`11f40e9d8`](https://github.com/containerd/containerd/commit/11f40e9d80409b8dfa9dcb3eb81934e08384dd8e) [release/1.7] update to go1.20.9, test go1.21.2\n* [release/1.7] Add a new image label if it is docker schema 1 ([#9252](https://github.com/containerd/containerd/pull/9252))\n  * [`cac1bab79`](https://github.com/containerd/containerd/commit/cac1bab797ed8d1245bff49aa90e6c80d8714899) Add a new image label if it is docker schema 1\n* [release/1.7] remotes: add handling for missing basic auth credentials ([#9235](https://github.com/containerd/containerd/pull/9235))\n  * [`6cd2cc4a8`](https://github.com/containerd/containerd/commit/6cd2cc4a8f035162e06d5ffbf868c540e7eb40eb) remotes: add handling for missing basic auth credentials\n* [release/1.7 backport] containerd-shim-runc-v2: avoid potential deadlock in create handler ([#9209](https://github.com/containerd/containerd/pull/9209))\n  * [`d0a1fedb5`](https://github.com/containerd/containerd/commit/d0a1fedb5a4828daddff330a345780d0222e47e8) *: add runc-fp as runc wrapper to inject failpoint\n  * [`04491240a`](https://github.com/containerd/containerd/commit/04491240af1766337e0fbb5145405f74a39f5ad5) containerd-shim-runc-v2: avoid potential deadlock in create handler\n  * [`6982a0df5`](https://github.com/containerd/containerd/commit/6982a0df5bc0d31ae82f0810518550006bf90931) containerd-shim-runc-v2: remove unnecessary `s.getContainer()`\n  * [`0e2320398`](https://github.com/containerd/containerd/commit/0e2320398f0fb9974232ef68ea70625645f42661) Uncopypaste parsing of OCI Bundle spec file\n</p>\n</details>\n\n### Dependency Changes\n\n* **golang.org/x/crypto**                        v0.11.0 -> v0.14.0\n* **golang.org/x/mod**                           v0.9.0 -> v0.11.0\n* **golang.org/x/net**                           v0.13.0 -> v0.17.0\n* **golang.org/x/oauth2**                        v0.4.0 -> v0.10.0\n* **golang.org/x/sync**                          v0.1.0 -> v0.3.0\n* **golang.org/x/sys**                           v0.10.0 -> v0.13.0\n* **golang.org/x/term**                          v0.10.0 -> v0.13.0\n* **golang.org/x/text**                          v0.11.0 -> v0.13.0\n* **golang.org/x/tools**                         v0.7.0 -> v0.10.0\n* **google.golang.org/genproto**                 7f2fa6fef1f4 -> 782d3b101e98\n* **google.golang.org/genproto/googleapis/api**  782d3b101e98 **_new_**\n* **google.golang.org/genproto/googleapis/rpc**  782d3b101e98 **_new_**\n* **google.golang.org/grpc**                     v1.53.0 -> v1.58.3\n* **google.golang.org/protobuf**                 v1.29.1 -> v1.31.0\n\nPrevious release can be found at [v1.7.7](https://github.com/containerd/containerd/releases/tag/v1.7.7)\n"
@@ -15622,8 +15622,8 @@
     "https://github.com/nikoksr/notify": {
         "created_at": "2021-01-24 23:07:29",
         "description": "A dead simple Go library for sending notifications to various messaging services.",
-        "commit_date": "2023-11-14 00:33:52",
-        "commit_message": "fix(deps): update module github.com/aws/aws-sdk-go-v2/config to v1.24.0 (#751)\n\nCo-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>",
+        "commit_date": "2023-11-16 00:20:00",
+        "commit_message": "fix(deps): update module github.com/aws/aws-sdk-go-v2/config to v1.25.1 (#753)\n\nCo-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>",
         "release_tag": "v0.41.0",
         "release_date": "2023-06-23 11:24:03",
         "release_message": "## What's Changed\n* fix(deps): update module github.com/mailgun/mailgun-go/v4 to v4.9.0 by @renovate in https://github.com/nikoksr/notify/pull/613\n* fix(deps): update module github.com/plivo/plivo-go/v7 to v7.31.0 by @renovate in https://github.com/nikoksr/notify/pull/612\n* fix(deps): update module google.golang.org/api to v0.126.0 by @renovate in https://github.com/nikoksr/notify/pull/614\n* fix(deps): update module github.com/aws/aws-sdk-go-v2/config to v1.18.26 by @renovate in https://github.com/nikoksr/notify/pull/617\n* fix(deps): update module github.com/aws/aws-sdk-go-v2/service/ses to v1.15.10 by @renovate in https://github.com/nikoksr/notify/pull/618\n* fix(deps): update module github.com/aws/aws-sdk-go-v2/service/sns to v1.20.12 by @renovate in https://github.com/nikoksr/notify/pull/619\n* fix(deps): update module golang.org/x/sync to v0.3.0 by @renovate in https://github.com/nikoksr/notify/pull/621\n* fix(deps): update module google.golang.org/api to v0.127.0 by @renovate in https://github.com/nikoksr/notify/pull/622\n* fix(deps): update module github.com/aws/aws-sdk-go-v2/config to v1.18.27 by @renovate in https://github.com/nikoksr/notify/pull/623\n* fix(deps): update module github.com/aws/aws-sdk-go-v2/service/ses to v1.15.11 by @renovate in https://github.com/nikoksr/notify/pull/625\n* fix(deps): update module github.com/aws/aws-sdk-go-v2/service/sns to v1.20.13 by @renovate in https://github.com/nikoksr/notify/pull/626\n* fix(deps): update module google.golang.org/api to v0.128.0 by @renovate in https://github.com/nikoksr/notify/pull/627\n* fix(deps): update module maunium.net/go/mautrix to v0.15.3 by @renovate in https://github.com/nikoksr/notify/pull/628\n* fix(deps): update module github.com/mailgun/mailgun-go/v4 to v4.9.1 by @renovate in https://github.com/nikoksr/notify/pull/629\n* feat(service): Adds Mattermost service by @shivuslr41 in https://github.com/nikoksr/notify/pull/516\n\n## New Contributors\n* @shivuslr41 made their first contribution in https://github.com/nikoksr/notify/pull/516\n\n**Full Changelog**: https://github.com/nikoksr/notify/compare/v0.40.0...v0.41.0\n"
@@ -16204,8 +16204,8 @@
     "https://github.com/projectdiscovery/nuclei-templates": {
         "created_at": "2020-04-04 16:21:34",
         "description": "Community curated list of templates for the nuclei engine to find security vulnerabilities.",
-        "commit_date": "2023-11-14 19:00:04",
-        "commit_message": "Auto Template Signing [Tue Nov 14 19:00:03 UTC 2023] :robot:",
+        "commit_date": "2023-11-15 17:59:16",
+        "commit_message": "Auto Template Signing [Wed Nov 15 17:59:15 UTC 2023] :robot:",
         "release_tag": "v9.6.9",
         "release_date": "2023-11-10 10:43:50",
         "release_message": "🔥 Release Highlights 🔥\r\n\r\n- network/cves/2023/CVE-2023-46604.yaml by @Ice3man,@Mzack9999,@pdresearch 🔥\r\n- javascript/cves/2023/CVE-2023-34039.yaml by @tarunKoyalwar 🔥\r\n- code/cves/2023/CVE-2023-4911.yaml by @nybble04 🔥\r\n- http/cves/2023/CVE-2023-43795.yaml by @DhiyaneshDK 🔥\r\n- http/cves/2022/CVE-2022-35653.yaml by @iamnoooob,@pdresearch 🔥\r\n- http/cves/2023/CVE-2023-22518.yaml by @iamnoooob,@rootxharsh,@pdresearch 🔥\r\n- http/cves/2023/CVE-2023-20198.yaml by @iamnoooob,@rootxharsh,@pdresearch 🔥\r\n- http/cves/2020/CVE-2020-24701.yaml by @DhiyaneshDk 🔥\r\n- http/cves/2023/CVE-2023-1719.yaml by @DhiyaneshDk 🔥\r\n\r\n## What's Changed\r\n#### New Templates Added: `73` | CVEs Added: `13` | First-time contributions: `7`\r\n\r\n- network/cves/2023/CVE-2023-46604.yaml by @Ice3man,@Mzack9999,@pdresearch 🔥\r\n- javascript/cves/2023/CVE-2023-34039.yaml by @tarunKoyalwar 🔥\r\n- code/cves/2023/CVE-2023-4911.yaml by @nybble04 🔥\r\n- http/cves/2023/CVE-2023-43795.yaml by @DhiyaneshDK 🔥\r\n- http/cves/2023/CVE-2023-40068.yaml by @E1A\r\n- http/cves/2022/CVE-2022-35653.yaml by @iamnoooob,@pdresearch 🔥\r\n- http/cves/2023/CVE-2023-34020.yaml by @LeDoubleTake\r\n- http/cves/2023/CVE-2023-33629.yaml by @DhiyaneshDK\r\n- http/cves/2023/CVE-2023-22518.yaml by @iamnoooob,@rootxharsh,@pdresearch 🔥\r\n- http/cves/2023/CVE-2023-20198.yaml by @iamnoooob,@rootxharsh,@pdresearch 🔥\r\n- http/cves/2020/CVE-2020-24701.yaml by @DhiyaneshDk 🔥\r\n- http/cves/2023/CVE-2023-1719.yaml by @DhiyaneshDk 🔥\r\n- http/cves/2023/CVE-2023-4169.yaml by @DhiyaneshDK\r\n- http/cves/2023/CVE-2023-4415.yaml by @DhiyaneshDK\r\n- http/default-logins/dell/dell-dpi-default-login.yaml by @megamansec\r\n- http/default-logins/goip-default-login.yaml by @drfabiocastro\r\n- http/exposed-panels/appsuite-panel.yaml by @DhiyaneshDK\r\n- http/exposed-panels/cisco/cisco-ios-xe-panel.yaml by @bhutch\r\n- http/exposed-panels/fusionauth-admin-panel.yaml by @ritikchaddha\r\n- http/exposed-panels/homer-panel.yaml by @rxerium\r\n- http/exposed-panels/kiteworks-pcn-panel.yaml by @righettod\r\n- http/exposed-panels/librephotos-panel.yaml by @ritikchaddha\r\n- http/exposed-panels/librespeed-panel.yaml by @ritikchaddha\r\n- http/exposed-panels/office-webapps-panel.yaml by @DhiyaneshDK\r\n- http/exposed-panels/overseerr-panel.yaml by @rxerium\r\n- http/exposed-panels/plausible-panel.yaml by @rxerium\r\n- http/exposed-panels/rdweb-panel.yaml by @rxerium,@sorrowx3\r\n- http/exposed-panels/servicenow-panel.yaml by @righettod\r\n- http/exposed-panels/truenas-scale-panel.yaml by @rxerium\r\n- http/exposed-panels/unauth/tautulli-unauth.yaml by @ritikchaddha\r\n- http/honeypot/citrix-honeypot-detect.yaml by @UnaPibaGeek\r\n- http/honeypot/dionaea-http-honeypot-detect.yaml by @UnaPibaGeek\r\n- http/honeypot/elasticpot-honeypot-detect.yaml by @UnaPibaGeek\r\n- http/honeypot/snare-honeypot-detect.yaml by @UnaPibaGeek\r\n- http/misconfiguration/fusionauth-admin-setup.yaml by @ritikchaddha\r\n- http/misconfiguration/installer/cube-105-install.yaml by @ritikchaddha\r\n- http/misconfiguration/installer/imprivata-installer.yaml by @ritikchaddha\r\n- http/misconfiguration/installer/orangescrum-install.yaml by @ritikchaddha\r\n- http/misconfiguration/installer/ruckus-smartzone-install.yaml by @ritikchaddha\r\n- http/misconfiguration/installer/ruckus-unleashed-install.yaml by @ritikchaddha\r\n- http/misconfiguration/installer/sugarcrm-install.yaml by @ritikchaddha\r\n- http/misconfiguration/installer/tautulli-install.yaml by @ritikchaddha\r\n- http/misconfiguration/installer/webcalendar-install.yaml by @ritikchaddha\r\n- http/misconfiguration/installer/webtrees-install.yaml by @ritikchaddha\r\n- http/misconfiguration/less-history.yaml by @kazet\r\n- http/misconfiguration/mysql-history.yaml by @kazet\r\n- http/misconfiguration/searchreplacedb2-exposure.yaml by @kazet\r\n- http/misconfiguration/untangle-admin-setup.yaml by @ritikchaddha\r\n- http/technologies/dell/dell-dpi-panel.yaml by @megamansec\r\n- http/technologies/wordpress/plugins/hostinger.yaml by @ricardomaia\r\n- http/technologies/wordpress/plugins/metform.yaml by @ricardomaia\r\n- http/vulnerabilities/hikvision/hikvision-js-files-upload.yaml by @Xc1Ym\r\n- http/vulnerabilities/microsoft/office-webapps-ssrf.yaml by @DhiyaneshDK\r\n- http/vulnerabilities/other/podcast-generator-ssrf.yaml by @ritikchaddha,@MrHarshvardhan\r\n- javascript/default-logins/mssql-default-logins.yaml by @Ice3man543,@tarunKoyalwar\r\n- javascript/default-logins/postgres-default-logins.yaml by @Ice3man\r\n- javascript/default-logins/redis-default-logins.yaml by @tarunKoyalwar\r\n- javascript/default-logins/ssh-default-logins.yaml by @tarunKoyalwar\r\n- javascript/detection/mssql-detect.yaml by @Ice3man543,@tarunKoyalwar\r\n- javascript/detection/ssh-auth-methods.yaml by @Ice3man543\r\n- javascript/enumeration/ssh-password-auth.yaml by @princechaddha\r\n- javascript/enumeration/ssh-server-enumeration.yaml by @Ice3man543,@tarunKoyalwar\r\n- network/honeypot/adbhoney-honeypot-cnxn-detect.yaml by @UnaPibaGeek\r\n- network/honeypot/adbhoney-honeypot-shell-detect.yaml by @UnaPibaGeek\r\n- network/honeypot/conpot-siemens-honeypot-detect.yaml by @UnaPibaGeek\r\n- network/honeypot/cowrie-ssh-honeypot-detect.yaml by @UnaPibaGeek\r\n- network/honeypot/dionaea-ftp-honeypot-detect.yaml by @UnaPibaGeek\r\n- network/honeypot/dionaea-mqtt-honeypot-detect.yaml by @UnaPibaGeek\r\n- network/honeypot/dionaea-mysql-honeypot-detect.yaml by @UnaPibaGeek\r\n- network/honeypot/dionaea-smb-honeypot-detect.yaml by @UnaPibaGeek\r\n- network/honeypot/gaspot-honeypot-detect.yaml by @UnaPibaGeek\r\n- network/honeypot/mailoney-honeypot-detect.yaml by @UnaPibaGeek\r\n- network/honeypot/redis-honeypot-detect.yaml by @UnaPibaGeek\r\n\r\n## New Contributors\r\n* @k0z4c made their first contribution in https://github.com/projectdiscovery/nuclei-templates/pull/8468\r\n* @byt3bl33d3r made their first contribution in https://github.com/projectdiscovery/nuclei-templates/pull/8457\r\n* @0xorOne made their first contribution in https://github.com/projectdiscovery/nuclei-templates/pull/8500\r\n* @jzr made their first contribution in https://github.com/projectdiscovery/nuclei-templates/pull/8546\r\n* @Xc1Ym made their first contribution in https://github.com/projectdiscovery/nuclei-templates/pull/8548\r\n* @adilsoybali made their first contribution in https://github.com/projectdiscovery/nuclei-templates/pull/8540\r\n* @rumble773 made their first contribution in https://github.com/projectdiscovery/nuclei-templates/pull/8572\r\n\r\n**Full Changelog**: https://github.com/projectdiscovery/nuclei-templates/compare/v9.6.8...v9.6.9"
@@ -16240,7 +16240,7 @@
     "https://github.com/spring-projects/spring-framework": {
         "created_at": "2010-12-08 04:04:45",
         "description": "Spring Framework",
-        "commit_date": "2023-11-14 20:01:14",
+        "commit_date": "2023-11-15 19:50:02",
         "commit_message": "Merge branch '6.0.x'",
         "release_tag": "v6.0.13",
         "release_date": "2023-10-12 09:54:13",
@@ -16593,8 +16593,8 @@
     "https://github.com/Merricx/qrazybox": {
         "created_at": "2017-04-18 19:10:04",
         "description": "QR Code Analysis and Recovery Toolkit",
-        "commit_date": "2023-08-20 15:01:23",
-        "commit_message": "fix qr files not working (#9)\n\n* added better debugging to fix text import issue\r\n\r\n* add more debugging\r\n\r\n* initial sanitize function\r\n\r\n* add another check to ensure qr size consistency",
+        "commit_date": "2023-11-15 20:03:14",
+        "commit_message": "Revise the ECI indicator list (#11)\n\n* make filenames NTFS compatible\r\n\r\n* revise the ECI indicator list\r\nref: AIM ITS/04-023:2022",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -16792,11 +16792,11 @@
     "https://github.com/massgravel/Microsoft-Activation-Scripts": {
         "created_at": "2020-01-12 23:03:34",
         "description": "A Windows and Office activator using HWID / Ohook / KMS38 / Online KMS activation methods, with a focus on open-source code and fewer antivirus detections.",
-        "commit_date": "2023-11-04 04:22:46",
-        "commit_message": "Evade AV's detection - 7",
-        "release_tag": "2.4",
-        "release_date": "2023-10-21 00:03:01",
-        "release_message": "## Changelog: 2.4\r\n\r\n<details><summary>Click to expand</summary>\r\n\r\n#### Ohook:\r\n\r\n-   Reverted the Ohook version back to 0.3. We noticed some Antivirus detections (false positive), possibly due to the registry adding change introduced in 0.4. The downside of 0.3 is that the Ohook script would need to be run again upon new user account creation in Windows if O365 is installed.\r\n-   Separate files version for Ohook script is changed to AIO.\r\n-   Users don't need to update their Ohook installation with this update.\r\n\r\n</details>\r\n\r\n----\r\n\r\n### Download / How to use it?\r\n\r\n#### Method 1 - PowerShell (Recommended)\r\n\r\n-   On Windows 8.1/10/11, right-click on the Windows start menu and select PowerShell or Terminal (Not CMD).\r\n-   Copy-paste the below code and press enter\\\r\n    `irm https://massgrave.dev/get | iex`\r\n-   You will see the activation options, and follow onscreen instructions.\r\n-   That's all.\r\n\r\n#### Method 2 - Traditional\r\n\r\n-   Download the file from [here](https://github.com/massgravel/Microsoft-Activation-Scripts/archive/refs/heads/master.zip)\r\n-   Right-click on the downloaded zip file and extract\r\n-   In the extracted folder, find the folder named `All-In-One-Version`\r\n-   Run the file named `MAS_AIO.cmd`\r\n-   You will see the activation options, and follow onscreen instructions.\r\n-   That's all.\r\n\r\nTo run the scripts in unattended mode, check [here](https://massgrave.dev/command_line_switches.html)\r\n\r\n---\r\n\r\n### [Troubleshooting / Help](https://massgrave.dev/troubleshoot.html)\r\n### [Download Original Windows & Office](https://massgrave.dev/genuine-installation-media.html)\r\n### [Check Homepage For More Details](https://massgrave.dev)\r\n\r\n"
+        "commit_date": "2023-11-15 21:28:18",
+        "commit_message": "Revert export-ignore",
+        "release_tag": "2.5",
+        "release_date": "2023-11-15 21:05:56",
+        "release_message": "## Changelog: 2.5\r\n\r\n<details><summary>Click to expand</summary>\r\n\r\n#### HWID:\r\n\r\n-   Added support for the Windows 11 IoTEnterpriseK edition.\r\n\r\n#### KMS38:\r\n\r\n-   Added support for Windows Server 2025 editions.\r\n\r\n#### Ohook:\r\n\r\n-   Added support for Microsoft Office 2024 (Preview) editions.\r\n-   Fixed a delay issue in checking user account SIDs if a lot of users are added to the domain-joined system.\r\n\r\n#### All:\r\n\r\n-   Fixed a delay issue in checking WPA registry keys\r\n-   Optimized some codes and fixed a few bugs\r\n\r\n</details>\r\n\r\n----\r\n\r\n### Download / How to use it?\r\n\r\n#### Method 1 - PowerShell (Recommended)\r\n\r\n-   On Windows 8.1/10/11, right-click on the Windows start menu and select PowerShell or Terminal (Not CMD).\r\n-   Copy-paste the below code and press enter\\\r\n    `irm https://massgrave.dev/get | iex`\r\n-   You will see the activation options, and follow onscreen instructions.\r\n-   That's all.\r\n\r\n#### Method 2 - Traditional\r\n\r\n-   Download the file from [here](https://github.com/massgravel/Microsoft-Activation-Scripts/archive/refs/heads/master.zip)\r\n-   Right-click on the downloaded zip file and extract\r\n-   In the extracted folder, find the folder named `All-In-One-Version`\r\n-   Run the file named `MAS_AIO.cmd`\r\n-   You will see the activation options, and follow onscreen instructions.\r\n-   That's all.\r\n\r\nTo run the scripts in unattended mode, check [here](https://massgrave.dev/command_line_switches.html)\r\n\r\n---\r\n\r\n### [Troubleshooting / Help](https://massgrave.dev/troubleshoot.html)\r\n### [Download Original Windows & Office](https://massgrave.dev/genuine-installation-media.html)\r\n### [Check Homepage For More Details](https://massgrave.dev)\r\n\r\n"
     },
     "https://github.com/kjur/jsrsasign": {
         "created_at": "2012-04-30 06:18:56",
@@ -16810,11 +16810,11 @@
     "https://github.com/L-codes/pwcrack-framework": {
         "created_at": "2018-07-01 08:33:55",
         "description": "Password Crack Framework",
-        "commit_date": "2023-09-27 08:25:00",
-        "commit_message": "release 1.20.0",
-        "release_tag": "1.20.0",
-        "release_date": "2023-09-27 08:26:21",
-        "release_message": "```python\r\n1. 添加 qiyuesuo 的解密插件\r\n\r\n* 目前支持 61 种算法解密\r\n```"
+        "commit_date": "2023-11-15 04:50:30",
+        "commit_message": "bump version",
+        "release_tag": "1.21.0",
+        "release_date": "2023-11-15 05:02:52",
+        "release_message": "```python\r\n1. 添加 sxd_sdc 的解密插件\r\n\r\n* 目前支持 62 种算法解密\r\n```"
     },
     "https://github.com/Imanfeng/Apache-Solr-RCE": {
         "created_at": "2019-08-10 13:30:44",
@@ -17665,8 +17665,8 @@
     "https://github.com/rundeck/rundeck": {
         "created_at": "2010-09-03 22:11:25",
         "description": "Enable Self-Service Operations: Give specific users access to your existing tools, services, and scripts",
-        "commit_date": "2023-11-14 21:56:33",
-        "commit_message": "Merge pull request #8669 from rundeck/fix/npm-build-collisions\n\nAvoid parallel execution of runNpmBuild tasks",
+        "commit_date": "2023-11-15 15:55:28",
+        "commit_message": "Merge pull request #8650 from rundeck/RUN-1926\n\nRUN-1926: Add runner key storage GUI for node sources",
         "release_tag": "v4.17.3",
         "release_date": "2023-11-13 23:08:30",
         "release_message": "Release v4.17.3"
@@ -17863,8 +17863,8 @@
     "https://github.com/commixproject/commix": {
         "created_at": "2015-03-20 08:38:26",
         "description": "Automated All-in-One OS Command Injection Exploitation Tool.",
-        "commit_date": "2023-11-13 06:33:49",
-        "commit_message": "Trivial update",
+        "commit_date": "2023-11-15 16:06:43",
+        "commit_message": "Minor update regarding parsing HTTP requests through HTTP proxy (i.e `--proxy` option).",
         "release_tag": "v3.8",
         "release_date": "2023-08-14 08:46:05",
         "release_message": "* Fixed: Multiple bug-fixes regarding several reported unhandled exceptions.\r\n* Revised: Minor improvement regarding parsing raw HTTP request from a file (i.e. `-r` option).\r\n* Revised: Minor improvement regarding dynamic code evaluation technique (i.e. command execution output).\r\n* Added: Translation for [README.md](https://github.com/commixproject/commix/blob/master/doc/translations/README-fa-FA.md) in Farsi(Persian) (via @verfosec)\r\n* Fixed: Minor bug-fix regarding `--skip-empty` flag, for skipping the testing of the parameter(s) with empty value(s).\r\n* Revised: Minor improvement regarding tamper script \"uninitializedvariable.py\", for adding randomly generated uninitialized bash variables between the characters of each command of the generated payloads.\r\n* Revised: Minor improvement regarding skipping further tests involving target that an injection point has already been detected.\r\n* Revised: Minor code refactoring regarding multiple tamper scripts (i.e. \"backslashes.py\", \"dollaratsigns.py\", \"doublequotes.py\", \"singlequotes.py\", \"uninitializedvariable.py\").\r\n* Added: New tamper script \"rev.py\" that reverses (characterwise) the user-supplied operating system commands (for \\*nix targets).\r\n* Fixed: Minor bug-fix regarding checking for similarity in provided parameter(s) name(s) and value(s).\r\n* Fixed: Minor bug-fix regarding forcing usage of SSL/HTTPS requests toward the target (i.e. `--force-ssl` flag).\r\n* Fixed: Minor bug-fix regarding setting custom output directory path (i.e. `--output-dir` option).\r\n* Added: Support for `Bearer` HTTP authentication type.\r\n* Revised: Minor improvement regarding tamper script \"xforwardedfor.py\" (that appends a fake HTTP header `X-Forwarded-For`).\r\n* Fixed: Minor bug-fix regarding not ignoring specified injection technique(s) when `--ignore-session` or `--flush-session` options are set.\r\n* Replaced: The `--dependencies` option has been replaced with `--ignore-dependencies`, regarding ignoring all required third-party library dependencies.\r\n* Added: New option `--alert` to run host OS command(s) when injection point is found."
@@ -18031,8 +18031,8 @@
     "https://github.com/coteditor/CotEditor": {
         "created_at": "2013-04-05 14:51:28",
         "description": "Lightweight Plain-Text Editor for macOS",
-        "commit_date": "2023-11-14 09:34:17",
-        "commit_message": "Improve optioinal binding",
+        "commit_date": "2023-11-15 12:57:46",
+        "commit_message": "Merge pull request #1546 from DAnn2012/patch-18\n\nFixed typo in CHANGELOG.md - iPhoto -> iPhone",
         "release_tag": "4.6.5",
         "release_date": "2023-11-10 14:20:15",
         "release_message": "system requirements: __macOS 13__ and later\r\n\r\n\r\n### Improvements\r\n\r\n- Optimize the performance of the incompatible character scan.\r\n- [trivial] Add a tooltip to font fields in the Appearance settings pane.\r\n- [dev] Migrate the custom sort pattern view to SwiftUI.\r\n\r\n\r\n### Fixes\r\n\r\n- Fix an issue that changes in the multiple replacement definition editor did not save.\r\n- Fix an issue that the application could hang when opening a large document without line breaks.\r\n- Fix an issue that a label was not localized.\r\n"
@@ -18407,8 +18407,8 @@
     "https://github.com/pyscript/pyscript": {
         "created_at": "2022-02-21 04:55:20",
         "description": "Home Page: https://pyscript.net  Examples: https://pyscript.net/examples",
-        "commit_date": "2023-11-14 14:25:17",
-        "commit_message": "Fix #1841 - Provide a better error when input is used (#1857)",
+        "commit_date": "2023-11-15 15:00:09",
+        "commit_message": "use UTC time (#1859)",
         "release_tag": "2023.11.1",
         "release_date": "2023-11-08 13:43:08",
         "release_message": "A whole new world. Thank you to everyone who has contributed to this from-the-ground-up re-build of PyScript.\r\n\r\n<!-- Release notes generated using configuration in .github/release.yml at main -->\r\n\r\n\r\n## New Contributors\r\n* @Mr-Sunglasses made their first contribution in https://github.com/pyscript/pyscript/pull/1279\r\n* @WebReflection made their first contribution in https://github.com/pyscript/pyscript/pull/1284\r\n* @zipperer made their first contribution in https://github.com/pyscript/pyscript/pull/1307\r\n* @aneesh98 made their first contribution in https://github.com/pyscript/pyscript/pull/1332\r\n* @chenchen100 made their first contribution in https://github.com/pyscript/pyscript/pull/1292\r\n* @cnelir98 made their first contribution in https://github.com/pyscript/pyscript/pull/1375\r\n* @sfermigier made their first contribution in https://github.com/pyscript/pyscript/pull/1386\r\n* @eltociear made their first contribution in https://github.com/pyscript/pyscript/pull/1399\r\n* @MrValdez made their first contribution in https://github.com/pyscript/pyscript/pull/1410\r\n* @CameronCairns made their first contribution in https://github.com/pyscript/pyscript/pull/1409\r\n* @StefanoHiway made their first contribution in https://github.com/pyscript/pyscript/pull/1473\r\n* @bugzpodder made their first contribution in https://github.com/pyscript/pyscript/pull/1603\r\n* @shubhalgupta made their first contribution in https://github.com/pyscript/pyscript/pull/1797\r\n\r\n**Full Changelog**: https://github.com/pyscript/pyscript/compare/2023.03.1...2023.11.1"
@@ -18781,8 +18781,8 @@
     "https://github.com/WebAssembly/wabt": {
         "created_at": "2015-09-14 18:14:23",
         "description": "The WebAssembly Binary Toolkit",
-        "commit_date": "2023-11-12 20:08:51",
-        "commit_message": "wasm2c: Fix test harness UB with SIMD (#2327)",
+        "commit_date": "2023-11-15 01:25:41",
+        "commit_message": "wasm2c: Improve address abstraction for BE support (#2328)",
         "release_tag": "1.0.34",
         "release_date": "2023-10-25 02:20:46",
         "release_message": "Major changes since 1.0.33:\r\n\r\n- Parse & write custom-section annotations (#2284)\r\n- Partial wasm2c support for the threads proposal (#2233)\r\n- wasm2c support for the tail-call proposal (#2272)\r\n- Update multi-memory support to match upstream proposal (#2294)\r\n- wasm-opcodecnt renamed to wasm-stats (#2298)\r\n- wasm2c fixes for MIPS (#2274)\r\n- Support global.get in constant expressions (#2288)\r\n- Better spec-compliant parsing on some edge cases (#2247, #2248, #2251, #2252)\r\n- Improved parsing and validation for memory64 (#2253, #2255, #2256)"
@@ -19419,8 +19419,8 @@
         "release_tag": "v3.8.2",
         "release_date": "2023-11-13 09:47:51",
         "release_message": "<h2><g-emoji class=\"g-emoji\" alias=\"warning\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/26a0.png\">⚠️</g-emoji> 注意</h2>\r\n\r\n3.0 架构上和 2.0 变化较大，建议全新安装一套环境来体验。如需升级，请务必升级前进行备份，并查阅文档：[文档链接](https://kb.fit2cloud.com/?p=06638d69-f109-4333-b5bf-65b17b297ed9) \r\n\r\n# 一、安装和升级\r\n\r\n## 1.1 在线方式 ✈️\r\n\r\n仅需两步快速安装 JumpServer：\r\n\r\n1. 准备一台 4核8G （最低）且可以访问互联网的 64 位 Linux 主机；\r\n2. 以 root 用户执行如下命令一键安装 JumpServer。\r\n\r\n国内用户\r\n``` sh\r\ncurl -sSL https://resource.fit2cloud.com/jumpserver/jumpserver/releases/latest/download/quick_start.sh | bash\r\n```\r\n\r\n海外用户\r\n``` sh\r\ncurl -sSL https://github.com/jumpserver/jumpserver/releases/latest/download/quick_start.sh | bash\r\n```\r\n\r\n## 1.2 离线方式 🚢 \r\n\r\n[离线安装包下载地址](https://community.fit2cloud.com/#/download/jumpserver/v3-8-2)\r\n\r\n详细安装和升级文档请参考： [完整文档](https://docs.jumpserver.org/zh/v3/) \r\n\r\n\r\n# 二、更新日志\r\n\r\n## 2.1 功能优化 🚀 \r\n\r\n- perf: 优化发布机选择策略\r\n\r\n## 2.2 问题修复 🐛\r\n\r\n- fix: 修复 DB2 资产平台已经存在导致迁移失败的问题\r\n- fix: 修复资产节点名称（Apps）重复导致升级失败的问题\r\n- fix: 修复 Elasticsearch（6 版本）查询不到命令记录的问题\r\n- fix: 修复 MySQL 未写默认数据库导致 Web GUI 方式连接失败的问题（Chen）\r\n- fix: 修复用户使用 SSH 密钥登录失败的问题（KoKo）\r\n- fix: 修复云账号页面更新报错的问题【企业版】\r\n- fix: 修复创建工单搜索资产不显示的问题【企业版】\r\n- fix: 修复创建工单账号字段搜索后点击下拉选项时重复添加的问题【企业版】\r\n",
-        "commit_date": "2023-11-14 11:42:21",
-        "commit_message": "fix: celery事物 数据库未保存"
+        "commit_date": "2023-11-15 09:02:05",
+        "commit_message": "Merge pull request #12124 from jumpserver/pr@dev@perf_device_icon\n\nperf: 修改 tree 硬件设备的 icon"
     },
     "https://github.com/random-robbie/cve-2020-0688": {
         "created_at": "2020-02-25 23:44:16",
@@ -19712,8 +19712,8 @@
         "release_tag": "",
         "release_date": "",
         "release_message": "",
-        "commit_date": "2023-11-14 15:50:22",
-        "commit_message": "Merge tag 'pull-request-2023-11-14' of https://gitlab.com/thuth/qemu into staging\n\n* Fix s390x PV dumps in case of errors\n\n# -----BEGIN PGP SIGNATURE-----\n#\n# iQJFBAABCAAvFiEEJ7iIR+7gJQEY8+q5LtnXdP5wLbUFAmVTXR4RHHRodXRoQHJl\n# ZGhhdC5jb20ACgkQLtnXdP5wLbUzBg//ZDrzcInE59jo6zuEJiDYdqkauxiJWqdm\n# PF3AaemZdww/SZ94960BLCPLm/53L4qeNHl9F4HMoCCqfqp6gUVouc0Rh5kd8/Bn\n# 0+ND4Ni20LgKrr/10M8frVreujYhWEtILWA3Ef3HkMWGt45RB8mMwpYwmIZh6DHv\n# B45xZaiOWzXNtroGSEBO52MuWzAlbBi68iVCS8xJ/q5xOe0s6julS4EwGo8P6R0c\n# VZKlGM8KVndPPiRmG4NSyqpg91fp2p0Zo4Ol6GMSMsljvLB4aSIu0lDMR2FjreIv\n# Fjmz78CZbNmgh/7edH1+vj+P083kEGwD7j1WHq4gbFONFdP8Gp0NQjhj/Zl4HsQh\n# aCwVMuSdQmg7KEvn1wXc29kL9rBsG/5t5mSPkAzvM/kDahchtltpRxFYgcTGLhNs\n# lT4cBjXSmyL2bCc1lX4sEw3/0RZE2GTRtuvP3caJWMZAAxYuE18LstWalPV5ttqe\n# p7Xg/XRjOYlM2FGIMI9L5KR4mNKzWduvxnU/3o7qHUOEtWe9mICzCwC8UilLYbjd\n# sGRJ5KRYN2nIzqTm0K50rrXPop9zVUHRSl37/9bV9+z6mFAh6Tg4+gIdQPayTo0S\n# omRpMUMxmKkKSk1lTFWRr59sxTI+S5ANbRLeApxJsxXGCvoOzAn4nE7fxEpmTR2e\n# ocddl9Wg4+w=\n# =sFZX\n# -----END PGP SIGNATURE-----\n# gpg: Signature made Tue 14 Nov 2023 06:42:22 EST\n# gpg:                using RSA key 27B88847EEE0250118F3EAB92ED9D774FE702DB5\n# gpg:                issuer \"thuth@redhat.com\"\n# gpg: Good signature from \"Thomas Huth <th.huth@gmx.de>\" [full]\n# gpg:                 aka \"Thomas Huth <thuth@redhat.com>\" [full]\n# gpg:                 aka \"Thomas Huth <huth@tuxfamily.org>\" [full]\n# gpg:                 aka \"Thomas Huth <th.huth@posteo.de>\" [unknown]\n# Primary key fingerprint: 27B8 8847 EEE0 2501 18F3  EAB9 2ED9 D774 FE70 2DB5\n\n* tag 'pull-request-2023-11-14' of https://gitlab.com/thuth/qemu:\n  target/s390x/arch_dump: Add arch cleanup function for PV dumps\n  dump: Add arch cleanup function\n  target/s390x/dump: Remove unneeded dump info function pointer init\n\nSigned-off-by: Stefan Hajnoczi <stefanha@redhat.com>"
+        "commit_date": "2023-11-15 13:05:25",
+        "commit_message": "Merge tag 'pull-tcg-20231114' of https://gitlab.com/rth7680/qemu into staging\n\naccel/tcg: Forward probe size on to notdirty_write\naccel/tcg: Remove CF_LAST_IO\ntarget/sparc: Fix RETURN\n\n# -----BEGIN PGP SIGNATURE-----\n#\n# iQFRBAABCgA7FiEEekgeeIaLTbaoWgXAZN846K9+IV8FAmVTyVodHHJpY2hhcmQu\n# aGVuZGVyc29uQGxpbmFyby5vcmcACgkQZN846K9+IV91UAf/Sf304RJutaNX+85s\n# 2HP31heScIsrrziDvPhZJG+gD3/Xeq9aDRCNqw7C/MhIHadarJcghTVqPuTMZ8Eg\n# j3FqvSr6e+6A6VGNdg2d5CKasIYhRMHqCy94g/0fVWtnV9n/2cJPS6zIWGlxl2dT\n# tJ9AK9IbkLo9b7jifUztTsllhzU8rMvxYznxr6dynJ/3V10gtcAIsc41BeHoLzob\n# e8wZtuwNUtgiHBGhfEnpspK+oJaPKo2Qy1zPdBiuLadUhl066JdXeOKN9XgCuRyR\n# 024dOqVwZ+UBQhcmUdJuOjAnsnJJUx29TKtmOOoTugrq+mE1xybSBiiih6EELQlj\n# AYq6jg==\n# =D4Wj\n# -----END PGP SIGNATURE-----\n# gpg: Signature made Tue 14 Nov 2023 14:24:10 EST\n# gpg:                using RSA key 7A481E78868B4DB6A85A05C064DF38E8AF7E215F\n# gpg:                issuer \"richard.henderson@linaro.org\"\n# gpg: Good signature from \"Richard Henderson <richard.henderson@linaro.org>\" [full]\n# Primary key fingerprint: 7A48 1E78 868B 4DB6 A85A  05C0 64DF 38E8 AF7E 215F\n\n* tag 'pull-tcg-20231114' of https://gitlab.com/rth7680/qemu:\n  target/sparc: Fix RETURN\n  accel/tcg: Forward probe size on to notdirty_write\n  accel/tcg: Remove CF_LAST_IO\n\nSigned-off-by: Stefan Hajnoczi <stefanha@redhat.com>"
     },
     "https://github.com/Clayeee/Win-Logs-Parse-tool": {
         "created_at": "2019-02-26 03:25:10",
@@ -19739,8 +19739,8 @@
         "release_tag": "v0.107.41",
         "release_date": "2023-11-13 16:04:41",
         "release_message": "Bugs are as certain as the change of the seasons :calendar:.  However, in this release we have not only fixed quite a few of them, but also added some features that will make it easier to configure AdGuard Home and protect it from DDoS attacks!\r\n\r\n\r\n\r\n##  Acknowledgements\r\n\r\nA special thanks to our open-source contributor, @TimTheBig, as well as to everyone who filed and inspected issues, added translations, and helped us test this release!\r\n\r\n\r\n\r\n##  Full changelog\r\n\r\nSee also the [v0.107.41 GitHub milestone][ms-v0.107.41].\r\n\r\n   ###  Security\r\n\r\n *  Go version has been updated to prevent the possibility of exploiting the CVE-2023-45283 and CVE-2023-45284 Go vulnerabilities fixed in [Go 1.20.11][go-1.20.11].\r\n\r\n   ###  Added\r\n\r\n *  Ability to specify subnet lengths for IPv4 and IPv6 addresses, used for rate limiting requests, in the configuration file (#6368).\r\n\r\n *  Ability to specify multiple domain specific upstreams per line, e.g.  `[/domain1/../domain2/]upstream1 upstream2 .. upstreamN` (#4977).\r\n\r\n   ###  Changed\r\n\r\n *  Increased the height of the ready-to-use filter lists dialog (#6358).\r\n\r\n *  Improved logging of authentication failures (#6357).\r\n\r\n  ####  Configuration changes\r\n\r\n *  New properties `dns.ratelimit_subnet_len_ipv4` and `dns.ratelimit_subnet_len_ipv6` have been added to the configuration file (#6368).\r\n\r\n   ###  Fixed\r\n\r\n *  Schedule timezone not being sent (#6401).\r\n\r\n *  Average request processing time calculation (#6220).\r\n\r\n *  Redundant truncation of long client names in the Top Clients table (#6338).\r\n\r\n *  Scrolling column headers in the tables (#6337).\r\n\r\n *  `$important,dnsrewrite` rules not overriding allowlist rules (#6204).\r\n\r\n *  Dark mode DNS rewrite background (#6329).\r\n\r\n *  Issues with QUIC and HTTP/3 upstreams on Linux (#6335).\r\n\r\n[go-1.20.11]:   https://groups.google.com/g/golang-announce/c/4tU8LZfBFkY/m/d-jSKR_jBwAJ\r\n[ms-v0.107.41]: https://github.com/AdguardTeam/AdGuardHome/milestone/76?closed=1\r\n",
-        "commit_date": "2023-11-14 14:08:53",
-        "commit_message": "Pull request 2073: add-contributing\n\nSquashed commit of the following:\n\ncommit 61dc1b63fe8ec124fa9a600a39a5e6b31ca91643\nMerge: e6dc270b3 f44faa9be\nAuthor: Ainar Garipov <A.Garipov@AdGuard.COM>\nDate:   Tue Nov 14 17:01:07 2023 +0300\n\n    Merge branch 'master' into add-contributing\n\ncommit e6dc270b3f39445589fea5772f5c13183c1692fb\nAuthor: Ainar Garipov <A.Garipov@AdGuard.COM>\nDate:   Mon Nov 13 13:43:59 2023 +0300\n\n    all: add contributing"
+        "commit_date": "2023-11-15 16:27:13",
+        "commit_message": "Pull request 2065: 6369-ratelimit-settings-ui\n\nCloses #6369.\nCo-authored-by: IldarKamalov <ik@adguard.com>\n\nSquashed commit of the following:\n\ncommit efc824667a88765d5a16984fd17ecda2559f2b1e\nAuthor: Stanislav Chzhen <s.chzhen@adguard.com>\nDate:   Wed Nov 15 19:10:47 2023 +0300\n\n    all: imp docs\n\ncommit 9ec59b59000f005006ea231071329a586d9889ac\nAuthor: Stanislav Chzhen <s.chzhen@adguard.com>\nDate:   Wed Nov 15 17:21:03 2023 +0300\n\n    dnsforward: imp err msg\n\ncommit d9710dfc1dcf74d5ee8386b053d7180316f21bce\nAuthor: Stanislav Chzhen <s.chzhen@adguard.com>\nDate:   Wed Nov 15 15:33:59 2023 +0300\n\n    all: upd chlog\n\ncommit 29e868b93b15cfce5faed4d0c07b16decbce52f9\nMerge: 1c3aec9f1 ebb06a583\nAuthor: Stanislav Chzhen <s.chzhen@adguard.com>\nDate:   Wed Nov 15 15:26:32 2023 +0300\n\n    Merge branch 'master' into 6369-ratelimit-settings-ui\n\ncommit 1c3aec9f1478f71afa4d0aa9ba1c454e9d98b8db\nAuthor: Stanislav Chzhen <s.chzhen@adguard.com>\nDate:   Tue Nov 14 21:21:22 2023 +0300\n\n    dnsforward: imp docs\n\ncommit 486bf86e5a2b51b6014a231386337a2d1e945c23\nAuthor: Ildar Kamalov <ik@adguard.com>\nDate:   Mon Nov 13 09:57:21 2023 +0300\n\n    fix linter\n\ncommit aec088f233737fdfa0e7086148ceb79df0d2e39a\nAuthor: Ildar Kamalov <ik@adguard.com>\nDate:   Sun Nov 12 16:13:46 2023 +0300\n\n    client: validate rate limit subnets\n\ncommit d4ca4d3a604295cdfaae54e6e461981233eabf3e\nAuthor: Stanislav Chzhen <s.chzhen@adguard.com>\nDate:   Fri Nov 10 20:08:44 2023 +0300\n\n    dnsforward: imp code\n\ncommit 5c11a1ef5c6fcc786d8496b14b9b16d1de1708cd\nAuthor: Stanislav Chzhen <s.chzhen@adguard.com>\nDate:   Fri Nov 10 15:07:56 2023 +0300\n\n    all: ratelimit settings"
     },
     "https://github.com/HongLuDianXue/BaiLu-SED-Tool": {
         "created_at": "",
@@ -20495,11 +20495,11 @@
     "https://github.com/Eugeny/tabby": {
         "created_at": "2016-12-23 09:06:10",
         "description": "A terminal for a more modern age",
-        "release_tag": "v1.0.201",
-        "release_date": "2023-10-06 14:24:08",
-        "release_message": "## Fixes\r\n\r\n- **terminal**: fixed the issue where input could be invisible with the WebGL frontend [#9066](https://github.com/Eugeny/tabby/pull/9066) ([Clem Fern](https://github.com/Eugeny/tabby/commit/7d5128a8ce373793a930a4b3167920a0b8bd9f00))\r\n- 169aded: fixed #9009 - allow color schemes per serial connection\r\n\r\n## Improvements\r\n\r\n- **core**: prevent editing selection on keydown in profile selector [#8960](https://github.com/Eugeny/tabby/pull/8960) ([Clem Fern](https://github.com/Eugeny/tabby/commit/651861cd4ace8e1d39a0ac8677e93b9ca542e01e))\r\n- 8bc2375: Add \"show secret\" functionality to vault (Sibren van Setten) [#8897](https://github.com/Eugeny/tabby/pull/8897)\r\n- a17da4b: #8907 Fix interactive auth being not selectable in SSH (Sibren van Setten) [#8911](https://github.com/Eugeny/tabby/pull/8911)\r\n- 04b53ab: clear service message on connection succeeds only (Clem) [#8918](https://github.com/Eugeny/tabby/pull/8918)\r\n- 6ebfccd: added catppuccin theme (Jakub Z) [#9008](https://github.com/Eugeny/tabby/pull/9008)\r\n- d70be3a: added possibility to set config file path in environment file (Nathaniel Walser) [#9048](https://github.com/Eugeny/tabby/pull/9048)\r\n- bb27314: bumped xterm to 5.3.0",
-        "commit_date": "2023-11-10 17:01:31",
-        "commit_message": "Revert \"fixes\"\n\nThis reverts commit 4c0231cd67822dfc368cbe0000ab884dd25f898f."
+        "release_tag": "v1.0.204",
+        "release_date": "2023-11-15 11:37:48",
+        "release_message": "## Fixes\r\n\r\n- 98719aa: fix native modules rebuild on macos (Clem Fern) [#9232](https://github.com/Eugeny/tabby/pull/9232)\r\n- 5d1a35a: Show custom profiles in default profiles selection (Jude Cooray) [#9082](https://github.com/Eugeny/tabby/pull/9082)\r\n- f3196ac: Refresh default profile selection when profiles are modified (Jude Cooray) [#9084](https://github.com/Eugeny/tabby/pull/9084)\r\n\r\n## Changes\r\n\r\n- 0e8164f: Add Noctis colors plugin to themes section (Aaron Huggins) [#9098](https://github.com/Eugeny/tabby/pull/9098)\r\n- 26d6d14: updated locales ",
+        "commit_date": "2023-11-15 12:25:57",
+        "commit_message": "Merge pull request #9234 from moemoechu/master"
     },
     "https://github.com/matthewgao/F5-steganography": {
         "created_at": "2014-08-13 07:40:49",
@@ -20611,8 +20611,8 @@
         "release_tag": "v2.23.0",
         "release_date": "2023-10-18 15:52:16",
         "release_message": "## ✨ Features\r\n* Add dry-run support for publish command (#11067)\r\n* Add `COMPOSE_ENV_FILES` env variable to pass a list of env files (#11061)\r\n* Add `sync+restart` action to `compose watch` (#11095)\r\n\r\n## 🐛 Fixes\r\n* Truncate `compose ps` output to align with Docker CLI by default and introduce `--no-trunc` to keep the previous behaviour (#11038)\r\n* Update the watch warning message when no services with a develop section  (#11047)\r\n* Include image name in inspect error message (#11006)\r\n* Make hashes between `up` and `configure` consistent (#11010)\r\n* Warn user remote resource is disabled (#11051)\r\n* Enable profile when `down` is ran with explicit service names (#11108)\r\n* Check that the pull policy provided is a valid one (#11109)\r\n\r\n## 🔧 Internal\r\n* Align OCI artifacts with upstream guidance (#11049)\r\n* remove cucumber tests as we haven't added new ones for a while (#11076)\r\n* remove refrecence docs generation (#11085)\r\n\r\n## What's Changed\r\n* build(deps): bump google.golang.org/grpc from 1.58.1 to 1.58.2 by @dependabot in https://github.com/docker/compose/pull/11036\r\n* truncate command by default, introduce --no-trunc flag to get the full command by @ndeloof in https://github.com/docker/compose/pull/11038\r\n* Make tests verbose by @rumpl in https://github.com/docker/compose/pull/11045\r\n* update the watch warning message when no services with a develop section by @glours in https://github.com/docker/compose/pull/11047\r\n* Align OCI artifacts with upstream guidance by @neersighted in https://github.com/docker/compose/pull/11049\r\n* Include image name in error message by @mattwalo32 in https://github.com/docker/compose/pull/11006\r\n* deps: remove deprecated github.com/pkg/errors by @mmorel-35 in https://github.com/docker/compose/pull/11042\r\n* Make hashes between `up` and `configure` consistent by @mattwalo32 in https://github.com/docker/compose/pull/11010\r\n* add dry-run support for publish command by @glours in https://github.com/docker/compose/pull/11067\r\n* add support of COMPOSE_ENV_FILES env variable to pass a list of env files by @glours in https://github.com/docker/compose/pull/11061\r\n* remove cucumber tests as we haven't added new ones for a while by @glours in https://github.com/docker/compose/pull/11076\r\n* remove refrecence docs generation by @glours in https://github.com/docker/compose/pull/11085\r\n* build(deps): bump golang.org/x/sync from 0.3.0 to 0.4.0 by @dependabot in https://github.com/docker/compose/pull/11068\r\n* build(deps): bump google.golang.org/grpc from 1.58.2 to 1.59.0 by @dependabot in https://github.com/docker/compose/pull/11105\r\n* build(deps): bump github.com/google/go-cmp from 0.5.9 to 0.6.0 by @dependabot in https://github.com/docker/compose/pull/11083\r\n* build(deps): bump github.com/containerd/containerd from 1.7.6 to 1.7.7 by @dependabot in https://github.com/docker/compose/pull/11078\r\n* add sync+restart action to watch attribute by @glours in https://github.com/docker/compose/pull/11095\r\n* warn user remote resource is disabled by @ndeloof in https://github.com/docker/compose/pull/11051\r\n* enable profile when down is ran with explicit service names by @ndeloof in https://github.com/docker/compose/pull/11108\r\n* check that the pull policy provided is a valid one by @glours in https://github.com/docker/compose/pull/11109\r\n\r\n## New Contributors\r\n* @neersighted made their first contribution in https://github.com/docker/compose/pull/11049\r\n* @mattwalo32 made their first contribution in https://github.com/docker/compose/pull/11006\r\n* @mmorel-35 made their first contribution in https://github.com/docker/compose/pull/11042\r\n\r\n**Full Changelog**: https://github.com/docker/compose/compare/v2.22.0...v2.23.0",
-        "commit_date": "2023-11-13 21:16:33",
-        "commit_message": "bump golang to version 1.21.4\n\nSigned-off-by: Guillaume Lours <705411+glours@users.noreply.github.com>"
+        "commit_date": "2023-11-15 20:39:16",
+        "commit_message": "Strip project prefix from docker-compose up output\n\nSigned-off-by: Nicolas De Loof <nicolas.deloof@gmail.com>"
     },
     "https://github.com/microsoft/etl2pcapng": {
         "created_at": "2019-09-16 23:48:38",
@@ -21573,8 +21573,8 @@
         "release_tag": "1.3.2",
         "release_date": "2021-01-31 09:19:32",
         "release_message": "support for some VPNs\r\nfixes",
-        "commit_date": "2023-11-13 21:10:30",
-        "commit_message": "Update README.md"
+        "commit_date": "2023-11-16 00:33:20",
+        "commit_message": "Merge pull request #742 from robertdavidgraham/integration\n\nIVRE integration"
     },
     "https://github.com/projectdiscovery/asnmap": {
         "created_at": "2022-09-29 01:19:40",
@@ -21676,11 +21676,11 @@
     "https://github.com/Textualize/rich": {
         "created_at": "2019-11-10 15:28:09",
         "description": "Rich is a Python library for rich text and beautiful formatting in the terminal.",
-        "release_tag": "v13.5.3",
-        "release_date": "2023-09-17 15:51:58",
-        "release_message": "## [13.5.3] - 2023-09-17\r\n\r\n### Fixed\r\n\r\n- Markdown table rendering issue with inline styles and links https://github.com/Textualize/rich/issues/3115\r\n- Fix Markdown code blocks on a light background https://github.com/Textualize/rich/issues/3123\r\n",
-        "commit_date": "2023-11-14 10:03:54",
-        "commit_message": "Fix double-width characters disappearing when wrapping (#3180)\n\n* Update docstring for `Text.wrap`s width parameter to indicate that it's referring to the number of *single-width* characters.\r\n\r\nAlso a small addition to the gitignore file.\r\n\r\n* Working on double width wrapping fixes\r\n\r\n* Chop cells to fit to width\r\n\r\n* Fix folding when theres already text on line\r\n\r\n* Update wrapping logic to fix issues with CJK charcters disappearing when the \"fold\" location sat *within* a double-width character. Ensure we retain browser logic of: if there is no space on the current line, move to a new line, and if theres not enough space on the entire new line, fold the text over multiple lines at appropriate locations.\r\n\r\n* Remove old TODO comments\r\n\r\n* Add regression test note\r\n\r\n* Rename function to avoid breaking change\r\n\r\n* Update CHANGELOG\r\n\r\n* Remove old comment that is no longer relevant\r\n\r\n* Cover off some wrapping edge cases\r\n\r\n* Adding docstrings to tests explaining their purpose\r\n\r\n* Renaming a local, function scope function alias\r\n\r\n* Update rich/_wrap.py\r\n\r\nCo-authored-by: Rodrigo Girão Serrão <5621605+rodrigogiraoserrao@users.noreply.github.com>\r\n\r\n* PR feedback\r\n\r\n* Testing wrapping with trailing and leading whitespace\r\n\r\n* Improve docstring wording\r\n\r\n---------\r\n\r\nCo-authored-by: Rodrigo Girão Serrão <5621605+rodrigogiraoserrao@users.noreply.github.com>"
+        "release_tag": "v13.7.0",
+        "release_date": "2023-11-15 16:33:44",
+        "release_message": "## [13.7.0] - 2023-11-15\r\n\r\n### Added\r\n\r\n- Adds missing parameters to Panel.fit https://github.com/Textualize/rich/issues/3142\r\n\r\n### Fixed\r\n\r\n- Some text goes missing during wrapping when it contains double width characters https://github.com/Textualize/rich/issues/3176\r\n- Ensure font is correctly inherited in exported HTML https://github.com/Textualize/rich/issues/3104\r\n- Fixed typing for `FloatPrompt`.\r\n",
+        "commit_date": "2023-11-15 16:31:56",
+        "commit_message": "Merge pull request #3202 from Textualize/bump1370\n\nnew version"
     },
     "https://github.com/KaTeX/KaTeX": {
         "created_at": "2013-07-05 09:01:54",
@@ -21846,7 +21846,7 @@
         "release_tag": "",
         "release_date": "",
         "release_message": "",
-        "commit_date": "2023-11-10 14:40:08",
+        "commit_date": "2023-11-15 21:58:37",
         "commit_message": "Commit list"
     },
     "https://github.com/ZeddYu/TLS-poison": {
@@ -22078,8 +22078,8 @@
         "release_tag": "rel/2.21.1",
         "release_date": "2023-10-24 06:56:51",
         "release_message": "This patch release contains only the fix of a `log4j-jcl` bug that prevents it from connecting with `commons-logging`.\r\n\r\nThe Log4j 2.21.1 API, as well as the other artifacts, maintains binary compatibility with the previous release.\r\n\r\nApache Log4j 2.21.1 requires Java 8 to run.\r\nThe build requires JDK 11 and generates reproducible binaries.\r\n\r\nFor complete information on Apache Log4j 2, including instructions on how to submit bug reports, patches, get support, or suggestions for improvement, see [the Apache Log4j 2 website](http://logging.apache.org/log4j/2.x/).\r\n\r\n\r\n### Fixed\r\n\r\n* Fixes the Apache Commons Logging (JCL) bridge: `log4j-jcl`. (#1865)",
-        "commit_date": "2023-11-14 11:08:21",
-        "commit_message": "Update `co.elastic.clients:elasticsearch-java` to version `8.11.1` (#1968)"
+        "commit_date": "2023-11-15 21:04:51",
+        "commit_message": "Use @BaselineIgnore instead of packages exclusions"
     },
     "https://github.com/phpmyadmin/phpmyadmin": {
         "created_at": "2012-01-19 13:21:52",
@@ -22087,8 +22087,8 @@
         "release_tag": "RELEASE_5_2_1",
         "release_date": "2023-02-08 02:37:55",
         "release_message": "phpMyAdmin release 5.2.1\r\n\r\n* [Download](https://www.phpmyadmin.net/files/5.2.1/)\r\n* [Release notes](https://www.phpmyadmin.net/files/5.2.1/)\r\n* [Fixed issues](https://github.com/phpmyadmin/phpmyadmin/issues?q=is%3Aclosed+is%3Aissue+milestone%3A5.2.1)\r\n",
-        "commit_date": "2023-11-14 23:09:36",
-        "commit_message": "Merge pull request #18793 from MauricioFauth/theme-global\n\nRemove theme global variable"
+        "commit_date": "2023-11-15 22:51:22",
+        "commit_message": "Merge branch 'QA_5_2'\n\nSigned-off-by: Maurício Meneghini Fauth <mauricio@fauth.dev>"
     },
     "https://github.com/etcd-io/etcd": {
         "created_at": "2013-07-06 21:57:21",
@@ -22096,8 +22096,8 @@
         "release_tag": "v3.5.10",
         "release_date": "2023-10-27 10:42:58",
         "release_message": "Please check out [CHANGELOG](https://github.com/etcd-io/etcd/blob/main/CHANGELOG/CHANGELOG-3.5.md) for a full list of changes. And make sure to read [upgrade guide](https://github.com/etcd-io/website/blob/main/content/en/docs/v3.5/upgrades/upgrade_3_5.md) before upgrading etcd (there may be breaking changes).\r\n\r\nFor installation guides, please check out [play.etcd.io](http://play.etcd.io) and [operating etcd](https://github.com/etcd-io/etcd/tree/master/Documentation#operating-etcd-clusters). Latest support status for common architectures and operating systems can be found at [supported platforms](https://github.com/etcd-io/website/blob/main/content/en/docs/v3.5/op-guide/supported-platform.md).\r\n\r\n###### Linux\r\n\r\n```bash\r\nETCD_VER=v3.5.10\r\n\r\n# choose either URL\r\nGOOGLE_URL=https://storage.googleapis.com/etcd\r\nGITHUB_URL=https://github.com/etcd-io/etcd/releases/download\r\nDOWNLOAD_URL=${GOOGLE_URL}\r\n\r\nrm -f /tmp/etcd-${ETCD_VER}-linux-amd64.tar.gz\r\nrm -rf /tmp/etcd-download-test && mkdir -p /tmp/etcd-download-test\r\n\r\ncurl -L ${DOWNLOAD_URL}/${ETCD_VER}/etcd-${ETCD_VER}-linux-amd64.tar.gz -o /tmp/etcd-${ETCD_VER}-linux-amd64.tar.gz\r\ntar xzvf /tmp/etcd-${ETCD_VER}-linux-amd64.tar.gz -C /tmp/etcd-download-test --strip-components=1\r\nrm -f /tmp/etcd-${ETCD_VER}-linux-amd64.tar.gz\r\n\r\n/tmp/etcd-download-test/etcd --version\r\n/tmp/etcd-download-test/etcdctl version\r\n/tmp/etcd-download-test/etcdutl version\r\n```\r\n\r\n```bash\r\n# start a local etcd server\r\n/tmp/etcd-download-test/etcd\r\n\r\n# write,read to etcd\r\n/tmp/etcd-download-test/etcdctl --endpoints=localhost:2379 put foo bar\r\n/tmp/etcd-download-test/etcdctl --endpoints=localhost:2379 get foo\r\n```\r\n\r\n###### macOS (Darwin)\r\n\r\n```bash\r\nETCD_VER=v3.5.10\r\n\r\n# choose either URL\r\nGOOGLE_URL=https://storage.googleapis.com/etcd\r\nGITHUB_URL=https://github.com/etcd-io/etcd/releases/download\r\nDOWNLOAD_URL=${GOOGLE_URL}\r\n\r\nrm -f /tmp/etcd-${ETCD_VER}-darwin-amd64.zip\r\nrm -rf /tmp/etcd-download-test && mkdir -p /tmp/etcd-download-test\r\n\r\ncurl -L ${DOWNLOAD_URL}/${ETCD_VER}/etcd-${ETCD_VER}-darwin-amd64.zip -o /tmp/etcd-${ETCD_VER}-darwin-amd64.zip\r\nunzip /tmp/etcd-${ETCD_VER}-darwin-amd64.zip -d /tmp && rm -f /tmp/etcd-${ETCD_VER}-darwin-amd64.zip\r\nmv /tmp/etcd-${ETCD_VER}-darwin-amd64/* /tmp/etcd-download-test && rm -rf mv /tmp/etcd-${ETCD_VER}-darwin-amd64\r\n\r\n/tmp/etcd-download-test/etcd --version\r\n/tmp/etcd-download-test/etcdctl version\r\n/tmp/etcd-download-test/etcdutl version\r\n```\r\n\r\n###### Docker\r\n\r\netcd uses [`gcr.io/etcd-development/etcd`](https://gcr.io/etcd-development/etcd) as a primary container registry, and [`quay.io/coreos/etcd`](https://quay.io/coreos/etcd) as secondary.\r\n\r\n```bash\r\nrm -rf /tmp/etcd-data.tmp && mkdir -p /tmp/etcd-data.tmp && \\\r\n  docker rmi gcr.io/etcd-development/etcd:v3.5.10 || true && \\\r\n  docker run \\\r\n  -p 2379:2379 \\\r\n  -p 2380:2380 \\\r\n  --mount type=bind,source=/tmp/etcd-data.tmp,destination=/etcd-data \\\r\n  --name etcd-gcr-v3.5.10 \\\r\n  gcr.io/etcd-development/etcd:v3.5.10 \\\r\n  /usr/local/bin/etcd \\\r\n  --name s1 \\\r\n  --data-dir /etcd-data \\\r\n  --listen-client-urls http://0.0.0.0:2379 \\\r\n  --advertise-client-urls http://0.0.0.0:2379 \\\r\n  --listen-peer-urls http://0.0.0.0:2380 \\\r\n  --initial-advertise-peer-urls http://0.0.0.0:2380 \\\r\n  --initial-cluster s1=http://0.0.0.0:2380 \\\r\n  --initial-cluster-token tkn \\\r\n  --initial-cluster-state new \\\r\n  --log-level info \\\r\n  --logger zap \\\r\n  --log-outputs stderr\r\n\r\ndocker exec etcd-gcr-v3.5.10 /usr/local/bin/etcd --version\r\ndocker exec etcd-gcr-v3.5.10 /usr/local/bin/etcdctl version\r\ndocker exec etcd-gcr-v3.5.10 /usr/local/bin/etcdutl version\r\ndocker exec etcd-gcr-v3.5.10 /usr/local/bin/etcdctl endpoint health\r\ndocker exec etcd-gcr-v3.5.10 /usr/local/bin/etcdctl put foo bar\r\ndocker exec etcd-gcr-v3.5.10 /usr/local/bin/etcdctl get foo\r\n```\r\n",
-        "commit_date": "2023-11-13 12:00:32",
-        "commit_message": "Merge pull request #16930 from sharathsivakumar/shsi/bump_deps_8\n\ndependency: bump go.opentelemetry.io/contrib/instrumentation/google.g…"
+        "commit_date": "2023-11-15 10:52:17",
+        "commit_message": "Merge pull request #16797 from siyuanfoundation/metrics\n\netcdserver: add metric counters for livez/readyz health checks."
     },
     "https://github.com/travist/jsencrypt": {
         "created_at": "2013-02-15 22:39:49",
@@ -22238,7 +22238,7 @@
         "release_tag": "v4.2.1",
         "release_date": "2023-11-01 12:02:45",
         "release_message": "Please see the file [NEWS](https://github.com/upx/upx/blob/master/NEWS) for a detailed list of changes.\r\n\r\nNote: all versions are functionally equivalent, i.e. each version can handle **all** executable formats, so you only need the file that runs on your host OS.\r\n\r\nSecurity/VirusTotal links are listed in the pinned issue https://github.com/upx/upx/issues/437\r\n\r\n| Asset / File | Description / Host OS |\r\n| --- | --- |\r\n| [upx-4.2.1-amd64_linux.tar.xz](https://github.com/upx/upx/releases/download/v4.2.1/upx-4.2.1-amd64_linux.tar.xz) | UPX - Linux version |\r\n| upx-4.2.1-arm64_linux.tar.xz | UPX - Linux version |\r\n| upx-4.2.1-armeb_linux.tar.xz | UPX - Linux version |\r\n| upx-4.2.1-arm_linux.tar.xz | UPX - Linux version |\r\n| upx-4.2.1-dos.zip | UPX - DOS version |\r\n| upx-4.2.1-i386_linux.tar.xz | UPX - Linux version |\r\n| upx-4.2.1-mipsel_linux.tar.xz | UPX - Linux version |\r\n| upx-4.2.1-mips_linux.tar.xz | UPX - Linux version |\r\n| upx-4.2.1-powerpc64le_linux.tar.xz | UPX - Linux version |\r\n| upx-4.2.1-powerpc_linux.tar.xz | UPX - Linux version |\r\n| [upx-4.2.1-src.tar.xz](https://github.com/upx/upx/releases/download/v4.2.1/upx-4.2.1-src.tar.xz) | UPX - **source code tarball** |\r\n| upx-4.2.1-win32.zip | UPX - X86 Win32 version |\r\n| [upx-4.2.1-win64.zip](https://github.com/upx/upx/releases/download/v4.2.1/upx-4.2.1-win64.zip)  | UPX - X64 Win64 version |",
-        "commit_date": "2023-11-14 18:15:34",
+        "commit_date": "2023-11-15 12:06:29",
         "commit_message": "CI updates"
     },
     "https://github.com/jas502n/xxl-job": {
@@ -22265,8 +22265,8 @@
         "release_tag": "",
         "release_date": "",
         "release_message": "",
-        "commit_date": "2023-10-07 19:15:58",
-        "commit_message": "Merge pull request #408 from pcrow/master\n\nFix transparent mode in a multi-stage chain"
+        "commit_date": "2023-11-15 21:02:21",
+        "commit_message": "Cleanup error checking logic in bind_peer() (#412)\n\nThanks for the cleanup!"
     },
     "https://github.com/NS-Sp4ce/TongDaOA-Fake-User": {
         "created_at": "2020-04-22 07:14:13",
@@ -22457,7 +22457,7 @@
         "release_tag": "",
         "release_date": "",
         "release_message": "",
-        "commit_date": "2023-11-13 07:54:38",
+        "commit_date": "2023-11-15 07:55:53",
         "commit_message": "Add files via upload"
     },
     "https://github.com/LordNoteworthy/al-khaser": {
@@ -22486,5 +22486,30 @@
         "release_message": "This release fixes an issue with the drivers loading on recent Windows versions. \r\n\r\nFor this release we make available the old \"mini\" pmem imager based on the old 1.6 branch. This imager is very simple - it can only make raw images. The AFF4 based imager may be back in the future but for now we can produce RAW images.\r\n\r\nWe started to distribute Winpmem releases directly from this project as it is now separated from the Rekall project (which has been discontinued).\r\n\r\nThe new drivers implement Fast IO mode so should be faster than before.\r\n\r\n## Thanks\r\n\r\nWe would like to thank Emre Tinaztepe and Mehmet GÖKSU at Binalyze as well as Viviane Zwanger for making this release possible.",
         "commit_date": "2023-09-10 14:13:36",
         "commit_message": "Winpmem Update (#49)\n\n* Add files via upload\r\n\r\n* Delete pci.c\r\n\r\n* Delete pci.h\r\n\r\n* Delete pte_mmap_windows.c\r\n\r\n* Delete pte_mmap_windows.h\r\n\r\n* Delete betatest.txt\r\n\r\n* Rename CHANGELOG.txt to CHANGELOG.md\r\n\r\n* version 3.0.1, sorry for screwing tabs & spaces\r\n\r\n* Sorry for screwing the tabs and spaces. Common consent seem to be spaces nowadays, so everything is spaces now. All files end with a line end. \r\n* Important fixing of several logical checks (some of them leading to a sort of overprotection that disabled methods in Winpmem for no reason). More safeguarding against obvious input mistakes (such as handing over 0 addresses) when using ioctl codes programmatically. This was done after it happened to myself a few times when testing. \r\n* More sanity checking when trying to restore the rogue pte page. \r\n* This is almost a total rewrite. My former idea to increase version number to just 2.0.2 is ridiculous. It's 3.0.1 now, and considered an early **alpha** version that might still have bugs. Make no mistake, stability and reliability was significantly increased over the old version.\r\n\r\n* update changelog\r\n\r\n* update version info\r\n\r\n* update version info\r\n\r\n* Fix spelling\r\n\r\n* bugfixes and large pages for reverse query\r\n\r\n* important bugfixes\r\n* large page support added in PTE parsing for reverse query.\r\n\r\n* more updates\r\n\r\n* minor spelling\r\n\r\n* remove duplicate variant2\r\n\r\n* Linux x64 Linpmem version, initial\r\n\r\nEarly version, really please report errors or feature enhancements.\r\n\r\n* minor updates\r\n\r\n* update readme.md and updates.md\r\n\r\n* correct old readme\r\n\r\n* Update UPDATES.md\r\n\r\n* Minor docs update\r\n\r\n* secure boot / signing driver\r\n\r\n* Update CHANGELOG.md\r\n\r\n* Delete LinPmem directory\r\n\r\nDelete Linpmem because it was moved to its own repo (https://github.com/Velocidex/Linpmem).\r\n\r\n* Add Linpmem hint.\r\n\r\nAdd the Linux version hint."
+    },
+    "https://github.com/P4ck/Emergency/blob/master/linux.sh": {
+        "created_at": "",
+        "description": "",
+        "release_tag": "",
+        "release_date": "",
+        "release_message": ""
+    },
+    "https://github.com/xaoyaoo/PyWxDump": {
+        "created_at": "2023-08-21 14:54:18",
+        "description": "SharpWxDump的Python语言版。微信客户端取证：获取用户个人信息(昵称/账号/手机/邮箱/数据库密钥(用来解密聊天记录))；数据库读取、解密脚本；聊天记录查看工具。支持多账户信息获取，支持所有微信版本。",
+        "commit_date": "2023-11-15 08:17:50",
+        "commit_message": "添加版本描述",
+        "release_tag": "v2.2.6",
+        "release_date": "2023-11-15 08:20:42",
+        "release_message": "[Auto Release] Update PyWxDump"
+    },
+    "https://github.com/Pizz33/Qianji": {
+        "created_at": "2023-09-22 09:15:26",
+        "description": "千机-红队免杀木马自动生成器  Bypass defender、火绒、360等国内主流杀软 随机加密混淆shellcode快速生成免杀马",
+        "commit_date": "2023-11-15 04:40:29",
+        "commit_message": "更新 README.md",
+        "release_tag": "Qianji_BypassAV-sandbox-20231115",
+        "release_date": "2023-11-15 03:36:34",
+        "release_message": "`ae0fc48e3f46acc7a25de7911403ac6b`"
     }
 }
