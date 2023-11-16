@@ -120,15 +120,13 @@ def yaml2json(path, encoding="utf8"):
 
 
 def parse_len(x, y):
-    x = x.replace("<br>", "")
-    x = re.sub(r"\s", " ", x)
-    x = re.sub(r"\!\[.*?\]\(.*?\)", "", x)
-    x = re.sub(r"\[.*?\]\(.*?\)", "", x)
-
     def chr_len2(s):
         return int((len(s.encode("utf-8")) - len(s)) / 2 + len(s))
-
     x = x if x else ""
+    x = x.replace("<br>", "")
+    x = re.sub(r"\s+", " ", x)
+    x = re.sub(r"\!\[.*?\]\(.*?\)", "", x)
+    x = re.sub(r"\[.*?\]\(.*?\)", "", x)
     x = re.sub(r"<[^>]+>", "", x)
     x = x.replace("`", "")[:180]
     s = ""
