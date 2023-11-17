@@ -188,7 +188,7 @@ def main():
             continue
         if url in data_b:
             continue
-        print(f"[{count_i}] get {url}")
+        # print(f"[{count_i}] get {url}")
         try:
             author, repo = url[19:].split("/", 1)
             item = {}
@@ -261,7 +261,7 @@ def main():
     commits = []
     releases = []
     for url in data:
-        print(f"[to_md] {url}")
+        # print(f"[to_md] {url}")
         try:
             _, repo = url[19:].split("/", 1)
             item = data[url]
