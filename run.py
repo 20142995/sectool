@@ -174,6 +174,8 @@ def main():
     def parse_dict(dic):
         for k, v in dic.items():
             if isinstance(v, list):
+                if k in ['未分类']:
+                    continue
                 urls.extend(v)
             else:
                 parse_dict(v)
