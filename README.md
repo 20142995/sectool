@@ -1,4 +1,4 @@
-# 更新于 2023-11-21 08:37:38
+# 更新于 2023-11-22 08:38:11
 
 ## 近15天release更新记录
 | 更新时间 | 项目名称 | 版本 | 更新内容 |
@@ -67,37 +67,47 @@
 |2023-11-08 09:31:17|[ghauri](https://github.com/r0oth3x49/ghauri)|1.2.8|### Fixes: - fixed issue #110 - fixed<br> issue with payload encoding when inje<br>ction is found in cookies.|
 |2023-11-07 16:10:39|[OneScan](https://github.com/vaycore/OneScan)|v1.4.0|1.4.0 版本发布，版本更新内容如下 ### <br>新增 - 新增 Payload Processing 开关，用<br>于控制 Payload Processing 功能的启用与<br>禁用 - 数据看板的 From 字段新增 Process<br> 来源显示（表示 Payload Processing 处<br>理后的数据包） ### 优化 - 增强 Payload <br>Processing |
 |2023-11-07 15:45:45|[soapui](https://github.com/SmartBear/soapui)|v5.7.2|SoapUI release 5.7.2 (GA 11/07/2023) <br>      |
-|2023-11-06 18:39:30|[fingerprintx](https://github.com/praetorian-inc/fingerprintx)|v1.1.11|Fixes https://github.com/praetorian-i<br>nc/fingerprintx/issues/25 |
-|2023-11-06 17:06:39|[ILSpy](https://github.com/icsharpcode/ILSpy)|v8.2|ILSpy 8.x is based on .NET 6.0. All a<br>rtifacts **except** the self-contained<br> distribution are built framework-depe<br>ndent, which means  must be installed <br>prior to starting ILSpy. # Ne|
-|2023-11-06 08:48:59|[color](https://github.com/fatih/color)|v1.16.0|## What's Changed * Update dependabot<br>.yml by @ilyabrin in https://github.co<br>m/fatih/color/pull/200 * color: add ne<br>wline after wrapping text by @fatih in<br> https://github.com/fatih/col|
-|2023-11-06 06:41:17|[trivy](https://github.com/aquasecurity/trivy)|v0.47.0|## ⚡Release highlights and summary⚡<br> 👉 https://github.com/aquasecurity/tr<br>ivy/discussions/5520 ## Changelog * d6<br>df5fbcd docs: add info that license sc<br>anning supports file-patterns fl|
 ## 近15天commit提交记录
 | 提交时间 | 项目名称 | 更新内容 |
 | :---- | :---- | :---- |
-|2023-11-21 00:33:58|[PoC-in-GitHub](https://github.com/nomi-sec/PoC-in-GitHub)|Auto Update 2023/11/21 00:33:58|
+|2023-11-22 00:32:58|[PoC-in-GitHub](https://github.com/nomi-sec/PoC-in-GitHub)|Auto Update 2023/11/22 00:32:58|
+|2023-11-22 00:06:58|[PocOrExp_in_Githu<br>b](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-11-22 08:06:58|
+|2023-11-22 00:00:04|[free](https://github.com/freefq/free)|updated_at 11-22 08:00|
+|2023-11-21 23:15:50|[DIE-engine](https://github.com/horsicq/DIE-engine)|Update module: XInfoDB 2023-11-22|
+|2023-11-21 20:28:42|[sliver](https://github.com/BishopFox/sliver)|Merge pull request #1467 from BishopFox/5fa4dependa<br>bot/go_modules/github.com/yiya1989/sshkrb5-0.0.1 Bum<br>p github.com/yiya1989/sshkrb5 from 0.0.0-20201110125<br>252-a1455b75a35e to 0.0.1|
+|2023-11-21 19:25:52|[audacity](https://github.com/audacity/audacity)|fix cmake options for VST3SDK >= 3.7.8 As these opt<br>ions were renamed in the meantime they caused the ex<br>plictly disabled parts of VST3SDK to be built again.<br> We therefore adapt the b|
+|2023-11-21 19:16:45|[logging-log4j2](https://github.com/apache/logging-log4j2)|Fix log4j-to-slf4j JPMS and OSGi descriptors Due to<br> the upgrade from SLF4J 1.7.x to 2.x, the JPMS and O<br>SGi descriptors of log4j-to-slf4j suffer from these <br>shortcomings: * the JPMS |
+|2023-11-21 18:48:25|[syft](https://github.com/anchore/syft)|use read lock in pkg collection (#2341) Signed-off-<br>by: Alex Goodman |
+|2023-11-21 18:47:08|[grype](https://github.com/anchore/grype)|chore(deps): bump anchore/sbom-action from 0.14.3 t<br>o 0.15.0 (#1611) Bumps  from 0.14.3 to 0.15.0. -  - <br> --- updated-dependencies: - dependency-name: anchor<br>e/sbom-action dependency-|
+|2023-11-21 17:47:36|[john](https://github.com/openwall/john)|NEWS: Add Keplr wallet support|
+|2023-11-21 16:44:15|[Umi-OCR](https://github.com/hiroi-sora/Umi-OCR)|Merge branch 'main' of https://github.com/hiroi-sor<br>a/Umi-OCR|
+|2023-11-21 15:56:54|[metasploit-framew<br>ork](https://github.com/rapid7/metasploit-framework)|automatic module_metadata_base.json update|
+|2023-11-21 14:56:11|[dbeaver](https://github.com/dbeaver/dbeaver)|#21896 recognize precision for bigint attributes (#<br>21903) * #21896 recognize precision for bigint attri<br>butes * #21896 move specific logic to the snowflake <br>bundle * #21896 change me|
+|2023-11-21 14:54:01|[FreeRDP](https://github.com/FreeRDP/FreeRDP)|[scard] allow INFINITE timeout|
+|2023-11-21 14:53:48|[ImageMagick](https://github.com/ImageMagick/ImageMagick)|valid blob size only if there are no I/O exceptions|
+|2023-11-21 14:28:02|[rustdesk](https://github.com/rustdesk/rustdesk)|Merge pull request #6488 from Kleofass/patch-6 Upda<br>te lv.rs|
+|2023-11-21 14:22:25|[rengine](https://github.com/yogeshojha/rengine)|Merge pull request #1039 from psyray/fix-2-click-da<br>tatable-bug Add a check to not load datatables twice|
+|2023-11-21 13:38:01|[ImHex](https://github.com/WerWolv/ImHex)|refactor: Rename and update localization system|
+|2023-11-21 12:37:48|[v2rayfree](https://github.com/aiboboxx/v2rayfree)|update|
+|2023-11-21 09:18:56|[SmsForwarder](https://github.com/pppscn/SmsForwarder)|新增：SIM卡槽状态监控（包名：66666666） #355|
+|2023-11-21 09:08:15|[Awesome-Redteam](https://github.com/Threekiii/Awesome-Redteam)|更新README.md|
+|2023-11-21 08:29:58|[PST-Bucket](https://github.com/arch3rPro/PST-Bucket)|reverse_ssh: Update to version 2.3.1|
+|2023-11-21 06:22:20|[suo5](https://github.com/zema1/suo5)|Merge pull request #39 from zema1/feat-cookiejar Su<br>pport cookiejar|
+|2023-11-21 04:16:56|[safeline](https://github.com/chaitin/safeline)|feat: update blazehttp|
+|2023-11-21 02:43:46|[arthas](https://github.com/alibaba/arthas)|add known user (#2731)|
+|2023-11-21 01:27:44|[0xUBypass](https://github.com/Yeuoly/0xUBypass)|Update README.md|
+|2023-11-21 01:21:09|[awesome-chatgpt-z<br>h](https://github.com/yzfly/awesome-chatgpt-zh)|add ai good games and GPTs|
+|2023-11-21 01:16:54|[vulnerability](https://github.com/lal0ne/vulnerability)|CVE-2023-4357|
 |2023-11-21 00:30:14|[gshark](https://github.com/madneal/gshark)|set the release mode|
-|2023-11-21 00:22:59|[DIE-engine](https://github.com/horsicq/DIE-engine)|Update module: Formats 2023-11-21|
-|2023-11-21 00:00:03|[free](https://github.com/freefq/free)|updated_at 11-21 08:00|
-|2023-11-20 22:58:49|[ImHex](https://github.com/WerWolv/ImHex)|impr: Move OpenGL loaders into header to avoid issu<br>es in the future|
-|2023-11-20 22:24:08|[sliver](https://github.com/BishopFox/sliver)|Merge pull request #1470 from BishopFox/eda5dependa<br>bot/go_modules/github.com/mattn/go-sqlite3-1.14.18 B<br>ump github.com/mattn/go-sqlite3 from 1.14.17 to 1.14<br>.18|
 |2023-11-20 20:55:33|[ghauri](https://github.com/r0oth3x49/ghauri)|fixed issue with custom injection market in paramet<br>er value...|
-|2023-11-20 20:37:46|[audacity](https://github.com/audacity/audacity)|Merge pull request #4379 from Paul-Licameli/break-d<br>ependencies-on-toolbars Break dependencies on toolba<br>rs Fix some old confusions in the flow of notificati<br>ons, which resulted in un|
-|2023-11-20 20:06:18|[syft](https://github.com/anchore/syft)|Update developer docs to represent the current pack<br>age layout (#2340) --------- Signed-off-by: Alex Goo<br>dman |
-|2023-11-20 19:28:31|[logging-log4j2](https://github.com/apache/logging-log4j2)|Javadoc fix (#1980)|
 |2023-11-20 19:02:21|[containerd](https://github.com/containerd/containerd)|Merge pull request #9369 from fuweid/fix-pull-progr<br>ess fix: ImagePull should close http connection if t<br>here is no available data to read.|
 |2023-11-20 18:08:34|[faker](https://github.com/joke2k/faker)|Bump version: 20.0.3 → 20.1.0|
-|2023-11-20 17:00:42|[FreeRDP](https://github.com/FreeRDP/FreeRDP)|[core,gateway] fix TSG_PACKET_TYPE_QUARENC_RESPONSE<br> parsing of TSG_PACKET_TYPE_QUARENC_RESPONSE was inc<br>omplete, fix that|
-|2023-11-20 16:42:23|[dbeaver](https://github.com/dbeaver/dbeaver)|dbeaver/pro#2018 Security method prompt (#21869) Co<br>-authored-by: Dziyana |
 |2023-11-20 15:49:19|[nuclei](https://github.com/projectdiscovery/nuclei)|optionally upload to pdcp cloud (#4396)|
 |2023-11-20 14:29:20|[dperf](https://github.com/baidu/dperf)|Merge pull request #392 from pengjianzhang/main sup<br>port|
 |2023-11-20 14:11:59|[WebGoat](https://github.com/WebGoat/WebGoat)|chore: bump docker/build-push-action from 4.1.1 to <br>5.1.0 (#1670) Bumps  from 4.1.1 to 5.1.0. -  -  --- <br>updated-dependencies: - dependency-name: docker/buil<br>d-push-action dependency-|
 |2023-11-20 12:38:45|[trivy](https://github.com/aquasecurity/trivy)|chore: add prefix to image errors (#5601) Signed-of<br>f-by: knqyf263 |
-|2023-11-20 12:38:31|[v2rayfree](https://github.com/aiboboxx/v2rayfree)|update|
-|2023-11-20 11:14:09|[ImageMagick](https://github.com/ImageMagick/ImageMagick)|cosmetic|
 |2023-11-20 10:59:32|[kube-bench](https://github.com/aquasecurity/kube-bench)|feat(cis-1.24-microk8s): Add support to CIS-1.24 fo<br>r microk8s distro (#1510)|
-|2023-11-20 10:56:39|[rustdesk](https://github.com/rustdesk/rustdesk)|Merge pull request #6473 from fufesou/feat/format_i<br>dd_error_message Feat/format idd error message|
 |2023-11-20 10:08:49|[HackerPermKeeper](https://github.com/RuoJi6/HackerPermKeeper)|Update README.md|
-|2023-11-20 09:25:19|[PocOrExp_in_Githu<br>b](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-11-20 17:25:19|
 |2023-11-20 08:06:44|[subfinder](https://github.com/projectdiscovery/subfinder)|Fix build failure on termux/android (#1053) * updat<br>e utils pkg * update go version to 1.21|
 |2023-11-20 07:21:40|[Vulnerability-Wik<br>i](https://github.com/Threekiii/Vulnerability-Wiki)|更新漏洞|
 |2023-11-20 07:18:47|[Awesome-POC](https://github.com/Threekiii/Awesome-POC)|更新漏洞|
@@ -106,18 +116,13 @@
 |2023-11-20 01:45:24|[v2rayA](https://github.com/v2rayA/v2rayA)|Merge pull request #1166 from v2rayA/dependabot/npm<br>_and_yarn/gui/axios-1.6.0 chore(deps): bump axios fr<br>om 0.21.4 to 1.6.0 in /gui|
 |2023-11-20 01:35:24|[FrameVul](https://github.com/Awrrays/FrameVul)|Update README.md|
 |2023-11-20 00:09:46|[DecoyMini](https://github.com/decoymini/DecoyMini)|Update README.md|
-|2023-11-19 19:25:46|[john](https://github.com/openwall/john)|Add overhauled version of pdf2john.py|
 |2023-11-19 18:32:49|[anti-AD](https://github.com/privacy-protection-tools/anti-AD)|Auto renew the anti-AD list.|
 |2023-11-19 15:15:15|[Pillager](https://github.com/qwqdanchun/Pillager)|Update main.yml|
-|2023-11-19 13:51:29|[Umi-OCR](https://github.com/hiroi-sora/Umi-OCR)|更新接口文档|
-|2023-11-19 08:27:57|[PST-Bucket](https://github.com/arch3rPro/PST-Bucket)|reverse_ssh: Update to version 2.3.0|
 |2023-11-19 08:24:30|[all-in-one-v2](https://github.com/zaivanza/all-in-one-v2)|change data to datas|
 |2023-11-19 06:36:49|[Library-POC](https://github.com/luck-ying/Library-POC)|Update 用友U8-cloud_RegisterServlet_sql注入.py|
 |2023-11-18 06:38:25|[blind_watermark](https://github.com/guofei9987/blind_watermark)|Merge pull request #121 from semikonductor/master U<br>pdate bwm_core.py|
 |2023-11-18 05:01:18|[ctf-archives](https://github.com/sajjadium/ctf-archives)|MUST chals|
 |2023-11-17 22:48:32|[MemProcFS](https://github.com/ufrisk/MemProcFS)|Version 5.8.17|
-|2023-11-17 21:27:07|[grype](https://github.com/anchore/grype)|chore(deps): update Syft to v0.97.1 (#1610) Signed-<br>off-by: GitHub  Co-authored-by: wagoodman |
-|2023-11-17 09:45:09|[safeline](https://github.com/chaitin/safeline)|feat: add tips in not found page|
 |2023-11-17 08:57:38|[ARL](https://github.com/TophantTechnology/ARL)|Merge pull request #658 from zyairelai/master 更新<br>安装顺序排列|
 |2023-11-16 22:33:26|[pulumi](https://github.com/pulumi/pulumi)|Changelog and go.mod updates for v3.94.1 (#14593) C<br>o-authored-by: github-actions |
 |2023-11-16 21:59:53|[trufflehog](https://github.com/trufflesecurity/trufflehog)|move all Git setup into Init method (#2105) * add p<br>roto fields for git * add uri to proto * move all gi<br>t setup into Init method * fix logic for when to use<br> repoPath|
@@ -129,7 +134,6 @@
 |2023-11-16 19:10:36|[code-server](https://github.com/coder/code-server)|Fix node-gyp failure on macOS (#6537)|
 |2023-11-16 18:43:23|[delve](https://github.com/go-delve/delve)|terminal: clear substitute path rules cache when co<br>nfig is used (#3567) Fixes #3565|
 |2023-11-16 18:17:07|[protections-artif<br>acts](https://github.com/elastic/protections-artifacts)|Updating artifacts|
-|2023-11-16 18:06:13|[metasploit-framew<br>ork](https://github.com/rapid7/metasploit-framework)|Bump version of framework to 6.3.44|
 |2023-11-16 18:00:08|[ruby](https://github.com/ruby/ruby)|[ruby/prism] Add macGreek encoding https://github.c<br>om/ruby/prism/commit/c36d3fc647|
 |2023-11-16 17:52:53|[http-request-smug<br>gler](https://github.com/PortSwigger/http-request-smuggler)|BApp Store update v2.16|
 |2023-11-16 17:48:08|[jadx](https://github.com/skylot/jadx)|feat: allow to set zip max entries count using env <br>var (#1751)|
@@ -147,7 +151,6 @@
 |2023-11-16 11:27:33|[PyWxDump](https://github.com/xaoyaoo/PyWxDump)|增加聊天记录导出为html|
 |2023-11-16 11:26:51|[pdns](https://github.com/PowerDNS/pdns)|Merge pull request #13498 from omoerbeek/dnsdist-se<br>rver-table dnsdist: use a table for formatting the l<br>ist of server settings|
 |2023-11-16 11:25:13|[compose](https://github.com/docker/compose)|Merge pull request #11192 from ulyssessouza/exclude<br>-tests-context|
-|2023-11-16 11:22:17|[0xUBypass](https://github.com/Yeuoly/0xUBypass)|update: readme|
 |2023-11-16 11:14:40|[AdGuardHome](https://github.com/AdguardTeam/AdGuardHome)|Pull request 2070: 4923 gopacket DHCP vol.4 Merge i<br>n DNS/adguard-home from 4923-gopacket-dhcp-vol.4 to <br>master Updates #4923. Squashed commit of the followi<br>ng: commit 4b87258c70ac98|
 |2023-11-16 11:00:51|[tabby](https://github.com/Eugeny/tabby)|fixed #9239 - missing sync token field|
 |2023-11-16 10:17:22|[jumpserver](https://github.com/jumpserver/jumpserver)|perf: 优化 api key 认证记录用户的时间|
@@ -198,7 +201,6 @@
 |2023-11-15 08:21:51|[nacos](https://github.com/alibaba/nacos)|strip groupNamePrefix of instance serviceName at re<br>gister or deregister (#11354)|
 |2023-11-15 06:57:51|[photon](https://github.com/vmware/photon)|build.py: cleanups in command formation Use gz comp<br>ression while creating repodata Change-Id: I563e012b<br>eda633cfd8e7b578162810fab1345839 Signed-off-by: Shre<br>enidhi Shedi  Reviewed-on|
 |2023-11-15 06:17:52|[DongTai](https://github.com/HXSecurity/DongTai)|Merge pull request #1909 from st1020/fix/method-poo<br>l-format-error fix: method pool format error|
-|2023-11-15 05:46:53|[Awesome-Redteam](https://github.com/Threekiii/Awesome-Redteam)|更新README.md|
 |2023-11-15 04:50:30|[pwcrack-framework](https://github.com/L-codes/pwcrack-framework)|bump version|
 |2023-11-15 04:40:29|[Qianji](https://github.com/Pizz33/Qianji)|更新 README.md|
 |2023-11-15 04:07:25|[fscan](https://github.com/shadow1ng/fscan)|Update|
@@ -224,7 +226,6 @@
 |2023-11-14 05:33:07|[Mobile-Security-F<br>ramework-MobSF](https://github.com/MobSF/Mobile-Security-Framework-MobSF)|Hotfix: Support viewing kotlin files #2283|
 |2023-11-14 05:16:01|[iDefender](https://github.com/wecooperate/iDefender)|update|
 |2023-11-14 03:39:37|[yq](https://github.com/mikefarah/yq)|Updating release notes|
-|2023-11-14 03:06:08|[arthas](https://github.com/alibaba/arthas)|Prettified Code!|
 |2023-11-14 02:32:43|[gmssl](https://github.com/duanhongyi/gmssl)|Merge pull request #81 from CoveyZhang/master fix s<br>m2 pubkey starts with 04 itself|
 |2023-11-13 23:14:41|[python-codext](https://github.com/dhondta/python-codext)|Updated coverage.svg|
 |2023-11-13 22:10:11|[mapcidr](https://github.com/projectdiscovery/mapcidr)|Merge pull request #276 from projectdiscovery/depen<br>dabot/go_modules/main/github.com/projectdiscovery/hm<br>ap-0.0.25|
@@ -267,7 +268,6 @@
 |2023-11-10 14:00:23|[ioc](https://github.com/avast/ioc)|Merge pull request #56 from BraKram/clearfake clear<br>fake 11 2023|
 |2023-11-10 13:54:18|[RsaCtfTool](https://github.com/RsaCtfTool/RsaCtfTool)|Change uncipher to decrypt. issue 398|
 |2023-11-10 13:14:27|[apollo](https://github.com/apolloconfig/apollo)|Apply audit log functions to portal using audit-log<br> module (#5008) * Fix serious appendDataInfluence bu<br>g in AuditSpanAspect. Add patch of dealing with coll<br>ection-type arg when AOP |
-|2023-11-10 12:31:31|[rengine](https://github.com/yogeshojha/rengine)|Merge pull request #1029 from luizmlo/patch-1 Added<br> tooltip text to dashboard total vulnerabilities too<br>ltip|
 |2023-11-10 08:00:28|[bat](https://github.com/sharkdp/bat)|Consider adding ?exclude_unsupported=1 to repology <br>badge|
 |2023-11-10 07:15:04|[trash-cli](https://github.com/andreafrancia/trash-cli)|Bump version to '0.23.11.10'|
 |2023-11-10 03:36:23|[Online_tools](https://github.com/Zhao-sai-sai/Online_tools)|0.4.0文件下载错修复|
@@ -303,13 +303,7 @@
 |2023-11-07 06:13:46|[ILSpy](https://github.com/icsharpcode/ILSpy)|Merge pull request #3111 from ElektroKill/fix/debug<br>-customdebuginfo-browser|
 |2023-11-07 02:48:45|[grafanaExp](https://github.com/A-D-Team/grafanaExp)|add source code|
 |2023-11-07 02:14:07|[color](https://github.com/gookit/color)|build(deps): bump golang.org/x/sys from 0.13.0 to 0<br>.14.0 (#77)|
-|2023-11-07 02:03:50|[Elkeid](https://github.com/bytedance/Elkeid)|Merge pull request #551 from bytedance/fix-re_match<br> Fix re match|
-|2023-11-06 22:27:01|[csvtk](https://github.com/shenwei356/csvtk)|concat: fix the panic when no data given|
-|2023-11-06 17:34:10|[interactsh](https://github.com/projectdiscovery/interactsh)|Adding a newline to re-render the README (#707)|
-|2023-11-06 16:26:44|[fingerprintx](https://github.com/praetorian-inc/fingerprintx)|Merge pull request #27 from praetorian-inc/golint-f<br>ix golint fix|
-|2023-11-06 09:36:07|[emp3r0r](https://github.com/jm33-m0/emp3r0r)|upgrade go version in release-please action|
-|2023-11-06 08:25:55|[color](https://github.com/fatih/color)|Merge pull request #213 from fatih/dependabot/go_mo<br>dules/golang.org/x/sys-0.14.0 Bump golang.org/x/sys <br>from 0.13.0 to 0.14.0|
-|2023-11-06 03:24:23|[vulnerability](https://github.com/lal0ne/vulnerability)|CVE-2023-46604|## 所有项目
+|2023-11-07 02:03:50|[Elkeid](https://github.com/bytedance/Elkeid)|Merge pull request #551 from bytedance/fix-re_match<br> Fix re match|## 所有项目
 # 安全
 ## CTF
 ### AWD
@@ -3631,7 +3625,7 @@
 ## 文字识别
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
-| [Umi-OCR](https://github.com/hiroi-sora/Umi-OCR) | release<br>/2.0.0 | 开源、免费、实用的离线OCR软件。截屏/粘贴/批量导入图片，支持段<br>落排版/排除水印，扫描/生成二维码。全程无需联网，内置多国语言识别<br>库。 |
+| [Umi-OCR](https://github.com/hiroi-sora/Umi-OCR) | release<br>/2.0.0 | OCR software, free and offline. 开源、免费的离线OCR软件。支持<br>截屏/粘贴/批量导入图片，段落排版/排除水印，扫描/生成二维码。内置<br>多国语言库。 |
 ## 验证码生成
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |

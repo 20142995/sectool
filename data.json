@@ -65,8 +65,8 @@
     "https://github.com/pppscn/SmsForwarder": {
         "created_at": "2021-02-10 02:23:07",
         "description": "短信转发器——监控Android手机短信、来电、APP通知，并根据指定规则转发到其他手机：钉钉群自定义机器人、钉钉企业内机器人、企业微信群机器人、飞书机器人、企业微信应用消息、邮箱、bark、webhook、Telegram机器人、Server酱、PushPlus、手机短信等。包括主动控制服务端与客户端，让你轻松远程发短信、查短信、查通话、查话簿、查电量等。（V3.0 新增）PS.这个APK主要是学习与自用，如有BUG请提ISSUE，同时欢迎大家提PR指正",
-        "commit_date": "2023-10-21 05:12:25",
-        "commit_message": "优化：`企业微信应用`发送通道允许自定义API地址【通过反向代理(proxy_pass https://qyapi.weixin.qq.com;)绕过IP白名单限制】 #352",
+        "commit_date": "2023-11-21 09:18:56",
+        "commit_message": "新增：SIM卡槽状态监控（包名：`66666666`） #355",
         "release_tag": "v3.2.0",
         "release_date": "2023-02-14 09:25:00",
         "release_message": "PS. 距离上一次1024发版，已经过去快5个月了，期间发生不少事，一直没更新这个项目，不管如何，魔幻的2022年都过去了！\r\n\r\n感谢大家这2年来的陪伴与支持，祝大家有情人终成眷属，情人节快乐！\r\n\r\n---\r\n\r\n### 【注意】\r\n\r\n* v3.x版本是全新重构开发，可能一开始并不稳定，建议升级前先做好数据备份！（客户端>一键换新机>离线模式>导出）\r\n\r\n* `v3.2.0` 去除了 `mmkv` 依赖，采用 `SharedPreferences` 来保存配置，升级之后通用设置中的配置请重新配置，具体原因参见 [Issue #245](https://github.com/pppscn/SmsForwarder/issues/245)\r\n\r\n* 升级完毕后，建议离线导出配置，完全卸载干净全新安装后再导入配置（可以避免一些莫名其妙的玄学问题，例如：耗电异常）\r\n\r\n---\r\n\r\n### 更新日志\r\n\r\n* 新增：短信指令（根据短信指令开关对应功能） #I5YX3F\r\n* 新增：监听网络状态变化提醒（APP通知转发，包名：77777777） #259\r\n* 新增：远程改话簿（方便给老人家添加联系人） #256\r\n* 新增：远程查询手机定位（方便找回手机/防止老少走丢） #256\r\n* 新增：Socket发送通道（支持MQTT/TCP/UDP协议） #252\r\n* 新增：发送通道 URL Scheme（支持跨应用数据传递）#250\r\n* 新增：自动消除额外APP通知 #232 #248\r\n\r\n* 优化：短信/通话转发获取卡槽信息机制（自行备注卡槽SubId对应）#228 #235\r\n* 优化：来电转发逻辑 & 新增提醒类型（1.来电挂机 2.去电挂机 3.未接来电 4.来电提醒 5.来电接通 6.去电拨出）\r\n* 优化：单个转发规则支持绑定多个发送通道，且支持执行逻辑（全部执行/失败即止/成功即止） #247\r\n* 优化：转发日志列表以原始信息为主，聚合展示转发日志（一对多）\r\n* 优化：已安装App信息列表异步加载机制\r\n* 优化：电池状态监听/网络状态监控 在未开启去重时默认开启1秒去重\r\n* 优化：利用BatteryReceiver守护自启动的Frpc (试验) #254\r\n\r\n* 修复：Android 13 无法授予通知权限 #255\r\n* 修复：重启手机自动启动APP时加载配置失败 #233 #245\r\n* 修复：转发消息遍历发送通道时未跳过已禁用的通道\r\n* 修复：降级Android Gradle插件版本以兼容4.4 (#249 by NyaMisty)\r\n\r\n* 升级：andserver到2.1.12（加快web端上下行速度等）\r\n* 升级：frpclib 到 v0.47.0\r\n* 升级：androidx组件和kotlin版本\r\n\r\n还有一些细微调整参见`github`提交记录\r\n\r\n---\r\n\r\n### APK版本说明：\r\n* universal（10XXXX）: 通用版（不在乎安装包大小/懒得选就用这个版本，包含以下4种CPU架构so）\r\n* armeabi-v7a（20XXXX）: 32位ARM设备（备用机首选）\r\n* arm64-v8a（30XXXX）: 64位ARM设备（主流旗舰机）\r\n* x86（40XXXX）: 32位Intel设备\r\n* x86_64（50XXXX）: 64/32位Intel设备"
@@ -200,8 +200,8 @@
     "https://github.com/ycdxsb/PocOrExp_in_Github": {
         "created_at": "2021-04-13 05:46:16",
         "description": "聚合Github上已有的Poc或者Exp，CVE信息来自CVE官网。Auto Collect Poc Or Exp from Github by CVE ID.",
-        "commit_date": "2023-11-20 09:25:19",
-        "commit_message": "update 2023-11-20 17:25:19",
+        "commit_date": "2023-11-22 00:06:58",
+        "commit_message": "update 2023-11-22 08:06:58",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -380,8 +380,8 @@
     "https://github.com/lal0ne/vulnerability": {
         "created_at": "2022-01-20 02:48:42",
         "description": "收集、整理、修改互联网上公开的漏洞POC",
-        "commit_date": "2023-11-06 03:24:23",
-        "commit_message": "CVE-2023-46604",
+        "commit_date": "2023-11-21 01:16:54",
+        "commit_message": "CVE-2023-4357",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -1905,9 +1905,9 @@
     },
     "https://github.com/hiroi-sora/Umi-OCR": {
         "created_at": "2022-03-28 04:01:46",
-        "description": "开源、免费、实用的离线OCR软件。截屏/粘贴/批量导入图片，支持段落排版/排除水印，扫描/生成二维码。全程无需联网，内置多国语言识别库。",
-        "commit_date": "2023-11-19 13:51:29",
-        "commit_message": "更新接口文档",
+        "description": "OCR software, free and offline. 开源、免费的离线OCR软件。支持截屏/粘贴/批量导入图片，段落排版/排除水印，扫描/生成二维码。内置多国语言库。",
+        "commit_date": "2023-11-21 16:44:15",
+        "commit_message": "Merge branch 'main' of https://github.com/hiroi-sora/Umi-OCR",
         "release_tag": "release/2.0.0",
         "release_date": "2023-11-19 07:30:50",
         "release_message": "经过近7个月的开发工作，全新的 **Umi-OCR v2.0正式版** 终于与大家见面。\r\n\r\nv2重构了大部分代码，改用更先进的基层架构，添加更丰富的功能，UI界面焕然一新。希望能为大家带来更好的使用体验~\r\n\r\nv2功能介绍请见 [README](https://github.com/hiroi-sora/Umi-OCR) 。更新日志请见 [CHANGE_LOG](https://github.com/hiroi-sora/Umi-OCR/blob/main/CHANGE_LOG.md) 。\r\n\r\n本项目将会长期维护、迭代更新。个人业余时间开发，产能有限，请多包涵~~\r\n\r\n有任何问题或建议，请提 [Issue](https://github.com/hiroi-sora/Umi-OCR/issues) 。\r\n\r\n![](https://tupian.li/images/2023/11/19/65599097ab5f4.png)\r\n\r\n### 协助翻译！\r\n\r\n如果您擅长`简体中文`和另外一门语言，可参与本项目翻译，或校对当前翻译！\r\n- 校对项目英文主页： [README_en.md](https://github.com/hiroi-sora/Umi-OCR/blob/main/README_en.md)，提交PR即可。\r\n- 校对或翻译软件界面：接受`英/繁中/日/韩/俄/德/法……`等多国语言。请参考 [此文档](https://github.com/hiroi-sora/Umi-OCR/tree/main/dev-tools/i18n) ，然后PR到本仓库。\r\n\r\n### 下载说明\r\n\r\n以下的不同版本，仅OCR引擎插件不同，其它功能完全一致。均支持 win7 x64 及以上的系统。\r\n均附带 `简中/繁中/英/日/韩/俄` 多国语言识别库。\r\n\r\n`.7z.exe`为自解压包，可以用压缩软件打开，也可以在没有安装压缩软件的电脑上直接双击解压。\r\n\r\n### Paddle 引擎插件版\r\n\r\n（性能好，速度快，占用率高，适合高配机器。不兼容奔腾、赛扬、凌动CPU）\r\n\r\n**Umi-OCR_Paddle_v2.0.0.7z.exe** （125MB）\r\nSHA256: `141f9a9bd82666862335e71d20743b43e3d231738f255012c1cb1c39aa83f976`\r\n\r\n### Rapid 引擎插件版\r\n\r\n（速度稍慢，内存占用低，适合低配机器，兼容性好）\r\n\r\n**Umi-OCR_Rapid_v2.0.0.7z.exe** （95MB）\r\nSHA256: `de850eb92c23306f57ad07eb9a35e5d11cba966de4f97d680c5f7e84febce921`"
@@ -2951,8 +2951,8 @@
     "https://github.com/dbeaver/dbeaver": {
         "created_at": "2015-10-21 08:26:28",
         "description": "Free universal database tool and SQL client",
-        "commit_date": "2023-11-20 16:42:23",
-        "commit_message": "dbeaver/pro#2018 Security method prompt (#21869)\n\nCo-authored-by: Dziyana <31996417+uslss@users.noreply.github.com>",
+        "commit_date": "2023-11-21 14:56:11",
+        "commit_message": "#21896 recognize precision for bigint attributes (#21903)\n\n* #21896 recognize precision for bigint attributes\r\n\r\n* #21896 move specific logic to the snowflake bundle\r\n\r\n* #21896 change method name",
         "release_tag": "23.2.5",
         "release_date": "2023-11-19 17:51:05",
         "release_message": "\n                - SQL editor:\n                    - Syntax coloring and code completion: smart columns abd aliases recognition was added (experimental)\n                    - Numerous improvements in single-tab results visualization\n                    - Quoting of identifiers with special characters was fixed\n                    - Issue with read-only column in queries with comments was resolved\n                    - COMMIT/ROLLBACK statements are now recognized as transaction state change statements\n                - Data transfer:\n                    - Issue with unquoted column names was resolved (data import)\n                    - File import toolbar was redesigned\n                    - Library for XLSX export/import was updated, many minor issues were resolved\n                - Accessibility:\n                    - Screen-readers support was improved (JAWS)\n                    - Editor tab names reading was fixed\n                - ER diagrams: issues with notation switch were resolved\n                - General:\n                    - Issue with output file name after multiple executions of data export task was resolved\n                    - Error \"Data transfer IO error\" was resolved\n                    - Comments in generated DDL now can be disabled (configurable)\n                    - Countdown visualization before auto-close was added for idle transactions\n                    - Extra tips added in connection keep-alive configuration\n                    - Database navigator: click in empty space handle was fixed (thanks to @itsyfx)\n                - Databases:\n                    - MySQL:\n                        - Driver version was upgraded to 8.2\n                        - Legacy MySQL 5.x driver was deprecated and replaced with MySQL 8 driver\n                    - Oracle:\n                        - Materialized views indexes management was supported\n                        - Materialized views permissions and dependencies view was added\n                        - Column alter DDL was fixed (NULL clause)\n                    - PostgreSQL:\n                        - Issue with VARCHAR limit change was fixed\n                        - Function comment delete support was added\n                    - SQL Server: extra dialect keyword were added (thanks to @brunodmartins)\n            "
@@ -3219,7 +3219,7 @@
     "https://github.com/Threekiii/Awesome-Redteam": {
         "created_at": "2022-02-08 00:45:03",
         "description": "一个攻防知识仓库",
-        "commit_date": "2023-11-15 05:46:53",
+        "commit_date": "2023-11-21 09:08:15",
         "commit_message": "更新README.md",
         "release_tag": "",
         "release_date": "",
@@ -3469,8 +3469,8 @@
     "https://github.com/yogeshojha/rengine": {
         "created_at": "2020-05-03 12:13:12",
         "description": "reNgine is an automated reconnaissance framework for web applications with a focus on highly configurable streamlined recon process via Engines, recon data correlation and organization, continuous monitoring, backed by a database, and simple yet intuitive User Interface. reNgine makes it easy for penetration testers to gather reconnaissance with minimal configuration and with the help of reNgine's correlation, it just makes recon effortless.",
-        "commit_date": "2023-11-10 12:31:31",
-        "commit_message": "Merge pull request #1029 from luizmlo/patch-1\n\nAdded tooltip text to dashboard total vulnerabilities tooltip",
+        "commit_date": "2023-11-21 14:22:25",
+        "commit_message": "Merge pull request #1039 from psyray/fix-2-click-datatable-bug\n\nAdd a check to not load datatables twice",
         "release_tag": "v2.0.1",
         "release_date": "2023-10-24 05:51:26",
         "release_message": "2.0.1 fixes a ton of issues in reNgine 2.0.\r\n\r\nFixes: \r\n1. Prevent duplicating Nuclei vulns for subdomain #1012 @psyray\r\n2. Fixes for empty subdomain returned during nuclei scan #1011 @psyray\r\n3. Add all the missing slug in scanEngine view & other places #1005 @psyray\r\n4. Foxes for missing vulscan script #1004 @psyray\r\n5. Fixes for missing slug in report settings saving #1003\r\n6. Fixes for Nmap Parsing Error #1001 #1002 @psyray\r\n7. Fix nmap script ports iterable args #1000 @psyray\r\n8. Iterate over hostnames when multiple #1002 @psyray\r\n8. Gau install #998, change gauplus to gau @psyray\r\n9. Add missing slug parameter in schedule scan #996 @psyray\r\n10. Add missing slug parameter in schedule scan #996, fixes #940, #937, #897, #764 @psyray\r\n11. Add stack trace into make logs if DEBUG True #994 @psyray\r\n12. Fix dirfuzz base64 name display #993 #992 @psyray\r\n13. Fix target subdomains list not loading #991 @psyray\r\n14. Change WORDLIST constant value #987, fixes #986@psyray \r\n15. fix(notification_settings): submitting results in error 502 #981 fixes #970 @psyray\r\n16. Fixes with documentation and installation/update/uninstall scripts @anonymousWP\r\n17. Fix file directory popup not showing in detailed scan #912 @psyray\r\n\r\n\r\n@AnonymousWP and @psyray have been phenomenal in fixing these bugs. Thanks to both of you! :heart: :rocket: "
@@ -3908,8 +3908,8 @@
     "https://github.com/anchore/syft": {
         "created_at": "2020-05-07 18:19:29",
         "description": "CLI tool and library for generating a Software Bill of Materials from container images and filesystems",
-        "commit_date": "2023-11-20 20:06:18",
-        "commit_message": "Update developer docs to represent the current package layout (#2340)\n\n---------\r\n\r\nSigned-off-by: Alex Goodman <wagoodman@users.noreply.github.com>",
+        "commit_date": "2023-11-21 18:48:25",
+        "commit_message": "use read lock in pkg collection (#2341)\n\nSigned-off-by: Alex Goodman <wagoodman@users.noreply.github.com>",
         "release_tag": "v0.97.1",
         "release_date": "2023-11-17 21:10:21",
         "release_message": "### Bug Fixes\n\n- Syft does not use HTTP proxy when downloading the Docker image itself [[#2203](https://github.com/anchore/syft/issues/2203) [#2336](https://github.com/anchore/syft/pull/2336) @anchore-actions-token-generator]\n\n### Additional Changes\n\n- `syft version` report is broken with 0.97.0 release [[#2334](https://github.com/anchore/syft/issues/2334) [#2335](https://github.com/anchore/syft/pull/2335) @spiffcs]\n\n**[(Full Changelog)](https://github.com/anchore/syft/compare/v0.97.0...v0.97.1)**\n\n"
@@ -3917,8 +3917,8 @@
     "https://github.com/chaitin/safeline": {
         "created_at": "2023-04-12 11:30:14",
         "description": "一款足够简单、足够好用、足够强的免费 WAF。基于业界领先的语义引擎检测技术，作为反向代理接入，保护你的网站不受黑客攻击。",
-        "commit_date": "2023-11-17 09:45:09",
-        "commit_message": "feat: add tips in not found page",
+        "commit_date": "2023-11-21 04:16:56",
+        "commit_message": "feat: update blazehttp",
         "release_tag": "v3.10.1",
         "release_date": "2023-11-03 04:34:30",
         "release_message": "### 修复\r\n\r\n- 修复无法修改 通用配置-其他-拦截页面附加说明 的问题"
@@ -3980,8 +3980,8 @@
     "https://github.com/anchore/grype": {
         "created_at": "2020-05-26 13:44:38",
         "description": "A vulnerability scanner for container images and filesystems",
-        "commit_date": "2023-11-17 21:27:07",
-        "commit_message": "chore(deps): update Syft to v0.97.1 (#1610)\n\nSigned-off-by: GitHub <noreply@github.com>\r\nCo-authored-by: wagoodman <wagoodman@users.noreply.github.com>",
+        "commit_date": "2023-11-21 18:47:08",
+        "commit_message": "chore(deps): bump anchore/sbom-action from 0.14.3 to 0.15.0 (#1611)\n\nBumps [anchore/sbom-action](https://github.com/anchore/sbom-action) from 0.14.3 to 0.15.0.\r\n- [Release notes](https://github.com/anchore/sbom-action/releases)\r\n- [Commits](https://github.com/anchore/sbom-action/compare/78fc58e266e87a38d4194b2137a3d4e9bcaf7ca1...fd74a6fb98a204a1ad35bbfae0122c1a302ff88b)\r\n\r\n---\r\nupdated-dependencies:\r\n- dependency-name: anchore/sbom-action\r\n  dependency-type: direct:production\r\n  update-type: version-update:semver-minor\r\n...\r\n\r\nSigned-off-by: dependabot[bot] <support@github.com>\r\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
         "release_tag": "v0.73.3",
         "release_date": "2023-11-18 13:13:36",
         "release_message": "### Additional Changes\n\n- update Syft to v0.97.1 [[#1610](https://github.com/anchore/grype/pull/1610) @anchore-actions-token-generator]\n\n**[(Full Changelog)](https://github.com/anchore/grype/compare/v0.73.2...v0.73.3)**\n\n"
@@ -4277,7 +4277,7 @@
     "https://github.com/aiboboxx/v2rayfree": {
         "created_at": "2021-10-13 11:34:53",
         "description": "v2ray节点、免费节点、免费v2ray节点、最新公益免费v2ray节点订阅地址、免费v2ray节点每日更新、免费ss/v2ray/trojan节点、freefq ",
-        "commit_date": "2023-11-20 12:38:31",
+        "commit_date": "2023-11-21 12:37:48",
         "commit_message": "update",
         "release_tag": "",
         "release_date": "",
@@ -4322,8 +4322,8 @@
     "https://github.com/freefq/free": {
         "created_at": "2020-06-07 02:48:33",
         "description": "翻墙、免费翻墙、免费科学上网、免费节点、免费梯子、免费ss/v2ray/trojan节点、蓝灯、谷歌商店、翻墙梯子",
-        "commit_date": "2023-11-21 00:00:03",
-        "commit_message": "updated_at 11-21 08:00",
+        "commit_date": "2023-11-22 00:00:04",
+        "commit_message": "updated_at 11-22 08:00",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -4592,8 +4592,8 @@
     "https://github.com/yzfly/awesome-chatgpt-zh": {
         "created_at": "2023-03-21 02:16:34",
         "description": "ChatGPT 中文指南🔥，ChatGPT 中文调教指南，指令指南，应用开发指南，精选资源清单，更好的使用 chatGPT 让你的生产力 up up up! 🚀",
-        "commit_date": "2023-10-15 23:20:07",
-        "commit_message": "update readme",
+        "commit_date": "2023-11-21 01:21:09",
+        "commit_message": "add ai good games and GPTs",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -5004,8 +5004,8 @@
     "https://github.com/rustdesk/rustdesk": {
         "created_at": "2020-09-28 15:36:08",
         "description": "An open-source remote desktop, and alternative to TeamViewer.",
-        "commit_date": "2023-11-20 10:56:39",
-        "commit_message": "Merge pull request #6473 from fufesou/feat/format_idd_error_message\n\nFeat/format idd error message",
+        "commit_date": "2023-11-21 14:28:02",
+        "commit_message": "Merge pull request #6488 from Kleofass/patch-6\n\nUpdate lv.rs",
         "release_tag": "1.2.3",
         "release_date": "2023-10-13 10:47:12",
         "release_message": " ![image](https://github.com/rustdesk/rustdesk/assets/71636191/83754a64-31b8-47f0-8570-da22207759a9)\r\n\r\n > Winget, FDroid update will come soon.\r\n\r\n x86-64: [Windows](https://github.com/rustdesk/rustdesk/releases/download/1.2.3/rustdesk-1.2.3-x86_64.exe) | [Ubuntu](https://github.com/rustdesk/rustdesk/releases/download/1.2.3/rustdesk-1.2.3-x86_64.deb) | [Mac](https://github.com/rustdesk/rustdesk/releases/download/1.2.3/rustdesk-1.2.3-x86_64.dmg)\r\n AArch64 (ARM64):  [Ubuntu](https://github.com/rustdesk/rustdesk/releases/download/1.2.3/rustdesk-1.2.3-aarch64.deb) | [Android](https://github.com/rustdesk/rustdesk/releases/download/1.2.3/rustdesk-1.2.3-aarch64-signed.apk) | [Mac](https://github.com/rustdesk/rustdesk/releases/download/1.2.3/rustdesk-1.2.3-aarch64.dmg)\r\n\r\n More: [check below please](#)\r\n\r\n <details>\r\n <summary>Changelog</summary>\r\n\r\n- Improve Wayland support, cursor/clipboard/multi-monitors etc, but highly depends on Xwayland, working well on GNOME, bad compatibility on KDE. We will continue working on Wayland\r\n- Add group tab\r\n- Add software update check based on github latest tag\r\n- Some fixes for Kaspersky compliance, https://github.com/rustdesk/rustdesk/discussions/5624, but they requested more\r\n- A lot of fixes since 1.2.2\r\n- We are still working hard on dual-monitors-dual-windows and new hardware codecs, hopefully be in 1.2.4\r\n\r\n </details>"
@@ -5148,8 +5148,8 @@
     "https://github.com/FreeRDP/FreeRDP": {
         "created_at": "2011-06-30 19:14:15",
         "description": "FreeRDP is a free remote desktop protocol library and clients",
-        "commit_date": "2023-11-20 17:00:42",
-        "commit_message": "[core,gateway] fix TSG_PACKET_TYPE_QUARENC_RESPONSE\n\nparsing of TSG_PACKET_TYPE_QUARENC_RESPONSE was incomplete, fix that",
+        "commit_date": "2023-11-21 14:54:01",
+        "commit_message": "[scard] allow INFINITE timeout",
         "release_tag": "2.11.2",
         "release_date": "2023-09-20 08:12:02",
         "release_message": "Notworthy changes:\r\n* Backported #9378: backported wArrayList (optional) copy on insert\r\n* Backported #9360: backported certificate algorithm detection\r\n\r\n[freerdp-2.11.2.zip](https://github.com/FreeRDP/FreeRDP/files/12670556/freerdp-2.11.2.zip)\r\n[freerdp-2.11.2.tar.gz](https://github.com/FreeRDP/FreeRDP/files/12670558/freerdp-2.11.2.tar.gz)\r\n"
@@ -5263,8 +5263,8 @@
     "https://github.com/alibaba/arthas": {
         "created_at": "2018-08-29 17:15:57",
         "description": "Alibaba Java Diagnostic Tool Arthas/Alibaba Java诊断利器Arthas",
-        "commit_date": "2023-11-14 03:06:08",
-        "commit_message": "Prettified Code!",
+        "commit_date": "2023-11-21 02:43:46",
+        "commit_message": "add known user (#2731)",
         "release_tag": "arthas-all-3.7.1",
         "release_date": "2023-08-24 12:32:49",
         "release_message": "Issues: https://github.com/alibaba/arthas/milestone/49?closed=1\r\n\r\n* #2620 当 listen 0.0.0.0 时，默认生成随机密码，需要鉴权\r\n\r\n* #2633  修复在线教程，切换到 killercoda feat: update online tutorials, switch to killercoda "
@@ -6049,8 +6049,8 @@
     "https://github.com/zema1/suo5": {
         "created_at": "2022-11-22 11:45:26",
         "description": "一款高性能 HTTP 代理隧道工具 | A high-performance http proxy tunneling tool",
-        "commit_date": "2023-09-04 10:22:18",
-        "commit_message": "Merge pull request #37 from zema1/bump-go-version\n\nfeat: bump up go to v1.20",
+        "commit_date": "2023-11-21 06:22:20",
+        "commit_message": "Merge pull request #39 from zema1/feat-cookiejar\n\nSupport cookiejar",
         "release_tag": "v0.9.0",
         "release_date": "2023-06-29 14:05:12",
         "release_message": "Server 端从这里获取 https://github.com/zema1/suo5/tree/v0.9.0/assets ，不同版本的 Server 端请不要混用，否则会有不兼容连不上的问题。\r\n\r\n> 带 gui 的版本是界面版，不带 gui 的为命令行版。\r\n> 所有编译由 Github Action 自动构建，请放心使用。\r\n\r\n## 新增\r\n\r\n- 增加脏数据跳过逻辑, 自动计算偏移 #11\r\n- 增加 `jspx` 形式的服务端, 通过全部中间件的测试 #31\r\n- 允许连接测试时的 `EOF` 的情况，解决部分 Listener 内存马连不上的问题\r\n\r\n### 修复\r\n- 修复上游代理对连接测试的这个请求不生效的问题"
@@ -6391,8 +6391,8 @@
     "https://github.com/WerWolv/ImHex": {
         "created_at": "2020-11-10 14:27:00",
         "description": "🔍 A Hex Editor for Reverse Engineers, Programmers and people who value their retinas when working at 3 AM.",
-        "commit_date": "2023-11-20 22:58:49",
-        "commit_message": "impr: Move OpenGL loaders into header to avoid issues in the future",
+        "commit_date": "2023-11-21 13:38:01",
+        "commit_message": "refactor: Rename and update localization system",
         "release_tag": "v1.31.0",
         "release_date": "2023-09-24 18:52:41",
         "release_message": "## Additions\r\n- **Added a command line interface to ImHex.** Huge thanks to @iTrooz\r\n    - Get started by typing `imhex --help`\r\n- **Added initial support for .NET scripts**\r\n    - These scripts are meant to be a cross-platform way of performing automated actions.\r\n    - They cannot be used to add new features like native plugins can\r\n    - Special thanks to @PerikiyoXD for some really involved fixes around this\r\n- **Added Achievements**\r\n    - These are meant to provide an easy and fun way to learn and get used to ImHex\r\n    - The achievement window can be opened by going to Extras -> Achievement\r\n    - If you don't like the achievements and just want to use ImHex like before, open the achievements window and disable the popups there\r\n- Added a new and much nicer splash screen\r\n- Allow memory files to be saved to project files and be renamed\r\n    - Files can also be converted to memory files now\r\n- Added support for hashing arbitrary strings using the hashes view\r\n- Added built-in logging console\r\n- Allow hex editor data visualizers to be switched to big-endian mode\r\n- Upgraded to Capstone V5 finally\r\n- Encoding names are now being displayed in the header of the hex editor\r\n- Added a \"Update All\" button to the content store\r\n- Linux now uses the GTK filepicker whenever possible\r\n    - This should correct issues where the file picker didn't work correctly on some Linux systems by default\r\n    - The AppImage and Flatpak still use the Portals filepicker because it's necessary there\r\n- The hex editor editing mode is now being entered when pressing Enter\r\n- Added a setting to remember the current main window size and position\r\n- Added option to fill a selected region with bytes\r\n- Added option to switch between human-readable sizes and bytes in the hex editor footer. Thanks to @LennardF1989 \r\n- Removed Anonfiles file uploader. Rest in Peace ✝️\r\n- Added windo actions popup when clicking on the header icon\r\n- Added authors and descriptions to things in the content store\r\n- Added shortcuts to switch between providers, evaluate patterns and interact with the pattern debugger\r\n\r\n## Improvements\r\n- Improved the data information diagrams look and field\r\n- Multi-window support is now being disabled properly by default on Linux\r\n- Plugins are now being loaded asynchronously to improve startup times\r\n- Pattern console is automatically scrolled to the bottom now when new lines are being added\r\n- Unidentifiable data is being handled better now in the data information view\r\n- Allow hex editor view to be scrolled slightly past the end\r\n- Made demangler results selectable and copyable\r\n- Timestamp of files is being updated correctly now on Windows. Thanks to @lorsanta \r\n- ImHex should now exit cleanly when crashing\r\n- Bytes per row count setting in the hex editor is being remembered now. Thanks to @LennardF1989 \r\n\r\n## Bug Fixes\r\n- Fixed raw disk provider not working correctly on non-windows platforms. Thanks a lot to @Nowilltolife \r\n- Fixed disassembler view not clearning selection when typing in the region field\r\n- Fixed page count displaying wrongly in empty files\r\n- Fixed crash when trying to paste bytes without a selection\r\n- Fixed occasional crash when evaluating patterns\r\n- Fixed scaling not being applied properly in some cases\r\n- Fixed bookmarks not being loaded correctly from project files\r\n- Fixed menu bar being scrollable sideways\r\n- Fixed loading projects when an existing project is loaded already\r\n- Fixed issues where the cursor started flickering when hovering certain elements\r\n- Fixed crash when clicking on \"Open in new view\" in a bookmark\r\n- Fixed occasional crash when loading incorrect data processor node files\r\n- Fixed writing to non-zero pages in the hex editor when a custom base address has been set\r\n- Fixed issue where libmagic dumped a bunch of compiled files into the cwd on Linux and macOS. Thanks to @iTrooz \r\n- Fixed endianess of all CRC hashes\r\n- Fixed highest/lowest entropy block address in the data information view being wrong\r\n- Fixed issue where downloading items from the store was suceptible for path traversal. Thanks to @iTrooz \r\n- Fixed various data processor issues\r\n\r\n## Pattern Language\r\n- Added `typenameof` operator\r\n- Added `[[hex::favorite]]` attribute to mark patterns as favorites directly\r\n- Added `[[hex::group]]` attribute to add patterns to custom groups in the pattern data view\r\n- Added single-stepping feature to pattern debugger\r\n- Added coordinates visualizer\r\n- Added timestamp visualizer\r\n- Images in the pattern image and bitmap visualizer can now be scaled\r\n- Added various new inline visualizers such as \"color\", \"guage\" and \"button\"\r\n- Format functions are no longer being evaluated during highlighting\r\n- Sections without a name are being hidden now and treated as \"internal\" sections\r\n- Added `[[hex::spec_name]]` attribute to document names for pattern variables taken from the documentation\r\n- Added string in/out variables\r\n- Fixed issue where pattern local variables sometimes allocated huge amounts of memory\r\n\r\n![image](https://github.com/WerWolv/ImHex/assets/10835354/9bcaf682-ed02-4e3d-9d06-0c55a1ddc030)\r\n\r\n\r\n<br/>\r\n\r\n<p align=\"center\">If you like my work, please consider supporting me on GitHub Sponsors, Patreon or PayPal. Thanks a lot!</p>\r\n<p align=\"center\">\r\n<a href=\"https://github.com/sponsors/WerWolv\"><img src=\"https://werwolv.net/assets/github_banner.png\" alt=\"GitHub donate button\" /> </a>\r\n<a href=\"https://www.patreon.com/werwolv\"><img src=\"https://c5.patreon.com/external/logo/become_a_patron_button.png\" alt=\"Patreon donate button\" /> </a>\r\n<a href=\"https://werwolv.net/donate\"><img src=\"https://werwolv.net/assets/paypal_banner.png\" alt=\"PayPal donate button\" /> </a>\r\n</p"
@@ -6427,8 +6427,8 @@
     "https://github.com/audacity/audacity": {
         "created_at": "2015-03-26 10:46:17",
         "description": "Audio Editor                                     ",
-        "commit_date": "2023-11-20 20:37:46",
-        "commit_message": "Merge pull request #4379 from Paul-Licameli/break-dependencies-on-toolbars\n\nBreak dependencies on toolbars\r\n\r\nFix some old confusions in the flow of notifications, which resulted in undesirable\r\ndependencies of non-UI code on UI.\r\n\r\nSetProjectCommand, ImportAUP, ProjectFileManager, ProjectManager,\r\nand ProjectSelectionManager no longer depend on toolbars;\r\nand the last also no longer depends on TrackPanel or ProjectWindow.\r\n\r\nInstead, all those windows use Observer to\r\nupdate for changes of selection formats or snapping choices.\r\n\r\nFewer places depend on ProjectSelectionManager. That class now exists\r\nmostly to update persistent preferences and the time selection in response to\r\nproject format changes.\r\n\r\nProjectSelectionManager moves into lib-time-frequency-selection, which\r\nrequires Snap to move into lib-snapping.\r\n\r\nNo new libraries but some changes in dependencies among libraries.",
+        "commit_date": "2023-11-21 19:25:52",
+        "commit_message": "fix cmake options for VST3SDK >= 3.7.8\n\nAs these options were renamed in the meantime they caused the explictly\ndisabled parts of VST3SDK to be built again. We therefore adapt the\nbuild options of VST3SDK so they are disabled again.\n\nhttps://github.com/steinbergmedia/vst3sdk/commit/0041ef2c879c3c54c03d33cdc11a97eaebfb5752\n\nSigned-off-by: Christian Heusel <christian@heusel.eu>",
         "release_tag": "Audacity-3.4.2",
         "release_date": "2023-11-16 15:10:06",
         "release_message": " This is a hotfix release. It fixes the following issues:\r\n\r\n * #5568 Fix a crash when opening projects with zero-length clips.\r\n * #5032 When exporting a file, the sample rate of the tracks is now considered, and last-used sample rate is remembered. \r\n * #5555 Copy-pasting now pastes into audio again by default.  This can be changed via Preferences -> Track Behavior -> Always paste audio as new clips.\r\n * #5549 Mix and render now also resets the gain for the resulting track.\r\n * #5571 Fix clips shifting to the right when effects are applied to them.\r\n * #5106 Fix clicks occurring when overdubbing a project with muted tracks.\r\n * #5533 Fix files being exported without a file extension in rare cases.\r\n * #5539 Show all sample rates possible for MP2 exports.\r\n * #5518 Fix pasting into labels.\r\n * #5543 Fix a crash when clearing loops.\r\n * #5529 Fix copying when \"select all audio if selection required\" is enabled.\r\n * #5598 #5552 Fix GTK detection and compilation for wxWidgets 3.2.4.\r\n * #5551 Fix Nyquist-related crashes.\r\n * #5604 Fix EQs in macros.\r\n * #5511 Fix a crash when closing Audacity.\r\n * #5476 Fix builds on armhf."
@@ -6508,8 +6508,8 @@
     "https://github.com/arch3rPro/PST-Bucket": {
         "created_at": "2023-04-24 06:49:11",
         "description": "Scoop-Buket for Penetration Suite Toolkit",
-        "commit_date": "2023-11-19 08:27:57",
-        "commit_message": "reverse_ssh: Update to version 2.3.0",
+        "commit_date": "2023-11-21 08:29:58",
+        "commit_message": "reverse_ssh: Update to version 2.3.1",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -6562,8 +6562,8 @@
     "https://github.com/horsicq/DIE-engine": {
         "created_at": "2014-10-13 15:20:21",
         "description": "DIE engine",
-        "commit_date": "2023-11-21 00:22:59",
-        "commit_message": "Update module: Formats 2023-11-21",
+        "commit_date": "2023-11-21 23:15:50",
+        "commit_message": "Update module: XInfoDB 2023-11-22",
         "release_tag": "3.08",
         "release_date": "2023-07-21 22:49:18",
         "release_message": "Please see the file [CHANGELOG](https://github.com/horsicq/Detect-It-Easy/blob/master/changelog.txt) for a detailed list of changes.\r\n\r\n\r\n| Asset / File | Description / Host OS |\r\n| ----------- | ----------- |\r\n| [die_sourcecode_3.08.tar.gz](https://github.com/horsicq/DIE-engine/releases/download/3.08/die_sourcecode_3.08.tar.gz) | Source code tarball |\r\n| [Detect_It_Easy-3.08-x86_64.AppImage](https://github.com/horsicq/DIE-engine/releases/download/3.08/Detect_It_Easy-3.08-x86_64.AppImage) | Portable version for Linux [How to run](https://github.com/horsicq/Detect-It-Easy/blob/master/docs/RUN.md) |\r\n| [die_3.08_Debian_10_amd64.deb](https://github.com/horsicq/DIE-engine/releases/download/3.08/die_3.08_Debian_10_amd64.deb) | Installer for Debian 10 |\r\n| [die_3.08_Debian_11_amd64.deb](https://github.com/horsicq/DIE-engine/releases/download/3.08/die_3.08_Debian_11_amd64.deb) | Installer for Debian 11 |\r\n| [die_3.08_Debian_12_amd64.deb](https://github.com/horsicq/DIE-engine/releases/download/3.08/die_3.08_Debian_12_amd64.deb) | Installer for Debian 12 |\r\n| [die_3.08_Ubuntu_14.04_amd64.deb](https://github.com/horsicq/DIE-engine/releases/download/3.08/die_3.08_Ubuntu_14.04_amd64.deb) | Installer for Ubuntu 14.04 |\r\n| [die_3.08_Ubuntu_16.04_amd64.deb](https://github.com/horsicq/DIE-engine/releases/download/3.08/die_3.08_Ubuntu_16.04_amd64.deb) | Installer for Ubuntu 16.04 |\r\n| [die_3.08_Ubuntu_18.04_amd64.deb](https://github.com/horsicq/DIE-engine/releases/download/3.08/die_3.08_Ubuntu_18.04_amd64.deb) | Installer for Ubuntu 18.04 |\r\n| [die_3.08_Ubuntu_20.04_amd64.deb](https://github.com/horsicq/DIE-engine/releases/download/3.08/die_3.08_Ubuntu_20.04_amd64.deb) | Installer for Ubuntu 20.04 |\r\n| [die_3.08_Ubuntu_22.04_amd64.deb](https://github.com/horsicq/DIE-engine/releases/download/3.08/die_3.08_Ubuntu_22.04_amd64.deb) | Installer for Ubuntu 22.04 |\r\n| [die_3.08_Ubuntu_22.10_amd64.deb](https://github.com/horsicq/DIE-engine/releases/download/3.08/die_3.08_Ubuntu_22.10_amd64.deb) | Installer for Ubuntu 22.10 |\r\n| [die_3.08_Ubuntu_23.04_amd64.deb](https://github.com/horsicq/DIE-engine/releases/download/3.08/die_3.08_Ubuntu_23.04_amd64.deb) | Installer for Ubuntu 23.04 |\r\n| [die_3.08_portable_Ubuntu_20.04_amd64.tar.gz](https://github.com/horsicq/DIE-engine/releases/download/3.08/die_3.08_portable_Ubuntu_20.04_amd64.tar.gz) | Portable version for Ubuntu 20.04 |\r\n| [detect-it-easy-3.08-1-x86_64.pkg.tar.zst](https://github.com/horsicq/DIE-engine/releases/download/3.08/detect-it-easy-3.08-1-x86_64.pkg.tar.zst) | Installer for Arch Linux |\r\n| [die_mac_3.08_x86_64.pkg](https://github.com/horsicq/DIE-engine/releases/download/3.08/die_mac_3.08_x86_64.pkg) | Installer for macOS |\r\n| [die_mac_qt6_3.08_arm64.pkg](https://github.com/horsicq/DIE-engine/releases/download/3.08/die_mac_qt6_3.08_arm64.pkg) | Installer for macOS Qt6 M1 processor|\r\n| [die_mac_portable_3.08_x86_64.zip](https://github.com/horsicq/DIE-engine/releases/download/3.08/die_mac_portable_3.08_x86_64.zip) | Portable version for macOS |\r\n| [die_win32_portable_3.08_x86.zip](https://github.com/horsicq/DIE-engine/releases/download/3.08/die_win32_portable_3.08_x86.zip) | Portable version for x86 Win32 (Win7-Win11)|\r\n| [die_win64_portable_3.08_x64.zip](https://github.com/horsicq/DIE-engine/releases/download/3.08/die_win64_portable_3.08_x64.zip) | Portable version for x64 Win64 (Win7-Win11) |\r\n| [die_winxp_portable_3.08_x86.zip](https://github.com/horsicq/DIE-engine/releases/download/3.08/die_winxp_portable_3.08_x86.zip) | Portable version for Windows XP (WinXP-Win11) |\r\n\r\n\r\nExperimental versions - There may be bugs in the GUI\r\n\r\n| Asset / File | Description / Host OS |\r\n| ----------- | ----------- |\r\n| [die_win64_qt6_portable_3.08_x64.zip](https://github.com/horsicq/DIE-engine/releases/download/3.08/die_win64_qt6_portable_3.08_x64.zip) | Portable version for x64 Win64 Qt6 (Win10-Win11)|\r\n\r\n"
@@ -6598,8 +6598,8 @@
     "https://github.com/ImageMagick/ImageMagick": {
         "created_at": "2015-05-17 20:07:50",
         "description": "🧙‍♂️ ImageMagick 7",
-        "commit_date": "2023-11-20 11:14:09",
-        "commit_message": "cosmetic",
+        "commit_date": "2023-11-21 14:53:48",
+        "commit_message": "valid blob size only if there are no I/O exceptions",
         "release_tag": "7.1.1-21",
         "release_date": "2023-10-22 15:35:55",
         "release_message": "## What's Changed\n* Define quantum depth for PerlMagick on windows by @hakonhagland in https://github.com/ImageMagick/ImageMagick/pull/6770\n* Add the up to date \"Artifex\" name to Ghostscript list by @chris-liddell in https://github.com/ImageMagick/ImageMagick/pull/6779\n* honor pkg-config when searching for libjpeg by @mmomtchev in https://github.com/ImageMagick/ImageMagick/pull/6784\n* honor pkg-config when searching for bzip2 by @mmomtchev in https://github.com/ImageMagick/ImageMagick/pull/6785\n\n## New Contributors\n* @hakonhagland made their first contribution in https://github.com/ImageMagick/ImageMagick/pull/6770\n* @chris-liddell made their first contribution in https://github.com/ImageMagick/ImageMagick/pull/6779\n\n**Full Changelog**: https://github.com/ImageMagick/ImageMagick/compare/7.1.1-20...7.1.1-21"
@@ -7749,8 +7749,8 @@
     "https://github.com/openwall/john": {
         "created_at": "2011-12-16 19:43:47",
         "description": "John the Ripper jumbo - advanced offline password cracker, which supports hundreds of hash and cipher types, and runs on many operating systems, CPUs, GPUs, and even some FPGAs",
-        "commit_date": "2023-11-19 19:25:46",
-        "commit_message": "Add overhauled version of pdf2john.py",
+        "commit_date": "2023-11-21 17:47:36",
+        "commit_message": "NEWS: Add Keplr wallet support",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -8674,8 +8674,8 @@
     "https://github.com/nomi-sec/PoC-in-GitHub": {
         "created_at": "2019-12-08 13:03:54",
         "description": "📡 PoC auto collect from GitHub. ⚠️ Be careful Malware.",
-        "commit_date": "2023-11-21 00:33:58",
-        "commit_message": "Auto Update 2023/11/21 00:33:58",
+        "commit_date": "2023-11-22 00:32:58",
+        "commit_message": "Auto Update 2023/11/22 00:32:58",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -10600,8 +10600,8 @@
     "https://github.com/BishopFox/sliver": {
         "created_at": "2019-01-17 22:07:38",
         "description": "Adversary Emulation Framework",
-        "commit_date": "2023-11-20 22:24:08",
-        "commit_message": "Merge pull request #1470 from BishopFox/eda5dependabot/go_modules/github.com/mattn/go-sqlite3-1.14.18\n\nBump github.com/mattn/go-sqlite3 from 1.14.17 to 1.14.18",
+        "commit_date": "2023-11-21 20:28:42",
+        "commit_message": "Merge pull request #1467 from BishopFox/5fa4dependabot/go_modules/github.com/yiya1989/sshkrb5-0.0.1\n\nBump github.com/yiya1989/sshkrb5 from 0.0.0-20201110125252-a1455b75a35e to 0.0.1",
         "release_tag": "v1.5.41",
         "release_date": "2023-07-11 21:41:22",
         "release_message": ""
@@ -13000,8 +13000,8 @@
     "https://github.com/rapid7/metasploit-framework": {
         "created_at": "2011-08-30 06:13:20",
         "description": "Metasploit Framework",
-        "commit_date": "2023-11-16 18:06:13",
-        "commit_message": "Bump version of framework to 6.3.44",
+        "commit_date": "2023-11-21 15:56:54",
+        "commit_message": "automatic module_metadata_base.json update",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -22078,8 +22078,8 @@
         "release_tag": "rel/2.22.0",
         "release_date": "2023-11-20 08:14:11",
         "release_message": "This releases provides a [CycloneDX Software Bill of Materials (SBOM)](https://cyclonedx.org/capabilities/sbom) along with each artifact and contains bug fixes addressing issues in the JPMS & OSGi infrastructure overhauled in `2.21.0`, dependency updates, and some other minor fixes and improvements.\r\n\r\n### CycloneDX Software Bill of Materials (SBOM)\r\n\r\nThis is _the first Log4j release_ that provides a [CycloneDX Software Bill of Materials (SBOM)](https://cyclonedx.org/capabilities/sbom) along with each artifact. Generated SBOMs are attached as artifacts with `cyclonedx` classifier and XML extensions, that is, `<artifactId>-<version>-cyclonedx.xml`. They contain `vulnerability-assertion` references to a [CycloneDX Vulnerability Disclosure Report (VDR)](https://cyclonedx.org/capabilities/vdr) that Apache Logging Services uses for all projects it maintains. This VDR is accessible through the following URL: https://logging.apache.org/cyclonedx/vdr.xml[]\r\n\r\nSBOM generation is streamlined by `logging-parent`, see [its website](https://logging.apache.org/logging-parent/latest/#cyclonedx-sbom) for details.\r\n\r\n### Changed\r\n\r\n* Change the order of evaluation of `FormattedMessage` formatters. Messages are evaluated using `java.util.Format` only if they don't comply to the `java.text.MessageFormat` or `ParameterizedMessage` format. (#1223)\r\n* Change default encoding of HTTP Basic Authentication to UTF-8 and add `log4j2.configurationAuthorizationEncoding` property to overwrite it. (#1970)\r\n* Update `com.fasterxml.jackson:jackson-bom` to version `2.16.0` (#1974)\r\n* Update `com.github.luben:zstd-jni` to version `1.5.5-10` (#1940)\r\n* Update `com.google.guava:guava` to version `32.1.3-jre` (#1875)\r\n* Update `io.netty:netty-bom` to version `4.1.101.Final` (#1960)\r\n* Update `org.eclipse.persistence:org.eclipse.persistence.jpa` to version `2.7.13` (#1900)\r\n* Update `org.fusesource.jansi:jansi` to version `2.4.1` (#1907)\r\n* Update `org.mongodb:bson` to version `4.11.1` (#1957)\r\n* Update `org.springframework:spring-framework-bom` to version `5.3.30`\r\n* Update `org.springframework.boot:spring-boot` to version `2.7.17` (#1874)\r\n* Update `org.springframework:spring-framework-bom` to version `5.3.31` (#1973)\r\n* Update `org.zeromq:jeromq` to version `0.5.4` (#1878)\r\n\r\n### Removed\r\n\r\n* Removed unused `FastDateParser` which was causing unnecessary heap overhead ([LOG4J2-3672](https://issues.apache.org/jira/browse/LOG4J2-3672), #1848)\r\n\r\n### Fixed\r\n\r\n* Fix MDC pattern converter causing issues for `%notEmpty` (#1922)\r\n* Export missing OSGi & JPMS modules in `log4j-layout-template-json` and `log4j-1.2-api` (#1895)\r\n* Fix `spring-test` dependency scope change ([LOG4J2-3675](https://issues.apache.org/jira/browse/LOG4J2-3675))\r\n* Fix JPMS descriptors causing `jlink` issues (#1896)\r\n* Add missing `Implementation-` and `Specification-` entries to `MANIFEST.MF` (implemented by `logging-parent` version `10.3.0` update) (#1923)\r\n* Fix `NotSerializableException` thrown when `Logger` is serialized with a `ReusableMessageFactory` (#1884)\r\n",
-        "commit_date": "2023-11-20 19:28:31",
-        "commit_message": "Javadoc fix (#1980)"
+        "commit_date": "2023-11-21 19:16:45",
+        "commit_message": "Fix `log4j-to-slf4j` JPMS and OSGi descriptors\n\nDue to the upgrade from SLF4J 1.7.x to 2.x, the JPMS and OSGi\ndescriptors of `log4j-to-slf4j` suffer from these shortcomings:\n\n * the JPMS descriptor uses a filebased `slf4j-api` module name (instead\n   of `org.slf4j`,\n * the OSGi descriptor accepts a restricted range of SLF4J versions: [2,\n   3). Since `slf4j-api` 2.x is technically just a minor version update\n   of `slf4j-api` 1.7.x, we should use an extended range of [1.7, 3).\n\nCloses #1983."
     },
     "https://github.com/phpmyadmin/phpmyadmin": {
         "created_at": "2012-01-19 13:21:52",
@@ -22515,8 +22515,8 @@
     "https://github.com/Yeuoly/0xUBypass": {
         "created_at": "2022-11-06 14:04:02",
         "description": "AntiAV shellcode loader",
-        "commit_date": "2023-11-16 11:22:17",
-        "commit_message": "update: readme",
+        "commit_date": "2023-11-21 01:27:44",
+        "commit_message": "Update README.md",
         "release_tag": "1.0.0",
         "release_date": "2023-11-16 11:09:46",
         "release_message": "这是64位的，shellcode要求为64位"
