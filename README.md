@@ -1,8 +1,12 @@
-# 更新于 2023-11-24 08:35:51
+# 更新于 2023-11-25 08:34:10
 
 ## 近15天release更新记录
 | 更新时间 | 项目名称 | 版本 | 更新内容 |
 | :---- | :---- | :---- | :---- |
+|2023-11-24 06:28:51|[safeline](https://github.com/chaitin/safeline)|v3.13.2|### 修复 - 修复了 safeline-fvm-manage<br>r 容器的健康检查错误结果|
+|2023-11-24 06:21:04|[ghauri](https://github.com/r0oth3x49/ghauri)|1.2.9|### Features - Added support for soap<br>/xml based data processing and injecti<br>on.. (experimental) - fixed #47 |
+|2023-11-24 02:14:19|[Viper](https://github.com/FunnyWolf/Viper)|2023-11<br>-23-15-1<br>8-35|### Bugfix - Fix https://github.com/F<br>unnyWolf/Viper/issues/129 渗透服务连接<br>失败,请检查MSFRPC状态 问题|
+|2023-11-24 01:00:06|[mitaka](https://github.com/ninoseki/mitaka)|v1.3.5|## What's Changed * fix: urlscan.io s<br>chema issue by @ninoseki in https://gi<br>thub.com/ninoseki/mitaka/pull/772 * v1<br>.3.5 by @ninoseki in https://github.co<br>m/ninoseki/mitaka/pull/773 **|
 |2023-11-23 15:07:19|[WebGoat](https://github.com/WebGoat/WebGoat)|v2023.5|## Version 2023.5 ### New functionali<br>ty - Implement JWT jku example (#1552)<br> - Java 21 initial support (#1622) - i<br>mprove MFAC lesson hint texts for a be<br>tter user experience (#1424) |
 |2023-11-23 11:08:29|[Elkeid](https://github.com/bytedance/Elkeid)|rasp-v2<br>.2.1.3-s<br>can-clas<br>s||
 |2023-11-22 12:57:24|[codeql-cli-binari<br>es](https://github.com/github/codeql-cli-binaries)|v2.15.3|## Release 2.15.3 (2023-11-22) ### Ne<br>w features - A new compilation flag (-<br>-fail-on-ambiguous-relation-name) has <br>been added to specify that compilation<br> should fail if the compiler |
@@ -40,7 +44,6 @@
 |2023-11-14 19:41:38|[PostgresApp](https://github.com/PostgresApp/PostgresApp)|v2.6.8a|The November builds with PostgreSQL 1<br>2, 13, 14 and 15 were missing the "lat<br>est" symlink (#735). This release fixe<br>s this issue. It is otherwise identica<br>l to 2.6.8.|
 |2023-11-14 18:00:04|[CSS-Exchange](https://github.com/microsoft/CSS-Exchange)|v23.11.<br>14.1759|Script | Version | SHA256 Hash ------<br>-|---------|------------  | 23.01.13.1<br>832 | 207EC18237489D6741B3EAF5945E7984<br>D4860AB06730E385A1DD352DF285C69F  | 23<br>.01.13.1832 | D5915A012972D20|
 |2023-11-14 12:54:50|[mitmproxy](https://github.com/mitmproxy/mitmproxy)|10.1.5|Changes: See . You can find the lates<br>t release packages at https://mitmprox<br>y.org/downloads/. |
-|2023-11-14 12:07:15|[mitaka](https://github.com/ninoseki/mitaka)|v1.3.4|- Fix search by all issue (#767)|
 |2023-11-14 09:33:27|[usql](https://github.com/xo/usql)|v0.16.0|## What's Changed * Update Runtime Co<br>nfiguration section in README by @exas<br>tone in https://github.com/xo/usql/pul<br>l/431 ## New Contributors * @exastone <br>made their first contribution|
 |2023-11-14 00:39:31|[wekan](https://github.com/wekan/wekan)|v7.18|This release adds the following new f<br>eatures: - . Thanks to gustavengstrom.<br> and adds the following updates: - . T<br>hanks to xet7. and fixes the following<br> bugs: - . Thanks to mueller-|
 |2023-11-13 23:08:30|[rundeck](https://github.com/rundeck/rundeck)|v4.17.3|Release v4.17.3|
@@ -60,60 +63,61 @@
 |2023-11-10 10:43:50|[nuclei-templates](https://github.com/projectdiscovery/nuclei-templates)|v9.6.9|🔥 Release Highlights 🔥 - network/cv<br>es/2023/CVE-2023-46604.yaml by @Ice3ma<br>n,@Mzack9999,@pdresearch 🔥 - javascri<br>pt/cves/2023/CVE-2023-34039.yaml by @t<br>arunKoyalwar 🔥 - code/cves/2023/|
 |2023-11-10 09:08:46|[mapcidr](https://github.com/projectdiscovery/mapcidr)|v1.1.15| - asnmap dep update **Full Changelog<br>**: https://github.com/projectdiscover<br>y/mapcidr/compare/v1.1.14...v1.1.15|
 |2023-11-10 07:18:45|[yakit](https://github.com/yaklang/yakit)|v1.2.7-<br>sp4|Yakit v1.2.7-sp4 1. 优化插件调试交互 <br>2. History数据包显示对应id，点击可跳转<br>到数据包对应的数据 3. ChatCS改为流式输<br>出，增加参数型prompt 4. 可保存多个过滤<br>器配置 5. 漏洞通知优先显示中文标题 6. <br>为了防止挡住操作，牛牛可上下拖动 7. 修<br>复WebFuzzer导出数据弹框的bug|
-|2023-11-09 14:56:49|[croc](https://github.com/schollz/croc)|v9.6.6|## Changelog * 159f0f8 Merge pull req<br>uest #625 from gravetii/patch-1 * 6ac6<br>7b6 Merge pull request #570 from PThor<br>pe92/main * 0af35d7 feat: add support <br>to respect .gitignore files *|
-|2023-11-09 14:08:16|[asnmap](https://github.com/projectdiscovery/asnmap)|v1.0.6| ## What's Changed ### 🐞 Bugs Fixes <br>* Adding missing response json tags by<br> @Mzack9999 in https://github.com/proj<br>ectdiscovery/asnmap/pull/213 **Full Ch<br>angelog**: https://github.com/|
-|2023-11-09 10:22:58|[stratus-red-team](https://github.com/DataDog/stratus-red-team)|v2.10.0|## Changelog * d151fe9 New attack tec<br>hnique: Persistence AWS Lambda Layer E<br>xtension (#427) by @adanalvarez |
-|2023-11-09 02:37:19|[feroxbuster](https://github.com/epi052/feroxbuster)|v2.10.1|## What's Changed * fixed scan menu r<br>ange issue by @epi052 in https://githu<br>b.com/epi052/feroxbuster/pull/936 * en<br>able reading extensions from file by @<br>andreademurtas in https://git|
 ## 近15天commit提交记录
 | 提交时间 | 项目名称 | 更新内容 |
 | :---- | :---- | :---- |
-|2023-11-24 00:28:30|[PoC-in-GitHub](https://github.com/nomi-sec/PoC-in-GitHub)|Auto Update 2023/11/24 00:28:30|
-|2023-11-24 00:05:27|[PocOrExp_in_Githu<br>b](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-11-24 08:05:27|
-|2023-11-24 00:00:02|[free](https://github.com/freefq/free)|updated_at 11-24 08:00|
+|2023-11-25 00:00:02|[free](https://github.com/freefq/free)|updated_at 11-25 08:00|
+|2023-11-24 23:43:03|[ImHex](https://github.com/WerWolv/ImHex)|impr: Greatly improve UI of about page|
+|2023-11-24 23:18:23|[rengine](https://github.com/yogeshojha/rengine)|Merge pull request #1074 from Vijayragha1/patch-1 U<br>pdate views.py|
+|2023-11-24 22:30:18|[PocOrExp_in_Githu<br>b](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-11-25 06:30:18|
+|2023-11-24 20:23:38|[FreeRDP](https://github.com/FreeRDP/FreeRDP)|[codec,dsp] fix ffmpeg deprecation warning|
+|2023-11-24 18:32:13|[PoC-in-GitHub](https://github.com/nomi-sec/PoC-in-GitHub)|Auto Update 2023/11/24 18:32:13|
+|2023-11-24 18:16:51|[ImageMagick](https://github.com/ImageMagick/ImageMagick)|display then write|
+|2023-11-24 16:31:47|[PST-Bucket](https://github.com/arch3rPro/PST-Bucket)|yakit: Update to version 1.2.7-sp5|
+|2023-11-24 14:45:25|[ThinkAdmin](https://github.com/zoujingli/ThinkAdmin)|Merge pull request #281 from wzy184249652/bugfix/up<br>load-error 解决由于普通上传和秒传返回格式不统一导致<br>的初次上传必然失败的bug|
+|2023-11-24 14:09:25|[safeline](https://github.com/chaitin/safeline)|feat: update deprecated link address|
+|2023-11-24 14:05:24|[audacity](https://github.com/audacity/audacity)|no more printing|
+|2023-11-24 13:11:56|[dbeaver](https://github.com/dbeaver/dbeaver)|#21955 Increase delay before rollback countdown is <br>shown (#21976)|
+|2023-11-24 12:35:42|[v2rayfree](https://github.com/aiboboxx/v2rayfree)|update|
+|2023-11-24 11:43:01|[gshark](https://github.com/madneal/gshark)|Update README.md|
+|2023-11-24 11:42:30|[syft](https://github.com/anchore/syft)|chore(deps): bump github/codeql-action from 2.22.7 <br>to 2.22.8 (#2351) Bumps  from 2.22.7 to 2.22.8. -  -<br>  -  --- updated-dependencies: - dependency-name: gi<br>thub/codeql-action depend|
+|2023-11-24 11:32:19|[afrog](https://github.com/zan8in/afrog)|update|
+|2023-11-24 11:30:28|[logging-log4j2](https://github.com/apache/logging-log4j2)|Update github/codeql-action to version 2.22.8 (#200<br>5)|
+|2023-11-24 11:19:40|[all-in-one-v2](https://github.com/zaivanza/all-in-one-v2)|add zora, scroll to orbiter|
+|2023-11-24 09:30:24|[arthas](https://github.com/alibaba/arthas)|use MethodHandles.Lookup IMPL_LOOKUP to support def<br>ine class after jdk 17. #2659|
+|2023-11-24 09:18:27|[SmsForwarder](https://github.com/pppscn/SmsForwarder)|新增：彩信转发功能（TODO:解析彩信） #351|
+|2023-11-24 07:51:07|[mitaka](https://github.com/ninoseki/mitaka)|Merge pull request #776 from ninoseki/change-defaul<br>t-options chore: change default options [skip ci]|
+|2023-11-24 06:36:05|[ghauri](https://github.com/r0oth3x49/ghauri)|updated tests.py...|
+|2023-11-24 05:15:17|[rustdesk](https://github.com/rustdesk/rustdesk)|Merge pull request #6514 from deep-soft/rustdesk-ru<br>stdesk fix bridge.yml (dtolnay/rust-toolchain)|
+|2023-11-24 03:29:39|[v2rayA](https://github.com/v2rayA/v2rayA)|1. Remove Docker Nightly for almost nobody use it2.<br> Add tzdata package to docker image|
+|2023-11-24 03:20:15|[Awesome-Redteam](https://github.com/Threekiii/Awesome-Redteam)|更新README.md|
+|2023-11-24 02:12:47|[Viper](https://github.com/FunnyWolf/Viper)|update version 2023-11-23-15-18-35|
+|2023-11-24 01:17:50|[appshark](https://github.com/bytedance/appshark)|when the source and sink are the same variable, the<br>re is no code detail.|
+|2023-11-24 00:39:24|[sqlmap](https://github.com/sqlmapproject/sqlmap)|Fixes #5574|
 |2023-11-23 23:14:58|[DIE-engine](https://github.com/horsicq/DIE-engine)|Update module: XOptions 2023-11-24|
-|2023-11-23 22:15:42|[ImHex](https://github.com/WerWolv/ImHex)|impr: Move custom font setting behind a enable chec<br>kbox|
 |2023-11-23 21:34:34|[WebGoat](https://github.com/WebGoat/WebGoat)|chore: back to snapshot|
-|2023-11-23 19:34:54|[audacity](https://github.com/audacity/audacity)|Fix build with -Daudacity_use_lv2=off libraries/lib<br>-lv2/LV2Utils.h:18:10: fatal error: lilv/lilv.h: No <br>such file or directory 18 | #include "lilv/lilv.h" /<br>/ for lilv_free | ^~~~~~~|
 |2023-11-23 18:37:45|[nuclei](https://github.com/projectdiscovery/nuclei)|Make the SSH client used in javascript templates ab<br>le to execute custom commands (#4407) * make ssh mod<br>ule store the connection * make ssh module able to e<br>xecute commands using the|
-|2023-11-23 18:07:25|[dbeaver](https://github.com/dbeaver/dbeaver)|#21615 Don't show results when extracting data (#21<br>953)|
-|2023-11-23 17:05:19|[FreeRDP](https://github.com/FreeRDP/FreeRDP)|client/common: Return NULL/-1 if settings value was<br> not set|
-|2023-11-23 16:53:28|[ImageMagick](https://github.com/ImageMagick/ImageMagick)|eliminate compiler warnings|
 |2023-11-23 16:46:16|[metasploit-framew<br>ork](https://github.com/rapid7/metasploit-framework)|Land #18526, Add a command to customise DNS resolut<br>ion|
-|2023-11-23 16:31:51|[PST-Bucket](https://github.com/arch3rPro/PST-Bucket)|cudatext-cn: Update to version 1.202.1.0|
-|2023-11-23 15:05:51|[rustdesk](https://github.com/rustdesk/rustdesk)|Merge pull request #6511 from deep-soft/rustdesk-ru<br>stdesk fix CI.yml (CARGO_TEST_OPTIONS and dtolnay/ru<br>st-toolchain)|
-|2023-11-23 14:53:00|[rengine](https://github.com/yogeshojha/rengine)|Merge pull request #1072 from psyray/fix-celery-bea<br>t-crash Temporary fix to prevent celery beat crash|
-|2023-11-23 12:36:44|[v2rayfree](https://github.com/aiboboxx/v2rayfree)|update|
-|2023-11-23 12:27:04|[appshark](https://github.com/bytedance/appshark)|fix cannot include the java source code in the deta<br>il report.|
-|2023-11-23 11:26:38|[logging-log4j2](https://github.com/apache/logging-log4j2)|Update org.springframework.boot:spring-boot to vers<br>ion 2.7.18 (#1998)|
 |2023-11-23 09:54:49|[vulnerability](https://github.com/lal0ne/vulnerability)|CVE-2023-49103|
-|2023-11-23 09:46:38|[Awesome-Redteam](https://github.com/Threekiii/Awesome-Redteam)|更新README.md|
-|2023-11-23 09:21:18|[afrog](https://github.com/zan8in/afrog)|update|
 |2023-11-23 09:08:17|[volatility3](https://github.com/volatilityfoundation/volatility3)|Merge pull request #885 from eve-mem/vmayarascan ad<br>d linux.vmayarascan|
 |2023-11-23 08:13:03|[Umi-OCR](https://github.com/hiroi-sora/Umi-OCR)|修Bug：开启“禁用美化效果”后，外部通知弹窗无法关闭<br> (#234)|
-|2023-11-23 08:02:55|[safeline](https://github.com/chaitin/safeline)|feat: remove privileged tag in compose.yml|
 |2023-11-23 07:04:20|[dperf](https://github.com/baidu/dperf)|Merge pull request #393 from pengjianzhang/main aut<br>hor|
-|2023-11-23 04:53:55|[arthas](https://github.com/alibaba/arthas)|Add jar file index to improve mc command compilatio<br>n speed (#2736)|
 |2023-11-23 00:38:51|[containerd](https://github.com/containerd/containerd)|Merge pull request #9412 from profnandaa/fix/dialer<br>_function_windows pkg/dialer: minor fix on dialer fu<br>nction for windows|
 |2023-11-22 18:33:47|[anti-AD](https://github.com/privacy-protection-tools/anti-AD)|Auto renew the anti-AD list.|
 |2023-11-22 14:09:48|[dirsearch](https://github.com/maurosoria/dirsearch)|Merge pull request #1319 from gdrosos/master Remove<br> Unused Dependencies|
-|2023-11-22 13:16:38|[SmsForwarder](https://github.com/pppscn/SmsForwarder)|新增：自定义模板可用标签 {{定位信息}}（英文系统：{{<br>LOCATION}}） #341 #343|
 |2023-11-22 12:52:27|[codeql-cli-binari<br>es](https://github.com/github/codeql-cli-binaries)|Merge pull request #168 from github/aibaars/admin/u<br>pdate-changelog-2.15.3 Update CHANGELOG.md for 2.15.<br>3|
-|2023-11-22 11:53:08|[v2rayA](https://github.com/v2rayA/v2rayA)|Use standard library container/list for lru (#1186)|
 |2023-11-22 11:15:36|[iDefender](https://github.com/wecooperate/iDefender)|update|
 |2023-11-22 10:46:40|[PyWxDump](https://github.com/xaoyaoo/PyWxDump)|修改readme|
 |2023-11-22 06:35:37|[frp](https://github.com/fatedier/frp)|sshTunnelGateway refactor (#3784)|
 |2023-11-22 02:09:57|[FrameVul](https://github.com/Awrrays/FrameVul)|Update README.md|
 |2023-11-22 01:44:45|[trivy](https://github.com/aquasecurity/trivy)|fix(nodejs): support protocols for dependency secti<br>on in yarn.lock files (#5612)|
 |2023-11-21 20:28:42|[sliver](https://github.com/BishopFox/sliver)|Merge pull request #1467 from BishopFox/5fa4dependa<br>bot/go_modules/github.com/yiya1989/sshkrb5-0.0.1 Bum<br>p github.com/yiya1989/sshkrb5 from 0.0.0-20201110125<br>252-a1455b75a35e to 0.0.1|
-|2023-11-21 18:48:25|[syft](https://github.com/anchore/syft)|use read lock in pkg collection (#2341) Signed-off-<br>by: Alex Goodman |
 |2023-11-21 18:47:08|[grype](https://github.com/anchore/grype)|chore(deps): bump anchore/sbom-action from 0.14.3 t<br>o 0.15.0 (#1611) Bumps  from 0.14.3 to 0.15.0. -  - <br> --- updated-dependencies: - dependency-name: anchor<br>e/sbom-action dependency-|
 |2023-11-21 17:47:36|[john](https://github.com/openwall/john)|NEWS: Add Keplr wallet support|
 |2023-11-21 10:45:54|[Elkeid](https://github.com/bytedance/Elkeid)|Version updated to 1.7.0.15 Signed-off-by: shenping<br>.matt |
 |2023-11-21 06:22:20|[suo5](https://github.com/zema1/suo5)|Merge pull request #39 from zema1/feat-cookiejar Su<br>pport cookiejar|
 |2023-11-21 01:27:44|[0xUBypass](https://github.com/Yeuoly/0xUBypass)|Update README.md|
 |2023-11-21 01:21:09|[awesome-chatgpt-z<br>h](https://github.com/yzfly/awesome-chatgpt-zh)|add ai good games and GPTs|
-|2023-11-21 00:30:14|[gshark](https://github.com/madneal/gshark)|set the release mode|
-|2023-11-20 20:55:33|[ghauri](https://github.com/r0oth3x49/ghauri)|fixed issue with custom injection market in paramet<br>er value...|
 |2023-11-20 18:08:34|[faker](https://github.com/joke2k/faker)|Bump version: 20.0.3 → 20.1.0|
 |2023-11-20 10:59:32|[kube-bench](https://github.com/aquasecurity/kube-bench)|feat(cis-1.24-microk8s): Add support to CIS-1.24 fo<br>r microk8s distro (#1510)|
 |2023-11-20 10:08:49|[HackerPermKeeper](https://github.com/RuoJi6/HackerPermKeeper)|Update README.md|
@@ -124,7 +128,6 @@
 |2023-11-20 03:27:56|[404StarLink](https://github.com/knownsec/404StarLink)|weekly update at 2023-11-20|
 |2023-11-20 00:09:46|[DecoyMini](https://github.com/decoymini/DecoyMini)|Update README.md|
 |2023-11-19 15:15:15|[Pillager](https://github.com/qwqdanchun/Pillager)|Update main.yml|
-|2023-11-19 08:24:30|[all-in-one-v2](https://github.com/zaivanza/all-in-one-v2)|change data to datas|
 |2023-11-19 06:36:49|[Library-POC](https://github.com/luck-ying/Library-POC)|Update 用友U8-cloud_RegisterServlet_sql注入.py|
 |2023-11-18 06:38:25|[blind_watermark](https://github.com/guofei9987/blind_watermark)|Merge pull request #121 from semikonductor/master U<br>pdate bwm_core.py|
 |2023-11-18 05:01:18|[ctf-archives](https://github.com/sajjadium/ctf-archives)|MUST chals|
@@ -218,7 +221,6 @@
 |2023-11-14 15:52:22|[broot](https://github.com/Canop/broot)|fix link to image in README|
 |2023-11-14 15:00:17|[dnscrypt-proxy-co<br>nfig](https://github.com/CNMan/dnscrypt-proxy-config)|Tue Nov 14 03:00:17 PM UTC 2023|
 |2023-11-14 12:54:48|[mitmproxy](https://github.com/mitmproxy/mitmproxy)|reopen main for development|
-|2023-11-14 12:01:55|[mitaka](https://github.com/ninoseki/mitaka)|Merge pull request #768 from ninoseki/v1.3.4 v1.3.4|
 |2023-11-14 10:15:57|[goreleaser](https://github.com/goreleaser/goreleaser)|chore(deps): bump actions/github-script from 6.4.1 <br>to 7.0.0 (#4424) Bumps  from 6.4.1 to 7.0.0.  Releas<br>e notes Sourced from actions/github-script's release<br>s.  v7.0.0 What's Changed|
 |2023-11-14 09:13:54|[f8x](https://github.com/ffffffff0x/f8x)|fix path issue(2023/11/14)|
 |2023-11-14 09:08:23|[signature-base](https://github.com/Neo23x0/signature-base)|Rhysida ELF IOCs|
@@ -235,12 +237,10 @@
 |2023-11-13 15:57:18|[Mythic](https://github.com/its-a-feature/Mythic)|v3.1.7 Added support for parallelized file chunk do<br>wnloads|
 |2023-11-13 13:44:27|[feroxbuster](https://github.com/epi052/feroxbuster)|fixed bug with url parsing; re: devx00|
 |2023-11-13 09:10:52|[MQTTX](https://github.com/emqx/MQTTX)|docs(web): update readme|
-|2023-11-13 09:09:41|[ThinkAdmin](https://github.com/zoujingli/ThinkAdmin)|同步更新代码|
 |2023-11-13 07:33:50|[nemo_go](https://github.com/hanc00l/nemo_go)|Update: v2.10.3|
 |2023-11-13 07:19:42|[httpx](https://github.com/projectdiscovery/httpx)|Merge branch 'dev'|
 |2023-11-13 03:48:29|[fuzzDicts](https://github.com/TheKingOfDuck/fuzzDicts)|Merge pull request #22 from aaddmin1122345/master '<br>directoryDicts'添加dirsearch字典|
 |2023-11-12 19:40:03|[coreruleset](https://github.com/coreruleset/coreruleset)|Merge pull request #3380 from coreruleset/revert-33<br>79-fix-request-filename fix: revert PR new rule to s<br>et request_filename var|
-|2023-11-12 19:38:47|[sqlmap](https://github.com/sqlmapproject/sqlmap)|Fixes #5566|
 |2023-11-12 18:20:49|[MoreFind](https://github.com/mstxq17/MoreFind)|docs: revise version number|
 |2023-11-12 18:20:43|[easy-rsa](https://github.com/OpenVPN/easy-rsa)|Updating OpenSSL to 3.1.4 Signed-off-by: Eric F Cri<br>st |
 |2023-11-12 17:21:16|[PayloadsAllTheThi<br>ngs](https://github.com/swisskyrepo/PayloadsAllTheThings)|Merge pull request #692 from jlkl/master Add two me<br>thods about LFI to RCE via PHP PEARCMD|
@@ -269,11 +269,7 @@
 |2023-11-10 13:14:27|[apollo](https://github.com/apolloconfig/apollo)|Apply audit log functions to portal using audit-log<br> module (#5008) * Fix serious appendDataInfluence bu<br>g in AuditSpanAspect. Add patch of dealing with coll<br>ection-type arg when AOP |
 |2023-11-10 08:00:28|[bat](https://github.com/sharkdp/bat)|Consider adding ?exclude_unsupported=1 to repology <br>badge|
 |2023-11-10 07:15:04|[trash-cli](https://github.com/andreafrancia/trash-cli)|Bump version to '0.23.11.10'|
-|2023-11-10 03:36:23|[Online_tools](https://github.com/Zhao-sai-sai/Online_tools)|0.4.0文件下载错修复|
-|2023-11-09 22:34:11|[psutil](https://github.com/giampaolo/psutil)|fix #2325: fix compilation on PyPy|
-|2023-11-09 14:56:42|[croc](https://github.com/schollz/croc)|bump 9.6.6|
-|2023-11-09 14:06:58|[asnmap](https://github.com/projectdiscovery/asnmap)|Merge branch 'dev'|
-|2023-11-09 13:41:46|[FiraCode](https://github.com/tonsky/FiraCode)|Update Notepad++ instructions link #1555|## 所有项目
+|2023-11-10 03:36:23|[Online_tools](https://github.com/Zhao-sai-sai/Online_tools)|0.4.0文件下载错修复|## 所有项目
 # 安全
 ## CTF
 ### AWD
@@ -706,7 +702,7 @@
 ###### SQL注入
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
-| [ghauri](https://github.com/r0oth3x49/ghauri) | 1.2.8 | An advanced cross-platform tool that automates the process of <br>detecting and exploiting SQL injection security flaws |
+| [ghauri](https://github.com/r0oth3x49/ghauri) | 1.2.9 | An advanced cross-platform tool that automates the process of <br>detecting and exploiting SQL injection security flaws |
 | [sqlmap](https://github.com/sqlmapproject/sqlmap) | 1.7 | Automatic SQL injection and database takeover tool |
 | [MSSQL_SQL_BYPASS_<br>WIKI](https://github.com/aleenzz/MSSQL_SQL_BYPASS_WIKI) |  | MSSQL注入提权,bypass的一些总结 |
 | [MYSQL_SQL_BYPASS_<br>WIKI](https://github.com/aleenzz/MYSQL_SQL_BYPASS_WIKI) |  | mysql注入,bypass的一些心得 |
@@ -765,7 +761,7 @@
 | [godnslog](https://github.com/chennqqi/godnslog) | v0.7.0 | An exquisite dns&http log server for verify SSRF/XXE/RFI/RCE v<br>ulnerability  |
 | [Exp-Tools](https://github.com/cseroad/Exp-Tools) | v1.2.3 | 一款集成高危漏洞exp的实用性工具 |
 | [ysoserial](https://github.com/frohoff/ysoserial) | v0.0.6 | A proof-of-concept tool for generating payloads that exploit u<br>nsafe Java object deserialization. |
-| [DNSlog-GO](https://github.com/lanyi1998/DNSlog-GO) | master | DNSLog-GO 是一款golang编写的监控 DNS 解析记录的工具，自带WEB界<br>面 |
+| [DNSlog-GO](https://github.com/lanyi1998/DNSlog-GO) | master | DNSLog-GO 是一款golang编写的监控 DNS 解析记录的工具，自带WEB界<br>面 / DNSLog-GO is a monitoring tool written in Golang that monit<br>ors DNS resolution records. It comes with a web interface. |
 | [revsuit](https://github.com/Li4n0/revsuit) | v0.7.1 | RevSuit is a flexible and powerful reverse connection platform<br> designed for receiving connection from target host in penetrat<br>ion.  |
 | [JNDIExploit-1](https://github.com/Mr-xn/JNDIExploit-1) | v1.2 | 一款用于 JNDI注入 利用的工具，大量参考/引用了 Rogue JNDI 项目<br>的代码，支持直接植入内存shell，并集成了常见的bypass 高版本JDK的<br>方式，适用于与自动化工具配合使用。（from https://github.com/feih<br>ong-cs/JNDIExploit） |
 | [JNDIExploit](https://github.com/qi4L/JNDIExploit) |  |  |
@@ -1091,7 +1087,7 @@
 #### 综合
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
-| [Viper](https://github.com/FunnyWolf/Viper) | 2023-09<br>-25-09-5<br>8-43 | Redteam operation platform with webui 图形化红队行动辅助平台 |
+| [Viper](https://github.com/FunnyWolf/Viper) | 2023-11<br>-23-15-1<br>8-35 | Redteam operation platform with webui 图形化红队行动辅助平台 |
 | [Ladon](https://github.com/k8gege/Ladon) | v11.9 | Ladon大型内网渗透工具，可PowerShell模块化、可CS插件化、可内存<br>加载，无文件扫描。含端口扫描、服务识别、网络资产探测、密码审计、<br>高危漏洞检测、漏洞利用、密码读取以及一键GetShell，支持批量A段/B<br>段/C段以及跨网段扫描，支持URL、主机、域名列表扫描等。Ladon 11.9<br>内置255个功能,网络资产探测模块32个通过多种协议(ICMP\N |
 #### 后渗透框架
 | 项目名称 | 版本 | 项目描述 |
@@ -1344,7 +1340,7 @@
 | [Heimdallr](https://github.com/graynjo/Heimdallr) |  |  |
 | [Zoomeye-Tools](https://github.com/knownsec/Zoomeye-Tools) |  | Zoomeye Tools是配合Zoomeye使用的Chrome插件 |
 | [Hack-Tools](https://github.com/LasCC/Hack-Tools) | 0.5.0 | The all-in-one Red Team extension for Web Pentester 🛠 |
-| [mitaka](https://github.com/ninoseki/mitaka) | v1.3.4 | A browser extension for OSINT search |
+| [mitaka](https://github.com/ninoseki/mitaka) | v1.3.5 | A browser extension for OSINT search |
 #### 渗透工具集合(虚拟机)
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
@@ -1580,7 +1576,7 @@
 #### Web应用防火墙
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
-| [safeline](https://github.com/chaitin/safeline) | v3.10.1 | 一款足够简单、足够好用、足够强的免费 WAF。基于业界领先的语义引<br>擎检测技术，作为反向代理接入，保护你的网站不受黑客攻击。 |
+| [safeline](https://github.com/chaitin/safeline) | v3.13.2 | 一款足够简单、足够好用、足够强的免费 WAF。基于业界领先的语义引<br>擎检测技术，作为反向代理接入，保护你的网站不受黑客攻击。 |
 | [openstar](https://github.com/starjun/openstar) |  | lua waf,nginx+lua,openresty,luajit,waf+,cdn,nginx |
 #### 欺骗防御
 | 项目名称 | 版本 | 项目描述 |
