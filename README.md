@@ -1,14 +1,15 @@
-# 更新于 2023-11-25 08:34:10
+# 更新于 2023-11-26 08:37:55
 
 ## 近15天release更新记录
 | 更新时间 | 项目名称 | 版本 | 更新内容 |
 | :---- | :---- | :---- | :---- |
+|2023-11-25 09:31:25|[java-memshell-gen<br>erator-release](https://github.com/pen4uin/java-memshell-generator-release)|v1.0.7.<br>beta3|### 更新日志 1. 修复 FastJson + Groov<br>y 漏洞利用封装的问题 [#12] 2. 修复 God<br>zilla 插件 "evalClass is null" 的问题.<br> [#15] 3. 修复 BCEL 利用的 Unsupported<br>ClassVersionError 问题.|
+|2023-11-25 08:35:15|[Elkeid](https://github.com/bytedance/Elkeid)|rasp-v2<br>.2.1.4-p<br>re||
 |2023-11-24 06:28:51|[safeline](https://github.com/chaitin/safeline)|v3.13.2|### 修复 - 修复了 safeline-fvm-manage<br>r 容器的健康检查错误结果|
 |2023-11-24 06:21:04|[ghauri](https://github.com/r0oth3x49/ghauri)|1.2.9|### Features - Added support for soap<br>/xml based data processing and injecti<br>on.. (experimental) - fixed #47 |
-|2023-11-24 02:14:19|[Viper](https://github.com/FunnyWolf/Viper)|2023-11<br>-23-15-1<br>8-35|### Bugfix - Fix https://github.com/F<br>unnyWolf/Viper/issues/129 渗透服务连接<br>失败,请检查MSFRPC状态 问题|
+|2023-11-24 02:14:19|[Viper](https://github.com/FunnyWolf/Viper)|2023-11<br>-25-18-4<br>8-35|### Bugfix - Fix https://github.com/F<br>unnyWolf/Viper/issues/129 渗透服务连接<br>失败,请检查MSFRPC状态 问题 - Fix https:<br>//github.com/FunnyWolf/Viper/issues/17<br>8 安装完成后访问Web页面时报502错误|
 |2023-11-24 01:00:06|[mitaka](https://github.com/ninoseki/mitaka)|v1.3.5|## What's Changed * fix: urlscan.io s<br>chema issue by @ninoseki in https://gi<br>thub.com/ninoseki/mitaka/pull/772 * v1<br>.3.5 by @ninoseki in https://github.co<br>m/ninoseki/mitaka/pull/773 **|
 |2023-11-23 15:07:19|[WebGoat](https://github.com/WebGoat/WebGoat)|v2023.5|## Version 2023.5 ### New functionali<br>ty - Implement JWT jku example (#1552)<br> - Java 21 initial support (#1622) - i<br>mprove MFAC lesson hint texts for a be<br>tter user experience (#1424) |
-|2023-11-23 11:08:29|[Elkeid](https://github.com/bytedance/Elkeid)|rasp-v2<br>.2.1.3-s<br>can-clas<br>s||
 |2023-11-22 12:57:24|[codeql-cli-binari<br>es](https://github.com/github/codeql-cli-binaries)|v2.15.3|## Release 2.15.3 (2023-11-22) ### Ne<br>w features - A new compilation flag (-<br>-fail-on-ambiguous-relation-name) has <br>been added to specify that compilation<br> should fail if the compiler |
 |2023-11-22 10:43:27|[PyWxDump](https://github.com/xaoyaoo/PyWxDump)|v2.2.8|[Auto Release] Update PyWxDump|
 |2023-11-21 00:26:21|[gshark](https://github.com/madneal/gshark)|v1.2.3|## Fixed * 修复扫描任务状态的问题|
@@ -58,43 +59,42 @@
 |2023-11-12 13:10:54|[fzf](https://github.com/junegunn/fzf)|0.44.0|- (Experimental) Sixel image support <br>in preview window (not available on Wi<br>ndows) -  is added to demonstrate how <br>to display an image using Kitty image <br>protocol or Sixel. You can us|
 |2023-11-11 19:20:44|[dnsx](https://github.com/projectdiscovery/dnsx)|v1.1.6| ## What's Changed ### Other Changes <br>* Added additional public resolver by <br>@Devang-Solanki in https://github.com/<br>projectdiscovery/dnsx/pull/480 * Fixed<br> panic crash ## New Contribut|
 |2023-11-11 15:14:40|[autoDecoder](https://github.com/f0ng/autoDecoder)|0.34|## 2023.11.11 更新0.34 1. 增加header<br>头关键字判断|
-|2023-11-10 14:20:15|[CotEditor](https://github.com/coteditor/CotEditor)|4.6.5|system requirements: __macOS 13__ and<br> later ### Improvements - Optimize the<br> performance of the incompatible chara<br>cter scan. - [trivial] Add a tooltip t<br>o font fields in the Appearan|
-|2023-11-10 13:32:30|[celery](https://github.com/celery/celery)|v5.3.5|Main theme of this release is adding <br>Python 3.12 compatibility support to a<br>ll through the projects dependencies. <br>Also lots of bugs were squashed. Depen<br>dencies upgraded and docs imp|
-|2023-11-10 10:43:50|[nuclei-templates](https://github.com/projectdiscovery/nuclei-templates)|v9.6.9|🔥 Release Highlights 🔥 - network/cv<br>es/2023/CVE-2023-46604.yaml by @Ice3ma<br>n,@Mzack9999,@pdresearch 🔥 - javascri<br>pt/cves/2023/CVE-2023-34039.yaml by @t<br>arunKoyalwar 🔥 - code/cves/2023/|
-|2023-11-10 09:08:46|[mapcidr](https://github.com/projectdiscovery/mapcidr)|v1.1.15| - asnmap dep update **Full Changelog<br>**: https://github.com/projectdiscover<br>y/mapcidr/compare/v1.1.14...v1.1.15|
-|2023-11-10 07:18:45|[yakit](https://github.com/yaklang/yakit)|v1.2.7-<br>sp4|Yakit v1.2.7-sp4 1. 优化插件调试交互 <br>2. History数据包显示对应id，点击可跳转<br>到数据包对应的数据 3. ChatCS改为流式输<br>出，增加参数型prompt 4. 可保存多个过滤<br>器配置 5. 漏洞通知优先显示中文标题 6. <br>为了防止挡住操作，牛牛可上下拖动 7. 修<br>复WebFuzzer导出数据弹框的bug|
 ## 近15天commit提交记录
 | 提交时间 | 项目名称 | 更新内容 |
 | :---- | :---- | :---- |
-|2023-11-25 00:00:02|[free](https://github.com/freefq/free)|updated_at 11-25 08:00|
-|2023-11-24 23:43:03|[ImHex](https://github.com/WerWolv/ImHex)|impr: Greatly improve UI of about page|
+|2023-11-26 00:27:57|[PoC-in-GitHub](https://github.com/nomi-sec/PoC-in-GitHub)|Auto Update 2023/11/26 00:27:57|
+|2023-11-26 00:09:32|[PocOrExp_in_Githu<br>b](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-11-26 08:09:32|
+|2023-11-26 00:00:15|[free](https://github.com/freefq/free)|updated_at 11-26 08:00|
+|2023-11-25 23:11:37|[DIE-engine](https://github.com/horsicq/DIE-engine)|Update module: XInfoDB 2023-11-26|
+|2023-11-25 19:47:58|[ctf-archives](https://github.com/sajjadium/ctf-archives)|TPCTF chals|
+|2023-11-25 18:40:29|[ImHex](https://github.com/WerWolv/ImHex)|fix: Numeric search tool not displaying values in c<br>orrect endianess|
+|2023-11-25 18:33:03|[anti-AD](https://github.com/privacy-protection-tools/anti-AD)|Auto renew the anti-AD list.|
+|2023-11-25 16:48:01|[FreeRDP](https://github.com/FreeRDP/FreeRDP)|[cmdline] add missing return statement|
+|2023-11-25 16:13:36|[ImageMagick](https://github.com/ImageMagick/ImageMagick)|detect libgomp when compiling with C++|
+|2023-11-25 14:51:50|[feroxbuster](https://github.com/epi052/feroxbuster)|docs: add Mister7F as a contributor for ideas (#103<br>6) * docs: update README.md [skip ci] * docs: update<br> .all-contributorsrc [skip ci] --------- Co-authored<br>-by: allcontributors[bot]|
+|2023-11-25 13:35:04|[ThinkAdmin](https://github.com/zoujingli/ThinkAdmin)|同步更新|
+|2023-11-25 13:34:04|[all-in-one-v2](https://github.com/zaivanza/all-in-one-v2)|add rocketsam module|
+|2023-11-25 12:53:43|[afrog](https://github.com/zan8in/afrog)|update|
+|2023-11-25 12:34:14|[rustdesk](https://github.com/rustdesk/rustdesk)|Merge pull request #6520 from 21pages/wakelock wake<br> lock for all connection type|
+|2023-11-25 12:33:20|[v2rayfree](https://github.com/aiboboxx/v2rayfree)|update|
+|2023-11-25 11:11:26|[Viper](https://github.com/FunnyWolf/Viper)|update version 2023-11-25-18-48-35|
+|2023-11-25 10:40:10|[PyWxDump](https://github.com/xaoyaoo/PyWxDump)|修改readme，添加计划|
+|2023-11-25 08:31:52|[dbeaver](https://github.com/dbeaver/dbeaver)|dbeaver/pro#2095 [Cloud Explorer] Fixed message in <br>case of exception (#21980) Co-authored-by: Matvey16 |
+|2023-11-25 05:30:56|[v2rayA](https://github.com/v2rayA/v2rayA)|pull_request.yml: fix builds|
 |2023-11-24 23:18:23|[rengine](https://github.com/yogeshojha/rengine)|Merge pull request #1074 from Vijayragha1/patch-1 U<br>pdate views.py|
-|2023-11-24 22:30:18|[PocOrExp_in_Githu<br>b](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-11-25 06:30:18|
-|2023-11-24 20:23:38|[FreeRDP](https://github.com/FreeRDP/FreeRDP)|[codec,dsp] fix ffmpeg deprecation warning|
-|2023-11-24 18:32:13|[PoC-in-GitHub](https://github.com/nomi-sec/PoC-in-GitHub)|Auto Update 2023/11/24 18:32:13|
-|2023-11-24 18:16:51|[ImageMagick](https://github.com/ImageMagick/ImageMagick)|display then write|
 |2023-11-24 16:31:47|[PST-Bucket](https://github.com/arch3rPro/PST-Bucket)|yakit: Update to version 1.2.7-sp5|
-|2023-11-24 14:45:25|[ThinkAdmin](https://github.com/zoujingli/ThinkAdmin)|Merge pull request #281 from wzy184249652/bugfix/up<br>load-error 解决由于普通上传和秒传返回格式不统一导致<br>的初次上传必然失败的bug|
 |2023-11-24 14:09:25|[safeline](https://github.com/chaitin/safeline)|feat: update deprecated link address|
 |2023-11-24 14:05:24|[audacity](https://github.com/audacity/audacity)|no more printing|
-|2023-11-24 13:11:56|[dbeaver](https://github.com/dbeaver/dbeaver)|#21955 Increase delay before rollback countdown is <br>shown (#21976)|
-|2023-11-24 12:35:42|[v2rayfree](https://github.com/aiboboxx/v2rayfree)|update|
 |2023-11-24 11:43:01|[gshark](https://github.com/madneal/gshark)|Update README.md|
 |2023-11-24 11:42:30|[syft](https://github.com/anchore/syft)|chore(deps): bump github/codeql-action from 2.22.7 <br>to 2.22.8 (#2351) Bumps  from 2.22.7 to 2.22.8. -  -<br>  -  --- updated-dependencies: - dependency-name: gi<br>thub/codeql-action depend|
-|2023-11-24 11:32:19|[afrog](https://github.com/zan8in/afrog)|update|
 |2023-11-24 11:30:28|[logging-log4j2](https://github.com/apache/logging-log4j2)|Update github/codeql-action to version 2.22.8 (#200<br>5)|
-|2023-11-24 11:19:40|[all-in-one-v2](https://github.com/zaivanza/all-in-one-v2)|add zora, scroll to orbiter|
 |2023-11-24 09:30:24|[arthas](https://github.com/alibaba/arthas)|use MethodHandles.Lookup IMPL_LOOKUP to support def<br>ine class after jdk 17. #2659|
 |2023-11-24 09:18:27|[SmsForwarder](https://github.com/pppscn/SmsForwarder)|新增：彩信转发功能（TODO:解析彩信） #351|
 |2023-11-24 07:51:07|[mitaka](https://github.com/ninoseki/mitaka)|Merge pull request #776 from ninoseki/change-defaul<br>t-options chore: change default options [skip ci]|
 |2023-11-24 06:36:05|[ghauri](https://github.com/r0oth3x49/ghauri)|updated tests.py...|
-|2023-11-24 05:15:17|[rustdesk](https://github.com/rustdesk/rustdesk)|Merge pull request #6514 from deep-soft/rustdesk-ru<br>stdesk fix bridge.yml (dtolnay/rust-toolchain)|
-|2023-11-24 03:29:39|[v2rayA](https://github.com/v2rayA/v2rayA)|1. Remove Docker Nightly for almost nobody use it2.<br> Add tzdata package to docker image|
 |2023-11-24 03:20:15|[Awesome-Redteam](https://github.com/Threekiii/Awesome-Redteam)|更新README.md|
-|2023-11-24 02:12:47|[Viper](https://github.com/FunnyWolf/Viper)|update version 2023-11-23-15-18-35|
 |2023-11-24 01:17:50|[appshark](https://github.com/bytedance/appshark)|when the source and sink are the same variable, the<br>re is no code detail.|
 |2023-11-24 00:39:24|[sqlmap](https://github.com/sqlmapproject/sqlmap)|Fixes #5574|
-|2023-11-23 23:14:58|[DIE-engine](https://github.com/horsicq/DIE-engine)|Update module: XOptions 2023-11-24|
 |2023-11-23 21:34:34|[WebGoat](https://github.com/WebGoat/WebGoat)|chore: back to snapshot|
 |2023-11-23 18:37:45|[nuclei](https://github.com/projectdiscovery/nuclei)|Make the SSH client used in javascript templates ab<br>le to execute custom commands (#4407) * make ssh mod<br>ule store the connection * make ssh module able to e<br>xecute commands using the|
 |2023-11-23 16:46:16|[metasploit-framew<br>ork](https://github.com/rapid7/metasploit-framework)|Land #18526, Add a command to customise DNS resolut<br>ion|
@@ -103,11 +103,9 @@
 |2023-11-23 08:13:03|[Umi-OCR](https://github.com/hiroi-sora/Umi-OCR)|修Bug：开启“禁用美化效果”后，外部通知弹窗无法关闭<br> (#234)|
 |2023-11-23 07:04:20|[dperf](https://github.com/baidu/dperf)|Merge pull request #393 from pengjianzhang/main aut<br>hor|
 |2023-11-23 00:38:51|[containerd](https://github.com/containerd/containerd)|Merge pull request #9412 from profnandaa/fix/dialer<br>_function_windows pkg/dialer: minor fix on dialer fu<br>nction for windows|
-|2023-11-22 18:33:47|[anti-AD](https://github.com/privacy-protection-tools/anti-AD)|Auto renew the anti-AD list.|
 |2023-11-22 14:09:48|[dirsearch](https://github.com/maurosoria/dirsearch)|Merge pull request #1319 from gdrosos/master Remove<br> Unused Dependencies|
 |2023-11-22 12:52:27|[codeql-cli-binari<br>es](https://github.com/github/codeql-cli-binaries)|Merge pull request #168 from github/aibaars/admin/u<br>pdate-changelog-2.15.3 Update CHANGELOG.md for 2.15.<br>3|
 |2023-11-22 11:15:36|[iDefender](https://github.com/wecooperate/iDefender)|update|
-|2023-11-22 10:46:40|[PyWxDump](https://github.com/xaoyaoo/PyWxDump)|修改readme|
 |2023-11-22 06:35:37|[frp](https://github.com/fatedier/frp)|sshTunnelGateway refactor (#3784)|
 |2023-11-22 02:09:57|[FrameVul](https://github.com/Awrrays/FrameVul)|Update README.md|
 |2023-11-22 01:44:45|[trivy](https://github.com/aquasecurity/trivy)|fix(nodejs): support protocols for dependency secti<br>on in yarn.lock files (#5612)|
@@ -130,7 +128,6 @@
 |2023-11-19 15:15:15|[Pillager](https://github.com/qwqdanchun/Pillager)|Update main.yml|
 |2023-11-19 06:36:49|[Library-POC](https://github.com/luck-ying/Library-POC)|Update 用友U8-cloud_RegisterServlet_sql注入.py|
 |2023-11-18 06:38:25|[blind_watermark](https://github.com/guofei9987/blind_watermark)|Merge pull request #121 from semikonductor/master U<br>pdate bwm_core.py|
-|2023-11-18 05:01:18|[ctf-archives](https://github.com/sajjadium/ctf-archives)|MUST chals|
 |2023-11-17 22:48:32|[MemProcFS](https://github.com/ufrisk/MemProcFS)|Version 5.8.17|
 |2023-11-17 08:57:38|[ARL](https://github.com/TophantTechnology/ARL)|Merge pull request #658 from zyairelai/master 更新<br>安装顺序排列|
 |2023-11-16 22:33:26|[pulumi](https://github.com/pulumi/pulumi)|Changelog and go.mod updates for v3.94.1 (#14593) C<br>o-authored-by: github-actions |
@@ -235,7 +232,6 @@
 |2023-11-13 19:36:52|[celery](https://github.com/celery/celery)| Co-authored-by: pre-commit-ci[bot] |
 |2023-11-13 16:46:59|[LaZagne](https://github.com/AlessandroZ/LaZagne)|Fix #623|
 |2023-11-13 15:57:18|[Mythic](https://github.com/its-a-feature/Mythic)|v3.1.7 Added support for parallelized file chunk do<br>wnloads|
-|2023-11-13 13:44:27|[feroxbuster](https://github.com/epi052/feroxbuster)|fixed bug with url parsing; re: devx00|
 |2023-11-13 09:10:52|[MQTTX](https://github.com/emqx/MQTTX)|docs(web): update readme|
 |2023-11-13 07:33:50|[nemo_go](https://github.com/hanc00l/nemo_go)|Update: v2.10.3|
 |2023-11-13 07:19:42|[httpx](https://github.com/projectdiscovery/httpx)|Merge branch 'dev'|
@@ -257,19 +253,7 @@
 |2023-11-11 17:05:27|[dnsx](https://github.com/projectdiscovery/dnsx)|dep update|
 |2023-11-11 16:37:37|[werkzeug](https://github.com/pallets/werkzeug)|Merge branch '3.0.x'|
 |2023-11-11 15:14:47|[autoDecoder](https://github.com/f0ng/autoDecoder)|Update README.md|
-|2023-11-11 09:21:47|[glances](https://github.com/nicolargo/glances)|Alerts showing different time than time plugin #221<br>4|
-|2023-11-11 00:01:21|[openrasp](https://github.com/baidu/openrasp)|Merge pull request #444 from baidu/dependabot/npm_a<br>nd_yarn/rasp-vue/fsevents-1.2.13 Bump fsevents from <br>1.2.9 to 1.2.13 in /rasp-vue|
-|2023-11-10 21:51:13|[stratus-red-team](https://github.com/DataDog/stratus-red-team)|Bump actions/setup-go from 4.0.1 to 4.1.0 (#404) Bu<br>mps  from 4.0.1 to 4.1.0. -  -  --- updated-dependen<br>cies: - dependency-name: actions/setup-go dependency<br>-type: direct:production |
-|2023-11-10 19:29:37|[jd](https://github.com/josephburnett/jd)|Add diff and Bash syntax highlighting to README.md <br>(#60)|
-|2023-11-10 18:52:14|[wesng](https://github.com/bitsadmin/wesng)|Updated 20231110|
-|2023-11-10 18:12:39|[bandit](https://github.com/PyCQA/bandit)|Add official support of Python 3.12 (#1068) Python <br>3.12 was released on Monday Oct 2. Bandit should be <br>built and tested on this version going forward. Sign<br>ed-off-by: Eric Brown |
-|2023-11-10 16:54:32|[ProcDump-for-Linu<br>x](https://github.com/Sysinternals/ProcDump-for-Linux)|Update ProcDump to use cmake rather than make (#218<br>) * Move to CMake check-point * Update build and con<br>tributing docs * Add cmake to pre-reqs * update path|
-|2023-11-10 14:00:23|[ioc](https://github.com/avast/ioc)|Merge pull request #56 from BraKram/clearfake clear<br>fake 11 2023|
-|2023-11-10 13:54:18|[RsaCtfTool](https://github.com/RsaCtfTool/RsaCtfTool)|Change uncipher to decrypt. issue 398|
-|2023-11-10 13:14:27|[apollo](https://github.com/apolloconfig/apollo)|Apply audit log functions to portal using audit-log<br> module (#5008) * Fix serious appendDataInfluence bu<br>g in AuditSpanAspect. Add patch of dealing with coll<br>ection-type arg when AOP |
-|2023-11-10 08:00:28|[bat](https://github.com/sharkdp/bat)|Consider adding ?exclude_unsupported=1 to repology <br>badge|
-|2023-11-10 07:15:04|[trash-cli](https://github.com/andreafrancia/trash-cli)|Bump version to '0.23.11.10'|
-|2023-11-10 03:36:23|[Online_tools](https://github.com/Zhao-sai-sai/Online_tools)|0.4.0文件下载错修复|## 所有项目
+|2023-11-11 09:21:47|[glances](https://github.com/nicolargo/glances)|Alerts showing different time than time plugin #221<br>4|## 所有项目
 # 安全
 ## CTF
 ### AWD
@@ -1015,7 +999,7 @@
 | [WebshellManager](https://github.com/boy-hack/WebshellManager) |  | w8ay 一句话WEB端管理工具 |
 | [Cknife](https://github.com/Chora10/Cknife) |  | Cknife |
 | [Webshell_Generate](https://github.com/cseroad/Webshell_Generate) | v1.2.3 | 用于生成各类免杀webshell |
-| [java-memshell-gen<br>erator-release](https://github.com/pen4uin/java-memshell-generator-release) | v1.0.7.<br>beta2 | 一款支持高度自定义的 Java 内存马生成工具 |
+| [java-memshell-gen<br>erator-release](https://github.com/pen4uin/java-memshell-generator-release) | v1.0.7.<br>beta3 | 一款支持高度自定义的 Java 内存马生成工具 |
 | [Behinder](https://github.com/rebeyond/Behinder) | Behinde<br>r_v4.0.6 | “冰蝎”动态二进制加密网站管理客户端 |
 | [Platypus](https://github.com/WangYihang/Platypus) | v1.5.0 | :hammer: A modern multiple reverse shell sessions manager writ<br>ten in go |
 | [As-Exploits](https://github.com/yzddmr6/As-Exploits) |  | 中国蚁剑后渗透框架 |
@@ -1087,7 +1071,7 @@
 #### 综合
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
-| [Viper](https://github.com/FunnyWolf/Viper) | 2023-11<br>-23-15-1<br>8-35 | Redteam operation platform with webui 图形化红队行动辅助平台 |
+| [Viper](https://github.com/FunnyWolf/Viper) | 2023-11<br>-25-18-4<br>8-35 | Redteam operation platform with webui 图形化红队行动辅助平台 |
 | [Ladon](https://github.com/k8gege/Ladon) | v11.9 | Ladon大型内网渗透工具，可PowerShell模块化、可CS插件化、可内存<br>加载，无文件扫描。含端口扫描、服务识别、网络资产探测、密码审计、<br>高危漏洞检测、漏洞利用、密码读取以及一键GetShell，支持批量A段/B<br>段/C段以及跨网段扫描，支持URL、主机、域名列表扫描等。Ladon 11.9<br>内置255个功能,网络资产探测模块32个通过多种协议(ICMP\N |
 #### 后渗透框架
 | 项目名称 | 版本 | 项目描述 |
@@ -1604,7 +1588,7 @@
 #### 主机入侵检测
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
-| [Elkeid](https://github.com/bytedance/Elkeid) | rasp-v2<br>.2.1.3-s<br>can-clas<br>s | Elkeid is an open source solution that can meet the security r<br>equirements of various workloads such as hosts, containers and <br>K8s, and serverless. It is derived from ByteDance's int |
+| [Elkeid](https://github.com/bytedance/Elkeid) | rasp-v2<br>.2.1.4-p<br>re | Elkeid is an open source solution that can meet the security r<br>equirements of various workloads such as hosts, containers and <br>K8s, and serverless. It is derived from ByteDance's int |
 | [Hades](https://github.com/theSecHunter/Hades) |  | Hades is an cross-platform HIDS with kernel-space data collect<br>ion. |
 | [cobaltstrike-suri<br>cata-rules](https://github.com/ainrm/cobaltstrike-suricata-rules) |  | 17条检测cobaltstrike的suricata-ids规则 |
 ### 取证
