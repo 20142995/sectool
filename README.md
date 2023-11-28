@@ -1,8 +1,11 @@
-# 更新于 2023-11-27 08:36:01
+# 更新于 2023-11-28 08:35:52
 
 ## 近15天release更新记录
 | 更新时间 | 项目名称 | 版本 | 更新内容 |
 | :---- | :---- | :---- | :---- |
+|2023-11-27 13:29:16|[afrog](https://github.com/zan8in/afrog)|v2.9.3|【新增】-sort 参数，命令 -sort a-z 按<br> PoC 首字母顺序扫描，默认按 PoC 漏洞等<br>级从低到高顺序扫描 【新增】versionCompa<br>re 函数，用于比较版本号大小，比如：ver<br>sionCompare("2.5.16","<","2.5.20") 返<br>回 true 【新增】ActiveMQ RCE 漏洞检测 <br>【优化】-web 命令的报告模板|
+|2023-11-27 10:12:02|[FreeRDP](https://github.com/FreeRDP/FreeRDP)|3.0.0-r<br>c0| Nearly 2 months of testing, bugfixin<br>g and API refinements later we´re happ<br>y to announce the first release candid<br>ate for FreeRDP 3.0 The API should now<br> be considered stable and onl|
+|2023-11-27 05:00:26|[PyWxDump](https://github.com/xaoyaoo/PyWxDump)|v2.2.12|[Auto Release] Update PyWxDump to ref<br>s/tags/v2.2.12 |
 |2023-11-26 10:48:00|[gshark](https://github.com/madneal/gshark)|v1.2.4|## Fixed * 修复 task 表初始化的问题 *<br> 增加 nginx 配置全文|
 |2023-11-26 04:28:12|[PEASS-ng](https://github.com/carlospolop/PEASS-ng)|2023112<br>6-a1ab96<br>0a||
 |2023-11-26 00:56:40|[dalfox](https://github.com/hahwul/dalfox)|v2.9.1|## Changelog * 7458557 fixed typo * 0<br>00d2dc chore: update contributors [ski<br>p ci] * 888a922 chore: update contribu<br>tors [skip ci] * 4eee518 chore: update<br> contributors [skip ci] * bc8|
@@ -14,7 +17,6 @@
 |2023-11-24 01:00:06|[mitaka](https://github.com/ninoseki/mitaka)|v1.3.5|## What's Changed * fix: urlscan.io s<br>chema issue by @ninoseki in https://gi<br>thub.com/ninoseki/mitaka/pull/772 * v1<br>.3.5 by @ninoseki in https://github.co<br>m/ninoseki/mitaka/pull/773 **|
 |2023-11-23 15:07:19|[WebGoat](https://github.com/WebGoat/WebGoat)|v2023.5|## Version 2023.5 ### New functionali<br>ty - Implement JWT jku example (#1552)<br> - Java 21 initial support (#1622) - i<br>mprove MFAC lesson hint texts for a be<br>tter user experience (#1424) |
 |2023-11-22 12:57:24|[codeql-cli-binari<br>es](https://github.com/github/codeql-cli-binaries)|v2.15.3|## Release 2.15.3 (2023-11-22) ### Ne<br>w features - A new compilation flag (-<br>-fail-on-ambiguous-relation-name) has <br>been added to specify that compilation<br> should fail if the compiler |
-|2023-11-22 10:43:27|[PyWxDump](https://github.com/xaoyaoo/PyWxDump)|v2.2.8|[Auto Release] Update PyWxDump|
 |2023-11-20 18:09:28|[faker](https://github.com/joke2k/faker)|v20.1.0|See .|
 |2023-11-20 08:14:11|[logging-log4j2](https://github.com/apache/logging-log4j2)|rel/2.2<br>2.0|This releases provides a  along with <br>each artifact and contains bug fixes a<br>ddressing issues in the JPMS & OSGi in<br>frastructure overhauled in 2.21.0, dep<br>endency updates, and some oth|
 |2023-11-19 17:51:05|[dbeaver](https://github.com/dbeaver/dbeaver)|23.2.5| - SQL editor: - Syntax coloring and <br>code completion: smart columns abd ali<br>ases recognition was added (experiment<br>al) - Numerous improvements in single-<br>tab results visualization - Q|
@@ -26,7 +28,6 @@
 |2023-11-16 15:10:06|[audacity](https://github.com/audacity/audacity)|Audacit<br>y-3.4.2| This is a hotfix release. It fixes t<br>he following issues: * #5568 Fix a cra<br>sh when opening projects with zero-len<br>gth clips. * #5032 When exporting a fi<br>le, the sample rate of the tr|
 |2023-11-16 15:03:57|[pulumi](https://github.com/pulumi/pulumi)|v3.94.1|## 3.94.1 (2023-11-16) ### Features -<br>  -  ### Bug Fixes -  - |
 |2023-11-16 14:54:56|[spring-framework](https://github.com/spring-projects/spring-framework)|v6.1.0|## :star: New Features - When using O<br>racle, JdbcClient.update(KeyHolder) do<br>es not work without explicit key colum<br>n names  - Introduce way to convert Cl<br>ientHttpResponse to desired t|
-|2023-11-16 14:00:27|[afrog](https://github.com/zan8in/afrog)|v2.9.2|【新增】debug 参数，它可以在执行过程<br>中打印更详细的请求和响应信息。 【优化】<br>响应 Header 头包含多个 Set-Cookie 情况<br>，合并到一个 Set-Cookie。 -------------<br>----------- ​[add] -debug Parameter: <br>It prints more detailed request and re<br>spo|
 |2023-11-16 13:19:11|[StratosphereLinux<br>IPS](https://github.com/stratosphereips/StratosphereLinuxIPS)|v1.0.8|- Use All-ID hash to fingerprint flow<br>s stored in the flows database. - Incr<br>ease the weight of port scan alerts by<br> increasing its threat level. - Fix fa<br>lse positive port scan alerts|
 |2023-11-16 13:13:56|[jumpserver](https://github.com/jumpserver/jumpserver)|v3.9.0|⚠️ 注意 3.0 架构上和 2.0 变化较大，<br>建议全新安装一套环境来体验。如需升级，<br>请务必升级前进行备份，并查阅文档： # 一<br>、安装和升级 ## 1.1 在线方式 ✈️ 仅需<br>两步快速安装 JumpServer： 1. 准备一台 4<br>核8G （最低）且可以访问互联网的 64 位 L<br>inux 主机； 2. 以 root 用户执行如下命<br>令一键安装 JumpServ|
 |2023-11-16 11:09:46|[0xUBypass](https://github.com/Yeuoly/0xUBypass)|1.0.0|这是64位的，shellcode要求为64位|
@@ -55,63 +56,66 @@
 |2023-11-13 07:26:10|[httpx](https://github.com/projectdiscovery/httpx)|v1.3.7| ## What's Changed ### 🐞 Bug Fixes *<br> Fixed new line break issue with -titl<br>e option by @dogancanbakir in https://<br>github.com/projectdiscovery/httpx/pull<br>/1439 * Fixed build error on t|
 |2023-11-13 04:43:05|[fscan](https://github.com/shadow1ng/fscan)|1.8.3|加入控制台颜色输出(可-nocolor)、保存<br>文件json结构(-json)、修改tls最低版本为1<br>.0、端口分组(-p db,web,service)。|
 |2023-11-13 03:34:35|[v2rayA](https://github.com/v2rayA/v2rayA)|v2.2.4.<br>3|Fix Docker images|
-|2023-11-12 18:25:18|[MoreFind](https://github.com/mstxq17/MoreFind)|v1.5.5|## Changelog * d01e122 perf: parse xl<br>sx/xls enhanchment |
-|2023-11-12 17:54:46|[locust](https://github.com/locustio/locust)|2.18.3|## What's Changed * Modern UI: Add so<br>rting to columns on statistics page an<br>d downloaded report by @andrewbaldwin4<br>4 in https://github.com/locustio/locus<br>t/pull/2453 * Add Modern UI H|
-|2023-11-12 13:10:54|[fzf](https://github.com/junegunn/fzf)|0.44.0|- (Experimental) Sixel image support <br>in preview window (not available on Wi<br>ndows) -  is added to demonstrate how <br>to display an image using Kitty image <br>protocol or Sixel. You can us|
 ## 近15天commit提交记录
 | 提交时间 | 项目名称 | 更新内容 |
 | :---- | :---- | :---- |
-|2023-11-27 00:25:49|[PoC-in-GitHub](https://github.com/nomi-sec/PoC-in-GitHub)|Auto Update 2023/11/27 00:25:49|
-|2023-11-27 00:00:59|[DIE-engine](https://github.com/horsicq/DIE-engine)|Update module: XInfoDB 2023-11-27|
-|2023-11-27 00:00:16|[free](https://github.com/freefq/free)|updated_at 11-27 08:00|
+|2023-11-28 00:28:41|[PoC-in-GitHub](https://github.com/nomi-sec/PoC-in-GitHub)|Auto Update 2023/11/28 00:28:40|
+|2023-11-28 00:16:30|[neuvector](https://github.com/neuvector/neuvector)|Merge pull request #1111 from williamlin-suse/main <br>NVSHAS-8487: Policy Admission Control: import invali<br>d yaml file retur…|
+|2023-11-28 00:05:45|[PocOrExp_in_Githu<br>b](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-11-28 08:05:45|
+|2023-11-28 00:00:03|[free](https://github.com/freefq/free)|updated_at 11-28 08:00|
+|2023-11-27 23:11:59|[DIE-engine](https://github.com/horsicq/DIE-engine)|Update module: XOptions 2023-11-28|
+|2023-11-27 21:38:34|[logging-log4j2](https://github.com/apache/logging-log4j2)|Update ch.qos.logback:logback-classic to version 1.<br>3.12 (#2012)|
+|2023-11-27 20:45:06|[RsaCtfTool](https://github.com/RsaCtfTool/RsaCtfTool)|Merge pull request from sourcery/master Sourcery re<br>factored master branch|
+|2023-11-27 19:12:51|[clair](https://github.com/quay/clair)|admin: add a check for compatible migration version<br> Add the ability to check migration version of the d<br>atabase before running an admin command so you know <br>you are operating on a co|
+|2023-11-27 18:54:45|[nuclei](https://github.com/projectdiscovery/nuclei)|introduce scan context (#4373) * introduce scan con<br>text * minor * add joined errors to resultevents * c<br>hange executor funcs' signature * fix tests * join e<br>rrors in LogError func * |
+|2023-11-27 18:27:24|[subfinder](https://github.com/projectdiscovery/subfinder)|Modifying the Process of Handling Subdomain Results<br> Obtained from Fofa (#1047) * chore(deps): bump gola<br>ng.org/x/net from 0.14.0 to 0.17.0 in /v2 (#1014) Bu<br>mps  from 0.14.0 to 0.17.|
+|2023-11-27 17:00:15|[dbeaver](https://github.com/dbeaver/dbeaver)|dbeaver/pro#2161 Load resources fix (#22004) Co-aut<br>hored-by: MashaKorax |
+|2023-11-27 16:49:58|[sliver](https://github.com/BishopFox/sliver)|Merge pull request #1477 from BishopFox/347bdependa<br>bot/go_modules/github.com/spf13/cobra-1.8.0 Bump git<br>hub.com/spf13/cobra from 1.7.0 to 1.8.0|
+|2023-11-27 16:33:45|[PST-Bucket](https://github.com/arch3rPro/PST-Bucket)|cudatext-cn: Update to version 1.203.0.1|
+|2023-11-27 16:27:37|[CTFd](https://github.com/CTFd/CTFd)|Merge pull request #2429 from CTFd/update-core-beta<br> Update core beta|
+|2023-11-27 16:23:45|[audacity](https://github.com/audacity/audacity)|Merge pull request #5662 from Paul-Licameli/extract<br>-mod-midi-import-export Extract mod midi import expo<br>rt A module for import and export of MIDI, completin<br>g the set of import-expor|
+|2023-11-27 14:48:56|[ImHex](https://github.com/WerWolv/ImHex)|fix: Zero-sized patches being created|
+|2023-11-27 14:33:56|[grype](https://github.com/anchore/grype)|chore: explicitly test maven suffixes (#1617) Some <br>older Maven releases include a suffix like .RELEASE <br>on the version number. Grype's behavior with regard <br>to these versions has bee|
+|2023-11-27 14:33:14|[WebGoat](https://github.com/WebGoat/WebGoat)|Fix/state of software supply chain links (#1683) * <br>fix:update state of software supply chain links * fi<br>x:fix second link * fix:links formatting --------- C<br>o-authored-by: maurycupit|
+|2023-11-27 14:14:30|[afrog](https://github.com/zan8in/afrog)|update|
+|2023-11-27 13:21:19|[gshark](https://github.com/madneal/gshark)|Merge pull request #180 from slark-yuxj/master fix:<br>remove error description|
+|2023-11-27 13:08:48|[Umi-OCR](https://github.com/hiroi-sora/Umi-OCR)|~|
+|2023-11-27 12:39:28|[rengine](https://github.com/yogeshojha/rengine)|Merge pull request #1081 from jxdv/update-error IOE<br>rror -> OSError|
+|2023-11-27 12:37:43|[v2rayfree](https://github.com/aiboboxx/v2rayfree)|update|
+|2023-11-27 11:59:46|[metasploit-framew<br>ork](https://github.com/rapid7/metasploit-framework)|Land #18575, Remove spurious print|
+|2023-11-27 10:04:16|[FreeRDP](https://github.com/FreeRDP/FreeRDP)|started 3.0.0-dev6 cycle|
+|2023-11-27 09:29:35|[all-in-one-v2](https://github.com/zaivanza/all-in-one-v2)|fix await|
+|2023-11-27 07:47:49|[frp](https://github.com/fatedier/frp)|optimize some code (#3801)|
+|2023-11-27 06:50:48|[arthas](https://github.com/alibaba/arthas)|update README.md|
+|2023-11-27 06:50:26|[SmsForwarder](https://github.com/pppscn/SmsForwarder)|新增：App通知转发增加uid条件，区分双开应用（需Andro<br>id Q） #366 优化：统一 RadioGroup 自定义样式|
+|2023-11-27 04:58:36|[PyWxDump](https://github.com/xaoyaoo/PyWxDump)|修复publish|
+|2023-11-27 03:07:06|[FrameVul](https://github.com/Awrrays/FrameVul)|Update README.md|
+|2023-11-27 03:05:44|[404StarLink](https://github.com/knownsec/404StarLink)|weekly update at 2023-11-27|
+|2023-11-27 01:29:32|[trivy](https://github.com/aquasecurity/trivy)|docs: update adopters discussion template (#5632) S<br>igned-off-by: AnaisUrlichs |
 |2023-11-26 23:49:11|[ImageMagick](https://github.com/ImageMagick/ImageMagick)|don't proactively set a floating point MIFF image|
-|2023-11-26 21:09:35|[PocOrExp_in_Githu<br>b](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-11-27 05:09:35|
 |2023-11-26 19:43:38|[ctf-archives](https://github.com/sajjadium/ctf-archives)|TPCTF chals|
-|2023-11-26 16:29:27|[PST-Bucket](https://github.com/arch3rPro/PST-Bucket)|cudatext-cn: Update to version 1.203.0.0|
 |2023-11-26 14:33:43|[iDefender](https://github.com/wecooperate/iDefender)|update|
-|2023-11-26 13:30:17|[SmsForwarder](https://github.com/pppscn/SmsForwarder)|新增：App通知转发增加uid条件，区分双开应用（需Andro<br>id Q）|
 |2023-11-26 12:53:49|[volatility3](https://github.com/volatilityfoundation/volatility3)|Merge pull request #1048 from volatilityfoundation/<br>issues/issue922 Issues/issue922|
-|2023-11-26 12:33:41|[v2rayfree](https://github.com/aiboboxx/v2rayfree)|update|
-|2023-11-26 11:48:09|[Umi-OCR](https://github.com/hiroi-sora/Umi-OCR)|修改csv保存编码为ansi，以兼容office (#237)|
-|2023-11-26 11:48:02|[gshark](https://github.com/madneal/gshark)|remove released event|
 |2023-11-26 10:27:38|[kube-bench](https://github.com/aquasecurity/kube-bench)|Add CIS Benchmarks support to Rancher Distributions<br> RKE/RKE2/K3s (#1523) * add Support VMware Tanzu(TKG<br>I) Benchmarks v1.2.53 with this change, we are addin<br>g 1. latest kubernetes ci|
 |2023-11-26 09:46:51|[rustdesk](https://github.com/rustdesk/rustdesk)|Merge pull request #6525 from bovirus/master Update<br> Italian language|
-|2023-11-26 09:43:57|[nuclei](https://github.com/projectdiscovery/nuclei)|update JQL to include project name (#4416)|
-|2023-11-26 05:12:06|[trivy](https://github.com/aquasecurity/trivy)|fix(secret): add sec and space to secret prefix for<br> aws-secret-access-key (#5647)|
 |2023-11-26 01:02:06|[dalfox](https://github.com/hahwul/dalfox)|Merge pull request #510 from hahwul/dev Fixed GHCR|
-|2023-11-25 18:40:29|[ImHex](https://github.com/WerWolv/ImHex)|fix: Numeric search tool not displaying values in c<br>orrect endianess|
 |2023-11-25 18:33:03|[anti-AD](https://github.com/privacy-protection-tools/anti-AD)|Auto renew the anti-AD list.|
-|2023-11-25 16:48:01|[FreeRDP](https://github.com/FreeRDP/FreeRDP)|[cmdline] add missing return statement|
 |2023-11-25 14:51:50|[feroxbuster](https://github.com/epi052/feroxbuster)|docs: add Mister7F as a contributor for ideas (#103<br>6) * docs: update README.md [skip ci] * docs: update<br> .all-contributorsrc [skip ci] --------- Co-authored<br>-by: allcontributors[bot]|
 |2023-11-25 13:35:04|[ThinkAdmin](https://github.com/zoujingli/ThinkAdmin)|同步更新|
-|2023-11-25 13:34:04|[all-in-one-v2](https://github.com/zaivanza/all-in-one-v2)|add rocketsam module|
-|2023-11-25 12:53:43|[afrog](https://github.com/zan8in/afrog)|update|
 |2023-11-25 11:11:26|[Viper](https://github.com/FunnyWolf/Viper)|update version 2023-11-25-18-48-35|
-|2023-11-25 10:40:10|[PyWxDump](https://github.com/xaoyaoo/PyWxDump)|修改readme，添加计划|
-|2023-11-25 08:31:52|[dbeaver](https://github.com/dbeaver/dbeaver)|dbeaver/pro#2095 [Cloud Explorer] Fixed message in <br>case of exception (#21980) Co-authored-by: Matvey16 |
 |2023-11-25 05:30:56|[v2rayA](https://github.com/v2rayA/v2rayA)|pull_request.yml: fix builds|
-|2023-11-24 23:18:23|[rengine](https://github.com/yogeshojha/rengine)|Merge pull request #1074 from Vijayragha1/patch-1 U<br>pdate views.py|
 |2023-11-24 14:09:25|[safeline](https://github.com/chaitin/safeline)|feat: update deprecated link address|
-|2023-11-24 14:05:24|[audacity](https://github.com/audacity/audacity)|no more printing|
 |2023-11-24 11:42:30|[syft](https://github.com/anchore/syft)|chore(deps): bump github/codeql-action from 2.22.7 <br>to 2.22.8 (#2351) Bumps  from 2.22.7 to 2.22.8. -  -<br>  -  --- updated-dependencies: - dependency-name: gi<br>thub/codeql-action depend|
-|2023-11-24 11:30:28|[logging-log4j2](https://github.com/apache/logging-log4j2)|Update github/codeql-action to version 2.22.8 (#200<br>5)|
-|2023-11-24 09:30:24|[arthas](https://github.com/alibaba/arthas)|use MethodHandles.Lookup IMPL_LOOKUP to support def<br>ine class after jdk 17. #2659|
 |2023-11-24 07:51:07|[mitaka](https://github.com/ninoseki/mitaka)|Merge pull request #776 from ninoseki/change-defaul<br>t-options chore: change default options [skip ci]|
 |2023-11-24 06:36:05|[ghauri](https://github.com/r0oth3x49/ghauri)|updated tests.py...|
 |2023-11-24 03:20:15|[Awesome-Redteam](https://github.com/Threekiii/Awesome-Redteam)|更新README.md|
 |2023-11-24 01:17:50|[appshark](https://github.com/bytedance/appshark)|when the source and sink are the same variable, the<br>re is no code detail.|
 |2023-11-24 00:39:24|[sqlmap](https://github.com/sqlmapproject/sqlmap)|Fixes #5574|
-|2023-11-23 21:34:34|[WebGoat](https://github.com/WebGoat/WebGoat)|chore: back to snapshot|
-|2023-11-23 16:46:16|[metasploit-framew<br>ork](https://github.com/rapid7/metasploit-framework)|Land #18526, Add a command to customise DNS resolut<br>ion|
 |2023-11-23 09:54:49|[vulnerability](https://github.com/lal0ne/vulnerability)|CVE-2023-49103|
 |2023-11-23 07:04:20|[dperf](https://github.com/baidu/dperf)|Merge pull request #393 from pengjianzhang/main aut<br>hor|
 |2023-11-23 00:38:51|[containerd](https://github.com/containerd/containerd)|Merge pull request #9412 from profnandaa/fix/dialer<br>_function_windows pkg/dialer: minor fix on dialer fu<br>nction for windows|
 |2023-11-22 14:09:48|[dirsearch](https://github.com/maurosoria/dirsearch)|Merge pull request #1319 from gdrosos/master Remove<br> Unused Dependencies|
 |2023-11-22 12:52:27|[codeql-cli-binari<br>es](https://github.com/github/codeql-cli-binaries)|Merge pull request #168 from github/aibaars/admin/u<br>pdate-changelog-2.15.3 Update CHANGELOG.md for 2.15.<br>3|
-|2023-11-22 06:35:37|[frp](https://github.com/fatedier/frp)|sshTunnelGateway refactor (#3784)|
-|2023-11-22 02:09:57|[FrameVul](https://github.com/Awrrays/FrameVul)|Update README.md|
-|2023-11-21 20:28:42|[sliver](https://github.com/BishopFox/sliver)|Merge pull request #1467 from BishopFox/5fa4dependa<br>bot/go_modules/github.com/yiya1989/sshkrb5-0.0.1 Bum<br>p github.com/yiya1989/sshkrb5 from 0.0.0-20201110125<br>252-a1455b75a35e to 0.0.1|
-|2023-11-21 18:47:08|[grype](https://github.com/anchore/grype)|chore(deps): bump anchore/sbom-action from 0.14.3 t<br>o 0.15.0 (#1611) Bumps  from 0.14.3 to 0.15.0. -  - <br> --- updated-dependencies: - dependency-name: anchor<br>e/sbom-action dependency-|
 |2023-11-21 17:47:36|[john](https://github.com/openwall/john)|NEWS: Add Keplr wallet support|
 |2023-11-21 10:45:54|[Elkeid](https://github.com/bytedance/Elkeid)|Version updated to 1.7.0.15 Signed-off-by: shenping<br>.matt |
 |2023-11-21 06:22:20|[suo5](https://github.com/zema1/suo5)|Merge pull request #39 from zema1/feat-cookiejar Su<br>pport cookiejar|
@@ -119,11 +123,9 @@
 |2023-11-21 01:21:09|[awesome-chatgpt-z<br>h](https://github.com/yzfly/awesome-chatgpt-zh)|add ai good games and GPTs|
 |2023-11-20 18:08:34|[faker](https://github.com/joke2k/faker)|Bump version: 20.0.3 → 20.1.0|
 |2023-11-20 10:08:49|[HackerPermKeeper](https://github.com/RuoJi6/HackerPermKeeper)|Update README.md|
-|2023-11-20 08:06:44|[subfinder](https://github.com/projectdiscovery/subfinder)|Fix build failure on termux/android (#1053) * updat<br>e utils pkg * update go version to 1.21|
 |2023-11-20 07:21:40|[Vulnerability-Wik<br>i](https://github.com/Threekiii/Vulnerability-Wiki)|更新漏洞|
 |2023-11-20 07:18:47|[Awesome-POC](https://github.com/Threekiii/Awesome-POC)|更新漏洞|
 |2023-11-20 06:18:20|[veinmind-tools](https://github.com/chaitin/veinmind-tools)|fix: typo (#270)|
-|2023-11-20 03:27:56|[404StarLink](https://github.com/knownsec/404StarLink)|weekly update at 2023-11-20|
 |2023-11-20 00:09:46|[DecoyMini](https://github.com/decoymini/DecoyMini)|Update README.md|
 |2023-11-19 15:15:15|[Pillager](https://github.com/qwqdanchun/Pillager)|Update main.yml|
 |2023-11-19 06:36:49|[Library-POC](https://github.com/luck-ying/Library-POC)|Update 用友U8-cloud_RegisterServlet_sql注入.py|
@@ -134,7 +136,6 @@
 |2023-11-16 21:59:53|[trufflehog](https://github.com/trufflesecurity/trufflehog)|move all Git setup into Init method (#2105) * add p<br>roto fields for git * add uri to proto * move all gi<br>t setup into Init method * fix logic for when to use<br> repoPath|
 |2023-11-16 21:31:26|[dnSpy](https://github.com/dnSpyEx/dnSpy)|Update to .NET 8|
 |2023-11-16 20:20:37|[druid](https://github.com/alibaba/druid)|Update pom.xml use springboot 2.x version from pare<br>nt pom.xml(current version 1.5.0)|
-|2023-11-16 20:12:59|[neuvector](https://github.com/neuvector/neuvector)|Merge pull request #1096 from kyledong-suse/main Ar<br>m build support change|
 |2023-11-16 19:34:04|[console](https://github.com/minio/console)|Add UI to select number of non-current versions sub<br>ject to ILM expiry rule (#3088)|
 |2023-11-16 19:32:15|[notify](https://github.com/nikoksr/notify)|fix(deps): update module maunium.net/go/mautrix to <br>v0.16.2 (#756) Co-authored-by: renovate[bot] |
 |2023-11-16 19:10:36|[code-server](https://github.com/coder/code-server)|Fix node-gyp failure on macOS (#6537)|
@@ -186,7 +187,6 @@
 |2023-11-15 20:43:18|[btop](https://github.com/aristocratos/btop)|Merge pull request #659 from ivanp7/patch-1 Add alt<br>ernative key codes for Delete, Insert, Home, End|
 |2023-11-15 20:03:14|[qrazybox](https://github.com/Merricx/qrazybox)|Revise the ECI indicator list (#11) * make filename<br>s NTFS compatible * revise the ECI indicator list re<br>f: AIM ITS/04-023:2022|
 |2023-11-15 16:58:42|[fish-shell](https://github.com/fish-shell/fish-shell)|tests: Increase a sleep|
-|2023-11-15 16:36:32|[CTFd](https://github.com/CTFd/CTFd)|Merge pull request #2422 from CTFd/fix-user-score F<br>ix issue where the API was not respecting score visi<br>bility|
 |2023-11-15 16:31:56|[rich](https://github.com/Textualize/rich)|Merge pull request #3202 from Textualize/bump1370 n<br>ew version|
 |2023-11-15 15:55:28|[rundeck](https://github.com/rundeck/rundeck)|Merge pull request #8650 from rundeck/RUN-1926 RUN-<br>1926: Add runner key storage GUI for node sources|
 |2023-11-15 15:00:09|[pyscript](https://github.com/pyscript/pyscript)|use UTC time (#1859)|
@@ -209,7 +209,6 @@
 |2023-11-15 00:28:56|[garble](https://github.com/burrowers/garble)|avoid panic when embedding a builtin alias TypeName<br>.Pkg is documented as: Pkg returns the package to wh<br>ich the object belongs. The result is nil for labels<br> and objects in the Unive|
 |2023-11-14 23:35:15|[onedrive_user_enu<br>m](https://github.com/nyxgeek/onedrive_user_enum)|Update README.md|
 |2023-11-14 22:01:09|[tmux](https://github.com/tmux/tmux)|Merge branch 'obsd-master'|
-|2023-11-14 21:43:51|[clair](https://github.com/quay/clair)|build(deps): update opentelemetry modules This whol<br>e constellation of modules had some interdependencie<br>s, so it's just easiest to bundle them together manu<br>ally. Closes: #1909 Close|
 |2023-11-14 21:33:19|[sslscan](https://github.com/rbsec/sslscan)|Merge pull request #299 from jtesta/certificate_ret<br>rieval_fix Fixed certificate parsing against some se<br>rvers. (#298)|
 |2023-11-14 19:52:27|[impacket](https://github.com/fortra/impacket)|Unicode fixes V1 (#1631) * Fixed unicode shares not<br> being found * Fixed unicode SPNs not being decoded <br>appropriately * Fixed spn not being found in getST, <br>fixes #1595 * Fixed unico|
 |2023-11-14 19:04:27|[nmap](https://github.com/nmap/nmap)|Revert r38129. Pingprobes were not being seen in so<br>me cases.|
@@ -235,19 +234,7 @@
 |2023-11-13 09:10:52|[MQTTX](https://github.com/emqx/MQTTX)|docs(web): update readme|
 |2023-11-13 07:33:50|[nemo_go](https://github.com/hanc00l/nemo_go)|Update: v2.10.3|
 |2023-11-13 07:19:42|[httpx](https://github.com/projectdiscovery/httpx)|Merge branch 'dev'|
-|2023-11-13 03:48:29|[fuzzDicts](https://github.com/TheKingOfDuck/fuzzDicts)|Merge pull request #22 from aaddmin1122345/master '<br>directoryDicts'添加dirsearch字典|
-|2023-11-12 19:40:03|[coreruleset](https://github.com/coreruleset/coreruleset)|Merge pull request #3380 from coreruleset/revert-33<br>79-fix-request-filename fix: revert PR new rule to s<br>et request_filename var|
-|2023-11-12 18:20:49|[MoreFind](https://github.com/mstxq17/MoreFind)|docs: revise version number|
-|2023-11-12 18:20:43|[easy-rsa](https://github.com/OpenVPN/easy-rsa)|Updating OpenSSL to 3.1.4 Signed-off-by: Eric F Cri<br>st |
-|2023-11-12 17:21:16|[PayloadsAllTheThi<br>ngs](https://github.com/swisskyrepo/PayloadsAllTheThings)|Merge pull request #692 from jlkl/master Add two me<br>thods about LFI to RCE via PHP PEARCMD|
-|2023-11-12 14:56:06|[ezXSS](https://github.com/ssl/ezXSS)|Retrieve reports using archive status|
-|2023-11-12 13:08:08|[fzf](https://github.com/junegunn/fzf)|0.44.0|
-|2023-11-12 08:32:49|[DSInternals](https://github.com/MichaelGrafnetter/DSInternals)|GitHub Dark Theme Support|
-|2023-11-12 08:05:43|[domain_hunter_pro](https://github.com/bit4woo/domain_hunter_pro)|Update LineTableModel.java|
-|2023-11-12 06:55:05|[Search_Viewer](https://github.com/G3et/Search_Viewer)|Update Search_Viewer.py|
-|2023-11-12 05:03:47|[gmpy](https://github.com/aleaxit/gmpy)|Merge pull request #455 from skirpichev/docs Improv<br>e sphinx documentation|
-|2023-11-12 03:07:34|[gmhelper](https://github.com/ZZMarquis/gmhelper)|尽量再兼容一下Java7|
-|2023-11-12 01:37:03|[gopsutil](https://github.com/shirou/gopsutil)|Merge pull request #1551 from blinklabs-io/feat/use<br>-lsof-freebsd-connections feat: use lsof for net_con<br>nections on FreeBSD|## 所有项目
+|2023-11-13 03:48:29|[fuzzDicts](https://github.com/TheKingOfDuck/fuzzDicts)|Merge pull request #22 from aaddmin1122345/master '<br>directoryDicts'添加dirsearch字典|## 所有项目
 # 安全
 ## CTF
 ### AWD
@@ -384,7 +371,7 @@
 | [NextScan](https://github.com/tongcheng-security-team/NextScan) | v1.2.0 | 飞刃是一套完整的企业级黑盒漏洞扫描系统，集成漏洞扫描、漏洞管理<br>、扫描资产、爬虫等服务。 拥有强大的漏洞检测引擎和丰富的插件库，<br>覆盖多种漏洞类型和应用程序框架。 |
 | [POC-bomber](https://github.com/tr0uble-mAker/POC-bomber) | POC-bom<br>ber-for-<br>Redteam-<br>v3.0.0 | 利用大量高威胁poc/exp快速获取目标权限，用于渗透和红队快速打点 |
 | [w13scan](https://github.com/w-digital-scanner/w13scan) |  | Passive Security Scanner (被动式安全扫描器) |
-| [afrog](https://github.com/zan8in/afrog) | v2.9.2 | A Security Tool for Bug Bounty, Pentest and Red Teaming. |
+| [afrog](https://github.com/zan8in/afrog) | v2.9.3 | A Security Tool for Bug Bounty, Pentest and Red Teaming. |
 | [vulmap](https://github.com/zhzyker/vulmap) | v0.9 | Vulmap 是一款 web 漏洞扫描和验证工具, 可对 webapps 进行漏洞扫<br>描, 并且具备漏洞验证功能 |
 ##### 代码审计
 ###### java
@@ -1701,7 +1688,7 @@
 | [chatViewTool](https://github.com/Ormicron/chatViewTool) | BEAT | 基于Java实现的图形化微信聊天记录解密查看器 |
 | [Sharp-dumpkey](https://github.com/Ormicron/Sharp-dumpkey) | 1 | 基于C#实现的获取微信数据库密钥的小工具 |
 | [GoWxDump](https://github.com/SpenserCai/GoWxDump) | v1.0.12 | SharpWxDump的Go语言版。微信客户端取证，获取信息(微信号、手机号<br>、昵称)，微信聊天记录分析(Top N聊天的人、统计聊天最频繁的好友排<br>行、关键词列表搜索等) |
-| [PyWxDump](https://github.com/xaoyaoo/PyWxDump) | v2.2.8 | SharpWxDump的Python语言版。获取用户个人信息(昵称/账号/手机/邮<br>箱/数据库密钥(用来解密聊天记录))；PC微信数据库读取、解密脚本；聊<br>天记录查看工具；聊天记录导出为html(包含语音图片)。支持多账户信息<br>获取，支持所有微信版本。 |
+| [PyWxDump](https://github.com/xaoyaoo/PyWxDump) | v2.2.12 | SharpWxDump的Python语言版。获取用户个人信息(昵称/账号/手机/邮<br>箱/数据库密钥(用来解密聊天记录))；PC微信数据库读取、解密脚本；聊<br>天记录查看工具；聊天记录导出为html(包含语音图片)。支持多账户信息<br>获取，支持所有微信版本。 |
 | [WeChatUserDB](https://github.com/x1hy9/WeChatUserDB) |  | GetWeChat DBPassword&&UserInfo(获取PC数据库密码以及相关微信用<br>户信息支持多系统数据库解密) |
 ##### 向日葵取证
 | 项目名称 | 版本 | 项目描述 |
@@ -3577,6 +3564,6 @@
 ## 远程软件
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
-| [FreeRDP](https://github.com/FreeRDP/FreeRDP) | 2.11.2 | FreeRDP is a free remote desktop protocol library and clients |
+| [FreeRDP](https://github.com/FreeRDP/FreeRDP) | 3.0.0-r<br>c0 | FreeRDP is a free remote desktop protocol library and clients |
 | [Quasar](https://github.com/quasar/Quasar) | v1.4.1 | Remote Administration Tool for Windows |
 | [rustdesk](https://github.com/rustdesk/rustdesk) | 1.2.3 | An open-source remote desktop, and alternative to TeamViewer. |
