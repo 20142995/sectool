@@ -21,6 +21,8 @@
                 - https://github.com/D0g3-Lab/H1ve
                 - https://github.com/vidar-team/Cardinal
                 - https://github.com/xuchaoa/CTF_AWD_Platform
+                - https://github.com/GZTimeWalker/GZCTF
+                - https://github.com/b1ackc4t/MarsCTF
         Crypto:
             古典密码:
                 autokey:
@@ -158,6 +160,8 @@
                         - https://github.com/li8u99/yonyou_exp_plus
                         - https://github.com/novysodope/fupo_for_yonyou
                         - https://github.com/woodpecker-appstore/yonyou-nc-decrypter
+                        - https://github.com/wafinfo/NCTOOls
+                        - https://github.com/wgpsec/YongYouNcTool
                     致远OA:
                         - https://github.com/God-Ok/SeeyonExploit-GUI
                         - https://github.com/Rvn0xsy/PassDecode-jar
@@ -252,6 +256,7 @@
                                 - https://github.com/0x727/SpringBootExploit
                                 - https://github.com/13exp/SpringBoot-Scan-GUI
                                 - https://github.com/SummerSec/SpringExploit
+                                - https://github.com/savior-only/Spring_All_Reachable
                             ThinkCMF:
                                 - https://github.com/jas502n/ThinkCMF_getshell
                             Thinkphp:
@@ -556,6 +561,7 @@
                     - https://github.com/AntSwordProject/AwesomeScript
                     - https://github.com/AntSwordProject/AntSword-Loader
                     - https://github.com/AntSwordProject/AwesomeEncoder
+                    - https://github.com/veo/vagent
                 后门:
                     - https://github.com/0x727/CloneX_0x727
                     - https://github.com/0x727/SchTask_0x727
@@ -846,6 +852,7 @@
                 - https://github.com/SleepingBag945/IPSearch
             IP反查域名:
                 - https://github.com/Lengso/iplookup
+                - https://github.com/yuyudhn/reverseip_py
             WAF识别:
                 - https://github.com/stamparm/identYwaf
             端口扫描:
