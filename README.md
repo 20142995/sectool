@@ -1,11 +1,15 @@
-# 更新于 2023-11-29 08:35:56
+# 更新于 2023-11-30 08:35:52
 
 ## 近15天release更新记录
 | 更新时间 | 项目名称 | 版本 | 更新内容 |
 | :---- | :---- | :---- | :---- |
+|2023-11-29 22:28:49|[containerd](https://github.com/containerd/containerd)|v1.7.10|Welcome to the v1.7.10 release of con<br>tainerd! The tenth patch release for c<br>ontainerd 1.7 contains various fixes a<br>nd updates. ### Notable Updates * **En<br>hance container image unpack |
+|2023-11-29 14:59:36|[syft](https://github.com/anchore/syft)|v0.98.0|### Added Features - Add binary class<br>ifiers for MySQL and MariaDB  @duanema<br>y] - Enhance redis binary classifier t<br>o support additional versions  @whalel<br>ines] - Expose compact JSON a|
+|2023-11-29 14:15:28|[PyWxDump](https://github.com/xaoyaoo/PyWxDump)|v2.2.15|[Auto Release] Update PyWxDump to ref<br>s/tags/v2.2.15 |
+|2023-11-29 06:41:27|[ObserverWard](https://github.com/0x727/ObserverWard)|v2023.1<br>1.29||
+|2023-11-29 03:52:00|[pingtunnel](https://github.com/esrrhs/pingtunnel)|2.8||
 |2023-11-28 14:08:28|[naabu](https://github.com/projectdiscovery/naabu)|v2.2.0| ## What's Changed ### 🎉 New Feature<br>s * Added additional probes for host d<br>iscovery by @Mzack9999 in https://gith<br>ub.com/projectdiscovery/naabu/pull/868<br> ### 🐞 Bugs Fixes * Fixed buil|
 |2023-11-28 12:19:12|[Elkeid](https://github.com/bytedance/Elkeid)|rasp-v2<br>.2.1.4-s<br>canclass||
-|2023-11-28 11:14:35|[PyWxDump](https://github.com/xaoyaoo/PyWxDump)|v2.2.14|[Auto Release] Update PyWxDump to ref<br>s/tags/v2.2.14 |
 |2023-11-27 13:29:16|[afrog](https://github.com/zan8in/afrog)|v2.9.3|【新增】-sort 参数，命令 -sort a-z 按<br> PoC 首字母顺序扫描，默认按 PoC 漏洞等<br>级从低到高顺序扫描 【新增】versionCompa<br>re 函数，用于比较版本号大小，比如：ver<br>sionCompare("2.5.16","<","2.5.20") 返<br>回 true 【新增】ActiveMQ RCE 漏洞检测 <br>【优化】-web 命令的报告模板|
 |2023-11-27 10:12:02|[FreeRDP](https://github.com/FreeRDP/FreeRDP)|3.0.0-r<br>c0| Nearly 2 months of testing, bugfixin<br>g and API refinements later we´re happ<br>y to announce the first release candid<br>ate for FreeRDP 3.0 The API should now<br> be considered stable and onl|
 |2023-11-26 10:48:00|[gshark](https://github.com/madneal/gshark)|v1.2.4|## Fixed * 修复 task 表初始化的问题 *<br> 增加 nginx 配置全文|
@@ -25,7 +29,6 @@
 |2023-11-19 07:30:50|[Umi-OCR](https://github.com/hiroi-sora/Umi-OCR)|release<br>/2.0.0|经过近7个月的开发工作，全新的 **Umi-O<br>CR v2.0正式版** 终于与大家见面。 v2重<br>构了大部分代码，改用更先进的基层架构，<br>添加更丰富的功能，UI界面焕然一新。希望<br>能为大家带来更好的使用体验~ v2功能介绍<br>请见  ；更新日志请见  。 本项目将会长期<br>维护、迭代更新。个人业余时间开发，产能<br>有限，请多包涵~~ 有任何问题或建议，请提<br>  。  ### 协|
 |2023-11-18 13:13:36|[grype](https://github.com/anchore/grype)|v0.73.3|### Additional Changes - update Syft <br>to v0.97.1  @anchore-actions-token-gen<br>erator] **** |
 |2023-11-18 09:21:26|[nuclei](https://github.com/projectdiscovery/nuclei)|v3.0.4| ## What's Changed ### 🎉 New Feature<br>s * **Added base64 encoded template in<br>to json(l) result for custom templates<br> with option to exclude** by @dogancan<br>bakir in https://github.com/pr|
-|2023-11-17 21:10:21|[syft](https://github.com/anchore/syft)|v0.97.1|### Bug Fixes - Syft does not use HTT<br>P proxy when downloading the Docker im<br>age itself   @anchore-actions-token-ge<br>nerator] ### Additional Changes - syft<br> version report is broken wit|
 |2023-11-16 15:10:06|[audacity](https://github.com/audacity/audacity)|Audacit<br>y-3.4.2| This is a hotfix release. It fixes t<br>he following issues: * #5568 Fix a cra<br>sh when opening projects with zero-len<br>gth clips. * #5032 When exporting a fi<br>le, the sample rate of the tr|
 |2023-11-16 15:03:57|[pulumi](https://github.com/pulumi/pulumi)|v3.94.1|## 3.94.1 (2023-11-16) ### Features -<br>  -  ### Bug Fixes -  - |
 |2023-11-16 14:54:56|[spring-framework](https://github.com/spring-projects/spring-framework)|v6.1.0|## :star: New Features - When using O<br>racle, JdbcClient.update(KeyHolder) do<br>es not work without explicit key colum<br>n names  - Introduce way to convert Cl<br>ientHttpResponse to desired t|
@@ -34,7 +37,6 @@
 |2023-11-16 11:09:46|[0xUBypass](https://github.com/Yeuoly/0xUBypass)|1.0.0|这是64位的，shellcode要求为64位|
 |2023-11-16 07:50:53|[compose](https://github.com/docker/compose)|v2.23.1|## ✨ Features * align with OCI artif<br>act best practices by @ndeloof in http<br>s://github.com/docker/compose/pull/111<br>21 * introduce --resolve-image-digests<br> for publish to seal service i|
 |2023-11-16 07:09:50|[aliyun-cli](https://github.com/aliyun/aliyun-cli)|v3.0.18<br>8|## What's Changed * Bump github.com/a<br>liyun/alibaba-cloud-sdk-go from 1.62.5<br>76 to 1.62.610 by @dependabot in https<br>://github.com/aliyun/aliyun-cli/pull/8<br>67 **Full Changelog**: https:|
-|2023-11-16 04:35:29|[containerd](https://github.com/containerd/containerd)|v1.7.9|Welcome to the v1.7.9 release of cont<br>ainerd! The ninth patch release for co<br>ntainerd 1.7 contains various fixes an<br>d updates. ### Notable Updates * **upd<br>ate runc binary to v1.1.10::*|
 |2023-11-16 00:43:59|[neuvector](https://github.com/neuvector/neuvector)|v5.2.4|NVSHAS-8426: Not to revert admission <br>control webhook if the cloud service m<br>odify it at the same time NVSHAS-8431:<br> reduce log level for checking jwt cer<br>t manager|
 |2023-11-15 21:05:56|[Microsoft-Activat<br>ion-Scripts](https://github.com/massgravel/Microsoft-Activation-Scripts)|2.5|## Changelog: 2.5 Click to expand ###<br># HWID: - Added support for the Window<br>s 11 IoTEnterpriseK edition. #### KMS3<br>8: - Added support for Windows Server <br>2025 editions. #### Ohook: - |
 |2023-11-15 16:33:44|[rich](https://github.com/Textualize/rich)|v13.7.0|## [13.7.0] - 2023-11-15 ### Added - <br>Adds missing parameters to Panel.fit h<br>ttps://github.com/Textualize/rich/issu<br>es/3142 ### Fixed - Some text goes mis<br>sing during wrapping when it |
@@ -44,59 +46,58 @@
 |2023-11-15 11:37:48|[tabby](https://github.com/Eugeny/tabby)|v1.0.20<br>4|## Fixes - 98719aa: fix native module<br>s rebuild on macos (Clem Fern)  - 5d1a<br>35a: Show custom profiles in default p<br>rofiles selection (Jude Cooray)  - f31<br>96ac: Refresh default profile|
 |2023-11-15 05:02:52|[pwcrack-framework](https://github.com/L-codes/pwcrack-framework)|1.21.0|python 1. 添加 sxd_sdc 的解密插件 * <br>目前支持 62 种算法解密 |
 |2023-11-15 03:36:34|[Qianji](https://github.com/Pizz33/Qianji)|Qianji_<br>BypassAV<br>-sandbox<br>-2023111<br>5|ae0fc48e3f46acc7a25de7911403ac6b|
-|2023-11-14 21:39:39|[sslscan](https://github.com/rbsec/sslscan)|2.1.2|Fix certificate and cipher enumeratio<br>n when unsafe renegotiation is (credit<br> jtesta)|
-|2023-11-14 19:41:38|[PostgresApp](https://github.com/PostgresApp/PostgresApp)|v2.6.8a|The November builds with PostgreSQL 1<br>2, 13, 14 and 15 were missing the "lat<br>est" symlink (#735). This release fixe<br>s this issue. It is otherwise identica<br>l to 2.6.8.|
-|2023-11-14 18:00:04|[CSS-Exchange](https://github.com/microsoft/CSS-Exchange)|v23.11.<br>14.1759|Script | Version | SHA256 Hash ------<br>-|---------|------------  | 23.01.13.1<br>832 | 207EC18237489D6741B3EAF5945E7984<br>D4860AB06730E385A1DD352DF285C69F  | 23<br>.01.13.1832 | D5915A012972D20|
-|2023-11-14 12:54:50|[mitmproxy](https://github.com/mitmproxy/mitmproxy)|10.1.5|Changes: See . You can find the lates<br>t release packages at https://mitmprox<br>y.org/downloads/. |
-|2023-11-14 09:33:27|[usql](https://github.com/xo/usql)|v0.16.0|## What's Changed * Update Runtime Co<br>nfiguration section in README by @exas<br>tone in https://github.com/xo/usql/pul<br>l/431 ## New Contributors * @exastone <br>made their first contribution|
-|2023-11-14 00:39:31|[wekan](https://github.com/wekan/wekan)|v7.18|This release adds the following new f<br>eatures: - . Thanks to gustavengstrom.<br> and adds the following updates: - . T<br>hanks to xet7. and fixes the following<br> bugs: - . Thanks to mueller-|
 ## 近15天commit提交记录
 | 提交时间 | 项目名称 | 更新内容 |
 | :---- | :---- | :---- |
-|2023-11-29 00:30:21|[PoC-in-GitHub](https://github.com/nomi-sec/PoC-in-GitHub)|Auto Update 2023/11/29 00:30:21|
-|2023-11-29 00:00:11|[free](https://github.com/freefq/free)|updated_at 11-29 08:00|
-|2023-11-28 23:53:40|[neuvector](https://github.com/neuvector/neuvector)|Merge pull request #1109 from jayhuang-suse/four NV<br>SHAS-7917: Deleting vulnerable "java package" files <br>doesn't remove from vulnerability list|
-|2023-11-28 23:09:59|[PocOrExp_in_Githu<br>b](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-11-29 07:09:59|
-|2023-11-28 22:59:04|[syft](https://github.com/anchore/syft)|only remove breaking-change label when there are sc<br>hema changes (#2371) Signed-off-by: Alex Goodman |
-|2023-11-28 22:02:21|[audacity](https://github.com/audacity/audacity)|Capture weak pointer to this in CallAfter, fixing c<br>rash on exit|
-|2023-11-28 22:01:55|[containerd](https://github.com/containerd/containerd)|Merge pull request #9428 from yibozhuang/containerd<br>-stress-cri-endpoint containerd-stress: use config a<br>ddress for CRI test|
-|2023-11-28 21:45:13|[volatility3](https://github.com/volatilityfoundation/volatility3)|Merge pull request #1049 from volatilityfoundation/<br>issues/improve-mftscan Simplify attribute object acc<br>esses|
-|2023-11-28 18:49:11|[metasploit-framew<br>ork](https://github.com/rapid7/metasploit-framework)|automatic module_metadata_base.json update|
+|2023-11-30 00:31:34|[PoC-in-GitHub](https://github.com/nomi-sec/PoC-in-GitHub)|Auto Update 2023/11/30 00:31:33|
+|2023-11-30 00:05:24|[PocOrExp_in_Githu<br>b](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-11-30 08:05:24|
+|2023-11-30 00:00:02|[free](https://github.com/freefq/free)|updated_at 11-30 08:00|
+|2023-11-29 23:59:17|[trivy](https://github.com/aquasecurity/trivy)|feat(misconf): Add --misconfig-scanners option (#56<br>70)|
+|2023-11-29 22:47:37|[ImHex](https://github.com/WerWolv/ImHex)|feat: Add support for bold and italic fonts|
+|2023-11-29 22:37:51|[containerd](https://github.com/containerd/containerd)|Merge pull request #9422 from fuweid/upgrade-exec i<br>ntegration: add new binary upgrade case|
+|2023-11-29 21:04:44|[volatility3](https://github.com/volatilityfoundation/volatility3)|Merge pull request #1051 from eve-mem/linux_iomem_a<br>bsolute_address_bugfix Linux: fix bug with iomem plu<br>gin due to absolute address misuse|
+|2023-11-29 20:45:34|[metasploit-framew<br>ork](https://github.com/rapid7/metasploit-framework)|automatic module_metadata_base.json update|
+|2023-11-29 20:17:10|[nuclei](https://github.com/projectdiscovery/nuclei)|Allow to set dialers' timeout and keep-alive durati<br>on (#4441) * Allow to set dialers' timeout and keep-<br>alive duration * docs --------- Co-authored-by: mzac<br>k |
+|2023-11-29 20:04:17|[grype](https://github.com/anchore/grype)|chore: update syft; go mod tidy (#1621) Signed-off-<br>by: Christopher Phillips |
+|2023-11-29 18:39:28|[syft](https://github.com/anchore/syft)|chore: fix tests failing due to Mac Rosetta cache (<br>#2374) Signed-off-by: Laurent Goderre |
+|2023-11-29 17:31:26|[clair](https://github.com/quay/clair)|config: Update comment to describe currently suppor<br>ted updaters The list was out of date. Signed-off-by<br>: crozzy |
+|2023-11-29 17:20:47|[audacity](https://github.com/audacity/audacity)|remove Karaoke|
+|2023-11-29 17:14:17|[PST-Bucket](https://github.com/arch3rPro/PST-Bucket)|FlowUs: Update to version 1.1.7|
+|2023-11-29 16:50:16|[FreeRDP](https://github.com/FreeRDP/FreeRDP)|[client,common] enable gfx channel also on /gfx onl<br>y|
+|2023-11-29 16:18:14|[rustdesk](https://github.com/rustdesk/rustdesk)|Merge pull request #6565 from fufesou/fix/elevated_<br>switch_display fix, elevated mode, switch display|
+|2023-11-29 14:11:55|[PyWxDump](https://github.com/xaoyaoo/PyWxDump)|发布2.2.15|
+|2023-11-29 12:41:53|[logging-log4j2](https://github.com/apache/logging-log4j2)|Update ch.qos.logback:logback-classic to version 1.<br>3.13 (#2017)|
+|2023-11-29 12:36:41|[v2rayfree](https://github.com/aiboboxx/v2rayfree)|update|
+|2023-11-29 09:53:53|[Umi-OCR](https://github.com/hiroi-sora/Umi-OCR)|更改图像数据内部编码，减少空格丢失几率|
+|2023-11-29 07:52:36|[rengine](https://github.com/yogeshojha/rengine)|Merge pull request #1089 from yogeshojha/don't-allo<br>w-blank-issues chore(issue-template): don't allow bl<br>ank issues|
+|2023-11-29 06:57:07|[DIE-engine](https://github.com/horsicq/DIE-engine)|Update module: XDataConvertorWidget 2023-11-29|
+|2023-11-29 06:39:45|[ObserverWard](https://github.com/0x727/ObserverWard)|修复url的path拼接|
+|2023-11-29 05:09:22|[neuvector](https://github.com/neuvector/neuvector)|Merge pull request #1113 from williamlin-suse/main <br>NVSHAS-8493: Admission control configuration assessm<br>ent message is no…|
+|2023-11-29 03:52:29|[pingtunnel](https://github.com/esrrhs/pingtunnel)|update|
+|2023-11-29 02:02:56|[ChatGPT-Shortcut](https://github.com/rockbenben/ChatGPT-Shortcut)|docs: update docs|
+|2023-11-29 00:54:13|[afrog](https://github.com/zan8in/afrog)|update poc|
 |2023-11-28 18:34:54|[anti-AD](https://github.com/privacy-protection-tools/anti-AD)|Auto renew the anti-AD list.|
 |2023-11-28 18:32:32|[dbeaver](https://github.com/dbeaver/dbeaver)|dbeaver/dbeaver#22001 Columns creation from ERD is <br>lead to the broken (#22019) * dbeaver/dbeaver#22001 <br>Columns creation from ERD is lead to the broken stat<br>e. Fixed case for column |
-|2023-11-28 17:04:42|[logging-log4j2](https://github.com/apache/logging-log4j2)|Use String#isEmpty()|
-|2023-11-28 16:35:58|[nuclei](https://github.com/projectdiscovery/nuclei)|cloud template url update (#4439)|
-|2023-11-28 16:33:16|[PST-Bucket](https://github.com/arch3rPro/PST-Bucket)|edx: Update to version 0.4.9.2101|
-|2023-11-28 16:06:18|[grype](https://github.com/anchore/grype)|chore(deps): bump github.com/spf13/afero from 1.10.<br>0 to 1.11.0 (#1618) Bumps  from 1.10.0 to 1.11.0. - <br> -  --- updated-dependencies: - dependency-name: git<br>hub.com/spf13/afero depen|
-|2023-11-28 15:51:30|[rengine](https://github.com/yogeshojha/rengine)|Merge pull request #1085 from yogeshojha/release/2.<br>0.2 Bump reNgine version for 2.0.2 release|
-|2023-11-28 15:25:11|[FreeRDP](https://github.com/FreeRDP/FreeRDP)|[cmake] add check for in source build remnants CMak<br>e builds might expose faulty behaviour if remnants o<br>f in source builds remain. Check for these and abort<br> if detected|
 |2023-11-28 14:53:24|[ImageMagick](https://github.com/ImageMagick/ImageMagick)|update demo titles|
 |2023-11-28 14:05:18|[naabu](https://github.com/projectdiscovery/naabu)|Merge branch 'dev'|
-|2023-11-28 13:58:51|[ImHex](https://github.com/WerWolv/ImHex)|git: Fix formatting of docker instructions|
-|2023-11-28 13:36:39|[Umi-OCR](https://github.com/hiroi-sora/Umi-OCR)|优化UI文本 (#247)|
-|2023-11-28 13:06:38|[PyWxDump](https://github.com/xaoyaoo/PyWxDump)|publish test|
-|2023-11-28 12:36:47|[v2rayfree](https://github.com/aiboboxx/v2rayfree)|update|
 |2023-11-28 11:02:51|[frp](https://github.com/fatedier/frp)|call config complete in nathole discover (#3813)|
 |2023-11-28 07:05:42|[arthas](https://github.com/alibaba/arthas)|fix AnsiLog static init may error. #2740|
-|2023-11-28 04:01:54|[trivy](https://github.com/aquasecurity/trivy)|chore: bump Go to 1.21 (#5662) Signed-off-by: knqyf<br>263 |
 |2023-11-28 03:50:47|[murphysec](https://github.com/murphysecurity/murphysec)|fix(python): poetry mount to pyproject.toml|
-|2023-11-28 02:31:09|[DIE-engine](https://github.com/horsicq/DIE-engine)|Update module: XDataConvertorWidget 2023-11-28|
 |2023-11-27 20:45:06|[RsaCtfTool](https://github.com/RsaCtfTool/RsaCtfTool)|Merge pull request from sourcery/master Sourcery re<br>factored master branch|
-|2023-11-27 19:12:51|[clair](https://github.com/quay/clair)|admin: add a check for compatible migration version<br> Add the ability to check migration version of the d<br>atabase before running an admin command so you know <br>you are operating on a co|
 |2023-11-27 18:27:24|[subfinder](https://github.com/projectdiscovery/subfinder)|Modifying the Process of Handling Subdomain Results<br> Obtained from Fofa (#1047) * chore(deps): bump gola<br>ng.org/x/net from 0.14.0 to 0.17.0 in /v2 (#1014) Bu<br>mps  from 0.14.0 to 0.17.|
 |2023-11-27 16:49:58|[sliver](https://github.com/BishopFox/sliver)|Merge pull request #1477 from BishopFox/347bdependa<br>bot/go_modules/github.com/spf13/cobra-1.8.0 Bump git<br>hub.com/spf13/cobra from 1.7.0 to 1.8.0|
 |2023-11-27 16:27:37|[CTFd](https://github.com/CTFd/CTFd)|Merge pull request #2429 from CTFd/update-core-beta<br> Update core beta|
 |2023-11-27 14:33:14|[WebGoat](https://github.com/WebGoat/WebGoat)|Fix/state of software supply chain links (#1683) * <br>fix:update state of software supply chain links * fi<br>x:fix second link * fix:links formatting --------- C<br>o-authored-by: maurycupit|
-|2023-11-27 14:14:30|[afrog](https://github.com/zan8in/afrog)|update|
 |2023-11-27 13:21:19|[gshark](https://github.com/madneal/gshark)|Merge pull request #180 from slark-yuxj/master fix:<br>remove error description|
 |2023-11-27 09:29:35|[all-in-one-v2](https://github.com/zaivanza/all-in-one-v2)|fix await|
 |2023-11-27 06:50:26|[SmsForwarder](https://github.com/pppscn/SmsForwarder)|新增：App通知转发增加uid条件，区分双开应用（需Andro<br>id Q） #366 优化：统一 RadioGroup 自定义样式|
+|2023-11-27 06:09:58|[NCTOOls](https://github.com/wafinfo/NCTOOls)|Update README.md|
 |2023-11-27 03:07:06|[FrameVul](https://github.com/Awrrays/FrameVul)|Update README.md|
 |2023-11-27 03:05:44|[404StarLink](https://github.com/knownsec/404StarLink)|weekly update at 2023-11-27|
 |2023-11-26 19:43:38|[ctf-archives](https://github.com/sajjadium/ctf-archives)|TPCTF chals|
+|2023-11-26 18:23:01|[GZCTF](https://github.com/GZTimeWalker/GZCTF)|add NYNUCTF S4 (#186)|
 |2023-11-26 14:33:43|[iDefender](https://github.com/wecooperate/iDefender)|update|
 |2023-11-26 10:27:38|[kube-bench](https://github.com/aquasecurity/kube-bench)|Add CIS Benchmarks support to Rancher Distributions<br> RKE/RKE2/K3s (#1523) * add Support VMware Tanzu(TKG<br>I) Benchmarks v1.2.53 with this change, we are addin<br>g 1. latest kubernetes ci|
-|2023-11-26 09:46:51|[rustdesk](https://github.com/rustdesk/rustdesk)|Merge pull request #6525 from bovirus/master Update<br> Italian language|
 |2023-11-26 01:02:06|[dalfox](https://github.com/hahwul/dalfox)|Merge pull request #510 from hahwul/dev Fixed GHCR|
 |2023-11-25 14:51:50|[feroxbuster](https://github.com/epi052/feroxbuster)|docs: add Mister7F as a contributor for ideas (#103<br>6) * docs: update README.md [skip ci] * docs: update<br> .all-contributorsrc [skip ci] --------- Co-authored<br>-by: allcontributors[bot]|
 |2023-11-25 13:35:04|[ThinkAdmin](https://github.com/zoujingli/ThinkAdmin)|同步更新|
@@ -201,26 +202,7 @@
 |2023-11-15 04:50:30|[pwcrack-framework](https://github.com/L-codes/pwcrack-framework)|bump version|
 |2023-11-15 04:40:29|[Qianji](https://github.com/Pizz33/Qianji)|更新 README.md|
 |2023-11-15 04:07:25|[fscan](https://github.com/shadow1ng/fscan)|Update|
-|2023-11-15 01:25:41|[wabt](https://github.com/WebAssembly/wabt)|wasm2c: Improve address abstraction for BE support <br>(#2328)|
-|2023-11-15 00:28:56|[garble](https://github.com/burrowers/garble)|avoid panic when embedding a builtin alias TypeName<br>.Pkg is documented as: Pkg returns the package to wh<br>ich the object belongs. The result is nil for labels<br> and objects in the Unive|
-|2023-11-14 23:35:15|[onedrive_user_enu<br>m](https://github.com/nyxgeek/onedrive_user_enum)|Update README.md|
-|2023-11-14 22:01:09|[tmux](https://github.com/tmux/tmux)|Merge branch 'obsd-master'|
-|2023-11-14 21:33:19|[sslscan](https://github.com/rbsec/sslscan)|Merge pull request #299 from jtesta/certificate_ret<br>rieval_fix Fixed certificate parsing against some se<br>rvers. (#298)|
-|2023-11-14 19:52:27|[impacket](https://github.com/fortra/impacket)|Unicode fixes V1 (#1631) * Fixed unicode shares not<br> being found * Fixed unicode SPNs not being decoded <br>appropriately * Fixed spn not being found in getST, <br>fixes #1595 * Fixed unico|
-|2023-11-14 19:04:27|[nmap](https://github.com/nmap/nmap)|Revert r38129. Pingprobes were not being seen in so<br>me cases.|
-|2023-11-14 17:53:42|[CSS-Exchange](https://github.com/microsoft/CSS-Exchange)|Merge pull request #1878 from microsoft/dpaul-HcNov<br>Su HealthChecker updates for November SU|
-|2023-11-14 16:30:50|[TREVORspray](https://github.com/blacklanternsecurity/TREVORspray)|Merge pull request #35 from AxylumRust/trevorspray-<br>v2 Python source code formatting|
-|2023-11-14 15:52:22|[broot](https://github.com/Canop/broot)|fix link to image in README|
-|2023-11-14 15:00:17|[dnscrypt-proxy-co<br>nfig](https://github.com/CNMan/dnscrypt-proxy-config)|Tue Nov 14 03:00:17 PM UTC 2023|
-|2023-11-14 12:54:48|[mitmproxy](https://github.com/mitmproxy/mitmproxy)|reopen main for development|
-|2023-11-14 10:15:57|[goreleaser](https://github.com/goreleaser/goreleaser)|chore(deps): bump actions/github-script from 6.4.1 <br>to 7.0.0 (#4424) Bumps  from 6.4.1 to 7.0.0.  Releas<br>e notes Sourced from actions/github-script's release<br>s.  v7.0.0 What's Changed|
-|2023-11-14 09:13:54|[f8x](https://github.com/ffffffff0x/f8x)|fix path issue(2023/11/14)|
-|2023-11-14 09:08:23|[signature-base](https://github.com/Neo23x0/signature-base)|Rhysida ELF IOCs|
-|2023-11-14 09:03:06|[usql](https://github.com/xo/usql)|Adding fixes for macOS to build.sh and release work<br>flow|
-|2023-11-14 08:11:20|[csprecon](https://github.com/edoardottt/csprecon)|Merge pull request #144 from edoardottt/devel Devel<br> update|
-|2023-11-14 05:33:07|[Mobile-Security-F<br>ramework-MobSF](https://github.com/MobSF/Mobile-Security-Framework-MobSF)|Hotfix: Support viewing kotlin files #2283|
-|2023-11-14 03:39:37|[yq](https://github.com/mikefarah/yq)|Updating release notes|
-|2023-11-14 02:32:43|[gmssl](https://github.com/duanhongyi/gmssl)|Merge pull request #81 from CoveyZhang/master fix s<br>m2 pubkey starts with 04 itself|## 所有项目
+|2023-11-15 01:25:41|[wabt](https://github.com/WebAssembly/wabt)|wasm2c: Improve address abstraction for BE support <br>(#2328)|## 所有项目
 # 安全
 ## CTF
 ### AWD
@@ -252,6 +234,8 @@
 | [H1ve](https://github.com/D0g3-Lab/H1ve) | 1.1.3 | An Easy / Quick / Cheap Integrated Platform |
 | [Cardinal](https://github.com/vidar-team/Cardinal) | v0.7.3 | CTF🚩 AWD (Attack with Defense) 线下赛平台 / AWD platform - 欢<br>迎 Star~ ✨ |
 | [CTF_AWD_Platform](https://github.com/xuchaoa/CTF_AWD_Platform) |  | CTF 攻防对抗平台 |
+| [GZCTF](https://github.com/GZTimeWalker/GZCTF) | v0.17.6 | The GZ::CTF project, an open source CTF platform. |
+| [MarsCTF](https://github.com/b1ackc4t/MarsCTF) | V1.2.1 | Vue+Springboot开发的CTF学习平台，提供动态靶机、学习模块、write<br>up模块等等CTF平台的核心功能。提供docker版本 |
 ### Crypto
 #### 古典密码
 ##### autokey
@@ -447,6 +431,8 @@
 | [yonyou_exp_plus](https://github.com/li8u99/yonyou_exp_plus) |  | 用友系列全漏洞检测工具 |
 | [fupo_for_yonyou](https://github.com/novysodope/fupo_for_yonyou) | 2.0RC1 | 用友漏洞检测，持续更新漏洞检测模块 |
 | [yonyou-nc-decrypt<br>er](https://github.com/woodpecker-appstore/yonyou-nc-decrypter) | 0.1.0 | 用友 nc 系列密码解密 |
+| [NCTOOls](https://github.com/wafinfo/NCTOOls) |  | 一款针对用友NC综合漏洞利用工具 |
+| [YongYouNcTool](https://github.com/wgpsec/YongYouNcTool) | 1.0 | 用友NC系列漏洞检测利用工具，支持一键检测、命令执行回显、文件落<br>地、一键打入内存马、文件读取等 |
 ###### 致远OA
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
@@ -577,6 +563,7 @@
 | [SpringBootExploit](https://github.com/0x727/SpringBootExploit) | 1.3 | 项目是根据LandGrey/SpringBootVulExploit清单编写，目的hvv期间快<br>速利用漏洞、降低漏洞利用门槛。 |
 | [SpringBoot-Scan-G<br>UI](https://github.com/13exp/SpringBoot-Scan-GUI) | v1.2.2 |  |
 | [SpringExploit](https://github.com/SummerSec/SpringExploit) | 0.1.9 | 🚀 一款为了学习go而诞生的漏洞利用工具 |
+| [Spring_All_Reacha<br>ble](https://github.com/savior-only/Spring_All_Reachable) | v2.1 | Spring漏洞综合利用工具 |
 ######## ThinkCMF
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
@@ -887,7 +874,7 @@
 | | | http://rootkiter.com/Termite/ |
 | [dns2tcp](https://github.com/alex-sector/dns2tcp) | v0.5.2 |  |
 | [nps](https://github.com/ehang-io/nps) | v0.26.1<br>0 | 一款轻量级、高性能、功能强大的内网穿透代理服务器。支持tcp、udp<br>、socks5、http等几乎所有流量转发，可用来访问内网网站、本地支付接<br>口调试、ssh访问、远程桌面，内网dns解析、内网socks5代理等等……，<br>并带有功能强大的web管理端。a lightweight, high-performance, powe<br>rful intranet penet |
-| [pingtunnel](https://github.com/esrrhs/pingtunnel) |  | Pingtunnel is a tool that send TCP/UDP traffic over ICMP |
+| [pingtunnel](https://github.com/esrrhs/pingtunnel) | 2.8 | Pingtunnel is a tool that send TCP/UDP traffic over ICMP |
 | [frp](https://github.com/fatedier/frp) | v0.52.3 | A fast reverse proxy to help you expose a local server behind <br>a NAT or firewall to the internet. |
 | [pystinger](https://github.com/FunnyWolf/pystinger) | v1.6 | Bypass firewall for traffic forwarding using webshell 一款使用<br>webshell进行流量转发的出网工具 |
 | [Erfrp](https://github.com/Goqi/Erfrp) | v0.1 | Erfrp-frp二开-免杀与隐藏 |
@@ -977,6 +964,7 @@
 | [AwesomeScript](https://github.com/AntSwordProject/AwesomeScript) |  | AntSword Shell 脚本分享/示例 |
 | [AntSword-Loader](https://github.com/AntSwordProject/AntSword-Loader) | 4.0.3 | AntSword 加载器 |
 | [AwesomeEncoder](https://github.com/AntSwordProject/AwesomeEncoder) |  | AntSword 自定义编(解)码器分享 |
+| [vagent](https://github.com/veo/vagent) | v1.0.0 | 多功能 java agent 内存马 |
 ##### 后门
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
@@ -1345,6 +1333,7 @@
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
 | [iplookup](https://github.com/Lengso/iplookup) | v1.1 | IP反查域名 |
+| [reverseip_py](https://github.com/yuyudhn/reverseip_py) |  | Domain Parser for IPAddress.com Reverse IP Lookup |
 #### WAF识别
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
@@ -1402,7 +1391,7 @@
 #### 指纹识别
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
-| [ObserverWard](https://github.com/0x727/ObserverWard) | v2023.1<br>0.13 | Cross platform community web fingerprint identification tool |
+| [ObserverWard](https://github.com/0x727/ObserverWard) | v2023.1<br>1.29 | Cross platform community web fingerprint identification tool |
 | [14Finger](https://github.com/b1ackc4t/14Finger) | V1.1 | 功能齐全的Web指纹识别和分享平台,基于vue3+django前后端分离的web<br>架构，并集成了长亭出品的rad爬虫的功能，内置了一万多条互联网开源<br>的指纹信息。 |
 | [Finger](https://github.com/EASY233/Finger) |  | 一款红队在大量的资产中存活探测与重点攻击系统指纹探测工具 |
 | [EHole](https://github.com/EdgeSecurityTeam/EHole) | v3.1 | EHole(棱洞)3.0 重构版-红队重点攻击系统指纹探测工具 |
@@ -1499,7 +1488,7 @@
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
 | [grype](https://github.com/anchore/grype) | v0.73.3 | A vulnerability scanner for container images and filesystems |
-| [syft](https://github.com/anchore/syft) | v0.97.1 | CLI tool and library for generating a Software Bill of Materia<br>ls from container images and filesystems |
+| [syft](https://github.com/anchore/syft) | v0.98.0 | CLI tool and library for generating a Software Bill of Materia<br>ls from container images and filesystems |
 #### 容器漏洞分析工具
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
@@ -1517,7 +1506,7 @@
 | :---- | :---- | :---- |
 | [neuvector](https://github.com/neuvector/neuvector) | v5.2.4 |  |
 | [ThunderCloud](https://github.com/Rnalter/ThunderCloud) |  | Cloud Exploit Framework |
-| [containerd](https://github.com/containerd/containerd) | v1.7.9 | An open and reliable container runtime |
+| [containerd](https://github.com/containerd/containerd) | v1.7.10 | An open and reliable container runtime |
 #### 云原生攻防靶场
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
@@ -1674,7 +1663,7 @@
 | [chatViewTool](https://github.com/Ormicron/chatViewTool) | BEAT | 基于Java实现的图形化微信聊天记录解密查看器 |
 | [Sharp-dumpkey](https://github.com/Ormicron/Sharp-dumpkey) | 1 | 基于C#实现的获取微信数据库密钥的小工具 |
 | [GoWxDump](https://github.com/SpenserCai/GoWxDump) | v1.0.12 | SharpWxDump的Go语言版。微信客户端取证，获取信息(微信号、手机号<br>、昵称)，微信聊天记录分析(Top N聊天的人、统计聊天最频繁的好友排<br>行、关键词列表搜索等) |
-| [PyWxDump](https://github.com/xaoyaoo/PyWxDump) | v2.2.14 | SharpWxDump的Python语言版。获取用户个人信息(昵称/账号/手机/邮<br>箱/数据库密钥(用来解密聊天记录))；PC微信数据库读取、解密脚本；聊<br>天记录查看工具；聊天记录导出为html(包含语音图片)。支持多账户信息<br>获取，支持所有微信版本。 |
+| [PyWxDump](https://github.com/xaoyaoo/PyWxDump) | v2.2.15 | SharpWxDump的Python语言版。获取用户个人信息(昵称/账号/手机/邮<br>箱/数据库密钥(用来解密聊天记录))；PC微信数据库读取、解密脚本；聊<br>天记录查看工具；聊天记录导出为html(包含语音图片)。支持多账户信息<br>获取，支持所有微信版本。 |
 | [WeChatUserDB](https://github.com/x1hy9/WeChatUserDB) |  | GetWeChat DBPassword&&UserInfo(获取PC数据库密码以及相关微信用<br>户信息支持多系统数据库解密) |
 ##### 向日葵取证
 | 项目名称 | 版本 | 项目描述 |
