@@ -1,4 +1,4 @@
-# 更新于 2023-12-02 08:34:23
+# 更新于 2023-12-03 08:39:27
 
 ## 近15天release更新记录
 | 更新时间 | 项目名称 | 版本 | 更新内容 |
@@ -32,27 +32,34 @@
 ## 近15天commit提交记录
 | 提交时间 | 项目名称 | 更新内容 |
 | :---- | :---- | :---- |
-|2023-12-02 00:00:03|[free](https://github.com/freefq/free)|updated_at 12-02 08:00|
+|2023-12-03 00:00:16|[free](https://github.com/freefq/free)|updated_at 12-03 08:00|
+|2023-12-02 23:36:03|[ChatGPT-Shortcut](https://github.com/rockbenben/ChatGPT-Shortcut)|prompt: update prompt weight|
+|2023-12-02 23:30:27|[ImageMagick](https://github.com/ImageMagick/ImageMagick)|correct signature|
+|2023-12-02 22:11:31|[ImHex](https://github.com/WerWolv/ImHex)|impr: Allow bookmark addresses to be changed, bette<br>r comment editor|
+|2023-12-02 21:10:46|[PocOrExp_in_Githu<br>b](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-12-03 05:10:46|
+|2023-12-02 19:24:43|[ctf-archives](https://github.com/sajjadium/ctf-archives)|WannaGameChampionship chals|
+|2023-12-02 18:32:30|[PoC-in-GitHub](https://github.com/nomi-sec/PoC-in-GitHub)|Auto Update 2023/12/02 18:32:30|
+|2023-12-02 16:30:02|[PST-Bucket](https://github.com/arch3rPro/PST-Bucket)|cudatext-cn: Update to version 1.204.0.0|
+|2023-12-02 14:23:19|[rustdesk](https://github.com/rustdesk/rustdesk)|Merge pull request #6591 from fufesou/fix/6453 Fix.<br> Do not update cursor pos when switching display on <br>toolbar when "Show monitors on toolbar"|
+|2023-12-02 12:33:13|[v2rayfree](https://github.com/aiboboxx/v2rayfree)|update|
+|2023-12-02 11:59:56|[WebGoat](https://github.com/WebGoat/WebGoat)|chore: fix WebWolf UI (#1686) Fix-ups after the Boo<br>tstrap 5 upgrade for WebWolf.|
+|2023-12-02 08:39:35|[frp](https://github.com/fatedier/frp)|update sponsor doc|
+|2023-12-02 07:59:30|[kube-bench](https://github.com/aquasecurity/kube-bench)|support CIS Kubernetes Benchmark v1.8.0 (#1527) * s<br>upport CIS Kubernetes Benchmark v1.8.0 * update vers<br>ion info|
+|2023-12-02 07:20:24|[v2rayA](https://github.com/v2rayA/v2rayA)|feat: 'testUrl' queryparam for api/httpLatency (#11<br>93)|
+|2023-12-02 05:02:27|[gshark](https://github.com/madneal/gshark)|format the code|
+|2023-12-02 05:00:34|[all-in-one-v2](https://github.com/zaivanza/all-in-one-v2)|fix okx withdraw|
 |2023-12-01 23:54:10|[DIE-engine](https://github.com/horsicq/DIE-engine)|Update module: XDataConvertorWidget 2023-12-02|
 |2023-12-01 22:44:30|[metasploit-framew<br>ork](https://github.com/rapid7/metasploit-framework)|Land #18570, Update docker ruby verison to 3.1 Upda<br>te Metasploit's Docker ruby version from 3.0.x to 3.<br>1.x|
 |2023-12-01 22:42:22|[containerd](https://github.com/containerd/containerd)|Merge pull request #9391 from abel-von/sandbox-plug<br>in-1117 sandbox: Move CRI Image Service and CRI Base<br> seperate plugins|
 |2023-12-01 21:41:43|[logging-log4j2](https://github.com/apache/logging-log4j2)|Upgrade compiler baseline to Java 17 (#2021)|
-|2023-12-01 21:41:42|[PocOrExp_in_Githu<br>b](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-12-02 05:41:42|
-|2023-12-01 18:37:35|[PoC-in-GitHub](https://github.com/nomi-sec/PoC-in-GitHub)|Auto Update 2023/12/01 18:37:35|
 |2023-12-01 18:34:27|[anti-AD](https://github.com/privacy-protection-tools/anti-AD)|Auto renew the anti-AD list.|
-|2023-12-01 18:11:43|[kube-bench](https://github.com/aquasecurity/kube-bench)|build(deps): bump gorm.io/gorm from 1.25.1 to 1.25.<br>5 (#1516) Bumps  from 1.25.1 to 1.25.5. -  -  --- up<br>dated-dependencies: - dependency-name: gorm.io/gorm <br>dependency-type: direct:p|
 |2023-12-01 17:44:24|[wpscan](https://github.com/wpscanteam/wpscan)|Merge pull request #1820 from wpscanteam/dfs Update<br>s DFs|
 |2023-12-01 17:08:15|[neuvector](https://github.com/neuvector/neuvector)|Merge pull request #1117 from williamlin-suse/main <br>NVSHAS-8496: the final action should be denied when <br>multiple containe…|
-|2023-12-01 16:32:32|[PST-Bucket](https://github.com/arch3rPro/PST-Bucket)|yakit: Update to version 1.2.8|
 |2023-12-01 15:51:14|[syft](https://github.com/anchore/syft)|fix(java): improve identification for org.apache.ca<br>ssandra artifacts (#2386) Signed-off-by: Weston Stei<br>mel |
 |2023-12-01 15:43:56|[grype](https://github.com/anchore/grype)|chore: pin action to correct sha (#1598) * chore: p<br>in action to correct sha Signed-off-by: Christopher <br>Phillips  * chore: add version for dependabot Signed<br>-off-by: Christopher Phil|
-|2023-12-01 15:06:02|[rustdesk](https://github.com/rustdesk/rustdesk)|Merge pull request #6586 from sahilyeole/feat/wayla<br>nd_clipboard Feat: wayland clipboard support|
 |2023-12-01 14:57:40|[vulhub](https://github.com/vulhub/vulhub)|Merge pull request #476 from vulhub/activemq-cve-20<br>22-41678|
 |2023-12-01 14:07:52|[volatility3](https://github.com/volatilityfoundation/volatility3)|Merge pull request #1037 from forensicxlab/feature/<br>bucket-s3 Feature: Remote analysis on cloud object-s<br>torage.|
 |2023-12-01 13:23:24|[audacity](https://github.com/audacity/audacity)|Merge pull request #5721 from LWinterberg/strings *<br> Resolves: #5720 * adds @chinakov to the team credit<br>s and @teetow (who is currently doing C++ learning w<br>ith me, and has been help|
-|2023-12-01 13:07:10|[ImHex](https://github.com/WerWolv/ImHex)|build: Updated libwolv|
-|2023-12-01 12:44:50|[frp](https://github.com/fatedier/frp)|bump version to v0.53.0 (#3822)|
-|2023-12-01 12:36:40|[v2rayfree](https://github.com/aiboboxx/v2rayfree)|update|
 |2023-12-01 12:28:38|[dbeaver](https://github.com/dbeaver/dbeaver)|Merge branch 'devel' of https://github.com/dbeaver/<br>dbeaver into devel|
 |2023-12-01 12:09:39|[Umi-OCR](https://github.com/hiroi-sora/Umi-OCR)|update doc|
 |2023-12-01 11:30:18|[mitaka](https://github.com/ninoseki/mitaka)|Merge pull request #781 from ninoseki/v1.4.0 v1.4.0|
@@ -60,7 +67,6 @@
 |2023-12-01 10:12:13|[PyWxDump](https://github.com/xaoyaoo/PyWxDump)|为exe添加图标|
 |2023-12-01 09:18:33|[FreeRDP](https://github.com/FreeRDP/FreeRDP)|[client,x11] remove hardware bitmap|
 |2023-11-30 16:55:58|[nuclei](https://github.com/projectdiscovery/nuclei)|version update|
-|2023-11-30 14:18:02|[ImageMagick](https://github.com/ImageMagick/ImageMagick)|don't sync blob when getting blob (https://github.c<br>om/ImageMagick/ImageMagick/issues/6899)|
 |2023-11-30 13:55:44|[ysomap](https://github.com/wh1t3p1g/ysomap)|fix shiro exp #54|
 |2023-11-30 13:01:41|[afrog](https://github.com/zan8in/afrog)|update contribute|
 |2023-11-30 12:51:43|[awesome-chatgpt-z<br>h](https://github.com/yzfly/awesome-chatgpt-zh)|add mj dict|
@@ -78,28 +84,22 @@
 |2023-11-29 07:52:36|[rengine](https://github.com/yogeshojha/rengine)|Merge pull request #1089 from yogeshojha/don't-allo<br>w-blank-issues chore(issue-template): don't allow bl<br>ank issues|
 |2023-11-29 06:39:45|[ObserverWard](https://github.com/0x727/ObserverWard)|修复url的path拼接|
 |2023-11-29 03:52:29|[pingtunnel](https://github.com/esrrhs/pingtunnel)|update|
-|2023-11-29 02:02:56|[ChatGPT-Shortcut](https://github.com/rockbenben/ChatGPT-Shortcut)|docs: update docs|
 |2023-11-28 14:05:18|[naabu](https://github.com/projectdiscovery/naabu)|Merge branch 'dev'|
 |2023-11-28 07:05:42|[arthas](https://github.com/alibaba/arthas)|fix AnsiLog static init may error. #2740|
 |2023-11-28 03:50:47|[murphysec](https://github.com/murphysecurity/murphysec)|fix(python): poetry mount to pyproject.toml|
 |2023-11-27 20:45:06|[RsaCtfTool](https://github.com/RsaCtfTool/RsaCtfTool)|Merge pull request from sourcery/master Sourcery re<br>factored master branch|
 |2023-11-27 18:27:24|[subfinder](https://github.com/projectdiscovery/subfinder)|Modifying the Process of Handling Subdomain Results<br> Obtained from Fofa (#1047) * chore(deps): bump gola<br>ng.org/x/net from 0.14.0 to 0.17.0 in /v2 (#1014) Bu<br>mps  from 0.14.0 to 0.17.|
 |2023-11-27 16:49:58|[sliver](https://github.com/BishopFox/sliver)|Merge pull request #1477 from BishopFox/347bdependa<br>bot/go_modules/github.com/spf13/cobra-1.8.0 Bump git<br>hub.com/spf13/cobra from 1.7.0 to 1.8.0|
-|2023-11-27 14:33:14|[WebGoat](https://github.com/WebGoat/WebGoat)|Fix/state of software supply chain links (#1683) * <br>fix:update state of software supply chain links * fi<br>x:fix second link * fix:links formatting --------- C<br>o-authored-by: maurycupit|
-|2023-11-27 13:21:19|[gshark](https://github.com/madneal/gshark)|Merge pull request #180 from slark-yuxj/master fix:<br>remove error description|
-|2023-11-27 09:29:35|[all-in-one-v2](https://github.com/zaivanza/all-in-one-v2)|fix await|
 |2023-11-27 06:50:26|[SmsForwarder](https://github.com/pppscn/SmsForwarder)|新增：App通知转发增加uid条件，区分双开应用（需Andro<br>id Q） #366 优化：统一 RadioGroup 自定义样式|
 |2023-11-27 06:09:58|[NCTOOls](https://github.com/wafinfo/NCTOOls)|Update README.md|
 |2023-11-27 03:07:06|[FrameVul](https://github.com/Awrrays/FrameVul)|Update README.md|
 |2023-11-27 03:05:44|[404StarLink](https://github.com/knownsec/404StarLink)|weekly update at 2023-11-27|
-|2023-11-26 19:43:38|[ctf-archives](https://github.com/sajjadium/ctf-archives)|TPCTF chals|
 |2023-11-26 18:23:01|[GZCTF](https://github.com/GZTimeWalker/GZCTF)|add NYNUCTF S4 (#186)|
 |2023-11-26 14:33:43|[iDefender](https://github.com/wecooperate/iDefender)|update|
 |2023-11-26 01:02:06|[dalfox](https://github.com/hahwul/dalfox)|Merge pull request #510 from hahwul/dev Fixed GHCR|
 |2023-11-25 14:51:50|[feroxbuster](https://github.com/epi052/feroxbuster)|docs: add Mister7F as a contributor for ideas (#103<br>6) * docs: update README.md [skip ci] * docs: update<br> .all-contributorsrc [skip ci] --------- Co-authored<br>-by: allcontributors[bot]|
 |2023-11-25 13:35:04|[ThinkAdmin](https://github.com/zoujingli/ThinkAdmin)|同步更新|
 |2023-11-25 11:11:26|[Viper](https://github.com/FunnyWolf/Viper)|update version 2023-11-25-18-48-35|
-|2023-11-25 05:30:56|[v2rayA](https://github.com/v2rayA/v2rayA)|pull_request.yml: fix builds|
 |2023-11-24 06:36:05|[ghauri](https://github.com/r0oth3x49/ghauri)|updated tests.py...|
 |2023-11-24 01:17:50|[appshark](https://github.com/bytedance/appshark)|when the source and sink are the same variable, the<br>re is no code detail.|
 |2023-11-23 09:54:49|[vulnerability](https://github.com/lal0ne/vulnerability)|CVE-2023-49103|
@@ -117,9 +117,7 @@
 |2023-11-20 00:09:46|[DecoyMini](https://github.com/decoymini/DecoyMini)|Update README.md|
 |2023-11-19 15:15:15|[Pillager](https://github.com/qwqdanchun/Pillager)|Update main.yml|
 |2023-11-19 06:36:49|[Library-POC](https://github.com/luck-ying/Library-POC)|Update 用友U8-cloud_RegisterServlet_sql注入.py|
-|2023-11-18 06:38:25|[blind_watermark](https://github.com/guofei9987/blind_watermark)|Merge pull request #121 from semikonductor/master U<br>pdate bwm_core.py|
-|2023-11-17 22:48:32|[MemProcFS](https://github.com/ufrisk/MemProcFS)|Version 5.8.17|
-|2023-11-17 08:57:38|[ARL](https://github.com/TophantTechnology/ARL)|Merge pull request #658 from zyairelai/master 更新<br>安装顺序排列|## 所有项目
+|2023-11-18 06:38:25|[blind_watermark](https://github.com/guofei9987/blind_watermark)|Merge pull request #121 from semikonductor/master U<br>pdate bwm_core.py|## 所有项目
 # 安全
 ## CTF
 ### AWD

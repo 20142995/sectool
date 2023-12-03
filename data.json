@@ -200,8 +200,8 @@
     "https://github.com/ycdxsb/PocOrExp_in_Github": {
         "created_at": "2021-04-13 05:46:16",
         "description": "聚合Github上已有的Poc或者Exp，CVE信息来自CVE官网。Auto Collect Poc Or Exp from Github by CVE ID.",
-        "commit_date": "2023-12-01 21:41:42",
-        "commit_message": "update 2023-12-02 05:41:42",
+        "commit_date": "2023-12-02 21:10:46",
+        "commit_message": "update 2023-12-03 05:10:46",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -1071,8 +1071,8 @@
     "https://github.com/v2rayA/v2rayA": {
         "created_at": "2019-10-18 20:42:06",
         "description": "A web GUI client of Project V which supports VMess, VLESS, SS, SSR, Trojan, Tuic and Juicity protocols. 🚀",
-        "commit_date": "2023-11-25 05:30:56",
-        "commit_message": "pull_request.yml: fix builds",
+        "commit_date": "2023-12-02 07:20:24",
+        "commit_message": "feat: 'testUrl' queryparam for api/httpLatency (#1193)",
         "release_tag": "v2.2.4.3",
         "release_date": "2023-11-13 03:34:35",
         "release_message": "Fix Docker images"
@@ -2699,8 +2699,8 @@
     "https://github.com/madneal/gshark": {
         "created_at": "2018-03-09 14:16:55",
         "description": "Scan for sensitive information easily and effectively.",
-        "commit_date": "2023-11-27 13:21:19",
-        "commit_message": "Merge pull request #180 from slark-yuxj/master\n\nfix:remove error description",
+        "commit_date": "2023-12-02 05:02:27",
+        "commit_message": "format the code",
         "release_tag": "v1.2.4",
         "release_date": "2023-11-26 10:48:00",
         "release_message": "## Fixed\r\n\r\n* 修复 task 表初始化的问题\r\n* 增加 nginx 配置全文"
@@ -3881,8 +3881,8 @@
     "https://github.com/aquasecurity/kube-bench": {
         "created_at": "2017-06-19 13:27:02",
         "description": "Checks whether Kubernetes is deployed according to security best practices as defined in the CIS Kubernetes Benchmark",
-        "commit_date": "2023-12-01 18:11:43",
-        "commit_message": "build(deps): bump gorm.io/gorm from 1.25.1 to 1.25.5 (#1516)\n\nBumps [gorm.io/gorm](https://github.com/go-gorm/gorm) from 1.25.1 to 1.25.5.\r\n- [Release notes](https://github.com/go-gorm/gorm/releases)\r\n- [Commits](https://github.com/go-gorm/gorm/compare/v1.25.1...v1.25.5)\r\n\r\n---\r\nupdated-dependencies:\r\n- dependency-name: gorm.io/gorm\r\n  dependency-type: direct:production\r\n  update-type: version-update:semver-patch\r\n...\r\n\r\nSigned-off-by: dependabot[bot] <support@github.com>\r\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
+        "commit_date": "2023-12-02 07:59:30",
+        "commit_message": "support CIS Kubernetes Benchmark v1.8.0 (#1527)\n\n* support CIS Kubernetes Benchmark v1.8.0\n\n* update version info",
         "release_tag": "v0.6.19",
         "release_date": "2023-10-23 07:12:26",
         "release_message": "## Changelog\n* 7f5a2eb build(deps): bump docker/build-push-action from 4 to 5 (#1498)\n\n"
@@ -4061,8 +4061,8 @@
     "https://github.com/WebGoat/WebGoat": {
         "created_at": "2015-03-06 14:02:02",
         "description": "WebGoat is a deliberately insecure application",
-        "commit_date": "2023-11-27 14:33:14",
-        "commit_message": "Fix/state of software supply chain links (#1683)\n\n* fix:update state of software supply chain links\r\n\r\n* fix:fix second link\r\n\r\n* fix:links formatting\r\n\r\n---------\r\n\r\nCo-authored-by: maurycupitt <maury@cupitt.com>",
+        "commit_date": "2023-12-02 11:59:56",
+        "commit_message": "chore: fix WebWolf UI (#1686)\n\nFix-ups after the Bootstrap 5 upgrade for WebWolf.",
         "release_tag": "v2023.5",
         "release_date": "2023-11-23 15:07:19",
         "release_message": "## Version 2023.5 \r\n\r\n ### New functionality\r\n\r\n- Implement JWT jku example (#1552)\r\n- Java 21 initial support (#1622)\r\n- improve MFAC lesson hint texts for a better user experience (#1424)\r\n- upgrade to Spring Boot version 3 (#1477)\r\n\r\n ### Bug fixes\r\n\r\n- typo in WebGoad.txt (#1667)\r\n- search box moved and jwt encode/decode with little delay (#1664)\r\n- skip validation for JWT (#1663)\r\n- fixed issue in JWT test tool and added robot test (#1658)\r\n- Password reset link test condition more strict and move all WebWolf links to /WebWolf  (#1645)\r\n- fix servers id (#1619)\r\n- potential NPE in the stored XSS assignment\r\n- crypto basics broken links\r\n- fixes the default change in trailing slash matching and address the affected assignments\r\n- hint that was breaking the template, causing hints from different assignments to mix (#1424)\r\n- HijackSession lesson template deprecated Tymeleaf attribute\r\n- Fix NPE in IDOR lesson\r\n- Add new assignment IT tests\r\n- XSS mitigation\r\n- Stored Cross-Site Scripting Lesson\r\n- Add Assignment7 Tests\r\n- Fix IDOR lesson\r\n- remove steps from release script (#1509)\r\n- robotframework fails due to updated dependencies (#1508)\r\n- fix Java image inside Docker file The image now downloads the correct Java version based on the architecture.\r\n- Fix typo of HijackSession_content0.adoc\r\n- Restrict SSRF Regexes\r\n- update challenge code - Flags are now wired through a Spring config - Introduced Flag class - Removed Flags from the FlagController\r\n\r\n   \r\n Full change log: https://github.com/WebGoat/WebGoat/compare/v2023.4...v2023.5  \r\n\r\n\r\n ## Contributors\r\n\r\n Special thanks to the following contributors providing us with a pull request:\r\n\r\n- Àngel Ollé Blázquez\r\n- Nanne Baars\r\n- René Zubcevic\r\n- Agustín Díaz\r\n- François Capon\r\n- Loris Sierra\r\n- caputdraconis\r\n- test2user-aqil\r\n\r\n\r\n And everyone who provided feedback through Github.\r\n\r\n\r\n Team WebGoat\r\n"
@@ -4277,7 +4277,7 @@
     "https://github.com/aiboboxx/v2rayfree": {
         "created_at": "2021-10-13 11:34:53",
         "description": "v2ray节点、免费节点、免费v2ray节点、最新公益免费v2ray节点订阅地址、免费v2ray节点每日更新、免费ss/v2ray/trojan节点、freefq ",
-        "commit_date": "2023-12-01 12:36:40",
+        "commit_date": "2023-12-02 12:33:13",
         "commit_message": "update",
         "release_tag": "",
         "release_date": "",
@@ -4322,8 +4322,8 @@
     "https://github.com/freefq/free": {
         "created_at": "2020-06-07 02:48:33",
         "description": "翻墙、免费翻墙、免费科学上网、免费节点、免费梯子、免费ss/v2ray/trojan节点、蓝灯、谷歌商店、翻墙梯子",
-        "commit_date": "2023-12-02 00:00:03",
-        "commit_message": "updated_at 12-02 08:00",
+        "commit_date": "2023-12-03 00:00:16",
+        "commit_message": "updated_at 12-03 08:00",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -4601,8 +4601,8 @@
     "https://github.com/rockbenben/ChatGPT-Shortcut": {
         "created_at": "2023-02-24 12:53:49",
         "description": "🚀💪Maximize your efficiency and productivity, support for English,中文,Español,العربية. 让生产力加倍的AI快捷指令。更有效地定制、保存和分享自己的提示词。在提示词分享社区中，轻松找到适用于不同场景的指令。",
-        "commit_date": "2023-11-29 02:02:56",
-        "commit_message": "docs: update docs",
+        "commit_date": "2023-12-02 23:36:03",
+        "commit_message": "prompt: update prompt weight",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -4781,8 +4781,8 @@
     "https://github.com/zaivanza/all-in-one-v2": {
         "created_at": "2023-04-29 09:03:49",
         "description": "",
-        "commit_date": "2023-11-27 09:29:35",
-        "commit_message": "fix await",
+        "commit_date": "2023-12-02 05:00:34",
+        "commit_message": "fix okx withdraw",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -5004,8 +5004,8 @@
     "https://github.com/rustdesk/rustdesk": {
         "created_at": "2020-09-28 15:36:08",
         "description": "An open-source remote desktop, and alternative to TeamViewer.",
-        "commit_date": "2023-12-01 15:06:02",
-        "commit_message": "Merge pull request #6586 from sahilyeole/feat/wayland_clipboard\n\nFeat: wayland clipboard support",
+        "commit_date": "2023-12-02 14:23:19",
+        "commit_message": "Merge pull request #6591 from fufesou/fix/6453\n\nFix. Do not update cursor pos when switching display on toolbar when \"Show monitors on toolbar\"",
         "release_tag": "1.2.3",
         "release_date": "2023-10-13 10:47:12",
         "release_message": " ![image](https://github.com/rustdesk/rustdesk/assets/71636191/83754a64-31b8-47f0-8570-da22207759a9)\r\n\r\n > Winget, FDroid update will come soon.\r\n\r\n x86-64: [Windows](https://github.com/rustdesk/rustdesk/releases/download/1.2.3/rustdesk-1.2.3-x86_64.exe) | [Ubuntu](https://github.com/rustdesk/rustdesk/releases/download/1.2.3/rustdesk-1.2.3-x86_64.deb) | [Mac](https://github.com/rustdesk/rustdesk/releases/download/1.2.3/rustdesk-1.2.3-x86_64.dmg)\r\n AArch64 (ARM64):  [Ubuntu](https://github.com/rustdesk/rustdesk/releases/download/1.2.3/rustdesk-1.2.3-aarch64.deb) | [Android](https://github.com/rustdesk/rustdesk/releases/download/1.2.3/rustdesk-1.2.3-aarch64-signed.apk) | [Mac](https://github.com/rustdesk/rustdesk/releases/download/1.2.3/rustdesk-1.2.3-aarch64.dmg)\r\n\r\n More: [check below please](#)\r\n\r\n <details>\r\n <summary>Changelog</summary>\r\n\r\n- Improve Wayland support, cursor/clipboard/multi-monitors etc, but highly depends on Xwayland, working well on GNOME, bad compatibility on KDE. We will continue working on Wayland\r\n- Add group tab\r\n- Add software update check based on github latest tag\r\n- Some fixes for Kaspersky compliance, https://github.com/rustdesk/rustdesk/discussions/5624, but they requested more\r\n- A lot of fixes since 1.2.2\r\n- We are still working hard on dual-monitors-dual-windows and new hardware codecs, hopefully be in 1.2.4\r\n\r\n </details>"
@@ -5729,8 +5729,8 @@
     "https://github.com/fatedier/frp": {
         "created_at": "2015-12-21 15:24:59",
         "description": "A fast reverse proxy to help you expose a local server behind a NAT or firewall to the internet.",
-        "commit_date": "2023-12-01 12:44:50",
-        "commit_message": "bump version to v0.53.0 (#3822)",
+        "commit_date": "2023-12-02 08:39:35",
+        "commit_message": "update sponsor doc",
         "release_tag": "v0.52.3",
         "release_date": "2023-10-24 02:57:54",
         "release_message": "### Fixes\n\n* `admin_user` is not effective in the INI configuration.\n\n"
@@ -6391,8 +6391,8 @@
     "https://github.com/WerWolv/ImHex": {
         "created_at": "2020-11-10 14:27:00",
         "description": "🔍 A Hex Editor for Reverse Engineers, Programmers and people who value their retinas when working at 3 AM.",
-        "commit_date": "2023-12-01 13:07:10",
-        "commit_message": "build: Updated libwolv",
+        "commit_date": "2023-12-02 22:11:31",
+        "commit_message": "impr: Allow bookmark addresses to be changed, better comment editor",
         "release_tag": "v1.31.0",
         "release_date": "2023-09-24 18:52:41",
         "release_message": "## Additions\r\n- **Added a command line interface to ImHex.** Huge thanks to @iTrooz\r\n    - Get started by typing `imhex --help`\r\n- **Added initial support for .NET scripts**\r\n    - These scripts are meant to be a cross-platform way of performing automated actions.\r\n    - They cannot be used to add new features like native plugins can\r\n    - Special thanks to @PerikiyoXD for some really involved fixes around this\r\n- **Added Achievements**\r\n    - These are meant to provide an easy and fun way to learn and get used to ImHex\r\n    - The achievement window can be opened by going to Extras -> Achievement\r\n    - If you don't like the achievements and just want to use ImHex like before, open the achievements window and disable the popups there\r\n- Added a new and much nicer splash screen\r\n- Allow memory files to be saved to project files and be renamed\r\n    - Files can also be converted to memory files now\r\n- Added support for hashing arbitrary strings using the hashes view\r\n- Added built-in logging console\r\n- Allow hex editor data visualizers to be switched to big-endian mode\r\n- Upgraded to Capstone V5 finally\r\n- Encoding names are now being displayed in the header of the hex editor\r\n- Added a \"Update All\" button to the content store\r\n- Linux now uses the GTK filepicker whenever possible\r\n    - This should correct issues where the file picker didn't work correctly on some Linux systems by default\r\n    - The AppImage and Flatpak still use the Portals filepicker because it's necessary there\r\n- The hex editor editing mode is now being entered when pressing Enter\r\n- Added a setting to remember the current main window size and position\r\n- Added option to fill a selected region with bytes\r\n- Added option to switch between human-readable sizes and bytes in the hex editor footer. Thanks to @LennardF1989 \r\n- Removed Anonfiles file uploader. Rest in Peace ✝️\r\n- Added windo actions popup when clicking on the header icon\r\n- Added authors and descriptions to things in the content store\r\n- Added shortcuts to switch between providers, evaluate patterns and interact with the pattern debugger\r\n\r\n## Improvements\r\n- Improved the data information diagrams look and field\r\n- Multi-window support is now being disabled properly by default on Linux\r\n- Plugins are now being loaded asynchronously to improve startup times\r\n- Pattern console is automatically scrolled to the bottom now when new lines are being added\r\n- Unidentifiable data is being handled better now in the data information view\r\n- Allow hex editor view to be scrolled slightly past the end\r\n- Made demangler results selectable and copyable\r\n- Timestamp of files is being updated correctly now on Windows. Thanks to @lorsanta \r\n- ImHex should now exit cleanly when crashing\r\n- Bytes per row count setting in the hex editor is being remembered now. Thanks to @LennardF1989 \r\n\r\n## Bug Fixes\r\n- Fixed raw disk provider not working correctly on non-windows platforms. Thanks a lot to @Nowilltolife \r\n- Fixed disassembler view not clearning selection when typing in the region field\r\n- Fixed page count displaying wrongly in empty files\r\n- Fixed crash when trying to paste bytes without a selection\r\n- Fixed occasional crash when evaluating patterns\r\n- Fixed scaling not being applied properly in some cases\r\n- Fixed bookmarks not being loaded correctly from project files\r\n- Fixed menu bar being scrollable sideways\r\n- Fixed loading projects when an existing project is loaded already\r\n- Fixed issues where the cursor started flickering when hovering certain elements\r\n- Fixed crash when clicking on \"Open in new view\" in a bookmark\r\n- Fixed occasional crash when loading incorrect data processor node files\r\n- Fixed writing to non-zero pages in the hex editor when a custom base address has been set\r\n- Fixed issue where libmagic dumped a bunch of compiled files into the cwd on Linux and macOS. Thanks to @iTrooz \r\n- Fixed endianess of all CRC hashes\r\n- Fixed highest/lowest entropy block address in the data information view being wrong\r\n- Fixed issue where downloading items from the store was suceptible for path traversal. Thanks to @iTrooz \r\n- Fixed various data processor issues\r\n\r\n## Pattern Language\r\n- Added `typenameof` operator\r\n- Added `[[hex::favorite]]` attribute to mark patterns as favorites directly\r\n- Added `[[hex::group]]` attribute to add patterns to custom groups in the pattern data view\r\n- Added single-stepping feature to pattern debugger\r\n- Added coordinates visualizer\r\n- Added timestamp visualizer\r\n- Images in the pattern image and bitmap visualizer can now be scaled\r\n- Added various new inline visualizers such as \"color\", \"guage\" and \"button\"\r\n- Format functions are no longer being evaluated during highlighting\r\n- Sections without a name are being hidden now and treated as \"internal\" sections\r\n- Added `[[hex::spec_name]]` attribute to document names for pattern variables taken from the documentation\r\n- Added string in/out variables\r\n- Fixed issue where pattern local variables sometimes allocated huge amounts of memory\r\n\r\n![image](https://github.com/WerWolv/ImHex/assets/10835354/9bcaf682-ed02-4e3d-9d06-0c55a1ddc030)\r\n\r\n\r\n<br/>\r\n\r\n<p align=\"center\">If you like my work, please consider supporting me on GitHub Sponsors, Patreon or PayPal. Thanks a lot!</p>\r\n<p align=\"center\">\r\n<a href=\"https://github.com/sponsors/WerWolv\"><img src=\"https://werwolv.net/assets/github_banner.png\" alt=\"GitHub donate button\" /> </a>\r\n<a href=\"https://www.patreon.com/werwolv\"><img src=\"https://c5.patreon.com/external/logo/become_a_patron_button.png\" alt=\"Patreon donate button\" /> </a>\r\n<a href=\"https://werwolv.net/donate\"><img src=\"https://werwolv.net/assets/paypal_banner.png\" alt=\"PayPal donate button\" /> </a>\r\n</p"
@@ -6508,8 +6508,8 @@
     "https://github.com/arch3rPro/PST-Bucket": {
         "created_at": "2023-04-24 06:49:11",
         "description": "Scoop-Buket for Penetration Suite Toolkit",
-        "commit_date": "2023-12-01 16:32:32",
-        "commit_message": "yakit: Update to version 1.2.8",
+        "commit_date": "2023-12-02 16:30:02",
+        "commit_message": "cudatext-cn: Update to version 1.204.0.0",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -6598,8 +6598,8 @@
     "https://github.com/ImageMagick/ImageMagick": {
         "created_at": "2015-05-17 20:07:50",
         "description": "🧙‍♂️ ImageMagick 7",
-        "commit_date": "2023-11-30 14:18:02",
-        "commit_message": "don't sync blob when getting blob (https://github.com/ImageMagick/ImageMagick/issues/6899)",
+        "commit_date": "2023-12-02 23:30:27",
+        "commit_message": "correct signature",
         "release_tag": "7.1.1-21",
         "release_date": "2023-10-22 15:35:55",
         "release_message": "## What's Changed\n* Define quantum depth for PerlMagick on windows by @hakonhagland in https://github.com/ImageMagick/ImageMagick/pull/6770\n* Add the up to date \"Artifex\" name to Ghostscript list by @chris-liddell in https://github.com/ImageMagick/ImageMagick/pull/6779\n* honor pkg-config when searching for libjpeg by @mmomtchev in https://github.com/ImageMagick/ImageMagick/pull/6784\n* honor pkg-config when searching for bzip2 by @mmomtchev in https://github.com/ImageMagick/ImageMagick/pull/6785\n\n## New Contributors\n* @hakonhagland made their first contribution in https://github.com/ImageMagick/ImageMagick/pull/6770\n* @chris-liddell made their first contribution in https://github.com/ImageMagick/ImageMagick/pull/6779\n\n**Full Changelog**: https://github.com/ImageMagick/ImageMagick/compare/7.1.1-20...7.1.1-21"
@@ -8674,8 +8674,8 @@
     "https://github.com/nomi-sec/PoC-in-GitHub": {
         "created_at": "2019-12-08 13:03:54",
         "description": "📡 PoC auto collect from GitHub. ⚠️ Be careful Malware.",
-        "commit_date": "2023-12-01 18:37:35",
-        "commit_message": "Auto Update 2023/12/01 18:37:35",
+        "commit_date": "2023-12-02 18:32:30",
+        "commit_message": "Auto Update 2023/12/02 18:32:30",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -18908,8 +18908,8 @@
     "https://github.com/sajjadium/ctf-archives": {
         "created_at": "2021-06-10 16:53:52",
         "description": " CTF Archives: Collection of CTF Challenges.",
-        "commit_date": "2023-11-26 19:43:38",
-        "commit_message": "TPCTF chals",
+        "commit_date": "2023-12-02 19:24:43",
+        "commit_message": "WannaGameChampionship chals",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
