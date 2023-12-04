@@ -1,8 +1,14 @@
-# 更新于 2023-12-03 08:39:27
+# 更新于 2023-12-04 08:37:44
 
 ## 近15天release更新记录
 | 更新时间 | 项目名称 | 版本 | 更新内容 |
 | :---- | :---- | :---- | :---- |
+|2023-12-03 18:20:26|[pyinstxtractor](https://github.com/extremecoders-re/pyinstxtractor)|2023.12|Bump release version|
+|2023-12-03 14:54:20|[dbeaver](https://github.com/dbeaver/dbeaver)|23.3.0| Changes since 23.2.5: - Security: da<br>tabase drivers were updated due to sec<br>urity reasons: DB2, Google BigQuery, A<br>thena, and YugabyteDB - SQL Editor: - <br>Autocompletion of column name|
+|2023-12-03 09:23:20|[Ladon](https://github.com/k8gege/Ladon)|v12.0|Ladon 12.0 20231201 [+]DomainLog Doma<br>inUserIP 远程查询 域用户、IP [u]LoginL<br>og 4624成功日志 域用户、域名、登陆IP /<br>all 导出全部日志 原始数据 LoginLog 用<br>户名 LoginLog 用户名 记录数    |
+|2023-12-03 06:18:42|[Viper](https://github.com/FunnyWolf/Viper)|2023-12<br>-03-13-4<br>4-27|### Bugfix - Fix https://github.com/F<br>unnyWolf/Viper/issues/188 - Fix https:<br>//github.com/FunnyWolf/Viper/issues/18<br>7 - Fix https://github.com/FunnyWolf/V<br>iper/issues/186|
+|2023-12-03 04:27:04|[PEASS-ng](https://github.com/carlospolop/PEASS-ng)|2023120<br>3-9cdcb3<br>8f||
+|2023-12-03 03:16:04|[gshark](https://github.com/madneal/gshark)|v1.3.0|## Added * 发布 Docker 版本，通过 Doc<br>ket 快速启动 * 增加 Docker 启动说明，<br>更新 Docker 版本使用视频 ## Fixed * 修<br>复任务管理菜单初始化问题|
 |2023-12-01 11:31:30|[mitaka](https://github.com/ninoseki/mitaka)|v1.4.0|## What's Changed * chore: remove Bit<br>coinWhosWho by @ninoseki in https://gi<br>thub.com/ninoseki/mitaka/pull/774 * ch<br>ore: remove dead searchers by @ninosek<br>i in https://github.com/ninos|
 |2023-12-01 10:14:44|[PyWxDump](https://github.com/xaoyaoo/PyWxDump)|v2.2.17|[Auto Release] Update PyWxDump to ref<br>s/tags/v2.2.17 |
 |2023-11-30 17:34:18|[nuclei](https://github.com/projectdiscovery/nuclei)|v3.1.0| ## What's Changed ### 🎉 New Feature<br>s * **Added support to upload / view r<br>esults into ** by @tarunKoyalwar in ht<br>tps://github.com/projectdiscovery/nucl<br>ei/pull/4343  * Added support |
@@ -16,55 +22,57 @@
 |2023-11-28 12:19:12|[Elkeid](https://github.com/bytedance/Elkeid)|rasp-v2<br>.2.1.4-s<br>canclass||
 |2023-11-27 13:29:16|[afrog](https://github.com/zan8in/afrog)|v2.9.3|【新增】-sort 参数，命令 -sort a-z 按<br> PoC 首字母顺序扫描，默认按 PoC 漏洞等<br>级从低到高顺序扫描 【新增】versionCompa<br>re 函数，用于比较版本号大小，比如：ver<br>sionCompare("2.5.16","<","2.5.20") 返<br>回 true 【新增】ActiveMQ RCE 漏洞检测 <br>【优化】-web 命令的报告模板|
 |2023-11-27 10:12:02|[FreeRDP](https://github.com/FreeRDP/FreeRDP)|3.0.0-r<br>c0| Nearly 2 months of testing, bugfixin<br>g and API refinements later we´re happ<br>y to announce the first release candid<br>ate for FreeRDP 3.0 The API should now<br> be considered stable and onl|
-|2023-11-26 10:48:00|[gshark](https://github.com/madneal/gshark)|v1.2.4|## Fixed * 修复 task 表初始化的问题 *<br> 增加 nginx 配置全文|
-|2023-11-26 04:28:12|[PEASS-ng](https://github.com/carlospolop/PEASS-ng)|2023112<br>6-a1ab96<br>0a||
 |2023-11-26 00:56:40|[dalfox](https://github.com/hahwul/dalfox)|v2.9.1|## Changelog * 7458557 fixed typo * 0<br>00d2dc chore: update contributors [ski<br>p ci] * 888a922 chore: update contribu<br>tors [skip ci] * 4eee518 chore: update<br> contributors [skip ci] * bc8|
 |2023-11-25 09:31:25|[java-memshell-gen<br>erator-release](https://github.com/pen4uin/java-memshell-generator-release)|v1.0.7.<br>beta3|### 更新日志 1. 修复 FastJson + Groov<br>y 漏洞利用封装的问题 [#12] 2. 修复 God<br>zilla 插件 "evalClass is null" 的问题.<br> [#15] 3. 修复 BCEL 利用的 Unsupported<br>ClassVersionError 问题.|
 |2023-11-24 06:21:04|[ghauri](https://github.com/r0oth3x49/ghauri)|1.2.9|### Features - Added support for soap<br>/xml based data processing and injecti<br>on.. (experimental) - fixed #47 |
-|2023-11-24 02:14:19|[Viper](https://github.com/FunnyWolf/Viper)|2023-11<br>-25-18-4<br>8-35|### Bugfix - Fix https://github.com/F<br>unnyWolf/Viper/issues/129 渗透服务连接<br>失败,请检查MSFRPC状态 问题 - Fix https:<br>//github.com/FunnyWolf/Viper/issues/17<br>8 安装完成后访问Web页面时报502错误|
 |2023-11-23 15:07:19|[WebGoat](https://github.com/WebGoat/WebGoat)|v2023.5|## Version 2023.5 ### New functionali<br>ty - Implement JWT jku example (#1552)<br> - Java 21 initial support (#1622) - i<br>mprove MFAC lesson hint texts for a be<br>tter user experience (#1424) |
 |2023-11-22 12:57:24|[codeql-cli-binari<br>es](https://github.com/github/codeql-cli-binaries)|v2.15.3|## Release 2.15.3 (2023-11-22) ### Ne<br>w features - A new compilation flag (-<br>-fail-on-ambiguous-relation-name) has <br>been added to specify that compilation<br> should fail if the compiler |
 |2023-11-20 18:09:28|[faker](https://github.com/joke2k/faker)|v20.1.0|See .|
 |2023-11-20 08:14:11|[logging-log4j2](https://github.com/apache/logging-log4j2)|rel/2.2<br>2.0|This releases provides a  along with <br>each artifact and contains bug fixes a<br>ddressing issues in the JPMS & OSGi in<br>frastructure overhauled in 2.21.0, dep<br>endency updates, and some oth|
-|2023-11-19 17:51:05|[dbeaver](https://github.com/dbeaver/dbeaver)|23.2.5| - SQL editor: - Syntax coloring and <br>code completion: smart columns abd ali<br>ases recognition was added (experiment<br>al) - Numerous improvements in single-<br>tab results visualization - Q|
 |2023-11-19 15:16:15|[Pillager](https://github.com/qwqdanchun/Pillager)|AutoBui<br>ld||
 |2023-11-19 07:30:50|[Umi-OCR](https://github.com/hiroi-sora/Umi-OCR)|release<br>/2.0.0|经过近7个月的开发工作，全新的 **Umi-O<br>CR v2.0正式版** 终于与大家见面。 v2重<br>构了大部分代码，改用更先进的基层架构，<br>添加更丰富的功能，UI界面焕然一新。希望<br>能为大家带来更好的使用体验~ v2功能介绍<br>请见  ；更新日志请见  。 本项目将会长期<br>维护、迭代更新。个人业余时间开发，产能<br>有限，请多包涵~~ 有任何问题或建议，请提<br>  。  ### 协|
 ## 近15天commit提交记录
 | 提交时间 | 项目名称 | 更新内容 |
 | :---- | :---- | :---- |
-|2023-12-03 00:00:16|[free](https://github.com/freefq/free)|updated_at 12-03 08:00|
+|2023-12-04 00:31:29|[PoC-in-GitHub](https://github.com/nomi-sec/PoC-in-GitHub)|Auto Update 2023/12/04 00:31:29|
+|2023-12-04 00:02:01|[DIE-engine](https://github.com/horsicq/DIE-engine)|Update module: XOptions 2023-12-04|
+|2023-12-04 00:00:04|[free](https://github.com/freefq/free)|updated_at 12-04 08:00|
+|2023-12-03 23:43:35|[PocOrExp_in_Githu<br>b](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-12-04 07:43:35|
+|2023-12-03 23:34:24|[logging-log4j2](https://github.com/apache/logging-log4j2)|Update ch.qos.logback:logback-classic to version 1.<br>3.14 (#2029)|
+|2023-12-03 21:59:54|[metasploit-framew<br>ork](https://github.com/rapid7/metasploit-framework)|Land #18592, Minor documentation fix to SMB documen<br>tation page|
+|2023-12-03 20:49:50|[ImageMagick](https://github.com/ImageMagick/ImageMagick)|beta release|
+|2023-12-03 18:19:07|[pyinstxtractor](https://github.com/extremecoders-re/pyinstxtractor)|Mention support for 6.1.0, 6.2.0|
+|2023-12-03 17:29:43|[neuvector](https://github.com/neuvector/neuvector)|Merge pull request #1119 from gfsuse/icmp_policy NV<br>SHAS-8332, add additional fix to allow enable icmp p<br>olicy enforcement|
+|2023-12-03 15:22:33|[volatility3](https://github.com/volatilityfoundation/volatility3)|Merge pull request #1010 from eve-mem/linux_elf_pad<br>ded_magic_read Linux: Add error handling to elf exte<br>nsion magic bytes check|
+|2023-12-03 14:56:47|[rustdesk](https://github.com/rustdesk/rustdesk)|showToast theme (#6603) Signed-off-by: 21pages |
+|2023-12-03 13:18:32|[PST-Bucket](https://github.com/arch3rPro/PST-Bucket)|nikto@2.5.0: Fix hash (Closes #5)|
+|2023-12-03 12:49:45|[sqlmap](https://github.com/sqlmapproject/sqlmap)|Cleaning some mess with limitQuery|
+|2023-12-03 12:36:45|[dirsearch](https://github.com/maurosoria/dirsearch)|Fixing Dockerfile python version|
+|2023-12-03 12:33:53|[v2rayfree](https://github.com/aiboboxx/v2rayfree)|update|
+|2023-12-03 11:54:25|[PyWxDump](https://github.com/xaoyaoo/PyWxDump)|修复部分bug #34|
+|2023-12-03 10:22:29|[Mobile-Security-F<br>ramework-MobSF](https://github.com/MobSF/Mobile-Security-Framework-MobSF)|Relaxed bundleid regex|
+|2023-12-03 09:17:35|[Ladon](https://github.com/k8gege/Ladon)|Add files via upload|
+|2023-12-03 09:13:43|[K8tools](https://github.com/k8gege/K8tools)|Add files via upload|
+|2023-12-03 07:06:35|[kube-bench](https://github.com/aquasecurity/kube-bench)|fix wrong use of flag in test_items found in 4.13 a<br>nd 4.14 (#1528) * fix wrong use of flag in test_item<br>s found in 4.13 and 4.14 Fixes #1491 * fix for more <br>benchmarks * update integ|
+|2023-12-03 06:17:16|[Viper](https://github.com/FunnyWolf/Viper)|update version 2023-12-03-13-44-27|
+|2023-12-03 04:48:10|[Umi-OCR](https://github.com/hiroi-sora/Umi-OCR)|~|
+|2023-12-03 03:51:13|[gshark](https://github.com/madneal/gshark)|Update README.md|
 |2023-12-02 23:36:03|[ChatGPT-Shortcut](https://github.com/rockbenben/ChatGPT-Shortcut)|prompt: update prompt weight|
-|2023-12-02 23:30:27|[ImageMagick](https://github.com/ImageMagick/ImageMagick)|correct signature|
-|2023-12-02 22:11:31|[ImHex](https://github.com/WerWolv/ImHex)|impr: Allow bookmark addresses to be changed, bette<br>r comment editor|
-|2023-12-02 21:10:46|[PocOrExp_in_Githu<br>b](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-12-03 05:10:46|
+|2023-12-02 22:46:20|[ImHex](https://github.com/WerWolv/ImHex)|impr: Better centered text rendering|
 |2023-12-02 19:24:43|[ctf-archives](https://github.com/sajjadium/ctf-archives)|WannaGameChampionship chals|
-|2023-12-02 18:32:30|[PoC-in-GitHub](https://github.com/nomi-sec/PoC-in-GitHub)|Auto Update 2023/12/02 18:32:30|
-|2023-12-02 16:30:02|[PST-Bucket](https://github.com/arch3rPro/PST-Bucket)|cudatext-cn: Update to version 1.204.0.0|
-|2023-12-02 14:23:19|[rustdesk](https://github.com/rustdesk/rustdesk)|Merge pull request #6591 from fufesou/fix/6453 Fix.<br> Do not update cursor pos when switching display on <br>toolbar when "Show monitors on toolbar"|
-|2023-12-02 12:33:13|[v2rayfree](https://github.com/aiboboxx/v2rayfree)|update|
 |2023-12-02 11:59:56|[WebGoat](https://github.com/WebGoat/WebGoat)|chore: fix WebWolf UI (#1686) Fix-ups after the Boo<br>tstrap 5 upgrade for WebWolf.|
 |2023-12-02 08:39:35|[frp](https://github.com/fatedier/frp)|update sponsor doc|
-|2023-12-02 07:59:30|[kube-bench](https://github.com/aquasecurity/kube-bench)|support CIS Kubernetes Benchmark v1.8.0 (#1527) * s<br>upport CIS Kubernetes Benchmark v1.8.0 * update vers<br>ion info|
 |2023-12-02 07:20:24|[v2rayA](https://github.com/v2rayA/v2rayA)|feat: 'testUrl' queryparam for api/httpLatency (#11<br>93)|
-|2023-12-02 05:02:27|[gshark](https://github.com/madneal/gshark)|format the code|
 |2023-12-02 05:00:34|[all-in-one-v2](https://github.com/zaivanza/all-in-one-v2)|fix okx withdraw|
-|2023-12-01 23:54:10|[DIE-engine](https://github.com/horsicq/DIE-engine)|Update module: XDataConvertorWidget 2023-12-02|
-|2023-12-01 22:44:30|[metasploit-framew<br>ork](https://github.com/rapid7/metasploit-framework)|Land #18570, Update docker ruby verison to 3.1 Upda<br>te Metasploit's Docker ruby version from 3.0.x to 3.<br>1.x|
 |2023-12-01 22:42:22|[containerd](https://github.com/containerd/containerd)|Merge pull request #9391 from abel-von/sandbox-plug<br>in-1117 sandbox: Move CRI Image Service and CRI Base<br> seperate plugins|
-|2023-12-01 21:41:43|[logging-log4j2](https://github.com/apache/logging-log4j2)|Upgrade compiler baseline to Java 17 (#2021)|
 |2023-12-01 18:34:27|[anti-AD](https://github.com/privacy-protection-tools/anti-AD)|Auto renew the anti-AD list.|
 |2023-12-01 17:44:24|[wpscan](https://github.com/wpscanteam/wpscan)|Merge pull request #1820 from wpscanteam/dfs Update<br>s DFs|
-|2023-12-01 17:08:15|[neuvector](https://github.com/neuvector/neuvector)|Merge pull request #1117 from williamlin-suse/main <br>NVSHAS-8496: the final action should be denied when <br>multiple containe…|
 |2023-12-01 15:51:14|[syft](https://github.com/anchore/syft)|fix(java): improve identification for org.apache.ca<br>ssandra artifacts (#2386) Signed-off-by: Weston Stei<br>mel |
 |2023-12-01 15:43:56|[grype](https://github.com/anchore/grype)|chore: pin action to correct sha (#1598) * chore: p<br>in action to correct sha Signed-off-by: Christopher <br>Phillips  * chore: add version for dependabot Signed<br>-off-by: Christopher Phil|
 |2023-12-01 14:57:40|[vulhub](https://github.com/vulhub/vulhub)|Merge pull request #476 from vulhub/activemq-cve-20<br>22-41678|
-|2023-12-01 14:07:52|[volatility3](https://github.com/volatilityfoundation/volatility3)|Merge pull request #1037 from forensicxlab/feature/<br>bucket-s3 Feature: Remote analysis on cloud object-s<br>torage.|
 |2023-12-01 13:23:24|[audacity](https://github.com/audacity/audacity)|Merge pull request #5721 from LWinterberg/strings *<br> Resolves: #5720 * adds @chinakov to the team credit<br>s and @teetow (who is currently doing C++ learning w<br>ith me, and has been help|
 |2023-12-01 12:28:38|[dbeaver](https://github.com/dbeaver/dbeaver)|Merge branch 'devel' of https://github.com/dbeaver/<br>dbeaver into devel|
-|2023-12-01 12:09:39|[Umi-OCR](https://github.com/hiroi-sora/Umi-OCR)|update doc|
 |2023-12-01 11:30:18|[mitaka](https://github.com/ninoseki/mitaka)|Merge pull request #781 from ninoseki/v1.4.0 v1.4.0|
-|2023-12-01 10:26:52|[sqlmap](https://github.com/sqlmapproject/sqlmap)|Fixes #5576|
-|2023-12-01 10:12:13|[PyWxDump](https://github.com/xaoyaoo/PyWxDump)|为exe添加图标|
 |2023-12-01 09:18:33|[FreeRDP](https://github.com/FreeRDP/FreeRDP)|[client,x11] remove hardware bitmap|
 |2023-11-30 16:55:58|[nuclei](https://github.com/projectdiscovery/nuclei)|version update|
 |2023-11-30 13:55:44|[ysomap](https://github.com/wh1t3p1g/ysomap)|fix shiro exp #54|
@@ -99,12 +107,10 @@
 |2023-11-26 01:02:06|[dalfox](https://github.com/hahwul/dalfox)|Merge pull request #510 from hahwul/dev Fixed GHCR|
 |2023-11-25 14:51:50|[feroxbuster](https://github.com/epi052/feroxbuster)|docs: add Mister7F as a contributor for ideas (#103<br>6) * docs: update README.md [skip ci] * docs: update<br> .all-contributorsrc [skip ci] --------- Co-authored<br>-by: allcontributors[bot]|
 |2023-11-25 13:35:04|[ThinkAdmin](https://github.com/zoujingli/ThinkAdmin)|同步更新|
-|2023-11-25 11:11:26|[Viper](https://github.com/FunnyWolf/Viper)|update version 2023-11-25-18-48-35|
 |2023-11-24 06:36:05|[ghauri](https://github.com/r0oth3x49/ghauri)|updated tests.py...|
 |2023-11-24 01:17:50|[appshark](https://github.com/bytedance/appshark)|when the source and sink are the same variable, the<br>re is no code detail.|
 |2023-11-23 09:54:49|[vulnerability](https://github.com/lal0ne/vulnerability)|CVE-2023-49103|
 |2023-11-23 07:04:20|[dperf](https://github.com/baidu/dperf)|Merge pull request #393 from pengjianzhang/main aut<br>hor|
-|2023-11-22 14:09:48|[dirsearch](https://github.com/maurosoria/dirsearch)|Merge pull request #1319 from gdrosos/master Remove<br> Unused Dependencies|
 |2023-11-22 12:52:27|[codeql-cli-binari<br>es](https://github.com/github/codeql-cli-binaries)|Merge pull request #168 from github/aibaars/admin/u<br>pdate-changelog-2.15.3 Update CHANGELOG.md for 2.15.<br>3|
 |2023-11-21 17:47:36|[john](https://github.com/openwall/john)|NEWS: Add Keplr wallet support|
 |2023-11-21 10:45:54|[Elkeid](https://github.com/bytedance/Elkeid)|Version updated to 1.7.0.15 Signed-off-by: shenping<br>.matt |
@@ -116,8 +122,7 @@
 |2023-11-20 06:18:20|[veinmind-tools](https://github.com/chaitin/veinmind-tools)|fix: typo (#270)|
 |2023-11-20 00:09:46|[DecoyMini](https://github.com/decoymini/DecoyMini)|Update README.md|
 |2023-11-19 15:15:15|[Pillager](https://github.com/qwqdanchun/Pillager)|Update main.yml|
-|2023-11-19 06:36:49|[Library-POC](https://github.com/luck-ying/Library-POC)|Update 用友U8-cloud_RegisterServlet_sql注入.py|
-|2023-11-18 06:38:25|[blind_watermark](https://github.com/guofei9987/blind_watermark)|Merge pull request #121 from semikonductor/master U<br>pdate bwm_core.py|## 所有项目
+|2023-11-19 06:36:49|[Library-POC](https://github.com/luck-ying/Library-POC)|Update 用友U8-cloud_RegisterServlet_sql注入.py|## 所有项目
 # 安全
 ## CTF
 ### AWD
@@ -206,7 +211,7 @@
 | :---- | :---- | :---- |
 | [stegosaurus](https://github.com/AngelKitty/stegosaurus) | 1.0 | A steganography tool for embedding payloads within Python byte<br>code. |
 | [python-uncompyle6](https://github.com/rocky/python-uncompyle6) | 3.9.0 | A cross-version Python bytecode decompiler |
-| [pyinstxtractor](https://github.com/extremecoders-re/pyinstxtractor) | 2023.08 | PyInstaller Extractor |
+| [pyinstxtractor](https://github.com/extremecoders-re/pyinstxtractor) | 2023.12 | PyInstaller Extractor |
 #### 查壳
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
@@ -310,7 +315,7 @@
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
 | [code6](https://github.com/4x99/code6) | 1.6.4 | 码小六 - GitHub 代码泄露监控系统 |
-| [gshark](https://github.com/madneal/gshark) | v1.2.4 | Scan for sensitive information easily and effectively. |
+| [gshark](https://github.com/madneal/gshark) | v1.3.0 | Scan for sensitive information easily and effectively. |
 ##### 中间件&框架漏洞扫描
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
@@ -845,7 +850,7 @@
 ##### linux提权
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
-| [PEASS-ng](https://github.com/carlospolop/PEASS-ng) | 2023112<br>6-a1ab96<br>0a | PEASS - Privilege Escalation Awesome Scripts SUITE (with color<br>s) |
+| [PEASS-ng](https://github.com/carlospolop/PEASS-ng) | 2023120<br>3-9cdcb3<br>8f | PEASS - Privilege Escalation Awesome Scripts SUITE (with color<br>s) |
 | [dirtycow](https://github.com/firefart/dirtycow) |  | Dirty Cow exploit - CVE-2016-5195 |
 | [traitor](https://github.com/liamg/traitor) | v0.0.14 | :arrow_up: :skull_and_crossbones: :fire: Automatic Linux prive<br>sc via exploitation of low-hanging fruit e.g. gtfobins, pwnkit,<br> dirty pipe, +w docker.sock |
 | [LinEnum](https://github.com/rebootuser/LinEnum) |  | Scripted Local Linux Enumeration & Privilege Escalation Checks |
@@ -941,8 +946,8 @@
 #### 综合
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
-| [Viper](https://github.com/FunnyWolf/Viper) | 2023-11<br>-25-18-4<br>8-35 | Redteam operation platform with webui 图形化红队行动辅助平台 |
-| [Ladon](https://github.com/k8gege/Ladon) | v11.9 | Ladon大型内网渗透工具，可PowerShell模块化、可CS插件化、可内存<br>加载，无文件扫描。含端口扫描、服务识别、网络资产探测、密码审计、<br>高危漏洞检测、漏洞利用、密码读取以及一键GetShell，支持批量A段/B<br>段/C段以及跨网段扫描，支持URL、主机、域名列表扫描等。Ladon 11.9<br>内置255个功能,网络资产探测模块32个通过多种协议(ICMP\N |
+| [Viper](https://github.com/FunnyWolf/Viper) | 2023-12<br>-03-13-4<br>4-27 | Redteam operation platform with webui 图形化红队行动辅助平台 |
+| [Ladon](https://github.com/k8gege/Ladon) | v12.0 | Ladon大型内网渗透工具，可PowerShell模块化、可CS插件化、可内存<br>加载，无文件扫描。含端口扫描、服务识别、网络资产探测、密码审计、<br>高危漏洞检测、漏洞利用、密码读取以及一键GetShell，支持批量A段/B<br>段/C段以及跨网段扫描，支持URL、主机、域名列表扫描等。Ladon 12.0<br>内置256个功能,网络资产探测模块32个通过多种协议(ICMP\N |
 #### 后渗透框架
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
@@ -3437,7 +3442,7 @@
 ## 数据库管理软件
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
-| [dbeaver](https://github.com/dbeaver/dbeaver) | 23.2.5 | Free universal database tool and SQL client |
+| [dbeaver](https://github.com/dbeaver/dbeaver) | 23.3.0 | Free universal database tool and SQL client |
 ## 网站压测工具
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
