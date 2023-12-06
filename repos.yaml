@@ -533,6 +533,8 @@
                 - https://github.com/Y0-kan/HostInfoScan
                 - https://github.com/alexxy/netdiscover
                 - https://github.com/lzzbb/Adinfo
+                - https://github.com/netero1010/ClipboardHistoryThief
+                - https://github.com/TheD1rkMtr/TakeMyRDP
             权限提升:
                 linux提权:
                     - https://github.com/carlospolop/PEASS-ng
@@ -1086,6 +1088,7 @@
                     - https://github.com/SpenserCai/GoWxDump
                     - https://github.com/xaoyaoo/PyWxDump
                     - https://github.com/x1hy9/WeChatUserDB
+                    - https://github.com/LC044/WeChatMsg
                 向日葵取证:
                     - https://github.com/wafinfo/Sunflower_get_Password
                 远程软件:
@@ -1176,6 +1179,8 @@
                         - https://github.com/i11us0ry/winlog
                     异常检测:
                         - https://github.com/RoomaSec/RmTools
+                    综合:
+                        - https://github.com/m-sec-org/d-eyes
                 勒索软件:
                     解密工具:
                         - https://github.com/jiansiting/Decryption-Tools
@@ -1233,7 +1238,6 @@
     - https://github.com/aliyun/aliyun-cli
     - https://github.com/massgravel/Microsoft-Activation-Scripts
     - https://github.com/commixproject/commix
-    - https://github.com/locustio/locust
     - https://github.com/eikek/sharry
     - https://github.com/blackorbird/APT_REPORT
     - https://github.com/guardicore/monkey
@@ -1474,7 +1478,6 @@
     - https://github.com/speed47/spectre-meltdown-checker
     - https://github.com/knownsec/KCon
     - https://github.com/orleven/Tentacle
-    - https://github.com/incredibleindishell/SSRF_Vulnerable_Lab
     - https://github.com/volatilityfoundation/dwarf2json
     - https://github.com/paralax/awesome-honeypots
     - https://github.com/jaeles-project/jaeles
@@ -2767,23 +2770,10 @@
     - https://github.com/zricethezav/gitleaks
     - https://github.com/Zui-Qing-Feng/RSA
 杂七杂八:
-    APP合规:
-        - https://github.com/zhengjim/camille
-    chatgpt:
-        - https://github.com/dalinvip/Awesome-ChatGPT
-        - https://github.com/LangLangShanDeNanKe/chatgpt
-        - https://github.com/rockbenben/ChatGPT-Shortcut
-        - https://github.com/vincelwt/chatgpt-mac
-        - https://github.com/yzfly/awesome-chatgpt-zh
-    github加速:
-        - https://github.com/dotnetcore/FastGithub
-    MySQL实时监控工具:
-        - https://github.com/TheKingOfDuck/MySQLMonitor
-    pppoe拦截:
-        - https://github.com/akkuman/pppoe-intercept
-    python笔记:
-        - https://github.com/jackfrued/Python-100-Days
+    压测工具:
+        - https://github.com/locustio/locust
     web靶场:
+        - https://github.com/incredibleindishell/SSRF_Vulnerable_Lab
         - https://dvwa.co.uk/
         - https://github.com/0verSp4ce/DoraBox
         - https://github.com/adamdoupe/WackoPicko
@@ -2810,6 +2800,22 @@
         - https://github.com/zhuifengshaonianhanlu/pikachu
         - https://hackmyvm.eu/anon/
         - https://www.pentesterlab.com/exercises/web_for_pentester/course
+    APP合规:
+        - https://github.com/zhengjim/camille
+    chatgpt:
+        - https://github.com/dalinvip/Awesome-ChatGPT
+        - https://github.com/LangLangShanDeNanKe/chatgpt
+        - https://github.com/rockbenben/ChatGPT-Shortcut
+        - https://github.com/vincelwt/chatgpt-mac
+        - https://github.com/yzfly/awesome-chatgpt-zh
+    github加速:
+        - https://github.com/dotnetcore/FastGithub
+    MySQL实时监控工具:
+        - https://github.com/TheKingOfDuck/MySQLMonitor
+    pppoe拦截:
+        - https://github.com/akkuman/pppoe-intercept
+    python笔记:
+        - https://github.com/jackfrued/Python-100-Days
     安全思维脑图:
         - https://github.com/Ascotbe/HackerMind
     按键精灵:
