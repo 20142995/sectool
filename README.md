@@ -1,8 +1,9 @@
-# 更新于 2023-12-10 08:38:29
+# 更新于 2023-12-11 08:37:11
 
 ## 近15天release更新记录
 | 更新时间 | 项目名称 | 版本 | 更新内容 |
 | :---- | :---- | :---- | :---- |
+|2023-12-10 04:25:47|[PEASS-ng](https://github.com/carlospolop/PEASS-ng)|2023121<br>0-89d560<br>ba||
 |2023-12-09 16:18:56|[PyWxDump](https://github.com/xaoyaoo/PyWxDump)|v2.3.6|[Auto Release] Update PyWxDump to ref<br>s/tags/v2.3.6 |
 |2023-12-09 14:56:46|[WeChatMsg](https://github.com/LC044/WeChatMsg)|v0.2.7|# 新增功能 * 导出联系人到CSV * 导出视<br>频到HTML * 导出表情包到HTML * 显示和导<br>出拍一拍等系统消息 # 优化 * 修复查询数<br>据库中结果不能编码到UTF-8的问题 * 将导<br>出html中的"，或者去搜索相关问题** * 解<br>决不了可发起issue或者进QQ群:474379264询<br>问，**进群后先看群公告、附上报错截图和<br>详细错误情况避免无效询问*|
 |2023-12-09 13:37:47|[Online_tools](https://github.com/Zhao-sai-sai/Online_tools)|0.5.0|### 增加新工具 - yakit - SBSCAN ### <br>更新了什么 这个版本更新很多功能，下面我<br>就说一下改动比较大的一些功能 - 自定义工<br>具添加 - 改成了点击图标启动工具，下载工<br>具，更新工具 - 添加自定义界面的设置 - <br>全局快捷键工具的搜索，可以按alt+d键快速<br>弹出 - 下载卸载更新添加自动刷新界面 - <br>代码的运行优化 |
@@ -23,7 +24,6 @@
 |2023-12-03 14:54:20|[dbeaver](https://github.com/dbeaver/dbeaver)|23.3.0| Changes since 23.2.5: - Security: da<br>tabase drivers were updated due to sec<br>urity reasons: DB2, Google BigQuery, A<br>thena, and YugabyteDB - SQL Editor: - <br>Autocompletion of column name|
 |2023-12-03 09:23:20|[Ladon](https://github.com/k8gege/Ladon)|v12.0|Ladon 12.0 20231201 [+]DomainLog Doma<br>inUserIP 远程查询 域用户、IP [u]LoginL<br>og 4624成功日志 域用户、域名、登陆IP /<br>all 导出全部日志 原始数据 LoginLog 用<br>户名 LoginLog 用户名 记录数    |
 |2023-12-03 06:18:42|[Viper](https://github.com/FunnyWolf/Viper)|2023-12<br>-03-13-4<br>4-27|### Bugfix - Fix https://github.com/F<br>unnyWolf/Viper/issues/188 - Fix https:<br>//github.com/FunnyWolf/Viper/issues/18<br>7 - Fix https://github.com/FunnyWolf/V<br>iper/issues/186|
-|2023-12-03 04:27:04|[PEASS-ng](https://github.com/carlospolop/PEASS-ng)|2023120<br>3-9cdcb3<br>8f||
 |2023-11-30 14:40:51|[grype](https://github.com/anchore/grype)|v0.73.4|### Additional Changes - bump to syft<br> v0.98.0 in quality gate tests  @westo<br>nsteimel] - update syft to v0.98.0; go<br> mod tidy  @spiffcs] **** |
 |2023-11-29 14:59:36|[syft](https://github.com/anchore/syft)|v0.98.0|### Added Features - Add binary class<br>ifiers for MySQL and MariaDB  @duanema<br>y] - Enhance redis binary classifier t<br>o support additional versions  @whalel<br>ines] - Expose compact JSON a|
 |2023-11-29 06:41:27|[ObserverWard](https://github.com/0x727/ObserverWard)|v2023.1<br>1.29||
@@ -33,34 +33,38 @@
 |2023-11-27 11:35:53|[locust](https://github.com/locustio/locust)|2.19.1|## What's Changed * Create any direct<br>ories as part of the CSV Prefix by @si<br>llydan1 in https://github.com/locustio<br>/locust/pull/2481 * Dont suppress Stop<br>User or GreenletExit in on_st|
 |2023-11-27 10:12:02|[FreeRDP](https://github.com/FreeRDP/FreeRDP)|3.0.0-r<br>c0| Nearly 2 months of testing, bugfixin<br>g and API refinements later we´re happ<br>y to announce the first release candid<br>ate for FreeRDP 3.0 The API should now<br> be considered stable and onl|
 |2023-11-26 00:56:40|[dalfox](https://github.com/hahwul/dalfox)|v2.9.1|## Changelog * 7458557 fixed typo * 0<br>00d2dc chore: update contributors [ski<br>p ci] * 888a922 chore: update contribu<br>tors [skip ci] * 4eee518 chore: update<br> contributors [skip ci] * bc8|
-|2023-11-25 09:31:25|[java-memshell-gen<br>erator-release](https://github.com/pen4uin/java-memshell-generator-release)|v1.0.7.<br>beta3|### 更新日志 1. 修复 FastJson + Groov<br>y 漏洞利用封装的问题 [#12] 2. 修复 God<br>zilla 插件 "evalClass is null" 的问题.<br> [#15] 3. 修复 BCEL 利用的 Unsupported<br>ClassVersionError 问题.|
 ## 近15天commit提交记录
 | 提交时间 | 项目名称 | 更新内容 |
 | :---- | :---- | :---- |
-|2023-12-10 00:28:29|[PoC-in-GitHub](https://github.com/nomi-sec/PoC-in-GitHub)|Auto Update 2023/12/10 00:28:29|
-|2023-12-10 00:00:04|[free](https://github.com/freefq/free)|updated_at 12-10 08:00|
+|2023-12-11 00:35:24|[ImageMagick](https://github.com/ImageMagick/ImageMagick)|...|
+|2023-12-11 00:31:45|[PoC-in-GitHub](https://github.com/nomi-sec/PoC-in-GitHub)|Auto Update 2023/12/11 00:31:45|
+|2023-12-11 00:06:32|[PocOrExp_in_Githu<br>b](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-12-11 08:06:32|
+|2023-12-11 00:00:03|[free](https://github.com/freefq/free)|updated_at 12-11 08:00|
+|2023-12-10 21:46:34|[ImHex](https://github.com/WerWolv/ImHex)|fix: Hex editor footer taking up way too much space|
+|2023-12-10 19:56:33|[locust](https://github.com/locustio/locust)|Merge pull request #2511 from locustio/add-event.me<br>asure-context-manager-for-simpler-firing-of-request-<br>event Add event.measure context manager for simpler <br>firing of request event|
+|2023-12-10 18:32:58|[anti-AD](https://github.com/privacy-protection-tools/anti-AD)|Auto renew the anti-AD list.|
+|2023-12-10 16:21:19|[WeChatMsg](https://github.com/LC044/WeChatMsg)|update readme|
+|2023-12-10 16:20:28|[Umi-OCR](https://github.com/hiroi-sora/Umi-OCR)|update log|
+|2023-12-10 14:17:20|[v2rayA](https://github.com/v2rayA/v2rayA)|ci(release_main.yml): Fix upgrading v2ray core buil<br>d|
+|2023-12-10 12:33:41|[v2rayfree](https://github.com/aiboboxx/v2rayfree)|update|
+|2023-12-10 12:07:09|[kube-bench](https://github.com/aquasecurity/kube-bench)|build(deps): bump docker/setup-buildx-action from 2<br> to 3 (#1497) Bumps  from 2 to 3. -  -  --- updated-<br>dependencies: - dependency-name: docker/setup-buildx<br>-action dependency-type: |
+|2023-12-10 08:51:29|[PyWxDump](https://github.com/xaoyaoo/PyWxDump)|修改小白文档|
+|2023-12-10 07:08:12|[ctf-archives](https://github.com/sajjadium/ctf-archives)|0CTF chals|
+|2023-12-10 05:59:22|[containerd](https://github.com/containerd/containerd)|Merge pull request #9456 from fuweid/enable-arm64 *<br>: enable ARM64 runner|
+|2023-12-10 03:16:42|[Mobile-Security-F<br>ramework-MobSF](https://github.com/MobSF/Mobile-Security-Framework-MobSF)|version bump|
+|2023-12-10 00:50:46|[ThinkAdmin](https://github.com/zoujingli/ThinkAdmin)|修改 Excel.js 数据导出参数|
 |2023-12-09 23:54:50|[DIE-engine](https://github.com/horsicq/DIE-engine)|Update module: XDataConvertorWidget 2023-12-10|
-|2023-12-09 23:27:21|[ctf-archives](https://github.com/sajjadium/ctf-archives)|pingCTF chals|
-|2023-12-09 22:27:26|[PocOrExp_in_Githu<br>b](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-12-10 06:27:26|
-|2023-12-09 18:42:52|[ImageMagick](https://github.com/ImageMagick/ImageMagick)|normalize pixel sum to reduce numerical instability<br> (https://github.com/ImageMagick/ImageMagick/issues/<br>6924)|
 |2023-12-09 16:29:58|[PST-Bucket](https://github.com/arch3rPro/PST-Bucket)|cudatext-cn: Update to version 1.205.0.0|
-|2023-12-09 16:16:05|[PyWxDump](https://github.com/xaoyaoo/PyWxDump)|优化命令行提示，优化合并数据库方法|
 |2023-12-09 15:59:36|[all-in-one-v2](https://github.com/zaivanza/all-in-one-v2)|add coinex to exc withdraw|
-|2023-12-09 15:57:11|[WeChatMsg](https://github.com/LC044/WeChatMsg)|update version|
-|2023-12-09 15:22:19|[ImHex](https://github.com/WerWolv/ImHex)|lang: Translations update from Weblate (#1458) Tran<br>slations update from  for . It also includes followi<br>ng components: *  Current translation status:  -----<br>---- Co-authored-by: Mins|
 |2023-12-09 15:11:19|[dbeaver](https://github.com/dbeaver/dbeaver)|Redundant localization removed|
 |2023-12-09 15:00:53|[Online_tools](https://github.com/Zhao-sai-sai/Online_tools)|0.5.0公测版|
 |2023-12-09 13:15:35|[nuclei](https://github.com/projectdiscovery/nuclei)|version update|
-|2023-12-09 12:33:41|[v2rayfree](https://github.com/aiboboxx/v2rayfree)|update|
 |2023-12-09 08:20:45|[afrog](https://github.com/zan8in/afrog)|update|
-|2023-12-09 07:16:48|[Umi-OCR](https://github.com/hiroi-sora/Umi-OCR)|bat启动脚本 修改工作路径 (#261)|
 |2023-12-09 07:01:00|[gshark](https://github.com/madneal/gshark)|Merge pull request #185 from madneal/dependabot/go_<br>modules/server/golang.org/x/net-0.17.0 Bump golang.o<br>rg/x/net from 0.10.0 to 0.17.0 in /server|
 |2023-12-09 05:55:56|[Awesome-Redteam](https://github.com/Threekiii/Awesome-Redteam)|update cheatsheets|
 |2023-12-09 02:49:10|[iDefender](https://github.com/wecooperate/iDefender)|update|
 |2023-12-09 02:18:13|[rustdesk](https://github.com/rustdesk/rustdesk)|Fix icon color on Sonoma|
-|2023-12-08 20:45:01|[locust](https://github.com/locustio/locust)|Merge pull request #2510 from locustio/update-web-u<br>i-about-box Update Web UI About box|
 |2023-12-08 20:41:18|[MemProcFS](https://github.com/ufrisk/MemProcFS)|Version 5.8.18|
-|2023-12-08 19:35:49|[containerd](https://github.com/containerd/containerd)|Merge pull request from GHSA-7ww5-4wqc-m92c [main] <br>deny /sys/devices/virtual/powercap|
 |2023-12-08 18:15:32|[CTFd](https://github.com/CTFd/CTFd)|fix: update gevent dependency (#2435) * fix: update<br> gevent dependency fixes https://github.com/gevent/g<br>event/issues/1989|
 |2023-12-08 15:17:09|[Pillager](https://github.com/qwqdanchun/Pillager)|Fix bug|
 |2023-12-08 13:54:22|[SmsForwarder](https://github.com/pppscn/SmsForwarder)|新增：自动任务·快捷指令 （开发中）|
@@ -71,10 +75,8 @@
 |2023-12-08 10:02:01|[syft](https://github.com/anchore/syft)|fix(java): improve identification for org.codehaus.<br>groovy artifacts (#2404) Signed-off-by: Weston Steim<br>el |
 |2023-12-08 09:52:54|[Elkeid](https://github.com/bytedance/Elkeid)|FIXME: possible crash due to resched triggered by p<br>ut_files_struct() When parent process is exiting, th<br>e last put_files_struct() would try to drop all file<br>s which triggers a resche|
 |2023-12-08 07:39:47|[Viper](https://github.com/FunnyWolf/Viper)|update version 2023-12-07|
-|2023-12-08 06:07:14|[kube-bench](https://github.com/aquasecurity/kube-bench)|build(deps): bump github.com/spf13/cobra from 1.6.1<br> to 1.8.0 (#1530) Bumps  from 1.6.1 to 1.8.0. -  -  <br>--- updated-dependencies: - dependency-name: github.<br>com/spf13/cobra dependenc|
 |2023-12-08 00:44:30|[metasploit-framew<br>ork](https://github.com/rapid7/metasploit-framework)|automatic module_metadata_base.json update|
 |2023-12-08 00:29:09|[sqlmap](https://github.com/sqlmapproject/sqlmap)|Update related to #5571|
-|2023-12-07 18:34:59|[anti-AD](https://github.com/privacy-protection-tools/anti-AD)|Auto renew the anti-AD list.|
 |2023-12-07 17:16:36|[vulhub](https://github.com/vulhub/vulhub)|Merge pull request #477 from vulhub/ofbiz-cve-2023-<br>49070|
 |2023-12-07 15:12:25|[awesome-chatgpt-z<br>h](https://github.com/yzfly/awesome-chatgpt-zh)|add intel-extension-for-transformers|
 |2023-12-07 14:34:05|[FingerprintHub](https://github.com/0x727/FingerprintHub)|Auto Update FingerPrint [Thu Dec 7 14:34:05 UTC 202<br>3] :robot:|
@@ -85,7 +87,6 @@
 |2023-12-07 09:46:40|[murphysec](https://github.com/murphysecurity/murphysec)|feat(dfscan): 无论 --deep，都在本地做扫描|
 |2023-12-07 09:25:22|[frp](https://github.com/fatedier/frp)|add error (#3833) Co-authored-by: int7 |
 |2023-12-07 02:33:06|[Scanners-Box](https://github.com/We5ter/Scanners-Box)|YOU can donate with Buy me a coffee now|
-|2023-12-07 02:14:45|[Mobile-Security-F<br>ramework-MobSF](https://github.com/MobSF/Mobile-Security-Framework-MobSF)|[HOTFIX] RPC hook suggestions + Bug Fix (#2301) * S<br>tring compare script improvements * Fix iOS Frida sc<br>ript bugs * Added RPC helpers for hook suggestion (T<br>ODO:Expose to UI) * Code |
 |2023-12-07 01:22:19|[nemo_go](https://github.com/hanc00l/nemo_go)|Update: 在dashboard中增加worker正在执行的任务数量显<br>示|
 |2023-12-06 19:17:13|[WebGoat](https://github.com/WebGoat/WebGoat)|chore: bump actions/setup-java from 3 to 4 (#1698) <br>Bumps  from 3 to 4. -  -  --- updated-dependencies: <br>- dependency-name: actions/setup-java dependency-typ<br>e: direct:production upda|
 |2023-12-06 04:46:58|[beef](https://github.com/beefproject/beef)|Merge branch 'dependabot/bundler/rdoc-6.6.1'|
@@ -94,11 +95,9 @@
 |2023-12-05 19:05:45|[RsaCtfTool](https://github.com/RsaCtfTool/RsaCtfTool)|update dixon.py|
 |2023-12-05 18:46:07|[volatility3](https://github.com/volatilityfoundation/volatility3)|Merge pull request #1050 from eve-mem/windows_vadya<br>rascan_issue_1047 Windows: update vadyarascan to use<br> generic yarascan requirements|
 |2023-12-05 14:49:09|[grype](https://github.com/anchore/grype)|chore(deps): bump anchore/sbom-action from 0.15.0 t<br>o 0.15.1 (#1626) Bumps  from 0.15.0 to 0.15.1. -  - <br> --- updated-dependencies: - dependency-name: anchor<br>e/sbom-action dependency-|
-|2023-12-05 14:01:40|[v2rayA](https://github.com/v2rayA/v2rayA)|Revert "Merge pull request #1166 from v2rayA/depend<br>abot/npm_and_yarn/gui/axios-1.6.0" This reverts comm<br>it b664fba9d61848cf520ca5f44d4f28f8571dc9d6, reversi<br>ng changes made to 3c2873|
 |2023-12-04 20:27:39|[sliver](https://github.com/BishopFox/sliver)|Merge pull request #1489 from Z3ratu1/fix/correct-s<br>ection-length-in-evasion_windows.go correct section <br>length in evasion_windows.go|
 |2023-12-04 18:20:59|[john](https://github.com/openwall/john)|Added MIT license to OpenCL code|
 |2023-12-04 15:39:00|[ThunderSearch](https://github.com/xzajyjs/ThunderSearch)|fix zoomeye host_search|
-|2023-12-04 14:57:36|[ThinkAdmin](https://github.com/zoujingli/ThinkAdmin)|更新layui版本|
 |2023-12-04 14:55:41|[ysomap](https://github.com/wh1t3p1g/ysomap)|update version|
 |2023-12-04 14:32:12|[subfinder](https://github.com/projectdiscovery/subfinder)|Merge pull request #1067 from projectdiscovery/depe<br>ndabot/go_modules/v2/dev/github.com/projectdiscovery<br>/ratelimit-0.0.18|
 |2023-12-04 12:47:40|[HFish](https://github.com/hacklcx/HFish)|Update webinstall.sh|
@@ -122,8 +121,7 @@
 |2023-11-28 14:05:18|[naabu](https://github.com/projectdiscovery/naabu)|Merge branch 'dev'|
 |2023-11-27 06:09:58|[NCTOOls](https://github.com/wafinfo/NCTOOls)|Update README.md|
 |2023-11-26 18:23:01|[GZCTF](https://github.com/GZTimeWalker/GZCTF)|add NYNUCTF S4 (#186)|
-|2023-11-26 01:02:06|[dalfox](https://github.com/hahwul/dalfox)|Merge pull request #510 from hahwul/dev Fixed GHCR|
-|2023-11-25 14:51:50|[feroxbuster](https://github.com/epi052/feroxbuster)|docs: add Mister7F as a contributor for ideas (#103<br>6) * docs: update README.md [skip ci] * docs: update<br> .all-contributorsrc [skip ci] --------- Co-authored<br>-by: allcontributors[bot]|## 所有项目
+|2023-11-26 01:02:06|[dalfox](https://github.com/hahwul/dalfox)|Merge pull request #510 from hahwul/dev Fixed GHCR|## 所有项目
 # 安全
 ## CTF
 ### AWD
@@ -853,7 +851,7 @@
 ##### linux提权
 | 项目名称 | 版本 | 项目描述 |
 | :---- | :---- | :---- |
-| [PEASS-ng](https://github.com/carlospolop/PEASS-ng) | 2023120<br>3-9cdcb3<br>8f | PEASS - Privilege Escalation Awesome Scripts SUITE (with color<br>s) |
+| [PEASS-ng](https://github.com/carlospolop/PEASS-ng) | 2023121<br>0-89d560<br>ba | PEASS - Privilege Escalation Awesome Scripts SUITE (with color<br>s) |
 | [dirtycow](https://github.com/firefart/dirtycow) |  | Dirty Cow exploit - CVE-2016-5195 |
 | [traitor](https://github.com/liamg/traitor) | v0.0.14 | :arrow_up: :skull_and_crossbones: :fire: Automatic Linux prive<br>sc via exploitation of low-hanging fruit e.g. gtfobins, pwnkit,<br> dirty pipe, +w docker.sock |
 | [LinEnum](https://github.com/rebootuser/LinEnum) |  | Scripted Local Linux Enumeration & Privilege Escalation Checks |
