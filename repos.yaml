@@ -298,6 +298,8 @@
                                 - https://github.com/Y4er/CVE-2020-2551
                                 - https://github.com/Y4er/CVE-2020-2555
                                 - https://github.com/Y4er/CVE-2020-2883
+                            Nacos:
+                                - https://github.com/HKEcho5213/HKEcho_Nacos
                 常规web漏洞:
                     CLRF:
                         - https://github.com/Nefcore/CRLFsuite
@@ -450,6 +452,7 @@
                 JDWP:
                     - https://github.com/IOActive/jdwp-shellifier
                     - https://github.com/Lz1y/jdwp-shellifier
+                    - https://github.com/l3yx/jdwp-codeifier
                 rdp:
                     - https://github.com/k8gege/CVE-2019-0708
                     - https://github.com/worawit/CVE-2019-0708
@@ -545,6 +548,7 @@
                 windows提权:
                     - https://github.com/BeichenDream/BadPotato
                     - https://github.com/lyshark/Windows-exploits
+                    - https://github.com/Prepouce/CoercedPotato
                 综合:
                     - https://github.com/Ascotbe/Kernelhub
             权限维持:
@@ -817,6 +821,7 @@
                     - https://github.com/ninoseki/mitaka
             渗透工具集合(虚拟机):
                 - https://github.com/makoto56/penetration-suite-toolkit
+                - https://github.com/TianWen-Lab/TranSec
             优秀项目集合:
                 - https://github.com/FiveAourThe/RedTeamTools
                 - https://github.com/guchangan1/All-Defense-Tool
