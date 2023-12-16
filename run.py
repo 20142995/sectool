@@ -309,7 +309,7 @@ def main():
         for k, v in dic.items():
             msg.append("{} {}".format("#" * path, k))
             if isinstance(v, list):
-                msg.append("| 项目名称 | 版本 | 项目描述 | 提交时间 |")
+                msg.append("| 项目名称 | 版本 | 项目描述 | 最近提交时间 |")
                 msg.append("| :---- | :---- | :---- | :---- |")
                 for url in v:
                     if url.startswith("https://github.com/"):
