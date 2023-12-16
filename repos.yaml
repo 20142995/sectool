@@ -1085,7 +1085,13 @@
                     - https://github.com/hayasec/360SafeBrowsergetpass
                     - https://github.com/moonD4rk/HackBrowserData
                     - https://github.com/QAX-A-Team/BrowserGhost
+                    - https://github.com/obsidianforensics/hindsight
+                    - https://github.com/SD-XD/Catch-Browser
+                    - https://github.com/djhohnstein/SharpChromium
+                    - https://github.com/wekillpeople/browser-dumpwd
                     - https://github.com/qwqdanchun/Pillager
+                    - https://github.com/priyankchheda/chrome_password_grabber
+                    - https://github.com/riskydissonance/SharpCookieMonster
                 微信取证:
                     - https://github.com/AdminTest0/SharpWxDump
                     - https://github.com/Ormicron/chatViewTool
@@ -1093,6 +1099,7 @@
                     - https://github.com/SpenserCai/GoWxDump
                     - https://github.com/xaoyaoo/PyWxDump
                     - https://github.com/x1hy9/WeChatUserDB
+                    - https://github.com/greycodee/wechat-backup
                     - https://github.com/LC044/WeChatMsg
                 向日葵取证:
                     - https://github.com/wafinfo/Sunflower_get_Password
@@ -1108,7 +1115,15 @@
                     - https://github.com/uknowsec/SharpDecryptPwd
                     - https://github.com/wafinfo/TeamViewer
                     - https://github.com/jas502n/FinalShellDecodePass
+                    - https://github.com/HyperSine/how-does-SecureCRT-encrypt-password
                     - https://github.com/Zhuoyuan1/navicat_password_decrypt
+                    - https://github.com/HyperSine/how-does-navicat-encrypt-password
+                    - https://github.com/xillwillx/MobaXterm-Decryptor
+                    - https://github.com/Hzllaga/RDODecrypt
+                    - https://github.com/HyperSine/how-does-MobaXterm-encrypt-password
+                    - https://github.com/HyperSine/how-does-Xmanager-encrypt-password
+                    - https://github.com/Arvanaghi/SessionGopher
+                    - https://github.com/anoopengineer/winscppasswd
                 主机账号:
                     - https://github.com/bitsadmin/fakelogonscreen
                     - https://github.com/DarkCoderSc/win-brute-logon
@@ -1465,7 +1480,6 @@
     - https://github.com/OWASP/DVSA
     - https://github.com/lgandx/Responder
     - https://github.com/Velocidex/WinPmem
-    - https://github.com/HyperSine/how-does-SecureCRT-encrypt-password
     - https://github.com/shadowscatcher/shodan
     - https://github.com/ajinabraham/nodejsscan
     - https://github.com/ogham/exa
@@ -1476,7 +1490,6 @@
     - https://github.com/byt3bl33d3r/CrackMapExec
     - https://github.com/ShiftLeftSecurity/sast-scan
     - https://github.com/jxhczhl/JsRpc
-    - https://github.com/obsidianforensics/hindsight
     - https://github.com/theonlypwner/crc32
     - https://github.com/pielco11/fav-up
     - https://github.com/med0x2e/SigFlip
@@ -1532,7 +1545,6 @@
     - https://github.com/krisleech/wisper
     - https://github.com/NetSPI/PowerUpSQL
     - https://github.com/zardus/ctf-tools
-    - https://github.com/greycodee/wechat-backup
     - https://github.com/mufeedvh/basecrack
     - https://github.com/EvilAnne/Violation_Pnetest
     - https://github.com/epinna/weevely3
@@ -1685,7 +1697,6 @@
     - https://github.com/Wh04m1001/IFaultrepElevatedDataCollectionUAC
     - https://github.com/Veil-Framework/Veil
     - https://github.com/horizon3ai/CVE-2022-40684
-    - https://github.com/HyperSine/how-does-navicat-encrypt-password
     - https://github.com/No-Github/bash-insulter
     - https://github.com/ffffffff0x/Digital-Privacy
     - https://github.com/CsEnox/CVE-2022-2992
@@ -1985,7 +1996,6 @@
     - https://github.com/p3tr0v/chacal
     - https://github.com/bkfish/yaml-payload-for-Win
     - https://github.com/ncsa/ssh-auditor
-    - https://github.com/SD-XD/Catch-Browser
     - https://github.com/btnz-k/emby_ssrf
     - https://github.com/SecWiki/windows-kernel-exploits
     - https://github.com/tennc/fuzzdb
@@ -2085,7 +2095,6 @@
     - https://github.com/nondanee/UnblockNeteaseMusic
     - https://github.com/lxneng/xpinyin
     - https://github.com/Lucifer1993/AngelSword
-    - https://github.com/xillwillx/MobaXterm-Decryptor
     - https://github.com/foospidy/web-cve-tests
     - https://github.com/tismayil/rsdl
     - https://github.com/volatilityfoundation/volatility
@@ -2112,7 +2121,6 @@
     - https://github.com/samsbp/java-file-ftp
     - https://github.com/CUCyber/ja3transport
     - https://github.com/LimerBoy/Impulse
-    - https://github.com/djhohnstein/SharpChromium
     - https://github.com/EtherDream/js-port-knocking
     - https://github.com/dylanaraps/pure-bash-bible
     - https://github.com/google/rekall
@@ -2192,7 +2200,6 @@
     - https://github.com/thewhiteh4t/flashsploit
     - https://github.com/threedr3am/tomcat-cluster-session-sync-exp
     - https://github.com/aleenzz/CVE-2020-10199
-    - https://github.com/Hzllaga/RDODecrypt
     - https://github.com/wrlu/CAAC-CTF-2018-Primary
     - https://github.com/d3npa/writeups
     - https://github.com/Keramas/mssqli-duet
@@ -2260,8 +2267,6 @@
     - https://github.com/JE2Se/AssetScan
     - https://github.com/ccg2018/ClashA
     - https://github.com/roddux/wordpress-dos-poc
-    - https://github.com/HyperSine/how-does-MobaXterm-encrypt-password
-    - https://github.com/HyperSine/how-does-Xmanager-encrypt-password
     - https://github.com/berzerk0/Probable-Wordlists
     - https://github.com/trimstray/linux-hardening-checklist
     - https://github.com/TheZ3ro/gogsownz
@@ -2406,7 +2411,6 @@
     - https://github.com/Kevin-Robertson/Invoke-TheHash
     - https://github.com/milo2012/CVE-2018-0296
     - https://github.com/pyn3rd/CVE-2018-3252
-    - https://github.com/Arvanaghi/SessionGopher
     - https://github.com/lcq2/riscv-ida
     - https://github.com/cw1997/NATBypass
     - https://github.com/Stahlz/JQShell
@@ -2528,7 +2532,6 @@
     - https://github.com/netxfly/docker-remote-api-exp
     - https://github.com/Arno0x/ShellcodeWrapper
     - https://github.com/kevthehermit/VolUtility
-    - https://github.com/anoopengineer/winscppasswd
     - https://github.com/tinysec/public
     - https://github.com/viruscamp/luadec
     - https://github.com/idlefire/ew
@@ -2545,7 +2548,6 @@
     - https://github.com/Kevin-Robertson/Conveigh
     - https://github.com/rsmudge/armitage
     - https://github.com/Xyntax/DirBrute
-    - https://github.com/wekillpeople/browser-dumpwd
     - https://github.com/ImageTragick/PoCs
     - https://github.com/Tycx2ry/docker_api_vul
     - https://github.com/mempodippy/cub3
@@ -2872,3 +2874,5 @@
         - https://github.com/FreeRDP/FreeRDP
         - https://github.com/quasar/Quasar
         - https://github.com/rustdesk/rustdesk
+'':
+    - https://github.com/wekillpeople/browser-dumpwd

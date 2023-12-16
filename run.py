@@ -309,22 +309,23 @@ def main():
         for k, v in dic.items():
             msg.append("{} {}".format("#" * path, k))
             if isinstance(v, list):
-                msg.append("| 项目名称 | 版本 | 项目描述 |")
-                msg.append("| :---- | :---- | :---- |")
+                msg.append("| 项目名称 | 版本 | 项目描述 | 提交时间 |")
+                msg.append("| :---- | :---- | :---- | :---- |")
                 for url in v:
                     if url.startswith("https://github.com/"):
                         try:
                             _, repo = url[19:].split("/", 1)
                             msg.append(
-                                "| [{}]({}) | {} | {} |".format(
+                                "| [{}]({}) | {} | {} | {} |".format(
                                     parse_len(repo, 18),
                                     url,
                                     parse_len(
                                         data.get(url, {}).get("release_tag", ""), 8
                                     ),
                                     parse_len(
-                                        data.get(url, {}).get("description", ""), 63
+                                        data.get(url, {}).get("description", ""), 53
                                     ),
+                                    parse_len(data.get(url, {}).get("commit_date"), 23),
                                 )
                             )
                         except:
