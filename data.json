@@ -200,8 +200,8 @@
     "https://github.com/ycdxsb/PocOrExp_in_Github": {
         "created_at": "2021-04-13 05:46:16",
         "description": "聚合Github上已有的Poc或者Exp，CVE信息来自CVE官网。Auto Collect Poc Or Exp from Github by CVE ID.",
-        "commit_date": "2023-12-25 00:24:36",
-        "commit_message": "update 2023-12-25 08:24:36",
+        "commit_date": "2023-12-26 00:18:30",
+        "commit_message": "update 2023-12-26 08:18:29",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -380,8 +380,8 @@
     "https://github.com/lal0ne/vulnerability": {
         "created_at": "2022-01-20 02:48:42",
         "description": "收集、整理、修改互联网上公开的漏洞POC",
-        "commit_date": "2023-12-18 01:50:53",
-        "commit_message": "CVE-2023-42820&CVE-2023-42442",
+        "commit_date": "2023-12-25 07:13:47",
+        "commit_message": "CVE-2023-51385",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -531,8 +531,8 @@
     "https://github.com/knownsec/404StarLink": {
         "created_at": "2020-11-17 08:10:18",
         "description": "404StarLink - 推荐优质、有意义、有趣、坚持维护的安全开源项目",
-        "commit_date": "2023-12-18 02:55:05",
-        "commit_message": "weekly update at 2023-12-18",
+        "commit_date": "2023-12-25 02:59:06",
+        "commit_message": "weekly update at 2023-12-25",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -594,8 +594,8 @@
     "https://github.com/shadow1ng/fscan": {
         "created_at": "2020-11-13 16:35:20",
         "description": "一款内网综合扫描工具，方便一键自动化、全方位漏扫扫描。",
-        "commit_date": "2023-11-15 04:07:25",
-        "commit_message": "Update",
+        "commit_date": "2023-12-25 09:57:28",
+        "commit_message": "屏蔽go内部库报错日志",
         "release_tag": "1.8.3",
         "release_date": "2023-11-13 04:43:05",
         "release_message": "加入控制台颜色输出(可-nocolor)、保存文件json结构(-json)、修改tls最低版本为1.0、端口分组(-p db,web,service)。"
@@ -1107,8 +1107,8 @@
     "https://github.com/RoomaSec/RmTools": {
         "created_at": "2022-08-23 05:07:04",
         "description": "蓝队应急工具",
-        "commit_date": "2023-10-25 07:56:46",
-        "commit_message": "Update README.md",
+        "commit_date": "2023-12-25 11:08:51",
+        "commit_message": "Merge branch 'main' of https://github.com/RoomaSec/RmTools",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -1350,8 +1350,8 @@
     "https://github.com/projectdiscovery/subfinder": {
         "created_at": "2018-03-31 09:44:57",
         "description": "Fast passive subdomain enumeration tool.",
-        "commit_date": "2023-12-18 23:36:59",
-        "commit_message": "Merge pull request #1086 from projectdiscovery/dependabot/go_modules/v2/golang.org/x/crypto-0.17.0",
+        "commit_date": "2023-12-25 14:39:52",
+        "commit_message": "Merge pull request #1093 from projectdiscovery/dependabot/go_modules/v2/dev/github.com/projectdiscovery/retryablehttp-go-1.0.41",
         "release_tag": "v2.6.3",
         "release_date": "2023-09-12 09:40:25",
         "release_message": "<!-- Release notes generated using configuration in .github/release.yml at main -->\r\n\r\n## What's Changed\r\n\r\n### 🎉 New Features\r\n* Added RedHuntLabs as a source by @umair-rhl in https://github.com/projectdiscovery/subfinder/pull/978\r\n* Added Builtwith as a source by @dogancanbakir in https://github.com/projectdiscovery/subfinder/pull/960\r\n\r\n### 🐞 Bug Fixes\r\n* Fixed pagination issue in facebook source by @tarunKoyalwar in https://github.com/projectdiscovery/subfinder/pull/944\r\n* Fixed filtering active subdomains when using as lib by @RamanaReddy0M in https://github.com/projectdiscovery/subfinder/pull/977\r\n* Fixed selfupdate option for android by @dogancanbakir in https://github.com/projectdiscovery/subfinder/pull/985\r\n\r\n### 🔨 Maintenance\r\n* Cleanup migration code by @dogancanbakir in https://github.com/projectdiscovery/subfinder/pull/941\r\n* Use `-short` mode for excluding long running tests by @dogancanbakir in https://github.com/projectdiscovery/subfinder/pull/948\r\n\r\n### Other Changes\r\n* Added warning for passivetotal source by @dogancanbakir in https://github.com/projectdiscovery/subfinder/pull/942\r\n* Removed zoomeye legacy support by @dogancanbakir in https://github.com/projectdiscovery/subfinder/pull/943\r\n* Updated to v3 API for virustotal source by @dogancanbakir in https://github.com/projectdiscovery/subfinder/pull/962\r\n\r\nIssues closed in this release - https://github.com/projectdiscovery/subfinder/milestone/11?closed=1\r\n\r\n## New Contributors\r\n* @umair-rhl made their first contribution in https://github.com/projectdiscovery/subfinder/pull/978\r\n\r\n**Full Changelog**: https://github.com/projectdiscovery/subfinder/compare/v2.6.2...v2.6.3"
@@ -2951,8 +2951,8 @@
     "https://github.com/dbeaver/dbeaver": {
         "created_at": "2015-10-21 08:26:28",
         "description": "Free universal database tool and SQL client",
-        "commit_date": "2023-12-24 18:55:44",
-        "commit_message": "remove forRemoval (#22233)",
+        "commit_date": "2023-12-25 20:23:39",
+        "commit_message": "Transaction isolation determine fix",
         "release_tag": "23.3.1",
         "release_date": "2023-12-24 17:27:09",
         "release_message": "\n                - SQL Editor:\n                    - New highlighting and script validation were enabled by default\n                    - SQL highlighting performance was improved\n                    - Connection variables and system environment variables now accessible from SQ Leditor\n                    - Handling of special characters was fixed\n                - Data Editor:\n                    - Value selector panel was improved: you can switch the active panel with 'Ctrl+Tab' and change the active value in the context menu\n                    - Advanced paste of multiple records was enhanced\n                    - Spatial data zooming was improved (thanks to @kalkun)\n                - ER Diagrams:\n                    - Diagram layout was enhanced\n                - Data Transfer:\n                    - Users can change the data export task output format\n                    - Data export from table to table was fixed\n                - Security:\n                    - Oracle driver version was updated to 23.2.0.0\n                - General:\n                    - We switched to Eclipse 2023-12\n                    - Language detection for locale containing language and country was fixed\n                    - Workspace opening was fixed\n                    - ‘Statistic’ tab display was fixed\n                    - Broken links in connection dialogs were fixed\n                    - New foreign key name generation was fixed\n                - Databases:\n                    - DB2: Loading schema statistics was fixed\n                    - EDB: Packages duplicating schemas in the Database Navigator were removed\n                    - Firebird: Function and procedure presentation was enhanced\n                    - Google Bigtable name was corrected\n                    - Greenplum: Rows policies were supported\n                    - MariaDB: Result fetch size was fixed\n                    - PostgreSQL:\n                        - Indexes and constraints are displayed in partition DDL\n                        - Backup of several schemas and several tables was enhanced\n            "
@@ -3050,8 +3050,8 @@
     "https://github.com/zan8in/afrog": {
         "created_at": "2022-02-24 06:00:32",
         "description": "A Security Tool for Bug Bounty, Pentest and Red Teaming.",
-        "commit_date": "2023-12-22 09:11:30",
-        "commit_message": "update",
+        "commit_date": "2023-12-25 06:47:19",
+        "commit_message": "update poc",
         "release_tag": "v2.9.6",
         "release_date": "2023-12-22 09:18:29",
         "release_message": "【优化】进行TCP PoC验证时，新增返回十六进制数据包类型的功能。使用response.raw可获取正常数据包，而使用response.body则可获取经过十六进制解码的数据包。\r\n【PoC】总数：1266\r\n\r\nDuring TCP PoC verification, an enhancement has been made to return the hexadecimal data packet type. Use response.raw to retrieve the normal data packet, and response.body to obtain the data packet after hex decoding.\r\nPoC count: 1266\r\n"
@@ -3095,8 +3095,8 @@
     "https://github.com/projectdiscovery/nuclei": {
         "created_at": "2020-04-03 18:47:11",
         "description": "Fast and customizable vulnerability scanner based on simple YAML based DSL.",
-        "commit_date": "2023-12-24 08:46:09",
-        "commit_message": "fix fuzzing self-contained input requirement (#4531)",
+        "commit_date": "2023-12-25 06:32:52",
+        "commit_message": "Merge pull request #4540 from projectdiscovery/dependabot/go_modules/dev/github.com/projectdiscovery/dsl-0.0.36",
         "release_tag": "v3.1.3",
         "release_date": "2023-12-21 12:45:22",
         "release_message": "<!-- Release notes generated using configuration in .github/release.yml at main -->\r\n\r\n## What's Changed\r\n\r\n* Added email support to SMTP client in javascript protocol by @Marcuccio in https://github.com/projectdiscovery/nuclei/pull/4451\r\n* Added Interface in Networkconfig (SDK) by @vince-isec in https://github.com/projectdiscovery/nuclei/pull/4472\r\n\r\n### Other Changes\r\n* Fixed issue with blank value for query param by @dogancanbakir in https://github.com/projectdiscovery/nuclei/pull/4513\r\n* Fixed issue with resume file creation by @dogancanbakir in https://github.com/projectdiscovery/nuclei/pull/4514\r\n* Fixed an issue with auth check API by @ehsandeep in https://github.com/projectdiscovery/nuclei/pull/4527\r\n* Updated README to point to centralized docs by @olearycrew in https://github.com/projectdiscovery/nuclei/pull/4521\r\n\r\n## New Contributors\r\n* @vince-isec made their first contribution in https://github.com/projectdiscovery/nuclei/pull/4472\r\n* @Marcuccio made their first contribution in https://github.com/projectdiscovery/nuclei/pull/4451\r\n\r\n**Full Changelog**: https://github.com/projectdiscovery/nuclei/compare/v3.1.2...v3.1.3"
@@ -3219,7 +3219,7 @@
     "https://github.com/Threekiii/Awesome-Redteam": {
         "created_at": "2022-02-08 00:45:03",
         "description": "一个攻防知识仓库",
-        "commit_date": "2023-12-18 03:28:33",
+        "commit_date": "2023-12-25 07:37:51",
         "commit_message": "update README.md",
         "release_tag": "v1.0",
         "release_date": "2023-12-18 03:31:30",
@@ -3550,8 +3550,8 @@
     "https://github.com/bytedance/appshark": {
         "created_at": "2022-09-01 03:39:03",
         "description": "Appshark is a static taint analysis platform to scan vulnerabilities in an Android app.",
-        "commit_date": "2023-12-14 07:32:01",
-        "commit_message": "Merge pull request #64 from firmianay/dev3\n\nadd runtimeSDK",
+        "commit_date": "2023-12-25 11:21:37",
+        "commit_message": "Merge pull request #71 from firmianay/patch-1\n\nUpdate EngineConfig.json5",
         "release_tag": "v0.1.2",
         "release_date": "2022-09-22 10:03:10",
         "release_message": "fix problems running on windows."
@@ -3971,8 +3971,8 @@
     "https://github.com/aquasecurity/trivy": {
         "created_at": "2019-04-11 01:01:07",
         "description": "Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more",
-        "commit_date": "2023-12-19 07:59:21",
-        "commit_message": "chore(deps): bump golang.org/x/crypto from 0.15.0 to 0.17.0 (#5805)\n\nSigned-off-by: dependabot[bot] <support@github.com>\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
+        "commit_date": "2023-12-25 06:13:16",
+        "commit_message": "chore(deps): bump github.com/containerd/containerd from 1.7.7 to 1.7.11 (#5809)\n\nSigned-off-by: dependabot[bot] <support@github.com>\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
         "release_tag": "v0.48.1",
         "release_date": "2023-12-18 13:38:40",
         "release_message": "## Changelog\n* ba825b2ae chore(deps): bump trivy-iac to v0.7.1 (#5797)\n* abf227e06 fix(bitnami): use a different comparer for detecting vulnerabilities (#5633)\n* df49ea4a1 refactor(sbom): disable html escaping for CycloneDX (#5764)\n* f25e2df1c refactor(purl): use `pub` from `package-url` (#5784)\n* b5e3b77f0 docs(python): add note to using `pip freeze` for `compatible releases` (#5760)\n* 6cc00c2f0 fix(report): use OS information for OS packages purl in `github` template (#5783)\n* c317fe828 fix(report): fix error if miconfigs are empty (#5782)\n* 9b4bcedf0 refactor(vuln): don't remove VendorSeverity in JSON report (#5761)\n* be5a55049 fix(report): don't mark misconfig passed tests as failed in junit.tpl (#5767)\n* 01edbda34 docs(k8s): replace --scanners config with --scanners misconfig in docs (#5746)\n* eb9741954 fix(report): update Gitlab template (#5721)\n* be1c55497 feat(secret): add support of GitHub fine-grained tokens (#5740)\n* a5342da06 fix(misconf): add an image misconf to result (#5731)\n* 108a5b05c feat(secret): added support of Docker registry credentials (#5720)\n* 6080e245c chore(deps): bump github.com/aws/aws-sdk-go-v2/config from 1.18.45 to 1.25.11 (#5717)\n* e27ec3261 chore(deps): bump github.com/aws/aws-sdk-go-v2/service/ecr from 1.21.0 to 1.24.1 (#5701)\n\n"
@@ -4277,7 +4277,7 @@
     "https://github.com/aiboboxx/v2rayfree": {
         "created_at": "2021-10-13 11:34:53",
         "description": "v2ray节点、免费节点、免费v2ray节点、最新公益免费v2ray节点订阅地址、免费v2ray节点每日更新、免费ss/v2ray/trojan节点、freefq ",
-        "commit_date": "2023-12-24 12:32:56",
+        "commit_date": "2023-12-25 12:34:53",
         "commit_message": "update",
         "release_tag": "",
         "release_date": "",
@@ -4322,8 +4322,8 @@
     "https://github.com/freefq/free": {
         "created_at": "2020-06-07 02:48:33",
         "description": "翻墙、免费翻墙、免费科学上网、免费节点、免费梯子、免费ss/v2ray/trojan节点、蓝灯、谷歌商店、翻墙梯子",
-        "commit_date": "2023-12-25 00:00:04",
-        "commit_message": "updated_at 12-25 08:00",
+        "commit_date": "2023-12-26 00:00:06",
+        "commit_message": "updated_at 12-26 08:00",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -5004,8 +5004,8 @@
     "https://github.com/rustdesk/rustdesk": {
         "created_at": "2020-09-28 15:36:08",
         "description": "An open-source remote desktop, and alternative to TeamViewer.",
-        "commit_date": "2023-12-24 08:33:36",
-        "commit_message": "fix xdg portal verison check for persist_mode (#6742)",
+        "commit_date": "2023-12-25 13:49:34",
+        "commit_message": "Disable file copy & paste in view mode (#6749)\n\n* Disable file copy & paste in view mode\r\n\r\nSigned-off-by: fufesou <shuanglongchen@yeah.net>\r\n\r\n* hide 'Enable file copy & paste' when no keyboard perm\r\n\r\nSigned-off-by: fufesou <shuanglongchen@yeah.net>\r\n\r\n* Disable some functions in view mode\r\n\r\nSigned-off-by: fufesou <shuanglongchen@yeah.net>\r\n\r\n---------\r\n\r\nSigned-off-by: fufesou <shuanglongchen@yeah.net>",
         "release_tag": "1.2.3",
         "release_date": "2023-10-13 10:47:12",
         "release_message": " ![image](https://github.com/rustdesk/rustdesk/assets/71636191/83754a64-31b8-47f0-8570-da22207759a9)\r\n\r\n > Winget, FDroid update will come soon.\r\n\r\n x86-64: [Windows](https://github.com/rustdesk/rustdesk/releases/download/1.2.3/rustdesk-1.2.3-x86_64.exe) | [Ubuntu](https://github.com/rustdesk/rustdesk/releases/download/1.2.3/rustdesk-1.2.3-x86_64.deb) | [Mac](https://github.com/rustdesk/rustdesk/releases/download/1.2.3/rustdesk-1.2.3-x86_64.dmg)\r\n AArch64 (ARM64):  [Ubuntu](https://github.com/rustdesk/rustdesk/releases/download/1.2.3/rustdesk-1.2.3-aarch64.deb) | [Android](https://github.com/rustdesk/rustdesk/releases/download/1.2.3/rustdesk-1.2.3-aarch64-signed.apk) | [Mac](https://github.com/rustdesk/rustdesk/releases/download/1.2.3/rustdesk-1.2.3-aarch64.dmg)\r\n\r\n More: [check below please](#)\r\n\r\n <details>\r\n <summary>Changelog</summary>\r\n\r\n- Improve Wayland support, cursor/clipboard/multi-monitors etc, but highly depends on Xwayland, working well on GNOME, bad compatibility on KDE. We will continue working on Wayland\r\n- Add group tab\r\n- Add software update check based on github latest tag\r\n- Some fixes for Kaspersky compliance, https://github.com/rustdesk/rustdesk/discussions/5624, but they requested more\r\n- A lot of fixes since 1.2.2\r\n- We are still working hard on dual-monitors-dual-windows and new hardware codecs, hopefully be in 1.2.4\r\n\r\n </details>"
@@ -5263,8 +5263,8 @@
     "https://github.com/alibaba/arthas": {
         "created_at": "2018-08-29 17:15:57",
         "description": "Alibaba Java Diagnostic Tool Arthas/Alibaba Java诊断利器Arthas",
-        "commit_date": "2023-12-04 03:25:31",
-        "commit_message": "fix typo (#2746)",
+        "commit_date": "2023-12-25 05:24:15",
+        "commit_message": "Refactored code to adopt JDK 8 style and features. (#2759)",
         "release_tag": "arthas-all-3.7.1",
         "release_date": "2023-08-24 12:32:49",
         "release_message": "Issues: https://github.com/alibaba/arthas/milestone/49?closed=1\r\n\r\n* #2620 当 listen 0.0.0.0 时，默认生成随机密码，需要鉴权\r\n\r\n* #2633  修复在线教程，切换到 killercoda feat: update online tutorials, switch to killercoda "
@@ -6427,8 +6427,8 @@
     "https://github.com/audacity/audacity": {
         "created_at": "2015-03-26 10:46:17",
         "description": "Audio Editor                                     ",
-        "commit_date": "2023-12-22 12:40:39",
-        "commit_message": "Don't split source stereo track, dragging clip into another track...\n\n... the bug occurred only for tracks deserialized from a project file, and\nonly the first time (not again, after undo and repetition of the drag)",
+        "commit_date": "2023-12-25 10:22:54",
+        "commit_message": "Merge pull request #5816 from crsib/conan_fixes\n\nResolves: #5419\r\nResolves an issue I have with the latest XCode, where Expat is searched by the DYLD in the wrong folder.",
         "release_tag": "Audacity-3.4.2",
         "release_date": "2023-11-16 15:10:06",
         "release_message": " This is a hotfix release. It fixes the following issues:\r\n\r\n * #5568 Fix a crash when opening projects with zero-length clips.\r\n * #5032 When exporting a file, the sample rate of the tracks is now considered, and last-used sample rate is remembered. \r\n * #5555 Copy-pasting now pastes into audio again by default.  This can be changed via Preferences -> Track Behavior -> Always paste audio as new clips.\r\n * #5549 Mix and render now also resets the gain for the resulting track.\r\n * #5571 Fix clips shifting to the right when effects are applied to them.\r\n * #5106 Fix clicks occurring when overdubbing a project with muted tracks.\r\n * #5533 Fix files being exported without a file extension in rare cases.\r\n * #5539 Show all sample rates possible for MP2 exports.\r\n * #5518 Fix pasting into labels.\r\n * #5543 Fix a crash when clearing loops.\r\n * #5529 Fix copying when \"select all audio if selection required\" is enabled.\r\n * #5598 #5552 Fix GTK detection and compilation for wxWidgets 3.2.4.\r\n * #5551 Fix Nyquist-related crashes.\r\n * #5604 Fix EQs in macros.\r\n * #5511 Fix a crash when closing Audacity.\r\n * #5476 Fix builds on armhf."
@@ -6508,8 +6508,8 @@
     "https://github.com/arch3rPro/PST-Bucket": {
         "created_at": "2023-04-24 06:49:11",
         "description": "Scoop-Buket for Penetration Suite Toolkit",
-        "commit_date": "2023-12-24 16:30:04",
-        "commit_message": "cudatext-cn: Update to version 1.206.2.0",
+        "commit_date": "2023-12-25 01:33:41",
+        "commit_message": "meterpeter: Update to version 2.10.14",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -6598,11 +6598,11 @@
     "https://github.com/ImageMagick/ImageMagick": {
         "created_at": "2015-05-17 20:07:50",
         "description": "🧙‍♂️ ImageMagick 7",
-        "commit_date": "2023-12-25 00:19:53",
-        "commit_message": "release",
-        "release_tag": "7.1.1-23",
-        "release_date": "2023-12-11 06:31:19",
-        "release_message": "## What's Changed\n* configure.ac: Fix bashism by @thesamesam in https://github.com/ImageMagick/ImageMagick/pull/6931\n* Fix zstd not being listed under GetMagickDelegates() by @valgur in https://github.com/ImageMagick/ImageMagick/pull/6934\n\n## New Contributors\n* @valgur made their first contribution in https://github.com/ImageMagick/ImageMagick/pull/6934\n\n**Full Changelog**: https://github.com/ImageMagick/ImageMagick/compare/7.1.1-22...7.1.1-23"
+        "commit_date": "2023-12-25 21:48:32",
+        "commit_message": "check for version 0.20 instead",
+        "release_tag": "7.1.1-24",
+        "release_date": "2023-12-25 19:45:37",
+        "release_message": "## What's Changed\n* Bump actions/upload-artifact from 3 to 4 by @dependabot in https://github.com/ImageMagick/ImageMagick/pull/6954\n* Bump actions/download-artifact from 3 to 4 by @dependabot in https://github.com/ImageMagick/ImageMagick/pull/6953\n* Bump github/codeql-action from 2 to 3 by @dependabot in https://github.com/ImageMagick/ImageMagick/pull/6955\n* Bump actions/checkout from 3 to 4 by @dependabot in https://github.com/ImageMagick/ImageMagick/pull/6634\n* Add Canon Raw v2 (CR2) as mime type by @kleisauke in https://github.com/ImageMagick/ImageMagick/pull/6968\n* Add Panasonic Raw v2 (RW2) as mime type by @kleisauke in https://github.com/ImageMagick/ImageMagick/pull/6967\n* configure: drop backported ac_func_fseeko.m4 for autoconf-2.72 compat… by @thesamesam in https://github.com/ImageMagick/ImageMagick/pull/6970\n\n\n**Full Changelog**: https://github.com/ImageMagick/ImageMagick/compare/7.1.1-23...7.1.1-24"
     },
     "https://github.com/Ch1ngg/JWTPyCrack": {
         "created_at": "2019-09-05 07:55:21",
@@ -7776,8 +7776,8 @@
     "https://github.com/locustio/locust": {
         "created_at": "2011-02-17 11:08:03",
         "description": "Write scalable load tests in plain Python 🚗💨",
-        "commit_date": "2023-12-19 13:11:20",
-        "commit_message": "Merge pull request #2519 from locustio/run_single_user-improvements\n\nrun_single_user improvements",
+        "commit_date": "2023-12-25 09:55:55",
+        "commit_message": "Merge pull request #2521 from simonwu-sn/ipv6\n\nAdd IPv6 support for zmq connections",
         "release_tag": "2.20.0",
         "release_date": "2023-12-13 12:32:04",
         "release_message": "## What's Changed\r\n* Unable to modify custom parameters from the modern UI by @andrewbaldwin44 in https://github.com/locustio/locust/pull/2491\r\n* Further relax FastHttpUser's host checking to match HttpUser's by @pjenvey in https://github.com/locustio/locust/pull/2493\r\n* Implement Modern Web UI Tests by @andrewbaldwin44 in https://github.com/locustio/locust/pull/2494\r\n* Replace Vitest canvas mock library by @andrewbaldwin44 in https://github.com/locustio/locust/pull/2495\r\n* Remove Typecheck from Web UI Build Process and Update Github Actions by @andrewbaldwin44 in https://github.com/locustio/locust/pull/2496\r\n* Update mypy, some type hints, and some tiny updates to Runner classes by @cyberw in https://github.com/locustio/locust/pull/2497\r\n* Adjust \"Starting web interface at\"-output by @cyberw in https://github.com/locustio/locust/pull/2498\r\n* Fix Warnings from the Web UI Tests by @andrewbaldwin44 in https://github.com/locustio/locust/pull/2499\r\n* FastHttpUser: Treat response code 304 as OK by @cyberw in https://github.com/locustio/locust/pull/2501\r\n* Add Notifications for Log Viewer by @andrewbaldwin44 in https://github.com/locustio/locust/pull/2502\r\n* custom messages: Support sending datetimes and bson.ObjectId by @cyberw in https://github.com/locustio/locust/pull/2504\r\n* Allow Boolean and Null Values to be Set from the Web UI by @andrewbaldwin44 in https://github.com/locustio/locust/pull/2507\r\n* Update the About Section by @andrewbaldwin44 in https://github.com/locustio/locust/pull/2508\r\n* Chart Average Response Time in Modern UI by @andrewbaldwin44 in https://github.com/locustio/locust/pull/2509\r\n* Update Web UI About box by @cyberw in https://github.com/locustio/locust/pull/2510\r\n* Add event.measure context manager for simpler firing of request event by @cyberw in https://github.com/locustio/locust/pull/2511\r\n* Custom messages: Throw an exception if someone tries to register twice for the same event by @cyberw in https://github.com/locustio/locust/pull/2513\r\n* Fixed response failure for unsupported encoding by @prince-melvin in https://github.com/locustio/locust/pull/2512\r\n* Fix useSwarmUi Test with Mock Timers by @andrewbaldwin44 in https://github.com/locustio/locust/pull/2514\r\n\r\n## New Contributors\r\n* @pjenvey made their first contribution in https://github.com/locustio/locust/pull/2493\r\n* @prince-melvin made their first contribution in https://github.com/locustio/locust/pull/2512\r\n\r\n**Full Changelog**: https://github.com/locustio/locust/compare/2.19.1...2.20.0"
@@ -8674,8 +8674,8 @@
     "https://github.com/nomi-sec/PoC-in-GitHub": {
         "created_at": "2019-12-08 13:03:54",
         "description": "📡 PoC auto collect from GitHub. ⚠️ Be careful Malware.",
-        "commit_date": "2023-12-25 00:26:19",
-        "commit_message": "Auto Update 2023/12/25 00:26:19",
+        "commit_date": "2023-12-26 00:27:11",
+        "commit_message": "Auto Update 2023/12/26 00:27:11",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -10268,7 +10268,7 @@
     "https://github.com/privacy-protection-tools/anti-AD": {
         "created_at": "2015-10-22 08:59:28",
         "description": "致力于成为中文区命中率最高的广告过滤列表，实现精确的广告屏蔽和隐私保护。anti-AD现已支持AdGuardHome，dnsmasq， Surge，Pi-Hole，smartdns等网络组件。完全兼容常见的广告过滤工具所支持的各种广告过滤列表格式",
-        "commit_date": "2023-12-22 18:33:09",
+        "commit_date": "2023-12-25 18:33:05",
         "commit_message": "Auto renew the anti-AD list.",
         "release_tag": "v4.3",
         "release_date": "2020-02-04 09:32:25",
@@ -12418,8 +12418,8 @@
     "https://github.com/zoujingli/ThinkAdmin": {
         "created_at": "2017-02-13 07:00:14",
         "description": "基于 ThinkPHP6 的极简后台管理系统，内置注解权限、异步多任务、应用插件生态等，支持类 PaaS 更新公共模块和应用插件，插件可本地化定制开发。",
-        "commit_date": "2023-12-22 15:20:43",
-        "commit_message": "更新样式",
+        "commit_date": "2023-12-25 11:23:45",
+        "commit_message": "同步更新代码",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -15554,8 +15554,8 @@
     "https://github.com/containerd/containerd": {
         "created_at": "2015-11-13 00:27:43",
         "description": "An open and reliable container runtime",
-        "commit_date": "2023-12-22 21:09:51",
-        "commit_message": "Merge pull request #8807 from ambarve/cimfs\n\nAdd support for cimfs snapshotter & differ",
+        "commit_date": "2023-12-25 09:49:27",
+        "commit_message": "Merge pull request #9571 from Dzejrou/main\n\nshim: Create pid-file with 0644 permissions",
         "release_tag": "v1.7.11",
         "release_date": "2023-12-08 23:48:02",
         "release_message": "Welcome to the v1.7.11 release of containerd!\n\nThe eleventh patch release for containerd 1.7 contains various fixes and updates including\none security issue.\n\n### Notable Updates\n\n* **Fix Windows default path overwrite issue** ([#9440](https://github.com/containerd/containerd/pull/9440))\n* **Update push to always inherit distribution sources from parent** ([#9452](https://github.com/containerd/containerd/pull/9452))\n* **Update shim to use net dial for gRPC shim sockets** ([#9458](https://github.com/containerd/containerd/pull/9458))\n* **Fix otel version incompatibility** ([#9483](https://github.com/containerd/containerd/pull/9483))\n* **Fix Windows snapshotter blocking snapshot GC on remove failure** ([#9482](https://github.com/containerd/containerd/pull/9482))\n* **Mask `/sys/devices/virtual/powercap` path in runtime spec and deny in default apparmor profile** ([GHSA-7ww5-4wqc-m92c](https://github.com/containerd/containerd/security/advisories/GHSA-7ww5-4wqc-m92c))\n\n### Deprecation Warnings\n\n* **Emit deprecation warning for AUFS snapshotter** ([#9436](https://github.com/containerd/containerd/pull/9436))\n* **Emit deprecation warning for v1 runtime** ([#9450](https://github.com/containerd/containerd/pull/9450))\n* **Emit deprecation warning for deprecated CRI configs** ([#9469](https://github.com/containerd/containerd/pull/9469))\n* **Emit deprecation warning for CRI v1alpha1 usage** ([#9479](https://github.com/containerd/containerd/pull/9479))\n* **Emit deprecation warning for CRIU config in CRI** ([#9481](https://github.com/containerd/containerd/pull/9481))\n\nSee the changelog for complete list of changes\n\nPlease try out the release binaries and report any issues at\nhttps://github.com/containerd/containerd/issues.\n\n### Contributors\n\n* Samuel Karp\n* Derek McGowan\n* Phil Estes\n* Bjorn Neergaard\n* Danny Canter\n* Sebastiaan van Stijn\n* ruiwen-zhao\n* Akihiro Suda\n* Amit Barve\n* Charity Kathure\n* Maksym Pavlenko\n* Milas Bowman\n* Paweł Gronowski\n* Wei Fu\n\n### Changes\n<details><summary>39 commits</summary>\n<p>\n\n* [release/1.7] Prepare release notes for v1.7.11 ([#9491](https://github.com/containerd/containerd/pull/9491))\n  * [`dfae68bc3`](https://github.com/containerd/containerd/commit/dfae68bc3e614a091d0a468c9026da370e3de0d9) Prepare release notes for v1.7.11\n* [release/1.7] update to go1.20.12, test go1.21.5 ([#9352](https://github.com/containerd/containerd/pull/9352))\n  * [`0d314401d`](https://github.com/containerd/containerd/commit/0d314401d9b9ad470153dc3d09f6d9cd7d527697) update to go1.20.12, test go1.21.5\n  * [`1ec1ae2c6`](https://github.com/containerd/containerd/commit/1ec1ae2c6b6458b5d000af1ec6263b4ee337cd58) update to go1.20.11, test go1.21.4\n* Github Security Advisory [GHSA-7ww5-4wqc-m92c](https://github.com/containerd/containerd/security/advisories/GHSA-7ww5-4wqc-m92c)\n  * [`cb804da21`](https://github.com/containerd/containerd/commit/cb804da2101074c769a2a327597c9595b38bb4f0) contrib/apparmor: deny /sys/devices/virtual/powercap\n  * [`40162a576`](https://github.com/containerd/containerd/commit/40162a576232b7d95325f85334590ea295d2ed2e) oci/spec: deny /sys/devices/virtual/powercap\n* [release/1.7] Don't block snapshot garbage collection on Remove failures ([#9482](https://github.com/containerd/containerd/pull/9482))\n  * [`ed7c6895b`](https://github.com/containerd/containerd/commit/ed7c6895bd3b33ccc7cfbc8cbd43f6a31333328a) Don't block snapshot garbage collection on Remove failures\n* [release/1.7] Add warning for CRIU config usage ([#9481](https://github.com/containerd/containerd/pull/9481))\n  * [`1fdefdd22`](https://github.com/containerd/containerd/commit/1fdefdd2242fcf704a11f1d6b5149e056ce98ed3) Add warning for CRIU config usage\n* [release/1.7] Fix otel version incompatibility ([#9483](https://github.com/containerd/containerd/pull/9483))\n  * [`f8f659e66`](https://github.com/containerd/containerd/commit/f8f659e66c6ec56fef092dced085d129c0e67176) Add HTTP client update function to tracing library\n  * [`807ddd658`](https://github.com/containerd/containerd/commit/807ddd658b4cd6c0325204e7a19a4561a10906d2) fix(tracing): use latest version of semconv\n* [release/1.7] Add cri-api v1alpha2 usage warning to all api calls ([#9479](https://github.com/containerd/containerd/pull/9479))\n  * [`dc45bc838`](https://github.com/containerd/containerd/commit/dc45bc8381fa2cd903e871c81ce7b4c08e82ca3b) Add cri-api v1alpha2 usage warning to all api calls\n* [release/1.7] cri: add deprecation warnings for deprecated CRI configs ([#9469](https://github.com/containerd/containerd/pull/9469))\n  * [`9d1bad62e`](https://github.com/containerd/containerd/commit/9d1bad62e16f31e0b06c75e1007a623879529a6d) deprecation: fix missing spaces in warnings\n  * [`51a604c07`](https://github.com/containerd/containerd/commit/51a604c0733437f4b7a20aa5ec1e6d4b4f0ab96e) cri: add deprecation warning for runtime_root\n  * [`8040e74bf`](https://github.com/containerd/containerd/commit/8040e74bf8e6c25c02bb461b82f482cff24ce611) cri: add deprecation warning for rutnime_engine\n  * [`99adc40eb`](https://github.com/containerd/containerd/commit/99adc40eb28db7cb93c378ff8bceb8e77559ae09) cri: add deprecation warning for default_runtime\n  * [`afef7ec64`](https://github.com/containerd/containerd/commit/afef7ec646910ce1db3e824bfe17848428f3b47b) cri: add warning for untrusted_workload_runtime\n  * [`6220dc190`](https://github.com/containerd/containerd/commit/6220dc1909883119a960bc96c496ae2361b94749) cri: add warning for old form of systemd_cgroup\n* [release/1.7] runtime/v2: net.Dial gRPC shim sockets before trying grpc ([#9458](https://github.com/containerd/containerd/pull/9458))\n  * [`80f96cd18`](https://github.com/containerd/containerd/commit/80f96cd188949bd9fa16256a8ff0b858ef692f20) runtime/v2: net.Dial gRPC shim sockets before trying grpc\n* [release/1.7] tasks: emit warning for v1 runtime and runc v1 runtime ([#9450](https://github.com/containerd/containerd/pull/9450))\n  * [`f471bb2b8`](https://github.com/containerd/containerd/commit/f471bb2b8e5a902ad8901c7c0db85ecead8c1730) tasks: emit warning for runc v1 runtime\n  * [`329e1d487`](https://github.com/containerd/containerd/commit/329e1d487e7cc5c2773a2472df56b6eb75ae9194) tasks: emit warning for v1 runtime\n* [release/1.7] push: always inherit distribution sources from parent ([#9452](https://github.com/containerd/containerd/pull/9452))\n  * [`4464fde12`](https://github.com/containerd/containerd/commit/4464fde12985d98a9edbf124c54afa1156415572) push: always inherit distribution sources from parent\n* [release/1.7] Update tar tests to run on Darwin ([#9451](https://github.com/containerd/containerd/pull/9451))\n  * [`7e069ee25`](https://github.com/containerd/containerd/commit/7e069ee25868e5c8a67610720f8280c3451a3103) Update tar tests to run on Darwin\n* [release/1.7] ctr: Add sandbox flag to ctr run ([#9449](https://github.com/containerd/containerd/pull/9449))\n  * [`5fc0e4e61`](https://github.com/containerd/containerd/commit/5fc0e4e6151dafa4d5ca8837f3d99b6a8e816866) ctr: Add sandbox flag to ctr run\n* [release/1.7] Windows default path overwrite fix ([#9440](https://github.com/containerd/containerd/pull/9440))\n  * [`31fe03764`](https://github.com/containerd/containerd/commit/31fe03764c436677a1db9be24c25f7c11780eceb) Fix windows default path overwrite issue\n* [release/1.7] snapshots: emit deprecation warning for aufs ([#9436](https://github.com/containerd/containerd/pull/9436))\n  * [`625b35e4b`](https://github.com/containerd/containerd/commit/625b35e4bb26ee021713f2692143bf37f9a98bdd) snapshots: emit deprecation warning for aufs\n</p>\n</details>\n\n### Dependency Changes\n\n* **github.com/felixge/httpsnoop**                                   v1.0.3 **_new_**\n* **go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp**  v0.45.0 **_new_**\n\nPrevious release can be found at [v1.7.10](https://github.com/containerd/containerd/releases/tag/v1.7.10)\n"
@@ -22497,8 +22497,8 @@
     "https://github.com/xaoyaoo/PyWxDump": {
         "created_at": "2023-08-21 14:54:18",
         "description": "获取微信账号信息(昵称/账号/手机/邮箱/数据库密钥/wxid)；PC微信数据库读取、解密脚本；聊天记录查看工具；聊天记录导出为html(包含语音图片)。支持多账户信息获取，支持所有微信版本。",
-        "commit_date": "2023-12-24 04:55:10",
-        "commit_message": "Update db_parsing.py (#54)\n\ndst is type of *bytes*, and the return value should be catched.\n\nSigned-off-by: Andy Zheng <imzy140@gmail.com>",
+        "commit_date": "2023-12-25 05:51:35",
+        "commit_message": "Merge remote-tracking branch 'origin/master'",
         "release_tag": "v2.3.25",
         "release_date": "2023-12-21 13:03:15",
         "release_message": "[Auto Release] Update PyWxDump to refs/tags/v2.3.25\n"
@@ -22614,8 +22614,8 @@
     "https://github.com/LC044/WeChatMsg": {
         "created_at": "2023-01-11 05:03:49",
         "description": "提取微信聊天记录，将其导出成HTML、Word、CSV文档永久保存，对聊天记录进行分析生成年度聊天报告",
-        "commit_date": "2023-12-24 14:29:08",
-        "commit_message": "修改文件",
+        "commit_date": "2023-12-25 12:40:11",
+        "commit_message": "修复因微信数据库损坏导致的聊天记录缺失问题#117",
         "release_tag": "v1.0.0",
         "release_date": "2023-12-20 16:31:02",
         "release_message": "# 新增功能\r\n* 新增年度报告圣诞特别版([预览](http://memotrace.lc044.love/demo.html))（温馨提示：作者在1920*1080 100%分辨率下完成的测试，其他分辨率和缩放率观感可能不太友好）\r\n* 适配新版微信：3.9.8.25 #185 #200\r\n* UI全新升级\r\n* 支持导出**群聊**数据\r\n\r\n# 优化\r\n* 适配高分辨率 #35\r\n* 新增一种获取密钥的方式 #144\r\n* 语音改为相对路径 #182 #184\r\n* 修复网络图片导致的闪退问题 #150 #156\r\n* 修复多次解密导致消息重复的问题\r\n* 支持更多表情包\r\n\r\n# 说明\r\n* 官网:[http://memotrace.lc044.love/](http://memotrace.lc044.love/)\r\n* 预览网址:[http://memotrace.lc044.love/demo.html](http://memotrace.lc044.love/demo.html)\r\n* **如果出现闪退问题，请右击使用管理员权限运行**\r\n* **微信务必升级到最新版：3.9.8.15或3.9.8.25**\r\n* **有问题先看[教程](https://blog.lc044.love/post/5)，或者去[issues](https://github.com/LC044/WeChatMsg/issues)搜索相关问题**\r\n* 解决不了可发起issue询问，**附上报错截图和详细错误情况避免无效询问**\r\n* 手机端使用聊天记录迁移功能将聊天数据迁移到电脑上\r\n操作步骤：\r\n  - 安卓： 手机微信->我->设置->聊天->聊天记录迁移与备份->迁移-> 迁移到电脑微信（迁移完成后重启微信[否则](https://github.com/LC044/WeChatMsg/issues/27)）\r\n  - iOS： 手机微信->我->设置->通用->聊天记录迁移与备份->迁移-> 迁移到电脑微信（迁移完成后重启微信[否则](https://github.com/LC044/WeChatMsg/issues/27)）\r\n* 直接替换旧版本即可，不用重新解密（获取最新数据请重启微信之后重新解密）\r\n* 该软件不存在任何收费，请避免上当受骗\r\n* 阿里云盘下载地址：https://www.alipan.com/s/h6fDSP4igcz\r\n* 百度网盘下载地址：链接：https://pan.baidu.com/s/1Bc7Nnnn4yychMPVFDDAsKA?pwd=ez1k 提取码：ez1k\r\n## What's Changed\r\n* 把视频、音频和图片的“修改时间”属性改为其发送时间，方便在本地筛选观察 by @STDquantum in https://github.com/LC044/WeChatMsg/pull/130\r\n* html群聊导出支持头像和昵称；修复了一些其他问题 by @STDquantum in https://github.com/LC044/WeChatMsg/pull/153\r\n* 解决了一些系统消息还存在xml的问题 by @STDquantum in https://github.com/LC044/WeChatMsg/pull/157\r\n* 解决导出csv列数据错位问题 by @aaayun in https://github.com/LC044/WeChatMsg/pull/174\r\n* 让emoji部分的thumb起到一些作用 by @STDquantum in https://github.com/LC044/WeChatMsg/pull/176\r\n* html顶端不是时间就加个时间 by @STDquantum in https://github.com/LC044/WeChatMsg/pull/181\r\n* 增加五个数据统计接口 by @STDquantum in https://github.com/LC044/WeChatMsg/pull/198\r\n\r\n## New Contributors\r\n* @aaayun made their first contribution in https://github.com/LC044/WeChatMsg/pull/174\r\n\r\n**Full Changelog**: https://github.com/LC044/WeChatMsg/compare/v0.2.8...v1.0.0"
