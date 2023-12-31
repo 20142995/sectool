@@ -1,8 +1,9 @@
-# 更新于 2023-12-30 08:34:58
+# 更新于 2023-12-31 08:38:39
 
 ## 近15天release更新记录
 | 更新时间 | 项目名称 | 版本 | 更新内容 |
 | :---- | :---- | :---- | :---- |
+|2023-12-30 05:55:56|[ChatGPT-Shortcut](https://github.com/rockbenben/ChatGPT-Shortcut)|v3.1.4|**v3.1.4 Update** Focused on enhancin<br>g the extension functionality: - Fixed<br> input and language switching issues o<br>n the ChatGPT integration page. - Impr<br>oved the effectiveness of lin|
 |2023-12-29 20:39:30|[GZCTF](https://github.com/GZTimeWalker/GZCTF)|v0.17.7|##  - 2023-12-24 ### ⛰️ Features - <br>expose Kestrel options in appsettings.<br>json (#174) - () by **Steve** - always<br> store file to fs - () by **GZTime** -<br> database sink - () by **GZTime|
 |2023-12-29 16:14:18|[faker](https://github.com/joke2k/faker)|v22.0.0|See .|
 |2023-12-29 08:57:48|[jumpserver](https://github.com/jumpserver/jumpserver)|v3.10.1|⚠️ 注意 3.0 架构上和 2.0 变化较大，<br>建议全新安装一套环境来体验。如需升级，<br>请务必升级前进行备份，并查阅文档： # 一<br>、安装和升级 ## 1.1 在线方式 ✈️ 仅需<br>两步快速安装 JumpServer： 1. 准备一台 4<br>核8G （最低）且可以访问互联网的 64 位 L<br>inux 主机； 2. 以 root 用户执行如下命<br>令一键安装 JumpServ|
@@ -16,7 +17,6 @@
 |2023-12-27 15:10:27|[WeChatMsg](https://github.com/LC044/WeChatMsg)|v1.0.1|# 新增功能 * 支持导出Word文档（消息较<br>多会比较慢） * HTML支持导出文件 #222 # <br>优化 * 增加加载动画 * 修复因数据库损坏<br>导致的聊天记录缺失问题#117 * 提高HTML的<br>导出速度 * 修复群聊导出HTML闪退的问题 *<br> HTML滚动条到底会自动加载新的数据 * 修<br>改部分ui # 说明 * 官网: * 预览网址: * *<br>*如果出现闪退问|
 |2023-12-27 08:10:28|[fofaEX](https://github.com/10cks/fofaEX)|java8_v<br>2.2|本次新增版本支持： FofaEX 可通过 run.<br>bat 直接运行，或者通过命令行启动，注意<br>带 UTF-8 编码参数。 目前自带插件： [√]<br> httpX 一键探活 [√] nuclei 漏洞扫描（<br>可下载带nuclei 版本，替换java包即可） [<br>+] 修复了编码问题，2023.12.27 更多插件<br>可自己添加|
 |2023-12-27 07:55:01|[Elkeid](https://github.com/bytedance/Elkeid)|v1.9.0.<br>1_202312<br>27_elkei<br>d_ko_1||
-|2023-12-27 06:52:08|[ChatGPT-Shortcut](https://github.com/rockbenben/ChatGPT-Shortcut)|v.3.1.3|- feat(button-tooltip): Add tooltip f<br>or disabled Google Auth in ChatGPT emm<br>bedded pages - fix(arabic-layout): Cor<br>rect Arabic text direction to RTL and <br>simplify lang tags - style(fa|
 |2023-12-25 19:45:37|[ImageMagick](https://github.com/ImageMagick/ImageMagick)|7.1.1-2<br>4|## What's Changed * Bump actions/uplo<br>ad-artifact from 3 to 4 by @dependabot<br> in https://github.com/ImageMagick/Ima<br>geMagick/pull/6954 * Bump actions/down<br>load-artifact from 3 to 4 by |
 |2023-12-24 17:27:09|[dbeaver](https://github.com/dbeaver/dbeaver)|23.3.1| - SQL Editor: - New highlighting and<br> script validation were enabled by def<br>ault - SQL highlighting performance wa<br>s improved - Connection variables and <br>system environment variables |
 |2023-12-24 04:27:32|[PEASS-ng](https://github.com/carlospolop/PEASS-ng)|2023122<br>4-836b4a<br>c9||
@@ -35,32 +35,38 @@
 |2023-12-18 03:31:30|[Awesome-Redteam](https://github.com/Threekiii/Awesome-Redteam)|v1.0||
 |2023-12-18 03:01:54|[suo5](https://github.com/zema1/suo5)|v1.0.0|Server 端从这里获取 https://github.co<br>m/zema1/suo5/tree/v1.0.0/assets ，不同<br>版本的 Server 端请不要混用，否则会有不<br>兼容连不上的问题 > 带 gui 的版本是界面<br>版，不带 gui 的为命令行版 > 所有编译由 <br>Github Action 自动构建并自动上传，请放<br>心使用 ## 新增 - 增加 asp|
 |2023-12-16 17:19:19|[v2rayA](https://github.com/v2rayA/v2rayA)|v2.2.4.<br>6|**Full Changelog**: https://github.co<br>m/v2rayA/v2rayA/compare/v2.2.4.5...v2.<br>2.4.6|
-|2023-12-15 16:04:29|[Ladon](https://github.com/k8gege/Ladon)|v12.2|### Oracle数据库一键提权 12.15 [+]Ora<br>cleCmd2 Oracle数据库远程提权工具2 官方<br>驱动>=net 4.8 大小4.9M不内置  Ladon 12.<br>2 12.14 [+]OracleCmd Oracle数据库远程<br>提权工具 3种方法一键提权 支持Windows/Li<br>nux/MacOS等服务器操作系统 支持高版本Or<br>acle 12G|
 ## 近15天commit提交记录
 | 提交时间 | 项目名称 | 更新内容 |
 | :---- | :---- | :---- |
-|2023-12-30 00:20:30|[PocOrExp_in_Githu<br>b](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-12-30 08:20:30|
-|2023-12-30 00:00:16|[free](https://github.com/freefq/free)|updated_at 12-30 08:00|
-|2023-12-29 23:05:07|[john](https://github.com/openwall/john)|argon2-opencl: More general autotune|
-|2023-12-29 21:41:12|[ImHex](https://github.com/WerWolv/ImHex)|fix: Foreground color not applying to ASCII column <br>Fixes #1477|
-|2023-12-29 20:37:34|[GZCTF](https://github.com/GZTimeWalker/GZCTF)|fix: Incorrect last flush time|
+|2023-12-31 00:27:17|[PoC-in-GitHub](https://github.com/nomi-sec/PoC-in-GitHub)|Auto Update 2023/12/31 00:27:17|
+|2023-12-31 00:23:35|[beef](https://github.com/beefproject/beef)|Added .gitignore entry for Visual Studio Code|
+|2023-12-31 00:21:46|[PocOrExp_in_Githu<br>b](https://github.com/ycdxsb/PocOrExp_in_Github)|update 2023-12-31 08:21:46|
+|2023-12-31 00:00:05|[free](https://github.com/freefq/free)|updated_at 12-31 08:00|
+|2023-12-30 22:52:25|[ImHex](https://github.com/WerWolv/ImHex)|impr: Remove duplicate window name from macOS title<br> bar|
+|2023-12-30 21:51:23|[ImageMagick](https://github.com/ImageMagick/ImageMagick)|beta release|
+|2023-12-30 20:37:07|[GZCTF](https://github.com/GZTimeWalker/GZCTF)|docs: add SVUCTF-WINTER-2023 (#191)|
+|2023-12-30 18:13:58|[sliver](https://github.com/BishopFox/sliver)|Merge pull request #1531 from audibleblink/fix/migr<br>ate-cli no positional arg needed|
+|2023-12-30 18:04:55|[vulhub](https://github.com/vulhub/vulhub)|update environments.toml|
+|2023-12-30 17:56:18|[DIE-engine](https://github.com/horsicq/DIE-engine)|Update module: FormatWidgets 2023-12-30|
+|2023-12-30 12:49:20|[afrog](https://github.com/zan8in/afrog)|update poc|
+|2023-12-30 12:33:06|[v2rayfree](https://github.com/aiboboxx/v2rayfree)|update|
+|2023-12-30 11:53:12|[containerd](https://github.com/containerd/containerd)|Merge pull request #9583 from containerd/dependabot<br>/go_modules/github.com/containerd/cgroups/v3-3.0.3 b<br>uild(deps): bump github.com/containerd/cgroups/v3 fr<br>om 3.0.2 to 3.0.3|
+|2023-12-30 11:26:24|[WeChatMsg](https://github.com/LC044/WeChatMsg)|修改变量名|
+|2023-12-30 10:43:17|[dirsearch](https://github.com/maurosoria/dirsearch)|Merge pull request #1345 from valentijnscholten/pat<br>ch-1 Allow commenting out of urls in url file|
+|2023-12-30 06:24:40|[ctf-archives](https://github.com/sajjadium/ctf-archives)|ASIS finals chals|
+|2023-12-30 05:30:30|[ChatGPT-Shortcut](https://github.com/rockbenben/ChatGPT-Shortcut)|docs: Update docs|
+|2023-12-30 03:50:12|[john](https://github.com/openwall/john)|CI: Add (revised) GitHub Actions from passwdqc|
+|2023-12-30 03:21:20|[domain_hunter_pro](https://github.com/bit4woo/domain_hunter_pro)|Update LineEntryMenu.java|
+|2023-12-30 02:32:46|[neuvector](https://github.com/neuvector/neuvector)|Merge pull request #1140 from williamlin-suse/main <br>NVSHAS-8571: Export to remote repo(github) result in<br>correctly returne…|
+|2023-12-30 01:29:27|[PST-Bucket](https://github.com/arch3rPro/PST-Bucket)|reverse_ssh: Update to version 2.4.1|
 |2023-12-29 18:57:02|[kube-bench](https://github.com/aquasecurity/kube-bench)|build(deps): bump golang.org/x/crypto from 0.14.0 t<br>o 0.17.0 (#1542) Bumps  from 0.14.0 to 0.17.0. -  --<br>- updated-dependencies: - dependency-name: golang.or<br>g/x/crypto dependency-typ|
-|2023-12-29 18:46:41|[PoC-in-GitHub](https://github.com/nomi-sec/PoC-in-GitHub)|Auto Update 2023/12/29 18:46:41|
-|2023-12-29 18:13:15|[ImageMagick](https://github.com/ImageMagick/ImageMagick)|ensure video can be read from stdin (https://github<br>.com/ImageMagick/ImageMagick/issues/6980)|
-|2023-12-29 16:32:29|[PST-Bucket](https://github.com/arch3rPro/PST-Bucket)|reverse_ssh: Update to version 2.4.0|
 |2023-12-29 16:13:53|[faker](https://github.com/joke2k/faker)|Bump version: 21.0.1 → 22.0.0|
-|2023-12-29 16:09:18|[DIE-engine](https://github.com/horsicq/DIE-engine)|Update module: XTranslation 2023-12-29|
 |2023-12-29 14:52:04|[iDefender](https://github.com/wecooperate/iDefender)|update|
-|2023-12-29 14:47:36|[WeChatMsg](https://github.com/LC044/WeChatMsg)|html适配移动端|
 |2023-12-29 14:01:35|[WebGoat](https://github.com/WebGoat/WebGoat)|Fix hidden links in MissingFunctionAC.html. (#1710)|
-|2023-12-29 13:44:11|[domain_hunter_pro](https://github.com/bit4woo/domain_hunter_pro)|favicon逻辑更新|
-|2023-12-29 13:12:00|[afrog](https://github.com/zan8in/afrog)|修复反连平台bug；增加配置自己搭建的Eye.sh平台的选项<br>。|
 |2023-12-29 12:51:40|[gshark](https://github.com/madneal/gshark)|mofify the header imaage|
 |2023-12-29 12:40:50|[dbeaver](https://github.com/dbeaver/dbeaver)|dbeaver/pro#2077 hide local client for GCP cloud da<br>tabases (#22268) * dbeaver/pro#2077 hide local clien<br>t for GCP cloud databases * dbeaver/pro#2077 add con<br>stants|
-|2023-12-29 12:32:35|[v2rayfree](https://github.com/aiboboxx/v2rayfree)|update|
 |2023-12-29 10:59:46|[Umi-OCR](https://github.com/hiroi-sora/Umi-OCR)|Merge branch 'main' of https://github.com/hiroi-sor<br>a/Umi-OCR|
 |2023-12-29 10:52:46|[murphysec](https://github.com/murphysecurity/murphysec)|ci: test|
-|2023-12-29 09:58:13|[containerd](https://github.com/containerd/containerd)|Merge pull request #9581 from bryantbiggs/chore/upd<br>ate-otelgrpc deps: Update otelgrpc|
 |2023-12-29 09:05:56|[locust](https://github.com/locustio/locust)|Merge pull request #2524 from mgor/feature/update_d<br>ocker_actions update docker actions to get rid of no<br>de12 deprecation warnings|
 |2023-12-29 08:42:23|[rustdesk](https://github.com/rustdesk/rustdesk)|require rust 1.75|
 |2023-12-29 08:23:02|[jumpserver](https://github.com/jumpserver/jumpserver)|Update README.md (#12463)|
@@ -70,7 +76,6 @@
 |2023-12-29 01:53:32|[grype](https://github.com/anchore/grype)|docs: fix logging configuration in README (#1646) S<br>igned-off-by: plavy |
 |2023-12-29 01:23:29|[ObserverWard](https://github.com/0x727/ObserverWard)|修复无状态码|
 |2023-12-28 22:05:56|[nuclei](https://github.com/projectdiscovery/nuclei)|add tags as addition to -as (#4543)|
-|2023-12-28 19:52:43|[ctf-archives](https://github.com/sajjadium/ctf-archives)|Potluck chals|
 |2023-12-28 18:43:00|[metasploit-framew<br>ork](https://github.com/rapid7/metasploit-framework)|automatic module_metadata_base.json update|
 |2023-12-28 18:33:11|[anti-AD](https://github.com/privacy-protection-tools/anti-AD)|Auto renew the anti-AD list.|
 |2023-12-28 18:23:31|[Pillager](https://github.com/qwqdanchun/Pillager)|Update Foxmail.cs|
@@ -80,13 +85,11 @@
 |2023-12-28 09:36:41|[Mobile-Security-F<br>ramework-MobSF](https://github.com/MobSF/Mobile-Security-Framework-MobSF)|Bug Fix and QA (#2315) * Bug Fix * QA * Version bum<br>ps|
 |2023-12-28 08:35:16|[safeline](https://github.com/chaitin/safeline)|feat: upgrade recommanded version|
 |2023-12-28 03:45:12|[HFish](https://github.com/hacklcx/HFish)|update join us image|
-|2023-12-28 01:51:17|[neuvector](https://github.com/neuvector/neuvector)|Merge pull request #1139 from williamlin-suse/main <br>NVSHAS-8570: Events for 'export to remote repo' alwa<br>ys show: Do remot…|
 |2023-12-27 21:19:23|[CTFd](https://github.com/CTFd/CTFd)|Closes #2416 (#2448) * Exposes unix_time_to_utc() a<br>s a Jinja filter|
 |2023-12-27 12:18:56|[Elkeid](https://github.com/bytedance/Elkeid)|Merge pull request #565 from bytedance/feat-overlay<br> feat overlay and devicemapper storage driver|
 |2023-12-27 12:18:18|[audacity](https://github.com/audacity/audacity)|Fixes the assertion in WaveClipAdjustBorderHandle M<br>ake sure that adjustment range boundaries does not e<br>xceed actual clip boundaries|
 |2023-12-27 09:28:20|[sqlmap](https://github.com/sqlmapproject/sqlmap)|Update: Indonesian documentation. (#5588)|
 |2023-12-27 08:13:41|[fofaEX](https://github.com/10cks/fofaEX)|Update README.md|
-|2023-12-27 05:52:27|[ChatGPT-Shortcut](https://github.com/rockbenben/ChatGPT-Shortcut)|feat(button-tooltip): Add tooltip for disabled Goog<br>le Auth in ChatGPT embedded pages|
 |2023-12-27 03:03:02|[SmsForwarder](https://github.com/pppscn/SmsForwarder)|新增：自动任务·快捷指令 （开发中）|
 |2023-12-27 02:44:13|[frp](https://github.com/fatedier/frp)|cmd: use hyphen instead of underscore (#3898)|
 |2023-12-26 08:30:53|[VolatilityPro](https://github.com/Tokeii0/VolatilityPro)|Update README.md|
@@ -100,8 +103,6 @@
 |2023-12-25 07:37:51|[Awesome-Redteam](https://github.com/Threekiii/Awesome-Redteam)|update README.md|
 |2023-12-25 05:24:15|[arthas](https://github.com/alibaba/arthas)|Refactored code to adopt JDK 8 style and features. <br>(#2759)|
 |2023-12-25 02:59:06|[404StarLink](https://github.com/knownsec/404StarLink)|weekly update at 2023-12-25|
-|2023-12-23 00:26:58|[beef](https://github.com/beefproject/beef)|Merge branch 'dependabot/bundler/rake-13.1.0'|
-|2023-12-22 19:55:22|[sliver](https://github.com/BishopFox/sliver)|Merge pull request #1525 from BishopFox/fix-c2-db-d<br>uplication Fix C2 URL Duplication in Database|
 |2023-12-22 16:29:20|[FreeRDP](https://github.com/FreeRDP/FreeRDP)|[release] start new development cycle 3.1.1-dev0|
 |2023-12-22 14:50:32|[syft](https://github.com/anchore/syft)|chore: update binary to -x (#2456) Signed-off-by: C<br>hristopher Phillips |
 |2023-12-22 07:14:43|[naabu](https://github.com/projectdiscovery/naabu)|chore(deps): bump golang.org/x/crypto from 0.15.0 t<br>o 0.17.0 in /v2 (#896) Bumps  from 0.15.0 to 0.17.0.<br> -  --- updated-dependencies: - dependency-name: gol<br>ang.org/x/crypto dependen|
@@ -153,7 +154,7 @@
 | [H1ve](https://github.com/D0g3-Lab/H1ve) | 1.1.3 | An Easy / Quick / Cheap Integrated Platform | 2020-11-25 14:01:11 |
 | [Cardinal](https://github.com/vidar-team/Cardinal) | v0.7.3 | CTF🚩 AWD (Attack with Defense) 线下赛平台 / AWD pla<br>tform - 欢迎 Star~ ✨ | 2021-11-12 18:17:48 |
 | [CTF_AWD_Platform](https://github.com/xuchaoa/CTF_AWD_Platform) |  | CTF 攻防对抗平台 | 2019-09-16 08:11:50 |
-| [GZCTF](https://github.com/GZTimeWalker/GZCTF) | v0.17.7 | The GZ::CTF project, an open source CTF platform. | 2023-12-29 20:37:34 |
+| [GZCTF](https://github.com/GZTimeWalker/GZCTF) | v0.17.7 | The GZ::CTF project, an open source CTF platform. | 2023-12-30 20:37:07 |
 | [MarsCTF](https://github.com/b1ackc4t/MarsCTF) | V1.2.1 | Vue+Springboot开发的CTF学习平台，提供动态靶机、学习<br>模块、writeup模块等等CTF平台的核心功能。提供docker版本 | 2022-08-09 12:20:31 |
 ### Crypto
 #### 古典密码
@@ -178,7 +179,7 @@
 #### 16进制编辑
 | 项目名称 | 版本 | 项目描述 | 最近提交时间 |
 | :---- | :---- | :---- | :---- |
-| [ImHex](https://github.com/WerWolv/ImHex) | v1.32.1 | 🔍 A Hex Editor for Reverse Engineers, Programmers a<br>nd people who value their retinas when working at 3 A<br>M. | 2023-12-29 21:41:12 |
+| [ImHex](https://github.com/WerWolv/ImHex) | v1.32.1 | 🔍 A Hex Editor for Reverse Engineers, Programmers a<br>nd people who value their retinas when working at 3 A<br>M. | 2023-12-30 22:52:25 |
 #### 编码解码
 | 项目名称 | 版本 | 项目描述 | 最近提交时间 |
 | :---- | :---- | :---- | :---- |
@@ -219,7 +220,7 @@
 #### 查壳
 | 项目名称 | 版本 | 项目描述 | 最近提交时间 |
 | :---- | :---- | :---- | :---- |
-| [DIE-engine](https://github.com/horsicq/DIE-engine) | 3.09 | DIE engine | 2023-12-29 16:09:18 |
+| [DIE-engine](https://github.com/horsicq/DIE-engine) | 3.09 | DIE engine | 2023-12-30 17:56:18 |
 ### Web
 #### 定向目录扫描
 | 项目名称 | 版本 | 项目描述 | 最近提交时间 |
@@ -240,7 +241,7 @@
 | [CTFtools-wiki](https://github.com/ProbiusOfficial/CTFtools-wiki) |  | 【Hello CTF】录常用 / 优秀 的CTF工具项目及其文档,一<br>个对各阶段CTFer都很友好的工具仓库,让所有的工具都发挥作<br>用！ | 2023-07-07 13:19:18 |
 | [SecToolKit](https://github.com/ProbiusOfficial/SecToolKit) |  | Cybersecurity tool repository / Wiki 收录常用 / 前沿<br> 的CTF和渗透工具以及其 官方/使用 文档，致力于让每个工<br>具都能发挥作用ww，不管你是萌新还是领域从业者希望你都能<br>在这里找到适合你的工具或者获得一定的启发。 | 2023-09-02 12:11:27 |
 | [CTF-Tools](https://github.com/Aabyss-Team/CTF-Tools) |  | 渊龙Sec安全团队CTF&AWD工具箱 | 2023-01-26 05:21:12 |
-| [ctf-archives](https://github.com/sajjadium/ctf-archives) |  |  CTF Archives: Collection of CTF Challenges. | 2023-12-28 19:52:43 |
+| [ctf-archives](https://github.com/sajjadium/ctf-archives) |  |  CTF Archives: Collection of CTF Challenges. | 2023-12-30 06:24:40 |
 ## 红队
 ### Web安全
 #### 漏洞发现库
@@ -265,7 +266,7 @@
 | [NextScan](https://github.com/tongcheng-security-team/NextScan) | v1.2.0 | 飞刃是一套完整的企业级黑盒漏洞扫描系统，集成漏洞扫描<br>、漏洞管理、扫描资产、爬虫等服务。 拥有强大的漏洞检测<br>引擎和丰富的插件库，覆盖多种漏洞类型和应用程序框架。 | 2023-05-05 09:39:23 |
 | [POC-bomber](https://github.com/tr0uble-mAker/POC-bomber) | POC-bom<br>ber-for-<br>Redteam-<br>v3.0.0 | 利用大量高威胁poc/exp快速获取目标权限，用于渗透和红<br>队快速打点 | 2023-06-09 13:20:09 |
 | [w13scan](https://github.com/w-digital-scanner/w13scan) |  | Passive Security Scanner (被动式安全扫描器) | 2022-07-06 09:24:36 |
-| [afrog](https://github.com/zan8in/afrog) | v2.9.6 | A Security Tool for Bug Bounty, Pentest and Red Team<br>ing. | 2023-12-29 13:12:00 |
+| [afrog](https://github.com/zan8in/afrog) | v2.9.6 | A Security Tool for Bug Bounty, Pentest and Red Team<br>ing. | 2023-12-30 12:49:20 |
 | [vulmap](https://github.com/zhzyker/vulmap) | v0.9 | Vulmap 是一款 web 漏洞扫描和验证工具, 可对 webapps <br>进行漏洞扫描, 并且具备漏洞验证功能 | 2022-04-13 13:23:54 |
 ##### 代码审计
 ###### java
@@ -295,7 +296,7 @@
 | [ssb](https://github.com/pwnesia/ssb) | v0.1.1 | Secure Shell Bruteforcer — A faster & simpler way t<br>o bruteforce SSH server | 2021-12-17 06:56:13 |
 | [SNETCracker](https://github.com/shack2/SNETCracker) | 1.0.201<br>90715 | 超级弱口令检查工具是一款Windows平台的弱口令审计工具<br>，支持批量多线程检查，可快速发现弱密码、弱口令账号，密<br>码支持和用户名结合进行检查，大大提高成功率，支持自定义<br>服务端口和字典。 | 2019-08-01 05:56:13 |
 | [WebCrack](https://github.com/yzddmr6/WebCrack) |  | WebCrack是一款web后台弱口令/万能密码批量检测工具，在<br>工具中导入后台地址即可进行自动化检测。 | 2021-09-07 12:19:54 |
-| [john](https://github.com/openwall/john) |  | John the Ripper jumbo - advanced offline password cr<br>acker, which supports hundreds of hash and cipher typ<br>es, and runs on many operating systems, CPUs, GPUs, a<br>nd even some FPGAs | 2023-12-29 23:05:07 |
+| [john](https://github.com/openwall/john) |  | John the Ripper jumbo - advanced offline password cr<br>acker, which supports hundreds of hash and cipher typ<br>es, and runs on many operating systems, CPUs, GPUs, a<br>nd even some FPGAs | 2023-12-30 03:50:12 |
 | [thc-hydra](https://github.com/vanhauser-thc/thc-hydra) | v9.5 | hydra | 2023-08-13 11:07:10 |
 ##### 漏洞发现
 | 项目名称 | 版本 | 项目描述 | 最近提交时间 |
@@ -589,7 +590,7 @@
 ###### XSS
 | 项目名称 | 版本 | 项目描述 | 最近提交时间 |
 | :---- | :---- | :---- | :---- |
-| [beef](https://github.com/beefproject/beef) | v0.5.4.<br>0 | The Browser Exploitation Framework Project | 2023-12-23 00:26:58 |
+| [beef](https://github.com/beefproject/beef) | v0.5.4.<br>0 | The Browser Exploitation Framework Project | 2023-12-31 00:23:35 |
 | [xsscrapy](https://github.com/DanMcInerney/xsscrapy) |  | XSS spider - 66/66 wavsep XSS detected | 2022-04-25 16:15:45 |
 | [findom-xss](https://github.com/dwisiswant0/findom-xss) |  | A fast DOM based XSS vulnerability scanner with simp<br>licity. | 2022-03-02 15:50:42 |
 | [dalfox](https://github.com/hahwul/dalfox) | v2.9.1 | 🌙🦊 Dalfox is a powerful open-source XSS scanner an<br>d utility focused on automation. | 2023-11-26 01:02:06 |
@@ -619,7 +620,7 @@
 | [Awesome-Exploit](https://github.com/Threekiii/Awesome-Exploit) |  | 一个漏洞利用工具仓库 | 2023-07-05 01:49:54 |
 | [CVE-Master](https://github.com/wjl110/CVE-Master) | v1.0.1 | 收集本人自接触渗透测试用于漏洞验证的所有热门CVE、POC<br>、CNVD攻击有效载荷+测试工具+FUZZ,一个仓库满足许多攻击<br>测试场景,开箱即用. | 2022-09-18 14:43:11 |
 | [poc-hub](https://github.com/ybdt/poc-hub) |  |  | 2023-04-04 03:20:05 |
-| [PocOrExp_in_Githu<br>b](https://github.com/ycdxsb/PocOrExp_in_Github) |  | 聚合Github上已有的Poc或者Exp，CVE信息来自CVE官网。Au<br>to Collect Poc Or Exp from Github by CVE ID. | 2023-12-30 00:20:30 |
+| [PocOrExp_in_Githu<br>b](https://github.com/ycdxsb/PocOrExp_in_Github) |  | 聚合Github上已有的Poc或者Exp，CVE信息来自CVE官网。Au<br>to Collect Poc Or Exp from Github by CVE ID. | 2023-12-31 00:21:46 |
 | [exphub](https://github.com/zhzyker/exphub) |  | Exphub[漏洞利用脚本库] 包括Webloigc、Struts2、Tomcat<br>、Nexus、Solr、Jboss、Drupal的漏洞利用脚本，最新添加CV<br>E-2020-14882、CVE-2020-11444、CVE-2020-10204、CVE-202<br>0-10199、CVE-2020-1938、CVE-2020-2551、CVE-2020-2555<br>、C | 2021-04-04 09:13:57 |
 ##### 漏洞利用辅助
 | 项目名称 | 版本 | 项目描述 | 最近提交时间 |
@@ -666,7 +667,7 @@
 | [Awesome-POC](https://github.com/Threekiii/Awesome-POC) |  | 一个漏洞POC知识库 | 2023-11-30 09:43:04 |
 | [Vulhub-Reproduce](https://github.com/Threekiii/Vulhub-Reproduce) |  | 一个Vulhub漏洞复现知识库 | 2023-12-12 03:03:35 |
 | [Vulnerability-Wik<br>i](https://github.com/Threekiii/Vulnerability-Wiki) | v1.0 | 基于 docsify 部署，目前漏洞数量 1000+ | 2023-12-12 03:02:26 |
-| [PoC-in-GitHub](https://github.com/nomi-sec/PoC-in-GitHub) |  | 📡 PoC auto collect from GitHub. ⚠️ Be careful Mal<br>ware. | 2023-12-29 18:46:41 |
+| [PoC-in-GitHub](https://github.com/nomi-sec/PoC-in-GitHub) |  | 📡 PoC auto collect from GitHub. ⚠️ Be careful Mal<br>ware. | 2023-12-31 00:27:17 |
 ##### 信息泄露漏洞
 ###### .DS_Store泄露
 | 项目名称 | 版本 | 项目描述 | 最近提交时间 |
@@ -956,7 +957,7 @@
 | [trojan_simple_dem<br>o](https://github.com/Ciyfly/trojan_simple_demo) |  | 简单的用python写的远控demo 执行命令 只一个心跳完成所<br>有操作 | 2022-10-07 12:51:43 |
 | [Supershell](https://github.com/tdragon6/Supershell) | v2.0.0 | Supershell C2 远控平台，基于反向SSH隧道获取完全交互<br>式Shell | 2023-09-26 13:49:47 |
 | [SimpleRemoter](https://github.com/yuanyuanxiang/SimpleRemoter) | v1.0.0.<br>5 | 基于gh0st的远程控制器：实现了终端管理、进程管理、窗<br>口管理、远程桌面、文件管理、语音管理、视频管理、服务管<br>理、注册表管理等功能，优化全部代码及整理排版，修复内存<br>泄漏缺陷，程序运行稳定。项目代码仅限于学习和交流用途。 | 2021-03-14 12:55:22 |
-| [sliver](https://github.com/BishopFox/sliver) | v1.5.41 | Adversary Emulation Framework | 2023-12-22 19:55:22 |
+| [sliver](https://github.com/BishopFox/sliver) | v1.5.41 | Adversary Emulation Framework | 2023-12-30 18:13:58 |
 #### 域渗透工具
 | 项目名称 | 版本 | 项目描述 | 最近提交时间 |
 | :---- | :---- | :---- | :---- |
@@ -1000,7 +1001,7 @@
 | :---- | :---- | :---- | :---- |
 | [ApoalypseSecTools](https://github.com/ApocalypseSec/ApoalypseSecTools) |  | ApoalypseSecTool更新地址 | 2023-04-26 02:03:35 |
 | [Pentest-Windows](https://github.com/arch3rPro/Pentest-Windows) | v2.2 | Windows11 Penetration Suite Toolkit 一个开箱即用的wi<br>ndows渗透测试环境 | 2023-10-31 01:56:54 |
-| [PST-Bucket](https://github.com/arch3rPro/PST-Bucket) |  | Scoop-Buket for Penetration Suite Toolkit | 2023-12-29 16:32:29 |
+| [PST-Bucket](https://github.com/arch3rPro/PST-Bucket) |  | Scoop-Buket for Penetration Suite Toolkit | 2023-12-30 01:29:27 |
 | [PenKitGui](https://github.com/ccc-f/PenKitGui) |  | 渗透测试武器库 | 2022-10-29 10:29:09 |
 | [GUI_Tools](https://github.com/ghealer/GUI_Tools) | V1.1 | 一个由各种图形化渗透工具组成的工具集 | 2023-04-03 02:20:44 |
 | [commando-vm](https://github.com/mandiant/commando-vm) |  | Complete Mandiant Offensive VM (Commando VM), a full<br>y customizable Windows-based pentesting virtual machi<br>ne distribution. commandovm@mandiant.com | 2023-10-03 19:02:49 |
@@ -1041,7 +1042,7 @@
 | :---- | :---- | :---- | :---- |
 | [Sylas](https://github.com/Acmesec/Sylas) | 1.1.1 | 新一代子域名主/被动收集工具 - Subdomain automatic/pa<br>ssive collection tool | 2022-10-09 11:06:28 |
 | [domain_hunter](https://github.com/bit4woo/domain_hunter) | v1.5 | A Burp Suite Extension that try to find all sub-doma<br>in, similar-domain and related-domain of an organizat<br>ion automatically! 基于流量自动收集整个企业或组织的子<br>域名、相似域名、相关域名的burp插件 | 2022-01-16 07:42:41 |
-| [domain_hunter_pro](https://github.com/bit4woo/domain_hunter_pro) | v1.9 | domain_hunter的高级版本，SRC挖洞、HW打点之必备！自动<br>化资产收集；快速Title获取；外部工具联动；等等 | 2023-12-29 13:44:11 |
+| [domain_hunter_pro](https://github.com/bit4woo/domain_hunter_pro) | v1.9 | domain_hunter的高级版本，SRC挖洞、HW打点之必备！自动<br>化资产收集；快速Title获取；外部工具联动；等等 | 2023-12-30 03:21:20 |
 | [BurpJSLinkFinder](https://github.com/InitRoot/BurpJSLinkFinder) |  | Burp Extension for a passive scanning JS files for e<br>ndpoint links. | 2022-10-17 09:27:42 |
 | [BurpExtractor](https://github.com/NetSPI/BurpExtractor) | v1.3.4 | A Burp extension for generic extraction and reuse of<br> data within HTTP requests and responses. | 2022-02-01 22:50:06 |
 ###### 漏洞利用
@@ -1324,7 +1325,7 @@
 | [gospider](https://github.com/jaeles-project/gospider) | v1.1.6 | Gospider - Fast web spider written in Go | 2023-01-17 05:49:54 |
 | [dirsearch_bypass4<br>03](https://github.com/lemonlove7/dirsearch_bypass403) | v0.2 | 目录扫描+JS文件中提取URL和子域+403状态绕过+指纹识别 | 2023-09-07 09:08:29 |
 | [BBScan](https://github.com/lijiejie/BBScan) | v1.5 | A fast vulnerability scanner | 2023-02-13 11:22:44 |
-| [dirsearch](https://github.com/maurosoria/dirsearch) | v0.4.3 | Web path scanner | 2023-12-03 12:36:45 |
+| [dirsearch](https://github.com/maurosoria/dirsearch) | v0.4.3 | Web path scanner | 2023-12-30 10:43:17 |
 | [URLFinder](https://github.com/pingc0y/URLFinder) | 2023.9.<br>9 | 一款快速、全面、易用的页面信息提取工具，可快速发现和<br>提取页面中的JS、URL和敏感信息。 | 2023-09-09 14:01:45 |
 | [urlbrute](https://github.com/ReddyyZ/urlbrute) | v1.0.2 | Directory/Subdomain scanner developed in GoLang. | 2020-12-05 15:54:27 |
 | [SWebScan](https://github.com/shack2/SWebScan) | 5.0.201<br>8.08.21 | SWebScan是一款基于C#的Web目录扫描器。 | 2019-09-24 17:19:34 |
@@ -1463,9 +1464,9 @@
 #### 云原生安全平台
 | 项目名称 | 版本 | 项目描述 | 最近提交时间 |
 | :---- | :---- | :---- | :---- |
-| [neuvector](https://github.com/neuvector/neuvector) | v5.2.4 |  | 2023-12-28 01:51:17 |
+| [neuvector](https://github.com/neuvector/neuvector) | v5.2.4 |  | 2023-12-30 02:32:46 |
 | [ThunderCloud](https://github.com/Rnalter/ThunderCloud) |  | Cloud Exploit Framework | 2022-05-11 14:49:31 |
-| [containerd](https://github.com/containerd/containerd) | v1.7.11 | An open and reliable container runtime | 2023-12-29 09:58:13 |
+| [containerd](https://github.com/containerd/containerd) | v1.7.11 | An open and reliable container runtime | 2023-12-30 11:53:12 |
 #### 云原生攻防靶场
 | 项目名称 | 版本 | 项目描述 | 最近提交时间 |
 | :---- | :---- | :---- | :---- |
@@ -1577,7 +1578,7 @@
 ###### 其他
 | 项目名称 | 版本 | 项目描述 | 最近提交时间 |
 | :---- | :---- | :---- | :---- |
-| [ImageMagick](https://github.com/ImageMagick/ImageMagick) | 7.1.1-2<br>4 | 🧙‍♂️ ImageMagick 7 | 2023-12-29 18:13:15 |
+| [ImageMagick](https://github.com/ImageMagick/ImageMagick) | 7.1.1-2<br>4 | 🧙‍♂️ ImageMagick 7 | 2023-12-30 21:51:23 |
 ###### 综合
 | 项目名称 | 版本 | 项目描述 | 最近提交时间 |
 | :---- | :---- | :---- | :---- |
@@ -1640,7 +1641,7 @@
 | [PyWxDump](https://github.com/xaoyaoo/PyWxDump) | v2.3.27 | 获取微信账号信息(昵称/账号/手机/邮箱/数据库密钥/wxid<br>)；PC微信数据库读取、解密脚本；聊天记录查看工具；聊天<br>记录导出为html(包含语音图片)。支持多账户信息获取，支持<br>所有微信版本。 | 2023-12-28 13:15:01 |
 | [WeChatUserDB](https://github.com/x1hy9/WeChatUserDB) |  | GetWeChat DBPassword&&UserInfo(获取PC数据库密码以及<br>相关微信用户信息支持多系统数据库解密) | 2022-07-24 07:31:29 |
 | [wechat-backup](https://github.com/greycodee/wechat-backup) | v1.0.0 | 微信聊天记录持久化备份本地硬盘，释放手机存储空间。 | 2023-06-22 13:34:20 |
-| [WeChatMsg](https://github.com/LC044/WeChatMsg) | v1.0.1 | 提取微信聊天记录，将其导出成HTML、Word、CSV文档永久<br>保存，对聊天记录进行分析生成年度聊天报告 | 2023-12-29 14:47:36 |
+| [WeChatMsg](https://github.com/LC044/WeChatMsg) | v1.0.1 | 提取微信聊天记录，将其导出成HTML、Word、CSV文档永久<br>保存，对聊天记录进行分析生成年度聊天报告 | 2023-12-30 11:26:24 |
 ##### 向日葵取证
 | 项目名称 | 版本 | 项目描述 | 最近提交时间 |
 | :---- | :---- | :---- | :---- |
@@ -3369,7 +3370,7 @@
 | :---- | :---- | :---- | :---- |
 | [Awesome-ChatGPT](https://github.com/dalinvip/Awesome-ChatGPT) |  | ChatGPT资料汇总学习，持续更新...... | 2023-07-07 02:24:11 |
 | [chatgpt](https://github.com/LangLangShanDeNanKe/chatgpt) |  | ChatGPT网址导航，分享免费好用AI网站！ | 2023-07-01 15:12:07 |
-| [ChatGPT-Shortcut](https://github.com/rockbenben/ChatGPT-Shortcut) | v.3.1.3 | 🚀💪Maximize your efficiency and productivity, suppo<br>rt for English,中文,Español,العربية. 让生产力加倍的AI<br>快捷指令。更有效地定制、保存和分享自己的提示词。在提示<br>词分享社区中，轻松找到适用于不同场景的指令。 | 2023-12-27 05:52:27 |
+| [ChatGPT-Shortcut](https://github.com/rockbenben/ChatGPT-Shortcut) | v3.1.4 | 🚀💪Maximize your efficiency and productivity, suppo<br>rt for English,中文,Español,العربية. 让生产力加倍的AI<br>快捷指令。更有效地定制、保存和分享自己的提示词。在提示<br>词分享社区中，轻松找到适用于不同场景的指令。 | 2023-12-30 05:30:30 |
 | [chatgpt-mac](https://github.com/vincelwt/chatgpt-mac) | v0.0.5 | ChatGPT for Mac, living in your menubar. | 2022-12-12 12:03:30 |
 | [awesome-chatgpt-z<br>h](https://github.com/yzfly/awesome-chatgpt-zh) |  | ChatGPT 中文指南🔥，ChatGPT 中文调教指南，指令指南，<br>应用开发指南，精选资源清单，更好的使用 chatGPT 让你的<br>生产力 up up up! 🚀 | 2023-12-18 13:02:48 |
 ## github加速
@@ -3412,7 +3413,7 @@
 | [MCIR](https://github.com/SpiderLabs/MCIR) |  | The Magical Code Injection Rainbow! MCIR is a framew<br>ork for building configurable vulnerability testbeds.<br> MCIR is also a collection of configurable vulnerabil<br>ity testbeds. | 2020-08-07 12:44:09 |
 | [DSVW](https://github.com/stamparm/DSVW) |  | Damn Small Vulnerable Web | 2021-07-22 16:02:49 |
 | [SecExample](https://github.com/tangxiaofeng7/SecExample) |  | JAVA 漏洞靶场 (Vulnerability Environment For Java) | 2021-07-15 09:11:24 |
-| [vulhub](https://github.com/vulhub/vulhub) |  | Pre-Built Vulnerable Environments Based on Docker-Co<br>mpose | 2023-12-07 17:16:36 |
+| [vulhub](https://github.com/vulhub/vulhub) |  | Pre-Built Vulnerable Environments Based on Docker-Co<br>mpose | 2023-12-30 18:04:55 |
 | [webug4.0](https://github.com/wangai3176/webug4.0) |  | webug4.0 | 2022-02-14 09:27:09 |
 | [WebGoat](https://github.com/WebGoat/WebGoat) | v2023.8 | WebGoat is a deliberately insecure application | 2023-12-29 14:01:35 |
 | [pikachu](https://github.com/zhuifengshaonianhanlu/pikachu) |  | 一个好玩的Web安全-漏洞测试平台 | 2023-07-01 15:14:35 |
@@ -3455,8 +3456,8 @@
 | 项目名称 | 版本 | 项目描述 | 最近提交时间 |
 | :---- | :---- | :---- | :---- |
 | [trojan](https://github.com/Jrohy/trojan) | v2.15.3 | trojan多用户管理部署程序, 支持web页面管理 | 2023-09-24 15:03:27 |
-| [v2rayfree](https://github.com/aiboboxx/v2rayfree) |  | v2ray节点、免费节点、免费v2ray节点、最新公益免费v2ra<br>y节点订阅地址、免费v2ray节点每日更新、免费ss/v2ray/tr<br>ojan节点、freefq  | 2023-12-29 12:32:35 |
-| [free](https://github.com/freefq/free) |  | 翻墙、免费翻墙、免费科学上网、免费节点、免费梯子、免<br>费ss/v2ray/trojan节点、蓝灯、谷歌商店、翻墙梯子 | 2023-12-30 00:00:16 |
+| [v2rayfree](https://github.com/aiboboxx/v2rayfree) |  | v2ray节点、免费节点、免费v2ray节点、最新公益免费v2ra<br>y节点订阅地址、免费v2ray节点每日更新、免费ss/v2ray/tr<br>ojan节点、freefq  | 2023-12-30 12:33:06 |
+| [free](https://github.com/freefq/free) |  | 翻墙、免费翻墙、免费科学上网、免费节点、免费梯子、免<br>费ss/v2ray/trojan节点、蓝灯、谷歌商店、翻墙梯子 | 2023-12-31 00:00:05 |
 | [v2rayA](https://github.com/v2rayA/v2rayA) | v2.2.4.<br>6 | A web GUI client of Project V which supports VMess, <br>VLESS, SS, SSR, Trojan, Tuic and Juicity protocols. <br>🚀 | 2023-12-16 17:09:56 |
 ## 克隆声音
 | 项目名称 | 版本 | 项目描述 | 最近提交时间 |
