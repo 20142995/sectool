@@ -3513,8 +3513,4 @@
 | :---- | :---- | :---- | :---- |
 | [FreeRDP](https://github.com/FreeRDP/FreeRDP) | 3.1.0 | FreeRDP is a free remote desktop protocol library an<br>d clients | 2024-01-05 13:19:34 |
 | [Quasar](https://github.com/quasar/Quasar) | v1.4.1 | Remote Administration Tool for Windows | 2023-08-14 19:33:43 |
-| [rustdesk](https://github.com/rustdesk/rustdesk) | 1.2.3 | An open-source remote desktop, and alternative to Te<br>amViewer. | 2023-12-17 04:43:47 |
-# 
-| 项目名称 | 版本 | 项目描述 | 最近提交时间 |
-| :---- | :---- | :---- | :---- |
-| [browser-dumpwd](https://github.com/wekillpeople/browser-dumpwd) |  | Dump browser passwords(chrome, firefox) with sqlite3<br> lib.  | 2016-05-30 09:40:06 |
+| [rustdesk](https://github.com/rustdesk/rustdesk) | 1.2.3 | An open-source remote desktop, and alternative to Te<br>amViewer. | 2024-01-04 12:34:35 |
