@@ -65,8 +65,8 @@
     "https://github.com/pppscn/SmsForwarder": {
         "created_at": "2021-02-10 02:23:07",
         "description": "短信转发器——监控Android手机短信、来电、APP通知，并根据指定规则转发到其他手机：钉钉群自定义机器人、钉钉企业内机器人、企业微信群机器人、飞书机器人、企业微信应用消息、邮箱、bark、webhook、Telegram机器人、Server酱、PushPlus、手机短信等。包括主动控制服务端与客户端，让你轻松远程发短信、查短信、查通话、查话簿、查电量等。（V3.0 新增）PS.这个APK主要是学习与自用，如有BUG请提ISSUE，同时欢迎大家提PR指正",
-        "commit_date": "2024-01-12 07:28:27",
-        "commit_message": "优化：`飞书群机器人`和`飞书企业应用`支持自定义`消息卡片`模板 #381",
+        "commit_date": "2024-01-13 02:09:28",
+        "commit_message": "优化：自动任务的触发条件`充电状态`中`充电器`增加`不限`选项 #I8VOE3",
         "release_tag": "v3.2.0",
         "release_date": "2023-02-14 09:25:00",
         "release_message": "PS. 距离上一次1024发版，已经过去快5个月了，期间发生不少事，一直没更新这个项目，不管如何，魔幻的2022年都过去了！\r\n\r\n感谢大家这2年来的陪伴与支持，祝大家有情人终成眷属，情人节快乐！\r\n\r\n---\r\n\r\n### 【注意】\r\n\r\n* v3.x版本是全新重构开发，可能一开始并不稳定，建议升级前先做好数据备份！（客户端>一键换新机>离线模式>导出）\r\n\r\n* `v3.2.0` 去除了 `mmkv` 依赖，采用 `SharedPreferences` 来保存配置，升级之后通用设置中的配置请重新配置，具体原因参见 [Issue #245](https://github.com/pppscn/SmsForwarder/issues/245)\r\n\r\n* 升级完毕后，建议离线导出配置，完全卸载干净全新安装后再导入配置（可以避免一些莫名其妙的玄学问题，例如：耗电异常）\r\n\r\n---\r\n\r\n### 更新日志\r\n\r\n* 新增：短信指令（根据短信指令开关对应功能） #I5YX3F\r\n* 新增：监听网络状态变化提醒（APP通知转发，包名：77777777） #259\r\n* 新增：远程改话簿（方便给老人家添加联系人） #256\r\n* 新增：远程查询手机定位（方便找回手机/防止老少走丢） #256\r\n* 新增：Socket发送通道（支持MQTT/TCP/UDP协议） #252\r\n* 新增：发送通道 URL Scheme（支持跨应用数据传递）#250\r\n* 新增：自动消除额外APP通知 #232 #248\r\n\r\n* 优化：短信/通话转发获取卡槽信息机制（自行备注卡槽SubId对应）#228 #235\r\n* 优化：来电转发逻辑 & 新增提醒类型（1.来电挂机 2.去电挂机 3.未接来电 4.来电提醒 5.来电接通 6.去电拨出）\r\n* 优化：单个转发规则支持绑定多个发送通道，且支持执行逻辑（全部执行/失败即止/成功即止） #247\r\n* 优化：转发日志列表以原始信息为主，聚合展示转发日志（一对多）\r\n* 优化：已安装App信息列表异步加载机制\r\n* 优化：电池状态监听/网络状态监控 在未开启去重时默认开启1秒去重\r\n* 优化：利用BatteryReceiver守护自启动的Frpc (试验) #254\r\n\r\n* 修复：Android 13 无法授予通知权限 #255\r\n* 修复：重启手机自动启动APP时加载配置失败 #233 #245\r\n* 修复：转发消息遍历发送通道时未跳过已禁用的通道\r\n* 修复：降级Android Gradle插件版本以兼容4.4 (#249 by NyaMisty)\r\n\r\n* 升级：andserver到2.1.12（加快web端上下行速度等）\r\n* 升级：frpclib 到 v0.47.0\r\n* 升级：androidx组件和kotlin版本\r\n\r\n还有一些细微调整参见`github`提交记录\r\n\r\n---\r\n\r\n### APK版本说明：\r\n* universal（10XXXX）: 通用版（不在乎安装包大小/懒得选就用这个版本，包含以下4种CPU架构so）\r\n* armeabi-v7a（20XXXX）: 32位ARM设备（备用机首选）\r\n* arm64-v8a（30XXXX）: 64位ARM设备（主流旗舰机）\r\n* x86（40XXXX）: 32位Intel设备\r\n* x86_64（50XXXX）: 64/32位Intel设备"
@@ -200,8 +200,8 @@
     "https://github.com/ycdxsb/PocOrExp_in_Github": {
         "created_at": "2021-04-13 05:46:16",
         "description": "聚合Github上已有的Poc或者Exp，CVE信息来自CVE官网。Auto Collect Poc Or Exp from Github by CVE ID.",
-        "commit_date": "2024-01-13 00:30:03",
-        "commit_message": "update 2024-01-13 08:30:03",
+        "commit_date": "2024-01-13 21:35:10",
+        "commit_message": "update 2024-01-14 05:35:10",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -3701,8 +3701,8 @@
     "https://github.com/carlospolop/PEASS-ng": {
         "created_at": "2019-01-13 19:58:24",
         "description": "PEASS - Privilege Escalation Awesome Scripts SUITE (with colors)",
-        "commit_date": "2023-10-24 10:34:02",
-        "commit_message": "Merge pull request #397 from RandolphConley/master\n\ncode update ; Added search / function for excel files",
+        "commit_date": "2024-01-13 15:36:49",
+        "commit_message": "Merge pull request #405 from d4t4s3c/patch-1\n\nuseful for when on the victim host we have access to the internet but…",
         "release_tag": "20240107-6fec90a8",
         "release_date": "2024-01-07 04:24:29",
         "release_message": ""
@@ -4277,7 +4277,7 @@
     "https://github.com/aiboboxx/v2rayfree": {
         "created_at": "2021-10-13 11:34:53",
         "description": "v2ray节点、免费节点、免费v2ray节点、最新公益免费v2ray节点订阅地址、免费v2ray节点每日更新、免费ss/v2ray/trojan节点、freefq ",
-        "commit_date": "2024-01-12 12:36:05",
+        "commit_date": "2024-01-13 12:34:25",
         "commit_message": "update",
         "release_tag": "",
         "release_date": "",
@@ -4322,8 +4322,8 @@
     "https://github.com/freefq/free": {
         "created_at": "2020-06-07 02:48:33",
         "description": "翻墙、免费翻墙、免费科学上网、免费节点、免费梯子、免费ss/v2ray/trojan节点、蓝灯、谷歌商店、翻墙梯子",
-        "commit_date": "2024-01-13 00:00:03",
-        "commit_message": "updated_at 01-13 08:00",
+        "commit_date": "2024-01-14 00:00:03",
+        "commit_message": "updated_at 01-14 08:00",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -4601,11 +4601,11 @@
     "https://github.com/rockbenben/ChatGPT-Shortcut": {
         "created_at": "2023-02-24 12:53:49",
         "description": "🚀💪Maximize your efficiency and productivity, support for English,中文,Español,العربية. 让生产力加倍的AI快捷指令。更有效地定制、保存和分享自己的提示词。在提示词分享社区中，轻松找到适用于不同场景的指令。",
-        "commit_date": "2024-01-03 14:44:20",
-        "commit_message": "chore: update Browserslist and caniuse-lite database",
-        "release_tag": "v3.1.4",
-        "release_date": "2023-12-30 05:55:56",
-        "release_message": "**v3.1.4 Update**\r\n\r\nFocused on enhancing the extension functionality:\r\n\r\n- Fixed input and language switching issues on the ChatGPT integration page.\r\n- Improved the effectiveness of link monitoring.\r\n- Added an option to enable or disable the sidebar for enhanced customization.\r\n\r\n---\r\n\r\n**v3.1.4 更新**\r\n\r\n聚焦于修复扩展使用问题功能：\r\n\r\n- 修复了GPT集成页的输入和语言切换问题。\r\n- 改进了链接监控功能的效果。\r\n- 新增侧边栏启用选项，增强自定义性。\r\n\r\n---\r\n\r\n**Full Changelog**: https://github.com/rockbenben/ChatGPT-Shortcut/compare/v.3.1.3...v3.1.4"
+        "commit_date": "2024-01-13 21:59:00",
+        "commit_message": "chore(deps): bump follow-redirects from 1.15.2 to 1.15.5 (#45)\n\nBumps [follow-redirects](https://github.com/follow-redirects/follow-redirects) from 1.15.2 to 1.15.5.\r\n- [Release notes](https://github.com/follow-redirects/follow-redirects/releases)\r\n- [Commits](https://github.com/follow-redirects/follow-redirects/compare/v1.15.2...v1.15.5)\r\n\r\n---\r\nupdated-dependencies:\r\n- dependency-name: follow-redirects\r\n  dependency-type: indirect\r\n...\r\n\r\nSigned-off-by: dependabot[bot] <support@github.com>\r\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
+        "release_tag": "v3.1.6",
+        "release_date": "2024-01-13 22:52:54",
+        "release_message": "**v3.1.6 Update**\r\n\r\n- Feature: Customizable username modification\r\n- Fix: Resolve multiple issues with registration functionality and browser warnings\r\n- Refactor: Simplify API logic and enhance styling of login components\r\n- Extension: Fix the initial language determination logic for the integration page and sidebar\r\n\r\n---\r\n**v3.1.6 更新**\r\n\r\n- 功能：自定义修改用户名\r\n- 修复：解决注册功能及浏览器警告的多项问题\r\n- 重构：简化 API 逻辑，并优化登录组件的样式\r\n- 扩展：修复集成页和侧边栏的初始语言判断逻辑\r\n\r\n**Full Changelog**: https://github.com/rockbenben/ChatGPT-Shortcut/compare/v3.1.4...v3.1.6"
     },
     "https://github.com/LangLangShanDeNanKe/chatgpt": {
         "created_at": "2023-03-15 12:39:55",
@@ -6508,8 +6508,8 @@
     "https://github.com/arch3rPro/PST-Bucket": {
         "created_at": "2023-04-24 06:49:11",
         "description": "Scoop-Buket for Penetration Suite Toolkit",
-        "commit_date": "2024-01-12 16:34:37",
-        "commit_message": "yakit: Update to version 1.2.8-sp7",
+        "commit_date": "2024-01-13 08:28:18",
+        "commit_message": "pixpin: Update to version 1.5.0.0",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -6562,8 +6562,8 @@
     "https://github.com/horsicq/DIE-engine": {
         "created_at": "2014-10-13 15:20:21",
         "description": "DIE engine",
-        "commit_date": "2024-01-12 13:33:18",
-        "commit_message": "Update module: Detect-It-Easy 2024-01-12",
+        "commit_date": "2024-01-13 15:05:32",
+        "commit_message": "Update module: Detect-It-Easy 2024-01-13",
         "release_tag": "3.09",
         "release_date": "2023-12-28 21:22:21",
         "release_message": "Please see the file [CHANGELOG](https://github.com/horsicq/Detect-It-Easy/blob/master/changelog.txt) for a detailed list of changes.\r\n\r\n\r\n| Asset / File | Description / Host OS |\r\n| ----------- | ----------- |\r\n| [die_sourcecode_3.09.tar.gz](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_sourcecode_3.09.tar.gz) | Source code tarball |\r\n| [Detect_It_Easy-3.09-x86_64.AppImage](https://github.com/horsicq/DIE-engine/releases/download/3.09/Detect_It_Easy-3.09-x86_64.AppImage) | Portable version for Linux [How to run](https://github.com/horsicq/Detect-It-Easy/blob/master/docs/RUN.md) |\r\n| [die_3.09_Debian_10_amd64.deb](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_Debian_10_amd64.deb) | Installer for Debian 10 |\r\n| [die_3.09_Debian_11_amd64.deb](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_Debian_11_amd64.deb) | Installer for Debian 11 |\r\n| [die_3.09_Debian_12_amd64.deb](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_Debian_12_amd64.deb) | Installer for Debian 12 |\r\n| [die_3.09_Ubuntu_14.04_amd64.deb](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_Ubuntu_14.04_amd64.deb) | Installer for Ubuntu 14.04 |\r\n| [die_3.09_Ubuntu_16.04_amd64.deb](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_Ubuntu_16.04_amd64.deb) | Installer for Ubuntu 16.04 |\r\n| [die_3.09_Ubuntu_18.04_amd64.deb](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_Ubuntu_18.04_amd64.deb) | Installer for Ubuntu 18.04 |\r\n| [die_3.09_Ubuntu_20.04_amd64.deb](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_Ubuntu_20.04_amd64.deb) | Installer for Ubuntu 20.04 |\r\n| [die_3.09_Ubuntu_22.04_amd64.deb](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_Ubuntu_22.04_amd64.deb) | Installer for Ubuntu 22.04 |\r\n| [die_3.09_Ubuntu_22.10_amd64.deb](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_Ubuntu_22.10_amd64.deb) | Installer for Ubuntu 22.10 |\r\n| [die_3.09_Ubuntu_23.04_amd64.deb](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_Ubuntu_23.04_amd64.deb) | Installer for Ubuntu 23.04 |\r\n| [die_3.09_Ubuntu_23.10_amd64.deb](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_Ubuntu_23.10_amd64.deb) | Installer for Ubuntu 23.10 |\r\n| [die_3.09_Kali_2023.4_amd64](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_Kali_2023.4_amd64) | Installer for Kali 2023.4 |\r\n| [die_3.09_Parrot_5.3_amd64.deb](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_Parrot_5.3_amd64.deb) | Installer for Parrot 5.3 |\r\n| [die_3.09_portable_Ubuntu_20.04_amd64.tar.gz](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_portable_Ubuntu_20.04_amd64.tar.gz) | Portable version for Ubuntu 20.04 |\r\n| [detect-it-easy-3.09-1-x86_64.pkg.tar.zst](https://github.com/horsicq/DIE-engine/releases/download/3.09/detect-it-easy-3.09-1-x86_64.pkg.tar.zst) | Installer for Arch Linux |\r\n| [die_mac_3.09_x86_64.pkg](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_mac_3.09_x86_64.pkg) | Installer for macOS |\r\n| [die_mac_qt6_3.09_arm64.pkg](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_mac_qt6_3.09_arm64.pkg) | Installer for macOS Qt6 M1 processor|\r\n| [die_mac_portable_3.09_x86_64.zip](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_mac_portable_3.09_x86_64.zip) | Portable version for macOS |\r\n| [die_win32_portable_3.09_x86.zip](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_win32_portable_3.09_x86.zip) | Portable version for x86 Win32 (Win7-Win11)|\r\n| [die_win64_portable_3.09_x64.zip](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_win64_portable_3.09_x64.zip) | Portable version for x64 Win64 (Win7-Win11) |\r\n| [die_winxp_portable_3.09_x86.zip](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_winxp_portable_3.09_x86.zip) | Portable version for Windows XP (WinXP-Win11) |\r\n\r\n\r\nExperimental versions - There may be bugs in the GUI\r\n\r\n| Asset / File | Description / Host OS |\r\n| ----------- | ----------- |\r\n| [die_win64_qt6_portable_3.09_x64.zip](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_win64_qt6_portable_3.09_x64.zip) | Portable version for x64 Win64 Qt6 (Win10-Win11)|\r\n"
@@ -7749,8 +7749,8 @@
     "https://github.com/openwall/john": {
         "created_at": "2011-12-16 19:43:47",
         "description": "John the Ripper jumbo - advanced offline password cracker, which supports hundreds of hash and cipher types, and runs on many operating systems, CPUs, GPUs, and even some FPGAs",
-        "commit_date": "2024-01-12 22:22:57",
-        "commit_message": "Armory format: Free the tests' memory allocation before actual cracking",
+        "commit_date": "2024-01-13 17:45:53",
+        "commit_message": "Armory format: Switch from scatter to gather on MIC",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -8674,8 +8674,8 @@
     "https://github.com/nomi-sec/PoC-in-GitHub": {
         "created_at": "2019-12-08 13:03:54",
         "description": "📡 PoC auto collect from GitHub. ⚠️ Be careful Malware.",
-        "commit_date": "2024-01-12 18:40:26",
-        "commit_message": "Auto Update 2024/01/12 18:40:26",
+        "commit_date": "2024-01-14 00:31:16",
+        "commit_message": "Auto Update 2024/01/14 00:31:16",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -10268,7 +10268,7 @@
     "https://github.com/privacy-protection-tools/anti-AD": {
         "created_at": "2015-10-22 08:59:28",
         "description": "致力于成为中文区命中率最高的广告过滤列表，实现精确的广告屏蔽和隐私保护。anti-AD现已支持AdGuardHome，dnsmasq， Surge，Pi-Hole，smartdns等网络组件。完全兼容常见的广告过滤工具所支持的各种广告过滤列表格式",
-        "commit_date": "2024-01-10 18:34:42",
+        "commit_date": "2024-01-13 18:32:50",
         "commit_message": "Auto renew the anti-AD list.",
         "release_tag": "v4.3",
         "release_date": "2020-02-04 09:32:25",
@@ -22078,8 +22078,8 @@
         "release_tag": "rel/3.0.0-beta1",
         "release_date": "2023-12-22 20:20:44",
         "release_message": "This is the first beta release of the upcoming major release, i.e., `3.0.0`.\r\n\r\n### Added\r\n\r\n* Add annotations for nullability. (LOG4J2-1477)\r\n* Remove deprecated code. (LOG4J2-2493)\r\n* Add a more generalized dependency injection system to plugins inspired by JSR 330. (LOG4J2-2803)\r\n* Add and enhance structured properties for per-context settings outside configuration files. (LOG4J2-3299[LOG4J2-3299], #1473)\r\n* Automate artifact publishing and release preparation. (LOG4J2-3466)\r\n* Add support for dependency injection of plugins into container types such as `Optional<T>`, `Collection<T>`, `Set<T>`, `Stream<T>`, `List<T>`, and `Map<String, T>`. (LOG4J2-3496)\r\n* Add support for `ConstraintValidator` in plugin classes. (LOG4J2-3497)\r\n\r\n### Changed\r\n\r\n* Remove liquibase-log4j2 maven module (#1193)\r\n* Make the output of annotation processing reproducible. (#1520)\r\n* Replace `synchronized` blocks with locks for improved performance with virtual threads. (#1532)\r\n* Removes additional `isFiltered` checks in `AsyncLoggerConfig`. (#1550)\r\n* Ignore exceptions thrown by PropertySources. Eliminate ClassCastException when SimpleLoggerContext is used. (spring-projects/spring-boot#33450, #1799)\r\n* Update `com.lmax:disruptor` to version `4.0.0` (#1829)\r\n* Migrate most tests to JUnit 5. This includes a more powerful set of test extensions. (LOG4J2-2653)\r\n* Make Log4j use its own BOM. (LOG4J2-3511)\r\n* Change encoding of HTTP Basic Authentication to UTF-8. (#1970)\r\n* Upgraded the required compiler version to Java 17\r\n* Upgraded the required runtime version to Java 17\r\n* Update `actions/checkout` to version `4.1.1` (#1869)\r\n* Update `actions/setup-java` to version `3.13.0` (#1809)\r\n* Update `actions/setup-python` to version `4.7.1` (#1831)\r\n* Update `ch.qos.logback:logback-classic` to version `1.4.14` (#2028)\r\n* Update `com.datastax.cassandra:cassandra-driver-core` to version `3.11.5` (#1889)\r\n* Update `com.fasterxml.jackson:jackson-bom` to version `2.16.0` (#1974)\r\n* Update `com.github.luben:zstd-jni` to version `1.5.5-11` (#2032)\r\n* Update `com.github.spotbugs:spotbugs-maven-plugin` to version `4.7.3.6` (#1879)\r\n* Update `com.github.tomakehurst:wiremock-jre8` to version `2.35.1` (#1765)\r\n* Update `com.google.code.java-allocation-instrumenter:java-allocation-instrumenter` to version `3.3.4` (#2102)\r\n* Update `com.google.errorprone:error_prone_core` to version `2.23.0` (#1871)\r\n* Update `com.google.guava:guava-testlib` to version `32.1.3-jre` (#1934)\r\n* Update `com.h2database:h2` to version `2.2.224` (#1917)\r\n* Update `commons-codec:commons-codec` to version `1.16.0` (#2054)\r\n* Update `commons-io:commons-io` to version `2.15.1` (#2035)\r\n* Update `commons-logging:commons-logging` to version `1.3.0` (#2046)\r\n* Update `de.flapdoodle.reverse:de.flapdoodle.reverse` to version `1.7.2` (#2000)\r\n* Update `io.netty:netty-bom` to version `4.1.104.Final` (#2097)\r\n* Update `net.java.dev.jna:jna` to version `5.14.0` (#2082)\r\n* Update `org.apache.aries.spifly:org.apache.aries.spifly.dynamic.bundle` to version `1.3.7` (#2053)\r\n* Update `org.apache.commons:commons-compress` to version `1.25.0` (#2055)\r\n* Update `org.apache.commons:commons-csv` to version `1.10.0` (#2041)\r\n* Update `org.apache.commons:commons-dbcp2` to version `2.11.0` (#2044)\r\n* Update `org.apache.commons:commons-lang3` to version `3.14.0` (#2036)\r\n* Update `org.apache.commons:commons-pool2` to version `2.12.0` (#2038)\r\n* Update `org.apache.groovy:groovy-bom` to version `4.0.16` (#2039)\r\n* Update `org.apache.maven:maven-core` to version `3.9.6` (#2049)\r\n* Update `org.apache.maven.surefire:surefire-junit47` to version `3.2.3` (#2091)\r\n* Update `org.apache.tomcat:tomcat-juli` to version `10.1.17` (#2086)\r\n* Update `org.codehaus.plexus:plexus-utils` to version `3.5.1` (#2061)\r\n* Update `org.eclipse.jetty:jetty-bom` to version `9.4.53.v20231009` (#1931)\r\n* Update `org.eclipse.persistence:org.eclipse.persistence.jpa` to version `2.7.13` (#1933)\r\n* Update `org.eclipse.platform:org.eclipse.osgi` to version `3.18.600` (#2064)\r\n* Update `org.elasticsearch.client:elasticsearch-rest-high-level-client` to version `7.17.16` (#2085)\r\n* Update `org.graalvm.truffle:truffle-api` to version `23.1.1` (#1872)\r\n* Update `org.jctools:jctools-core` to version `4.0.2` (#1995)\r\n* Update `org.jmdns:jmdns` to version `3.5.9` (#2069)\r\n* Update `org.junit:junit-bom` to version `5.10.1` (#1993)\r\n* Update `org.junit-pioneer:junit-pioneer` to version `2.2.0` (#1986)\r\n* Update `org.mockito:mockito-bom` to version `5.8.0` (#2031)\r\n* Update `org.mongodb:bson` to version `4.11.1` (#1991)\r\n* Update `org.springframework.boot:spring-boot` to version `2.7.17` (#1902)\r\n* Update `org.springframework.boot:spring-boot-dependencies` to version `2.7.18` (#2002)\r\n* Update `org.springframework:spring-framework-bom` to version `5.3.30` (#1903)\r\n* Update `org.springframework:spring-test` to version `5.3.31` (#1992)\r\n* Update `org.xerial.snappy:snappy-java` to version `1.1.10.5` (#1877)\r\n* Update `org.zeromq:jeromq` to version `0.5.4` (#1888)\r\n* Update `uk.org.webcompere:system-stubs-core` to version `2.1.5` (#2001)\r\n* Update OpenTest4J from version 1.2.0 to 1.3.0.\r\n\r\n### Removed\r\n\r\n* Remove `GelfLayout` (a GELF-compatible layout is still possible using JSON Template Layout) (#1951)\r\n* Remove `log4j-cassandra` (#1951)\r\n* Remove `log4j-couchdb` (#1951)\r\n* Remove Jackson-based JSON configuration support. JSON configuration files are now handled through a built-in JSON parser.\r\n* Moved Log4j Jakarta EE modules (`log4j-jakarta-jms`, `log4j-jakarta-smtp`, and `log4j-jakarta-web`) to their own [repository](https://github.com/apache/logging-log4j-jakarta) and [website](https://logging.apache.org/log4j/jakarta) (#1966)\r\n* Removed all Java EE modules: `log4j-jms`, `log4j-jpa`, `log4j-smtp`, `log4j-web` (#1966)\r\n* Remove `log4j-jeromq` module (users are recommended to migrate to [loghublog4j2](https://github.com/fbacchella/loghublog4j2)) (#1951)\r\n* Remove `log4j-kafka` (#1951)\r\n* Remove `log4j-layout-jackson-json` module (it is superseded by JSON Template Layout) (#1951)\r\n* Remove `log4j-layout-jackson-yaml` module (#1951)\r\n* Remove legacy OSGi integration. `ServiceLoader` mechanism should be used instead.\r\n* Remove `log4j-mongodb3` module (#1951)\r\n* Remove support for `SecurityManager`. Starting in Java 21, a custom `SecurityManager` cannot be used.\r\n* Remove `log4j-spring-boot` module (its features are upstreamed to `org.springframework.boot:spring-boot-starter-log4j2`) (#1951)\r\n\r\n### Fixed\r\n\r\n* Remove locale-dependent `toLowerCase/toUpperCase` calls. (#1281)\r\n* Add environment variable arbiter. (#1312)\r\n* Fixed logging of java.sql.Date objects by appending it before Log4J tries to call java.util.Date.toInstant() on it. (#1366)\r\n* Adapt the OSGi metadata of `log4j-api`, `log4j-core`, `log4j-slf4j-impl` and `log4j-slf4j2-impl` to activate the bundle when it is accessed. To achieve that set the `Bundle-ActivationPolicy` to `lazy` for the log4j bundles. (#1367)\r\n* Fix runtime dependencies documentation. (#1530)\r\n* Allow to override fqcn in `Log4jEventBuilder` by implementing `CallerBoundaryAware`. (#1533)\r\n* Migrate MongoDB tests to JUnit 5 and Flapdoodle Embedded MongoDB 4. (#1589)\r\n* Fixed rollover strategy in the Log4j 1.x compatibility layer. (#1650)\r\n* Only shutdown Log4j after last `Log4jServletContextListener` is executed. (#1782)\r\n* Fixes context data loss if `<AsyncLogger>` components are used with an all async logger context. (#1786)\r\n* AppenderLoggingException logging any exception to a MongoDB Appender. (LOG4J2-3392)",
-        "commit_date": "2024-01-12 11:09:55",
-        "commit_message": "Improve state check in `AbstractLoadBundleTest`"
+        "commit_date": "2024-01-13 08:44:31",
+        "commit_message": "Move OSGi caches to `target` directory"
     },
     "https://github.com/phpmyadmin/phpmyadmin": {
         "created_at": "2012-01-19 13:21:52",
@@ -22497,11 +22497,11 @@
     "https://github.com/xaoyaoo/PyWxDump": {
         "created_at": "2023-08-21 14:54:18",
         "description": "获取微信账号信息(昵称/账号/手机/邮箱/数据库密钥/wxid)；PC微信数据库读取、解密脚本；聊天记录查看工具；聊天记录导出为html(包含语音图片)。支持多账户信息获取，支持所有微信版本。",
-        "commit_date": "2024-01-12 12:32:35",
-        "commit_message": "聊天记录查看更丝滑",
-        "release_tag": "v2.4.14",
-        "release_date": "2024-01-12 12:35:18",
-        "release_message": "[Auto Release] Update PyWxDump to refs/tags/v2.4.14\n"
+        "commit_date": "2024-01-13 10:10:42",
+        "commit_message": "fix",
+        "release_tag": "v2.4.16",
+        "release_date": "2024-01-13 10:14:51",
+        "release_message": "[Auto Release] Update PyWxDump to refs/tags/v2.4.16\n"
     },
     "https://github.com/Pizz33/Qianji": {
         "created_at": "2023-09-22 09:15:26",
@@ -22614,8 +22614,8 @@
     "https://github.com/LC044/WeChatMsg": {
         "created_at": "2023-01-11 05:03:49",
         "description": "提取微信聊天记录，将其导出成HTML、Word、CSV文档永久保存，对聊天记录进行分析生成年度聊天报告",
-        "commit_date": "2024-01-12 12:03:15",
-        "commit_message": "修复不可打印字符导致的docx导出失败#297",
+        "commit_date": "2024-01-13 17:21:19",
+        "commit_message": "修改HTML默认聊天数据",
         "release_tag": "v1.0.3",
         "release_date": "2024-01-10 13:30:18",
         "release_message": "# 新增功能\r\n* 支持批量导出聊天记录\r\n\r\n![QQ截图20240110211609](https://github.com/LC044/WeChatMsg/assets/95485601/fbb24087-a9d2-4ea4-9753-28b73d5cf9f6)\r\n\r\n* 支持自定义选择导出时间\r\n\r\n![QQ截图20240110212143](https://github.com/LC044/WeChatMsg/assets/95485601/b5f974cc-c22d-4112-af71-bd32de530ef5)\r\n\r\n* exe程序支持显示群聊\r\n\r\n![QQ截图20240110212847](https://github.com/LC044/WeChatMsg/assets/95485601/fc7bbacb-e8a6-4cbf-881c-e6a2e378099a)\r\n\r\n\r\n# 优化\r\n* 加快启动速度\r\n* 修复空格导致的语音消息失效的问题 #281 #289\r\n* 修复没有ContactLabel表导致的无法启动的问题 #274 \r\n* 修复光标显示异常的问题\r\n* 修复exe程序图片显示导致的错误问题\r\n\r\n# 1.1.x更新预告\r\n1. 个人年度报告\r\n    * 年度聊天亲密好友\r\n    * 年度关键词\r\n    * 在线时段\r\n    * 发了几个朋友圈、获得了多少赞\r\n    * 加了多少好友、多少群\r\n    * 发了多少字、多少表情包\r\n    * 打了多少视频电话\r\n    * ······\r\n关注微信公众号参与[需求征集](https://mp.weixin.qq.com/s?__biz=Mzg3NDg5MzM1NA==&mid=2247483773&idx=1&sn=36ba074341047b0fab0ea8398103601a&chksm=cec89838f9bf112eb9f8361718057feec6b184444b73aa0c6cbcec1bd9cb3659579b3370ffbc&token=1405623332&lang=zh_CN#rd)投票，留下你对新功能的期待\r\n![weixin](https://github.com/LC044/WeChatMsg/assets/95485601/d5a20cb5-823c-4278-9019-a5e1fde3aeb3)\r\n\r\n\r\n# 说明\r\n* 官网:[http://memotrace.lc044.love/](http://memotrace.lc044.love/)\r\n* 预览网址:[http://memotrace.lc044.love/demo.html](http://memotrace.lc044.love/demo.html)\r\n* **如果出现闪退问题，请右击使用管理员权限运行**\r\n* **微信务必升级到最新版：3.9.8.15或3.9.8.25**\r\n* **有问题先看[教程](https://blog.lc044.love/post/5)，或者去[issues](https://github.com/LC044/WeChatMsg/issues)搜索相关问题**\r\n* 解决不了可发起issue询问，**附上报错截图和详细错误情况避免无效询问**\r\n* 手机端使用聊天记录迁移功能将聊天数据迁移到电脑上\r\n操作步骤：\r\n  - 安卓： 手机微信->我->设置->聊天->聊天记录迁移与备份->迁移-> 迁移到电脑微信（迁移完成后重启微信[否则](https://github.com/LC044/WeChatMsg/issues/27)）\r\n  - iOS： 手机微信->我->设置->通用->聊天记录迁移与备份->迁移-> 迁移到电脑微信（迁移完成后重启微信[否则](https://github.com/LC044/WeChatMsg/issues/27)）\r\n* 直接替换旧版本即可，不用重新解密（获取最新数据请重启微信之后重新解密）\r\n* 该软件不存在任何收费，请避免上当受骗\r\n* 阿里云盘下载地址：https://www.alipan.com/s/h6fDSP4igcz\r\n* 百度网盘下载地址：https://pan.baidu.com/s/1Bc7Nnnn4yychMPVFDDAsKA?pwd=ez1k 提取码：ez1k\r\n\r\n## What's Changed\r\n* 删掉自己写的protobuf；extrabuf提速 by @STDquantum in https://github.com/LC044/WeChatMsg/pull/270\r\n* 更改部分css；修复语音转文字部分问题 by @STDquantum in https://github.com/LC044/WeChatMsg/pull/272\r\n* 文件名称显示成文件路径了，后面什么都打不开。 by @STDquantum in https://github.com/LC044/WeChatMsg/pull/278\r\n* 修改时间显示问题，处理截断问题 by @STDquantum in https://github.com/LC044/WeChatMsg/pull/279\r\n\r\n\r\n**Full Changelog**: https://github.com/LC044/WeChatMsg/compare/v1.0.2...v1.0.3"
