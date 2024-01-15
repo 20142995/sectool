@@ -200,8 +200,8 @@
     "https://github.com/ycdxsb/PocOrExp_in_Github": {
         "created_at": "2021-04-13 05:46:16",
         "description": "聚合Github上已有的Poc或者Exp，CVE信息来自CVE官网。Auto Collect Poc Or Exp from Github by CVE ID.",
-        "commit_date": "2024-01-13 21:35:10",
-        "commit_message": "update 2024-01-14 05:35:10",
+        "commit_date": "2024-01-15 00:33:14",
+        "commit_message": "update 2024-01-15 08:33:14",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -981,8 +981,8 @@
     "https://github.com/sqlmapproject/sqlmap": {
         "created_at": "2012-06-26 09:52:15",
         "description": "Automatic SQL injection and database takeover tool",
-        "commit_date": "2024-01-11 15:11:40",
-        "commit_message": "Implementing #5506",
+        "commit_date": "2024-01-14 21:57:30",
+        "commit_message": "Fixes #5590",
         "release_tag": "1.8",
         "release_date": "2024-01-03 22:20:06",
         "release_message": "Stable version 1.8 ([changeset](https://github.com/sqlmapproject/sqlmap/compare/1.7...1.8))"
@@ -3703,8 +3703,8 @@
         "description": "PEASS - Privilege Escalation Awesome Scripts SUITE (with colors)",
         "commit_date": "2024-01-13 15:36:49",
         "commit_message": "Merge pull request #405 from d4t4s3c/patch-1\n\nuseful for when on the victim host we have access to the internet but…",
-        "release_tag": "20240107-6fec90a8",
-        "release_date": "2024-01-07 04:24:29",
+        "release_tag": "20240114-925b57c0",
+        "release_date": "2024-01-14 04:26:34",
         "release_message": ""
     },
     "https://github.com/waderwu/attackRmi": {
@@ -4277,7 +4277,7 @@
     "https://github.com/aiboboxx/v2rayfree": {
         "created_at": "2021-10-13 11:34:53",
         "description": "v2ray节点、免费节点、免费v2ray节点、最新公益免费v2ray节点订阅地址、免费v2ray节点每日更新、免费ss/v2ray/trojan节点、freefq ",
-        "commit_date": "2024-01-13 12:34:25",
+        "commit_date": "2024-01-14 12:33:56",
         "commit_message": "update",
         "release_tag": "",
         "release_date": "",
@@ -4322,8 +4322,8 @@
     "https://github.com/freefq/free": {
         "created_at": "2020-06-07 02:48:33",
         "description": "翻墙、免费翻墙、免费科学上网、免费节点、免费梯子、免费ss/v2ray/trojan节点、蓝灯、谷歌商店、翻墙梯子",
-        "commit_date": "2024-01-14 00:00:03",
-        "commit_message": "updated_at 01-14 08:00",
+        "commit_date": "2024-01-15 00:00:02",
+        "commit_message": "updated_at 01-15 08:00",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -4529,8 +4529,8 @@
     "https://github.com/MobSF/Mobile-Security-Framework-MobSF": {
         "created_at": "2015-01-31 04:36:01",
         "description": "Mobile Security Framework (MobSF) is an automated, all-in-one mobile application (Android/iOS/Windows) pen-testing, malware analysis and security assessment framework capable of performing static and dynamic analysis.",
-        "commit_date": "2024-01-11 06:36:51",
-        "commit_message": "Update SECURITY.md (#2323)\n\nupdated security policy",
+        "commit_date": "2024-01-14 04:11:15",
+        "commit_message": "Filter out invalid links (#2322)\n\n* Filter out invalid links\r\n\r\n[ERROR] 2024-01-10 10:28:29 - Well Known Assetlinks Check for URL: http://*/.well-known/assetlinks.json\r\nTraceback (most recent call last):\r\n \r\nrequests.exceptions.InvalidURL: URL has an invalid label.\r\n\r\n* Update manifest_analysis.py\r\n\r\n---------\r\n\r\nCo-authored-by: Ajin Abraham <ajin25@gmail.com>",
         "release_tag": "v3.7.6",
         "release_date": "2023-08-28 04:57:05",
         "release_message": "### v3.7.6 Beta Changelog\r\n\r\n- Features or Enhancements\r\n   - Docker base image update to Ubuntu 22.04\r\n   - Dockerfile QA\r\n   - Migrated from Pip to Poetry for dependency management\r\n   - Migrate from setup.py to use poetry for build and publish\r\n   - Python 3.11 support\r\n   - Docker ADB connection improvements (host.docker.internal translation for localhost)\r\n   -  IOS Swift RulesUpdates `ios_biometric_bool`, `ios_biometric_acl`, `ios_keychain_weak_acl_device_passcode`, `ios_keychain_weak_accessibility_value`, `ios_insecure_random_no_generator`, `ios_biometry_hardened`\r\n   - Android SCA rules update\r\n   - Entropies scan support for strings\r\n   - Regex Hardening: Fixes possible Regex DoS in rules and MobSF code base\r\n   - Tox QA\r\n   - Added poetry build test\r\n   - Updated mobsf PyPI publishing workflow \r\n   - Update local DBs\r\n   - URLs/Email extraction refactor\r\n   - Static and Dynamic Binary Analysis QA\r\n   - Refactor Dex permissions\r\n   - Refactor Androguard `apk.APK()` usage\r\n   - Fallback certificate analysis using apksigtool\r\n   - Use BeautifulSoup4 to prettify malformed XML\r\n   - Detect non standard XML namespace in AndroidManifest.xml, Fixes : #2198\r\n   - Updated android permissions list\r\n   - Updated android permission update check script\r\n   - Github Actions version update\r\n   - Apktool bump\r\n   - Bump httptools\r\n   - Bump yara-python-dex\r\n   - Docker image build test for PRs\r\n   - iOS Source Report Fix\r\n   - Removed unwanted pinned repository\r\n   - Frida APK Patcher (WIP)\r\n   - Fix for Recent Scans `scan not completed` for iOS zip\r\n   - Fix for MachO stripped symbols false positive\r\n   - Fix bug in IPA download\r\n   - iOS/Android form validation fix\r\n   - Fix missing exported components\r\n - Enterprise Feature Request\r\n      - String extraction from APK, Source, AAR, JAR, SO.\r\n      - Android strings sections to show source of strings extracted\r\n      - Strings extraction refactor\r\n      - Support for independent `.so` scan\r\n      - Dylib analysis support\r\n      - Dylib string extraction\r\n      - Improved iOS Plist secret extraction\r\n      - Support for Independent `.dylib` scan\r\n      - Symbols view for dylib and so\r\n      - Trackers support for so\r\n      - AAR/JAR obfuscation and debug check\r\n      - Independent Static Library(.a) ELF/MachO Analysis\r\n      - Mac FAT binary only supported on Mac\r\n\r\n\r\n  \r\n     \r\n    \r\n  \r\n\r\n## What's Changed\r\n* Update dynamic_analysis.html by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2218\r\n* Hotfix: Handle Docker <-> ADB connectivity internally by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2219\r\n* update apktool to 2.8.1 by @superpoussin22 in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2220\r\n* update apktool by @superpoussin22 in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2225\r\n* HOTFIX: Dynamic Analyzer Support Alert by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2227\r\n* [HOTFIX] Regex + Rule Update by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2232\r\n* [EFR06] Independent Shared Object (.so) Scan and Improved String search by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2228\r\n* Update macho_analysis.py - SYMBOLS STRIPPED False Negative by @Karmaz95 in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2234\r\n* [EFR-08] Dylib + Symbols + Other Features by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2239\r\n* Fix missing exported components by @Abb4d0n in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2176\r\n* [EFR09] AAR/JAR obfuscation and debug check + Exception Handed strings and symbols extraction by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2240\r\n* [EFR10] Independent Static Library(.a) ELF/MachO Analysis by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2242\r\n* Pip to poetry and Dockerfile update by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2244\r\n* Docker Buildx test by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2247\r\n* [HOTFIX] bs4 malformed xml parsing + xml namespace detection by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2248\r\n* [HOTFIX] Migrate from setup.py to poetry, tox QA by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2249\r\n\r\n## New Contributors\r\n* @Karmaz95 made their first contribution in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2234\r\n* @Abb4d0n made their first contribution in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2176\r\n\r\n**Full Changelog**: https://github.com/MobSF/Mobile-Security-Framework-MobSF/compare/v3.6.9...v3.7.6"
@@ -6508,8 +6508,8 @@
     "https://github.com/arch3rPro/PST-Bucket": {
         "created_at": "2023-04-24 06:49:11",
         "description": "Scoop-Buket for Penetration Suite Toolkit",
-        "commit_date": "2024-01-13 08:28:18",
-        "commit_message": "pixpin: Update to version 1.5.0.0",
+        "commit_date": "2024-01-14 16:30:23",
+        "commit_message": "google-dorks: Update to version 2024-01-14T14.27.32",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -6562,8 +6562,8 @@
     "https://github.com/horsicq/DIE-engine": {
         "created_at": "2014-10-13 15:20:21",
         "description": "DIE engine",
-        "commit_date": "2024-01-13 15:05:32",
-        "commit_message": "Update module: Detect-It-Easy 2024-01-13",
+        "commit_date": "2024-01-14 16:34:36",
+        "commit_message": "Update module: Detect-It-Easy 2024-01-14",
         "release_tag": "3.09",
         "release_date": "2023-12-28 21:22:21",
         "release_message": "Please see the file [CHANGELOG](https://github.com/horsicq/Detect-It-Easy/blob/master/changelog.txt) for a detailed list of changes.\r\n\r\n\r\n| Asset / File | Description / Host OS |\r\n| ----------- | ----------- |\r\n| [die_sourcecode_3.09.tar.gz](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_sourcecode_3.09.tar.gz) | Source code tarball |\r\n| [Detect_It_Easy-3.09-x86_64.AppImage](https://github.com/horsicq/DIE-engine/releases/download/3.09/Detect_It_Easy-3.09-x86_64.AppImage) | Portable version for Linux [How to run](https://github.com/horsicq/Detect-It-Easy/blob/master/docs/RUN.md) |\r\n| [die_3.09_Debian_10_amd64.deb](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_Debian_10_amd64.deb) | Installer for Debian 10 |\r\n| [die_3.09_Debian_11_amd64.deb](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_Debian_11_amd64.deb) | Installer for Debian 11 |\r\n| [die_3.09_Debian_12_amd64.deb](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_Debian_12_amd64.deb) | Installer for Debian 12 |\r\n| [die_3.09_Ubuntu_14.04_amd64.deb](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_Ubuntu_14.04_amd64.deb) | Installer for Ubuntu 14.04 |\r\n| [die_3.09_Ubuntu_16.04_amd64.deb](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_Ubuntu_16.04_amd64.deb) | Installer for Ubuntu 16.04 |\r\n| [die_3.09_Ubuntu_18.04_amd64.deb](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_Ubuntu_18.04_amd64.deb) | Installer for Ubuntu 18.04 |\r\n| [die_3.09_Ubuntu_20.04_amd64.deb](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_Ubuntu_20.04_amd64.deb) | Installer for Ubuntu 20.04 |\r\n| [die_3.09_Ubuntu_22.04_amd64.deb](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_Ubuntu_22.04_amd64.deb) | Installer for Ubuntu 22.04 |\r\n| [die_3.09_Ubuntu_22.10_amd64.deb](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_Ubuntu_22.10_amd64.deb) | Installer for Ubuntu 22.10 |\r\n| [die_3.09_Ubuntu_23.04_amd64.deb](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_Ubuntu_23.04_amd64.deb) | Installer for Ubuntu 23.04 |\r\n| [die_3.09_Ubuntu_23.10_amd64.deb](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_Ubuntu_23.10_amd64.deb) | Installer for Ubuntu 23.10 |\r\n| [die_3.09_Kali_2023.4_amd64](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_Kali_2023.4_amd64) | Installer for Kali 2023.4 |\r\n| [die_3.09_Parrot_5.3_amd64.deb](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_Parrot_5.3_amd64.deb) | Installer for Parrot 5.3 |\r\n| [die_3.09_portable_Ubuntu_20.04_amd64.tar.gz](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_portable_Ubuntu_20.04_amd64.tar.gz) | Portable version for Ubuntu 20.04 |\r\n| [detect-it-easy-3.09-1-x86_64.pkg.tar.zst](https://github.com/horsicq/DIE-engine/releases/download/3.09/detect-it-easy-3.09-1-x86_64.pkg.tar.zst) | Installer for Arch Linux |\r\n| [die_mac_3.09_x86_64.pkg](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_mac_3.09_x86_64.pkg) | Installer for macOS |\r\n| [die_mac_qt6_3.09_arm64.pkg](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_mac_qt6_3.09_arm64.pkg) | Installer for macOS Qt6 M1 processor|\r\n| [die_mac_portable_3.09_x86_64.zip](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_mac_portable_3.09_x86_64.zip) | Portable version for macOS |\r\n| [die_win32_portable_3.09_x86.zip](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_win32_portable_3.09_x86.zip) | Portable version for x86 Win32 (Win7-Win11)|\r\n| [die_win64_portable_3.09_x64.zip](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_win64_portable_3.09_x64.zip) | Portable version for x64 Win64 (Win7-Win11) |\r\n| [die_winxp_portable_3.09_x86.zip](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_winxp_portable_3.09_x86.zip) | Portable version for Windows XP (WinXP-Win11) |\r\n\r\n\r\nExperimental versions - There may be bugs in the GUI\r\n\r\n| Asset / File | Description / Host OS |\r\n| ----------- | ----------- |\r\n| [die_win64_qt6_portable_3.09_x64.zip](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_win64_qt6_portable_3.09_x64.zip) | Portable version for x64 Win64 Qt6 (Win10-Win11)|\r\n"
@@ -6598,8 +6598,8 @@
     "https://github.com/ImageMagick/ImageMagick": {
         "created_at": "2015-05-17 20:07:50",
         "description": "🧙‍♂️ ImageMagick 7",
-        "commit_date": "2024-01-11 16:30:29",
-        "commit_message": "export an exception when functions do not include an enclosing parenthesis (https://github.com/ImageMagick/ImageMagick/discussions/4533)",
+        "commit_date": "2024-01-14 18:27:40",
+        "commit_message": "check maximum number of meta channels",
         "release_tag": "7.1.1-26",
         "release_date": "2024-01-08 19:16:52",
         "release_message": "## What's Changed\n* fix error: 'libraw_data_t' has no member named 'rawparams' by @remicollet in https://github.com/ImageMagick/ImageMagick/pull/6989\n* Make Magick++-config work from non-standard places by @TedLyngmo in https://github.com/ImageMagick/ImageMagick/pull/7008\n\n## New Contributors\n* @TedLyngmo made their first contribution in https://github.com/ImageMagick/ImageMagick/pull/7008\n\n**Full Changelog**: https://github.com/ImageMagick/ImageMagick/compare/7.1.1-25...7.1.1-26"
@@ -7776,8 +7776,8 @@
     "https://github.com/locustio/locust": {
         "created_at": "2011-02-17 11:08:03",
         "description": "Write scalable load tests in plain Python 🚗💨",
-        "commit_date": "2024-01-11 20:21:44",
-        "commit_message": "Remove orphaned dist js file",
+        "commit_date": "2024-01-14 11:40:44",
+        "commit_message": "more doc fixes",
         "release_tag": "2.20.1",
         "release_date": "2024-01-03 11:29:33",
         "release_message": "## What's Changed\r\n* Add charset_normalizer dependency by @KellyP5 in https://github.com/locustio/locust/pull/2506\r\n* Bump Requests to 2.26.0, remove explicit dependency on charset_normalizer by @cyberw in https://github.com/locustio/locust/pull/2518\r\n* run_single_user improvements by @cyberw in https://github.com/locustio/locust/pull/2519\r\n* Support IPv6 for zmq connection between master and worker by @simonwu-sn in https://github.com/locustio/locust/pull/2521\r\n* update docker actions to get rid of node12 deprecation warnings by @mgor in https://github.com/locustio/locust/pull/2524\r\n* Bump vite from 4.4.9 to 4.4.12 in /locust/webui by @dependabot in https://github.com/locustio/locust/pull/2527\r\n* Update Vite to 4.5.1 by @cyberw in https://github.com/locustio/locust/pull/2530\r\n\r\n## New Contributors\r\n* @KellyP5 made their first contribution in https://github.com/locustio/locust/pull/2506\r\n* @simonwu-sn made their first contribution in https://github.com/locustio/locust/pull/2521\r\n* @dependabot made their first contribution in https://github.com/locustio/locust/pull/2527\r\n\r\n**Full Changelog**: https://github.com/locustio/locust/compare/2.20.0...2.20.1"
@@ -8674,8 +8674,8 @@
     "https://github.com/nomi-sec/PoC-in-GitHub": {
         "created_at": "2019-12-08 13:03:54",
         "description": "📡 PoC auto collect from GitHub. ⚠️ Be careful Malware.",
-        "commit_date": "2024-01-14 00:31:16",
-        "commit_message": "Auto Update 2024/01/14 00:31:16",
+        "commit_date": "2024-01-15 00:33:19",
+        "commit_message": "Auto Update 2024/01/15 00:33:19",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -18908,8 +18908,8 @@
     "https://github.com/sajjadium/ctf-archives": {
         "created_at": "2021-06-10 16:53:52",
         "description": " CTF Archives: Collection of CTF Challenges.",
-        "commit_date": "2024-01-08 17:07:29",
-        "commit_message": "Shaastra chals",
+        "commit_date": "2024-01-14 17:25:24",
+        "commit_message": "UofTCTF chals",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -22497,17 +22497,17 @@
     "https://github.com/xaoyaoo/PyWxDump": {
         "created_at": "2023-08-21 14:54:18",
         "description": "获取微信账号信息(昵称/账号/手机/邮箱/数据库密钥/wxid)；PC微信数据库读取、解密脚本；聊天记录查看工具；聊天记录导出为html(包含语音图片)。支持多账户信息获取，支持所有微信版本。",
-        "commit_date": "2024-01-13 10:10:42",
-        "commit_message": "fix",
-        "release_tag": "v2.4.16",
-        "release_date": "2024-01-13 10:14:51",
-        "release_message": "[Auto Release] Update PyWxDump to refs/tags/v2.4.16\n"
+        "commit_date": "2024-01-14 11:33:29",
+        "commit_message": "修复语音无法使用",
+        "release_tag": "v2.4.18",
+        "release_date": "2024-01-14 11:36:28",
+        "release_message": "[Auto Release] Update PyWxDump to refs/tags/v2.4.18\n"
     },
     "https://github.com/Pizz33/Qianji": {
         "created_at": "2023-09-22 09:15:26",
         "description": "千机-红队免杀木马自动生成器  Bypass defender、火绒、360等国内主流杀软 随机加密混淆shellcode快速生成免杀马",
-        "commit_date": "2024-01-11 13:10:49",
-        "commit_message": "Update README.md\n\n停止维护啦哈哈 江湖再见 下棋去了",
+        "commit_date": "2024-01-14 11:41:22",
+        "commit_message": "Update README.md",
         "release_tag": "Qianji_BypassAV-sandbox-20231115",
         "release_date": "2023-11-15 03:36:34",
         "release_message": "`ae0fc48e3f46acc7a25de7911403ac6b`"
@@ -22614,8 +22614,8 @@
     "https://github.com/LC044/WeChatMsg": {
         "created_at": "2023-01-11 05:03:49",
         "description": "提取微信聊天记录，将其导出成HTML、Word、CSV文档永久保存，对聊天记录进行分析生成年度聊天报告",
-        "commit_date": "2024-01-13 17:21:19",
-        "commit_message": "修改HTML默认聊天数据",
+        "commit_date": "2024-01-14 13:03:46",
+        "commit_message": "Merge pull request #311\n\n修复最后一页滑到底点上一页不清空的bug",
         "release_tag": "v1.0.3",
         "release_date": "2024-01-10 13:30:18",
         "release_message": "# 新增功能\r\n* 支持批量导出聊天记录\r\n\r\n![QQ截图20240110211609](https://github.com/LC044/WeChatMsg/assets/95485601/fbb24087-a9d2-4ea4-9753-28b73d5cf9f6)\r\n\r\n* 支持自定义选择导出时间\r\n\r\n![QQ截图20240110212143](https://github.com/LC044/WeChatMsg/assets/95485601/b5f974cc-c22d-4112-af71-bd32de530ef5)\r\n\r\n* exe程序支持显示群聊\r\n\r\n![QQ截图20240110212847](https://github.com/LC044/WeChatMsg/assets/95485601/fc7bbacb-e8a6-4cbf-881c-e6a2e378099a)\r\n\r\n\r\n# 优化\r\n* 加快启动速度\r\n* 修复空格导致的语音消息失效的问题 #281 #289\r\n* 修复没有ContactLabel表导致的无法启动的问题 #274 \r\n* 修复光标显示异常的问题\r\n* 修复exe程序图片显示导致的错误问题\r\n\r\n# 1.1.x更新预告\r\n1. 个人年度报告\r\n    * 年度聊天亲密好友\r\n    * 年度关键词\r\n    * 在线时段\r\n    * 发了几个朋友圈、获得了多少赞\r\n    * 加了多少好友、多少群\r\n    * 发了多少字、多少表情包\r\n    * 打了多少视频电话\r\n    * ······\r\n关注微信公众号参与[需求征集](https://mp.weixin.qq.com/s?__biz=Mzg3NDg5MzM1NA==&mid=2247483773&idx=1&sn=36ba074341047b0fab0ea8398103601a&chksm=cec89838f9bf112eb9f8361718057feec6b184444b73aa0c6cbcec1bd9cb3659579b3370ffbc&token=1405623332&lang=zh_CN#rd)投票，留下你对新功能的期待\r\n![weixin](https://github.com/LC044/WeChatMsg/assets/95485601/d5a20cb5-823c-4278-9019-a5e1fde3aeb3)\r\n\r\n\r\n# 说明\r\n* 官网:[http://memotrace.lc044.love/](http://memotrace.lc044.love/)\r\n* 预览网址:[http://memotrace.lc044.love/demo.html](http://memotrace.lc044.love/demo.html)\r\n* **如果出现闪退问题，请右击使用管理员权限运行**\r\n* **微信务必升级到最新版：3.9.8.15或3.9.8.25**\r\n* **有问题先看[教程](https://blog.lc044.love/post/5)，或者去[issues](https://github.com/LC044/WeChatMsg/issues)搜索相关问题**\r\n* 解决不了可发起issue询问，**附上报错截图和详细错误情况避免无效询问**\r\n* 手机端使用聊天记录迁移功能将聊天数据迁移到电脑上\r\n操作步骤：\r\n  - 安卓： 手机微信->我->设置->聊天->聊天记录迁移与备份->迁移-> 迁移到电脑微信（迁移完成后重启微信[否则](https://github.com/LC044/WeChatMsg/issues/27)）\r\n  - iOS： 手机微信->我->设置->通用->聊天记录迁移与备份->迁移-> 迁移到电脑微信（迁移完成后重启微信[否则](https://github.com/LC044/WeChatMsg/issues/27)）\r\n* 直接替换旧版本即可，不用重新解密（获取最新数据请重启微信之后重新解密）\r\n* 该软件不存在任何收费，请避免上当受骗\r\n* 阿里云盘下载地址：https://www.alipan.com/s/h6fDSP4igcz\r\n* 百度网盘下载地址：https://pan.baidu.com/s/1Bc7Nnnn4yychMPVFDDAsKA?pwd=ez1k 提取码：ez1k\r\n\r\n## What's Changed\r\n* 删掉自己写的protobuf；extrabuf提速 by @STDquantum in https://github.com/LC044/WeChatMsg/pull/270\r\n* 更改部分css；修复语音转文字部分问题 by @STDquantum in https://github.com/LC044/WeChatMsg/pull/272\r\n* 文件名称显示成文件路径了，后面什么都打不开。 by @STDquantum in https://github.com/LC044/WeChatMsg/pull/278\r\n* 修改时间显示问题，处理截断问题 by @STDquantum in https://github.com/LC044/WeChatMsg/pull/279\r\n\r\n\r\n**Full Changelog**: https://github.com/LC044/WeChatMsg/compare/v1.0.2...v1.0.3"
