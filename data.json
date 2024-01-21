@@ -200,8 +200,8 @@
     "https://github.com/ycdxsb/PocOrExp_in_Github": {
         "created_at": "2021-04-13 05:46:16",
         "description": "聚合Github上已有的Poc或者Exp，CVE信息来自CVE官网。Auto Collect Poc Or Exp from Github by CVE ID.",
-        "commit_date": "2024-01-19 23:43:10",
-        "commit_message": "update 2024-01-20 07:43:10",
+        "commit_date": "2024-01-20 23:43:19",
+        "commit_message": "update 2024-01-21 07:43:19",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -380,8 +380,8 @@
     "https://github.com/lal0ne/vulnerability": {
         "created_at": "2022-01-20 02:48:42",
         "description": "收集、整理、修改互联网上公开的漏洞POC",
-        "commit_date": "2024-01-15 05:33:06",
-        "commit_message": "蓝凌EIS智慧协同平台SQL注入",
+        "commit_date": "2024-01-20 09:14:44",
+        "commit_message": "奇安信天擎rptsvr任意文件上传漏洞",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -2248,8 +2248,8 @@
     "https://github.com/epi052/feroxbuster": {
         "created_at": "2020-08-22 15:36:19",
         "description": "A fast, simple, recursive content discovery tool written in Rust.",
-        "commit_date": "2023-11-25 14:51:50",
-        "commit_message": "docs: add Mister7F as a contributor for ideas (#1036)\n\n* docs: update README.md [skip ci]\r\n\r\n* docs: update .all-contributorsrc [skip ci]\r\n\r\n---------\r\n\r\nCo-authored-by: allcontributors[bot] <46447321+allcontributors[bot]@users.noreply.github.com>",
+        "commit_date": "2024-01-20 21:23:47",
+        "commit_message": "docs: add manugramm as a contributor for bug (#1061)\n\n* docs: update README.md [skip ci]\r\n\r\n* docs: update .all-contributorsrc [skip ci]\r\n\r\n---------\r\n\r\nCo-authored-by: allcontributors[bot] <46447321+allcontributors[bot]@users.noreply.github.com>",
         "release_tag": "v2.10.1",
         "release_date": "2023-11-09 02:37:19",
         "release_message": "## What's Changed\r\n* fixed scan menu range issue by @epi052 in https://github.com/epi052/feroxbuster/pull/936\r\n* enable reading extensions from file by @andreademurtas in https://github.com/epi052/feroxbuster/pull/976\r\n* fixed collect backups filtering by @epi052 in https://github.com/epi052/feroxbuster/pull/1016\r\n* added http/2 support by @epi052 in https://github.com/epi052/feroxbuster/pull/1020\r\n* allowed --json in conjunction with --silent by @epi052 in https://github.com/epi052/feroxbuster/pull/1022\r\n\r\n## New Contributors\r\n* @andreademurtas made their first contribution in https://github.com/epi052/feroxbuster/pull/976\r\n\r\n**Full Changelog**: https://github.com/epi052/feroxbuster/compare/v2.10.0...v2.10.1"
@@ -2951,8 +2951,8 @@
     "https://github.com/dbeaver/dbeaver": {
         "created_at": "2015-10-21 08:26:28",
         "description": "Free universal database tool and SQL client",
-        "commit_date": "2024-01-19 18:11:44",
-        "commit_message": "CB-4403. Implement logic for mapping AD roles if they are specified, … (#22388)\n\n* CB-4403. Implement logic for mapping AD roles if they are specified, when import users\r\n\r\n* CB-4403. Added new parameter authRole for user\r\n\r\n* CB-4403. Added new parameter authRole for user\r\n\r\n* CB-4403. Refactor after review, added auto configurable flag\r\n\r\n* CB-4403. Refactor after review\r\n\r\n---------\r\n\r\nCo-authored-by: Aleksei Potsetsuev <wrouds@gmail.com>\r\nCo-authored-by: kseniaguzeeva <112612526+kseniaguzeeva@users.noreply.github.com>",
+        "commit_date": "2024-01-20 16:04:21",
+        "commit_message": "Schema migration logging fix",
         "release_tag": "23.3.2",
         "release_date": "2024-01-07 20:45:56",
         "release_message": "\n                - Metadata editor:\n                    - New database objects wizard was redesigned\n                    - Primary/unique key can be created automatically along with new columns\n                - SQL Editor:\n                    - Outline viewer of SQL queries structure was added\n                    - Execution time format was improved\n                    - Toolbar customization page opening was fixed\n                    - Identifiers coloring was improved\n                    - Autocomplete was fixed for multiline comments\n                - Accessibility: notifications can be read with a screen reader (JAWs, NVDA or Narrator)\n                - ER Diagram: connection errors handling was added\n                - Data Transfer: Iicorrect links in settings were fixed\n                - AI: legacy OpenAI models were removed\n                - General:\n                    - Incorrect links to help articles were fixed\n                    - Redundant items were deleted from the Context menu\n                    - Global network settings preferences page is available again\n                - Databases:\n                    - ClickHouse: leagacy driver configuration was fixed\n                    - Dameng: tablespaces are supported (thanks to @Stkai)\n                    - Google Cloud SQL: redundant options were removed from the context menu\n                    - MySQL: TLS 1.3 support was added\n                    - MySQL and PostgreSQL: local native database clients can be found on macOS and Linux\n                    - Teradata: metadata search was significantly enhanced\n                - Localization:\n                    - Ukrainian localization was added (thanks to @CrazyTapok-bit)\n                    - Italian translation was improved (thanks to @coluzziandrea)\n                    - Portuguese localization was fixed\n            "
@@ -3095,8 +3095,8 @@
     "https://github.com/projectdiscovery/nuclei": {
         "created_at": "2020-04-03 18:47:11",
         "description": "Fast and customizable vulnerability scanner based on simple YAML based DSL.",
-        "commit_date": "2024-01-18 20:32:58",
-        "commit_message": "dev version update",
+        "commit_date": "2024-01-20 20:56:16",
+        "commit_message": "pdcp result chunked upload (#4662)\n\n* chunked pdcp cloud results upload\r\n\r\n* add -sid option to specify scanid\r\n\r\n* fix scan result append endpoint",
         "release_tag": "v3.1.6",
         "release_date": "2024-01-18 19:50:20",
         "release_message": "<!-- Release notes generated using configuration in .github/release.yml at main -->\r\n\r\n## What's Changed\r\n\r\n* **Added `GetServiceTicket` method to the kerberos module** by @5amu in https://github.com/projectdiscovery/nuclei/pull/4422\r\n* **Added `GetKerberoastableUsers` method in ldap module** by @5amu in https://github.com/projectdiscovery/nuclei/pull/4420\r\n* Added support to dump resume files when a runner hangs by @wk8 in https://github.com/projectdiscovery/nuclei/pull/4440\r\n* **Fixed multiple memory leaks + optimizations** by @tarunKoyalwar in https://github.com/projectdiscovery/nuclei/pull/4630\r\n* Fixed timeout issue + added custom timeout support in js protocol by @tarunKoyalwar in https://github.com/projectdiscovery/nuclei/pull/4643\r\n* Fixed variables merge order in code templates by @tarunKoyalwar in https://github.com/projectdiscovery/nuclei/pull/4623\r\n* Fixed issue with dynamic extractors in flow by @tarunKoyalwar in https://github.com/projectdiscovery/nuclei/pull/4625\r\n* Fixed panic in interactsh process interaction ( nil check on compiled operators) by @dogancanbakir in https://github.com/projectdiscovery/nuclei/pull/4511\r\n* Fixed panic error + support offlinehttp in flow templates by @tarunKoyalwar in https://github.com/projectdiscovery/nuclei/pull/4653\r\n\r\n\r\n**Full Changelog**: https://github.com/projectdiscovery/nuclei/compare/v3.1.5...v3.1.6"
@@ -3505,11 +3505,11 @@
     "https://github.com/projectdiscovery/naabu": {
         "created_at": "2020-01-21 10:56:32",
         "description": "A fast port scanner written in go with a focus on reliability and simplicity. Designed to be used in combination with other tools for attack surface discovery in bug bounties and pentests",
-        "commit_date": "2024-01-19 06:29:08",
-        "commit_message": "chore(deps): bump github.com/quic-go/quic-go in /v2 (#921)\n\nBumps [github.com/quic-go/quic-go](https://github.com/quic-go/quic-go) from 0.38.1 to 0.38.2.\r\n- [Release notes](https://github.com/quic-go/quic-go/releases)\r\n- [Changelog](https://github.com/quic-go/quic-go/blob/master/Changelog.md)\r\n- [Commits](https://github.com/quic-go/quic-go/compare/v0.38.1...v0.38.2)\r\n\r\n---\r\nupdated-dependencies:\r\n- dependency-name: github.com/quic-go/quic-go\r\n  dependency-type: indirect\r\n...\r\n\r\nSigned-off-by: dependabot[bot] <support@github.com>\r\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
-        "release_tag": "v2.2.0",
-        "release_date": "2023-11-28 14:08:28",
-        "release_message": "<!-- Release notes generated using configuration in .github/release.yml at main -->\r\n\r\n## What's Changed\r\n### 🎉 New Features\r\n* Added additional probes for host discovery by @Mzack9999 in https://github.com/projectdiscovery/naabu/pull/868\r\n### 🐞 Bugs Fixes\r\n* Fixed build failure on `termux` by @RamanaReddy0M in https://github.com/projectdiscovery/naabu/pull/850\r\n* Fixed build failure on freebsd by @Mzack9999 in https://github.com/projectdiscovery/naabu/pull/856\r\n\r\n\r\n**Full Changelog**: https://github.com/projectdiscovery/naabu/compare/v2.1.9...v2.2.0"
+        "commit_date": "2024-01-20 15:44:07",
+        "commit_message": "Merge branch 'dev'",
+        "release_tag": "v2.2.1",
+        "release_date": "2024-01-20 16:16:48",
+        "release_message": "<!-- Release notes generated using configuration in .github/release.yml at main -->\r\n\r\n## What's Changed\r\n### Other Changes\r\n* Added host discovery in `NewRunner` by @dogancanbakir in https://github.com/projectdiscovery/naabu/pull/899\r\n* Fixed issue with csv output by @dogancanbakir in https://github.com/projectdiscovery/naabu/pull/884\r\n* Updated csv output to split port by @dogancanbakir in https://github.com/projectdiscovery/naabu/pull/913\r\n\r\n\r\n**Full Changelog**: https://github.com/projectdiscovery/naabu/compare/v2.2.0...v2.2.1"
     },
     "https://github.com/Threekiii/Awesome-Exploit": {
         "created_at": "2022-04-22 02:08:08",
@@ -3881,8 +3881,8 @@
     "https://github.com/aquasecurity/kube-bench": {
         "created_at": "2017-06-19 13:27:02",
         "description": "Checks whether Kubernetes is deployed according to security best practices as defined in the CIS Kubernetes Benchmark",
-        "commit_date": "2024-01-12 06:01:55",
-        "commit_message": "build(deps): bump alpine from 3.18.3 to 3.19.0 (#1535)\n\nBumps alpine from 3.18.3 to 3.19.0.\r\n\r\n---\r\nupdated-dependencies:\r\n- dependency-name: alpine\r\n  dependency-type: direct:production\r\n  update-type: version-update:semver-minor\r\n...\r\n\r\nSigned-off-by: dependabot[bot] <support@github.com>\r\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>\r\nCo-authored-by: chenk <hen.keinan@gmail.com>",
+        "commit_date": "2024-01-20 10:22:18",
+        "commit_message": "build(deps): bump github.com/aws/aws-sdk-go-v2 from 1.18.0 to 1.24.1 (#1550)\n\nBumps [github.com/aws/aws-sdk-go-v2](https://github.com/aws/aws-sdk-go-v2) from 1.18.0 to 1.24.1.\r\n- [Release notes](https://github.com/aws/aws-sdk-go-v2/releases)\r\n- [Commits](https://github.com/aws/aws-sdk-go-v2/compare/v1.18.0...v1.24.1)\r\n\r\n---\r\nupdated-dependencies:\r\n- dependency-name: github.com/aws/aws-sdk-go-v2\r\n  dependency-type: direct:production\r\n  update-type: version-update:semver-minor\r\n...\r\n\r\nSigned-off-by: dependabot[bot] <support@github.com>\r\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
         "release_tag": "v0.7.0",
         "release_date": "2023-12-19 07:19:59",
         "release_message": "## Changelog\n* f8fe5ee Add CIS Benchmarks support to Rancher Distributions RKE/RKE2/K3s (#1523)\n* 7a55d5d Issue: The initial command produces \"root:root\" as its output only when the file is present. However, if the file is missing, the command will still run successfully, though the desired output of \"root:root\" won't be obtained. (#1538)\n* 292678a build(deps): bump actions/checkout from 3 to 4 (#1492)\n* 64c0492 build(deps): bump docker/login-action from 2 to 3 (#1500)\n* 1393449 build(deps): bump docker/setup-buildx-action from 2 to 3 (#1497)\n* 2b466ab build(deps): bump docker/setup-qemu-action from 2 to 3 (#1503)\n* 63055a7 build(deps): bump github.com/fatih/color from 1.14.1 to 1.16.0 (#1520)\n* 0918b41 build(deps): bump github.com/golang/glog from 1.0.0 to 1.1.2 (#1489)\n* 875fbc7 build(deps): bump github.com/spf13/cobra from 1.6.1 to 1.8.0 (#1530)\n* dc0580c build(deps): bump golang from 1.21.1 to 1.21.3 (#1507)\n* f353bc4 build(deps): bump golang from 1.21.3 to 1.21.5 (#1534)\n* ade7cef build(deps): bump gorm.io/gorm from 1.25.1 to 1.25.5 (#1516)\n* c3e3c4c chore: remove refs to deprecated io/ioutil (#1504)\n* fac90f7 feat(cis-1.24-microk8s): Add support to CIS-1.24 for microk8s distro (#1510)\n* 0c553cd fix wrong use of flag in test_items found in 4.13 and 4.14 (#1528)\n* 92a18e7 support CIS Kubernetes Benchmark v1.8.0 (#1527)\n\n"
@@ -4277,7 +4277,7 @@
     "https://github.com/aiboboxx/v2rayfree": {
         "created_at": "2021-10-13 11:34:53",
         "description": "v2ray节点、免费节点、免费v2ray节点、最新公益免费v2ray节点订阅地址、免费v2ray节点每日更新、免费ss/v2ray/trojan节点、freefq ",
-        "commit_date": "2024-01-19 12:36:53",
+        "commit_date": "2024-01-20 12:34:28",
         "commit_message": "update",
         "release_tag": "",
         "release_date": "",
@@ -4322,8 +4322,8 @@
     "https://github.com/freefq/free": {
         "created_at": "2020-06-07 02:48:33",
         "description": "翻墙、免费翻墙、免费科学上网、免费节点、免费梯子、免费ss/v2ray/trojan节点、蓝灯、谷歌商店、翻墙梯子",
-        "commit_date": "2024-01-20 00:00:03",
-        "commit_message": "updated_at 01-20 08:00",
+        "commit_date": "2024-01-21 00:00:02",
+        "commit_message": "updated_at 01-21 08:00",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -4628,8 +4628,8 @@
     "https://github.com/baidu/dperf": {
         "created_at": "2021-12-21 08:02:08",
         "description": "dperf is a 100Gbps network load tester.",
-        "commit_date": "2024-01-07 06:19:58",
-        "commit_message": "Merge pull request #399 from pengjianzhang/main\n\nsuggestions for handling init errors",
+        "commit_date": "2024-01-20 10:39:58",
+        "commit_message": "Merge pull request #407 from pengjianzhang/main\n\nfix misspell",
         "release_tag": "v1.6.0",
         "release_date": "2023-10-10 05:33:22",
         "release_message": "## v1.6.0 - 2023-10-10\r\n### Added\r\n\r\n- dperf server returns large payload\r\n\r\n- you can use the default l3 or l3l4 rss algorithm\r\n\r\n### Changed\r\n\r\n- minimun local port range(lport_range) can be set to 1\r\n\r\n- optimization: remove useless sockets outside lport_range\r\n\r\n- move docs to dperf.org\r\n\r\n- adjust jumbo MTU\r\n\r\n### Fixed\r\n\r\n- fix: negative number of udp connections\r\n\r\n- print more information when startup fails\r\n    - not enough ports available\r\n    - error message of server ip numbers\r\n\r\n- spelling errors and expression issues\r\n\r\n    thanks digger-yu, CChuancey, zrmin\r\n\r\n- fix: find port id\r\n\r\n- fix: create new connection after \"duration\" time\r\n\r\n    thanks zrgtester\r\n\r\n- fix: http_host or http_path can only be configured when http is enabled\r\n\r\n- fix: dperf make error on dpdk-18.11\r\n\r\n    thanks amberlipp"
@@ -5004,8 +5004,8 @@
     "https://github.com/rustdesk/rustdesk": {
         "created_at": "2020-09-28 15:36:08",
         "description": "An open-source remote desktop, and alternative to TeamViewer.",
-        "commit_date": "2024-01-19 11:29:04",
-        "commit_message": "send2fa in sciter",
+        "commit_date": "2024-01-20 09:20:08",
+        "commit_message": "Revert \"disable ffmpeg ram codec temporarily\" (#6928)",
         "release_tag": "1.2.3",
         "release_date": "2023-10-13 10:47:12",
         "release_message": " ![image](https://github.com/rustdesk/rustdesk/assets/71636191/83754a64-31b8-47f0-8570-da22207759a9)\r\n\r\n > Winget, FDroid update will come soon.\r\n\r\n x86-64: [Windows](https://github.com/rustdesk/rustdesk/releases/download/1.2.3/rustdesk-1.2.3-x86_64.exe) | [Ubuntu](https://github.com/rustdesk/rustdesk/releases/download/1.2.3/rustdesk-1.2.3-x86_64.deb) | [Mac](https://github.com/rustdesk/rustdesk/releases/download/1.2.3/rustdesk-1.2.3-x86_64.dmg)\r\n AArch64 (ARM64):  [Ubuntu](https://github.com/rustdesk/rustdesk/releases/download/1.2.3/rustdesk-1.2.3-aarch64.deb) | [Android](https://github.com/rustdesk/rustdesk/releases/download/1.2.3/rustdesk-1.2.3-aarch64-signed.apk) | [Mac](https://github.com/rustdesk/rustdesk/releases/download/1.2.3/rustdesk-1.2.3-aarch64.dmg)\r\n\r\n More: [check below please](#)\r\n\r\n <details>\r\n <summary>Changelog</summary>\r\n\r\n- Improve Wayland support, cursor/clipboard/multi-monitors etc, but highly depends on Xwayland, working well on GNOME, bad compatibility on KDE. We will continue working on Wayland\r\n- Add group tab\r\n- Add software update check based on github latest tag\r\n- Some fixes for Kaspersky compliance, https://github.com/rustdesk/rustdesk/discussions/5624, but they requested more\r\n- A lot of fixes since 1.2.2\r\n- We are still working hard on dual-monitors-dual-windows and new hardware codecs, hopefully be in 1.2.4\r\n\r\n </details>"
@@ -6391,8 +6391,8 @@
     "https://github.com/WerWolv/ImHex": {
         "created_at": "2020-11-10 14:27:00",
         "description": "🔍 A Hex Editor for Reverse Engineers, Programmers and people who value their retinas when working at 3 AM.",
-        "commit_date": "2024-01-18 10:11:06",
-        "commit_message": "fix: Segfault when launching ImHex with file arguments (#1501)\n\nd511080814dc78ad39a63f2071003c07ee37673c introduced a regression where\r\nrunning imhex with arguments (i.e. `imhex blob1.bin blob2.bin`) will\r\nsegfault due to a null pointer dereference.\r\n\r\n### Implementation description\r\nThis patch updates `getSubCommands` to follow the same control flow as\r\n`getFeatures`, where if the function returns a null pointer, it will\r\nreturn gracefully rather than crash.",
+        "commit_date": "2024-01-20 20:03:46",
+        "commit_message": "fix: Dropping files onto ImHex opening them twice",
         "release_tag": "v1.32.2",
         "release_date": "2024-01-04 21:28:56",
         "release_message": "## Additions\r\n- **Fixed the M1 build completely**\r\n    - I went out and bought a MacBook Air just for this, I hope you're happy\r\n- **Completely overhauled the external plugin system**\r\n    - ImHex now ships with an SDK and a template that can be used to create plugins\r\n    - When you make Plugins now, they should just work on other people's computers now without weird missing symbols errors\r\n- Num Keys can now be used as arrow, home, end, page up and down keys when numlock is off\r\n- Added very simple HTTP Tool\r\n    - Basically a stripped down version of Postman / a frontend for curl \r\n\r\n## Improvements\r\n- Added prettier progress bar animation for tasks that don't have any progress\r\n- Removed window name from the title bar on macOS\r\n- Moved the documentation search directly into the Help menu\r\n- Enabled antialiasing by default on custom fonts\r\n\r\n## Bug Fixes\r\n- Logs in log view not being filtered correctly\r\n- Update All button in store not working correctly\r\n- Fixed Yara Rules Add button not doing anything\r\n- Custom highlighting didn't apply properly to the ASCII column\r\n- Fixed Ubuntu builds missing commit informations\r\n- Fixed issue where ImHex wouldn't go into low power mode properly\r\n\r\n# Previous Changes\r\n\r\nThis release has been cooking for a very long time and encompasses over 500 commits improving basically every single aspect of ImHex in one way or another. Hope y'all like it ❤️ \r\n\r\n## Additions\r\n- **ImHex is now available for the Web!**\r\n    - It supports basically 99% of all features that the native version does (minus things like process memory, raw disk providers and some other things that browsers just don't have access to)\r\n    - Check it out at https://web.imhex.werwolv.net\r\n    - Support was added entirely by @iTrooz. Massive thanks to him!\r\n- **ImHex now has a native Apple M1 build!**\r\n    - Currently this version is cross compiled from Linux\r\n    - It is unsigned and distributed in a zip file instead of a dmg (You might need to disable SIP to run it)\r\n    - Any PRs improving this are highly welcome!\r\n    - Again huge thanks to @iTrooz for adding this \r\n- **Added a Auto Updater**\r\n    - Currently this supports the Windows MSI version, Ubuntu and macOS dmg version.\r\n- **Added a shortcut manager to the Settings**\r\n- **Added Markdown reports**\r\n    - This system allows you to export things like bookmarks, patterns and data information to a markdown file for easy documentation\r\n- **Greatly improve the Undo/Redo system**\r\n    - This now allows you to undo and redo things like resizes, insertions and removals that previously were irreversible\r\n    - Important to note is, all changes made in ImHex still get applied to the file directly!\r\n- **Added option to specify custom highlighting rules to set the foreground color of bytes according to boolean equations**\r\n- **Added Workspaces**\r\n    - These enhance the old Layout system by allowing you to create multiple workspaces all with their own layouts and freely switch between them\r\n- **Added a minimal layout**\r\n    - Many people just want to have a dirt simple Hex Editor and not all the extra features ImHex offers\r\n    - The minimal layout is meant for them. It hides everything except the hex editor and makes the UI much simpler\r\n- **Added automatic backups**\r\n    - Ever had ImHex crash on you randomly in the middle of work you haven't saved? Well now automatic backups can be enabled in the settings to they are created every N seconds\r\n- **Added a interactive tutorial**\r\n    - There's currently just a simple one to get people started but more will be added in the future\r\n- Merged in old ExtraHashes plugin\r\n    - This adds support for about 20 new hashes such as Adler32, Blake, Tiger and Murmur\r\n- The Process Memory provider can now be used in Linux. Thanks a lot to @trumank \r\n- Added support for locking layouts\r\n- Replaced weird Import -> Base 64 option with a full Base64 provider\r\n    - This provider can transparently decode and re-encode base64 files to view and modify them\r\n- Added support for Fedora 39, removed support for Fedora 37. Thanks to @jonathanspw \r\n- Added support for hiding individual data inspector rows\r\n- Added simple right click context menu to the pattern editor\r\n- Added setting to enable colored pattern row backgrounds\r\n- Added bitwise shift left/right nodes to the data processor\r\n- Added release notes and commits to about page\r\n- Added some fun things :)\r\n- Added simple data access graph to pattern editor when a pattern is being executed\r\n- All the copy-as formatters can now output data directly to a file\r\n- Patterns in the pattern data view can now be filtered by value\r\n   - For example using `myStruct.* > 5` shows all members inside of `myStruct` with a value greater than 5\r\n- Added a TCP Client/Server tester tool\r\n- Added a simple function graphing calculator tool\r\n- Added euclidean algorithms tool\r\n- Added a search bar to open the command palette to the title bar\r\n- Added pretty syntax highlighting to the demangler tool\r\n- Added support for making fonts bold or italic\r\n- Vastly improved the 3D Visualizer to render the model much nicer. Thanks a lot to @paxcut \r\n    - This includes specular lighting, light colors, wireframe mode, a grid and axes arrows\r\n- Added `--hexdump` subcommand to the CLI to get a hexdump of a file\r\n- Added `--demangle` subcommand to the CLI to demangle symbols\r\n- Added setting to enable resource usage widgets in the footer\r\n- Added new unit conversion tool to command pallette\r\n    - It currently supports switching between different number formats as well as byte / bit representations\r\n    - Some valid inputs are `5MiB in hex`, `0x42000 to Mb` or `0xAABBCC in decimal`\r\n- Added support for searching for specific strings in UTF-16 and while ignoring the character case\r\n- Added button to export pattern language sections to a file\r\n\r\n## Improvements\r\n- **Rewrote, restructured and redesigned Settings interface**\r\n- **Updated ImGui to v1.90**\r\n    - We also merged in the new Shadows branch to add pretty shadows to all windows \r\n- **Lots and lots of UI improvements**\r\n    - Replaced many info and error popup modals with toasts\r\n- **Lots and lots of internal rewrites, restructures and refactors**\r\n    - Most of these changes aren't user-facing, however they made many systems much more stable so they won't break as easily anymore in the future\r\n- **Scrolling in the hex editor now works much nicer**\r\n    - A entire 64 bit address space can now be displayed on one virtual page without losing precision\r\n- Drastically improved performance of some background tasks\r\n    - Analyzing data regions and searching through the data will be much faster now\r\n- `Edit -> Jump to` can now jump to big and little endian addresses\r\n- ImHex now supports using integrated GPUs on macOS\r\n- The Raw Disk Provider now lists all physical drives on Windows and displays more friendly disk names now\r\n- Default magic database is now bundled with application instead of being part of the content store\r\n- The ImHex window is now force set to be 100% opaque which should fix issues where the window is partially transparent on some GPUs\r\n- Newly opened windows are now automatically docked instead of floating around\r\n- Improved \"Unsaved Changes\" popup that shows up when closing unsaved providers\r\n- Zeros in the HTML formatted data are now grayed out\r\n- Shift-Backspace now works in the pattern editor\r\n- The color picker tool is much more useful now\r\n    - Added support for outputting colors in many different bit layouts with a specifyable amount of bits\r\n    - Added displaying of the name of the selected color\r\n- Fixed docking two tool windows to each other making both disappear\r\n- Files that are inside of subfolders now display their relative path in the file chooser popup\r\n- Advanced provider settings (when available) are now part of the sidebar\r\n- Hovering over a color in the Theme Manager now flashes that color in yellow in the UI\r\n- CRC32 now uses reflected version by default as that is the standard. Thanks to @qux-bbb \r\n- Many tables now refuse to collapse to zero-height\r\n- Glyphs in the font atlas are now packed more efficiently so GPUs won't reject the texture as often anymore\r\n- Bookmark addresses can now be changed in the UI after creating them\r\n- The hex editor's footer is now collapsible\r\n- More popups can now be closed by pressing Escape\r\n- ImHex now tries to only render frames when it has to, saving more system resources\r\n- Fixed some issues where settings might be reset in rare cases\r\n\r\n## Bug Fixes\r\n- **Fixed issue where no provider was being selected when closing a provider in some cases**\r\n- **Fixed console opening and not disappearing when using the Windows Terminal**\r\n- **Moving windows that overlap with the main window title bar no longer move the main window**\r\n- Popups that are not visible on the screen anymore are now properly reset back to the center\r\n- Hovering over a provider tab always showed information about the current provider\r\n- Fixed a crash when opening invalid files through the CLI\r\n- Fixed achievement triggering every single time a file was opened through the CLI\r\n- Fixed issues where the recursion check in the data processor triggered too early\r\n- Fixed data processor workspaces not always loading correctly from a project file\r\n- Fixed issues where the native scaling of ImHex was way too small\r\n- Fixed modifying bytes sometimes get populated with incorrect values\r\n- Fixed binary pattern search being broken with alignments greater than 1\r\n- Fixed file picker not handling supported extensions correctly\r\n- Fixed crash when using a too large column count in the hex editor\r\n- Fixed issues with unary operators when evaluating mathematical expressions\r\n- Fixed out-of-bounds reads when opening a zero-sized file\r\n- Fixed highlight colors of bookmarks in the hex editor not changing when updating the bookmark's color\r\n- Fixed opening files with non-ASCII file paths from the command line\r\n- Fixed numeric search tool not displaying values in the correct endianess\r\n- Fixed diffing view highlighting not working correctly with a custom base address\r\n\r\n## Pattern Language\r\n- **Ongoing: Big parts of the Pattern Language are currently being rewritten in order to drastically improve usability, speed and reliability**\r\n- **Added support for writing back to the data source**\r\n    - Adding `#pragma allow_edits` and then just assigning to a placed variable will now modify the analyzed data\r\n- **Added support for decompressing data**\r\n- Pattern non-type template parameters are no longer added to the output\r\n- Fixed `std::math::atan2` not being registered correctly\r\n- Fixed a bunch of other issues\r\n\r\n<br/>\r\n\r\n<p align=\"center\">If you like my work, please consider supporting me on GitHub Sponsors, Patreon or PayPal. Thanks a lot!</p>\r\n<p align=\"center\">\r\n<a href=\"https://github.com/sponsors/WerWolv\"><img src=\"https://werwolv.net/assets/github_banner.png\" alt=\"GitHub donate button\" /> </a>\r\n<a href=\"https://www.patreon.com/werwolv\"><img src=\"https://c5.patreon.com/external/logo/become_a_patron_button.png\" alt=\"Patreon donate button\" /> </a>\r\n<a href=\"https://werwolv.net/donate\"><img src=\"https://werwolv.net/assets/paypal_banner.png\" alt=\"PayPal donate button\" /> </a>\r\n</p"
@@ -6508,8 +6508,8 @@
     "https://github.com/arch3rPro/PST-Bucket": {
         "created_at": "2023-04-24 06:49:11",
         "description": "Scoop-Buket for Penetration Suite Toolkit",
-        "commit_date": "2024-01-19 16:34:25",
-        "commit_message": "yakit: Update to version 1.2.9",
+        "commit_date": "2024-01-20 16:31:10",
+        "commit_message": "naabu: Update to version 2.2.1",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -6562,8 +6562,8 @@
     "https://github.com/horsicq/DIE-engine": {
         "created_at": "2014-10-13 15:20:21",
         "description": "DIE engine",
-        "commit_date": "2024-01-19 02:05:10",
-        "commit_message": "Update module: XTranslation 2024-01-19",
+        "commit_date": "2024-01-20 04:24:35",
+        "commit_message": "Update module: Detect-It-Easy 2024-01-20",
         "release_tag": "3.09",
         "release_date": "2023-12-28 21:22:21",
         "release_message": "Please see the file [CHANGELOG](https://github.com/horsicq/Detect-It-Easy/blob/master/changelog.txt) for a detailed list of changes.\r\n\r\n\r\n| Asset / File | Description / Host OS |\r\n| ----------- | ----------- |\r\n| [die_sourcecode_3.09.tar.gz](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_sourcecode_3.09.tar.gz) | Source code tarball |\r\n| [Detect_It_Easy-3.09-x86_64.AppImage](https://github.com/horsicq/DIE-engine/releases/download/3.09/Detect_It_Easy-3.09-x86_64.AppImage) | Portable version for Linux [How to run](https://github.com/horsicq/Detect-It-Easy/blob/master/docs/RUN.md) |\r\n| [die_3.09_Debian_10_amd64.deb](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_Debian_10_amd64.deb) | Installer for Debian 10 |\r\n| [die_3.09_Debian_11_amd64.deb](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_Debian_11_amd64.deb) | Installer for Debian 11 |\r\n| [die_3.09_Debian_12_amd64.deb](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_Debian_12_amd64.deb) | Installer for Debian 12 |\r\n| [die_3.09_Ubuntu_14.04_amd64.deb](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_Ubuntu_14.04_amd64.deb) | Installer for Ubuntu 14.04 |\r\n| [die_3.09_Ubuntu_16.04_amd64.deb](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_Ubuntu_16.04_amd64.deb) | Installer for Ubuntu 16.04 |\r\n| [die_3.09_Ubuntu_18.04_amd64.deb](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_Ubuntu_18.04_amd64.deb) | Installer for Ubuntu 18.04 |\r\n| [die_3.09_Ubuntu_20.04_amd64.deb](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_Ubuntu_20.04_amd64.deb) | Installer for Ubuntu 20.04 |\r\n| [die_3.09_Ubuntu_22.04_amd64.deb](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_Ubuntu_22.04_amd64.deb) | Installer for Ubuntu 22.04 |\r\n| [die_3.09_Ubuntu_22.10_amd64.deb](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_Ubuntu_22.10_amd64.deb) | Installer for Ubuntu 22.10 |\r\n| [die_3.09_Ubuntu_23.04_amd64.deb](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_Ubuntu_23.04_amd64.deb) | Installer for Ubuntu 23.04 |\r\n| [die_3.09_Ubuntu_23.10_amd64.deb](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_Ubuntu_23.10_amd64.deb) | Installer for Ubuntu 23.10 |\r\n| [die_3.09_Kali_2023.4_amd64](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_Kali_2023.4_amd64) | Installer for Kali 2023.4 |\r\n| [die_3.09_Parrot_5.3_amd64.deb](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_Parrot_5.3_amd64.deb) | Installer for Parrot 5.3 |\r\n| [die_3.09_portable_Ubuntu_20.04_amd64.tar.gz](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_portable_Ubuntu_20.04_amd64.tar.gz) | Portable version for Ubuntu 20.04 |\r\n| [detect-it-easy-3.09-1-x86_64.pkg.tar.zst](https://github.com/horsicq/DIE-engine/releases/download/3.09/detect-it-easy-3.09-1-x86_64.pkg.tar.zst) | Installer for Arch Linux |\r\n| [die_mac_3.09_x86_64.pkg](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_mac_3.09_x86_64.pkg) | Installer for macOS |\r\n| [die_mac_qt6_3.09_arm64.pkg](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_mac_qt6_3.09_arm64.pkg) | Installer for macOS Qt6 M1 processor|\r\n| [die_mac_portable_3.09_x86_64.zip](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_mac_portable_3.09_x86_64.zip) | Portable version for macOS |\r\n| [die_win32_portable_3.09_x86.zip](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_win32_portable_3.09_x86.zip) | Portable version for x86 Win32 (Win7-Win11)|\r\n| [die_win64_portable_3.09_x64.zip](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_win64_portable_3.09_x64.zip) | Portable version for x64 Win64 (Win7-Win11) |\r\n| [die_winxp_portable_3.09_x86.zip](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_winxp_portable_3.09_x86.zip) | Portable version for Windows XP (WinXP-Win11) |\r\n\r\n\r\nExperimental versions - There may be bugs in the GUI\r\n\r\n| Asset / File | Description / Host OS |\r\n| ----------- | ----------- |\r\n| [die_win64_qt6_portable_3.09_x64.zip](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_win64_qt6_portable_3.09_x64.zip) | Portable version for x64 Win64 Qt6 (Win10-Win11)|\r\n"
@@ -6598,8 +6598,8 @@
     "https://github.com/ImageMagick/ImageMagick": {
         "created_at": "2015-05-17 20:07:50",
         "description": "🧙‍♂️ ImageMagick 7",
-        "commit_date": "2024-01-19 22:23:23",
-        "commit_message": "fix scaling of {display-p3,pro-photo,adobe-98} colorspace (https://github.com/ImageMagick/ImageMagick/issues/7038)",
+        "commit_date": "2024-01-20 20:41:23",
+        "commit_message": "Corrected patch to fix reading multi spectral images.",
         "release_tag": "7.1.1-26",
         "release_date": "2024-01-08 19:16:52",
         "release_message": "## What's Changed\n* fix error: 'libraw_data_t' has no member named 'rawparams' by @remicollet in https://github.com/ImageMagick/ImageMagick/pull/6989\n* Make Magick++-config work from non-standard places by @TedLyngmo in https://github.com/ImageMagick/ImageMagick/pull/7008\n\n## New Contributors\n* @TedLyngmo made their first contribution in https://github.com/ImageMagick/ImageMagick/pull/7008\n\n**Full Changelog**: https://github.com/ImageMagick/ImageMagick/compare/7.1.1-25...7.1.1-26"
@@ -8674,8 +8674,8 @@
     "https://github.com/nomi-sec/PoC-in-GitHub": {
         "created_at": "2019-12-08 13:03:54",
         "description": "📡 PoC auto collect from GitHub. ⚠️ Be careful Malware.",
-        "commit_date": "2024-01-19 18:42:50",
-        "commit_message": "Auto Update 2024/01/19 18:42:50",
+        "commit_date": "2024-01-21 00:26:08",
+        "commit_message": "Auto Update 2024/01/21 00:26:08",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -15554,8 +15554,8 @@
     "https://github.com/containerd/containerd": {
         "created_at": "2015-11-13 00:27:43",
         "description": "An open and reliable container runtime",
-        "commit_date": "2024-01-19 21:13:41",
-        "commit_message": "Merge pull request #9654 from dmcgowan/prepare-v2.0.0-beta.1\n\nPrepare release notes for v2.0.0-beta.1",
+        "commit_date": "2024-01-20 06:41:55",
+        "commit_message": "Merge pull request #9634 from dmcgowan/add-migration-tests\n\nAdd migration tests",
         "release_tag": "v1.6.27",
         "release_date": "2024-01-12 19:04:35",
         "release_message": "Welcome to the v1.6.27 release of containerd!\n\nThe twenty-seventh patch release for containerd 1.6 contains various fixes and updates.\n\n### Notable Updates\n\n* **Improve `/etc/group` handling when appending groups** ([#9543](https://github.com/containerd/containerd/pull/9543))\n* **Update runc binary to v1.1.11** ([#9597](https://github.com/containerd/containerd/pull/9597))\n* **Remove runc import** ([#9606](https://github.com/containerd/containerd/pull/9606))\n* **Update shim pidfile permissions to 0644** ([#9613](https://github.com/containerd/containerd/pull/9613))\n* **Update Go version to 1.20.13** ([#9625](https://github.com/containerd/containerd/pull/9625))\n\n### Deprecation Warnings\n\n* **Emit deprecation warning for CRIU config usage** ([#9448](https://github.com/containerd/containerd/pull/9448))\n* **Emit deprecation warning for some CRI configs** ([#9447](https://github.com/containerd/containerd/pull/9447))\n* **Emit deprecation warning for `containerd.io/restart.logpath` label usage** ([#9572](https://github.com/containerd/containerd/pull/9572))\n\nSee the changelog for complete list of changes\n\nPlease try out the release binaries and report any issues at\nhttps://github.com/containerd/containerd/issues.\n\n### Contributors\n\n* Samuel Karp\n* Akihiro Suda\n* Derek McGowan\n* Sebastiaan van Stijn\n* Djordje Lukic\n* Jaroslav Jindrak\n* Kay Yan\n* Maksym Pavlenko\n* Phil Estes\n* Wei Fu\n* ruiwen-zhao\n\n### Changes\n<details><summary>26 commits</summary>\n<p>\n\n* [release/1.6] Prepare release notes for v1.6.27 ([#9631](https://github.com/containerd/containerd/pull/9631))\n  * [`d0edecf28`](https://github.com/containerd/containerd/commit/d0edecf28b51b35cfb549e3d18467bd2087fb0e7) Prepare release notes for v1.6.27\n* [release/1.6] update to go1.20.13, test go1.21.6 ([#9625](https://github.com/containerd/containerd/pull/9625))\n  * [`32a515211`](https://github.com/containerd/containerd/commit/32a515211d03771e3a35bf7bcb4b114bf1131ada) update to go1.20.13, test go1.21.6\n* [release/1.6 backport] shim: Create pid-file with 0644 permissions ([#9613](https://github.com/containerd/containerd/pull/9613))\n  * [`37de14d95`](https://github.com/containerd/containerd/commit/37de14d9562db48f9b66f37b10fa3e704455ae25) shim: Create pid-file with 0644 permissions\n* [release/1.6 backport] remove github.com/opencontainers/runc dependency ([#9606](https://github.com/containerd/containerd/pull/9606))\n  * [`3938d63de`](https://github.com/containerd/containerd/commit/3938d63de4737668ccec1f5eaf552c58a5d32057) remove github.com/opencontainers/runc dependency\n* [release/1.6 backport] update runc binary to v1.1.11 ([#9597](https://github.com/containerd/containerd/pull/9597))\n  * [`9a9b11f73`](https://github.com/containerd/containerd/commit/9a9b11f733f778ce6171396d0c95e2b68cca5e21) update runc binary to v1.1.11\n* [release/1.6 backport] go.mod: dario.cat/mergo v1.0.0 ([#9570](https://github.com/containerd/containerd/pull/9570))\n  * [`6cd8e17ab`](https://github.com/containerd/containerd/commit/6cd8e17aba91d9f46f9e1a27b6381744e6cafe48) go.mod: dario.cat/mergo v1.0.0\n  * [`4f8ff5154`](https://github.com/containerd/containerd/commit/4f8ff5154abd2127d148fb11ca54feb6f0fb47af) go.mod: github.com/imdario/mergo v0.3.13\n* [release/1.6] restart: containerd.io/restart.logpath warning ([#9572](https://github.com/containerd/containerd/pull/9572))\n  * [`d24d263a4`](https://github.com/containerd/containerd/commit/d24d263a42f51dca398070be1f8268fd53fe6cc9) restart: containerd.io/restart.logpath warning\n* [release/1.6 backport] WithAppendAdditionalGroups: better /etc/group handling ([#9543](https://github.com/containerd/containerd/pull/9543))\n  * [`9489c0eb0`](https://github.com/containerd/containerd/commit/9489c0eb0e7e51d90a0c2b5b4f5cbe23936d95ca) WithAppendAdditionalGroups: better /etc/group handling\n* [release/1.6] cri: add deprecation warnings for deprecated CRI configs ([#9547](https://github.com/containerd/containerd/pull/9547))\n  * [`713065793`](https://github.com/containerd/containerd/commit/713065793592c0f877c81712a6f310f3d730bf07) deprecation: fix missing spaces in warnings\n  * [`de0cc92a7`](https://github.com/containerd/containerd/commit/de0cc92a793b84118356715503243a2b9664dfa5) cri: add deprecation warning for runtime_root\n  * [`833b94149`](https://github.com/containerd/containerd/commit/833b94149b6fd4faa6d4719ef7926257f5b2b098) cri: add deprecation warning for rutnime_engine\n  * [`47de3d63d`](https://github.com/containerd/containerd/commit/47de3d63df0e5ffa522dfc2b6cb5b2d472879f28) cri: add deprecation warning for default_runtime\n  * [`d421b8fda`](https://github.com/containerd/containerd/commit/d421b8fda9d0d303e1b90a13f378e6fffe7d9187) cri: add warning for untrusted_workload_runtime\n  * [`802cb64b0`](https://github.com/containerd/containerd/commit/802cb64b00aab14d0f2edb45c9b89eef0016dc1c) cri: add warning for old form of systemd_cgroup\n* [release/1.6] Add warning for CRIU config usage ([#9546](https://github.com/containerd/containerd/pull/9546))\n  * [`f8447466c`](https://github.com/containerd/containerd/commit/f8447466ccd8277083fefeb6db91194c4559ed0b) Add warning for CRIU config usage\n</p>\n</details>\n\n### Dependency Changes\n\n* **dario.cat/mergo**           v1.0.0 **_new_**\n* **github.com/moby/sys/user**  v0.1.0 **_new_**\n\nPrevious release can be found at [v1.6.26](https://github.com/containerd/containerd/releases/tag/v1.6.26)\n"
@@ -18200,8 +18200,8 @@
     "https://github.com/extremecoders-re/pyinstxtractor": {
         "created_at": "2020-03-25 11:24:09",
         "description": "PyInstaller Extractor",
-        "commit_date": "2023-12-03 18:19:07",
-        "commit_message": "Mention support for 6.1.0, 6.2.0",
+        "commit_date": "2024-01-20 12:36:02",
+        "commit_message": "Mention support for pyinstaller 6.3.0",
         "release_tag": "2023.12",
         "release_date": "2023-12-03 18:20:26",
         "release_message": "Bump release version"
@@ -18908,8 +18908,8 @@
     "https://github.com/sajjadium/ctf-archives": {
         "created_at": "2021-06-10 16:53:52",
         "description": " CTF Archives: Collection of CTF Challenges.",
-        "commit_date": "2024-01-19 07:02:22",
-        "commit_message": "NewYear chals",
+        "commit_date": "2024-01-21 00:37:41",
+        "commit_message": "KnightCTF chals",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -22497,11 +22497,11 @@
     "https://github.com/xaoyaoo/PyWxDump": {
         "created_at": "2023-08-21 14:54:18",
         "description": "获取微信账号信息(昵称/账号/手机/邮箱/数据库密钥/wxid)；PC微信数据库读取、解密脚本；聊天记录查看工具；聊天记录导出为html(包含语音图片)。支持多账户信息获取，支持所有微信版本。",
-        "commit_date": "2024-01-19 13:27:16",
-        "commit_message": "添加3.9.9.27偏移",
-        "release_tag": "v2.4.22",
-        "release_date": "2024-01-19 13:32:17",
-        "release_message": "[Auto Release] Update PyWxDump to refs/tags/v2.4.22\n"
+        "commit_date": "2024-01-20 14:20:03",
+        "commit_message": "增加部分导出的功能",
+        "release_tag": "v2.4.23",
+        "release_date": "2024-01-20 14:33:15",
+        "release_message": "[Auto Release] Update PyWxDump to refs/tags/v2.4.23\n"
     },
     "https://github.com/Pizz33/Qianji": {
         "created_at": "2023-09-22 09:15:26",
@@ -22578,8 +22578,8 @@
     "https://github.com/GZTimeWalker/GZCTF": {
         "created_at": "2022-03-08 13:01:42",
         "description": "The GZ::CTF project, an open source CTF platform.",
-        "commit_date": "2024-01-06 10:51:22",
-        "commit_message": "feat: use css with console log",
+        "commit_date": "2024-01-20 07:07:07",
+        "commit_message": "chore(deps): update",
         "release_tag": "v0.17.7",
         "release_date": "2023-12-29 20:39:30",
         "release_message": "## [0.17.7](https://github.com/GZTimeWalker/GZCTF/compare/v0.17.6..v0.17.7) - 2023-12-24\r\n\r\n### ⛰️ Features\r\n\r\n- expose Kestrel options in appsettings.json (#174) - ([dfb614](https://github.com/GZTimeWalker/GZCTF/commit/dfb614)) by **Steve**\r\n- always store file to fs - ([3f1132](https://github.com/GZTimeWalker/GZCTF/commit/3f1132)) by **GZTime**\r\n- database sink - ([aba911](https://github.com/GZTimeWalker/GZCTF/commit/aba911)) by **GZTime**\r\n\r\n### 🐛 Bug Fixes\r\n\r\n- avoid logging injection - ([81c1e7](https://github.com/GZTimeWalker/GZCTF/commit/81c1e7)) by **GZTime**\r\n- verify email domain in ChangeEmail as well (#175) - ([93c7be](https://github.com/GZTimeWalker/GZCTF/commit/93c7be)) by **Steve**"
@@ -22614,8 +22614,8 @@
     "https://github.com/LC044/WeChatMsg": {
         "created_at": "2023-01-11 05:03:49",
         "description": "提取微信聊天记录，将其导出成HTML、Word、CSV文档永久保存，对聊天记录进行分析生成年度聊天报告",
-        "commit_date": "2024-01-19 14:07:03",
-        "commit_message": "修复部分浏览器HTML样式失效的问题",
+        "commit_date": "2024-01-20 14:21:40",
+        "commit_message": "年度报告新增分享功能",
         "release_tag": "v1.0.4",
         "release_date": "2024-01-15 12:24:14",
         "release_message": "# 新增功能\r\n* 支持微信3.9.9.27版本\r\n\r\n# 优化\r\n\r\n* 稍微加快docx导出速度\r\n* 由于性能原因暂时移除批量导出docx\r\n* 修复因\\导致的导出失败问题 #308 \r\n* 修复特殊字符导致的docx导出失败问题 #297 \r\n* 修复部分表情包解析失败的问题\r\n* 增加日志显示减少等待焦虑\r\n* 修改HTML导出失败后的显示内容\r\n* 修复批量导出选择联系人后无效的问题\r\n* 修复最后一页滑到底点上一页不清空的bug #311\r\n\r\n# 1.1.x更新预告\r\n\r\n个人年度报告\r\n    * 年度聊天亲密好友\r\n    * 年度关键词\r\n    * 在线时段\r\n    * 发了几个朋友圈、获得了多少赞\r\n    * 加了多少好友、多少群\r\n    * 发了多少字、多少表情包\r\n    * 打了多少视频电话\r\n    * ······\r\n关注微信公众号参与[需求征集](https://mp.weixin.qq.com/s?__biz=Mzg3NDg5MzM1NA==&mid=2247483773&idx=1&sn=36ba074341047b0fab0ea8398103601a&chksm=cec89838f9bf112eb9f8361718057feec6b184444b73aa0c6cbcec1bd9cb3659579b3370ffbc&token=1405623332&lang=zh_CN#rd)投票，留下你对新功能的期待\r\n![weixin](https://github.com/LC044/WeChatMsg/assets/95485601/d5a20cb5-823c-4278-9019-a5e1fde3aeb3)\r\n\r\n\r\n# 说明\r\n* 官网:[http://memotrace.lc044.love/](http://memotrace.lc044.love/)\r\n* 预览网址:[http://memotrace.lc044.love/demo.html](http://memotrace.lc044.love/demo.html)\r\n* **微信务必升级到最新版：3.9.8.25或3.9.9.27**\r\n* **有问题先看[教程](https://blog.lc044.love/post/5)，或者去[issues](https://github.com/LC044/WeChatMsg/issues)搜索相关问题**\r\n* 解决不了可发起issue询问，**附上报错截图和log文件内容避免无效询问**\r\n* 手机端使用聊天记录迁移功能将聊天数据迁移到电脑上\r\n操作步骤：\r\n  - 安卓： 手机微信->我->设置->聊天->聊天记录迁移与备份->迁移-> 迁移到电脑微信（迁移完成后重启微信[否则](https://github.com/LC044/WeChatMsg/issues/27)）\r\n  - iOS： 手机微信->我->设置->通用->聊天记录迁移与备份->迁移-> 迁移到电脑微信（迁移完成后重启微信[否则](https://github.com/LC044/WeChatMsg/issues/27)）\r\n* 直接替换旧版本即可，不用重新解密（获取最新数据请重启微信之后重新解密）\r\n* 该软件不存在任何收费，请避免上当受骗\r\n* 阿里云盘下载地址：https://www.alipan.com/s/h6fDSP4igcz\r\n* 百度网盘下载地址：https://pan.baidu.com/s/1Bc7Nnnn4yychMPVFDDAsKA?pwd=ez1k 提取码：ez1k\r\n\r\n## What's Changed\r\n* 加快docx导出速度、更详细的过程输出 by @zetaloop in https://github.com/LC044/WeChatMsg/pull/296\r\n* 修复emoji大部分会bug掉的bug by @STDquantum in https://github.com/LC044/WeChatMsg/pull/303\r\n* 修复最后一页滑到底点上一页不清空的bug by @STDquantum in https://github.com/LC044/WeChatMsg/pull/311\r\n\r\n## New Contributors\r\n* @zetaloop made their first contribution in https://github.com/LC044/WeChatMsg/pull/296\r\n\r\n**Full Changelog**: https://github.com/LC044/WeChatMsg/compare/v1.0.3...v1.0.4"
@@ -22695,8 +22695,8 @@
     "https://github.com/10cks/fofaEX": {
         "created_at": "2023-12-07 13:46:27",
         "description": "FOFA EX 是一款基于fofa api实现的红队综合利用工具，可基于模板进行插件加载，目前集成了httpX可进行fofa搜索结果一键探活，插件已支持nuclei，可进行一键扫描。集成了 fofa 官方的四十个 api 接口，增加搜索数量调整、翻页、iconHash生成、搜索耗时统计、当前用户个人账户信息查询等功能，查询结果可实施编辑与表内搜索，可进行导出； 增加快捷语法编辑记录功能，可将收录的语法进行保存与快捷输入；右键支持当前搜索结果一键打开链接等功能。",
-        "commit_date": "2024-01-19 06:15:16",
-        "commit_message": "Update plugins.md",
+        "commit_date": "2024-01-20 14:50:07",
+        "commit_message": "Update README.md",
         "release_tag": "3.1",
         "release_date": "2024-01-17 11:47:03",
         "release_message": "# 更新内容\r\n\r\n## 新增\r\n\r\n1. 当前列点击排序功能\r\n2. 导出文件目录可直接打开\r\n\r\n## 修复\r\n\r\n修复若干bug：\r\n1. 修复显示bug\r\n2. 修复右键功能bug\r\n3. 修复内测功能bug\r\n\r\n## 学习交流\r\n\r\n扫描二维码备注“加群”，进入 fofaEX 内测群，可体验更多有趣功能。\r\n\r\n![image](https://github.com/10cks/fofaEX/assets/47177550/5b179ffa-12ce-4fa2-81ef-d6fad1b82c62)\r\n\r\n\r\n"
