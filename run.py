@@ -311,6 +311,7 @@ def main():
             if isinstance(v, list):
                 msg.append("| 项目名称 | 版本 | 项目描述 | 最近提交时间 |")
                 msg.append("| :---- | :---- | :---- | :---- |")
+                v = sorted(v,key=lambda x:data.get(x, {}).get("commit_date",''),reverse=True)
                 for url in v:
                     if url.startswith("https://github.com/"):
                         try:
