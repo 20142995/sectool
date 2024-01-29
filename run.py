@@ -337,7 +337,9 @@ def main():
                         if len(urln) == 3:
                             msg.append("|[{}]({}) | | {} |".format(urln[1],urln[0],urln[2]))
                         else:
-                            msg.append("| | | {} |".format(url))
+                            from urllib.parse import urlparse
+                            
+                            msg.append("| [{}]({}) | |  |".format(urlparse(url).netloc,url))
 
             else:
                 parse_tree(v, path=path + 1)

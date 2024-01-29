@@ -1,4 +1,4 @@
-# 更新于 2024-01-29 20:00:59
+# 更新于 2024-01-29 20:05:31
 
 ## 近15天release更新记录
 | 更新时间 | 项目名称 | 版本 | 更新内容 |
@@ -189,7 +189,7 @@
 ### Pwn
 | 项目名称 | 版本 | 项目描述 | 最近提交时间 |
 | :---- | :---- | :---- | :---- |
-| | |  |
+| []() | |  |
 ### Reverse
 #### Java反编译
 | 项目名称 | 版本 | 项目描述 | 最近提交时间 |
@@ -226,7 +226,7 @@
 | [ctf-tools](https://github.com/ctf-wiki/ctf-tools) |  | CTF 工具集合 | 2022-08-10 11:25:15 |
 | [apachecn-ctf-wiki](https://github.com/apachecn/apachecn-ctf-wiki) |  |  | 2022-04-26 07:03:04 |
 | [ctf_ics_traffic](https://github.com/NewBee119/ctf_ics_traffic) |  | 工控CTF比赛工具，各种网络数据包处<br>理脚本 | 2018-08-09 02:48:04 |
-| | | http://www.ctftools.com/ |
+| [www.ctftools.com](http://www.ctftools.com/) | |  |
 ## 红队
 ### Web安全
 #### 漏洞利用库
@@ -950,9 +950,9 @@
 | [dns2tcp](https://github.com/alex-sector/dns2tcp) | v0.5.2 |  | 2017-11-23 14:59:37 |
 | [reGeorg](https://github.com/sensepost/reGeorg) |  | The successor to reDuh, pwn a bast<br>ion webserver and create SOCKS prox<br>ies through the DMZ. Pivot and pwn. | 2017-02-16 11:39:15 |
 | [ngrok](https://github.com/inconshreveable/ngrok) |  | Introspected tunnels to localhost | 2016-05-31 00:10:41 |
-| | | http://rootkiter.com/Termite/ |
+| [rootkiter.com](http://rootkiter.com/Termite/) | |  |
 | [icmpsh](https://github.com/inquisb/icmpsh) |  |  |  |
-| | | https://www.proxifier.com/ |
+| [www.proxifier.com](https://www.proxifier.com/) | |  |
 #### 内网信息收集
 | 项目名称 | 版本 | 项目描述 | 最近提交时间 |
 | :---- | :---- | :---- | :---- |
@@ -979,7 +979,7 @@
 | [OLa](https://github.com/d3ckx1/OLa) | OLa__20<br>220724 |  | 2022-08-15 06:37:48 |
 | [sharpwmi](https://github.com/QAX-A-Team/sharpwmi) | v2 | sharpwmi是一个基于rpc的横向移动工<br>具，具有上传文件和执行命令功能。 | 2021-01-11 07:10:53 |
 | [VMInjector](https://github.com/hzphreak/VMInjector) |  | DLL Injection tool to unlock guest<br> VMs | 2012-11-14 15:08:04 |
-| | | https://xz.aliyun.com/t/9382 |
+| [xz.aliyun.com](https://xz.aliyun.com/t/9382) | |  |
 #### 内网漏洞发现
 | 项目名称 | 版本 | 项目描述 | 最近提交时间 |
 | :---- | :---- | :---- | :---- |
@@ -1008,7 +1008,7 @@
 | [traitor](https://github.com/liamg/traitor) | v0.0.14 | :arrow_up: :skull_and_crossbones: <br>:fire: Automatic Linux privesc via <br>exploitation of low-hanging fruit e<br>.g. gtfobins, pwnkit, dirty pipe, +<br>w docker.sock | 2023-03-07 22:06:41 |
 | [dirtycow](https://github.com/firefart/dirtycow) |  | Dirty Cow exploit - CVE-2016-5195 | 2021-04-08 11:35:12 |
 | [LinEnum](https://github.com/rebootuser/LinEnum) |  | Scripted Local Linux Enumeration &<br> Privilege Escalation Checks | 2020-01-07 09:20:33 |
-| | | https://i.hacking8.com/tiquan/ |
+| [i.hacking8.com](https://i.hacking8.com/tiquan/) | |  |
 ##### windows提权
 | 项目名称 | 版本 | 项目描述 | 最近提交时间 |
 | :---- | :---- | :---- | :---- |
@@ -1697,8 +1697,8 @@
 | [BackdoorMan](https://github.com/cys3c/BackdoorMan) |  | BackdoorMan is a toolkit that help<br>s you find malicious, hidden and su<br>spicious PHP scripts and shells in <br>a chosen destination. | 2016-12-09 15:41:13 |
 | [Webshell_finder](https://github.com/chiruom/Webshell_finder) |  | 网站木马检测 | 2014-11-12 13:59:25 |
 | [webshell-find-too<br>ls](https://github.com/mornone/webshell-find-tools) |  | 分析web访问日志以及web目录文件属性<br>，用于根据查找可疑后门文件的相关脚本<br>。 | 2013-03-08 16:54:26 |
-| | | http://www.shelldetector.com/ |
-| | | https://www.shellpub.com/ |
+| [www.shelldetector.com](http://www.shelldetector.com/) | |  |
+| [www.shellpub.com](https://www.shellpub.com/) | |  |
 ##### 内存马查杀
 | 项目名称 | 版本 | 项目描述 | 最近提交时间 |
 | :---- | :---- | :---- | :---- |
@@ -1741,7 +1741,7 @@
 | [GScan](https://github.com/grayddq/GScan) |  | 本程序旨在为安全应急响应人员对Linu<br>x主机排查时提供便利，实现主机侧Chec<br>klist的自动全面化检测，根据检测结果<br>自动数据聚合，进行黑客攻击路径溯源。 | 2019-12-30 10:42:24 |
 | [Emergency/blob/ma<br>ster/linux.sh](https://github.com/P4ck/Emergency/blob/master/linux.sh) |  |  |  |
 | [whohk](https://github.com/heikanet/whohk) |  |  |  |
-| | | https://rkhunter.sourceforge.net/ |
+| [rkhunter.sourceforge.net](https://rkhunter.sourceforge.net/) | |  |
 ##### Windows应急工具
 ###### windows日志分析
 | 项目名称 | 版本 | 项目描述 | 最近提交时间 |
@@ -1749,8 +1749,8 @@
 | [APT-Hunter](https://github.com/ahmedkhlief/APT-Hunter) | V3.0 | APT-Hunter is Threat Hunting tool <br>for windows event logs which made b<br>y purple team mindset to provide de<br>tect APT movements hidden in the se<br>a of windows event logs to decrease<br> the t | 2023-05-07 14:26:57 |
 | [WELA](https://github.com/Yamato-Security/WELA) | v1.0.0 | WELA (Windows Event Log Analyzer):<br> The Swiss Army knife for Windows E<br>vent Logs! ゑ羅（ウェラ） | 2023-02-03 23:43:57 |
 | [windodws-logs-ana<br>lysis](https://github.com/dogadmin/windodws-logs-analysis) |  | windows日志一键分析小工具 | 2020-12-02 02:11:58 |
-| | | https://www.microsoft.com/en-us/download/details.aspx?id=24659 |
-| | | https://www.nirsoft.net/utils/full_event_log_view.html |
+| [www.microsoft.com](https://www.microsoft.com/en-us/download/details.aspx?id=24659) | |  |
+| [www.nirsoft.net](https://www.nirsoft.net/utils/full_event_log_view.html) | |  |
 ###### 信息采集
 | 项目名称 | 版本 | 项目描述 | 最近提交时间 |
 | :---- | :---- | :---- | :---- |
@@ -1761,7 +1761,7 @@
 ###### 其他
 | 项目名称 | 版本 | 项目描述 | 最近提交时间 |
 | :---- | :---- | :---- | :---- |
-| | | https://docs.microsoft.com/zh-cn/sysinternals/downloads/ |
+| [docs.microsoft.com](https://docs.microsoft.com/zh-cn/sysinternals/downloads/) | |  |
 ###### 内核小工具
 | 项目名称 | 版本 | 项目描述 | 最近提交时间 |
 | :---- | :---- | :---- | :---- |
@@ -1777,7 +1777,7 @@
 ###### 进程监控
 | 项目名称 | 版本 | 项目描述 | 最近提交时间 |
 | :---- | :---- | :---- | :---- |
-| | | https://processhacker.sourceforge.io/ |
+| [processhacker.sourceforge.io](https://processhacker.sourceforge.io/) | |  |
 ##### 勒索软件
 ###### 解密工具
 | 项目名称 | 版本 | 项目描述 | 最近提交时间 |
@@ -1866,9 +1866,9 @@
 | [hackademic](https://github.com/Hackademic/hackademic) |  | the main hackademic code repositor<br>y | 2017-02-24 16:48:07 |
 | [sqli-labs](https://github.com/Audi-1/sqli-labs) |  | SQLI labs to test error based, Bli<br>nd boolean based, Time based. | 2014-10-31 19:10:23 |
 | [xssed](https://github.com/aj00200/xssed) |  | A set of XSS vulnerable PHP script<br>s for testing | 2013-02-10 02:53:13 |
-| | | https://dvwa.co.uk/ |
-| | | https://hackmyvm.eu/anon/ |
-| | | https://www.pentesterlab.com/exercises/web_for_pentester/course |
+| [dvwa.co.uk](https://dvwa.co.uk/) | |  |
+| [hackmyvm.eu](https://hackmyvm.eu/anon/) | |  |
+| [www.pentesterlab.com](https://www.pentesterlab.com/exercises/web_for_pentester/course) | |  |
 ## 克隆声音
 | 项目名称 | 版本 | 项目描述 | 最近提交时间 |
 | :---- | :---- | :---- | :---- |
