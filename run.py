@@ -324,7 +324,7 @@ def main():
                                         data.get(url, {}).get("release_tag", ""), 8
                                     ),
                                     parse_len(
-                                        data.get(url, {}).get("description", ""), 43
+                                        data.get(url, {}).get("description", ""), 40
                                     ),
                                     parse_len(data.get(url, {}).get("commit_date"), 23),
                                 )
