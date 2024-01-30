@@ -19,7 +19,7 @@ jobs:
           GITHUB_TOKEN: ${{secrets.GH_TOKEN}}
         with:
             # Check all markdown and html files in repo (default)
-            args: --config ./.github/config/lychee.toml README.md
+            args: --config ./.github/config/lychee.toml repos.yaml
             # Use json as output format (instead of markdown)
             format: markdown
             # Use different output file path
