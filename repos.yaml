@@ -55,6 +55,8 @@
         Pwn:
             - ''
         Reverse:
+            IDA插件:
+                - https://github.com/harlamism/IdaClu
             Java反编译:
                 - https://github.com/MountCloud/JavaDecompileTool-GUI
                 - https://github.com/Ppsoft1991/CodeReviewTools
@@ -62,6 +64,8 @@
                 - https://github.com/AngelKitty/stegosaurus
                 - https://github.com/extremecoders-re/pyinstxtractor
                 - https://github.com/rocky/python-uncompyle6
+            安卓逆向:
+                - https://github.com/GrowthEase/GameSentry
             查壳:
                 - https://github.com/horsicq/DIE-engine
         Web:
@@ -77,6 +81,7 @@
             - https://github.com/ProbiusOfficial/CTFtools-wiki
             - https://github.com/ProbiusOfficial/SecToolKit
             - https://github.com/apachecn/apachecn-ctf-wiki
+            - https://github.com/ctf-wiki/ctf-challenges
             - https://github.com/ctf-wiki/ctf-tools
             - https://github.com/ffffffff0x/BerylEnigma
             - https://github.com/kitezzzGrim/CTF-Note
@@ -157,6 +162,8 @@
                         - https://github.com/sie504/Struts-S2-xxx
                         - https://github.com/wh1t3p1g/Struts2Environment
                         - https://github.com/xfiftyone/STS2G
+                    Apache Superset:
+                        - https://github.com/horizon3ai/CVE-2023-27524
                     Apache Tomcat:
                         - https://github.com/IdealDreamLast/CVE-2020-9484
                         - https://github.com/breaktoprotect/CVE-2017-12615
@@ -427,6 +434,7 @@
                     - https://github.com/tongcheng-security-team/NextScan
                     - https://github.com/tr0uble-mAker/POC-bomber
                     - https://github.com/w-digital-scanner/w13scan
+                    - https://github.com/yqcs/prismx
                     - https://github.com/zan8in/afrog
                     - https://github.com/zhzyker/vulmap
                 口令爆破:
@@ -449,6 +457,8 @@
                     - https://github.com/x364e3ab6/Dude
                 漏洞扫描框架:
                     - https://github.com/Guoke324/Godscan
+                    - https://github.com/Janhsu/oday
+                    - https://github.com/Safe3/CVS
                     - https://github.com/Xyntax/POC-T
                     - https://github.com/jweny/pocassist
                     - https://github.com/knownsec/pocsuite3
@@ -550,7 +560,9 @@
                 - https://github.com/projectdiscovery/naabu
                 - https://github.com/redtoolskobe/scaninfo
             综合:
+                - https://github.com/0x7eTeam/0x7eTeamTools
                 - https://github.com/dyboy2017/TScan
+                - https://github.com/qiwentaidi/Slack
                 - https://github.com/rabbitmask/AssetsHunter
                 - https://github.com/zhzyker/dismap
             自动化信息收集:
@@ -615,6 +627,7 @@
                 - https://github.com/sechelper/slcx
                 - https://github.com/sensepost/reGeorg
                 - https://github.com/snail007/goproxy
+                - https://github.com/yisier/nps
                 - https://github.com/zema1/suo5
                 - https://www.proxifier.com/
             内网信息收集:
@@ -745,6 +758,7 @@
             优秀项目集合:
                 - https://github.com/FiveAourThe/RedTeamTools
                 - https://github.com/We5ter/Scanners-Box
+                - https://github.com/djytmdj/Tool_Summary
                 - https://github.com/guchangan1/All-Defense-Tool
                 - https://github.com/knownsec/404StarLink
                 - https://github.com/lintstar/About-Attack
@@ -1022,6 +1036,7 @@
         取证:
             USB取证:
                 键盘流量:
+                    - https://github.com/Mumuzi7179/UsbKeyboard_Mouse_Hacker_Gui
                     - https://github.com/P001water/UsbKbCracker
                     - https://github.com/WangYihang/UsbKeyboardDataHacker
                 鼠标流量:
@@ -1039,6 +1054,10 @@
                     - https://github.com/saucer-man/qq_msg_decode
                 Wifi:
                     - https://github.com/lijiejie/WIFIpass
+                jenkins:
+                    - https://github.com/hoto/jenkins-credentials-decryptor
+                mysql:
+                    - https://github.com/twindb/undrop-for-innodb
                 vmware vcenter:
                     - https://github.com/shmilylty/vhost_password_decrypt
                 vmx加密破解:
@@ -1049,6 +1068,7 @@
                     - https://github.com/bitsadmin/fakelogonscreen
                     - https://github.com/gentilkiwi/mimikatz
                     - https://github.com/hmoytx/RdpThief_tools
+                    - https://github.com/huntergregal/mimipenguin
                     - https://github.com/kerbyj/goLazagne
                 向日葵取证:
                     - https://github.com/wafinfo/Sunflower_get_Password
@@ -1097,6 +1117,9 @@
                     - https://github.com/xillwillx/MobaXterm-Decryptor
                 邮件取证:
                     - https://github.com/b0bac/GetMail
+            操作系统取证:
+                安卓取证:
+                    - https://github.com/nelenkov/android-backup-extractor
             文件取证:
                 压缩包:
                     CRC32碰撞:
@@ -1127,6 +1150,8 @@
                     - https://github.com/ON4QZ/QSSTV
                     - https://github.com/audacity/audacity
                     - https://github.com/ribt/dtmf-decoder
+            相关资源:
+                - https://github.com/XDforensics-wiki/XDforensics-wiki
             网络取证:
                 Shiro流量取证:
                     - https://github.com/r00tuser111/SerializationDumper-Shiro
@@ -1162,8 +1187,11 @@
                 - https://github.com/mushorg/conpot
                 - https://github.com/seccome/Ehoney
                 - https://github.com/wendell1224/ide-honeypot
+            网站监测:
+                - https://github.com/mangenotwork/website-monitor
         安全检查:
             基线:
+                - https://github.com/DeEpinGh0st/WindowsBaselineAssistant
                 - https://github.com/xiaoyunjie/Shell_Script
         应急:
             Web层面:
@@ -1194,6 +1222,7 @@
                     - https://github.com/x0rz/phishing_catcher
             相关资源:
                 - https://github.com/Bypass007/Emergency-Response-Notes
+                - https://github.com/Xuno1/Emergency-response-toolset
             系统层面:
                 DLL劫持:
                     - https://github.com/cyberark/DLLSpy
@@ -1244,6 +1273,7 @@
             - https://github.com/mozillazg/go-pinyin
     Python:
         其他:
+            - https://github.com/TomSchimansky/CustomTkinter
             - https://github.com/jackzhenguo/python-small-examples
             - https://github.com/mozillazg/python-pinyin
     正则:
@@ -1295,6 +1325,8 @@
         - https://www.pentesterlab.com/exercises/web_for_pentester/course
     克隆声音:
         - https://github.com/babysor/MockingBird
+    内网穿透:
+        - https://github.com/LiangXiaoWei1024/net-penetrate-http-and-https-simple
     动态口令:
         - https://github.com/mdp/rotp
     区块链:
@@ -1306,6 +1338,8 @@
         - https://github.com/locustio/locust
     安全思维脑图:
         - https://github.com/Ascotbe/HackerMind
+    定时任务管理平台:
+        - https://github.com/whyour/qinglong
     恶意网络流量模拟:
         - https://github.com/alphasoc/flightsim
     报告模板:
@@ -1319,6 +1353,8 @@
     机器学习:
         - https://github.com/mdbloice/Augmentor
         - https://github.com/sml2h3/dddd_trainer
+    歌声转换:
+        - https://github.com/svc-develop-team/so-vits-svc
     渗透测试报告辅助:
         - https://github.com/0x727/BugRepoter_0x727
         - https://github.com/1u0Hun/SAReport
@@ -1338,6 +1374,9 @@
         - https://github.com/aiboboxx/v2rayfree
         - https://github.com/freefq/free
         - https://github.com/v2rayA/v2rayA
+    签到脚本:
+        - https://github.com/Sitoi/dailycheckin
+        - https://github.com/shufflewzc/faker3
     网站压测工具:
         - https://github.com/EZLippi/WebBench
         - https://github.com/baidu/dperf
@@ -1350,3 +1389,5 @@
         - https://github.com/rustdesk/rustdesk
     验证码生成:
         - https://github.com/fupinglee/Calculate_Captcha
+    验证码识别:
+        - https://github.com/81NewArk/StupidOCR
