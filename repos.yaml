@@ -969,8 +969,8 @@
                         - https://github.com/zilong3033/fastjsonScan
                         - https://github.com/zzzskd/CORSScanner
                     漏洞利用:
+                        - https://github.com/amaz1ngday/fastjson-exp
                         - https://github.com/bigsizeme/shiro-check
-                        - https://github.com/skisw/fastjson-exp
                     漏洞扫描:
                         - https://github.com/A0WaQ4/BurpCRLFScan
                         - https://github.com/BishopFox/GadgetProbe
@@ -1006,7 +1006,6 @@
                     - https://github.com/F3eev/SharkExec
                     - https://github.com/Gality369/CS-Loader
                     - https://github.com/Getshell/CobaltStrike
-                    - https://github.com/H4de5-7/geacon_pro
                     - https://github.com/QAX-A-Team/EventLogMaster
                     - https://github.com/aleenzz/Cobalt_Strike_wiki
                     - https://github.com/its-arun/CVE-2022-39197
@@ -1090,7 +1089,7 @@
                 - https://github.com/TianWen-Lab/TranSec
                 - https://github.com/makoto56/penetration-suite-toolkit
             知识库:
-                - https://github.com/12306Bro/Threathunting-book
+                - https://github.com/0x783kb/Security-operation-book
                 - https://github.com/CYJoe-Cyclone/PenetrationTesttips
                 - https://github.com/FeeiCN/SecurityInterviewGuide
                 - https://github.com/ProbiusOfficial/Pentools-wiki
