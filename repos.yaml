@@ -80,7 +80,6 @@
             - https://github.com/ProbiusOfficial/CTF-QuickStart
             - https://github.com/ProbiusOfficial/CTFtools-wiki
             - https://github.com/ProbiusOfficial/SecToolKit
-            - https://github.com/apachecn/apachecn-ctf-wiki
             - https://github.com/ctf-wiki/ctf-challenges
             - https://github.com/ctf-wiki/ctf-tools
             - https://github.com/ffffffff0x/BerylEnigma
@@ -133,7 +132,9 @@
                         - https://github.com/google/log4jscanner
                         - https://github.com/inbug-team/Log4j_RCE_Tool
                         - https://github.com/jas502n/Log4j2-CVE-2021-44228
+                        - https://github.com/k3rwin/log4j2-intranet-scan
                         - https://github.com/kozmer/log4j-shell-poc
+                        - https://github.com/lijiejie/log4j2_vul_local_scanner
                     Apache Shiro:
                         - https://github.com/Ares-X/shiro-exploit
                         - https://github.com/SummerSec/ShiroAttack2
@@ -187,9 +188,10 @@
                         - https://github.com/bigsizeme/fastjson-check
                         - https://github.com/c0ny1/FastjsonExploit
                         - https://github.com/hosch3n/FastjsonVulns
-                        - https://github.com/iSafeBlue/fastjson-autotype-bypass-dem
+                        - https://github.com/iSafeBlue/fastjson-autotype-bypass-demo
                         - https://github.com/mrknow001/fastjson_rec_exploit
                         - https://github.com/safe6Sec/Fastjson
+                        - https://github.com/smallfox233/JsonExp
                     Grafana:
                         - https://github.com/A-D-Team/grafanaExp
                     Hikvision:
@@ -199,6 +201,8 @@
                     JBoss:
                         - https://github.com/joaomatosf/jexboss
                         - https://github.com/yunxu1/jboss-_CVE-2017-12149
+                    Jenkins:
+                        - https://github.com/TheBeastofwar/JenkinsExploit-GUI
                     Nacos:
                         - https://github.com/HKEcho5213/HKEcho_Nacos
                     SmartBI:
@@ -226,7 +230,6 @@
                     Weblogic:
                         - https://github.com/0xn0ne/weblogicScanner
                         - https://github.com/1337g/CVE-2017-10271
-                        - https://github.com/4ra1n/CVE-2023-21839
                         - https://github.com/Ch1ngg/WebLogicPasswordDecryptorUi
                         - https://github.com/KimJun1010/WeblogicTool
                         - https://github.com/LandGrey/CVE-2018-2894
@@ -303,7 +306,6 @@
                     - https://github.com/Ice3man543/SubOver
                 常规web漏洞:
                     CLRF:
-                        - https://github.com/Nefcore/CRLFsuite
                         - https://github.com/Raghavd3v/CRLFsuite
                     CORS:
                         - https://github.com/chenjj/CORScanner
@@ -413,7 +415,6 @@
                     UEditor:
                         - https://github.com/Tas9er/UEditorGetShell
                 重点CMS利用:
-                    - https://github.com/AngraTeam/wprecon
                     - https://github.com/Dionach/CMSmap
                     - https://github.com/Q2h1Cg/CMS-Exploit-Framework
                     - https://github.com/SecWiki/CMS-Hunter
@@ -456,7 +457,6 @@
                 半自动漏洞扫描:
                     - https://github.com/78778443/QingScan
                     - https://github.com/Bywalks/DarkAngel
-                    - https://github.com/Bywalks/DarkAngel/
                     - https://github.com/StarCrossPortal/QingTing
                     - https://github.com/amcai/myscan
                     - https://github.com/b0bac/ApolloScanner
@@ -479,6 +479,7 @@
                     - https://github.com/awake1t/PortBrute
                     - https://github.com/duyet/bruteforce-database
                     - https://github.com/f0cker/crackq
+                    - https://github.com/gubeihc/blasting
                     - https://github.com/koutto/web-brutator
                     - https://github.com/maaaaz/thc-hydra-windows
                     - https://github.com/openwall/john
@@ -495,7 +496,6 @@
                 漏洞发现:
                     - https://github.com/Lucifer1993/AngelSword
                     - https://github.com/jorhelp/Ingram
-                    - https://github.com/x364e3ab6/Dude
                 漏洞扫描框架:
                     - https://github.com/Guoke324/Godscan
                     - https://github.com/Janhsu/oday
@@ -986,6 +986,7 @@
                         - https://github.com/metaStor/SpringScan
                         - https://github.com/pmiaowu/BurpFastJsonScan
                         - https://github.com/pmiaowu/BurpShiroPassiveScan
+                        - https://github.com/silentsignal/burp-log4shell
                         - https://github.com/silentsignal/burp-text4shell
                     绕过指纹检测:
                         - https://github.com/sleeyax/burp-awesome-tls
@@ -1416,6 +1417,7 @@
                 IP信息:
                     - https://github.com/Hackl0us/GeoIP2-CN
                     - https://github.com/gaoyifan/china-operator-ip
+                    - https://github.com/outmansec/SelfIPAdressQuery
         应急响应中心:
             - http://dhsrc.dhgate.com/
             - http://sec.didichuxing.com/
@@ -1424,7 +1426,6 @@
             - http://security.qianmi.com/
             - http://security.safedog.cn/index.html
             - http://security.wanmei.com/
-            - http://src.credithc.com/
             - https://aq.163.com/
             - https://asrc.alibaba.com/#/
             - https://beisen.butian.net/
