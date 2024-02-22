@@ -200,8 +200,8 @@
     "https://github.com/ycdxsb/PocOrExp_in_Github": {
         "created_at": "2021-04-13 05:46:16",
         "description": "聚合Github上已有的Poc或者Exp，CVE信息来自CVE官网。Auto Collect Poc Or Exp from Github by CVE ID.",
-        "commit_date": "2024-02-20 23:58:02",
-        "commit_message": "update 2024-02-21 07:58:02",
+        "commit_date": "2024-02-21 23:16:02",
+        "commit_message": "update 2024-02-22 07:16:02",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -1906,8 +1906,8 @@
     "https://github.com/hiroi-sora/Umi-OCR": {
         "created_at": "2022-03-28 04:01:46",
         "description": "OCR software, free and offline. 开源、免费的离线OCR软件。支持截屏/批量导入图片，PDF文档识别，排除水印/页眉页脚，扫描/生成二维码。内置多国语言库。",
-        "commit_date": "2024-02-20 15:40:27",
-        "commit_message": "Merge branch 'main' of https://github.com/hiroi-sora/Umi-OCR",
+        "commit_date": "2024-02-21 14:43:11",
+        "commit_message": "快捷按钮：调用本地图片浏览器打开图片 (#335)",
         "release_tag": "release/2.0.2",
         "release_date": "2024-01-15 08:03:39",
         "release_message": "### `v2.0.2` 日常修Bug，小迭代版本。\r\n\r\n- 更新：全局设置可调节 图片文字叠加层`开启/关闭`默认显示状态。 (#264)\r\n- 优化：输出为`txt 单独文件`时，将应用`指定路径`参数。 (#269)\r\n- 优化：`段落合并-多行-代码段` 去除结尾多余换行符。 (#292)\r\n- 优化：渲染器不兼容时，减少渲染层级错误的影响。 (#259)\r\n- 修复：清理图片缓存前进行检查，避免空图错误。 (#279)\r\n- 修复：记录面板中，光标无法移到第1个字符前面。 (#264)\r\n- 修复：系统语言非简体中文时，软件启动异常。 (#274) (#306)\r\n- 修复：csv输出的字符编码兼容性问题。 (#284)\r\n- 修复：`段落合并参数不存在` 的误报。\r\n- 修复：组件`DefaultTips`不生效。\r\n\r\n> 预告：批量文档识别功能（支持PDF、epub、mobi等文件）正在火热开发中，将于下个大版本 v2.1.0 中发布。预计一个月左右推出。\r\n\r\n### 配置文件迁移\r\n\r\nv2.0.x 用户升级时，将旧版软件的`UmiOCR-data/.settings`拷贝到新版相同位置即可。\r\n\r\n### 下载说明\r\n\r\n不同版本仅OCR引擎插件不同，其它功能完全一致。\r\n均支持 win7 x64 及以上的系统，附带多国语言识别库。\r\n\r\n`.7z.exe`为自解压包，可以用压缩软件打开，也可以在没有安装压缩软件的电脑上直接双击解压。\r\n\r\n### Paddle 引擎插件版\r\n\r\n（性能好，速度快，占用率高，适合高配机器。**不兼容奔腾、赛扬、凌动CPU**）\r\n\r\n**重要提示：如果执行OCR时报错`[Error] OCR init fail`，大概率是CPU不兼容Paddle，请换用Rapid版本。**\r\n\r\n**Umi-OCR_Paddle_v2.0.2.7z.exe** （118.5MB）\r\nSHA256: `28875194a3c78d2d88ad7f2cb44a4da4a1976e372b84e7dd5864dddf220eba63`\r\n\r\n### Rapid 引擎插件版\r\n\r\n（速度稍慢，内存占用低，适合低配机器，兼容性好）\r\n\r\n**Umi-OCR_Rapid_v2.0.2.7z.exe** （86.5MB）\r\nSHA256: `fbca7e0f6fa8b560a15548d5a6fe4549a13a428eeee3b2aa68b508a0094c9ea8`"
@@ -2951,8 +2951,8 @@
     "https://github.com/dbeaver/dbeaver": {
         "created_at": "2015-10-21 08:26:28",
         "description": "Free universal database tool and SQL client",
-        "commit_date": "2024-02-20 19:03:46",
-        "commit_message": "unique secret id (#22886)",
+        "commit_date": "2024-02-21 17:05:50",
+        "commit_message": "dbeaver/pro#2455 improve ai instructions (#22874)\n\n* dbeaver/pro#2455 improve ai instructions\r\n\r\n* dbeaver/pro#2455 fine tune instructions",
         "release_tag": "23.3.5",
         "release_date": "2024-02-18 18:00:17",
         "release_message": "\n                - SQL Editor:\n                    - Syntax highlighting was improved\n                    - Highlighting in nested queries and on query editing was fixed\n                    - Scrolling with opened Outline was fixed\n                    - Applying settings to Outline was fixed\n                    - Order by i.* was supported in Outline\n                    - Joined tables presentation in Outline was fixed\n                - AI: Ability to send object descriptions to OpenAI was added\n                - Data Editor:\n                    - Scrolling multiple tab result was improved. You can scroll all result sets using Ctrl\n                    - Fetch next page shortcut was changed to CTRL+ALT+N\n                - ER Diagram: Connections rendering was improved\n                - Data transfer:\n                    - The Proceed button at the last step became more visible\n                    - On conflict expression was added to INSERT statements\n                    - Crash when importing CSV file was fixed\n                    - Extra space before the semicolon in export to SQL was removed\n                - General:\n                    - Close idle connection setting saving was fixed\n                    - Application launch was improved\n                    - Unexpected transaction ending was fixed\n                    - Settings are applied to new connections without a restart\n                    - User credential dialog was fixed\n                    - Issue with the background task of the dashboard update was fixed\n                    - Temporary directory creation was fixed\n                - Security: Added warning when trying to open an encrypted project and risk losing all connection credentials\n                - New driver:\n                    - StarRocks database support was added\n                - Databases:\n                    - MariaDB driver was updated to version 3.3.2\n                    - Oracle:\n                        - Keywords and schemes highlighting was improved\n                        - Default subpartition type was added\n                    - PostgreSQL:\n                        - Creating a new table from the user interface was fixed\n                        - Duplication of procedures was fixed\n                    - Snowflake: VIEW keyword highlighting and validation was improved\n                    - SQL Server:\n                        - Syntax highlighting was fixed\n                    - Sybase:\n                        - Stored procedure creation was added\n                        - Using create view instead of Alter view was fixed\n                        - Import with table mapping was fixed\n                - Localization:\n                    - French translation was updated (thanks to @Jean-BaptisteC)\n                    - Babel version was updated\n            "
@@ -3050,7 +3050,7 @@
     "https://github.com/zan8in/afrog": {
         "created_at": "2022-02-24 06:00:32",
         "description": "A Security Tool for Bug Bounty, Pentest and Red Teaming.",
-        "commit_date": "2024-02-19 06:31:27",
+        "commit_date": "2024-02-21 03:38:02",
         "commit_message": "update pocs",
         "release_tag": "v3.0.0",
         "release_date": "2024-02-18 08:25:33",
@@ -3095,8 +3095,8 @@
     "https://github.com/projectdiscovery/nuclei": {
         "created_at": "2020-04-03 18:47:11",
         "description": "Fast and customizable vulnerability scanner based on simple YAML based DSL.",
-        "commit_date": "2024-02-19 05:52:59",
-        "commit_message": "Merge pull request #4770 from projectdiscovery/dependabot/go_modules/dev/github.com/projectdiscovery/goflags-0.1.40",
+        "commit_date": "2024-02-21 23:18:02",
+        "commit_message": "feat: typo fix (#4785)",
         "release_tag": "v3.1.10",
         "release_date": "2024-02-02 17:06:25",
         "release_message": "<!-- Release notes generated using configuration in .github/release.yml at main -->\r\n\r\n## What's Changed\r\n* **Fixed concurrent map writes in tmplexec package** by @tarunKoyalwar in https://github.com/projectdiscovery/nuclei/pull/4718\r\n* Added more `NetworkConfig` options to the SDK by @denysvitali-niantic in https://github.com/projectdiscovery/nuclei/pull/4719\r\n\r\n## New Contributors\r\n* @denysvitali-niantic made their first contribution in https://github.com/projectdiscovery/nuclei/pull/4719\r\n\r\n**Full Changelog**: https://github.com/projectdiscovery/nuclei/compare/v3.1.9...v3.1.10"
@@ -3469,8 +3469,8 @@
     "https://github.com/yogeshojha/rengine": {
         "created_at": "2020-05-03 12:13:12",
         "description": "reNgine is an automated reconnaissance framework for web applications with a focus on highly configurable streamlined recon process via Engines, recon data correlation and organization, continuous monitoring, backed by a database, and simple yet intuitive User Interface. reNgine makes it easy for penetration testers to gather reconnaissance with minimal configuration and with the help of reNgine's correlation, it just makes recon effortless.",
-        "commit_date": "2024-01-30 07:41:17",
-        "commit_message": "Merge pull request #1180 from yogeshojha/fix-incorrect-version-number\n\nchore: update version number to 2.0.3",
+        "commit_date": "2024-02-21 19:31:10",
+        "commit_message": "Merge pull request #1203 from yarysp/fix-984-whatportis\n\nWhatportis - Replace purge by truncate to prevent port import error",
         "release_tag": "v2.0.3",
         "release_date": "2024-01-25 14:50:19",
         "release_message": "### Bug Fixes \r\n\r\n## What's Changed\r\n* CI: update GitHub action versions by @jxdv in https://github.com/yogeshojha/rengine/pull/1136\r\n* Fixed (subdomain_discovery | ERROR | local variable 'use_amass_config' referenced before assignment) by @Deathpoolxrs in https://github.com/yogeshojha/rengine/pull/1149\r\n* chore: update LICENSE by @jxdv in https://github.com/yogeshojha/rengine/pull/1153\r\n* Fix subdomains list empty in Target by @psyray in https://github.com/yogeshojha/rengine/pull/1166\r\n* Fix top menu text overflow in low resolution by @psyray in https://github.com/yogeshojha/rengine/pull/1167\r\n* Update auto comment workflow due to deprecation warnings by @ErdemOzgen in https://github.com/yogeshojha/rengine/pull/1126\r\n* Change Redirect URL after login to prevent 500 error by @psyray in https://github.com/yogeshojha/rengine/pull/1124\r\n* fix-1030: Add missing slug on target summary link by @psyray in https://github.com/yogeshojha/rengine/pull/1123\r\n\r\n## New Contributors\r\n* @Deathpoolxrs made their first contribution in https://github.com/yogeshojha/rengine/pull/1149\r\n* @ErdemOzgen made their first contribution in https://github.com/yogeshojha/rengine/pull/1126\r\n\r\n**Full Changelog**: https://github.com/yogeshojha/rengine/compare/v2.0.2...v2.0.3"
@@ -3701,10 +3701,10 @@
     "https://github.com/carlospolop/PEASS-ng": {
         "created_at": "2019-01-13 19:58:24",
         "description": "PEASS - Privilege Escalation Awesome Scripts SUITE (with colors)",
-        "commit_date": "2024-01-31 10:37:19",
-        "commit_message": "Merge pull request #411 from wowlolx/master\n\nFixed netsh command for spaces in SSIDs",
-        "release_tag": "20240218-68f9adb3",
-        "release_date": "2024-02-18 04:26:49",
+        "commit_date": "2024-02-21 15:39:57",
+        "commit_message": "fix",
+        "release_tag": "20240221-e5eff12e",
+        "release_date": "2024-02-21 16:21:01",
         "release_message": ""
     },
     "https://github.com/waderwu/attackRmi": {
@@ -3953,8 +3953,8 @@
     "https://github.com/quay/clair": {
         "created_at": "2015-11-13 18:46:16",
         "description": "Vulnerability Static Analysis for Containers",
-        "commit_date": "2024-02-19 22:17:16",
-        "commit_message": "httptransport: change api error handling to panic internally\n\nSigned-off-by: Hank Donnay <hdonnay@redhat.com>",
+        "commit_date": "2024-02-21 20:55:48",
+        "commit_message": "build(deps): bump go.opentelemetry.io/otel/exporters/stdout/stdouttrace\n\nBumps [go.opentelemetry.io/otel/exporters/stdout/stdouttrace](https://github.com/open-telemetry/opentelemetry-go) from 1.22.0 to 1.23.1.\n- [Release notes](https://github.com/open-telemetry/opentelemetry-go/releases)\n- [Changelog](https://github.com/open-telemetry/opentelemetry-go/blob/main/CHANGELOG.md)\n- [Commits](https://github.com/open-telemetry/opentelemetry-go/compare/v1.22.0...v1.23.1)\n\n---\nupdated-dependencies:\n- dependency-name: go.opentelemetry.io/otel/exporters/stdout/stdouttrace\n  dependency-type: direct:production\n  update-type: version-update:semver-minor\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>",
         "release_tag": "v4.7.2",
         "release_date": "2023-10-09 20:27:15",
         "release_message": "<a name=\"unreleased\"></a>\r\n## [Unreleased]\r\n\r\n\r\n<a name=\"v4.7.2\"></a>\r\n## [v4.7.2] - 2023-10-09\r\n### Claircore\r\n- [chore: update claircore to v1.5.19](https://github.com/quay/clair/commit/9a3cde3b16bb0c0e02fb7e128ff86e255ec6112f)\r\n- crda: remove crda support\r\n  <details>\r\n  The CRDA API has been decommissioned and the functionality has been\r\n  superseded by OSV support.\r\n  </details>\r\n- chore: update toolkit to latest version v1.1.1\r\n  <details>\r\n  v1.5.17 (toolkit/v1.1.0) introduced a bug where claircore\r\n  could not handle empty strings when trying to Scan() a value\r\n  into a cpe.WFN. toolkit/v1.1.1 mitigates this bug.\r\n  </details>\r\n\r\n### Clair\r\n- [admin: add pre v4.7.3 admin command to create index](https://github.com/quay/clair/commit/5a825a07191e62f3214700df519202806a39d6c9)\r\n  <details>\r\n  In order to facilitate faster deletes we need to add a migration to\r\n  add an index in v4.7.3. This change adds an admin command to allow\r\n  users to \"manually\" create the index CONCURRENTLY before the migration\r\n  to avoid any down-time. This is something for users with larger\r\n  indexer DBs to consider.\r\n  </details>\r\n\r\n- [contrib: add grafana dashboards for deletion metrics](https://github.com/quay/clair/commit/04f36991e19cfb44423cbb2e96ccfcd786dd85c5)\r\n  <details>\r\n  This has been a part of the API for some time and is starting to be\r\n  used extensively.\r\n  </details>\r\n\r\n- [docs: add dropins to prose documentation](https://github.com/quay/clair/commit/8a2d99f4da70de6bdf14858c6163a2e3b8042782)\r\n  <details>\r\n  This change explains how to use the dropins and updates the local-dev\r\n  config to do so.\r\n  </details>\r\n\r\n[Unreleased]: https://github.com/quay/clair/compare/v4.7.2...HEAD\r\n[v4.7.2]: https://github.com/quay/clair/compare/v4.7.1...v4.7.2\r\n"
@@ -3971,8 +3971,8 @@
     "https://github.com/aquasecurity/trivy": {
         "created_at": "2019-04-11 01:01:07",
         "description": "Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more",
-        "commit_date": "2024-02-20 06:51:43",
-        "commit_message": "fix(java): add only valid libs from `pom.properties` files from `jars` (#6164)",
+        "commit_date": "2024-02-21 16:16:23",
+        "commit_message": "docs: update kbom distribution for scanning (#6019)\n\nSigned-off-by: chenk <hen.keinan@gmail.com>",
         "release_tag": "v0.49.1",
         "release_date": "2024-02-06 12:36:14",
         "release_message": "## Changelog\n* 6ccc0a554 fix: check unescaped `BomRef` when matching `PkgIdentifier` (#6025)\n* 458c5d95e docs: Fix broken link to \"pronunciation\" (#6057)\n* 5c0ff6dad chore(deps): bump actions/upload-artifact from 3 to 4 (#6047)\n* e2bd7f75d chore(deps): bump github.com/spf13/viper from 1.16.0 to 1.18.2 (#6042)\n* f95fbcb67 chore(deps): bump k8s.io/api from 0.29.0 to 0.29.1 (#6043)\n* 7651bf59b ci: reduce `root-reserve-mb` size for `maximize-build-space` (#6064)\n* fc20dfdd8 chore(deps): bump github.com/aws/aws-sdk-go-v2/service/s3 from 1.48.0 to 1.48.1 (#6041)\n* 3bd80e7c2 chore(deps): bump github.com/open-policy-agent/opa from 0.60.0 to 0.61.0 (#6039)\n* 2900a2117 fix: fix cursor usage in Redis Clear function (#6056)\n* 85cb9a763 chore(deps): bump github.com/go-openapi/runtime from 0.26.0 to 0.27.1 (#6037)\n* 4e962c02a fix(nodejs): add local packages support for `pnpm-lock.yaml` files (#6034)\n* aa48a7b86 chore(deps): bump sigstore/cosign-installer from 3.3.0 to 3.4.0 (#6046)\n* 8aabbea2d chore(deps): bump github.com/go-openapi/strfmt from 0.21.7 to 0.22.0 (#6044)\n* ec02a655a chore(deps): bump actions/cache from 3.3.2 to 4.0.0 (#6048)\n* 27d35baa4 test: fix flaky `TestDockerEngine` (#6054)\n* c3a66da9c chore(deps): bump github.com/google/go-containerregistry from 0.17.0 to 0.19.0 (#6040)\n* 2000fe24c chore(deps): bump easimon/maximize-build-space from 9 to 10 (#6049)\n* 2be642154 chore(deps): bump alpine from 3.19.0 to 3.19.1 (#6051)\n* 41c0ef642 chore(deps): bump github.com/moby/buildkit from 0.11.6 to 0.12.5 (#6028)\n\n"
@@ -3980,8 +3980,8 @@
     "https://github.com/anchore/grype": {
         "created_at": "2020-05-26 13:44:38",
         "description": "A vulnerability scanner for container images and filesystems",
-        "commit_date": "2024-02-20 17:02:47",
-        "commit_message": "Added instruction to install with choco (#1716)\n\nSigned-off-by: Robert Roos <robert.soor@gmail.com>",
+        "commit_date": "2024-02-21 18:07:07",
+        "commit_message": "chore: remove unused file internal/file/tar.go and its test (#1724)\n\nSigned-off-by: seiya <20365512+seiyab@users.noreply.github.com>",
         "release_tag": "v0.74.6",
         "release_date": "2024-02-14 22:27:46",
         "release_message": "### Bug Fixes\n\n- ensure version output to stdout [[#1709](https://github.com/anchore/grype/pull/1709) @kzantow]\n- Seeing \"WARN some package(s) are missing CPEs\" but it's not clear why [[#1634](https://github.com/anchore/grype/issues/1634) [#1710](https://github.com/anchore/grype/pull/1710) @willmurphyscode]\n\n**[(Full Changelog)](https://github.com/anchore/grype/compare/v0.74.5...v0.74.6)**\n\n"
@@ -4277,7 +4277,7 @@
     "https://github.com/aiboboxx/v2rayfree": {
         "created_at": "2021-10-13 11:34:53",
         "description": "v2ray节点、免费节点、免费v2ray节点、最新公益免费v2ray节点订阅地址、免费v2ray节点每日更新、免费ss/v2ray/trojan节点、freefq ",
-        "commit_date": "2024-02-20 12:33:24",
+        "commit_date": "2024-02-21 12:33:29",
         "commit_message": "update",
         "release_tag": "",
         "release_date": "",
@@ -5004,11 +5004,11 @@
     "https://github.com/rustdesk/rustdesk": {
         "created_at": "2020-09-28 15:36:08",
         "description": "An open-source remote desktop, and alternative to TeamViewer.",
-        "commit_date": "2024-02-20 13:05:19",
-        "commit_message": "fix windows ci wrong sign directory since update to flutter 3.16.9 (#7209)\n\nSigned-off-by: 21pages <pages21@163.com>",
+        "commit_date": "2024-02-21 14:05:27",
+        "commit_message": "Fix/arboard clipboard context timeout (#7217)\n\n* Fix. Set custom timeout for arboard clipboard\r\n\r\nSigned-off-by: fufesou <shuanglongchen@yeah.net>\r\n\r\n* fix build\r\n\r\nSigned-off-by: fufesou <shuanglongchen@yeah.net>\r\n\r\n* Do not block tokio runtime\r\n\r\nSigned-off-by: fufesou <shuanglongchen@yeah.net>\r\n\r\n---------\r\n\r\nSigned-off-by: fufesou <shuanglongchen@yeah.net>",
         "release_tag": "1.2.3-1",
         "release_date": "2024-02-19 17:17:06",
-        "release_message": " ![image](https://github.com/rustdesk/rustdesk/assets/71636191/83754a64-31b8-47f0-8570-da22207759a9)\r\n\r\n > Winget, FDroid update will come soon.\r\n\r\n x86-64: [Windows](https://github.com/rustdesk/rustdesk/releases/download/1.2.3-1/rustdesk-1.2.3-1-x86_64.exe) | [Ubuntu](https://github.com/rustdesk/rustdesk/releases/download/1.2.3/rustdesk-1.2.3-x86_64.deb) | [Mac](https://github.com/rustdesk/rustdesk/releases/download/1.2.3/rustdesk-1.2.3-x86_64.dmg)\r\n AArch64 (ARM64):  [Ubuntu](https://github.com/rustdesk/rustdesk/releases/download/1.2.3/rustdesk-1.2.3-aarch64.deb) | [Android](https://github.com/rustdesk/rustdesk/releases/download/1.2.3/rustdesk-1.2.3-aarch64-signed.apk) | [Mac](https://github.com/rustdesk/rustdesk/releases/download/1.2.3/rustdesk-1.2.3-aarch64.dmg)\r\n\r\n More: [check below please](#)\r\n\r\n# Changelog\r\n\r\nThis fixes a RustDesk certificate vulnerability reported by [incibe-es](https://www.incibe.es/incibe-cert/alerta-temprana/vulnerabilidades/cve-2024-25140), https://twitter.com/weareDMNTRs/status/1757\r\n\r\n- This impacts x86-64 Windows version only, and this release updates `rustdesk-1.2.3-1-x86_64.exe` only\r\n- You can fix the vulnerability by\r\n  - uninstall RustDesk\r\n  - or upgrade to RustDesk 1.2.3-1\r\n  - or manually remove the test certificate https://github.com/rustdesk/rustdesk/wiki/Remove-RustDesk-test-certificate\r\n\r\n# Alternative way to install virtual display\r\nhttps://github.com/rustdesk/rustdesk/discussions/6444#discussioncomment-8521217\r\n\r\n"
+        "release_message": " ![image](https://github.com/rustdesk/rustdesk/assets/71636191/83754a64-31b8-47f0-8570-da22207759a9)\r\n\r\n > Winget, FDroid update will come soon.\r\n\r\n x86-64: [Windows](https://github.com/rustdesk/rustdesk/releases/download/1.2.3-1/rustdesk-1.2.3-1-x86_64.exe) | [Ubuntu](https://github.com/rustdesk/rustdesk/releases/download/1.2.3/rustdesk-1.2.3-x86_64.deb) | [Mac](https://github.com/rustdesk/rustdesk/releases/download/1.2.3/rustdesk-1.2.3-x86_64.dmg)\r\n AArch64 (ARM64):  [Ubuntu](https://github.com/rustdesk/rustdesk/releases/download/1.2.3/rustdesk-1.2.3-aarch64.deb) | [Android](https://github.com/rustdesk/rustdesk/releases/download/1.2.3/rustdesk-1.2.3-aarch64-signed.apk) | [Mac](https://github.com/rustdesk/rustdesk/releases/download/1.2.3/rustdesk-1.2.3-aarch64.dmg)\r\n\r\n More: [check below please](#)\r\n\r\n# Changelog\r\n\r\nThis fixes a RustDesk certificate vulnerability reported by [incibe-es](https://www.incibe.es/incibe-cert/alerta-temprana/vulnerabilidades/cve-2024-25140), https://twitter.com/weareDMNTRs/status/1757782060767310125\r\n\r\n- This impacts x86-64 Windows version only, and this release updates `rustdesk-1.2.3-1-x86_64.exe` only\r\n- You can fix the vulnerability by\r\n  - uninstall RustDesk\r\n  - or upgrade to RustDesk 1.2.3-1\r\n  - or manually remove the test certificate https://github.com/rustdesk/rustdesk/wiki/Remove-RustDesk-test-certificate\r\n\r\n# Alternative way to install virtual display\r\nhttps://github.com/rustdesk/rustdesk/discussions/6444#discussioncomment-8521217\r\n\r\n"
     },
     "https://github.com/chenjj/CORScanner": {
         "created_at": "2018-05-06 05:57:09",
@@ -5031,8 +5031,8 @@
     "https://github.com/hahwul/dalfox": {
         "created_at": "2020-04-12 07:04:10",
         "description": "🌙🦊 Dalfox is a powerful open-source XSS scanner and utility focused on automation.",
-        "commit_date": "2024-02-15 15:32:28",
-        "commit_message": "Merge pull request #531 from hahwul/dev\n\nDev",
+        "commit_date": "2024-02-21 15:05:09",
+        "commit_message": "chore: update contributors [skip ci]",
         "release_tag": "v2.9.2",
         "release_date": "2024-01-28 15:50:31",
         "release_message": "## Changelog\r\n* eeda86c chore: update contributors [skip ci]\r\n* d7a245b chore: update contributors [skip ci]\r\n* d3a9153 Update logo\r\n* 65ae78d Update image\r\n* aa4b5ef Update docs\r\n* d58add5 Update dependabot.yml\r\n* 587f136 Update README.md\r\n* 16e2b54 Update README.md\r\n* 25dbbc3 Release v2.9.2\r\n* 3fc6a4b Merge pull request #522 from hahwul/dev\r\n* 00afb7f Merge pull request #520 from hahwul/change-logo\r\n* 367bf5c Merge pull request #517 from hahwul/main\r\n* 894b989 Merge pull request #516 from hahwul/add-dependabot.yml\r\n* 4949a34 Merge pull request #514 from hahwul/dependabot/go_modules/golang.org/x/crypto-0.17.0\r\n* cfe4a5d Merge pull request #512 from n00b-bot/dev\r\n* 31b28af Merge pull request #510 from hahwul/dev\r\n* 81a86c3 Fixed GHCR\r\n* ee47de9 Fix duplicate Headers by @n00b-bot \r\n* d3e9445 Bump golang.org/x/crypto from 0.14.0 to 0.17.0\r\n\r\n"
@@ -5148,8 +5148,8 @@
     "https://github.com/FreeRDP/FreeRDP": {
         "created_at": "2011-06-30 19:14:15",
         "description": "FreeRDP is a free remote desktop protocol library and clients",
-        "commit_date": "2024-02-20 15:31:50",
-        "commit_message": "[client,sdl] relax CriticalSection locking\n\nWhen disconnecting the SDL client it is sufficient to no longer process\nSDL events. Locking the CriticalSection during disconnect might lead to\na deadlock.",
+        "commit_date": "2024-02-21 07:48:55",
+        "commit_message": "Fix undeclared identifier ORIENTATION_PREFERENCE_LANDSCAPE_FLIPPED",
         "release_tag": "3.2.0",
         "release_date": "2024-01-19 09:00:52",
         "release_message": " This release mostly addresses issues reported since the last release.\r\n Fixing some usablity and build issues as well as adding API functions\r\n that are needed from external projects\r\n \r\n Noteworthy changes:\r\n * Fix proxy module load check (#9777)\r\n * Improve kerberos error logging (#9771)\r\n * Improve mac client keyboard handling (#9767)\r\n * Add option to run client dynamic channel synchronous (#9764)\r\n * Move huge struct to heap (#9763)\r\n * Improved failure logging of license module (#9759)\r\n * Improve server side gfx logging (#9757)\r\n * Print shadow server help with printf instead of WLog (#9756)\r\n * Fix SDL client timer initialization (#9754)\r\n * Fix server peer message parsing (#9751)\r\n * Enable NEON instructions if __ARM_NEON is defined (#9748)\r\n * Add new proxy config file option TlsSecLevel (#9741)\r\n * Improve android and mac os build scripts (#9735)\r\n * Do not disable wayland support on BSD (#9730)\r\n * Fix issues with assistance file parsing (#9727, #9728)\r\n * Keyboard handling fixes for wayland client (#9725)\r\n * Fix relative pkg-config file paths (#9720)\r\n * Add new transport IO callback GetPublicKey (#9719)\r\n * Fix wayland client scaling (#9715)\r\n \r\n For a complete and detailed change log since the last release run:\r\n git log 3.2.0...3.1.0\r\n"
@@ -5209,8 +5209,8 @@
     "https://github.com/beefproject/beef": {
         "created_at": "2011-11-23 06:53:25",
         "description": "The Browser Exploitation Framework Project",
-        "commit_date": "2024-02-15 05:45:48",
-        "commit_message": "Merge branch 'dependabot/bundler/capybara-3.40.0'",
+        "commit_date": "2024-02-20 13:19:07",
+        "commit_message": "Bump selenium-webdriver from 4.17.0 to 4.18.1\n\nBumps [selenium-webdriver](https://github.com/SeleniumHQ/selenium) from 4.17.0 to 4.18.1.\n- [Release notes](https://github.com/SeleniumHQ/selenium/releases)\n- [Changelog](https://github.com/SeleniumHQ/selenium/blob/trunk/rb/CHANGES)\n- [Commits](https://github.com/SeleniumHQ/selenium/compare/selenium-4.17.0...selenium-4.18.1)\n\n---\nupdated-dependencies:\n- dependency-name: selenium-webdriver\n  dependency-type: direct:development\n  update-type: version-update:semver-minor\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>",
         "release_tag": "v0.5.4.0",
         "release_date": "2021-11-25 23:47:24",
         "release_message": "## Bug Fixes\r\n* #2190 -  Maintainability - Improved CI workflow\r\n* #2185 - Could not minify JavaScript file: web_ui_all\r\n## Enchancements\r\n* #2205 - Modules - Apache Tomcat Examples Default Install Exploit\r\n* #2157 -  Maintainability - Implement GitHub Actions and added confirmation step to PRs\r\n* #2190 -  Maintainability - Improved CI workflow: \r\n  * Refactor Rakefile to accommodate Browserstack implementation\r\n  * Installer improvements\r\n  * Test suite performance improvements\r\n* #2199  - Enhancement - Check for update on launch works with beef-xss kali package install\r\n\r\n**Full Changelog**: https://github.com/beefproject/beef/compare/v0.5.3.0...v0.5.4.0"
@@ -5729,8 +5729,8 @@
     "https://github.com/fatedier/frp": {
         "created_at": "2015-12-21 15:24:59",
         "description": "A fast reverse proxy to help you expose a local server behind a NAT or firewall to the internet.",
-        "commit_date": "2024-02-20 08:11:37",
-        "commit_message": "update kcp-go package (#4009)",
+        "commit_date": "2024-02-21 09:20:40",
+        "commit_message": "update golangci-lint version to 1.56 (#4013)",
         "release_tag": "v0.54.0",
         "release_date": "2024-02-01 06:37:53",
         "release_message": "### Deprecation Notices\n\n* Using an underscore in a flag name is deprecated and has been replaced by a hyphen. The underscore format will remain compatible for some time, until it is completely removed in a future version. For example, `--remote_port` is replaced with `--remote-port`.\n\n### Features\n\n* The `Refresh` and `ClearOfflineProxies` buttons have been added to the Dashboard of frps.\n\n### Fixes\n\n* The host/domain matching in the routing rules has been changed to be case-insensitive.\n\n"
@@ -6508,8 +6508,8 @@
     "https://github.com/arch3rPro/PST-Bucket": {
         "created_at": "2023-04-24 06:49:11",
         "description": "Scoop-Buket for Penetration Suite Toolkit",
-        "commit_date": "2024-02-20 16:29:57",
-        "commit_message": "siyuan: Update to version 3.0.0",
+        "commit_date": "2024-02-21 16:30:14",
+        "commit_message": "winscp-zh: Update to version 6.3.1",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -6562,8 +6562,8 @@
     "https://github.com/horsicq/DIE-engine": {
         "created_at": "2014-10-13 15:20:21",
         "description": "DIE engine",
-        "commit_date": "2024-02-20 17:01:36",
-        "commit_message": "Update module: XMemoryMapWidget 2024-02-20",
+        "commit_date": "2024-02-21 17:25:27",
+        "commit_message": "Update module: XInfoDB 2024-02-21",
         "release_tag": "3.09",
         "release_date": "2023-12-28 21:22:21",
         "release_message": "Please see the file [CHANGELOG](https://github.com/horsicq/Detect-It-Easy/blob/master/changelog.txt) for a detailed list of changes.\r\n\r\n\r\n| Asset / File | Description / Host OS |\r\n| ----------- | ----------- |\r\n| [die_sourcecode_3.09.tar.gz](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_sourcecode_3.09.tar.gz) | Source code tarball |\r\n| [Detect_It_Easy-3.09-x86_64.AppImage](https://github.com/horsicq/DIE-engine/releases/download/3.09/Detect_It_Easy-3.09-x86_64.AppImage) | Portable version for Linux [How to run](https://github.com/horsicq/Detect-It-Easy/blob/master/docs/RUN.md) |\r\n| [die_3.09_Debian_10_amd64.deb](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_Debian_10_amd64.deb) | Installer for Debian 10 |\r\n| [die_3.09_Debian_11_amd64.deb](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_Debian_11_amd64.deb) | Installer for Debian 11 |\r\n| [die_3.09_Debian_12_amd64.deb](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_Debian_12_amd64.deb) | Installer for Debian 12 |\r\n| [die_3.09_Ubuntu_14.04_amd64.deb](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_Ubuntu_14.04_amd64.deb) | Installer for Ubuntu 14.04 |\r\n| [die_3.09_Ubuntu_16.04_amd64.deb](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_Ubuntu_16.04_amd64.deb) | Installer for Ubuntu 16.04 |\r\n| [die_3.09_Ubuntu_18.04_amd64.deb](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_Ubuntu_18.04_amd64.deb) | Installer for Ubuntu 18.04 |\r\n| [die_3.09_Ubuntu_20.04_amd64.deb](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_Ubuntu_20.04_amd64.deb) | Installer for Ubuntu 20.04 |\r\n| [die_3.09_Ubuntu_22.04_amd64.deb](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_Ubuntu_22.04_amd64.deb) | Installer for Ubuntu 22.04 |\r\n| [die_3.09_Ubuntu_22.10_amd64.deb](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_Ubuntu_22.10_amd64.deb) | Installer for Ubuntu 22.10 |\r\n| [die_3.09_Ubuntu_23.04_amd64.deb](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_Ubuntu_23.04_amd64.deb) | Installer for Ubuntu 23.04 |\r\n| [die_3.09_Ubuntu_23.10_amd64.deb](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_Ubuntu_23.10_amd64.deb) | Installer for Ubuntu 23.10 |\r\n| [die_3.09_Kali_2023.4_amd64](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_Kali_2023.4_amd64) | Installer for Kali 2023.4 |\r\n| [die_3.09_Parrot_5.3_amd64.deb](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_Parrot_5.3_amd64.deb) | Installer for Parrot 5.3 |\r\n| [die_3.09_portable_Ubuntu_20.04_amd64.tar.gz](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_portable_Ubuntu_20.04_amd64.tar.gz) | Portable version for Ubuntu 20.04 |\r\n| [detect-it-easy-3.09-1-x86_64.pkg.tar.zst](https://github.com/horsicq/DIE-engine/releases/download/3.09/detect-it-easy-3.09-1-x86_64.pkg.tar.zst) | Installer for Arch Linux |\r\n| [die_mac_3.09_x86_64.pkg](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_mac_3.09_x86_64.pkg) | Installer for macOS |\r\n| [die_mac_qt6_3.09_arm64.pkg](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_mac_qt6_3.09_arm64.pkg) | Installer for macOS Qt6 M1 processor|\r\n| [die_mac_portable_3.09_x86_64.zip](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_mac_portable_3.09_x86_64.zip) | Portable version for macOS |\r\n| [die_win32_portable_3.09_x86.zip](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_win32_portable_3.09_x86.zip) | Portable version for x86 Win32 (Win7-Win11)|\r\n| [die_win64_portable_3.09_x64.zip](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_win64_portable_3.09_x64.zip) | Portable version for x64 Win64 (Win7-Win11) |\r\n| [die_winxp_portable_3.09_x86.zip](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_winxp_portable_3.09_x86.zip) | Portable version for Windows XP (WinXP-Win11) |\r\n\r\n\r\nExperimental versions - There may be bugs in the GUI\r\n\r\n| Asset / File | Description / Host OS |\r\n| ----------- | ----------- |\r\n| [die_win64_qt6_portable_3.09_x64.zip](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_win64_qt6_portable_3.09_x64.zip) | Portable version for x64 Win64 Qt6 (Win10-Win11)|\r\n"
@@ -7839,8 +7839,8 @@
     "https://github.com/yaklang/yakit": {
         "created_at": "2021-10-12 02:15:42",
         "description": "Cyber Security ALL-IN-ONE Platform",
-        "commit_date": "2024-02-05 03:22:18",
-        "commit_message": "Merge pull request #1401 from yaklang/feat/theme/yak\n\nfeat(theme): yak f-string and x-string",
+        "commit_date": "2024-02-21 09:48:54",
+        "commit_message": "Merge pull request #1440 from yaklang/feature/adjust-plugin-score\n\nPlugin rating function updates rating information types",
         "release_tag": "v1.3.0",
         "release_date": "2024-02-02 08:30:12",
         "release_message": ""
@@ -8674,8 +8674,8 @@
     "https://github.com/nomi-sec/PoC-in-GitHub": {
         "created_at": "2019-12-08 13:03:54",
         "description": "📡 PoC auto collect from GitHub. ⚠️ Be careful Malware.",
-        "commit_date": "2024-02-21 00:26:32",
-        "commit_message": "Auto Update 2024/02/21 00:26:32",
+        "commit_date": "2024-02-22 00:26:41",
+        "commit_message": "Auto Update 2024/02/22 00:26:41",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -13000,7 +13000,7 @@
     "https://github.com/rapid7/metasploit-framework": {
         "created_at": "2011-08-30 06:13:20",
         "description": "Metasploit Framework",
-        "commit_date": "2024-02-20 23:56:50",
+        "commit_date": "2024-02-21 17:07:58",
         "commit_message": "automatic module_metadata_base.json update",
         "release_tag": "",
         "release_date": "",
@@ -15554,8 +15554,8 @@
     "https://github.com/containerd/containerd": {
         "created_at": "2015-11-13 00:27:43",
         "description": "An open and reliable container runtime",
-        "commit_date": "2024-02-20 21:56:37",
-        "commit_message": "Merge pull request #9789 from dmcgowan/update-restart-plugin-type\n\nAdd container monitor plugin type for restart",
+        "commit_date": "2024-02-21 21:15:00",
+        "commit_message": "Merge pull request #9795 from catap/prevent-zero-timer\n\nPrevent GC from schedule itself with 0 period.",
         "release_tag": "v1.7.13",
         "release_date": "2024-01-31 20:58:30",
         "release_message": "Welcome to the v1.7.13 release of containerd!\n\nThe thirteenth patch release for containerd 1.7 updates the runc binary\nin the release builds to address CVE-2024-21626\n\n### Notable Updates\n\n* **Update runc binary to v1.1.12** ([GHSA-xr7r-f8xq-vfvv](https://github.com/opencontainers/runc/security/advisories/GHSA-xr7r-f8xq-vfvv))\n* **Update seccomp profile for new syscalls added since Linux 5.16** ([#9693](https://github.com/containerd/containerd/pull/9693))\n\nSee the changelog for complete list of changes\n\nPlease try out the release binaries and report any issues at\nhttps://github.com/containerd/containerd/issues.\n\n### Contributors\n\n* Derek McGowan\n* Akihiro Suda\n* Evan Lezar\n* Paweł Gronowski\n* Phil Estes\n* Wei Fu\n\n### Changes\n<details><summary>9 commits</summary>\n<p>\n\n* Prepare v1.7.13 and update runc to v1.1.12 ([#9724](https://github.com/containerd/containerd/pull/9724))\n  * [`b97e611b9`](https://github.com/containerd/containerd/commit/b97e611b9b931225f2385d5fcc31873577464edd) Prepare release notes for v1.7.13\n  * [`2e7fa14db`](https://github.com/containerd/containerd/commit/2e7fa14db7f4448751280520fef2c628ed07b0eb) Update runc binary to v1.1.12\n* [release/1.7] seccomp: kernel 6.7 ([#9693](https://github.com/containerd/containerd/pull/9693))\n  * [`1bed37871`](https://github.com/containerd/containerd/commit/1bed3787162521aeb179895c29f7cc6a6bcd8013) seccomp: kernel 6.7\n* [release/1.7] Update container-device-interface to v0.6.2 ([#9685](https://github.com/containerd/containerd/pull/9685))\n  * [`14628d4aa`](https://github.com/containerd/containerd/commit/14628d4aaa1138f2fd10f23d26f3810ba5d65ab2) Update container-device-interface to v0.6.2\n* [release/1.7] content: Add InfoReaderProvider ([#9658](https://github.com/containerd/containerd/pull/9658))\n  * [`836477930`](https://github.com/containerd/containerd/commit/836477930ed9e6a81980b5bd2150f638cb39adf6) content: Add InfoReaderProvider\n</p>\n</details>\n\n### Dependency Changes\n\n* **tags.cncf.io/container-device-interface**           v0.6.2 **_new_**\n* **tags.cncf.io/container-device-interface/specs-go**  v0.6.0 **_new_**\n\nPrevious release can be found at [v1.7.12](https://github.com/containerd/containerd/releases/tag/v1.7.12)\n"
@@ -19419,8 +19419,8 @@
         "release_tag": "v3.10.3",
         "release_date": "2024-01-25 04:06:01",
         "release_message": "# 一、安装和升级\r\n\r\n## 1.1 在线方式 ✈️\r\n\r\n仅需两步快速安装 JumpServer：\r\n\r\n1. 准备一台 4核8G （最低）且可以访问互联网的 64 位 Linux 主机；\r\n2. 以 root 用户执行如下命令一键安装 JumpServer。\r\n\r\n国内用户\r\n``` sh\r\ncurl -sSL https://resource.fit2cloud.com/jumpserver/jumpserver/releases/latest/download/quick_start.sh | bash\r\n```\r\n\r\n海外用户\r\n``` sh\r\ncurl -sSL https://github.com/jumpserver/jumpserver/releases/latest/download/quick_start.sh | bash\r\n```\r\n\r\n## 1.2 离线方式 🚢 \r\n\r\n[离线安装包下载地址](https://community.fit2cloud.com/#/download/jumpserver/v3-10-3)\r\n\r\n详细安装和升级文档请参考：[完整文档](https://docs.jumpserver.org/zh/v3/) \r\n\r\n\r\n# 二、更新日志\r\n\r\n## 2.1 问题修复 🐛\r\n\r\n- fix: 修复 Redis 密码包含特殊字符时 jms_celery 容器启动失败的问题\r\n- fix: 修复资产授权列表用户、用户组等资源数量计算不准确的问题\r\n- fix: 修复 Web CLI 连接 MySQL 数据库时无法输入中文的问题\r\n- fix: 修复校验未活跃用户任务执行报错的问题",
-        "commit_date": "2024-02-20 10:42:11",
-        "commit_message": "perf: 账号收集添加资产名称模糊搜索 (#12673)\n\nCo-authored-by: feng <1304903146@qq.com>"
+        "commit_date": "2024-02-21 09:51:06",
+        "commit_message": "perf: 关闭页面等待ws的最大重连时间改为6秒 (#12677)\n\nCo-authored-by: feng <1304903146@qq.com>"
     },
     "https://github.com/random-robbie/cve-2020-0688": {
         "created_at": "2020-02-25 23:44:16",
@@ -20918,8 +20918,8 @@
         "release_tag": "1.6.2",
         "release_date": "2022-09-03 18:37:29",
         "release_message": "### [1.6.2] - 2022-9-4\r\n\r\n**兼容性**\r\n* 支持 CentOS 9 Stream\r\n* 支持 Fedora 36\r\n\r\n**功能添加**\r\n* -k 选项添加 iprange/dnsx/MoreFind\r\n* 添加 -wpscan 选项\r\n* 添加 -cs45 选项\r\n* 添加 -interactsh 选项\r\n* 添加 -merlin 选项\r\n* 添加 -msf 选项\r\n* 添加 -pupy 选项\r\n* 添加 -rg 选项\r\n* 添加 -sliver 选项\r\n* 添加 -sliver-client 选项\r\n* 添加 -sps 选项\r\n* 添加 -TerraformGoat 选项\r\n* 添加 -TerraformGoat 选项\r\n* 添加 -upgrade 选项\r\n\r\n**功能修改与优化**\r\n* 优化对docker环境的判断\r\n* 添加了对ruby的检测\r\n* 优化了对keytool工具的判断",
-        "commit_date": "2024-02-20 02:38:14",
-        "commit_message": "update(2024/02/20)"
+        "commit_date": "2024-02-21 03:07:45",
+        "commit_message": "support Ubuntu2310/Fedora39(2024/02/21)"
     },
     "https://github.com/KrE80r/webmin_cve-2019-12840_poc": {
         "created_at": "2019-11-09 17:48:39",
@@ -22075,11 +22075,11 @@
     "https://github.com/apache/logging-log4j2": {
         "created_at": "2013-06-12 07:00:19",
         "description": "Apache Log4j 2 is a versatile, feature-rich, efficient logging API and backend for Java.",
-        "release_tag": "rel/3.0.0-beta1",
-        "release_date": "2023-12-22 20:20:44",
-        "release_message": "This is the first beta release of the upcoming major release, i.e., `3.0.0`.\r\n\r\n### Added\r\n\r\n* Add annotations for nullability. (LOG4J2-1477)\r\n* Remove deprecated code. (LOG4J2-2493)\r\n* Add a more generalized dependency injection system to plugins inspired by JSR 330. (LOG4J2-2803)\r\n* Add and enhance structured properties for per-context settings outside configuration files. (LOG4J2-3299[LOG4J2-3299], #1473)\r\n* Automate artifact publishing and release preparation. (LOG4J2-3466)\r\n* Add support for dependency injection of plugins into container types such as `Optional<T>`, `Collection<T>`, `Set<T>`, `Stream<T>`, `List<T>`, and `Map<String, T>`. (LOG4J2-3496)\r\n* Add support for `ConstraintValidator` in plugin classes. (LOG4J2-3497)\r\n\r\n### Changed\r\n\r\n* Remove liquibase-log4j2 maven module (#1193)\r\n* Make the output of annotation processing reproducible. (#1520)\r\n* Replace `synchronized` blocks with locks for improved performance with virtual threads. (#1532)\r\n* Removes additional `isFiltered` checks in `AsyncLoggerConfig`. (#1550)\r\n* Ignore exceptions thrown by PropertySources. Eliminate ClassCastException when SimpleLoggerContext is used. (spring-projects/spring-boot#33450, #1799)\r\n* Update `com.lmax:disruptor` to version `4.0.0` (#1829)\r\n* Migrate most tests to JUnit 5. This includes a more powerful set of test extensions. (LOG4J2-2653)\r\n* Make Log4j use its own BOM. (LOG4J2-3511)\r\n* Change encoding of HTTP Basic Authentication to UTF-8. (#1970)\r\n* Upgraded the required compiler version to Java 17\r\n* Upgraded the required runtime version to Java 17\r\n* Update `actions/checkout` to version `4.1.1` (#1869)\r\n* Update `actions/setup-java` to version `3.13.0` (#1809)\r\n* Update `actions/setup-python` to version `4.7.1` (#1831)\r\n* Update `ch.qos.logback:logback-classic` to version `1.4.14` (#2028)\r\n* Update `com.datastax.cassandra:cassandra-driver-core` to version `3.11.5` (#1889)\r\n* Update `com.fasterxml.jackson:jackson-bom` to version `2.16.0` (#1974)\r\n* Update `com.github.luben:zstd-jni` to version `1.5.5-11` (#2032)\r\n* Update `com.github.spotbugs:spotbugs-maven-plugin` to version `4.7.3.6` (#1879)\r\n* Update `com.github.tomakehurst:wiremock-jre8` to version `2.35.1` (#1765)\r\n* Update `com.google.code.java-allocation-instrumenter:java-allocation-instrumenter` to version `3.3.4` (#2102)\r\n* Update `com.google.errorprone:error_prone_core` to version `2.23.0` (#1871)\r\n* Update `com.google.guava:guava-testlib` to version `32.1.3-jre` (#1934)\r\n* Update `com.h2database:h2` to version `2.2.224` (#1917)\r\n* Update `commons-codec:commons-codec` to version `1.16.0` (#2054)\r\n* Update `commons-io:commons-io` to version `2.15.1` (#2035)\r\n* Update `commons-logging:commons-logging` to version `1.3.0` (#2046)\r\n* Update `de.flapdoodle.reverse:de.flapdoodle.reverse` to version `1.7.2` (#2000)\r\n* Update `io.netty:netty-bom` to version `4.1.104.Final` (#2097)\r\n* Update `net.java.dev.jna:jna` to version `5.14.0` (#2082)\r\n* Update `org.apache.aries.spifly:org.apache.aries.spifly.dynamic.bundle` to version `1.3.7` (#2053)\r\n* Update `org.apache.commons:commons-compress` to version `1.25.0` (#2055)\r\n* Update `org.apache.commons:commons-csv` to version `1.10.0` (#2041)\r\n* Update `org.apache.commons:commons-dbcp2` to version `2.11.0` (#2044)\r\n* Update `org.apache.commons:commons-lang3` to version `3.14.0` (#2036)\r\n* Update `org.apache.commons:commons-pool2` to version `2.12.0` (#2038)\r\n* Update `org.apache.groovy:groovy-bom` to version `4.0.16` (#2039)\r\n* Update `org.apache.maven:maven-core` to version `3.9.6` (#2049)\r\n* Update `org.apache.maven.surefire:surefire-junit47` to version `3.2.3` (#2091)\r\n* Update `org.apache.tomcat:tomcat-juli` to version `10.1.17` (#2086)\r\n* Update `org.codehaus.plexus:plexus-utils` to version `3.5.1` (#2061)\r\n* Update `org.eclipse.jetty:jetty-bom` to version `9.4.53.v20231009` (#1931)\r\n* Update `org.eclipse.persistence:org.eclipse.persistence.jpa` to version `2.7.13` (#1933)\r\n* Update `org.eclipse.platform:org.eclipse.osgi` to version `3.18.600` (#2064)\r\n* Update `org.elasticsearch.client:elasticsearch-rest-high-level-client` to version `7.17.16` (#2085)\r\n* Update `org.graalvm.truffle:truffle-api` to version `23.1.1` (#1872)\r\n* Update `org.jctools:jctools-core` to version `4.0.2` (#1995)\r\n* Update `org.jmdns:jmdns` to version `3.5.9` (#2069)\r\n* Update `org.junit:junit-bom` to version `5.10.1` (#1993)\r\n* Update `org.junit-pioneer:junit-pioneer` to version `2.2.0` (#1986)\r\n* Update `org.mockito:mockito-bom` to version `5.8.0` (#2031)\r\n* Update `org.mongodb:bson` to version `4.11.1` (#1991)\r\n* Update `org.springframework.boot:spring-boot` to version `2.7.17` (#1902)\r\n* Update `org.springframework.boot:spring-boot-dependencies` to version `2.7.18` (#2002)\r\n* Update `org.springframework:spring-framework-bom` to version `5.3.30` (#1903)\r\n* Update `org.springframework:spring-test` to version `5.3.31` (#1992)\r\n* Update `org.xerial.snappy:snappy-java` to version `1.1.10.5` (#1877)\r\n* Update `org.zeromq:jeromq` to version `0.5.4` (#1888)\r\n* Update `uk.org.webcompere:system-stubs-core` to version `2.1.5` (#2001)\r\n* Update OpenTest4J from version 1.2.0 to 1.3.0.\r\n\r\n### Removed\r\n\r\n* Remove `GelfLayout` (a GELF-compatible layout is still possible using JSON Template Layout) (#1951)\r\n* Remove `log4j-cassandra` (#1951)\r\n* Remove `log4j-couchdb` (#1951)\r\n* Remove Jackson-based JSON configuration support. JSON configuration files are now handled through a built-in JSON parser.\r\n* Moved Log4j Jakarta EE modules (`log4j-jakarta-jms`, `log4j-jakarta-smtp`, and `log4j-jakarta-web`) to their own [repository](https://github.com/apache/logging-log4j-jakarta) and [website](https://logging.apache.org/log4j/jakarta) (#1966)\r\n* Removed all Java EE modules: `log4j-jms`, `log4j-jpa`, `log4j-smtp`, `log4j-web` (#1966)\r\n* Remove `log4j-jeromq` module (users are recommended to migrate to [loghublog4j2](https://github.com/fbacchella/loghublog4j2)) (#1951)\r\n* Remove `log4j-kafka` (#1951)\r\n* Remove `log4j-layout-jackson-json` module (it is superseded by JSON Template Layout) (#1951)\r\n* Remove `log4j-layout-jackson-yaml` module (#1951)\r\n* Remove legacy OSGi integration. `ServiceLoader` mechanism should be used instead.\r\n* Remove `log4j-mongodb3` module (#1951)\r\n* Remove support for `SecurityManager`. Starting in Java 21, a custom `SecurityManager` cannot be used.\r\n* Remove `log4j-spring-boot` module (its features are upstreamed to `org.springframework.boot:spring-boot-starter-log4j2`) (#1951)\r\n\r\n### Fixed\r\n\r\n* Remove locale-dependent `toLowerCase/toUpperCase` calls. (#1281)\r\n* Add environment variable arbiter. (#1312)\r\n* Fixed logging of java.sql.Date objects by appending it before Log4J tries to call java.util.Date.toInstant() on it. (#1366)\r\n* Adapt the OSGi metadata of `log4j-api`, `log4j-core`, `log4j-slf4j-impl` and `log4j-slf4j2-impl` to activate the bundle when it is accessed. To achieve that set the `Bundle-ActivationPolicy` to `lazy` for the log4j bundles. (#1367)\r\n* Fix runtime dependencies documentation. (#1530)\r\n* Allow to override fqcn in `Log4jEventBuilder` by implementing `CallerBoundaryAware`. (#1533)\r\n* Migrate MongoDB tests to JUnit 5 and Flapdoodle Embedded MongoDB 4. (#1589)\r\n* Fixed rollover strategy in the Log4j 1.x compatibility layer. (#1650)\r\n* Only shutdown Log4j after last `Log4jServletContextListener` is executed. (#1782)\r\n* Fixes context data loss if `<AsyncLogger>` components are used with an all async logger context. (#1786)\r\n* AppenderLoggingException logging any exception to a MongoDB Appender. (LOG4J2-3392)",
-        "commit_date": "2024-02-19 17:30:04",
-        "commit_message": "Improve performance of `CloseableThreadContext#closeMap()` (#2292, #2296)"
+        "release_tag": "rel/3.0.0-beta2",
+        "release_date": "2024-02-21 09:32:47",
+        "release_message": "This release provides a continuation of the modularization process of Log4j Core.\r\n\r\nThe following features were moved to separate artifacts:\r\n\r\n* The async logger feature was moved to `log4j-async-logger` and it was upgraded to use LMAX Disruptor 4.x. The async appender is still available by default in `log4j-core`.\r\n* The YAML configuration is available now in `log4j-config-yaml`.\r\n* The Java properties configuration was removed and replaced with a similar format based on `jackson-dataformat-properties` in a new `log4j-config-properties` artifact.\r\n\r\nOther features were removed:\r\n\r\n* Jetty 9.x users are encouraged to migrate to Jetty 10.x or later and replace `log4j-appserver` with `log4j-slf4j2-impl`.\r\n* Tomcat JULI support will be available from a third-party (cf. [copernik-eu/log4j-plugins](https://github.com/copernik-eu/log4j-plugins)).\r\n* Apache Commons Logging users are encouraged to upgrade `commons-logging` to version 1.3.0 or later and remove `log4j-jcl`.\r\n* Support for the XML layout was dropped.\r\n* Support for JMX was dropped and will be replaced with a more recenttechnology.\r\n\r\n### Added\r\n\r\n* Add and update DSLs for setting up dependency injection for test and non-test code. (#2147)\r\n* Add a `ConfigurationExtension` mechanism to allow third-party JARs to extend the `<Configuration>` element.\r\n* Add a new properties configuration factory based on `jackson-dataformat-properties`.\r\n\r\n### Changed\r\n\r\n* Change the order of evaluation of `FormattedMessage` formatters. Messages are evaluated using `java.util.Format` only if they don't comply to the `java.text.MessageFormat` or `ParameterizedMessage` format. (#1223)\r\n* Split off async logger support into a new `log4j-async-logger` module.\r\n* Split off YAML configuration into a new `log4j-config-yaml` module.\r\n\r\n### Fixed\r\n\r\n* Rewrote message parameter formatter with improved escape handling (#1626)\r\n* The MongoDb4 appender now supports long values to configure `collectionSize` (#1747)\r\n* Mark `JdkMapAdapterStringMap` as frozen if map is immutable. (#2098)\r\n* Fix regression in `JdkMapAdapterStringMap` performance. (#2238)\r\n* Prevents ClassCastException when trying to assign a SimpleLoggerContext to a core LoggerContext (LOG4J2-1921)\r\n* Possible NullPointerException in MongoDb4DocumentObject, MongoDbDocumentObject, DefaultNoSqlObject. (LOG4J2-3392)\r\n* Fix NPE in `CloseableThreadContext`. (#1426)\r\n* Fix NPE in `RollingFileManager`. (#1645)\r\n* Fix `log4j-spring-cloud-config-client` dependencies to include only those required. (2157)\r\n* Workaround a Coursier/Ivy dependency resolution bug affecting `log4j-slf4j-impl` and `log4j-mongodb3`. (#2065)\r\n\r\n### Removed\r\n\r\n* Removed legacy `2.x` properties configuration factory.\r\n* Removed `DefaultLogEventFactory`\r\n* Removed `log4j-appserver` module (#2257)\r\n* Removed `org.apache.logging.log4j.core.parser` and related packages. (#2154)\r\n* Removed `log4j-jcl` module (#2257)\r\n* Removed JMX support.\r\n* Remove `log4j-layout-jackson` module (#2198)\r\n* Remove `log4j-layout-jackson-xml` module (#2198)\r\n* Remove `log4j2.enable.threadlocals` property (#2105)\r\n\r\n### Updated\r\n\r\n* Update `com.fasterxml.jackson:jackson-bom` to version `2.16.1` (#2127)\r\n* Update `commons-codec:commons-codec` to version `1.16.1` (#2276)\r\n* Update `io.netty:netty-bom` to version `4.1.107.Final` (#2283)\r\n* Update `org.apache.logging:logging-parent` to version `10.6.0` (#2193)\r\n* Update `org.apache.tomcat:tomcat-juli` to version `10.1.18` (#2176)\r\n* Update `org.eclipse.jetty:jetty-bom` to version `9.4.54.v20240208` (#2285)\r\n* Update `org.jctools:jctools-core` to version `4.0.3` (#2267)\r\n* Update `org.slf4j:slf4j-api` to version `2.0.10` (#2136)\r\n* Update `org.springframework.boot:spring-boot-autoconfigure` to version `3.2.2` (#2222)\r\n* Update `org.springframework.cloud:spring-cloud-context` to version `4.1.1` (#2236)\r\n* Update `org.springframework:spring-framework-bom` to version `6.1.4` (#2294)\r\n",
+        "commit_date": "2024-02-21 12:39:57",
+        "commit_message": "Prepare for next release cycle"
     },
     "https://github.com/phpmyadmin/phpmyadmin": {
         "created_at": "2012-01-19 13:21:52",
@@ -22497,11 +22497,11 @@
     "https://github.com/xaoyaoo/PyWxDump": {
         "created_at": "2023-08-21 14:54:18",
         "description": "获取微信账号信息(昵称/账号/手机/邮箱/数据库密钥/wxid)；PC微信数据库读取、解密脚本；聊天记录查看工具；聊天记录导出为html(包含语音图片)。支持多账户信息获取，支持所有微信版本。",
-        "commit_date": "2024-02-20 08:40:43",
-        "commit_message": "UPDATE CHANGELOG.md",
-        "release_tag": "v2.4.34",
-        "release_date": "2024-02-20 08:44:48",
-        "release_message": "[Auto Release] Update PyWxDump to refs/tags/v2.4.34\n详细更新日志请查看 [CHANGELOG.md](https://github.com/xaoyaoo/PyWxDump/blob/master/doc/CHANGELOG.md)\n"
+        "commit_date": "2024-02-21 07:15:16",
+        "commit_message": "更新 READNE.md",
+        "release_tag": "v2.4.35",
+        "release_date": "2024-02-21 04:43:17",
+        "release_message": "[Auto Release] Update PyWxDump to refs/tags/v2.4.35\n详细更新日志请查看 [CHANGELOG.md](https://github.com/xaoyaoo/PyWxDump/blob/master/doc/CHANGELOG.md)\n"
     },
     "https://github.com/Pizz33/Qianji": {
         "created_at": "2023-09-22 09:15:26",
@@ -22578,11 +22578,11 @@
     "https://github.com/GZTimeWalker/GZCTF": {
         "created_at": "2022-03-08 13:01:42",
         "description": "The GZ::CTF project, an open source CTF platform.",
-        "commit_date": "2024-02-20 14:54:47",
-        "commit_message": "chore(deps): update",
-        "release_tag": "v0.17.7",
-        "release_date": "2023-12-29 20:39:30",
-        "release_message": "## [0.17.7](https://github.com/GZTimeWalker/GZCTF/compare/v0.17.6..v0.17.7) - 2023-12-24\r\n\r\n### ⛰️ Features\r\n\r\n- expose Kestrel options in appsettings.json (#174) - ([dfb614](https://github.com/GZTimeWalker/GZCTF/commit/dfb614)) by **Steve**\r\n- always store file to fs - ([3f1132](https://github.com/GZTimeWalker/GZCTF/commit/3f1132)) by **GZTime**\r\n- database sink - ([aba911](https://github.com/GZTimeWalker/GZCTF/commit/aba911)) by **GZTime**\r\n\r\n### 🐛 Bug Fixes\r\n\r\n- avoid logging injection - ([81c1e7](https://github.com/GZTimeWalker/GZCTF/commit/81c1e7)) by **GZTime**\r\n- verify email domain in ChangeEmail as well (#175) - ([93c7be](https://github.com/GZTimeWalker/GZCTF/commit/93c7be)) by **Steve**"
+        "commit_date": "2024-02-21 06:02:18",
+        "commit_message": "New Crowdin updates (#238)",
+        "release_tag": "v0.17.8",
+        "release_date": "2024-02-20 15:23:10",
+        "release_message": "## [0.17.8](https://github.com/GZTimeWalker/GZCTF/compare/v0.17.7..v0.17.8) - 2024-02-20\r\n\r\n- deps update\r\n- database sink for serilog\r\n- css console log\r\n\r\n> [!NOTE] \r\n> **`v0.18.0` is about to release, please test and report bugs by using `develop` tag.**\r\n> **`v0.17` is not recommended.**"
     },
     "https://github.com/savior-only/Spring_All_Reachable": {
         "created_at": "2022-10-29 03:28:55",
@@ -22614,8 +22614,8 @@
     "https://github.com/LC044/WeChatMsg": {
         "created_at": "2023-01-11 05:03:49",
         "description": "提取微信聊天记录，将其导出成HTML、Word、CSV文档永久保存，对聊天记录进行分析生成年度聊天报告",
-        "commit_date": "2024-02-20 12:20:17",
-        "commit_message": "修改部分ui",
+        "commit_date": "2024-02-21 14:41:11",
+        "commit_message": "修改logo",
         "release_tag": "v1.1.1",
         "release_date": "2024-02-11 09:46:15",
         "release_message": "## 修复不能批量导出的bug"
@@ -22884,8 +22884,8 @@
     "https://github.com/shufflewzc/faker3": {
         "created_at": "2022-01-31 21:21:40",
         "description": "",
-        "commit_date": "2024-02-20 14:17:29",
-        "commit_message": "Delete jd_dplh0123.js",
+        "commit_date": "2024-02-21 14:00:12",
+        "commit_message": "Create jd_ddgj.js",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -23379,8 +23379,8 @@
     "https://github.com/RVC-Boss/GPT-SoVITS": {
         "created_at": "2024-01-14 18:05:21",
         "description": "1 min voice data can also be used to train a good TTS model! (few shot voice cloning)",
-        "commit_date": "2024-02-20 15:26:39",
-        "commit_message": "Merge pull request #556 from KamioRinn/Refactoring-get-phones-and-bert\n\n重构phones bert计算逻辑",
+        "commit_date": "2024-02-21 10:52:07",
+        "commit_message": "Add files via upload",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -24460,7 +24460,7 @@
     "https://github.com/bcvgh/daydayEXP": {
         "created_at": "2023-08-18 01:21:53",
         "description": "支持自定义Poc文件的图形化漏洞利用工具",
-        "commit_date": "2024-02-06 06:32:07",
+        "commit_date": "2024-02-21 09:18:12",
         "commit_message": "Update README.md",
         "release_tag": "v1.0",
         "release_date": "2024-02-04 10:03:26",
