@@ -32,7 +32,8 @@ def main():
                                 m = f'[{repo}]({url}) {description}'
                         else:
                             m = f'[{repo[:83]}...]({url}) '
-                        msg.append(f'- <img src="https://favicon.qqsuu.cn/{url}">{m}')
+                        # msg.append(f'- <img src="https://favicon.qqsuu.cn/{url}">{m}')
+                        msg.append(f'![Logo](https://favicon.qqsuu.cn/{url}) {m}')
             else:
                 parse_tree(v, path=path + 1)
 
