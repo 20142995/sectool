@@ -36,7 +36,6 @@
 - <img src="https://favicon.qqsuu.cn/utf-8.jp" alt="" style="height: 20px;"> [utf-8.jp](http://utf-8.jp/public/aaencode.html) 
 - <img src="https://favicon.qqsuu.cn/www.atoolbox.net" alt="" style="height: 20px;"> [www.atoolbox.net](http://www.atoolbox.net/Tool.php?Id=703) 
 - <img src="https://favicon.qqsuu.cn/www.hiencode.com" alt="" style="height: 20px;"> [www.hiencode.com](http://www.hiencode.com/aaencode.html) 
-- <img src="https://favicon.qqsuu.cn/www.qtool.net" alt="" style="height: 20px;"> [www.qtool.net](https://www.qtool.net/decode) 
 ##### ADFGX
 - <img src="https://favicon.qqsuu.cn/www.practicalcryptography.com" alt="" style="height: 20px;"> [www.practicalcryptography.com](http://www.practicalcryptography.com/ciphers/adfgx-cipher/) 
 ##### Brainfuck
