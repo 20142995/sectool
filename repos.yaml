@@ -27,6 +27,121 @@
             古典密码:
                 autokey:
                     - https://github.com/hotzzzzy/breakautokey
+            在线工具:
+                16进制转字符串:
+                    - https://www.bejson.com/convert/ox2str/
+                    - https://www.sojson.com/hexadecimal.html
+                AAencode颜文字:
+                    - http://utf-8.jp/public/aaencode.html
+                    - http://www.atoolbox.net/Tool.php?Id=703
+                    - http://www.hiencode.com/aaencode.html
+                    - https://www.qtool.net/decode
+                ADFGX:
+                    - http://www.practicalcryptography.com/ciphers/adfgx-cipher/
+                Brainfuck:
+                    Ook!:
+                        - http://www.hiencode.com/brain.html
+                        - https://www.splitbrain.org/services/ook
+                BubbleBabble:
+                    - http://www.hiencode.com/bubble.html
+                DNA基因序列编码:
+                    - https://skaminsky115.github.io/nac/DNA-mRNA-Protein_Converter.html
+                Handycode:
+                    - http://www.hiencode.com/handycode.html
+                JJencode:
+                    - http://www.hiencode.com/jjencode.html
+                    - http://www.nicetool.net/app/jjencode.html
+                    - https://www.qtool.net/decode
+                JSfuck:
+                    - http://codertab.com/JsUnFuck
+                    - http://www.hiencode.com/jsfuck.html
+                    - https://www.bugku.com/tools/jsfuck/
+                MD5:
+                    - https://www.cmd5.com/
+                Quoted-printable:
+                    - http://web.chacuo.net/charsetquotedprintable/
+                ROT:
+                    - https://www.qqxiuzi.cn/bianma/rot5-13-18-47.php
+                RSA大数分解:
+                    - http://www.factordb.com/index.php
+                Rabbit:
+                    - http://www.jsons.cn/rabbitencrypt/
+                    - https://www.sojson.com/encrypt_rabbit.html
+                Serpent（蛇）:
+                    - http://serpent.online-domain-tools.com/
+                UUencode:
+                    - http://web.chacuo.net/charsetuuencode
+                    - http://www.hiencode.com/uu.html
+                XXencode:
+                    - http://web.chacuo.net/charsetxxencode
+                    - http://www.hiencode.com/xxencode.html
+                    - https://ctf.bugku.com/tool/xxencode
+                base100:
+                    - https://ctf.bugku.com/tool/base100
+                cisco 密码解密:
+                    - https://www.ifm.net.nz/cookbooks/passwordcracker.html
+                cryptojs:
+                    - https://ctf.bugku.com/tool/tripledes
+                    - https://www.sojson.com/encrypt.html
+                emoji-aes:
+                    - https://aghorler.github.io/emoji-aes/
+                hex转字符:
+                    - https://the-x.cn/encodings/Hex.aspx
+                logo编程:
+                    - https://www.calormen.com/jslogo/
+                malbolge编程:
+                    - https://zb3.me/malbolge-tools/
+                ppencode:
+                    - http://www.hiencode.com/ppencode.html
+                quipqiup:
+                    - http://quipqiup.com/
+                与佛论禅:
+                    - http://hi.pcmoe.net/buddha.html
+                    - http://www.keyfc.net/bbs/tools/tudoucode.aspx
+                    - https://ctf.bugku.com/tool/todousharp
+                中文加密:
+                    - https://www.qqxiuzi.cn/bianma/wenbenjiami.php
+                仿射密码:
+                    - https://www.boxentriq.com/code-breaking/affine-cipher
+                凯撒密码:
+                    - https://ctf.bugku.com/tool/caesar
+                圣堂武士密码:
+                    - ./Plugins/img/shengtangwushi.jpg
+                希尔密码:
+                    - https://ctf.bugku.com/tool/hill
+                摩尔斯电码:
+                    - http://www.zhongguosou.com/zonghe/moErSiCodeConverter.aspx
+                敲击码:
+                    - http://ctf.ssleye.com/tapcode.html
+                暴力破解替换:
+                    - https://quipqiup.com/
+                栅栏密码:
+                    - https://www.qqxiuzi.cn/bianma/zhalanmima.php
+                猪圈密码:
+                    - http://ctf.ssleye.com/pigpen.html
+                电报码:
+                    - https://www.qqxiuzi.cn/bianma/dianbao.php
+                百家姓暗号:
+                    - https://api.dujin.org/baijiaxing/
+                社会主义核心价值观:
+                    - http://www.hiencode.com/cvencode.html
+                程序代码空白隐藏:
+                    - https://ideone.com/
+                维吉尼亚密码:
+                    - https://www.guballa.de/vigenere-solver
+                    - https://www.mygeocachingprofile.com/codebreaker.vigenerecipher.aspx
+                    - https://www.qqxiuzi.cn/bianma/weijiniyamima.php
+                编码解码综合网站:
+                    - http://www.hiencode.com/
+                    - https://ctf.bugku.com/tools
+                    - https://tool.lu/
+                词频分析:
+                    - https://quipqiup.com/
+                零宽隐写:
+                    - http://330k.github.io/misc_tools/unicode_steganography.html
+                    - https://www.qqxiuzi.cn/bianma/yincangjiami.php
+                音乐符号加密:
+                    - https://www.qqxiuzi.cn/bianma/wenbenjiami.php?s=yinyue
             现代密码:
                 RSA:
                     - https://github.com/6u661e/CTF-RSA-tool
