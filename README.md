@@ -51,8 +51,6 @@
 - <img src="https://favicon.qqsuu.cn/www.hiencode.com" alt="" style="height: 20px;"> [www.hiencode.com](http://www.hiencode.com/handycode.html) 
 ##### JJencode
 - <img src="https://favicon.qqsuu.cn/www.hiencode.com" alt="" style="height: 20px;"> [www.hiencode.com](http://www.hiencode.com/jjencode.html) 
-- <img src="https://favicon.qqsuu.cn/www.nicetool.net" alt="" style="height: 20px;"> [www.nicetool.net](http://www.nicetool.net/app/jjencode.html) 
-- <img src="https://favicon.qqsuu.cn/www.qtool.net" alt="" style="height: 20px;"> [www.qtool.net](https://www.qtool.net/decode) 
 ##### JSfuck
 - <img src="https://favicon.qqsuu.cn/codertab.com" alt="" style="height: 20px;"> [codertab.com](http://codertab.com/JsUnFuck) 
 - <img src="https://favicon.qqsuu.cn/www.hiencode.com" alt="" style="height: 20px;"> [www.hiencode.com](http://www.hiencode.com/jsfuck.html) 
