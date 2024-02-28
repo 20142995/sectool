@@ -33,6 +33,7 @@ def main():
                             repo += ' ' + data[url]['release_tag']
                         description = data.get(url, {}).get("description", "")
                     else:
+                        repo = ''
                         if data.get(url, {}).get("title", ''):
                             repo = data.get(url, {}).get("title", '')
                             description = data.get(url, {}).get("description", "")
