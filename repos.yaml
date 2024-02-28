@@ -153,6 +153,9 @@
                 - https://github.com/WerWolv/ImHex
             二维码批量识别:
                 - https://github.com/zfb132/QrScan
+            情报收集:
+                航线图:
+                    - https://map.variflight.com
             综合:
                 - https://github.com/Harveysn0w/CTF_Hacker-Tools
                 - https://github.com/Moxin1044/qsnctf-python
@@ -438,6 +441,12 @@
                     - https://github.com/lz520520/railgun
                     - https://github.com/niudaii/zpscan
                 在线辅助:
+                    DNSLOG平台:
+                        - http://ceye.io
+                        - http://dnslog.pw/login
+                        - http://www.dnslog.cn
+                        - https://dig.pm
+                        - https://www.callback.red
                     反弹shell:
                         - https://forum.ywhack.com/shell.php
                     文件下载:
