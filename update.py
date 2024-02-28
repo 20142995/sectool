@@ -26,7 +26,7 @@ def main():
                             repo += ' ' + data[url]['release_tag']
                         description = data.get(url, {}).get("description", "")
                     else:
-                        repo = data.get(url, {}).get("title", "")
+                        repo = data.get(url, {}).get("title", urlparse(url).netloc)
                         description = data.get(url, {}).get("description", "")
                     if len(repo) < 85:
                         if len(description) > (85-len(repo)):
