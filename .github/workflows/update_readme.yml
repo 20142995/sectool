@@ -1,11 +1,11 @@
 # This workflow will install Python dependencies, run tests and lint with a single version of Python
 # For more information see: https://docs.github.com/en/actions/automating-builds-and-tests/building-and-testing-python
 
-name: sectool
+name: update_readme
 
 on:
   schedule:
-    - cron: '0 0 * * *'
+    - cron: '0 3 * * *'
   release:
     types: [published]
 jobs:
@@ -22,12 +22,11 @@ jobs:
     - name: Install dependencies
       run: |
         pip install -r requirements.txt
-    - name: sectool
+    - name: update_readme
       env: 
          GH_TOKEN: ${{ secrets.GH_TOKEN }}
-         DINGTALK_TOKEN: ${{ secrets.DINGTALK_TOKEN }}
       run: |
-        python run.py
+        python update_readme.py
     - name: Commit and push if changed
       run: |
         git config --global user.email "test"
