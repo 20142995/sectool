@@ -25,15 +25,17 @@ def main():
                         if data.get(url, {}).get("release_tag", ""):
                             repo += ' ' + data[url]['release_tag']
                         description = data.get(url, {}).get("description", "")
-                        if len(repo) < 85:
-                            if len(description) > (85-len(repo)):
-                                m = f'[{repo}]({url}) {description[:85-len(repo)-3]}...'
-                            else:
-                                m = f'[{repo}]({url}) {description}'
+                    else:
+                        repo = data.get(url, {}).get("title", "")
+                        description = data.get(url, {}).get("description", "")
+                    if len(repo) < 85:
+                        if len(description) > (85-len(repo)):
+                            m = f'[{repo}]({url}) {description[:85-len(repo)-3]}...'
                         else:
-                            m = f'[{repo[:83]}...]({url}) '
-                        # msg.append(f'- <img src="https://favicon.qqsuu.cn/{url}">{m}')
-                        msg.append(f'- ![Logo](https://favicon.qqsuu.cn/{url}) {m}')
+                            m = f'[{repo}]({url}) {description}'
+                    else:
+                        m = f'[{repo[:83]}...]({url}) '
+                    msg.append(f'- ![](https://favicon.qqsuu.cn/{url}) {m}')
             else:
                 parse_tree(v, path=path + 1)
 
