@@ -1,3 +1,4 @@
 pyyaml
 bs4
 asyncio
+aiohttp
