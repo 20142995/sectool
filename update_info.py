@@ -16,7 +16,9 @@ async def get_other_url_status(session, url):
     try:
         async with session.get(url, headers=headers) as r:
             status_code = r.status
-            html = await r.text()
+            # html = await r.text()
+            content = await r.read()
+            html = content.decode('utf8',errors='ignore')
             soup = BeautifulSoup(html, 'html.parser')
             title = soup.title.string.strip() if soup.title else ''
             return {'url': url, 'status_code': status_code, 'description': title}
