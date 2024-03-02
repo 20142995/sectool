@@ -20,7 +20,7 @@ async def get_other_url_status(session, url):
             content = await r.read()
             html = content.decode('utf8',errors='ignore')
             soup = BeautifulSoup(html, 'html.parser')
-            title = soup.title.string.strip() if soup.title else ''
+            title = soup.title.string.strip() if soup.title.string else ''
             return {'url': url, 'status_code': status_code, 'description': title}
     except aiohttp.ClientError as e:
         return {}
