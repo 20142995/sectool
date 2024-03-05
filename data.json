@@ -24503,342 +24503,942 @@
         "release_message": "1. 解决FindClassByDNS makeClass报错frozen class (cannot edit)\r\n2. 添加CommonsBeanutils3_183\r\n3. JRMPListener添加大量脏数据功能\r\n4. 解决CommonsBeanutils1_183 class is frozen问题和CommonsBeanutils3版本错乱问题\r\n5. 添加FindGadgetByDNS"
     },
     "https://wsrc.weibo.com/": {
-        "title": "微博"
+        "status_code": 200,
+        "description": "微博安全应急响应中心"
     },
     "http://sec.didichuxing.com/": {
-        "title": "滴滴SRC"
+        "status_code": 200,
+        "description": "滴滴出行安全应急响应中心"
     },
     "http://sec.tuniu.com/": {
-        "title": "途牛安全应急响应中心"
+        "status_code": 200,
+        "description": "途牛安全应急响应中心"
     },
     "http://security.eastmoney.com/": {
-        "title": "东方财富安全应急响应中心"
+        "status_code": 200,
+        "description": "东方财富安全应急响应中心"
     },
     "http://security.qianmi.com/": {
         "title": "千米安全应急响应中心"
     },
     "http://security.safedog.cn/index.html": {
-        "title": "安全狗漏洞响应中心"
+        "status_code": 200,
+        "description": "安全狗漏洞响应中心_首页"
     },
     "https://aq.163.com/": {
-        "title": "网易安全中心"
+        "status_code": 200,
+        "description": "网易安全中心"
     },
     "https://asrc.alibaba.com/#/": {
-        "title": "阿里本地生活SRC"
+        "status_code": 200,
+        "description": "ASRC"
     },
     "https://beisen.butian.net/": {
-        "title": "北京北森云计算SRC"
+        "status_code": 200,
+        "description": "补天-漏洞_安全|系统漏洞_IoT|APP漏洞_移动|工控漏洞"
     },
     "https://bsrc.baidu.com/views/main/index.html#home": {
-        "title": "百度SRC"
+        "status_code": 200,
+        "description": "百度安全应急响应中心"
     },
     "https://btcsrc.vulbox.com/": {
-        "title": "贝宝金融安全应急响应中心"
+        "status_code": 200,
+        "description": "漏洞盒子 | 贝宝金融安全应急响应中心（BTCSRC）"
     },
     "https://bugbounty.huawei.com/#/home": {
-        "title": "华为PSIRT"
+        "status_code": 200,
+        "description": "华为安全奖励计划"
     },
     "https://dida.butian.net/": {
-        "title": "嘀嗒出行"
+        "status_code": 200,
+        "description": "补天 - 企业和白帽子共赢的漏洞响应平台，帮助企业建立SRC"
     },
     "https://dxysrc.vulbox.com/": {
-        "title": "丁香园安全应急响应中心"
+        "status_code": 200,
+        "description": "漏洞盒子 | 丁香园安全应急响应中心（DXYSRC）"
     },
     "https://fsrc.fuiou.com/home/index.html": {
-        "title": "富友SRC"
+        "status_code": 200,
+        "description": "富友安全应急响应中心"
     },
     "https://isrc.pingan.com/homePage/index": {
-        "title": "平安安全应急响应中心"
+        "status_code": 404,
+        "description": "平安安全应急响应中心"
     },
     "https://kysrc.vulbox.com/": {
-        "title": "金山云安全应急响应中心"
+        "status_code": 200,
+        "description": "漏洞盒子 | 金山云安全应急响应中心（KYSRC）"
     },
     "https://llsrc.huolala.cn/#/home": {
-        "title": "货拉拉安全应急响应中心"
+        "status_code": 200,
+        "description": "货拉拉安全应急响应中心"
     },
     "https://lsrc.vulbox.com/": {
-        "title": "联想集团安全应急响应中心"
+        "status_code": 200,
+        "description": "漏洞盒子 | 联想集团安全应急响应中心"
     },
     "https://lxsrc.vulbox.com/": {
-        "title": "乐信集团安全应急响应中心"
+        "status_code": 200,
+        "description": "漏洞盒子 | 乐信集团安全应急响应中心"
     },
     "https://megvii.huoxian.cn/": {
-        "title": "旷视安全应急响应中心"
+        "status_code": 200,
+        "description": "火线"
     },
     "https://niosrc.bugbank.cn/": {
-        "title": "NIO蔚来安全应急响应中心"
+        "status_code": 200,
+        "description": "安全应急响应中心"
     },
     "https://pep.butian.net/": {
-        "title": "人民教育出版社"
+        "status_code": 200,
+        "description": "补天-漏洞_安全|系统漏洞_IoT|APP漏洞_移动|工控漏洞"
     },
     "https://qianxin.butian.net/": {
-        "title": "奇安信集团"
+        "status_code": 200,
+        "description": "补天-漏洞_安全|系统漏洞_IoT|APP漏洞_移动|工控漏洞"
     },
     "https://qssrc.vulbox.com/": {
-        "title": "轻松筹安全应急响应中心"
+        "status_code": 200,
+        "description": "漏洞盒子 | 轻松筹安全应急响应中心（QSSRC）"
     },
     "https://sec.cainiao.com/": {
-        "title": "菜鸟安全应急响应中心"
+        "status_code": 200,
+        "description": "菜鸟安全应急响应中心"
     },
     "https://sec.ctrip.com/": {
-        "title": "携程安全应急响应中心"
+        "status_code": 200,
+        "description": "携程安全应急响应中心"
     },
     "https://sec.fadada.com": {
-        "title": "法大大安全应急响应中心"
+        "status_code": 200,
+        "description": "法大大安全应急响应中心"
     },
     "https://sec.huazhu.com/": {
-        "title": "华住安全响应中心"
+        "status_code": 200,
+        "description": "华住安全响应中心 | Huazhu Security Response Center"
     },
     "https://sec.ly.com/": {
         "title": "同程旅行安全应急响应中心"
     },
     "https://sec.meizu.com/": {
-        "title": "魅族SRC"
+        "status_code": 200,
+        "description": "魅族安全中心"
     },
     "https://sec.vip.com/": {
-        "title": "唯品会"
+        "status_code": 200,
+        "description": "VSRC首页-唯品会信息安全中心"
     },
     "https://sec.wacai.com/": {
-        "title": "挖财安全应急响应中心"
+        "status_code": 200,
+        "description": "挖财安全应急响应中心"
     },
     "https://sec.wifi.com/": {
-        "title": "WiFi万能钥匙"
+        "status_code": 200,
+        "description": "WIFI万能钥匙安全响应中心"
     },
     "https://sec.xiaomi.com/": {
-        "title": "小米安全中心"
+        "status_code": 200,
+        "description": "小米安全中心"
     },
     "https://sec.zbj.com/": {
-        "title": "猪八戒SRC"
+        "status_code": 200,
+        "description": "猪八戒网安全响应中心"
     },
     "https://sec.zto.com/home": {
-        "title": "中通安全应急响应中心"
+        "status_code": 200,
+        "description": "中通安全应急响应中心（ZSRC）"
     },
     "https://security.17zuoye.com/": {
-        "title": "一起教育安全应急响应中心"
+        "status_code": 403,
+        "description": "403 Forbidden"
     },
     "https://security.360.cn/": {
         "title": "360SRC"
     },
     "https://security.58.com/": {
-        "title": "58SRC"
+        "status_code": 200,
+        "description": "58安全应急响应中心"
     },
     "https://security.alibaba.com/": {
-        "title": "阿里SRC"
+        "status_code": 200,
+        "description": ""
     },
     "https://security.alipay.com/": {
-        "title": "蚂蚁集团SRC"
+        "status_code": 200,
+        "description": "ϼŰȫӦӦĹ - AntSRC - ϼŰȫӦ,֧ȫӦ,Ͱ©,֧©,ϼ©,©,֥©,ڱ©,©,ϲƸ©,֧鱨,Ͱ鱨,©,֥©,ڱ©,©,ϲƸ©,Ͱ©,֧©,ϼ©,֧鱨,Ͱ鱨"
     },
     "https://security.bilibili.com/": {
-        "title": "哔哩哔哩安全应急响应中心"
+        "status_code": 200,
+        "description": "哔哩哔哩安全应急响应中心"
     },
     "https://security.bytedance.com/": {
-        "title": "字节跳动"
+        "status_code": 200,
+        "description": "字节跳动安全中心"
     },
     "https://security.creditease.cn/": {
-        "title": "宜信安全应急响应中心"
+        "status_code": 200,
+        "description": "宜信安全应急响应中心"
     },
     "https://security.dbappsecurity.com.cn/": {
-        "title": "安恒应急响应中心"
+        "status_code": 200,
+        "description": "安全众测平台"
     },
     "https://security.dewu.com/": {
-        "title": "得物安全应急响应中心"
+        "status_code": 200,
+        "description": ""
     },
     "https://security.dji.com/": {
-        "title": "大疆安全应急响应中心"
+        "status_code": 200,
+        "description": "DJI Security Response Center"
     },
     "https://security.douyu.com/": {
-        "title": "斗鱼SRC"
+        "status_code": 200,
+        "description": "斗鱼安全应急响应中心 - DYSRC"
     },
     "https://security.duxiaoman.com/index.html#/main": {
-        "title": "度小满SRC"
+        "status_code": 200,
+        "description": "Vue App"
     },
     "https://security.focuschina.com/": {
-        "title": "焦点SRC"
+        "status_code": 200,
+        "description": "焦点安全应急响应中心"
     },
     "https://security.guazi.com/": {
-        "title": "瓜子安全应急响应中心"
+        "status_code": 200,
+        "description": "瓜子安全应急响应中心"
     },
     "https://security.hihonor.com/src/#/": {
-        "title": "荣耀SRC"
+        "status_code": 200,
+        "description": "荣耀安全应急响应中心-荣耀安全奖励计划"
     },
     "https://security.iflytek.com/": {
-        "title": "讯飞安全响应中心"
+        "status_code": 200,
+        "description": "讯飞安全响应中心"
     },
     "https://security.immomo.com/": {
-        "title": "陌陌安全应急响应中心"
+        "status_code": 200,
+        "description": "陌陌安全应急响应中心"
     },
     "https://security.intsig.com/": {
-        "title": "合合安全应急响应中心"
+        "status_code": 200,
+        "description": "合合安全应急响应中心 ISRC"
     },
     "https://security.iqiyi.com/": {
-        "title": "爱奇艺安全应急响应中心"
+        "status_code": 200,
+        "description": "爱奇艺安全应急响应中心"
     },
     "https://security.jd.com/#/": {
-        "title": "京东安全应急响应中心"
+        "status_code": 200,
+        "description": "京东安全应急响应中心"
     },
     "https://security.jj.cn/": {
-        "title": "竞技世界"
+        "status_code": 200,
+        "description": "ȫӦӦ"
     },
     "https://security.kanyun.com/": {
-        "title": "看云安全应急响应中心"
+        "status_code": 200,
+        "description": "首页 | 看云安全应急响应中心"
     },
     "https://security.ke.com/": {
-        "title": "贝壳安全"
+        "status_code": 200,
+        "description": "贝壳安全应急响应中心"
     },
     "https://security.kuaikanmanhua.com/": {
-        "title": "快看安全应急响应中心"
+        "status_code": 200,
+        "description": "首页 | 快看安全应急响应中心"
     },
     "https://security.kuaishou.com/": {
-        "title": "快手SRC"
+        "status_code": 200,
+        "description": "快手安全应急响应中心"
     },
     "https://security.kugou.com/": {
-        "title": "酷狗安全应急响应中心"
+        "status_code": 200,
+        "description": "首页 | 酷狗安全应急响应中心"
     },
     "https://security.liepin.com/": {
-        "title": "猎聘SRC"
+        "status_code": 200,
+        "description": "猎聘安全应急响应中心"
     },
     "https://security.lixiang.com/index": {
-        "title": "理想安全应急响应中心"
+        "status_code": 200,
+        "description": "理想安全应急响应中心"
     },
     "https://security.mafengwo.cn/": {
-        "title": "马蜂窝安全应急响应中心"
+        "status_code": 200,
+        "description": "马蜂窝安全应急响应中心"
     },
     "https://security.mcd.cn/": {
-        "title": "麦当劳中国安全应急响应中心"
+        "status_code": 200,
+        "description": "首页 | 麦当劳中国安全应急响应中心"
     },
     "https://security.meituan.com/#/home": {
-        "title": "美团安全应急响应中心"
+        "status_code": 200,
+        "description": "美团安全应急响应中心"
     },
     "https://security.mogu.com": {
-        "title": "美丽联合集团"
+        "status_code": 200,
+        "description": "美丽联合集团安全应急响应中心"
     },
     "https://security.oppo.com/cn/": {
-        "title": "OPPO安全应急响应中心"
+        "status_code": 200,
+        "description": "OPPO安全应急响应中心 | OSRC"
     },
     "https://security.oray.com/": {
-        "title": "贝锐安全应急响应中心"
+        "status_code": 200,
+        "description": "首页 | 贝锐安全应急响应中心"
     },
     "https://security.pingan.com/": {
-        "title": "平安安全应急响应中心"
+        "status_code": 200,
+        "description": "平安安全应急响应中心"
     },
     "https://security.rong360.com/#/": {
-        "title": "融360安全应急响应中心"
+        "status_code": 200,
+        "description": "融360安全应急响应中心"
     },
     "https://security.sangfor.com.cn/": {
         "title": "深信服"
     },
     "https://security.shuidihuzhu.com/": {
-        "title": "水滴安全应急响应中心"
+        "status_code": 200,
+        "description": "水滴安全应急响应中心"
     },
     "https://security.soulapp.cn/": {
-        "title": "Soul安全应急响应中心"
+        "status_code": 200,
+        "description": "首页 | Soul安全应急响应中心"
     },
     "https://security.suning.com/ssrc-web/index.jsp": {
-        "title": "苏宁安全应急响应中心"
+        "status_code": 200,
+        "description": "安全应急响应中心"
     },
     "https://security.t3go.cn/#/home": {
-        "title": "T3出行安全应急响应中心"
+        "status_code": 200,
+        "description": "T3出行安全应急响应中心"
     },
     "https://security.tencent.com/": {
-        "title": "腾讯SRC"
+        "status_code": 200,
+        "description": "腾讯安全应急响应中心"
     },
     "https://security.tuhu.cn/": {
-        "title": "途虎安全应急响应中心"
+        "status_code": 200,
+        "description": "首页 | 途虎安全应急响应中心"
     },
     "https://security.unionpay.com/": {
-        "title": "银联安全应急响应中心"
+        "status_code": 200,
+        "description": "银联安全应急响应中心(USRC)"
     },
     "https://security.vipkid.com.cn/": {
-        "title": "VIPKID安全响应中心"
+        "status_code": 200,
+        "description": "首页 | VIPKID安全响应中心"
     },
     "https://security.vivo.com.cn/": {
-        "title": "vivo安全应急响应中心"
+        "status_code": 200,
+        "description": "vivo 安全应急响应平台"
     },
     "https://security.webank.com/": {
-        "title": "微众银行安全响应中心"
+        "status_code": 200,
+        "description": "微众银行安全响应中心"
     },
     "https://security.wps.cn/": {
-        "title": "金山办公安全应急响应中心"
+        "status_code": 200,
+        "description": "金山办公安全应急响应中心"
     },
     "https://security.xiaoying.com/": {
-        "title": "小赢安全应急响应中心"
+        "status_code": 200,
+        "description": "首页 | 小赢安全应急响应中心"
     },
     "https://security.ximalaya.com/": {
-        "title": "喜马拉雅安全应急响应中心"
+        "status_code": 200,
+        "description": "喜马拉雅安全应急响应中心"
     },
     "https://security.xunlei.com/": {
-        "title": "迅雷安全应急响应中心"
+        "status_code": 200,
+        "description": "迅雷安全应急响应中心"
     },
     "https://security.zhangmen.com/": {
-        "title": "掌门教育安全应急响应中心"
+        "status_code": 200,
+        "description": "掌门教育安全应急响应中心"
     },
     "https://security.zhongan.com/#/": {
-        "title": "众安安全应急响应中心"
+        "status_code": 200,
+        "description": "众安安全应急响应中心"
     },
     "https://security.zsxq.com/": {
-        "title": "知识星球安全应急响应中心"
+        "status_code": 200,
+        "description": "知识星球安全应急响应中心"
     },
     "https://securitytcjf.com/": {
-        "title": "同程数科安全响应中心"
+        "status_code": 200,
+        "description": ""
     },
     "https://sfsrc.sf-express.com/": {
-        "title": "顺丰安全应急响应中心"
+        "status_code": 200,
+        "description": "顺丰安全应急响应中心"
     },
     "https://src.100tal.com/": {
-        "title": "好未来安全应急响应中心"
+        "status_code": 200,
+        "description": "好未来安全应急响应中心"
     },
     "https://src.bestsign.cn/": {
-        "title": "上上签安全应急响应中心"
+        "status_code": 200,
+        "description": "上上签 - 安全应急响应中心"
     },
     "https://src.ceair.com/": {
-        "title": "东方航空"
+        "status_code": 200,
+        "description": "东航网络安全应急响应中心（MUSRC）"
     },
     "https://src.dmall.com/": {
-        "title": "多点安全应急响应中心"
+        "status_code": 200,
+        "description": "首页 | 多点安全应急响应中心"
     },
     "https://src.hellobike.com/index.php": {
-        "title": "哈啰出行安全应急响应中心"
+        "status_code": 200,
+        "description": "首页 | 哈啰出行安全应急响应中心"
     },
     "https://src.saicmobility.com/": {
-        "title": "享道出行安全应急响应中心"
+        "status_code": 200,
+        "description": "享道出行SRC"
     },
     "https://src.tcl.com/zh/index": {
-        "title": "TCL安全应急响应中心"
+        "status_code": 200,
+        "description": "TCL SRC Beta V1.30"
     },
     "https://src.topsec.com.cn/": {
         "title": "天融信安全漏洞响应中心"
     },
     "https://src.ucloud.cn/": {
-        "title": "UCloud安全应急响应中心"
+        "status_code": 200,
+        "description": "首页 | UCloud安全应急响应中心"
     },
     "https://src.uniontech.com/": {
-        "title": "统信安全应急响应中心"
+        "status_code": 200,
+        "description": "USRC"
     },
     "https://src.youzan.com/": {
-        "title": "有赞安全应急响应中心"
+        "status_code": 200,
+        "description": "首页 | 有赞安全应急响应中心"
     },
     "https://src.zhaopin.com/": {
-        "title": "智联招聘安全应急响应中心"
+        "status_code": 200,
+        "description": "首页 | 智联招聘安全应急响应中心"
     },
     "https://src.zhipin.com/": {
-        "title": "BOSS直聘"
+        "status_code": 200,
+        "description": "BOSS直聘安全应急响应中心"
     },
     "https://tdsrc.vulbox.com/": {
-        "title": "同盾安全应急响应中心"
+        "status_code": 200,
+        "description": "漏洞盒子 | 同盾安全应急响应中心"
     },
     "https://weaversrc.vulbox.com/": {
-        "title": "泛微安全应急响应中心"
+        "status_code": 200,
+        "description": "漏洞盒子 | 泛微安全应急响应中心（WEAVERSRC）"
     },
     "https://www.hikvision.com/cn/support/CybersecurityCenter/": {
-        "title": "海康威视安全应急响应中心"
+        "status_code": 200,
+        "description": "安全应急响应中心 - 服务支持 - 海康威视 Hikvision"
     },
     "https://www.niwodai.com/sec/index.do": {
-        "title": "你我贷安全响应中心"
+        "status_code": 200,
+        "description": "首页"
     },
     "https://ysrc.ys7.com/#/home": {
-        "title": "萤石安全响应中心"
+        "status_code": 200,
+        "description": ""
     },
     "https://zrsecurity.ziroom.com/": {
-        "title": "自如安全应急响应中心"
+        "status_code": 200,
+        "description": "首页 | 自如安全应急响应中心"
+    },
+    "https://guanjia.qq.com/pr/ls/": {
+        "status_code": 200,
+        "description": "勒索病毒拦截|文件恢复_文档守护者保护文档安全 - 腾讯电脑管家"
+    },
+    "https://ctf.bugku.com/tools": {
+        "status_code": 200,
+        "description": "在线工具 - Bugku CTF"
+    },
+    "https://www.qqxiuzi.cn/bianma/weijiniyamima.php": {
+        "status_code": 200,
+        "description": "维吉尼亚密码在线加密解密 - 千千秀字"
+    },
+    "https://www.shodan.io/": {
+        "status_code": 200,
+        "description": "Shodan Search Engine"
+    },
+    "https://www.qqxiuzi.cn/bianma/dianbao.php": {
+        "status_code": 200,
+        "description": "电报码在线翻译（国际摩尔斯电码及中文电码） - 千千秀字"
+    },
+    "http://www.hiencode.com/aaencode.html": {
+        "status_code": 200,
+        "description": "CTF在线工具-在线AAencode编码|AA编码|AAencode解码|AAencode编码原理|AAencode编码算法"
+    },
+    "https://www.shellpub.com/": {
+        "status_code": 200,
+        "description": "SHELLPUB.COM 专注查杀，永久免费"
+    },
+    "https://www.qqxiuzi.cn/bianma/wenbenjiami.php?s=yinyue": {
+        "status_code": 200,
+        "description": "文本加密为音乐符号,可自设密码|文本在线加密解密工具"
+    },
+    "https://ctf.bugku.com/tool/caesar": {
+        "status_code": 200,
+        "description": "凯撒(Caesar)加密/解密 - Bugku CTF"
+    },
+    "https://www.calormen.com/jslogo/": {
+        "status_code": 200,
+        "description": "Logo Interpreter"
+    },
+    "https://ctf.bugku.com/tool/xxencode": {
+        "status_code": 200,
+        "description": "XXencode加密/解密 - Bugku CTF"
+    },
+    "http://serpent.online-domain-tools.com/": {
+        "status_code": 200,
+        "description": "Serpent Encryption – Easily encrypt or decrypt strings or files"
+    },
+    "https://ata.360.net/": {
+        "status_code": 200,
+        "description": "360沙箱云"
+    },
+    "https://hunter.qianxin.com/": {
+        "status_code": 200,
+        "description": "鹰图平台"
+    },
+    "https://www.sonarqube.org": {
+        "status_code": 200,
+        "description": "Code Quality, Security & Static Analysis Tool with SonarQube  | Sonar"
+    },
+    "https://skaminsky115.github.io/nac/DNA-mRNA-Protein_Converter.html": {
+        "status_code": 200,
+        "description": "DNA to mRNA to Protein Converter"
+    },
+    "http://quipqiup.com/": {
+        "status_code": 200,
+        "description": "quipqiup - cryptoquip and cryptogram solver"
+    },
+    "https://forum.ywhack.com/shell.php": {
+        "status_code": 200,
+        "description": "[~]#棱角 ::Edge.Forum*"
+    },
+    "http://ctf.ssleye.com/pigpen.html": {
+        "status_code": 200,
+        "description": "CTF在线工具-在线猪圈密码加密|在线猪圈密码解密|猪圈密码算法|Pigpen Cipher"
+    },
+    "https://www.qqxiuzi.cn/bianma/rot5-13-18-47.php": {
+        "status_code": 404,
+        "description": "404 Not Found"
+    },
+    "https://dig.pm": {
+        "status_code": 200,
+        "description": "DNSLOG Platform"
+    },
+    "https://www.callback.red": {
+        "status_code": 200,
+        "description": "CallBack.Red Dns、Http、Rmi、Ldap Log、CmdtoDNSLog"
+    },
+    "https://www.seebug.org/": {
+        "status_code": 521,
+        "description": ""
+    },
+    "https://www.bugku.com/tools/jsfuck/": {
+        "status_code": 200,
+        "description": "JSFuck - 在线加解密"
+    },
+    "https://processhacker.sourceforge.io/": {
+        "status_code": 200,
+        "description": "Overview - Process Hacker"
+    },
+    "http://www.hiencode.com/bubble.html": {
+        "status_code": 200,
+        "description": "CTF在线工具-在线BubbleBabble编码|Bubble编码|BubbleBabble解码|BubbleBabble编码原理|BubbleBabble编码算法"
+    },
+    "http://rootkiter.com/Termite/": {
+        "status_code": 200,
+        "description": "Termite"
+    },
+    "https://api.dujin.org/baijiaxing/": {
+        "status_code": 200,
+        "description": "百家姓"
+    },
+    "http://rkhunter.sourceforge.net/": {
+        "status_code": 200,
+        "description": "The Rootkit Hunter project"
+    },
+    "http://dnslog.pw/login": {
+        "status_code": 200,
+        "description": "登录 - DNSlog System"
+    },
+    "http://www.jsons.cn/rabbitencrypt/": {
+        "status_code": 200,
+        "description": "Rabbit加密-Rabbit解密-在线Rabbit加密解密工具"
+    },
+    "https://docs.microsoft.com/zh-cn/sysinternals/downloads/": {
+        "status_code": 200,
+        "description": "Sysinternals 实用工具 - Sysinternals | Microsoft Learn"
+    },
+    "http://www.hiencode.com/jsfuck.html": {
+        "status_code": 200,
+        "description": "CTF在线工具-在线JSfuck加密|在线JSfuck解密|JSfuck|JSfuck原理|JSfuck算法"
+    },
+    "https://the-x.cn/encodings/Hex.aspx": {
+        "status_code": 200,
+        "description": "HEX转字符 十六进制转字符  hex gb2312 gbk utf8 汉字内码转换 - The X 在线工具"
+    },
+    "http://www.hiencode.com/xxencode.html": {
+        "status_code": 200,
+        "description": "CTF在线工具-在线XXencode编码|XX编码|XXencode解码|XXencode编码原理|XXencode编码算法"
+    },
+    "https://www.d99net.net/": {
+        "status_code": 200,
+        "description": "Dܷǽ"
+    },
+    "http://www.ctftools.com/": {
+        "status_code": 200,
+        "description": "CTF资源库|CTF工具下载|CTF工具包|CTF工具集合"
+    },
+    "http://rips-scanner.sourceforge.net": {
+        "status_code": 200,
+        "description": "RIPS - free PHP security scanner using static code analysis"
+    },
+    "http://ceye.io": {
+        "status_code": 200,
+        "description": "CEYE - Monitor service for security testing"
+    },
+    "https://www.zoomeye.org/": {
+        "status_code": 200,
+        "description": "ZoomEye - Cyberspace Search Engine"
+    },
+    "https://www.bejson.com/convert/ox2str/": {
+        "status_code": 200,
+        "description": "16进制到文本字符串的转换，16进制-BeJSON.com"
+    },
+    "https://map.variflight.com": {
+        "status_code": 200,
+        "description": "VariFlight Map"
+    },
+    "http://codertab.com/JsUnFuck": {
+        "status_code": 200,
+        "description": "CoderTab - JSUnFuck - Decode JSFuck Here"
+    },
+    "https://ctf.bugku.com/tool/hill": {
+        "status_code": 200,
+        "description": "希尔(Hill Cipher)加密/解密 - Bugku CTF"
+    },
+    "http://www.hiencode.com/": {
+        "status_code": 200,
+        "description": "CTF在线工具-CTF工具|CTF编码|CTF密码学|CTF加解密|程序员工具|在线编解码"
+    },
+    "https://www.boxentriq.com/code-breaking/affine-cipher": {
+        "status_code": 200,
+        "description": "Affine Cipher (online tool) | Boxentriq"
+    },
+    "http://www.hiencode.com/jjencode.html": {
+        "status_code": 200,
+        "description": "CTF在线工具-在线JJencode编码|JJ编码|JJencode解码|JJencode编码原理|JJencode编码算法"
+    },
+    "https://ctf.bugku.com/tool/base100": {
+        "status_code": 200,
+        "description": "BASE100编码解码 - Bugku CTF"
+    },
+    "https://xz.aliyun.com/t/9382": {
+        "status_code": 200,
+        "description": ""
+    },
+    "https://www.qqxiuzi.cn/bianma/yincangjiami.php": {
+        "status_code": 200,
+        "description": "文本隐藏加密 - 千千秀字"
+    },
+    "https://ctf.bugku.com/tool/tripledes": {
+        "status_code": 200,
+        "description": "Triple DES(3DES)加密/解密 - Bugku CTF"
+    },
+    "http://ctf.ssleye.com/tapcode.html": {
+        "status_code": 200,
+        "description": "CTF在线工具-在线敲击码|敲击码编码|敲击码算法|tap code"
+    },
+    "http://utf-8.jp/public/aaencode.html": {
+        "status_code": 200,
+        "description": "aaencode - Encode any JavaScript program to Japanese style emoticons (^_^)"
+    },
+    "https://www.splitbrain.org/services/ook": {
+        "status_code": 200,
+        "description": "Brainfuck/Ook! Obfuscation/Encoding [splitbrain.org]"
+    },
+    "https://tool.lu/": {
+        "status_code": 200,
+        "description": "在线工具 - 你的工具箱"
+    },
+    "https://aghorler.github.io/emoji-aes/": {
+        "status_code": 200,
+        "description": "emoji-aes"
+    },
+    "https://www.qqxiuzi.cn/bianma/wenbenjiami.php": {
+        "status_code": 200,
+        "description": "文本加密为汉字,可自设密码|文本在线加密解密工具"
+    },
+    "https://lesuobingdu.qianxin.com/": {
+        "status_code": 200,
+        "description": "勒索病毒搜索"
+    },
+    "https://www.exploit-db.com": {
+        "status_code": 200,
+        "description": "Exploit Database - Exploits for Penetration Testers, Researchers, and Ethical Hackers"
+    },
+    "http://coolaf.com/tool/port": {
+        "status_code": 200,
+        "description": "在线端口检测,端口扫描,端口开放检查-在线工具-postjson"
+    },
+    "http://330k.github.io/misc_tools/unicode_steganography.html": {
+        "status_code": 200,
+        "description": "Unicode Steganography with Zero-Width Characters"
+    },
+    "http://www.hiencode.com/brain.html": {
+        "status_code": 200,
+        "description": "CTF在线工具-在线Brainfuck加密|在线Brainfuck解密|Brainfuck|Brainfuck原理|Brainfuck算法"
+    },
+    "http://www.hiencode.com/cvencode.html": {
+        "status_code": 200,
+        "description": "CTF在线工具-在线核心价值观编码|核心价值观编码算法|Core Values Encoder"
+    },
+    "https://www.microsoft.com/en-us/download/details.aspx?id=24659": {
+        "status_code": 200,
+        "description": "Download Log Parser 2.2 from Official Microsoft Download Center"
+    },
+    "https://www.ifm.net.nz/cookbooks/passwordcracker.html": {
+        "status_code": 200,
+        "description": "IFM - Cisco Password Cracker"
+    },
+    "http://tool.cc/port/": {
+        "status_code": 200,
+        "description": "在线端口扫描,IP/服务器端口在线扫描 - TooL.cc"
+    },
+    "http://www.shelldetector.com/": {
+        "status_code": 200,
+        "description": "Web Shell Detector"
+    },
+    "https://sourceforge.net/projects/visualcodegrepp/": {
+        "status_code": 200,
+        "description": "VisualCodeGrepper V2.3.2 download | SourceForge.net"
+    },
+    "http://dhsrc.dhgate.com/": {
+        "status_code": 200,
+        "description": "DHSRC        安全应急响应中心"
+    },
+    "https://lesuo.venuseye.com.cn/": {
+        "status_code": 200,
+        "description": "VenusEye勒索病毒搜索引擎"
+    },
+    "https://www.qqxiuzi.cn/bianma/zhalanmima.php": {
+        "status_code": 200,
+        "description": "栅栏密码在线加密解密 - 千千秀字"
+    },
+    "https://wiki.teamssix.com/About/": {
+        "status_code": 200,
+        "description": "关于文库 | T Wiki"
+    },
+    "https://www.nirsoft.net/utils/full_event_log_view.html": {
+        "status_code": 200,
+        "description": "FullEventLogView - Event Log Viewer for Windows 11 / 10 / 8 / 7 / Vista"
+    },
+    "https://www.pentesterlab.com/exercises/web_for_pentester/course": {
+        "status_code": 200,
+        "description": "PentesterLab: Learn Web App Pentesting!"
+    },
+    "https://forum.ywhack.com/bountytips.php?download": {
+        "status_code": 200,
+        "description": "[~]#棱角 ::Edge.Forum*"
+    },
+    "https://hackmyvm.eu/anon/": {
+        "status_code": 200,
+        "description": "HackMyVM | Anonymous"
+    },
+    "https://search.censys.io/": {
+        "status_code": 403,
+        "description": "Just a moment..."
+    },
+    "https://dvwa.co.uk/": {
+        "status_code": 200,
+        "description": ""
+    },
+    "https://www.fujieace.com/hacker/tools/yujian.html": {
+        "status_code": 200,
+        "description": "御剑后台扫描工具下载、安装、使用教程 - 付杰博客"
+    },
+    "https://n.shellpub.com/": {
+        "status_code": 200,
+        "description": "SHELLPUB.COM在线查杀"
+    },
+    "https://www.sojson.com/encrypt.html": {
+        "status_code": 200,
+        "description": "在线加密/解密，对称加密/非对称加密"
+    },
+    "http://web.chacuo.net/charsetuuencode": {
+        "status_code": 200,
+        "description": "在线UUencode编码|在线UUencode解码|UU编码|UU解码|UUencode编码原理介绍--查错网"
+    },
+    "https://lesuobingdu.360.cn/": {
+        "status_code": 200,
+        "description": "安全卫士勒索病毒专题:文件恢复_安全卫士离线救灾版_文档卫士"
+    },
+    "https://keep.huoxian.cn/": {
+        "status_code": 200,
+        "description": "火线"
+    },
+    "http://www.dnslog.cn": {
+        "status_code": 200,
+        "description": "DNSLog Platform"
+    },
+    "https://rkhunter.sourceforge.net/": {
+        "status_code": 200,
+        "description": "The Rootkit Hunter project"
+    },
+    "https://edr.sangfor.com.cn/#/information/ransom_search": {
+        "status_code": 200,
+        "description": "深信服EDR"
+    },
+    "http://www.scanvir.com/": {
+        "status_code": 200,
+        "description": "ScanVir - 云鉴定网 - 威胁情报|云扫描|多引擎在线杀毒|可疑文件分析"
+    },
+    "https://forum.ywhack.com/bountytips.php?password": {
+        "status_code": 200,
+        "description": "[~]#棱角 ::Edge.Forum*"
+    },
+    "https://rapiddns.io/subdomain": {
+        "status_code": 200,
+        "description": "Subdomain - RapidDNS Rapid DNS Information Collection"
+    },
+    "http://www.zhongguosou.com/zonghe/moErSiCodeConverter.aspx": {
+        "status_code": 200,
+        "description": "摩尔斯电码转换器：在线进行摩尔斯电码和英文字母的相互转换，可以把莫尔斯电码转换为英文字母，也可把英文字母转换为摩尔斯电码"
+    },
+    "https://security.apple.com/bounty/": {
+        "status_code": 200,
+        "description": "Bounty - Apple Security Research"
+    },
+    "https://habo.qq.com/": {
+        "status_code": 200,
+        "description": "腾讯哈勃分析系统"
+    },
+    "https://forum.ywhack.com/bountytips.php?huawei": {
+        "status_code": 200,
+        "description": "[~]#棱角 ::Edge.Forum*"
+    },
+    "https://ideone.com/": {
+        "status_code": 200,
+        "description": "Online Compiler and IDE >> C/C++, Java, PHP, Python, Perl and 70+ other compilers and interpreters - Ideone.com"
+    },
+    "https://www.sojson.com/hexadecimal.html": {
+        "status_code": 200,
+        "description": "16进制转换，16进制转换文本字符串，在线16进制转换 | 在线工具"
+    },
+    "http://www.atoolbox.net/Tool.php?Id=703": {
+        "status_code": 200,
+        "description": "AAEncode加密/解密 - 一个工具箱 - 好用的在线工具都在这里！"
+    },
+    "http://bypass.tidesec.com/": {
+        "status_code": 200,
+        "description": "潮影在线免杀平台"
+    },
+    "http://www.keyfc.net/bbs/tools/tudoucode.aspx": {
+        "status_code": 200,
+        "description": "与佛论禅"
+    },
+    "http://www.factordb.com/index.php": {
+        "status_code": 200,
+        "description": "factordb.com"
+    },
+    "https://www.sojson.com/encrypt_rabbit.html": {
+        "status_code": 200,
+        "description": "在线Rabbit加密 | Rabbit解密- 在线工具"
+    },
+    "https://ti.360.cn/": {
+        "status_code": 200,
+        "description": "360安全大脑"
+    },
+    "https://www.mygeocachingprofile.com/codebreaker.vigenerecipher.aspx": {
+        "status_code": 200,
+        "description": "My Geocaching Profile.com - Vigenere Cipher Codebreaker"
+    },
+    "https://i.hacking8.com/tiquan/": {
+        "status_code": 200,
+        "description": "提权辅助网页 Windows提权辅助"
+    },
+    "https://www.proxifier.com/": {
+        "status_code": 200,
+        "description": "Proxifier - The Most Advanced Proxy Client"
+    },
+    "http://hi.pcmoe.net/buddha.html": {
+        "status_code": 200,
+        "description": "新约佛论禅/佛曰加密 - PcMoe!"
+    },
+    "http://www.hiencode.com/ppencode.html": {
+        "status_code": 200,
+        "description": "CTF在线工具-在线PPencode编码|PP编码|PPencode编码原理|PPencode编码算法"
+    },
+    "https://zb3.me/malbolge-tools/": {
+        "status_code": 200,
+        "description": "Malbolge Tools"
+    },
+    "https://www.cmd5.com/": {
+        "status_code": 200,
+        "description": "md5在线解密破解,md5解密加密"
+    },
+    "https://quake.360.net/quake/#/index": {
+        "status_code": 200,
+        "description": "360网络空间测绘 — 因为看见，所以安全"
+    },
+    "http://web.chacuo.net/charsetxxencode": {
+        "status_code": 200,
+        "description": "在线XXencode编码|在线XXencode解码|XX编码|XX解码|XXencode编码原理介绍--查错网"
+    },
+    "https://fofa.info/": {
+        "status_code": 200,
+        "description": "网络空间测绘，网络空间安全搜索引擎，网络空间搜索引擎，安全态势感知 - FOFA网络空间测绘系统"
+    },
+    "http://security.wanmei.com/": {
+        "status_code": 200,
+        "description": "首页"
+    },
+    "http://www.practicalcryptography.com/ciphers/adfgx-cipher/": {
+        "status_code": 200,
+        "description": "Practical Cryptography"
+    },
+    "https://www.guballa.de/vigenere-solver": {
+        "status_code": 200,
+        "description": "Vigenere Solver | guballa.de"
+    },
+    "http://tools.bugscaner.com/killwebshell/": {
+        "status_code": 200,
+        "description": "在线webshell查杀 - 在线工具"
+    },
+    "https://gtfobins.github.io/": {
+        "status_code": 200,
+        "description": "GTFOBins"
+    },
+    "http://bypass.tidesec.com/web/": {
+        "status_code": 200,
+        "description": "潮影在线免杀平台"
+    },
+    "https://peiqi.wgpsec.org/wiki/system/": {
+        "status_code": 200,
+        "description": "操作系统漏洞 | PeiQi文库"
+    },
+    "http://web.chacuo.net/charsetquotedprintable/": {
+        "status_code": 200,
+        "description": "Quoted-printable编码|Quoted-printable解码|Quoted-printable编码原理介绍--查错网"
+    },
+    "http://www.hiencode.com/uu.html": {
+        "status_code": 200,
+        "description": "CTF在线工具-在线UUencode编码|UU编码|UUencode解码|UUencode编码原理|UUencode编码算法"
+    },
+    "https://ctf.bugku.com/tool/todousharp": {
+        "status_code": 200,
+        "description": "与佛论禅密码 - Bugku CTF"
+    },
+    "http://www.hiencode.com/handycode.html": {
+        "status_code": 200,
+        "description": "CTF在线工具-在线handycode编码|handycode编码|handycode解码|handycode编码原理|handycode编码算法"
     }
 }
