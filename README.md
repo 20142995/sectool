@@ -30,116 +30,116 @@
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [breakautokey](https://github.com/hotzzzzy/breakautokey) breakautokey
 #### 在线工具
 ##### 16进制转字符串
-- <img src="https://favicon.qqsuu.cn/www.bejson.com" alt="" style="height: 20px;"> [www.bejson.com](https://www.bejson.com/convert/ox2str/) 
-- <img src="https://favicon.qqsuu.cn/www.sojson.com" alt="" style="height: 20px;"> [www.sojson.com](https://www.sojson.com/hexadecimal.html) 
+- <img src="https://favicon.qqsuu.cn/www.bejson.com" alt="" style="height: 20px;"> [16进制到文本字符串的转换，16进制-BeJSON.com](https://www.bejson.com/convert/ox2str/) 
+- <img src="https://favicon.qqsuu.cn/www.sojson.com" alt="" style="height: 20px;"> [16进制转换，16进制转换文本字符串，在线16进制转换 | 在线工具](https://www.sojson.com/hexadecimal.html) 
 ##### AAencode颜文字
-- <img src="https://favicon.qqsuu.cn/utf-8.jp" alt="" style="height: 20px;"> [utf-8.jp](http://utf-8.jp/public/aaencode.html) 
-- <img src="https://favicon.qqsuu.cn/www.atoolbox.net" alt="" style="height: 20px;"> [www.atoolbox.net](http://www.atoolbox.net/Tool.php?Id=703) 
-- <img src="https://favicon.qqsuu.cn/www.hiencode.com" alt="" style="height: 20px;"> [www.hiencode.com](http://www.hiencode.com/aaencode.html) 
+- <img src="https://favicon.qqsuu.cn/utf-8.jp" alt="" style="height: 20px;"> [aaencode - Encode any JavaScript program to Japanese style emoticons (^_^)](http://utf-8.jp/public/aaencode.html) 
+- <img src="https://favicon.qqsuu.cn/www.atoolbox.net" alt="" style="height: 20px;"> [AAEncode加密/解密 - 一个工具箱 - 好用的在线工具都在这里！](http://www.atoolbox.net/Tool.php?Id=703) 
+- <img src="https://favicon.qqsuu.cn/www.hiencode.com" alt="" style="height: 20px;"> [CTF在线工具-在线AAencode编码|AA编码|AAencode解码|AAencode编码原理|AAencode编码算法](http://www.hiencode.com/aaencode.html) 
 ##### ADFGX
-- <img src="https://favicon.qqsuu.cn/www.practicalcryptography.com" alt="" style="height: 20px;"> [www.practicalcryptography.com](http://www.practicalcryptography.com/ciphers/adfgx-cipher/) 
+- <img src="https://favicon.qqsuu.cn/www.practicalcryptography.com" alt="" style="height: 20px;"> [Practical Cryptography](http://www.practicalcryptography.com/ciphers/adfgx-cipher/) 
 ##### Brainfuck
 ###### Ook!
-- <img src="https://favicon.qqsuu.cn/www.hiencode.com" alt="" style="height: 20px;"> [www.hiencode.com](http://www.hiencode.com/brain.html) 
-- <img src="https://favicon.qqsuu.cn/www.splitbrain.org" alt="" style="height: 20px;"> [www.splitbrain.org](https://www.splitbrain.org/services/ook) 
+- <img src="https://favicon.qqsuu.cn/www.hiencode.com" alt="" style="height: 20px;"> [CTF在线工具-在线Brainfuck加密|在线Brainfuck解密|Brainfuck|Brainfuck原理|Brainfuck算法](http://www.hiencode.com/brain.html) 
+- <img src="https://favicon.qqsuu.cn/www.splitbrain.org" alt="" style="height: 20px;"> [Brainfuck/Ook! Obfuscation/Encoding [splitbrain.org]](https://www.splitbrain.org/services/ook) 
 ##### BubbleBabble
-- <img src="https://favicon.qqsuu.cn/www.hiencode.com" alt="" style="height: 20px;"> [www.hiencode.com](http://www.hiencode.com/bubble.html) 
+- <img src="https://favicon.qqsuu.cn/www.hiencode.com" alt="" style="height: 20px;"> [CTF在线工具-在线BubbleBabble编码|Bubble编码|BubbleBabble解码|BubbleBabble编码原理|BubbleBabble编码算法](http://www.hiencode.com/bubble.html) 
 ##### DNA基因序列编码
-- <img src="https://favicon.qqsuu.cn/skaminsky115.github.io" alt="" style="height: 20px;"> [skaminsky115.github.io](https://skaminsky115.github.io/nac/DNA-mRNA-Protein_Converter.html) 
+- <img src="https://favicon.qqsuu.cn/skaminsky115.github.io" alt="" style="height: 20px;"> [DNA to mRNA to Protein Converter](https://skaminsky115.github.io/nac/DNA-mRNA-Protein_Converter.html) 
 ##### Handycode
-- <img src="https://favicon.qqsuu.cn/www.hiencode.com" alt="" style="height: 20px;"> [www.hiencode.com](http://www.hiencode.com/handycode.html) 
+- <img src="https://favicon.qqsuu.cn/www.hiencode.com" alt="" style="height: 20px;"> [CTF在线工具-在线handycode编码|handycode编码|handycode解码|handycode编码原理|handycode编码算法](http://www.hiencode.com/handycode.html) 
 ##### JJencode
-- <img src="https://favicon.qqsuu.cn/www.hiencode.com" alt="" style="height: 20px;"> [www.hiencode.com](http://www.hiencode.com/jjencode.html) 
+- <img src="https://favicon.qqsuu.cn/www.hiencode.com" alt="" style="height: 20px;"> [CTF在线工具-在线JJencode编码|JJ编码|JJencode解码|JJencode编码原理|JJencode编码算法](http://www.hiencode.com/jjencode.html) 
 ##### JSfuck
-- <img src="https://favicon.qqsuu.cn/codertab.com" alt="" style="height: 20px;"> [codertab.com](http://codertab.com/JsUnFuck) 
-- <img src="https://favicon.qqsuu.cn/www.hiencode.com" alt="" style="height: 20px;"> [www.hiencode.com](http://www.hiencode.com/jsfuck.html) 
-- <img src="https://favicon.qqsuu.cn/www.bugku.com" alt="" style="height: 20px;"> [www.bugku.com](https://www.bugku.com/tools/jsfuck/) 
+- <img src="https://favicon.qqsuu.cn/codertab.com" alt="" style="height: 20px;"> [CoderTab - JSUnFuck - Decode JSFuck Here](http://codertab.com/JsUnFuck) 
+- <img src="https://favicon.qqsuu.cn/www.hiencode.com" alt="" style="height: 20px;"> [CTF在线工具-在线JSfuck加密|在线JSfuck解密|JSfuck|JSfuck原理|JSfuck算法](http://www.hiencode.com/jsfuck.html) 
+- <img src="https://favicon.qqsuu.cn/www.bugku.com" alt="" style="height: 20px;"> [JSFuck - 在线加解密](https://www.bugku.com/tools/jsfuck/) 
 ##### MD5
-- <img src="https://favicon.qqsuu.cn/www.cmd5.com" alt="" style="height: 20px;"> [www.cmd5.com](https://www.cmd5.com/) 
+- <img src="https://favicon.qqsuu.cn/www.cmd5.com" alt="" style="height: 20px;"> [md5在线解密破解,md5解密加密](https://www.cmd5.com/) 
 ##### Quoted-printable
-- <img src="https://favicon.qqsuu.cn/web.chacuo.net" alt="" style="height: 20px;"> [web.chacuo.net](http://web.chacuo.net/charsetquotedprintable/) 
+- <img src="https://favicon.qqsuu.cn/web.chacuo.net" alt="" style="height: 20px;"> [Quoted-printable编码|Quoted-printable解码|Quoted-printable编码原理介绍--查错网](http://web.chacuo.net/charsetquotedprintable/) 
 ##### ROT
-- <img src="https://favicon.qqsuu.cn/www.qqxiuzi.cn" alt="" style="height: 20px;"> [www.qqxiuzi.cn](https://www.qqxiuzi.cn/bianma/rot5-13-18-47.php) 
+- <img src="https://favicon.qqsuu.cn/www.qqxiuzi.cn" alt="" style="height: 20px;"> [404 Not Found](https://www.qqxiuzi.cn/bianma/rot5-13-18-47.php) 
 ##### RSA大数分解
-- <img src="https://favicon.qqsuu.cn/www.factordb.com" alt="" style="height: 20px;"> [www.factordb.com](http://www.factordb.com/index.php) 
+- <img src="https://favicon.qqsuu.cn/www.factordb.com" alt="" style="height: 20px;"> [factordb.com](http://www.factordb.com/index.php) 
 ##### Rabbit
-- <img src="https://favicon.qqsuu.cn/www.jsons.cn" alt="" style="height: 20px;"> [www.jsons.cn](http://www.jsons.cn/rabbitencrypt/) 
-- <img src="https://favicon.qqsuu.cn/www.sojson.com" alt="" style="height: 20px;"> [www.sojson.com](https://www.sojson.com/encrypt_rabbit.html) 
+- <img src="https://favicon.qqsuu.cn/www.jsons.cn" alt="" style="height: 20px;"> [Rabbit加密-Rabbit解密-在线Rabbit加密解密工具](http://www.jsons.cn/rabbitencrypt/) 
+- <img src="https://favicon.qqsuu.cn/www.sojson.com" alt="" style="height: 20px;"> [在线Rabbit加密 | Rabbit解密- 在线工具](https://www.sojson.com/encrypt_rabbit.html) 
 ##### Serpent（蛇）
-- <img src="https://favicon.qqsuu.cn/serpent.online-domain-tools.com" alt="" style="height: 20px;"> [serpent.online-domain-tools.com](http://serpent.online-domain-tools.com/) 
+- <img src="https://favicon.qqsuu.cn/serpent.online-domain-tools.com" alt="" style="height: 20px;"> [Serpent Encryption – Easily encrypt or decrypt strings or files](http://serpent.online-domain-tools.com/) 
 ##### UUencode
-- <img src="https://favicon.qqsuu.cn/web.chacuo.net" alt="" style="height: 20px;"> [web.chacuo.net](http://web.chacuo.net/charsetuuencode) 
-- <img src="https://favicon.qqsuu.cn/www.hiencode.com" alt="" style="height: 20px;"> [www.hiencode.com](http://www.hiencode.com/uu.html) 
+- <img src="https://favicon.qqsuu.cn/web.chacuo.net" alt="" style="height: 20px;"> [在线UUencode编码|在线UUencode解码|UU编码|UU解码|UUencode编码原理介绍--查错网](http://web.chacuo.net/charsetuuencode) 
+- <img src="https://favicon.qqsuu.cn/www.hiencode.com" alt="" style="height: 20px;"> [CTF在线工具-在线UUencode编码|UU编码|UUencode解码|UUencode编码原理|UUencode编码算法](http://www.hiencode.com/uu.html) 
 ##### XXencode
-- <img src="https://favicon.qqsuu.cn/web.chacuo.net" alt="" style="height: 20px;"> [web.chacuo.net](http://web.chacuo.net/charsetxxencode) 
-- <img src="https://favicon.qqsuu.cn/www.hiencode.com" alt="" style="height: 20px;"> [www.hiencode.com](http://www.hiencode.com/xxencode.html) 
-- <img src="https://favicon.qqsuu.cn/ctf.bugku.com" alt="" style="height: 20px;"> [ctf.bugku.com](https://ctf.bugku.com/tool/xxencode) 
+- <img src="https://favicon.qqsuu.cn/web.chacuo.net" alt="" style="height: 20px;"> [在线XXencode编码|在线XXencode解码|XX编码|XX解码|XXencode编码原理介绍--查错网](http://web.chacuo.net/charsetxxencode) 
+- <img src="https://favicon.qqsuu.cn/www.hiencode.com" alt="" style="height: 20px;"> [CTF在线工具-在线XXencode编码|XX编码|XXencode解码|XXencode编码原理|XXencode编码算法](http://www.hiencode.com/xxencode.html) 
+- <img src="https://favicon.qqsuu.cn/ctf.bugku.com" alt="" style="height: 20px;"> [XXencode加密/解密 - Bugku CTF](https://ctf.bugku.com/tool/xxencode) 
 ##### base100
-- <img src="https://favicon.qqsuu.cn/ctf.bugku.com" alt="" style="height: 20px;"> [ctf.bugku.com](https://ctf.bugku.com/tool/base100) 
+- <img src="https://favicon.qqsuu.cn/ctf.bugku.com" alt="" style="height: 20px;"> [BASE100编码解码 - Bugku CTF](https://ctf.bugku.com/tool/base100) 
 ##### cisco 密码解密
-- <img src="https://favicon.qqsuu.cn/www.ifm.net.nz" alt="" style="height: 20px;"> [www.ifm.net.nz](https://www.ifm.net.nz/cookbooks/passwordcracker.html) 
+- <img src="https://favicon.qqsuu.cn/www.ifm.net.nz" alt="" style="height: 20px;"> [IFM - Cisco Password Cracker](https://www.ifm.net.nz/cookbooks/passwordcracker.html) 
 ##### cryptojs
-- <img src="https://favicon.qqsuu.cn/ctf.bugku.com" alt="" style="height: 20px;"> [ctf.bugku.com](https://ctf.bugku.com/tool/tripledes) 
-- <img src="https://favicon.qqsuu.cn/www.sojson.com" alt="" style="height: 20px;"> [www.sojson.com](https://www.sojson.com/encrypt.html) 
+- <img src="https://favicon.qqsuu.cn/ctf.bugku.com" alt="" style="height: 20px;"> [Triple DES(3DES)加密/解密 - Bugku CTF](https://ctf.bugku.com/tool/tripledes) 
+- <img src="https://favicon.qqsuu.cn/www.sojson.com" alt="" style="height: 20px;"> [在线加密/解密，对称加密/非对称加密](https://www.sojson.com/encrypt.html) 
 ##### emoji-aes
-- <img src="https://favicon.qqsuu.cn/aghorler.github.io" alt="" style="height: 20px;"> [aghorler.github.io](https://aghorler.github.io/emoji-aes/) 
+- <img src="https://favicon.qqsuu.cn/aghorler.github.io" alt="" style="height: 20px;"> [emoji-aes](https://aghorler.github.io/emoji-aes/) 
 ##### hex转字符
-- <img src="https://favicon.qqsuu.cn/the-x.cn" alt="" style="height: 20px;"> [the-x.cn](https://the-x.cn/encodings/Hex.aspx) 
+- <img src="https://favicon.qqsuu.cn/the-x.cn" alt="" style="height: 20px;"> [HEX转字符 十六进制转字符  hex gb2312 gbk utf8 汉字内码转换 - The X 在线工具](https://the-x.cn/encodings/Hex.aspx) 
 ##### logo编程
-- <img src="https://favicon.qqsuu.cn/www.calormen.com" alt="" style="height: 20px;"> [www.calormen.com](https://www.calormen.com/jslogo/) 
+- <img src="https://favicon.qqsuu.cn/www.calormen.com" alt="" style="height: 20px;"> [Logo Interpreter](https://www.calormen.com/jslogo/) 
 ##### malbolge编程
-- <img src="https://favicon.qqsuu.cn/zb3.me" alt="" style="height: 20px;"> [zb3.me](https://zb3.me/malbolge-tools/) 
+- <img src="https://favicon.qqsuu.cn/zb3.me" alt="" style="height: 20px;"> [Malbolge Tools](https://zb3.me/malbolge-tools/) 
 ##### ppencode
-- <img src="https://favicon.qqsuu.cn/www.hiencode.com" alt="" style="height: 20px;"> [www.hiencode.com](http://www.hiencode.com/ppencode.html) 
+- <img src="https://favicon.qqsuu.cn/www.hiencode.com" alt="" style="height: 20px;"> [CTF在线工具-在线PPencode编码|PP编码|PPencode编码原理|PPencode编码算法](http://www.hiencode.com/ppencode.html) 
 ##### quipqiup
-- <img src="https://favicon.qqsuu.cn/quipqiup.com" alt="" style="height: 20px;"> [quipqiup.com](http://quipqiup.com/) 
+- <img src="https://favicon.qqsuu.cn/quipqiup.com" alt="" style="height: 20px;"> [quipqiup - cryptoquip and cryptogram solver](http://quipqiup.com/) 
 ##### 与佛论禅
-- <img src="https://favicon.qqsuu.cn/hi.pcmoe.net" alt="" style="height: 20px;"> [hi.pcmoe.net](http://hi.pcmoe.net/buddha.html) 
-- <img src="https://favicon.qqsuu.cn/www.keyfc.net" alt="" style="height: 20px;"> [www.keyfc.net](http://www.keyfc.net/bbs/tools/tudoucode.aspx) 
-- <img src="https://favicon.qqsuu.cn/ctf.bugku.com" alt="" style="height: 20px;"> [ctf.bugku.com](https://ctf.bugku.com/tool/todousharp) 
+- <img src="https://favicon.qqsuu.cn/hi.pcmoe.net" alt="" style="height: 20px;"> [新约佛论禅/佛曰加密 - PcMoe!](http://hi.pcmoe.net/buddha.html) 
+- <img src="https://favicon.qqsuu.cn/www.keyfc.net" alt="" style="height: 20px;"> [与佛论禅](http://www.keyfc.net/bbs/tools/tudoucode.aspx) 
+- <img src="https://favicon.qqsuu.cn/ctf.bugku.com" alt="" style="height: 20px;"> [与佛论禅密码 - Bugku CTF](https://ctf.bugku.com/tool/todousharp) 
 ##### 中文加密
-- <img src="https://favicon.qqsuu.cn/www.qqxiuzi.cn" alt="" style="height: 20px;"> [www.qqxiuzi.cn](https://www.qqxiuzi.cn/bianma/wenbenjiami.php) 
+- <img src="https://favicon.qqsuu.cn/www.qqxiuzi.cn" alt="" style="height: 20px;"> [文本加密为汉字,可自设密码|文本在线加密解密工具](https://www.qqxiuzi.cn/bianma/wenbenjiami.php) 
 ##### 仿射密码
-- <img src="https://favicon.qqsuu.cn/www.boxentriq.com" alt="" style="height: 20px;"> [www.boxentriq.com](https://www.boxentriq.com/code-breaking/affine-cipher) 
+- <img src="https://favicon.qqsuu.cn/www.boxentriq.com" alt="" style="height: 20px;"> [Affine Cipher (online tool) | Boxentriq](https://www.boxentriq.com/code-breaking/affine-cipher) 
 ##### 凯撒密码
-- <img src="https://favicon.qqsuu.cn/ctf.bugku.com" alt="" style="height: 20px;"> [ctf.bugku.com](https://ctf.bugku.com/tool/caesar) 
+- <img src="https://favicon.qqsuu.cn/ctf.bugku.com" alt="" style="height: 20px;"> [凯撒(Caesar)加密/解密 - Bugku CTF](https://ctf.bugku.com/tool/caesar) 
 ##### 圣堂武士密码
 - <img src="https://favicon.qqsuu.cn/" alt="" style="height: 20px;"> [](./Plugins/img/shengtangwushi.jpg) 
 ##### 希尔密码
-- <img src="https://favicon.qqsuu.cn/ctf.bugku.com" alt="" style="height: 20px;"> [ctf.bugku.com](https://ctf.bugku.com/tool/hill) 
+- <img src="https://favicon.qqsuu.cn/ctf.bugku.com" alt="" style="height: 20px;"> [希尔(Hill Cipher)加密/解密 - Bugku CTF](https://ctf.bugku.com/tool/hill) 
 ##### 摩尔斯电码
-- <img src="https://favicon.qqsuu.cn/www.zhongguosou.com" alt="" style="height: 20px;"> [www.zhongguosou.com](http://www.zhongguosou.com/zonghe/moErSiCodeConverter.aspx) 
+- <img src="https://favicon.qqsuu.cn/www.zhongguosou.com" alt="" style="height: 20px;"> [摩尔斯电码转换器：在线进行摩尔斯电码和英文字母的相互转换，可以把莫尔斯电码转换为英文字母，也可把英文字母转换为摩尔斯电码](http://www.zhongguosou.com/zonghe/moErSiCodeConverter.aspx) 
 ##### 敲击码
-- <img src="https://favicon.qqsuu.cn/ctf.ssleye.com" alt="" style="height: 20px;"> [ctf.ssleye.com](http://ctf.ssleye.com/tapcode.html) 
+- <img src="https://favicon.qqsuu.cn/ctf.ssleye.com" alt="" style="height: 20px;"> [CTF在线工具-在线敲击码|敲击码编码|敲击码算法|tap code](http://ctf.ssleye.com/tapcode.html) 
 ##### 暴力破解替换
 - <img src="https://favicon.qqsuu.cn/quipqiup.com" alt="" style="height: 20px;"> [quipqiup.com](https://quipqiup.com/) 
 ##### 栅栏密码
-- <img src="https://favicon.qqsuu.cn/www.qqxiuzi.cn" alt="" style="height: 20px;"> [www.qqxiuzi.cn](https://www.qqxiuzi.cn/bianma/zhalanmima.php) 
+- <img src="https://favicon.qqsuu.cn/www.qqxiuzi.cn" alt="" style="height: 20px;"> [栅栏密码在线加密解密 - 千千秀字](https://www.qqxiuzi.cn/bianma/zhalanmima.php) 
 ##### 猪圈密码
-- <img src="https://favicon.qqsuu.cn/ctf.ssleye.com" alt="" style="height: 20px;"> [ctf.ssleye.com](http://ctf.ssleye.com/pigpen.html) 
+- <img src="https://favicon.qqsuu.cn/ctf.ssleye.com" alt="" style="height: 20px;"> [CTF在线工具-在线猪圈密码加密|在线猪圈密码解密|猪圈密码算法|Pigpen Cipher](http://ctf.ssleye.com/pigpen.html) 
 ##### 电报码
-- <img src="https://favicon.qqsuu.cn/www.qqxiuzi.cn" alt="" style="height: 20px;"> [www.qqxiuzi.cn](https://www.qqxiuzi.cn/bianma/dianbao.php) 
+- <img src="https://favicon.qqsuu.cn/www.qqxiuzi.cn" alt="" style="height: 20px;"> [电报码在线翻译（国际摩尔斯电码及中文电码） - 千千秀字](https://www.qqxiuzi.cn/bianma/dianbao.php) 
 ##### 百家姓暗号
-- <img src="https://favicon.qqsuu.cn/api.dujin.org" alt="" style="height: 20px;"> [api.dujin.org](https://api.dujin.org/baijiaxing/) 
+- <img src="https://favicon.qqsuu.cn/api.dujin.org" alt="" style="height: 20px;"> [百家姓](https://api.dujin.org/baijiaxing/) 
 ##### 社会主义核心价值观
-- <img src="https://favicon.qqsuu.cn/www.hiencode.com" alt="" style="height: 20px;"> [www.hiencode.com](http://www.hiencode.com/cvencode.html) 
+- <img src="https://favicon.qqsuu.cn/www.hiencode.com" alt="" style="height: 20px;"> [CTF在线工具-在线核心价值观编码|核心价值观编码算法|Core Values Encoder](http://www.hiencode.com/cvencode.html) 
 ##### 程序代码空白隐藏
-- <img src="https://favicon.qqsuu.cn/ideone.com" alt="" style="height: 20px;"> [ideone.com](https://ideone.com/) 
+- <img src="https://favicon.qqsuu.cn/ideone.com" alt="" style="height: 20px;"> [Online Compiler and IDE >> C/C++, Java, PHP, Python, Perl and 70+ other compilers a...](https://ideone.com/) 
 ##### 维吉尼亚密码
-- <img src="https://favicon.qqsuu.cn/www.guballa.de" alt="" style="height: 20px;"> [www.guballa.de](https://www.guballa.de/vigenere-solver) 
-- <img src="https://favicon.qqsuu.cn/www.mygeocachingprofile.com" alt="" style="height: 20px;"> [www.mygeocachingprofile.com](https://www.mygeocachingprofile.com/codebreaker.vigenerecipher.aspx) 
-- <img src="https://favicon.qqsuu.cn/www.qqxiuzi.cn" alt="" style="height: 20px;"> [www.qqxiuzi.cn](https://www.qqxiuzi.cn/bianma/weijiniyamima.php) 
+- <img src="https://favicon.qqsuu.cn/www.guballa.de" alt="" style="height: 20px;"> [Vigenere Solver | guballa.de](https://www.guballa.de/vigenere-solver) 
+- <img src="https://favicon.qqsuu.cn/www.mygeocachingprofile.com" alt="" style="height: 20px;"> [My Geocaching Profile.com - Vigenere Cipher Codebreaker](https://www.mygeocachingprofile.com/codebreaker.vigenerecipher.aspx) 
+- <img src="https://favicon.qqsuu.cn/www.qqxiuzi.cn" alt="" style="height: 20px;"> [维吉尼亚密码在线加密解密 - 千千秀字](https://www.qqxiuzi.cn/bianma/weijiniyamima.php) 
 ##### 编码解码综合网站
-- <img src="https://favicon.qqsuu.cn/www.hiencode.com" alt="" style="height: 20px;"> [www.hiencode.com](http://www.hiencode.com/) 
-- <img src="https://favicon.qqsuu.cn/ctf.bugku.com" alt="" style="height: 20px;"> [ctf.bugku.com](https://ctf.bugku.com/tools) 
-- <img src="https://favicon.qqsuu.cn/tool.lu" alt="" style="height: 20px;"> [tool.lu](https://tool.lu/) 
+- <img src="https://favicon.qqsuu.cn/www.hiencode.com" alt="" style="height: 20px;"> [CTF在线工具-CTF工具|CTF编码|CTF密码学|CTF加解密|程序员工具|在线编解码](http://www.hiencode.com/) 
+- <img src="https://favicon.qqsuu.cn/ctf.bugku.com" alt="" style="height: 20px;"> [在线工具 - Bugku CTF](https://ctf.bugku.com/tools) 
+- <img src="https://favicon.qqsuu.cn/tool.lu" alt="" style="height: 20px;"> [在线工具 - 你的工具箱](https://tool.lu/) 
 ##### 词频分析
 - <img src="https://favicon.qqsuu.cn/quipqiup.com" alt="" style="height: 20px;"> [quipqiup.com](https://quipqiup.com/) 
 ##### 零宽隐写
-- <img src="https://favicon.qqsuu.cn/330k.github.io" alt="" style="height: 20px;"> [330k.github.io](http://330k.github.io/misc_tools/unicode_steganography.html) 
-- <img src="https://favicon.qqsuu.cn/www.qqxiuzi.cn" alt="" style="height: 20px;"> [www.qqxiuzi.cn](https://www.qqxiuzi.cn/bianma/yincangjiami.php) 
+- <img src="https://favicon.qqsuu.cn/330k.github.io" alt="" style="height: 20px;"> [Unicode Steganography with Zero-Width Characters](http://330k.github.io/misc_tools/unicode_steganography.html) 
+- <img src="https://favicon.qqsuu.cn/www.qqxiuzi.cn" alt="" style="height: 20px;"> [文本隐藏加密 - 千千秀字](https://www.qqxiuzi.cn/bianma/yincangjiami.php) 
 ##### 音乐符号加密
-- <img src="https://favicon.qqsuu.cn/www.qqxiuzi.cn" alt="" style="height: 20px;"> [www.qqxiuzi.cn](https://www.qqxiuzi.cn/bianma/wenbenjiami.php?s=yinyue) 
+- <img src="https://favicon.qqsuu.cn/www.qqxiuzi.cn" alt="" style="height: 20px;"> [文本加密为音乐符号,可自设密码|文本在线加密解密工具](https://www.qqxiuzi.cn/bianma/wenbenjiami.php?s=yinyue) 
 #### 现代密码
 ##### RSA
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [RsaCtfTool](https://github.com/RsaCtfTool/RsaCtfTool) 
@@ -156,7 +156,7 @@
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [QrScan v2.9.0](https://github.com/zfb132/QrScan) 离线批量检测图片是否包含二维码以及识别二维码
 #### 情报收集
 ##### 航线图
-- <img src="https://favicon.qqsuu.cn/map.variflight.com" alt="" style="height: 20px;"> [map.variflight.com](https://map.variflight.com) 
+- <img src="https://favicon.qqsuu.cn/map.variflight.com" alt="" style="height: 20px;"> [VariFlight Map](https://map.variflight.com) 
 #### 综合
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [qsnctf-python 0.0.8.10](https://github.com/Moxin1044/qsnctf-python) 青少年CTF的Python包，方便大家调用一些CTF常用功能。
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [CTF-Tools v1.3.7](https://github.com/qianxiao996/CTF-Tools) 一款Python+Pyqt写的CTF编码、解码、加密、解密工具。
@@ -200,7 +200,7 @@
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [ctf-tools](https://github.com/ctf-wiki/ctf-tools) CTF 工具集合
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [ctf-challenges](https://github.com/ctf-wiki/ctf-challenges) 
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [ctf_ics_traffic](https://github.com/NewBee119/ctf_ics_traffic) 工控CTF比赛工具，各种网络数据包处理脚本
-- <img src="https://favicon.qqsuu.cn/www.ctftools.com" alt="" style="height: 20px;"> [www.ctftools.com](http://www.ctftools.com/) 
+- <img src="https://favicon.qqsuu.cn/www.ctftools.com" alt="" style="height: 20px;"> [CTF资源库|CTF工具下载|CTF工具包|CTF工具集合](http://www.ctftools.com/) 
 ## 红队
 ### Web安全
 #### 漏洞利用库
@@ -443,15 +443,15 @@
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [Goby Beta2.2.0](https://github.com/gobysec/Goby) Attack surface mapping
 ##### 在线辅助
 ###### DNSLOG平台
-- <img src="https://favicon.qqsuu.cn/ceye.io" alt="" style="height: 20px;"> [ceye.io](http://ceye.io) 
-- <img src="https://favicon.qqsuu.cn/dnslog.pw" alt="" style="height: 20px;"> [dnslog.pw](http://dnslog.pw/login) 
-- <img src="https://favicon.qqsuu.cn/www.dnslog.cn" alt="" style="height: 20px;"> [www.dnslog.cn](http://www.dnslog.cn) 
-- <img src="https://favicon.qqsuu.cn/dig.pm" alt="" style="height: 20px;"> [dig.pm](https://dig.pm) 
-- <img src="https://favicon.qqsuu.cn/www.callback.red" alt="" style="height: 20px;"> [www.callback.red](https://www.callback.red) 
+- <img src="https://favicon.qqsuu.cn/ceye.io" alt="" style="height: 20px;"> [CEYE - Monitor service for security testing](http://ceye.io) 
+- <img src="https://favicon.qqsuu.cn/dnslog.pw" alt="" style="height: 20px;"> [登录 - DNSlog System](http://dnslog.pw/login) 
+- <img src="https://favicon.qqsuu.cn/www.dnslog.cn" alt="" style="height: 20px;"> [DNSLog Platform](http://www.dnslog.cn) 
+- <img src="https://favicon.qqsuu.cn/dig.pm" alt="" style="height: 20px;"> [DNSLOG Platform](https://dig.pm) 
+- <img src="https://favicon.qqsuu.cn/www.callback.red" alt="" style="height: 20px;"> [CallBack.Red Dns、Http、Rmi、Ldap Log、CmdtoDNSLog](https://www.callback.red) 
 ###### 反弹shell
-- <img src="https://favicon.qqsuu.cn/forum.ywhack.com" alt="" style="height: 20px;"> [forum.ywhack.com](https://forum.ywhack.com/shell.php) 
+- <img src="https://favicon.qqsuu.cn/forum.ywhack.com" alt="" style="height: 20px;"> [[~]#棱角 ::Edge.Forum*](https://forum.ywhack.com/shell.php) 
 ###### 文件下载
-- <img src="https://favicon.qqsuu.cn/forum.ywhack.com" alt="" style="height: 20px;"> [forum.ywhack.com](https://forum.ywhack.com/bountytips.php?download) 
+- <img src="https://favicon.qqsuu.cn/forum.ywhack.com" alt="" style="height: 20px;"> [[~]#棱角 ::Edge.Forum*](https://forum.ywhack.com/bountytips.php?download) 
 ##### 子域接管
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [SubOver v1.2](https://github.com/Ice3man543/SubOver) A Powerful Subdomain Takeover Tool
 ##### 常规web漏洞
@@ -583,8 +583,8 @@
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [Report_Public](https://github.com/DVPNET/Report_Public)  DVPNET 公开漏洞知识库
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [yougar0.github.io](https://github.com/heise5yuetian/yougar0.github.io) 漏洞知识库
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [VulWiki](https://github.com/Ares-X/VulWiki) VulWiki
-- <img src="https://favicon.qqsuu.cn/peiqi.wgpsec.org" alt="" style="height: 20px;"> [peiqi.wgpsec.org](https://peiqi.wgpsec.org/wiki/system/) 
-- <img src="https://favicon.qqsuu.cn/wiki.teamssix.com" alt="" style="height: 20px;"> [wiki.teamssix.com](https://wiki.teamssix.com/About/) 
+- <img src="https://favicon.qqsuu.cn/peiqi.wgpsec.org" alt="" style="height: 20px;"> [操作系统漏洞 | PeiQi文库](https://peiqi.wgpsec.org/wiki/system/) 
+- <img src="https://favicon.qqsuu.cn/wiki.teamssix.com" alt="" style="height: 20px;"> [关于文库 | T Wiki](https://wiki.teamssix.com/About/) 
 ##### 漏洞检测利用仓库
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [PocOrExp_in_Github](https://github.com/ycdxsb/PocOrExp_in_Github) 
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [vulnerability](https://github.com/lal0ne/vulnerability) 
@@ -618,7 +618,7 @@
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [CMS-Exploit-Framework](https://github.com/Q2h1Cg/CMS-Exploit-Framework) CMS Exploit Framework
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [cmsPoc](https://github.com/CHYbeta/cmsPoc) 
 #### 漏洞利用库（在线）
-- <img src="https://favicon.qqsuu.cn/www.exploit-db.com" alt="" style="height: 20px;"> [www.exploit-db.com](https://www.exploit-db.com) 
+- <img src="https://favicon.qqsuu.cn/www.exploit-db.com" alt="" style="height: 20px;"> [Exploit Database - Exploits for Penetration Testers, Researchers, and Ethical Hacke...](https://www.exploit-db.com) 
 #### 漏洞发现库
 ##### 中间件&框架漏洞扫描
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [Artillery v1.0_20220519](https://github.com/Weik1/Artillery) JAVA 插件化漏洞扫描器，Gui基于javafx。POC 目前集成 Weblogic、Tomcat、Shiro、Sp...
@@ -650,11 +650,11 @@
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [chatGPT-CodeReview v0.1.1](https://github.com/Kento-Sec/chatGPT-CodeReview) 这是一个调用chatGPT进行代码审计的工具
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [fortify](https://github.com/liweibin123/fortify) fortify内置规则加密破解
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [cobra](https://github.com/wufeifei/cobra) 
-- <img src="https://favicon.qqsuu.cn/sourceforge.net" alt="" style="height: 20px;"> [sourceforge.net](https://sourceforge.net/projects/visualcodegrepp/) 
-- <img src="https://favicon.qqsuu.cn/www.sonarqube.org" alt="" style="height: 20px;"> [www.sonarqube.org](https://www.sonarqube.org) 
+- <img src="https://favicon.qqsuu.cn/sourceforge.net" alt="" style="height: 20px;"> [VisualCodeGrepper V2.3.2 download | SourceForge.net](https://sourceforge.net/projects/visualcodegrepp/) 
+- <img src="https://favicon.qqsuu.cn/www.sonarqube.org" alt="" style="height: 20px;"> [Code Quality, Security & Static Analysis Tool with SonarQube  | Sonar](https://www.sonarqube.org) 
 ###### php
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [cnseay](https://github.com/f1tz/cnseay) Seay源代码审计系统
-- <img src="https://favicon.qqsuu.cn/rips-scanner.sourceforge.net" alt="" style="height: 20px;"> [rips-scanner.sourceforge.net](http://rips-scanner.sourceforge.net) 
+- <img src="https://favicon.qqsuu.cn/rips-scanner.sourceforge.net" alt="" style="height: 20px;"> [RIPS - free PHP security scanner using static code analysis](http://rips-scanner.sourceforge.net) 
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [phpvulhunter](https://github.com/OneSourceCat/phpvulhunter) 
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [phptrace](https://github.com/Qihoo360/phptrace) 
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [php-reaper](https://github.com/emanuil/php-reaper) 
@@ -858,11 +858,11 @@
 #### 反查域名
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [ipInfoSearch](https://github.com/Potato-py/ipInfoSearch) ip域名反查、权重查询以及ICP备案查询。便于提交SRC时资产过滤。
 #### 在线资产测绘平台
-- <img src="https://favicon.qqsuu.cn/fofa.info" alt="" style="height: 20px;"> [fofa.info](https://fofa.info/) 
-- <img src="https://favicon.qqsuu.cn/quake.360.net" alt="" style="height: 20px;"> [quake.360.net](https://quake.360.net/quake/#/index) 
-- <img src="https://favicon.qqsuu.cn/search.censys.io" alt="" style="height: 20px;"> [search.censys.io](https://search.censys.io/) 
-- <img src="https://favicon.qqsuu.cn/www.shodan.io" alt="" style="height: 20px;"> [www.shodan.io](https://www.shodan.io/) 
-- <img src="https://favicon.qqsuu.cn/www.zoomeye.org" alt="" style="height: 20px;"> [www.zoomeye.org](https://www.zoomeye.org/) 
+- <img src="https://favicon.qqsuu.cn/fofa.info" alt="" style="height: 20px;"> [网络空间测绘，网络空间安全搜索引擎，网络空间搜索引擎，安全态势感知 - FOFA网络空间测绘系统](https://fofa.info/) 
+- <img src="https://favicon.qqsuu.cn/quake.360.net" alt="" style="height: 20px;"> [360网络空间测绘 — 因为看见，所以安全](https://quake.360.net/quake/#/index) 
+- <img src="https://favicon.qqsuu.cn/search.censys.io" alt="" style="height: 20px;"> [Just a moment...](https://search.censys.io/) 
+- <img src="https://favicon.qqsuu.cn/www.shodan.io" alt="" style="height: 20px;"> [Shodan Search Engine](https://www.shodan.io/) 
+- <img src="https://favicon.qqsuu.cn/www.zoomeye.org" alt="" style="height: 20px;"> [ZoomEye - Cyberspace Search Engine](https://www.zoomeye.org/) 
 #### 域名信息查询
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [QueryTools](https://github.com/z-bool/QueryTools) IP/域名资产验证神器(补天|权重、CNVD|注册资金)-功能(IP反查域名、域名备案、ICP资产、公司注册资金、权重、IP定位)快速验证是否为...
 #### 子域名收集
@@ -895,7 +895,7 @@
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [Inventus](https://github.com/nmalcolm/Inventus) 
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [domained](https://github.com/reconned/domained) 
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [subdomain3](https://github.com/yanxiu0614/subdomain3) 
-- <img src="https://favicon.qqsuu.cn/rapiddns.io" alt="" style="height: 20px;"> [rapiddns.io](https://rapiddns.io/subdomain) 
+- <img src="https://favicon.qqsuu.cn/rapiddns.io" alt="" style="height: 20px;"> [Subdomain - RapidDNS Rapid DNS Information Collection](https://rapiddns.io/subdomain) 
 #### 小程序信息收集
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [wechat_appinfo_wxapkg](https://github.com/moyuwa/wechat_appinfo_wxapkg) 
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [wxapkgUnpack 1.0](https://github.com/jdr2021/wxapkgUnpack) wxapkg解密解包工具，提供C#和wxappUnpacker两个版本的解包，并提取JS中的URL和IP。
@@ -955,7 +955,7 @@
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [goWAPT](https://github.com/dzonerzy/goWAPT) 
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [cangibrina](https://github.com/fnk0c/cangibrina) 
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [httpscan](https://github.com/zer0h/httpscan) 
-- <img src="https://favicon.qqsuu.cn/www.fujieace.com" alt="" style="height: 20px;"> [www.fujieace.com](https://www.fujieace.com/hacker/tools/yujian.html) 
+- <img src="https://favicon.qqsuu.cn/www.fujieace.com" alt="" style="height: 20px;"> [御剑后台扫描工具下载、安装、使用教程 - 付杰博客](https://www.fujieace.com/hacker/tools/yujian.html) 
 #### 端口扫描
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [naabu](https://github.com/projectdiscovery/naabu) 
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [masscan](https://github.com/robertdavidgraham/masscan) 
@@ -966,8 +966,8 @@
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [scaninfo v1.1.0](https://github.com/redtoolskobe/scaninfo) fast scan for redtools
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [TXPortMap v1.1.2](https://github.com/4dogs-cn/TXPortMap) Port Scanner & Banner Identify From TianXiang
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [yujianportscan](https://github.com/foryujian/yujianportscan) 一个基于VB.NET + IOCP模型开发的高效端口扫描工具，支持IP区间合并，端口区间合并，端口指纹深度探测
-- <img src="https://favicon.qqsuu.cn/coolaf.com" alt="" style="height: 20px;"> [coolaf.com](http://coolaf.com/tool/port) 
-- <img src="https://favicon.qqsuu.cn/tool.cc" alt="" style="height: 20px;"> [tool.cc](http://tool.cc/port/) 
+- <img src="https://favicon.qqsuu.cn/coolaf.com" alt="" style="height: 20px;"> [在线端口检测,端口扫描,端口开放检查-在线工具-postjson](http://coolaf.com/tool/port) 
+- <img src="https://favicon.qqsuu.cn/tool.cc" alt="" style="height: 20px;"> [在线端口扫描,IP/服务器端口在线扫描 - TooL.cc](http://tool.cc/port/) 
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [AutoRecon](https://github.com/Tib3rius/AutoRecon) 
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [network_backdoor_scanner](https://github.com/lcatro/network_backdoor_scanner) 
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [nili](https://github.com/niloofarkheirkhah/nili) 
@@ -1014,7 +1014,7 @@
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [Voyager](https://github.com/xundididi/Voyager) 一个安全工具集合平台，用来提高乙方安全人员的工作效率，请勿用于非法项目
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [WebScan](https://github.com/xuchaoa/WebScan) 正在写的一个资产管理和扫描相结合的分布式扫描器
 #### 资产测绘平台
-- <img src="https://favicon.qqsuu.cn/hunter.qianxin.com" alt="" style="height: 20px;"> [hunter.qianxin.com](https://hunter.qianxin.com/) 
+- <img src="https://favicon.qqsuu.cn/hunter.qianxin.com" alt="" style="height: 20px;"> [鹰图平台](https://hunter.qianxin.com/) 
 #### 资产测绘采集
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [ThunderSearch](https://github.com/xzajyjs/ThunderSearch) 
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [Search_Viewer v3.0](https://github.com/G3et/Search_Viewer) 集Fofa、Hunter鹰图、Shodan、360 quake、Zoomeye 钟馗之眼、censys 为一体的空间测绘gui图...
@@ -1050,9 +1050,9 @@
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [dns2tcp v0.5.2](https://github.com/alex-sector/dns2tcp) 
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [reGeorg](https://github.com/sensepost/reGeorg) The successor to reDuh, pwn a bastion webserver and create SOCKS proxies th...
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [ngrok](https://github.com/inconshreveable/ngrok) Introspected tunnels to localhost
-- <img src="https://favicon.qqsuu.cn/rootkiter.com" alt="" style="height: 20px;"> [rootkiter.com](http://rootkiter.com/Termite/) 
+- <img src="https://favicon.qqsuu.cn/rootkiter.com" alt="" style="height: 20px;"> [Termite](http://rootkiter.com/Termite/) 
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [icmpsh](https://github.com/inquisb/icmpsh) 
-- <img src="https://favicon.qqsuu.cn/www.proxifier.com" alt="" style="height: 20px;"> [www.proxifier.com](https://www.proxifier.com/) 
+- <img src="https://favicon.qqsuu.cn/www.proxifier.com" alt="" style="height: 20px;"> [Proxifier - The Most Advanced Proxy Client](https://www.proxifier.com/) 
 #### 内网信息收集
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [Three-EyedRaven version1.0](https://github.com/zha0gongz1/Three-EyedRaven) 内网探测工具(Internal network detection tool that not contain ...
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [TakeMyRDP](https://github.com/TheD1rkMtr/TakeMyRDP) A keystroke logger targeting the Remote Desktop Protocol (RDP) related pr...
@@ -1107,8 +1107,8 @@
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [traitor v0.0.14](https://github.com/liamg/traitor) :arrow_up: :skull_and_crossbones: :fire: Automatic Linux privesc vi...
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [dirtycow](https://github.com/firefart/dirtycow) Dirty Cow exploit - CVE-2016-5195
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [LinEnum](https://github.com/rebootuser/LinEnum) Scripted Local Linux Enumeration & Privilege Escalation Checks
-- <img src="https://favicon.qqsuu.cn/gtfobins.github.io" alt="" style="height: 20px;"> [gtfobins.github.io](https://gtfobins.github.io/) 
-- <img src="https://favicon.qqsuu.cn/i.hacking8.com" alt="" style="height: 20px;"> [i.hacking8.com](https://i.hacking8.com/tiquan/) 
+- <img src="https://favicon.qqsuu.cn/gtfobins.github.io" alt="" style="height: 20px;"> [GTFOBins](https://gtfobins.github.io/) 
+- <img src="https://favicon.qqsuu.cn/i.hacking8.com" alt="" style="height: 20px;"> [提权辅助网页 Windows提权辅助](https://i.hacking8.com/tiquan/) 
 ##### macos提权
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [macos-kernel-exploits](https://github.com/SecWiki/macos-kernel-exploits) macos-kernel-exploits MacOS平台提权漏洞集合 https://www.sec-wiki.com
 ##### windows提权
@@ -1197,8 +1197,8 @@
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [Schtasks-Backdoor](https://github.com/AV1080p/Schtasks-Backdoor) Powershell 权限维持后门
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [icmpsh](https://github.com/bdamele/icmpsh) Simple reverse ICMP shell
 ##### 在线免杀平台
-- <img src="https://favicon.qqsuu.cn/bypass.tidesec.com" alt="" style="height: 20px;"> [bypass.tidesec.com](http://bypass.tidesec.com/) 
-- <img src="https://favicon.qqsuu.cn/bypass.tidesec.com" alt="" style="height: 20px;"> [bypass.tidesec.com](http://bypass.tidesec.com/web/) 
+- <img src="https://favicon.qqsuu.cn/bypass.tidesec.com" alt="" style="height: 20px;"> [潮影在线免杀平台](http://bypass.tidesec.com/) 
+- <img src="https://favicon.qqsuu.cn/bypass.tidesec.com" alt="" style="height: 20px;"> [潮影在线免杀平台](http://bypass.tidesec.com/web/) 
 ##### 远控
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [sliver](https://github.com/BishopFox/sliver) 
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [Supershell v2.0.0](https://github.com/tdragon6/Supershell) Supershell C2 远控平台，基于反向SSH隧道获取完全交互式Shell
@@ -1230,8 +1230,8 @@
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [About-Attack](https://github.com/lintstar/About-Attack) 一个旨在通过应用场景 / 标签对 Github 红队向工具 / 资源进行分类收集，降低红队技术门槛的手册【持续更新】
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [RedTeamTools](https://github.com/FiveAourThe/RedTeamTools) 分享红队常用的工具
 #### 在线默认口令字典
-- <img src="https://favicon.qqsuu.cn/forum.ywhack.com" alt="" style="height: 20px;"> [forum.ywhack.com](https://forum.ywhack.com/bountytips.php?huawei) 
-- <img src="https://favicon.qqsuu.cn/forum.ywhack.com" alt="" style="height: 20px;"> [forum.ywhack.com](https://forum.ywhack.com/bountytips.php?password) 
+- <img src="https://favicon.qqsuu.cn/forum.ywhack.com" alt="" style="height: 20px;"> [[~]#棱角 ::Edge.Forum*](https://forum.ywhack.com/bountytips.php?huawei) 
+- <img src="https://favicon.qqsuu.cn/forum.ywhack.com" alt="" style="height: 20px;"> [[~]#棱角 ::Edge.Forum*](https://forum.ywhack.com/bountytips.php?password) 
 #### 域环境靶场
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [dragon-lab](https://github.com/0range-x/dragon-lab) 
 #### 字典
@@ -1690,9 +1690,9 @@
 ##### 哥斯拉(Godzilla)流量取证
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [webshell_detect](https://github.com/webraybtl/webshell_detect) webshell_detect
 ### 威胁情报中心
-- <img src="https://favicon.qqsuu.cn/ti.360.cn" alt="" style="height: 20px;"> [ti.360.cn](https://ti.360.cn/) 
+- <img src="https://favicon.qqsuu.cn/ti.360.cn" alt="" style="height: 20px;"> [360安全大脑](https://ti.360.cn/) 
 - <img src="https://favicon.qqsuu.cn/ti.sangfor.com.cn" alt="" style="height: 20px;"> [ti.sangfor.com.cn](https://ti.sangfor.com.cn/analysis-platform) 
-- <img src="https://favicon.qqsuu.cn/wsrc.weibo.com" alt="" style="height: 20px;"> [微博](https://wsrc.weibo.com/) 
+- <img src="https://favicon.qqsuu.cn/wsrc.weibo.com" alt="" style="height: 20px;"> [微博安全应急响应中心](https://wsrc.weibo.com/) 
 ### 安全建设
 #### APT攻击检测
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [Fenrir](https://github.com/Neo23x0/Fenrir) 
@@ -1742,8 +1742,8 @@
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [BackdoorMan](https://github.com/cys3c/BackdoorMan) BackdoorMan is a toolkit that helps you find malicious, hidden and susp...
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [Webshell_finder](https://github.com/chiruom/Webshell_finder) 网站木马检测
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [webshell-find-tools](https://github.com/mornone/webshell-find-tools) 分析web访问日志以及web目录文件属性，用于根据查找可疑后门文件的相关脚本。
-- <img src="https://favicon.qqsuu.cn/www.shelldetector.com" alt="" style="height: 20px;"> [www.shelldetector.com](http://www.shelldetector.com/) 
-- <img src="https://favicon.qqsuu.cn/www.shellpub.com" alt="" style="height: 20px;"> [www.shellpub.com](https://www.shellpub.com/) 
+- <img src="https://favicon.qqsuu.cn/www.shelldetector.com" alt="" style="height: 20px;"> [Web Shell Detector](http://www.shelldetector.com/) 
+- <img src="https://favicon.qqsuu.cn/www.shellpub.com" alt="" style="height: 20px;"> [SHELLPUB.COM 专注查杀，永久免费](https://www.shellpub.com/) 
 ##### 内存马查杀
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [arthas](https://github.com/alibaba/arthas) 
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [tomcat_memshell_scanner0.2](https://github.com/zzhorc/tomcat_memshell_scanner0.2) tomcat的servlet、filter、listener内存马查杀工具
@@ -1753,9 +1753,9 @@
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [copagent](https://github.com/LandGrey/copagent) java memory web shell extracting tool
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [aLIEz](https://github.com/r00t4dm/aLIEz) 杀内存马的工具，欢迎code review，提出更好的意见
 ##### 在线webshell查杀
-- <img src="https://favicon.qqsuu.cn/tools.bugscaner.com" alt="" style="height: 20px;"> [tools.bugscaner.com](http://tools.bugscaner.com/killwebshell/) 
-- <img src="https://favicon.qqsuu.cn/n.shellpub.com" alt="" style="height: 20px;"> [n.shellpub.com](https://n.shellpub.com/) 
-- <img src="https://favicon.qqsuu.cn/www.d99net.net" alt="" style="height: 20px;"> [www.d99net.net](https://www.d99net.net/) 
+- <img src="https://favicon.qqsuu.cn/tools.bugscaner.com" alt="" style="height: 20px;"> [在线webshell查杀 - 在线工具](http://tools.bugscaner.com/killwebshell/) 
+- <img src="https://favicon.qqsuu.cn/n.shellpub.com" alt="" style="height: 20px;"> [SHELLPUB.COM在线查杀](https://n.shellpub.com/) 
+- <img src="https://favicon.qqsuu.cn/www.d99net.net" alt="" style="height: 20px;"> [Dܷǽ](https://www.d99net.net/) 
 #### 威胁情报
 ##### IP分析
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [tig v0.5.4](https://github.com/wgpsec/tig) Threat Intelligence Gathering 威胁情报收集，旨在提高蓝队拿到攻击 IP 后对其进行威胁情报信息收集的效率。
@@ -1779,24 +1779,24 @@
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [LinuxCheck V2.3](https://github.com/al0ne/LinuxCheck) Linux应急处置/信息搜集/漏洞检测工具，支持基础配置/网络流量/任务计划/环境变量/用户信息/Services/bash/恶意文件...
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [uroboros](https://github.com/evilsocket/uroboros) A GNU/Linux monitoring and profiling tool focused on single processes.
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [GScan](https://github.com/grayddq/GScan) 本程序旨在为安全应急响应人员对Linux主机排查时提供便利，实现主机侧Checklist的自动全面化检测，根据检测结果自动数据聚合，进行黑客攻击路径溯源。
-- <img src="https://favicon.qqsuu.cn/rkhunter.sourceforge.net" alt="" style="height: 20px;"> [rkhunter.sourceforge.net](http://rkhunter.sourceforge.net/) 
+- <img src="https://favicon.qqsuu.cn/rkhunter.sourceforge.net" alt="" style="height: 20px;"> [The Rootkit Hunter project](http://rkhunter.sourceforge.net/) 
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [Emergency/blob/master/linux.sh](https://github.com/P4ck/Emergency/blob/master/linux.sh) 
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [whohk](https://github.com/heikanet/whohk) 
-- <img src="https://favicon.qqsuu.cn/rkhunter.sourceforge.net" alt="" style="height: 20px;"> [rkhunter.sourceforge.net](https://rkhunter.sourceforge.net/) 
+- <img src="https://favicon.qqsuu.cn/rkhunter.sourceforge.net" alt="" style="height: 20px;"> [The Rootkit Hunter project](https://rkhunter.sourceforge.net/) 
 ##### Windows应急工具
 ###### windows日志分析
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [APT-Hunter V3.0](https://github.com/ahmedkhlief/APT-Hunter) APT-Hunter is Threat Hunting tool for windows event logs which made...
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [WELA v1.0.0](https://github.com/Yamato-Security/WELA) WELA (Windows Event Log Analyzer): The Swiss Army knife for Windows Eve...
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [windodws-logs-analysis](https://github.com/dogadmin/windodws-logs-analysis) windows日志一键分析小工具
-- <img src="https://favicon.qqsuu.cn/www.microsoft.com" alt="" style="height: 20px;"> [www.microsoft.com](https://www.microsoft.com/en-us/download/details.aspx?id=24659) 
-- <img src="https://favicon.qqsuu.cn/www.nirsoft.net" alt="" style="height: 20px;"> [www.nirsoft.net](https://www.nirsoft.net/utils/full_event_log_view.html) 
+- <img src="https://favicon.qqsuu.cn/www.microsoft.com" alt="" style="height: 20px;"> [Download Log Parser 2.2 from Official Microsoft Download Center](https://www.microsoft.com/en-us/download/details.aspx?id=24659) 
+- <img src="https://favicon.qqsuu.cn/www.nirsoft.net" alt="" style="height: 20px;"> [FullEventLogView - Event Log Viewer for Windows 11 / 10 / 8 / 7 / Vista](https://www.nirsoft.net/utils/full_event_log_view.html) 
 ###### 信息采集
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [winlog](https://github.com/i11us0ry/winlog) 一款基于go的windows信息收集工具，主要收集目标机器rdp端口、mstsc远程连接记录、mstsc密码和安全事件中4624、4625登录事件记录
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [FireKylin v1.4.0](https://github.com/MountCloud/FireKylin) 🔥火麒麟-网络安全应急响应工具(系统痕迹采集)Cybersecurity emergency response tool.👍👍👍
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [dfirtriage](https://github.com/travisfoley/dfirtriage) Digital forensic acquisition tool for Windows based incident response.
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [sysmon-config](https://github.com/SwiftOnSecurity/sysmon-config) Sysmon configuration file template with default high-quality event tr...
 ###### 其他
-- <img src="https://favicon.qqsuu.cn/docs.microsoft.com" alt="" style="height: 20px;"> [docs.microsoft.com](https://docs.microsoft.com/zh-cn/sysinternals/downloads/) 
+- <img src="https://favicon.qqsuu.cn/docs.microsoft.com" alt="" style="height: 20px;"> [Sysinternals 实用工具 - Sysinternals | Microsoft Learn](https://docs.microsoft.com/zh-cn/sysinternals/downloads/) 
 ###### 内核小工具
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [YDArk](https://github.com/ClownQq/YDArk) X64内核小工具
 ###### 异常检测
@@ -1805,21 +1805,21 @@
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [d-eyes v1.1.0](https://github.com/m-sec-org/d-eyes) D-Eyes为M-SEC社区一款检测与响应工具
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [YingJiXiangYing](https://github.com/reto18052015/YingJiXiangYing) 应急响应
 ###### 进程监控
-- <img src="https://favicon.qqsuu.cn/processhacker.sourceforge.io" alt="" style="height: 20px;"> [processhacker.sourceforge.io](https://processhacker.sourceforge.io/) 
+- <img src="https://favicon.qqsuu.cn/processhacker.sourceforge.io" alt="" style="height: 20px;"> [Overview - Process Hacker](https://processhacker.sourceforge.io/) 
 ##### 勒索病毒在线分析
-- <img src="https://favicon.qqsuu.cn/edr.sangfor.com.cn" alt="" style="height: 20px;"> [edr.sangfor.com.cn](https://edr.sangfor.com.cn/#/information/ransom_search) 
-- <img src="https://favicon.qqsuu.cn/guanjia.qq.com" alt="" style="height: 20px;"> [guanjia.qq.com](https://guanjia.qq.com/pr/ls/) 
-- <img src="https://favicon.qqsuu.cn/lesuo.venuseye.com.cn" alt="" style="height: 20px;"> [lesuo.venuseye.com.cn](https://lesuo.venuseye.com.cn/) 
-- <img src="https://favicon.qqsuu.cn/lesuobingdu.360.cn" alt="" style="height: 20px;"> [lesuobingdu.360.cn](https://lesuobingdu.360.cn/) 
-- <img src="https://favicon.qqsuu.cn/lesuobingdu.qianxin.com" alt="" style="height: 20px;"> [lesuobingdu.qianxin.com](https://lesuobingdu.qianxin.com/) 
+- <img src="https://favicon.qqsuu.cn/edr.sangfor.com.cn" alt="" style="height: 20px;"> [深信服EDR](https://edr.sangfor.com.cn/#/information/ransom_search) 
+- <img src="https://favicon.qqsuu.cn/guanjia.qq.com" alt="" style="height: 20px;"> [勒索病毒拦截|文件恢复_文档守护者保护文档安全 - 腾讯电脑管家](https://guanjia.qq.com/pr/ls/) 
+- <img src="https://favicon.qqsuu.cn/lesuo.venuseye.com.cn" alt="" style="height: 20px;"> [VenusEye勒索病毒搜索引擎](https://lesuo.venuseye.com.cn/) 
+- <img src="https://favicon.qqsuu.cn/lesuobingdu.360.cn" alt="" style="height: 20px;"> [安全卫士勒索病毒专题:文件恢复_安全卫士离线救灾版_文档卫士](https://lesuobingdu.360.cn/) 
+- <img src="https://favicon.qqsuu.cn/lesuobingdu.qianxin.com" alt="" style="height: 20px;"> [勒索病毒搜索](https://lesuobingdu.qianxin.com/) 
 ##### 勒索软件
 ###### 解密工具
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [Decryption-Tools](https://github.com/jiansiting/Decryption-Tools) Decryption-Tools
 ##### 在线病毒分析
-- <img src="https://favicon.qqsuu.cn/www.scanvir.com" alt="" style="height: 20px;"> [www.scanvir.com](http://www.scanvir.com/) 
-- <img src="https://favicon.qqsuu.cn/ata.360.net" alt="" style="height: 20px;"> [ata.360.net](https://ata.360.net/) 
+- <img src="https://favicon.qqsuu.cn/www.scanvir.com" alt="" style="height: 20px;"> [ScanVir - 云鉴定网 - 威胁情报|云扫描|多引擎在线杀毒|可疑文件分析](http://www.scanvir.com/) 
+- <img src="https://favicon.qqsuu.cn/ata.360.net" alt="" style="height: 20px;"> [360沙箱云](https://ata.360.net/) 
 ##### 病毒在线分析
-- <img src="https://favicon.qqsuu.cn/habo.qq.com" alt="" style="height: 20px;"> [habo.qq.com](https://habo.qq.com/) 
+- <img src="https://favicon.qqsuu.cn/habo.qq.com" alt="" style="height: 20px;"> [腾讯哈勃分析系统](https://habo.qq.com/) 
 #### 综合
 ##### 分析辅助
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [BlueTeamTools](https://github.com/abc123info/BlueTeamTools) 
@@ -1829,123 +1829,123 @@
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [china-operator-ip](https://github.com/gaoyifan/china-operator-ip) 中国运营商IPv4/IPv6地址库-每日更新
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [GeoIP2-CN](https://github.com/Hackl0us/GeoIP2-CN) 小巧精悍、准确、实用 GeoIP2 数据库
 ### 应急响应中心
-- <img src="https://favicon.qqsuu.cn/dhsrc.dhgate.com" alt="" style="height: 20px;"> [dhsrc.dhgate.com](http://dhsrc.dhgate.com/) 
-- <img src="https://favicon.qqsuu.cn/sec.didichuxing.com" alt="" style="height: 20px;"> [滴滴SRC](http://sec.didichuxing.com/) 
+- <img src="https://favicon.qqsuu.cn/dhsrc.dhgate.com" alt="" style="height: 20px;"> [DHSRC        安全应急响应中心](http://dhsrc.dhgate.com/) 
+- <img src="https://favicon.qqsuu.cn/sec.didichuxing.com" alt="" style="height: 20px;"> [滴滴出行安全应急响应中心](http://sec.didichuxing.com/) 
 - <img src="https://favicon.qqsuu.cn/sec.tuniu.com" alt="" style="height: 20px;"> [途牛安全应急响应中心](http://sec.tuniu.com/) 
 - <img src="https://favicon.qqsuu.cn/security.eastmoney.com" alt="" style="height: 20px;"> [东方财富安全应急响应中心](http://security.eastmoney.com/) 
 - <img src="https://favicon.qqsuu.cn/security.qianmi.com" alt="" style="height: 20px;"> [千米安全应急响应中心](http://security.qianmi.com/) 
-- <img src="https://favicon.qqsuu.cn/security.safedog.cn" alt="" style="height: 20px;"> [安全狗漏洞响应中心](http://security.safedog.cn/index.html) 
-- <img src="https://favicon.qqsuu.cn/security.wanmei.com" alt="" style="height: 20px;"> [security.wanmei.com](http://security.wanmei.com/) 
+- <img src="https://favicon.qqsuu.cn/security.safedog.cn" alt="" style="height: 20px;"> [安全狗漏洞响应中心_首页](http://security.safedog.cn/index.html) 
+- <img src="https://favicon.qqsuu.cn/security.wanmei.com" alt="" style="height: 20px;"> [首页](http://security.wanmei.com/) 
 - <img src="https://favicon.qqsuu.cn/aq.163.com" alt="" style="height: 20px;"> [网易安全中心](https://aq.163.com/) 
-- <img src="https://favicon.qqsuu.cn/asrc.alibaba.com" alt="" style="height: 20px;"> [阿里本地生活SRC](https://asrc.alibaba.com/#/) 
-- <img src="https://favicon.qqsuu.cn/beisen.butian.net" alt="" style="height: 20px;"> [北京北森云计算SRC](https://beisen.butian.net/) 
-- <img src="https://favicon.qqsuu.cn/bsrc.baidu.com" alt="" style="height: 20px;"> [百度SRC](https://bsrc.baidu.com/views/main/index.html#home) 
-- <img src="https://favicon.qqsuu.cn/btcsrc.vulbox.com" alt="" style="height: 20px;"> [贝宝金融安全应急响应中心](https://btcsrc.vulbox.com/) 
-- <img src="https://favicon.qqsuu.cn/bugbounty.huawei.com" alt="" style="height: 20px;"> [华为PSIRT](https://bugbounty.huawei.com/#/home) 
-- <img src="https://favicon.qqsuu.cn/dida.butian.net" alt="" style="height: 20px;"> [嘀嗒出行](https://dida.butian.net/) 
-- <img src="https://favicon.qqsuu.cn/dxysrc.vulbox.com" alt="" style="height: 20px;"> [丁香园安全应急响应中心](https://dxysrc.vulbox.com/) 
-- <img src="https://favicon.qqsuu.cn/fsrc.fuiou.com" alt="" style="height: 20px;"> [富友SRC](https://fsrc.fuiou.com/home/index.html) 
+- <img src="https://favicon.qqsuu.cn/asrc.alibaba.com" alt="" style="height: 20px;"> [ASRC](https://asrc.alibaba.com/#/) 
+- <img src="https://favicon.qqsuu.cn/beisen.butian.net" alt="" style="height: 20px;"> [补天-漏洞_安全|系统漏洞_IoT|APP漏洞_移动|工控漏洞](https://beisen.butian.net/) 
+- <img src="https://favicon.qqsuu.cn/bsrc.baidu.com" alt="" style="height: 20px;"> [百度安全应急响应中心](https://bsrc.baidu.com/views/main/index.html#home) 
+- <img src="https://favicon.qqsuu.cn/btcsrc.vulbox.com" alt="" style="height: 20px;"> [漏洞盒子 | 贝宝金融安全应急响应中心（BTCSRC）](https://btcsrc.vulbox.com/) 
+- <img src="https://favicon.qqsuu.cn/bugbounty.huawei.com" alt="" style="height: 20px;"> [华为安全奖励计划](https://bugbounty.huawei.com/#/home) 
+- <img src="https://favicon.qqsuu.cn/dida.butian.net" alt="" style="height: 20px;"> [补天 - 企业和白帽子共赢的漏洞响应平台，帮助企业建立SRC](https://dida.butian.net/) 
+- <img src="https://favicon.qqsuu.cn/dxysrc.vulbox.com" alt="" style="height: 20px;"> [漏洞盒子 | 丁香园安全应急响应中心（DXYSRC）](https://dxysrc.vulbox.com/) 
+- <img src="https://favicon.qqsuu.cn/fsrc.fuiou.com" alt="" style="height: 20px;"> [富友安全应急响应中心](https://fsrc.fuiou.com/home/index.html) 
 - <img src="https://favicon.qqsuu.cn/isrc.pingan.com" alt="" style="height: 20px;"> [平安安全应急响应中心](https://isrc.pingan.com/homePage/index) 
-- <img src="https://favicon.qqsuu.cn/keep.huoxian.cn" alt="" style="height: 20px;"> [keep.huoxian.cn](https://keep.huoxian.cn/) 
-- <img src="https://favicon.qqsuu.cn/kysrc.vulbox.com" alt="" style="height: 20px;"> [金山云安全应急响应中心](https://kysrc.vulbox.com/) 
+- <img src="https://favicon.qqsuu.cn/keep.huoxian.cn" alt="" style="height: 20px;"> [火线](https://keep.huoxian.cn/) 
+- <img src="https://favicon.qqsuu.cn/kysrc.vulbox.com" alt="" style="height: 20px;"> [漏洞盒子 | 金山云安全应急响应中心（KYSRC）](https://kysrc.vulbox.com/) 
 - <img src="https://favicon.qqsuu.cn/llsrc.huolala.cn" alt="" style="height: 20px;"> [货拉拉安全应急响应中心](https://llsrc.huolala.cn/#/home) 
-- <img src="https://favicon.qqsuu.cn/lsrc.vulbox.com" alt="" style="height: 20px;"> [联想集团安全应急响应中心](https://lsrc.vulbox.com/) 
-- <img src="https://favicon.qqsuu.cn/lxsrc.vulbox.com" alt="" style="height: 20px;"> [乐信集团安全应急响应中心](https://lxsrc.vulbox.com/) 
-- <img src="https://favicon.qqsuu.cn/megvii.huoxian.cn" alt="" style="height: 20px;"> [旷视安全应急响应中心](https://megvii.huoxian.cn/) 
-- <img src="https://favicon.qqsuu.cn/niosrc.bugbank.cn" alt="" style="height: 20px;"> [NIO蔚来安全应急响应中心](https://niosrc.bugbank.cn/) 
-- <img src="https://favicon.qqsuu.cn/pep.butian.net" alt="" style="height: 20px;"> [人民教育出版社](https://pep.butian.net/) 
-- <img src="https://favicon.qqsuu.cn/qianxin.butian.net" alt="" style="height: 20px;"> [奇安信集团](https://qianxin.butian.net/) 
-- <img src="https://favicon.qqsuu.cn/qssrc.vulbox.com" alt="" style="height: 20px;"> [轻松筹安全应急响应中心](https://qssrc.vulbox.com/) 
+- <img src="https://favicon.qqsuu.cn/lsrc.vulbox.com" alt="" style="height: 20px;"> [漏洞盒子 | 联想集团安全应急响应中心](https://lsrc.vulbox.com/) 
+- <img src="https://favicon.qqsuu.cn/lxsrc.vulbox.com" alt="" style="height: 20px;"> [漏洞盒子 | 乐信集团安全应急响应中心](https://lxsrc.vulbox.com/) 
+- <img src="https://favicon.qqsuu.cn/megvii.huoxian.cn" alt="" style="height: 20px;"> [火线](https://megvii.huoxian.cn/) 
+- <img src="https://favicon.qqsuu.cn/niosrc.bugbank.cn" alt="" style="height: 20px;"> [安全应急响应中心](https://niosrc.bugbank.cn/) 
+- <img src="https://favicon.qqsuu.cn/pep.butian.net" alt="" style="height: 20px;"> [补天-漏洞_安全|系统漏洞_IoT|APP漏洞_移动|工控漏洞](https://pep.butian.net/) 
+- <img src="https://favicon.qqsuu.cn/qianxin.butian.net" alt="" style="height: 20px;"> [补天-漏洞_安全|系统漏洞_IoT|APP漏洞_移动|工控漏洞](https://qianxin.butian.net/) 
+- <img src="https://favicon.qqsuu.cn/qssrc.vulbox.com" alt="" style="height: 20px;"> [漏洞盒子 | 轻松筹安全应急响应中心（QSSRC）](https://qssrc.vulbox.com/) 
 - <img src="https://favicon.qqsuu.cn/sec.cainiao.com" alt="" style="height: 20px;"> [菜鸟安全应急响应中心](https://sec.cainiao.com/) 
 - <img src="https://favicon.qqsuu.cn/sec.ctrip.com" alt="" style="height: 20px;"> [携程安全应急响应中心](https://sec.ctrip.com/) 
 - <img src="https://favicon.qqsuu.cn/sec.fadada.com" alt="" style="height: 20px;"> [法大大安全应急响应中心](https://sec.fadada.com) 
-- <img src="https://favicon.qqsuu.cn/sec.huazhu.com" alt="" style="height: 20px;"> [华住安全响应中心](https://sec.huazhu.com/) 
+- <img src="https://favicon.qqsuu.cn/sec.huazhu.com" alt="" style="height: 20px;"> [华住安全响应中心 | Huazhu Security Response Center](https://sec.huazhu.com/) 
 - <img src="https://favicon.qqsuu.cn/sec.ly.com" alt="" style="height: 20px;"> [同程旅行安全应急响应中心](https://sec.ly.com/) 
-- <img src="https://favicon.qqsuu.cn/sec.meizu.com" alt="" style="height: 20px;"> [魅族SRC](https://sec.meizu.com/) 
-- <img src="https://favicon.qqsuu.cn/sec.vip.com" alt="" style="height: 20px;"> [唯品会](https://sec.vip.com/) 
+- <img src="https://favicon.qqsuu.cn/sec.meizu.com" alt="" style="height: 20px;"> [魅族安全中心](https://sec.meizu.com/) 
+- <img src="https://favicon.qqsuu.cn/sec.vip.com" alt="" style="height: 20px;"> [VSRC首页-唯品会信息安全中心](https://sec.vip.com/) 
 - <img src="https://favicon.qqsuu.cn/sec.wacai.com" alt="" style="height: 20px;"> [挖财安全应急响应中心](https://sec.wacai.com/) 
-- <img src="https://favicon.qqsuu.cn/sec.wifi.com" alt="" style="height: 20px;"> [WiFi万能钥匙](https://sec.wifi.com/) 
+- <img src="https://favicon.qqsuu.cn/sec.wifi.com" alt="" style="height: 20px;"> [WIFI万能钥匙安全响应中心](https://sec.wifi.com/) 
 - <img src="https://favicon.qqsuu.cn/sec.xiaomi.com" alt="" style="height: 20px;"> [小米安全中心](https://sec.xiaomi.com/) 
-- <img src="https://favicon.qqsuu.cn/sec.zbj.com" alt="" style="height: 20px;"> [猪八戒SRC](https://sec.zbj.com/) 
-- <img src="https://favicon.qqsuu.cn/sec.zto.com" alt="" style="height: 20px;"> [中通安全应急响应中心](https://sec.zto.com/home) 
-- <img src="https://favicon.qqsuu.cn/security.17zuoye.com" alt="" style="height: 20px;"> [一起教育安全应急响应中心](https://security.17zuoye.com/) 
+- <img src="https://favicon.qqsuu.cn/sec.zbj.com" alt="" style="height: 20px;"> [猪八戒网安全响应中心](https://sec.zbj.com/) 
+- <img src="https://favicon.qqsuu.cn/sec.zto.com" alt="" style="height: 20px;"> [中通安全应急响应中心（ZSRC）](https://sec.zto.com/home) 
+- <img src="https://favicon.qqsuu.cn/security.17zuoye.com" alt="" style="height: 20px;"> [403 Forbidden](https://security.17zuoye.com/) 
 - <img src="https://favicon.qqsuu.cn/security.360.cn" alt="" style="height: 20px;"> [360SRC](https://security.360.cn/) 
-- <img src="https://favicon.qqsuu.cn/security.58.com" alt="" style="height: 20px;"> [58SRC](https://security.58.com/) 
-- <img src="https://favicon.qqsuu.cn/security.alibaba.com" alt="" style="height: 20px;"> [阿里SRC](https://security.alibaba.com/) 
-- <img src="https://favicon.qqsuu.cn/security.alipay.com" alt="" style="height: 20px;"> [蚂蚁集团SRC](https://security.alipay.com/) 
-- <img src="https://favicon.qqsuu.cn/security.apple.com" alt="" style="height: 20px;"> [security.apple.com](https://security.apple.com/bounty/) 
+- <img src="https://favicon.qqsuu.cn/security.58.com" alt="" style="height: 20px;"> [58安全应急响应中心](https://security.58.com/) 
+- <img src="https://favicon.qqsuu.cn/security.alibaba.com" alt="" style="height: 20px;"> [security.alibaba.com](https://security.alibaba.com/) 
+- <img src="https://favicon.qqsuu.cn/security.alipay.com" alt="" style="height: 20px;"> [ϼŰȫӦӦĹ - AntSRC - ϼŰȫӦ,֧ȫӦ,Ͱ©,֧©,ϼ©,©,֥©,ڱ©,©,ϲƸ©,֧鱨,Ͱ鱨,©,֥©,ڱ©,©,ϲƸ©,Ͱ©,֧©,ϼ©,֧鱨,Ͱ鱨](https://security.alipay.com/) 
+- <img src="https://favicon.qqsuu.cn/security.apple.com" alt="" style="height: 20px;"> [Bounty - Apple Security Research](https://security.apple.com/bounty/) 
 - <img src="https://favicon.qqsuu.cn/security.bilibili.com" alt="" style="height: 20px;"> [哔哩哔哩安全应急响应中心](https://security.bilibili.com/) 
-- <img src="https://favicon.qqsuu.cn/security.bytedance.com" alt="" style="height: 20px;"> [字节跳动](https://security.bytedance.com/) 
+- <img src="https://favicon.qqsuu.cn/security.bytedance.com" alt="" style="height: 20px;"> [字节跳动安全中心](https://security.bytedance.com/) 
 - <img src="https://favicon.qqsuu.cn/security.creditease.cn" alt="" style="height: 20px;"> [宜信安全应急响应中心](https://security.creditease.cn/) 
-- <img src="https://favicon.qqsuu.cn/security.dbappsecurity.com.cn" alt="" style="height: 20px;"> [安恒应急响应中心](https://security.dbappsecurity.com.cn/) 
-- <img src="https://favicon.qqsuu.cn/security.dewu.com" alt="" style="height: 20px;"> [得物安全应急响应中心](https://security.dewu.com/) 
-- <img src="https://favicon.qqsuu.cn/security.dji.com" alt="" style="height: 20px;"> [大疆安全应急响应中心](https://security.dji.com/) 
-- <img src="https://favicon.qqsuu.cn/security.douyu.com" alt="" style="height: 20px;"> [斗鱼SRC](https://security.douyu.com/) 
-- <img src="https://favicon.qqsuu.cn/security.duxiaoman.com" alt="" style="height: 20px;"> [度小满SRC](https://security.duxiaoman.com/index.html#/main) 
-- <img src="https://favicon.qqsuu.cn/security.focuschina.com" alt="" style="height: 20px;"> [焦点SRC](https://security.focuschina.com/) 
+- <img src="https://favicon.qqsuu.cn/security.dbappsecurity.com.cn" alt="" style="height: 20px;"> [安全众测平台](https://security.dbappsecurity.com.cn/) 
+- <img src="https://favicon.qqsuu.cn/security.dewu.com" alt="" style="height: 20px;"> [security.dewu.com](https://security.dewu.com/) 
+- <img src="https://favicon.qqsuu.cn/security.dji.com" alt="" style="height: 20px;"> [DJI Security Response Center](https://security.dji.com/) 
+- <img src="https://favicon.qqsuu.cn/security.douyu.com" alt="" style="height: 20px;"> [斗鱼安全应急响应中心 - DYSRC](https://security.douyu.com/) 
+- <img src="https://favicon.qqsuu.cn/security.duxiaoman.com" alt="" style="height: 20px;"> [Vue App](https://security.duxiaoman.com/index.html#/main) 
+- <img src="https://favicon.qqsuu.cn/security.focuschina.com" alt="" style="height: 20px;"> [焦点安全应急响应中心](https://security.focuschina.com/) 
 - <img src="https://favicon.qqsuu.cn/security.guazi.com" alt="" style="height: 20px;"> [瓜子安全应急响应中心](https://security.guazi.com/) 
-- <img src="https://favicon.qqsuu.cn/security.hihonor.com" alt="" style="height: 20px;"> [荣耀SRC](https://security.hihonor.com/src/#/) 
+- <img src="https://favicon.qqsuu.cn/security.hihonor.com" alt="" style="height: 20px;"> [荣耀安全应急响应中心-荣耀安全奖励计划](https://security.hihonor.com/src/#/) 
 - <img src="https://favicon.qqsuu.cn/security.iflytek.com" alt="" style="height: 20px;"> [讯飞安全响应中心](https://security.iflytek.com/) 
 - <img src="https://favicon.qqsuu.cn/security.immomo.com" alt="" style="height: 20px;"> [陌陌安全应急响应中心](https://security.immomo.com/) 
-- <img src="https://favicon.qqsuu.cn/security.intsig.com" alt="" style="height: 20px;"> [合合安全应急响应中心](https://security.intsig.com/) 
+- <img src="https://favicon.qqsuu.cn/security.intsig.com" alt="" style="height: 20px;"> [合合安全应急响应中心 ISRC](https://security.intsig.com/) 
 - <img src="https://favicon.qqsuu.cn/security.iqiyi.com" alt="" style="height: 20px;"> [爱奇艺安全应急响应中心](https://security.iqiyi.com/) 
 - <img src="https://favicon.qqsuu.cn/security.jd.com" alt="" style="height: 20px;"> [京东安全应急响应中心](https://security.jd.com/#/) 
-- <img src="https://favicon.qqsuu.cn/security.jj.cn" alt="" style="height: 20px;"> [竞技世界](https://security.jj.cn/) 
-- <img src="https://favicon.qqsuu.cn/security.kanyun.com" alt="" style="height: 20px;"> [看云安全应急响应中心](https://security.kanyun.com/) 
-- <img src="https://favicon.qqsuu.cn/security.ke.com" alt="" style="height: 20px;"> [贝壳安全](https://security.ke.com/) 
-- <img src="https://favicon.qqsuu.cn/security.kuaikanmanhua.com" alt="" style="height: 20px;"> [快看安全应急响应中心](https://security.kuaikanmanhua.com/) 
-- <img src="https://favicon.qqsuu.cn/security.kuaishou.com" alt="" style="height: 20px;"> [快手SRC](https://security.kuaishou.com/) 
-- <img src="https://favicon.qqsuu.cn/security.kugou.com" alt="" style="height: 20px;"> [酷狗安全应急响应中心](https://security.kugou.com/) 
-- <img src="https://favicon.qqsuu.cn/security.liepin.com" alt="" style="height: 20px;"> [猎聘SRC](https://security.liepin.com/) 
+- <img src="https://favicon.qqsuu.cn/security.jj.cn" alt="" style="height: 20px;"> [ȫӦӦ](https://security.jj.cn/) 
+- <img src="https://favicon.qqsuu.cn/security.kanyun.com" alt="" style="height: 20px;"> [首页 | 看云安全应急响应中心](https://security.kanyun.com/) 
+- <img src="https://favicon.qqsuu.cn/security.ke.com" alt="" style="height: 20px;"> [贝壳安全应急响应中心](https://security.ke.com/) 
+- <img src="https://favicon.qqsuu.cn/security.kuaikanmanhua.com" alt="" style="height: 20px;"> [首页 | 快看安全应急响应中心](https://security.kuaikanmanhua.com/) 
+- <img src="https://favicon.qqsuu.cn/security.kuaishou.com" alt="" style="height: 20px;"> [快手安全应急响应中心](https://security.kuaishou.com/) 
+- <img src="https://favicon.qqsuu.cn/security.kugou.com" alt="" style="height: 20px;"> [首页 | 酷狗安全应急响应中心](https://security.kugou.com/) 
+- <img src="https://favicon.qqsuu.cn/security.liepin.com" alt="" style="height: 20px;"> [猎聘安全应急响应中心](https://security.liepin.com/) 
 - <img src="https://favicon.qqsuu.cn/security.lixiang.com" alt="" style="height: 20px;"> [理想安全应急响应中心](https://security.lixiang.com/index) 
 - <img src="https://favicon.qqsuu.cn/security.mafengwo.cn" alt="" style="height: 20px;"> [马蜂窝安全应急响应中心](https://security.mafengwo.cn/) 
-- <img src="https://favicon.qqsuu.cn/security.mcd.cn" alt="" style="height: 20px;"> [麦当劳中国安全应急响应中心](https://security.mcd.cn/) 
+- <img src="https://favicon.qqsuu.cn/security.mcd.cn" alt="" style="height: 20px;"> [首页 | 麦当劳中国安全应急响应中心](https://security.mcd.cn/) 
 - <img src="https://favicon.qqsuu.cn/security.meituan.com" alt="" style="height: 20px;"> [美团安全应急响应中心](https://security.meituan.com/#/home) 
-- <img src="https://favicon.qqsuu.cn/security.mogu.com" alt="" style="height: 20px;"> [美丽联合集团](https://security.mogu.com) 
-- <img src="https://favicon.qqsuu.cn/security.oppo.com" alt="" style="height: 20px;"> [OPPO安全应急响应中心](https://security.oppo.com/cn/) 
-- <img src="https://favicon.qqsuu.cn/security.oray.com" alt="" style="height: 20px;"> [贝锐安全应急响应中心](https://security.oray.com/) 
+- <img src="https://favicon.qqsuu.cn/security.mogu.com" alt="" style="height: 20px;"> [美丽联合集团安全应急响应中心](https://security.mogu.com) 
+- <img src="https://favicon.qqsuu.cn/security.oppo.com" alt="" style="height: 20px;"> [OPPO安全应急响应中心 | OSRC](https://security.oppo.com/cn/) 
+- <img src="https://favicon.qqsuu.cn/security.oray.com" alt="" style="height: 20px;"> [首页 | 贝锐安全应急响应中心](https://security.oray.com/) 
 - <img src="https://favicon.qqsuu.cn/security.pingan.com" alt="" style="height: 20px;"> [平安安全应急响应中心](https://security.pingan.com/) 
 - <img src="https://favicon.qqsuu.cn/security.rong360.com" alt="" style="height: 20px;"> [融360安全应急响应中心](https://security.rong360.com/#/) 
 - <img src="https://favicon.qqsuu.cn/security.sangfor.com.cn" alt="" style="height: 20px;"> [深信服](https://security.sangfor.com.cn/) 
 - <img src="https://favicon.qqsuu.cn/security.shuidihuzhu.com" alt="" style="height: 20px;"> [水滴安全应急响应中心](https://security.shuidihuzhu.com/) 
-- <img src="https://favicon.qqsuu.cn/security.soulapp.cn" alt="" style="height: 20px;"> [Soul安全应急响应中心](https://security.soulapp.cn/) 
-- <img src="https://favicon.qqsuu.cn/security.suning.com" alt="" style="height: 20px;"> [苏宁安全应急响应中心](https://security.suning.com/ssrc-web/index.jsp) 
+- <img src="https://favicon.qqsuu.cn/security.soulapp.cn" alt="" style="height: 20px;"> [首页 | Soul安全应急响应中心](https://security.soulapp.cn/) 
+- <img src="https://favicon.qqsuu.cn/security.suning.com" alt="" style="height: 20px;"> [安全应急响应中心](https://security.suning.com/ssrc-web/index.jsp) 
 - <img src="https://favicon.qqsuu.cn/security.t3go.cn" alt="" style="height: 20px;"> [T3出行安全应急响应中心](https://security.t3go.cn/#/home) 
-- <img src="https://favicon.qqsuu.cn/security.tencent.com" alt="" style="height: 20px;"> [腾讯SRC](https://security.tencent.com/) 
-- <img src="https://favicon.qqsuu.cn/security.tuhu.cn" alt="" style="height: 20px;"> [途虎安全应急响应中心](https://security.tuhu.cn/) 
-- <img src="https://favicon.qqsuu.cn/security.unionpay.com" alt="" style="height: 20px;"> [银联安全应急响应中心](https://security.unionpay.com/) 
-- <img src="https://favicon.qqsuu.cn/security.vipkid.com.cn" alt="" style="height: 20px;"> [VIPKID安全响应中心](https://security.vipkid.com.cn/) 
-- <img src="https://favicon.qqsuu.cn/security.vivo.com.cn" alt="" style="height: 20px;"> [vivo安全应急响应中心](https://security.vivo.com.cn/) 
+- <img src="https://favicon.qqsuu.cn/security.tencent.com" alt="" style="height: 20px;"> [腾讯安全应急响应中心](https://security.tencent.com/) 
+- <img src="https://favicon.qqsuu.cn/security.tuhu.cn" alt="" style="height: 20px;"> [首页 | 途虎安全应急响应中心](https://security.tuhu.cn/) 
+- <img src="https://favicon.qqsuu.cn/security.unionpay.com" alt="" style="height: 20px;"> [银联安全应急响应中心(USRC)](https://security.unionpay.com/) 
+- <img src="https://favicon.qqsuu.cn/security.vipkid.com.cn" alt="" style="height: 20px;"> [首页 | VIPKID安全响应中心](https://security.vipkid.com.cn/) 
+- <img src="https://favicon.qqsuu.cn/security.vivo.com.cn" alt="" style="height: 20px;"> [vivo 安全应急响应平台](https://security.vivo.com.cn/) 
 - <img src="https://favicon.qqsuu.cn/security.webank.com" alt="" style="height: 20px;"> [微众银行安全响应中心](https://security.webank.com/) 
 - <img src="https://favicon.qqsuu.cn/security.wps.cn" alt="" style="height: 20px;"> [金山办公安全应急响应中心](https://security.wps.cn/) 
-- <img src="https://favicon.qqsuu.cn/security.xiaoying.com" alt="" style="height: 20px;"> [小赢安全应急响应中心](https://security.xiaoying.com/) 
+- <img src="https://favicon.qqsuu.cn/security.xiaoying.com" alt="" style="height: 20px;"> [首页 | 小赢安全应急响应中心](https://security.xiaoying.com/) 
 - <img src="https://favicon.qqsuu.cn/security.ximalaya.com" alt="" style="height: 20px;"> [喜马拉雅安全应急响应中心](https://security.ximalaya.com/) 
 - <img src="https://favicon.qqsuu.cn/security.xunlei.com" alt="" style="height: 20px;"> [迅雷安全应急响应中心](https://security.xunlei.com/) 
 - <img src="https://favicon.qqsuu.cn/security.zhangmen.com" alt="" style="height: 20px;"> [掌门教育安全应急响应中心](https://security.zhangmen.com/) 
 - <img src="https://favicon.qqsuu.cn/security.zhongan.com" alt="" style="height: 20px;"> [众安安全应急响应中心](https://security.zhongan.com/#/) 
 - <img src="https://favicon.qqsuu.cn/security.zsxq.com" alt="" style="height: 20px;"> [知识星球安全应急响应中心](https://security.zsxq.com/) 
-- <img src="https://favicon.qqsuu.cn/securitytcjf.com" alt="" style="height: 20px;"> [同程数科安全响应中心](https://securitytcjf.com/) 
+- <img src="https://favicon.qqsuu.cn/securitytcjf.com" alt="" style="height: 20px;"> [securitytcjf.com](https://securitytcjf.com/) 
 - <img src="https://favicon.qqsuu.cn/sfsrc.sf-express.com" alt="" style="height: 20px;"> [顺丰安全应急响应中心](https://sfsrc.sf-express.com/) 
 - <img src="https://favicon.qqsuu.cn/src.100tal.com" alt="" style="height: 20px;"> [好未来安全应急响应中心](https://src.100tal.com/) 
-- <img src="https://favicon.qqsuu.cn/src.bestsign.cn" alt="" style="height: 20px;"> [上上签安全应急响应中心](https://src.bestsign.cn/) 
-- <img src="https://favicon.qqsuu.cn/src.ceair.com" alt="" style="height: 20px;"> [东方航空](https://src.ceair.com/) 
-- <img src="https://favicon.qqsuu.cn/src.dmall.com" alt="" style="height: 20px;"> [多点安全应急响应中心](https://src.dmall.com/) 
-- <img src="https://favicon.qqsuu.cn/src.hellobike.com" alt="" style="height: 20px;"> [哈啰出行安全应急响应中心](https://src.hellobike.com/index.php) 
-- <img src="https://favicon.qqsuu.cn/src.saicmobility.com" alt="" style="height: 20px;"> [享道出行安全应急响应中心](https://src.saicmobility.com/) 
-- <img src="https://favicon.qqsuu.cn/src.tcl.com" alt="" style="height: 20px;"> [TCL安全应急响应中心](https://src.tcl.com/zh/index) 
+- <img src="https://favicon.qqsuu.cn/src.bestsign.cn" alt="" style="height: 20px;"> [上上签 - 安全应急响应中心](https://src.bestsign.cn/) 
+- <img src="https://favicon.qqsuu.cn/src.ceair.com" alt="" style="height: 20px;"> [东航网络安全应急响应中心（MUSRC）](https://src.ceair.com/) 
+- <img src="https://favicon.qqsuu.cn/src.dmall.com" alt="" style="height: 20px;"> [首页 | 多点安全应急响应中心](https://src.dmall.com/) 
+- <img src="https://favicon.qqsuu.cn/src.hellobike.com" alt="" style="height: 20px;"> [首页 | 哈啰出行安全应急响应中心](https://src.hellobike.com/index.php) 
+- <img src="https://favicon.qqsuu.cn/src.saicmobility.com" alt="" style="height: 20px;"> [享道出行SRC](https://src.saicmobility.com/) 
+- <img src="https://favicon.qqsuu.cn/src.tcl.com" alt="" style="height: 20px;"> [TCL SRC Beta V1.30](https://src.tcl.com/zh/index) 
 - <img src="https://favicon.qqsuu.cn/src.topsec.com.cn" alt="" style="height: 20px;"> [天融信安全漏洞响应中心](https://src.topsec.com.cn/) 
-- <img src="https://favicon.qqsuu.cn/src.ucloud.cn" alt="" style="height: 20px;"> [UCloud安全应急响应中心](https://src.ucloud.cn/) 
-- <img src="https://favicon.qqsuu.cn/src.uniontech.com" alt="" style="height: 20px;"> [统信安全应急响应中心](https://src.uniontech.com/) 
-- <img src="https://favicon.qqsuu.cn/src.youzan.com" alt="" style="height: 20px;"> [有赞安全应急响应中心](https://src.youzan.com/) 
-- <img src="https://favicon.qqsuu.cn/src.zhaopin.com" alt="" style="height: 20px;"> [智联招聘安全应急响应中心](https://src.zhaopin.com/) 
-- <img src="https://favicon.qqsuu.cn/src.zhipin.com" alt="" style="height: 20px;"> [BOSS直聘](https://src.zhipin.com/) 
-- <img src="https://favicon.qqsuu.cn/tdsrc.vulbox.com" alt="" style="height: 20px;"> [同盾安全应急响应中心](https://tdsrc.vulbox.com/) 
-- <img src="https://favicon.qqsuu.cn/weaversrc.vulbox.com" alt="" style="height: 20px;"> [泛微安全应急响应中心](https://weaversrc.vulbox.com/) 
-- <img src="https://favicon.qqsuu.cn/www.hikvision.com" alt="" style="height: 20px;"> [海康威视安全应急响应中心](https://www.hikvision.com/cn/support/CybersecurityCenter/) 
-- <img src="https://favicon.qqsuu.cn/www.niwodai.com" alt="" style="height: 20px;"> [你我贷安全响应中心](https://www.niwodai.com/sec/index.do) 
+- <img src="https://favicon.qqsuu.cn/src.ucloud.cn" alt="" style="height: 20px;"> [首页 | UCloud安全应急响应中心](https://src.ucloud.cn/) 
+- <img src="https://favicon.qqsuu.cn/src.uniontech.com" alt="" style="height: 20px;"> [USRC](https://src.uniontech.com/) 
+- <img src="https://favicon.qqsuu.cn/src.youzan.com" alt="" style="height: 20px;"> [首页 | 有赞安全应急响应中心](https://src.youzan.com/) 
+- <img src="https://favicon.qqsuu.cn/src.zhaopin.com" alt="" style="height: 20px;"> [首页 | 智联招聘安全应急响应中心](https://src.zhaopin.com/) 
+- <img src="https://favicon.qqsuu.cn/src.zhipin.com" alt="" style="height: 20px;"> [BOSS直聘安全应急响应中心](https://src.zhipin.com/) 
+- <img src="https://favicon.qqsuu.cn/tdsrc.vulbox.com" alt="" style="height: 20px;"> [漏洞盒子 | 同盾安全应急响应中心](https://tdsrc.vulbox.com/) 
+- <img src="https://favicon.qqsuu.cn/weaversrc.vulbox.com" alt="" style="height: 20px;"> [漏洞盒子 | 泛微安全应急响应中心（WEAVERSRC）](https://weaversrc.vulbox.com/) 
+- <img src="https://favicon.qqsuu.cn/www.hikvision.com" alt="" style="height: 20px;"> [安全应急响应中心 - 服务支持 - 海康威视 Hikvision](https://www.hikvision.com/cn/support/CybersecurityCenter/) 
+- <img src="https://favicon.qqsuu.cn/www.niwodai.com" alt="" style="height: 20px;"> [首页](https://www.niwodai.com/sec/index.do) 
 - <img src="https://favicon.qqsuu.cn/www.seebug.org" alt="" style="height: 20px;"> [www.seebug.org](https://www.seebug.org/) 
-- <img src="https://favicon.qqsuu.cn/ysrc.ys7.com" alt="" style="height: 20px;"> [萤石安全响应中心](https://ysrc.ys7.com/#/home) 
-- <img src="https://favicon.qqsuu.cn/zrsecurity.ziroom.com" alt="" style="height: 20px;"> [自如安全应急响应中心](https://zrsecurity.ziroom.com/) 
+- <img src="https://favicon.qqsuu.cn/ysrc.ys7.com" alt="" style="height: 20px;"> [ysrc.ys7.com](https://ysrc.ys7.com/#/home) 
+- <img src="https://favicon.qqsuu.cn/zrsecurity.ziroom.com" alt="" style="height: 20px;"> [首页 | 自如安全应急响应中心](https://zrsecurity.ziroom.com/) 
 ### 相关资源
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [Blue-Team-Notes](https://github.com/Purp1eW0lf/Blue-Team-Notes) You didn't think I'd go and leave the blue team out, right? 
 # 开发
@@ -2005,8 +2005,8 @@
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [sqli-labs](https://github.com/Audi-1/sqli-labs) SQLI labs to test error based, Blind boolean based, Time based.
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [xssed](https://github.com/aj00200/xssed) A set of XSS vulnerable PHP scripts for testing
 - <img src="https://favicon.qqsuu.cn/dvwa.co.uk" alt="" style="height: 20px;"> [dvwa.co.uk](https://dvwa.co.uk/) 
-- <img src="https://favicon.qqsuu.cn/hackmyvm.eu" alt="" style="height: 20px;"> [hackmyvm.eu](https://hackmyvm.eu/anon/) 
-- <img src="https://favicon.qqsuu.cn/www.pentesterlab.com" alt="" style="height: 20px;"> [www.pentesterlab.com](https://www.pentesterlab.com/exercises/web_for_pentester/course) 
+- <img src="https://favicon.qqsuu.cn/hackmyvm.eu" alt="" style="height: 20px;"> [HackMyVM | Anonymous](https://hackmyvm.eu/anon/) 
+- <img src="https://favicon.qqsuu.cn/www.pentesterlab.com" alt="" style="height: 20px;"> [PentesterLab: Learn Web App Pentesting!](https://www.pentesterlab.com/exercises/web_for_pentester/course) 
 ## 克隆声音
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [MockingBird v0.0.1](https://github.com/babysor/MockingBird) 🚀AI拟声: 5秒内克隆您的声音并生成任意语音内容 Clone a voice in 5 seconds to generate...
 ## 内网穿透
