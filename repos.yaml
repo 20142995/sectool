@@ -192,6 +192,7 @@
             - https://github.com/CTFd/CTFd
             - https://github.com/Gu-f/CTFd_chinese_CN
             - https://github.com/NewBee119/ctf_ics_traffic
+            - https://github.com/ProbiusOfficial/CTF-OS
             - https://github.com/ProbiusOfficial/CTF-QuickStart
             - https://github.com/ProbiusOfficial/CTFtools-wiki
             - https://github.com/ProbiusOfficial/SecToolKit
@@ -393,6 +394,8 @@
                         - https://github.com/swisskyrepo/Wordpresscan
                     帆软:
                         - https://github.com/yecp181/Frchannel
+                    若依:
+                        - https://github.com/charonlight/RuoYiExploitGUI
                 信息泄露漏洞:
                     .DS_Store泄露:
                         - https://github.com/lijiejie/ds_store_exp
@@ -437,6 +440,7 @@
                     邮件密码泄露:
                         - https://github.com/D4Vinci/Cr3dOv3r
                 半自动化漏洞利用:
+                    - https://github.com/R4gd0ll/I-Wanna-Get-All
                     - https://github.com/gobysec/Goby
                     - https://github.com/lz520520/railgun
                     - https://github.com/niudaii/zpscan
@@ -2078,3 +2082,13 @@
         - https://github.com/fupinglee/Calculate_Captcha
     验证码识别:
         - https://github.com/81NewArk/StupidOCR
+综合:
+    环境:
+        http代理:
+            - https://xip.ipzan.com/
+        pdf转换:
+            - https://smallpdf.com/cn
+            - https://www.cleverpdf.com/cn/pdf-to-excel
+        redis_for_windows:
+            - https://github.com/microsoftarchive/redis
+            - https://github.com/tporadowski/redis
