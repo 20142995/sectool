@@ -1875,14 +1875,14 @@
 - <img src="https://favicon.qqsuu.cn/security.17zuoye.com" alt="" style="height: 20px;"> [403 Forbidden](https://security.17zuoye.com/) 
 - <img src="https://favicon.qqsuu.cn/security.360.cn" alt="" style="height: 20px;"> [360SRC](https://security.360.cn/) 
 - <img src="https://favicon.qqsuu.cn/security.58.com" alt="" style="height: 20px;"> [58安全应急响应中心](https://security.58.com/) 
-- <img src="https://favicon.qqsuu.cn/security.alibaba.com" alt="" style="height: 20px;"> [阿里SRC](https://security.alibaba.com/) 
+- <img src="https://favicon.qqsuu.cn/security.alibaba.com" alt="" style="height: 20px;"> [security.alibaba.com](https://security.alibaba.com/) 
 - <img src="https://favicon.qqsuu.cn/security.alipay.com" alt="" style="height: 20px;"> [ϼŰȫӦӦĹ - AntSRC - ϼŰȫӦ,֧ȫӦ,Ͱ©,֧©,ϼ©,©,֥©,ڱ©,©,ϲƸ©,֧鱨,Ͱ鱨,©,֥©,ڱ©,©,ϲƸ©,Ͱ©,֧©,ϼ©,֧鱨,Ͱ鱨](https://security.alipay.com/) 
 - <img src="https://favicon.qqsuu.cn/security.apple.com" alt="" style="height: 20px;"> [Bounty - Apple Security Research](https://security.apple.com/bounty/) 
 - <img src="https://favicon.qqsuu.cn/security.bilibili.com" alt="" style="height: 20px;"> [哔哩哔哩安全应急响应中心](https://security.bilibili.com/) 
 - <img src="https://favicon.qqsuu.cn/security.bytedance.com" alt="" style="height: 20px;"> [字节跳动安全中心](https://security.bytedance.com/) 
 - <img src="https://favicon.qqsuu.cn/security.creditease.cn" alt="" style="height: 20px;"> [宜信安全应急响应中心](https://security.creditease.cn/) 
 - <img src="https://favicon.qqsuu.cn/security.dbappsecurity.com.cn" alt="" style="height: 20px;"> [安全众测平台](https://security.dbappsecurity.com.cn/) 
-- <img src="https://favicon.qqsuu.cn/security.dewu.com" alt="" style="height: 20px;"> [得物安全应急响应中心](https://security.dewu.com/) 
+- <img src="https://favicon.qqsuu.cn/security.dewu.com" alt="" style="height: 20px;"> [security.dewu.com](https://security.dewu.com/) 
 - <img src="https://favicon.qqsuu.cn/security.dji.com" alt="" style="height: 20px;"> [DJI Security Response Center](https://security.dji.com/) 
 - <img src="https://favicon.qqsuu.cn/security.douyu.com" alt="" style="height: 20px;"> [斗鱼安全应急响应中心 - DYSRC](https://security.douyu.com/) 
 - <img src="https://favicon.qqsuu.cn/security.duxiaoman.com" alt="" style="height: 20px;"> [Vue App](https://security.duxiaoman.com/index.html#/main) 
@@ -1928,7 +1928,7 @@
 - <img src="https://favicon.qqsuu.cn/security.zhangmen.com" alt="" style="height: 20px;"> [掌门教育安全应急响应中心](https://security.zhangmen.com/) 
 - <img src="https://favicon.qqsuu.cn/security.zhongan.com" alt="" style="height: 20px;"> [众安安全应急响应中心](https://security.zhongan.com/#/) 
 - <img src="https://favicon.qqsuu.cn/security.zsxq.com" alt="" style="height: 20px;"> [知识星球安全应急响应中心](https://security.zsxq.com/) 
-- <img src="https://favicon.qqsuu.cn/securitytcjf.com" alt="" style="height: 20px;"> [同程数科安全响应中心](https://securitytcjf.com/) 
+- <img src="https://favicon.qqsuu.cn/securitytcjf.com" alt="" style="height: 20px;"> [securitytcjf.com](https://securitytcjf.com/) 
 - <img src="https://favicon.qqsuu.cn/sfsrc.sf-express.com" alt="" style="height: 20px;"> [顺丰安全应急响应中心](https://sfsrc.sf-express.com/) 
 - <img src="https://favicon.qqsuu.cn/src.100tal.com" alt="" style="height: 20px;"> [好未来安全应急响应中心](https://src.100tal.com/) 
 - <img src="https://favicon.qqsuu.cn/src.bestsign.cn" alt="" style="height: 20px;"> [上上签 - 安全应急响应中心](https://src.bestsign.cn/) 
@@ -1948,7 +1948,7 @@
 - <img src="https://favicon.qqsuu.cn/www.hikvision.com" alt="" style="height: 20px;"> [安全应急响应中心 - 服务支持 - 海康威视 Hikvision](https://www.hikvision.com/cn/support/CybersecurityCenter/) 
 - <img src="https://favicon.qqsuu.cn/www.niwodai.com" alt="" style="height: 20px;"> [首页](https://www.niwodai.com/sec/index.do) 
 - <img src="https://favicon.qqsuu.cn/www.seebug.org" alt="" style="height: 20px;"> [www.seebug.org](https://www.seebug.org/) 
-- <img src="https://favicon.qqsuu.cn/ysrc.ys7.com" alt="" style="height: 20px;"> [萤石安全响应中心](https://ysrc.ys7.com/#/home) 
+- <img src="https://favicon.qqsuu.cn/ysrc.ys7.com" alt="" style="height: 20px;"> [ysrc.ys7.com](https://ysrc.ys7.com/#/home) 
 - <img src="https://favicon.qqsuu.cn/zrsecurity.ziroom.com" alt="" style="height: 20px;"> [首页 | 自如安全应急响应中心](https://zrsecurity.ziroom.com/) 
 ### 相关资源
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [Blue-Team-Notes](https://github.com/Purp1eW0lf/Blue-Team-Notes) You didn't think I'd go and leave the blue team out, right? 
@@ -2086,10 +2086,10 @@
 # 综合
 ## 环境
 ### http代理
-- <img src="https://favicon.qqsuu.cn/xip.ipzan.com" alt="" style="height: 20px;"> [xip.ipzan.com](https://xip.ipzan.com/) 
+- <img src="https://favicon.qqsuu.cn/xip.ipzan.com" alt="" style="height: 20px;"> [品赞HTTP代理-优质代理IP服务,爬虫,数据采集,稳定,高匿,定制IP池,支持http、https、socks5协议,API一键提取](https://xip.ipzan.com/) 
 ### pdf转换
-- <img src="https://favicon.qqsuu.cn/smallpdf.com" alt="" style="height: 20px;"> [smallpdf.com](https://smallpdf.com/cn) 
-- <img src="https://favicon.qqsuu.cn/www.cleverpdf.com" alt="" style="height: 20px;"> [www.cleverpdf.com](https://www.cleverpdf.com/cn/pdf-to-excel) 
+- <img src="https://favicon.qqsuu.cn/smallpdf.com" alt="" style="height: 20px;"> [Smallpdf.com – 您所有PDF问题的免费解决方案](https://smallpdf.com/cn) 
+- <img src="https://favicon.qqsuu.cn/www.cleverpdf.com" alt="" style="height: 20px;"> [将PDF转换成Excel在线工具 - 免费 - CleverPDF](https://www.cleverpdf.com/cn/pdf-to-excel) 
 ### redis_for_windows
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [redis](https://github.com/microsoftarchive/redis) 
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [redis](https://github.com/tporadowski/redis) 
