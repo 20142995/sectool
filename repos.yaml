@@ -29,7 +29,9 @@
                     - https://github.com/hotzzzzy/breakautokey
             在线工具:
                 16进制转字符串:
+                    - https://tool.hiofd.com/hex-convert-string-online
                     - https://www.bejson.com/convert/ox2str/
+                    - https://www.rapidtables.org/zh-CN/convert/number/hex-to-ascii.html
                     - https://www.sojson.com/hexadecimal.html
                 AAencode颜文字:
                     - http://utf-8.jp/public/aaencode.html
@@ -45,6 +47,8 @@
                     - http://www.hiencode.com/bubble.html
                 DNA基因序列编码:
                     - https://skaminsky115.github.io/nac/DNA-mRNA-Protein_Converter.html
+                HTML实体编码:
+                    - https://www.convertstring.com/zh_CN/EncodeDecode/HtmlDecode
                 Handycode:
                     - http://www.hiencode.com/handycode.html
                 JJencode:
@@ -101,6 +105,7 @@
                 仿射密码:
                     - https://www.boxentriq.com/code-breaking/affine-cipher
                 凯撒密码:
+                    - http://moersima.00cha.net/kaisamima.asp
                     - https://ctf.bugku.com/tool/caesar
                 圣堂武士密码:
                     - ./Plugins/img/shengtangwushi.jpg
@@ -1788,6 +1793,7 @@
                     - https://rkhunter.sourceforge.net/
                 Windows应急工具:
                     windows日志分析:
+                        - https://github.com/Qihoo360/WatchAD2.0
                         - https://github.com/Yamato-Security/WELA
                         - https://github.com/ahmedkhlief/APT-Hunter
                         - https://github.com/dogadmin/windodws-logs-analysis
