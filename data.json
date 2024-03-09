@@ -24625,8 +24625,8 @@
         "description": "魅族安全中心"
     },
     "https://sec.vip.com/": {
-        "status_code": 503,
-        "description": ""
+        "status_code": 200,
+        "description": "VSRC首页-唯品会信息安全中心"
     },
     "https://sec.wacai.com/": {
         "status_code": 200,
@@ -24684,8 +24684,8 @@
         "description": "安全众测平台"
     },
     "https://security.dewu.com/": {
-        "status_code": 200,
-        "description": ""
+        "status_code": 403,
+        "description": "403 Forbidden"
     },
     "https://security.dji.com/": {
         "status_code": 200,
@@ -24895,8 +24895,8 @@
         "description": "首页 | 哈啰出行安全应急响应中心"
     },
     "https://src.saicmobility.com/": {
-        "status_code": 200,
-        "description": "享道出行SRC"
+        "status_code": 502,
+        "description": "502 Bad Gateway"
     },
     "https://src.tcl.com/zh/index": {
         "status_code": 200,
