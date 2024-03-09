@@ -135,8 +135,12 @@
 - <img src="https://favicon.qqsuu.cn/www.mygeocachingprofile.com" alt="" style="height: 20px;"> [My Geocaching Profile.com - Vigenere Cipher Codebreaker](https://www.mygeocachingprofile.com/codebreaker.vigenerecipher.aspx) 
 - <img src="https://favicon.qqsuu.cn/www.qqxiuzi.cn" alt="" style="height: 20px;"> [维吉尼亚密码在线加密解密 - 千千秀字](https://www.qqxiuzi.cn/bianma/weijiniyamima.php) 
 ##### 编码解码综合网站
+- <img src="https://favicon.qqsuu.cn/fbcs.bplaced.net" alt="" style="height: 20px;"> [fbcs.bplaced.net](http://fbcs.bplaced.net/multi_encoder_decoder.html) 
+- <img src="https://favicon.qqsuu.cn/www.atoolbox.net" alt="" style="height: 20px;"> [www.atoolbox.net](http://www.atoolbox.net/Category.php?Id=27) 
 - <img src="https://favicon.qqsuu.cn/www.hiencode.com" alt="" style="height: 20px;"> [CTF在线工具-CTF工具|CTF编码|CTF密码学|CTF加解密|程序员工具|在线编解码](http://www.hiencode.com/) 
 - <img src="https://favicon.qqsuu.cn/ctf.bugku.com" alt="" style="height: 20px;"> [在线工具 - Bugku CTF](https://ctf.bugku.com/tools) 
+- <img src="https://favicon.qqsuu.cn/ctf.mzy0.com" alt="" style="height: 20px;"> [ctf.mzy0.com](https://ctf.mzy0.com/CyberChef3/) 
+- <img src="https://favicon.qqsuu.cn/ctfever.uniiem.com" alt="" style="height: 20px;"> [ctfever.uniiem.com](https://ctfever.uniiem.com/) 
 - <img src="https://favicon.qqsuu.cn/tool.lu" alt="" style="height: 20px;"> [在线工具 - 你的工具箱](https://tool.lu/) 
 ##### 词频分析
 - <img src="https://favicon.qqsuu.cn/quipqiup.com" alt="" style="height: 20px;"> [quipqiup.com](https://quipqiup.com/) 
@@ -292,6 +296,7 @@
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [S2-053-CVE-2017-12611](https://github.com/brianwrf/S2-053-CVE-2017-12611) A simple script for exploit RCE for Struts 2 S2-053(CVE-2017-...
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [Struts2Environment](https://github.com/wh1t3p1g/Struts2Environment) Struts2 历史版本的漏洞环境
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [s2-016-exp](https://github.com/OneSourceCat/s2-016-exp) S2-016 Exploit && Scanner
+- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [Struts2VulsScanTools](https://github.com/abc123info/Struts2VulsScanTools) 
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [StrutScan](https://github.com/riusksk/StrutScan) 
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [STS2G](https://github.com/xwuyi/STS2G) 
 ###### Apache Superset
@@ -329,6 +334,7 @@
 ###### IIS
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [IIS-ShortName-Scanner](https://github.com/irsdl/IIS-ShortName-Scanner) latest version of scanners for IIS short filename (8.3) discl...
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [IIS_shortname_Scanner](https://github.com/lijiejie/IIS_shortname_Scanner) an IIS shortname Scanner
+- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [iis7.5-10.x-ShortNameFuzz](https://github.com/abc123info/iis7.5-10.x-ShortNameFuzz) 
 ###### JBoss
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [jboss-_CVE-2017-12149](https://github.com/yunxu1/jboss-_CVE-2017-12149) CVE-2017-12149 jboss反序列化 可回显
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [jexboss](https://github.com/joaomatosf/jexboss) JexBoss: Jboss (and Java Deserialization Vulnerabilities) verify and EXploi...
@@ -450,6 +456,7 @@
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [railgun v1.5.5](https://github.com/lz520520/railgun) 
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [Goby Beta2.2.0](https://github.com/gobysec/Goby) Attack surface mapping
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [I-Wanna-Get-All](https://github.com/R4gd0ll/I-Wanna-Get-All) 
+- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [EquationToolsGUI](https://github.com/abc123info/EquationToolsGUI) 
 ##### 在线辅助
 ###### DNSLOG平台
 - <img src="https://favicon.qqsuu.cn/ceye.io" alt="" style="height: 20px;"> [CEYE - Monitor service for security testing](http://ceye.io) 
@@ -1511,6 +1518,7 @@
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [Sreg](https://github.com/n0tr00t/Sreg) Sreg可对使用者通过输入email、phone、username的返回用户注册的所有互联网护照信息。
 #### 字典生成
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [SocialEngineeringDictionaryGenerator](https://github.com/zgjx6/SocialEngineeringDictionaryGenerator) 社会工程学密码生成器，是一个利用个人信息生成密码的工具
+- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [UserNameDictTools](https://github.com/abc123info/UserNameDictTools) 
 #### 钓鱼辅助
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [PhishingBook](https://github.com/tib36/PhishingBook) 红蓝对抗：钓鱼演练资源汇总&备忘录
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [gophish v0.12.1](https://github.com/gophish/gophish) Open-Source Phishing Toolkit
