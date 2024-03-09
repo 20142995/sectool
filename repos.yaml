@@ -134,8 +134,12 @@
                     - https://www.mygeocachingprofile.com/codebreaker.vigenerecipher.aspx
                     - https://www.qqxiuzi.cn/bianma/weijiniyamima.php
                 编码解码综合网站:
+                    - http://fbcs.bplaced.net/multi_encoder_decoder.html
+                    - http://www.atoolbox.net/Category.php?Id=27
                     - http://www.hiencode.com/
                     - https://ctf.bugku.com/tools
+                    - https://ctf.mzy0.com/CyberChef3/
+                    - https://ctfever.uniiem.com/
                     - https://tool.lu/
                 词频分析:
                     - https://quipqiup.com/
@@ -282,6 +286,7 @@
                         - https://github.com/HatBoy/Struts2-Scan
                         - https://github.com/Lucifer1993/struts-scan
                         - https://github.com/OneSourceCat/s2-016-exp
+                        - https://github.com/abc123info/Struts2VulsScanTools
                         - https://github.com/brianwrf/S2-053-CVE-2017-12611
                         - https://github.com/mazen160/struts-pwn
                         - https://github.com/mazen160/struts-pwn_CVE-2017-9805
@@ -326,6 +331,7 @@
                     Hikvision:
                         - https://github.com/baogod404/HikvisionDecode
                     IIS:
+                        - https://github.com/abc123info/iis7.5-10.x-ShortNameFuzz
                         - https://github.com/irsdl/IIS-ShortName-Scanner
                         - https://github.com/lijiejie/IIS_shortname_Scanner
                     JBoss:
@@ -446,6 +452,7 @@
                         - https://github.com/D4Vinci/Cr3dOv3r
                 半自动化漏洞利用:
                     - https://github.com/R4gd0ll/I-Wanna-Get-All
+                    - https://github.com/abc123info/EquationToolsGUI
                     - https://github.com/gobysec/Goby
                     - https://github.com/lz520520/railgun
                     - https://github.com/niudaii/zpscan
@@ -1509,6 +1516,7 @@
                 - https://github.com/n0tr00t/Sreg
                 - https://github.com/soxoj/maigret
             字典生成:
+                - https://github.com/abc123info/UserNameDictTools
                 - https://github.com/zgjx6/SocialEngineeringDictionaryGenerator
             钓鱼辅助:
                 - https://github.com/A10ha/EmailSender
