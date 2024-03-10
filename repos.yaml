@@ -79,6 +79,10 @@
                     - https://ctf.bugku.com/tool/xxencode
                 base100:
                     - https://ctf.bugku.com/tool/base100
+                brainfuck:
+                    - https://tool.bugku.com/brainfuck
+                brainfuck颜文字:
+                    - https://esolangs.org/wiki/(_%CD%A1%C2%B0_%CD%9C%CA%96_%CD%A1%C2%B0)fuck
                 cisco 密码解密:
                     - https://www.ifm.net.nz/cookbooks/passwordcracker.html
                 cryptojs:
@@ -168,6 +172,7 @@
             综合:
                 - https://github.com/Harveysn0w/CTF_Hacker-Tools
                 - https://github.com/Moxin1044/qsnctf-python
+                - https://github.com/devttys0/binwalk
                 - https://github.com/qianxiao996/CTF-Tools
             编码解码:
                 - https://github.com/0Chencc/CTFCrackTools
@@ -269,6 +274,7 @@
                         - https://github.com/j1anFen/shiro_attack
                         - https://github.com/jas502n/SHIRO-550
                         - https://github.com/jweny/shiro-cve-2020-17523
+                        - https://github.com/sma11new/Pyke-Shiro
                         - https://github.com/sv3nbeast/ShiroScan
                         - https://github.com/wyzxxz/shiro_rce_tool
                     Apache Solr:
@@ -518,12 +524,14 @@
                         - https://github.com/vladko312/SSTImap
                     XSS:
                         - https://github.com/1N3/XSSTracer
+                        - https://github.com/78778443/xssplatform
                         - https://github.com/BlackHole1/autoFindXssAndCsrf
                         - https://github.com/DanMcInerney/xsscrapy
                         - https://github.com/RenwaX23/XSSTRON
                         - https://github.com/beefproject/beef
                         - https://github.com/chuhades/xss_scan
                         - https://github.com/dwisiswant0/findom-xss
+                        - https://github.com/evilcos/xssor
                         - https://github.com/fcavallarin/domdig
                         - https://github.com/hahwul/dalfox
                         - https://github.com/lwzSoviet/NoXss
@@ -542,6 +550,8 @@
                     upload:
                         - https://github.com/3xp10it/xupload
                         - https://github.com/almandin/fuxploider
+                    命令注入:
+                        - https://github.com/stasinopoulos/commix
                     文件包含:
                         - https://github.com/mzfr/liffy
                     解析漏洞:
@@ -603,12 +613,16 @@
                 漏洞检测利用仓库:
                     - https://github.com/1n7erface/PocList
                     - https://github.com/DawnFlame/POChouse
+                    - https://github.com/FiloSottile/CVE-2016-2107
                     - https://github.com/Mr-xn/Penetration_Testing_POC
                     - https://github.com/Threekiii/Awesome-Exploit
                     - https://github.com/Y1-K1NG/poc_exp
                     - https://github.com/coffeehb/Some-PoC-oR-ExP
+                    - https://github.com/cve-search/cve-search
+                    - https://github.com/fjserna/CVE-2015-7547
                     - https://github.com/helloexp/0day
                     - https://github.com/lal0ne/vulnerability
+                    - https://github.com/vlad902/hacking-team-windows-kernel-lpe
                     - https://github.com/wjl110/CVE-Master
                     - https://github.com/ybdt/poc-hub
                     - https://github.com/ycdxsb/PocOrExp_in_Github
@@ -718,6 +732,7 @@
                     - https://github.com/r3curs1v3-pr0xy/vajra
                     - https://github.com/s0md3v/Striker
                     - https://github.com/six2dez/reconftw
+                    - https://github.com/superhedgy/AttackSurfaceMapper
                     - https://github.com/tongcheng-security-team/NextScan
                     - https://github.com/toyakula/luna
                     - https://github.com/tr0uble-mAker/POC-bomber
@@ -733,6 +748,7 @@
                     - https://github.com/0-sec/zero-crack
                     - https://github.com/22XploiterCrew-Team/WpCrack
                     - https://github.com/Fly-Playgroud/Boom
+                    - https://github.com/Mebus/cupp
                     - https://github.com/TideSec/web_pwd_common_crack
                     - https://github.com/awake1t/PortBrute
                     - https://github.com/duyet/bruteforce-database
@@ -742,6 +758,7 @@
                     - https://github.com/lijiejie/htpwdScan
                     - https://github.com/maaaaz/thc-hydra-windows
                     - https://github.com/netxfly/crack_ssh
+                    - https://github.com/netxfly/x-crack
                     - https://github.com/opabravo/mass-bruter
                     - https://github.com/openwall/john
                     - https://github.com/pwnesia/ssb
@@ -779,45 +796,71 @@
                     - https://github.com/jorhelp/Ingram
                     - https://github.com/v3n0m-Scanner/V3n0M-Scanner
                 漏洞扫描:
+                    - http://blog.topsec.com.cn/ad_lab/alphafuzzer/
+                    - http://llvm.org/docs/LibFuzzer.html
                     - https://github.com/0x4D31/salt-scanner
                     - https://github.com/1N3/BlackWidow
                     - https://github.com/Moham3dRiahi/XAttacker
                     - https://github.com/MrSqar-Ye/BadMod
                     - https://github.com/RetireJS/grunt-retire
                     - https://github.com/Tuhinshubhra/CMSeeK
+                    - https://github.com/andresriancho/w3af
+                    - https://github.com/attekett/NodeFuzz
                     - https://github.com/chuhades/CMS-Exploit-Framework
                     - https://github.com/cloudsploit/scans
                     - https://github.com/code-scan/dzscan
+                    - https://github.com/future-architect/vuls
+                    - https://github.com/google/oss-fuzz
                     - https://github.com/hahwul/a2sv
+                    - https://github.com/ivanfratric/winafl
+                    - https://github.com/jkbrzt/httpie
+                    - https://github.com/khalilbijjou/WAFNinja
+                    - https://github.com/m0nad/HellRaiser
                     - https://github.com/m3liot/shcheck
+                    - https://github.com/mgeeky/tomcatWarDeployer
+                    - https://github.com/owtf/wafbypasser
                     - https://github.com/radenvodka/SVScanner
                     - https://github.com/retirejs/retire.js
                     - https://github.com/rezasp/vbscan
                     - https://github.com/riusksk/FlashScanner
+                    - https://github.com/sullo/nikto
                     - https://github.com/vulmon/Vulmap
                 漏洞扫描框架:
+                    - https://github.com/80vul/phpcodz
                     - https://github.com/AmyangXYZ/AssassinGo
+                    - https://github.com/CaledoniaProject/jenkins-cli-exploit
+                    - https://github.com/GoSecure/php7-opcache-override
                     - https://github.com/Guoke324/Godscan
                     - https://github.com/Janhsu/oday
                     - https://github.com/Manisso/fsociety
                     - https://github.com/Safe3/CVS
                     - https://github.com/TophantTechnology/osprey
+                    - https://github.com/XcodeGhostSource/XcodeGhost
                     - https://github.com/Xyntax/POC-T
                     - https://github.com/alienwithin/OWASP-mth3l3m3nt-framework
                     - https://github.com/bcvgh/daydayEXP
                     - https://github.com/bigblackhat/oFx
+                    - https://github.com/bit4woo/Fiora
                     - https://github.com/blackye/BkScanner
                     - https://github.com/blackye/lalascan
                     - https://github.com/boy-hack/w9scan
+                    - https://github.com/brianwrf/hackUtils
+                    - https://github.com/ciscocsirt/malspider
+                    - https://github.com/codejanus/ToolSuite
                     - https://github.com/erevus-cn/pocscan
+                    - https://github.com/foxglovesec/JavaUnserializeExploits
                     - https://github.com/joker25000/Optiva-Framework
                     - https://github.com/jweny/pocassist
                     - https://github.com/knownsec/Pocsuite
                     - https://github.com/knownsec/pocsuite3
+                    - https://github.com/leonteale/pentestpackage
                     - https://github.com/lijiaxing1997/Gr33k
                     - https://github.com/m4n3dw0lf/PytheM
+                    - https://github.com/n0tr00t/Beebeeto-framework
+                    - https://github.com/offensive-security/exploit-database
                     - https://github.com/opensec-cn/kunpeng
                     - https://github.com/qianxiao996/FrameScan-GUI
+                    - https://github.com/samratashok/nishang
                     - https://github.com/seungsoo-lee/DELTA
                     - https://github.com/theInfectedDrake/TIDoS-Framework
                     - https://github.com/woodpecker-framework/woodpecker-framwork-release
@@ -860,6 +903,7 @@
                 - https://github.com/yuyudhn/reverseip_py
             WAF识别:
                 - https://github.com/Ekultek/WhatWaf
+                - https://github.com/EnableSecurity/wafw00f
                 - https://github.com/stamparm/identYwaf
             apk:
                 - https://github.com/Anof-cyber/apkleaks
@@ -881,6 +925,7 @@
             域名信息查询:
                 - https://github.com/z-bool/QueryTools
             子域名收集:
+                - https://github.com/3nock/sub3suite
                 - https://github.com/FeeiCN/ESD
                 - https://github.com/Ice3man543/subfinder
                 - https://github.com/LangziFun/LangSrcCurise
@@ -897,12 +942,14 @@
                 - https://github.com/exp-db/PythonPool/tree/master/Tools/DomainSeeker
                 - https://github.com/guelfoweb/knock
                 - https://github.com/gwen001/github-subdomains
+                - https://github.com/jonluca/Anubis
                 - https://github.com/knownsec/ct
                 - https://github.com/knownsec/ksubdomain
                 - https://github.com/laramies/theHarvester
                 - https://github.com/le4f/dnsmaper
                 - https://github.com/lijiejie/subDomainsBrute
                 - https://github.com/mandatoryprogrammer/cloudflare_enum
+                - https://github.com/n4xh4ck5/N4xD0rk
                 - https://github.com/nmalcolm/Inventus
                 - https://github.com/projectdiscovery/subfinder
                 - https://github.com/reconned/domained
@@ -1084,15 +1131,18 @@
             内网横向工具:
                 - https://github.com/AduraK2/Intranet-Movement-Kit
                 - https://github.com/Amzza0x00/go-impacket
+                - https://github.com/PowerShellMafia/PowerSploit
                 - https://github.com/QAX-A-Team/sharpwmi
                 - https://github.com/Suq3rm4n/java-impacket-gui
                 - https://github.com/TheBeastofwar/linuxhacker
                 - https://github.com/XiaoBai-12138/Impacket_For_Web
                 - https://github.com/XiaoliChan/wmiexec-Pro
+                - https://github.com/clymb3r/PowerShell
                 - https://github.com/d3ckx1/OLa
                 - https://github.com/fortra/impacket
                 - https://github.com/hzphreak/VMInjector
                 - https://github.com/private-null/Intranet-tools
+                - https://github.com/putterpanda/mimikittenz
                 - https://github.com/rootclay/WMIHACKER
                 - https://github.com/yutianqaq/impacket-gui
                 - https://xz.aliyun.com/t/9382
@@ -1217,6 +1267,8 @@
                 远控:
                     - https://github.com/BishopFox/sliver
                     - https://github.com/Ciyfly/trojan_simple_demo
+                    - https://github.com/byt3bl33d3r/gcat
+                    - https://github.com/hussein-aitlahcen/BlackHole
                     - https://github.com/tdragon6/Supershell
                     - https://github.com/yuanyuanxiang/SimpleRemoter
             综合:
@@ -1239,6 +1291,7 @@
             优秀项目集合:
                 - https://github.com/FiveAourThe/RedTeamTools
                 - https://github.com/We5ter/Scanners-Box
+                - https://github.com/birdhan/SecurityTools
                 - https://github.com/djytmdj/Tool_Summary
                 - https://github.com/guchangan1/All-Defense-Tool
                 - https://github.com/knownsec/404StarLink
@@ -1265,6 +1318,7 @@
                 - https://github.com/ffffffff0x/AboutSecurity
                 - https://github.com/ffffffff0x/gendict
                 - https://github.com/ffffffff0x/name-fuzz
+                - https://github.com/fuzz-security/SuperWordlist
                 - https://github.com/gh0stkey/Web-Fuzzing-Box
                 - https://github.com/ignis-sec/Pwdb-Public
                 - https://github.com/insightglacier/Dictionary-Of-Pentesting
@@ -1383,6 +1437,7 @@
                         - https://github.com/f0ng/log4j2burpscanner
                         - https://github.com/gand3lf/semgrepper
                         - https://github.com/ggg4566/BurpBountyPlus
+                        - https://github.com/hy0jer/HostScan
                         - https://github.com/metaStor/SpringScan
                         - https://github.com/pmiaowu/BurpFastJsonScan
                         - https://github.com/pmiaowu/BurpShiroPassiveScan
@@ -1578,6 +1633,7 @@
                     - https://github.com/P001water/UsbKbCracker
                     - https://github.com/WangYihang/UsbKeyboardDataHacker
                 鼠标流量:
+                    - https://github.com/WangYihang/USB-Mouse-Pcap-Visualizer
                     - https://github.com/WangYihang/UsbMiceDataHacker
             内存取证:
                 - https://github.com/KDPryor/LinuxVolProfiles
@@ -1741,6 +1797,8 @@
                 - https://github.com/wendell1224/ide-honeypot
             网站监测:
                 - https://github.com/mangenotwork/website-monitor
+            网络安全大模型:
+                - https://github.com/Clouditera/secgpt
         安全检查:
             基线:
                 - https://github.com/Amulab/CAudit
@@ -1780,6 +1838,8 @@
                     - https://github.com/s045pd/DarkNet_ChineseTrading
                 钓鱼监测:
                     - https://github.com/x0rz/phishing_catcher
+            应用日志分析:
+                - https://github.com/mthbernardes/ARTLAS
             样本:
                 - https://github.com/vxunderground/MalwareSourceCode
             相关资源:
@@ -1996,13 +2056,16 @@
     web靶场:
         - https://dvwa.co.uk/
         - https://github.com/0verSp4ce/DoraBox
+        - https://github.com/710leo/ZVulDrill
         - https://github.com/Audi-1/sqli-labs
         - https://github.com/HXSecurity/TerraformGoat
         - https://github.com/Hackademic/hackademic
         - https://github.com/LandGrey/SpringBootVulExploit
         - https://github.com/Medicean/VulApps
+        - https://github.com/RandomStorm/DVWA
         - https://github.com/SpiderLabs/MCIR
         - https://github.com/WebGoat/WebGoat
+        - https://github.com/WebGoat/WebGoat-Legacy
         - https://github.com/adamdoupe/WackoPicko
         - https://github.com/aj00200/xssed
         - https://github.com/bugku/BWVS
@@ -2010,7 +2073,9 @@
         - https://github.com/c0ny1/vulstudy
         - https://github.com/c0ny1/xxe-lab
         - https://github.com/cider-security-research/cicd-goat
+        - https://github.com/cliffe/secgen
         - https://github.com/cr0hn/vulnerable-node
+        - https://github.com/deadPix3l/CryptSky
         - https://github.com/fofapro/vulfocus
         - https://github.com/incredibleindishell/SSRF_Vulnerable_Lab
         - https://github.com/j3ers3/Hello-Java-Sec
