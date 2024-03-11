@@ -25484,5 +25484,21 @@
     "http://www.atoolbox.net/Category.php?Id=27": {
         "status_code": 200,
         "description": "加密解密 - 加密解密工具 第1页 - 一个工具箱 - 好用的在线工具都在这里！"
+    },
+    "http://blog.topsec.com.cn/ad_lab/alphafuzzer/": {
+        "status_code": 200,
+        "description": "天融信阿尔法实验室"
+    },
+    "https://esolangs.org/wiki/(_%CD%A1%C2%B0_%CD%9C%CA%96_%CD%A1%C2%B0)fuck": {
+        "status_code": 200,
+        "description": "( ͡° ͜ʖ ͡°)fuck - Esolang"
+    },
+    "https://tool.bugku.com/brainfuck": {
+        "status_code": 200,
+        "description": "Brainfuck/Text/Ook! obfuscator - deobfuscator. Decode and encode online."
+    },
+    "http://llvm.org/docs/LibFuzzer.html": {
+        "status_code": 200,
+        "description": "libFuzzer – a library for coverage-guided fuzz testing. — LLVM 19.0.0git documentation"
     }
 }
