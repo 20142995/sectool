@@ -81,9 +81,9 @@
 ##### base100
 - <img src="https://favicon.qqsuu.cn/ctf.bugku.com" alt="" style="height: 20px;"> [BASE100编码解码 - Bugku CTF](https://ctf.bugku.com/tool/base100) 
 ##### brainfuck
-- <img src="https://favicon.qqsuu.cn/tool.bugku.com" alt="" style="height: 20px;"> [tool.bugku.com](https://tool.bugku.com/brainfuck) 
+- <img src="https://favicon.qqsuu.cn/tool.bugku.com" alt="" style="height: 20px;"> [Brainfuck/Text/Ook! obfuscator - deobfuscator. Decode and encode online.](https://tool.bugku.com/brainfuck) 
 ##### brainfuck颜文字
-- <img src="https://favicon.qqsuu.cn/esolangs.org" alt="" style="height: 20px;"> [esolangs.org](https://esolangs.org/wiki/(_%CD%A1%C2%B0_%CD%9C%CA%96_%CD%A1%C2%B0)fuck) 
+- <img src="https://favicon.qqsuu.cn/esolangs.org" alt="" style="height: 20px;"> [( ͡° ͜ʖ ͡°)fuck - Esolang](https://esolangs.org/wiki/(_%CD%A1%C2%B0_%CD%9C%CA%96_%CD%A1%C2%B0)fuck) 
 ##### cisco 密码解密
 - <img src="https://favicon.qqsuu.cn/www.ifm.net.nz" alt="" style="height: 20px;"> [IFM - Cisco Password Cracker](https://www.ifm.net.nz/cookbooks/passwordcracker.html) 
 ##### cryptojs
@@ -798,8 +798,8 @@
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [V3n0M-Scanner](https://github.com/v3n0m-Scanner/V3n0M-Scanner) 
 ##### 漏洞扫描
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [Vulmap](https://github.com/vulmon/Vulmap) Vulmap Online Local Vulnerability Scanners Project
-- <img src="https://favicon.qqsuu.cn/blog.topsec.com.cn" alt="" style="height: 20px;"> [blog.topsec.com.cn](http://blog.topsec.com.cn/ad_lab/alphafuzzer/) 
-- <img src="https://favicon.qqsuu.cn/llvm.org" alt="" style="height: 20px;"> [llvm.org](http://llvm.org/docs/LibFuzzer.html) 
+- <img src="https://favicon.qqsuu.cn/blog.topsec.com.cn" alt="" style="height: 20px;"> [天融信阿尔法实验室](http://blog.topsec.com.cn/ad_lab/alphafuzzer/) 
+- <img src="https://favicon.qqsuu.cn/llvm.org" alt="" style="height: 20px;"> [libFuzzer – a library for coverage-guided fuzz testing. — LLVM 19.0.0git documentat...](http://llvm.org/docs/LibFuzzer.html) 
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [salt-scanner](https://github.com/0x4D31/salt-scanner) 
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [BlackWidow](https://github.com/1N3/BlackWidow) 
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [XAttacker](https://github.com/Moham3dRiahi/XAttacker) 
