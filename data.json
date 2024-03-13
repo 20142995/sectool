@@ -24618,8 +24618,8 @@
         "description": "华住安全响应中心 | Huazhu Security Response Center"
     },
     "https://sec.ly.com/": {
-        "status_code": 403,
-        "description": ""
+        "status_code": 200,
+        "description": "首页 | 同程旅行安全应急响应中心"
     },
     "https://sec.meizu.com/": {
         "status_code": 200,
@@ -25351,8 +25351,8 @@
         "description": "factordb.com"
     },
     "https://www.sojson.com/encrypt_rabbit.html": {
-        "status_code": 504,
-        "description": ""
+        "status_code": 200,
+        "description": "在线Rabbit加密 | Rabbit解密- 在线工具"
     },
     "https://ti.360.cn/": {
         "status_code": 200,
