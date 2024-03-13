@@ -68,7 +68,7 @@
 - <img src="https://favicon.qqsuu.cn/www.factordb.com" alt="" style="height: 20px;"> [factordb.com](http://www.factordb.com/index.php) 
 ##### Rabbit
 - <img src="https://favicon.qqsuu.cn/www.jsons.cn" alt="" style="height: 20px;"> [Rabbit加密-Rabbit解密-在线Rabbit加密解密工具](http://www.jsons.cn/rabbitencrypt/) 
-- <img src="https://favicon.qqsuu.cn/www.sojson.com" alt="" style="height: 20px;"> [www.sojson.com](https://www.sojson.com/encrypt_rabbit.html) 
+- <img src="https://favicon.qqsuu.cn/www.sojson.com" alt="" style="height: 20px;"> [在线Rabbit加密 | Rabbit解密- 在线工具](https://www.sojson.com/encrypt_rabbit.html) 
 ##### Serpent（蛇）
 - <img src="https://favicon.qqsuu.cn/serpent.online-domain-tools.com" alt="" style="height: 20px;"> [Serpent Encryption – Easily encrypt or decrypt strings or files](http://serpent.online-domain-tools.com/) 
 ##### UUencode
@@ -1938,7 +1938,7 @@
 - <img src="https://favicon.qqsuu.cn/sec.ctrip.com" alt="" style="height: 20px;"> [携程安全应急响应中心](https://sec.ctrip.com/) 
 - <img src="https://favicon.qqsuu.cn/sec.fadada.com" alt="" style="height: 20px;"> [法大大安全应急响应中心](https://sec.fadada.com) 
 - <img src="https://favicon.qqsuu.cn/sec.huazhu.com" alt="" style="height: 20px;"> [华住安全响应中心 | Huazhu Security Response Center](https://sec.huazhu.com/) 
-- <img src="https://favicon.qqsuu.cn/sec.ly.com" alt="" style="height: 20px;"> [sec.ly.com](https://sec.ly.com/) 
+- <img src="https://favicon.qqsuu.cn/sec.ly.com" alt="" style="height: 20px;"> [首页 | 同程旅行安全应急响应中心](https://sec.ly.com/) 
 - <img src="https://favicon.qqsuu.cn/sec.meizu.com" alt="" style="height: 20px;"> [魅族安全中心](https://sec.meizu.com/) 
 - <img src="https://favicon.qqsuu.cn/sec.vip.com" alt="" style="height: 20px;"> [VSRC首页-唯品会信息安全中心](https://sec.vip.com/) 
 - <img src="https://favicon.qqsuu.cn/sec.wacai.com" alt="" style="height: 20px;"> [挖财安全应急响应中心](https://sec.wacai.com/) 
