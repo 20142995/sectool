@@ -24626,8 +24626,8 @@
         "description": "魅族安全中心"
     },
     "https://sec.vip.com/": {
-        "status_code": 200,
-        "description": "VSRC首页-唯品会信息安全中心"
+        "status_code": 503,
+        "description": ""
     },
     "https://sec.wacai.com/": {
         "status_code": 200,
@@ -25501,5 +25501,37 @@
     "http://llvm.org/docs/LibFuzzer.html": {
         "status_code": 200,
         "description": "libFuzzer – a library for coverage-guided fuzz testing. — LLVM 19.0.0git documentation"
+    },
+    "https://pmd5.com/": {
+        "status_code": 200,
+        "description": "md5解密 MD5在线解密 破解md5"
+    },
+    "https://www.catpasswd.com/": {
+        "status_code": 200,
+        "description": "Catpasswd - Globally renowned encrypt file recovery platform"
+    },
+    "https://cmd5.la/": {
+        "status_code": 200,
+        "description": "md5解密、cmd5在线解密、加密工具 - 查md5啦[cmd5.la]"
+    },
+    "https://www.onlinehashcrack.com/": {
+        "status_code": 200,
+        "description": "Professional Cloud Password Testing & Recovery Services"
+    },
+    "https://www.somd5.com/": {
+        "status_code": 200,
+        "description": "MD5免费在线解密破解_MD5在线加密-SOMD5"
+    },
+    "https://www.chamd5.org/": {
+        "status_code": 200,
+        "description": "MD5在线解密|md5在线破解|批量破解md5网站 - ChaMd5.Org"
+    },
+    "http://pan.baidu.com/s/1pLjaQKF": {
+        "status_code": 200,
+        "description": "release_免费高速下载|百度网盘-分享无限制"
+    },
+    "https://www.cmd5.com": {
+        "status_code": 200,
+        "description": "md5在线解密破解,md5解密加密"
     }
 }
