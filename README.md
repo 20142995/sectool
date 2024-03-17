@@ -156,15 +156,15 @@
 - <img src="https://favicon.qqsuu.cn/www.qqxiuzi.cn" alt="" style="height: 20px;"> [文本加密为音乐符号,可自设密码|文本在线加密解密工具](https://www.qqxiuzi.cn/bianma/wenbenjiami.php?s=yinyue) 
 #### 散列哈希
 ##### MD5解密
-- <img src="https://favicon.qqsuu.cn/cmd5.la" alt="" style="height: 20px;"> [cmd5.la](https://cmd5.la/) 
-- <img src="https://favicon.qqsuu.cn/pmd5.com" alt="" style="height: 20px;"> [pmd5.com](https://pmd5.com/) 
-- <img src="https://favicon.qqsuu.cn/www.chamd5.org" alt="" style="height: 20px;"> [www.chamd5.org](https://www.chamd5.org/) 
-- <img src="https://favicon.qqsuu.cn/www.somd5.com" alt="" style="height: 20px;"> [www.somd5.com](https://www.somd5.com/) 
+- <img src="https://favicon.qqsuu.cn/cmd5.la" alt="" style="height: 20px;"> [md5解密、cmd5在线解密、加密工具 - 查md5啦[cmd5.la]](https://cmd5.la/) 
+- <img src="https://favicon.qqsuu.cn/pmd5.com" alt="" style="height: 20px;"> [md5解密 MD5在线解密 破解md5](https://pmd5.com/) 
+- <img src="https://favicon.qqsuu.cn/www.chamd5.org" alt="" style="height: 20px;"> [MD5在线解密|md5在线破解|批量破解md5网站 - ChaMd5.Org](https://www.chamd5.org/) 
+- <img src="https://favicon.qqsuu.cn/www.somd5.com" alt="" style="height: 20px;"> [MD5免费在线解密破解_MD5在线加密-SOMD5](https://www.somd5.com/) 
 ##### 综合
-- <img src="https://favicon.qqsuu.cn/www.cmd5.com" alt="" style="height: 20px;"> [www.cmd5.com](https://www.cmd5.com) 
-- <img src="https://favicon.qqsuu.cn/www.onlinehashcrack.com" alt="" style="height: 20px;"> [www.onlinehashcrack.com](https://www.onlinehashcrack.com/) 
+- <img src="https://favicon.qqsuu.cn/www.cmd5.com" alt="" style="height: 20px;"> [md5在线解密破解,md5解密加密](https://www.cmd5.com) 
+- <img src="https://favicon.qqsuu.cn/www.onlinehashcrack.com" alt="" style="height: 20px;"> [Professional Cloud Password Testing & Recovery Services](https://www.onlinehashcrack.com/) 
 #### 文件破解
-- <img src="https://favicon.qqsuu.cn/www.catpasswd.com" alt="" style="height: 20px;"> [www.catpasswd.com](https://www.catpasswd.com/) 
+- <img src="https://favicon.qqsuu.cn/www.catpasswd.com" alt="" style="height: 20px;"> [Catpasswd - Globally renowned encrypt file recovery platform](https://www.catpasswd.com/) 
 #### 现代密码
 ##### RSA
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [RsaCtfTool](https://github.com/RsaCtfTool/RsaCtfTool) 
@@ -1034,7 +1034,7 @@
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [yjdirscan yjdirscan](https://github.com/foryujian/yjdirscan) 御剑目录扫描专业版，简单实用的命令行网站目录扫描工具，支持爬虫、fuzz、自定义字典、字典变量、UA修改、假404自动过滤、扫...
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [SWebScan 5.0.2018.08.21](https://github.com/shack2/SWebScan) SWebScan是一款基于C#的Web目录扫描器。
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [DirBrute](https://github.com/Xyntax/DirBrute) 多线程WEB目录爆破工具 [Multi-thread WEB directory blasting tool(with dics inside) ]
-- <img src="https://favicon.qqsuu.cn/pan.baidu.com" alt="" style="height: 20px;"> [pan.baidu.com](http://pan.baidu.com/s/1pLjaQKF) 
+- <img src="https://favicon.qqsuu.cn/pan.baidu.com" alt="" style="height: 20px;"> [release_免费高速下载|百度网盘-分享无限制](http://pan.baidu.com/s/1pLjaQKF) 
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [jsluice](https://github.com/BishopFox/jsluice) 
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [sensitivefilescan](https://github.com/aipengjie/sensitivefilescan) 
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [webdirdig](https://github.com/blackye/webdirdig) 
@@ -1981,7 +1981,7 @@
 - <img src="https://favicon.qqsuu.cn/sec.huazhu.com" alt="" style="height: 20px;"> [华住安全响应中心 | Huazhu Security Response Center](https://sec.huazhu.com/) 
 - <img src="https://favicon.qqsuu.cn/sec.ly.com" alt="" style="height: 20px;"> [首页 | 同程旅行安全应急响应中心](https://sec.ly.com/) 
 - <img src="https://favicon.qqsuu.cn/sec.meizu.com" alt="" style="height: 20px;"> [魅族安全中心](https://sec.meizu.com/) 
-- <img src="https://favicon.qqsuu.cn/sec.vip.com" alt="" style="height: 20px;"> [VSRC首页-唯品会信息安全中心](https://sec.vip.com/) 
+- <img src="https://favicon.qqsuu.cn/sec.vip.com" alt="" style="height: 20px;"> [sec.vip.com](https://sec.vip.com/) 
 - <img src="https://favicon.qqsuu.cn/sec.wacai.com" alt="" style="height: 20px;"> [挖财安全应急响应中心](https://sec.wacai.com/) 
 - <img src="https://favicon.qqsuu.cn/sec.wifi.com" alt="" style="height: 20px;"> [WIFI万能钥匙安全响应中心](https://sec.wifi.com/) 
 - <img src="https://favicon.qqsuu.cn/sec.xiaomi.com" alt="" style="height: 20px;"> [小米安全中心](https://sec.xiaomi.com/) 
