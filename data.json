@@ -24626,8 +24626,8 @@
         "description": "魅族安全中心"
     },
     "https://sec.vip.com/": {
-        "status_code": 503,
-        "description": ""
+        "status_code": 200,
+        "description": "VSRC首页-唯品会信息安全中心"
     },
     "https://sec.wacai.com/": {
         "status_code": 200,
@@ -25407,8 +25407,8 @@
         "description": "Practical Cryptography"
     },
     "https://www.guballa.de/vigenere-solver": {
-        "status_code": 200,
-        "description": "Vigenere Solver | guballa.de"
+        "status_code": 504,
+        "description": "504 Gateway Time-out"
     },
     "http://tools.bugscaner.com/killwebshell/": {
         "status_code": 200,
