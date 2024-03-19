@@ -4527,13 +4527,12 @@
         "release_message": ""
     },
     "https://github.com/MobSF/Mobile-Security-Framework-MobSF": {
-        "created_at": "",
-        "description": "",
-        "commit_date": "2024-02-24 19:15:20",
-        "commit_message": "HOTFIX: Bump deps + ELF strings check fix",
-        "release_tag": "",
-        "release_date": "",
-        "release_message": ""
+        "created_at": "2023-08-28 04:08:29",
+        "description": "Mobile Security Framework (MobSF) is an automated, all-in-one mobile application (Android/iOS/Windows) pen-testing, malware analysis and security assessment framework capable of performing static and dynamic analysis.",
+        "commit_message": "HOTFIX: androguard bump",
+        "commit_date": "2024-03-15 00:36:20",
+        "release_date": "2023-08-28 04:57:05",
+        "release_message": "### v3.7.6 Beta Changelog\r\n\r\n- Features or Enhancements\r\n   - Docker base image update to Ubuntu 22.04\r\n   - Dockerfile QA\r\n   - Migrated from Pip to Poetry for dependency management\r\n   - Migrate from setup.py to use poetry for build and publish\r\n   - Python 3.11 support\r\n   - Docker ADB connection improvements (host.docker.internal translation for localhost)\r\n   -  IOS Swift RulesUpdates `ios_biometric_bool`, `ios_biometric_acl`, `ios_keychain_weak_acl_device_passcode`, `ios_keychain_weak_accessibility_value`, `ios_insecure_random_no_generator`, `ios_biometry_hardened`\r\n   - Android SCA rules update\r\n   - Entropies scan support for strings\r\n   - Regex Hardening: Fixes possible Regex DoS in rules and MobSF code base\r\n   - Tox QA\r\n   - Added poetry build test\r\n   - Updated mobsf PyPI publishing workflow \r\n   - Update local DBs\r\n   - URLs/Email extraction refactor\r\n   - Static and Dynamic Binary Analysis QA\r\n   - Refactor Dex permissions\r\n   - Refactor Androguard `apk.APK()` usage\r\n   - Fallback certificate analysis using apksigtool\r\n   - Use BeautifulSoup4 to prettify malformed XML\r\n   - Detect non standard XML namespace in AndroidManifest.xml, Fixes : #2198\r\n   - Updated android permissions list\r\n   - Updated android permission update check script\r\n   - Github Actions version update\r\n   - Apktool bump\r\n   - Bump httptools\r\n   - Bump yara-python-dex\r\n   - Docker image build test for PRs\r\n   - iOS Source Report Fix\r\n   - Removed unwanted pinned repository\r\n   - Frida APK Patcher (WIP)\r\n   - Fix for Recent Scans `scan not completed` for iOS zip\r\n   - Fix for MachO stripped symbols false positive\r\n   - Fix bug in IPA download\r\n   - iOS/Android form validation fix\r\n   - Fix missing exported components\r\n - Enterprise Feature Request\r\n      - String extraction from APK, Source, AAR, JAR, SO.\r\n      - Android strings sections to show source of strings extracted\r\n      - Strings extraction refactor\r\n      - Support for independent `.so` scan\r\n      - Dylib analysis support\r\n      - Dylib string extraction\r\n      - Improved iOS Plist secret extraction\r\n      - Support for Independent `.dylib` scan\r\n      - Symbols view for dylib and so\r\n      - Trackers support for so\r\n      - AAR/JAR obfuscation and debug check\r\n      - Independent Static Library(.a) ELF/MachO Analysis\r\n      - Mac FAT binary only supported on Mac\r\n\r\n\r\n  \r\n     \r\n    \r\n  \r\n\r\n## What's Changed\r\n* Update dynamic_analysis.html by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2218\r\n* Hotfix: Handle Docker <-> ADB connectivity internally by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2219\r\n* update apktool to 2.8.1 by @superpoussin22 in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2220\r\n* update apktool by @superpoussin22 in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2225\r\n* HOTFIX: Dynamic Analyzer Support Alert by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2227\r\n* [HOTFIX] Regex + Rule Update by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2232\r\n* [EFR06] Independent Shared Object (.so) Scan and Improved String search by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2228\r\n* Update macho_analysis.py - SYMBOLS STRIPPED False Negative by @Karmaz95 in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2234\r\n* [EFR-08] Dylib + Symbols + Other Features by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2239\r\n* Fix missing exported components by @Abb4d0n in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2176\r\n* [EFR09] AAR/JAR obfuscation and debug check + Exception Handed strings and symbols extraction by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2240\r\n* [EFR10] Independent Static Library(.a) ELF/MachO Analysis by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2242\r\n* Pip to poetry and Dockerfile update by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2244\r\n* Docker Buildx test by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2247\r\n* [HOTFIX] bs4 malformed xml parsing + xml namespace detection by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2248\r\n* [HOTFIX] Migrate from setup.py to poetry, tox QA by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2249\r\n\r\n## New Contributors\r\n* @Karmaz95 made their first contribution in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2234\r\n* @Abb4d0n made their first contribution in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2176\r\n\r\n**Full Changelog**: https://github.com/MobSF/Mobile-Security-Framework-MobSF/compare/v3.6.9...v3.7.6"
     },
     "https://github.com/gand3lf/semgrepper": {
         "created_at": "2022-11-04 08:58:52",
@@ -4599,13 +4598,12 @@
         "release_message": ""
     },
     "https://github.com/rockbenben/ChatGPT-Shortcut": {
-        "created_at": "",
-        "description": "",
-        "commit_date": "2024-02-19 22:45:52",
-        "commit_message": "fix: resolve error with overly long search terms",
-        "release_tag": "",
-        "release_date": "",
-        "release_message": ""
+        "created_at": "2024-02-18 08:29:46",
+        "description": "🚀💪Maximize your efficiency and productivity, support for English,中文,Español,العربية. 让生产力加倍的AI快捷指令。更有效地定制、保存和分享自己的提示词。在提示词分享社区中，轻松找到适用于不同场景的指令。",
+        "commit_message": "chore(deps): bump follow-redirects from 1.15.5 to 1.15.6 (#46)\n\nBumps [follow-redirects](https://github.com/follow-redirects/follow-redirects) from 1.15.5 to 1.15.6.\r\n- [Release notes](https://github.com/follow-redirects/follow-redirects/releases)\r\n- [Commits](https://github.com/follow-redirects/follow-redirects/compare/v1.15.5...v1.15.6)\r\n\r\n---\r\nupdated-dependencies:\r\n- dependency-name: follow-redirects\r\n  dependency-type: indirect\r\n...\r\n\r\nSigned-off-by: dependabot[bot] <support@github.com>\r\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
+        "commit_date": "2024-03-17 01:55:16",
+        "release_date": "2024-02-19 06:56:44",
+        "release_message": "#### 🛠 Improvements\r\n- 🔧 Replaced moment with dayjs for better performance and smaller bundle size.\r\n- 📈 Optimized Cumulative Layout Shift (CLS) performance to enhance user experience.\r\n- 🎨 Enhanced styling and layout of the share component for better visual appeal.\r\n- 📦 Updated project dependencies to ensure better security and performance.\r\n\r\n#### 🐛 Bug Fixes\r\n- 🛠️ Fixed warning in the comment component by upgrading dependencies.\r\n\r\n---\r\n\r\n#### 🛠 改进\r\n- 🔧 用dayjs替换moment，以提高性能并减小包大小。\r\n- 📈 优化累积布局偏移（CLS）性能，以增强用户体验。\r\n- 🎨 改善分享组件的样式和布局，以提高视觉吸引力。\r\n- 📦 更新项目依赖，以确保更好的安全性和性能。\r\n\r\n#### 🐛 修复\r\n- 🛠️ 通过升级依赖修复了评论组件中的警告。\r\n\r\n**Full Changelog**: https://github.com/rockbenben/ChatGPT-Shortcut/compare/v3.1.8...v3.1.9"
     },
     "https://github.com/LangLangShanDeNanKe/chatgpt": {
         "created_at": "2023-03-15 12:39:55",
@@ -6425,13 +6423,12 @@
         "release_message": "## What’s Changed\r\n\r\n* Updated `__main__` to be smarter (#652) @bee-san\r\n* Added linking & description to Cipheys pywhat (#645) @bee-san\r\n* Add click tests & fix greppable bug with `pywhat` (#654) @bee-san\r\n* Update pywhat requirement from >=0.2.5,<1.1.0 to >=0.2.5,<1.2.0 (#650) @dependabot\r\n* Remove unnecessary newline (#649) @swanandx\r\n* Update pywhat requirement from ^0.2.5 to >=0.2.5,<1.1.0 (#647) @dependabot\r\n* Remove yaspin and replace it with Rich (#638) @bee-san\r\n"
     },
     "https://github.com/audacity/audacity": {
-        "created_at": "",
-        "description": "",
-        "commit_date": "2024-02-26 08:04:29",
-        "commit_message": "Update Polish from Transifex\n\nUpdate Polish from Transifex\r\n\r\nGreetings,\r\nGootector",
-        "release_tag": "",
-        "release_date": "",
-        "release_message": ""
+        "created_at": "2023-11-16 11:58:21",
+        "description": "Audio Editor                                     ",
+        "commit_message": "Weaken invariant for WaveClip; don't make a Transaction in Append",
+        "commit_date": "2024-03-16 16:12:31",
+        "release_date": "2023-11-16 15:10:06",
+        "release_message": " This is a hotfix release. It fixes the following issues:\r\n\r\n * #5568 Fix a crash when opening projects with zero-length clips.\r\n * #5032 When exporting a file, the sample rate of the tracks is now considered, and last-used sample rate is remembered. \r\n * #5555 Copy-pasting now pastes into audio again by default.  This can be changed via Preferences -> Track Behavior -> Always paste audio as new clips.\r\n * #5549 Mix and render now also resets the gain for the resulting track.\r\n * #5571 Fix clips shifting to the right when effects are applied to them.\r\n * #5106 Fix clicks occurring when overdubbing a project with muted tracks.\r\n * #5533 Fix files being exported without a file extension in rare cases.\r\n * #5539 Show all sample rates possible for MP2 exports.\r\n * #5518 Fix pasting into labels.\r\n * #5543 Fix a crash when clearing loops.\r\n * #5529 Fix copying when \"select all audio if selection required\" is enabled.\r\n * #5598 #5552 Fix GTK detection and compilation for wxWidgets 3.2.4.\r\n * #5551 Fix Nyquist-related crashes.\r\n * #5604 Fix EQs in macros.\r\n * #5511 Fix a crash when closing Audacity.\r\n * #5476 Fix builds on armhf."
     },
     "https://github.com/0Chencc/CTFCrackTools": {
         "created_at": "2016-08-26 08:19:35",
@@ -6560,13 +6557,12 @@
         "release_message": ""
     },
     "https://github.com/horsicq/DIE-engine": {
-        "created_at": "",
-        "description": "",
-        "commit_date": "2024-02-26 17:19:52",
-        "commit_message": "Update module: XOnlineTools 2024-02-26",
-        "release_tag": "",
-        "release_date": "",
-        "release_message": ""
+        "created_at": "2023-12-28 19:55:00",
+        "description": "DIE engine",
+        "commit_message": "Update module: build_tools 2024-03-18",
+        "commit_date": "2024-03-18 02:32:24",
+        "release_date": "2023-12-28 21:22:21",
+        "release_message": "Please see the file [CHANGELOG](https://github.com/horsicq/Detect-It-Easy/blob/master/changelog.txt) for a detailed list of changes.\r\n\r\n\r\n| Asset / File | Description / Host OS |\r\n| ----------- | ----------- |\r\n| [die_sourcecode_3.09.tar.gz](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_sourcecode_3.09.tar.gz) | Source code tarball |\r\n| [Detect_It_Easy-3.09-x86_64.AppImage](https://github.com/horsicq/DIE-engine/releases/download/3.09/Detect_It_Easy-3.09-x86_64.AppImage) | Portable version for Linux [How to run](https://github.com/horsicq/Detect-It-Easy/blob/master/docs/RUN.md) |\r\n| [die_3.09_Debian_10_amd64.deb](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_Debian_10_amd64.deb) | Installer for Debian 10 |\r\n| [die_3.09_Debian_11_amd64.deb](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_Debian_11_amd64.deb) | Installer for Debian 11 |\r\n| [die_3.09_Debian_12_amd64.deb](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_Debian_12_amd64.deb) | Installer for Debian 12 |\r\n| [die_3.09_Ubuntu_14.04_amd64.deb](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_Ubuntu_14.04_amd64.deb) | Installer for Ubuntu 14.04 |\r\n| [die_3.09_Ubuntu_16.04_amd64.deb](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_Ubuntu_16.04_amd64.deb) | Installer for Ubuntu 16.04 |\r\n| [die_3.09_Ubuntu_18.04_amd64.deb](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_Ubuntu_18.04_amd64.deb) | Installer for Ubuntu 18.04 |\r\n| [die_3.09_Ubuntu_20.04_amd64.deb](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_Ubuntu_20.04_amd64.deb) | Installer for Ubuntu 20.04 |\r\n| [die_3.09_Ubuntu_22.04_amd64.deb](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_Ubuntu_22.04_amd64.deb) | Installer for Ubuntu 22.04 |\r\n| [die_3.09_Ubuntu_22.10_amd64.deb](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_Ubuntu_22.10_amd64.deb) | Installer for Ubuntu 22.10 |\r\n| [die_3.09_Ubuntu_23.04_amd64.deb](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_Ubuntu_23.04_amd64.deb) | Installer for Ubuntu 23.04 |\r\n| [die_3.09_Ubuntu_23.10_amd64.deb](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_Ubuntu_23.10_amd64.deb) | Installer for Ubuntu 23.10 |\r\n| [die_3.09_Kali_2023.4_amd64](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_Kali_2023.4_amd64) | Installer for Kali 2023.4 |\r\n| [die_3.09_Parrot_5.3_amd64.deb](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_Parrot_5.3_amd64.deb) | Installer for Parrot 5.3 |\r\n| [die_3.09_portable_Ubuntu_20.04_amd64.tar.gz](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_portable_Ubuntu_20.04_amd64.tar.gz) | Portable version for Ubuntu 20.04 |\r\n| [detect-it-easy-3.09-1-x86_64.pkg.tar.zst](https://github.com/horsicq/DIE-engine/releases/download/3.09/detect-it-easy-3.09-1-x86_64.pkg.tar.zst) | Installer for Arch Linux |\r\n| [die_mac_3.09_x86_64.pkg](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_mac_3.09_x86_64.pkg) | Installer for macOS |\r\n| [die_mac_qt6_3.09_arm64.pkg](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_mac_qt6_3.09_arm64.pkg) | Installer for macOS Qt6 M1 processor|\r\n| [die_mac_portable_3.09_x86_64.zip](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_mac_portable_3.09_x86_64.zip) | Portable version for macOS |\r\n| [die_win32_portable_3.09_x86.zip](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_win32_portable_3.09_x86.zip) | Portable version for x86 Win32 (Win7-Win11)|\r\n| [die_win64_portable_3.09_x64.zip](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_win64_portable_3.09_x64.zip) | Portable version for x64 Win64 (Win7-Win11) |\r\n| [die_winxp_portable_3.09_x86.zip](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_winxp_portable_3.09_x86.zip) | Portable version for Windows XP (WinXP-Win11) |\r\n\r\n\r\nExperimental versions - There may be bugs in the GUI\r\n\r\n| Asset / File | Description / Host OS |\r\n| ----------- | ----------- |\r\n| [die_win64_qt6_portable_3.09_x64.zip](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_win64_qt6_portable_3.09_x64.zip) | Portable version for x64 Win64 Qt6 (Win10-Win11)|\r\n"
     },
     "https://github.com/Zhao-sai-sai/Online_tools": {
         "created_at": "",
@@ -22495,13 +22491,12 @@
         "release_message": ""
     },
     "https://github.com/xaoyaoo/PyWxDump": {
-        "created_at": "",
-        "description": "",
-        "commit_date": "2024-02-25 16:59:31",
-        "commit_message": "UPDATE CHANGELOG.md",
-        "release_tag": "",
-        "release_date": "",
-        "release_message": ""
+        "created_at": "2024-03-15 07:53:13",
+        "description": "获取微信账号信息(昵称/账号/手机/邮箱/数据库密钥/wxid)；PC微信数据库读取、解密脚本；聊天记录查看工具；聊天记录导出为html(包含语音图片)。支持多账户信息获取，支持所有微信版本。",
+        "commit_message": "UPDATE DOC",
+        "commit_date": "2024-03-17 10:48:39",
+        "release_date": "2024-03-15 07:57:13",
+        "release_message": "[Auto Release] Update PyWxDump to refs/tags/v2.4.60\n详细更新日志请查看 [CHANGELOG.md](https://github.com/xaoyaoo/PyWxDump/blob/master/doc/CHANGELOG.md)\n"
     },
     "https://github.com/Pizz33/Qianji": {
         "created_at": "",
@@ -22747,13 +22742,12 @@
         "release_message": ""
     },
     "https://github.com/yqcs/prismx": {
-        "created_at": "",
-        "description": "",
-        "commit_date": "2024-02-01 08:43:20",
+        "created_at": "2024-01-22 08:47:42",
+        "description": ":: 棱镜 X · 一体化的轻量型跨平台渗透系统",
         "commit_message": "1.1.2发布",
-        "release_tag": "",
-        "release_date": "",
-        "release_message": ""
+        "commit_date": "2024-02-01 08:43:20",
+        "release_date": "2024-02-01 09:22:31",
+        "release_message": "- 解决退出 shell 终端导致程序停止运行问题\r\n- 修复部分 UI 兼容性\r\n**此次更新不涉及数据库，无需替换数据库文件**"
     },
     "https://github.com/TomSchimansky/CustomTkinter": {
         "created_at": "",
@@ -23080,13 +23074,12 @@
         "release_message": ""
     },
     "https://github.com/SuxueCode/WechatBakTool": {
-        "created_at": "",
-        "description": "",
-        "commit_date": "2024-02-02 02:36:50",
+        "created_at": "2024-01-25 05:54:01",
+        "description": "基于C#的微信PC版聊天记录备份工具，提供图形界面，解密微信数据库并导出聊天记录。",
         "commit_message": "更新version.json",
-        "release_tag": "",
-        "release_date": "",
-        "release_message": ""
+        "commit_date": "2024-02-02 02:36:50",
+        "release_date": "2024-01-25 05:58:33",
+        "release_message": "1.保底支持3.9.9.27版本。\r\n2.新增批量导出暂停功能。"
     },
     "https://github.com/bdamele/icmpsh": {
         "created_at": "2011-04-15 10:04:12",
@@ -23098,13 +23091,12 @@
         "release_message": ""
     },
     "https://github.com/yhy0/Jie": {
-        "created_at": "",
-        "description": "",
-        "commit_date": "2024-01-20 15:35:32",
-        "commit_message": "ws 端口跟随自定义",
-        "release_tag": "",
-        "release_date": "",
-        "release_message": ""
+        "created_at": "2024-03-18 13:53:17",
+        "description": "Jie stands out as a comprehensive security assessment and exploitation tool meticulously crafted for web applications. Its robust suite of features encompasses vulnerability scanning, information gathering, and exploitation, elevating it to an indispensable toolkit for both security professionals and penetration testers.(expectations)",
+        "commit_message": "fix Katana UniqueId",
+        "commit_date": "2024-03-18 13:53:17",
+        "release_date": "2024-03-18 13:56:22",
+        "release_message": "## Changelog\n* 045e826 fix Katana UniqueId\n* 59bc561 update version\n* db5ed78 fix collection filter\n* 41da6a2 fix katana extension filter\n* bd14f78 fix craw judge\n\n"
     },
     "https://github.com/TryGOTry/CobaltStrike_Cat_4.5": {
         "created_at": "",
@@ -23170,13 +23162,10 @@
         "release_message": ""
     },
     "https://github.com/six2dez/reconftw": {
-        "created_at": "",
-        "description": "",
-        "commit_date": "2024-02-16 09:50:27",
-        "commit_message": "Merge pull request #835 from six2dez/dev\n\ncomment",
-        "release_tag": "",
-        "release_date": "",
-        "release_message": ""
+        "created_at": "2020-12-30 23:52:52",
+        "description": "reconFTW is a tool designed to perform automated recon on a target domain by running the best set of tools to perform scanning and finding out vulnerabilities",
+        "commit_message": "Merge pull request #849 from six2dez/dev\n\nfinal fix? maybe",
+        "commit_date": "2024-03-04 21:36:40"
     },
     "https://github.com/Raghavd3v/CRLFsuite": {
         "created_at": "2022-03-31 02:23:29",
@@ -23440,13 +23429,12 @@
         "release_message": ""
     },
     "https://github.com/wgpsec/whohk": {
-        "created_at": "",
-        "description": "",
-        "commit_date": "2024-01-13 14:21:33",
+        "created_at": "2021-08-26 02:43:22",
+        "description": "whohk，linux下一款强大的应急响应工具  在linux下的应急响应往往需要通过繁琐的命令行来查看各个点的情况，有的时候还需要做一些格式处理，这对于linux下命令不是很熟悉的人比较不友好。本工具将linux下应急响应中常用的一些操作给集合了起来，并处理成了较为友好的格式，只需要通过一个参数就能代替繁琐复杂的命令来实现对各个点的检查。",
         "commit_message": "Update README.md",
-        "release_tag": "",
-        "release_date": "",
-        "release_message": ""
+        "commit_date": "2024-01-13 14:21:33",
+        "release_date": "2021-08-26 02:45:32",
+        "release_message": "【优化】\r\n\r\n优化了系统类型识别方式\r\n\r\n优化工具调用指令\r\n\r\n优化系统账号检查策略\r\n\r\n优化账户敏感历史命令检查策略\r\n\r\n更新ip离线库\r\n\r\n\r\n\r\n【新增】\r\n\r\n检查攻击日期内变动的文件（自定义路径、时间、后缀）\r\n\r\n检查可疑权限的文件（自定义路径、后缀、权限）"
     },
     "https://github.com/linshaoSec/SeeyonExploit-GUI": {
         "created_at": "2021-12-20 10:52:39",
@@ -23764,13 +23752,12 @@
         "release_message": ""
     },
     "https://github.com/charonlight/NacosExploitGUI": {
-        "created_at": "",
-        "description": "",
-        "commit_date": "2024-01-14 05:49:03",
+        "created_at": "2024-01-01 10:38:50",
+        "description": "Nacos漏洞综合利用GUI工具，集成了默认口令漏洞、SQL注入漏洞、身份认证绕过漏洞、反序列化漏洞的检测及其利用",
         "commit_message": "Update README.md",
-        "release_tag": "",
-        "release_date": "",
-        "release_message": ""
+        "commit_date": "2024-01-14 05:49:03",
+        "release_date": "2024-01-14 05:48:00",
+        "release_message": "poc优化"
     },
     "https://github.com/ki9mu/ARL-plus-docker": {
         "created_at": "2022-04-15 08:37:51",
@@ -23843,13 +23830,10 @@
         "release_message": ""
     },
     "https://github.com/0xPugazh/fuzz4bounty": {
-        "created_at": "",
-        "description": "",
-        "commit_date": "2024-02-23 04:00:54",
+        "created_at": "2022-08-21 10:56:53",
+        "description": "1337 Wordlists for Bug Bounty Hunting",
         "commit_message": "Update README.md",
-        "release_tag": "",
-        "release_date": "",
-        "release_message": ""
+        "commit_date": "2024-02-23 04:00:54"
     },
     "https://github.com/TheBeastofwar/JenkinsExploit-GUI": {
         "created_at": "",
@@ -24014,13 +23998,12 @@
         "release_message": "New Release added"
     },
     "https://github.com/Y4er/ysoserial": {
-        "created_at": "",
-        "description": "",
-        "commit_date": "2024-01-11 02:47:07",
+        "created_at": "2024-01-11 02:47:07",
+        "description": "ysoserial修改版，着重修改ysoserial.payloads.util.Gadgets.createTemplatesImpl使其可以通过引入自定义class的形式来执行命令、内存马、反序列化回显。",
         "commit_message": "update README.md",
-        "release_tag": "",
-        "release_date": "",
-        "release_message": ""
+        "commit_date": "2024-01-11 02:47:07",
+        "release_date": "2024-01-11 02:47:51",
+        "release_message": "## Commits\n- b73e835: update README.md (Y4er)"
     },
     "https://github.com/rm1984/IMAPLoginTester": {
         "created_at": "",
@@ -25407,8 +25390,8 @@
         "description": "Practical Cryptography"
     },
     "https://www.guballa.de/vigenere-solver": {
-        "status_code": 504,
-        "description": "504 Gateway Time-out"
+        "status_code": 200,
+        "description": "Vigenere Solver | guballa.de"
     },
     "http://tools.bugscaner.com/killwebshell/": {
         "status_code": 200,
@@ -25533,5 +25516,109 @@
     "https://www.cmd5.com": {
         "status_code": 200,
         "description": "md5在线解密破解,md5解密加密"
+    },
+    "https://github.com/Skycrab/leakScan": {
+        "created_at": "2014-09-29 14:37:28",
+        "description": "在线漏洞扫描",
+        "commit_message": "Update README.md",
+        "commit_date": "2014-12-07 14:44:15"
+    },
+    "https://github.com/Tuhinshubhra/RED_HAWK": {
+        "created_at": "2017-06-11 05:02:35",
+        "description": "All in one tool for Information Gathering, Vulnerability Scanning and Crawling. A must have tool for all penetration testers",
+        "commit_message": "Merge pull request #41 from CyberNucleus/master\n\nadd Dockerfile to RED_HAWK",
+        "commit_date": "2020-09-17 09:36:45"
+    },
+    "https://github.com/v3n0m-Scanner/V3n0M-Scanner": {
+        "created_at": "2018-02-18 22:58:02",
+        "description": "Popular Pentesting scanner in Python3.6 for SQLi/XSS/LFI/RFI and other Vulns",
+        "commit_message": "Merge pull request #240 from v3n0m-Scanner/dependabot/pip/src/modules/xss-strike/certifi-2023.7.22\n\nBump certifi from 2022.12.7 to 2023.7.22 in /src/modules/xss-strike",
+        "commit_date": "2023-07-28 20:05:27",
+        "release_date": "2018-02-27 12:39:11",
+        "release_message": ""
+    },
+    "https://github.com/dermotblair/webvulscan": {
+        "created_at": "2015-08-01 16:19:38",
+        "description": "Web Application Vulnerability Scanner.",
+        "commit_message": "Adding screenshot.",
+        "commit_date": "2015-08-01 17:04:39",
+        "release_date": "2015-08-01 16:30:15",
+        "release_message": "**Note:** This release was published in June 2012 on Google Code. It was exported to GitHub in August 2015.\n- Emailing PDF report is now optional. Therefore, you can just view it in your scan history if you wish instead of having it emailed to you.\n- Crawling a URL at the start of the scan is now optional. Therefore, you can now test a single webpage for the various vulnerabilties instead of scanning an entire website.\n- Issues fixed that some users were having when running WebVulScan on Linux (static path references and case sensitivity). Now tested on Windows (XAMPP 1.7.4 running on Vista) and Linux (XAMPP 1.7.4 running on Ubuntu 12.04).\n- Added information about Linux permissions to instructions.\n- Instructions now in .docx and .txt format\n"
+    },
+    "https://github.com/3xp10it/xupload": {
+        "created_at": "2018-04-15 10:35:38",
+        "description": "A tool for automatically testing whether the upload function can upload webshell",
+        "commit_message": "Update readme.md",
+        "commit_date": "2020-06-21 01:31:59"
+    },
+    "https://github.com/j3ssie/Osmedeus": {
+        "created_at": "2023-12-05 13:50:18",
+        "description": "A Workflow Engine for Offensive Security",
+        "commit_message": "Merge pull request #271 from catmandx/add-messages\n\nFix confusing param display and added an alert when running module main steps",
+        "commit_date": "2024-02-19 08:41:28",
+        "release_date": "2023-12-15 11:45:54",
+        "release_message": "- Refactoring a lot of the helper messages throughout the tool.\r\n- Add a new script `BeautifyCSV('csv-source.txt', 'beautify-output.txt')` to beautify print the CSV file."
+    },
+    "https://github.com/TideSec/WDScanner": {
+        "created_at": "2019-01-21 07:11:32",
+        "description": "WDScanner平台目前实现了如下功能：分布式web漏洞扫描、客户管理、漏洞定期扫描、子域名枚举、端口扫描、网站爬虫、暗链检测、坏链检测、网站指纹搜集、专项漏洞检测、代理搜集及部署等功能。",
+        "commit_message": "Update",
+        "commit_date": "2020-06-22 05:23:54"
+    },
+    "https://github.com/TideSec/Mars": {
+        "created_at": "2019-01-21 07:13:26",
+        "description": "Mars(战神)——资产发现、子域名枚举、C段扫描、资产变更监测、端口变更监测、域名解析变更监测、Awvs扫描、POC检测、web指纹探测、端口指纹探测、CDN探测、操作系统指纹探测、泛解析探测、WAF探测、敏感信息检测等等",
+        "commit_message": "Update",
+        "commit_date": "2020-06-22 05:23:39"
+    },
+    "https://github.com/mzz2017/gg": {
+        "created_at": "2023-02-13 06:51:04",
+        "description": "一个支持节点与订阅链接的 Linux 命令行代理工具 | A command-line tool for one-click proxy in your research and development without installing v2ray or anything else (only for linux)",
+        "commit_message": "Update README_zh.md\n\nRemove mirror",
+        "commit_date": "2023-11-21 10:37:30",
+        "release_date": "2023-02-13 07:01:43",
+        "release_message": "**Full Changelog**: https://github.com/mzz2017/gg/compare/v0.2.16...v0.2.18\r\n\r\nFix potential panic problem and `shadowsocks+simple-obfs` not work problem."
+    },
+    "https://github.com/foxglovesec/JavaUnserializeExploits": {
+        "created_at": "2015-11-06 16:36:04",
+        "description": null,
+        "commit_message": "Merge pull request #1 from schinkelg/master\n\nAutomatically adjust message length header to payload size.",
+        "commit_date": "2016-03-10 20:42:27"
+    },
+    "https://github.com/deepfence/SecretScanner": {
+        "created_at": "2024-01-08 09:59:20",
+        "description": ":unlock: :unlock: Find secrets and passwords in container images and file systems :unlock: :unlock:",
+        "commit_message": "Update dependencies",
+        "commit_date": "2024-01-08 09:59:20",
+        "release_date": "2024-03-15 11:05:20",
+        "release_message": "## What's Changed\r\n* [arm64] arch aware docker build by @tomaszjonak in https://github.com/deepfence/SecretScanner/pull/110\r\n* [arm64] separate build tags from vectorscan ones by @tomaszjonak in https://github.com/deepfence/SecretScanner/pull/111\r\n* [lint] Add golangci-lint automation + fix existing issues by @tomaszjonak in https://github.com/deepfence/SecretScanner/pull/112\r\n* Update go.mod by @aishwaryasabane in https://github.com/deepfence/SecretScanner/pull/114\r\n\r\n## New Contributors\r\n* @tomaszjonak made their first contribution in https://github.com/deepfence/SecretScanner/pull/110\r\n* @aishwaryasabane made their first contribution in https://github.com/deepfence/SecretScanner/pull/114\r\n\r\n**Full Changelog**: https://github.com/deepfence/SecretScanner/compare/v2.0.1...v2.1.1"
+    },
+    "https://github.com/n4xh4ck5/CMSsc4n": {
+        "created_at": "2017-06-19 18:29:16",
+        "description": "Tool to identify if a domain is a CMS such as Wordpress, Moodle, Joomla, Drupal or Prestashop",
+        "commit_message": "Update drupal.py",
+        "commit_date": "2018-10-02 19:24:19"
+    },
+    "https://github.com/erevus-cn/pocscan": {
+        "created_at": "2016-02-02 09:48:58",
+        "description": "Will to be a niubility scan-framework",
+        "commit_message": "fixed 数据重复导致停止插入",
+        "commit_date": "2016-07-08 02:42:50"
+    },
+    "https://github.com/leondz/garak": {
+        "created_at": "2024-02-20 14:23:06",
+        "description": "LLM vulnerability scanner",
+        "commit_message": "add generator for supporting openai module v0.x (#553)\n\n* add generator for supporting openai module v0.x, where multiprocessing support was better\r\n\r\n* put most of module in a conditional to stop it loading if openai lib isn't v0.x",
+        "commit_date": "2024-03-15 08:56:48",
+        "release_date": "2024-02-20 16:12:40",
+        "release_message": "## What's Changed\r\n\r\n### plugins\r\n* New encoding probes by @zmackie in https://github.com/leondz/garak/pull/459\r\n* OpenAI upgrade by @erickgalinkin in https://github.com/leondz/garak/pull/477\r\n* Low Resource Languages Buff by @erickgalinkin in https://github.com/leondz/garak/pull/478\r\n* Add Rasa generator by @rgstephens in https://github.com/leondz/garak/pull/453\r\n* Tree of Attacks by @erickgalinkin in https://github.com/leondz/garak/pull/446\r\n\r\n### functionality improvements\r\n* support multiple buffs by @leondz in https://github.com/leondz/garak/pull/497\r\n* wrap exception printing in repr by @leondz in https://github.com/leondz/garak/pull/425\r\n* add generators.function docs & examples by @leondz in https://github.com/leondz/garak/pull/437\r\n* update doc indices, add test to check them by @leondz in https://github.com/leondz/garak/pull/450\r\n* fix & unify REST generator timeout param names; set default request timeout to 20s by @leondz in https://github.com/leondz/garak/pull/451\r\n* add test to keep requirements in sync by @leondz in https://github.com/leondz/garak/pull/465\r\n* docs for buffs by @leondz in https://github.com/leondz/garak/pull/466\r\n* autosearch in the configs/ subdir for configs (no yaml extension should be given) by @leondz in https://github.com/leondz/garak/pull/467\r\n* Update function.py by @erickgalinkin in https://github.com/leondz/garak/pull/500\r\n* add warning when using a lite/default profile by @leondz in https://github.com/leondz/garak/pull/476\r\n* rename default output dir to garak_runs/; by @leondz in https://github.com/leondz/garak/pull/488\r\n* update openai model list by @leondz in https://github.com/leondz/garak/pull/494\r\n* make test_openai generation tests skip if no OAI API key set by @leondz in https://github.com/leondz/garak/pull/491\r\n\r\n### fixes\r\n* html report now uses correct basedir by @leondz in https://github.com/leondz/garak/pull/439\r\n* typos & clarifications in rest generator by @leondz in https://github.com/leondz/garak/pull/436\r\n* update manifest by @leondz in https://github.com/leondz/garak/pull/454\r\n* Avoid divide by zero error by @erickgalinkin in https://github.com/leondz/garak/pull/458\r\n* Fix/test pytest-8.0.0 order by @leondz in https://github.com/leondz/garak/pull/472\r\n* Check & enable Python 3.12 support by @leondz in https://github.com/leondz/garak/pull/475\r\n* move pathlib uses to _config.transient.basedir by @leondz in https://github.com/leondz/garak/pull/499\r\n* catch & handle HF hub exceptions loading dataset for package hallucination by @leondz in https://github.com/leondz/garak/pull/470\r\n\r\n\r\n## New Contributors\r\n* @zmackie made their first contribution in https://github.com/leondz/garak/pull/459\r\n* @rgstephens made their first contribution in https://github.com/leondz/garak/pull/453\r\n\r\n**Full Changelog**: https://github.com/leondz/garak/compare/v0.9.0.11...v0.9.0.12"
+    },
+    "https://github.com/Ekultek/WhatWaf": {
+        "created_at": "2019-12-01 09:42:24",
+        "description": "Detect and bypass web application firewalls and protection systems",
+        "commit_message": "Update README.md",
+        "commit_date": "2023-12-10 05:19:08",
+        "release_date": "2019-12-01 22:13:43",
+        "release_message": "Completely deprecates setup.sh in favor of setup.py"
     }
 }
