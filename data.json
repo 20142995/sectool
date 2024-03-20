@@ -592,13 +592,12 @@
         "release_message": "修复fernflow引擎的一些bug"
     },
     "https://github.com/shadow1ng/fscan": {
-        "created_at": "",
-        "description": "",
-        "commit_date": "2024-01-15 08:31:14",
+        "created_at": "2023-11-13 04:42:02",
+        "description": "一款内网综合扫描工具，方便一键自动化、全方位漏扫扫描。",
         "commit_message": "Merge pull request #329 from scyxdd/fix-webtitle\n\n修复获取WebTitle的Bug",
-        "release_tag": "",
-        "release_date": "",
-        "release_message": ""
+        "commit_date": "2024-01-15 08:31:14",
+        "release_date": "2023-11-13 04:43:05",
+        "release_message": "加入控制台颜色输出(可-nocolor)、保存文件json结构(-json)、修改tls最低版本为1.0、端口分组(-p db,web,service)。"
     },
     "https://github.com/yzddmr6/WebCrack": {
         "created_at": "2019-08-20 03:39:16",
@@ -3699,12 +3698,11 @@
         "release_message": ""
     },
     "https://github.com/carlospolop/PEASS-ng": {
-        "created_at": "",
-        "description": "",
-        "commit_date": "2024-02-26 19:40:36",
+        "created_at": "2024-02-26 19:40:36",
+        "description": "PEASS - Privilege Escalation Awesome Scripts SUITE (with colors)",
         "commit_message": "Update 3_cloud.sh",
-        "release_tag": "",
-        "release_date": "",
+        "commit_date": "2024-02-26 19:40:36",
+        "release_date": "2024-03-17 04:23:51",
         "release_message": ""
     },
     "https://github.com/waderwu/attackRmi": {
@@ -3879,13 +3877,12 @@
         "release_message": ""
     },
     "https://github.com/aquasecurity/kube-bench": {
-        "created_at": "",
-        "description": "",
-        "commit_date": "2024-02-19 11:12:30",
-        "commit_message": "build(deps): bump golangci/golangci-lint-action from 3 to 4 (#1568)\n\nBumps [golangci/golangci-lint-action](https://github.com/golangci/golangci-lint-action) from 3 to 4.\r\n- [Release notes](https://github.com/golangci/golangci-lint-action/releases)\r\n- [Commits](https://github.com/golangci/golangci-lint-action/compare/v3...v4)\r\n\r\n---\r\nupdated-dependencies:\r\n- dependency-name: golangci/golangci-lint-action\r\n  dependency-type: direct:production\r\n  update-type: version-update:semver-major\r\n...\r\n\r\nSigned-off-by: dependabot[bot] <support@github.com>\r\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>\r\nCo-authored-by: chenk <hen.keinan@gmail.com>",
-        "release_tag": "",
-        "release_date": "",
-        "release_message": ""
+        "created_at": "2024-02-29 11:38:02",
+        "description": "Checks whether Kubernetes is deployed according to security best practices as defined in the CIS Kubernetes Benchmark",
+        "commit_message": "build(deps): bump github.com/aws/aws-sdk-go-v2/config (#1577)\n\nBumps [github.com/aws/aws-sdk-go-v2/config](https://github.com/aws/aws-sdk-go-v2) from 1.26.6 to 1.27.4.\r\n- [Release notes](https://github.com/aws/aws-sdk-go-v2/releases)\r\n- [Commits](https://github.com/aws/aws-sdk-go-v2/compare/config/v1.26.6...config/v1.27.4)\r\n\r\n---\r\nupdated-dependencies:\r\n- dependency-name: github.com/aws/aws-sdk-go-v2/config\r\n  dependency-type: direct:production\r\n  update-type: version-update:semver-minor\r\n...\r\n\r\nSigned-off-by: dependabot[bot] <support@github.com>\r\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>\r\nCo-authored-by: chenk <hen.keinan@gmail.com>",
+        "commit_date": "2024-03-08 13:36:33",
+        "release_date": "2024-02-29 11:48:20",
+        "release_message": "## Changelog\n* 2374e7b Rancher checks correction (#1563)\n* 72eee4b build(deps): bump alpine from 3.19.0 to 3.19.1 (#1557)\n* 66a2151 build(deps): bump codecov/codecov-action from 3 to 4 (#1561)\n* 3021706 build(deps): bump github.com/aws/aws-sdk-go-v2/config (#1554)\n* f297da6 build(deps): bump golang from 1.21.6 to 1.22.0 (#1569)\n* 3db3f73 build(deps): bump golangci/golangci-lint-action from 3 to 4 (#1568)\n* 57132a6 build(deps): bump gorm.io/driver/postgres from 1.5.4 to 1.5.6 (#1567)\n* faeceb5 job.yaml: Adding /var/lib/cni mounts for proper CIS 1.1.9 and 1.1.0 checking (#1547)\n* ee5e4af update rke-cis-1.24 benchmarks: corrected errors and tests (#1570)\n\n"
     },
     "https://github.com/neuvector/neuvector": {
         "created_at": "",
@@ -4813,12 +4810,11 @@
         "release_message": ""
     },
     "https://github.com/0x727/ObserverWard": {
-        "created_at": "",
-        "description": "",
-        "commit_date": "2024-02-01 07:33:41",
-        "commit_message": "Merge pull request #247 from 0x727/dependabot/cargo/serde_yaml-0.9.27\n\nBump serde_yaml from 0.8.26 to 0.9.27",
-        "release_tag": "",
-        "release_date": "",
+        "created_at": "2024-03-15 11:41:27",
+        "description": "侦查守卫(ObserverWard)指纹识别工具Community web fingerprint identification tool ",
+        "commit_message": "doc",
+        "commit_date": "2024-03-15 11:40:29",
+        "release_date": "2024-03-15 11:41:57",
         "release_message": ""
     },
     "https://github.com/SuperZero/CVE-2023-33246": {
@@ -22499,13 +22495,12 @@
         "release_message": "[Auto Release] Update PyWxDump to refs/tags/v2.4.60\n详细更新日志请查看 [CHANGELOG.md](https://github.com/xaoyaoo/PyWxDump/blob/master/doc/CHANGELOG.md)\n"
     },
     "https://github.com/Pizz33/Qianji": {
-        "created_at": "",
-        "description": "",
-        "commit_date": "2024-01-14 11:41:22",
+        "created_at": "2023-11-15 03:33:53",
+        "description": "千机-红队免杀木马自动生成器  Bypass defender、火绒、360等国内主流杀软 随机加密混淆shellcode快速生成免杀马",
         "commit_message": "Update README.md",
-        "release_tag": "",
-        "release_date": "",
-        "release_message": ""
+        "commit_date": "2024-01-14 11:41:22",
+        "release_date": "2023-11-15 03:36:34",
+        "release_message": "`ae0fc48e3f46acc7a25de7911403ac6b`"
     },
     "https://github.com/Yeuoly/0xUBypass": {
         "created_at": "2022-11-06 14:04:02",
@@ -25620,5 +25615,151 @@
         "commit_date": "2023-12-10 05:19:08",
         "release_date": "2019-12-01 22:13:43",
         "release_message": "Completely deprecates setup.sh in favor of setup.py"
+    },
+    "https://github.com/google/oss-fuzz": {
+        "created_at": "2016-07-20 19:39:50",
+        "description": "OSS-Fuzz - continuous fuzzing for open source software.",
+        "commit_message": "[CIFuzz] Make writing stacks in sarif more robust (#11710)\n\nAlso fix bug in test project.",
+        "commit_date": "2024-03-19 17:46:21"
+    },
+    "https://github.com/nmalcolm/Inventus": {
+        "created_at": "2017-08-28 11:48:02",
+        "description": "Inventus is a spider designed to find subdomains of a specific domain by crawling it and any subdomains it discovers.",
+        "commit_message": "Enable the AutoThrottle extension, increase crawl depth, and reduce HTTP cache to 24 hours.",
+        "commit_date": "2017-08-28 11:48:02",
+        "release_date": "2017-08-28 11:53:06",
+        "release_message": "Initial release of Inventus."
+    },
+    "https://github.com/knownsec/Pocsuite": {
+        "created_at": "2018-12-10 01:51:22",
+        "description": "This project has stopped to maintenance, please to https://github.com/knownsec/pocsuite3 project.",
+        "commit_message": "Update README.md",
+        "commit_date": "2019-09-11 09:51:44",
+        "release_date": "2018-12-10 01:57:42",
+        "release_message": ""
+    },
+    "https://github.com/olacabs/jackhammer": {
+        "created_at": "2017-04-24 09:44:04",
+        "description": "Jackhammer - One Security vulnerability assessment/management tool to solve all the security team problems.",
+        "commit_message": "Merge pull request #121 from olacabs/jch-v2\n\nmerging the latest pull request to master",
+        "commit_date": "2019-04-22 07:46:58"
+    },
+    "https://github.com/tariqhawis/injectbot": {
+        "created_at": "2020-12-24 21:33:48",
+        "description": "GUI SQL Injection scannig tool",
+        "commit_message": "Delete .github/workflows directory",
+        "commit_date": "2022-06-06 03:46:45",
+        "release_date": "2020-12-13 16:23:57",
+        "release_message": "InjectBot v0.1.0 stable\r\n\r\n[+] Complete transition from procedural to object-oriented structure.\r\n [-] Troubleshooting has become much easier with modularity.\r\n [-] Scalability is now possible, adding features such as new SQLi techniques is much easier.\r\n [-] The code structure is understandable, any developer who wants to jump in can understand the idea of each step, also comments added for that purpose.\r\n\r\n[+] Increase the speed of HTTP response by 20 times\r\n [-] Use Multi cURL functions instead of file_get_contents for faster response.\r\n [-] Ability to send multi requests in parallel.\r\n [-] Send header requests for blind SQLi.\r\n [-] Use content-length from the header instead of str_len for the whole page!\r\n\r\n[+] Remove iterations by saving scanning state.\r\n [-] Use sessions to save the state of the target while the scanning progress.\r\n\r\n[+] Add blind SQLi scanning mode for fetching table schema and data records\r\n\r\n[+] Bugfixes\r\n\r\n[+] New front-end design based on Bootstrap 4."
+    },
+    "https://github.com/D35m0nd142/LFISuite": {
+        "created_at": "2018-04-08 12:30:09",
+        "description": "Totally Automatic LFI Exploiter (+ Reverse Shell) and Scanner ",
+        "commit_message": "Update pathtotest.txt",
+        "commit_date": "2018-04-08 12:30:09",
+        "release_date": "2018-04-22 07:59:42",
+        "release_message": "Released LFISuite v1.13.\r\nYou can find changes at https://github.com/D35m0nd142/LFISuite/blob/master/CHANGELOG.md\r\n\r\n"
+    },
+    "https://github.com/jonluca/Anubis": {
+        "created_at": "2022-01-09 18:34:49",
+        "description": "Subdomain enumeration and information gathering tool",
+        "commit_message": "Merge pull request #82 from jonluca/renovate/requests-2.x\n\nUpdate dependency requests to v2.27.1",
+        "commit_date": "2022-01-09 18:34:49",
+        "release_date": "2022-01-09 18:36:13",
+        "release_message": ""
+    },
+    "https://github.com/78778443/xssplatform": {
+        "created_at": "2021-12-12 14:49:09",
+        "description": "一个经典的XSS渗透管理平台",
+        "commit_message": "Update README.md",
+        "commit_date": "2023-02-15 02:31:09",
+        "release_date": "2021-12-12 14:51:34",
+        "release_message": ""
+    },
+    "https://github.com/radenvodka/SVScanner": {
+        "created_at": "2018-09-14 09:36:08",
+        "description": "SVScanner - Scanner Vulnerability And MaSsive Exploit.",
+        "commit_message": "Create FUNDING.yml",
+        "commit_date": "2019-06-13 23:48:26",
+        "release_date": "2018-09-14 09:37:17",
+        "release_message": "- Scanner Plugin joomla\r\n- LFI & Upload Shell magento\r\n- Cms Detector (add wordpress version in result)\r\n- FIX filter_url"
+    },
+    "https://github.com/mgeeky/tomcatWarDeployer": {
+        "created_at": "2019-06-27 13:01:52",
+        "description": "Apache Tomcat auto WAR deployment & pwning penetration testing tool.",
+        "commit_message": "Merge pull request #20 from joonaskaskisola/bugfix/tabs-to-spaces\n\nimprovement: fixed inconsistent use of tabs and spaces in indentation",
+        "commit_date": "2022-11-05 09:13:16",
+        "release_date": "2020-07-30 22:14:13",
+        "release_message": ""
+    },
+    "https://github.com/Tib3rius/AutoRecon": {
+        "created_at": "2019-03-01 23:50:14",
+        "description": "AutoRecon is a multi-threaded network reconnaissance tool which performs automated enumeration of services.",
+        "commit_message": "Bugfix\n\nFixes list concatenation issue in #217",
+        "commit_date": "2024-01-23 06:15:42"
+    },
+    "https://github.com/OneSourceCat/phpvulhunter": {
+        "created_at": "2015-01-11 14:48:06",
+        "description": "A tool that can scan php vulnerabilities automatically using static analysis methods",
+        "commit_message": "Merge branch 'master' of https://github.com/OneSourceCat/phpvulhunter",
+        "commit_date": "2015-06-10 09:01:55"
+    },
+    "https://github.com/superhedgy/AttackSurfaceMapper": {
+        "created_at": "2019-08-07 14:32:53",
+        "description": "AttackSurfaceMapper is a tool that aims to automate the reconnaissance process.",
+        "commit_message": "Pull Request (#45)\n\n* Fixed PID error in VerifyNameServer class\r\n\r\nFixed PID error in VerifyNameServer class by initializing the class variable 'pid' in the init method.\r\n\r\n* Optimized by adding LRU caching to the resolve_domain function, using threading for concurrent IP resolution, and handling exceptions for failed resolutions.\r\n\r\n[+] added import of functools and concurrent.futures libraries\r\n[+] added lru_cache decorator to resolve_domain function to cache resolved DNS queries and improve performance\r\n[+] modified resolve_domain function to use ThreadPoolExecutor from concurrent.futures to resolve DNS queries in parallel and improve performance\r\n[+] added try-except block to handle exceptions in resolve_domain function\r\n[+] added IP variable as list to store multiple IP addresses returned from socket.getaddrinfo function\r\n[+] added print statement to display exception message in case of failure in resolving DNS queries.\r\n\r\n* void# refactored to simplify the logic for checking DMARC and subdomain spoofing and retrieve MX records for a given hostx object\r\n\r\n[+] Created helper functions check_dmarc_record() and check_subdomain_spoofing() to improve readability and maintainability of code.\r\n[+] Added comments to explain the purpose of the try-except block\r\n[+] Changed variable response to dmarc_records to reflect its purpose more accurately\r\n[+] Added variable dmarc_status to hostx object to store the DMARC record evaluation\r\n[+] Added variable mx to hostx object to store MX records\r\n[+] Split the logic of evaluating DMARC record and Subdomain spoofing into separate helper functions.\r\n[+] Replaced multiple if-elif statements with a more efficient check_dmarc_record function\r\n[+] Replaced multiple if-elif statements with a more efficient check_subdomain_spoofing function\r\n\r\n+ more\r\n\r\n* Update README.md\r\n\r\n* Update README.md\r\n\r\n* Update README.md\r\n\r\n---------\r\n\r\nCo-authored-by: Void <122842609+VoidDaDev@users.noreply.github.com>",
+        "commit_date": "2023-09-11 05:26:53"
+    },
+    "https://github.com/BishopFox/jsluice": {
+        "created_at": "2023-03-14 01:49:31",
+        "description": "Extract URLs, paths, secrets, and other interesting bits from JavaScript",
+        "commit_message": "Merge pull request #23 from twest-bf/main\n\nAdds flag to skip certificate validation",
+        "commit_date": "2024-01-10 14:51:40"
+    },
+    "https://github.com/W01fh4cker/LearnJavaMemshellFromZero": {
+        "created_at": "2024-02-03 07:37:27",
+        "description": "【三万字原创】完全零基础从0到1掌握Java内存马，公众号：追梦信安",
+        "commit_message": "add:catalogue",
+        "commit_date": "2024-02-08 15:02:15"
+    },
+    "https://github.com/joker25000/Optiva-Framework": {
+        "created_at": "2018-04-22 16:29:28",
+        "description": "Optiva-Framework 🔎 Web Application Scanner🕵️",
+        "commit_message": "Update README.md",
+        "commit_date": "2018-05-08 19:44:17"
+    },
+    "https://github.com/andresriancho/w3af": {
+        "created_at": "2015-04-07 15:04:48",
+        "description": "w3af: web application attack and audit framework, the open source web vulnerability scanner.",
+        "commit_message": "Merge pull request #18616 from andresriancho/develop\n\nMerge develop to master",
+        "commit_date": "2020-06-16 11:27:26",
+        "release_date": "2015-04-07 15:08:32",
+        "release_message": ""
+    },
+    "https://github.com/sowish/LNScan": {
+        "created_at": "2016-08-27 04:15:26",
+        "description": "详细的内部网络信息扫描器",
+        "commit_message": "update version 1.5",
+        "commit_date": "2016-08-27 04:15:26",
+        "release_date": "2021-08-17 12:01:39",
+        "release_message": ""
+    },
+    "https://github.com/youngyangyang04/NoSQLAttack": {
+        "created_at": "2016-05-19 14:26:29",
+        "description": "NoSQLAttack is an open source Python tool to automate exploit MongoDB server IP on Internet and disclose the database data by MongoDB default configuration weaknesses and injection attacks.",
+        "commit_message": "Update requests",
+        "commit_date": "2020-08-05 01:29:07"
+    },
+    "https://github.com/aipengjie/sensitivefilescan": {
+        "created_at": "2016-12-14 10:37:16",
+        "description": null,
+        "commit_message": "test",
+        "commit_date": "2018-04-26 11:32:36"
+    },
+    "https://github.com/fengxuangit/Fox-scan": {
+        "created_at": "2016-08-02 07:31:26",
+        "description": "Fox-scan is a initiative and passive SQL Injection vulnerable Test tools.",
+        "commit_message": "Merge pull request #11 from fengxuangit/feature/TLS/https\n\n修改README",
+        "commit_date": "2016-10-06 14:49:45"
     }
 }
