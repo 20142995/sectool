@@ -2218,13 +2218,10 @@
         "release_message": ""
     },
     "https://github.com/Threekiii/Awesome-POC": {
-        "created_at": "",
-        "description": "",
-        "commit_date": "2024-01-31 00:46:17",
+        "created_at": "2022-02-20 06:43:22",
+        "description": "一个漏洞POC知识库",
         "commit_message": "update cve-2022-33980",
-        "release_tag": "",
-        "release_date": "",
-        "release_message": ""
+        "commit_date": "2024-01-31 00:46:17"
     },
     "https://github.com/mrknow001/fastjson_rec_exploit": {
         "created_at": "2020-07-10 08:02:48",
@@ -2948,13 +2945,12 @@
         "release_message": ""
     },
     "https://github.com/dbeaver/dbeaver": {
-        "created_at": "",
-        "description": "",
-        "commit_date": "2024-02-26 16:48:00",
-        "commit_message": "dbeaver/pro#2510 upgrade PG driver to 42.7.2 (#22906)\n\nCo-authored-by: MashaKorax <84867187+MashaKorax@users.noreply.github.com>",
-        "release_tag": "",
-        "release_date": "",
-        "release_message": ""
+        "created_at": "2024-03-01 16:09:30",
+        "description": "Free universal database tool and SQL client",
+        "commit_message": "dbeaver/dbeaver#23187 Transactions errors during datasource init fix (#23188)",
+        "commit_date": "2024-03-20 15:10:47",
+        "release_date": "2024-03-09 10:23:09",
+        "release_message": "\n                Changes since 23.3.5:\n                - SQL Editor:\n                    - Nested CASE statements were supported\n                    - Deleting queries from Outline was fixed\n                    - Type casts support was improved\n                    - Handling of right-click on collapsed query was fixed\n                    - Expanding collapsed group after the code execution was fixed\n                - Metadata editor: changing the key name when a constraint is changed\n                - Data Editor: SRID switching in the Spatial data viewer was fixed\n                - ER Diagram:\n                    - Missing connection lines were fixed\n                    - Mikami-Tabuchi routing type was disabled\n                - AI:\n                    - Comment presentation was improved\n                    - Sending unique keys and indexes was fixed\n                - Data Transfer:\n                    - Export statistic was fixed\n                    - Import blocking in case of table creation restriction was fixed\n                    - Stack overflow on Linux was fixed\n                - Connectivity: closing timeout for an idle connection was increased and disabled for embedded drivers\n                - Security:\n                    - Vulnerabilities display in Elasticsearch was fixed\n                    - PosgtreSQL driver was upgraded due to CVE-2024-1597\n                - General:\n                    - Smart commit mode was enhanced: if the manual commit mode was enabled and just after it the query failed, the smart commit mode is enabled again\n                    - Links between preference pages were fixed\n                    - Issue with not found tables was fixed\n                    - Release note display was corrected\n                    - Driver libraries download was fixed\n                    - Previous workspace format was supported\n                    - Usage statistics popup was redesigned\n                - Databases:\n                    - DuckDB: WSL paths handling was fixed\n                    - Greenplum: STRICT keyword was added to function definition\n                    - Hana: Switch to the Kerberos authentication in the Connection page was fixed\n                    - MariaDB: The exported JSON format was fixed\n                    - MySQL and MariaDB:\n                        - \"Disable Triggers\" option was added to the Context menu\n                        - \"Case-sensitive\" option was added to the metadata search\n                        - Databases with the same name but different name case are considered as different databases\n                    - Oracle:\n                        - Generating DDL for triggers was fixed\n                    - SQL Server: additional table properties were added for tables and views in the properties editor\n                    - Yellowbricks icons and link to the website were changed\n            "
     },
     "https://github.com/zema1/yarx": {
         "created_at": "2021-11-11 09:43:21",
@@ -5140,13 +5136,12 @@
         "release_message": ""
     },
     "https://github.com/FreeRDP/FreeRDP": {
-        "created_at": "",
-        "description": "",
-        "commit_date": "2024-02-26 19:59:39",
-        "commit_message": "[server,shadow] improve shadow help and startup checks\n\na SAM file is required for the shadow server to work if NLA is\nactivated. Better document that and abort startup if no file is\navailable.",
-        "release_tag": "",
-        "release_date": "",
-        "release_message": ""
+        "created_at": "2024-03-14 10:29:14",
+        "description": "FreeRDP is a free remote desktop protocol library and clients",
+        "commit_message": "[flatpak] build custom openssl\n\nwe need legacy providers or openssl 1.1.1 for compatibility with older\nwindows servers.",
+        "commit_date": "2024-03-20 14:04:31",
+        "release_date": "2024-03-14 10:32:52",
+        "release_message": "This release concentrates on improving test coverage and ci builds.\r\n Some usability issues and inconvenient API functions were fixed on the way.\r\n \r\n New features have been introduced (stub for location channel)\r\n \r\n Noteworthy changes:\r\n * fix a bug in RAIL mode not activating window focus (#9973)\r\n * improve logging (#9969, #9943)\r\n * OpenSSL <= 1.1.1 build fixes (#9897)\r\n * improved help (#9899, #9905)\r\n * improved MINGW support (#9914, #9915, #9919, #9964, #9965, #9920)\r\n * fix right control ungrab for xfreerdp (#9960)\r\n * fix RPATH option settings (#9963)\r\n * fix SDL client screen updates (#9962, #9954)\r\n * fix issues with childSession under windows (#9961, #9956, #9922)\r\n * fix xfreerdp crash with +auth-only (#9947)\r\n * fix windows printer channel (#9934)\r\n * add support to enforce gateway policy (#9942)\r\n * improve big endian support (#9927)\r\n * ignore empty proxy environment variables (#9929)\r\n * improve quoting support for command line (#9912)\r\n \r\n For a complete and detailed change log since the last release run:\r\n git log 3.4.0...3.3.0"
     },
     "https://github.com/iSafeBlue/fastjson-autotype-bypass-dem": {
         "created_at": "",
@@ -5201,13 +5196,12 @@
         "release_message": "建议如果出现跟 #7 一样的问题再用这个版本 "
     },
     "https://github.com/beefproject/beef": {
-        "created_at": "",
-        "description": "",
-        "commit_date": "2024-02-20 13:19:07",
-        "commit_message": "Bump selenium-webdriver from 4.17.0 to 4.18.1\n\nBumps [selenium-webdriver](https://github.com/SeleniumHQ/selenium) from 4.17.0 to 4.18.1.\n- [Release notes](https://github.com/SeleniumHQ/selenium/releases)\n- [Changelog](https://github.com/SeleniumHQ/selenium/blob/trunk/rb/CHANGES)\n- [Commits](https://github.com/SeleniumHQ/selenium/compare/selenium-4.17.0...selenium-4.18.1)\n\n---\nupdated-dependencies:\n- dependency-name: selenium-webdriver\n  dependency-type: direct:development\n  update-type: version-update:semver-minor\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>",
-        "release_tag": "",
-        "release_date": "",
-        "release_message": ""
+        "created_at": "2021-11-09 22:06:22",
+        "description": "The Browser Exploitation Framework Project",
+        "commit_message": "init 'creds' var",
+        "commit_date": "2024-03-19 04:07:45",
+        "release_date": "2021-11-25 23:47:24",
+        "release_message": "## Bug Fixes\r\n* #2190 -  Maintainability - Improved CI workflow\r\n* #2185 - Could not minify JavaScript file: web_ui_all\r\n## Enchancements\r\n* #2205 - Modules - Apache Tomcat Examples Default Install Exploit\r\n* #2157 -  Maintainability - Implement GitHub Actions and added confirmation step to PRs\r\n* #2190 -  Maintainability - Improved CI workflow: \r\n  * Refactor Rakefile to accommodate Browserstack implementation\r\n  * Installer improvements\r\n  * Test suite performance improvements\r\n* #2199  - Enhancement - Check for update on launch works with beef-xss kali package install\r\n\r\n**Full Changelog**: https://github.com/beefproject/beef/compare/v0.5.3.0...v0.5.4.0"
     },
     "https://github.com/MrEmpy/Mantra": {
         "created_at": "2023-01-31 01:47:53",
@@ -5255,13 +5249,12 @@
         "release_message": ""
     },
     "https://github.com/alibaba/arthas": {
-        "created_at": "",
-        "description": "",
-        "commit_date": "2024-02-25 07:49:33",
-        "commit_message": "enhance CI",
-        "release_tag": "",
-        "release_date": "",
-        "release_message": ""
+        "created_at": "2024-01-02 10:43:14",
+        "description": "Alibaba Java Diagnostic Tool Arthas/Alibaba Java诊断利器Arthas",
+        "commit_message": "fix some typos\n\nSigned-off-by: wellweek <xiezitai@outlook.com>",
+        "commit_date": "2024-03-08 07:03:24",
+        "release_date": "2024-01-02 14:06:57",
+        "release_message": "Issues: https://github.com/alibaba/arthas/milestone/50?closed=1\r\n\r\n* arthas-spring-boot-starter support spring boot3. #2524\r\n* upgrade spring-boot 2 to 2.7.15, spring boot 3 to 3.1.7\r\n* upgrade bytekit to 0.0.9 (#2775)\r\n* fix not use arthasHome when constructing ArthasAgent(#2544)\r\n* fix AnsiLog static init may error. #2740\r\n* sysenv/sysprop command sorted by key #2619 (#2652)\r\n* upgrade bytebuddy to 1.14.11\r\n* UserStat support agentId (#2501)"
     },
     "https://github.com/projectdiscovery/wappalyzergo": {
         "created_at": "2021-04-06 09:54:00",
@@ -6104,13 +6097,12 @@
         "release_message": "![文件头检测加载文件后 (小)](https://github.com/ffffffff0x/BerylEnigma/assets/16266917/f652ebd2-c329-47d1-a468-cbbd1a33a52a)\r\n![文件头检测面板02 (小)](https://github.com/ffffffff0x/BerylEnigma/assets/16266917/4c58ac56-84b8-4f8e-81e1-01cfeeddee36)\r\n\r\n```\r\n+ 文件头检测模块\r\n\r\n- 时间戳视图文件命名问题\r\n- 对称加密使用错误加密器问题\r\n```\r\n\r\n详情见 [BE工具的文件头检测功能](https://ryuzu.blog.ffffffff0x.com/post/be%E5%B7%A5%E5%85%B7%E7%9A%84%E6%96%87%E4%BB%B6%E5%A4%B4%E6%A3%80%E6%B5%8B%E5%8A%9F%E8%83%BD/)"
     },
     "https://github.com/abc123info/BlueTeamTools": {
-        "created_at": "",
-        "description": "",
-        "commit_date": "2024-01-05 02:10:41",
+        "created_at": "2024-01-05 02:10:41",
+        "description": "蓝队分析研判工具箱，功能包括内存马反编译分析、各种代码格式化、网空资产测绘功能、溯源辅助、解密冰蝎流量、解密哥斯拉流量、解密Shiro/CAS/Log4j2的攻击payload、IP/端口连接分析、各种编码/解码功能、蓝队分析常用网址、java反序列化数据包分析、Java类名搜索、Fofa搜索、Hunter搜索等。",
         "commit_message": "Update README.md",
-        "release_tag": "",
-        "release_date": "",
-        "release_message": ""
+        "commit_date": "2024-01-05 02:10:41",
+        "release_date": "2024-01-05 02:10:15",
+        "release_message": "2024.01.05 修正\"反序列化数据包分析\"功能的变量未初始化导致解析错误。\r\n2024.01.03 修正\"查询ip对应物理地址\"功能，直接输入ip列表也可以查询物理地址。"
     },
     "https://github.com/yutianqaq/impacket-gui": {
         "created_at": "2023-09-01 10:27:31",
@@ -6383,13 +6375,12 @@
         "release_message": ""
     },
     "https://github.com/WerWolv/ImHex": {
-        "created_at": "",
-        "description": "",
-        "commit_date": "2024-02-26 20:48:56",
-        "commit_message": "impr: Add better error handling when loading projects",
-        "release_tag": "",
-        "release_date": "",
-        "release_message": ""
+        "created_at": "2024-03-02 15:44:54",
+        "description": "🔍 A Hex Editor for Reverse Engineers, Programmers and people who value their retinas when working at 3 AM.",
+        "commit_message": "fix: Use `find_library()` instead of `find_file()` to find system yara library (#1581)\n\nDiscord discussion:\r\nhttps://discord.com/channels/789833418631675954/789840633414025246/1213564050848485427",
+        "commit_date": "2024-03-19 19:23:33",
+        "release_date": "2024-03-02 16:06:21",
+        "release_message": "## Improvements\r\n- Improved ability to recover from exceptions thrown in the main thread\r\n- Drastically improved frame rendering algorithm\r\n    - ImHex doesn't use huge amounts of CPU and GPU power anymore now (especially on Linux!)\r\n- Hex editor minimap rows now stay a constant size when resizing the window\r\n- Improved error handling when loading Projects\r\n\r\n## Bug Fixes\r\n- Fixed Project files being opened like regular files when opened through the command line or Open With\r\n- Fixed yara rules not being read correctly in the advanced information section of the information view\r\n- The Import menu is no longer disabled now when having a Read-only provider opened\r\n- Fixed read-only information toast appearing for all providers\r\n- Fixed crash when trying to calculate CRCs in the hashes view\r\n- Fixed automatic pattern loading based on MIME types not working anymore\r\n- Fixed resizing files or inserting bytes inside of files causing all data afterwards to be lost\r\n- Fixed clicking on items while ImHex isn't focused not working\r\n- Fixed a rare crash when downloading multiple items at once from the content store\r\n\r\n## Pattern Language\r\n- Fixed template types imported using an `import` statement not working correctly\r\n- Fixed crash due to infinite recursion in the validator\r\n\r\n# Previous Changelog\r\n\r\n![image](https://github.com/WerWolv/ImHex/assets/10835354/57bfaec2-779e-4701-b1a5-f03da7815da3)\r\n\r\n## Additions\r\n- **All main menu entries now have pretty icons**\r\n- **Added Myers' diffing algorithm to the diff view**\r\n    - This algorithm can display insertions and removals as well as modifications\r\n    - Huge thanks to the maintainer of Malcat!\r\n- **Added option to customize toolbar icons**\r\n- **Added a much improved Out of the Box experience when first starting up ImHex**\r\n- **Added many new hash algorithms**\r\n    - This includes basic sum checksums, Snefru, Haval, various SHA versions, Keccak, RIPEMD, many CRC presets and many more\r\n- **Greatly improved the data information view**\r\n    - Sections can now be switched on and off\r\n    - Magic information now includes more than one entry if there's multiple concatenated files\r\n    - The Digram and Layered distribution graphs now perform a lot better\r\n    - There's now built-in yara rules that are being run on files to detect compilers, programming languages and more for executables\r\n- **Greatly improved the pattern editor**\r\n    - Thanks a lot to @paxcut \r\n    - This adds support for find and replace, better highlighting and many other smaller things\r\n- **Added Mini Map to the Hex Editor**\r\n    - This can be enabled by clicking on the map icon in the hex editor footer\r\n    - There's also config options when right clicking that icon\r\n- **Added `Edit -> Jump to -> Pattern` option to jump directly from hex editor highlights to patterns**\r\n    - Clicking on patterns in the pattern data view also jumps to their definition in the pattern editor now\r\n- **Added a font picker to the settings**\r\n- **Added option to highlight parent pattern regions in the hex editor when hovering over them**\r\n- Added support for searching for other string encodings and endianess. Thanks a lot to @PerikiyoXD \r\n- Added a pretty drag-n-drop overlay when dragging files onto ImHex\r\n- Added support for virtual file systems through the pattern language\r\n- Added option to keep ImHex always on top of other windows\r\n- Added option to use ImHex in fullscreen mode\r\n- Added support for switching to other providers through the command palette\r\n- Added a setting to always show all provider tabs, even if there's only one\r\n- Added option to export a selection to a file\r\n- Added a comments column to the pattern data view. It can be enabled by right clicking on the table header and selecting it there\r\n- Added option to turn off borderless window mode\r\n- Added option to export the results of the find view to a file\r\n- Added option to disable command palette button in header\r\n- Added a search bar to the file chooser popup\r\n- Added support for opening multiple files at once\r\n- Added support for macOS's Right click -> Open with option\r\n\r\n## Improvements\r\n- **ImHex now uses Atomic File I/O instead of mapping files into memory**\r\n    - This solves various issues where certain files couldn't be opened, files on network drives not working well and more\r\n- **macOS M1 build now only requires macOS 12.1 instead of 14.0 to run**\r\n- Bookmark moving now uses ImGui's native drag n drop feature\r\n- Syncing pattern language source code between providers should work better now\r\n- Custom encodings that don't have multi-byte values now display immediately when selected\r\n- The macOS build now uses a custom titlebar\r\n- ImHex windows are now being unfocused properly if the main window loses focus\r\n    - No more blinking cursors when ImHex is in the background!\r\n- Overwriting individual characters in the edit mode of the hex editor now works much better\r\n- Copy-Paste now works correctly in the Web version of ImHex. Thanks a lot to @exsilium \r\n- The find popup now remembers its content\r\n- The crash restore popup doesn't show anymore now if there's nothing to restore\r\n- Opening the same file multiple times is no longer possible now\r\n\r\n## Bug Fixes\r\n- **Fixed signing issues with macOS builds**\r\n- **Fixed CTRL + S not removing red highlights of bytes**\r\n- Fixed address bound checks in Edit -> Jump to option\r\n- Fixed menu bar collapsing into hamburger menu even if there's enough space\r\n- Fixed RGBA8 data processor node not setting output buffer correctly\r\n- Fixed provider information in information view always showing infos about the current provider instead of about the analyzed provider\r\n- Fixed issues when using certain window management tools on Windows\r\n- Fixed crashes when launching ImHex with file arguments\r\n- Fixed crash when trying to use too many hex editor rows\r\n- Fixed native theme detection of Linux. Thanks to @iTrooz \r\n- Fixed issues where workspaces are not correctly saved sometimes\r\n- Fixed issues where default magic database wasn't being bundled correctly\r\n- Fixed crashes when loading very old settings files\r\n- Fixed data inspector not updating correctly when the underlying data changed\r\n- Fixed a crash when specifying invalid hash parameters in the hashing view\r\n- Fixed additional folder paths not being loaded from the config file correctly\r\n- Fixed data inspector showing two negative signs sometimes\r\n- Fixed various issues with non-zero base addresses\r\n\r\n## Pattern Language\r\n- **Huge refactor of the Preprocessor, Lexer and Parser**\r\n    - Massive thanks to @jumanji144\r\n    - Compile errors are a lot more helpful now and include more context information\r\n- **Added support for `import` statements**\r\n    - Massive thanks to @jumanji144\r\n- **Added stacktrace to runtime errors**\r\n- Patterns can now be placed inside of custom sections from within other types\r\n- Pattern formatters now properly respect a patterns visibility\r\n    - This means hidden patterns don't end up in exported json, yaml or html files anymore\r\n- Fixed writing to big endian bitfield entries\r\n- Changing pattern setting now re-evaluates the code if auto evaluation is enabled\r\n\r\n<br/>\r\n\r\n<p align=\"center\">If you like my work, please consider supporting me on GitHub Sponsors, Patreon or PayPal. Thanks a lot!</p>\r\n<p align=\"center\">\r\n<a href=\"https://github.com/sponsors/WerWolv\"><img src=\"https://werwolv.net/assets/github_banner.png\" alt=\"GitHub donate button\" /> </a>\r\n<a href=\"https://www.patreon.com/werwolv\"><img src=\"https://c5.patreon.com/external/logo/become_a_patron_button.png\" alt=\"Patreon donate button\" /> </a>\r\n<a href=\"https://werwolv.net/donate\"><img src=\"https://werwolv.net/assets/paypal_banner.png\" alt=\"PayPal donate button\" /> </a>\r\n</p"
     },
     "https://github.com/JarlPenguin/BeCyIconGrabberPortable": {
         "created_at": "2018-05-04 19:26:22",
@@ -6463,13 +6454,10 @@
         "release_message": ""
     },
     "https://github.com/Tokeii0/VolatilityPro": {
-        "created_at": "",
-        "description": "",
-        "commit_date": "2024-02-02 00:46:19",
+        "created_at": "2023-05-28 01:45:45",
+        "description": "一款用于自动化处理内存取证的Python脚本，并提供GUI界面",
         "commit_message": "Merge pull request #7 from b3nguang/main\n\n新增clipboard GUI",
-        "release_tag": "",
-        "release_date": "",
-        "release_message": ""
+        "commit_date": "2024-02-02 00:46:19"
     },
     "https://github.com/ProbiusOfficial/CTF-QuickStart": {
         "created_at": "",
@@ -7766,13 +7754,10 @@
         "release_message": ""
     },
     "https://github.com/locustio/locust": {
-        "created_at": "",
-        "description": "",
-        "commit_date": "2024-02-26 14:59:49",
-        "commit_message": "Merge pull request #2613 from andrewbaldwin44/feature/test-app\n\n[Modern UI] Refactor and Add Tests for Entrypoints",
-        "release_tag": "",
-        "release_date": "",
-        "release_message": ""
+        "created_at": "2011-02-17 11:08:03",
+        "description": "Write scalable load tests in plain Python 🚗💨",
+        "commit_message": "Update autogenerated changelog",
+        "commit_date": "2024-03-20 19:24:09"
     },
     "https://github.com/Wh04m1001/IFaultrepElevatedDataCollectionUAC": {
         "created_at": "2022-10-14 21:40:59",
@@ -7829,12 +7814,11 @@
         "release_message": ""
     },
     "https://github.com/yaklang/yakit": {
-        "created_at": "",
-        "description": "",
-        "commit_date": "2024-02-26 08:47:08",
-        "commit_message": "Merge pull request #1452 from yaklang/luoluo/feature/single-plugin-execute\n\nLuoluo/feature/single plugin execute",
-        "release_tag": "",
-        "release_date": "",
+        "created_at": "2024-03-15 08:54:49",
+        "description": "Cyber Security ALL-IN-ONE Platform",
+        "commit_message": "Merge pull request #1512 from yaklang/song/feat/mitmTabsSwitch\n\nSong/feat/mitm tabs switch",
+        "commit_date": "2024-03-20 03:24:41",
+        "release_date": "2024-03-15 09:14:01",
         "release_message": ""
     },
     "https://github.com/bartblaze/Yara-rules": {
@@ -23639,13 +23623,10 @@
         "release_message": "自己的收集的字典"
     },
     "https://github.com/Mr-xn/Penetration_Testing_POC": {
-        "created_at": "",
-        "description": "",
-        "commit_date": "2024-01-28 13:10:06",
+        "created_at": "2019-07-24 03:37:55",
+        "description": "渗透测试有关的POC、EXP、脚本、提权、小工具等---About penetration-testing python-script poc getshell csrf xss cms php-getshell domainmod-xss csrf-webshell cobub-razor cve rce sql sql-poc poc-exp bypass oa-getshell cve-cms",
         "commit_message": "add CVE-2024-23897、CVE-20CVE-2024-020424-21887、CVE-2024-0204、\n\nmssql攻防探究、Struts2VulsScanTools：Struts2全版本漏洞检测工具 19.21",
-        "release_tag": "",
-        "release_date": "",
-        "release_message": ""
+        "commit_date": "2024-01-28 13:10:06"
     },
     "https://github.com/qianxiao996/R-Knife": {
         "created_at": "2023-02-22 05:05:41",
@@ -23876,13 +23857,12 @@
         "release_message": ""
     },
     "https://github.com/cider-security-research/cicd-goat": {
-        "created_at": "",
-        "description": "",
-        "commit_date": "2024-01-17 13:06:05",
+        "created_at": "2023-08-01 07:41:49",
+        "description": "A deliberately vulnerable CI/CD environment. Learn CI/CD security through multiple challenges.",
         "commit_message": "Updated ctfd and localstack tags for ARM64 (#74)\n\n* Updated tags for ARM64\r\n\r\n* Fix homepage HTML\r\n\r\n---------\r\n\r\nCo-authored-by: asi-cider <88270351+asi-cider@users.noreply.github.com>",
-        "release_tag": "",
-        "release_date": "",
-        "release_message": ""
+        "commit_date": "2024-01-17 13:06:05",
+        "release_date": "2023-08-01 11:39:40",
+        "release_message": "## 🐛 Bug fixes:\r\n* fixed links to test data in gryphon.md by @yaron-cider in https://github.com/cider-security-research/cicd-goat/pull/60\r\n* Update dormouse.md solution by @yaron-cider in https://github.com/cider-security-research/cicd-goat/pull/61\r\n* Limit permissions release.yaml by @yaron-cider in https://github.com/cider-security-research/cicd-goat/pull/62\r\n* Fix CI and improve run time by @asi-cider in https://github.com/cider-security-research/cicd-goat/pull/63\r\n* Update caterpillar.md by @chrisbrown-01 in https://github.com/cider-security-research/cicd-goat/pull/64\r\n\r\n## ✏️ More Changes\r\n* update docs & ci config for latest docker engine by @codevbus in https://github.com/cider-security-research/cicd-goat/pull/38\r\n* Rebranding by @asi-cider in https://github.com/cider-security-research/cicd-goat/pull/66\r\n\r\n**Full Changelog**: https://github.com/cider-security-research/cicd-goat/compare/1.2.5...1.2.6"
     },
     "https://github.com/lijiejie/log4j2_vul_local_scanner": {
         "created_at": "2021-12-20 12:07:41",
@@ -25049,8 +25029,8 @@
         "description": "登录 - DNSlog System"
     },
     "http://www.jsons.cn/rabbitencrypt/": {
-        "status_code": 200,
-        "description": "Rabbit加密-Rabbit解密-在线Rabbit加密解密工具"
+        "status_code": 504,
+        "description": "504 Gateway Timeout"
     },
     "https://docs.microsoft.com/zh-cn/sysinternals/downloads/": {
         "status_code": 200,
@@ -25761,5 +25741,81 @@
         "description": "Fox-scan is a initiative and passive SQL Injection vulnerable Test tools.",
         "commit_message": "Merge pull request #11 from fengxuangit/feature/TLS/https\n\n修改README",
         "commit_date": "2016-10-06 14:49:45"
+    },
+    "https://github.com/AabyssZG/SpringBoot-Scan": {
+        "created_at": "2024-01-29 06:54:21",
+        "description": "针对SpringBoot的开源渗透框架，以及Spring相关高危漏洞利用工具",
+        "commit_message": "Update run.py",
+        "commit_date": "2024-03-18 06:28:51",
+        "release_date": "2024-01-29 08:18:28",
+        "release_message": "# 概述\r\n\r\n```\r\n██╗  ██╗ █████╗ ██████╗ ██████╗ ██╗   ██╗    ███╗   ██╗███████╗██╗    ██╗██╗   ██╗███████╗ █████╗ ██████╗ \r\n██║  ██║██╔══██╗██╔══██╗██╔══██╗╚██╗ ██╔╝    ████╗  ██║██╔════╝██║    ██║╚██╗ ██╔╝██╔════╝██╔══██╗██╔══██╗\r\n███████║███████║██████╔╝██████╔╝ ╚████╔╝     ██╔██╗ ██║█████╗  ██║ █╗ ██║ ╚████╔╝ █████╗  ███████║██████╔╝\r\n██╔══██║██╔══██║██╔═══╝ ██╔═══╝   ╚██╔╝      ██║╚██╗██║██╔══╝  ██║███╗██║  ╚██╔╝  ██╔══╝  ██╔══██║██╔══██╗\r\n██║  ██║██║  ██║██║     ██║        ██║       ██║ ╚████║███████╗╚███╔███╔╝   ██║   ███████╗██║  ██║██║  ██║\r\n╚═╝  ╚═╝╚═╝  ╚═╝╚═╝     ╚═╝        ╚═╝       ╚═╝  ╚═══╝╚══════╝ ╚══╝╚══╝    ╚═╝   ╚══════╝╚═╝  ╚═╝╚═╝  ╚═╝\r\n                         [+] SpringBoot-Scan V2.51-2024年 龙年新春贺岁版\r\n```\r\n\r\n光阴如梭，又是一年新春佳节，历经两百次的迭代更新，`SpringBoot-Scan` 在多场实战考验中战功赫赫，收获了1K多的Star~\r\n元旦更新了 `V2.40版本-龙年元旦贺岁版` ，年关将至，我们又更新了 `V2.51版本-龙年新春贺岁版`，对批量信息泄露扫描进行并发处理。感谢一路走来各位师傅给我的反馈和支持，祝各位师傅在新的一年事业有成、马到成功！\r\n\r\n```\r\n工具用法如下：\r\n        对单一URL进行信息泄露扫描:         python3 SpringBoot-Scan.py -u http://example.com/\r\n        读取目标TXT进行批量信息泄露扫描:    python3 SpringBoot-Scan.py -uf url.txt\r\n        对单一URL进行漏洞扫描:             python3 SpringBoot-Scan.py -v http://example.com/\r\n        读取目标TXT进行批量漏洞扫描：      python3 SpringBoot-Scan.py -vf url.txt\r\n        扫描并下载SpringBoot敏感文件:      python3 SpringBoot-Scan.py -d http://example.com/\r\n        使用HTTP代理并自动进行连通性测试:    python3 SpringBoot-Scan.py -p <代理IP:端口>\r\n        从TXT文件中导入自定义HTTP头部:       python3 SpringBoot-Scan.py -t header.txt\r\n        通过ZoomEye密钥进行API下载数据:      python3 SpringBoot-Scan.py -z <ZoomEye的API-KEY>\r\n        通过Fofa密钥进行API下载数据:         python3 SpringBoot-Scan.py -f <Fofa的API-KEY>\r\n        通过Hunter密钥进行API下载数据:       python3 SpringBoot-Scan.py -y <Hunter的API-KEY>\r\n```\r\n\r\n# 更新日志\r\n\r\n- **感谢 [`@Fkalis`](https://github.com/FFR66) 师傅，对批量信息泄露扫描进行并发处理，提高 `-uf` 参数的扫描速度**\r\n- **优化了相关的工作流，对部分冗余的代码进行优化**\r\n- **优化了输出提示，对部分内容的输出结果进行优化**\r\n- **V2.51版本-龙年新春贺岁版专门进行了打包，可以直接用可执行文件进行操作啦~**"
+    },
+    "https://github.com/abc123info/Struts2VulsScanTools": {
+        "created_at": "2024-01-27 11:40:11",
+        "description": "1、点击“检测漏洞”，会自动检测该URL是否存在S2-001、S2-005、S2-009、S2-013、S2-016、S2-019、S2-020/021、S2-032、S2-037、DevMode、S2-045/046、S2-052、S2-048、S2-053、S2-057、S2-061、S2相关log4j2十余种漏洞。  2、“批量验证”，（为防止批量geshell，此功能已经删除，并不再开发）。  3、S2-020、S2-021仅提供漏洞扫描功能，因漏洞利用exp很大几率造成网站访问异常，本程序暂不提供。  4、对于需要登录的页面，请勾选“设置全局Cookie值”，并填好相应的Cookie，程序每次发包都会带上Cookie。  5、作者对不同的struts2漏洞测试语句做了大量修改，执行",
+        "commit_message": "Update README.md",
+        "commit_date": "2024-02-02 07:12:42",
+        "release_date": "2024-01-27 11:57:29",
+        "release_message": "2023.07.30 解决mac系统兼容性问题，解决软件界面在不同jdk下大小显示不一样问题。\r\n2023.07.20 对每一个文本输入框添加右键撤销功能。\r\n2023.07.19 对所有文本框输入框添加右键复制、粘贴、全选、删除功能。解决Mac系统的兼容性问题。\r\n2023.02.18 新增一条检测Struts2调试模式的语句。\r\n2022.08.12 修正漏洞检测逻辑，修复bug。\r\n2022.06.15 优化S2-061检测逻辑，加入插入点设置。\r\n2022.06.08 重点优化log4j2漏洞探测功能，更正检测payload错误。\r\n2022.05.30 优化检测payload中content参数与网站正常应用参数重合，造成的误报问题。\r\n2022.05.23 加入S2-061/S2-062漏洞检测与执行命令功能。\r\n2022.05.01 界面整体改版，加入部分AWT组件。"
+    },
+    "https://github.com/birdhan/SecurityTools": {
+        "created_at": "2022-03-07 07:52:37",
+        "description": "渗透测试工具包 | 开源安全测试工具 | 网络安全工具",
+        "commit_message": "Update README.md",
+        "commit_date": "2024-02-29 07:57:01"
+    },
+    "https://github.com/vlad902/hacking-team-windows-kernel-lpe": {
+        "created_at": "2015-07-11 22:48:59",
+        "description": "Previously-0day exploit from the Hacking Team leak, written by Eugene Ching/Qavar.",
+        "commit_message": "Spoke too soon",
+        "commit_date": "2015-07-21 14:00:10"
+    },
+    "https://github.com/zaproxy/zaproxy": {
+        "created_at": "2023-10-12 16:02:55",
+        "description": "The ZAP core project",
+        "commit_message": "Merge pull request #8367 from ioggstream/ioggstream-8366\n\nAdd application/yaml to expected API types",
+        "commit_date": "2024-03-19 08:58:42",
+        "release_date": "2023-10-12 16:40:31",
+        "release_message": "Release notes: https://www.zaproxy.org/docs/desktop/releases/2.14.0/\r\n\r\n---\r\n| File | Checksum (SHA-256) |\r\n|---|---|\r\n| [ZAP_2.14.0.dmg](https://github.com/zaproxy/zaproxy/releases/download/v2.14.0/ZAP_2.14.0.dmg) | `3b9862a647b1c5c26d6917f2316113dfaceac06bdb79ad3f2c96e0cbd73861f7` |\r\n| [ZAP_2.14.0_aarch64.dmg](https://github.com/zaproxy/zaproxy/releases/download/v2.14.0/ZAP_2.14.0_aarch64.dmg) | `fb3369338252e22470bb38d120233bd9857119806f9f8be681f985e6a5174847` |\r\n| [ZAP_2.14.0_Core.zip](https://github.com/zaproxy/zaproxy/releases/download/v2.14.0/ZAP_2.14.0_Core.zip) | `26006030acd67613d5ed8a9cc57ab36b11777ef8085f8aa5edcada64fb656735` |\r\n| [ZAP_2.14.0_Crossplatform.zip](https://github.com/zaproxy/zaproxy/releases/download/v2.14.0/ZAP_2.14.0_Crossplatform.zip) | `8bc475c2f1976446e2ec37b9bacaeed0a1281185988e689a24187b9c60aa57dd` |\r\n| [ZAP_2.14.0_Linux.tar.gz](https://github.com/zaproxy/zaproxy/releases/download/v2.14.0/ZAP_2.14.0_Linux.tar.gz) | `219d7f25bbe25247713805ab02cc12279898c870743c1aae3c2b0b1882191960` |\r\n| [ZAP_2_14_0_unix.sh](https://github.com/zaproxy/zaproxy/releases/download/v2.14.0/ZAP_2_14_0_unix.sh) | `fb33573bc9ffb4598fe541287d4755062fee2eea26ec5d11102f7671d083c37f` |\r\n| [ZAP_2_14_0_windows-x32.exe](https://github.com/zaproxy/zaproxy/releases/download/v2.14.0/ZAP_2_14_0_windows-x32.exe) | `5dae52e27da12fba5115e40ebc0cd2da24f6d9ba91608a7b0b7b254984a0b798` |\r\n| [ZAP_2_14_0_windows.exe](https://github.com/zaproxy/zaproxy/releases/download/v2.14.0/ZAP_2_14_0_windows.exe) | `df49ffbd14cf82cde5ac06902615e40cbfce1576f866436366708c0845eb9ec6` |\r\n| [bom.json](https://github.com/zaproxy/zaproxy/releases/download/v2.14.0/bom.json) | `f4085a07a1164a0c6b8169a1ad28f3a46a13c6a5ffac06ce82ef9ebdc321c949` |\r\n"
+    },
+    "https://github.com/emanuil/php-reaper": {
+        "created_at": "2016-08-09 13:04:21",
+        "description": "PHP tool to scan ADOdb code for SQL Injections",
+        "commit_message": "added Travis CI build status",
+        "commit_date": "2016-08-09 13:04:21",
+        "release_date": "2016-08-09 13:07:21",
+        "release_message": "After more than a year in production, it's finally time to tag this release.\n"
+    },
+    "https://github.com/torque59/Nosql-Exploitation-Framework": {
+        "created_at": "2013-12-26 17:46:11",
+        "description": "A Python Framework For NoSQL Scanning and Exploitation ",
+        "commit_message": "Updated Dockerfile for python3",
+        "commit_date": "2018-04-26 04:59:40"
+    },
+    "https://github.com/owtf/wafbypasser": {
+        "created_at": "2014-08-23 14:04:06",
+        "description": null,
+        "commit_message": "detect_chars output improvment",
+        "commit_date": "2014-09-22 22:51:48"
+    },
+    "https://github.com/Mr-xn/RedTeam_BlueTeam_HW": {
+        "created_at": "2020-12-07 13:15:49",
+        "description": "红蓝对抗以及护网相关工具和资料，内存shellcode（cs+msf）和内存马查杀工具",
+        "commit_message": "add Struts2_19.21.jar",
+        "commit_date": "2024-01-28 13:16:12"
+    },
+    "https://github.com/eth-sri/securify2": {
+        "created_at": "2020-01-22 15:03:58",
+        "description": "Securify v2.0",
+        "commit_message": "Merge pull request #28 from Embezzler/cleanupReadme\n\nClarify versioning with Docker in README",
+        "commit_date": "2021-09-05 08:08:43"
+    },
+    "https://github.com/AabyssZG/BinaryCutting-Tool": {
+        "created_at": "2023-02-26 03:03:13",
+        "description": "二进制文件切割&合并工具",
+        "commit_message": "Merge pull request #1 from AabyssZG/AabyssZG-patch-1\n\nUpdate BinaryCutting-Tool.py",
+        "commit_date": "2023-04-16 06:51:31",
+        "release_date": "2023-02-26 03:06:22",
+        "release_message": "# 更新日志\r\n\r\n看到网上并没有很好的二进制文件切割&合并工具，于是自己写一个\r\n\r\n- **更加灵活的切割和合并二进制文件**\r\n- **使用 Python，可以跨平台运行**"
     }
 }
