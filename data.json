@@ -4263,13 +4263,10 @@
         "release_message": "- 修复查询C段时的导出bug\r\n- 修复个别指纹通用匹配问题\r\n- 修复因此处修改而出现的小bug"
     },
     "https://github.com/aiboboxx/v2rayfree": {
-        "created_at": "",
-        "description": "",
-        "commit_date": "2024-02-26 12:33:16",
+        "created_at": "2021-10-13 11:34:53",
+        "description": "v2ray节点、免费节点、免费v2ray节点、最新公益免费v2ray节点订阅地址、免费v2ray节点每日更新、免费ss/v2ray/trojan节点、freefq ",
         "commit_message": "update",
-        "release_tag": "",
-        "release_date": "",
-        "release_message": ""
+        "commit_date": "2024-03-22 12:33:04"
     },
     "https://github.com/QAX-A-Team/sharpwmi": {
         "created_at": "2020-04-08 05:50:21",
@@ -4308,13 +4305,10 @@
         "release_message": "2019.3.24\r\n\r\n1、将\"2015Remote.rc\"的一个光标文件\"4.cur\"的路径由绝对路径改为相对路径。\r\n\r\n2、新增Release模式编译后控制台运行时不可见，新增TestRun向注册表写入开机自启动项。\r\n\r\n2019.3.29\r\n\r\n1、主控端和受控端同时修改LOGIN_INFOR结构，修复了受控端上报的操作系统信息不准确的问题。\r\n\r\n2、发布V1.0.0.5。\r\n\r\n注意：此次更新后的主控端需要和受控端匹配使用，否则可能出现问题。\r\n"
     },
     "https://github.com/freefq/free": {
-        "created_at": "",
-        "description": "",
-        "commit_date": "2024-02-06 20:00:02",
+        "created_at": "2020-06-07 02:48:33",
+        "description": "翻墙、免费翻墙、免费科学上网、免费节点、免费梯子、免费ss/v2ray/trojan节点、蓝灯、谷歌商店、翻墙梯子",
         "commit_message": "updated_at 02-07 04:00",
-        "release_tag": "",
-        "release_date": "",
-        "release_message": ""
+        "commit_date": "2024-02-06 20:00:02"
     },
     "https://github.com/tdragon6/Supershell": {
         "created_at": "2023-03-25 15:02:43",
@@ -4574,13 +4568,10 @@
         "release_message": "- Auto updater\r\n- Improved context menu (fix #5 #6)\r\n- Improved design / UI \r\n- Resizable height (fix #4 )\r\n- Fix bug with multiple designs (#10 )"
     },
     "https://github.com/yzfly/awesome-chatgpt-zh": {
-        "created_at": "",
-        "description": "",
-        "commit_date": "2024-02-26 00:31:47",
-        "commit_message": "add Sora.md",
-        "release_tag": "",
-        "release_date": "",
-        "release_message": ""
+        "created_at": "2023-03-21 02:16:34",
+        "description": "ChatGPT 中文指南🔥，ChatGPT 中文调教指南，指令指南，应用开发指南，精选资源清单，更好的使用 chatGPT 让你的生产力 up up up! 🚀",
+        "commit_message": "add LLMStack",
+        "commit_date": "2024-03-12 14:11:51"
     },
     "https://github.com/rockbenben/ChatGPT-Shortcut": {
         "created_at": "2024-02-18 08:29:46",
@@ -5703,13 +5694,12 @@
         "release_message": ""
     },
     "https://github.com/fatedier/frp": {
-        "created_at": "",
-        "description": "",
-        "commit_date": "2024-02-22 13:04:21",
-        "commit_message": "cleanup code (#4019)",
-        "release_tag": "",
-        "release_date": "",
-        "release_message": ""
+        "created_at": "2024-03-21 09:41:43",
+        "description": "A fast reverse proxy to help you expose a local server behind a NAT or firewall to the internet.",
+        "commit_message": "package.sh add android (#4094)",
+        "commit_date": "2024-03-21 11:38:18",
+        "release_date": "2024-03-21 10:06:12",
+        "release_message": "### Features\n\n* Support range ports mapping in TOML/YAML/JSON configuration file by using go template syntax.\n\n  For example:\n\n  ```\n  {{- range $_, $v := parseNumberRangePair \"6000-6006,6007\" \"6000-6006,6007\" }}\n  [[proxies]]\n  name = \"tcp-{{ $v.First }}\"\n  type = \"tcp\"\n  localPort = {{ $v.First }}\n  remotePort = {{ $v.Second }}\n  {{- end }}\n  ```\n\n  This will create 8 proxies such as `tcp-6000, tcp-6001, ... tcp-6007`.\n\n* Health check supports custom request headers.\n* Enable compatibility mode for the Android system to solve the issues of incorrect log time caused by time zone problems and default DNS resolution failures.\n\n### Fixes\n\n* Fix the issue of incorrect interval time for rotating the log by day.\n* Disable quic-go's ECN support by default. It may cause issues on certain operating systems.\n\n"
     },
     "https://github.com/gentilkiwi/mimikatz": {
         "created_at": "2014-04-06 18:30:02",
@@ -18863,13 +18853,10 @@
         "release_message": ""
     },
     "https://github.com/sajjadium/ctf-archives": {
-        "created_at": "",
-        "description": "",
-        "commit_date": "2024-02-26 00:09:04",
-        "commit_message": "bi0sCTF chals",
-        "release_tag": "",
-        "release_date": "",
-        "release_message": ""
+        "created_at": "2021-06-10 16:53:52",
+        "description": " CTF Archives: Collection of CTF Challenges.",
+        "commit_message": "XCTF-DubheCTF chals",
+        "commit_date": "2024-03-20 06:23:00"
     },
     "https://github.com/KaLendsi/CVE-2022-21882": {
         "created_at": "2022-01-27 03:44:10",
@@ -22710,13 +22697,10 @@
         "release_message": "- 解决退出 shell 终端导致程序停止运行问题\r\n- 修复部分 UI 兼容性\r\n**此次更新不涉及数据库，无需替换数据库文件**"
     },
     "https://github.com/TomSchimansky/CustomTkinter": {
-        "created_at": "",
-        "description": "",
-        "commit_date": "2024-01-17 00:16:06",
+        "created_at": "2021-03-04 17:24:00",
+        "description": "A modern and customizable python UI-library based on Tkinter",
         "commit_message": "Update Readme.md",
-        "release_tag": "",
-        "release_date": "",
-        "release_message": ""
+        "commit_date": "2024-01-17 00:16:06"
     },
     "https://github.com/yisier/nps": {
         "created_at": "",
@@ -22739,8 +22723,8 @@
     "https://github.com/whyour/qinglong": {
         "created_at": "2021-03-13 15:21:04",
         "description": "支持 Python3、JavaScript、Shell、Typescript 的定时任务管理平台（Timed task management platform supporting Python3, JavaScript, Shell, Typescript）",
-        "commit_message": "增加自定义通知 header 和 body 环境变量填写提示",
-        "commit_date": "2024-03-16 06:50:38"
+        "commit_message": "修复重启命令",
+        "commit_date": "2024-03-22 15:01:20"
     },
     "https://github.com/nelenkov/android-backup-extractor": {
         "created_at": "2012-06-08 13:33:46",
@@ -23319,13 +23303,10 @@
         "release_message": ""
     },
     "https://github.com/RVC-Boss/GPT-SoVITS": {
-        "created_at": "",
-        "description": "",
-        "commit_date": "2024-02-21 10:52:07",
-        "commit_message": "Add files via upload",
-        "release_tag": "",
-        "release_date": "",
-        "release_message": ""
+        "created_at": "2024-01-14 18:05:21",
+        "description": "1 min voice data can also be used to train a good TTS model! (few shot voice cloning)",
+        "commit_message": "Update README (#827)\n\nUpdate README.md\r\nUpdate some outdated file paths and commands",
+        "commit_date": "2024-03-21 14:28:03"
     },
     "https://github.com/djytmdj/Network-security-study-notes": {
         "created_at": "",
@@ -24062,13 +24043,10 @@
         "release_message": ""
     },
     "https://github.com/hansmach1ne/lfimap": {
-        "created_at": "",
-        "description": "",
-        "commit_date": "2024-02-11 22:07:55",
+        "created_at": "2021-02-26 04:11:33",
+        "description": "Local File Inclusion discovery and exploitation tool",
         "commit_message": "Major update, introduced second order vulnerability check and csrf handling support\n\n- Added support and switches for second order vulnerability detections #42\n- Implemented Beta CSRF token handling support, this will need to be double checked #43\n- Fixed CSPT false positive edge-case, once CS path traversal is detected in the parameter value and not in the path\n- Fixed XSS false positive edge-case, when reflection is inside tag attribute, but double quotes are stripped\n- Fixed RFI payloads pointing to the wrong URLs on github :/\n- Exception handling improvements, ability to print uncaught exception trace with '-v'\n- Fixed bug issue 46\n- Fixed bug issue 47",
-        "release_tag": "",
-        "release_date": "",
-        "release_message": ""
+        "commit_date": "2024-02-11 22:07:55"
     },
     "https://github.com/MaskCyberSecurityTeam/BurpHttpHelper": {
         "created_at": "2022-11-14 02:17:48",
@@ -25973,5 +25951,55 @@
     "https://github.com/Ar3h/putter": {
         "created_at": "2023-09-09 06:56:00",
         "description": "命令执行写任意文件，主要用于命令执行但不出网情况"
+    },
+    "https://github.com/Just-Hack-For-Fun/Windows-INCIDENT-RESPONSE-COOKBOOK": {
+        "created_at": "2024-02-03 12:50:13",
+        "description": "Windows 应急响应手册",
+        "commit_message": "用户反馈列表\n\n截至文件上传日期",
+        "commit_date": "2024-03-07 09:42:47",
+        "release_date": "2024-03-07 09:40:08",
+        "release_message": "**v1.1**\r\n>\r\n> 20240307\r\n>\r\n> - 常规安全检查 -> 进程部分添加 OpenArk\r\n> - 常见问题的解决办法部分添加恶意文件被删除章节\r\n>\r\n> 20240306\r\n>\r\n> - 应急响应事件流程的挖矿病毒、远控后门部分添加 OpenArk 工具\r\n> - 应急响应事件流程的挖矿病毒、远控后门、非持续性事件等部分添加内存搜索字符串步骤\r\n> - 常规安全检查阶段添加近期活动检查\r\n> - 系统日志分析部分添加额外的 RDP 相关日志\r\n> - 小技巧章节添加 0x03 内存中搜索字符串章节\r\n> - 常规安全检查 -> 服务程序 -> 注册表部分完善用于二进制签名验证的 Powershell 脚本的实现逻辑\r\n> - 常规安全检查 -> 服务程序 -> 进阶性排查部分完善用于二进制签名验证的 Powershell 脚本的实现逻辑\r\n> - 常规安全检查 -> COM 劫持部分完善用于二进制签名验证的 Powershell 脚本的实现逻辑\r\n> - 常规安全检查 -> Winsock NSP 部分完善用于二进制签名验证的 Powershell 脚本的实现逻辑\r\n>\r\n> 20240305\r\n>\r\n> - 常规安全检查阶段添加 Windows Defender 日志检查\r\n> - 修复 知识点附录 -> 0x10 谁决定计划任务的执行结果章节的文字错误\r\n> - 小技巧 -> 0x01 查找文件章节添加`dir`、`forfiles`、`Powershell` 查找文件以及 `Everything` 语法\r\n> - 知识点附录添加 0x15 Everything 语法\r\n> - 事前准备 -> 0x02 工具准备章节添加 `OpenArk`、`LastActivityView`\r\n>\r\n> 20240304\r\n>\r\n> - 进行部分文字美化，例如将 powershell 修改为 Powershell\r\n>\r\n> 20240206\r\n>\r\n> - 修复挖矿病毒和远控后门章节的寻找恶意样本过程中文字错误\r\n> - 威胁分析部分将 PCHunter 修改为安芯网盾未知威胁文件检测系统"
+    },
+    "https://github.com/Tuhinshubhra/CMSeeK": {
+        "created_at": "2020-07-24 21:29:02",
+        "description": "CMS Detection and Exploitation suite - Scan WordPress, Joomla, Drupal and over 180 other CMSs",
+        "commit_message": "Merge pull request #171 from h4ckzard/patch-2",
+        "commit_date": "2023-07-03 12:17:19",
+        "release_date": "2020-07-24 21:31:21",
+        "release_message": "# Version 1.1.3 updates:\r\n### Release Date: 25th July 2020\r\n  - Added new CMS:\r\n    - Smartstore\r\n    - Solusquare Commerce Cloud\r\n    - Spree\r\n    - Brightspot CMS\r\n    - Amiro.CMS\r\n    - Weebly\r\n    - ekmPowershop\r\n    - GoDaddy Website Builder\r\n    - WHMCS\r\n    - Zen Cart\r\n    - OpenNemas CMS\r\n    - IPO CMS\r\n  - Version detection added for:\r\n    - Amiro.CMS\r\n    - GoDaddy Website Builder\r\n  - Added WordPress Bruteforce via XML-RPC\r\n  - improved logging for joomla scans\r\n  - improved logging for WordPress deep scan\r\n  - Switched to wpvulns.com for wordpress vulnerabilities\r\n  - Added `--light-scan` argument\r\n  - Added (`--only-cms`, `-o`) argument"
+    },
+    "https://github.com/stamparm/DSSS": {
+        "created_at": "2011-07-17 21:46:39",
+        "description": "Damn Small SQLi Scanner",
+        "commit_message": "Trivial update",
+        "commit_date": "2020-04-11 21:50:05"
+    },
+    "https://github.com/saeeddhqan/Maryam": {
+        "created_at": "2023-08-06 09:51:17",
+        "description": "Maryam: Open-source Intelligence(OSINT) Framework",
+        "commit_message": "Fix version",
+        "commit_date": "2023-08-06 09:52:43",
+        "release_date": "2023-08-06 09:54:06",
+        "release_message": "- Remove dead engines and modules\r\n- Make iris better by finding more results\r\n"
+    },
+    "https://github.com/evilsocket/dnssearch": {
+        "created_at": "2017-07-01 11:12:56",
+        "description": "A subdomain enumeration tool.",
+        "commit_message": "Merge pull request #17 from DavidWittman/5-wildcard-record\n\nAdd wildcard detection",
+        "commit_date": "2017-07-21 18:33:08"
+    },
+    "https://github.com/retirejs/retire.js": {
+        "created_at": "2024-03-12 07:30:25",
+        "description": "scanner detecting the use of JavaScript libraries with known vulnerabilities. Can also generate an SBOM of the libraries it finds.",
+        "commit_message": "More extensions updates",
+        "commit_date": "2024-03-19 13:26:13",
+        "release_date": "2024-03-12 07:30:30",
+        "release_message": "## [5.0.0-beta.1]\n\n### Added\n\n- Deepscan option with `--deep` where retire.js will also try to detect libraries using JavaScript AST (slower)\n\n"
+    },
+    "https://github.com/1N3/XSSTracer": {
+        "created_at": "2015-03-17 19:33:55",
+        "description": "A small python script to check for Cross-Site Tracing (XST)",
+        "commit_message": "XSSTracer 1.3a by 1N3@CrowdShield",
+        "commit_date": "2016-01-23 16:28:19"
     }
 }
