@@ -216,13 +216,10 @@
         "release_message": ""
     },
     "https://github.com/Threekiii/Vulhub-Reproduce": {
-        "created_at": "",
-        "description": "",
-        "commit_date": "2024-02-26 09:10:58",
-        "commit_message": "update cmsms & coldfusion & confluence & jenkins & teamcity & metersphere",
-        "release_tag": "",
-        "release_date": "",
-        "release_message": ""
+        "created_at": "2022-03-03 08:38:29",
+        "description": "一个Vulhub漏洞复现知识库",
+        "commit_message": "update opentsdb cve-2020-35476 & cve-2023-25826",
+        "commit_date": "2024-03-07 09:30:57"
     },
     "https://github.com/akkuman/rotateproxy": {
         "created_at": "2021-10-18 02:10:27",
@@ -3652,13 +3649,10 @@
         "release_message": ""
     },
     "https://github.com/luck-ying/Library-POC": {
-        "created_at": "",
-        "description": "",
-        "commit_date": "2024-02-23 08:52:51",
+        "created_at": "2021-03-21 15:27:57",
+        "description": "基于Pocsuite3、goby编写的漏洞poc&exp存档",
         "commit_message": "Update README.md",
-        "release_tag": "",
-        "release_date": "",
-        "release_message": ""
+        "commit_date": "2024-02-23 08:52:51"
     },
     "https://github.com/teamssix/container-escape-check": {
         "created_at": "2022-03-17 11:00:37",
@@ -3937,13 +3931,12 @@
         "release_message": "Remove scapy usage (#500)\r\n\r\n* removed arp and dns hunters usage due to it's violations of the scapy GPL2 license\r\n\r\n* added installation of arp and dns hunters to Dockerfile\r\n\r\n* added explicit new version to plugins in dockerfile installation\r\n\r\n* ignore B020 flake8\r\n\r\nFix: Removed automatic import of handler object (#506)\r\n\r\n* removed automatic import of handler object in events package and renamed handler.py to event_handler.py to solve name collision"
     },
     "https://github.com/quay/clair": {
-        "created_at": "",
-        "description": "",
-        "commit_date": "2024-02-26 17:42:44",
-        "commit_message": "chore: update claircore to v1.5.25\n\nUpdate claircore to latest release.\n\nSigned-off-by: Claircore-CI <hdonnay@users.noreply.github.com>",
-        "release_tag": "",
-        "release_date": "",
-        "release_message": ""
+        "created_at": "2024-02-26 19:36:39",
+        "description": "Vulnerability Static Analysis for Containers",
+        "commit_message": "cicd: update actions/cache version\n\nHaven't figured out a way to get dependabot to update these.\n\nSigned-off-by: Hank Donnay <hdonnay@redhat.com>",
+        "commit_date": "2024-03-20 16:31:12",
+        "release_date": "2024-02-26 19:42:53",
+        "release_message": "Highlights:\r\n\r\n- The minimum TLS version is now 1.2. \r\n  Previously, servers also allowed 1.1 connections.\r\n- Claircore is updated to v1.5.25:\r\n  <details>\r\n\r\n  - rhcc, rhel: support compression of sideband data\r\n    <details>\r\n    If a Clair instance is using local files for the data needed for the\r\n    `rhel` and `rhcc` indexers, this data may now be compressed. This should\r\n    allow for the files to fit within a Kubernetes ConfigMap, making some\r\n    deployments easier to wrangle.\r\n    </details>\r\n  \r\n  - datastore: add \"delta\" update interface\r\n    <details>\r\n    This change should allow for updaters to use fewer resources and consume\r\n    API-based data sources in the future. As of this change, no in-tree\r\n    updaters have been converted to this interface.\r\n    </details>\r\n  \r\n  - java: size buffers correctly before use\r\n    <details>\r\n    This should reduce memory consumption for indexing layers that have\r\n    deeply nested Java archives.\r\n    </details>\r\n  \r\n  - postgres: remove internal timeouts\r\n    <details>\r\n    Database queries now take as long as needed to execute. This shouldn't\r\n    negatively affect any working uses, and should make some slower or\r\n    less-optimized queries possible on larger instances.\r\n    </details>\r\n  \r\n  - integration: make `PGVERSION` a pattern\r\n    <details>\r\n    The behavior of the setup of an embedded PostgreSQL in integration tests\r\n    has changed. The relevant environment variable (`PGVERSION`) is now a\r\n    pattern instead of a literal version string. Note that a version string\r\n    would be a patten that matches itself, so that format continues to work.\r\n    \r\n    Additionally, the version used is now read from the distributed\r\n    manifest, rather than hard-coded versions. Other than occasional network\r\n    calls to fetch this manifest, users shouldn't notice any difference.\r\n    </details>\r\n  \r\n  - alpine: add edge support\r\n    <details>\r\n    Alpine's `edge` version should now be supported for reporting.\r\n    </details>\r\n  \r\n  - rpm: support PGP V4 signatures\r\n    <details>\r\n    Rpm has apparently started using \"current\"/V4 PGP signatures, which\r\n    claircore was not handling. This adds support for these signatures.\r\n    </details>\r\n  \r\n  - jsonblob: add a disk buffering step\r\n    <details>\r\n    This improves \"offline\" operation by eagerly buffering output to disk\r\n    instead of creating a large in-memory data structure first.\r\n    \r\n    This makes the API trickier but given that there's a single (known and\r\n    intended) user, this should be fine.\r\n    </details>\r\n  \r\n  - tarfs: check a potential interger overflow\r\n    <details>\r\n    This change fixes a potential integer overflow in tar handling code.\r\n    \r\n    The possibility of exploiting this is effectively 0, as it would require\r\n    more bytes to represent a sufficiently large integer than is available\r\n    in the tar header.\r\n    \r\n    See also: https://github.com/quay/claircore/security/code-scanning/5\r\n    </details>\r\n  \r\n  - gobin: take into account package replacements\r\n    <details>\r\n    Previously, there was a bug where package replacements were not\r\n    considered for go binaries.\r\n    </details>\r\n  \r\n  - all: purge `http.DefaultClient` usage\r\n    <details>\r\n    Some packages with less churn (`photon`, `oracle`, `aws`) were using\r\n    older ways of getting an `*http.Client` or using `http.DefaultClient`.\r\n    \r\n    This change breaks some API in exchange for unifying the `*http.Client`\r\n    handling. The practical upshot is that it's much easier to control the\r\n    network contact surface.\r\n    </details>\r\n  \r\n  - all: share single FS implementation\r\n    <details>\r\n    Claircore components that deal with `Layer` objects now share a single\r\n    backing File and a single `fs.FS` implementation when using the `FS`\r\n    method. There should be no noticeable changes for users, but out-of-tree\r\n    implementations may want to move over to using the new FS method.\r\n    \r\n    This change should improve memory usage.\r\n    </details>\r\n  \r\n  - libindex: move to O_TMPFILE fetcher\r\n    <details>\r\n    This release uses a new fetcher (the component responsible for pulling\r\n    layers locally) that makes use of the O_TMPFILE flag to open(2). This\r\n    ensures that layer files will be cleaned up even in the event of an\r\n    unclean shutdown, including being sent a KILL signal.\r\n    </details>\r\n  </details>\r\n\r\n<a name=\"v4.7.3\"></a>\r\n## [v4.7.3] - 2024-02-26\r\n### Admin\r\n- [9517c7be](https://github.com/quay/clair/commit/9517c7bed060d575869a2cbaaa5a255d3714a0eb): add a check for compatible migration version\r\n  See Also:  [#1915](https://github.com/quay/clair/issues/1915)\r\n\r\n### Chore\r\n- [e5a896c9](https://github.com/quay/clair/commit/e5a896c9b939e7e59d92be4f17805f0ed70ea89e): v4.7.3 changelog bump\r\n- [d17ee97b](https://github.com/quay/clair/commit/d17ee97bdccdc46ba25c8c7de151bb84f84236ef): update claircore to v1.5.25\r\n  See Also: [#1990](https://github.com/quay/clair/issues/1990), [#1957](https://github.com/quay/clair/issues/1957), [#1942](https://github.com/quay/clair/issues/1942)\r\n### Config\r\n- [6ba32131](https://github.com/quay/clair/commit/6ba32131be6a79c4d5d070e666e81bfedcc09798): update minimum TLS version for server\r\n See Also:  [#1945](https://github.com/quay/clair/issues/1945)\r\n\r\n[v4.7.3]: https://github.com/quay/clair/compare/v4.7.2...v4.7.3\r\n"
     },
     "https://github.com/alphasoc/flightsim": {
         "created_at": "2018-01-10 12:31:31",
@@ -4781,11 +4774,11 @@
         "release_message": ""
     },
     "https://github.com/0x727/ObserverWard": {
-        "created_at": "2024-03-15 11:41:27",
+        "created_at": "2024-03-22 09:26:54",
         "description": "侦查守卫(ObserverWard)指纹识别工具Community web fingerprint identification tool ",
-        "commit_message": "doc",
-        "commit_date": "2024-03-15 11:40:29",
-        "release_date": "2024-03-15 11:41:57",
+        "commit_message": "cache choco install package",
+        "commit_date": "2024-03-22 09:48:18",
+        "release_date": "2024-03-22 09:27:13",
         "release_message": ""
     },
     "https://github.com/SuperZero/CVE-2023-33246": {
@@ -22944,13 +22937,10 @@
         "release_message": ""
     },
     "https://github.com/momosecurity/FindSomething": {
-        "created_at": "",
-        "description": "",
-        "commit_date": "2024-01-24 13:29:51",
+        "created_at": "2020-09-12 08:47:31",
+        "description": "基于chrome、firefox插件的被动式信息泄漏检测工具",
         "commit_message": "ver:2.0.17 (#43)\n\n## [2.0.17]-2024-01-13\r\n感谢 喂草。、 向上 对内存占用问题的反馈。\r\n感谢 FREE2E! 对.jsp后缀错误分拣到静态路径区问题的反馈。\r\n### 变更\r\n- 因为旧版本收集到的数据会永久存在localStorage中，导致在每次存取数据时出现内存暴增的问题。本次增加了对数据的过期逻辑，7天未访问的url数据将会过期。\r\n- 配置页新增了“清除缓存”操作，用户可手动清除缓存。\r\n- 补充了.tw的顶级域。\r\n\r\n### 修复\r\n- 修复了对.jsp后缀错误分拣到静态路径区的问题。",
-        "release_tag": "",
-        "release_date": "",
-        "release_message": ""
+        "commit_date": "2024-01-24 13:29:51"
     },
     "https://github.com/reto18052015/YingJiXiangYing": {
         "created_at": "2023-02-05 06:07:25",
@@ -24350,13 +24340,12 @@
         "release_message": ""
     },
     "https://github.com/bcvgh/daydayEXP": {
-        "created_at": "",
-        "description": "",
-        "commit_date": "2024-02-21 09:18:12",
+        "created_at": "2024-02-04 09:33:59",
+        "description": "支持自定义Poc文件的图形化漏洞利用工具",
         "commit_message": "Update README.md",
-        "release_tag": "",
-        "release_date": "",
-        "release_message": ""
+        "commit_date": "2024-02-21 09:18:12",
+        "release_date": "2024-02-04 10:03:26",
+        "release_message": "更新：\r\n1.新增了反序列化模块。\r\n2.支持批量URL漏洞检测，漏洞情况导出，自定义线程数。\r\n3.支持了{{字符串数据:Base64Encode}}、{{Hex编码后的数据:HexDecode}}等写法，参考nuclei、YAKIT。\r\n4.优化了部分代码，如占位符逻辑优化，面板输出优化等，"
     },
     "https://github.com/KrystianLi/ExchangeOWA": {
         "created_at": "2023-02-14 01:34:38",
@@ -24515,8 +24504,8 @@
         "description": "魅族安全中心"
     },
     "https://sec.vip.com/": {
-        "status_code": 503,
-        "description": ""
+        "status_code": 200,
+        "description": "VSRC首页-唯品会信息安全中心"
     },
     "https://sec.wacai.com/": {
         "status_code": 200,
@@ -26048,5 +26037,76 @@
         "description": "WatchAD2.0是一款针对域威胁的日志分析与监控系统",
         "commit_message": "Add Readme_EN",
         "commit_date": "2024-01-17 11:55:44"
+    },
+    "https://github.com/ciscocsirt/malspider": {
+        "created_at": "2016-09-29 16:23:18",
+        "description": "Malspider is a web spidering framework that detects characteristics of web compromises. ",
+        "commit_message": "Updated documentation with details on how to create an email summary.",
+        "commit_date": "2017-04-17 19:09:47",
+        "release_date": "2016-09-29 16:29:04",
+        "release_message": "Updated Malspider to support the following:\n\nYara Integration\n- Scan URLs\n- Scan HTML Body\n- Scan inline JS (external JS will be supported in a future code push)\n\nOn-demand analysis\n- Rather than post-process crawl data, Malspider now analyses pages as they are crawled. \n- Added an ad-hoc \"Scan\" button in the GUI so you can scan individual domains on-demand\n"
+    },
+    "https://github.com/stamparm/DSXS": {
+        "created_at": "2011-11-04 17:55:36",
+        "description": "Damn Small XSS Scanner",
+        "commit_message": "Reducing FPs",
+        "commit_date": "2020-12-01 21:00:13"
+    },
+    "https://github.com/yangbh/Hammer": {
+        "created_at": "2014-06-06 08:19:48",
+        "description": "A web vulnerability scanner framework",
+        "commit_message": "couched",
+        "commit_date": "2016-05-22 06:46:42"
+    },
+    "https://github.com/XcodeGhostSource/XcodeGhost": {
+        "created_at": "2015-09-18 19:01:02",
+        "description": "\"XcodeGhost\" Source",
+        "commit_message": "Update README.md",
+        "commit_date": "2015-09-18 20:59:29"
+    },
+    "https://github.com/ProbiusOfficial/CTF-OS": {
+        "created_at": "2024-03-02 11:15:05",
+        "description": "【Hello CTF】专为CTF比赛封装的虚拟机，基于工具集封装多个版本和系统，更多选择，开箱即用。比赛愉快！",
+        "commit_message": "Add TODO list for future improvements",
+        "commit_date": "2024-03-04 16:23:04",
+        "release_date": "2024-03-02 11:25:47",
+        "release_message": "![Flag_with_Windows](https://github.com/ProbiusOfficial/CTF-OS/assets/41804496/17f0a088-328e-42d4-a7d9-7e256785f75e)\r\n\r\n## 发版说明\r\n\r\n这是一个测试版本，还请大家多多在issue中提意见和需求，以便我们完善该系统。\r\n\r\n## 系统说明\r\nWindows Password: `hello-ctf.com`\r\n\r\nUbuntu Password: `ctfos`\r\n\r\n## 下载地址\r\n\r\n### 百度网盘\r\n\r\n链接: https://pan.baidu.com/s/1Ssbipeg4sOL8938j9ZwW5A?pwd=Hctf 提取码: Hctf \r\n\r\n（暂仅提供百度网盘下载，欢迎师傅们上传其他渠道后在issue中提供，感谢谅解）\r\n\r\nSHA256 数据校验：: f28fe034a58d5c70ed61a1f4150e45871dc1d6894c64b3ceae07a4466613caa1-00000089\r\n\r\nSHA256 数据及文件名校验：: 741580f86e1990f91ffb326c4cd4c6dd06c4b4c41da194ee2963a0b01ae9dcb4-00000093\r\n\r\n## Detail\r\n\r\n### 系统环境\r\n\r\nPython 3.8.2rc2 (tags/v3.8.2rc2:777ba07, Feb 18 2020, 09:11:15) [MSC v.1916 64 bit (AMD64)]\r\n\r\nJava 环境 jdk-1.8 (build 1.8.0_401-b10)\r\n\r\nPHP 7.3.4\r\n\r\nMySQL 5.7.26\r\n\r\nNginx 1.15.11\r\n\r\nApache 2.4.39\r\n\r\nMsys2-x86_64-20240113 \r\n\r\ngcc 13.2.0 @msys2\r\n\r\n### WSL子系统\r\n\r\n```\r\nUbuntu 22.04.3 LTS on Windows 10 x86_64\r\nWSL 版本： 2.0.9.0\r\n内核版本： 5.15.133.1-1\r\nWSLg 版本： 1.0.59\r\nMSRDC 版本： 1.2.4677\r\nDirect3D 版本： 1.611.1-81528511\r\nDXCore 版本： 10.0.25131.1002-220531-1700.rs-onecore-base2-hyp\r\nWindows 版本： 10.0.19045.3803\r\n```\r\n\r\n**子系统工具：**\r\n\r\nBinwalk v2.3.4 https://github.com/ReFirmLabs/binwalk/releases/tag/v2.3.4\r\n\r\nSQLMap v1.8.2 @pip\r\n\r\nForemost v1.5.7\r\n\r\ndirsearch v0.4.3.post1 @pip\r\n\r\nexiftool @apt\r\n\r\nzsteg https://github.com/zed-0xff/zsteg @gem\r\n\r\nStegoVeritas https://github.com/bannsec/stegoVeritas @pip\r\n\r\n### 工具\r\n\r\n#### 系统工具\r\n\r\nPHPStudy v8.1.1.3  源:https://www.xp.cn/\r\n\r\nPixPin v1.7.5.0 源:https://pixpinapp.com/\r\n\r\nDism++ v10.1.1002.2 源:https://github.com/Chuyu-Team/Dism-Multi-language/releases/tag/v10.1.1002.2\r\n\r\nEverything 源:https://www.voidtools.com/zh-cn/\r\n\r\n分区助手 源:https://www.disktool.cn/\r\n\r\nPCmast-软媒魔方 源:https://mofang.ruanmei.com/\r\n\r\n#### Web\r\n\r\nBurpSuite v2024.1.1 源:https://www.52pojie.cn//thread-1544866-1-1.html\r\n\r\nBehinder_v4.1 源:https://github.com/rebeyond/Behinder/releases/tag/Behinder_v4.1%E3%80%90t00ls%E4%B8%93%E7%89%88%E3%80%91\r\n\r\nGodzilla v4.0.1 源:https://github.com/BeichenDream/Godzilla/releases/tag/v4.0.1-godzilla\r\n\r\nYsoserial v0.0.6 源:https://github.com/frohoff/ysoserial/releases/tag/v0.0.6\r\n\r\njar-analyzer v2.12 源:https://github.com/jar-analyzer/jar-analyzer/releases/tag/2.12\r\n\r\n#### 文件Hex / 编辑\r\n\r\nImHex v1.33.0 源:https://github.com/WerWolv/ImHex/releases/tag/v1.33.0\r\n\r\n010EditorWin64Portable14.0 源:https://www.52pojie.cn/thread-1863194-1-4.html\r\n\r\n#### 隐写相关\r\n\r\nTweakpng v1.4.6 源:https://entropymine.com/jason/tweakpng/\r\n\r\nstegdetect-0.4-for-Windows 源:Unknown\r\n\r\nWaterMark 源:https://www.52pojie.cn/\r\n\r\nz3-4.12.6 源:https://github.com/Z3Prover/z3/releases/tag/z3-4.12.6\r\n\r\n#### MISC 综合工具\r\n\r\n随波逐流CTF编码工具 / 随波逐流 OCR识别工具 / 随波逐流224种编码图 源:http://1o1o.xyz/index.html\r\n\r\nCTFCrackTools v4.0.7 源:https://github.com/0Chencc/CTFCrackTools/releases/tag/4.0.7\r\n\r\nPuzzle Solver v1.0.4 源:https://github.com/Byxs20/PuzzleSolver/releases 注：为尊重项目要求，只保留了最后一个开源版本，后续的版本请按照Release中的说明自行获取\r\n\r\n#### 取证分析\r\n\r\nWireshark-4.2.3-x64.exe 源:https://www.wireshark.org/download.html\r\n\r\nLovelyMem 源:https://github.com/Tokeii0/LovelyMem/releases/tag/v0.2\r\n\r\nBlueTeamTools 源:https://github.com/abc123info/BlueTeamTools/releases/tag/v0.92\r\n\r\nPasswareKitForensic v2020 汉化 By Tokeii 源:NULL\r\n\r\n#### 密码学辅助工具\r\n\r\nCTF_AES加解密工具 / 国密SM4加解密工具 / 轩禹CTF_RSA工具3.6  源:https://space.bilibili.com/317479700\r\n\r\nciphey v5.14.0 @pip\r\n\r\nZ3求解器 \r\n\r\n#### 漏洞利用\r\n\r\nStruts2_19.21.jar 源:https://github.com/abc123info/Struts2VulsScanTools\r\n\r\nThinkphpGUI-1.3-SNAPSHOT.jar 源:https://github.com/Lotus6/ThinkphpGUI/releases/tag/1.3\r\n\r\nthinkphp_gui_tools 源:https://github.com/bewhale/thinkphp_gui_tools\r\n\r\nShiroExploit-Deprecated v2.51 源:https://github.com/feihong-cs/ShiroExploit-Deprecated/releases/tag/v2.51\r\n\r\nThinkPHP综合利用工具ShiroExploit v2.4.2 源:https://github.com/bewhale/thinkphp_gui_tools/releases/tag/v2.4.2"
+    },
+    "https://github.com/byt3bl33d3r/gcat": {
+        "created_at": "2015-09-12 18:20:08",
+        "description": "A PoC backdoor that uses Gmail as a C&C server",
+        "commit_message": "Update README.md",
+        "commit_date": "2018-11-16 13:43:15",
+        "release_date": "2015-09-12 18:22:24",
+        "release_message": "- Added an upload command\n"
+    },
+    "https://github.com/shogunlab/shuriken": {
+        "created_at": "2017-09-01 15:00:14",
+        "description": "Cross-Site Scripting (XSS) command line tool for testing lists of XSS payloads on web apps.",
+        "commit_message": "Update README.md",
+        "commit_date": "2023-09-16 01:03:04",
+        "release_date": "2017-09-01 15:16:15",
+        "release_message": "### Fuzzy detection option added [-f or --fuzzy]\r\n- Added -f or --fuzzy flag to enable fuzzy detection of partial XSS reflections in HTML source code.\r\n- Uses the FuzzyWuzzy Python library for this feature. \r\n- Additional changes include a new detect_xss() method to allow easier improvements to this feature in the future.\r\n- Flag is optional, so users who are not interested in this feature should not be impacted by these changes.\r\n### Documentation and more comments\r\n- Docstrings were added to methods and more comments were included to explain the fuzzy detection additions"
+    },
+    "https://github.com/stampery/mongoaudit": {
+        "created_at": "2020-05-24 00:16:40",
+        "description": "🔥 A powerful MongoDB auditing and pentesting tool 🔥",
+        "commit_message": "Update installation steps",
+        "commit_date": "2020-12-02 23:31:25",
+        "release_date": "2020-12-02 23:03:31",
+        "release_message": "Bug fixing."
+    },
+    "https://github.com/JohnTroony/Blisqy": {
+        "commit_message": "Add a new Blind SQLi detection payload\n\nThe payload is adopted from a HackerOne report - https://hackerone.com/reports/297478.",
+        "commit_date": "2019-03-24 11:35:24",
+        "created_at": "2019-02-18 15:04:10",
+        "release_date": "2019-02-18 15:07:55",
+        "release_message": "Blisqy now supports fuzzing for Time-based Blind SQL Injection on HTTP Headers and the main functionalities (fuzzing and exploitation) separated to independent files for portability."
+    },
+    "https://github.com/microsoftarchive/redis": {
+        "created_at": "2012-02-09 22:49:05",
+        "description": "Redis is an in-memory database that persists on disk. The data model is key-value, but many different kind of values are supported: Strings, Lists, Sets, Sorted Sets, Hashes",
+        "commit_message": "Update README.md",
+        "commit_date": "2019-07-18 18:36:50"
     }
 }
