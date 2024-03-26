@@ -198,13 +198,10 @@
         "release_message": "JNDIExploit.v1.2 backup"
     },
     "https://github.com/ycdxsb/PocOrExp_in_Github": {
-        "created_at": "",
-        "description": "",
-        "commit_date": "2024-02-26 22:28:29",
-        "commit_message": "update 2024-02-27 06:28:29",
-        "release_tag": "",
-        "release_date": "",
-        "release_message": ""
+        "created_at": "2021-04-13 05:46:16",
+        "description": "聚合Github上已有的Poc或者Exp，CVE信息来自CVE官网。Auto Collect Poc Or Exp from Github by CVE ID.",
+        "commit_message": "update 2024-03-26 06:09:54",
+        "commit_date": "2024-03-25 22:09:54"
     },
     "https://github.com/1n7erface/RequestTemplate": {
         "created_at": "",
@@ -822,13 +819,12 @@
         "release_message": "* 修复 urllib3 更新导致 requests hook 失效的问题 #368 #373 \r\n* 优化 DSL 表达式执行 #372\r\n* 将 mmh3 设置为可选依赖 #359 \r\n* 优化检查更新\r\n\r\n---\r\n\r\n* fix hook failure due to urllib3 update #368 #373\r\n* optimize DSL expression execution #372\r\n* making mmh3 an optional dependency #359\r\n* disable mandatory updates\r\n"
     },
     "https://github.com/murphysecurity/murphysec": {
-        "created_at": "",
-        "description": "",
-        "commit_date": "2024-02-26 02:53:23",
-        "commit_message": "chore(gradle): remove unused code",
-        "release_tag": "",
-        "release_date": "",
-        "release_message": ""
+        "created_at": "2023-05-15 12:21:31",
+        "description": "An open source tool focused on software supply chain security. 墨菲安全专注于软件供应链安全，具备专业的软件成分分析（SCA）、漏洞检测、专业漏洞库。",
+        "commit_message": "fix(npm): include devDependencies",
+        "commit_date": "2024-03-25 11:39:13",
+        "release_date": "2023-05-15 12:52:58",
+        "release_message": "Support NPM lockfile v3 "
     },
     "https://github.com/blackarrowsec/mssqlproxy": {
         "created_at": "2020-02-12 08:44:28",
@@ -1011,13 +1007,12 @@
         "release_message": ""
     },
     "https://github.com/wecooperate/iDefender": {
-        "created_at": "",
-        "description": "",
-        "commit_date": "2024-02-25 14:54:50",
-        "commit_message": "update",
-        "release_tag": "",
-        "release_date": "",
-        "release_message": ""
+        "created_at": "2024-03-06 14:36:46",
+        "description": "iDefender（冰盾 - 终端主动防御系统）",
+        "commit_message": "4.0.0",
+        "commit_date": "2024-03-06 14:36:46",
+        "release_date": "2024-03-06 14:38:31",
+        "release_message": "重大版本更新，建议更新\r\n\r\n- iMonitorSDK更新到4.0\r\n  - 添加内核规则引擎\r\n  - 添加文件隐藏支持\r\n  - 添加沙箱支持\r\n  - 添加RPC调用进程溯源\r\n  - 优化部分性能\r\n\r\n- 模板\r\n\r\n  - **添加内置规则模板**\r\n\r\n  - **添加高级模板（内核模式）支持**\r\n  - **添加文件隐藏模板**\r\n  - **添加轻量级沙箱模板**\r\n  - **添加域名查询模板**\r\n\r\n- 增强防御\r\n  - 添加模拟鼠标键盘监控\r\n  - 添加访问剪切板监控\r\n  - 添加修改系统时间监控\r\n  - 添加关键事件监控\r\n  - 添加修改桌面背景监控\r\n  - 添加磁盘控制监控\r\n- 询问弹框\r\n  - 添加签名信息显示\r\n  - 添加事件自定义\r\n  - **弹框响应记录支持缓存（默认1分钟相同事件不提醒，可以设置里面修改）**\r\n- 拦截记录\r\n  - 添加分页支持\r\n- 信任列表\r\n  - 支持参数组\r\n- 优化\r\n  - 优化规则参数设置\r\n  - 废弃部分过期的模板\r\n  - 优化内核进程列表性能\r\n  - 添加Image挟持保护\r\n  - 增强自保护逻辑\r\n  - **添加远程调用溯源（服务创建、驱动加载、任务计划、用户创建、DNS查询等可以定位到来源）**\r\n  - 添加内核级别的规则设置\r\n  - 添加WMI进程创建监控\r\n  - 规则组支持剪切板导入\r\n  - 参数支持拖曳移动位置\r\n- 修复\r\n  - 添加网络过滤驱动的兼容性\r\n  - 优化HKEY_CLASSES_ROOT重定向问题\r\n  - 修复端口防火墙弹框信任错误\r\n\r\n\r\n软件下载： https://trustsing.com/idefender/#_4-0-0-0"
     },
     "https://github.com/Mr-xn/BurpSuite-collections": {
         "created_at": "2020-01-25 02:07:37",
@@ -2359,12 +2354,12 @@
         "release_message": ""
     },
     "https://github.com/FunnyWolf/Viper": {
-        "created_at": "2024-02-01 08:40:57",
-        "description": "Redteam operation  platform with webui 图形化红队行动辅助平台",
-        "commit_message": "update 2024-02-01-15-37-38",
-        "commit_date": "2024-02-01 08:40:57",
-        "release_date": "2024-02-01 08:41:45",
-        "release_message": "### 新功能\r\n- 新增互联网攻击面管理功能(Beta)"
+        "created_at": "2024-03-25 07:05:54",
+        "description": "Attack Surface Management & Red Team Simulation Platform 互联网攻击面管理&红队模拟平台",
+        "commit_message": "update version 2.0",
+        "commit_date": "2024-03-25 07:38:59",
+        "release_date": "2024-03-25 07:10:28",
+        "release_message": "### 新功能\r\n\r\n- 互联网攻击面管理正式上线\r\n\r\n### 优化\r\n\r\n- `360 Quake`支持多账号自动切换\r\n- 优化`网络资产`搜索性能\r\n- 前端升级Ant Design V5版本\r\n- 新增导航页面\r\n- 优化`创建监听`和`端口转发`时端口已被占用时提示\r\n\r\n### Bugfix\r\n\r\n- fix https://github.com/FunnyWolf/Viper/issues/195\r\n- fix https://github.com/FunnyWolf/Viper/issues/194\r\n- fix https://github.com/FunnyWolf/Viper/issues/193\r\n- fix https://github.com/FunnyWolf/Viper/issues/192\r\n- fix https://github.com/FunnyWolf/Viper/issues/200"
     },
     "https://github.com/kost/dvcs-ripper": {
         "created_at": "2012-10-23 04:55:18",
@@ -3282,12 +3277,11 @@
         "release_message": ""
     },
     "https://github.com/bytedance/Elkeid": {
-        "created_at": "",
-        "description": "",
-        "commit_date": "2024-02-23 07:22:40",
-        "commit_message": "Merge pull request #578 from bytedance/feat-probe-version\n\nadd probe_version for 2995&2997",
-        "release_tag": "",
-        "release_date": "",
+        "created_at": "2024-03-22 08:10:39",
+        "description": "Elkeid is an open source solution that can meet the security requirements of various workloads such as hosts, containers and K8s, and serverless. It is derived from ByteDance's internal best practices.",
+        "commit_message": "FIXME: kernel warns the worker thread slept > 120s\n\nThe dput worker thread will sleep if there's no item to put.\n\nSigned-off-by: shenping.matt <shenping.matt@bytedance.com>",
+        "commit_date": "2024-03-18 08:00:49",
+        "release_date": "2024-03-22 14:13:07",
         "release_message": ""
     },
     "https://github.com/knownsec/ct": {
@@ -5105,8 +5099,8 @@
     "https://github.com/FreeRDP/FreeRDP": {
         "created_at": "2024-03-14 10:29:14",
         "description": "FreeRDP is a free remote desktop protocol library and clients",
-        "commit_message": "[flatpak] build custom openssl\n\nwe need legacy providers or openssl 1.1.1 for compatibility with older\nwindows servers.",
-        "commit_date": "2024-03-20 14:04:31",
+        "commit_message": "[client,common] fix TS_RELPOINTER_EVENT sending logic\n\nSend relative mouse events using TS_RELPOINTER_EVENT only when capability present",
+        "commit_date": "2024-03-22 19:15:24",
         "release_date": "2024-03-14 10:32:52",
         "release_message": "This release concentrates on improving test coverage and ci builds.\r\n Some usability issues and inconvenient API functions were fixed on the way.\r\n \r\n New features have been introduced (stub for location channel)\r\n \r\n Noteworthy changes:\r\n * fix a bug in RAIL mode not activating window focus (#9973)\r\n * improve logging (#9969, #9943)\r\n * OpenSSL <= 1.1.1 build fixes (#9897)\r\n * improved help (#9899, #9905)\r\n * improved MINGW support (#9914, #9915, #9919, #9964, #9965, #9920)\r\n * fix right control ungrab for xfreerdp (#9960)\r\n * fix RPATH option settings (#9963)\r\n * fix SDL client screen updates (#9962, #9954)\r\n * fix issues with childSession under windows (#9961, #9956, #9922)\r\n * fix xfreerdp crash with +auth-only (#9947)\r\n * fix windows printer channel (#9934)\r\n * add support to enforce gateway policy (#9942)\r\n * improve big endian support (#9927)\r\n * ignore empty proxy environment variables (#9929)\r\n * improve quoting support for command line (#9912)\r\n \r\n For a complete and detailed change log since the last release run:\r\n git log 3.4.0...3.3.0"
     },
@@ -6506,8 +6500,8 @@
     "https://github.com/horsicq/DIE-engine": {
         "created_at": "2023-12-28 19:55:00",
         "description": "DIE engine",
-        "commit_message": "Update module: build_tools 2024-03-18",
-        "commit_date": "2024-03-18 02:32:24",
+        "commit_message": "Update module: XMIMEWidget 2024-03-26",
+        "commit_date": "2024-03-25 23:14:08",
         "release_date": "2023-12-28 21:22:21",
         "release_message": "Please see the file [CHANGELOG](https://github.com/horsicq/Detect-It-Easy/blob/master/changelog.txt) for a detailed list of changes.\r\n\r\n\r\n| Asset / File | Description / Host OS |\r\n| ----------- | ----------- |\r\n| [die_sourcecode_3.09.tar.gz](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_sourcecode_3.09.tar.gz) | Source code tarball |\r\n| [Detect_It_Easy-3.09-x86_64.AppImage](https://github.com/horsicq/DIE-engine/releases/download/3.09/Detect_It_Easy-3.09-x86_64.AppImage) | Portable version for Linux [How to run](https://github.com/horsicq/Detect-It-Easy/blob/master/docs/RUN.md) |\r\n| [die_3.09_Debian_10_amd64.deb](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_Debian_10_amd64.deb) | Installer for Debian 10 |\r\n| [die_3.09_Debian_11_amd64.deb](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_Debian_11_amd64.deb) | Installer for Debian 11 |\r\n| [die_3.09_Debian_12_amd64.deb](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_Debian_12_amd64.deb) | Installer for Debian 12 |\r\n| [die_3.09_Ubuntu_14.04_amd64.deb](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_Ubuntu_14.04_amd64.deb) | Installer for Ubuntu 14.04 |\r\n| [die_3.09_Ubuntu_16.04_amd64.deb](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_Ubuntu_16.04_amd64.deb) | Installer for Ubuntu 16.04 |\r\n| [die_3.09_Ubuntu_18.04_amd64.deb](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_Ubuntu_18.04_amd64.deb) | Installer for Ubuntu 18.04 |\r\n| [die_3.09_Ubuntu_20.04_amd64.deb](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_Ubuntu_20.04_amd64.deb) | Installer for Ubuntu 20.04 |\r\n| [die_3.09_Ubuntu_22.04_amd64.deb](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_Ubuntu_22.04_amd64.deb) | Installer for Ubuntu 22.04 |\r\n| [die_3.09_Ubuntu_22.10_amd64.deb](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_Ubuntu_22.10_amd64.deb) | Installer for Ubuntu 22.10 |\r\n| [die_3.09_Ubuntu_23.04_amd64.deb](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_Ubuntu_23.04_amd64.deb) | Installer for Ubuntu 23.04 |\r\n| [die_3.09_Ubuntu_23.10_amd64.deb](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_Ubuntu_23.10_amd64.deb) | Installer for Ubuntu 23.10 |\r\n| [die_3.09_Kali_2023.4_amd64](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_Kali_2023.4_amd64) | Installer for Kali 2023.4 |\r\n| [die_3.09_Parrot_5.3_amd64.deb](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_Parrot_5.3_amd64.deb) | Installer for Parrot 5.3 |\r\n| [die_3.09_portable_Ubuntu_20.04_amd64.tar.gz](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_portable_Ubuntu_20.04_amd64.tar.gz) | Portable version for Ubuntu 20.04 |\r\n| [detect-it-easy-3.09-1-x86_64.pkg.tar.zst](https://github.com/horsicq/DIE-engine/releases/download/3.09/detect-it-easy-3.09-1-x86_64.pkg.tar.zst) | Installer for Arch Linux |\r\n| [die_mac_3.09_x86_64.pkg](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_mac_3.09_x86_64.pkg) | Installer for macOS |\r\n| [die_mac_qt6_3.09_arm64.pkg](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_mac_qt6_3.09_arm64.pkg) | Installer for macOS Qt6 M1 processor|\r\n| [die_mac_portable_3.09_x86_64.zip](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_mac_portable_3.09_x86_64.zip) | Portable version for macOS |\r\n| [die_win32_portable_3.09_x86.zip](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_win32_portable_3.09_x86.zip) | Portable version for x86 Win32 (Win7-Win11)|\r\n| [die_win64_portable_3.09_x64.zip](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_win64_portable_3.09_x64.zip) | Portable version for x64 Win64 (Win7-Win11) |\r\n| [die_winxp_portable_3.09_x86.zip](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_winxp_portable_3.09_x86.zip) | Portable version for Windows XP (WinXP-Win11) |\r\n\r\n\r\nExperimental versions - There may be bugs in the GUI\r\n\r\n| Asset / File | Description / Host OS |\r\n| ----------- | ----------- |\r\n| [die_win64_qt6_portable_3.09_x64.zip](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_win64_qt6_portable_3.09_x64.zip) | Portable version for x64 Win64 Qt6 (Win10-Win11)|\r\n"
     },
@@ -10892,13 +10886,12 @@
         "release_message": "The release includes:\r\n\r\n* Full support for Python 3\r\n* A refactored and improved EFilter which should be more robust and powerful.\r\n\r\nYou can install this release with pip:\r\n\r\n```\r\n$ virtualenv -p python3 /tmp/MyEnv\r\nAlready using interpreter /usr/bin/python3\r\nUsing base prefix '/usr'\r\nNew python executable in /tmp/MyEnv/bin/python3\r\nAlso creating executable in /tmp/MyEnv/bin/python\r\nInstalling setuptools, pkg_resources, pip, wheel...done.\r\n$ source /tmp/MyEnv/bin/activate\r\n(MyEnv) $ pip install rekall\r\n```"
     },
     "https://github.com/HXSecurity/DongTai": {
-        "created_at": "",
-        "description": "",
-        "commit_date": "2024-02-02 01:52:45",
+        "created_at": "2023-11-02 13:10:47",
+        "description": "Dongtai IAST is an open-source Interactive Application Security Testing (IAST) tool that enables real-time detection of common vulnerabilities in Java applications and third-party components through passive instrumentation. It is particularly suitable for use in the testing phase of the development pipeline.",
         "commit_message": "Merge pull request #1926 from st1020/feat/change-dtctl-registry-url\n\nfeat: change dtctl registry url",
-        "release_tag": "",
-        "release_date": "",
-        "release_message": ""
+        "commit_date": "2024-02-02 01:52:45",
+        "release_date": "2023-11-03 03:30:09",
+        "release_message": "## What's Changed\r\n* feat: improve patch type hint by @st1020 in https://github.com/HXSecurity/DongTai/pull/1841\r\n* feat: modify user field by @st1020 in https://github.com/HXSecurity/DongTai/pull/1839\r\n* feat: remove login lock by @st1020 in https://github.com/HXSecurity/DongTai/pull/1840\r\n* feat:add agent version api. by @Bidaya0 in https://github.com/HXSecurity/DongTai/pull/1838\r\n* feat/project_type_summary by @Bidaya0 in https://github.com/HXSecurity/DongTai/pull/1842\r\n* deps: add pyotp dep by @st1020 in https://github.com/HXSecurity/DongTai/pull/1846\r\n* feat: add project status change notify by @st1020 in https://github.com/HXSecurity/DongTai/pull/1845\r\n* fix: percentage zero error. by @Bidaya0 in https://github.com/HXSecurity/DongTai/pull/1847\r\n* fix: zero divide by @Bidaya0 in https://github.com/HXSecurity/DongTai/pull/1849\r\n* fix: project current version auth fix. by @Bidaya0 in https://github.com/HXSecurity/DongTai/pull/1848\r\n* feat: add request topo models. by @Bidaya0 in https://github.com/HXSecurity/DongTai/pull/1853\r\n* feat: project type summary list. by @Bidaya0 in https://github.com/HXSecurity/DongTai/pull/1854\r\n* feat: modify user info api by @st1020 in https://github.com/HXSecurity/DongTai/pull/1856\r\n* feat: increase buffer size. by @Bidaya0 in https://github.com/HXSecurity/DongTai/pull/1855\r\n* feat: add tantivy search by @st1020 in https://github.com/HXSecurity/DongTai/pull/1857\r\n* deps: add qrcode dep by @st1020 in https://github.com/HXSecurity/DongTai/pull/1858\r\n* feat: change tantivy index path by @st1020 in https://github.com/HXSecurity/DongTai/pull/1859\r\n* Feat/add ldap settings by @Bidaya0 in https://github.com/HXSecurity/DongTai/pull/1860\r\n* feat: add update vul tantivy index receiver by @st1020 in https://github.com/HXSecurity/DongTai/pull/1861\r\n* feat: vul status change msg. by @Bidaya0 in https://github.com/HXSecurity/DongTai/pull/1862\r\n* build(deps):  fix deps . by @Bidaya0 in https://github.com/HXSecurity/DongTai/pull/1864\r\n* build(deps):  fix deps . by @Bidaya0 in https://github.com/HXSecurity/DongTai/pull/1865\r\n* fix: tantivy search error by @st1020 in https://github.com/HXSecurity/DongTai/pull/1866\r\n* build(deps):  fix deps . by @Bidaya0 in https://github.com/HXSecurity/DongTai/pull/1867\r\n* fix: tantivy search error by @st1020 in https://github.com/HXSecurity/DongTai/pull/1868\r\n* feat/msg_status_log by @Bidaya0 in https://github.com/HXSecurity/DongTai/pull/1869\r\n* feat load vul fix by @Bidaya0 in https://github.com/HXSecurity/DongTai/pull/1870\r\n* fix: change log level. by @Bidaya0 in https://github.com/HXSecurity/DongTai/pull/1873\r\n* fix: load hook strategy with dup data. by @Bidaya0 in https://github.com/HXSecurity/DongTai/pull/1874\r\n* fix: tantivy path error by @st1020 in https://github.com/HXSecurity/DongTai/pull/1875\r\n* feat: add strategy case. by @Bidaya0 in https://github.com/HXSecurity/DongTai/pull/1877\r\n* feat: add vul log time range. by @Bidaya0 in https://github.com/HXSecurity/DongTai/pull/1878\r\n* Feat/add vul log time range by @Bidaya0 in https://github.com/HXSecurity/DongTai/pull/1879\r\n* Feat/add 1.16 strategy p2 by @Bidaya0 in https://github.com/HXSecurity/DongTai/pull/1880\r\n* feat: add 1.16 strategy. by @Bidaya0 in https://github.com/HXSecurity/DongTai/pull/1876\r\n* fix: vul_log msg record by @Bidaya0 in https://github.com/HXSecurity/DongTai/pull/1881\r\n* fix: vul_log msg record by @Bidaya0 in https://github.com/HXSecurity/DongTai/pull/1882\r\n* fix: vul_log msg record by @Bidaya0 in https://github.com/HXSecurity/DongTai/pull/1883\r\n* feat: migration permissions. by @Bidaya0 in https://github.com/HXSecurity/DongTai/pull/1884\r\n* feat: update ci by @tscuite in https://github.com/HXSecurity/DongTai/pull/1885\r\n* feat: update ci by @tscuite in https://github.com/HXSecurity/DongTai/pull/1886\r\n* feat: update ci by @tscuite in https://github.com/HXSecurity/DongTai/pull/1887\r\n* feat: update ci by @tscuite in https://github.com/HXSecurity/DongTai/pull/1888\r\n* fix: dockerfile by @st1020 in https://github.com/HXSecurity/DongTai/pull/1889\r\n* Develop to Beta by @st1020 in https://github.com/HXSecurity/DongTai/pull/1892\r\n* Beta to Main by @st1020 in https://github.com/HXSecurity/DongTai/pull/1893\r\n* Develop to Beta by @st1020 in https://github.com/HXSecurity/DongTai/pull/1895\r\n* Beta to Main by @st1020 in https://github.com/HXSecurity/DongTai/pull/1896\r\n* Update release_dongtai.yml by @lingyuguo in https://github.com/HXSecurity/DongTai/pull/1898\r\n* Beta by @lingyuguo in https://github.com/HXSecurity/DongTai/pull/1899\r\n* cos gitaction by @lingyuguo in https://github.com/HXSecurity/DongTai/pull/1902\r\n* Beta by @lingyuguo in https://github.com/HXSecurity/DongTai/pull/1903\r\n\r\n## New Contributors\r\n* @lingyuguo made their first contribution in https://github.com/HXSecurity/DongTai/pull/1898\r\n\r\n**Full Changelog**: https://github.com/HXSecurity/DongTai/compare/v1.15.0...v1.16.0"
     },
     "https://github.com/google/log4jscanner": {
         "created_at": "2021-12-28 18:06:53",
@@ -23153,13 +23146,10 @@
         "release_message": ""
     },
     "https://github.com/vxunderground/MalwareSourceCode": {
-        "created_at": "",
-        "description": "",
-        "commit_date": "2024-01-15 03:36:26",
-        "commit_message": "new additions\n\n+",
-        "release_tag": "",
-        "release_date": "",
-        "release_message": ""
+        "created_at": "2020-10-10 02:48:57",
+        "description": "Collection of malware source code for a variety of platforms in an array of different programming languages.",
+        "commit_message": "Merge pull request #84 from aarush-dev/patch-1\n\nUpdate README.md",
+        "commit_date": "2024-03-06 21:30:44"
     },
     "https://github.com/ciscocsirt/GOSINT": {
         "created_at": "2017-08-03 18:35:18",
@@ -25693,8 +25683,8 @@
     "https://github.com/zaproxy/zaproxy": {
         "created_at": "2023-10-12 16:02:55",
         "description": "The ZAP core project",
-        "commit_message": "Merge pull request #8367 from ioggstream/ioggstream-8366\n\nAdd application/yaml to expected API types",
-        "commit_date": "2024-03-19 08:58:42",
+        "commit_message": "Merge pull request #8420 from thc202/rm-chalk-docker\n\nRemove chalk/sign from weekly Docker image",
+        "commit_date": "2024-03-25 17:43:11",
         "release_date": "2023-10-12 16:40:31",
         "release_message": "Release notes: https://www.zaproxy.org/docs/desktop/releases/2.14.0/\r\n\r\n---\r\n| File | Checksum (SHA-256) |\r\n|---|---|\r\n| [ZAP_2.14.0.dmg](https://github.com/zaproxy/zaproxy/releases/download/v2.14.0/ZAP_2.14.0.dmg) | `3b9862a647b1c5c26d6917f2316113dfaceac06bdb79ad3f2c96e0cbd73861f7` |\r\n| [ZAP_2.14.0_aarch64.dmg](https://github.com/zaproxy/zaproxy/releases/download/v2.14.0/ZAP_2.14.0_aarch64.dmg) | `fb3369338252e22470bb38d120233bd9857119806f9f8be681f985e6a5174847` |\r\n| [ZAP_2.14.0_Core.zip](https://github.com/zaproxy/zaproxy/releases/download/v2.14.0/ZAP_2.14.0_Core.zip) | `26006030acd67613d5ed8a9cc57ab36b11777ef8085f8aa5edcada64fb656735` |\r\n| [ZAP_2.14.0_Crossplatform.zip](https://github.com/zaproxy/zaproxy/releases/download/v2.14.0/ZAP_2.14.0_Crossplatform.zip) | `8bc475c2f1976446e2ec37b9bacaeed0a1281185988e689a24187b9c60aa57dd` |\r\n| [ZAP_2.14.0_Linux.tar.gz](https://github.com/zaproxy/zaproxy/releases/download/v2.14.0/ZAP_2.14.0_Linux.tar.gz) | `219d7f25bbe25247713805ab02cc12279898c870743c1aae3c2b0b1882191960` |\r\n| [ZAP_2_14_0_unix.sh](https://github.com/zaproxy/zaproxy/releases/download/v2.14.0/ZAP_2_14_0_unix.sh) | `fb33573bc9ffb4598fe541287d4755062fee2eea26ec5d11102f7671d083c37f` |\r\n| [ZAP_2_14_0_windows-x32.exe](https://github.com/zaproxy/zaproxy/releases/download/v2.14.0/ZAP_2_14_0_windows-x32.exe) | `5dae52e27da12fba5115e40ebc0cd2da24f6d9ba91608a7b0b7b254984a0b798` |\r\n| [ZAP_2_14_0_windows.exe](https://github.com/zaproxy/zaproxy/releases/download/v2.14.0/ZAP_2_14_0_windows.exe) | `df49ffbd14cf82cde5ac06902615e40cbfce1576f866436366708c0845eb9ec6` |\r\n| [bom.json](https://github.com/zaproxy/zaproxy/releases/download/v2.14.0/bom.json) | `f4085a07a1164a0c6b8169a1ad28f3a46a13c6a5ffac06ce82ef9ebdc321c949` |\r\n"
     },
@@ -25739,12 +25729,12 @@
         "release_message": "# 更新日志\r\n\r\n看到网上并没有很好的二进制文件切割&合并工具，于是自己写一个\r\n\r\n- **更加灵活的切割和合并二进制文件**\r\n- **使用 Python，可以跨平台运行**"
     },
     "https://github.com/future-architect/vuls": {
-        "created_at": "2024-03-11 01:08:51",
+        "created_at": "2024-03-22 07:27:34",
         "description": "Agent-less vulnerability scanner for Linux, FreeBSD, Container, WordPress, Programming language libraries, Network devices",
-        "commit_message": "chore(deps): bump github.com/docker/docker (#1880)\n\nBumps [github.com/docker/docker](https://github.com/docker/docker) from 25.0.1+incompatible to 25.0.5+incompatible.\r\n- [Release notes](https://github.com/docker/docker/releases)\r\n- [Commits](https://github.com/docker/docker/compare/v25.0.1...v25.0.5)\r\n\r\n---\r\nupdated-dependencies:\r\n- dependency-name: github.com/docker/docker\r\n  dependency-type: indirect\r\n...\r\n\r\nSigned-off-by: dependabot[bot] <support@github.com>\r\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
-        "commit_date": "2024-03-21 04:22:24",
-        "release_date": "2024-03-11 01:40:19",
-        "release_message": "## Caution\r\n\r\nVersion 0.25.0 is SKIPped. DON'T USE 0.25.0.\r\n\r\n## Highlights\r\n\r\n* Trivy dependency is updated, 0.35.0 to 0.49.1\r\n  - Dart's pubspec.lock, Elixir's mix.lock, Swift's Podfile.lock and Package.resolved are newly\r\n    detected by lockfile scan, these can be auto detected (findLock = true)\r\n  - Rust's binary can also be scanned as lockfile, but not auto detected\r\n  - Related PRs\r\n    - Update trivy from 0.35.0 to 0.49.1 by @shino in https://github.com/future-architect/vuls/pull/1806\r\n    - fix(detector): library.Scan move to detector by @MaineK00n in https://github.com/future-architect/vuls/pull/1864\r\n    - Avoid to use sync.Once inside trivy javadb Updater by @shino in https://github.com/future-architect/vuls/pull/1859\r\n\r\n* Add PURL (Package URL) in scan results\r\n  - feat(PackageURL):add package URL for library scan result by @TsubasaKanemitsu in https://github.com/future-architect/vuls/pull/1862\r\n\r\n## (Potential) Incompatibilities\r\n\r\n* In previous versions, vuls did not output results when all scans had failed, now outputs results\r\n  even when all scans failed\r\n  - Related PRs\r\n    - fix(scanner): output all results even if all fail by @MaineK00n in https://github.com/future-architect/vuls/pull/1866\r\n    - refactor(config): move syslogconf to config/syslog package by @MaineK00n in https://github.com/future-architect/vuls/pull/1865\r\n\r\n* Due to Trivy dependency update (in Highlights), some of scan logic previously\r\n  executed in `vuls scan` phase are moved to `vuls report` phase\r\n  - If new vuls binary is used in `vuls scan` and older ones in `vuls report`, there can be\r\n    missing vulnerabilities, don't do that\r\n  - This only affects JAR-like lockfile scan\r\n\r\n## Misc changes\r\n\r\n* fix(ci): use go version of go.mod by @MaineK00n in https://github.com/future-architect/vuls/pull/1858\r\n* fix(build): Change timeout to 60 minutes by @shino  https://github.com/future-architect/vuls/pull/1867\r\n* chore(deps): bump golang.org/x/oauth2 from 0.16.0 to 0.17.0 by @dependabot in https://github.com/future-architect/vuls/pull/1849\r\n* chore(deps): bump go.etcd.io/bbolt from 1.3.8 to 1.3.9 by @dependabot in https://github.com/future-architect/vuls/pull/1854\r\n* chore(deps): bump helm.sh/helm/v3 from 3.14.0 to 3.14.2 by @dependabot in https://github.com/future-architect/vuls/pull/1856\r\n* chore(deps): bump go.uber.org/zap from 1.26.0 to 1.27.0 by @dependabot in https://github.com/future-architect/vuls/pull/1861\r\n\r\n## New Contributors\r\n* @TsubasaKanemitsu made their first contribution in https://github.com/future-architect/vuls/pull/1862\r\n\r\n**Full Changelog**: https://github.com/future-architect/vuls/compare/v0.24.9...v0.25.1\r\n"
+        "commit_message": "chore(deps): bump github.com/aws/aws-sdk-go from 1.49.21 to 1.51.5 (#1881)\n\nBumps [github.com/aws/aws-sdk-go](https://github.com/aws/aws-sdk-go) from 1.49.21 to 1.51.5.\r\n- [Release notes](https://github.com/aws/aws-sdk-go/releases)\r\n- [Commits](https://github.com/aws/aws-sdk-go/compare/v1.49.21...v1.51.5)\r\n\r\n---\r\nupdated-dependencies:\r\n- dependency-name: github.com/aws/aws-sdk-go\r\n  dependency-type: direct:production\r\n  update-type: version-update:semver-minor\r\n...\r\n\r\nSigned-off-by: dependabot[bot] <support@github.com>\r\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
+        "commit_date": "2024-03-22 07:27:34",
+        "release_date": "2024-03-22 07:59:36",
+        "release_message": "This release includes one additional feature and some bug fixes.\r\nIf you use Amazon Linux 2023, you have to harry to update.\r\n\r\n## New feature\r\n* Some enterprise features of WPScan are now added to scan results.\r\n  - 50580f6 feat(wpscan): support enterprise feature (#1875)\r\n\r\n## (Potential) Incompatibilities\r\n* Names and Versions of JAR-like files of scan results can be overwritten at `vuls result` phase.\r\n  - These values after `vuls scan` phase may be incorrect or insufficient because Trivy's Java DB is not used at the phase.\r\n  - Correct them at `vuls report` phase with the help of Java DB.\r\n  - 99cf9db feat(detector/library): update JAR-like files' Name/Version in library list (#1874)\r\n\r\n## Bug fixes\r\n* Amazon Linux 2023 have changed its release version format in `/etc/amazon-linux-release`\r\n  - It causes inability of EOL detection at `vuls scan` phase and failure of vulnerability detection at `vuls report` phase.\r\n  - No vulnerabilities are detected unless this bug fix, please update quickly if you use Amazon Linux 2023.\r\n  - e1df74c fix(amazon): use major version for checking eol, security advisories (#1873)\r\n\r\n## Misc Changes\r\n* e25ec99 chore(deps): bump github.com/aws/aws-sdk-go from 1.49.21 to 1.51.5 (#1881)\r\n* 472df0e chore(deps): update dictionary modules (#1877)\r\n* 7d5a47b chore(deps): bump github.com/docker/docker (#1880)\r\n* 426eb53 chore(deps): bump github.com/jackc/pgx/v5 from 5.5.1 to 5.5.4 (#1872)\r\n* bda089b chore(deps): bump google.golang.org/protobuf from 1.32.0 to 1.33.0 (#1871)\r\n* 02d1f6f chore(deps): bump golang.org/x/oauth2 from 0.17.0 to 0.18.0 (#1868)\r\n\r\n## New Contributors\r\n* @future-ryunosuketanai made their first contribution in https://github.com/future-architect/vuls/pull/1875\r\n\r\n**Full Changelog**: https://github.com/future-architect/vuls/compare/v0.25.1...v0.25.2"
     },
     "https://github.com/cve-search/cve-search": {
         "created_at": "2024-01-28 10:53:52",
@@ -26108,5 +26098,71 @@
         "description": "Redis is an in-memory database that persists on disk. The data model is key-value, but many different kind of values are supported: Strings, Lists, Sets, Sorted Sets, Hashes",
         "commit_message": "Update README.md",
         "commit_date": "2019-07-18 18:36:50"
+    },
+    "https://github.com/UltimateSec/ultimaste-nuclei-templates": {
+        "created_at": "2023-06-06 18:32:59",
+        "description": "极致攻防实验室 nuclei 检测 POC",
+        "commit_message": "smartbi-auth-bypass",
+        "commit_date": "2023-08-01 18:10:23"
+    },
+    "https://github.com/anouarbensaad/vulnx": {
+        "created_at": "2019-11-16 01:34:31",
+        "description": "vulnx 🕷️ an intelligent Bot, Shell can achieve automatic injection, and help researchers detect security vulnerabilities CMS system. It can perform a quick CMS security detection, information collection (including sub-domain name, ip address, country information, organizational information and time zone, etc.) and vulnerability scanning.",
+        "commit_message": "Merge pull request #106 from anouarbensaad/v2.1\n\nFIX ISSUES V2.1",
+        "commit_date": "2022-06-10 18:54:02",
+        "release_date": "2019-11-16 01:45:46",
+        "release_message": "- Add Vulnx−Mode `interactive mode`\r\n- Add Command Line Interface Class `cli`\r\n- Add Dork Functionnality to Vulnx−Mode\r\n- Fix DNSDUMP Functionnality\r\n"
+    },
+    "https://github.com/hy0jer/HostScan": {
+        "created_at": "2024-01-12 01:54:44",
+        "description": "一款支持检测host头攻击的burp suite插件",
+        "commit_message": "Revert \"scan目标配置文件黑白名单校验\"\n\nThis reverts commit 5a2a83590626a4ed7c7c9c459feb2154de91f509.",
+        "commit_date": "2024-02-21 10:03:26"
+    },
+    "https://github.com/v-byte-cpu/sx": {
+        "created_at": "2022-09-04 17:03:38",
+        "description": ":vulcan_salute: Fast, modern, easy-to-use network scanner",
+        "commit_message": "afpacket: fix NewPacketSource params GOOS!=linux (#120)\n\nfix NewPacketSource params GOOS!=linux",
+        "commit_date": "2022-09-09 21:30:51",
+        "release_date": "2022-09-04 17:18:58",
+        "release_message": "## Changelog\n* 3a5b84e chore(deps): update golang docker tag to v1.17 (#102)\n* b903f1d chore(deps): update golangci/golangci-lint docker tag to v1.42.0 (#103)\n* d420294 feature: ports file cli flag (#111)\n* 045444e fix(deps): update go version (#119)\n* cdbbfd4 fix(deps): update module github.com/spf13/cobra to v1.3.0 (#92)\n* dcd8e01 fix(deps): update module go.uber.org/zap to v1.19.0 (#91)\n* 82909d0 fix: change error message (#95)\n\n"
+    },
+    "https://github.com/yanxiu0614/subdomain3": {
+        "created_at": "2020-01-20 07:43:11",
+        "description": "A new generation of tool for discovering subdomains( ip , cdn and so on)",
+        "commit_message": "Delete deployment.xml",
+        "commit_date": "2020-01-20 08:43:56",
+        "release_date": "2020-01-20 07:47:11",
+        "release_message": ""
+    },
+    "https://github.com/AmyangXYZ/AssassinGo": {
+        "created_at": "2018-03-25 08:40:11",
+        "description": "An extensible and concurrency pentest framework in Go, also with WebGUI. Feel free to CONTRIBUTE!",
+        "commit_message": "Merge pull request #16 from noraj/patch-1\n\nfix rawsec badge",
+        "commit_date": "2023-01-12 02:56:14"
+    },
+    "https://github.com/mandatoryprogrammer/cloudflare_enum": {
+        "created_at": "2014-12-22 08:07:28",
+        "description": "Cloudflare DNS Enumeration Tool for Pentesters",
+        "commit_message": "Fixed tool with a small patch (a bit dirty, could be revised)",
+        "commit_date": "2016-10-14 03:00:05"
+    },
+    "https://github.com/lowjoel/phortress": {
+        "created_at": "2014-09-11 03:00:45",
+        "description": "A PHP static code analyser for potential vulnerabilities",
+        "commit_message": "fixed sanitising function call check",
+        "commit_date": "2014-11-19 14:36:49"
+    },
+    "https://github.com/ivicanikolicsg/MAIAN": {
+        "created_at": "2018-03-12 07:58:25",
+        "description": "MAIAN: automatic tool for finding trace vulnerabilities in Ethereum smart contracts",
+        "commit_message": "Update README.md",
+        "commit_date": "2021-10-04 00:13:29"
+    },
+    "https://github.com/code-scan/BroDomain": {
+        "created_at": "2015-11-12 03:14:06",
+        "description": "兄弟域名查询",
+        "commit_message": "Update brodomain.py\n\n修改备案接口",
+        "commit_date": "2016-01-02 11:04:22"
     }
 }
