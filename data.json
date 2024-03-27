@@ -372,13 +372,10 @@
         "release_message": ""
     },
     "https://github.com/lal0ne/vulnerability": {
-        "created_at": "",
-        "description": "",
-        "commit_date": "2024-01-31 09:35:49",
-        "commit_message": "CVE-2023-6246",
-        "release_tag": "",
-        "release_date": "",
-        "release_message": ""
+        "created_at": "2022-01-20 02:48:42",
+        "description": "收集、整理、修改互联网上公开的漏洞POC",
+        "commit_message": "锐捷EWEB auth接口远程代码执行漏洞",
+        "commit_date": "2024-03-26 06:22:45"
     },
     "https://github.com/CTF-MissFeng/GoScan": {
         "created_at": "2020-12-13 11:08:12",
@@ -971,13 +968,12 @@
         "release_message": "### 版本介绍\r\n\r\n该版本为 用友NC NCMessageServlet反序列化漏洞 注入漏洞 的应急版本，相较上个版本，除了添加了一个POC外，未改动其他内容。\r\n\r\n### 更新内容\r\n\r\n想要检测该漏洞的师傅，可以使用\r\n\r\n`./xray ws --poc poc-yaml-yongyou-nc-ncmessageservlet-rce --url http://example.com`\r\n\r\n进行检测。\r\n\r\n相关参考链接：[CT stack](https://stack.chaitin.com/techblog/detail?id=92)"
     },
     "https://github.com/sqlmapproject/sqlmap": {
-        "created_at": "",
-        "description": "",
-        "commit_date": "2024-02-10 14:24:28",
-        "commit_message": "Adding switch '--unsafe-naming'",
-        "release_tag": "",
-        "release_date": "",
-        "release_message": ""
+        "created_at": "2024-01-03 22:18:35",
+        "description": "Automatic SQL injection and database takeover tool",
+        "commit_message": "Minor update",
+        "commit_date": "2024-03-04 14:39:58",
+        "release_date": "2024-01-03 22:20:06",
+        "release_message": "Stable version 1.8 ([changeset](https://github.com/sqlmapproject/sqlmap/compare/1.7...1.8))"
     },
     "https://github.com/loecho-sec/ARL-Finger-ADD": {
         "created_at": "2021-07-25 09:11:41",
@@ -1848,13 +1844,12 @@
         "release_message": "analysis all proxy traffic to find subdomain\\similar-domain of your target automatically. reduce usage of \"search\" button.\r\n自动分析所有Proxy中的流量，提取你配置目标中的子域名和相似域名。减少手动search的必要"
     },
     "https://github.com/f0ng/captcha-killer-modified": {
-        "created_at": "",
-        "description": "",
-        "commit_date": "2024-01-08 03:15:25",
+        "created_at": "2024-01-04 04:55:25",
+        "description": "captcha-killer的修改版，支持关键词识别base64编码的图片，添加免费ocr库，用于验证码爆破，适配新版Burpsuite",
         "commit_message": "Update FAQ.md",
-        "release_tag": "",
-        "release_date": "",
-        "release_message": ""
+        "commit_date": "2024-01-08 03:15:25",
+        "release_date": "2024-01-04 05:03:48",
+        "release_message": "【2024-1-4】 0.24.4\r\n- 服务端识别代码增加算术接口，可以进行算术验证码的识别"
     },
     "https://github.com/xfiftyone/STS2G": {
         "created_at": "2020-01-17 02:17:24",
@@ -4488,12 +4483,12 @@
         "release_message": ""
     },
     "https://github.com/MobSF/Mobile-Security-Framework-MobSF": {
-        "created_at": "2023-08-28 04:08:29",
+        "created_at": "2024-03-24 21:56:26",
         "description": "Mobile Security Framework (MobSF) is an automated, all-in-one mobile application (Android/iOS/Windows) pen-testing, malware analysis and security assessment framework capable of performing static and dynamic analysis.",
-        "commit_message": "HOTFIX: Individual image publish",
-        "commit_date": "2024-03-20 00:31:05",
-        "release_date": "2023-08-28 04:57:05",
-        "release_message": "### v3.7.6 Beta Changelog\r\n\r\n- Features or Enhancements\r\n   - Docker base image update to Ubuntu 22.04\r\n   - Dockerfile QA\r\n   - Migrated from Pip to Poetry for dependency management\r\n   - Migrate from setup.py to use poetry for build and publish\r\n   - Python 3.11 support\r\n   - Docker ADB connection improvements (host.docker.internal translation for localhost)\r\n   -  IOS Swift RulesUpdates `ios_biometric_bool`, `ios_biometric_acl`, `ios_keychain_weak_acl_device_passcode`, `ios_keychain_weak_accessibility_value`, `ios_insecure_random_no_generator`, `ios_biometry_hardened`\r\n   - Android SCA rules update\r\n   - Entropies scan support for strings\r\n   - Regex Hardening: Fixes possible Regex DoS in rules and MobSF code base\r\n   - Tox QA\r\n   - Added poetry build test\r\n   - Updated mobsf PyPI publishing workflow \r\n   - Update local DBs\r\n   - URLs/Email extraction refactor\r\n   - Static and Dynamic Binary Analysis QA\r\n   - Refactor Dex permissions\r\n   - Refactor Androguard `apk.APK()` usage\r\n   - Fallback certificate analysis using apksigtool\r\n   - Use BeautifulSoup4 to prettify malformed XML\r\n   - Detect non standard XML namespace in AndroidManifest.xml, Fixes : #2198\r\n   - Updated android permissions list\r\n   - Updated android permission update check script\r\n   - Github Actions version update\r\n   - Apktool bump\r\n   - Bump httptools\r\n   - Bump yara-python-dex\r\n   - Docker image build test for PRs\r\n   - iOS Source Report Fix\r\n   - Removed unwanted pinned repository\r\n   - Frida APK Patcher (WIP)\r\n   - Fix for Recent Scans `scan not completed` for iOS zip\r\n   - Fix for MachO stripped symbols false positive\r\n   - Fix bug in IPA download\r\n   - iOS/Android form validation fix\r\n   - Fix missing exported components\r\n - Enterprise Feature Request\r\n      - String extraction from APK, Source, AAR, JAR, SO.\r\n      - Android strings sections to show source of strings extracted\r\n      - Strings extraction refactor\r\n      - Support for independent `.so` scan\r\n      - Dylib analysis support\r\n      - Dylib string extraction\r\n      - Improved iOS Plist secret extraction\r\n      - Support for Independent `.dylib` scan\r\n      - Symbols view for dylib and so\r\n      - Trackers support for so\r\n      - AAR/JAR obfuscation and debug check\r\n      - Independent Static Library(.a) ELF/MachO Analysis\r\n      - Mac FAT binary only supported on Mac\r\n\r\n\r\n  \r\n     \r\n    \r\n  \r\n\r\n## What's Changed\r\n* Update dynamic_analysis.html by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2218\r\n* Hotfix: Handle Docker <-> ADB connectivity internally by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2219\r\n* update apktool to 2.8.1 by @superpoussin22 in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2220\r\n* update apktool by @superpoussin22 in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2225\r\n* HOTFIX: Dynamic Analyzer Support Alert by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2227\r\n* [HOTFIX] Regex + Rule Update by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2232\r\n* [EFR06] Independent Shared Object (.so) Scan and Improved String search by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2228\r\n* Update macho_analysis.py - SYMBOLS STRIPPED False Negative by @Karmaz95 in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2234\r\n* [EFR-08] Dylib + Symbols + Other Features by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2239\r\n* Fix missing exported components by @Abb4d0n in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2176\r\n* [EFR09] AAR/JAR obfuscation and debug check + Exception Handed strings and symbols extraction by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2240\r\n* [EFR10] Independent Static Library(.a) ELF/MachO Analysis by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2242\r\n* Pip to poetry and Dockerfile update by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2244\r\n* Docker Buildx test by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2247\r\n* [HOTFIX] bs4 malformed xml parsing + xml namespace detection by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2248\r\n* [HOTFIX] Migrate from setup.py to poetry, tox QA by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2249\r\n\r\n## New Contributors\r\n* @Karmaz95 made their first contribution in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2234\r\n* @Abb4d0n made their first contribution in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2176\r\n\r\n**Full Changelog**: https://github.com/MobSF/Mobile-Security-Framework-MobSF/compare/v3.6.9...v3.7.6"
+        "commit_message": "Resolve the situation where the function name is bytes (#2367)\n\nfix error:\r\n if function.name.endswith('_chk'):\r\n       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\r\nTypeError: endswith first arg must be bytes or a tuple of bytes, not str\r\n\r\nCo-authored-by: Ajin Abraham <ajin25@gmail.com>",
+        "commit_date": "2024-03-24 21:56:26",
+        "release_date": "2024-03-25 18:20:18",
+        "release_message": "### v3.9.7 Beta Changelog\r\n\r\n- Features or Enhancements\r\n   - iOS Dynamic Analyzer with Corellium\r\n   - Dynamic Analysis refactoring for Android and iOS\r\n   - Exposed iOS Dynamic Analysis REST APIs\r\n   - Added more helper Frida Scripts for Android and iOS Dynamic Analyzer\r\n   - Frida support improvements Injected Frida Code View, Injection, Spawn, Attach and Session\r\n   - Corellium Reverse SSH connection support\r\n   - Enhancements to ARC and Stack Canary Checks in Mach-O Parsing\r\n   - Frida RPC Hooks support\r\n   - Frida Script QA\r\n   - Runtime Executable Tampering Detection\r\n   - iOS Dynamic Analysis REST API Docs\r\n   - Global Datatables Export as PDF, CSV, XLS, Copy and Print\r\n   - Corellium custom host domain support\r\n   - Huge improvements in Static Analysis report generation page rendering for APKs/IPAs with large amount of data by @JPSxzy8 \r\n   -  Scan independent library file (.so, .dylib, Framework dylib) from APK/IPA Static Analysis Report\r\n   -  Library analysis refactored relative path helper for Django template.\r\n   - Re-introduced RELRO checks for Android, added Dart binary check to avoid Flutter false positives.\r\n   - Improved stripped debug symbol check for ELF and MachO using native OS tools such as nm and objdump when available.\r\n   - Merge iOS Framework and Dylib Analysis.\r\n   - SAST Performance improvements\r\n   - Android API Analysis rule QA\r\n   - Apksigner.jar fallback for signature parsing\r\n   - Simplify MobSF `scan` REST API\r\n   - Support for analysis of iOS Frameworks\r\n   - Android SVG icon parsing improvments\r\n   - Icon analysis refactor and support jpeg and webp icons\r\n   - Github action QA\r\n   - iOS merge findings from swift and objective c rules with same rule identifier. Fixes #2287 \r\n   - iOS Binary analysis, sort regex matches. Fixes #2252\r\n   - Framework dylibs with no extensions to skip PIE checks. Fixes #2307\r\n   - Select correct network_security config. Fixes #2049\r\n   - Android Manifest Analysis added support for detecting task hijacking (StrandHogg 1.0 and StrandHogg 2.0) . Fixes #2124\r\n   - Added new manifest analysis rule to warn on apps targeting older Android OS\r\n   - Updated severity of findings\r\n   - UI improvement for AppSec dashboard to show a loader\r\n   - UI changes in Static Analysis to collapse large no of files in API and Code Analysis for better real estate\r\n   - Improved certificate file analysis for android, jar, aar, and iOS\r\n   - AppLink asset json check multithreading performance improvements\r\n   - Code QA and ruleset improvements with ChatGPT\r\n   - Fixes #2324 , Bug in parsing DSA Public Key parameters for fingerprint calculation.\r\n   - AssetLink check QA\r\n   - Remove Androguard dependency use only features required by MobSF\r\n   \r\n - Security\r\n   -  Arbitrary file writes on Windows with apktool fixed\r\n   -  Fixed an LFI reported by @0x33c0unt\r\n   -  Fixed SSRF in AppLinks and Firebase database checks\r\n     \r\n## What's Changed\r\n* Performance Improvements on SAST by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2251\r\n* add apksigner.jar for reading signatures by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2254\r\n* [HOTFIX] add jar by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2255\r\n* Bump Frida to address crash on M1 Mac by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2258\r\n* Simplify Scan API by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2259\r\n* [HOTFIX] iOS Framework Analysis + Multiple Feature QA by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2260\r\n* [HOTFIX] Support webp for icon by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2267\r\n* fixed that the icon cannot be found by @ohyeah521 in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2265\r\n* [HOTFIX] Allow jpeg icons by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2268\r\n* Fix jadx and apktool failure due to JDK changes by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2269\r\n* [HOTFIX][EFR] Priority Bug Fixes by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2275\r\n* update apktool to 2.9.0 by @superpoussin22 in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2278\r\n* Build(deps): Bump django from 4.1.12 to 4.1.13 by @dependabot in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2282\r\n* iOS Dynamic Analysis with Corellium by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2194\r\n* Dynamic Analysis Improvements Android & iOS by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2295\r\n* Dec 2023 QA by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2297\r\n* [HOTFIX] More Android & iOS Frida Scripts by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2299\r\n* [HOTFIX] Android script loading,  frida injected code view, paramiko SSH issues by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2300\r\n* Enhancements to ARC and Stack Canary Checks in Mach-O Parsing by @cpuu in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2284\r\n* [HOTFIX] RPC hook suggestions + Bug Fix by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2301\r\n* update apktool to 2.9.1 by @superpoussin22 in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2304\r\n* [EFR] QA Request by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2306\r\n* Bug Fixes + Improvements by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2307\r\n* ChatGPT Permission Mapping + Improved Description by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2308\r\n* Windows Python tempfile permission error fix by @ohyeah521 in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2309\r\n* Multiple Features Improved or Added by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2310\r\n* Malware Permission Check for Android by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2313\r\n* [HOTFIX] Bug Fix and QA by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2315\r\n* Using multithreading to improve code efficiency by @ohyeah521 in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2319\r\n* GPT Goodness by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2318\r\n* Update SECURITY.md by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2323\r\n* [HOTFIX][SECURITY] Fix an LFI, DSA Pub Key parsing bug and dependencies  by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2326\r\n* Filter out invalid links by @ohyeah521 in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2322\r\n* [SECURITY] Fix Arbitrary file writes on Windows by @superpoussin22 in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2328\r\n* Runtime Exec Tampering Detection, iOS Dynamic REST APIs, Datatables Export  by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2339\r\n* MOBSF_CORELLIUM_API_DOMAIN Update by @HackJJ in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2347\r\n* poetry pyqt5 fixes by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2362\r\n* Remove Androguard dependency use only features required by MobSF by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2363\r\n* Optimize rendering of big lists by @JPSxzy8 in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2351\r\n* Update SECURITY.md by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2364\r\n* Update SECURITY.md by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2365\r\n* Resolve the situation where the function name is bytes by @ohyeah521 in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2367\r\n\r\n## New Contributors\r\n* @cpuu made their first contribution in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2284\r\n* @HackJJ made their first contribution in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2347\r\n* @JPSxzy8 made their first contribution in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2351\r\n\r\n**Full Changelog**: https://github.com/MobSF/Mobile-Security-Framework-MobSF/compare/v3.7.6...v3.9.7"
     },
     "https://github.com/gand3lf/semgrepper": {
         "created_at": "2022-11-04 08:58:52",
@@ -4998,13 +4993,12 @@
         "release_message": ""
     },
     "https://github.com/decoymini/DecoyMini": {
-        "created_at": "",
-        "description": "",
-        "commit_date": "2024-02-18 00:31:43",
+        "created_at": "2024-03-08 09:30:06",
+        "description": "🐝 A highly scalable, safe, free enterprise honeypots 一款高可扩展、安全、免费的企业级蜜罐系统",
         "commit_message": "Update README.md",
-        "release_tag": "",
-        "release_date": "",
-        "release_message": ""
+        "commit_date": "2024-03-08 09:30:06",
+        "release_date": "2024-03-08 09:33:25",
+        "release_message": "v3.0.9086 更新内容：\r\n\r\n1、支持使用扩展语法来自定义漏洞仿真模板 (使用方法参见 http://help.decoymini.com 里 \"自定义漏洞仿真模板\" 章节)；\r\n2、支持多节点集中管理；\r\n3、更新在线帮助文档 (增加 \"自定义溯源\" 和 \"自定义漏洞仿真模板\" 等内容)；\r\n4、修复部分已知 BUG；"
     },
     "https://github.com/xiaokp7/TongdaOATools": {
         "created_at": "",
@@ -6500,8 +6494,8 @@
     "https://github.com/horsicq/DIE-engine": {
         "created_at": "2023-12-28 19:55:00",
         "description": "DIE engine",
-        "commit_message": "Update module: XMIMEWidget 2024-03-26",
-        "commit_date": "2024-03-25 23:14:08",
+        "commit_message": "Update module: XShortcuts 2024-03-27",
+        "commit_date": "2024-03-26 23:41:22",
         "release_date": "2023-12-28 21:22:21",
         "release_message": "Please see the file [CHANGELOG](https://github.com/horsicq/Detect-It-Easy/blob/master/changelog.txt) for a detailed list of changes.\r\n\r\n\r\n| Asset / File | Description / Host OS |\r\n| ----------- | ----------- |\r\n| [die_sourcecode_3.09.tar.gz](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_sourcecode_3.09.tar.gz) | Source code tarball |\r\n| [Detect_It_Easy-3.09-x86_64.AppImage](https://github.com/horsicq/DIE-engine/releases/download/3.09/Detect_It_Easy-3.09-x86_64.AppImage) | Portable version for Linux [How to run](https://github.com/horsicq/Detect-It-Easy/blob/master/docs/RUN.md) |\r\n| [die_3.09_Debian_10_amd64.deb](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_Debian_10_amd64.deb) | Installer for Debian 10 |\r\n| [die_3.09_Debian_11_amd64.deb](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_Debian_11_amd64.deb) | Installer for Debian 11 |\r\n| [die_3.09_Debian_12_amd64.deb](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_Debian_12_amd64.deb) | Installer for Debian 12 |\r\n| [die_3.09_Ubuntu_14.04_amd64.deb](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_Ubuntu_14.04_amd64.deb) | Installer for Ubuntu 14.04 |\r\n| [die_3.09_Ubuntu_16.04_amd64.deb](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_Ubuntu_16.04_amd64.deb) | Installer for Ubuntu 16.04 |\r\n| [die_3.09_Ubuntu_18.04_amd64.deb](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_Ubuntu_18.04_amd64.deb) | Installer for Ubuntu 18.04 |\r\n| [die_3.09_Ubuntu_20.04_amd64.deb](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_Ubuntu_20.04_amd64.deb) | Installer for Ubuntu 20.04 |\r\n| [die_3.09_Ubuntu_22.04_amd64.deb](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_Ubuntu_22.04_amd64.deb) | Installer for Ubuntu 22.04 |\r\n| [die_3.09_Ubuntu_22.10_amd64.deb](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_Ubuntu_22.10_amd64.deb) | Installer for Ubuntu 22.10 |\r\n| [die_3.09_Ubuntu_23.04_amd64.deb](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_Ubuntu_23.04_amd64.deb) | Installer for Ubuntu 23.04 |\r\n| [die_3.09_Ubuntu_23.10_amd64.deb](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_Ubuntu_23.10_amd64.deb) | Installer for Ubuntu 23.10 |\r\n| [die_3.09_Kali_2023.4_amd64](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_Kali_2023.4_amd64) | Installer for Kali 2023.4 |\r\n| [die_3.09_Parrot_5.3_amd64.deb](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_Parrot_5.3_amd64.deb) | Installer for Parrot 5.3 |\r\n| [die_3.09_portable_Ubuntu_20.04_amd64.tar.gz](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_portable_Ubuntu_20.04_amd64.tar.gz) | Portable version for Ubuntu 20.04 |\r\n| [detect-it-easy-3.09-1-x86_64.pkg.tar.zst](https://github.com/horsicq/DIE-engine/releases/download/3.09/detect-it-easy-3.09-1-x86_64.pkg.tar.zst) | Installer for Arch Linux |\r\n| [die_mac_3.09_x86_64.pkg](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_mac_3.09_x86_64.pkg) | Installer for macOS |\r\n| [die_mac_qt6_3.09_arm64.pkg](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_mac_qt6_3.09_arm64.pkg) | Installer for macOS Qt6 M1 processor|\r\n| [die_mac_portable_3.09_x86_64.zip](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_mac_portable_3.09_x86_64.zip) | Portable version for macOS |\r\n| [die_win32_portable_3.09_x86.zip](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_win32_portable_3.09_x86.zip) | Portable version for x86 Win32 (Win7-Win11)|\r\n| [die_win64_portable_3.09_x64.zip](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_win64_portable_3.09_x64.zip) | Portable version for x64 Win64 (Win7-Win11) |\r\n| [die_winxp_portable_3.09_x86.zip](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_winxp_portable_3.09_x86.zip) | Portable version for Windows XP (WinXP-Win11) |\r\n\r\n\r\nExperimental versions - There may be bugs in the GUI\r\n\r\n| Asset / File | Description / Host OS |\r\n| ----------- | ----------- |\r\n| [die_win64_qt6_portable_3.09_x64.zip](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_win64_qt6_portable_3.09_x64.zip) | Portable version for x64 Win64 Qt6 (Win10-Win11)|\r\n"
     },
@@ -18408,13 +18402,8 @@
         "release_message": ""
     },
     "https://github.com/hacklcx/HFish": {
-        "created_at": "",
-        "description": "",
-        "commit_date": "2024-01-29 05:18:10",
-        "commit_message": "update the image of joinus",
-        "release_tag": "",
-        "release_date": "",
-        "release_message": ""
+        "created_at": "2019-08-07 05:01:28",
+        "description": "安全、可靠、简单、免费的企业级蜜罐"
     },
     "https://github.com/michenriksen/aquatone": {
         "created_at": "2015-11-19 11:30:12",
@@ -20831,13 +20820,12 @@
         "release_message": ""
     },
     "https://github.com/ffffffff0x/f8x": {
-        "created_at": "",
-        "description": "",
-        "release_tag": "",
-        "release_date": "",
-        "release_message": "",
-        "commit_date": "2024-02-21 03:07:45",
-        "commit_message": "support Ubuntu2310/Fedora39(2024/02/21)"
+        "created_at": "2022-09-03 18:18:17",
+        "description": "红/蓝队环境自动化部署工具 | Red/Blue team environment automation deployment tool",
+        "commit_message": "update awvs",
+        "commit_date": "2024-03-25 02:20:14",
+        "release_date": "2022-09-03 18:37:29",
+        "release_message": "### [1.6.2] - 2022-9-4\r\n\r\n**兼容性**\r\n* 支持 CentOS 9 Stream\r\n* 支持 Fedora 36\r\n\r\n**功能添加**\r\n* -k 选项添加 iprange/dnsx/MoreFind\r\n* 添加 -wpscan 选项\r\n* 添加 -cs45 选项\r\n* 添加 -interactsh 选项\r\n* 添加 -merlin 选项\r\n* 添加 -msf 选项\r\n* 添加 -pupy 选项\r\n* 添加 -rg 选项\r\n* 添加 -sliver 选项\r\n* 添加 -sliver-client 选项\r\n* 添加 -sps 选项\r\n* 添加 -TerraformGoat 选项\r\n* 添加 -TerraformGoat 选项\r\n* 添加 -upgrade 选项\r\n\r\n**功能修改与优化**\r\n* 优化对docker环境的判断\r\n* 添加了对ruby的检测\r\n* 优化了对keytool工具的判断"
     },
     "https://github.com/KrE80r/webmin_cve-2019-12840_poc": {
         "created_at": "2019-11-09 17:48:39",
@@ -22414,8 +22402,8 @@
     "https://github.com/xaoyaoo/PyWxDump": {
         "created_at": "2024-03-15 07:53:13",
         "description": "获取微信账号信息(昵称/账号/手机/邮箱/数据库密钥/wxid)；PC微信数据库读取、解密脚本；聊天记录查看工具；聊天记录导出为html(包含语音图片)。支持多账户信息获取，支持所有微信版本。",
-        "commit_message": "UPDATE CHANGELOG.md",
-        "commit_date": "2024-03-22 10:24:19",
+        "commit_message": "UPDATE README.md",
+        "commit_date": "2024-03-25 16:12:48",
         "release_date": "2024-03-15 07:57:13",
         "release_message": "[Auto Release] Update PyWxDump to refs/tags/v2.4.60\n详细更新日志请查看 [CHANGELOG.md](https://github.com/xaoyaoo/PyWxDump/blob/master/doc/CHANGELOG.md)\n"
     },
@@ -22792,8 +22780,8 @@
     "https://github.com/shufflewzc/faker3": {
         "created_at": "2022-01-31 21:21:40",
         "description": null,
-        "commit_message": "Create jd_superBrandStar.js",
-        "commit_date": "2024-03-21 02:46:07"
+        "commit_message": "Update jd_jx_party_invite.js",
+        "commit_date": "2024-03-26 16:19:22"
     },
     "https://github.com/harlamism/IdaClu": {
         "created_at": "",
@@ -23233,12 +23221,11 @@
         "release_message": "- 修复已知Bug\r\n- 新增从文件中读取HTTP请求"
     },
     "https://github.com/M4DM0e/DirDar": {
-        "created_at": "",
-        "description": "",
-        "commit_date": "2024-01-09 03:23:19",
+        "created_at": "2021-02-16 22:17:54",
+        "description": "DirDar is a tool that searches for (403-Forbidden) directories to break it and get dir listing on it",
         "commit_message": "Merge pull request #9 from begininvoke/patch-1\n\nUpdate main.go",
-        "release_tag": "",
-        "release_date": "",
+        "commit_date": "2024-01-09 03:23:19",
+        "release_date": "2021-02-17 12:44:39",
         "release_message": ""
     },
     "https://github.com/0-sec/zero-crack": {
@@ -23275,13 +23262,10 @@
         "commit_date": "2024-03-21 14:28:03"
     },
     "https://github.com/djytmdj/Network-security-study-notes": {
-        "created_at": "",
-        "description": "",
-        "commit_date": "2024-01-24 07:24:05",
+        "created_at": "2023-07-25 06:13:25",
+        "description": "主要记录网络安全学习笔记，包含WEB基础、提权、APP渗透、内网横向移动、工具学习等",
         "commit_message": "Update README.md",
-        "release_tag": "",
-        "release_date": "",
-        "release_message": ""
+        "commit_date": "2024-01-24 07:24:05"
     },
     "https://github.com/gyxuehu/EwoMail": {
         "created_at": "2017-03-23 16:09:51",
@@ -25240,7 +25224,7 @@
     },
     "http://hi.pcmoe.net/buddha.html": {
         "status_code": 200,
-        "description": "新约佛论禅/佛曰加密 - PcMoe!"
+        "description": "新约佛论禅/佛曰加密 - 萌研社 - PcMoe!"
     },
     "http://www.hiencode.com/ppencode.html": {
         "status_code": 200,
@@ -26164,5 +26148,51 @@
         "description": "兄弟域名查询",
         "commit_message": "Update brodomain.py\n\n修改备案接口",
         "commit_date": "2016-01-02 11:04:22"
+    },
+    "https://github.com/deepfence/ThreatMapper": {
+        "created_at": "2024-03-26 14:35:36",
+        "description": "Open source cloud native security observability platform. Linux, K8s, AWS Fargate and more.",
+        "commit_message": "Update listing with threatintel-2024-03-27_00-17-03",
+        "commit_date": "2024-03-27 00:34:57",
+        "release_date": "2024-03-27 00:34:51",
+        "release_message": ""
+    },
+    "https://github.com/BlackHole1/autoFindXssAndCsrf": {
+        "created_at": "2016-07-27 14:46:33",
+        "description": "自动化检测页面是否存在XSS和CSRF漏洞的浏览器插件(A plugin for browser that checks automatically whether a page haves XSS and CSRF vulnerabilities)",
+        "commit_message": "docs(readme): add readme.md file",
+        "commit_date": "2018-10-20 02:43:18"
+    },
+    "https://github.com/80vul/phpcodz": {
+        "created_at": "2015-02-16 07:24:04",
+        "description": "Php Codz Hacking",
+        "commit_message": "Update CVE",
+        "commit_date": "2015-09-05 03:26:35"
+    },
+    "https://github.com/1N3/BlackWidow": {
+        "created_at": "2020-07-19 20:09:54",
+        "description": "A Python based web application scanner to gather OSINT and fuzz for OWASP vulnerabilities on a target website.",
+        "commit_message": "Updated injectx.py",
+        "commit_date": "2023-03-31 17:43:46",
+        "release_date": "2020-07-19 21:03:50",
+        "release_message": "# CHANGELOG\r\n* Updated installer and both python scripts to support python3\r\n* Fixed bug in BlackWidow dynamic URL's not being captured properly"
+    },
+    "https://github.com/swisskyrepo/Wordpresscan": {
+        "created_at": "2017-02-17 19:36:00",
+        "description": "WPScan rewritten in Python + some WPSeku ideas",
+        "commit_message": "Merge pull request #45 from swisskyrepo/dependabot/pip/urllib3-1.26.5\n\nBump urllib3 from 1.22 to 1.26.5",
+        "commit_date": "2021-06-02 14:35:15"
+    },
+    "https://github.com/deadPix3l/CryptSky": {
+        "created_at": "2017-10-27 10:55:28",
+        "description": "A simple, fully python ransomware PoC",
+        "commit_message": "Merge pull request #11 from MrWhite9/patch-1\n\nUpdate LEGAL to fix typos",
+        "commit_date": "2020-06-23 04:15:11"
+    },
+    "https://github.com/blackye/webdirdig": {
+        "created_at": "2018-01-08 09:46:25",
+        "description": "web敏感目录、信息泄漏批量扫描脚本，结合爬虫、目录深度遍历。",
+        "commit_message": "add README",
+        "commit_date": "2018-01-08 09:58:14"
     }
 }
