@@ -374,8 +374,8 @@
     "https://github.com/lal0ne/vulnerability": {
         "created_at": "2022-01-20 02:48:42",
         "description": "收集、整理、修改互联网上公开的漏洞POC",
-        "commit_message": "锐捷EWEB auth接口远程代码执行漏洞",
-        "commit_date": "2024-03-26 06:22:45"
+        "commit_message": "CVE-2024-20767",
+        "commit_date": "2024-03-27 02:44:20"
     },
     "https://github.com/CTF-MissFeng/GoScan": {
         "created_at": "2020-12-13 11:08:12",
@@ -4577,13 +4577,12 @@
         "release_message": ""
     },
     "https://github.com/baidu/dperf": {
-        "created_at": "",
-        "description": "",
-        "commit_date": "2024-01-20 10:39:58",
-        "commit_message": "Merge pull request #407 from pengjianzhang/main\n\nfix misspell",
-        "release_tag": "",
-        "release_date": "",
-        "release_message": ""
+        "created_at": "2023-10-10 05:07:32",
+        "description": "dperf is a 100Gbps network load tester.",
+        "commit_message": "Merge pull request #428 from zhangpengfei-xyz/pull\n\nadd dpdk pdump and cleanup",
+        "commit_date": "2024-03-03 09:40:40",
+        "release_date": "2023-10-10 05:33:22",
+        "release_message": "## v1.6.0 - 2023-10-10\r\n### Added\r\n\r\n- dperf server returns large payload\r\n\r\n- you can use the default l3 or l3l4 rss algorithm\r\n\r\n### Changed\r\n\r\n- minimun local port range(lport_range) can be set to 1\r\n\r\n- optimization: remove useless sockets outside lport_range\r\n\r\n- move docs to dperf.org\r\n\r\n- adjust jumbo MTU\r\n\r\n### Fixed\r\n\r\n- fix: negative number of udp connections\r\n\r\n- print more information when startup fails\r\n    - not enough ports available\r\n    - error message of server ip numbers\r\n\r\n- spelling errors and expression issues\r\n\r\n    thanks digger-yu, CChuancey, zrmin\r\n\r\n- fix: find port id\r\n\r\n- fix: create new connection after \"duration\" time\r\n\r\n    thanks zrgtester\r\n\r\n- fix: http_host or http_path can only be configured when http is enabled\r\n\r\n- fix: dperf make error on dpdk-18.11\r\n\r\n    thanks amberlipp"
     },
     "https://github.com/7thSamurai/steganography": {
         "created_at": "2022-10-18 18:40:17",
@@ -6364,8 +6363,8 @@
     "https://github.com/audacity/audacity": {
         "created_at": "2023-11-16 11:58:21",
         "description": "Audio Editor                                     ",
-        "commit_message": "Weaken invariant for WaveClip; don't make a Transaction in Append",
-        "commit_date": "2024-03-16 16:12:31",
+        "commit_message": "Fixes the Release builds on MSVC\n\nIt seems, there is a bug in the compiler or linker, that optimizes out\nItemProperties destructor from the binary, along with the VTable",
+        "commit_date": "2024-03-27 11:19:54",
         "release_date": "2023-11-16 15:10:06",
         "release_message": " This is a hotfix release. It fixes the following issues:\r\n\r\n * #5568 Fix a crash when opening projects with zero-length clips.\r\n * #5032 When exporting a file, the sample rate of the tracks is now considered, and last-used sample rate is remembered. \r\n * #5555 Copy-pasting now pastes into audio again by default.  This can be changed via Preferences -> Track Behavior -> Always paste audio as new clips.\r\n * #5549 Mix and render now also resets the gain for the resulting track.\r\n * #5571 Fix clips shifting to the right when effects are applied to them.\r\n * #5106 Fix clicks occurring when overdubbing a project with muted tracks.\r\n * #5533 Fix files being exported without a file extension in rare cases.\r\n * #5539 Show all sample rates possible for MP2 exports.\r\n * #5518 Fix pasting into labels.\r\n * #5543 Fix a crash when clearing loops.\r\n * #5529 Fix copying when \"select all audio if selection required\" is enabled.\r\n * #5598 #5552 Fix GTK detection and compilation for wxWidgets 3.2.4.\r\n * #5551 Fix Nyquist-related crashes.\r\n * #5604 Fix EQs in macros.\r\n * #5511 Fix a crash when closing Audacity.\r\n * #5476 Fix builds on armhf."
     },
@@ -22684,8 +22683,8 @@
     "https://github.com/whyour/qinglong": {
         "created_at": "2021-03-13 15:21:04",
         "description": "支持 Python3、JavaScript、Shell、Typescript 的定时任务管理平台（Timed task management platform supporting Python3, JavaScript, Shell, Typescript）",
-        "commit_message": "修复重启命令",
-        "commit_date": "2024-03-22 15:01:20"
+        "commit_message": "修复配置文件默认参数",
+        "commit_date": "2024-03-25 15:41:39"
     },
     "https://github.com/nelenkov/android-backup-extractor": {
         "created_at": "2012-06-08 13:33:46",
@@ -24289,13 +24288,12 @@
         "release_message": "🎉🎉🎉"
     },
     "https://github.com/jeremylong/DependencyCheck": {
-        "created_at": "",
-        "description": "",
-        "commit_date": "2024-02-26 11:40:17",
-        "commit_message": "docs: document the default data directory (#6484)",
-        "release_tag": "",
-        "release_date": "",
-        "release_message": ""
+        "created_at": "2024-03-15 09:52:32",
+        "description": "OWASP dependency-check is a software composition analysis utility that detects publicly disclosed vulnerabilities in application dependencies.",
+        "commit_message": "build(deps): bump golang from 1.21.5-alpine to 1.22.1-alpine (#6506)\n\nSigned-off-by: dependabot[bot] <support@github.com>\r\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>\r\nCo-authored-by: Jeremy Long <jeremy.long@gmail.com>",
+        "commit_date": "2024-03-27 10:40:35",
+        "release_date": "2024-03-15 11:02:42",
+        "release_message": "Refer to the [CHANGELOG.md](https://github.com/jeremylong/DependencyCheck/blob/main/CHANGELOG.md#change-log) for information about improvements and upgrade notes."
     },
     "https://github.com/mrknow001/API-Explorer": {
         "created_at": "",
@@ -24317,7 +24315,7 @@
         "created_at": "2024-02-04 09:33:59",
         "description": "支持自定义Poc文件的图形化漏洞利用工具",
         "commit_message": "Update README.md",
-        "commit_date": "2024-02-21 09:18:12",
+        "commit_date": "2024-03-26 07:52:06",
         "release_date": "2024-02-04 10:03:26",
         "release_message": "更新：\r\n1.新增了反序列化模块。\r\n2.支持批量URL漏洞检测，漏洞情况导出，自定义线程数。\r\n3.支持了{{字符串数据:Base64Encode}}、{{Hex编码后的数据:HexDecode}}等写法，参考nuclei、YAKIT。\r\n4.优化了部分代码，如占位符逻辑优化，面板输出优化等，"
     },
@@ -24478,8 +24476,8 @@
         "description": "魅族安全中心"
     },
     "https://sec.vip.com/": {
-        "status_code": 200,
-        "description": "VSRC首页-唯品会信息安全中心"
+        "status_code": 503,
+        "description": ""
     },
     "https://sec.wacai.com/": {
         "status_code": 200,
@@ -24823,8 +24821,8 @@
         "description": "电报码在线翻译（国际摩尔斯电码及中文电码） - 千千秀字"
     },
     "http://www.hiencode.com/aaencode.html": {
-        "status_code": 200,
-        "description": "CTF在线工具-在线AAencode编码|AA编码|AAencode解码|AAencode编码原理|AAencode编码算法"
+        "status_code": 504,
+        "description": "404 Not Found"
     },
     "https://www.shellpub.com/": {
         "status_code": 200,
@@ -24875,8 +24873,8 @@
         "description": "[~]#棱角 ::Edge.Forum*"
     },
     "http://ctf.ssleye.com/pigpen.html": {
-        "status_code": 200,
-        "description": "CTF在线工具-在线猪圈密码加密|在线猪圈密码解密|猪圈密码算法|Pigpen Cipher"
+        "status_code": 504,
+        "description": "404 Not Found"
     },
     "https://www.qqxiuzi.cn/bianma/rot5-13-18-47.php": {
         "status_code": 404,
@@ -24903,8 +24901,8 @@
         "description": "Overview - Process Hacker"
     },
     "http://www.hiencode.com/bubble.html": {
-        "status_code": 200,
-        "description": "CTF在线工具-在线BubbleBabble编码|Bubble编码|BubbleBabble解码|BubbleBabble编码原理|BubbleBabble编码算法"
+        "status_code": 504,
+        "description": "404 Not Found"
     },
     "http://rootkiter.com/Termite/": {
         "status_code": 200,
@@ -24931,16 +24929,16 @@
         "description": "Sysinternals 实用工具 - Sysinternals | Microsoft Learn"
     },
     "http://www.hiencode.com/jsfuck.html": {
-        "status_code": 200,
-        "description": "CTF在线工具-在线JSfuck加密|在线JSfuck解密|JSfuck|JSfuck原理|JSfuck算法"
+        "status_code": 504,
+        "description": "404 Not Found"
     },
     "https://the-x.cn/encodings/Hex.aspx": {
         "status_code": 200,
         "description": "HEX转字符 十六进制转字符  hex gb2312 gbk utf8 汉字内码转换 - The X 在线工具"
     },
     "http://www.hiencode.com/xxencode.html": {
-        "status_code": 200,
-        "description": "CTF在线工具-在线XXencode编码|XX编码|XXencode解码|XXencode编码原理|XXencode编码算法"
+        "status_code": 504,
+        "description": "404 Not Found"
     },
     "https://www.d99net.net/": {
         "status_code": 200,
@@ -24979,16 +24977,16 @@
         "description": "希尔(Hill Cipher)加密/解密 - Bugku CTF"
     },
     "http://www.hiencode.com/": {
-        "status_code": 200,
-        "description": "CTF在线工具-CTF工具|CTF编码|CTF密码学|CTF加解密|程序员工具|在线编解码"
+        "status_code": 504,
+        "description": "404 Not Found"
     },
     "https://www.boxentriq.com/code-breaking/affine-cipher": {
         "status_code": 200,
         "description": "Affine Cipher (online tool) | Boxentriq"
     },
     "http://www.hiencode.com/jjencode.html": {
-        "status_code": 200,
-        "description": "CTF在线工具-在线JJencode编码|JJ编码|JJencode解码|JJencode编码原理|JJencode编码算法"
+        "status_code": 504,
+        "description": "404 Not Found"
     },
     "https://ctf.bugku.com/tool/base100": {
         "status_code": 200,
@@ -25007,8 +25005,8 @@
         "description": "Triple DES(3DES)加密/解密 - Bugku CTF"
     },
     "http://ctf.ssleye.com/tapcode.html": {
-        "status_code": 200,
-        "description": "CTF在线工具-在线敲击码|敲击码编码|敲击码算法|tap code"
+        "status_code": 504,
+        "description": "404 Not Found"
     },
     "http://utf-8.jp/public/aaencode.html": {
         "status_code": 200,
@@ -25047,12 +25045,12 @@
         "description": "Unicode Steganography with Zero-Width Characters"
     },
     "http://www.hiencode.com/brain.html": {
-        "status_code": 200,
-        "description": "CTF在线工具-在线Brainfuck加密|在线Brainfuck解密|Brainfuck|Brainfuck原理|Brainfuck算法"
+        "status_code": 504,
+        "description": "404 Not Found"
     },
     "http://www.hiencode.com/cvencode.html": {
-        "status_code": 200,
-        "description": "CTF在线工具-在线核心价值观编码|核心价值观编码算法|Core Values Encoder"
+        "status_code": 504,
+        "description": "404 Not Found"
     },
     "https://www.microsoft.com/en-us/download/details.aspx?id=24659": {
         "status_code": 200,
@@ -25227,8 +25225,8 @@
         "description": "新约佛论禅/佛曰加密 - 萌研社 - PcMoe!"
     },
     "http://www.hiencode.com/ppencode.html": {
-        "status_code": 200,
-        "description": "CTF在线工具-在线PPencode编码|PP编码|PPencode编码原理|PPencode编码算法"
+        "status_code": 504,
+        "description": "404 Not Found"
     },
     "https://zb3.me/malbolge-tools/": {
         "status_code": 200,
@@ -25283,16 +25281,16 @@
         "description": "Quoted-printable编码|Quoted-printable解码|Quoted-printable编码原理介绍--查错网"
     },
     "http://www.hiencode.com/uu.html": {
-        "status_code": 200,
-        "description": "CTF在线工具-在线UUencode编码|UU编码|UUencode解码|UUencode编码原理|UUencode编码算法"
+        "status_code": 504,
+        "description": "404 Not Found"
     },
     "https://ctf.bugku.com/tool/todousharp": {
         "status_code": 200,
         "description": "与佛论禅密码 - Bugku CTF"
     },
     "http://www.hiencode.com/handycode.html": {
-        "status_code": 200,
-        "description": "CTF在线工具-在线handycode编码|handycode编码|handycode解码|handycode编码原理|handycode编码算法"
+        "status_code": 504,
+        "description": "404 Not Found"
     },
     "https://smallpdf.com/cn": {
         "status_code": 200,
@@ -25477,8 +25475,8 @@
     "https://github.com/leondz/garak": {
         "created_at": "2024-02-20 14:23:06",
         "description": "LLM vulnerability scanner",
-        "commit_message": "add generator for supporting openai module v0.x (#553)\n\n* add generator for supporting openai module v0.x, where multiprocessing support was better\r\n\r\n* put most of module in a conditional to stop it loading if openai lib isn't v0.x",
-        "commit_date": "2024-03-15 08:56:48",
+        "commit_message": "Reduce Huggingface GPU utilization (#567)",
+        "commit_date": "2024-03-27 19:50:02",
         "release_date": "2024-02-20 16:12:40",
         "release_message": "## What's Changed\r\n\r\n### plugins\r\n* New encoding probes by @zmackie in https://github.com/leondz/garak/pull/459\r\n* OpenAI upgrade by @erickgalinkin in https://github.com/leondz/garak/pull/477\r\n* Low Resource Languages Buff by @erickgalinkin in https://github.com/leondz/garak/pull/478\r\n* Add Rasa generator by @rgstephens in https://github.com/leondz/garak/pull/453\r\n* Tree of Attacks by @erickgalinkin in https://github.com/leondz/garak/pull/446\r\n\r\n### functionality improvements\r\n* support multiple buffs by @leondz in https://github.com/leondz/garak/pull/497\r\n* wrap exception printing in repr by @leondz in https://github.com/leondz/garak/pull/425\r\n* add generators.function docs & examples by @leondz in https://github.com/leondz/garak/pull/437\r\n* update doc indices, add test to check them by @leondz in https://github.com/leondz/garak/pull/450\r\n* fix & unify REST generator timeout param names; set default request timeout to 20s by @leondz in https://github.com/leondz/garak/pull/451\r\n* add test to keep requirements in sync by @leondz in https://github.com/leondz/garak/pull/465\r\n* docs for buffs by @leondz in https://github.com/leondz/garak/pull/466\r\n* autosearch in the configs/ subdir for configs (no yaml extension should be given) by @leondz in https://github.com/leondz/garak/pull/467\r\n* Update function.py by @erickgalinkin in https://github.com/leondz/garak/pull/500\r\n* add warning when using a lite/default profile by @leondz in https://github.com/leondz/garak/pull/476\r\n* rename default output dir to garak_runs/; by @leondz in https://github.com/leondz/garak/pull/488\r\n* update openai model list by @leondz in https://github.com/leondz/garak/pull/494\r\n* make test_openai generation tests skip if no OAI API key set by @leondz in https://github.com/leondz/garak/pull/491\r\n\r\n### fixes\r\n* html report now uses correct basedir by @leondz in https://github.com/leondz/garak/pull/439\r\n* typos & clarifications in rest generator by @leondz in https://github.com/leondz/garak/pull/436\r\n* update manifest by @leondz in https://github.com/leondz/garak/pull/454\r\n* Avoid divide by zero error by @erickgalinkin in https://github.com/leondz/garak/pull/458\r\n* Fix/test pytest-8.0.0 order by @leondz in https://github.com/leondz/garak/pull/472\r\n* Check & enable Python 3.12 support by @leondz in https://github.com/leondz/garak/pull/475\r\n* move pathlib uses to _config.transient.basedir by @leondz in https://github.com/leondz/garak/pull/499\r\n* catch & handle HF hub exceptions loading dataset for package hallucination by @leondz in https://github.com/leondz/garak/pull/470\r\n\r\n\r\n## New Contributors\r\n* @zmackie made their first contribution in https://github.com/leondz/garak/pull/459\r\n* @rgstephens made their first contribution in https://github.com/leondz/garak/pull/453\r\n\r\n**Full Changelog**: https://github.com/leondz/garak/compare/v0.9.0.11...v0.9.0.12"
     },
@@ -25896,7 +25894,9 @@
     },
     "https://github.com/Ar3h/putter": {
         "created_at": "2023-09-09 06:56:00",
-        "description": "命令执行写任意文件，主要用于命令执行但不出网情况"
+        "description": "命令执行写任意文件，主要用于命令执行但不出网情况",
+        "commit_message": "first",
+        "commit_date": "2023-09-09 06:56:34"
     },
     "https://github.com/Just-Hack-For-Fun/Windows-INCIDENT-RESPONSE-COOKBOOK": {
         "created_at": "2024-02-03 12:50:13",
@@ -26194,5 +26194,67 @@
         "description": "web敏感目录、信息泄漏批量扫描脚本，结合爬虫、目录深度遍历。",
         "commit_message": "add README",
         "commit_date": "2018-01-08 09:58:14"
+    },
+    "https://github.com/WebGoat/WebGoat-Legacy": {
+        "created_at": "2014-09-26 12:12:44",
+        "description": "Legacy WebGoat 6.0 - Deliberately insecure JavaEE application",
+        "commit_message": "Update README.MD",
+        "commit_date": "2018-08-03 20:17:53",
+        "release_date": "2014-10-12 17:53:38",
+        "release_message": "Thanks for hacking The Goat!\n\nIt's easy to get started with WebGoat. The easiest way is to simply download the WebGoat-6.0.1-war.exec.jar binary and run it with \"java -jar WebGoat-6.0.1-war.exec.jar\". Then browse to http://localhost:8080/WebGoat.\n\nFor more detailed instructions see:\nhttps://github.com/WebGoat/WebGoat/wiki/Installation-%28WebGoat-6.0%29\n\nWebGoat is a demonstration of common web application flaws. The associated exercises are intended to provide hands-on experience with techniques aimed at demonstrating and testing application penetration.\n\nFrom the entire WebGoat team, we appreciate your interest and efforts in making applications not just better, but safer and more secure for everyone. We, as well as our sacrificial goat, thank you.\n\nVersion: 6.0.1, Build: 14\n\nContact us:\n\n```\nWebGoat mailing list: owasp-webgoat@lists.owasp.org\nBruce Mayhew: webgoat@owasp.org\n```\n\nWebGoat Authors\n\n```\nBruce Mayhew (Project Lead)\nJeff Williams (Original Idea)\nRichard Lawson (Architect)\nJason White (Architect)\n```\n\nWebGoat Design Team\n\n```\nRichard Lawson\nBruce Mayhew\nJason White\nAli Looney (User Interface)\n```\n"
+    },
+    "https://github.com/710leo/ZVulDrill": {
+        "created_at": "2014-02-25 18:02:51",
+        "description": "Web漏洞演练平台",
+        "commit_message": "add qq group 516667587",
+        "commit_date": "2017-03-07 04:49:46"
+    },
+    "https://github.com/codejanus/ToolSuite": {
+        "created_at": "2015-02-14 15:41:09",
+        "description": "Security tools",
+        "commit_message": "add",
+        "commit_date": "2017-02-25 01:52:34"
+    },
+    "https://github.com/netxfly/passive_scan": {
+        "created_at": "2015-07-05 15:03:41",
+        "description": "基于http代理的web漏洞扫描器的实现",
+        "commit_message": "Merge pull request #1 from c4bbage/master\n\nscanning http POST method request",
+        "commit_date": "2016-03-19 14:23:20"
+    },
+    "https://github.com/TophantTechnology/osprey": {
+        "created_at": "2017-09-18 07:41:27",
+        "description": null,
+        "commit_message": "Update README.md",
+        "commit_date": "2018-07-11 11:46:27"
+    },
+    "https://github.com/umutcamliyurt/PingRAT": {
+        "created_at": "2023-09-29 22:12:46",
+        "description": "PingRAT secretly passes C2 traffic through firewalls using ICMP payloads.",
+        "commit_message": "Add files via upload",
+        "commit_date": "2023-09-29 22:12:46",
+        "release_date": "2023-09-29 22:26:15",
+        "release_message": "Binaries for linux"
+    },
+    "https://github.com/R4gd0ll/I-Wanna-Get-All": {
+        "created_at": "2024-02-26 05:32:29",
+        "description": "OA漏洞利用工具",
+        "commit_message": "Add files via upload",
+        "commit_date": "2024-03-25 02:09:10",
+        "release_date": "2024-02-23 06:31:52",
+        "release_message": "修复非指定OA系统进行检测漏洞误报问题\r\n修复yongyou_nc_jsInvoke_RCE误报问题\r\n修复部分文件上传漏洞误报问题\r\n修复蓝凌前台解密失败问题\r\n解决上传文件窗口仅txt可选问题\r\n\r\n3.17更新：\r\n添加hongfan_iocomgetatt_sqli漏洞\r\n添加yongyou_U8C_AppPhoneServletService_sqli漏洞\r\n添加yongyou_U8C_lube_update_XXE漏洞\r\n添加landray_wechatloginhelper_sqli漏洞\r\n添加yongyou_ufida_INtbOBAWebService_xxe漏洞\r\n添加landray_eis_definefield_sqli漏洞\r\n添加jinhe_viewConTemplate_RCE漏洞\r\n添加yongyou_U8C_base64_sqli漏洞\r\n\r\n\r\n\r\n3.20更新\r\n添加yongyou_nc_cloud_runscript_sqli漏洞\r\n添加jinhe_incentiveplanfulfill_sqli漏洞"
+    },
+    "https://github.com/m4n3dw0lf/PytheM": {
+        "created_at": "2016-04-18 19:38:32",
+        "description": "pentest framework",
+        "commit_message": "Merge pull request #33 from ryd/master\n\nInterface fixes",
+        "commit_date": "2018-10-12 22:32:07"
+    },
+    "https://github.com/AabyssZG/WebShell-Bypass-Guide": {
+        "created_at": "2023-11-02 14:29:48",
+        "description": "从零学习Webshell免杀手册",
+        "commit_message": "Update PHP-Webshell-ByPass-Guide.md",
+        "commit_date": "2024-02-21 03:32:54",
+        "release_date": "2023-11-02 14:37:42",
+        "release_message": "# 更新日志\r\n\r\n- 更新主页面和所有手册的更新进度\r\n\r\n# 关于手册\r\n\r\n- 感谢各位师傅和推友的关注和支持，将本手册开源出来\r\n- 这是一系列能让你从零开始学习WebShell免杀的手册，同时我会在内部群迭代更新\r\n\r\nPHP从零学习到WebShell免杀手册在线阅读地址： [https://blog.zgsec.cn/archives/197.html](https://blog.zgsec.cn/archives/197.html)\r\n\r\n**如果师傅们觉得不错，欢迎给我点个Star哈哈~ 有什么新的WebShell免杀姿势、手法，欢迎与我交流哈哈**"
     }
 }
