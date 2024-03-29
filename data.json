@@ -2979,13 +2979,10 @@
         "release_message": "## Changelog\n* 24844a4 :bug: fix IsAliveUrl bug\n* 2097cb8 Merge branch 'main' of github.com:SummerSec/SpringExploit into main\n* 53479ac 🚲 使用前会自动检测是否最新版本并询问是否更新\n* b0ec7bd 🎆 Update CHANGELOG\n* b7db213 🛸 版本0.1.9\n\n"
     },
     "https://github.com/XTeam-Wing/X-Marshal": {
-        "created_at": "",
-        "description": "",
-        "commit_date": "2024-01-04 10:43:46",
+        "created_at": "2022-04-28 16:17:39",
+        "description": "Marshal-EASM 攻击面管理系统",
         "commit_message": "Update README.md",
-        "release_tag": "",
-        "release_date": "",
-        "release_message": ""
+        "commit_date": "2024-01-04 10:43:46"
     },
     "https://github.com/arthaud/git-dumper": {
         "created_at": "2017-03-31 03:39:53",
@@ -3442,13 +3439,12 @@
         "release_message": ""
     },
     "https://github.com/yogeshojha/rengine": {
-        "created_at": "",
-        "description": "",
-        "commit_date": "2024-02-21 19:31:10",
-        "commit_message": "Merge pull request #1203 from yarysp/fix-984-whatportis\n\nWhatportis - Replace purge by truncate to prevent port import error",
-        "release_tag": "",
-        "release_date": "",
-        "release_message": ""
+        "created_at": "2024-01-15 04:56:01",
+        "description": "reNgine is an automated reconnaissance framework for web applications with a focus on highly configurable streamlined recon process via Engines, recon data correlation and organization, continuous monitoring, backed by a database, and simple yet intuitive User Interface. reNgine makes it easy for penetration testers to gather reconnaissance with minimal configuration and with the help of reNgine's correlation, it just makes recon effortless.",
+        "commit_message": "Complete dev environment to debug/code easily (#1196)\n\n* Add django debug toolbar\r\n\r\n* Remove duplicate debug toolbar URLs\r\n\r\n* Remove orphaned import in startScan\r\n\r\n* Add DEBUG config commented in entrypoint\r\n\r\n* Install debug toolbar into celery beat\r\n\r\n* Create dev docker compose & entrypoints\r\n\r\n* Move django toolbar install to dev entrypoints\r\n\r\n* Install debug_toolbar only when debug env var is set\r\n\r\n* Add dev command to MakeFile\r\n\r\n* Use DEBUG from settings.py exclusively\r\n\r\n* Add remote debug configuration in dev env\r\n\r\n* Add VSCode debug configuration\r\n\r\n* Celery log level to 1 when debug is on\r\n\r\n* Remove hard coded celery debug port\r\n\r\n* Add gunicorn in the production setup\r\n\r\n* Add export var for celery log level\r\n\r\n* Restrict debug port to 127.0.0.1\r\n\r\n* Set remote debug to false by default\r\n\r\n* Update doc on debug step for submitting issue\r\n\r\n* Create dev docker compose & entrypoints\r\n\r\n* Add django debug toolbar\r\n\r\n* Remove duplicate debug toolbar URLs\r\n\r\n* Remove orphaned import in startScan\r\n\r\n* Add DEBUG config commented in entrypoint\r\n\r\n* Install debug toolbar into celery beat\r\n\r\n* Move django toolbar install to dev entrypoints\r\n\r\n* Install debug_toolbar only when debug env var is set\r\n\r\n* Add dev command to MakeFile\r\n\r\n* Use DEBUG from settings.py exclusively\r\n\r\n* Add remote debug configuration in dev env\r\n\r\n* Add VSCode debug configuration\r\n\r\n* Celery log level to 1 when debug is on\r\n\r\n* Remove hard coded celery debug port\r\n\r\n* Add gunicorn in the production setup\r\n\r\n* Add export var for celery log level\r\n\r\n* Restrict debug port to 127.0.0.1\r\n\r\n* Set remote debug to false by default\r\n\r\n* Update doc on debug step for submitting issue\r\n\r\n---------\r\n\r\nCo-authored-by: Raynald <raynald@easi-services.fr>\r\nCo-authored-by: Psyray <psyray@users.noreply.github.com>",
+        "commit_date": "2024-03-18 09:33:16",
+        "release_date": "2024-01-25 14:50:19",
+        "release_message": "### Bug Fixes \r\n\r\n## What's Changed\r\n* CI: update GitHub action versions by @jxdv in https://github.com/yogeshojha/rengine/pull/1136\r\n* Fixed (subdomain_discovery | ERROR | local variable 'use_amass_config' referenced before assignment) by @Deathpoolxrs in https://github.com/yogeshojha/rengine/pull/1149\r\n* chore: update LICENSE by @jxdv in https://github.com/yogeshojha/rengine/pull/1153\r\n* Fix subdomains list empty in Target by @psyray in https://github.com/yogeshojha/rengine/pull/1166\r\n* Fix top menu text overflow in low resolution by @psyray in https://github.com/yogeshojha/rengine/pull/1167\r\n* Update auto comment workflow due to deprecation warnings by @ErdemOzgen in https://github.com/yogeshojha/rengine/pull/1126\r\n* Change Redirect URL after login to prevent 500 error by @psyray in https://github.com/yogeshojha/rengine/pull/1124\r\n* fix-1030: Add missing slug on target summary link by @psyray in https://github.com/yogeshojha/rengine/pull/1123\r\n\r\n## New Contributors\r\n* @Deathpoolxrs made their first contribution in https://github.com/yogeshojha/rengine/pull/1149\r\n* @ErdemOzgen made their first contribution in https://github.com/yogeshojha/rengine/pull/1126\r\n\r\n**Full Changelog**: https://github.com/yogeshojha/rengine/compare/v2.0.2...v2.0.3"
     },
     "https://github.com/rootclay/WMIHACKER": {
         "created_at": "2020-07-02 06:57:25",
@@ -3884,13 +3880,12 @@
         "release_message": ""
     },
     "https://github.com/chaitin/safeline": {
-        "created_at": "",
-        "description": "",
-        "commit_date": "2024-02-26 03:03:57",
-        "commit_message": "Merge pull request #697 from Herries/fe-update-versions\n\nfeat: 更新官网的企业版说明信息",
-        "release_tag": "",
-        "release_date": "",
-        "release_message": ""
+        "created_at": "2024-03-28 06:50:17",
+        "description": "一款足够简单、足够好用、足够强的免费 WAF。基于业界领先的语义引擎检测技术，作为反向代理接入，保护你的网站不受黑客攻击。 A free WAF that is sufficiently simple, effective, and powerful. Utilizing industry-leading semantic engine detection technology, it operates as a reverse proxy to protect your website from hacker attacks.",
+        "commit_message": "feat: 有奖征文 (#781)\n\nCo-authored-by: 杨纲 <gang.yang@chaitin.com>",
+        "commit_date": "2024-03-28 11:14:37",
+        "release_date": "2024-03-28 07:46:23",
+        "release_message": "### 新增\r\n\r\n* 黑白名单、人机验证、身份认证中，规则匹配条件增加 “Method”（请求方法），方便对 POST、PUT、DELETE 等客户端操作进行限制\r\n* 攻击原始日志的防护模块为 “补充规则” 时，“命中规则” 处增加规则的 ID\r\n\r\n### 优化\r\n\r\n* 优化导航，调整功能位置，方便寻找：\r\n  * 证书管理 移动到 防护站点->证书管理\r\n  * IP 组 移动到 防护配置->通用配置->IP 组\r\n  * 源 IP 获取方式、站点通用配置 移动到 防护站点->代理设置\r\n  * 拦截页面附加说明、自定义拦截页面、IP 情报共享计划 移动到 防护配置->通用配置->拦截页面、IP 情报共享计划\r\n  * 雷池控制台登录设置、雷池控制台证书、Syslog 设置、系统信息 移动到一级导航 系统设置\r\n* 密码登录框增加请求频率限制，提高暴力猜解的难度\r\n* 免费证书由过期前 10 天自动续期，改为过期前 30 天就自动续期\r\n* 修复站点数量较多时，站点管理处采集不到资源的问题\r\n* 修复移动端点击登录页的 “忘记密码” 无法弹出重置命令的问题\r\n* 修复 syslog 因请求内容较多被截断时，json 格式会被截得不合法的问题\r\n* 修复其他一些已知问题\r\n* 优化一些 UI 交互细节\r\n"
     },
     "https://github.com/stamparm/identYwaf": {
         "created_at": "2019-01-10 11:27:58",
@@ -5092,8 +5087,8 @@
     "https://github.com/FreeRDP/FreeRDP": {
         "created_at": "2024-03-14 10:29:14",
         "description": "FreeRDP is a free remote desktop protocol library and clients",
-        "commit_message": "[client,common] fix TS_RELPOINTER_EVENT sending logic\n\nSend relative mouse events using TS_RELPOINTER_EVENT only when capability present",
-        "commit_date": "2024-03-22 19:15:24",
+        "commit_message": "[client,X11] fix detection of need to use relative movements\n\nRegister XI raw masks when MouseUseRelativeMove enabled\nFix duplication of sent events (in previous implementation relative and absolute events were sent at the same time)\nSlightly refactor code",
+        "commit_date": "2024-03-26 08:20:50",
         "release_date": "2024-03-14 10:32:52",
         "release_message": "This release concentrates on improving test coverage and ci builds.\r\n Some usability issues and inconvenient API functions were fixed on the way.\r\n \r\n New features have been introduced (stub for location channel)\r\n \r\n Noteworthy changes:\r\n * fix a bug in RAIL mode not activating window focus (#9973)\r\n * improve logging (#9969, #9943)\r\n * OpenSSL <= 1.1.1 build fixes (#9897)\r\n * improved help (#9899, #9905)\r\n * improved MINGW support (#9914, #9915, #9919, #9964, #9965, #9920)\r\n * fix right control ungrab for xfreerdp (#9960)\r\n * fix RPATH option settings (#9963)\r\n * fix SDL client screen updates (#9962, #9954)\r\n * fix issues with childSession under windows (#9961, #9956, #9922)\r\n * fix xfreerdp crash with +auth-only (#9947)\r\n * fix windows printer channel (#9934)\r\n * add support to enforce gateway policy (#9942)\r\n * improve big endian support (#9927)\r\n * ignore empty proxy environment variables (#9929)\r\n * improve quoting support for command line (#9912)\r\n \r\n For a complete and detailed change log since the last release run:\r\n git log 3.4.0...3.3.0"
     },
@@ -6326,12 +6321,12 @@
         "release_message": ""
     },
     "https://github.com/WerWolv/ImHex": {
-        "created_at": "2024-03-02 15:44:54",
+        "created_at": "2024-03-23 09:15:12",
         "description": "🔍 A Hex Editor for Reverse Engineers, Programmers and people who value their retinas when working at 3 AM.",
-        "commit_message": "fix: Use `find_library()` instead of `find_file()` to find system yara library (#1581)\n\nDiscord discussion:\r\nhttps://discord.com/channels/789833418631675954/789840633414025246/1213564050848485427",
-        "commit_date": "2024-03-19 19:23:33",
-        "release_date": "2024-03-02 16:06:21",
-        "release_message": "## Improvements\r\n- Improved ability to recover from exceptions thrown in the main thread\r\n- Drastically improved frame rendering algorithm\r\n    - ImHex doesn't use huge amounts of CPU and GPU power anymore now (especially on Linux!)\r\n- Hex editor minimap rows now stay a constant size when resizing the window\r\n- Improved error handling when loading Projects\r\n\r\n## Bug Fixes\r\n- Fixed Project files being opened like regular files when opened through the command line or Open With\r\n- Fixed yara rules not being read correctly in the advanced information section of the information view\r\n- The Import menu is no longer disabled now when having a Read-only provider opened\r\n- Fixed read-only information toast appearing for all providers\r\n- Fixed crash when trying to calculate CRCs in the hashes view\r\n- Fixed automatic pattern loading based on MIME types not working anymore\r\n- Fixed resizing files or inserting bytes inside of files causing all data afterwards to be lost\r\n- Fixed clicking on items while ImHex isn't focused not working\r\n- Fixed a rare crash when downloading multiple items at once from the content store\r\n\r\n## Pattern Language\r\n- Fixed template types imported using an `import` statement not working correctly\r\n- Fixed crash due to infinite recursion in the validator\r\n\r\n# Previous Changelog\r\n\r\n![image](https://github.com/WerWolv/ImHex/assets/10835354/57bfaec2-779e-4701-b1a5-f03da7815da3)\r\n\r\n## Additions\r\n- **All main menu entries now have pretty icons**\r\n- **Added Myers' diffing algorithm to the diff view**\r\n    - This algorithm can display insertions and removals as well as modifications\r\n    - Huge thanks to the maintainer of Malcat!\r\n- **Added option to customize toolbar icons**\r\n- **Added a much improved Out of the Box experience when first starting up ImHex**\r\n- **Added many new hash algorithms**\r\n    - This includes basic sum checksums, Snefru, Haval, various SHA versions, Keccak, RIPEMD, many CRC presets and many more\r\n- **Greatly improved the data information view**\r\n    - Sections can now be switched on and off\r\n    - Magic information now includes more than one entry if there's multiple concatenated files\r\n    - The Digram and Layered distribution graphs now perform a lot better\r\n    - There's now built-in yara rules that are being run on files to detect compilers, programming languages and more for executables\r\n- **Greatly improved the pattern editor**\r\n    - Thanks a lot to @paxcut \r\n    - This adds support for find and replace, better highlighting and many other smaller things\r\n- **Added Mini Map to the Hex Editor**\r\n    - This can be enabled by clicking on the map icon in the hex editor footer\r\n    - There's also config options when right clicking that icon\r\n- **Added `Edit -> Jump to -> Pattern` option to jump directly from hex editor highlights to patterns**\r\n    - Clicking on patterns in the pattern data view also jumps to their definition in the pattern editor now\r\n- **Added a font picker to the settings**\r\n- **Added option to highlight parent pattern regions in the hex editor when hovering over them**\r\n- Added support for searching for other string encodings and endianess. Thanks a lot to @PerikiyoXD \r\n- Added a pretty drag-n-drop overlay when dragging files onto ImHex\r\n- Added support for virtual file systems through the pattern language\r\n- Added option to keep ImHex always on top of other windows\r\n- Added option to use ImHex in fullscreen mode\r\n- Added support for switching to other providers through the command palette\r\n- Added a setting to always show all provider tabs, even if there's only one\r\n- Added option to export a selection to a file\r\n- Added a comments column to the pattern data view. It can be enabled by right clicking on the table header and selecting it there\r\n- Added option to turn off borderless window mode\r\n- Added option to export the results of the find view to a file\r\n- Added option to disable command palette button in header\r\n- Added a search bar to the file chooser popup\r\n- Added support for opening multiple files at once\r\n- Added support for macOS's Right click -> Open with option\r\n\r\n## Improvements\r\n- **ImHex now uses Atomic File I/O instead of mapping files into memory**\r\n    - This solves various issues where certain files couldn't be opened, files on network drives not working well and more\r\n- **macOS M1 build now only requires macOS 12.1 instead of 14.0 to run**\r\n- Bookmark moving now uses ImGui's native drag n drop feature\r\n- Syncing pattern language source code between providers should work better now\r\n- Custom encodings that don't have multi-byte values now display immediately when selected\r\n- The macOS build now uses a custom titlebar\r\n- ImHex windows are now being unfocused properly if the main window loses focus\r\n    - No more blinking cursors when ImHex is in the background!\r\n- Overwriting individual characters in the edit mode of the hex editor now works much better\r\n- Copy-Paste now works correctly in the Web version of ImHex. Thanks a lot to @exsilium \r\n- The find popup now remembers its content\r\n- The crash restore popup doesn't show anymore now if there's nothing to restore\r\n- Opening the same file multiple times is no longer possible now\r\n\r\n## Bug Fixes\r\n- **Fixed signing issues with macOS builds**\r\n- **Fixed CTRL + S not removing red highlights of bytes**\r\n- Fixed address bound checks in Edit -> Jump to option\r\n- Fixed menu bar collapsing into hamburger menu even if there's enough space\r\n- Fixed RGBA8 data processor node not setting output buffer correctly\r\n- Fixed provider information in information view always showing infos about the current provider instead of about the analyzed provider\r\n- Fixed issues when using certain window management tools on Windows\r\n- Fixed crashes when launching ImHex with file arguments\r\n- Fixed crash when trying to use too many hex editor rows\r\n- Fixed native theme detection of Linux. Thanks to @iTrooz \r\n- Fixed issues where workspaces are not correctly saved sometimes\r\n- Fixed issues where default magic database wasn't being bundled correctly\r\n- Fixed crashes when loading very old settings files\r\n- Fixed data inspector not updating correctly when the underlying data changed\r\n- Fixed a crash when specifying invalid hash parameters in the hashing view\r\n- Fixed additional folder paths not being loaded from the config file correctly\r\n- Fixed data inspector showing two negative signs sometimes\r\n- Fixed various issues with non-zero base addresses\r\n\r\n## Pattern Language\r\n- **Huge refactor of the Preprocessor, Lexer and Parser**\r\n    - Massive thanks to @jumanji144\r\n    - Compile errors are a lot more helpful now and include more context information\r\n- **Added support for `import` statements**\r\n    - Massive thanks to @jumanji144\r\n- **Added stacktrace to runtime errors**\r\n- Patterns can now be placed inside of custom sections from within other types\r\n- Pattern formatters now properly respect a patterns visibility\r\n    - This means hidden patterns don't end up in exported json, yaml or html files anymore\r\n- Fixed writing to big endian bitfield entries\r\n- Changing pattern setting now re-evaluates the code if auto evaluation is enabled\r\n\r\n<br/>\r\n\r\n<p align=\"center\">If you like my work, please consider supporting me on GitHub Sponsors, Patreon or PayPal. Thanks a lot!</p>\r\n<p align=\"center\">\r\n<a href=\"https://github.com/sponsors/WerWolv\"><img src=\"https://werwolv.net/assets/github_banner.png\" alt=\"GitHub donate button\" /> </a>\r\n<a href=\"https://www.patreon.com/werwolv\"><img src=\"https://c5.patreon.com/external/logo/become_a_patron_button.png\" alt=\"Patreon donate button\" /> </a>\r\n<a href=\"https://werwolv.net/donate\"><img src=\"https://werwolv.net/assets/paypal_banner.png\" alt=\"PayPal donate button\" /> </a>\r\n</p"
+        "commit_message": "fix: Misspelling of Endianness (#1609)\n\n### Problem description\r\nfix 40 typos\r\n\r\n### Implementation description\r\n`endianess` => `endianness`\r\n\r\nSigned-off-by: RoboSchmied <github@roboschmie.de>",
+        "commit_date": "2024-03-28 21:25:28",
+        "release_date": "2024-03-23 10:06:55",
+        "release_message": "## Improvements\r\n- ImHex properly enters low power mode on Linux again now\r\n- Unifont characters are now being loaded at their native size to make them crisp like the Western characters\r\n- The splash screen is not being scaled weirdly anymore now\r\n- Added a hint when the advanced data information section didn't yield any result\r\n\r\n## Bug Fixes\r\n- Fixed linking to libyara. This should resolve issues with e.g the AUR version not starting anymore\r\n- Fixed issues with the auto updater on Windows\r\n- Fixed view providers not being saved to project files correctly\r\n- Fixed highlighting not updating correctly when changing Bookmark regions\r\n- Fixed crash upload setting not being disabled correctly when choosing \"Deny\" in the initial popup\r\n- Fixed custom base address issues with the data inspector and copy as array options\r\n- Fixed advanced data information not showing up correctly\r\n- Fixed selection being removed sometimes when right clicking it\r\n- Fixed infinite loop when exporting a selection to a file\r\n- Fixed control characters ending up in log files\r\n- Fixed a crash when opening an unopenable file\r\n\r\n## Pattern Language\r\n- Fixed various issues with the virtual file system\r\n- Fixed data decompression functions not extracting the entire data\r\n\r\n# Previous Changelog\r\n\r\n![image](https://github.com/WerWolv/ImHex/assets/10835354/57bfaec2-779e-4701-b1a5-f03da7815da3)\r\n\r\n## Additions\r\n- **All main menu entries now have pretty icons**\r\n- **Added Myers' diffing algorithm to the diff view**\r\n    - This algorithm can display insertions and removals as well as modifications\r\n    - Huge thanks to the maintainer of Malcat!\r\n- **Added option to customize toolbar icons**\r\n- **Added a much improved Out of the Box experience when first starting up ImHex**\r\n- **Added many new hash algorithms**\r\n    - This includes basic sum checksums, Snefru, Haval, various SHA versions, Keccak, RIPEMD, many CRC presets and many more\r\n- **Greatly improved the data information view**\r\n    - Sections can now be switched on and off\r\n    - Magic information now includes more than one entry if there's multiple concatenated files\r\n    - The Digram and Layered distribution graphs now perform a lot better\r\n    - There's now built-in yara rules that are being run on files to detect compilers, programming languages and more for executables\r\n- **Greatly improved the pattern editor**\r\n    - Thanks a lot to @paxcut \r\n    - This adds support for find and replace, better highlighting and many other smaller things\r\n- **Added Mini Map to the Hex Editor**\r\n    - This can be enabled by clicking on the map icon in the hex editor footer\r\n    - There's also config options when right clicking that icon\r\n- **Added `Edit -> Jump to -> Pattern` option to jump directly from hex editor highlights to patterns**\r\n    - Clicking on patterns in the pattern data view also jumps to their definition in the pattern editor now\r\n- **Added a font picker to the settings**\r\n- **Added option to highlight parent pattern regions in the hex editor when hovering over them**\r\n- Added support for searching for other string encodings and endianess. Thanks a lot to @PerikiyoXD \r\n- Added a pretty drag-n-drop overlay when dragging files onto ImHex\r\n- Added support for virtual file systems through the pattern language\r\n- Added option to keep ImHex always on top of other windows\r\n- Added option to use ImHex in fullscreen mode\r\n- Added support for switching to other providers through the command palette\r\n- Added a setting to always show all provider tabs, even if there's only one\r\n- Added option to export a selection to a file\r\n- Added a comments column to the pattern data view. It can be enabled by right clicking on the table header and selecting it there\r\n- Added option to turn off borderless window mode\r\n- Added option to export the results of the find view to a file\r\n- Added option to disable command palette button in header\r\n- Added a search bar to the file chooser popup\r\n- Added support for opening multiple files at once\r\n- Added support for macOS's Right click -> Open with option\r\n\r\n## Improvements\r\n- **ImHex now uses Atomic File I/O instead of mapping files into memory**\r\n    - This solves various issues where certain files couldn't be opened, files on network drives not working well and more\r\n- **macOS M1 build now only requires macOS 12.1 instead of 14.0 to run**\r\n- Bookmark moving now uses ImGui's native drag n drop feature\r\n- Syncing pattern language source code between providers should work better now\r\n- Custom encodings that don't have multi-byte values now display immediately when selected\r\n- The macOS build now uses a custom titlebar\r\n- ImHex windows are now being unfocused properly if the main window loses focus\r\n    - No more blinking cursors when ImHex is in the background!\r\n- Overwriting individual characters in the edit mode of the hex editor now works much better\r\n- Copy-Paste now works correctly in the Web version of ImHex. Thanks a lot to @exsilium \r\n- The find popup now remembers its content\r\n- The crash restore popup doesn't show anymore now if there's nothing to restore\r\n- Opening the same file multiple times is no longer possible now\r\n\r\n## Bug Fixes\r\n- **Fixed signing issues with macOS builds**\r\n- **Fixed CTRL + S not removing red highlights of bytes**\r\n- Fixed address bound checks in Edit -> Jump to option\r\n- Fixed menu bar collapsing into hamburger menu even if there's enough space\r\n- Fixed RGBA8 data processor node not setting output buffer correctly\r\n- Fixed provider information in information view always showing infos about the current provider instead of about the analyzed provider\r\n- Fixed issues when using certain window management tools on Windows\r\n- Fixed crashes when launching ImHex with file arguments\r\n- Fixed crash when trying to use too many hex editor rows\r\n- Fixed native theme detection of Linux. Thanks to @iTrooz \r\n- Fixed issues where workspaces are not correctly saved sometimes\r\n- Fixed issues where default magic database wasn't being bundled correctly\r\n- Fixed crashes when loading very old settings files\r\n- Fixed data inspector not updating correctly when the underlying data changed\r\n- Fixed a crash when specifying invalid hash parameters in the hashing view\r\n- Fixed additional folder paths not being loaded from the config file correctly\r\n- Fixed data inspector showing two negative signs sometimes\r\n- Fixed various issues with non-zero base addresses\r\n\r\n## Pattern Language\r\n- **Huge refactor of the Preprocessor, Lexer and Parser**\r\n    - Massive thanks to @jumanji144\r\n    - Compile errors are a lot more helpful now and include more context information\r\n- **Added support for `import` statements**\r\n    - Massive thanks to @jumanji144\r\n- **Added stacktrace to runtime errors**\r\n- Patterns can now be placed inside of custom sections from within other types\r\n- Pattern formatters now properly respect a patterns visibility\r\n    - This means hidden patterns don't end up in exported json, yaml or html files anymore\r\n- Fixed writing to big endian bitfield entries\r\n- Changing pattern setting now re-evaluates the code if auto evaluation is enabled\r\n\r\n<br/>\r\n\r\n<p align=\"center\">If you like my work, please consider supporting me on GitHub Sponsors, Patreon or PayPal. Thanks a lot!</p>\r\n<p align=\"center\">\r\n<a href=\"https://github.com/sponsors/WerWolv\"><img src=\"https://werwolv.net/assets/github_banner.png\" alt=\"GitHub donate button\" /> </a>\r\n<a href=\"https://www.patreon.com/werwolv\"><img src=\"https://c5.patreon.com/external/logo/become_a_patron_button.png\" alt=\"Patreon donate button\" /> </a>\r\n<a href=\"https://werwolv.net/donate\"><img src=\"https://werwolv.net/assets/paypal_banner.png\" alt=\"PayPal donate button\" /> </a>\r\n</p"
     },
     "https://github.com/JarlPenguin/BeCyIconGrabberPortable": {
         "created_at": "2018-05-04 19:26:22",
@@ -22741,13 +22736,12 @@
         "release_message": ""
     },
     "https://github.com/Sitoi/dailycheckin": {
-        "created_at": "",
-        "description": "",
-        "commit_date": "2024-02-26 02:08:17",
-        "commit_message": "✨ 功能(theme.config.tsx)：在head中添加umami分析脚本，用于网站访问统计",
-        "release_tag": "",
-        "release_date": "",
-        "release_message": ""
+        "created_at": "2024-03-19 01:37:20",
+        "description": "基于「Docker」/「青龙面板」/「群晖」的每日签到脚本（支持多账号）签到列表: ｜爱奇艺｜全民K歌｜有道云笔记｜百度贴吧｜Bilibili｜V2EX｜AcFun｜什么值得买｜阿里云盘｜i茅台申购｜小米运动｜百度搜索资源平台｜恩山论坛｜奥拉星｜",
+        "commit_message": "⬆️ 更新(__version__.py)：将版本号从24.3.11升级到24.3.19\n  ✨ 功能(docs/pages/history)：添加2024-03-19的更新日志\n  📝 文档(docs/pages/history/_meta.json)：更新_meta.json文件，添加2024-03-19的日志记录\n  📝 文档(docs/theme.config.tsx)：更新banner的链接和文本，指向最新的版本发布信息",
+        "commit_date": "2024-03-19 01:37:20",
+        "release_date": "2024-03-19 01:38:02",
+        "release_message": "# 2024-03-19\r\n\r\n![PyPI](https://img.shields.io/badge/Pypi-v24.3.19-brightgreen)\r\n\r\n## 🐛 修复\r\n\r\n- 修复「爱奇艺」摇一摇失败的 BUG\r\n"
     },
     "https://github.com/Safe3/CVS": {
         "created_at": "",
@@ -22809,13 +22803,12 @@
         "release_message": ""
     },
     "https://github.com/Janhsu/oday": {
-        "created_at": "",
-        "description": "",
-        "commit_date": "2024-02-01 14:34:55",
+        "created_at": "2024-01-01 22:57:54",
+        "description": "javafx编写的poc管理工具和漏洞扫描的小工具",
         "commit_message": "Update README.md",
-        "release_tag": "",
-        "release_date": "",
-        "release_message": ""
+        "commit_date": "2024-02-01 14:34:55",
+        "release_date": "2024-01-30 15:18:01",
+        "release_message": "### 1.3.4更新\r\n\r\n#### 1.又又又修复了一些bug。\r\n\r\n#### 2.增加了几个添加POC时使用的占位关键字：\r\n1.使用HexDecode{{内容}}可在发包时将{{}}内的内容进行16进制数据解码;适配于反序列化等漏洞。如图：\r\n<img width=\"750\" alt=\"image\" src=\"https://github.com/Janhsu/oday/assets/62692103/9abbdffe-9e38-47ba-8146-a0ef22157199\">\r\n\r\n2.使用Base64Decode{{内容}}可在发包时将{{}}内的内容进行base64数据解码;适配于压缩包上传等漏洞。如图：\r\n<img width=\"750\" alt=\"image\" src=\"https://github.com/Janhsu/oday/assets/62692103/702398c2-dbd6-4cb5-b6d4-f41045fc1c07\">\r\n\r\n3.使用{{RequestUrl}}可在发包时替换成当前请求的url;适配于某些需要refer头或者请求路径中需要当前拼接请求URL的情况。如图：\r\n<img width=\"750\" alt=\"image\" src=\"https://github.com/Janhsu/oday/assets/62692103/6b771d48-7fd9-4ab4-a711-e788630f7b9c\">\r\n\r\n4.使用{{RemoteHttpLog}}可在发包时替换成设置里设置的httplog地址。适用于命令执行不回显的情况。如图：\r\n<img width=\"750\" alt=\"image\" src=\"https://github.com/Janhsu/oday/assets/62692103/103358b6-82b5-4526-8190-b0f0cc51a0e4\">\r\n\r\n#### 3.简易的httplog服务在压缩包内，vps上部署即可，使用方式：\r\n<img width=\"742\" alt=\"image\" src=\"https://github.com/Janhsu/oday/assets/62692103/e3f3d0a5-8e6c-437e-bfda-ac60124ed2fe\">\r\n再在设置里填你部署的vps的地址和端口\r\n<img width=\"500\" alt=\"image\" src=\"https://github.com/Janhsu/oday/assets/62692103/0ba9661d-b098-4142-849f-a2cd8d18460d\">\r\n\r\n\r\n#### 4.之前的版本需要修改本地db文件：使用navicat打开db文件，设计oday_config表结构，在request_timeout下面添加httplog_address字段：\r\n<img width=\"785\" alt=\"image\" src=\"https://github.com/Janhsu/oday/assets/62692103/91d2ae79-00a0-4481-a208-21b4a697981d\">\r\n注意，之前的数据表内还有server_address、version_timestamp、finger_timestamp字段，可以直接删除，最后表结构如上图所示即可。"
     },
     "https://github.com/mangenotwork/website-monitor": {
         "created_at": "2023-09-12 08:05:25",
@@ -22827,13 +22820,10 @@
         "release_message": ""
     },
     "https://github.com/qiwentaidi/Slack": {
-        "created_at": "",
-        "description": "",
-        "commit_date": "2024-02-22 09:49:17",
-        "commit_message": "update",
-        "release_tag": "",
-        "release_date": "",
-        "release_message": ""
+        "created_at": "2023-08-20 00:52:28",
+        "description": "一款Go Wails实现的GUI工具，功能涵盖网站扫描、端口扫描、企业信息收集、子域名暴破、空间引擎搜索、CDN识别等",
+        "commit_message": "update 1.4.9",
+        "commit_date": "2024-03-17 04:52:38"
     },
     "https://github.com/horizon3ai/CVE-2023-27524": {
         "created_at": "2023-04-25 04:59:05",
@@ -22985,12 +22975,12 @@
         "release_message": ""
     },
     "https://github.com/yhy0/Jie": {
-        "created_at": "2024-03-18 13:53:17",
+        "created_at": "2024-03-26 15:09:04",
         "description": "Jie stands out as a comprehensive security assessment and exploitation tool meticulously crafted for web applications. Its robust suite of features encompasses vulnerability scanning, information gathering, and exploitation, elevating it to an indispensable toolkit for both security professionals and penetration testers.(expectations)",
-        "commit_message": "update fastjsn scan format",
-        "commit_date": "2024-03-21 14:51:10",
-        "release_date": "2024-03-18 13:56:22",
-        "release_message": "## Changelog\n* 045e826 fix Katana UniqueId\n* 59bc561 update version\n* db5ed78 fix collection filter\n* 41da6a2 fix katana extension filter\n* bd14f78 fix craw judge\n\n"
+        "commit_message": "fix report html;update katana",
+        "commit_date": "2024-03-26 15:09:04",
+        "release_date": "2024-03-26 15:12:26",
+        "release_message": "## Changelog\n* ac28656 fix report html;update katana\n* d17dbd8 fix sql injection panic\n* 87d77d6 报错检测不返回body\n* cd803f1 replaced sizedwaitgroup\n* 8700773 证书详细说明\n* 937c66c update fastjsn scan format\n* 43d0429 更新 nuclei、sensitive keys;一些错误检查正则预编译\n* 57ebfec format\n* b081661 update re2@1.5.1\n* 25b7a9d regexp替换速度更快的re2\n\n"
     },
     "https://github.com/TryGOTry/CobaltStrike_Cat_4.5": {
         "created_at": "",
@@ -23346,13 +23336,12 @@
         "release_message": "Bug fixes (#40/#41)\r\nUpdated nvidia docker config/images and flask-login"
     },
     "https://github.com/sulab999/AppMessenger": {
-        "created_at": "",
-        "description": "",
-        "commit_date": "2024-02-23 04:20:27",
+        "created_at": "2024-01-26 10:16:08",
+        "description": "一款适用于以APP病毒分析、APP漏洞挖掘、APP开发、HW行动/红队/渗透测试团队为场景的移动端(Android、iOS)辅助分析工具",
         "commit_message": "Update version",
-        "release_tag": "",
-        "release_date": "",
-        "release_message": ""
+        "commit_date": "2024-02-23 04:20:27",
+        "release_date": "2024-02-23 04:16:26",
+        "release_message": "1、新增漏洞详情信息\r\n2、新增图标保存功能\r\n3、优化拖拽卡死bug\r\n4、优化文件大小信息显示\r\n5、优化漏洞检测规则，减少误报"
     },
     "https://github.com/pandasec888/taowu-cobalt_strike": {
         "created_at": "2020-07-05 10:13:00",
@@ -24821,8 +24810,8 @@
         "description": "电报码在线翻译（国际摩尔斯电码及中文电码） - 千千秀字"
     },
     "http://www.hiencode.com/aaencode.html": {
-        "status_code": 504,
-        "description": "404 Not Found"
+        "status_code": 200,
+        "description": "CTF在线工具-在线AAencode编码|AA编码|AAencode解码|AAencode编码原理|AAencode编码算法"
     },
     "https://www.shellpub.com/": {
         "status_code": 200,
@@ -24873,8 +24862,8 @@
         "description": "[~]#棱角 ::Edge.Forum*"
     },
     "http://ctf.ssleye.com/pigpen.html": {
-        "status_code": 504,
-        "description": "404 Not Found"
+        "status_code": 200,
+        "description": "CTF在线工具-在线猪圈密码加密|在线猪圈密码解密|猪圈密码算法|Pigpen Cipher"
     },
     "https://www.qqxiuzi.cn/bianma/rot5-13-18-47.php": {
         "status_code": 404,
@@ -24901,8 +24890,8 @@
         "description": "Overview - Process Hacker"
     },
     "http://www.hiencode.com/bubble.html": {
-        "status_code": 504,
-        "description": "404 Not Found"
+        "status_code": 200,
+        "description": "CTF在线工具-在线BubbleBabble编码|Bubble编码|BubbleBabble解码|BubbleBabble编码原理|BubbleBabble编码算法"
     },
     "http://rootkiter.com/Termite/": {
         "status_code": 200,
@@ -24929,16 +24918,16 @@
         "description": "Sysinternals 实用工具 - Sysinternals | Microsoft Learn"
     },
     "http://www.hiencode.com/jsfuck.html": {
-        "status_code": 504,
-        "description": "404 Not Found"
+        "status_code": 200,
+        "description": "CTF在线工具-在线JSfuck加密|在线JSfuck解密|JSfuck|JSfuck原理|JSfuck算法"
     },
     "https://the-x.cn/encodings/Hex.aspx": {
         "status_code": 200,
         "description": "HEX转字符 十六进制转字符  hex gb2312 gbk utf8 汉字内码转换 - The X 在线工具"
     },
     "http://www.hiencode.com/xxencode.html": {
-        "status_code": 504,
-        "description": "404 Not Found"
+        "status_code": 200,
+        "description": "CTF在线工具-在线XXencode编码|XX编码|XXencode解码|XXencode编码原理|XXencode编码算法"
     },
     "https://www.d99net.net/": {
         "status_code": 200,
@@ -24977,16 +24966,16 @@
         "description": "希尔(Hill Cipher)加密/解密 - Bugku CTF"
     },
     "http://www.hiencode.com/": {
-        "status_code": 504,
-        "description": "404 Not Found"
+        "status_code": 200,
+        "description": "CTF在线工具-CTF工具|CTF编码|CTF密码学|CTF加解密|程序员工具|在线编解码"
     },
     "https://www.boxentriq.com/code-breaking/affine-cipher": {
         "status_code": 200,
         "description": "Affine Cipher (online tool) | Boxentriq"
     },
     "http://www.hiencode.com/jjencode.html": {
-        "status_code": 504,
-        "description": "404 Not Found"
+        "status_code": 200,
+        "description": "CTF在线工具-在线JJencode编码|JJ编码|JJencode解码|JJencode编码原理|JJencode编码算法"
     },
     "https://ctf.bugku.com/tool/base100": {
         "status_code": 200,
@@ -25005,8 +24994,8 @@
         "description": "Triple DES(3DES)加密/解密 - Bugku CTF"
     },
     "http://ctf.ssleye.com/tapcode.html": {
-        "status_code": 504,
-        "description": "404 Not Found"
+        "status_code": 200,
+        "description": "CTF在线工具-在线敲击码|敲击码编码|敲击码算法|tap code"
     },
     "http://utf-8.jp/public/aaencode.html": {
         "status_code": 200,
@@ -25045,12 +25034,12 @@
         "description": "Unicode Steganography with Zero-Width Characters"
     },
     "http://www.hiencode.com/brain.html": {
-        "status_code": 504,
-        "description": "404 Not Found"
+        "status_code": 200,
+        "description": "CTF在线工具-在线Brainfuck加密|在线Brainfuck解密|Brainfuck|Brainfuck原理|Brainfuck算法"
     },
     "http://www.hiencode.com/cvencode.html": {
-        "status_code": 504,
-        "description": "404 Not Found"
+        "status_code": 200,
+        "description": "CTF在线工具-在线核心价值观编码|核心价值观编码算法|Core Values Encoder"
     },
     "https://www.microsoft.com/en-us/download/details.aspx?id=24659": {
         "status_code": 200,
@@ -25225,8 +25214,8 @@
         "description": "新约佛论禅/佛曰加密 - 萌研社 - PcMoe!"
     },
     "http://www.hiencode.com/ppencode.html": {
-        "status_code": 504,
-        "description": "404 Not Found"
+        "status_code": 200,
+        "description": "CTF在线工具-在线PPencode编码|PP编码|PPencode编码原理|PPencode编码算法"
     },
     "https://zb3.me/malbolge-tools/": {
         "status_code": 200,
@@ -25281,16 +25270,16 @@
         "description": "Quoted-printable编码|Quoted-printable解码|Quoted-printable编码原理介绍--查错网"
     },
     "http://www.hiencode.com/uu.html": {
-        "status_code": 504,
-        "description": "404 Not Found"
+        "status_code": 200,
+        "description": "CTF在线工具-在线UUencode编码|UU编码|UUencode解码|UUencode编码原理|UUencode编码算法"
     },
     "https://ctf.bugku.com/tool/todousharp": {
         "status_code": 200,
         "description": "与佛论禅密码 - Bugku CTF"
     },
     "http://www.hiencode.com/handycode.html": {
-        "status_code": 504,
-        "description": "404 Not Found"
+        "status_code": 200,
+        "description": "CTF在线工具-在线handycode编码|handycode编码|handycode解码|handycode编码原理|handycode编码算法"
     },
     "https://smallpdf.com/cn": {
         "status_code": 200,
@@ -26256,5 +26245,59 @@
         "commit_date": "2024-02-21 03:32:54",
         "release_date": "2023-11-02 14:37:42",
         "release_message": "# 更新日志\r\n\r\n- 更新主页面和所有手册的更新进度\r\n\r\n# 关于手册\r\n\r\n- 感谢各位师傅和推友的关注和支持，将本手册开源出来\r\n- 这是一系列能让你从零开始学习WebShell免杀的手册，同时我会在内部群迭代更新\r\n\r\nPHP从零学习到WebShell免杀手册在线阅读地址： [https://blog.zgsec.cn/archives/197.html](https://blog.zgsec.cn/archives/197.html)\r\n\r\n**如果师傅们觉得不错，欢迎给我点个Star哈哈~ 有什么新的WebShell免杀姿势、手法，欢迎与我交流哈哈**"
+    },
+    "https://github.com/qax-os/goreporter": {
+        "created_at": "2017-12-14 11:21:56",
+        "description": "A Golang tool that does static analysis, unit testing, code review and generate code quality report.",
+        "commit_message": "Avoid integer divide by zero.",
+        "commit_date": "2018-09-02 11:56:03",
+        "release_date": "2017-12-14 11:23:45",
+        "release_message": "- Fixbug:code style error"
+    },
+    "https://github.com/swisskyrepo/DamnWebScanner": {
+        "created_at": "2016-12-24 16:41:24",
+        "description": "Another web vulnerabilities scanner, this extension works on Chrome and Opera",
+        "commit_message": "SPONSOR - Adding sponsoring button",
+        "commit_date": "2019-09-22 14:11:49"
+    },
+    "https://github.com/blackye/lalascan": {
+        "created_at": "2016-08-24 11:22:18",
+        "description": "自主开发的分布式web漏洞扫描框架，集合webkit爬虫，Subdomain子域名发现，sqli、反射xss、Domxss等owasp top10漏洞扫描和边界资产发现能力。同时为通用CMS POC扫描提供了插件扩展平台",
+        "commit_message": "webservice",
+        "commit_date": "2016-10-12 01:44:41"
+    },
+    "https://github.com/protectai/rebuff": {
+        "created_at": "2024-01-20 01:10:08",
+        "description": "LLM Prompt Injection Detector",
+        "commit_message": "Allow trusted people to run GitHub action tests (#94)\n\n* Allow trusted people to run tests\r\n\r\n* Clarify when workflows run",
+        "commit_date": "2024-01-25 19:22:22",
+        "release_date": "2024-01-20 01:11:48",
+        "release_message": "## Major Release for Python SDK 🎉\r\nThe new Python SDK does not rely on connecting with Rebuff Playground API (via token) now. Instead it runs its checks locally and natively in Python. \r\n\r\nIn future, Rebuff Python SDK will also support local vector DB and local LLMs."
+    },
+    "https://github.com/cliffe/secgen": {
+        "created_at": "2015-01-29 16:33:04",
+        "description": "Create randomly insecure VMs",
+        "commit_message": "Update login credentials instructions for Kali VM",
+        "commit_date": "2024-03-22 09:59:22"
+    },
+    "https://github.com/shengqi158/weak_password_detect": {
+        "created_at": "2013-01-24 09:30:06",
+        "description": "多线程探测弱密码程序",
+        "commit_message": "Update attack.py\n\ntest",
+        "commit_date": "2016-02-24 10:22:11"
+    },
+    "https://github.com/sma11new/Pyke-Shiro": {
+        "created_at": "2024-03-12 08:25:39",
+        "description": "复杂请求下的Shiro反序列化利用工具",
+        "commit_message": "更新README",
+        "commit_date": "2024-03-12 08:37:49",
+        "release_date": "2024-03-12 08:27:52",
+        "release_message": "更新内容：\r\n\r\n1. 新增可选保留Cookie：复杂请求下可选择是否保留原始数据包中的Cookie内容\r\n2. 新增自定义请求超时，在”设置-超时”菜单中\r\n3. 修改命令执行时参数放在Authorizations而不是Authorization，避免与身份认证冲突"
+    },
+    "https://github.com/X1r0z/JNDIMap": {
+        "created_at": "2023-11-06 12:42:03",
+        "description": "JNDI 注入利用工具, 支持 RMI 和 LDAP 协议, 包含多种高版本 JDK 绕过方式",
+        "commit_message": "feat: 增加 Fastjson 原生反序列化\n\n增加 Fastjson 两个大版本的原生反序列化 Gadget",
+        "commit_date": "2024-03-12 06:58:02"
     }
 }
