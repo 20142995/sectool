@@ -3917,8 +3917,8 @@
     "https://github.com/quay/clair": {
         "created_at": "2024-02-26 19:36:39",
         "description": "Vulnerability Static Analysis for Containers",
-        "commit_message": "cicd: update actions/cache version\n\nHaven't figured out a way to get dependabot to update these.\n\nSigned-off-by: Hank Donnay <hdonnay@redhat.com>",
-        "commit_date": "2024-03-20 16:31:12",
+        "commit_message": "cicd: don't upload workspace on failure\n\nThis was largely unused, and the checkout action embeds short-lived\ntokens in the workspace which end up in the artifact.\n\nSigned-off-by: Hank Donnay <hdonnay@redhat.com>",
+        "commit_date": "2024-03-25 19:40:09",
         "release_date": "2024-02-26 19:42:53",
         "release_message": "Highlights:\r\n\r\n- The minimum TLS version is now 1.2. \r\n  Previously, servers also allowed 1.1 connections.\r\n- Claircore is updated to v1.5.25:\r\n  <details>\r\n\r\n  - rhcc, rhel: support compression of sideband data\r\n    <details>\r\n    If a Clair instance is using local files for the data needed for the\r\n    `rhel` and `rhcc` indexers, this data may now be compressed. This should\r\n    allow for the files to fit within a Kubernetes ConfigMap, making some\r\n    deployments easier to wrangle.\r\n    </details>\r\n  \r\n  - datastore: add \"delta\" update interface\r\n    <details>\r\n    This change should allow for updaters to use fewer resources and consume\r\n    API-based data sources in the future. As of this change, no in-tree\r\n    updaters have been converted to this interface.\r\n    </details>\r\n  \r\n  - java: size buffers correctly before use\r\n    <details>\r\n    This should reduce memory consumption for indexing layers that have\r\n    deeply nested Java archives.\r\n    </details>\r\n  \r\n  - postgres: remove internal timeouts\r\n    <details>\r\n    Database queries now take as long as needed to execute. This shouldn't\r\n    negatively affect any working uses, and should make some slower or\r\n    less-optimized queries possible on larger instances.\r\n    </details>\r\n  \r\n  - integration: make `PGVERSION` a pattern\r\n    <details>\r\n    The behavior of the setup of an embedded PostgreSQL in integration tests\r\n    has changed. The relevant environment variable (`PGVERSION`) is now a\r\n    pattern instead of a literal version string. Note that a version string\r\n    would be a patten that matches itself, so that format continues to work.\r\n    \r\n    Additionally, the version used is now read from the distributed\r\n    manifest, rather than hard-coded versions. Other than occasional network\r\n    calls to fetch this manifest, users shouldn't notice any difference.\r\n    </details>\r\n  \r\n  - alpine: add edge support\r\n    <details>\r\n    Alpine's `edge` version should now be supported for reporting.\r\n    </details>\r\n  \r\n  - rpm: support PGP V4 signatures\r\n    <details>\r\n    Rpm has apparently started using \"current\"/V4 PGP signatures, which\r\n    claircore was not handling. This adds support for these signatures.\r\n    </details>\r\n  \r\n  - jsonblob: add a disk buffering step\r\n    <details>\r\n    This improves \"offline\" operation by eagerly buffering output to disk\r\n    instead of creating a large in-memory data structure first.\r\n    \r\n    This makes the API trickier but given that there's a single (known and\r\n    intended) user, this should be fine.\r\n    </details>\r\n  \r\n  - tarfs: check a potential interger overflow\r\n    <details>\r\n    This change fixes a potential integer overflow in tar handling code.\r\n    \r\n    The possibility of exploiting this is effectively 0, as it would require\r\n    more bytes to represent a sufficiently large integer than is available\r\n    in the tar header.\r\n    \r\n    See also: https://github.com/quay/claircore/security/code-scanning/5\r\n    </details>\r\n  \r\n  - gobin: take into account package replacements\r\n    <details>\r\n    Previously, there was a bug where package replacements were not\r\n    considered for go binaries.\r\n    </details>\r\n  \r\n  - all: purge `http.DefaultClient` usage\r\n    <details>\r\n    Some packages with less churn (`photon`, `oracle`, `aws`) were using\r\n    older ways of getting an `*http.Client` or using `http.DefaultClient`.\r\n    \r\n    This change breaks some API in exchange for unifying the `*http.Client`\r\n    handling. The practical upshot is that it's much easier to control the\r\n    network contact surface.\r\n    </details>\r\n  \r\n  - all: share single FS implementation\r\n    <details>\r\n    Claircore components that deal with `Layer` objects now share a single\r\n    backing File and a single `fs.FS` implementation when using the `FS`\r\n    method. There should be no noticeable changes for users, but out-of-tree\r\n    implementations may want to move over to using the new FS method.\r\n    \r\n    This change should improve memory usage.\r\n    </details>\r\n  \r\n  - libindex: move to O_TMPFILE fetcher\r\n    <details>\r\n    This release uses a new fetcher (the component responsible for pulling\r\n    layers locally) that makes use of the O_TMPFILE flag to open(2). This\r\n    ensures that layer files will be cleaned up even in the event of an\r\n    unclean shutdown, including being sent a KILL signal.\r\n    </details>\r\n  </details>\r\n\r\n<a name=\"v4.7.3\"></a>\r\n## [v4.7.3] - 2024-02-26\r\n### Admin\r\n- [9517c7be](https://github.com/quay/clair/commit/9517c7bed060d575869a2cbaaa5a255d3714a0eb): add a check for compatible migration version\r\n  See Also:  [#1915](https://github.com/quay/clair/issues/1915)\r\n\r\n### Chore\r\n- [e5a896c9](https://github.com/quay/clair/commit/e5a896c9b939e7e59d92be4f17805f0ed70ea89e): v4.7.3 changelog bump\r\n- [d17ee97b](https://github.com/quay/clair/commit/d17ee97bdccdc46ba25c8c7de151bb84f84236ef): update claircore to v1.5.25\r\n  See Also: [#1990](https://github.com/quay/clair/issues/1990), [#1957](https://github.com/quay/clair/issues/1957), [#1942](https://github.com/quay/clair/issues/1942)\r\n### Config\r\n- [6ba32131](https://github.com/quay/clair/commit/6ba32131be6a79c4d5d070e666e81bfedcc09798): update minimum TLS version for server\r\n See Also:  [#1945](https://github.com/quay/clair/issues/1945)\r\n\r\n[v4.7.3]: https://github.com/quay/clair/compare/v4.7.2...v4.7.3\r\n"
     },
@@ -5638,8 +5638,8 @@
     "https://github.com/fortra/impacket": {
         "created_at": "2023-07-31 15:08:03",
         "description": "Impacket is a collection of Python classes for working with network protocols.",
-        "commit_message": "Implement MS-GKDI and LAPSv2 password extraction (#1556)\n\n* add MS-GKDI\r\n\r\n* update gkdi\r\n\r\n* Update getLAPSv2Password.py\r\n\r\n* Added GetLAPSPassword to examples. (#1)\r\n\r\n* Added GetLAPSPassword to examples.\r\n\r\n* update GetLapsPassword\r\n\r\n* Add LAPSv2 column\r\n\r\n---------\r\n\r\nCo-authored-by: dru1d <tyler.booth@cdw.com>\r\nCo-authored-by: zblurx <seigneuret.thomas@pm.me>\r\n\r\n* update GetLAPSPassword.py\r\n\r\n* Added tab delimited outputfile option (#2)\r\n\r\nCo-authored-by: dru1d <tyler.booth@cdw.com>\r\n\r\n* fix requirements.txt\r\n\r\n---------\r\n\r\nCo-authored-by: Tyler <4245930+dru1d-foofus@users.noreply.github.com>\r\nCo-authored-by: dru1d <tyler.booth@cdw.com>\r\nCo-authored-by: = <=>",
-        "commit_date": "2024-03-20 22:19:45",
+        "commit_message": "fixed computing lmhash for non standard characters (#1723)\n\n* fixed computing lmhash for non standard characters\r\n\r\n* use blank lm hash instead of a random value",
+        "commit_date": "2024-03-27 21:15:47",
         "release_date": "2023-08-03 17:36:40",
         "release_message": "## Impacket 0.11.0:\r\nProject's main page at https://www.coresecurity.com/core-labs/open-source-tools/impacket\r\n\r\nChangeLog for 0.11.0:\r\n1. Library improvements \r\n    * Added new Kerberos error codes (@ly4k).\r\n\t* Added `[MS-TSTS]` Terminal Services Terminal Server Runtime Interface Protocol implementation (@nopernik).\r\n    * Changed the setting up for new SSL connections (@mpgn, @CT-H00K and @0xdeaddood).\r\n    * Added a callback function to smbserver for incoming authentications (@p0dalirius).\r\n    * Fix crash in winregistry (@laxa)\r\n    * Fixes in IDispatch derived classes in comev implementation (@NtAlexio2)\r\n    * Fix CVE-2020-17049 in ccache.py (@godylockz)\r\n    * Smbserver: Added SMB2_FILE_ALLOCATION_INFO type determination (@JerAxxxxxxx)\r\n    * tds: Fixed python3 incompatibility when receiving over TLS socket (@exploide)\r\n    * crypto: Ensure passwords are utf-8 encoded before deriving Kerberos keys (@jojonas)\r\n    * ese: Fixed python3 incompatibility when reading from db (@alexisbalbachan)\r\n    * ldap queries: Escaped characters are now correctly parsed (@alexisbalbachan)\r\n    * Support SASL authentication in ldap protocol (@NtAlexio2)\r\n\r\n2. Examples improvements\r\n    * [GetADUsers.py](examples/GetADUsers.py), [GetNPUsers.py](examples/GetNPUsers.py), [GetUserSPNs.py](examples/GetUserSPNs.py) and [findDelegation.py](examples/findDelegation.py):\r\n      * Added dc-host option to connect to specific KDC using its FQDN or NetBIOS name (@rmaksimov and @0xdeaddood).\r\n    * [GetNPUsers.py](examples/GetNPUsers.py)\r\n      * Printing TGT in stdout despite -outputfile parameter (@alexisbalbachan and @Zamanry)\r\n      * Fixed output hash format for AES128/256 (etype 17/18) (@erasmusc)\r\n    * [GetUserSPNs.py](examples/GetUserSPNs.py):\r\n      * Added LDAP paged search (@ThePirateWhoSmellsOfSunflowers and @SAERXCIT).\r\n      * Added a -stealth flag to remove the SPN filter from the LDAP query (@clavoillotte).\r\n      * Improved searchFilter (@ShutdownRepo)\r\n      * Use LDAP paged search (@ThePirateWhoSmellsOfSunflowers)\r\n    * [psexec.py](examples/psexec.py):\r\n      * Added support for name customization using a custom binary file (@Dramelac).\r\n    * [smbexec.py](examples/smbexec.py):\r\n      * Security fixes for privilege escalation vulnerabilities (@bugch3ck).\r\n      * Fixed python3 compatibility issues, added workaround TCP over NetBIOS being disabled (@ljrk0)\r\n    * [secretsdump.py](examples/secretsdump.py):\r\n      * Added a new option to extract only NTDS.DIT data for specific users based on an LDAP filter (@snovvcrash).\r\n      * Security fixes for privilege escalation vulnerabilities (@bugch3ck).  \r\n    * [mssqlclient.py](examples/mssqlclient.py):\r\n      * Added multiple new commands. Now supports xp_dirtree execution (@Mayfly277, @trietend and @TurtleARM).\r\n    * [ntlmrelayx.py](examples/ntlmrelayx.py):\r\n      * Added ability to trigger SQLShell when running ntlmrelayx in interactive mode (@sploutchy).\r\n      * Added filter option to the socks command in ntlmrelayx CLI (@shoxxdj)\r\n      * Added ability to register DNS records through LDAP.\r\n    * [addcomputer.py](examples/addcomputer.py), [rbcd.py](examples/rbcd.py):\r\n      * Allow weak TLS ciphers for LDAP connections (@AdrianVollmer)\r\n    * [Get-GPPPassword.py](examples/Get-GPPPassword.py):\r\n      * Better handling of various XML files in Group Policy Preferences (@p0dalirius)\r\n    * [smbclient.py](examples/smbclient.py):\r\n      * Added recursive file listing (@Sq00ky)\r\n    * [ticketer.py](examples/ticketer.py):\r\n      * Ticket duration is now specified in hours instead of days (@Dramelac)\r\n      * Added extra-pac implementation (@Dramelac)\r\n\r\n3. New examples\r\n    * [net.py](examples/net.py) Implementation of windows net.exe builtin tool (@NtAlexio2)\r\n    * [changepasswd.py](examples/changepasswd.py) New example that allows password changing or reseting through multiple protocols (@Alef-Burzmali, @snovvcrash, @bransh, @api0cradle and @p0dalirius)\r\n    * [DumpNTLMInfo.py](examples/DumpNTLMInfo.py) New example that dumps remote host information in ntlm authentication model, without credentials. For SMB protocols v1, v2 and v3. (@NtAlexio2)\r\n    \r\nAs always, thanks a lot to all these contributors that make this library better every day (up to now):\r\n\r\n@ly4k @nopernik @snovvcrash @ShutdownRepo @kiwids0220 @mpgn @CT-H00K @rmaksimov @arossert @aevy-syn @tirkarthi @p0dalirius @Dramelac @Mayfly277 @S3cur3Th1sSh1t @nobbd @AdrianVollmer @trietend @TurtleARM @ThePirateWhoSmellsOfSunflowers @SAERXCIT @clavoillotte @Marshall-Hallenbeck @sploutchy @almandin @rtpt-alexanderneumann @JerAxxxxxxx @NtAlexio2 @laxa @godylockz @exploide @jojonas @Zamanry @erasmusc @bugch3ck @ljrk0 @Sq00ky @shoxxdj @Alef-Burzmali @bransh @api0cradle @alexisbalbachan @0xdeaddood @sanmopre\r\n"
     },
@@ -8493,13 +8493,12 @@
         "release_message": ""
     },
     "https://github.com/0x727/FingerprintHub": {
-        "created_at": "",
-        "description": "",
-        "commit_date": "2024-01-26 01:41:30",
+        "created_at": "2021-11-06 01:06:52",
+        "description": "侦查守卫(ObserverWard)的指纹库",
         "commit_message": "Auto Update FingerPrint [Fri Jan 26 01:41:30 UTC 2024] :robot:",
-        "release_tag": "",
-        "release_date": "",
-        "release_message": ""
+        "commit_date": "2024-01-26 01:41:30",
+        "release_date": "2022-03-10 09:25:04",
+        "release_message": "因为插件更新比较频繁，所以版本是覆盖更新的，从这里下载的都是最新的版本"
     },
     "https://github.com/ainrm/cobaltstrike-suricata-rules": {
         "created_at": "2022-06-10 09:55:45",
@@ -18397,7 +18396,9 @@
     },
     "https://github.com/hacklcx/HFish": {
         "created_at": "2019-08-07 05:01:28",
-        "description": "安全、可靠、简单、免费的企业级蜜罐"
+        "description": "安全、可靠、简单、免费的企业级蜜罐",
+        "commit_message": "update the image of joinus",
+        "commit_date": "2024-01-29 05:18:10"
     },
     "https://github.com/michenriksen/aquatone": {
         "created_at": "2015-11-19 11:30:12",
@@ -25480,8 +25481,8 @@
     "https://github.com/google/oss-fuzz": {
         "created_at": "2016-07-20 19:39:50",
         "description": "OSS-Fuzz - continuous fuzzing for open source software.",
-        "commit_message": "[CIFuzz] Make writing stacks in sarif more robust (#11710)\n\nAlso fix bug in test project.",
-        "commit_date": "2024-03-19 17:46:21"
+        "commit_message": "Disable liblzma (#11762)\n\nI haven't had time to digest the recent xz backdoor. Though I think\r\nOSS-Fuzz's sandboxing protects us in the event that one of our users is\r\nmalicious, I will disable liblzma for now out of an abundance of\r\ncaution.",
+        "commit_date": "2024-03-29 19:34:51"
     },
     "https://github.com/nmalcolm/Inventus": {
         "created_at": "2017-08-28 11:48:02",
@@ -26299,5 +26300,43 @@
         "description": "JNDI 注入利用工具, 支持 RMI 和 LDAP 协议, 包含多种高版本 JDK 绕过方式",
         "commit_message": "feat: 增加 Fastjson 原生反序列化\n\n增加 Fastjson 两个大版本的原生反序列化 Gadget",
         "commit_date": "2024-03-12 06:58:02"
+    },
+    "https://github.com/dzonerzy/goWAPT": {
+        "created_at": "2017-12-05 19:32:43",
+        "description": "Go Web Application Penetration Test",
+        "commit_message": "Merge pull request #5 from phra/patch-1\n\nfix typo in cookie-httponly plugin",
+        "commit_date": "2018-04-16 11:41:40"
+    },
+    "https://github.com/Jamalc0m/wphunter": {
+        "created_at": "2018-03-15 07:48:10",
+        "description": "WPHunter A Wordpress Vulnerability Scanner",
+        "commit_message": "Update README.md\n\nFix the link.",
+        "commit_date": "2018-03-23 11:28:33"
+    },
+    "https://github.com/ivanfratric/winafl": {
+        "created_at": "2019-03-11 17:10:11",
+        "description": "A fork of AFL for fuzzing Windows binaries",
+        "commit_message": "Merge branch 'master' of github.com:googleprojectzero/winafl",
+        "commit_date": "2019-03-11 12:04:51"
+    },
+    "https://github.com/GoSecure/php7-opcache-override": {
+        "created_at": "2016-04-25 16:05:34",
+        "description": "Security-related PHP7 OPcache abuse tools and demo",
+        "commit_message": "Merge pull request #8 from WangYihang/master\n\nFix #6, String() in deprecated in construct lib, use Bytes() instead",
+        "commit_date": "2021-05-27 16:31:40"
+    },
+    "https://github.com/YalcinYolalan/WSSAT": {
+        "created_at": "2018-03-28 07:49:06",
+        "description": "WEB SERVICE SECURITY ASSESSMENT TOOL",
+        "commit_message": "Delete us-16-Yolalan&Talay-WSSAT.zip",
+        "commit_date": "2021-09-24 13:49:54",
+        "release_date": "2018-03-28 08:00:35",
+        "release_message": "For more information: https://github.com/YalcinYolalan/WSSAT/blob/master/CHANGELOG.md"
+    },
+    "https://github.com/Y1-K1NG/poc_exp": {
+        "created_at": "2023-12-18 06:32:40",
+        "description": "持续更新poc/exp,后续会加入yaml,敬请关注",
+        "commit_message": "20240328",
+        "commit_date": "2024-03-28 14:59:22"
     }
 }
