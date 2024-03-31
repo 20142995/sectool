@@ -1082,13 +1082,12 @@
         "release_message": "> 第一个发布版本，也是第七个大版本，就是这么奇怪:grin:\r\n#### :pushpin: Support\r\n\r\n- [x] Support system tray\r\n- [x] Support project management\r\n- [x] Support configuration management\r\n- [x] Support template management\r\n- [x] Support template editing\r\n- [x] Support internationalization, default `zh`\r\n- [x] Support multiple network space engine interface search\r\n\r\n**Full Changelog**: https://github.com/Yong-An-Dang/nuclei-plus/commits/v7.0.0"
     },
     "https://github.com/Threekiii/Vulnerability-Wiki": {
-        "created_at": "",
-        "description": "",
-        "commit_date": "2024-02-26 09:11:49",
-        "commit_message": "update cmsms & coldfusion & confluence & jenkins & teamcity & metersphere",
-        "release_tag": "",
-        "release_date": "",
-        "release_message": ""
+        "created_at": "2022-07-12 06:11:38",
+        "description": "基于 docsify 部署，目前漏洞数量 1000+",
+        "commit_message": "update opentsdb cve-2020-35476 & cve-2023-25826",
+        "commit_date": "2024-03-07 09:30:14",
+        "release_date": "2022-07-15 01:58:00",
+        "release_message": "Vulnerability-Wiki项目中docs-0sec的打包文件，下载后于主项目docs-0sec文件夹下解压即可。\r\n\r\n\r\n"
     },
     "https://github.com/RoomaSec/RmTools": {
         "created_at": "",
@@ -4238,7 +4237,7 @@
         "created_at": "2021-10-13 11:34:53",
         "description": "v2ray节点、免费节点、免费v2ray节点、最新公益免费v2ray节点订阅地址、免费v2ray节点每日更新、免费ss/v2ray/trojan节点、freefq ",
         "commit_message": "update",
-        "commit_date": "2024-03-22 12:33:04"
+        "commit_date": "2024-03-30 12:31:01"
     },
     "https://github.com/QAX-A-Team/sharpwmi": {
         "created_at": "2020-04-08 05:50:21",
@@ -6384,8 +6383,8 @@
     "https://github.com/ufrisk/MemProcFS": {
         "created_at": "2024-03-03 11:07:17",
         "description": "MemProcFS",
-        "commit_message": "Version 5.9.5",
-        "commit_date": "2024-03-20 22:40:07",
+        "commit_message": "Update Readme",
+        "commit_date": "2024-03-26 23:22:38",
         "release_date": "2024-03-03 11:08:21",
         "release_message": "* Bug fixes.\r\n* Module improvements: ntfs, procinfo, web.\r\n* C# API: improvements.\r\n* Java API: support for java.lang.foreign (JDK21+) for efficient memory accesses.\r\n* Linux PCIe FPGA performance improvements.\r\n* FindEvil: Triggered Yara rules are now shown.\r\n* FindEvil: AV detections from Windows Defender residing on the analyzed system.\r\n* Python API: new functionality (multi-read, type-read) and improved scatter read performance.\r\n* Support for Proxmox memory dump files.\r\n\r\nFor previous release builds see the [release archive](https://github.com/ufrisk/MemProcFS/releases/tag/v5_archive)."
     },
@@ -6488,8 +6487,8 @@
     "https://github.com/horsicq/DIE-engine": {
         "created_at": "2023-12-28 19:55:00",
         "description": "DIE engine",
-        "commit_message": "Update module: XShortcuts 2024-03-27",
-        "commit_date": "2024-03-26 23:41:22",
+        "commit_message": "Update module: XArchive 2024-03-30",
+        "commit_date": "2024-03-29 23:12:34",
         "release_date": "2023-12-28 21:22:21",
         "release_message": "Please see the file [CHANGELOG](https://github.com/horsicq/Detect-It-Easy/blob/master/changelog.txt) for a detailed list of changes.\r\n\r\n\r\n| Asset / File | Description / Host OS |\r\n| ----------- | ----------- |\r\n| [die_sourcecode_3.09.tar.gz](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_sourcecode_3.09.tar.gz) | Source code tarball |\r\n| [Detect_It_Easy-3.09-x86_64.AppImage](https://github.com/horsicq/DIE-engine/releases/download/3.09/Detect_It_Easy-3.09-x86_64.AppImage) | Portable version for Linux [How to run](https://github.com/horsicq/Detect-It-Easy/blob/master/docs/RUN.md) |\r\n| [die_3.09_Debian_10_amd64.deb](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_Debian_10_amd64.deb) | Installer for Debian 10 |\r\n| [die_3.09_Debian_11_amd64.deb](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_Debian_11_amd64.deb) | Installer for Debian 11 |\r\n| [die_3.09_Debian_12_amd64.deb](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_Debian_12_amd64.deb) | Installer for Debian 12 |\r\n| [die_3.09_Ubuntu_14.04_amd64.deb](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_Ubuntu_14.04_amd64.deb) | Installer for Ubuntu 14.04 |\r\n| [die_3.09_Ubuntu_16.04_amd64.deb](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_Ubuntu_16.04_amd64.deb) | Installer for Ubuntu 16.04 |\r\n| [die_3.09_Ubuntu_18.04_amd64.deb](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_Ubuntu_18.04_amd64.deb) | Installer for Ubuntu 18.04 |\r\n| [die_3.09_Ubuntu_20.04_amd64.deb](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_Ubuntu_20.04_amd64.deb) | Installer for Ubuntu 20.04 |\r\n| [die_3.09_Ubuntu_22.04_amd64.deb](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_Ubuntu_22.04_amd64.deb) | Installer for Ubuntu 22.04 |\r\n| [die_3.09_Ubuntu_22.10_amd64.deb](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_Ubuntu_22.10_amd64.deb) | Installer for Ubuntu 22.10 |\r\n| [die_3.09_Ubuntu_23.04_amd64.deb](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_Ubuntu_23.04_amd64.deb) | Installer for Ubuntu 23.04 |\r\n| [die_3.09_Ubuntu_23.10_amd64.deb](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_Ubuntu_23.10_amd64.deb) | Installer for Ubuntu 23.10 |\r\n| [die_3.09_Kali_2023.4_amd64](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_Kali_2023.4_amd64) | Installer for Kali 2023.4 |\r\n| [die_3.09_Parrot_5.3_amd64.deb](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_Parrot_5.3_amd64.deb) | Installer for Parrot 5.3 |\r\n| [die_3.09_portable_Ubuntu_20.04_amd64.tar.gz](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_portable_Ubuntu_20.04_amd64.tar.gz) | Portable version for Ubuntu 20.04 |\r\n| [detect-it-easy-3.09-1-x86_64.pkg.tar.zst](https://github.com/horsicq/DIE-engine/releases/download/3.09/detect-it-easy-3.09-1-x86_64.pkg.tar.zst) | Installer for Arch Linux |\r\n| [die_mac_3.09_x86_64.pkg](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_mac_3.09_x86_64.pkg) | Installer for macOS |\r\n| [die_mac_qt6_3.09_arm64.pkg](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_mac_qt6_3.09_arm64.pkg) | Installer for macOS Qt6 M1 processor|\r\n| [die_mac_portable_3.09_x86_64.zip](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_mac_portable_3.09_x86_64.zip) | Portable version for macOS |\r\n| [die_win32_portable_3.09_x86.zip](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_win32_portable_3.09_x86.zip) | Portable version for x86 Win32 (Win7-Win11)|\r\n| [die_win64_portable_3.09_x64.zip](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_win64_portable_3.09_x64.zip) | Portable version for x64 Win64 (Win7-Win11) |\r\n| [die_winxp_portable_3.09_x86.zip](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_winxp_portable_3.09_x86.zip) | Portable version for Windows XP (WinXP-Win11) |\r\n\r\n\r\nExperimental versions - There may be bugs in the GUI\r\n\r\n| Asset / File | Description / Host OS |\r\n| ----------- | ----------- |\r\n| [die_win64_qt6_portable_3.09_x64.zip](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_win64_qt6_portable_3.09_x64.zip) | Portable version for x64 Win64 Qt6 (Win10-Win11)|\r\n"
     },
@@ -10512,13 +10511,12 @@
         "release_message": ""
     },
     "https://github.com/BishopFox/sliver": {
-        "created_at": "",
-        "description": "",
-        "commit_date": "2024-02-15 23:41:19",
-        "commit_message": "Merge pull request #1572 from BishopFox/v1.6.0/remove-legacy-DLL-extension-support\n\nRemoving support for legacy DLL extensions",
-        "release_tag": "",
-        "release_date": "",
-        "release_message": ""
+        "created_at": "2024-02-28 19:43:18",
+        "description": "Adversary Emulation Framework",
+        "commit_message": "Merge pull request #1617 from BishopFox/fix-msf-stager\n\nFix hang when calling generate stager",
+        "commit_date": "2024-03-27 14:36:32",
+        "release_date": "2024-02-28 20:00:27",
+        "release_message": "Fix for DNS C2, and other small backports. Hoping to have a v1.6 release soon with many more updates!"
     },
     "https://github.com/worawit/CVE-2019-0708": {
         "created_at": "2019-12-07 10:13:11",
@@ -19317,12 +19315,12 @@
         "commit_message": "Merge pull request #5 from ar7z1/fix-link-to-microsoft-advisory\n\nFix link to Microsoft advisory"
     },
     "https://github.com/jumpserver/jumpserver": {
-        "created_at": "2024-03-19 06:59:06",
+        "created_at": "2024-03-26 03:42:08",
         "description": "JumpServer 是广受欢迎的开源堡垒机，是符合 4A 规范的专业运维安全审计系统。",
-        "commit_message": "fix: tcpdump想捕捉所有ip时，空ip被解析成0.0.0.0，导致捕捉不到的问题",
-        "commit_date": "2024-03-22 09:31:03",
-        "release_date": "2024-03-19 09:17:15",
-        "release_message": "# 一、安装和升级\r\n\r\n## 1.1 在线方式 ✈️\r\n\r\n仅需两步快速安装 JumpServer：\r\n\r\n1. 准备一台 4核8G （最低）且可以访问互联网的 64 位 Linux 主机；\r\n2. 以 root 用户执行如下命令一键安装 JumpServer。\r\n\r\n国内用户\r\n``` sh\r\ncurl -sSL https://resource.fit2cloud.com/jumpserver/jumpserver/releases/latest/download/quick_start.sh | bash\r\n```\r\n\r\n海外用户\r\n``` sh\r\ncurl -sSL https://github.com/jumpserver/jumpserver/releases/latest/download/quick_start.sh | bash\r\n```\r\n\r\n## 1.2 离线方式 🚢 \r\n\r\n[离线安装包下载地址](https://community.fit2cloud.com/#/download/jumpserver/v3-10-6)\r\n\r\n详细安装和升级文档请参考：[完整文档](https://docs.jumpserver.org/zh/v3/) \r\n\r\n\r\n# 二、更新日志\r\n\r\n## 2.1 问题修复 🐛\r\n\r\n- fix: 修复使用 Token 连接资产特殊情况下报错的问题（当设置的登录资产规则中资源对象被删除时）\r\n- fix: 修复作业中心 Playbook 文件存在用户权限隔离不生效的问题\r\n- fix: 修复作业中心 Job、JobExecution 资源存在用户权限隔离不生效的问题"
+        "commit_message": "fix: gpt 配置取消长度限制 (#12907)\n\nCo-authored-by: feng <1304903146@qq.com>",
+        "commit_date": "2024-03-29 10:53:24",
+        "release_date": "2024-03-27 02:25:44",
+        "release_message": "# 一、安装和升级\r\n\r\n## 1.1 在线方式 ✈️\r\n\r\n仅需两步快速安装 JumpServer：\r\n\r\n1. 准备一台 4核8G （最低）且可以访问互联网的 64 位 Linux 主机；\r\n2. 以 root 用户执行如下命令一键安装 JumpServer。\r\n\r\n国内用户\r\n``` sh\r\ncurl -sSL https://resource.fit2cloud.com/jumpserver/jumpserver/releases/latest/download/quick_start.sh | bash\r\n```\r\n\r\n海外用户\r\n``` sh\r\ncurl -sSL https://github.com/jumpserver/jumpserver/releases/latest/download/quick_start.sh | bash\r\n```\r\n\r\n## 1.2 离线方式 🚢\r\n\r\n[离线安装包下载地址](https://community.fit2cloud.com/#/download/jumpserver/v3-10-7)\r\n\r\n详细安装和升级文档请参考：[完整文档](https://docs.jumpserver.org/zh/v3/) \r\n\r\n\r\n# 二、更新日志\r\n\r\n## 2.1 问题修复 🐛\r\n\r\n- fix: 修复 Celery 定时任务偶尔不执行的问题\r\n- fix: 修复 JumpServer 作业管理中 Ansible Playbook 文件存在 JinJa2 模版代码注入导致的 Celery 容器远程执行的漏洞\r\n- fix: 修复 JumpServer 作业管理中 Ansible Playbook 文件存在参数验证缺陷导致的 Celery 容器远程执行的漏洞\r\n- fix: 修复 Oracle 数据库使用 Service name 连接报错的问题（Chen）【企业版】"
     },
     "https://github.com/random-robbie/cve-2020-0688": {
         "created_at": "2020-02-25 23:44:16",
@@ -22510,13 +22508,8 @@
         "release_message": ""
     },
     "https://github.com/LC044/WeChatMsg": {
-        "created_at": "",
-        "description": "",
-        "commit_date": "2024-02-23 09:09:45",
-        "commit_message": "update readme",
-        "release_tag": "",
-        "release_date": "",
-        "release_message": ""
+        "created_at": "2023-01-11 05:03:49",
+        "description": "提取微信聊天记录，将其导出成HTML、Word、CSV文档永久保存，对聊天记录进行分析生成年度聊天报告"
     },
     "https://github.com/netero1010/ClipboardHistoryThief": {
         "created_at": "2023-04-15 07:08:48",
@@ -22591,13 +22584,12 @@
         "release_message": "1、新增自行实现的HTTP请求方法，支持代理模式，方便错误排查\r\n2、重写myjsdati.java类，删除实现接口"
     },
     "https://github.com/10cks/fofaEX": {
-        "created_at": "",
-        "description": "",
-        "commit_date": "2024-01-26 05:55:21",
+        "created_at": "2024-01-25 03:23:01",
+        "description": "FOFA EX 是一款基于fofa api（也可导入鹰图、夸克文件）实现的红队综合利用工具，可基于模板把工具作为插件进行集成，自动化进行资产探测，目前提供的插件功能如下：探活、 nuclei 模板扫描、IP反查域名、域名反查 ICP 备案、dismap 指纹扫描",
         "commit_message": "Update README.md",
-        "release_tag": "",
-        "release_date": "",
-        "release_message": ""
+        "commit_date": "2024-03-18 01:39:18",
+        "release_date": "2024-01-25 03:26:17",
+        "release_message": "# 更新\r\n\r\n1. 提供资产探测流程执行自动化\r\n2. 提供更多的插件：[插件下载地址](https://github.com/10cks/fofaEX_PublicPlugins)\r\n3. 提供打开文件支持更多格式（csv/json/xlsx），数据与插件直接对接，可执行自动化\r\n\r\n# bug 修复\r\n\r\n修复mac设置问题"
     },
     "https://github.com/session-replay-tools/tcpburn": {
         "created_at": "2013-09-09 06:13:56",
@@ -23248,8 +23240,8 @@
     "https://github.com/RVC-Boss/GPT-SoVITS": {
         "created_at": "2024-01-14 18:05:21",
         "description": "1 min voice data can also be used to train a good TTS model! (few shot voice cloning)",
-        "commit_message": "Update README (#827)\n\nUpdate README.md\r\nUpdate some outdated file paths and commands",
-        "commit_date": "2024-03-21 14:28:03"
+        "commit_message": "Make API Great Again (#894)\n\n* Add zh/jp/en mix\r\n\r\n* Optimize code readability and formatted output.\r\n\r\n* Try OGG streaming\r\n\r\n* Add stream mode arg\r\n\r\n* Add media type arg\r\n\r\n* Add cut punc arg\r\n\r\n* Eliminate punc risk",
+        "commit_date": "2024-03-30 07:48:58"
     },
     "https://github.com/djytmdj/Network-security-study-notes": {
         "created_at": "2023-07-25 06:13:25",
@@ -24466,8 +24458,8 @@
         "description": "魅族安全中心"
     },
     "https://sec.vip.com/": {
-        "status_code": 503,
-        "description": ""
+        "status_code": 200,
+        "description": "VSRC首页-唯品会信息安全中心"
     },
     "https://sec.wacai.com/": {
         "status_code": 200,
@@ -25655,8 +25647,8 @@
     "https://github.com/zaproxy/zaproxy": {
         "created_at": "2023-10-12 16:02:55",
         "description": "The ZAP core project",
-        "commit_message": "Merge pull request #8420 from thc202/rm-chalk-docker\n\nRemove chalk/sign from weekly Docker image",
-        "commit_date": "2024-03-25 17:43:11",
+        "commit_message": "Merge pull request #8412 from kingthorin/tag-json\n\nregex tag scanner: Add initial test for detection/tagging of json responses",
+        "commit_date": "2024-03-28 18:05:53",
         "release_date": "2023-10-12 16:40:31",
         "release_message": "Release notes: https://www.zaproxy.org/docs/desktop/releases/2.14.0/\r\n\r\n---\r\n| File | Checksum (SHA-256) |\r\n|---|---|\r\n| [ZAP_2.14.0.dmg](https://github.com/zaproxy/zaproxy/releases/download/v2.14.0/ZAP_2.14.0.dmg) | `3b9862a647b1c5c26d6917f2316113dfaceac06bdb79ad3f2c96e0cbd73861f7` |\r\n| [ZAP_2.14.0_aarch64.dmg](https://github.com/zaproxy/zaproxy/releases/download/v2.14.0/ZAP_2.14.0_aarch64.dmg) | `fb3369338252e22470bb38d120233bd9857119806f9f8be681f985e6a5174847` |\r\n| [ZAP_2.14.0_Core.zip](https://github.com/zaproxy/zaproxy/releases/download/v2.14.0/ZAP_2.14.0_Core.zip) | `26006030acd67613d5ed8a9cc57ab36b11777ef8085f8aa5edcada64fb656735` |\r\n| [ZAP_2.14.0_Crossplatform.zip](https://github.com/zaproxy/zaproxy/releases/download/v2.14.0/ZAP_2.14.0_Crossplatform.zip) | `8bc475c2f1976446e2ec37b9bacaeed0a1281185988e689a24187b9c60aa57dd` |\r\n| [ZAP_2.14.0_Linux.tar.gz](https://github.com/zaproxy/zaproxy/releases/download/v2.14.0/ZAP_2.14.0_Linux.tar.gz) | `219d7f25bbe25247713805ab02cc12279898c870743c1aae3c2b0b1882191960` |\r\n| [ZAP_2_14_0_unix.sh](https://github.com/zaproxy/zaproxy/releases/download/v2.14.0/ZAP_2_14_0_unix.sh) | `fb33573bc9ffb4598fe541287d4755062fee2eea26ec5d11102f7671d083c37f` |\r\n| [ZAP_2_14_0_windows-x32.exe](https://github.com/zaproxy/zaproxy/releases/download/v2.14.0/ZAP_2_14_0_windows-x32.exe) | `5dae52e27da12fba5115e40ebc0cd2da24f6d9ba91608a7b0b7b254984a0b798` |\r\n| [ZAP_2_14_0_windows.exe](https://github.com/zaproxy/zaproxy/releases/download/v2.14.0/ZAP_2_14_0_windows.exe) | `df49ffbd14cf82cde5ac06902615e40cbfce1576f866436366708c0845eb9ec6` |\r\n| [bom.json](https://github.com/zaproxy/zaproxy/releases/download/v2.14.0/bom.json) | `f4085a07a1164a0c6b8169a1ad28f3a46a13c6a5ffac06ce82ef9ebdc321c949` |\r\n"
     },
@@ -26140,11 +26132,11 @@
         "commit_date": "2016-01-02 11:04:22"
     },
     "https://github.com/deepfence/ThreatMapper": {
-        "created_at": "2024-03-26 14:35:36",
+        "created_at": "2024-03-30 13:57:10",
         "description": "Open source cloud native security observability platform. Linux, K8s, AWS Fargate and more.",
-        "commit_message": "Update listing with threatintel-2024-03-27_00-17-03",
-        "commit_date": "2024-03-27 00:34:57",
-        "release_date": "2024-03-27 00:34:51",
+        "commit_message": "Update listing with threatintel-2024-03-31_00-06-11",
+        "commit_date": "2024-03-31 00:25:20",
+        "release_date": "2024-03-31 00:25:15",
         "release_message": ""
     },
     "https://github.com/BlackHole1/autoFindXssAndCsrf": {
@@ -26338,5 +26330,43 @@
         "description": "持续更新poc/exp,后续会加入yaml,敬请关注",
         "commit_message": "20240328",
         "commit_date": "2024-03-28 14:59:22"
+    },
+    "https://github.com/python-security/pyt": {
+        "created_at": "2018-11-01 16:01:20",
+        "description": "A Static Analysis Tool for Detecting Security Vulnerabilities in Python Web Applications",
+        "commit_message": ":mortar_board: Add mention of Pysa tutorial\n\nhttps://github.com/facebook/pyre-check/tree/master/pysa_tutorial#pysa-tutorial",
+        "commit_date": "2020-03-08 21:43:06",
+        "release_date": "2018-11-01 16:02:57",
+        "release_message": ""
+    },
+    "https://github.com/charonlight/RuoYiExploitGUI": {
+        "created_at": "2024-03-03 13:01:32",
+        "description": "若依最新定时任务SQL注入可导致RCE漏洞的一键利用工具",
+        "commit_message": "Update README.md",
+        "commit_date": "2024-03-03 13:01:32",
+        "release_date": "2024-03-03 13:02:53",
+        "release_message": "若依最新定时任务SQL注入可导致RCE漏洞的一键利用工具"
+    },
+    "https://github.com/bit4woo/Fiora": {
+        "created_at": "2022-01-01 12:16:03",
+        "description": "Fiora：漏洞PoC框架Nuclei的图形版。快捷搜索PoC、一键运行Nuclei。即可作为独立程序运行，也可作为burp插件使用。",
+        "commit_message": "Delete .github/workflows/main.yml",
+        "commit_date": "2023-12-22 02:56:41",
+        "release_date": "2022-01-01 12:16:56",
+        "release_message": "该项目为PoC框架nuclei提供图形界面，实现快速搜索、一键运行等功能，提升nuclei的使用体验。"
+    },
+    "https://github.com/WangYihang/USB-Mouse-Pcap-Visualizer": {
+        "created_at": "2017-04-04 21:00:40",
+        "description": "USB mouse traffic packet forensic tool, mainly used to draw mouse movements and dragging trajectories",
+        "commit_message": "fix: add custom cursor div",
+        "commit_date": "2024-03-13 15:11:42"
+    },
+    "https://github.com/AabyssZG/Web-SurvivalScan": {
+        "created_at": "2023-12-21 06:01:17",
+        "description": "对Web渗透项目资产进行快速存活验证",
+        "commit_message": "Update README.md",
+        "commit_date": "2023-12-21 06:01:17",
+        "release_date": "2023-12-21 06:02:37",
+        "release_message": "# 更新日志\r\n\r\n- 新增支持批量访问固定路径（验证简单漏洞的时候巨有效）\r\n- 优化了部分工作流\r\n\r\n**如果这个工具帮助到了你，欢迎赏个Star~哈哈**"
     }
 }
