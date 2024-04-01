@@ -213,10 +213,12 @@
         "release_message": ""
     },
     "https://github.com/Threekiii/Vulhub-Reproduce": {
-        "created_at": "2022-03-03 08:38:29",
+        "created_at": "2024-03-07 09:30:57",
         "description": "一个Vulhub漏洞复现知识库",
-        "commit_message": "update opentsdb cve-2020-35476 & cve-2023-25826",
-        "commit_date": "2024-03-07 09:30:57"
+        "commit_message": "本项目已存档",
+        "commit_date": "2024-03-27 14:20:47",
+        "release_date": "2024-03-27 14:21:31",
+        "release_message": "本项目已存档"
     },
     "https://github.com/akkuman/rotateproxy": {
         "created_at": "2021-10-18 02:10:27",
@@ -520,13 +522,10 @@
         "release_message": "1. 默认多线程,解决扫描过慢的问题\r\n2. key可在config.yml自定义,解决有些用户觉得key太少的问题\r\n3. 性能优化,代码优化\r\n4. 添加各种配置项在config.yml自定义\r\n\r\n这个版本建议更新,对比旧版本性能更好!!!!\r\n\r\n最后面感谢大佬们一直以来的厚爱"
     },
     "https://github.com/knownsec/404StarLink": {
-        "created_at": "",
-        "description": "",
-        "commit_date": "2024-02-26 03:15:47",
-        "commit_message": "weekly update at 2024-02-26",
-        "release_tag": "",
-        "release_date": "",
-        "release_message": ""
+        "created_at": "2020-11-17 08:10:18",
+        "description": "404StarLink - 推荐优质、有意义、有趣、坚持维护的安全开源项目",
+        "commit_message": "weekly update at 2024-03-25",
+        "commit_date": "2024-03-25 03:18:46"
     },
     "https://github.com/gwen001/github-subdomains": {
         "created_at": "2020-07-24 06:54:29",
@@ -970,8 +969,8 @@
     "https://github.com/sqlmapproject/sqlmap": {
         "created_at": "2024-01-03 22:18:35",
         "description": "Automatic SQL injection and database takeover tool",
-        "commit_message": "Minor update",
-        "commit_date": "2024-03-04 14:39:58",
+        "commit_message": "Patch related to the #5669",
+        "commit_date": "2024-03-29 21:24:20",
         "release_date": "2024-01-03 22:20:06",
         "release_message": "Stable version 1.8 ([changeset](https://github.com/sqlmapproject/sqlmap/compare/1.7...1.8))"
     },
@@ -1886,12 +1885,12 @@
         "release_message": "修复服务器开启端口问题"
     },
     "https://github.com/hiroi-sora/Umi-OCR": {
-        "created_at": "2024-02-28 16:06:44",
+        "created_at": "2024-03-29 13:18:24",
         "description": "OCR software, free and offline. 开源、免费的离线OCR软件。支持截屏/批量导入图片，PDF文档识别，排除水印/页眉页脚，扫描/生成二维码。内置多国语言库。",
-        "commit_message": "优化UI：渲染器不兼容时，避免折叠菜单越界的渲染错误。",
-        "commit_date": "2024-03-21 08:48:54",
-        "release_date": "2024-02-28 16:06:57",
-        "release_message": "## 重大更新：\r\n\r\n- **批量文档识别**。支持 `pdf, epub, mobi` 等多种格式的文档，对扫描件进行OCR或提取原有文本。可输出为 **双层可搜索PDF** 。\r\n- 更强大的 **排版解析** 功能，代替之前的**段落合并**。基于 [间隙树排序算法](https://github.com/hiroi-sora/GapTree_Sort_Algorithm) ，解析多栏布局图片与文档时有较好的精度。\r\n- HTTP接口参数作出了部分改动，并提供了一些更方便的选项。有需要的用户请重新参考 [README_HTTP.md](https://github.com/hiroi-sora/Umi-OCR/blob/main/docs/README_HTTP.md) 。\r\n\r\n### ⚠ Windows 7 及低配电脑用户注意：\r\n\r\n> **文档识别**可能在Win7、或极低配电脑（如双核CPU）中出现**异常**，如无法识别PDF文件。目前已进行初步修复，将在下个版本中改善该问题。\r\n> 其他功能在Win7上不受影响。\r\n\r\n### 其它更新内容：\r\n\r\n- 新增：允许隐藏托盘图标。 (#338)\r\n- 新增：重复上一次截图区域的快捷键。 (#357)\r\n- 新增：用本地图片浏览器打开图片的快捷按钮。 (#335)\r\n- 修复：避免系统环境变量`QMLSCENE_DEVICE`的影响。 (#270)\r\n- 修复一些小问题，优化一些UI表现与提示语。\r\n\r\n<img src=\"https://github.com/hiroi-sora/Umi-OCR/assets/56373419/4726fb3e-9acf-42d9-847a-3006552929d1\" width=\"750\">\r\n\r\n### Help us translate / 帮助我们翻译！\r\n\r\nWe warmly invite translators to join us in our project's localization efforts!\r\nYou can review existing translations or contribute new ones.\r\nPlease visit the online platform Weblate at:\r\n**https://hosted.weblate.org/engage/umi-ocr/**\r\n\r\n### 配置文件迁移\r\n\r\nUmi-OCR v2 用户升级时，将旧版软件的`UmiOCR-data/.settings`拷贝到新版相同位置即可。\r\n\r\n### 下载说明\r\n\r\n不同版本仅OCR引擎插件不同，其它功能完全一致。\r\n均支持 win7 x64 及以上的系统，附带多国语言识别库。\r\n\r\n`.7z.exe`为自解压包，可以用压缩软件打开，也可以在没有安装压缩软件的电脑上直接双击解压。\r\n\r\n### Paddle 引擎插件版\r\n\r\n（性能好，速度快，占用率高，适合高配机器。**不兼容奔腾、赛扬、凌动CPU**）\r\n\r\n**重要提示：如果执行OCR时报错`[Error] OCR init fail`，大概率是CPU不兼容Paddle，请换用Rapid版本。**\r\n\r\n**Umi-OCR_Paddle_v2.1.0.7z.exe** （128MB）\r\nSHA256: `5349728289f353a25b5f570fe11795bb60d80c1df419bcc9977899b6c1c723a6`\r\n\r\n### Rapid 引擎插件版\r\n\r\n（速度稍慢，内存占用低，适合低配机器，兼容性好）\r\n\r\n**Umi-OCR_Rapid_v2.1.0.7z.exe** （97MB）\r\nSHA256: `6460148b3b8fcdfb447ed8984a9c2fa232ca0cd156d8352f47d1841b2e3614ac`\r\n\r\n## 更多插件\r\n\r\n前往 [Umi-OCR_插件仓库](https://github.com/hiroi-sora/Umi-OCR_plugins) ，下载更多OCR插件，获取`离线数学公式识别`等附加功能。\r\n\r\n\r\n[![Download Umi-OCR](https://a.fsdn.com/con/app/sf-download-button)](https://sourceforge.net/projects/umi-ocr/files/release_2.1.0/)"
+        "commit_message": "update docs",
+        "commit_date": "2024-03-29 14:13:45",
+        "release_date": "2024-03-29 13:29:20",
+        "release_message": "# 两周年 & 两万星星撒花！\r\n\r\nCelebrating the two-year anniversary of this project and reaching 20k stars!\r\n\r\n<details>\r\n<summary>作者的话</summary>\r\n\r\n两年前，有个人试图寻找一个免费的、无需注册、开箱即用、支持批量处理且不限制数量的OCR软件。可惜，当时没有软件满足他的需求。于是，他一拍脑袋，花了几个日夜，自己写了个软件原型。那就是 Umi-OCR [v1.0](https://github.com/hiroi-sora/Umi-OCR/releases/tag/v1.0) 。\r\n\r\n没想到这个项目还挺受大家欢迎，于是他就一直维护更新下去。在用户的建议下，Umi 的功能越来越丰富，有了截图，现代化UI，二维码，PDF识别，HTTP接口……从1k行代码的小demo，历经两年迭代，到如今20k+行；Umi 逐渐变成一个较为成熟完整的项目。\r\n\r\n未来，Umi 会继续完善现有功能、开发新的功能。受限于作者的业余时间和精力，项目更新的速度可能不会很快，还请给予耐心。本项目始终在稳步前进，历史上大多数Issues反馈和请求，最终都落到了实处。\r\n\r\n（下一步，我将对软件底层的插件机制做出较大的调整和重构，以便为表格识别、图片翻译、原生Linux支持 等大型功能铺平道路。）\r\n\r\n感谢各位用户、开发者、翻译者的支持。感谢我自己的坚持。\r\n\r\n—— by hiroi-sora\r\n\r\n---\r\n\r\n</details>\r\n\r\n\r\n## v2.1.1 主要更新 / Changelog\r\n\r\n- 修复：Windows7及低端CPU无法进行文档识别的Bug。\r\n- 新增：批量文档识别允许指定忽略区域的页数范围。\r\n- 新增：命令行`--path`允许传入多个图片或文件夹。👉[命令行手册](https://github.com/hiroi-sora/Umi-OCR/blob/main/docs/README_CLI.md)\r\n- 新增：新的命令行、HTTP接口：识别/生成二维码图像。👉[HTTP手册](https://github.com/hiroi-sora/Umi-OCR/blob/main/docs/README_HTTP.md)\r\n- 优化：双栏面板会记忆左右折叠状态。\r\n- 完善 繁+英+日 界面本地化翻译。感谢 [翻译人员](https://github.com/hiroi-sora/Umi-OCR?tab=readme-ov-file#%E8%BD%AF%E4%BB%B6%E6%9C%AC%E5%9C%B0%E5%8C%96%E7%BF%BB%E8%AF%91) 。\r\n\r\n<details>\r\n<summary>次要更新：（点击展开）</summary>\r\n\r\n- 新增：命令行新指令 `--output`, `--output_append`, `--clip` 。\r\n- 新增：清空全部识别记录的快捷键。 (#420)\r\n- 新增：截图预览 删除图片显示的选项和快捷键。 (#427)\r\n- 优化：开始菜单/开机自启快捷方式，默认放置于用户目录下，避免请求管理员权限。 (#428)\r\n- 优化：保存双层PDF，在没有新文本写入时的处理逻辑。 (#416)\r\n- 优化：PDF解析时，提取原有文本行的逻辑更准确。\r\n- 修复：Esc取消截图的消息传递错误。 (#402)\r\n- 修复：文档`整页强制OCR`模式下，提高小尺寸页面的渲染精度。\r\n- UI：优化一些提示，修复一些渲染问题，美化一些视觉效果。\r\n\r\n</details>\r\n\r\n#### Windows7 用户注意： [常见问题及修复方法](https://github.com/hiroi-sora/Umi-OCR/issues/447)\r\n\r\n---\r\n\r\n### 配置文件迁移 / Configuration file migration\r\n\r\nUmi-OCR v2 用户升级时，将旧版软件的`UmiOCR-data/.settings`拷贝到新版相同位置即可。\r\n\r\nCopy the `UmiOCR-data/.settings` from the old version of the software to the same location in the new version.\r\n\r\n### 下载说明 / Download Instructions\r\n\r\n不同版本仅OCR引擎插件不同，其它功能完全一致。\r\n均支持 win7 x64 及以上的系统，附带多国语言识别库。\r\n\r\n`.7z.exe`为自解压包，可以用压缩软件打开，也可以在没有安装压缩软件的电脑上直接双击解压。\r\n\r\n### Paddle 引擎插件版\r\n\r\n（性能好，速度快，占用率高，适合高配机器。**不兼容奔腾、赛扬、凌动CPU**）\r\n\r\n**重要提示：如果执行OCR时报错`[Error] OCR init fail`，大概率是CPU不兼容Paddle，请换用Rapid版本。**\r\n\r\n**Umi-OCR_Paddle_v2.1.0.7z.exe** （129MB）\r\nSHA256: `53e144b07c3ddfc1038e16926912de75c8212840c84cd56713f9e93ecc22e753`\r\n\r\n### Rapid 引擎插件版\r\n\r\n（速度稍慢，内存占用低，适合低配机器，兼容性好）\r\n\r\n**Umi-OCR_Rapid_v2.1.0.7z.exe** （97.1MB）\r\nSHA256: `09f10d04bd1915ad67a76e57e54adad781a295e8bbf64c7a3e7207f056cafee6`\r\n\r\n## 更多插件 / Plugins\r\n\r\n前往 [Umi-OCR_插件仓库](https://github.com/hiroi-sora/Umi-OCR_plugins) ，下载更多OCR插件，获取`离线数学公式识别`等附加功能。\r\n\r\nVisit the [Umi-OCR_Plugins](https://github.com/hiroi-sora/Umi-OCR_plugins) to download more OCR plugins and acquire additional features such as `Offline Mathematical Formula Recognition`.\r\n\r\n---\r\n\r\n更多下载途径： [蓝奏云](https://hiroi-sora.lanzoul.com/s/umi-ocr) | [SourceForge](https://sourceforge.net/projects/umi-ocr/files/release_2.1.1/)\r\n\r\n[![Download Umi-OCR](https://a.fsdn.com/con/app/sf-download-button)](https://sourceforge.net/projects/umi-ocr/files/release_2.1.1/)"
     },
     "https://github.com/qianxiao996/CTF-Tools": {
         "created_at": "2020-01-07 05:58:51",
@@ -2673,13 +2672,12 @@
         "release_message": ""
     },
     "https://github.com/madneal/gshark": {
-        "created_at": "",
-        "description": "",
-        "commit_date": "2024-02-03 12:22:59",
-        "commit_message": "add postman search in request",
-        "release_tag": "",
-        "release_date": "",
-        "release_message": ""
+        "created_at": "2024-03-23 10:23:15",
+        "description": "Scan for sensitive information easily and effectively.",
+        "commit_message": "Update README.md",
+        "commit_date": "2024-03-31 01:19:06",
+        "release_date": "2024-03-23 10:42:35",
+        "release_message": "## Fixed\r\n\r\n* 修复数据库初始化的问题\r\n* 修复 Postman 搜索结果格式\r\n* 前端组件安全升级"
     },
     "https://github.com/kozmer/log4j-shell-poc": {
         "created_at": "2021-12-10 23:19:28",
@@ -3162,13 +3160,12 @@
         "release_message": ""
     },
     "https://github.com/joke2k/faker": {
-        "created_at": "",
-        "description": "",
-        "commit_date": "2024-02-16 15:34:32",
-        "commit_message": "Bump version: 23.2.0 → 23.2.1",
-        "release_tag": "",
-        "release_date": "",
-        "release_message": ""
+        "created_at": "2024-03-25 18:44:04",
+        "description": "Faker is a Python package that generates fake data for you.",
+        "commit_message": "Code Completion: Adding stub generator utility (and generated stub) (#1939)\n\n* Adding stub generator utility and generated stub.\r\n\r\n* Removing attributes from stub file and adding generate-stub recipe in Makefile\r\n\r\n* Making generate-stubs recipe a prereq to lint instead of release. Also adding ``make lint`` to the Contributing guide.\r\n\r\n---------\r\n\r\nCo-authored-by: Flavio Curella <89607+fcurella@users.noreply.github.com>",
+        "commit_date": "2024-03-27 15:37:02",
+        "release_date": "2024-03-25 19:00:14",
+        "release_message": "See [CHANGELOG.md](https://github.com/joke2k/faker/blob/refs/tags/v24.4.0/CHANGELOG.md)."
     },
     "https://github.com/NHPT/Xray_Cracked": {
         "created_at": "2022-08-10 13:51:19",
@@ -6487,8 +6484,8 @@
     "https://github.com/horsicq/DIE-engine": {
         "created_at": "2023-12-28 19:55:00",
         "description": "DIE engine",
-        "commit_message": "Update module: XArchive 2024-03-30",
-        "commit_date": "2024-03-29 23:12:34",
+        "commit_message": "Update module: Formats 2024-04-01",
+        "commit_date": "2024-03-31 23:26:17",
         "release_date": "2023-12-28 21:22:21",
         "release_message": "Please see the file [CHANGELOG](https://github.com/horsicq/Detect-It-Easy/blob/master/changelog.txt) for a detailed list of changes.\r\n\r\n\r\n| Asset / File | Description / Host OS |\r\n| ----------- | ----------- |\r\n| [die_sourcecode_3.09.tar.gz](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_sourcecode_3.09.tar.gz) | Source code tarball |\r\n| [Detect_It_Easy-3.09-x86_64.AppImage](https://github.com/horsicq/DIE-engine/releases/download/3.09/Detect_It_Easy-3.09-x86_64.AppImage) | Portable version for Linux [How to run](https://github.com/horsicq/Detect-It-Easy/blob/master/docs/RUN.md) |\r\n| [die_3.09_Debian_10_amd64.deb](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_Debian_10_amd64.deb) | Installer for Debian 10 |\r\n| [die_3.09_Debian_11_amd64.deb](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_Debian_11_amd64.deb) | Installer for Debian 11 |\r\n| [die_3.09_Debian_12_amd64.deb](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_Debian_12_amd64.deb) | Installer for Debian 12 |\r\n| [die_3.09_Ubuntu_14.04_amd64.deb](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_Ubuntu_14.04_amd64.deb) | Installer for Ubuntu 14.04 |\r\n| [die_3.09_Ubuntu_16.04_amd64.deb](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_Ubuntu_16.04_amd64.deb) | Installer for Ubuntu 16.04 |\r\n| [die_3.09_Ubuntu_18.04_amd64.deb](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_Ubuntu_18.04_amd64.deb) | Installer for Ubuntu 18.04 |\r\n| [die_3.09_Ubuntu_20.04_amd64.deb](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_Ubuntu_20.04_amd64.deb) | Installer for Ubuntu 20.04 |\r\n| [die_3.09_Ubuntu_22.04_amd64.deb](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_Ubuntu_22.04_amd64.deb) | Installer for Ubuntu 22.04 |\r\n| [die_3.09_Ubuntu_22.10_amd64.deb](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_Ubuntu_22.10_amd64.deb) | Installer for Ubuntu 22.10 |\r\n| [die_3.09_Ubuntu_23.04_amd64.deb](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_Ubuntu_23.04_amd64.deb) | Installer for Ubuntu 23.04 |\r\n| [die_3.09_Ubuntu_23.10_amd64.deb](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_Ubuntu_23.10_amd64.deb) | Installer for Ubuntu 23.10 |\r\n| [die_3.09_Kali_2023.4_amd64](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_Kali_2023.4_amd64) | Installer for Kali 2023.4 |\r\n| [die_3.09_Parrot_5.3_amd64.deb](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_Parrot_5.3_amd64.deb) | Installer for Parrot 5.3 |\r\n| [die_3.09_portable_Ubuntu_20.04_amd64.tar.gz](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_portable_Ubuntu_20.04_amd64.tar.gz) | Portable version for Ubuntu 20.04 |\r\n| [detect-it-easy-3.09-1-x86_64.pkg.tar.zst](https://github.com/horsicq/DIE-engine/releases/download/3.09/detect-it-easy-3.09-1-x86_64.pkg.tar.zst) | Installer for Arch Linux |\r\n| [die_mac_3.09_x86_64.pkg](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_mac_3.09_x86_64.pkg) | Installer for macOS |\r\n| [die_mac_qt6_3.09_arm64.pkg](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_mac_qt6_3.09_arm64.pkg) | Installer for macOS Qt6 M1 processor|\r\n| [die_mac_portable_3.09_x86_64.zip](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_mac_portable_3.09_x86_64.zip) | Portable version for macOS |\r\n| [die_win32_portable_3.09_x86.zip](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_win32_portable_3.09_x86.zip) | Portable version for x86 Win32 (Win7-Win11)|\r\n| [die_win64_portable_3.09_x64.zip](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_win64_portable_3.09_x64.zip) | Portable version for x64 Win64 (Win7-Win11) |\r\n| [die_winxp_portable_3.09_x86.zip](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_winxp_portable_3.09_x86.zip) | Portable version for Windows XP (WinXP-Win11) |\r\n\r\n\r\nExperimental versions - There may be bugs in the GUI\r\n\r\n| Asset / File | Description / Host OS |\r\n| ----------- | ----------- |\r\n| [die_win64_qt6_portable_3.09_x64.zip](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_win64_qt6_portable_3.09_x64.zip) | Portable version for x64 Win64 Qt6 (Win10-Win11)|\r\n"
     },
@@ -10179,13 +10176,12 @@
         "release_message": ""
     },
     "https://github.com/privacy-protection-tools/anti-AD": {
-        "created_at": "",
-        "description": "",
-        "commit_date": "2024-02-25 18:32:52",
+        "created_at": "2020-02-04 09:30:48",
+        "description": "致力于成为中文区命中率最高的广告过滤列表，实现精确的广告屏蔽和隐私保护。anti-AD现已支持AdGuardHome，dnsmasq， Surge，Pi-Hole，smartdns等网络组件。完全兼容常见的广告过滤工具所支持的各种广告过滤列表格式",
         "commit_message": "Auto renew the anti-AD list.",
-        "release_tag": "",
-        "release_date": "",
-        "release_message": ""
+        "commit_date": "2024-03-31 18:33:25",
+        "release_date": "2020-02-04 09:32:25",
+        "release_message": "- 引入无效域名、无效hosts剔除机制，大幅提升各过滤列表命中率\r\n- 为了更好的支持pi-hole，加入一个新的全域名列表 - `anti-ad-domains.txt`\r\n- 根据网友 [@xlighting2017](https://github.com/privacy-protection-tools/anti-AD/issues/29) 建议，更新surge到新的格式\r\n- 引入数个新的配置参数，对输出结果精确控制\r\n- 若干bug和逻辑修复"
     },
     "https://github.com/alpha1ab/CVE-2018-8120": {
         "created_at": "2018-06-07 08:30:07",
@@ -24278,13 +24274,12 @@
         "release_message": "Refer to the [CHANGELOG.md](https://github.com/jeremylong/DependencyCheck/blob/main/CHANGELOG.md#change-log) for information about improvements and upgrade notes."
     },
     "https://github.com/mrknow001/API-Explorer": {
-        "created_at": "",
-        "description": "",
-        "commit_date": "2024-01-24 05:06:25",
+        "created_at": "2024-01-24 06:26:49",
+        "description": "API接口管理工具(目前内置微信公众号、微信小程序、企业微信)",
         "commit_message": "Merge remote-tracking branch 'origin/main'",
-        "release_tag": "",
-        "release_date": "",
-        "release_message": ""
+        "commit_date": "2024-01-24 05:06:25",
+        "release_date": "2024-01-24 06:30:12",
+        "release_message": "**v1.0.1更新内容**\r\n\r\n1. 取消不能输入特殊字符\r\n\r\n**TIPS**\r\n打包exe分两版\r\n一个是文件大启动速度快(zip)\r\n一个是文件小启动速度慢(exe)\r\nPS：Python通病，实在想不到什么办法打包出来的exe又快又小\r\n\r\n需要将写好接口配置的数据库放在程序同目录下，数据库下载链接：https://github.com/mrknow001/API-Explorer/blob/main/ApiInfo.db"
     },
     "https://github.com/x364e3ab6/AWVS-13-SCAN-PLUS": {
         "created_at": "",
@@ -24458,8 +24453,8 @@
         "description": "魅族安全中心"
     },
     "https://sec.vip.com/": {
-        "status_code": 200,
-        "description": "VSRC首页-唯品会信息安全中心"
+        "status_code": 503,
+        "description": ""
     },
     "https://sec.wacai.com/": {
         "status_code": 200,
@@ -25457,8 +25452,8 @@
     "https://github.com/leondz/garak": {
         "created_at": "2024-02-20 14:23:06",
         "description": "LLM vulnerability scanner",
-        "commit_message": "Reduce Huggingface GPU utilization (#567)",
-        "commit_date": "2024-03-27 19:50:02",
+        "commit_message": "@codebrain001 has signed the CLA in leondz/garak#578",
+        "commit_date": "2024-03-30 12:52:27",
         "release_date": "2024-02-20 16:12:40",
         "release_message": "## What's Changed\r\n\r\n### plugins\r\n* New encoding probes by @zmackie in https://github.com/leondz/garak/pull/459\r\n* OpenAI upgrade by @erickgalinkin in https://github.com/leondz/garak/pull/477\r\n* Low Resource Languages Buff by @erickgalinkin in https://github.com/leondz/garak/pull/478\r\n* Add Rasa generator by @rgstephens in https://github.com/leondz/garak/pull/453\r\n* Tree of Attacks by @erickgalinkin in https://github.com/leondz/garak/pull/446\r\n\r\n### functionality improvements\r\n* support multiple buffs by @leondz in https://github.com/leondz/garak/pull/497\r\n* wrap exception printing in repr by @leondz in https://github.com/leondz/garak/pull/425\r\n* add generators.function docs & examples by @leondz in https://github.com/leondz/garak/pull/437\r\n* update doc indices, add test to check them by @leondz in https://github.com/leondz/garak/pull/450\r\n* fix & unify REST generator timeout param names; set default request timeout to 20s by @leondz in https://github.com/leondz/garak/pull/451\r\n* add test to keep requirements in sync by @leondz in https://github.com/leondz/garak/pull/465\r\n* docs for buffs by @leondz in https://github.com/leondz/garak/pull/466\r\n* autosearch in the configs/ subdir for configs (no yaml extension should be given) by @leondz in https://github.com/leondz/garak/pull/467\r\n* Update function.py by @erickgalinkin in https://github.com/leondz/garak/pull/500\r\n* add warning when using a lite/default profile by @leondz in https://github.com/leondz/garak/pull/476\r\n* rename default output dir to garak_runs/; by @leondz in https://github.com/leondz/garak/pull/488\r\n* update openai model list by @leondz in https://github.com/leondz/garak/pull/494\r\n* make test_openai generation tests skip if no OAI API key set by @leondz in https://github.com/leondz/garak/pull/491\r\n\r\n### fixes\r\n* html report now uses correct basedir by @leondz in https://github.com/leondz/garak/pull/439\r\n* typos & clarifications in rest generator by @leondz in https://github.com/leondz/garak/pull/436\r\n* update manifest by @leondz in https://github.com/leondz/garak/pull/454\r\n* Avoid divide by zero error by @erickgalinkin in https://github.com/leondz/garak/pull/458\r\n* Fix/test pytest-8.0.0 order by @leondz in https://github.com/leondz/garak/pull/472\r\n* Check & enable Python 3.12 support by @leondz in https://github.com/leondz/garak/pull/475\r\n* move pathlib uses to _config.transient.basedir by @leondz in https://github.com/leondz/garak/pull/499\r\n* catch & handle HF hub exceptions loading dataset for package hallucination by @leondz in https://github.com/leondz/garak/pull/470\r\n\r\n\r\n## New Contributors\r\n* @zmackie made their first contribution in https://github.com/leondz/garak/pull/459\r\n* @rgstephens made their first contribution in https://github.com/leondz/garak/pull/453\r\n\r\n**Full Changelog**: https://github.com/leondz/garak/compare/v0.9.0.11...v0.9.0.12"
     },
@@ -26368,5 +26363,53 @@
         "commit_date": "2023-12-21 06:01:17",
         "release_date": "2023-12-21 06:02:37",
         "release_message": "# 更新日志\r\n\r\n- 新增支持批量访问固定路径（验证简单漏洞的时候巨有效）\r\n- 优化了部分工作流\r\n\r\n**如果这个工具帮助到了你，欢迎赏个Star~哈哈**"
+    },
+    "https://github.com/TheRook/subbrute": {
+        "created_at": "2015-03-24 18:54:43",
+        "description": "A DNS meta-query spider that enumerates DNS records, and subdomains.",
+        "commit_message": "better!",
+        "commit_date": "2017-02-12 18:49:57",
+        "release_date": "2015-03-24 18:57:00",
+        "release_message": "Yeah so 1.2 had some trouble...\n\n# Whats new in v1.2.1?\n\nThe big news in this version is that SubBrute is now a recursive DNS-spider, and also a library,  more on this later. SubBrute should be easy to use, so the interface should be intuitive (like nmap!), if you would like the interface to change,  let us know.  In this version we are opening up SubBrute's fast DNS resolution pipeline for any DNS record type. Additionally, SubBrute now has a feature to detect subdomains were their resolution is intentionally blocked, which sometimes happens when the a subdomain cannot be externally resolved. \n- subbrute is now a DNS spider that recursively crawls enumerated DNS records. This feature boosted *.google.com from 123 to 162 subdomains. (Always enabled)\n- --type enumerate an arbitrary record type (AAAA, CNAME, SOA, TXT, MX...)\n- -s can now read subdomains from result files.\n- SubBrute is now a library: subbrute.run()\n- Restricted subdomain resolution detection\n- New useage -  The subdomains enumerated from previous scans can now be used as input to enumerate other DNS records.  The following commands demonstrate this new functionality:\n\n```\n    ./subbrute.py google.com -o google.names\n        ...162 subdomains found...\n\n    ./subbrute.py -s google.names google.com --type TXT\n        google.com,\"v=spf1 include:_spf.google.com ip4:216.73.93.70/31 ip4:216.73.93.72/31 ~all\"\n        adwords.google.com,\"v=spf1 redirect=google.com\"\n        ...\n\n    ./subbrute.py -s google.names google.com --type CNAME\n        blog.google.com,www.blogger.com,blogger.l.google.com\n        groups.google.com,groups.l.google.com\n        ...\n```\n\n-Do you want to use SubBrute in your python projects? Consider the new library interface:\n\n```\n    import subbrute\n\n    for d in subbrute.run(\"google.com\"):\n        print d \n```\n\nFeedback welcome.\n"
+    },
+    "https://github.com/yecp181/Frchannel": {
+        "created_at": "2024-01-22 09:55:15",
+        "description": "帆软bi反序列化漏洞利用工具",
+        "commit_message": "Update README.md",
+        "commit_date": "2024-01-24 11:29:31",
+        "release_date": "2024-01-24 10:30:57",
+        "release_message": "1"
+    },
+    "https://github.com/Manisso/fsociety": {
+        "created_at": "2016-09-01 03:41:47",
+        "description": "fsociety Hacking Tools Pack – A Penetration Testing Framework",
+        "commit_message": "Merge pull request #171 from Manisso/revert-159-master\n\nRevert \"converted code from python 2 to 3, fixed imports and lib refs,\"",
+        "commit_date": "2022-09-06 12:45:41"
+    },
+    "https://github.com/TheBeastofwar/linuxhacker": {
+        "created_at": "2023-11-18 06:06:03",
+        "description": "一款linux 内网渗透辅助工具",
+        "commit_message": "Update README.md",
+        "commit_date": "2024-01-31 12:29:05",
+        "release_date": "2023-11-18 06:12:56",
+        "release_message": "将交互型输入改为在命令行用-q参数输入\r\n"
+    },
+    "https://github.com/AYcg/poc": {
+        "created_at": "2023-11-16 03:41:45",
+        "description": null,
+        "commit_message": "Delete minio后台登录poc",
+        "commit_date": "2024-03-31 15:58:32"
+    },
+    "https://github.com/m0nad/HellRaiser": {
+        "created_at": "2016-06-20 04:51:00",
+        "description": "Vulnerability scanner using Nmap for scanning and correlating found CPEs with CVEs.",
+        "commit_message": "Merge pull request #165 from m0nad/dependabot/bundler/nokogiri-1.13.3\n\nBump nokogiri from 1.12.5 to 1.13.3",
+        "commit_date": "2022-02-26 13:10:19"
+    },
+    "https://github.com/vvmdx/Sec-Interview-4-2023": {
+        "created_at": "2022-02-18 07:36:35",
+        "description": "一个2023届毕业生在毕业前持续更新、收集的安全岗面试题及面试经验分享~",
+        "commit_message": "update.总共138篇了",
+        "commit_date": "2024-03-16 10:21:18"
     }
 }
