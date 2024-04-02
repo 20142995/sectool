@@ -200,8 +200,8 @@
     "https://github.com/ycdxsb/PocOrExp_in_Github": {
         "created_at": "2021-04-13 05:46:16",
         "description": "聚合Github上已有的Poc或者Exp，CVE信息来自CVE官网。Auto Collect Poc Or Exp from Github by CVE ID.",
-        "commit_message": "update 2024-03-26 06:09:54",
-        "commit_date": "2024-03-25 22:09:54"
+        "commit_message": "update 2024-04-02 06:30:41",
+        "commit_date": "2024-04-01 22:30:41"
     },
     "https://github.com/1n7erface/RequestTemplate": {
         "created_at": "",
@@ -1716,13 +1716,12 @@
         "release_message": "提供了三个`jar`文件：\r\n- `agent.jar`是核心文件，请保持与`gui.jar`或`remote.jar`同目录\r\n- `gui.jar`是GUI客户端，本地和远程分析都需要\r\n- `remote.jar`用于远程分析，本地分析无需下载"
     },
     "https://github.com/chaitin/veinmind-tools": {
-        "created_at": "",
-        "description": "",
-        "commit_date": "2024-01-10 09:08:30",
+        "created_at": "2023-07-23 09:26:45",
+        "description": "veinmind-tools 是由长亭科技自研，基于 veinmind-sdk 打造的容器安全工具集",
         "commit_message": "docs: update qr_code (#271)",
-        "release_tag": "",
-        "release_date": "",
-        "release_message": ""
+        "commit_date": "2024-01-10 09:08:30",
+        "release_date": "2023-07-26 06:26:19",
+        "release_message": "## 🔥 Feature\r\n* feat(veinmind-trace): add veinmind-trace plugin for detecting attack trace in container  by @DVKunion in #253 \r\n* feat(veinmind-backdoor): refactor backdoor go plugin  by @ek1ng in #252 \r\n* feat(veinmind-backdoor): add rootkit scan by @l2yyd5 in #256 \r\n\r\n## 📒 Others\r\n* chore(veinmind-backdoor): disabled python plugin and instead of go plugin by @DVKunion in #257 \r\n* chore(libveinmind): update libveinmind 1.9.42 by @DVKunion in #258 \r\n\r\n## 🎉 New Contributors\r\n* @l2yyd5 made their first contribution in #256 \r\n\r\n**Full Changelog**: https://github.com/chaitin/veinmind-tools/compare/v2.1.4...v2.1.5"
     },
     "https://github.com/cdk-team/CDK": {
         "created_at": "2020-11-05 09:18:51",
@@ -3018,13 +3017,12 @@
         "release_message": "- Added SNI support\r\n- Minor fixed and improvements"
     },
     "https://github.com/zan8in/afrog": {
-        "created_at": "",
-        "description": "",
-        "commit_date": "2024-02-23 09:41:44",
+        "created_at": "2024-03-16 02:51:02",
+        "description": "A Security Tool for Bug Bounty, Pentest and Red Teaming.",
         "commit_message": "update poc",
-        "release_tag": "",
-        "release_date": "",
-        "release_message": ""
+        "commit_date": "2024-03-27 00:49:41",
+        "release_date": "2024-03-16 02:55:48",
+        "release_message": "新增了 `-config` 参数，用于自定义 afrog-config.yaml 文件的目录。需要注意的是，每次执行扫描时都必须指定 `-config` 参数来指定目录，否则将读取默认位置的 afrog-config.yaml 配置文件。\r\n\r\nWe have added the `-config` parameter to support customizing the directory for the afrog-config.yaml file. Please note that it is necessary to specify the `-config` parameter each time you perform a scan; otherwise, the default afrog-config.yaml configuration file will be read."
     },
     "https://github.com/moonD4rk/HackBrowserData": {
         "created_at": "2020-06-18 03:24:31",
@@ -3928,13 +3926,12 @@
         "release_message": "## Network Flight Simulator v2.5.0 (2023-07-31)\r\n\r\nThis release add a new `cleartext` module, which generates random cleartext traffic on some common ports.\r\n\r\n## Enjoy!\r\n\r\n"
     },
     "https://github.com/aquasecurity/trivy": {
-        "created_at": "",
-        "description": "",
-        "commit_date": "2024-02-26 06:58:47",
-        "commit_message": "fix: add context to target finding on k8s table view (#6099)\n\nSigned-off-by: chenk <hen.keinan@gmail.com>",
-        "release_tag": "",
-        "release_date": "",
-        "release_message": ""
+        "created_at": "2024-03-27 07:07:12",
+        "description": "Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more",
+        "commit_message": "feat(misconf): Support private registries for misconf check bundle (#6327)",
+        "commit_date": "2024-04-01 05:45:58",
+        "release_date": "2024-03-27 08:19:01",
+        "release_message": "## Changelog\n* 5f69937cc fix(sbom): fix error when parent of SPDX Relationships is not a package. (#6399)\n* 258d15346 fix(nodejs): merge `Indirect`, `Dev`, `ExternalReferences` fields for same deps from `package-lock.json` files v2 or later (#6356)\n* ade033a83 docs: add info about support for package license detection in `fs`/`repo` modes (#6381)\n* f85c9fac6 fix(nodejs): add support for parsing `workspaces` from `package.json` as an object (#6231)\n* 9d7f5c948 fix: use `0600` perms for tmp files for post analyzers (#6386)\n* f148eb10f fix(helm): scan the subcharts once (#6382)\n* 97f95c4dd docs(terraform): add file patterns for Terraform Plan (#6393)\n* abd62ae74 fix(terraform): сhecking SSE encryption algorithm validity (#6341)\n* 7c409fd27 fix(java): parse modules from `pom.xml` files once (#6312)\n* 1b68327b6 chore(deps): bump github.com/docker/docker from 25.0.3+incompatible to 25.0.5+incompatible (#6364)\n* a2482c14e fix(server): add Locations for `Packages` in client/server mode (#6366)\n* e866bd5b5 fix(sbom): add check for `CreationInfo` to nil when detecting SPDX created using Trivy (#6346)\n* 1870f2846 fix(report): don't include empty strings in `.vulnerabilities[].identifiers[].url` when `gitlab.tpl` is used (#6348)\n* 6c81e5505 chore(ubuntu): Add Ubuntu 22.04 EOL date (#6371)\n\n"
     },
     "https://github.com/anchore/grype": {
         "created_at": "",
@@ -6354,8 +6351,8 @@
     "https://github.com/audacity/audacity": {
         "created_at": "2023-11-16 11:58:21",
         "description": "Audio Editor                                     ",
-        "commit_message": "Fixes the Release builds on MSVC\n\nIt seems, there is a bug in the compiler or linker, that optimizes out\nItemProperties destructor from the binary, along with the VTable",
-        "commit_date": "2024-03-27 11:19:54",
+        "commit_message": "Set default snapping unit to 1/8",
+        "commit_date": "2024-03-29 13:37:05",
         "release_date": "2023-11-16 15:10:06",
         "release_message": " This is a hotfix release. It fixes the following issues:\r\n\r\n * #5568 Fix a crash when opening projects with zero-length clips.\r\n * #5032 When exporting a file, the sample rate of the tracks is now considered, and last-used sample rate is remembered. \r\n * #5555 Copy-pasting now pastes into audio again by default.  This can be changed via Preferences -> Track Behavior -> Always paste audio as new clips.\r\n * #5549 Mix and render now also resets the gain for the resulting track.\r\n * #5571 Fix clips shifting to the right when effects are applied to them.\r\n * #5106 Fix clicks occurring when overdubbing a project with muted tracks.\r\n * #5533 Fix files being exported without a file extension in rare cases.\r\n * #5539 Show all sample rates possible for MP2 exports.\r\n * #5518 Fix pasting into labels.\r\n * #5543 Fix a crash when clearing loops.\r\n * #5529 Fix copying when \"select all audio if selection required\" is enabled.\r\n * #5598 #5552 Fix GTK detection and compilation for wxWidgets 3.2.4.\r\n * #5551 Fix Nyquist-related crashes.\r\n * #5604 Fix EQs in macros.\r\n * #5511 Fix a crash when closing Audacity.\r\n * #5476 Fix builds on armhf."
     },
@@ -7667,13 +7664,10 @@
         "release_message": ""
     },
     "https://github.com/openwall/john": {
-        "created_at": "",
-        "description": "",
-        "commit_date": "2024-02-02 18:18:48",
-        "commit_message": "Fix TypeError with python 3.11+ for mozilla2john #5431",
-        "release_tag": "",
-        "release_date": "",
-        "release_message": ""
+        "created_at": "2011-12-16 19:43:47",
+        "description": "John the Ripper jumbo - advanced offline password cracker, which supports hundreds of hash and cipher types, and runs on many operating systems, CPUs, GPUs, and even some FPGAs",
+        "commit_message": "build-info: add Cygwin version information\n\nThe recent version of Cygwin removed support for many old Windows\nversions/platforms. Adding this information to the output can help\nus detect if end users are complaining about unsupported things.\n\nSigned-off-by: Claudio André <dev@claudioandre.slmail.me>",
+        "commit_date": "2024-04-01 11:35:37"
     },
     "https://github.com/shimmeris/SCFProxy": {
         "created_at": "2021-04-18 11:21:43",
@@ -22468,13 +22462,12 @@
         "release_message": ""
     },
     "https://github.com/GZTimeWalker/GZCTF": {
-        "created_at": "",
-        "description": "",
-        "commit_date": "2024-02-26 14:55:38",
-        "commit_message": "release: bump version to v0.18.0",
-        "release_tag": "",
-        "release_date": "",
-        "release_message": ""
+        "created_at": "2024-04-01 15:49:50",
+        "description": "The GZ::CTF project, an open source CTF platform.",
+        "commit_message": "release: bump version to v0.18.5",
+        "commit_date": "2024-04-01 15:49:50",
+        "release_date": "2024-04-01 15:53:20",
+        "release_message": "## [0.18.5](https://github.com/GZTimeWalker/GZCTF/compare/v0.18.4..v0.18.5) - 2024-04-01\r\n\r\n### ⛰️ Features\r\n\r\n- custom container lifetime - ([906598](https://github.com/GZTimeWalker/GZCTF/commit/906598)) by **GZTime**\r\n- check that the data path is configured correctly - ([26cfac](https://github.com/GZTimeWalker/GZCTF/commit/26cfac)) by **GZTime**\r\n\r\n### 🐛 Bug Fixes\r\n\r\n- **(docs)** cannot get theme config - ([40ae61](https://github.com/GZTimeWalker/GZCTF/commit/40ae61)) by **GZTime**\r\n- write test file to base - ([0810ef](https://github.com/GZTimeWalker/GZCTF/commit/0810ef)) by **GZTime**\r\n- disable experimental features - ([204551](https://github.com/GZTimeWalker/GZCTF/commit/204551)) by **Steven He**\r\n- write version instead - ([314cd1](https://github.com/GZTimeWalker/GZCTF/commit/314cd1)) by **Steven He**\r\n- rw check and fix service init orders - ([93dfdc](https://github.com/GZTimeWalker/GZCTF/commit/93dfdc)) by **Steven He**\r\n\r\n---\r\n\r\n**Changelog**: https://github.com/GZTimeWalker/GZCTF/blob/HEAD/CHANGELOG.md\r\n**Commits**: https://github.com/GZTimeWalker/GZCTF/compare/v0.18.4...v0.18.5"
     },
     "https://github.com/savior-only/Spring_All_Reachable": {
         "created_at": "2022-10-29 03:28:55",
@@ -23729,13 +23722,12 @@
         "release_message": ""
     },
     "https://github.com/qi4L/JYso": {
-        "created_at": "",
-        "description": "",
-        "commit_date": "2024-02-23 09:03:51",
-        "commit_message": "BUG + base64Two",
-        "release_tag": "",
-        "release_date": "",
-        "release_message": ""
+        "created_at": "2024-03-25 11:44:56",
+        "description": "It can be either a JNDIExploit or a ysoserial.",
+        "commit_message": "readme updates +9",
+        "commit_date": "2024-03-29 09:17:10",
+        "release_date": "2024-03-25 11:46:25",
+        "release_message": "+ 修复BUG\r\n+ 代码优化\r\n+ RMI打内存马和回显类\r\n+ Gadget不区分大小写\r\n+ BeanShell2 适配 bsh2.0b1"
     },
     "https://github.com/cider-security-research/cicd-goat": {
         "created_at": "2023-08-01 07:41:49",
@@ -23969,8 +23961,8 @@
     "https://github.com/hansmach1ne/lfimap": {
         "created_at": "2021-02-26 04:11:33",
         "description": "Local File Inclusion discovery and exploitation tool",
-        "commit_message": "Major update, introduced second order vulnerability check and csrf handling support\n\n- Added support and switches for second order vulnerability detections #42\n- Implemented Beta CSRF token handling support, this will need to be double checked #43\n- Fixed CSPT false positive edge-case, once CS path traversal is detected in the parameter value and not in the path\n- Fixed XSS false positive edge-case, when reflection is inside tag attribute, but double quotes are stripped\n- Fixed RFI payloads pointing to the wrong URLs on github :/\n- Exception handling improvements, ability to print uncaught exception trace with '-v'\n- Fixed bug issue 46\n- Fixed bug issue 47",
-        "commit_date": "2024-02-11 22:07:55"
+        "commit_message": "Update requirements.txt\n\nAdded bs4 dependency",
+        "commit_date": "2024-03-29 21:15:39"
     },
     "https://github.com/MaskCyberSecurityTeam/BurpHttpHelper": {
         "created_at": "2022-11-14 02:17:48",
@@ -24385,8 +24377,8 @@
         "description": "漏洞盒子 | 丁香园安全应急响应中心（DXYSRC）"
     },
     "https://fsrc.fuiou.com/home/index.html": {
-        "status_code": 200,
-        "description": "富友安全应急响应中心"
+        "status_code": 404,
+        "description": "404 Not Found"
     },
     "https://isrc.pingan.com/homePage/index": {
         "status_code": 404,
@@ -24453,8 +24445,8 @@
         "description": "魅族安全中心"
     },
     "https://sec.vip.com/": {
-        "status_code": 503,
-        "description": ""
+        "status_code": 200,
+        "description": "VSRC首页-唯品会信息安全中心"
     },
     "https://sec.wacai.com/": {
         "status_code": 200,
@@ -24532,8 +24524,8 @@
         "description": "焦点安全应急响应中心"
     },
     "https://security.guazi.com/": {
-        "status_code": 200,
-        "description": "瓜子安全应急响应中心"
+        "status_code": 503,
+        "description": ""
     },
     "https://security.hihonor.com/src/#/": {
         "status_code": 200,
@@ -24695,8 +24687,8 @@
         "description": "知识星球安全应急响应中心"
     },
     "https://securitytcjf.com/": {
-        "status_code": 200,
-        "description": ""
+        "status_code": 403,
+        "description": "403 Forbidden"
     },
     "https://sfsrc.sf-express.com/": {
         "status_code": 200,
@@ -25698,8 +25690,8 @@
     "https://github.com/cve-search/cve-search": {
         "created_at": "2024-01-28 10:53:52",
         "description": "cve-search - a tool to perform local searches for known vulnerabilities",
-        "commit_message": "fixes #1057",
-        "commit_date": "2024-02-16 13:42:36",
+        "commit_message": "Update static JS dependencies (#1063)\n\n* Update jQuery 3.6.0 -> 3.7.1\r\n\r\n* Update Popper v2.11.5 -> v2.11.8\r\n\r\n* Update clipboard.js v2.0.10 -> v2.0.11\r\n\r\n* Update Bootstrap v4.6.0 -> v4.6.2\r\n\r\n\"One of our last releases for the v4.\"\r\n\r\n* Update DataTables 1.11.3 -> 2.0.3",
+        "commit_date": "2024-04-01 10:26:04",
         "release_date": "2024-01-28 11:00:01",
         "release_message": "cve-search v5.0.1 released with bugs fixed and minor improvements. Thanks to contributors and users who helped us to improve cve-search.\r\n\r\n\r\n## v5.0.1 (2024-01-28)\r\n\r\n### New\r\n\r\n* [release] changelog updated to match release v5.0.0. [Alexandre Dulaunoy]\r\n\r\n### Other\r\n\r\n* Update README.md (#1055) [Esa Jokinen]\r\n\r\n  * systemd services: rename mongod.service\r\n\r\n  * black formatting\r\n\r\n  * README.md add workflow badges\r\n\r\n  * README.md update copyright years\r\n\r\n  * README.md update changelog link\r\n\r\n  The changelog on the site hasn't been updated for ages.\r\n\r\n* Systemd services: rename mongod.service (#1052) [Esa Jokinen]\r\n\r\n  * systemd services: rename mongod.service\r\n\r\n  * black formatting\r\n\r\n  * README.md add workflow badges\r\n\r\n* Update script tweaks (#1051) [PT]\r\n\r\n  * tweaks to update script\r\n\r\n* Add check for missing 'vulnerable_configuration' field (#1050) [PT]\r\n\r\n* Fixes #1038. [Paul Tikken]\r\n\r\n* Merge pull request #1047 from cve-search/cve-search-1042. [PT]\r\n\r\n  Additional check\r\n\r\n* Added check for missing epss values. [Paul Tikken]\r\n\r\n* Merge pull request #1041 from oh2fih/master. [PT]\r\n\r\n  Add workflow to check black formatting\r\n\r\n* Black formatting (23.12.1) [Esa Jokinen]\r\n\r\n* Add workflow to check black formatting. [Esa Jokinen]\r\n\r\n* Black formatting. [Paul Tikken]\r\n\r\n\r\n"
     },
@@ -26411,5 +26403,33 @@
         "description": "一个2023届毕业生在毕业前持续更新、收集的安全岗面试题及面试经验分享~",
         "commit_message": "update.总共138篇了",
         "commit_date": "2024-03-16 10:21:18"
+    },
+    "https://github.com/smartdec/smartcheck": {
+        "created_at": "2019-01-10 14:42:29",
+        "description": " SmartCheck – a static analysis tool that detects vulnerabilities and bugs in Solidity programs (Ethereum-based smart contracts).",
+        "commit_message": "Merge pull request #32 from smartdec/dependabot/maven/junit-junit-4.13.1\n\nBump junit from 4.12 to 4.13.1",
+        "commit_date": "2023-05-25 14:09:58",
+        "release_date": "2019-01-10 14:48:04",
+        "release_message": "Major update opensource version SmartCheck.\r\n\r\nWhat's new:\r\n- synced version with online tool https://tool.smartdec.ru/\r\n- updated rules pack with support of custom rules\r\n- results in .xml format"
+    },
+    "https://github.com/infobyte/faraday": {
+        "created_at": "2024-03-20 20:45:00",
+        "description": "Open Source Vulnerability Management Platform",
+        "commit_message": "Front Updated",
+        "commit_date": "2024-03-20 18:28:05",
+        "release_date": "2024-03-20 20:53:00",
+        "release_message": " * [FIX] Ignore remove_sid when database does not exist. #7690\n"
+    },
+    "https://github.com/0xsauby/yasuo": {
+        "created_at": "2014-09-25 06:20:08",
+        "description": "A ruby script that scans for vulnerable & exploitable 3rd-party web applications on a network",
+        "commit_message": "Merge pull request #32 from GoSecure/master\n\nAdd Bundler for easier gem management",
+        "commit_date": "2017-12-09 19:02:11"
+    },
+    "https://github.com/FiloSottile/CVE-2016-2107": {
+        "created_at": "2016-05-03 16:47:32",
+        "description": "Simple test for the May 2016 OpenSSL padding oracle (CVE-2016-2107)",
+        "commit_message": "Merge pull request #6 from benjojo/Issue3\n\nExit with error code 2 for vulnerable to make scripting easier\r\n\r\nFixes #3",
+        "commit_date": "2016-05-13 19:18:21"
     }
 }
