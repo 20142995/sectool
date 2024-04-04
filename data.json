@@ -1332,13 +1332,12 @@
         "release_message": "修改黑名单HOST匹配为黑名单URL匹配，\r\n场景：\r\n1、用于不扫描delete|logout|remove等指定的关键字的url\r\n2、不扫描指定的域名，如google.com\r\n\r\n\r\n添加一个fastjosn2.0版本的psc，仅修改了依赖版本"
     },
     "https://github.com/projectdiscovery/subfinder": {
-        "created_at": "",
-        "description": "",
-        "commit_date": "2024-02-26 14:50:16",
-        "commit_message": "Merge pull request #1170 from projectdiscovery/dependabot/go_modules/v2/dev/github.com/projectdiscovery/utils-0.0.80",
-        "release_tag": "",
-        "release_date": "",
-        "release_message": ""
+        "created_at": "2024-03-27 21:55:17",
+        "description": "Fast passive subdomain enumeration tool.",
+        "commit_message": "Merge pull request #1210 from projectdiscovery/fix_silent\n\nfix silent",
+        "commit_date": "2024-04-02 15:05:53",
+        "release_date": "2024-03-27 22:00:39",
+        "release_message": "<!-- Release notes generated using configuration in .github/release.yml at main -->\r\n\r\n## What's Changed\r\n\r\n### Other Changes\r\n\r\n* Added context to crtsh database query by @UFeindschiff in https://github.com/projectdiscovery/subfinder/pull/1190\r\n* Fixed SDK log config issue by @dogancanbakir in https://github.com/projectdiscovery/subfinder/pull/1200\r\n* Fixed issue of url scheme being added in output by @dogancanbakir in https://github.com/projectdiscovery/subfinder/pull/1166\r\n* Fixed issue with pagination by @dogancanbakir in https://github.com/projectdiscovery/subfinder/pull/1177\r\n* Fixed flaky tests by @dogancanbakir in https://github.com/projectdiscovery/subfinder/pull/1202\r\n* Updated go version in Dockerfile by @tarunKoyalwar in https://github.com/projectdiscovery/subfinder/pull/1159\r\n* Updated log level by @dogancanbakir in https://github.com/projectdiscovery/subfinder/pull/1167\r\n* Updated alpine to 3.18.6 for security fixes by @alizademhdi in https://github.com/projectdiscovery/subfinder/pull/1192\r\n* Removed` time.sleep` from sources by @dogancanbakir in https://github.com/projectdiscovery/subfinder/pull/1175\r\n\r\n## New Contributors\r\n* @alizademhdi made their first contribution in https://github.com/projectdiscovery/subfinder/pull/1192\r\n* @UFeindschiff made their first contribution in https://github.com/projectdiscovery/subfinder/pull/1190\r\n\r\n**Full Changelog**: https://github.com/projectdiscovery/subfinder/compare/v2.6.5...v2.6.6"
     },
     "https://github.com/webraybtl/CodeQLpy": {
         "created_at": "2022-12-22 12:54:03",
@@ -2348,8 +2347,8 @@
     "https://github.com/FunnyWolf/Viper": {
         "created_at": "2024-03-25 07:05:54",
         "description": "Attack Surface Management & Red Team Simulation Platform 互联网攻击面管理&红队模拟平台",
-        "commit_message": "update version 2.0",
-        "commit_date": "2024-03-25 07:38:59",
+        "commit_message": "update version 2.1",
+        "commit_date": "2024-03-29 08:36:07",
         "release_date": "2024-03-25 07:10:28",
         "release_message": "### 新功能\r\n\r\n- 互联网攻击面管理正式上线\r\n\r\n### 优化\r\n\r\n- `360 Quake`支持多账号自动切换\r\n- 优化`网络资产`搜索性能\r\n- 前端升级Ant Design V5版本\r\n- 新增导航页面\r\n- 优化`创建监听`和`端口转发`时端口已被占用时提示\r\n\r\n### Bugfix\r\n\r\n- fix https://github.com/FunnyWolf/Viper/issues/195\r\n- fix https://github.com/FunnyWolf/Viper/issues/194\r\n- fix https://github.com/FunnyWolf/Viper/issues/193\r\n- fix https://github.com/FunnyWolf/Viper/issues/192\r\n- fix https://github.com/FunnyWolf/Viper/issues/200"
     },
@@ -3184,12 +3183,11 @@
         "release_message": ""
     },
     "https://github.com/Threekiii/Awesome-Redteam": {
-        "created_at": "",
-        "description": "",
-        "commit_date": "2024-02-26 09:33:26",
+        "created_at": "2023-12-18 03:28:33",
+        "description": "一个攻防知识仓库 Red Teaming and Offensive Security",
         "commit_message": "update README.md",
-        "release_tag": "",
-        "release_date": "",
+        "commit_date": "2024-03-24 03:55:23",
+        "release_date": "2023-12-18 03:31:30",
         "release_message": ""
     },
     "https://github.com/Guoke324/Godscan": {
@@ -3265,8 +3263,8 @@
     "https://github.com/bytedance/Elkeid": {
         "created_at": "2024-03-22 08:10:39",
         "description": "Elkeid is an open source solution that can meet the security requirements of various workloads such as hosts, containers and K8s, and serverless. It is derived from ByteDance's internal best practices.",
-        "commit_message": "FIXME: kernel warns the worker thread slept > 120s\n\nThe dput worker thread will sleep if there's no item to put.\n\nSigned-off-by: shenping.matt <shenping.matt@bytedance.com>",
-        "commit_date": "2024-03-18 08:00:49",
+        "commit_message": "Merge pull request #595 from bytedance/feat-log\n\nfeat message log",
+        "commit_date": "2024-04-03 03:43:12",
         "release_date": "2024-03-22 14:13:07",
         "release_message": ""
     },
@@ -3513,13 +3511,12 @@
         "release_message": "* Use stdout for prints to close #47\r\n* Support Python3 to close #33  \r\n* Use Docker for testing environments\r\n* Use TravisCI\r\n* Fix Smarty caching quirks\r\n* Add `requirements.txt`\r\n* Fix Jinja2 false negatives"
     },
     "https://github.com/bytedance/appshark": {
-        "created_at": "",
-        "description": "",
-        "commit_date": "2024-01-12 03:28:02",
+        "created_at": "2022-09-22 09:50:06",
+        "description": "Appshark is a static taint analysis platform to scan vulnerabilities in an Android app.",
         "commit_message": "Merge remote-tracking branch 'origin/main'",
-        "release_tag": "",
-        "release_date": "",
-        "release_message": ""
+        "commit_date": "2024-01-12 03:28:02",
+        "release_date": "2022-09-22 10:03:10",
+        "release_message": "fix problems running on windows."
     },
     "https://github.com/SafeGroceryStore/MDUT": {
         "created_at": "2020-12-30 02:49:31",
@@ -3845,12 +3842,12 @@
         "commit_date": "2024-03-30 09:41:07"
     },
     "https://github.com/neuvector/neuvector": {
-        "created_at": "2024-01-31 20:23:33",
+        "created_at": "2024-04-01 11:42:35",
         "description": null,
-        "commit_message": "Merge pull request #1264 from gfsuse/main_jiracase\n\nNVSHAS-8761, to prevent unexpected violation for hostmode container when allow rule exist",
-        "commit_date": "2024-03-23 05:47:31",
-        "release_date": "2024-02-01 01:59:31",
-        "release_message": "## What's Changed\r\n* NVSHAS-8639: Correct API doc typo by @becitsthere in https://github.com/neuvector/neuvector/pull/1186\r\n* NVSHAS-8636 Scanning workload takes longer compared to 5.2.4 by @jeffhuang4704 in https://github.com/neuvector/neuvector/pull/1187\r\n* NVSHAS-8564: run python in virtual env for allinone by @becitsthere in https://github.com/neuvector/neuvector/pull/1188\r\n* NVSHAS-8572: secrets/vul scanning engine does not ignore mounted files by @jayhuang-suse in https://github.com/neuvector/neuvector/pull/1190\r\n* NVSHAS-8590: Fix inconsistent scan status in non-lead controller by @becitsthere in https://github.com/neuvector/neuvector/pull/1191\r\n* NVSHAS-8653 Add impact sort, NVSHAS-8669 Fix Internal Server Error in pagination by @jeffhuang4704 in https://github.com/neuvector/neuvector/pull/1192\r\n* NVSHAS-8377: add RootlessKeypairsOnly flag to proto by @alopez-suse in https://github.com/neuvector/neuvector/pull/1193\r\n\r\n\r\n**Full Changelog**: https://github.com/neuvector/neuvector/compare/v5.3.0-b3...v5.3.0"
+        "commit_message": "Merge pull request #1275 from becitsthere/main\n\nNVSHAS-8811: Increase repo scan limit to 32",
+        "commit_date": "2024-04-02 22:22:24",
+        "release_date": "2024-04-03 22:24:25",
+        "release_message": "## What's Changed\r\n* NVSHAS-8678 - Fix for UI showing in-complete message by @pohanhuangtw in https://github.com/neuvector/neuvector/pull/1195\r\n* NVSHAS-8685: Scanner's docker client version 1.21 is deprecated and no longer supported by @jayhuang-suse in https://github.com/neuvector/neuvector/pull/1198\r\n* NVSHAS-8680: Skip non-image artifacts by @becitsthere in https://github.com/neuvector/neuvector/pull/1199\r\n* NVSHAS-8224, batch delete empty groups to improve auto removal performance by @gfsuse in https://github.com/neuvector/neuvector/pull/1196\r\n* NVSHAS-8660: rke 1.25: runtime driver can not connect with the cri-dockerd.sock by @jayhuang-suse in https://github.com/neuvector/neuvector/pull/1200\r\n* Nvshas 8377 impl by @alopez-suse in https://github.com/neuvector/neuvector/pull/1194\r\n* NVSHAS-8693: goroutine crash at container.(*crioDriver).getContainer() by @jayhuang-suse in https://github.com/neuvector/neuvector/pull/1201\r\n* Add function to read packages of an app by @becitsthere in https://github.com/neuvector/neuvector/pull/1203\r\n* NVSHAS-6483 add support for php composer by @Acmarr in https://github.com/neuvector/neuvector/pull/1207\r\n* NVSHAS-8703: Move image download function to scanner by @becitsthere in https://github.com/neuvector/neuvector/pull/1209\r\n* NVSHAS-8707: Fix segfault in standalone scanner by @becitsthere in https://github.com/neuvector/neuvector/pull/1213\r\n* NVSHAS-8156: UPDATE on Pod is not monitored by NV by @williamlin-suse in https://github.com/neuvector/neuvector/pull/1216\r\n* NVSHAS-5391 & 8631 Improve Host i/f update monitoring by @kyledong-suse in https://github.com/neuvector/neuvector/pull/1217\r\n* NVSHAS-8224, auto remove imorted empty groups by @gfsuse in https://github.com/neuvector/neuvector/pull/1218\r\n* NVSHAS-8716: Newer scanner error for local image and produce inaccurate scanning results by @jayhuang-suse in https://github.com/neuvector/neuvector/pull/1219\r\n* NVSHAS-8720 Fix agent crash at main.intfHostMonitorLoop(0xc0000c0190,… by @kyledong-suse in https://github.com/neuvector/neuvector/pull/1220\r\n* NVSHAS-8720: fix agent crash at main.intfHostMonitorLoop by @kyledong-suse in https://github.com/neuvector/neuvector/pull/1222\r\n* NVSHAS-8580: GCP warning about neuvector-validating-admission-webhook by @williamlin-suse in https://github.com/neuvector/neuvector/pull/1223\r\n* NVSHAS-8156: UPDATE on Pod is not monitored by NV by @williamlin-suse in https://github.com/neuvector/neuvector/pull/1227\r\n* NVSHAS-8711 Risk page - only return the filtered assets while advance… by @jeffhuang4704 in https://github.com/neuvector/neuvector/pull/1228\r\n* NVSHAS-8677 Fix enforcer crash for arm64 by @kyledong-suse in https://github.com/neuvector/neuvector/pull/1229\r\n* NVSHAS-8716: reverse API version change by @jayhuang-suse in https://github.com/neuvector/neuvector/pull/1233\r\n* NVSHAS-8286: Suggest the unhandled NV CR objects should be handled ag… by @williamlin-suse in https://github.com/neuvector/neuvector/pull/1234\r\n* NVSHAS-8756: config_v2 fixes for the REST API by @williamlin-suse in https://github.com/neuvector/neuvector/pull/1235\r\n* NVSHAS-8752 Add ipFqdnStorageMutex to protect reading ipFqdnStorageCache by @kyledong-suse in https://github.com/neuvector/neuvector/pull/1237\r\n* NVSHAS-8701 - Add \\$ for unexpected NV.Protect incidents is found on paste command by @pohanhuangtw in https://github.com/neuvector/neuvector/pull/1236\r\n* NVSHAS-8736: unexpected jar package alert from pod deployment by @jayhuang-suse in https://github.com/neuvector/neuvector/pull/1241\r\n* NVSHAS-7145: implement no proxy hosts for registry scans by @alopez-suse in https://github.com/neuvector/neuvector/pull/1211\r\n* NVSHAS-8791: SIGSEGV: segmentation violation code=0x1 addr=0x18 pc=0x… by @williamlin-suse in https://github.com/neuvector/neuvector/pull/1242\r\n* NVSHAS-8780 - Fix the truncate msg in manual by @pohanhuangtw in https://github.com/neuvector/neuvector/pull/1245\r\n* NVSHAS-7145: compress fields into v2 object by @alopez-suse in https://github.com/neuvector/neuvector/pull/1243\r\n* NVSHAS-8820 In Risk page, the Published time in advanced filter behavior is inverted by @jeffhuang4704 in https://github.com/neuvector/neuvector/pull/1248\r\n* NVSHAS-8829 fix scored filter in risk page by @jeffhuang4704 in https://github.com/neuvector/neuvector/pull/1250\r\n* NVSHAS-8803: container is somehow unable to add to workload successfully frequently by @jayhuang-suse in https://github.com/neuvector/neuvector/pull/1249\r\n* NVSHAS-8780 - Fix the truncate msg in manual by @pohanhuangtw in https://github.com/neuvector/neuvector/pull/1247\r\n* NVSHAS-8812: rootlessKeypairsOnly overrides isPrivate by @alopez-suse in https://github.com/neuvector/neuvector/pull/1246\r\n* NVSHAS-8730 allow parsing multiple entries from manifest.mf by @Acmarr in https://github.com/neuvector/neuvector/pull/1252\r\n* NVSHAS-8551: Add pcap filename random length by @becitsthere in https://github.com/neuvector/neuvector/pull/1253\r\n* NVSHAS-8741: NeuVector scan shows inconsistent baseos image by @jayhuang-suse in https://github.com/neuvector/neuvector/pull/1254\r\n* NVSHAS-8520, allow traffic with LinkLocalUnicast IP for host-mode container by @gfsuse in https://github.com/neuvector/neuvector/pull/1255\r\n* NVSHAS-8730 / NVSHAS-8844 single entry per manifest.mf... by @Acmarr in https://github.com/neuvector/neuvector/pull/1257\r\n* NVSHAS-8829 scored filter issue by @jeffhuang4704 in https://github.com/neuvector/neuvector/pull/1258\r\n* NVSHAS-8730: Revert jar parsing changes. by @becitsthere in https://github.com/neuvector/neuvector/pull/1259\r\n* NVSHAS-7145: add v2 internal registry test types by @alopez-suse in https://github.com/neuvector/neuvector/pull/1261\r\n* NVSHAS-7145: add v2 registry test access by @alopez-suse in https://github.com/neuvector/neuvector/pull/1262\r\n* NVSHAS-8757,8730: Fix jar file package name parsing by @becitsthere in https://github.com/neuvector/neuvector/pull/1263\r\n* NVSHAS-8761, to prevent unexpected violation for hostmode container when allow rule exist by @gfsuse in https://github.com/neuvector/neuvector/pull/1264\r\n* Improve jar package parsing logic by @becitsthere in https://github.com/neuvector/neuvector/pull/1265\r\n* NVSHAS-8865, adjust early detection logic for host-mode container so that connection to external shows correct action by @gfsuse in https://github.com/neuvector/neuvector/pull/1266\r\n\r\n\r\n**Full Changelog**: https://github.com/neuvector/neuvector/compare/v5.3.0...v5.3.1"
     },
     "https://github.com/lijiejie/BBScan": {
         "created_at": "2015-11-13 07:41:10",
@@ -4715,8 +4712,8 @@
     "https://github.com/zaivanza/all-in-one-v2": {
         "created_at": "2023-04-29 09:03:49",
         "description": null,
-        "commit_message": "Merge pull request #16 from zaivanza/dev\n\nremove unused orbiter ids",
-        "commit_date": "2024-03-08 01:45:09"
+        "commit_message": "add mode",
+        "commit_date": "2024-04-03 04:28:09"
     },
     "https://github.com/JDArmy/SharpXDecrypt": {
         "created_at": "2022-02-23 03:12:42",
@@ -4961,8 +4958,8 @@
     "https://github.com/hahwul/dalfox": {
         "created_at": "2024-01-28 15:43:33",
         "description": "🌙🦊 Dalfox is a powerful open-source XSS scanner and utility focused on automation.",
-        "commit_message": "chore: update contributors [skip ci]",
-        "commit_date": "2024-02-21 15:05:09",
+        "commit_message": "Merge pull request #540 from hahwul/dev\n\nUpdate documents",
+        "commit_date": "2024-03-26 14:45:53",
         "release_date": "2024-01-28 15:50:31",
         "release_message": "## Changelog\r\n* eeda86c chore: update contributors [skip ci]\r\n* d7a245b chore: update contributors [skip ci]\r\n* d3a9153 Update logo\r\n* 65ae78d Update image\r\n* aa4b5ef Update docs\r\n* d58add5 Update dependabot.yml\r\n* 587f136 Update README.md\r\n* 16e2b54 Update README.md\r\n* 25dbbc3 Release v2.9.2\r\n* 3fc6a4b Merge pull request #522 from hahwul/dev\r\n* 00afb7f Merge pull request #520 from hahwul/change-logo\r\n* 367bf5c Merge pull request #517 from hahwul/main\r\n* 894b989 Merge pull request #516 from hahwul/add-dependabot.yml\r\n* 4949a34 Merge pull request #514 from hahwul/dependabot/go_modules/golang.org/x/crypto-0.17.0\r\n* cfe4a5d Merge pull request #512 from n00b-bot/dev\r\n* 31b28af Merge pull request #510 from hahwul/dev\r\n* 81a86c3 Fixed GHCR\r\n* ee47de9 Fix duplicate Headers by @n00b-bot \r\n* d3e9445 Bump golang.org/x/crypto from 0.14.0 to 0.17.0\r\n\r\n"
     },
@@ -6477,8 +6474,8 @@
     "https://github.com/horsicq/DIE-engine": {
         "created_at": "2023-12-28 19:55:00",
         "description": "DIE engine",
-        "commit_message": "Update module: Formats 2024-04-01",
-        "commit_date": "2024-03-31 23:26:17",
+        "commit_message": "Update module: Detect-It-Easy 2024-04-04",
+        "commit_date": "2024-04-03 23:31:07",
         "release_date": "2023-12-28 21:22:21",
         "release_message": "Please see the file [CHANGELOG](https://github.com/horsicq/Detect-It-Easy/blob/master/changelog.txt) for a detailed list of changes.\r\n\r\n\r\n| Asset / File | Description / Host OS |\r\n| ----------- | ----------- |\r\n| [die_sourcecode_3.09.tar.gz](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_sourcecode_3.09.tar.gz) | Source code tarball |\r\n| [Detect_It_Easy-3.09-x86_64.AppImage](https://github.com/horsicq/DIE-engine/releases/download/3.09/Detect_It_Easy-3.09-x86_64.AppImage) | Portable version for Linux [How to run](https://github.com/horsicq/Detect-It-Easy/blob/master/docs/RUN.md) |\r\n| [die_3.09_Debian_10_amd64.deb](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_Debian_10_amd64.deb) | Installer for Debian 10 |\r\n| [die_3.09_Debian_11_amd64.deb](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_Debian_11_amd64.deb) | Installer for Debian 11 |\r\n| [die_3.09_Debian_12_amd64.deb](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_Debian_12_amd64.deb) | Installer for Debian 12 |\r\n| [die_3.09_Ubuntu_14.04_amd64.deb](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_Ubuntu_14.04_amd64.deb) | Installer for Ubuntu 14.04 |\r\n| [die_3.09_Ubuntu_16.04_amd64.deb](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_Ubuntu_16.04_amd64.deb) | Installer for Ubuntu 16.04 |\r\n| [die_3.09_Ubuntu_18.04_amd64.deb](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_Ubuntu_18.04_amd64.deb) | Installer for Ubuntu 18.04 |\r\n| [die_3.09_Ubuntu_20.04_amd64.deb](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_Ubuntu_20.04_amd64.deb) | Installer for Ubuntu 20.04 |\r\n| [die_3.09_Ubuntu_22.04_amd64.deb](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_Ubuntu_22.04_amd64.deb) | Installer for Ubuntu 22.04 |\r\n| [die_3.09_Ubuntu_22.10_amd64.deb](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_Ubuntu_22.10_amd64.deb) | Installer for Ubuntu 22.10 |\r\n| [die_3.09_Ubuntu_23.04_amd64.deb](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_Ubuntu_23.04_amd64.deb) | Installer for Ubuntu 23.04 |\r\n| [die_3.09_Ubuntu_23.10_amd64.deb](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_Ubuntu_23.10_amd64.deb) | Installer for Ubuntu 23.10 |\r\n| [die_3.09_Kali_2023.4_amd64](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_Kali_2023.4_amd64) | Installer for Kali 2023.4 |\r\n| [die_3.09_Parrot_5.3_amd64.deb](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_Parrot_5.3_amd64.deb) | Installer for Parrot 5.3 |\r\n| [die_3.09_portable_Ubuntu_20.04_amd64.tar.gz](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_portable_Ubuntu_20.04_amd64.tar.gz) | Portable version for Ubuntu 20.04 |\r\n| [detect-it-easy-3.09-1-x86_64.pkg.tar.zst](https://github.com/horsicq/DIE-engine/releases/download/3.09/detect-it-easy-3.09-1-x86_64.pkg.tar.zst) | Installer for Arch Linux |\r\n| [die_mac_3.09_x86_64.pkg](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_mac_3.09_x86_64.pkg) | Installer for macOS |\r\n| [die_mac_qt6_3.09_arm64.pkg](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_mac_qt6_3.09_arm64.pkg) | Installer for macOS Qt6 M1 processor|\r\n| [die_mac_portable_3.09_x86_64.zip](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_mac_portable_3.09_x86_64.zip) | Portable version for macOS |\r\n| [die_win32_portable_3.09_x86.zip](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_win32_portable_3.09_x86.zip) | Portable version for x86 Win32 (Win7-Win11)|\r\n| [die_win64_portable_3.09_x64.zip](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_win64_portable_3.09_x64.zip) | Portable version for x64 Win64 (Win7-Win11) |\r\n| [die_winxp_portable_3.09_x86.zip](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_winxp_portable_3.09_x86.zip) | Portable version for Windows XP (WinXP-Win11) |\r\n\r\n\r\nExperimental versions - There may be bugs in the GUI\r\n\r\n| Asset / File | Description / Host OS |\r\n| ----------- | ----------- |\r\n| [die_win64_qt6_portable_3.09_x64.zip](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_win64_qt6_portable_3.09_x64.zip) | Portable version for x64 Win64 Qt6 (Win10-Win11)|\r\n"
     },
@@ -8581,8 +8578,8 @@
     "https://github.com/nomi-sec/PoC-in-GitHub": {
         "created_at": "2019-12-08 13:03:54",
         "description": "📡 PoC auto collect from GitHub. ⚠️ Be careful Malware.",
-        "commit_message": "Auto Update 2024/03/22 00:26:51",
-        "commit_date": "2024-03-22 00:26:51"
+        "commit_message": "Auto Update 2024/04/04 00:27:19",
+        "commit_date": "2024-04-04 00:27:19"
     },
     "https://github.com/Ridter/CVE-2017-11882": {
         "created_at": "2017-11-21 05:55:53",
@@ -21964,8 +21961,8 @@
     "https://github.com/apache/logging-log4j2": {
         "created_at": "2024-03-10 19:05:47",
         "description": "Apache Log4j 2 is a versatile, feature-rich, efficient logging API and backend for Java.",
-        "commit_message": "Rollback breaking change in `ReusableMessage`",
-        "commit_date": "2024-03-22 12:20:39",
+        "commit_message": "Update `co.elastic.clients:elasticsearch-java` to version `8.13.1` (#2437)",
+        "commit_date": "2024-04-03 13:43:03",
         "release_date": "2024-03-10 19:24:14",
         "release_message": "This release contains several small fixes and some dependency updates.\r\n\r\n### Changed\r\n\r\n* Improve performance of `CloseableThreadContext#closeMap()` (#2296)\r\n\r\n### Fixed\r\n\r\n* Fix handling of `LoggerContextAware` lookups (#2309)\r\n* Fix NPE in `PatternProcessor` for a `UNIX_MILLIS` pattern (#2346)\r\n* Fix that parameterized message formatting doesn't throw an exception when there are insufficient number of parameters (#2343)\r\n* Fix `StatusLogger` log level filtering when debug mode is enabled (#2337)\r\n* Add `log4j2.StatusLogger.dateFormatZone` system property to set the time-zone `StatusLogger` uses to format `java.time.Instant`. Without this, formatting patterns accessing to time-zone-specific fields (e.g., year-of-era) cause failures. (#2322)\r\n* Fix `StatusLogger` to correctly read `log4j2.StatusLogger.properties` resource (#2354)\r\n* Fix stack overflow in `StatusLogger` (#2322)\r\n\r\n### Updated\r\n\r\n* Update `jakarta.activation:jakarta.activation-api` to version `2.1.3` (#2335)\r\n* Update `jakarta.mail:jakarta.mail-api` to version `2.1.3` (#2348)\r\n* Update `org.apache.commons:commons-compress` to version `1.26.0` (#2304)\r\n* Update `org.apache.commons:commons-dbcp2` to version `2.12.0` (#2344)\r\n* Update `org.apache.kafka:kafka-clients` to version `3.7.0` (#2326)\r\n* Update `org.eclipse.angus:angus-activation` to version `2.0.2` (#2336)\r\n* Update `org.eclipse.angus:jakarta.mail` to version `2.0.3` (#2349)\r\n"
     },
@@ -23724,8 +23721,8 @@
     "https://github.com/qi4L/JYso": {
         "created_at": "2024-03-25 11:44:56",
         "description": "It can be either a JNDIExploit or a ysoserial.",
-        "commit_message": "readme updates +9",
-        "commit_date": "2024-03-29 09:17:10",
+        "commit_message": "re -",
+        "commit_date": "2024-04-03 03:48:27",
         "release_date": "2024-03-25 11:46:25",
         "release_message": "+ 修复BUG\r\n+ 代码优化\r\n+ RMI打内存马和回显类\r\n+ Gadget不区分大小写\r\n+ BeanShell2 适配 bsh2.0b1"
     },
@@ -25444,8 +25441,8 @@
     "https://github.com/leondz/garak": {
         "created_at": "2024-02-20 14:23:06",
         "description": "LLM vulnerability scanner",
-        "commit_message": "@codebrain001 has signed the CLA in leondz/garak#578",
-        "commit_date": "2024-03-30 12:52:27",
+        "commit_message": "Added project twitter link and corrected a grammatic error (#578)\n\n* Added project twitter link and corrected a grammatic error\r\n\r\nSigned-off-by: Brain Aboze <abozejohn@gmail.com>\r\n\r\n* twitter acct also has a g\r\n\r\n---------\r\n\r\nSigned-off-by: Brain Aboze <abozejohn@gmail.com>\r\nCo-authored-by: Leon Derczynski <leonderczynski@gmail.com>",
+        "commit_date": "2024-04-02 10:56:43",
         "release_date": "2024-02-20 16:12:40",
         "release_message": "## What's Changed\r\n\r\n### plugins\r\n* New encoding probes by @zmackie in https://github.com/leondz/garak/pull/459\r\n* OpenAI upgrade by @erickgalinkin in https://github.com/leondz/garak/pull/477\r\n* Low Resource Languages Buff by @erickgalinkin in https://github.com/leondz/garak/pull/478\r\n* Add Rasa generator by @rgstephens in https://github.com/leondz/garak/pull/453\r\n* Tree of Attacks by @erickgalinkin in https://github.com/leondz/garak/pull/446\r\n\r\n### functionality improvements\r\n* support multiple buffs by @leondz in https://github.com/leondz/garak/pull/497\r\n* wrap exception printing in repr by @leondz in https://github.com/leondz/garak/pull/425\r\n* add generators.function docs & examples by @leondz in https://github.com/leondz/garak/pull/437\r\n* update doc indices, add test to check them by @leondz in https://github.com/leondz/garak/pull/450\r\n* fix & unify REST generator timeout param names; set default request timeout to 20s by @leondz in https://github.com/leondz/garak/pull/451\r\n* add test to keep requirements in sync by @leondz in https://github.com/leondz/garak/pull/465\r\n* docs for buffs by @leondz in https://github.com/leondz/garak/pull/466\r\n* autosearch in the configs/ subdir for configs (no yaml extension should be given) by @leondz in https://github.com/leondz/garak/pull/467\r\n* Update function.py by @erickgalinkin in https://github.com/leondz/garak/pull/500\r\n* add warning when using a lite/default profile by @leondz in https://github.com/leondz/garak/pull/476\r\n* rename default output dir to garak_runs/; by @leondz in https://github.com/leondz/garak/pull/488\r\n* update openai model list by @leondz in https://github.com/leondz/garak/pull/494\r\n* make test_openai generation tests skip if no OAI API key set by @leondz in https://github.com/leondz/garak/pull/491\r\n\r\n### fixes\r\n* html report now uses correct basedir by @leondz in https://github.com/leondz/garak/pull/439\r\n* typos & clarifications in rest generator by @leondz in https://github.com/leondz/garak/pull/436\r\n* update manifest by @leondz in https://github.com/leondz/garak/pull/454\r\n* Avoid divide by zero error by @erickgalinkin in https://github.com/leondz/garak/pull/458\r\n* Fix/test pytest-8.0.0 order by @leondz in https://github.com/leondz/garak/pull/472\r\n* Check & enable Python 3.12 support by @leondz in https://github.com/leondz/garak/pull/475\r\n* move pathlib uses to _config.transient.basedir by @leondz in https://github.com/leondz/garak/pull/499\r\n* catch & handle HF hub exceptions loading dataset for package hallucination by @leondz in https://github.com/leondz/garak/pull/470\r\n\r\n\r\n## New Contributors\r\n* @zmackie made their first contribution in https://github.com/leondz/garak/pull/459\r\n* @rgstephens made their first contribution in https://github.com/leondz/garak/pull/453\r\n\r\n**Full Changelog**: https://github.com/leondz/garak/compare/v0.9.0.11...v0.9.0.12"
     },
@@ -26317,8 +26314,8 @@
     "https://github.com/Y1-K1NG/poc_exp": {
         "created_at": "2023-12-18 06:32:40",
         "description": "持续更新poc/exp,后续会加入yaml,敬请关注",
-        "commit_message": "20240328",
-        "commit_date": "2024-03-28 14:59:22"
+        "commit_message": "20240331",
+        "commit_date": "2024-03-31 09:30:06"
     },
     "https://github.com/python-security/pyt": {
         "created_at": "2018-11-01 16:01:20",
@@ -26465,5 +26462,19 @@
         "commit_date": "2020-07-29 06:08:31",
         "release_date": "2020-04-06 18:37:52",
         "release_message": "# Changelog\r\n* Fixed bug #210 in CrtSearch engine that caused an HTML line break `<BR>`  to appear in the output.\r\n* Fixed #22 broken Netcraft engine due to changes in the HTML structure of the website.\r\n* Fixed the broken DNSdumpster engine due to changes in the HTML structure 5d33d9f25a92cc3f91eb351cff2d7007c198fb44.\r\n* Merged pull request #185 to fix Virustotal engine due to new changes in their website.\r\n* Updated the subbrute resolvers list to fix the Brute-force issues.\r\n* Fixed the PassiveDNS API.\r\n* Fixed few typos in README.\r\n"
+    },
+    "https://github.com/We5ter/GSDF": {
+        "created_at": "2017-09-16 14:48:20",
+        "description": "A domain searcher named GoogleSSLdomainFinder - 基于谷歌SSL透明证书的子域名查询工具",
+        "commit_message": "replace requests.get with requests.Session().get",
+        "commit_date": "2018-02-01 08:57:37",
+        "release_date": "2017-09-16 14:52:14",
+        "release_message": ""
+    },
+    "https://github.com/0x4D31/salt-scanner": {
+        "created_at": "2017-06-09 17:45:08",
+        "description": "Linux vulnerability scanner based on Salt Open and Vulners audit API, with Slack notifications and JIRA integration",
+        "commit_message": "fixes #2",
+        "commit_date": "2017-10-18 03:07:57"
     }
 }
