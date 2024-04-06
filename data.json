@@ -6344,8 +6344,8 @@
     "https://github.com/audacity/audacity": {
         "created_at": "2023-11-16 11:58:21",
         "description": "Audio Editor                                     ",
-        "commit_message": "Set default snapping unit to 1/8",
-        "commit_date": "2024-03-29 13:37:05",
+        "commit_message": "Merge pull request #6201 from Paul-Licameli/Commit-experimental-branches\n\nCommit experimental branches\r\n\r\nCleanup conditional compilation directives for all the EXPERIMENTAL flags\r\nthat have been turned on in releases.",
+        "commit_date": "2024-04-05 13:08:24",
         "release_date": "2023-11-16 15:10:06",
         "release_message": " This is a hotfix release. It fixes the following issues:\r\n\r\n * #5568 Fix a crash when opening projects with zero-length clips.\r\n * #5032 When exporting a file, the sample rate of the tracks is now considered, and last-used sample rate is remembered. \r\n * #5555 Copy-pasting now pastes into audio again by default.  This can be changed via Preferences -> Track Behavior -> Always paste audio as new clips.\r\n * #5549 Mix and render now also resets the gain for the resulting track.\r\n * #5571 Fix clips shifting to the right when effects are applied to them.\r\n * #5106 Fix clicks occurring when overdubbing a project with muted tracks.\r\n * #5533 Fix files being exported without a file extension in rare cases.\r\n * #5539 Show all sample rates possible for MP2 exports.\r\n * #5518 Fix pasting into labels.\r\n * #5543 Fix a crash when clearing loops.\r\n * #5529 Fix copying when \"select all audio if selection required\" is enabled.\r\n * #5598 #5552 Fix GTK detection and compilation for wxWidgets 3.2.4.\r\n * #5551 Fix Nyquist-related crashes.\r\n * #5604 Fix EQs in macros.\r\n * #5511 Fix a crash when closing Audacity.\r\n * #5476 Fix builds on armhf."
     },
@@ -6507,13 +6507,12 @@
         "release_message": "# 更新日志\r\n\r\n- 优化了脚本流程，减少了部分代码\r\n- 增加了校验模块，根据PNG文件头校验是否为PNG图片\r\n- 新增宽高判断，对于宽高正常的PNG图片，做出提示\r\n- 无需再改后缀名，直接导出PNG后缀的文件"
     },
     "https://github.com/ImageMagick/ImageMagick": {
-        "created_at": "",
-        "description": "",
-        "commit_date": "2024-02-26 12:36:17",
-        "commit_message": "just a template for now",
-        "release_tag": "",
-        "release_date": "",
-        "release_message": ""
+        "created_at": "2024-02-25 13:45:06",
+        "description": "🧙‍♂️ ImageMagick 7",
+        "commit_message": "Use (PixelInfo *)NULL instead of nullptr.",
+        "commit_date": "2024-04-04 21:11:12",
+        "release_date": "2024-02-25 17:14:39",
+        "release_message": "## What's Changed\r\n* Add heic:chroma-downsampling-algorithm define for HEIC format images. by @njdoyle in https://github.com/ImageMagick/ImageMagick/pull/7095\r\n\r\n\r\n**Full Changelog**: https://github.com/ImageMagick/ImageMagick/compare/7.1.1-28...7.1.1-29"
     },
     "https://github.com/Ch1ngg/JWTPyCrack": {
         "created_at": "2019-09-05 07:55:21",
@@ -7743,12 +7742,12 @@
         "release_message": ""
     },
     "https://github.com/yaklang/yakit": {
-        "created_at": "2024-03-15 08:54:49",
+        "created_at": "2024-03-29 09:56:15",
         "description": "Cyber Security ALL-IN-ONE Platform",
-        "commit_message": "Merge pull request #1512 from yaklang/song/feat/mitmTabsSwitch\n\nSong/feat/mitm tabs switch",
-        "commit_date": "2024-03-20 03:24:41",
-        "release_date": "2024-03-15 09:14:01",
-        "release_message": ""
+        "commit_message": "Merge pull request #1552 from yaklang/luoluo/feature/new-mod-brute\n\nLuoluo/feature/new mod brute",
+        "commit_date": "2024-04-03 02:51:59",
+        "release_date": "2024-03-29 10:45:39",
+        "release_message": "Yakit v1.3.1-sp6\r\n1. 专项漏洞增加按关键字选取插件扫描\r\n2. 替换数据包扫描旧UI\r\n3. history增加URL搜索\r\n4. 复制为CSRF增加参数“强制https”\r\n5. 插件日志上线新UI\r\n6. 修复启动引擎时会启动多个引擎的bug\r\n7. 替换下拉组件，迁移下拉缓存数据\r\n8. 修复一些样式问题\r\n9. 修复键盘按键失灵问题"
     },
     "https://github.com/bartblaze/Yara-rules": {
         "created_at": "2020-03-26 20:20:29",
@@ -10500,8 +10499,8 @@
     "https://github.com/BishopFox/sliver": {
         "created_at": "2024-02-28 19:43:18",
         "description": "Adversary Emulation Framework",
-        "commit_message": "Merge pull request #1617 from BishopFox/fix-msf-stager\n\nFix hang when calling generate stager",
-        "commit_date": "2024-03-27 14:36:32",
+        "commit_message": "Merge pull request #1623 from BishopFox/export_c2profiles\n\nadd export command for c2 profiles",
+        "commit_date": "2024-04-02 22:04:01",
         "release_date": "2024-02-28 20:00:27",
         "release_message": "Fix for DNS C2, and other small backports. Hoping to have a v1.6 release soon with many more updates!"
     },
@@ -18092,13 +18091,12 @@
         "release_message": "## Highlights\r\n\r\n### Admin Tools Enhancement\r\n\r\n**User management enhancement**\r\nThe user management page now has a list view of all users and administrators can easily find a specific user to edit.\r\n![image](https://user-images.githubusercontent.com/837658/214000909-aed31d2b-a69d-4023-9de5-e6d5826b074c.png)\r\n\r\n**System configuration enhancement**\r\nThe system configuration page now has a list view of all configuration items of PortalDB as well as ConfigDB. Administrators can easily find a specific configuration item to edit.\r\n\r\n![image](https://user-images.githubusercontent.com/837658/214001786-6118261a-caca-4945-b43d-6eed6e94c0ff.png)\r\n\r\n![image](https://user-images.githubusercontent.com/837658/214195645-49c32eda-382c-4db0-bfcd-577e5908dbbb.png)\r\n\r\n**Open platform authorization management enhancement**\r\nThe open platform authorization management page now has a list view of third-party apps and administrators can easily find a specific app to grant permission.\r\n![image](https://user-images.githubusercontent.com/837658/214002894-e95e89b9-7557-4dc3-9cc8-d136cced6db0.png)\r\n\r\n### Basic Types for Item\r\nUsers can now config the types of the item and apollo would do a basic type check based on the type.\r\nThe types available now are String(default), Number, Boolean, and JSON.\r\n![image](https://user-images.githubusercontent.com/837658/214005788-736da40c-4974-490e-8fc8-e16d7bed97b2.png)\r\n\r\n### Non-properties Namespaces Comparison Feature\r\nThe comparison feature for non-properties namespaces is now available.\r\n![image](https://user-images.githubusercontent.com/837658/214736054-27c008b0-ad30-4834-948c-56a851665421.png)\r\n\r\n### Support Database as the Service Registry for apollo-configservice and apollo-adminservice\r\nApollo now supports the use of database as the service registry, without relying on a third-party service registry such as eureka.\r\nSee [database-discovery](https://www.apolloconfig.com/#/en/deployment/distributed-deployment-guide?id=_2235-database-discovery) for more information.\r\n\r\n## What's Changed\r\n\r\n### Features\r\n* Optimize Spring-Security Firewall Deny Request Response 400 by @klboke in https://github.com/apolloconfig/apollo/pull/4428\r\n* Allow users to associate multiple public namespaces at a time by @falser101 in https://github.com/apolloconfig/apollo/pull/4437\r\n* Optimize the UI experience of open platform authorization management by @klboke in https://github.com/apolloconfig/apollo/pull/4436\r\n* Add search key when comparing Configuration items by @falser101 in https://github.com/apolloconfig/apollo/pull/4459\r\n* Add a new API to load items with pagination by @mghio in https://github.com/apolloconfig/apollo/pull/4468\r\n* A user-friendly user management page for apollo portal by @zcy1010 in https://github.com/apolloconfig/apollo/pull/4464\r\n* Switching spring-session serialization mode to json for compatibility with spring-security version updates by @klboke in https://github.com/apolloconfig/apollo/pull/4484\r\n* Sort Namespaces acquired by multiple threads by @klboke in https://github.com/apolloconfig/apollo/pull/4500\r\n* Allow users to delete AppNamespace by @klboke in https://github.com/apolloconfig/apollo/pull/4499\r\n* Add configuration processor for portal developers by @vdisk-group in https://github.com/apolloconfig/apollo/pull/4521\r\n* Add a potential json value check feature by @AbnerHuang2 in https://github.com/apolloconfig/apollo/pull/4519\r\n* Support non-properties-diff by @SunnyBoy-WYH in https://github.com/apolloconfig/apollo/pull/4533\r\n* Add an option to custom oidc userDisplayName by @vdisk-group in https://github.com/apolloconfig/apollo/pull/4507\r\n* Add basic type check for Item value by @furaul in https://github.com/apolloconfig/apollo/pull/4542\r\n* A user-friendly config management page for apollo portal by @webSue in https://github.com/apolloconfig/apollo/pull/4592\r\n* Support use database as a registry by @Anilople in https://github.com/apolloconfig/apollo/pull/4595\r\n* Users can change spring.profiles.active's value without rebuild project by @Anilople in https://github.com/apolloconfig/apollo/pull/4616\r\n* Enable login authentication for eureka by @nobodyiam in https://github.com/apolloconfig/apollo/pull/4663\r\n* Portal-UI adds server config configuration management of ApolloConfigDB by @klboke in https://github.com/apolloconfig/apollo/pull/4680\r\n\r\n### Bug fixes\r\n* Fix: occur a 400 error request when openapi key's parameter contain \"a[0]\" by @CalebZYC in https://github.com/apolloconfig/apollo/pull/4424\r\n* Upgrade mysql-connector-java version to fix possible transaction rollback failure issue by @klboke in https://github.com/apolloconfig/apollo/pull/4425\r\n* Fix 'openjdk:8-jre-alpine' potentially causing wrong number of cpu cores by @klboke in https://github.com/apolloconfig/apollo/pull/4475\r\n* Fix overwrite JSON type configuration being empty by @falser101 in https://github.com/apolloconfig/apollo/pull/4486\r\n* Fix deleted at timestamp by @nobodyiam in https://github.com/apolloconfig/apollo/pull/4493\r\n* Fix openapi item with url illegalKey 400 error by @AbnerHuang2 in https://github.com/apolloconfig/apollo/pull/4549\r\n* Fix `@Transactional` invalid cases by @ksice in https://github.com/apolloconfig/apollo/pull/4551\r\n* Fix the exception occurred when publish/rollback namespaces with grayrelease by @nobodyiam in https://github.com/apolloconfig/apollo/pull/4564\r\n* Fix a json serialization problem during LDAP integration by @klboke in https://github.com/apolloconfig/apollo/pull/4556\r\n* Fix Apollo checks the yaml format interface Response Code = 500  by @klboke in https://github.com/apolloconfig/apollo/pull/4567\r\n* Fix create namespace with single dot 500 error by @AbnerHuang2 in https://github.com/apolloconfig/apollo/pull/4568\r\n* Fix(sec): upgrade fastjson to 1.2.83 by @ren-jq101 in https://github.com/apolloconfig/apollo/pull/4587\r\n* Fix get the openapi interface that contains namespace information for deleted items by @CalebZYC in https://github.com/apolloconfig/apollo/pull/4596\r\n* Disable spring cloud discovery when running test to speed up test process and reduce error log by @wutingjia in https://github.com/apolloconfig/apollo/pull/4604\r\n* Fix Grayscale release Item Value length limit can not be synchronized with its main version by @David-zhang-beep in https://github.com/apolloconfig/apollo/pull/4622\r\n* Fix the problem of deleting blank items appear at the end by @wanggang19 in https://github.com/apolloconfig/apollo/pull/4662\r\n\r\n### Misc\r\n* Remove database migration tool Flyway by @nisiyong in https://github.com/apolloconfig/apollo/pull/4361\r\n* Refactor: replace expired method by @zhangyangx in https://github.com/apolloconfig/apollo/pull/4429\r\n* Some Redundancy Code Cleanup by @HeavenTonight in https://github.com/apolloconfig/apollo/pull/4433\r\n* Refactor: Simplify the code by @zhangyangx in https://github.com/apolloconfig/apollo/pull/4435\r\n* Chore: fix stargazer chart with star-history.com by @tianzhou in https://github.com/apolloconfig/apollo/pull/4441\r\n* Clean up Ctrip related codes by @klboke in https://github.com/apolloconfig/apollo/pull/4448\r\n* Clean up deserted travis ci config by @HeavenTonight in https://github.com/apolloconfig/apollo/pull/4450\r\n* Move apollo-demo, scripts/docker-quick-start and scripts/apollo-on-kubernetes out of main repository by @nobodyiam in https://github.com/apolloconfig/apollo/pull/4440\r\n* Optimize apolloconfigdb-v190-v200-after.sql by @klboke in https://github.com/apolloconfig/apollo/pull/4470\r\n* Optimize performance of '/apps/{appId}/envs/{env}/clusters/{clusterName}/namespaces' interface queries by @klboke in https://github.com/apolloconfig/apollo/pull/4473\r\n* Fix test case NamespaceServiceTest.testFindNamespace() by @klboke in https://github.com/apolloconfig/apollo/pull/4491\r\n* Refactor(apollo-biz): simplify the code of ReleaseService by @mghio in https://github.com/apolloconfig/apollo/pull/4502\r\n* Replace the deprecated SHA-1 algorithm for generating open-api token by @mghio in https://github.com/apolloconfig/apollo/pull/4504\r\n* Refactor ItemSetService(updateSet Item) and ConfigChangeContentBuilder a little bit by @mghio in https://github.com/apolloconfig/apollo/pull/4515\r\n* Refactor tryToGetClientIp method by @klboke in https://github.com/apolloconfig/apollo/pull/4514\r\n* Fix transcation invalid by @ksice in https://github.com/apolloconfig/apollo/pull/4509\r\n* Refactor: Simplify code by @mghio in https://github.com/apolloconfig/apollo/pull/4524\r\n* Update apollo-introduction.md by @ddzyan in https://github.com/apolloconfig/apollo/pull/4534\r\n* Add index for table ReleaseHistory by @mghio in https://github.com/apolloconfig/apollo/pull/4550\r\n* Refactoring the message splicing of internal Exceptions by @klboke in https://github.com/apolloconfig/apollo/pull/4571\r\n* Fix: add missing @Override annotation for ApolloEurekaClientConfig#getEurekaServerServiceUrls by @CalebZYC in https://github.com/apolloconfig/apollo/pull/4575\r\n* Add overloaded shortcut method to register BeanDefinition by @liaozan in https://github.com/apolloconfig/apollo/pull/4574\r\n* Docs: misspelled recommend by @llnancy in https://github.com/apolloconfig/apollo/pull/4582\r\n* Docs: add a version notice in the Open API documentation by @mghio in https://github.com/apolloconfig/apollo/pull/4585\r\n* Docs: add nodejs client sdk  by @ChoGathK in https://github.com/apolloconfig/apollo/pull/4590\r\n* Move apollo-core, apollo-client, apollo-mockserver, apollo-openapi and apollo-client-config-data to apollo-java repo by @nobodyiam in https://github.com/apolloconfig/apollo/pull/4594\r\n* Fix doc bug by @lepdou in https://github.com/apolloconfig/apollo/pull/4579\r\n* Fixes testUpdateBranchGrayRulesWithUpdateOnce by @ZhewenFu in https://github.com/apolloconfig/apollo/pull/4599\r\n* Fix flaky test in apollo-biz by @anantdahiya8 in https://github.com/apolloconfig/apollo/pull/4618\r\n* Docs: fix markdown code blocks by change 4 back quote to 3 back quote by @hxpdong in https://github.com/apolloconfig/apollo/pull/4631\r\n* Refactor: remove app.properties and move some config file's location by @Anilople in https://github.com/apolloconfig/apollo/pull/4637\r\n* Docs: upgrade rainbond deploy docs version to 2.0.1 by @week2311 in https://github.com/apolloconfig/apollo/pull/4652\r\n* Add an apollo-go client by @xnzone in https://github.com/apolloconfig/apollo/pull/4665\r\n* Config cookie same site to lax by @nobodyiam in https://github.com/apolloconfig/apollo/pull/4664\r\n* Update docker quick start document by @schneiderlin in https://github.com/apolloconfig/apollo/pull/4675\r\n* Add portal https guide by @nobodyiam in https://github.com/apolloconfig/apollo/pull/4676\r\n* Unify the experience of using the portal UI by @klboke in https://github.com/apolloconfig/apollo/pull/4681\r\n* Simplify url assembly in test cases by @klboke in https://github.com/apolloconfig/apollo/pull/4682\r\n* Add github action to publish docker image by @nobodyiam in https://github.com/apolloconfig/apollo/pull/4685\r\n* Delete unused code by @klboke in https://github.com/apolloconfig/apollo/pull/4701\r\n* Docs: add apollo rust client by @liushv0 in https://github.com/apolloconfig/apollo/pull/4704\r\n\r\n### Breaking Changes\r\n\r\nAs was discussed in #4353, apollo drops the support for the flyway database migration tool.\r\n\r\n## Installation\r\n\r\nPlease refer to the [Distributed Deployment Guide](https://www.apolloconfig.com/#/en/deployment/distributed-deployment-guide).\r\n\r\n## How to upgrade from v2.0.1 to v2.1.0\r\n* Apply [apolloconfigdb-v200-v210.sql](https://github.com/ctripcorp/apollo/blob/master/scripts/sql/delta/v200-v210/apolloconfigdb-v200-v210.sql) to ApolloConfigDB\r\n* Deploy v2.1.0 executables with the following sequences:\r\n  * apollo-configservice\r\n  * apollo-adminservice\r\n  * apollo-portal\r\n* Execute the following SQL to clear the spring sessions as spring security sessions are not compatible between versions, see https://github.com/spring-projects/spring-security/issues/9204\r\n```sql\r\nuse ApolloPortalDB;\r\ndelete from `SPRING_SESSION_ATTRIBUTES`;\r\ndelete from `SPRING_SESSION`;\r\n```\r\n\r\n## New Contributors\r\n* @shenhuaxin made their first contribution in https://github.com/apolloconfig/apollo/pull/4409\r\n* @lorgine-li made their first contribution in https://github.com/apolloconfig/apollo/pull/4414\r\n* @Anthony-Lu made their first contribution in https://github.com/apolloconfig/apollo/pull/4419\r\n* @zhangyangx made their first contribution in https://github.com/apolloconfig/apollo/pull/4429\r\n* @HeavenTonight made their first contribution in https://github.com/apolloconfig/apollo/pull/4433\r\n* @tianzhou made their first contribution in https://github.com/apolloconfig/apollo/pull/4441\r\n* @falser101 made their first contribution in https://github.com/apolloconfig/apollo/pull/4437\r\n* @ksice made their first contribution in https://github.com/apolloconfig/apollo/pull/4509\r\n* @ddzyan made their first contribution in https://github.com/apolloconfig/apollo/pull/4534\r\n* @AbnerHuang2 made their first contribution in https://github.com/apolloconfig/apollo/pull/4519\r\n* @SunnyBoy-WYH made their first contribution in https://github.com/apolloconfig/apollo/pull/4533\r\n* @furaul made their first contribution in https://github.com/apolloconfig/apollo/pull/4542\r\n* @liaozan made their first contribution in https://github.com/apolloconfig/apollo/pull/4574\r\n* @llnancy made their first contribution in https://github.com/apolloconfig/apollo/pull/4582\r\n* @ren-jq101 made their first contribution in https://github.com/apolloconfig/apollo/pull/4587\r\n* @ChoGathK made their first contribution in https://github.com/apolloconfig/apollo/pull/4590\r\n* @wutingjia made their first contribution in https://github.com/apolloconfig/apollo/pull/4604\r\n* @webSue made their first contribution in https://github.com/apolloconfig/apollo/pull/4592\r\n* @ZhewenFu made their first contribution in https://github.com/apolloconfig/apollo/pull/4599\r\n* @anantdahiya8 made their first contribution in https://github.com/apolloconfig/apollo/pull/4618\r\n* @David-zhang-beep made their first contribution in https://github.com/apolloconfig/apollo/pull/4622\r\n* @hxpdong made their first contribution in https://github.com/apolloconfig/apollo/pull/4631\r\n* @week2311 made their first contribution in https://github.com/apolloconfig/apollo/pull/4652\r\n* @xnzone made their first contribution in https://github.com/apolloconfig/apollo/pull/4665\r\n* @wanggang19 made their first contribution in https://github.com/apolloconfig/apollo/pull/4662\r\n* @schneiderlin made their first contribution in https://github.com/apolloconfig/apollo/pull/4675\r\n* @liushv0 made their first contribution in https://github.com/apolloconfig/apollo/pull/4704"
     },
     "https://github.com/extremecoders-re/pyinstxtractor": {
-        "created_at": "",
-        "description": "",
-        "commit_date": "2024-01-20 12:36:02",
+        "created_at": "2023-12-03 18:19:07",
+        "description": "PyInstaller Extractor",
         "commit_message": "Mention support for pyinstaller 6.3.0",
-        "release_tag": "",
-        "release_date": "",
-        "release_message": ""
+        "commit_date": "2024-01-20 12:36:02",
+        "release_date": "2023-12-03 18:20:26",
+        "release_message": "Bump release version"
     },
     "https://github.com/odedshimon/BruteShark": {
         "created_at": "2020-02-16 20:58:59",
@@ -18799,8 +18797,8 @@
     "https://github.com/sajjadium/ctf-archives": {
         "created_at": "2021-06-10 16:53:52",
         "description": " CTF Archives: Collection of CTF Challenges.",
-        "commit_message": "XCTF-DubheCTF chals",
-        "commit_date": "2024-03-20 06:23:00"
+        "commit_message": "RITSEC challs",
+        "commit_date": "2024-04-06 00:34:34"
     },
     "https://github.com/KaLendsi/CVE-2022-21882": {
         "created_at": "2022-01-27 03:44:10",
@@ -22494,8 +22492,12 @@
         "release_message": ""
     },
     "https://github.com/LC044/WeChatMsg": {
-        "created_at": "2023-01-11 05:03:49",
-        "description": "提取微信聊天记录，将其导出成HTML、Word、CSV文档永久保存，对聊天记录进行分析生成年度聊天报告"
+        "created_at": "2024-03-29 07:23:50",
+        "description": "提取微信聊天记录，将其导出成HTML、Word、CSV文档永久保存，对聊天记录进行分析生成年度聊天报告",
+        "commit_message": "update readme.md",
+        "commit_date": "2024-03-29 07:23:50",
+        "release_date": "2024-03-29 16:35:01",
+        "release_message": "# 新功能\r\n## 1、新增导出企业微信聊天记录\r\n## 2、HTML新增个人名片分享、位置分享\r\n\r\n- 个人名片分享包含头像、微信名、微信号、地区、性别\r\n\r\n![image.png](https://cdn.nlark.com/yuque/0/2024/png/42745842/1711723210573-a3a802a8-1546-42a2-b829-20a9f252386b.png#averageHue=%23f0efef&clientId=u967db8f5-e4aa-4&from=paste&height=189&id=u5e606a5a&originHeight=236&originWidth=420&originalType=binary&ratio=1.25&rotation=0&showTitle=false&size=22038&status=done&style=none&taskId=uda5ba322-005c-401d-bda1-b8fb51d7781&title=&width=336)\r\n\r\n- 位置分享包含具体位置、街道信息\r\n\r\n![image.png](https://cdn.nlark.com/yuque/0/2024/png/42745842/1711723516595-87cfdfd3-d3af-4e0d-be9b-8052f1c7c66b.png#averageHue=%23f1e4d9&clientId=u967db8f5-e4aa-4&from=paste&height=221&id=ud538eccc&originHeight=276&originWidth=386&originalType=binary&ratio=1.25&rotation=0&showTitle=false&size=40144&status=done&style=none&taskId=ueb619465-187d-44fa-9ee9-a8f192bb49a&title=&width=308.8)\r\n\r\n# 优化\r\n\r\n- 修复HTML没有聊天记录报错问题\r\n- 修复群聊无法导出docx的问题\r\n- 修改朋友圈样式\r\n- 修复部分bug\r\n\r\n# 2.0.4开发计划\r\n\r\n- 导出指定好友朋友圈\r\n\r\n# 链接\r\n官网：[https://memotrace.cn/](https://memotrace.cn/)\r\nAI聊天：[https://chat.memotrace.cn/](https://memotrace.cn/)\r\n使用教程：[https://blog.lc044.love/](https://memotrace.cn/)\r\n阿里云盘下载地址:https://www.alipan.com/s/h6fDSP4igcz\r\n百度网盘下载地址:https://pan.baidu.com/s/1Bc7Nnnn4yychMPVFDDAsKA?pwd=ez1k\r\nUC网盘下载地址：[https://fast.uc.cn/s/6623320932a54](https://fast.uc.cn/s/6623320932a54)\r\n"
     },
     "https://github.com/netero1010/ClipboardHistoryThief": {
         "created_at": "2023-04-15 07:08:48",
@@ -24442,8 +24444,8 @@
         "description": "魅族安全中心"
     },
     "https://sec.vip.com/": {
-        "status_code": 503,
-        "description": ""
+        "status_code": 200,
+        "description": "VSRC首页-唯品会信息安全中心"
     },
     "https://sec.wacai.com/": {
         "status_code": 200,
@@ -25769,8 +25771,8 @@
     "https://github.com/kvesta/vesta": {
         "created_at": "2023-12-24 09:18:49",
         "description": "A static analysis of vulnerabilities, Docker and Kubernetes cluster configuration detect toolkit based on the real penetration of cloud computing",
-        "commit_message": "Merge pull request #49 from christasa/develop\n\nAdd the severity of each Linux capabilities",
-        "commit_date": "2024-03-18 11:21:48",
+        "commit_message": "Merge pull request #50 from christasa/develop\n\nAdd the checking of liblzma.so backdoor",
+        "commit_date": "2024-04-03 12:43:11",
         "release_date": "2023-12-25 04:51:59",
         "release_message": "Notable Updates:\r\n- **Add Docker Histories environment checking**\r\nThe Docker Histories checking inlcuding the malicious variables, unsafe command and hardcode. This feature is implemented in the Docker analysis and image scan, accepting either a tar file or an image ID.\r\n- **Add the filesystem scanning**\r\n- **Add `BearerToken` for authentication**\r\n- **Delete the `--inside` flag in the k8s analysis**\r\nThe founction `clientcmd.BuildConfigFromFlags` will automatically use `restclient.InClusterConfig` when it can't find the config in user directory. Therefore, remove the redundant inside symbols.\r\n\r\n\r\n\r\n| md5 | filename |\r\n| --- | --- |\r\n| 75820c21fc4df579df4dfa12e47eafcd |  vesta_darwin_amd64 |\r\n| 50e4aa00ae5a5ccc5f4ba07ffa239204 | vesta_linux_amd64 |\r\n| 1b6dc5033ab5bada38d5027fd655d56e | vesta_windows_amd64.exe | \r\n"
     },
@@ -26484,5 +26486,45 @@
         "commit_date": "2023-09-06 14:40:24",
         "release_date": "2023-12-27 13:26:36",
         "release_message": "2023.12.27 新增右键菜单复制、粘贴、剪切、撤回等功能。"
+    },
+    "https://github.com/Xyntax/BingC": {
+        "created_at": "2016-06-23 08:56:32",
+        "description": "基于Bing搜索引擎的C段/旁站查询，多线程，支持API",
+        "commit_message": "add log1",
+        "commit_date": "2016-07-04 22:32:11"
+    },
+    "https://github.com/ConsenSys/mythril": {
+        "created_at": "2024-03-27 22:02:15",
+        "description": "Security analysis tool for EVM bytecode. Supports smart contracts built for Ethereum, Hedera, Quorum, Vechain, Roostock, Tron and other EVM-compatible blockchains.",
+        "commit_message": "Update README.md",
+        "commit_date": "2024-03-28 13:47:50",
+        "release_date": "2024-03-27 22:02:44",
+        "release_message": "## What's Changed\r\n* Add improved state merging by @norhh in https://github.com/Consensys/mythril/pull/1843\r\n* Remove a partial feature  by @norhh in https://github.com/Consensys/mythril/pull/1844\r\n* chore: remove repetitive words by @suchsoon in https://github.com/Consensys/mythril/pull/1845\r\n* fix typos by @xiaoxianBoy in https://github.com/Consensys/mythril/pull/1846\r\n* Fix a bug due to issues with balance by @norhh in https://github.com/Consensys/mythril/pull/1848\r\n* chore: fix some comments by @sellskin in https://github.com/Consensys/mythril/pull/1849\r\n\r\n## New Contributors\r\n* @suchsoon made their first contribution in https://github.com/Consensys/mythril/pull/1845\r\n* @xiaoxianBoy made their first contribution in https://github.com/Consensys/mythril/pull/1846\r\n* @sellskin made their first contribution in https://github.com/Consensys/mythril/pull/1849\r\n\r\n**Full Changelog**: https://github.com/Consensys/mythril/compare/v0.24.7...v0.24.8"
+    },
+    "https://github.com/niloofarkheirkhah/nili": {
+        "created_at": "2017-09-22 06:05:49",
+        "description": "Nili is a Tool for Network Scan, Man in the Middle, Protocol Reverse Engineering and Fuzzing.",
+        "commit_message": "Update README.md",
+        "commit_date": "2018-10-06 10:06:07",
+        "release_date": "2017-09-22 05:32:45",
+        "release_message": ""
+    },
+    "https://github.com/zhangzhenfeng/AnyScan": {
+        "created_at": "2017-01-23 01:28:48",
+        "description": "AnyScan",
+        "commit_message": "Update readme.md",
+        "commit_date": "2020-07-01 13:26:44"
+    },
+    "https://github.com/hahwul/a2sv": {
+        "created_at": "2016-01-25 07:15:37",
+        "description": "Auto Scanning to SSL Vulnerability",
+        "commit_message": "Merge pull request #42 from juanlorente/patch-2\n\nUpdate a2sv.py",
+        "commit_date": "2020-11-26 14:05:18"
+    },
+    "https://github.com/riusksk/FlashScanner": {
+        "created_at": "2016-02-11 13:47:21",
+        "description": "Flash XSS Scanner",
+        "commit_message": "test\n\ntest",
+        "commit_date": "2016-06-26 03:11:52"
     }
 }
