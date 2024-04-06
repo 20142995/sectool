@@ -24,135 +24,282 @@
                 - https://github.com/yqw1212/Liaoning-provincial-competition-target-1
                 - https://github.com/zhl2008/awd-platform
         Crypto:
+            16进制转字符串:
+                - https://tool.hiofd.com/hex-convert-string-online
+                - https://www.bejson.com/convert/ox2str/
+                - https://www.rapidtables.org/zh-CN/convert/number/hex-to-ascii.html
+                - https://www.sojson.com/hexadecimal.html
+            3DES加密解密:
+                - http://tool.chacuo.net/crypt3des
+            A1z26密码:
+                - http://www.hiencode.com/a1z26.html
+            AAencode颜文字:
+                - http://utf-8.jp/public/aaencode.html
+                - http://www.atoolbox.net/Tool.php?Id=703
+                - http://www.hiencode.com/aaencode.html
+            ADFGVX密码:
+                - http://www.hiencode.com/adfgvx.html
+            ADFGX:
+                - http://www.practicalcryptography.com/ciphers/adfgx-cipher/
+            ADFGX加密解密:
+                - https://ctf.bugku.com/tool/adfgx
+            ADFGX密码:
+                - http://www.hiencode.com/adfgx.html
+            ADFGX密码加密解密:
+                - http://www.atoolbox.net/Tool.php?Id=918
+            AES加密:
+                - http://www.hiencode.com/caes.html
+            AES加密解密:
+                - http://tool.chacuo.net/cryptaes
+            ASCII编码转换:
+                - http://www.hiencode.com/cencode.html
+            Base100编码解码:
+                - http://www.atoolbox.net/Tool.php?Id=936
+                - https://ctf.bugku.com/tool/base100
+            Base16在线编码解码:
+                - https://ctf.bugku.com/tool/base16
+            Base16编码解码:
+                - http://www.atoolbox.net/Tool.php?Id=930
+            Base32在线编码解码:
+                - https://ctf.bugku.com/tool/base32
+            Base32编码解码:
+                - http://www.atoolbox.net/Tool.php?Id=931
+            Base58在线编码解码:
+                - https://ctf.bugku.com/tool/base58
+            Base58编码解码:
+                - http://www.atoolbox.net/Tool.php?Id=932
+            Base62在线编码解码:
+                - https://ctf.bugku.com/tool/base62
+            Base62编码解码:
+                - http://www.atoolbox.net/Tool.php?Id=933
+            Base64在线编码解码:
+                - https://ctf.bugku.com/tool/base64
+            Base85编码:
+                - http://www.hiencode.com/base85.html
+            Base85编码解码:
+                - http://www.atoolbox.net/Tool.php?Id=934
+                - https://ctf.bugku.com/tool/base85
+            Base91在线编码解码:
+                - https://ctf.bugku.com/tool/base91
+            Base91编码解码:
+                - http://www.atoolbox.net/Tool.php?Id=935
+            Base92在线编码解码:
+                - https://ctf.bugku.com/tool/base92
+            Base92编码:
+                - http://www.hiencode.com/base92.html
+            Blowfish加密解密:
+                - http://tool.chacuo.net/cryptblowfish
+            Brainfuck:
+                - https://c5r.app/tools/brain-fuck
+            Brainfuck_Ook!:
+                - http://www.hiencode.com/brain.html
+                - https://ctf.bugku.com/tool/brainfuck
+                - https://tool.bugku.com/brainfuck
+                - https://www.splitbrain.org/services/ook
+            BubbleBabble:
+                - http://www.hiencode.com/bubble.html
+            Cast加密解密:
+                - http://tool.chacuo.net/cryptcast
+            DES加密:
+                - http://www.hiencode.com/cdes.html
+            DNA基因序列编码:
+                - https://skaminsky115.github.io/nac/DNA-mRNA-Protein_Converter.html
+            DSA密钥对:
+                - http://web.chacuo.net/netdsakeypair
+            Escape编码:
+                - http://www.hiencode.com/escape.html
+            Gost加密解密:
+                - http://tool.chacuo.net/cryptgost
+            Gronsfeld密码:
+                - http://www.hiencode.com/gronsfeld.html
+            HTML实体编码:
+                - https://www.convertstring.com/zh_CN/EncodeDecode/HtmlDecode
+            HTML编码:
+                - http://www.hiencode.com/html_en.html
+            HTTP(S)响应头查看:
+                - http://www.hiencode.com/http_head.html
+            Handycode:
+                - http://www.hiencode.com/handycode.html
+            Hex编码:
+                - http://www.hiencode.com/hex.html
+            JJencode:
+                - http://www.hiencode.com/jjencode.html
+            JSfuck:
+                - http://codertab.com/JsUnFuck
+                - http://www.hiencode.com/jsfuck.html
+                - http://www.liminba.com/tool/jsfuckdecode/
+                - https://c5r.app/tools/jsfuck
+                - https://www.bugku.com/tools/jsfuck/
+            MD5:
+                - https://www.cmd5.com/
+            Mimetypes:
+                - http://www.hiencode.com/mimetypes.html
+            PKCS#1转PKCS8:
+                - http://tool.chacuo.net/cryptrsapkcs1pkcs8
+            Porta密码:
+                - http://www.hiencode.com/porta.html
+            Punycode:
+                - http://www.hiencode.com/punycode.html
+            Quoted-printable:
+                - http://web.chacuo.net/charsetquotedprintable/
+            Quoted编码:
+                - http://www.hiencode.com/quoted.html
+            RC2加密解密:
+                - http://tool.chacuo.net/cryptrc2
+            RC4加密:
+                - http://www.hiencode.com/rc4.html
+            RC4加密解密:
+                - http://tool.chacuo.net/cryptrc4
+            RC5加密解密:
+                - http://tool.chacuo.net/cryptrc5
+            RC6加密解密:
+                - http://tool.chacuo.net/cryptrc6
+            ROT:
+                - https://www.qqxiuzi.cn/bianma/rot5-13-18-47.php
+            RSA大数分解:
+                - http://www.factordb.com/index.php
+            RSA密钥对:
+                - http://web.chacuo.net/netrsakeypair
+            RSA私钥密码修改:
+                - http://tool.chacuo.net/cryptrsapassmodify
+            RSA私钥密码清除:
+                - http://tool.chacuo.net/cryptrsapassclear
+            RSA私钥解析:
+                - http://www.hiencode.com/priv_asys.html
+            RSA综合工具:
+                - https://github.com/6u661e/CTF-RSA-tool
+                - https://github.com/Mr-Aur0ra/RSA
+                - https://github.com/RsaCtfTool/RsaCtfTool
+                - https://github.com/pablocelayes/rsa-wiener-attack
+            Rabbit:
+                - http://www.jsons.cn/rabbitencrypt/
+                - https://www.sojson.com/encrypt_rabbit.html
+            Rijndael加密解密:
+                - http://tool.chacuo.net/cryptrijndael
+            Rot13密码:
+                - http://www.hiencode.com/rot13.html
+            Rsa公私钥解析:
+                - http://tool.chacuo.net/cryptrsakeyparse
+            Serpent加密解密:
+                - http://tool.chacuo.net/cryptserpent
+            Serpent（蛇）:
+                - http://serpent.online-domain-tools.com/
+            Sojson.v4解密:
+                - https://ctf.bugku.com/tool/sojson4
+            Sojson.v5（jsjiami.com.v5）解密:
+                - https://ctf.bugku.com/tool/sojson5
+            Terple DES加密:
+                - http://www.hiencode.com/tdes.html
+            TripleDes(3DES)加密解密-采用CryptoJS:
+                - https://ctf.bugku.com/tool/tripledes
+            Twofish加密解密:
+                - http://tool.chacuo.net/crypttwofish
+            Type7密码加密解密:
+                - http://www.atoolbox.net/Tool.php?Id=992
+            URL编码:
+                - http://www.hiencode.com/url.html
+            UTF-8与GBK编码转换:
+                - http://www.atoolbox.net/Tool.php?Id=1066
+            UUencode:
+                - http://web.chacuo.net/charsetuuencode
+                - http://www.hiencode.com/uu.html
+            WebSocket测试:
+                - http://www.hiencode.com/web_socket.html
+            XTEA加密解密:
+                - http://www.atoolbox.net/Tool.php?Id=1089
+            XXTEA加密解密:
+                - http://www.atoolbox.net/Tool.php?Id=1090
+            XXencode:
+                - http://web.chacuo.net/charsetxxencode
+                - http://www.hiencode.com/xxencode.html
+            XXencode加密解密:
+                - https://ctf.bugku.com/tool/xxencode
+            Xtea加密解密:
+                - http://tool.chacuo.net/cryptxtea
+            base36编码:
+                - http://www.hiencode.com/base36w.html
+            base58编码:
+                - http://www.hiencode.com/base58w.html
+            base62编码:
+                - http://www.hiencode.com/base62.html
+            base91编码:
+                - http://www.hiencode.com/base91.html
+            base编码:
+                - http://www.hiencode.com/base64.html
+            brainfuck颜文字:
+                - https://esolangs.org/wiki/(_%CD%A1%C2%B0_%CD%9C%CA%96_%CD%A1%C2%B0)fuck
+            chacha20加解密:
+                - http://tool.chacuo.net/cryptchacha20
+            cisco 密码解密:
+                - https://www.ifm.net.nz/cookbooks/passwordcracker.html
+            cryptojs加密解密:
+                - https://www.sojson.com/encrypt.html
+            emoji-aes:
+                - https://aghorler.github.io/emoji-aes/
+            hex转字符:
+                - https://the-x.cn/encodings/Hex.aspx
+            logo编程:
+                - https://www.calormen.com/jslogo/
+            malbolge编程:
+                - https://zb3.me/malbolge-tools/
+            ppencode:
+                - http://www.hiencode.com/ppencode.html
+            quipqiup:
+                - http://quipqiup.com/
+                - https://quipqiup.com
+                - https://quipqiup.com/
+            rsa私钥加密解密:
+                - http://tool.chacuo.net/cryptrsaprikey
+            与佛论禅:
+                - http://hi.pcmoe.net/buddha.html
+                - http://www.keyfc.net/bbs/tools/tudoucode.aspx
+            与佛论禅加密解密:
+                - http://www.atoolbox.net/Tool.php?Id=1027
+                - https://ctf.bugku.com/tool/todousharp
+            中文加密:
+                - https://www.qqxiuzi.cn/bianma/wenbenjiami.php
+            仿射密码:
+                - http://www.hiencode.com/affine.html
+                - https://www.boxentriq.com/code-breaking/affine-cipher
+            公钥解析:
+                - http://www.hiencode.com/pub_asys.html
+            关键字密码:
+                - http://www.hiencode.com/keyword.html
+            凯撒(Caesar)加密解密:
+                - https://ctf.bugku.com/tool/caesar
+            凯撒密码:
+                - http://moersima.00cha.net/kaisamima.asp
+                - http://www.hiencode.com/caesar.html
+            列移位密码:
+                - http://www.hiencode.com/colum.html
+            博福特密码:
+                - http://www.hiencode.com/beaufort.html
+            双密码:
+                - http://www.hiencode.com/bifid.html
             古典密码:
                 autokey:
                     - https://github.com/hotzzzzy/breakautokey
-            在线工具:
-                16进制转字符串:
-                    - https://tool.hiofd.com/hex-convert-string-online
-                    - https://www.bejson.com/convert/ox2str/
-                    - https://www.rapidtables.org/zh-CN/convert/number/hex-to-ascii.html
-                    - https://www.sojson.com/hexadecimal.html
-                AAencode颜文字:
-                    - http://utf-8.jp/public/aaencode.html
-                    - http://www.atoolbox.net/Tool.php?Id=703
-                    - http://www.hiencode.com/aaencode.html
-                ADFGX:
-                    - http://www.practicalcryptography.com/ciphers/adfgx-cipher/
-                Brainfuck:
-                    Ook!:
-                        - http://www.hiencode.com/brain.html
-                        - https://www.splitbrain.org/services/ook
-                BubbleBabble:
-                    - http://www.hiencode.com/bubble.html
-                DNA基因序列编码:
-                    - https://skaminsky115.github.io/nac/DNA-mRNA-Protein_Converter.html
-                HTML实体编码:
-                    - https://www.convertstring.com/zh_CN/EncodeDecode/HtmlDecode
-                Handycode:
-                    - http://www.hiencode.com/handycode.html
-                JJencode:
-                    - http://www.hiencode.com/jjencode.html
-                JSfuck:
-                    - http://codertab.com/JsUnFuck
-                    - http://www.hiencode.com/jsfuck.html
-                    - https://www.bugku.com/tools/jsfuck/
-                MD5:
-                    - https://www.cmd5.com/
-                Quoted-printable:
-                    - http://web.chacuo.net/charsetquotedprintable/
-                ROT:
-                    - https://www.qqxiuzi.cn/bianma/rot5-13-18-47.php
-                RSA大数分解:
-                    - http://www.factordb.com/index.php
-                Rabbit:
-                    - http://www.jsons.cn/rabbitencrypt/
-                    - https://www.sojson.com/encrypt_rabbit.html
-                Serpent（蛇）:
-                    - http://serpent.online-domain-tools.com/
-                UUencode:
-                    - http://web.chacuo.net/charsetuuencode
-                    - http://www.hiencode.com/uu.html
-                XXencode:
-                    - http://web.chacuo.net/charsetxxencode
-                    - http://www.hiencode.com/xxencode.html
-                    - https://ctf.bugku.com/tool/xxencode
-                base100:
-                    - https://ctf.bugku.com/tool/base100
-                brainfuck:
-                    - https://tool.bugku.com/brainfuck
-                brainfuck颜文字:
-                    - https://esolangs.org/wiki/(_%CD%A1%C2%B0_%CD%9C%CA%96_%CD%A1%C2%B0)fuck
-                cisco 密码解密:
-                    - https://www.ifm.net.nz/cookbooks/passwordcracker.html
-                cryptojs:
-                    - https://ctf.bugku.com/tool/tripledes
-                    - https://www.sojson.com/encrypt.html
-                emoji-aes:
-                    - https://aghorler.github.io/emoji-aes/
-                hex转字符:
-                    - https://the-x.cn/encodings/Hex.aspx
-                logo编程:
-                    - https://www.calormen.com/jslogo/
-                malbolge编程:
-                    - https://zb3.me/malbolge-tools/
-                ppencode:
-                    - http://www.hiencode.com/ppencode.html
-                quipqiup:
-                    - http://quipqiup.com/
-                    - https://quipqiup.com
-                与佛论禅:
-                    - http://hi.pcmoe.net/buddha.html
-                    - http://www.keyfc.net/bbs/tools/tudoucode.aspx
-                    - https://ctf.bugku.com/tool/todousharp
-                中文加密:
-                    - https://www.qqxiuzi.cn/bianma/wenbenjiami.php
-                仿射密码:
-                    - https://www.boxentriq.com/code-breaking/affine-cipher
-                凯撒密码:
-                    - http://moersima.00cha.net/kaisamima.asp
-                    - https://ctf.bugku.com/tool/caesar
-                圣堂武士密码:
-                    - ./Plugins/img/shengtangwushi.jpg
-                希尔密码:
-                    - https://ctf.bugku.com/tool/hill
-                摩尔斯电码:
-                    - http://www.zhongguosou.com/zonghe/moErSiCodeConverter.aspx
-                敲击码:
-                    - http://ctf.ssleye.com/tapcode.html
-                暴力破解替换:
-                    - https://quipqiup.com/
-                栅栏密码:
-                    - https://www.qqxiuzi.cn/bianma/zhalanmima.php
-                猪圈密码:
-                    - http://ctf.ssleye.com/pigpen.html
-                电报码:
-                    - https://www.qqxiuzi.cn/bianma/dianbao.php
-                百家姓暗号:
-                    - https://api.dujin.org/baijiaxing/
-                社会主义核心价值观:
-                    - http://www.hiencode.com/cvencode.html
-                程序代码空白隐藏:
-                    - https://ideone.com/
-                维吉尼亚密码:
-                    - https://www.guballa.de/vigenere-solver
-                    - https://www.mygeocachingprofile.com/codebreaker.vigenerecipher.aspx
-                    - https://www.qqxiuzi.cn/bianma/weijiniyamima.php
-                编码解码综合网站:
-                    - http://fbcs.bplaced.net/multi_encoder_decoder.html
-                    - http://www.atoolbox.net/Category.php?Id=27
-                    - http://www.hiencode.com/
-                    - https://ctf.bugku.com/tools
-                    - https://ctf.mzy0.com/CyberChef3/
-                    - https://ctfever.uniiem.com/
-                    - https://tool.lu/
-                词频分析:
-                    - https://quipqiup.com/
-                零宽隐写:
-                    - http://330k.github.io/misc_tools/unicode_steganography.html
-                    - https://www.qqxiuzi.cn/bianma/yincangjiami.php
-                音乐符号加密:
-                    - https://www.qqxiuzi.cn/bianma/wenbenjiami.php?s=yinyue
+            同音替代密码加密解密:
+                - http://www.atoolbox.net/Tool.php?Id=919
+            哈希计算:
+                - http://www.hiencode.com/hash.html
+            四方密码:
+                - http://www.hiencode.com/four.html
+            圣堂武士密码:
+                - ./Plugins/img/shengtangwushi.jpg
+            在线UUencode加密解密:
+                - https://ctf.bugku.com/tool/uuencode
+            埃特巴什码:
+                - http://www.hiencode.com/atbash.html
+            培根密码:
+                - http://www.hiencode.com/baconian.html
+            希尔加密解密:
+                - https://ctf.bugku.com/tool/hill
+            恩尼格玛密码机密码加密解密:
+                - http://www.atoolbox.net/Tool.php?Id=993
+            摩尔斯电码:
+                - http://www.zhongguosou.com/zonghe/moErSiCodeConverter.aspx
+                - https://c5r.app/tools/morse-code
             散列哈希:
                 MD5解密:
                     - https://cmd5.la/
@@ -162,17 +309,76 @@
                 综合:
                     - https://www.cmd5.com
                     - https://www.onlinehashcrack.com/
+            敲击码:
+                - http://ctf.ssleye.com/tapcode.html
+                - http://www.hiencode.com/tapcode.html
             文件破解:
                 - https://www.catpasswd.com/
+            普莱菲尔密码:
+                - http://www.hiencode.com/playfair.html
+            栅栏(RailFence)加密解密:
+                - https://ctf.bugku.com/tool/railfence
+            栅栏密码:
+                - http://www.hiencode.com/railfence.html
+                - https://www.qqxiuzi.cn/bianma/zhalanmima.php
+            校验RSA密钥对:
+                - http://tool.chacuo.net/cryptrsakeyvalid
+            模数生成Rsa公钥:
+                - http://tool.chacuo.net/cryptrsamodulus2pkey
+            滚动密钥密码:
+                - http://www.hiencode.com/runkey.html
+            猪圈密码:
+                - http://ctf.ssleye.com/pigpen.html
+                - http://www.hiencode.com/pigpen.html
             现代密码:
-                RSA:
-                    - https://github.com/6u661e/CTF-RSA-tool
-                    - https://github.com/Mr-Aur0ra/RSA
-                    - https://github.com/RsaCtfTool/RsaCtfTool
-                    - https://github.com/pablocelayes/rsa-wiener-attack
-                国密:
+                GM:
                     - https://github.com/JuneAndGreen/sm-crypto
                     - https://github.com/ZZMarquis/gmhelper
+            电报码:
+                - https://www.qqxiuzi.cn/bianma/dianbao.php
+            百家姓加密解密:
+                - http://www.atoolbox.net/Tool.php?Id=1050
+            百家姓暗号:
+                - https://api.dujin.org/baijiaxing/
+            社会主义核心价值观编码:
+                - http://www.hiencode.com/cvencode.html
+                - https://c5r.app/tools/core-values-cipher
+                - https://ctf.bugku.com/tool/cvecode
+            私钥中提取公钥:
+                - http://tool.chacuo.net/cryptgetpubkey
+            程序代码空白隐藏:
+                - https://ideone.com/
+            简单换位密码:
+                - http://www.hiencode.com/simple.html
+            维吉尼亚加密解密:
+                - https://ctf.bugku.com/tool/vigenere
+            维吉尼亚密码:
+                - http://www.hiencode.com/vigenere.html
+                - https://www.guballa.de/vigenere-solver
+                - https://www.mygeocachingprofile.com/codebreaker.vigenerecipher.aspx
+                - https://www.qqxiuzi.cn/bianma/weijiniyamima.php
+            编码解码综合网站:
+                - http://fbcs.bplaced.net/multi_encoder_decoder.html
+                - http://www.atoolbox.net/Category.php?Id=27
+                - http://www.hiencode.com/
+                - https://ctf.bugku.com/tools
+                - https://ctf.mzy0.com/CyberChef3/
+                - https://ctfever.uniiem.com/
+                - https://tool.lu/
+            自动密钥密码加密解密:
+                - http://www.atoolbox.net/Tool.php?Id=920
+                - http://www.hiencode.com/autokey.html
+            莫尔斯电码:
+                - http://www.hiencode.com/morse.html
+            进制转换:
+                - http://www.hiencode.com/jinzhi.html
+            随机密码和密钥生成器:
+                - http://www.atoolbox.net/Tool.php?Id=921
+            零宽隐写:
+                - http://330k.github.io/misc_tools/unicode_steganography.html
+                - https://www.qqxiuzi.cn/bianma/yincangjiami.php
+            音乐符号加密:
+                - https://www.qqxiuzi.cn/bianma/wenbenjiami.php?s=yinyue
         Misc:
             16进制编辑:
                 - https://github.com/WerWolv/ImHex
@@ -201,12 +407,17 @@
             Java反编译:
                 - https://github.com/MountCloud/JavaDecompileTool-GUI
                 - https://github.com/Ppsoft1991/CodeReviewTools
+            js逆向:
+                OB解混淆:
+                    - https://tool.yuanrenxue.cn/decode_obfuscator
             pyc逆向:
+                - https://c5r.app/tools/pyc-decompiler
                 - https://github.com/AngelKitty/stegosaurus
                 - https://github.com/extremecoders-re/pyinstxtractor
                 - https://github.com/rocky/python-uncompyle6
             安卓逆向:
                 - https://github.com/GrowthEase/GameSentry
+                - https://github.com/skylot/jadx
             查壳:
                 - https://github.com/horsicq/DIE-engine
         Web:
@@ -333,6 +544,8 @@
                         - https://github.com/Lotus6/ConfluenceMemshell
                     Coremail:
                         - https://github.com/dpu/coremail-address-book
+                    Druid:
+                        - https://github.com/yuyan-sec/druid_sessions
                     Fastjson:
                         - https://github.com/Lonely-night/fastjsonVul
                         - https://github.com/a1phaboy/FastjsonScan
@@ -1726,6 +1939,9 @@
                     - https://github.com/qwqdanchun/Pillager
                     - https://github.com/riskydissonance/SharpCookieMonster
                     - https://github.com/wekillpeople/browser-dumpwd
+                综合:
+                    - https://github.com/efchatz/pandora
+                    - https://github.com/wafinfo/DecryptTools
                 远程软件:
                     - https://github.com/Arvanaghi/SessionGopher
                     - https://github.com/GhostPack/SharpDPAPI
@@ -1757,6 +1973,7 @@
                     CRC32碰撞:
                         - https://github.com/AabyssZG/CRC32-Tools
                     ZIP伪加密:
+                        - https://c5r.app/tools/pseudo-encrypted-zip-check
                         - https://github.com/442048209as/ZipCenOp
                 图片:
                     png:
@@ -1776,6 +1993,7 @@
                         - https://github.com/linyacool/blind-watermark
                         - https://github.com/ww23/BlindWatermark
                     综合:
+                        - https://c5r.app/tools/bin-extractor
                         - https://github.com/Giotino/stegsolve
                         - https://github.com/zR00t1/ImageStrike
                 音频:
@@ -2113,6 +2331,7 @@
         - https://github.com/cliffe/secgen
         - https://github.com/cr0hn/vulnerable-node
         - https://github.com/deadPix3l/CryptSky
+        - https://github.com/f4cknet/pyhackme
         - https://github.com/fofapro/vulfocus
         - https://github.com/incredibleindishell/SSRF_Vulnerable_Lab
         - https://github.com/j3ers3/Hello-Java-Sec
@@ -2213,3 +2432,8 @@
         redis_for_windows:
             - https://github.com/microsoftarchive/redis
             - https://github.com/tporadowski/redis
+逆向:
+    js逆向:
+        RPC:
+            - https://github.com/jxhczhl/JsRpc
+            - https://github.com/yint-tech/sekiro-open
