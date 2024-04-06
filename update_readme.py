@@ -31,12 +31,13 @@ def main():
                         repo = url[19:].split("/", 1)[1]
                         if data.get(url, {}).get("release_tag", ""):
                             repo += ' ' + data[url]['release_tag']
-                        description = data.get(url, {}).get("description", "")
+                        description = data.get(url, {}).get("description", "") if data.get(url, {}).get("description", "") else ''
                     else:
                         repo = ''
+                        description = ''
                         if data.get(url, {}).get("title", ''):
                             repo = data.get(url, {}).get("title", '')
-                            description = data.get(url, {}).get("description", "")
+                            description = data.get(url, {}).get("description", "") if data.get(url, {}).get("description", "") else ''
                         if data.get(url, {}).get("description", ''):
                             repo = data.get(url, {}).get("description", '')
                             description = ''
