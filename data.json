@@ -27,13 +27,10 @@
         "release_message": ""
     },
     "https://github.com/RsaCtfTool/RsaCtfTool": {
-        "created_at": "",
-        "description": "",
-        "commit_date": "2024-02-20 11:00:20",
-        "commit_message": "Merge pull request #471 from ctf-adam/master\n\nUpdate GitHub Actions to latest versions & more linter fixes",
-        "release_tag": "",
-        "release_date": "",
-        "release_message": ""
+        "created_at": "2015-03-07 17:29:33",
+        "description": "RSA attack tool (mainly for ctf) - retrieve private key from weak public key and/or uncipher data",
+        "commit_message": "Avoid binary_search bug",
+        "commit_date": "2024-03-27 19:53:37"
     },
     "https://github.com/admintony/svnExploit": {
         "created_at": "2018-02-06 09:43:26",
@@ -200,8 +197,8 @@
     "https://github.com/ycdxsb/PocOrExp_in_Github": {
         "created_at": "2021-04-13 05:46:16",
         "description": "聚合Github上已有的Poc或者Exp，CVE信息来自CVE官网。Auto Collect Poc Or Exp from Github by CVE ID.",
-        "commit_message": "update 2024-04-03 06:31:56",
-        "commit_date": "2024-04-02 22:31:57"
+        "commit_message": "update 2024-04-07 08:14:54",
+        "commit_date": "2024-04-07 00:14:54"
     },
     "https://github.com/1n7erface/RequestTemplate": {
         "created_at": "",
@@ -1081,12 +1078,12 @@
         "release_message": "> 第一个发布版本，也是第七个大版本，就是这么奇怪:grin:\r\n#### :pushpin: Support\r\n\r\n- [x] Support system tray\r\n- [x] Support project management\r\n- [x] Support configuration management\r\n- [x] Support template management\r\n- [x] Support template editing\r\n- [x] Support internationalization, default `zh`\r\n- [x] Support multiple network space engine interface search\r\n\r\n**Full Changelog**: https://github.com/Yong-An-Dang/nuclei-plus/commits/v7.0.0"
     },
     "https://github.com/Threekiii/Vulnerability-Wiki": {
-        "created_at": "2022-07-12 06:11:38",
+        "created_at": "2024-03-07 09:30:14",
         "description": "基于 docsify 部署，目前漏洞数量 1000+",
-        "commit_message": "update opentsdb cve-2020-35476 & cve-2023-25826",
-        "commit_date": "2024-03-07 09:30:14",
-        "release_date": "2022-07-15 01:58:00",
-        "release_message": "Vulnerability-Wiki项目中docs-0sec的打包文件，下载后于主项目docs-0sec文件夹下解压即可。\r\n\r\n\r\n"
+        "commit_message": "update",
+        "commit_date": "2024-04-01 03:33:57",
+        "release_date": "2024-04-01 03:17:43",
+        "release_message": "2023.04.01 重构目录，此为重构前 release。重构后目录如下：\r\n```\r\ndirs = {\r\n    'oa':'OA漏洞',\r\n    'cms': 'CMS漏洞',\r\n    'framework': '开发框架漏洞',\r\n    'iot': '网络设备漏洞',\r\n    'language': '开发语言漏洞',\r\n    'os': '操作系统漏洞',\r\n    'webapp': 'Web应用漏洞',\r\n    'middleware': '中间件漏洞',\r\n    'database': '数据库漏洞',\r\n    'cloud': '云安全漏洞',\r\n    'others':'其他漏洞'\r\n}\r\n```"
     },
     "https://github.com/RoomaSec/RmTools": {
         "created_at": "",
@@ -3842,12 +3839,12 @@
         "commit_date": "2024-03-30 09:41:07"
     },
     "https://github.com/neuvector/neuvector": {
-        "created_at": "2024-04-01 11:42:35",
+        "created_at": "2024-04-05 17:09:59",
         "description": null,
-        "commit_message": "Merge pull request #1275 from becitsthere/main\n\nNVSHAS-8811: Increase repo scan limit to 32",
-        "commit_date": "2024-04-02 22:22:24",
-        "release_date": "2024-04-03 22:24:25",
-        "release_message": "## What's Changed\r\n* NVSHAS-8678 - Fix for UI showing in-complete message by @pohanhuangtw in https://github.com/neuvector/neuvector/pull/1195\r\n* NVSHAS-8685: Scanner's docker client version 1.21 is deprecated and no longer supported by @jayhuang-suse in https://github.com/neuvector/neuvector/pull/1198\r\n* NVSHAS-8680: Skip non-image artifacts by @becitsthere in https://github.com/neuvector/neuvector/pull/1199\r\n* NVSHAS-8224, batch delete empty groups to improve auto removal performance by @gfsuse in https://github.com/neuvector/neuvector/pull/1196\r\n* NVSHAS-8660: rke 1.25: runtime driver can not connect with the cri-dockerd.sock by @jayhuang-suse in https://github.com/neuvector/neuvector/pull/1200\r\n* Nvshas 8377 impl by @alopez-suse in https://github.com/neuvector/neuvector/pull/1194\r\n* NVSHAS-8693: goroutine crash at container.(*crioDriver).getContainer() by @jayhuang-suse in https://github.com/neuvector/neuvector/pull/1201\r\n* Add function to read packages of an app by @becitsthere in https://github.com/neuvector/neuvector/pull/1203\r\n* NVSHAS-6483 add support for php composer by @Acmarr in https://github.com/neuvector/neuvector/pull/1207\r\n* NVSHAS-8703: Move image download function to scanner by @becitsthere in https://github.com/neuvector/neuvector/pull/1209\r\n* NVSHAS-8707: Fix segfault in standalone scanner by @becitsthere in https://github.com/neuvector/neuvector/pull/1213\r\n* NVSHAS-8156: UPDATE on Pod is not monitored by NV by @williamlin-suse in https://github.com/neuvector/neuvector/pull/1216\r\n* NVSHAS-5391 & 8631 Improve Host i/f update monitoring by @kyledong-suse in https://github.com/neuvector/neuvector/pull/1217\r\n* NVSHAS-8224, auto remove imorted empty groups by @gfsuse in https://github.com/neuvector/neuvector/pull/1218\r\n* NVSHAS-8716: Newer scanner error for local image and produce inaccurate scanning results by @jayhuang-suse in https://github.com/neuvector/neuvector/pull/1219\r\n* NVSHAS-8720 Fix agent crash at main.intfHostMonitorLoop(0xc0000c0190,… by @kyledong-suse in https://github.com/neuvector/neuvector/pull/1220\r\n* NVSHAS-8720: fix agent crash at main.intfHostMonitorLoop by @kyledong-suse in https://github.com/neuvector/neuvector/pull/1222\r\n* NVSHAS-8580: GCP warning about neuvector-validating-admission-webhook by @williamlin-suse in https://github.com/neuvector/neuvector/pull/1223\r\n* NVSHAS-8156: UPDATE on Pod is not monitored by NV by @williamlin-suse in https://github.com/neuvector/neuvector/pull/1227\r\n* NVSHAS-8711 Risk page - only return the filtered assets while advance… by @jeffhuang4704 in https://github.com/neuvector/neuvector/pull/1228\r\n* NVSHAS-8677 Fix enforcer crash for arm64 by @kyledong-suse in https://github.com/neuvector/neuvector/pull/1229\r\n* NVSHAS-8716: reverse API version change by @jayhuang-suse in https://github.com/neuvector/neuvector/pull/1233\r\n* NVSHAS-8286: Suggest the unhandled NV CR objects should be handled ag… by @williamlin-suse in https://github.com/neuvector/neuvector/pull/1234\r\n* NVSHAS-8756: config_v2 fixes for the REST API by @williamlin-suse in https://github.com/neuvector/neuvector/pull/1235\r\n* NVSHAS-8752 Add ipFqdnStorageMutex to protect reading ipFqdnStorageCache by @kyledong-suse in https://github.com/neuvector/neuvector/pull/1237\r\n* NVSHAS-8701 - Add \\$ for unexpected NV.Protect incidents is found on paste command by @pohanhuangtw in https://github.com/neuvector/neuvector/pull/1236\r\n* NVSHAS-8736: unexpected jar package alert from pod deployment by @jayhuang-suse in https://github.com/neuvector/neuvector/pull/1241\r\n* NVSHAS-7145: implement no proxy hosts for registry scans by @alopez-suse in https://github.com/neuvector/neuvector/pull/1211\r\n* NVSHAS-8791: SIGSEGV: segmentation violation code=0x1 addr=0x18 pc=0x… by @williamlin-suse in https://github.com/neuvector/neuvector/pull/1242\r\n* NVSHAS-8780 - Fix the truncate msg in manual by @pohanhuangtw in https://github.com/neuvector/neuvector/pull/1245\r\n* NVSHAS-7145: compress fields into v2 object by @alopez-suse in https://github.com/neuvector/neuvector/pull/1243\r\n* NVSHAS-8820 In Risk page, the Published time in advanced filter behavior is inverted by @jeffhuang4704 in https://github.com/neuvector/neuvector/pull/1248\r\n* NVSHAS-8829 fix scored filter in risk page by @jeffhuang4704 in https://github.com/neuvector/neuvector/pull/1250\r\n* NVSHAS-8803: container is somehow unable to add to workload successfully frequently by @jayhuang-suse in https://github.com/neuvector/neuvector/pull/1249\r\n* NVSHAS-8780 - Fix the truncate msg in manual by @pohanhuangtw in https://github.com/neuvector/neuvector/pull/1247\r\n* NVSHAS-8812: rootlessKeypairsOnly overrides isPrivate by @alopez-suse in https://github.com/neuvector/neuvector/pull/1246\r\n* NVSHAS-8730 allow parsing multiple entries from manifest.mf by @Acmarr in https://github.com/neuvector/neuvector/pull/1252\r\n* NVSHAS-8551: Add pcap filename random length by @becitsthere in https://github.com/neuvector/neuvector/pull/1253\r\n* NVSHAS-8741: NeuVector scan shows inconsistent baseos image by @jayhuang-suse in https://github.com/neuvector/neuvector/pull/1254\r\n* NVSHAS-8520, allow traffic with LinkLocalUnicast IP for host-mode container by @gfsuse in https://github.com/neuvector/neuvector/pull/1255\r\n* NVSHAS-8730 / NVSHAS-8844 single entry per manifest.mf... by @Acmarr in https://github.com/neuvector/neuvector/pull/1257\r\n* NVSHAS-8829 scored filter issue by @jeffhuang4704 in https://github.com/neuvector/neuvector/pull/1258\r\n* NVSHAS-8730: Revert jar parsing changes. by @becitsthere in https://github.com/neuvector/neuvector/pull/1259\r\n* NVSHAS-7145: add v2 internal registry test types by @alopez-suse in https://github.com/neuvector/neuvector/pull/1261\r\n* NVSHAS-7145: add v2 registry test access by @alopez-suse in https://github.com/neuvector/neuvector/pull/1262\r\n* NVSHAS-8757,8730: Fix jar file package name parsing by @becitsthere in https://github.com/neuvector/neuvector/pull/1263\r\n* NVSHAS-8761, to prevent unexpected violation for hostmode container when allow rule exist by @gfsuse in https://github.com/neuvector/neuvector/pull/1264\r\n* Improve jar package parsing logic by @becitsthere in https://github.com/neuvector/neuvector/pull/1265\r\n* NVSHAS-8865, adjust early detection logic for host-mode container so that connection to external shows correct action by @gfsuse in https://github.com/neuvector/neuvector/pull/1266\r\n\r\n\r\n**Full Changelog**: https://github.com/neuvector/neuvector/compare/v5.3.0...v5.3.1"
+        "commit_message": "Merge pull request #1282 from becitsthere/main\n\nNVSHAS-8901: Fix jar file parsing error",
+        "commit_date": "2024-04-06 00:04:25",
+        "release_date": "2024-04-06 00:07:38",
+        "release_message": "## What's Changed\r\n* NVSHAS-8136(enforcer update): container is selected based on image=xxx criteria, add related containers to group by @jayhuang-suse in https://github.com/neuvector/neuvector/pull/929\r\n* NVSHAS-8136, container is selected based on image=xxx criteria, add related containers to group by @gfsuse in https://github.com/neuvector/neuvector/pull/915\r\n* NVSHAS-8155, previous host ip reused by POD, remove it from iphost cache by @gfsuse in https://github.com/neuvector/neuvector/pull/928\r\n* NVSHAS-7922: [Controller] When syslog server goes unreachable, contro… by @williamlin-suse in https://github.com/neuvector/neuvector/pull/927\r\n* NVSHAS-7994: the Federation.Demote event could be missing after a cluster is demoted by @williamlin-suse in https://github.com/neuvector/neuvector/pull/936\r\n* NVSHAS-6572: Parse image config spec referred in manifest by @becitsthere in https://github.com/neuvector/neuvector/pull/935\r\n* NVSHAS-8172: Not to write local file during benchmark by @becitsthere in https://github.com/neuvector/neuvector/pull/937\r\n* NVSHAS-7949: suggest to not showing the sensitive info in debug log by @jayhuang-suse in https://github.com/neuvector/neuvector/pull/896\r\n* NVSHAS-8170: Auto profile collection feature to capture profile data at the maximum memory by @jayhuang-suse in https://github.com/neuvector/neuvector/pull/917\r\n* NVSHAS-7449: Add extra vul data when report one cve per syslog by @becitsthere in https://github.com/neuvector/neuvector/pull/942\r\n* add rwlock to protect resources by @jeffhuang4704 in https://github.com/neuvector/neuvector/pull/943\r\n* NVSHAS-7077: Document scanner auto-scaling limitation with OpenShift … by @williamlin-suse in https://github.com/neuvector/neuvector/pull/941\r\n* NVSHAS-7379: exit container if proc keep restarting by @becitsthere in https://github.com/neuvector/neuvector/pull/945\r\n* [NVSHAS-8192] Fix dp crash at dp_ctrl_update_ip_fqdn_storage() by @kyledong-suse in https://github.com/neuvector/neuvector/pull/947\r\n* NVSHAS-8170 v2: make auto-profile default and adjustable memory threshold by @jayhuang-suse in https://github.com/neuvector/neuvector/pull/946\r\n* NVSHAS-8082: Not able to edit or delete process rules created using review rules from security events. by @williamlin-suse in https://github.com/neuvector/neuvector/pull/944\r\n* NV Protect: keep temporary agent's process records to improve the false-positive cases by @jayhuang-suse in https://github.com/neuvector/neuvector/pull/909\r\n* NVSHAS-8187: Fix bench script parsing error by @becitsthere in https://github.com/neuvector/neuvector/pull/951\r\n* NVSHAS-8196: Deleted CRD network rule's id stays in rules header list even after the CRD network rule is deleted by @williamlin-suse in https://github.com/neuvector/neuvector/pull/950\r\n* NVSHAS-8106: Prefer manifest v2 cmds by @becitsthere in https://github.com/neuvector/neuvector/pull/954\r\n* NVSHAS-8087: nvadmissioncontrolsecurityrules exists in k8s without corresponding NV Admission control rules by @williamlin-suse in https://github.com/neuvector/neuvector/pull/960\r\n* Fixed indentation and typo in api doc by @minchao in https://github.com/neuvector/neuvector/pull/955\r\n* NVSHAS-8147: Support Azure for csp-adapter cloud billing by @williamlin-suse in https://github.com/neuvector/neuvector/pull/962\r\n* Add ApiKey support to the API doc by @minchao in https://github.com/neuvector/neuvector/pull/961\r\n* Update apis.yaml version by @becitsthere in https://github.com/neuvector/neuvector/pull/966\r\n* NVSHAS-8197: configMap: No error is reported if password do not comply password profile by @williamlin-suse in https://github.com/neuvector/neuvector/pull/972\r\n* Fix parameter definition for post /v1/api_key api and properties for role_domains in api doc by @minchao in https://github.com/neuvector/neuvector/pull/968\r\n* NVSHAS-7728: Add image created time in scan result by @becitsthere in https://github.com/neuvector/neuvector/pull/979\r\n* NVSHAS-8243: Add image create time in repo scan report by @becitsthere in https://github.com/neuvector/neuvector/pull/980\r\n* NVSHAS-8210: use installation-specific key by @holyspectral in https://github.com/neuvector/neuvector/pull/963\r\n* NVSHAS-8241: Add extra vul info into one-per-log event by @becitsthere in https://github.com/neuvector/neuvector/pull/981\r\n* NVSHAS-8051: FileMonitor events are not getting aggregated by @jayhuang-suse in https://github.com/neuvector/neuvector/pull/891\r\n* NVSHAS-8091: remove process_replace_list entry from PATCH(v1/process_profile/:name) API by @jayhuang-suse in https://github.com/neuvector/neuvector/pull/976\r\n* NVSHAS 7990 & 7925 - cgroup error log fixes by @jaimeyu-suse in https://github.com/neuvector/neuvector/pull/970\r\n* NVSHAS-8181: cleanup cgroup path logic by @becitsthere in https://github.com/neuvector/neuvector/pull/982\r\n* NVSHAS-7728: NeuVector should provide container image build date in Assets -> Container details by @jayhuang-suse in https://github.com/neuvector/neuvector/pull/989\r\n* Controller: rewrite the flow of the learning file rule requests. by @jayhuang-suse in https://github.com/neuvector/neuvector/pull/987\r\n* NVSHAS-8213: Escape ad userfilter before authentication by @becitsthere in https://github.com/neuvector/neuvector/pull/991\r\n* NVSHAS-8240: patch a hole when pruneGroupsByNamespace() failed to acquire a policy lock by @jayhuang-suse in https://github.com/neuvector/neuvector/pull/992\r\n* NVSHAS-8212: allow using separate keys for jwt token by @holyspectral in https://github.com/neuvector/neuvector/pull/990\r\n* NVSHAS-8241: Add description to vul log by @becitsthere in https://github.com/neuvector/neuvector/pull/994\r\n* NVSHAS-8246, Improve pruning namespace func to delete related rules faster to avoid holding lock too long by @gfsuse in https://github.com/neuvector/neuvector/pull/997\r\n* NVSHAS-8240: Export of group policy does not return any actual YAML c… by @williamlin-suse in https://github.com/neuvector/neuvector/pull/998\r\n* NVSHAS-7962: Protobuf Changes by @alopez-suse in https://github.com/neuvector/neuvector/pull/1000\r\n* NVSHAS-8287: Skip handling the CRD CREATE/UPDATE requests if the CR's… by @williamlin-suse in https://github.com/neuvector/neuvector/pull/1002\r\n* NVSHAS-8287: Skip handling the CRD CREATE/UPDATE requests if the CR's… by @williamlin-suse in https://github.com/neuvector/neuvector/pull/1004\r\n* NVSHAS-8285: part of CRD groups cannot be pruned successfully after n… by @williamlin-suse in https://github.com/neuvector/neuvector/pull/1007\r\n* NVSHAS-7764: \"Maximum concurrent syslog message reached Check syslog server settings \" ERROR log can be rate limited by @jayhuang-suse in https://github.com/neuvector/neuvector/pull/1005\r\n* NVSHAS-8289: Use env variable in enforcer for enabling/disabling custom benchmark by @jayhuang-suse in https://github.com/neuvector/neuvector/pull/1006\r\n* NVSHAS-5295: extend options for cve report criteria in response rules… by @williamlin-suse in https://github.com/neuvector/neuvector/pull/1012\r\n* NVSHAS-8275: [Enforcer] Creating about 800K files under monitored directory causes enforcer memory bloat to 5G by @jayhuang-suse in https://github.com/neuvector/neuvector/pull/1014\r\n* NVSHAS-8111 - Custom scripts not running by @jaimeyu-suse in https://github.com/neuvector/neuvector/pull/1001\r\n* NVSHAS-7962: Trigger Scans on Signature or Sigstore config changes by @alopez-suse in https://github.com/neuvector/neuvector/pull/1003\r\n* NVSHAS-8249, restrict to non-host mode only for hostip reused as wl ip case by @gfsuse in https://github.com/neuvector/neuvector/pull/999\r\n* NVSHAS-8299: Parse extra image config spec by @becitsthere in https://github.com/neuvector/neuvector/pull/1015\r\n* NVSHAS-8270: Add more control on custom checks (controller) by @williamlin-suse in https://github.com/neuvector/neuvector/pull/1013\r\n* NVSHAS-8239: Implement detection for TLS1.1 in DP by @kyledong-suse in https://github.com/neuvector/neuvector/pull/1008\r\n* NVHSAS-8302: fix manifest scan error for unsigned images by @alopez-suse in https://github.com/neuvector/neuvector/pull/1017\r\n* NVSHAS-7704: show all deny rule violations during configuration assessment by @alopez-suse in https://github.com/neuvector/neuvector/pull/1019\r\n* NVSHAS-8170: move debug data into new folders by @jayhuang-suse in https://github.com/neuvector/neuvector/pull/965\r\n* NVSHAS-8264: Add CSP adapter version to Support Bundle by @williamlin-suse in https://github.com/neuvector/neuvector/pull/1016\r\n* NVSHAS-8312: goroutine crash at scan.IsQuayRegistry(...) by @williamlin-suse in https://github.com/neuvector/neuvector/pull/1020\r\n* NVSHAS-8311: goroutine crash at scan.GetCosignSignatureTagFromDigest(… by @williamlin-suse in https://github.com/neuvector/neuvector/pull/1021\r\n* NVSHAS-8270: Add more control on custom checks (controller) by @williamlin-suse in https://github.com/neuvector/neuvector/pull/1022\r\n* NVSHAS-8169: Namespace admin should be able to see the namespaces he/… by @williamlin-suse in https://github.com/neuvector/neuvector/pull/1023\r\n* NVSHAS-8270: Add more control on custom checks (controller) by @williamlin-suse in https://github.com/neuvector/neuvector/pull/1024\r\n* NVSHAS-8304: Scans failing on one Node only by @jayhuang-suse in https://github.com/neuvector/neuvector/pull/1026\r\n* NVSHAS-8310: don't scan unsigned images when sigstore configuration changes by @alopez-suse in https://github.com/neuvector/neuvector/pull/1025\r\n* NVSHAS-7704: Configuration assessments against Admission Control shou… by @williamlin-suse in https://github.com/neuvector/neuvector/pull/1027\r\n* NVSHAS-8223: Suppress repeated logs by @becitsthere in https://github.com/neuvector/neuvector/pull/1028\r\n* NVSHAS-8320: the criteria info is missing in Admission.Control.Denied… by @williamlin-suse in https://github.com/neuvector/neuvector/pull/1029\r\n* NVSHAS-8319: Modify SQLi signature to prevent false positive by @kyledong-suse in https://github.com/neuvector/neuvector/pull/1031\r\n* NVSHAS-8270: Add more control on custom checks (controller) by @williamlin-suse in https://github.com/neuvector/neuvector/pull/1033\r\n* NVSHAS-8121: suggest not report Container.Suspicious.Process incident for socat processes by @jayhuang-suse in https://github.com/neuvector/neuvector/pull/1035\r\n* NVSHAS-8322 & NVSHAS-8323: fix unnecessary signature rescans by @alopez-suse in https://github.com/neuvector/neuvector/pull/1034\r\n* NVSHAS-8212: Maintain JWT certificate inside NeuVector controllers by @holyspectral in https://github.com/neuvector/neuvector/pull/1030\r\n* NVSHAS-8226, Distribute network policy to enforcer with host awareness by @gfsuse in https://github.com/neuvector/neuvector/pull/978\r\n* NVSHAS-8203, Learn egress to external FQDN address group automatically by @gfsuse in https://github.com/neuvector/neuvector/pull/995\r\n* NVSHAS-5703: Improve update FQDN field in graph by @kyledong-suse in https://github.com/neuvector/neuvector/pull/1036\r\n* NVSHAS-5703: add extra logs for certificate reload by @holyspectral in https://github.com/neuvector/neuvector/pull/1038\r\n* NVSHAS-8336, still need to let relevant nodes know there are new workload detected so policy can be learned by @gfsuse in https://github.com/neuvector/neuvector/pull/1040\r\n* NVSHAS-8338, fix crash due to assignment to entry in nil map by @gfsuse in https://github.com/neuvector/neuvector/pull/1041\r\n* NVSHAS-8327: FileMonitor: Many automation cases fail due to many fields missing in the event. by @jayhuang-suse in https://github.com/neuvector/neuvector/pull/1044\r\n* NVSHAS-8341, policy distribution for host mode related workload need to consider client side for k8s platform by @gfsuse in https://github.com/neuvector/neuvector/pull/1048\r\n* NVSHAS-8342: the message info is incorrect in /v1/assess/admission/ru… by @williamlin-suse in https://github.com/neuvector/neuvector/pull/1050\r\n* NVSHAS-8344: REST API DELETE /v1/response/rule doesn't work by @williamlin-suse in https://github.com/neuvector/neuvector/pull/1051\r\n* NVSHAS-8340: unexpected scannerRegister lock error in controller by @jayhuang-suse in https://github.com/neuvector/neuvector/pull/1047\r\n* NVSHAS-8347: fed deny rule should have high priority than local deny … by @williamlin-suse in https://github.com/neuvector/neuvector/pull/1052\r\n* NVSHAS-8053 - 'ps' process incidents are raised by root process by @jaimeyu-suse in https://github.com/neuvector/neuvector/pull/1049\r\n* NVSHAS-8362: Support GCP for csp-adapter cloud billing by @williamlin-suse in https://github.com/neuvector/neuvector/pull/1056\r\n* NVSHAS-8373: fail to write cvedb into consul kv by @jayhuang-suse in https://github.com/neuvector/neuvector/pull/1061\r\n* NVSHAS-8313 Fix node state shows 'un-managed' but enforcer shows 'connected' by @kyledong-suse in https://github.com/neuvector/neuvector/pull/1057\r\n* NVSHAS-8350: Too many admission control logs when 3rd party keeps upd… by @williamlin-suse in https://github.com/neuvector/neuvector/pull/1058\r\n* NVSHAS-8371 fix part 1, only expand containers group to configured workload to avoid Missing policy mode for both src and dst error by @gfsuse in https://github.com/neuvector/neuvector/pull/1062\r\n* NVSHAS-8385: support output event to controller logs by @becitsthere in https://github.com/neuvector/neuvector/pull/1067\r\n* NVSHAS-5774: Assets > Containers: Show containers that were scanned in registry by @jayhuang-suse in https://github.com/neuvector/neuvector/pull/1065\r\n* NVSHAS-8247: Less cross-check when processing CRD by @williamlin-suse in https://github.com/neuvector/neuvector/pull/1068\r\n* NVSHAS-8324: the scan_summary info in workload object is gone after rolling upgrade by @jayhuang-suse in https://github.com/neuvector/neuvector/pull/1066\r\n* NVSHAS-8171, Report stats at group level by @gfsuse in https://github.com/neuvector/neuvector/pull/1055\r\n* NVSHAS-8368 goroutine crash by @holyspectral in https://github.com/neuvector/neuvector/pull/1060\r\n* NVSHAS-7520: CRD policy in k8s is different from the one in NV (after… by @williamlin-suse in https://github.com/neuvector/neuvector/pull/1069\r\n* NVSHAS-8400: waf and dlp sensor reference is not imported after the r… by @williamlin-suse in https://github.com/neuvector/neuvector/pull/1071\r\n* Add Vectorscan for Arm64 by @kyledong-suse in https://github.com/neuvector/neuvector/pull/1073\r\n* Fix Makefile.arm to use Makefile.rule_arm by @kyledong-suse in https://github.com/neuvector/neuvector/pull/1075\r\n* NVSHAS-8304: Scans failing on one Node only by @jayhuang-suse in https://github.com/neuvector/neuvector/pull/1072\r\n* NVSHAS-8406, only set service container's hasDatapath to true in istio case to avoid unexpected policy behavior by @gfsuse in https://github.com/neuvector/neuvector/pull/1074\r\n* Add rlock protection on the shared map, \"activeContainers\", access. by @jayhuang-suse in https://github.com/neuvector/neuvector/pull/1078\r\n* NVSHAS-8431 reduce log level for jwt cert manager by @holyspectral in https://github.com/neuvector/neuvector/pull/1080\r\n* NVSHAS-6739: ARM support for fanotify by @becitsthere in https://github.com/neuvector/neuvector/pull/1081\r\n* NVSHAS-8204: Add RESTConversationReportEntry into RESTExposedEndpoint by @kyledong-suse in https://github.com/neuvector/neuvector/pull/1083\r\n* NVSHAS-6097/7821: Import/Export of Vulnerability/Compliance Profiles by @williamlin-suse in https://github.com/neuvector/neuvector/pull/1077\r\n* NVSHAS-8387: Apply disabled nvadmissioncontrolsecurityrules yaml with kubectl by @williamlin-suse in https://github.com/neuvector/neuvector/pull/1088\r\n* NVSHAS-7616 SAML Single Logout (SLO) support by @holyspectral in https://github.com/neuvector/neuvector/pull/1090\r\n* NVSHAS-8436: Enforcer - remove the mounting runtime socket requirement  by @jayhuang-suse in https://github.com/neuvector/neuvector/pull/1086\r\n* NVSHAS-7616 dismiss false positive on dependabot by @holyspectral in https://github.com/neuvector/neuvector/pull/1091\r\n* NVSHAS-8354: Apply admission control rules differently for containers… by @williamlin-suse in https://github.com/neuvector/neuvector/pull/1089\r\n* NVSHAS-8100: Fix output_event_to_logs json name by @becitsthere in https://github.com/neuvector/neuvector/pull/1093\r\n* Log event name in msg if msg is missing by @becitsthere in https://github.com/neuvector/neuvector/pull/1095\r\n* NVSHAS-8448 refine validation in server API by @holyspectral in https://github.com/neuvector/neuvector/pull/1097\r\n* NVSHAS-8162: To persist the accept status for RBAC error notifications by @williamlin-suse in https://github.com/neuvector/neuvector/pull/1094\r\n* NVSHAS-7347: Add password reset option to reset user password in console by @williamlin-suse in https://github.com/neuvector/neuvector/pull/1098\r\n* NVSHAS-8462: show unexpected crd error message in /v1/system/rbac by @williamlin-suse in https://github.com/neuvector/neuvector/pull/1100\r\n* NVSHAS-8456: controllers: remove the mounting runtime socket requirement by @jayhuang-suse in https://github.com/neuvector/neuvector/pull/1099\r\n* NVSHAS-7704: Configuration assessments against Admission Control shou… by @williamlin-suse in https://github.com/neuvector/neuvector/pull/1102\r\n* Arm build support change by @kyledong-suse in https://github.com/neuvector/neuvector/pull/1096\r\n* NVSHAS-8471: Configuration Assessment does not work in fleet 5011 by @williamlin-suse in https://github.com/neuvector/neuvector/pull/1107\r\n* NVSHAS-8464: Not to run controller in privileged mode in kubernetes by @jayhuang-suse in https://github.com/neuvector/neuvector/pull/1103\r\n* NVSHAS-8424: Restore of Federated Registry not appearing on managed n… by @williamlin-suse in https://github.com/neuvector/neuvector/pull/1110\r\n* NVSHAS-8332, add a controller ENV to allow enable icmp policy enforcement by @gfsuse in https://github.com/neuvector/neuvector/pull/1079\r\n* NVSHAS-8487: Policy Admission Control: import invalid yaml file retur… by @williamlin-suse in https://github.com/neuvector/neuvector/pull/1111\r\n* NVSHAS-8485: Merge option for Vulnerability Profile import thru REST … by @williamlin-suse in https://github.com/neuvector/neuvector/pull/1112\r\n* NVSHAS-7917: Deleting vulnerable \"java package\" files doesn't remove from vulnerability list by @jayhuang-suse in https://github.com/neuvector/neuvector/pull/1109\r\n* Webhook connection through proxy by @becitsthere in https://github.com/neuvector/neuvector/pull/1114\r\n* NVSHAS-8493: Admission control configuration assessment message is no… by @williamlin-suse in https://github.com/neuvector/neuvector/pull/1113\r\n* NVSHAS-8495: show duplicated match rule info in post /v1/assess/admis… by @williamlin-suse in https://github.com/neuvector/neuvector/pull/1115\r\n* NVSHAS-8496: the final action should be denied when multiple containe… by @williamlin-suse in https://github.com/neuvector/neuvector/pull/1117\r\n* NVSHAS-8332, add additional fix to allow enable icmp policy enforcement by @gfsuse in https://github.com/neuvector/neuvector/pull/1119\r\n* NVSHAS-8502 authentication token missing by @holyspectral in https://github.com/neuvector/neuvector/pull/1121\r\n* Add missing NV_TAG label for controller by @becitsthere in https://github.com/neuvector/neuvector/pull/1123\r\n* NVSHAS-8483: EKS - error=kubectl command not found by @jayhuang-suse in https://github.com/neuvector/neuvector/pull/1127\r\n* NVSHAS-8523: Run 'Configuration Assessment' for a yaml should not gen… by @williamlin-suse in https://github.com/neuvector/neuvector/pull/1126\r\n* NVSHAS-8432: un-managed node with \"zombie\" enforcer running by @jayhuang-suse in https://github.com/neuvector/neuvector/pull/1124\r\n* [NVSHAS-8474] Resolve the symbolic link files under proc's root path by @pohanhuangtw in https://github.com/neuvector/neuvector/pull/1122\r\n* NVSHAS-8247: Less cross-check when processing CRD (increase the chann… by @williamlin-suse in https://github.com/neuvector/neuvector/pull/1128\r\n* NVSHAS-8453: enable proxy auth with http destination by @becitsthere in https://github.com/neuvector/neuvector/pull/1131\r\n* NVSHAS-8537 and NVSHAS-8538: goroutine crashes from leadChangeHandler() by @jayhuang-suse in https://github.com/neuvector/neuvector/pull/1130\r\n* NVSHAS-8532 Fix find container's symbolic link with correct proc root. by @pohanhuangtw in https://github.com/neuvector/neuvector/pull/1129\r\n* Compare strings with `strings.EqualFold` by @Juneezee in https://github.com/neuvector/neuvector/pull/1132\r\n* NVSHAS-8477&8370, support-bundle enforcer debug RPC call fail due to received message larger than max by @gfsuse in https://github.com/neuvector/neuvector/pull/1134\r\n* NVSHAS-5999 AWS bottlerocket benchmark execution error by @pohanhuangtw in https://github.com/neuvector/neuvector/pull/1082\r\n* NVSHAS-8334: Remote Repository Export by @alopez-suse in https://github.com/neuvector/neuvector/pull/1120\r\n* NVSHAS-8334: Export CRD into Github thru REST API (controller) by @williamlin-suse in https://github.com/neuvector/neuvector/pull/1136\r\n* NVSHAS-8568: cannot export crd yaml to other branch in remote repo by @williamlin-suse in https://github.com/neuvector/neuvector/pull/1138\r\n* NVSHAS-8560: unexpected NV.Protect incidents are found on stat command by @jayhuang-suse in https://github.com/neuvector/neuvector/pull/1137\r\n* NVSHAS-8284 Warning status for some Compliance checks which however were satisfied by @pohanhuangtw in https://github.com/neuvector/neuvector/pull/1135\r\n* NVSHAS-8570: Events for 'export to remote repo' always show: Do remot… by @williamlin-suse in https://github.com/neuvector/neuvector/pull/1139\r\n* NVSHAS-8571: Export to remote repo(github) result incorrectly returne… by @williamlin-suse in https://github.com/neuvector/neuvector/pull/1140\r\n* NVSHAS-7720-Enhance_UI_Performance, implement vulnerability UI pagina… by @jeffhuang4704 in https://github.com/neuvector/neuvector/pull/1142\r\n* NVSHAS-8460  Support newer version of kubernetes cis benchmark by @pohanhuangtw in https://github.com/neuvector/neuvector/pull/1133\r\n* NVSHAS-8575: Enhance the event message for remote repo export event by @williamlin-suse in https://github.com/neuvector/neuvector/pull/1143\r\n* NVSHAS-8574 & NVSHAS-8576: same name CRD yaml should be allow to export to differen… by @williamlin-suse in https://github.com/neuvector/neuvector/pull/1148\r\n* NVSHAS-8578 & NVSHAS-8579 by @alopez-suse in https://github.com/neuvector/neuvector/pull/1146\r\n* NVSHAS-8573 remove github.com/pkg/errors by @holyspectral in https://github.com/neuvector/neuvector/pull/1147\r\n* NVSHAS-8589: unexpected NV.Protect incidents are found on yq and sort commands by @jayhuang-suse in https://github.com/neuvector/neuvector/pull/1151\r\n* NVSHAS-8585 Adjust the bug level of the GetContainerRealFilePath by @pohanhuangtw in https://github.com/neuvector/neuvector/pull/1149\r\n* NVSHAS-8369, prevent false positive network implicit violation for external traffic by @gfsuse in https://github.com/neuvector/neuvector/pull/1150\r\n* NVSHAS-7720-Enhance_UI_Performance, add perf test and adjust orderbyc… by @jeffhuang4704 in https://github.com/neuvector/neuvector/pull/1154\r\n* NVSHAS-8596-Invalid_Syslog_certificate by @jeffhuang4704 in https://github.com/neuvector/neuvector/pull/1158\r\n* NVSHAS-8591 fix watchPlans race condition by @holyspectral in https://github.com/neuvector/neuvector/pull/1159\r\n* NVSHAS-8460 bug fix open shift yaml by @pohanhuangtw in https://github.com/neuvector/neuvector/pull/1157\r\n* NVSHAS-7720-Enhance_UI_Performance_support_change_sort by @jeffhuang4704 in https://github.com/neuvector/neuvector/pull/1156\r\n* NVSHAS-8598: unexpected NV.Protect incidents is found on find command by @jayhuang-suse in https://github.com/neuvector/neuvector/pull/1160\r\n* NVSHAS-8604: Support enabling/disabling remote repository by @williamlin-suse in https://github.com/neuvector/neuvector/pull/1166\r\n* NVSHAS-7720-Enhance UI Performance fix query error by @jeffhuang4704 in https://github.com/neuvector/neuvector/pull/1165\r\n* NVSHAS-8396: Fix strlcpy() without using Null-terminated string as src by @kyledong-suse in https://github.com/neuvector/neuvector/pull/1164\r\n* NVSHAS-8460 - Fix for UI showing in-complete message by @pohanhuangtw in https://github.com/neuvector/neuvector/pull/1162\r\n* NVSHAS-7720-Enhance_UI_Performance, adjust quick filter behavior by @jeffhuang4704 in https://github.com/neuvector/neuvector/pull/1167\r\n* NVSHAS-7720-Enhance_UI_Performance_fix_query by @jeffhuang4704 in https://github.com/neuvector/neuvector/pull/1169\r\n* NVSHAS-8622: unexpected NV.Protect incidents is found on support command by @jayhuang-suse in https://github.com/neuvector/neuvector/pull/1171\r\n* Add/Update process rules for ARM64 images by @jayhuang-suse in https://github.com/neuvector/neuvector/pull/1173\r\n* NVSHAS-8453: Fix issues on webhook with http proxy by @becitsthere in https://github.com/neuvector/neuvector/pull/1174\r\n* NVSHAS-8613 repeated sigsegv in one controller by @holyspectral in https://github.com/neuvector/neuvector/pull/1172\r\n* NVSHAS-8627: Add a process rule for the bench tests on the Openshift cluster. by @jayhuang-suse in https://github.com/neuvector/neuvector/pull/1176\r\n* NVSHAS-8162: To persist the 'accept' status for RBAC error notifications by @williamlin-suse in https://github.com/neuvector/neuvector/pull/1175\r\n* NVSHAS-8626: accepted alerts selection is not reset after rolling upgrade by @williamlin-suse in https://github.com/neuvector/neuvector/pull/1177\r\n* Revert \"NVSHAS-8613 repeated sigsegv in one controller\" by @holyspectral in https://github.com/neuvector/neuvector/pull/1178\r\n* NVSHAS-8622: unexpected NV.Protect incidents is found on support command by @jayhuang-suse in https://github.com/neuvector/neuvector/pull/1181\r\n* NVSHAS-8626: accepted alerts selection is not reset after rolling upgrade by @williamlin-suse in https://github.com/neuvector/neuvector/pull/1180\r\n* NVSHAS-8624-Vulnerabilities_Cluster_node_is_unstable by @jeffhuang4704 in https://github.com/neuvector/neuvector/pull/1179\r\n* NVSHAS-8613 repeated sigsegv in one controller by @holyspectral in https://github.com/neuvector/neuvector/pull/1182\r\n* Remove extra text from readme by @bbodenmiller in https://github.com/neuvector/neuvector/pull/1183\r\n* Disable OPA telemetry by default by @ntimo in https://github.com/neuvector/neuvector/pull/1185\r\n* NVSHAS-8639: Correct API doc typo by @becitsthere in https://github.com/neuvector/neuvector/pull/1186\r\n* NVSHAS-8636 Scanning workload takes longer compared to 5.2.4 by @jeffhuang4704 in https://github.com/neuvector/neuvector/pull/1187\r\n* NVSHAS-8564: run python in virtual env for allinone by @becitsthere in https://github.com/neuvector/neuvector/pull/1188\r\n* NVSHAS-8572: secrets/vul scanning engine does not ignore mounted files by @jayhuang-suse in https://github.com/neuvector/neuvector/pull/1190\r\n* NVSHAS-8590: Fix inconsistent scan status in non-lead controller by @becitsthere in https://github.com/neuvector/neuvector/pull/1191\r\n* NVSHAS-8653 Add impact sort, NVSHAS-8669 Fix Internal Server Error in pagination by @jeffhuang4704 in https://github.com/neuvector/neuvector/pull/1192\r\n* NVSHAS-8377: add RootlessKeypairsOnly flag to proto by @alopez-suse in https://github.com/neuvector/neuvector/pull/1193\r\n* NVSHAS-8678 - Fix for UI showing in-complete message by @pohanhuangtw in https://github.com/neuvector/neuvector/pull/1195\r\n* NVSHAS-8685: Scanner's docker client version 1.21 is deprecated and no longer supported by @jayhuang-suse in https://github.com/neuvector/neuvector/pull/1198\r\n* NVSHAS-8680: Skip non-image artifacts by @becitsthere in https://github.com/neuvector/neuvector/pull/1199\r\n* NVSHAS-8224, batch delete empty groups to improve auto removal performance by @gfsuse in https://github.com/neuvector/neuvector/pull/1196\r\n* NVSHAS-8660: rke 1.25: runtime driver can not connect with the cri-dockerd.sock by @jayhuang-suse in https://github.com/neuvector/neuvector/pull/1200\r\n* Nvshas 8377 impl by @alopez-suse in https://github.com/neuvector/neuvector/pull/1194\r\n* NVSHAS-8693: goroutine crash at container.(*crioDriver).getContainer() by @jayhuang-suse in https://github.com/neuvector/neuvector/pull/1201\r\n* Add function to read packages of an app by @becitsthere in https://github.com/neuvector/neuvector/pull/1203\r\n* NVSHAS-6483 add support for php composer by @Acmarr in https://github.com/neuvector/neuvector/pull/1207\r\n* NVSHAS-8703: Move image download function to scanner by @becitsthere in https://github.com/neuvector/neuvector/pull/1209\r\n* NVSHAS-8707: Fix segfault in standalone scanner by @becitsthere in https://github.com/neuvector/neuvector/pull/1213\r\n* NVSHAS-8156: UPDATE on Pod is not monitored by NV by @williamlin-suse in https://github.com/neuvector/neuvector/pull/1216\r\n* NVSHAS-5391 & 8631 Improve Host i/f update monitoring by @kyledong-suse in https://github.com/neuvector/neuvector/pull/1217\r\n* NVSHAS-8224, auto remove imorted empty groups by @gfsuse in https://github.com/neuvector/neuvector/pull/1218\r\n* NVSHAS-8716: Newer scanner error for local image and produce inaccurate scanning results by @jayhuang-suse in https://github.com/neuvector/neuvector/pull/1219\r\n* NVSHAS-8720 Fix agent crash at main.intfHostMonitorLoop(0xc0000c0190,… by @kyledong-suse in https://github.com/neuvector/neuvector/pull/1220\r\n* NVSHAS-8720: fix agent crash at main.intfHostMonitorLoop by @kyledong-suse in https://github.com/neuvector/neuvector/pull/1222\r\n* NVSHAS-8580: GCP warning about neuvector-validating-admission-webhook by @williamlin-suse in https://github.com/neuvector/neuvector/pull/1223\r\n* NVSHAS-8156: UPDATE on Pod is not monitored by NV by @williamlin-suse in https://github.com/neuvector/neuvector/pull/1227\r\n* NVSHAS-8711 Risk page - only return the filtered assets while advance… by @jeffhuang4704 in https://github.com/neuvector/neuvector/pull/1228\r\n* NVSHAS-8677 Fix enforcer crash for arm64 by @kyledong-suse in https://github.com/neuvector/neuvector/pull/1229\r\n* NVSHAS-8716: reverse API version change by @jayhuang-suse in https://github.com/neuvector/neuvector/pull/1233\r\n* NVSHAS-8286: Suggest the unhandled NV CR objects should be handled ag… by @williamlin-suse in https://github.com/neuvector/neuvector/pull/1234\r\n* NVSHAS-8756: config_v2 fixes for the REST API by @williamlin-suse in https://github.com/neuvector/neuvector/pull/1235\r\n* NVSHAS-8752 Add ipFqdnStorageMutex to protect reading ipFqdnStorageCache by @kyledong-suse in https://github.com/neuvector/neuvector/pull/1237\r\n* NVSHAS-8701 - Add \\$ for unexpected NV.Protect incidents is found on paste command by @pohanhuangtw in https://github.com/neuvector/neuvector/pull/1236\r\n* NVSHAS-8736: unexpected jar package alert from pod deployment by @jayhuang-suse in https://github.com/neuvector/neuvector/pull/1241\r\n* NVSHAS-7145: implement no proxy hosts for registry scans by @alopez-suse in https://github.com/neuvector/neuvector/pull/1211\r\n* NVSHAS-8791: SIGSEGV: segmentation violation code=0x1 addr=0x18 pc=0x… by @williamlin-suse in https://github.com/neuvector/neuvector/pull/1242\r\n* NVSHAS-8780 - Fix the truncate msg in manual by @pohanhuangtw in https://github.com/neuvector/neuvector/pull/1245\r\n* NVSHAS-7145: compress fields into v2 object by @alopez-suse in https://github.com/neuvector/neuvector/pull/1243\r\n* NVSHAS-8820 In Risk page, the Published time in advanced filter behavior is inverted by @jeffhuang4704 in https://github.com/neuvector/neuvector/pull/1248\r\n* NVSHAS-8829 fix scored filter in risk page by @jeffhuang4704 in https://github.com/neuvector/neuvector/pull/1250\r\n* NVSHAS-8803: container is somehow unable to add to workload successfully frequently by @jayhuang-suse in https://github.com/neuvector/neuvector/pull/1249\r\n* NVSHAS-8780 - Fix the truncate msg in manual by @pohanhuangtw in https://github.com/neuvector/neuvector/pull/1247\r\n* NVSHAS-8812: rootlessKeypairsOnly overrides isPrivate by @alopez-suse in https://github.com/neuvector/neuvector/pull/1246\r\n* NVSHAS-8730 allow parsing multiple entries from manifest.mf by @Acmarr in https://github.com/neuvector/neuvector/pull/1252\r\n* NVSHAS-8551: Add pcap filename random length by @becitsthere in https://github.com/neuvector/neuvector/pull/1253\r\n* NVSHAS-8741: NeuVector scan shows inconsistent baseos image by @jayhuang-suse in https://github.com/neuvector/neuvector/pull/1254\r\n* NVSHAS-8520, allow traffic with LinkLocalUnicast IP for host-mode container by @gfsuse in https://github.com/neuvector/neuvector/pull/1255\r\n* NVSHAS-8730 / NVSHAS-8844 single entry per manifest.mf... by @Acmarr in https://github.com/neuvector/neuvector/pull/1257\r\n* NVSHAS-8829 scored filter issue by @jeffhuang4704 in https://github.com/neuvector/neuvector/pull/1258\r\n* NVSHAS-8730: Revert jar parsing changes. by @becitsthere in https://github.com/neuvector/neuvector/pull/1259\r\n* NVSHAS-7145: add v2 internal registry test types by @alopez-suse in https://github.com/neuvector/neuvector/pull/1261\r\n* NVSHAS-7145: add v2 registry test access by @alopez-suse in https://github.com/neuvector/neuvector/pull/1262\r\n* NVSHAS-8757,8730: Fix jar file package name parsing by @becitsthere in https://github.com/neuvector/neuvector/pull/1263\r\n* NVSHAS-8761, to prevent unexpected violation for hostmode container when allow rule exist by @gfsuse in https://github.com/neuvector/neuvector/pull/1264\r\n* Improve jar package parsing logic by @becitsthere in https://github.com/neuvector/neuvector/pull/1265\r\n* NVSHAS-8865, adjust early detection logic for host-mode container so that connection to external shows correct action by @gfsuse in https://github.com/neuvector/neuvector/pull/1266\r\n\r\n## New Contributors\r\n* @minchao made their first contribution in https://github.com/neuvector/neuvector/pull/955\r\n* @bbodenmiller made their first contribution in https://github.com/neuvector/neuvector/pull/1183\r\n* @ntimo made their first contribution in https://github.com/neuvector/neuvector/pull/1185\r\n\r\n**Full Changelog**: https://github.com/neuvector/neuvector/compare/v8040.1...v5.3.1"
     },
     "https://github.com/lijiejie/BBScan": {
         "created_at": "2015-11-13 07:41:10",
@@ -5904,13 +5901,12 @@
         "release_message": ""
     },
     "https://github.com/github/codeql-cli-binaries": {
-        "created_at": "",
-        "description": "",
-        "commit_date": "2024-02-22 13:20:21",
-        "commit_message": "edit 2.16.3 changelog to explain how to set the extractor option",
-        "release_tag": "",
-        "release_date": "",
-        "release_message": ""
+        "created_at": "2024-04-04 15:26:56",
+        "description": "Binaries for the CodeQL CLI",
+        "commit_message": "Update CHANGELOG.md for release 2.17.0",
+        "commit_date": "2024-04-04 15:26:56",
+        "release_date": "2024-04-04 15:30:04",
+        "release_message": "### Deprecations\r\n\r\n- The `--[no-]analysis-summary-v2` and `--[no-]new-analysis-summary` options that were used to enable (or disable) improved summary information printed at the end of a `codeql database analyze` invocation are no longer supported. Improved summary information is now enabled for all invocations.\r\n- Support for overwriting default CodeQL SARIF run properties using the `--sarif-run-property` command line option has been removed. This removes the ability to overwrite the `semmle.formatSpecifier`, `metricResults`, and `codeqlConfigSummary` properties in the SARIF run file.\r\n\r\n### Improvements\r\n\r\n- TRAP import (a part of `codeql database create` and `codeql database finalize`) now performs better in low-memory situations. (Put another way, it now needs less RAM to achieve the same performance as before.)\r\n- The worst-case performance of transitive closure computation (using the `+` or `*` postfix operators or the `fastTC` higher-order primitive in QL) has been greatly improved.\r\n\r\n### Miscellaneous\r\n\r\n- The build of Eclipse Temurin OpenJDK that is used to run the CodeQL CLI has been updated to version 21.0.2.\r\n\r\nFor more information about the changes included in this release, see the [CodeQL CLI changelog](https://github.com/github/codeql-cli-binaries/blob/HEAD/CHANGELOG.md).\r\n\r\nYou can download _either_ the `codeql-PLATFORM.zip` for your platform, _or_ the generic `codeql.zip` which contains binaries for all supported platforms. Please ignore the additional \"source code\" downloads below the `.zip` artifacts.\r\n\r\nThis release is compatible with the CodeQL language packs from [`github/codeql@codeql-cli/v2.17.0`](https://github.com/github/codeql/tree/codeql-cli/v2.17.0).\r\n"
     },
     "https://github.com/Ascotbe/HackerMind": {
         "created_at": "",
@@ -5967,13 +5963,12 @@
         "release_message": "玩得开心师傅们，有新的需求或者问题请在issue中反馈。"
     },
     "https://github.com/zema1/suo5": {
-        "created_at": "",
-        "description": "",
-        "commit_date": "2024-01-17 13:29:44",
+        "created_at": "2024-01-17 13:29:44",
+        "description": "一款高性能 HTTP 代理隧道工具 | A high-performance http proxy tunneling tool",
         "commit_message": "feat: release v1.1.0 (#48)",
-        "release_tag": "",
-        "release_date": "",
-        "release_message": ""
+        "commit_date": "2024-01-17 13:29:44",
+        "release_date": "2024-01-17 13:31:23",
+        "release_message": "Server 端从这里获取 https://github.com/zema1/suo5/tree/v1.1.0/assets ，不同版本的 Server 端请不要混用，否则会有不兼容连不上的问题\r\n\r\n> 带 gui 的版本是界面版，不带 gui 的为命令行版\r\n> 所有编译由 Github Action 自动构建并自动上传，请放心使用\r\n\r\n\r\n### 新增\r\n\r\n- 增加 `.Net` 内存马支持，感谢 [@dust-life](https://github.com/dust-life) 贡献\r\n\r\n### 修复\r\n\r\n- 修复部分网站 `TLS` 连接失败的问题\r\n- 修复 `TLS` 握手失败时连接未关闭的问题\r\n\r\n### 变更\r\n\r\n- 暂时禁用 `HTTP2` 的支持\r\n"
     },
     "https://github.com/baogod404/HikvisionDecode": {
         "created_at": "2023-07-04 10:11:00",
@@ -22378,12 +22373,12 @@
         "release_message": ""
     },
     "https://github.com/xaoyaoo/PyWxDump": {
-        "created_at": "2024-03-15 07:53:13",
+        "created_at": "2024-03-30 11:03:35",
         "description": "获取微信账号信息(昵称/账号/手机/邮箱/数据库密钥/wxid)；PC微信数据库读取、解密脚本；聊天记录查看工具；聊天记录导出为html(包含语音图片)。支持多账户信息获取，支持所有微信版本。",
-        "commit_message": "UPDATE README.md",
-        "commit_date": "2024-03-25 16:12:48",
-        "release_date": "2024-03-15 07:57:13",
-        "release_message": "[Auto Release] Update PyWxDump to refs/tags/v2.4.60\n详细更新日志请查看 [CHANGELOG.md](https://github.com/xaoyaoo/PyWxDump/blob/master/doc/CHANGELOG.md)\n"
+        "commit_message": "读取群聊数据,主要为 wxid，以及对应昵称",
+        "commit_date": "2024-04-05 11:18:01",
+        "release_date": "2024-03-30 11:08:13",
+        "release_message": "[Auto Release] Update PyWxDump to refs/tags/v2.4.62\n详细更新日志请查看 [CHANGELOG.md](https://github.com/xaoyaoo/PyWxDump/blob/master/doc/CHANGELOG.md)\n"
     },
     "https://github.com/Pizz33/Qianji": {
         "created_at": "2023-11-15 03:33:53",
@@ -22616,13 +22611,12 @@
         "release_message": ""
     },
     "https://github.com/DeEpinGh0st/WindowsBaselineAssistant": {
-        "created_at": "",
-        "description": "",
-        "commit_date": "2024-02-19 05:15:02",
-        "commit_message": "发布v1.2.1",
-        "release_tag": "",
-        "release_date": "",
-        "release_message": ""
+        "created_at": "2024-03-11 05:48:25",
+        "description": "Windows安全基线核查加固助手",
+        "commit_message": "发布v1.2.2",
+        "commit_date": "2024-03-11 05:48:25",
+        "release_date": "2024-03-11 05:55:15",
+        "release_message": "- 添加日志记录\r\n- 添加tips用于显示软件界面没体现的功能及注意事项\r\n- 调整secedit中间文件到APPDATA\r\n- SHA1: EA6C9EE3A6A1FEC43F014CF5EB3F7A3CC641A50D"
     },
     "https://github.com/yqcs/prismx": {
         "created_at": "2024-01-22 08:47:42",
@@ -23592,13 +23586,10 @@
         "release_message": ""
     },
     "https://github.com/hahwul/WebHackersWeapons": {
-        "created_at": "",
-        "description": "",
-        "commit_date": "2024-02-05 14:47:55",
+        "created_at": "2020-04-04 14:54:04",
+        "description": "⚔️ Web Hacker's Weapons / A collection of cool tools used by Web hackers. Happy hacking , Happy bug-hunting",
         "commit_message": "Deploy README.md and Categorize Docs",
-        "release_tag": "",
-        "release_date": "",
-        "release_message": ""
+        "commit_date": "2024-04-04 15:50:48"
     },
     "https://github.com/charonlight/NacosExploitGUI": {
         "created_at": "2024-01-01 10:38:50",
@@ -25125,8 +25116,8 @@
         "description": "[~]#棱角 ::Edge.Forum*"
     },
     "https://rapiddns.io/subdomain": {
-        "status_code": 200,
-        "description": "Subdomain - RapidDNS Rapid DNS Information Collection"
+        "status_code": 502,
+        "description": "rapiddns.io | 502: Bad gateway"
     },
     "http://www.zhongguosou.com/zonghe/moErSiCodeConverter.aspx": {
         "status_code": 200,
@@ -25341,8 +25332,8 @@
         "description": "MD5免费在线解密破解_MD5在线加密-SOMD5"
     },
     "https://www.chamd5.org/": {
-        "status_code": 200,
-        "description": "MD5在线解密|md5在线破解|批量破解md5网站 - ChaMd5.Org"
+        "status_code": 500,
+        "description": "运行时错误"
     },
     "http://pan.baidu.com/s/1pLjaQKF": {
         "status_code": 200,
@@ -25731,8 +25722,8 @@
     "https://github.com/Anduin2017/HowToCook": {
         "created_at": "2022-07-12 17:14:59",
         "description": "程序员在家做饭方法指南。Programmer's guide about how to cook at home (Simplified Chinese only).",
-        "commit_message": "[ci skip] Automatic file changes/fix",
-        "commit_date": "2024-04-04 17:10:53",
+        "commit_message": "Avoid google font file.",
+        "commit_date": "2024-03-12 18:59:03",
         "release_date": "2022-07-14 10:35:06",
         "release_message": ""
     },
@@ -26526,5 +26517,489 @@
         "description": "Flash XSS Scanner",
         "commit_message": "test\n\ntest",
         "commit_date": "2016-06-26 03:11:52"
+    },
+    "http://www.hiencode.com/cdes.html": {
+        "status_code": 200,
+        "description": "CTF在线工具-DES在线加解密|DES在线加密|DES在线解密|DES encryption|DES decryption"
+    },
+    "http://tool.chacuo.net/cryptserpent": {
+        "status_code": 200,
+        "description": "在线Serpent加密解密、Serpent在线加密解密、Serpent encryption and decryption--查错网"
+    },
+    "http://www.atoolbox.net/Tool.php?Id=1090": {
+        "status_code": 200,
+        "description": "XXTEA加密/解密 - 一个工具箱 - 好用的在线工具都在这里！"
+    },
+    "https://github.com/khalilbijjou/WAFNinja": {
+        "created_at": "2016-05-18 13:52:09",
+        "description": "WAFNinja is a tool which contains two functions to attack Web Application Firewalls.",
+        "commit_message": "Update README.md",
+        "commit_date": "2017-12-06 10:55:25"
+    },
+    "http://tool.chacuo.net/cryptrsapassmodify": {
+        "status_code": 200,
+        "description": "在线RSA私钥密码添加修改、添加修改RSA私钥密码、rsa private key password modify--查错网"
+    },
+    "http://www.hiencode.com/four.html": {
+        "status_code": 200,
+        "description": "CTF在线工具-在线四方密码加密|在线四方密码解密|四方密码算法|Foursquare Cipher"
+    },
+    "https://github.com/cyberark/KubiScan": {
+        "created_at": "2023-06-22 22:01:15",
+        "description": "A tool to scan Kubernetes cluster for risky permissions",
+        "commit_message": "Merge pull request #73 from 2niknatan/master\n\nFixing CVE file so the script won't crash",
+        "commit_date": "2024-02-07 11:36:30",
+        "release_date": "2023-06-27 12:48:45",
+        "release_message": "\r\n- [Replaced](https://github.com/cyberark/KubiScan/commit/b2985817691c366567e5cdcf93339f33f32f135c) Added support to match case match case with if else to support Python versions below 3.10 (#69 by @kamal2222ahmed)\r\n- Failed chmod when not specifying AWS info (#66 & #67 by @elreydetoda)\r\n- Adding support to AKS and options to CVE scan (#65 by @2niknatan)\r\n- Adding CVE scan and unittest (#64 by @2niknatan)\r\n- Adding flags (`-o`, `-q`, `-j` and `-nc`) to enhance the output (#63 by @2niknatan)\r\n- Changing the risky pods function  (#62 by @2niknatan)\r\n- Adding unit tests (#55 by @2niknatan)\r\n- Supporting eks in docker container (#54 by @2niknatan)\r\n- Printing error message when no kind was entered to '-aars' flag (#53 by @2niknatan)\r\n- Fixing duplicates in '-rp' flag (#52  & #50)\r\n- Fix typo in api_client.py (#51 by @AlonBenHorin)\r\n- Fixing '-rp' flag by adding logic so it can print several Service Accounts (#49 by @2niknatan)\r\n- Adding [secret creation to support version](https://github.com/cyberark/KubiScan/commit/194fcaf026b3e9f56fdf9a2f9e0867d621ff5191) +1.24\r\n- Fixing hang in some environments (#47 by @2niknatan)\r\n- Fixing the path to '/opt/kubiscan/config_bak' like in the Dockerfile (#46 by @2niknatan)\r\n- Adding an environment variable to docker file, fixing -td flag and catching exceptions and adding tag to docker image (#45 by @2niknatan)\r\n- [Update docker_run.sh](https://github.com/cyberark/KubiScan/commit/f71e71062112bac38dab57ce8811432379d6dc0e) \r\n- Adding catch exception and fix non existing key bug (#41 by @AlonBenHorin)\r\n- Fixing pull request #18 and adding bash script to run a container (#40 by @AlonBenHorin)\r\n- Minor [change](https://github.com/cyberark/KubiScan/commit/70faf47530cd488c46cb655f2d5ceee701ef7801) in the check for running inside a container\r\n- Added [support](https://github.com/cyberark/KubiScan/commit/c97d268de36ec964503e64ff9ff48130144bf4fd) to kubeconfig in the API client (by @g3rzi)\r\n- Simplify dockerfile + Parameterize paths (#18 by @vidbina)  \r\n\r\n"
+    },
+    "https://c5r.app/tools/morse-code": {
+        "status_code": 200,
+        "description": "CTFever Toolkit by uniiem"
+    },
+    "http://www.hiencode.com/hex.html": {
+        "status_code": 200,
+        "description": "CTF在线工具-Hex在线编码|Hex在线解码|十六进制编码转换"
+    },
+    "https://ctf.bugku.com/tool/base92": {
+        "status_code": 200,
+        "description": "BASE92编码解码 - Bugku CTF"
+    },
+    "http://www.hiencode.com/caesar.html": {
+        "status_code": 200,
+        "description": "CTF在线工具-在线凯撒密码加密|在线凯撒密码解密|凯撒密码算法|Caesar Cipher"
+    },
+    "https://c5r.app/tools/bin-extractor": {
+        "status_code": 200,
+        "description": "CTFever Toolkit by uniiem"
+    },
+    "http://www.hiencode.com/cencode.html": {
+        "status_code": 200,
+        "description": "CTF在线工具-ASCII编码转换|Unicode编码转换|Native编码转换|UTF-16|UTF-32"
+    },
+    "https://github.com/wafinfo/DecryptTools": {
+        "created_at": "2024-03-14 05:39:36",
+        "description": "DecryptTools-综合解密",
+        "commit_message": "DecryptTools V2.0\n\nDecryptTools V2.0",
+        "commit_date": "2024-03-20 05:16:49"
+    },
+    "http://www.hiencode.com/hash.html": {
+        "status_code": 200,
+        "description": "CTF在线工具-哈希计算|MD5、SHA1、SHA256、SHA384、SHA512、RIPEMD、RIPEMD160"
+    },
+    "http://www.atoolbox.net/Tool.php?Id=1089": {
+        "status_code": 200,
+        "description": "XTEA加密/解密 - 一个工具箱 - 好用的在线工具都在这里！"
+    },
+    "https://c5r.app/tools/pyc-decompiler": {
+        "status_code": 200,
+        "description": "CTFever Toolkit by uniiem"
+    },
+    "http://www.hiencode.com/atbash.html": {
+        "status_code": 200,
+        "description": "CTF在线工具-在线埃特巴什码加密|在线埃特巴什码解密|埃特巴什码算法|Atbash Cipher"
+    },
+    "http://tool.chacuo.net/cryptcast": {
+        "status_code": 200,
+        "description": "在线Cast加密解密、Cast在线加密解密、Cast encryption and decryption--查错网"
+    },
+    "https://ctf.bugku.com/tool/railfence": {
+        "status_code": 200,
+        "description": "栅栏加密/解密 - Bugku CTF"
+    },
+    "http://www.hiencode.com/affine.html": {
+        "status_code": 200,
+        "description": "CTF在线工具-在线仿射密码加密|在线仿射密码解密|仿射密码算法|Affine Cipher"
+    },
+    "http://www.hiencode.com/base62.html": {
+        "status_code": 200,
+        "description": "CTF在线工具-在线base62编码|在线base62解码|base62编码|base62解码"
+    },
+    "http://www.hiencode.com/beaufort.html": {
+        "status_code": 200,
+        "description": "CTF在线工具-在线博福特密码加密|在线博福特密码解密|博福特密码算法|Beaufort Cipher"
+    },
+    "https://c5r.app/tools/brain-fuck": {
+        "status_code": 200,
+        "description": "CTFever Toolkit by uniiem"
+    },
+    "http://tool.chacuo.net/cryptrsamodulus2pkey": {
+        "status_code": 200,
+        "description": "由Exponent(指数)、Modulus(模数)生成Rsa 公钥 public key--查错网"
+    },
+    "http://www.hiencode.com/vigenere.html": {
+        "status_code": 200,
+        "description": "CTF在线工具-在线维吉尼亚密码加密|在线维吉尼亚解密|维吉尼亚密码算法|Vigenere Cipher"
+    },
+    "http://www.atoolbox.net/Tool.php?Id=1027": {
+        "status_code": 200,
+        "description": "与佛论禅加密/解密 - 一个工具箱 - 好用的在线工具都在这里！"
+    },
+    "http://www.hiencode.com/tdes.html": {
+        "status_code": 200,
+        "description": "CTF在线工具-Triple DES在线加解密|Triple DES在线加密|Triple DES在线解密|Triple DES encryption|Triple DES decryption"
+    },
+    "http://www.hiencode.com/adfgx.html": {
+        "status_code": 200,
+        "description": "CTF在线工具-在线ADFGX密码加密|在线ADFGX密码解密|ADFGX密码算法|ADFGX Cipher"
+    },
+    "http://www.atoolbox.net/Tool.php?Id=931": {
+        "status_code": 200,
+        "description": "Base32编码/解码 - 一个工具箱 - 好用的在线工具都在这里！"
+    },
+    "http://www.liminba.com/tool/jsfuckdecode/": {
+        "status_code": 200,
+        "description": "JSFuck解密_javascript在线混淆解密-利民吧"
+    },
+    "https://c5r.app/tools/core-values-cipher": {
+        "status_code": 200,
+        "description": "CTFever Toolkit by uniiem"
+    },
+    "http://tool.chacuo.net/cryptrsaprikey": {
+        "status_code": 200,
+        "description": "在线RSA私钥加密解密、RSA private key encryption and decryption--查错网"
+    },
+    "http://www.atoolbox.net/Tool.php?Id=918": {
+        "status_code": 200,
+        "description": "ADFGX密码加密/解密 - 一个工具箱 - 好用的在线工具都在这里！"
+    },
+    "http://www.hiencode.com/runkey.html": {
+        "status_code": 200,
+        "description": "CTF在线工具-在线滚动密钥加密|在线滚动密钥解密|滚动密钥密码算法|Running Key Cipher"
+    },
+    "https://ctf.bugku.com/tool/base85": {
+        "status_code": 200,
+        "description": "BASE85编码解码 - Bugku CTF"
+    },
+    "http://tool.chacuo.net/cryptrc2": {
+        "status_code": 200,
+        "description": "在线RC2加密解密、RC2在线加密解密、RC2 encryption and decryption--查错网"
+    },
+    "http://www.hiencode.com/simple.html": {
+        "status_code": 200,
+        "description": "CTF在线工具-在线简单换位密码加密|在线简单换位解密|简单换位密码算法|Simple Substitution Cipher"
+    },
+    "https://ctf.bugku.com/tool/vigenere": {
+        "status_code": 200,
+        "description": "维吉尼亚加密/解密 - Bugku CTF"
+    },
+    "http://www.hiencode.com/pub_asys.html": {
+        "status_code": 200,
+        "description": "SSL在线工具-公钥解析"
+    },
+    "http://www.hiencode.com/pigpen.html": {
+        "status_code": 200,
+        "description": "CTF在线工具-在线猪圈密码加密|在线猪圈密码解密|猪圈密码算法|Pigpen Cipher"
+    },
+    "http://www.hiencode.com/priv_asys.html": {
+        "status_code": 200,
+        "description": "CTF在线工具-在线私钥解析|在线私钥提取|私钥在线破解|私钥信息提取"
+    },
+    "http://tool.chacuo.net/cryptrsapkcs1pkcs8": {
+        "status_code": 200,
+        "description": "在线RSA PKCS#1 转 PKCS8格式私钥、convert pkcs8 to pkcs#1 private key--查错网"
+    },
+    "https://ctf.bugku.com/tool/sojson5": {
+        "status_code": 200,
+        "description": "Sojson v5 解密 - Bugku CTF"
+    },
+    "http://tool.chacuo.net/cryptrsapassclear": {
+        "status_code": 200,
+        "description": "在线RSA私钥密码清除、删除RSA私钥密码、rsa private key password removal--查错网"
+    },
+    "http://www.hiencode.com/a1z26.html": {
+        "status_code": 200,
+        "description": "CTF在线工具-在线A1z26加密|在线A1z26解密|A1z26密码算法|Keyword Cipher"
+    },
+    "http://www.hiencode.com/rc4.html": {
+        "status_code": 200,
+        "description": "CTF在线工具-RC4在线加解密|RC4在线加密|RC4在线解密|RC4 encryption|RC4 decryption"
+    },
+    "http://www.hiencode.com/base85.html": {
+        "status_code": 200,
+        "description": "CTF在线工具-在线base85编码|在线base85解码|base85编码|base85解码"
+    },
+    "http://www.hiencode.com/base64.html": {
+        "status_code": 200,
+        "description": "CTF在线工具-在线base编码|在线base解码|base16编码|base32编码|base64编码"
+    },
+    "http://www.atoolbox.net/Tool.php?Id=919": {
+        "status_code": 200,
+        "description": "同音替代密码加密/解密 - 一个工具箱 - 好用的在线工具都在这里！"
+    },
+    "http://www.hiencode.com/gronsfeld.html": {
+        "status_code": 200,
+        "description": "CTF在线工具-在线Gronsfeld密码加密|在线Gronsfeld密码解密|Gronsfeld密码算法|Gronsfeld Cipher"
+    },
+    "http://tool.chacuo.net/crypttwofish": {
+        "status_code": 200,
+        "description": "在线Twofish加密解密、Twofish在线加密解密、Twofish encryption and decryption--查错网"
+    },
+    "http://www.hiencode.com/base92.html": {
+        "status_code": 200,
+        "description": "CTF在线工具-在线base92编码|在线base92解码|base92编码|base92解码"
+    },
+    "http://www.hiencode.com/colum.html": {
+        "status_code": 200,
+        "description": "CTF在线工具-在线列移位密码加密|在线列移位密码解密|列移位密码算法|Columnar Transposition Cipher"
+    },
+    "http://www.atoolbox.net/Tool.php?Id=934": {
+        "status_code": 200,
+        "description": "Base85编码/解码 - 一个工具箱 - 好用的在线工具都在这里！"
+    },
+    "http://www.atoolbox.net/Tool.php?Id=933": {
+        "status_code": 200,
+        "description": "Base62编码/解码 - 一个工具箱 - 好用的在线工具都在这里！"
+    },
+    "http://tool.chacuo.net/cryptxtea": {
+        "status_code": 200,
+        "description": "在线Xtea加密解密、Xtea在线加密解密、Xtea encryption and decryption--查错网"
+    },
+    "http://www.hiencode.com/mimetypes.html": {
+        "status_code": 200,
+        "description": "CTF在线工具-Mimetypes|http消息头应用类型"
+    },
+    "http://www.hiencode.com/base36w.html": {
+        "status_code": 200,
+        "description": "CTF在线工具-在线base36编码|在线base36解码|base36编码|base36解码"
+    },
+    "http://www.hiencode.com/escape.html": {
+        "status_code": 200,
+        "description": "CTF在线工具-在线Escape编码|在线Escape解码"
+    },
+    "https://tool.yuanrenxue.cn/decode_obfuscator": {
+        "status_code": 200,
+        "description": "解混淆测试版"
+    },
+    "http://www.hiencode.com/url.html": {
+        "status_code": 200,
+        "description": "CTF在线工具-在线URL编码|URL解码"
+    },
+    "http://www.hiencode.com/playfair.html": {
+        "status_code": 200,
+        "description": "CTF在线工具-在线普莱菲尔密码加密|在线普莱菲尔密码解密|普莱菲尔密码算法|Playfair Cipher"
+    },
+    "https://ctf.bugku.com/tool/base91": {
+        "status_code": 200,
+        "description": "BASE91编码解码 - Bugku CTF"
+    },
+    "http://tool.chacuo.net/cryptrsakeyparse": {
+        "status_code": 200,
+        "description": "RSA公私钥分解 Exponent、Modulus，Rsa公私钥指数、系数(模数)分解--查错网"
+    },
+    "http://www.hiencode.com/railfence.html": {
+        "status_code": 200,
+        "description": "CTF在线工具-在线栅栏密码加密|在线栅栏密码解密|栅栏密码算法|Railfence Cipher"
+    },
+    "http://www.atoolbox.net/Tool.php?Id=921": {
+        "status_code": 200,
+        "description": "随机密码和密钥生成器 - 一个工具箱 - 好用的在线工具都在这里！"
+    },
+    "http://tool.chacuo.net/cryptchacha20": {
+        "status_code": 200,
+        "description": "在线chacha20加密解密、chacha20在线加密解密、chacha20 encryption and decryption--查错网"
+    },
+    "https://ctf.bugku.com/tool/base62": {
+        "status_code": 200,
+        "description": "BASE62编码解码 - Bugku CTF"
+    },
+    "http://www.hiencode.com/autokey.html": {
+        "status_code": 200,
+        "description": "CTF在线工具-在线自动密钥密码加密|在线自动密钥密码解密|自动密钥密码算法|Autokey Cipher"
+    },
+    "https://ctf.bugku.com/tool/base64": {
+        "status_code": 200,
+        "description": "BASE64编码解码 - Bugku CTF"
+    },
+    "http://tool.chacuo.net/crypt3des": {
+        "status_code": 200,
+        "description": "在线3DES加密解密、3DES在线加密解密、3DES encryption and decryption--查错网"
+    },
+    "http://tool.chacuo.net/cryptaes": {
+        "status_code": 200,
+        "description": "在线AES加密解密、AES在线加密解密、AES encryption and decryption--查错网"
+    },
+    "https://ctf.bugku.com/tool/base16": {
+        "status_code": 200,
+        "description": "BASE16编码解码 - Bugku CTF"
+    },
+    "http://www.atoolbox.net/Tool.php?Id=1066": {
+        "status_code": 200,
+        "description": "UTF-8与GBK编码转换 - 一个工具箱 - 好用的在线工具都在这里！"
+    },
+    "https://ctf.bugku.com/tool/adfgx": {
+        "status_code": 200,
+        "description": "ADFGX密码 - Bugku CTF"
+    },
+    "http://www.hiencode.com/tapcode.html": {
+        "status_code": 200,
+        "description": "CTF在线工具-在线敲击码|敲击码编码|敲击码算法|tap code"
+    },
+    "https://ctf.bugku.com/tool/uuencode": {
+        "status_code": 200,
+        "description": "UUencode加密/解密 - Bugku CTF"
+    },
+    "https://ctf.bugku.com/tool/sojson4": {
+        "status_code": 200,
+        "description": "Sojson v4 解密 - Bugku CTF"
+    },
+    "https://c5r.app/tools/jsfuck": {
+        "status_code": 200,
+        "description": "CTFever Toolkit by uniiem"
+    },
+    "http://www.hiencode.com/porta.html": {
+        "status_code": 200,
+        "description": "CTF在线工具-在线Porta密码加密|在线Porta密码解密|Porta密码算法|Porta Cipher"
+    },
+    "http://tool.chacuo.net/cryptrc5": {
+        "status_code": 200,
+        "description": "在线RC5加密解密、RC5在线加密解密、RC5 encryption and decryption--查错网"
+    },
+    "http://www.hiencode.com/base91.html": {
+        "status_code": 200,
+        "description": "CTF在线工具-在线base91编码|在线base91解码|base91编码|base91解码"
+    },
+    "http://tool.chacuo.net/cryptrijndael": {
+        "status_code": 200,
+        "description": "在线Rijndael加密解密、Rijndael在线加密解密、Rijndael encryption and decryption--查错网"
+    },
+    "http://www.hiencode.com/morse.html": {
+        "status_code": 200,
+        "description": "CTF在线工具-在线莫尔斯电码编码|在线莫尔斯电码解码|莫尔斯电码算法|Morse"
+    },
+    "https://c5r.app/tools/pseudo-encrypted-zip-check": {
+        "status_code": 200,
+        "description": "CTFever Toolkit by uniiem"
+    },
+    "https://ctf.bugku.com/tool/base58": {
+        "status_code": 200,
+        "description": "BASE58编码解码 - Bugku CTF"
+    },
+    "http://www.hiencode.com/web_socket.html": {
+        "status_code": 200,
+        "description": "CTF在线工具-在线查看HTTP/HTTPS响应消息头|HTTP Response"
+    },
+    "http://tool.chacuo.net/cryptgetpubkey": {
+        "status_code": 200,
+        "description": "RSA非对称加密从私钥中获取公钥、Get the public key from the private key--查错网"
+    },
+    "https://ctf.bugku.com/tool/cvecode": {
+        "status_code": 200,
+        "description": "核心价值观编码 - Bugku CTF"
+    },
+    "http://www.hiencode.com/html_en.html": {
+        "status_code": 200,
+        "description": "CTF在线工具-在线HTML编码|在线HTML解码"
+    },
+    "http://tool.chacuo.net/cryptrsakeyvalid": {
+        "status_code": 200,
+        "description": "在线RSA公私密钥校验、RSA公私密钥检查、Online RSA public-private key verification--查错网"
+    },
+    "http://www.hiencode.com/caes.html": {
+        "status_code": 200,
+        "description": "CTF在线工具-AES在线加解密|AES在线加密|AES在线解密|AES encryption|AES decryption"
+    },
+    "https://ctf.bugku.com/tool/brainfuck": {
+        "status_code": 200,
+        "description": "Brainfuck/OoK加密解密 - Bugku CTF"
+    },
+    "http://tool.chacuo.net/cryptgost": {
+        "status_code": 200,
+        "description": "在线Gost加密解密、Gost在线加密解密、Gost encryption and decryption--查错网"
+    },
+    "http://web.chacuo.net/netdsakeypair": {
+        "status_code": 200,
+        "description": "在线DSA密钥对、DSA公钥私钥对生成、DSA Key pair create、生成DSA密钥对--查错网"
+    },
+    "http://www.hiencode.com/keyword.html": {
+        "status_code": 200,
+        "description": "CTF在线工具-在线关键字加密|在线关键字解密|关键字密码算法|Keyword Cipher"
+    },
+    "http://tool.chacuo.net/cryptrc4": {
+        "status_code": 200,
+        "description": "在线RC4加密解密、RC4在线加密解密、RC4 encryption and decryption--查错网"
+    },
+    "http://www.atoolbox.net/Tool.php?Id=920": {
+        "status_code": 200,
+        "description": "自动密钥密码加密/解密 - 一个工具箱 - 好用的在线工具都在这里！"
+    },
+    "http://www.atoolbox.net/Tool.php?Id=930": {
+        "status_code": 200,
+        "description": "Base16编码/解码 - 一个工具箱 - 好用的在线工具都在这里！"
+    },
+    "http://www.hiencode.com/baconian.html": {
+        "status_code": 200,
+        "description": "CTF在线工具-在线培根密码加密|在线培根密码解密|培根密码算法|Baconian Cipher"
+    },
+    "http://www.hiencode.com/quoted.html": {
+        "status_code": 200,
+        "description": "CTF在线工具-在线Quoted-printable编码|在线Quoted-printable编码|邮件编码|mail编码"
+    },
+    "http://www.hiencode.com/adfgvx.html": {
+        "status_code": 200,
+        "description": "CTF在线工具-在线ADFGVX密码加密|在线ADFGVX密码解密|ADFGVX密码算法|ADFGVX Cipher"
+    },
+    "http://www.atoolbox.net/Tool.php?Id=993": {
+        "status_code": 200,
+        "description": "恩尼格玛密码机密码加密/解密 - 一个工具箱 - 好用的在线工具都在这里！"
+    },
+    "http://www.hiencode.com/http_head.html": {
+        "status_code": 200,
+        "description": "CTF在线工具-在线查看HTTP/HTTPS响应消息头|HTTP Response"
+    },
+    "http://www.atoolbox.net/Tool.php?Id=936": {
+        "status_code": 200,
+        "description": "Base100编码/解码 - 一个工具箱 - 好用的在线工具都在这里！"
+    },
+    "http://www.hiencode.com/jinzhi.html": {
+        "status_code": 200,
+        "description": "CTF在线工具-ASCII与进制转换|任意进制转换|ASCII、2进制、8进制、10进制、16进制"
+    },
+    "http://www.hiencode.com/punycode.html": {
+        "status_code": 200,
+        "description": "CTF在线工具-在线Punycode编码|Punycode解码|Punycode编码原理|Punycode编码算法"
+    },
+    "http://www.atoolbox.net/Tool.php?Id=1050": {
+        "status_code": 200,
+        "description": "百家姓加密/解密 - 一个工具箱 - 好用的在线工具都在这里！"
+    },
+    "http://tool.chacuo.net/cryptblowfish": {
+        "status_code": 200,
+        "description": "在线Blowfish加密解密、Blowfish在线加密解密、Blowfish encryption and decryption--查错网"
+    },
+    "http://www.atoolbox.net/Tool.php?Id=935": {
+        "status_code": 200,
+        "description": "Base91编码/解码 - 一个工具箱 - 好用的在线工具都在这里！"
+    },
+    "http://www.hiencode.com/bifid.html": {
+        "status_code": 200,
+        "description": "CTF在线工具-在线双密码加密|在线双密码解密|双密码算法|Bifid Cipher"
+    },
+    "https://ctf.bugku.com/tool/base32": {
+        "status_code": 200,
+        "description": "BASE32编码解码 - Bugku CTF"
+    },
+    "http://www.atoolbox.net/Tool.php?Id=992": {
+        "status_code": 200,
+        "description": "Type7密码加密/解密 - 一个工具箱 - 好用的在线工具都在这里！"
+    },
+    "http://www.hiencode.com/base58w.html": {
+        "status_code": 200,
+        "description": "CTF在线工具-在线base58编码|在线base58解码|base58编码|base58解码|base58check"
+    },
+    "http://web.chacuo.net/netrsakeypair": {
+        "status_code": 200,
+        "description": "在线生成非对称加密公钥私钥对、在线生成公私钥对、RSA Key pair create、生成RSA密钥对--查错网"
+    },
+    "http://www.atoolbox.net/Tool.php?Id=932": {
+        "status_code": 200,
+        "description": "Base58编码/解码 - 一个工具箱 - 好用的在线工具都在这里！"
+    },
+    "http://tool.chacuo.net/cryptrc6": {
+        "status_code": 200,
+        "description": "在线RC6加密解密、RC6在线加密解密、RC6 encryption and decryption--查错网"
+    },
+    "http://www.hiencode.com/rot13.html": {
+        "status_code": 200,
+        "description": "CTF在线工具-在线Rot13密码加密|在线Rot13密码解密|Rot13密码算法|Rot13 Cipher"
     }
 }
