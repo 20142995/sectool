@@ -60,13 +60,12 @@
         "release_message": ""
     },
     "https://github.com/pppscn/SmsForwarder": {
-        "created_at": "",
-        "description": "",
-        "commit_date": "2024-02-26 05:39:54",
-        "commit_message": "新增：自动任务·快捷指令 —— 执行动作：启停任务 #389",
-        "release_tag": "",
-        "release_date": "",
-        "release_message": ""
+        "created_at": "2024-02-14 02:15:31",
+        "description": "短信转发器——监控Android手机短信、来电、APP通知，并根据指定规则转发到其他手机：钉钉群自定义机器人、钉钉企业内机器人、企业微信群机器人、飞书机器人、企业微信应用消息、邮箱、bark、webhook、Telegram机器人、Server酱、PushPlus、手机短信等。包括主动控制服务端与客户端，让你轻松远程发短信、查短信、查通话、查话簿、查电量等。（V3.0 新增）PS.这个APK主要是学习与自用，如有BUG请提ISSUE，同时欢迎大家提PR指正",
+        "commit_message": "新增：`{{IP_LIST}}`变量标签用于获取`本机所有IP地址列表`（排除环回地址） #I9CVLZ",
+        "commit_date": "2024-04-07 10:17:19",
+        "release_date": "2024-02-14 02:22:07",
+        "release_message": "新春快乐，龙年大吉！\r\n\r\n感谢大家3年来的陪伴与支持，顺祝情人节快乐！\r\n\r\n---\r\n\r\n【重点推荐】\r\n\r\n`自动任务·快捷指令`，轻松自动化，助您事半功倍，更多时间享受亲情陪伴！（v3.3+）\r\n\r\n---\r\n\r\n### 【注意】\r\n\r\n* `v3.2.0` 去除了 `mmkv` 依赖，采用 `SharedPreferences` 来保存配置，如果从低于 `v3.2.0`  升级后请重新配置，具体原因参见 [Issue #245](https://github.com/pppscn/SmsForwarder/issues/245)\r\n\r\n* 升级完毕后，建议离线导出配置（客户端>一键换新机>离线模式>导出），完全卸载干净全新安装后再导入配置（可以避免一些莫名其妙的玄学问题，例如：耗电异常）\r\n\r\n---\r\n\r\n### 更新日志\r\n\r\n* 新增：自动任务·快捷指令 —— 触发条件：定时任务\r\n* 新增：自动任务·快捷指令 —— 触发条件：到达地点&离开地点\r\n* 新增：自动任务·快捷指令 —— 触发条件：SIM卡槽状态改变（废弃：`66666666`）\r\n* 新增：自动任务·快捷指令 —— 触发条件：网络状态改变（废弃：`77777777`）\r\n* 新增：自动任务·快捷指令 —— 触发条件：电池电量&充电状态改变（废弃：`88888888`）\r\n* 新增：自动任务·快捷指令 —— 触发条件：锁屏解锁 #370\r\n* 新增：自动任务·快捷指令 —— 执行动作：发送短信、推送通知、清理日志、通用设置、启停Frpc、启停HttpServer、启停规则、启停通道\r\n* 新增：`企微群机器人`发送`文本消息`时支持at成员 #376\r\n* 新增：通话转发规则的`匹配字段`增加`通话类型` & 自定义模板增加`{{通话类型}}`标签 #305 #381\r\n* 新增：重写`Log`类，将`Log.*`写入文件，以便排查问题 #269\r\n* 新增：多语言切换设置适应国际化 #378\r\n* 新增：繁体中文语言包(机器转换)\r\n* 新增：App通知转发增加uid条件，区分双开应用（需Android Q+）\r\n* 新增：自定义模板可用标签 `{{定位信息}}`（英文系统：`{{LOCATION}}`） #341 #343\r\n* 新增：网络状态变化通知增加当前WiFi名称(SSID)/移动数据卡槽 #355\r\n* ~~新增：SIM卡槽状态监控（包名：`66666666`） #355~~\r\n* 新增：短信指令增加短信发送功能 #338\r\n* 新增：短信指令打开或关闭 WiFi #316 （试验性）\r\n* 新增：短信指令`smsf#system#reboot`和`smsf#system#shutdown`（试验性，仅适用root过的机器）\r\n* 新增：webParams 的 `[receive_time]` 标签支持自定义时间格式 #327\r\n* 新增：网络状态监控通知增加IPv6获取 #321\r\n* 新增：转发规则可以设置免打扰(禁用转发)时间段 #318\r\n* 新增：`发送通道`的测试内容携带`通道名称` #317\r\n* 新增：`{{当前时间}}` `{{CURRENT_TIME}}` 标签（便于调试）\r\n* 新增：钉钉群机器人支持markdown格式 #311\r\n* 新增：钉钉群机器人支持at钉钉号/海外手机号 #312\r\n* 新增：支持Bark推送加密 #273 (详见：https://bark.day.app/#/encryption)\r\n\r\n* 优化：记录crash日志\r\n* 优化：`飞书群机器人`和`飞书企业应用`支持自定义`消息卡片`模板 #381\r\n* 优化：`飞书企业应用`支持指定`消息接收者ID类型`\r\n* 优化：主动控制·服务端/客户端默认隐藏密钥\r\n* 优化：在 Android 4.4 上使用矢量图\r\n* 优化：请求重试机制（无网络时也执行重试机制 & 修正延迟时间单位错误）\r\n* 优化：MainActivity 内容填充方式（避免一次性加载多个Fragment）&& 提升APP启动速度与稳定性\r\n* 优化：左滑菜单 与 TabBar 美化\r\n* 优化：仅当开启自动检查且有网络时，App启动时自动检查更新\r\n* 优化：仅当开启`启动时异步获取已安装App列表`总开关时获取\r\n* 优化：采用 LiveEventBus 替换掉 Looper.loop() 后再 Toast 形式\r\n* 优化：应用列表增加UID & APP通知自定义模板增加可用标签 `{{UID}}` #366\r\n* ~~优化：网络状态监控（包名：`77777777`），multi SIM 切换问题 #355~~\r\n* 优化：避免 Room 主线程查询缓存 #345\r\n* 优化：自动删除N天前的转发记录时同时清理缓存 #354\r\n* 优化：`企业微信应用`发送通道允许自定义API地址【通过反向代理(proxy_pass https://qyapi.weixin.qq.com;)绕过IP白名单限制】 #352\r\n* 优化：移除 `kmnkt` 依赖，重构 `SocketUtils` #339 #349\r\n* 优化：`Webhook`通道新增成功应答关键字（置空则http状态200即为成功） #346\r\n* 优化：增加企业专有钉钉的支持 #348 （填写`Webhook`全地址）\r\n* 优化：在选择Web客户端目录的时候弹出授权管理所有文件访问的权限 #332\r\n* 优化：主动控制·远程WOL唤醒功能 #328\r\n* 优化：`企微群机器人`发送通道支持`Markdown`格式消息 #292\r\n* 优化：接口请求失败重试时间间隔输入方式 #285\r\n* 优化：发送通道的Bark的消息链接取消限制 #290\r\n* 优化：避免个别机型重启后自启动时`startService`可能空指针导致`crash`\r\n* 优化：一键换新机·导出/导入通用设置的机制\r\n* 优化：APP通知转发的默认模板去除卡槽主键(SubId)字段\r\n* 优化：客户端发送短信，取消对手机号长度检测限制 #264\r\n\r\n* 修复： 部分 Android 4.4 系统（随身WiFi）不支持 `instr()` 函数的问题\r\n* 修复：提示连不上`smtp.gmail.com`的`587`端口问题\r\n* 修复：MQTT能连接成功但是不能正常工作的问题 #310\r\n* 修复：没有跳转到具体的通知权限设置页的问题\r\n* 修复：应用转发规则编辑界面的`通知标题`按钮点击无效\r\n* 修复：CactusSave中SharedPreference的键值对应错误 #294\r\n* 修复：错误的 URL 有效性验证正则表达式 (#286)\r\n* 修复：无法自动消除通知的bug\r\n* 修复：通过转发日志中重试发送/重新匹配规则并发送消息时，{{接收时间}}错误（取当前时间） #275\r\n\r\n* 升级：frpclib 到 `v0.54.0`（支持最新的XTCP） #329\r\n* 升级：XUI框架版本（优化XToastUtils等）\r\n* 升级：XUpdate 依赖版本（优化默认版本解析器）\r\n* 升级：CodeView & XXPermissions 依赖库版本（提升兼容性）\r\n\r\n* 精简：界面微调 & 去除不常用设置\r\n* 整理：code review & 精简无用资源\r\n* 整理：Release Assets文件命名简化 #298\r\n\r\n还有一些细微调整参见`github`提交记录\r\n\r\n---\r\n\r\n### APK版本说明：\r\n* universal（10XXXX）: 通用版（不在乎安装包大小/懒得选就用这个版本，包含以下4种CPU架构so）\r\n* armeabi-v7a（20XXXX）: 32位ARM设备（备用机首选）\r\n* arm64-v8a（30XXXX）: 64位ARM设备（主流旗舰机）\r\n* x86（40XXXX）: 32位Intel设备\r\n* x86_64（50XXXX）: 64/32位Intel设备"
     },
     "https://github.com/We5ter/Scanners-Box": {
         "created_at": "",
@@ -814,8 +813,8 @@
     "https://github.com/murphysecurity/murphysec": {
         "created_at": "2023-05-15 12:21:31",
         "description": "An open source tool focused on software supply chain security. 墨菲安全专注于软件供应链安全，具备专业的软件成分分析（SCA）、漏洞检测、专业漏洞库。",
-        "commit_message": "fix(npm): include devDependencies",
-        "commit_date": "2024-03-25 11:39:13",
+        "commit_message": "perf: improve fragment scanning performance\n\nclose channel",
+        "commit_date": "2024-04-02 11:12:56",
         "release_date": "2023-05-15 12:52:58",
         "release_message": "Support NPM lockfile v3 "
     },
@@ -2194,10 +2193,12 @@
         "release_message": ""
     },
     "https://github.com/Threekiii/Awesome-POC": {
-        "created_at": "2022-02-20 06:43:22",
+        "created_at": "2024-01-31 00:46:17",
         "description": "一个漏洞POC知识库",
-        "commit_message": "update cve-2022-33980",
-        "commit_date": "2024-01-31 00:46:17"
+        "commit_message": "update",
+        "commit_date": "2024-04-07 08:09:08",
+        "release_date": "2024-03-27 14:28:44",
+        "release_message": "2023.04.01 重构目录，合并 [Vulhub-Reproduce](https://github.com/Threekiii/Vulhub-Reproduce) 与本仓库。此为合并前 release。"
     },
     "https://github.com/mrknow001/fastjson_rec_exploit": {
         "created_at": "2020-07-10 08:02:48",
@@ -21954,8 +21955,8 @@
     "https://github.com/apache/logging-log4j2": {
         "created_at": "2024-03-10 19:05:47",
         "description": "Apache Log4j 2 is a versatile, feature-rich, efficient logging API and backend for Java.",
-        "commit_message": "Update `co.elastic.clients:elasticsearch-java` to version `8.13.1` (#2437)",
-        "commit_date": "2024-04-03 13:43:03",
+        "commit_message": "Improve `BUILDING.adoc`",
+        "commit_date": "2024-04-05 18:53:09",
         "release_date": "2024-03-10 19:24:14",
         "release_message": "This release contains several small fixes and some dependency updates.\r\n\r\n### Changed\r\n\r\n* Improve performance of `CloseableThreadContext#closeMap()` (#2296)\r\n\r\n### Fixed\r\n\r\n* Fix handling of `LoggerContextAware` lookups (#2309)\r\n* Fix NPE in `PatternProcessor` for a `UNIX_MILLIS` pattern (#2346)\r\n* Fix that parameterized message formatting doesn't throw an exception when there are insufficient number of parameters (#2343)\r\n* Fix `StatusLogger` log level filtering when debug mode is enabled (#2337)\r\n* Add `log4j2.StatusLogger.dateFormatZone` system property to set the time-zone `StatusLogger` uses to format `java.time.Instant`. Without this, formatting patterns accessing to time-zone-specific fields (e.g., year-of-era) cause failures. (#2322)\r\n* Fix `StatusLogger` to correctly read `log4j2.StatusLogger.properties` resource (#2354)\r\n* Fix stack overflow in `StatusLogger` (#2322)\r\n\r\n### Updated\r\n\r\n* Update `jakarta.activation:jakarta.activation-api` to version `2.1.3` (#2335)\r\n* Update `jakarta.mail:jakarta.mail-api` to version `2.1.3` (#2348)\r\n* Update `org.apache.commons:commons-compress` to version `1.26.0` (#2304)\r\n* Update `org.apache.commons:commons-dbcp2` to version `2.12.0` (#2344)\r\n* Update `org.apache.kafka:kafka-clients` to version `3.7.0` (#2326)\r\n* Update `org.eclipse.angus:angus-activation` to version `2.0.2` (#2336)\r\n* Update `org.eclipse.angus:jakarta.mail` to version `2.0.3` (#2349)\r\n"
     },
@@ -22702,13 +22703,10 @@
         "release_message": ""
     },
     "https://github.com/Xuno1/Emergency-response-toolset": {
-        "created_at": "",
-        "description": "",
-        "commit_date": "2024-01-11 02:16:37",
+        "created_at": "2024-01-10 13:20:39",
+        "description": "猫鼠信安应急响应工具包",
         "commit_message": "README.md",
-        "release_tag": "",
-        "release_date": "",
-        "release_message": ""
+        "commit_date": "2024-01-11 02:16:37"
     },
     "https://github.com/Sitoi/dailycheckin": {
         "created_at": "2024-03-19 01:37:20",
@@ -22748,8 +22746,8 @@
     "https://github.com/shufflewzc/faker3": {
         "created_at": "2022-01-31 21:21:40",
         "description": null,
-        "commit_message": "Update jd_jx_party_invite.js",
-        "commit_date": "2024-03-26 16:19:22"
+        "commit_message": "Update sendJDNotify.js",
+        "commit_date": "2024-04-07 10:49:51"
     },
     "https://github.com/harlamism/IdaClu": {
         "created_at": "",
@@ -22795,10 +22793,12 @@
         "release_message": ""
     },
     "https://github.com/qiwentaidi/Slack": {
-        "created_at": "2023-08-20 00:52:28",
+        "created_at": "2024-03-17 04:52:38",
         "description": "一款Go Wails实现的GUI工具，功能涵盖网站扫描、端口扫描、企业信息收集、子域名暴破、空间引擎搜索、CDN识别等",
         "commit_message": "update 1.4.9",
-        "commit_date": "2024-03-17 04:52:38"
+        "commit_date": "2024-03-17 04:52:38",
+        "release_date": "2024-03-17 13:58:02",
+        "release_message": "优化：\r\n1、端口扫描增加sqlserver主动探针，避免漏报\r\n2、取消客户端在线更新功能（因为wails框架没办法从前端进行跨域请求），无法实现更新进度条功能，加上暂未实现mac .app应用自动更新，所以也取消的windows 更新功能\r\n\r\n修复：\r\n1、端口扫描时端口指纹为空导致端口显示关闭\r\n2、漏洞扫描模块，由于多次快速读取POC文件内容导致的下标越界，然后导致程序退出\r\n3、天眼查资产查询，公众号和子公司一起查询时，子公司名称显示异常问题\r\n4、指纹扫描，指纹大小写匹配异常问题\r\n5、鹰图、fofa首次回车刷新程序，导致存储数据丢失的问题，现在将查询事件绑定在回车按键中\r\n6、目录扫描多次执行bug\r\n7、端口扫描超时时长不生效bug"
     },
     "https://github.com/horizon3ai/CVE-2023-27524": {
         "created_at": "2023-04-25 04:59:05",
@@ -23202,13 +23202,10 @@
         "release_message": "开天辟地"
     },
     "https://github.com/ybdt/exp-hub": {
-        "created_at": "",
-        "description": "",
-        "commit_date": "2024-01-09 01:17:28",
-        "commit_message": "Update xray配置.md",
-        "release_tag": "",
-        "release_date": "",
-        "release_message": ""
+        "created_at": "2020-09-03 04:47:40",
+        "description": "漏洞检测利用",
+        "commit_message": "Create Nessus破解版.md",
+        "commit_date": "2024-04-07 12:25:18"
     },
     "https://github.com/attacker-codeninja/wprecon": {
         "created_at": "2020-12-11 03:38:26",
@@ -23241,13 +23238,12 @@
         "release_message": "修复部分问题，添加邮箱批量删除，添加web SSL默认配置启用。"
     },
     "https://github.com/x364e3ab6/DudeSuite": {
-        "created_at": "",
-        "description": "",
-        "commit_date": "2024-02-20 12:44:34",
+        "created_at": "2024-02-20 12:44:34",
+        "description": "Dude Suite Web 渗透测试工具",
         "commit_message": "Update README.md",
-        "release_tag": "",
-        "release_date": "",
-        "release_message": ""
+        "commit_date": "2024-03-17 09:25:45",
+        "release_date": "2024-03-17 09:20:48",
+        "release_message": "Dude v1.4.0.7"
     },
     "https://github.com/k8gege/LadonGo": {
         "created_at": "",
@@ -25116,8 +25112,8 @@
         "description": "[~]#棱角 ::Edge.Forum*"
     },
     "https://rapiddns.io/subdomain": {
-        "status_code": 502,
-        "description": "rapiddns.io | 502: Bad gateway"
+        "status_code": 200,
+        "description": "Subdomain - RapidDNS Rapid DNS Information Collection"
     },
     "http://www.zhongguosou.com/zonghe/moErSiCodeConverter.aspx": {
         "status_code": 200,
@@ -25624,8 +25620,8 @@
     "https://github.com/zaproxy/zaproxy": {
         "created_at": "2023-10-12 16:02:55",
         "description": "The ZAP core project",
-        "commit_message": "Merge pull request #8429 from thc202/skip-deleted-msgs\n\nSkip deleted msgs in the messages API endpoints",
-        "commit_date": "2024-04-02 16:17:08",
+        "commit_message": "Merge pull request #8431 from thc202/chalk-docker-images\n\nChalk and sign the weekly/nightly Docker images",
+        "commit_date": "2024-04-05 17:59:24",
         "release_date": "2023-10-12 16:40:31",
         "release_message": "Release notes: https://www.zaproxy.org/docs/desktop/releases/2.14.0/\r\n\r\n---\r\n| File | Checksum (SHA-256) |\r\n|---|---|\r\n| [ZAP_2.14.0.dmg](https://github.com/zaproxy/zaproxy/releases/download/v2.14.0/ZAP_2.14.0.dmg) | `3b9862a647b1c5c26d6917f2316113dfaceac06bdb79ad3f2c96e0cbd73861f7` |\r\n| [ZAP_2.14.0_aarch64.dmg](https://github.com/zaproxy/zaproxy/releases/download/v2.14.0/ZAP_2.14.0_aarch64.dmg) | `fb3369338252e22470bb38d120233bd9857119806f9f8be681f985e6a5174847` |\r\n| [ZAP_2.14.0_Core.zip](https://github.com/zaproxy/zaproxy/releases/download/v2.14.0/ZAP_2.14.0_Core.zip) | `26006030acd67613d5ed8a9cc57ab36b11777ef8085f8aa5edcada64fb656735` |\r\n| [ZAP_2.14.0_Crossplatform.zip](https://github.com/zaproxy/zaproxy/releases/download/v2.14.0/ZAP_2.14.0_Crossplatform.zip) | `8bc475c2f1976446e2ec37b9bacaeed0a1281185988e689a24187b9c60aa57dd` |\r\n| [ZAP_2.14.0_Linux.tar.gz](https://github.com/zaproxy/zaproxy/releases/download/v2.14.0/ZAP_2.14.0_Linux.tar.gz) | `219d7f25bbe25247713805ab02cc12279898c870743c1aae3c2b0b1882191960` |\r\n| [ZAP_2_14_0_unix.sh](https://github.com/zaproxy/zaproxy/releases/download/v2.14.0/ZAP_2_14_0_unix.sh) | `fb33573bc9ffb4598fe541287d4755062fee2eea26ec5d11102f7671d083c37f` |\r\n| [ZAP_2_14_0_windows-x32.exe](https://github.com/zaproxy/zaproxy/releases/download/v2.14.0/ZAP_2_14_0_windows-x32.exe) | `5dae52e27da12fba5115e40ebc0cd2da24f6d9ba91608a7b0b7b254984a0b798` |\r\n| [ZAP_2_14_0_windows.exe](https://github.com/zaproxy/zaproxy/releases/download/v2.14.0/ZAP_2_14_0_windows.exe) | `df49ffbd14cf82cde5ac06902615e40cbfce1576f866436366708c0845eb9ec6` |\r\n| [bom.json](https://github.com/zaproxy/zaproxy/releases/download/v2.14.0/bom.json) | `f4085a07a1164a0c6b8169a1ad28f3a46a13c6a5ffac06ce82ef9ebdc321c949` |\r\n"
     },
@@ -26000,12 +25996,12 @@
         "commit_date": "2015-09-18 20:59:29"
     },
     "https://github.com/ProbiusOfficial/CTF-OS": {
-        "created_at": "2024-03-02 11:15:05",
+        "created_at": "2024-04-02 18:46:51",
         "description": "【Hello CTF】专为CTF比赛封装的虚拟机，基于工具集封装多个版本和系统，更多选择，开箱即用。比赛愉快！",
-        "commit_message": "Add TODO list for future improvements",
-        "commit_date": "2024-03-04 16:23:04",
-        "release_date": "2024-03-02 11:25:47",
-        "release_message": "![Flag_with_Windows](https://github.com/ProbiusOfficial/CTF-OS/assets/41804496/17f0a088-328e-42d4-a7d9-7e256785f75e)\r\n\r\n## 发版说明\r\n\r\n这是一个测试版本，还请大家多多在issue中提意见和需求，以便我们完善该系统。\r\n\r\n## 系统说明\r\nWindows Password: `hello-ctf.com`\r\n\r\nUbuntu Password: `ctfos`\r\n\r\n## 下载地址\r\n\r\n### 百度网盘\r\n\r\n链接: https://pan.baidu.com/s/1Ssbipeg4sOL8938j9ZwW5A?pwd=Hctf 提取码: Hctf \r\n\r\n（暂仅提供百度网盘下载，欢迎师傅们上传其他渠道后在issue中提供，感谢谅解）\r\n\r\nSHA256 数据校验：: f28fe034a58d5c70ed61a1f4150e45871dc1d6894c64b3ceae07a4466613caa1-00000089\r\n\r\nSHA256 数据及文件名校验：: 741580f86e1990f91ffb326c4cd4c6dd06c4b4c41da194ee2963a0b01ae9dcb4-00000093\r\n\r\n## Detail\r\n\r\n### 系统环境\r\n\r\nPython 3.8.2rc2 (tags/v3.8.2rc2:777ba07, Feb 18 2020, 09:11:15) [MSC v.1916 64 bit (AMD64)]\r\n\r\nJava 环境 jdk-1.8 (build 1.8.0_401-b10)\r\n\r\nPHP 7.3.4\r\n\r\nMySQL 5.7.26\r\n\r\nNginx 1.15.11\r\n\r\nApache 2.4.39\r\n\r\nMsys2-x86_64-20240113 \r\n\r\ngcc 13.2.0 @msys2\r\n\r\n### WSL子系统\r\n\r\n```\r\nUbuntu 22.04.3 LTS on Windows 10 x86_64\r\nWSL 版本： 2.0.9.0\r\n内核版本： 5.15.133.1-1\r\nWSLg 版本： 1.0.59\r\nMSRDC 版本： 1.2.4677\r\nDirect3D 版本： 1.611.1-81528511\r\nDXCore 版本： 10.0.25131.1002-220531-1700.rs-onecore-base2-hyp\r\nWindows 版本： 10.0.19045.3803\r\n```\r\n\r\n**子系统工具：**\r\n\r\nBinwalk v2.3.4 https://github.com/ReFirmLabs/binwalk/releases/tag/v2.3.4\r\n\r\nSQLMap v1.8.2 @pip\r\n\r\nForemost v1.5.7\r\n\r\ndirsearch v0.4.3.post1 @pip\r\n\r\nexiftool @apt\r\n\r\nzsteg https://github.com/zed-0xff/zsteg @gem\r\n\r\nStegoVeritas https://github.com/bannsec/stegoVeritas @pip\r\n\r\n### 工具\r\n\r\n#### 系统工具\r\n\r\nPHPStudy v8.1.1.3  源:https://www.xp.cn/\r\n\r\nPixPin v1.7.5.0 源:https://pixpinapp.com/\r\n\r\nDism++ v10.1.1002.2 源:https://github.com/Chuyu-Team/Dism-Multi-language/releases/tag/v10.1.1002.2\r\n\r\nEverything 源:https://www.voidtools.com/zh-cn/\r\n\r\n分区助手 源:https://www.disktool.cn/\r\n\r\nPCmast-软媒魔方 源:https://mofang.ruanmei.com/\r\n\r\n#### Web\r\n\r\nBurpSuite v2024.1.1 源:https://www.52pojie.cn//thread-1544866-1-1.html\r\n\r\nBehinder_v4.1 源:https://github.com/rebeyond/Behinder/releases/tag/Behinder_v4.1%E3%80%90t00ls%E4%B8%93%E7%89%88%E3%80%91\r\n\r\nGodzilla v4.0.1 源:https://github.com/BeichenDream/Godzilla/releases/tag/v4.0.1-godzilla\r\n\r\nYsoserial v0.0.6 源:https://github.com/frohoff/ysoserial/releases/tag/v0.0.6\r\n\r\njar-analyzer v2.12 源:https://github.com/jar-analyzer/jar-analyzer/releases/tag/2.12\r\n\r\n#### 文件Hex / 编辑\r\n\r\nImHex v1.33.0 源:https://github.com/WerWolv/ImHex/releases/tag/v1.33.0\r\n\r\n010EditorWin64Portable14.0 源:https://www.52pojie.cn/thread-1863194-1-4.html\r\n\r\n#### 隐写相关\r\n\r\nTweakpng v1.4.6 源:https://entropymine.com/jason/tweakpng/\r\n\r\nstegdetect-0.4-for-Windows 源:Unknown\r\n\r\nWaterMark 源:https://www.52pojie.cn/\r\n\r\nz3-4.12.6 源:https://github.com/Z3Prover/z3/releases/tag/z3-4.12.6\r\n\r\n#### MISC 综合工具\r\n\r\n随波逐流CTF编码工具 / 随波逐流 OCR识别工具 / 随波逐流224种编码图 源:http://1o1o.xyz/index.html\r\n\r\nCTFCrackTools v4.0.7 源:https://github.com/0Chencc/CTFCrackTools/releases/tag/4.0.7\r\n\r\nPuzzle Solver v1.0.4 源:https://github.com/Byxs20/PuzzleSolver/releases 注：为尊重项目要求，只保留了最后一个开源版本，后续的版本请按照Release中的说明自行获取\r\n\r\n#### 取证分析\r\n\r\nWireshark-4.2.3-x64.exe 源:https://www.wireshark.org/download.html\r\n\r\nLovelyMem 源:https://github.com/Tokeii0/LovelyMem/releases/tag/v0.2\r\n\r\nBlueTeamTools 源:https://github.com/abc123info/BlueTeamTools/releases/tag/v0.92\r\n\r\nPasswareKitForensic v2020 汉化 By Tokeii 源:NULL\r\n\r\n#### 密码学辅助工具\r\n\r\nCTF_AES加解密工具 / 国密SM4加解密工具 / 轩禹CTF_RSA工具3.6  源:https://space.bilibili.com/317479700\r\n\r\nciphey v5.14.0 @pip\r\n\r\nZ3求解器 \r\n\r\n#### 漏洞利用\r\n\r\nStruts2_19.21.jar 源:https://github.com/abc123info/Struts2VulsScanTools\r\n\r\nThinkphpGUI-1.3-SNAPSHOT.jar 源:https://github.com/Lotus6/ThinkphpGUI/releases/tag/1.3\r\n\r\nthinkphp_gui_tools 源:https://github.com/bewhale/thinkphp_gui_tools\r\n\r\nShiroExploit-Deprecated v2.51 源:https://github.com/feihong-cs/ShiroExploit-Deprecated/releases/tag/v2.51\r\n\r\nThinkPHP综合利用工具ShiroExploit v2.4.2 源:https://github.com/bewhale/thinkphp_gui_tools/releases/tag/v2.4.2"
+        "commit_message": "Add back.txt and README.pdf to .gitignore, update README.md and README_OpenBeta.md",
+        "commit_date": "2024-04-02 18:46:51",
+        "release_date": "2024-04-03 00:06:07",
+        "release_message": "![ArchLinux](https://github.com/ProbiusOfficial/CTF-OS/assets/41804496/3c0ffba3-bb65-4c5c-8090-d457d74d33e7)\r\n\r\n## 发版说明\r\n\r\n该版本为beta测试第二版，也是最接近正式版Windows版本的系统。\r\n\r\n系统基于 WIndows 10 22H2 10.0.19045.3803 镜像制作，使用 软媒魔方 和 Dism++ 进行了部分优化和精简，内置 Ubuntu 22.04.3 on WSL2 / Arch Linux on WSL2 子系统。\r\n\r\n> [!Warning]\r\n>\r\n> 本系统完全开源免费，如您在获取本系统的过程中有遇到付费情况，请及时向我反馈并且举报！\r\n>\r\n> 如果您不熟悉CTF，建议阅读我们的项目: [Hello-CTF](https://hello-ctf.com/) 的相关文章.\r\n\r\n下载地址\r\n\r\n百度云盘 : https://pan.baidu.com/s/1KqwZFCUiRz-yMeXFQSUBog?pwd=dysa\r\n备用链接 : https://pan.baidu.com/s/1GHGehbQk-kQELIiqM-G6bg?pwd=tjos \r\n**[2024-04-05 01:13:02 更新]** 添加了适用于 PD(Parallels Desktop)_x86 的虚拟机版本，您现在可以在 Intel 芯片的Mac 上运行CTF-OS了，感谢 **ShadowCui** 师傅的帮助ww\r\n- **[New]** HelloCTFOS_WSL2_PVM_x86.7z\r\n- HelloCTFOS_WSL2_VMX_x86.7z\r\n\r\n备用链接：\r\n- https://pan.baidu.com/s/1bEsDhPNf4c3tYrW_6l9Bgw?pwd=e348  （VMX_x86 版本） \r\n- https://pan.baidu.com/s/1BR8VTuMasu4veAbim82RQA?pwd=b9kk （PVM_x86 版本）\r\n\r\nOneDrive : https://1drv.ms/u/s!Ajm4g5jo4eENg23kg7Af6AX8ehOO?e=4G6Twf (VMX_x86 版本)\r\n\r\n（由于镜像大小原因，暂只提供 OneDrive 和 百度云盘 下载地址，欢迎师傅们在issue中提交其他渠道下载地址以进行分流）\r\n\r\n大小: 34595457537 字节 (32 GiB)\r\n\r\nSHA256 数据校验_VMX_x86 : e2f64938bbd0b1984faa02e017fc11b30e77dcb8c854b4bb7deca20b7e14aea2-00000002\r\n\r\nSHA256数据校验_PVM_x86 : 20b7375fde04b8e21f1b730b11a869a47ea136418433a479e6445e5f2afb4775\r\n\r\n## 特别鸣谢\r\n\r\n在此版系统中得到了几位师傅的大力支持，在这里特表感谢:\r\n\r\nroderick01 (@RoderickChan) / Cain (@CainYzb) 师傅对PWN环境配置的答疑和帮助.\r\n\r\nB.M.K 师傅对逆向环境配置的帮助.\r\n\r\nLov3 (@n-WN) 师傅对密码学环境配置的大力支持，以及其对Mac ARM架构的规划 (即将发版 :p)\r\n\r\n陈橘墨(@Randark-JMT) 被我用刀架着的情况下终于招了取证相关环境的配置清单.\r\n\r\n## 系统信息\r\n\r\nWindows Password: hello-ctf.com\r\n\r\nUbuntu / Arch Password: ctfos\r\n\r\n## Update\r\n\r\n依据 issue 更新完善了剩余环境。\r\n\r\n修复了上个版本中 冰蝎 打开时报错的问题.\r\n\r\n密码学增加了Arch系统，并部署最新版本的SageMath.\r\n\r\n升级WSL1系统为WSL2.\r\n\r\nUbuntu WSL2 系统添加了PWN环境.\r\n\r\n> [!Note]\r\n>\r\n> 注意，虽然WSL2具有完整内核，但是其内核并非原生，故只能解决一些入门赛题，可能会出现不可预料的问题，CTF-OS 在正式版本时会同时发行专用于PWN的Linux系统，敬请期待后续发版.\r\n\r\n配置了逆向环境和所需工具 —— 注意，由于安卓逆向需求的虚拟机会占用大量存储空间，而且考虑到大多数师傅暂时不会有安卓动调需求，安卓逆向只配置了部分工具。\r\n\r\nMISC工具增加完善了各类型的隐写工具，添加了取证工具.\r\n\r\n更多差异请查阅Detail部分的软件列表，注意由于某些原因，部分软件不会注明.\\\r\n\r\n## Detail\r\n\r\n### 子系统信息\r\n\r\n**子系统密码** : `ctfos`\r\n\r\n```\r\nWSL 版本： 2.1.5.0\r\n内核版本： 5.15.146.1-2\r\nWSLg 版本： 1.0.60\r\nMSRDC 版本： 1.2.5105\r\nDirect3D 版本： 1.611.1-81528511\r\nDXCore 版本： 10.0.25131.1002-220531-1700.rs-onecore-base2-hyp\r\nWindows 版本： 10.0.19045.3803\r\n```\r\n\r\n> [!Warning]\r\n>\r\n> 由于WSL1于WSL2的区别，您在虚拟机使用WSL2中需要在VM的处理器设置中启用 `虚拟化的 Intel VT-x/EPT 或 AMD-V/RVI(V)`，该选项会与宿主机的Linux子系统相关服务(也就是HV相关服务)冲突，这会导致您可能无法在宿主机上正常使用WSL以及其他HV相关服务.\r\n>\r\n> 如果您想继续在宿主机中使用WSL，请对该系统的WSL2进行降级，并且完全关闭**虚拟机的HV服务**.\r\n\r\n![image](https://github.com/ProbiusOfficial/CTF-OS/assets/41804496/2d1c4ead-b35c-43fb-9827-61d71670c794)\r\n\r\n### Windows 信息\r\n\r\n#### 系统环境\r\n\r\n```\r\nPython 3.8.2rc2 (tags/v3.8.2rc2:777ba07, Feb 18 2020, 09:11:15) [MSC v.1916 64 bit (AMD64)]\r\nJava 环境 jdk-1.8 (build 1.8.0_401-b10)\r\nPHP 7.3.4\r\nMySQL 5.7.26\r\nNginx 1.15.11\r\nApache 2.4.39\r\nMsys2-x86_64-20240113 \r\ngcc 13.2.0 @msys2\r\n```\r\n\r\n#### 系统工具\r\n\r\n| 工具名称        | 版本         | 源                                                           |\r\n| --------------- | ------------ | ------------------------------------------------------------ |\r\n| PHPStudy        | v8.1.1.3     | [xp.cn](https://www.xp.cn/)                                  |\r\n| PixPin          | v1.7.5.0     | [pixpinapp.com](https://pixpinapp.com/)                      |\r\n| Dism++          | v10.1.1002.2 | [GitHub](https://github.com/Chuyu-Team/Dism-Multi-language/releases/tag/v10.1.1002.2) |\r\n| Everything      |              | [voidtools.com](https://www.voidtools.com/zh-cn/)            |\r\n| 分区助手        |              | [disktool.cn](https://www.disktool.cn/)                      |\r\n| PCmast-软媒魔方 |              | [ruanmei.com](https://mofang.ruanmei.com/)                   |\r\n\r\n#### Web\r\n\r\n| 工具名称      | 版本      | 源                                                           |\r\n| ------------- | --------- | ------------------------------------------------------------ |\r\n| Yakit         |           | [yaklang.com](https://yaklang.com/)                          |\r\n| BurpSuite     | v2024.1.1 | [52pojie.cn](https://www.52pojie.cn//thread-1544866-1-1.html) |\r\n| Behinder_v4.1 |           | [GitHub](https://github.com/rebeyond/Behinder/releases/tag/Behinder_v4.1【t00ls专版】) |\r\n| Godzilla      | v4.0.1    | [GitHub](https://github.com/BeichenDream/Godzilla/releases/tag/v4.0.1-godzilla) |\r\n| Ysoserial     | v0.0.6    | [GitHub](https://github.com/frohoff/ysoserial/releases/tag/v0.0.6) |\r\n| jar-analyzer  | v2.12     | [GitHub](https://github.com/jar-analyzer/jar-analyzer/releases/tag/2.12) |\r\n\r\n#### 文件Hex / 编辑\r\n\r\n| 工具名称               | 版本    | 源                                                           |\r\n| ---------------------- | ------- | ------------------------------------------------------------ |\r\n| ImHex                  | v1.33.0 | [GitHub](https://github.com/WerWolv/ImHex/releases/tag/v1.33.0) |\r\n| 010EditorWin64Portable | 14.0    | [52pojie.cn](https://www.52pojie.cn/thread-1863194-1-4.html) |\r\n\r\n#### 隐写相关\r\n\r\n| 工具名称                   | 版本   | 源                                                           |\r\n| -------------------------- | ------ | ------------------------------------------------------------ |\r\n| Tweakpng                   | v1.4.6 | [entropymine.com](https://entropymine.com/jason/tweakpng/)   |\r\n| stegdetect-0.4-for-Windows |        | Unknown                                                      |\r\n| WaterMark                  |        | [52pojie.cn](https://www.52pojie.cn/)                        |\r\n| z3                         | 4.12.6 | [GitHub](https://github.com/Z3Prover/z3/releases/tag/z3-4.12.6) |\r\n\r\n#### MISC 综合工具\r\n\r\n| 工具名称                                                     | 版本   | 源                                                           |\r\n| ------------------------------------------------------------ | ------ | ------------------------------------------------------------ |\r\n| 随波逐流CTF编码工具 / 随波逐流 OCR识别工具 / 随波逐流224种编码图 |        | [1o1o.xyz](http://1o1o.xyz/index.html)                       |\r\n| CTFCrackTools                                                | v4.0.7 | [GitHub](https://github.com/0Chencc/CTFCrackTools/releases/tag/4.0.7) |\r\n| Puzzle Solver                                                | v1.0.4 | [GitHub](https://github.com/Byxs20/PuzzleSolver/releases)    |\r\n\r\n#### 取证分析\r\n\r\n| 工具名称            | 版本                 | 源                                                           |\r\n| ------------------- | -------------------- | ------------------------------------------------------------ |\r\n| Wireshark           | 4.2.3-x64.exe        | [wireshark.org](https://www.wireshark.org/download.html)     |\r\n| LovelyMem           |                      | [GitHub](https://github.com/Tokeii0/LovelyMem/releases/tag/v0.2) |\r\n| BlueTeamTools       | v0.92                | [GitHub](https://github.com/abc123info/BlueTeamTools/releases/tag/v0.92) |\r\n| PasswareKitForensic | v2020 汉化 By Tokeii | NULL                                                         |\r\n| autopsy             | v4.21.0              | [GitHub](https://github.com/sleuthkit/autopsy/releases/tag/autopsy-4.21.0) |\r\n| Volatility3         | v3-2.5.2             | [GitHub](https://github.com/volatilityfoundation/volatility3) |\r\n| Volatility2         | v2.6                 | [GitHub](https://github.com/volatilityfoundation/volatility) |\r\n| WinHex              | v20.5                | [x-ways.net](https://www.x-ways.net/winhex/index-m.html)     |\r\n| X-Ways_Forensics    | v20.5                | [x-ways.net](https://www.x-ways.net/winhex/index-m.html)     |\r\n\r\n#### 密码学\r\n\r\n| 工具名称                                                   | 版本                                   | 源                                                   |\r\n| ---------------------------------------------------------- | -------------------------------------- | ---------------------------------------------------- |\r\n| CTF_AES加解密工具 / 国密SM4加解密工具 / 轩禹CTF_RSA工具3.6 |                                        | [bilibili.com](https://space.bilibili.com/317479700) |\r\n| ciphey                                                     | v5.14.0                                | @pip                                                 |\r\n| Z3求解器                                                   |                                        |                                                      |\r\n| SageMath(On WSL Arch)                                      | version 10.3, Release Date: 2024-03-19 | [sagemath.org](https://www.sagemath.org/)            |\r\n\r\n#### 二进制\r\n\r\n| 工具名称               | 版本                         | 源                                                           |\r\n| ---------------------- | ---------------------------- | ------------------------------------------------------------ |\r\n| IDA Pro                | v8.3                         | [52pojie.cn](https://down.52pojie.cn/Tools/Disassemblers/)   |\r\n| x64dbg                 |                              | [x64dbg.com](https://x64dbg.com/)                            |\r\n| exeinfope              | v0.0.8.3                     | [GitHub](https://github.com/ExeinfoASL/ASL/releases)         |\r\n| dnspy                  | v6.1.8                       | [GitHub](https://github.com/dnSpy/dnSpy/releases/tag/v6.1.8) |\r\n| dnSpyEX/dnSpy          | v6.5.0                       | [GitHub](https://github.com/dnSpyEx/dnSpy/releases/tag/v6.5.0) |\r\n| Ghidra                 | v11.0.2                      | [GitHub](https://github.com/NationalSecurityAgency/ghidra/releases/tag/Ghidra_11.0.2_build) |\r\n| Resource Hacker        | v5.2.7                       | [angusj.com](https://www.angusj.com/resourcehacker/)         |\r\n| 吾爱破解专用版Ollydbg  |                              | [52pojie.cn](https://down.52pojie.cn/Tools/Debuggers/)       |\r\n| Windbg                 | v10.0.22621.2428             | [52pojie.cn](https://down.52pojie.cn/Tools/Debuggers/)       |\r\n| Cheat Engine           | v7.5                         | [cheatengine.org](https://www.cheatengine.org/)              |\r\n| LuaDec (On WSL Ubuntu) | 2.2 rev: 895d923 for Lua 5.1 | [GitHub](https://github.com/viruscamp/luadec)                |\r\n| angrop (Python)        |                              | pip                                                          |\r\n\r\n#### PWN\r\n\r\n该部分环境安装于 WSL Ubuntu 22.04.3 LTS. `/home/helloctfos/pwnenv/`\r\n\r\n| 工具名称      | 工具信息                                            | 安装方式(源)                                                 |\r\n| ------------- | --------------------------------------------------- | ------------------------------------------------------------ |\r\n| vim文本编辑器 | 文本编辑器                                          | `sudo apt install vim`                                       |\r\n| git           | 开源的分布式版本控制系统                            | `sudo apt install git`                                       |\r\n| gcc           | GNU编译器套件                                       | `sudo apt install gcc`                                       |\r\n| python3-pip   | Python 包管理工具                                   | `sudo apt install python3-pip`                               |\r\n| qemu          | 处理器模拟器                                        | `sudo apt-get install qemu-user qemu-system`                 |\r\n| gdb-multiarch | gdb客户端进行调试的通用客户端                       | `sudo apt-get install gdb-multiarch`                         |\r\n| Pwntools      | CTF框架和开发库                                     | `git clone https://github.com/Gallopsled/pwntools.git` and other install commands |\r\n| gdb插件       | 包括peda、pwndbg、gef、Pwngdb                       | Cloning from respective repositories and setup               |\r\n| ROPgadget     | 在二进制文件中搜索小工具                            | `sudo pip3 install capstone` and `git clone https://github.com/JonathanSalwan/ROPgadget.git` |\r\n| one_gadget    | 查找ELF文件中的execve(’/bin/sh’, NULL, NULL)        | `sudo apt install ruby` and `sudo gem install one_gadget`    |\r\n| seccomp-tools | 分析CTF pwn挑战中的seccomp沙盒                      | `sudo gem install seccomp-tools`                             |\r\n| LibcSearcher  | 在泄露了Libc中的某一个函数地址后辅助工具            | `git clone https://github.com/lieanu/LibcSearcher.git`       |\r\n| patchelf      | 修改现有ELF可执行文件和库的工具                     | `sudo apt install patchelf`                                  |\r\n| ARM PWN       | ARM软件包，具备ARM交叉编译gcc与ARM程序动态链接库    | `sudo apt-get install gcc-arm-linux-gnueabi` and other ARM packages |\r\n| MIPS PWN      | MIPS软件包，具备MIPS交叉编译gcc与MIPS程序动态链接库 | `sudo apt-get install gcc-mips-linux-gnu` and other MIPS packages |\r\n\r\n\r\n#### 安卓\r\n\r\n| 工具名称                   | 版本             | 源                                                           |\r\n| -------------------------- | ---------------- | ------------------------------------------------------------ |\r\n| ADB                        | v35.0.1-11580240 | [google](https://dl.google.com/android/repository/platform-tools-latest-windows.zip) |\r\n| GDA-android-reversing-Tool | v4.10            | [GitHub](https://github.com/charles2gan/GDA-android-reversing-Tool/releases/tag/GDA4.10) |\r\n| jadx-gui                   | v1.4.7           | [GitHub](https://github.com/skylot/jadx/releases/tag/v1.4.7) |\r\n\r\n#### 漏洞利用\r\n\r\n| 工具名称                         | 版本   | 源                                                           |\r\n| -------------------------------- | ------ | ------------------------------------------------------------ |\r\n| Struts2_19.21.jar                |        | [GitHub](https://github.com/abc123info/Struts2VulsScanTools) |\r\n| ThinkphpGUI                      | 1.3    | [GitHub](https://github.com/Lotus6/ThinkphpGUI/releases/tag/1.3) |\r\n| thinkphp_gui_tools               |        | [GitHub](https://github.com/bewhale/thinkphp_gui_tools)      |\r\n| ShiroExploit-Deprecated          | v2.51  | [GitHub](https://github.com/feihong-cs/ShiroExploit-Deprecated/releases/tag/v2.51) |\r\n| ThinkPHP综合利用工具ShiroExploit | v2.4.2           | [GitHub](https://github.com/bewhale/thinkphp_gui_tools/releases/tag/v2.4.2) |\r\n\r\n## Demo\r\n\r\n![image](https://github.com/ProbiusOfficial/CTF-OS/assets/41804496/2ff13425-b2cb-4b96-a7eb-a3651a5afc82)\r\n\r\n![image](https://github.com/ProbiusOfficial/CTF-OS/assets/41804496/486f3989-8437-40c8-a20b-f75fca423556)\r\n\r\n## NEW Wallpaper\r\n\r\n![image](https://github.com/ProbiusOfficial/CTF-OS/assets/41804496/9e023623-8055-45cf-bfb3-67cc9398b713)\r\n\r\n## 赞助我们？\r\n\r\n<p float=\"left\">\r\n  <img src=\"https://nssctf.wdf.ink//img/WDTJ/202404030130413.png\" width=\"28%\" />\r\n  <img src=\"https://nssctf.wdf.ink//img/WDTJ/202404030131244.png\" width=\"28%\" />\r\n</p>\r\n您的赞助将帮助我们完善项目ww\r\n\r\n请在备注中注明，以便我们在项目中公开向您表示感谢.\r\n\r\n## End.\r\n\r\n![image](https://github.com/ProbiusOfficial/CTF-OS/assets/41804496/8b3a714f-afd7-4416-9b41-edd1344618c3)\r\n\r\n"
     },
     "https://github.com/byt3bl33d3r/gcat": {
         "created_at": "2015-09-12 18:20:08",
@@ -27001,5 +26997,35 @@
     "http://www.hiencode.com/rot13.html": {
         "status_code": 200,
         "description": "CTF在线工具-在线Rot13密码加密|在线Rot13密码解密|Rot13密码算法|Rot13 Cipher"
+    },
+    "https://github.com/LinWin-Cloud/Easy-DDOS": {
+        "created_at": "2024-02-12 12:34:14",
+        "description": "EasyDDOS高性能DDOS工具-流量杀手。专门设计用于在一段时间内(攻击与结束后) 局域网或者手机电脑热点瘫痪、流量欠费、局域网内所有互联网设备的网络全部掉线或者网络及慢。在ddos方案中，该软件提供 http 高度攻击、死亡之ping、局域网/热点扫描与信息收集等。",
+        "commit_message": "README",
+        "commit_date": "2024-02-17 13:46:14"
+    },
+    "https://github.com/enzymefinance/oyente": {
+        "created_at": "2017-10-09 12:49:53",
+        "description": " An Analysis Tool for Smart Contracts ",
+        "commit_message": "Crytic compile support (#405)\n\nAdd support for crytic_compile instead of using `solc` for compilation.\r\n\r\nDoing so has benefits:\r\n1. No need to maintain interfacing with `solc`\r\n2. Automatically use right version (or better compatible version) of `solc`\r\n\r\nCo-authored-by: Xiao Liang <yxliang01@users.noreply.github.com>",
+        "commit_date": "2020-11-06 18:37:52",
+        "release_date": "2017-10-10 06:27:06",
+        "release_message": "- Optimize symbolic execution by simplifying symbolic expressions.  ([commit #2bc26a](https://github.com/melonproject/oyente/commit/72bc26acd2e5b0d4b3bec60e6f269602f61dce08))\r\n- Solved [#129](https://github.com/melonproject/oyente/issues/129) Oyente couldn't convert contracts linking to libraries to opcodes because evm can't convert the placeholder in the compiled binary into opcodes\r\n- Solved [#172](https://github.com/melonproject/oyente/issues/172) Analysis with bytecode didn't record the results of bug detection which led to not report bugs correctly\r\n- [#176](https://github.com/melonproject/oyente/issues/176) Fix source mapping when a contract calls other contracts\r\n- [#204](https://github.com/melonproject/oyente/issues/204) Import other files feature for the web version\r\n- Implement CREATE and DELEGATECALL opcodes\r\n- Reduced false positives of reentrancy attack and call stack attack detections\r\n- Display Ether flows in money concurrency bug\r\n- Generate sample inputs for state variables and parameters that lead to an assertion failure\r\n- Detect assertion failure caused by external function call"
+    },
+    "https://github.com/yint-tech/sekiro-open": {
+        "created_at": "2024-03-13 03:48:40",
+        "description": "SEKIRO is a multi-language, distributed, network topology-independent service publishing platform. By writing handlers in their respective languages, functionalities can be published to the central API marketplace. Business systems utilize the capabilities of remote nodes through RPC.",
+        "commit_message": "fix: fix PongWebSocketFrame error",
+        "commit_date": "2024-03-13 03:48:40",
+        "release_date": "2024-03-13 03:53:21",
+        "release_message": "1. fix ws PongWebSocketFrame（修正ws 心跳包处理）"
+    },
+    "https://github.com/Neo23x0/Fenrir": {
+        "created_at": "2021-12-13 12:18:13",
+        "description": "Simple Bash IOC Scanner",
+        "commit_message": "docs: maintenance status",
+        "commit_date": "2022-02-12 09:33:35",
+        "release_date": "2021-12-13 12:22:05",
+        "release_message": "A special Fenrir release that includes indicators \r\n\r\n- of a compromise (see IOC files)\r\n- of vulnerable log4j versions (hash list by [@mubix](https://github.com/mubix/CVE-2021-44228-Log4Shell-Hashes))\r\n\r\n![Screenshot 2021-12-13 at 13 04 01](https://user-images.githubusercontent.com/2851492/145811111-bd889b6c-9fb6-42f7-8433-bbfffecba0d4.png)\r\n\r\n![Screenshot 2021-12-13 at 13 05 11](https://user-images.githubusercontent.com/2851492/145811116-167e584f-708c-4344-8029-d4463284f692.png)\r\n\r\n![Screenshot 2021-12-13 at 13 14 33](https://user-images.githubusercontent.com/2851492/145811153-6abb0956-9054-4d1f-8b01-9085a97822bb.png)\r\n\r\n![Screenshot 2021-12-13 at 12 08 04](https://user-images.githubusercontent.com/2851492/145811165-e9825598-1d73-40e8-936f-96aecf57090e.png)\r\n\r\n![Screenshot 2021-12-13 at 13 06 31](https://user-images.githubusercontent.com/2851492/145811216-7facf4e7-b753-44ef-86ad-4abb6ed11302.png)\r\n\r\n\r\n"
     }
 }
