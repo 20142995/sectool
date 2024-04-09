@@ -92,6 +92,9 @@ exclude = [
     "https://mirrors.tuna.tsinghua.edu.cn/git/homebrew/brew.git",
     "https://www.hikvision.com/cn/support/CybersecurityCenter/",
     "http://hi.pcmoe.net/buddha.html",
+    "https://security.guazi.com/",
+    "https://fsrc.fuiou.com/home/index.html",
+    "https://www.chamd5.org/"
     "https://www.qqxiuzi.cn/bianma/rot5-13-18-47.php",
     "https://mirrors.tuna.tsinghua.edu.cn/git/homebrew/homebrew-core.git",
 ]

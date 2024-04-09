@@ -359,11 +359,13 @@
                 - https://www.qqxiuzi.cn/bianma/weijiniyamima.php
             编码解码综合网站:
                 - http://fbcs.bplaced.net/multi_encoder_decoder.html
+                - http://tools.sbbbb.cn/CyberChef/
                 - http://www.atoolbox.net/Category.php?Id=27
                 - http://www.hiencode.com/
                 - https://ctf.bugku.com/tools
                 - https://ctf.mzy0.com/CyberChef3/
                 - https://ctfever.uniiem.com/
+                - https://forum.ywhack.com/tools/CyberChef/
                 - https://tool.lu/
             自动密钥密码加密解密:
                 - http://www.atoolbox.net/Tool.php?Id=920
@@ -629,9 +631,9 @@
                     YApi:
                         - https://github.com/Tas9er/YApiRCE
                     django:
-                        - https://github.com/6IX7ine/djangohunter
+                        - https://github.com/jimywork/djangohunter
                     joom:
-                        - https://github.com/rezasp/joomscan
+                        - https://github.com/OWASP/joomscan
                     vmware:
                         - https://github.com/NS-Sp4ce/Vm4J
                         - https://github.com/Schira4396/VcenterKiller
@@ -694,14 +696,40 @@
                 在线辅助:
                     DNSLOG平台:
                         - http://ceye.io
+                        - http://dnslog.pw/
                         - http://dnslog.pw/login
+                        - http://eyes.sh
                         - http://www.dnslog.cn
+                        - https://app.interactsh.com/#/
                         - https://dig.pm
+                        - https://dig.pm/
                         - https://www.callback.red
+                        - https://www.t00ls.com/dnslog.html
+                    匿名短信:
+                        - https://5sim.net/
+                        - https://sms-activate.org/
+                        - https://voice.google.com/
+                    匿名网盘:
+                        - https://app.mediafire.com/
+                        - https://app.tmp.link/
+                        - https://catbox.moe/
+                        - https://cowtransfer.com/
+                        - https://gofile.io/
+                        - https://seamless.icu/
+                        - https://www.wenshushu.cn/
+                    匿名邮箱:
+                        - http://24mail.chacuo.net/
+                        - https://mail.protonmail.com/
+                        - https://temp-mail.org/
+                        - https://tools.emailhippo.com/
+                        - https://www.snapmail.cc/
+                        - https://www.storytrain.info/
                     反弹shell:
                         - https://forum.ywhack.com/shell.php
                     文件下载:
                         - https://forum.ywhack.com/bountytips.php?download
+                    杀软进程识别:
+                        - https://forum.ywhack.com/bountytips.php?process
                 子域接管:
                     - https://github.com/Ice3man543/SubOver
                 常规web漏洞:
@@ -821,6 +849,7 @@
                     - https://github.com/wyzxxz/jndi_tool
                     - https://github.com/yumusb/DNSLog-Platform-Golang
                 漏洞文库:
+                    - http://wooyun.2xss.cc/index.php
                     - https://github.com/Ares-X/VulWiki
                     - https://github.com/Awrrays/FrameVul
                     - https://github.com/BaizeSec/bylibrary
@@ -1129,12 +1158,36 @@
                 - https://github.com/SleepingBag945/IPSearch
                 - https://github.com/Xyntax/BingC
             IP反查域名:
+                - http://s.tool.chinaz.com/same
+                - https://dns.aizhan.com/
+                - https://dnslytics.com/reverse-ip
                 - https://github.com/Lengso/iplookup
                 - https://github.com/yuyudhn/reverseip_py
+                - https://hackertarget.com/reverse-ip-lookup/
+                - https://rapiddns.io/sameip
+                - https://reverseip.domaintools.com/
+                - https://site.ip138.com/
+                - https://tools.ipip.net/ipdomain.php
+                - https://viewdns.info/reverseip/
+                - https://www.webscan.cc/
+                - https://www.yougetsignal.com/tools/web-sites-on-web-server/
+                - https://x.threatbook.com/
+            IP定位:
+                - https://www.ipuu.net/Home
             WAF识别:
                 - https://github.com/Ekultek/WhatWaf
                 - https://github.com/EnableSecurity/wafw00f
                 - https://github.com/stamparm/identYwaf
+            WHOIS查询:
+                - http://whois.alexa.cn/
+                - https://sg.godaddy.com/zh/whois
+                - https://who.cx/
+                - https://whois.aizhan.com/
+                - https://whois.aliyun.com/
+                - https://whois.chinaz.com/
+                - https://whois.cloud.tencent.com/
+                - https://www.whois.com/whois/
+                - https://x.threatbook.cn/
             apk:
                 - https://github.com/Anof-cyber/apkleaks
                 - https://github.com/MobSF/Mobile-Security-Framework-MobSF
@@ -1148,12 +1201,6 @@
                 - https://github.com/mstxq17/MoreFind
             反查域名:
                 - https://github.com/Potato-py/ipInfoSearch
-            在线资产测绘平台:
-                - https://fofa.info/
-                - https://quake.360.net/quake/#/index
-                - https://search.censys.io/
-                - https://www.shodan.io/
-                - https://www.zoomeye.org/
             域名信息查询:
                 - https://github.com/z-bool/QueryTools
             子域名收集:
@@ -1196,6 +1243,8 @@
                 - https://github.com/jdr2021/wxapkgUnpack
                 - https://github.com/moyuwa/wechat_appinfo_wxapkg
             指纹识别:
+                - http://finger.tidesec.net/
+                - https://fp.shuziguanxing.com/#/
                 - https://github.com/0x727/FingerprintHub
                 - https://github.com/0x727/ObserverWard
                 - https://github.com/EASY233/Finger
@@ -1215,6 +1264,9 @@
                 - https://github.com/urbanadventurer/WhatWeb
                 - https://github.com/webanalyzer/rules
                 - https://github.com/winezer0/whatweb-plus
+                - https://whatcms.org/
+                - https://www.wappalyzer.com/
+                - https://www.yunsee.cn/
             目录扫描:
                 - http://pan.baidu.com/s/1pLjaQKF
                 - https://github.com/BishopFox/jsluice
@@ -1277,6 +1329,12 @@
                 - https://github.com/qiwentaidi/Slack
                 - https://github.com/rabbitmask/AssetsHunter
                 - https://github.com/zhzyker/dismap
+            网盘搜索:
+                - http://www.soupan.info/
+                - https://search.chongbuluo.com/
+                - https://www.dalipan.com/#/
+                - https://www.lingfengyun.com/
+                - https://www.pan131.com/
             网站信息:
                 - https://github.com/AabyssZG/Web-SurvivalScan
                 - https://github.com/tomnomnom/waybackurls
@@ -1313,7 +1371,17 @@
                 - https://github.com/ysrc/xunfeng
                 - https://github.com/zongdeiqianxing/Autoscanner
             资产测绘平台:
+                - http://hunter.qianxin.com/
+                - https://censys.io/
+                - https://dnsdb.io/
+                - https://fofa.info/
                 - https://hunter.qianxin.com/
+                - https://quake.360.cn/quake/
+                - https://quake.360.net/quake/#/index
+                - https://search.censys.io/
+                - https://www.onyphe.io/
+                - https://www.shodan.io/
+                - https://www.zoomeye.org/
             资产测绘采集:
                 - https://github.com/ExpLangcn/InfoSearchAll
                 - https://github.com/G3et/Search_Viewer
@@ -1325,8 +1393,15 @@
                 - https://github.com/wkend/0_zone_tool
                 - https://github.com/xzajyjs/ThunderSearch
             邮箱信息收集:
+                - http://www.skymem.info/
+                - https://app.snov.io/
+                - https://connect.clearbit.com/
+                - https://findthatlead.com/en
                 - https://github.com/Josue87/EmailFinder
                 - https://github.com/Taonn/EmailAll
+                - https://hunter.io/
+                - https://phonebook.cz/
+                - https://souyouxiang.com/
         后渗透:
             代理转发:
                 - http://rootkiter.com/Termite/
@@ -1403,22 +1478,26 @@
                 - https://github.com/BloodHoundAD/BloodHound
             权限提升:
                 linux提权:
+                    - https://github.com/SecWiki/linux-kernel-exploits
                     - https://github.com/carlospolop/PEASS-ng
                     - https://github.com/firefart/dirtycow
                     - https://github.com/liamg/traitor
                     - https://github.com/rebootuser/LinEnum
                     - https://github.com/xkaneiki/CVE-2023-0386
                     - https://gtfobins.github.io/
-                    - https://i.hacking8.com/tiquan/
                 macos提权:
                     - https://github.com/SecWiki/macos-kernel-exploits
                 windows提权:
+                    - http://tools.sbbbb.cn/tiquan/
                     - https://github.com/BeichenDream/BadPotato
                     - https://github.com/Prepouce/CoercedPotato
                     - https://github.com/SecWiki/windows-kernel-exploits
+                    - https://github.com/bitsadmin/wesng
                     - https://github.com/hackvens/CoercedPotato
                     - https://github.com/klsfct/getshell
                     - https://github.com/lyshark/Windows-exploits
+                    - https://i.hacking8.com/tiquan
+                    - https://patchchecker.com/
                 综合:
                     - https://github.com/Ascotbe/Kernelhub
             权限维持:
@@ -1777,6 +1856,7 @@
                 - https://github.com/Lucifer1993/PLtools
                 - https://github.com/hahwul/WebHackersWeapons
                 - https://github.com/k8gege/K8tools
+                - https://www.sqlsec.com/tools.html
             工具集成环境:
                 - https://github.com/ApocalypseSec/ApoalypseSecTools
                 - https://github.com/Zhao-sai-sai/Online_tools
