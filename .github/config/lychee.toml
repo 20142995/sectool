@@ -97,6 +97,10 @@ exclude = [
     "https://www.chamd5.org/",
     "https://www.qqxiuzi.cn/bianma/rot5-13-18-47.php",
     "https://mirrors.tuna.tsinghua.edu.cn/git/homebrew/homebrew-core.git",
+    "https://www.dnsdb.io/",
+    "https://site.ip138.com/",
+    "https://reverseip.domaintools.com/",
+    "https://tools.ipip.net/ipdomain.php",
 ]
 
 # Exclude URLs contained in a file from checking

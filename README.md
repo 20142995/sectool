@@ -173,7 +173,6 @@
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [CTF-RSA-tool](https://github.com/6u661e/CTF-RSA-tool) a little tool help CTFer solve RSA problem
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [rsa-wiener-attack](https://github.com/pablocelayes/rsa-wiener-attack) A Python implementation of the Wiener attack on RSA public-key en...
 #### Rabbit
-- <img src="https://favicon.qqsuu.cn/www.jsons.cn" alt="" style="height: 20px;"> [www.jsons.cn](http://www.jsons.cn/rabbitencrypt/) 
 - <img src="https://favicon.qqsuu.cn/www.sojson.com" alt="" style="height: 20px;"> [在线Rabbit加密 | Rabbit解密- 在线工具](https://www.sojson.com/encrypt_rabbit.html) 
 #### Rijndael加密解密
 - <img src="https://favicon.qqsuu.cn/tool.chacuo.net" alt="" style="height: 20px;"> [在线Rijndael加密解密、Rijndael在线加密解密、Rijndael encryption and decryption--查错网](http://tool.chacuo.net/cryptrijndael) 
@@ -393,7 +392,6 @@
 #### 综合
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [qsnctf-python 0.0.8.10](https://github.com/Moxin1044/qsnctf-python) 青少年CTF的Python包，方便大家调用一些CTF常用功能。
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [CTF-Tools v1.3.7](https://github.com/qianxiao996/CTF-Tools) 一款Python+Pyqt写的CTF编码、解码、加密、解密工具。
-- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [CTF_Hacker-Tools](https://github.com/Harveysn0w/CTF_Hacker-Tools) 
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [binwalk](https://github.com/devttys0/binwalk) 
 #### 编码解码
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [Ciphey 5.14.0](https://github.com/Ciphey/Ciphey) ⚡ Automatically decrypt encryptions without knowing the key or cipher...
@@ -508,7 +506,6 @@
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [Apache-Solr-RCE](https://github.com/Imanfeng/Apache-Solr-RCE) Apache Solr Exploits  🌟
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [solr_exploit](https://github.com/1135/solr_exploit) Apache Solr远程代码执行漏洞(CVE-2019-0193) Exploit
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [solr-injection](https://github.com/veracode-research/solr-injection) Apache Solr Injection Research
-- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [CVE-2019-17558_Solr_Vul_Tool 1.0](https://github.com/SDNDTeam/CVE-2019-17558_Solr_Vul_Tool) CVE-2019-17558 Solr模板注入漏洞图形化一键检测工具。CVE-2019-17558 ...
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [CVE-2019-12409](https://github.com/jas502n/CVE-2019-12409) Apache Solr RCE (ENABLE_REMOTE_JMX_OPTS="true")
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [solr_rce](https://github.com/jas502n/solr_rce) Apache Solr RCE via Velocity template
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [CVE-2019-0193](https://github.com/jas502n/CVE-2019-0193) Apache Solr DataImport Handler RCE
@@ -671,7 +668,6 @@
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [accesskey_tools](https://github.com/kohlersbtuh15/accesskey_tools) 阿里云aliyun/腾讯云tencentcloud/华为云huaweicloud/aws等各种云厂商的accesskey运维安全工具，...
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [cloudTools main](https://github.com/dark-kingA/cloudTools) 云资产管理工具 目前工具定位是云安全相关工具，目前是两个模块 云存储工具、云服务工具， 云存储工具主要是针对oss存储、查看、删除、上...
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [API-T00L v1.2](https://github.com/pykiller/API-T00L) 互联网厂商API利用工具。
-- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [cf](https://github.com/teamssix/cf) 
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [aksk_tool](https://github.com/wyzxxz/aksk_tool) AK资源管理工具，阿里云/腾讯云/华为云/AWS/UCLOUD/京东云/百度云/七牛云存储  AccessKey AccessKeySecret，...
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [Cloud-Bucket-Leak-Detection-Tools v0.4.0](https://github.com/UzJu/Cloud-Bucket-Leak-Detection-Tools) 六大云存储，泄露利用检测工具
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [aliyun-accesskey-Tools v1.3](https://github.com/mrknow001/aliyun-accesskey-Tools) 阿里云accesskey利用工具
@@ -1492,7 +1488,6 @@
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [wesng](https://github.com/bitsadmin/wesng) Windows Exploit Suggester - Next Generation
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [CoercedPotato](https://github.com/Prepouce/CoercedPotato) Windows potato to privesc
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [CoercedPotato](https://github.com/hackvens/CoercedPotato) 
-- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [Windows-exploits WindowsExploitsCollections](https://github.com/lyshark/Windows-exploits) Windows 平台提权漏洞大合集，长期收集各种提权漏洞利用工具。      ...
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [windows-kernel-exploits](https://github.com/SecWiki/windows-kernel-exploits) windows-kernel-exploits   Windows平台提权漏洞集合
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [BadPotato](https://github.com/BeichenDream/BadPotato) Windows 权限提升 BadPotato
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [getshell](https://github.com/klsfct/getshell) 各大平台提权工具
@@ -1828,8 +1823,6 @@
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [ExpToPocsuite3 v1.0](https://github.com/smallfox233/ExpToPocsuite3) goby exp批量转换为pocsuite3 exp脚本
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [some_pocsuite](https://github.com/hanc00l/some_pocsuite) 用于漏洞排查的pocsuite3验证POC代码
 ##### rsas
-- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [RSAS-Data-Export 2022-9-9](https://github.com/autoing/RSAS-Data-Export) 绿盟极光远程安全评估系统(RSAS)-RSAS漏洞数据导出工具
-- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [RSAS-Task-Release v1.0](https://github.com/autoing/RSAS-Task-Release) 绿盟极光远程安全评估系统(RSAS)-RSAS批量下任务工具
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [nsfocus-rsas-knowledge-base](https://github.com/biggerwing/nsfocus-rsas-knowledge-base) 绿盟科技漏洞扫描器(RSAS)漏洞库
 ##### volatility
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [tool-for-CTF](https://github.com/ruokeqx/tool-for-CTF) Virtual machine configuration for CTF
@@ -1902,7 +1895,6 @@
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [goblin v0.4.6](https://github.com/xiecat/goblin) 一款适用于红蓝对抗中的仿真钓鱼系统
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [EwoMail v1.15](https://github.com/gyxuehu/EwoMail) EwoMail是基于Linux的企业邮箱服务器，集成了众多优秀稳定的组件，是一个快速部署、简单高效、多语言、安全稳定的邮件解决方案
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [Taie-AutoPhishing](https://github.com/taielab/Taie-AutoPhishing) 剑指钓鱼基建快速部署自动化
-- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [sendMail](https://github.com/Yang0615777/sendMail) 
 ### 端口服务安全
 #### 服务漏洞
 ##### JDWP

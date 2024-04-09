@@ -172,7 +172,6 @@
                 - https://github.com/RsaCtfTool/RsaCtfTool
                 - https://github.com/pablocelayes/rsa-wiener-attack
             Rabbit:
-                - http://www.jsons.cn/rabbitencrypt/
                 - https://www.sojson.com/encrypt_rabbit.html
             Rijndael加密解密:
                 - http://tool.chacuo.net/cryptrijndael
@@ -390,7 +389,6 @@
                 航线图:
                     - https://map.variflight.com
             综合:
-                - https://github.com/Harveysn0w/CTF_Hacker-Tools
                 - https://github.com/Moxin1044/qsnctf-python
                 - https://github.com/devttys0/binwalk
                 - https://github.com/qianxiao996/CTF-Tools
@@ -506,7 +504,6 @@
                         - https://github.com/1135/solr_exploit
                         - https://github.com/Henry4E36/Solr-SSRF
                         - https://github.com/Imanfeng/Apache-Solr-RCE
-                        - https://github.com/SDNDTeam/CVE-2019-17558_Solr_Vul_Tool
                         - https://github.com/jas502n/CVE-2019-0193
                         - https://github.com/jas502n/CVE-2019-12409
                         - https://github.com/jas502n/solr_rce
@@ -673,7 +670,6 @@
                         - https://github.com/mrknow001/API-Explorer
                         - https://github.com/mrknow001/aliyun-accesskey-Tools
                         - https://github.com/pykiller/API-T00L
-                        - https://github.com/teamssix/cf
                         - https://github.com/wyzxxz/aksk_tool
                     swagger接口:
                         - https://github.com/jayus0821/swagger-hack
@@ -1495,7 +1491,6 @@
                     - https://github.com/bitsadmin/wesng
                     - https://github.com/hackvens/CoercedPotato
                     - https://github.com/klsfct/getshell
-                    - https://github.com/lyshark/Windows-exploits
                     - https://i.hacking8.com/tiquan
                     - https://patchchecker.com/
                 综合:
@@ -1827,8 +1822,6 @@
                     - https://github.com/hanc00l/some_pocsuite
                     - https://github.com/smallfox233/ExpToPocsuite3
                 rsas:
-                    - https://github.com/autoing/RSAS-Data-Export
-                    - https://github.com/autoing/RSAS-Task-Release
                     - https://github.com/biggerwing/nsfocus-rsas-knowledge-base
                 volatility:
                     - https://github.com/ruokeqx/tool-for-CTF
@@ -1896,7 +1889,6 @@
                 - https://github.com/zgjx6/SocialEngineeringDictionaryGenerator
             钓鱼辅助:
                 - https://github.com/A10ha/EmailSender
-                - https://github.com/Yang0615777/sendMail
                 - https://github.com/gophish/gophish
                 - https://github.com/gyxuehu/EwoMail
                 - https://github.com/taielab/Taie-AutoPhishing
