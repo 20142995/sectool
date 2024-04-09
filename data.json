@@ -3366,13 +3366,12 @@
         "release_message": ""
     },
     "https://github.com/bit4woo/domain_hunter_pro": {
-        "created_at": "",
-        "description": "",
-        "commit_date": "2024-01-23 04:39:38",
-        "commit_message": "Create InternetSearchPanel.java",
-        "release_tag": "",
-        "release_date": "",
-        "release_message": ""
+        "created_at": "2023-04-18 00:03:06",
+        "description": "domain_hunter的高级版本，SRC挖洞、HW打点之必备！自动化资产收集；快速Title获取；外部工具联动；等等",
+        "commit_message": "Update SearchResultEntry.java",
+        "commit_date": "2024-04-07 11:24:32",
+        "release_date": "2023-04-18 00:34:58",
+        "release_message": "全局：\r\n多个bug修复\r\n布局模式优化\r\n基础方法实现逻辑优化\r\n\r\n右键菜单：\r\n“Do Search”提供主动在制定请求中进行搜索的能力，比如在某企业邮箱的流量中搜索以提取邮箱地址\r\n“Add Request And Comment”右键菜单添逻辑优化，修复一个bug\r\n“Send To Tool Panel”右键菜单处理逻辑优化，可合并发送多个数据包内容\r\n\r\nDomain面板：\r\nroot domain的comments逻辑更新\r\n提供多个网络搜索引擎的后台自动搜索功能\r\nroot domain双击，自动在浏览器中访问\r\n修改目标根域名删除失败的bug\r\n显示序号，以便在排序后恢复原始顺序\r\n\r\nTool面板：\r\n重写JTextArea的paste函数，避免大内容导致程序卡死\r\nJTextArea支持输入文件，而程序处理其内容。\r\n文本取提供简单的历史记录功能\r\nJSON提取逻辑优化\r\n新增多个功能，比如排序\r\n优化URL提取逻辑，避免遗漏没有以/开头的path\r\n\r\nTitle面板中：\r\n端口扫描命令生成逻辑优化\r\n备注和IP内容的显示优化，显示前排序\r\n备注添加逻辑优化\r\n给手动添加的记录添加已知的IP和CNAME、CertInfo\r\n搜索功能增强，支持对数字型字段进行大于、小于、等于等搜索\r\n添加多个搜索实例，以便用户熟悉搜索语法\r\n新增“Do Request Item Again”菜单，对DNS记录或无响应的数据包进行再次请求"
     },
     "https://github.com/RoomaSec/RmEye": {
         "created_at": "2022-08-22 12:11:37",
@@ -3431,8 +3430,8 @@
     "https://github.com/yogeshojha/rengine": {
         "created_at": "2024-01-15 04:56:01",
         "description": "reNgine is an automated reconnaissance framework for web applications with a focus on highly configurable streamlined recon process via Engines, recon data correlation and organization, continuous monitoring, backed by a database, and simple yet intuitive User Interface. reNgine makes it easy for penetration testers to gather reconnaissance with minimal configuration and with the help of reNgine's correlation, it just makes recon effortless.",
-        "commit_message": "Complete dev environment to debug/code easily (#1196)\n\n* Add django debug toolbar\r\n\r\n* Remove duplicate debug toolbar URLs\r\n\r\n* Remove orphaned import in startScan\r\n\r\n* Add DEBUG config commented in entrypoint\r\n\r\n* Install debug toolbar into celery beat\r\n\r\n* Create dev docker compose & entrypoints\r\n\r\n* Move django toolbar install to dev entrypoints\r\n\r\n* Install debug_toolbar only when debug env var is set\r\n\r\n* Add dev command to MakeFile\r\n\r\n* Use DEBUG from settings.py exclusively\r\n\r\n* Add remote debug configuration in dev env\r\n\r\n* Add VSCode debug configuration\r\n\r\n* Celery log level to 1 when debug is on\r\n\r\n* Remove hard coded celery debug port\r\n\r\n* Add gunicorn in the production setup\r\n\r\n* Add export var for celery log level\r\n\r\n* Restrict debug port to 127.0.0.1\r\n\r\n* Set remote debug to false by default\r\n\r\n* Update doc on debug step for submitting issue\r\n\r\n* Create dev docker compose & entrypoints\r\n\r\n* Add django debug toolbar\r\n\r\n* Remove duplicate debug toolbar URLs\r\n\r\n* Remove orphaned import in startScan\r\n\r\n* Add DEBUG config commented in entrypoint\r\n\r\n* Install debug toolbar into celery beat\r\n\r\n* Move django toolbar install to dev entrypoints\r\n\r\n* Install debug_toolbar only when debug env var is set\r\n\r\n* Add dev command to MakeFile\r\n\r\n* Use DEBUG from settings.py exclusively\r\n\r\n* Add remote debug configuration in dev env\r\n\r\n* Add VSCode debug configuration\r\n\r\n* Celery log level to 1 when debug is on\r\n\r\n* Remove hard coded celery debug port\r\n\r\n* Add gunicorn in the production setup\r\n\r\n* Add export var for celery log level\r\n\r\n* Restrict debug port to 127.0.0.1\r\n\r\n* Set remote debug to false by default\r\n\r\n* Update doc on debug step for submitting issue\r\n\r\n---------\r\n\r\nCo-authored-by: Raynald <raynald@easi-services.fr>\r\nCo-authored-by: Psyray <psyray@users.noreply.github.com>",
-        "commit_date": "2024-03-18 09:33:16",
+        "commit_message": "Merge pull request #1225 from yogeshojha/revert-1196-add-debug-conf\n\nRevert \"Complete dev environment to debug/code easily\"",
+        "commit_date": "2024-04-01 13:57:06",
         "release_date": "2024-01-25 14:50:19",
         "release_message": "### Bug Fixes \r\n\r\n## What's Changed\r\n* CI: update GitHub action versions by @jxdv in https://github.com/yogeshojha/rengine/pull/1136\r\n* Fixed (subdomain_discovery | ERROR | local variable 'use_amass_config' referenced before assignment) by @Deathpoolxrs in https://github.com/yogeshojha/rengine/pull/1149\r\n* chore: update LICENSE by @jxdv in https://github.com/yogeshojha/rengine/pull/1153\r\n* Fix subdomains list empty in Target by @psyray in https://github.com/yogeshojha/rengine/pull/1166\r\n* Fix top menu text overflow in low resolution by @psyray in https://github.com/yogeshojha/rengine/pull/1167\r\n* Update auto comment workflow due to deprecation warnings by @ErdemOzgen in https://github.com/yogeshojha/rengine/pull/1126\r\n* Change Redirect URL after login to prevent 500 error by @psyray in https://github.com/yogeshojha/rengine/pull/1124\r\n* fix-1030: Add missing slug on target summary link by @psyray in https://github.com/yogeshojha/rengine/pull/1123\r\n\r\n## New Contributors\r\n* @Deathpoolxrs made their first contribution in https://github.com/yogeshojha/rengine/pull/1149\r\n* @ErdemOzgen made their first contribution in https://github.com/yogeshojha/rengine/pull/1126\r\n\r\n**Full Changelog**: https://github.com/yogeshojha/rengine/compare/v2.0.2...v2.0.3"
     },
@@ -3857,13 +3856,12 @@
         "release_message": "This is the last version that support python2.7"
     },
     "https://github.com/anchore/syft": {
-        "created_at": "",
-        "description": "",
-        "commit_date": "2024-02-26 15:57:06",
-        "commit_message": "chore(deps): bump modernc.org/sqlite from 1.29.1 to 1.29.2 (#2671)",
-        "release_tag": "",
-        "release_date": "",
-        "release_message": ""
+        "created_at": "2024-04-04 14:52:41",
+        "description": "CLI tool and library for generating a Software Bill of Materials from container images and filesystems",
+        "commit_message": "chore(deps): bump github.com/jedib0t/go-pretty/v6 from 6.5.6 to 6.5.8 (#2754)\n\nBumps [github.com/jedib0t/go-pretty/v6](https://github.com/jedib0t/go-pretty) from 6.5.6 to 6.5.8.\r\n- [Release notes](https://github.com/jedib0t/go-pretty/releases)\r\n- [Commits](https://github.com/jedib0t/go-pretty/compare/v6.5.6...v6.5.8)\r\n\r\n---\r\nupdated-dependencies:\r\n- dependency-name: github.com/jedib0t/go-pretty/v6\r\n  dependency-type: direct:production\r\n  update-type: version-update:semver-patch\r\n...\r\n\r\nSigned-off-by: dependabot[bot] <support@github.com>\r\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
+        "commit_date": "2024-04-08 16:19:45",
+        "release_date": "2024-04-04 15:00:20",
+        "release_message": "### Bug Fixes\n\n- update anchore/packageurl-go to use latest commits [[#2746](https://github.com/anchore/syft/pull/2746) @spiffcs]\n- fix panic scanning binaries without symtab [[#2736](https://github.com/anchore/syft/issues/2736) [#2739](https://github.com/anchore/syft/pull/2739) @kzantow]\n\n**[(Full Changelog)](https://github.com/anchore/syft/compare/v1.1.0...v1.1.1)**\n\n"
     },
     "https://github.com/chaitin/safeline": {
         "created_at": "2024-03-28 06:50:17",
@@ -4116,8 +4114,8 @@
     "https://github.com/vulhub/vulhub": {
         "created_at": "2017-04-09 10:13:13",
         "description": "Pre-Built Vulnerable Environments Based on Docker-Compose",
-        "commit_message": "fixed bug in solr 8.3.0 (#508)",
-        "commit_date": "2024-03-11 19:40:49"
+        "commit_message": "Merge pull request #513 from vulhub/testimprove\n\nImprove unittest for toml environments.toml",
+        "commit_date": "2024-04-08 15:43:32"
     },
     "https://github.com/zhuifengshaonianhanlu/pikachu": {
         "created_at": "2018-07-24 08:21:19",
@@ -4526,8 +4524,8 @@
     "https://github.com/yzfly/awesome-chatgpt-zh": {
         "created_at": "2023-03-21 02:16:34",
         "description": "ChatGPT 中文指南🔥，ChatGPT 中文调教指南，指令指南，应用开发指南，精选资源清单，更好的使用 chatGPT 让你的生产力 up up up! 🚀",
-        "commit_message": "add LLMStack",
-        "commit_date": "2024-03-12 14:11:51"
+        "commit_message": "add grok, mistral",
+        "commit_date": "2024-04-06 13:09:28"
     },
     "https://github.com/rockbenben/ChatGPT-Shortcut": {
         "created_at": "2024-02-18 08:29:46",
@@ -4558,8 +4556,8 @@
     "https://github.com/baidu/dperf": {
         "created_at": "2023-10-10 05:07:32",
         "description": "dperf is a 100Gbps network load tester.",
-        "commit_message": "Merge pull request #428 from zhangpengfei-xyz/pull\n\nadd dpdk pdump and cleanup",
-        "commit_date": "2024-03-03 09:40:40",
+        "commit_message": "Merge pull request #437 from pengjianzhang/main\n\nfix: lower version pkg-config for static linking",
+        "commit_date": "2024-04-01 14:46:40",
         "release_date": "2023-10-10 05:33:22",
         "release_message": "## v1.6.0 - 2023-10-10\r\n### Added\r\n\r\n- dperf server returns large payload\r\n\r\n- you can use the default l3 or l3l4 rss algorithm\r\n\r\n### Changed\r\n\r\n- minimun local port range(lport_range) can be set to 1\r\n\r\n- optimization: remove useless sockets outside lport_range\r\n\r\n- move docs to dperf.org\r\n\r\n- adjust jumbo MTU\r\n\r\n### Fixed\r\n\r\n- fix: negative number of udp connections\r\n\r\n- print more information when startup fails\r\n    - not enough ports available\r\n    - error message of server ip numbers\r\n\r\n- spelling errors and expression issues\r\n\r\n    thanks digger-yu, CChuancey, zrmin\r\n\r\n- fix: find port id\r\n\r\n- fix: create new connection after \"duration\" time\r\n\r\n    thanks zrgtester\r\n\r\n- fix: http_host or http_path can only be configured when http is enabled\r\n\r\n- fix: dperf make error on dpdk-18.11\r\n\r\n    thanks amberlipp"
     },
@@ -4927,13 +4925,12 @@
         "release_message": ""
     },
     "https://github.com/rustdesk/rustdesk": {
-        "created_at": "",
-        "description": "",
-        "commit_date": "2024-02-26 11:01:42",
-        "commit_message": "fix ci",
-        "release_tag": "",
-        "release_date": "",
-        "release_message": ""
+        "created_at": "2024-04-07 06:31:09",
+        "description": "An open-source remote desktop, and alternative to TeamViewer.",
+        "commit_message": "docs: update README-VN.md (#7655)",
+        "commit_date": "2024-04-08 13:38:47",
+        "release_date": "2024-04-07 08:12:13",
+        "release_message": "![image](https://github.com/rustdesk/rustdesk/assets/71636191/83754a64-31b8-47f0-8570-da22207759a9)\r\n\r\n> Winget, FDroid update will come soon.\r\n\r\nx86-64: [Windows](https://github.com/rustdesk/rustdesk/releases/download/1.2.3-2/rustdesk-1.2.3-2-x86_64.exe) | [Ubuntu](https://github.com/rustdesk/rustdesk/releases/download/1.2.3-2/rustdesk-1.2.3-2-x86_64.deb) | [Mac](https://github.com/rustdesk/rustdesk/releases/download/1.2.3-2/rustdesk-1.2.3-2-x86_64.dmg) | [AppImage](https://github.com/rustdesk/rustdesk/releases/download/1.2.3-2/rustdesk-1.2.3-2-x86_64.AppImage) | [Flatpak](https://github.com/rustdesk/rustdesk/releases/download/1.2.3-2/rustdesk-1.2.3-2-x86_64.flatpak)\r\nAArch64 (ARM64):  [Ubuntu](https://github.com/rustdesk/rustdesk/releases/download/1.2.3-2/rustdesk-1.2.3-2-aarch64.deb) | [Android](https://github.com/rustdesk/rustdesk/releases/download/1.2.3-2/rustdesk-1.2.3-2-aarch64-signed.apk) | [Mac](https://github.com/rustdesk/rustdesk/releases/download/1.2.3-2/rustdesk-1.2.3-2-aarch64.dmg) | [AppImage](https://github.com/rustdesk/rustdesk/releases/download/1.2.3-2/rustdesk-1.2.3-2-aarch64.AppImage)\r\nx86-32: [Windows](https://github.com/rustdesk/rustdesk/releases/download/1.2.3-2/rustdesk-1.2.3-2-x86-sciter.exe)\r\n\r\nMore: [check below please](#)\r\n\r\n> **For the latest features, check out the [Nightly Build](https://github.com/rustdesk/rustdesk/releases/tag/nightly)**\r\n\r\n# Changelog\r\n\r\nThis release only fixes a [bug](https://github.com/fufesou/rustdesk/wiki/How-to-delete-the-wrong-certificate-stores-in-%22certmgr.msc%22) introduced in [1.2.3-1](https://github.com/rustdesk/rustdesk/releases/tag/1.2.3-1). \r\n\r\n"
     },
     "https://github.com/chenjj/CORScanner": {
         "created_at": "2018-05-06 05:57:09",
@@ -6503,12 +6500,12 @@
         "release_message": "# 更新日志\r\n\r\n- 优化了脚本流程，减少了部分代码\r\n- 增加了校验模块，根据PNG文件头校验是否为PNG图片\r\n- 新增宽高判断，对于宽高正常的PNG图片，做出提示\r\n- 无需再改后缀名，直接导出PNG后缀的文件"
     },
     "https://github.com/ImageMagick/ImageMagick": {
-        "created_at": "2024-02-25 13:45:06",
+        "created_at": "2024-04-07 21:07:47",
         "description": "🧙‍♂️ ImageMagick 7",
-        "commit_message": "Use (PixelInfo *)NULL instead of nullptr.",
-        "commit_date": "2024-04-04 21:11:12",
-        "release_date": "2024-02-25 17:14:39",
-        "release_message": "## What's Changed\r\n* Add heic:chroma-downsampling-algorithm define for HEIC format images. by @njdoyle in https://github.com/ImageMagick/ImageMagick/pull/7095\r\n\r\n\r\n**Full Changelog**: https://github.com/ImageMagick/ImageMagick/compare/7.1.1-28...7.1.1-29"
+        "commit_message": "uhdr.c: verify the availability of error message before accessing it (#7229)\n\nChange-Id: Idb78fba530772cd4e80614ce7ffd1d78f13f0c95",
+        "commit_date": "2024-04-08 11:06:43",
+        "release_date": "2024-04-08 06:06:42",
+        "release_message": "## What's Changed\n* Bump softprops/action-gh-release from 1 to 2 by @dependabot in https://github.com/ImageMagick/ImageMagick/pull/7160\n* install perl module into user-specified prefix by @bugfood in https://github.com/ImageMagick/ImageMagick/pull/7192\n* Fix bmp option to bypass file size check by @OnTheList-1 in https://github.com/ImageMagick/ImageMagick/pull/7194\n* add support for encoding/decoding ultrahdr images by @aayushsoni111 in https://github.com/ImageMagick/ImageMagick/pull/7198\n* Bump azure/azure-code-signing-action from 0.3.0 to 0.3.1 by @dependabot in https://github.com/ImageMagick/ImageMagick/pull/7206\n* Updates to uhdr.c by @aayushsoni111 in https://github.com/ImageMagick/ImageMagick/pull/7217\n\n## New Contributors\n* @bugfood made their first contribution in https://github.com/ImageMagick/ImageMagick/pull/7192\n* @OnTheList-1 made their first contribution in https://github.com/ImageMagick/ImageMagick/pull/7194\n* @aayushsoni111 made their first contribution in https://github.com/ImageMagick/ImageMagick/pull/7198\n\n**Full Changelog**: https://github.com/ImageMagick/ImageMagick/compare/7.1.1-29...7.1.1-30"
     },
     "https://github.com/Ch1ngg/JWTPyCrack": {
         "created_at": "2019-09-05 07:55:21",
@@ -15442,12 +15439,12 @@
         "release_message": "First release !!\n"
     },
     "https://github.com/containerd/containerd": {
-        "created_at": "2024-03-11 15:11:23",
+        "created_at": "2024-04-05 17:02:48",
         "description": "An open and reliable container runtime",
-        "commit_message": "Merge pull request #10024 from ktock/plain-http\n\nTransfer: Registry: Enable plain HTTP",
-        "commit_date": "2024-04-04 22:15:17",
-        "release_date": "2024-03-11 15:23:41",
-        "release_message": "Welcome to the v1.7.14 release of containerd!\n\nThe fourteenth patch release for containerd 1.7 contains various fixes and updates.\n\n### Highlights\n\n* Update builds to use go 1.21.8 ([#9933](https://github.com/containerd/containerd/pull/9933))\n* Fix various timing issues with docker pusher ([#9921](https://github.com/containerd/containerd/pull/9921))\n* Register imagePullThroughput and count with MiB ([#9855](https://github.com/containerd/containerd/pull/9855))\n* Move high volume event logs to Trace level ([#9823](https://github.com/containerd/containerd/pull/9823))\n\n#### Container Runtime Interface (CRI)\n\n* Handle pod transition states gracefully while listing pod stats ([#9905](https://github.com/containerd/containerd/pull/9905))\n\n#### Runtime\n\n* Update runc-shim to process exec exits before init ([#9928](https://github.com/containerd/containerd/pull/9928))\n\nPlease try out the release binaries and report any issues at\nhttps://github.com/containerd/containerd/issues.\n\n### Contributors\n\n* Wei Fu\n* Derek McGowan\n* Maksym Pavlenko\n* Krisztian Litkey\n* Akihiro Suda\n* Justin Chadwell\n* Sebastiaan van Stijn\n* Phil Estes\n* Kirtana Ashok\n* Akhil Mohan\n* Austin Vazquez\n* Etienne Champetier\n* Jordan Liggitt\n* Kohei Tokunaga\n* Mike Brown\n* Samuel Karp\n* Davanum Srinivas\n* Edgar Lee\n* Henry Wang\n* James Sturtevant\n* Laura Brehm\n* Nashwan Azhari\n* Robbie Buxton\n* Robert-André Mauchin\n* Shukui Yang\n\n### Changes\n<details><summary>70 commits</summary>\n<p>\n\n* Prepare release notes for v1.7.14 ([#9953](https://github.com/containerd/containerd/pull/9953))\n  * [`1babe6b58`](https://github.com/containerd/containerd/commit/1babe6b582911fe90b93fc01491f2f4b130b7a3a) Prepare release notes for v1.7.14\n* Backport use Go toolchain in CI matrix to build binaries ([#9951](https://github.com/containerd/containerd/pull/9951))\n  * [`a9bbbefcf`](https://github.com/containerd/containerd/commit/a9bbbefcf2feba3eaf1da39b70ed28032a7d8a65) Use the Go toolchain in CI matrix to build binaries\n* Update builds to use go 1.21.8 ([#9933](https://github.com/containerd/containerd/pull/9933))\n  * [`1ca9a643a`](https://github.com/containerd/containerd/commit/1ca9a643a1ad206f074300e235c959213854fff1) update to go 1.21.8, 1.22.1\n* Move inline PS scripts into files ([#9938](https://github.com/containerd/containerd/pull/9938))\n  * [`39caf532e`](https://github.com/containerd/containerd/commit/39caf532e7f60ff21050221fda627bab02de2ce8) Move inline PS scripts into files\n* Disable OOM set score unpriv test temporarily ([#9944](https://github.com/containerd/containerd/pull/9944))\n  * [`630226bb4`](https://github.com/containerd/containerd/commit/630226bb431ec98dbfca279c3416abf5047d9858) Disable OOM set score unpriv test temporarily\n* Update runc-shim to process exec exits before init ([#9928](https://github.com/containerd/containerd/pull/9928))\n  * [`de7b6bae9`](https://github.com/containerd/containerd/commit/de7b6bae9e2e44676ae63a13ab130812a6db56b6) runc-shim: process exec exits before init\n* update to go 1.21.6, test 1.22.0 ([#9860](https://github.com/containerd/containerd/pull/9860))\n  * [`3b3e537ea`](https://github.com/containerd/containerd/commit/3b3e537eab7f81e32f34c95833caa2af9bc8753f) Uninstall mingw before attempting upgrade\n  * [`9e24388b2`](https://github.com/containerd/containerd/commit/9e24388b209e519d7cc3805b3266b9a4a82e59cc) CI: Explicitly upgrade MinGW on Windows 2019 GitHub runners.\n  * [`5b23a4127`](https://github.com/containerd/containerd/commit/5b23a412759f27465906f86196c686cd0925be15) seccomp, apparmor: add go:noinline\n  * [`753422ac1`](https://github.com/containerd/containerd/commit/753422ac11e3485b14a62bfdfcc75a0001f3dd70) Drop go 1.20 and build against 1.22\n  * [`a2d64218c`](https://github.com/containerd/containerd/commit/a2d64218c5a5abc676556925d63b222dbd606469) Fix windows integration tests\n  * [`6379dd6f4`](https://github.com/containerd/containerd/commit/6379dd6f428fc3f55cb4625d7741b84751d42278) Update workflow files to install Go via composite action\n  * [`a5c0d061c`](https://github.com/containerd/containerd/commit/a5c0d061cd3a4154f31fd5a5c8a4f77da5da1dcd) Extract a composite action to install Go\n* Fix various timing issues with docker pusher ([#9921](https://github.com/containerd/containerd/pull/9921))\n  * [`52a1402df`](https://github.com/containerd/containerd/commit/52a1402df64ca286b5084b1b150c4219343ad6d7) copy: prevent potential deadlock if close before fully written\n  * [`872746386`](https://github.com/containerd/containerd/commit/872746386237b1076f8449a7f7d3d5a07ed30a42) copy: setError should imply Close\n  * [`a8004007a`](https://github.com/containerd/containerd/commit/a8004007a2ababa6ac7dbf508edf1c49faf06110) copy: remove max number of ErrResets\n  * [`0465472ed`](https://github.com/containerd/containerd/commit/0465472ed3807b6dcf785d160783019e3fed5cf6) pushWriter: refactor reset pipe logic into separate function\n  * [`2577207cc`](https://github.com/containerd/containerd/commit/2577207cc0611f36e582111f88f16fd5ae777068) copy: improve error detection from closed pipes\n  * [`d081da86b`](https://github.com/containerd/containerd/commit/d081da86bfc3b1b65efacdefba0e48aadaac4d91) copy: check if writer was closed before setting a pipe\n  * [`2a25c085b`](https://github.com/containerd/containerd/commit/2a25c085b21e074667bf6ded0dbb6ebf892a889c) copy: remove wrapping io.NopCloser from push writer pipe\n* Register imagePullThroughput and count with MiB ([#9855](https://github.com/containerd/containerd/pull/9855))\n  * [`711cebd48`](https://github.com/containerd/containerd/commit/711cebd484d44da363ca451cdaaad0c6ec9810d2) Register imagePullThroughput and count with MiB\n* Update golangci-lint to v1.56.1 ([#9900](https://github.com/containerd/containerd/pull/9900))\n  * [`926ceb036`](https://github.com/containerd/containerd/commit/926ceb036223d8ac05cd918c7a4c0825bb9c0640) fix golangci-lint errors\n  * [`4030ae235`](https://github.com/containerd/containerd/commit/4030ae2350fee10557fe52a5b8f86761afb01a1d) Update golangci-lint to v1.56.1\n  * [`6620d6bfd`](https://github.com/containerd/containerd/commit/6620d6bfd7c5e6e8ffc0c6047c3602ac0ab05a16) ci: bump up golangci-lint to v1.55.2\n  * [`b16ca72b2`](https://github.com/containerd/containerd/commit/b16ca72b2e1e105e475537a450f0c6509e95ca32) Bump up golangci-lint to v1.54.2\n* Handle pod transition states gracefully while listing pod stats ([#9905](https://github.com/containerd/containerd/pull/9905))\n  * [`39db3f18b`](https://github.com/containerd/containerd/commit/39db3f18b29ab9efb671404a1030628af560c614) adjust test cases to run for windows\n  * [`579d8b463`](https://github.com/containerd/containerd/commit/579d8b463bd9cdcdc4425ac7279033056c1d0433) [cri] Handle Windows pod transitions gracefully\n* Backport GitHub actions package updates ([#9876](https://github.com/containerd/containerd/pull/9876))\n  * [`8d6f0f2ae`](https://github.com/containerd/containerd/commit/8d6f0f2aecd6962163fbaac6f6d2bbb6e12e9c85) build(deps): bump golangci/golangci-lint-action from 3 to 4\n  * [`7929592b9`](https://github.com/containerd/containerd/commit/7929592b96e2e4e2e0150a890048f612b623fb7d) build(deps): bump actions/upload-artifact from 3 to 4\n  * [`e11de777d`](https://github.com/containerd/containerd/commit/e11de777dcfdf5914b102830d66e6fbed6ceea7d) build(deps): bump crazy-max/ghaction-github-runtime from 2 to 3\n  * [`2b40a4074`](https://github.com/containerd/containerd/commit/2b40a40741dfa865683f25d76ac4e03457449ecc) build(deps): bump actions/checkout from 3 to 4\n  * [`22feefa57`](https://github.com/containerd/containerd/commit/22feefa570111de80812a493685fb767c3a6c6b4) build(deps): bump actions/setup-go from 3 to 5\n  * [`b96aa4012`](https://github.com/containerd/containerd/commit/b96aa4012d4a491869f26f570f9dfbbf1835eb70) build(deps): bump actions/upload-artifact from 1 to 3\n  * [`97763f91d`](https://github.com/containerd/containerd/commit/97763f91d6e8013d5c1e2c5ad7214cd956808742) build(deps): bump docker/setup-buildx-action from 2 to 3\n  * [`6875bb14f`](https://github.com/containerd/containerd/commit/6875bb14f1841de6d89c689a2e393697c1e6c89c) build(deps): bump github/codeql-action from 2 to 3\n  * [`87f9adb6b`](https://github.com/containerd/containerd/commit/87f9adb6b9ed2bd9a0b72879c5a9bc5eb1b51586) build(deps): bump actions/download-artifact from 3 to 4\n* .github: windows should use fix critool version ([#9874](https://github.com/containerd/containerd/pull/9874))\n  * [`d9c099a9a`](https://github.com/containerd/containerd/commit/d9c099a9ac39956aee0a720be8b3b6af8861351b) .github: windows should use fix critool version\n* ci: update crun version to 1.14.3 ([#9850](https://github.com/containerd/containerd/pull/9850))\n  * [`dc594b01d`](https://github.com/containerd/containerd/commit/dc594b01d28d3a6a896b66274fb75b1f54aecaa3) ci: update crun version to 1.14.3\n* Add WithMetaStore to overlay snapshotter and missing unpacker.Wait for image import ([#9837](https://github.com/containerd/containerd/pull/9837))\n  * [`8fe0b26f1`](https://github.com/containerd/containerd/commit/8fe0b26f198163fb88a6bd194382c502d5756fb1) Add missing unpacker.Wait for image import\n  * [`31ea2d7d9`](https://github.com/containerd/containerd/commit/31ea2d7d9114fee156f37dc9e6f38538aca58447) Add WithMetaStore to overlay snapshotter to allow bringing your own\n* Move high volume event logs to Trace level ([#9823](https://github.com/containerd/containerd/pull/9823))\n  * [`982e0cffb`](https://github.com/containerd/containerd/commit/982e0cffbeb31768655ba1ed89620e27551fc49f) Move high volume event logs to Trace level\n* cri: propagate deprecation list to runtime status ([#9818](https://github.com/containerd/containerd/pull/9818))\n  * [`c79ffa277`](https://github.com/containerd/containerd/commit/c79ffa2773d29e81f7a905fc1242301c5ee7e556) cri: propagate deprecation list to runtime status\n* ctr: print deprecation warnings on every invocation ([#9820](https://github.com/containerd/containerd/pull/9820))\n  * [`eaebe23de`](https://github.com/containerd/containerd/commit/eaebe23de407600ff81b9466165294eacc3575f5) ctr: print deprecation warnings on every invocation\n* bug fix: make sure cri image is pinned when it is pulled outside cri ([#9784](https://github.com/containerd/containerd/pull/9784))\n  * [`26c057423`](https://github.com/containerd/containerd/commit/26c057423c614deb0c510ceea84ed22bbe4f7f1d) bug fix: make sure cri image is pinned when it is pulled outside cri\n* go.{mod,sum}: update NRI dependency, fixing a potential fd double close error. ([#9783](https://github.com/containerd/containerd/pull/9783))\n  * [`d3e997556`](https://github.com/containerd/containerd/commit/d3e9975563f4dd2182526188f6c2331a192a07d5) go.{mod,sum}: update NRI dependency, re-vendor.\n* Add option to perform syncfs after pull ([#9769](https://github.com/containerd/containerd/pull/9769))\n  * [`ea0a92ec3`](https://github.com/containerd/containerd/commit/ea0a92ec30c9e61bd45b777a27ee4849b1716522) *: introduce image_pull_with_sync_fs in CRI\n  * [`4caf44032`](https://github.com/containerd/containerd/commit/4caf44032b61ecef0c2e38eb38395a3969377296) api: introduce sync_fs to diff.ApplyRequest\n* Move certain debug logs to trace logs ([#9761](https://github.com/containerd/containerd/pull/9761))\n  * [`3f75af7bf`](https://github.com/containerd/containerd/commit/3f75af7bf20fc6d1456e282e31c51d32d086b9ec) Move certain debug logs to trace logs\n</p>\n</details>\n\n### Changes from containerd/nri\n<details><summary>23 commits</summary>\n<p>\n\n* socketpair_windows: remove implementation for now ([containerd/nri#69](https://github.com/containerd/nri/pull/69))\n  * [`e47f09b`](https://github.com/containerd/nri/commit/e47f09b2abe155cf5c0caaf7d0df7651447d2660) socketpair_windows: remove implementation for now\n* adaptation, stub: allow extra ttrpc client and server options. ([containerd/nri#67](https://github.com/containerd/nri/pull/67))\n  * [`45b9e3f`](https://github.com/containerd/nri/commit/45b9e3f1437fff2bb9bc26d89da34ee1b298cc86) plugins: update dependencies.\n  * [`f600cf6`](https://github.com/containerd/nri/commit/f600cf681e94c8f8b65dead5e57fe0981571bea9) go.{mod,sum}: update dependencies.\n  * [`13ee978`](https://github.com/containerd/nri/commit/13ee97879885d8fe4c0dbbf5c0a04716a8654247) pkg/stub: add support for extra ttrpc options.\n  * [`c4e2f81`](https://github.com/containerd/nri/commit/c4e2f81f94b35bee5b9d35c80f28490b6f3ebb76) pkg/adaptation: add support for extra ttrpc options.\n* socketpair_unix: avoid double close(), set FD_CLOEXEC ([containerd/nri#66](https://github.com/containerd/nri/pull/66))\n  * [`5d0b52b`](https://github.com/containerd/nri/commit/5d0b52bc45c998c5fcb1a60a7289f86d9c92f836) sockerpair_unix: avoid double close(), set FD_CLOEXEC\n* Task: fix typo in godoc ([containerd/nri#61](https://github.com/containerd/nri/pull/61))\n  * [`ae7840b`](https://github.com/containerd/nri/commit/ae7840bf9910649194e1a556b8cc7a66bc19d817) Task: fix typo in godoc\n* Take pkg/hooks from github.com/containers/common (carry 46) ([containerd/nri#55](https://github.com/containerd/nri/pull/55))\n  * [`b4ac58c`](https://github.com/containerd/nri/commit/b4ac58c1a5b0cffa51448ed060095dd5dc6f4b54) Take pkg/hooks from github.com/containers/common\n* gha: remove GOPATH and workingdir, update actions/setup-go@v4, actions/checkout@v4 ([containerd/nri#53](https://github.com/containerd/nri/pull/53))\n  * [`ee96969`](https://github.com/containerd/nri/commit/ee969691b8e4bdc2b7c3e384b22c203fcf948ab7) gha: update actions/checkout@v4\n  * [`7b33fbf`](https://github.com/containerd/nri/commit/7b33fbf7685a7c0d27d186f89f6027373e54e3f0) gha: update actions/setup-go@v4\n  * [`e33ac3e`](https://github.com/containerd/nri/commit/e33ac3e43394ead24dbb4a407dd76c00c5780737) gha: remove working-dir and GOPATH\n* remove containerd as dependency ([containerd/nri#51](https://github.com/containerd/nri/pull/51))\n  * [`da8a7e5`](https://github.com/containerd/nri/commit/da8a7e53614c60c106f824caf3d120ea582a0cbe) remove containerd as dependency\n* make plugins/ulimit-adjuster a separate module ([containerd/nri#54](https://github.com/containerd/nri/pull/54))\n  * [`934815e`](https://github.com/containerd/nri/commit/934815e56ede6d603d1b17cbce86ad98a973eaf1) make plugins/ulimit-adjuster a separate module\n* scripts: fix protobuf URL on arm64 ([containerd/nri#52](https://github.com/containerd/nri/pull/52))\n  * [`9b43daa`](https://github.com/containerd/nri/commit/9b43daaeceae6750053c5693a15edc59819886b9) scripts: fix protobuf URL on arm64\n</p>\n</details>\n\n### Changes from containerd/ttrpc\n<details><summary>21 commits</summary>\n<p>\n\n* Fix streaming with empty payloads ([containerd/ttrpc#157](https://github.com/containerd/ttrpc/pull/157))\n  * [`44ca009`](https://github.com/containerd/ttrpc/commit/44ca0096e1b2b638ead24b4898cc34aa3b603926) Add comment\n  * [`6615f15`](https://github.com/containerd/ttrpc/commit/6615f159bad5b522b7322408fcf5ae8bb58b0843) Fix linter\n  * [`dea99e9`](https://github.com/containerd/ttrpc/commit/dea99e9d052d7b86500e6e3f9e6a214d2111d1a9) Fix handling of empty payloads\n  * [`336fc1b`](https://github.com/containerd/ttrpc/commit/336fc1b6b472ea8df89cd109b7e8dfb99fe8828e) Add integration test to reproduce issue with empty payloads\n* Bump google.golang.org/grpc from 1.57.0 to 1.57.1 ([containerd/ttrpc#156](https://github.com/containerd/ttrpc/pull/156))\n  * [`1e51c46`](https://github.com/containerd/ttrpc/commit/1e51c4681df2ab54ad15226a125228ac7639d2e0) Bump google.golang.org/grpc from 1.57.0 to 1.57.1\n* Bump golang.org/x/net from 0.10.0 to 0.17.0 ([containerd/ttrpc#155](https://github.com/containerd/ttrpc/pull/155))\n  * [`bea960d`](https://github.com/containerd/ttrpc/commit/bea960d9fea8eb25d11ff5e024c734e46a9a6c3e) Bump golang.org/x/net from 0.10.0 to 0.17.0\n* Implement support for unary interceptor chaining. ([containerd/ttrpc#152](https://github.com/containerd/ttrpc/pull/152))\n  * [`40f227d`](https://github.com/containerd/ttrpc/commit/40f227ddbb9e05bf4d04179991f809df0546c6f6) server: implement UnaryServerInterceptor chaining.\n  * [`f984c9b`](https://github.com/containerd/ttrpc/commit/f984c9b178e595292d4a6934ce229c9854c2fe77) client: implement UnaryClientInterceptor chaining.\n* Fix grammar in comment for UserOnCloseWait. ([containerd/ttrpc#153](https://github.com/containerd/ttrpc/pull/153))\n  * [`8ca4110`](https://github.com/containerd/ttrpc/commit/8ca4110ebc91819c5b0e2f17c9ded818b2462c50) Fix comment for UserOnCloseWait.\n* Bump genproto dependency ([containerd/ttrpc#154](https://github.com/containerd/ttrpc/pull/154))\n  * [`a2fbc14`](https://github.com/containerd/ttrpc/commit/a2fbc14815b5a707579072aa0edaa59bdaf762f9) go.mod: google.golang.org/genproto/googleapis/rpc v0.0.0-20230731190214-cbb8c96f2d6d\n  * [`cf2b85d`](https://github.com/containerd/ttrpc/commit/cf2b85de12df0368cf0c6a24446b25c079caf0f5) go.mod: bump to supported go version\n* server_test: wait for OnClose in TestClientEOF. ([containerd/ttrpc#150](https://github.com/containerd/ttrpc/pull/150))\n  * [`e0cd801`](https://github.com/containerd/ttrpc/commit/e0cd8011167557f2ddb1b976e604cfd94d8b393d) server_test: wait for OnClose in TestClientEOF.\n* .github: give more slack for build+tests. ([containerd/ttrpc#151](https://github.com/containerd/ttrpc/pull/151))\n  * [`8d47846`](https://github.com/containerd/ttrpc/commit/8d4784675e72e1880aa5bb9c817875891e670d41) .github: give more slack for build+tests.\n</p>\n</details>\n\n### Dependency Changes\n\n* **github.com/containerd/nri**                  v0.4.0 -> v0.6.0\n* **github.com/containerd/ttrpc**                v1.2.2 -> v1.2.3\n* **google.golang.org/genproto/googleapis/rpc**  782d3b101e98 -> cbb8c96f2d6d\n\nPrevious release can be found at [v1.7.13](https://github.com/containerd/containerd/releases/tag/v1.7.13)\n"
+        "commit_message": "Merge pull request #9415 from kiashok/fixIntegrationClientAddr\n\nUse different containerd sock address for integration test client",
+        "commit_date": "2024-04-08 22:58:33",
+        "release_date": "2024-04-05 17:19:25",
+        "release_message": "Welcome to the v1.7.15 release of containerd!\n\nThe fifteenth patch release for containerd 1.7 contains various fixes; one for a\nregression introduced in v1.7.14 in the way process exits were handled.\n\n### Highlights\n\n* Adds mediatype to OCI index record on export ([#9990](https://github.com/containerd/containerd/pull/9990))\n\n#### Runtime\n\n* Fix runc shim to only defer init process exits ([#10037](https://github.com/containerd/containerd/pull/10037))\n\nPlease try out the release binaries and report any issues at\nhttps://github.com/containerd/containerd/issues.\n\n### Contributors\n\n* Derek McGowan\n* Phil Estes\n* Austin Vazquez\n* Laura Brehm\n* Sebastiaan van Stijn\n* Talon\n\n### Changes\n<details><summary>12 commits</summary>\n<p>\n\n* Prepare for v1.7.15 release ([#10039](https://github.com/containerd/containerd/pull/10039))\n  * [`4d4759b54`](https://github.com/containerd/containerd/commit/4d4759b54df2a2ce5abb2aaa117ebc1857406380) Prep v1.7.15 release\n* Fix runc shim to only defer init process exits ([#10037](https://github.com/containerd/containerd/pull/10037))\n  * [`21df46766`](https://github.com/containerd/containerd/commit/21df4676621559e46b46810de3c900d105f10210) runc-shim: only defer init process exits\n* Fix compile from version control system (source) use case ([#10012](https://github.com/containerd/containerd/pull/10012))\n  * [`2a054213e`](https://github.com/containerd/containerd/commit/2a054213e7d167d697a27bbe8409872c67e8df46) Fix compile from version control system (source) use case\n* Adds mediatype to OCI index record on export ([#9990](https://github.com/containerd/containerd/pull/9990))\n  * [`6605c47a4`](https://github.com/containerd/containerd/commit/6605c47a4156171580458fa035133f2739046822) adds mediatype to oci index record\n* vendor: google.golang.org/protobuf 1.33.0, github.com/golang/protobuf v1.5.4 ([#9975](https://github.com/containerd/containerd/pull/9975))\n  * [`e6d91d843`](https://github.com/containerd/containerd/commit/e6d91d843fcc26c04e0d33144211aef965f79295) vendor: github.com/golang/protobuf v1.5.4\n  * [`2d136c5f5`](https://github.com/containerd/containerd/commit/2d136c5f5eb7092b458a07e14c53ccb7e5f429f0) build(deps): bump google.golang.org/protobuf from 1.32.0 to 1.33.0\n  * [`a1a7af7a3`](https://github.com/containerd/containerd/commit/a1a7af7a39da32ea0e38bb8ddd5b219c9cf6848e) build(deps): bump google.golang.org/protobuf from 1.31.0 to 1.32.0\n</p>\n</details>\n\n### Dependency Changes\n\n* **github.com/golang/protobuf**  v1.5.3 -> v1.5.4\n* **google.golang.org/protobuf**  v1.31.0 -> v1.33.0\n\nPrevious release can be found at [v1.7.14](https://github.com/containerd/containerd/releases/tag/v1.7.14)\n"
     },
     "https://github.com/gf-huanchupk/SpringBootLearning": {
         "created_at": "2018-09-14 02:22:07",
@@ -22374,12 +22371,12 @@
         "release_message": ""
     },
     "https://github.com/xaoyaoo/PyWxDump": {
-        "created_at": "2024-03-30 11:03:35",
+        "created_at": "2024-04-08 10:14:42",
         "description": "获取微信账号信息(昵称/账号/手机/邮箱/数据库密钥/wxid)；PC微信数据库读取、解密脚本；聊天记录查看工具；聊天记录导出为html(包含语音图片)。支持多账户信息获取，支持所有微信版本。",
-        "commit_message": "读取群聊数据,主要为 wxid，以及对应昵称",
-        "commit_date": "2024-04-05 11:18:01",
-        "release_date": "2024-03-30 11:08:13",
-        "release_message": "[Auto Release] Update PyWxDump to refs/tags/v2.4.62\n详细更新日志请查看 [CHANGELOG.md](https://github.com/xaoyaoo/PyWxDump/blob/master/doc/CHANGELOG.md)\n"
+        "commit_message": "读取ExtraBuf（联系人表）",
+        "commit_date": "2024-04-08 15:37:16",
+        "release_date": "2024-04-08 10:18:32",
+        "release_message": "[Auto Release] Update PyWxDump to refs/tags/v2.4.70\n详细更新日志请查看 [CHANGELOG.md](https://github.com/xaoyaoo/PyWxDump/blob/master/doc/CHANGELOG.md)\n"
     },
     "https://github.com/Pizz33/Qianji": {
         "created_at": "2023-11-15 03:33:53",
@@ -22654,8 +22651,8 @@
     "https://github.com/whyour/qinglong": {
         "created_at": "2021-03-13 15:21:04",
         "description": "支持 Python3、JavaScript、Shell、Typescript 的定时任务管理平台（Timed task management platform supporting Python3, JavaScript, Shell, Typescript）",
-        "commit_message": "修复配置文件默认参数",
-        "commit_date": "2024-03-25 15:41:39"
+        "commit_message": "更新版本 v2.17.3",
+        "commit_date": "2024-03-29 14:45:02"
     },
     "https://github.com/nelenkov/android-backup-extractor": {
         "created_at": "2012-06-08 13:33:46",
@@ -24244,11 +24241,11 @@
         "release_message": "🎉🎉🎉"
     },
     "https://github.com/jeremylong/DependencyCheck": {
-        "created_at": "2024-03-15 09:52:32",
+        "created_at": "2024-03-31 11:36:57",
         "description": "OWASP dependency-check is a software composition analysis utility that detects publicly disclosed vulnerabilities in application dependencies.",
-        "commit_message": "build(deps): bump golang from 1.21.5-alpine to 1.22.1-alpine (#6506)\n\nSigned-off-by: dependabot[bot] <support@github.com>\r\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>\r\nCo-authored-by: Jeremy Long <jeremy.long@gmail.com>",
-        "commit_date": "2024-03-27 10:40:35",
-        "release_date": "2024-03-15 11:02:42",
+        "commit_message": "chore: Update the packaged suppressions to include new hosted suppressions (#6567)",
+        "commit_date": "2024-04-07 19:03:13",
+        "release_date": "2024-03-31 12:10:21",
         "release_message": "Refer to the [CHANGELOG.md](https://github.com/jeremylong/DependencyCheck/blob/main/CHANGELOG.md#change-log) for information about improvements and upgrade notes."
     },
     "https://github.com/mrknow001/API-Explorer": {
@@ -24431,8 +24428,8 @@
         "description": "魅族安全中心"
     },
     "https://sec.vip.com/": {
-        "status_code": 200,
-        "description": "VSRC首页-唯品会信息安全中心"
+        "status_code": 503,
+        "description": ""
     },
     "https://sec.wacai.com/": {
         "status_code": 200,
@@ -24673,8 +24670,8 @@
         "description": "知识星球安全应急响应中心"
     },
     "https://securitytcjf.com/": {
-        "status_code": 403,
-        "description": "403 Forbidden"
+        "status_code": 504,
+        "description": "504 Gateway Time-out"
     },
     "https://sfsrc.sf-express.com/": {
         "status_code": 200,
@@ -27027,5 +27024,17 @@
         "commit_date": "2022-02-12 09:33:35",
         "release_date": "2021-12-13 12:22:05",
         "release_message": "A special Fenrir release that includes indicators \r\n\r\n- of a compromise (see IOC files)\r\n- of vulnerable log4j versions (hash list by [@mubix](https://github.com/mubix/CVE-2021-44228-Log4Shell-Hashes))\r\n\r\n![Screenshot 2021-12-13 at 13 04 01](https://user-images.githubusercontent.com/2851492/145811111-bd889b6c-9fb6-42f7-8433-bbfffecba0d4.png)\r\n\r\n![Screenshot 2021-12-13 at 13 05 11](https://user-images.githubusercontent.com/2851492/145811116-167e584f-708c-4344-8029-d4463284f692.png)\r\n\r\n![Screenshot 2021-12-13 at 13 14 33](https://user-images.githubusercontent.com/2851492/145811153-6abb0956-9054-4d1f-8b01-9085a97822bb.png)\r\n\r\n![Screenshot 2021-12-13 at 12 08 04](https://user-images.githubusercontent.com/2851492/145811165-e9825598-1d73-40e8-936f-96aecf57090e.png)\r\n\r\n![Screenshot 2021-12-13 at 13 06 31](https://user-images.githubusercontent.com/2851492/145811216-7facf4e7-b753-44ef-86ad-4abb6ed11302.png)\r\n\r\n\r\n"
+    },
+    "https://github.com/leonteale/pentestpackage": {
+        "created_at": "2014-04-25 00:29:27",
+        "description": "a package of Pentest scripts I have made or  commonly use",
+        "commit_message": "Merge pull request #12 from leonteale/dependabot/npm_and_yarn/dev-mightnotworkyet/Suggester/es5-ext-0.10.64\n\nBump es5-ext from 0.10.62 to 0.10.64 in /dev-mightnotworkyet/Suggester",
+        "commit_date": "2024-04-02 10:25:59"
+    },
+    "https://github.com/f4cknet/pyhackme": {
+        "created_at": "2023-11-03 13:50:55",
+        "description": null,
+        "commit_message": "docker deploy support",
+        "commit_date": "2024-03-26 04:55:40"
     }
 }
