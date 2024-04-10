@@ -1042,13 +1042,12 @@
         "release_message": "- 增加`list-network`参数用于查看网卡ID\r\n- 增加`-csv`参数 用于保存文件到excel\r\n- 增加`-api`参数用于从网络api获取目标\r\n- 增加`-full`参数，用(api+内置字典)进行完整的一次扫描\r\n![WX20210112-175029](https://user-images.githubusercontent.com/18695984/104303212-c5b2ed80-5504-11eb-9d4a-fe8c7a2a1fe9.png)\r\n"
     },
     "https://github.com/ninoseki/mitaka": {
-        "created_at": "",
-        "description": "",
-        "commit_date": "2024-02-23 22:50:18",
-        "commit_message": "v2.0.0",
-        "release_tag": "",
-        "release_date": "",
-        "release_message": ""
+        "created_at": "2024-03-29 10:42:12",
+        "description": "A browser extension for OSINT search",
+        "commit_message": "Merge pull request #803 from ninoseki/v2.1.0\n\nv2.1.0",
+        "commit_date": "2024-03-29 10:42:12",
+        "release_date": "2024-03-29 10:43:34",
+        "release_message": "## What's Changed\r\n* feat: show syncedAt in options view by @ninoseki in https://github.com/ninoseki/mitaka/pull/799\r\n* refactor: use reactive by @ninoseki in https://github.com/ninoseki/mitaka/pull/800\r\n* fix(deps): update dependency vue to v3.4.21 by @renovate in https://github.com/ninoseki/mitaka/pull/798\r\n* Added Host.io for domain lookup by @abdullahdevrel in https://github.com/ninoseki/mitaka/pull/801\r\n* ci: add lint job by @ninoseki in https://github.com/ninoseki/mitaka/pull/802\r\n* v2.1.0 by @ninoseki in https://github.com/ninoseki/mitaka/pull/803\r\n\r\n## New Contributors\r\n* @abdullahdevrel made their first contribution in https://github.com/ninoseki/mitaka/pull/801\r\n\r\n**Full Changelog**: https://github.com/ninoseki/mitaka/compare/v2.0.1...v2.1.0"
     },
     "https://github.com/v2rayA/v2rayA": {
         "created_at": "2024-03-02 14:57:25",
@@ -1080,7 +1079,7 @@
         "created_at": "2024-03-07 09:30:14",
         "description": "基于 docsify 部署，目前漏洞数量 1000+",
         "commit_message": "update",
-        "commit_date": "2024-04-01 03:33:57",
+        "commit_date": "2024-04-07 08:05:03",
         "release_date": "2024-04-01 03:17:43",
         "release_message": "2023.04.01 重构目录，此为重构前 release。重构后目录如下：\r\n```\r\ndirs = {\r\n    'oa':'OA漏洞',\r\n    'cms': 'CMS漏洞',\r\n    'framework': '开发框架漏洞',\r\n    'iot': '网络设备漏洞',\r\n    'language': '开发语言漏洞',\r\n    'os': '操作系统漏洞',\r\n    'webapp': 'Web应用漏洞',\r\n    'middleware': '中间件漏洞',\r\n    'database': '数据库漏洞',\r\n    'cloud': '云安全漏洞',\r\n    'others':'其他漏洞'\r\n}\r\n```"
     },
@@ -3058,13 +3057,12 @@
         "release_message": "#### 0x01 功能增加\r\n* 添加验证码识别接口json和xml格式的匹配方式\r\n* 将Intruder模块调用验证码识别过程改为后台线程执行，防止burp卡住\r\n\r\n#### 0x02 Bug修复\r\n* 添加显示和隐藏Intruder模块识别结果,以便在极端情况下节省内存资源,防止burp卡住"
     },
     "https://github.com/projectdiscovery/nuclei": {
-        "created_at": "",
-        "description": "",
-        "commit_date": "2024-02-26 07:26:03",
-        "commit_message": "Merge pull request #4807 from projectdiscovery/dependabot/go_modules/dev/github.com/projectdiscovery/utils-0.0.80",
-        "release_tag": "",
-        "release_date": "",
-        "release_message": ""
+        "created_at": "2024-04-08 20:54:14",
+        "description": "Fast and customizable vulnerability scanner based on simple YAML based DSL.",
+        "commit_message": "Merge pull request #4986 from projectdiscovery/feat-3072-init-adaptive-speed\n\nInitial Refactor for speed control",
+        "commit_date": "2024-04-09 23:49:33",
+        "release_date": "2024-04-08 21:31:01",
+        "release_message": "<!-- Release notes generated using configuration in .github/release.yml at main -->\r\n\r\n## What's Changed\r\n\r\n* **Fixed an issue for templates with dynamic extractor + payloads edgecase** by @tarunKoyalwar in https://github.com/projectdiscovery/nuclei/pull/5016\r\n* Fixed missing JSON schema definitions by @RamanaReddy0M in https://github.com/projectdiscovery/nuclei/pull/4995\r\n* Fixed index out of range panic with fuzzing templates by @tarunKoyalwar in https://github.com/projectdiscovery/nuclei/pull/4998\r\n* Fixed missing interactsh expression evaluation in fuzzing template by @tarunKoyalwar in https://github.com/projectdiscovery/nuclei/pull/5019\r\n* Fixed missing IP in javascript templates by @tarunKoyalwar in https://github.com/projectdiscovery/nuclei/pull/5023\r\n* Fixed invalid port in jsonl output for ssl templates by @tarunKoyalwar in https://github.com/projectdiscovery/nuclei/pull/5023\r\n* **Added ASREProastable method in LDAP module** by @daffainfo in https://github.com/projectdiscovery/nuclei/pull/4990\r\n\r\n## New Contributors\r\n* @hanghuge made their first contribution in https://github.com/projectdiscovery/nuclei/pull/5004\r\n* @daffainfo made their first contribution in https://github.com/projectdiscovery/nuclei/pull/4990\r\n\r\n**Full Changelog**: https://github.com/projectdiscovery/nuclei/compare/v3.2.3...v3.2.4"
     },
     "https://github.com/sleeyax/burp-awesome-tls": {
         "created_at": "2022-01-24 00:30:26",
@@ -4220,7 +4218,7 @@
         "created_at": "2021-10-13 11:34:53",
         "description": "v2ray节点、免费节点、免费v2ray节点、最新公益免费v2ray节点订阅地址、免费v2ray节点每日更新、免费ss/v2ray/trojan节点、freefq ",
         "commit_message": "update",
-        "commit_date": "2024-04-02 12:35:00"
+        "commit_date": "2024-04-09 12:34:52"
     },
     "https://github.com/QAX-A-Team/sharpwmi": {
         "created_at": "2020-04-08 05:50:21",
@@ -5128,8 +5126,8 @@
     "https://github.com/beefproject/beef": {
         "created_at": "2021-11-09 22:06:22",
         "description": "The Browser Exploitation Framework Project",
-        "commit_message": "init 'creds' var",
-        "commit_date": "2024-03-19 04:07:45",
+        "commit_message": "Merge branch 'dependabot/bundler/async-1.32.1'",
+        "commit_date": "2024-03-30 00:28:51",
         "release_date": "2021-11-25 23:47:24",
         "release_message": "## Bug Fixes\r\n* #2190 -  Maintainability - Improved CI workflow\r\n* #2185 - Could not minify JavaScript file: web_ui_all\r\n## Enchancements\r\n* #2205 - Modules - Apache Tomcat Examples Default Install Exploit\r\n* #2157 -  Maintainability - Implement GitHub Actions and added confirmation step to PRs\r\n* #2190 -  Maintainability - Improved CI workflow: \r\n  * Refactor Rakefile to accommodate Browserstack implementation\r\n  * Installer improvements\r\n  * Test suite performance improvements\r\n* #2199  - Enhancement - Check for update on launch works with beef-xss kali package install\r\n\r\n**Full Changelog**: https://github.com/beefproject/beef/compare/v0.5.3.0...v0.5.4.0"
     },
@@ -10162,7 +10160,7 @@
         "created_at": "2020-02-04 09:30:48",
         "description": "致力于成为中文区命中率最高的广告过滤列表，实现精确的广告屏蔽和隐私保护。anti-AD现已支持AdGuardHome，dnsmasq， Surge，Pi-Hole，smartdns等网络组件。完全兼容常见的广告过滤工具所支持的各种广告过滤列表格式",
         "commit_message": "Auto renew the anti-AD list.",
-        "commit_date": "2024-03-31 18:33:25",
+        "commit_date": "2024-04-07 18:33:35",
         "release_date": "2020-02-04 09:32:25",
         "release_message": "- 引入无效域名、无效hosts剔除机制，大幅提升各过滤列表命中率\r\n- 为了更好的支持pi-hole，加入一个新的全域名列表 - `anti-ad-domains.txt`\r\n- 根据网友 [@xlighting2017](https://github.com/privacy-protection-tools/anti-AD/issues/29) 建议，更新surge到新的格式\r\n- 引入数个新的配置参数，对输出结果精确控制\r\n- 若干bug和逻辑修复"
     },
@@ -19295,8 +19293,8 @@
     "https://github.com/jumpserver/jumpserver": {
         "created_at": "2024-03-26 03:42:08",
         "description": "JumpServer 是广受欢迎的开源堡垒机，是符合 4A 规范的专业运维安全审计系统。",
-        "commit_message": "fix: gpt 配置取消长度限制 (#12907)\n\nCo-authored-by: feng <1304903146@qq.com>",
-        "commit_date": "2024-03-29 10:53:24",
+        "commit_message": "fix: Luna引导下载版本更新",
+        "commit_date": "2024-04-09 12:10:30",
         "release_date": "2024-03-27 02:25:44",
         "release_message": "# 一、安装和升级\r\n\r\n## 1.1 在线方式 ✈️\r\n\r\n仅需两步快速安装 JumpServer：\r\n\r\n1. 准备一台 4核8G （最低）且可以访问互联网的 64 位 Linux 主机；\r\n2. 以 root 用户执行如下命令一键安装 JumpServer。\r\n\r\n国内用户\r\n``` sh\r\ncurl -sSL https://resource.fit2cloud.com/jumpserver/jumpserver/releases/latest/download/quick_start.sh | bash\r\n```\r\n\r\n海外用户\r\n``` sh\r\ncurl -sSL https://github.com/jumpserver/jumpserver/releases/latest/download/quick_start.sh | bash\r\n```\r\n\r\n## 1.2 离线方式 🚢\r\n\r\n[离线安装包下载地址](https://community.fit2cloud.com/#/download/jumpserver/v3-10-7)\r\n\r\n详细安装和升级文档请参考：[完整文档](https://docs.jumpserver.org/zh/v3/) \r\n\r\n\r\n# 二、更新日志\r\n\r\n## 2.1 问题修复 🐛\r\n\r\n- fix: 修复 Celery 定时任务偶尔不执行的问题\r\n- fix: 修复 JumpServer 作业管理中 Ansible Playbook 文件存在 JinJa2 模版代码注入导致的 Celery 容器远程执行的漏洞\r\n- fix: 修复 JumpServer 作业管理中 Ansible Playbook 文件存在参数验证缺陷导致的 Celery 容器远程执行的漏洞\r\n- fix: 修复 Oracle 数据库使用 Service name 连接报错的问题（Chen）【企业版】"
     },
@@ -24027,13 +24025,12 @@
         "release_message": ""
     },
     "https://github.com/Lotus6/ConfluenceMemshell": {
-        "created_at": "",
-        "description": "",
-        "commit_date": "2024-02-01 03:27:55",
+        "created_at": "2024-01-27 09:15:58",
+        "description": "Confluence CVE 2021，2022，2023 利用工具，支持命令执行，哥斯拉，冰蝎 内存马注入",
         "commit_message": "Update README.md",
-        "release_tag": "",
-        "release_date": "",
-        "release_message": ""
+        "commit_date": "2024-02-01 03:27:55",
+        "release_date": "2024-01-27 09:22:59",
+        "release_message": "* 新增 CVE_2023_22515 用户创建，内存马插件生成\r\n* http 超时处理（5秒）\r\n* 修复 CVE-2023-22527 添加冰蝎的内存马之后，报错500 问题\r\n* 修复导出内存马插件，路径不能为空问题"
     },
     "https://github.com/Yang0615777/sendMail": {
         "created_at": "",
@@ -24428,8 +24425,8 @@
         "description": "魅族安全中心"
     },
     "https://sec.vip.com/": {
-        "status_code": 503,
-        "description": ""
+        "status_code": 200,
+        "description": "VSRC首页-唯品会信息安全中心"
     },
     "https://sec.wacai.com/": {
         "status_code": 200,
@@ -24670,8 +24667,8 @@
         "description": "知识星球安全应急响应中心"
     },
     "https://securitytcjf.com/": {
-        "status_code": 504,
-        "description": "504 Gateway Time-out"
+        "status_code": 403,
+        "description": "403 Forbidden"
     },
     "https://sfsrc.sf-express.com/": {
         "status_code": 200,
@@ -25325,8 +25322,8 @@
         "description": "MD5免费在线解密破解_MD5在线加密-SOMD5"
     },
     "https://www.chamd5.org/": {
-        "status_code": 500,
-        "description": "运行时错误"
+        "status_code": 200,
+        "description": "MD5在线解密|md5在线破解|批量破解md5网站 - ChaMd5.Org"
     },
     "http://pan.baidu.com/s/1pLjaQKF": {
         "status_code": 200,
@@ -25427,8 +25424,8 @@
     "https://github.com/leondz/garak": {
         "created_at": "2024-02-20 14:23:06",
         "description": "LLM vulnerability scanner",
-        "commit_message": "Added project twitter link and corrected a grammatic error (#578)\n\n* Added project twitter link and corrected a grammatic error\r\n\r\nSigned-off-by: Brain Aboze <abozejohn@gmail.com>\r\n\r\n* twitter acct also has a g\r\n\r\n---------\r\n\r\nSigned-off-by: Brain Aboze <abozejohn@gmail.com>\r\nCo-authored-by: Leon Derczynski <leonderczynski@gmail.com>",
-        "commit_date": "2024-04-02 10:56:43",
+        "commit_message": "@GustavFredrikson has signed the CLA in leondz/garak#588",
+        "commit_date": "2024-04-09 07:46:27",
         "release_date": "2024-02-20 16:12:40",
         "release_message": "## What's Changed\r\n\r\n### plugins\r\n* New encoding probes by @zmackie in https://github.com/leondz/garak/pull/459\r\n* OpenAI upgrade by @erickgalinkin in https://github.com/leondz/garak/pull/477\r\n* Low Resource Languages Buff by @erickgalinkin in https://github.com/leondz/garak/pull/478\r\n* Add Rasa generator by @rgstephens in https://github.com/leondz/garak/pull/453\r\n* Tree of Attacks by @erickgalinkin in https://github.com/leondz/garak/pull/446\r\n\r\n### functionality improvements\r\n* support multiple buffs by @leondz in https://github.com/leondz/garak/pull/497\r\n* wrap exception printing in repr by @leondz in https://github.com/leondz/garak/pull/425\r\n* add generators.function docs & examples by @leondz in https://github.com/leondz/garak/pull/437\r\n* update doc indices, add test to check them by @leondz in https://github.com/leondz/garak/pull/450\r\n* fix & unify REST generator timeout param names; set default request timeout to 20s by @leondz in https://github.com/leondz/garak/pull/451\r\n* add test to keep requirements in sync by @leondz in https://github.com/leondz/garak/pull/465\r\n* docs for buffs by @leondz in https://github.com/leondz/garak/pull/466\r\n* autosearch in the configs/ subdir for configs (no yaml extension should be given) by @leondz in https://github.com/leondz/garak/pull/467\r\n* Update function.py by @erickgalinkin in https://github.com/leondz/garak/pull/500\r\n* add warning when using a lite/default profile by @leondz in https://github.com/leondz/garak/pull/476\r\n* rename default output dir to garak_runs/; by @leondz in https://github.com/leondz/garak/pull/488\r\n* update openai model list by @leondz in https://github.com/leondz/garak/pull/494\r\n* make test_openai generation tests skip if no OAI API key set by @leondz in https://github.com/leondz/garak/pull/491\r\n\r\n### fixes\r\n* html report now uses correct basedir by @leondz in https://github.com/leondz/garak/pull/439\r\n* typos & clarifications in rest generator by @leondz in https://github.com/leondz/garak/pull/436\r\n* update manifest by @leondz in https://github.com/leondz/garak/pull/454\r\n* Avoid divide by zero error by @erickgalinkin in https://github.com/leondz/garak/pull/458\r\n* Fix/test pytest-8.0.0 order by @leondz in https://github.com/leondz/garak/pull/472\r\n* Check & enable Python 3.12 support by @leondz in https://github.com/leondz/garak/pull/475\r\n* move pathlib uses to _config.transient.basedir by @leondz in https://github.com/leondz/garak/pull/499\r\n* catch & handle HF hub exceptions loading dataset for package hallucination by @leondz in https://github.com/leondz/garak/pull/470\r\n\r\n\r\n## New Contributors\r\n* @zmackie made their first contribution in https://github.com/leondz/garak/pull/459\r\n* @rgstephens made their first contribution in https://github.com/leondz/garak/pull/453\r\n\r\n**Full Changelog**: https://github.com/leondz/garak/compare/v0.9.0.11...v0.9.0.12"
     },
@@ -25953,11 +25950,11 @@
         "commit_date": "2017-11-01 06:20:45"
     },
     "https://github.com/2dust/clashN": {
-        "created_at": "2024-02-04 02:32:17",
+        "created_at": "2024-03-26 06:05:41",
         "description": "A clash client for Windows, support Mihomo",
-        "commit_message": "Up 2.20",
-        "commit_date": "2024-02-04 02:32:17",
-        "release_date": "2024-02-04 02:34:59",
+        "commit_message": "up 2.21",
+        "commit_date": "2024-03-26 06:05:41",
+        "release_date": "2024-03-26 06:16:05",
         "release_message": "修复了一些bug"
     },
     "https://github.com/Qihoo360/WatchAD2.0": {
@@ -27036,5 +27033,301 @@
         "description": null,
         "commit_message": "docker deploy support",
         "commit_date": "2024-03-26 04:55:40"
+    },
+    "https://www.snapmail.cc/": {
+        "status_code": 200,
+        "description": "Snapmail - The fastest way to test email!"
+    },
+    "https://quake.360.cn/quake/": {
+        "status_code": 200,
+        "description": "360网络空间测绘 — 因为看见，所以安全"
+    },
+    "https://github.com/Neo23x0/Loki": {
+        "created_at": "2023-05-11 11:02:33",
+        "description": "Loki - Simple IOC and YARA Scanner",
+        "commit_message": "fix: character issues",
+        "commit_date": "2024-03-04 08:33:07",
+        "release_date": "2023-05-18 18:16:57",
+        "release_message": "- PE-Sieve upgraded to fixed [version 0.3.6](https://github.com/hasherezade/pe-sieve/releases/tag/v0.3.6)"
+    },
+    "https://dig.pm/": {
+        "status_code": 200,
+        "description": "DNSLOG Platform"
+    },
+    "https://seamless.icu/": {
+        "status_code": 200,
+        "description": "Home - Seamless App"
+    },
+    "https://www.wappalyzer.com/": {
+        "status_code": 200,
+        "description": "Find out what websites are built with - Wappalyzer"
+    },
+    "http://www.skymem.info/": {
+        "status_code": 200,
+        "description": "Find email addresses of companies and people - Skymem"
+    },
+    "https://www.onyphe.io/": {
+        "status_code": 200,
+        "description": "Cyber Defense Search Engine | ONYPHE"
+    },
+    "http://www.soupan.info/": {
+        "status_code": 200,
+        "description": "网盘搜索引擎 - 搜盘网"
+    },
+    "https://tools.emailhippo.com/": {
+        "status_code": 200,
+        "description": "Free Email Address Verifier: Verify An Email Address In Real Time | emailhippo.com"
+    },
+    "https://dns.aizhan.com/": {
+        "status_code": 200,
+        "description": "172.183.98.193属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+    },
+    "https://search.chongbuluo.com/": {
+        "status_code": 200,
+        "description": "虫部落快搜 - 搜索快人一步"
+    },
+    "https://x.threatbook.cn/": {
+        "status_code": 200,
+        "description": "微步在线X情报社区-威胁情报查询_威胁分析平台_开放社区"
+    },
+    "https://www.yougetsignal.com/tools/web-sites-on-web-server/": {
+        "status_code": 200,
+        "description": "Reverse IP Lookup - Find Other Web Sites Hosted on a Web Server"
+    },
+    "https://reverseip.domaintools.com/": {
+        "status_code": 200,
+        "description": "Reverse IP Lookup - All Names Hosted at an IP - DomainTools"
+    },
+    "https://www.webscan.cc/": {
+        "status_code": 200,
+        "description": "同IP网站查询,C段查询,IP反查域名,在线C段,旁站工具 - WebScan"
+    },
+    "https://gofile.io/": {
+        "status_code": 200,
+        "description": "Gofile - Your all-in-one storage solution"
+    },
+    "https://whois.aizhan.com/": {
+        "status_code": 200,
+        "description": "站长工具_whois查询工具_爱站网"
+    },
+    "https://rapiddns.io/sameip": {
+        "status_code": 200,
+        "description": "Subdomain - RapidDNS Rapid DNS Information Collection"
+    },
+    "http://wooyun.2xss.cc/index.php": {
+        "status_code": 200,
+        "description": "乌云网镜像丨乌云知识库丨Wooyun镜像丨乌云漏洞平台"
+    },
+    "http://tools.sbbbb.cn/tiquan/": {
+        "status_code": 200,
+        "description": "Windows 提权辅助"
+    },
+    "https://forum.ywhack.com/bountytips.php?process": {
+        "status_code": 200,
+        "description": "[~]#棱角 ::Edge.Forum*"
+    },
+    "https://www.dalipan.com/#/": {
+        "status_code": 200,
+        "description": "大力盘 - 网盘搜索引擎"
+    },
+    "https://viewdns.info/reverseip/": {
+        "status_code": 403,
+        "description": "Just a moment..."
+    },
+    "https://souyouxiang.com/": {
+        "status_code": 200,
+        "description": "搜邮箱 | 搜邮箱"
+    },
+    "https://hunter.io/": {
+        "status_code": 200,
+        "description": "Find email addresses in seconds • Hunter (Email Hunter)"
+    },
+    "https://www.wenshushu.cn/": {
+        "status_code": 200,
+        "description": "文叔叔 - 传文件，找文叔叔（永不限速）"
+    },
+    "https://mail.protonmail.com/": {
+        "status_code": 200,
+        "description": "Proton Mail"
+    },
+    "https://dnslytics.com/reverse-ip": {
+        "status_code": 403,
+        "description": "Just a moment..."
+    },
+    "https://cowtransfer.com/": {
+        "status_code": 200,
+        "description": "奶牛快传｜免费大文件传输工具，上传下载不限速 CowTransfer | Unlimited Send Large Files"
+    },
+    "https://5sim.net/": {
+        "status_code": 403,
+        "description": "Just a moment..."
+    },
+    "https://site.ip138.com/": {
+        "status_code": 200,
+        "description": "域名查iP 域名解析 iP查询网站 iP反查域名 iP反查网站 同一iP网站 同iP网站域名iP查询"
+    },
+    "https://forum.ywhack.com/tools/CyberChef/": {
+        "status_code": 200,
+        "description": "CyberChef"
+    },
+    "https://www.ipuu.net/Home": {
+        "status_code": 200,
+        "description": "IPUU - IP地址查询|我的IP地址"
+    },
+    "https://fp.shuziguanxing.com/#/": {
+        "status_code": 200,
+        "description": "指纹收录平台"
+    },
+    "https://www.yunsee.cn/": {
+        "status_code": 200,
+        "description": "yunsee.cn-2.0"
+    },
+    "http://24mail.chacuo.net/": {
+        "status_code": 200,
+        "description": "临时邮箱、十分钟邮箱（10分钟)、临时邮、临时Email、快速注册Email、24Mail--查错网"
+    },
+    "https://temp-mail.org/": {
+        "status_code": 403,
+        "description": "Just a moment..."
+    },
+    "https://whois.cloud.tencent.com/": {
+        "status_code": 200,
+        "description": "域名信息查询 - 腾讯云"
+    },
+    "https://app.mediafire.com/": {
+        "status_code": 200,
+        "description": "MediaFire - File sharing and storage made simple"
+    },
+    "https://x.threatbook.com/": {
+        "status_code": 200,
+        "description": "微步在线X情报社区-威胁情报查询_威胁分析平台_开放社区"
+    },
+    "https://voice.google.com/": {
+        "status_code": 200,
+        "description": "Voice"
+    },
+    "https://app.tmp.link/": {
+        "status_code": 200,
+        "description": "TMPLINK"
+    },
+    "http://finger.tidesec.net/": {
+        "status_code": 200,
+        "description": "TideFinger  潮汐指纹 TideFinger  潮汐指纹"
+    },
+    "http://dnslog.pw/": {
+        "status_code": 200,
+        "description": "登录 - DNSlog System"
+    },
+    "https://findthatlead.com/en": {
+        "status_code": 200,
+        "description": "FindThatLead - B2B Lead Generation Done in seconds"
+    },
+    "http://tools.sbbbb.cn/CyberChef/": {
+        "status_code": 200,
+        "description": "CyberChef"
+    },
+    "http://s.tool.chinaz.com/same": {
+        "status_code": 200,
+        "description": "网站IP查询_IP反查域名_同IP网站查询 - 站长工具"
+    },
+    "https://www.t00ls.com/dnslog.html": {
+        "status_code": 200,
+        "description": "T00ls  | 低调求发展 - 潜心习安全"
+    },
+    "https://phonebook.cz/": {
+        "status_code": 200,
+        "description": "Phonebook.cz - Intelligence X"
+    },
+    "https://sg.godaddy.com/zh/whois": {
+        "status_code": 403,
+        "description": "Access Denied"
+    },
+    "https://app.interactsh.com/#/": {
+        "status_code": 200,
+        "description": "Interactsh | Web Client"
+    },
+    "https://whois.chinaz.com/": {
+        "status_code": 200,
+        "description": "域名Whois查询 - 站长工具"
+    },
+    "https://hackertarget.com/reverse-ip-lookup/": {
+        "status_code": 200,
+        "description": "Reverse IP Lookup, Find Hosts Sharing an IP | HackerTarget.com"
+    },
+    "https://app.snov.io/": {
+        "status_code": 200,
+        "description": "Snov.io"
+    },
+    "https://connect.clearbit.com/": {
+        "status_code": 200,
+        "description": "Find any email address with Clearbit Connect"
+    },
+    "https://www.storytrain.info/": {
+        "status_code": 200,
+        "description": "短信接收 - 云短信 - 第1页 - 在线短信接收"
+    },
+    "https://sms-activate.org/": {
+        "status_code": 403,
+        "description": "Just a moment..."
+    },
+    "https://www.sqlsec.com/tools.html": {
+        "status_code": 522,
+        "description": "www.sqlsec.com | 522: Connection timed out"
+    },
+    "https://patchchecker.com/": {
+        "status_code": 200,
+        "description": "Find Missing Patches"
+    },
+    "https://www.pan131.com/": {
+        "status_code": 200,
+        "description": "百度云搜索,百度网盘云盘资源搜索引擎 - 盘131"
+    },
+    "http://whois.alexa.cn/": {
+        "status_code": 200,
+        "description": "Whois域名注册信息查询"
+    },
+    "http://hunter.qianxin.com/": {
+        "status_code": 200,
+        "description": "鹰图平台"
+    },
+    "https://whois.aliyun.com/": {
+        "status_code": 200,
+        "description": "whois查询_域名查询_域名交易_阿里云企航(原万网)-阿里云"
+    },
+    "https://whatcms.org/": {
+        "status_code": 200,
+        "description": "Detect which CMS a site is using - What CMS?"
+    },
+    "http://eyes.sh": {
+        "status_code": 200,
+        "description": "登录"
+    },
+    "https://www.lingfengyun.com/": {
+        "status_code": 200,
+        "description": "十大网盘搜索引擎 - 凌风云"
+    },
+    "https://censys.io/": {
+        "status_code": 200,
+        "description": "Attack Surface Management and Threat Hunting Solutions | Censys"
+    },
+    "https://www.whois.com/whois/": {
+        "status_code": 200,
+        "description": "Free Whois Lookup - Whois IP Search & Whois Domain Lookup | Whois.com"
+    },
+    "https://i.hacking8.com/tiquan": {
+        "status_code": 200,
+        "description": "提权辅助网页 Windows提权辅助"
+    },
+    "https://dnsdb.io/": {
+        "status_code": 526,
+        "description": "www.dnsdb.io | 526: Invalid SSL certificate"
+    },
+    "https://tools.ipip.net/ipdomain.php": {
+        "status_code": 200,
+        "description": "专业精准的IP库服务商_IPIP"
+    },
+    "https://catbox.moe/": {
+        "status_code": 200,
+        "description": "Catbox"
     }
 }
