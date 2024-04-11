@@ -520,8 +520,8 @@
     "https://github.com/knownsec/404StarLink": {
         "created_at": "2020-11-17 08:10:18",
         "description": "404StarLink - 推荐优质、有意义、有趣、坚持维护的安全开源项目",
-        "commit_message": "weekly update at 2024-03-25",
-        "commit_date": "2024-03-25 03:18:46"
+        "commit_message": "weekly update at 2024-04-07",
+        "commit_date": "2024-04-07 03:41:56"
     },
     "https://github.com/gwen001/github-subdomains": {
         "created_at": "2020-07-24 06:54:29",
@@ -3257,11 +3257,11 @@
         "release_message": ""
     },
     "https://github.com/bytedance/Elkeid": {
-        "created_at": "2024-03-22 08:10:39",
+        "created_at": "2024-04-10 10:35:37",
         "description": "Elkeid is an open source solution that can meet the security requirements of various workloads such as hosts, containers and K8s, and serverless. It is derived from ByteDance's internal best practices.",
-        "commit_message": "Merge pull request #595 from bytedance/feat-log\n\nfeat message log",
-        "commit_date": "2024-04-03 03:43:12",
-        "release_date": "2024-03-22 14:13:07",
+        "commit_message": "ci: kmod for ol8",
+        "commit_date": "2024-04-10 10:35:37",
+        "release_date": "2024-04-10 16:17:51",
         "release_message": ""
     },
     "https://github.com/knownsec/ct": {
@@ -3864,8 +3864,8 @@
     "https://github.com/chaitin/safeline": {
         "created_at": "2024-03-28 06:50:17",
         "description": "一款足够简单、足够好用、足够强的免费 WAF。基于业界领先的语义引擎检测技术，作为反向代理接入，保护你的网站不受黑客攻击。 A free WAF that is sufficiently simple, effective, and powerful. Utilizing industry-leading semantic engine detection technology, it operates as a reverse proxy to protect your website from hacker attacks.",
-        "commit_message": "新增告警 (#796)",
-        "commit_date": "2024-04-02 09:48:13",
+        "commit_message": "Merge pull request #798 from Lvshujun0918/patch-1\n\n改正06-other.md中一处错误的加粗，没加空格而没生效",
+        "commit_date": "2024-04-09 03:46:02",
         "release_date": "2024-03-28 07:46:23",
         "release_message": "### 新增\r\n\r\n* 黑白名单、人机验证、身份认证中，规则匹配条件增加 “Method”（请求方法），方便对 POST、PUT、DELETE 等客户端操作进行限制\r\n* 攻击原始日志的防护模块为 “补充规则” 时，“命中规则” 处增加规则的 ID\r\n\r\n### 优化\r\n\r\n* 优化导航，调整功能位置，方便寻找：\r\n  * 证书管理 移动到 防护站点->证书管理\r\n  * IP 组 移动到 防护配置->通用配置->IP 组\r\n  * 源 IP 获取方式、站点通用配置 移动到 防护站点->代理设置\r\n  * 拦截页面附加说明、自定义拦截页面、IP 情报共享计划 移动到 防护配置->通用配置->拦截页面、IP 情报共享计划\r\n  * 雷池控制台登录设置、雷池控制台证书、Syslog 设置、系统信息 移动到一级导航 系统设置\r\n* 密码登录框增加请求频率限制，提高暴力猜解的难度\r\n* 免费证书由过期前 10 天自动续期，改为过期前 30 天就自动续期\r\n* 修复站点数量较多时，站点管理处采集不到资源的问题\r\n* 修复移动端点击登录页的 “忘记密码” 无法弹出重置命令的问题\r\n* 修复 syslog 因请求内容较多被截断时，json 格式会被截得不合法的问题\r\n* 修复其他一些已知问题\r\n* 优化一些 UI 交互细节\r\n"
     },
@@ -4528,8 +4528,8 @@
     "https://github.com/rockbenben/ChatGPT-Shortcut": {
         "created_at": "2024-02-18 08:29:46",
         "description": "🚀💪Maximize your efficiency and productivity, support for English,中文,Español,العربية. 让生产力加倍的AI快捷指令。更有效地定制、保存和分享自己的提示词。在提示词分享社区中，轻松找到适用于不同场景的指令。",
-        "commit_message": "chore(deps): bump follow-redirects from 1.15.5 to 1.15.6 (#46)\n\nBumps [follow-redirects](https://github.com/follow-redirects/follow-redirects) from 1.15.5 to 1.15.6.\r\n- [Release notes](https://github.com/follow-redirects/follow-redirects/releases)\r\n- [Commits](https://github.com/follow-redirects/follow-redirects/compare/v1.15.5...v1.15.6)\r\n\r\n---\r\nupdated-dependencies:\r\n- dependency-name: follow-redirects\r\n  dependency-type: indirect\r\n...\r\n\r\nSigned-off-by: dependabot[bot] <support@github.com>\r\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
-        "commit_date": "2024-03-17 01:55:16",
+        "commit_message": "chroe: update deps",
+        "commit_date": "2024-04-06 23:00:12",
         "release_date": "2024-02-19 06:56:44",
         "release_message": "#### 🛠 Improvements\r\n- 🔧 Replaced moment with dayjs for better performance and smaller bundle size.\r\n- 📈 Optimized Cumulative Layout Shift (CLS) performance to enhance user experience.\r\n- 🎨 Enhanced styling and layout of the share component for better visual appeal.\r\n- 📦 Updated project dependencies to ensure better security and performance.\r\n\r\n#### 🐛 Bug Fixes\r\n- 🛠️ Fixed warning in the comment component by upgrading dependencies.\r\n\r\n---\r\n\r\n#### 🛠 改进\r\n- 🔧 用dayjs替换moment，以提高性能并减小包大小。\r\n- 📈 优化累积布局偏移（CLS）性能，以增强用户体验。\r\n- 🎨 改善分享组件的样式和布局，以提高视觉吸引力。\r\n- 📦 更新项目依赖，以确保更好的安全性和性能。\r\n\r\n#### 🐛 修复\r\n- 🛠️ 通过升级依赖修复了评论组件中的警告。\r\n\r\n**Full Changelog**: https://github.com/rockbenben/ChatGPT-Shortcut/compare/v3.1.8...v3.1.9"
     },
@@ -6300,8 +6300,8 @@
     "https://github.com/WerWolv/ImHex": {
         "created_at": "2024-03-23 09:15:12",
         "description": "🔍 A Hex Editor for Reverse Engineers, Programmers and people who value their retinas when working at 3 AM.",
-        "commit_message": "fix: Misspelling of Endianness (#1609)\n\n### Problem description\r\nfix 40 typos\r\n\r\n### Implementation description\r\n`endianess` => `endianness`\r\n\r\nSigned-off-by: RoboSchmied <github@roboschmie.de>",
-        "commit_date": "2024-03-28 21:25:28",
+        "commit_message": "fix: Color vector in 3D visualizer not getting assigned the correct size",
+        "commit_date": "2024-04-10 20:53:51",
         "release_date": "2024-03-23 10:06:55",
         "release_message": "## Improvements\r\n- ImHex properly enters low power mode on Linux again now\r\n- Unifont characters are now being loaded at their native size to make them crisp like the Western characters\r\n- The splash screen is not being scaled weirdly anymore now\r\n- Added a hint when the advanced data information section didn't yield any result\r\n\r\n## Bug Fixes\r\n- Fixed linking to libyara. This should resolve issues with e.g the AUR version not starting anymore\r\n- Fixed issues with the auto updater on Windows\r\n- Fixed view providers not being saved to project files correctly\r\n- Fixed highlighting not updating correctly when changing Bookmark regions\r\n- Fixed crash upload setting not being disabled correctly when choosing \"Deny\" in the initial popup\r\n- Fixed custom base address issues with the data inspector and copy as array options\r\n- Fixed advanced data information not showing up correctly\r\n- Fixed selection being removed sometimes when right clicking it\r\n- Fixed infinite loop when exporting a selection to a file\r\n- Fixed control characters ending up in log files\r\n- Fixed a crash when opening an unopenable file\r\n\r\n## Pattern Language\r\n- Fixed various issues with the virtual file system\r\n- Fixed data decompression functions not extracting the entire data\r\n\r\n# Previous Changelog\r\n\r\n![image](https://github.com/WerWolv/ImHex/assets/10835354/57bfaec2-779e-4701-b1a5-f03da7815da3)\r\n\r\n## Additions\r\n- **All main menu entries now have pretty icons**\r\n- **Added Myers' diffing algorithm to the diff view**\r\n    - This algorithm can display insertions and removals as well as modifications\r\n    - Huge thanks to the maintainer of Malcat!\r\n- **Added option to customize toolbar icons**\r\n- **Added a much improved Out of the Box experience when first starting up ImHex**\r\n- **Added many new hash algorithms**\r\n    - This includes basic sum checksums, Snefru, Haval, various SHA versions, Keccak, RIPEMD, many CRC presets and many more\r\n- **Greatly improved the data information view**\r\n    - Sections can now be switched on and off\r\n    - Magic information now includes more than one entry if there's multiple concatenated files\r\n    - The Digram and Layered distribution graphs now perform a lot better\r\n    - There's now built-in yara rules that are being run on files to detect compilers, programming languages and more for executables\r\n- **Greatly improved the pattern editor**\r\n    - Thanks a lot to @paxcut \r\n    - This adds support for find and replace, better highlighting and many other smaller things\r\n- **Added Mini Map to the Hex Editor**\r\n    - This can be enabled by clicking on the map icon in the hex editor footer\r\n    - There's also config options when right clicking that icon\r\n- **Added `Edit -> Jump to -> Pattern` option to jump directly from hex editor highlights to patterns**\r\n    - Clicking on patterns in the pattern data view also jumps to their definition in the pattern editor now\r\n- **Added a font picker to the settings**\r\n- **Added option to highlight parent pattern regions in the hex editor when hovering over them**\r\n- Added support for searching for other string encodings and endianess. Thanks a lot to @PerikiyoXD \r\n- Added a pretty drag-n-drop overlay when dragging files onto ImHex\r\n- Added support for virtual file systems through the pattern language\r\n- Added option to keep ImHex always on top of other windows\r\n- Added option to use ImHex in fullscreen mode\r\n- Added support for switching to other providers through the command palette\r\n- Added a setting to always show all provider tabs, even if there's only one\r\n- Added option to export a selection to a file\r\n- Added a comments column to the pattern data view. It can be enabled by right clicking on the table header and selecting it there\r\n- Added option to turn off borderless window mode\r\n- Added option to export the results of the find view to a file\r\n- Added option to disable command palette button in header\r\n- Added a search bar to the file chooser popup\r\n- Added support for opening multiple files at once\r\n- Added support for macOS's Right click -> Open with option\r\n\r\n## Improvements\r\n- **ImHex now uses Atomic File I/O instead of mapping files into memory**\r\n    - This solves various issues where certain files couldn't be opened, files on network drives not working well and more\r\n- **macOS M1 build now only requires macOS 12.1 instead of 14.0 to run**\r\n- Bookmark moving now uses ImGui's native drag n drop feature\r\n- Syncing pattern language source code between providers should work better now\r\n- Custom encodings that don't have multi-byte values now display immediately when selected\r\n- The macOS build now uses a custom titlebar\r\n- ImHex windows are now being unfocused properly if the main window loses focus\r\n    - No more blinking cursors when ImHex is in the background!\r\n- Overwriting individual characters in the edit mode of the hex editor now works much better\r\n- Copy-Paste now works correctly in the Web version of ImHex. Thanks a lot to @exsilium \r\n- The find popup now remembers its content\r\n- The crash restore popup doesn't show anymore now if there's nothing to restore\r\n- Opening the same file multiple times is no longer possible now\r\n\r\n## Bug Fixes\r\n- **Fixed signing issues with macOS builds**\r\n- **Fixed CTRL + S not removing red highlights of bytes**\r\n- Fixed address bound checks in Edit -> Jump to option\r\n- Fixed menu bar collapsing into hamburger menu even if there's enough space\r\n- Fixed RGBA8 data processor node not setting output buffer correctly\r\n- Fixed provider information in information view always showing infos about the current provider instead of about the analyzed provider\r\n- Fixed issues when using certain window management tools on Windows\r\n- Fixed crashes when launching ImHex with file arguments\r\n- Fixed crash when trying to use too many hex editor rows\r\n- Fixed native theme detection of Linux. Thanks to @iTrooz \r\n- Fixed issues where workspaces are not correctly saved sometimes\r\n- Fixed issues where default magic database wasn't being bundled correctly\r\n- Fixed crashes when loading very old settings files\r\n- Fixed data inspector not updating correctly when the underlying data changed\r\n- Fixed a crash when specifying invalid hash parameters in the hashing view\r\n- Fixed additional folder paths not being loaded from the config file correctly\r\n- Fixed data inspector showing two negative signs sometimes\r\n- Fixed various issues with non-zero base addresses\r\n\r\n## Pattern Language\r\n- **Huge refactor of the Preprocessor, Lexer and Parser**\r\n    - Massive thanks to @jumanji144\r\n    - Compile errors are a lot more helpful now and include more context information\r\n- **Added support for `import` statements**\r\n    - Massive thanks to @jumanji144\r\n- **Added stacktrace to runtime errors**\r\n- Patterns can now be placed inside of custom sections from within other types\r\n- Pattern formatters now properly respect a patterns visibility\r\n    - This means hidden patterns don't end up in exported json, yaml or html files anymore\r\n- Fixed writing to big endian bitfield entries\r\n- Changing pattern setting now re-evaluates the code if auto evaluation is enabled\r\n\r\n<br/>\r\n\r\n<p align=\"center\">If you like my work, please consider supporting me on GitHub Sponsors, Patreon or PayPal. Thanks a lot!</p>\r\n<p align=\"center\">\r\n<a href=\"https://github.com/sponsors/WerWolv\"><img src=\"https://werwolv.net/assets/github_banner.png\" alt=\"GitHub donate button\" /> </a>\r\n<a href=\"https://www.patreon.com/werwolv\"><img src=\"https://c5.patreon.com/external/logo/become_a_patron_button.png\" alt=\"Patreon donate button\" /> </a>\r\n<a href=\"https://werwolv.net/donate\"><img src=\"https://werwolv.net/assets/paypal_banner.png\" alt=\"PayPal donate button\" /> </a>\r\n</p"
     },
@@ -6335,8 +6335,8 @@
     "https://github.com/audacity/audacity": {
         "created_at": "2023-11-16 11:58:21",
         "description": "Audio Editor                                     ",
-        "commit_message": "Merge pull request #6201 from Paul-Licameli/Commit-experimental-branches\n\nCommit experimental branches\r\n\r\nCleanup conditional compilation directives for all the EXPERIMENTAL flags\r\nthat have been turned on in releases.",
-        "commit_date": "2024-04-05 13:08:24",
+        "commit_message": "Merge pull request #6221 from Paul-Licameli/Module-subgraphs\n\nModule subgraphs\r\n\r\nReorganize the modules into several sub-folders, and change the generation\r\nof Graphviz output from configuration to make a tidier graph that puts boxes\r\naround sets of related modules, with the libraries used only in those modules.",
+        "commit_date": "2024-04-10 18:24:10",
         "release_date": "2023-11-16 15:10:06",
         "release_message": " This is a hotfix release. It fixes the following issues:\r\n\r\n * #5568 Fix a crash when opening projects with zero-length clips.\r\n * #5032 When exporting a file, the sample rate of the tracks is now considered, and last-used sample rate is remembered. \r\n * #5555 Copy-pasting now pastes into audio again by default.  This can be changed via Preferences -> Track Behavior -> Always paste audio as new clips.\r\n * #5549 Mix and render now also resets the gain for the resulting track.\r\n * #5571 Fix clips shifting to the right when effects are applied to them.\r\n * #5106 Fix clicks occurring when overdubbing a project with muted tracks.\r\n * #5533 Fix files being exported without a file extension in rare cases.\r\n * #5539 Show all sample rates possible for MP2 exports.\r\n * #5518 Fix pasting into labels.\r\n * #5543 Fix a crash when clearing loops.\r\n * #5529 Fix copying when \"select all audio if selection required\" is enabled.\r\n * #5598 #5552 Fix GTK detection and compilation for wxWidgets 3.2.4.\r\n * #5551 Fix Nyquist-related crashes.\r\n * #5604 Fix EQs in macros.\r\n * #5511 Fix a crash when closing Audacity.\r\n * #5476 Fix builds on armhf."
     },
@@ -23746,13 +23746,12 @@
         "release_message": "加入多线程和爬虫功能"
     },
     "https://github.com/bigblackhat/oFx": {
-        "created_at": "",
-        "description": "",
-        "commit_date": "2024-02-14 07:35:54",
+        "created_at": "2021-09-30 08:07:03",
+        "description": "漏洞批量验证框架",
         "commit_message": "Update README.md",
-        "release_tag": "",
-        "release_date": "",
-        "release_message": ""
+        "commit_date": "2024-02-14 07:35:54",
+        "release_date": "2021-10-02 15:53:28",
+        "release_message": "新增了十几二十个POC吧我并没有细数，更新细节可见于doc/coding.md文件，最近一直忙于项目，空余时间也用在学习JAVA，所以没有什么精力去思考oFx的后续前进方向，如果按照最初批量验证这一期望，那么我已经做到了，接下来只需要勤恳地填充POC即可，但随着POC的增多，我其实不是很满意现在oFx在单个目标漏扫上的表现（速度比较慢），也许我会将oFx单拎出来一个功能，也许是重开一个项目，就像我在每个POC里都有预留attack方法这个伏笔一样（在我看来oFx要实现批量漏洞利用需要一个统一的利用手段标准和痕迹匿名性，总之现在的构思和积累还不成熟，我从不满足于只做简单的漏洞验证），总之拭目以待吧，没有大的更新，我是不会数3的（此处致敬G胖）。"
     },
     "https://github.com/gh0stkey/Web-Fuzzing-Box": {
         "created_at": "",
@@ -24453,7 +24452,8 @@
         "description": "403 Forbidden"
     },
     "https://security.360.cn/": {
-        "title": "360SRC"
+        "status_code": 200,
+        "description": "360安全应急响应中心"
     },
     "https://security.58.com/": {
         "status_code": 200,
@@ -25424,8 +25424,8 @@
     "https://github.com/leondz/garak": {
         "created_at": "2024-02-20 14:23:06",
         "description": "LLM vulnerability scanner",
-        "commit_message": "@GustavFredrikson has signed the CLA in leondz/garak#588",
-        "commit_date": "2024-04-09 07:46:27",
+        "commit_message": "Bugfix/action dedupe (#598)\n\n* add test de-duping using skip-duplicate-actions\r\n\r\n* yaml syntax fix\r\n\r\n---------\r\n\r\nSigned-off-by: Leon Derczynski <leonderczynski@gmail.com>",
+        "commit_date": "2024-04-10 13:05:58",
         "release_date": "2024-02-20 16:12:40",
         "release_message": "## What's Changed\r\n\r\n### plugins\r\n* New encoding probes by @zmackie in https://github.com/leondz/garak/pull/459\r\n* OpenAI upgrade by @erickgalinkin in https://github.com/leondz/garak/pull/477\r\n* Low Resource Languages Buff by @erickgalinkin in https://github.com/leondz/garak/pull/478\r\n* Add Rasa generator by @rgstephens in https://github.com/leondz/garak/pull/453\r\n* Tree of Attacks by @erickgalinkin in https://github.com/leondz/garak/pull/446\r\n\r\n### functionality improvements\r\n* support multiple buffs by @leondz in https://github.com/leondz/garak/pull/497\r\n* wrap exception printing in repr by @leondz in https://github.com/leondz/garak/pull/425\r\n* add generators.function docs & examples by @leondz in https://github.com/leondz/garak/pull/437\r\n* update doc indices, add test to check them by @leondz in https://github.com/leondz/garak/pull/450\r\n* fix & unify REST generator timeout param names; set default request timeout to 20s by @leondz in https://github.com/leondz/garak/pull/451\r\n* add test to keep requirements in sync by @leondz in https://github.com/leondz/garak/pull/465\r\n* docs for buffs by @leondz in https://github.com/leondz/garak/pull/466\r\n* autosearch in the configs/ subdir for configs (no yaml extension should be given) by @leondz in https://github.com/leondz/garak/pull/467\r\n* Update function.py by @erickgalinkin in https://github.com/leondz/garak/pull/500\r\n* add warning when using a lite/default profile by @leondz in https://github.com/leondz/garak/pull/476\r\n* rename default output dir to garak_runs/; by @leondz in https://github.com/leondz/garak/pull/488\r\n* update openai model list by @leondz in https://github.com/leondz/garak/pull/494\r\n* make test_openai generation tests skip if no OAI API key set by @leondz in https://github.com/leondz/garak/pull/491\r\n\r\n### fixes\r\n* html report now uses correct basedir by @leondz in https://github.com/leondz/garak/pull/439\r\n* typos & clarifications in rest generator by @leondz in https://github.com/leondz/garak/pull/436\r\n* update manifest by @leondz in https://github.com/leondz/garak/pull/454\r\n* Avoid divide by zero error by @erickgalinkin in https://github.com/leondz/garak/pull/458\r\n* Fix/test pytest-8.0.0 order by @leondz in https://github.com/leondz/garak/pull/472\r\n* Check & enable Python 3.12 support by @leondz in https://github.com/leondz/garak/pull/475\r\n* move pathlib uses to _config.transient.basedir by @leondz in https://github.com/leondz/garak/pull/499\r\n* catch & handle HF hub exceptions loading dataset for package hallucination by @leondz in https://github.com/leondz/garak/pull/470\r\n\r\n\r\n## New Contributors\r\n* @zmackie made their first contribution in https://github.com/leondz/garak/pull/459\r\n* @rgstephens made their first contribution in https://github.com/leondz/garak/pull/453\r\n\r\n**Full Changelog**: https://github.com/leondz/garak/compare/v0.9.0.11...v0.9.0.12"
     },
@@ -25662,8 +25662,8 @@
     "https://github.com/future-architect/vuls": {
         "created_at": "2024-03-22 07:27:34",
         "description": "Agent-less vulnerability scanner for Linux, FreeBSD, Container, WordPress, Programming language libraries, Network devices",
-        "commit_message": "chore(deps): bump github.com/aws/aws-sdk-go from 1.49.21 to 1.51.5 (#1881)\n\nBumps [github.com/aws/aws-sdk-go](https://github.com/aws/aws-sdk-go) from 1.49.21 to 1.51.5.\r\n- [Release notes](https://github.com/aws/aws-sdk-go/releases)\r\n- [Commits](https://github.com/aws/aws-sdk-go/compare/v1.49.21...v1.51.5)\r\n\r\n---\r\nupdated-dependencies:\r\n- dependency-name: github.com/aws/aws-sdk-go\r\n  dependency-type: direct:production\r\n  update-type: version-update:semver-minor\r\n...\r\n\r\nSigned-off-by: dependabot[bot] <support@github.com>\r\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
-        "commit_date": "2024-03-22 07:27:34",
+        "commit_message": "chore(deps): bump golang.org/x/sync from 0.6.0 to 0.7.0 (#1890)\n\nBumps [golang.org/x/sync](https://github.com/golang/sync) from 0.6.0 to 0.7.0.\r\n- [Commits](https://github.com/golang/sync/compare/v0.6.0...v0.7.0)\r\n\r\n---\r\nupdated-dependencies:\r\n- dependency-name: golang.org/x/sync\r\n  dependency-type: direct:production\r\n  update-type: version-update:semver-minor\r\n...\r\n\r\nSigned-off-by: dependabot[bot] <support@github.com>\r\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
+        "commit_date": "2024-04-10 09:19:54",
         "release_date": "2024-03-22 07:59:36",
         "release_message": "This release includes one additional feature and some bug fixes.\r\nIf you use Amazon Linux 2023, you have to harry to update.\r\n\r\n## New feature\r\n* Some enterprise features of WPScan are now added to scan results.\r\n  - 50580f6 feat(wpscan): support enterprise feature (#1875)\r\n\r\n## (Potential) Incompatibilities\r\n* Names and Versions of JAR-like files of scan results can be overwritten at `vuls result` phase.\r\n  - These values after `vuls scan` phase may be incorrect or insufficient because Trivy's Java DB is not used at the phase.\r\n  - Correct them at `vuls report` phase with the help of Java DB.\r\n  - 99cf9db feat(detector/library): update JAR-like files' Name/Version in library list (#1874)\r\n\r\n## Bug fixes\r\n* Amazon Linux 2023 have changed its release version format in `/etc/amazon-linux-release`\r\n  - It causes inability of EOL detection at `vuls scan` phase and failure of vulnerability detection at `vuls report` phase.\r\n  - No vulnerabilities are detected unless this bug fix, please update quickly if you use Amazon Linux 2023.\r\n  - e1df74c fix(amazon): use major version for checking eol, security advisories (#1873)\r\n\r\n## Misc Changes\r\n* e25ec99 chore(deps): bump github.com/aws/aws-sdk-go from 1.49.21 to 1.51.5 (#1881)\r\n* 472df0e chore(deps): update dictionary modules (#1877)\r\n* 7d5a47b chore(deps): bump github.com/docker/docker (#1880)\r\n* 426eb53 chore(deps): bump github.com/jackc/pgx/v5 from 5.5.1 to 5.5.4 (#1872)\r\n* bda089b chore(deps): bump google.golang.org/protobuf from 1.32.0 to 1.33.0 (#1871)\r\n* 02d1f6f chore(deps): bump golang.org/x/oauth2 from 0.17.0 to 0.18.0 (#1868)\r\n\r\n## New Contributors\r\n* @future-ryunosuketanai made their first contribution in https://github.com/future-architect/vuls/pull/1875\r\n\r\n**Full Changelog**: https://github.com/future-architect/vuls/compare/v0.25.1...v0.25.2"
     },
@@ -27080,7 +27080,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "172.183.98.193属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "13.83.123.116属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
@@ -27091,8 +27091,8 @@
         "description": "微步在线X情报社区-威胁情报查询_威胁分析平台_开放社区"
     },
     "https://www.yougetsignal.com/tools/web-sites-on-web-server/": {
-        "status_code": 200,
-        "description": "Reverse IP Lookup - Find Other Web Sites Hosted on a Web Server"
+        "status_code": 502,
+        "description": "www.yougetsignal.com | 502: Bad gateway"
     },
     "https://reverseip.domaintools.com/": {
         "status_code": 200,
@@ -27271,8 +27271,8 @@
         "description": "Just a moment..."
     },
     "https://www.sqlsec.com/tools.html": {
-        "status_code": 522,
-        "description": "www.sqlsec.com | 522: Connection timed out"
+        "status_code": 200,
+        "description": "安全小公举 | 国光"
     },
     "https://patchchecker.com/": {
         "status_code": 200,
@@ -27329,5 +27329,15 @@
     "https://catbox.moe/": {
         "status_code": 200,
         "description": "Catbox"
+    },
+    "https://github.com/toyakula/luna": {
+        "created_at": "2017-12-22 03:00:21",
+        "description": "luna webscanner",
+        "commit_message": "Update README.md",
+        "commit_date": "2021-05-10 04:28:14"
+    },
+    "https://who.cx/": {
+        "status_code": 200,
+        "description": "WHO.CX - Whois查询"
     }
 }
