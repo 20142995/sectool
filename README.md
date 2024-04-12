@@ -1158,7 +1158,7 @@
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [reverseip_py](https://github.com/yuyudhn/reverseip_py) Domain Parser for IPAddress.com Reverse IP Lookup
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [iplookup v1.1](https://github.com/Lengso/iplookup) IP反查域名
 - <img src="https://favicon.qqsuu.cn/s.tool.chinaz.com" alt="" style="height: 20px;"> [网站IP查询_IP反查域名_同IP网站查询 - 站长工具](http://s.tool.chinaz.com/same) 
-- <img src="https://favicon.qqsuu.cn/dns.aizhan.com" alt="" style="height: 20px;"> [13.83.123.116属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网](https://dns.aizhan.com/) 
+- <img src="https://favicon.qqsuu.cn/dns.aizhan.com" alt="" style="height: 20px;"> [172.183.216.42属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网](https://dns.aizhan.com/) 
 - <img src="https://favicon.qqsuu.cn/dnslytics.com" alt="" style="height: 20px;"> [Just a moment...](https://dnslytics.com/reverse-ip) 
 - <img src="https://favicon.qqsuu.cn/hackertarget.com" alt="" style="height: 20px;"> [Reverse IP Lookup, Find Hosts Sharing an IP | HackerTarget.com](https://hackertarget.com/reverse-ip-lookup/) 
 - <img src="https://favicon.qqsuu.cn/rapiddns.io" alt="" style="height: 20px;"> [Subdomain - RapidDNS Rapid DNS Information Collection](https://rapiddns.io/sameip) 
@@ -1167,7 +1167,7 @@
 - <img src="https://favicon.qqsuu.cn/tools.ipip.net" alt="" style="height: 20px;"> [专业精准的IP库服务商_IPIP](https://tools.ipip.net/ipdomain.php) 
 - <img src="https://favicon.qqsuu.cn/viewdns.info" alt="" style="height: 20px;"> [Just a moment...](https://viewdns.info/reverseip/) 
 - <img src="https://favicon.qqsuu.cn/www.webscan.cc" alt="" style="height: 20px;"> [同IP网站查询,C段查询,IP反查域名,在线C段,旁站工具 - WebScan](https://www.webscan.cc/) 
-- <img src="https://favicon.qqsuu.cn/www.yougetsignal.com" alt="" style="height: 20px;"> [www.yougetsignal.com | 502: Bad gateway](https://www.yougetsignal.com/tools/web-sites-on-web-server/) 
+- <img src="https://favicon.qqsuu.cn/www.yougetsignal.com" alt="" style="height: 20px;"> [Reverse IP Lookup - Find Other Web Sites Hosted on a Web Server](https://www.yougetsignal.com/tools/web-sites-on-web-server/) 
 - <img src="https://favicon.qqsuu.cn/x.threatbook.com" alt="" style="height: 20px;"> [微步在线X情报社区-威胁情报查询_威胁分析平台_开放社区](https://x.threatbook.com/) 
 #### IP定位
 - <img src="https://favicon.qqsuu.cn/www.ipuu.net" alt="" style="height: 20px;"> [IPUU - IP地址查询|我的IP地址](https://www.ipuu.net/Home) 
@@ -1178,7 +1178,7 @@
 #### WHOIS查询
 - <img src="https://favicon.qqsuu.cn/whois.alexa.cn" alt="" style="height: 20px;"> [Whois域名注册信息查询](http://whois.alexa.cn/) 
 - <img src="https://favicon.qqsuu.cn/sg.godaddy.com" alt="" style="height: 20px;"> [Access Denied](https://sg.godaddy.com/zh/whois) 
-- <img src="https://favicon.qqsuu.cn/who.cx" alt="" style="height: 20px;"> [WHO.CX - Whois查询](https://who.cx/) 
+- <img src="https://favicon.qqsuu.cn/who.cx" alt="" style="height: 20px;"> [who.cx](https://who.cx/) 
 - <img src="https://favicon.qqsuu.cn/whois.aizhan.com" alt="" style="height: 20px;"> [站长工具_whois查询工具_爱站网](https://whois.aizhan.com/) 
 - <img src="https://favicon.qqsuu.cn/whois.aliyun.com" alt="" style="height: 20px;"> [whois查询_域名查询_域名交易_阿里云企航(原万网)-阿里云](https://whois.aliyun.com/) 
 - <img src="https://favicon.qqsuu.cn/whois.chinaz.com" alt="" style="height: 20px;"> [域名Whois查询 - 站长工具](https://whois.chinaz.com/) 
@@ -1297,9 +1297,9 @@
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [goWAPT](https://github.com/dzonerzy/goWAPT) Go Web Application Penetration Test
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [webdirdig](https://github.com/blackye/webdirdig) web敏感目录、信息泄漏批量扫描脚本，结合爬虫、目录深度遍历。
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [DirBrute](https://github.com/Xyntax/DirBrute) 多线程WEB目录爆破工具 [Multi-thread WEB directory blasting tool(with dics inside) ]
+- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [httpscan](https://github.com/zer0h/httpscan) 一个爬虫式的网段Web主机发现小工具 # A HTTP Service detector with a crawler from IP/CIDR
 - <img src="https://favicon.qqsuu.cn/pan.baidu.com" alt="" style="height: 20px;"> [release_免费高速下载|百度网盘-分享无限制](http://pan.baidu.com/s/1pLjaQKF) 
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [cangibrina](https://github.com/fnk0c/cangibrina) 
-- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [httpscan](https://github.com/zer0h/httpscan) 
 - <img src="https://favicon.qqsuu.cn/www.fujieace.com" alt="" style="height: 20px;"> [御剑后台扫描工具下载、安装、使用教程 - 付杰博客](https://www.fujieace.com/hacker/tools/yujian.html) 
 #### 端口扫描
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [AutoRecon](https://github.com/Tib3rius/AutoRecon) AutoRecon is a multi-threaded network reconnaissance tool which performs ...
@@ -1450,8 +1450,8 @@
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [OLa OLa__20220724](https://github.com/d3ckx1/OLa) 
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [sharpwmi v2](https://github.com/QAX-A-Team/sharpwmi) sharpwmi是一个基于rpc的横向移动工具，具有上传文件和执行命令功能。
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [PowerSploit v3.0.0](https://github.com/PowerShellMafia/PowerSploit) PowerSploit - A PowerShell Post-Exploitation Framework
+- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [PowerShell](https://github.com/clymb3r/PowerShell) Useful PowerShell scripts
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [VMInjector](https://github.com/hzphreak/VMInjector) DLL Injection tool to unlock guest VMs
-- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [PowerShell](https://github.com/clymb3r/PowerShell) 
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [mimikittenz](https://github.com/putterpanda/mimikittenz) 
 - <img src="https://favicon.qqsuu.cn/xz.aliyun.com" alt="" style="height: 20px;"> [xz.aliyun.com](https://xz.aliyun.com/t/9382) 
 #### 内网漏洞发现
@@ -1998,7 +1998,7 @@
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [Sharp-dumpkey 1](https://github.com/Ormicron/Sharp-dumpkey) 基于C#实现的获取微信数据库密钥的小工具
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [chatViewTool BEAT](https://github.com/Ormicron/chatViewTool) 基于Java实现的图形化微信聊天记录解密查看器
 ##### 浏览器取证
-- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [Pillager](https://github.com/qwqdanchun/Pillager) 
+- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [Pillager](https://github.com/qwqdanchun/Pillager) Pillager是一个适用于后渗透期间的信息收集工具
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [searchall search3.5.8](https://github.com/Naturehi666/searchall) 强大的敏感信息搜索工具
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [HackBrowserData v0.4.4](https://github.com/moonD4rk/HackBrowserData) Decrypt passwords/cookies/history/bookmarks from the browser...
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [hindsight v2023.03](https://github.com/obsidianforensics/hindsight) Web browser forensics for Google Chrome/Chromium
@@ -2266,7 +2266,7 @@
 - <img src="https://favicon.qqsuu.cn/sec.huazhu.com" alt="" style="height: 20px;"> [华住安全响应中心 | Huazhu Security Response Center](https://sec.huazhu.com/) 
 - <img src="https://favicon.qqsuu.cn/sec.ly.com" alt="" style="height: 20px;"> [首页 | 同程旅行安全应急响应中心](https://sec.ly.com/) 
 - <img src="https://favicon.qqsuu.cn/sec.meizu.com" alt="" style="height: 20px;"> [魅族安全中心](https://sec.meizu.com/) 
-- <img src="https://favicon.qqsuu.cn/sec.vip.com" alt="" style="height: 20px;"> [VSRC首页-唯品会信息安全中心](https://sec.vip.com/) 
+- <img src="https://favicon.qqsuu.cn/sec.vip.com" alt="" style="height: 20px;"> [sec.vip.com](https://sec.vip.com/) 
 - <img src="https://favicon.qqsuu.cn/sec.wacai.com" alt="" style="height: 20px;"> [挖财安全应急响应中心](https://sec.wacai.com/) 
 - <img src="https://favicon.qqsuu.cn/sec.wifi.com" alt="" style="height: 20px;"> [WIFI万能钥匙安全响应中心](https://sec.wifi.com/) 
 - <img src="https://favicon.qqsuu.cn/sec.xiaomi.com" alt="" style="height: 20px;"> [小米安全中心](https://sec.xiaomi.com/) 
@@ -2330,7 +2330,7 @@
 - <img src="https://favicon.qqsuu.cn/securitytcjf.com" alt="" style="height: 20px;"> [403 Forbidden](https://securitytcjf.com/) 
 - <img src="https://favicon.qqsuu.cn/sfsrc.sf-express.com" alt="" style="height: 20px;"> [顺丰安全应急响应中心](https://sfsrc.sf-express.com/) 
 - <img src="https://favicon.qqsuu.cn/src.100tal.com" alt="" style="height: 20px;"> [好未来安全应急响应中心](https://src.100tal.com/) 
-- <img src="https://favicon.qqsuu.cn/src.bestsign.cn" alt="" style="height: 20px;"> [上上签 - 安全应急响应中心](https://src.bestsign.cn/) 
+- <img src="https://favicon.qqsuu.cn/src.bestsign.cn" alt="" style="height: 20px;"> [非法请求 Error - KnowSafe 防火墙](https://src.bestsign.cn/) 
 - <img src="https://favicon.qqsuu.cn/src.ceair.com" alt="" style="height: 20px;"> [东航网络安全应急响应中心（MUSRC）](https://src.ceair.com/) 
 - <img src="https://favicon.qqsuu.cn/src.dmall.com" alt="" style="height: 20px;"> [首页 | 多点安全应急响应中心](https://src.dmall.com/) 
 - <img src="https://favicon.qqsuu.cn/src.hellobike.com" alt="" style="height: 20px;"> [首页 | 哈啰出行安全应急响应中心](https://src.hellobike.com/index.php) 
