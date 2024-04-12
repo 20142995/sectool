@@ -5641,12 +5641,12 @@
         "release_message": ""
     },
     "https://github.com/fatedier/frp": {
-        "created_at": "2024-03-21 09:41:43",
+        "created_at": "2024-04-09 03:46:58",
         "description": "A fast reverse proxy to help you expose a local server behind a NAT or firewall to the internet.",
-        "commit_message": "fix x-forwarded-for header (#4111)",
-        "commit_date": "2024-03-28 08:47:27",
-        "release_date": "2024-03-21 10:06:12",
-        "release_message": "### Features\n\n* Support range ports mapping in TOML/YAML/JSON configuration file by using go template syntax.\n\n  For example:\n\n  ```\n  {{- range $_, $v := parseNumberRangePair \"6000-6006,6007\" \"6000-6006,6007\" }}\n  [[proxies]]\n  name = \"tcp-{{ $v.First }}\"\n  type = \"tcp\"\n  localPort = {{ $v.First }}\n  remotePort = {{ $v.Second }}\n  {{- end }}\n  ```\n\n  This will create 8 proxies such as `tcp-6000, tcp-6001, ... tcp-6007`.\n\n* Health check supports custom request headers.\n* Enable compatibility mode for the Android system to solve the issues of incorrect log time caused by time zone problems and default DNS resolution failures.\n\n### Fixes\n\n* Fix the issue of incorrect interval time for rotating the log by day.\n* Disable quic-go's ECN support by default. It may cause issues on certain operating systems.\n\n"
+        "commit_message": "show tcpmux proxies on the frps dashboard (#4152)",
+        "commit_date": "2024-04-11 14:40:42",
+        "release_date": "2024-04-09 03:52:37",
+        "release_message": "### Features\n\n* `https2http` and `https2https` plugin now supports `X-Forwared-For` header.\n\n### Fixes\n\n* `X-Forwared-For` header is now correctly set in the request to the backend server for proxy type http.\n\n"
     },
     "https://github.com/gentilkiwi/mimikatz": {
         "created_at": "2014-04-06 18:30:02",
@@ -18788,8 +18788,8 @@
     "https://github.com/sajjadium/ctf-archives": {
         "created_at": "2021-06-10 16:53:52",
         "description": " CTF Archives: Collection of CTF Challenges.",
-        "commit_message": "RITSEC challs",
-        "commit_date": "2024-04-06 00:34:34"
+        "commit_message": "DamCTF challs",
+        "commit_date": "2024-04-07 23:58:19"
     },
     "https://github.com/KaLendsi/CVE-2022-21882": {
         "created_at": "2022-01-27 03:44:10",
@@ -22394,12 +22394,11 @@
         "release_message": "这是64位的，shellcode要求为64位"
     },
     "https://github.com/qwqdanchun/Pillager": {
-        "created_at": "",
-        "description": "",
-        "commit_date": "2024-02-12 04:29:40",
+        "created_at": "2024-02-12 04:29:40",
+        "description": "Pillager是一个适用于后渗透期间的信息收集工具",
         "commit_message": "update",
-        "release_tag": "",
-        "release_date": "",
+        "commit_date": "2024-02-12 04:29:40",
+        "release_date": "2024-02-12 04:30:57",
         "release_message": ""
     },
     "https://github.com/veo/vagent": {
@@ -24424,8 +24423,8 @@
         "description": "魅族安全中心"
     },
     "https://sec.vip.com/": {
-        "status_code": 200,
-        "description": "VSRC首页-唯品会信息安全中心"
+        "status_code": 503,
+        "description": ""
     },
     "https://sec.wacai.com/": {
         "status_code": 200,
@@ -24679,8 +24678,8 @@
         "description": "好未来安全应急响应中心"
     },
     "https://src.bestsign.cn/": {
-        "status_code": 200,
-        "description": "上上签 - 安全应急响应中心"
+        "status_code": 429,
+        "description": "非法请求 Error - KnowSafe 防火墙"
     },
     "https://src.ceair.com/": {
         "status_code": 200,
@@ -25586,8 +25585,8 @@
     "https://github.com/AabyssZG/SpringBoot-Scan": {
         "created_at": "2024-01-29 06:54:21",
         "description": "针对SpringBoot的开源渗透框架，以及Spring相关高危漏洞利用工具",
-        "commit_message": "Update run.py",
-        "commit_date": "2024-03-18 06:28:51",
+        "commit_message": "Update springcheck.py",
+        "commit_date": "2024-04-09 11:28:47",
         "release_date": "2024-01-29 08:18:28",
         "release_message": "# 概述\r\n\r\n```\r\n██╗  ██╗ █████╗ ██████╗ ██████╗ ██╗   ██╗    ███╗   ██╗███████╗██╗    ██╗██╗   ██╗███████╗ █████╗ ██████╗ \r\n██║  ██║██╔══██╗██╔══██╗██╔══██╗╚██╗ ██╔╝    ████╗  ██║██╔════╝██║    ██║╚██╗ ██╔╝██╔════╝██╔══██╗██╔══██╗\r\n███████║███████║██████╔╝██████╔╝ ╚████╔╝     ██╔██╗ ██║█████╗  ██║ █╗ ██║ ╚████╔╝ █████╗  ███████║██████╔╝\r\n██╔══██║██╔══██║██╔═══╝ ██╔═══╝   ╚██╔╝      ██║╚██╗██║██╔══╝  ██║███╗██║  ╚██╔╝  ██╔══╝  ██╔══██║██╔══██╗\r\n██║  ██║██║  ██║██║     ██║        ██║       ██║ ╚████║███████╗╚███╔███╔╝   ██║   ███████╗██║  ██║██║  ██║\r\n╚═╝  ╚═╝╚═╝  ╚═╝╚═╝     ╚═╝        ╚═╝       ╚═╝  ╚═══╝╚══════╝ ╚══╝╚══╝    ╚═╝   ╚══════╝╚═╝  ╚═╝╚═╝  ╚═╝\r\n                         [+] SpringBoot-Scan V2.51-2024年 龙年新春贺岁版\r\n```\r\n\r\n光阴如梭，又是一年新春佳节，历经两百次的迭代更新，`SpringBoot-Scan` 在多场实战考验中战功赫赫，收获了1K多的Star~\r\n元旦更新了 `V2.40版本-龙年元旦贺岁版` ，年关将至，我们又更新了 `V2.51版本-龙年新春贺岁版`，对批量信息泄露扫描进行并发处理。感谢一路走来各位师傅给我的反馈和支持，祝各位师傅在新的一年事业有成、马到成功！\r\n\r\n```\r\n工具用法如下：\r\n        对单一URL进行信息泄露扫描:         python3 SpringBoot-Scan.py -u http://example.com/\r\n        读取目标TXT进行批量信息泄露扫描:    python3 SpringBoot-Scan.py -uf url.txt\r\n        对单一URL进行漏洞扫描:             python3 SpringBoot-Scan.py -v http://example.com/\r\n        读取目标TXT进行批量漏洞扫描：      python3 SpringBoot-Scan.py -vf url.txt\r\n        扫描并下载SpringBoot敏感文件:      python3 SpringBoot-Scan.py -d http://example.com/\r\n        使用HTTP代理并自动进行连通性测试:    python3 SpringBoot-Scan.py -p <代理IP:端口>\r\n        从TXT文件中导入自定义HTTP头部:       python3 SpringBoot-Scan.py -t header.txt\r\n        通过ZoomEye密钥进行API下载数据:      python3 SpringBoot-Scan.py -z <ZoomEye的API-KEY>\r\n        通过Fofa密钥进行API下载数据:         python3 SpringBoot-Scan.py -f <Fofa的API-KEY>\r\n        通过Hunter密钥进行API下载数据:       python3 SpringBoot-Scan.py -y <Hunter的API-KEY>\r\n```\r\n\r\n# 更新日志\r\n\r\n- **感谢 [`@Fkalis`](https://github.com/FFR66) 师傅，对批量信息泄露扫描进行并发处理，提高 `-uf` 参数的扫描速度**\r\n- **优化了相关的工作流，对部分冗余的代码进行优化**\r\n- **优化了输出提示，对部分内容的输出结果进行优化**\r\n- **V2.51版本-龙年新春贺岁版专门进行了打包，可以直接用可执行文件进行操作啦~**"
     },
@@ -26371,8 +26370,8 @@
     "https://github.com/AYcg/poc": {
         "created_at": "2023-11-16 03:41:45",
         "description": null,
-        "commit_message": "Delete minio后台登录poc",
-        "commit_date": "2024-03-31 15:58:32"
+        "commit_message": "D-Link-rce-CVE-2024-3273.yaml",
+        "commit_date": "2024-04-09 02:22:37"
     },
     "https://github.com/m0nad/HellRaiser": {
         "created_at": "2016-06-20 04:51:00",
@@ -27080,7 +27079,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "13.83.123.116属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "172.183.216.42属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
@@ -27091,8 +27090,8 @@
         "description": "微步在线X情报社区-威胁情报查询_威胁分析平台_开放社区"
     },
     "https://www.yougetsignal.com/tools/web-sites-on-web-server/": {
-        "status_code": 502,
-        "description": "www.yougetsignal.com | 502: Bad gateway"
+        "status_code": 200,
+        "description": "Reverse IP Lookup - Find Other Web Sites Hosted on a Web Server"
     },
     "https://reverseip.domaintools.com/": {
         "status_code": 200,
@@ -27338,6 +27337,18 @@
     },
     "https://who.cx/": {
         "status_code": 200,
-        "description": "WHO.CX - Whois查询"
+        "description": ""
+    },
+    "https://github.com/zer0h/httpscan": {
+        "created_at": "2016-03-29 11:03:21",
+        "description": "一个爬虫式的网段Web主机发现小工具 # A HTTP Service detector with a crawler from IP/CIDR",
+        "commit_message": "remove redundant log",
+        "commit_date": "2016-04-05 02:39:25"
+    },
+    "https://github.com/clymb3r/PowerShell": {
+        "created_at": "2013-03-29 06:18:58",
+        "description": "Useful PowerShell scripts",
+        "commit_message": "Deprecating this project, use versions integrated with PowerSploit\n\nDeprecating this project, use versions integrated with PowerSploit",
+        "commit_date": "2015-10-01 04:36:47"
     }
 }
