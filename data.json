@@ -3153,12 +3153,12 @@
         "release_message": ""
     },
     "https://github.com/joke2k/faker": {
-        "created_at": "2024-03-25 18:44:04",
+        "created_at": "2024-04-12 14:54:19",
         "description": "Faker is a Python package that generates fake data for you.",
-        "commit_message": "Code Completion: Adding stub generator utility (and generated stub) (#1939)\n\n* Adding stub generator utility and generated stub.\r\n\r\n* Removing attributes from stub file and adding generate-stub recipe in Makefile\r\n\r\n* Making generate-stubs recipe a prereq to lint instead of release. Also adding ``make lint`` to the Contributing guide.\r\n\r\n---------\r\n\r\nCo-authored-by: Flavio Curella <89607+fcurella@users.noreply.github.com>",
-        "commit_date": "2024-03-27 15:37:02",
-        "release_date": "2024-03-25 19:00:14",
-        "release_message": "See [CHANGELOG.md](https://github.com/joke2k/faker/blob/refs/tags/v24.4.0/CHANGELOG.md)."
+        "commit_message": "Bump version: 24.8.0 → 24.9.0",
+        "commit_date": "2024-04-12 14:54:19",
+        "release_date": "2024-04-12 15:01:15",
+        "release_message": "See [CHANGELOG.md](https://github.com/joke2k/faker/blob/refs/tags/v24.9.0/CHANGELOG.md)."
     },
     "https://github.com/NHPT/Xray_Cracked": {
         "created_at": "2022-08-10 13:51:19",
@@ -22740,8 +22740,8 @@
     "https://github.com/shufflewzc/faker3": {
         "created_at": "2022-01-31 21:21:40",
         "description": null,
-        "commit_message": "Update sendJDNotify.js",
-        "commit_date": "2024-04-07 10:49:51"
+        "commit_message": "Update jd_dwapp.js",
+        "commit_date": "2024-04-12 04:15:01"
     },
     "https://github.com/harlamism/IdaClu": {
         "created_at": "",
@@ -23220,7 +23220,7 @@
         "created_at": "2023-07-25 06:13:25",
         "description": "主要记录网络安全学习笔记，包含WEB基础、提权、APP渗透、内网横向移动、工具学习等",
         "commit_message": "Update README.md",
-        "commit_date": "2024-01-24 07:24:05"
+        "commit_date": "2024-04-11 09:54:57"
     },
     "https://github.com/gyxuehu/EwoMail": {
         "created_at": "2017-03-23 16:09:51",
@@ -23626,13 +23626,12 @@
         "release_message": "## Bug Fixes\r\n-----\r\n* Fixed issue with the `--outpath` and the sha256 \r\n"
     },
     "https://github.com/pry0cc/axiom": {
-        "created_at": "",
-        "description": "",
-        "commit_date": "2024-01-23 23:28:30",
-        "commit_message": "Update gau.json (#778)",
-        "release_tag": "",
-        "release_date": "",
-        "release_message": ""
+        "created_at": "2021-02-12 12:23:04",
+        "description": "The dynamic infrastructure framework for everybody! Distribute the workload of many different scanning tools with ease, including nmap, ffuf, masscan, nuclei, meg and many more!",
+        "commit_message": "Update classic.json",
+        "commit_date": "2024-03-19 05:01:25",
+        "release_date": "2021-02-12 12:26:40",
+        "release_message": "This release has shown several improvements including:\r\n- SSH socket reusing - thanks 0xtavian!!\r\n- Increase of default file descriptors\r\n- Axiom-configure support for Kali\r\n- Custom wordlist support for axiom-scan using -wL\r\n- Updates of packages such as Rustscan\r\n- Linode Support\r\n- More quality of life features for those not using DigitalOcean - more cloud support and easier dynamic setup\r\n"
     },
     "https://github.com/find-sec-bugs/find-sec-bugs/wiki/IntelliJ-Tutorial": {
         "created_at": "",
@@ -24423,8 +24422,8 @@
         "description": "魅族安全中心"
     },
     "https://sec.vip.com/": {
-        "status_code": 503,
-        "description": ""
+        "status_code": 200,
+        "description": "VSRC首页-唯品会信息安全中心"
     },
     "https://sec.wacai.com/": {
         "status_code": 200,
@@ -24678,8 +24677,8 @@
         "description": "好未来安全应急响应中心"
     },
     "https://src.bestsign.cn/": {
-        "status_code": 429,
-        "description": "非法请求 Error - KnowSafe 防火墙"
+        "status_code": 200,
+        "description": "上上签 - 安全应急响应中心"
     },
     "https://src.ceair.com/": {
         "status_code": 200,
@@ -27079,7 +27078,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "172.183.216.42属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "20.42.106.67属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
@@ -27350,5 +27349,45 @@
         "description": "Useful PowerShell scripts",
         "commit_message": "Deprecating this project, use versions integrated with PowerSploit\n\nDeprecating this project, use versions integrated with PowerSploit",
         "commit_date": "2015-10-01 04:36:47"
+    },
+    "https://github.com/lcatro/network_backdoor_scanner": {
+        "created_at": "2015-06-25 11:24:02",
+        "description": "This is a backdoor about discover network device ,and it can hidden reverse connecting the hacker's server with encrypt commuication 后渗透后门程序,适合在已经攻陷的内网中做下一步的网络信息扫描..",
+        "commit_message": "v 1.2",
+        "commit_date": "2015-08-29 07:34:39"
+    },
+    "https://github.com/shengqi158/svnhack": {
+        "created_at": "2015-06-12 10:37:04",
+        "description": "用于还原svn仓库，支持1.6，1.7",
+        "commit_message": "add exception when proxyerror",
+        "commit_date": "2016-06-03 08:26:10"
+    },
+    "https://github.com/brianwrf/hackUtils": {
+        "created_at": "2015-07-02 08:58:01",
+        "description": "It is a hack tool kit for pentest and web security research.",
+        "commit_message": "Verification page for rceApacheShiro",
+        "commit_date": "2016-09-06 07:08:56"
+    },
+    "https://github.com/OWASP/joomscan": {
+        "created_at": "2018-09-24 16:39:41",
+        "description": "OWASP Joomla Vulnerability Scanner Project https://www.secologist.com/",
+        "commit_message": "Update README.md",
+        "commit_date": "2023-11-30 07:32:25",
+        "release_date": "2018-09-24 16:44:52",
+        "release_message": "OWASP JoomScan 0.0.7\r\n"
+    },
+    "https://github.com/jetmore/swaks": {
+        "created_at": "2024-01-03 21:57:02",
+        "description": "Swaks - Swiss Army Knife for SMTP",
+        "commit_message": "Merge pull request #95 from jetmore/94-support-login-initial-response\n\nimplement LOGIN-INITIAL auth type #94",
+        "commit_date": "2024-02-10 22:05:33",
+        "release_date": "2024-01-03 22:00:39",
+        "release_message": "**New Features**:\r\n    * Added --cc and --bcc options\r\n    * Numerous TLS debugging and verification improvements\r\n      * Debug output contains whether a client cert was requested and whether\r\n        one was sent\r\n      * Add new options --tls-verify-ca and --tls-verify-host to differentiate\r\n        between types of certificate verification (--tls-verify does both)\r\n      * Add --tls-target option to allow setting of hostname to be used in\r\n        hostname verification.  This is useful in some inet debugging situations\r\n        and required to do hostname verification with --socket or --pipe\r\n      * Add --tls-chain (#60, initial implementation by Wolfgang Karall-Ahlborn)\r\n      * Add --tls-get-peer-chain option (analogous to --tls-get-peer-cert, #73)\r\n      * Certificate debug now includes all client and peer certs, it a chain\r\n        was used (#73)\r\n      * Certificate debug now includes notAfter, commonName, and subjectAltName\r\n\r\n**Notable Changes**:\r\n    * --output-file, --output-file-stderr, and --output-file-stdout now truncate\r\n      the specified file if it already exists\r\n    * Documentation improvements\r\n    * Extensive test harness improvements\r\n    * Add new stop-point XCLIENT-HELO to address lack of specificity when\r\n      mixing XCLIENT usage with the HELO stop-point\r\n    * Add new stop-point PROXY\r\n    * Use IO::Socket::IP by default.  Will still use IO::Socket::INET/INET6\r\n      to cover transition, but this is deprecated and will be removed in the\r\n      future (#43)\r\n    * TLS session debug information is now printed even if we decide not to\r\n      continue the session (eg for failed verification)\r\n    * Previously-deprecated functionality to allow some options to be either\r\n      a filename or a literal string has been removed.  Using the '@' sigil is\r\n      now the only was to specify file contents\r\n    * Previously-deprecated -g option removed\r\n\r\n**Notable Bugs Fixed**:\r\n    * TLS certificate verification did not always work.  It should now\r\n"
+    },
+    "https://github.com/jimywork/djangohunter": {
+        "created_at": "2018-11-07 18:18:03",
+        "description": "Tool designed to help identify incorrectly configured Django applications that are exposing sensitive information.",
+        "commit_message": "Merge pull request #5 from marataziat/patch-1\n\npip install -r requirements.txt !",
+        "commit_date": "2019-01-01 18:11:00"
     }
 }
