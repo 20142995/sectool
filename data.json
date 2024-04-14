@@ -5617,8 +5617,8 @@
     "https://github.com/fortra/impacket": {
         "created_at": "2023-07-31 15:08:03",
         "description": "Impacket is a collection of Python classes for working with network protocols.",
-        "commit_message": "fixed computing lmhash for non standard characters (#1723)\n\n* fixed computing lmhash for non standard characters\r\n\r\n* use blank lm hash instead of a random value",
-        "commit_date": "2024-03-27 21:15:47",
+        "commit_message": "When ntlmrelayx's SOCKS5 proxy server receives an SMB2 Neg Protocol request, respond with the same MessageID as the client used instead of a static value of 1. (#1659)",
+        "commit_date": "2024-04-11 17:27:06",
         "release_date": "2023-08-03 17:36:40",
         "release_message": "## Impacket 0.11.0:\r\nProject's main page at https://www.coresecurity.com/core-labs/open-source-tools/impacket\r\n\r\nChangeLog for 0.11.0:\r\n1. Library improvements \r\n    * Added new Kerberos error codes (@ly4k).\r\n\t* Added `[MS-TSTS]` Terminal Services Terminal Server Runtime Interface Protocol implementation (@nopernik).\r\n    * Changed the setting up for new SSL connections (@mpgn, @CT-H00K and @0xdeaddood).\r\n    * Added a callback function to smbserver for incoming authentications (@p0dalirius).\r\n    * Fix crash in winregistry (@laxa)\r\n    * Fixes in IDispatch derived classes in comev implementation (@NtAlexio2)\r\n    * Fix CVE-2020-17049 in ccache.py (@godylockz)\r\n    * Smbserver: Added SMB2_FILE_ALLOCATION_INFO type determination (@JerAxxxxxxx)\r\n    * tds: Fixed python3 incompatibility when receiving over TLS socket (@exploide)\r\n    * crypto: Ensure passwords are utf-8 encoded before deriving Kerberos keys (@jojonas)\r\n    * ese: Fixed python3 incompatibility when reading from db (@alexisbalbachan)\r\n    * ldap queries: Escaped characters are now correctly parsed (@alexisbalbachan)\r\n    * Support SASL authentication in ldap protocol (@NtAlexio2)\r\n\r\n2. Examples improvements\r\n    * [GetADUsers.py](examples/GetADUsers.py), [GetNPUsers.py](examples/GetNPUsers.py), [GetUserSPNs.py](examples/GetUserSPNs.py) and [findDelegation.py](examples/findDelegation.py):\r\n      * Added dc-host option to connect to specific KDC using its FQDN or NetBIOS name (@rmaksimov and @0xdeaddood).\r\n    * [GetNPUsers.py](examples/GetNPUsers.py)\r\n      * Printing TGT in stdout despite -outputfile parameter (@alexisbalbachan and @Zamanry)\r\n      * Fixed output hash format for AES128/256 (etype 17/18) (@erasmusc)\r\n    * [GetUserSPNs.py](examples/GetUserSPNs.py):\r\n      * Added LDAP paged search (@ThePirateWhoSmellsOfSunflowers and @SAERXCIT).\r\n      * Added a -stealth flag to remove the SPN filter from the LDAP query (@clavoillotte).\r\n      * Improved searchFilter (@ShutdownRepo)\r\n      * Use LDAP paged search (@ThePirateWhoSmellsOfSunflowers)\r\n    * [psexec.py](examples/psexec.py):\r\n      * Added support for name customization using a custom binary file (@Dramelac).\r\n    * [smbexec.py](examples/smbexec.py):\r\n      * Security fixes for privilege escalation vulnerabilities (@bugch3ck).\r\n      * Fixed python3 compatibility issues, added workaround TCP over NetBIOS being disabled (@ljrk0)\r\n    * [secretsdump.py](examples/secretsdump.py):\r\n      * Added a new option to extract only NTDS.DIT data for specific users based on an LDAP filter (@snovvcrash).\r\n      * Security fixes for privilege escalation vulnerabilities (@bugch3ck).  \r\n    * [mssqlclient.py](examples/mssqlclient.py):\r\n      * Added multiple new commands. Now supports xp_dirtree execution (@Mayfly277, @trietend and @TurtleARM).\r\n    * [ntlmrelayx.py](examples/ntlmrelayx.py):\r\n      * Added ability to trigger SQLShell when running ntlmrelayx in interactive mode (@sploutchy).\r\n      * Added filter option to the socks command in ntlmrelayx CLI (@shoxxdj)\r\n      * Added ability to register DNS records through LDAP.\r\n    * [addcomputer.py](examples/addcomputer.py), [rbcd.py](examples/rbcd.py):\r\n      * Allow weak TLS ciphers for LDAP connections (@AdrianVollmer)\r\n    * [Get-GPPPassword.py](examples/Get-GPPPassword.py):\r\n      * Better handling of various XML files in Group Policy Preferences (@p0dalirius)\r\n    * [smbclient.py](examples/smbclient.py):\r\n      * Added recursive file listing (@Sq00ky)\r\n    * [ticketer.py](examples/ticketer.py):\r\n      * Ticket duration is now specified in hours instead of days (@Dramelac)\r\n      * Added extra-pac implementation (@Dramelac)\r\n\r\n3. New examples\r\n    * [net.py](examples/net.py) Implementation of windows net.exe builtin tool (@NtAlexio2)\r\n    * [changepasswd.py](examples/changepasswd.py) New example that allows password changing or reseting through multiple protocols (@Alef-Burzmali, @snovvcrash, @bransh, @api0cradle and @p0dalirius)\r\n    * [DumpNTLMInfo.py](examples/DumpNTLMInfo.py) New example that dumps remote host information in ntlm authentication model, without credentials. For SMB protocols v1, v2 and v3. (@NtAlexio2)\r\n    \r\nAs always, thanks a lot to all these contributors that make this library better every day (up to now):\r\n\r\n@ly4k @nopernik @snovvcrash @ShutdownRepo @kiwids0220 @mpgn @CT-H00K @rmaksimov @arossert @aevy-syn @tirkarthi @p0dalirius @Dramelac @Mayfly277 @S3cur3Th1sSh1t @nobbd @AdrianVollmer @trietend @TurtleARM @ThePirateWhoSmellsOfSunflowers @SAERXCIT @clavoillotte @Marshall-Hallenbeck @sploutchy @almandin @rtpt-alexanderneumann @JerAxxxxxxx @NtAlexio2 @laxa @godylockz @exploide @jojonas @Zamanry @erasmusc @bugch3ck @ljrk0 @Sq00ky @shoxxdj @Alef-Burzmali @bransh @api0cradle @alexisbalbachan @0xdeaddood @sanmopre\r\n"
     },
@@ -7733,12 +7733,12 @@
         "release_message": ""
     },
     "https://github.com/yaklang/yakit": {
-        "created_at": "2024-03-29 09:56:15",
+        "created_at": "2024-04-12 08:14:18",
         "description": "Cyber Security ALL-IN-ONE Platform",
-        "commit_message": "Merge pull request #1552 from yaklang/luoluo/feature/new-mod-brute\n\nLuoluo/feature/new mod brute",
-        "commit_date": "2024-04-03 02:51:59",
-        "release_date": "2024-03-29 10:45:39",
-        "release_message": "Yakit v1.3.1-sp6\r\n1. 专项漏洞增加按关键字选取插件扫描\r\n2. 替换数据包扫描旧UI\r\n3. history增加URL搜索\r\n4. 复制为CSRF增加参数“强制https”\r\n5. 插件日志上线新UI\r\n6. 修复启动引擎时会启动多个引擎的bug\r\n7. 替换下拉组件，迁移下拉缓存数据\r\n8. 修复一些样式问题\r\n9. 修复键盘按键失灵问题"
+        "commit_message": "v1.3.2",
+        "commit_date": "2024-04-12 08:14:18",
+        "release_date": "2024-04-12 08:40:59",
+        "release_message": ""
     },
     "https://github.com/bartblaze/Yara-rules": {
         "created_at": "2020-03-26 20:20:29",
@@ -12304,13 +12304,10 @@
         "release_message": ""
     },
     "https://github.com/zoujingli/ThinkAdmin": {
-        "created_at": "",
-        "description": "",
-        "commit_date": "2024-01-29 13:34:47",
-        "commit_message": "同步更新代码",
-        "release_tag": "",
-        "release_date": "",
-        "release_message": ""
+        "created_at": "2017-02-13 07:00:14",
+        "description": "基于 ThinkPHP6 的极简后台管理系统，内置注解权限、异步多任务、应用插件生态等，支持类 PaaS 更新公共模块和应用插件，插件可本地化定制开发。",
+        "commit_message": "更新后台样式库",
+        "commit_date": "2024-04-13 02:23:54"
     },
     "https://github.com/mubix/netview": {
         "created_at": "2012-08-31 01:27:02",
@@ -18788,8 +18785,8 @@
     "https://github.com/sajjadium/ctf-archives": {
         "created_at": "2021-06-10 16:53:52",
         "description": " CTF Archives: Collection of CTF Challenges.",
-        "commit_message": "DamCTF challs",
-        "commit_date": "2024-04-07 23:58:19"
+        "commit_message": "b01lers challs",
+        "commit_date": "2024-04-13 20:04:44"
     },
     "https://github.com/KaLendsi/CVE-2022-21882": {
         "created_at": "2022-01-27 03:44:10",
@@ -22394,12 +22391,8 @@
         "release_message": "这是64位的，shellcode要求为64位"
     },
     "https://github.com/qwqdanchun/Pillager": {
-        "created_at": "2024-02-12 04:29:40",
-        "description": "Pillager是一个适用于后渗透期间的信息收集工具",
-        "commit_message": "update",
-        "commit_date": "2024-02-12 04:29:40",
-        "release_date": "2024-02-12 04:30:57",
-        "release_message": ""
+        "created_at": "2023-04-23 23:07:50",
+        "description": "Pillager是一个适用于后渗透期间的信息收集工具"
     },
     "https://github.com/veo/vagent": {
         "created_at": "2023-05-11 03:08:53",
@@ -22628,13 +22621,12 @@
         "commit_date": "2024-01-17 00:16:06"
     },
     "https://github.com/yisier/nps": {
-        "created_at": "",
-        "description": "",
-        "commit_date": "2024-01-31 15:00:34",
-        "commit_message": "version",
-        "release_tag": "",
-        "release_date": "",
-        "release_message": ""
+        "created_at": "2024-02-27 08:57:47",
+        "description": "在 0.26.10 版本的基础上修改而来的 ",
+        "commit_message": "Update README.md",
+        "commit_date": "2024-03-18 05:50:02",
+        "release_date": "2024-02-27 09:06:01",
+        "release_message": "  ***新增***：nps.conf 新增 `tls_bridge_port=8025` 参数，当 `tls_enable=true` 时，nps 会监听8025端口，作为 tls 的连接端口。  \r\n客户端可以选择连接 tls 端口或者非 tls 端口： `npc.exe  -server=xxx:8024 -vkey=xxx` 或 `npc.exe  -server=xxx:8025 -vkey=xxx -tls_enable=true`\r\n  "
     },
     "https://github.com/hoto/jenkins-credentials-decryptor": {
         "created_at": "2019-04-30 16:12:21",
@@ -23301,12 +23293,12 @@
         "release_message": "Bug fixes (#40/#41)\r\nUpdated nvidia docker config/images and flask-login"
     },
     "https://github.com/sulab999/AppMessenger": {
-        "created_at": "2024-01-26 10:16:08",
+        "created_at": "2024-02-23 04:20:27",
         "description": "一款适用于以APP病毒分析、APP漏洞挖掘、APP开发、HW行动/红队/渗透测试团队为场景的移动端(Android、iOS)辅助分析工具",
         "commit_message": "Update version",
-        "commit_date": "2024-02-23 04:20:27",
-        "release_date": "2024-02-23 04:16:26",
-        "release_message": "1、新增漏洞详情信息\r\n2、新增图标保存功能\r\n3、优化拖拽卡死bug\r\n4、优化文件大小信息显示\r\n5、优化漏洞检测规则，减少误报"
+        "commit_date": "2024-04-01 03:27:36",
+        "release_date": "2024-04-01 03:23:59",
+        "release_message": "1、新增权限信息100+\r\n2、修复一处解析错误"
     },
     "https://github.com/pandasec888/taowu-cobalt_strike": {
         "created_at": "2020-07-05 10:13:00",
@@ -26201,8 +26193,8 @@
     "https://github.com/AabyssZG/WebShell-Bypass-Guide": {
         "created_at": "2023-11-02 14:29:48",
         "description": "从零学习Webshell免杀手册",
-        "commit_message": "Update PHP-Webshell-ByPass-Guide.md",
-        "commit_date": "2024-02-21 03:32:54",
+        "commit_message": "Update README.md",
+        "commit_date": "2024-04-01 11:20:05",
         "release_date": "2023-11-02 14:37:42",
         "release_message": "# 更新日志\r\n\r\n- 更新主页面和所有手册的更新进度\r\n\r\n# 关于手册\r\n\r\n- 感谢各位师傅和推友的关注和支持，将本手册开源出来\r\n- 这是一系列能让你从零开始学习WebShell免杀的手册，同时我会在内部群迭代更新\r\n\r\nPHP从零学习到WebShell免杀手册在线阅读地址： [https://blog.zgsec.cn/archives/197.html](https://blog.zgsec.cn/archives/197.html)\r\n\r\n**如果师傅们觉得不错，欢迎给我点个Star哈哈~ 有什么新的WebShell免杀姿势、手法，欢迎与我交流哈哈**"
     },
@@ -27078,7 +27070,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "20.42.106.67属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "13.83.123.114属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
@@ -27336,7 +27328,7 @@
     },
     "https://who.cx/": {
         "status_code": 200,
-        "description": ""
+        "description": "WHO.CX - Whois查询"
     },
     "https://github.com/zer0h/httpscan": {
         "created_at": "2016-03-29 11:03:21",
@@ -27389,5 +27381,17 @@
         "description": "Tool designed to help identify incorrectly configured Django applications that are exposing sensitive information.",
         "commit_message": "Merge pull request #5 from marataziat/patch-1\n\npip install -r requirements.txt !",
         "commit_date": "2019-01-01 18:11:00"
+    },
+    "https://github.com/n0tr00t/Beebeeto-framework": {
+        "created_at": "2014-09-19 16:58:41",
+        "description": "Beebeeto FrameWork",
+        "commit_message": "fix chinese info output",
+        "commit_date": "2015-07-27 07:03:42"
+    },
+    "https://github.com/CHYbeta/cmsPoc": {
+        "created_at": "2017-08-04 02:04:57",
+        "description": "CMS渗透测试框架-A CMS Exploit Framework",
+        "commit_message": "Update README.md",
+        "commit_date": "2018-03-02 06:40:00"
     }
 }
