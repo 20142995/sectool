@@ -3461,13 +3461,12 @@
         "release_message": "- 2022-06-23\r\n    - KunLun-M 2.6.5\r\n    - 更新了社区化的部署方案，支持使用公开的Server端查看扫描结果，为后续延展提供基础\r\n    - 更新了潮汐平台链接，可以使用潮汐平台快速部署体验"
     },
     "https://github.com/projectdiscovery/naabu": {
-        "created_at": "",
-        "description": "",
-        "commit_date": "2024-01-20 15:44:07",
-        "commit_message": "Merge branch 'dev'",
-        "release_tag": "",
-        "release_date": "",
-        "release_message": ""
+        "created_at": "2024-03-12 16:16:52",
+        "description": "A fast port scanner written in go with a focus on reliability and simplicity. Designed to be used in combination with other tools for attack surface discovery in bug bounties and pentests",
+        "commit_message": "Merge pull request #1021 from projectdiscovery/dependabot/go_modules/v2/github.com/quic-go/quic-go-0.42.0",
+        "commit_date": "2024-04-11 22:50:48",
+        "release_date": "2024-03-13 08:35:20",
+        "release_message": "<!-- Release notes generated using configuration in .github/release.yml at main -->\r\n\r\n## What's Changed\r\n### 🎉 New Features\r\n* Added support to display results at runtime by @Mzack9999 in https://github.com/projectdiscovery/naabu/pull/946\r\n* Added custom config file input support by @zmf963 in https://github.com/projectdiscovery/naabu/pull/978\r\n```console\r\n   -config string                   path to the naabu configuration file (default $HOME/.config/naabu/config.yaml)\r\n```\r\n\r\n### 🐞 Bugs Fixes\r\n* Made pcap handlers shared globally by @Mzack9999 in https://github.com/projectdiscovery/naabu/pull/946\r\n* Cleanup interface handlers by @Mzack9999 in https://github.com/projectdiscovery/naabu/pull/935\r\n### Other Changes\r\n* Fixed openbsd undefined func err by @dogancanbakir in https://github.com/projectdiscovery/naabu/pull/977\r\n\r\n## New Contributors\r\n* @zmf963 made their first contribution in https://github.com/projectdiscovery/naabu/pull/978\r\n\r\n**Full Changelog**: https://github.com/projectdiscovery/naabu/compare/v2.2.1...v2.3.0"
     },
     "https://github.com/Threekiii/Awesome-Exploit": {
         "created_at": "2022-04-22 02:08:08",
@@ -3622,7 +3621,7 @@
         "created_at": "2021-03-21 15:27:57",
         "description": "基于Pocsuite3、goby编写的漏洞poc&exp存档",
         "commit_message": "Update README.md",
-        "commit_date": "2024-02-23 08:52:51"
+        "commit_date": "2024-04-12 07:08:35"
     },
     "https://github.com/teamssix/container-escape-check": {
         "created_at": "2022-03-17 11:00:37",
@@ -3862,12 +3861,12 @@
         "release_message": "### Bug Fixes\n\n- update anchore/packageurl-go to use latest commits [[#2746](https://github.com/anchore/syft/pull/2746) @spiffcs]\n- fix panic scanning binaries without symtab [[#2736](https://github.com/anchore/syft/issues/2736) [#2739](https://github.com/anchore/syft/pull/2739) @kzantow]\n\n**[(Full Changelog)](https://github.com/anchore/syft/compare/v1.1.0...v1.1.1)**\n\n"
     },
     "https://github.com/chaitin/safeline": {
-        "created_at": "2024-03-28 06:50:17",
+        "created_at": "2024-04-12 08:44:47",
         "description": "一款足够简单、足够好用、足够强的免费 WAF。基于业界领先的语义引擎检测技术，作为反向代理接入，保护你的网站不受黑客攻击。 A free WAF that is sufficiently simple, effective, and powerful. Utilizing industry-leading semantic engine detection technology, it operates as a reverse proxy to protect your website from hacker attacks.",
-        "commit_message": "Merge pull request #798 from Lvshujun0918/patch-1\n\n改正06-other.md中一处错误的加粗，没加空格而没生效",
-        "commit_date": "2024-04-09 03:46:02",
-        "release_date": "2024-03-28 07:46:23",
-        "release_message": "### 新增\r\n\r\n* 黑白名单、人机验证、身份认证中，规则匹配条件增加 “Method”（请求方法），方便对 POST、PUT、DELETE 等客户端操作进行限制\r\n* 攻击原始日志的防护模块为 “补充规则” 时，“命中规则” 处增加规则的 ID\r\n\r\n### 优化\r\n\r\n* 优化导航，调整功能位置，方便寻找：\r\n  * 证书管理 移动到 防护站点->证书管理\r\n  * IP 组 移动到 防护配置->通用配置->IP 组\r\n  * 源 IP 获取方式、站点通用配置 移动到 防护站点->代理设置\r\n  * 拦截页面附加说明、自定义拦截页面、IP 情报共享计划 移动到 防护配置->通用配置->拦截页面、IP 情报共享计划\r\n  * 雷池控制台登录设置、雷池控制台证书、Syslog 设置、系统信息 移动到一级导航 系统设置\r\n* 密码登录框增加请求频率限制，提高暴力猜解的难度\r\n* 免费证书由过期前 10 天自动续期，改为过期前 30 天就自动续期\r\n* 修复站点数量较多时，站点管理处采集不到资源的问题\r\n* 修复移动端点击登录页的 “忘记密码” 无法弹出重置命令的问题\r\n* 修复 syslog 因请求内容较多被截断时，json 格式会被截得不合法的问题\r\n* 修复其他一些已知问题\r\n* 优化一些 UI 交互细节\r\n"
+        "commit_message": "feat: release 5.3.2 (#812)",
+        "commit_date": "2024-04-12 08:44:47",
+        "release_date": "2024-04-12 09:44:32",
+        "release_message": "### 修复\r\n* 修复了地理位置库识别错误的问题\r\n\r\n### 优化\r\n* 优化了一些 UI 交互细节"
     },
     "https://github.com/stamparm/identYwaf": {
         "created_at": "2019-01-10 11:27:58",
@@ -22440,12 +22439,8 @@
         "release_message": ""
     },
     "https://github.com/GZTimeWalker/GZCTF": {
-        "created_at": "2024-04-01 15:49:50",
-        "description": "The GZ::CTF project, an open source CTF platform.",
-        "commit_message": "release: bump version to v0.18.5",
-        "commit_date": "2024-04-01 15:49:50",
-        "release_date": "2024-04-01 15:53:20",
-        "release_message": "## [0.18.5](https://github.com/GZTimeWalker/GZCTF/compare/v0.18.4..v0.18.5) - 2024-04-01\r\n\r\n### ⛰️ Features\r\n\r\n- custom container lifetime - ([906598](https://github.com/GZTimeWalker/GZCTF/commit/906598)) by **GZTime**\r\n- check that the data path is configured correctly - ([26cfac](https://github.com/GZTimeWalker/GZCTF/commit/26cfac)) by **GZTime**\r\n\r\n### 🐛 Bug Fixes\r\n\r\n- **(docs)** cannot get theme config - ([40ae61](https://github.com/GZTimeWalker/GZCTF/commit/40ae61)) by **GZTime**\r\n- write test file to base - ([0810ef](https://github.com/GZTimeWalker/GZCTF/commit/0810ef)) by **GZTime**\r\n- disable experimental features - ([204551](https://github.com/GZTimeWalker/GZCTF/commit/204551)) by **Steven He**\r\n- write version instead - ([314cd1](https://github.com/GZTimeWalker/GZCTF/commit/314cd1)) by **Steven He**\r\n- rw check and fix service init orders - ([93dfdc](https://github.com/GZTimeWalker/GZCTF/commit/93dfdc)) by **Steven He**\r\n\r\n---\r\n\r\n**Changelog**: https://github.com/GZTimeWalker/GZCTF/blob/HEAD/CHANGELOG.md\r\n**Commits**: https://github.com/GZTimeWalker/GZCTF/compare/v0.18.4...v0.18.5"
+        "created_at": "2022-03-08 13:01:42",
+        "description": "The GZ::CTF project, an open source CTF platform."
     },
     "https://github.com/savior-only/Spring_All_Reachable": {
         "created_at": "2022-10-29 03:28:55",
@@ -25658,12 +25653,12 @@
         "release_message": "This release includes one additional feature and some bug fixes.\r\nIf you use Amazon Linux 2023, you have to harry to update.\r\n\r\n## New feature\r\n* Some enterprise features of WPScan are now added to scan results.\r\n  - 50580f6 feat(wpscan): support enterprise feature (#1875)\r\n\r\n## (Potential) Incompatibilities\r\n* Names and Versions of JAR-like files of scan results can be overwritten at `vuls result` phase.\r\n  - These values after `vuls scan` phase may be incorrect or insufficient because Trivy's Java DB is not used at the phase.\r\n  - Correct them at `vuls report` phase with the help of Java DB.\r\n  - 99cf9db feat(detector/library): update JAR-like files' Name/Version in library list (#1874)\r\n\r\n## Bug fixes\r\n* Amazon Linux 2023 have changed its release version format in `/etc/amazon-linux-release`\r\n  - It causes inability of EOL detection at `vuls scan` phase and failure of vulnerability detection at `vuls report` phase.\r\n  - No vulnerabilities are detected unless this bug fix, please update quickly if you use Amazon Linux 2023.\r\n  - e1df74c fix(amazon): use major version for checking eol, security advisories (#1873)\r\n\r\n## Misc Changes\r\n* e25ec99 chore(deps): bump github.com/aws/aws-sdk-go from 1.49.21 to 1.51.5 (#1881)\r\n* 472df0e chore(deps): update dictionary modules (#1877)\r\n* 7d5a47b chore(deps): bump github.com/docker/docker (#1880)\r\n* 426eb53 chore(deps): bump github.com/jackc/pgx/v5 from 5.5.1 to 5.5.4 (#1872)\r\n* bda089b chore(deps): bump google.golang.org/protobuf from 1.32.0 to 1.33.0 (#1871)\r\n* 02d1f6f chore(deps): bump golang.org/x/oauth2 from 0.17.0 to 0.18.0 (#1868)\r\n\r\n## New Contributors\r\n* @future-ryunosuketanai made their first contribution in https://github.com/future-architect/vuls/pull/1875\r\n\r\n**Full Changelog**: https://github.com/future-architect/vuls/compare/v0.25.1...v0.25.2"
     },
     "https://github.com/cve-search/cve-search": {
-        "created_at": "2024-01-28 10:53:52",
+        "created_at": "2024-04-13 08:56:33",
         "description": "cve-search - a tool to perform local searches for known vulnerabilities",
-        "commit_message": "Update static JS dependencies (#1063)\n\n* Update jQuery 3.6.0 -> 3.7.1\r\n\r\n* Update Popper v2.11.5 -> v2.11.8\r\n\r\n* Update clipboard.js v2.0.10 -> v2.0.11\r\n\r\n* Update Bootstrap v4.6.0 -> v4.6.2\r\n\r\n\"One of our last releases for the v4.\"\r\n\r\n* Update DataTables 1.11.3 -> 2.0.3",
-        "commit_date": "2024-04-01 10:26:04",
-        "release_date": "2024-01-28 11:00:01",
-        "release_message": "cve-search v5.0.1 released with bugs fixed and minor improvements. Thanks to contributors and users who helped us to improve cve-search.\r\n\r\n\r\n## v5.0.1 (2024-01-28)\r\n\r\n### New\r\n\r\n* [release] changelog updated to match release v5.0.0. [Alexandre Dulaunoy]\r\n\r\n### Other\r\n\r\n* Update README.md (#1055) [Esa Jokinen]\r\n\r\n  * systemd services: rename mongod.service\r\n\r\n  * black formatting\r\n\r\n  * README.md add workflow badges\r\n\r\n  * README.md update copyright years\r\n\r\n  * README.md update changelog link\r\n\r\n  The changelog on the site hasn't been updated for ages.\r\n\r\n* Systemd services: rename mongod.service (#1052) [Esa Jokinen]\r\n\r\n  * systemd services: rename mongod.service\r\n\r\n  * black formatting\r\n\r\n  * README.md add workflow badges\r\n\r\n* Update script tweaks (#1051) [PT]\r\n\r\n  * tweaks to update script\r\n\r\n* Add check for missing 'vulnerable_configuration' field (#1050) [PT]\r\n\r\n* Fixes #1038. [Paul Tikken]\r\n\r\n* Merge pull request #1047 from cve-search/cve-search-1042. [PT]\r\n\r\n  Additional check\r\n\r\n* Added check for missing epss values. [Paul Tikken]\r\n\r\n* Merge pull request #1041 from oh2fih/master. [PT]\r\n\r\n  Add workflow to check black formatting\r\n\r\n* Black formatting (23.12.1) [Esa Jokinen]\r\n\r\n* Add workflow to check black formatting. [Esa Jokinen]\r\n\r\n* Black formatting. [Paul Tikken]\r\n\r\n\r\n"
+        "commit_message": "chg: [changelog] updated for release 5.0.2",
+        "commit_date": "2024-04-13 08:56:59",
+        "release_date": "2024-04-13 09:09:31",
+        "release_message": "## Release Notes for Version 5.0.2 (Released on 2024-04-13)\r\n\r\nThis release of our software introduces a number of enhancements and bug fixes improving on our previous versions. Highlights include support for non-numeric version strings in search functionalities, significant security updates, and better system stability and documentation.\r\n\r\n### Enhancements:\r\n\r\n- **General Improvements:**\r\n  - Updated `requirements.txt` to enhance compatibility and performance.\r\n  - Refactored `db_updater` to fix the repopulation ordering and remove unnecessary options for cleaner operations.\r\n  - Lowered the update interval for SystemD `db_updater.timer` for more frequent updates.\r\n\r\n- **Search Functionality:**\r\n  - Added support for non-numeric versions in `relaxSearch` to allow simplified version strings that facilitate easier comparison.\r\n  - Introduced new unit tests for improved search flexibility and fixed various minor bugs in `search.py`.\r\n\r\n- **Documentation and Formatting:**\r\n  - Major updates to documentation to make it more informative and easier to navigate.\r\n  - Improved markdown linting and syntax highlighting in `README.md` to enhance readability.\r\n\r\n### Fixes:\r\n\r\n- Corrected an issue with CPE name parsing which could potentially lead to incorrect data handling.\r\n- Addressed several formatting and import-order issues in various scripts to prevent runtime errors.\r\n- Removed unused and deprecated configuration files and settings to streamline project structure and maintenance.\r\n\r\n### Dependency Updates:\r\n\r\n- **JavaScript Libraries:**\r\n  - Updated several static JavaScript dependencies to their latest versions including jQuery, Popper.js, clipboard.js, and Bootstrap to ensure better compatibility and stability.\r\n\r\n### System Administration:\r\n\r\n- **Improved SystemD Service:**\r\n  - Updated service examples and configurations to better support modern system environments.\r\n\r\nFor more detailed information about what's changed in version 5.0.2, please refer to the [changelog](#) on our project page.\r\n"
     },
     "https://github.com/s0md3v/sqlmate": {
         "created_at": "2017-10-19 19:55:58",
@@ -26287,8 +26282,8 @@
     "https://github.com/Y1-K1NG/poc_exp": {
         "created_at": "2023-12-18 06:32:40",
         "description": "持续更新poc/exp,后续会加入yaml,敬请关注",
-        "commit_message": "20240331",
-        "commit_date": "2024-03-31 09:30:06"
+        "commit_message": "20240412",
+        "commit_date": "2024-04-12 15:59:04"
     },
     "https://github.com/python-security/pyt": {
         "created_at": "2018-11-01 16:01:20",
@@ -26466,7 +26461,7 @@
     },
     "https://github.com/ConsenSys/mythril": {
         "created_at": "2024-03-27 22:02:15",
-        "description": "Security analysis tool for EVM bytecode. Supports smart contracts built for Ethereum, Hedera, Quorum, Vechain, Roostock, Tron and other EVM-compatible blockchains.",
+        "description": "Security analysis tool for EVM bytecode. Supports smart contracts built for Ethereum, Hedera, Quorum, Vechain, Rootstock, Tron and other EVM-compatible blockchains.",
         "commit_message": "Update README.md",
         "commit_date": "2024-03-28 13:47:50",
         "release_date": "2024-03-27 22:02:44",
@@ -27070,7 +27065,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "13.83.123.114属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "40.84.43.232属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
@@ -27254,7 +27249,7 @@
     },
     "https://www.storytrain.info/": {
         "status_code": 200,
-        "description": "短信接收 - 云短信 - 第1页 - 在线短信接收"
+        "description": "用户认证 - 云短信 - 短信接收"
     },
     "https://sms-activate.org/": {
         "status_code": 403,
@@ -27269,8 +27264,8 @@
         "description": "Find Missing Patches"
     },
     "https://www.pan131.com/": {
-        "status_code": 200,
-        "description": "百度云搜索,百度网盘云盘资源搜索引擎 - 盘131"
+        "status_code": 500,
+        "description": "500 Internal Server Error"
     },
     "http://whois.alexa.cn/": {
         "status_code": 200,
@@ -27393,5 +27388,19 @@
         "description": "CMS渗透测试框架-A CMS Exploit Framework",
         "commit_message": "Update README.md",
         "commit_date": "2018-03-02 06:40:00"
+    },
+    "https://github.com/sullo/nikto": {
+        "created_at": "2023-12-03 16:16:14",
+        "description": "Nikto web server scanner",
+        "commit_message": "Merge pull request #819 from moxli/add-multiple-google-headers\n\nDon't report multiple Google Cloud headers.",
+        "commit_date": "2024-03-01 13:03:20",
+        "release_date": "2023-12-03 19:00:51",
+        "release_message": "Nikto 2.5.0 has now been promoted to release and the master branch!\r\n\r\n**Note: [Breaking changes](https://github.com/sullo/nikto/wiki/2.5.0-Potentially-Breaking-Changes) to JSON and XML output may have occurred. If you rely on these formats please test before upgrading.**\r\n\r\nThis version contains hundreds of updates over several years, including the highlights below. \r\n- IPv6 support (thanks to @richardleach)\r\n- Updated `db_checks` format uses multiple reference\r\n- Hundreds of OSVDB and BID references replaced\r\n- Removal of some very old and false-positive prone tests\r\n- Decode Netscaler cookies (thanks to @canberkpolat)\r\n- Add `-usecookies` flag to send received cookies with subsequent requests\r\n- Add `-followredirects` flag to signal 3xx responses should be fetched and tested\r\n- Add `-noslash` to remove trailing slash from directories\r\n- Check for indexing on redirect paths\r\n- Alert on `alt-svc` header\r\n- Hundreds of bug fixes, test updates and enhancements, and other optimization changes\r\n\r\nYou can start using Nikto 2.5.0 by performing a `git pull` from the master branch, cloning the repository again, or [downloading the zip file](https://github.com/sullo/nikto/archive/refs/heads/master.zip).\r\n\r\nAs always, if you encounter bugs or problems, please [open an issue](https://github.com/sullo/nikto/issues/new/choose).\r\n\r\n![image](https://github.com/sullo/nikto/assets/1474884/796062af-7cb1-404c-9c0c-720d110d62c7 )\r\n"
+    },
+    "https://github.com/fnk0c/cangibrina": {
+        "created_at": "2014-09-03 02:40:57",
+        "description": "A fast and powerfull dashboard (admin) finder",
+        "commit_message": "Merge pull request #9 from mxm0z/patch-1\n\nUpdate typo",
+        "commit_date": "2018-11-20 13:54:42"
     }
 }
