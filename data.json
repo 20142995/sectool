@@ -965,8 +965,8 @@
     "https://github.com/sqlmapproject/sqlmap": {
         "created_at": "2024-01-03 22:18:35",
         "description": "Automatic SQL injection and database takeover tool",
-        "commit_message": "Patch related to the #5669",
-        "commit_date": "2024-03-29 21:24:20",
+        "commit_message": "Patching some resource-related warnings",
+        "commit_date": "2024-04-12 16:10:16",
         "release_date": "2024-01-03 22:20:06",
         "release_message": "Stable version 1.8 ([changeset](https://github.com/sqlmapproject/sqlmap/compare/1.7...1.8))"
     },
@@ -3917,8 +3917,8 @@
     "https://github.com/aquasecurity/trivy": {
         "created_at": "2024-03-27 07:07:12",
         "description": "Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more",
-        "commit_message": "feat(misconf): Support private registries for misconf check bundle (#6327)",
-        "commit_date": "2024-04-01 05:45:58",
+        "commit_message": "fix(secret): convert severity for custom rules (#6500)",
+        "commit_date": "2024-04-16 07:51:03",
         "release_date": "2024-03-27 08:19:01",
         "release_message": "## Changelog\n* 5f69937cc fix(sbom): fix error when parent of SPDX Relationships is not a package. (#6399)\n* 258d15346 fix(nodejs): merge `Indirect`, `Dev`, `ExternalReferences` fields for same deps from `package-lock.json` files v2 or later (#6356)\n* ade033a83 docs: add info about support for package license detection in `fs`/`repo` modes (#6381)\n* f85c9fac6 fix(nodejs): add support for parsing `workspaces` from `package.json` as an object (#6231)\n* 9d7f5c948 fix: use `0600` perms for tmp files for post analyzers (#6386)\n* f148eb10f fix(helm): scan the subcharts once (#6382)\n* 97f95c4dd docs(terraform): add file patterns for Terraform Plan (#6393)\n* abd62ae74 fix(terraform): сhecking SSE encryption algorithm validity (#6341)\n* 7c409fd27 fix(java): parse modules from `pom.xml` files once (#6312)\n* 1b68327b6 chore(deps): bump github.com/docker/docker from 25.0.3+incompatible to 25.0.5+incompatible (#6364)\n* a2482c14e fix(server): add Locations for `Packages` in client/server mode (#6366)\n* e866bd5b5 fix(sbom): add check for `CreationInfo` to nil when detecting SPDX created using Trivy (#6346)\n* 1870f2846 fix(report): don't include empty strings in `.vulnerabilities[].identifiers[].url` when `gitlab.tpl` is used (#6348)\n* 6c81e5505 chore(ubuntu): Add Ubuntu 22.04 EOL date (#6371)\n\n"
     },
@@ -4707,8 +4707,8 @@
     "https://github.com/zaivanza/all-in-one-v2": {
         "created_at": "2023-04-29 09:03:49",
         "description": null,
-        "commit_message": "add mode",
-        "commit_date": "2024-04-03 04:28:09"
+        "commit_message": "change mode rpc",
+        "commit_date": "2024-04-07 03:00:40"
     },
     "https://github.com/JDArmy/SharpXDecrypt": {
         "created_at": "2022-02-23 03:12:42",
@@ -10851,8 +10851,8 @@
     "https://github.com/HXSecurity/DongTai": {
         "created_at": "2023-11-02 13:10:47",
         "description": "Dongtai IAST is an open-source Interactive Application Security Testing (IAST) tool that enables real-time detection of common vulnerabilities in Java applications and third-party components through passive instrumentation. It is particularly suitable for use in the testing phase of the development pipeline.",
-        "commit_message": "Merge pull request #1926 from st1020/feat/change-dtctl-registry-url\n\nfeat: change dtctl registry url",
-        "commit_date": "2024-02-02 01:52:45",
+        "commit_message": "Update _helpers.tpl",
+        "commit_date": "2024-04-15 15:14:40",
         "release_date": "2023-11-03 03:30:09",
         "release_message": "## What's Changed\r\n* feat: improve patch type hint by @st1020 in https://github.com/HXSecurity/DongTai/pull/1841\r\n* feat: modify user field by @st1020 in https://github.com/HXSecurity/DongTai/pull/1839\r\n* feat: remove login lock by @st1020 in https://github.com/HXSecurity/DongTai/pull/1840\r\n* feat:add agent version api. by @Bidaya0 in https://github.com/HXSecurity/DongTai/pull/1838\r\n* feat/project_type_summary by @Bidaya0 in https://github.com/HXSecurity/DongTai/pull/1842\r\n* deps: add pyotp dep by @st1020 in https://github.com/HXSecurity/DongTai/pull/1846\r\n* feat: add project status change notify by @st1020 in https://github.com/HXSecurity/DongTai/pull/1845\r\n* fix: percentage zero error. by @Bidaya0 in https://github.com/HXSecurity/DongTai/pull/1847\r\n* fix: zero divide by @Bidaya0 in https://github.com/HXSecurity/DongTai/pull/1849\r\n* fix: project current version auth fix. by @Bidaya0 in https://github.com/HXSecurity/DongTai/pull/1848\r\n* feat: add request topo models. by @Bidaya0 in https://github.com/HXSecurity/DongTai/pull/1853\r\n* feat: project type summary list. by @Bidaya0 in https://github.com/HXSecurity/DongTai/pull/1854\r\n* feat: modify user info api by @st1020 in https://github.com/HXSecurity/DongTai/pull/1856\r\n* feat: increase buffer size. by @Bidaya0 in https://github.com/HXSecurity/DongTai/pull/1855\r\n* feat: add tantivy search by @st1020 in https://github.com/HXSecurity/DongTai/pull/1857\r\n* deps: add qrcode dep by @st1020 in https://github.com/HXSecurity/DongTai/pull/1858\r\n* feat: change tantivy index path by @st1020 in https://github.com/HXSecurity/DongTai/pull/1859\r\n* Feat/add ldap settings by @Bidaya0 in https://github.com/HXSecurity/DongTai/pull/1860\r\n* feat: add update vul tantivy index receiver by @st1020 in https://github.com/HXSecurity/DongTai/pull/1861\r\n* feat: vul status change msg. by @Bidaya0 in https://github.com/HXSecurity/DongTai/pull/1862\r\n* build(deps):  fix deps . by @Bidaya0 in https://github.com/HXSecurity/DongTai/pull/1864\r\n* build(deps):  fix deps . by @Bidaya0 in https://github.com/HXSecurity/DongTai/pull/1865\r\n* fix: tantivy search error by @st1020 in https://github.com/HXSecurity/DongTai/pull/1866\r\n* build(deps):  fix deps . by @Bidaya0 in https://github.com/HXSecurity/DongTai/pull/1867\r\n* fix: tantivy search error by @st1020 in https://github.com/HXSecurity/DongTai/pull/1868\r\n* feat/msg_status_log by @Bidaya0 in https://github.com/HXSecurity/DongTai/pull/1869\r\n* feat load vul fix by @Bidaya0 in https://github.com/HXSecurity/DongTai/pull/1870\r\n* fix: change log level. by @Bidaya0 in https://github.com/HXSecurity/DongTai/pull/1873\r\n* fix: load hook strategy with dup data. by @Bidaya0 in https://github.com/HXSecurity/DongTai/pull/1874\r\n* fix: tantivy path error by @st1020 in https://github.com/HXSecurity/DongTai/pull/1875\r\n* feat: add strategy case. by @Bidaya0 in https://github.com/HXSecurity/DongTai/pull/1877\r\n* feat: add vul log time range. by @Bidaya0 in https://github.com/HXSecurity/DongTai/pull/1878\r\n* Feat/add vul log time range by @Bidaya0 in https://github.com/HXSecurity/DongTai/pull/1879\r\n* Feat/add 1.16 strategy p2 by @Bidaya0 in https://github.com/HXSecurity/DongTai/pull/1880\r\n* feat: add 1.16 strategy. by @Bidaya0 in https://github.com/HXSecurity/DongTai/pull/1876\r\n* fix: vul_log msg record by @Bidaya0 in https://github.com/HXSecurity/DongTai/pull/1881\r\n* fix: vul_log msg record by @Bidaya0 in https://github.com/HXSecurity/DongTai/pull/1882\r\n* fix: vul_log msg record by @Bidaya0 in https://github.com/HXSecurity/DongTai/pull/1883\r\n* feat: migration permissions. by @Bidaya0 in https://github.com/HXSecurity/DongTai/pull/1884\r\n* feat: update ci by @tscuite in https://github.com/HXSecurity/DongTai/pull/1885\r\n* feat: update ci by @tscuite in https://github.com/HXSecurity/DongTai/pull/1886\r\n* feat: update ci by @tscuite in https://github.com/HXSecurity/DongTai/pull/1887\r\n* feat: update ci by @tscuite in https://github.com/HXSecurity/DongTai/pull/1888\r\n* fix: dockerfile by @st1020 in https://github.com/HXSecurity/DongTai/pull/1889\r\n* Develop to Beta by @st1020 in https://github.com/HXSecurity/DongTai/pull/1892\r\n* Beta to Main by @st1020 in https://github.com/HXSecurity/DongTai/pull/1893\r\n* Develop to Beta by @st1020 in https://github.com/HXSecurity/DongTai/pull/1895\r\n* Beta to Main by @st1020 in https://github.com/HXSecurity/DongTai/pull/1896\r\n* Update release_dongtai.yml by @lingyuguo in https://github.com/HXSecurity/DongTai/pull/1898\r\n* Beta by @lingyuguo in https://github.com/HXSecurity/DongTai/pull/1899\r\n* cos gitaction by @lingyuguo in https://github.com/HXSecurity/DongTai/pull/1902\r\n* Beta by @lingyuguo in https://github.com/HXSecurity/DongTai/pull/1903\r\n\r\n## New Contributors\r\n* @lingyuguo made their first contribution in https://github.com/HXSecurity/DongTai/pull/1898\r\n\r\n**Full Changelog**: https://github.com/HXSecurity/DongTai/compare/v1.15.0...v1.16.0"
     },
@@ -22369,8 +22369,8 @@
     "https://github.com/xaoyaoo/PyWxDump": {
         "created_at": "2024-04-08 10:14:42",
         "description": "获取微信账号信息(昵称/账号/手机/邮箱/数据库密钥/wxid)；PC微信数据库读取、解密脚本；聊天记录查看工具；聊天记录导出为html(包含语音图片)。支持多账户信息获取，支持所有微信版本。",
-        "commit_message": "读取ExtraBuf（联系人表）",
-        "commit_date": "2024-04-08 15:37:16",
+        "commit_message": "UPDATE CHANGELOG.md",
+        "commit_date": "2024-04-16 15:16:22",
         "release_date": "2024-04-08 10:18:32",
         "release_message": "[Auto Release] Update PyWxDump to refs/tags/v2.4.70\n详细更新日志请查看 [CHANGELOG.md](https://github.com/xaoyaoo/PyWxDump/blob/master/doc/CHANGELOG.md)\n"
     },
@@ -26088,11 +26088,11 @@
         "commit_date": "2016-01-02 11:04:22"
     },
     "https://github.com/deepfence/ThreatMapper": {
-        "created_at": "2024-04-02 18:00:54",
+        "created_at": "2024-04-16 12:22:14",
         "description": "Open source cloud native security observability platform. Linux, K8s, AWS Fargate and more.",
-        "commit_message": "Update listing with threatintel-2024-04-03_00-05-31",
-        "commit_date": "2024-04-03 00:22:32",
-        "release_date": "2024-04-03 00:22:26",
+        "commit_message": "Update listing with threatintel-2024-04-17_00-05-18",
+        "commit_date": "2024-04-17 00:23:50",
+        "release_date": "2024-04-17 00:23:45",
         "release_message": ""
     },
     "https://github.com/BlackHole1/autoFindXssAndCsrf": {
@@ -27065,7 +27065,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "4.227.115.8属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "172.183.51.77属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
@@ -27249,7 +27249,7 @@
     },
     "https://www.storytrain.info/": {
         "status_code": 200,
-        "description": "用户认证 - 云短信 - 短信接收"
+        "description": "短信接收 - 云短信 - 第1页 - 在线短信接收"
     },
     "https://sms-activate.org/": {
         "status_code": 403,
@@ -27422,5 +27422,13 @@
         "description": "通用web弱口令破解脚本，旨在批量检测那些没有验证码的管理后台，可用于刷分~",
         "commit_message": "Update",
         "commit_date": "2020-06-22 05:21:51"
+    },
+    "https://github.com/alienwithin/OWASP-mth3l3m3nt-framework": {
+        "created_at": "2015-11-27 07:00:20",
+        "description": "OWASP Mth3l3m3nt Framework is a penetration testing aiding tool and exploitation framework. It fosters a principle of attack the web using the web as well as pentest on the go through its responsive interface.",
+        "commit_message": "Old\n\nMth3l3m3nt Awaiting Rebirth",
+        "commit_date": "2021-01-21 20:42:34",
+        "release_date": "2015-11-27 07:10:08",
+        "release_message": "Modules Packed in this version are: \n- Payload Store\n- Shell Generator (PHP/ASP/JSP/JSPX/CFM)\n- Payload Encoder and Decoder (Base64/Rot13/Hex/Hexwith \\x seperator/ Hex with 0x Prefix)\n- CURL GUI (GET/POST/HEAD/TRACE/OPTIONS)\n- LFI Exploitation module (currently prepacked with: Koha Lib Lime LFI/ Wordpress Aspose E-book generator LFI/ Zimbra Collaboration Server LFI/Huawei LFI (CVE-2015-7254))\n- HTTP Bot Herd to control web shells. \n- WHOIS\n- String Tools\n- Client Side Code Obfuscator\n\nDocumentation Packed herein : \n- Developer Documentation \n- User Guide \n- UML Diagrams and ERD\n\nVideos on Owasp Mth3l3m3nt Framework in Action can be found on :\n\nhttps://www.youtube.com/playlist?list=PL8peOGsl5TC4WscgWaNMx0xJlS6X2QJI0\n\nThe videos Present real life use cases for some of the features. \n"
     }
 }
