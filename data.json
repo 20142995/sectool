@@ -520,8 +520,8 @@
     "https://github.com/knownsec/404StarLink": {
         "created_at": "2020-11-17 08:10:18",
         "description": "404StarLink - 推荐优质、有意义、有趣、坚持维护的安全开源项目",
-        "commit_message": "weekly update at 2024-04-07",
-        "commit_date": "2024-04-07 03:41:56"
+        "commit_message": "weekly update at 2024-04-15",
+        "commit_date": "2024-04-15 04:15:09"
     },
     "https://github.com/gwen001/github-subdomains": {
         "created_at": "2020-07-24 06:54:29",
@@ -813,8 +813,8 @@
     "https://github.com/murphysecurity/murphysec": {
         "created_at": "2023-05-15 12:21:31",
         "description": "An open source tool focused on software supply chain security. 墨菲安全专注于软件供应链安全，具备专业的软件成分分析（SCA）、漏洞检测、专业漏洞库。",
-        "commit_message": "perf: improve fragment scanning performance\n\nclose channel",
-        "commit_date": "2024-04-02 11:12:56",
+        "commit_message": "fix(pnpm): bad copy",
+        "commit_date": "2024-04-11 16:42:00",
         "release_date": "2023-05-15 12:52:58",
         "release_message": "Support NPM lockfile v3 "
     },
@@ -1878,12 +1878,12 @@
         "release_message": "修复服务器开启端口问题"
     },
     "https://github.com/hiroi-sora/Umi-OCR": {
-        "created_at": "2024-03-29 13:18:24",
+        "created_at": "2024-04-04 09:43:57",
         "description": "OCR software, free and offline. 开源、免费的离线OCR软件。支持截屏/批量导入图片，PDF文档识别，排除水印/页眉页脚，扫描/生成二维码。内置多国语言库。",
-        "commit_message": "update docs",
-        "commit_date": "2024-03-29 14:13:45",
+        "commit_message": "优化：PDF文本插入前 进行内容流清理 (#460)",
+        "commit_date": "2024-04-11 01:51:15",
         "release_date": "2024-03-29 13:29:20",
-        "release_message": "# 两周年 & 两万星星撒花！\r\n\r\nCelebrating the two-year anniversary of this project and reaching 20k stars!\r\n\r\n<details>\r\n<summary>作者的话</summary>\r\n\r\n两年前，有个人试图寻找一个免费的、无需注册、开箱即用、支持批量处理且不限制数量的OCR软件。可惜，当时没有软件满足他的需求。于是，他一拍脑袋，花了几个日夜，自己写了个软件原型。那就是 Umi-OCR [v1.0](https://github.com/hiroi-sora/Umi-OCR/releases/tag/v1.0) 。\r\n\r\n没想到这个项目还挺受大家欢迎，于是他就一直维护更新下去。在用户的建议下，Umi 的功能越来越丰富，有了截图，现代化UI，二维码，PDF识别，HTTP接口……从1k行代码的小demo，历经两年迭代，到如今20k+行；Umi 逐渐变成一个较为成熟完整的项目。\r\n\r\n未来，Umi 会继续完善现有功能、开发新的功能。受限于作者的业余时间和精力，项目更新的速度可能不会很快，还请给予耐心。本项目始终在稳步前进，历史上大多数Issues反馈和请求，最终都落到了实处。\r\n\r\n（下一步，我将对软件底层的插件机制做出较大的调整和重构，以便为表格识别、图片翻译、原生Linux支持 等大型功能铺平道路。）\r\n\r\n感谢各位用户、开发者、翻译者的支持。感谢我自己的坚持。\r\n\r\n—— by hiroi-sora\r\n\r\n---\r\n\r\n</details>\r\n\r\n\r\n## v2.1.1 主要更新 / Changelog\r\n\r\n- 修复：Windows7及低端CPU无法进行文档识别的Bug。\r\n- 新增：批量文档识别允许指定忽略区域的页数范围。\r\n- 新增：命令行`--path`允许传入多个图片或文件夹。👉[命令行手册](https://github.com/hiroi-sora/Umi-OCR/blob/main/docs/README_CLI.md)\r\n- 新增：新的命令行、HTTP接口：识别/生成二维码图像。👉[HTTP手册](https://github.com/hiroi-sora/Umi-OCR/blob/main/docs/README_HTTP.md)\r\n- 优化：双栏面板会记忆左右折叠状态。\r\n- 完善 繁+英+日 界面本地化翻译。感谢 [翻译人员](https://github.com/hiroi-sora/Umi-OCR?tab=readme-ov-file#%E8%BD%AF%E4%BB%B6%E6%9C%AC%E5%9C%B0%E5%8C%96%E7%BF%BB%E8%AF%91) 。\r\n\r\n<details>\r\n<summary>次要更新：（点击展开）</summary>\r\n\r\n- 新增：命令行新指令 `--output`, `--output_append`, `--clip` 。\r\n- 新增：清空全部识别记录的快捷键。 (#420)\r\n- 新增：截图预览 删除图片显示的选项和快捷键。 (#427)\r\n- 优化：开始菜单/开机自启快捷方式，默认放置于用户目录下，避免请求管理员权限。 (#428)\r\n- 优化：保存双层PDF，在没有新文本写入时的处理逻辑。 (#416)\r\n- 优化：PDF解析时，提取原有文本行的逻辑更准确。\r\n- 修复：Esc取消截图的消息传递错误。 (#402)\r\n- 修复：文档`整页强制OCR`模式下，提高小尺寸页面的渲染精度。\r\n- UI：优化一些提示，修复一些渲染问题，美化一些视觉效果。\r\n\r\n</details>\r\n\r\n#### Windows7 用户注意： [常见问题及修复方法](https://github.com/hiroi-sora/Umi-OCR/issues/447)\r\n\r\n---\r\n\r\n### 配置文件迁移 / Configuration file migration\r\n\r\nUmi-OCR v2 用户升级时，将旧版软件的`UmiOCR-data/.settings`拷贝到新版相同位置即可。\r\n\r\nCopy the `UmiOCR-data/.settings` from the old version of the software to the same location in the new version.\r\n\r\n### 下载说明 / Download Instructions\r\n\r\n不同版本仅OCR引擎插件不同，其它功能完全一致。\r\n均支持 win7 x64 及以上的系统，附带多国语言识别库。\r\n\r\n`.7z.exe`为自解压包，可以用压缩软件打开，也可以在没有安装压缩软件的电脑上直接双击解压。\r\n\r\n### Paddle 引擎插件版\r\n\r\n（性能好，速度快，占用率高，适合高配机器。**不兼容奔腾、赛扬、凌动CPU**）\r\n\r\n**重要提示：如果执行OCR时报错`[Error] OCR init fail`，大概率是CPU不兼容Paddle，请换用Rapid版本。**\r\n\r\n**Umi-OCR_Paddle_v2.1.0.7z.exe** （129MB）\r\nSHA256: `53e144b07c3ddfc1038e16926912de75c8212840c84cd56713f9e93ecc22e753`\r\n\r\n### Rapid 引擎插件版\r\n\r\n（速度稍慢，内存占用低，适合低配机器，兼容性好）\r\n\r\n**Umi-OCR_Rapid_v2.1.0.7z.exe** （97.1MB）\r\nSHA256: `09f10d04bd1915ad67a76e57e54adad781a295e8bbf64c7a3e7207f056cafee6`\r\n\r\n## 更多插件 / Plugins\r\n\r\n前往 [Umi-OCR_插件仓库](https://github.com/hiroi-sora/Umi-OCR_plugins) ，下载更多OCR插件，获取`离线数学公式识别`等附加功能。\r\n\r\nVisit the [Umi-OCR_Plugins](https://github.com/hiroi-sora/Umi-OCR_plugins) to download more OCR plugins and acquire additional features such as `Offline Mathematical Formula Recognition`.\r\n\r\n---\r\n\r\n更多下载途径： [蓝奏云](https://hiroi-sora.lanzoul.com/s/umi-ocr) | [SourceForge](https://sourceforge.net/projects/umi-ocr/files/release_2.1.1/)\r\n\r\n[![Download Umi-OCR](https://a.fsdn.com/con/app/sf-download-button)](https://sourceforge.net/projects/umi-ocr/files/release_2.1.1/)"
+        "release_message": "# 两周年 & 两万星星撒花！\r\n\r\nCelebrating the two-year anniversary of this project and reaching 20k stars!\r\n\r\n<details>\r\n<summary>作者的话</summary>\r\n\r\n两年前，有个人试图寻找一个免费的、无需注册、开箱即用、支持批量处理且不限制数量的OCR软件。可惜，当时没有软件满足他的需求。于是，他一拍脑袋，花了几个日夜，自己写了个软件原型。那就是 Umi-OCR [v1.0](https://github.com/hiroi-sora/Umi-OCR/releases/tag/v1.0) 。\r\n\r\n没想到这个项目还挺受大家欢迎，于是他就一直维护更新下去。在用户的建议下，Umi 的功能越来越丰富，有了截图，现代化UI，二维码，PDF识别，HTTP接口……从1k行代码的小demo，历经两年迭代，到如今20k+行；Umi 逐渐变成一个较为成熟完整的项目。\r\n\r\n未来，Umi 会继续完善现有功能、开发新的功能。受限于作者的业余时间和精力，项目更新的速度可能不会很快，还请给予耐心。本项目始终在稳步前进，历史上大多数Issues反馈和请求，最终都落到了实处。\r\n\r\n（下一步，我将对软件底层的插件机制做出较大的调整和重构，以便为表格识别、图片翻译、原生Linux支持 等大型功能铺平道路。）\r\n\r\n感谢各位用户、开发者、翻译者的支持。感谢我自己的坚持。\r\n\r\n—— by hiroi-sora\r\n\r\n---\r\n\r\n</details>\r\n\r\n\r\n## v2.1.1 主要更新 / Changelog\r\n\r\n- 修复：`Windows7` 及 `核心数<=2的CPU` 无法进行文档识别的Bug。\r\n- 新增：批量文档识别允许指定忽略区域的页数范围。\r\n- 新增：命令行`--path`允许传入多个图片或文件夹。👉[命令行手册](https://github.com/hiroi-sora/Umi-OCR/blob/main/docs/README_CLI.md)\r\n- 新增：新的命令行、HTTP接口：识别/生成二维码图像。👉[HTTP手册](https://github.com/hiroi-sora/Umi-OCR/blob/main/docs/README_HTTP.md)\r\n- 优化：双栏面板会记忆左右折叠状态。\r\n- 完善 繁+英+日 界面本地化翻译。感谢 [翻译人员](https://github.com/hiroi-sora/Umi-OCR?tab=readme-ov-file#%E8%BD%AF%E4%BB%B6%E6%9C%AC%E5%9C%B0%E5%8C%96%E7%BF%BB%E8%AF%91) 。\r\n\r\n<details>\r\n<summary>次要更新：（点击展开）</summary>\r\n\r\n- 新增：命令行新指令 `--output`, `--output_append`, `--clip` 。\r\n- 新增：清空全部识别记录的快捷键。 (#420)\r\n- 新增：截图预览 删除图片显示的选项和快捷键。 (#427)\r\n- 优化：开始菜单/开机自启快捷方式，默认放置于用户目录下，避免请求管理员权限。 (#428)\r\n- 优化：保存双层PDF，在没有新文本写入时的处理逻辑。 (#416)\r\n- 优化：PDF解析时，提取原有文本行的逻辑更准确。\r\n- 修复：Esc取消截图的消息传递错误。 (#402)\r\n- 修复：文档`整页强制OCR`模式下，提高小尺寸页面的渲染精度。\r\n- UI：优化一些提示，修复一些渲染问题，美化一些视觉效果。\r\n\r\n</details>\r\n\r\n#### Windows7 用户注意： [常见问题及修复方法](https://github.com/hiroi-sora/Umi-OCR/issues/447)\r\n\r\n---\r\n\r\n### 配置文件迁移 / Configuration file migration\r\n\r\nUmi-OCR v2 用户升级时，将旧版软件的`UmiOCR-data/.settings`拷贝到新版相同位置即可。\r\n\r\nCopy the `UmiOCR-data/.settings` from the old version of the software to the same location in the new version.\r\n\r\n### 下载说明 / Download Instructions\r\n\r\n不同版本仅OCR引擎插件不同，其它功能完全一致。\r\n均支持 win7 x64 及以上的系统，附带多国语言识别库。\r\n\r\n`.7z.exe`为自解压包，可以用压缩软件打开，也可以在没有安装压缩软件的电脑上直接双击解压。\r\n\r\n### Paddle 引擎插件版\r\n\r\n（性能好，速度快，占用率高，适合高配机器。**不兼容奔腾、赛扬、凌动CPU**）\r\n\r\n**重要提示：如果执行OCR时报错 `0xc0000142`、`[Error] OCR init fail`，大概率是CPU不兼容Paddle，请换用Rapid版本。**\r\n\r\n**Umi-OCR_Paddle_v2.1.0.7z.exe** （129MB）\r\nSHA256: `53e144b07c3ddfc1038e16926912de75c8212840c84cd56713f9e93ecc22e753`\r\n\r\n### Rapid 引擎插件版\r\n\r\n（速度稍慢，内存占用低，适合低配机器，兼容性好）\r\n\r\n**Umi-OCR_Rapid_v2.1.0.7z.exe** （97.1MB）\r\nSHA256: `09f10d04bd1915ad67a76e57e54adad781a295e8bbf64c7a3e7207f056cafee6`\r\n\r\n## 更多插件 / Plugins\r\n\r\n前往 [Umi-OCR_插件仓库](https://github.com/hiroi-sora/Umi-OCR_plugins) ，下载更多OCR插件，获取`离线数学公式识别`等附加功能。\r\n\r\nVisit the [Umi-OCR_Plugins](https://github.com/hiroi-sora/Umi-OCR_plugins) to download more OCR plugins and acquire additional features such as `Offline Mathematical Formula Recognition`.\r\n\r\n---\r\n\r\n更多下载途径： [蓝奏云](https://hiroi-sora.lanzoul.com/s/umi-ocr) | [SourceForge](https://sourceforge.net/projects/umi-ocr/files/v2.1.1/) | [Scoop](https://scoop.sh/#/apps?q=umi-ocr)\r\n\r\n[![Download Umi-OCR](https://a.fsdn.com/con/app/sf-download-button)](https://sourceforge.net/projects/umi-ocr/files/v2.1.1/)"
     },
     "https://github.com/qianxiao996/CTF-Tools": {
         "created_at": "2020-01-07 05:58:51",
@@ -4970,7 +4970,7 @@
         "created_at": "2024-03-08 09:30:06",
         "description": "🐝 A highly scalable, safe, free enterprise honeypots 一款高可扩展、安全、免费的企业级蜜罐系统",
         "commit_message": "Update README.md",
-        "commit_date": "2024-03-08 09:30:06",
+        "commit_date": "2024-04-12 01:56:37",
         "release_date": "2024-03-08 09:33:25",
         "release_message": "v3.0.9086 更新内容：\r\n\r\n1、支持使用扩展语法来自定义漏洞仿真模板 (使用方法参见 http://help.decoymini.com 里 \"自定义漏洞仿真模板\" 章节)；\r\n2、支持多节点集中管理；\r\n3、更新在线帮助文档 (增加 \"自定义溯源\" 和 \"自定义漏洞仿真模板\" 等内容)；\r\n4、修复部分已知 BUG；"
     },
@@ -6466,8 +6466,8 @@
     "https://github.com/horsicq/DIE-engine": {
         "created_at": "2023-12-28 19:55:00",
         "description": "DIE engine",
-        "commit_message": "Update module: Detect-It-Easy 2024-04-04",
-        "commit_date": "2024-04-03 23:31:07",
+        "commit_message": "Update module: XDataConvertorWidget 2024-04-18",
+        "commit_date": "2024-04-17 22:23:10",
         "release_date": "2023-12-28 21:22:21",
         "release_message": "Please see the file [CHANGELOG](https://github.com/horsicq/Detect-It-Easy/blob/master/changelog.txt) for a detailed list of changes.\r\n\r\n\r\n| Asset / File | Description / Host OS |\r\n| ----------- | ----------- |\r\n| [die_sourcecode_3.09.tar.gz](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_sourcecode_3.09.tar.gz) | Source code tarball |\r\n| [Detect_It_Easy-3.09-x86_64.AppImage](https://github.com/horsicq/DIE-engine/releases/download/3.09/Detect_It_Easy-3.09-x86_64.AppImage) | Portable version for Linux [How to run](https://github.com/horsicq/Detect-It-Easy/blob/master/docs/RUN.md) |\r\n| [die_3.09_Debian_10_amd64.deb](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_Debian_10_amd64.deb) | Installer for Debian 10 |\r\n| [die_3.09_Debian_11_amd64.deb](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_Debian_11_amd64.deb) | Installer for Debian 11 |\r\n| [die_3.09_Debian_12_amd64.deb](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_Debian_12_amd64.deb) | Installer for Debian 12 |\r\n| [die_3.09_Ubuntu_14.04_amd64.deb](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_Ubuntu_14.04_amd64.deb) | Installer for Ubuntu 14.04 |\r\n| [die_3.09_Ubuntu_16.04_amd64.deb](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_Ubuntu_16.04_amd64.deb) | Installer for Ubuntu 16.04 |\r\n| [die_3.09_Ubuntu_18.04_amd64.deb](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_Ubuntu_18.04_amd64.deb) | Installer for Ubuntu 18.04 |\r\n| [die_3.09_Ubuntu_20.04_amd64.deb](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_Ubuntu_20.04_amd64.deb) | Installer for Ubuntu 20.04 |\r\n| [die_3.09_Ubuntu_22.04_amd64.deb](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_Ubuntu_22.04_amd64.deb) | Installer for Ubuntu 22.04 |\r\n| [die_3.09_Ubuntu_22.10_amd64.deb](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_Ubuntu_22.10_amd64.deb) | Installer for Ubuntu 22.10 |\r\n| [die_3.09_Ubuntu_23.04_amd64.deb](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_Ubuntu_23.04_amd64.deb) | Installer for Ubuntu 23.04 |\r\n| [die_3.09_Ubuntu_23.10_amd64.deb](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_Ubuntu_23.10_amd64.deb) | Installer for Ubuntu 23.10 |\r\n| [die_3.09_Kali_2023.4_amd64](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_Kali_2023.4_amd64) | Installer for Kali 2023.4 |\r\n| [die_3.09_Parrot_5.3_amd64.deb](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_Parrot_5.3_amd64.deb) | Installer for Parrot 5.3 |\r\n| [die_3.09_portable_Ubuntu_20.04_amd64.tar.gz](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_portable_Ubuntu_20.04_amd64.tar.gz) | Portable version for Ubuntu 20.04 |\r\n| [detect-it-easy-3.09-1-x86_64.pkg.tar.zst](https://github.com/horsicq/DIE-engine/releases/download/3.09/detect-it-easy-3.09-1-x86_64.pkg.tar.zst) | Installer for Arch Linux |\r\n| [die_mac_3.09_x86_64.pkg](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_mac_3.09_x86_64.pkg) | Installer for macOS |\r\n| [die_mac_qt6_3.09_arm64.pkg](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_mac_qt6_3.09_arm64.pkg) | Installer for macOS Qt6 M1 processor|\r\n| [die_mac_portable_3.09_x86_64.zip](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_mac_portable_3.09_x86_64.zip) | Portable version for macOS |\r\n| [die_win32_portable_3.09_x86.zip](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_win32_portable_3.09_x86.zip) | Portable version for x86 Win32 (Win7-Win11)|\r\n| [die_win64_portable_3.09_x64.zip](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_win64_portable_3.09_x64.zip) | Portable version for x64 Win64 (Win7-Win11) |\r\n| [die_winxp_portable_3.09_x86.zip](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_winxp_portable_3.09_x86.zip) | Portable version for Windows XP (WinXP-Win11) |\r\n\r\n\r\nExperimental versions - There may be bugs in the GUI\r\n\r\n| Asset / File | Description / Host OS |\r\n| ----------- | ----------- |\r\n| [die_win64_qt6_portable_3.09_x64.zip](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_win64_qt6_portable_3.09_x64.zip) | Portable version for x64 Win64 Qt6 (Win10-Win11)|\r\n"
     },
@@ -10491,8 +10491,8 @@
     "https://github.com/BishopFox/sliver": {
         "created_at": "2024-02-28 19:43:18",
         "description": "Adversary Emulation Framework",
-        "commit_message": "Merge pull request #1623 from BishopFox/export_c2profiles\n\nadd export command for c2 profiles",
-        "commit_date": "2024-04-02 22:04:01",
+        "commit_message": "Merge pull request #1621 from BishopFox/9192dependabot/go_modules/github.com/fatih/color-1.16.0\n\nBump github.com/fatih/color from 1.15.0 to 1.16.0",
+        "commit_date": "2024-04-17 16:14:17",
         "release_date": "2024-02-28 20:00:27",
         "release_message": "Fix for DNS C2, and other small backports. Hoping to have a v1.6 release soon with many more updates!"
     },
@@ -12899,13 +12899,12 @@
         "release_message": ""
     },
     "https://github.com/volatilityfoundation/volatility3": {
-        "created_at": "",
-        "description": "",
-        "commit_date": "2024-02-22 11:00:14",
-        "commit_message": "Merge pull request #1098 from volatilityfoundation/feature/output-filter\n\nImplement CLI support for filtering out rows during output",
-        "release_tag": "",
-        "release_date": "",
-        "release_message": ""
+        "created_at": "2024-01-31 21:21:20",
+        "description": "Volatility 3.0 development",
+        "commit_message": "Linux: Improve debugging of pslist dump feature",
+        "commit_date": "2024-04-07 18:34:17",
+        "release_date": "2024-01-31 21:35:24",
+        "release_message": "* New Layers:\r\n  * Amazon S3 support\r\n  * Google Cloud Storage support\r\n* New plugins:\r\n  * `linux.vmayarascan`\r\n  * `windows.mftscan.ads`\r\n* New features:\r\n  * Dumping of Elf files added to the `elfs` plugin\r\n* Improvements to ELF support\r\n* Bugfixes to registry support\r\n* Documentation improvements\r\n* Better support for remote ISF directories"
     },
     "https://github.com/7dog7/bottleneckOsmosis": {
         "created_at": "2019-06-03 04:16:06",
@@ -15437,8 +15436,8 @@
     "https://github.com/containerd/containerd": {
         "created_at": "2024-04-05 17:02:48",
         "description": "An open and reliable container runtime",
-        "commit_message": "Merge pull request #9415 from kiashok/fixIntegrationClientAddr\n\nUse different containerd sock address for integration test client",
-        "commit_date": "2024-04-08 22:58:33",
+        "commit_message": "Merge pull request #10073 from dcantah/snapshotters-root-export\n\nSnapshotters: Export the root path",
+        "commit_date": "2024-04-15 07:31:09",
         "release_date": "2024-04-05 17:19:25",
         "release_message": "Welcome to the v1.7.15 release of containerd!\n\nThe fifteenth patch release for containerd 1.7 contains various fixes; one for a\nregression introduced in v1.7.14 in the way process exits were handled.\n\n### Highlights\n\n* Adds mediatype to OCI index record on export ([#9990](https://github.com/containerd/containerd/pull/9990))\n\n#### Runtime\n\n* Fix runc shim to only defer init process exits ([#10037](https://github.com/containerd/containerd/pull/10037))\n\nPlease try out the release binaries and report any issues at\nhttps://github.com/containerd/containerd/issues.\n\n### Contributors\n\n* Derek McGowan\n* Phil Estes\n* Austin Vazquez\n* Laura Brehm\n* Sebastiaan van Stijn\n* Talon\n\n### Changes\n<details><summary>12 commits</summary>\n<p>\n\n* Prepare for v1.7.15 release ([#10039](https://github.com/containerd/containerd/pull/10039))\n  * [`4d4759b54`](https://github.com/containerd/containerd/commit/4d4759b54df2a2ce5abb2aaa117ebc1857406380) Prep v1.7.15 release\n* Fix runc shim to only defer init process exits ([#10037](https://github.com/containerd/containerd/pull/10037))\n  * [`21df46766`](https://github.com/containerd/containerd/commit/21df4676621559e46b46810de3c900d105f10210) runc-shim: only defer init process exits\n* Fix compile from version control system (source) use case ([#10012](https://github.com/containerd/containerd/pull/10012))\n  * [`2a054213e`](https://github.com/containerd/containerd/commit/2a054213e7d167d697a27bbe8409872c67e8df46) Fix compile from version control system (source) use case\n* Adds mediatype to OCI index record on export ([#9990](https://github.com/containerd/containerd/pull/9990))\n  * [`6605c47a4`](https://github.com/containerd/containerd/commit/6605c47a4156171580458fa035133f2739046822) adds mediatype to oci index record\n* vendor: google.golang.org/protobuf 1.33.0, github.com/golang/protobuf v1.5.4 ([#9975](https://github.com/containerd/containerd/pull/9975))\n  * [`e6d91d843`](https://github.com/containerd/containerd/commit/e6d91d843fcc26c04e0d33144211aef965f79295) vendor: github.com/golang/protobuf v1.5.4\n  * [`2d136c5f5`](https://github.com/containerd/containerd/commit/2d136c5f5eb7092b458a07e14c53ccb7e5f429f0) build(deps): bump google.golang.org/protobuf from 1.32.0 to 1.33.0\n  * [`a1a7af7a3`](https://github.com/containerd/containerd/commit/a1a7af7a39da32ea0e38bb8ddd5b219c9cf6848e) build(deps): bump google.golang.org/protobuf from 1.31.0 to 1.32.0\n</p>\n</details>\n\n### Dependency Changes\n\n* **github.com/golang/protobuf**  v1.5.3 -> v1.5.4\n* **google.golang.org/protobuf**  v1.31.0 -> v1.33.0\n\nPrevious release can be found at [v1.7.14](https://github.com/containerd/containerd/releases/tag/v1.7.14)\n"
     },
@@ -22441,8 +22440,12 @@
         "release_message": ""
     },
     "https://github.com/GZTimeWalker/GZCTF": {
-        "created_at": "2022-03-08 13:01:42",
-        "description": "The GZ::CTF project, an open source CTF platform."
+        "created_at": "2024-04-17 04:08:46",
+        "description": "The GZ::CTF project, an open source CTF platform.",
+        "commit_message": "release: bump version to v0.19.1",
+        "commit_date": "2024-04-17 04:08:46",
+        "release_date": "2024-04-17 04:10:50",
+        "release_message": "## [0.19.1](https://github.com/GZTimeWalker/GZCTF/compare/v0.19.0..v0.19.1) - 2024-04-17\r\n\r\n> [!IMPORTANT]\r\n> \r\n>  **BREAK CHANGES (from v0.18): CONFIG CHANGES**\r\n> \r\n> - **I18n Support: use `LC_ALL` instead of `LANG` environment variable**\r\n> - **Observability: support opentelemetry / prometheus / metrics / tracing**\r\n\r\n### 🐛 Bug Fixes\r\n\r\n- **(style)** member info is not wide enough - ([399fd8](https://github.com/GZTimeWalker/GZCTF/commit/399fd8)) by **GZTime**\r\n- Override system default cipher list - ([240dfb](https://github.com/GZTimeWalker/GZCTF/commit/240dfb)) by **Steven He**\r\n\r\n---\r\n\r\n**Changelog**: https://github.com/GZTimeWalker/GZCTF/blob/HEAD/CHANGELOG.md\r\n**Commits**: https://github.com/GZTimeWalker/GZCTF/compare/v0.19.0...v0.19.1"
     },
     "https://github.com/savior-only/Spring_All_Reachable": {
         "created_at": "2022-10-29 03:28:55",
@@ -23006,8 +23009,8 @@
     "https://github.com/six2dez/reconftw": {
         "created_at": "2024-01-19 13:44:42",
         "description": "reconFTW is a tool designed to perform automated recon on a target domain by running the best set of tools to perform scanning and finding out vulnerabilities",
-        "commit_message": "Merge pull request #861 from six2dez/dev\n\nDev",
-        "commit_date": "2024-03-21 14:03:21",
+        "commit_message": "Merge pull request #867 from six2dez/dev\n\nDev",
+        "commit_date": "2024-04-07 21:51:40",
         "release_date": "2024-01-19 13:46:39",
         "release_message": "- Gf potential removed\r\n- New API leaks search included\r\n- Fix for dontgo403\r\n- Fix for smuggler"
     },
@@ -23202,8 +23205,8 @@
     "https://github.com/RVC-Boss/GPT-SoVITS": {
         "created_at": "2024-01-14 18:05:21",
         "description": "1 min voice data can also be used to train a good TTS model! (few shot voice cloning)",
-        "commit_message": "Make API Great Again (#894)\n\n* Add zh/jp/en mix\r\n\r\n* Optimize code readability and formatted output.\r\n\r\n* Try OGG streaming\r\n\r\n* Add stream mode arg\r\n\r\n* Add media type arg\r\n\r\n* Add cut punc arg\r\n\r\n* Eliminate punc risk",
-        "commit_date": "2024-03-30 07:48:58"
+        "commit_message": "Update api.py (#979)\n\n修复SynthesizerTrn kwargs 传递异常。",
+        "commit_date": "2024-04-17 09:33:01"
     },
     "https://github.com/djytmdj/Network-security-study-notes": {
         "created_at": "2023-07-25 06:13:25",
@@ -23654,13 +23657,12 @@
         "commit_date": "2024-02-23 04:00:54"
     },
     "https://github.com/TheBeastofwar/JenkinsExploit-GUI": {
-        "created_at": "",
-        "description": "",
-        "commit_date": "2024-02-13 13:21:45",
-        "commit_message": "Update README.md",
-        "release_tag": "",
-        "release_date": "",
-        "release_message": ""
+        "created_at": "2024-02-11 08:34:52",
+        "description": "一款Jenkins的综合漏洞利用工具",
+        "commit_message": "jfxrt.jar包单独下载",
+        "commit_date": "2024-03-20 10:30:36",
+        "release_date": "2024-02-11 08:54:11",
+        "release_message": "- 在macOS里进行测试,发现多种报错的情况,详细解决可以看issues,如果没解决的话可以继续提issues\r\n- 增加了macOS的外部payload\r\n- 预计下一版本添加批量检测的功能"
     },
     "https://github.com/Daybr4ak/C2ReverseProxy": {
         "created_at": "2020-01-16 05:43:35",
@@ -25649,8 +25651,8 @@
     "https://github.com/future-architect/vuls": {
         "created_at": "2024-03-22 07:27:34",
         "description": "Agent-less vulnerability scanner for Linux, FreeBSD, Container, WordPress, Programming language libraries, Network devices",
-        "commit_message": "chore(deps): bump golang.org/x/sync from 0.6.0 to 0.7.0 (#1890)\n\nBumps [golang.org/x/sync](https://github.com/golang/sync) from 0.6.0 to 0.7.0.\r\n- [Commits](https://github.com/golang/sync/compare/v0.6.0...v0.7.0)\r\n\r\n---\r\nupdated-dependencies:\r\n- dependency-name: golang.org/x/sync\r\n  dependency-type: direct:production\r\n  update-type: version-update:semver-minor\r\n...\r\n\r\nSigned-off-by: dependabot[bot] <support@github.com>\r\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
-        "commit_date": "2024-04-10 09:19:54",
+        "commit_message": "(fix) Exclude dev dependencies from npm's package-lock.json and Fix Java DB download endpoint (#1893)\n\n* (fix) Exclude dev dependencies from npm's package-lock.json\r\n\r\n* chore(integration) update\r\n\r\n* choir(integration) add lib scan names to makefile\r\n\r\n* fix(javadb) add schema version only once",
+        "commit_date": "2024-04-17 08:23:57",
         "release_date": "2024-03-22 07:59:36",
         "release_message": "This release includes one additional feature and some bug fixes.\r\nIf you use Amazon Linux 2023, you have to harry to update.\r\n\r\n## New feature\r\n* Some enterprise features of WPScan are now added to scan results.\r\n  - 50580f6 feat(wpscan): support enterprise feature (#1875)\r\n\r\n## (Potential) Incompatibilities\r\n* Names and Versions of JAR-like files of scan results can be overwritten at `vuls result` phase.\r\n  - These values after `vuls scan` phase may be incorrect or insufficient because Trivy's Java DB is not used at the phase.\r\n  - Correct them at `vuls report` phase with the help of Java DB.\r\n  - 99cf9db feat(detector/library): update JAR-like files' Name/Version in library list (#1874)\r\n\r\n## Bug fixes\r\n* Amazon Linux 2023 have changed its release version format in `/etc/amazon-linux-release`\r\n  - It causes inability of EOL detection at `vuls scan` phase and failure of vulnerability detection at `vuls report` phase.\r\n  - No vulnerabilities are detected unless this bug fix, please update quickly if you use Amazon Linux 2023.\r\n  - e1df74c fix(amazon): use major version for checking eol, security advisories (#1873)\r\n\r\n## Misc Changes\r\n* e25ec99 chore(deps): bump github.com/aws/aws-sdk-go from 1.49.21 to 1.51.5 (#1881)\r\n* 472df0e chore(deps): update dictionary modules (#1877)\r\n* 7d5a47b chore(deps): bump github.com/docker/docker (#1880)\r\n* 426eb53 chore(deps): bump github.com/jackc/pgx/v5 from 5.5.1 to 5.5.4 (#1872)\r\n* bda089b chore(deps): bump google.golang.org/protobuf from 1.32.0 to 1.33.0 (#1871)\r\n* 02d1f6f chore(deps): bump golang.org/x/oauth2 from 0.17.0 to 0.18.0 (#1868)\r\n\r\n## New Contributors\r\n* @future-ryunosuketanai made their first contribution in https://github.com/future-architect/vuls/pull/1875\r\n\r\n**Full Changelog**: https://github.com/future-architect/vuls/compare/v0.25.1...v0.25.2"
     },
@@ -26226,8 +26228,8 @@
     "https://github.com/cliffe/secgen": {
         "created_at": "2015-01-29 16:33:04",
         "description": "Create randomly insecure VMs",
-        "commit_message": "Update login credentials instructions for Kali VM",
-        "commit_date": "2024-03-22 09:59:22"
+        "commit_message": "Update README with link to Hacktivity Cyber Security Labs",
+        "commit_date": "2024-04-16 15:47:32"
     },
     "https://github.com/shengqi158/weak_password_detect": {
         "created_at": "2013-01-24 09:30:06",
@@ -27065,7 +27067,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "172.183.51.77属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "40.76.238.213属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
@@ -27084,8 +27086,8 @@
         "description": "Reverse IP Lookup - All Names Hosted at an IP - DomainTools"
     },
     "https://www.webscan.cc/": {
-        "status_code": 200,
-        "description": "同IP网站查询,C段查询,IP反查域名,在线C段,旁站工具 - WebScan"
+        "status_code": 502,
+        "description": "www.webscan.cc | 502: Bad gateway"
     },
     "https://gofile.io/": {
         "status_code": 200,
