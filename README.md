@@ -788,19 +788,19 @@
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [PwnXSS](https://github.com/pwn0sec/PwnXSS) PwnXSS: Vulnerability (XSS) scanner exploit
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [XSSTRON](https://github.com/RenwaX23/XSSTRON) Electron JS Browser To Find XSS Vulnerabilities Automatically
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [DSXS](https://github.com/stamparm/DSXS) Damn Small XSS Scanner
+- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [NoXss](https://github.com/lwzSoviet/NoXss) Faster xss scanner,support  reflected-xss and dom-xss
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [autoFindXssAndCsrf](https://github.com/BlackHole1/autoFindXssAndCsrf) 自动化检测页面是否存在XSS和CSRF漏洞的浏览器插件(A plugin for browser that checks aut...
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [xssor](https://github.com/evilcos/xssor) XSSOR：方便XSS与CSRF的工具，http://evilcos.me/lab/xssor/
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [XSSTracer](https://github.com/1N3/XSSTracer) A small python script to check for Cross-Site Tracing (XST)
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [xss_scan](https://github.com/chuhades/xss_scan) 
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [domdig](https://github.com/fcavallarin/domdig) 
-- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [NoXss](https://github.com/lwzSoviet/NoXss) 
 ###### XXE
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [oxml_xxe](https://github.com/BuffaloWill/oxml_xxe) A tool for embedding XXE/XML exploits into different filetypes
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [docem 1.3](https://github.com/whitel1st/docem)   Uility to embed XXE and XSS payloads in docx,odt,pptx,etc (OXML_XEE on ...
 ###### lfi
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [lfimap](https://github.com/hansmach1ne/lfimap) Local File Inclusion discovery and exploitation tool
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [LFISuite](https://github.com/D35m0nd142/LFISuite) Totally Automatic LFI Exploiter (+ Reverse Shell) and Scanner 
-- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [LFiFreak](https://github.com/OsandaMalith/LFiFreak) 
+- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [LFiFreak](https://github.com/OsandaMalith/LFiFreak) A unique automated LFi Exploiter with Bind/Reverse Shells
 ###### upload
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [fuxploider v1.0](https://github.com/almandin/fuxploider) File upload vulnerability scanner and exploitation tool.
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [xupload](https://github.com/3xp10it/xupload) A tool for automatically testing whether the upload function can upload web...
@@ -1021,8 +1021,8 @@
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [cupp](https://github.com/Mebus/cupp) Common User Passwords Profiler (CUPP)
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [web_pwd_common_crack](https://github.com/TideSec/web_pwd_common_crack) 通用web弱口令破解脚本，旨在批量检测那些没有验证码的管理后台，可用于刷分~
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [SNETCracker 1.0.20190715](https://github.com/shack2/SNETCracker) 超级弱口令检查工具是一款Windows平台的弱口令审计工具，支持批量多线程检查，可快速发现弱密码、弱口令账号，密码支...
+- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [crack_ssh](https://github.com/netxfly/crack_ssh) go写的协程版的ssh\redis\mongodb弱口令破解工具
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [weak_password_detect](https://github.com/shengqi158/weak_password_detect) 多线程探测弱密码程序
-- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [crack_ssh](https://github.com/netxfly/crack_ssh) 
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [mass-bruter](https://github.com/opabravo/mass-bruter) 
 ##### 大模型安全
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [garak](https://github.com/leondz/garak) LLM vulnerability scanner
@@ -1158,7 +1158,7 @@
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [reverseip_py](https://github.com/yuyudhn/reverseip_py) Domain Parser for IPAddress.com Reverse IP Lookup
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [iplookup v1.1](https://github.com/Lengso/iplookup) IP反查域名
 - <img src="https://favicon.qqsuu.cn/s.tool.chinaz.com" alt="" style="height: 20px;"> [网站IP查询_IP反查域名_同IP网站查询 - 站长工具](http://s.tool.chinaz.com/same) 
-- <img src="https://favicon.qqsuu.cn/dns.aizhan.com" alt="" style="height: 20px;"> [40.76.238.213属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网](https://dns.aizhan.com/) 
+- <img src="https://favicon.qqsuu.cn/dns.aizhan.com" alt="" style="height: 20px;"> [52.159.136.150属于美国 加利福尼亚 圣克拉拉 微软_IP反查域名_同IP站点查询_同ip网站查询_爱站网](https://dns.aizhan.com/) 
 - <img src="https://favicon.qqsuu.cn/dnslytics.com" alt="" style="height: 20px;"> [Just a moment...](https://dnslytics.com/reverse-ip) 
 - <img src="https://favicon.qqsuu.cn/hackertarget.com" alt="" style="height: 20px;"> [Reverse IP Lookup, Find Hosts Sharing an IP | HackerTarget.com](https://hackertarget.com/reverse-ip-lookup/) 
 - <img src="https://favicon.qqsuu.cn/rapiddns.io" alt="" style="height: 20px;"> [Subdomain - RapidDNS Rapid DNS Information Collection](https://rapiddns.io/sameip) 
@@ -1186,8 +1186,8 @@
 - <img src="https://favicon.qqsuu.cn/www.whois.com" alt="" style="height: 20px;"> [Free Whois Lookup - Whois IP Search & Whois Domain Lookup | Whois.com](https://www.whois.com/whois/) 
 - <img src="https://favicon.qqsuu.cn/x.threatbook.cn" alt="" style="height: 20px;"> [微步在线X情报社区-威胁情报查询_威胁分析平台_开放社区](https://x.threatbook.cn/) 
 #### apk
-- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [AppMessenger](https://github.com/sulab999/AppMessenger) 一款适用于以APP病毒分析、APP漏洞挖掘、APP开发、HW行动/红队/渗透测试团队为场景的移动端(Android、iOS)辅助分析工具
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [Mobile-Security-Framework-MobSF](https://github.com/MobSF/Mobile-Security-Framework-MobSF) Mobile Security Framework (MobSF) is an automated, ...
+- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [AppMessenger](https://github.com/sulab999/AppMessenger) 一款适用于以APP病毒分析、APP漏洞挖掘、APP开发、HW行动/红队/渗透测试团队为场景的移动端(Android、iOS)辅助分析工具
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [apkleaks v2.6.1](https://github.com/dwisiswant0/apkleaks) Scanning APK file for URIs, endpoints & secrets.
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [apkleaks](https://github.com/Anof-cyber/apkleaks) An python script that use apkleaks to scan the android application over web
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [ApkAnalyser](https://github.com/TheKingOfDuck/ApkAnalyser) 一键提取安卓应用中可能存在的敏感信息。
