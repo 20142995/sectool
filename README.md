@@ -41,7 +41,7 @@
 #### ADFGVX密码
 - <img src="https://favicon.qqsuu.cn/www.hiencode.com" alt="" style="height: 20px;"> [CTF在线工具-在线ADFGVX密码加密|在线ADFGVX密码解密|ADFGVX密码算法|ADFGVX Cipher](http://www.hiencode.com/adfgvx.html) 
 #### ADFGX
-- <img src="https://favicon.qqsuu.cn/www.practicalcryptography.com" alt="" style="height: 20px;"> [Practical Cryptography](http://www.practicalcryptography.com/ciphers/adfgx-cipher/) 
+- <img src="https://favicon.qqsuu.cn/www.practicalcryptography.com" alt="" style="height: 20px;"> [500 Internal Server Error](http://www.practicalcryptography.com/ciphers/adfgx-cipher/) 
 #### ADFGX加密解密
 - <img src="https://favicon.qqsuu.cn/ctf.bugku.com" alt="" style="height: 20px;"> [ADFGX密码 - Bugku CTF](https://ctf.bugku.com/tool/adfgx) 
 #### ADFGX密码
@@ -712,7 +712,7 @@
 - <img src="https://favicon.qqsuu.cn/catbox.moe" alt="" style="height: 20px;"> [Catbox](https://catbox.moe/) 
 - <img src="https://favicon.qqsuu.cn/cowtransfer.com" alt="" style="height: 20px;"> [奶牛快传｜免费大文件传输工具，上传下载不限速 CowTransfer | Unlimited Send Large Files](https://cowtransfer.com/) 
 - <img src="https://favicon.qqsuu.cn/gofile.io" alt="" style="height: 20px;"> [Gofile - Your all-in-one storage solution](https://gofile.io/) 
-- <img src="https://favicon.qqsuu.cn/seamless.icu" alt="" style="height: 20px;"> [Home - Seamless App](https://seamless.icu/) 
+- <img src="https://favicon.qqsuu.cn/seamless.icu" alt="" style="height: 20px;"> [seamless.icu](https://seamless.icu/) 
 - <img src="https://favicon.qqsuu.cn/www.wenshushu.cn" alt="" style="height: 20px;"> [文叔叔 - 传文件，找文叔叔（永不限速）](https://www.wenshushu.cn/) 
 ###### 匿名邮箱
 - <img src="https://favicon.qqsuu.cn/24mail.chacuo.net" alt="" style="height: 20px;"> [临时邮箱、十分钟邮箱（10分钟)、临时邮、临时Email、快速注册Email、24Mail--查错网](http://24mail.chacuo.net/) 
@@ -869,9 +869,9 @@
 - <img src="https://favicon.qqsuu.cn/wiki.teamssix.com" alt="" style="height: 20px;"> [关于文库 | T Wiki](https://wiki.teamssix.com/About/) 
 ##### 漏洞检测利用仓库
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [cve-search](https://github.com/cve-search/cve-search) cve-search - a tool to perform local searches for known vulnerabilities
+- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [vulnerability](https://github.com/lal0ne/vulnerability) 收集、整理、修改互联网上公开的漏洞POC
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [poc_exp](https://github.com/Y1-K1NG/poc_exp) 持续更新poc/exp,后续会加入yaml,敬请关注
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [PocOrExp_in_Github](https://github.com/ycdxsb/PocOrExp_in_Github) 聚合Github上已有的Poc或者Exp，CVE信息来自CVE官网。Auto Collect Poc Or Exp from G...
-- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [vulnerability](https://github.com/lal0ne/vulnerability) 收集、整理、修改互联网上公开的漏洞POC
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [Penetration_Testing_POC](https://github.com/Mr-xn/Penetration_Testing_POC) 渗透测试有关的POC、EXP、脚本、提权、小工具等---About penetration-testing pytho...
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [0day](https://github.com/helloexp/0day) 各种CMS、各种平台、各种系统、各种软件漏洞的EXP、POC ,该项目将持续更新
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [Some-PoC-oR-ExP](https://github.com/coffeehb/Some-PoC-oR-ExP) 各种漏洞poc、Exp的收集或编写
@@ -1083,8 +1083,8 @@
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [shcheck](https://github.com/m3liot/shcheck) 
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [vbscan](https://github.com/rezasp/vbscan) 
 ##### 漏洞扫描框架
-- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [yakit](https://github.com/yaklang/yakit) Cyber Security ALL-IN-ONE Platform
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [zaproxy](https://github.com/zaproxy/zaproxy) The ZAP core project
+- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [yakit](https://github.com/yaklang/yakit) Cyber Security ALL-IN-ONE Platform
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [pentestpackage](https://github.com/leonteale/pentestpackage) a package of Pentest scripts I have made or  commonly use
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [daydayEXP](https://github.com/bcvgh/daydayEXP) 支持自定义Poc文件的图形化漏洞利用工具
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [DudeSuite](https://github.com/x364e3ab6/DudeSuite) Dude Suite Web 渗透测试工具
@@ -1158,7 +1158,7 @@
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [reverseip_py](https://github.com/yuyudhn/reverseip_py) Domain Parser for IPAddress.com Reverse IP Lookup
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [iplookup v1.1](https://github.com/Lengso/iplookup) IP反查域名
 - <img src="https://favicon.qqsuu.cn/s.tool.chinaz.com" alt="" style="height: 20px;"> [网站IP查询_IP反查域名_同IP网站查询 - 站长工具](http://s.tool.chinaz.com/same) 
-- <img src="https://favicon.qqsuu.cn/dns.aizhan.com" alt="" style="height: 20px;"> [52.159.136.150属于美国 加利福尼亚 圣克拉拉 微软_IP反查域名_同IP站点查询_同ip网站查询_爱站网](https://dns.aizhan.com/) 
+- <img src="https://favicon.qqsuu.cn/dns.aizhan.com" alt="" style="height: 20px;"> [13.88.170.224属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网](https://dns.aizhan.com/) 
 - <img src="https://favicon.qqsuu.cn/dnslytics.com" alt="" style="height: 20px;"> [Just a moment...](https://dnslytics.com/reverse-ip) 
 - <img src="https://favicon.qqsuu.cn/hackertarget.com" alt="" style="height: 20px;"> [Reverse IP Lookup, Find Hosts Sharing an IP | HackerTarget.com](https://hackertarget.com/reverse-ip-lookup/) 
 - <img src="https://favicon.qqsuu.cn/rapiddns.io" alt="" style="height: 20px;"> [Subdomain - RapidDNS Rapid DNS Information Collection](https://rapiddns.io/sameip) 
@@ -1166,7 +1166,7 @@
 - <img src="https://favicon.qqsuu.cn/site.ip138.com" alt="" style="height: 20px;"> [域名查iP 域名解析 iP查询网站 iP反查域名 iP反查网站 同一iP网站 同iP网站域名iP查询](https://site.ip138.com/) 
 - <img src="https://favicon.qqsuu.cn/tools.ipip.net" alt="" style="height: 20px;"> [专业精准的IP库服务商_IPIP](https://tools.ipip.net/ipdomain.php) 
 - <img src="https://favicon.qqsuu.cn/viewdns.info" alt="" style="height: 20px;"> [Just a moment...](https://viewdns.info/reverseip/) 
-- <img src="https://favicon.qqsuu.cn/www.webscan.cc" alt="" style="height: 20px;"> [www.webscan.cc | 502: Bad gateway](https://www.webscan.cc/) 
+- <img src="https://favicon.qqsuu.cn/www.webscan.cc" alt="" style="height: 20px;"> [同IP网站查询,C段查询,IP反查域名,在线C段,旁站工具 - WebScan](https://www.webscan.cc/) 
 - <img src="https://favicon.qqsuu.cn/www.yougetsignal.com" alt="" style="height: 20px;"> [Reverse IP Lookup - Find Other Web Sites Hosted on a Web Server](https://www.yougetsignal.com/tools/web-sites-on-web-server/) 
 - <img src="https://favicon.qqsuu.cn/x.threatbook.com" alt="" style="height: 20px;"> [微步在线X情报社区-威胁情报查询_威胁分析平台_开放社区](https://x.threatbook.com/) 
 #### IP定位
@@ -1850,10 +1850,10 @@
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [K8tools](https://github.com/k8gege/K8tools) 
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [PLtools](https://github.com/Lucifer1993/PLtools) 整理一些内网常用渗透小工具
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [h4tools H4V3](https://github.com/H4ckBu7eer-EX/h4tools) 一个安卓渗透工具盒子
-- <img src="https://favicon.qqsuu.cn/www.sqlsec.com" alt="" style="height: 20px;"> [安全小公举 | 国光](https://www.sqlsec.com/tools.html) 
+- <img src="https://favicon.qqsuu.cn/www.sqlsec.com" alt="" style="height: 20px;"> [www.sqlsec.com | 522: Connection timed out](https://www.sqlsec.com/tools.html) 
 #### 工具集成环境
-- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [f8x](https://github.com/ffffffff0x/f8x) 红/蓝队环境自动化部署工具 | Red/Blue team environment automation deployment tool
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [axiom](https://github.com/pry0cc/axiom) The dynamic infrastructure framework for everybody! Distribute the workload o...
+- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [f8x](https://github.com/ffffffff0x/f8x) 红/蓝队环境自动化部署工具 | Red/Blue team environment automation deployment tool
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [PST-Bucket](https://github.com/arch3rPro/PST-Bucket) 
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [Online_tools](https://github.com/Zhao-sai-sai/Online_tools) 
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [Pentest-Windows v2.2](https://github.com/arch3rPro/Pentest-Windows) Windows11 Penetration Suite Toolkit 一个开箱即用的windows渗透测试环境
