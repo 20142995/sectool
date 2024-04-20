@@ -372,8 +372,8 @@
     "https://github.com/lal0ne/vulnerability": {
         "created_at": "2022-01-20 02:48:42",
         "description": "收集、整理、修改互联网上公开的漏洞POC",
-        "commit_message": "CVE-2024-20767",
-        "commit_date": "2024-03-27 02:44:20"
+        "commit_message": "CVE-2024-21508",
+        "commit_date": "2024-04-16 01:33:28"
     },
     "https://github.com/CTF-MissFeng/GoScan": {
         "created_at": "2020-12-13 11:08:12",
@@ -4707,8 +4707,8 @@
     "https://github.com/zaivanza/all-in-one-v2": {
         "created_at": "2023-04-29 09:03:49",
         "description": null,
-        "commit_message": "change mode rpc",
-        "commit_date": "2024-04-07 03:00:40"
+        "commit_message": "fix",
+        "commit_date": "2024-04-18 09:10:57"
     },
     "https://github.com/JDArmy/SharpXDecrypt": {
         "created_at": "2022-02-23 03:12:42",
@@ -6301,8 +6301,8 @@
     "https://github.com/WerWolv/ImHex": {
         "created_at": "2024-03-23 09:15:12",
         "description": "🔍 A Hex Editor for Reverse Engineers, Programmers and people who value their retinas when working at 3 AM.",
-        "commit_message": "fix: Color vector in 3D visualizer not getting assigned the correct size",
-        "commit_date": "2024-04-10 20:53:51",
+        "commit_message": "fix: Cell highlighting in hex editor view overlapping at non-integer scale factors",
+        "commit_date": "2024-04-13 13:34:12",
         "release_date": "2024-03-23 10:06:55",
         "release_message": "## Improvements\r\n- ImHex properly enters low power mode on Linux again now\r\n- Unifont characters are now being loaded at their native size to make them crisp like the Western characters\r\n- The splash screen is not being scaled weirdly anymore now\r\n- Added a hint when the advanced data information section didn't yield any result\r\n\r\n## Bug Fixes\r\n- Fixed linking to libyara. This should resolve issues with e.g the AUR version not starting anymore\r\n- Fixed issues with the auto updater on Windows\r\n- Fixed view providers not being saved to project files correctly\r\n- Fixed highlighting not updating correctly when changing Bookmark regions\r\n- Fixed crash upload setting not being disabled correctly when choosing \"Deny\" in the initial popup\r\n- Fixed custom base address issues with the data inspector and copy as array options\r\n- Fixed advanced data information not showing up correctly\r\n- Fixed selection being removed sometimes when right clicking it\r\n- Fixed infinite loop when exporting a selection to a file\r\n- Fixed control characters ending up in log files\r\n- Fixed a crash when opening an unopenable file\r\n\r\n## Pattern Language\r\n- Fixed various issues with the virtual file system\r\n- Fixed data decompression functions not extracting the entire data\r\n\r\n# Previous Changelog\r\n\r\n![image](https://github.com/WerWolv/ImHex/assets/10835354/57bfaec2-779e-4701-b1a5-f03da7815da3)\r\n\r\n## Additions\r\n- **All main menu entries now have pretty icons**\r\n- **Added Myers' diffing algorithm to the diff view**\r\n    - This algorithm can display insertions and removals as well as modifications\r\n    - Huge thanks to the maintainer of Malcat!\r\n- **Added option to customize toolbar icons**\r\n- **Added a much improved Out of the Box experience when first starting up ImHex**\r\n- **Added many new hash algorithms**\r\n    - This includes basic sum checksums, Snefru, Haval, various SHA versions, Keccak, RIPEMD, many CRC presets and many more\r\n- **Greatly improved the data information view**\r\n    - Sections can now be switched on and off\r\n    - Magic information now includes more than one entry if there's multiple concatenated files\r\n    - The Digram and Layered distribution graphs now perform a lot better\r\n    - There's now built-in yara rules that are being run on files to detect compilers, programming languages and more for executables\r\n- **Greatly improved the pattern editor**\r\n    - Thanks a lot to @paxcut \r\n    - This adds support for find and replace, better highlighting and many other smaller things\r\n- **Added Mini Map to the Hex Editor**\r\n    - This can be enabled by clicking on the map icon in the hex editor footer\r\n    - There's also config options when right clicking that icon\r\n- **Added `Edit -> Jump to -> Pattern` option to jump directly from hex editor highlights to patterns**\r\n    - Clicking on patterns in the pattern data view also jumps to their definition in the pattern editor now\r\n- **Added a font picker to the settings**\r\n- **Added option to highlight parent pattern regions in the hex editor when hovering over them**\r\n- Added support for searching for other string encodings and endianess. Thanks a lot to @PerikiyoXD \r\n- Added a pretty drag-n-drop overlay when dragging files onto ImHex\r\n- Added support for virtual file systems through the pattern language\r\n- Added option to keep ImHex always on top of other windows\r\n- Added option to use ImHex in fullscreen mode\r\n- Added support for switching to other providers through the command palette\r\n- Added a setting to always show all provider tabs, even if there's only one\r\n- Added option to export a selection to a file\r\n- Added a comments column to the pattern data view. It can be enabled by right clicking on the table header and selecting it there\r\n- Added option to turn off borderless window mode\r\n- Added option to export the results of the find view to a file\r\n- Added option to disable command palette button in header\r\n- Added a search bar to the file chooser popup\r\n- Added support for opening multiple files at once\r\n- Added support for macOS's Right click -> Open with option\r\n\r\n## Improvements\r\n- **ImHex now uses Atomic File I/O instead of mapping files into memory**\r\n    - This solves various issues where certain files couldn't be opened, files on network drives not working well and more\r\n- **macOS M1 build now only requires macOS 12.1 instead of 14.0 to run**\r\n- Bookmark moving now uses ImGui's native drag n drop feature\r\n- Syncing pattern language source code between providers should work better now\r\n- Custom encodings that don't have multi-byte values now display immediately when selected\r\n- The macOS build now uses a custom titlebar\r\n- ImHex windows are now being unfocused properly if the main window loses focus\r\n    - No more blinking cursors when ImHex is in the background!\r\n- Overwriting individual characters in the edit mode of the hex editor now works much better\r\n- Copy-Paste now works correctly in the Web version of ImHex. Thanks a lot to @exsilium \r\n- The find popup now remembers its content\r\n- The crash restore popup doesn't show anymore now if there's nothing to restore\r\n- Opening the same file multiple times is no longer possible now\r\n\r\n## Bug Fixes\r\n- **Fixed signing issues with macOS builds**\r\n- **Fixed CTRL + S not removing red highlights of bytes**\r\n- Fixed address bound checks in Edit -> Jump to option\r\n- Fixed menu bar collapsing into hamburger menu even if there's enough space\r\n- Fixed RGBA8 data processor node not setting output buffer correctly\r\n- Fixed provider information in information view always showing infos about the current provider instead of about the analyzed provider\r\n- Fixed issues when using certain window management tools on Windows\r\n- Fixed crashes when launching ImHex with file arguments\r\n- Fixed crash when trying to use too many hex editor rows\r\n- Fixed native theme detection of Linux. Thanks to @iTrooz \r\n- Fixed issues where workspaces are not correctly saved sometimes\r\n- Fixed issues where default magic database wasn't being bundled correctly\r\n- Fixed crashes when loading very old settings files\r\n- Fixed data inspector not updating correctly when the underlying data changed\r\n- Fixed a crash when specifying invalid hash parameters in the hashing view\r\n- Fixed additional folder paths not being loaded from the config file correctly\r\n- Fixed data inspector showing two negative signs sometimes\r\n- Fixed various issues with non-zero base addresses\r\n\r\n## Pattern Language\r\n- **Huge refactor of the Preprocessor, Lexer and Parser**\r\n    - Massive thanks to @jumanji144\r\n    - Compile errors are a lot more helpful now and include more context information\r\n- **Added support for `import` statements**\r\n    - Massive thanks to @jumanji144\r\n- **Added stacktrace to runtime errors**\r\n- Patterns can now be placed inside of custom sections from within other types\r\n- Pattern formatters now properly respect a patterns visibility\r\n    - This means hidden patterns don't end up in exported json, yaml or html files anymore\r\n- Fixed writing to big endian bitfield entries\r\n- Changing pattern setting now re-evaluates the code if auto evaluation is enabled\r\n\r\n<br/>\r\n\r\n<p align=\"center\">If you like my work, please consider supporting me on GitHub Sponsors, Patreon or PayPal. Thanks a lot!</p>\r\n<p align=\"center\">\r\n<a href=\"https://github.com/sponsors/WerWolv\"><img src=\"https://werwolv.net/assets/github_banner.png\" alt=\"GitHub donate button\" /> </a>\r\n<a href=\"https://www.patreon.com/werwolv\"><img src=\"https://c5.patreon.com/external/logo/become_a_patron_button.png\" alt=\"Patreon donate button\" /> </a>\r\n<a href=\"https://werwolv.net/donate\"><img src=\"https://werwolv.net/assets/paypal_banner.png\" alt=\"PayPal donate button\" /> </a>\r\n</p"
     },
@@ -7650,8 +7650,8 @@
     "https://github.com/openwall/john": {
         "created_at": "2011-12-16 19:43:47",
         "description": "John the Ripper jumbo - advanced offline password cracker, which supports hundreds of hash and cipher types, and runs on many operating systems, CPUs, GPUs, and even some FPGAs",
-        "commit_message": "build-info: add Cygwin version information\n\nThe recent version of Cygwin removed support for many old Windows\nversions/platforms. Adding this information to the output can help\nus detect if end users are complaining about unsupported things.\n\nSigned-off-by: Claudio André <dev@claudioandre.slmail.me>",
-        "commit_date": "2024-04-01 11:35:37"
+        "commit_message": "libreoffice2john.py: Allow for missing start-key-generation-name\n\nFixes #5460",
+        "commit_date": "2024-04-16 21:29:12"
     },
     "https://github.com/shimmeris/SCFProxy": {
         "created_at": "2021-04-18 11:21:43",
@@ -7672,12 +7672,12 @@
         "release_message": ""
     },
     "https://github.com/locustio/locust": {
-        "created_at": "2024-03-20 19:20:43",
+        "created_at": "2024-04-18 20:22:42",
         "description": "Write scalable load tests in plain Python 🚗💨",
-        "commit_message": "Merge pull request #2659 from JohnEndson/master\n\nchore: fix some comments",
-        "commit_date": "2024-03-29 08:50:55",
-        "release_date": "2024-03-20 19:21:04",
-        "release_message": "## What's Changed\r\n* Update ruff to 0.3.0 by @cyberw in https://github.com/locustio/locust/pull/2619\r\n* Add documentation about manually closing TCP/HTTP connections by @DennisKrone in https://github.com/locustio/locust/pull/2623\r\n* chore: remove repetitive words by @tgolang in https://github.com/locustio/locust/pull/2625\r\n* [Modern UI] Modal Can Extend Beyond Screen Limits by @andrewbaldwin44 in https://github.com/locustio/locust/pull/2631\r\n* Dont throw an exception in FastHttpUser if a request is made with stream=True and the connection fails by @cyberw in https://github.com/locustio/locust/pull/2642\r\n* Do not call blocking `content` property and lazily load response by @neiser in https://github.com/locustio/locust/pull/2643\r\n\r\n## New Contributors\r\n* @tgolang made their first contribution in https://github.com/locustio/locust/pull/2625\r\n* @neiser made their first contribution in https://github.com/locustio/locust/pull/2643\r\n\r\n**Full Changelog**: https://github.com/locustio/locust/compare/2.24.0...2.24.1"
+        "commit_message": "Merge pull request #2684 from tdadela/small_cleanup_mypy_ignore_and_deps\n\nSmall cleanup: mypy type-ignore and dev deps",
+        "commit_date": "2024-04-19 20:10:30",
+        "release_date": "2024-04-18 20:22:50",
+        "release_message": "## What's Changed\r\n* Drop support for Python 3.8 by @cyberw in https://github.com/locustio/locust/pull/2677\r\n* Update geventhttpclient and adjust FastHttpUser max_retries / max_redirects by @cyberw in https://github.com/locustio/locust/pull/2676\r\n* Remove python 3.8 compatibility code by @cyberw in https://github.com/locustio/locust/pull/2679\r\n* Add ruff pre commit hook by @cyberw in https://github.com/locustio/locust/pull/2680\r\n* Reformat and lint stuff. And pin gevenhttpclient version by @cyberw in https://github.com/locustio/locust/pull/2682\r\n\r\n\r\n**Full Changelog**: https://github.com/locustio/locust/compare/2.25.0...2.26.0"
     },
     "https://github.com/Wh04m1001/IFaultrepElevatedDataCollectionUAC": {
         "created_at": "2022-10-14 21:40:59",
@@ -18785,8 +18785,8 @@
     "https://github.com/sajjadium/ctf-archives": {
         "created_at": "2021-06-10 16:53:52",
         "description": " CTF Archives: Collection of CTF Challenges.",
-        "commit_message": "b01lers challs",
-        "commit_date": "2024-04-13 20:04:44"
+        "commit_message": "SpartanCTF challs",
+        "commit_date": "2024-04-17 20:14:40"
     },
     "https://github.com/KaLendsi/CVE-2022-21882": {
         "created_at": "2022-01-27 03:44:10",
@@ -23620,8 +23620,8 @@
     "https://github.com/pry0cc/axiom": {
         "created_at": "2021-02-12 12:23:04",
         "description": "The dynamic infrastructure framework for everybody! Distribute the workload of many different scanning tools with ease, including nmap, ffuf, masscan, nuclei, meg and many more!",
-        "commit_message": "Update classic.json",
-        "commit_date": "2024-03-19 05:01:25",
+        "commit_message": "bump go version (#795)\n\nfix for https://github.com/pry0cc/axiom/pull/794",
+        "commit_date": "2024-04-16 20:57:09",
         "release_date": "2021-02-12 12:26:40",
         "release_message": "This release has shown several improvements including:\r\n- SSH socket reusing - thanks 0xtavian!!\r\n- Increase of default file descriptors\r\n- Axiom-configure support for Kali\r\n- Custom wordlist support for axiom-scan using -wL\r\n- Updates of packages such as Rustscan\r\n- Linode Support\r\n- More quality of life features for those not using DigitalOcean - more cloud support and easier dynamic setup\r\n"
     },
@@ -25191,8 +25191,8 @@
         "description": "首页"
     },
     "http://www.practicalcryptography.com/ciphers/adfgx-cipher/": {
-        "status_code": 200,
-        "description": "Practical Cryptography"
+        "status_code": 500,
+        "description": "500 Internal Server Error"
     },
     "https://www.guballa.de/vigenere-solver": {
         "status_code": 200,
@@ -25603,8 +25603,8 @@
     "https://github.com/zaproxy/zaproxy": {
         "created_at": "2023-10-12 16:02:55",
         "description": "The ZAP core project",
-        "commit_message": "Merge pull request #8431 from thc202/chalk-docker-images\n\nChalk and sign the weekly/nightly Docker images",
-        "commit_date": "2024-04-05 17:59:24",
+        "commit_message": "Merge pull request #8454 from psiinon/alerts/ev-pluginid\n\nInclude pluginId in alert events",
+        "commit_date": "2024-04-19 15:50:52",
         "release_date": "2023-10-12 16:40:31",
         "release_message": "Release notes: https://www.zaproxy.org/docs/desktop/releases/2.14.0/\r\n\r\n---\r\n| File | Checksum (SHA-256) |\r\n|---|---|\r\n| [ZAP_2.14.0.dmg](https://github.com/zaproxy/zaproxy/releases/download/v2.14.0/ZAP_2.14.0.dmg) | `3b9862a647b1c5c26d6917f2316113dfaceac06bdb79ad3f2c96e0cbd73861f7` |\r\n| [ZAP_2.14.0_aarch64.dmg](https://github.com/zaproxy/zaproxy/releases/download/v2.14.0/ZAP_2.14.0_aarch64.dmg) | `fb3369338252e22470bb38d120233bd9857119806f9f8be681f985e6a5174847` |\r\n| [ZAP_2.14.0_Core.zip](https://github.com/zaproxy/zaproxy/releases/download/v2.14.0/ZAP_2.14.0_Core.zip) | `26006030acd67613d5ed8a9cc57ab36b11777ef8085f8aa5edcada64fb656735` |\r\n| [ZAP_2.14.0_Crossplatform.zip](https://github.com/zaproxy/zaproxy/releases/download/v2.14.0/ZAP_2.14.0_Crossplatform.zip) | `8bc475c2f1976446e2ec37b9bacaeed0a1281185988e689a24187b9c60aa57dd` |\r\n| [ZAP_2.14.0_Linux.tar.gz](https://github.com/zaproxy/zaproxy/releases/download/v2.14.0/ZAP_2.14.0_Linux.tar.gz) | `219d7f25bbe25247713805ab02cc12279898c870743c1aae3c2b0b1882191960` |\r\n| [ZAP_2_14_0_unix.sh](https://github.com/zaproxy/zaproxy/releases/download/v2.14.0/ZAP_2_14_0_unix.sh) | `fb33573bc9ffb4598fe541287d4755062fee2eea26ec5d11102f7671d083c37f` |\r\n| [ZAP_2_14_0_windows-x32.exe](https://github.com/zaproxy/zaproxy/releases/download/v2.14.0/ZAP_2_14_0_windows-x32.exe) | `5dae52e27da12fba5115e40ebc0cd2da24f6d9ba91608a7b0b7b254984a0b798` |\r\n| [ZAP_2_14_0_windows.exe](https://github.com/zaproxy/zaproxy/releases/download/v2.14.0/ZAP_2_14_0_windows.exe) | `df49ffbd14cf82cde5ac06902615e40cbfce1576f866436366708c0845eb9ec6` |\r\n| [bom.json](https://github.com/zaproxy/zaproxy/releases/download/v2.14.0/bom.json) | `f4085a07a1164a0c6b8169a1ad28f3a46a13c6a5ffac06ce82ef9ebdc321c949` |\r\n"
     },
@@ -27042,8 +27042,8 @@
         "description": "DNSLOG Platform"
     },
     "https://seamless.icu/": {
-        "status_code": 200,
-        "description": "Home - Seamless App"
+        "status_code": 404,
+        "description": ""
     },
     "https://www.wappalyzer.com/": {
         "status_code": 200,
@@ -27067,7 +27067,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "52.159.136.150属于美国 加利福尼亚 圣克拉拉 微软_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "13.88.170.224属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
@@ -27086,8 +27086,8 @@
         "description": "Reverse IP Lookup - All Names Hosted at an IP - DomainTools"
     },
     "https://www.webscan.cc/": {
-        "status_code": 502,
-        "description": "www.webscan.cc | 502: Bad gateway"
+        "status_code": 200,
+        "description": "同IP网站查询,C段查询,IP反查域名,在线C段,旁站工具 - WebScan"
     },
     "https://gofile.io/": {
         "status_code": 200,
@@ -27258,8 +27258,8 @@
         "description": "Just a moment..."
     },
     "https://www.sqlsec.com/tools.html": {
-        "status_code": 200,
-        "description": "安全小公举 | 国光"
+        "status_code": 522,
+        "description": "www.sqlsec.com | 522: Connection timed out"
     },
     "https://patchchecker.com/": {
         "status_code": 200,
