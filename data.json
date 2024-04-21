@@ -3855,12 +3855,12 @@
         "release_message": "This is the last version that support python2.7"
     },
     "https://github.com/anchore/syft": {
-        "created_at": "2024-04-04 14:52:41",
+        "created_at": "2024-04-12 18:31:54",
         "description": "CLI tool and library for generating a Software Bill of Materials from container images and filesystems",
-        "commit_message": "chore(deps): bump github.com/jedib0t/go-pretty/v6 from 6.5.6 to 6.5.8 (#2754)\n\nBumps [github.com/jedib0t/go-pretty/v6](https://github.com/jedib0t/go-pretty) from 6.5.6 to 6.5.8.\r\n- [Release notes](https://github.com/jedib0t/go-pretty/releases)\r\n- [Commits](https://github.com/jedib0t/go-pretty/compare/v6.5.6...v6.5.8)\r\n\r\n---\r\nupdated-dependencies:\r\n- dependency-name: github.com/jedib0t/go-pretty/v6\r\n  dependency-type: direct:production\r\n  update-type: version-update:semver-patch\r\n...\r\n\r\nSigned-off-by: dependabot[bot] <support@github.com>\r\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
-        "commit_date": "2024-04-08 16:19:45",
-        "release_date": "2024-04-04 15:00:20",
-        "release_message": "### Bug Fixes\n\n- update anchore/packageurl-go to use latest commits [[#2746](https://github.com/anchore/syft/pull/2746) @spiffcs]\n- fix panic scanning binaries without symtab [[#2736](https://github.com/anchore/syft/issues/2736) [#2739](https://github.com/anchore/syft/pull/2739) @kzantow]\n\n**[(Full Changelog)](https://github.com/anchore/syft/compare/v1.1.0...v1.1.1)**\n\n"
+        "commit_message": "fix: return empty string if dereferncing pom var fails (#2797)\n\nPreviously, Syft would attempt to dereference pom variables, but if it\r\ndetected a cycle or failed to get back to a non-variable value, it would\r\nreturn the last variable. Instead, return an empty string. Otherwise,\r\ncertain jars will have versions like \"${project.version}\" in the SBOM,\r\nwhich is not helpful.\r\n\r\nSigned-off-by: Will Murphy <will.murphy@anchore.com>",
+        "commit_date": "2024-04-19 19:38:36",
+        "release_date": "2024-04-12 18:39:13",
+        "release_message": "### Added Features\n\n- Differentiate between JRE and JDK [[#2748](https://github.com/anchore/syft/pull/2748) @LaurentGoderre]\n- Add support for dnf packages [[#2758](https://github.com/anchore/syft/issues/2758)]\n\n### Bug Fixes\n\n- more robust go main version extraction [[#2767](https://github.com/anchore/syft/pull/2767) @kzantow]\n- Regression in 1.1 cataloging openjdk: generates version containing a null byte [[#2750](https://github.com/anchore/syft/issues/2750) [#2766](https://github.com/anchore/syft/pull/2766) @LaurentGoderre]\n\n**[(Full Changelog)](https://github.com/anchore/syft/compare/v1.1.1...v1.2.0)**\n\n"
     },
     "https://github.com/chaitin/safeline": {
         "created_at": "2024-04-12 08:44:47",
@@ -4003,13 +4003,12 @@
         "release_message": ""
     },
     "https://github.com/WebGoat/WebGoat": {
-        "created_at": "",
-        "description": "",
-        "commit_date": "2024-02-25 22:20:23",
-        "commit_message": "build(Dockerfile): replace deprecated MAINTAINER tag with label of the same\n\nCurrent syntax now used to denote the \"WebGoat team\" as maintainer\n\nLink: https://docs.docker.com/reference/dockerfile/#label\n\nSigned-off-by: cap-dev0x <158111888+cap-dev0x@users.noreply.github.com>",
-        "release_tag": "",
-        "release_date": "",
-        "release_message": ""
+        "created_at": "2023-12-05 10:21:15",
+        "description": "WebGoat is a deliberately insecure application",
+        "commit_message": "chore: upgrade checkout out to v4 (#1781)",
+        "commit_date": "2024-03-25 21:27:56",
+        "release_date": "2023-12-05 10:23:50",
+        "release_message": "## Version v2023.8 \r\n\r\n### 🚀 New functionality\r\n\r\n- Consistent environment values and url references (#1677)\r\n- Show directly requested file in requests overview\r\n- Show creating time in file upload overview\r\n\r\n ### 🐞 Bug fixes\r\n\r\n- Fix startup message (#1687)\r\n- Fix/state of software supply chain links (#1683)\r\n- Fix WebWolf UI (#1686)\r\n\r\n### 🔄 Technical tasks\r\n\r\n- bump actions/setup-java from 3 to 4 (#1690)\r\n- bump commons-io:commons-io from 2.14.0 to 2.15.1 (#1689)\r\n- bump com.diffplug.spotless:spotless-maven-plugin (#1688)\r\n   \r\n Full change log: https://github.com/WebGoat/WebGoat/compare/v2023.5...v2023.8  \r\n\r\n\r\n Team WebGoat\r\n"
     },
     "https://github.com/psiinon/bodgeit": {
         "created_at": "2015-03-12 17:03:32",
@@ -6362,8 +6361,8 @@
     "https://github.com/ufrisk/MemProcFS": {
         "created_at": "2024-03-03 11:07:17",
         "description": "MemProcFS",
-        "commit_message": "Update Readme",
-        "commit_date": "2024-03-26 23:22:38",
+        "commit_message": "Version 5.9.8",
+        "commit_date": "2024-04-18 15:34:07",
         "release_date": "2024-03-03 11:08:21",
         "release_message": "* Bug fixes.\r\n* Module improvements: ntfs, procinfo, web.\r\n* C# API: improvements.\r\n* Java API: support for java.lang.foreign (JDK21+) for efficient memory accesses.\r\n* Linux PCIe FPGA performance improvements.\r\n* FindEvil: Triggered Yara rules are now shown.\r\n* FindEvil: AV detections from Windows Defender residing on the analyzed system.\r\n* Python API: new functionality (multi-read, type-read) and improved scatter read performance.\r\n* Support for Proxmox memory dump files.\r\n\r\nFor previous release builds see the [release archive](https://github.com/ufrisk/MemProcFS/releases/tag/v5_archive)."
     },
@@ -12532,13 +12531,12 @@
         "release_message": ""
     },
     "https://github.com/rocky/python-uncompyle6": {
-        "created_at": "",
-        "description": "",
-        "commit_date": "2024-02-25 13:34:13",
-        "commit_message": "Add pop return check from decompyle3",
-        "release_tag": "",
-        "release_date": "",
-        "release_message": ""
+        "created_at": "2024-03-16 07:49:17",
+        "description": "A cross-version Python bytecode decompiler",
+        "commit_message": "Properly escape strings.\n\nBackported from decompyle3",
+        "commit_date": "2024-03-25 10:42:06",
+        "release_date": "2024-03-16 07:56:18",
+        "release_message": "Lots of changes major changes. track xdis API has changes.\r\n\r\nSeparate Phases more clearly:\r\n* disassembly\r\n* tokenization\r\n* parsing\r\n* abstracting to AST (more is done in newer projects)\r\n* printing\r\n\r\nAlthough we do not decompile bytecode greater than 3.8, code supports running from up to 3.12.\r\n\r\nMany bugs fixed.\r\n\r\nA lot of Linting and coding style modernization.\r\n\r\nWork done in preparation for Blackhat Asia 2024\r\n"
     },
     "https://github.com/trustedsec/cve-2019-19781": {
         "created_at": "2020-01-11 00:08:27",
@@ -15436,8 +15434,8 @@
     "https://github.com/containerd/containerd": {
         "created_at": "2024-04-05 17:02:48",
         "description": "An open and reliable container runtime",
-        "commit_message": "Merge pull request #10073 from dcantah/snapshotters-root-export\n\nSnapshotters: Export the root path",
-        "commit_date": "2024-04-15 07:31:09",
+        "commit_message": "Merge pull request #10089 from samuelkarp/bump-nri-v0.6.1\n\nmod: bump github.com/containerd/nri@v0.6.1",
+        "commit_date": "2024-04-18 23:07:13",
         "release_date": "2024-04-05 17:19:25",
         "release_message": "Welcome to the v1.7.15 release of containerd!\n\nThe fifteenth patch release for containerd 1.7 contains various fixes; one for a\nregression introduced in v1.7.14 in the way process exits were handled.\n\n### Highlights\n\n* Adds mediatype to OCI index record on export ([#9990](https://github.com/containerd/containerd/pull/9990))\n\n#### Runtime\n\n* Fix runc shim to only defer init process exits ([#10037](https://github.com/containerd/containerd/pull/10037))\n\nPlease try out the release binaries and report any issues at\nhttps://github.com/containerd/containerd/issues.\n\n### Contributors\n\n* Derek McGowan\n* Phil Estes\n* Austin Vazquez\n* Laura Brehm\n* Sebastiaan van Stijn\n* Talon\n\n### Changes\n<details><summary>12 commits</summary>\n<p>\n\n* Prepare for v1.7.15 release ([#10039](https://github.com/containerd/containerd/pull/10039))\n  * [`4d4759b54`](https://github.com/containerd/containerd/commit/4d4759b54df2a2ce5abb2aaa117ebc1857406380) Prep v1.7.15 release\n* Fix runc shim to only defer init process exits ([#10037](https://github.com/containerd/containerd/pull/10037))\n  * [`21df46766`](https://github.com/containerd/containerd/commit/21df4676621559e46b46810de3c900d105f10210) runc-shim: only defer init process exits\n* Fix compile from version control system (source) use case ([#10012](https://github.com/containerd/containerd/pull/10012))\n  * [`2a054213e`](https://github.com/containerd/containerd/commit/2a054213e7d167d697a27bbe8409872c67e8df46) Fix compile from version control system (source) use case\n* Adds mediatype to OCI index record on export ([#9990](https://github.com/containerd/containerd/pull/9990))\n  * [`6605c47a4`](https://github.com/containerd/containerd/commit/6605c47a4156171580458fa035133f2739046822) adds mediatype to oci index record\n* vendor: google.golang.org/protobuf 1.33.0, github.com/golang/protobuf v1.5.4 ([#9975](https://github.com/containerd/containerd/pull/9975))\n  * [`e6d91d843`](https://github.com/containerd/containerd/commit/e6d91d843fcc26c04e0d33144211aef965f79295) vendor: github.com/golang/protobuf v1.5.4\n  * [`2d136c5f5`](https://github.com/containerd/containerd/commit/2d136c5f5eb7092b458a07e14c53ccb7e5f429f0) build(deps): bump google.golang.org/protobuf from 1.32.0 to 1.33.0\n  * [`a1a7af7a3`](https://github.com/containerd/containerd/commit/a1a7af7a39da32ea0e38bb8ddd5b219c9cf6848e) build(deps): bump google.golang.org/protobuf from 1.31.0 to 1.32.0\n</p>\n</details>\n\n### Dependency Changes\n\n* **github.com/golang/protobuf**  v1.5.3 -> v1.5.4\n* **google.golang.org/protobuf**  v1.31.0 -> v1.33.0\n\nPrevious release can be found at [v1.7.14](https://github.com/containerd/containerd/releases/tag/v1.7.14)\n"
     },
@@ -22640,8 +22638,8 @@
     "https://github.com/whyour/qinglong": {
         "created_at": "2021-03-13 15:21:04",
         "description": "支持 Python3、JavaScript、Shell、Typescript 的定时任务管理平台（Timed task management platform supporting Python3, JavaScript, Shell, Typescript）",
-        "commit_message": "更新版本 v2.17.3",
-        "commit_date": "2024-03-29 14:45:02"
+        "commit_message": "修复 text/plain body 格式化",
+        "commit_date": "2024-04-16 06:06:32"
     },
     "https://github.com/nelenkov/android-backup-extractor": {
         "created_at": "2012-06-08 13:33:46",
@@ -25191,8 +25189,8 @@
         "description": "首页"
     },
     "http://www.practicalcryptography.com/ciphers/adfgx-cipher/": {
-        "status_code": 500,
-        "description": "500 Internal Server Error"
+        "status_code": 200,
+        "description": "Practical Cryptography"
     },
     "https://www.guballa.de/vigenere-solver": {
         "status_code": 200,
@@ -25357,12 +25355,12 @@
         "commit_date": "2020-06-21 01:31:59"
     },
     "https://github.com/j3ssie/Osmedeus": {
-        "created_at": "2023-12-05 13:50:18",
+        "created_at": "2024-04-04 11:59:37",
         "description": "A Workflow Engine for Offensive Security",
-        "commit_message": "Merge pull request #271 from catmandx/add-messages\n\nFix confusing param display and added an alert when running module main steps",
-        "commit_date": "2024-02-19 08:41:28",
-        "release_date": "2023-12-15 11:45:54",
-        "release_message": "- Refactoring a lot of the helper messages throughout the tool.\r\n- Add a new script `BeautifyCSV('csv-source.txt', 'beautify-output.txt')` to beautify print the CSV file."
+        "commit_message": "v4.6.4: Update dependencies",
+        "commit_date": "2024-04-04 11:59:37",
+        "release_date": "2024-04-04 12:03:48",
+        "release_message": "## Changelog\n* 815c261 v4.6.4: Update dependencies\n* cd3a133 Merge pull request #271 from catmandx/add-messages\n* 61ecd9a fix param parsing order in ResolveRoutine and added an alert\n* 7122db0 Merge pull request #270 from n00b-bot/main\n\n"
     },
     "https://github.com/TideSec/WDScanner": {
         "created_at": "2019-01-21 07:11:32",
@@ -27067,7 +27065,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "13.88.170.224属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "172.183.37.84属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
@@ -27310,8 +27308,8 @@
         "description": "www.dnsdb.io | 526: Invalid SSL certificate"
     },
     "https://tools.ipip.net/ipdomain.php": {
-        "status_code": 200,
-        "description": "专业精准的IP库服务商_IPIP"
+        "status_code": 524,
+        "description": "tools.ipip.net | 524: A timeout occurred"
     },
     "https://catbox.moe/": {
         "status_code": 200,
@@ -27452,5 +27450,11 @@
         "description": "go写的协程版的ssh\\redis\\mongodb弱口令破解工具",
         "commit_message": "Update README.md",
         "commit_date": "2018-09-27 08:54:28"
+    },
+    "https://github.com/cr0hn/dockerscan": {
+        "created_at": "2017-02-07 21:13:12",
+        "description": "Docker security analysis & hacking tools",
+        "commit_message": "Update README.rst\n\nadd sponsor",
+        "commit_date": "2020-05-27 08:36:02"
     }
 }
