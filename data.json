@@ -196,8 +196,8 @@
     "https://github.com/ycdxsb/PocOrExp_in_Github": {
         "created_at": "2021-04-13 05:46:16",
         "description": "聚合Github上已有的Poc或者Exp，CVE信息来自CVE官网。Auto Collect Poc Or Exp from Github by CVE ID.",
-        "commit_message": "update 2024-04-07 08:14:54",
-        "commit_date": "2024-04-07 00:14:54"
+        "commit_message": "update 2024-04-22 06:38:15",
+        "commit_date": "2024-04-21 22:38:15"
     },
     "https://github.com/1n7erface/RequestTemplate": {
         "created_at": "",
@@ -7649,8 +7649,8 @@
     "https://github.com/openwall/john": {
         "created_at": "2011-12-16 19:43:47",
         "description": "John the Ripper jumbo - advanced offline password cracker, which supports hundreds of hash and cipher types, and runs on many operating systems, CPUs, GPUs, and even some FPGAs",
-        "commit_message": "libreoffice2john.py: Allow for missing start-key-generation-name\n\nFixes #5460",
-        "commit_date": "2024-04-16 21:29:12"
+        "commit_message": "MS SQL formats: Support lowercase hash encodings\n\nBased on logic in mysqlSHA1_fmt_plug.c\nFixes #5461",
+        "commit_date": "2024-04-20 17:39:50"
     },
     "https://github.com/shimmeris/SCFProxy": {
         "created_at": "2021-04-18 11:21:43",
@@ -10490,8 +10490,8 @@
     "https://github.com/BishopFox/sliver": {
         "created_at": "2024-02-28 19:43:18",
         "description": "Adversary Emulation Framework",
-        "commit_message": "Merge pull request #1621 from BishopFox/9192dependabot/go_modules/github.com/fatih/color-1.16.0\n\nBump github.com/fatih/color from 1.15.0 to 1.16.0",
-        "commit_date": "2024-04-17 16:14:17",
+        "commit_message": "Merge pull request #1635 from C-Sto/bugfix-overwrite\n\nadd overwrite flag back into upload cmd",
+        "commit_date": "2024-04-19 17:47:42",
         "release_date": "2024-02-28 20:00:27",
         "release_message": "Fix for DNS C2, and other small backports. Hoping to have a v1.6 release soon with many more updates!"
     },
@@ -22605,12 +22605,12 @@
         "release_message": "- 添加日志记录\r\n- 添加tips用于显示软件界面没体现的功能及注意事项\r\n- 调整secedit中间文件到APPDATA\r\n- SHA1: EA6C9EE3A6A1FEC43F014CF5EB3F7A3CC641A50D"
     },
     "https://github.com/yqcs/prismx": {
-        "created_at": "2024-01-22 08:47:42",
+        "created_at": "2024-04-15 04:59:10",
         "description": ":: 棱镜 X · 一体化的轻量型跨平台渗透系统",
-        "commit_message": "1.1.2发布",
-        "commit_date": "2024-02-01 08:43:20",
-        "release_date": "2024-02-01 09:22:31",
-        "release_message": "- 解决退出 shell 终端导致程序停止运行问题\r\n- 修复部分 UI 兼容性\r\n**此次更新不涉及数据库，无需替换数据库文件**"
+        "commit_message": "1.2.1发布",
+        "commit_date": "2024-04-15 05:04:07",
+        "release_date": "2024-04-15 05:12:48",
+        "release_message": "  - 精简nuclei引擎，现在体积更小了\r\n  - 修复Windows7下运行崩溃bug\r\n  - 新增溯源辅助工具，一键收集日志数据\r\n  - 解决扫描目标过多导致web卡顿问题\r\n \r\ntips:需要单独下载lib.zip和built.zip文件并在可执行程序的同级目录解压 \r\n  **此次更新涉及数据库，需替换数据库文件**\r\n\r\n\r\n"
     },
     "https://github.com/TomSchimansky/CustomTkinter": {
         "created_at": "2021-03-04 17:24:00",
@@ -24226,8 +24226,8 @@
     "https://github.com/jeremylong/DependencyCheck": {
         "created_at": "2024-03-31 11:36:57",
         "description": "OWASP dependency-check is a software composition analysis utility that detects publicly disclosed vulnerabilities in application dependencies.",
-        "commit_message": "chore: Update the packaged suppressions to include new hosted suppressions (#6567)",
-        "commit_date": "2024-04-07 19:03:13",
+        "commit_message": "build(deps): bump org.apache.maven.plugins:maven-assembly-plugin from 3.6.0 to 3.7.1 (#6610)\n\nSigned-off-by: dependabot[bot] <support@github.com>\r\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
+        "commit_date": "2024-04-21 12:24:55",
         "release_date": "2024-03-31 12:10:21",
         "release_message": "Refer to the [CHANGELOG.md](https://github.com/jeremylong/DependencyCheck/blob/main/CHANGELOG.md#change-log) for information about improvements and upgrade notes."
     },
@@ -26382,12 +26382,10 @@
         "release_message": "Major update opensource version SmartCheck.\r\n\r\nWhat's new:\r\n- synced version with online tool https://tool.smartdec.ru/\r\n- updated rules pack with support of custom rules\r\n- results in .xml format"
     },
     "https://github.com/infobyte/faraday": {
-        "created_at": "2024-03-20 20:45:00",
+        "created_at": "2013-11-06 02:07:23",
         "description": "Open Source Vulnerability Management Platform",
         "commit_message": "Front Updated",
-        "commit_date": "2024-03-20 18:28:05",
-        "release_date": "2024-03-20 20:53:00",
-        "release_message": " * [FIX] Ignore remove_sid when database does not exist. #7690\n"
+        "commit_date": "2024-04-05 14:58:15"
     },
     "https://github.com/0xsauby/yasuo": {
         "created_at": "2014-09-25 06:20:08",
@@ -27065,7 +27063,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "172.183.37.84属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "20.55.14.245属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
@@ -27264,8 +27262,8 @@
         "description": "Find Missing Patches"
     },
     "https://www.pan131.com/": {
-        "status_code": 500,
-        "description": "500 Internal Server Error"
+        "status_code": 200,
+        "description": "百度云搜索,百度网盘云盘资源搜索引擎 - 盘131"
     },
     "http://whois.alexa.cn/": {
         "status_code": 200,
@@ -27308,8 +27306,8 @@
         "description": "www.dnsdb.io | 526: Invalid SSL certificate"
     },
     "https://tools.ipip.net/ipdomain.php": {
-        "status_code": 524,
-        "description": "tools.ipip.net | 524: A timeout occurred"
+        "status_code": 525,
+        "description": "tools.ipip.net | 525: SSL handshake failed"
     },
     "https://catbox.moe/": {
         "status_code": 200,
@@ -27456,5 +27454,25 @@
         "description": "Docker security analysis & hacking tools",
         "commit_message": "Update README.rst\n\nadd sponsor",
         "commit_date": "2020-05-27 08:36:02"
+    },
+    "https://github.com/efchatz/pandora": {
+        "created_at": "2024-04-18 00:40:01",
+        "description": "A red team tool that assists into extracting/dumping master credentials and/or entries from different password managers.",
+        "commit_message": "Update README.md",
+        "commit_date": "2024-04-18 00:41:39",
+        "release_date": "2024-04-18 00:41:10",
+        "release_message": "Fixed vcxproj files"
+    },
+    "https://github.com/ARPSyndicate/kenzer-templates": {
+        "created_at": "2020-09-18 21:03:28",
+        "description": "essential templates for kenzer [DEPRECATED]",
+        "commit_message": "Update README.md",
+        "commit_date": "2023-03-07 09:25:13"
+    },
+    "https://github.com/opabravo/mass-bruter": {
+        "created_at": "2022-11-02 10:21:42",
+        "description": "Mass bruteforce authentication of network protocols",
+        "commit_message": "Fix missing word",
+        "commit_date": "2023-12-02 13:25:07"
     }
 }
