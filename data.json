@@ -1043,8 +1043,8 @@
     "https://github.com/ninoseki/mitaka": {
         "created_at": "2024-03-29 10:42:12",
         "description": "A browser extension for OSINT search",
-        "commit_message": "Merge pull request #803 from ninoseki/v2.1.0\n\nv2.1.0",
-        "commit_date": "2024-03-29 10:42:12",
+        "commit_message": "Merge pull request #807 from ninoseki/add-rechability-check\n\nfeat: add reachability check",
+        "commit_date": "2024-04-22 06:52:06",
         "release_date": "2024-03-29 10:43:34",
         "release_message": "## What's Changed\r\n* feat: show syncedAt in options view by @ninoseki in https://github.com/ninoseki/mitaka/pull/799\r\n* refactor: use reactive by @ninoseki in https://github.com/ninoseki/mitaka/pull/800\r\n* fix(deps): update dependency vue to v3.4.21 by @renovate in https://github.com/ninoseki/mitaka/pull/798\r\n* Added Host.io for domain lookup by @abdullahdevrel in https://github.com/ninoseki/mitaka/pull/801\r\n* ci: add lint job by @ninoseki in https://github.com/ninoseki/mitaka/pull/802\r\n* v2.1.0 by @ninoseki in https://github.com/ninoseki/mitaka/pull/803\r\n\r\n## New Contributors\r\n* @abdullahdevrel made their first contribution in https://github.com/ninoseki/mitaka/pull/801\r\n\r\n**Full Changelog**: https://github.com/ninoseki/mitaka/compare/v2.0.1...v2.1.0"
     },
@@ -3057,8 +3057,8 @@
     "https://github.com/projectdiscovery/nuclei": {
         "created_at": "2024-04-08 20:54:14",
         "description": "Fast and customizable vulnerability scanner based on simple YAML based DSL.",
-        "commit_message": "Merge pull request #4986 from projectdiscovery/feat-3072-init-adaptive-speed\n\nInitial Refactor for speed control",
-        "commit_date": "2024-04-09 23:49:33",
+        "commit_message": "missing mhe check in http payloads (#5099)\n\n* go mod tidy\r\n\r\n* fix spm missing hosterrorcheck + improvements\r\n\r\n---------\r\n\r\nCo-authored-by: sandeep <8293321+ehsandeep@users.noreply.github.com>",
+        "commit_date": "2024-04-24 14:04:13",
         "release_date": "2024-04-08 21:31:01",
         "release_message": "<!-- Release notes generated using configuration in .github/release.yml at main -->\r\n\r\n## What's Changed\r\n\r\n* **Fixed an issue for templates with dynamic extractor + payloads edgecase** by @tarunKoyalwar in https://github.com/projectdiscovery/nuclei/pull/5016\r\n* Fixed missing JSON schema definitions by @RamanaReddy0M in https://github.com/projectdiscovery/nuclei/pull/4995\r\n* Fixed index out of range panic with fuzzing templates by @tarunKoyalwar in https://github.com/projectdiscovery/nuclei/pull/4998\r\n* Fixed missing interactsh expression evaluation in fuzzing template by @tarunKoyalwar in https://github.com/projectdiscovery/nuclei/pull/5019\r\n* Fixed missing IP in javascript templates by @tarunKoyalwar in https://github.com/projectdiscovery/nuclei/pull/5023\r\n* Fixed invalid port in jsonl output for ssl templates by @tarunKoyalwar in https://github.com/projectdiscovery/nuclei/pull/5023\r\n* **Added ASREProastable method in LDAP module** by @daffainfo in https://github.com/projectdiscovery/nuclei/pull/4990\r\n\r\n## New Contributors\r\n* @hanghuge made their first contribution in https://github.com/projectdiscovery/nuclei/pull/5004\r\n* @daffainfo made their first contribution in https://github.com/projectdiscovery/nuclei/pull/4990\r\n\r\n**Full Changelog**: https://github.com/projectdiscovery/nuclei/compare/v3.2.3...v3.2.4"
     },
@@ -3364,8 +3364,8 @@
     "https://github.com/bit4woo/domain_hunter_pro": {
         "created_at": "2023-04-18 00:03:06",
         "description": "domain_hunter的高级版本，SRC挖洞、HW打点之必备！自动化资产收集；快速Title获取；外部工具联动；等等",
-        "commit_message": "Update SearchResultEntry.java",
-        "commit_date": "2024-04-07 11:24:32",
+        "commit_message": "update",
+        "commit_date": "2024-04-23 09:59:35",
         "release_date": "2023-04-18 00:34:58",
         "release_message": "全局：\r\n多个bug修复\r\n布局模式优化\r\n基础方法实现逻辑优化\r\n\r\n右键菜单：\r\n“Do Search”提供主动在制定请求中进行搜索的能力，比如在某企业邮箱的流量中搜索以提取邮箱地址\r\n“Add Request And Comment”右键菜单添逻辑优化，修复一个bug\r\n“Send To Tool Panel”右键菜单处理逻辑优化，可合并发送多个数据包内容\r\n\r\nDomain面板：\r\nroot domain的comments逻辑更新\r\n提供多个网络搜索引擎的后台自动搜索功能\r\nroot domain双击，自动在浏览器中访问\r\n修改目标根域名删除失败的bug\r\n显示序号，以便在排序后恢复原始顺序\r\n\r\nTool面板：\r\n重写JTextArea的paste函数，避免大内容导致程序卡死\r\nJTextArea支持输入文件，而程序处理其内容。\r\n文本取提供简单的历史记录功能\r\nJSON提取逻辑优化\r\n新增多个功能，比如排序\r\n优化URL提取逻辑，避免遗漏没有以/开头的path\r\n\r\nTitle面板中：\r\n端口扫描命令生成逻辑优化\r\n备注和IP内容的显示优化，显示前排序\r\n备注添加逻辑优化\r\n给手动添加的记录添加已知的IP和CNAME、CertInfo\r\n搜索功能增强，支持对数字型字段进行大于、小于、等于等搜索\r\n添加多个搜索实例，以便用户熟悉搜索语法\r\n新增“Do Request Item Again”菜单，对DNS记录或无响应的数据包进行再次请求"
     },
@@ -3424,12 +3424,12 @@
         "release_message": ""
     },
     "https://github.com/yogeshojha/rengine": {
-        "created_at": "2024-01-15 04:56:01",
+        "created_at": "2024-04-20 11:41:11",
         "description": "reNgine is an automated reconnaissance framework for web applications with a focus on highly configurable streamlined recon process via Engines, recon data correlation and organization, continuous monitoring, backed by a database, and simple yet intuitive User Interface. reNgine makes it easy for penetration testers to gather reconnaissance with minimal configuration and with the help of reNgine's correlation, it just makes recon effortless.",
-        "commit_message": "Merge pull request #1225 from yogeshojha/revert-1196-add-debug-conf\n\nRevert \"Complete dev environment to debug/code easily\"",
-        "commit_date": "2024-04-01 13:57:06",
-        "release_date": "2024-01-25 14:50:19",
-        "release_message": "### Bug Fixes \r\n\r\n## What's Changed\r\n* CI: update GitHub action versions by @jxdv in https://github.com/yogeshojha/rengine/pull/1136\r\n* Fixed (subdomain_discovery | ERROR | local variable 'use_amass_config' referenced before assignment) by @Deathpoolxrs in https://github.com/yogeshojha/rengine/pull/1149\r\n* chore: update LICENSE by @jxdv in https://github.com/yogeshojha/rengine/pull/1153\r\n* Fix subdomains list empty in Target by @psyray in https://github.com/yogeshojha/rengine/pull/1166\r\n* Fix top menu text overflow in low resolution by @psyray in https://github.com/yogeshojha/rengine/pull/1167\r\n* Update auto comment workflow due to deprecation warnings by @ErdemOzgen in https://github.com/yogeshojha/rengine/pull/1126\r\n* Change Redirect URL after login to prevent 500 error by @psyray in https://github.com/yogeshojha/rengine/pull/1124\r\n* fix-1030: Add missing slug on target summary link by @psyray in https://github.com/yogeshojha/rengine/pull/1123\r\n\r\n## New Contributors\r\n* @Deathpoolxrs made their first contribution in https://github.com/yogeshojha/rengine/pull/1149\r\n* @ErdemOzgen made their first contribution in https://github.com/yogeshojha/rengine/pull/1126\r\n\r\n**Full Changelog**: https://github.com/yogeshojha/rengine/compare/v2.0.2...v2.0.3"
+        "commit_message": "Merge pull request #1235 from yogeshojha/release/2.0.5\n\nRelease/2.0.5",
+        "commit_date": "2024-04-20 11:41:11",
+        "release_date": "2024-04-20 11:42:09",
+        "release_message": "## What's Changed\r\n* Fix celery unable to load apps\r\n"
     },
     "https://github.com/rootclay/WMIHACKER": {
         "created_at": "2020-07-02 06:57:25",
@@ -7671,8 +7671,8 @@
     "https://github.com/locustio/locust": {
         "created_at": "2024-04-18 20:22:42",
         "description": "Write scalable load tests in plain Python 🚗💨",
-        "commit_message": "Merge pull request #2684 from tdadela/small_cleanup_mypy_ignore_and_deps\n\nSmall cleanup: mypy type-ignore and dev deps",
-        "commit_date": "2024-04-19 20:10:30",
+        "commit_message": "Merge pull request #2685 from Sawiq/master\n\nAllow worker process to run with --run-time specified, just log a warning",
+        "commit_date": "2024-04-22 20:42:51",
         "release_date": "2024-04-18 20:22:50",
         "release_message": "## What's Changed\r\n* Drop support for Python 3.8 by @cyberw in https://github.com/locustio/locust/pull/2677\r\n* Update geventhttpclient and adjust FastHttpUser max_retries / max_redirects by @cyberw in https://github.com/locustio/locust/pull/2676\r\n* Remove python 3.8 compatibility code by @cyberw in https://github.com/locustio/locust/pull/2679\r\n* Add ruff pre commit hook by @cyberw in https://github.com/locustio/locust/pull/2680\r\n* Reformat and lint stuff. And pin gevenhttpclient version by @cyberw in https://github.com/locustio/locust/pull/2682\r\n\r\n\r\n**Full Changelog**: https://github.com/locustio/locust/compare/2.25.0...2.26.0"
     },
@@ -8566,8 +8566,8 @@
     "https://github.com/nomi-sec/PoC-in-GitHub": {
         "created_at": "2019-12-08 13:03:54",
         "description": "📡 PoC auto collect from GitHub. ⚠️ Be careful Malware.",
-        "commit_message": "Auto Update 2024/04/23 00:33:33",
-        "commit_date": "2024-04-23 00:33:33"
+        "commit_message": "Auto Update 2024/04/25 00:30:51",
+        "commit_date": "2024-04-25 00:30:51"
     },
     "https://github.com/Ridter/CVE-2017-11882": {
         "created_at": "2017-11-21 05:55:53",
@@ -19284,12 +19284,12 @@
         "commit_message": "Merge pull request #5 from ar7z1/fix-link-to-microsoft-advisory\n\nFix link to Microsoft advisory"
     },
     "https://github.com/jumpserver/jumpserver": {
-        "created_at": "2024-03-26 03:42:08",
+        "created_at": "2024-04-23 11:40:34",
         "description": "JumpServer 是广受欢迎的开源堡垒机，是符合 4A 规范的专业运维安全审计系统。",
-        "commit_message": "fix: Luna引导下载版本更新",
-        "commit_date": "2024-04-09 12:10:30",
-        "release_date": "2024-03-27 02:25:44",
-        "release_message": "# 一、安装和升级\r\n\r\n## 1.1 在线方式 ✈️\r\n\r\n仅需两步快速安装 JumpServer：\r\n\r\n1. 准备一台 4核8G （最低）且可以访问互联网的 64 位 Linux 主机；\r\n2. 以 root 用户执行如下命令一键安装 JumpServer。\r\n\r\n国内用户\r\n``` sh\r\ncurl -sSL https://resource.fit2cloud.com/jumpserver/jumpserver/releases/latest/download/quick_start.sh | bash\r\n```\r\n\r\n海外用户\r\n``` sh\r\ncurl -sSL https://github.com/jumpserver/jumpserver/releases/latest/download/quick_start.sh | bash\r\n```\r\n\r\n## 1.2 离线方式 🚢\r\n\r\n[离线安装包下载地址](https://community.fit2cloud.com/#/download/jumpserver/v3-10-7)\r\n\r\n详细安装和升级文档请参考：[完整文档](https://docs.jumpserver.org/zh/v3/) \r\n\r\n\r\n# 二、更新日志\r\n\r\n## 2.1 问题修复 🐛\r\n\r\n- fix: 修复 Celery 定时任务偶尔不执行的问题\r\n- fix: 修复 JumpServer 作业管理中 Ansible Playbook 文件存在 JinJa2 模版代码注入导致的 Celery 容器远程执行的漏洞\r\n- fix: 修复 JumpServer 作业管理中 Ansible Playbook 文件存在参数验证缺陷导致的 Celery 容器远程执行的漏洞\r\n- fix: 修复 Oracle 数据库使用 Service name 连接报错的问题（Chen）【企业版】"
+        "commit_message": "feat: Support asset tree node drag to another one",
+        "commit_date": "2024-04-24 10:05:51",
+        "release_date": "2024-04-23 13:38:40",
+        "release_message": "# 一、安装和升级\r\n\r\n## 1.1 在线方式 ✈️\r\n\r\n仅需两步快速安装 JumpServer：\r\n\r\n1. 准备一台 4核8G （最低）且可以访问互联网的 64 位 Linux 主机；\r\n2. 以 root 用户执行如下命令一键安装 JumpServer。\r\n\r\n国内用户\r\n``` sh\r\ncurl -sSL https://resource.fit2cloud.com/jumpserver/jumpserver/releases/latest/download/quick_start.sh | bash\r\n```\r\n\r\n海外用户\r\n``` sh\r\ncurl -sSL https://github.com/jumpserver/jumpserver/releases/latest/download/quick_start.sh | bash\r\n```\r\n\r\n## 1.2 离线方式 🚢\r\n\r\n[离线安装包下载地址](https://community.fit2cloud.com/#/download/jumpserver/v3-10-9)\r\n\r\n详细安装和升级文档请参考：[完整文档](https://docs.jumpserver.org/zh/v3/) \r\n\r\n\r\n# 二、更新日志\r\n\r\n## 2.1 功能优化 🚀 \r\n\r\n- perf: 优化连接 Kubernetes 资产账号没有 Namespace 权限时提示并允许直接连接 Cluster\r\n- perf: 优化用户频繁发送短信的提示信息\r\n- perf: 优化 Web GUI 方式连接远程应用时使用平台中的 `rdp` 协议高级选项参数建立连接（Lion）\r\n- perf: 优化 Web 资产详情代填信息显示不准确的问题\r\n- perf: 优化支持使用 MySQL 模块对 MariaDB 数据库执行快捷命令\r\n- perf: 优化更新资产时当前页面打开的问题（选中节点后创建/更新资产在新窗口打开，直接更新在当前窗口打开）\r\n\r\n## 2.2 问题修复 🐛\r\n\r\n- fix: 修复 Ansible 任务运行使用 NFS 挂载目录时执行失败的问题（使用 TCP 通信）（Receptor）\r\n- fix: 修复仪表盘页面会话用户、资产排名数量不准确的问题\r\n- fix: 修复快捷命令中账号选择列表的排序问题\r\n- fix: 修复命令记录取消 `output` 字段长度限制\r\n- fix: 修复自定义平台的华为交换机执行命令失败的问题，华为交换机平台的名称中必须含 `华为` 或 `huawei`（不区分大小写） 关键字\r\n- fix: 修复当内置 Linux 平台 `id` 不为 `1` 时，创建网关报错的问题（[issue](https://github.com/jumpserver/jumpserver/issues/13090)）\r\n- fix: 修复 `gunicorn.log` 系统日志文件中频繁出现 Profile API（`/api/v1/users/profile/`）请求的问题\r\n- fix: 修复用户首次登录时卡住的问题（SYSTEM 组织的用户）【企业版】\r\n\r\n"
     },
     "https://github.com/random-robbie/cve-2020-0688": {
         "created_at": "2020-02-25 23:44:16",
@@ -21943,8 +21943,8 @@
     "https://github.com/apache/logging-log4j2": {
         "created_at": "2024-03-10 19:05:47",
         "description": "Apache Log4j 2 is a versatile, feature-rich, efficient logging API and backend for Java.",
-        "commit_message": "Discard blank keys in `PropertiesUtil`",
-        "commit_date": "2024-04-23 10:08:07",
+        "commit_message": "Add `days-before-stale`",
+        "commit_date": "2024-04-24 11:59:00",
         "release_date": "2024-03-10 19:24:14",
         "release_message": "This release contains several small fixes and some dependency updates.\r\n\r\n### Changed\r\n\r\n* Improve performance of `CloseableThreadContext#closeMap()` (#2296)\r\n\r\n### Fixed\r\n\r\n* Fix handling of `LoggerContextAware` lookups (#2309)\r\n* Fix NPE in `PatternProcessor` for a `UNIX_MILLIS` pattern (#2346)\r\n* Fix that parameterized message formatting doesn't throw an exception when there are insufficient number of parameters (#2343)\r\n* Fix `StatusLogger` log level filtering when debug mode is enabled (#2337)\r\n* Add `log4j2.StatusLogger.dateFormatZone` system property to set the time-zone `StatusLogger` uses to format `java.time.Instant`. Without this, formatting patterns accessing to time-zone-specific fields (e.g., year-of-era) cause failures. (#2322)\r\n* Fix `StatusLogger` to correctly read `log4j2.StatusLogger.properties` resource (#2354)\r\n* Fix stack overflow in `StatusLogger` (#2322)\r\n\r\n### Updated\r\n\r\n* Update `jakarta.activation:jakarta.activation-api` to version `2.1.3` (#2335)\r\n* Update `jakarta.mail:jakarta.mail-api` to version `2.1.3` (#2348)\r\n* Update `org.apache.commons:commons-compress` to version `1.26.0` (#2304)\r\n* Update `org.apache.commons:commons-dbcp2` to version `2.12.0` (#2344)\r\n* Update `org.apache.kafka:kafka-clients` to version `3.7.0` (#2326)\r\n* Update `org.eclipse.angus:angus-activation` to version `2.0.2` (#2336)\r\n* Update `org.eclipse.angus:jakarta.mail` to version `2.0.3` (#2349)\r\n"
     },
@@ -22778,7 +22778,7 @@
         "created_at": "2024-04-10 05:54:55",
         "description": "一款Go Wails实现的GUI工具，功能涵盖网站扫描、端口扫描、企业信息收集、子域名暴破、空间引擎搜索、CDN识别等",
         "commit_message": "update",
-        "commit_date": "2024-04-12 08:59:05",
+        "commit_date": "2024-04-17 15:26:11",
         "release_date": "2024-04-10 06:08:10",
         "release_message": "新增：\r\n1、JSFinder功能\r\n2、目录扫描增加查看数据包返回内容（默认输出json格式），并增加字典内容文本框联动JSFinder功能\r\n3、Hunter、FOFA模块增加URL批量复制功能\r\n\r\n优化：\r\n1、优化日志功能，此处部分局部日志，改为全局日志\r\n2、设置模块调整布局，增加代理启用检测功能\r\n3、目录扫描模块删除重定向列地址显示，改为icon显示路径是否存在重定向跳转，增加错误次数过滤，增加交互提示\r\n\r\n修复：\r\n1、目录扫描重复数据次数记录错误（原来错写成记录状态码出现次数）\r\n2、修复公司名称收集域名时无法获取到域名的问题，由于天眼查人机校验反爬目前天眼查爬备案的接口先暂停使用。\r\n"
     },
@@ -23567,7 +23567,7 @@
         "created_at": "2020-04-04 14:54:04",
         "description": "⚔️ Web Hacker's Weapons / A collection of cool tools used by Web hackers. Happy hacking , Happy bug-hunting",
         "commit_message": "Deploy README.md and Categorize Docs",
-        "commit_date": "2024-04-04 15:50:48"
+        "commit_date": "2024-04-23 06:40:40"
     },
     "https://github.com/charonlight/NacosExploitGUI": {
         "created_at": "2024-01-01 10:38:50",
@@ -26312,8 +26312,8 @@
     "https://github.com/WangYihang/USB-Mouse-Pcap-Visualizer": {
         "created_at": "2017-04-04 21:00:40",
         "description": "USB mouse traffic packet forensic tool, mainly used to draw mouse movements and dragging trajectories",
-        "commit_message": "fix: add custom cursor div",
-        "commit_date": "2024-03-13 15:11:42"
+        "commit_message": "build: poetry update",
+        "commit_date": "2024-04-08 02:23:37"
     },
     "https://github.com/AabyssZG/Web-SurvivalScan": {
         "created_at": "2023-12-21 06:01:17",
@@ -27061,7 +27061,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "172.183.53.39属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "172.183.106.62属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
@@ -27080,8 +27080,8 @@
         "description": "Reverse IP Lookup - All Names Hosted at an IP - DomainTools"
     },
     "https://www.webscan.cc/": {
-        "status_code": 200,
-        "description": "同IP网站查询,C段查询,IP反查域名,在线C段,旁站工具 - WebScan"
+        "status_code": 502,
+        "description": "www.webscan.cc | 502: Bad gateway"
     },
     "https://gofile.io/": {
         "status_code": 200,
@@ -27478,5 +27478,11 @@
         "description": "Automatically scan the inner network to detect whether they are vulnerable.",
         "commit_message": "Update README.md",
         "commit_date": "2021-04-17 01:42:06"
+    },
+    "https://github.com/AnyeDuke/Enterprise-Security-Skill": {
+        "created_at": "2018-09-06 01:08:20",
+        "description": "用于记录企业安全规划，建设，运营，攻防的相关资源",
+        "commit_message": "Update README.md",
+        "commit_date": "2019-11-12 09:18:28"
     }
 }
