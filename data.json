@@ -3921,12 +3921,12 @@
         "release_message": "## Changelog\n* 9aa9e173b ci: use tmp dir inside Trivy repo dir for GoReleaser (#6533)\n* 058f4839d chore(deps): bump golang.org/x/net from 0.21.0 to 0.23.0 (#6526)\n* 9e3d2c5f9 chore(deps): bump github.com/hashicorp/go-getter from 1.7.3 to 1.7.4 (#6523)\n* 2ad8e332e fix(java): update logic to detect `pom.xml` file snapshot artifacts from remote repositories (#6412)\n\n"
     },
     "https://github.com/anchore/grype": {
-        "created_at": "2024-02-26 18:24:10",
+        "created_at": "2024-04-18 19:14:34",
         "description": "A vulnerability scanner for container images and filesystems",
-        "commit_message": "chore(deps): update bootstrap tools to latest versions (#1776)\n\nSigned-off-by: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>\r\nCo-authored-by: westonsteimel <1593939+westonsteimel@users.noreply.github.com>",
-        "commit_date": "2024-03-30 21:50:51",
-        "release_date": "2024-02-26 18:32:14",
-        "release_message": "### Bug Fixes\r\n\r\n- return exit codes from install script [[#1725](https://github.com/anchore/grype/pull/1725) @hacst]\r\n- GitHub code scanning alerts missing information [[#1715](https://github.com/anchore/grype/issues/1715) [#1720](https://github.com/anchore/grype/pull/1720) @kzantow]\r\n\r\n### Additional Changes\r\n\r\n- update Syft to v0.105.1 [[#1728](https://github.com/anchore/grype/pull/1728)]\r\n\r\n**[(Full Changelog)](https://github.com/anchore/grype/compare/v0.74.6...v0.74.7)**\r\n\r\n"
+        "commit_message": "chore(deps): bump github.com/gkampitakis/go-snaps from 0.5.3 to 0.5.4 (#1824)\n\nBumps [github.com/gkampitakis/go-snaps](https://github.com/gkampitakis/go-snaps) from 0.5.3 to 0.5.4.\r\n- [Release notes](https://github.com/gkampitakis/go-snaps/releases)\r\n- [Commits](https://github.com/gkampitakis/go-snaps/compare/v0.5.3...v0.5.4)\r\n\r\n---\r\nupdated-dependencies:\r\n- dependency-name: github.com/gkampitakis/go-snaps\r\n  dependency-type: direct:production\r\n  update-type: version-update:semver-patch\r\n...\r\n\r\nSigned-off-by: dependabot[bot] <support@github.com>\r\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
+        "commit_date": "2024-04-25 20:57:09",
+        "release_date": "2024-04-18 19:22:34",
+        "release_message": "### Added Features\n\n- add linux and libc-dev headers ignore rules for debian packages [[#1809](https://github.com/anchore/grype/pull/1809) @zhill]\n- use Go main module version when possible [[#1797](https://github.com/anchore/grype/pull/1797) @luhring]\n\n### Additional Changes\n\n- Add providers' pull date to DB metadata structure [[#1795](https://github.com/anchore/grype/pull/1795) @asomya]\n- config: add config opt in golang pseudo version main module comparison [[#1816](https://github.com/anchore/grype/pull/1816) @spiffcs]\n\n**[(Full Changelog)](https://github.com/anchore/grype/compare/v0.76.0...v0.77.0)**\n\n"
     },
     "https://github.com/Metarget/metarget": {
         "created_at": "2021-04-09 04:20:47",
@@ -6463,8 +6463,8 @@
     "https://github.com/horsicq/DIE-engine": {
         "created_at": "2023-12-28 19:55:00",
         "description": "DIE engine",
-        "commit_message": "Update module: Detect-It-Easy 2024-04-24",
-        "commit_date": "2024-04-23 22:34:47",
+        "commit_message": "Update module: XArchive 2024-04-25",
+        "commit_date": "2024-04-24 22:18:47",
         "release_date": "2023-12-28 21:22:21",
         "release_message": "Please see the file [CHANGELOG](https://github.com/horsicq/Detect-It-Easy/blob/master/changelog.txt) for a detailed list of changes.\r\n\r\n\r\n| Asset / File | Description / Host OS |\r\n| ----------- | ----------- |\r\n| [die_sourcecode_3.09.tar.gz](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_sourcecode_3.09.tar.gz) | Source code tarball |\r\n| [Detect_It_Easy-3.09-x86_64.AppImage](https://github.com/horsicq/DIE-engine/releases/download/3.09/Detect_It_Easy-3.09-x86_64.AppImage) | Portable version for Linux [How to run](https://github.com/horsicq/Detect-It-Easy/blob/master/docs/RUN.md) |\r\n| [die_3.09_Debian_10_amd64.deb](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_Debian_10_amd64.deb) | Installer for Debian 10 |\r\n| [die_3.09_Debian_11_amd64.deb](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_Debian_11_amd64.deb) | Installer for Debian 11 |\r\n| [die_3.09_Debian_12_amd64.deb](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_Debian_12_amd64.deb) | Installer for Debian 12 |\r\n| [die_3.09_Ubuntu_14.04_amd64.deb](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_Ubuntu_14.04_amd64.deb) | Installer for Ubuntu 14.04 |\r\n| [die_3.09_Ubuntu_16.04_amd64.deb](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_Ubuntu_16.04_amd64.deb) | Installer for Ubuntu 16.04 |\r\n| [die_3.09_Ubuntu_18.04_amd64.deb](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_Ubuntu_18.04_amd64.deb) | Installer for Ubuntu 18.04 |\r\n| [die_3.09_Ubuntu_20.04_amd64.deb](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_Ubuntu_20.04_amd64.deb) | Installer for Ubuntu 20.04 |\r\n| [die_3.09_Ubuntu_22.04_amd64.deb](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_Ubuntu_22.04_amd64.deb) | Installer for Ubuntu 22.04 |\r\n| [die_3.09_Ubuntu_22.10_amd64.deb](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_Ubuntu_22.10_amd64.deb) | Installer for Ubuntu 22.10 |\r\n| [die_3.09_Ubuntu_23.04_amd64.deb](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_Ubuntu_23.04_amd64.deb) | Installer for Ubuntu 23.04 |\r\n| [die_3.09_Ubuntu_23.10_amd64.deb](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_Ubuntu_23.10_amd64.deb) | Installer for Ubuntu 23.10 |\r\n| [die_3.09_Kali_2023.4_amd64](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_Kali_2023.4_amd64) | Installer for Kali 2023.4 |\r\n| [die_3.09_Parrot_5.3_amd64.deb](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_Parrot_5.3_amd64.deb) | Installer for Parrot 5.3 |\r\n| [die_3.09_portable_Ubuntu_20.04_amd64.tar.gz](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_portable_Ubuntu_20.04_amd64.tar.gz) | Portable version for Ubuntu 20.04 |\r\n| [detect-it-easy-3.09-1-x86_64.pkg.tar.zst](https://github.com/horsicq/DIE-engine/releases/download/3.09/detect-it-easy-3.09-1-x86_64.pkg.tar.zst) | Installer for Arch Linux |\r\n| [die_mac_3.09_x86_64.pkg](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_mac_3.09_x86_64.pkg) | Installer for macOS |\r\n| [die_mac_qt6_3.09_arm64.pkg](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_mac_qt6_3.09_arm64.pkg) | Installer for macOS Qt6 M1 processor|\r\n| [die_mac_portable_3.09_x86_64.zip](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_mac_portable_3.09_x86_64.zip) | Portable version for macOS |\r\n| [die_win32_portable_3.09_x86.zip](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_win32_portable_3.09_x86.zip) | Portable version for x86 Win32 (Win7-Win11)|\r\n| [die_win64_portable_3.09_x64.zip](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_win64_portable_3.09_x64.zip) | Portable version for x64 Win64 (Win7-Win11) |\r\n| [die_winxp_portable_3.09_x86.zip](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_winxp_portable_3.09_x86.zip) | Portable version for Windows XP (WinXP-Win11) |\r\n\r\n\r\nExperimental versions - There may be bugs in the GUI\r\n\r\n| Asset / File | Description / Host OS |\r\n| ----------- | ----------- |\r\n| [die_win64_qt6_portable_3.09_x64.zip](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_win64_qt6_portable_3.09_x64.zip) | Portable version for x64 Win64 Qt6 (Win10-Win11)|\r\n"
     },
@@ -22387,8 +22387,12 @@
         "release_message": "这是64位的，shellcode要求为64位"
     },
     "https://github.com/qwqdanchun/Pillager": {
-        "created_at": "2023-04-23 23:07:50",
-        "description": "Pillager是一个适用于后渗透期间的信息收集工具"
+        "created_at": "2024-02-12 04:29:40",
+        "description": "Pillager是一个适用于后渗透期间的信息收集工具",
+        "commit_message": "update",
+        "commit_date": "2024-02-12 04:29:40",
+        "release_date": "2024-02-12 04:30:57",
+        "release_message": ""
     },
     "https://github.com/veo/vagent": {
         "created_at": "2023-05-11 03:08:53",
@@ -22636,8 +22640,8 @@
     "https://github.com/whyour/qinglong": {
         "created_at": "2021-03-13 15:21:04",
         "description": "支持 Python3、JavaScript、Shell、Typescript 的定时任务管理平台（Timed task management platform supporting Python3, JavaScript, Shell, Typescript）",
-        "commit_message": "修复 text/plain body 格式化",
-        "commit_date": "2024-04-16 06:06:32"
+        "commit_message": "修复脚本管理上传文件文件名乱码",
+        "commit_date": "2024-04-22 14:39:27"
     },
     "https://github.com/nelenkov/android-backup-extractor": {
         "created_at": "2012-06-08 13:33:46",
@@ -22932,12 +22936,12 @@
         "release_message": ""
     },
     "https://github.com/yhy0/Jie": {
-        "created_at": "2024-03-26 15:09:04",
+        "created_at": "2024-04-12 13:20:35",
         "description": "Jie stands out as a comprehensive security assessment and exploitation tool meticulously crafted for web applications. Its robust suite of features encompasses vulnerability scanning, information gathering, and exploitation, elevating it to an indispensable toolkit for both security professionals and penetration testers.(expectations)",
-        "commit_message": "fix report html;update katana",
-        "commit_date": "2024-03-26 15:09:04",
-        "release_date": "2024-03-26 15:12:26",
-        "release_message": "## Changelog\n* ac28656 fix report html;update katana\n* d17dbd8 fix sql injection panic\n* 87d77d6 报错检测不返回body\n* cd803f1 replaced sizedwaitgroup\n* 8700773 证书详细说明\n* 937c66c update fastjsn scan format\n* 43d0429 更新 nuclei、sensitive keys;一些错误检查正则预编译\n* 57ebfec format\n* b081661 update re2@1.5.1\n* 25b7a9d regexp替换速度更快的re2\n\n"
+        "commit_message": "add wih",
+        "commit_date": "2024-04-17 11:41:48",
+        "release_date": "2024-04-12 13:29:11",
+        "release_message": "## Changelog\n* b64c99f update 1.0.8\n* 5ae15ea map 并发加锁\n* 8d70cee 修复指纹控制导致的POC插件不起作用的 BUG\n* 76b1918 sql注入检测超时控制\n* db2c851 update go-mitmproxy\n\n"
     },
     "https://github.com/TryGOTry/CobaltStrike_Cat_4.5": {
         "created_at": "",
@@ -25296,7 +25300,7 @@
     },
     "https://cmd5.la/": {
         "status_code": 200,
-        "description": "md5解密、cmd5在线解密、加密工具 - 查md5啦[cmd5.la]"
+        "description": "md5解密_cmd5在线解密_加密工具 - 查md5啦[cmd5.la]"
     },
     "https://www.onlinehashcrack.com/": {
         "status_code": 200,
@@ -25647,8 +25651,8 @@
     "https://github.com/future-architect/vuls": {
         "created_at": "2024-03-22 07:27:34",
         "description": "Agent-less vulnerability scanner for Linux, FreeBSD, Container, WordPress, Programming language libraries, Network devices",
-        "commit_message": "(fix) Exclude dev dependencies from npm's package-lock.json and Fix Java DB download endpoint (#1893)\n\n* (fix) Exclude dev dependencies from npm's package-lock.json\r\n\r\n* chore(integration) update\r\n\r\n* choir(integration) add lib scan names to makefile\r\n\r\n* fix(javadb) add schema version only once",
-        "commit_date": "2024-04-17 08:23:57",
+        "commit_message": "style(log) fix trivy scan page link (#1902)",
+        "commit_date": "2024-04-25 10:20:42",
         "release_date": "2024-03-22 07:59:36",
         "release_message": "This release includes one additional feature and some bug fixes.\r\nIf you use Amazon Linux 2023, you have to harry to update.\r\n\r\n## New feature\r\n* Some enterprise features of WPScan are now added to scan results.\r\n  - 50580f6 feat(wpscan): support enterprise feature (#1875)\r\n\r\n## (Potential) Incompatibilities\r\n* Names and Versions of JAR-like files of scan results can be overwritten at `vuls result` phase.\r\n  - These values after `vuls scan` phase may be incorrect or insufficient because Trivy's Java DB is not used at the phase.\r\n  - Correct them at `vuls report` phase with the help of Java DB.\r\n  - 99cf9db feat(detector/library): update JAR-like files' Name/Version in library list (#1874)\r\n\r\n## Bug fixes\r\n* Amazon Linux 2023 have changed its release version format in `/etc/amazon-linux-release`\r\n  - It causes inability of EOL detection at `vuls scan` phase and failure of vulnerability detection at `vuls report` phase.\r\n  - No vulnerabilities are detected unless this bug fix, please update quickly if you use Amazon Linux 2023.\r\n  - e1df74c fix(amazon): use major version for checking eol, security advisories (#1873)\r\n\r\n## Misc Changes\r\n* e25ec99 chore(deps): bump github.com/aws/aws-sdk-go from 1.49.21 to 1.51.5 (#1881)\r\n* 472df0e chore(deps): update dictionary modules (#1877)\r\n* 7d5a47b chore(deps): bump github.com/docker/docker (#1880)\r\n* 426eb53 chore(deps): bump github.com/jackc/pgx/v5 from 5.5.1 to 5.5.4 (#1872)\r\n* bda089b chore(deps): bump google.golang.org/protobuf from 1.32.0 to 1.33.0 (#1871)\r\n* 02d1f6f chore(deps): bump golang.org/x/oauth2 from 0.17.0 to 0.18.0 (#1868)\r\n\r\n## New Contributors\r\n* @future-ryunosuketanai made their first contribution in https://github.com/future-architect/vuls/pull/1875\r\n\r\n**Full Changelog**: https://github.com/future-architect/vuls/compare/v0.25.1...v0.25.2"
     },
@@ -26282,8 +26286,8 @@
     "https://github.com/Y1-K1NG/poc_exp": {
         "created_at": "2023-12-18 06:32:40",
         "description": "持续更新poc/exp,后续会加入yaml,敬请关注",
-        "commit_message": "20240412",
-        "commit_date": "2024-04-12 15:59:04"
+        "commit_message": "20240420",
+        "commit_date": "2024-04-20 13:02:34"
     },
     "https://github.com/python-security/pyt": {
         "created_at": "2018-11-01 16:01:20",
@@ -27061,7 +27065,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "172.183.106.62属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "20.55.14.226属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
@@ -27080,8 +27084,8 @@
         "description": "Reverse IP Lookup - All Names Hosted at an IP - DomainTools"
     },
     "https://www.webscan.cc/": {
-        "status_code": 502,
-        "description": "www.webscan.cc | 502: Bad gateway"
+        "status_code": 530,
+        "description": "Argo Tunnel error | www.webscan.cc | Cloudflare"
     },
     "https://gofile.io/": {
         "status_code": 200,
@@ -27089,7 +27093,7 @@
     },
     "https://whois.aizhan.com/": {
         "status_code": 200,
-        "description": "站长工具_whois查询工具_爱站网"
+        "description": ""
     },
     "https://rapiddns.io/sameip": {
         "status_code": 200,
@@ -27252,8 +27256,8 @@
         "description": "Just a moment..."
     },
     "https://www.sqlsec.com/tools.html": {
-        "status_code": 522,
-        "description": "www.sqlsec.com | 522: Connection timed out"
+        "status_code": 200,
+        "description": "安全小公举 | 国光"
     },
     "https://patchchecker.com/": {
         "status_code": 200,
