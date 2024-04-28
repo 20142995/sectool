@@ -102,15 +102,22 @@
                 - http://tool.chacuo.net/cryptcast
             CryptoJS AES加密解密:
                 - http://www.66zan.cn/aesencrypt/
+                - https://www.sojson.com/encrypt_aes.html
             CryptoJS DES加密解密:
                 - http://www.66zan.cn/desencrypt/
+                - https://www.sojson.com/encrypt_des.html
             CryptoJS RC4加密解密:
                 - http://www.66zan.cn/rc4encrypt/
+                - https://www.sojson.com/encrypt_rc4.html
             CryptoJS Rabbit加密解密:
                 - http://www.66zan.cn/rabbitencrypt/
+                - https://www.sojson.com/encrypt_rabbit.html
             CryptoJS TripleDes加密解密:
                 - http://www.66zan.cn/tripledes/
                 - https://ctf.bugku.com/tool/tripledes
+                - https://www.sojson.com/encrypt_triple_des.html
+            CryptoJS 加密解密:
+                - https://www.sojson.com/encrypt.html
             DES加密:
                 - http://www.hiencode.com/cdes.html
             DNA基因序列编码:
@@ -182,8 +189,6 @@
                 - https://github.com/Mr-Aur0ra/RSA
                 - https://github.com/RsaCtfTool/RsaCtfTool
                 - https://github.com/pablocelayes/rsa-wiener-attack
-            Rabbit:
-                - https://www.sojson.com/encrypt_rabbit.html
             Rijndael加密解密:
                 - http://tool.chacuo.net/cryptrijndael
             Rot13密码:
@@ -240,8 +245,6 @@
                 - http://tool.chacuo.net/cryptchacha20
             cisco 密码解密:
                 - https://www.ifm.net.nz/cookbooks/passwordcracker.html
-            cryptojs加密解密:
-                - https://www.sojson.com/encrypt.html
             emoji-aes:
                 - https://aghorler.github.io/emoji-aes/
             hex转字符:

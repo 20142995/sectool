@@ -5,9 +5,9 @@ name: update_readme
 
 on:
   repository_dispatch:
-  push:
-    branches:
-      - main
+  # push:
+  #   branches:
+  #     - main
   workflow_dispatch:
   schedule:
     - cron: '0 3 * * *'

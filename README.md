@@ -103,15 +103,22 @@
 - <img src="https://favicon.qqsuu.cn/tool.chacuo.net" alt="" style="height: 20px;"> [在线Cast加密解密、Cast在线加密解密、Cast encryption and decryption--查错网](http://tool.chacuo.net/cryptcast) 
 #### CryptoJS AES加密解密
 - <img src="https://favicon.qqsuu.cn/www.66zan.cn" alt="" style="height: 20px;"> [www.66zan.cn](http://www.66zan.cn/aesencrypt/) 
+- <img src="https://favicon.qqsuu.cn/www.sojson.com" alt="" style="height: 20px;"> [www.sojson.com](https://www.sojson.com/encrypt_aes.html) 
 #### CryptoJS DES加密解密
 - <img src="https://favicon.qqsuu.cn/www.66zan.cn" alt="" style="height: 20px;"> [www.66zan.cn](http://www.66zan.cn/desencrypt/) 
+- <img src="https://favicon.qqsuu.cn/www.sojson.com" alt="" style="height: 20px;"> [www.sojson.com](https://www.sojson.com/encrypt_des.html) 
 #### CryptoJS RC4加密解密
 - <img src="https://favicon.qqsuu.cn/www.66zan.cn" alt="" style="height: 20px;"> [www.66zan.cn](http://www.66zan.cn/rc4encrypt/) 
+- <img src="https://favicon.qqsuu.cn/www.sojson.com" alt="" style="height: 20px;"> [www.sojson.com](https://www.sojson.com/encrypt_rc4.html) 
 #### CryptoJS Rabbit加密解密
 - <img src="https://favicon.qqsuu.cn/www.66zan.cn" alt="" style="height: 20px;"> [www.66zan.cn](http://www.66zan.cn/rabbitencrypt/) 
+- <img src="https://favicon.qqsuu.cn/www.sojson.com" alt="" style="height: 20px;"> [在线Rabbit加密 | Rabbit解密- 在线工具](https://www.sojson.com/encrypt_rabbit.html) 
 #### CryptoJS TripleDes加密解密
 - <img src="https://favicon.qqsuu.cn/www.66zan.cn" alt="" style="height: 20px;"> [www.66zan.cn](http://www.66zan.cn/tripledes/) 
 - <img src="https://favicon.qqsuu.cn/ctf.bugku.com" alt="" style="height: 20px;"> [Triple DES(3DES)加密/解密 - Bugku CTF](https://ctf.bugku.com/tool/tripledes) 
+- <img src="https://favicon.qqsuu.cn/www.sojson.com" alt="" style="height: 20px;"> [www.sojson.com](https://www.sojson.com/encrypt_triple_des.html) 
+#### CryptoJS 加密解密
+- <img src="https://favicon.qqsuu.cn/www.sojson.com" alt="" style="height: 20px;"> [在线加密/解密，对称加密/非对称加密](https://www.sojson.com/encrypt.html) 
 #### DES加密
 - <img src="https://favicon.qqsuu.cn/www.hiencode.com" alt="" style="height: 20px;"> [CTF在线工具-DES在线加解密|DES在线加密|DES在线解密|DES encryption|DES decryption](http://www.hiencode.com/cdes.html) 
 #### DNA基因序列编码
@@ -183,8 +190,6 @@
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [RSA](https://github.com/Mr-Aur0ra/RSA) 
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [CTF-RSA-tool](https://github.com/6u661e/CTF-RSA-tool) a little tool help CTFer solve RSA problem
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [rsa-wiener-attack](https://github.com/pablocelayes/rsa-wiener-attack) A Python implementation of the Wiener attack on RSA public-key en...
-#### Rabbit
-- <img src="https://favicon.qqsuu.cn/www.sojson.com" alt="" style="height: 20px;"> [在线Rabbit加密 | Rabbit解密- 在线工具](https://www.sojson.com/encrypt_rabbit.html) 
 #### Rijndael加密解密
 - <img src="https://favicon.qqsuu.cn/tool.chacuo.net" alt="" style="height: 20px;"> [在线Rijndael加密解密、Rijndael在线加密解密、Rijndael encryption and decryption--查错网](http://tool.chacuo.net/cryptrijndael) 
 #### Rot13密码
@@ -241,8 +246,6 @@
 - <img src="https://favicon.qqsuu.cn/tool.chacuo.net" alt="" style="height: 20px;"> [在线chacha20加密解密、chacha20在线加密解密、chacha20 encryption and decryption--查错网](http://tool.chacuo.net/cryptchacha20) 
 #### cisco 密码解密
 - <img src="https://favicon.qqsuu.cn/www.ifm.net.nz" alt="" style="height: 20px;"> [IFM - Cisco Password Cracker](https://www.ifm.net.nz/cookbooks/passwordcracker.html) 
-#### cryptojs加密解密
-- <img src="https://favicon.qqsuu.cn/www.sojson.com" alt="" style="height: 20px;"> [在线加密/解密，对称加密/非对称加密](https://www.sojson.com/encrypt.html) 
 #### emoji-aes
 - <img src="https://favicon.qqsuu.cn/aghorler.github.io" alt="" style="height: 20px;"> [emoji-aes](https://aghorler.github.io/emoji-aes/) 
 #### hex转字符
