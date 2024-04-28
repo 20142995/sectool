@@ -100,6 +100,16 @@
                 - http://www.hiencode.com/bubble.html
             Cast加密解密:
                 - http://tool.chacuo.net/cryptcast
+            CryptoJS AES加密解密:
+                - http://www.66zan.cn/aesencrypt/
+            CryptoJS DES加密解密:
+                - http://www.66zan.cn/desencrypt/
+            CryptoJS RC4加密解密:
+                - http://www.66zan.cn/rc4encrypt/
+            CryptoJS Rabbit加密解密:
+                - http://www.66zan.cn/rabbitencrypt/
+            CryptoJS TripleDes加密解密:
+                - http://www.66zan.cn/tripledes/
             DES加密:
                 - http://www.hiencode.com/cdes.html
             DNA基因序列编码:
@@ -313,6 +323,8 @@
                 - http://www.hiencode.com/tapcode.html
             文件破解:
                 - https://www.catpasswd.com/
+            文本盲水印:
+                - https://github.com/guofei9987/text_blind_watermark
             普莱菲尔密码:
                 - http://www.hiencode.com/playfair.html
             栅栏(RailFence)加密解密:
@@ -377,7 +389,13 @@
                 - http://www.atoolbox.net/Tool.php?Id=921
             零宽隐写:
                 - http://330k.github.io/misc_tools/unicode_steganography.html
+                - https://330k.github.io/misc_tools/unicode_steganography.html
+                - https://github.com/yuanfux/zero-width-lib
+                - https://www.guofei.site/pictures_for_blog/app/text_watermark/v1.html
+                - https://www.mzy0.com/ctftools/zerowidth1/
+                - https://www.mzy0.com/ctftools/zerowidth2/
                 - https://www.qqxiuzi.cn/bianma/yincangjiami.php
+                - https://yuanfux.github.io/zero-width-web/
             音乐符号加密:
                 - https://www.qqxiuzi.cn/bianma/wenbenjiami.php?s=yinyue
         Misc:
@@ -491,6 +509,7 @@
                         - https://github.com/lijiejie/log4j2_vul_local_scanner
                     Apache Shiro:
                         - https://github.com/Ares-X/shiro-exploit
+                        - https://github.com/Ggasdfg321/shiro_check
                         - https://github.com/SummerSec/ShiroAttack2
                         - https://github.com/dr0op/shiro-550-with-NoCC
                         - https://github.com/feihong-cs/ShiroExploit-Deprecated
@@ -711,7 +730,6 @@
                         - https://catbox.moe/
                         - https://cowtransfer.com/
                         - https://gofile.io/
-                        - https://seamless.icu/
                         - https://www.wenshushu.cn/
                     匿名邮箱:
                         - http://24mail.chacuo.net/
@@ -1149,6 +1167,7 @@
                 - https://github.com/anchore/syft
         信息收集:
             CDN识别:
+                - https://github.com/alwaystest18/cdnChecker
                 - https://github.com/boy-hack/w8fuckcdn
             C段信息收集:
                 - https://github.com/SleepingBag945/IPSearch
@@ -1214,7 +1233,6 @@
                 - https://github.com/code-scan/BroDomain
                 - https://github.com/euphrat1ca/LayerDomainFinder
                 - https://github.com/evilsocket/dnssearch
-                - https://github.com/exp-db/PythonPool/tree/master/Tools/DomainSeeker
                 - https://github.com/guelfoweb/knock
                 - https://github.com/gwen001/github-subdomains
                 - https://github.com/jonluca/Anubis
@@ -2035,6 +2053,7 @@
                     - https://github.com/uknowsec/SharpDecryptPwd
                     - https://github.com/wafinfo/TeamViewer
                     - https://github.com/xillwillx/MobaXterm-Decryptor
+                    - https://github.com/ybdt/mRemoteNG-Decryptor
                 邮件取证:
                     - https://github.com/b0bac/GetMail
             操作系统取证:
@@ -2243,7 +2262,6 @@
             - https://asrc.alibaba.com/#/
             - https://beisen.butian.net/
             - https://bsrc.baidu.com/views/main/index.html#home
-            - https://btcsrc.vulbox.com/
             - https://bugbounty.huawei.com/#/home
             - https://dida.butian.net/
             - https://dxysrc.vulbox.com/
@@ -2494,6 +2512,7 @@
         - https://github.com/fupinglee/Calculate_Captcha
     验证码识别:
         - https://github.com/81NewArk/StupidOCR
+        - https://github.com/hellokuls/cnnyzm
 综合:
     环境:
         http代理:
