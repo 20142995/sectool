@@ -110,6 +110,7 @@
                 - http://www.66zan.cn/rabbitencrypt/
             CryptoJS TripleDes加密解密:
                 - http://www.66zan.cn/tripledes/
+                - https://ctf.bugku.com/tool/tripledes
             DES加密:
                 - http://www.hiencode.com/cdes.html
             DNA基因序列编码:
@@ -199,8 +200,6 @@
                 - https://ctf.bugku.com/tool/sojson5
             Terple DES加密:
                 - http://www.hiencode.com/tdes.html
-            TripleDes(3DES)加密解密-采用CryptoJS:
-                - https://ctf.bugku.com/tool/tripledes
             Twofish加密解密:
                 - http://tool.chacuo.net/crypttwofish
             Type7密码加密解密:
