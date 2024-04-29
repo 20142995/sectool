@@ -37,56 +37,49 @@
                 - http://utf-8.jp/public/aaencode.html
                 - http://www.atoolbox.net/Tool.php?Id=703
                 - http://www.hiencode.com/aaencode.html
-            ADFGVX密码:
-                - http://www.hiencode.com/adfgvx.html
-            ADFGX:
-                - http://www.practicalcryptography.com/ciphers/adfgx-cipher/
-            ADFGX加密解密:
-                - https://ctf.bugku.com/tool/adfgx
-            ADFGX密码:
-                - http://www.hiencode.com/adfgx.html
             ADFGX密码加密解密:
                 - http://www.atoolbox.net/Tool.php?Id=918
-            AES加密:
-                - http://www.hiencode.com/caes.html
+                - http://www.hiencode.com/adfgvx.html
+                - http://www.hiencode.com/adfgx.html
+                - http://www.practicalcryptography.com/ciphers/adfgx-cipher/
+                - https://ctf.bugku.com/tool/adfgx
             AES加密解密:
                 - http://tool.chacuo.net/cryptaes
-            ASCII编码转换:
+                - http://www.hiencode.com/caes.html
+            ASCII编码解码:
                 - http://www.hiencode.com/cencode.html
             Base100编码解码:
                 - http://www.atoolbox.net/Tool.php?Id=936
                 - https://ctf.bugku.com/tool/base100
-            Base16在线编码解码:
-                - https://ctf.bugku.com/tool/base16
             Base16编码解码:
                 - http://www.atoolbox.net/Tool.php?Id=930
-            Base32在线编码解码:
-                - https://ctf.bugku.com/tool/base32
+                - https://ctf.bugku.com/tool/base16
             Base32编码解码:
                 - http://www.atoolbox.net/Tool.php?Id=931
-            Base58在线编码解码:
-                - https://ctf.bugku.com/tool/base58
+                - https://ctf.bugku.com/tool/base32
             Base58编码解码:
                 - http://www.atoolbox.net/Tool.php?Id=932
-            Base62在线编码解码:
-                - https://ctf.bugku.com/tool/base62
+                - http://www.hiencode.com/base58w.html
+                - https://ctf.bugku.com/tool/base58
             Base62编码解码:
                 - http://www.atoolbox.net/Tool.php?Id=933
-            Base64在线编码解码:
+                - http://www.hiencode.com/base62.html
+                - https://ctf.bugku.com/tool/base62
+            Base64编码解码:
                 - https://ctf.bugku.com/tool/base64
-            Base85编码:
-                - http://www.hiencode.com/base85.html
             Base85编码解码:
                 - http://www.atoolbox.net/Tool.php?Id=934
+                - http://www.hiencode.com/base85.html
                 - https://ctf.bugku.com/tool/base85
-            Base91在线编码解码:
-                - https://ctf.bugku.com/tool/base91
             Base91编码解码:
                 - http://www.atoolbox.net/Tool.php?Id=935
-            Base92在线编码解码:
-                - https://ctf.bugku.com/tool/base92
-            Base92编码:
+                - http://www.hiencode.com/base91.html
+                - https://ctf.bugku.com/tool/base91
+            Base92编码解码:
                 - http://www.hiencode.com/base92.html
+                - https://ctf.bugku.com/tool/base92
+            Base编码解码:
+                - http://www.hiencode.com/base64.html
             Blowfish加密解密:
                 - http://tool.chacuo.net/cryptblowfish
             Brainfuck:
@@ -118,7 +111,7 @@
                 - https://www.sojson.com/encrypt_triple_des.html
             CryptoJS 加密解密:
                 - https://www.sojson.com/encrypt.html
-            DES加密:
+            DES加密解密:
                 - http://www.hiencode.com/cdes.html
             DNA基因序列编码:
                 - https://skaminsky115.github.io/nac/DNA-mRNA-Protein_Converter.html
@@ -150,6 +143,11 @@
                 - https://www.bugku.com/tools/jsfuck/
             MD5:
                 - https://www.cmd5.com/
+            MD5解密:
+                - https://cmd5.la/
+                - https://pmd5.com/
+                - https://www.chamd5.org/
+                - https://www.somd5.com/
             Mimetypes:
                 - http://www.hiencode.com/mimetypes.html
             PKCS#1转PKCS8:
@@ -164,15 +162,14 @@
                 - http://www.hiencode.com/quoted.html
             RC2加密解密:
                 - http://tool.chacuo.net/cryptrc2
-            RC4加密:
-                - http://www.hiencode.com/rc4.html
             RC4加密解密:
                 - http://tool.chacuo.net/cryptrc4
+                - http://www.hiencode.com/rc4.html
             RC5加密解密:
                 - http://tool.chacuo.net/cryptrc5
             RC6加密解密:
                 - http://tool.chacuo.net/cryptrc6
-            ROT:
+            ROT编码解码:
                 - https://www.qqxiuzi.cn/bianma/rot5-13-18-47.php
             RSA大数分解:
                 - http://www.factordb.com/index.php
@@ -191,7 +188,7 @@
                 - https://github.com/pablocelayes/rsa-wiener-attack
             Rijndael加密解密:
                 - http://tool.chacuo.net/cryptrijndael
-            Rot13密码:
+            Rot13加密解密:
                 - http://www.hiencode.com/rot13.html
             Rsa公私钥解析:
                 - http://tool.chacuo.net/cryptrsakeyparse
@@ -216,6 +213,8 @@
             UUencode:
                 - http://web.chacuo.net/charsetuuencode
                 - http://www.hiencode.com/uu.html
+            UUencode加密解密:
+                - https://ctf.bugku.com/tool/uuencode
             WebSocket测试:
                 - http://www.hiencode.com/web_socket.html
             XTEA加密解密:
@@ -229,16 +228,8 @@
                 - https://ctf.bugku.com/tool/xxencode
             Xtea加密解密:
                 - http://tool.chacuo.net/cryptxtea
-            base36编码:
+            base36编码解码:
                 - http://www.hiencode.com/base36w.html
-            base58编码:
-                - http://www.hiencode.com/base58w.html
-            base62编码:
-                - http://www.hiencode.com/base62.html
-            base91编码:
-                - http://www.hiencode.com/base91.html
-            base编码:
-                - http://www.hiencode.com/base64.html
             brainfuck颜文字:
                 - https://esolangs.org/wiki/(_%CD%A1%C2%B0_%CD%9C%CA%96_%CD%A1%C2%B0)fuck
             chacha20加解密:
@@ -256,16 +247,16 @@
             ppencode:
                 - http://www.hiencode.com/ppencode.html
             quipqiup:
-                - http://quipqiup.com/
                 - https://quipqiup.com
                 - https://quipqiup.com/
             rsa私钥加密解密:
                 - http://tool.chacuo.net/cryptrsaprikey
-            与佛论禅:
-                - http://hi.pcmoe.net/buddha.html
-                - http://www.keyfc.net/bbs/tools/tudoucode.aspx
+            tupper:
+                - https://tuppers-formula.ovh/
             与佛论禅加密解密:
+                - http://hi.pcmoe.net/buddha.html
                 - http://www.atoolbox.net/Tool.php?Id=1027
+                - http://www.keyfc.net/bbs/tools/tudoucode.aspx
                 - https://ctf.bugku.com/tool/todousharp
             中文加密:
                 - https://www.qqxiuzi.cn/bianma/wenbenjiami.php
@@ -277,10 +268,9 @@
             关键字密码:
                 - http://www.hiencode.com/keyword.html
             凯撒(Caesar)加密解密:
-                - https://ctf.bugku.com/tool/caesar
-            凯撒密码:
                 - http://moersima.00cha.net/kaisamima.asp
                 - http://www.hiencode.com/caesar.html
+                - https://ctf.bugku.com/tool/caesar
             列移位密码:
                 - http://www.hiencode.com/colum.html
             博福特密码:
@@ -292,14 +282,15 @@
                     - https://github.com/hotzzzzy/breakautokey
             同音替代密码加密解密:
                 - http://www.atoolbox.net/Tool.php?Id=919
+            哈希解密:
+                - https://www.cmd5.com
+                - https://www.onlinehashcrack.com/
             哈希计算:
                 - http://www.hiencode.com/hash.html
             四方密码:
                 - http://www.hiencode.com/four.html
             圣堂武士密码:
                 - ./Plugins/img/shengtangwushi.jpg
-            在线UUencode加密解密:
-                - https://ctf.bugku.com/tool/uuencode
             埃特巴什码:
                 - http://www.hiencode.com/atbash.html
             培根密码:
@@ -311,15 +302,6 @@
             摩尔斯电码:
                 - http://www.zhongguosou.com/zonghe/moErSiCodeConverter.aspx
                 - https://c5r.app/tools/morse-code
-            散列哈希:
-                MD5解密:
-                    - https://cmd5.la/
-                    - https://pmd5.com/
-                    - https://www.chamd5.org/
-                    - https://www.somd5.com/
-                综合:
-                    - https://www.cmd5.com
-                    - https://www.onlinehashcrack.com/
             敲击码:
                 - http://ctf.ssleye.com/tapcode.html
                 - http://www.hiencode.com/tapcode.html
@@ -330,9 +312,8 @@
             普莱菲尔密码:
                 - http://www.hiencode.com/playfair.html
             栅栏(RailFence)加密解密:
-                - https://ctf.bugku.com/tool/railfence
-            栅栏密码:
                 - http://www.hiencode.com/railfence.html
+                - https://ctf.bugku.com/tool/railfence
                 - https://www.qqxiuzi.cn/bianma/zhalanmima.php
             校验RSA密钥对:
                 - http://tool.chacuo.net/cryptrsakeyvalid
@@ -364,9 +345,8 @@
             简单换位密码:
                 - http://www.hiencode.com/simple.html
             维吉尼亚加密解密:
-                - https://ctf.bugku.com/tool/vigenere
-            维吉尼亚密码:
                 - http://www.hiencode.com/vigenere.html
+                - https://ctf.bugku.com/tool/vigenere
                 - https://www.guballa.de/vigenere-solver
                 - https://www.mygeocachingprofile.com/codebreaker.vigenerecipher.aspx
                 - https://www.qqxiuzi.cn/bianma/weijiniyamima.php

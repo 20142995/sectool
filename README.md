@@ -38,56 +38,49 @@
 - <img src="https://favicon.qqsuu.cn/utf-8.jp" alt="" style="height: 20px;"> [aaencode - Encode any JavaScript program to Japanese style emoticons (^_^)](http://utf-8.jp/public/aaencode.html) 
 - <img src="https://favicon.qqsuu.cn/www.atoolbox.net" alt="" style="height: 20px;"> [AAEncode加密/解密 - 一个工具箱 - 好用的在线工具都在这里！](http://www.atoolbox.net/Tool.php?Id=703) 
 - <img src="https://favicon.qqsuu.cn/www.hiencode.com" alt="" style="height: 20px;"> [CTF在线工具-在线AAencode编码|AA编码|AAencode解码|AAencode编码原理|AAencode编码算法](http://www.hiencode.com/aaencode.html) 
-#### ADFGVX密码
-- <img src="https://favicon.qqsuu.cn/www.hiencode.com" alt="" style="height: 20px;"> [CTF在线工具-在线ADFGVX密码加密|在线ADFGVX密码解密|ADFGVX密码算法|ADFGVX Cipher](http://www.hiencode.com/adfgvx.html) 
-#### ADFGX
-- <img src="https://favicon.qqsuu.cn/www.practicalcryptography.com" alt="" style="height: 20px;"> [500 Internal Server Error](http://www.practicalcryptography.com/ciphers/adfgx-cipher/) 
-#### ADFGX加密解密
-- <img src="https://favicon.qqsuu.cn/ctf.bugku.com" alt="" style="height: 20px;"> [ADFGX密码 - Bugku CTF](https://ctf.bugku.com/tool/adfgx) 
-#### ADFGX密码
-- <img src="https://favicon.qqsuu.cn/www.hiencode.com" alt="" style="height: 20px;"> [CTF在线工具-在线ADFGX密码加密|在线ADFGX密码解密|ADFGX密码算法|ADFGX Cipher](http://www.hiencode.com/adfgx.html) 
 #### ADFGX密码加密解密
 - <img src="https://favicon.qqsuu.cn/www.atoolbox.net" alt="" style="height: 20px;"> [ADFGX密码加密/解密 - 一个工具箱 - 好用的在线工具都在这里！](http://www.atoolbox.net/Tool.php?Id=918) 
-#### AES加密
-- <img src="https://favicon.qqsuu.cn/www.hiencode.com" alt="" style="height: 20px;"> [CTF在线工具-AES在线加解密|AES在线加密|AES在线解密|AES encryption|AES decryption](http://www.hiencode.com/caes.html) 
+- <img src="https://favicon.qqsuu.cn/www.hiencode.com" alt="" style="height: 20px;"> [CTF在线工具-在线ADFGVX密码加密|在线ADFGVX密码解密|ADFGVX密码算法|ADFGVX Cipher](http://www.hiencode.com/adfgvx.html) 
+- <img src="https://favicon.qqsuu.cn/www.hiencode.com" alt="" style="height: 20px;"> [CTF在线工具-在线ADFGX密码加密|在线ADFGX密码解密|ADFGX密码算法|ADFGX Cipher](http://www.hiencode.com/adfgx.html) 
+- <img src="https://favicon.qqsuu.cn/www.practicalcryptography.com" alt="" style="height: 20px;"> [500 Internal Server Error](http://www.practicalcryptography.com/ciphers/adfgx-cipher/) 
+- <img src="https://favicon.qqsuu.cn/ctf.bugku.com" alt="" style="height: 20px;"> [ADFGX密码 - Bugku CTF](https://ctf.bugku.com/tool/adfgx) 
 #### AES加密解密
 - <img src="https://favicon.qqsuu.cn/tool.chacuo.net" alt="" style="height: 20px;"> [在线AES加密解密、AES在线加密解密、AES encryption and decryption--查错网](http://tool.chacuo.net/cryptaes) 
-#### ASCII编码转换
+- <img src="https://favicon.qqsuu.cn/www.hiencode.com" alt="" style="height: 20px;"> [CTF在线工具-AES在线加解密|AES在线加密|AES在线解密|AES encryption|AES decryption](http://www.hiencode.com/caes.html) 
+#### ASCII编码解码
 - <img src="https://favicon.qqsuu.cn/www.hiencode.com" alt="" style="height: 20px;"> [CTF在线工具-ASCII编码转换|Unicode编码转换|Native编码转换|UTF-16|UTF-32](http://www.hiencode.com/cencode.html) 
 #### Base100编码解码
 - <img src="https://favicon.qqsuu.cn/www.atoolbox.net" alt="" style="height: 20px;"> [Base100编码/解码 - 一个工具箱 - 好用的在线工具都在这里！](http://www.atoolbox.net/Tool.php?Id=936) 
 - <img src="https://favicon.qqsuu.cn/ctf.bugku.com" alt="" style="height: 20px;"> [BASE100编码解码 - Bugku CTF](https://ctf.bugku.com/tool/base100) 
-#### Base16在线编码解码
-- <img src="https://favicon.qqsuu.cn/ctf.bugku.com" alt="" style="height: 20px;"> [BASE16编码解码 - Bugku CTF](https://ctf.bugku.com/tool/base16) 
 #### Base16编码解码
 - <img src="https://favicon.qqsuu.cn/www.atoolbox.net" alt="" style="height: 20px;"> [Base16编码/解码 - 一个工具箱 - 好用的在线工具都在这里！](http://www.atoolbox.net/Tool.php?Id=930) 
-#### Base32在线编码解码
-- <img src="https://favicon.qqsuu.cn/ctf.bugku.com" alt="" style="height: 20px;"> [BASE32编码解码 - Bugku CTF](https://ctf.bugku.com/tool/base32) 
+- <img src="https://favicon.qqsuu.cn/ctf.bugku.com" alt="" style="height: 20px;"> [BASE16编码解码 - Bugku CTF](https://ctf.bugku.com/tool/base16) 
 #### Base32编码解码
 - <img src="https://favicon.qqsuu.cn/www.atoolbox.net" alt="" style="height: 20px;"> [Base32编码/解码 - 一个工具箱 - 好用的在线工具都在这里！](http://www.atoolbox.net/Tool.php?Id=931) 
-#### Base58在线编码解码
-- <img src="https://favicon.qqsuu.cn/ctf.bugku.com" alt="" style="height: 20px;"> [BASE58编码解码 - Bugku CTF](https://ctf.bugku.com/tool/base58) 
+- <img src="https://favicon.qqsuu.cn/ctf.bugku.com" alt="" style="height: 20px;"> [BASE32编码解码 - Bugku CTF](https://ctf.bugku.com/tool/base32) 
 #### Base58编码解码
 - <img src="https://favicon.qqsuu.cn/www.atoolbox.net" alt="" style="height: 20px;"> [Base58编码/解码 - 一个工具箱 - 好用的在线工具都在这里！](http://www.atoolbox.net/Tool.php?Id=932) 
-#### Base62在线编码解码
-- <img src="https://favicon.qqsuu.cn/ctf.bugku.com" alt="" style="height: 20px;"> [BASE62编码解码 - Bugku CTF](https://ctf.bugku.com/tool/base62) 
+- <img src="https://favicon.qqsuu.cn/www.hiencode.com" alt="" style="height: 20px;"> [CTF在线工具-在线base58编码|在线base58解码|base58编码|base58解码|base58check](http://www.hiencode.com/base58w.html) 
+- <img src="https://favicon.qqsuu.cn/ctf.bugku.com" alt="" style="height: 20px;"> [BASE58编码解码 - Bugku CTF](https://ctf.bugku.com/tool/base58) 
 #### Base62编码解码
 - <img src="https://favicon.qqsuu.cn/www.atoolbox.net" alt="" style="height: 20px;"> [Base62编码/解码 - 一个工具箱 - 好用的在线工具都在这里！](http://www.atoolbox.net/Tool.php?Id=933) 
-#### Base64在线编码解码
+- <img src="https://favicon.qqsuu.cn/www.hiencode.com" alt="" style="height: 20px;"> [CTF在线工具-在线base62编码|在线base62解码|base62编码|base62解码](http://www.hiencode.com/base62.html) 
+- <img src="https://favicon.qqsuu.cn/ctf.bugku.com" alt="" style="height: 20px;"> [BASE62编码解码 - Bugku CTF](https://ctf.bugku.com/tool/base62) 
+#### Base64编码解码
 - <img src="https://favicon.qqsuu.cn/ctf.bugku.com" alt="" style="height: 20px;"> [BASE64编码解码 - Bugku CTF](https://ctf.bugku.com/tool/base64) 
-#### Base85编码
-- <img src="https://favicon.qqsuu.cn/www.hiencode.com" alt="" style="height: 20px;"> [CTF在线工具-在线base85编码|在线base85解码|base85编码|base85解码](http://www.hiencode.com/base85.html) 
 #### Base85编码解码
 - <img src="https://favicon.qqsuu.cn/www.atoolbox.net" alt="" style="height: 20px;"> [Base85编码/解码 - 一个工具箱 - 好用的在线工具都在这里！](http://www.atoolbox.net/Tool.php?Id=934) 
+- <img src="https://favicon.qqsuu.cn/www.hiencode.com" alt="" style="height: 20px;"> [CTF在线工具-在线base85编码|在线base85解码|base85编码|base85解码](http://www.hiencode.com/base85.html) 
 - <img src="https://favicon.qqsuu.cn/ctf.bugku.com" alt="" style="height: 20px;"> [BASE85编码解码 - Bugku CTF](https://ctf.bugku.com/tool/base85) 
-#### Base91在线编码解码
-- <img src="https://favicon.qqsuu.cn/ctf.bugku.com" alt="" style="height: 20px;"> [BASE91编码解码 - Bugku CTF](https://ctf.bugku.com/tool/base91) 
 #### Base91编码解码
 - <img src="https://favicon.qqsuu.cn/www.atoolbox.net" alt="" style="height: 20px;"> [Base91编码/解码 - 一个工具箱 - 好用的在线工具都在这里！](http://www.atoolbox.net/Tool.php?Id=935) 
-#### Base92在线编码解码
-- <img src="https://favicon.qqsuu.cn/ctf.bugku.com" alt="" style="height: 20px;"> [BASE92编码解码 - Bugku CTF](https://ctf.bugku.com/tool/base92) 
-#### Base92编码
+- <img src="https://favicon.qqsuu.cn/www.hiencode.com" alt="" style="height: 20px;"> [CTF在线工具-在线base91编码|在线base91解码|base91编码|base91解码](http://www.hiencode.com/base91.html) 
+- <img src="https://favicon.qqsuu.cn/ctf.bugku.com" alt="" style="height: 20px;"> [BASE91编码解码 - Bugku CTF](https://ctf.bugku.com/tool/base91) 
+#### Base92编码解码
 - <img src="https://favicon.qqsuu.cn/www.hiencode.com" alt="" style="height: 20px;"> [CTF在线工具-在线base92编码|在线base92解码|base92编码|base92解码](http://www.hiencode.com/base92.html) 
+- <img src="https://favicon.qqsuu.cn/ctf.bugku.com" alt="" style="height: 20px;"> [BASE92编码解码 - Bugku CTF](https://ctf.bugku.com/tool/base92) 
+#### Base编码解码
+- <img src="https://favicon.qqsuu.cn/www.hiencode.com" alt="" style="height: 20px;"> [CTF在线工具-在线base编码|在线base解码|base16编码|base32编码|base64编码](http://www.hiencode.com/base64.html) 
 #### Blowfish加密解密
 - <img src="https://favicon.qqsuu.cn/tool.chacuo.net" alt="" style="height: 20px;"> [在线Blowfish加密解密、Blowfish在线加密解密、Blowfish encryption and decryption--查错网](http://tool.chacuo.net/cryptblowfish) 
 #### Brainfuck
@@ -119,7 +112,7 @@
 - <img src="https://favicon.qqsuu.cn/www.sojson.com" alt="" style="height: 20px;"> [在线Triple DES加密 | Triple DES解密- 在线工具](https://www.sojson.com/encrypt_triple_des.html) 
 #### CryptoJS 加密解密
 - <img src="https://favicon.qqsuu.cn/www.sojson.com" alt="" style="height: 20px;"> [在线加密/解密，对称加密/非对称加密](https://www.sojson.com/encrypt.html) 
-#### DES加密
+#### DES加密解密
 - <img src="https://favicon.qqsuu.cn/www.hiencode.com" alt="" style="height: 20px;"> [CTF在线工具-DES在线加解密|DES在线加密|DES在线解密|DES encryption|DES decryption](http://www.hiencode.com/cdes.html) 
 #### DNA基因序列编码
 - <img src="https://favicon.qqsuu.cn/skaminsky115.github.io" alt="" style="height: 20px;"> [DNA to mRNA to Protein Converter](https://skaminsky115.github.io/nac/DNA-mRNA-Protein_Converter.html) 
@@ -151,6 +144,11 @@
 - <img src="https://favicon.qqsuu.cn/www.bugku.com" alt="" style="height: 20px;"> [JSFuck - 在线加解密](https://www.bugku.com/tools/jsfuck/) 
 #### MD5
 - <img src="https://favicon.qqsuu.cn/www.cmd5.com" alt="" style="height: 20px;"> [md5在线解密破解,md5解密加密](https://www.cmd5.com/) 
+#### MD5解密
+- <img src="https://favicon.qqsuu.cn/cmd5.la" alt="" style="height: 20px;"> [md5解密_cmd5在线解密_加密工具 - 查md5啦[cmd5.la]](https://cmd5.la/) 
+- <img src="https://favicon.qqsuu.cn/pmd5.com" alt="" style="height: 20px;"> [md5解密 MD5在线解密 破解md5](https://pmd5.com/) 
+- <img src="https://favicon.qqsuu.cn/www.chamd5.org" alt="" style="height: 20px;"> [MD5在线解密|md5在线破解|批量破解md5网站 - ChaMd5.Org](https://www.chamd5.org/) 
+- <img src="https://favicon.qqsuu.cn/www.somd5.com" alt="" style="height: 20px;"> [MD5免费在线解密破解_MD5在线加密-SOMD5](https://www.somd5.com/) 
 #### Mimetypes
 - <img src="https://favicon.qqsuu.cn/www.hiencode.com" alt="" style="height: 20px;"> [CTF在线工具-Mimetypes|http消息头应用类型](http://www.hiencode.com/mimetypes.html) 
 #### PKCS#1转PKCS8
@@ -165,15 +163,14 @@
 - <img src="https://favicon.qqsuu.cn/www.hiencode.com" alt="" style="height: 20px;"> [CTF在线工具-在线Quoted-printable编码|在线Quoted-printable编码|邮件编码|mail编码](http://www.hiencode.com/quoted.html) 
 #### RC2加密解密
 - <img src="https://favicon.qqsuu.cn/tool.chacuo.net" alt="" style="height: 20px;"> [在线RC2加密解密、RC2在线加密解密、RC2 encryption and decryption--查错网](http://tool.chacuo.net/cryptrc2) 
-#### RC4加密
-- <img src="https://favicon.qqsuu.cn/www.hiencode.com" alt="" style="height: 20px;"> [CTF在线工具-RC4在线加解密|RC4在线加密|RC4在线解密|RC4 encryption|RC4 decryption](http://www.hiencode.com/rc4.html) 
 #### RC4加密解密
 - <img src="https://favicon.qqsuu.cn/tool.chacuo.net" alt="" style="height: 20px;"> [在线RC4加密解密、RC4在线加密解密、RC4 encryption and decryption--查错网](http://tool.chacuo.net/cryptrc4) 
+- <img src="https://favicon.qqsuu.cn/www.hiencode.com" alt="" style="height: 20px;"> [CTF在线工具-RC4在线加解密|RC4在线加密|RC4在线解密|RC4 encryption|RC4 decryption](http://www.hiencode.com/rc4.html) 
 #### RC5加密解密
 - <img src="https://favicon.qqsuu.cn/tool.chacuo.net" alt="" style="height: 20px;"> [在线RC5加密解密、RC5在线加密解密、RC5 encryption and decryption--查错网](http://tool.chacuo.net/cryptrc5) 
 #### RC6加密解密
 - <img src="https://favicon.qqsuu.cn/tool.chacuo.net" alt="" style="height: 20px;"> [在线RC6加密解密、RC6在线加密解密、RC6 encryption and decryption--查错网](http://tool.chacuo.net/cryptrc6) 
-#### ROT
+#### ROT编码解码
 - <img src="https://favicon.qqsuu.cn/www.qqxiuzi.cn" alt="" style="height: 20px;"> [404 Not Found](https://www.qqxiuzi.cn/bianma/rot5-13-18-47.php) 
 #### RSA大数分解
 - <img src="https://favicon.qqsuu.cn/www.factordb.com" alt="" style="height: 20px;"> [factordb.com](http://www.factordb.com/index.php) 
@@ -192,7 +189,7 @@
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [rsa-wiener-attack](https://github.com/pablocelayes/rsa-wiener-attack) A Python implementation of the Wiener attack on RSA public-key en...
 #### Rijndael加密解密
 - <img src="https://favicon.qqsuu.cn/tool.chacuo.net" alt="" style="height: 20px;"> [在线Rijndael加密解密、Rijndael在线加密解密、Rijndael encryption and decryption--查错网](http://tool.chacuo.net/cryptrijndael) 
-#### Rot13密码
+#### Rot13加密解密
 - <img src="https://favicon.qqsuu.cn/www.hiencode.com" alt="" style="height: 20px;"> [CTF在线工具-在线Rot13密码加密|在线Rot13密码解密|Rot13密码算法|Rot13 Cipher](http://www.hiencode.com/rot13.html) 
 #### Rsa公私钥解析
 - <img src="https://favicon.qqsuu.cn/tool.chacuo.net" alt="" style="height: 20px;"> [RSA公私钥分解 Exponent、Modulus，Rsa公私钥指数、系数(模数)分解--查错网](http://tool.chacuo.net/cryptrsakeyparse) 
@@ -217,6 +214,8 @@
 #### UUencode
 - <img src="https://favicon.qqsuu.cn/web.chacuo.net" alt="" style="height: 20px;"> [在线UUencode编码|在线UUencode解码|UU编码|UU解码|UUencode编码原理介绍--查错网](http://web.chacuo.net/charsetuuencode) 
 - <img src="https://favicon.qqsuu.cn/www.hiencode.com" alt="" style="height: 20px;"> [CTF在线工具-在线UUencode编码|UU编码|UUencode解码|UUencode编码原理|UUencode编码算法](http://www.hiencode.com/uu.html) 
+#### UUencode加密解密
+- <img src="https://favicon.qqsuu.cn/ctf.bugku.com" alt="" style="height: 20px;"> [UUencode加密/解密 - Bugku CTF](https://ctf.bugku.com/tool/uuencode) 
 #### WebSocket测试
 - <img src="https://favicon.qqsuu.cn/www.hiencode.com" alt="" style="height: 20px;"> [CTF在线工具-在线查看HTTP/HTTPS响应消息头|HTTP Response](http://www.hiencode.com/web_socket.html) 
 #### XTEA加密解密
@@ -230,16 +229,8 @@
 - <img src="https://favicon.qqsuu.cn/ctf.bugku.com" alt="" style="height: 20px;"> [XXencode加密/解密 - Bugku CTF](https://ctf.bugku.com/tool/xxencode) 
 #### Xtea加密解密
 - <img src="https://favicon.qqsuu.cn/tool.chacuo.net" alt="" style="height: 20px;"> [在线Xtea加密解密、Xtea在线加密解密、Xtea encryption and decryption--查错网](http://tool.chacuo.net/cryptxtea) 
-#### base36编码
+#### base36编码解码
 - <img src="https://favicon.qqsuu.cn/www.hiencode.com" alt="" style="height: 20px;"> [CTF在线工具-在线base36编码|在线base36解码|base36编码|base36解码](http://www.hiencode.com/base36w.html) 
-#### base58编码
-- <img src="https://favicon.qqsuu.cn/www.hiencode.com" alt="" style="height: 20px;"> [CTF在线工具-在线base58编码|在线base58解码|base58编码|base58解码|base58check](http://www.hiencode.com/base58w.html) 
-#### base62编码
-- <img src="https://favicon.qqsuu.cn/www.hiencode.com" alt="" style="height: 20px;"> [CTF在线工具-在线base62编码|在线base62解码|base62编码|base62解码](http://www.hiencode.com/base62.html) 
-#### base91编码
-- <img src="https://favicon.qqsuu.cn/www.hiencode.com" alt="" style="height: 20px;"> [CTF在线工具-在线base91编码|在线base91解码|base91编码|base91解码](http://www.hiencode.com/base91.html) 
-#### base编码
-- <img src="https://favicon.qqsuu.cn/www.hiencode.com" alt="" style="height: 20px;"> [CTF在线工具-在线base编码|在线base解码|base16编码|base32编码|base64编码](http://www.hiencode.com/base64.html) 
 #### brainfuck颜文字
 - <img src="https://favicon.qqsuu.cn/esolangs.org" alt="" style="height: 20px;"> [( ͡° ͜ʖ ͡°)fuck - Esolang](https://esolangs.org/wiki/(_%CD%A1%C2%B0_%CD%9C%CA%96_%CD%A1%C2%B0)fuck) 
 #### chacha20加解密
@@ -257,16 +248,16 @@
 #### ppencode
 - <img src="https://favicon.qqsuu.cn/www.hiencode.com" alt="" style="height: 20px;"> [CTF在线工具-在线PPencode编码|PP编码|PPencode编码原理|PPencode编码算法](http://www.hiencode.com/ppencode.html) 
 #### quipqiup
-- <img src="https://favicon.qqsuu.cn/quipqiup.com" alt="" style="height: 20px;"> [quipqiup - cryptoquip and cryptogram solver](http://quipqiup.com/) 
 - <img src="https://favicon.qqsuu.cn/quipqiup.com" alt="" style="height: 20px;"> [quipqiup.com](https://quipqiup.com) 
 - <img src="https://favicon.qqsuu.cn/quipqiup.com" alt="" style="height: 20px;"> [quipqiup.com](https://quipqiup.com/) 
 #### rsa私钥加密解密
 - <img src="https://favicon.qqsuu.cn/tool.chacuo.net" alt="" style="height: 20px;"> [在线RSA私钥加密解密、RSA private key encryption and decryption--查错网](http://tool.chacuo.net/cryptrsaprikey) 
-#### 与佛论禅
-- <img src="https://favicon.qqsuu.cn/hi.pcmoe.net" alt="" style="height: 20px;"> [新约佛论禅/佛曰加密 - 萌研社 - PcMoe!](http://hi.pcmoe.net/buddha.html) 
-- <img src="https://favicon.qqsuu.cn/www.keyfc.net" alt="" style="height: 20px;"> [与佛论禅](http://www.keyfc.net/bbs/tools/tudoucode.aspx) 
+#### tupper
+- <img src="https://favicon.qqsuu.cn/tuppers-formula.ovh" alt="" style="height: 20px;"> [tuppers-formula.ovh](https://tuppers-formula.ovh/) 
 #### 与佛论禅加密解密
+- <img src="https://favicon.qqsuu.cn/hi.pcmoe.net" alt="" style="height: 20px;"> [新约佛论禅/佛曰加密 - 萌研社 - PcMoe!](http://hi.pcmoe.net/buddha.html) 
 - <img src="https://favicon.qqsuu.cn/www.atoolbox.net" alt="" style="height: 20px;"> [与佛论禅加密/解密 - 一个工具箱 - 好用的在线工具都在这里！](http://www.atoolbox.net/Tool.php?Id=1027) 
+- <img src="https://favicon.qqsuu.cn/www.keyfc.net" alt="" style="height: 20px;"> [与佛论禅](http://www.keyfc.net/bbs/tools/tudoucode.aspx) 
 - <img src="https://favicon.qqsuu.cn/ctf.bugku.com" alt="" style="height: 20px;"> [与佛论禅密码 - Bugku CTF](https://ctf.bugku.com/tool/todousharp) 
 #### 中文加密
 - <img src="https://favicon.qqsuu.cn/www.qqxiuzi.cn" alt="" style="height: 20px;"> [文本加密为汉字,可自设密码|文本在线加密解密工具](https://www.qqxiuzi.cn/bianma/wenbenjiami.php) 
@@ -278,10 +269,9 @@
 #### 关键字密码
 - <img src="https://favicon.qqsuu.cn/www.hiencode.com" alt="" style="height: 20px;"> [CTF在线工具-在线关键字加密|在线关键字解密|关键字密码算法|Keyword Cipher](http://www.hiencode.com/keyword.html) 
 #### 凯撒(Caesar)加密解密
-- <img src="https://favicon.qqsuu.cn/ctf.bugku.com" alt="" style="height: 20px;"> [凯撒(Caesar)加密/解密 - Bugku CTF](https://ctf.bugku.com/tool/caesar) 
-#### 凯撒密码
 - <img src="https://favicon.qqsuu.cn/moersima.00cha.net" alt="" style="height: 20px;"> [ת_뷭_߼ - ѯ](http://moersima.00cha.net/kaisamima.asp) 
 - <img src="https://favicon.qqsuu.cn/www.hiencode.com" alt="" style="height: 20px;"> [CTF在线工具-在线凯撒密码加密|在线凯撒密码解密|凯撒密码算法|Caesar Cipher](http://www.hiencode.com/caesar.html) 
+- <img src="https://favicon.qqsuu.cn/ctf.bugku.com" alt="" style="height: 20px;"> [凯撒(Caesar)加密/解密 - Bugku CTF](https://ctf.bugku.com/tool/caesar) 
 #### 列移位密码
 - <img src="https://favicon.qqsuu.cn/www.hiencode.com" alt="" style="height: 20px;"> [CTF在线工具-在线列移位密码加密|在线列移位密码解密|列移位密码算法|Columnar Transposition Cipher](http://www.hiencode.com/colum.html) 
 #### 博福特密码
@@ -293,14 +283,15 @@
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [breakautokey](https://github.com/hotzzzzy/breakautokey) breakautokey
 #### 同音替代密码加密解密
 - <img src="https://favicon.qqsuu.cn/www.atoolbox.net" alt="" style="height: 20px;"> [同音替代密码加密/解密 - 一个工具箱 - 好用的在线工具都在这里！](http://www.atoolbox.net/Tool.php?Id=919) 
+#### 哈希解密
+- <img src="https://favicon.qqsuu.cn/www.cmd5.com" alt="" style="height: 20px;"> [md5在线解密破解,md5解密加密](https://www.cmd5.com) 
+- <img src="https://favicon.qqsuu.cn/www.onlinehashcrack.com" alt="" style="height: 20px;"> [Professional Cloud Password Testing & Recovery Services](https://www.onlinehashcrack.com/) 
 #### 哈希计算
 - <img src="https://favicon.qqsuu.cn/www.hiencode.com" alt="" style="height: 20px;"> [CTF在线工具-哈希计算|MD5、SHA1、SHA256、SHA384、SHA512、RIPEMD、RIPEMD160](http://www.hiencode.com/hash.html) 
 #### 四方密码
 - <img src="https://favicon.qqsuu.cn/www.hiencode.com" alt="" style="height: 20px;"> [CTF在线工具-在线四方密码加密|在线四方密码解密|四方密码算法|Foursquare Cipher](http://www.hiencode.com/four.html) 
 #### 圣堂武士密码
 - <img src="https://favicon.qqsuu.cn/" alt="" style="height: 20px;"> [](./Plugins/img/shengtangwushi.jpg) 
-#### 在线UUencode加密解密
-- <img src="https://favicon.qqsuu.cn/ctf.bugku.com" alt="" style="height: 20px;"> [UUencode加密/解密 - Bugku CTF](https://ctf.bugku.com/tool/uuencode) 
 #### 埃特巴什码
 - <img src="https://favicon.qqsuu.cn/www.hiencode.com" alt="" style="height: 20px;"> [CTF在线工具-在线埃特巴什码加密|在线埃特巴什码解密|埃特巴什码算法|Atbash Cipher](http://www.hiencode.com/atbash.html) 
 #### 培根密码
@@ -312,15 +303,6 @@
 #### 摩尔斯电码
 - <img src="https://favicon.qqsuu.cn/www.zhongguosou.com" alt="" style="height: 20px;"> [摩尔斯电码转换器：在线进行摩尔斯电码和英文字母的相互转换，可以把莫尔斯电码转换为英文字母，也可把英文字母转换为摩尔斯电码](http://www.zhongguosou.com/zonghe/moErSiCodeConverter.aspx) 
 - <img src="https://favicon.qqsuu.cn/c5r.app" alt="" style="height: 20px;"> [CTFever Toolkit by uniiem](https://c5r.app/tools/morse-code) 
-#### 散列哈希
-##### MD5解密
-- <img src="https://favicon.qqsuu.cn/cmd5.la" alt="" style="height: 20px;"> [md5解密_cmd5在线解密_加密工具 - 查md5啦[cmd5.la]](https://cmd5.la/) 
-- <img src="https://favicon.qqsuu.cn/pmd5.com" alt="" style="height: 20px;"> [md5解密 MD5在线解密 破解md5](https://pmd5.com/) 
-- <img src="https://favicon.qqsuu.cn/www.chamd5.org" alt="" style="height: 20px;"> [MD5在线解密|md5在线破解|批量破解md5网站 - ChaMd5.Org](https://www.chamd5.org/) 
-- <img src="https://favicon.qqsuu.cn/www.somd5.com" alt="" style="height: 20px;"> [MD5免费在线解密破解_MD5在线加密-SOMD5](https://www.somd5.com/) 
-##### 综合
-- <img src="https://favicon.qqsuu.cn/www.cmd5.com" alt="" style="height: 20px;"> [md5在线解密破解,md5解密加密](https://www.cmd5.com) 
-- <img src="https://favicon.qqsuu.cn/www.onlinehashcrack.com" alt="" style="height: 20px;"> [Professional Cloud Password Testing & Recovery Services](https://www.onlinehashcrack.com/) 
 #### 敲击码
 - <img src="https://favicon.qqsuu.cn/ctf.ssleye.com" alt="" style="height: 20px;"> [CTF在线工具-在线敲击码|敲击码编码|敲击码算法|tap code](http://ctf.ssleye.com/tapcode.html) 
 - <img src="https://favicon.qqsuu.cn/www.hiencode.com" alt="" style="height: 20px;"> [CTF在线工具-在线敲击码|敲击码编码|敲击码算法|tap code](http://www.hiencode.com/tapcode.html) 
@@ -331,9 +313,8 @@
 #### 普莱菲尔密码
 - <img src="https://favicon.qqsuu.cn/www.hiencode.com" alt="" style="height: 20px;"> [CTF在线工具-在线普莱菲尔密码加密|在线普莱菲尔密码解密|普莱菲尔密码算法|Playfair Cipher](http://www.hiencode.com/playfair.html) 
 #### 栅栏(RailFence)加密解密
-- <img src="https://favicon.qqsuu.cn/ctf.bugku.com" alt="" style="height: 20px;"> [栅栏加密/解密 - Bugku CTF](https://ctf.bugku.com/tool/railfence) 
-#### 栅栏密码
 - <img src="https://favicon.qqsuu.cn/www.hiencode.com" alt="" style="height: 20px;"> [CTF在线工具-在线栅栏密码加密|在线栅栏密码解密|栅栏密码算法|Railfence Cipher](http://www.hiencode.com/railfence.html) 
+- <img src="https://favicon.qqsuu.cn/ctf.bugku.com" alt="" style="height: 20px;"> [栅栏加密/解密 - Bugku CTF](https://ctf.bugku.com/tool/railfence) 
 - <img src="https://favicon.qqsuu.cn/www.qqxiuzi.cn" alt="" style="height: 20px;"> [栅栏密码在线加密解密 - 千千秀字](https://www.qqxiuzi.cn/bianma/zhalanmima.php) 
 #### 校验RSA密钥对
 - <img src="https://favicon.qqsuu.cn/tool.chacuo.net" alt="" style="height: 20px;"> [在线RSA公私密钥校验、RSA公私密钥检查、Online RSA public-private key verification--查错网](http://tool.chacuo.net/cryptrsakeyvalid) 
@@ -365,9 +346,8 @@
 #### 简单换位密码
 - <img src="https://favicon.qqsuu.cn/www.hiencode.com" alt="" style="height: 20px;"> [CTF在线工具-在线简单换位密码加密|在线简单换位解密|简单换位密码算法|Simple Substitution Cipher](http://www.hiencode.com/simple.html) 
 #### 维吉尼亚加密解密
-- <img src="https://favicon.qqsuu.cn/ctf.bugku.com" alt="" style="height: 20px;"> [维吉尼亚加密/解密 - Bugku CTF](https://ctf.bugku.com/tool/vigenere) 
-#### 维吉尼亚密码
 - <img src="https://favicon.qqsuu.cn/www.hiencode.com" alt="" style="height: 20px;"> [CTF在线工具-在线维吉尼亚密码加密|在线维吉尼亚解密|维吉尼亚密码算法|Vigenere Cipher](http://www.hiencode.com/vigenere.html) 
+- <img src="https://favicon.qqsuu.cn/ctf.bugku.com" alt="" style="height: 20px;"> [维吉尼亚加密/解密 - Bugku CTF](https://ctf.bugku.com/tool/vigenere) 
 - <img src="https://favicon.qqsuu.cn/www.guballa.de" alt="" style="height: 20px;"> [Vigenere Solver | guballa.de](https://www.guballa.de/vigenere-solver) 
 - <img src="https://favicon.qqsuu.cn/www.mygeocachingprofile.com" alt="" style="height: 20px;"> [My Geocaching Profile.com - Vigenere Cipher Codebreaker](https://www.mygeocachingprofile.com/codebreaker.vigenerecipher.aspx) 
 - <img src="https://favicon.qqsuu.cn/www.qqxiuzi.cn" alt="" style="height: 20px;"> [维吉尼亚密码在线加密解密 - 千千秀字](https://www.qqxiuzi.cn/bianma/weijiniyamima.php) 
