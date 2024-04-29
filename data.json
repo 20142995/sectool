@@ -519,8 +519,8 @@
     "https://github.com/knownsec/404StarLink": {
         "created_at": "2020-11-17 08:10:18",
         "description": "404StarLink - 推荐优质、有意义、有趣、坚持维护的安全开源项目",
-        "commit_message": "weekly update at 2024-04-22",
-        "commit_date": "2024-04-22 03:48:16"
+        "commit_message": "weekly update at 2024-04-28",
+        "commit_date": "2024-04-28 03:16:21"
     },
     "https://github.com/gwen001/github-subdomains": {
         "created_at": "2020-07-24 06:54:29",
@@ -3255,11 +3255,11 @@
         "release_message": ""
     },
     "https://github.com/bytedance/Elkeid": {
-        "created_at": "2024-04-10 10:35:37",
+        "created_at": "2024-04-23 08:38:41",
         "description": "Elkeid is an open source solution that can meet the security requirements of various workloads such as hosts, containers and K8s, and serverless. It is derived from ByteDance's internal best practices.",
-        "commit_message": "ci: kmod for ol8",
-        "commit_date": "2024-04-10 10:35:37",
-        "release_date": "2024-04-10 16:17:51",
+        "commit_message": "Version updated to 1.7.0.19\n\nSigned-off-by: shenping.matt <shenping.matt@bytedance.com>",
+        "commit_date": "2024-04-28 02:52:05",
+        "release_date": "2024-04-23 08:55:19",
         "release_message": ""
     },
     "https://github.com/knownsec/ct": {
@@ -4110,8 +4110,8 @@
     "https://github.com/vulhub/vulhub": {
         "created_at": "2017-04-09 10:13:13",
         "description": "Pre-Built Vulnerable Environments Based on Docker-Compose",
-        "commit_message": "Merge pull request #513 from vulhub/testimprove\n\nImprove unittest for toml environments.toml",
-        "commit_date": "2024-04-08 15:43:32"
+        "commit_message": "Merge pull request #515 from vulhub/kkfileview-zipslip\n\nkkFileView ZipSlip",
+        "commit_date": "2024-04-18 18:48:03"
     },
     "https://github.com/zhuifengshaonianhanlu/pikachu": {
         "created_at": "2018-07-24 08:21:19",
@@ -4552,8 +4552,8 @@
     "https://github.com/baidu/dperf": {
         "created_at": "2023-10-10 05:07:32",
         "description": "dperf is a 100Gbps network load tester.",
-        "commit_message": "Merge pull request #437 from pengjianzhang/main\n\nfix: lower version pkg-config for static linking",
-        "commit_date": "2024-04-01 14:46:40",
+        "commit_message": "Merge pull request #440 from pengjianzhang/main\n\nhttp post",
+        "commit_date": "2024-04-25 12:54:35",
         "release_date": "2023-10-10 05:33:22",
         "release_message": "## v1.6.0 - 2023-10-10\r\n### Added\r\n\r\n- dperf server returns large payload\r\n\r\n- you can use the default l3 or l3l4 rss algorithm\r\n\r\n### Changed\r\n\r\n- minimun local port range(lport_range) can be set to 1\r\n\r\n- optimization: remove useless sockets outside lport_range\r\n\r\n- move docs to dperf.org\r\n\r\n- adjust jumbo MTU\r\n\r\n### Fixed\r\n\r\n- fix: negative number of udp connections\r\n\r\n- print more information when startup fails\r\n    - not enough ports available\r\n    - error message of server ip numbers\r\n\r\n- spelling errors and expression issues\r\n\r\n    thanks digger-yu, CChuancey, zrmin\r\n\r\n- fix: find port id\r\n\r\n- fix: create new connection after \"duration\" time\r\n\r\n    thanks zrgtester\r\n\r\n- fix: http_host or http_path can only be configured when http is enabled\r\n\r\n- fix: dperf make error on dpdk-18.11\r\n\r\n    thanks amberlipp"
     },
@@ -15428,12 +15428,12 @@
         "release_message": "First release !!\n"
     },
     "https://github.com/containerd/containerd": {
-        "created_at": "2024-04-05 17:02:48",
+        "created_at": "2024-04-25 13:44:10",
         "description": "An open and reliable container runtime",
-        "commit_message": "Merge pull request #10089 from samuelkarp/bump-nri-v0.6.1\n\nmod: bump github.com/containerd/nri@v0.6.1",
-        "commit_date": "2024-04-18 23:07:13",
-        "release_date": "2024-04-05 17:19:25",
-        "release_message": "Welcome to the v1.7.15 release of containerd!\n\nThe fifteenth patch release for containerd 1.7 contains various fixes; one for a\nregression introduced in v1.7.14 in the way process exits were handled.\n\n### Highlights\n\n* Adds mediatype to OCI index record on export ([#9990](https://github.com/containerd/containerd/pull/9990))\n\n#### Runtime\n\n* Fix runc shim to only defer init process exits ([#10037](https://github.com/containerd/containerd/pull/10037))\n\nPlease try out the release binaries and report any issues at\nhttps://github.com/containerd/containerd/issues.\n\n### Contributors\n\n* Derek McGowan\n* Phil Estes\n* Austin Vazquez\n* Laura Brehm\n* Sebastiaan van Stijn\n* Talon\n\n### Changes\n<details><summary>12 commits</summary>\n<p>\n\n* Prepare for v1.7.15 release ([#10039](https://github.com/containerd/containerd/pull/10039))\n  * [`4d4759b54`](https://github.com/containerd/containerd/commit/4d4759b54df2a2ce5abb2aaa117ebc1857406380) Prep v1.7.15 release\n* Fix runc shim to only defer init process exits ([#10037](https://github.com/containerd/containerd/pull/10037))\n  * [`21df46766`](https://github.com/containerd/containerd/commit/21df4676621559e46b46810de3c900d105f10210) runc-shim: only defer init process exits\n* Fix compile from version control system (source) use case ([#10012](https://github.com/containerd/containerd/pull/10012))\n  * [`2a054213e`](https://github.com/containerd/containerd/commit/2a054213e7d167d697a27bbe8409872c67e8df46) Fix compile from version control system (source) use case\n* Adds mediatype to OCI index record on export ([#9990](https://github.com/containerd/containerd/pull/9990))\n  * [`6605c47a4`](https://github.com/containerd/containerd/commit/6605c47a4156171580458fa035133f2739046822) adds mediatype to oci index record\n* vendor: google.golang.org/protobuf 1.33.0, github.com/golang/protobuf v1.5.4 ([#9975](https://github.com/containerd/containerd/pull/9975))\n  * [`e6d91d843`](https://github.com/containerd/containerd/commit/e6d91d843fcc26c04e0d33144211aef965f79295) vendor: github.com/golang/protobuf v1.5.4\n  * [`2d136c5f5`](https://github.com/containerd/containerd/commit/2d136c5f5eb7092b458a07e14c53ccb7e5f429f0) build(deps): bump google.golang.org/protobuf from 1.32.0 to 1.33.0\n  * [`a1a7af7a3`](https://github.com/containerd/containerd/commit/a1a7af7a39da32ea0e38bb8ddd5b219c9cf6848e) build(deps): bump google.golang.org/protobuf from 1.31.0 to 1.32.0\n</p>\n</details>\n\n### Dependency Changes\n\n* **github.com/golang/protobuf**  v1.5.3 -> v1.5.4\n* **google.golang.org/protobuf**  v1.31.0 -> v1.33.0\n\nPrevious release can be found at [v1.7.14](https://github.com/containerd/containerd/releases/tag/v1.7.14)\n"
+        "commit_message": "Merge pull request #10140 from lucasrattz/fix-actuated-in-adopters\n\nADOPTERS.md: Fix Actuated italics",
+        "commit_date": "2024-04-27 04:45:37",
+        "release_date": "2024-04-25 13:53:08",
+        "release_message": "Welcome to the v1.7.16 release of containerd!\n\nThe sixteenth patch release for containerd 1.7 contains various fixes and updates.\n\n### Highlights\n\n* Update AppArmor template to allow confined runc to kill containers ([#10129](https://github.com/containerd/containerd/pull/10129))\n* Fix config import relative path glob ([#9834](https://github.com/containerd/containerd/pull/9834))\n* Update AppArmor template to better support rootlesskit ([#10116](https://github.com/containerd/containerd/pull/10116))\n* Update HTTP fallback to better account for TLS timeout and previous attempts ([#10112](https://github.com/containerd/containerd/pull/10112))\n* Add support for HPC port forwarding ([#10008](https://github.com/containerd/containerd/pull/10008))\n* Prevent GC from schedule itself with 0 period. ([#10102](https://github.com/containerd/containerd/pull/10102))\n* Fix issue with using invalid token to retry fetching layer ([#10065](https://github.com/containerd/containerd/pull/10065))\n* Automatically decompress archives for transfer service import ([#9989](https://github.com/containerd/containerd/pull/9989))\n* Fix HTTPFallback fails when pushing manifest ([#10044](https://github.com/containerd/containerd/pull/10044))\n* Add support for configuring otel from env and config deprecation notice ([#9992](https://github.com/containerd/containerd/pull/9992))\n* Fix deadlock during NRI plugin registration ([containerd/nri#79](https://github.com/containerd/nri/pull/79))\n\n#### Build and Release Toolchain\n\n* Update Go to 1.21.9 and 1.22.2 with net/http security fix ([#10115](https://github.com/containerd/containerd/pull/10115))\n\n#### Container Runtime Interface (CRI)\n\n* Fix CRI snapshotter root path when not under containerd root ([#10096](https://github.com/containerd/containerd/pull/10096))\n* Fix network creation failure from CreatedAt time as 269 years ago ([#10122](https://github.com/containerd/containerd/pull/10122))\n* Include userns info in PodSandboxStatus ([#9865](https://github.com/containerd/containerd/pull/9865))\n* Fix default working directory Windows HostProcess containers ([#10071](https://github.com/containerd/containerd/pull/10071))\n* Fix ListPodSandboxStats to skip sandboxes with missing tasks ([#10042](https://github.com/containerd/containerd/pull/10042))\n\n#### Deprecations\n\n* Add support for configuring otel from env and config deprecation notice ([#9992](https://github.com/containerd/containerd/pull/9992))\n\nPlease try out the release binaries and report any issues at\nhttps://github.com/containerd/containerd/issues.\n\n### Contributors\n\n* Derek McGowan\n* Samuel Karp\n* Wei Fu\n* Danny Canter\n* Kazuyoshi Kato\n* Kirtana Ashok\n* Maksym Pavlenko\n* Phil Estes\n* Sebastiaan van Stijn\n* Brian Goff\n* Rodrigo Campos\n* Akihiro Suda\n* Angelos Kolaitis\n* Bin Tang\n* David Porter\n* Edgar Lee\n* Evan Lezar\n* Kirill A. Korinsky\n* Kohei Tokunaga\n* Maksim An\n* Paweł Gronowski\n* Tomáš Virtus\n* 张钰10307750\n* 沈陵\n\n### Changes\n<details><summary>50 commits</summary>\n<p>\n\n* Add release notes for v1.7.16 ([#10124](https://github.com/containerd/containerd/pull/10124))\n  * [`1c623084f`](https://github.com/containerd/containerd/commit/1c623084fbdcfe7c3882047eba1648921814e390) Add release notes for v1.7.16\n* Update AppArmor template to allow confined runc to kill containers ([#10129](https://github.com/containerd/containerd/pull/10129))\n  * [`18a2c36fa`](https://github.com/containerd/containerd/commit/18a2c36faf47df776df56b4cc9a2defcf4b68897) apparmor: Allow confined runc to kill containers\n* Fix config import relative path glob ([#9834](https://github.com/containerd/containerd/pull/9834))\n  * [`62e9535f2`](https://github.com/containerd/containerd/commit/62e9535f295f4026d69280107c08c6b6a4eb5417) Fix config import relative path glob\n* Fix CRI snapshotter root path when not under containerd root ([#10096](https://github.com/containerd/containerd/pull/10096))\n  * [`a8ebceb97`](https://github.com/containerd/containerd/commit/a8ebceb972efdc5ead7535640f531972a95280cb) CRI: \"Fix\" imageFSPath behavior\n  * [`bd423bf84`](https://github.com/containerd/containerd/commit/bd423bf84d2ddef9680f54670a1e6ec2d7a18329) Snapshotters: Export the root path\n  * [`8fb6bfa71`](https://github.com/containerd/containerd/commit/8fb6bfa71753481f065e53245707d74473498d78) Add exports to proxy plugin config\n  * [`8916e2cf9`](https://github.com/containerd/containerd/commit/8916e2cf9dfa7e1dfe609334540a14a15156bfe6) Add platform config to proxy plugins\n* Fix network creation failure from CreatedAt time as 269 years ago ([#10122](https://github.com/containerd/containerd/pull/10122))\n  * [`293f5151d`](https://github.com/containerd/containerd/commit/293f5151d44c8a700a7244fed09c37524a89a82a) pod: CreatedAt time will be 269 years ago while creating cri network failed.\n* Update AppArmor template to better support rootlesskit ([#10116](https://github.com/containerd/containerd/pull/10116))\n  * [`af19e746e`](https://github.com/containerd/containerd/commit/af19e746eca65a536d5dc3d732043c22c4b31101) apparmor: add `signal (receive) peer=/usr/local/bin/rootlesskit,`\n* Update Go to 1.21.9 and 1.22.2 with net/http security fix ([#10115](https://github.com/containerd/containerd/pull/10115))\n  * [`637d259dd`](https://github.com/containerd/containerd/commit/637d259dd6646d16c71e295e056dec291b506892) update to go1.21.9, go1.22.2\n* Update HTTP fallback to better account for TLS timeout and previous attempts ([#10112](https://github.com/containerd/containerd/pull/10112))\n  * [`794b0c723`](https://github.com/containerd/containerd/commit/794b0c7239e134d7053daa17842682f0596d55ae) Add deprecated HTTPFallback for package compatibility\n  * [`51c649d9d`](https://github.com/containerd/containerd/commit/51c649d9d43d19b0f3f0ac51e331c9e956c337a7) Update HTTPFallback to handle tls handshake timeout\n  * [`aa14890ed`](https://github.com/containerd/containerd/commit/aa14890edd027b83800e017261e917c71041c343) Remove empty default tls configuration in ctr\n* Add support for HPC port forwarding ([#10008](https://github.com/containerd/containerd/pull/10008))\n  * [`3df5d4445`](https://github.com/containerd/containerd/commit/3df5d4445bc6948339bb302d32fa073ae928976b) Add support for HPC port forwarding\n* Prevent GC from schedule itself with 0 period. ([#10102](https://github.com/containerd/containerd/pull/10102))\n  * [`5c15bf406`](https://github.com/containerd/containerd/commit/5c15bf406da3a40d19ba89c7cd90080047d3793e) Prevent GC from schedule itself with 0 period.\n* Include userns info in PodSandboxStatus ([#9865](https://github.com/containerd/containerd/pull/9865))\n  * [`b57dc9fd3`](https://github.com/containerd/containerd/commit/b57dc9fd3690f1bd3b11b96dbf17e1a1bd3476e8) cri/server: Add userns tests in PodSandboxStatus\n  * [`6e809ef13`](https://github.com/containerd/containerd/commit/6e809ef13a60c2233ec7e3566228b8a37e67968e) cri: Expose userns in PodSandboxStatus rpc\n* mod: bump github.com/containerd/nri@v0.6.1 ([#10097](https://github.com/containerd/containerd/pull/10097))\n  * [`395a31901`](https://github.com/containerd/containerd/commit/395a31901512bea37d381decbd37da620bb44c66) mod: bump github.com/containerd/nri@v0.6.1\n* Fix issue with using invalid token to retry fetching layer ([#10065](https://github.com/containerd/containerd/pull/10065))\n  * [`f61de0864`](https://github.com/containerd/containerd/commit/f61de08644b73e7836ac46234b3f6283fc9715dd) fix bug that using invalid token to retry fetching layer\n* Bump tags.cncf.io/container-device-interface to v0.7.2 ([#10077](https://github.com/containerd/containerd/pull/10077))\n  * [`7a2f49f70`](https://github.com/containerd/containerd/commit/7a2f49f70f1d2cacfededbbf65452d481476bc10) Bump tags.cncf.io/container-device-interface to v0.7.2\n* Fix default working directory Windows HostProcess containers ([#10071](https://github.com/containerd/containerd/pull/10071))\n  * [`989f1ec54`](https://github.com/containerd/containerd/commit/989f1ec54f6764020447b03020b97592312c5f85) fix default working directory `hostProcess`\n* Fix unexpected order of mounts since go 1.19 ([#10063](https://github.com/containerd/containerd/pull/10063))\n  * [`9f774e438`](https://github.com/containerd/containerd/commit/9f774e438b9d96a901adb11e580fa03c6264f667) fix(cri): fix unexpected order of mounts since go 1.19\n* Automatically decompress archives for transfer service import ([#9989](https://github.com/containerd/containerd/pull/9989))\n  * [`2aec52493`](https://github.com/containerd/containerd/commit/2aec52493f3d67b0fd55a2348b69dd831253933f) Automatically decompress archives for transfer service import\n* Use different containerd sock address in tests ([#10056](https://github.com/containerd/containerd/pull/10056))\n  * [`8c76e7948`](https://github.com/containerd/containerd/commit/8c76e794820b4923c2a4dd1ccb7f7c89031b7d08) Use different containerd sock address in tests\n* Fix HTTPFallback fails when pushing manifest ([#10044](https://github.com/containerd/containerd/pull/10044))\n  * [`18f4ad5ee`](https://github.com/containerd/containerd/commit/18f4ad5ee0cb65fa99df752e2ce7d4728b19f9f0) remote: Fix HTTPFallback fails when pushing manifest\n* Add support for configuring otel from env and config deprecation notice ([#9992](https://github.com/containerd/containerd/pull/9992))\n  * [`600ba8612`](https://github.com/containerd/containerd/commit/600ba86122b0a6c5428429097e3e0f82e9b1f121) vendor: revendor OTEL\n  * [`9360e3716`](https://github.com/containerd/containerd/commit/9360e37169f2ba3135f7a6f39a3ab7c9231abbd6) Changes to configuring otel from env only\n  * [`f2354894f`](https://github.com/containerd/containerd/commit/f2354894f311b0c9c3651ea239b7cdbc1ee05a18) Deprecate otel configs\n* Fix ListPodSandboxStats to skip sandboxes with missing tasks ([#10042](https://github.com/containerd/containerd/pull/10042))\n  * [`90c309fe2`](https://github.com/containerd/containerd/commit/90c309fe2f6fac7cc620467edf2eeb8b19211067) Add IsNotFound case to ListPodSandboxStats\n</p>\n</details>\n\n### Changes from containerd/nri\n<details><summary>5 commits</summary>\n<p>\n\n* Fix deadlock during NRI plugin registration ([containerd/nri#79](https://github.com/containerd/nri/pull/79))\n  * [`c4893c7`](https://github.com/containerd/nri/commit/c4893c7e31c35f1b056b5462cb135a9c15f8b8f4) Fix deadlock during NRI plugin registration\n* go.mod: github.com/containerd/ttrpc v1.2.3 ([containerd/nri#71](https://github.com/containerd/nri/pull/71))\n  * [`02a1d5e`](https://github.com/containerd/nri/commit/02a1d5e23409a3f14efaadc940cf68d37c562272) go.mod: github.com/containerd/ttrpc v1.2.3\n  * [`eb3edc4`](https://github.com/containerd/nri/commit/eb3edc4fc0cec888369d0b1c8a254e0f1e19bd77) examples: go mod tidy\n</p>\n</details>\n\n### Dependency Changes\n\n* **github.com/containerd/nri**                         v0.6.0 -> v0.6.1\n* **tags.cncf.io/container-device-interface**           v0.6.2 -> v0.7.2\n* **tags.cncf.io/container-device-interface/specs-go**  v0.6.0 -> v0.7.0\n\nPrevious release can be found at [v1.7.15](https://github.com/containerd/containerd/releases/tag/v1.7.15)\n"
     },
     "https://github.com/gf-huanchupk/SpringBootLearning": {
         "created_at": "2018-09-14 02:22:07",
@@ -18779,8 +18779,8 @@
     "https://github.com/sajjadium/ctf-archives": {
         "created_at": "2021-06-10 16:53:52",
         "description": " CTF Archives: Collection of CTF Challenges.",
-        "commit_message": "SpartanCTF challs",
-        "commit_date": "2024-04-17 20:14:40"
+        "commit_message": "UMDCTF challs",
+        "commit_date": "2024-04-29 00:02:52"
     },
     "https://github.com/KaLendsi/CVE-2022-21882": {
         "created_at": "2022-01-27 03:44:10",
@@ -19284,8 +19284,8 @@
     "https://github.com/jumpserver/jumpserver": {
         "created_at": "2024-04-23 11:40:34",
         "description": "JumpServer 是广受欢迎的开源堡垒机，是符合 4A 规范的专业运维安全审计系统。",
-        "commit_message": "feat: Support asset tree node drag to another one",
-        "commit_date": "2024-04-24 10:05:51",
+        "commit_message": "fix: Fixed csv file export for `0` chars is not appear",
+        "commit_date": "2024-04-28 09:56:45",
         "release_date": "2024-04-23 13:38:40",
         "release_message": "# 一、安装和升级\r\n\r\n## 1.1 在线方式 ✈️\r\n\r\n仅需两步快速安装 JumpServer：\r\n\r\n1. 准备一台 4核8G （最低）且可以访问互联网的 64 位 Linux 主机；\r\n2. 以 root 用户执行如下命令一键安装 JumpServer。\r\n\r\n国内用户\r\n``` sh\r\ncurl -sSL https://resource.fit2cloud.com/jumpserver/jumpserver/releases/latest/download/quick_start.sh | bash\r\n```\r\n\r\n海外用户\r\n``` sh\r\ncurl -sSL https://github.com/jumpserver/jumpserver/releases/latest/download/quick_start.sh | bash\r\n```\r\n\r\n## 1.2 离线方式 🚢\r\n\r\n[离线安装包下载地址](https://community.fit2cloud.com/#/download/jumpserver/v3-10-9)\r\n\r\n详细安装和升级文档请参考：[完整文档](https://docs.jumpserver.org/zh/v3/) \r\n\r\n\r\n# 二、更新日志\r\n\r\n## 2.1 功能优化 🚀 \r\n\r\n- perf: 优化连接 Kubernetes 资产账号没有 Namespace 权限时提示并允许直接连接 Cluster\r\n- perf: 优化用户频繁发送短信的提示信息\r\n- perf: 优化 Web GUI 方式连接远程应用时使用平台中的 `rdp` 协议高级选项参数建立连接（Lion）\r\n- perf: 优化 Web 资产详情代填信息显示不准确的问题\r\n- perf: 优化支持使用 MySQL 模块对 MariaDB 数据库执行快捷命令\r\n- perf: 优化更新资产时当前页面打开的问题（选中节点后创建/更新资产在新窗口打开，直接更新在当前窗口打开）\r\n\r\n## 2.2 问题修复 🐛\r\n\r\n- fix: 修复 Ansible 任务运行使用 NFS 挂载目录时执行失败的问题（使用 TCP 通信）（Receptor）\r\n- fix: 修复仪表盘页面会话用户、资产排名数量不准确的问题\r\n- fix: 修复快捷命令中账号选择列表的排序问题\r\n- fix: 修复命令记录取消 `output` 字段长度限制\r\n- fix: 修复自定义平台的华为交换机执行命令失败的问题，华为交换机平台的名称中必须含 `华为` 或 `huawei`（不区分大小写） 关键字\r\n- fix: 修复当内置 Linux 平台 `id` 不为 `1` 时，创建网关报错的问题（[issue](https://github.com/jumpserver/jumpserver/issues/13090)）\r\n- fix: 修复 `gunicorn.log` 系统日志文件中频繁出现 Profile API（`/api/v1/users/profile/`）请求的问题\r\n- fix: 修复用户首次登录时卡住的问题（SYSTEM 组织的用户）【企业版】\r\n\r\n"
     },
@@ -23106,13 +23106,12 @@
         "release_message": ""
     },
     "https://github.com/fingerprintjs/fingerprintjs": {
-        "created_at": "",
-        "description": "",
-        "commit_date": "2024-02-26 04:02:10",
-        "commit_message": "Bugfix: values of canvas geometry and text returned in reverse order. (#990)",
-        "release_tag": "",
-        "release_date": "",
-        "release_message": ""
+        "created_at": "2024-04-24 07:04:55",
+        "description": "Browser fingerprinting library. Accuracy of this version is 40-60%, accuracy of the commercial Fingerprint Identification is 99.5%. V4 of this library is BSL licensed.",
+        "commit_message": "Bump the version to 4.3.0 (#1001)",
+        "commit_date": "2024-04-24 07:04:55",
+        "release_date": "2024-04-24 07:10:03",
+        "release_message": "- fix: A minus sign missing in the \"timezone\" entropy source fallback (#986)\r\n- fix: The geometry and text images in the \"canvas\" entropy source are swapped (#990). They were swapped mistakenly in v4.1.0."
     },
     "https://github.com/inbug-team/Log4j_RCE_Tool": {
         "created_at": "2021-12-10 13:32:27",
@@ -24411,8 +24410,8 @@
         "description": "魅族安全中心"
     },
     "https://sec.vip.com/": {
-        "status_code": 503,
-        "description": ""
+        "status_code": 200,
+        "description": "VSRC首页-唯品会信息安全中心"
     },
     "https://sec.wacai.com/": {
         "status_code": 200,
@@ -25189,8 +25188,8 @@
         "description": "首页"
     },
     "http://www.practicalcryptography.com/ciphers/adfgx-cipher/": {
-        "status_code": 200,
-        "description": "Practical Cryptography"
+        "status_code": 500,
+        "description": "500 Internal Server Error"
     },
     "https://www.guballa.de/vigenere-solver": {
         "status_code": 200,
@@ -27065,7 +27064,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "20.51.198.152属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "172.183.35.225属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
@@ -27249,7 +27248,7 @@
     },
     "https://www.storytrain.info/": {
         "status_code": 200,
-        "description": "短信接收 - 云短信 - 第1页 - 在线短信接收"
+        "description": "用户认证 - 云短信 - 短信接收"
     },
     "https://sms-activate.org/": {
         "status_code": 403,
@@ -27496,5 +27495,61 @@
         "commit_date": "2024-04-10 20:03:06",
         "release_date": "2023-12-20 13:33:23",
         "release_message": "- Change the behavior of the `isPlainHttp` util to make use of SSL version grabbing added in version 0.0.20"
+    },
+    "https://www.sojson.com/encrypt_triple_des.html": {
+        "status_code": 200,
+        "description": "在线Triple DES加密 | Triple DES解密- 在线工具"
+    },
+    "https://www.sojson.com/encrypt_aes.html": {
+        "status_code": 200,
+        "description": "在线AES加密 | AES解密 - 在线工具"
+    },
+    "http://www.66zan.cn/rc4encrypt/": {
+        "status_code": 200,
+        "description": "在线RC4加密,RC4解密工具-在线工具箱"
+    },
+    "https://330k.github.io/misc_tools/unicode_steganography.html": {
+        "status_code": 200,
+        "description": "Unicode Steganography with Zero-Width Characters"
+    },
+    "https://www.mzy0.com/ctftools/zerowidth1/": {
+        "status_code": 200,
+        "description": "Unicode Steganography with Zero-Width Characters"
+    },
+    "https://www.sojson.com/encrypt_rc4.html": {
+        "status_code": 200,
+        "description": "在线RC4加密 | RC4解密- 在线工具"
+    },
+    "http://www.66zan.cn/aesencrypt/": {
+        "status_code": 200,
+        "description": "AES加解密工具,AES加密解密在线工具-在线工具箱"
+    },
+    "https://www.sojson.com/encrypt_des.html": {
+        "status_code": 200,
+        "description": "在线DES加密 | DES解密- 在线工具"
+    },
+    "https://www.guofei.site/pictures_for_blog/app/text_watermark/v1.html": {
+        "status_code": 200,
+        "description": "文本隐水印"
+    },
+    "http://www.66zan.cn/tripledes/": {
+        "status_code": 200,
+        "description": "在线TripleDES加密,TripleDES解密工具-在线工具箱"
+    },
+    "http://www.66zan.cn/desencrypt/": {
+        "status_code": 200,
+        "description": "在线DES加密,DES解密工具-在线工具箱"
+    },
+    "http://www.66zan.cn/rabbitencrypt/": {
+        "status_code": 200,
+        "description": "在线Rabbit加密,Rabbit解密工具-在线工具箱"
+    },
+    "https://yuanfux.github.io/zero-width-web/": {
+        "status_code": 200,
+        "description": "Zero Width Lib"
+    },
+    "https://www.mzy0.com/ctftools/zerowidth2/": {
+        "status_code": 200,
+        "description": "Offdev.net - Zero-width space steganography javascript demo"
     }
 }
