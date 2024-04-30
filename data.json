@@ -3838,8 +3838,8 @@
     "https://github.com/neuvector/neuvector": {
         "created_at": "2024-04-08 17:28:21",
         "description": null,
-        "commit_message": "Merge pull request #1305 from becitsthere/main\n\nNVSHAS-8856: Re-init registry client when proxy setting changes",
-        "commit_date": "2024-04-17 23:20:59",
+        "commit_message": "Merge pull request #1311 from pohanhuangtw/NVSHAS-8926-to-main\n\nNVSHAS-8926 -Scanner read not-exist path when stand alone mode",
+        "commit_date": "2024-04-24 23:10:31",
         "release_date": "2024-04-08 17:57:52",
         "release_message": "**Full Changelog**: https://github.com/neuvector/neuvector/compare/v5.3.1...v5.3.2"
     },
@@ -3853,12 +3853,12 @@
         "release_message": "This is the last version that support python2.7"
     },
     "https://github.com/anchore/syft": {
-        "created_at": "2024-04-12 18:31:54",
+        "created_at": "2024-04-26 15:01:02",
         "description": "CLI tool and library for generating a Software Bill of Materials from container images and filesystems",
-        "commit_message": "fix: return empty string if dereferncing pom var fails (#2797)\n\nPreviously, Syft would attempt to dereference pom variables, but if it\r\ndetected a cycle or failed to get back to a non-variable value, it would\r\nreturn the last variable. Instead, return an empty string. Otherwise,\r\ncertain jars will have versions like \"${project.version}\" in the SBOM,\r\nwhich is not helpful.\r\n\r\nSigned-off-by: Will Murphy <will.murphy@anchore.com>",
-        "commit_date": "2024-04-19 19:38:36",
-        "release_date": "2024-04-12 18:39:13",
-        "release_message": "### Added Features\n\n- Differentiate between JRE and JDK [[#2748](https://github.com/anchore/syft/pull/2748) @LaurentGoderre]\n- Add support for dnf packages [[#2758](https://github.com/anchore/syft/issues/2758)]\n\n### Bug Fixes\n\n- more robust go main version extraction [[#2767](https://github.com/anchore/syft/pull/2767) @kzantow]\n- Regression in 1.1 cataloging openjdk: generates version containing a null byte [[#2750](https://github.com/anchore/syft/issues/2750) [#2766](https://github.com/anchore/syft/pull/2766) @LaurentGoderre]\n\n**[(Full Changelog)](https://github.com/anchore/syft/compare/v1.1.1...v1.2.0)**\n\n"
+        "commit_message": "Fill in SPDX originator for all supported package types (#2822)\n\n* add failing test + beef up doc comments\r\n\r\nSigned-off-by: Alex Goodman <wagoodman@users.noreply.github.com>\r\n\r\n* cover more metadata types in spdx originator processing\r\n\r\nSigned-off-by: Alex Goodman <wagoodman@users.noreply.github.com>\r\n\r\n---------\r\n\r\nSigned-off-by: Alex Goodman <wagoodman@users.noreply.github.com>",
+        "commit_date": "2024-04-29 20:33:00",
+        "release_date": "2024-04-26 15:08:18",
+        "release_message": "### Added Features\r\n\r\n- index known CPEs for go modules [[#2816](https://github.com/anchore/syft/pull/2816) @westonsteimel]\r\n- support multiple known CPEs in index [[#2813](https://github.com/anchore/syft/pull/2813) @westonsteimel]\r\n- index known CPEs for PHP Composer packagist.org packages [[#2804](https://github.com/anchore/syft/pull/2804) @westonsteimel]\r\n- index known cpes for PHP extensions [[#2777](https://github.com/anchore/syft/pull/2777) @westonsteimel]\r\n\r\n### Bug Fixes\r\n\r\n- re-use embedded union reader if possible [[#2814](https://github.com/anchore/syft/pull/2814) @willmurphyscode]\r\n- prefer non-deprecated CPEs and include jenkins plugins from plugins.jenkins.io [[#2806](https://github.com/anchore/syft/pull/2806) @westonsteimel]\r\n- improvements to known CPE index construction [[#2801](https://github.com/anchore/syft/pull/2801) @westonsteimel]\r\n- Syft panics when scanning OCI image that contains packaged helm chart [[#2745](https://github.com/anchore/syft/issues/2745) [#2757](https://github.com/anchore/syft/pull/2757) @willmurphyscode]\r\n- Pom parser not resolving all dependency versions [[#2776](https://github.com/anchore/syft/issues/2776) [#2781](https://github.com/anchore/syft/pull/2781) @willmurphyscode]\r\n- exclude known instrumentation jars from being erroneously identified [[#2796](https://github.com/anchore/syft/pull/2796) @kzantow]\r\n- return empty string if dereferncing pom var fails [[#2797](https://github.com/anchore/syft/pull/2797) @willmurphyscode]\r\n\r\n**[(Full Changelog)](https://github.com/anchore/syft/compare/v1.2.0...v1.3.0)**\r\n\r\n"
     },
     "https://github.com/chaitin/safeline": {
         "created_at": "2024-04-12 08:44:47",
@@ -4216,7 +4216,7 @@
         "created_at": "2021-10-13 11:34:53",
         "description": "v2ray节点、免费节点、免费v2ray节点、最新公益免费v2ray节点订阅地址、免费v2ray节点每日更新、免费ss/v2ray/trojan节点、freefq ",
         "commit_message": "update",
-        "commit_date": "2024-04-27 12:32:15"
+        "commit_date": "2024-04-29 12:36:31"
     },
     "https://github.com/QAX-A-Team/sharpwmi": {
         "created_at": "2020-04-08 05:50:21",
@@ -5893,12 +5893,12 @@
         "release_message": ""
     },
     "https://github.com/github/codeql-cli-binaries": {
-        "created_at": "2024-04-04 15:26:56",
+        "created_at": "2024-04-24 15:35:27",
         "description": "Binaries for the CodeQL CLI",
-        "commit_message": "Update CHANGELOG.md for release 2.17.0",
-        "commit_date": "2024-04-04 15:26:56",
-        "release_date": "2024-04-04 15:30:04",
-        "release_message": "### Deprecations\r\n\r\n- The `--[no-]analysis-summary-v2` and `--[no-]new-analysis-summary` options that were used to enable (or disable) improved summary information printed at the end of a `codeql database analyze` invocation are no longer supported. Improved summary information is now enabled for all invocations.\r\n- Support for overwriting default CodeQL SARIF run properties using the `--sarif-run-property` command line option has been removed. This removes the ability to overwrite the `semmle.formatSpecifier`, `metricResults`, and `codeqlConfigSummary` properties in the SARIF run file.\r\n\r\n### Improvements\r\n\r\n- TRAP import (a part of `codeql database create` and `codeql database finalize`) now performs better in low-memory situations. (Put another way, it now needs less RAM to achieve the same performance as before.)\r\n- The worst-case performance of transitive closure computation (using the `+` or `*` postfix operators or the `fastTC` higher-order primitive in QL) has been greatly improved.\r\n\r\n### Miscellaneous\r\n\r\n- The build of Eclipse Temurin OpenJDK that is used to run the CodeQL CLI has been updated to version 21.0.2.\r\n\r\nFor more information about the changes included in this release, see the [CodeQL CLI changelog](https://github.com/github/codeql-cli-binaries/blob/HEAD/CHANGELOG.md).\r\n\r\nYou can download _either_ the `codeql-PLATFORM.zip` for your platform, _or_ the generic `codeql.zip` which contains binaries for all supported platforms. Please ignore the additional \"source code\" downloads below the `.zip` artifacts.\r\n\r\nThis release is compatible with the CodeQL language packs from [`github/codeql@codeql-cli/v2.17.0`](https://github.com/github/codeql/tree/codeql-cli/v2.17.0).\r\n"
+        "commit_message": "Update CHANGELOG.md",
+        "commit_date": "2024-04-24 15:35:27",
+        "release_date": "2024-04-24 15:36:43",
+        "release_message": "## Release 2.17.1 (2024-04-24)\r\n\r\n### Deprecations\r\n\r\n- The `--mode` option and `-m` alias to `codeql database create`,\r\n  `codeql database cleanup`, and `codeql dataset cleanup` has been\r\n  deprecated. Instead, use the new `--cache-cleanup` option, which has\r\n  identical behavior.\r\n\r\n### Improvements\r\n\r\n- Improved the diagnostic message produced when no code is processed\r\n  when creating a database. If a build mode was specified using\r\n  `--build-mode`, the message is now tailored to your build mode.\r\n\r\n\r\nFor more information about the changes included in this release, see the [CodeQL CLI changelog](https://github.com/github/codeql-cli-binaries/blob/HEAD/CHANGELOG.md).\r\n\r\nYou can download _either_ the `codeql-PLATFORM.zip` for your platform, _or_ the generic `codeql.zip` which contains binaries for all supported platforms. Please ignore the additional \"source code\" downloads below the `.zip` artifacts.\r\n\r\nThis release is compatible with the CodeQL language packs from [`github/codeql@codeql-cli/v2.17.1`](https://github.com/github/codeql/tree/codeql-cli/v2.17.1).\r\n"
     },
     "https://github.com/Ascotbe/HackerMind": {
         "created_at": "",
@@ -21941,8 +21941,8 @@
     "https://github.com/apache/logging-log4j2": {
         "created_at": "2024-03-10 19:05:47",
         "description": "Apache Log4j 2 is a versatile, feature-rich, efficient logging API and backend for Java.",
-        "commit_message": "Add `days-before-stale`",
-        "commit_date": "2024-04-24 11:59:00",
+        "commit_message": "Update `commons-codec:commons-codec` to version `1.17.0` (#2543)",
+        "commit_date": "2024-04-29 18:03:22",
         "release_date": "2024-03-10 19:24:14",
         "release_message": "This release contains several small fixes and some dependency updates.\r\n\r\n### Changed\r\n\r\n* Improve performance of `CloseableThreadContext#closeMap()` (#2296)\r\n\r\n### Fixed\r\n\r\n* Fix handling of `LoggerContextAware` lookups (#2309)\r\n* Fix NPE in `PatternProcessor` for a `UNIX_MILLIS` pattern (#2346)\r\n* Fix that parameterized message formatting doesn't throw an exception when there are insufficient number of parameters (#2343)\r\n* Fix `StatusLogger` log level filtering when debug mode is enabled (#2337)\r\n* Add `log4j2.StatusLogger.dateFormatZone` system property to set the time-zone `StatusLogger` uses to format `java.time.Instant`. Without this, formatting patterns accessing to time-zone-specific fields (e.g., year-of-era) cause failures. (#2322)\r\n* Fix `StatusLogger` to correctly read `log4j2.StatusLogger.properties` resource (#2354)\r\n* Fix stack overflow in `StatusLogger` (#2322)\r\n\r\n### Updated\r\n\r\n* Update `jakarta.activation:jakarta.activation-api` to version `2.1.3` (#2335)\r\n* Update `jakarta.mail:jakarta.mail-api` to version `2.1.3` (#2348)\r\n* Update `org.apache.commons:commons-compress` to version `1.26.0` (#2304)\r\n* Update `org.apache.commons:commons-dbcp2` to version `2.12.0` (#2344)\r\n* Update `org.apache.kafka:kafka-clients` to version `3.7.0` (#2326)\r\n* Update `org.eclipse.angus:angus-activation` to version `2.0.2` (#2336)\r\n* Update `org.eclipse.angus:jakarta.mail` to version `2.0.3` (#2349)\r\n"
     },
@@ -23689,12 +23689,12 @@
         "release_message": ""
     },
     "https://github.com/qi4L/JYso": {
-        "created_at": "2024-03-25 11:44:56",
+        "created_at": "2024-04-29 07:10:38",
         "description": "It can be either a JNDIExploit or a ysoserial.",
-        "commit_message": "lib",
-        "commit_date": "2024-04-27 12:46:34",
-        "release_date": "2024-03-25 11:46:25",
-        "release_message": "+ 修复BUG\r\n+ 代码优化\r\n+ RMI打内存马和回显类\r\n+ Gadget不区分大小写\r\n+ BeanShell2 适配 bsh2.0b1"
+        "commit_message": "de Authors",
+        "commit_date": "2024-04-29 08:38:43",
+        "release_date": "2024-04-29 07:16:45",
+        "release_message": "+ 新增一条适配CB1.6.1的链子\r\n\r\nhttps://github.com/qi4L/JYso/issues/38"
     },
     "https://github.com/cider-security-research/cicd-goat": {
         "created_at": "2023-08-01 07:41:49",
@@ -24410,8 +24410,8 @@
         "description": "魅族安全中心"
     },
     "https://sec.vip.com/": {
-        "status_code": 200,
-        "description": "VSRC首页-唯品会信息安全中心"
+        "status_code": 503,
+        "description": ""
     },
     "https://sec.wacai.com/": {
         "status_code": 200,
@@ -25188,8 +25188,8 @@
         "description": "首页"
     },
     "http://www.practicalcryptography.com/ciphers/adfgx-cipher/": {
-        "status_code": 500,
-        "description": "500 Internal Server Error"
+        "status_code": 200,
+        "description": "Practical Cryptography"
     },
     "https://www.guballa.de/vigenere-solver": {
         "status_code": 200,
@@ -25824,8 +25824,8 @@
     "https://github.com/securego/gosec": {
         "created_at": "2024-02-12 09:14:58",
         "description": "Go security checker",
-        "commit_message": "fix(helpers/goversion): get from go.mod",
-        "commit_date": "2024-03-20 10:43:30",
+        "commit_message": "chore(deps): update module github.com/onsi/gomega to v1.33.0",
+        "commit_date": "2024-04-22 07:11:31",
         "release_date": "2024-02-12 09:17:20",
         "release_message": "## Changelog\n* 26e57d6 Update CI to go version 1.22\n* e60b8d8 chore(deps): update all dependencies\n* 1285eb7 chore(deps): update all dependencies\n* cf4ab3e chore(deps): update all dependencies\n* 277553c chore(deps): update all dependencies\n* 57ec76b chore(deps): update all dependencies\n* 8fa46c1 chore(deps): update dependency babel-standalone to v7.23.7\n* 53aa3f7 chore(deps): update module golang.org/x/crypto to v0.17.0 [security]\n* 187adab chore(deps): update all dependencies\n* e1f27ba chore(deps): update actions/setup-go action to v5\n* 2aad3f0 Fix lint warnings by properly formatting the files\n* 0e2a618 chore: Refactor Sample Code to Separate Files\n* bc03d1c Update go version to 1.21.5 and 1.20.12 (#1084)\n* 79a6b47 chore(deps): update all dependencies (#1080)\n* eb256a7 Ignore the issues from generated files when using the analysis framework (#1079)\n* 43b7cbf Update README with upload-sarif v2 (#1078)\n* fece498 chore(deps): update dependency babel-standalone to v7.23.4\n* 24c614b Added ppc64le support\n* c736581 chore(deps): update all dependencies\n* 3188e3f Ensure ignores are handled properly for multi-line issues\n* 6d56592 Update Go to version 1.21.4 and 1.20.11\n* 870103b chore(deps): update module golang.org/x/text to v0.14.0\n* b50e493 chore(deps): update all dependencies\n* 2f9965b Remove the hardcoded GOOS value when building the Linux binary to enable support for container image for ARM\n* fa1b74d Avoid allocations with `(*regexp.Regexp).MatchString`\n* 64bbe90 Fix some typos\n* d9071e3 Update local installation instructions by removing the details for Go 1.16\n* 5d837bc Update gosec version to 2.18.2 in the action\n\n"
     },
@@ -26461,10 +26461,12 @@
         "commit_date": "2016-07-04 22:32:11"
     },
     "https://github.com/ConsenSys/mythril": {
-        "created_at": "2017-09-18 04:14:20",
+        "created_at": "2024-03-27 22:02:15",
         "description": "Security analysis tool for EVM bytecode. Supports smart contracts built for Ethereum, Hedera, Quorum, Vechain, Rootstock, Tron and other EVM-compatible blockchains.",
-        "commit_message": "Update README.md",
-        "commit_date": "2024-03-28 13:47:50"
+        "commit_message": "Add transient storage (#1854)\n\n* Add transient storage\r\n\r\n* Fix issues with transient storage\r\n\r\n* Remove obselete opcodes\r\n\r\n* Cleanup\r\n\r\n---------\r\n\r\nCo-authored-by: psantos <122355282+psantos-consensys@users.noreply.github.com>",
+        "commit_date": "2024-04-27 22:42:28",
+        "release_date": "2024-03-27 22:02:44",
+        "release_message": "## What's Changed\r\n* Add improved state merging by @norhh in https://github.com/Consensys/mythril/pull/1843\r\n* Remove a partial feature  by @norhh in https://github.com/Consensys/mythril/pull/1844\r\n* chore: remove repetitive words by @suchsoon in https://github.com/Consensys/mythril/pull/1845\r\n* fix typos by @xiaoxianBoy in https://github.com/Consensys/mythril/pull/1846\r\n* Fix a bug due to issues with balance by @norhh in https://github.com/Consensys/mythril/pull/1848\r\n* chore: fix some comments by @sellskin in https://github.com/Consensys/mythril/pull/1849\r\n\r\n## New Contributors\r\n* @suchsoon made their first contribution in https://github.com/Consensys/mythril/pull/1845\r\n* @xiaoxianBoy made their first contribution in https://github.com/Consensys/mythril/pull/1846\r\n* @sellskin made their first contribution in https://github.com/Consensys/mythril/pull/1849\r\n\r\n**Full Changelog**: https://github.com/Consensys/mythril/compare/v0.24.7...v0.24.8"
     },
     "https://github.com/niloofarkheirkhah/nili": {
         "created_at": "2017-09-22 06:05:49",
@@ -27064,7 +27066,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "172.183.35.225属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "52.157.1.134属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
@@ -27248,7 +27250,7 @@
     },
     "https://www.storytrain.info/": {
         "status_code": 200,
-        "description": "用户认证 - 云短信 - 短信接收"
+        "description": "短信接收 - 云短信 - 第1页 - 在线短信接收"
     },
     "https://sms-activate.org/": {
         "status_code": 403,
@@ -27551,5 +27553,15 @@
     "https://www.mzy0.com/ctftools/zerowidth2/": {
         "status_code": 200,
         "description": "Offdev.net - Zero-width space steganography javascript demo"
+    },
+    "https://github.com/ybdt/mRemoteNG-Decryptor": {
+        "created_at": "2024-04-14 01:20:26",
+        "description": "mRemoteNG自动化解密工具",
+        "commit_message": "整理",
+        "commit_date": "2024-04-14 01:40:16"
+    },
+    "https://tuppers-formula.ovh/": {
+        "status_code": 200,
+        "description": "Tupper's Formula Tools"
     }
 }
