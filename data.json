@@ -371,8 +371,8 @@
     "https://github.com/lal0ne/vulnerability": {
         "created_at": "2022-01-20 02:48:42",
         "description": "收集、整理、修改互联网上公开的漏洞POC",
-        "commit_message": "CVE-2024-4040",
-        "commit_date": "2024-04-26 01:43:30"
+        "commit_message": "NUUO摄像头远程命令执行漏洞",
+        "commit_date": "2024-04-30 02:39:52"
     },
     "https://github.com/CTF-MissFeng/GoScan": {
         "created_at": "2020-12-13 11:08:12",
@@ -3011,12 +3011,12 @@
         "release_message": "- Added SNI support\r\n- Minor fixed and improvements"
     },
     "https://github.com/zan8in/afrog": {
-        "created_at": "2024-04-13 02:34:47",
+        "created_at": "2024-04-30 08:00:52",
         "description": "A Security Tool for Bug Bounty, Pentest and Red Teaming.",
-        "commit_message": "update version 3.0.3",
-        "commit_date": "2024-04-13 02:27:53",
-        "release_date": "2024-04-13 02:39:20",
-        "release_message": "- 新增 -header 命令，用于自定义 header 头在所有 http 请求中，使用示例：\r\n\r\n`-header '\"Cookie: PHPSESSION=xxxxx\",\"Authorization: yyyyyyyyyy\",\"Token: zzzzz\"'`\r\n\r\n- 命令 -cookie 已废弃\r\n\r\n--------------------------------\r\n\r\n- Introduce the '-header' command for customizing header in all HTTP requests, with usage examples.\r\n\r\n`-header '\"Cookie: PHPSESSION=xxxxx\",\"Authorization: yyyyyyyyyy\",\"Token: zzzzz\"'`\r\n\r\n- The command '-cookie' has been deprecated."
+        "commit_message": "version 3.0.5",
+        "commit_date": "2024-04-30 07:57:42",
+        "release_date": "2024-04-30 08:06:32",
+        "release_message": "修复一个BUG，该BUG导致在Linux环境内使用 -ap 命令时，指定路径全部转为小写，从而无法正常工作。\r\nFix a bug where the -ap command cannot be used due to all specified paths being converted to lowercase within the Linux environment."
     },
     "https://github.com/moonD4rk/HackBrowserData": {
         "created_at": "2020-06-18 03:24:31",
@@ -3855,8 +3855,8 @@
     "https://github.com/anchore/syft": {
         "created_at": "2024-04-26 15:01:02",
         "description": "CLI tool and library for generating a Software Bill of Materials from container images and filesystems",
-        "commit_message": "Fill in SPDX originator for all supported package types (#2822)\n\n* add failing test + beef up doc comments\r\n\r\nSigned-off-by: Alex Goodman <wagoodman@users.noreply.github.com>\r\n\r\n* cover more metadata types in spdx originator processing\r\n\r\nSigned-off-by: Alex Goodman <wagoodman@users.noreply.github.com>\r\n\r\n---------\r\n\r\nSigned-off-by: Alex Goodman <wagoodman@users.noreply.github.com>",
-        "commit_date": "2024-04-29 20:33:00",
+        "commit_message": "chore: fix function name in comment (#2771)\n\nSigned-off-by: camcui <cuishua@sina.cn>\r\nCo-authored-by: Christopher Phillips <christopher.phillips@anchore.com>",
+        "commit_date": "2024-05-01 18:04:02",
         "release_date": "2024-04-26 15:08:18",
         "release_message": "### Added Features\r\n\r\n- index known CPEs for go modules [[#2816](https://github.com/anchore/syft/pull/2816) @westonsteimel]\r\n- support multiple known CPEs in index [[#2813](https://github.com/anchore/syft/pull/2813) @westonsteimel]\r\n- index known CPEs for PHP Composer packagist.org packages [[#2804](https://github.com/anchore/syft/pull/2804) @westonsteimel]\r\n- index known cpes for PHP extensions [[#2777](https://github.com/anchore/syft/pull/2777) @westonsteimel]\r\n\r\n### Bug Fixes\r\n\r\n- re-use embedded union reader if possible [[#2814](https://github.com/anchore/syft/pull/2814) @willmurphyscode]\r\n- prefer non-deprecated CPEs and include jenkins plugins from plugins.jenkins.io [[#2806](https://github.com/anchore/syft/pull/2806) @westonsteimel]\r\n- improvements to known CPE index construction [[#2801](https://github.com/anchore/syft/pull/2801) @westonsteimel]\r\n- Syft panics when scanning OCI image that contains packaged helm chart [[#2745](https://github.com/anchore/syft/issues/2745) [#2757](https://github.com/anchore/syft/pull/2757) @willmurphyscode]\r\n- Pom parser not resolving all dependency versions [[#2776](https://github.com/anchore/syft/issues/2776) [#2781](https://github.com/anchore/syft/pull/2781) @willmurphyscode]\r\n- exclude known instrumentation jars from being erroneously identified [[#2796](https://github.com/anchore/syft/pull/2796) @kzantow]\r\n- return empty string if dereferncing pom var fails [[#2797](https://github.com/anchore/syft/pull/2797) @willmurphyscode]\r\n\r\n**[(Full Changelog)](https://github.com/anchore/syft/compare/v1.2.0...v1.3.0)**\r\n\r\n"
     },
@@ -3921,12 +3921,12 @@
         "release_message": "## Changelog\n* 9aa9e173b ci: use tmp dir inside Trivy repo dir for GoReleaser (#6533)\n* 058f4839d chore(deps): bump golang.org/x/net from 0.21.0 to 0.23.0 (#6526)\n* 9e3d2c5f9 chore(deps): bump github.com/hashicorp/go-getter from 1.7.3 to 1.7.4 (#6523)\n* 2ad8e332e fix(java): update logic to detect `pom.xml` file snapshot artifacts from remote repositories (#6412)\n\n"
     },
     "https://github.com/anchore/grype": {
-        "created_at": "2024-04-18 19:14:34",
+        "created_at": "2024-05-01 16:20:42",
         "description": "A vulnerability scanner for container images and filesystems",
-        "commit_message": "chore(deps): bump github.com/gkampitakis/go-snaps from 0.5.3 to 0.5.4 (#1824)\n\nBumps [github.com/gkampitakis/go-snaps](https://github.com/gkampitakis/go-snaps) from 0.5.3 to 0.5.4.\r\n- [Release notes](https://github.com/gkampitakis/go-snaps/releases)\r\n- [Commits](https://github.com/gkampitakis/go-snaps/compare/v0.5.3...v0.5.4)\r\n\r\n---\r\nupdated-dependencies:\r\n- dependency-name: github.com/gkampitakis/go-snaps\r\n  dependency-type: direct:production\r\n  update-type: version-update:semver-patch\r\n...\r\n\r\nSigned-off-by: dependabot[bot] <support@github.com>\r\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
-        "commit_date": "2024-04-25 20:57:09",
-        "release_date": "2024-04-18 19:22:34",
-        "release_message": "### Added Features\n\n- add linux and libc-dev headers ignore rules for debian packages [[#1809](https://github.com/anchore/grype/pull/1809) @zhill]\n- use Go main module version when possible [[#1797](https://github.com/anchore/grype/pull/1797) @luhring]\n\n### Additional Changes\n\n- Add providers' pull date to DB metadata structure [[#1795](https://github.com/anchore/grype/pull/1795) @asomya]\n- config: add config opt in golang pseudo version main module comparison [[#1816](https://github.com/anchore/grype/pull/1816) @spiffcs]\n\n**[(Full Changelog)](https://github.com/anchore/grype/compare/v0.76.0...v0.77.0)**\n\n"
+        "commit_message": "chore(deps): bump github.com/docker/docker (#1839)\n\nBumps [github.com/docker/docker](https://github.com/docker/docker) from 26.1.0+incompatible to 26.1.1+incompatible.\r\n- [Release notes](https://github.com/docker/docker/releases)\r\n- [Commits](https://github.com/docker/docker/compare/v26.1.0...v26.1.1)\r\n\r\n---\r\nupdated-dependencies:\r\n- dependency-name: github.com/docker/docker\r\n  dependency-type: direct:production\r\n  update-type: version-update:semver-patch\r\n...\r\n\r\nSigned-off-by: dependabot[bot] <support@github.com>\r\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
+        "commit_date": "2024-05-01 16:38:31",
+        "release_date": "2024-05-01 16:28:23",
+        "release_message": "### Bug Fixes\n\n- update ignored vulnerability count in tui [[#1837](https://github.com/anchore/grype/pull/1837) @kzantow]\n- SARIF output not compatible with GitHub [[#1518](https://github.com/anchore/grype/issues/1518) [#1838](https://github.com/anchore/grype/pull/1838) @kzantow]\n\n**[(Full Changelog)](https://github.com/anchore/grype/compare/v0.77.1...v0.77.2)**\n\n"
     },
     "https://github.com/Metarget/metarget": {
         "created_at": "2021-04-09 04:20:47",
@@ -7645,8 +7645,8 @@
     "https://github.com/openwall/john": {
         "created_at": "2011-12-16 19:43:47",
         "description": "John the Ripper jumbo - advanced offline password cracker, which supports hundreds of hash and cipher types, and runs on many operating systems, CPUs, GPUs, and even some FPGAs",
-        "commit_message": "MS SQL formats: Support lowercase hash encodings\n\nBased on logic in mysqlSHA1_fmt_plug.c\nFixes #5461",
-        "commit_date": "2024-04-20 17:39:50"
+        "commit_message": "fgetll(): Work around spurious GCC warning on realloc()\n\nClaudio reports this:\n\ngcc (GCC) 14.0.1 20240411 (Red Hat 14.0.1-0)\nFedora release 40 (Forty)\n\nmisc.c: In function 'fgetll':\nmisc.c:214:34: error: pointer 'cp' may be used after 'realloc' [-Werror=use-after-free]\n  214 |                         new_cp = realloc(cp, len + increase);\n      |                                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~\nmisc.c:208:26: note: call to 'realloc' here\n  208 |                 new_cp = realloc(cp, len + increase);\n\nCompletes b59ccbd615df3358dc91218ca57d8b952f6b1f73\nFixes #5470",
+        "commit_date": "2024-04-30 12:57:47"
     },
     "https://github.com/shimmeris/SCFProxy": {
         "created_at": "2021-04-18 11:21:43",
@@ -22438,12 +22438,12 @@
         "release_message": ""
     },
     "https://github.com/GZTimeWalker/GZCTF": {
-        "created_at": "2024-04-17 04:08:46",
+        "created_at": "2024-04-22 19:24:05",
         "description": "The GZ::CTF project, an open source CTF platform.",
-        "commit_message": "release: bump version to v0.19.1",
-        "commit_date": "2024-04-17 04:08:46",
-        "release_date": "2024-04-17 04:10:50",
-        "release_message": "## [0.19.1](https://github.com/GZTimeWalker/GZCTF/compare/v0.19.0..v0.19.1) - 2024-04-17\r\n\r\n> [!IMPORTANT]\r\n> \r\n>  **BREAK CHANGES (from v0.18): CONFIG CHANGES**\r\n> \r\n> - **I18n Support: use `LC_ALL` instead of `LANG` environment variable**\r\n> - **Observability: support opentelemetry / prometheus / metrics / tracing**\r\n\r\n### 🐛 Bug Fixes\r\n\r\n- **(style)** member info is not wide enough - ([399fd8](https://github.com/GZTimeWalker/GZCTF/commit/399fd8)) by **GZTime**\r\n- Override system default cipher list - ([240dfb](https://github.com/GZTimeWalker/GZCTF/commit/240dfb)) by **Steven He**\r\n\r\n---\r\n\r\n**Changelog**: https://github.com/GZTimeWalker/GZCTF/blob/HEAD/CHANGELOG.md\r\n**Commits**: https://github.com/GZTimeWalker/GZCTF/compare/v0.19.0...v0.19.1"
+        "commit_message": "New Crowdin updates (#282)",
+        "commit_date": "2024-04-30 18:33:42",
+        "release_date": "2024-04-22 19:37:03",
+        "release_message": "## [0.19.3](https://github.com/GZTimeWalker/GZCTF/compare/v0.19.2..v0.19.3) - 2024-04-22\r\n\r\n> [!IMPORTANT]\r\n> \r\n>  **BREAK CHANGES (from v0.18): CONFIG CHANGES**\r\n> \r\n> - **I18n Support: use `LC_ALL` instead of `LANG` environment variable**\r\n> - **Observability: support opentelemetry / prometheus / metrics / tracing**\r\n\r\n### 🐛 Bug Fixes\r\n\r\n- **(excel)** deal with `Single` exceptions - ([5947ee](https://github.com/GZTimeWalker/GZCTF/commit/5947ee)) by **GZTime**\r\n- **(frontend)** unable to renew as expected - ([daa9a5](https://github.com/GZTimeWalker/GZCTF/commit/daa9a5)) by **GZTime**\r\n- **(mail)** DO NOT use `IStringLocalizer` after construction - ([fe589a](https://github.com/GZTimeWalker/GZCTF/commit/fe589a)) by **GZTime**\r\n\r\n---\r\n\r\n**Changelog**: https://github.com/GZTimeWalker/GZCTF/blob/HEAD/CHANGELOG.md\r\n**Commits**: https://github.com/GZTimeWalker/GZCTF/compare/v0.19.2...v0.19.3"
     },
     "https://github.com/savior-only/Spring_All_Reachable": {
         "created_at": "2022-10-29 03:28:55",
@@ -22730,8 +22730,8 @@
     "https://github.com/shufflewzc/faker3": {
         "created_at": "2022-01-31 21:21:40",
         "description": null,
-        "commit_message": "Delete jd_supermarket_draw.js",
-        "commit_date": "2024-04-26 09:36:26"
+        "commit_message": "Update jd_zzhb_new_draw.js",
+        "commit_date": "2024-05-01 14:13:00"
     },
     "https://github.com/harlamism/IdaClu": {
         "created_at": "",
@@ -23083,9 +23083,7 @@
     },
     "https://github.com/vxunderground/MalwareSourceCode": {
         "created_at": "2020-10-10 02:48:57",
-        "description": "Collection of malware source code for a variety of platforms in an array of different programming languages.",
-        "commit_message": "Merge pull request #84 from aarush-dev/patch-1\n\nUpdate README.md",
-        "commit_date": "2024-03-06 21:30:44"
+        "description": "Collection of malware source code for a variety of platforms in an array of different programming languages."
     },
     "https://github.com/ciscocsirt/GOSINT": {
         "created_at": "2017-08-03 18:35:18",
@@ -25410,8 +25408,8 @@
     "https://github.com/leondz/garak": {
         "created_at": "2024-02-20 14:23:06",
         "description": "LLM vulnerability scanner",
-        "commit_message": "add tests for `ggml` generator (#618)\n\n* add tests for `ggml` generator\r\n\r\nSigned-off-by: Jeffrey Martin <jemartin@nvidia.com>\r\n\r\n* validate instance type in test\r\n\r\nSigned-off-by: Jeffrey Martin <jemartin@nvidia.com>\r\n\r\n---------\r\n\r\nSigned-off-by: Jeffrey Martin <jemartin@nvidia.com>",
-        "commit_date": "2024-04-23 18:46:39",
+        "commit_message": "update avidtools to remove typing reference (#639)\n\n* Update to latest released version of [avidtools](https://github.com/avidml/avidtools)\r\n\r\nThis removes the explicit install requirement for `typing` that is now included as a\r\ndefault distributed package with python 3.5+\r\n\r\nSigned-off-by: Jeffrey Martin <jemartin@nvidia.com>",
+        "commit_date": "2024-04-29 19:31:07",
         "release_date": "2024-02-20 16:12:40",
         "release_message": "## What's Changed\r\n\r\n### plugins\r\n* New encoding probes by @zmackie in https://github.com/leondz/garak/pull/459\r\n* OpenAI upgrade by @erickgalinkin in https://github.com/leondz/garak/pull/477\r\n* Low Resource Languages Buff by @erickgalinkin in https://github.com/leondz/garak/pull/478\r\n* Add Rasa generator by @rgstephens in https://github.com/leondz/garak/pull/453\r\n* Tree of Attacks by @erickgalinkin in https://github.com/leondz/garak/pull/446\r\n\r\n### functionality improvements\r\n* support multiple buffs by @leondz in https://github.com/leondz/garak/pull/497\r\n* wrap exception printing in repr by @leondz in https://github.com/leondz/garak/pull/425\r\n* add generators.function docs & examples by @leondz in https://github.com/leondz/garak/pull/437\r\n* update doc indices, add test to check them by @leondz in https://github.com/leondz/garak/pull/450\r\n* fix & unify REST generator timeout param names; set default request timeout to 20s by @leondz in https://github.com/leondz/garak/pull/451\r\n* add test to keep requirements in sync by @leondz in https://github.com/leondz/garak/pull/465\r\n* docs for buffs by @leondz in https://github.com/leondz/garak/pull/466\r\n* autosearch in the configs/ subdir for configs (no yaml extension should be given) by @leondz in https://github.com/leondz/garak/pull/467\r\n* Update function.py by @erickgalinkin in https://github.com/leondz/garak/pull/500\r\n* add warning when using a lite/default profile by @leondz in https://github.com/leondz/garak/pull/476\r\n* rename default output dir to garak_runs/; by @leondz in https://github.com/leondz/garak/pull/488\r\n* update openai model list by @leondz in https://github.com/leondz/garak/pull/494\r\n* make test_openai generation tests skip if no OAI API key set by @leondz in https://github.com/leondz/garak/pull/491\r\n\r\n### fixes\r\n* html report now uses correct basedir by @leondz in https://github.com/leondz/garak/pull/439\r\n* typos & clarifications in rest generator by @leondz in https://github.com/leondz/garak/pull/436\r\n* update manifest by @leondz in https://github.com/leondz/garak/pull/454\r\n* Avoid divide by zero error by @erickgalinkin in https://github.com/leondz/garak/pull/458\r\n* Fix/test pytest-8.0.0 order by @leondz in https://github.com/leondz/garak/pull/472\r\n* Check & enable Python 3.12 support by @leondz in https://github.com/leondz/garak/pull/475\r\n* move pathlib uses to _config.transient.basedir by @leondz in https://github.com/leondz/garak/pull/499\r\n* catch & handle HF hub exceptions loading dataset for package hallucination by @leondz in https://github.com/leondz/garak/pull/470\r\n\r\n\r\n## New Contributors\r\n* @zmackie made their first contribution in https://github.com/leondz/garak/pull/459\r\n* @rgstephens made their first contribution in https://github.com/leondz/garak/pull/453\r\n\r\n**Full Changelog**: https://github.com/leondz/garak/compare/v0.9.0.11...v0.9.0.12"
     },
@@ -27066,7 +27064,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "20.98.6.140属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "172.183.51.71属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
