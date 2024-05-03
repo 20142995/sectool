@@ -493,6 +493,7 @@
 ###### Apache Shiro
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [Pyke-Shiro](https://github.com/sma11new/Pyke-Shiro) 复杂请求下的Shiro反序列化利用工具
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [ShiroAttack2 4.7.0](https://github.com/SummerSec/ShiroAttack2) shiro反序列化漏洞综合利用,包含（回显执行命令/注入内存马）修复原版中NoCC的问题 https://github.com/...
+- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [shiro_check](https://github.com/Ggasdfg321/shiro_check) 批量对存在Shiro框架的目标爆破Key
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [shiro_rce_tool](https://github.com/wyzxxz/shiro_rce_tool) shiro 反序列 命令执行辅助检测工具
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [shiro-550-with-NoCC V1.1](https://github.com/dr0op/shiro-550-with-NoCC) Shiro-550 不依赖CC链利用工具
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [shiro_attack 2.2](https://github.com/j1anFen/shiro_attack) shiro反序列化漏洞综合利用,包含（回显执行命令/注入内存马）
@@ -501,7 +502,6 @@
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [shiro-cve-2020-17523](https://github.com/jweny/shiro-cve-2020-17523) shiro-cve-2020-17523 漏洞的两种绕过姿势分析 以及配套的漏洞环境
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [ShiroExploit-Deprecated v2.51](https://github.com/feihong-cs/ShiroExploit-Deprecated) Shiro550/Shiro721 一键化利用工具，支持多种回显方式
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [SHIRO-550](https://github.com/jas502n/SHIRO-550) Shiro RememberMe 1.2.4 反序列化 漏洞
-- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [shiro_check](https://github.com/Ggasdfg321/shiro_check) 
 ###### Apache Solr
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [Solr-SSRF](https://github.com/Henry4E36/Solr-SSRF) Apache Solr SSRF(CVE-2021-27905)
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [Apache-Solr-RCE](https://github.com/Imanfeng/Apache-Solr-RCE) Apache Solr Exploits  🌟
@@ -1083,8 +1083,8 @@
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [shcheck](https://github.com/m3liot/shcheck) 
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [vbscan](https://github.com/rezasp/vbscan) 
 ##### 漏洞扫描框架
-- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [zaproxy](https://github.com/zaproxy/zaproxy) The ZAP core project
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [yakit](https://github.com/yaklang/yakit) Cyber Security ALL-IN-ONE Platform
+- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [zaproxy](https://github.com/zaproxy/zaproxy) The ZAP core project
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [pentestpackage](https://github.com/leonteale/pentestpackage) a package of Pentest scripts I have made or  commonly use
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [daydayEXP](https://github.com/bcvgh/daydayEXP) 支持自定义Poc文件的图形化漏洞利用工具
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [DudeSuite](https://github.com/x364e3ab6/DudeSuite) Dude Suite Web 渗透测试工具
@@ -1159,7 +1159,7 @@
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [reverseip_py](https://github.com/yuyudhn/reverseip_py) Domain Parser for IPAddress.com Reverse IP Lookup
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [iplookup v1.1](https://github.com/Lengso/iplookup) IP反查域名
 - <img src="https://favicon.qqsuu.cn/s.tool.chinaz.com" alt="" style="height: 20px;"> [网站IP查询_IP反查域名_同IP网站查询 - 站长工具](http://s.tool.chinaz.com/same) 
-- <img src="https://favicon.qqsuu.cn/dns.aizhan.com" alt="" style="height: 20px;"> [172.183.51.71属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网](https://dns.aizhan.com/) 
+- <img src="https://favicon.qqsuu.cn/dns.aizhan.com" alt="" style="height: 20px;"> [20.109.38.148属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网](https://dns.aizhan.com/) 
 - <img src="https://favicon.qqsuu.cn/dnslytics.com" alt="" style="height: 20px;"> [Reverse IP - Find websites hosted on the same IP address, server or subnet](https://dnslytics.com/reverse-ip) 
 - <img src="https://favicon.qqsuu.cn/hackertarget.com" alt="" style="height: 20px;"> [Reverse IP Lookup, Find Hosts Sharing an IP | HackerTarget.com](https://hackertarget.com/reverse-ip-lookup/) 
 - <img src="https://favicon.qqsuu.cn/rapiddns.io" alt="" style="height: 20px;"> [Subdomain - RapidDNS Rapid DNS Information Collection](https://rapiddns.io/sameip) 
@@ -1307,6 +1307,7 @@
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [masscan](https://github.com/robertdavidgraham/masscan) 
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [Maryam](https://github.com/saeeddhqan/Maryam) Maryam: Open-source Intelligence(OSINT) Framework
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [portscan](https://github.com/20142995/portscan) 
+- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [jfscan](https://github.com/nullt3r/jfscan) JF⚡can - Super fast port scanning & service discovery using Masscan and Nmap...
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [gonmap v1.3.4](https://github.com/lcvvvv/gonmap) gonmap是一个go语言的nmap端口扫描库，使用纯go实现nmap的扫描逻辑，而非调用nmap来进行扫描。
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [masnmapscan-V1.0](https://github.com/hellogoldsnakeman/masnmapscan-V1.0) 一款用于资产探测的端口扫描工具。整合了masscan和nmap两款扫描器，masscan扫描端口，nmap扫描端口对应服务，二者结合...
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [sx](https://github.com/v-byte-cpu/sx) :vulcan_salute: Fast, modern, easy-to-use network scanner
@@ -1319,7 +1320,6 @@
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [network_backdoor_scanner](https://github.com/lcatro/network_backdoor_scanner) This is a backdoor about discover network device ,and it c...
 - <img src="https://favicon.qqsuu.cn/coolaf.com" alt="" style="height: 20px;"> [在线端口检测,端口扫描,端口开放检查-在线工具-postjson](http://coolaf.com/tool/port) 
 - <img src="https://favicon.qqsuu.cn/tool.cc" alt="" style="height: 20px;"> [在线端口扫描,IP/服务器端口在线扫描 - TooL.cc](http://tool.cc/port/) 
-- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [jfscan](https://github.com/nullt3r/jfscan) 
 #### 综合
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [Slack](https://github.com/qiwentaidi/Slack) 一款Go Wails实现的GUI工具，功能涵盖网站扫描、端口扫描、企业信息收集、子域名暴破、空间引擎搜索、CDN识别等
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [0x7eTeamTools](https://github.com/0x7eTeam/0x7eTeamTools) javafx练习,JS接口提取,漏洞检测
@@ -1988,9 +1988,9 @@
 ##### 向日葵取证
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [Sunflower_get_Password](https://github.com/wafinfo/Sunflower_get_Password) 一款针对向日葵的识别码和验证码提取工具
 ##### 微信取证
+- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [WechatBakTool](https://github.com/SuxueCode/WechatBakTool) 基于C#的微信PC版聊天记录备份工具，提供图形界面，解密微信数据库并导出聊天记录。
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [PyWxDump](https://github.com/xaoyaoo/PyWxDump) 获取微信账号信息(昵称/账号/手机/邮箱/数据库密钥/wxid)；PC微信数据库读取、解密脚本；聊天记录查看工具；聊天记录导出为html(包含语音图...
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [WeChatMsg](https://github.com/LC044/WeChatMsg) 提取微信聊天记录，将其导出成HTML、Word、CSV文档永久保存，对聊天记录进行分析生成年度聊天报告
-- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [WechatBakTool](https://github.com/SuxueCode/WechatBakTool) 基于C#的微信PC版聊天记录备份工具，提供图形界面，解密微信数据库并导出聊天记录。
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [SharpWxDump](https://github.com/AdminTest0/SharpWxDump) 微信客户端取证，可获取用户个人信息(昵称/账号/手机/邮箱/数据库密钥(用来解密聊天记录))；支持获取多用户信息，不定期更新新版本偏移，目前支...
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [wechat-backup v1.0.0](https://github.com/greycodee/wechat-backup) 微信聊天记录持久化备份本地硬盘，释放手机存储空间。
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [GoWxDump v1.0.12](https://github.com/SpenserCai/GoWxDump) SharpWxDump的Go语言版。微信客户端取证，获取信息(微信号、手机号、昵称)，微信聊天记录分析(Top N聊天的人、统计聊天...
@@ -2483,8 +2483,8 @@
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [tcpburn 1.0.0](https://github.com/session-replay-tools/tcpburn) The most powerful tool for stress testing of Internet server applicat...
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [WebBench](https://github.com/EZLippi/WebBench) Webbench是Radim Kolar在1997年写的一个在linux下使用的非常简单的网站压测工具。它使用fork()模拟多个客户端同时访问我们...
 ## 语音合成
-- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [GPT-SoVITS](https://github.com/RVC-Boss/GPT-SoVITS) 1 min voice data can also be used to train a good TTS model! (few shot v...
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [OpenVoice](https://github.com/myshell-ai/OpenVoice) Instant voice cloning by MyShell.
+- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [GPT-SoVITS](https://github.com/RVC-Boss/GPT-SoVITS) 1 min voice data can also be used to train a good TTS model! (few shot v...
 ## 软件及系统国内镜像
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [Thanks-Mirror](https://github.com/eryajf/Thanks-Mirror) 整理记录各个包管理器，系统镜像，以及常用软件的好用镜像，Thanks Mirror。     走过路过，如觉不错，麻烦点个赞👆🌟
 ## 远程软件
