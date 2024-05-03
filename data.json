@@ -812,8 +812,8 @@
     "https://github.com/murphysecurity/murphysec": {
         "created_at": "2023-05-15 12:21:31",
         "description": "An open source tool focused on software supply chain security. 墨菲安全专注于软件供应链安全，具备专业的软件成分分析（SCA）、漏洞检测、专业漏洞库。",
-        "commit_message": "fix(pnpm): bad copy",
-        "commit_date": "2024-04-11 16:42:00",
+        "commit_message": "fix: skip node_modules dir when uploading",
+        "commit_date": "2024-04-30 11:10:13",
         "release_date": "2023-05-15 12:52:58",
         "release_message": "Support NPM lockfile v3 "
     },
@@ -999,8 +999,8 @@
     "https://github.com/wecooperate/iDefender": {
         "created_at": "2024-03-06 14:36:46",
         "description": "iDefender（冰盾 - 终端主动防御系统）",
-        "commit_message": "4.0.0",
-        "commit_date": "2024-03-06 14:36:46",
+        "commit_message": "update",
+        "commit_date": "2024-04-15 15:55:15",
         "release_date": "2024-03-06 14:38:31",
         "release_message": "重大版本更新，建议更新\r\n\r\n- iMonitorSDK更新到4.0\r\n  - 添加内核规则引擎\r\n  - 添加文件隐藏支持\r\n  - 添加沙箱支持\r\n  - 添加RPC调用进程溯源\r\n  - 优化部分性能\r\n\r\n- 模板\r\n\r\n  - **添加内置规则模板**\r\n\r\n  - **添加高级模板（内核模式）支持**\r\n  - **添加文件隐藏模板**\r\n  - **添加轻量级沙箱模板**\r\n  - **添加域名查询模板**\r\n\r\n- 增强防御\r\n  - 添加模拟鼠标键盘监控\r\n  - 添加访问剪切板监控\r\n  - 添加修改系统时间监控\r\n  - 添加关键事件监控\r\n  - 添加修改桌面背景监控\r\n  - 添加磁盘控制监控\r\n- 询问弹框\r\n  - 添加签名信息显示\r\n  - 添加事件自定义\r\n  - **弹框响应记录支持缓存（默认1分钟相同事件不提醒，可以设置里面修改）**\r\n- 拦截记录\r\n  - 添加分页支持\r\n- 信任列表\r\n  - 支持参数组\r\n- 优化\r\n  - 优化规则参数设置\r\n  - 废弃部分过期的模板\r\n  - 优化内核进程列表性能\r\n  - 添加Image挟持保护\r\n  - 增强自保护逻辑\r\n  - **添加远程调用溯源（服务创建、驱动加载、任务计划、用户创建、DNS查询等可以定位到来源）**\r\n  - 添加内核级别的规则设置\r\n  - 添加WMI进程创建监控\r\n  - 规则组支持剪切板导入\r\n  - 参数支持拖曳移动位置\r\n- 修复\r\n  - 添加网络过滤驱动的兼容性\r\n  - 优化HKEY_CLASSES_ROOT重定向问题\r\n  - 修复端口防火墙弹框信任错误\r\n\r\n\r\n软件下载： https://trustsing.com/idefender/#_4-0-0-0"
     },
@@ -7729,12 +7729,12 @@
         "release_message": ""
     },
     "https://github.com/yaklang/yakit": {
-        "created_at": "2024-04-12 08:14:18",
+        "created_at": "2024-04-26 08:40:43",
         "description": "Cyber Security ALL-IN-ONE Platform",
-        "commit_message": "Merge pull request #1591 from yaklang/song/feat/webFuzzerTableMoreThan20000Data\n\nSong/feat/web fuzzer table more than20000 data",
-        "commit_date": "2024-04-18 09:44:04",
-        "release_date": "2024-04-12 08:40:59",
-        "release_message": ""
+        "commit_message": "Song/fix/web fuzzer failed retry (#1617)\n\n* fix: 修复webFuzzer一键重试因为暂停导致的问题\r\n\r\n* feat: 暂停时，禁止一键重试按钮点击",
+        "commit_date": "2024-04-29 06:02:11",
+        "release_date": "2024-04-26 09:00:07",
+        "release_message": "Yakit v1.3.2-sp2\r\n1. WebFuzzer批量发包前端显示增加2w限制，避免oom造成白屏\r\n2. MITM热加载增加保存按钮\r\n3. 全局配置支持配置免配置启动路径\r\n4. 美化和渲染增加缓存记录\r\n5. 引擎连接页面增加打开引擎所在文件，方便命令行启动引擎查看问题\r\n6. Yakit增加版本绑定，避免引擎版本过低时功能无法使用"
     },
     "https://github.com/bartblaze/Yara-rules": {
         "created_at": "2020-03-26 20:20:29",
@@ -22917,12 +22917,12 @@
         "release_message": ""
     },
     "https://github.com/SuxueCode/WechatBakTool": {
-        "created_at": "2024-03-26 15:48:04",
+        "created_at": "2024-04-20 02:01:11",
         "description": "基于C#的微信PC版聊天记录备份工具，提供图形界面，解密微信数据库并导出聊天记录。",
-        "commit_message": "v0.9.7.3 Release！\n1.新增导出时间范围选择",
-        "commit_date": "2024-03-26 15:48:04",
-        "release_date": "2024-03-26 15:50:06",
-        "release_message": "1.新增导出时间范围选择"
+        "commit_message": "v0.9.7.5 Release！\n1.支持3.9.10.19版本",
+        "commit_date": "2024-04-20 02:01:11",
+        "release_date": "2024-04-20 02:03:10",
+        "release_message": "1.支持3.9.10.19版本\r\n2.批量导出支持时间范围选中（0.9.7.4版本实现）"
     },
     "https://github.com/bdamele/icmpsh": {
         "created_at": "2011-04-15 10:04:12",
@@ -23051,8 +23051,8 @@
     "https://github.com/myshell-ai/OpenVoice": {
         "created_at": "2023-11-29 12:17:01",
         "description": "Instant voice cloning by MyShell.",
-        "commit_message": "Merge pull request #150 from frankdu/main\n\nFix the wavmark version to resolve cuFFT error",
-        "commit_date": "2024-03-04 00:53:59"
+        "commit_message": "Merge pull request #193 from remorses/fixed\n\nFix setup.py packages",
+        "commit_date": "2024-04-28 03:07:29"
     },
     "https://github.com/nitscan/inlinux": {
         "created_at": "2015-02-04 14:24:34",
@@ -25934,11 +25934,11 @@
         "commit_date": "2017-11-01 06:20:45"
     },
     "https://github.com/2dust/clashN": {
-        "created_at": "2024-03-26 06:05:41",
+        "created_at": "2024-04-28 04:20:52",
         "description": "A clash client for Windows, support Mihomo",
-        "commit_message": "up 2.21",
-        "commit_date": "2024-03-26 06:05:41",
-        "release_date": "2024-03-26 06:16:05",
+        "commit_message": "up 2.22",
+        "commit_date": "2024-04-28 04:20:52",
+        "release_date": "2024-04-28 04:25:18",
         "release_message": "修复了一些bug"
     },
     "https://github.com/Qihoo360/WatchAD2.0": {
@@ -27064,7 +27064,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "172.183.51.71属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "20.109.38.148属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
@@ -27561,5 +27561,21 @@
     "https://tuppers-formula.ovh/": {
         "status_code": 200,
         "description": "Tupper's Formula Tools"
+    },
+    "https://github.com/Ggasdfg321/shiro_check": {
+        "created_at": "2023-01-30 03:52:37",
+        "description": "批量对存在Shiro框架的目标爆破Key",
+        "commit_message": "Update shiro.go",
+        "commit_date": "2023-01-30 03:52:37",
+        "release_date": "2023-01-30 03:54:13",
+        "release_message": "修复gcm加密"
+    },
+    "https://github.com/nullt3r/jfscan": {
+        "created_at": "2022-11-20 15:34:52",
+        "description": "JF⚡can - Super fast port scanning & service discovery using Masscan and Nmap. Scan large networks with Masscan and use Nmap's scripting abilities to discover information about services. Generate report.",
+        "commit_message": "Update README.md",
+        "commit_date": "2023-03-23 17:41:59",
+        "release_date": "2022-11-20 15:40:29",
+        "release_message": "Added a lot of yummy ports! Fixed some minor bug - information about IP count was wrong by 2 hosts."
     }
 }
