@@ -964,8 +964,8 @@
     "https://github.com/sqlmapproject/sqlmap": {
         "created_at": "2024-01-03 22:18:35",
         "description": "Automatic SQL injection and database takeover tool",
-        "commit_message": "Patching some resource-related warnings",
-        "commit_date": "2024-04-12 16:10:16",
+        "commit_message": "Trying to fix the failing CI",
+        "commit_date": "2024-04-29 13:51:48",
         "release_date": "2024-01-03 22:20:06",
         "release_message": "Stable version 1.8 ([changeset](https://github.com/sqlmapproject/sqlmap/compare/1.7...1.8))"
     },
@@ -1328,8 +1328,8 @@
     "https://github.com/projectdiscovery/subfinder": {
         "created_at": "2024-03-27 21:55:17",
         "description": "Fast passive subdomain enumeration tool.",
-        "commit_message": "fix: close resp body (#1239)",
-        "commit_date": "2024-04-30 17:27:06",
+        "commit_message": "Make host configurable (#1212)\n\n* make host configurable\r\n\r\n* commit to last commit",
+        "commit_date": "2024-05-03 08:58:47",
         "release_date": "2024-03-27 22:00:39",
         "release_message": "<!-- Release notes generated using configuration in .github/release.yml at main -->\r\n\r\n## What's Changed\r\n\r\n### Other Changes\r\n\r\n* Added context to crtsh database query by @UFeindschiff in https://github.com/projectdiscovery/subfinder/pull/1190\r\n* Fixed SDK log config issue by @dogancanbakir in https://github.com/projectdiscovery/subfinder/pull/1200\r\n* Fixed issue of url scheme being added in output by @dogancanbakir in https://github.com/projectdiscovery/subfinder/pull/1166\r\n* Fixed issue with pagination by @dogancanbakir in https://github.com/projectdiscovery/subfinder/pull/1177\r\n* Fixed flaky tests by @dogancanbakir in https://github.com/projectdiscovery/subfinder/pull/1202\r\n* Updated go version in Dockerfile by @tarunKoyalwar in https://github.com/projectdiscovery/subfinder/pull/1159\r\n* Updated log level by @dogancanbakir in https://github.com/projectdiscovery/subfinder/pull/1167\r\n* Updated alpine to 3.18.6 for security fixes by @alizademhdi in https://github.com/projectdiscovery/subfinder/pull/1192\r\n* Removed` time.sleep` from sources by @dogancanbakir in https://github.com/projectdiscovery/subfinder/pull/1175\r\n\r\n## New Contributors\r\n* @alizademhdi made their first contribution in https://github.com/projectdiscovery/subfinder/pull/1192\r\n* @UFeindschiff made their first contribution in https://github.com/projectdiscovery/subfinder/pull/1190\r\n\r\n**Full Changelog**: https://github.com/projectdiscovery/subfinder/compare/v2.6.5...v2.6.6"
     },
@@ -3913,12 +3913,12 @@
         "release_message": "## Network Flight Simulator v2.5.0 (2023-07-31)\r\n\r\nThis release add a new `cleartext` module, which generates random cleartext traffic on some common ports.\r\n\r\n## Enjoy!\r\n\r\n"
     },
     "https://github.com/aquasecurity/trivy": {
-        "created_at": "2024-04-22 13:24:10",
+        "created_at": "2024-05-03 11:27:37",
         "description": "Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more",
-        "commit_message": "fix(terraform): Attribute and fileset fixes (#6544)",
-        "commit_date": "2024-04-23 22:03:43",
-        "release_date": "2024-04-22 14:09:05",
-        "release_message": "## Changelog\n* 9aa9e173b ci: use tmp dir inside Trivy repo dir for GoReleaser (#6533)\n* 058f4839d chore(deps): bump golang.org/x/net from 0.21.0 to 0.23.0 (#6526)\n* 9e3d2c5f9 chore(deps): bump github.com/hashicorp/go-getter from 1.7.3 to 1.7.4 (#6523)\n* 2ad8e332e fix(java): update logic to detect `pom.xml` file snapshot artifacts from remote repositories (#6412)\n\n"
+        "commit_message": "refactor: move setting scanners when using compliance reports to flag parsing (#6619)",
+        "commit_date": "2024-05-03 11:27:37",
+        "release_date": "2024-05-03 12:41:37",
+        "release_message": "## ⚡Release highlights and summary⚡\r\n\r\n👉 https://github.com/aquasecurity/trivy/discussions/6622\r\n\r\n## Changelog\r\n* 14c1024b4 refactor: move setting scanners when using compliance reports to flag parsing (#6619)\r\n* 998f75043 feat: introduce package UIDs for improved vulnerability mapping (#6583)\r\n* 770b14113 perf(misconf): Improve cause performance (#6586)\r\n* 3ccb1a0f1 docs: trivy-k8s new experiance remove un-used section (#6608)\r\n* 58cfd1b07 chore(deps): bump github.com/docker/docker from 26.0.1+incompatible to 26.0.2+incompatible (#6612)\r\n* 715963d75 docs: remove mention of GitLab Gold because it doesn't exist anymore (#6609)\r\n* 37da98df4 feat(misconf): Use updated terminology for misconfiguration checks (#6476)\r\n* cdee7030a chore(deps): bump github.com/aws/aws-sdk-go-v2/feature/s3/manager from 1.15.15 to 1.16.15 (#6593)\r\n* 6a2225b42 docs: use `generic` link from `trivy-repo` (#6606)\r\n* a2a02de7c docs: update trivy k8s with new experience (#6465)\r\n* e739ab850 feat: support `--skip-images` scanning flag (#6334)\r\n* c6d5d856c BREAKING: add support for k8s `disable-node-collector` flag (#6311)\r\n* 194a81468 chore(deps): bump github.com/zclconf/go-cty from 1.14.1 to 1.14.4 (#6601)\r\n* 03830c50c chore(deps): bump github.com/sigstore/rekor from 1.2.2 to 1.3.6 (#6599)\r\n* 8e814fa23 chore(deps): bump google.golang.org/protobuf from 1.33.0 to 1.34.0 (#6597)\r\n* 2dc76ba78 chore(deps): bump sigstore/cosign-installer from 3.4.0 to 3.5.0 (#6588)\r\n* c17176ba9 chore(deps): bump github.com/testcontainers/testcontainers-go from 0.28.0 to 0.30.0 (#6595)\r\n* bce70af36 chore(deps): bump github.com/open-policy-agent/opa from 0.62.0 to 0.64.1 (#6596)\r\n* 4369a19af feat: add ubuntu 23.10 and 24.04 support (#6573)\r\n* 5566548b7 chore(deps): bump azure/setup-helm from 3.5 to 4 (#6590)\r\n* a8af76a47 chore(deps): bump actions/checkout from 4.1.2 to 4.1.4 (#6587)\r\n* c8ed432f2 chore(deps): bump github.com/aws/aws-sdk-go-v2/service/ecr from 1.24.6 to 1.27.4 (#6598)\r\n* 551a46efc docs(go): add stdlib (#6580)\r\n* 261649b11 chore(deps): bump github.com/containerd/containerd from 1.7.13 to 1.7.16 (#6592)\r\n* acfddd457 chore(deps): bump github.com/go-openapi/runtime from 0.27.1 to 0.28.0 (#6600)\r\n* 419e3d202 feat(go): parse main mod version from build info settings (#6564)\r\n* f0961d54f feat: respect custom exit code from plugin (#6584)\r\n* a5d485cf8 docs: add asdf and mise installation method (#6063)\r\n* 29b8faf5f feat(vuln): Handle scanning conan v2.x lockfiles (#6357)\r\n* e3bef0201 feat: add support `environment.yaml` files (#6569)\r\n* 916f6c66f fix: close plugin.yaml (#6577)\r\n* 8e6cd0e91 fix: trivy k8s avoid deleting non-default node collector namespace  (#6559)\r\n* 060d0bb64 BREAKING: support exclude `kinds/namespaces` and include `kinds/namespaces` (#6323)\r\n* 2d090ef2d feat(go): add main module (#6574)\r\n* 6343e4fc7 feat: add relationships (#6563)\r\n* a018ee1f9 ci: disable `Go` cache for `reusable-release.yaml` (#6572)\r\n* 5da053f30 docs: mention `--show-suppressed` is available in table (#6571)\r\n* 3d66cb8d8 chore: fix sqlite to support loong64 (#6511)\r\n* 9aca98cca fix(debian): sort dpkg info before parsing due to exclude directories (#6551)\r\n* 7811ad0d2 docs: update info about config file (#6547)\r\n* fae710db8 docs: remove RELEASE_VERSION from trivy.repo (#6546)\r\n* d2d4022ef fix(sbom): change error to warning for multiple OSes (#6541)\r\n* 164b02541 fix(vuln): skip empty versions (#6542)\r\n* 5dd9bd470 feat(c): add license support for conan lock files (#6329)\r\n* 7c2017fa7 fix(terraform): Attribute and fileset fixes (#6544)\r\n* 63c9469bd refactor: change warning if no vulnerability details are found (#6230)\r\n* aa822c260 refactor(misconf): improve error handling in the Rego scanner (#6527)\r\n* 30cc88fa8 ci: use tmp dir inside Trivy repo dir for GoReleaser (#6533)\r\n* e32215c99 feat(go): parse main module of go binary files (#6530)\r\n* d4da83c63 chore(deps): bump golang.org/x/net from 0.21.0 to 0.23.0 (#6526)\r\n* 0d7d97d13 refactor(misconf): simplify the retrieval of module annotations (#6528)\r\n* 9873cf3b9 chore(deps): bump github.com/hashicorp/go-getter from 1.7.3 to 1.7.4 (#6523)\r\n* 95c8fd912 docs(nodejs): add info about supported versions of pnpm lock files (#6510)\r\n* 12ec0dfe9 feat(misconf): loading embedded checks as a fallback (#6502)\r\n* 9b7d7132b fix(misconf): Parse JSON k8s manifests properly (#6490)\r\n* 13e72eca5 refactor: remove parallel walk (#5180)\r\n* a9861994e fix: close pom.xml (#6507)\r\n* 46d5abad4 fix(secret): convert severity for custom rules (#6500)\r\n* 34ab09d55 fix(java): update logic to detect `pom.xml` file snapshot artifacts from remote repositories (#6412)\r\n* 1ba5b5952 fix: typo (#6283)\r\n* 4fab0f8b9 docs(k8s,image): fix command-line syntax issues (#6403)\r\n* d7709816c chore(deps): bump actions/checkout from 4.1.1 to 4.1.2 (#6435)\r\n* 433706820 fix(misconf): avoid panic if the scheme is not valid (#6496)\r\n* d82d6cb73 feat(image): goversion as stdlib (#6277)\r\n* cfddfb33c fix: add color for error inside of log message (#6493)\r\n* dfcb0f90d chore(deps): bump actions/add-to-project from 0.4.1 to 1.0.0 (#6438)\r\n* 183eaafb4 docs: fix links to OPA docs (#6480)\r\n* 94d6e8ced refactor: replace zap with slog (#6466)\r\n* 336c47ecc docs: update links to IaC schemas (#6477)\r\n* 06b44738e chore: bump Go to 1.22 (#6075)\r\n* a51ceddad refactor(terraform): sync funcs with Terraform (#6415)\r\n* 53517d622 feat(misconf): add helm-api-version and helm-kube-version flag (#6332)\r\n* ad544e97c chore(deps): bump github.com/Azure/azure-sdk-for-go/sdk/azidentity from 1.4.0 to 1.5.1 (#6426)\r\n* 089368d96 chore(deps): bump github.com/go-openapi/strfmt from 0.22.0 to 0.23.0 (#6452)\r\n* 116356500 chore(deps): bump github.com/hashicorp/golang-lru/v2 from 2.0.6 to 2.0.7 (#6430)\r\n* 637da2b17 chore(deps): bump aquaproj/aqua-installer from 2.2.0 to 3.0.0 (#6437)\r\n* 13190e92d fix(terraform): eval submodules (#6411)\r\n* 6bca7c3c7 refactor(terraform): remove unused options (#6446)\r\n* 8e4279b86 refactor(terraform): remove unused file (#6445)\r\n* e98c873ed chore(deps): bump github.com/testcontainers/testcontainers-go to v0.28.0 (#6387)\r\n* b1c2eab5a chore(deps): bump github.com/Azure/azure-sdk-for-go/sdk/azcore from 1.9.0 to 1.10.0 (#6427)\r\n* 1c49a16c6 fix(misconf): Escape template value correctly (#6292)\r\n* 8dd0fcd61 feat(misconf): add support for wildcard ignores (#6414)\r\n* 74e4c6e01 fix(cloudformation): resolve `DedicatedMasterEnabled` parsing issue (#6439)\r\n* 245c12053 refactor(terraform): remove metrics collection (#6444)\r\n* 86714bf6b feat(cloudformation): add support for logging and endpoint access for EKS (#6440)\r\n* a75839212 chore(deps): bump github.com/aws/aws-sdk-go-v2/service/s3 from 1.51.1 to 1.53.1 (#6424)\r\n* 4d00d8b52 chore(deps): bump github.com/aws/aws-sdk-go-v2/config from 1.27.4 to 1.27.10 (#6428)\r\n* 3ad2b3e25 chore(deps): bump go.etcd.io/bbolt from 1.3.8 to 1.3.9 (#6429)\r\n* 8baccd790 fix(db): check schema version for image name only (#6410)\r\n* e75a90f2e chore(deps): bump github.com/google/wire from 0.5.0 to 0.6.0 (#6425)\r\n* 6625bd32e chore(deps): bump github.com/aws/aws-sdk-go-v2/service/ec2 from 1.149.1 to 1.155.1 (#6433)\r\n* 826fe6073 chore(deps): bump actions/cache from 4.0.0 to 4.0.2 (#6436)\r\n* f23ed7759 feat(misconf): Support private registries for misconf check bundle (#6327)\r\n* df024e88d feat(cloudformation): inline ignore support for YAML templates (#6358)\r\n* 29dee3281 feat(terraform): ignore resources by nested attributes (#6302)\r\n* 1a67472d2 perf(helm): load in-memory files (#6383)\r\n* 09e37b7c6 feat(aws): apply filter options to result (#6367)\r\n* 87a9aa60d feat(aws): quiet flag support (#6331)\r\n* 712dcd300 fix(misconf): clear location URI for SARIF (#6405)\r\n* 625f22b81 test(cloudformation): add CF tests (#6315)\r\n* 6a2f6fde4 fix(cloudformation): infer type after resolving a function (#6406)\r\n\r\n"
     },
     "https://github.com/anchore/grype": {
         "created_at": "2024-05-01 16:20:42",
@@ -4552,8 +4552,8 @@
     "https://github.com/baidu/dperf": {
         "created_at": "2023-10-10 05:07:32",
         "description": "dperf is a 100Gbps network load tester.",
-        "commit_message": "Merge pull request #440 from pengjianzhang/main\n\nhttp post",
-        "commit_date": "2024-04-25 12:54:35",
+        "commit_message": "Merge pull request #441 from pengjianzhang/main\n\nlog level, clear screen",
+        "commit_date": "2024-05-03 01:20:13",
         "release_date": "2023-10-10 05:33:22",
         "release_message": "## v1.6.0 - 2023-10-10\r\n### Added\r\n\r\n- dperf server returns large payload\r\n\r\n- you can use the default l3 or l3l4 rss algorithm\r\n\r\n### Changed\r\n\r\n- minimun local port range(lport_range) can be set to 1\r\n\r\n- optimization: remove useless sockets outside lport_range\r\n\r\n- move docs to dperf.org\r\n\r\n- adjust jumbo MTU\r\n\r\n### Fixed\r\n\r\n- fix: negative number of udp connections\r\n\r\n- print more information when startup fails\r\n    - not enough ports available\r\n    - error message of server ip numbers\r\n\r\n- spelling errors and expression issues\r\n\r\n    thanks digger-yu, CChuancey, zrmin\r\n\r\n- fix: find port id\r\n\r\n- fix: create new connection after \"duration\" time\r\n\r\n    thanks zrgtester\r\n\r\n- fix: http_host or http_path can only be configured when http is enabled\r\n\r\n- fix: dperf make error on dpdk-18.11\r\n\r\n    thanks amberlipp"
     },
@@ -4967,7 +4967,7 @@
         "created_at": "2024-03-08 09:30:06",
         "description": "🐝 A highly scalable, safe, free enterprise honeypots 一款高可扩展、安全、免费的企业级蜜罐系统",
         "commit_message": "Update README.md",
-        "commit_date": "2024-04-12 01:56:37",
+        "commit_date": "2024-04-22 03:50:38",
         "release_date": "2024-03-08 09:33:25",
         "release_message": "v3.0.9086 更新内容：\r\n\r\n1、支持使用扩展语法来自定义漏洞仿真模板 (使用方法参见 http://help.decoymini.com 里 \"自定义漏洞仿真模板\" 章节)；\r\n2、支持多节点集中管理；\r\n3、更新在线帮助文档 (增加 \"自定义溯源\" 和 \"自定义漏洞仿真模板\" 等内容)；\r\n4、修复部分已知 BUG；"
     },
@@ -6461,8 +6461,8 @@
     "https://github.com/horsicq/DIE-engine": {
         "created_at": "2023-12-28 19:55:00",
         "description": "DIE engine",
-        "commit_message": "Update module: XInfoDB 2024-04-26",
-        "commit_date": "2024-04-26 16:00:18",
+        "commit_message": "Update module: Detect-It-Easy 2024-05-03",
+        "commit_date": "2024-05-03 21:58:23",
         "release_date": "2023-12-28 21:22:21",
         "release_message": "Please see the file [CHANGELOG](https://github.com/horsicq/Detect-It-Easy/blob/master/changelog.txt) for a detailed list of changes.\r\n\r\n\r\n| Asset / File | Description / Host OS |\r\n| ----------- | ----------- |\r\n| [die_sourcecode_3.09.tar.gz](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_sourcecode_3.09.tar.gz) | Source code tarball |\r\n| [Detect_It_Easy-3.09-x86_64.AppImage](https://github.com/horsicq/DIE-engine/releases/download/3.09/Detect_It_Easy-3.09-x86_64.AppImage) | Portable version for Linux [How to run](https://github.com/horsicq/Detect-It-Easy/blob/master/docs/RUN.md) |\r\n| [die_3.09_Debian_10_amd64.deb](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_Debian_10_amd64.deb) | Installer for Debian 10 |\r\n| [die_3.09_Debian_11_amd64.deb](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_Debian_11_amd64.deb) | Installer for Debian 11 |\r\n| [die_3.09_Debian_12_amd64.deb](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_Debian_12_amd64.deb) | Installer for Debian 12 |\r\n| [die_3.09_Ubuntu_14.04_amd64.deb](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_Ubuntu_14.04_amd64.deb) | Installer for Ubuntu 14.04 |\r\n| [die_3.09_Ubuntu_16.04_amd64.deb](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_Ubuntu_16.04_amd64.deb) | Installer for Ubuntu 16.04 |\r\n| [die_3.09_Ubuntu_18.04_amd64.deb](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_Ubuntu_18.04_amd64.deb) | Installer for Ubuntu 18.04 |\r\n| [die_3.09_Ubuntu_20.04_amd64.deb](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_Ubuntu_20.04_amd64.deb) | Installer for Ubuntu 20.04 |\r\n| [die_3.09_Ubuntu_22.04_amd64.deb](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_Ubuntu_22.04_amd64.deb) | Installer for Ubuntu 22.04 |\r\n| [die_3.09_Ubuntu_22.10_amd64.deb](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_Ubuntu_22.10_amd64.deb) | Installer for Ubuntu 22.10 |\r\n| [die_3.09_Ubuntu_23.04_amd64.deb](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_Ubuntu_23.04_amd64.deb) | Installer for Ubuntu 23.04 |\r\n| [die_3.09_Ubuntu_23.10_amd64.deb](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_Ubuntu_23.10_amd64.deb) | Installer for Ubuntu 23.10 |\r\n| [die_3.09_Kali_2023.4_amd64](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_Kali_2023.4_amd64) | Installer for Kali 2023.4 |\r\n| [die_3.09_Parrot_5.3_amd64.deb](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_Parrot_5.3_amd64.deb) | Installer for Parrot 5.3 |\r\n| [die_3.09_portable_Ubuntu_20.04_amd64.tar.gz](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_portable_Ubuntu_20.04_amd64.tar.gz) | Portable version for Ubuntu 20.04 |\r\n| [detect-it-easy-3.09-1-x86_64.pkg.tar.zst](https://github.com/horsicq/DIE-engine/releases/download/3.09/detect-it-easy-3.09-1-x86_64.pkg.tar.zst) | Installer for Arch Linux |\r\n| [die_mac_3.09_x86_64.pkg](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_mac_3.09_x86_64.pkg) | Installer for macOS |\r\n| [die_mac_qt6_3.09_arm64.pkg](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_mac_qt6_3.09_arm64.pkg) | Installer for macOS Qt6 M1 processor|\r\n| [die_mac_portable_3.09_x86_64.zip](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_mac_portable_3.09_x86_64.zip) | Portable version for macOS |\r\n| [die_win32_portable_3.09_x86.zip](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_win32_portable_3.09_x86.zip) | Portable version for x86 Win32 (Win7-Win11)|\r\n| [die_win64_portable_3.09_x64.zip](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_win64_portable_3.09_x64.zip) | Portable version for x64 Win64 (Win7-Win11) |\r\n| [die_winxp_portable_3.09_x86.zip](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_winxp_portable_3.09_x86.zip) | Portable version for Windows XP (WinXP-Win11) |\r\n\r\n\r\nExperimental versions - There may be bugs in the GUI\r\n\r\n| Asset / File | Description / Host OS |\r\n| ----------- | ----------- |\r\n| [die_win64_qt6_portable_3.09_x64.zip](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_win64_qt6_portable_3.09_x64.zip) | Portable version for x64 Win64 Qt6 (Win10-Win11)|\r\n"
     },
@@ -23007,8 +23007,8 @@
     "https://github.com/six2dez/reconftw": {
         "created_at": "2024-01-19 13:44:42",
         "description": "reconFTW is a tool designed to perform automated recon on a target domain by running the best set of tools to perform scanning and finding out vulnerabilities",
-        "commit_message": "Merge pull request #867 from six2dez/dev\n\nDev",
-        "commit_date": "2024-04-07 21:51:40",
+        "commit_message": "Merge pull request #876 from six2dez/dev\n\nFix filename for oshi",
+        "commit_date": "2024-05-02 22:58:15",
         "release_date": "2024-01-19 13:46:39",
         "release_message": "- Gf potential removed\r\n- New API leaks search included\r\n- Fix for dontgo403\r\n- Fix for smuggler"
     },
@@ -24223,8 +24223,8 @@
     "https://github.com/jeremylong/DependencyCheck": {
         "created_at": "2024-03-31 11:36:57",
         "description": "OWASP dependency-check is a software composition analysis utility that detects publicly disclosed vulnerabilities in application dependencies.",
-        "commit_message": "build(deps): bump org.apache.maven.plugins:maven-assembly-plugin from 3.6.0 to 3.7.1 (#6610)\n\nSigned-off-by: dependabot[bot] <support@github.com>\r\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
-        "commit_date": "2024-04-21 12:24:55",
+        "commit_message": "build(deps): bump commons-cli:commons-cli from 1.6.0 to 1.7.0 (#6629)\n\nSigned-off-by: dependabot[bot] <support@github.com>\r\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
+        "commit_date": "2024-05-03 12:15:28",
         "release_date": "2024-03-31 12:10:21",
         "release_message": "Refer to the [CHANGELOG.md](https://github.com/jeremylong/DependencyCheck/blob/main/CHANGELOG.md#change-log) for information about improvements and upgrade notes."
     },
@@ -25424,8 +25424,8 @@
     "https://github.com/google/oss-fuzz": {
         "created_at": "2016-07-20 19:39:50",
         "description": "OSS-Fuzz - continuous fuzzing for open source software.",
-        "commit_message": "Add a CITATION.cff (#11851)\n\nAddress #11817.",
-        "commit_date": "2024-04-30 22:58:11"
+        "commit_message": "projects: remove OLD_LLVM_PASS from another batch of projects (#11898)\n\nSigned-off-by: David Korczynski <david@adalogics.com>",
+        "commit_date": "2024-05-03 20:33:35"
     },
     "https://github.com/nmalcolm/Inventus": {
         "created_at": "2017-08-28 11:48:02",
@@ -27064,7 +27064,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "20.109.38.148属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "52.238.27.212属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
