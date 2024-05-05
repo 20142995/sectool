@@ -196,8 +196,8 @@
     "https://github.com/ycdxsb/PocOrExp_in_Github": {
         "created_at": "2021-04-13 05:46:16",
         "description": "聚合Github上已有的Poc或者Exp，CVE信息来自CVE官网。Auto Collect Poc Or Exp from Github by CVE ID.",
-        "commit_message": "update 2024-04-27 06:34:59",
-        "commit_date": "2024-04-26 22:34:59"
+        "commit_message": "update 2024-05-05 07:57:56",
+        "commit_date": "2024-05-04 23:57:56"
     },
     "https://github.com/1n7erface/RequestTemplate": {
         "created_at": "",
@@ -2667,8 +2667,8 @@
     "https://github.com/madneal/gshark": {
         "created_at": "2024-03-23 10:23:15",
         "description": "Scan for sensitive information easily and effectively.",
-        "commit_message": "Update README.md",
-        "commit_date": "2024-03-31 01:19:06",
+        "commit_message": "Merge pull request #205 from madneal/dependabot/go_modules/server/golang.org/x/net-0.23.0\n\nBump golang.org/x/net from 0.21.0 to 0.23.0 in /server",
+        "commit_date": "2024-04-25 23:42:14",
         "release_date": "2024-03-23 10:42:35",
         "release_message": "## Fixed\r\n\r\n* 修复数据库初始化的问题\r\n* 修复 Postman 搜索结果格式\r\n* 前端组件安全升级"
     },
@@ -4458,8 +4458,8 @@
     "https://github.com/MobSF/Mobile-Security-Framework-MobSF": {
         "created_at": "2024-03-24 21:56:26",
         "description": "Mobile Security Framework (MobSF) is an automated, all-in-one mobile application (Android/iOS/Windows) pen-testing, malware analysis and security assessment framework capable of performing static and dynamic analysis.",
-        "commit_message": "Update SECURITY.md",
-        "commit_date": "2024-04-04 04:50:07",
+        "commit_message": "Update auto-comment.yml",
+        "commit_date": "2024-05-04 03:08:42",
         "release_date": "2024-03-25 18:20:18",
         "release_message": "### v3.9.7 Beta Changelog\r\n\r\n- Features or Enhancements\r\n   - iOS Dynamic Analyzer with Corellium\r\n   - Dynamic Analysis refactoring for Android and iOS\r\n   - Exposed iOS Dynamic Analysis REST APIs\r\n   - Added more helper Frida Scripts for Android and iOS Dynamic Analyzer\r\n   - Frida support improvements Injected Frida Code View, Injection, Spawn, Attach and Session\r\n   - Corellium Reverse SSH connection support\r\n   - Enhancements to ARC and Stack Canary Checks in Mach-O Parsing\r\n   - Frida RPC Hooks support\r\n   - Frida Script QA\r\n   - Runtime Executable Tampering Detection\r\n   - iOS Dynamic Analysis REST API Docs\r\n   - Global Datatables Export as PDF, CSV, XLS, Copy and Print\r\n   - Corellium custom host domain support\r\n   - Huge improvements in Static Analysis report generation page rendering for APKs/IPAs with large amount of data by @JPSxzy8 \r\n   -  Scan independent library file (.so, .dylib, Framework dylib) from APK/IPA Static Analysis Report\r\n   -  Library analysis refactored relative path helper for Django template.\r\n   - Re-introduced RELRO checks for Android, added Dart binary check to avoid Flutter false positives.\r\n   - Improved stripped debug symbol check for ELF and MachO using native OS tools such as nm and objdump when available.\r\n   - Merge iOS Framework and Dylib Analysis.\r\n   - SAST Performance improvements\r\n   - Android API Analysis rule QA\r\n   - Apksigner.jar fallback for signature parsing\r\n   - Simplify MobSF `scan` REST API\r\n   - Support for analysis of iOS Frameworks\r\n   - Android SVG icon parsing improvments\r\n   - Icon analysis refactor and support jpeg and webp icons\r\n   - Github action QA\r\n   - iOS merge findings from swift and objective c rules with same rule identifier. Fixes #2287 \r\n   - iOS Binary analysis, sort regex matches. Fixes #2252\r\n   - Framework dylibs with no extensions to skip PIE checks. Fixes #2307\r\n   - Select correct network_security config. Fixes #2049\r\n   - Android Manifest Analysis added support for detecting task hijacking (StrandHogg 1.0 and StrandHogg 2.0) . Fixes #2124\r\n   - Added new manifest analysis rule to warn on apps targeting older Android OS\r\n   - Updated severity of findings\r\n   - UI improvement for AppSec dashboard to show a loader\r\n   - UI changes in Static Analysis to collapse large no of files in API and Code Analysis for better real estate\r\n   - Improved certificate file analysis for android, jar, aar, and iOS\r\n   - AppLink asset json check multithreading performance improvements\r\n   - Code QA and ruleset improvements with ChatGPT\r\n   - Fixes #2324 , Bug in parsing DSA Public Key parameters for fingerprint calculation.\r\n   - AssetLink check QA\r\n   - Remove Androguard dependency use only features required by MobSF\r\n   \r\n - Security\r\n   -  Arbitrary file writes on Windows with apktool fixed\r\n   -  Fixed an LFI reported by @0x33c0unt\r\n   -  Fixed SSRF in AppLinks and Firebase database checks\r\n     \r\n## What's Changed\r\n* Performance Improvements on SAST by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2251\r\n* add apksigner.jar for reading signatures by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2254\r\n* [HOTFIX] add jar by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2255\r\n* Bump Frida to address crash on M1 Mac by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2258\r\n* Simplify Scan API by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2259\r\n* [HOTFIX] iOS Framework Analysis + Multiple Feature QA by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2260\r\n* [HOTFIX] Support webp for icon by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2267\r\n* fixed that the icon cannot be found by @ohyeah521 in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2265\r\n* [HOTFIX] Allow jpeg icons by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2268\r\n* Fix jadx and apktool failure due to JDK changes by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2269\r\n* [HOTFIX][EFR] Priority Bug Fixes by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2275\r\n* update apktool to 2.9.0 by @superpoussin22 in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2278\r\n* Build(deps): Bump django from 4.1.12 to 4.1.13 by @dependabot in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2282\r\n* iOS Dynamic Analysis with Corellium by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2194\r\n* Dynamic Analysis Improvements Android & iOS by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2295\r\n* Dec 2023 QA by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2297\r\n* [HOTFIX] More Android & iOS Frida Scripts by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2299\r\n* [HOTFIX] Android script loading,  frida injected code view, paramiko SSH issues by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2300\r\n* Enhancements to ARC and Stack Canary Checks in Mach-O Parsing by @cpuu in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2284\r\n* [HOTFIX] RPC hook suggestions + Bug Fix by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2301\r\n* update apktool to 2.9.1 by @superpoussin22 in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2304\r\n* [EFR] QA Request by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2306\r\n* Bug Fixes + Improvements by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2307\r\n* ChatGPT Permission Mapping + Improved Description by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2308\r\n* Windows Python tempfile permission error fix by @ohyeah521 in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2309\r\n* Multiple Features Improved or Added by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2310\r\n* Malware Permission Check for Android by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2313\r\n* [HOTFIX] Bug Fix and QA by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2315\r\n* Using multithreading to improve code efficiency by @ohyeah521 in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2319\r\n* GPT Goodness by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2318\r\n* Update SECURITY.md by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2323\r\n* [HOTFIX][SECURITY] Fix an LFI, DSA Pub Key parsing bug and dependencies  by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2326\r\n* Filter out invalid links by @ohyeah521 in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2322\r\n* [SECURITY] Fix Arbitrary file writes on Windows by @superpoussin22 in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2328\r\n* Runtime Exec Tampering Detection, iOS Dynamic REST APIs, Datatables Export  by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2339\r\n* MOBSF_CORELLIUM_API_DOMAIN Update by @HackJJ in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2347\r\n* poetry pyqt5 fixes by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2362\r\n* Remove Androguard dependency use only features required by MobSF by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2363\r\n* Optimize rendering of big lists by @JPSxzy8 in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2351\r\n* Update SECURITY.md by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2364\r\n* Update SECURITY.md by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2365\r\n* Resolve the situation where the function name is bytes by @ohyeah521 in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2367\r\n\r\n## New Contributors\r\n* @cpuu made their first contribution in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2284\r\n* @HackJJ made their first contribution in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2347\r\n* @JPSxzy8 made their first contribution in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2351\r\n\r\n**Full Changelog**: https://github.com/MobSF/Mobile-Security-Framework-MobSF/compare/v3.7.6...v3.9.7"
     },
@@ -6296,8 +6296,8 @@
     "https://github.com/WerWolv/ImHex": {
         "created_at": "2024-03-23 09:15:12",
         "description": "🔍 A Hex Editor for Reverse Engineers, Programmers and people who value their retinas when working at 3 AM.",
-        "commit_message": "fix: Selectable text behaving weirdly when selecting",
-        "commit_date": "2024-04-29 19:20:54",
+        "commit_message": "fix: Command palette losing focus when pressing Alt\n\nFixes #1651",
+        "commit_date": "2024-05-04 19:30:21",
         "release_date": "2024-03-23 10:06:55",
         "release_message": "## Improvements\r\n- ImHex properly enters low power mode on Linux again now\r\n- Unifont characters are now being loaded at their native size to make them crisp like the Western characters\r\n- The splash screen is not being scaled weirdly anymore now\r\n- Added a hint when the advanced data information section didn't yield any result\r\n\r\n## Bug Fixes\r\n- Fixed linking to libyara. This should resolve issues with e.g the AUR version not starting anymore\r\n- Fixed issues with the auto updater on Windows\r\n- Fixed view providers not being saved to project files correctly\r\n- Fixed highlighting not updating correctly when changing Bookmark regions\r\n- Fixed crash upload setting not being disabled correctly when choosing \"Deny\" in the initial popup\r\n- Fixed custom base address issues with the data inspector and copy as array options\r\n- Fixed advanced data information not showing up correctly\r\n- Fixed selection being removed sometimes when right clicking it\r\n- Fixed infinite loop when exporting a selection to a file\r\n- Fixed control characters ending up in log files\r\n- Fixed a crash when opening an unopenable file\r\n\r\n## Pattern Language\r\n- Fixed various issues with the virtual file system\r\n- Fixed data decompression functions not extracting the entire data\r\n\r\n# Previous Changelog\r\n\r\n![image](https://github.com/WerWolv/ImHex/assets/10835354/57bfaec2-779e-4701-b1a5-f03da7815da3)\r\n\r\n## Additions\r\n- **All main menu entries now have pretty icons**\r\n- **Added Myers' diffing algorithm to the diff view**\r\n    - This algorithm can display insertions and removals as well as modifications\r\n    - Huge thanks to the maintainer of Malcat!\r\n- **Added option to customize toolbar icons**\r\n- **Added a much improved Out of the Box experience when first starting up ImHex**\r\n- **Added many new hash algorithms**\r\n    - This includes basic sum checksums, Snefru, Haval, various SHA versions, Keccak, RIPEMD, many CRC presets and many more\r\n- **Greatly improved the data information view**\r\n    - Sections can now be switched on and off\r\n    - Magic information now includes more than one entry if there's multiple concatenated files\r\n    - The Digram and Layered distribution graphs now perform a lot better\r\n    - There's now built-in yara rules that are being run on files to detect compilers, programming languages and more for executables\r\n- **Greatly improved the pattern editor**\r\n    - Thanks a lot to @paxcut \r\n    - This adds support for find and replace, better highlighting and many other smaller things\r\n- **Added Mini Map to the Hex Editor**\r\n    - This can be enabled by clicking on the map icon in the hex editor footer\r\n    - There's also config options when right clicking that icon\r\n- **Added `Edit -> Jump to -> Pattern` option to jump directly from hex editor highlights to patterns**\r\n    - Clicking on patterns in the pattern data view also jumps to their definition in the pattern editor now\r\n- **Added a font picker to the settings**\r\n- **Added option to highlight parent pattern regions in the hex editor when hovering over them**\r\n- Added support for searching for other string encodings and endianess. Thanks a lot to @PerikiyoXD \r\n- Added a pretty drag-n-drop overlay when dragging files onto ImHex\r\n- Added support for virtual file systems through the pattern language\r\n- Added option to keep ImHex always on top of other windows\r\n- Added option to use ImHex in fullscreen mode\r\n- Added support for switching to other providers through the command palette\r\n- Added a setting to always show all provider tabs, even if there's only one\r\n- Added option to export a selection to a file\r\n- Added a comments column to the pattern data view. It can be enabled by right clicking on the table header and selecting it there\r\n- Added option to turn off borderless window mode\r\n- Added option to export the results of the find view to a file\r\n- Added option to disable command palette button in header\r\n- Added a search bar to the file chooser popup\r\n- Added support for opening multiple files at once\r\n- Added support for macOS's Right click -> Open with option\r\n\r\n## Improvements\r\n- **ImHex now uses Atomic File I/O instead of mapping files into memory**\r\n    - This solves various issues where certain files couldn't be opened, files on network drives not working well and more\r\n- **macOS M1 build now only requires macOS 12.1 instead of 14.0 to run**\r\n- Bookmark moving now uses ImGui's native drag n drop feature\r\n- Syncing pattern language source code between providers should work better now\r\n- Custom encodings that don't have multi-byte values now display immediately when selected\r\n- The macOS build now uses a custom titlebar\r\n- ImHex windows are now being unfocused properly if the main window loses focus\r\n    - No more blinking cursors when ImHex is in the background!\r\n- Overwriting individual characters in the edit mode of the hex editor now works much better\r\n- Copy-Paste now works correctly in the Web version of ImHex. Thanks a lot to @exsilium \r\n- The find popup now remembers its content\r\n- The crash restore popup doesn't show anymore now if there's nothing to restore\r\n- Opening the same file multiple times is no longer possible now\r\n\r\n## Bug Fixes\r\n- **Fixed signing issues with macOS builds**\r\n- **Fixed CTRL + S not removing red highlights of bytes**\r\n- Fixed address bound checks in Edit -> Jump to option\r\n- Fixed menu bar collapsing into hamburger menu even if there's enough space\r\n- Fixed RGBA8 data processor node not setting output buffer correctly\r\n- Fixed provider information in information view always showing infos about the current provider instead of about the analyzed provider\r\n- Fixed issues when using certain window management tools on Windows\r\n- Fixed crashes when launching ImHex with file arguments\r\n- Fixed crash when trying to use too many hex editor rows\r\n- Fixed native theme detection of Linux. Thanks to @iTrooz \r\n- Fixed issues where workspaces are not correctly saved sometimes\r\n- Fixed issues where default magic database wasn't being bundled correctly\r\n- Fixed crashes when loading very old settings files\r\n- Fixed data inspector not updating correctly when the underlying data changed\r\n- Fixed a crash when specifying invalid hash parameters in the hashing view\r\n- Fixed additional folder paths not being loaded from the config file correctly\r\n- Fixed data inspector showing two negative signs sometimes\r\n- Fixed various issues with non-zero base addresses\r\n\r\n## Pattern Language\r\n- **Huge refactor of the Preprocessor, Lexer and Parser**\r\n    - Massive thanks to @jumanji144\r\n    - Compile errors are a lot more helpful now and include more context information\r\n- **Added support for `import` statements**\r\n    - Massive thanks to @jumanji144\r\n- **Added stacktrace to runtime errors**\r\n- Patterns can now be placed inside of custom sections from within other types\r\n- Pattern formatters now properly respect a patterns visibility\r\n    - This means hidden patterns don't end up in exported json, yaml or html files anymore\r\n- Fixed writing to big endian bitfield entries\r\n- Changing pattern setting now re-evaluates the code if auto evaluation is enabled\r\n\r\n<br/>\r\n\r\n<p align=\"center\">If you like my work, please consider supporting me on GitHub Sponsors, Patreon or PayPal. Thanks a lot!</p>\r\n<p align=\"center\">\r\n<a href=\"https://github.com/sponsors/WerWolv\"><img src=\"https://werwolv.net/assets/github_banner.png\" alt=\"GitHub donate button\" /> </a>\r\n<a href=\"https://www.patreon.com/werwolv\"><img src=\"https://c5.patreon.com/external/logo/become_a_patron_button.png\" alt=\"Patreon donate button\" /> </a>\r\n<a href=\"https://werwolv.net/donate\"><img src=\"https://werwolv.net/assets/paypal_banner.png\" alt=\"PayPal donate button\" /> </a>\r\n</p"
     },
@@ -6405,13 +6405,10 @@
         "release_message": ""
     },
     "https://github.com/arch3rPro/PST-Bucket": {
-        "created_at": "",
-        "description": "",
-        "commit_date": "2024-02-26 16:29:51",
-        "commit_message": "easysrv: Update to version 3.1.0",
-        "release_tag": "",
-        "release_date": "",
-        "release_message": ""
+        "created_at": "2023-04-24 06:49:11",
+        "description": "Scoop-Buket for Penetration Suite Toolkit",
+        "commit_message": "cudatext-cn: Update to version 1.214.2.0",
+        "commit_date": "2024-05-04 16:29:05"
     },
     "https://github.com/Aiyflowers/JWT_GUI": {
         "created_at": "2023-07-01 07:09:25",
@@ -18779,8 +18776,8 @@
     "https://github.com/sajjadium/ctf-archives": {
         "created_at": "2021-06-10 16:53:52",
         "description": " CTF Archives: Collection of CTF Challenges.",
-        "commit_message": "UMDCTF challs",
-        "commit_date": "2024-04-29 00:02:52"
+        "commit_message": "BSidesSF challs",
+        "commit_date": "2024-05-04 23:13:30"
     },
     "https://github.com/KaLendsi/CVE-2022-21882": {
         "created_at": "2022-01-27 03:44:10",
@@ -22730,8 +22727,8 @@
     "https://github.com/shufflewzc/faker3": {
         "created_at": "2022-01-31 21:21:40",
         "description": null,
-        "commit_message": "Update jd_zzhb_new_draw.js",
-        "commit_date": "2024-05-01 14:13:00"
+        "commit_message": "Create jd_dplh0503.js",
+        "commit_date": "2024-05-03 09:52:45"
     },
     "https://github.com/harlamism/IdaClu": {
         "created_at": "",
@@ -23200,8 +23197,8 @@
     "https://github.com/RVC-Boss/GPT-SoVITS": {
         "created_at": "2024-01-14 18:05:21",
         "description": "1 min voice data can also be used to train a good TTS model! (few shot voice cloning)",
-        "commit_message": "Update api.py (#979)\n\n修复SynthesizerTrn kwargs 传递异常。",
-        "commit_date": "2024-04-17 09:33:01"
+        "commit_message": "modify freeze_quantizer mode, avoid quantizer's codebook updating (#953)",
+        "commit_date": "2024-05-02 13:26:44"
     },
     "https://github.com/djytmdj/Network-security-study-notes": {
         "created_at": "2023-07-25 06:13:25",
@@ -25872,8 +25869,8 @@
     "https://github.com/retirejs/retire.js": {
         "created_at": "2024-03-12 07:30:25",
         "description": "scanner detecting the use of JavaScript libraries with known vulnerabilities. Can also generate an SBOM of the libraries it finds.",
-        "commit_message": "More extensions updates",
-        "commit_date": "2024-03-19 13:26:13",
+        "commit_message": "Update CWE and severity of two vulns",
+        "commit_date": "2024-04-23 11:03:28",
         "release_date": "2024-03-12 07:30:30",
         "release_message": "## [5.0.0-beta.1]\n\n### Added\n\n- Deepscan option with `--deep` where retire.js will also try to detect libraries using JavaScript AST (slower)\n\n"
     },
@@ -27064,7 +27061,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "52.238.27.212属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "172.183.108.38属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
@@ -27263,8 +27260,8 @@
         "description": "Find Missing Patches"
     },
     "https://www.pan131.com/": {
-        "status_code": 200,
-        "description": "百度云搜索,百度网盘云盘资源搜索引擎 - 盘131"
+        "status_code": 500,
+        "description": "500 Internal Server Error"
     },
     "http://whois.alexa.cn/": {
         "status_code": 200,
