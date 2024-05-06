@@ -1077,8 +1077,8 @@
     "https://github.com/Threekiii/Vulnerability-Wiki": {
         "created_at": "2024-03-07 09:30:14",
         "description": "基于 docsify 部署，目前漏洞数量 1000+",
-        "commit_message": "update weblogic cve-2019-2725",
-        "commit_date": "2024-04-22 06:32:48",
+        "commit_message": "fix cms",
+        "commit_date": "2024-04-30 03:14:58",
         "release_date": "2024-04-01 03:17:43",
         "release_message": "2023.04.01 重构目录，此为重构前 release。重构后目录如下：\r\n```\r\ndirs = {\r\n    'oa':'OA漏洞',\r\n    'cms': 'CMS漏洞',\r\n    'framework': '开发框架漏洞',\r\n    'iot': '网络设备漏洞',\r\n    'language': '开发语言漏洞',\r\n    'os': '操作系统漏洞',\r\n    'webapp': 'Web应用漏洞',\r\n    'middleware': '中间件漏洞',\r\n    'database': '数据库漏洞',\r\n    'cloud': '云安全漏洞',\r\n    'others':'其他漏洞'\r\n}\r\n```"
     },
@@ -2217,10 +2217,9 @@
         "release_message": ""
     },
     "https://github.com/epi052/feroxbuster": {
-        "created_at": "2024-04-27 00:18:37",
-        "description": "A fast, simple, recursive content discovery tool written in Rust.",
         "commit_message": "docs: add soutzis as a contributor for bug (#1133)\n\n* docs: update README.md [skip ci]\r\n\r\n* docs: update .all-contributorsrc [skip ci]\r\n\r\n---------\r\n\r\nCo-authored-by: allcontributors[bot] <46447321+allcontributors[bot]@users.noreply.github.com>",
         "commit_date": "2024-04-27 00:18:37",
+        "created_at": "2024-04-27 00:18:37",
         "release_date": "2024-04-27 11:08:21",
         "release_message": "## What's Changed\r\n* 1105 - improve json logs for post processing by @epi052 in https://github.com/epi052/feroxbuster/pull/1114\r\n* 1097 - included configuration field in state file by @epi052 in https://github.com/epi052/feroxbuster/pull/1114\r\n* 1118 - using --data implies POST HTTP verb by @epi052 in https://github.com/epi052/feroxbuster/pull/1114\r\n* 1122 - fixed mishandling of whitespace for supplied request headers by @epi052 in https://github.com/epi052/feroxbuster/pull/1114\r\n\r\n**Full Changelog**: https://github.com/epi052/feroxbuster/compare/v2.10.2...v2.10.3"
     },
@@ -4737,8 +4736,8 @@
     "https://github.com/0x727/ObserverWard": {
         "created_at": "2024-03-22 09:26:54",
         "description": "侦查守卫(ObserverWard)指纹识别工具Community web fingerprint identification tool ",
-        "commit_message": "Merge pull request #278 from 0x727/dependabot/cargo/h2-0.3.26\n\nBump h2 from 0.3.24 to 0.3.26",
-        "commit_date": "2024-04-06 07:07:28",
+        "commit_message": "Merge pull request #286 from 0x727/dependabot/cargo/base64-0.22.1\n\nBump base64 from 0.22.0 to 0.22.1",
+        "commit_date": "2024-05-01 13:14:20",
         "release_date": "2024-03-22 09:27:13",
         "release_message": ""
     },
@@ -6407,8 +6406,8 @@
     "https://github.com/arch3rPro/PST-Bucket": {
         "created_at": "2023-04-24 06:49:11",
         "description": "Scoop-Buket for Penetration Suite Toolkit",
-        "commit_message": "cudatext-cn: Update to version 1.214.2.0",
-        "commit_date": "2024-05-04 16:29:05"
+        "commit_message": "nuclei: Update to version 3.2.6",
+        "commit_date": "2024-05-05 01:36:48"
     },
     "https://github.com/Aiyflowers/JWT_GUI": {
         "created_at": "2023-07-01 07:09:25",
@@ -22635,8 +22634,8 @@
     "https://github.com/whyour/qinglong": {
         "created_at": "2021-03-13 15:21:04",
         "description": "支持 Python3、JavaScript、Shell、Typescript 的定时任务管理平台（Timed task management platform supporting Python3, JavaScript, Shell, Typescript）",
-        "commit_message": "修复脚本管理上传文件文件名乱码",
-        "commit_date": "2024-04-22 14:39:27"
+        "commit_message": "bark 推送增加 archive 参数",
+        "commit_date": "2024-05-05 12:10:57"
     },
     "https://github.com/nelenkov/android-backup-extractor": {
         "created_at": "2012-06-08 13:33:46",
@@ -25731,12 +25730,12 @@
         "release_message": "## 1.8.7 更新记录\r\n1. HawkX爬虫引擎更新，页面分析更加精细化, 完善部分场景下的 POST流量捕获\r\n2. 爬虫结果新增报文详情页面\r\n3. 爬虫结果新增URL导出功能\r\n4. 移除HTML漏洞报告导出的数量限制\r\n5. 越权插件鉴权方式配置修改为headers\r\n6. EZ Web表单暴破插件新增字典文件配置"
     },
     "https://github.com/kvesta/vesta": {
-        "created_at": "2023-12-24 09:18:49",
+        "created_at": "2024-04-03 12:43:11",
         "description": "A static analysis of vulnerabilities, Docker and Kubernetes cluster configuration detect toolkit based on the real penetration of cloud computing",
         "commit_message": "Merge pull request #50 from christasa/develop\n\nAdd the checking of liblzma.so backdoor",
         "commit_date": "2024-04-03 12:43:11",
-        "release_date": "2023-12-25 04:51:59",
-        "release_message": "Notable Updates:\r\n- **Add Docker Histories environment checking**\r\nThe Docker Histories checking inlcuding the malicious variables, unsafe command and hardcode. This feature is implemented in the Docker analysis and image scan, accepting either a tar file or an image ID.\r\n- **Add the filesystem scanning**\r\n- **Add `BearerToken` for authentication**\r\n- **Delete the `--inside` flag in the k8s analysis**\r\nThe founction `clientcmd.BuildConfigFromFlags` will automatically use `restclient.InClusterConfig` when it can't find the config in user directory. Therefore, remove the redundant inside symbols.\r\n\r\n\r\n\r\n| md5 | filename |\r\n| --- | --- |\r\n| 75820c21fc4df579df4dfa12e47eafcd |  vesta_darwin_amd64 |\r\n| 50e4aa00ae5a5ccc5f4ba07ffa239204 | vesta_linux_amd64 |\r\n| 1b6dc5033ab5bada38d5027fd655d56e | vesta_windows_amd64.exe | \r\n"
+        "release_date": "2024-04-21 09:33:28",
+        "release_message": "Notable Updates:\r\n- **Add `CVE-2024-21626` checking**\r\nChecking the mount path, due to the variety of fd number, vesta checks the key path `/proc/self/fd` in WORKDIR.\r\n- **Add `CVE-2024-3094` checking**\r\nChecking the library liblzma.so, refer to [detect.sh](https://www.openwall.com/lists/oss-security/2024/03/29/4/3)\r\n- **Add the severity of each Linux capabilities**\r\nReorder the security severity for different Capabilities based on the ease of  exploitation.\r\n\r\n\r\n\r\n\r\n| md5 | filename |\r\n| --- | --- |\r\n| 7ea0d98f1a9fcb8917cd9834fd51c08e |  vesta_darwin_amd64 |\r\n| ff58c0fba46ab9e4ac083283de1c5072 | vesta_linux_amd64 |\r\n| f8b5b16689ff0dd460a81989970dbcab | vesta_windows_amd64.exe | "
     },
     "https://github.com/Clouditera/secgpt": {
         "created_at": "2023-11-20 05:41:24",
@@ -25867,12 +25866,8 @@
         "commit_date": "2017-07-21 18:33:08"
     },
     "https://github.com/retirejs/retire.js": {
-        "created_at": "2024-03-12 07:30:25",
-        "description": "scanner detecting the use of JavaScript libraries with known vulnerabilities. Can also generate an SBOM of the libraries it finds.",
-        "commit_message": "Update CWE and severity of two vulns",
-        "commit_date": "2024-04-23 11:03:28",
-        "release_date": "2024-03-12 07:30:30",
-        "release_message": "## [5.0.0-beta.1]\n\n### Added\n\n- Deepscan option with `--deep` where retire.js will also try to detect libraries using JavaScript AST (slower)\n\n"
+        "created_at": "2013-08-30 21:43:44",
+        "description": "scanner detecting the use of JavaScript libraries with known vulnerabilities. Can also generate an SBOM of the libraries it finds."
     },
     "https://github.com/1N3/XSSTracer": {
         "created_at": "2015-03-17 19:33:55",
@@ -26082,11 +26077,11 @@
         "commit_date": "2016-01-02 11:04:22"
     },
     "https://github.com/deepfence/ThreatMapper": {
-        "created_at": "2024-04-16 12:22:14",
+        "created_at": "2024-05-05 01:01:03",
         "description": "Open source cloud native security observability platform. Linux, K8s, AWS Fargate and more.",
-        "commit_message": "Update listing with threatintel-2024-04-17_00-05-18",
-        "commit_date": "2024-04-17 00:23:50",
-        "release_date": "2024-04-17 00:23:45",
+        "commit_message": "Update listing with threatintel-2024-05-05_00-49-40",
+        "commit_date": "2024-05-05 01:01:03",
+        "release_date": "2024-05-05 01:32:24",
         "release_message": ""
     },
     "https://github.com/BlackHole1/autoFindXssAndCsrf": {
@@ -27061,7 +27056,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "172.183.108.38属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "20.55.15.94属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
