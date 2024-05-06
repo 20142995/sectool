@@ -88,6 +88,7 @@
                 - http://www.hiencode.com/brain.html
                 - https://ctf.bugku.com/tool/brainfuck
                 - https://tool.bugku.com/brainfuck
+                - https://www.cachesleuth.com/bfook.html
                 - https://www.splitbrain.org/services/ook
             BubbleBabble:
                 - http://www.hiencode.com/bubble.html
@@ -273,6 +274,8 @@
                 - https://ctf.bugku.com/tool/caesar
             列移位密码:
                 - http://www.hiencode.com/colum.html
+            博多密码:
+                - https://www.boxentriq.com/code-breaking/baudot-code
             博福特密码:
                 - http://www.hiencode.com/beaufort.html
             双密码:
@@ -289,6 +292,8 @@
                 - http://www.hiencode.com/hash.html
             四方密码:
                 - http://www.hiencode.com/four.html
+            图像编码:
+                - http://www.fzwjscj.xyz/index.php/archives/23/
             圣堂武士密码:
                 - ./Plugins/img/shengtangwushi.jpg
             埃特巴什码:
@@ -367,6 +372,8 @@
                 - http://www.hiencode.com/morse.html
             进制转换:
                 - http://www.hiencode.com/jinzhi.html
+            阴阳怪气编码解码:
+                - https://jiji.pro/yygq.js/
             随机密码和密钥生成器:
                 - http://www.atoolbox.net/Tool.php?Id=921
             零宽隐写:
@@ -388,7 +395,10 @@
             情报收集:
                 航线图:
                     - https://map.variflight.com
+                    - https://zh.flightaware.com/live/flight/B7631/history/320
             综合:
+                - https://github.com/Arinue/CTF-NetA
+                - https://github.com/Leon406/ToolsFx
                 - https://github.com/Moxin1044/qsnctf-python
                 - https://github.com/devttys0/binwalk
                 - https://github.com/qianxiao996/CTF-Tools
@@ -2049,15 +2059,15 @@
                         - https://c5r.app/tools/pseudo-encrypted-zip-check
                         - https://github.com/442048209as/ZipCenOp
                 图片:
-                    png:
-                        LSB隐写:
-                            - https://github.com/7thSamurai/steganography
-                            - https://github.com/dhsdshdhk/stegpy
-                            - https://github.com/livz/cloacked-pixel
-                        png宽高修复:
-                            - https://github.com/AabyssZG/Deformed-Image-Restorer
-                        截图漏洞:
-                            - https://github.com/frankthetank-music/Acropalypse-Multi-Tool
+                    png_LSB隐写:
+                        - https://github.com/7thSamurai/steganography
+                        - https://github.com/dhsdshdhk/stegpy
+                        - https://github.com/izcoser/stegpy
+                        - https://github.com/livz/cloacked-pixel
+                    png_宽高修复:
+                        - https://github.com/AabyssZG/Deformed-Image-Restorer
+                    png_截图漏洞:
+                        - https://github.com/frankthetank-music/Acropalypse-Multi-Tool
                     其他:
                         - https://github.com/ImageMagick/ImageMagick
                     盲水印:
