@@ -518,9 +518,7 @@
     },
     "https://github.com/knownsec/404StarLink": {
         "created_at": "2020-11-17 08:10:18",
-        "description": "404StarLink - 推荐优质、有意义、有趣、坚持维护的安全开源项目",
-        "commit_message": "weekly update at 2024-04-28",
-        "commit_date": "2024-04-28 03:16:21"
+        "description": "404StarLink - 推荐优质、有意义、有趣、坚持维护的安全开源项目"
     },
     "https://github.com/gwen001/github-subdomains": {
         "created_at": "2020-07-24 06:54:29",
@@ -1077,8 +1075,8 @@
     "https://github.com/Threekiii/Vulnerability-Wiki": {
         "created_at": "2024-03-07 09:30:14",
         "description": "基于 docsify 部署，目前漏洞数量 1000+",
-        "commit_message": "fix cms",
-        "commit_date": "2024-04-30 03:14:58",
+        "commit_message": "update jimureport cve-2023-4450",
+        "commit_date": "2024-05-07 00:33:54",
         "release_date": "2024-04-01 03:17:43",
         "release_message": "2023.04.01 重构目录，此为重构前 release。重构后目录如下：\r\n```\r\ndirs = {\r\n    'oa':'OA漏洞',\r\n    'cms': 'CMS漏洞',\r\n    'framework': '开发框架漏洞',\r\n    'iot': '网络设备漏洞',\r\n    'language': '开发语言漏洞',\r\n    'os': '操作系统漏洞',\r\n    'webapp': 'Web应用漏洞',\r\n    'middleware': '中间件漏洞',\r\n    'database': '数据库漏洞',\r\n    'cloud': '云安全漏洞',\r\n    'others':'其他漏洞'\r\n}\r\n```"
     },
@@ -2915,12 +2913,12 @@
         "release_message": ""
     },
     "https://github.com/dbeaver/dbeaver": {
-        "created_at": "2024-04-18 12:08:01",
+        "created_at": "2024-05-03 15:08:43",
         "description": "Free universal database tool and SQL client",
-        "commit_message": "Merge remote-tracking branch 'origin/devel' into devel",
-        "commit_date": "2024-04-30 18:27:28",
-        "release_date": "2024-04-21 17:00:19",
-        "release_message": "\n                - General:\n                    - Migration from Toad for Oracle was supported\n                    - Sensitive information in the log files is now masked\n                - SQL Editor:\n                    - Smart mode for 'Blank line as statement delimiter' option was added (enabled by default)\n                    - Sub-select autocompletion was added\n                    - Highlighting of column references in INSERT queries was fixed\n                    - Outline viewer opening was fixed\n                    - Issue with hidden text on macOS was fixed\n                - Connectivity:\n                    - Space trimming when saving user credentials was added\n                    - Saving SSH configuration with missing AWS private key was fixed\n                    - Reconnecting via SSH tunnel was fixed\n                - ER Diagrams: foreign keys presentation was fixed\n                - AI:\n                    - AI assistant is enabled by default\n                    - Database metadata collection was fixed\n                - Dashboards: disappearance of custom dashboards after version update was fixed\n                - Connectivity:\n                    - Space trimming when saving user credentials was added\n                    - Saving SSH configuration with missing AWS private key was fixed\n                    - Reconnecting via SSH tunnel was fixed\n            "
+        "commit_message": "E 2024-03 support",
+        "commit_date": "2024-05-06 07:25:40",
+        "release_date": "2024-05-05 18:55:07",
+        "release_message": "\n                - SQL Editor:\n                    - Smart mode for Blank line is statement delimiter  setting was fixed\n                    - Vertical button alignment was fixed\n                - ER Diagrams: Keep layout selection was fixed\n                - Data transfer:\n                    - Import from CSV with duplicated columns names was fixed\n                    - Parallel data transfer monitoring/cancellation were fixed\n                - Dashboards:\n                    - Ability to drag and drop charts to another dashboard was added\n                    - Number of minor UI improvements were added\n                - Connectivity:\n                    - SSH parameters validation on the Connection page was added\n                    - Editing of 'Local host' and 'Remote host' fields in the Port Forwarding section was fixed\n                    - Database connection timeout notification was fixed\n                - Development: Redundant tests were disabled\n                - Databases\n                    - MariaDB:\n                        - GRANT OPTION privilege persistence was fixed\n                        - Schema privileges representation was fixed\n                    - SQL Server: trigger deletion was fixed\n                    - Teradata: link to the referenced table in the Metadata editor was added\n                - Localization: French translation was updated (thanks to @Jean-BaptisteC)\n                - General:\n                    - Language configuration in Windows installer was fixed\n                    - We have migrated to Eclipse 2024/06\n            "
     },
     "https://github.com/zema1/yarx": {
         "created_at": "2021-11-11 09:43:21",
@@ -3895,12 +3893,12 @@
         "release_message": "Remove scapy usage (#500)\r\n\r\n* removed arp and dns hunters usage due to it's violations of the scapy GPL2 license\r\n\r\n* added installation of arp and dns hunters to Dockerfile\r\n\r\n* added explicit new version to plugins in dockerfile installation\r\n\r\n* ignore B020 flake8\r\n\r\nFix: Removed automatic import of handler object (#506)\r\n\r\n* removed automatic import of handler object in events package and renamed handler.py to event_handler.py to solve name collision"
     },
     "https://github.com/quay/clair": {
-        "created_at": "2024-02-26 19:36:39",
+        "created_at": "2024-05-01 16:55:34",
         "description": "Vulnerability Static Analysis for Containers",
-        "commit_message": "contrib: account for different container engine clients\n\nApparently the runner might not support podman, this change allows for\neither. Unfortunately, with docker you need to pre-tag images and can't\ndo it all with one command like podman.\n\nSigned-off-by: crozzy <joseph.crosland@gmail.com>",
-        "commit_date": "2024-04-17 20:32:05",
-        "release_date": "2024-02-26 19:42:53",
-        "release_message": "Highlights:\r\n\r\n- The minimum TLS version is now 1.2. \r\n  Previously, servers also allowed 1.1 connections.\r\n- Claircore is updated to v1.5.25:\r\n  <details>\r\n\r\n  - rhcc, rhel: support compression of sideband data\r\n    <details>\r\n    If a Clair instance is using local files for the data needed for the\r\n    `rhel` and `rhcc` indexers, this data may now be compressed. This should\r\n    allow for the files to fit within a Kubernetes ConfigMap, making some\r\n    deployments easier to wrangle.\r\n    </details>\r\n  \r\n  - datastore: add \"delta\" update interface\r\n    <details>\r\n    This change should allow for updaters to use fewer resources and consume\r\n    API-based data sources in the future. As of this change, no in-tree\r\n    updaters have been converted to this interface.\r\n    </details>\r\n  \r\n  - java: size buffers correctly before use\r\n    <details>\r\n    This should reduce memory consumption for indexing layers that have\r\n    deeply nested Java archives.\r\n    </details>\r\n  \r\n  - postgres: remove internal timeouts\r\n    <details>\r\n    Database queries now take as long as needed to execute. This shouldn't\r\n    negatively affect any working uses, and should make some slower or\r\n    less-optimized queries possible on larger instances.\r\n    </details>\r\n  \r\n  - integration: make `PGVERSION` a pattern\r\n    <details>\r\n    The behavior of the setup of an embedded PostgreSQL in integration tests\r\n    has changed. The relevant environment variable (`PGVERSION`) is now a\r\n    pattern instead of a literal version string. Note that a version string\r\n    would be a patten that matches itself, so that format continues to work.\r\n    \r\n    Additionally, the version used is now read from the distributed\r\n    manifest, rather than hard-coded versions. Other than occasional network\r\n    calls to fetch this manifest, users shouldn't notice any difference.\r\n    </details>\r\n  \r\n  - alpine: add edge support\r\n    <details>\r\n    Alpine's `edge` version should now be supported for reporting.\r\n    </details>\r\n  \r\n  - rpm: support PGP V4 signatures\r\n    <details>\r\n    Rpm has apparently started using \"current\"/V4 PGP signatures, which\r\n    claircore was not handling. This adds support for these signatures.\r\n    </details>\r\n  \r\n  - jsonblob: add a disk buffering step\r\n    <details>\r\n    This improves \"offline\" operation by eagerly buffering output to disk\r\n    instead of creating a large in-memory data structure first.\r\n    \r\n    This makes the API trickier but given that there's a single (known and\r\n    intended) user, this should be fine.\r\n    </details>\r\n  \r\n  - tarfs: check a potential interger overflow\r\n    <details>\r\n    This change fixes a potential integer overflow in tar handling code.\r\n    \r\n    The possibility of exploiting this is effectively 0, as it would require\r\n    more bytes to represent a sufficiently large integer than is available\r\n    in the tar header.\r\n    \r\n    See also: https://github.com/quay/claircore/security/code-scanning/5\r\n    </details>\r\n  \r\n  - gobin: take into account package replacements\r\n    <details>\r\n    Previously, there was a bug where package replacements were not\r\n    considered for go binaries.\r\n    </details>\r\n  \r\n  - all: purge `http.DefaultClient` usage\r\n    <details>\r\n    Some packages with less churn (`photon`, `oracle`, `aws`) were using\r\n    older ways of getting an `*http.Client` or using `http.DefaultClient`.\r\n    \r\n    This change breaks some API in exchange for unifying the `*http.Client`\r\n    handling. The practical upshot is that it's much easier to control the\r\n    network contact surface.\r\n    </details>\r\n  \r\n  - all: share single FS implementation\r\n    <details>\r\n    Claircore components that deal with `Layer` objects now share a single\r\n    backing File and a single `fs.FS` implementation when using the `FS`\r\n    method. There should be no noticeable changes for users, but out-of-tree\r\n    implementations may want to move over to using the new FS method.\r\n    \r\n    This change should improve memory usage.\r\n    </details>\r\n  \r\n  - libindex: move to O_TMPFILE fetcher\r\n    <details>\r\n    This release uses a new fetcher (the component responsible for pulling\r\n    layers locally) that makes use of the O_TMPFILE flag to open(2). This\r\n    ensures that layer files will be cleaned up even in the event of an\r\n    unclean shutdown, including being sent a KILL signal.\r\n    </details>\r\n  </details>\r\n\r\n<a name=\"v4.7.3\"></a>\r\n## [v4.7.3] - 2024-02-26\r\n### Admin\r\n- [9517c7be](https://github.com/quay/clair/commit/9517c7bed060d575869a2cbaaa5a255d3714a0eb): add a check for compatible migration version\r\n  See Also:  [#1915](https://github.com/quay/clair/issues/1915)\r\n\r\n### Chore\r\n- [e5a896c9](https://github.com/quay/clair/commit/e5a896c9b939e7e59d92be4f17805f0ed70ea89e): v4.7.3 changelog bump\r\n- [d17ee97b](https://github.com/quay/clair/commit/d17ee97bdccdc46ba25c8c7de151bb84f84236ef): update claircore to v1.5.25\r\n  See Also: [#1990](https://github.com/quay/clair/issues/1990), [#1957](https://github.com/quay/clair/issues/1957), [#1942](https://github.com/quay/clair/issues/1942)\r\n### Config\r\n- [6ba32131](https://github.com/quay/clair/commit/6ba32131be6a79c4d5d070e666e81bfedcc09798): update minimum TLS version for server\r\n See Also:  [#1945](https://github.com/quay/clair/issues/1945)\r\n\r\n[v4.7.3]: https://github.com/quay/clair/compare/v4.7.2...v4.7.3\r\n"
+        "commit_message": "build(deps): bump github.com/urfave/cli/v2 from 2.27.1 to 2.27.2\n\nBumps [github.com/urfave/cli/v2](https://github.com/urfave/cli) from 2.27.1 to 2.27.2.\n- [Release notes](https://github.com/urfave/cli/releases)\n- [Changelog](https://github.com/urfave/cli/blob/main/docs/CHANGELOG.md)\n- [Commits](https://github.com/urfave/cli/compare/v2.27.1...v2.27.2)\n\n---\nupdated-dependencies:\n- dependency-name: github.com/urfave/cli/v2\n  dependency-type: direct:production\n  update-type: version-update:semver-patch\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>",
+        "commit_date": "2024-05-02 21:22:30",
+        "release_date": "2024-05-01 16:59:42",
+        "release_message": "<a name=\"unreleased\"></a>\r\n## [Unreleased]\r\n\r\n\r\n<a name=\"v4.7.4\"></a>\r\n## [v4.7.4] - 2024-05-01\r\n\r\n### NOTE\r\n[The default layer download location has changed](https://github.com/quay/clair/blob/release-4.7/Documentation/howto/deployment.md#disk-usage-considerations)\r\n\r\n### Claircore\r\n- tarfs: follow hardlinks in `ReadFile`\r\n  <details>\r\n  This makes `fs.ReadFile` work as expected when opening hardlinks.\r\n  </details>\r\n\r\n- debian: update how \"source\" packages are handled\r\n  <details>\r\n  Previously, the Updater parsed metadata from the repository to try to\r\n  record only \"binary\" packages. This was inaccurate and, with the new\r\n  dpkg handling, now unneeded. The new approach should be more accurate.\r\n  </details>\r\n\r\n- dpkg: improve Source handling\r\n  <details>\r\n  The dpkg handling machinery now correctly records source packages and\r\n  versions. Previously, version differences between a source package and\r\n  the resulting binary package(s) were incorrect if the versions were not\r\n  identical.\r\n  </details>\r\n\r\n- libindex: add `O_TMPFILE` fallback logic\r\n  <details>\r\n  After discovering that some common deployment methods are incompatible with\r\n  using the `O_TMPFILE` `open(2)` flag, a fallback path has been added. The\r\n  changes also move the default location of where temporary files are downloaded\r\n  to, to better align with the layout recommended by systemd.\r\n  \r\n  Please see [the documentation] for specifics.\r\n  \r\n  [the documentation]: https://pkg.go.dev/github.com/quay/claircore/libindex@v1.5.\r\n  26-0.20240325212310-fedb9d327aa7#NewRemoteFetchArena\r\n  </details>\r\n\r\n- osv: parse database_specific severity when no CVSS severity is defined\r\n  <details>\r\n  Occasionally there are OSV advisories that don't include any severity\r\n  information in the `.severity` object but they do contain a severity in\r\n  the `.database_specific` object. This change attempts to parse that\r\n  severity if we don't get a severity from the native `.severity` object.\r\n  </details>\r\n\r\n### Build(Deps)\r\n- [3ebd889c](https://github.com/quay/clair/commit/3ebd889cb37603e071ba0d8fb8ba631702b13414): bump peter-evans/create-pull-request from 6.0.0 to 6.0.1\r\n- [b7566a0f](https://github.com/quay/clair/commit/b7566a0feedc5de0227a5bfd6e2921014ec68704): bump peter-evans/create-pull-request from 5.0.2 to 6.0.0\r\n- [4db2f09b](https://github.com/quay/clair/commit/4db2f09be2330e4dc9061dc2e9d44d8979b8c34d): bump actions/cache from 3 to 4\r\n- [6cef8311](https://github.com/quay/clair/commit/6cef8311255b024dd3a1fc0a70f7edf38969906c): bump actions/upload-artifact from 3 to 4\r\n- [5ed80215](https://github.com/quay/clair/commit/5ed80215fa17adb7e72ba3d9267368474afd411e): bump actions/download-artifact from 3 to 4\r\n- [c9e1f56b](https://github.com/quay/clair/commit/c9e1f56b224f25aacd5df861563006520e63297b): bump actions/setup-go from 4 to 5\r\n- [3ab3de55](https://github.com/quay/clair/commit/3ab3de558380fff38b8503de914c1b9c0611c4c8): bump actions/stale from 8 to 9\r\n- [591188f0](https://github.com/quay/clair/commit/591188f0a877b81878209be4b9185d4cb7c404f3): bump docker/setup-buildx-action from 2 to 3\r\n- [7ef6ef6b](https://github.com/quay/clair/commit/7ef6ef6b7587386b80cef9fbe7269b0083c8f039): bump docker/login-action from 2 to 3\r\n- [5597e7cc](https://github.com/quay/clair/commit/5597e7ccb94c113cc8344e8289be886049b23f63): bump docker/build-push-action from 4 to 5\r\n- [14d7f2b4](https://github.com/quay/clair/commit/14d7f2b4927fa9e4debc9005fb6dc620a6a47833): bump docker/setup-qemu-action from 2 to 3\r\n- [1204db98](https://github.com/quay/clair/commit/1204db98853cdfdce7790f3d3276d4617e4e3000): bump actions/checkout from 3 to 4\r\n### Chore\r\n- [4170798b](https://github.com/quay/clair/commit/4170798b6d464be0b8f74b1979785a17ad71dbd0): 4.7.4 changelog bump\r\n- [96dc6074](https://github.com/quay/clair/commit/96dc60748b492df1cb4af3761c9c44c10266ed09): Add merge step when creating release binaries\r\n- [a1c7eb7c](https://github.com/quay/clair/commit/a1c7eb7c8cce687e12fcc056be1acacbdc608a31): update go version for release\r\n- [6eeb9393](https://github.com/quay/clair/commit/6eeb9393b539cf49a10c42e247b833ce7e040607): update claircore to v1.5.27\r\n- [809dd5ab](https://github.com/quay/clair/commit/809dd5ab474994eb9a32599f4257437fde995064): update go version\r\n### Cicd\r\n- [e6378d03](https://github.com/quay/clair/commit/e6378d0333085a072cf73bfa32228af24b710b05): add container version skew check\r\n- [2ba3ecc0](https://github.com/quay/clair/commit/2ba3ecc0a66679dcd82f7015695db5b2a3f0c02a): update testing workflow\r\n- [ae135c49](https://github.com/quay/clair/commit/ae135c4956358d6c18109438b6e59170100787ea): don't upload workspace on failure\r\n- [7222dc88](https://github.com/quay/clair/commit/7222dc88d4fe919cc2b88e2fe7587061a881b794): change version specifiers to be major-version only\r\n### Clairctl\r\n- [2a2ba37f](https://github.com/quay/clair/commit/2a2ba37f6404e377d702e50f78bccd172b08b03f): warn when range requests are not honored\r\n### Dockerfile\r\n- [5547b96a](https://github.com/quay/clair/commit/5547b96aeff795da43fbc6e2dc8ec7b5dda7691d): remove sh loop\r\n### Docs\r\n- [3753415b](https://github.com/quay/clair/commit/3753415b4e2b6bc9b63a940b8b2101d82ab523ef): add mention of disk space path and usage\r\n### Httptransport\r\n- [c6df986f](https://github.com/quay/clair/commit/c6df986fddfe5121b6fd9dbfff0ccca35c55cb71): GET vuln report returns 404 when indexing in-progress\r\n### Initialize\r\n- [9828576a](https://github.com/quay/clair/commit/9828576af20c966e0dbe99bbac68d3e80b07baa1): use defaults for NewRemoteFetcher\r\n\r\n[Unreleased]: https://github.com/quay/clair/compare/v4.7.4...HEAD\r\n[v4.7.4]: https://github.com/quay/clair/compare/v4.7.3...v4.7.4\r\n"
     },
     "https://github.com/alphasoc/flightsim": {
         "created_at": "2018-01-10 12:31:31",
@@ -6108,7 +6106,7 @@
         "created_at": "2024-03-05 05:39:49",
         "description": "权限维持",
         "commit_message": "Update README.md",
-        "commit_date": "2024-03-05 06:39:39",
+        "commit_date": "2024-04-23 07:06:42",
         "release_date": "2024-03-05 06:37:43",
         "release_message": "    1、Suid shell bash检测判断\r\n    2、重写生成代码(优化商城模块)\r\n    3、BT后渗透脚本编写\r\n        A. BT linux面板后渗透编写[详情查看思维导图]\r\n![BT渗透](https://github.com/RuoJi6/HackerPermKeeper/assets/79234113/58da1f32-ef66-4f62-8495-1461d24c1ca3)\r\n"
     },
@@ -7727,8 +7725,8 @@
     "https://github.com/yaklang/yakit": {
         "created_at": "2024-04-26 08:40:43",
         "description": "Cyber Security ALL-IN-ONE Platform",
-        "commit_message": "Song/fix/web fuzzer failed retry (#1617)\n\n* fix: 修复webFuzzer一键重试因为暂停导致的问题\r\n\r\n* feat: 暂停时，禁止一键重试按钮点击",
-        "commit_date": "2024-04-29 06:02:11",
+        "commit_message": "feat: 更新通知，当获取版本号失败时，显示获取失败 (#1623)",
+        "commit_date": "2024-05-06 03:01:41",
         "release_date": "2024-04-26 09:00:07",
         "release_message": "Yakit v1.3.2-sp2\r\n1. WebFuzzer批量发包前端显示增加2w限制，避免oom造成白屏\r\n2. MITM热加载增加保存按钮\r\n3. 全局配置支持配置免配置启动路径\r\n4. 美化和渲染增加缓存记录\r\n5. 引擎连接页面增加打开引擎所在文件，方便命令行启动引擎查看问题\r\n6. Yakit增加版本绑定，避免引擎版本过低时功能无法使用"
     },
@@ -24404,8 +24402,8 @@
         "description": "魅族安全中心"
     },
     "https://sec.vip.com/": {
-        "status_code": 200,
-        "description": "VSRC首页-唯品会信息安全中心"
+        "status_code": 503,
+        "description": ""
     },
     "https://sec.wacai.com/": {
         "status_code": 200,
@@ -24846,8 +24844,8 @@
         "description": "The Rootkit Hunter project"
     },
     "http://dnslog.pw/login": {
-        "status_code": 200,
-        "description": "登录 - DNSlog System"
+        "status_code": 504,
+        "description": "504 Gateway Time-out"
     },
     "http://www.jsons.cn/rabbitencrypt/": {
         "status_code": 200,
@@ -27056,7 +27054,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "20.55.15.94属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "52.157.14.92属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
@@ -27191,8 +27189,8 @@
         "description": "TideFinger  潮汐指纹 TideFinger  潮汐指纹"
     },
     "http://dnslog.pw/": {
-        "status_code": 200,
-        "description": "登录 - DNSlog System"
+        "status_code": 504,
+        "description": "504 Gateway Time-out"
     },
     "https://findthatlead.com/en": {
         "status_code": 200,
@@ -27481,12 +27479,12 @@
         "commit_date": "2019-11-12 09:18:28"
     },
     "https://github.com/google/tsunami-security-scanner": {
-        "created_at": "2023-12-20 13:06:07",
+        "created_at": "2024-04-29 13:08:59",
         "description": "Tsunami is a general purpose network security scanner with an extensible plugin system for detecting high severity vulnerabilities with high confidence.",
-        "commit_message": "Inline unnecessary `AbstractModule` wrappers\n\nPiperOrigin-RevId: 623580982\nChange-Id: I04afed7ad859f24ae2b1c95ca08a7230c1a7e81f",
-        "commit_date": "2024-04-10 20:03:06",
-        "release_date": "2023-12-20 13:33:23",
-        "release_message": "- Change the behavior of the `isPlainHttp` util to make use of SSL version grabbing added in version 0.0.20"
+        "commit_message": "Bump development version of Tsunami to `0.0.23`.\n\nPiperOrigin-RevId: 629052066\nChange-Id: Ib2db0c3f55d1d1468c5d249cbfab993d7be8801f",
+        "commit_date": "2024-04-29 13:43:02",
+        "release_date": "2024-04-29 13:28:19",
+        "release_message": "- Add an option to the HTTP client to be able to specify a custom user-agent;\r\n- Compatibility improvements."
     },
     "https://www.sojson.com/encrypt_triple_des.html": {
         "status_code": 200,
@@ -27498,7 +27496,7 @@
     },
     "http://www.66zan.cn/rc4encrypt/": {
         "status_code": 200,
-        "description": "在线RC4加密,RC4解密工具-在线工具箱"
+        "description": ""
     },
     "https://330k.github.io/misc_tools/unicode_steganography.html": {
         "status_code": 200,
@@ -27569,5 +27567,33 @@
         "commit_date": "2023-03-23 17:41:59",
         "release_date": "2022-11-20 15:40:29",
         "release_message": "Added a lot of yummy ports! Fixed some minor bug - information about IP count was wrong by 2 hosts."
+    },
+    "https://github.com/Arinue/CTF-NetA": {
+        "created_at": "2024-05-06 09:55:11",
+        "description": "CTF-NetA是一款专门针对CTF比赛的网络流量分析工具，可以对常见的网络流量进行分析，快速自动获取flag。",
+        "commit_message": "Update README.md",
+        "commit_date": "2024-05-06 09:55:11",
+        "release_date": "2024-05-06 09:56:32",
+        "release_message": "v1.2.4 20240506\r\n1.支持一键统计http所有uri。功能在【统计】【统计 HTTP URI】\r\n2.修复TCP_DATA识别中的BUG\r\n3.修复自动识别保存文件的BUG\r\n4.优化ftp流量分析，加强数据识别能力"
+    },
+    "https://jiji.pro/yygq.js/": {
+        "status_code": 200,
+        "description": "阴阳怪气编码"
+    },
+    "https://www.boxentriq.com/code-breaking/baudot-code": {
+        "status_code": 200,
+        "description": "Baudot Code, Baudot-Murray Code (online tool) | Boxentriq"
+    },
+    "http://www.fzwjscj.xyz/index.php/archives/23/": {
+        "status_code": 200,
+        "description": "图像密码 - FzWjScJの菜鸡记录"
+    },
+    "https://zh.flightaware.com/live/flight/B7631/history/320": {
+        "status_code": 200,
+        "description": "History ✈ B-7631 - FlightAware"
+    },
+    "https://www.cachesleuth.com/bfook.html": {
+        "status_code": 200,
+        "description": "CacheSleuth - Brainfuck & Ook! Code"
     }
 }
