@@ -4213,7 +4213,7 @@
         "created_at": "2021-10-13 11:34:53",
         "description": "v2ray节点、免费节点、免费v2ray节点、最新公益免费v2ray节点订阅地址、免费v2ray节点每日更新、免费ss/v2ray/trojan节点、freefq ",
         "commit_message": "update",
-        "commit_date": "2024-04-29 12:36:31"
+        "commit_date": "2024-05-07 12:35:31"
     },
     "https://github.com/QAX-A-Team/sharpwmi": {
         "created_at": "2020-04-08 05:50:21",
@@ -4920,8 +4920,8 @@
     "https://github.com/rustdesk/rustdesk": {
         "created_at": "2024-04-07 06:31:09",
         "description": "An open-source remote desktop, and alternative to TeamViewer.",
-        "commit_message": "docs: update README-VN.md (#7655)",
-        "commit_date": "2024-04-08 13:38:47",
+        "commit_message": "Show current codec in menu when auto codec is chosen (#7942)\n\n* change negotiated codec name to negotiated codec format\r\n\r\nSigned-off-by: 21pages <pages21@163.com>\r\n\r\n* fallback to vp9 directly if failed to create encoder\r\n\r\nCurrent fallback method is clear hwcodec config\r\n\r\nSigned-off-by: 21pages <pages21@163.com>\r\n\r\n* show current codec in menu when auto codec is chosen\r\n\r\nSigned-off-by: 21pages <pages21@163.com>\r\n\r\n---------\r\n\r\nSigned-off-by: 21pages <pages21@163.com>",
+        "commit_date": "2024-05-07 12:34:23",
         "release_date": "2024-04-07 08:12:13",
         "release_message": "![image](https://github.com/rustdesk/rustdesk/assets/71636191/83754a64-31b8-47f0-8570-da22207759a9)\r\n\r\n> Winget, FDroid update will come soon.\r\n\r\nx86-64: [Windows](https://github.com/rustdesk/rustdesk/releases/download/1.2.3-2/rustdesk-1.2.3-2-x86_64.exe) | [Ubuntu](https://github.com/rustdesk/rustdesk/releases/download/1.2.3-2/rustdesk-1.2.3-2-x86_64.deb) | [Mac](https://github.com/rustdesk/rustdesk/releases/download/1.2.3-2/rustdesk-1.2.3-2-x86_64.dmg) | [AppImage](https://github.com/rustdesk/rustdesk/releases/download/1.2.3-2/rustdesk-1.2.3-2-x86_64.AppImage) | [Flatpak](https://github.com/rustdesk/rustdesk/releases/download/1.2.3-2/rustdesk-1.2.3-2-x86_64.flatpak)\r\nAArch64 (ARM64):  [Ubuntu](https://github.com/rustdesk/rustdesk/releases/download/1.2.3-2/rustdesk-1.2.3-2-aarch64.deb) | [Android](https://github.com/rustdesk/rustdesk/releases/download/1.2.3-2/rustdesk-1.2.3-2-aarch64-signed.apk) | [Mac](https://github.com/rustdesk/rustdesk/releases/download/1.2.3-2/rustdesk-1.2.3-2-aarch64.dmg) | [AppImage](https://github.com/rustdesk/rustdesk/releases/download/1.2.3-2/rustdesk-1.2.3-2-aarch64.AppImage)\r\nx86-32: [Windows](https://github.com/rustdesk/rustdesk/releases/download/1.2.3-2/rustdesk-1.2.3-2-x86-sciter.exe)\r\n\r\nMore: [check below please](#)\r\n\r\n> **For the latest features, check out the [Nightly Build](https://github.com/rustdesk/rustdesk/releases/tag/nightly)**\r\n\r\n# Changelog\r\n\r\nThis release only fixes a [bug](https://github.com/fufesou/rustdesk/wiki/How-to-delete-the-wrong-certificate-stores-in-%22certmgr.msc%22) introduced in [1.2.3-1](https://github.com/rustdesk/rustdesk/releases/tag/1.2.3-1). \r\n\r\n"
     },
@@ -5890,12 +5890,12 @@
         "release_message": ""
     },
     "https://github.com/github/codeql-cli-binaries": {
-        "created_at": "2024-04-24 15:35:27",
+        "created_at": "2024-05-07 11:16:02",
         "description": "Binaries for the CodeQL CLI",
-        "commit_message": "Update CHANGELOG.md",
-        "commit_date": "2024-04-24 15:35:27",
-        "release_date": "2024-04-24 15:36:43",
-        "release_message": "## Release 2.17.1 (2024-04-24)\r\n\r\n### Deprecations\r\n\r\n- The `--mode` option and `-m` alias to `codeql database create`,\r\n  `codeql database cleanup`, and `codeql dataset cleanup` has been\r\n  deprecated. Instead, use the new `--cache-cleanup` option, which has\r\n  identical behavior.\r\n\r\n### Improvements\r\n\r\n- Improved the diagnostic message produced when no code is processed\r\n  when creating a database. If a build mode was specified using\r\n  `--build-mode`, the message is now tailored to your build mode.\r\n\r\n\r\nFor more information about the changes included in this release, see the [CodeQL CLI changelog](https://github.com/github/codeql-cli-binaries/blob/HEAD/CHANGELOG.md).\r\n\r\nYou can download _either_ the `codeql-PLATFORM.zip` for your platform, _or_ the generic `codeql.zip` which contains binaries for all supported platforms. Please ignore the additional \"source code\" downloads below the `.zip` artifacts.\r\n\r\nThis release is compatible with the CodeQL language packs from [`github/codeql@codeql-cli/v2.17.1`](https://github.com/github/codeql/tree/codeql-cli/v2.17.1).\r\n"
+        "commit_message": "Update changelog for 2.17.2",
+        "commit_date": "2024-05-07 11:16:02",
+        "release_date": "2024-05-07 11:17:34",
+        "release_message": "### Known issues\r\n\r\n- The beta support for analyzing Swift in this release and all previous releases requires `g++-13` when running on Linux. Users analyzing Swift using the `ubuntu-latest`, `ubuntu-22.04`, or `ubuntu-20.04` runner images for GitHub Actions should update their workflows to install `g++-13`. For more information, see [the runner images announcement](https://github.com/actions/runner-images/issues/9679).\r\n\r\n### Improvements\r\n\r\n- When uploading a SARIF file to GitHub using `codeql github upload-results`, the CodeQL CLI now waits for the file to be processed by GitHub. If any errors occurred during processing of the analysis results, the command will log these and return a non-zero exit code. To disable this behaviour, pass the `--no-wait-for-processing` flag.\r\n\r\n  By default, the command will wait for the SARIF file to be processed for a maximum of 2 minutes, however this is configurable with the `--wait-for-processing-timeout` option.\r\n- The build tracer is no longer enabled when using the [`none` build mode](https://docs.github.com/en/code-security/code-scanning/creating-an-advanced-setup-for-code-scanning/codeql-code-scanning-for-compiled-languages#codeql-build-modes) to analyze a compiled language, thus improving performance.\r\n\r\nFor more information about the changes included in this release, see the [CodeQL CLI changelog](https://github.com/github/codeql-cli-binaries/blob/HEAD/CHANGELOG.md).\r\n\r\nYou can download _either_ the `codeql-PLATFORM.zip` for your platform, _or_ the generic `codeql.zip` which contains binaries for all supported platforms. Please ignore the additional \"source code\" downloads below the `.zip` artifacts.\r\n\r\nThis release is compatible with the CodeQL language packs from [`github/codeql@codeql-cli/v2.17.2`](https://github.com/github/codeql/tree/codeql-cli/v2.17.2).\r\n"
     },
     "https://github.com/Ascotbe/HackerMind": {
         "created_at": "",
@@ -6354,8 +6354,8 @@
     "https://github.com/ufrisk/MemProcFS": {
         "created_at": "2024-03-03 11:07:17",
         "description": "MemProcFS",
-        "commit_message": "Version 5.9.8",
-        "commit_date": "2024-04-18 15:34:07",
+        "commit_message": "Version 5.9.12",
+        "commit_date": "2024-05-03 23:07:13",
         "release_date": "2024-03-03 11:08:21",
         "release_message": "* Bug fixes.\r\n* Module improvements: ntfs, procinfo, web.\r\n* C# API: improvements.\r\n* Java API: support for java.lang.foreign (JDK21+) for efficient memory accesses.\r\n* Linux PCIe FPGA performance improvements.\r\n* FindEvil: Triggered Yara rules are now shown.\r\n* FindEvil: AV detections from Windows Defender residing on the analyzed system.\r\n* Python API: new functionality (multi-read, type-read) and improved scatter read performance.\r\n* Support for Proxmox memory dump files.\r\n\r\nFor previous release builds see the [release archive](https://github.com/ufrisk/MemProcFS/releases/tag/v5_archive)."
     },
@@ -21935,8 +21935,8 @@
     "https://github.com/apache/logging-log4j2": {
         "created_at": "2024-03-10 19:05:47",
         "description": "Apache Log4j 2 is a versatile, feature-rich, efficient logging API and backend for Java.",
-        "commit_message": "Update `commons-codec:commons-codec` to version `1.17.0` (#2543)",
-        "commit_date": "2024-04-29 18:03:22",
+        "commit_message": "explaining snippets before the snippet, simpler wording",
+        "commit_date": "2024-05-07 19:55:02",
         "release_date": "2024-03-10 19:24:14",
         "release_message": "This release contains several small fixes and some dependency updates.\r\n\r\n### Changed\r\n\r\n* Improve performance of `CloseableThreadContext#closeMap()` (#2296)\r\n\r\n### Fixed\r\n\r\n* Fix handling of `LoggerContextAware` lookups (#2309)\r\n* Fix NPE in `PatternProcessor` for a `UNIX_MILLIS` pattern (#2346)\r\n* Fix that parameterized message formatting doesn't throw an exception when there are insufficient number of parameters (#2343)\r\n* Fix `StatusLogger` log level filtering when debug mode is enabled (#2337)\r\n* Add `log4j2.StatusLogger.dateFormatZone` system property to set the time-zone `StatusLogger` uses to format `java.time.Instant`. Without this, formatting patterns accessing to time-zone-specific fields (e.g., year-of-era) cause failures. (#2322)\r\n* Fix `StatusLogger` to correctly read `log4j2.StatusLogger.properties` resource (#2354)\r\n* Fix stack overflow in `StatusLogger` (#2322)\r\n\r\n### Updated\r\n\r\n* Update `jakarta.activation:jakarta.activation-api` to version `2.1.3` (#2335)\r\n* Update `jakarta.mail:jakarta.mail-api` to version `2.1.3` (#2348)\r\n* Update `org.apache.commons:commons-compress` to version `1.26.0` (#2304)\r\n* Update `org.apache.commons:commons-dbcp2` to version `2.12.0` (#2344)\r\n* Update `org.apache.kafka:kafka-clients` to version `3.7.0` (#2326)\r\n* Update `org.eclipse.angus:angus-activation` to version `2.0.2` (#2336)\r\n* Update `org.eclipse.angus:jakarta.mail` to version `2.0.3` (#2349)\r\n"
     },
@@ -22928,12 +22928,12 @@
         "release_message": ""
     },
     "https://github.com/yhy0/Jie": {
-        "created_at": "2024-04-12 13:20:35",
+        "created_at": "2024-05-07 14:44:15",
         "description": "Jie stands out as a comprehensive security assessment and exploitation tool meticulously crafted for web applications. Its robust suite of features encompasses vulnerability scanning, information gathering, and exploitation, elevating it to an indispensable toolkit for both security professionals and penetration testers.(expectations)",
-        "commit_message": "add wih",
-        "commit_date": "2024-04-17 11:41:48",
-        "release_date": "2024-04-12 13:29:11",
-        "release_message": "## Changelog\n* b64c99f update 1.0.8\n* 5ae15ea map 并发加锁\n* 8d70cee 修复指纹控制导致的POC插件不起作用的 BUG\n* 76b1918 sql注入检测超时控制\n* db2c851 update go-mitmproxy\n\n"
+        "commit_message": "feat 优化Security Copilot 显示；其他优化",
+        "commit_date": "2024-05-07 14:44:15",
+        "release_date": "2024-05-07 14:47:35",
+        "release_message": "## Changelog\n* 52d5e14 feat 优化Security Copilot 显示；其他优化\n* d975ba3 feat 使用协程池\n* 8c9679d fix 解决死锁问题\n* a42aa6e add wih\n* 3fc391e fix wg.Wait() bug\n* 9de06eb fix spell\n* a31bede remove naabu, use masscan and nmap\n\n"
     },
     "https://github.com/TryGOTry/CobaltStrike_Cat_4.5": {
         "created_at": "",
@@ -23077,7 +23077,9 @@
     },
     "https://github.com/vxunderground/MalwareSourceCode": {
         "created_at": "2020-10-10 02:48:57",
-        "description": "Collection of malware source code for a variety of platforms in an array of different programming languages."
+        "description": "Collection of malware source code for a variety of platforms in an array of different programming languages.",
+        "commit_message": "Merge pull request #84 from aarush-dev/patch-1\n\nUpdate README.md",
+        "commit_date": "2024-03-06 21:30:44"
     },
     "https://github.com/ciscocsirt/GOSINT": {
         "created_at": "2017-08-03 18:35:18",
@@ -23686,7 +23688,7 @@
         "commit_message": "+ cb161",
         "commit_date": "2024-04-30 06:44:03",
         "release_date": "2024-04-29 07:16:45",
-        "release_message": "+ 新增一条适配CB1.6.1的链子\r\n\r\nhttps://github.com/qi4L/JYso/issues/38"
+        "release_message": "+ 新增一条适配CB1.6.1的链子"
     },
     "https://github.com/cider-security-research/cicd-goat": {
         "created_at": "2023-08-01 07:41:49",
@@ -24402,8 +24404,8 @@
         "description": "魅族安全中心"
     },
     "https://sec.vip.com/": {
-        "status_code": 503,
-        "description": ""
+        "status_code": 200,
+        "description": "VSRC首页-唯品会信息安全中心"
     },
     "https://sec.wacai.com/": {
         "status_code": 200,
@@ -24844,8 +24846,8 @@
         "description": "The Rootkit Hunter project"
     },
     "http://dnslog.pw/login": {
-        "status_code": 504,
-        "description": "504 Gateway Time-out"
+        "status_code": 200,
+        "description": "登录 - DNSlog System"
     },
     "http://www.jsons.cn/rabbitencrypt/": {
         "status_code": 200,
@@ -25418,8 +25420,8 @@
     "https://github.com/google/oss-fuzz": {
         "created_at": "2016-07-20 19:39:50",
         "description": "OSS-Fuzz - continuous fuzzing for open source software.",
-        "commit_message": "projects: remove OLD_LLVM_PASS from another batch of projects (#11898)\n\nSigned-off-by: David Korczynski <david@adalogics.com>",
-        "commit_date": "2024-05-03 20:33:35"
+        "commit_message": "Add c++ stdlib flag for clang++ only (#11852)\n\nObserving failure on building `libtasn1` with jcc, suspect this flag\r\nused in clang caused the issue.",
+        "commit_date": "2024-05-07 23:12:49"
     },
     "https://github.com/nmalcolm/Inventus": {
         "created_at": "2017-08-28 11:48:02",
@@ -25728,12 +25730,10 @@
         "release_message": "## 1.8.7 更新记录\r\n1. HawkX爬虫引擎更新，页面分析更加精细化, 完善部分场景下的 POST流量捕获\r\n2. 爬虫结果新增报文详情页面\r\n3. 爬虫结果新增URL导出功能\r\n4. 移除HTML漏洞报告导出的数量限制\r\n5. 越权插件鉴权方式配置修改为headers\r\n6. EZ Web表单暴破插件新增字典文件配置"
     },
     "https://github.com/kvesta/vesta": {
-        "created_at": "2024-04-03 12:43:11",
+        "created_at": "2022-12-03 07:31:51",
         "description": "A static analysis of vulnerabilities, Docker and Kubernetes cluster configuration detect toolkit based on the real penetration of cloud computing",
         "commit_message": "Merge pull request #50 from christasa/develop\n\nAdd the checking of liblzma.so backdoor",
-        "commit_date": "2024-04-03 12:43:11",
-        "release_date": "2024-04-21 09:33:28",
-        "release_message": "Notable Updates:\r\n- **Add `CVE-2024-21626` checking**\r\nChecking the mount path, due to the variety of fd number, vesta checks the key path `/proc/self/fd` in WORKDIR.\r\n- **Add `CVE-2024-3094` checking**\r\nChecking the library liblzma.so, refer to [detect.sh](https://www.openwall.com/lists/oss-security/2024/03/29/4/3)\r\n- **Add the severity of each Linux capabilities**\r\nReorder the security severity for different Capabilities based on the ease of  exploitation.\r\n\r\n\r\n\r\n\r\n| md5 | filename |\r\n| --- | --- |\r\n| 7ea0d98f1a9fcb8917cd9834fd51c08e |  vesta_darwin_amd64 |\r\n| ff58c0fba46ab9e4ac083283de1c5072 | vesta_linux_amd64 |\r\n| f8b5b16689ff0dd460a81989970dbcab | vesta_windows_amd64.exe | "
+        "commit_date": "2024-04-03 12:43:11"
     },
     "https://github.com/Clouditera/secgpt": {
         "created_at": "2023-11-20 05:41:24",
@@ -27054,7 +27054,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "52.157.14.92属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "4.227.114.100属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
@@ -27189,8 +27189,8 @@
         "description": "TideFinger  潮汐指纹 TideFinger  潮汐指纹"
     },
     "http://dnslog.pw/": {
-        "status_code": 504,
-        "description": "504 Gateway Time-out"
+        "status_code": 200,
+        "description": "登录 - DNSlog System"
     },
     "https://findthatlead.com/en": {
         "status_code": 200,
@@ -27496,7 +27496,7 @@
     },
     "http://www.66zan.cn/rc4encrypt/": {
         "status_code": 200,
-        "description": ""
+        "description": "在线RC4加密,RC4解密工具-在线工具箱"
     },
     "https://330k.github.io/misc_tools/unicode_steganography.html": {
         "status_code": 200,
