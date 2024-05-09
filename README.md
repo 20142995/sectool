@@ -1065,6 +1065,7 @@
 ##### 漏洞扫描
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [oss-fuzz](https://github.com/google/oss-fuzz) OSS-Fuzz - continuous fuzzing for open source software.
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [vuls](https://github.com/future-architect/vuls) Agent-less vulnerability scanner for Linux, FreeBSD, Container, WordPress, Pro...
+- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [retire.js](https://github.com/retirejs/retire.js) scanner detecting the use of JavaScript libraries with known vulnerabilit...
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [nikto](https://github.com/sullo/nikto) Nikto web server scanner
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [XAttacker](https://github.com/Moham3dRiahi/XAttacker) X Attacker Tool ☣ Website Vulnerability Scanner & Auto Exploiter
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [CMSeeK](https://github.com/Tuhinshubhra/CMSeeK) CMS Detection and Exploitation suite - Scan WordPress, Joomla, Drupal and ov...
@@ -1090,7 +1091,6 @@
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [scans](https://github.com/cloudsploit/scans) 
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [httpie](https://github.com/jkbrzt/httpie) 
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [shcheck](https://github.com/m3liot/shcheck) 
-- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [retire.js](https://github.com/retirejs/retire.js) scanner detecting the use of JavaScript libraries with known vulnerabilit...
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [vbscan](https://github.com/rezasp/vbscan) 
 ##### 漏洞扫描框架
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [yakit](https://github.com/yaklang/yakit) Cyber Security ALL-IN-ONE Platform
@@ -1160,8 +1160,8 @@
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [grype](https://github.com/anchore/grype) A vulnerability scanner for container images and filesystems
 ### 信息收集
 #### CDN识别
+- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [cdnChecker](https://github.com/alwaystest18/cdnChecker) A tool to detect CDN for given domains
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [w8fuckcdn](https://github.com/boy-hack/w8fuckcdn) Get website IP address by scanning the entire net  通过扫描全网绕过CDN获取网站IP地址
-- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [cdnChecker](https://github.com/alwaystest18/cdnChecker) 
 #### C段信息收集
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [IPSearch v0.1](https://github.com/SleepingBag945/IPSearch) 离线IP Whois查询工具。可根据IP查询所属IP段信息、根据关键词查询IP段信息
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [BingC](https://github.com/Xyntax/BingC) 基于Bing搜索引擎的C段/旁站查询，多线程，支持API
@@ -1169,7 +1169,7 @@
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [reverseip_py](https://github.com/yuyudhn/reverseip_py) Domain Parser for IPAddress.com Reverse IP Lookup
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [iplookup v1.1](https://github.com/Lengso/iplookup) IP反查域名
 - <img src="https://favicon.qqsuu.cn/s.tool.chinaz.com" alt="" style="height: 20px;"> [网站IP查询_IP反查域名_同IP网站查询 - 站长工具](http://s.tool.chinaz.com/same) 
-- <img src="https://favicon.qqsuu.cn/dns.aizhan.com" alt="" style="height: 20px;"> [4.227.114.100属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网](https://dns.aizhan.com/) 
+- <img src="https://favicon.qqsuu.cn/dns.aizhan.com" alt="" style="height: 20px;"> [40.71.163.66属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网](https://dns.aizhan.com/) 
 - <img src="https://favicon.qqsuu.cn/dnslytics.com" alt="" style="height: 20px;"> [Reverse IP - Find websites hosted on the same IP address, server or subnet](https://dnslytics.com/reverse-ip) 
 - <img src="https://favicon.qqsuu.cn/hackertarget.com" alt="" style="height: 20px;"> [Reverse IP Lookup, Find Hosts Sharing an IP | HackerTarget.com](https://hackertarget.com/reverse-ip-lookup/) 
 - <img src="https://favicon.qqsuu.cn/rapiddns.io" alt="" style="height: 20px;"> [Subdomain - RapidDNS Rapid DNS Information Collection](https://rapiddns.io/sameip) 
@@ -2064,7 +2064,7 @@
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [steganography](https://github.com/7thSamurai/steganography) Simple C++ Image Steganography tool to encrypt and hide files insde i...
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [stegpy](https://github.com/dhsdshdhk/stegpy) Simple steganography program based on the LSB method.
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [cloacked-pixel](https://github.com/livz/cloacked-pixel) LSB steganography and detection
-- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [stegpy](https://github.com/izcoser/stegpy) 
+- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [stegpy](https://github.com/izcoser/stegpy) Simple steganography program based on the LSB method.
 ###### png_宽高修复
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [Deformed-Image-Restorer V1.02](https://github.com/AabyssZG/Deformed-Image-Restorer) 自动爆破PNG图片宽高并一键修复工具
 ###### png_截图漏洞
