@@ -1326,8 +1326,8 @@
     "https://github.com/projectdiscovery/subfinder": {
         "created_at": "2024-03-27 21:55:17",
         "description": "Fast passive subdomain enumeration tool.",
-        "commit_message": "Make host configurable (#1212)\n\n* make host configurable\r\n\r\n* commit to last commit",
-        "commit_date": "2024-05-03 08:58:47",
+        "commit_message": "Merge pull request #1249 from projectdiscovery/dependabot/go_modules/v2/dev/github.com/projectdiscovery/retryablehttp-go-1.0.59",
+        "commit_date": "2024-05-06 14:24:27",
         "release_date": "2024-03-27 22:00:39",
         "release_message": "<!-- Release notes generated using configuration in .github/release.yml at main -->\r\n\r\n## What's Changed\r\n\r\n### Other Changes\r\n\r\n* Added context to crtsh database query by @UFeindschiff in https://github.com/projectdiscovery/subfinder/pull/1190\r\n* Fixed SDK log config issue by @dogancanbakir in https://github.com/projectdiscovery/subfinder/pull/1200\r\n* Fixed issue of url scheme being added in output by @dogancanbakir in https://github.com/projectdiscovery/subfinder/pull/1166\r\n* Fixed issue with pagination by @dogancanbakir in https://github.com/projectdiscovery/subfinder/pull/1177\r\n* Fixed flaky tests by @dogancanbakir in https://github.com/projectdiscovery/subfinder/pull/1202\r\n* Updated go version in Dockerfile by @tarunKoyalwar in https://github.com/projectdiscovery/subfinder/pull/1159\r\n* Updated log level by @dogancanbakir in https://github.com/projectdiscovery/subfinder/pull/1167\r\n* Updated alpine to 3.18.6 for security fixes by @alizademhdi in https://github.com/projectdiscovery/subfinder/pull/1192\r\n* Removed` time.sleep` from sources by @dogancanbakir in https://github.com/projectdiscovery/subfinder/pull/1175\r\n\r\n## New Contributors\r\n* @alizademhdi made their first contribution in https://github.com/projectdiscovery/subfinder/pull/1192\r\n* @UFeindschiff made their first contribution in https://github.com/projectdiscovery/subfinder/pull/1190\r\n\r\n**Full Changelog**: https://github.com/projectdiscovery/subfinder/compare/v2.6.5...v2.6.6"
     },
@@ -3176,8 +3176,8 @@
     "https://github.com/Threekiii/Awesome-Redteam": {
         "created_at": "2023-12-18 03:28:33",
         "description": "一个攻防知识仓库 Red Teaming and Offensive Security",
-        "commit_message": "update README.md",
-        "commit_date": "2024-04-22 02:46:09",
+        "commit_message": "fix status code 4xx and 3xx",
+        "commit_date": "2024-05-08 05:50:17",
         "release_date": "2023-12-18 03:31:30",
         "release_message": ""
     },
@@ -3852,8 +3852,8 @@
     "https://github.com/anchore/syft": {
         "created_at": "2024-04-26 15:01:02",
         "description": "CLI tool and library for generating a Software Bill of Materials from container images and filesystems",
-        "commit_message": "chore: fix function name in comment (#2771)\n\nSigned-off-by: camcui <cuishua@sina.cn>\r\nCo-authored-by: Christopher Phillips <christopher.phillips@anchore.com>",
-        "commit_date": "2024-05-01 18:04:02",
+        "commit_message": "chore(deps): bump github/codeql-action from 3.25.3 to 3.25.4 (#2855)\n\nBumps [github/codeql-action](https://github.com/github/codeql-action) from 3.25.3 to 3.25.4.\r\n- [Release notes](https://github.com/github/codeql-action/releases)\r\n- [Changelog](https://github.com/github/codeql-action/blob/main/CHANGELOG.md)\r\n- [Commits](https://github.com/github/codeql-action/compare/d39d31e687223d841ef683f52467bd88e9b21c14...ccf74c947955fd1cf117aef6a0e4e66191ef6f61)\r\n\r\n---\r\nupdated-dependencies:\r\n- dependency-name: github/codeql-action\r\n  dependency-type: direct:production\r\n  update-type: version-update:semver-patch\r\n...\r\n\r\nSigned-off-by: dependabot[bot] <support@github.com>\r\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
+        "commit_date": "2024-05-08 14:33:38",
         "release_date": "2024-04-26 15:08:18",
         "release_message": "### Added Features\r\n\r\n- index known CPEs for go modules [[#2816](https://github.com/anchore/syft/pull/2816) @westonsteimel]\r\n- support multiple known CPEs in index [[#2813](https://github.com/anchore/syft/pull/2813) @westonsteimel]\r\n- index known CPEs for PHP Composer packagist.org packages [[#2804](https://github.com/anchore/syft/pull/2804) @westonsteimel]\r\n- index known cpes for PHP extensions [[#2777](https://github.com/anchore/syft/pull/2777) @westonsteimel]\r\n\r\n### Bug Fixes\r\n\r\n- re-use embedded union reader if possible [[#2814](https://github.com/anchore/syft/pull/2814) @willmurphyscode]\r\n- prefer non-deprecated CPEs and include jenkins plugins from plugins.jenkins.io [[#2806](https://github.com/anchore/syft/pull/2806) @westonsteimel]\r\n- improvements to known CPE index construction [[#2801](https://github.com/anchore/syft/pull/2801) @westonsteimel]\r\n- Syft panics when scanning OCI image that contains packaged helm chart [[#2745](https://github.com/anchore/syft/issues/2745) [#2757](https://github.com/anchore/syft/pull/2757) @willmurphyscode]\r\n- Pom parser not resolving all dependency versions [[#2776](https://github.com/anchore/syft/issues/2776) [#2781](https://github.com/anchore/syft/pull/2781) @willmurphyscode]\r\n- exclude known instrumentation jars from being erroneously identified [[#2796](https://github.com/anchore/syft/pull/2796) @kzantow]\r\n- return empty string if dereferncing pom var fails [[#2797](https://github.com/anchore/syft/pull/2797) @willmurphyscode]\r\n\r\n**[(Full Changelog)](https://github.com/anchore/syft/compare/v1.2.0...v1.3.0)**\r\n\r\n"
     },
@@ -3910,12 +3910,12 @@
         "release_message": "## Network Flight Simulator v2.5.0 (2023-07-31)\r\n\r\nThis release add a new `cleartext` module, which generates random cleartext traffic on some common ports.\r\n\r\n## Enjoy!\r\n\r\n"
     },
     "https://github.com/aquasecurity/trivy": {
-        "created_at": "2024-05-03 11:27:37",
+        "created_at": "2024-05-04 05:34:54",
         "description": "Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more",
-        "commit_message": "refactor: move setting scanners when using compliance reports to flag parsing (#6619)",
-        "commit_date": "2024-05-03 11:27:37",
-        "release_date": "2024-05-03 12:41:37",
-        "release_message": "## ⚡Release highlights and summary⚡\r\n\r\n👉 https://github.com/aquasecurity/trivy/discussions/6622\r\n\r\n## Changelog\r\n* 14c1024b4 refactor: move setting scanners when using compliance reports to flag parsing (#6619)\r\n* 998f75043 feat: introduce package UIDs for improved vulnerability mapping (#6583)\r\n* 770b14113 perf(misconf): Improve cause performance (#6586)\r\n* 3ccb1a0f1 docs: trivy-k8s new experiance remove un-used section (#6608)\r\n* 58cfd1b07 chore(deps): bump github.com/docker/docker from 26.0.1+incompatible to 26.0.2+incompatible (#6612)\r\n* 715963d75 docs: remove mention of GitLab Gold because it doesn't exist anymore (#6609)\r\n* 37da98df4 feat(misconf): Use updated terminology for misconfiguration checks (#6476)\r\n* cdee7030a chore(deps): bump github.com/aws/aws-sdk-go-v2/feature/s3/manager from 1.15.15 to 1.16.15 (#6593)\r\n* 6a2225b42 docs: use `generic` link from `trivy-repo` (#6606)\r\n* a2a02de7c docs: update trivy k8s with new experience (#6465)\r\n* e739ab850 feat: support `--skip-images` scanning flag (#6334)\r\n* c6d5d856c BREAKING: add support for k8s `disable-node-collector` flag (#6311)\r\n* 194a81468 chore(deps): bump github.com/zclconf/go-cty from 1.14.1 to 1.14.4 (#6601)\r\n* 03830c50c chore(deps): bump github.com/sigstore/rekor from 1.2.2 to 1.3.6 (#6599)\r\n* 8e814fa23 chore(deps): bump google.golang.org/protobuf from 1.33.0 to 1.34.0 (#6597)\r\n* 2dc76ba78 chore(deps): bump sigstore/cosign-installer from 3.4.0 to 3.5.0 (#6588)\r\n* c17176ba9 chore(deps): bump github.com/testcontainers/testcontainers-go from 0.28.0 to 0.30.0 (#6595)\r\n* bce70af36 chore(deps): bump github.com/open-policy-agent/opa from 0.62.0 to 0.64.1 (#6596)\r\n* 4369a19af feat: add ubuntu 23.10 and 24.04 support (#6573)\r\n* 5566548b7 chore(deps): bump azure/setup-helm from 3.5 to 4 (#6590)\r\n* a8af76a47 chore(deps): bump actions/checkout from 4.1.2 to 4.1.4 (#6587)\r\n* c8ed432f2 chore(deps): bump github.com/aws/aws-sdk-go-v2/service/ecr from 1.24.6 to 1.27.4 (#6598)\r\n* 551a46efc docs(go): add stdlib (#6580)\r\n* 261649b11 chore(deps): bump github.com/containerd/containerd from 1.7.13 to 1.7.16 (#6592)\r\n* acfddd457 chore(deps): bump github.com/go-openapi/runtime from 0.27.1 to 0.28.0 (#6600)\r\n* 419e3d202 feat(go): parse main mod version from build info settings (#6564)\r\n* f0961d54f feat: respect custom exit code from plugin (#6584)\r\n* a5d485cf8 docs: add asdf and mise installation method (#6063)\r\n* 29b8faf5f feat(vuln): Handle scanning conan v2.x lockfiles (#6357)\r\n* e3bef0201 feat: add support `environment.yaml` files (#6569)\r\n* 916f6c66f fix: close plugin.yaml (#6577)\r\n* 8e6cd0e91 fix: trivy k8s avoid deleting non-default node collector namespace  (#6559)\r\n* 060d0bb64 BREAKING: support exclude `kinds/namespaces` and include `kinds/namespaces` (#6323)\r\n* 2d090ef2d feat(go): add main module (#6574)\r\n* 6343e4fc7 feat: add relationships (#6563)\r\n* a018ee1f9 ci: disable `Go` cache for `reusable-release.yaml` (#6572)\r\n* 5da053f30 docs: mention `--show-suppressed` is available in table (#6571)\r\n* 3d66cb8d8 chore: fix sqlite to support loong64 (#6511)\r\n* 9aca98cca fix(debian): sort dpkg info before parsing due to exclude directories (#6551)\r\n* 7811ad0d2 docs: update info about config file (#6547)\r\n* fae710db8 docs: remove RELEASE_VERSION from trivy.repo (#6546)\r\n* d2d4022ef fix(sbom): change error to warning for multiple OSes (#6541)\r\n* 164b02541 fix(vuln): skip empty versions (#6542)\r\n* 5dd9bd470 feat(c): add license support for conan lock files (#6329)\r\n* 7c2017fa7 fix(terraform): Attribute and fileset fixes (#6544)\r\n* 63c9469bd refactor: change warning if no vulnerability details are found (#6230)\r\n* aa822c260 refactor(misconf): improve error handling in the Rego scanner (#6527)\r\n* 30cc88fa8 ci: use tmp dir inside Trivy repo dir for GoReleaser (#6533)\r\n* e32215c99 feat(go): parse main module of go binary files (#6530)\r\n* d4da83c63 chore(deps): bump golang.org/x/net from 0.21.0 to 0.23.0 (#6526)\r\n* 0d7d97d13 refactor(misconf): simplify the retrieval of module annotations (#6528)\r\n* 9873cf3b9 chore(deps): bump github.com/hashicorp/go-getter from 1.7.3 to 1.7.4 (#6523)\r\n* 95c8fd912 docs(nodejs): add info about supported versions of pnpm lock files (#6510)\r\n* 12ec0dfe9 feat(misconf): loading embedded checks as a fallback (#6502)\r\n* 9b7d7132b fix(misconf): Parse JSON k8s manifests properly (#6490)\r\n* 13e72eca5 refactor: remove parallel walk (#5180)\r\n* a9861994e fix: close pom.xml (#6507)\r\n* 46d5abad4 fix(secret): convert severity for custom rules (#6500)\r\n* 34ab09d55 fix(java): update logic to detect `pom.xml` file snapshot artifacts from remote repositories (#6412)\r\n* 1ba5b5952 fix: typo (#6283)\r\n* 4fab0f8b9 docs(k8s,image): fix command-line syntax issues (#6403)\r\n* d7709816c chore(deps): bump actions/checkout from 4.1.1 to 4.1.2 (#6435)\r\n* 433706820 fix(misconf): avoid panic if the scheme is not valid (#6496)\r\n* d82d6cb73 feat(image): goversion as stdlib (#6277)\r\n* cfddfb33c fix: add color for error inside of log message (#6493)\r\n* dfcb0f90d chore(deps): bump actions/add-to-project from 0.4.1 to 1.0.0 (#6438)\r\n* 183eaafb4 docs: fix links to OPA docs (#6480)\r\n* 94d6e8ced refactor: replace zap with slog (#6466)\r\n* 336c47ecc docs: update links to IaC schemas (#6477)\r\n* 06b44738e chore: bump Go to 1.22 (#6075)\r\n* a51ceddad refactor(terraform): sync funcs with Terraform (#6415)\r\n* 53517d622 feat(misconf): add helm-api-version and helm-kube-version flag (#6332)\r\n* ad544e97c chore(deps): bump github.com/Azure/azure-sdk-for-go/sdk/azidentity from 1.4.0 to 1.5.1 (#6426)\r\n* 089368d96 chore(deps): bump github.com/go-openapi/strfmt from 0.22.0 to 0.23.0 (#6452)\r\n* 116356500 chore(deps): bump github.com/hashicorp/golang-lru/v2 from 2.0.6 to 2.0.7 (#6430)\r\n* 637da2b17 chore(deps): bump aquaproj/aqua-installer from 2.2.0 to 3.0.0 (#6437)\r\n* 13190e92d fix(terraform): eval submodules (#6411)\r\n* 6bca7c3c7 refactor(terraform): remove unused options (#6446)\r\n* 8e4279b86 refactor(terraform): remove unused file (#6445)\r\n* e98c873ed chore(deps): bump github.com/testcontainers/testcontainers-go to v0.28.0 (#6387)\r\n* b1c2eab5a chore(deps): bump github.com/Azure/azure-sdk-for-go/sdk/azcore from 1.9.0 to 1.10.0 (#6427)\r\n* 1c49a16c6 fix(misconf): Escape template value correctly (#6292)\r\n* 8dd0fcd61 feat(misconf): add support for wildcard ignores (#6414)\r\n* 74e4c6e01 fix(cloudformation): resolve `DedicatedMasterEnabled` parsing issue (#6439)\r\n* 245c12053 refactor(terraform): remove metrics collection (#6444)\r\n* 86714bf6b feat(cloudformation): add support for logging and endpoint access for EKS (#6440)\r\n* a75839212 chore(deps): bump github.com/aws/aws-sdk-go-v2/service/s3 from 1.51.1 to 1.53.1 (#6424)\r\n* 4d00d8b52 chore(deps): bump github.com/aws/aws-sdk-go-v2/config from 1.27.4 to 1.27.10 (#6428)\r\n* 3ad2b3e25 chore(deps): bump go.etcd.io/bbolt from 1.3.8 to 1.3.9 (#6429)\r\n* 8baccd790 fix(db): check schema version for image name only (#6410)\r\n* e75a90f2e chore(deps): bump github.com/google/wire from 0.5.0 to 0.6.0 (#6425)\r\n* 6625bd32e chore(deps): bump github.com/aws/aws-sdk-go-v2/service/ec2 from 1.149.1 to 1.155.1 (#6433)\r\n* 826fe6073 chore(deps): bump actions/cache from 4.0.0 to 4.0.2 (#6436)\r\n* f23ed7759 feat(misconf): Support private registries for misconf check bundle (#6327)\r\n* df024e88d feat(cloudformation): inline ignore support for YAML templates (#6358)\r\n* 29dee3281 feat(terraform): ignore resources by nested attributes (#6302)\r\n* 1a67472d2 perf(helm): load in-memory files (#6383)\r\n* 09e37b7c6 feat(aws): apply filter options to result (#6367)\r\n* 87a9aa60d feat(aws): quiet flag support (#6331)\r\n* 712dcd300 fix(misconf): clear location URI for SARIF (#6405)\r\n* 625f22b81 test(cloudformation): add CF tests (#6315)\r\n* 6a2f6fde4 fix(cloudformation): infer type after resolving a function (#6406)\r\n\r\n"
+        "commit_message": "refactor: re-define module structs for serialization (#6655)\n\nSigned-off-by: knqyf263 <knqyf263@gmail.com>",
+        "commit_date": "2024-05-08 07:35:18",
+        "release_date": "2024-05-04 07:24:01",
+        "release_message": "## Changelog\n* 8016b821a fix(fs): handle default skip dirs properly (#6628)\n* 7a25dadb4 fix(misconf): load cached tf modules (#6607)\n* 9c794c0ff fix(misconf): do not use semver for parsing tf module versions (#6614)\n\n"
     },
     "https://github.com/anchore/grype": {
         "created_at": "2024-05-01 16:20:42",
@@ -4107,8 +4107,8 @@
     "https://github.com/vulhub/vulhub": {
         "created_at": "2017-04-09 10:13:13",
         "description": "Pre-Built Vulnerable Environments Based on Docker-Compose",
-        "commit_message": "Merge pull request #515 from vulhub/kkfileview-zipslip\n\nkkFileView ZipSlip",
-        "commit_date": "2024-04-18 18:48:03"
+        "commit_message": "Merge pull request #522 from vulhub/translation/gitlist\n\nTranslation for GItList issue",
+        "commit_date": "2024-05-06 11:14:33"
     },
     "https://github.com/zhuifengshaonianhanlu/pikachu": {
         "created_at": "2018-07-24 08:21:19",
@@ -5610,10 +5610,12 @@
         "release_message": ""
     },
     "https://github.com/fortra/impacket": {
-        "created_at": "2015-04-15 14:04:07",
+        "created_at": "2023-07-31 15:08:03",
         "description": "Impacket is a collection of Python classes for working with network protocols.",
-        "commit_message": "Update copyright notice",
-        "commit_date": "2024-04-26 19:13:31"
+        "commit_message": "Update ChangeLog.md",
+        "commit_date": "2024-05-07 13:27:06",
+        "release_date": "2023-08-03 17:36:40",
+        "release_message": "## Impacket 0.11.0:\r\nProject's main page at https://www.coresecurity.com/core-labs/open-source-tools/impacket\r\n\r\nChangeLog for 0.11.0:\r\n1. Library improvements \r\n    * Added new Kerberos error codes (@ly4k).\r\n\t* Added `[MS-TSTS]` Terminal Services Terminal Server Runtime Interface Protocol implementation (@nopernik).\r\n    * Changed the setting up for new SSL connections (@mpgn, @CT-H00K and @0xdeaddood).\r\n    * Added a callback function to smbserver for incoming authentications (@p0dalirius).\r\n    * Fix crash in winregistry (@laxa)\r\n    * Fixes in IDispatch derived classes in comev implementation (@NtAlexio2)\r\n    * Fix CVE-2020-17049 in ccache.py (@godylockz)\r\n    * Smbserver: Added SMB2_FILE_ALLOCATION_INFO type determination (@JerAxxxxxxx)\r\n    * tds: Fixed python3 incompatibility when receiving over TLS socket (@exploide)\r\n    * crypto: Ensure passwords are utf-8 encoded before deriving Kerberos keys (@jojonas)\r\n    * ese: Fixed python3 incompatibility when reading from db (@alexisbalbachan)\r\n    * ldap queries: Escaped characters are now correctly parsed (@alexisbalbachan)\r\n    * Support SASL authentication in ldap protocol (@NtAlexio2)\r\n\r\n2. Examples improvements\r\n    * [GetADUsers.py](examples/GetADUsers.py), [GetNPUsers.py](examples/GetNPUsers.py), [GetUserSPNs.py](examples/GetUserSPNs.py) and [findDelegation.py](examples/findDelegation.py):\r\n      * Added dc-host option to connect to specific KDC using its FQDN or NetBIOS name (@rmaksimov and @0xdeaddood).\r\n    * [GetNPUsers.py](examples/GetNPUsers.py)\r\n      * Printing TGT in stdout despite -outputfile parameter (@alexisbalbachan and @Zamanry)\r\n      * Fixed output hash format for AES128/256 (etype 17/18) (@erasmusc)\r\n    * [GetUserSPNs.py](examples/GetUserSPNs.py):\r\n      * Added LDAP paged search (@ThePirateWhoSmellsOfSunflowers and @SAERXCIT).\r\n      * Added a -stealth flag to remove the SPN filter from the LDAP query (@clavoillotte).\r\n      * Improved searchFilter (@ShutdownRepo)\r\n      * Use LDAP paged search (@ThePirateWhoSmellsOfSunflowers)\r\n    * [psexec.py](examples/psexec.py):\r\n      * Added support for name customization using a custom binary file (@Dramelac).\r\n    * [smbexec.py](examples/smbexec.py):\r\n      * Security fixes for privilege escalation vulnerabilities (@bugch3ck).\r\n      * Fixed python3 compatibility issues, added workaround TCP over NetBIOS being disabled (@ljrk0)\r\n    * [secretsdump.py](examples/secretsdump.py):\r\n      * Added a new option to extract only NTDS.DIT data for specific users based on an LDAP filter (@snovvcrash).\r\n      * Security fixes for privilege escalation vulnerabilities (@bugch3ck).  \r\n    * [mssqlclient.py](examples/mssqlclient.py):\r\n      * Added multiple new commands. Now supports xp_dirtree execution (@Mayfly277, @trietend and @TurtleARM).\r\n    * [ntlmrelayx.py](examples/ntlmrelayx.py):\r\n      * Added ability to trigger SQLShell when running ntlmrelayx in interactive mode (@sploutchy).\r\n      * Added filter option to the socks command in ntlmrelayx CLI (@shoxxdj)\r\n      * Added ability to register DNS records through LDAP.\r\n    * [addcomputer.py](examples/addcomputer.py), [rbcd.py](examples/rbcd.py):\r\n      * Allow weak TLS ciphers for LDAP connections (@AdrianVollmer)\r\n    * [Get-GPPPassword.py](examples/Get-GPPPassword.py):\r\n      * Better handling of various XML files in Group Policy Preferences (@p0dalirius)\r\n    * [smbclient.py](examples/smbclient.py):\r\n      * Added recursive file listing (@Sq00ky)\r\n    * [ticketer.py](examples/ticketer.py):\r\n      * Ticket duration is now specified in hours instead of days (@Dramelac)\r\n      * Added extra-pac implementation (@Dramelac)\r\n\r\n3. New examples\r\n    * [net.py](examples/net.py) Implementation of windows net.exe builtin tool (@NtAlexio2)\r\n    * [changepasswd.py](examples/changepasswd.py) New example that allows password changing or reseting through multiple protocols (@Alef-Burzmali, @snovvcrash, @bransh, @api0cradle and @p0dalirius)\r\n    * [DumpNTLMInfo.py](examples/DumpNTLMInfo.py) New example that dumps remote host information in ntlm authentication model, without credentials. For SMB protocols v1, v2 and v3. (@NtAlexio2)\r\n    \r\nAs always, thanks a lot to all these contributors that make this library better every day (up to now):\r\n\r\n@ly4k @nopernik @snovvcrash @ShutdownRepo @kiwids0220 @mpgn @CT-H00K @rmaksimov @arossert @aevy-syn @tirkarthi @p0dalirius @Dramelac @Mayfly277 @S3cur3Th1sSh1t @nobbd @AdrianVollmer @trietend @TurtleARM @ThePirateWhoSmellsOfSunflowers @SAERXCIT @clavoillotte @Marshall-Hallenbeck @sploutchy @almandin @rtpt-alexanderneumann @JerAxxxxxxx @NtAlexio2 @laxa @godylockz @exploide @jojonas @Zamanry @erasmusc @bugch3ck @ljrk0 @Sq00ky @shoxxdj @Alef-Burzmali @bransh @api0cradle @alexisbalbachan @0xdeaddood @sanmopre\r\n"
     },
     "https://github.com/OpenEthan/SMSBoom": {
         "created_at": "2021-08-10 05:58:42",
@@ -18774,7 +18776,7 @@
         "created_at": "2021-06-10 16:53:52",
         "description": " CTF Archives: Collection of CTF Challenges.",
         "commit_message": "BSidesSF challs",
-        "commit_date": "2024-05-04 23:13:30"
+        "commit_date": "2024-05-05 20:40:43"
     },
     "https://github.com/KaLendsi/CVE-2022-21882": {
         "created_at": "2022-01-27 03:44:10",
@@ -22724,8 +22726,8 @@
     "https://github.com/shufflewzc/faker3": {
         "created_at": "2022-01-31 21:21:40",
         "description": null,
-        "commit_message": "Create jd_dplh0503.js",
-        "commit_date": "2024-05-03 09:52:45"
+        "commit_message": "update",
+        "commit_date": "2024-05-08 06:37:03"
     },
     "https://github.com/harlamism/IdaClu": {
         "created_at": "",
@@ -25738,8 +25740,8 @@
     "https://github.com/Clouditera/secgpt": {
         "created_at": "2023-11-20 05:41:24",
         "description": "SecGPT网络安全大模型",
-        "commit_message": "Merge pull request #47 from mago960806/main\n\n修复 input_ids 未通过 cuda 加速导致推理速度变慢的问题",
-        "commit_date": "2024-04-25 09:00:25"
+        "commit_message": "Update train.json",
+        "commit_date": "2024-05-08 07:58:32"
     },
     "https://github.com/ajinabraham/NodeJsScan": {
         "created_at": "2015-02-27 12:52:46",
@@ -25864,8 +25866,12 @@
         "commit_date": "2017-07-21 18:33:08"
     },
     "https://github.com/retirejs/retire.js": {
-        "created_at": "2013-08-30 21:43:44",
-        "description": "scanner detecting the use of JavaScript libraries with known vulnerabilities. Can also generate an SBOM of the libraries it finds."
+        "created_at": "2024-03-12 07:30:25",
+        "description": "scanner detecting the use of JavaScript libraries with known vulnerabilities. Can also generate an SBOM of the libraries it finds.",
+        "commit_message": "Update CWE and severity of two vulns",
+        "commit_date": "2024-04-23 11:03:28",
+        "release_date": "2024-03-12 07:30:30",
+        "release_message": "## [5.0.0-beta.1]\n\n### Added\n\n- Deepscan option with `--deep` where retire.js will also try to detect libraries using JavaScript AST (slower)\n\n"
     },
     "https://github.com/1N3/XSSTracer": {
         "created_at": "2015-03-17 19:33:55",
@@ -26301,8 +26307,8 @@
     "https://github.com/WangYihang/USB-Mouse-Pcap-Visualizer": {
         "created_at": "2017-04-04 21:00:40",
         "description": "USB mouse traffic packet forensic tool, mainly used to draw mouse movements and dragging trajectories",
-        "commit_message": "build: poetry update",
-        "commit_date": "2024-04-08 02:23:37"
+        "commit_message": "Merge pull request #9 from WangYihang/dependabot/pip/tqdm-4.66.3\n\nbuild(deps): bump tqdm from 4.66.2 to 4.66.3",
+        "commit_date": "2024-05-04 03:03:51"
     },
     "https://github.com/AabyssZG/Web-SurvivalScan": {
         "created_at": "2023-12-21 06:01:17",
@@ -27054,7 +27060,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "4.227.114.100属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "40.71.163.66属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
@@ -27595,5 +27601,17 @@
     "https://www.cachesleuth.com/bfook.html": {
         "status_code": 200,
         "description": "CacheSleuth - Brainfuck & Ook! Code"
+    },
+    "https://github.com/alwaystest18/cdnChecker": {
+        "created_at": "2024-03-12 11:38:49",
+        "description": "A tool to detect CDN for given domains",
+        "commit_message": "修复windows下\\r\\n换行导致的bug",
+        "commit_date": "2024-03-12 11:38:49",
+        "release_date": "2024-03-12 13:31:27",
+        "release_message": "## Changelog\n* 834fa86 修复windows下\\r\\n换行导致的bug\n* 761a311 有效dns低于20时不再退出程序,改为仅提醒\n* a7d831a 修复某些dns解析域名ip为dns自身ip导致的误报\n* d5b665c update cdn cname list\n* e7dd9d5 增加自动打包\n* 38f8ce2 update dns server\n* 986e826 优化程序内存占用\n* 0fee227 增加常见问题补充\n* 94da415 Merge branch 'master' of github.com:alwaystest18/cdnChecker\n* a799a5d 增加域名+ip的内容输出，方便根据ip反查对应域名\n* 0ff7a8a Update README.md\n* 10415e3 增加域名+ip的内容输出，方便根据ip反查对应域名\n* 7892e91 update cdn cname\n* 6b3da78 Merge branch 'master' of github.com:alwaystest18/cdnChecker\n* f0f1cb2 update cdn cname\n* 1086bcb Update README.md\n* fd1c77e Update README.md\n* 14325a6 Update README.md\n* 360369a Update README.md\n* 2a92e52 Create README.md\n* 2bfa8c9 v1.0\n\n"
+    },
+    "https://github.com/izcoser/stegpy": {
+        "created_at": "2018-08-22 20:51:57",
+        "description": "Simple steganography program based on the LSB method."
     }
 }
