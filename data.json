@@ -2915,8 +2915,8 @@
     "https://github.com/dbeaver/dbeaver": {
         "created_at": "2024-05-03 15:08:43",
         "description": "Free universal database tool and SQL client",
-        "commit_message": "E 2024-03 support",
-        "commit_date": "2024-05-06 07:25:40",
+        "commit_message": "dbeaver/pro#1809 ERD Neo4j database support (#29932)",
+        "commit_date": "2024-05-08 16:16:08",
         "release_date": "2024-05-05 18:55:07",
         "release_message": "\n                - SQL Editor:\n                    - Smart mode for Blank line is statement delimiter  setting was fixed\n                    - Vertical button alignment was fixed\n                - ER Diagrams: Keep layout selection was fixed\n                - Data transfer:\n                    - Import from CSV with duplicated columns names was fixed\n                    - Parallel data transfer monitoring/cancellation were fixed\n                - Dashboards:\n                    - Ability to drag and drop charts to another dashboard was added\n                    - Number of minor UI improvements were added\n                - Connectivity:\n                    - SSH parameters validation on the Connection page was added\n                    - Editing of 'Local host' and 'Remote host' fields in the Port Forwarding section was fixed\n                    - Database connection timeout notification was fixed\n                - Development: Redundant tests were disabled\n                - Databases\n                    - MariaDB:\n                        - GRANT OPTION privilege persistence was fixed\n                        - Schema privileges representation was fixed\n                    - SQL Server: trigger deletion was fixed\n                    - Teradata: link to the referenced table in the Metadata editor was added\n                - Localization: French translation was updated (thanks to @Jean-BaptisteC)\n                - General:\n                    - Language configuration in Windows installer was fixed\n                    - We have migrated to Eclipse 2024/06\n            "
     },
@@ -3361,8 +3361,8 @@
     "https://github.com/bit4woo/domain_hunter_pro": {
         "created_at": "2023-04-18 00:03:06",
         "description": "domain_hunter的高级版本，SRC挖洞、HW打点之必备！自动化资产收集；快速Title获取；外部工具联动；等等",
-        "commit_message": "update",
-        "commit_date": "2024-04-23 09:59:35",
+        "commit_message": "Merge pull request #56 from bit4woo/dependabot/maven/org.jsoup-jsoup-1.15.3\n\nBump org.jsoup:jsoup from 1.14.3 to 1.15.3",
+        "commit_date": "2024-05-03 10:19:52",
         "release_date": "2023-04-18 00:34:58",
         "release_message": "全局：\r\n多个bug修复\r\n布局模式优化\r\n基础方法实现逻辑优化\r\n\r\n右键菜单：\r\n“Do Search”提供主动在制定请求中进行搜索的能力，比如在某企业邮箱的流量中搜索以提取邮箱地址\r\n“Add Request And Comment”右键菜单添逻辑优化，修复一个bug\r\n“Send To Tool Panel”右键菜单处理逻辑优化，可合并发送多个数据包内容\r\n\r\nDomain面板：\r\nroot domain的comments逻辑更新\r\n提供多个网络搜索引擎的后台自动搜索功能\r\nroot domain双击，自动在浏览器中访问\r\n修改目标根域名删除失败的bug\r\n显示序号，以便在排序后恢复原始顺序\r\n\r\nTool面板：\r\n重写JTextArea的paste函数，避免大内容导致程序卡死\r\nJTextArea支持输入文件，而程序处理其内容。\r\n文本取提供简单的历史记录功能\r\nJSON提取逻辑优化\r\n新增多个功能，比如排序\r\n优化URL提取逻辑，避免遗漏没有以/开头的path\r\n\r\nTitle面板中：\r\n端口扫描命令生成逻辑优化\r\n备注和IP内容的显示优化，显示前排序\r\n备注添加逻辑优化\r\n给手动添加的记录添加已知的IP和CNAME、CertInfo\r\n搜索功能增强，支持对数字型字段进行大于、小于、等于等搜索\r\n添加多个搜索实例，以便用户熟悉搜索语法\r\n新增“Do Request Item Again”菜单，对DNS记录或无响应的数据包进行再次请求"
     },
@@ -3895,8 +3895,8 @@
     "https://github.com/quay/clair": {
         "created_at": "2024-05-01 16:55:34",
         "description": "Vulnerability Static Analysis for Containers",
-        "commit_message": "build(deps): bump github.com/urfave/cli/v2 from 2.27.1 to 2.27.2\n\nBumps [github.com/urfave/cli/v2](https://github.com/urfave/cli) from 2.27.1 to 2.27.2.\n- [Release notes](https://github.com/urfave/cli/releases)\n- [Changelog](https://github.com/urfave/cli/blob/main/docs/CHANGELOG.md)\n- [Commits](https://github.com/urfave/cli/compare/v2.27.1...v2.27.2)\n\n---\nupdated-dependencies:\n- dependency-name: github.com/urfave/cli/v2\n  dependency-type: direct:production\n  update-type: version-update:semver-patch\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>",
-        "commit_date": "2024-05-02 21:22:30",
+        "commit_message": "build(deps): bump golang.org/x/net from 0.24.0 to 0.25.0\n\nBumps [golang.org/x/net](https://github.com/golang/net) from 0.24.0 to 0.25.0.\n- [Commits](https://github.com/golang/net/compare/v0.24.0...v0.25.0)\n\n---\nupdated-dependencies:\n- dependency-name: golang.org/x/net\n  dependency-type: direct:production\n  update-type: version-update:semver-minor\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>",
+        "commit_date": "2024-05-06 23:58:40",
         "release_date": "2024-05-01 16:59:42",
         "release_message": "<a name=\"unreleased\"></a>\r\n## [Unreleased]\r\n\r\n\r\n<a name=\"v4.7.4\"></a>\r\n## [v4.7.4] - 2024-05-01\r\n\r\n### NOTE\r\n[The default layer download location has changed](https://github.com/quay/clair/blob/release-4.7/Documentation/howto/deployment.md#disk-usage-considerations)\r\n\r\n### Claircore\r\n- tarfs: follow hardlinks in `ReadFile`\r\n  <details>\r\n  This makes `fs.ReadFile` work as expected when opening hardlinks.\r\n  </details>\r\n\r\n- debian: update how \"source\" packages are handled\r\n  <details>\r\n  Previously, the Updater parsed metadata from the repository to try to\r\n  record only \"binary\" packages. This was inaccurate and, with the new\r\n  dpkg handling, now unneeded. The new approach should be more accurate.\r\n  </details>\r\n\r\n- dpkg: improve Source handling\r\n  <details>\r\n  The dpkg handling machinery now correctly records source packages and\r\n  versions. Previously, version differences between a source package and\r\n  the resulting binary package(s) were incorrect if the versions were not\r\n  identical.\r\n  </details>\r\n\r\n- libindex: add `O_TMPFILE` fallback logic\r\n  <details>\r\n  After discovering that some common deployment methods are incompatible with\r\n  using the `O_TMPFILE` `open(2)` flag, a fallback path has been added. The\r\n  changes also move the default location of where temporary files are downloaded\r\n  to, to better align with the layout recommended by systemd.\r\n  \r\n  Please see [the documentation] for specifics.\r\n  \r\n  [the documentation]: https://pkg.go.dev/github.com/quay/claircore/libindex@v1.5.\r\n  26-0.20240325212310-fedb9d327aa7#NewRemoteFetchArena\r\n  </details>\r\n\r\n- osv: parse database_specific severity when no CVSS severity is defined\r\n  <details>\r\n  Occasionally there are OSV advisories that don't include any severity\r\n  information in the `.severity` object but they do contain a severity in\r\n  the `.database_specific` object. This change attempts to parse that\r\n  severity if we don't get a severity from the native `.severity` object.\r\n  </details>\r\n\r\n### Build(Deps)\r\n- [3ebd889c](https://github.com/quay/clair/commit/3ebd889cb37603e071ba0d8fb8ba631702b13414): bump peter-evans/create-pull-request from 6.0.0 to 6.0.1\r\n- [b7566a0f](https://github.com/quay/clair/commit/b7566a0feedc5de0227a5bfd6e2921014ec68704): bump peter-evans/create-pull-request from 5.0.2 to 6.0.0\r\n- [4db2f09b](https://github.com/quay/clair/commit/4db2f09be2330e4dc9061dc2e9d44d8979b8c34d): bump actions/cache from 3 to 4\r\n- [6cef8311](https://github.com/quay/clair/commit/6cef8311255b024dd3a1fc0a70f7edf38969906c): bump actions/upload-artifact from 3 to 4\r\n- [5ed80215](https://github.com/quay/clair/commit/5ed80215fa17adb7e72ba3d9267368474afd411e): bump actions/download-artifact from 3 to 4\r\n- [c9e1f56b](https://github.com/quay/clair/commit/c9e1f56b224f25aacd5df861563006520e63297b): bump actions/setup-go from 4 to 5\r\n- [3ab3de55](https://github.com/quay/clair/commit/3ab3de558380fff38b8503de914c1b9c0611c4c8): bump actions/stale from 8 to 9\r\n- [591188f0](https://github.com/quay/clair/commit/591188f0a877b81878209be4b9185d4cb7c404f3): bump docker/setup-buildx-action from 2 to 3\r\n- [7ef6ef6b](https://github.com/quay/clair/commit/7ef6ef6b7587386b80cef9fbe7269b0083c8f039): bump docker/login-action from 2 to 3\r\n- [5597e7cc](https://github.com/quay/clair/commit/5597e7ccb94c113cc8344e8289be886049b23f63): bump docker/build-push-action from 4 to 5\r\n- [14d7f2b4](https://github.com/quay/clair/commit/14d7f2b4927fa9e4debc9005fb6dc620a6a47833): bump docker/setup-qemu-action from 2 to 3\r\n- [1204db98](https://github.com/quay/clair/commit/1204db98853cdfdce7790f3d3276d4617e4e3000): bump actions/checkout from 3 to 4\r\n### Chore\r\n- [4170798b](https://github.com/quay/clair/commit/4170798b6d464be0b8f74b1979785a17ad71dbd0): 4.7.4 changelog bump\r\n- [96dc6074](https://github.com/quay/clair/commit/96dc60748b492df1cb4af3761c9c44c10266ed09): Add merge step when creating release binaries\r\n- [a1c7eb7c](https://github.com/quay/clair/commit/a1c7eb7c8cce687e12fcc056be1acacbdc608a31): update go version for release\r\n- [6eeb9393](https://github.com/quay/clair/commit/6eeb9393b539cf49a10c42e247b833ce7e040607): update claircore to v1.5.27\r\n- [809dd5ab](https://github.com/quay/clair/commit/809dd5ab474994eb9a32599f4257437fde995064): update go version\r\n### Cicd\r\n- [e6378d03](https://github.com/quay/clair/commit/e6378d0333085a072cf73bfa32228af24b710b05): add container version skew check\r\n- [2ba3ecc0](https://github.com/quay/clair/commit/2ba3ecc0a66679dcd82f7015695db5b2a3f0c02a): update testing workflow\r\n- [ae135c49](https://github.com/quay/clair/commit/ae135c4956358d6c18109438b6e59170100787ea): don't upload workspace on failure\r\n- [7222dc88](https://github.com/quay/clair/commit/7222dc88d4fe919cc2b88e2fe7587061a881b794): change version specifiers to be major-version only\r\n### Clairctl\r\n- [2a2ba37f](https://github.com/quay/clair/commit/2a2ba37f6404e377d702e50f78bccd172b08b03f): warn when range requests are not honored\r\n### Dockerfile\r\n- [5547b96a](https://github.com/quay/clair/commit/5547b96aeff795da43fbc6e2dc8ec7b5dda7691d): remove sh loop\r\n### Docs\r\n- [3753415b](https://github.com/quay/clair/commit/3753415b4e2b6bc9b63a940b8b2101d82ab523ef): add mention of disk space path and usage\r\n### Httptransport\r\n- [c6df986f](https://github.com/quay/clair/commit/c6df986fddfe5121b6fd9dbfff0ccca35c55cb71): GET vuln report returns 404 when indexing in-progress\r\n### Initialize\r\n- [9828576a](https://github.com/quay/clair/commit/9828576af20c966e0dbe99bbac68d3e80b07baa1): use defaults for NewRemoteFetcher\r\n\r\n[Unreleased]: https://github.com/quay/clair/compare/v4.7.4...HEAD\r\n[v4.7.4]: https://github.com/quay/clair/compare/v4.7.3...v4.7.4\r\n"
     },
@@ -4946,8 +4946,8 @@
     "https://github.com/hahwul/dalfox": {
         "created_at": "2024-01-28 15:43:33",
         "description": "🌙🦊 Dalfox is a powerful open-source XSS scanner and utility focused on automation.",
-        "commit_message": "chore: update contributors [skip ci]",
-        "commit_date": "2024-04-14 03:39:22",
+        "commit_message": "Merge pull request #549 from hahwul/dev\n\nDependencies upgrade",
+        "commit_date": "2024-04-30 14:49:24",
         "release_date": "2024-01-28 15:50:31",
         "release_message": "## Changelog\r\n* eeda86c chore: update contributors [skip ci]\r\n* d7a245b chore: update contributors [skip ci]\r\n* d3a9153 Update logo\r\n* 65ae78d Update image\r\n* aa4b5ef Update docs\r\n* d58add5 Update dependabot.yml\r\n* 587f136 Update README.md\r\n* 16e2b54 Update README.md\r\n* 25dbbc3 Release v2.9.2\r\n* 3fc6a4b Merge pull request #522 from hahwul/dev\r\n* 00afb7f Merge pull request #520 from hahwul/change-logo\r\n* 367bf5c Merge pull request #517 from hahwul/main\r\n* 894b989 Merge pull request #516 from hahwul/add-dependabot.yml\r\n* 4949a34 Merge pull request #514 from hahwul/dependabot/go_modules/golang.org/x/crypto-0.17.0\r\n* cfe4a5d Merge pull request #512 from n00b-bot/dev\r\n* 31b28af Merge pull request #510 from hahwul/dev\r\n* 81a86c3 Fixed GHCR\r\n* ee47de9 Fix duplicate Headers by @n00b-bot \r\n* d3e9445 Bump golang.org/x/crypto from 0.14.0 to 0.17.0\r\n\r\n"
     },
@@ -5612,8 +5612,8 @@
     "https://github.com/fortra/impacket": {
         "created_at": "2023-07-31 15:08:03",
         "description": "Impacket is a collection of Python classes for working with network protocols.",
-        "commit_message": "Update ChangeLog.md",
-        "commit_date": "2024-05-07 13:27:06",
+        "commit_message": "Update adcsattack.py\n\nPKCS#12 clarification and formatting\r\ncloses #1692",
+        "commit_date": "2024-05-09 12:54:04",
         "release_date": "2023-08-03 17:36:40",
         "release_message": "## Impacket 0.11.0:\r\nProject's main page at https://www.coresecurity.com/core-labs/open-source-tools/impacket\r\n\r\nChangeLog for 0.11.0:\r\n1. Library improvements \r\n    * Added new Kerberos error codes (@ly4k).\r\n\t* Added `[MS-TSTS]` Terminal Services Terminal Server Runtime Interface Protocol implementation (@nopernik).\r\n    * Changed the setting up for new SSL connections (@mpgn, @CT-H00K and @0xdeaddood).\r\n    * Added a callback function to smbserver for incoming authentications (@p0dalirius).\r\n    * Fix crash in winregistry (@laxa)\r\n    * Fixes in IDispatch derived classes in comev implementation (@NtAlexio2)\r\n    * Fix CVE-2020-17049 in ccache.py (@godylockz)\r\n    * Smbserver: Added SMB2_FILE_ALLOCATION_INFO type determination (@JerAxxxxxxx)\r\n    * tds: Fixed python3 incompatibility when receiving over TLS socket (@exploide)\r\n    * crypto: Ensure passwords are utf-8 encoded before deriving Kerberos keys (@jojonas)\r\n    * ese: Fixed python3 incompatibility when reading from db (@alexisbalbachan)\r\n    * ldap queries: Escaped characters are now correctly parsed (@alexisbalbachan)\r\n    * Support SASL authentication in ldap protocol (@NtAlexio2)\r\n\r\n2. Examples improvements\r\n    * [GetADUsers.py](examples/GetADUsers.py), [GetNPUsers.py](examples/GetNPUsers.py), [GetUserSPNs.py](examples/GetUserSPNs.py) and [findDelegation.py](examples/findDelegation.py):\r\n      * Added dc-host option to connect to specific KDC using its FQDN or NetBIOS name (@rmaksimov and @0xdeaddood).\r\n    * [GetNPUsers.py](examples/GetNPUsers.py)\r\n      * Printing TGT in stdout despite -outputfile parameter (@alexisbalbachan and @Zamanry)\r\n      * Fixed output hash format for AES128/256 (etype 17/18) (@erasmusc)\r\n    * [GetUserSPNs.py](examples/GetUserSPNs.py):\r\n      * Added LDAP paged search (@ThePirateWhoSmellsOfSunflowers and @SAERXCIT).\r\n      * Added a -stealth flag to remove the SPN filter from the LDAP query (@clavoillotte).\r\n      * Improved searchFilter (@ShutdownRepo)\r\n      * Use LDAP paged search (@ThePirateWhoSmellsOfSunflowers)\r\n    * [psexec.py](examples/psexec.py):\r\n      * Added support for name customization using a custom binary file (@Dramelac).\r\n    * [smbexec.py](examples/smbexec.py):\r\n      * Security fixes for privilege escalation vulnerabilities (@bugch3ck).\r\n      * Fixed python3 compatibility issues, added workaround TCP over NetBIOS being disabled (@ljrk0)\r\n    * [secretsdump.py](examples/secretsdump.py):\r\n      * Added a new option to extract only NTDS.DIT data for specific users based on an LDAP filter (@snovvcrash).\r\n      * Security fixes for privilege escalation vulnerabilities (@bugch3ck).  \r\n    * [mssqlclient.py](examples/mssqlclient.py):\r\n      * Added multiple new commands. Now supports xp_dirtree execution (@Mayfly277, @trietend and @TurtleARM).\r\n    * [ntlmrelayx.py](examples/ntlmrelayx.py):\r\n      * Added ability to trigger SQLShell when running ntlmrelayx in interactive mode (@sploutchy).\r\n      * Added filter option to the socks command in ntlmrelayx CLI (@shoxxdj)\r\n      * Added ability to register DNS records through LDAP.\r\n    * [addcomputer.py](examples/addcomputer.py), [rbcd.py](examples/rbcd.py):\r\n      * Allow weak TLS ciphers for LDAP connections (@AdrianVollmer)\r\n    * [Get-GPPPassword.py](examples/Get-GPPPassword.py):\r\n      * Better handling of various XML files in Group Policy Preferences (@p0dalirius)\r\n    * [smbclient.py](examples/smbclient.py):\r\n      * Added recursive file listing (@Sq00ky)\r\n    * [ticketer.py](examples/ticketer.py):\r\n      * Ticket duration is now specified in hours instead of days (@Dramelac)\r\n      * Added extra-pac implementation (@Dramelac)\r\n\r\n3. New examples\r\n    * [net.py](examples/net.py) Implementation of windows net.exe builtin tool (@NtAlexio2)\r\n    * [changepasswd.py](examples/changepasswd.py) New example that allows password changing or reseting through multiple protocols (@Alef-Burzmali, @snovvcrash, @bransh, @api0cradle and @p0dalirius)\r\n    * [DumpNTLMInfo.py](examples/DumpNTLMInfo.py) New example that dumps remote host information in ntlm authentication model, without credentials. For SMB protocols v1, v2 and v3. (@NtAlexio2)\r\n    \r\nAs always, thanks a lot to all these contributors that make this library better every day (up to now):\r\n\r\n@ly4k @nopernik @snovvcrash @ShutdownRepo @kiwids0220 @mpgn @CT-H00K @rmaksimov @arossert @aevy-syn @tirkarthi @p0dalirius @Dramelac @Mayfly277 @S3cur3Th1sSh1t @nobbd @AdrianVollmer @trietend @TurtleARM @ThePirateWhoSmellsOfSunflowers @SAERXCIT @clavoillotte @Marshall-Hallenbeck @sploutchy @almandin @rtpt-alexanderneumann @JerAxxxxxxx @NtAlexio2 @laxa @godylockz @exploide @jojonas @Zamanry @erasmusc @bugch3ck @ljrk0 @Sq00ky @shoxxdj @Alef-Burzmali @bransh @api0cradle @alexisbalbachan @0xdeaddood @sanmopre\r\n"
     },
@@ -7727,8 +7727,8 @@
     "https://github.com/yaklang/yakit": {
         "created_at": "2024-04-26 08:40:43",
         "description": "Cyber Security ALL-IN-ONE Platform",
-        "commit_message": "feat: 更新通知，当获取版本号失败时，显示获取失败 (#1623)",
-        "commit_date": "2024-05-06 03:01:41",
+        "commit_message": "fix: 重复渲染问题 (#1637)",
+        "commit_date": "2024-05-09 06:56:34",
         "release_date": "2024-04-26 09:00:07",
         "release_message": "Yakit v1.3.2-sp2\r\n1. WebFuzzer批量发包前端显示增加2w限制，避免oom造成白屏\r\n2. MITM热加载增加保存按钮\r\n3. 全局配置支持配置免配置启动路径\r\n4. 美化和渲染增加缓存记录\r\n5. 引擎连接页面增加打开引擎所在文件，方便命令行启动引擎查看问题\r\n6. Yakit增加版本绑定，避免引擎版本过低时功能无法使用"
     },
@@ -10152,7 +10152,7 @@
         "created_at": "2020-02-04 09:30:48",
         "description": "致力于成为中文区命中率最高的广告过滤列表，实现精确的广告屏蔽和隐私保护。anti-AD现已支持AdGuardHome，dnsmasq， Surge，Pi-Hole，smartdns等网络组件。完全兼容常见的广告过滤工具所支持的各种广告过滤列表格式",
         "commit_message": "Auto renew the anti-AD list.",
-        "commit_date": "2024-04-07 18:33:35",
+        "commit_date": "2024-05-07 18:35:08",
         "release_date": "2020-02-04 09:32:25",
         "release_message": "- 引入无效域名、无效hosts剔除机制，大幅提升各过滤列表命中率\r\n- 为了更好的支持pi-hole，加入一个新的全域名列表 - `anti-ad-domains.txt`\r\n- 根据网友 [@xlighting2017](https://github.com/privacy-protection-tools/anti-AD/issues/29) 建议，更新surge到新的格式\r\n- 引入数个新的配置参数，对输出结果精确控制\r\n- 若干bug和逻辑修复"
     },
@@ -23080,8 +23080,8 @@
     "https://github.com/vxunderground/MalwareSourceCode": {
         "created_at": "2020-10-10 02:48:57",
         "description": "Collection of malware source code for a variety of platforms in an array of different programming languages.",
-        "commit_message": "Merge pull request #84 from aarush-dev/patch-1\n\nUpdate README.md",
-        "commit_date": "2024-03-06 21:30:44"
+        "commit_message": "updates\n\nupdates",
+        "commit_date": "2024-05-09 02:09:51"
     },
     "https://github.com/ciscocsirt/GOSINT": {
         "created_at": "2017-08-03 18:35:18",
@@ -24270,8 +24270,8 @@
     "https://github.com/gubeihc/blasting": {
         "created_at": "2022-09-18 15:09:34",
         "description": null,
-        "commit_message": "更新安装依赖",
-        "commit_date": "2024-03-13 05:44:44"
+        "commit_message": "添加按钮提交延迟，优化部分输出",
+        "commit_date": "2024-05-04 12:06:57"
     },
     "https://github.com/woodpecker-framework/ysoserial-for-woodpecker": {
         "created_at": "2020-07-09 18:47:29",
@@ -25644,8 +25644,8 @@
     "https://github.com/future-architect/vuls": {
         "created_at": "2024-03-22 07:27:34",
         "description": "Agent-less vulnerability scanner for Linux, FreeBSD, Container, WordPress, Programming language libraries, Network devices",
-        "commit_message": "style(log) fix trivy scan page link (#1902)",
-        "commit_date": "2024-04-25 10:20:42",
+        "commit_message": "chore(deps): bump golang.org/x/oauth2 from 0.19.0 to 0.20.0 (#1910)\n\nBumps [golang.org/x/oauth2](https://github.com/golang/oauth2) from 0.19.0 to 0.20.0.\r\n- [Commits](https://github.com/golang/oauth2/compare/v0.19.0...v0.20.0)\r\n\r\n---\r\nupdated-dependencies:\r\n- dependency-name: golang.org/x/oauth2\r\n  dependency-type: direct:production\r\n  update-type: version-update:semver-minor\r\n...\r\n\r\nSigned-off-by: dependabot[bot] <support@github.com>\r\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
+        "commit_date": "2024-05-07 22:10:05",
         "release_date": "2024-03-22 07:59:36",
         "release_message": "This release includes one additional feature and some bug fixes.\r\nIf you use Amazon Linux 2023, you have to harry to update.\r\n\r\n## New feature\r\n* Some enterprise features of WPScan are now added to scan results.\r\n  - 50580f6 feat(wpscan): support enterprise feature (#1875)\r\n\r\n## (Potential) Incompatibilities\r\n* Names and Versions of JAR-like files of scan results can be overwritten at `vuls result` phase.\r\n  - These values after `vuls scan` phase may be incorrect or insufficient because Trivy's Java DB is not used at the phase.\r\n  - Correct them at `vuls report` phase with the help of Java DB.\r\n  - 99cf9db feat(detector/library): update JAR-like files' Name/Version in library list (#1874)\r\n\r\n## Bug fixes\r\n* Amazon Linux 2023 have changed its release version format in `/etc/amazon-linux-release`\r\n  - It causes inability of EOL detection at `vuls scan` phase and failure of vulnerability detection at `vuls report` phase.\r\n  - No vulnerabilities are detected unless this bug fix, please update quickly if you use Amazon Linux 2023.\r\n  - e1df74c fix(amazon): use major version for checking eol, security advisories (#1873)\r\n\r\n## Misc Changes\r\n* e25ec99 chore(deps): bump github.com/aws/aws-sdk-go from 1.49.21 to 1.51.5 (#1881)\r\n* 472df0e chore(deps): update dictionary modules (#1877)\r\n* 7d5a47b chore(deps): bump github.com/docker/docker (#1880)\r\n* 426eb53 chore(deps): bump github.com/jackc/pgx/v5 from 5.5.1 to 5.5.4 (#1872)\r\n* bda089b chore(deps): bump google.golang.org/protobuf from 1.32.0 to 1.33.0 (#1871)\r\n* 02d1f6f chore(deps): bump golang.org/x/oauth2 from 0.17.0 to 0.18.0 (#1868)\r\n\r\n## New Contributors\r\n* @future-ryunosuketanai made their first contribution in https://github.com/future-architect/vuls/pull/1875\r\n\r\n**Full Changelog**: https://github.com/future-architect/vuls/compare/v0.25.1...v0.25.2"
     },
@@ -27060,7 +27060,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "40.71.163.66属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "4.227.115.4属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
@@ -27244,7 +27244,7 @@
     },
     "https://www.storytrain.info/": {
         "status_code": 200,
-        "description": "短信接收 - 云短信 - 第1页 - 在线短信接收"
+        "description": "用户认证 - 云短信 - 短信接收"
     },
     "https://sms-activate.org/": {
         "status_code": 403,
@@ -27613,5 +27613,11 @@
     "https://github.com/izcoser/stegpy": {
         "created_at": "2018-08-22 20:51:57",
         "description": "Simple steganography program based on the LSB method."
+    },
+    "https://github.com/yuanfux/zero-width-lib": {
+        "created_at": "2018-08-16 04:06:27",
+        "description": ":zero: A lib for zero width chars",
+        "commit_message": "chore: version bump",
+        "commit_date": "2019-07-12 11:02:22"
     }
 }
