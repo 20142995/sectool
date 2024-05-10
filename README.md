@@ -240,6 +240,8 @@
 - <img src="https://favicon.qqsuu.cn/www.ifm.net.nz" alt="" style="height: 20px;"> [IFM - Cisco Password Cracker](https://www.ifm.net.nz/cookbooks/passwordcracker.html) 
 #### emoji-aes
 - <img src="https://favicon.qqsuu.cn/aghorler.github.io" alt="" style="height: 20px;"> [emoji-aes](https://aghorler.github.io/emoji-aes/) 
+- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [emoji_aes_burst](https://github.com/Mumuzi7179/emoji_aes_burst) 
+- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [emoji-aes](https://github.com/aghorler/emoji-aes) 
 #### hex转字符
 - <img src="https://favicon.qqsuu.cn/the-x.cn" alt="" style="height: 20px;"> [HEX转字符 十六进制转字符  hex gb2312 gbk utf8 汉字内码转换 - The X 在线工具](https://the-x.cn/encodings/Hex.aspx) 
 #### logo编程
@@ -250,7 +252,6 @@
 - <img src="https://favicon.qqsuu.cn/www.hiencode.com" alt="" style="height: 20px;"> [CTF在线工具-在线PPencode编码|PP编码|PPencode编码原理|PPencode编码算法](http://www.hiencode.com/ppencode.html) 
 #### quipqiup
 - <img src="https://favicon.qqsuu.cn/quipqiup.com" alt="" style="height: 20px;"> [quipqiup.com](https://quipqiup.com) 
-- <img src="https://favicon.qqsuu.cn/quipqiup.com" alt="" style="height: 20px;"> [quipqiup.com](https://quipqiup.com/) 
 #### rsa私钥加密解密
 - <img src="https://favicon.qqsuu.cn/tool.chacuo.net" alt="" style="height: 20px;"> [在线RSA私钥加密解密、RSA private key encryption and decryption--查错网](http://tool.chacuo.net/cryptrsaprikey) 
 #### tupper
@@ -265,6 +266,7 @@
 #### 仿射密码
 - <img src="https://favicon.qqsuu.cn/www.hiencode.com" alt="" style="height: 20px;"> [CTF在线工具-在线仿射密码加密|在线仿射密码解密|仿射密码算法|Affine Cipher](http://www.hiencode.com/affine.html) 
 - <img src="https://favicon.qqsuu.cn/www.boxentriq.com" alt="" style="height: 20px;"> [Affine Cipher (online tool) | Boxentriq](https://www.boxentriq.com/code-breaking/affine-cipher) 
+- <img src="https://favicon.qqsuu.cn/www.wishingstarmoye.com" alt="" style="height: 20px;"> [www.wishingstarmoye.com](https://www.wishingstarmoye.com/ctf/affinecipher) 
 #### 公钥解析
 - <img src="https://favicon.qqsuu.cn/www.hiencode.com" alt="" style="height: 20px;"> [SSL在线工具-公钥解析](http://www.hiencode.com/pub_asys.html) 
 #### 关键字密码
@@ -306,6 +308,7 @@
 #### 恩尼格玛密码机密码加密解密
 - <img src="https://favicon.qqsuu.cn/www.atoolbox.net" alt="" style="height: 20px;"> [恩尼格玛密码机密码加密/解密 - 一个工具箱 - 好用的在线工具都在这里！](http://www.atoolbox.net/Tool.php?Id=993) 
 #### 摩尔斯电码
+- <img src="https://favicon.qqsuu.cn/www.hiencode.com" alt="" style="height: 20px;"> [CTF在线工具-在线莫尔斯电码编码|在线莫尔斯电码解码|莫尔斯电码算法|Morse](http://www.hiencode.com/morse.html) 
 - <img src="https://favicon.qqsuu.cn/www.zhongguosou.com" alt="" style="height: 20px;"> [摩尔斯电码转换器：在线进行摩尔斯电码和英文字母的相互转换，可以把莫尔斯电码转换为英文字母，也可把英文字母转换为摩尔斯电码](http://www.zhongguosou.com/zonghe/moErSiCodeConverter.aspx) 
 - <img src="https://favicon.qqsuu.cn/c5r.app" alt="" style="height: 20px;"> [CTFever Toolkit by uniiem](https://c5r.app/tools/morse-code) 
 #### 敲击码
@@ -366,11 +369,10 @@
 - <img src="https://favicon.qqsuu.cn/ctfever.uniiem.com" alt="" style="height: 20px;"> [CTFever Toolkit by uniiem](https://ctfever.uniiem.com/) 
 - <img src="https://favicon.qqsuu.cn/forum.ywhack.com" alt="" style="height: 20px;"> [CyberChef](https://forum.ywhack.com/tools/CyberChef/) 
 - <img src="https://favicon.qqsuu.cn/tool.lu" alt="" style="height: 20px;"> [在线工具 - 你的工具箱](https://tool.lu/) 
+- <img src="https://favicon.qqsuu.cn/www.wishingstarmoye.com" alt="" style="height: 20px;"> [www.wishingstarmoye.com](https://www.wishingstarmoye.com/) 
 #### 自动密钥密码加密解密
 - <img src="https://favicon.qqsuu.cn/www.atoolbox.net" alt="" style="height: 20px;"> [自动密钥密码加密/解密 - 一个工具箱 - 好用的在线工具都在这里！](http://www.atoolbox.net/Tool.php?Id=920) 
 - <img src="https://favicon.qqsuu.cn/www.hiencode.com" alt="" style="height: 20px;"> [CTF在线工具-在线自动密钥密码加密|在线自动密钥密码解密|自动密钥密码算法|Autokey Cipher](http://www.hiencode.com/autokey.html) 
-#### 莫尔斯电码
-- <img src="https://favicon.qqsuu.cn/www.hiencode.com" alt="" style="height: 20px;"> [CTF在线工具-在线莫尔斯电码编码|在线莫尔斯电码解码|莫尔斯电码算法|Morse](http://www.hiencode.com/morse.html) 
 #### 进制转换
 - <img src="https://favicon.qqsuu.cn/www.hiencode.com" alt="" style="height: 20px;"> [CTF在线工具-ASCII与进制转换|任意进制转换|ASCII、2进制、8进制、10进制、16进制](http://www.hiencode.com/jinzhi.html) 
 #### 阴阳怪气编码解码
@@ -378,9 +380,9 @@
 #### 随机密码和密钥生成器
 - <img src="https://favicon.qqsuu.cn/www.atoolbox.net" alt="" style="height: 20px;"> [随机密码和密钥生成器 - 一个工具箱 - 好用的在线工具都在这里！](http://www.atoolbox.net/Tool.php?Id=921) 
 #### 零宽隐写
+- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [zero-width-lib](https://github.com/yuanfux/zero-width-lib) :zero: A lib for zero width chars
 - <img src="https://favicon.qqsuu.cn/330k.github.io" alt="" style="height: 20px;"> [Unicode Steganography with Zero-Width Characters](http://330k.github.io/misc_tools/unicode_steganography.html) 
 - <img src="https://favicon.qqsuu.cn/330k.github.io" alt="" style="height: 20px;"> [Unicode Steganography with Zero-Width Characters](https://330k.github.io/misc_tools/unicode_steganography.html) 
-- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [zero-width-lib](https://github.com/yuanfux/zero-width-lib) 
 - <img src="https://favicon.qqsuu.cn/www.guofei.site" alt="" style="height: 20px;"> [文本隐水印](https://www.guofei.site/pictures_for_blog/app/text_watermark/v1.html) 
 - <img src="https://favicon.qqsuu.cn/www.mzy0.com" alt="" style="height: 20px;"> [Unicode Steganography with Zero-Width Characters](https://www.mzy0.com/ctftools/zerowidth1/) 
 - <img src="https://favicon.qqsuu.cn/www.mzy0.com" alt="" style="height: 20px;"> [Offdev.net - Zero-width space steganography javascript demo](https://www.mzy0.com/ctftools/zerowidth2/) 
@@ -401,6 +403,8 @@
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [CTF-NetA](https://github.com/Arinue/CTF-NetA) CTF-NetA是一款专门针对CTF比赛的网络流量分析工具，可以对常见的网络流量进行分析，快速自动获取flag。
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [qsnctf-python 0.0.8.10](https://github.com/Moxin1044/qsnctf-python) 青少年CTF的Python包，方便大家调用一些CTF常用功能。
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [CTF-Tools v1.3.7](https://github.com/qianxiao996/CTF-Tools) 一款Python+Pyqt写的CTF编码、解码、加密、解密工具。
+- <img src="https://favicon.qqsuu.cn/www.1o1o.xyz" alt="" style="height: 20px;"> [www.1o1o.xyz](http://www.1o1o.xyz/bo_ctfcode.html) 
+- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [PuzzleSolver](https://github.com/Byxs20/PuzzleSolver) 
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [ToolsFx](https://github.com/Leon406/ToolsFx) 
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [binwalk](https://github.com/devttys0/binwalk) 
 #### 编码解码
@@ -730,7 +734,7 @@
 - <img src="https://favicon.qqsuu.cn/temp-mail.org" alt="" style="height: 20px;"> [Just a moment...](https://temp-mail.org/) 
 - <img src="https://favicon.qqsuu.cn/tools.emailhippo.com" alt="" style="height: 20px;"> [Free Email Address Verifier: Verify An Email Address In Real Time | emailhippo.com](https://tools.emailhippo.com/) 
 - <img src="https://favicon.qqsuu.cn/www.snapmail.cc" alt="" style="height: 20px;"> [Snapmail - The fastest way to test email!](https://www.snapmail.cc/) 
-- <img src="https://favicon.qqsuu.cn/www.storytrain.info" alt="" style="height: 20px;"> [短信接收 - 云短信 - 第1页 - 在线短信接收](https://www.storytrain.info/) 
+- <img src="https://favicon.qqsuu.cn/www.storytrain.info" alt="" style="height: 20px;"> [用户认证 - 云短信 - 短信接收](https://www.storytrain.info/) 
 ###### 反弹shell
 - <img src="https://favicon.qqsuu.cn/forum.ywhack.com" alt="" style="height: 20px;"> [[~]#棱角 ::Edge.Forum*](https://forum.ywhack.com/shell.php) 
 ###### 文件下载
@@ -787,8 +791,8 @@
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [tplmap v0.5](https://github.com/epinna/tplmap) Server-Side Template Injection and Code Injection Detection and Exploit...
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [ssti-payload](https://github.com/VikasVarshney/ssti-payload) SSTI Payload Generator
 ###### XSS
-- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [beef](https://github.com/beefproject/beef) The Browser Exploitation Framework Project
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [dalfox](https://github.com/hahwul/dalfox) 🌙🦊 Dalfox is a powerful open-source XSS scanner and utility focused on autom...
+- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [beef](https://github.com/beefproject/beef) The Browser Exploitation Framework Project
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [shuriken](https://github.com/shogunlab/shuriken) Cross-Site Scripting (XSS) command line tool for testing lists of XSS payl...
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [xssplatform](https://github.com/78778443/xssplatform) 一个经典的XSS渗透管理平台
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [Chromium-based-XSS-Taint-Tracking v0.3](https://github.com/v8blink/Chromium-based-XSS-Taint-Tracking) Cyclops 是一款具有 XSS 检测功能的浏览器
@@ -1012,8 +1016,8 @@
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [pentestEr_Fully-automatic-scanner](https://github.com/RASSec/pentestEr_Fully-automatic-scanner) 
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [Fuxi-Scanner](https://github.com/jeffzh3ng/Fuxi-Scanner) 
 ##### 口令爆破
-- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [john](https://github.com/openwall/john) John the Ripper jumbo - advanced offline password cracker, which supports hund...
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [blasting](https://github.com/gubeihc/blasting) 
+- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [john](https://github.com/openwall/john) John the Ripper jumbo - advanced offline password cracker, which supports hund...
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [crackq](https://github.com/f0cker/crackq) CrackQ: A Python Hashcat cracking queue system
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [IMAPLoginTester](https://github.com/rm1984/IMAPLoginTester) 
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [mass-bruter](https://github.com/opabravo/mass-bruter) Mass bruteforce authentication of network protocols
@@ -1169,7 +1173,7 @@
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [reverseip_py](https://github.com/yuyudhn/reverseip_py) Domain Parser for IPAddress.com Reverse IP Lookup
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [iplookup v1.1](https://github.com/Lengso/iplookup) IP反查域名
 - <img src="https://favicon.qqsuu.cn/s.tool.chinaz.com" alt="" style="height: 20px;"> [网站IP查询_IP反查域名_同IP网站查询 - 站长工具](http://s.tool.chinaz.com/same) 
-- <img src="https://favicon.qqsuu.cn/dns.aizhan.com" alt="" style="height: 20px;"> [40.71.163.66属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网](https://dns.aizhan.com/) 
+- <img src="https://favicon.qqsuu.cn/dns.aizhan.com" alt="" style="height: 20px;"> [4.227.115.4属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网](https://dns.aizhan.com/) 
 - <img src="https://favicon.qqsuu.cn/dnslytics.com" alt="" style="height: 20px;"> [Reverse IP - Find websites hosted on the same IP address, server or subnet](https://dnslytics.com/reverse-ip) 
 - <img src="https://favicon.qqsuu.cn/hackertarget.com" alt="" style="height: 20px;"> [Reverse IP Lookup, Find Hosts Sharing an IP | HackerTarget.com](https://hackertarget.com/reverse-ip-lookup/) 
 - <img src="https://favicon.qqsuu.cn/rapiddns.io" alt="" style="height: 20px;"> [Subdomain - RapidDNS Rapid DNS Information Collection](https://rapiddns.io/sameip) 
@@ -2064,6 +2068,7 @@
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [steganography](https://github.com/7thSamurai/steganography) Simple C++ Image Steganography tool to encrypt and hide files insde i...
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [stegpy](https://github.com/dhsdshdhk/stegpy) Simple steganography program based on the LSB method.
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [cloacked-pixel](https://github.com/livz/cloacked-pixel) LSB steganography and detection
+- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [cloacked-pixel-python3](https://github.com/Grazee/cloacked-pixel-python3) 
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [stegpy](https://github.com/izcoser/stegpy) Simple steganography program based on the LSB method.
 ###### png_宽高修复
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [Deformed-Image-Restorer V1.02](https://github.com/AabyssZG/Deformed-Image-Restorer) 自动爆破PNG图片宽高并一键修复工具
@@ -2238,6 +2243,8 @@
 #### 综合
 ##### 分析辅助
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [BlueTeamTools](https://github.com/abc123info/BlueTeamTools) 蓝队分析研判工具箱，功能包括内存马反编译分析、各种代码格式化、网空资产测绘功能、溯源辅助、解密冰蝎流量、解密哥斯拉流量、解密Shiro/C...
+- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [PotatoTool/](https://github.com/HotBoy-java/PotatoTool/) 
+- <img src="https://favicon.qqsuu.cn/potato.gold" alt="" style="height: 20px;"> [potato.gold](https://potato.gold/navbar/tool/webshellDecrypt/index.php) 
 #### 网络层面
 ##### IP信息
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [SelfIPAdressQuery](https://github.com/outmansec/SelfIPAdressQuery) 
@@ -2506,6 +2513,7 @@
 ## 验证码识别
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [StupidOCR](https://github.com/81NewArk/StupidOCR) 验证码识别
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [cnnyzm](https://github.com/hellokuls/cnnyzm) 
+- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [code_identify](https://github.com/qianxiao996/code_identify) 
 # 综合
 ## 环境
 ### http代理

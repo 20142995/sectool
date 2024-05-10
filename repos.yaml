@@ -239,6 +239,8 @@
                 - https://www.ifm.net.nz/cookbooks/passwordcracker.html
             emoji-aes:
                 - https://aghorler.github.io/emoji-aes/
+                - https://github.com/Mumuzi7179/emoji_aes_burst
+                - https://github.com/aghorler/emoji-aes
             hex转字符:
                 - https://the-x.cn/encodings/Hex.aspx
             logo编程:
@@ -249,7 +251,6 @@
                 - http://www.hiencode.com/ppencode.html
             quipqiup:
                 - https://quipqiup.com
-                - https://quipqiup.com/
             rsa私钥加密解密:
                 - http://tool.chacuo.net/cryptrsaprikey
             tupper:
@@ -264,6 +265,7 @@
             仿射密码:
                 - http://www.hiencode.com/affine.html
                 - https://www.boxentriq.com/code-breaking/affine-cipher
+                - https://www.wishingstarmoye.com/ctf/affinecipher
             公钥解析:
                 - http://www.hiencode.com/pub_asys.html
             关键字密码:
@@ -305,6 +307,7 @@
             恩尼格玛密码机密码加密解密:
                 - http://www.atoolbox.net/Tool.php?Id=993
             摩尔斯电码:
+                - http://www.hiencode.com/morse.html
                 - http://www.zhongguosou.com/zonghe/moErSiCodeConverter.aspx
                 - https://c5r.app/tools/morse-code
             敲击码:
@@ -365,11 +368,10 @@
                 - https://ctfever.uniiem.com/
                 - https://forum.ywhack.com/tools/CyberChef/
                 - https://tool.lu/
+                - https://www.wishingstarmoye.com/
             自动密钥密码加密解密:
                 - http://www.atoolbox.net/Tool.php?Id=920
                 - http://www.hiencode.com/autokey.html
-            莫尔斯电码:
-                - http://www.hiencode.com/morse.html
             进制转换:
                 - http://www.hiencode.com/jinzhi.html
             阴阳怪气编码解码:
@@ -397,7 +399,9 @@
                     - https://map.variflight.com
                     - https://zh.flightaware.com/live/flight/B7631/history/320
             综合:
+                - http://www.1o1o.xyz/bo_ctfcode.html
                 - https://github.com/Arinue/CTF-NetA
+                - https://github.com/Byxs20/PuzzleSolver
                 - https://github.com/Leon406/ToolsFx
                 - https://github.com/Moxin1044/qsnctf-python
                 - https://github.com/devttys0/binwalk
@@ -2061,6 +2065,7 @@
                 图片:
                     png_LSB隐写:
                         - https://github.com/7thSamurai/steganography
+                        - https://github.com/Grazee/cloacked-pixel-python3
                         - https://github.com/dhsdshdhk/stegpy
                         - https://github.com/izcoser/stegpy
                         - https://github.com/livz/cloacked-pixel
@@ -2236,7 +2241,9 @@
                     - https://habo.qq.com/
             综合:
                 分析辅助:
+                    - https://github.com/HotBoy-java/PotatoTool/
                     - https://github.com/abc123info/BlueTeamTools
+                    - https://potato.gold/navbar/tool/webshellDecrypt/index.php
             网络层面:
                 IP信息:
                     - https://github.com/Hackl0us/GeoIP2-CN
@@ -2505,6 +2512,7 @@
     验证码识别:
         - https://github.com/81NewArk/StupidOCR
         - https://github.com/hellokuls/cnnyzm
+        - https://github.com/qianxiao996/code_identify
 综合:
     环境:
         http代理:
