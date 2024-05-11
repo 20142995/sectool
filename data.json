@@ -209,9 +209,10 @@
         "release_message": ""
     },
     "https://github.com/Threekiii/Vulhub-Reproduce": {
+        "created_at": "2024-03-07 09:30:57",
+        "description": "一个Vulhub漏洞复现知识库",
         "commit_message": "本项目已存档",
         "commit_date": "2024-03-27 14:20:47",
-        "created_at": "2024-03-07 09:30:57",
         "release_date": "2024-03-27 14:21:31",
         "release_message": "本项目已存档"
     },
@@ -3148,12 +3149,12 @@
         "release_message": ""
     },
     "https://github.com/joke2k/faker": {
-        "created_at": "2024-04-12 14:54:19",
+        "created_at": "2024-05-08 21:22:35",
         "description": "Faker is a Python package that generates fake data for you.",
-        "commit_message": "Bump version: 24.8.0 → 24.9.0",
-        "commit_date": "2024-04-12 14:54:19",
-        "release_date": "2024-04-12 15:01:15",
-        "release_message": "See [CHANGELOG.md](https://github.com/joke2k/faker/blob/refs/tags/v24.9.0/CHANGELOG.md)."
+        "commit_message": "Bump version: 25.0.1 → 25.1.0",
+        "commit_date": "2024-05-08 21:22:35",
+        "release_date": "2024-05-08 21:27:25",
+        "release_message": "See [CHANGELOG.md](https://github.com/joke2k/faker/blob/refs/tags/v25.1.0/CHANGELOG.md)."
     },
     "https://github.com/NHPT/Xray_Cracked": {
         "created_at": "2022-08-10 13:51:19",
@@ -3456,12 +3457,8 @@
         "release_message": "- 2022-06-23\r\n    - KunLun-M 2.6.5\r\n    - 更新了社区化的部署方案，支持使用公开的Server端查看扫描结果，为后续延展提供基础\r\n    - 更新了潮汐平台链接，可以使用潮汐平台快速部署体验"
     },
     "https://github.com/projectdiscovery/naabu": {
-        "created_at": "2024-03-12 16:16:52",
-        "description": "A fast port scanner written in go with a focus on reliability and simplicity. Designed to be used in combination with other tools for attack surface discovery in bug bounties and pentests",
-        "commit_message": "Merge pull request #1021 from projectdiscovery/dependabot/go_modules/v2/github.com/quic-go/quic-go-0.42.0",
-        "commit_date": "2024-04-11 22:50:48",
-        "release_date": "2024-03-13 08:35:20",
-        "release_message": "<!-- Release notes generated using configuration in .github/release.yml at main -->\r\n\r\n## What's Changed\r\n### 🎉 New Features\r\n* Added support to display results at runtime by @Mzack9999 in https://github.com/projectdiscovery/naabu/pull/946\r\n* Added custom config file input support by @zmf963 in https://github.com/projectdiscovery/naabu/pull/978\r\n```console\r\n   -config string                   path to the naabu configuration file (default $HOME/.config/naabu/config.yaml)\r\n```\r\n\r\n### 🐞 Bugs Fixes\r\n* Made pcap handlers shared globally by @Mzack9999 in https://github.com/projectdiscovery/naabu/pull/946\r\n* Cleanup interface handlers by @Mzack9999 in https://github.com/projectdiscovery/naabu/pull/935\r\n### Other Changes\r\n* Fixed openbsd undefined func err by @dogancanbakir in https://github.com/projectdiscovery/naabu/pull/977\r\n\r\n## New Contributors\r\n* @zmf963 made their first contribution in https://github.com/projectdiscovery/naabu/pull/978\r\n\r\n**Full Changelog**: https://github.com/projectdiscovery/naabu/compare/v2.2.1...v2.3.0"
+        "created_at": "2020-01-21 10:56:32",
+        "description": "A fast port scanner written in go with a focus on reliability and simplicity. Designed to be used in combination with other tools for attack surface discovery in bug bounties and pentests"
     },
     "https://github.com/Threekiii/Awesome-Exploit": {
         "created_at": "2022-04-22 02:08:08",
@@ -3912,8 +3909,8 @@
     "https://github.com/aquasecurity/trivy": {
         "created_at": "2024-05-04 05:34:54",
         "description": "Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more",
-        "commit_message": "refactor: re-define module structs for serialization (#6655)\n\nSigned-off-by: knqyf263 <knqyf263@gmail.com>",
-        "commit_date": "2024-05-08 07:35:18",
+        "commit_message": "fix(misconf): skip Rego errors with a nil location (#6666)",
+        "commit_date": "2024-05-11 00:01:40",
         "release_date": "2024-05-04 07:24:01",
         "release_message": "## Changelog\n* 8016b821a fix(fs): handle default skip dirs properly (#6628)\n* 7a25dadb4 fix(misconf): load cached tf modules (#6607)\n* 9c794c0ff fix(misconf): do not use semver for parsing tf module versions (#6614)\n\n"
     },
@@ -5059,12 +5056,12 @@
         "release_message": ""
     },
     "https://github.com/FreeRDP/FreeRDP": {
-        "created_at": "2024-04-22 09:27:05",
+        "created_at": "2024-04-22 09:18:53",
         "description": "FreeRDP is a free remote desktop protocol library and clients",
-        "commit_message": "[core,capabilities] abort on invalid protocolVersion\n\n* TS_GENERAL_CAPABILITYSET::protocolVersion must be\n  TS_CAPS_PROTOCOLVERSION(0x200) see [MS-RDPBCGR] 2.2.7.1.1\n  General Capability Set (TS_GENERAL_CAPABILITYSET)\n* Default value of FreeRDP_CapsProtocolVersion must be\n  TS_CAPS_PROTOCOLVERSION(0x200)",
-        "commit_date": "2024-04-23 15:13:13",
-        "release_date": "2024-04-22 09:30:00",
-        "release_message": "Noteworthy changes:\r\n * Backported oss-fuzz fixes"
+        "commit_message": "[warnings] fix Wshadow warnings",
+        "commit_date": "2024-05-08 13:30:01",
+        "release_date": "2024-04-22 09:26:39",
+        "release_message": "This release eliminates a bunch of issues detected during oss-fuzz runs.\r\nThe test coverage was increased and detected issues eliminates, so an update\r\nis highly recommended.\r\n\r\nNoteworthy changes:\r\n* Lots of fixes for oss-fuzz reports\r\n* Timezone detection fixes (#10106)\r\n* SDL key remapping support (#10103)\r\n* Improved help (#10099)\r\n* FreeBSD epoll detection fix (#10097)"
     },
     "https://github.com/iSafeBlue/fastjson-autotype-bypass-dem": {
         "created_at": "",
@@ -7725,12 +7722,12 @@
         "release_message": ""
     },
     "https://github.com/yaklang/yakit": {
-        "created_at": "2024-04-26 08:40:43",
+        "created_at": "2024-05-10 08:31:10",
         "description": "Cyber Security ALL-IN-ONE Platform",
-        "commit_message": "fix: 重复渲染问题 (#1637)",
-        "commit_date": "2024-05-09 06:56:34",
-        "release_date": "2024-04-26 09:00:07",
-        "release_message": "Yakit v1.3.2-sp2\r\n1. WebFuzzer批量发包前端显示增加2w限制，避免oom造成白屏\r\n2. MITM热加载增加保存按钮\r\n3. 全局配置支持配置免配置启动路径\r\n4. 美化和渲染增加缓存记录\r\n5. 引擎连接页面增加打开引擎所在文件，方便命令行启动引擎查看问题\r\n6. Yakit增加版本绑定，避免引擎版本过低时功能无法使用"
+        "commit_message": "v1.3.2-sp3",
+        "commit_date": "2024-05-10 08:31:10",
+        "release_date": "2024-05-10 08:50:39",
+        "release_message": ""
     },
     "https://github.com/bartblaze/Yara-rules": {
         "created_at": "2020-03-26 20:20:29",
@@ -12891,8 +12888,8 @@
     "https://github.com/volatilityfoundation/volatility3": {
         "created_at": "2024-01-31 21:21:20",
         "description": "Volatility 3.0 development",
-        "commit_message": "Linux: Improve debugging of pslist dump feature",
-        "commit_date": "2024-04-07 18:34:17",
+        "commit_message": "Merge pull request #1145 from volatilityfoundation/handles_bad_read_check\n\nCorrectly check for a failed read",
+        "commit_date": "2024-05-09 21:37:15",
         "release_date": "2024-01-31 21:35:24",
         "release_message": "* New Layers:\r\n  * Amazon S3 support\r\n  * Google Cloud Storage support\r\n* New plugins:\r\n  * `linux.vmayarascan`\r\n  * `windows.mftscan.ads`\r\n* New features:\r\n  * Dumping of Elf files added to the `elfs` plugin\r\n* Improvements to ELF support\r\n* Bugfixes to registry support\r\n* Documentation improvements\r\n* Better support for remote ISF directories"
     },
@@ -23205,7 +23202,7 @@
         "created_at": "2023-07-25 06:13:25",
         "description": "主要记录网络安全学习笔记，包含WEB基础、提权、APP渗透、内网横向移动、工具学习等",
         "commit_message": "Update README.md",
-        "commit_date": "2024-04-11 09:54:57"
+        "commit_date": "2024-04-29 14:41:16"
     },
     "https://github.com/gyxuehu/EwoMail": {
         "created_at": "2017-03-23 16:09:51",
@@ -25594,12 +25591,12 @@
         "commit_date": "2015-07-21 14:00:10"
     },
     "https://github.com/zaproxy/zaproxy": {
-        "created_at": "2023-10-12 16:02:55",
+        "created_at": "2024-05-07 17:05:30",
         "description": "The ZAP core project",
-        "commit_message": "Merge pull request #8454 from psiinon/alerts/ev-pluginid\n\nInclude pluginId in alert events",
-        "commit_date": "2024-04-19 15:50:52",
-        "release_date": "2023-10-12 16:40:31",
-        "release_message": "Release notes: https://www.zaproxy.org/docs/desktop/releases/2.14.0/\r\n\r\n---\r\n| File | Checksum (SHA-256) |\r\n|---|---|\r\n| [ZAP_2.14.0.dmg](https://github.com/zaproxy/zaproxy/releases/download/v2.14.0/ZAP_2.14.0.dmg) | `3b9862a647b1c5c26d6917f2316113dfaceac06bdb79ad3f2c96e0cbd73861f7` |\r\n| [ZAP_2.14.0_aarch64.dmg](https://github.com/zaproxy/zaproxy/releases/download/v2.14.0/ZAP_2.14.0_aarch64.dmg) | `fb3369338252e22470bb38d120233bd9857119806f9f8be681f985e6a5174847` |\r\n| [ZAP_2.14.0_Core.zip](https://github.com/zaproxy/zaproxy/releases/download/v2.14.0/ZAP_2.14.0_Core.zip) | `26006030acd67613d5ed8a9cc57ab36b11777ef8085f8aa5edcada64fb656735` |\r\n| [ZAP_2.14.0_Crossplatform.zip](https://github.com/zaproxy/zaproxy/releases/download/v2.14.0/ZAP_2.14.0_Crossplatform.zip) | `8bc475c2f1976446e2ec37b9bacaeed0a1281185988e689a24187b9c60aa57dd` |\r\n| [ZAP_2.14.0_Linux.tar.gz](https://github.com/zaproxy/zaproxy/releases/download/v2.14.0/ZAP_2.14.0_Linux.tar.gz) | `219d7f25bbe25247713805ab02cc12279898c870743c1aae3c2b0b1882191960` |\r\n| [ZAP_2_14_0_unix.sh](https://github.com/zaproxy/zaproxy/releases/download/v2.14.0/ZAP_2_14_0_unix.sh) | `fb33573bc9ffb4598fe541287d4755062fee2eea26ec5d11102f7671d083c37f` |\r\n| [ZAP_2_14_0_windows-x32.exe](https://github.com/zaproxy/zaproxy/releases/download/v2.14.0/ZAP_2_14_0_windows-x32.exe) | `5dae52e27da12fba5115e40ebc0cd2da24f6d9ba91608a7b0b7b254984a0b798` |\r\n| [ZAP_2_14_0_windows.exe](https://github.com/zaproxy/zaproxy/releases/download/v2.14.0/ZAP_2_14_0_windows.exe) | `df49ffbd14cf82cde5ac06902615e40cbfce1576f866436366708c0845eb9ec6` |\r\n| [bom.json](https://github.com/zaproxy/zaproxy/releases/download/v2.14.0/bom.json) | `f4085a07a1164a0c6b8169a1ad28f3a46a13c6a5ffac06ce82ef9ebdc321c949` |\r\n"
+        "commit_message": "Merge pull request #8481 from thc202/update-actions\n\nUpdate actions in GitHub workflows",
+        "commit_date": "2024-05-09 09:36:15",
+        "release_date": "2024-05-07 17:39:14",
+        "release_message": "Release notes: https://www.zaproxy.org/docs/desktop/releases/2.15.0/\r\n\r\n---\r\n| File | Checksum (SHA-256) |\r\n|---|---|\r\n| [ZAP_2.15.0.dmg](https://github.com/zaproxy/zaproxy/releases/download/v2.15.0/ZAP_2.15.0.dmg) | `ae025403e46cdefff013cd0c3b88d8edc5a183a76daa63cb62c7c629005337a5` |\r\n| [ZAP_2.15.0_aarch64.dmg](https://github.com/zaproxy/zaproxy/releases/download/v2.15.0/ZAP_2.15.0_aarch64.dmg) | `4426253f4702bbd5fb4779bcf4d62490b2c10ec851c4ebc94ced8f156d2e5509` |\r\n| [ZAP_2.15.0_Core.zip](https://github.com/zaproxy/zaproxy/releases/download/v2.15.0/ZAP_2.15.0_Core.zip) | `e3cf30ad526e4f3fb8a228e1d5e02da0389b2ec7436b989bb28f959703380bf5` |\r\n| [ZAP_2.15.0_Crossplatform.zip](https://github.com/zaproxy/zaproxy/releases/download/v2.15.0/ZAP_2.15.0_Crossplatform.zip) | `05d3932a1affb0ab7987664677134709982ca3837a0b0f0e16f9aeb391933341` |\r\n| [ZAP_2.15.0_Linux.tar.gz](https://github.com/zaproxy/zaproxy/releases/download/v2.15.0/ZAP_2.15.0_Linux.tar.gz) | `6410e196baab458a9204e29aafb5745fca003a2a6c0386f2c6e5c04b67621fa7` |\r\n| [ZAP_2_15_0_unix.sh](https://github.com/zaproxy/zaproxy/releases/download/v2.15.0/ZAP_2_15_0_unix.sh) | `3d976a197b7f71c52c8b8b2e9f06b988384845fb854b637ebb8be0e4cb38112f` |\r\n| [ZAP_2_15_0_windows-x32.exe](https://github.com/zaproxy/zaproxy/releases/download/v2.15.0/ZAP_2_15_0_windows-x32.exe) | `114953f29647a5e4e5774b338f2271d6149711e9222e0b92b11be3a35b812478` |\r\n| [ZAP_2_15_0_windows.exe](https://github.com/zaproxy/zaproxy/releases/download/v2.15.0/ZAP_2_15_0_windows.exe) | `28b348dd65116ddabbbbd98b7f84864a0bb0f98d656266f2f08bfd010ae51c57` |\r\n| [bom.json](https://github.com/zaproxy/zaproxy/releases/download/v2.15.0/bom.json) | `04f3e148aaa406cd7f31f2be8d3ef282e16e852233da85de13aacb3a173f4740` |\r\n"
     },
     "https://github.com/emanuil/php-reaper": {
         "created_at": "2016-08-09 13:04:21",
@@ -25694,8 +25691,8 @@
     "https://github.com/Anduin2017/HowToCook": {
         "created_at": "2022-07-12 17:14:59",
         "description": "程序员在家做饭方法指南。Programmer's guide about how to cook at home (Simplified Chinese only).",
-        "commit_message": "Avoid google font file.",
-        "commit_date": "2024-03-12 18:59:03",
+        "commit_message": "[ci skip] Automatic file changes/fix",
+        "commit_date": "2024-05-10 03:44:59",
         "release_date": "2022-07-14 10:35:06",
         "release_message": ""
     },
@@ -26276,7 +26273,7 @@
     },
     "https://github.com/Y1-K1NG/poc_exp": {
         "created_at": "2023-12-18 06:32:40",
-        "description": "持续更新poc/exp,后续会加入yaml,敬请关注",
+        "description": "暂停更新·······正在谋划······",
         "commit_message": "20240420",
         "commit_date": "2024-04-20 13:02:34"
     },
@@ -27060,7 +27057,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "4.227.115.4属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "172.183.138.53属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
@@ -27244,7 +27241,7 @@
     },
     "https://www.storytrain.info/": {
         "status_code": 200,
-        "description": "用户认证 - 云短信 - 短信接收"
+        "description": "短信接收 - 云短信 - 第1页 - 在线短信接收"
     },
     "https://sms-activate.org/": {
         "status_code": 403,
@@ -27387,8 +27384,8 @@
     "https://github.com/sullo/nikto": {
         "created_at": "2023-12-03 16:16:14",
         "description": "Nikto web server scanner",
-        "commit_message": "Merge pull request #819 from moxli/add-multiple-google-headers\n\nDon't report multiple Google Cloud headers.",
-        "commit_date": "2024-03-01 13:03:20",
+        "commit_message": "Merge pull request #827 from Proto1337/master\n\nBump Alpine version in Dockerfile",
+        "commit_date": "2024-05-08 00:15:22",
         "release_date": "2023-12-03 19:00:51",
         "release_message": "Nikto 2.5.0 has now been promoted to release and the master branch!\r\n\r\n**Note: [Breaking changes](https://github.com/sullo/nikto/wiki/2.5.0-Potentially-Breaking-Changes) to JSON and XML output may have occurred. If you rely on these formats please test before upgrading.**\r\n\r\nThis version contains hundreds of updates over several years, including the highlights below. \r\n- IPv6 support (thanks to @richardleach)\r\n- Updated `db_checks` format uses multiple reference\r\n- Hundreds of OSVDB and BID references replaced\r\n- Removal of some very old and false-positive prone tests\r\n- Decode Netscaler cookies (thanks to @canberkpolat)\r\n- Add `-usecookies` flag to send received cookies with subsequent requests\r\n- Add `-followredirects` flag to signal 3xx responses should be fetched and tested\r\n- Add `-noslash` to remove trailing slash from directories\r\n- Check for indexing on redirect paths\r\n- Alert on `alt-svc` header\r\n- Hundreds of bug fixes, test updates and enhancements, and other optimization changes\r\n\r\nYou can start using Nikto 2.5.0 by performing a `git pull` from the master branch, cloning the repository again, or [downloading the zip file](https://github.com/sullo/nikto/archive/refs/heads/master.zip).\r\n\r\nAs always, if you encounter bugs or problems, please [open an issue](https://github.com/sullo/nikto/issues/new/choose).\r\n\r\n![image](https://github.com/sullo/nikto/assets/1474884/796062af-7cb1-404c-9c0c-720d110d62c7 )\r\n"
     },
@@ -27575,12 +27572,12 @@
         "release_message": "Added a lot of yummy ports! Fixed some minor bug - information about IP count was wrong by 2 hosts."
     },
     "https://github.com/Arinue/CTF-NetA": {
-        "created_at": "2024-05-06 09:55:11",
+        "created_at": "2024-05-09 02:41:44",
         "description": "CTF-NetA是一款专门针对CTF比赛的网络流量分析工具，可以对常见的网络流量进行分析，快速自动获取flag。",
         "commit_message": "Update README.md",
-        "commit_date": "2024-05-06 09:55:11",
-        "release_date": "2024-05-06 09:56:32",
-        "release_message": "v1.2.4 20240506\r\n1.支持一键统计http所有uri。功能在【统计】【统计 HTTP URI】\r\n2.修复TCP_DATA识别中的BUG\r\n3.修复自动识别保存文件的BUG\r\n4.优化ftp流量分析，加强数据识别能力"
+        "commit_date": "2024-05-09 02:41:44",
+        "release_date": "2024-05-10 07:02:45",
+        "release_message": "v1.2.6 20240510\r\n1.添加http协议中传输hex编码后的文件内容检测，并自动保存\r\n2.加入上个版本打包缺失的profile.yaml文件\r\n3.取消启动时自动检测更新\r\n"
     },
     "https://jiji.pro/yygq.js/": {
         "status_code": 200,
@@ -27619,5 +27616,21 @@
         "description": ":zero: A lib for zero width chars",
         "commit_message": "chore: version bump",
         "commit_date": "2019-07-12 11:02:22"
+    },
+    "https://www.wishingstarmoye.com/ctf/affinecipher": {
+        "status_code": 200,
+        "description": "Affine cipher  - 许愿星"
+    },
+    "https://potato.gold/navbar/tool/webshellDecrypt/index.php": {
+        "status_code": 200,
+        "description": "Webshell 流量在线解密"
+    },
+    "http://www.1o1o.xyz/bo_ctfcode.html": {
+        "status_code": 200,
+        "description": "沨"
+    },
+    "https://www.wishingstarmoye.com/": {
+        "status_code": 200,
+        "description": "许愿星"
     }
 }
