@@ -29,7 +29,7 @@
                 - https://www.bejson.com/convert/ox2str/
                 - https://www.rapidtables.org/zh-CN/convert/number/hex-to-ascii.html
                 - https://www.sojson.com/hexadecimal.html
-            3DES加密解密:
+            3DES加解密:
                 - http://tool.chacuo.net/crypt3des
             A1z26密码:
                 - http://www.hiencode.com/a1z26.html
@@ -37,82 +37,82 @@
                 - http://utf-8.jp/public/aaencode.html
                 - http://www.atoolbox.net/Tool.php?Id=703
                 - http://www.hiencode.com/aaencode.html
-            ADFGX密码加密解密:
+            ADFGX密码加解密:
                 - http://www.atoolbox.net/Tool.php?Id=918
                 - http://www.hiencode.com/adfgvx.html
                 - http://www.hiencode.com/adfgx.html
                 - http://www.practicalcryptography.com/ciphers/adfgx-cipher/
                 - https://ctf.bugku.com/tool/adfgx
-            AES加密解密:
+            AES加解密:
                 - http://tool.chacuo.net/cryptaes
                 - http://www.hiencode.com/caes.html
-            ASCII编码解码:
+            ASCII编解码:
                 - http://www.hiencode.com/cencode.html
-            Base100编码解码:
+            Base100编解码:
                 - http://www.atoolbox.net/Tool.php?Id=936
                 - https://ctf.bugku.com/tool/base100
-            Base16编码解码:
+            Base16编解码:
                 - http://www.atoolbox.net/Tool.php?Id=930
                 - https://ctf.bugku.com/tool/base16
-            Base32编码解码:
+            Base32编解码:
                 - http://www.atoolbox.net/Tool.php?Id=931
                 - https://ctf.bugku.com/tool/base32
-            Base58编码解码:
+            Base58编解码:
                 - http://www.atoolbox.net/Tool.php?Id=932
                 - http://www.hiencode.com/base58w.html
                 - https://ctf.bugku.com/tool/base58
-            Base62编码解码:
+            Base62编解码:
                 - http://www.atoolbox.net/Tool.php?Id=933
                 - http://www.hiencode.com/base62.html
                 - https://ctf.bugku.com/tool/base62
-            Base64编码解码:
+            Base64编解码:
                 - https://ctf.bugku.com/tool/base64
-            Base85编码解码:
+            Base85编解码:
                 - http://www.atoolbox.net/Tool.php?Id=934
                 - http://www.hiencode.com/base85.html
                 - https://ctf.bugku.com/tool/base85
-            Base91编码解码:
+            Base91编解码:
                 - http://www.atoolbox.net/Tool.php?Id=935
                 - http://www.hiencode.com/base91.html
                 - https://ctf.bugku.com/tool/base91
-            Base92编码解码:
+            Base92编解码:
                 - http://www.hiencode.com/base92.html
                 - https://ctf.bugku.com/tool/base92
-            Base编码解码:
+            Base编解码:
                 - http://www.hiencode.com/base64.html
-            Blowfish加密解密:
+            Blowfish加解密:
                 - http://tool.chacuo.net/cryptblowfish
-            Brainfuck:
-                - https://c5r.app/tools/brain-fuck
             Brainfuck_Ook!:
                 - http://www.hiencode.com/brain.html
+                - https://c5r.app/tools/brain-fuck
                 - https://ctf.bugku.com/tool/brainfuck
+                - https://ctfever.uniiem.com/tools/brain-fuck
                 - https://tool.bugku.com/brainfuck
                 - https://www.cachesleuth.com/bfook.html
                 - https://www.splitbrain.org/services/ook
             BubbleBabble:
                 - http://www.hiencode.com/bubble.html
-            Cast加密解密:
+            Cast加解密:
                 - http://tool.chacuo.net/cryptcast
-            CryptoJS AES加密解密:
+            CryptoJS AES加解密:
                 - http://www.66zan.cn/aesencrypt/
                 - https://www.sojson.com/encrypt_aes.html
-            CryptoJS DES加密解密:
+            CryptoJS DES加解密:
                 - http://www.66zan.cn/desencrypt/
                 - https://www.sojson.com/encrypt_des.html
-            CryptoJS RC4加密解密:
+            CryptoJS RC4加解密:
                 - http://www.66zan.cn/rc4encrypt/
                 - https://www.sojson.com/encrypt_rc4.html
-            CryptoJS Rabbit加密解密:
+            CryptoJS Rabbit加解密:
                 - http://www.66zan.cn/rabbitencrypt/
                 - https://www.sojson.com/encrypt_rabbit.html
-            CryptoJS TripleDes加密解密:
+            CryptoJS TripleDes加解密:
                 - http://www.66zan.cn/tripledes/
                 - https://ctf.bugku.com/tool/tripledes
                 - https://www.sojson.com/encrypt_triple_des.html
-            CryptoJS 加密解密:
+            CryptoJS 加解密:
                 - https://www.sojson.com/encrypt.html
-            DES加密解密:
+            DES加解密:
                 - http://www.hiencode.com/cdes.html
             DNA基因序列编码:
                 - https://skaminsky115.github.io/nac/DNA-mRNA-Protein_Converter.html
@@ -120,7 +120,7 @@
                 - http://web.chacuo.net/netdsakeypair
             Escape编码:
                 - http://www.hiencode.com/escape.html
-            Gost加密解密:
+            Gost加解密:
                 - http://tool.chacuo.net/cryptgost
             Gronsfeld密码:
                 - http://www.hiencode.com/gronsfeld.html
@@ -141,13 +141,13 @@
                 - http://www.hiencode.com/jsfuck.html
                 - http://www.liminba.com/tool/jsfuckdecode/
                 - https://c5r.app/tools/jsfuck
+                - https://ctfever.uniiem.com/tools/jsfuck
                 - https://www.bugku.com/tools/jsfuck/
-            MD5:
-                - https://www.cmd5.com/
             MD5解密:
                 - https://cmd5.la/
                 - https://pmd5.com/
                 - https://www.chamd5.org/
+                - https://www.cmd5.com/
                 - https://www.somd5.com/
             Mimetypes:
                 - http://www.hiencode.com/mimetypes.html
@@ -161,16 +161,16 @@
                 - http://web.chacuo.net/charsetquotedprintable/
             Quoted编码:
                 - http://www.hiencode.com/quoted.html
-            RC2加密解密:
+            RC2加解密:
                 - http://tool.chacuo.net/cryptrc2
-            RC4加密解密:
+            RC4加解密:
                 - http://tool.chacuo.net/cryptrc4
                 - http://www.hiencode.com/rc4.html
-            RC5加密解密:
+            RC5加解密:
                 - http://tool.chacuo.net/cryptrc5
-            RC6加密解密:
+            RC6加解密:
                 - http://tool.chacuo.net/cryptrc6
-            ROT编码解码:
+            ROT编解码:
                 - https://www.qqxiuzi.cn/bianma/rot5-13-18-47.php
             RSA大数分解:
                 - http://www.factordb.com/index.php
@@ -187,25 +187,25 @@
                 - https://github.com/Mr-Aur0ra/RSA
                 - https://github.com/RsaCtfTool/RsaCtfTool
                 - https://github.com/pablocelayes/rsa-wiener-attack
-            Rijndael加密解密:
+            Rijndael加解密:
                 - http://tool.chacuo.net/cryptrijndael
-            Rot13加密解密:
+            Rot13加解密:
                 - http://www.hiencode.com/rot13.html
+                - https://ctfever.uniiem.com/tools/rot-series
             Rsa公私钥解析:
                 - http://tool.chacuo.net/cryptrsakeyparse
-            Serpent加密解密:
-                - http://tool.chacuo.net/cryptserpent
-            Serpent（蛇）:
+            Serpent（蛇）加解密:
                 - http://serpent.online-domain-tools.com/
+                - http://tool.chacuo.net/cryptserpent
             Sojson.v4解密:
                 - https://ctf.bugku.com/tool/sojson4
             Sojson.v5（jsjiami.com.v5）解密:
                 - https://ctf.bugku.com/tool/sojson5
             Terple DES加密:
                 - http://www.hiencode.com/tdes.html
-            Twofish加密解密:
+            Twofish加解密:
                 - http://tool.chacuo.net/crypttwofish
-            Type7密码加密解密:
+            Type7密码加解密:
                 - http://www.atoolbox.net/Tool.php?Id=992
             URL编码:
                 - http://www.hiencode.com/url.html
@@ -214,22 +214,20 @@
             UUencode:
                 - http://web.chacuo.net/charsetuuencode
                 - http://www.hiencode.com/uu.html
-            UUencode加密解密:
+            UUencode加解密:
                 - https://ctf.bugku.com/tool/uuencode
             WebSocket测试:
                 - http://www.hiencode.com/web_socket.html
-            XTEA加密解密:
-                - http://www.atoolbox.net/Tool.php?Id=1089
-            XXTEA加密解密:
+            XXTEA加解密:
                 - http://www.atoolbox.net/Tool.php?Id=1090
             XXencode:
                 - http://web.chacuo.net/charsetxxencode
                 - http://www.hiencode.com/xxencode.html
-            XXencode加密解密:
                 - https://ctf.bugku.com/tool/xxencode
-            Xtea加密解密:
+            Xtea加解密:
                 - http://tool.chacuo.net/cryptxtea
-            base36编码解码:
+                - http://www.atoolbox.net/Tool.php?Id=1089
+            base36编解码:
                 - http://www.hiencode.com/base36w.html
             brainfuck颜文字:
                 - https://esolangs.org/wiki/(_%CD%A1%C2%B0_%CD%9C%CA%96_%CD%A1%C2%B0)fuck
@@ -251,11 +249,11 @@
                 - http://www.hiencode.com/ppencode.html
             quipqiup:
                 - https://quipqiup.com
-            rsa私钥加密解密:
+            rsa私钥加解密:
                 - http://tool.chacuo.net/cryptrsaprikey
             tupper:
                 - https://tuppers-formula.ovh/
-            与佛论禅加密解密:
+            与佛论禅加解密:
                 - http://hi.pcmoe.net/buddha.html
                 - http://www.atoolbox.net/Tool.php?Id=1027
                 - http://www.keyfc.net/bbs/tools/tudoucode.aspx
@@ -270,7 +268,7 @@
                 - http://www.hiencode.com/pub_asys.html
             关键字密码:
                 - http://www.hiencode.com/keyword.html
-            凯撒(Caesar)加密解密:
+            凯撒密码(Caesar):
                 - http://moersima.00cha.net/kaisamima.asp
                 - http://www.hiencode.com/caesar.html
                 - https://ctf.bugku.com/tool/caesar
@@ -282,10 +280,7 @@
                 - http://www.hiencode.com/beaufort.html
             双密码:
                 - http://www.hiencode.com/bifid.html
-            古典密码:
-                autokey:
-                    - https://github.com/hotzzzzy/breakautokey
-            同音替代密码加密解密:
+            同音替代密码:
                 - http://www.atoolbox.net/Tool.php?Id=919
             哈希解密:
                 - https://www.cmd5.com
@@ -302,14 +297,15 @@
                 - http://www.hiencode.com/atbash.html
             培根密码:
                 - http://www.hiencode.com/baconian.html
-            希尔加密解密:
+            希尔加解密:
                 - https://ctf.bugku.com/tool/hill
-            恩尼格玛密码机密码加密解密:
+            恩尼格玛密码机密码:
                 - http://www.atoolbox.net/Tool.php?Id=993
             摩尔斯电码:
                 - http://www.hiencode.com/morse.html
                 - http://www.zhongguosou.com/zonghe/moErSiCodeConverter.aspx
                 - https://c5r.app/tools/morse-code
+                - https://ctfever.uniiem.com/tools/morse-code
             敲击码:
                 - http://ctf.ssleye.com/tapcode.html
                 - http://www.hiencode.com/tapcode.html
@@ -319,9 +315,10 @@
                 - https://github.com/guofei9987/text_blind_watermark
             普莱菲尔密码:
                 - http://www.hiencode.com/playfair.html
-            栅栏(RailFence)加密解密:
+            栅栏密码(RailFence):
                 - http://www.hiencode.com/railfence.html
                 - https://ctf.bugku.com/tool/railfence
+                - https://ctfever.uniiem.com/tools/rail-fence-cipher
                 - https://www.qqxiuzi.cn/bianma/zhalanmima.php
             校验RSA密钥对:
                 - http://tool.chacuo.net/cryptrsakeyvalid
@@ -329,36 +326,38 @@
                 - http://tool.chacuo.net/cryptrsamodulus2pkey
             滚动密钥密码:
                 - http://www.hiencode.com/runkey.html
-            猪圈密码:
+            猪圈密码(共济会密码):
                 - http://ctf.ssleye.com/pigpen.html
                 - http://www.hiencode.com/pigpen.html
+                - https://ctfever.uniiem.com/tools/pigpen
             现代密码:
                 GM:
                     - https://github.com/JuneAndGreen/sm-crypto
                     - https://github.com/ZZMarquis/gmhelper
             电报码:
                 - https://www.qqxiuzi.cn/bianma/dianbao.php
-            百家姓加密解密:
+            百家姓加解密:
                 - http://www.atoolbox.net/Tool.php?Id=1050
-            百家姓暗号:
                 - https://api.dujin.org/baijiaxing/
             社会主义核心价值观编码:
                 - http://www.hiencode.com/cvencode.html
                 - https://c5r.app/tools/core-values-cipher
                 - https://ctf.bugku.com/tool/cvecode
+                - https://ctfever.uniiem.com/tools/core-values-cipher
             私钥中提取公钥:
                 - http://tool.chacuo.net/cryptgetpubkey
             程序代码空白隐藏:
                 - https://ideone.com/
             简单换位密码:
                 - http://www.hiencode.com/simple.html
-            维吉尼亚加密解密:
+            维吉尼亚密码(vigenere):
                 - http://www.hiencode.com/vigenere.html
                 - https://ctf.bugku.com/tool/vigenere
+                - https://ctfever.uniiem.com/tools/vigenereCipher
                 - https://www.guballa.de/vigenere-solver
                 - https://www.mygeocachingprofile.com/codebreaker.vigenerecipher.aspx
                 - https://www.qqxiuzi.cn/bianma/weijiniyamima.php
-            编码解码综合网站:
+            编解码综合网站:
                 - http://fbcs.bplaced.net/multi_encoder_decoder.html
                 - http://tools.sbbbb.cn/CyberChef/
                 - http://www.atoolbox.net/Category.php?Id=27
@@ -369,12 +368,13 @@
                 - https://forum.ywhack.com/tools/CyberChef/
                 - https://tool.lu/
                 - https://www.wishingstarmoye.com/
-            自动密钥密码加密解密:
+            自动密钥密码(autokey):
                 - http://www.atoolbox.net/Tool.php?Id=920
                 - http://www.hiencode.com/autokey.html
+                - https://github.com/hotzzzzy/breakautokey
             进制转换:
                 - http://www.hiencode.com/jinzhi.html
-            阴阳怪气编码解码:
+            阴阳怪气编解码:
                 - https://jiji.pro/yygq.js/
             随机密码和密钥生成器:
                 - http://www.atoolbox.net/Tool.php?Id=921
@@ -392,6 +392,9 @@
         Misc:
             16进制编辑:
                 - https://github.com/WerWolv/ImHex
+            二维码:
+                - https://github.com/Merricx/qrazybox
+                - https://merri.cx/qrazybox/
             二维码批量识别:
                 - https://github.com/zfb132/QrScan
             情报收集:
@@ -406,13 +409,15 @@
                 - https://github.com/Moxin1044/qsnctf-python
                 - https://github.com/devttys0/binwalk
                 - https://github.com/qianxiao996/CTF-Tools
-            编码解码:
+            编解码:
                 - https://github.com/0Chencc/CTFCrackTools
                 - https://github.com/Ciphey/Ciphey
                 - https://github.com/gchq/CyberChef
                 - https://github.com/ht0Ruial/TomatoTools
             自动拼图:
                 - https://github.com/JamesHoi/PuzzleSolver
+            隐写:
+                - https://achorein.github.io/silenteye/
         Pwn:
             - ''
         Reverse:
@@ -426,6 +431,7 @@
                     - https://tool.yuanrenxue.cn/decode_obfuscator
             pyc逆向:
                 - https://c5r.app/tools/pyc-decompiler
+                - https://ctfever.uniiem.com/tools/pyc-decompiler
                 - https://github.com/AngelKitty/stegosaurus
                 - https://github.com/extremecoders-re/pyinstxtractor
                 - https://github.com/rocky/python-uncompyle6
@@ -452,6 +458,7 @@
             - https://github.com/ffffffff0x/BerylEnigma
             - https://github.com/kitezzzGrim/CTF-Note
             - https://github.com/sajjadium/ctf-archives
+            - https://hello-ctf.com/
     红队:
         Web安全:
             漏洞利用库:
@@ -1960,6 +1967,7 @@
                     - https://github.com/Mumuzi7179/UsbKeyboard_Mouse_Hacker_Gui
                     - https://github.com/P001water/UsbKbCracker
                     - https://github.com/WangYihang/UsbKeyboardDataHacker
+                    - https://github.com/y1shiny1shin/USBFlow_Soer
                 鼠标流量:
                     - https://github.com/WangYihang/USB-Mouse-Pcap-Visualizer
                     - https://github.com/WangYihang/UsbMiceDataHacker
@@ -2061,6 +2069,7 @@
                         - https://github.com/AabyssZG/CRC32-Tools
                     ZIP伪加密:
                         - https://c5r.app/tools/pseudo-encrypted-zip-check
+                        - https://ctfever.uniiem.com/tools/pseudo-encrypted-zip-check
                         - https://github.com/442048209as/ZipCenOp
                 图片:
                     png_LSB隐写:
@@ -2109,6 +2118,43 @@
             Web应用防火墙:
                 - https://github.com/chaitin/safeline
                 - https://github.com/starjun/openstar
+            web靶场:
+                - https://dvwa.co.uk/
+                - https://github.com/0verSp4ce/DoraBox
+                - https://github.com/710leo/ZVulDrill
+                - https://github.com/Audi-1/sqli-labs
+                - https://github.com/HXSecurity/TerraformGoat
+                - https://github.com/Hackademic/hackademic
+                - https://github.com/LandGrey/SpringBootVulExploit
+                - https://github.com/Medicean/VulApps
+                - https://github.com/RandomStorm/DVWA
+                - https://github.com/SpiderLabs/MCIR
+                - https://github.com/WebGoat/WebGoat
+                - https://github.com/WebGoat/WebGoat-Legacy
+                - https://github.com/adamdoupe/WackoPicko
+                - https://github.com/aj00200/xssed
+                - https://github.com/bugku/BWVS
+                - https://github.com/c0ny1/upload-labs
+                - https://github.com/c0ny1/vulstudy
+                - https://github.com/c0ny1/xxe-lab
+                - https://github.com/cider-security-research/cicd-goat
+                - https://github.com/cliffe/secgen
+                - https://github.com/cr0hn/vulnerable-node
+                - https://github.com/deadPix3l/CryptSky
+                - https://github.com/f4cknet/pyhackme
+                - https://github.com/fofapro/vulfocus
+                - https://github.com/incredibleindishell/SSRF_Vulnerable_Lab
+                - https://github.com/j3ers3/Hello-Java-Sec
+                - https://github.com/lemono0/FastJsonParty
+                - https://github.com/linjiananallnt/ElectricRat
+                - https://github.com/psiinon/bodgeit
+                - https://github.com/stamparm/DSVW
+                - https://github.com/tangxiaofeng7/SecExample
+                - https://github.com/vulhub/vulhub
+                - https://github.com/wangai3176/webug4.0
+                - https://github.com/zhuifengshaonianhanlu/pikachu
+                - https://hackmyvm.eu/anon/
+                - https://www.pentesterlab.com/exercises/web_for_pentester/course
             主机入侵检测:
                 - https://github.com/ainrm/cobaltstrike-suricata-rules
                 - https://github.com/bytedance/Elkeid
@@ -2376,6 +2422,7 @@
     Python:
         其他:
             - https://github.com/TomSchimansky/CustomTkinter
+            - https://github.com/jackfrued/Python-100-Days
             - https://github.com/jackzhenguo/python-small-examples
             - https://github.com/mozillazg/python-pinyin
     正则:
@@ -2395,45 +2442,6 @@
         - https://github.com/dotnetcore/FastGithub
     pppoe拦截:
         - https://github.com/akkuman/pppoe-intercept
-    python笔记:
-        - https://github.com/jackfrued/Python-100-Days
-    web靶场:
-        - https://dvwa.co.uk/
-        - https://github.com/0verSp4ce/DoraBox
-        - https://github.com/710leo/ZVulDrill
-        - https://github.com/Audi-1/sqli-labs
-        - https://github.com/HXSecurity/TerraformGoat
-        - https://github.com/Hackademic/hackademic
-        - https://github.com/LandGrey/SpringBootVulExploit
-        - https://github.com/Medicean/VulApps
-        - https://github.com/RandomStorm/DVWA
-        - https://github.com/SpiderLabs/MCIR
-        - https://github.com/WebGoat/WebGoat
-        - https://github.com/WebGoat/WebGoat-Legacy
-        - https://github.com/adamdoupe/WackoPicko
-        - https://github.com/aj00200/xssed
-        - https://github.com/bugku/BWVS
-        - https://github.com/c0ny1/upload-labs
-        - https://github.com/c0ny1/vulstudy
-        - https://github.com/c0ny1/xxe-lab
-        - https://github.com/cider-security-research/cicd-goat
-        - https://github.com/cliffe/secgen
-        - https://github.com/cr0hn/vulnerable-node
-        - https://github.com/deadPix3l/CryptSky
-        - https://github.com/f4cknet/pyhackme
-        - https://github.com/fofapro/vulfocus
-        - https://github.com/incredibleindishell/SSRF_Vulnerable_Lab
-        - https://github.com/j3ers3/Hello-Java-Sec
-        - https://github.com/lemono0/FastJsonParty
-        - https://github.com/linjiananallnt/ElectricRat
-        - https://github.com/psiinon/bodgeit
-        - https://github.com/stamparm/DSVW
-        - https://github.com/tangxiaofeng7/SecExample
-        - https://github.com/vulhub/vulhub
-        - https://github.com/wangai3176/webug4.0
-        - https://github.com/zhuifengshaonianhanlu/pikachu
-        - https://hackmyvm.eu/anon/
-        - https://www.pentesterlab.com/exercises/web_for_pentester/course
     代理订阅管理:
         - https://github.com/2dust/clashN
         - https://github.com/mzz2017/gg
