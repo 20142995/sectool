@@ -29,8 +29,8 @@
     "https://github.com/RsaCtfTool/RsaCtfTool": {
         "created_at": "2015-03-07 17:29:33",
         "description": "RSA attack tool (mainly for ctf) - retrieve private key from weak public key and/or uncipher data",
-        "commit_message": "Avoid binary_search bug",
-        "commit_date": "2024-03-27 19:53:37"
+        "commit_message": "Merge pull request #479 from mechtifs/master\n\nFix some issues when longs are provided",
+        "commit_date": "2024-05-05 02:54:15"
     },
     "https://github.com/admintony/svnExploit": {
         "created_at": "2018-02-06 09:43:26",
@@ -196,8 +196,8 @@
     "https://github.com/ycdxsb/PocOrExp_in_Github": {
         "created_at": "2021-04-13 05:46:16",
         "description": "聚合Github上已有的Poc或者Exp，CVE信息来自CVE官网。Auto Collect Poc Or Exp from Github by CVE ID.",
-        "commit_message": "update 2024-05-05 07:57:56",
-        "commit_date": "2024-05-04 23:57:56"
+        "commit_message": "update 2024-05-13 08:00:47",
+        "commit_date": "2024-05-13 00:00:47"
     },
     "https://github.com/1n7erface/RequestTemplate": {
         "created_at": "",
@@ -3825,8 +3825,8 @@
     "https://github.com/aquasecurity/kube-bench": {
         "created_at": "2024-04-18 06:59:19",
         "description": "Checks whether Kubernetes is deployed according to security best practices as defined in the CIS Kubernetes Benchmark",
-        "commit_message": "release: prepare-v0.7.3 (#1599)\n\nSigned-off-by: chenk <hen.keinan@gmail.com>",
-        "commit_date": "2024-04-18 06:58:44",
+        "commit_message": "build(deps): bump golang from 1.22.1 to 1.22.2 (#1596)\n\nBumps golang from 1.22.1 to 1.22.2.\r\n\r\n---\r\nupdated-dependencies:\r\n- dependency-name: golang\r\n  dependency-type: direct:production\r\n  update-type: version-update:semver-patch\r\n...\r\n\r\nSigned-off-by: dependabot[bot] <support@github.com>\r\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
+        "commit_date": "2024-05-03 16:35:58",
         "release_date": "2024-04-18 07:10:01",
         "release_message": "## Changelog\n* d2d3e72 Currently, certain commands involve retrieving all node names or pods and then executing additional commands in a loop, resulting in a time complexity linearly proportional to the number of nodes. (#1597)\n* dc8f4d3 build(deps): bump github.com/aws/aws-sdk-go-v2 from 1.25.2 to 1.26.0 (#1589)\n* 45afbd7 build(deps): bump github.com/aws/aws-sdk-go-v2/config (#1577)\n* 73e1377 build(deps): bump github.com/jackc/pgx/v5 from 5.4.3 to 5.5.4 (#1586)\n* dc74416 build(deps): bump golang from 1.22.0 to 1.22.1 (#1583)\n* 65c484e build(deps): bump k8s.io/client-go from 0.29.1 to 0.29.3 (#1587)\n\n"
     },
@@ -3848,12 +3848,12 @@
         "release_message": "This is the last version that support python2.7"
     },
     "https://github.com/anchore/syft": {
-        "created_at": "2024-04-26 15:01:02",
+        "created_at": "2024-05-09 19:45:42",
         "description": "CLI tool and library for generating a Software Bill of Materials from container images and filesystems",
-        "commit_message": "chore(deps): bump github/codeql-action from 3.25.3 to 3.25.4 (#2855)\n\nBumps [github/codeql-action](https://github.com/github/codeql-action) from 3.25.3 to 3.25.4.\r\n- [Release notes](https://github.com/github/codeql-action/releases)\r\n- [Changelog](https://github.com/github/codeql-action/blob/main/CHANGELOG.md)\r\n- [Commits](https://github.com/github/codeql-action/compare/d39d31e687223d841ef683f52467bd88e9b21c14...ccf74c947955fd1cf117aef6a0e4e66191ef6f61)\r\n\r\n---\r\nupdated-dependencies:\r\n- dependency-name: github/codeql-action\r\n  dependency-type: direct:production\r\n  update-type: version-update:semver-patch\r\n...\r\n\r\nSigned-off-by: dependabot[bot] <support@github.com>\r\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
-        "commit_date": "2024-05-08 14:33:38",
-        "release_date": "2024-04-26 15:08:18",
-        "release_message": "### Added Features\r\n\r\n- index known CPEs for go modules [[#2816](https://github.com/anchore/syft/pull/2816) @westonsteimel]\r\n- support multiple known CPEs in index [[#2813](https://github.com/anchore/syft/pull/2813) @westonsteimel]\r\n- index known CPEs for PHP Composer packagist.org packages [[#2804](https://github.com/anchore/syft/pull/2804) @westonsteimel]\r\n- index known cpes for PHP extensions [[#2777](https://github.com/anchore/syft/pull/2777) @westonsteimel]\r\n\r\n### Bug Fixes\r\n\r\n- re-use embedded union reader if possible [[#2814](https://github.com/anchore/syft/pull/2814) @willmurphyscode]\r\n- prefer non-deprecated CPEs and include jenkins plugins from plugins.jenkins.io [[#2806](https://github.com/anchore/syft/pull/2806) @westonsteimel]\r\n- improvements to known CPE index construction [[#2801](https://github.com/anchore/syft/pull/2801) @westonsteimel]\r\n- Syft panics when scanning OCI image that contains packaged helm chart [[#2745](https://github.com/anchore/syft/issues/2745) [#2757](https://github.com/anchore/syft/pull/2757) @willmurphyscode]\r\n- Pom parser not resolving all dependency versions [[#2776](https://github.com/anchore/syft/issues/2776) [#2781](https://github.com/anchore/syft/pull/2781) @willmurphyscode]\r\n- exclude known instrumentation jars from being erroneously identified [[#2796](https://github.com/anchore/syft/pull/2796) @kzantow]\r\n- return empty string if dereferncing pom var fails [[#2797](https://github.com/anchore/syft/pull/2797) @willmurphyscode]\r\n\r\n**[(Full Changelog)](https://github.com/anchore/syft/compare/v1.2.0...v1.3.0)**\r\n\r\n"
+        "commit_message": "fix pruning binary packages when considering ELF packages (#2862)\n\nSigned-off-by: Alex Goodman <wagoodman@users.noreply.github.com>",
+        "commit_date": "2024-05-09 19:35:22",
+        "release_date": "2024-05-09 19:52:26",
+        "release_message": "### Bug Fixes\n\n- Fix redundant package deletions when considering ELF packages [[#2862](https://github.com/anchore/syft/pull/2862) @wagoodman]\n\n**[(Full Changelog)](https://github.com/anchore/syft/compare/v1.4.0...v1.4.1)**\n\n"
     },
     "https://github.com/chaitin/safeline": {
         "created_at": "2024-04-25 09:22:34",
@@ -5119,8 +5119,8 @@
     "https://github.com/beefproject/beef": {
         "created_at": "2021-11-09 22:06:22",
         "description": "The Browser Exploitation Framework Project",
-        "commit_message": "Merge branch 'master' into dependabot/bundler/json-2.7.2",
-        "commit_date": "2024-04-20 19:14:19",
+        "commit_message": "Bump irb from 1.13.0 to 1.13.1\n\nBumps [irb](https://github.com/ruby/irb) from 1.13.0 to 1.13.1.\n- [Release notes](https://github.com/ruby/irb/releases)\n- [Commits](https://github.com/ruby/irb/compare/v1.13.0...v1.13.1)\n\n---\nupdated-dependencies:\n- dependency-name: irb\n  dependency-type: direct:development\n  update-type: version-update:semver-patch\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>",
+        "commit_date": "2024-05-06 13:25:20",
         "release_date": "2021-11-25 23:47:24",
         "release_message": "## Bug Fixes\r\n* #2190 -  Maintainability - Improved CI workflow\r\n* #2185 - Could not minify JavaScript file: web_ui_all\r\n## Enchancements\r\n* #2205 - Modules - Apache Tomcat Examples Default Install Exploit\r\n* #2157 -  Maintainability - Implement GitHub Actions and added confirmation step to PRs\r\n* #2190 -  Maintainability - Improved CI workflow: \r\n  * Refactor Rakefile to accommodate Browserstack implementation\r\n  * Installer improvements\r\n  * Test suite performance improvements\r\n* #2199  - Enhancement - Check for update on launch works with beef-xss kali package install\r\n\r\n**Full Changelog**: https://github.com/beefproject/beef/compare/v0.5.3.0...v0.5.4.0"
     },
@@ -6293,8 +6293,8 @@
     "https://github.com/WerWolv/ImHex": {
         "created_at": "2024-03-23 09:15:12",
         "description": "🔍 A Hex Editor for Reverse Engineers, Programmers and people who value their retinas when working at 3 AM.",
-        "commit_message": "fix: Command palette losing focus when pressing Alt\n\nFixes #1651",
-        "commit_date": "2024-05-04 19:30:21",
+        "commit_message": "patterns: Updated pattern language",
+        "commit_date": "2024-05-12 21:19:59",
         "release_date": "2024-03-23 10:06:55",
         "release_message": "## Improvements\r\n- ImHex properly enters low power mode on Linux again now\r\n- Unifont characters are now being loaded at their native size to make them crisp like the Western characters\r\n- The splash screen is not being scaled weirdly anymore now\r\n- Added a hint when the advanced data information section didn't yield any result\r\n\r\n## Bug Fixes\r\n- Fixed linking to libyara. This should resolve issues with e.g the AUR version not starting anymore\r\n- Fixed issues with the auto updater on Windows\r\n- Fixed view providers not being saved to project files correctly\r\n- Fixed highlighting not updating correctly when changing Bookmark regions\r\n- Fixed crash upload setting not being disabled correctly when choosing \"Deny\" in the initial popup\r\n- Fixed custom base address issues with the data inspector and copy as array options\r\n- Fixed advanced data information not showing up correctly\r\n- Fixed selection being removed sometimes when right clicking it\r\n- Fixed infinite loop when exporting a selection to a file\r\n- Fixed control characters ending up in log files\r\n- Fixed a crash when opening an unopenable file\r\n\r\n## Pattern Language\r\n- Fixed various issues with the virtual file system\r\n- Fixed data decompression functions not extracting the entire data\r\n\r\n# Previous Changelog\r\n\r\n![image](https://github.com/WerWolv/ImHex/assets/10835354/57bfaec2-779e-4701-b1a5-f03da7815da3)\r\n\r\n## Additions\r\n- **All main menu entries now have pretty icons**\r\n- **Added Myers' diffing algorithm to the diff view**\r\n    - This algorithm can display insertions and removals as well as modifications\r\n    - Huge thanks to the maintainer of Malcat!\r\n- **Added option to customize toolbar icons**\r\n- **Added a much improved Out of the Box experience when first starting up ImHex**\r\n- **Added many new hash algorithms**\r\n    - This includes basic sum checksums, Snefru, Haval, various SHA versions, Keccak, RIPEMD, many CRC presets and many more\r\n- **Greatly improved the data information view**\r\n    - Sections can now be switched on and off\r\n    - Magic information now includes more than one entry if there's multiple concatenated files\r\n    - The Digram and Layered distribution graphs now perform a lot better\r\n    - There's now built-in yara rules that are being run on files to detect compilers, programming languages and more for executables\r\n- **Greatly improved the pattern editor**\r\n    - Thanks a lot to @paxcut \r\n    - This adds support for find and replace, better highlighting and many other smaller things\r\n- **Added Mini Map to the Hex Editor**\r\n    - This can be enabled by clicking on the map icon in the hex editor footer\r\n    - There's also config options when right clicking that icon\r\n- **Added `Edit -> Jump to -> Pattern` option to jump directly from hex editor highlights to patterns**\r\n    - Clicking on patterns in the pattern data view also jumps to their definition in the pattern editor now\r\n- **Added a font picker to the settings**\r\n- **Added option to highlight parent pattern regions in the hex editor when hovering over them**\r\n- Added support for searching for other string encodings and endianess. Thanks a lot to @PerikiyoXD \r\n- Added a pretty drag-n-drop overlay when dragging files onto ImHex\r\n- Added support for virtual file systems through the pattern language\r\n- Added option to keep ImHex always on top of other windows\r\n- Added option to use ImHex in fullscreen mode\r\n- Added support for switching to other providers through the command palette\r\n- Added a setting to always show all provider tabs, even if there's only one\r\n- Added option to export a selection to a file\r\n- Added a comments column to the pattern data view. It can be enabled by right clicking on the table header and selecting it there\r\n- Added option to turn off borderless window mode\r\n- Added option to export the results of the find view to a file\r\n- Added option to disable command palette button in header\r\n- Added a search bar to the file chooser popup\r\n- Added support for opening multiple files at once\r\n- Added support for macOS's Right click -> Open with option\r\n\r\n## Improvements\r\n- **ImHex now uses Atomic File I/O instead of mapping files into memory**\r\n    - This solves various issues where certain files couldn't be opened, files on network drives not working well and more\r\n- **macOS M1 build now only requires macOS 12.1 instead of 14.0 to run**\r\n- Bookmark moving now uses ImGui's native drag n drop feature\r\n- Syncing pattern language source code between providers should work better now\r\n- Custom encodings that don't have multi-byte values now display immediately when selected\r\n- The macOS build now uses a custom titlebar\r\n- ImHex windows are now being unfocused properly if the main window loses focus\r\n    - No more blinking cursors when ImHex is in the background!\r\n- Overwriting individual characters in the edit mode of the hex editor now works much better\r\n- Copy-Paste now works correctly in the Web version of ImHex. Thanks a lot to @exsilium \r\n- The find popup now remembers its content\r\n- The crash restore popup doesn't show anymore now if there's nothing to restore\r\n- Opening the same file multiple times is no longer possible now\r\n\r\n## Bug Fixes\r\n- **Fixed signing issues with macOS builds**\r\n- **Fixed CTRL + S not removing red highlights of bytes**\r\n- Fixed address bound checks in Edit -> Jump to option\r\n- Fixed menu bar collapsing into hamburger menu even if there's enough space\r\n- Fixed RGBA8 data processor node not setting output buffer correctly\r\n- Fixed provider information in information view always showing infos about the current provider instead of about the analyzed provider\r\n- Fixed issues when using certain window management tools on Windows\r\n- Fixed crashes when launching ImHex with file arguments\r\n- Fixed crash when trying to use too many hex editor rows\r\n- Fixed native theme detection of Linux. Thanks to @iTrooz \r\n- Fixed issues where workspaces are not correctly saved sometimes\r\n- Fixed issues where default magic database wasn't being bundled correctly\r\n- Fixed crashes when loading very old settings files\r\n- Fixed data inspector not updating correctly when the underlying data changed\r\n- Fixed a crash when specifying invalid hash parameters in the hashing view\r\n- Fixed additional folder paths not being loaded from the config file correctly\r\n- Fixed data inspector showing two negative signs sometimes\r\n- Fixed various issues with non-zero base addresses\r\n\r\n## Pattern Language\r\n- **Huge refactor of the Preprocessor, Lexer and Parser**\r\n    - Massive thanks to @jumanji144\r\n    - Compile errors are a lot more helpful now and include more context information\r\n- **Added support for `import` statements**\r\n    - Massive thanks to @jumanji144\r\n- **Added stacktrace to runtime errors**\r\n- Patterns can now be placed inside of custom sections from within other types\r\n- Pattern formatters now properly respect a patterns visibility\r\n    - This means hidden patterns don't end up in exported json, yaml or html files anymore\r\n- Fixed writing to big endian bitfield entries\r\n- Changing pattern setting now re-evaluates the code if auto evaluation is enabled\r\n\r\n<br/>\r\n\r\n<p align=\"center\">If you like my work, please consider supporting me on GitHub Sponsors, Patreon or PayPal. Thanks a lot!</p>\r\n<p align=\"center\">\r\n<a href=\"https://github.com/sponsors/WerWolv\"><img src=\"https://werwolv.net/assets/github_banner.png\" alt=\"GitHub donate button\" /> </a>\r\n<a href=\"https://www.patreon.com/werwolv\"><img src=\"https://c5.patreon.com/external/logo/become_a_patron_button.png\" alt=\"Patreon donate button\" /> </a>\r\n<a href=\"https://werwolv.net/donate\"><img src=\"https://werwolv.net/assets/paypal_banner.png\" alt=\"PayPal donate button\" /> </a>\r\n</p"
     },
@@ -6354,8 +6354,8 @@
     "https://github.com/ufrisk/MemProcFS": {
         "created_at": "2024-03-03 11:07:17",
         "description": "MemProcFS",
-        "commit_message": "Version 5.9.12",
-        "commit_date": "2024-05-03 23:07:13",
+        "commit_message": "Version 5.9.13",
+        "commit_date": "2024-05-12 19:48:07",
         "release_date": "2024-03-03 11:08:21",
         "release_message": "* Bug fixes.\r\n* Module improvements: ntfs, procinfo, web.\r\n* C# API: improvements.\r\n* Java API: support for java.lang.foreign (JDK21+) for efficient memory accesses.\r\n* Linux PCIe FPGA performance improvements.\r\n* FindEvil: Triggered Yara rules are now shown.\r\n* FindEvil: AV detections from Windows Defender residing on the analyzed system.\r\n* Python API: new functionality (multi-read, type-read) and improved scatter read performance.\r\n* Support for Proxmox memory dump files.\r\n\r\nFor previous release builds see the [release archive](https://github.com/ufrisk/MemProcFS/releases/tag/v5_archive)."
     },
@@ -6488,12 +6488,12 @@
         "release_message": "# 更新日志\r\n\r\n- 优化了脚本流程，减少了部分代码\r\n- 增加了校验模块，根据PNG文件头校验是否为PNG图片\r\n- 新增宽高判断，对于宽高正常的PNG图片，做出提示\r\n- 无需再改后缀名，直接导出PNG后缀的文件"
     },
     "https://github.com/ImageMagick/ImageMagick": {
-        "created_at": "2024-04-21 13:35:25",
+        "created_at": "2024-05-05 15:53:27",
         "description": "🧙‍♂️ ImageMagick 7",
-        "commit_message": "Fixed possible memory leak.",
-        "commit_date": "2024-04-30 10:51:38",
-        "release_date": "2024-04-21 18:40:16",
-        "release_message": "## What's Changed\n* Bump caphyon/advinst-github-action from 1.0 to 1.1 by @dependabot in https://github.com/ImageMagick/ImageMagick/pull/7227\n* uhdr.c: verify the availability of error message before accessing it by @aayushsoni111 in https://github.com/ImageMagick/ImageMagick/pull/7229\n* Fix typo in README.md by @dme26 in https://github.com/ImageMagick/ImageMagick/pull/7245\n* ci: update release.yml, removing fuse requirements by @Gounlaf in https://github.com/ImageMagick/ImageMagick/pull/7258\n* ci: fix git version by @Gounlaf in https://github.com/ImageMagick/ImageMagick/pull/7260\n* Convert big PDF documents is slow by @scresto09 in https://github.com/ImageMagick/ImageMagick/pull/7263\n\n## New Contributors\n* @dme26 made their first contribution in https://github.com/ImageMagick/ImageMagick/pull/7245\n* @Gounlaf made their first contribution in https://github.com/ImageMagick/ImageMagick/pull/7258\n* @scresto09 made their first contribution in https://github.com/ImageMagick/ImageMagick/pull/7263\n\n**Full Changelog**: https://github.com/ImageMagick/ImageMagick/compare/7.1.1-30...7.1.1-31"
+        "commit_message": "return artifacts, not properties (https://github.com/ImageMagick/ImageMagick/issues/7309)",
+        "commit_date": "2024-05-12 22:08:10",
+        "release_date": "2024-05-05 19:08:31",
+        "release_message": "## What's Changed\n* Fix GIF ICC profile reading. (https://github.com/ImageMagick/ImageMagick/issues/7281) by @njdoyle in https://github.com/ImageMagick/ImageMagick/pull/7282\n* uhdr.c: add support for rgb inputs by @aayushsoni111 in https://github.com/ImageMagick/ImageMagick/pull/7273\n\n\n**Full Changelog**: https://github.com/ImageMagick/ImageMagick/compare/7.1.1-31...7.1.1-32"
     },
     "https://github.com/Ch1ngg/JWTPyCrack": {
         "created_at": "2019-09-05 07:55:21",
@@ -7639,8 +7639,8 @@
     "https://github.com/openwall/john": {
         "created_at": "2011-12-16 19:43:47",
         "description": "John the Ripper jumbo - advanced offline password cracker, which supports hundreds of hash and cipher types, and runs on many operating systems, CPUs, GPUs, and even some FPGAs",
-        "commit_message": "fgetll(): Work around spurious GCC warning on realloc()\n\nClaudio reports this:\n\ngcc (GCC) 14.0.1 20240411 (Red Hat 14.0.1-0)\nFedora release 40 (Forty)\n\nmisc.c: In function 'fgetll':\nmisc.c:214:34: error: pointer 'cp' may be used after 'realloc' [-Werror=use-after-free]\n  214 |                         new_cp = realloc(cp, len + increase);\n      |                                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~\nmisc.c:208:26: note: call to 'realloc' here\n  208 |                 new_cp = realloc(cp, len + increase);\n\nCompletes b59ccbd615df3358dc91218ca57d8b952f6b1f73\nFixes #5470",
-        "commit_date": "2024-04-30 12:57:47"
+        "commit_message": "diskcryptor: use macro to avoid converting uc to vla",
+        "commit_date": "2024-05-07 20:07:56"
     },
     "https://github.com/shimmeris/SCFProxy": {
         "created_at": "2021-04-18 11:21:43",
@@ -10480,8 +10480,8 @@
     "https://github.com/BishopFox/sliver": {
         "created_at": "2024-02-28 19:43:18",
         "description": "Adversary Emulation Framework",
-        "commit_message": "Merge pull request #1645 from BishopFox/fix/dnspb\n\nTweak builder",
-        "commit_date": "2024-04-26 16:29:49",
+        "commit_message": "Merge pull request #1679 from BishopFox/v1.6.0/fix-console-hang\n\nFix #1668",
+        "commit_date": "2024-05-10 14:31:13",
         "release_date": "2024-02-28 20:00:27",
         "release_message": "Fix for DNS C2, and other small backports. Hoping to have a v1.6 release soon with many more updates!"
     },
@@ -27058,7 +27058,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "172.183.37.94属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "52.234.38.32属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
@@ -27242,7 +27242,7 @@
     },
     "https://www.storytrain.info/": {
         "status_code": 200,
-        "description": "用户认证 - 云短信 - 短信接收"
+        "description": "短信接收 - 云短信 - 第1页 - 在线短信接收"
     },
     "https://sms-activate.org/": {
         "status_code": 403,
