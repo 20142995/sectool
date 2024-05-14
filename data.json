@@ -4519,12 +4519,12 @@
         "commit_date": "2024-04-25 23:22:49"
     },
     "https://github.com/rockbenben/ChatGPT-Shortcut": {
-        "created_at": "2024-02-18 08:29:46",
+        "created_at": "2024-05-06 09:37:59",
         "description": "🚀💪Maximize your efficiency and productivity, support for English,中文,Español,العربية. 让生产力加倍的AI快捷指令。更有效地定制、保存和分享自己的提示词。在提示词分享社区中，轻松找到适用于不同场景的指令。",
-        "commit_message": "chroe: update deps",
-        "commit_date": "2024-04-06 23:00:12",
-        "release_date": "2024-02-19 06:56:44",
-        "release_message": "#### 🛠 Improvements\r\n- 🔧 Replaced moment with dayjs for better performance and smaller bundle size.\r\n- 📈 Optimized Cumulative Layout Shift (CLS) performance to enhance user experience.\r\n- 🎨 Enhanced styling and layout of the share component for better visual appeal.\r\n- 📦 Updated project dependencies to ensure better security and performance.\r\n\r\n#### 🐛 Bug Fixes\r\n- 🛠️ Fixed warning in the comment component by upgrading dependencies.\r\n\r\n---\r\n\r\n#### 🛠 改进\r\n- 🔧 用dayjs替换moment，以提高性能并减小包大小。\r\n- 📈 优化累积布局偏移（CLS）性能，以增强用户体验。\r\n- 🎨 改善分享组件的样式和布局，以提高视觉吸引力。\r\n- 📦 更新项目依赖，以确保更好的安全性和性能。\r\n\r\n#### 🐛 修复\r\n- 🛠️ 通过升级依赖修复了评论组件中的警告。\r\n\r\n**Full Changelog**: https://github.com/rockbenben/ChatGPT-Shortcut/compare/v3.1.8...v3.1.9"
+        "commit_message": "refactor: remove unused import of Loadable",
+        "commit_date": "2024-05-06 09:37:59",
+        "release_date": "2024-05-06 10:40:32",
+        "release_message": "**Full Changelog**: https://github.com/rockbenben/ChatGPT-Shortcut/compare/v3.2.0...v3.2.1"
     },
     "https://github.com/LangLangShanDeNanKe/chatgpt": {
         "created_at": "2023-03-15 12:39:55",
@@ -4918,10 +4918,10 @@
     "https://github.com/rustdesk/rustdesk": {
         "created_at": "2024-04-07 06:31:09",
         "description": "An open-source remote desktop, and alternative to TeamViewer.",
-        "commit_message": "Show current codec in menu when auto codec is chosen (#7942)\n\n* change negotiated codec name to negotiated codec format\r\n\r\nSigned-off-by: 21pages <pages21@163.com>\r\n\r\n* fallback to vp9 directly if failed to create encoder\r\n\r\nCurrent fallback method is clear hwcodec config\r\n\r\nSigned-off-by: 21pages <pages21@163.com>\r\n\r\n* show current codec in menu when auto codec is chosen\r\n\r\nSigned-off-by: 21pages <pages21@163.com>\r\n\r\n---------\r\n\r\nSigned-off-by: 21pages <pages21@163.com>",
-        "commit_date": "2024-05-07 12:34:23",
+        "commit_message": "Not require both  max-width and max-height of mediacodec larger than (#8036)\n\nscreen width and screen height\r\n\r\n* Only use hardware codec, when api < 29, judge with codec name prefix.\r\n\r\nSigned-off-by: 21pages <pages21@163.com>",
+        "commit_date": "2024-05-13 12:24:50",
         "release_date": "2024-04-07 08:12:13",
-        "release_message": "![image](https://github.com/rustdesk/rustdesk/assets/71636191/83754a64-31b8-47f0-8570-da22207759a9)\r\n\r\n> Winget, FDroid update will come soon.\r\n\r\nx86-64: [Windows](https://github.com/rustdesk/rustdesk/releases/download/1.2.3-2/rustdesk-1.2.3-2-x86_64.exe) | [Ubuntu](https://github.com/rustdesk/rustdesk/releases/download/1.2.3-2/rustdesk-1.2.3-2-x86_64.deb) | [Mac](https://github.com/rustdesk/rustdesk/releases/download/1.2.3-2/rustdesk-1.2.3-2-x86_64.dmg) | [AppImage](https://github.com/rustdesk/rustdesk/releases/download/1.2.3-2/rustdesk-1.2.3-2-x86_64.AppImage) | [Flatpak](https://github.com/rustdesk/rustdesk/releases/download/1.2.3-2/rustdesk-1.2.3-2-x86_64.flatpak)\r\nAArch64 (ARM64):  [Ubuntu](https://github.com/rustdesk/rustdesk/releases/download/1.2.3-2/rustdesk-1.2.3-2-aarch64.deb) | [Android](https://github.com/rustdesk/rustdesk/releases/download/1.2.3-2/rustdesk-1.2.3-2-aarch64-signed.apk) | [Mac](https://github.com/rustdesk/rustdesk/releases/download/1.2.3-2/rustdesk-1.2.3-2-aarch64.dmg) | [AppImage](https://github.com/rustdesk/rustdesk/releases/download/1.2.3-2/rustdesk-1.2.3-2-aarch64.AppImage)\r\nx86-32: [Windows](https://github.com/rustdesk/rustdesk/releases/download/1.2.3-2/rustdesk-1.2.3-2-x86-sciter.exe)\r\n\r\nMore: [check below please](#)\r\n\r\n> **For the latest features, check out the [Nightly Build](https://github.com/rustdesk/rustdesk/releases/tag/nightly)**\r\n\r\n# Changelog\r\n\r\nThis release only fixes a [bug](https://github.com/fufesou/rustdesk/wiki/How-to-delete-the-wrong-certificate-stores-in-%22certmgr.msc%22) introduced in [1.2.3-1](https://github.com/rustdesk/rustdesk/releases/tag/1.2.3-1). \r\n\r\n"
+        "release_message": "![image](https://github.com/rustdesk/rustdesk/assets/71636191/83754a64-31b8-47f0-8570-da22207759a9)\r\n\r\nx86-64: [Windows](https://github.com/rustdesk/rustdesk/releases/download/1.2.3-2/rustdesk-1.2.3-2-x86_64.exe) | [Ubuntu](https://github.com/rustdesk/rustdesk/releases/download/1.2.3-2/rustdesk-1.2.3-2-x86_64.deb) | [Mac](https://github.com/rustdesk/rustdesk/releases/download/1.2.3-2/rustdesk-1.2.3-2-x86_64.dmg) | [AppImage](https://github.com/rustdesk/rustdesk/releases/download/1.2.3-2/rustdesk-1.2.3-2-x86_64.AppImage) | [Flatpak](https://github.com/rustdesk/rustdesk/releases/download/1.2.3-2/rustdesk-1.2.3-2-x86_64.flatpak)\r\nAArch64 (ARM64):  [Ubuntu](https://github.com/rustdesk/rustdesk/releases/download/1.2.3-2/rustdesk-1.2.3-2-aarch64.deb) | [Android](https://github.com/rustdesk/rustdesk/releases/download/1.2.3-2/rustdesk-1.2.3-2-aarch64-signed.apk) | [Mac](https://github.com/rustdesk/rustdesk/releases/download/1.2.3-2/rustdesk-1.2.3-2-aarch64.dmg) | [AppImage](https://github.com/rustdesk/rustdesk/releases/download/1.2.3-2/rustdesk-1.2.3-2-aarch64.AppImage)\r\nx86-32: [Windows](https://github.com/rustdesk/rustdesk/releases/download/1.2.3-2/rustdesk-1.2.3-2-x86-sciter.exe)\r\n\r\nMore: [check below please](#)\r\n\r\n> **For the latest features, check out the [Nightly Build](https://github.com/rustdesk/rustdesk/releases/tag/nightly)**\r\n\r\n# Changelog\r\n\r\nThis release only fixes a [bug](https://github.com/fufesou/rustdesk/wiki/How-to-delete-the-wrong-certificate-stores-in-%22certmgr.msc%22) introduced in [1.2.3-1](https://github.com/rustdesk/rustdesk/releases/tag/1.2.3-1). \r\n\r\n"
     },
     "https://github.com/chenjj/CORScanner": {
         "created_at": "2018-05-06 05:57:09",
@@ -10840,8 +10840,8 @@
     "https://github.com/HXSecurity/DongTai": {
         "created_at": "2023-11-02 13:10:47",
         "description": "Dongtai IAST is an open-source Interactive Application Security Testing (IAST) tool that enables real-time detection of common vulnerabilities in Java applications and third-party components through passive instrumentation. It is particularly suitable for use in the testing phase of the development pipeline.",
-        "commit_message": "Update _helpers.tpl",
-        "commit_date": "2024-04-15 15:14:40",
+        "commit_message": "Update dongtai-worker-sca.yaml",
+        "commit_date": "2024-04-22 02:38:32",
         "release_date": "2023-11-03 03:30:09",
         "release_message": "## What's Changed\r\n* feat: improve patch type hint by @st1020 in https://github.com/HXSecurity/DongTai/pull/1841\r\n* feat: modify user field by @st1020 in https://github.com/HXSecurity/DongTai/pull/1839\r\n* feat: remove login lock by @st1020 in https://github.com/HXSecurity/DongTai/pull/1840\r\n* feat:add agent version api. by @Bidaya0 in https://github.com/HXSecurity/DongTai/pull/1838\r\n* feat/project_type_summary by @Bidaya0 in https://github.com/HXSecurity/DongTai/pull/1842\r\n* deps: add pyotp dep by @st1020 in https://github.com/HXSecurity/DongTai/pull/1846\r\n* feat: add project status change notify by @st1020 in https://github.com/HXSecurity/DongTai/pull/1845\r\n* fix: percentage zero error. by @Bidaya0 in https://github.com/HXSecurity/DongTai/pull/1847\r\n* fix: zero divide by @Bidaya0 in https://github.com/HXSecurity/DongTai/pull/1849\r\n* fix: project current version auth fix. by @Bidaya0 in https://github.com/HXSecurity/DongTai/pull/1848\r\n* feat: add request topo models. by @Bidaya0 in https://github.com/HXSecurity/DongTai/pull/1853\r\n* feat: project type summary list. by @Bidaya0 in https://github.com/HXSecurity/DongTai/pull/1854\r\n* feat: modify user info api by @st1020 in https://github.com/HXSecurity/DongTai/pull/1856\r\n* feat: increase buffer size. by @Bidaya0 in https://github.com/HXSecurity/DongTai/pull/1855\r\n* feat: add tantivy search by @st1020 in https://github.com/HXSecurity/DongTai/pull/1857\r\n* deps: add qrcode dep by @st1020 in https://github.com/HXSecurity/DongTai/pull/1858\r\n* feat: change tantivy index path by @st1020 in https://github.com/HXSecurity/DongTai/pull/1859\r\n* Feat/add ldap settings by @Bidaya0 in https://github.com/HXSecurity/DongTai/pull/1860\r\n* feat: add update vul tantivy index receiver by @st1020 in https://github.com/HXSecurity/DongTai/pull/1861\r\n* feat: vul status change msg. by @Bidaya0 in https://github.com/HXSecurity/DongTai/pull/1862\r\n* build(deps):  fix deps . by @Bidaya0 in https://github.com/HXSecurity/DongTai/pull/1864\r\n* build(deps):  fix deps . by @Bidaya0 in https://github.com/HXSecurity/DongTai/pull/1865\r\n* fix: tantivy search error by @st1020 in https://github.com/HXSecurity/DongTai/pull/1866\r\n* build(deps):  fix deps . by @Bidaya0 in https://github.com/HXSecurity/DongTai/pull/1867\r\n* fix: tantivy search error by @st1020 in https://github.com/HXSecurity/DongTai/pull/1868\r\n* feat/msg_status_log by @Bidaya0 in https://github.com/HXSecurity/DongTai/pull/1869\r\n* feat load vul fix by @Bidaya0 in https://github.com/HXSecurity/DongTai/pull/1870\r\n* fix: change log level. by @Bidaya0 in https://github.com/HXSecurity/DongTai/pull/1873\r\n* fix: load hook strategy with dup data. by @Bidaya0 in https://github.com/HXSecurity/DongTai/pull/1874\r\n* fix: tantivy path error by @st1020 in https://github.com/HXSecurity/DongTai/pull/1875\r\n* feat: add strategy case. by @Bidaya0 in https://github.com/HXSecurity/DongTai/pull/1877\r\n* feat: add vul log time range. by @Bidaya0 in https://github.com/HXSecurity/DongTai/pull/1878\r\n* Feat/add vul log time range by @Bidaya0 in https://github.com/HXSecurity/DongTai/pull/1879\r\n* Feat/add 1.16 strategy p2 by @Bidaya0 in https://github.com/HXSecurity/DongTai/pull/1880\r\n* feat: add 1.16 strategy. by @Bidaya0 in https://github.com/HXSecurity/DongTai/pull/1876\r\n* fix: vul_log msg record by @Bidaya0 in https://github.com/HXSecurity/DongTai/pull/1881\r\n* fix: vul_log msg record by @Bidaya0 in https://github.com/HXSecurity/DongTai/pull/1882\r\n* fix: vul_log msg record by @Bidaya0 in https://github.com/HXSecurity/DongTai/pull/1883\r\n* feat: migration permissions. by @Bidaya0 in https://github.com/HXSecurity/DongTai/pull/1884\r\n* feat: update ci by @tscuite in https://github.com/HXSecurity/DongTai/pull/1885\r\n* feat: update ci by @tscuite in https://github.com/HXSecurity/DongTai/pull/1886\r\n* feat: update ci by @tscuite in https://github.com/HXSecurity/DongTai/pull/1887\r\n* feat: update ci by @tscuite in https://github.com/HXSecurity/DongTai/pull/1888\r\n* fix: dockerfile by @st1020 in https://github.com/HXSecurity/DongTai/pull/1889\r\n* Develop to Beta by @st1020 in https://github.com/HXSecurity/DongTai/pull/1892\r\n* Beta to Main by @st1020 in https://github.com/HXSecurity/DongTai/pull/1893\r\n* Develop to Beta by @st1020 in https://github.com/HXSecurity/DongTai/pull/1895\r\n* Beta to Main by @st1020 in https://github.com/HXSecurity/DongTai/pull/1896\r\n* Update release_dongtai.yml by @lingyuguo in https://github.com/HXSecurity/DongTai/pull/1898\r\n* Beta by @lingyuguo in https://github.com/HXSecurity/DongTai/pull/1899\r\n* cos gitaction by @lingyuguo in https://github.com/HXSecurity/DongTai/pull/1902\r\n* Beta by @lingyuguo in https://github.com/HXSecurity/DongTai/pull/1903\r\n\r\n## New Contributors\r\n* @lingyuguo made their first contribution in https://github.com/HXSecurity/DongTai/pull/1898\r\n\r\n**Full Changelog**: https://github.com/HXSecurity/DongTai/compare/v1.15.0...v1.16.0"
     },
@@ -23203,7 +23203,7 @@
         "created_at": "2023-07-25 06:13:25",
         "description": "主要记录网络安全学习笔记，包含WEB基础、提权、APP渗透、内网横向移动、工具学习等",
         "commit_message": "Update README.md",
-        "commit_date": "2024-04-29 14:41:16"
+        "commit_date": "2024-05-13 07:23:29"
     },
     "https://github.com/gyxuehu/EwoMail": {
         "created_at": "2017-03-23 16:09:51",
@@ -24219,8 +24219,8 @@
     "https://github.com/jeremylong/DependencyCheck": {
         "created_at": "2024-03-31 11:36:57",
         "description": "OWASP dependency-check is a software composition analysis utility that detects publicly disclosed vulnerabilities in application dependencies.",
-        "commit_message": "build(deps): bump commons-cli:commons-cli from 1.6.0 to 1.7.0 (#6629)\n\nSigned-off-by: dependabot[bot] <support@github.com>\r\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
-        "commit_date": "2024-05-03 12:15:28",
+        "commit_message": "docs: update logo per intellj (#6660)",
+        "commit_date": "2024-05-11 12:59:59",
         "release_date": "2024-03-31 12:10:21",
         "release_message": "Refer to the [CHANGELOG.md](https://github.com/jeremylong/DependencyCheck/blob/main/CHANGELOG.md#change-log) for information about improvements and upgrade notes."
     },
@@ -24818,8 +24818,8 @@
         "description": "CallBack.Red Dns、Http、Rmi、Ldap Log、CmdtoDNSLog"
     },
     "https://www.seebug.org/": {
-        "status_code": 521,
-        "description": ""
+        "status_code": 200,
+        "description": "知道创宇 Seebug 漏洞平台 - 洞悉漏洞，让你掌握前沿漏洞情报！"
     },
     "https://www.bugku.com/tools/jsfuck/": {
         "status_code": 200,
@@ -25402,12 +25402,12 @@
         "commit_date": "2016-07-08 02:42:50"
     },
     "https://github.com/leondz/garak": {
-        "created_at": "2024-02-20 14:23:06",
+        "created_at": "2024-05-10 13:22:31",
         "description": "LLM vulnerability scanner",
-        "commit_message": "update avidtools to remove typing reference (#639)\n\n* Update to latest released version of [avidtools](https://github.com/avidml/avidtools)\r\n\r\nThis removes the explicit install requirement for `typing` that is now included as a\r\ndefault distributed package with python 3.5+\r\n\r\nSigned-off-by: Jeffrey Martin <jemartin@nvidia.com>",
-        "commit_date": "2024-04-29 19:31:07",
-        "release_date": "2024-02-20 16:12:40",
-        "release_message": "## What's Changed\r\n\r\n### plugins\r\n* New encoding probes by @zmackie in https://github.com/leondz/garak/pull/459\r\n* OpenAI upgrade by @erickgalinkin in https://github.com/leondz/garak/pull/477\r\n* Low Resource Languages Buff by @erickgalinkin in https://github.com/leondz/garak/pull/478\r\n* Add Rasa generator by @rgstephens in https://github.com/leondz/garak/pull/453\r\n* Tree of Attacks by @erickgalinkin in https://github.com/leondz/garak/pull/446\r\n\r\n### functionality improvements\r\n* support multiple buffs by @leondz in https://github.com/leondz/garak/pull/497\r\n* wrap exception printing in repr by @leondz in https://github.com/leondz/garak/pull/425\r\n* add generators.function docs & examples by @leondz in https://github.com/leondz/garak/pull/437\r\n* update doc indices, add test to check them by @leondz in https://github.com/leondz/garak/pull/450\r\n* fix & unify REST generator timeout param names; set default request timeout to 20s by @leondz in https://github.com/leondz/garak/pull/451\r\n* add test to keep requirements in sync by @leondz in https://github.com/leondz/garak/pull/465\r\n* docs for buffs by @leondz in https://github.com/leondz/garak/pull/466\r\n* autosearch in the configs/ subdir for configs (no yaml extension should be given) by @leondz in https://github.com/leondz/garak/pull/467\r\n* Update function.py by @erickgalinkin in https://github.com/leondz/garak/pull/500\r\n* add warning when using a lite/default profile by @leondz in https://github.com/leondz/garak/pull/476\r\n* rename default output dir to garak_runs/; by @leondz in https://github.com/leondz/garak/pull/488\r\n* update openai model list by @leondz in https://github.com/leondz/garak/pull/494\r\n* make test_openai generation tests skip if no OAI API key set by @leondz in https://github.com/leondz/garak/pull/491\r\n\r\n### fixes\r\n* html report now uses correct basedir by @leondz in https://github.com/leondz/garak/pull/439\r\n* typos & clarifications in rest generator by @leondz in https://github.com/leondz/garak/pull/436\r\n* update manifest by @leondz in https://github.com/leondz/garak/pull/454\r\n* Avoid divide by zero error by @erickgalinkin in https://github.com/leondz/garak/pull/458\r\n* Fix/test pytest-8.0.0 order by @leondz in https://github.com/leondz/garak/pull/472\r\n* Check & enable Python 3.12 support by @leondz in https://github.com/leondz/garak/pull/475\r\n* move pathlib uses to _config.transient.basedir by @leondz in https://github.com/leondz/garak/pull/499\r\n* catch & handle HF hub exceptions loading dataset for package hallucination by @leondz in https://github.com/leondz/garak/pull/470\r\n\r\n\r\n## New Contributors\r\n* @zmackie made their first contribution in https://github.com/leondz/garak/pull/459\r\n* @rgstephens made their first contribution in https://github.com/leondz/garak/pull/453\r\n\r\n**Full Changelog**: https://github.com/leondz/garak/compare/v0.9.0.11...v0.9.0.12"
+        "commit_message": "Add JSON Path support for RestGenerator (#651)\n\n* draft jsonpath support in restgenerator params\r\n\r\n* rest gen tests\r\n\r\n* add jsonpath tests\r\n\r\n* update RestGenerator docs\r\n\r\n* type guards around json_response_field; set it default value to None instead of a placeholder string",
+        "commit_date": "2024-05-11 11:52:22",
+        "release_date": "2024-05-10 13:41:33",
+        "release_message": "## What's Changed\r\n\r\ngarak's 1st birthday! 🎂\r\n\r\nHeadlines in this birthday release:\r\n* Multimodal support! LLaVa + FigStep - HUGE thanks to @DavidLee528 \r\n* LiteLLM generator support - thanks to @Tien-Cheng!\r\n* DoNotAnswer probe for prompts an LLM should decline - thanks to @AhsanAyub!\r\n* LangChain Serve generator support - thanks to @GustavFredrikson!\r\n* Support for NIM generators, NVIDIA Inference Microservices\r\n* OpenAI abstraction with parallelisation support\r\n* Windows compatibility enhanced, with optional testing in the workflow\r\n* Hugging Face speedup\r\n\r\n### plugins\r\n* LiteLLM generator by @Tien-Cheng in https://github.com/leondz/garak/pull/572\r\n* Support for using 'langchain serve' endpoints by @GustavFredrikson in https://github.com/leondz/garak/pull/588\r\n* Enable parallel OpenAI calls by @jmartin-tech in https://github.com/leondz/garak/pull/645\r\n* Multi-modal Jailbreaking Attack on LLaVA by @DavidLee528 in https://github.com/leondz/garak/pull/587\r\n* bump openai module version to match paths in latest litellm by @leondz in https://github.com/leondz/garak/pull/664\r\n* generator: NIM by @leondz in https://github.com/leondz/garak/pull/637\r\n* Probe: Do Not Answer by @AhsanAyub in https://github.com/leondz/garak/pull/608\r\n\r\n### architecture\r\n* change supported pythons to 3.10-3.12 by @leondz in https://github.com/leondz/garak/pull/503\r\n* add more detailed TAP docs by @leondz in https://github.com/leondz/garak/pull/504\r\n* add multiple-result aggregator by @leondz in https://github.com/leondz/garak/pull/505\r\n* add post buff hook by @erickgalinkin in https://github.com/leondz/garak/pull/506\r\n* Add fleshed-out docs to all probes by @leondz in https://github.com/leondz/garak/pull/507\r\n* add bibtex under citation info in readme by @leondz in https://github.com/leondz/garak/pull/511\r\n* define broad test, all probes, 1 gen per by @leondz in https://github.com/leondz/garak/pull/514\r\n* Feature/taxonomy payloads by @leondz in https://github.com/leondz/garak/pull/519\r\n* include paraphrasing in broad conf by @leondz in https://github.com/leondz/garak/pull/521\r\n* choose whether buffing will also include the original prompt by @leondz in https://github.com/leondz/garak/pull/523\r\n* add config var for capping max # buffed prompts to add per buff by @leondz in https://github.com/leondz/garak/pull/526\r\n* document Probe.probe(); skip a buff hook if no buffs by @leondz in https://github.com/leondz/garak/pull/527\r\n* add type hints to base.Probe; fix base probe rst by @leondz in https://github.com/leondz/garak/pull/528\r\n* Bump datasets package by @shubhobm in https://github.com/leondz/garak/pull/536\r\n* Add ConversationalPipeline for huggingface models by @erickgalinkin in https://github.com/leondz/garak/pull/539\r\n* add generator for supporting openai module v0.x by @leondz in https://github.com/leondz/garak/pull/553\r\n* Update README.md by @erickgalinkin in https://github.com/leondz/garak/pull/558\r\n* Minor typo in FAQ by @jmartin-tech in https://github.com/leondz/garak/pull/562\r\n* Add additional error message when __doc__ is None type by @DavidLee528 in https://github.com/leondz/garak/pull/566\r\n* shared constant & string literal by @jmartin-tech in https://github.com/leondz/garak/pull/571\r\n* Spelling corrections for multiple locations by @jmartin-tech in https://github.com/leondz/garak/pull/564\r\n* Reduce Huggingface GPU utilization by @erickgalinkin in https://github.com/leondz/garak/pull/567\r\n* skip `verbose` flag in secondary parser by @jmartin-tech in https://github.com/leondz/garak/pull/576\r\n* Added project twitter link and corrected a grammatic error by @codebrain001 in https://github.com/leondz/garak/pull/578\r\n* Convert GGML to expect GGUF format by @jmartin-tech in https://github.com/leondz/garak/pull/581\r\n* Update workflows: CLA asst bump, PR & manual testing by @leondz in https://github.com/leondz/garak/pull/591\r\n* add test de-duping using skip-duplicate-actions by @leondz in https://github.com/leondz/garak/pull/597\r\n* Remove `#!` entries from files not intended as executables by @jmartin-tech in https://github.com/leondz/garak/pull/612\r\n* Further align shebangs with code that has executable entry points by @leondz in https://github.com/leondz/garak/pull/613\r\n* interactive mode intro by @leondz in https://github.com/leondz/garak/pull/614\r\n* add tests for `ggml` generator by @jmartin-tech in https://github.com/leondz/garak/pull/618\r\n* add var for generator context_len and populate this for some generators by @leondz in https://github.com/leondz/garak/pull/616\r\n* allow generators.Base.generate() to take an optional param specifying generation count by @leondz in https://github.com/leondz/garak/pull/600\r\n* Enable windows tests as github action by @jmartin-tech in https://github.com/leondz/garak/pull/626\r\n* add on-demand macos testing by @leondz in https://github.com/leondz/garak/pull/631\r\n* macOS test install from correct path by @jmartin-tech in https://github.com/leondz/garak/pull/633\r\n* consolidate test file cleanup by @jmartin-tech in https://github.com/leondz/garak/pull/634\r\n* bump discord link by @leondz in https://github.com/leondz/garak/pull/648\r\n* meta the arguments a bit for GET vs other request types by @jmartin-tech in https://github.com/leondz/garak/pull/640\r\n\r\n### stability\r\n* fail gracefully if nvcf rejects input; compact zalgo prompts by @leondz in https://github.com/leondz/garak/pull/509\r\n* log & skip past NVCF 4xx errors by @leondz in https://github.com/leondz/garak/pull/533\r\n* fix empty autodan prompts & poor detector behaviour by @leondz in https://github.com/leondz/garak/pull/534\r\n* Fix AutoDAN issues by @erickgalinkin in https://github.com/leondz/garak/pull/537\r\n* fix bad nonetype handling in atkgen probe by @leondz in https://github.com/leondz/garak/pull/538\r\n* Division by zero error fixed in HTML report generation by @CoderMayhem in https://github.com/leondz/garak/pull/545\r\n* cap cohere lib version by @leondz in https://github.com/leondz/garak/pull/569\r\n* rm deprecated model from example by @leondz in https://github.com/leondz/garak/pull/575\r\n* Attack fixes by @erickgalinkin in https://github.com/leondz/garak/pull/555\r\n* More regex as string literal by @jmartin-tech in https://github.com/leondz/garak/pull/586\r\n* Bugfix/action dedupe by @leondz in https://github.com/leondz/garak/pull/598\r\n* wrap cli exec to gracefully catch keyboard exit signal by @jmartin-tech in https://github.com/leondz/garak/pull/603\r\n* Enforce warning output for `garak` classes. by @jmartin-tech in https://github.com/leondz/garak/pull/605\r\n* bump hf transformers v to avoid transformers#30076 by @leondz in https://github.com/leondz/garak/pull/636\r\n* update avidtools to remove typing reference by @jmartin-tech in https://github.com/leondz/garak/pull/639\r\n* torch v bump by @leondz in https://github.com/leondz/garak/pull/649\r\n* Pause FigStepTiny by @leondz in https://github.com/leondz/garak/pull/652\r\n* Bugfix/visual jailbreak pause by @leondz in https://github.com/leondz/garak/pull/653\r\n* limit push test to main by @jmartin-tech in https://github.com/leondz/garak/pull/661\r\n* Update MANIFEST.in so all resources are installed by @JKL98ISR in https://github.com/leondz/garak/pull/660\r\n* handle extant but closed `hitlogfile` file by @leondz in https://github.com/leondz/garak/pull/665\r\n\r\n\r\n## New Contributors\r\n* @CoderMayhem made their first contribution in https://github.com/leondz/garak/pull/545\r\n* @jmartin-tech made their first contribution in https://github.com/leondz/garak/pull/562\r\n* @codebrain001 made their first contribution in https://github.com/leondz/garak/pull/578\r\n* @Tien-Cheng made their first contribution in https://github.com/leondz/garak/pull/572\r\n* @GustavFredrikson made their first contribution in https://github.com/leondz/garak/pull/588\r\n* @JKL98ISR made their first contribution in https://github.com/leondz/garak/pull/660\r\n* @AhsanAyub made their first contribution in https://github.com/leondz/garak/pull/608\r\n\r\n**Full Changelog**: https://github.com/leondz/garak/compare/v0.9.0.12...v0.9.0.13"
     },
     "https://github.com/Ekultek/WhatWaf": {
         "created_at": "2019-12-01 09:42:24",
@@ -25640,12 +25640,12 @@
         "release_message": "# 更新日志\r\n\r\n看到网上并没有很好的二进制文件切割&合并工具，于是自己写一个\r\n\r\n- **更加灵活的切割和合并二进制文件**\r\n- **使用 Python，可以跨平台运行**"
     },
     "https://github.com/future-architect/vuls": {
-        "created_at": "2024-03-22 07:27:34",
+        "created_at": "2024-05-10 08:32:40",
         "description": "Agent-less vulnerability scanner for Linux, FreeBSD, Container, WordPress, Programming language libraries, Network devices",
-        "commit_message": "chore(deps): bump golang.org/x/oauth2 from 0.19.0 to 0.20.0 (#1910)\n\nBumps [golang.org/x/oauth2](https://github.com/golang/oauth2) from 0.19.0 to 0.20.0.\r\n- [Commits](https://github.com/golang/oauth2/compare/v0.19.0...v0.20.0)\r\n\r\n---\r\nupdated-dependencies:\r\n- dependency-name: golang.org/x/oauth2\r\n  dependency-type: direct:production\r\n  update-type: version-update:semver-minor\r\n...\r\n\r\nSigned-off-by: dependabot[bot] <support@github.com>\r\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
-        "commit_date": "2024-05-07 22:10:05",
-        "release_date": "2024-03-22 07:59:36",
-        "release_message": "This release includes one additional feature and some bug fixes.\r\nIf you use Amazon Linux 2023, you have to harry to update.\r\n\r\n## New feature\r\n* Some enterprise features of WPScan are now added to scan results.\r\n  - 50580f6 feat(wpscan): support enterprise feature (#1875)\r\n\r\n## (Potential) Incompatibilities\r\n* Names and Versions of JAR-like files of scan results can be overwritten at `vuls result` phase.\r\n  - These values after `vuls scan` phase may be incorrect or insufficient because Trivy's Java DB is not used at the phase.\r\n  - Correct them at `vuls report` phase with the help of Java DB.\r\n  - 99cf9db feat(detector/library): update JAR-like files' Name/Version in library list (#1874)\r\n\r\n## Bug fixes\r\n* Amazon Linux 2023 have changed its release version format in `/etc/amazon-linux-release`\r\n  - It causes inability of EOL detection at `vuls scan` phase and failure of vulnerability detection at `vuls report` phase.\r\n  - No vulnerabilities are detected unless this bug fix, please update quickly if you use Amazon Linux 2023.\r\n  - e1df74c fix(amazon): use major version for checking eol, security advisories (#1873)\r\n\r\n## Misc Changes\r\n* e25ec99 chore(deps): bump github.com/aws/aws-sdk-go from 1.49.21 to 1.51.5 (#1881)\r\n* 472df0e chore(deps): update dictionary modules (#1877)\r\n* 7d5a47b chore(deps): bump github.com/docker/docker (#1880)\r\n* 426eb53 chore(deps): bump github.com/jackc/pgx/v5 from 5.5.1 to 5.5.4 (#1872)\r\n* bda089b chore(deps): bump google.golang.org/protobuf from 1.32.0 to 1.33.0 (#1871)\r\n* 02d1f6f chore(deps): bump golang.org/x/oauth2 from 0.17.0 to 0.18.0 (#1868)\r\n\r\n## New Contributors\r\n* @future-ryunosuketanai made their first contribution in https://github.com/future-architect/vuls/pull/1875\r\n\r\n**Full Changelog**: https://github.com/future-architect/vuls/compare/v0.25.1...v0.25.2"
+        "commit_message": "feat(detect/redhat): detect unpatched vulnerabilities with oval, stop using gost (#1907)\n\n* feat(oval/redhat): detect not fixed package\r\n\r\n* feat(gost/redhat): stop using to detect unpatched vulnerabilities",
+        "commit_date": "2024-05-10 08:32:40",
+        "release_date": "2024-05-10 10:04:25",
+        "release_message": "## Changelog\n* ef2be3d feat(detect/redhat): detect unpatched vulnerabilities with oval, stop using gost (#1907)\n* 827f2cb chore(deps): bump golang.org/x/oauth2 from 0.19.0 to 0.20.0 (#1910)\n* 4cb4ec4 chore(deps): bump golang.org/x/text from 0.14.0 to 0.15.0 (#1909)\n* 81f3d5f chore(deps): bump go.etcd.io/bbolt from 1.3.9 to 1.3.10 (#1908)\n* f3f6671 feat(ubuntu): add 24.04 noble (#1878)\n* bca59ff chore(deps): bump github.com/hashicorp/go-getter from 1.7.3 to 1.7.4 (#1903)\n* 3f98fbc style(log) fix trivy scan page link (#1902)\n* 73dc95f fix(detector/suse): support when advisory.cves has both NVD and SUSE evaluations (#1899)\n* 04bdaab chore(deps): bump golang.org/x/net from 0.22.0 to 0.23.0 (#1898)\n* 8f40251 (fix) Exclude dev dependencies from npm's package-lock.json and Fix Java DB download endpoint (#1893)\n* cfbe47b chore: fix some typos in comments (#1897)\n* a6cafab style(log) config.toml template docs url (#1894)\n* d1137ad chore(deps): bump github.com/emersion/go-smtp from 0.21.0 to 0.21.1 (#1896)\n* 6181e1c chore(deps): bump golang.org/x/sync from 0.6.0 to 0.7.0 (#1890)\n* 5f0abc9 chore(deps): bump golang.org/x/oauth2 from 0.18.0 to 0.19.0 (#1891)\n* 3cdd2e1 chore(deps): bump github.com/emersion/go-smtp from 0.20.2 to 0.21.0 (#1888)\n* 867bf63 TLS insecure option adding (#1220)\n* 5d5dcd5 chore(deps): bump github.com/aquasecurity/trivy from 0.49.1 to 0.50.1 (#1885)\n\n"
     },
     "https://github.com/cve-search/cve-search": {
         "created_at": "2024-04-16 13:52:41",
@@ -25730,10 +25730,12 @@
         "release_message": "## 1.8.7 更新记录\r\n1. HawkX爬虫引擎更新，页面分析更加精细化, 完善部分场景下的 POST流量捕获\r\n2. 爬虫结果新增报文详情页面\r\n3. 爬虫结果新增URL导出功能\r\n4. 移除HTML漏洞报告导出的数量限制\r\n5. 越权插件鉴权方式配置修改为headers\r\n6. EZ Web表单暴破插件新增字典文件配置"
     },
     "https://github.com/kvesta/vesta": {
-        "created_at": "2022-12-03 07:31:51",
+        "created_at": "2024-04-03 12:43:11",
         "description": "A static analysis of vulnerabilities, Docker and Kubernetes cluster configuration detect toolkit based on the real penetration of cloud computing",
         "commit_message": "Merge pull request #50 from christasa/develop\n\nAdd the checking of liblzma.so backdoor",
-        "commit_date": "2024-04-03 12:43:11"
+        "commit_date": "2024-04-03 12:43:11",
+        "release_date": "2024-04-21 09:33:28",
+        "release_message": "Notable Updates:\r\n- **Add `CVE-2024-21626` checking**\r\nChecking the mount path, due to the variety of fd number, vesta checks the key path `/proc/self/fd` in WORKDIR.\r\n- **Add `CVE-2024-3094` checking**\r\nChecking the library liblzma.so, refer to [detect.sh](https://www.openwall.com/lists/oss-security/2024/03/29/4/3)\r\n- **Add the severity of each Linux capabilities**\r\nReorder the security severity for different Capabilities based on the ease of  exploitation.\r\n\r\n\r\n\r\n\r\n| md5 | filename |\r\n| --- | --- |\r\n| 7ea0d98f1a9fcb8917cd9834fd51c08e |  vesta_darwin_amd64 |\r\n| ff58c0fba46ab9e4ac083283de1c5072 | vesta_linux_amd64 |\r\n| f8b5b16689ff0dd460a81989970dbcab | vesta_windows_amd64.exe | "
     },
     "https://github.com/Clouditera/secgpt": {
         "created_at": "2023-11-20 05:41:24",
@@ -27058,7 +27060,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "52.234.38.32属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "52.238.27.70属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
@@ -27257,8 +27259,8 @@
         "description": "Find Missing Patches"
     },
     "https://www.pan131.com/": {
-        "status_code": 500,
-        "description": "500 Internal Server Error"
+        "status_code": 200,
+        "description": "百度云搜索,百度网盘云盘资源搜索引擎 - 盘131"
     },
     "http://whois.alexa.cn/": {
         "status_code": 200,
@@ -27647,5 +27649,61 @@
         "description": "哥们上世纪写emoji-aes脚本",
         "commit_message": "Create burst_emoji_aes.py",
         "commit_date": "2024-02-24 04:30:32"
+    },
+    "https://ctfever.uniiem.com/tools/core-values-cipher": {
+        "status_code": 200,
+        "description": "CTFever Toolkit by uniiem"
+    },
+    "https://github.com/Byxs20/PuzzleSolver": {
+        "created_at": "2024-02-11 11:04:42",
+        "description": "一款针对CTF竞赛MISC的工具~",
+        "commit_message": "更新: README.md",
+        "commit_date": "2024-02-11 11:04:42",
+        "release_date": "2024-05-10 02:02:15",
+        "release_message": "PS：由于有人公开号召逆向我软件的所有代码，所以本人目前停止后续版本的分享！\r\n\r\n🆕2024.5.3终止 `Lv60` 免费入群\r\n🐧交流群：`761594154` ，群等级 `Lv60` 以上（包括`Lv60`）可以免费拿软件；如果不想要活跃群去获得软件，当然可以走捷径，捐赠 `50` ，后续本人有时间软件会继续更新。\r\n\r\n```\r\nVersion 2.0.6 更新日志：\r\n1）新增：\r\n  `流量处理` 功能区 `Behinder`, `Godzilla`, `BruteForceTraffic` 添加 `按钮Url解码````\r\n```\r\n\r\n效果图：\r\n<img width=\"752\" alt=\"ad97f524755b88c0eccd508e3c06f3d2\" src=\"https://github.com/Byxs20/PuzzleSolver/assets/64669718/5724df90-095a-4ef8-ab30-972794a34faa\">"
+    },
+    "https://ctfever.uniiem.com/tools/pseudo-encrypted-zip-check": {
+        "status_code": 200,
+        "description": "CTFever Toolkit by uniiem"
+    },
+    "https://ctfever.uniiem.com/tools/vigenereCipher": {
+        "status_code": 200,
+        "description": "CTFever Toolkit by uniiem"
+    },
+    "https://ctfever.uniiem.com/tools/rot-series": {
+        "status_code": 200,
+        "description": "CTFever Toolkit by uniiem"
+    },
+    "https://achorein.github.io/silenteye/": {
+        "status_code": 200,
+        "description": "SilentEye - Steganography is yours"
+    },
+    "https://ctfever.uniiem.com/tools/jsfuck": {
+        "status_code": 200,
+        "description": "CTFever Toolkit by uniiem"
+    },
+    "https://ctfever.uniiem.com/tools/morse-code": {
+        "status_code": 200,
+        "description": "CTFever Toolkit by uniiem"
+    },
+    "https://ctfever.uniiem.com/tools/brain-fuck": {
+        "status_code": 200,
+        "description": "CTFever Toolkit by uniiem"
+    },
+    "https://ctfever.uniiem.com/tools/pigpen": {
+        "status_code": 200,
+        "description": "CTFever Toolkit by uniiem"
+    },
+    "https://ctfever.uniiem.com/tools/rail-fence-cipher": {
+        "status_code": 200,
+        "description": "CTFever Toolkit by uniiem"
+    },
+    "https://ctfever.uniiem.com/tools/pyc-decompiler": {
+        "status_code": 200,
+        "description": "CTFever Toolkit by uniiem"
+    },
+    "https://merri.cx/qrazybox/": {
+        "status_code": 200,
+        "description": "QRazyBox - QR Code Analysis and Recovery Toolkit"
     }
 }
