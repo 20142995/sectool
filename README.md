@@ -1571,6 +1571,7 @@
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [shellcodeloader v1.1](https://github.com/knownsec/shellcodeloader) shellcodeloader
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [anti-av](https://github.com/alphaSeclab/anti-av) Resources About Anti-Virus and Anti-Anti-Virus, including 200+ tools and 13...
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [encdecshellcode](https://github.com/blacknbunny/encdecshellcode) Shellcode Encrypter & Decrypter via XOR Cipher
+- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [RingQ](https://github.com/T4y1oR/RingQ) 
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [bypassAV](https://github.com/cseroad/bypassAV) 
 ##### 免杀相关
 ###### 图标提取
@@ -2154,6 +2155,7 @@
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [xssed](https://github.com/aj00200/xssed) A set of XSS vulnerable PHP scripts for testing
 - <img src="https://favicon.qqsuu.cn/dvwa.co.uk" alt="" style="height: 20px;"> [dvwa.co.uk](https://dvwa.co.uk/) 
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [DVWA](https://github.com/RandomStorm/DVWA) 
+- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [vultrap](https://github.com/liqzz/vultrap) 
 - <img src="https://favicon.qqsuu.cn/hackmyvm.eu" alt="" style="height: 20px;"> [HackMyVM | Anonymous](https://hackmyvm.eu/anon/) 
 - <img src="https://favicon.qqsuu.cn/www.pentesterlab.com" alt="" style="height: 20px;"> [PentesterLab: Learn Web App Pentesting!](https://www.pentesterlab.com/exercises/web_for_pentester/course) 
 #### 主机入侵检测
@@ -2270,6 +2272,7 @@
 ###### 综合
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [d-eyes v1.1.0](https://github.com/m-sec-org/d-eyes) D-Eyes为M-SEC社区一款检测与响应工具
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [YingJiXiangYing](https://github.com/reto18052015/YingJiXiangYing) 应急响应
+- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [FindAll](https://github.com/FindAllTeam/FindAll) 
 ###### 进程监控
 - <img src="https://favicon.qqsuu.cn/processhacker.sourceforge.io" alt="" style="height: 20px;"> [Overview - Process Hacker](https://processhacker.sourceforge.io/) 
 ##### 勒索病毒在线分析
@@ -2537,3 +2540,5 @@
 ### RPC
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [sekiro-open](https://github.com/yint-tech/sekiro-open) SEKIRO is a multi-language, distributed, network topology-independent s...
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [JsRpc v1.02](https://github.com/jxhczhl/JsRpc) 远程调用(rpc)浏览器方法，免去抠代码补环境
+### cookie hook
+- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [js-cookie-monitor-debugger-hook](https://github.com/JSREI/js-cookie-monitor-debugger-hook) 

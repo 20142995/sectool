@@ -1554,6 +1554,7 @@
                     - https://github.com/M-Kings/BypassAv-web
                     - https://github.com/Pizz33/GobypassAV-shellcode
                     - https://github.com/Pizz33/Qianji
+                    - https://github.com/T4y1oR/RingQ
                     - https://github.com/TideSec/BypassAntiVirus
                     - https://github.com/TideSec/GoBypassAV
                     - https://github.com/Yeuoly/0xUBypass
@@ -2147,6 +2148,7 @@
                 - https://github.com/j3ers3/Hello-Java-Sec
                 - https://github.com/lemono0/FastJsonParty
                 - https://github.com/linjiananallnt/ElectricRat
+                - https://github.com/liqzz/vultrap
                 - https://github.com/psiinon/bodgeit
                 - https://github.com/stamparm/DSVW
                 - https://github.com/tangxiaofeng7/SecExample
@@ -2267,6 +2269,7 @@
                     异常检测:
                         - https://github.com/RoomaSec/RmTools
                     综合:
+                        - https://github.com/FindAllTeam/FindAll
                         - https://github.com/m-sec-org/d-eyes
                         - https://github.com/reto18052015/YingJiXiangYing
                     进程监控:
@@ -2536,3 +2539,5 @@
         RPC:
             - https://github.com/jxhczhl/JsRpc
             - https://github.com/yint-tech/sekiro-open
+        cookie hook:
+            - https://github.com/JSREI/js-cookie-monitor-debugger-hook
