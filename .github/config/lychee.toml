@@ -102,6 +102,7 @@ exclude = [
     "https://reverseip.domaintools.com/",
     "https://tools.ipip.net/ipdomain.php",
     "https://dnsdb.io/",
+    "https://www.fujieace.com/hacker/tools/yujian.html",
 ]
 
 # Exclude URLs contained in a file from checking
