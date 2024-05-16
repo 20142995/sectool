@@ -2192,8 +2192,8 @@
     "https://github.com/Threekiii/Awesome-POC": {
         "created_at": "2024-01-31 00:46:17",
         "description": "一个漏洞POC知识库",
-        "commit_message": "update weblogic cve-2019-2725",
-        "commit_date": "2024-04-22 06:33:53",
+        "commit_message": "fix middleware",
+        "commit_date": "2024-05-08 05:40:23",
         "release_date": "2024-03-27 14:28:44",
         "release_message": "2023.04.01 重构目录，合并 [Vulhub-Reproduce](https://github.com/Threekiii/Vulhub-Reproduce) 与本仓库。此为合并前 release。"
     },
@@ -2339,12 +2339,12 @@
         "release_message": ""
     },
     "https://github.com/FunnyWolf/Viper": {
-        "created_at": "2024-04-21 06:34:41",
+        "created_at": "2024-05-09 01:51:24",
         "description": "Attack Surface Management & Red Team Simulation Platform 互联网攻击面管理&红队模拟平台",
-        "commit_message": "update version 2024-04-21-13-52-18",
-        "commit_date": "2024-04-21 06:34:41",
-        "release_date": "2024-04-21 06:35:49",
-        "release_message": "## v2.2.1 2024-04-21-13-52-18\r\n\r\n### 新功能\r\n\r\n- 新增`通用配置`界面,可以配置`网络搜索引擎`,`wafw00f`相关配置\r\n\r\n### 优化\r\n\r\n- `服务状态`新增wafw00f检查\r\n- 未登录时访问导航页自动跳转\r\n- nuclei支持设置漏洞级别及并发数\r\n- 更新360 Quake接口\r\n- 优化wafw00f性能(gevent)\r\n- 优化模块报错时前端错误提示\r\n- 解释器更新到python3.12及pip依赖包更新到最新版本\r\n- 合并metasploit-framework 6.4.6版本\r\n\r\n### Bugfix\r\n\r\n- fix https://github.com/FunnyWolf/Viper/issues/207\r\n- fix 低概率生成C代码时出现编码错误"
+        "commit_message": "update 2024-05-08-17-00-11",
+        "commit_date": "2024-05-09 01:56:10",
+        "release_date": "2024-05-09 01:52:27",
+        "release_message": "### 优化\r\n\r\n- 调整`互联网攻击面`整体架构\r\n- 优化`网络资产`搜索功能\r\n- 优化`互联网攻击面`数据存储效率\r\n- 适配Quake新API接口\r\n\r\n### Bugfix\r\n\r\n- fix 模块无法使用新建立的监听问题\r\n- fix 无法使用`反溯源`\r\n- fix 主机性能不足时新建监听超时问题"
     },
     "https://github.com/kost/dvcs-ripper": {
         "created_at": "2012-10-23 04:55:18",
@@ -3012,8 +3012,8 @@
     "https://github.com/zan8in/afrog": {
         "created_at": "2024-04-30 08:00:52",
         "description": "A Security Tool for Bug Bounty, Pentest and Red Teaming.",
-        "commit_message": "version 3.0.5",
-        "commit_date": "2024-04-30 07:57:42",
+        "commit_message": "update poc & fix oob ceye validate bug",
+        "commit_date": "2024-05-11 07:12:08",
         "release_date": "2024-04-30 08:06:32",
         "release_message": "修复一个BUG，该BUG导致在Linux环境内使用 -ap 命令时，指定路径全部转为小写，从而无法正常工作。\r\nFix a bug where the -ap command cannot be used due to all specified paths being converted to lowercase within the Linux environment."
     },
@@ -3916,12 +3916,12 @@
         "release_message": "## Changelog\n* 8016b821a fix(fs): handle default skip dirs properly (#6628)\n* 7a25dadb4 fix(misconf): load cached tf modules (#6607)\n* 9c794c0ff fix(misconf): do not use semver for parsing tf module versions (#6614)\n\n"
     },
     "https://github.com/anchore/grype": {
-        "created_at": "2024-05-01 16:20:42",
+        "created_at": "2024-05-09 20:41:38",
         "description": "A vulnerability scanner for container images and filesystems",
-        "commit_message": "chore(deps): bump github.com/docker/docker (#1839)\n\nBumps [github.com/docker/docker](https://github.com/docker/docker) from 26.1.0+incompatible to 26.1.1+incompatible.\r\n- [Release notes](https://github.com/docker/docker/releases)\r\n- [Commits](https://github.com/docker/docker/compare/v26.1.0...v26.1.1)\r\n\r\n---\r\nupdated-dependencies:\r\n- dependency-name: github.com/docker/docker\r\n  dependency-type: direct:production\r\n  update-type: version-update:semver-patch\r\n...\r\n\r\nSigned-off-by: dependabot[bot] <support@github.com>\r\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
-        "commit_date": "2024-05-01 16:38:31",
-        "release_date": "2024-05-01 16:28:23",
-        "release_message": "### Bug Fixes\n\n- update ignored vulnerability count in tui [[#1837](https://github.com/anchore/grype/pull/1837) @kzantow]\n- SARIF output not compatible with GitHub [[#1518](https://github.com/anchore/grype/issues/1518) [#1838](https://github.com/anchore/grype/pull/1838) @kzantow]\n\n**[(Full Changelog)](https://github.com/anchore/grype/compare/v0.77.1...v0.77.2)**\n\n"
+        "commit_message": "chore(deps): update tools to latest versions (#1862)\n\nSigned-off-by: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>\r\nCo-authored-by: westonsteimel <1593939+westonsteimel@users.noreply.github.com>",
+        "commit_date": "2024-05-14 15:27:55",
+        "release_date": "2024-05-09 20:49:23",
+        "release_message": "### Additional Changes\n\n- update Syft to v1.4.1 [[#1855](https://github.com/anchore/grype/pull/1855) @anchore-actions-token-generator]\n\n**[(Full Changelog)](https://github.com/anchore/grype/compare/v0.77.3...v0.77.4)**\n\n"
     },
     "https://github.com/Metarget/metarget": {
         "created_at": "2021-04-09 04:20:47",
@@ -5634,12 +5634,12 @@
         "release_message": ""
     },
     "https://github.com/fatedier/frp": {
-        "created_at": "2024-04-09 03:46:58",
+        "created_at": "2024-05-07 10:09:24",
         "description": "A fast reverse proxy to help you expose a local server behind a NAT or firewall to the internet.",
-        "commit_message": "Makefile.cross-compiles: Fix softfloat flag not being honored for mipsle. (#4176)",
-        "commit_date": "2024-04-22 11:50:58",
-        "release_date": "2024-04-09 03:52:37",
-        "release_message": "### Features\n\n* `https2http` and `https2https` plugin now supports `X-Forwared-For` header.\n\n### Fixes\n\n* `X-Forwared-For` header is now correctly set in the request to the backend server for proxy type http.\n\n"
+        "commit_message": "update build-and-push-image.yml (#4206)",
+        "commit_date": "2024-05-07 11:14:09",
+        "release_date": "2024-05-07 10:15:36",
+        "release_message": "### Notable Changes\n\nWe have optimized the heartbeat mechanism when tcpmux is enabled (enabled by default). The default value of `heartbeatInterval` has been adjusted to -1. This update ensures that when tcpmux is active, the client does not send additional heartbeats to the server. Since tcpmux incorporates its own heartbeat system, this change effectively reduces unnecessary data consumption, streamlining communication efficiency between client and server.\n\nWhen connecting to frps versions older than v0.39.0 might encounter compatibility issues due to changes in the heartbeat mechanism. As a temporary workaround, setting the `heartbeatInterval` to 30 can help maintain stable connectivity with these older versions. We recommend updating to the latest frps version to leverage full functionality and improvements.\n\n### Features\n\n* Show tcpmux proxies on the frps dashboard.\n* `http` proxy can modify the response header. For example, `responseHeaders.set.foo = \"bar\"` will add a new header `foo: bar` to the response.\n\n### Fixes\n\n* When an HTTP proxy request times out, it returns 504 instead of 404 now.\n\n"
     },
     "https://github.com/gentilkiwi/mimikatz": {
         "created_at": "2014-04-06 18:30:02",
@@ -7723,11 +7723,11 @@
         "release_message": ""
     },
     "https://github.com/yaklang/yakit": {
-        "created_at": "2024-05-10 08:31:10",
+        "created_at": "2024-05-14 03:26:37",
         "description": "Cyber Security ALL-IN-ONE Platform",
-        "commit_message": "v1.3.2-sp3",
-        "commit_date": "2024-05-10 08:31:10",
-        "release_date": "2024-05-10 08:50:39",
+        "commit_message": "Song/feat/web fuzzer table color filter (#1651)\n\n* feat：webFuzzer表格支持颜色筛选\r\n\r\n* fix: history表切换页面，导致选中状态消失\r\n\r\n* fix: webFuzzer表格颜色筛选条件判断",
+        "commit_date": "2024-05-15 02:49:44",
+        "release_date": "2024-05-14 03:44:41",
         "release_message": ""
     },
     "https://github.com/bartblaze/Yara-rules": {
@@ -10480,8 +10480,8 @@
     "https://github.com/BishopFox/sliver": {
         "created_at": "2024-02-28 19:43:18",
         "description": "Adversary Emulation Framework",
-        "commit_message": "Merge pull request #1679 from BishopFox/v1.6.0/fix-console-hang\n\nFix #1668",
-        "commit_date": "2024-05-10 14:31:13",
+        "commit_message": "Merge pull request #1685 from BishopFox/47b6dependabot/go_modules/google.golang.org/protobuf-1.34.1\n\nBump google.golang.org/protobuf from 1.34.0 to 1.34.1",
+        "commit_date": "2024-05-13 17:13:32",
         "release_date": "2024-02-28 20:00:27",
         "release_message": "Fix for DNS C2, and other small backports. Hoping to have a v1.6 release soon with many more updates!"
     },
@@ -22591,12 +22591,12 @@
         "release_message": ""
     },
     "https://github.com/DeEpinGh0st/WindowsBaselineAssistant": {
-        "created_at": "2024-03-11 05:48:25",
+        "created_at": "2024-05-12 14:14:27",
         "description": "Windows安全基线核查加固助手",
-        "commit_message": "发布v1.2.2",
-        "commit_date": "2024-03-11 05:48:25",
-        "release_date": "2024-03-11 05:55:15",
-        "release_message": "- 添加日志记录\r\n- 添加tips用于显示软件界面没体现的功能及注意事项\r\n- 调整secedit中间文件到APPDATA\r\n- SHA1: EA6C9EE3A6A1FEC43F014CF5EB3F7A3CC641A50D"
+        "commit_message": "发布v1.2.3",
+        "commit_date": "2024-05-12 14:14:27",
+        "release_date": "2024-05-12 14:22:08",
+        "release_message": "- 开发框架由.Net Framework 4.0切换为.Net 8\r\n- 采用R2R发布,运行环境已集成到exe中\r\n- 界面上的细小调整\r\n- SHA1: 2AAF1F0DFB7C2ABA175475D834CFCC48A3BB79A8\r\n\r\n由于框架跨度较大，可能会存在BUG。欢迎提交issue"
     },
     "https://github.com/yqcs/prismx": {
         "created_at": "2024-04-15 04:59:10",
@@ -25642,10 +25642,10 @@
     "https://github.com/future-architect/vuls": {
         "created_at": "2024-05-10 08:32:40",
         "description": "Agent-less vulnerability scanner for Linux, FreeBSD, Container, WordPress, Programming language libraries, Network devices",
-        "commit_message": "feat(detect/redhat): detect unpatched vulnerabilities with oval, stop using gost (#1907)\n\n* feat(oval/redhat): detect not fixed package\r\n\r\n* feat(gost/redhat): stop using to detect unpatched vulnerabilities",
-        "commit_date": "2024-05-10 08:32:40",
+        "commit_message": "feat(scanner/redhat): each package has modularitylabel (#1381)",
+        "commit_date": "2024-05-15 17:54:02",
         "release_date": "2024-05-10 10:04:25",
-        "release_message": "## Changelog\n* ef2be3d feat(detect/redhat): detect unpatched vulnerabilities with oval, stop using gost (#1907)\n* 827f2cb chore(deps): bump golang.org/x/oauth2 from 0.19.0 to 0.20.0 (#1910)\n* 4cb4ec4 chore(deps): bump golang.org/x/text from 0.14.0 to 0.15.0 (#1909)\n* 81f3d5f chore(deps): bump go.etcd.io/bbolt from 1.3.9 to 1.3.10 (#1908)\n* f3f6671 feat(ubuntu): add 24.04 noble (#1878)\n* bca59ff chore(deps): bump github.com/hashicorp/go-getter from 1.7.3 to 1.7.4 (#1903)\n* 3f98fbc style(log) fix trivy scan page link (#1902)\n* 73dc95f fix(detector/suse): support when advisory.cves has both NVD and SUSE evaluations (#1899)\n* 04bdaab chore(deps): bump golang.org/x/net from 0.22.0 to 0.23.0 (#1898)\n* 8f40251 (fix) Exclude dev dependencies from npm's package-lock.json and Fix Java DB download endpoint (#1893)\n* cfbe47b chore: fix some typos in comments (#1897)\n* a6cafab style(log) config.toml template docs url (#1894)\n* d1137ad chore(deps): bump github.com/emersion/go-smtp from 0.21.0 to 0.21.1 (#1896)\n* 6181e1c chore(deps): bump golang.org/x/sync from 0.6.0 to 0.7.0 (#1890)\n* 5f0abc9 chore(deps): bump golang.org/x/oauth2 from 0.18.0 to 0.19.0 (#1891)\n* 3cdd2e1 chore(deps): bump github.com/emersion/go-smtp from 0.20.2 to 0.21.0 (#1888)\n* 867bf63 TLS insecure option adding (#1220)\n* 5d5dcd5 chore(deps): bump github.com/aquasecurity/trivy from 0.49.1 to 0.50.1 (#1885)\n\n"
+        "release_message": "This release includes recently released Ubuntu 24.04 support, some additional features, and several bug fixes.\r\nWe strongly recommend update to this version for Red Hat-like distribution users.\r\nWatch out corresponding goval-dictionary and gost updates!\r\n\r\n## New feature\r\n* Ubuntu 24.04 support comes in\r\n  - Depends on new gost, https://github.com/vulsio/gost/pull/249\r\n  - feat(ubuntu): add 24.04 noble by @MaineK00n in https://github.com/future-architect/vuls/pull/1878\r\n* TLS insecure flag is added for SMTP notification\r\n  - TLS insecure option adding by @Koodt in https://github.com/future-architect/vuls/pull/1220\r\n\r\n## (Potential) Incompatibilities\r\n- Use new gost for Ubuntu 24.04 support (https://github.com/future-architect/vuls/pull/1878)\r\n- Use new goval-dictionary for detection on Red Hat-like distributions (https://github.com/future-architect/vuls/pull/1907)\r\n\r\n## Bug fixes\r\n* For Red Hat-like distributions, there were false-positives and false negatives in detection results\r\n  - See https://github.com/future-architect/vuls/issues/1906 for details\r\n  - Now fixed by the PR: feat(detect/redhat): detect unpatched vulnerabilities with oval, stop using gost by @MaineK00n in https://github.com/future-architect/vuls/pull/1907\r\n* style(log) config.toml template docs url by @future-ryunosuketanai in https://github.com/future-architect/vuls/pull/1894\r\n* style: fix some typos in comments by @deferdeter in https://github.com/future-architect/vuls/pull/1897\r\n* (fix) Exclude dev dependencies from npm's package-lock.json and Fix Java DB download endpoint by @shino in https://github.com/future-architect/vuls/pull/1893\r\n* fix(detector/suse): support when advisory.cves has both NVD and SUSE evaluations by @MaineK00n in https://github.com/future-architect/vuls/pull/1899\r\n* style(log) fix trivy docs link by @future-ryunosuketanai in https://github.com/future-architect/vuls/pull/1902\r\n\r\n## Misc Changes\r\n* chore(deps): bump github.com/hashicorp/go-getter from 1.7.3 to 1.7.4 by @dependabot in https://github.com/future-architect/vuls/pull/1903\r\n* chore(deps): bump golang.org/x/net from 0.22.0 to 0.23.0 by @dependabot in https://github.com/future-architect/vuls/pull/1898\r\n* chore(deps): bump github.com/emersion/go-smtp from 0.20.2 to 0.21.0 by @dependabot in https://github.com/future-architect/vuls/pull/1888\r\n* chore(deps): bump golang.org/x/oauth2 from 0.18.0 to 0.19.0 by @dependabot in https://github.com/future-architect/vuls/pull/1891\r\n* chore(deps): bump golang.org/x/sync from 0.6.0 to 0.7.0 by @dependabot in https://github.com/future-architect/vuls/pull/1890\r\n* chore(deps): bump github.com/emersion/go-smtp from 0.21.0 to 0.21.1 by @dependabot in https://github.com/future-architect/vuls/pull/1896\r\n* chore(deps): bump github.com/aquasecurity/trivy from 0.49.1 to 0.50.1 by @dependabot in https://github.com/future-architect/vuls/pull/1885\r\n* chore(deps): bump go.etcd.io/bbolt from 1.3.9 to 1.3.10 by @dependabot in https://github.com/future-architect/vuls/pull/1908\r\n* chore(deps): bump golang.org/x/text from 0.14.0 to 0.15.0 by @dependabot in https://github.com/future-architect/vuls/pull/1909\r\n* chore(deps): bump golang.org/x/oauth2 from 0.19.0 to 0.20.0 by @dependabot in https://github.com/future-architect/vuls/pull/1910\r\n\r\n\r\n## New Contributors\r\n* @Koodt made their first contribution in https://github.com/future-architect/vuls/pull/1220\r\n* @deferdeter made their first contribution in https://github.com/future-architect/vuls/pull/1897\r\n\r\n**Full Changelog**: https://github.com/future-architect/vuls/compare/v0.25.2...v0.25.3\r\n"
     },
     "https://github.com/cve-search/cve-search": {
         "created_at": "2024-04-16 13:52:41",
@@ -27060,7 +27060,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "52.238.27.70属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "52.238.29.198属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
