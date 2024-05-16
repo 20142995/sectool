@@ -407,9 +407,9 @@
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [CTF-NetA](https://github.com/Arinue/CTF-NetA) CTF-NetA是一款专门针对CTF比赛的网络流量分析工具，可以对常见的网络流量进行分析，快速自动获取flag。
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [PuzzleSolver](https://github.com/Byxs20/PuzzleSolver) 一款针对CTF竞赛MISC的工具~
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [qsnctf-python 0.0.8.10](https://github.com/Moxin1044/qsnctf-python) 青少年CTF的Python包，方便大家调用一些CTF常用功能。
+- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [binwalk v2.3.4](https://github.com/ReFirmLabs/binwalk) Firmware Analysis Tool
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [CTF-Tools v1.3.7](https://github.com/qianxiao996/CTF-Tools) 一款Python+Pyqt写的CTF编码、解码、加密、解密工具。
 - <img src="https://favicon.qqsuu.cn/www.1o1o.xyz" alt="" style="height: 20px;"> [沨](http://www.1o1o.xyz/bo_ctfcode.html) 
-- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [binwalk](https://github.com/devttys0/binwalk) 
 #### 编解码
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [Ciphey 5.14.0](https://github.com/Ciphey/Ciphey) ⚡ Automatically decrypt encryptions without knowing the key or cipher...
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [CyberChef v10.5.2](https://github.com/gchq/CyberChef) The Cyber Swiss Army Knife - a web app for encryption, encoding, ...
@@ -491,7 +491,6 @@
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [LandrayDES V1](https://github.com/zhutougg/LandrayDES) 蓝凌OA的前后台密码的加解密工具
 ###### 通达OA
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [TongdaOATool v1.3](https://github.com/xiaokp7/TongdaOATool) 通达OA漏洞利用工具
-- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [TongdaOATools](https://github.com/xiaokp7/TongdaOATools) 
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [TDOA_RCE v1.0](https://github.com/xinyu2428/TDOA_RCE) 通达OA综合利用工具
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [TongDaOA-Fake-User](https://github.com/NS-Sp4ce/TongDaOA-Fake-User) 通达OA 任意用户登录漏洞
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [TongDa-OA](https://github.com/OA-HUNTER/TongDa-OA) 通达OA一些漏洞点
@@ -548,7 +547,6 @@
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [Struts2Environment](https://github.com/wh1t3p1g/Struts2Environment) Struts2 历史版本的漏洞环境
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [StrutScan](https://github.com/riusksk/StrutScan) Struts2 Vuls Scanner base perl script
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [s2-016-exp](https://github.com/OneSourceCat/s2-016-exp) S2-016 Exploit && Scanner
-- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [STS2G](https://github.com/xwuyi/STS2G) 
 ###### Apache Superset
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [CVE-2023-27524](https://github.com/horizon3ai/CVE-2023-27524) Basic PoC for CVE-2023-27524: Insecure Default Configuration in Apac...
 ###### Apache Tomcat
@@ -579,7 +577,6 @@
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [fastjson_rec_exploit](https://github.com/mrknow001/fastjson_rec_exploit) fastjson一键命令执行
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [fastjson-autotype-bypass-demo](https://github.com/iSafeBlue/fastjson-autotype-bypass-demo) fastjson 1.2.68 版本 autotype bypass
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [FastjsonExploit](https://github.com/c0ny1/FastjsonExploit) Fastjson vulnerability quickly exploits the framework（fastjson漏洞快速利...
-- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [fastjson-exp](https://github.com/skisw/fastjson-exp) 
 ###### Grafana
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [grafanaExp V1.1](https://github.com/A-D-Team/grafanaExp) A exploit tool for Grafana Unauthorized arbitrary file reading vuln...
 ###### Hikvision
@@ -2150,7 +2147,7 @@
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [sqli-labs](https://github.com/Audi-1/sqli-labs) SQLI labs to test error based, Blind boolean based, Time based.
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [xssed](https://github.com/aj00200/xssed) A set of XSS vulnerable PHP scripts for testing
 - <img src="https://favicon.qqsuu.cn/dvwa.co.uk" alt="" style="height: 20px;"> [dvwa.co.uk](https://dvwa.co.uk/) 
-- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [DVWA](https://github.com/RandomStorm/DVWA) 
+- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [DVWA](https://github.com/digininja/DVWA) 
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [vultrap](https://github.com/liqzz/vultrap) 
 - <img src="https://favicon.qqsuu.cn/hackmyvm.eu" alt="" style="height: 20px;"> [HackMyVM | Anonymous](https://hackmyvm.eu/anon/) 
 - <img src="https://favicon.qqsuu.cn/www.pentesterlab.com" alt="" style="height: 20px;"> [PentesterLab: Learn Web App Pentesting!](https://www.pentesterlab.com/exercises/web_for_pentester/course) 
@@ -2189,7 +2186,7 @@
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [DependencyCheck](https://github.com/jeremylong/DependencyCheck) OWASP dependency-check is a software composition analysis utility t...
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [CAudit](https://github.com/Amulab/CAudit) 集权设施扫描器
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [Shell_Script v0.1](https://github.com/xiaoyunjie/Shell_Script) Linux系统的安全，通过脚本对Linux系统进行一键检测和一键加固
-- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [BDA](https://github.com/kotobukki/BDA) 
+- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [daudit](https://github.com/shouc/daudit) 
 ### 应急
 #### Web层面
 ##### webshell后门

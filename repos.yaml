@@ -407,7 +407,7 @@
                 - https://github.com/Byxs20/PuzzleSolver
                 - https://github.com/Leon406/ToolsFx
                 - https://github.com/Moxin1044/qsnctf-python
-                - https://github.com/devttys0/binwalk
+                - https://github.com/ReFirmLabs/binwalk
                 - https://github.com/qianxiao996/CTF-Tools
             编解码:
                 - https://github.com/0Chencc/CTFCrackTools
@@ -492,7 +492,6 @@
                         - https://github.com/NS-Sp4ce/TongDaOA-Fake-User
                         - https://github.com/OA-HUNTER/TongDa-OA
                         - https://github.com/xiaokp7/TongdaOATool
-                        - https://github.com/xiaokp7/TongdaOATools
                         - https://github.com/xinyu2428/TDOA_RCE
                 产品or组件or框架漏洞:
                     Apache Airflow:
@@ -547,7 +546,6 @@
                         - https://github.com/sie504/Struts-S2-xxx
                         - https://github.com/wh1t3p1g/Struts2Environment
                         - https://github.com/xfiftyone/STS2G
-                        - https://github.com/xwuyi/STS2G
                     Apache Superset:
                         - https://github.com/horizon3ai/CVE-2023-27524
                     Apache Tomcat:
@@ -577,7 +575,6 @@
                         - https://github.com/iSafeBlue/fastjson-autotype-bypass-demo
                         - https://github.com/mrknow001/fastjson_rec_exploit
                         - https://github.com/safe6Sec/Fastjson
-                        - https://github.com/skisw/fastjson-exp
                         - https://github.com/smallfox233/JsonExp
                     Grafana:
                         - https://github.com/A-D-Team/grafanaExp
@@ -2124,7 +2121,6 @@
                 - https://github.com/Hackademic/hackademic
                 - https://github.com/LandGrey/SpringBootVulExploit
                 - https://github.com/Medicean/VulApps
-                - https://github.com/RandomStorm/DVWA
                 - https://github.com/SpiderLabs/MCIR
                 - https://github.com/WebGoat/WebGoat
                 - https://github.com/WebGoat/WebGoat-Legacy
@@ -2138,6 +2134,7 @@
                 - https://github.com/cliffe/secgen
                 - https://github.com/cr0hn/vulnerable-node
                 - https://github.com/deadPix3l/CryptSky
+                - https://github.com/digininja/DVWA
                 - https://github.com/f4cknet/pyhackme
                 - https://github.com/fofapro/vulfocus
                 - https://github.com/incredibleindishell/SSRF_Vulnerable_Lab
@@ -2187,7 +2184,7 @@
                 - https://github.com/Amulab/CAudit
                 - https://github.com/DeEpinGh0st/WindowsBaselineAssistant
                 - https://github.com/jeremylong/DependencyCheck
-                - https://github.com/kotobukki/BDA
+                - https://github.com/shouc/daudit
                 - https://github.com/xiaoyunjie/Shell_Script
         应急:
             Web层面:
