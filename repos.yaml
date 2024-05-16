@@ -594,9 +594,7 @@
                         - https://github.com/TheBeastofwar/JenkinsExploit-GUI
                         - https://github.com/blackye/Jenkins
                     JumpServer:
-                        - https://github.com/tarimoe/blackjump
-                    Landray:
-                        - https://github.com/yuanhaiGreg/LandrayExploit
+                        - https://github.com/tarihub/blackjump
                     Nacos:
                         - https://github.com/HKEcho5213/HKEcho_Nacos
                         - https://github.com/c0olw/NacosRce
@@ -767,17 +765,15 @@
                         - https://github.com/ticarpi/jwt_tool
                     SQL注入:
                         - https://github.com/0xbug/SQLiScanner
-                        - https://github.com/D3Ext/AORT
-                        - https://github.com/Hadesy2k/sqliv
+                        - https://github.com/CiscoCXSecurity/bbqsql
                         - https://github.com/JohnTroony/Blisqy
-                        - https://github.com/Neohapsis/bbqsql
                         - https://github.com/NetSPI/PowerUpSQL
                         - https://github.com/WhitewidowScanner/whitewidow
+                        - https://github.com/agienka/blindy
                         - https://github.com/aleenzz/MSSQL_SQL_BYPASS_WIKI
                         - https://github.com/aleenzz/MYSQL_SQL_BYPASS_WIKI
                         - https://github.com/fengxuangit/Fox-scan
                         - https://github.com/honmashironeko/sqlmap-cn
-                        - https://github.com/missDronio/blindy
                         - https://github.com/payloadbox/sql-injection-payload-list
                         - https://github.com/r0oth3x49/ghauri
                         - https://github.com/ron190/jsql-injection
@@ -786,6 +782,7 @@
                         - https://github.com/stamparm/DSSS
                         - https://github.com/stampery/mongoaudit
                         - https://github.com/tariqhawis/injectbot
+                        - https://github.com/the-robot/sqliv
                         - https://github.com/torque59/Nosql-Exploitation-Framework
                         - https://github.com/youngyangyang04/NoSQLAttack
                     SSRF:
@@ -825,7 +822,7 @@
                         - https://github.com/3xp10it/xupload
                         - https://github.com/almandin/fuxploider
                     命令注入:
-                        - https://github.com/stasinopoulos/commix
+                        - https://github.com/commixproject/commix
                     文件包含:
                         - https://github.com/mzfr/liffy
                     解析漏洞:
@@ -951,11 +948,11 @@
                     nodejs:
                         - https://github.com/ajinabraham/NodeJsScan
                     other:
+                        - https://github.com/FeeiCN/Cobra
                         - https://github.com/Kento-Sec/chatGPT-CodeReview
                         - https://github.com/LoRexxar/Kunlun-M
                         - https://github.com/liweibin123/fortify
                         - https://github.com/murphysecurity/murphysec
-                        - https://github.com/wufeifei/cobra
                         - https://sourceforge.net/projects/visualcodegrepp/
                         - https://www.sonarqube.org
                     php:
@@ -979,7 +976,7 @@
                     - https://github.com/1in9e/gosint
                     - https://github.com/78778443/QingScan
                     - https://github.com/Bywalks/DarkAngel
-                    - https://github.com/RASSec/pentestEr_Fully-automatic-scanner
+                    - https://github.com/RASSec/pentestER-Fully-automatic-scanner
                     - https://github.com/Skycrab/leakScan
                     - https://github.com/StarCrossPortal/QingTing
                     - https://github.com/TideSec/Mars
@@ -1000,7 +997,6 @@
                     - https://github.com/infobyte/faraday
                     - https://github.com/j3ssie/Osmedeus
                     - https://github.com/jaeles-project/jaeles
-                    - https://github.com/jeffzh3ng/Fuxi-Scanner
                     - https://github.com/lijiejie/EasyPen
                     - https://github.com/m-sec-org/EZ
                     - https://github.com/michenriksen/aquatone

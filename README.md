@@ -595,9 +595,7 @@
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [JenkinsExploit-GUI](https://github.com/TheBeastofwar/JenkinsExploit-GUI) 一款Jenkins的综合漏洞利用工具
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [Jenkins](https://github.com/blackye/Jenkins) Jenkins漏洞探测、用户抓取爆破
 ###### JumpServer
-- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [blackjump](https://github.com/tarimoe/blackjump) 
-###### Landray
-- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [LandrayExploit](https://github.com/yuanhaiGreg/LandrayExploit) 
+- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [blackjump](https://github.com/tarihub/blackjump) 
 ###### Nacos
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [NacosExploitGUI](https://github.com/charonlight/NacosExploitGUI) Nacos漏洞综合利用GUI工具，集成了默认口令漏洞、SQL注入漏洞、身份认证绕过漏洞、反序列化漏洞的检测及其利用
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [HKEcho_Nacos](https://github.com/HKEcho5213/HKEcho_Nacos) 
@@ -785,10 +783,9 @@
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [whitewidow](https://github.com/WhitewidowScanner/whitewidow) SQL Vulnerability Scanner
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [SQLiScanner](https://github.com/0xbug/SQLiScanner) Automatic SQL injection with Charles and sqlmap api
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [Fox-scan](https://github.com/fengxuangit/Fox-scan) Fox-scan is a initiative and passive SQL Injection vulnerable Test tools.
-- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [AORT](https://github.com/D3Ext/AORT) 
-- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [sqliv](https://github.com/Hadesy2k/sqliv) 
-- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [bbqsql](https://github.com/Neohapsis/bbqsql) 
-- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [blindy](https://github.com/missDronio/blindy) 
+- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [bbqsql](https://github.com/CiscoCXSecurity/bbqsql) 
+- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [blindy](https://github.com/agienka/blindy) 
+- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [sqliv](https://github.com/the-robot/sqliv) 
 ###### SSRF
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [SSRFmap](https://github.com/swisskyrepo/SSRFmap) Automatic SSRF fuzzer and exploitation tool
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [SSRFire](https://github.com/ksharinarayanan/SSRFire) An automated SSRF finder. Just give the domain name and your server and chi...
@@ -826,7 +823,7 @@
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [fuxploider v1.0](https://github.com/almandin/fuxploider) File upload vulnerability scanner and exploitation tool.
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [xupload](https://github.com/3xp10it/xupload) A tool for automatically testing whether the upload function can upload web...
 ###### 命令注入
-- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [commix](https://github.com/stasinopoulos/commix) 
+- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [commix v3.8](https://github.com/commixproject/commix) Automated All-in-One OS Command Injection Exploitation Tool.
 ###### 文件包含
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [liffy](https://github.com/mzfr/liffy) Local file inclusion exploitation tool
 ###### 解析漏洞
@@ -956,7 +953,7 @@
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [Kunlun-M v2.6.5](https://github.com/LoRexxar/Kunlun-M) KunLun-M是一个完全开源的静态白盒扫描工具，支持PHP、JavaScript的语义扫描，基础安全、组件安全扫描，Chrome E...
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [chatGPT-CodeReview v0.1.1](https://github.com/Kento-Sec/chatGPT-CodeReview) 这是一个调用chatGPT进行代码审计的工具
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [fortify](https://github.com/liweibin123/fortify) fortify内置规则加密破解
-- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [cobra](https://github.com/wufeifei/cobra) 
+- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [Cobra](https://github.com/FeeiCN/Cobra) 
 - <img src="https://favicon.qqsuu.cn/sourceforge.net" alt="" style="height: 20px;"> [VisualCodeGrepper V2.3.2 download | SourceForge.net](https://sourceforge.net/projects/visualcodegrepp/) 
 - <img src="https://favicon.qqsuu.cn/www.sonarqube.org" alt="" style="height: 20px;"> [Code Quality, Security & Static Analysis Tool with SonarQube  | Sonar](https://www.sonarqube.org) 
 ###### php
@@ -1020,8 +1017,7 @@
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [clusterd 0.5](https://github.com/hatRiot/clusterd) application server attack toolkit
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [webvulscan](https://github.com/dermotblair/webvulscan) Web Application Vulnerability Scanner.
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [leakScan](https://github.com/Skycrab/leakScan) 在线漏洞扫描
-- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [pentestEr_Fully-automatic-scanner](https://github.com/RASSec/pentestEr_Fully-automatic-scanner) 
-- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [Fuxi-Scanner](https://github.com/jeffzh3ng/Fuxi-Scanner) 
+- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [pentestER-Fully-automatic-scanner](https://github.com/RASSec/pentestER-Fully-automatic-scanner) 
 ##### 口令爆破
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [john](https://github.com/openwall/john) John the Ripper jumbo - advanced offline password cracker, which supports hund...
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [blasting](https://github.com/gubeihc/blasting) 
