@@ -763,7 +763,6 @@
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [jwt-fuzzer](https://github.com/andresriancho/jwt-fuzzer) JWT fuzzer
 ###### SQL注入
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [sqlmap](https://github.com/sqlmapproject/sqlmap) Automatic SQL injection and database takeover tool
-- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [sqlmap-cn](https://github.com/honmashironeko/sqlmap-cn) 
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [ghauri](https://github.com/r0oth3x49/ghauri) 
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [jsql-injection](https://github.com/ron190/jsql-injection) jSQL Injection is a Java application for automatic SQL database inje...
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [PowerUpSQL](https://github.com/NetSPI/PowerUpSQL) PowerUpSQL: A PowerShell Toolkit for Attacking SQL Server
@@ -782,6 +781,7 @@
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [Fox-scan](https://github.com/fengxuangit/Fox-scan) Fox-scan is a initiative and passive SQL Injection vulnerable Test tools.
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [bbqsql](https://github.com/CiscoCXSecurity/bbqsql) 
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [blindy](https://github.com/agienka/blindy) 
+- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [sqlmap-gui](https://github.com/honmashironeko/sqlmap-gui) 
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [sqliv](https://github.com/the-robot/sqliv) 
 ###### SSRF
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [SSRFmap](https://github.com/swisskyrepo/SSRFmap) Automatic SSRF fuzzer and exploitation tool
