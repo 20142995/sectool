@@ -24,7 +24,7 @@ jobs:
       env: 
          GH_TOKEN: ${{ secrets.GH_TOKEN }}
       run: |
-        python update_info.py 300-900
+        python update_info.py 300-3000
     - name: Commit and push if changed
       run: |
         git config --global user.email "test"
