@@ -62,8 +62,8 @@
     "https://github.com/pppscn/SmsForwarder": {
         "created_at": "2024-04-18 02:17:02",
         "description": "短信转发器——监控Android手机短信、来电、APP通知，并根据指定规则转发到其他手机：钉钉群自定义机器人、钉钉企业内机器人、企业微信群机器人、飞书机器人、企业微信应用消息、邮箱、bark、webhook、Telegram机器人、Server酱、PushPlus、手机短信等。包括主动控制服务端与客户端，让你轻松远程发短信、查短信、查通话、查话簿、查电量等。（V3.0 新增）PS.这个APK主要是学习与自用，如有BUG请提ISSUE，同时欢迎大家提PR指正",
-        "commit_message": "优化：自动任务监控电量——使用`hashcode`保证`WorkManager`唯一  #458",
-        "commit_date": "2024-04-29 03:51:48",
+        "commit_message": "优化：转发规则`匹配的值`允许传入`逻辑运算符`：`与(&&)`、`或(||)`（用于支持多个关键词） #470",
+        "commit_date": "2024-05-16 07:31:23",
         "release_date": "2024-04-18 02:45:39",
         "release_message": "致敬 `遥遥领先` **先锋计划**，迎接 `SmsForwarder` **预览体验计划**，领先与体验并驾齐驱！\r\n\r\n---\r\n\r\n【强烈建议】`v3.3.0` 用户升级\r\n\r\n【重点推荐】`自动任务·快捷指令`，轻松自动化，助您事半功倍，更多时间享受亲情陪伴！（v3.3+）\r\n\r\n\r\n---\r\n\r\n### 【注意】\r\n\r\n* `v3.2.0` 去除了 `mmkv` 依赖，采用 `SharedPreferences` 来保存配置，如果从低于 `v3.2.0`  升级后请重新配置，具体原因参见 [Issue #245](https://github.com/pppscn/SmsForwarder/issues/245)\r\n\r\n* 升级完毕后，建议离线导出配置（客户端>一键换新机>离线模式>导出），完全卸载干净全新安装后再导入配置（可以避免一些莫名其妙的玄学问题，例如：耗电异常）\r\n\r\n---\r\n\r\n### 更新日志\r\n\r\n修复：`定时任务`的`Cron表达式`输入非法时导致FC #407\r\n修复：Frpclib未下载时，自动任务添加启停frpc app自动重启 #402\r\n修复：WiFi平板（没有GPS芯片）无法启用`GPS定位服务` #391\r\n修复：错误的 URL 有效性验证正则表达式（兼容IPv6） #286\r\n修复：多个自启动的Frpc无法同时自动启动Bug\r\n修复：疑似`ResUtils.getString`导致FC #426\r\n修复：在线更新失败时手动下载页面地址\r\n修复：转发规则自定义发送通道顺序失效（将`List<T>`按照`instr`的顺序排序） #422\r\n修复：自动任务触发条件在测试倒计时没结束前返回导致app自动重启 #394\r\n修复：自动任务电池状态中充电器任意无法触发 #395\r\n新增：`{{IP_LIST}}`变量标签用于获取`本机所有IP地址列表`（排除环回地址） #I9CVLZ\r\n新增：`通用设置`增加按钮直接跳转`一键换新机`·`离线模式`\r\n新增：Frp内网穿透·编辑配置时语法高亮\r\n新增：发送通道`电子邮箱`支持`S/MIME`或`OpenPGP`加密 #417\r\n新增：监听`Screen`事件`延迟执行时再次校验` #399\r\n新增：两个常用标签`网络状态`(`{{NET_TYPE}}`)和`简单电池信息`(`{{BATTERY_INFO_SIMPLE}}`) #439\r\n新增：免打扰(禁用转发)时间段记录日志（配合`自动任务`实现延时发送） #411\r\n新增：是否加入SmsF预览体验计划（在线更新每周构建版） #416\r\n新增：转发日志增加筛选器方便搜索/批量删除 #433\r\n新增：自动任务·快捷指令 —— 触发条件：短信广播、通话广播、APP通知 #385 #389\r\n新增：自动任务·快捷指令 —— 触发条件：蓝牙设备（状态变化、设备发现、连接断开） #388\r\n新增：自动任务·快捷指令 —— 执行动作：播放警报 #385\r\n新增：自动任务·快捷指令 —— 执行动作：启停任务 #389\r\n新增：自动任务·快捷指令 —— 执行动作：重发消息\r\n优化：`{{BATTERY_PCT}}`保留2位小数\r\n优化：`Android 5.0`以下`TLS协议`&`明文传输` #427 #390 #274 #197\r\n优化：`build.gradle`脚本，编译前后自动清理\r\n优化：`Webhook` 非 `HTTP 200` 应答时仍可以指定 `成功应答关键字` #234\r\n优化：`发送通道`参数默认值（避免反序列化时空指针）\r\n优化：`一换新新机`·`还原设置`时保留本机的`设备名称`和`SIM卡主键/备注`\r\n优化：`自动任务`触发条件`网络状态`：仅`Android 10`(含) 以上显示`数据卡槽`选项 #429\r\n优化：`自动任务`触发条件`网络状态`：延迟5秒获取WiFi名称（给够搜索信号时间） #429\r\n优化：`自动任务·快捷指令` —— 执行动作：`发送短信`支持插入`变量标签`（标签适用场景参见 wiki附录3） #441\r\n优化：Frpc默认配置采用toml格式\r\n优化：部分手机通知栏异常显示两条常驻通知 #392\r\n优化：多语言切换时枚举常量自动切换语言\r\n优化：发送通道`Webhook`支持http/socks5代理\r\n优化：放宽`Url`和`UrlScheme`的正则校验限制 #431\r\n优化：服务端应答`Http 204 No Content`时特殊处理（更新日志状态为成功） #234\r\n优化：服务端应答`HTTP Status 201-299`时特殊处理（更新日志状态为成功） #234\r\n优化：改进IPv6正则表达式（避免`{{IPV6}}`替换为空）\r\n优化：监听`Screen`事件细分`On/Off/Locked/Unlocked` #399\r\n优化：进入`通用设置`时`再次检查`是否已授权`已开启功能`的`必需权限`\r\n优化：判断Frpclib是否已经初始化\r\n优化：权限检查机制判断（适配 OPPO 应用权限受阻跳转优化方案）\r\n优化：以`Base64`形式保存证书（同时兼容`文件路径`形式） #437\r\n优化：自定义模板可用变量标签支持正则替换 #421 #423\r\n优化：自定义模板可用变量统一成英文标签\r\n优化：自定义模板增加`{{IPV4}}``{{IPV6}}`标签 #398\r\n优化：自定义模板增加`{{定位信息_经度}}`/`{{定位信息_纬度}}`/`{{定位信息_地址}}`三个标签 #400\r\n升级：AgentWeb依赖（解决存在的内存泄漏问题）\r\n升级：frpclib 到 `v0.57.0`\r\n升级：XAOP 依赖\r\n升级：XUI 到 `dev-1.2.2`\r\n升级：XUpdate 到 `2.1.5` （兼容Android 12 & 完善日志）\r\n升级：依赖版本\r\n整理：code review & 精简无用资源\r\n回退：`{{通知Scheme}}`(英文系统`{{SCHEME}}`)标签以获取应用通知的`Scheme` #272 #276（无解，去除多余代码）\r\n\r\n还有一些细微调整参见`github`提交记录\r\n\r\n---\r\n\r\n### APK版本说明：\r\n* universal（10XXXX）: 通用版（不在乎安装包大小/懒得选就用这个版本，包含以下4种CPU架构so）\r\n* armeabi-v7a（20XXXX）: 32位ARM设备（备用机首选）\r\n* arm64-v8a（30XXXX）: 64位ARM设备（主流旗舰机）\r\n* x86（40XXXX）: 32位Intel设备\r\n* x86_64（50XXXX）: 64/32位Intel设备"
     },
@@ -3850,8 +3850,8 @@
     "https://github.com/anchore/syft": {
         "created_at": "2024-05-09 19:45:42",
         "description": "CLI tool and library for generating a Software Bill of Materials from container images and filesystems",
-        "commit_message": "fix pruning binary packages when considering ELF packages (#2862)\n\nSigned-off-by: Alex Goodman <wagoodman@users.noreply.github.com>",
-        "commit_date": "2024-05-09 19:35:22",
+        "commit_message": "fix: DecoderCollection discarding input from non-seekable Readers (#2878)\n\nSigned-off-by: Russell Haering <russellhaering@gmail.com>",
+        "commit_date": "2024-05-16 19:17:11",
         "release_date": "2024-05-09 19:52:26",
         "release_message": "### Bug Fixes\n\n- Fix redundant package deletions when considering ELF packages [[#2862](https://github.com/anchore/syft/pull/2862) @wagoodman]\n\n**[(Full Changelog)](https://github.com/anchore/syft/compare/v1.4.0...v1.4.1)**\n\n"
     },
@@ -5610,8 +5610,8 @@
     "https://github.com/fortra/impacket": {
         "created_at": "2023-07-31 15:08:03",
         "description": "Impacket is a collection of Python classes for working with network protocols.",
-        "commit_message": "Update adcsattack.py\n\nPKCS#12 clarification and formatting\r\ncloses #1692",
-        "commit_date": "2024-05-09 12:54:04",
+        "commit_message": "Add UserResetInformation to samr.py in USER_INFORMATION_CLASS (#1743)\n\nBased on https://github.com/gtworek/PSBits/blob/master/Misc2/ReadResetData.c",
+        "commit_date": "2024-05-16 13:48:46",
         "release_date": "2023-08-03 17:36:40",
         "release_message": "## Impacket 0.11.0:\r\nProject's main page at https://www.coresecurity.com/core-labs/open-source-tools/impacket\r\n\r\nChangeLog for 0.11.0:\r\n1. Library improvements \r\n    * Added new Kerberos error codes (@ly4k).\r\n\t* Added `[MS-TSTS]` Terminal Services Terminal Server Runtime Interface Protocol implementation (@nopernik).\r\n    * Changed the setting up for new SSL connections (@mpgn, @CT-H00K and @0xdeaddood).\r\n    * Added a callback function to smbserver for incoming authentications (@p0dalirius).\r\n    * Fix crash in winregistry (@laxa)\r\n    * Fixes in IDispatch derived classes in comev implementation (@NtAlexio2)\r\n    * Fix CVE-2020-17049 in ccache.py (@godylockz)\r\n    * Smbserver: Added SMB2_FILE_ALLOCATION_INFO type determination (@JerAxxxxxxx)\r\n    * tds: Fixed python3 incompatibility when receiving over TLS socket (@exploide)\r\n    * crypto: Ensure passwords are utf-8 encoded before deriving Kerberos keys (@jojonas)\r\n    * ese: Fixed python3 incompatibility when reading from db (@alexisbalbachan)\r\n    * ldap queries: Escaped characters are now correctly parsed (@alexisbalbachan)\r\n    * Support SASL authentication in ldap protocol (@NtAlexio2)\r\n\r\n2. Examples improvements\r\n    * [GetADUsers.py](examples/GetADUsers.py), [GetNPUsers.py](examples/GetNPUsers.py), [GetUserSPNs.py](examples/GetUserSPNs.py) and [findDelegation.py](examples/findDelegation.py):\r\n      * Added dc-host option to connect to specific KDC using its FQDN or NetBIOS name (@rmaksimov and @0xdeaddood).\r\n    * [GetNPUsers.py](examples/GetNPUsers.py)\r\n      * Printing TGT in stdout despite -outputfile parameter (@alexisbalbachan and @Zamanry)\r\n      * Fixed output hash format for AES128/256 (etype 17/18) (@erasmusc)\r\n    * [GetUserSPNs.py](examples/GetUserSPNs.py):\r\n      * Added LDAP paged search (@ThePirateWhoSmellsOfSunflowers and @SAERXCIT).\r\n      * Added a -stealth flag to remove the SPN filter from the LDAP query (@clavoillotte).\r\n      * Improved searchFilter (@ShutdownRepo)\r\n      * Use LDAP paged search (@ThePirateWhoSmellsOfSunflowers)\r\n    * [psexec.py](examples/psexec.py):\r\n      * Added support for name customization using a custom binary file (@Dramelac).\r\n    * [smbexec.py](examples/smbexec.py):\r\n      * Security fixes for privilege escalation vulnerabilities (@bugch3ck).\r\n      * Fixed python3 compatibility issues, added workaround TCP over NetBIOS being disabled (@ljrk0)\r\n    * [secretsdump.py](examples/secretsdump.py):\r\n      * Added a new option to extract only NTDS.DIT data for specific users based on an LDAP filter (@snovvcrash).\r\n      * Security fixes for privilege escalation vulnerabilities (@bugch3ck).  \r\n    * [mssqlclient.py](examples/mssqlclient.py):\r\n      * Added multiple new commands. Now supports xp_dirtree execution (@Mayfly277, @trietend and @TurtleARM).\r\n    * [ntlmrelayx.py](examples/ntlmrelayx.py):\r\n      * Added ability to trigger SQLShell when running ntlmrelayx in interactive mode (@sploutchy).\r\n      * Added filter option to the socks command in ntlmrelayx CLI (@shoxxdj)\r\n      * Added ability to register DNS records through LDAP.\r\n    * [addcomputer.py](examples/addcomputer.py), [rbcd.py](examples/rbcd.py):\r\n      * Allow weak TLS ciphers for LDAP connections (@AdrianVollmer)\r\n    * [Get-GPPPassword.py](examples/Get-GPPPassword.py):\r\n      * Better handling of various XML files in Group Policy Preferences (@p0dalirius)\r\n    * [smbclient.py](examples/smbclient.py):\r\n      * Added recursive file listing (@Sq00ky)\r\n    * [ticketer.py](examples/ticketer.py):\r\n      * Ticket duration is now specified in hours instead of days (@Dramelac)\r\n      * Added extra-pac implementation (@Dramelac)\r\n\r\n3. New examples\r\n    * [net.py](examples/net.py) Implementation of windows net.exe builtin tool (@NtAlexio2)\r\n    * [changepasswd.py](examples/changepasswd.py) New example that allows password changing or reseting through multiple protocols (@Alef-Burzmali, @snovvcrash, @bransh, @api0cradle and @p0dalirius)\r\n    * [DumpNTLMInfo.py](examples/DumpNTLMInfo.py) New example that dumps remote host information in ntlm authentication model, without credentials. For SMB protocols v1, v2 and v3. (@NtAlexio2)\r\n    \r\nAs always, thanks a lot to all these contributors that make this library better every day (up to now):\r\n\r\n@ly4k @nopernik @snovvcrash @ShutdownRepo @kiwids0220 @mpgn @CT-H00K @rmaksimov @arossert @aevy-syn @tirkarthi @p0dalirius @Dramelac @Mayfly277 @S3cur3Th1sSh1t @nobbd @AdrianVollmer @trietend @TurtleARM @ThePirateWhoSmellsOfSunflowers @SAERXCIT @clavoillotte @Marshall-Hallenbeck @sploutchy @almandin @rtpt-alexanderneumann @JerAxxxxxxx @NtAlexio2 @laxa @godylockz @exploide @jojonas @Zamanry @erasmusc @bugch3ck @ljrk0 @Sq00ky @shoxxdj @Alef-Burzmali @bransh @api0cradle @alexisbalbachan @0xdeaddood @sanmopre\r\n"
     },
@@ -6404,8 +6404,8 @@
     "https://github.com/arch3rPro/PST-Bucket": {
         "created_at": "2023-04-24 06:49:11",
         "description": "Scoop-Buket for Penetration Suite Toolkit",
-        "commit_message": "nuclei: Update to version 3.2.6",
-        "commit_date": "2024-05-05 01:36:48"
+        "commit_message": "dotnet-runtime: Update to version 8.0.5",
+        "commit_date": "2024-05-15 01:36:04"
     },
     "https://github.com/Aiyflowers/JWT_GUI": {
         "created_at": "2023-07-01 07:09:25",
@@ -8558,8 +8558,8 @@
     "https://github.com/nomi-sec/PoC-in-GitHub": {
         "created_at": "2019-12-08 13:03:54",
         "description": "📡 PoC auto collect from GitHub. ⚠️ Be careful Malware.",
-        "commit_message": "Auto Update 2024/04/25 00:30:51",
-        "commit_date": "2024-04-25 00:30:51"
+        "commit_message": "Auto Update 2024/05/17 00:28:10",
+        "commit_date": "2024-05-17 00:28:10"
     },
     "https://github.com/Ridter/CVE-2017-11882": {
         "created_at": "2017-11-21 05:55:53",
@@ -12523,8 +12523,8 @@
     "https://github.com/rocky/python-uncompyle6": {
         "created_at": "2024-03-16 07:49:17",
         "description": "A cross-version Python bytecode decompiler",
-        "commit_message": "Properly escape strings.\n\nBackported from decompyle3",
-        "commit_date": "2024-03-25 10:42:06",
+        "commit_message": "Small set literal change",
+        "commit_date": "2024-05-07 15:33:03",
         "release_date": "2024-03-16 07:56:18",
         "release_message": "Lots of changes major changes. track xdis API has changes.\r\n\r\nSeparate Phases more clearly:\r\n* disassembly\r\n* tokenization\r\n* parsing\r\n* abstracting to AST (more is done in newer projects)\r\n* printing\r\n\r\nAlthough we do not decompile bytecode greater than 3.8, code supports running from up to 3.12.\r\n\r\nMany bugs fixed.\r\n\r\nA lot of Linting and coding style modernization.\r\n\r\nWork done in preparation for Blackhat Asia 2024\r\n"
     },
@@ -12875,7 +12875,7 @@
         "created_at": "2011-08-30 06:13:20",
         "description": "Metasploit Framework",
         "commit_message": "automatic module_metadata_base.json update",
-        "commit_date": "2024-05-10 14:47:57"
+        "commit_date": "2024-05-17 00:35:53"
     },
     "https://github.com/PowerDNS/pdns": {
         "created_at": "2013-04-26 11:16:49",
@@ -22930,8 +22930,8 @@
     "https://github.com/yhy0/Jie": {
         "created_at": "2024-05-07 14:44:15",
         "description": "Jie stands out as a comprehensive security assessment and exploitation tool meticulously crafted for web applications. Its robust suite of features encompasses vulnerability scanning, information gathering, and exploitation, elevating it to an indispensable toolkit for both security professionals and penetration testers.(expectations)",
-        "commit_message": "feat 优化Security Copilot 显示；其他优化",
-        "commit_date": "2024-05-07 14:44:15",
+        "commit_message": "update go.mod",
+        "commit_date": "2024-05-15 15:18:06",
         "release_date": "2024-05-07 14:47:35",
         "release_message": "## Changelog\n* 52d5e14 feat 优化Security Copilot 显示；其他优化\n* d975ba3 feat 使用协程池\n* 8c9679d fix 解决死锁问题\n* a42aa6e add wih\n* 3fc391e fix wg.Wait() bug\n* 9de06eb fix spell\n* a31bede remove naabu, use masscan and nmap\n\n"
     },
@@ -24404,8 +24404,8 @@
         "description": "魅族安全中心"
     },
     "https://sec.vip.com/": {
-        "status_code": 200,
-        "description": "VSRC首页-唯品会信息安全中心"
+        "status_code": 503,
+        "description": ""
     },
     "https://sec.wacai.com/": {
         "status_code": 200,
@@ -26170,9 +26170,9 @@
         "created_at": "2024-03-25 02:09:10",
         "description": "OA漏洞利用工具",
         "commit_message": "Update README.md",
-        "commit_date": "2024-04-28 07:36:30",
+        "commit_date": "2024-05-08 02:49:25",
         "release_date": "2024-04-28 07:15:06",
-        "release_message": "I Wanna Get All 更新\r\n1. CMS添加jeecg-boot模块，目前添加了16个漏洞\r\n2. 添加配置功能，设置dnslog、jeecg token配置\r\n3. 修改部分反序列化及RCE检测方式为echo，减少误报。"
+        "release_message": "I Wanna Get All 更新\r\n1. CMS添加jeecg-boot模块，目前添加了16个漏洞\r\n2. 添加配置功能，设置dnslog、jeecg token配置\r\n3. 修改部分反序列化及RCE检测方式为echo，减少误报。\r\n\r\nv1.2.1更新\r\n添加漏洞整理列表，目前共273个nday、1day等"
     },
     "https://github.com/m4n3dw0lf/PytheM": {
         "created_at": "2016-04-18 19:38:32",
@@ -27060,7 +27060,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "52.238.29.198属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "20.172.2.103属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
@@ -27705,5 +27705,27 @@
     "https://merri.cx/qrazybox/": {
         "status_code": 200,
         "description": "QRazyBox - QR Code Analysis and Recovery Toolkit"
+    },
+    "https://github.com/fcavallarin/domdig": {
+        "created_at": "2023-12-15 19:34:44",
+        "description": "DOM XSS scanner for Single Page Applications",
+        "commit_message": "Added Sequence Builder and postMessage fuzzer",
+        "commit_date": "2023-12-15 19:34:44",
+        "release_date": "2023-12-15 19:36:05",
+        "release_message": "- Added UI as chrome extension\r\n- Added sequence builder\r\n- Added postMesage fuzzer\r\n- bugdixes"
+    },
+    "https://github.com/aghorler/emoji-aes": {
+        "created_at": "2017-11-01 03:33:38",
+        "description": "🔒 Encrypt messages with emojis using AES.",
+        "commit_message": "Merge branch 'master' of https://github.com/BlackrockDigital/startbootstrap-bare",
+        "commit_date": "2018-05-04 23:24:58"
+    },
+    "https://github.com/FeeiCN/Cobra": {
+        "created_at": "2018-04-02 03:32:29",
+        "description": "Source Code Security Audit (源代码安全审计)",
+        "commit_message": "Update README.md",
+        "commit_date": "2021-06-09 23:53:17",
+        "release_date": "2018-04-02 06:06:17",
+        "release_message": "- 增加了git_projects脚本的参数化使用功能 #999 \r\n- 修复了API模式下单个文件无法扫描的问题 #583 \r\n- 修复了Python3下代码拉取Bug #923 \r\n- 优化了扫描细节，异常处理和文档内容\r\n- Bug修复"
     }
 }
