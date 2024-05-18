@@ -5057,8 +5057,12 @@
         "release_message": ""
     },
     "https://github.com/FreeRDP/FreeRDP": {
-        "created_at": "2011-06-30 19:14:15",
-        "description": "FreeRDP is a free remote desktop protocol library and clients"
+        "created_at": "2024-04-22 09:18:53",
+        "description": "FreeRDP is a free remote desktop protocol library and clients",
+        "commit_message": "Merge pull request #10199 from akallabeth/json-c-compat\n\n[winpr,utils] add json-c compat",
+        "commit_date": "2024-05-17 11:06:34",
+        "release_date": "2024-04-22 09:26:39",
+        "release_message": "This release eliminates a bunch of issues detected during oss-fuzz runs.\r\nThe test coverage was increased and detected issues eliminates, so an update\r\nis highly recommended.\r\n\r\nNoteworthy changes:\r\n* Lots of fixes for oss-fuzz reports\r\n* Timezone detection fixes (#10106)\r\n* SDL key remapping support (#10103)\r\n* Improved help (#10099)\r\n* FreeBSD epoll detection fix (#10097)"
     },
     "https://github.com/iSafeBlue/fastjson-autotype-bypass-dem": {
         "created_at": "",
@@ -6350,8 +6354,8 @@
     "https://github.com/ufrisk/MemProcFS": {
         "created_at": "2024-03-03 11:07:17",
         "description": "MemProcFS",
-        "commit_message": "Version 5.9.13",
-        "commit_date": "2024-05-12 19:48:07",
+        "commit_message": "Version 5.9.14",
+        "commit_date": "2024-05-16 17:47:55",
         "release_date": "2024-03-03 11:08:21",
         "release_message": "* Bug fixes.\r\n* Module improvements: ntfs, procinfo, web.\r\n* C# API: improvements.\r\n* Java API: support for java.lang.foreign (JDK21+) for efficient memory accesses.\r\n* Linux PCIe FPGA performance improvements.\r\n* FindEvil: Triggered Yara rules are now shown.\r\n* FindEvil: AV detections from Windows Defender residing on the analyzed system.\r\n* Python API: new functionality (multi-read, type-read) and improved scatter read performance.\r\n* Support for Proxmox memory dump files.\r\n\r\nFor previous release builds see the [release archive](https://github.com/ufrisk/MemProcFS/releases/tag/v5_archive)."
     },
@@ -7719,11 +7723,11 @@
         "release_message": ""
     },
     "https://github.com/yaklang/yakit": {
-        "created_at": "2024-05-14 03:26:37",
+        "created_at": "2024-05-17 09:12:57",
         "description": "Cyber Security ALL-IN-ONE Platform",
-        "commit_message": "Song/feat/web fuzzer table color filter (#1651)\n\n* feat：webFuzzer表格支持颜色筛选\r\n\r\n* fix: history表切换页面，导致选中状态消失\r\n\r\n* fix: webFuzzer表格颜色筛选条件判断",
-        "commit_date": "2024-05-15 02:49:44",
-        "release_date": "2024-05-14 03:44:41",
+        "commit_message": "fix: 修复窗口放大缩小由于重新计算导致的样式问题 (#1663)",
+        "commit_date": "2024-05-17 09:11:16",
+        "release_date": "2024-05-17 09:37:18",
         "release_message": ""
     },
     "https://github.com/bartblaze/Yara-rules": {
@@ -26077,11 +26081,11 @@
         "commit_date": "2016-01-02 11:04:22"
     },
     "https://github.com/deepfence/ThreatMapper": {
-        "created_at": "2024-05-05 01:01:03",
-        "description": "Open source cloud native security observability platform. Linux, K8s, AWS Fargate and more.",
-        "commit_message": "Update listing with threatintel-2024-05-05_00-49-40",
-        "commit_date": "2024-05-05 01:01:03",
-        "release_date": "2024-05-05 01:32:24",
+        "created_at": "2024-05-18 00:15:24",
+        "description": "Open Source Cloud Native Application Protection Platform (CNAPP)",
+        "commit_message": "Update listing with threatintel-2024-05-18_01-44-48",
+        "commit_date": "2024-05-18 02:50:19",
+        "release_date": "2024-05-18 02:50:09",
         "release_message": ""
     },
     "https://github.com/BlackHole1/autoFindXssAndCsrf": {
@@ -27056,7 +27060,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "20.51.198.144属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "40.67.133.158属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
@@ -27979,5 +27983,47 @@
         "commit_date": "2024-05-09 17:42:28",
         "release_date": "2024-05-07 06:55:04",
         "release_message": "This is a hot-fix release, see [v3.0.9 release notes](https://github.com/kubescape/kubescape/releases/tag/v3.0.9).\r\n\r\n## 🐞 Fixed issues\r\n* Fix scanning repo by @dwertent in https://github.com/kubescape/kubescape/pull/1680\r\n\r\n**Full Changelog**: https://github.com/kubescape/kubescape/compare/v3.0.9...v3.0.10"
+    },
+    "https://github.com/zema1/watchvuln": {
+        "created_at": "2024-04-29 06:12:34",
+        "description": "一个高价值漏洞采集与推送服务 | collect valueable vulnerability and push it",
+        "commit_message": "Merge pull request #82 from zema1/feat-diff\n\nfeat: diff mode",
+        "commit_date": "2024-05-09 11:42:44",
+        "release_date": "2024-04-29 06:20:57",
+        "release_message": "> 所有二进制由 Github Action 自动构建并自动上传，请放心使用\r\n> Docker 用户请手动 `docker pull zemal/watchvuln:latest`\r\n\r\n\r\n\r\n### 变更\r\n\r\n- 改进微步数据源推送策略，降低古董漏洞推送数量\r\n"
+    },
+    "https://github.com/javaweb-sec/javaweb-sec": {
+        "created_at": "2021-03-22 07:29:49",
+        "description": null,
+        "commit_message": "修改oss URL",
+        "commit_date": "2024-05-08 07:02:36"
+    },
+    "https://github.com/santoru/shcheck": {
+        "created_at": "2024-05-17 20:32:27",
+        "description": "A basic tool to check security headers of a website",
+        "commit_message": "Merge pull request #49 from mlec1/master\n\nfix(pip): Fix pip installation",
+        "commit_date": "2024-05-17 20:32:27",
+        "release_date": "2024-05-17 20:33:11",
+        "release_message": ""
+    },
+    "https://github.com/qianxiao996/code_identify": {
+        "created_at": "2022-07-05 07:05:09",
+        "description": "验证码识别工具",
+        "commit_message": "v1.1",
+        "commit_date": "2023-03-27 07:52:59"
+    },
+    "https://github.com/FindAllTeam/FindAll": {
+        "created_at": "2024-03-06 07:20:38",
+        "description": "Automated analysis of network security emergency response tools.（自动化分析网络安全应急响应工具）",
+        "commit_message": "feat: QR",
+        "commit_date": "2024-04-07 02:18:03",
+        "release_date": "2024-03-06 08:03:16",
+        "release_message": "# Feature\r\n- macOS GUI client support\r\n- Added multi-language functionality\r\n- Added dark mode\r\n\r\n# 新功能\r\n- 支持macOS GUI 的客户端\r\n- 增加多语言功能\r\n- 增加暗黑模式\r\n"
+    },
+    "https://github.com/hi-unc1e/POC-T": {
+        "created_at": "2020-07-08 16:00:13",
+        "description": "[✅Py 3.x]渗透测试插件化并发框架 / Open-sourced remote vulnerability PoC/EXP framework，现已兼容 Python3",
+        "commit_message": "chore: update deps",
+        "commit_date": "2024-04-22 16:31:33"
     }
 }
