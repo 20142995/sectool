@@ -167,7 +167,7 @@
         "release_message": ""
     },
     "https://github.com/wuba/Antenna": {
-        "created_at": "2022-06-15 06:42:25",
+        "created_at": "2023-04-21 09:16:25",
         "description": "Antenna是58同城安全团队打造的一款辅助安全从业人员验证网络中多种漏洞是否存在以及可利用性的工具。其基于带外应用安全测试(OAST)通过任务的形式，将不同漏洞场景检测能力通过插件的形式进行集合，通过与目标进行out-bind的数据通信方式进行辅助检测。",
         "commit_date": "2023-06-06 10:04:37",
         "commit_message": "Merge pull request #129 from wuba/develop\n\nDevelop",
@@ -1127,7 +1127,7 @@
         "release_message": "See the [CHANGELOG](https://github.com/gchq/CyberChef/blob/master/CHANGELOG.md) and [commit messages](https://github.com/gchq/CyberChef/commits/master) for details."
     },
     "https://github.com/NeoTheCapt/PowerScanner": {
-        "created_at": "2021-01-23 19:00:16",
+        "created_at": "2021-12-16 07:53:45",
         "description": "面向HW的红队半自动扫描器",
         "commit_date": "2021-12-16 07:53:45",
         "commit_message": "1. fix bugs.",
@@ -1513,7 +1513,7 @@
         "release_message": ""
     },
     "https://github.com/qianxiao996/FrameScan-GUI": {
-        "created_at": "2019-10-06 10:21:49",
+        "created_at": "2023-04-07 02:40:59",
         "description": "FrameScan-GUI 一款python3和Pyqt编写的具有图形化界面的cms漏洞检测框架。",
         "commit_date": "2023-04-24 07:24:25",
         "commit_message": "Update config.ini",
@@ -1734,7 +1734,7 @@
         "release_message": ""
     },
     "https://github.com/NetSPI/BurpExtractor": {
-        "created_at": "2018-02-27 18:05:10",
+        "created_at": "2022-02-01 22:50:06",
         "description": "A Burp extension for generic extraction and reuse of data within HTTP requests and responses.",
         "commit_date": "2022-02-01 22:50:06",
         "commit_message": "Added Extender to tool list and fixed all-tools implemenation",
@@ -1797,13 +1797,13 @@
         "release_message": ""
     },
     "https://github.com/deibit/cansina": {
-        "created_at": "2013-02-21 19:52:13",
+        "created_at": "2023-09-23 22:39:48",
         "description": "Web Content Discovery Tool",
-        "commit_date": "2022-10-04 09:10:02",
-        "commit_message": "fix the fix on asciitree import",
+        "commit_date": "2023-09-29 10:44:30",
+        "commit_message": "Update README.md",
         "release_tag": "1.0.0",
-        "release_date": "2020-04-29 22:22:12",
-        "release_message": "- Bug fixes\r\n- Added new option to output results in CSV\r\n- Better terminal interface handling"
+        "release_date": "2023-09-23 22:51:08",
+        "release_message": "Cansina is now a pip package. You can install it through pip."
     },
     "https://github.com/yqcs/heartsk_community": {
         "created_at": "2022-05-31 07:56:05",
@@ -1947,7 +1947,7 @@
         "release_message": "当发送到fastjson scan请求的content-type不是json时，强制将其改为application/json进行测试"
     },
     "https://github.com/weishen250/npscrack": {
-        "created_at": "2023-02-16 14:11:38",
+        "created_at": "2023-02-16 14:41:11",
         "description": "蓝队利器、溯源反制、NPS 漏洞利用、NPS exp、NPS poc、Burp插件、一键利用",
         "commit_date": "2023-03-14 09:43:45",
         "commit_message": "Add files via upload",
@@ -2100,7 +2100,7 @@
         "release_message": ""
     },
     "https://github.com/uknowsec/SharpSQLTools": {
-        "created_at": "2019-10-18 01:55:23",
+        "created_at": "2021-08-05 12:39:51",
         "description": "SharpSQLTools 和@Rcoil一起写的小工具，可上传下载文件，xp_cmdshell与sp_oacreate执行命令回显和clr加载程序集执行相应操作。",
         "commit_date": "2021-08-05 12:39:51",
         "commit_message": "添加clr_badpotato\n\n  - 添加clr_badpotato\n  - 修改原来的clr_potato为clr_efspotato",
@@ -2455,7 +2455,7 @@
         "release_message": "## 支持检测漏洞\r\n\r\n- [x] Spring Core RCE (**CVE-2022-22965**)\r\n- [x] Spring Cloud Function SpEL RCE (**CVE-2022-22963**)\r\n- [x] Spring Cloud GateWay SPEL RCE (**CVE-2022-22947**)\r\n\r\n## 回连平台\r\n\r\n- [x] Dnglog\r\n- [x] BurpCollaboratorClient\r\n- [x] Ceye\r\n- [x] Digpm (默认)\r\n- [ ] 支持自定义回连平台\r\n\r\n## 插件情况\r\n\r\n|    **回显检测**     | **回连检测**  |\r\n|:---------------:| :----:  |\r\n| Spring Core RCE | Spring Core RCE |\r\n|        Spring Cloud GateWay SPEL RCE         | Spring Cloud Function SpEL RCE |\r\n\r\n## 更新细节\r\n[+] CVE-2022-22947加入常见目录/prod-api"
     },
     "https://github.com/woodpecker-appstore/weblogic-infodetector": {
-        "created_at": "2021-04-01 04:32:50",
+        "created_at": "2022-03-23 08:33:43",
         "description": "woodpecker框架weblogic信息探测插件",
         "commit_date": "2022-03-23 08:33:43",
         "commit_message": "添加对iiop协议是否被过滤的检测",
@@ -2870,7 +2870,7 @@
         "release_message": "## What's Changed\r\n* cola dnslog v1.1.0 by @AbelChe in https://github.com/AbelChe/cola_dnslog/pull/1\r\n* 1.2.0 by @AbelChe in https://github.com/AbelChe/cola_dnslog/pull/2\r\n* 1.2.0 by @AbelChe in https://github.com/AbelChe/cola_dnslog/pull/4\r\n* cola dnslog v1.2.1 by @AbelChe in https://github.com/AbelChe/cola_dnslog/pull/5\r\n* cola dnslog v1.2.2 by @AbelChe in https://github.com/AbelChe/cola_dnslog/pull/6\r\n* cola dnslog v1.2.3 by @AbelChe in https://github.com/AbelChe/cola_dnslog/pull/8\r\n* cola dnslog v1.3.0 by @AbelChe in https://github.com/AbelChe/cola_dnslog/pull/9\r\n* cola dnslog v1.3.1 by @AbelChe in https://github.com/AbelChe/cola_dnslog/pull/10\r\n* cola dnslog v1.3.1 by @AbelChe in https://github.com/AbelChe/cola_dnslog/pull/11\r\n* update readme by @AbelChe in https://github.com/AbelChe/cola_dnslog/pull/12\r\n* 1.3.1 by @AbelChe in https://github.com/AbelChe/cola_dnslog/pull/13\r\n* change by @AbelChe in https://github.com/AbelChe/cola_dnslog/pull/17\r\n* v1.3.2 fix bugs & add new functions by @AbelChe in https://github.com/AbelChe/cola_dnslog/pull/24\r\n* 1.3.2 by @AbelChe in https://github.com/AbelChe/cola_dnslog/pull/25\r\n\r\n## New Contributors\r\n* @AbelChe made their first contribution in https://github.com/AbelChe/cola_dnslog/pull/1\r\n\r\n**Full Changelog**: https://github.com/AbelChe/cola_dnslog/commits/v1.3.2### ### ### "
     },
     "https://github.com/0x727/SpringBootExploit": {
-        "created_at": "2021-10-22 03:11:17",
+        "created_at": "2022-04-17 13:47:30",
         "description": "项目是根据LandGrey/SpringBootVulExploit清单编写，目的hvv期间快速利用漏洞、降低漏洞利用门槛。",
         "commit_date": "2022-11-07 02:30:45",
         "commit_message": "Update README.md\n\nupdate image links",
@@ -3125,7 +3125,7 @@
         "release_message": "## 1.7\r\n\r\n更新内容：\r\n1. 服务扫描模块加入了Weblogic IIOP扫描（参考README最下方） \r\n2. 在Windows中选择xray时设置EXE后缀，在文件较多时提高效率 \r\n3. 选择本地POC时，设置YML和YAML过滤，在文件较多时提高效率 \r\n4. 选择URL列表文件时设置TXT过滤，在文件较多时提高效率 \r\n5. 删除自带小游戏部分，这部分功能没有必要 \r\n6. 高级设置部分的代理应该添加提示避免被当成被动代理 \r\n7. 更新SnakeYAML和Log4j2依赖，虽然不存在漏洞还是更一下 \r\n8. 更新默认POC列表内容，新版本增加了一些POC \r\n9. XRAY和RAD下载面板加入官方链接，镜像站不支持新版本了 \r\n10. 更新一些版本信息\r\n\r\n下载：\r\n- super-xray-1.7.jar 版本通过`java -jar super-xray-1.7.jar`启动\r\n- super-xray-1.7-jre-exe.zip 是内置了JRE的exe版本\r\n- super-xray-1.7-system-jre.exe 是使用系统JRE的exe版本"
     },
     "https://github.com/Peithon/JustC2file": {
-        "created_at": "2021-12-27 05:33:15",
+        "created_at": "2022-01-15 11:43:56",
         "description": "Burp插件，Malleable C2 Profiles生成器；可以通过Burp代理选中请求，生成Cobalt Strike的profile文件(CSprofile)",
         "commit_date": "2022-01-15 11:47:46",
         "commit_message": "Update README.md",
@@ -3134,8 +3134,8 @@
         "release_message": "新增生成cs4.4版本的profile文件"
     },
     "https://github.com/lz520520/railgun": {
-        "created_at": "2020-08-31 00:52:43",
-        "description": "",
+        "created_at": "2023-05-08 17:00:45",
+        "description": null,
         "commit_date": "2023-05-08 17:00:45",
         "commit_message": "Update README.md",
         "release_tag": "v1.5.5",
@@ -3489,7 +3489,7 @@
         "release_message": "# 0.25.0 update\r\n## 2023-4-26\r\n1. fix bugs\r\n_____________________________________________________________\r\n1. 修复bug，感谢A_Adam师傅反馈"
     },
     "https://github.com/epinna/tplmap": {
-        "created_at": "2016-07-06 20:33:18",
+        "created_at": "2018-07-13 22:12:52",
         "description": "Server-Side Template Injection and Code Injection Detection and Exploitation Tool",
         "commit_date": "2022-02-06 15:13:15",
         "commit_message": "Revert one more accidental change",
@@ -3688,7 +3688,7 @@
         "release_message": ""
     },
     "https://github.com/lijiejie/subDomainsBrute": {
-        "created_at": "2015-04-01 07:22:37",
+        "created_at": "2022-05-06 09:11:14",
         "description": "A fast sub domain brute tool for pentesters",
         "commit_date": "2022-09-15 17:02:36",
         "commit_message": "set working dir",
@@ -3839,7 +3839,7 @@
         "release_message": "**Full Changelog**: https://github.com/neuvector/neuvector/compare/v5.3.1...v5.3.2"
     },
     "https://github.com/lijiejie/BBScan": {
-        "created_at": "2015-11-13 07:41:10",
+        "created_at": "2020-04-19 12:11:50",
         "description": "A fast vulnerability scanner",
         "commit_date": "2023-02-13 11:22:44",
         "commit_message": "Merge pull request #54 from PSoul/patch-2\n\nPython >= 3.10* loop 需要修改",
@@ -4846,7 +4846,7 @@
         "release_message": ""
     },
     "https://github.com/blackcrw/wpreconx": {
-        "created_at": "2020-12-07 03:51:12",
+        "created_at": "2022-04-04 00:24:33",
         "description": "WPRecon, is a tool for the recognition of vulnerabilities and blackbox information for wordpress.",
         "commit_date": "2022-10-22 19:35:25",
         "commit_message": "Update README.md",
@@ -5237,7 +5237,7 @@
         "release_message": ""
     },
     "https://github.com/CRED-CLUB/ARTIF": {
-        "created_at": "2021-06-20 06:31:50",
+        "created_at": "2021-06-20 07:06:49",
         "description": "An advanced real time threat intelligence framework to identify threats and malicious web traffic on the basis of IP reputation and historical data.",
         "commit_date": "2022-06-10 13:23:52",
         "commit_message": "Merge pull request #1 from CRED-CLUB/dependabot/pip/pyyaml-5.4\n\nBump pyyaml from 5.3.1 to 5.4",
@@ -5246,7 +5246,7 @@
         "release_message": ""
     },
     "https://github.com/woodpecker-appstore/yonyou-nc-decrypter": {
-        "created_at": "2023-04-07 07:24:36",
+        "created_at": "2023-04-07 07:32:55",
         "description": "用友 nc 系列密码解密",
         "commit_date": "2023-04-07 07:32:55",
         "commit_message": "first commit",
@@ -5957,7 +5957,7 @@
     },
     "https://github.com/baogod404/HikvisionDecode": {
         "created_at": "2023-07-04 10:11:00",
-        "description": "",
+        "description": null,
         "commit_date": "2023-07-04 10:25:23",
         "commit_message": "Add files via upload",
         "release_tag": "",
@@ -7455,7 +7455,7 @@
         "release_message": ""
     },
     "https://github.com/Xyntax/POC-T": {
-        "created_at": "2016-03-12 12:00:46",
+        "created_at": "2017-03-25 07:42:53",
         "description": "渗透测试插件化并发框架 / Open-sourced remote vulnerability PoC/EXP framework",
         "commit_date": "2020-09-07 01:54:32",
         "commit_message": "Merge pull request #39 from zer0yu/2.0\n\nnice work!",
@@ -15004,7 +15004,7 @@
         "release_message": ""
     },
     "https://github.com/0671/RabR": {
-        "created_at": "2021-07-03 12:32:20",
+        "created_at": "2021-07-19 13:38:45",
         "description": "Redis-Attack By Replication (通过主从复制攻击Redis)   ",
         "commit_date": "2022-11-25 06:43:58",
         "commit_message": "Update README.md",
@@ -18751,7 +18751,7 @@
         "release_message": ""
     },
     "https://github.com/xiecat/goblin": {
-        "created_at": "2021-09-06 07:11:53",
+        "created_at": "2023-05-30 17:34:53",
         "description": "一款适用于红蓝对抗中的仿真钓鱼系统",
         "commit_date": "2023-05-30 17:34:53",
         "commit_message": "临时增加 dump 完整请求包",
@@ -23492,7 +23492,7 @@
         "release_message": ""
     },
     "https://github.com/Ghr07h/Heimdallr": {
-        "created_at": "2022-07-24 15:26:58",
+        "created_at": "2022-11-16 10:25:07",
         "description": "一款完全被动监听的谷歌插件，用于高危指纹识别、蜜罐特征告警和拦截、机器特征对抗",
         "commit_date": "2023-01-19 08:59:39",
         "commit_message": "update README",
@@ -27056,7 +27056,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "172.183.131.70属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "20.51.198.144属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
@@ -27941,5 +27941,29 @@
         "description": "massive SQL injection vulnerability scanner",
         "commit_message": "updated README.md",
         "commit_date": "2018-08-14 11:28:45"
+    },
+    "https://github.com/INotGreen/SharpThief": {
+        "created_at": "2024-03-05 05:53:12",
+        "description": "一键提取exe的图标、嵌入图标、资源信息、版本信息、修改时间、数字签名，降低程序熵值",
+        "commit_message": "makeG",
+        "commit_date": "2024-03-19 02:55:27",
+        "release_date": "2024-03-05 05:55:11",
+        "release_message": ""
+    },
+    "https://github.com/xnl-h4ck3r/GAP-Burp-Extension": {
+        "created_at": "2024-04-16 21:06:19",
+        "description": "Burp Extension to find potential endpoints, parameters, and generate a custom target wordlist",
+        "commit_message": "v5.0 - see CHANGELOG.md",
+        "commit_date": "2024-04-16 21:06:19",
+        "release_date": "2024-04-16 21:08:14",
+        "release_message": "See CHANGELOG for details"
+    },
+    "https://github.com/nodauf/GoMapEnum": {
+        "created_at": "2022-02-16 14:08:36",
+        "description": "User enumeration and password bruteforce on Azure, ADFS, OWA, O365, Teams and gather emails on Linkedin",
+        "commit_message": "fix teams enumeration (change made by Microsoft)",
+        "commit_date": "2024-02-13 13:48:57",
+        "release_date": "2022-03-03 07:43:33",
+        "release_message": "## Changelog\r\n* f228c00 Fix issue when the connection was remotely closed\r\n* 4df1aea Fix log level\r\n* 64de983 Use proxy for azure user enumeration\r\n* f062f61 FIx string generation and remove non alphanumeric character\r\n* d48b6f5 Add check to avoid crash\r\n* 957fde6 FIx help for proxy\r\n* bea91fd Update the readme for smtp module\r\n* 98da5e6 Supports all keyword for the mode\r\n* 10118b8 Fix issue when enumerating users with all modes\r\n* 0181ef6 Use all methods if none is specified\r\n* dc75242 Update README.md\r\n* 2fb5ee6 Fix crash and add debug log\r\n* add98b0 Fix log's target for smtp\r\n* 25ba18b If target is not specified use the server in MX record\r\n* 993fa7f Update README.md\r\n* de70448 Fix issue on teams enumeration\r\n* 4e58daa Use log from options\r\n* 5239c1c Fix #2\r\n* d12458a Update README\r\n* 5b68f86 Update description\r\n* 677ccf7 Merge branch\r\n* 83a0a97 Merge branch 'main' of https://github.com/nodauf/gomapenum\r\n* 20800f9 Add smtp module\r\n* 5bd393e Merge branch 'orchestrator'\r\n* cc3d310 Update readme\r\n* 0c3f8b4 Refactor the all code to add an orchestrator and be more scalable Fix few bugs Add debugs and verbose logs\r\n* b54c55c Add a check to avoid panic\r\n* c85d941 Allow to save the valid users to a file\r\n* 4acd89b Save output to a file for brute forcing ADFS\r\n\r\n"
     }
 }
