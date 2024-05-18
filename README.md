@@ -294,8 +294,6 @@
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [sm234_decrypt_gui](https://github.com/milu001/sm234_decrypt_gui) 
 #### 图像编码
 - <img src="https://favicon.qqsuu.cn/www.fzwjscj.xyz" alt="" style="height: 20px;"> [图像密码 - FzWjScJの菜鸡记录](http://www.fzwjscj.xyz/index.php/archives/23/) 
-#### 圣堂武士密码
-- <img src="https://favicon.qqsuu.cn/" alt="" style="height: 20px;"> [](./Plugins/img/shengtangwushi.jpg) 
 #### 埃特巴什码
 - <img src="https://favicon.qqsuu.cn/www.hiencode.com" alt="" style="height: 20px;"> [CTF在线工具-在线埃特巴什码加密|在线埃特巴什码解密|埃特巴什码算法|Atbash Cipher](http://www.hiencode.com/atbash.html) 
 #### 培根密码
@@ -421,8 +419,6 @@
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [PuzzleSolver v1.0.1-beta](https://github.com/JamesHoi/PuzzleSolver) 一款专门为CTF比赛设计的拼图工具
 #### 隐写
 - <img src="https://favicon.qqsuu.cn/achorein.github.io" alt="" style="height: 20px;"> [SilentEye - Steganography is yours](https://achorein.github.io/silenteye/) 
-### Pwn
-- <img src="https://favicon.qqsuu.cn/" alt="" style="height: 20px;"> []() 
 ### Reverse
 #### IDA插件
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [IdaClu](https://github.com/harlamism/IdaClu) 
@@ -2497,7 +2493,7 @@
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [report v1.0.1](https://github.com/CTF-MissFeng/report) 乙方渗透测试漏洞报告管理系统
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [SAReport](https://github.com/1u0Hun/SAReport) 渗透测试自动化报告平台
 ## 漏洞信息采集与推送
-- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [github.com](ithttps://github.com/zema1/watchvuln) 
+- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [watchvuln](https://github.com/zema1/watchvuln) 
 ## 生成虚假数据
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [faker](https://github.com/joke2k/faker) Faker is a Python package that generates fake data for you.
 ## 短信转发器

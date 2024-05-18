@@ -293,8 +293,6 @@
                 - https://github.com/milu001/sm234_decrypt_gui
             图像编码:
                 - http://www.fzwjscj.xyz/index.php/archives/23/
-            圣堂武士密码:
-                - ./Plugins/img/shengtangwushi.jpg
             埃特巴什码:
                 - http://www.hiencode.com/atbash.html
             培根密码:
@@ -420,8 +418,6 @@
                 - https://github.com/JamesHoi/PuzzleSolver
             隐写:
                 - https://achorein.github.io/silenteye/
-        Pwn:
-            - ''
         Reverse:
             IDA插件:
                 - https://github.com/harlamism/IdaClu
@@ -2496,7 +2492,7 @@
         - https://github.com/dbgee/pentest_report
         - https://github.com/linshaoSec/WaterExp
     漏洞信息采集与推送:
-        - ithttps://github.com/zema1/watchvuln
+        - https://github.com/zema1/watchvuln
     生成虚假数据:
         - https://github.com/joke2k/faker
     短信转发器:
