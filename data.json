@@ -12871,7 +12871,7 @@
         "created_at": "2011-08-30 06:13:20",
         "description": "Metasploit Framework",
         "commit_message": "automatic module_metadata_base.json update",
-        "commit_date": "2024-05-17 00:35:53"
+        "commit_date": "2024-05-17 22:07:16"
     },
     "https://github.com/PowerDNS/pdns": {
         "created_at": "2013-04-26 11:16:49",
@@ -25638,8 +25638,8 @@
     "https://github.com/future-architect/vuls": {
         "created_at": "2024-05-10 08:32:40",
         "description": "Agent-less vulnerability scanner for Linux, FreeBSD, Container, WordPress, Programming language libraries, Network devices",
-        "commit_message": "feat(scanner/redhat): each package has modularitylabel (#1381)",
-        "commit_date": "2024-05-15 17:54:02",
+        "commit_message": "feat(detector, contrib/trivy-to-vuls): collect vendor severity and cvss (#1921)",
+        "commit_date": "2024-05-17 10:11:51",
         "release_date": "2024-05-10 10:04:25",
         "release_message": "This release includes recently released Ubuntu 24.04 support, some additional features, and several bug fixes.\r\nWe strongly recommend update to this version for Red Hat-like distribution users.\r\nWatch out corresponding goval-dictionary and gost updates!\r\n\r\n## New feature\r\n* Ubuntu 24.04 support comes in\r\n  - Depends on new gost, https://github.com/vulsio/gost/pull/249\r\n  - feat(ubuntu): add 24.04 noble by @MaineK00n in https://github.com/future-architect/vuls/pull/1878\r\n* TLS insecure flag is added for SMTP notification\r\n  - TLS insecure option adding by @Koodt in https://github.com/future-architect/vuls/pull/1220\r\n\r\n## (Potential) Incompatibilities\r\n- Use new gost for Ubuntu 24.04 support (https://github.com/future-architect/vuls/pull/1878)\r\n- Use new goval-dictionary for detection on Red Hat-like distributions (https://github.com/future-architect/vuls/pull/1907)\r\n\r\n## Bug fixes\r\n* For Red Hat-like distributions, there were false-positives and false negatives in detection results\r\n  - See https://github.com/future-architect/vuls/issues/1906 for details\r\n  - Now fixed by the PR: feat(detect/redhat): detect unpatched vulnerabilities with oval, stop using gost by @MaineK00n in https://github.com/future-architect/vuls/pull/1907\r\n* style(log) config.toml template docs url by @future-ryunosuketanai in https://github.com/future-architect/vuls/pull/1894\r\n* style: fix some typos in comments by @deferdeter in https://github.com/future-architect/vuls/pull/1897\r\n* (fix) Exclude dev dependencies from npm's package-lock.json and Fix Java DB download endpoint by @shino in https://github.com/future-architect/vuls/pull/1893\r\n* fix(detector/suse): support when advisory.cves has both NVD and SUSE evaluations by @MaineK00n in https://github.com/future-architect/vuls/pull/1899\r\n* style(log) fix trivy docs link by @future-ryunosuketanai in https://github.com/future-architect/vuls/pull/1902\r\n\r\n## Misc Changes\r\n* chore(deps): bump github.com/hashicorp/go-getter from 1.7.3 to 1.7.4 by @dependabot in https://github.com/future-architect/vuls/pull/1903\r\n* chore(deps): bump golang.org/x/net from 0.22.0 to 0.23.0 by @dependabot in https://github.com/future-architect/vuls/pull/1898\r\n* chore(deps): bump github.com/emersion/go-smtp from 0.20.2 to 0.21.0 by @dependabot in https://github.com/future-architect/vuls/pull/1888\r\n* chore(deps): bump golang.org/x/oauth2 from 0.18.0 to 0.19.0 by @dependabot in https://github.com/future-architect/vuls/pull/1891\r\n* chore(deps): bump golang.org/x/sync from 0.6.0 to 0.7.0 by @dependabot in https://github.com/future-architect/vuls/pull/1890\r\n* chore(deps): bump github.com/emersion/go-smtp from 0.21.0 to 0.21.1 by @dependabot in https://github.com/future-architect/vuls/pull/1896\r\n* chore(deps): bump github.com/aquasecurity/trivy from 0.49.1 to 0.50.1 by @dependabot in https://github.com/future-architect/vuls/pull/1885\r\n* chore(deps): bump go.etcd.io/bbolt from 1.3.9 to 1.3.10 by @dependabot in https://github.com/future-architect/vuls/pull/1908\r\n* chore(deps): bump golang.org/x/text from 0.14.0 to 0.15.0 by @dependabot in https://github.com/future-architect/vuls/pull/1909\r\n* chore(deps): bump golang.org/x/oauth2 from 0.19.0 to 0.20.0 by @dependabot in https://github.com/future-architect/vuls/pull/1910\r\n\r\n\r\n## New Contributors\r\n* @Koodt made their first contribution in https://github.com/future-architect/vuls/pull/1220\r\n* @deferdeter made their first contribution in https://github.com/future-architect/vuls/pull/1897\r\n\r\n**Full Changelog**: https://github.com/future-architect/vuls/compare/v0.25.2...v0.25.3\r\n"
     },
@@ -27965,5 +27965,19 @@
         "commit_date": "2024-02-13 13:48:57",
         "release_date": "2022-03-03 07:43:33",
         "release_message": "## Changelog\r\n* f228c00 Fix issue when the connection was remotely closed\r\n* 4df1aea Fix log level\r\n* 64de983 Use proxy for azure user enumeration\r\n* f062f61 FIx string generation and remove non alphanumeric character\r\n* d48b6f5 Add check to avoid crash\r\n* 957fde6 FIx help for proxy\r\n* bea91fd Update the readme for smtp module\r\n* 98da5e6 Supports all keyword for the mode\r\n* 10118b8 Fix issue when enumerating users with all modes\r\n* 0181ef6 Use all methods if none is specified\r\n* dc75242 Update README.md\r\n* 2fb5ee6 Fix crash and add debug log\r\n* add98b0 Fix log's target for smtp\r\n* 25ba18b If target is not specified use the server in MX record\r\n* 993fa7f Update README.md\r\n* de70448 Fix issue on teams enumeration\r\n* 4e58daa Use log from options\r\n* 5239c1c Fix #2\r\n* d12458a Update README\r\n* 5b68f86 Update description\r\n* 677ccf7 Merge branch\r\n* 83a0a97 Merge branch 'main' of https://github.com/nodauf/gomapenum\r\n* 20800f9 Add smtp module\r\n* 5bd393e Merge branch 'orchestrator'\r\n* cc3d310 Update readme\r\n* 0c3f8b4 Refactor the all code to add an orchestrator and be more scalable Fix few bugs Add debugs and verbose logs\r\n* b54c55c Add a check to avoid panic\r\n* c85d941 Allow to save the valid users to a file\r\n* 4acd89b Save output to a file for brute forcing ADFS\r\n\r\n"
+    },
+    "https://github.com/RASSec/pentestER-Fully-automatic-scanner": {
+        "created_at": "2016-11-14 15:09:57",
+        "description": "DNS Subdomain● Brute force ● Web Spider ● Nmap Scan ● etc",
+        "commit_message": "Update README.md",
+        "commit_date": "2023-05-15 03:59:15"
+    },
+    "https://github.com/kubescape/kubescape": {
+        "created_at": "2024-05-07 06:16:20",
+        "description": "Kubescape is an open-source Kubernetes security platform for your IDE, CI/CD pipelines, and clusters. It includes risk analysis, security, compliance, and misconfiguration scanning, saving Kubernetes users and administrators precious time, effort, and resources.",
+        "commit_message": "Merge pull request #1683 from kubescape/fix/mask-data\n\nMask all containers data",
+        "commit_date": "2024-05-09 17:42:28",
+        "release_date": "2024-05-07 06:55:04",
+        "release_message": "This is a hot-fix release, see [v3.0.9 release notes](https://github.com/kubescape/kubescape/releases/tag/v3.0.9).\r\n\r\n## 🐞 Fixed issues\r\n* Fix scanning repo by @dwertent in https://github.com/kubescape/kubescape/pull/1680\r\n\r\n**Full Changelog**: https://github.com/kubescape/kubescape/compare/v3.0.9...v3.0.10"
     }
 }
