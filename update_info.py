@@ -134,6 +134,7 @@ if __name__ == '__main__':
 
     urls = set(urls)
     urls = [url for url in urls if url not in data_github_pass]
+    print(f'{len(urls)=}')
     current_data = {}
     # 检查url
     loop = asyncio.get_event_loop()

@@ -289,6 +289,8 @@
                 - http://www.hiencode.com/hash.html
             四方密码:
                 - http://www.hiencode.com/four.html
+            国密SM加解密:
+                - https://github.com/milu001/sm234_decrypt_gui
             图像编码:
                 - http://www.fzwjscj.xyz/index.php/archives/23/
             圣堂武士密码:
@@ -429,6 +431,8 @@
             js逆向:
                 OB解混淆:
                     - https://tool.yuanrenxue.cn/decode_obfuscator
+                瑞数:
+                    - https://github.com/R0A1NG/Botgate_bypass
             pyc逆向:
                 - https://c5r.app/tools/pyc-decompiler
                 - https://ctfever.uniiem.com/tools/pyc-decompiler
@@ -552,6 +556,7 @@
                         - https://github.com/IdealDreamLast/CVE-2020-9484
                         - https://github.com/breaktoprotect/CVE-2017-12615
                         - https://github.com/cyberheartmi9/CVE-2017-12617
+                        - https://github.com/errors11/TomcatVuln
                         - https://github.com/jas502n/CVE-2019-0232
                         - https://github.com/pyn3rd/CVE-2019-0232
                         - https://github.com/tpt11fb/AttackTomcat
@@ -839,6 +844,7 @@
                     - https://github.com/WhiteHSBG/JNDIExploit
                     - https://github.com/X1r0z/JNDIMap
                     - https://github.com/Y4er/ysoserial
+                    - https://github.com/chasingboy/Xtools
                     - https://github.com/chennqqi/godnslog
                     - https://github.com/cseroad/Exp-Tools
                     - https://github.com/exp1orer/JNDI-Inject-Exploit
@@ -936,6 +942,7 @@
                         - https://github.com/find-sec-bugs/find-sec-bugs
                         - https://github.com/github/codeql-cli-binaries
                         - https://github.com/jar-analyzer/jar-analyzer-v1-gui
+                        - https://github.com/javaweb-sec/javaweb-sec
                         - https://github.com/momosecurity/momo-code-sec-inspector-java
                         - https://github.com/webraybtl/CodeQLpy
                         - https://github.com/wh1t3p1g/tabby
@@ -1027,6 +1034,7 @@
                     - https://github.com/maaaaz/thc-hydra-windows
                     - https://github.com/netxfly/crack_ssh
                     - https://github.com/netxfly/x-crack
+                    - https://github.com/nodauf/GoMapEnum
                     - https://github.com/opabravo/mass-bruter
                     - https://github.com/openwall/john
                     - https://github.com/pwnesia/ssb
@@ -1115,6 +1123,7 @@
                     - https://github.com/codejanus/ToolSuite
                     - https://github.com/erevus-cn/pocscan
                     - https://github.com/foxglovesec/JavaUnserializeExploits
+                    - https://github.com/hi-unc1e/POC-T
                     - https://github.com/joker25000/Optiva-Framework
                     - https://github.com/jweny/pocassist
                     - https://github.com/knownsec/Pocsuite
@@ -1157,6 +1166,8 @@
             容器镜像扫描:
                 - https://github.com/anchore/grype
                 - https://github.com/anchore/syft
+            相关资源:
+                - https://github.com/iknowjason/Awesome-CloudSec-Labs
         信息收集:
             CDN识别:
                 - https://github.com/alwaystest18/cdnChecker
@@ -1336,6 +1347,7 @@
                 - https://github.com/zhzyker/dismap
             网盘搜索:
                 - http://www.soupan.info/
+                - https://github.com/misiai/hunhepan
                 - https://search.chongbuluo.com/
                 - https://www.dalipan.com/#/
                 - https://www.lingfengyun.com/
@@ -1345,6 +1357,7 @@
                 - https://github.com/tomnomnom/waybackurls
             自动化信息收集:
                 - https://github.com/0x727/ShuiZe_0x727
+                - https://github.com/Aabyss-Team/ARL
                 - https://github.com/Arbor01/AnScan
                 - https://github.com/CLincat/vulcat
                 - https://github.com/CTF-MissFeng/GoScan
@@ -1353,7 +1366,6 @@
                 - https://github.com/Cl0udG0d/SZhe_Scan
                 - https://github.com/SiJiDo/H
                 - https://github.com/TideSec/Tide
-                - https://github.com/TophantTechnology/ARL
                 - https://github.com/XTeam-Wing/Vulcan
                 - https://github.com/XTeam-Wing/X-Marshal
                 - https://github.com/awake1t/linglong
@@ -1415,6 +1427,7 @@
                 - https://github.com/L-codes/Neo-reGeorg
                 - https://github.com/Mob2003/rakshasa
                 - https://github.com/OrangeWatermelon/frp_cmd
+                - https://github.com/TryGOTry/multiplexing_port_socks5
                 - https://github.com/alex-sector/dns2tcp
                 - https://github.com/ehang-io/nps
                 - https://github.com/esrrhs/pingtunnel
@@ -1422,6 +1435,7 @@
                 - https://github.com/iagox86/dnscat2
                 - https://github.com/inconshreveable/ngrok
                 - https://github.com/knownsec/PortForward
+                - https://github.com/p1d3er/port_reuse
                 - https://github.com/ph4ntonn/Stowaway
                 - https://github.com/rofl0r/proxychains-ng
                 - https://github.com/sechelper/slcx
@@ -1528,6 +1542,7 @@
                     - https://github.com/backlion/webshell
                     - https://github.com/ce-automne/TomcatMemShell
                     - https://github.com/ethushiroha/JavaAgentTools
+                    - https://github.com/fin3ss3g0d/ASPJinjaObfuscator
                     - https://github.com/hosch3n/msmap
                     - https://github.com/novysodope/RMI_Inj_MemShell
                     - https://github.com/tennc/webshell
@@ -1560,6 +1575,7 @@
                     - https://github.com/yqcs/ZheTian
                 免杀相关:
                     图标提取:
+                        - https://github.com/INotGreen/SharpThief
                         - https://github.com/JarlPenguin/BeCyIconGrabberPortable
                         - https://github.com/guitarfreak/SetIcon
                     文件时间修改:
@@ -1685,6 +1701,7 @@
                         - https://github.com/smxiazi/NEW_xp_CAPTCHA
                         - https://github.com/smxiazi/xia_Liao
                         - https://github.com/sting8k/BurpSuite_403Bypasser
+                        - https://github.com/xnl-h4ck3r/GAP-Burp-Extension
                     插件仓库:
                         - https://github.com/Mr-xn/BurpSuite-collections
                     未分类:
@@ -2125,12 +2142,12 @@
                 - https://github.com/cr0hn/vulnerable-node
                 - https://github.com/deadPix3l/CryptSky
                 - https://github.com/digininja/DVWA
+                - https://github.com/en0th/ElectricRat
                 - https://github.com/f4cknet/pyhackme
                 - https://github.com/fofapro/vulfocus
                 - https://github.com/incredibleindishell/SSRF_Vulnerable_Lab
                 - https://github.com/j3ers3/Hello-Java-Sec
                 - https://github.com/lemono0/FastJsonParty
-                - https://github.com/linjiananallnt/ElectricRat
                 - https://github.com/liqzz/vultrap
                 - https://github.com/psiinon/bodgeit
                 - https://github.com/stamparm/DSVW
@@ -2165,6 +2182,7 @@
                 - https://github.com/wendell1224/ide-honeypot
             相关资源:
                 - https://github.com/AnyeDuke/Enterprise-Security-Skill
+                - https://github.com/FeeiCN/Security-PPT
             网站监测:
                 - https://github.com/mangenotwork/website-monitor
             网络安全大模型:
@@ -2209,6 +2227,7 @@
                 钓鱼监测:
                     - https://github.com/x0rz/phishing_catcher
             应用日志分析:
+                - https://github.com/OSTEsayed/OSTE-Web-Log-Analyzer
                 - https://github.com/mthbernardes/ARTLAS
             样本:
                 - https://github.com/vxunderground/MalwareSourceCode
@@ -2451,6 +2470,8 @@
         - https://github.com/Ascotbe/HackerMind
     定时任务管理平台:
         - https://github.com/whyour/qinglong
+    微信机器人:
+        - https://github.com/ngc660sec/NGCBot
     恶意网络流量模拟:
         - https://github.com/alphasoc/flightsim
     报告模板:
@@ -2474,6 +2495,8 @@
         - https://github.com/Mustard404/Savior
         - https://github.com/dbgee/pentest_report
         - https://github.com/linshaoSec/WaterExp
+    漏洞信息采集与推送:
+        - ithttps://github.com/zema1/watchvuln
     生成虚假数据:
         - https://github.com/joke2k/faker
     短信转发器:
