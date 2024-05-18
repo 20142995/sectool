@@ -3856,12 +3856,12 @@
         "release_message": "### Bug Fixes\n\n- Fix redundant package deletions when considering ELF packages [[#2862](https://github.com/anchore/syft/pull/2862) @wagoodman]\n\n**[(Full Changelog)](https://github.com/anchore/syft/compare/v1.4.0...v1.4.1)**\n\n"
     },
     "https://github.com/chaitin/safeline": {
-        "created_at": "2024-04-25 09:22:34",
+        "created_at": "2024-05-17 04:19:16",
         "description": "一款足够简单、足够好用、足够强的免费 WAF。基于业界领先的语义引擎检测技术，作为反向代理接入，保护你的网站不受黑客攻击。 A free WAF that is sufficiently simple, effective, and powerful. Utilizing industry-leading semantic engine detection technology, it operates as a reverse proxy to protect your website from hacker attacks.",
-        "commit_message": "style: fontweigth (#859)",
-        "commit_date": "2024-04-29 09:18:58",
-        "release_date": "2024-04-25 10:03:36",
-        "release_message": "### 新增\r\n* 源 IP 获取方式增加 XFF\r\n* 专业版增加 系统设置->检测引擎性能配置，可以根据设备的配置等级选择不同的性能模式\r\n\r\n### 优化\r\n* 修复浏览器内核版本 < Chromium 93 时，点击智能 AI 分析页面会崩溃的问题\r\n* 修复少数情况下，限频没有正常封禁 IP 的问题\r\n* 优化 luigi 统计算法，解决 CPU 占用过高的问题\r\n* 优化一些 UI 交互细节"
+        "commit_message": "feat: 5.6.1",
+        "commit_date": "2024-05-17 04:42:25",
+        "release_date": "2024-05-17 04:40:26",
+        "release_message": "### 修复\r\n* 修复申请 acme 免费证书失败的问题"
     },
     "https://github.com/stamparm/identYwaf": {
         "created_at": "2019-01-10 11:27:58",
@@ -6289,8 +6289,8 @@
     "https://github.com/WerWolv/ImHex": {
         "created_at": "2024-03-23 09:15:12",
         "description": "🔍 A Hex Editor for Reverse Engineers, Programmers and people who value their retinas when working at 3 AM.",
-        "commit_message": "patterns: Updated pattern language",
-        "commit_date": "2024-05-12 21:19:59",
+        "commit_message": "fix: Providers not being closable",
+        "commit_date": "2024-05-17 21:51:34",
         "release_date": "2024-03-23 10:06:55",
         "release_message": "## Improvements\r\n- ImHex properly enters low power mode on Linux again now\r\n- Unifont characters are now being loaded at their native size to make them crisp like the Western characters\r\n- The splash screen is not being scaled weirdly anymore now\r\n- Added a hint when the advanced data information section didn't yield any result\r\n\r\n## Bug Fixes\r\n- Fixed linking to libyara. This should resolve issues with e.g the AUR version not starting anymore\r\n- Fixed issues with the auto updater on Windows\r\n- Fixed view providers not being saved to project files correctly\r\n- Fixed highlighting not updating correctly when changing Bookmark regions\r\n- Fixed crash upload setting not being disabled correctly when choosing \"Deny\" in the initial popup\r\n- Fixed custom base address issues with the data inspector and copy as array options\r\n- Fixed advanced data information not showing up correctly\r\n- Fixed selection being removed sometimes when right clicking it\r\n- Fixed infinite loop when exporting a selection to a file\r\n- Fixed control characters ending up in log files\r\n- Fixed a crash when opening an unopenable file\r\n\r\n## Pattern Language\r\n- Fixed various issues with the virtual file system\r\n- Fixed data decompression functions not extracting the entire data\r\n\r\n# Previous Changelog\r\n\r\n![image](https://github.com/WerWolv/ImHex/assets/10835354/57bfaec2-779e-4701-b1a5-f03da7815da3)\r\n\r\n## Additions\r\n- **All main menu entries now have pretty icons**\r\n- **Added Myers' diffing algorithm to the diff view**\r\n    - This algorithm can display insertions and removals as well as modifications\r\n    - Huge thanks to the maintainer of Malcat!\r\n- **Added option to customize toolbar icons**\r\n- **Added a much improved Out of the Box experience when first starting up ImHex**\r\n- **Added many new hash algorithms**\r\n    - This includes basic sum checksums, Snefru, Haval, various SHA versions, Keccak, RIPEMD, many CRC presets and many more\r\n- **Greatly improved the data information view**\r\n    - Sections can now be switched on and off\r\n    - Magic information now includes more than one entry if there's multiple concatenated files\r\n    - The Digram and Layered distribution graphs now perform a lot better\r\n    - There's now built-in yara rules that are being run on files to detect compilers, programming languages and more for executables\r\n- **Greatly improved the pattern editor**\r\n    - Thanks a lot to @paxcut \r\n    - This adds support for find and replace, better highlighting and many other smaller things\r\n- **Added Mini Map to the Hex Editor**\r\n    - This can be enabled by clicking on the map icon in the hex editor footer\r\n    - There's also config options when right clicking that icon\r\n- **Added `Edit -> Jump to -> Pattern` option to jump directly from hex editor highlights to patterns**\r\n    - Clicking on patterns in the pattern data view also jumps to their definition in the pattern editor now\r\n- **Added a font picker to the settings**\r\n- **Added option to highlight parent pattern regions in the hex editor when hovering over them**\r\n- Added support for searching for other string encodings and endianess. Thanks a lot to @PerikiyoXD \r\n- Added a pretty drag-n-drop overlay when dragging files onto ImHex\r\n- Added support for virtual file systems through the pattern language\r\n- Added option to keep ImHex always on top of other windows\r\n- Added option to use ImHex in fullscreen mode\r\n- Added support for switching to other providers through the command palette\r\n- Added a setting to always show all provider tabs, even if there's only one\r\n- Added option to export a selection to a file\r\n- Added a comments column to the pattern data view. It can be enabled by right clicking on the table header and selecting it there\r\n- Added option to turn off borderless window mode\r\n- Added option to export the results of the find view to a file\r\n- Added option to disable command palette button in header\r\n- Added a search bar to the file chooser popup\r\n- Added support for opening multiple files at once\r\n- Added support for macOS's Right click -> Open with option\r\n\r\n## Improvements\r\n- **ImHex now uses Atomic File I/O instead of mapping files into memory**\r\n    - This solves various issues where certain files couldn't be opened, files on network drives not working well and more\r\n- **macOS M1 build now only requires macOS 12.1 instead of 14.0 to run**\r\n- Bookmark moving now uses ImGui's native drag n drop feature\r\n- Syncing pattern language source code between providers should work better now\r\n- Custom encodings that don't have multi-byte values now display immediately when selected\r\n- The macOS build now uses a custom titlebar\r\n- ImHex windows are now being unfocused properly if the main window loses focus\r\n    - No more blinking cursors when ImHex is in the background!\r\n- Overwriting individual characters in the edit mode of the hex editor now works much better\r\n- Copy-Paste now works correctly in the Web version of ImHex. Thanks a lot to @exsilium \r\n- The find popup now remembers its content\r\n- The crash restore popup doesn't show anymore now if there's nothing to restore\r\n- Opening the same file multiple times is no longer possible now\r\n\r\n## Bug Fixes\r\n- **Fixed signing issues with macOS builds**\r\n- **Fixed CTRL + S not removing red highlights of bytes**\r\n- Fixed address bound checks in Edit -> Jump to option\r\n- Fixed menu bar collapsing into hamburger menu even if there's enough space\r\n- Fixed RGBA8 data processor node not setting output buffer correctly\r\n- Fixed provider information in information view always showing infos about the current provider instead of about the analyzed provider\r\n- Fixed issues when using certain window management tools on Windows\r\n- Fixed crashes when launching ImHex with file arguments\r\n- Fixed crash when trying to use too many hex editor rows\r\n- Fixed native theme detection of Linux. Thanks to @iTrooz \r\n- Fixed issues where workspaces are not correctly saved sometimes\r\n- Fixed issues where default magic database wasn't being bundled correctly\r\n- Fixed crashes when loading very old settings files\r\n- Fixed data inspector not updating correctly when the underlying data changed\r\n- Fixed a crash when specifying invalid hash parameters in the hashing view\r\n- Fixed additional folder paths not being loaded from the config file correctly\r\n- Fixed data inspector showing two negative signs sometimes\r\n- Fixed various issues with non-zero base addresses\r\n\r\n## Pattern Language\r\n- **Huge refactor of the Preprocessor, Lexer and Parser**\r\n    - Massive thanks to @jumanji144\r\n    - Compile errors are a lot more helpful now and include more context information\r\n- **Added support for `import` statements**\r\n    - Massive thanks to @jumanji144\r\n- **Added stacktrace to runtime errors**\r\n- Patterns can now be placed inside of custom sections from within other types\r\n- Pattern formatters now properly respect a patterns visibility\r\n    - This means hidden patterns don't end up in exported json, yaml or html files anymore\r\n- Fixed writing to big endian bitfield entries\r\n- Changing pattern setting now re-evaluates the code if auto evaluation is enabled\r\n\r\n<br/>\r\n\r\n<p align=\"center\">If you like my work, please consider supporting me on GitHub Sponsors, Patreon or PayPal. Thanks a lot!</p>\r\n<p align=\"center\">\r\n<a href=\"https://github.com/sponsors/WerWolv\"><img src=\"https://werwolv.net/assets/github_banner.png\" alt=\"GitHub donate button\" /> </a>\r\n<a href=\"https://www.patreon.com/werwolv\"><img src=\"https://c5.patreon.com/external/logo/become_a_patron_button.png\" alt=\"Patreon donate button\" /> </a>\r\n<a href=\"https://werwolv.net/donate\"><img src=\"https://werwolv.net/assets/paypal_banner.png\" alt=\"PayPal donate button\" /> </a>\r\n</p"
     },
@@ -6400,8 +6400,8 @@
     "https://github.com/arch3rPro/PST-Bucket": {
         "created_at": "2023-04-24 06:49:11",
         "description": "Scoop-Buket for Penetration Suite Toolkit",
-        "commit_message": "dotnet-runtime: Update to version 8.0.5",
-        "commit_date": "2024-05-15 01:36:04"
+        "commit_message": "yakit: Update to version 1.3.3-sp1",
+        "commit_date": "2024-05-17 16:31:42"
     },
     "https://github.com/Aiyflowers/JWT_GUI": {
         "created_at": "2023-07-01 07:09:25",
@@ -10146,7 +10146,7 @@
         "created_at": "2020-02-04 09:30:48",
         "description": "致力于成为中文区命中率最高的广告过滤列表，实现精确的广告屏蔽和隐私保护。anti-AD现已支持AdGuardHome，dnsmasq， Surge，Pi-Hole，smartdns等网络组件。完全兼容常见的广告过滤工具所支持的各种广告过滤列表格式",
         "commit_message": "Auto renew the anti-AD list.",
-        "commit_date": "2024-05-07 18:35:08",
+        "commit_date": "2024-05-16 18:34:01",
         "release_date": "2020-02-04 09:32:25",
         "release_message": "- 引入无效域名、无效hosts剔除机制，大幅提升各过滤列表命中率\r\n- 为了更好的支持pi-hole，加入一个新的全域名列表 - `anti-ad-domains.txt`\r\n- 根据网友 [@xlighting2017](https://github.com/privacy-protection-tools/anti-AD/issues/29) 建议，更新surge到新的格式\r\n- 引入数个新的配置参数，对输出结果精确控制\r\n- 若干bug和逻辑修复"
     },
@@ -21931,8 +21931,8 @@
     "https://github.com/apache/logging-log4j2": {
         "created_at": "2024-03-10 19:05:47",
         "description": "Apache Log4j 2 is a versatile, feature-rich, efficient logging API and backend for Java.",
-        "commit_message": "rewrote flowtracing #2535",
-        "commit_date": "2024-05-10 19:52:07",
+        "commit_message": "added vscode folder to the list of ignored files",
+        "commit_date": "2024-05-16 20:22:40",
         "release_date": "2024-03-10 19:24:14",
         "release_message": "This release contains several small fixes and some dependency updates.\r\n\r\n### Changed\r\n\r\n* Improve performance of `CloseableThreadContext#closeMap()` (#2296)\r\n\r\n### Fixed\r\n\r\n* Fix handling of `LoggerContextAware` lookups (#2309)\r\n* Fix NPE in `PatternProcessor` for a `UNIX_MILLIS` pattern (#2346)\r\n* Fix that parameterized message formatting doesn't throw an exception when there are insufficient number of parameters (#2343)\r\n* Fix `StatusLogger` log level filtering when debug mode is enabled (#2337)\r\n* Add `log4j2.StatusLogger.dateFormatZone` system property to set the time-zone `StatusLogger` uses to format `java.time.Instant`. Without this, formatting patterns accessing to time-zone-specific fields (e.g., year-of-era) cause failures. (#2322)\r\n* Fix `StatusLogger` to correctly read `log4j2.StatusLogger.properties` resource (#2354)\r\n* Fix stack overflow in `StatusLogger` (#2322)\r\n\r\n### Updated\r\n\r\n* Update `jakarta.activation:jakarta.activation-api` to version `2.1.3` (#2335)\r\n* Update `jakarta.mail:jakarta.mail-api` to version `2.1.3` (#2348)\r\n* Update `org.apache.commons:commons-compress` to version `1.26.0` (#2304)\r\n* Update `org.apache.commons:commons-dbcp2` to version `2.12.0` (#2344)\r\n* Update `org.apache.kafka:kafka-clients` to version `3.7.0` (#2326)\r\n* Update `org.eclipse.angus:angus-activation` to version `2.0.2` (#2336)\r\n* Update `org.eclipse.angus:jakarta.mail` to version `2.0.3` (#2349)\r\n"
     },
@@ -24213,11 +24213,11 @@
         "release_message": "🎉🎉🎉"
     },
     "https://github.com/jeremylong/DependencyCheck": {
-        "created_at": "2024-03-31 11:36:57",
+        "created_at": "2024-05-15 09:29:26",
         "description": "OWASP dependency-check is a software composition analysis utility that detects publicly disclosed vulnerabilities in application dependencies.",
-        "commit_message": "docs: update logo per intellj (#6660)",
-        "commit_date": "2024-05-11 12:59:59",
-        "release_date": "2024-03-31 12:10:21",
+        "commit_message": "build(deps): bump org.apache.maven.plugins:maven-gpg-plugin from 3.2.3 to 3.2.4 (#6670)",
+        "commit_date": "2024-05-17 12:39:04",
+        "release_date": "2024-05-15 10:00:16",
         "release_message": "Refer to the [CHANGELOG.md](https://github.com/jeremylong/DependencyCheck/blob/main/CHANGELOG.md#change-log) for information about improvements and upgrade notes."
     },
     "https://github.com/mrknow001/API-Explorer": {
@@ -25038,8 +25038,8 @@
         "description": ""
     },
     "https://www.fujieace.com/hacker/tools/yujian.html": {
-        "status_code": 200,
-        "description": "御剑后台扫描工具下载、安装、使用教程 - 付杰博客"
+        "status_code": 502,
+        "description": "502 Bad Gateway"
     },
     "https://n.shellpub.com/": {
         "status_code": 200,
@@ -25416,8 +25416,8 @@
     "https://github.com/google/oss-fuzz": {
         "created_at": "2016-07-20 19:39:50",
         "description": "OSS-Fuzz - continuous fuzzing for open source software.",
-        "commit_message": "Add c++ stdlib flag for clang++ only (#11852)\n\nObserving failure on building `libtasn1` with jcc, suspect this flag\r\nused in clang caused the issue.",
-        "commit_date": "2024-05-07 23:12:49"
+        "commit_message": "Add additional reviewers for OSS-fuzz reports for CHIP (#11969)\n\nThis adds folks that are in the security incident report team outside of\r\ngoogle - they should also have access to fuzzing reports.",
+        "commit_date": "2024-05-17 17:33:37"
     },
     "https://github.com/nmalcolm/Inventus": {
         "created_at": "2017-08-28 11:48:02",
@@ -25928,8 +25928,8 @@
     "https://github.com/2dust/clashN": {
         "created_at": "2024-04-28 04:20:52",
         "description": "A clash client for Windows, support Mihomo",
-        "commit_message": "up 2.22",
-        "commit_date": "2024-04-28 04:20:52",
+        "commit_message": "Themes migrated to MaterialDesign3",
+        "commit_date": "2024-05-05 02:07:54",
         "release_date": "2024-04-28 04:25:18",
         "release_message": "修复了一些bug"
     },
@@ -27056,7 +27056,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "20.102.46.178属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "172.190.111.172属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
@@ -27084,7 +27084,7 @@
     },
     "https://whois.aizhan.com/": {
         "status_code": 200,
-        "description": "站长工具_whois查询工具_爱站网"
+        "description": ""
     },
     "https://rapiddns.io/sameip": {
         "status_code": 200,
@@ -27845,5 +27845,59 @@
         "commit_date": "2024-02-06 09:52:01",
         "release_date": "2024-01-28 03:18:14",
         "release_message": "1、修复下载文件错位问题\r\n\r\n2、这个版本更新功能\r\n- 更换使用模式\r\n  全工具显示 模式\r\n  工具分类显示 模式\r\n- 每次打开工具都弹窗提示，改成每天就弹窗一次\r\n  （因为每次打开工具都要弹窗真的很烦人！）"
+    },
+    "https://github.com/agienka/blindy": {
+        "created_at": "2017-04-10 13:59:25",
+        "description": "Simple script to automate brutforcing blind sql injection vulnerabilities",
+        "commit_message": "Fixed q",
+        "commit_date": "2017-07-16 13:20:05"
+    },
+    "https://github.com/w-digital-scanner/w11scan": {
+        "created_at": "2018-08-05 07:48:45",
+        "description": "分布式WEB指纹识别平台 Distributed WEB fingerprint identification platform",
+        "commit_message": "更新安装文档",
+        "commit_date": "2018-08-23 13:11:26"
+    },
+    "https://github.com/TypeError/domained": {
+        "created_at": "2017-08-18 00:03:39",
+        "description": "Multi Tool Subdomain Enumeration",
+        "commit_message": "Thank you @ccsplit and @mzfr (again) :)",
+        "commit_date": "2021-04-11 09:54:50"
+    },
+    "https://github.com/find-sec-bugs/find-sec-bugs": {
+        "created_at": "2024-02-26 05:35:21",
+        "description": "The SpotBugs plugin for security audits of Java web applications and Android applications. (Also work with Kotlin, Groovy and Scala projects)",
+        "commit_message": "Merge pull request #729 from gtoison/upgrade-build-to-jdk-11\n\nUpgrade the build to run on JDK 11",
+        "commit_date": "2024-02-29 18:32:20",
+        "release_date": "2024-02-26 06:27:32",
+        "release_message": "\r\n---------------------------\r\n\r\n**Implemented enhancements:**\r\n\r\n- Java 21 Support [\\#723](https://github.com/find-sec-bugs/find-sec-bugs/issues/723)\r\n\r\n**Closed issues:**\r\n\r\n- SpringEntityLeakDetector crashes with array types [\\#679](https://github.com/find-sec-bugs/find-sec-bugs/issues/679)\r\n- Java 17 not working [\\#678](https://github.com/find-sec-bugs/find-sec-bugs/issues/678)\r\n- Detect usage of Apache BeanUtils.copyProperties as dangerous [\\#601](https://github.com/find-sec-bugs/find-sec-bugs/issues/601)\r\n\r\n**Merged pull requests:**\r\n\r\n- Upgrade SpotBugs to 4.8.3 [\\#725](https://github.com/find-sec-bugs/find-sec-bugs/pull/725) ([gtoison](https://github.com/gtoison))\r\n- Updates to handle string-building taint with invokedynamic concatenation in JDK \\> 8 [\\#713](https://github.com/find-sec-bugs/find-sec-bugs/pull/713) ([jbindel](https://github.com/jbindel))\r\n- taint-config files java-lang.txt and scala.txt propagate taint from character types [\\#712](https://github.com/find-sec-bugs/find-sec-bugs/pull/712) ([jbindel](https://github.com/jbindel))\r\n- Add GCM-SIV to authenticated cipher mode list [\\#710](https://github.com/find-sec-bugs/find-sec-bugs/pull/710) ([mzcu](https://github.com/mzcu))\r\n- Fix IMPROPER\\_UNICODE rule description [\\#707](https://github.com/find-sec-bugs/find-sec-bugs/pull/707) ([Vampire](https://github.com/Vampire))\r\n- Update messages.xml [\\#700](https://github.com/find-sec-bugs/find-sec-bugs/pull/700) ([jasonparallel](https://github.com/jasonparallel))\r\n- Fixing typo in docs [\\#699](https://github.com/find-sec-bugs/find-sec-bugs/pull/699) ([kdowbecki](https://github.com/kdowbecki))\r\n- Verbose source line locations report [\\#691](https://github.com/find-sec-bugs/find-sec-bugs/pull/691) ([oxeye-gal](https://github.com/oxeye-gal))\r\n- Adding workaround for JDK \\> 8 invokedynamic tainting [\\#690](https://github.com/find-sec-bugs/find-sec-bugs/pull/690) ([oxeye-gal](https://github.com/oxeye-gal))\r\n- JstlExpressionWhiteLister now allows custom regular expressions [\\#686](https://github.com/find-sec-bugs/find-sec-bugs/pull/686) ([jbindel](https://github.com/jbindel))\r\n- fix: added \"cash account\" to the safe words, not a SHA password [\\#683](https://github.com/find-sec-bugs/find-sec-bugs/pull/683) ([gtoison](https://github.com/gtoison))\r\n- Add Detector for XXE in XML SchemaFactory [\\#682](https://github.com/find-sec-bugs/find-sec-bugs/pull/682) ([exceptionfactory](https://github.com/exceptionfactory))\r\n- Add Detector for XXE in XML Validator [\\#681](https://github.com/find-sec-bugs/find-sec-bugs/pull/681) ([exceptionfactory](https://github.com/exceptionfactory))\r\n- fix: handle arrays in SignatureParserWithGeneric [\\#680](https://github.com/find-sec-bugs/find-sec-bugs/pull/680) ([gtoison](https://github.com/gtoison))\r\n- New detector for potential XML injection [\\#663](https://github.com/find-sec-bugs/find-sec-bugs/pull/663) ([baloghadamsoftware](https://github.com/baloghadamsoftware))\r\n- Detect usage of Apache BeanUtils as dangerous \\#601 [\\#629](https://github.com/find-sec-bugs/find-sec-bugs/pull/629) ([marcelel](https://github.com/marcelel))\r\n"
+    },
+    "https://github.com/XiaoLi996/Impacket_For_Web": {
+        "created_at": "2023-09-06 05:26:46",
+        "description": "Impacket GUI 让Impacket部分横向模块可视化操作,减少复杂指令",
+        "commit_message": "Merge remote-tracking branch 'origin/main'",
+        "commit_date": "2023-09-18 02:19:12",
+        "release_date": "2023-09-06 05:36:34",
+        "release_message": ""
+    },
+    "https://github.com/P4ck/Emergency": {
+        "created_at": "2019-06-27 06:09:58",
+        "description": "应急响应脚本",
+        "commit_message": "Update Readme.md",
+        "commit_date": "2019-06-27 06:43:22"
+    },
+    "https://github.com/fin3ss3g0d/ASPJinjaObfuscator": {
+        "created_at": "2024-04-23 01:01:53",
+        "description": "Heavily obfuscated ASP web shell generation tool.",
+        "commit_message": "add random comment mutations",
+        "commit_date": "2024-04-26 01:27:34"
+    },
+    "https://github.com/3nock/OTE": {
+        "created_at": "2023-07-12 16:00:44",
+        "description": "OSINT Template Engine",
+        "commit_message": "minor fixes",
+        "commit_date": "2023-07-20 18:18:31",
+        "release_date": "2023-07-12 16:33:49",
+        "release_message": ""
     }
 }
