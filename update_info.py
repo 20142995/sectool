@@ -103,7 +103,7 @@ def yaml2json(path, encoding="utf8"):
 
 if __name__ == '__main__':
     if len(sys.argv) != 2:
-        sys.argv.append('0-90')
+        sys.argv.append('0-30')
     start, end = map(int, sys.argv[1].split('-'))
     current_time = datetime.datetime.now()
     start, end = current_time - \
