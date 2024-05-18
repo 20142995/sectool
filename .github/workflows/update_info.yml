@@ -4,6 +4,10 @@
 name: update_info
 
 on:
+  repository_dispatch:
+  push:
+      branches:
+        - main
   schedule:
     - cron: '0 0 * * *'
 jobs:
