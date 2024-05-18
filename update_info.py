@@ -141,7 +141,10 @@ if __name__ == '__main__':
     loop.run_until_complete(check_url(urls))
     for k, v in current_data.items():
         if v:
-            data[k] = v
+            if k in data:
+                data[k].update(v)
+            else:
+                data[k] = v
         else:
             print(f'[-] {k}')
     # 写入data
