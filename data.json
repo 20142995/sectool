@@ -3551,12 +3551,12 @@
         "release_message": "# 更新日志\r\n## version1.6\r\n### 新增\r\n1. 已识别组件的目录扫描优化（使用特定字典且会进行关键字验证，例如识别到是WebLogic会自动去访问/console，并进行关键字验证）\r\n\r\n### 优化\r\n1. 脆弱性分析增加过滤，不会对所有类型进行分析（例如jpg）\r\n2. 优化和增加部份指纹\r\n3. 默认开启已识别组件的目录扫描"
     },
     "https://github.com/f0ng/autoDecoder": {
-        "created_at": "2024-02-02 14:12:42",
+        "created_at": "2024-05-05 15:14:14",
         "description": "Burp插件，根据自定义来达到对数据包的处理（适用于加解密、爆破等），类似mitmproxy，不同点在于经过了burp中转，在自动加解密的基础上，不影响APP、网站加解密正常逻辑等。",
-        "commit_message": "Update README.md",
-        "commit_date": "2024-04-02 08:30:56",
-        "release_date": "2024-03-17 13:45:07",
-        "release_message": "## 2024.3.17 更新0.39-beta1\r\n1. 修复加密bug(SM4与AES)\r\n\r\n感谢微信群师傅 @z @ruarua酱ฅ 反馈"
+        "commit_message": "Update FAQ.md",
+        "commit_date": "2024-05-17 02:40:33",
+        "release_date": "2024-05-05 15:17:27",
+        "release_message": "## 2024.5.5 更新0.40\r\n1. 修复sm4加解密bug(base64)\r\n2. 增加密文关键字对响应体的判断"
     },
     "https://github.com/funkyoummp/BurpSuiteCn": {
         "created_at": "",
@@ -3833,8 +3833,8 @@
     "https://github.com/neuvector/neuvector": {
         "created_at": "2024-04-08 17:28:21",
         "description": null,
-        "commit_message": "Merge pull request #1311 from pohanhuangtw/NVSHAS-8926-to-main\n\nNVSHAS-8926 -Scanner read not-exist path when stand alone mode",
-        "commit_date": "2024-04-24 23:10:31",
+        "commit_message": "Merge pull request #1342 from jayhuang-suse/nine\n\nNVSHAS-9026: dup and missing .NET module name",
+        "commit_date": "2024-05-17 20:38:47",
         "release_date": "2024-04-08 17:57:52",
         "release_message": "**Full Changelog**: https://github.com/neuvector/neuvector/compare/v5.3.1...v5.3.2"
     },
@@ -3910,8 +3910,8 @@
     "https://github.com/aquasecurity/trivy": {
         "created_at": "2024-05-04 05:34:54",
         "description": "Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more",
-        "commit_message": "fix(misconf): skip Rego errors with a nil location (#6666)",
-        "commit_date": "2024-05-11 00:01:40",
+        "commit_message": "fix(misconf): don't shift ignore rule related to code (#6708)",
+        "commit_date": "2024-05-17 20:53:59",
         "release_date": "2024-05-04 07:24:01",
         "release_message": "## Changelog\n* 8016b821a fix(fs): handle default skip dirs properly (#6628)\n* 7a25dadb4 fix(misconf): load cached tf modules (#6607)\n* 9c794c0ff fix(misconf): do not use semver for parsing tf module versions (#6614)\n\n"
     },
@@ -6490,8 +6490,8 @@
     "https://github.com/ImageMagick/ImageMagick": {
         "created_at": "2024-05-05 15:53:27",
         "description": "🧙‍♂️ ImageMagick 7",
-        "commit_message": "return artifacts, not properties (https://github.com/ImageMagick/ImageMagick/issues/7309)",
-        "commit_date": "2024-05-12 22:08:10",
+        "commit_message": "correct spelling (https://github.com/ImageMagick/Website/discussions/100)",
+        "commit_date": "2024-05-17 23:59:39",
         "release_date": "2024-05-05 19:08:31",
         "release_message": "## What's Changed\n* Fix GIF ICC profile reading. (https://github.com/ImageMagick/ImageMagick/issues/7281) by @njdoyle in https://github.com/ImageMagick/ImageMagick/pull/7282\n* uhdr.c: add support for rgb inputs by @aayushsoni111 in https://github.com/ImageMagick/ImageMagick/pull/7273\n\n\n**Full Changelog**: https://github.com/ImageMagick/ImageMagick/compare/7.1.1-31...7.1.1-32"
     },
@@ -7661,12 +7661,12 @@
         "release_message": ""
     },
     "https://github.com/locustio/locust": {
-        "created_at": "2024-04-18 20:22:42",
+        "created_at": "2024-05-06 15:11:31",
         "description": "Write scalable load tests in plain Python 🚗💨",
-        "commit_message": "Merge pull request #2685 from Sawiq/master\n\nAllow worker process to run with --run-time specified, just log a warning",
-        "commit_date": "2024-04-22 20:42:51",
-        "release_date": "2024-04-18 20:22:50",
-        "release_message": "## What's Changed\r\n* Drop support for Python 3.8 by @cyberw in https://github.com/locustio/locust/pull/2677\r\n* Update geventhttpclient and adjust FastHttpUser max_retries / max_redirects by @cyberw in https://github.com/locustio/locust/pull/2676\r\n* Remove python 3.8 compatibility code by @cyberw in https://github.com/locustio/locust/pull/2679\r\n* Add ruff pre commit hook by @cyberw in https://github.com/locustio/locust/pull/2680\r\n* Reformat and lint stuff. And pin gevenhttpclient version by @cyberw in https://github.com/locustio/locust/pull/2682\r\n\r\n\r\n**Full Changelog**: https://github.com/locustio/locust/compare/2.25.0...2.26.0"
+        "commit_message": "Improve --stop-timeout description.",
+        "commit_date": "2024-05-17 19:19:42",
+        "release_date": "2024-05-06 15:12:23",
+        "release_message": "## What's Changed\r\n* Small cleanup: mypy type-ignore and dev deps by @tdadela in https://github.com/locustio/locust/pull/2684\r\n* Fix various spelling errors using codespell by @cyberw in https://github.com/locustio/locust/pull/2687\r\n* Allow worker process to run with --run-time specified, just log a warning about it being ignored by @Sawiq in https://github.com/locustio/locust/pull/2685\r\n* fix: Ensure locust does not crash when an User class has no task by @hangonlyra in https://github.com/locustio/locust/pull/2696\r\n* Simplify how locustfiles are found (using -f). Don’t automatically append .py by @DennisKrone in https://github.com/locustio/locust/pull/2655\r\n* Dispatch/user distribution calculation using Kullback-Leibler divergence by @tdadela in https://github.com/locustio/locust/pull/2686\r\n* Use deque for tasks in taskset instead of plain list by @cyberw in https://github.com/locustio/locust/pull/2698\r\n* refactor: replace deprecated utcfromtimestamp function by @tdadela in https://github.com/locustio/locust/pull/2700\r\n* refactor(WindowsKeyPoller): change implementation of captured_chars  by @tdadela in https://github.com/locustio/locust/pull/2701\r\n* annotate return types of a few functions to enable more mypy check by @tdadela in https://github.com/locustio/locust/pull/2702\r\n\r\n## New Contributors\r\n* @Sawiq made their first contribution in https://github.com/locustio/locust/pull/2685\r\n* @hangonlyra made their first contribution in https://github.com/locustio/locust/pull/2696\r\n\r\n**Full Changelog**: https://github.com/locustio/locust/compare/2.26.0...2.27.0"
     },
     "https://github.com/Wh04m1001/IFaultrepElevatedDataCollectionUAC": {
         "created_at": "2022-10-14 21:40:59",
@@ -22354,12 +22354,12 @@
         "release_message": ""
     },
     "https://github.com/xaoyaoo/PyWxDump": {
-        "created_at": "2024-04-08 10:14:42",
+        "created_at": "2024-05-17 13:00:52",
         "description": "获取微信账号信息(昵称/账号/手机/邮箱/数据库密钥/wxid)；PC微信数据库读取、解密脚本；聊天记录查看工具；聊天记录导出为html(包含语音图片)。支持多账户信息获取，支持所有微信版本。",
-        "commit_message": "UPDATE CHANGELOG.md",
-        "commit_date": "2024-04-16 15:16:22",
-        "release_date": "2024-04-08 10:18:32",
-        "release_message": "[Auto Release] Update PyWxDump to refs/tags/v2.4.70\n详细更新日志请查看 [CHANGELOG.md](https://github.com/xaoyaoo/PyWxDump/blob/master/doc/CHANGELOG.md)\n"
+        "commit_message": "fix",
+        "commit_date": "2024-05-17 13:00:52",
+        "release_date": "2024-05-17 13:06:40",
+        "release_message": "[Auto Release] Update PyWxDump to refs/tags/v3.0.22\n详细更新日志请查看 [CHANGELOG.md](https://github.com/xaoyaoo/PyWxDump/blob/master/doc/CHANGELOG.md)\n"
     },
     "https://github.com/Pizz33/Qianji": {
         "created_at": "2023-11-15 03:33:53",
@@ -22467,12 +22467,12 @@
         "release_message": ""
     },
     "https://github.com/LC044/WeChatMsg": {
-        "created_at": "2024-04-16 07:05:32",
-        "description": "提取微信聊天记录，将其导出成HTML、Word、CSV文档永久保存，对聊天记录进行分析生成年度聊天报告",
-        "commit_message": "update readme",
-        "commit_date": "2024-04-16 07:05:32",
-        "release_date": "2024-04-19 09:35:54",
-        "release_message": "# 新功能\r\n## 新增聊天记录导出Excel\r\nExcel是一款功能强大的电子表格软件，具有数据存储、数据计算、数据分析、数据筛选和排序、数据合并和拆分、图表展示数据以及自动化办公等功能，对聊天记录的查看和数据分析有很大帮助。\r\n### 导出某个好友记录Excel\r\n![image.png](https://cdn.nlark.com/yuque/0/2024/png/42745842/1713457232582-297ff15f-a9f6-4717-b0c4-3ba54fee45f8.png#averageHue=%23e9f0f6&clientId=ue67b45b6-c165-4&from=paste&height=305&id=ucfbe7ba3&originHeight=305&originWidth=610&originalType=binary&ratio=1&rotation=0&showTitle=false&size=31956&status=done&style=none&taskId=u13c76ae1-92ca-434d-af20-6cec6905cea&title=&width=610)\r\n### 批量导出Excel\r\n![image.png](https://cdn.nlark.com/yuque/0/2024/png/42745842/1713458349799-1ddd15e0-b3b9-4923-9416-a4ec3ae0eb2f.png#averageHue=%23ebf2f8&clientId=ue67b45b6-c165-4&from=paste&height=283&id=u59f4619e&originHeight=283&originWidth=418&originalType=binary&ratio=1&rotation=0&showTitle=false&size=16365&status=done&style=none&taskId=u44a81d94-c025-486c-8a2d-9d3f70e23a8&title=&width=418)\r\n### Excel导出格式\r\n导出Excel支持显示文本、图片，包含语音、视频、文件超链接，导出格式为：\r\n\r\n- 消息ID：\r\n- 类型：文本、图片、文件、表情包、引用消息、系统消息等\r\n- 发送人\r\n- 时间\r\n- 内容：文本、图片、语音、视频、文件\r\n- 备注\r\n- 昵称\r\n### 消息类型展示\r\n\r\n- 系统通知\r\n\r\n![image.png](https://cdn.nlark.com/yuque/0/2024/png/42745842/1713503230951-84fa98ca-66dc-4f31-8df6-407220e83775.png#averageHue=%23f7f4f0&clientId=ue67b45b6-c165-4&from=paste&height=47&id=uf45498fc&originHeight=47&originWidth=966&originalType=binary&ratio=1&rotation=0&showTitle=false&size=11478&status=done&style=none&taskId=u46d3b642-ff5a-4d86-9d76-ea7c0c402fe&title=&width=966)\r\n\r\n- 文本消息\r\n\r\n![image.png](https://cdn.nlark.com/yuque/0/2024/png/42745842/1713503302791-52cba1ad-11b2-4bfb-8f46-9624edb6a388.png#averageHue=%23f6f4f2&clientId=ue67b45b6-c165-4&from=paste&height=51&id=ue4c4cacf&originHeight=51&originWidth=971&originalType=binary&ratio=1&rotation=0&showTitle=false&size=8912&status=done&style=none&taskId=uda20733c-d868-4c0f-a257-bbcc623c659&title=&width=971)\r\n\r\n- 图片消息\r\n\r\n图片设置为嵌入单元格模式，若要查看完整图片可以设置单元格行高、列宽或者直接改变图片大小\r\n**原格式**\r\n![image.png](https://cdn.nlark.com/yuque/0/2024/png/42745842/1713503780976-66b7280a-2ab9-42e2-85b1-8521b04ac15c.png#averageHue=%23f3f0ed&clientId=ue67b45b6-c165-4&from=paste&height=49&id=uae564f9d&originHeight=49&originWidth=646&originalType=binary&ratio=1&rotation=0&showTitle=false&size=9446&status=done&style=none&taskId=u905bc0e9-5832-4a8a-8ce5-a6c040ff477&title=&width=646)\r\n**设置行高、列宽充分展示图片**\r\n![image.png](https://cdn.nlark.com/yuque/0/2024/png/42745842/1713503865472-516e0ade-b1b4-44fe-8a45-9a9bf7951d1a.png#averageHue=%23afa18c&clientId=ue67b45b6-c165-4&from=paste&height=301&id=ud50ca304&originHeight=301&originWidth=1296&originalType=binary&ratio=1&rotation=0&showTitle=false&size=127657&status=done&style=none&taskId=u6199d818-efe6-4e74-afba-58c5afdd42e&title=&width=1296)\r\n**直接改变图片大小**\r\n![2024-04-19-13-19-09.gif](https://cdn.nlark.com/yuque/0/2024/gif/42745842/1713503979277-cb5d0470-1455-4fda-90e2-7b891b5178e3.gif#averageHue=%23f9f8f7&clientId=ue67b45b6-c165-4&from=paste&height=236&id=u208e9331&originHeight=236&originWidth=787&originalType=binary&ratio=1&rotation=0&showTitle=false&size=1240609&status=done&style=none&taskId=uacd4a759-d9dc-4268-b532-76a332f20bf&title=&width=787)\r\n\r\n- 语音消息\r\n\r\n点击超链接可打开播放语音文件\r\n\r\n![image.png](https://cdn.nlark.com/yuque/0/2024/png/42745842/1713504124357-6abab649-61c9-47c7-8543-8489e6344bc9.png#averageHue=%23f5f3f2&clientId=ue67b45b6-c165-4&from=paste&height=48&id=u0883bab2&originHeight=48&originWidth=989&originalType=binary&ratio=1&rotation=0&showTitle=false&size=9117&status=done&style=none&taskId=uc5705862-b0d5-4927-bc4a-a409b746128&title=&width=989)\r\n\r\n- 视频消息\r\n\r\n点击超链接可打开播放视频文件\r\n![image.png](https://cdn.nlark.com/yuque/0/2024/png/42745842/1713504098719-57f54514-9a78-4a72-8e9c-5b7a895c21e2.png#averageHue=%23f6f4f2&clientId=ue67b45b6-c165-4&from=paste&height=46&id=u8cf238f4&originHeight=46&originWidth=987&originalType=binary&ratio=1&rotation=0&showTitle=false&size=10355&status=done&style=none&taskId=u8075c836-0d24-44df-aad9-97ebfd1a441&title=&width=987)\r\n\r\n- 文件\r\n\r\n点击超链接可以直接打开文件\r\n![image.png](https://cdn.nlark.com/yuque/0/2024/png/42745842/1713504265802-f33bdd6d-834f-4197-8813-381fe2bacede.png#averageHue=%23f8f6f5&clientId=ue67b45b6-c165-4&from=paste&height=50&id=u46d98367&originHeight=50&originWidth=805&originalType=binary&ratio=1&rotation=0&showTitle=false&size=8295&status=done&style=none&taskId=u5e000e94-3269-4742-b8df-94d426ea6e6&title=&width=805)\r\n\r\n- 位置\r\n## 其他消息类型都在内容一栏里有详细描述\r\n### 转账信息\r\n```python\r\n2024-01-02 08:43:33 司小远\r\n【接受转账】:已收款 ￥5.20\r\n备注:啦啦啦\r\n```\r\n### 位置分享\r\n```python\r\n2024-03-28 16:42:00 司小远\r\n【位置】:\r\n    坐标：('33.976604', '108.753967')\r\n    地点：陕西省西安市鄠邑区太平旅游区高尔夫球场西边地质八队东向南 紫阁自然景区\r\n```\r\n###  名片分享\r\n```python\r\n2024-01-02 08:44:56 司小远\r\n【名片】:\r\n    昵称：司小远   微信号：888\r\n    地区：陕西 西安    性别：男\r\n```\r\n### 音视频通话\r\n```python\r\n2024-03-18 12:39:47 司小远\r\n【音视频通话】:已取消\r\n2024-03-18 12:40:17 司小远\r\n【音视频通话】:对方已拒绝\r\n2024-03-18 12:40:47 司小远\r\n【音视频通话】:通话时长 00:10\r\n```\r\n### 分享的卡片链接\r\n```python\r\n[链接]:title:【更新日志】支持导出指定好友的朋友圈\r\ndescription: \r\nurl:http://mp.weixin.qq.com/s?__biz=Mzg3NDg5MzM1NA==&amp;tempkey=MTI2NV9IUm1DOTdLM203VnRzSzg3TXFEZUFKS3hXbDhMeVpkVnBHYlVlUy1yREl3TlhNeThWem1KdExEX0JyN2laWGRaZGhnQ3FiMlJycmVSOUVrXzNnbFgzcFo4QVF6TnMwRVZpT0lPSUhkTkVhQ0FheTE2RlNwTXZoQVp5a2VVajZsUzNpNFdaSlJMYUxaeDB1bTVwaC1XT2lsRmpPWGZUaUJJTmo5NDlBfn4%3D&amp;chksm=4ec89b3779bf1221cccb903639c4a7a74c343cd0724941f48817ea2aa865bb674544cc386691&amp;mpshare=1&amp;scene=1&amp;srcid=0412nKi9WwEFOBXAPzN8DGQF&amp;sharer_shareinfo=a8b02ad8840811e903eefcf227a3d370&amp;sharer_shareinfo_first=a8b02ad8840811e903eefcf227a3d370#rd\r\nname:忆墨痕\r\n```\r\n### 引用消息\r\n```python\r\n【引用消息】\r\n发送内容：你说得对\r\n引用内容：Shuaikang Zhou：你好哦\r\n引用消息ID:5205016166094803101\r\n```\r\n\r\n## 企业微信聊天记录新增图片、视频、语音\r\n![image.png](https://cdn.nlark.com/yuque/0/2024/png/42745842/1713495909648-03a24a14-73ae-4bce-85e3-6309f3dd000f.png#averageHue=%23eceaea&clientId=ue67b45b6-c165-4&from=paste&height=711&id=u3b5beacf&originHeight=711&originWidth=850&originalType=binary&ratio=1&rotation=0&showTitle=false&size=219215&status=done&style=none&taskId=u715fe740-2ed6-4d4a-8e01-2c09dbe026a&title=&width=850)\r\n## 朋友圈新增点赞和评论\r\n![image.png](https://cdn.nlark.com/yuque/0/2024/png/42745842/1713459318393-ee9aa10c-0893-41e7-85ef-f335bcd66310.png#averageHue=%23ccd0b7&clientId=ue67b45b6-c165-4&from=paste&height=247&id=u99c53b29&originHeight=247&originWidth=570&originalType=binary&ratio=1&rotation=0&showTitle=false&size=18598&status=done&style=none&taskId=u9e96af2b-a4d6-4057-8c65-ef360f4c5ff&title=&width=570)\r\n## 新增引用消息点击跳转至原文位置\r\n右键引用消息弹出”定位到原文位置“，点击即可跳转至原文位置\r\n![image.png](https://cdn.nlark.com/yuque/0/2024/png/42745842/1713459534570-8f08b1b0-0551-405e-8075-11a7c6a273ae.png#averageHue=%23f2f0f0&clientId=ue67b45b6-c165-4&from=paste&height=677&id=u82e04674&originHeight=677&originWidth=850&originalType=binary&ratio=1&rotation=0&showTitle=false&size=78936&status=done&style=none&taskId=ue3c70ea5-a4ec-4897-9c8d-e14530cf7b0&title=&width=850)\r\n## 新增AI助手输出时清除对话\r\n![2024-04-19-11-31-49.gif](https://cdn.nlark.com/yuque/0/2024/gif/42745842/1713497578527-0b550183-e16b-49a0-951d-8d32dd90bc07.gif#averageHue=%23ecf2f7&clientId=ue67b45b6-c165-4&from=paste&height=576&id=u5d284bb8&originHeight=576&originWidth=570&originalType=binary&ratio=1&rotation=0&showTitle=false&size=556899&status=done&style=none&taskId=u4a41a7f4-7418-45c8-a239-b4d9b0ec1de&title=&width=570)\r\n# 优化\r\n\r\n- 修复由于引用消息导致的年度报告bug\r\n- 修复朋友圈导出wxid问题和文本消息转义问题\r\n- 修复部分bug\r\n# 链接\r\n官网：[https://memotrace.cn/](https://memotrace.cn/)\r\nAI聊天：[https://chat.memotrace.cn/](https://memotrace.cn/)\r\n使用教程：[https://memotrace.cn/doc/](https://memotrace.cn/doc/)\r\n阿里云盘下载地址:[https://www.alipan.com/s/4zCUkaTANM1](https://www.alipan.com/s/4zCUkaTANM1)\r\n百度网盘下载地址:https://pan.baidu.com/s/1Bc7Nnnn4yychMPVFDDAsKA?pwd=ez1k\r\n"
+        "created_at": "2024-05-10 11:13:38",
+        "description": "提取微信聊天记录，将其导出成HTML、Word、Excel文档永久保存，对聊天记录进行分析生成年度聊天报告，用聊天数据训练专属于个人的AI聊天助手",
+        "commit_message": "更新群二维码",
+        "commit_date": "2024-05-10 12:14:41",
+        "release_date": "2024-05-10 11:42:09",
+        "release_message": "注意：留痕2.0.9与之前的版本不兼容，更新软件需要重新解析数据\r\n# 新增功能\r\n## 支持导出群聊指定成员聊天记录\r\n![image.png](https://cdn.nlark.com/yuque/0/2024/png/42745842/1715329535978-71302463-d3a2-4cab-93b2-3e65344babd5.png#averageHue=%23e6eff6&clientId=uf801ba53-6094-4&from=paste&height=258&id=u3f6a6f7c&originHeight=258&originWidth=221&originalType=binary&ratio=1&rotation=0&showTitle=false&size=11140&status=done&style=none&taskId=ub1675841-8de3-4125-819b-05333856864&title=&width=221)\r\n![image.png](https://cdn.nlark.com/yuque/0/2024/png/42745842/1715329599096-2cef7510-3080-4bac-825d-3a4aaea7d96f.png#averageHue=%23ecf2f8&clientId=uf801ba53-6094-4&from=paste&height=763&id=u45c4558c&originHeight=763&originWidth=802&originalType=binary&ratio=1&rotation=0&showTitle=false&size=62737&status=done&style=none&taskId=ue12e6687-7109-428a-a70c-37d87bac62a&title=&width=802)\r\n## xlsx新增音乐分享\r\n# 功能调整\r\n## 下线朋友圈导出功能\r\n由于微信更新，朋友圈图片无法导出显示，为了提升用户体验，我们决定下线朋友圈导出功能，如有新的解决方案会再次上线。\r\n同时为了满足用户保存自己朋友圈的需求，保留了导出自己朋友圈的功能，但是图片无法导出。\r\n# 优化\r\n## 群聊显示企业微信联系人头像和昵称\r\n![image.png](https://cdn.nlark.com/yuque/0/2024/png/42745842/1715330837765-5f33e9d2-cf43-4300-bfc1-f08214d1f778.png#averageHue=%23ede8e5&clientId=uf801ba53-6094-4&from=paste&height=82&id=BgYFL&originHeight=82&originWidth=289&originalType=binary&ratio=1&rotation=0&showTitle=false&size=10228&status=done&style=none&taskId=u1f6d7ddc-26a2-4d74-858e-afe8d7daa3e&title=&width=289)\r\n## 更换语音与转文字之间的位置\r\n显示与微信效果一致\r\n![image.png](https://cdn.nlark.com/yuque/0/2024/png/42745842/1715331635904-7a530a97-00c8-4bba-b057-2aa157e95170.png#averageHue=%23f5f5f4&clientId=uf801ba53-6094-4&from=paste&height=117&id=iYdLX&originHeight=117&originWidth=250&originalType=binary&ratio=1&rotation=0&showTitle=false&size=5838&status=done&style=none&taskId=u543a7364-efa3-4053-911f-4199a6418de&title=&width=250)\r\n## 解析数据后自动加载，无需重新启动\r\n## 修复群聊导出Word找不到头像的bug\r\n## 修复合并转发消息导致HTML报错问题\r\n\r\n\r\n"
     },
     "https://github.com/netero1010/ClipboardHistoryThief": {
         "created_at": "2023-04-15 07:08:48",
@@ -22632,8 +22632,8 @@
     "https://github.com/whyour/qinglong": {
         "created_at": "2021-03-13 15:21:04",
         "description": "支持 Python3、JavaScript、Shell、Typescript 的定时任务管理平台（Timed task management platform supporting Python3, JavaScript, Shell, Typescript）",
-        "commit_message": "bark 推送增加 archive 参数",
-        "commit_date": "2024-05-05 12:10:57"
+        "commit_message": "PushMe 通知支持自建服务 (#2358)",
+        "commit_date": "2024-05-15 14:38:25"
     },
     "https://github.com/nelenkov/android-backup-extractor": {
         "created_at": "2012-06-08 13:33:46",
@@ -23284,12 +23284,12 @@
         "release_message": "Bug fixes (#40/#41)\r\nUpdated nvidia docker config/images and flask-login"
     },
     "https://github.com/sulab999/AppMessenger": {
-        "created_at": "2024-02-23 04:20:27",
+        "created_at": "2024-04-01 03:27:36",
         "description": "一款适用于以APP病毒分析、APP漏洞挖掘、APP开发、HW行动/红队/渗透测试团队为场景的移动端(Android、iOS)辅助分析工具",
         "commit_message": "Update version",
-        "commit_date": "2024-04-01 03:27:36",
-        "release_date": "2024-04-01 03:23:59",
-        "release_message": "1、新增权限信息100+\r\n2、修复一处解析错误"
+        "commit_date": "2024-05-15 09:23:27",
+        "release_date": "2024-05-15 09:22:12",
+        "release_message": "1、修复解析bug\r\n2、优化检测提示"
     },
     "https://github.com/pandasec888/taowu-cobalt_strike": {
         "created_at": "2020-07-05 10:13:00",
@@ -27060,7 +27060,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "20.172.2.103属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "4.227.115.15属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
@@ -27727,5 +27727,37 @@
         "commit_date": "2021-06-09 23:53:17",
         "release_date": "2018-04-02 06:06:17",
         "release_message": "- 增加了git_projects脚本的参数化使用功能 #999 \r\n- 修复了API模式下单个文件无法扫描的问题 #583 \r\n- 修复了Python3下代码拉取Bug #923 \r\n- 优化了扫描细节，异常处理和文档内容\r\n- Bug修复"
+    },
+    "https://github.com/M4DM0e/BadMod": {
+        "created_at": "2018-01-26 23:14:14",
+        "description": "CMS auto detect and exploit.",
+        "commit_message": "Update README.md",
+        "commit_date": "2022-04-23 16:53:46"
+    },
+    "https://github.com/HotBoy-java/PotatoTool": {
+        "created_at": "2024-05-07 04:02:10",
+        "description": "这款工具是一款功能强大的网络安全综合工具，旨在为安全从业者、红蓝对抗人员和网络安全爱好者提供全面的网络安全解决方案。它集成了多种实用功能，包括解密、分析、扫描、溯源等，为用户提供了便捷的操作界面和丰富的功能选择。This tool offers robust network security solutions for professionals and enthusiasts. With features like decryption, analysis, scanning, and traceability, it provides a user-friendly interface and diverse functionality.",
+        "commit_message": "Update README.md\n\nAdd Q&A",
+        "commit_date": "2024-05-08 07:51:19",
+        "release_date": "2024-05-07 04:10:27",
+        "release_message": "Public version initialization"
+    },
+    "https://github.com/Q2h1Cg/dnsbrute": {
+        "created_at": "2017-03-27 17:42:29",
+        "description": "a fast domain brute tool",
+        "commit_message": "2.0.1: fix baogege's bug",
+        "commit_date": "2018-03-02 02:20:14"
+    },
+    "https://github.com/CiscoCXSecurity/bbqsql": {
+        "created_at": "2012-01-10 15:10:28",
+        "description": "SQL Injection Exploitation Tool",
+        "commit_message": "Merge pull request #61 from blcksrx/master\n\nSemaphore import error fixing",
+        "commit_date": "2019-01-04 21:23:19"
+    },
+    "https://github.com/y1shiny1shin/USBFlow_Soer": {
+        "created_at": "2023-10-19 04:30:59",
+        "description": null,
+        "commit_message": "Update USBFlow_Soer.py",
+        "commit_date": "2024-04-15 14:35:18"
     }
 }
