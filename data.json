@@ -2917,8 +2917,8 @@
     "https://github.com/dbeaver/dbeaver": {
         "created_at": "2024-05-03 15:08:43",
         "description": "Free universal database tool and SQL client",
-        "commit_message": "dbeaver/pro#1809 ERD Neo4j database support (#29932)",
-        "commit_date": "2024-05-08 16:16:08",
+        "commit_message": "revert field renaming (#33189)",
+        "commit_date": "2024-05-17 10:44:10",
         "release_date": "2024-05-05 18:55:07",
         "release_message": "\n                - SQL Editor:\n                    - Smart mode for Blank line is statement delimiter  setting was fixed\n                    - Vertical button alignment was fixed\n                - ER Diagrams: Keep layout selection was fixed\n                - Data transfer:\n                    - Import from CSV with duplicated columns names was fixed\n                    - Parallel data transfer monitoring/cancellation were fixed\n                - Dashboards:\n                    - Ability to drag and drop charts to another dashboard was added\n                    - Number of minor UI improvements were added\n                - Connectivity:\n                    - SSH parameters validation on the Connection page was added\n                    - Editing of 'Local host' and 'Remote host' fields in the Port Forwarding section was fixed\n                    - Database connection timeout notification was fixed\n                - Development: Redundant tests were disabled\n                - Databases\n                    - MariaDB:\n                        - GRANT OPTION privilege persistence was fixed\n                        - Schema privileges representation was fixed\n                    - SQL Server: trigger deletion was fixed\n                    - Teradata: link to the referenced table in the Metadata editor was added\n                - Localization: French translation was updated (thanks to @Jean-BaptisteC)\n                - General:\n                    - Language configuration in Windows installer was fixed\n                    - We have migrated to Eclipse 2024/06\n            "
     },
@@ -5057,12 +5057,8 @@
         "release_message": ""
     },
     "https://github.com/FreeRDP/FreeRDP": {
-        "created_at": "2024-04-22 09:18:53",
-        "description": "FreeRDP is a free remote desktop protocol library and clients",
-        "commit_message": "[warnings] fix Wshadow warnings",
-        "commit_date": "2024-05-08 13:30:01",
-        "release_date": "2024-04-22 09:26:39",
-        "release_message": "This release eliminates a bunch of issues detected during oss-fuzz runs.\r\nThe test coverage was increased and detected issues eliminates, so an update\r\nis highly recommended.\r\n\r\nNoteworthy changes:\r\n* Lots of fixes for oss-fuzz reports\r\n* Timezone detection fixes (#10106)\r\n* SDL key remapping support (#10103)\r\n* Improved help (#10099)\r\n* FreeBSD epoll detection fix (#10097)"
+        "created_at": "2011-06-30 19:14:15",
+        "description": "FreeRDP is a free remote desktop protocol library and clients"
     },
     "https://github.com/iSafeBlue/fastjson-autotype-bypass-dem": {
         "created_at": "",
@@ -5890,12 +5886,12 @@
         "release_message": ""
     },
     "https://github.com/github/codeql-cli-binaries": {
-        "created_at": "2024-05-07 11:16:02",
+        "created_at": "2024-05-17 16:58:57",
         "description": "Binaries for the CodeQL CLI",
-        "commit_message": "Update changelog for 2.17.2",
-        "commit_date": "2024-05-07 11:16:02",
-        "release_date": "2024-05-07 11:17:34",
-        "release_message": "### Known issues\r\n\r\n- The beta support for analyzing Swift in this release and all previous releases requires `g++-13` when running on Linux. Users analyzing Swift using the `ubuntu-latest`, `ubuntu-22.04`, or `ubuntu-20.04` runner images for GitHub Actions should update their workflows to install `g++-13`. For more information, see [the runner images announcement](https://github.com/actions/runner-images/issues/9679).\r\n\r\n### Improvements\r\n\r\n- When uploading a SARIF file to GitHub using `codeql github upload-results`, the CodeQL CLI now waits for the file to be processed by GitHub. If any errors occurred during processing of the analysis results, the command will log these and return a non-zero exit code. To disable this behaviour, pass the `--no-wait-for-processing` flag.\r\n\r\n  By default, the command will wait for the SARIF file to be processed for a maximum of 2 minutes, however this is configurable with the `--wait-for-processing-timeout` option.\r\n- The build tracer is no longer enabled when using the [`none` build mode](https://docs.github.com/en/code-security/code-scanning/creating-an-advanced-setup-for-code-scanning/codeql-code-scanning-for-compiled-languages#codeql-build-modes) to analyze a compiled language, thus improving performance.\r\n\r\nFor more information about the changes included in this release, see the [CodeQL CLI changelog](https://github.com/github/codeql-cli-binaries/blob/HEAD/CHANGELOG.md).\r\n\r\nYou can download _either_ the `codeql-PLATFORM.zip` for your platform, _or_ the generic `codeql.zip` which contains binaries for all supported platforms. Please ignore the additional \"source code\" downloads below the `.zip` artifacts.\r\n\r\nThis release is compatible with the CodeQL language packs from [`github/codeql@codeql-cli/v2.17.2`](https://github.com/github/codeql/tree/codeql-cli/v2.17.2).\r\n"
+        "commit_message": "Merge pull request #175 from github/dbartol/changelog-2.17.3\n\nUpdate CHANGELOG.md",
+        "commit_date": "2024-05-17 16:58:57",
+        "release_date": "2024-05-17 17:01:15",
+        "release_message": "### Improvements\r\n\r\n- The language server that our IDE integration is built on now defaults to fine-grained dependency tracking for incremental error-checking after file changes. This slightly improves the latency of refreshing errors after local source code edits and will enable significant speedups in the future.\r\n- We now properly handle globs (such as `folder/**/*.py`) in `paths` configuration to specify what files to include for Python analysis (see documentation [here](https://docs.github.com/en/code-security/code-scanning/creating-an-advanced-setup-for-code-scanning/customizing-your-advanced-setup-for-code-scanning#specifying-directories-to-scan)).\r\n- TRAP import (a part of `codeql database create` and `codeql database finalize`) now supports allocating 2^32 IDs during the import process. The previous limit was 2^31 IDs.\r\n\r\nFor more information about the changes included in this release, see the [CodeQL CLI changelog](https://github.com/github/codeql-cli-binaries/blob/HEAD/CHANGELOG.md).\r\n\r\nYou can download _either_ the `codeql-PLATFORM.zip` for your platform, _or_ the generic `codeql.zip` which contains binaries for all supported platforms. Please ignore the additional \"source code\" downloads below the `.zip` artifacts.\r\n\r\nThis release is compatible with the CodeQL language packs from [`github/codeql@codeql-cli/v2.17.3`](https://github.com/github/codeql/tree/codeql-cli/v2.17.3).\r\n"
     },
     "https://github.com/Ascotbe/HackerMind": {
         "created_at": "",
@@ -23683,12 +23679,12 @@
         "release_message": ""
     },
     "https://github.com/qi4L/JYso": {
-        "created_at": "2024-04-29 07:10:38",
+        "created_at": "2024-05-16 03:25:03",
         "description": "It can be either a JNDIExploit or a ysoserial.",
-        "commit_message": "+ cb161",
-        "commit_date": "2024-04-30 06:44:03",
-        "release_date": "2024-04-29 07:16:45",
-        "release_message": "+ 新增一条适配CB1.6.1的链子"
+        "commit_message": "re README +++4",
+        "commit_date": "2024-05-16 09:29:46",
+        "release_date": "2024-05-16 03:25:30",
+        "release_message": "#  新增TomcatJdbc路由\r\n\r\n参考：\r\n- https://tttang.com/archive/1405/#toc_groovyclassloader\r\n- https://xz.aliyun.com/t/10656?time__1311=mq%2BxBDy7G%3DLOD%2FD0DoY4AKqiKD%3DOQjqx&alichlgref=https%3A%2F%2Ftttang.com%2F"
     },
     "https://github.com/cider-security-research/cicd-goat": {
         "created_at": "2023-08-01 07:41:49",
@@ -24404,8 +24400,8 @@
         "description": "魅族安全中心"
     },
     "https://sec.vip.com/": {
-        "status_code": 503,
-        "description": ""
+        "status_code": 200,
+        "description": "VSRC首页-唯品会信息安全中心"
     },
     "https://sec.wacai.com/": {
         "status_code": 200,
@@ -27060,7 +27056,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "4.227.115.15属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "40.67.142.101属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
@@ -27088,7 +27084,7 @@
     },
     "https://whois.aizhan.com/": {
         "status_code": 200,
-        "description": "站长工具_whois查询工具_爱站网"
+        "description": ""
     },
     "https://rapiddns.io/sameip": {
         "status_code": 200,
@@ -27759,5 +27755,49 @@
         "description": null,
         "commit_message": "Update USBFlow_Soer.py",
         "commit_date": "2024-04-15 14:35:18"
+    },
+    "https://github.com/T4y1oR/RingQ": {
+        "created_at": "2024-05-15 10:18:33",
+        "description": "一款后渗透免杀工具，助力每一位像我这样的脚本小子快速实现免杀，支持bypass 360 火绒 Windows Defender",
+        "commit_message": "Update RingQ.exe",
+        "commit_date": "2024-05-17 08:43:33",
+        "release_date": "2024-05-11 09:27:43",
+        "release_message": "2024.05.11-17 RingQ.exe 360 QVM202查杀 已更新，此报毒大家尝试更换图标，添加签名即可。\r\nReleases新增RingQ.exe原编译出main.exe文件，方便大家自定义修改降熵，如持续出现QVM202 后续考虑发布专项bypass QVM202"
+    },
+    "https://github.com/digininja/DVWA": {
+        "created_at": "2023-06-11 11:35:15",
+        "description": "Damn Vulnerable Web Application (DVWA)",
+        "commit_message": "Update README.md\n\nAdded PHP version requirements.",
+        "commit_date": "2024-05-17 16:56:56",
+        "release_date": "2023-06-11 11:39:10",
+        "release_message": "Easy built in support for containers by @hoang-himself ."
+    },
+    "https://github.com/tarihub/blackjump": {
+        "created_at": "2023-10-14 09:35:07",
+        "description": "JumpServer 堡垒机未授权综合漏洞利用, Exploit for CVE-2023-42442 / CVE-2023-42820 / RCE 2021",
+        "commit_message": "Merge pull request #2 from Like0x/patch-1\n\nUpdate blackjump.py dump method",
+        "commit_date": "2024-05-16 07:42:00"
+    },
+    "https://github.com/misiai/hunhepan": {
+        "created_at": "2024-03-13 03:31:10",
+        "description": "混合盘APP - 网盘搜索、磁力搜索 - 搜索20个百度网盘、阿里网盘、夸克网盘以及磁力资源",
+        "commit_message": "Add files via upload",
+        "commit_date": "2024-03-13 03:31:10",
+        "release_date": "2024-03-13 03:31:47",
+        "release_message": "hunhenpan_v1.0.0"
+    },
+    "https://github.com/en0th/ElectricRat": {
+        "created_at": "2023-03-06 08:41:18",
+        "description": "电气鼠靶场系统是一种带有漏洞的Web应用程序，旨在为Web安全渗透测试学习者提供学习和实践的机会。The Electrical Mouse Target Range System is a web application with vulnerabilities designed to provide learning and practice opportunities for web security penetration testing learners.",
+        "commit_message": "Update IncludeServlet.java\n\n修改 \"/\" 为通用路径",
+        "commit_date": "2024-04-25 02:41:21",
+        "release_date": "2023-03-06 08:47:39",
+        "release_message": "# 更新说明\r\n1. 新增越权漏洞案例，包含水平、垂直越权。\r\n2. 增加XSS过滤难度\r\n3. 增加SPEL和SSTI结果输出\r\n4. 新增压缩文件自解压案例\r\n\r\n# TODO\r\n- [x] 越权漏洞\r\n\r\n# 如何更新\r\n1. 将 ElectricRat-docker.zip 中的 ElectricRat.war 覆盖之前的 war 包。\r\n2. 重启 docker。`sudo docker restart electricrat-web`\r\n3. 稍等片刻后，访问 `http://127.0.0.1:12666/ElectricRat/` "
+    },
+    "https://github.com/Grazee/cloacked-pixel-python3": {
+        "created_at": "2022-10-07 09:06:21",
+        "description": "python3 version of cloacked-pixel.",
+        "commit_message": "rename folder.",
+        "commit_date": "2022-10-08 07:14:02"
     }
 }
