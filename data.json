@@ -963,8 +963,8 @@
     "https://github.com/sqlmapproject/sqlmap": {
         "created_at": "2024-01-03 22:18:35",
         "description": "Automatic SQL injection and database takeover tool",
-        "commit_message": "Trying to fix the failing CI",
-        "commit_date": "2024-04-29 13:51:48",
+        "commit_message": "Trying python3.12 in CI/CD tests",
+        "commit_date": "2024-05-09 16:42:30",
         "release_date": "2024-01-03 22:20:06",
         "release_message": "Stable version 1.8 ([changeset](https://github.com/sqlmapproject/sqlmap/compare/1.7...1.8))"
     },
@@ -1076,8 +1076,8 @@
     "https://github.com/Threekiii/Vulnerability-Wiki": {
         "created_at": "2024-03-07 09:30:14",
         "description": "基于 docsify 部署，目前漏洞数量 1000+",
-        "commit_message": "update jimureport cve-2023-4450",
-        "commit_date": "2024-05-07 00:33:54",
+        "commit_message": "update Dockerfile",
+        "commit_date": "2024-05-10 06:37:59",
         "release_date": "2024-04-01 03:17:43",
         "release_message": "2023.04.01 重构目录，此为重构前 release。重构后目录如下：\r\n```\r\ndirs = {\r\n    'oa':'OA漏洞',\r\n    'cms': 'CMS漏洞',\r\n    'framework': '开发框架漏洞',\r\n    'iot': '网络设备漏洞',\r\n    'language': '开发语言漏洞',\r\n    'os': '操作系统漏洞',\r\n    'webapp': 'Web应用漏洞',\r\n    'middleware': '中间件漏洞',\r\n    'database': '数据库漏洞',\r\n    'cloud': '云安全漏洞',\r\n    'others':'其他漏洞'\r\n}\r\n```"
     },
@@ -4211,7 +4211,7 @@
         "created_at": "2021-10-13 11:34:53",
         "description": "v2ray节点、免费节点、免费v2ray节点、最新公益免费v2ray节点订阅地址、免费v2ray节点每日更新、免费ss/v2ray/trojan节点、freefq ",
         "commit_message": "update",
-        "commit_date": "2024-05-07 12:35:31"
+        "commit_date": "2024-05-18 01:22:51"
     },
     "https://github.com/QAX-A-Team/sharpwmi": {
         "created_at": "2020-04-08 05:50:21",
@@ -26235,8 +26235,8 @@
     "https://github.com/X1r0z/JNDIMap": {
         "created_at": "2023-11-06 12:42:03",
         "description": "JNDI 注入利用工具, 支持 RMI 和 LDAP 协议, 包含多种高版本 JDK 绕过方式 | A JNDI injection exploit tool that supports RMI and LDAP protocols, including a variety of methods to bypass higher-version JDK",
-        "commit_message": "feat: 支持 Tomcat JDBC RCE\n\n支持 Tomcat JDBC RCE",
-        "commit_date": "2024-04-22 10:17:03"
+        "commit_message": "style: 修改路由名称\n\n将原 FromPath 路由的名称修改为 FromFile",
+        "commit_date": "2024-05-15 10:24:46"
     },
     "https://github.com/dzonerzy/goWAPT": {
         "created_at": "2017-12-05 19:32:43",
@@ -27056,7 +27056,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "40.67.142.101属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "20.102.46.178属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
@@ -27084,7 +27084,7 @@
     },
     "https://whois.aizhan.com/": {
         "status_code": 200,
-        "description": ""
+        "description": "站长工具_whois查询工具_爱站网"
     },
     "https://rapiddns.io/sameip": {
         "status_code": 200,
@@ -27799,5 +27799,51 @@
         "description": "python3 version of cloacked-pixel.",
         "commit_message": "rename folder.",
         "commit_date": "2022-10-08 07:14:02"
+    },
+    "https://github.com/httpie/cli": {
+        "created_at": "2023-05-19 21:41:26",
+        "description": "🥧 HTTPie CLI  — modern, user-friendly command-line HTTP client for the API era. JSON support, colors, sessions, downloads, plugins & more.",
+        "commit_message": "Re-add conditional colorama dependency\n\n#1553",
+        "commit_date": "2024-03-18 15:53:23",
+        "release_date": "2023-05-19 21:43:34",
+        "release_message": "- Fixed compatibility with `urllib3` 2.0.0. ([#1499](https://github.com/httpie/httpie/issues/1499))\r\n\r\n---\r\n \r\n→ Join our Discord community: https://httpie.io/discord\r\n→ Install HTTPie: https://httpie.io/docs/cli/installation\r\n→ Learn more: https://httpie.io"
+    },
+    "https://github.com/liqzz/vultrap": {
+        "created_at": "2024-05-10 07:11:07",
+        "description": "Easy to build a vulnerability trap server . 🦊",
+        "commit_message": "修复vps环境下 ，开放端口无法访问问题",
+        "commit_date": "2024-05-14 12:57:48"
+    },
+    "https://github.com/TryGOTry/multiplexing_port_socks5": {
+        "created_at": "2021-03-14 06:34:59",
+        "description": "一款golang写的支持http与socks5的端口复用小工具，并且可以开启socks5代理。",
+        "commit_message": "Update add.go",
+        "commit_date": "2021-03-14 06:47:45",
+        "release_date": "2021-03-14 06:37:46",
+        "release_message": "修复了部分服务器添加失败bug\r\n更换判断规则是否添加成功方式。\r\n有啥bug欢迎留言。"
+    },
+    "https://github.com/ngc660sec/NGCBot": {
+        "created_at": "2024-01-02 07:07:54",
+        "description": "一个基于✨HOOK机制的微信机器人，支持🌱安全新闻定时推送【FreeBuf，先知，安全客，奇安信攻防社区】，👯Kfc文案，⚡备案查询，⚡手机号归属地查询，⚡WHOIS信息查询，🎉星座查询，⚡天气查询，🌱摸鱼日历，⚡微步威胁情报查询， 🐛美女视频，⚡美女图片，👯帮助菜单。📫 支持积分功能，⚡支持自动拉人，⚡检测广告，🌱自动群发，👯Ai回复，😄自定义程度丰富，小白也可轻松上手！",
+        "commit_message": "Merge pull request #36 from pbuff07/bugfix/fix_help_menu_response_error\n\n修复HELP指令不生效的问题",
+        "commit_date": "2024-05-08 01:37:24",
+        "release_date": "2024-01-02 07:24:40",
+        "release_message": "### NGCBot V2.0龙年贺岁版更新！\r\n新增更多功能\r\n更快！更多！更全！\r\n最新请查看Readme\r\n\r\n### 注意：由于新版本采用不同框架，所以不能跟以前版本互通！！\r\n\r\n## 注意：请直接Git代码：https://github.com/ngc660sec/NGCBot.git\r\n## release只提供微信安装包\r\n\r\n"
+    },
+    "https://github.com/JSREI/js-cookie-monitor-debugger-hook": {
+        "created_at": "2023-08-04 03:36:35",
+        "description": "js cookie逆向利器：js cookie变动监控可视化工具 & js cookie hook打条件断点",
+        "commit_message": "Update README.md",
+        "commit_date": "2023-08-30 06:35:56",
+        "release_date": "2023-08-04 03:42:18",
+        "release_message": "## 油猴商店安装更新 \r\n\r\nhttps://greasyfork.org/zh-CN/scripts/419781-js-cookie-monitor-debugger-hook\r\n\r\n## What's Changed\r\n* format add setting menu by @codehz in https://github.com/JSREI/js-cookie-monitor-debugger-hook/pull/10 （当前版本为bug修复，这个pr会在下一个大版本时v1.0时发布）\r\n* fix #13 \r\n\r\n## New Contributors\r\n* @codehz made their first contribution in https://github.com/JSREI/js-cookie-monitor-debugger-hook/pull/10\r\n\r\n**Full Changelog**: https://github.com/JSREI/js-cookie-monitor-debugger-hook/compare/v0.10...v0.11"
+    },
+    "https://github.com/CuriousLearnerDev/Online_tools": {
+        "created_at": "2023-12-09 15:00:53",
+        "description": "该工具是一个集成了非常多渗透测试工具，类似软件商城的工具可以进行工具下载，工具的更新，工具编写了自动化的安装脚本，不用担心工具跑不起来。",
+        "commit_message": "Update README.md",
+        "commit_date": "2024-02-06 09:52:01",
+        "release_date": "2024-01-28 03:18:14",
+        "release_message": "1、修复下载文件错位问题\r\n\r\n2、这个版本更新功能\r\n- 更换使用模式\r\n  全工具显示 模式\r\n  工具分类显示 模式\r\n- 每次打开工具都弹窗提示，改成每天就弹窗一次\r\n  （因为每次打开工具都要弹窗真的很烦人！）"
     }
 }
