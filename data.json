@@ -22773,12 +22773,12 @@
         "release_message": ""
     },
     "https://github.com/qiwentaidi/Slack": {
-        "created_at": "2024-04-10 05:54:55",
-        "description": "一款Go Wails实现的GUI工具，功能涵盖网站扫描、端口扫描、企业信息收集、子域名暴破、空间引擎搜索、CDN识别等",
-        "commit_message": "update",
-        "commit_date": "2024-04-17 15:26:11",
-        "release_date": "2024-04-10 06:08:10",
-        "release_message": "新增：\r\n1、JSFinder功能\r\n2、目录扫描增加查看数据包返回内容（默认输出json格式），并增加字典内容文本框联动JSFinder功能\r\n3、Hunter、FOFA模块增加URL批量复制功能\r\n\r\n优化：\r\n1、优化日志功能，此处部分局部日志，改为全局日志\r\n2、设置模块调整布局，增加代理启用检测功能\r\n3、目录扫描模块删除重定向列地址显示，改为icon显示路径是否存在重定向跳转，增加错误次数过滤，增加交互提示\r\n\r\n修复：\r\n1、目录扫描重复数据次数记录错误（原来错写成记录状态码出现次数）\r\n2、修复公司名称收集域名时无法获取到域名的问题，由于天眼查人机校验反爬目前天眼查爬备案的接口先暂停使用。\r\n"
+        "created_at": "2024-05-10 16:31:15",
+        "description": "一款Go Wails实现的渗透测试工具，功能涵盖网站扫描、端口扫描、企业信息收集、空间引擎搜索等，希望能帮助你少让你少开几个应用测试",
+        "commit_message": "1",
+        "commit_date": "2024-05-13 15:20:37",
+        "release_date": "2024-05-10 16:35:30",
+        "release_message": "新增：\r\n1、重构网站扫描功能，目前能够完全适配全运算指纹匹配规则，指纹增加风险等级显示，引擎完全替换成Nuclei外置，使用时需要确保Nuclei正确安装。\r\n2、更新POC和指纹等信息到0.0.5\r\n旧版的指纹规则与POC已舍弃，请移除原有的配置文件确保新的配置文件可以自动更新！！！\r\n\r\n指纹由原来的2000+升级到8000+\r\nPOC由AFROG全面更新为Nuclei\r\n感谢dddd项目的大力支持！！！\r\n2、增加底部面包屑以及将日志功能模块移至底部右侧\r\n\r\n优化：\r\n1、空间引擎批量搜索标签页显示过长\r\n2、原Fscan内容提取模块更名为数据处理，增加数据去重功能\r\n3、JSFinder模块重构界面并新增颜色标注、右键菜单栏功能、爬取增加多线程\r\n4、侧边栏图标及文字增大\r\n5、微信API模块重构页面，并增加部分API查询功能，如查询域名信息等\r\n6、微信公众号查询显示内容优化，可以直接显示LOGO以及公众号二维码\r\n\r\n修复：\r\n1、目录扫描自定义请求头导致程序退出问题\r\n2、微信公众号资产导出时列表头内容不一致问题\r\n3、鹰图前后端ICON搜索MD5不一致问题\r\n4、旧版本解压配置文件差异\r\n\r\n下个版本：\r\n1、会增加端口SYN模式扫描\r\n"
     },
     "https://github.com/horizon3ai/CVE-2023-27524": {
         "created_at": "2023-04-25 04:59:05",
@@ -26549,10 +26549,12 @@
         "description": "CTF在线工具-ASCII编码转换|Unicode编码转换|Native编码转换|UTF-16|UTF-32"
     },
     "https://github.com/wafinfo/DecryptTools": {
-        "created_at": "2024-03-14 05:39:36",
+        "created_at": "2024-03-20 05:16:49",
         "description": "DecryptTools-综合解密",
-        "commit_message": "DecryptTools V2.0\n\nDecryptTools V2.0",
-        "commit_date": "2024-03-20 05:16:49"
+        "commit_message": "Merge branch 'main' of https://github.com/wafinfo/DecryptTools",
+        "commit_date": "2024-04-25 07:20:53",
+        "release_date": "2024-04-25 07:09:02",
+        "release_message": "DecryptTools【T00ls专版】"
     },
     "http://www.hiencode.com/hash.html": {
         "status_code": 200,
@@ -27062,7 +27064,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "52.234.36.46属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "40.67.133.154属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
@@ -27455,12 +27457,12 @@
         "commit_date": "2020-05-27 08:36:02"
     },
     "https://github.com/efchatz/pandora": {
-        "created_at": "2024-04-18 00:40:01",
+        "created_at": "2024-04-30 18:44:00",
         "description": "A red team tool that assists into extracting/dumping master credentials and/or entries from different password managers.",
-        "commit_message": "Update README.md",
-        "commit_date": "2024-04-18 00:41:39",
-        "release_date": "2024-04-18 00:41:10",
-        "release_message": "Fixed vcxproj files"
+        "commit_message": "Delete headers/core/FindPlugin.h",
+        "commit_date": "2024-04-30 18:44:00",
+        "release_date": "2024-04-30 18:44:57",
+        "release_message": "Delete duplicate file"
     },
     "https://github.com/ARPSyndicate/kenzer-templates": {
         "created_at": "2020-09-18 21:03:28",
@@ -28035,5 +28037,61 @@
         "commit_date": "2019-06-16 17:01:58",
         "release_date": "2018-09-12 21:12:06",
         "release_message": "OWASP VBScan 0.1.8 [Self Challenge]\r\n============\r\n* Updated vulnerabilities database\r\n* \"Email Before Registration Plugin\" SQL exploit added\r\n* \"Tapatalk vbulletin plugin\" exploit added\r\n* \"Routestring RCE\" exploit added\r\n* Vbulletin possible password logger detector added\r\n* Allow start from any path\r\n* OpenRedirection founder module added\r\n* Vbulletin version comparing module added\r\n* A few enhancements"
+    },
+    "https://github.com/errors11/TomcatVuln": {
+        "created_at": "2024-04-18 06:25:24",
+        "description": "Tomcat漏洞利用工具",
+        "commit_message": "update passwordExp",
+        "commit_date": "2024-04-18 11:52:42",
+        "release_date": "2024-04-18 06:30:33",
+        "release_message": "TomcatVuln-1.0-SNAPSHOT"
+    },
+    "https://github.com/hellokuls/cnnyzm": {
+        "created_at": "2019-07-06 01:37:02",
+        "description": "用CNN识别验证码| python识别验证码| 训练验证码模型",
+        "commit_message": "Update README.md",
+        "commit_date": "2023-05-20 01:13:00"
+    },
+    "https://github.com/0xInfection/TIDoS-Framework": {
+        "created_at": "2020-09-13 16:55:07",
+        "description": "The Offensive Manual Web Application Penetration Testing Framework.",
+        "commit_message": "Update pathtrav module to new Vailyn version",
+        "commit_date": "2021-02-12 22:42:42",
+        "release_date": "2020-09-13 17:22:13",
+        "release_message": "> This is a beta of TIDoS 2.0, released for user testing. Please report any bugs by an issue having the `beta-2.0` label.\r\n\r\n### Changelog\r\n\r\nNew Features\r\n\r\n* fully ported framework to **Python 3**\r\n* new default console interface, behaving like Metasploit\r\n  * _alternative CLI argument interface to interact with 1 module quickly_\r\n  * _alternative GUI interface powered by PyQt5_\r\n* most modules use **multiprocessing** to get the job done faster\r\n* supports sites running on non-default HTTP(S) ports\r\n* new modules: arpscan, photon, new version: pathtrav\r\n\r\nMany bug fixes, amongst #109\r\n\r\nWIP\r\n\r\n* Tor: support piping attacks through Tor (95% done)\r\n* database: save all outputs in a database (mostly done)"
+    },
+    "https://github.com/jar-analyzer/jar-analyzer-v1-gui": {
+        "created_at": "2023-02-18 05:56:11",
+        "description": "建议使用新版：https://github.com/jar-analyzer/jar-analyzer",
+        "commit_message": "Update README.md",
+        "commit_date": "2023-11-30 03:59:12",
+        "release_date": "2023-02-18 06:01:20",
+        "release_message": "## 1.1\r\n\r\n优化一些细节问题，提高用户体验\r\n\r\n更新内容：\r\n- [important] 选择文件时只显示JAR/WAR文件提高效率 #84\r\n- [bug] 应该支持隐藏文件/目录 #85\r\n- [feat] 显示每一个方法和类来自哪一个Jar文件 #86\r\n- [feat] 常见搜索允许自定义补充 #87\r\n- [improve] 限制JAR包大小防止加载过多过大的文件 #83\r\n- [improve] 表达式查询默认应该显示一些信息提示 #88\r\n- 简单优化 UI 界面\r\n- 完善 README 文档\r\n\r\n下载说明：\r\n- `jar-analyzer-*.jar` 使用 `java -jar` 启动（使用`Java 8`以上启动，支持 `Windows/Mac/Linux`）\r\n- `jar-analyzer-*-system-jre.exe` 使用系统`Java 8`以上启动（`Windows`）\r\n- `jar-analyzer-*-jre-exe.zip` 内置`Java 11 JRE`和 `exe` 版本（`Windows`）"
+    },
+    "https://github.com/OSTEsayed/OSTE-Web-Log-Analyzer": {
+        "created_at": "2024-01-04 20:36:05",
+        "description": "OSTE WLA automate the process of analyzing web server logs with the Python Web Log Analyzer.",
+        "commit_message": "analyzing for the usage of automated tools in logs, adding XSS,SQL pyloads",
+        "commit_date": "2024-01-13 07:32:10"
+    },
+    "https://github.com/wy876/wiki": {
+        "created_at": "2023-12-31 07:18:18",
+        "description": "漏洞文库 wiki.wy876.cn",
+        "commit_message": "Update index.html",
+        "commit_date": "2024-05-18 13:17:22"
+    },
+    "https://github.com/R0A1NG/Botgate_bypass": {
+        "created_at": "2024-04-25 09:47:00",
+        "description": "绕过瑞数waf的动态验证机制，实现请求包重放，可针对不同网站使用。",
+        "commit_message": "update",
+        "commit_date": "2024-05-16 06:39:44",
+        "release_date": "2024-04-25 09:48:48",
+        "release_message": "v2.1"
+    },
+    "https://github.com/p1d3er/port_reuse": {
+        "created_at": "2024-01-04 09:19:36",
+        "description": "golang 实现的windows and linux 端口复用工具。",
+        "commit_message": "Update README.md",
+        "commit_date": "2024-01-30 06:02:56"
     }
 }
