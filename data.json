@@ -1639,13 +1639,13 @@
         "release_message": "Bug 逐步修复 功能逐步完善中"
     },
     "https://github.com/xzajyjs/ThunderSearch": {
-        "created_at": "",
-        "description": "",
-        "commit_date": "2023-12-04 15:39:00",
-        "commit_message": "fix zoomeye host_search",
+        "created_at": "2023-09-12 17:45:36",
+        "description": "小而美【支持Fofa、Shodan、Hunter、Zoomeye、Quake网络空间搜索引擎】闪电搜索器；GUI图形化(Mac/Windows)渗透测试信息搜集工具；资产搜集引擎；hw红队工具hvv",
+        "commit_date": "2024-04-13 11:18:37",
+        "commit_message": "fix tk/tcl bug on Mac",
         "release_tag": "",
-        "release_date": "",
-        "release_message": ""
+        "release_date": "2023-09-12 17:55:11",
+        "release_message": "- 新增页面自适应, 针对Windows的HiDPI进行优化\r\n- 完善英文支持\r\n- 修复Mac平台Sonoma中存在的界面卡顿bug\r\n---\r\n- Added page adaptation, optimized for Windows HiDPI\r\n- Improve English support\r\n- Fix the bug in Sonoma on Mac that window elements not responding to the mouse cursor\r\n---\r\n> MD5 (ThunderSearch_darwin_universal.dmg) = 7c07043dadc135c3f662d235a2668a3b\r\nMD5 (ThunderSearch_win.zip) = ab1b385c836a7903d2c2075c37e9feb9\r\nMac版密码: `Hi!j3@/J`\r\npassword of the `dmg` on Mac: `Hi!j3@/J`"
     },
     "https://github.com/foryujian/yjdirscan": {
         "created_at": "2020-10-05 15:37:28",
@@ -4042,13 +4042,13 @@
         "release_message": ""
     },
     "https://github.com/arch3rPro/Pentest-Windows": {
-        "created_at": "2022-07-08 02:43:58",
+        "created_at": "2023-10-27 10:57:06",
         "description": "Windows11 Penetration Suite Toolkit 一个开箱即用的windows渗透测试环境",
-        "commit_date": "2023-10-31 01:56:54",
+        "commit_date": "2024-05-04 11:42:40",
         "commit_message": "Update README.md",
         "release_tag": "v2.2",
         "release_date": "2023-10-27 11:00:44",
-        "release_message": "新增内网渗透工具和远程管理工具、删除了部分已不再维护或基本不用的工具\r\n\r\nWindows11 Penetration Suite Toolkit v2.2 (WSL) 【推荐】\r\n下载链接：https://www.123pan.com/s/q59KVv-T4Qpd.html 提取码:wpst\r\n文件大小：8.55GB，解压后：23.2GB\r\nSHA256：7305DBFFF38EAAD59373C8232EB417F6E996A5E80F379D22688BAC0E7C8CA6A9\r\nWindows11 Penetration Suite Toolkit v2.2 (NoWSL) 【无WSL】\r\n下载链接：https://www.123pan.com/s/q59KVv-tvQpd.html 提取码:wpst\r\n文件大小：7.13 GB，解压后：17.6GB\r\nSHA256：D05F8366E1054911AAE885A61D2621786B74CC6050F55A66B90CE4EDD38CFD98"
+        "release_message": "新增内网渗透工具和远程管理工具、删除了部分已不再维护或基本不用的工具\r\n\r\n  - Windows11 Penetration Suite Toolkit v2.2 (WSL) 【推荐】\r\n    - 下载链接：https://www.123pan.com/s/q59KVv-T4Qpd.html  提取码:wpst\r\n    - 文件大小：8.55GB，解压后：23.2GB\r\n    - SHA256：7305DBFFF38EAAD59373C8232EB417F6E996A5E80F379D22688BAC0E7C8CA6A9\r\n\r\n -  Windows11 Penetration Suite Toolkit v2.2 (NoWSL) 【无WSL】\r\n\t - 下载链接：[https://www.123pan.com/s/q59KVv-tvQpd.html](https://www.123pan.com/s/q59KVv-tvQpd.html)  提取码:wpst\r\n\t - 文件大小：7.13 GB，解压后：17.6GB\r\n\t - SHA256：D05F8366E1054911AAE885A61D2621786B74CC6050F55A66B90CE4EDD38CFD98\r\n"
     },
     "https://github.com/c0ny1/vulstudy": {
         "created_at": "2018-05-15 15:06:22",
@@ -4488,13 +4488,13 @@
         "release_message": "1. 新增代理源 **FreeProxyList**; (2022-07-21)\r\n2. 新增代理源 **FateZero**; (2022-08-01)\r\n3. 新增代理属性 ``region``; (2022-08-16)"
     },
     "https://github.com/r0oth3x49/ghauri": {
-        "created_at": "",
-        "description": "",
-        "commit_date": "2024-01-04 11:56:25",
-        "commit_message": "updated readme with installation guideline by @Bornunique911, fixed #119",
+        "created_at": "2024-05-17 10:28:03",
+        "description": "An advanced cross-platform tool that automates the process of detecting and exploiting SQL injection security flaws",
+        "commit_date": "2024-05-17 10:28:03",
+        "commit_message": "updated code quality, fixed issue with --ignore-code, bumped version 1.3.2..",
         "release_tag": "",
-        "release_date": "",
-        "release_message": ""
+        "release_date": "2024-05-17 10:31:51",
+        "release_message": "### Fixes\r\n - fixed issue with `--ignore-code` switch as it was not processing any http status codes provided."
     },
     "https://github.com/dalinvip/Awesome-ChatGPT": {
         "created_at": "2023-02-06 11:57:37",
@@ -5092,7 +5092,7 @@
         "release_message": ""
     },
     "https://github.com/quasar/Quasar": {
-        "created_at": "2014-07-08 12:27:59",
+        "created_at": "2023-03-12 16:15:09",
         "description": "Remote Administration Tool for Windows",
         "commit_date": "2023-08-14 19:33:43",
         "commit_message": "Add link to Getting Started guide to README",
@@ -5900,8 +5900,8 @@
         "release_message": "### Improvements\r\n\r\n- The language server that our IDE integration is built on now defaults to fine-grained dependency tracking for incremental error-checking after file changes. This slightly improves the latency of refreshing errors after local source code edits and will enable significant speedups in the future.\r\n- We now properly handle globs (such as `folder/**/*.py`) in `paths` configuration to specify what files to include for Python analysis (see documentation [here](https://docs.github.com/en/code-security/code-scanning/creating-an-advanced-setup-for-code-scanning/customizing-your-advanced-setup-for-code-scanning#specifying-directories-to-scan)).\r\n- TRAP import (a part of `codeql database create` and `codeql database finalize`) now supports allocating 2^32 IDs during the import process. The previous limit was 2^31 IDs.\r\n\r\nFor more information about the changes included in this release, see the [CodeQL CLI changelog](https://github.com/github/codeql-cli-binaries/blob/HEAD/CHANGELOG.md).\r\n\r\nYou can download _either_ the `codeql-PLATFORM.zip` for your platform, _or_ the generic `codeql.zip` which contains binaries for all supported platforms. Please ignore the additional \"source code\" downloads below the `.zip` artifacts.\r\n\r\nThis release is compatible with the CodeQL language packs from [`github/codeql@codeql-cli/v2.17.3`](https://github.com/github/codeql/tree/codeql-cli/v2.17.3).\r\n"
     },
     "https://github.com/Ascotbe/HackerMind": {
-        "created_at": "",
-        "description": "",
+        "created_at": "2019-02-21 01:03:39",
+        "description": "各种安全相关思维导图整理收集。渗透步骤，web安全，CTF，业务安全，人工智能，区块链安全，数据安全，安全开发，无线安全，社会工程学，二进制安全，移动安全，红蓝对抗，运维安全，风控安全，linux安全",
         "commit_date": "2023-12-04 07:10:47",
         "commit_message": "Update 2.0 version:peach:",
         "release_tag": "",
@@ -6033,7 +6033,7 @@
         "release_message": ""
     },
     "https://github.com/AduraK2/Intranet-Movement-Kit": {
-        "created_at": "2023-04-18 08:16:25",
+        "created_at": "2023-04-20 03:49:33",
         "description": "内网横向移动工具箱",
         "commit_date": "2023-08-28 07:22:55",
         "commit_message": "Update README.md",
@@ -6113,13 +6113,13 @@
         "release_message": "    1、Suid shell bash检测判断\r\n    2、重写生成代码(优化商城模块)\r\n    3、BT后渗透脚本编写\r\n        A. BT linux面板后渗透编写[详情查看思维导图]\r\n![BT渗透](https://github.com/RuoJi6/HackerPermKeeper/assets/79234113/58da1f32-ef66-4f62-8495-1461d24c1ca3)\r\n"
     },
     "https://github.com/dark-kingA/cloudTools": {
-        "created_at": "2023-09-18 11:51:28",
+        "created_at": "2024-01-21 04:14:47",
         "description": "云资产管理工具 目前工具定位是云安全相关工具，目前是两个模块 云存储工具、云服务工具， 云存储工具主要是针对oss存储、查看、删除、上传、下载、预览等等 云服务工具主要是针对rds、服务器的管理，查看、执行命令、接管等等",
-        "commit_date": "2023-10-14 08:49:08",
-        "commit_message": "Update README.md",
+        "commit_date": "2024-03-14 10:16:17",
+        "commit_message": "update md",
         "release_tag": "main",
-        "release_date": "2023-10-14 16:27:55",
-        "release_message": " 1.云服务工具模块：\r\n阿里云：添加子用户列表查看\r\n华为云：添加子用户列表查看\r\n腾讯云：添加子用户列表查看\r\n#7 解决腾讯云主机只能查询20个限制BUG\r\nucloud：新增ucloud、主机查询、接管控制台、子用户列表查看、主用户查看、订单查看\r\n更新应用图标"
+        "release_date": "2024-03-14 10:03:13",
+        "release_message": "云资产管理工具：\r\n优化部分bug\r\n\r\n云服务工具模块：\r\n添加笔记记录功能\r\n\r\n其他工具模块：\r\n添加钉钉工具\r\n\r\n优化软件问题"
     },
     "https://github.com/TideSec/BypassAntiVirus": {
         "created_at": "2019-12-16 06:26:32",
@@ -9591,13 +9591,13 @@
         "release_message": ""
     },
     "https://github.com/federicodotta/Brida": {
-        "created_at": "2017-07-28 16:07:31",
+        "created_at": "2023-07-17 17:17:18",
         "description": "The new bridge between Burp Suite and Frida!",
-        "commit_date": "2023-07-28 15:29:31",
-        "commit_message": "Update README.md",
+        "commit_date": "2024-03-28 11:20:17",
+        "commit_message": "iOS hook bugfix",
         "release_tag": "v0.6pre",
         "release_date": "2023-07-17 17:26:08",
-        "release_message": "Changelog from 0.5 version (for now):\r\n\r\n- JS files compatible with frida-compile >= 10\r\n- Added \"Host:Port\" and \"DeviceId\" Frida connection modes\r\n- Added JS bypass for OkHttpHostname Verified\r\n- Added Magisk to root packages (thanks @mustafairan)\r\n\r\nI will update this version as soon as I implement of fix something, because compilation can be tricky due to the RSyntaxTextArea dependency that must be installed locally (I tried with the last version and there still is the same compatibility issue with Burp Suite)"
+        "release_message": "Changelog from 0.5 version (for now):\r\n\r\n- Kill server fixed with last Java versions\r\n- JS files compatible with frida-compile >= 10 (use version 10.2.5 or lower, due to an [issue with frida-compile](https://github.com/frida/frida-compile/issues/82))\r\n- Added \"Host:Port\" and \"DeviceId\" Frida connection modes\r\n- Added JS bypass for OkHttpHostname Verified\r\n- Added Magisk to root packages (thanks @mustafairan)\r\n\r\nI will update this version as soon as I implement of fix something, because compilation can be tricky due to the RSyntaxTextArea dependency that must be installed locally (I tried with the last version and there still is the same compatibility issue with Burp Suite)"
     },
     "https://github.com/pentest-tools-public/Pass-to-hash-EWS": {
         "created_at": "2018-08-29 05:26:46",
@@ -10236,7 +10236,7 @@
         "release_message": ""
     },
     "https://github.com/ffffffff0x/ones": {
-        "created_at": "2022-02-01 10:44:04",
+        "created_at": "2022-08-18 02:39:59",
         "description": "可用于多个网络资产测绘引擎 API 的命令行查询工具",
         "commit_date": "2023-09-14 08:26:59",
         "commit_message": "update 2023年 9月14日 星期四 16时26分59秒 CST",
@@ -10326,8 +10326,8 @@
     "https://github.com/b0bac/GetMail": {
         "created_at": "2021-04-20 14:08:22",
         "description": "利用NTLM Hash读取Exchange邮件",
-        "commit_date": "2023-09-20 12:37:18",
-        "commit_message": "修复命令行指定邮箱地址认证失败的bug! Fixed the command line script bug that fail to login when autodiscover is False",
+        "commit_date": "2023-11-17 03:34:49",
+        "commit_message": "Update GetMailGUI.py",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -19778,13 +19778,13 @@
         "commit_message": "Rule for Spring4Shell"
     },
     "https://github.com/danielmiessler/SecLists": {
-        "created_at": "2012-02-19 01:30:18",
+        "created_at": "2024-02-16 15:55:59",
         "description": "SecLists is the security tester's companion. It's a collection of multiple types of lists used during security assessments, collected in one place. List types include usernames, passwords, URLs, sensitive data patterns, fuzzing payloads, web shells, and many more.",
         "release_tag": "2023.2",
-        "release_date": "2023-05-16 09:01:35",
-        "release_message": "Second release of 2023!\r\n🎉 This release includes multiple updates from the community =)\r\n🥇 Thank you everyone <3\r\n\r\nShout-out to: @ItsIgnacioPortal, @ClutchReboot , @ivan-sincek, @Strayfade & @righettod",
-        "commit_date": "2023-08-15 21:48:36",
-        "commit_message": "[Github Action] Updated combined_directories.txt"
+        "release_date": "2024-02-16 15:57:18",
+        "release_message": "First release of 2024!\r\n🎉 This release includes [multiple updates](https://github.com/danielmiessler/SecLists/compare/2023.4...2024.1) from the community =)\r\n🥇 Thank you everyone <3\r\n\r\nShout-out to: @cosad3s, @molangning, @barisbogdan, @righettod, @davidmcduffie001, @legik, @StellarSand, @zerbaliy3v, @jhaddix, @emmanuel-londono, @Ghoreish , @denandz and @ErdemOzgen.",
+        "commit_date": "2024-05-19 00:21:50",
+        "commit_message": "[Github Action] Automated trickest wordlists update."
     },
     "https://github.com/maaaaz/impacket-examples-windows": {
         "created_at": "2016-01-24 16:42:02",
@@ -23552,8 +23552,8 @@
         "release_message": ""
     },
     "https://github.com/t3l3machus/Villain": {
-        "created_at": "",
-        "description": "",
+        "created_at": "2022-10-25 22:02:59",
+        "description": "Villain is a C2 framework that can handle multiple TCP socket & HoaxShell-based reverse shells, enhance their functionality with additional features (commands, utilities etc) and share them among connected sibling servers (Villain instances running on different machines).",
         "commit_date": "2023-12-19 13:39:05",
         "commit_message": "Update README.md",
         "release_tag": "",
@@ -23988,7 +23988,7 @@
         "release_message": ""
     },
     "https://github.com/silentsignal/burp-log4shell": {
-        "created_at": "2021-12-12 14:52:49",
+        "created_at": "2023-09-24 08:29:21",
         "description": "Log4Shell scanner for Burp Suite",
         "commit_date": "2023-09-24 08:25:29",
         "commit_message": "manifest update for v0.2.4",
@@ -24406,8 +24406,8 @@
         "description": "魅族安全中心"
     },
     "https://sec.vip.com/": {
-        "status_code": 503,
-        "description": ""
+        "status_code": 200,
+        "description": "VSRC首页-唯品会信息安全中心"
     },
     "https://sec.wacai.com/": {
         "status_code": 200,
@@ -27064,7 +27064,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "74.249.13.190属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "172.183.50.145属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
