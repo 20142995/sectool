@@ -519,7 +519,9 @@
     },
     "https://github.com/knownsec/404StarLink": {
         "created_at": "2020-11-17 08:10:18",
-        "description": "404StarLink - 推荐优质、有意义、有趣、坚持维护的安全开源项目"
+        "description": "404StarLink - 推荐优质、有意义、有趣、坚持维护的安全开源项目",
+        "commit_message": "weekly update at 2024-05-13",
+        "commit_date": "2024-05-13 03:30:29"
     },
     "https://github.com/gwen001/github-subdomains": {
         "created_at": "2020-07-24 06:54:29",
@@ -3254,11 +3256,11 @@
         "release_message": ""
     },
     "https://github.com/bytedance/Elkeid": {
-        "created_at": "2024-05-07 08:10:28",
+        "created_at": "2024-05-15 06:48:13",
         "description": "Elkeid is an open source solution that can meet the security requirements of various workloads such as hosts, containers and K8s, and serverless. It is derived from ByteDance's internal best practices.",
-        "commit_message": "FIXME: typos introduced when merging from Linux v6.7\n\nSigned-off-by: shenping.matt <shenping.matt@bytedance.com>",
-        "commit_date": "2024-05-07 08:12:43",
-        "release_date": "2024-05-11 12:29:09",
+        "commit_message": "Merge pull request #612 from bytedance/fix-link-path\n\nfix link path not exist",
+        "commit_date": "2024-05-17 11:00:48",
+        "release_date": "2024-05-15 09:10:57",
         "release_message": ""
     },
     "https://github.com/knownsec/ct": {
@@ -3893,8 +3895,8 @@
     "https://github.com/quay/clair": {
         "created_at": "2024-05-01 16:55:34",
         "description": "Vulnerability Static Analysis for Containers",
-        "commit_message": "build(deps): bump golang.org/x/net from 0.24.0 to 0.25.0\n\nBumps [golang.org/x/net](https://github.com/golang/net) from 0.24.0 to 0.25.0.\n- [Commits](https://github.com/golang/net/compare/v0.24.0...v0.25.0)\n\n---\nupdated-dependencies:\n- dependency-name: golang.org/x/net\n  dependency-type: direct:production\n  update-type: version-update:semver-minor\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>",
-        "commit_date": "2024-05-06 23:58:40",
+        "commit_message": "chore: update claircore to v1.5.28\n\nUpdate claircore to latest release.\n\nSigned-off-by: Claircore-CI <crozzy@users.noreply.github.com>",
+        "commit_date": "2024-05-13 20:23:16",
         "release_date": "2024-05-01 16:59:42",
         "release_message": "<a name=\"unreleased\"></a>\r\n## [Unreleased]\r\n\r\n\r\n<a name=\"v4.7.4\"></a>\r\n## [v4.7.4] - 2024-05-01\r\n\r\n### NOTE\r\n[The default layer download location has changed](https://github.com/quay/clair/blob/release-4.7/Documentation/howto/deployment.md#disk-usage-considerations)\r\n\r\n### Claircore\r\n- tarfs: follow hardlinks in `ReadFile`\r\n  <details>\r\n  This makes `fs.ReadFile` work as expected when opening hardlinks.\r\n  </details>\r\n\r\n- debian: update how \"source\" packages are handled\r\n  <details>\r\n  Previously, the Updater parsed metadata from the repository to try to\r\n  record only \"binary\" packages. This was inaccurate and, with the new\r\n  dpkg handling, now unneeded. The new approach should be more accurate.\r\n  </details>\r\n\r\n- dpkg: improve Source handling\r\n  <details>\r\n  The dpkg handling machinery now correctly records source packages and\r\n  versions. Previously, version differences between a source package and\r\n  the resulting binary package(s) were incorrect if the versions were not\r\n  identical.\r\n  </details>\r\n\r\n- libindex: add `O_TMPFILE` fallback logic\r\n  <details>\r\n  After discovering that some common deployment methods are incompatible with\r\n  using the `O_TMPFILE` `open(2)` flag, a fallback path has been added. The\r\n  changes also move the default location of where temporary files are downloaded\r\n  to, to better align with the layout recommended by systemd.\r\n  \r\n  Please see [the documentation] for specifics.\r\n  \r\n  [the documentation]: https://pkg.go.dev/github.com/quay/claircore/libindex@v1.5.\r\n  26-0.20240325212310-fedb9d327aa7#NewRemoteFetchArena\r\n  </details>\r\n\r\n- osv: parse database_specific severity when no CVSS severity is defined\r\n  <details>\r\n  Occasionally there are OSV advisories that don't include any severity\r\n  information in the `.severity` object but they do contain a severity in\r\n  the `.database_specific` object. This change attempts to parse that\r\n  severity if we don't get a severity from the native `.severity` object.\r\n  </details>\r\n\r\n### Build(Deps)\r\n- [3ebd889c](https://github.com/quay/clair/commit/3ebd889cb37603e071ba0d8fb8ba631702b13414): bump peter-evans/create-pull-request from 6.0.0 to 6.0.1\r\n- [b7566a0f](https://github.com/quay/clair/commit/b7566a0feedc5de0227a5bfd6e2921014ec68704): bump peter-evans/create-pull-request from 5.0.2 to 6.0.0\r\n- [4db2f09b](https://github.com/quay/clair/commit/4db2f09be2330e4dc9061dc2e9d44d8979b8c34d): bump actions/cache from 3 to 4\r\n- [6cef8311](https://github.com/quay/clair/commit/6cef8311255b024dd3a1fc0a70f7edf38969906c): bump actions/upload-artifact from 3 to 4\r\n- [5ed80215](https://github.com/quay/clair/commit/5ed80215fa17adb7e72ba3d9267368474afd411e): bump actions/download-artifact from 3 to 4\r\n- [c9e1f56b](https://github.com/quay/clair/commit/c9e1f56b224f25aacd5df861563006520e63297b): bump actions/setup-go from 4 to 5\r\n- [3ab3de55](https://github.com/quay/clair/commit/3ab3de558380fff38b8503de914c1b9c0611c4c8): bump actions/stale from 8 to 9\r\n- [591188f0](https://github.com/quay/clair/commit/591188f0a877b81878209be4b9185d4cb7c404f3): bump docker/setup-buildx-action from 2 to 3\r\n- [7ef6ef6b](https://github.com/quay/clair/commit/7ef6ef6b7587386b80cef9fbe7269b0083c8f039): bump docker/login-action from 2 to 3\r\n- [5597e7cc](https://github.com/quay/clair/commit/5597e7ccb94c113cc8344e8289be886049b23f63): bump docker/build-push-action from 4 to 5\r\n- [14d7f2b4](https://github.com/quay/clair/commit/14d7f2b4927fa9e4debc9005fb6dc620a6a47833): bump docker/setup-qemu-action from 2 to 3\r\n- [1204db98](https://github.com/quay/clair/commit/1204db98853cdfdce7790f3d3276d4617e4e3000): bump actions/checkout from 3 to 4\r\n### Chore\r\n- [4170798b](https://github.com/quay/clair/commit/4170798b6d464be0b8f74b1979785a17ad71dbd0): 4.7.4 changelog bump\r\n- [96dc6074](https://github.com/quay/clair/commit/96dc60748b492df1cb4af3761c9c44c10266ed09): Add merge step when creating release binaries\r\n- [a1c7eb7c](https://github.com/quay/clair/commit/a1c7eb7c8cce687e12fcc056be1acacbdc608a31): update go version for release\r\n- [6eeb9393](https://github.com/quay/clair/commit/6eeb9393b539cf49a10c42e247b833ce7e040607): update claircore to v1.5.27\r\n- [809dd5ab](https://github.com/quay/clair/commit/809dd5ab474994eb9a32599f4257437fde995064): update go version\r\n### Cicd\r\n- [e6378d03](https://github.com/quay/clair/commit/e6378d0333085a072cf73bfa32228af24b710b05): add container version skew check\r\n- [2ba3ecc0](https://github.com/quay/clair/commit/2ba3ecc0a66679dcd82f7015695db5b2a3f0c02a): update testing workflow\r\n- [ae135c49](https://github.com/quay/clair/commit/ae135c4956358d6c18109438b6e59170100787ea): don't upload workspace on failure\r\n- [7222dc88](https://github.com/quay/clair/commit/7222dc88d4fe919cc2b88e2fe7587061a881b794): change version specifiers to be major-version only\r\n### Clairctl\r\n- [2a2ba37f](https://github.com/quay/clair/commit/2a2ba37f6404e377d702e50f78bccd172b08b03f): warn when range requests are not honored\r\n### Dockerfile\r\n- [5547b96a](https://github.com/quay/clair/commit/5547b96aeff795da43fbc6e2dc8ec7b5dda7691d): remove sh loop\r\n### Docs\r\n- [3753415b](https://github.com/quay/clair/commit/3753415b4e2b6bc9b63a940b8b2101d82ab523ef): add mention of disk space path and usage\r\n### Httptransport\r\n- [c6df986f](https://github.com/quay/clair/commit/c6df986fddfe5121b6fd9dbfff0ccca35c55cb71): GET vuln report returns 404 when indexing in-progress\r\n### Initialize\r\n- [9828576a](https://github.com/quay/clair/commit/9828576af20c966e0dbe99bbac68d3e80b07baa1): use defaults for NewRemoteFetcher\r\n\r\n[Unreleased]: https://github.com/quay/clair/compare/v4.7.4...HEAD\r\n[v4.7.4]: https://github.com/quay/clair/compare/v4.7.3...v4.7.4\r\n"
     },
@@ -8558,8 +8560,8 @@
     "https://github.com/nomi-sec/PoC-in-GitHub": {
         "created_at": "2019-12-08 13:03:54",
         "description": "📡 PoC auto collect from GitHub. ⚠️ Be careful Malware.",
-        "commit_message": "Auto Update 2024/05/18 00:28:20",
-        "commit_date": "2024-05-18 00:28:20"
+        "commit_message": "Auto Update 2024/05/19 00:28:07",
+        "commit_date": "2024-05-19 00:28:07"
     },
     "https://github.com/Ridter/CVE-2017-11882": {
         "created_at": "2017-11-21 05:55:53",
@@ -10480,8 +10482,8 @@
     "https://github.com/BishopFox/sliver": {
         "created_at": "2024-02-28 19:43:18",
         "description": "Adversary Emulation Framework",
-        "commit_message": "Merge pull request #1685 from BishopFox/47b6dependabot/go_modules/google.golang.org/protobuf-1.34.1\n\nBump google.golang.org/protobuf from 1.34.0 to 1.34.1",
-        "commit_date": "2024-05-13 17:13:32",
+        "commit_message": "Merge pull request #1691 from BishopFox/v1.6.0/certificate-management\n\nView Certificate Information",
+        "commit_date": "2024-05-17 17:46:13",
         "release_date": "2024-02-28 20:00:27",
         "release_message": "Fix for DNS C2, and other small backports. Hoping to have a v1.6 release soon with many more updates!"
     },
@@ -23196,8 +23198,8 @@
     "https://github.com/RVC-Boss/GPT-SoVITS": {
         "created_at": "2024-01-14 18:05:21",
         "description": "1 min voice data can also be used to train a good TTS model! (few shot voice cloning)",
-        "commit_message": "modify freeze_quantizer mode, avoid quantizer's codebook updating (#953)",
-        "commit_date": "2024-05-02 13:26:44"
+        "commit_message": "删除重复的 COPY 指令 (#1073)",
+        "commit_date": "2024-05-11 03:49:21"
     },
     "https://github.com/djytmdj/Network-security-study-notes": {
         "created_at": "2023-07-25 06:13:25",
@@ -24219,8 +24221,8 @@
     "https://github.com/jeremylong/DependencyCheck": {
         "created_at": "2024-05-15 09:29:26",
         "description": "OWASP dependency-check is a software composition analysis utility that detects publicly disclosed vulnerabilities in application dependencies.",
-        "commit_message": "build(deps): bump org.apache.maven.plugins:maven-gpg-plugin from 3.2.3 to 3.2.4 (#6670)",
-        "commit_date": "2024-05-17 12:39:04",
+        "commit_message": "build(deps): bump golang from 1.22.2-alpine to 1.22.3-alpine (#6655)",
+        "commit_date": "2024-05-18 14:35:40",
         "release_date": "2024-05-15 10:00:16",
         "release_message": "Refer to the [CHANGELOG.md](https://github.com/jeremylong/DependencyCheck/blob/main/CHANGELOG.md#change-log) for information about improvements and upgrade notes."
     },
@@ -27060,7 +27062,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "40.67.133.158属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "52.234.36.46属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
@@ -27317,8 +27319,8 @@
         "commit_date": "2021-05-10 04:28:14"
     },
     "https://who.cx/": {
-        "status_code": 200,
-        "description": "WHO.CX - Whois查询"
+        "status_code": 403,
+        "description": "Just a moment..."
     },
     "https://github.com/zer0h/httpscan": {
         "created_at": "2016-03-29 11:03:21",
@@ -28025,5 +28027,13 @@
         "description": "[✅Py 3.x]渗透测试插件化并发框架 / Open-sourced remote vulnerability PoC/EXP framework，现已兼容 Python3",
         "commit_message": "chore: update deps",
         "commit_date": "2024-04-22 16:31:33"
+    },
+    "https://github.com/OWASP/vbscan": {
+        "created_at": "2018-09-12 21:10:50",
+        "description": "OWASP VBScan is a Black Box vBulletin Vulnerability Scanner",
+        "commit_message": "Merge pull request #19 from GoodBlokeAri/patch-1\n\nbackupfinder.pl >> additions, alphabetical",
+        "commit_date": "2019-06-16 17:01:58",
+        "release_date": "2018-09-12 21:12:06",
+        "release_message": "OWASP VBScan 0.1.8 [Self Challenge]\r\n============\r\n* Updated vulnerabilities database\r\n* \"Email Before Registration Plugin\" SQL exploit added\r\n* \"Tapatalk vbulletin plugin\" exploit added\r\n* \"Routestring RCE\" exploit added\r\n* Vbulletin possible password logger detector added\r\n* Allow start from any path\r\n* OpenRedirection founder module added\r\n* Vbulletin version comparing module added\r\n* A few enhancements"
     }
 }
