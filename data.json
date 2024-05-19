@@ -439,7 +439,7 @@
         "release_message": "Fix some side effects  & completion more in bash style\r\n"
     },
     "https://github.com/Mustard404/Savior": {
-        "created_at": "2021-11-10 18:41:40",
+        "created_at": "2021-11-17 16:17:56",
         "description": "渗透测试报告自动生成工具！",
         "commit_date": "2022-05-09 08:03:18",
         "commit_message": "Update index.jsx",
@@ -703,7 +703,7 @@
         "release_message": ""
     },
     "https://github.com/pmiaowu/BurpFastJsonScan": {
-        "created_at": "2020-12-15 02:22:42",
+        "created_at": "2022-06-22 15:42:03",
         "description": "一款基于BurpSuite的被动式FastJson检测插件",
         "commit_date": "2022-06-26 17:02:17",
         "commit_message": "删除无用文件,修改.gitignore一处错误",
@@ -1067,13 +1067,13 @@
         "release_message": "Initial release"
     },
     "https://github.com/Yong-An-Dang/nuclei-plus": {
-        "created_at": "2022-09-28 01:59:16",
+        "created_at": "2024-05-08 14:36:48",
         "description": "Functional enhancement based on nuclei",
-        "commit_date": "2023-02-24 08:06:16",
-        "commit_message": "update",
+        "commit_date": "2024-05-08 15:11:12",
+        "commit_message": "自动跳过格式不正确的模板\n\nv7.1.4",
         "release_tag": "v7.0.0",
-        "release_date": "2023-02-23 07:56:42",
-        "release_message": "> 第一个发布版本，也是第七个大版本，就是这么奇怪:grin:\r\n#### :pushpin: Support\r\n\r\n- [x] Support system tray\r\n- [x] Support project management\r\n- [x] Support configuration management\r\n- [x] Support template management\r\n- [x] Support template editing\r\n- [x] Support internationalization, default `zh`\r\n- [x] Support multiple network space engine interface search\r\n\r\n**Full Changelog**: https://github.com/Yong-An-Dang/nuclei-plus/commits/v7.0.0"
+        "release_date": "2024-05-08 15:07:21",
+        "release_message": "### :bug: 修复\r\n- 修复模板格式不正确导致加载不出模板列表的问题 #29 #25\r\n\r\n**Full Changelog**: https://github.com/Yong-An-Dang/nuclei-plus/compare/v7.1.3...v7.1.4"
     },
     "https://github.com/Threekiii/Vulnerability-Wiki": {
         "created_at": "2024-03-07 09:30:14",
@@ -1542,7 +1542,7 @@
         "release_message": "Changes\r\n-------\r\n* Add bypass for admin shell uploads when write permissions are not present on the plugins directory\r\n* Update dependencies\r\n"
     },
     "https://github.com/MountCloud/JavaDecompileTool-GUI": {
-        "created_at": "2021-01-08 07:19:30",
+        "created_at": "2021-04-12 21:56:10",
         "description": "Java Decompile Tool GUI-JAVA反编译工具（界面版）",
         "commit_date": "2021-04-12 21:56:10",
         "commit_message": "Update README.md",
@@ -2800,7 +2800,7 @@
         "release_message": "版本：v3.0 2023/7/15\r\n\r\n·新增Censys\r\n\r\n·quake和zoomeye代码优化调整\r\n\r\n·界面改动,新增语法参考\r\n\r\n·修复查询过大闪退问题\r\n\r\n·修复导出时间戳被覆盖问题\r\n\r\n·修复已知BUG\r\n\r\nwindows至少需要win7以上系统"
     },
     "https://github.com/Lotus6/ThinkphpGUI": {
-        "created_at": "2021-06-22 15:01:04",
+        "created_at": "2021-11-30 14:41:47",
         "description": "Thinkphp(GUI)漏洞利用工具，支持各版本TP漏洞检测，命令执行，getshell。",
         "commit_date": "2022-06-01 18:48:29",
         "commit_message": "no message",
@@ -3345,10 +3345,10 @@
         "release_message": "# Version 0.5.0\r\n\r\nThe new update is out! 🤩\r\n\r\n- Completely redesign the revershell component\r\n- New transfert methods component\r\n- Fix the MSF Builder component\r\n\r\n## Installation Steps :\r\n\r\n### Chrome\r\n- Extract **dist.zip** (you will obtain a folder named **dist**)\r\n- In your chromium based web-browser upload the folder as an unpacked Extension ***check the repo readme.md***\r\n\r\n**NEW** Link to the Chrome extension : https://chrome.google.com/webstore/detail/hack-tools/cmbndhnoonmghfofefkcccljbkdpamhi\r\n\r\n---\r\n\r\n### Firefox\r\n\r\nhttps://addons.mozilla.org/fr/firefox/addon/hacktools/\r\n\r\nOr install it as a temporary plugin in Firefox in the page `about:debugging#/runtime/this-firefox` by selecting the manifest inside **dist**\r\n\r\n---\r\n\r\n### Instructions to build for Safari\r\n\r\nCreate a safari web extension project using the command below. This is to be run once.\r\n\r\n```bash\r\nxcrun safari-web-extension-coverter [path_to_dist_folder]\r\n```\r\n\r\nFollow the instructions to create the project the default language should be Swift.\r\n\r\n- Build project.\r\n- Open Safari and enable unsigned extensions; Develop → Allow Unsigned Extensions.\r\n- Open Safari → Preferences → Extensions and enable Hack-Tools\r\n- Click on the extension icon and switch to full screen mode.\r\n\r\n**Full Changelog**: https://github.com/LasCC/Hack-Tools/pull/133\r\n"
     },
     "https://github.com/FelisCatus/SwitchyOmega": {
-        "created_at": "2012-06-08 15:32:30",
+        "created_at": "2018-08-27 03:42:07",
         "description": "Manage and switch between multiple proxies quickly & easily.",
-        "commit_date": "2023-03-30 08:39:34",
-        "commit_message": "Translated using Weblate (Persian)\n\nCurrently translated at 97.4% (341 of 350 strings)",
+        "commit_date": "2024-02-23 04:02:04",
+        "commit_message": "Translated using Weblate (Chinese (Simplified))\n\nCurrently translated at 100.0% (350 of 350 strings)",
         "release_tag": "v2.5.20",
         "release_date": "2018-08-27 04:03:14",
         "release_message": ":thinking:  **What happened in v2.5.21? See https://github.com/FelisCatus/SwitchyOmega/issues/2007#issuecomment-653838710**\r\n\r\n### What's new\r\n\r\n- This update contains bug fixes for Chromium only. Firefox users do not need to update.\r\n- Fix some compatibility issues on very old Chromium-based browsers (e.g. Chromium 31).\r\n- Fix some bugs introduced in refactoring, allowing external profile detection to work again.\r\n- Fix \"show external profile\" setting reverting itself to enabled.\r\n\r\n:beetle: In case of issues, please right click on the extension icon and select \"Report Issue\" from the menu so that I can locate and fix the issue more quickly.\r\n\r\n### Installation\r\n\r\n:large_blue_circle: **Users of Chromium and Chromium-based browsers:** Please install from [Chrome Web Store](https://chrome.google.com/webstore/detail/padekgcemlokbadohgkifijomclgjgif).\r\n\r\n:red_circle: **Users of Mozilla Firefox and other Mozilla-based browsers:** Please install from [Mozilla Add-Ons](https://addons.mozilla.org/en-US/firefox/addon/switchyomega/). (See Firefox Support below for supported versions.)\r\n\r\nIf you cannot install from the links above, or prefer a manual installation:\r\n\r\nThe packaged CRX file below can be installed in Chromium. Please [google for installation instructions](https://www.google.com/search?q=how%20to%20load%20crx%20files%20in%20chrome) on how to install it.\r\n\r\nThe packaged XPI file below can be installed in Firefox. Please [google for installation instructions](https://www.google.com/search?q=how%20to%20install%20xpi%20files%20in%20firefox) on how to install it.\r\n\r\n### Firefox Support\r\n\r\n* Firefox >= 60: Shiny `browser.proxy.onRequest` API. SwitchyOmega just added support recently so please let us know if you experience issues.\r\n* Firefox >= 55: Deprecated. Legacy `browser.proxy.register` API. We do not provide any support for these versions. **Please upgrade your browser before filing issues.**\r\n    * HTTP/HTTPS/SOCKS5 Authentication and SOCKS5 Remote DNS will only work in some versions (>= 2017-09-18).\r\n* Firefox <= 54: WONT WORK. Back-porting is not possible due to lack of support in proxy API.\r\n\r\n### 更新内容\r\n\r\n- 这次更新只含有 Chromium 平台的 bug 修复， Firefox 用户无需更新。\r\n- 修复非常古老的基于 Chromium 浏览器上的一些兼容性问题。（例如 Chromium 31.）\r\n- 修复重构导致的外部情景模式 bug. 现在外部情景模式应该可以正常工作了。\r\n- 修复 “显示外部情景模式” 设置总会重置到“启用”的错误。 \r\n\r\n:beetle: 如遇到问题，请使用图标右键菜单的“反馈问题”功能提交错误报告，以便开发者及时修复，谢谢。\r\n\r\n### 安装\r\n\r\n:large_blue_circle: **Chromium 或基于 Chromium 的浏览器用户：** 请从 [Chrome 应用商店](https://chrome.google.com/webstore/detail/padekgcemlokbadohgkifijomclgjgif) 安装。\r\n\r\n:red_circle: **Mozilla Firefox 或者基于 Mozilla 的其他浏览器用户：** 请从 [Mozilla Add-Ons](https://addons.mozilla.org/en-US/firefox/addon/switchyomega/) 安装。（见下方 Firefox 支持的版本说明。）\r\n\r\n如果您无法从以上链接安装，请继续阅读以下说明。 \r\n\r\n下方的 CRX 安装包可用于 Chromium. 关于下载后如何安装，您可以[谷歌一下](https://www.google.com/search?q=Chrome%E5%8A%A0%E8%BD%BDcrx)，或者看看[百度经验怎么说](http://jingyan.baidu.com/article/d621e8da18f8372865913fdc.html)。\r\n\r\n下方的 XPI 安装包可用于 Firefox. 关于下载后如何安装，您可以[谷歌一下](https://www.google.com/search?q=Chrome%E5%8A%A0%E8%BD%BDcrx)。\r\n\r\n### Firefox 支持\r\n\r\n* Firefox >= 60: 崭新的 `browser.proxy.onRequest` API. SwitchyOmega 最近才支持此功能，因此如遇到问题请及时反馈。\r\n* Firefox >= 55: 过时的 `browser.proxy.register` API. 我们不会再对这些版本提供技术支持。  **请先更新浏览器，再反馈任何问题。**\r\n    * HTTP/HTTPS/SOCKS5 认证以及 SOCKS5 远程 DNS 只在某些版本中可以工作 (>= 2017-09-18).\r\n* Firefox <= 54: 无法工作。由于这些版本没有代理 API ，我们无法向后兼容这些版本。"
@@ -3577,7 +3577,7 @@
         "release_message": ""
     },
     "https://github.com/bewhale/thinkphp_gui_tools": {
-        "created_at": "2021-04-26 13:32:23",
+        "created_at": "2021-08-30 03:55:26",
         "description": "ThinkPHP漏洞综合利用工具, 图形化界面, 命令执行, 一键getshell, 批量检测, 日志遍历, session包含,宝塔绕过",
         "commit_date": "2022-07-02 09:01:52",
         "commit_message": "Update README.md",
@@ -3619,7 +3619,7 @@
         "commit_date": "2024-04-12 07:08:35"
     },
     "https://github.com/teamssix/container-escape-check": {
-        "created_at": "2022-03-17 11:00:37",
+        "created_at": "2022-04-07 11:10:26",
         "description": "docker container escape check || Docker 容器逃逸检测",
         "commit_date": "2022-04-19 07:50:10",
         "commit_message": "Merge pull request #2 from teamssix/add-license-1\n\nCreate LICENSE",
@@ -3674,8 +3674,8 @@
     "https://github.com/EASY233/Finger": {
         "created_at": "2021-03-24 02:46:31",
         "description": "一款红队在大量的资产中存活探测与重点攻击系统指纹探测工具",
-        "commit_date": "2023-03-12 07:30:18",
-        "commit_message": "Update Readme.md",
+        "commit_date": "2023-12-22 13:16:38",
+        "commit_message": "Update fofa.py",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -4481,8 +4481,8 @@
     "https://github.com/jhao104/proxy_pool": {
         "created_at": "2016-11-25 13:49:07",
         "description": "Python ProxyPool for web spider",
-        "commit_date": "2023-06-07 06:23:01",
-        "commit_message": "Update README.md",
+        "commit_date": "2024-01-08 02:27:00",
+        "commit_message": "Merge pull request #781 from jhao104/develop\n\n[update] :chicken: 2.4.2",
         "release_tag": "2.4.1",
         "release_date": "2023-02-23 07:28:37",
         "release_message": "1. 新增代理源 **FreeProxyList**; (2022-07-21)\r\n2. 新增代理源 **FateZero**; (2022-08-01)\r\n3. 新增代理属性 ``region``; (2022-08-16)"
@@ -4714,7 +4714,7 @@
         "release_message": "处理UserDataPath获取失败后程序异常终止问题。"
     },
     "https://github.com/QAX-A-Team/BrowserGhost": {
-        "created_at": "2020-06-12 12:19:06",
+        "created_at": "2020-06-12 12:25:20",
         "description": "这是一个抓取浏览器密码的工具，后续会添加更多功能",
         "commit_date": "2020-06-29 08:16:52",
         "commit_message": "修复System.DBNull问题，感谢zhangdebiao提供的修复建议",
@@ -5653,7 +5653,7 @@
         "release_message": ""
     },
     "https://github.com/bitsadmin/fakelogonscreen": {
-        "created_at": "2020-02-01 18:51:35",
+        "created_at": "2020-02-03 23:25:28",
         "description": "Fake Windows logon screen to steal passwords",
         "commit_date": "2020-02-03 23:25:28",
         "commit_message": "Update README.md\n\n- Includes new features in the description\r\n- Includes new release structure",
@@ -10333,7 +10333,7 @@
         "release_message": ""
     },
     "https://github.com/Ebryx/AES-Killer": {
-        "created_at": "2018-09-24 10:41:41",
+        "created_at": "2021-04-18 15:12:15",
         "description": "Burp Plugin to decrypt AES encrypted traffic on the fly",
         "commit_date": "2021-05-06 14:54:20",
         "commit_message": "AES Killer v4.0",
@@ -17850,7 +17850,7 @@
         "release_message": ""
     },
     "https://github.com/langligelang/CAS_EXP": {
-        "created_at": "2020-07-15 13:56:21",
+        "created_at": "2020-07-16 02:13:17",
         "description": "CAS 硬编码 远程代码执行漏洞",
         "commit_date": "2020-07-31 06:51:11",
         "commit_message": "初始化提交",
@@ -18051,7 +18051,7 @@
         "release_message": ""
     },
     "https://github.com/mrknow001/aliyun-accesskey-Tools": {
-        "created_at": "2020-12-20 15:01:55",
+        "created_at": "2021-09-28 16:08:23",
         "description": "阿里云accesskey利用工具",
         "commit_date": "2022-04-08 08:17:32",
         "commit_message": "Add files via upload",
@@ -24066,7 +24066,7 @@
         "release_message": "1.解决已知bug\r\n2.增加-e 参数拓展自定义扩展名功能，例如.java , .log 都可以\r\n3.增加-n 参数可以只扫描指定拓展名的功能"
     },
     "https://github.com/TebbaaX/GRecon": {
-        "created_at": "2020-12-13 21:40:13",
+        "created_at": "2020-12-17 18:29:04",
         "description": "Another version of katana, more automated but less stable. the purpose of this small tool is to run a Google based passive recon against your scope.",
         "commit_date": "2021-04-07 12:20:53",
         "commit_message": "Merge pull request #8 from c3p0d4y/patch-2\n\nUpdate grecon.py",
@@ -24203,8 +24203,8 @@
     "https://github.com/neargle/my-re0-k8s-security": {
         "created_at": "2021-02-24 03:55:16",
         "description": ":atom: [WIP] 整理过去的分享，从零开始的Kubernetes攻防 🧐",
-        "commit_date": "2023-03-14 06:27:26",
-        "commit_message": "accurate blackhat info, better in logo",
+        "commit_date": "2024-05-06 07:21:54",
+        "commit_message": "add title in ebpf and container escape paper.md",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -27064,7 +27064,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "172.183.50.145属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "52.238.28.182属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
