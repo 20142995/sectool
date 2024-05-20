@@ -226,13 +226,13 @@
         "release_message": "## Changelog\n* 10ddfd1 fix: modernc.org/sqlite 不支持 win 386\n\n"
     },
     "https://github.com/gh0stkey/HaE": {
-        "created_at": "2020-03-24 10:12:50",
-        "description": "HaE - Highlighter and Extractor, 赋能白帽 高效作战",
-        "commit_date": "2023-02-22 09:36:50",
-        "commit_message": "Version: 2.4.6 Update",
+        "created_at": "2024-05-12 11:02:38",
+        "description": "HaE - Highlighter and Extractor, Empower ethical hacker for efficient operations.",
+        "commit_date": "2024-05-12 11:25:33",
+        "commit_message": "Version: 3.0.2 Update",
         "release_tag": "2.4.6",
-        "release_date": "2023-02-22 09:37:42",
-        "release_message": "HaE 2.4.6 更新内容：\r\n1. 加入多线程对数据进行匹配和提取，减少卡顿现象；\r\n2. 变更配置文件更新地址为`jsdelivr`的CDN节点地址，优化国内用户体验。"
+        "release_date": "2024-05-12 11:06:03",
+        "release_message": "## 更新内容\r\n\r\n1. 修复Databoard中当规则作用域为request line/response line时候数据无法定位问题；\r\n2. 修复Databoard中数据的查询错乱问题。\r\n\r\n## 致谢信息\r\n\r\n1. 感谢 @daydust 第一时间发现数据无法定位问题，并提交Issue。"
     },
     "https://github.com/kelvinBen/AppInfoScanner": {
         "created_at": "2020-07-22 01:19:17",
@@ -457,7 +457,7 @@
         "release_message": ""
     },
     "https://github.com/opensec-cn/kunpeng": {
-        "created_at": "2019-01-08 12:50:42",
+        "created_at": "2019-05-26 16:17:36",
         "description": "kunpeng是一个Golang编写的开源POC框架/库，以动态链接库的形式提供各种语言调用，通过此项目可快速开发漏洞检测类的系统。",
         "commit_date": "2020-11-20 07:23:06",
         "commit_message": "Update README.md\n\n404StarLink 2.0",
@@ -509,7 +509,7 @@
         "release_message": ""
     },
     "https://github.com/pmiaowu/BurpShiroPassiveScan": {
-        "created_at": "2020-07-15 07:12:16",
+        "created_at": "2022-06-30 02:35:20",
         "description": "一款基于BurpSuite的被动式shiro检测插件",
         "commit_date": "2022-06-30 02:35:20",
         "commit_message": "2.0.0版本上线,key可自定义,上线多线程,代码优化",
@@ -534,9 +534,9 @@
     },
     "https://github.com/portswigger/http-request-smuggler": {
         "created_at": "2019-07-30 14:41:18",
-        "description": "",
-        "commit_date": "2023-01-10 10:59:45",
-        "commit_message": "Merge pull request #58 from Hannah-PortSwigger/master\n\nUpdate case statement to state technique.",
+        "description": null,
+        "commit_date": "2023-11-16 17:52:53",
+        "commit_message": "BApp Store update v2.16",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -667,10 +667,10 @@
         "release_message": ""
     },
     "https://github.com/jweny/pocassist": {
-        "created_at": "2021-05-12 10:05:09",
+        "created_at": "2021-08-11 08:14:29",
         "description": "傻瓜式漏洞PoC测试框架",
-        "commit_date": "2022-06-21 03:43:47",
-        "commit_message": "Update README.md",
+        "commit_date": "2023-10-30 10:58:26",
+        "commit_message": "Merge pull request #59 from testwill/close\n\nfix: check returned error before deferring file.Close()",
         "release_tag": "1.0.5",
         "release_date": "2021-08-11 08:25:44",
         "release_message": "下载链接：https://github.com/jweny/pocassist/releases\r\n使用文档/开发文档：https://pocassist.jweny.top/\r\n漏洞库：https://github.com/jweny/pocassistdb\r\n前端：https://github.com/jweny/pocassistweb\r\n\r\nBugFix\r\n\r\n修复target校验逻辑\r\nhttp压缩响应解包\r\n下一版本将新增关键功能：子域名探测、爬虫、自建dnslog、扫描结果导出、MarkDown报告生成。\r\n敬请期待。"
@@ -4196,7 +4196,7 @@
         "release_message": ""
     },
     "https://github.com/yqcs/ZheTian": {
-        "created_at": "2021-08-24 09:16:18",
+        "created_at": "2022-08-13 04:33:23",
         "description": "::ZheTian / 强大的免杀生成工具，Bypass All.",
         "commit_date": "2022-12-05 09:55:50",
         "commit_message": "Update README.md",
@@ -4474,7 +4474,7 @@
         "release_message": "Minor update.\r\nNews:\r\n- improve support for MacOS\r\n- include support for WSL\r\n- improve \"Issue Detail\" section\r\n- bug fixing"
     },
     "https://github.com/safe6Sec/proxyServer": {
-        "created_at": "2020-07-20 12:43:40",
+        "created_at": "2021-05-15 07:28:12",
         "description": "本项目其实就是个简单的代理服务器，把代理池集成进来来了。",
         "commit_date": "2020-10-30 03:21:30",
         "commit_message": "增加代理稳定性",
@@ -4568,10 +4568,10 @@
         "release_message": ""
     },
     "https://github.com/CLincat/vulcat": {
-        "created_at": "2022-04-10 13:14:02",
+        "created_at": "2023-03-15 11:28:18",
         "description": "vulcat可用于扫描Web端常见的CVE、CNVD等编号的漏洞，发现漏洞时会返回Payload信息。部分漏洞还支持命令行交互模式，可以持续利用漏洞",
-        "commit_date": "2023-03-15 11:28:18",
-        "commit_message": "20230315-v2.0.0",
+        "commit_date": "2023-12-04 06:43:06",
+        "commit_message": "Update vulcat documents address",
         "release_tag": "v2.0.0",
         "release_date": "2023-03-15 12:21:14",
         "release_message": "2023.03.15\r\nvulcat-v2.0.0\r\n\r\n* 重写vulcat部分核心代码\r\n1. vulcat二代，初始版本号为v2.0.0\r\n2. 移除-a/--application选项，该选项的功能合并到-v/--vuln当中，[点我](https://clincat.github.io/vulcat-docs/zh-hans/teaching/run/vulcat-run-app.html)查看示例\r\n3. POC插件化，即插即用，现在你可以轻松地编写自己的POC 并在vulcat中使用，[点我](https://clincat.github.io/vulcat-docs/zh-hans/teaching/custom-payload/vulcat-custom-payloads.html)查看示例\r\n\r\n\r\n* 新POC:\r\n1. 74cms v5.0.1 前台AjaxPersonalController.class.php存在SQL注入\t(暂无编号)\r\n2. 74cms v6.0.4 帮助中心搜索框XSS\t\t\t\t\t\t\t\t(暂无编号)\r\n3. 2020年 VMware vCenter 6.5任意文件读取\t\t\t\t\t\t\t(暂无编号)\r\n4. VMware vSphere Client 远程代码执行\t\t\t\t\t\t\t(CVE-2021-21972)\r\n\r\n------------------------------\r\n\r\n* Rewrite some of the core code\r\n1. vulcat-v2.0.0 !!!\r\n2. Remove the -a/--application option, the functionality of this option is merged into -v/--vuln, [click me](https://clincat.github.io/vulcat-docs/zh-hans/teaching/run/vulcat-run-app.html) to see the example\r\n3. POC plug-in, plug and play, now you can easily write your own POC and use it in vulcat, [click me](https://clincat.github.io/vulcat-docs/zh-hans/teaching/custom-payload/vulcat-custom-payloads.html) to see the example\r\n\r\n\r\n* new POC:\r\n1. v5.0.1 AjaxPersonalController.class.php SQLinject\t(None)\r\n2. v6.0.4 help center search box-XSS\t\t\t\t\t(None)\r\n3. In 2020 VMware vCenter v6.5 Any file read\t\t\t(None)\r\n4. VMware vSphere Client RCE\t\t\t\t\t\t\t(CVE-2021-21972)"
@@ -4825,7 +4825,7 @@
         "release_message": ""
     },
     "https://github.com/ehang-io/nps": {
-        "created_at": "2018-11-04 13:22:51",
+        "created_at": "2021-04-08 06:06:28",
         "description": "一款轻量级、高性能、功能强大的内网穿透代理服务器。支持tcp、udp、socks5、http等几乎所有流量转发，可用来访问内网网站、本地支付接口调试、ssh访问、远程桌面，内网dns解析、内网socks5代理等等……，并带有功能强大的web管理端。a lightweight, high-performance, powerful intranet penetration proxy server, with a powerful web management terminal.",
         "commit_date": "2021-10-09 07:18:41",
         "commit_message": "Merge pull request #866 from freeoa/master\n\nadd build to apple silicon(M1)",
@@ -5131,13 +5131,13 @@
         "release_message": "## Bug Fixes\r\n* #2190 -  Maintainability - Improved CI workflow\r\n* #2185 - Could not minify JavaScript file: web_ui_all\r\n## Enchancements\r\n* #2205 - Modules - Apache Tomcat Examples Default Install Exploit\r\n* #2157 -  Maintainability - Implement GitHub Actions and added confirmation step to PRs\r\n* #2190 -  Maintainability - Improved CI workflow: \r\n  * Refactor Rakefile to accommodate Browserstack implementation\r\n  * Installer improvements\r\n  * Test suite performance improvements\r\n* #2199  - Enhancement - Check for update on launch works with beef-xss kali package install\r\n\r\n**Full Changelog**: https://github.com/beefproject/beef/compare/v0.5.3.0...v0.5.4.0"
     },
     "https://github.com/MrEmpy/Mantra": {
-        "created_at": "2023-01-31 01:47:53",
+        "created_at": "2024-04-01 17:55:03",
         "description": "「🔑」A tool used to hunt down API key leaks in JS files and pages",
-        "commit_date": "2023-07-08 18:59:06",
-        "commit_message": "Merge pull request #4 from MrEmpy/v.1.1\n\nMakefile file with more construction lines added.",
+        "commit_date": "2024-04-15 14:53:05",
+        "commit_message": "New regex",
         "release_tag": "v.1.1",
-        "release_date": "2023-05-20 01:28:28",
-        "release_message": "### Hash\r\n```\r\ndee328a40db5c2cccd2cb09aa94234ab  mantra-amd64-darwin\r\na70da3f24463a1eb88fd3c2ed562c2ea  mantra-amd64-linux\r\nca70710d64592bad40c11acccc9323d7  mantra-amd64-windows.exe\r\n549499f8a95624ac410cad155bc9b104  mantra-arm64-darwin\r\na9e5d7d71e0421febca59ca502f78c89  mantra-arm64-linux\r\ne5cee2e80e89be56204b8e6612d87ccf  mantra-armv5-linux\r\n87c8b1c0324547787bf8b901b6e1a1be  mantra-armv6-linux\r\nd77c177ed760f8ac8102ff29638f6070  mantra-armv7-linux\r\ne0311224d63ea78c97c2cd1328f05ca3  mantra-i386-linux\r\ne79efb2e6641e899498fdb1aeb2fb61c  mantra-i386-windows.exe\r\n```"
+        "release_date": "2024-04-01 17:59:09",
+        "release_message": "- Add 'showLineNumber' option\r\n- Remove duplicate secrets findings\r\n- improve efficiency by pre-compiling all regex pattern\r\n- instead of throwing an error for invalid url, prepend with 'http'\r\n- Closes #2 \r\n\r\n## Hash\r\n\r\n```\r\n23989b8660b95e60a0be77d2284b8e5c  mantra-amd64-linux\r\n28fa9ef8765857590d28bb4678f2b818  mantra-arm64-linux\r\n348bf6aba6a2b524e2e7417a9649a53e  mantra-i386-linux\r\n```"
     },
     "https://github.com/HHa1ey/TKHunter": {
         "created_at": "2022-09-16 09:54:33",
@@ -6340,10 +6340,10 @@
         "release_message": " This is a hotfix release. It fixes the following bugs:\r\n \r\n   * #6322 Fixed a crash on launch on macOS 11 and older.\r\n   * #6324 Fixed the update notification looking for alpha versions instead of release versions.\r\n   * #6321 Fixed a freeze when using macros on multiple files."
     },
     "https://github.com/0Chencc/CTFCrackTools": {
-        "created_at": "2016-08-26 08:19:35",
+        "created_at": "2022-11-16 22:23:09",
         "description": "China's first CTFTools framework.中国国内首个CTF工具框架,旨在帮助CTFer快速攻克难关",
-        "commit_date": "2022-11-16 22:23:09",
-        "commit_message": "修复了一处bug\n\nclose #38 #40 #41\n该版本以及后续版本插件功能不再是强制启动的功能",
+        "commit_date": "2024-03-26 08:58:33",
+        "commit_message": "Merge pull request #47 from y1nsei/patch-1\n\nUpdate PythonFunc.kt",
         "release_tag": "4.0.7",
         "release_date": "2022-11-16 22:31:00",
         "release_message": "修复了一处由于插件功能强制启动导致的bug\r\n修复了摩斯密码没有符号加解密的问题\r\n"
@@ -9119,7 +9119,7 @@
         "release_message": ""
     },
     "https://github.com/PowerShellMafia/PowerSploit": {
-        "created_at": "2012-05-26 16:08:48",
+        "created_at": "2015-12-19 00:33:59",
         "description": "PowerSploit - A PowerShell Post-Exploitation Framework",
         "commit_date": "2020-08-17 23:13:56",
         "commit_message": "Updated README.md",
@@ -10965,7 +10965,7 @@
         "release_message": ""
     },
     "https://github.com/praetorian-inc/gokart": {
-        "created_at": "2021-08-16 17:50:56",
+        "created_at": "2022-09-22 16:15:47",
         "description": "A static analysis tool for securing Go code",
         "commit_date": "2022-09-22 16:13:48",
         "commit_message": "update gokart version to v0.5.1 (#82)",
@@ -13374,13 +13374,13 @@
         "release_message": ""
     },
     "https://github.com/ozzi-/JWT4B": {
-        "created_at": "2017-01-27 13:13:24",
+        "created_at": "2024-01-08 14:29:02",
         "description": "JWT Support for Burp ",
-        "commit_date": "2023-04-21 09:25:29",
-        "commit_message": "Bump jackson-databind from 2.11.3 to 2.12.7.1 (#80)\n\nBumps [jackson-databind](https://github.com/FasterXML/jackson) from 2.11.3 to 2.12.7.1.\r\n- [Release notes](https://github.com/FasterXML/jackson/releases)\r\n- [Commits](https://github.com/FasterXML/jackson/commits)\r\n\r\n---\r\nupdated-dependencies:\r\n- dependency-name: com.fasterxml.jackson.core:jackson-databind\r\n  dependency-type: direct:production\r\n...\r\n\r\nSigned-off-by: dependabot[bot] <support@github.com>\r\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
+        "commit_date": "2024-01-08 14:29:02",
+        "commit_message": "bump",
         "release_tag": "2.3",
-        "release_date": "2022-08-31 06:33:17",
-        "release_message": "Fixed: Displaying HTML formatted text properly again with new Burp versions\r\nFixed: Changed JSON library to prevent erroneous encoding when pretty printing JWT contents\r\nFeature: Support for o365 JWT attack\r\nFeature: Support for keys in hexadecimal form\r\nMisc: Refactoring"
+        "release_date": "2024-01-08 14:31:08",
+        "release_message": "Fixed: Cookie data HTML not rendered within Intercept tab\r\nHTML rendering has been disabled within Burp extensions and needs to be re-enabled on a per-component basis.\r\n\r\nThanks https://github.com/DolphFlynn for the PR"
     },
     "https://github.com/alibaba/nacos": {
         "created_at": "2018-06-15 06:49:27",
@@ -14494,7 +14494,7 @@
         "release_message": ""
     },
     "https://github.com/smxiazi/xia_sql": {
-        "created_at": "2022-02-09 07:08:00",
+        "created_at": "2023-05-18 11:41:41",
         "description": "xia SQL (瞎注)  burp 插件 ，在每个参数后面填加一个单引号，两个单引号，一个简单的判断注入小插件。",
         "commit_date": "2023-05-18 11:41:41",
         "commit_message": "Update README.md",
@@ -23588,7 +23588,7 @@
         "release_message": "# 基于新版ARL2.5.2版本开发ARL-plus2.8.0\r\n支持nuclei等\r\n# 新增ALT_IP\r\n### 配置\r\nconfig-docker.yaml最后，增加ALT_IP功能，可以手动开启或者禁用\r\n### 详解\r\ndistance参数为ip间距。\r\n如：发现了IP：192.168.1.6和192.168.1.9。ALT_IP开启设置distance大于3。\r\n将会扫描IP：192.168.1.7,192.168.1.8两个IP。\r\nPS：该设置较大极易引起误报，如果发生误报自己调小distance即可\r\n\r\n# 移除Oneforall、子域名共享等功能\r\n2.5.2代码重构了，太难了，不能复用，重写吧"
     },
     "https://github.com/lemonlove7/0_zone": {
-        "created_at": "2022-09-01 03:26:41",
+        "created_at": "2022-09-01 05:35:49",
         "description": "0_zone_zpi脚本",
         "commit_date": "2022-09-01 05:40:19",
         "commit_message": "Update README.md",
@@ -23758,7 +23758,7 @@
         "release_message": "## Changelog\r\n\r\n* 73f724b **[NEW FEAT.]** 新增`--index`, `--random` 支持自定义index与random目录\r\n* 976ce55 修复输入文件时, url解析错误的bug, https://github.com/chainreactors/spray/issues/4 . Thanks @channyein1337\r\n* fc3f476 修复expr中bytes类型转换错误的bug, https://github.com/chainreactors/spray/issues/1 . Thanks @Harrybebst \r\n* 2f131cc 删除无用参数, 修复help中的示例描述错误\r\n* 06c6b36 删除action中的upx相关部分\r\n* 12f2ee4 fix gorelease.yml\r\n\r\n**Full Changelog**: https://github.com/chainreactors/spray/compare/v0.9.0...v0.9.1"
     },
     "https://github.com/TD0U/WeaverScan": {
-        "created_at": "2022-11-29 06:00:33",
+        "created_at": "2022-12-30 12:45:33",
         "description": "泛微oa漏洞利用工具",
         "commit_date": "2023-01-04 01:39:32",
         "commit_message": "Update README.md",
@@ -27070,7 +27070,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "172.183.51.70属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "172.183.154.250属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
@@ -27569,7 +27569,7 @@
         "description": "Tupper's Formula Tools"
     },
     "https://github.com/Ggasdfg321/shiro_check": {
-        "created_at": "2023-01-30 03:52:37",
+        "created_at": "2022-10-01 16:41:29",
         "description": "批量对存在Shiro框架的目标爆破Key",
         "commit_message": "Update shiro.go",
         "commit_date": "2023-01-30 03:52:37",
