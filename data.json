@@ -1084,8 +1084,8 @@
         "release_message": "2023.04.01 重构目录，此为重构前 release。重构后目录如下：\r\n```\r\ndirs = {\r\n    'oa':'OA漏洞',\r\n    'cms': 'CMS漏洞',\r\n    'framework': '开发框架漏洞',\r\n    'iot': '网络设备漏洞',\r\n    'language': '开发语言漏洞',\r\n    'os': '操作系统漏洞',\r\n    'webapp': 'Web应用漏洞',\r\n    'middleware': '中间件漏洞',\r\n    'database': '数据库漏洞',\r\n    'cloud': '云安全漏洞',\r\n    'others':'其他漏洞'\r\n}\r\n```"
     },
     "https://github.com/RoomaSec/RmTools": {
-        "created_at": "",
-        "description": "",
+        "created_at": "2022-08-23 05:07:04",
+        "description": "蓝队应急工具",
         "commit_date": "2024-01-17 08:11:42",
         "commit_message": "remove sliver",
         "release_tag": "",
@@ -2066,7 +2066,7 @@
         "release_message": "2022.11.22"
     },
     "https://github.com/whwlsfb/Log4j2Scan": {
-        "created_at": "2021-12-10 06:16:52",
+        "created_at": "2023-08-04 02:54:16",
         "description": "Log4j2 RCE Passive Scanner plugin for BurpSuite",
         "commit_date": "2023-08-04 02:54:16",
         "commit_message": "Update compile.yml",
@@ -2624,8 +2624,8 @@
     "https://github.com/maurosoria/dirsearch": {
         "created_at": "2022-10-04 05:43:00",
         "description": "Web path scanner",
-        "commit_message": "Merge pull request #1362 from jxdv/python-feats\n\npython cleanup",
-        "commit_date": "2024-01-28 04:34:54",
+        "commit_message": "Merge pull request #1373 from drego85/patch-16\n\nAdded \"sign\" and Sort",
+        "commit_date": "2024-05-11 11:29:28",
         "release_date": "2022-10-05 13:01:24",
         "release_message": "- Automatically detect the URI scheme (`http` or `https`) if no scheme is provided\r\n- SQLite report format\r\n- Option to overwrite unwanted extensions with selected extensions\r\n- Option to view redirects history when following redirects\r\n- Option to crawl web paths in the responses\r\n- HTTP traffic is saved inside log file\r\n- Capability to save progress and resume later\r\n- Support client certificate\r\n- Maximum size of the log file via configuration\r\n- More accurate"
     },
@@ -3197,8 +3197,8 @@
     "https://github.com/coffeehb/Some-PoC-oR-ExP": {
         "created_at": "2015-03-13 15:31:35",
         "description": "各种漏洞poc、Exp的收集或编写",
-        "commit_date": "2023-08-23 07:23:32",
-        "commit_message": "Create windowUnloading_bypass.md",
+        "commit_date": "2024-01-29 06:33:22",
+        "commit_message": "Update CVE-2024-23897 任意文件读取漏洞.md",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -3685,13 +3685,13 @@
         "release_message": ""
     },
     "https://github.com/k8gege/Ladon": {
-        "created_at": "",
-        "description": "",
+        "created_at": "2023-12-15 15:58:24",
+        "description": "Ladon大型内网渗透工具，可PowerShell模块化、可CS插件化、可内存加载，无文件扫描。含端口扫描、服务识别、网络资产探测、密码审计、高危漏洞检测、漏洞利用、密码读取以及一键GetShell，支持批量A段/B段/C段以及跨网段扫描，支持URL、主机、域名列表扫描等。Ladon 12.2内置262个功能,网络资产探测模块32个通过多种协议(ICMP\\NBT\\DNS\\MAC\\SMB\\WMI\\SSH\\HTTP\\HTTPS\\Exchange\\mssql\\FTP\\RDP)以及方法快速获取目标网络存活主机IP、计算机名、工作组、共享资源、网卡地址、操作系统版本、网站、子域名、中间件、开放服务、路由器、交换机、数据库、打印机等信息，高危漏洞检测16个含MS17010、Zimbra、Exchange",
         "commit_date": "2023-12-19 15:05:38",
         "commit_message": "Add files via upload",
         "release_tag": "",
-        "release_date": "",
-        "release_message": ""
+        "release_date": "2023-12-15 16:04:29",
+        "release_message": "### Oracle数据库一键提权\r\n12.15\r\n[+]OracleCmd2\tOracle数据库远程提权工具2 官方驱动>=net 4.8 大小4.9M不内置\r\n![image](http://k8gege.org/k8img/Ladon/OracleStudy.png)\r\nLadon 12.2  12.14\r\n[+]OracleCmd\tOracle数据库远程提权工具 3种方法一键提权 \r\n\t\t\t\t支持Windows/Linux/MacOS等服务器操作系统\r\n\t\t\t\t支持高版本Oracle 12G、11G、12G及之前版本\r\n[+]FindAD\t\tPVEFindADUser可用于查找活动目录用户登陆的位置、枚举域用户\r\n\r\n![image](http://k8gege.org/k8img/Ladon/OracleCmd.png)\r\n\r\nLadon 12.1  12.08\r\n[+]LotusAdmin\t检测用户是否Lotus管理员\r\n[+]HtaSer\t\tHta服务器(不限后缀,如访问doc执行hta)\r\n[+]ConfVer\t\tConfluenceVer探测Confluence版本\r\n![image](http://k8gege.org/k8img/Ladon/LotusAdmin.PNG)"
     },
     "https://github.com/lijiejie/subDomainsBrute": {
         "created_at": "2022-05-06 09:11:14",
@@ -6135,7 +6135,7 @@
         "release_message": ""
     },
     "https://github.com/wux1an/wxapkg": {
-        "created_at": "2023-05-22 14:35:29",
+        "created_at": "2023-06-26 13:57:26",
         "description": "微信小程序反编译工具，.wxapkg 文件扫描 + 解密 + 解包工具",
         "commit_date": "2023-08-03 12:33:41",
         "commit_message": "Update README.md",
@@ -16077,13 +16077,13 @@
         "release_message": ""
     },
     "https://github.com/projectdiscovery/nuclei-templates": {
-        "created_at": "2020-04-04 16:21:34",
+        "created_at": "2024-05-10 10:24:47",
         "description": "Community curated list of templates for the nuclei engine to find security vulnerabilities.",
-        "commit_date": "2023-11-16 12:05:59",
-        "commit_message": "TemplateMan Update [Thu Nov 16 12:05:59 UTC 2023] :robot:",
+        "commit_date": "2024-05-17 07:40:59",
+        "commit_message": "Auto Template Signing [Fri May 17 07:40:59 UTC 2024] :robot:",
         "release_tag": "v9.6.9",
-        "release_date": "2023-11-10 10:43:50",
-        "release_message": "🔥 Release Highlights 🔥\r\n\r\n- network/cves/2023/CVE-2023-46604.yaml by @Ice3man,@Mzack9999,@pdresearch 🔥\r\n- javascript/cves/2023/CVE-2023-34039.yaml by @tarunKoyalwar 🔥\r\n- code/cves/2023/CVE-2023-4911.yaml by @nybble04 🔥\r\n- http/cves/2023/CVE-2023-43795.yaml by @DhiyaneshDK 🔥\r\n- http/cves/2022/CVE-2022-35653.yaml by @iamnoooob,@pdresearch 🔥\r\n- http/cves/2023/CVE-2023-22518.yaml by @iamnoooob,@rootxharsh,@pdresearch 🔥\r\n- http/cves/2023/CVE-2023-20198.yaml by @iamnoooob,@rootxharsh,@pdresearch 🔥\r\n- http/cves/2020/CVE-2020-24701.yaml by @DhiyaneshDk 🔥\r\n- http/cves/2023/CVE-2023-1719.yaml by @DhiyaneshDk 🔥\r\n\r\n## What's Changed\r\n#### New Templates Added: `73` | CVEs Added: `13` | First-time contributions: `7`\r\n\r\n- network/cves/2023/CVE-2023-46604.yaml by @Ice3man,@Mzack9999,@pdresearch 🔥\r\n- javascript/cves/2023/CVE-2023-34039.yaml by @tarunKoyalwar 🔥\r\n- code/cves/2023/CVE-2023-4911.yaml by @nybble04 🔥\r\n- http/cves/2023/CVE-2023-43795.yaml by @DhiyaneshDK 🔥\r\n- http/cves/2023/CVE-2023-40068.yaml by @E1A\r\n- http/cves/2022/CVE-2022-35653.yaml by @iamnoooob,@pdresearch 🔥\r\n- http/cves/2023/CVE-2023-34020.yaml by @LeDoubleTake\r\n- http/cves/2023/CVE-2023-33629.yaml by @DhiyaneshDK\r\n- http/cves/2023/CVE-2023-22518.yaml by @iamnoooob,@rootxharsh,@pdresearch 🔥\r\n- http/cves/2023/CVE-2023-20198.yaml by @iamnoooob,@rootxharsh,@pdresearch 🔥\r\n- http/cves/2020/CVE-2020-24701.yaml by @DhiyaneshDk 🔥\r\n- http/cves/2023/CVE-2023-1719.yaml by @DhiyaneshDk 🔥\r\n- http/cves/2023/CVE-2023-4169.yaml by @DhiyaneshDK\r\n- http/cves/2023/CVE-2023-4415.yaml by @DhiyaneshDK\r\n- http/default-logins/dell/dell-dpi-default-login.yaml by @megamansec\r\n- http/default-logins/goip-default-login.yaml by @drfabiocastro\r\n- http/exposed-panels/appsuite-panel.yaml by @DhiyaneshDK\r\n- http/exposed-panels/cisco/cisco-ios-xe-panel.yaml by @bhutch\r\n- http/exposed-panels/fusionauth-admin-panel.yaml by @ritikchaddha\r\n- http/exposed-panels/homer-panel.yaml by @rxerium\r\n- http/exposed-panels/kiteworks-pcn-panel.yaml by @righettod\r\n- http/exposed-panels/librephotos-panel.yaml by @ritikchaddha\r\n- http/exposed-panels/librespeed-panel.yaml by @ritikchaddha\r\n- http/exposed-panels/office-webapps-panel.yaml by @DhiyaneshDK\r\n- http/exposed-panels/overseerr-panel.yaml by @rxerium\r\n- http/exposed-panels/plausible-panel.yaml by @rxerium\r\n- http/exposed-panels/rdweb-panel.yaml by @rxerium,@sorrowx3\r\n- http/exposed-panels/servicenow-panel.yaml by @righettod\r\n- http/exposed-panels/truenas-scale-panel.yaml by @rxerium\r\n- http/exposed-panels/unauth/tautulli-unauth.yaml by @ritikchaddha\r\n- http/honeypot/citrix-honeypot-detect.yaml by @UnaPibaGeek\r\n- http/honeypot/dionaea-http-honeypot-detect.yaml by @UnaPibaGeek\r\n- http/honeypot/elasticpot-honeypot-detect.yaml by @UnaPibaGeek\r\n- http/honeypot/snare-honeypot-detect.yaml by @UnaPibaGeek\r\n- http/misconfiguration/fusionauth-admin-setup.yaml by @ritikchaddha\r\n- http/misconfiguration/installer/cube-105-install.yaml by @ritikchaddha\r\n- http/misconfiguration/installer/imprivata-installer.yaml by @ritikchaddha\r\n- http/misconfiguration/installer/orangescrum-install.yaml by @ritikchaddha\r\n- http/misconfiguration/installer/ruckus-smartzone-install.yaml by @ritikchaddha\r\n- http/misconfiguration/installer/ruckus-unleashed-install.yaml by @ritikchaddha\r\n- http/misconfiguration/installer/sugarcrm-install.yaml by @ritikchaddha\r\n- http/misconfiguration/installer/tautulli-install.yaml by @ritikchaddha\r\n- http/misconfiguration/installer/webcalendar-install.yaml by @ritikchaddha\r\n- http/misconfiguration/installer/webtrees-install.yaml by @ritikchaddha\r\n- http/misconfiguration/less-history.yaml by @kazet\r\n- http/misconfiguration/mysql-history.yaml by @kazet\r\n- http/misconfiguration/searchreplacedb2-exposure.yaml by @kazet\r\n- http/misconfiguration/untangle-admin-setup.yaml by @ritikchaddha\r\n- http/technologies/dell/dell-dpi-panel.yaml by @megamansec\r\n- http/technologies/wordpress/plugins/hostinger.yaml by @ricardomaia\r\n- http/technologies/wordpress/plugins/metform.yaml by @ricardomaia\r\n- http/vulnerabilities/hikvision/hikvision-js-files-upload.yaml by @Xc1Ym\r\n- http/vulnerabilities/microsoft/office-webapps-ssrf.yaml by @DhiyaneshDK\r\n- http/vulnerabilities/other/podcast-generator-ssrf.yaml by @ritikchaddha,@MrHarshvardhan\r\n- javascript/default-logins/mssql-default-logins.yaml by @Ice3man543,@tarunKoyalwar\r\n- javascript/default-logins/postgres-default-logins.yaml by @Ice3man\r\n- javascript/default-logins/redis-default-logins.yaml by @tarunKoyalwar\r\n- javascript/default-logins/ssh-default-logins.yaml by @tarunKoyalwar\r\n- javascript/detection/mssql-detect.yaml by @Ice3man543,@tarunKoyalwar\r\n- javascript/detection/ssh-auth-methods.yaml by @Ice3man543\r\n- javascript/enumeration/ssh-password-auth.yaml by @princechaddha\r\n- javascript/enumeration/ssh-server-enumeration.yaml by @Ice3man543,@tarunKoyalwar\r\n- network/honeypot/adbhoney-honeypot-cnxn-detect.yaml by @UnaPibaGeek\r\n- network/honeypot/adbhoney-honeypot-shell-detect.yaml by @UnaPibaGeek\r\n- network/honeypot/conpot-siemens-honeypot-detect.yaml by @UnaPibaGeek\r\n- network/honeypot/cowrie-ssh-honeypot-detect.yaml by @UnaPibaGeek\r\n- network/honeypot/dionaea-ftp-honeypot-detect.yaml by @UnaPibaGeek\r\n- network/honeypot/dionaea-mqtt-honeypot-detect.yaml by @UnaPibaGeek\r\n- network/honeypot/dionaea-mysql-honeypot-detect.yaml by @UnaPibaGeek\r\n- network/honeypot/dionaea-smb-honeypot-detect.yaml by @UnaPibaGeek\r\n- network/honeypot/gaspot-honeypot-detect.yaml by @UnaPibaGeek\r\n- network/honeypot/mailoney-honeypot-detect.yaml by @UnaPibaGeek\r\n- network/honeypot/redis-honeypot-detect.yaml by @UnaPibaGeek\r\n\r\n## New Contributors\r\n* @k0z4c made their first contribution in https://github.com/projectdiscovery/nuclei-templates/pull/8468\r\n* @byt3bl33d3r made their first contribution in https://github.com/projectdiscovery/nuclei-templates/pull/8457\r\n* @0xorOne made their first contribution in https://github.com/projectdiscovery/nuclei-templates/pull/8500\r\n* @jzr made their first contribution in https://github.com/projectdiscovery/nuclei-templates/pull/8546\r\n* @Xc1Ym made their first contribution in https://github.com/projectdiscovery/nuclei-templates/pull/8548\r\n* @adilsoybali made their first contribution in https://github.com/projectdiscovery/nuclei-templates/pull/8540\r\n* @rumble773 made their first contribution in https://github.com/projectdiscovery/nuclei-templates/pull/8572\r\n\r\n**Full Changelog**: https://github.com/projectdiscovery/nuclei-templates/compare/v9.6.8...v9.6.9"
+        "release_date": "2024-05-10 10:58:42",
+        "release_message": "### 🔥 Release Highlights 🔥\r\n\r\n- http/cves/2024/CVE-2024-23917.yaml by @iamnoooob,@rootxharsh,@pdresearch 🔥\r\n- http/cves/2024/CVE-2024-27956.yaml by @DhiyaneshDK 🔥\r\n- http/cves/2024/CVE-2024-2876.yaml by @iamnoooob,@rootxharsh,@pdresearch 🔥\r\n- http/cves/2024/CVE-2024-3136.yaml by @iamnoooob,@rootxharsh,@pdresearch 🔥\r\n- http/cves/2024/CVE-2024-31848.yaml by @pussycat0x 🔥\r\n- http/cves/2024/CVE-2024-4040.yaml by @DhiyaneshDK,@pussycat0x 🔥\r\n- http/cves/2023/CVE-2023-2227.yaml by @ritikchaddha,@princechaddha 🔥\r\n- http/cves/2023/CVE-2023-31446.yaml by @DhiyaneshDk 🔥\r\n- http/cves/2023/CVE-2023-43208.yaml by @princechaddha 🔥\r\n- http/cves/2023/CVE-2023-6989.yaml by @Kazgangap 🔥\r\n- http/cves/2019/CVE-2019-7139.yaml by @MaStErChO 🔥\r\n\r\n### What's Changed\r\n#### New Templates Added: `65` | CVEs Added: `41` | First-time contributions: `3`\r\n\r\n- http/cves/2024/CVE-2024-0235.yaml by @princechaddha\r\n- http/cves/2024/CVE-2024-0881.yaml by @Kazgangap\r\n- http/cves/2024/CVE-2024-1183.yaml by @DhiyaneshDK\r\n- http/cves/2024/CVE-2024-22927.yaml by @ritikchaddha\r\n- http/cves/2024/CVE-2024-2340.yaml by @t3l3machus\r\n- http/cves/2024/CVE-2024-23917.yaml by @iamnoooob,@rootxharsh,@pdresearch 🔥\r\n- http/cves/2024/CVE-2024-24131.yaml by @DhiyaneshDK\r\n- http/cves/2024/CVE-2024-27956.yaml by @DhiyaneshDK 🔥\r\n- http/cves/2024/CVE-2024-2876.yaml by @iamnoooob,@rootxharsh,@pdresearch 🔥\r\n- http/cves/2024/CVE-2024-3136.yaml by @iamnoooob,@rootxharsh,@pdresearch 🔥\r\n- http/cves/2024/CVE-2024-31621.yaml by @DhiyaneshDK\r\n- http/cves/2024/CVE-2024-31848.yaml by @pussycat0x 🔥\r\n- http/cves/2024/CVE-2024-31849.yaml by @DhiyaneshDK\r\n- http/cves/2024/CVE-2024-31850.yaml by @DhiyaneshDK\r\n- http/cves/2024/CVE-2024-31851.yaml by @DhiyaneshDK\r\n- http/cves/2024/CVE-2024-32399.yaml by @DhiyaneshDK\r\n- http/cves/2024/CVE-2024-32640.yaml by @iamnoooob,@rootxharsh,@pdresearch\r\n- http/cves/2024/CVE-2024-32651.yaml by @edoardottt\r\n- http/cves/2024/CVE-2024-33575.yaml by @Kazgangap\r\n- http/cves/2024/CVE-2024-33724.yaml by @Kazgangap\r\n- http/cves/2024/CVE-2024-4040.yaml by @DhiyaneshDK,@pussycat0x 🔥\r\n- http/cves/2024/CVE-2024-4348.yaml by @Kazgangap\r\n- http/cves/2023/CVE-2023-1892.yaml by @ritikchaddha,@princechaddha\r\n- http/cves/2023/CVE-2023-2227.yaml by @ritikchaddha,@princechaddha 🔥\r\n- http/cves/2023/CVE-2023-27032.yaml by @MaStErChO\r\n- http/cves/2023/CVE-2023-2948.yaml by @ritikchaddha,@princechaddha\r\n- http/cves/2023/CVE-2023-2949.yaml by @ritikchaddha,@princechaddha\r\n- http/cves/2023/CVE-2023-31446.yaml by @DhiyaneshDk 🔥\r\n- http/cves/2023/CVE-2023-32077.yaml by @iamnoooob,@rootxharsh,@pdresearch\r\n- http/cves/2023/CVE-2023-38964.yaml by @ritikchaddha\r\n- http/cves/2023/CVE-2023-43208.yaml by @princechaddha 🔥\r\n- http/cves/2023/CVE-2023-44812.yaml by @ritikchaddha\r\n- http/cves/2023/CVE-2023-4521.yaml by @princechaddha\r\n- http/cves/2023/CVE-2023-45375.yaml by @MaStErChO\r\n- http/cves/2023/CVE-2023-46347.yaml by @MaStErChO\r\n- http/cves/2023/CVE-2023-4973.yaml by @ritikchaddha,@princechaddha\r\n- http/cves/2023/CVE-2023-5003.yaml by @Kazgangap\r\n- http/cves/2023/CVE-2023-6389.yaml by @Kazgangap\r\n- http/cves/2023/CVE-2023-6989.yaml by @Kazgangap 🔥\r\n- http/cves/2019/CVE-2019-7139.yaml by @MaStErChO 🔥\r\n- http/cves/2015/CVE-2015-4455.yaml by @MaStErChO\r\n- http/vulnerabilities/citrix/citrix-oob-memory-read.yaml by @ice3man\r\n- http/vulnerabilities/prestashop/prestashop-cartabandonmentpro-file-upload.yaml by @MaStErChO\r\n- http/vulnerabilities/titan/titannit-web-rce.yaml by @DhiyaneshDk\r\n- http/vulnerabilities/vbulletin/vbulletin-search-sqli.yaml by @MaStErChO\r\n- http/default-logins/crushftp/crushftp-anonymous-login.yaml by @pussycat0x\r\n- http/default-logins/crushftp/crushftp-default-login.yaml by @pussycat0x\r\n- http/default-logins/soplanning/soplanning-default-login.yaml by @Kazgangap\r\n- http/misconfiguration/installer/eyoucms-installer.yaml by @ritikchaddha\r\n- http/misconfiguration/installer/sabnzbd-installer.yaml by @DhiyaneshDk\r\n- http/misconfiguration/microsoft/ms-exchange-local-domain.yaml by @userdehghani\r\n- http/misconfiguration/titannit-web-exposure.yaml by @DhiyaneshDk\r\n- http/takeovers/squadcast-takeover.yaml by @philippedelteil\r\n- http/exposed-panels/bmc/bmc-remedy-sso-panel.yaml by @righettod\r\n- http/exposed-panels/bonobo-server-panel.yaml by @bhutch\r\n- http/exposed-panels/cassia-bluetooth-gateway-panel.yaml by @DhiyaneshDk\r\n- http/exposed-panels/cyberchef-panel.yaml by @rxerium\r\n- http/exposed-panels/femtocell-panel.yaml by @DhiyaneshDk\r\n- http/exposed-panels/monitorr-panel.yaml by @ritikchaddha\r\n- http/exposed-panels/openwebui-panel.yaml by @rxerium\r\n- http/exposed-panels/teamforge-panel.yaml by @lstatro\r\n- http/exposed-panels/tixeo-panel.yaml by @righettod\r\n- http/exposed-panels/umami-panel.yaml by @userdehghani\r\n- network/detection/aix-websm-detect.yaml by @righettod\r\n- network/detection/bluecoat-telnet-proxy-detect.yaml by @righettod\r\n\r\n## New Contributors\r\n* @theMiddleBlue made their first contribution in https://github.com/projectdiscovery/nuclei-templates/pull/9637\r\n* @userdehghani made their first contribution in https://github.com/projectdiscovery/nuclei-templates/pull/9666\r\n* @jason3e7 made their first contribution in https://github.com/projectdiscovery/nuclei-templates/pull/9731\r\n\r\n**Full Changelog**: https://github.com/projectdiscovery/nuclei-templates/compare/v9.8.5...v9.8.6"
     },
     "https://github.com/trustedsec/trevorc2": {
         "created_at": "2017-10-27 15:59:28",
@@ -16486,8 +16486,8 @@
     "https://github.com/snoopysecurity/awesome-burp-extensions": {
         "created_at": "2018-11-11 16:07:54",
         "description": "A curated list of amazingly awesome Burp Extensions",
-        "commit_date": "2023-09-06 22:17:52",
-        "commit_message": "Update README.md\n\nAdd SocketSleuth",
+        "commit_date": "2023-12-14 16:06:58",
+        "commit_message": "Merge pull request #15 from soffensive/patch-1\n\nUpdate README.md",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -22517,13 +22517,13 @@
         "release_message": ""
     },
     "https://github.com/TianWen-Lab/TranSec": {
-        "created_at": "",
-        "description": "",
+        "created_at": "2023-12-07 10:04:16",
+        "description": "Internet of Vehicles Penetration testing OS.车联网渗透测试系统，开箱即用的测试环境，包含上百个常见用于车联网渗透测试的工具集。覆盖逆向、CAN、车载以太网、WiFi、蓝牙、云平台等安全测试",
         "commit_date": "2023-12-08 01:55:29",
         "commit_message": "Update README.md",
         "release_tag": "",
-        "release_date": "",
-        "release_message": ""
+        "release_date": "2023-12-07 11:44:20",
+        "release_message": "tranOS is iso\r\ntranOS_OVA is ova\r\n\r\nThe txt file contains hash values for iso and ova"
     },
     "https://github.com/riskydissonance/SharpCookieMonster": {
         "created_at": "2020-01-22 18:39:49",
@@ -25526,8 +25526,8 @@
     "https://github.com/W01fh4cker/LearnJavaMemshellFromZero": {
         "created_at": "2024-02-03 07:37:27",
         "description": "【三万字原创】完全零基础从0到1掌握Java内存马，公众号：追梦信安",
-        "commit_message": "add:catalogue",
-        "commit_date": "2024-02-08 15:02:15"
+        "commit_message": "fix: https://github.com/W01fh4cker/LearnJavaMemshellFromZero/issues/1",
+        "commit_date": "2024-05-10 08:36:27"
     },
     "https://github.com/joker25000/Optiva-Framework": {
         "created_at": "2018-04-22 16:29:28",
@@ -25750,10 +25750,12 @@
         "commit_date": "2024-05-08 07:58:32"
     },
     "https://github.com/ajinabraham/NodeJsScan": {
-        "created_at": "2015-02-27 12:52:46",
+        "created_at": "2023-09-02 04:39:02",
         "description": "nodejsscan is a static security code scanner for Node.js applications.",
         "commit_message": "Merge pull request #308 from ajinabraham/pyup-update-gitpython-3.1.34-to-3.1.35\n\nUpdate gitpython to 3.1.35",
-        "commit_date": "2023-09-07 16:03:22"
+        "commit_date": "2023-09-07 16:03:22",
+        "release_date": "2023-09-02 04:40:29",
+        "release_message": "* njsscan bump + performance upgrade.\r\n* Test Fix\r\n* Dependency updates"
     },
     "https://github.com/abc123info/iis7.5-10.x-ShortNameFuzz": {
         "created_at": "2023-09-06 05:30:40",
@@ -27068,7 +27070,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "20.161.77.201属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "172.183.51.70属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
