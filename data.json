@@ -3460,8 +3460,12 @@
         "release_message": "- 2022-06-23\r\n    - KunLun-M 2.6.5\r\n    - 更新了社区化的部署方案，支持使用公开的Server端查看扫描结果，为后续延展提供基础\r\n    - 更新了潮汐平台链接，可以使用潮汐平台快速部署体验"
     },
     "https://github.com/projectdiscovery/naabu": {
-        "created_at": "2020-01-21 10:56:32",
-        "description": "A fast port scanner written in go with a focus on reliability and simplicity. Designed to be used in combination with other tools for attack surface discovery in bug bounties and pentests"
+        "created_at": "2024-05-09 14:47:43",
+        "description": "A fast port scanner written in go with a focus on reliability and simplicity. Designed to be used in combination with other tools for attack surface discovery in bug bounties and pentests",
+        "commit_message": "Merge branch 'dev'",
+        "commit_date": "2024-05-09 14:47:43",
+        "release_date": "2024-05-09 15:25:41",
+        "release_message": "<!-- Release notes generated using configuration in .github/release.yml at main -->\r\n\r\n## What's Changed\r\n### 🐞 Bugs Fixes\r\n* Fixed issue with `-exclude-ports` option with `-passive` by @dogancanbakir in https://github.com/projectdiscovery/naabu/pull/1004\r\n* Added connect fallback on routing error by @Mzack9999 in https://github.com/projectdiscovery/naabu/pull/1027\r\n* Disalbed pcap handler with connect scan by @Mzack9999 in https://github.com/projectdiscovery/naabu/pull/1058\r\n* Fixed struct initialization by @Mzack9999 in https://github.com/projectdiscovery/naabu/pull/1063\r\n* Fixed issue with `-source-ip` option by @Mzack9999 in https://github.com/projectdiscovery/naabu/pull/1005\r\n\r\n### 🔨 Maintenance\r\n* Automatically skip redundant host discovery by @Mzack9999 in https://github.com/projectdiscovery/naabu/pull/1061\r\n\r\n### Other Changes\r\n* Added port number range check by @lu4nx in https://github.com/projectdiscovery/naabu/pull/1043\r\n\r\n## New Contributors\r\n* @alizademhdi made their first contribution in https://github.com/projectdiscovery/naabu/pull/996\r\n* @lu4nx made their first contribution in https://github.com/projectdiscovery/naabu/pull/1043\r\n\r\n**Full Changelog**: https://github.com/projectdiscovery/naabu/compare/v2.3.0...v2.3.1"
     },
     "https://github.com/Threekiii/Awesome-Exploit": {
         "created_at": "2022-04-22 02:08:08",
@@ -5174,8 +5178,8 @@
     "https://github.com/alibaba/arthas": {
         "created_at": "2024-01-02 10:43:14",
         "description": "Alibaba Java Diagnostic Tool Arthas/Alibaba Java诊断利器Arthas",
-        "commit_message": "fix some typos\n\nSigned-off-by: wellweek <xiezitai@outlook.com>",
-        "commit_date": "2024-03-08 07:03:24",
+        "commit_message": "fix typo (#2830)",
+        "commit_date": "2024-05-14 06:56:30",
         "release_date": "2024-01-02 14:06:57",
         "release_message": "Issues: https://github.com/alibaba/arthas/milestone/50?closed=1\r\n\r\n* arthas-spring-boot-starter support spring boot3. #2524\r\n* upgrade spring-boot 2 to 2.7.15, spring boot 3 to 3.1.7\r\n* upgrade bytekit to 0.0.9 (#2775)\r\n* fix not use arthasHome when constructing ArthasAgent(#2544)\r\n* fix AnsiLog static init may error. #2740\r\n* sysenv/sysprop command sorted by key #2619 (#2652)\r\n* upgrade bytebuddy to 1.14.11\r\n* UserStat support agentId (#2501)"
     },
@@ -22551,8 +22555,8 @@
     "https://github.com/10cks/fofaEX": {
         "created_at": "2024-01-25 03:23:01",
         "description": "FOFA EX 是一款基于fofa api（也可导入鹰图、夸克文件）实现的红队综合利用工具，可基于模板把工具作为插件进行集成，自动化进行资产探测，目前提供的插件功能如下：探活、 nuclei 模板扫描、IP反查域名、域名反查 ICP 备案、dismap 指纹扫描",
-        "commit_message": "Update README.md",
-        "commit_date": "2024-03-18 01:39:18",
+        "commit_message": "Merge remote-tracking branch 'origin/master'",
+        "commit_date": "2024-05-10 12:30:07",
         "release_date": "2024-01-25 03:26:17",
         "release_message": "# 更新\r\n\r\n1. 提供资产探测流程执行自动化\r\n2. 提供更多的插件：[插件下载地址](https://github.com/10cks/fofaEX_PublicPlugins)\r\n3. 提供打开文件支持更多格式（csv/json/xlsx），数据与插件直接对接，可执行自动化\r\n\r\n# bug 修复\r\n\r\n修复mac设置问题"
     },
@@ -22689,12 +22693,12 @@
         "commit_date": "2024-01-11 02:16:37"
     },
     "https://github.com/Sitoi/dailycheckin": {
-        "created_at": "2024-03-19 01:37:20",
+        "created_at": "2024-05-15 01:55:46",
         "description": "基于「Docker」/「青龙面板」/「群晖」的每日签到脚本（支持多账号）签到列表: ｜爱奇艺｜全民K歌｜有道云笔记｜百度贴吧｜Bilibili｜V2EX｜AcFun｜什么值得买｜阿里云盘｜i茅台申购｜小米运动｜百度搜索资源平台｜恩山论坛｜奥拉星｜",
-        "commit_message": "⬆️ 更新(__version__.py)：将版本号从24.3.11升级到24.3.19\n  ✨ 功能(docs/pages/history)：添加2024-03-19的更新日志\n  📝 文档(docs/pages/history/_meta.json)：更新_meta.json文件，添加2024-03-19的日志记录\n  📝 文档(docs/theme.config.tsx)：更新banner的链接和文本，指向最新的版本发布信息",
-        "commit_date": "2024-03-19 01:37:20",
-        "release_date": "2024-03-19 01:38:02",
-        "release_message": "# 2024-03-19\r\n\r\n![PyPI](https://img.shields.io/badge/Pypi-v24.3.19-brightgreen)\r\n\r\n## 🐛 修复\r\n\r\n- 修复「爱奇艺」摇一摇失败的 BUG\r\n"
+        "commit_message": "⬆️ 升级(__version__.py)：更新版本号从24.3.19到24.5.15\n  📝 添加文档(2024-05-15.mdx)：添加新的版本发布记录\n  ✨ 功能(_meta.json)：在meta数据中添加新的版本日期\n  💡 更新注释(theme.config.tsx)：更新发布横幅的链接和文本",
+        "commit_date": "2024-05-15 01:55:46",
+        "release_date": "2024-05-15 01:56:59",
+        "release_message": "# 2024-05-15\r\n\r\n![PyPI](https://img.shields.io/badge/Pypi-v24.5.15-brightgreen)\r\n\r\n## 🐛 修复\r\n\r\n- 修复「爱奇艺」签到失效的问题\r\n"
     },
     "https://github.com/Safe3/CVS": {
         "created_at": "",
@@ -23217,7 +23221,7 @@
         "release_message": "修复部分问题，添加邮箱批量删除，添加web SSL默认配置启用。"
     },
     "https://github.com/x364e3ab6/DudeSuite": {
-        "created_at": "2024-02-20 12:44:34",
+        "created_at": "2023-02-03 05:39:58",
         "description": "Dude Suite Web 渗透测试工具",
         "commit_message": "Update README.md",
         "commit_date": "2024-03-17 09:25:45",
@@ -24406,8 +24410,8 @@
         "description": "魅族安全中心"
     },
     "https://sec.vip.com/": {
-        "status_code": 503,
-        "description": ""
+        "status_code": 200,
+        "description": "VSRC首页-唯品会信息安全中心"
     },
     "https://sec.wacai.com/": {
         "status_code": 200,
@@ -27064,7 +27068,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "52.238.29.207属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "20.161.77.201属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
