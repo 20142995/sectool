@@ -1015,7 +1015,7 @@
         "release_message": ""
     },
     "https://github.com/ffuf/ffuf": {
-        "created_at": "2018-11-08 09:25:49",
+        "created_at": "2023-09-16 12:19:26",
         "description": "Fast web fuzzer written in Go",
         "commit_date": "2023-10-22 14:34:24",
         "commit_message": "Fixed setting unlimited rate in interactive console (#748)\n\n* Fixed setting unlimited rate in interactive console\r\n\r\n* Add changelog entry",
@@ -5220,13 +5220,13 @@
         "release_message": "#### 0x01 更新记录\r\n1. [新增] 在mac下运行时在程序坞显示logo\r\n2. [新增] 给主JTabbedPane添加tab图标\r\n3. [优化] 升级woodpecker-tools到0.1.1版本\r\n4. [修复] 修正应用程序名拼写错误\r\n\r\n#### 0x02 依赖版本\r\n1. woodpecker-sdk 0.3.0\r\n2. woodpecker-requests 0.2.0\r\n3. woodpecker-bcel 0.1.0\r\n5. woodpecker-tools 0.1.1"
     },
     "https://github.com/XiaoliChan/wmiexec-Pro": {
-        "created_at": "2023-04-04 06:24:07",
+        "created_at": "2024-04-07 08:55:37",
         "description": "New generation of wmiexec.py",
-        "commit_date": "2023-07-31 03:58:14",
-        "commit_message": "Declaration",
+        "commit_date": "2024-04-07 09:45:30",
+        "commit_message": "Bypass Defender\n\nSigned-off-by: XiaoliChan <30458572+XiaoliChan@users.noreply.github.com>",
         "release_tag": "v0.2.6",
-        "release_date": "2023-07-22 08:40:18",
-        "release_message": "### Changelog:\r\n- Bugs fixed in `exec-command`"
+        "release_date": "2024-04-07 09:12:51",
+        "release_message": "### Changelog:\r\n- Default is using VBS obfuscate in command execution\r\n- Bypass windows defender in `semi-interactive shell` mode\r\n\r\n### Screenshot:\r\n![image](https://github.com/XiaoliChan/wmiexec-Pro/assets/30458572/1f92ace5-7fe8-4088-9e35-e2aa3861c5c2)\r\n"
     },
     "https://github.com/c0ny1/java-memshell-scanner": {
         "created_at": "2020-09-08 09:09:06",
@@ -6180,13 +6180,13 @@
         "release_message": ""
     },
     "https://github.com/pen4uin/java-memshell-generator-release": {
-        "created_at": "2023-06-03 19:49:29",
+        "created_at": "2023-11-01 04:18:55",
         "description": "一款支持高度自定义的 Java 内存马生成工具",
-        "commit_date": "2023-11-01 04:18:55",
-        "commit_message": "archived",
+        "commit_date": "2024-04-12 01:04:32",
+        "commit_message": "release jMG v1.0.8",
         "release_tag": "v1.0.7.beta3",
-        "release_date": "2023-11-25 09:31:25",
-        "release_message": "### 更新日志\r\n1.  修复 FastJson + Groovy 漏洞利用封装的问题 [#12]\r\n2. 修复 Godzilla 插件 \"evalClass is null\" 的问题. [#15]\r\n3. 修复 BCEL 利用的 UnsupportedClassVersionError 问题."
+        "release_date": "2024-04-12 01:01:44",
+        "release_message": "### 更新日志 \r\n1.  新增对 Tomcat Agent 注入内存马的支持 [#4]\r\n2.  新增对 SpringBoot(SpringMVC) Agent 注入内存马的支持 [#4]"
     },
     "https://github.com/lemonlove7/dirsearch_bypass403": {
         "created_at": "2023-05-05 07:23:53",
@@ -6279,7 +6279,7 @@
         "release_message": ""
     },
     "https://github.com/guofei9987/blind_watermark": {
-        "created_at": "2019-07-16 14:08:51",
+        "created_at": "2021-12-18 14:23:02",
         "description": "Blind&Invisible Watermark ，图片盲水印，提取水印无须原图！",
         "commit_date": "2023-11-18 06:38:25",
         "commit_message": "Merge pull request #121 from semikonductor/master\n\nUpdate bwm_core.py",
@@ -11448,9 +11448,9 @@
         "release_message": "nginx-ssl-ja3: nginx variables for ja3 fingerprint\r\n- nginx modules\r\n    - features for ja3 are capture once on connection setup in nginx event openssl code\r\n    - fixes grease values being included in eliptic curves values\r\n    - patches OpenSSL to include some extra client extensions\r\n        - extended_master_secret -> 23\r\n        - compress_certificate -> 27\r\n        - record_size_limit -> 28\r\n        - session_ticket -> 35\r\n    - fixes memory leak with unused ssl_session\r\n- tests\r\n    - integration tests with t/http_ssl_ja3.t\r\n- documentation\r\n    - better documentation how to build and setup\r\n- docker\r\n    - better Dockerfile - no need of git checkout\r\n- travis\r\n    - upgrade to ubuntu bionic\r\n\r\n----\r\n\r\nMany thanx to contributors:\r\n - @Sessa93 \r\n - @bartebor \r\n - @chrisueland"
     },
     "https://github.com/tennc/webshell": {
-        "created_at": "2013-05-23 07:37:56",
+        "created_at": "2021-01-04 13:55:41",
         "description": "This is a webshell open source project",
-        "commit_date": "2023-09-19 06:44:03",
+        "commit_date": "2024-04-06 13:51:13",
         "commit_message": "Update README.md",
         "release_tag": "v-2021-01-05",
         "release_date": "2021-01-05 15:47:23",
@@ -13597,7 +13597,7 @@
         "release_message": ""
     },
     "https://github.com/portswigger/turbo-intruder": {
-        "created_at": "2019-01-16 09:04:28",
+        "created_at": "2020-08-20 13:25:32",
         "description": "Turbo Intruder is a Burp Suite extension for sending large numbers of HTTP requests and analyzing the results.",
         "commit_date": "2023-10-20 12:58:44",
         "commit_message": "Update jar",
@@ -16468,8 +16468,8 @@
     "https://github.com/Merricx/qrazybox": {
         "created_at": "2017-04-18 19:10:04",
         "description": "QR Code Analysis and Recovery Toolkit",
-        "commit_date": "2023-11-15 20:03:14",
-        "commit_message": "Revise the ECI indicator list (#11)\n\n* make filenames NTFS compatible\r\n\r\n* revise the ECI indicator list\r\nref: AIM ITS/04-023:2022",
+        "commit_date": "2024-01-18 12:54:36",
+        "commit_message": "Improve Data Sequence Analysis (#14)\n\n* Improve the performance of `generateDataBlocks`\r\n\r\n* fix: Apply masks when editing in Data Sequence Analysis\r\n\r\n---------\r\n\r\nCo-authored-by: Coxxs <coxxs@users.noreply.github.com>",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -20816,12 +20816,12 @@
     },
     "https://github.com/nccgroup/blackboxprotobuf": {
         "created_at": "2018-05-15 00:07:03",
-        "description": "Blackbox protobuf is a Burp Suite extension for decoding and modifying arbitrary protobuf messages without the protobuf type definition.",
+        "description": "Blackbox Protobuf is a set of tools for working with encoded Protocol Buffers (protobuf) without the matching protobuf definition.",
         "release_tag": "",
         "release_date": "",
         "release_message": "",
-        "commit_date": "2023-10-16 05:23:46",
-        "commit_message": "chore: bump version"
+        "commit_date": "2024-05-20 00:24:22",
+        "commit_message": "chore: version bump to 1.3.1"
     },
     "https://github.com/KibodWapon/Axis-1": {
         "created_at": "",
@@ -22890,7 +22890,7 @@
         "release_message": ""
     },
     "https://github.com/YYHYlh/Dubbo-Scan": {
-        "created_at": "2023-08-07 14:00:27",
+        "created_at": "2023-08-08 15:41:51",
         "description": "一款让你不只在dubbo-sample、vulhub或者其他测试环境里检测和利用成功的Apache Dubbo  漏洞检测工具。",
         "commit_date": "2023-08-09 01:50:50",
         "commit_message": "Update use.md",
@@ -23299,7 +23299,7 @@
     },
     "https://github.com/pandasec888/taowu-cobalt_strike": {
         "created_at": "2020-07-05 10:13:00",
-        "description": "",
+        "description": null,
         "commit_date": "2023-10-31 09:13:10",
         "commit_message": "Update README.md",
         "release_tag": "",
@@ -24410,8 +24410,8 @@
         "description": "魅族安全中心"
     },
     "https://sec.vip.com/": {
-        "status_code": 503,
-        "description": ""
+        "status_code": 200,
+        "description": "VSRC首页-唯品会信息安全中心"
     },
     "https://sec.wacai.com/": {
         "status_code": 200,
@@ -27070,7 +27070,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "172.183.37.93属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "40.67.141.242属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
@@ -27089,8 +27089,8 @@
         "description": "Reverse IP Lookup - All Names Hosted at an IP - DomainTools"
     },
     "https://www.webscan.cc/": {
-        "status_code": 200,
-        "description": "同IP网站查询,C段查询,IP反查域名,在线C段,旁站工具 - WebScan"
+        "status_code": 504,
+        "description": "www.webscan.cc | 504: Gateway time-out"
     },
     "https://gofile.io/": {
         "status_code": 200,
