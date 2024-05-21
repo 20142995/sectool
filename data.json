@@ -1880,8 +1880,8 @@
     "https://github.com/hiroi-sora/Umi-OCR": {
         "created_at": "2024-04-04 09:43:57",
         "description": "OCR software, free and offline. 开源、免费的离线OCR软件。支持截屏/批量导入图片，PDF文档识别，排除水印/页眉页脚，扫描/生成二维码。内置多国语言库。",
-        "commit_message": "完善任务控制板组件：添加任务计数器",
-        "commit_date": "2024-05-19 16:59:49",
+        "commit_message": "批量OCR标签页：支持中途暂停任务 (#469)",
+        "commit_date": "2024-05-20 12:44:58",
         "release_date": "2024-03-29 13:29:20",
         "release_message": "# 两周年 & 两万星星撒花！\r\n\r\nCelebrating the two-year anniversary of this project and reaching 20k stars!\r\n\r\n<details>\r\n<summary>作者的话</summary>\r\n\r\n两年前，有个人试图寻找一个免费的、无需注册、开箱即用、支持批量处理且不限制数量的OCR软件。可惜，当时没有软件满足他的需求。于是，他一拍脑袋，花了几个日夜，自己写了个软件原型。那就是 Umi-OCR [v1.0](https://github.com/hiroi-sora/Umi-OCR/releases/tag/v1.0) 。\r\n\r\n没想到这个项目还挺受大家欢迎，于是他就一直维护更新下去。在用户的建议下，Umi 的功能越来越丰富，有了截图，现代化UI，二维码，PDF识别，HTTP接口……从1k行代码的小demo，历经两年迭代，到如今20k+行；Umi 逐渐变成一个较为成熟完整的项目。\r\n\r\n未来，Umi 会继续完善现有功能、开发新的功能。受限于作者的业余时间和精力，项目更新的速度可能不会很快，还请给予耐心。本项目始终在稳步前进，历史上大多数Issues反馈和请求，最终都落到了实处。\r\n\r\n（下一步，我将对软件底层的插件机制做出较大的调整和重构，以便为表格识别、图片翻译、原生Linux支持 等大型功能铺平道路。）\r\n\r\n感谢各位用户、开发者、翻译者的支持。感谢我自己的坚持。\r\n\r\n—— by hiroi-sora\r\n\r\n---\r\n\r\n</details>\r\n\r\n\r\n## v2.1.1 主要更新 / Changelog\r\n\r\n- 修复：`Windows7` 及 `核心数<=2的CPU` 无法进行文档识别的Bug。\r\n- 新增：批量文档识别允许指定忽略区域的页数范围。\r\n- 新增：命令行`--path`允许传入多个图片或文件夹。👉[命令行手册](https://github.com/hiroi-sora/Umi-OCR/blob/main/docs/README_CLI.md)\r\n- 新增：新的命令行、HTTP接口：识别/生成二维码图像。👉[HTTP手册](https://github.com/hiroi-sora/Umi-OCR/blob/main/docs/README_HTTP.md)\r\n- 优化：双栏面板会记忆左右折叠状态。\r\n- 完善 繁+英+日 界面本地化翻译。感谢 [翻译人员](https://github.com/hiroi-sora/Umi-OCR?tab=readme-ov-file#%E8%BD%AF%E4%BB%B6%E6%9C%AC%E5%9C%B0%E5%8C%96%E7%BF%BB%E8%AF%91) 。\r\n\r\n<details>\r\n<summary>次要更新：（点击展开）</summary>\r\n\r\n- 新增：命令行新指令 `--output`, `--output_append`, `--clip` 。\r\n- 新增：清空全部识别记录的快捷键。 (#420)\r\n- 新增：截图预览 删除图片显示的选项和快捷键。 (#427)\r\n- 优化：开始菜单/开机自启快捷方式，默认放置于用户目录下，避免请求管理员权限。 (#428)\r\n- 优化：保存双层PDF，在没有新文本写入时的处理逻辑。 (#416)\r\n- 优化：PDF解析时，提取原有文本行的逻辑更准确。\r\n- 修复：Esc取消截图的消息传递错误。 (#402)\r\n- 修复：文档`整页强制OCR`模式下，提高小尺寸页面的渲染精度。\r\n- UI：优化一些提示，修复一些渲染问题，美化一些视觉效果。\r\n\r\n</details>\r\n\r\n#### Windows7 用户注意： [常见问题及修复方法](https://github.com/hiroi-sora/Umi-OCR/issues/447)\r\n\r\n---\r\n\r\n### 配置文件迁移 / Configuration file migration\r\n\r\nUmi-OCR v2 用户升级时，将旧版软件的`UmiOCR-data/.settings`拷贝到新版相同位置即可。\r\n\r\nCopy the `UmiOCR-data/.settings` from the old version of the software to the same location in the new version.\r\n\r\n### 下载说明 / Download Instructions\r\n\r\n不同版本仅OCR引擎插件不同，其它功能完全一致。\r\n均支持 win7 x64 及以上的系统，附带多国语言识别库。\r\n\r\n`.7z.exe`为自解压包，可以用压缩软件打开，也可以在没有安装压缩软件的电脑上直接双击解压。\r\n\r\n### Paddle 引擎插件版\r\n\r\n（性能好，速度快，占用率高，适合高配机器。**不兼容奔腾、赛扬、凌动CPU**）\r\n\r\n**重要提示：如果执行OCR时报错 `0xc0000142`、`[Error] OCR init fail`，大概率是CPU不兼容Paddle，请换用Rapid版本。**\r\n\r\n**Umi-OCR_Paddle_v2.1.0.7z.exe** （129MB）\r\nSHA256: `53e144b07c3ddfc1038e16926912de75c8212840c84cd56713f9e93ecc22e753`\r\n\r\n### Rapid 引擎插件版\r\n\r\n（速度稍慢，内存占用低，适合低配机器，兼容性好）\r\n\r\n**Umi-OCR_Rapid_v2.1.0.7z.exe** （97.1MB）\r\nSHA256: `09f10d04bd1915ad67a76e57e54adad781a295e8bbf64c7a3e7207f056cafee6`\r\n\r\n## 更多插件 / Plugins\r\n\r\n前往 [Umi-OCR_插件仓库](https://github.com/hiroi-sora/Umi-OCR_plugins) ，下载更多OCR插件，获取`离线数学公式识别`等附加功能。\r\n\r\nVisit the [Umi-OCR_Plugins](https://github.com/hiroi-sora/Umi-OCR_plugins) to download more OCR plugins and acquire additional features such as `Offline Mathematical Formula Recognition`.\r\n\r\n---\r\n\r\n更多下载途径： [蓝奏云](https://hiroi-sora.lanzoul.com/s/umi-ocr) | [SourceForge](https://sourceforge.net/projects/umi-ocr/files/v2.1.1/) | [Scoop](https://scoop.sh/#/apps?q=umi-ocr)\r\n\r\n[![Download Umi-OCR](https://a.fsdn.com/con/app/sf-download-button)](https://sourceforge.net/projects/umi-ocr/files/v2.1.1/)"
     },
@@ -3152,12 +3152,12 @@
         "release_message": ""
     },
     "https://github.com/joke2k/faker": {
-        "created_at": "2024-05-08 21:22:35",
+        "created_at": "2024-05-13 16:05:03",
         "description": "Faker is a Python package that generates fake data for you.",
-        "commit_message": "Bump version: 25.0.1 → 25.1.0",
-        "commit_date": "2024-05-08 21:22:35",
-        "release_date": "2024-05-08 21:27:25",
-        "release_message": "See [CHANGELOG.md](https://github.com/joke2k/faker/blob/refs/tags/v25.1.0/CHANGELOG.md)."
+        "commit_message": "Bump version: 25.1.0 → 25.2.0",
+        "commit_date": "2024-05-13 16:05:03",
+        "release_date": "2024-05-13 16:05:31",
+        "release_message": "See [CHANGELOG.md](https://github.com/joke2k/faker/blob/refs/tags/v25.2.0/CHANGELOG.md)."
     },
     "https://github.com/NHPT/Xray_Cracked": {
         "created_at": "2022-08-10 13:51:19",
@@ -6496,8 +6496,8 @@
     "https://github.com/ImageMagick/ImageMagick": {
         "created_at": "2024-05-05 15:53:27",
         "description": "🧙‍♂️ ImageMagick 7",
-        "commit_message": "correct spelling (https://github.com/ImageMagick/Website/discussions/100)",
-        "commit_date": "2024-05-17 23:59:39",
+        "commit_message": "Removed fuzzers that check a specific method because they only tend to find issues in decoders.",
+        "commit_date": "2024-05-20 15:45:39",
         "release_date": "2024-05-05 19:08:31",
         "release_message": "## What's Changed\n* Fix GIF ICC profile reading. (https://github.com/ImageMagick/ImageMagick/issues/7281) by @njdoyle in https://github.com/ImageMagick/ImageMagick/pull/7282\n* uhdr.c: add support for rgb inputs by @aayushsoni111 in https://github.com/ImageMagick/ImageMagick/pull/7273\n\n\n**Full Changelog**: https://github.com/ImageMagick/ImageMagick/compare/7.1.1-31...7.1.1-32"
     },
@@ -10156,7 +10156,7 @@
         "created_at": "2020-02-04 09:30:48",
         "description": "致力于成为中文区命中率最高的广告过滤列表，实现精确的广告屏蔽和隐私保护。anti-AD现已支持AdGuardHome，dnsmasq， Surge，Pi-Hole，smartdns等网络组件。完全兼容常见的广告过滤工具所支持的各种广告过滤列表格式",
         "commit_message": "Auto renew the anti-AD list.",
-        "commit_date": "2024-05-16 18:34:01",
+        "commit_date": "2024-05-19 18:33:29",
         "release_date": "2020-02-04 09:32:25",
         "release_message": "- 引入无效域名、无效hosts剔除机制，大幅提升各过滤列表命中率\r\n- 为了更好的支持pi-hole，加入一个新的全域名列表 - `anti-ad-domains.txt`\r\n- 根据网友 [@xlighting2017](https://github.com/privacy-protection-tools/anti-AD/issues/29) 建议，更新surge到新的格式\r\n- 引入数个新的配置参数，对输出结果精确控制\r\n- 若干bug和逻辑修复"
     },
@@ -27070,7 +27070,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "172.183.154.250属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "52.238.28.73属于美国 加利福尼亚 圣何塞 微软云 数据中心_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
@@ -27327,8 +27327,8 @@
         "commit_date": "2021-05-10 04:28:14"
     },
     "https://who.cx/": {
-        "status_code": 403,
-        "description": "Just a moment..."
+        "status_code": 200,
+        "description": "WHO.CX - Whois查询"
     },
     "https://github.com/zer0h/httpscan": {
         "created_at": "2016-03-29 11:03:21",
@@ -27841,8 +27841,8 @@
     "https://github.com/ngc660sec/NGCBot": {
         "created_at": "2024-01-02 07:07:54",
         "description": "一个基于✨HOOK机制的微信机器人，支持🌱安全新闻定时推送【FreeBuf，先知，安全客，奇安信攻防社区】，👯Kfc文案，⚡备案查询，⚡手机号归属地查询，⚡WHOIS信息查询，🎉星座查询，⚡天气查询，🌱摸鱼日历，⚡微步威胁情报查询， 🐛美女视频，⚡美女图片，👯帮助菜单。📫 支持积分功能，⚡支持自动拉人，⚡检测广告，🌱自动群发，👯Ai回复，😄自定义程度丰富，小白也可轻松上手！",
-        "commit_message": "Merge pull request #36 from pbuff07/bugfix/fix_help_menu_response_error\n\n修复HELP指令不生效的问题",
-        "commit_date": "2024-05-08 01:37:24",
+        "commit_message": "Update README.md",
+        "commit_date": "2024-05-19 04:01:10",
         "release_date": "2024-01-02 07:24:40",
         "release_message": "### NGCBot V2.0龙年贺岁版更新！\r\n新增更多功能\r\n更快！更多！更全！\r\n最新请查看Readme\r\n\r\n### 注意：由于新版本采用不同框架，所以不能跟以前版本互通！！\r\n\r\n## 注意：请直接Git代码：https://github.com/ngc660sec/NGCBot.git\r\n## release只提供微信安装包\r\n\r\n"
     },
@@ -27919,8 +27919,8 @@
     "https://github.com/aquasecurity/cloudsploit": {
         "created_at": "2024-04-22 13:04:15",
         "description": "Cloud Security Posture Management (CSPM)",
-        "commit_message": "Merge pull request #1973 from muzzamilinovaqo/feature/plugin-aws-workspace-operational-state\n\naws workspace operational state",
-        "commit_date": "2024-04-22 13:04:15",
+        "commit_message": "Merge pull request #2013 from fatima99s/MachineLeariningPublicAccess\n\nMachine learining public access",
+        "commit_date": "2024-05-20 18:48:39",
         "release_date": "2024-05-01 18:06:46",
         "release_message": "CloudSploit version 3.4.0 introduces the most latest version on 2024-04-25. The update includes  new plugins for  Azure, AWS with the hotfixes and enhancements in the existing plugins. The details are as follows.\r\n______________________________\r\n\r\n## New Plugins\r\n### [AWS](https://github.com/aquasecurity/cloudsploit/tree/master/plugins/aws)\r\n**Bedrock**\r\n\r\n- Custom Model Has Tags\r\n\r\n**CloudFormation**\r\n\r\n- CloudFormation Deletion Policy In Use\r\n\r\n**Comprehend**\r\n\r\n- Amazon Comprehend Flywheel In VPC\r\n\r\n**DynamoDB**\r\n\r\n- DynamoDB Deletion Protection Enabled\r\n\r\n**Guard duty**\r\n\r\n- GuardDuty RDS Protection Enabled\r\n\r\n**Lambda**\r\n\r\n- Lambda Dead Letter Queue\r\n- Lambda Enhanced Monitoring Enabled\r\n- Lambda Code Signing Enabled\r\n\r\n**Route 53**\r\n\r\n- Route 53 In Use\r\n\r\n**OpenSearch**\r\n\r\n- OpenSearch Audit Logs Enabled\r\n\r\n**WorkSpaces**\r\n\r\n- WorkSpaces Healthy Instances\r\n\r\n### [Azure](https://github.com/aquasecurity/cloudsploit/tree/master/plugins/azure)\r\n**Automation Account**\r\n-  Automation Account Approved Certificates Only\r\n\r\n**Container Apps**\r\n- Container Apps Authentication Enabled\r\n- Container Apps External Network Access\r\n- Container Apps Managed Identity\r\n- Container Apps Authentication Enabled\r\n\r\n**Cosmos DB**\r\n- Cosmos DB Diagnostic Logs\r\n- Cosmos DB Managed Identity\r\n\r\n**DataBricks**\r\n- Databricks Workspace DBFS Infrastructure Encryption\r\n- Databricks Workspace Managed Services CMK Encrypted\r\n- Databricks Workspace Diagnostic Logs\r\n- Databricks Workspace Secure Cluster\r\n\r\n**Event Grid**\r\n- Event Grid Domain Diagnostic Logs\r\n- Event Grid Domain Minimum TLS Version\r\n- Event Grid Domain Local Authentication Disabled\r\n- Event Grid Domain Managed Identity\r\n\r\n**Event Hub**\r\n- Event Hubs Namespace CMK Encrypted\r\n\r\n**PostgreSQL Server**\r\n- PostgreSQL Flexible Server Connection Throttling Enabled\r\n- PostgreSQL Flexible Server Log Disconnections Enabled\r\n\r\n\r\n\r\n## Hot fixes and enhancements\r\n### Aws\r\n1. Earlier the following plugins were generating unknowns for the regions in which Bedrock Custom model service was not available. Updated the plugin logic to produce pass results for those regions. \r\n\r\n- Custom Model Encryption Enabled\r\n- Custom Model In VPC\r\n- Private Custom Model\r\n\r\n2. **RDS Public Subnets**\r\n        Fixed the bug for which the plugin was generating false negative results in case where the RDS instance was not connected to the \r\n        public subnet.\r\n\r\n3. **Instance Limit**\r\nEarlier the plugin was checking the max instance limit provided by AWS. As of now max_limit attribute is no longer supported by AWS so added the setting for Max Instance Count from which users can set the desired value for max number of utilised instances in a region.\r\n\r\n\r\n### Azure \r\n1. **SQL Databases Data Masking Enabled**\r\nUpdated the plugin logic to remove the unnecessary unknown form the results\r\n\r\n2. Updated the plugin info link for following plugins\r\n- Storage Account Queue Service Logging Enable \r\n- Storage Account Blob Service Logging Enable\r\n\r\n### Google\r\n1. **Service Account Key Rotation**\r\nUpdate the plugin to generate pass results if there is no user managed service account key found, earlier the plugin results were getting skipped if there was no user managed key found.\r\n\r\n\r\n"
     },
@@ -28119,8 +28119,8 @@
     "https://github.com/chasingboy/Xtools": {
         "created_at": "2023-07-12 05:42:55",
         "description": "Xtools 是一款 Sublime Text 插件，同时是一款简单的资产处理、命令行调用工具。",
-        "commit_message": "Update Context.sublime-menu",
-        "commit_date": "2024-05-09 14:50:40"
+        "commit_message": "Update xtools.py",
+        "commit_date": "2024-05-19 03:27:38"
     },
     "https://github.com/offensive-security/exploitdb": {
         "created_at": "2013-12-03 18:50:07",
