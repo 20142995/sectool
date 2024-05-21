@@ -954,10 +954,10 @@
         "release_message": ""
     },
     "https://github.com/chaitin/xray": {
-        "created_at": "2019-06-10 07:16:37",
+        "created_at": "2023-04-12 07:23:36",
         "description": "一款完善的安全评估工具，支持常见 web 安全问题扫描和自定义 poc | 使用之前务必先阅读文档",
-        "commit_date": "2023-05-24 10:30:30",
-        "commit_message": "[fix] readme",
+        "commit_date": "2024-03-07 10:25:27",
+        "commit_message": "修复图片无效问题",
         "release_tag": "1.9.11",
         "release_date": "2023-05-18 06:49:12",
         "release_message": "### 版本介绍\r\n\r\n该版本为 用友NC NCMessageServlet反序列化漏洞 注入漏洞 的应急版本，相较上个版本，除了添加了一个POC外，未改动其他内容。\r\n\r\n### 更新内容\r\n\r\n想要检测该漏洞的师傅，可以使用\r\n\r\n`./xray ws --poc poc-yaml-yongyou-nc-ncmessageservlet-rce --url http://example.com`\r\n\r\n进行检测。\r\n\r\n相关参考链接：[CT stack](https://stack.chaitin.com/techblog/detail?id=92)"
@@ -1578,13 +1578,13 @@
         "release_message": "### 2021.12.23 V0.2  更新日志\r\n 新增：\r\n1、png图片的IDAT检测\r\n2、Stegpy带密码的隐写\r\n3、Steghide\r\n4、Foremost\r\n5、IPTC、XMP图片数据\r\n\r\n优化：\r\n1、盲水印隐写部分代码\r\n2、重写strings可打印字符"
     },
     "https://github.com/i11us0ry/goon": {
-        "created_at": "2021-06-28 15:31:50",
+        "created_at": "2023-12-25 09:05:24",
         "description": "goon,集合了fscan和kscan等优秀工具功能的扫描爆破工具。功能包含：ip探活、port扫描、web指纹扫描、title扫描、压缩文件扫描、fofa获取、ms17010、mssql、mysql、postgres、redis、ssh、smb、rdp、telnet、tomcat等爆破以及如netbios探测等功能。",
-        "commit_date": "2022-08-23 16:20:26",
-        "commit_message": "优化",
+        "commit_date": "2024-02-22 12:49:15",
+        "commit_message": "Delete flag.go",
         "release_tag": "v3.5",
-        "release_date": "2022-08-19 15:24:35",
-        "release_message": "- 2022年08月19日 v3.5\r\n    - 端口指纹优化，不输出无关指纹\r\n    - dir 扫描，升级为dfuzz，支持post发包，支持正则匹配结果，方便简易poc探测\r\n    - ip 探活，做子网划分，支持/8-/31之间任意CIDR，/8-/15之间自动生成所有c段，先探测每个c段的.1;/16-/23之间自动生成所有c段，先探测每个c段的.1和.254，/24先探测.1和.24，/25-/31探测所有ip\r\n    - title 扫描，加code显示、body长度\r\n    - finger 探测，输出完整url"
+        "release_date": "2023-12-27 09:13:03",
+        "release_message": "- 2023年12月25日 v3.6\r\n    - 新增 -ping 选项，调用ping探活ip，适用于非root/admin权限情况\r\n    - 新增 -no 选项，不保存文件，适用于linux下报错open too many files\r\n    - title、finger扫描可以直接输入domain和url\r\n    - 爆破类支持输入ip、ip段和127.0.0.1:6379格式数据"
     },
     "https://github.com/Harveysn0w/CTF_Hacker-Tools": {
         "created_at": "",
@@ -1630,9 +1630,9 @@
         "release_message": ""
     },
     "https://github.com/Weik1/Artillery": {
-        "created_at": "2022-05-12 06:36:18",
+        "created_at": "2022-05-17 10:36:25",
         "description": "JAVA 插件化漏洞扫描器，Gui基于javafx。POC 目前集成 Weblogic、Tomcat、Shiro、Spring等。",
-        "commit_date": "2022-08-08 00:39:34",
+        "commit_date": "2023-11-20 02:30:21",
         "commit_message": "Update README.md",
         "release_tag": "v1.0_20220519",
         "release_date": "2022-05-19 02:21:57",
@@ -1718,13 +1718,13 @@
         "release_message": "## 🔥 Feature\r\n* feat(veinmind-trace): add veinmind-trace plugin for detecting attack trace in container  by @DVKunion in #253 \r\n* feat(veinmind-backdoor): refactor backdoor go plugin  by @ek1ng in #252 \r\n* feat(veinmind-backdoor): add rootkit scan by @l2yyd5 in #256 \r\n\r\n## 📒 Others\r\n* chore(veinmind-backdoor): disabled python plugin and instead of go plugin by @DVKunion in #257 \r\n* chore(libveinmind): update libveinmind 1.9.42 by @DVKunion in #258 \r\n\r\n## 🎉 New Contributors\r\n* @l2yyd5 made their first contribution in #256 \r\n\r\n**Full Changelog**: https://github.com/chaitin/veinmind-tools/compare/v2.1.4...v2.1.5"
     },
     "https://github.com/cdk-team/CDK": {
-        "created_at": "2020-11-05 09:18:51",
+        "created_at": "2024-05-19 09:32:53",
         "description": "📦  Make security testing of K8s, Docker, and Containerd easier.",
-        "commit_date": "2023-03-12 16:40:00",
-        "commit_message": "Merge pull request #80 from cdk-team/v1.5.2-alpha\n\nV1.5.2 alpha",
+        "commit_date": "2024-05-19 09:32:53",
+        "commit_message": "Merge pull request #99 from cdk-team/neargle-dev\n\nFeat(tool): add netstat，Like \"netstat -antup\" command.",
         "release_tag": "v1.5.2",
-        "release_date": "2023-03-12 16:46:59",
-        "release_message": "Release Date: 2023-03-12\r\n\r\n## What's Changed\r\n* V1.5.2 alpha by @neargle in https://github.com/cdk-team/CDK/pull/80\r\n\r\n## :scroll: Changelog\r\n\r\n### :bomb: Exploits \r\n\r\n* Fix 78(exp): support containerd and other linux path\r\n\r\n### :toolbox: Tools\r\n\r\n* Fix #77(exp shadow-apiserver): anonymous-auth is not valid, support v1.23.1\r\n\r\n### :sparkles: Others\r\n\r\n* Fix 78(exp): support containerd and other linux path\r\n* Chore(exp): add alert message about flag auto-escape is deprecated\r\n\r\n## :sparkles: In Chinese\r\n\r\n* 支持 linux 环境下的不同容器运行时，如 containerd、runc、docker；\r\n* 修复shadow-apiserver匿名访问无效的issue，支持新版本的k8s，如 v1.23.1；\r\n* 添加迭代部分功能的消息提醒\r\n\r\n## :key: Hash Table\r\n\r\n|SHA256|EXECTUE FILE|\r\n|---|---|\r\n|9f63e35d7b9d0814ad9f0ef23b89deb4f823d3b07bcd33df9abc5b957bb8be0f|cdk_darwin_amd64\r\nd5c8e759b790c6ffb3134c8f0aae5865e2ae4c672dc09eaa312bc928fd0d78bd|cdk_linux_386\r\n64c86a12800b8d5064e7313a43eb6f5504a7043ab15c227cecfddaf84cc74ced|cdk_linux_386_thin\r\n364fcacd8b55d7d54162849b620cd83e9f50ddb3c7c08478f391cce09449b452|cdk_linux_386_thin_upx\r\n242a11999f0c5b776400f2462854ef1d07101bd1085e3b29c9b7ba825c93a3fb|cdk_linux_386_upx\r\naf751c690671ffc0da6380ef94a25df3dfc5911c448319f7f6b90df55cca7b7d|cdk_linux_amd64\r\nf118a70fa7b02b858bb4fffb96d9a861e4b02f62df054a0d69854449682c8f85|cdk_linux_amd64_thin\r\n3dc271adc2565c38eda5fdaee3070bda8962159d17ba625467a0f3a6e5e440d0|cdk_linux_amd64_thin_upx\r\n924fb2bd1fe001f9eb62509a05546d1aaf97ebbfca73c75eb665a38b34559c4e|cdk_linux_amd64_upx\r\n594811dafdfb9f5cc56b604d8fe97777c23057e37803ec34afdf5680bf9276ea|cdk_linux_arm\r\n828aede9a7bc193899b66e8c10ac10d24398cf79575e771d9a970d3f9a4cdd92|cdk_linux_arm64\r\n2eb30e2abc71fadaee5980bd89a8e4a2c95bcc5d60857a3c13b006c186307e8e|cdk_linux_arm64_thin|\r\n\r\n\r\n**Full Changelog**: https://github.com/cdk-team/CDK/compare/v1.5.1...v1.5.2"
+        "release_date": "2024-05-19 09:35:00",
+        "release_message": "Release Date: 2024-05-19\n\n## :scroll: Changelog\n\n### :bomb: Exploits \n\n* Feat(exp): adapt docker devicemapper file system when get docker rootfs\n\n\n\n### :toolbox: Tools\n\n* 增加查看网络连接信息\n* Fix(eva): long standing timeout in discovery k8s apiserver with sa, error msg: GET, ...connection timed out\n\n### :sparkles: Others\n\n* Feat(tool docs): add netstat document\n* Fix(cgroup): latter part slice len error (#87)\n* Chore: os.SEEK_END has been deprecated since Go 1.7\n* Feat(exp): adapt docker devicemapper file system when get docker rootfs\n\n## :key: Hash Table\n\n|SHA256|EXECTUE FILE|\n|---|---|\n|64b40a70b232b7e23a187a11c52ef8d8b7f3e16a5b869af16b390cbbe4aab935|cdk_darwin_amd64\n4c7260ac051907d12896054145fe103f9ea06de3bb2f04f0aab953dff32028de|cdk_linux_386\n2c757f0065c167e633318ff8d43cb85cf936eae2db224f4e066098f4a8cb324a|cdk_linux_386_thin\n197c42343c75fbbb7d77f3aaa92e04e43ddec927887e889197db72fcff5e9df4|cdk_linux_386_thin_upx\n17b096ff5df1b612abc12887e65fae97280533bfe058ce6becb9c0920f4d4c42|cdk_linux_386_upx\nd7f0690e41786270f345ff4851fd4b239631d4c1e7a6b9f74ad139565cbdb2ed|cdk_linux_amd64\n13f42e004a25be9ba99aee3396a1d810026d7750d1e199774c5ba8410b15ae30|cdk_linux_amd64_thin\ncdac5cd3d0ff424315da3e233a79f72663c26e53fc4ac2e5031ea08154630514|cdk_linux_amd64_thin_upx\nccbc5c84af4045835e6b001cdf845d63802e081cbb97d9625c12d8d0f9b6f852|cdk_linux_amd64_upx\n896b8d804debd233200375a5b7c1218d5b8bf5f53aaaa685b9d411c0770e27d4|cdk_linux_arm\n381448682cb5ea5ff1bc8bfd3462e637da0445fc74fdb60e0de5e11d8c2dc90d|cdk_linux_arm64\n2b92652d4909d39e12fc9320188f9e834b82f80d3aba92dea4267608f3543861|cdk_linux_arm64_thin|\n"
     },
     "https://github.com/hack2fun/Gscan": {
         "created_at": "2020-01-11 15:57:24",
@@ -2554,7 +2554,7 @@
         "release_message": "------\r\n去其糟粕，保留四大核心功能，满足各位大侠的需求：\r\n\r\n* 1、全端口扫描\r\n\r\n* 2、默认端口扫描\r\n\r\n* 3、取消存活扫描\r\n\r\n* 4、定义存活探测端口\r\n------"
     },
     "https://github.com/BeichenDream/Godzilla": {
-        "created_at": "2020-08-17 17:27:56",
+        "created_at": "2021-11-01 08:51:19",
         "description": "哥斯拉",
         "commit_date": "2023-03-07 07:33:10",
         "commit_message": "Update README.md",
@@ -3291,10 +3291,10 @@
         "release_message": "修复并调整几个web端的问题：\r\n\r\n1. 搜索中，非中文的banner信息默认使用mongodb的全文搜索，但是如果搜索信息中带有特殊符号，mongodb的分词算法会影响到全文搜索结果，这并不是我们想要。新的版本修复了这个BUG，为了处理特殊符号的情况，我们对全文搜索存在特殊符号的场景，进行了 Phrases 支持，这并不代表支持了包含特殊符号的全文搜索，但是更接近用户预期的搜索结果。\r\n2. \"全文搜索\" 会像 \"非全文搜索\" 那样大小写敏感。\r\n3. 搜索字段中支持带有 \":\"，例如`\"bannner:god said:Let there be light\"`。\r\n4. 不再允许提交空标题任务，我们始终相信一个好的任务名有助于用户管理他们的任务。\r\n5. 调整了其他几个设计，并不会对用户产生影响。"
     },
     "https://github.com/chennqqi/godnslog": {
-        "created_at": "2020-08-13 02:18:11",
+        "created_at": "2021-08-09 17:16:35",
         "description": "An exquisite dns&http log server for verify SSRF/XXE/RFI/RCE vulnerability ",
-        "commit_date": "2022-03-14 07:39:00",
-        "commit_message": "Merge pull request #28 from npmmirror/master\n\nupdate https://registry.npm.taobao.org to https://registry.npmmirror.com",
+        "commit_date": "2023-09-16 14:39:13",
+        "commit_message": "update mod",
         "release_tag": "v0.7.0",
         "release_date": "2021-08-09 17:22:44",
         "release_message": "1. Rebinding: add CustomRebinding mode\r\n2. Xip: add doc and hex,binary mode\r\n3. Add docker-compose file\r\n4. fix build\r\n5. fix setting clean interval limit"
@@ -4151,7 +4151,7 @@
         "release_message": ""
     },
     "https://github.com/SleepingBag945/frpCracker": {
-        "created_at": "2023-05-01 06:28:10",
+        "created_at": "2023-05-01 06:41:05",
         "description": "一款golang编写的，批量检测frp server未授权访问、弱token的工具",
         "commit_date": "2023-05-01 06:41:05",
         "commit_message": "Readme",
@@ -5364,7 +5364,7 @@
         "release_message": "优化多连接时传输速度"
     },
     "https://github.com/0x727/ShuiYing_0x727": {
-        "created_at": "2021-08-10 07:24:18",
+        "created_at": "2021-08-10 07:27:37",
         "description": "检测域环境内，域机器的本地管理组成员是否存在弱口令和通用口令，对域用户的权限分配以及域内委派查询",
         "commit_date": "2021-08-10 07:27:37",
         "commit_message": "first commit",
@@ -8859,8 +8859,8 @@
     "https://github.com/ffffffff0x/JVWA": {
         "created_at": "2022-04-19 15:42:58",
         "description": "java 代码审计学习靶场",
-        "commit_date": "2023-05-28 11:11:53",
-        "commit_message": "update 2023年 5月28日 星期日 19时11分53秒 CST",
+        "commit_date": "2024-01-11 11:31:55",
+        "commit_message": "update 2024年 1月11日 星期四 19时31分55秒 CST",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -13072,8 +13072,8 @@
     "https://github.com/SentineLabs/AlphaGolang": {
         "created_at": "2021-10-05 13:31:13",
         "description": "IDApython Scripts for Analyzing Golang Binaries",
-        "commit_date": "2023-07-18 20:59:31",
-        "commit_message": "Merge pull request #6 from suncastle/patch-1\n\nUpdate 2.function_discovery_and_renaming.py",
+        "commit_date": "2024-02-01 15:08:18",
+        "commit_message": "Merge pull request #8 from SentineLabs/Better-find_magic-logic\n\nAdd v120magic (Go 1.20) to 1.recreate_pclntab.py",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -15293,7 +15293,7 @@
         "release_message": "### Version 1.4d to 3.1.0 developed by:\r\nXavi Mendez (xmendez@edge-security.com)\r\n\r\n### Version up to 1.4c developed by:\r\nChristian Martorella (cmartorella@edge-security.com)\r\nCarlos del ojo (deepbit@gmail.com)\r\n\r\n### Changelog 3.1.0:\r\n\r\n- Added tox and change test in Makefile\r\n- Improved plugin field filter language capabilities, ie. data and severity can be specified\r\n- Plugin's information is shown depending on severity when using -v\r\n- Filter language and fuzzresult's description handle lists of results\r\n- Added some basic queue profiling for debugging\r\n- diff operator\r\n- Refactored discarded results\r\n- Dotdict __str__\r\n- Removed future library\r\n- Added operator tests\r\n\r\nPlugins:\r\n- Refactored headers plugin\r\n- Links plugins looks in link and redirect headers\r\n- Improved links plugin regex based on nahamsec/JSParser\r\n- New field printer to output filter expressions only\r\n- burplog unittest\r\n- raw printer shows plugin data\r\n\r\nwfpayload:\r\n- Added --prev and --AA, ---AAA to wfpayload\r\n\r\nwfencode:\r\n- -i reads from stdin\r\n-  general handle exception in wfencode\r\n\r\nBreaking changes:\r\n- Changed -A, --AA, ---AAA plugin's categories\r\n- Changed plugins filter language field.\r\n- Changed links filter parameters and kbase keys.\r\n- Changed headers kbase key and server result.\r\n- When slicing a payload FUZZ refers to the previous result.\r\n\r\nBugs:\r\n\r\n- Fixed --prev in wfpayload\r\n- Fixed -c and -v values within printers plugins\r\n- Don't print empty values in wfpayload\r\n- Use lower() in ~ operator\r\n- Remove httpreceiver queue limit\r\n- Fixed --interactive actions\r\n- Stripped CRLF from burplog parsed responses\r\n- Fixed --slice when using FuzzResult payloads\r\n- Only add recursive and routing queues when transport is Http\r\n- Bug in reqresp when parsing nested http responses due to textparser"
     },
     "https://github.com/Mr-xn/sunlogin_rce": {
-        "created_at": "2022-02-16 14:20:41",
+        "created_at": "2022-02-16 09:10:42",
         "description": "向日葵 RCE",
         "commit_date": "2022-02-16 16:11:42",
         "commit_message": "from https://github.com/TRYblog",
@@ -18932,7 +18932,7 @@
         "release_message": ""
     },
     "https://github.com/doyensec/inql": {
-        "created_at": "2018-04-20 07:58:10",
+        "created_at": "2023-07-24 08:19:08",
         "description": "InQL is a robust, open-source Burp Suite extension for advanced GraphQL testing, offering intuitive vulnerability detection, customizable scans, and seamless Burp integration.",
         "commit_date": "2023-07-24 08:19:08",
         "commit_message": "Remove internal headers during Repeater -> GraphQL Editor -> InQL Scanner right-click menu action",
@@ -19626,13 +19626,13 @@
         "commit_message": "Merge pull request #15 from pranavjha2426/patch-1\n\nUpdate .editorconfig"
     },
     "https://github.com/lutfumertceylan/top25-parameter": {
-        "created_at": "2020-04-27 20:40:09",
+        "created_at": "2021-07-03 06:46:35",
         "description": "For basic researches, top 25 vulnerability parameters that can be used in automation tools or manual recon. 🛡️⚔️🧙",
         "release_tag": "v1.0.7",
         "release_date": "2021-07-02 21:45:45",
         "release_message": "For basic researches, top 25 vulnerability parameters that can be used in automation tools or manual recon. 🛡️⚔️🧙",
-        "commit_date": "2023-03-29 18:40:10",
-        "commit_message": "Update LICENSE"
+        "commit_date": "2024-05-07 22:45:32",
+        "commit_message": "Update README.md"
     },
     "https://github.com/Y4er/CVE-2020-2551": {
         "created_at": "2020-02-28 08:46:21",
@@ -20148,7 +20148,7 @@
         "commit_message": "Update README.md"
     },
     "https://github.com/yuyan-sec/druid_sessions": {
-        "created_at": "2021-06-08 19:22:03",
+        "created_at": "2023-02-19 14:24:49",
         "description": "获取 alibaba druid 一些 sessions , sql , urls",
         "release_tag": "1.2",
         "release_date": "2023-02-19 14:29:56",
@@ -23040,7 +23040,7 @@
         "release_message": ""
     },
     "https://github.com/H4ckBu7eer-EX/h4tools": {
-        "created_at": "2023-03-10 09:54:21",
+        "created_at": "2023-03-15 06:32:21",
         "description": "一个安卓渗透工具盒子",
         "commit_date": "2023-03-30 11:21:20",
         "commit_message": "源码\n\n开源了",
@@ -23123,7 +23123,7 @@
         "release_message": ""
     },
     "https://github.com/lcvvvv/gonmap": {
-        "created_at": "2021-03-31 12:36:59",
+        "created_at": "2022-11-04 06:05:55",
         "description": "gonmap是一个go语言的nmap端口扫描库，使用纯go实现nmap的扫描逻辑，而非调用nmap来进行扫描。",
         "commit_date": "2022-11-04 06:05:55",
         "commit_message": "[*]优化协议名称逻辑，避免存在首字符为数字的协议名",
@@ -23460,7 +23460,7 @@
         "release_message": ""
     },
     "https://github.com/yichensec/yichen_Password_dictionary": {
-        "created_at": "2022-12-02 16:31:52",
+        "created_at": "2022-12-02 16:34:09",
         "description": "逸尘的字典  渗透测试个人专用的字典，搜索网上，及自己平常收集的一些路径，其中信息包括HVV中常见的各大厂商的弱密码，web常见漏洞测试，会遇到的邮箱，密码，服务弱口令，中间件，子域名，漏洞路径，账户密码，等等，这些内容都是基于本人在实战中收集到的，其中包含Github上公布的密码字典整合，堪称最经典的字典，用这个足以满足日常src，渗透测试，资产梳理，红蓝对抗等前期探测工作。",
         "commit_date": "2023-07-16 09:54:52",
         "commit_message": "Update README.md",
@@ -23749,13 +23749,13 @@
         "release_message": ""
     },
     "https://github.com/chainreactors/spray": {
-        "created_at": "2022-09-08 07:53:07",
+        "created_at": "2024-03-07 07:40:25",
         "description": "Next Generation HTTP Dir/File Fuzz Tool",
-        "commit_date": "2023-06-12 02:46:24",
-        "commit_message": "Merge pull request #9 from chainreactors/dev\n\nmerge v0.9.1",
+        "commit_date": "2024-03-04 12:05:57",
+        "commit_message": "Merge pull request #27 from chainreactors/dev\n\nmerge v0.9.5",
         "release_tag": "v0.9.1",
-        "release_date": "2023-06-06 12:34:21",
-        "release_message": "## Changelog\r\n\r\n* 73f724b **[NEW FEAT.]** 新增`--index`, `--random` 支持自定义index与random目录\r\n* 976ce55 修复输入文件时, url解析错误的bug, https://github.com/chainreactors/spray/issues/4 . Thanks @channyein1337\r\n* fc3f476 修复expr中bytes类型转换错误的bug, https://github.com/chainreactors/spray/issues/1 . Thanks @Harrybebst \r\n* 2f131cc 删除无用参数, 修复help中的示例描述错误\r\n* 06c6b36 删除action中的upx相关部分\r\n* 12f2ee4 fix gorelease.yml\r\n\r\n**Full Changelog**: https://github.com/chainreactors/spray/compare/v0.9.0...v0.9.1"
+        "release_date": "2024-03-07 09:07:46",
+        "release_message": "## Changelog\r\n* [feature] 新增`--no-dict` flag, 不添加默认字典 \r\n* [enhance] 使用新的progress bar库, 优化bar相关体验, 减少报错， 提供更多信息\r\n* [enhance] 优化配置文件相关逻辑:\r\n\t* 添加 `--init` flag 初始化配置文件\r\n\t* 如果config.yaml 存在则默认加载该配置文件、\r\n\t* 命令行的优先级将大于默认配置文件, 命令行的参数将会覆盖默认配置文件中的配置\r\n\t* -c 指定的配置文件优先级大于默认配置文件\r\n* [enhance] enhance crawl print\r\n* [fix] fix read body bug when MaxBodyLength == 0 . #29  Thanks @sakurakishiro \r\n* [fix] fix --check-only panic\r\n\r\n\r\n**Full Changelog**: https://github.com/chainreactors/spray/compare/v0.9.5...v0.9.6"
     },
     "https://github.com/TD0U/WeaverScan": {
         "created_at": "2022-12-30 12:45:33",
@@ -23785,8 +23785,8 @@
         "release_message": "\r\n感谢师傅[guanglianniubi](https://github.com/guanglianniubi)及[charis3306](https://github.com/charis3306)提供的建议\r\n\r\n更新内容如下：\r\n1. 新增--dnslog参数，可申请dnslog资源进行检测（需挂全局代理，且对发包速度有影响）\r\n2. 为了防止编号冲突，将编号更换为了7-9位随机参数数字+字母\r\n3. 若使用--dnslog参数时，触发了dnslog，将输出/result/xxx_dnslog.html文件用于展示结果\r\n"
     },
     "https://github.com/BeichenDream/CVE-2022-26134-Godzilla-MEMSHELL": {
-        "created_at": "2022-06-07 09:19:02",
-        "description": "",
+        "created_at": "2022-06-07 09:25:40",
+        "description": null,
         "commit_date": "2022-06-07 10:35:18",
         "commit_message": "Update Main.java",
         "release_tag": "V1.0",
@@ -27070,7 +27070,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "40.67.141.242属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "20.102.46.215属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
@@ -27089,8 +27089,8 @@
         "description": "Reverse IP Lookup - All Names Hosted at an IP - DomainTools"
     },
     "https://www.webscan.cc/": {
-        "status_code": 504,
-        "description": "www.webscan.cc | 504: Gateway time-out"
+        "status_code": 200,
+        "description": "同IP网站查询,C段查询,IP反查域名,在线C段,旁站工具 - WebScan"
     },
     "https://gofile.io/": {
         "status_code": 200,
@@ -27512,7 +27512,7 @@
     },
     "http://www.66zan.cn/rc4encrypt/": {
         "status_code": 200,
-        "description": "在线RC4加密,RC4解密工具-在线工具箱"
+        "description": ""
     },
     "https://330k.github.io/misc_tools/unicode_steganography.html": {
         "status_code": 200,
@@ -27528,7 +27528,7 @@
     },
     "http://www.66zan.cn/aesencrypt/": {
         "status_code": 200,
-        "description": "AES加解密工具,AES加密解密在线工具-在线工具箱"
+        "description": ""
     },
     "https://www.sojson.com/encrypt_des.html": {
         "status_code": 200,
@@ -27540,15 +27540,15 @@
     },
     "http://www.66zan.cn/tripledes/": {
         "status_code": 200,
-        "description": "在线TripleDES加密,TripleDES解密工具-在线工具箱"
+        "description": ""
     },
     "http://www.66zan.cn/desencrypt/": {
         "status_code": 200,
-        "description": "在线DES加密,DES解密工具-在线工具箱"
+        "description": ""
     },
     "http://www.66zan.cn/rabbitencrypt/": {
         "status_code": 200,
-        "description": "在线Rabbit加密,Rabbit解密工具-在线工具箱"
+        "description": ""
     },
     "https://yuanfux.github.io/zero-width-web/": {
         "status_code": 200,
