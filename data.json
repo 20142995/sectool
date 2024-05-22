@@ -23749,13 +23749,13 @@
         "release_message": ""
     },
     "https://github.com/chainreactors/spray": {
-        "created_at": "2024-03-07 07:40:25",
+        "created_at": "2024-05-21 10:05:27",
         "description": "Next Generation HTTP Dir/File Fuzz Tool",
         "commit_date": "2024-03-04 12:05:57",
         "commit_message": "Merge pull request #27 from chainreactors/dev\n\nmerge v0.9.5",
         "release_tag": "v0.9.1",
-        "release_date": "2024-03-07 09:07:46",
-        "release_message": "## Changelog\r\n* [feature] 新增`--no-dict` flag, 不添加默认字典 \r\n* [enhance] 使用新的progress bar库, 优化bar相关体验, 减少报错， 提供更多信息\r\n* [enhance] 优化配置文件相关逻辑:\r\n\t* 添加 `--init` flag 初始化配置文件\r\n\t* 如果config.yaml 存在则默认加载该配置文件、\r\n\t* 命令行的优先级将大于默认配置文件, 命令行的参数将会覆盖默认配置文件中的配置\r\n\t* -c 指定的配置文件优先级大于默认配置文件\r\n* [enhance] enhance crawl print\r\n* [fix] fix read body bug when MaxBodyLength == 0 . #29  Thanks @sakurakishiro \r\n* [fix] fix --check-only panic\r\n\r\n\r\n**Full Changelog**: https://github.com/chainreactors/spray/compare/v0.9.5...v0.9.6"
+        "release_date": "2024-05-21 10:40:12",
+        "release_message": "## Changelog\r\n* **[feature] 支持`--raw`从http raw文本解析目标, 并自动配置header与cookie**\r\n* **[feature] 支持`-x/--method`自定义HTTP method**\r\n* **[enhance] words的mask相关[语法更新](https://chainreactors.github.io/wiki/libs/words/#_1).** \r\n* [fix] 修复--finger时某些情况下的panic\r\n* [fix] 修复进度条无法被正确删除的bug\r\n* [fix] 修复http代理无法配置的bug\r\n* [fix] 修复路径解析的bug #32 \r\n\r\n"
     },
     "https://github.com/TD0U/WeaverScan": {
         "created_at": "2022-12-30 12:45:33",
@@ -24410,8 +24410,8 @@
         "description": "魅族安全中心"
     },
     "https://sec.vip.com/": {
-        "status_code": 503,
-        "description": ""
+        "status_code": 200,
+        "description": "VSRC首页-唯品会信息安全中心"
     },
     "https://sec.wacai.com/": {
         "status_code": 200,
@@ -27070,7 +27070,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "20.161.77.206属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "172.183.154.97属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
