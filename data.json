@@ -196,8 +196,8 @@
     "https://github.com/ycdxsb/PocOrExp_in_Github": {
         "created_at": "2021-04-13 05:46:16",
         "description": "聚合Github上已有的Poc或者Exp，CVE信息来自CVE官网。Auto Collect Poc Or Exp from Github by CVE ID.",
-        "commit_message": "update 2024-05-18 07:03:34",
-        "commit_date": "2024-05-17 23:03:34"
+        "commit_message": "update 2024-05-22 08:20:51",
+        "commit_date": "2024-05-22 00:20:51"
     },
     "https://github.com/1n7erface/RequestTemplate": {
         "created_at": "",
@@ -520,8 +520,8 @@
     "https://github.com/knownsec/404StarLink": {
         "created_at": "2020-11-17 08:10:18",
         "description": "404StarLink - 推荐优质、有意义、有趣、坚持维护的安全开源项目",
-        "commit_message": "weekly update at 2024-05-13",
-        "commit_date": "2024-05-13 03:30:29"
+        "commit_message": "weekly update at 2024-05-20",
+        "commit_date": "2024-05-20 04:15:34"
     },
     "https://github.com/gwen001/github-subdomains": {
         "created_at": "2020-07-24 06:54:29",
@@ -4924,8 +4924,8 @@
     "https://github.com/rustdesk/rustdesk": {
         "created_at": "2024-04-07 06:31:09",
         "description": "An open-source remote desktop, and alternative to TeamViewer.",
-        "commit_message": "Not require both  max-width and max-height of mediacodec larger than (#8036)\n\nscreen width and screen height\r\n\r\n* Only use hardware codec, when api < 29, judge with codec name prefix.\r\n\r\nSigned-off-by: 21pages <pages21@163.com>",
-        "commit_date": "2024-05-13 12:24:50",
+        "commit_message": "fix: macos fullscreen state (#8110)\n\nSigned-off-by: fufesou <shuanglongchen@yeah.net>",
+        "commit_date": "2024-05-21 15:38:27",
         "release_date": "2024-04-07 08:12:13",
         "release_message": "![image](https://github.com/rustdesk/rustdesk/assets/71636191/83754a64-31b8-47f0-8570-da22207759a9)\r\n\r\nx86-64: [Windows](https://github.com/rustdesk/rustdesk/releases/download/1.2.3-2/rustdesk-1.2.3-2-x86_64.exe) | [Ubuntu](https://github.com/rustdesk/rustdesk/releases/download/1.2.3-2/rustdesk-1.2.3-2-x86_64.deb) | [Mac](https://github.com/rustdesk/rustdesk/releases/download/1.2.3-2/rustdesk-1.2.3-2-x86_64.dmg) | [AppImage](https://github.com/rustdesk/rustdesk/releases/download/1.2.3-2/rustdesk-1.2.3-2-x86_64.AppImage) | [Flatpak](https://github.com/rustdesk/rustdesk/releases/download/1.2.3-2/rustdesk-1.2.3-2-x86_64.flatpak)\r\nAArch64 (ARM64):  [Ubuntu](https://github.com/rustdesk/rustdesk/releases/download/1.2.3-2/rustdesk-1.2.3-2-aarch64.deb) | [Android](https://github.com/rustdesk/rustdesk/releases/download/1.2.3-2/rustdesk-1.2.3-2-aarch64-signed.apk) | [Mac](https://github.com/rustdesk/rustdesk/releases/download/1.2.3-2/rustdesk-1.2.3-2-aarch64.dmg) | [AppImage](https://github.com/rustdesk/rustdesk/releases/download/1.2.3-2/rustdesk-1.2.3-2-aarch64.AppImage)\r\nx86-32: [Windows](https://github.com/rustdesk/rustdesk/releases/download/1.2.3-2/rustdesk-1.2.3-2-x86-sciter.exe)\r\n\r\nMore: [check below please](#)\r\n\r\n> **For the latest features, check out the [Nightly Build](https://github.com/rustdesk/rustdesk/releases/tag/nightly)**\r\n\r\n# Changelog\r\n\r\nThis release only fixes a [bug](https://github.com/fufesou/rustdesk/wiki/How-to-delete-the-wrong-certificate-stores-in-%22certmgr.msc%22) introduced in [1.2.3-1](https://github.com/rustdesk/rustdesk/releases/tag/1.2.3-1). \r\n\r\n"
     },
@@ -5642,8 +5642,8 @@
     "https://github.com/fatedier/frp": {
         "created_at": "2024-05-07 10:09:24",
         "description": "A fast reverse proxy to help you expose a local server behind a NAT or firewall to the internet.",
-        "commit_message": "update build-and-push-image.yml (#4206)",
-        "commit_date": "2024-05-07 11:14:09",
+        "commit_message": "update the default value of transport.tcpMuxKeepaliveInterval (#4231)",
+        "commit_date": "2024-05-21 04:00:35",
         "release_date": "2024-05-07 10:15:36",
         "release_message": "### Notable Changes\n\nWe have optimized the heartbeat mechanism when tcpmux is enabled (enabled by default). The default value of `heartbeatInterval` has been adjusted to -1. This update ensures that when tcpmux is active, the client does not send additional heartbeats to the server. Since tcpmux incorporates its own heartbeat system, this change effectively reduces unnecessary data consumption, streamlining communication efficiency between client and server.\n\nWhen connecting to frps versions older than v0.39.0 might encounter compatibility issues due to changes in the heartbeat mechanism. As a temporary workaround, setting the `heartbeatInterval` to 30 can help maintain stable connectivity with these older versions. We recommend updating to the latest frps version to leverage full functionality and improvements.\n\n### Features\n\n* Show tcpmux proxies on the frps dashboard.\n* `http` proxy can modify the response header. For example, `responseHeaders.set.foo = \"bar\"` will add a new header `foo: bar` to the response.\n\n### Fixes\n\n* When an HTTP proxy request times out, it returns 504 instead of 404 now.\n\n"
     },
@@ -7669,8 +7669,8 @@
     "https://github.com/locustio/locust": {
         "created_at": "2024-05-06 15:11:31",
         "description": "Write scalable load tests in plain Python 🚗💨",
-        "commit_message": "Improve --stop-timeout description.",
-        "commit_date": "2024-05-17 19:19:42",
+        "commit_message": "Run make frontend_build PR #2717",
+        "commit_date": "2024-05-21 13:17:02",
         "release_date": "2024-05-06 15:12:23",
         "release_message": "## What's Changed\r\n* Small cleanup: mypy type-ignore and dev deps by @tdadela in https://github.com/locustio/locust/pull/2684\r\n* Fix various spelling errors using codespell by @cyberw in https://github.com/locustio/locust/pull/2687\r\n* Allow worker process to run with --run-time specified, just log a warning about it being ignored by @Sawiq in https://github.com/locustio/locust/pull/2685\r\n* fix: Ensure locust does not crash when an User class has no task by @hangonlyra in https://github.com/locustio/locust/pull/2696\r\n* Simplify how locustfiles are found (using -f). Don’t automatically append .py by @DennisKrone in https://github.com/locustio/locust/pull/2655\r\n* Dispatch/user distribution calculation using Kullback-Leibler divergence by @tdadela in https://github.com/locustio/locust/pull/2686\r\n* Use deque for tasks in taskset instead of plain list by @cyberw in https://github.com/locustio/locust/pull/2698\r\n* refactor: replace deprecated utcfromtimestamp function by @tdadela in https://github.com/locustio/locust/pull/2700\r\n* refactor(WindowsKeyPoller): change implementation of captured_chars  by @tdadela in https://github.com/locustio/locust/pull/2701\r\n* annotate return types of a few functions to enable more mypy check by @tdadela in https://github.com/locustio/locust/pull/2702\r\n\r\n## New Contributors\r\n* @Sawiq made their first contribution in https://github.com/locustio/locust/pull/2685\r\n* @hangonlyra made their first contribution in https://github.com/locustio/locust/pull/2696\r\n\r\n**Full Changelog**: https://github.com/locustio/locust/compare/2.26.0...2.27.0"
     },
@@ -10486,8 +10486,8 @@
     "https://github.com/BishopFox/sliver": {
         "created_at": "2024-02-28 19:43:18",
         "description": "Adversary Emulation Framework",
-        "commit_message": "Merge pull request #1691 from BishopFox/v1.6.0/certificate-management\n\nView Certificate Information",
-        "commit_date": "2024-05-17 17:46:13",
+        "commit_message": "Merge pull request #1696 from BishopFox/b516dependabot/go_modules/github.com/tetratelabs/wazero-1.7.2\n\nBump github.com/tetratelabs/wazero from 1.7.1 to 1.7.2",
+        "commit_date": "2024-05-21 21:32:56",
         "release_date": "2024-02-28 20:00:27",
         "release_message": "Fix for DNS C2, and other small backports. Hoping to have a v1.6 release soon with many more updates!"
     },
@@ -12302,8 +12302,8 @@
     "https://github.com/zoujingli/ThinkAdmin": {
         "created_at": "2017-02-13 07:00:14",
         "description": "基于 ThinkPHP6 的极简后台管理系统，内置注解权限、异步多任务、应用插件生态等，支持类 PaaS 更新公共模块和应用插件，插件可本地化定制开发。",
-        "commit_message": "同步升级ThinkAdmin生态代码",
-        "commit_date": "2024-05-11 10:16:21"
+        "commit_message": "同步升级 Layui 版本 2.9.10",
+        "commit_date": "2024-05-21 13:35:19"
     },
     "https://github.com/mubix/netview": {
         "created_at": "2012-08-31 01:27:02",
@@ -19787,7 +19787,7 @@
         "release_tag": "2023.2",
         "release_date": "2024-02-16 15:57:18",
         "release_message": "First release of 2024!\r\n🎉 This release includes [multiple updates](https://github.com/danielmiessler/SecLists/compare/2023.4...2024.1) from the community =)\r\n🥇 Thank you everyone <3\r\n\r\nShout-out to: @cosad3s, @molangning, @barisbogdan, @righettod, @davidmcduffie001, @legik, @StellarSand, @zerbaliy3v, @jhaddix, @emmanuel-londono, @Ghoreish , @denandz and @ErdemOzgen.",
-        "commit_date": "2024-05-20 00:20:25",
+        "commit_date": "2024-05-22 00:19:47",
         "commit_message": "[Github Action] Automated trickest wordlists update."
     },
     "https://github.com/maaaaz/impacket-examples-windows": {
@@ -23692,7 +23692,7 @@
         "created_at": "2024-05-16 03:25:03",
         "description": "It can be either a JNDIExploit or a ysoserial.",
         "commit_message": "re README +++4",
-        "commit_date": "2024-05-16 09:29:46",
+        "commit_date": "2024-05-19 10:26:07",
         "release_date": "2024-05-16 03:25:30",
         "release_message": "#  新增TomcatJdbc路由\r\n\r\n参考：\r\n- https://tttang.com/archive/1405/#toc_groovyclassloader\r\n- https://xz.aliyun.com/t/10656?time__1311=mq%2BxBDy7G%3DLOD%2FD0DoY4AKqiKD%3DOQjqx&alichlgref=https%3A%2F%2Ftttang.com%2F"
     },
@@ -27070,7 +27070,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "20.102.46.215属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "52.237.132.116属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
@@ -27512,7 +27512,7 @@
     },
     "http://www.66zan.cn/rc4encrypt/": {
         "status_code": 200,
-        "description": ""
+        "description": "在线RC4加密,RC4解密工具-在线工具箱"
     },
     "https://330k.github.io/misc_tools/unicode_steganography.html": {
         "status_code": 200,
@@ -27528,7 +27528,7 @@
     },
     "http://www.66zan.cn/aesencrypt/": {
         "status_code": 200,
-        "description": ""
+        "description": "AES加解密工具,AES加密解密在线工具-在线工具箱"
     },
     "https://www.sojson.com/encrypt_des.html": {
         "status_code": 200,
@@ -27540,15 +27540,15 @@
     },
     "http://www.66zan.cn/tripledes/": {
         "status_code": 200,
-        "description": ""
+        "description": "在线TripleDES加密,TripleDES解密工具-在线工具箱"
     },
     "http://www.66zan.cn/desencrypt/": {
         "status_code": 200,
-        "description": ""
+        "description": "在线DES加密,DES解密工具-在线工具箱"
     },
     "http://www.66zan.cn/rabbitencrypt/": {
         "status_code": 200,
-        "description": ""
+        "description": "在线Rabbit加密,Rabbit解密工具-在线工具箱"
     },
     "https://yuanfux.github.io/zero-width-web/": {
         "status_code": 200,
@@ -27651,8 +27651,8 @@
     "https://github.com/Leon406/ToolsFx": {
         "created_at": "2024-04-29 03:16:29",
         "description": "基于kotlin+tornadoFx的跨平台密码学工具箱.包含编解码,编码转换,加解密, 哈希,MAC,签名,大数运算,压缩,二维码功能,ctf等实用功能,支持插件",
-        "commit_message": "fix(deps): update dependency org.seleniumhq.selenium:selenium-java to v4.21.0",
-        "commit_date": "2024-05-17 00:29:51",
+        "commit_message": "fix(deps): update kotlin monorepo to v2",
+        "commit_date": "2024-05-22 00:30:03",
         "release_date": "2024-04-29 12:06:21",
         "release_message": "已开通打赏渠道,入口不会嵌入软件中\r\n想支持作者,可在README或者个人github主页打赏\r\n\r\n再次感谢 naonaonao 师傅支持！\r\n\r\n## What's Changed\r\n* v1.17.0 by @Leon406 in https://github.com/Leon406/ToolsFx/pull/163\r\n* fix(deps): update dependency org.seleniumhq.selenium:selenium-java to v4.13.0 by @renovate in https://github.com/Leon406/ToolsFx/pull/165\r\n* fix(deps): update dependency com.github.luben:zstd-jni to v1.5.5-6 by @renovate in https://github.com/Leon406/ToolsFx/pull/166\r\n* fix(deps): update dependency androidx.collection:collection-ktx to v1.3.0 by @renovate in https://github.com/Leon406/ToolsFx/pull/167\r\n* chore(deps): update dependency gradle to v8.4 by @renovate in https://github.com/Leon406/ToolsFx/pull/168\r\n* fix(deps): update dependency org.mockito:mockito-core to v5.6.0 by @renovate in https://github.com/Leon406/ToolsFx/pull/169\r\n* fix(deps): update dependency org.seleniumhq.selenium:selenium-java to v4.14.0 by @renovate in https://github.com/Leon406/ToolsFx/pull/170\r\n* fix(deps): update dependency org.seleniumhq.selenium:selenium-java to v4.14.1 by @renovate in https://github.com/Leon406/ToolsFx/pull/171\r\n* fix(deps): update dependency org.xerial:sqlite-jdbc to v3.43.2.0 by @renovate in https://github.com/Leon406/ToolsFx/pull/172\r\n* fix(deps): update dependency org.xerial:sqlite-jdbc to v3.43.2.1 by @renovate in https://github.com/Leon406/ToolsFx/pull/173\r\n* fix(deps): update dependency org.jsoup:jsoup to v1.16.2 by @renovate in https://github.com/Leon406/ToolsFx/pull/174\r\n* fix(deps): update dependency org.jetbrains.kotlin:kotlin-reflect to v1.9.20 by @renovate in https://github.com/Leon406/ToolsFx/pull/177\r\n* fix(deps): update dependency org.xerial:sqlite-jdbc to v3.43.2.2 by @renovate in https://github.com/Leon406/ToolsFx/pull/176\r\n* fix(deps): update dependency com.github.luben:zstd-jni to v1.5.5-7 by @renovate in https://github.com/Leon406/ToolsFx/pull/175\r\n* chore(deps): update detektver to v1.23.3 by @renovate in https://github.com/Leon406/ToolsFx/pull/178\r\n* fix(deps): update dependency com.github.luben:zstd-jni to v1.5.5-9 by @renovate in https://github.com/Leon406/ToolsFx/pull/179\r\n* fix(deps): update dependency com.github.luben:zstd-jni to v1.5.5-10 by @renovate in https://github.com/Leon406/ToolsFx/pull/180\r\n* fix(deps): update dependency org.seleniumhq.selenium:selenium-java to v4.15.0 by @renovate in https://github.com/Leon406/ToolsFx/pull/181\r\n* fix(deps): update dependency org.mockito:mockito-core to v5.7.0 by @renovate in https://github.com/Leon406/ToolsFx/pull/182\r\n* fix(deps): update dependency dnsjava:dnsjava to v3.5.3 by @renovate in https://github.com/Leon406/ToolsFx/pull/183\r\n* fix(deps): update dependency cn.hutool:hutool-all to v5.8.23 by @renovate in https://github.com/Leon406/ToolsFx/pull/184\r\n* fix(deps): update dependency org.xerial:sqlite-jdbc to v3.44.0.0 by @renovate in https://github.com/Leon406/ToolsFx/pull/185\r\n* fix(deps): update dependency org.bouncycastle:bcprov-jdk18on to v1.77 by @renovate in https://github.com/Leon406/ToolsFx/pull/186\r\n* fix(deps): update dependency org.jetbrains.kotlinx:kotlinx-serialization-json to v1.6.1 by @renovate in https://github.com/Leon406/ToolsFx/pull/187\r\n* fix(deps): update dependency org.apache.commons:commons-compress to v1.25.0 by @renovate in https://github.com/Leon406/ToolsFx/pull/188\r\n* fix(deps): update kotlin monorepo to v1.9.21 by @renovate in https://github.com/Leon406/ToolsFx/pull/189\r\n* chore(deps): update detektver to v1.23.4 by @renovate in https://github.com/Leon406/ToolsFx/pull/190\r\n* fix(deps): update dependency org.xerial:sqlite-jdbc to v3.44.1.0 by @renovate in https://github.com/Leon406/ToolsFx/pull/191\r\n* fix(deps): update dependency org.jsoup:jsoup to v1.17.1 by @renovate in https://github.com/Leon406/ToolsFx/pull/192\r\n* chore(deps): update actions/setup-java action to v4 by @renovate in https://github.com/Leon406/ToolsFx/pull/194\r\n* chore(deps): update dependency gradle to v8.5 by @renovate in https://github.com/Leon406/ToolsFx/pull/193\r\n* fix(deps): update dependency org.jetbrains.kotlinx:kotlinx-serialization-json to v1.6.2 by @renovate in https://github.com/Leon406/ToolsFx/pull/195\r\n* fix(deps): update dependency com.github.luben:zstd-jni to v1.5.5-11 by @renovate in https://github.com/Leon406/ToolsFx/pull/196\r\n* fix(deps): update dependency org.mockito:mockito-core to v5.8.0 by @renovate in https://github.com/Leon406/ToolsFx/pull/197\r\n* chore(deps): update dependency com.diffplug.spotless to v6.23.2 by @renovate in https://github.com/Leon406/ToolsFx/pull/198\r\n* chore(deps): update dependency com.diffplug.spotless to v6.23.3 by @renovate in https://github.com/Leon406/ToolsFx/pull/199\r\n* fix(deps): update dependency org.seleniumhq.selenium:selenium-java to v4.16.0 by @renovate in https://github.com/Leon406/ToolsFx/pull/200\r\n* fix(deps): update dependency org.seleniumhq.selenium:selenium-java to v4.16.1 by @renovate in https://github.com/Leon406/ToolsFx/pull/201\r\n* fix(deps): update dependency net.java.dev.jna:jna-platform to v5.14.0 by @renovate in https://github.com/Leon406/ToolsFx/pull/202\r\n* chore(deps): update github/codeql-action action to v3 by @renovate in https://github.com/Leon406/ToolsFx/pull/203\r\n* chore(deps): update actions/upload-artifact action to v4 by @renovate in https://github.com/Leon406/ToolsFx/pull/204\r\n* fix(deps): update dependency org.javassist:javassist to v3.30.1-ga by @renovate in https://github.com/Leon406/ToolsFx/pull/205\r\n* fix(deps): update dependency org.java-websocket:java-websocket to v1.5.5 by @renovate in https://github.com/Leon406/ToolsFx/pull/206\r\n* fix(deps): update kotlin monorepo to v1.9.22 by @renovate in https://github.com/Leon406/ToolsFx/pull/207\r\n* fix(deps): update dependency cn.hutool:hutool-all to v5.8.24 by @renovate in https://github.com/Leon406/ToolsFx/pull/208\r\n* fix(deps): update dependency org.javassist:javassist to v3.30.2-ga by @renovate in https://github.com/Leon406/ToolsFx/pull/209\r\n* fix(deps): update dependency org.jsoup:jsoup to v1.17.2 by @renovate in https://github.com/Leon406/ToolsFx/pull/210\r\n* fix(deps): update dependency cn.hutool:hutool-all to v5.8.25 by @renovate in https://github.com/Leon406/ToolsFx/pull/211\r\n* fix(deps): update dependency org.mockito:mockito-core to v5.9.0 by @renovate in https://github.com/Leon406/ToolsFx/pull/212\r\n* chore(deps): update dependency com.diffplug.spotless to v6.24.0 by @renovate in https://github.com/Leon406/ToolsFx/pull/213\r\n* chore(deps): update actions/cache action to v4 by @renovate in https://github.com/Leon406/ToolsFx/pull/214\r\n* fix(deps): update dependency org.xerial:sqlite-jdbc to v3.45.0.0 by @renovate in https://github.com/Leon406/ToolsFx/pull/215\r\n* chore(deps): update dependency com.diffplug.spotless to v6.25.0 by @renovate in https://github.com/Leon406/ToolsFx/pull/216\r\n* fix(deps): update dependency org.seleniumhq.selenium:selenium-java to v4.17.0 by @renovate in https://github.com/Leon406/ToolsFx/pull/217\r\n* fix(deps): update dependency org.mockito:mockito-core to v5.10.0 by @renovate in https://github.com/Leon406/ToolsFx/pull/219\r\n* fix(deps): update dependency androidx.collection:collection-ktx to v1.4.0 by @renovate in https://github.com/Leon406/ToolsFx/pull/218\r\n* fix(deps): update dependency com.google.zxing:javase to v3.5.3 by @renovate in https://github.com/Leon406/ToolsFx/pull/223\r\n* fix(deps): update dependency org.xerial:sqlite-jdbc to v3.45.1.0 by @renovate in https://github.com/Leon406/ToolsFx/pull/224\r\n* chore(deps): update detektver to v1.23.5 by @renovate in https://github.com/Leon406/ToolsFx/pull/225\r\n* chore(deps): update dependency gradle to v8.6 by @renovate in https://github.com/Leon406/ToolsFx/pull/226\r\n* fix(deps): update dependency org.java-websocket:java-websocket to v1.5.6 by @renovate in https://github.com/Leon406/ToolsFx/pull/227\r\n* fix(deps): update dependency cn.hutool:hutool-all to v5.8.26 by @renovate in https://github.com/Leon406/ToolsFx/pull/228\r\n* fix(deps): update coroutinever to v1.8.0 by @renovate in https://github.com/Leon406/ToolsFx/pull/229\r\n* fix(deps): update dependency org.jetbrains.kotlinx:kotlinx-serialization-json to v1.6.3 by @renovate in https://github.com/Leon406/ToolsFx/pull/230\r\n* fix(deps): update dependency org.apache.commons:commons-compress to v1.26.0 by @renovate in https://github.com/Leon406/ToolsFx/pull/231\r\n* fix(deps): update dependency org.seleniumhq.selenium:selenium-java to v4.18.0 by @renovate in https://github.com/Leon406/ToolsFx/pull/232\r\n* fix(deps): update dependency org.seleniumhq.selenium:selenium-java to v4.18.1 by @renovate in https://github.com/Leon406/ToolsFx/pull/233\r\n* fix(deps): update dependency org.mockito:mockito-core to v5.11.0 by @renovate in https://github.com/Leon406/ToolsFx/pull/234\r\n* fix(deps): update kotlin monorepo to v1.9.23 by @renovate in https://github.com/Leon406/ToolsFx/pull/235\r\n* fix(deps): update dependency org.apache.commons:commons-compress to v1.26.1 by @renovate in https://github.com/Leon406/ToolsFx/pull/236\r\n* fix(deps): update dependency org.xerial:sqlite-jdbc to v3.45.2.0 by @renovate in https://github.com/Leon406/ToolsFx/pull/237\r\n* chore(deps): update dependency gradle to v8.7 by @renovate in https://github.com/Leon406/ToolsFx/pull/238\r\n* chore(deps): update detektver to v1.23.6 by @renovate in https://github.com/Leon406/ToolsFx/pull/239\r\n* fix(deps): update dependency com.github.luben:zstd-jni to v1.5.6-1 by @renovate in https://github.com/Leon406/ToolsFx/pull/241\r\n* fix(deps): update dependency org.seleniumhq.selenium:selenium-java to v4.19.0 - autoclosed by @renovate in https://github.com/Leon406/ToolsFx/pull/240\r\n* fix(deps): update dependency cn.hutool:hutool-all to v5.8.27 by @renovate in https://github.com/Leon406/ToolsFx/pull/242\r\n* fix(deps): update dependency org.seleniumhq.selenium:selenium-java to v4.19.1 by @renovate in https://github.com/Leon406/ToolsFx/pull/243\r\n* fix(deps): update dependency com.github.luben:zstd-jni to v1.5.6-2 by @renovate in https://github.com/Leon406/ToolsFx/pull/244\r\n* fix(deps): update dependency org.bouncycastle:bcprov-jdk18on to v1.78 by @renovate in https://github.com/Leon406/ToolsFx/pull/245\r\n* fix(deps): update dependency org.xerial:sqlite-jdbc to v3.45.3.0 by @renovate in https://github.com/Leon406/ToolsFx/pull/247\r\n* fix(deps): update dependency org.bouncycastle:bcprov-jdk18on to v1.78.1 by @renovate in https://github.com/Leon406/ToolsFx/pull/249\r\n* fix(deps): update dependency com.github.luben:zstd-jni to v1.5.6-3 by @renovate in https://github.com/Leon406/ToolsFx/pull/250\r\n* fix(deps): update dependency org.seleniumhq.selenium:selenium-java to v4.20.0 by @renovate in https://github.com/Leon406/ToolsFx/pull/251\r\n\r\n\r\n**Full Changelog**: https://github.com/Leon406/ToolsFx/compare/v1.17.0...v1.18.0"
     },
