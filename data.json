@@ -3839,8 +3839,8 @@
     "https://github.com/neuvector/neuvector": {
         "created_at": "2024-04-08 17:28:21",
         "description": null,
-        "commit_message": "Merge pull request #1342 from jayhuang-suse/nine\n\nNVSHAS-9026: dup and missing .NET module name",
-        "commit_date": "2024-05-17 20:38:47",
+        "commit_message": "Merge pull request #1340 from jayhuang-suse/five\n\nNVSHAS-9011: \"Container list is empty\" error happen in enforcer pod in GKE+Cilium cluster",
+        "commit_date": "2024-05-21 18:59:21",
         "release_date": "2024-04-08 17:57:52",
         "release_message": "**Full Changelog**: https://github.com/neuvector/neuvector/compare/v5.3.1...v5.3.2"
     },
@@ -3864,8 +3864,8 @@
     "https://github.com/chaitin/safeline": {
         "created_at": "2024-05-17 04:19:16",
         "description": "一款足够简单、足够好用、足够强的免费 WAF。基于业界领先的语义引擎检测技术，作为反向代理接入，保护你的网站不受黑客攻击。 A free WAF that is sufficiently simple, effective, and powerful. Utilizing industry-leading semantic engine detection technology, it operates as a reverse proxy to protect your website from hacker attacks.",
-        "commit_message": "feat: 5.6.1",
-        "commit_date": "2024-05-17 04:42:25",
+        "commit_message": "Merge pull request #882 from awesomeYG/main\n\ntext: 负载均衡",
+        "commit_date": "2024-05-21 09:42:30",
         "release_date": "2024-05-17 04:40:26",
         "release_message": "### 修复\r\n* 修复申请 acme 免费证书失败的问题"
     },
@@ -3914,18 +3914,18 @@
         "release_message": "## Network Flight Simulator v2.5.0 (2023-07-31)\r\n\r\nThis release add a new `cleartext` module, which generates random cleartext traffic on some common ports.\r\n\r\n## Enjoy!\r\n\r\n"
     },
     "https://github.com/aquasecurity/trivy": {
-        "created_at": "2024-05-04 05:34:54",
+        "created_at": "2024-05-20 05:47:05",
         "description": "Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more",
-        "commit_message": "fix(misconf): don't shift ignore rule related to code (#6708)",
-        "commit_date": "2024-05-17 20:53:59",
-        "release_date": "2024-05-04 07:24:01",
-        "release_message": "## Changelog\n* 8016b821a fix(fs): handle default skip dirs properly (#6628)\n* 7a25dadb4 fix(misconf): load cached tf modules (#6607)\n* 9c794c0ff fix(misconf): do not use semver for parsing tf module versions (#6614)\n\n"
+        "commit_message": "feat(nodejs): add v9 pnpm lock file support (#6617)",
+        "commit_date": "2024-05-21 11:23:26",
+        "release_date": "2024-05-20 06:35:43",
+        "release_message": "## Changelog\n* eadc6fb64 fix: node-collector high and critical cves (#6707)\n* cc489b1af Merge pull request from GHSA-xcq4-m2r3-cmrj\n* 013f71a6a chore: auto-bump golang patch versions (#6711)\n* 113a5b216 fix(misconf): don't shift ignore rule related to code (#6708)\n* 733e5ac1f fix(go): include only `.version`|`.ver` (no prefixes) ldflags for `gobinaries` (#6705)\n* d311e49bc fix(go): add only non-empty root modules for `gobinaries` (#6710)\n* cf1a7bf30 refactor: unify package addition and vulnerability scanning (#6579)\n* d465d9d1e fix: Golang version parsing from binaries w/GOEXPERIMENT (#6696)\n* 0af225ccf fix(conda): add support `pip` deps for `environment.yml` files (#6675)\n* 6f64d5518 fix(misconf): skip Rego errors with a nil location (#6666)\n* 8c27430a2 fix(misconf): skip Rego errors with a nil location (#6638)\n* c2b46d3c2 refactor: unify Library and Package structs (#6633)\n* 4368f11e0 fix: use of specified context to obtain cluster name (#6645)\n* 5ec62f863 docs: fix usage of image-config-scanners (#6635)\n\n"
     },
     "https://github.com/anchore/grype": {
         "created_at": "2024-05-09 20:41:38",
         "description": "A vulnerability scanner for container images and filesystems",
-        "commit_message": "chore(deps): update tools to latest versions (#1862)\n\nSigned-off-by: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>\r\nCo-authored-by: westonsteimel <1593939+westonsteimel@users.noreply.github.com>",
-        "commit_date": "2024-05-14 15:27:55",
+        "commit_message": "disable TUI for simpler commands (#1872)\n\nSigned-off-by: Alex Goodman <wagoodman@users.noreply.github.com>",
+        "commit_date": "2024-05-21 15:17:33",
         "release_date": "2024-05-09 20:49:23",
         "release_message": "### Additional Changes\n\n- update Syft to v1.4.1 [[#1855](https://github.com/anchore/grype/pull/1855) @anchore-actions-token-generator]\n\n**[(Full Changelog)](https://github.com/anchore/grype/compare/v0.77.3...v0.77.4)**\n\n"
     },
@@ -6109,7 +6109,7 @@
         "release_message": "新增飞书API利用。"
     },
     "https://github.com/RuoJi6/HackerPermKeeper": {
-        "created_at": "2024-03-05 05:39:49",
+        "created_at": "2023-07-19 03:23:21",
         "description": "权限维持",
         "commit_message": "Update README.md",
         "commit_date": "2024-04-23 07:06:42",
@@ -12881,7 +12881,7 @@
         "created_at": "2011-08-30 06:13:20",
         "description": "Metasploit Framework",
         "commit_message": "automatic module_metadata_base.json update",
-        "commit_date": "2024-05-17 22:07:16"
+        "commit_date": "2024-05-21 19:15:48"
     },
     "https://github.com/PowerDNS/pdns": {
         "created_at": "2013-04-26 11:16:49",
@@ -12895,8 +12895,8 @@
     "https://github.com/volatilityfoundation/volatility3": {
         "created_at": "2024-01-31 21:21:20",
         "description": "Volatility 3.0 development",
-        "commit_message": "Merge pull request #1145 from volatilityfoundation/handles_bad_read_check\n\nCorrectly check for a failed read",
-        "commit_date": "2024-05-09 21:37:15",
+        "commit_message": "Merge pull request #1147 from eve-mem/windows_handles_debug_logging\n\nWindows: add extra debugging messages to handles plugin",
+        "commit_date": "2024-05-16 22:09:24",
         "release_date": "2024-01-31 21:35:24",
         "release_message": "* New Layers:\r\n  * Amazon S3 support\r\n  * Google Cloud Storage support\r\n* New plugins:\r\n  * `linux.vmayarascan`\r\n  * `windows.mftscan.ads`\r\n* New features:\r\n  * Dumping of Elf files added to the `elfs` plugin\r\n* Improvements to ELF support\r\n* Bugfixes to registry support\r\n* Documentation improvements\r\n* Better support for remote ISF directories"
     },
@@ -27070,7 +27070,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "52.237.132.116属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "52.159.137.225属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
@@ -27512,7 +27512,7 @@
     },
     "http://www.66zan.cn/rc4encrypt/": {
         "status_code": 200,
-        "description": "在线RC4加密,RC4解密工具-在线工具箱"
+        "description": ""
     },
     "https://330k.github.io/misc_tools/unicode_steganography.html": {
         "status_code": 200,
@@ -27528,7 +27528,7 @@
     },
     "http://www.66zan.cn/aesencrypt/": {
         "status_code": 200,
-        "description": "AES加解密工具,AES加密解密在线工具-在线工具箱"
+        "description": ""
     },
     "https://www.sojson.com/encrypt_des.html": {
         "status_code": 200,
@@ -27540,15 +27540,15 @@
     },
     "http://www.66zan.cn/tripledes/": {
         "status_code": 200,
-        "description": "在线TripleDES加密,TripleDES解密工具-在线工具箱"
+        "description": ""
     },
     "http://www.66zan.cn/desencrypt/": {
         "status_code": 200,
-        "description": "在线DES加密,DES解密工具-在线工具箱"
+        "description": ""
     },
     "http://www.66zan.cn/rabbitencrypt/": {
         "status_code": 200,
-        "description": "在线Rabbit加密,Rabbit解密工具-在线工具箱"
+        "description": ""
     },
     "https://yuanfux.github.io/zero-width-web/": {
         "status_code": 200,
@@ -28153,5 +28153,13 @@
         "description": "A post-exploitation powershell tool for extracting juicy info from memory.",
         "commit_message": "Merge pull request #19 from paralax/patch-1\n\nfix a couple of spelling typos",
         "commit_date": "2020-10-16 01:20:28"
+    },
+    "https://github.com/XiLitter/Tp_Attack_GUI": {
+        "created_at": "2024-05-16 07:58:56",
+        "description": "自研的利用JavaFX技术编写的针对于Thinkphp框架的图形化漏洞扫描工具，漏洞包括多版本的命令执行和日志泄露",
+        "commit_message": "Update README.md",
+        "commit_date": "2024-05-16 07:58:56",
+        "release_date": "2024-05-16 09:37:32",
+        "release_message": "注意exe可执行文件在当前目录下运行"
     }
 }
