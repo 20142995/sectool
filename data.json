@@ -9,7 +9,7 @@
         "release_message": ""
     },
     "https://github.com/wjl110/CVE-Master": {
-        "created_at": "2022-09-17 02:49:35",
+        "created_at": "2022-09-18 14:43:11",
         "description": "收集本人自接触渗透测试用于漏洞验证的所有热门CVE、POC、CNVD攻击有效载荷+测试工具+FUZZ,一个仓库满足许多攻击测试场景,开箱即用.",
         "commit_date": "2022-09-18 14:43:11",
         "commit_message": "Create CNAME",
@@ -131,7 +131,7 @@
         "release_message": ""
     },
     "https://github.com/euphrat1ca/LayerDomainFinder": {
-        "created_at": "2019-07-17 07:34:49",
+        "created_at": "2019-07-17 07:46:03",
         "description": "Layer子域名挖掘机",
         "commit_date": "2019-07-17 07:46:03",
         "commit_message": "1\n\n1",
@@ -421,9 +421,9 @@
         "release_message": ""
     },
     "https://github.com/xiao-zhu-zhu/noterce": {
-        "created_at": "2023-01-31 07:56:29",
+        "created_at": "2023-04-28 15:11:22",
         "description": "一种另辟蹊径的免杀执行系统命令的木马",
-        "commit_date": "2023-05-10 10:30:39",
+        "commit_date": "2023-12-04 09:08:31",
         "commit_message": "Update README.md",
         "release_tag": "1.3",
         "release_date": "2023-05-10 06:48:26",
@@ -819,7 +819,7 @@
         "release_message": "Support NPM lockfile v3 "
     },
     "https://github.com/blackarrowsec/mssqlproxy": {
-        "created_at": "2020-02-12 08:44:28",
+        "created_at": "2020-02-13 11:00:30",
         "description": "mssqlproxy is a toolkit aimed to perform lateral movement in restricted environments through a compromised Microsoft SQL Server via socket reuse",
         "commit_date": "2020-08-13 11:53:38",
         "commit_message": "Update README.md",
@@ -882,13 +882,13 @@
         "release_message": ""
     },
     "https://github.com/AabyssZG/CRC32-Tools": {
-        "created_at": "2022-09-18 12:09:14",
+        "created_at": "2023-11-10 02:41:39",
         "description": "Easy CRC32 Tools，so easy！！！",
-        "commit_date": "2023-02-01 01:39:12",
+        "commit_date": "2023-11-10 02:46:09",
         "commit_message": "Update README.md",
         "release_tag": "2.2",
-        "release_date": "2022-09-21 02:50:16",
-        "release_message": "# 更新日志\r\n## 更新内容\r\n- 原本的单文件版，放置于/SingleFile_Version目录，按需自取\r\n- 更新了单脚本整合版，支持Tab补全文件名，更加方便操作\r\n- 更新了文件检测，对于不存在的文件或者无法解读的压缩包进行函数跳出并输出错误\r\n\r\n单脚本整合版即本项目的CRC32-Tools.py，将多个功能整合到一个Python脚本中，脚本参数如下：\r\n```\r\n>python3 CRC32-Tools.py -h\r\nusage: CRC32-Tools.py [-h] [-z READZIP] [-1 ONEBYTE] [-2 TWOBYTE] [-3 THREEBYTE] [-4 FOURBYTE]\r\n\r\noptional arguments:\r\n  -h, --help    show this help message and exit\r\n  -z READZIP    读取对应压缩包，输出各个文件CRC值列表\r\n  -1 ONEBYTE    对1Byte的压缩包自动进行CRC碰撞并输出文件内容\r\n  -2 TWOBYTE    对2Byte的压缩包自动进行CRC碰撞并输出文件内容\r\n  -3 THREEBYTE  对3Byte的压缩包自动进行CRC碰撞并输出文件内容\r\n  -4 FOURBYTE   对4Byte的压缩包自动进行CRC碰撞并输出文件内容\r\n```\r\n"
+        "release_date": "2023-11-10 02:43:50",
+        "release_message": "# 更新日志\r\n## 更新内容\r\n\r\n- 优化了单脚本整合版的工作流程，大大缩短CRC爆破的时间\r\n- 对异常退出和报错做出优化处理\r\n\r\n## 使用方法\r\n单脚本整合版即本项目的CRC32-Tools.py，将多个功能整合到一个Python脚本中，脚本参数如下：\r\n```\r\n>python3 CRC32-Tools.py -h\r\nusage: CRC32-Tools.py [-h] [-z READZIP] [-1 ONEBYTE] [-2 TWOBYTE] [-3 THREEBYTE] [-4 FOURBYTE]\r\n\r\noptional arguments:\r\n  -h, --help    show this help message and exit\r\n  -z READZIP    读取对应压缩包，输出各个文件CRC值列表\r\n  -1 ONEBYTE    对1Byte的压缩包自动进行CRC碰撞并输出文件内容\r\n  -2 TWOBYTE    对2Byte的压缩包自动进行CRC碰撞并输出文件内容\r\n  -3 THREEBYTE  对3Byte的压缩包自动进行CRC碰撞并输出文件内容\r\n  -4 FOURBYTE   对4Byte的压缩包自动进行CRC碰撞并输出文件内容\r\n```\r\n"
     },
     "https://github.com/Tsojan/TsojanScan": {
         "created_at": "2022-12-18 15:36:54",
@@ -2961,7 +2961,7 @@
         "release_message": ""
     },
     "https://github.com/SummerSec/SpringExploit": {
-        "created_at": "2022-04-19 03:48:27",
+        "created_at": "2022-06-14 12:19:44",
         "description": "🚀 一款为了学习go而诞生的漏洞利用工具",
         "commit_date": "2022-06-14 12:28:15",
         "commit_message": "🎆 Update CHANGELOG",
@@ -3541,8 +3541,8 @@
     "https://github.com/yzddmr6/As-Exploits": {
         "created_at": "2020-11-12 01:28:37",
         "description": "中国蚁剑后渗透框架",
-        "commit_date": "2021-08-09 12:58:00",
-        "commit_message": "update domain",
+        "commit_date": "2024-01-18 09:16:04",
+        "commit_message": "内存马管理增加兼容性",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -11333,7 +11333,7 @@
         "release_message": "Universal PatchGuard and Driver Signature Enforcement Disable"
     },
     "https://github.com/s0md3v/XSStrike": {
-        "created_at": "2017-06-26 07:24:44",
+        "created_at": "2019-12-19 20:47:35",
         "description": "Most advanced XSS scanner.",
         "commit_date": "2022-03-20 10:19:57",
         "commit_message": "update",
@@ -13676,7 +13676,7 @@
         "release_message": ""
     },
     "https://github.com/theLSA/emergency-response-checklist": {
-        "created_at": "2020-01-31 14:01:20",
+        "created_at": "2020-01-31 14:02:36",
         "description": "应急响应指南 / emergency response checklist",
         "commit_date": "2020-03-13 05:22:16",
         "commit_message": "update img links",
@@ -19992,7 +19992,7 @@
         "commit_message": "更新 README.md"
     },
     "https://github.com/yumusb/DNSLog-Platform-Golang": {
-        "created_at": "2021-02-01 14:04:06",
+        "created_at": "2021-12-14 05:47:16",
         "description": "DNSLOG平台 golang",
         "release_tag": "v0.3",
         "release_date": "2021-12-14 06:03:18",
@@ -20080,7 +20080,7 @@
         "release_message": ""
     },
     "https://github.com/huntergregal/mimipenguin": {
-        "created_at": "2017-03-28 21:24:28",
+        "created_at": "2019-09-17 19:47:51",
         "description": "A tool to dump the login password from the current linux user",
         "release_tag": "2.0-release",
         "release_date": "2019-09-17 19:56:01",
@@ -20089,7 +20089,7 @@
         "commit_message": "Merge pull request #52 from bcoles/patch-3\n\nUpdate README.md"
     },
     "https://github.com/DeEpinGh0st/Erebus": {
-        "created_at": "2019-09-26 09:32:00",
+        "created_at": "2021-06-07 08:04:13",
         "description": "CobaltStrike后渗透测试插件",
         "release_tag": "V1.3.6",
         "release_date": "2021-06-07 08:08:22",
@@ -22402,7 +22402,7 @@
         "release_message": ""
     },
     "https://github.com/b1ackc4t/MarsCTF": {
-        "created_at": "2022-06-05 11:32:47",
+        "created_at": "2022-08-09 09:56:56",
         "description": "Vue+Springboot开发的CTF学习平台，提供动态靶机、学习模块、writeup模块等等CTF平台的核心功能。提供docker版本",
         "commit_date": "2022-08-09 12:20:31",
         "commit_message": "调整一些默认配置",
@@ -24410,8 +24410,8 @@
         "description": "魅族安全中心"
     },
     "https://sec.vip.com/": {
-        "status_code": 200,
-        "description": "VSRC首页-唯品会信息安全中心"
+        "status_code": 503,
+        "description": ""
     },
     "https://sec.wacai.com/": {
         "status_code": 200,
@@ -27070,7 +27070,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "20.81.158.162属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "172.183.122.243属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
@@ -27512,7 +27512,7 @@
     },
     "http://www.66zan.cn/rc4encrypt/": {
         "status_code": 200,
-        "description": ""
+        "description": "在线RC4加密,RC4解密工具-在线工具箱"
     },
     "https://330k.github.io/misc_tools/unicode_steganography.html": {
         "status_code": 200,
@@ -27528,7 +27528,7 @@
     },
     "http://www.66zan.cn/aesencrypt/": {
         "status_code": 200,
-        "description": ""
+        "description": "AES加解密工具,AES加密解密在线工具-在线工具箱"
     },
     "https://www.sojson.com/encrypt_des.html": {
         "status_code": 200,
@@ -27540,15 +27540,15 @@
     },
     "http://www.66zan.cn/tripledes/": {
         "status_code": 200,
-        "description": ""
+        "description": "在线TripleDES加密,TripleDES解密工具-在线工具箱"
     },
     "http://www.66zan.cn/desencrypt/": {
         "status_code": 200,
-        "description": ""
+        "description": "在线DES加密,DES解密工具-在线工具箱"
     },
     "http://www.66zan.cn/rabbitencrypt/": {
         "status_code": 200,
-        "description": ""
+        "description": "在线Rabbit加密,Rabbit解密工具-在线工具箱"
     },
     "https://yuanfux.github.io/zero-width-web/": {
         "status_code": 200,
