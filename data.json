@@ -363,7 +363,7 @@
     "https://github.com/wyzxxz/heapdump_tool": {
         "created_at": "2021-08-06 02:48:31",
         "description": "heapdump敏感信息查询工具，例如查找 spring heapdump中的密码明文，AK,SK等",
-        "commit_date": "2023-11-07 10:53:08",
+        "commit_date": "2024-05-21 02:55:38",
         "commit_message": "Update README.md",
         "release_tag": "",
         "release_date": "",
@@ -1461,7 +1461,7 @@
         "release_message": ""
     },
     "https://github.com/lcvvvv/kscan": {
-        "created_at": "2021-01-25 02:15:36",
+        "created_at": "2022-10-30 14:41:09",
         "description": "Kscan是一款纯go开发的全方位扫描器，具备端口扫描、协议检测、指纹识别，暴力破解等功能。支持协议1200+，协议指纹10000+，应用指纹20000+，暴力破解协议10余种。",
         "commit_date": "2023-08-22 10:45:48",
         "commit_message": "Update README.md",
@@ -1835,12 +1835,12 @@
         "release_message": "analysis all proxy traffic to find subdomain\\similar-domain of your target automatically. reduce usage of \"search\" button.\r\n自动分析所有Proxy中的流量，提取你配置目标中的子域名和相似域名。减少手动search的必要"
     },
     "https://github.com/f0ng/captcha-killer-modified": {
-        "created_at": "2024-01-04 04:55:25",
+        "created_at": "2024-05-07 13:12:28",
         "description": "captcha-killer的修改版，支持关键词识别base64编码的图片，添加免费ocr库，用于验证码爆破，适配新版Burpsuite",
-        "commit_message": "Update FAQ.md",
-        "commit_date": "2024-01-08 03:15:25",
-        "release_date": "2024-01-04 05:03:48",
-        "release_message": "【2024-1-4】 0.24.4\r\n- 服务端识别代码增加算术接口，可以进行算术验证码的识别"
+        "commit_message": "Update requirement.txt",
+        "commit_date": "2024-05-11 04:23:43",
+        "release_date": "2024-05-07 13:13:22",
+        "release_message": "【2024-5-7】 0.24.6\r\n1.增加多个接口，建议和最新服务端codereg.py一起使用，接口类型如下：\r\n纯整数0-9\r\n纯小写英文a-z\r\n纯大写英文A-Z\r\n小写英文a-z + 大写英文A-Z\r\n小写英文a-z + 整数0-9\r\n大写英文A-Z + 整数0-9\r\n小写英文a-z + 大写英文A-Z + 整数0-9\r\n自定义字符串库(ranges传参)\r\n"
     },
     "https://github.com/xfiftyone/STS2G": {
         "created_at": "2020-01-17 02:17:24",
@@ -4465,7 +4465,7 @@
         "release_message": "### v3.9.7 Beta Changelog\r\n\r\n- Features or Enhancements\r\n   - iOS Dynamic Analyzer with Corellium\r\n   - Dynamic Analysis refactoring for Android and iOS\r\n   - Exposed iOS Dynamic Analysis REST APIs\r\n   - Added more helper Frida Scripts for Android and iOS Dynamic Analyzer\r\n   - Frida support improvements Injected Frida Code View, Injection, Spawn, Attach and Session\r\n   - Corellium Reverse SSH connection support\r\n   - Enhancements to ARC and Stack Canary Checks in Mach-O Parsing\r\n   - Frida RPC Hooks support\r\n   - Frida Script QA\r\n   - Runtime Executable Tampering Detection\r\n   - iOS Dynamic Analysis REST API Docs\r\n   - Global Datatables Export as PDF, CSV, XLS, Copy and Print\r\n   - Corellium custom host domain support\r\n   - Huge improvements in Static Analysis report generation page rendering for APKs/IPAs with large amount of data by @JPSxzy8 \r\n   -  Scan independent library file (.so, .dylib, Framework dylib) from APK/IPA Static Analysis Report\r\n   -  Library analysis refactored relative path helper for Django template.\r\n   - Re-introduced RELRO checks for Android, added Dart binary check to avoid Flutter false positives.\r\n   - Improved stripped debug symbol check for ELF and MachO using native OS tools such as nm and objdump when available.\r\n   - Merge iOS Framework and Dylib Analysis.\r\n   - SAST Performance improvements\r\n   - Android API Analysis rule QA\r\n   - Apksigner.jar fallback for signature parsing\r\n   - Simplify MobSF `scan` REST API\r\n   - Support for analysis of iOS Frameworks\r\n   - Android SVG icon parsing improvments\r\n   - Icon analysis refactor and support jpeg and webp icons\r\n   - Github action QA\r\n   - iOS merge findings from swift and objective c rules with same rule identifier. Fixes #2287 \r\n   - iOS Binary analysis, sort regex matches. Fixes #2252\r\n   - Framework dylibs with no extensions to skip PIE checks. Fixes #2307\r\n   - Select correct network_security config. Fixes #2049\r\n   - Android Manifest Analysis added support for detecting task hijacking (StrandHogg 1.0 and StrandHogg 2.0) . Fixes #2124\r\n   - Added new manifest analysis rule to warn on apps targeting older Android OS\r\n   - Updated severity of findings\r\n   - UI improvement for AppSec dashboard to show a loader\r\n   - UI changes in Static Analysis to collapse large no of files in API and Code Analysis for better real estate\r\n   - Improved certificate file analysis for android, jar, aar, and iOS\r\n   - AppLink asset json check multithreading performance improvements\r\n   - Code QA and ruleset improvements with ChatGPT\r\n   - Fixes #2324 , Bug in parsing DSA Public Key parameters for fingerprint calculation.\r\n   - AssetLink check QA\r\n   - Remove Androguard dependency use only features required by MobSF\r\n   \r\n - Security\r\n   -  Arbitrary file writes on Windows with apktool fixed\r\n   -  Fixed an LFI reported by @0x33c0unt\r\n   -  Fixed SSRF in AppLinks and Firebase database checks\r\n     \r\n## What's Changed\r\n* Performance Improvements on SAST by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2251\r\n* add apksigner.jar for reading signatures by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2254\r\n* [HOTFIX] add jar by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2255\r\n* Bump Frida to address crash on M1 Mac by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2258\r\n* Simplify Scan API by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2259\r\n* [HOTFIX] iOS Framework Analysis + Multiple Feature QA by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2260\r\n* [HOTFIX] Support webp for icon by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2267\r\n* fixed that the icon cannot be found by @ohyeah521 in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2265\r\n* [HOTFIX] Allow jpeg icons by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2268\r\n* Fix jadx and apktool failure due to JDK changes by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2269\r\n* [HOTFIX][EFR] Priority Bug Fixes by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2275\r\n* update apktool to 2.9.0 by @superpoussin22 in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2278\r\n* Build(deps): Bump django from 4.1.12 to 4.1.13 by @dependabot in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2282\r\n* iOS Dynamic Analysis with Corellium by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2194\r\n* Dynamic Analysis Improvements Android & iOS by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2295\r\n* Dec 2023 QA by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2297\r\n* [HOTFIX] More Android & iOS Frida Scripts by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2299\r\n* [HOTFIX] Android script loading,  frida injected code view, paramiko SSH issues by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2300\r\n* Enhancements to ARC and Stack Canary Checks in Mach-O Parsing by @cpuu in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2284\r\n* [HOTFIX] RPC hook suggestions + Bug Fix by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2301\r\n* update apktool to 2.9.1 by @superpoussin22 in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2304\r\n* [EFR] QA Request by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2306\r\n* Bug Fixes + Improvements by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2307\r\n* ChatGPT Permission Mapping + Improved Description by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2308\r\n* Windows Python tempfile permission error fix by @ohyeah521 in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2309\r\n* Multiple Features Improved or Added by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2310\r\n* Malware Permission Check for Android by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2313\r\n* [HOTFIX] Bug Fix and QA by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2315\r\n* Using multithreading to improve code efficiency by @ohyeah521 in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2319\r\n* GPT Goodness by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2318\r\n* Update SECURITY.md by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2323\r\n* [HOTFIX][SECURITY] Fix an LFI, DSA Pub Key parsing bug and dependencies  by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2326\r\n* Filter out invalid links by @ohyeah521 in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2322\r\n* [SECURITY] Fix Arbitrary file writes on Windows by @superpoussin22 in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2328\r\n* Runtime Exec Tampering Detection, iOS Dynamic REST APIs, Datatables Export  by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2339\r\n* MOBSF_CORELLIUM_API_DOMAIN Update by @HackJJ in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2347\r\n* poetry pyqt5 fixes by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2362\r\n* Remove Androguard dependency use only features required by MobSF by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2363\r\n* Optimize rendering of big lists by @JPSxzy8 in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2351\r\n* Update SECURITY.md by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2364\r\n* Update SECURITY.md by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2365\r\n* Resolve the situation where the function name is bytes by @ohyeah521 in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2367\r\n\r\n## New Contributors\r\n* @cpuu made their first contribution in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2284\r\n* @HackJJ made their first contribution in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2347\r\n* @JPSxzy8 made their first contribution in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2351\r\n\r\n**Full Changelog**: https://github.com/MobSF/Mobile-Security-Framework-MobSF/compare/v3.7.6...v3.9.7"
     },
     "https://github.com/gand3lf/semgrepper": {
-        "created_at": "2022-11-04 08:58:52",
+        "created_at": "2023-04-26 08:25:39",
         "description": "An extension to use Semgrep inside Burp Suite.",
         "commit_date": "2023-08-28 09:28:41",
         "commit_message": "Merge pull request #9 from tghosth/clarify-running\n\nUpdate README.md with tutorial",
@@ -5958,12 +5958,12 @@
         "release_message": "玩得开心师傅们，有新的需求或者问题请在issue中反馈。"
     },
     "https://github.com/zema1/suo5": {
-        "created_at": "2024-01-17 13:29:44",
+        "created_at": "2024-04-28 11:07:36",
         "description": "一款高性能 HTTP 代理隧道工具 | A high-performance http proxy tunneling tool",
-        "commit_message": "feat: release v1.1.0 (#48)",
-        "commit_date": "2024-01-17 13:29:44",
-        "release_date": "2024-01-17 13:31:23",
-        "release_message": "Server 端从这里获取 https://github.com/zema1/suo5/tree/v1.1.0/assets ，不同版本的 Server 端请不要混用，否则会有不兼容连不上的问题\r\n\r\n> 带 gui 的版本是界面版，不带 gui 的为命令行版\r\n> 所有编译由 Github Action 自动构建并自动上传，请放心使用\r\n\r\n\r\n### 新增\r\n\r\n- 增加 `.Net` 内存马支持，感谢 [@dust-life](https://github.com/dust-life) 贡献\r\n\r\n### 修复\r\n\r\n- 修复部分网站 `TLS` 连接失败的问题\r\n- 修复 `TLS` 握手失败时连接未关闭的问题\r\n\r\n### 变更\r\n\r\n- 暂时禁用 `HTTP2` 的支持\r\n"
+        "commit_message": "fix: tls: no renegotiation (#55)",
+        "commit_date": "2024-04-28 11:07:36",
+        "release_date": "2024-04-30 12:02:01",
+        "release_message": "Server 端从这里获取 https://github.com/zema1/suo5/tree/v1.2.0/assets ，不同版本的 Server 端请不要混用，否则会有不兼容连不上的问题\r\n\r\n> 带 gui 的版本是界面版，不带 gui 的为命令行版\r\n> 所有编译由 Github Action 自动构建并自动上传，请放心使用\r\n\r\n### 修复\r\n\r\n- 修复部分网站 `TLS` 连接失败的问题  #55 \r\n- 更新部分依赖至最新版"
     },
     "https://github.com/baogod404/HikvisionDecode": {
         "created_at": "2023-07-04 10:11:00",
@@ -6323,7 +6323,7 @@
         "release_message": ""
     },
     "https://github.com/Ciphey/Ciphey": {
-        "created_at": "2019-07-16 20:20:39",
+        "created_at": "2021-06-06 17:13:18",
         "description": "⚡ Automatically decrypt encryptions without knowing the key or cipher, decode encodings, and crack hashes ⚡",
         "commit_date": "2023-10-12 07:20:40",
         "commit_message": "Merge pull request #773 from PunGrumpy/master\n\nAdded translation Thai language",
@@ -17565,13 +17565,13 @@
         "release_message": ""
     },
     "https://github.com/laramies/theHarvester": {
-        "created_at": "2011-01-01 20:40:15",
+        "created_at": "2024-03-17 20:13:30",
         "description": "E-mails, subdomains and names Harvester - OSINT ",
-        "commit_date": "2023-11-16 01:14:25",
-        "commit_message": "chore(deps-dev): bump pydantic from 2.4.2 to 2.5.1\n\nBumps [pydantic](https://github.com/pydantic/pydantic) from 2.4.2 to 2.5.1.\n- [Release notes](https://github.com/pydantic/pydantic/releases)\n- [Changelog](https://github.com/pydantic/pydantic/blob/main/HISTORY.md)\n- [Commits](https://github.com/pydantic/pydantic/compare/v2.4.2...v2.5.1)\n\n---\nupdated-dependencies:\n- dependency-name: pydantic\n  dependency-type: direct:development\n  update-type: version-update:semver-minor\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>",
+        "commit_date": "2024-05-21 23:27:19",
+        "commit_message": "---\nupdated-dependencies:\n- dependency-name: types-requests\n  dependency-type: direct:development\n  update-type: version-update:semver-minor\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>",
         "release_tag": "4.4.4",
-        "release_date": "2023-09-24 15:44:09",
-        "release_message": "## What's Changed\r\n* Fix typo so hunterhow api key works\r\n* chore(deps): bump fastapi from 0.101.0 to 0.101.1 by @dependabot in https://github.com/laramies/theHarvester/pull/1517\r\n* chore(deps): bump shodan from 1.29.1 to 1.30.0 by @dependabot in https://github.com/laramies/theHarvester/pull/1518\r\n* chore(deps): bump fastapi from 0.101.1 to 0.102.0 by @dependabot in https://github.com/laramies/theHarvester/pull/1526\r\n* chore(deps-dev): bump pydantic from 2.1.1 to 2.3.0 by @dependabot in https://github.com/laramies/theHarvester/pull/1525\r\n* chore(deps-dev): bump mypy from 1.5.0 to 1.5.1 by @dependabot in https://github.com/laramies/theHarvester/pull/1520\r\n* bump wheel from 0.41.1 to 0.41.2 by @dependabot in https://github.com/laramies/theHarvester/pull/1524\r\n* chore(deps): bump setuptools from 68.0.0 to 68.1.2 by @dependabot in https://github.com/laramies/theHarvester/pull/1523\r\n* Replace an inappropriate test expression that is always evaluating to true by @munahaf in https://github.com/laramies/theHarvester/pull/1529\r\n* chore(deps): bump actions/checkout from 3 to 4 by @dependabot in https://github.com/laramies/theHarvester/pull/1531\r\n* chore(deps): bump censys from 2.2.4 to 2.2.5 by @dependabot in https://github.com/laramies/theHarvester/pull/1530\r\n* chore(deps): bump fastapi from 0.102.0 to 0.103.1 by @dependabot in https://github.com/laramies/theHarvester/pull/1532\r\n* chore(deps-dev): bump pytest from 7.4.0 to 7.4.2 by @dependabot in https://github.com/laramies/theHarvester/pull/1535\r\n* chore(deps): bump setuptools from 68.1.2 to 68.2.0 by @dependabot in https://github.com/laramies/theHarvester/pull/1534\r\n* chore(deps): bump black from 23.7.0 to 23.9.1 by @dependabot in https://github.com/laramies/theHarvester/pull/1537\r\n\r\n## New Contributors\r\n* @munahaf made their first contribution in https://github.com/laramies/theHarvester/pull/1529\r\n\r\n**Full Changelog**: https://github.com/laramies/theHarvester/compare/4.4.3...4.4.4"
+        "release_date": "2024-03-17 20:20:19",
+        "release_message": "## Package Maintainer Changes\r\nWe have dropped using pyppeteer and moved to using PlayWright https://playwright.dev/ for the screenshot module\r\n\r\n## Dev Changes:\r\nMoved away from isort,black and flake8 for ruff for linting and formatting as ruff can do all that and more, not to mention is crazy fast.\r\n\r\n## What's Changed\r\n* chore(deps): bump fastapi from 0.109.0 to 0.109.1 in /requirements by @dependabot in https://github.com/laramies/theHarvester/pull/1649\r\n* chore(deps): bump slowapi from 0.1.8 to 0.1.9 by @dependabot in https://github.com/laramies/theHarvester/pull/1651\r\n* chore(deps): bump fastapi from 0.109.1 to 0.109.2 by @dependabot in https://github.com/laramies/theHarvester/pull/1652\r\n* chore(deps-dev): bump pydantic from 2.5.3 to 2.6.1 by @dependabot in https://github.com/laramies/theHarvester/pull/1650\r\n* chore(deps-dev): bump pytest-asyncio from 0.23.4 to 0.23.5 by @dependabot in https://github.com/laramies/theHarvester/pull/1654\r\n* chore(deps): bump netaddr from 0.10.1 to 1.1.0 by @dependabot in https://github.com/laramies/theHarvester/pull/1659\r\n* chore(deps-dev): bump black from 24.1.1 to 24.2.0 by @dependabot in https://github.com/laramies/theHarvester/pull/1656\r\n* chore(deps): bump uvicorn from 0.27.0.post1 to 0.27.1 by @dependabot in https://github.com/laramies/theHarvester/pull/1658\r\n* chore(deps): bump setuptools from 69.0.3 to 69.1.0 by @dependabot in https://github.com/laramies/theHarvester/pull/1655\r\n* chore(deps): bump dnspython from 2.5.0 to 2.6.0 by @dependabot in https://github.com/laramies/theHarvester/pull/1661\r\n* chore(deps): bump aiosqlite from 0.19.0 to 0.20.0 by @dependabot in https://github.com/laramies/theHarvester/pull/1667\r\n* Fix ip-address parsing for IPv6 addresses by @jeffguy in https://github.com/laramies/theHarvester/pull/1670\r\n* chore(deps): bump netaddr from 1.1.0 to 1.2.1 by @dependabot in https://github.com/laramies/theHarvester/pull/1665\r\n* chore(deps): bump dnspython from 2.6.0 to 2.6.1 by @dependabot in https://github.com/laramies/theHarvester/pull/1663\r\n* chore(deps): bump setuptools from 69.1.0 to 69.1.1 by @dependabot in https://github.com/laramies/theHarvester/pull/1668\r\n* chore(deps): bump fastapi from 0.109.2 to 0.110.0 by @dependabot in https://github.com/laramies/theHarvester/pull/1671\r\n* chore(deps-dev): bump pytest from 7.4.4 to 8.0.2 by @dependabot in https://github.com/laramies/theHarvester/pull/1672\r\n* chore(deps): bump python-dateutil from 2.8.2 to 2.9.0.post0 by @dependabot in https://github.com/laramies/theHarvester/pull/1674\r\n* chore(deps): bump playwright from 1.41.2 to 1.42.0 by @dependabot in https://github.com/laramies/theHarvester/pull/1676\r\n* chore(deps-dev): bump ruff from 0.3.0 to 0.3.1 by @dependabot in https://github.com/laramies/theHarvester/pull/1677\r\n* chore(deps-dev): bump pytest from 8.0.2 to 8.1.1 by @dependabot in https://github.com/laramies/theHarvester/pull/1687\r\n* chore(deps-dev): bump types-requests from 2.31.0.6 to 2.31.0.20240311 by @dependabot in https://github.com/laramies/theHarvester/pull/1686\r\n* chore(deps-dev): bump ruff from 0.3.1 to 0.3.2 by @dependabot in https://github.com/laramies/theHarvester/pull/1682\r\n* chore(deps-dev): bump mypy from 1.8.0 to 1.9.0 by @dependabot in https://github.com/laramies/theHarvester/pull/1680\r\n* chore(deps-dev): bump types-python-dateutil from 2.8.19.20240106 to 2.8.19.20240311 by @dependabot in https://github.com/laramies/theHarvester/pull/1685\r\n* chore(deps): bump uvicorn from 0.27.1 to 0.28.0 by @dependabot in https://github.com/laramies/theHarvester/pull/1681\r\n* chore(deps-dev): bump types-pyyaml from 6.0.12.12 to 6.0.12.20240311 by @dependabot in https://github.com/laramies/theHarvester/pull/1684\r\n* chore(deps-dev): bump wheel from 0.42.0 to 0.43.0 by @dependabot in https://github.com/laramies/theHarvester/pull/1683\r\n* chore(deps-dev): bump pytest-asyncio from 0.23.5 to 0.23.5.post1 by @dependabot in https://github.com/laramies/theHarvester/pull/1679\r\n* chore(deps-dev): bump ruff from 0.3.2 to 0.3.3 by @dependabot in https://github.com/laramies/theHarvester/pull/1689\r\n* chore(deps): bump setuptools from 69.1.1 to 69.2.0 by @dependabot in https://github.com/laramies/theHarvester/pull/1688\r\n* chore(deps-dev): bump types-python-dateutil from 2.8.19.20240311 to 2.9.0.20240315 by @dependabot in https://github.com/laramies/theHarvester/pull/1690\r\n\r\n## New Contributors\r\n* @jeffguy made their first contribution in https://github.com/laramies/theHarvester/pull/1670\r\n\r\n**Full Changelog**: https://github.com/laramies/theHarvester/compare/4.5.1...4.6.0"
     },
     "https://github.com/rjpcomputing/luaforwindows": {
         "created_at": "2015-03-17 15:08:37",
@@ -23735,7 +23735,7 @@
         "created_at": "2021-09-30 08:07:03",
         "description": "漏洞批量验证框架",
         "commit_message": "Update README.md",
-        "commit_date": "2024-02-14 07:35:54",
+        "commit_date": "2024-05-16 16:27:46",
         "release_date": "2021-10-02 15:53:28",
         "release_message": "新增了十几二十个POC吧我并没有细数，更新细节可见于doc/coding.md文件，最近一直忙于项目，空余时间也用在学习JAVA，所以没有什么精力去思考oFx的后续前进方向，如果按照最初批量验证这一期望，那么我已经做到了，接下来只需要勤恳地填充POC即可，但随着POC的增多，我其实不是很满意现在oFx在单个目标漏扫上的表现（速度比较慢），也许我会将oFx单拎出来一个功能，也许是重开一个项目，就像我在每个POC里都有预留attack方法这个伏笔一样（在我看来oFx要实现批量漏洞利用需要一个统一的利用手段标准和痕迹匿名性，总之现在的构思和积累还不成熟，我从不满足于只做简单的漏洞验证），总之拭目以待吧，没有大的更新，我是不会数3的（此处致敬G胖）。"
     },
@@ -23974,12 +23974,12 @@
         "release_message": ""
     },
     "https://github.com/MvsCode/frps-onekey": {
-        "created_at": "2019-01-17 15:37:09",
+        "created_at": "2023-10-28 01:47:01",
         "description": " Frps 一键安装脚本&管理脚本",
         "commit_date": "2023-10-28 01:47:01",
         "commit_message": "更新 install-frps.sh",
         "release_tag": "v0.53.2",
-        "release_date": "2024-01-01 15:07:16",
+        "release_date": "2024-04-13 15:30:13",
         "release_message": ""
     },
     "https://github.com/iSafeBlue/fastjson-autotype-bypass-demo": {
@@ -27070,7 +27070,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "172.183.154.97属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "20.81.158.162属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
