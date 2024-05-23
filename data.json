@@ -24410,8 +24410,8 @@
         "description": "魅族安全中心"
     },
     "https://sec.vip.com/": {
-        "status_code": 503,
-        "description": ""
+        "status_code": 200,
+        "description": "VSRC首页-唯品会信息安全中心"
     },
     "https://sec.wacai.com/": {
         "status_code": 200,
@@ -25308,8 +25308,8 @@
         "description": "MD5免费在线解密破解_MD5在线加密-SOMD5"
     },
     "https://www.chamd5.org/": {
-        "status_code": 500,
-        "description": "运行时错误"
+        "status_code": 200,
+        "description": "MD5在线解密|md5在线破解|批量破解md5网站 - ChaMd5.Org"
     },
     "http://pan.baidu.com/s/1pLjaQKF": {
         "status_code": 200,
@@ -27070,7 +27070,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "20.172.46.64属于美国 微软云 数据中心_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "20.171.78.157属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
