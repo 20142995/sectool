@@ -63,7 +63,7 @@
         "created_at": "2024-04-18 02:17:02",
         "description": "短信转发器——监控Android手机短信、来电、APP通知，并根据指定规则转发到其他手机：钉钉群自定义机器人、钉钉企业内机器人、企业微信群机器人、飞书机器人、企业微信应用消息、邮箱、bark、webhook、Telegram机器人、Server酱、PushPlus、手机短信等。包括主动控制服务端与客户端，让你轻松远程发短信、查短信、查通话、查话簿、查电量等。（V3.0 新增）PS.这个APK主要是学习与自用，如有BUG请提ISSUE，同时欢迎大家提PR指正",
         "commit_message": "优化：转发规则`匹配的值`允许传入`逻辑运算符`：`与(&&)`、`或(||)`（用于支持多个关键词） #470",
-        "commit_date": "2024-05-16 07:31:23",
+        "commit_date": "2024-05-22 13:52:07",
         "release_date": "2024-04-18 02:45:39",
         "release_message": "致敬 `遥遥领先` **先锋计划**，迎接 `SmsForwarder` **预览体验计划**，领先与体验并驾齐驱！\r\n\r\n---\r\n\r\n【强烈建议】`v3.3.0` 用户升级\r\n\r\n【重点推荐】`自动任务·快捷指令`，轻松自动化，助您事半功倍，更多时间享受亲情陪伴！（v3.3+）\r\n\r\n\r\n---\r\n\r\n### 【注意】\r\n\r\n* `v3.2.0` 去除了 `mmkv` 依赖，采用 `SharedPreferences` 来保存配置，如果从低于 `v3.2.0`  升级后请重新配置，具体原因参见 [Issue #245](https://github.com/pppscn/SmsForwarder/issues/245)\r\n\r\n* 升级完毕后，建议离线导出配置（客户端>一键换新机>离线模式>导出），完全卸载干净全新安装后再导入配置（可以避免一些莫名其妙的玄学问题，例如：耗电异常）\r\n\r\n---\r\n\r\n### 更新日志\r\n\r\n修复：`定时任务`的`Cron表达式`输入非法时导致FC #407\r\n修复：Frpclib未下载时，自动任务添加启停frpc app自动重启 #402\r\n修复：WiFi平板（没有GPS芯片）无法启用`GPS定位服务` #391\r\n修复：错误的 URL 有效性验证正则表达式（兼容IPv6） #286\r\n修复：多个自启动的Frpc无法同时自动启动Bug\r\n修复：疑似`ResUtils.getString`导致FC #426\r\n修复：在线更新失败时手动下载页面地址\r\n修复：转发规则自定义发送通道顺序失效（将`List<T>`按照`instr`的顺序排序） #422\r\n修复：自动任务触发条件在测试倒计时没结束前返回导致app自动重启 #394\r\n修复：自动任务电池状态中充电器任意无法触发 #395\r\n新增：`{{IP_LIST}}`变量标签用于获取`本机所有IP地址列表`（排除环回地址） #I9CVLZ\r\n新增：`通用设置`增加按钮直接跳转`一键换新机`·`离线模式`\r\n新增：Frp内网穿透·编辑配置时语法高亮\r\n新增：发送通道`电子邮箱`支持`S/MIME`或`OpenPGP`加密 #417\r\n新增：监听`Screen`事件`延迟执行时再次校验` #399\r\n新增：两个常用标签`网络状态`(`{{NET_TYPE}}`)和`简单电池信息`(`{{BATTERY_INFO_SIMPLE}}`) #439\r\n新增：免打扰(禁用转发)时间段记录日志（配合`自动任务`实现延时发送） #411\r\n新增：是否加入SmsF预览体验计划（在线更新每周构建版） #416\r\n新增：转发日志增加筛选器方便搜索/批量删除 #433\r\n新增：自动任务·快捷指令 —— 触发条件：短信广播、通话广播、APP通知 #385 #389\r\n新增：自动任务·快捷指令 —— 触发条件：蓝牙设备（状态变化、设备发现、连接断开） #388\r\n新增：自动任务·快捷指令 —— 执行动作：播放警报 #385\r\n新增：自动任务·快捷指令 —— 执行动作：启停任务 #389\r\n新增：自动任务·快捷指令 —— 执行动作：重发消息\r\n优化：`{{BATTERY_PCT}}`保留2位小数\r\n优化：`Android 5.0`以下`TLS协议`&`明文传输` #427 #390 #274 #197\r\n优化：`build.gradle`脚本，编译前后自动清理\r\n优化：`Webhook` 非 `HTTP 200` 应答时仍可以指定 `成功应答关键字` #234\r\n优化：`发送通道`参数默认值（避免反序列化时空指针）\r\n优化：`一换新新机`·`还原设置`时保留本机的`设备名称`和`SIM卡主键/备注`\r\n优化：`自动任务`触发条件`网络状态`：仅`Android 10`(含) 以上显示`数据卡槽`选项 #429\r\n优化：`自动任务`触发条件`网络状态`：延迟5秒获取WiFi名称（给够搜索信号时间） #429\r\n优化：`自动任务·快捷指令` —— 执行动作：`发送短信`支持插入`变量标签`（标签适用场景参见 wiki附录3） #441\r\n优化：Frpc默认配置采用toml格式\r\n优化：部分手机通知栏异常显示两条常驻通知 #392\r\n优化：多语言切换时枚举常量自动切换语言\r\n优化：发送通道`Webhook`支持http/socks5代理\r\n优化：放宽`Url`和`UrlScheme`的正则校验限制 #431\r\n优化：服务端应答`Http 204 No Content`时特殊处理（更新日志状态为成功） #234\r\n优化：服务端应答`HTTP Status 201-299`时特殊处理（更新日志状态为成功） #234\r\n优化：改进IPv6正则表达式（避免`{{IPV6}}`替换为空）\r\n优化：监听`Screen`事件细分`On/Off/Locked/Unlocked` #399\r\n优化：进入`通用设置`时`再次检查`是否已授权`已开启功能`的`必需权限`\r\n优化：判断Frpclib是否已经初始化\r\n优化：权限检查机制判断（适配 OPPO 应用权限受阻跳转优化方案）\r\n优化：以`Base64`形式保存证书（同时兼容`文件路径`形式） #437\r\n优化：自定义模板可用变量标签支持正则替换 #421 #423\r\n优化：自定义模板可用变量统一成英文标签\r\n优化：自定义模板增加`{{IPV4}}``{{IPV6}}`标签 #398\r\n优化：自定义模板增加`{{定位信息_经度}}`/`{{定位信息_纬度}}`/`{{定位信息_地址}}`三个标签 #400\r\n升级：AgentWeb依赖（解决存在的内存泄漏问题）\r\n升级：frpclib 到 `v0.57.0`\r\n升级：XAOP 依赖\r\n升级：XUI 到 `dev-1.2.2`\r\n升级：XUpdate 到 `2.1.5` （兼容Android 12 & 完善日志）\r\n升级：依赖版本\r\n整理：code review & 精简无用资源\r\n回退：`{{通知Scheme}}`(英文系统`{{SCHEME}}`)标签以获取应用通知的`Scheme` #272 #276（无解，去除多余代码）\r\n\r\n还有一些细微调整参见`github`提交记录\r\n\r\n---\r\n\r\n### APK版本说明：\r\n* universal（10XXXX）: 通用版（不在乎安装包大小/懒得选就用这个版本，包含以下4种CPU架构so）\r\n* armeabi-v7a（20XXXX）: 32位ARM设备（备用机首选）\r\n* arm64-v8a（30XXXX）: 64位ARM设备（主流旗舰机）\r\n* x86（40XXXX）: 32位Intel设备\r\n* x86_64（50XXXX）: 64/32位Intel设备"
     },
@@ -196,8 +196,8 @@
     "https://github.com/ycdxsb/PocOrExp_in_Github": {
         "created_at": "2021-04-13 05:46:16",
         "description": "聚合Github上已有的Poc或者Exp，CVE信息来自CVE官网。Auto Collect Poc Or Exp from Github by CVE ID.",
-        "commit_message": "update 2024-05-22 08:20:51",
-        "commit_date": "2024-05-22 00:20:51"
+        "commit_message": "update 2024-05-22 19:19:19",
+        "commit_date": "2024-05-22 11:19:19"
     },
     "https://github.com/1n7erface/RequestTemplate": {
         "created_at": "",
@@ -2668,8 +2668,8 @@
     "https://github.com/madneal/gshark": {
         "created_at": "2024-03-23 10:23:15",
         "description": "Scan for sensitive information easily and effectively.",
-        "commit_message": "Merge pull request #205 from madneal/dependabot/go_modules/server/golang.org/x/net-0.23.0\n\nBump golang.org/x/net from 0.21.0 to 0.23.0 in /server",
-        "commit_date": "2024-04-25 23:42:14",
+        "commit_message": "fix for the order key",
+        "commit_date": "2024-05-19 07:35:26",
         "release_date": "2024-03-23 10:42:35",
         "release_message": "## Fixed\r\n\r\n* 修复数据库初始化的问题\r\n* 修复 Postman 搜索结果格式\r\n* 前端组件安全升级"
     },
@@ -10156,7 +10156,7 @@
         "created_at": "2020-02-04 09:30:48",
         "description": "致力于成为中文区命中率最高的广告过滤列表，实现精确的广告屏蔽和隐私保护。anti-AD现已支持AdGuardHome，dnsmasq， Surge，Pi-Hole，smartdns等网络组件。完全兼容常见的广告过滤工具所支持的各种广告过滤列表格式",
         "commit_message": "Auto renew the anti-AD list.",
-        "commit_date": "2024-05-19 18:33:29",
+        "commit_date": "2024-05-22 18:35:58",
         "release_date": "2020-02-04 09:32:25",
         "release_message": "- 引入无效域名、无效hosts剔除机制，大幅提升各过滤列表命中率\r\n- 为了更好的支持pi-hole，加入一个新的全域名列表 - `anti-ad-domains.txt`\r\n- 根据网友 [@xlighting2017](https://github.com/privacy-protection-tools/anti-AD/issues/29) 建议，更新surge到新的格式\r\n- 引入数个新的配置参数，对输出结果精确控制\r\n- 若干bug和逻辑修复"
     },
@@ -12893,7 +12893,7 @@
         "release_message": ""
     },
     "https://github.com/volatilityfoundation/volatility3": {
-        "created_at": "2024-01-31 21:21:20",
+        "created_at": "2014-01-26 18:09:20",
         "description": "Volatility 3.0 development",
         "commit_message": "Merge pull request #1147 from eve-mem/windows_handles_debug_logging\n\nWindows: add extra debugging messages to handles plugin",
         "commit_date": "2024-05-16 22:09:24",
@@ -18779,8 +18779,8 @@
     "https://github.com/sajjadium/ctf-archives": {
         "created_at": "2021-06-10 16:53:52",
         "description": " CTF Archives: Collection of CTF Challenges.",
-        "commit_message": "BSidesSF challs",
-        "commit_date": "2024-05-05 20:40:43"
+        "commit_message": "SAS challs",
+        "commit_date": "2024-05-19 04:32:24"
     },
     "https://github.com/KaLendsi/CVE-2022-21882": {
         "created_at": "2022-01-27 03:44:10",
@@ -19282,12 +19282,12 @@
         "commit_message": "Merge pull request #5 from ar7z1/fix-link-to-microsoft-advisory\n\nFix link to Microsoft advisory"
     },
     "https://github.com/jumpserver/jumpserver": {
-        "created_at": "2014-07-04 03:54:59",
+        "created_at": "2024-05-16 08:22:16",
         "description": "JumpServer 是广受欢迎的开源堡垒机，是符合 4A 规范的专业运维安全审计系统。",
-        "commit_message": "fix: 账号密钥长度为8192时 刷新账号列表504 (#13196)\n\nCo-authored-by: feng <1304903146@qq.com>",
-        "commit_date": "2024-05-11 06:45:29",
-        "release_date": "2024-04-23 13:38:40",
-        "release_message": "# 一、安装和升级\r\n\r\n## 1.1 在线方式 ✈️\r\n\r\n仅需两步快速安装 JumpServer：\r\n\r\n1. 准备一台 4核8G （最低）且可以访问互联网的 64 位 Linux 主机；\r\n2. 以 root 用户执行如下命令一键安装 JumpServer。\r\n\r\n国内用户\r\n``` sh\r\ncurl -sSL https://resource.fit2cloud.com/jumpserver/jumpserver/releases/latest/download/quick_start.sh | bash\r\n```\r\n\r\n海外用户\r\n``` sh\r\ncurl -sSL https://github.com/jumpserver/jumpserver/releases/latest/download/quick_start.sh | bash\r\n```\r\n\r\n## 1.2 离线方式 🚢\r\n\r\n[离线安装包下载地址](https://community.fit2cloud.com/#/download/jumpserver/v3-10-9)\r\n\r\n详细安装和升级文档请参考：[完整文档](https://docs.jumpserver.org/zh/v3/) \r\n\r\n\r\n# 二、更新日志\r\n\r\n## 2.1 功能优化 🚀 \r\n\r\n- perf: 优化连接 Kubernetes 资产账号没有 Namespace 权限时提示并允许直接连接 Cluster\r\n- perf: 优化用户频繁发送短信的提示信息\r\n- perf: 优化 Web GUI 方式连接远程应用时使用平台中的 `rdp` 协议高级选项参数建立连接（Lion）\r\n- perf: 优化 Web 资产详情代填信息显示不准确的问题\r\n- perf: 优化支持使用 MySQL 模块对 MariaDB 数据库执行快捷命令\r\n- perf: 优化更新资产时当前页面打开的问题（选中节点后创建/更新资产在新窗口打开，直接更新在当前窗口打开）\r\n\r\n## 2.2 问题修复 🐛\r\n\r\n- fix: 修复 Ansible 任务运行使用 NFS 挂载目录时执行失败的问题（使用 TCP 通信）（Receptor）\r\n- fix: 修复仪表盘页面会话用户、资产排名数量不准确的问题\r\n- fix: 修复快捷命令中账号选择列表的排序问题\r\n- fix: 修复命令记录取消 `output` 字段长度限制\r\n- fix: 修复自定义平台的华为交换机执行命令失败的问题，华为交换机平台的名称中必须含 `华为` 或 `huawei`（不区分大小写） 关键字\r\n- fix: 修复当内置 Linux 平台 `id` 不为 `1` 时，创建网关报错的问题（[issue](https://github.com/jumpserver/jumpserver/issues/13090)）\r\n- fix: 修复 `gunicorn.log` 系统日志文件中频繁出现 Profile API（`/api/v1/users/profile/`）请求的问题\r\n- fix: 修复用户首次登录时卡住的问题（SYSTEM 组织的用户）【企业版】\r\n\r\n"
+        "commit_message": "perf: dates_metrics api speed (#13266)\n\nCo-authored-by: feng <1304903146@qq.com>",
+        "commit_date": "2024-05-22 07:25:38",
+        "release_date": "2024-05-16 09:53:04",
+        "release_message": "# 一、安装和升级\r\n\r\n## 1.1 在线方式 ✈️\r\n\r\n仅需两步快速安装 JumpServer：\r\n\r\n1. 准备一台 4核8G （最低）且可以访问互联网的 64 位 Linux 主机；\r\n2. 以 root 用户执行如下命令一键安装 JumpServer。\r\n\r\n国内用户\r\n``` sh\r\ncurl -sSL https://resource.fit2cloud.com/jumpserver/jumpserver/releases/latest/download/quick_start.sh | bash\r\n```\r\n\r\n海外用户\r\n``` sh\r\ncurl -sSL https://github.com/jumpserver/jumpserver/releases/latest/download/quick_start.sh | bash\r\n```\r\n\r\n## 1.2 离线方式 🚢\r\n\r\n[离线安装包下载地址](https://community.fit2cloud.com/#/download/jumpserver/v3-10-10)\r\n\r\n详细安装和升级文档请参考：[完整文档](https://docs.jumpserver.org/zh/v3/) \r\n\r\n\r\n# 二、更新日志\r\n\r\n## 2.1 功能优化 🚀 \r\n\r\n- perf: 优化支持云同步任务完成后自动删除云端已释放的资产【企业版】\r\n- perf: 优化当资产总数 `> 5000` 时延迟 `20s` 刷新用户授权树（之前 `> 2000`）\r\n- perf: 优化 Web 资产详情自动代填的信息显示\r\n- perf: 优化资产树节点支持拖拽操作\r\n- perf: 优化创建、更新用户时的 MFA 选项根据系统设置全局状态配合显示\r\n- perf: 优化 Luna 页面资产连接按钮不可点击时提示原因\r\n- perf: 优化连接 Windows 资产全屏显示不完整的问题（Lion）\r\n- perf: 优化 Panda 组件支持使用自签名证书连接 Core 服务（Panda）【企业版】\r\n- perf: 优化账号密钥使用长度为 8192 位的密钥时列表加载慢的问题\r\n\r\n## 2.2 问题修复 🐛\r\n\r\n- fix: 修复 `v2` 升级 `v3` 版本时系统用户 `su_from` 没有同步的问题\r\n- fix: 修复 `v2` 升级 `v3` 版本时授权中手动登录系统用户会显示为空字符串的问题\r\n- fix: 修复 `SESSION_EXPIRE_AT_BROWSER_CLOSE` 配置开启后用户重置 MFA 失败的问题\r\n- fix: 修复 Chrome 远程应用加载多个插件失败的问题\r\n- fix: 修复社区版本使用过程中偶尔会出现资源创建按钮不可点击的问题\r\n- fix: 修复 MySQL 数据库 Kill Session 失败的问题（Magnus）【企业版】\r\n- fix: 修复 SQL Server 数据库使用微软客户端连接失败的问题（Magnus）【企业版】\r\n- fix: 修复 ChatAI 显示异常问题（Kael）（All-in-One）\r\n- fix: 修复云同步任务针对火山引擎云服务商只能同步一页的问题【企业版】\r\n- fix: 修复批量传输下载的文件名为 `undefined` 的问题\r\n- fix: 修复 LDAP 服务端修改用户 OU 组织结构后无法登录的问题\r\n- fix: 修复导出 CSV 文件属性值前缀为 `0` 时不显示的问题\r\n- fix: 修复 LDAP 定时同步任务不执行的问题\r\n- fix: 修复华为交换机执行命令报错的问题\r\n- fix: 修复用户会话过期提示 `500` 的问题\r\n- fix: 修复创建 es 命令存储后返回页面不正确的问题\r\n- fix: 修复快捷命令使用 `mysql` 模块不支持在 MariaDB 数据库上执行命令的问题"
     },
     "https://github.com/random-robbie/cve-2020-0688": {
         "created_at": "2020-02-25 23:44:16",
@@ -21941,8 +21941,8 @@
     "https://github.com/apache/logging-log4j2": {
         "created_at": "2024-03-10 19:05:47",
         "description": "Apache Log4j 2 is a versatile, feature-rich, efficient logging API and backend for Java.",
-        "commit_message": "added vscode folder to the list of ignored files",
-        "commit_date": "2024-05-16 20:22:40",
+        "commit_message": "fixed deprecated methods and broken example commit",
+        "commit_date": "2024-05-22 17:55:23",
         "release_date": "2024-03-10 19:24:14",
         "release_message": "This release contains several small fixes and some dependency updates.\r\n\r\n### Changed\r\n\r\n* Improve performance of `CloseableThreadContext#closeMap()` (#2296)\r\n\r\n### Fixed\r\n\r\n* Fix handling of `LoggerContextAware` lookups (#2309)\r\n* Fix NPE in `PatternProcessor` for a `UNIX_MILLIS` pattern (#2346)\r\n* Fix that parameterized message formatting doesn't throw an exception when there are insufficient number of parameters (#2343)\r\n* Fix `StatusLogger` log level filtering when debug mode is enabled (#2337)\r\n* Add `log4j2.StatusLogger.dateFormatZone` system property to set the time-zone `StatusLogger` uses to format `java.time.Instant`. Without this, formatting patterns accessing to time-zone-specific fields (e.g., year-of-era) cause failures. (#2322)\r\n* Fix `StatusLogger` to correctly read `log4j2.StatusLogger.properties` resource (#2354)\r\n* Fix stack overflow in `StatusLogger` (#2322)\r\n\r\n### Updated\r\n\r\n* Update `jakarta.activation:jakarta.activation-api` to version `2.1.3` (#2335)\r\n* Update `jakarta.mail:jakarta.mail-api` to version `2.1.3` (#2348)\r\n* Update `org.apache.commons:commons-compress` to version `1.26.0` (#2304)\r\n* Update `org.apache.commons:commons-dbcp2` to version `2.12.0` (#2344)\r\n* Update `org.apache.kafka:kafka-clients` to version `3.7.0` (#2326)\r\n* Update `org.eclipse.angus:angus-activation` to version `2.0.2` (#2336)\r\n* Update `org.eclipse.angus:jakarta.mail` to version `2.0.3` (#2349)\r\n"
     },
@@ -22934,12 +22934,12 @@
         "release_message": ""
     },
     "https://github.com/yhy0/Jie": {
-        "created_at": "2024-05-07 14:44:15",
+        "created_at": "2024-05-20 14:48:28",
         "description": "Jie stands out as a comprehensive security assessment and exploitation tool meticulously crafted for web applications. Its robust suite of features encompasses vulnerability scanning, information gathering, and exploitation, elevating it to an indispensable toolkit for both security professionals and penetration testers.(expectations)",
-        "commit_message": "update go.mod",
-        "commit_date": "2024-05-15 15:18:06",
-        "release_date": "2024-05-07 14:47:35",
-        "release_message": "## Changelog\n* 52d5e14 feat 优化Security Copilot 显示；其他优化\n* d975ba3 feat 使用协程池\n* 8c9679d fix 解决死锁问题\n* a42aa6e add wih\n* 3fc391e fix wg.Wait() bug\n* 9de06eb fix spell\n* a31bede remove naabu, use masscan and nmap\n\n"
+        "commit_message": "nuclei archive del cdn check",
+        "commit_date": "2024-05-21 15:14:07",
+        "release_date": "2024-05-20 14:51:57",
+        "release_message": "## Changelog\n* 0c4342a fix bug\n* 6e151ad update README.md\n* acae19e feat bbscan 扫描时对比扫描中识别到的指纹\n* da4ac5f feat bbscan 使用协程池\n* 26b1e37 fix env check\n* a29679e feat 一些优化;re2 更新\n* 5cda22d update go.mod\n* fcc2c9d feat 增加请求参数收集;请求/返回存在敏感参数识别\n* c88dbb0 feat add --nps to skip nmap\\masscan env check(Disable port scan)\n\n"
     },
     "https://github.com/TryGOTry/CobaltStrike_Cat_4.5": {
         "created_at": "",
@@ -23202,8 +23202,8 @@
     "https://github.com/RVC-Boss/GPT-SoVITS": {
         "created_at": "2024-01-14 18:05:21",
         "description": "1 min voice data can also be used to train a good TTS model! (few shot voice cloning)",
-        "commit_message": "删除重复的 COPY 指令 (#1073)",
-        "commit_date": "2024-05-11 03:49:21"
+        "commit_message": "Update english.py (#1106)\n\ncopy but not ref the phones list becoz it will be extend later, if not do so,it will affect the self.cmu dict values.",
+        "commit_date": "2024-05-21 15:36:56"
     },
     "https://github.com/djytmdj/Network-security-study-notes": {
         "created_at": "2023-07-25 06:13:25",
@@ -24410,8 +24410,8 @@
         "description": "魅族安全中心"
     },
     "https://sec.vip.com/": {
-        "status_code": 503,
-        "description": ""
+        "status_code": 200,
+        "description": "VSRC首页-唯品会信息安全中心"
     },
     "https://sec.wacai.com/": {
         "status_code": 200,
@@ -25188,8 +25188,8 @@
         "description": "首页"
     },
     "http://www.practicalcryptography.com/ciphers/adfgx-cipher/": {
-        "status_code": 200,
-        "description": "Practical Cryptography"
+        "status_code": 500,
+        "description": "500 Internal Server Error"
     },
     "https://www.guballa.de/vigenere-solver": {
         "status_code": 200,
@@ -27070,7 +27070,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "172.183.122.243属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "52.157.5.229属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
@@ -27919,8 +27919,8 @@
     "https://github.com/aquasecurity/cloudsploit": {
         "created_at": "2024-04-22 13:04:15",
         "description": "Cloud Security Posture Management (CSPM)",
-        "commit_message": "Merge pull request #2013 from fatima99s/MachineLeariningPublicAccess\n\nMachine learining public access",
-        "commit_date": "2024-05-20 18:48:39",
+        "commit_message": "Merge pull request #2014 from muzzamilinovaqo/plugin/aws-wafv2-log-acl\n\naws wafv2 log acl",
+        "commit_date": "2024-05-21 15:05:22",
         "release_date": "2024-05-01 18:06:46",
         "release_message": "CloudSploit version 3.4.0 introduces the most latest version on 2024-04-25. The update includes  new plugins for  Azure, AWS with the hotfixes and enhancements in the existing plugins. The details are as follows.\r\n______________________________\r\n\r\n## New Plugins\r\n### [AWS](https://github.com/aquasecurity/cloudsploit/tree/master/plugins/aws)\r\n**Bedrock**\r\n\r\n- Custom Model Has Tags\r\n\r\n**CloudFormation**\r\n\r\n- CloudFormation Deletion Policy In Use\r\n\r\n**Comprehend**\r\n\r\n- Amazon Comprehend Flywheel In VPC\r\n\r\n**DynamoDB**\r\n\r\n- DynamoDB Deletion Protection Enabled\r\n\r\n**Guard duty**\r\n\r\n- GuardDuty RDS Protection Enabled\r\n\r\n**Lambda**\r\n\r\n- Lambda Dead Letter Queue\r\n- Lambda Enhanced Monitoring Enabled\r\n- Lambda Code Signing Enabled\r\n\r\n**Route 53**\r\n\r\n- Route 53 In Use\r\n\r\n**OpenSearch**\r\n\r\n- OpenSearch Audit Logs Enabled\r\n\r\n**WorkSpaces**\r\n\r\n- WorkSpaces Healthy Instances\r\n\r\n### [Azure](https://github.com/aquasecurity/cloudsploit/tree/master/plugins/azure)\r\n**Automation Account**\r\n-  Automation Account Approved Certificates Only\r\n\r\n**Container Apps**\r\n- Container Apps Authentication Enabled\r\n- Container Apps External Network Access\r\n- Container Apps Managed Identity\r\n- Container Apps Authentication Enabled\r\n\r\n**Cosmos DB**\r\n- Cosmos DB Diagnostic Logs\r\n- Cosmos DB Managed Identity\r\n\r\n**DataBricks**\r\n- Databricks Workspace DBFS Infrastructure Encryption\r\n- Databricks Workspace Managed Services CMK Encrypted\r\n- Databricks Workspace Diagnostic Logs\r\n- Databricks Workspace Secure Cluster\r\n\r\n**Event Grid**\r\n- Event Grid Domain Diagnostic Logs\r\n- Event Grid Domain Minimum TLS Version\r\n- Event Grid Domain Local Authentication Disabled\r\n- Event Grid Domain Managed Identity\r\n\r\n**Event Hub**\r\n- Event Hubs Namespace CMK Encrypted\r\n\r\n**PostgreSQL Server**\r\n- PostgreSQL Flexible Server Connection Throttling Enabled\r\n- PostgreSQL Flexible Server Log Disconnections Enabled\r\n\r\n\r\n\r\n## Hot fixes and enhancements\r\n### Aws\r\n1. Earlier the following plugins were generating unknowns for the regions in which Bedrock Custom model service was not available. Updated the plugin logic to produce pass results for those regions. \r\n\r\n- Custom Model Encryption Enabled\r\n- Custom Model In VPC\r\n- Private Custom Model\r\n\r\n2. **RDS Public Subnets**\r\n        Fixed the bug for which the plugin was generating false negative results in case where the RDS instance was not connected to the \r\n        public subnet.\r\n\r\n3. **Instance Limit**\r\nEarlier the plugin was checking the max instance limit provided by AWS. As of now max_limit attribute is no longer supported by AWS so added the setting for Max Instance Count from which users can set the desired value for max number of utilised instances in a region.\r\n\r\n\r\n### Azure \r\n1. **SQL Databases Data Masking Enabled**\r\nUpdated the plugin logic to remove the unnecessary unknown form the results\r\n\r\n2. Updated the plugin info link for following plugins\r\n- Storage Account Queue Service Logging Enable \r\n- Storage Account Blob Service Logging Enable\r\n\r\n### Google\r\n1. **Service Account Key Rotation**\r\nUpdate the plugin to generate pass results if there is no user managed service account key found, earlier the plugin results were getting skipped if there was no user managed key found.\r\n\r\n\r\n"
     },
