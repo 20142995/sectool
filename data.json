@@ -613,13 +613,13 @@
         "release_message": ""
     },
     "https://github.com/wgpsec/ENScan_GO": {
-        "created_at": "2022-01-04 14:07:28",
+        "created_at": "2024-05-21 07:00:21",
         "description": "一款基于各大企业信息API的工具，解决在遇到的各种针对国内企业信息收集难题。一键收集控股公司ICP备案、APP、小程序、微信公众号等信息聚合导出。",
-        "commit_date": "2023-08-16 02:07:01",
-        "commit_message": "修复AQC查询BUG 还是需要挂上burp fix #77",
+        "commit_date": "2024-05-21 07:00:21",
+        "commit_message": "修改readme",
         "release_tag": "0.0.15",
-        "release_date": "2023-08-16 02:13:55",
-        "release_message": "修复AQC查询问题\r\n\r\n若ENSCAN无法正常访问网站可尝试挂上代理 -proxy http://127.0.0.1:8080/ （burp）\r\n若查询还是有问题可开启debug模式 --debug 查看报错内容\r\n无法正常查询可以在网站上多查询几次后获取**完整COOKIE**进行尝试"
+        "release_date": "2024-05-21 07:05:31",
+        "release_message": "> 重构版本1.0.0\r\n\r\n# ⚒️Uncategorized\r\n1. 重构查询代码，采用接口实现功能，方便接入新接口\r\n2. 优化提示逻辑\r\n3. 优化删除冗余代码，删除鸡肋的web功能，换成实时api功能方便接入其他工具\r\n4. 增加意外退出保存功能\r\n5. 增加单独信息实时保存功能 -n xxx -field icp -out-update icp.csv 将会实时写入该文件，可增加其他查询参数如投资占比等，但不会输出"
     },
     "https://github.com/jackfrued/Python-100-Days": {
         "created_at": "2018-03-01 16:05:52",
@@ -1230,8 +1230,8 @@
     "https://github.com/awake1t/HackReport": {
         "created_at": "2021-06-25 12:43:20",
         "description": "渗透测试报告/资料文档/渗透经验文档/安全书籍",
-        "commit_date": "2023-08-20 06:06:08",
-        "commit_message": "2023-08-20 14:06:08",
+        "commit_date": "2024-04-29 03:13:19",
+        "commit_message": "2024-04-29 11:13:19",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -1922,13 +1922,13 @@
         "release_message": "1、清除任务名称存在的标点符号，以确保能在Windows下创建文件。\r\n2、以导出数据的风险等级命名保存文件。"
     },
     "https://github.com/cseroad/Exp-Tools": {
-        "created_at": "2023-03-09 01:10:10",
+        "created_at": "2023-10-15 07:28:21",
         "description": "一款集成高危漏洞exp的实用性工具",
-        "commit_date": "2023-10-15 07:28:21",
+        "commit_date": "2024-02-20 09:21:44",
         "commit_message": "Update README.md",
         "release_tag": "v1.2.3",
-        "release_date": "2023-10-15 07:22:27",
-        "release_message": "- 集合最近爆出的漏洞，跳过1.2.2版本，更新到1.2.3\r\n- 更新多个漏洞"
+        "release_date": "2024-02-20 09:19:12",
+        "release_message": "- 新增蓝凌、用友、万户部分漏洞\r\n- 修复部分漏洞误报\r\n- 修复asp上传内容\r\n- 优化部分代码\r\n- 取消密码"
     },
     "https://github.com/Acmesec/Sylas": {
         "created_at": "2022-01-05 10:16:09",
@@ -2149,7 +2149,7 @@
     "https://github.com/jwt1399/Sec-Tools": {
         "created_at": "2021-11-05 10:20:52",
         "description": "🍉一款基于Python-Django的多功能Web安全渗透测试工具，包含漏洞扫描，端口扫描，指纹识别，目录扫描，旁站扫描，域名扫描等功能。",
-        "commit_date": "2023-08-07 03:52:52",
+        "commit_date": "2024-04-20 01:22:51",
         "commit_message": "Update README.md",
         "release_tag": "",
         "release_date": "",
@@ -2970,10 +2970,12 @@
         "release_message": "## Changelog\n* 24844a4 :bug: fix IsAliveUrl bug\n* 2097cb8 Merge branch 'main' of github.com:SummerSec/SpringExploit into main\n* 53479ac 🚲 使用前会自动检测是否最新版本并询问是否更新\n* b0ec7bd 🎆 Update CHANGELOG\n* b7db213 🛸 版本0.1.9\n\n"
     },
     "https://github.com/XTeam-Wing/X-Marshal": {
-        "created_at": "2022-04-28 16:17:39",
-        "description": "Marshal-EASM 攻击面管理系统",
-        "commit_message": "Update README.md",
-        "commit_date": "2024-01-04 10:43:46"
+        "created_at": "2024-05-13 13:37:33",
+        "description": "Marshal-EASM 攻击面管理系统-社区版",
+        "commit_message": "Create INSTALL.md",
+        "commit_date": "2024-05-14 02:31:27",
+        "release_date": "2024-05-13 13:45:36",
+        "release_message": "sha256sum:b84dd34e99bbb9f55d4b50977d8febb57065a7809a2abad119a7e2bb3040355d\r\n\r\n请仔细阅读配置文件并配置路径和参数。"
     },
     "https://github.com/arthaud/git-dumper": {
         "created_at": "2017-03-31 03:39:53",
@@ -4483,7 +4485,7 @@
         "release_message": "单纯的代理服务器，不依赖ip池。\r\n"
     },
     "https://github.com/jhao104/proxy_pool": {
-        "created_at": "2016-11-25 13:49:07",
+        "created_at": "2023-02-23 07:22:44",
         "description": "Python ProxyPool for web spider",
         "commit_date": "2024-01-08 02:27:00",
         "commit_message": "Merge pull request #781 from jhao104/develop\n\n[update] :chicken: 2.4.2",
@@ -6011,10 +6013,10 @@
         "release_message": ""
     },
     "https://github.com/ffffffff0x/BerylEnigma": {
-        "created_at": "2020-11-11 10:07:43",
+        "created_at": "2023-08-28 09:32:01",
         "description": "ffffffff0x team toolset for penetration testing, cryptography research, CTF and daily use. | ffffffff0x 团队工具集，用来进行渗透测试，密码学研究，CTF和日常使用。",
-        "commit_date": "2023-11-03 01:51:33",
-        "commit_message": "节点添加可显示/隐藏属性",
+        "commit_date": "2024-02-23 07:43:33",
+        "commit_message": "文件头检测 文件加载功能修改为自动遍历选择文件夹",
         "release_tag": "1.15.0",
         "release_date": "2023-08-28 11:56:32",
         "release_message": "![文件头检测加载文件后 (小)](https://github.com/ffffffff0x/BerylEnigma/assets/16266917/f652ebd2-c329-47d1-a468-cbbd1a33a52a)\r\n![文件头检测面板02 (小)](https://github.com/ffffffff0x/BerylEnigma/assets/16266917/4c58ac56-84b8-4f8e-81e1-01cfeeddee36)\r\n\r\n```\r\n+ 文件头检测模块\r\n\r\n- 时间戳视图文件命名问题\r\n- 对称加密使用错误加密器问题\r\n```\r\n\r\n详情见 [BE工具的文件头检测功能](https://ryuzu.blog.ffffffff0x.com/post/be%E5%B7%A5%E5%85%B7%E7%9A%84%E6%96%87%E4%BB%B6%E5%A4%B4%E6%A3%80%E6%B5%8B%E5%8A%9F%E8%83%BD/)"
@@ -6381,8 +6383,8 @@
         "commit_date": "2024-02-02 00:46:19"
     },
     "https://github.com/ProbiusOfficial/CTF-QuickStart": {
-        "created_at": "",
-        "description": "",
+        "created_at": "2023-11-05 09:17:23",
+        "description": "源仓库存档",
         "commit_date": "2024-01-19 01:08:28",
         "commit_message": "Create LICENSE",
         "release_tag": "",
@@ -6538,13 +6540,13 @@
         "release_message": ""
     },
     "https://github.com/zfb132/QrScan": {
-        "created_at": "2022-05-02 09:06:54",
+        "created_at": "2024-02-18 11:02:08",
         "description": "离线批量检测图片是否包含二维码以及识别二维码",
-        "commit_date": "2023-09-22 05:46:17",
-        "commit_message": "fix bug when reading csv with Microsoft Excel",
+        "commit_date": "2023-12-25 12:03:02",
+        "commit_message": "add feat: set log dir based on executable path",
         "release_tag": "v2.9.0",
-        "release_date": "2023-09-22 05:52:17",
-        "release_message": "修复Microsoft Excel打开csv文件乱码的问题\r\n\r\n**Full Changelog**: https://github.com/zfb132/QrScan/compare/v2.8.0...v2.9.0"
+        "release_date": "2024-02-18 11:11:52",
+        "release_message": "## 使用相对路径保存日志文件\r\n\r\n**Full Changelog**: https://github.com/zfb132/QrScan/compare/v2.10.0...v2.10.1"
     },
     "https://github.com/langsasec/Sign-Sacker": {
         "created_at": "2024-01-04 07:06:10",
@@ -10310,7 +10312,7 @@
         "release_message": ""
     },
     "https://github.com/jaeles-project/jaeles": {
-        "created_at": "2019-11-15 04:57:24",
+        "created_at": "2023-07-08 08:31:55",
         "description": "The Swiss Army knife for automated Web Application Testing",
         "commit_date": "2023-08-21 06:43:36",
         "commit_message": "Adding Makefile",
@@ -18073,11 +18075,11 @@
         "release_message": "## Highlights\r\n\r\n### Admin Tools Enhancement\r\n\r\n**User management enhancement**\r\nThe user management page now has a list view of all users and administrators can easily find a specific user to edit.\r\n![image](https://user-images.githubusercontent.com/837658/214000909-aed31d2b-a69d-4023-9de5-e6d5826b074c.png)\r\n\r\n**System configuration enhancement**\r\nThe system configuration page now has a list view of all configuration items of PortalDB as well as ConfigDB. Administrators can easily find a specific configuration item to edit.\r\n\r\n![image](https://user-images.githubusercontent.com/837658/214001786-6118261a-caca-4945-b43d-6eed6e94c0ff.png)\r\n\r\n![image](https://user-images.githubusercontent.com/837658/214195645-49c32eda-382c-4db0-bfcd-577e5908dbbb.png)\r\n\r\n**Open platform authorization management enhancement**\r\nThe open platform authorization management page now has a list view of third-party apps and administrators can easily find a specific app to grant permission.\r\n![image](https://user-images.githubusercontent.com/837658/214002894-e95e89b9-7557-4dc3-9cc8-d136cced6db0.png)\r\n\r\n### Basic Types for Item\r\nUsers can now config the types of the item and apollo would do a basic type check based on the type.\r\nThe types available now are String(default), Number, Boolean, and JSON.\r\n![image](https://user-images.githubusercontent.com/837658/214005788-736da40c-4974-490e-8fc8-e16d7bed97b2.png)\r\n\r\n### Non-properties Namespaces Comparison Feature\r\nThe comparison feature for non-properties namespaces is now available.\r\n![image](https://user-images.githubusercontent.com/837658/214736054-27c008b0-ad30-4834-948c-56a851665421.png)\r\n\r\n### Support Database as the Service Registry for apollo-configservice and apollo-adminservice\r\nApollo now supports the use of database as the service registry, without relying on a third-party service registry such as eureka.\r\nSee [database-discovery](https://www.apolloconfig.com/#/en/deployment/distributed-deployment-guide?id=_2235-database-discovery) for more information.\r\n\r\n## What's Changed\r\n\r\n### Features\r\n* Optimize Spring-Security Firewall Deny Request Response 400 by @klboke in https://github.com/apolloconfig/apollo/pull/4428\r\n* Allow users to associate multiple public namespaces at a time by @falser101 in https://github.com/apolloconfig/apollo/pull/4437\r\n* Optimize the UI experience of open platform authorization management by @klboke in https://github.com/apolloconfig/apollo/pull/4436\r\n* Add search key when comparing Configuration items by @falser101 in https://github.com/apolloconfig/apollo/pull/4459\r\n* Add a new API to load items with pagination by @mghio in https://github.com/apolloconfig/apollo/pull/4468\r\n* A user-friendly user management page for apollo portal by @zcy1010 in https://github.com/apolloconfig/apollo/pull/4464\r\n* Switching spring-session serialization mode to json for compatibility with spring-security version updates by @klboke in https://github.com/apolloconfig/apollo/pull/4484\r\n* Sort Namespaces acquired by multiple threads by @klboke in https://github.com/apolloconfig/apollo/pull/4500\r\n* Allow users to delete AppNamespace by @klboke in https://github.com/apolloconfig/apollo/pull/4499\r\n* Add configuration processor for portal developers by @vdisk-group in https://github.com/apolloconfig/apollo/pull/4521\r\n* Add a potential json value check feature by @AbnerHuang2 in https://github.com/apolloconfig/apollo/pull/4519\r\n* Support non-properties-diff by @SunnyBoy-WYH in https://github.com/apolloconfig/apollo/pull/4533\r\n* Add an option to custom oidc userDisplayName by @vdisk-group in https://github.com/apolloconfig/apollo/pull/4507\r\n* Add basic type check for Item value by @furaul in https://github.com/apolloconfig/apollo/pull/4542\r\n* A user-friendly config management page for apollo portal by @webSue in https://github.com/apolloconfig/apollo/pull/4592\r\n* Support use database as a registry by @Anilople in https://github.com/apolloconfig/apollo/pull/4595\r\n* Users can change spring.profiles.active's value without rebuild project by @Anilople in https://github.com/apolloconfig/apollo/pull/4616\r\n* Enable login authentication for eureka by @nobodyiam in https://github.com/apolloconfig/apollo/pull/4663\r\n* Portal-UI adds server config configuration management of ApolloConfigDB by @klboke in https://github.com/apolloconfig/apollo/pull/4680\r\n\r\n### Bug fixes\r\n* Fix: occur a 400 error request when openapi key's parameter contain \"a[0]\" by @CalebZYC in https://github.com/apolloconfig/apollo/pull/4424\r\n* Upgrade mysql-connector-java version to fix possible transaction rollback failure issue by @klboke in https://github.com/apolloconfig/apollo/pull/4425\r\n* Fix 'openjdk:8-jre-alpine' potentially causing wrong number of cpu cores by @klboke in https://github.com/apolloconfig/apollo/pull/4475\r\n* Fix overwrite JSON type configuration being empty by @falser101 in https://github.com/apolloconfig/apollo/pull/4486\r\n* Fix deleted at timestamp by @nobodyiam in https://github.com/apolloconfig/apollo/pull/4493\r\n* Fix openapi item with url illegalKey 400 error by @AbnerHuang2 in https://github.com/apolloconfig/apollo/pull/4549\r\n* Fix `@Transactional` invalid cases by @ksice in https://github.com/apolloconfig/apollo/pull/4551\r\n* Fix the exception occurred when publish/rollback namespaces with grayrelease by @nobodyiam in https://github.com/apolloconfig/apollo/pull/4564\r\n* Fix a json serialization problem during LDAP integration by @klboke in https://github.com/apolloconfig/apollo/pull/4556\r\n* Fix Apollo checks the yaml format interface Response Code = 500  by @klboke in https://github.com/apolloconfig/apollo/pull/4567\r\n* Fix create namespace with single dot 500 error by @AbnerHuang2 in https://github.com/apolloconfig/apollo/pull/4568\r\n* Fix(sec): upgrade fastjson to 1.2.83 by @ren-jq101 in https://github.com/apolloconfig/apollo/pull/4587\r\n* Fix get the openapi interface that contains namespace information for deleted items by @CalebZYC in https://github.com/apolloconfig/apollo/pull/4596\r\n* Disable spring cloud discovery when running test to speed up test process and reduce error log by @wutingjia in https://github.com/apolloconfig/apollo/pull/4604\r\n* Fix Grayscale release Item Value length limit can not be synchronized with its main version by @David-zhang-beep in https://github.com/apolloconfig/apollo/pull/4622\r\n* Fix the problem of deleting blank items appear at the end by @wanggang19 in https://github.com/apolloconfig/apollo/pull/4662\r\n\r\n### Misc\r\n* Remove database migration tool Flyway by @nisiyong in https://github.com/apolloconfig/apollo/pull/4361\r\n* Refactor: replace expired method by @zhangyangx in https://github.com/apolloconfig/apollo/pull/4429\r\n* Some Redundancy Code Cleanup by @HeavenTonight in https://github.com/apolloconfig/apollo/pull/4433\r\n* Refactor: Simplify the code by @zhangyangx in https://github.com/apolloconfig/apollo/pull/4435\r\n* Chore: fix stargazer chart with star-history.com by @tianzhou in https://github.com/apolloconfig/apollo/pull/4441\r\n* Clean up Ctrip related codes by @klboke in https://github.com/apolloconfig/apollo/pull/4448\r\n* Clean up deserted travis ci config by @HeavenTonight in https://github.com/apolloconfig/apollo/pull/4450\r\n* Move apollo-demo, scripts/docker-quick-start and scripts/apollo-on-kubernetes out of main repository by @nobodyiam in https://github.com/apolloconfig/apollo/pull/4440\r\n* Optimize apolloconfigdb-v190-v200-after.sql by @klboke in https://github.com/apolloconfig/apollo/pull/4470\r\n* Optimize performance of '/apps/{appId}/envs/{env}/clusters/{clusterName}/namespaces' interface queries by @klboke in https://github.com/apolloconfig/apollo/pull/4473\r\n* Fix test case NamespaceServiceTest.testFindNamespace() by @klboke in https://github.com/apolloconfig/apollo/pull/4491\r\n* Refactor(apollo-biz): simplify the code of ReleaseService by @mghio in https://github.com/apolloconfig/apollo/pull/4502\r\n* Replace the deprecated SHA-1 algorithm for generating open-api token by @mghio in https://github.com/apolloconfig/apollo/pull/4504\r\n* Refactor ItemSetService(updateSet Item) and ConfigChangeContentBuilder a little bit by @mghio in https://github.com/apolloconfig/apollo/pull/4515\r\n* Refactor tryToGetClientIp method by @klboke in https://github.com/apolloconfig/apollo/pull/4514\r\n* Fix transcation invalid by @ksice in https://github.com/apolloconfig/apollo/pull/4509\r\n* Refactor: Simplify code by @mghio in https://github.com/apolloconfig/apollo/pull/4524\r\n* Update apollo-introduction.md by @ddzyan in https://github.com/apolloconfig/apollo/pull/4534\r\n* Add index for table ReleaseHistory by @mghio in https://github.com/apolloconfig/apollo/pull/4550\r\n* Refactoring the message splicing of internal Exceptions by @klboke in https://github.com/apolloconfig/apollo/pull/4571\r\n* Fix: add missing @Override annotation for ApolloEurekaClientConfig#getEurekaServerServiceUrls by @CalebZYC in https://github.com/apolloconfig/apollo/pull/4575\r\n* Add overloaded shortcut method to register BeanDefinition by @liaozan in https://github.com/apolloconfig/apollo/pull/4574\r\n* Docs: misspelled recommend by @llnancy in https://github.com/apolloconfig/apollo/pull/4582\r\n* Docs: add a version notice in the Open API documentation by @mghio in https://github.com/apolloconfig/apollo/pull/4585\r\n* Docs: add nodejs client sdk  by @ChoGathK in https://github.com/apolloconfig/apollo/pull/4590\r\n* Move apollo-core, apollo-client, apollo-mockserver, apollo-openapi and apollo-client-config-data to apollo-java repo by @nobodyiam in https://github.com/apolloconfig/apollo/pull/4594\r\n* Fix doc bug by @lepdou in https://github.com/apolloconfig/apollo/pull/4579\r\n* Fixes testUpdateBranchGrayRulesWithUpdateOnce by @ZhewenFu in https://github.com/apolloconfig/apollo/pull/4599\r\n* Fix flaky test in apollo-biz by @anantdahiya8 in https://github.com/apolloconfig/apollo/pull/4618\r\n* Docs: fix markdown code blocks by change 4 back quote to 3 back quote by @hxpdong in https://github.com/apolloconfig/apollo/pull/4631\r\n* Refactor: remove app.properties and move some config file's location by @Anilople in https://github.com/apolloconfig/apollo/pull/4637\r\n* Docs: upgrade rainbond deploy docs version to 2.0.1 by @week2311 in https://github.com/apolloconfig/apollo/pull/4652\r\n* Add an apollo-go client by @xnzone in https://github.com/apolloconfig/apollo/pull/4665\r\n* Config cookie same site to lax by @nobodyiam in https://github.com/apolloconfig/apollo/pull/4664\r\n* Update docker quick start document by @schneiderlin in https://github.com/apolloconfig/apollo/pull/4675\r\n* Add portal https guide by @nobodyiam in https://github.com/apolloconfig/apollo/pull/4676\r\n* Unify the experience of using the portal UI by @klboke in https://github.com/apolloconfig/apollo/pull/4681\r\n* Simplify url assembly in test cases by @klboke in https://github.com/apolloconfig/apollo/pull/4682\r\n* Add github action to publish docker image by @nobodyiam in https://github.com/apolloconfig/apollo/pull/4685\r\n* Delete unused code by @klboke in https://github.com/apolloconfig/apollo/pull/4701\r\n* Docs: add apollo rust client by @liushv0 in https://github.com/apolloconfig/apollo/pull/4704\r\n\r\n### Breaking Changes\r\n\r\nAs was discussed in #4353, apollo drops the support for the flyway database migration tool.\r\n\r\n## Installation\r\n\r\nPlease refer to the [Distributed Deployment Guide](https://www.apolloconfig.com/#/en/deployment/distributed-deployment-guide).\r\n\r\n## How to upgrade from v2.0.1 to v2.1.0\r\n* Apply [apolloconfigdb-v200-v210.sql](https://github.com/ctripcorp/apollo/blob/master/scripts/sql/delta/v200-v210/apolloconfigdb-v200-v210.sql) to ApolloConfigDB\r\n* Deploy v2.1.0 executables with the following sequences:\r\n  * apollo-configservice\r\n  * apollo-adminservice\r\n  * apollo-portal\r\n* Execute the following SQL to clear the spring sessions as spring security sessions are not compatible between versions, see https://github.com/spring-projects/spring-security/issues/9204\r\n```sql\r\nuse ApolloPortalDB;\r\ndelete from `SPRING_SESSION_ATTRIBUTES`;\r\ndelete from `SPRING_SESSION`;\r\n```\r\n\r\n## New Contributors\r\n* @shenhuaxin made their first contribution in https://github.com/apolloconfig/apollo/pull/4409\r\n* @lorgine-li made their first contribution in https://github.com/apolloconfig/apollo/pull/4414\r\n* @Anthony-Lu made their first contribution in https://github.com/apolloconfig/apollo/pull/4419\r\n* @zhangyangx made their first contribution in https://github.com/apolloconfig/apollo/pull/4429\r\n* @HeavenTonight made their first contribution in https://github.com/apolloconfig/apollo/pull/4433\r\n* @tianzhou made their first contribution in https://github.com/apolloconfig/apollo/pull/4441\r\n* @falser101 made their first contribution in https://github.com/apolloconfig/apollo/pull/4437\r\n* @ksice made their first contribution in https://github.com/apolloconfig/apollo/pull/4509\r\n* @ddzyan made their first contribution in https://github.com/apolloconfig/apollo/pull/4534\r\n* @AbnerHuang2 made their first contribution in https://github.com/apolloconfig/apollo/pull/4519\r\n* @SunnyBoy-WYH made their first contribution in https://github.com/apolloconfig/apollo/pull/4533\r\n* @furaul made their first contribution in https://github.com/apolloconfig/apollo/pull/4542\r\n* @liaozan made their first contribution in https://github.com/apolloconfig/apollo/pull/4574\r\n* @llnancy made their first contribution in https://github.com/apolloconfig/apollo/pull/4582\r\n* @ren-jq101 made their first contribution in https://github.com/apolloconfig/apollo/pull/4587\r\n* @ChoGathK made their first contribution in https://github.com/apolloconfig/apollo/pull/4590\r\n* @wutingjia made their first contribution in https://github.com/apolloconfig/apollo/pull/4604\r\n* @webSue made their first contribution in https://github.com/apolloconfig/apollo/pull/4592\r\n* @ZhewenFu made their first contribution in https://github.com/apolloconfig/apollo/pull/4599\r\n* @anantdahiya8 made their first contribution in https://github.com/apolloconfig/apollo/pull/4618\r\n* @David-zhang-beep made their first contribution in https://github.com/apolloconfig/apollo/pull/4622\r\n* @hxpdong made their first contribution in https://github.com/apolloconfig/apollo/pull/4631\r\n* @week2311 made their first contribution in https://github.com/apolloconfig/apollo/pull/4652\r\n* @xnzone made their first contribution in https://github.com/apolloconfig/apollo/pull/4665\r\n* @wanggang19 made their first contribution in https://github.com/apolloconfig/apollo/pull/4662\r\n* @schneiderlin made their first contribution in https://github.com/apolloconfig/apollo/pull/4675\r\n* @liushv0 made their first contribution in https://github.com/apolloconfig/apollo/pull/4704"
     },
     "https://github.com/extremecoders-re/pyinstxtractor": {
-        "created_at": "2023-12-03 18:19:07",
+        "created_at": "2024-04-14 06:18:14",
         "description": "PyInstaller Extractor",
-        "commit_message": "Mention support for pyinstaller 6.3.0",
-        "commit_date": "2024-01-20 12:36:02",
-        "release_date": "2023-12-03 18:20:26",
+        "commit_message": "Mention support for pyinstaller 6.4.0, 6.5.0, 6.6.0",
+        "commit_date": "2024-04-14 06:18:14",
+        "release_date": "2024-04-14 06:20:02",
         "release_message": "Bump release version"
     },
     "https://github.com/odedshimon/BruteShark": {
@@ -21434,11 +21436,11 @@
         "commit_message": "Added Escape function\n\nThis commit adds the Escape function for escaping a path\ncomponent, making it possible to directly querying keys that have\nspecial characters like dots.\n\n```\njson := `{\n  \"user\":{\n      \"first.name\": \"Janet\",\n      \"last.name\": \"Prichard\"\n    }\n}`\nuser := gjson.Get(json, \"user\")\nprintln(user.Get(gjson.Escape(\"first.name\")).String())\nprintln(user.Get(gjson.Escape(\"last.name\")).String())\n// Output:\n// Janet\n// Prichard\n```\n\nSee #333"
     },
     "https://github.com/robertdavidgraham/masscan": {
-        "created_at": "",
-        "description": "",
+        "created_at": "2021-01-31 09:18:14",
+        "description": "TCP port scanner, spews SYN packets asynchronously, scanning entire Internet in under 5 minutes.",
         "release_tag": "",
-        "release_date": "",
-        "release_message": "",
+        "release_date": "2021-01-31 09:19:32",
+        "release_message": "support for some VPNs\r\nfixes",
         "commit_date": "2023-12-03 19:42:16",
         "commit_message": "Merge pull request #748 from robertdavidgraham/integration\n\nextract"
     },
@@ -23699,8 +23701,8 @@
     "https://github.com/cider-security-research/cicd-goat": {
         "created_at": "2023-08-01 07:41:49",
         "description": "A deliberately vulnerable CI/CD environment. Learn CI/CD security through multiple challenges.",
-        "commit_message": "Updated ctfd and localstack tags for ARM64 (#74)\n\n* Updated tags for ARM64\r\n\r\n* Fix homepage HTML\r\n\r\n---------\r\n\r\nCo-authored-by: asi-cider <88270351+asi-cider@users.noreply.github.com>",
-        "commit_date": "2024-01-17 13:06:05",
+        "commit_message": "fix: cheshire-cat solution (#79)\n\nfix: cheshire-cat solution",
+        "commit_date": "2024-05-07 13:43:22",
         "release_date": "2023-08-01 11:39:40",
         "release_message": "## 🐛 Bug fixes:\r\n* fixed links to test data in gryphon.md by @yaron-cider in https://github.com/cider-security-research/cicd-goat/pull/60\r\n* Update dormouse.md solution by @yaron-cider in https://github.com/cider-security-research/cicd-goat/pull/61\r\n* Limit permissions release.yaml by @yaron-cider in https://github.com/cider-security-research/cicd-goat/pull/62\r\n* Fix CI and improve run time by @asi-cider in https://github.com/cider-security-research/cicd-goat/pull/63\r\n* Update caterpillar.md by @chrisbrown-01 in https://github.com/cider-security-research/cicd-goat/pull/64\r\n\r\n## ✏️ More Changes\r\n* update docs & ci config for latest docker engine by @codevbus in https://github.com/cider-security-research/cicd-goat/pull/38\r\n* Rebranding by @asi-cider in https://github.com/cider-security-research/cicd-goat/pull/66\r\n\r\n**Full Changelog**: https://github.com/cider-security-research/cicd-goat/compare/1.2.5...1.2.6"
     },
@@ -25240,8 +25242,8 @@
         "description": "将PDF转换成Excel在线工具 - 免费 - CleverPDF"
     },
     "https://www.rapidtables.org/zh-CN/convert/number/hex-to-ascii.html": {
-        "status_code": 200,
-        "description": "十六进制到ASCII | 十六进制到文本字符串转换器"
+        "status_code": 504,
+        "description": "www.rapidtables.org | 504: Gateway time-out"
     },
     "https://ctf.mzy0.com/CyberChef3/": {
         "status_code": 200,
@@ -27070,7 +27072,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "20.171.78.157属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "20.109.38.43属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
