@@ -27072,7 +27072,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "4.227.115.131属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "52.238.27.195属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
@@ -27299,8 +27299,8 @@
         "description": "十大网盘搜索引擎 - 凌风云"
     },
     "https://censys.io/": {
-        "status_code": 200,
-        "description": "Attack Surface Management and Threat Hunting Solutions | Censys"
+        "status_code": 503,
+        "description": "Site is offline"
     },
     "https://www.whois.com/whois/": {
         "status_code": 200,
