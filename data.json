@@ -578,12 +578,12 @@
         "release_message": "修复fernflow引擎的一些bug"
     },
     "https://github.com/shadow1ng/fscan": {
-        "created_at": "2023-11-13 04:42:02",
+        "created_at": "2024-05-11 08:09:14",
         "description": "一款内网综合扫描工具，方便一键自动化、全方位漏扫扫描。",
-        "commit_message": "Merge pull request #329 from scyxdd/fix-webtitle\n\n修复获取WebTitle的Bug",
-        "commit_date": "2024-01-15 08:31:14",
-        "release_date": "2023-11-13 04:43:05",
-        "release_message": "加入控制台颜色输出(可-nocolor)、保存文件json结构(-json)、修改tls最低版本为1.0、端口分组(-p db,web,service)。"
+        "commit_message": "优化报错处理",
+        "commit_date": "2024-05-11 08:09:14",
+        "release_date": "2024-05-11 08:51:48",
+        "release_message": "小更新，优化报错处理。避免部分扫描模块报错后导致的程序退出\r\nlinux(amd64)默认使用fscan\r\nwindows(x64)默认使用fscan.exe即可"
     },
     "https://github.com/yzddmr6/WebCrack": {
         "created_at": "2019-08-20 03:39:16",
@@ -1976,13 +1976,13 @@
         "release_message": "Penetration Suite Toolkit v4.0：\r\n链接：https://pan.baidu.com/s/1yyHd7jYrNdnzlZe9dl3gdw?pwd=vb5a\r\n\r\n全套虚拟机镜像：\r\n链接：https://pan.xunlei.com/s/VN2xlbB9pxTo0bWdgdg5vXUtA1?pwd=fvp3\r\n\r\n软件安装包：\r\n链接：https://pan.xunlei.com/s/VNIof2IDw2PX34Uz9zaiPDK-A1?pwd=sfn6"
     },
     "https://github.com/bit4woo/knife": {
-        "created_at": "2018-06-12 14:25:18",
+        "created_at": "2024-05-06 10:51:08",
         "description": "A burp extension that add some useful function to  Context Menu 添加一些右键菜单让burp用起来更顺畅",
-        "commit_date": "2023-09-10 08:12:57",
-        "commit_message": "Update FindUrlAndRequest.java",
+        "commit_date": "2024-05-22 11:13:12",
+        "commit_message": "update",
         "release_tag": "v2.2",
-        "release_date": "2023-04-25 03:38:54",
-        "release_message": "更新“Find URL And Request”功能\r\n更新chinese中文显示面板逻辑，及时刷新避免有时显示不一致的问题\r\n端口扫描逻辑优化，多个host在同一个命令行中完成扫描，避免打开太多窗口\r\n更新dismiss功能，规则更清晰也更容易自行编辑处理。\r\n让proxy中的数据包编辑更改可视化，更容易判断数据处理规则是否正确\r\n数据包修改更新、丢弃转发的规则类型更丰富，适应更多场景。"
+        "release_date": "2024-05-06 10:55:56",
+        "release_message": "FindUrlAndRequest菜单功能更新\r\n新增2个菜单：CopyJsOfThisSite、ChangeToUploadRequest\r\n代码优化，修复多个bug\r\n将SQLMap和Nmap等执行命令的功能合并为 “run cmd”功能，支持添加自定义命令\r\nChineseTab重写，支持语法高亮和自动换行，方便阅读\r\n支持配置项搜索和多选操作"
     },
     "https://github.com/Giotino/stegsolve": {
         "created_at": "2018-12-10 21:40:04",
@@ -3373,7 +3373,7 @@
         "release_message": "全局：\r\n多个bug修复\r\n布局模式优化\r\n基础方法实现逻辑优化\r\n\r\n右键菜单：\r\n“Do Search”提供主动在制定请求中进行搜索的能力，比如在某企业邮箱的流量中搜索以提取邮箱地址\r\n“Add Request And Comment”右键菜单添逻辑优化，修复一个bug\r\n“Send To Tool Panel”右键菜单处理逻辑优化，可合并发送多个数据包内容\r\n\r\nDomain面板：\r\nroot domain的comments逻辑更新\r\n提供多个网络搜索引擎的后台自动搜索功能\r\nroot domain双击，自动在浏览器中访问\r\n修改目标根域名删除失败的bug\r\n显示序号，以便在排序后恢复原始顺序\r\n\r\nTool面板：\r\n重写JTextArea的paste函数，避免大内容导致程序卡死\r\nJTextArea支持输入文件，而程序处理其内容。\r\n文本取提供简单的历史记录功能\r\nJSON提取逻辑优化\r\n新增多个功能，比如排序\r\n优化URL提取逻辑，避免遗漏没有以/开头的path\r\n\r\nTitle面板中：\r\n端口扫描命令生成逻辑优化\r\n备注和IP内容的显示优化，显示前排序\r\n备注添加逻辑优化\r\n给手动添加的记录添加已知的IP和CNAME、CertInfo\r\n搜索功能增强，支持对数字型字段进行大于、小于、等于等搜索\r\n添加多个搜索实例，以便用户熟悉搜索语法\r\n新增“Do Request Item Again”菜单，对DNS记录或无响应的数据包进行再次请求"
     },
     "https://github.com/RoomaSec/RmEye": {
-        "created_at": "2022-08-22 12:11:37",
+        "created_at": "2022-09-21 07:28:07",
         "description": "戎码之眼是一个window上的基于att&ck模型的威胁监控工具.有效检测常见的未知威胁与已知威胁.防守方的利剑",
         "commit_date": "2023-10-25 07:55:45",
         "commit_message": "Update readme.md",
@@ -4264,7 +4264,7 @@
         "commit_date": "2024-02-06 20:00:02"
     },
     "https://github.com/tdragon6/Supershell": {
-        "created_at": "2023-03-25 15:02:43",
+        "created_at": "2023-09-26 13:49:47",
         "description": "Supershell C2 远控平台，基于反向SSH隧道获取完全交互式Shell",
         "commit_date": "2023-09-26 13:49:47",
         "commit_message": "Update Changelog.md",
@@ -6227,7 +6227,7 @@
         "release_message": ""
     },
     "https://github.com/taojy123/KeymouseGo": {
-        "created_at": "2015-01-31 04:16:37",
+        "created_at": "2023-02-10 15:56:29",
         "description": "类似按键精灵的鼠标键盘录制和自动化操作 模拟点击和键入 | automate mouse clicks and keyboard input",
         "commit_date": "2023-09-05 14:34:26",
         "commit_message": "Merge branch 'master' of https://github.com/taojy123/KeymouseGo",
@@ -7935,13 +7935,13 @@
         "release_message": ""
     },
     "https://github.com/jxhczhl/JsRpc": {
-        "created_at": "2021-09-25 13:14:03",
+        "created_at": "2024-04-22 12:26:54",
         "description": "远程调用(rpc)浏览器方法，免去抠代码补环境",
-        "commit_date": "2023-08-30 03:41:34",
-        "commit_message": "Update go.mod",
+        "commit_date": "2024-04-22 15:17:25",
+        "commit_message": "调整文档记录位置",
         "release_tag": "v1.02",
-        "release_date": "2023-05-23 11:54:13",
-        "release_message": "只简单的编译了一个win和mac\r\n其他系统的自己编译一下吧。\r\n\r\n\r\n"
+        "release_date": "2024-04-22 12:46:47",
+        "release_message": "其他版本可自行编译一下~\r\n\r\n☺️"
     },
     "https://github.com/nanshihui/PocCollect": {
         "created_at": "2016-06-21 07:45:12",
@@ -22395,7 +22395,7 @@
         "release_message": ""
     },
     "https://github.com/veo/vagent": {
-        "created_at": "2023-05-11 03:08:53",
+        "created_at": "2023-10-08 05:21:38",
         "description": "多功能 java agent 内存马",
         "commit_date": "2023-10-08 05:21:38",
         "commit_message": "Readme",
@@ -22653,10 +22653,10 @@
         "release_message": ""
     },
     "https://github.com/LiangXiaoWei1024/net-penetrate-http-and-https-simple": {
-        "created_at": "2022-03-24 12:38:23",
+        "created_at": "2023-11-14 19:24:02",
         "description": "内网穿透、GUI、一键启动、不限速，内置日志",
-        "commit_date": "2023-11-16 13:00:46",
-        "commit_message": "aaa",
+        "commit_date": "2024-02-24 10:33:19",
+        "commit_message": "tcp测试",
         "release_tag": "2.0.2",
         "release_date": "2023-11-14 19:30:26",
         "release_message": "https\r\n时间延长"
@@ -23231,13 +23231,13 @@
         "release_message": "Dude v1.4.0.7"
     },
     "https://github.com/k8gege/LadonGo": {
-        "created_at": "",
-        "description": "",
+        "created_at": "2022-09-15 15:27:33",
+        "description": "Ladon for Kali 全平台开源内网渗透扫描器,Windows/Linux/Mac/路由器内网渗透，使用它可轻松一键批量探测C段、B段、A段存活主机、高危漏洞检测MS17010、SmbGhost，远程执行SSH/Winrm，密码爆破SMB/SSH/FTP/Mysql/Mssql/Oracle/Winrm/HttpBasic/Redis，端口扫描服务识别PortScan指纹识别/HttpBanner/HttpTitle/TcpBanner/Weblogic/Oxid多网卡主机，端口扫描服务识别PortScan。",
         "commit_date": "2023-12-15 16:35:45",
         "commit_message": "Update README.md",
         "release_tag": "",
-        "release_date": "",
-        "release_message": ""
+        "release_date": "2023-12-15 15:58:32",
+        "release_message": "### Oracle数据库一键提权\r\n![image](http://k8gege.org/k8img/Ladon/OracleCmd.PNG)\r\n5.2 2023.12.14\r\n[+]OracleCmd\tOracle远程提权执行操作系统命令\r\n[+]龙芯架构64位\t支持的linux kernel版本最低也是5.19,旧版龙芯不支持\r\n\r\n基于GO 1.20 一些老旧系统如win2003/xp、unix、liunx低版本不支持\r\nGO 1.20最后一个支持Win7/2008的版本  GO 1.21编译 Win7无法使用\r\n\r\n\r\n5.2 2023.12.13\r\n[+]OracleSql\t执行SQL语句 内置命令ver priv dba\r\n[+]OracleScan\tOracle密码爆破 驱动更新为go-ora\r\n[u]OracleScan\t支持传统字典user.txt pass.txt爆破\r\n[u]OracleScan\t支持sid.txt user.txt pass.txt爆破(sid为数据库名，如orcl)\r\n[u]OracleScan\t支持用户密码组合 userpass.txt爆破\r\n"
     },
     "https://github.com/sp4zcmd/WeblogicExploit-GUI": {
         "created_at": "2022-04-20 09:35:48",
@@ -24090,7 +24090,7 @@
         "release_message": ""
     },
     "https://github.com/0x727/BypassPro": {
-        "created_at": "2023-04-06 10:22:34",
+        "created_at": "2023-04-07 03:35:37",
         "description": "对权限绕过自动化bypass的burpsuite插件",
         "commit_date": "2023-09-21 03:17:28",
         "commit_message": "Merge pull request #5 from 0cat-r/patch-1\n\nUpdate README.md",
@@ -26309,8 +26309,8 @@
     "https://github.com/bit4woo/Fiora": {
         "created_at": "2022-01-01 12:16:03",
         "description": "Fiora：漏洞PoC框架Nuclei的图形版。快捷搜索PoC、一键运行Nuclei。即可作为独立程序运行，也可作为burp插件使用。",
-        "commit_message": "Delete .github/workflows/main.yml",
-        "commit_date": "2023-12-22 02:56:41",
+        "commit_message": "Update LineEntryMenu.java",
+        "commit_date": "2024-05-14 11:05:55",
         "release_date": "2022-01-01 12:16:56",
         "release_message": "该项目为PoC框架nuclei提供图形界面，实现快速搜索、一键运行等功能，提升nuclei的使用体验。"
     },
@@ -27072,7 +27072,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "52.238.27.195属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "172.200.199.179属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
@@ -27299,8 +27299,8 @@
         "description": "十大网盘搜索引擎 - 凌风云"
     },
     "https://censys.io/": {
-        "status_code": 503,
-        "description": "Site is offline"
+        "status_code": 200,
+        "description": "Attack Surface Management and Threat Hunting Solutions | Censys"
     },
     "https://www.whois.com/whois/": {
         "status_code": 200,
