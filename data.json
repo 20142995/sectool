@@ -27072,7 +27072,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "52.225.77.208属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "20.172.46.72属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
@@ -27091,8 +27091,8 @@
         "description": "Reverse IP Lookup - All Names Hosted at an IP - DomainTools"
     },
     "https://www.webscan.cc/": {
-        "status_code": 521,
-        "description": "www.webscan.cc | 521: Web server is down"
+        "status_code": 404,
+        "description": ""
     },
     "https://gofile.io/": {
         "status_code": 200,
@@ -27100,7 +27100,7 @@
     },
     "https://whois.aizhan.com/": {
         "status_code": 200,
-        "description": "站长工具_whois查询工具_爱站网"
+        "description": ""
     },
     "https://rapiddns.io/sameip": {
         "status_code": 200,
