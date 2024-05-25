@@ -1050,7 +1050,7 @@
         "release_message": "## What's Changed\r\n* refactor: reduce setOptions function call by @ninoseki in https://github.com/ninoseki/mitaka/pull/805\r\n* Renew neverthrow integration by @ninoseki in https://github.com/ninoseki/mitaka/pull/806\r\n* feat: add reachability check by @ninoseki in https://github.com/ninoseki/mitaka/pull/807\r\n* Refactoring by @ninoseki in https://github.com/ninoseki/mitaka/pull/812\r\n* v2.1.1 by @ninoseki in https://github.com/ninoseki/mitaka/pull/813\r\n\r\n\r\n**Full Changelog**: https://github.com/ninoseki/mitaka/compare/v2.1.0...v2.1.1"
     },
     "https://github.com/v2rayA/v2rayA": {
-        "created_at": "2024-03-02 14:57:25",
+        "created_at": "2019-10-18 20:42:06",
         "description": "A web GUI client of Project V which supports VMess, VLESS, SS, SSR, Trojan, Tuic and Juicity protocols. 🚀",
         "commit_message": "Merge pull request #1195 from wnxd/sing-tun\n\nAdd tun mode with sing-tun",
         "commit_date": "2024-04-14 14:41:22",
@@ -22607,10 +22607,10 @@
         "release_message": "- 开发框架由.Net Framework 4.0切换为.Net 8\r\n- 采用R2R发布,运行环境已集成到exe中\r\n- 界面上的细小调整\r\n- SHA1: 2AAF1F0DFB7C2ABA175475D834CFCC48A3BB79A8\r\n\r\n由于框架跨度较大，可能会存在BUG。欢迎提交issue"
     },
     "https://github.com/yqcs/prismx": {
-        "created_at": "2023-12-25 06:08:41",
+        "created_at": "2024-04-15 04:59:10",
         "description": ":: 棱镜 X · 一体化的轻量型跨平台渗透系统",
-        "commit_message": "1.2.1发布",
-        "commit_date": "2024-04-15 05:04:07",
+        "commit_message": "Update README.md",
+        "commit_date": "2024-05-23 03:39:41",
         "release_date": "2024-04-15 05:12:48",
         "release_message": "  - 精简nuclei引擎，现在体积更小了\r\n  - 修复Windows7下运行崩溃bug\r\n  - 新增溯源辅助工具，一键收集日志数据\r\n  - 解决扫描目标过多导致web卡顿问题\r\n \r\ntips:需要单独下载lib.zip和built.zip文件并在可执行程序的同级目录解压 \r\n  **此次更新涉及数据库，需替换数据库文件**\r\n\r\n\r\n"
     },
@@ -25826,12 +25826,12 @@
         "release_message": "This is a bugfix/maintenance release that works around issue #130 related to usage of modules during asynchronous save operations. If you are not using modules there is no need to upgrade."
     },
     "https://github.com/securego/gosec": {
-        "created_at": "2024-02-12 09:14:58",
+        "created_at": "2024-05-14 13:36:59",
         "description": "Go security checker",
-        "commit_message": "chore(deps): update module github.com/onsi/gomega to v1.33.0",
-        "commit_date": "2024-04-22 07:11:31",
-        "release_date": "2024-02-12 09:17:20",
-        "release_message": "## Changelog\n* 26e57d6 Update CI to go version 1.22\n* e60b8d8 chore(deps): update all dependencies\n* 1285eb7 chore(deps): update all dependencies\n* cf4ab3e chore(deps): update all dependencies\n* 277553c chore(deps): update all dependencies\n* 57ec76b chore(deps): update all dependencies\n* 8fa46c1 chore(deps): update dependency babel-standalone to v7.23.7\n* 53aa3f7 chore(deps): update module golang.org/x/crypto to v0.17.0 [security]\n* 187adab chore(deps): update all dependencies\n* e1f27ba chore(deps): update actions/setup-go action to v5\n* 2aad3f0 Fix lint warnings by properly formatting the files\n* 0e2a618 chore: Refactor Sample Code to Separate Files\n* bc03d1c Update go version to 1.21.5 and 1.20.12 (#1084)\n* 79a6b47 chore(deps): update all dependencies (#1080)\n* eb256a7 Ignore the issues from generated files when using the analysis framework (#1079)\n* 43b7cbf Update README with upload-sarif v2 (#1078)\n* fece498 chore(deps): update dependency babel-standalone to v7.23.4\n* 24c614b Added ppc64le support\n* c736581 chore(deps): update all dependencies\n* 3188e3f Ensure ignores are handled properly for multi-line issues\n* 6d56592 Update Go to version 1.21.4 and 1.20.11\n* 870103b chore(deps): update module golang.org/x/text to v0.14.0\n* b50e493 chore(deps): update all dependencies\n* 2f9965b Remove the hardcoded GOOS value when building the Linux binary to enable support for container image for ARM\n* fa1b74d Avoid allocations with `(*regexp.Regexp).MatchString`\n* 64bbe90 Fix some typos\n* d9071e3 Update local installation instructions by removing the details for Go 1.16\n* 5d837bc Update gosec version to 2.18.2 in the action\n\n"
+        "commit_message": "Use the proper logic when disabling the go module version\n\nSigned-off-by: Cosmin Cojocar <cosmin@cojocar.ch>",
+        "commit_date": "2024-05-22 08:31:43",
+        "release_date": "2024-05-14 13:42:29",
+        "release_message": "## Changelog\n* 6fbd381 Catch os.ModePerm permissions in os.WriteFile\n* dc5e5a9 Add a unit test to detect the false negative in rule G306 for os.ModePerm permissions\n* 417a44c Add filepath.EvalSymlinks to clean functions in rule G304\n* d34f8b7 chore(deps): update all dependencies\n* 8658b8e Update Go to version 2.22.3 in CI and release\n* d3b2359 chore(deps): update module golang.org/x/text to v0.15.0\n* cf29d54 chore(deps): update all dependencies\n* 09d62bd chore(deps): update module github.com/onsi/gomega to v1.33.0\n* 3b23ec8 Update to go 1.22.2\n* 31009c3 chore(deps): update all dependencies\n* daf6f67 chore(deps): update module github.com/onsi/ginkgo/v2 to v2.17.1\n* e27f442 chore(deps): update all dependencies\n* 5513615 fix(helpers/goversion): get from go.mod\n* 43b8b75 chore: fix function name\n* accd7a1 chore(deps): update all dependencies\n* 48aa72e Format the imports using the gci tool\n* b6df69c Fixup: delete unused variable\n* ccb0a08 Fix test: update test to comply with the spec of generated sources\n* 3a0ea51 Refactor: use standard function to check if a file is generated\n* 11c3252 Fix lint warnings\n* be378e6 Add support for math/rand/v2 added in Go 1.22\n* 36878a9 Skip the G601 tests for Go version 1.22\n* 903c75b Update go version to 1.22.1 and 1.21.8\n* f25ccd9 Ignore 'implicit memory aliasing' rule for Go 1.22+\n* 582e91a chore(deps): update all dependencies\n* 198a40c chore(deps): update module golang.org/x/tools to v0.18.0\n* c824a5d fix(hardcoded): remove duplicated `Stripe API Key`\n* d13d7da Update gosec version to v2.19.0 in the Github action\n\n"
     },
     "https://github.com/Ar3h/putter": {
         "created_at": "2023-09-09 06:56:00",
@@ -25878,8 +25878,8 @@
     "https://github.com/retirejs/retire.js": {
         "created_at": "2024-03-12 07:30:25",
         "description": "scanner detecting the use of JavaScript libraries with known vulnerabilities. Can also generate an SBOM of the libraries it finds.",
-        "commit_message": "Update CWE and severity of two vulns",
-        "commit_date": "2024-04-23 11:03:28",
+        "commit_message": "Update dependencies",
+        "commit_date": "2024-05-24 12:54:19",
         "release_date": "2024-03-12 07:30:30",
         "release_message": "## [5.0.0-beta.1]\n\n### Added\n\n- Deepscan option with `--deep` where retire.js will also try to detect libraries using JavaScript AST (slower)\n\n"
     },
@@ -27072,7 +27072,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "20.161.77.200属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "52.225.77.208属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
@@ -28027,7 +28027,7 @@
         "commit_date": "2023-03-27 07:52:59"
     },
     "https://github.com/FindAllTeam/FindAll": {
-        "created_at": "2024-03-06 07:20:38",
+        "created_at": "2024-01-15 11:54:33",
         "description": "Automated analysis of network security emergency response tools.（自动化分析网络安全应急响应工具）",
         "commit_message": "feat: QR",
         "commit_date": "2024-04-07 02:18:03",
