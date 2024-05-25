@@ -86,10 +86,10 @@
         "release_message": ""
     },
     "https://github.com/zhzyker/dismap": {
-        "created_at": "2021-07-24 12:37:45",
+        "created_at": "2022-06-16 09:31:58",
         "description": "Asset discovery and identification tools 快速识别 Web 指纹信息，定位资产类型。辅助红队快速定位目标资产信息，辅助蓝队发现疑似脆弱点",
-        "commit_date": "2023-08-14 09:19:15",
-        "commit_message": "Update readme.md",
+        "commit_date": "2024-01-22 09:26:45",
+        "commit_message": "Merge pull request #44 from zhzyker/version-0.6\n\nVersion 0.6",
         "release_tag": "v0.4",
         "release_date": "2022-06-16 10:13:59",
         "release_message": "* Optimize concurrency strategy to improve speed (https://github.com/zhzyker/dismap/commit/a2a779f512fc02984a909f359b644154b8855d64)\r\n* Optimize json output (https://github.com/zhzyker/dismap/commit/a2a779f512fc02984a909f359b644154b8855d64) https://github.com/zhzyker/dismap/issues/19\r\n* Added giop protocol identification rules (https://github.com/zhzyker/dismap/commit/edcf125ffac50c0555ead1791d8688b3477d10ce)\r\n* Added web fingerprinting rules\r\n\r\n***\r\n\r\n* 优化并发策略，理论上扫描速度+50% (https://github.com/zhzyker/dismap/commit/a2a779f512fc02984a909f359b644154b8855d64)\r\n* 优化 json 输出 (https://github.com/zhzyker/dismap/commit/a2a779f512fc02984a909f359b644154b8855d64) https://github.com/zhzyker/dismap/issues/19\r\n* 新增 giop 协议识别 (https://github.com/zhzyker/dismap/commit/edcf125ffac50c0555ead1791d8688b3477d10ce)\r\n* 新增 web 指纹识别规则\r\n\r\n```BASH\r\n#MD5SUM  \r\ned45058d0b4b1a488908003d11566d3f  dismap-0.4-darwin-amd64\r\nd5d8662a35b9d02cd60edbcb6a4d832a  dismap-0.4-darwin-arm64\r\ne62e4e4f17fc14316ff78de7735c1cbc  dismap-0.4-linux-amd64\r\n33ac2c467e3efede0d883f3d5a08281e  dismap-0.4-linux-arm64\r\nd759431d0fcb55881fc3e2afbb1f55d6  dismap-0.4-windows-amd64.exe\r\n545704128fb9faef774037b143d80f0a  dismap-0.4-windows-x86.exe\r\n```"
@@ -176,13 +176,13 @@
         "release_message": "1. 修复HTTPS分块传输请求导致处理逻辑错误(#105)的问题\r\n2. 废弃domain_in查询方式(#106)，后续多个域名查询可使用多个domain参数查询，详情可看http://blog.antenna.cool/docs/api_back\r\n3. 新增api查询用户token以及查询当前项目使用版本接口，为下个版本SDK与自动更新功能做准备\r\n\r\n"
     },
     "https://github.com/lanyi1998/DNSlog-GO": {
-        "created_at": "2020-09-05 16:18:57",
+        "created_at": "2023-10-08 02:32:31",
         "description": "DNSLog-GO 是一款golang编写的监控 DNS 解析记录的工具，自带WEB界面 / DNSLog-GO is a monitoring tool written in Golang that monitors DNS resolution records. It comes with a web interface.",
         "commit_date": "2023-10-08 02:32:31",
         "commit_message": "Update README.md",
         "release_tag": "master",
         "release_date": "2023-10-08 02:34:24",
-        "release_message": ""
+        "release_message": null
     },
     "https://github.com/Mr-xn/JNDIExploit-1": {
         "created_at": "2021-12-13 14:07:50",
@@ -448,10 +448,10 @@
         "release_message": "**Bug**\r\n\r\n- [✓] - 修复了项目设置、整改设置数据超过20条无法显示的问题\r\n\r\n**优化**\r\n\r\n- [✓] - 增加模板过滤器，可以对高中低漏洞分别统计\r\n- [✓] - 增加漏洞删除功能\r\n- [✓] - 提供历史漏洞下载功能\r\n- [✓] - 优化了报告中图片显示过大的问题\r\n\r\n**待处理**\r\n\r\n- [✗] - 重启容器后用户清空，目前解决方案为手动注释/Savior/docker/run.sh中Python3开头代码。暂无自动化解决方案。"
     },
     "https://github.com/ExpLangcn/NucleiTP": {
-        "created_at": "",
-        "description": "",
-        "commit_date": "2023-08-03 22:30:16",
-        "commit_message": "更新啦❤️",
+        "created_at": "2022-11-08 13:16:56",
+        "description": "自动整合全网Nuclei的漏洞POC，实时同步更新最新POC！",
+        "commit_date": "2024-02-29 05:38:00",
+        "commit_message": "🌟Updated ⌛️2024-02-29 13:38",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -466,8 +466,8 @@
         "release_message": "### 插件更新\r\n增加 Atlassian Confluence Widget Connector macro RCE漏洞检测插件 CVE-2019-3396 @ywolf \r\n增加 Microsoft Remote Desktop RCE漏洞检测插件  CVE-2019-0708 @Medicean \r\n\r\n### 代码更新\r\n修复 go并发调用时出现goroutine leak问题 @l3m0n \r\n修复 加载json插件内存未释放问题 @l3m0n \r\n\r\n### 其他\r\n无"
     },
     "https://github.com/k8gege/K8tools": {
-        "created_at": "",
-        "description": "",
+        "created_at": "2019-02-23 14:04:52",
+        "description": "K8工具合集(内网渗透/提权工具/远程溢出/漏洞利用/扫描工具/密码破解/免杀工具/Exploit/APT/0day/Shellcode/Payload/priviledge/BypassUAC/OverFlow/WebShell/PenTest) Web GetShell Exploit(Struts2/Zimbra/Weblogic/Tomcat/Apache/Jboss/DotNetNuke/zabbix)",
         "commit_date": "2023-12-16 17:23:36",
         "commit_message": "Volatility2.6内存取证集成Mimikatz DumpHash插件",
         "release_tag": "",
@@ -640,13 +640,13 @@
         "release_message": ""
     },
     "https://github.com/ph4ntonn/Stowaway": {
-        "created_at": "2019-11-15 03:25:50",
+        "created_at": "2024-03-29 07:21:43",
         "description": "👻Stowaway -- Multi-hop Proxy Tool for pentesters",
-        "commit_date": "2023-10-28 04:17:23",
-        "commit_message": "Add Apple Silicon support",
+        "commit_date": "2024-05-20 08:29:25",
+        "commit_message": "Update README",
         "release_tag": "v2.1",
-        "release_date": "2022-04-08 15:53:34",
-        "release_message": "👻 v2.1 is released~ v2.1 is an upgraded version of v2.0\r\n\r\n## BE AWARE\r\n-  If you are trying to use admin on windows,plz make sure you have installed [ansicon](https://github.com/adoxa/ansicon/releases)\r\n- And if you have any problems when using command ```shell```,plz check the [shell.go](https://github.com/ph4ntonn/Stowaway/blob/master/agent/handler/shell.go) and read the annotation first!!! Maybe it can solve ur problems.\r\n\r\n## Update\r\n- 2021.10.1 \r\n    - Switch AES-CBC to AES-GCM.Thanks to @SignorMercurio \r\n    - Fix bugs. Thanks to @SignorMercurio \r\n- 2022.1.23\r\n    - Fix shell&topo bugs.Thanks to @lz520520\r\n- 2022.4.8 \r\n    - Fix data loss bug when closing a short connection.Thanks to @lz520520\r\n    - Add gzip function.Thanks to @lz520520 \r\n    - Optimize the key code\r\n    - Fix some bugs\r\n- 2022.7.19\r\n    - Fix nil pointer bug #41.Thanks to @zyylhn\r\n- 2023.7.20\r\n    - Add http proxy support\r\n- 2023.10.31\r\n    - Replace compressed macos executable file with uncompressed one, since the system version newer than macOS Ventura(13.5) will make upx crash. Users can compress Stowaway themselves if necessary(Target MacOS system version must below 13.0). If you want to learn more, check the details https://github.com/upx/upx/issues/612"
+        "release_date": "2024-03-29 07:36:22",
+        "release_message": "👻 v2.2 is released~ Fix bugs & Add new features\r\n\r\n## BE AWARE\r\n-  If you are trying to use admin on windows,plz make sure you have installed [ansicon](https://github.com/adoxa/ansicon/releases)\r\n- And if you have any problems when using command ```shell```,plz check the [shell.go](https://github.com/ph4ntonn/Stowaway/blob/master/agent/handler/shell.go) and read the annotation first!!! Maybe it can solve ur problems.\r\n\r\n## Update\r\n- 2021.10.1 \r\n    - Switch AES-CBC to AES-GCM.Thanks to @SignorMercurio \r\n    - Fix bugs. Thanks to @SignorMercurio \r\n- 2022.1.23\r\n    - Fix shell&topo bugs.Thanks to @lz520520\r\n- 2022.4.8 \r\n    - Fix data loss bug when closing a short connection.Thanks to @lz520520\r\n    - Add gzip function.Thanks to @lz520520 \r\n    - Optimize the key code\r\n    - Fix some bugs\r\n- 2022.7.19\r\n    - Fix nil pointer bug #41.Thanks to @zyylhn\r\n- 2023.7.20\r\n    - Add http proxy support\r\n- 2023.10.31\r\n    - Replace compressed macos executable file with uncompressed one, since the system version newer than macOS Ventura(13.5) will make upx crash. Users can compress Stowaway themselves if necessary(Target MacOS system version must below 13.0). If you want to learn more, check the details https://github.com/upx/upx/issues/612\r\n- 2024.3.28\r\n    - Allow admin to exit when nothing connected https://github.com/ph4ntonn/Stowaway/commit/2ed667d41eacc5a60e5c0a841f3e16246760fcce\r\n- 2024.3.29\r\n   - Enable TLS feature for the connection between nodes https://github.com/ph4ntonn/Stowaway/commit/af059a7e5987decbc6b426b3ec7f7de326bd82c6. Thanks to @lz520520\r\n   - Socks can listen on specific interface  https://github.com/ph4ntonn/Stowaway/commit/b183e10838b147ed4126448ad44e42b9c5363cb6\r\n- 2024.3.31\r\n   - Update TLS https://github.com/ph4ntonn/Stowaway/commit/de126dbdb3d76111be06daaef2963708bce633e3\r\n- 2024.4.1\r\n   - Enable WS for inter-node traffic https://github.com/ph4ntonn/Stowaway/commit/e4b324dd442eecd61360989c6c73949c06c55407 https://github.com/ph4ntonn/Stowaway/commit/e48c50ba0a0e1a2581608e23fb2601adc5ea5b2d This functionality is still lacking and requires further improvement. For now, it works well within the NGINX environment.\r\n- 2024.4.11\r\n   - Fix nil pointer bug #61"
     },
     "https://github.com/uknowsec/BurpSuite-Extender-fastjson": {
         "created_at": "2020-03-07 13:17:08",
@@ -1344,7 +1344,7 @@
         "release_message": ""
     },
     "https://github.com/knownsec/ZoomEye-python": {
-        "created_at": "2016-05-20 03:45:25",
+        "created_at": "2023-04-12 07:44:49",
         "description": "ZoomEye-python: The official Python library and CLI by Knownsec 404 Team.",
         "commit_date": "2023-09-25 02:51:15",
         "commit_message": "Merge pull request #99 from WuZhaominn/master\n\nupdate config.py",
@@ -3453,7 +3453,7 @@
         "release_message": "1. 配置文件后缀由.yaml变更为.yml（请手动修改已存在的配置文件名称）\r\n1. 修复module name不正确导致无法导入问题\r\n1. 在多页查询时进行配合和数据总量的判断，限制maxPage最大值"
     },
     "https://github.com/LoRexxar/Kunlun-M": {
-        "created_at": "2017-09-07 06:25:58",
+        "created_at": "2022-06-23 08:45:41",
         "description": "KunLun-M是一个完全开源的静态白盒扫描工具，支持PHP、JavaScript的语义扫描，基础安全、组件安全扫描，Chrome Ext\\Solidity的基础扫描。",
         "commit_date": "2023-10-25 03:49:28",
         "commit_message": "Merge pull request #240 from LoRexxar/develop\n\nfix bug",
@@ -15540,12 +15540,12 @@
         "release_message": ""
     },
     "https://github.com/mozillazg/python-pinyin": {
-        "created_at": "2013-09-14 14:01:40",
+        "created_at": "2024-03-10 05:06:57",
         "description": "汉字转拼音(pypinyin)",
-        "commit_date": "2023-09-09 03:46:39",
-        "commit_message": "Bump actions/checkout from 3 to 4 (#305)\n\nBumps [actions/checkout](https://github.com/actions/checkout) from 3 to 4.\r\n- [Release notes](https://github.com/actions/checkout/releases)\r\n- [Changelog](https://github.com/actions/checkout/blob/main/CHANGELOG.md)\r\n- [Commits](https://github.com/actions/checkout/compare/v3...v4)\r\n\r\n---\r\nupdated-dependencies:\r\n- dependency-name: actions/checkout\r\n  dependency-type: direct:production\r\n  update-type: version-update:semver-major\r\n...\r\n\r\nSigned-off-by: dependabot[bot] <support@github.com>\r\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
+        "commit_date": "2024-03-10 05:06:56",
+        "commit_message": "Bump version: 0.50.0 → 0.51.0",
         "release_tag": "v0.49.0",
-        "release_date": "2023-05-14 12:24:50",
+        "release_date": "2024-03-10 05:20:33",
         "release_message": ""
     },
     "https://github.com/sh3d0ww01f/WaterDragon": {
@@ -22413,7 +22413,7 @@
         "release_message": "更新日志：\r\n1. 鉴权抛弃了cookie改为了JWT\r\n2. 增加了验证码\r\n3. 增加加载数据的动画\r\n4. 修复了一些小bug，如空白符导致的用户名重复\r\n5. 优化了日志存储，对登录注册记录了日志\r\n6. 前端打包的代码加了gzip静态压缩"
     },
     "https://github.com/wgpsec/YongYouNcTool": {
-        "created_at": "2023-08-19 10:10:56",
+        "created_at": "2023-08-19 10:23:27",
         "description": "用友NC系列漏洞检测利用工具，支持一键检测、命令执行回显、文件落地、一键打入内存马、文件读取等",
         "commit_date": "2023-08-19 14:50:28",
         "commit_message": "Update README.md",
@@ -22644,13 +22644,13 @@
         "commit_date": "2024-05-15 14:38:25"
     },
     "https://github.com/nelenkov/android-backup-extractor": {
-        "created_at": "2012-06-08 13:33:46",
+        "created_at": "2022-08-09 06:34:28",
         "description": "Android backup extractor",
-        "commit_date": "2023-09-05 03:33:59",
-        "commit_message": "Merge pull request #120 from nelenkov/renovate/actions-checkout-4.x\n\nchore(deps): update actions/checkout action to v4",
+        "commit_date": "2024-02-22 08:03:14",
+        "commit_message": "Merge pull request #125 from ThexXTURBOXx/master\n\nRemove warnings, update dependencies, Gradle and fix build",
         "release_tag": "master-20221109063121-8fdfc5e",
         "release_date": "2022-11-09 06:31:30",
-        "release_message": ""
+        "release_message": null
     },
     "https://github.com/LiangXiaoWei1024/net-penetrate-http-and-https-simple": {
         "created_at": "2023-11-14 19:24:02",
@@ -23134,13 +23134,13 @@
         "release_message": "[*]优化协议名称逻辑，避免存在首字符为数字的协议名"
     },
     "https://github.com/pureqh/Hyacinth": {
-        "created_at": "2023-09-15 07:13:19",
+        "created_at": "2023-11-15 02:32:48",
         "description": "一款java漏洞集合工具",
-        "commit_date": "2023-11-15 02:32:48",
-        "commit_message": "Add files via upload",
+        "commit_date": "2024-02-28 08:13:18",
+        "commit_message": "Update README.md",
         "release_tag": "hyacinth-v1.3",
-        "release_date": "2023-11-15 02:30:04",
-        "release_message": "修复一些bug"
+        "release_date": "2024-02-28 08:09:54",
+        "release_message": "优化了dnslog配置文件的获取方式，现在会从hyacinth.jar的同目录寻找config.txt文件进行录入dnslog配置\r\n更新了一个重要系统利用模块 包含confluenceNday利用、gitlabNday利用以及jenkins密文解密功能"
     },
     "https://github.com/FeeiCN/ESD": {
         "created_at": "2018-02-27 08:34:40",
@@ -23286,8 +23286,8 @@
     "https://github.com/f0cker/crackq": {
         "created_at": "2023-12-29 13:27:37",
         "description": "CrackQ: A Python Hashcat cracking queue system",
-        "commit_message": "Fixes #43",
-        "commit_date": "2024-01-31 12:23:15",
+        "commit_message": "Update bug_report.md",
+        "commit_date": "2024-05-24 08:01:19",
         "release_date": "2023-12-29 13:42:12",
         "release_message": "Bug fixes (#40/#41)\r\nUpdated nvidia docker config/images and flask-login"
     },
@@ -27072,7 +27072,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "20.172.46.72属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "52.234.33.178属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
@@ -27091,8 +27091,8 @@
         "description": "Reverse IP Lookup - All Names Hosted at an IP - DomainTools"
     },
     "https://www.webscan.cc/": {
-        "status_code": 404,
-        "description": ""
+        "status_code": 200,
+        "description": "同IP网站查询,C段查询,IP反查域名,在线C段,旁站工具 - WebScan"
     },
     "https://gofile.io/": {
         "status_code": 200,
@@ -27100,7 +27100,7 @@
     },
     "https://whois.aizhan.com/": {
         "status_code": 200,
-        "description": ""
+        "description": "站长工具_whois查询工具_爱站网"
     },
     "https://rapiddns.io/sameip": {
         "status_code": 200,
