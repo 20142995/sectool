@@ -385,7 +385,7 @@
         "release_message": ""
     },
     "https://github.com/boy-hack/ksubdomain": {
-        "created_at": "2021-10-24 14:37:09",
+        "created_at": "2022-03-31 05:45:50",
         "description": "Subdomain enumeration tool, asynchronous dns packets, use pcap to scan 1600,000 subdomains in 1 second",
         "commit_date": "2022-06-15 09:27:52",
         "commit_message": "Merge branch 'main' of https://github.com/boy-hack/ksubdomain",
@@ -1371,7 +1371,7 @@
         "release_message": "* 新增支持从验证码反回包中获取内容填充到请求包中（该功能可以支持uuid验证码格式以及其他类似模式）\r\n* 如果下载我打包好的环境的，请替换掉对应的server.py脚本"
     },
     "https://github.com/ReddyyZ/urlbrute": {
-        "created_at": "2020-12-04 22:09:05",
+        "created_at": "2020-12-05 15:54:27",
         "description": "Directory/Subdomain scanner developed in GoLang.",
         "commit_date": "2020-12-05 15:54:27",
         "commit_message": "v1.0.2 | DNS brute-force | Some updates",
@@ -1551,7 +1551,7 @@
         "release_message": "允许拖入多个jar或者war进行快速反编译。"
     },
     "https://github.com/d3ckx1/Fvuln": {
-        "created_at": "2021-09-26 14:05:11",
+        "created_at": "2022-09-18 11:14:42",
         "description": "F-vuln（全称：Find-Vulnerability）是为了自己工作方便专门编写的一款自动化工具，主要适用于日常安全服务、渗透测试人员和RedTeam红队人员，它集合的功能包括：存活IP探测、开放端口探测、web服务探测、web漏洞扫描、smb爆破、ssh爆破、ftp爆破、mssql爆破等其他数据库爆破工作以及大量web漏洞检测模块。",
         "commit_date": "2023-07-22 02:03:42",
         "commit_message": "Update README.md",
@@ -2676,8 +2676,8 @@
     "https://github.com/kozmer/log4j-shell-poc": {
         "created_at": "2021-12-10 23:19:28",
         "description": "A Proof-Of-Concept for the CVE-2021-44228 vulnerability. ",
-        "commit_date": "2023-02-08 23:30:22",
-        "commit_message": ":)",
+        "commit_date": "2024-02-12 22:35:40",
+        "commit_message": "poc",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -3206,7 +3206,7 @@
         "release_message": ""
     },
     "https://github.com/BishopFox/GadgetProbe": {
-        "created_at": "2020-01-21 19:45:18",
+        "created_at": "2020-02-17 23:31:29",
         "description": "Probe endpoints consuming Java serialized objects to identify classes, libraries, and library versions on remote Java classpaths.",
         "commit_date": "2021-02-19 18:47:05",
         "commit_message": "Update README.md",
@@ -5650,10 +5650,10 @@
         "release_message": "### Notable Changes\n\nWe have optimized the heartbeat mechanism when tcpmux is enabled (enabled by default). The default value of `heartbeatInterval` has been adjusted to -1. This update ensures that when tcpmux is active, the client does not send additional heartbeats to the server. Since tcpmux incorporates its own heartbeat system, this change effectively reduces unnecessary data consumption, streamlining communication efficiency between client and server.\n\nWhen connecting to frps versions older than v0.39.0 might encounter compatibility issues due to changes in the heartbeat mechanism. As a temporary workaround, setting the `heartbeatInterval` to 30 can help maintain stable connectivity with these older versions. We recommend updating to the latest frps version to leverage full functionality and improvements.\n\n### Features\n\n* Show tcpmux proxies on the frps dashboard.\n* `http` proxy can modify the response header. For example, `responseHeaders.set.foo = \"bar\"` will add a new header `foo: bar` to the response.\n\n### Fixes\n\n* When an HTTP proxy request times out, it returns 504 instead of 404 now.\n\n"
     },
     "https://github.com/gentilkiwi/mimikatz": {
-        "created_at": "2014-04-06 18:30:02",
+        "created_at": "2022-09-19 12:57:55",
         "description": "A little tool to play with Windows security",
-        "commit_date": "2022-09-19 21:24:53",
-        "commit_message": "Revert to Visual Studio 2013 (due to an error in Microsoft headers, can't build in Win32)",
+        "commit_date": "2024-01-05 09:06:47",
+        "commit_message": "Merge pull request #439 from chunhualiu/master\n\n[change] Convert pointer to DWORD_PTR first to eliminate compile warning",
         "release_tag": "2.2.0-20220919",
         "release_date": "2022-09-19 15:55:03",
         "release_message": ""
@@ -20231,11 +20231,11 @@
         "commit_message": "License and Readme Updates\n\nDate and Grammar Fixes"
     },
     "https://github.com/tomnomnom/waybackurls": {
-        "created_at": "2018-01-24 22:25:18",
+        "created_at": "2022-04-05 10:17:18",
         "description": "Fetch all the URLs that the Wayback Machine knows about for a domain",
         "release_tag": "v0.1.0",
         "release_date": "2022-04-05 10:19:55",
-        "release_message": "",
+        "release_message": null,
         "commit_date": "2022-04-05 10:20:15",
         "commit_message": "Fixes release script"
     },
@@ -24256,7 +24256,7 @@
         "release_message": "更新：\r\n1.新增了反序列化模块。\r\n2.支持批量URL漏洞检测，漏洞情况导出，自定义线程数。\r\n3.支持了{{字符串数据:Base64Encode}}、{{Hex编码后的数据:HexDecode}}等写法，参考nuclei、YAKIT。\r\n4.优化了部分代码，如占位符逻辑优化，面板输出优化等，"
     },
     "https://github.com/KrystianLi/ExchangeOWA": {
-        "created_at": "2023-02-14 01:34:38",
+        "created_at": "2023-05-22 10:47:08",
         "description": "一款OutLook信息收集工具",
         "commit_date": "2023-05-23 00:54:24",
         "commit_message": "Update README.md",
@@ -24412,8 +24412,8 @@
         "description": "魅族安全中心"
     },
     "https://sec.vip.com/": {
-        "status_code": 503,
-        "description": ""
+        "status_code": 200,
+        "description": "VSRC首页-唯品会信息安全中心"
     },
     "https://sec.wacai.com/": {
         "status_code": 200,
@@ -24818,8 +24818,8 @@
         "description": "404 Not Found"
     },
     "https://dig.pm": {
-        "status_code": 530,
-        "description": "Argo Tunnel error | dig.pm | Cloudflare"
+        "status_code": 200,
+        "description": "DNSLOG Platform"
     },
     "https://www.callback.red": {
         "status_code": 200,
@@ -27043,8 +27043,8 @@
         "release_message": "- PE-Sieve upgraded to fixed [version 0.3.6](https://github.com/hasherezade/pe-sieve/releases/tag/v0.3.6)"
     },
     "https://dig.pm/": {
-        "status_code": 530,
-        "description": "Argo Tunnel error | dig.pm | Cloudflare"
+        "status_code": 200,
+        "description": "DNSLOG Platform"
     },
     "https://seamless.icu/": {
         "status_code": 404,
@@ -27072,7 +27072,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "52.234.40.16属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "20.81.46.177属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
