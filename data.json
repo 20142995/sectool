@@ -316,10 +316,10 @@
         "release_message": ""
     },
     "https://github.com/guchangan1/All-Defense-Tool": {
-        "created_at": "",
-        "description": "",
-        "commit_date": "2023-12-14 07:29:24",
-        "commit_message": "更新v3.1",
+        "created_at": "2022-04-25 11:45:06",
+        "description": "本项目集成了全网优秀的攻防武器工具项目，包含自动化利用，子域名、目录扫描、端口扫描等信息收集工具，各大中间件、cms、OA漏洞利用工具，爆破工具、内网横向、免杀、社工钓鱼以及应急响应、甲方安全资料等其他安全攻防资料。",
+        "commit_date": "2024-05-07 10:10:42",
+        "commit_message": "update.v3.3",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -1008,8 +1008,8 @@
     "https://github.com/Mr-xn/BurpSuite-collections": {
         "created_at": "2020-01-25 02:07:37",
         "description": "有关burpsuite的插件(非商店),文章以及使用技巧的收集(此项目不再提供burpsuite破解文件,如需要请在博客mrxn.net下载)---Collection of burpsuite plugins (non-stores), articles and tips for using Burpsuite, no crack version file",
-        "commit_date": "2023-08-04 13:50:07",
-        "commit_message": "Update README.md",
+        "commit_date": "2024-05-08 14:30:27",
+        "commit_message": "add 编写burp插件实现数据包自定义修改",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -1869,10 +1869,10 @@
         "release_message": "### Update\r\n\r\n- 集成飞书知识库，详细使用方法请参考[飞书知识库](docs/wiki_feishu.md)；数据库新增了wiki表，从v2.11升级需导入wiki.sql；\r\n- 在web后台查看acceelog日志；\r\n- web的配置管理拆分为Server端和Worker端；\r\n- 更新nuclei的poc；\r\n\r\n### Thirdparty版本\r\n\r\n- Httpx：1.3.9\r\n- Subfinder：2.6.4\r\n- Nuclei：3.1.7\r\n- Gogo: 2.11.12\r\n- Goby：2.8.8\r\n- Xray：1.9.11\r\n- fingerprintx：1.1.13（fork and fixed by [hanc00l](https://github.com/hanc00l/fingerprintx))\r\n"
     },
     "https://github.com/yuyan-sec/RedisEXP": {
-        "created_at": "2022-03-19 14:41:00",
+        "created_at": "2023-08-02 16:59:50",
         "description": "Redis 漏洞利用工具",
-        "commit_date": "2023-08-02 16:59:50",
-        "commit_message": "0.0.3",
+        "commit_date": "2024-01-22 02:30:24",
+        "commit_message": "Update README.md",
         "release_tag": "0.0.3",
         "release_date": "2023-08-02 17:00:47",
         "release_message": "修复服务器开启端口问题"
@@ -21815,7 +21815,7 @@
         "release_message": ""
     },
     "https://github.com/ffffffff0x/gendict": {
-        "created_at": "2022-09-20 15:58:22",
+        "created_at": "2023-09-05 08:15:20",
         "description": "字典生成工具",
         "release_tag": "v1.0.5",
         "release_date": "2023-09-05 08:17:21",
@@ -23643,8 +23643,8 @@
     "https://github.com/Z3ratu1/HackBrowserDataManual": {
         "created_at": "2023-08-13 10:37:26",
         "description": "Get password/cookie/history from browser and use devtools protocol to bypass edr monitoring",
-        "commit_date": "2023-08-14 05:49:01",
-        "commit_message": "update readme",
+        "commit_date": "2024-02-20 02:27:14",
+        "commit_message": "update dependency",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -24063,13 +24063,13 @@
         "release_message": ""
     },
     "https://github.com/Naturehi666/searchall": {
-        "created_at": "2023-02-23 12:39:13",
+        "created_at": "2024-03-31 02:21:05",
         "description": "强大的敏感信息搜索工具",
-        "commit_date": "2023-10-25 11:17:44",
-        "commit_message": "searchall3.5.8\n\n最新版代码",
+        "commit_date": "2024-03-31 02:21:05",
+        "commit_message": "Update 使用说明.md",
         "release_tag": "search3.5.8",
         "release_date": "2023-09-23 12:30:46",
-        "release_message": "1.解决已知bug\r\n2.增加-e 参数拓展自定义扩展名功能，例如.java , .log 都可以\r\n3.增加-n 参数可以只扫描指定拓展名的功能"
+        "release_message": "1.解决已知bug\r\n2.增加-e 参数拓展自定义扩展名功能，例如.java , .log 都可以\r\n3.增加-n 参数可以只扫描指定拓展名的功能\r\n4.解决浏览器功能的已知bug"
     },
     "https://github.com/TebbaaX/GRecon": {
         "created_at": "2020-12-17 18:29:04",
@@ -24412,8 +24412,8 @@
         "description": "魅族安全中心"
     },
     "https://sec.vip.com/": {
-        "status_code": 200,
-        "description": "VSRC首页-唯品会信息安全中心"
+        "status_code": 503,
+        "description": ""
     },
     "https://sec.wacai.com/": {
         "status_code": 200,
@@ -24818,8 +24818,8 @@
         "description": "404 Not Found"
     },
     "https://dig.pm": {
-        "status_code": 200,
-        "description": "DNSLOG Platform"
+        "status_code": 530,
+        "description": "Argo Tunnel error | dig.pm | Cloudflare"
     },
     "https://www.callback.red": {
         "status_code": 200,
@@ -27043,8 +27043,8 @@
         "release_message": "- PE-Sieve upgraded to fixed [version 0.3.6](https://github.com/hasherezade/pe-sieve/releases/tag/v0.3.6)"
     },
     "https://dig.pm/": {
-        "status_code": 200,
-        "description": "DNSLOG Platform"
+        "status_code": 530,
+        "description": "Argo Tunnel error | dig.pm | Cloudflare"
     },
     "https://seamless.icu/": {
         "status_code": 404,
@@ -27072,7 +27072,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "20.42.106.69属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "52.234.40.16属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
@@ -27091,8 +27091,8 @@
         "description": "Reverse IP Lookup - All Names Hosted at an IP - DomainTools"
     },
     "https://www.webscan.cc/": {
-        "status_code": 500,
-        "description": ""
+        "status_code": 200,
+        "description": "同IP网站查询,C段查询,IP反查域名,在线C段,旁站工具 - WebScan"
     },
     "https://gofile.io/": {
         "status_code": 200,
