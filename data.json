@@ -4113,8 +4113,8 @@
     "https://github.com/vulhub/vulhub": {
         "created_at": "2017-04-09 10:13:13",
         "description": "Pre-Built Vulnerable Environments Based on Docker-Compose",
-        "commit_message": "Merge pull request #522 from vulhub/translation/gitlist\n\nTranslation for GItList issue",
-        "commit_date": "2024-05-06 11:14:33"
+        "commit_message": "Merge pull request #529 from vulhub/pdfjs-cve-2024-4367\n\nAdded PDF.js CVE-2024-4367",
+        "commit_date": "2024-05-24 14:32:16"
     },
     "https://github.com/zhuifengshaonianhanlu/pikachu": {
         "created_at": "2018-07-24 08:21:19",
@@ -6362,8 +6362,8 @@
     "https://github.com/ufrisk/MemProcFS": {
         "created_at": "2024-03-03 11:07:17",
         "description": "MemProcFS",
-        "commit_message": "Version 5.9.14",
-        "commit_date": "2024-05-16 17:47:55",
+        "commit_message": "Version 5.9.15",
+        "commit_date": "2024-05-21 16:37:09",
         "release_date": "2024-03-03 11:08:21",
         "release_message": "* Bug fixes.\r\n* Module improvements: ntfs, procinfo, web.\r\n* C# API: improvements.\r\n* Java API: support for java.lang.foreign (JDK21+) for efficient memory accesses.\r\n* Linux PCIe FPGA performance improvements.\r\n* FindEvil: Triggered Yara rules are now shown.\r\n* FindEvil: AV detections from Windows Defender residing on the analyzed system.\r\n* Python API: new functionality (multi-read, type-read) and improved scatter read performance.\r\n* Support for Proxmox memory dump files.\r\n\r\nFor previous release builds see the [release archive](https://github.com/ufrisk/MemProcFS/releases/tag/v5_archive)."
     },
@@ -8566,8 +8566,8 @@
     "https://github.com/nomi-sec/PoC-in-GitHub": {
         "created_at": "2019-12-08 13:03:54",
         "description": "📡 PoC auto collect from GitHub. ⚠️ Be careful Malware.",
-        "commit_message": "Auto Update 2024/05/19 00:28:07",
-        "commit_date": "2024-05-19 00:28:07"
+        "commit_message": "Auto Update 2024/05/26 00:28:45",
+        "commit_date": "2024-05-26 00:28:45"
     },
     "https://github.com/Ridter/CVE-2017-11882": {
         "created_at": "2017-11-21 05:55:53",
@@ -23693,8 +23693,8 @@
     "https://github.com/qi4L/JYso": {
         "created_at": "2024-05-16 03:25:03",
         "description": "It can be either a JNDIExploit or a ysoserial.",
-        "commit_message": "re README +++4",
-        "commit_date": "2024-05-19 10:26:07",
+        "commit_message": "重写TomcatEchoJndi +",
+        "commit_date": "2024-05-23 09:41:32",
         "release_date": "2024-05-16 03:25:30",
         "release_message": "#  新增TomcatJdbc路由\r\n\r\n参考：\r\n- https://tttang.com/archive/1405/#toc_groovyclassloader\r\n- https://xz.aliyun.com/t/10656?time__1311=mq%2BxBDy7G%3DLOD%2FD0DoY4AKqiKD%3DOQjqx&alichlgref=https%3A%2F%2Ftttang.com%2F"
     },
@@ -24227,8 +24227,8 @@
     "https://github.com/jeremylong/DependencyCheck": {
         "created_at": "2024-05-15 09:29:26",
         "description": "OWASP dependency-check is a software composition analysis utility that detects publicly disclosed vulnerabilities in application dependencies.",
-        "commit_message": "build(deps): bump org.apache.maven.plugins:maven-deploy-plugin from 3.1.1 to 3.1.2 (#6652)",
-        "commit_date": "2024-05-20 00:07:58",
+        "commit_message": "fix: skip pyproject.toml unless it contains `tool.poetry` before ensuring lockfiles (#6681)\n\nCo-authored-by: Max Gipson <max.gipson.ctr@teambespin.us>",
+        "commit_date": "2024-05-25 10:51:30",
         "release_date": "2024-05-15 10:00:16",
         "release_message": "Refer to the [CHANGELOG.md](https://github.com/jeremylong/DependencyCheck/blob/main/CHANGELOG.md#change-log) for information about improvements and upgrade notes."
     },
@@ -25648,12 +25648,12 @@
         "release_message": "# 更新日志\r\n\r\n看到网上并没有很好的二进制文件切割&合并工具，于是自己写一个\r\n\r\n- **更加灵活的切割和合并二进制文件**\r\n- **使用 Python，可以跨平台运行**"
     },
     "https://github.com/future-architect/vuls": {
-        "created_at": "2024-05-10 08:32:40",
+        "created_at": "2024-05-17 10:11:51",
         "description": "Agent-less vulnerability scanner for Linux, FreeBSD, Container, WordPress, Programming language libraries, Network devices",
-        "commit_message": "feat(detector, contrib/trivy-to-vuls): collect vendor severity and cvss (#1921)",
-        "commit_date": "2024-05-17 10:11:51",
-        "release_date": "2024-05-10 10:04:25",
-        "release_message": "This release includes recently released Ubuntu 24.04 support, some additional features, and several bug fixes.\r\nWe strongly recommend update to this version for Red Hat-like distribution users.\r\nWatch out corresponding goval-dictionary and gost updates!\r\n\r\n## New feature\r\n* Ubuntu 24.04 support comes in\r\n  - Depends on new gost, https://github.com/vulsio/gost/pull/249\r\n  - feat(ubuntu): add 24.04 noble by @MaineK00n in https://github.com/future-architect/vuls/pull/1878\r\n* TLS insecure flag is added for SMTP notification\r\n  - TLS insecure option adding by @Koodt in https://github.com/future-architect/vuls/pull/1220\r\n\r\n## (Potential) Incompatibilities\r\n- Use new gost for Ubuntu 24.04 support (https://github.com/future-architect/vuls/pull/1878)\r\n- Use new goval-dictionary for detection on Red Hat-like distributions (https://github.com/future-architect/vuls/pull/1907)\r\n\r\n## Bug fixes\r\n* For Red Hat-like distributions, there were false-positives and false negatives in detection results\r\n  - See https://github.com/future-architect/vuls/issues/1906 for details\r\n  - Now fixed by the PR: feat(detect/redhat): detect unpatched vulnerabilities with oval, stop using gost by @MaineK00n in https://github.com/future-architect/vuls/pull/1907\r\n* style(log) config.toml template docs url by @future-ryunosuketanai in https://github.com/future-architect/vuls/pull/1894\r\n* style: fix some typos in comments by @deferdeter in https://github.com/future-architect/vuls/pull/1897\r\n* (fix) Exclude dev dependencies from npm's package-lock.json and Fix Java DB download endpoint by @shino in https://github.com/future-architect/vuls/pull/1893\r\n* fix(detector/suse): support when advisory.cves has both NVD and SUSE evaluations by @MaineK00n in https://github.com/future-architect/vuls/pull/1899\r\n* style(log) fix trivy docs link by @future-ryunosuketanai in https://github.com/future-architect/vuls/pull/1902\r\n\r\n## Misc Changes\r\n* chore(deps): bump github.com/hashicorp/go-getter from 1.7.3 to 1.7.4 by @dependabot in https://github.com/future-architect/vuls/pull/1903\r\n* chore(deps): bump golang.org/x/net from 0.22.0 to 0.23.0 by @dependabot in https://github.com/future-architect/vuls/pull/1898\r\n* chore(deps): bump github.com/emersion/go-smtp from 0.20.2 to 0.21.0 by @dependabot in https://github.com/future-architect/vuls/pull/1888\r\n* chore(deps): bump golang.org/x/oauth2 from 0.18.0 to 0.19.0 by @dependabot in https://github.com/future-architect/vuls/pull/1891\r\n* chore(deps): bump golang.org/x/sync from 0.6.0 to 0.7.0 by @dependabot in https://github.com/future-architect/vuls/pull/1890\r\n* chore(deps): bump github.com/emersion/go-smtp from 0.21.0 to 0.21.1 by @dependabot in https://github.com/future-architect/vuls/pull/1896\r\n* chore(deps): bump github.com/aquasecurity/trivy from 0.49.1 to 0.50.1 by @dependabot in https://github.com/future-architect/vuls/pull/1885\r\n* chore(deps): bump go.etcd.io/bbolt from 1.3.9 to 1.3.10 by @dependabot in https://github.com/future-architect/vuls/pull/1908\r\n* chore(deps): bump golang.org/x/text from 0.14.0 to 0.15.0 by @dependabot in https://github.com/future-architect/vuls/pull/1909\r\n* chore(deps): bump golang.org/x/oauth2 from 0.19.0 to 0.20.0 by @dependabot in https://github.com/future-architect/vuls/pull/1910\r\n\r\n\r\n## New Contributors\r\n* @Koodt made their first contribution in https://github.com/future-architect/vuls/pull/1220\r\n* @deferdeter made their first contribution in https://github.com/future-architect/vuls/pull/1897\r\n\r\n**Full Changelog**: https://github.com/future-architect/vuls/compare/v0.25.2...v0.25.3\r\n"
+        "commit_message": "chore(deps): bump github.com/aws/aws-sdk-go from 1.53.0 to 1.53.9 (#1934)\n\nBumps [github.com/aws/aws-sdk-go](https://github.com/aws/aws-sdk-go) from 1.53.0 to 1.53.9.\r\n- [Release notes](https://github.com/aws/aws-sdk-go/releases)\r\n- [Commits](https://github.com/aws/aws-sdk-go/compare/v1.53.0...v1.53.9)\r\n\r\n---\r\nupdated-dependencies:\r\n- dependency-name: github.com/aws/aws-sdk-go\r\n  dependency-type: indirect\r\n  update-type: version-update:semver-patch\r\n...\r\n\r\nSigned-off-by: dependabot[bot] <support@github.com>\r\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
+        "commit_date": "2024-05-24 10:31:37",
+        "release_date": "2024-05-21 01:54:42",
+        "release_message": "This release includes a bug fix and a few additional features.\r\n\r\n## New feature\r\n\r\n* Now modularity label is added in the scan result for Red Hat like OSes\r\n  - This fixed https://github.com/future-architect/vuls/issues/1915\r\n  - feat(scanner/redhat): each package has modularitylabel by @MaineK00n in https://github.com/future-architect/vuls/pull/1381\r\n* Vendor severity and every CVSS information are added to `cveContents`\r\n  - This fixed https://github.com/future-architect/vuls/issues/1919\r\n  - Both detector and trivy-to-vuls command are changed in similar way\r\n  - feat(detector, contrib/trivy-to-vuls): collect vendor severity and cvss by @MaineK00n in https://github.com/future-architect/vuls/pull/1921\r\n\r\n## (Potential) Incompatibilities\r\n\r\n* `enabledDnfModules` element no more exists in scanner results\r\n  - By https://github.com/future-architect/vuls/pull/1381\r\n* In elements in `cveContents` originated from trivy, `type` fields are changed from `trivy` to `trivy:nvd` / `trivy:ghsa` etc.\r\n  - By https://github.com/future-architect/vuls/pull/1921\r\n\r\n## Bug fixes\r\n* fix(gost/debian): show all severities that appeared by @MaineK00n in https://github.com/future-architect/vuls/pull/1914\r\n\r\n## Misc Changes\r\n\r\n* chore(deps): bump github.com/emersion/go-smtp from 0.21.1 to 0.21.2 by @dependabot in https://github.com/future-architect/vuls/pull/1918\r\n* chore(deps): bump github.com/aquasecurity/trivy from 0.50.1 to 0.51.1 by @dependabot in https://github.com/future-architect/vuls/pull/1912\r\n\r\n\r\n**Full Changelog**: https://github.com/future-architect/vuls/compare/v0.25.3...v0.25.4"
     },
     "https://github.com/cve-search/cve-search": {
         "created_at": "2024-04-16 13:52:41",
@@ -27072,7 +27072,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "52.234.33.178属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "20.109.38.149属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
@@ -27991,10 +27991,10 @@
         "commit_date": "2023-05-15 03:59:15"
     },
     "https://github.com/kubescape/kubescape": {
-        "created_at": "2021-08-12 10:39:29",
+        "created_at": "2024-05-07 06:16:20",
         "description": "Kubescape is an open-source Kubernetes security platform for your IDE, CI/CD pipelines, and clusters. It includes risk analysis, security, compliance, and misconfiguration scanning, saving Kubernetes users and administrators precious time, effort, and resources.",
-        "commit_message": "Merge pull request #1683 from kubescape/fix/mask-data\n\nMask all containers data",
-        "commit_date": "2024-05-09 17:42:28",
+        "commit_message": "Merge pull request #1685 from kubescape/fixfix\n\nfix yamlhandler deleting too many lines during fix",
+        "commit_date": "2024-05-23 08:19:02",
         "release_date": "2024-05-07 06:55:04",
         "release_message": "This is a hot-fix release, see [v3.0.9 release notes](https://github.com/kubescape/kubescape/releases/tag/v3.0.9).\r\n\r\n## 🐞 Fixed issues\r\n* Fix scanning repo by @dwertent in https://github.com/kubescape/kubescape/pull/1680\r\n\r\n**Full Changelog**: https://github.com/kubescape/kubescape/compare/v3.0.9...v3.0.10"
     },
