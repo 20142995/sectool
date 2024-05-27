@@ -6463,8 +6463,8 @@
     "https://github.com/horsicq/DIE-engine": {
         "created_at": "2023-12-28 19:55:00",
         "description": "DIE engine",
-        "commit_message": "Update module: Detect-It-Easy 2024-05-03",
-        "commit_date": "2024-05-03 21:58:23",
+        "commit_message": "Update module: XFileInfo 2024-05-27",
+        "commit_date": "2024-05-27 00:06:01",
         "release_date": "2023-12-28 21:22:21",
         "release_message": "Please see the file [CHANGELOG](https://github.com/horsicq/Detect-It-Easy/blob/master/changelog.txt) for a detailed list of changes.\r\n\r\n\r\n| Asset / File | Description / Host OS |\r\n| ----------- | ----------- |\r\n| [die_sourcecode_3.09.tar.gz](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_sourcecode_3.09.tar.gz) | Source code tarball |\r\n| [Detect_It_Easy-3.09-x86_64.AppImage](https://github.com/horsicq/DIE-engine/releases/download/3.09/Detect_It_Easy-3.09-x86_64.AppImage) | Portable version for Linux [How to run](https://github.com/horsicq/Detect-It-Easy/blob/master/docs/RUN.md) |\r\n| [die_3.09_Debian_10_amd64.deb](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_Debian_10_amd64.deb) | Installer for Debian 10 |\r\n| [die_3.09_Debian_11_amd64.deb](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_Debian_11_amd64.deb) | Installer for Debian 11 |\r\n| [die_3.09_Debian_12_amd64.deb](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_Debian_12_amd64.deb) | Installer for Debian 12 |\r\n| [die_3.09_Ubuntu_14.04_amd64.deb](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_Ubuntu_14.04_amd64.deb) | Installer for Ubuntu 14.04 |\r\n| [die_3.09_Ubuntu_16.04_amd64.deb](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_Ubuntu_16.04_amd64.deb) | Installer for Ubuntu 16.04 |\r\n| [die_3.09_Ubuntu_18.04_amd64.deb](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_Ubuntu_18.04_amd64.deb) | Installer for Ubuntu 18.04 |\r\n| [die_3.09_Ubuntu_20.04_amd64.deb](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_Ubuntu_20.04_amd64.deb) | Installer for Ubuntu 20.04 |\r\n| [die_3.09_Ubuntu_22.04_amd64.deb](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_Ubuntu_22.04_amd64.deb) | Installer for Ubuntu 22.04 |\r\n| [die_3.09_Ubuntu_22.10_amd64.deb](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_Ubuntu_22.10_amd64.deb) | Installer for Ubuntu 22.10 |\r\n| [die_3.09_Ubuntu_23.04_amd64.deb](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_Ubuntu_23.04_amd64.deb) | Installer for Ubuntu 23.04 |\r\n| [die_3.09_Ubuntu_23.10_amd64.deb](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_Ubuntu_23.10_amd64.deb) | Installer for Ubuntu 23.10 |\r\n| [die_3.09_Kali_2023.4_amd64](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_Kali_2023.4_amd64) | Installer for Kali 2023.4 |\r\n| [die_3.09_Parrot_5.3_amd64.deb](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_Parrot_5.3_amd64.deb) | Installer for Parrot 5.3 |\r\n| [die_3.09_portable_Ubuntu_20.04_amd64.tar.gz](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_portable_Ubuntu_20.04_amd64.tar.gz) | Portable version for Ubuntu 20.04 |\r\n| [detect-it-easy-3.09-1-x86_64.pkg.tar.zst](https://github.com/horsicq/DIE-engine/releases/download/3.09/detect-it-easy-3.09-1-x86_64.pkg.tar.zst) | Installer for Arch Linux |\r\n| [die_mac_3.09_x86_64.pkg](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_mac_3.09_x86_64.pkg) | Installer for macOS |\r\n| [die_mac_qt6_3.09_arm64.pkg](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_mac_qt6_3.09_arm64.pkg) | Installer for macOS Qt6 M1 processor|\r\n| [die_mac_portable_3.09_x86_64.zip](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_mac_portable_3.09_x86_64.zip) | Portable version for macOS |\r\n| [die_win32_portable_3.09_x86.zip](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_win32_portable_3.09_x86.zip) | Portable version for x86 Win32 (Win7-Win11)|\r\n| [die_win64_portable_3.09_x64.zip](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_win64_portable_3.09_x64.zip) | Portable version for x64 Win64 (Win7-Win11) |\r\n| [die_winxp_portable_3.09_x86.zip](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_winxp_portable_3.09_x86.zip) | Portable version for Windows XP (WinXP-Win11) |\r\n\r\n\r\nExperimental versions - There may be bugs in the GUI\r\n\r\n| Asset / File | Description / Host OS |\r\n| ----------- | ----------- |\r\n| [die_win64_qt6_portable_3.09_x64.zip](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_win64_qt6_portable_3.09_x64.zip) | Portable version for x64 Win64 Qt6 (Win10-Win11)|\r\n"
     },
@@ -21943,8 +21943,8 @@
     "https://github.com/apache/logging-log4j2": {
         "created_at": "2024-03-10 19:05:47",
         "description": "Apache Log4j 2 is a versatile, feature-rich, efficient logging API and backend for Java.",
-        "commit_message": "fixed deprecated methods and broken example commit",
-        "commit_date": "2024-05-22 17:55:23",
+        "commit_message": "Update `org.assertj:assertj-core` to version `3.26.0` (#2618)",
+        "commit_date": "2024-05-27 09:42:07",
         "release_date": "2024-03-10 19:24:14",
         "release_message": "This release contains several small fixes and some dependency updates.\r\n\r\n### Changed\r\n\r\n* Improve performance of `CloseableThreadContext#closeMap()` (#2296)\r\n\r\n### Fixed\r\n\r\n* Fix handling of `LoggerContextAware` lookups (#2309)\r\n* Fix NPE in `PatternProcessor` for a `UNIX_MILLIS` pattern (#2346)\r\n* Fix that parameterized message formatting doesn't throw an exception when there are insufficient number of parameters (#2343)\r\n* Fix `StatusLogger` log level filtering when debug mode is enabled (#2337)\r\n* Add `log4j2.StatusLogger.dateFormatZone` system property to set the time-zone `StatusLogger` uses to format `java.time.Instant`. Without this, formatting patterns accessing to time-zone-specific fields (e.g., year-of-era) cause failures. (#2322)\r\n* Fix `StatusLogger` to correctly read `log4j2.StatusLogger.properties` resource (#2354)\r\n* Fix stack overflow in `StatusLogger` (#2322)\r\n\r\n### Updated\r\n\r\n* Update `jakarta.activation:jakarta.activation-api` to version `2.1.3` (#2335)\r\n* Update `jakarta.mail:jakarta.mail-api` to version `2.1.3` (#2348)\r\n* Update `org.apache.commons:commons-compress` to version `1.26.0` (#2304)\r\n* Update `org.apache.commons:commons-dbcp2` to version `2.12.0` (#2344)\r\n* Update `org.apache.kafka:kafka-clients` to version `3.7.0` (#2326)\r\n* Update `org.eclipse.angus:angus-activation` to version `2.0.2` (#2336)\r\n* Update `org.eclipse.angus:jakarta.mail` to version `2.0.3` (#2349)\r\n"
     },
@@ -22732,8 +22732,8 @@
     "https://github.com/shufflewzc/faker3": {
         "created_at": "2022-01-31 21:21:40",
         "description": null,
-        "commit_message": "Update jd_luck_draw.js",
-        "commit_date": "2024-05-24 03:47:07"
+        "commit_message": "Update jd_pro_lottery_task.js",
+        "commit_date": "2024-05-27 10:55:24"
     },
     "https://github.com/harlamism/IdaClu": {
         "created_at": "",
@@ -25190,8 +25190,8 @@
         "description": "首页"
     },
     "http://www.practicalcryptography.com/ciphers/adfgx-cipher/": {
-        "status_code": 500,
-        "description": "500 Internal Server Error"
+        "status_code": 200,
+        "description": "Practical Cryptography"
     },
     "https://www.guballa.de/vigenere-solver": {
         "status_code": 200,
@@ -27072,7 +27072,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "20.97.191.96属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "74.249.21.249属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
@@ -28171,5 +28171,151 @@
         "commit_date": "2024-05-08 06:03:59",
         "release_date": "2024-05-03 06:51:05",
         "release_message": "1.支持ASPX,JSP,PHP的流量特征修改\r\n2.支持原版的哥斯拉马连接（后续推出生成即免杀）"
+    },
+    "https://www.tosec.com.cn/": {
+        "status_code": 200,
+        "description": "中远麒麟堡垒机_堡垒机_一键安装支持多云及动态口令数据库审计的堡垒机_官网"
+    },
+    "https://github.com/DefectDojo/django-DefectDojo": {
+        "created_at": "2024-05-20 18:32:01",
+        "description": " DevSecOps, ASPM, Vulnerability Management. All on one platform.",
+        "commit_message": "Merge pull request #10231 from DefectDojo/release/2.34.4\n\nRelease: Merge release into master from: release/2.34.4",
+        "commit_date": "2024-05-20 18:31:22",
+        "release_date": "2024-05-20 18:37:40",
+        "release_message": "Please consult the [Upgrade notes in the documentation ](https://documentation.defectdojo.com/getting_started/upgrading/) for specific instructions for this release, and general upgrade instructions. Below is an automatically generated list of all PRs merged since the previous release.\r\n\r\n## Changes since 2.34.3\r\n- :bug: fix SARIF, issue #10191 @manuel-sommer (#10200)\r\n- :bug: reset description in progpilot after each finding @manuel-sommer (#10210)\r\n\r\n## 🐛 Bug Fixes\r\n\r\n- Test_Import: Correct exception for multiple findings in the same object @Maffooch (#10226)\r\n\r\n## 🖌 Updates in UI\r\n\r\n- Make endpoint names visible in reports @dogboat (#10230)\r\n"
+    },
+    "https://gitee.com/gy071089/SecurityManageFramwork": {
+        "status_code": 200,
+        "description": "SecurityManageFramwork: 企业内网安全管理平台，可用于企业内部的安全管理。 本平台旨在帮助安全人员少，业务线繁杂，周期巡检困难，自动化程度低的甲方，更好的实现企业内部的安全管理。  新版已发布"
+    },
+    "https://rasp.baidu.com": {
+        "status_code": 200,
+        "description": "开源应用运行时自我保护解决方案 - OpenRASP - 百度安全"
+    },
+    "https://www.snort.org": {
+        "status_code": 200,
+        "description": "Snort - Network Intrusion Detection & Prevention System"
+    },
+    "https://github.com/loveshell/ngx_lua_waf": {
+        "created_at": "2016-01-10 14:45:34",
+        "description": "ngx_lua_waf是一个基于lua-nginx-module(openresty)的web应用防火墙",
+        "commit_message": "filter some post data\n\nthanks for bajief",
+        "commit_date": "2016-04-06 04:17:47",
+        "release_date": "2016-01-10 14:47:29",
+        "release_message": "no bb\n"
+    },
+    "https://github.com/HandsomeOne/Scout": {
+        "created_at": "2016-11-23 08:18:18",
+        "description": "可能是东半球最灵活的 URL 监控系统",
+        "commit_message": "服务端使用prettier",
+        "commit_date": "2018-08-27 05:29:52"
+    },
+    "https://tp4a.com/": {
+        "status_code": 200,
+        "description": "走向成功  - Teleport，高效易用的堡垒机"
+    },
+    "https://nextcloud.com/": {
+        "status_code": 200,
+        "description": "Nextcloud - Open source content collaboration platform"
+    },
+    "https://siemonster.com/": {
+        "status_code": 200,
+        "description": "Home - SIEMonster"
+    },
+    "https://find-sec-bugs.github.io/": {
+        "status_code": 200,
+        "description": "Find Security Bugs"
+    },
+    "https://filerun.com/": {
+        "status_code": 200,
+        "description": "FileRun - Selfhosted File Sync and Share"
+    },
+    "https://owncloud.com/products/": {
+        "status_code": 200,
+        "description": "Product overview: ownCloud file sync and share"
+    },
+    "https://osquery.io/": {
+        "status_code": 200,
+        "description": "Osquery"
+    },
+    "https://www.gitguardian.com/": {
+        "status_code": 200,
+        "description": "GitGuardian: Git Security Scanning & Secrets Detection"
+    },
+    "https://www.zeek.org": {
+        "status_code": 200,
+        "description": "The Zeek Network Security Monitor"
+    },
+    "https://gitee.com/freshday/radar": {
+        "status_code": 200,
+        "description": "radar: 实时风控引擎(Risk Engine)，自定义规则引擎(Rule Script)，完美支持中文，适用于反欺诈(Anti-fraud)应用场景，开箱即用！！！移动互联网时代的风险管理利器，你 Get 到了吗？"
+    },
+    "https://www.la-samhna.de/": {
+        "status_code": 200,
+        "description": "Samhain Labs"
+    },
+    "https://code.google.com/archive/p/opendlp/": {
+        "status_code": 200,
+        "description": "Google Code Archive - Long-term storage for Google Code Project Hosting."
+    },
+    "https://www.drools.org": {
+        "status_code": 200,
+        "description": "Drools - Drools - Business Rules Management System (Java™, Open Source)"
+    },
+    "https://www.dictionary.com/browse/moloch": {
+        "status_code": 200,
+        "description": "MOLOCH Definition & Meaning | Dictionary.com"
+    },
+    "https://securityonion.net/": {
+        "status_code": 200,
+        "description": "Security Onion Solutions"
+    },
+    "https://www.prelude-siem.org/": {
+        "status_code": 200,
+        "description": "Overview - PRELUDE SIEM - UNITY 360"
+    },
+    "https://rasp.baidu.com/doc/install/iast.html": {
+        "status_code": 200,
+        "description": "安装灰盒扫描工具 - OpenRASP 官方文档 - 开源自适应安全产品"
+    },
+    "https://gitcode.net/zjq592767809/webpack_ast": {
+        "status_code": 200,
+        "description": "渔滒 / webpack_ast ·  GitCode"
+    },
+    "https://www.kismetwireless.net/": {
+        "status_code": 200,
+        "description": "Kismet - Wi-Fi, Bluetooth, RF, and more"
+    },
+    "https://www.alienvault.com/products/ossim": {
+        "status_code": 403,
+        "description": "Access Denied"
+    },
+    "https://suricata-ids.org": {
+        "status_code": 200,
+        "description": ""
+    },
+    "https://www.ossec.net": {
+        "status_code": 200,
+        "description": "OSSEC - World's Most Widely Used Host Intrusion Detection System - HIDS"
+    },
+    "https://docs.saltstack.com/en/latest/": {
+        "status_code": 200,
+        "description": ""
+    },
+    "https://www.seafile.com/home/": {
+        "status_code": 200,
+        "description": "Seafile - 开源的企业私有网盘 私有云存储软件 企业维基 知识管理"
+    },
+    "https://kodcloud.com/": {
+        "status_code": 200,
+        "description": "可道云-私有云存储&协同办公平台_企业网盘_企业云盘_网盘_云盘"
+    },
+    "https://lgtm.com": {
+        "status_code": 200,
+        "description": "The next step for LGTM.com: GitHub code scanning! - The GitHub Blog"
+    },
+    "https://www.ansible.com/": {
+        "status_code": 200,
+        "description": "Homepage | Ansible Collaborative"
     }
 }
