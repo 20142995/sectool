@@ -42,13 +42,13 @@
         "release_message": ""
     },
     "https://github.com/wpscanteam/wpscan": {
-        "created_at": "",
-        "description": "",
+        "created_at": "2023-09-26 18:42:23",
+        "description": "WPScan WordPress security scanner. Written for security professionals and blog maintainers to test the security of their WordPress websites. Contact us via contact@wpscan.com",
         "commit_date": "2023-12-01 17:44:24",
         "commit_message": "Merge pull request #1820 from wpscanteam/dfs\n\nUpdates DFs",
         "release_tag": "",
-        "release_date": "",
-        "release_message": ""
+        "release_date": "2023-09-29 12:22:42",
+        "release_message": "## What's Changed\r\n* Bump actions/checkout from 3 to 4 by @dependabot in https://github.com/wpscanteam/wpscan/pull/1798\r\n* Update webmock requirement from ~> 3.18.1 to ~> 3.19.1 by @dependabot in https://github.com/wpscanteam/wpscan/pull/1797\r\n* Bump docker/login-action from 2.1.0 to 2.2.0 by @dependabot in https://github.com/wpscanteam/wpscan/pull/1785\r\n\r\n\r\n**Full Changelog**: https://github.com/wpscanteam/wpscan/compare/v3.8.24...v3.8.25"
     },
     "https://github.com/zzzskd/CORSScanner": {
         "created_at": "2021-11-24 09:04:08",
@@ -980,7 +980,7 @@
         "release_message": ""
     },
     "https://github.com/LittleBear4/OA-EXPTOOL": {
-        "created_at": "2022-10-13 12:31:21",
+        "created_at": "2023-08-21 03:13:34",
         "description": "OA综合利用工具，集合将近20款OA漏洞批量扫描",
         "commit_date": "2023-10-28 04:46:18",
         "commit_message": "Update README.md",
@@ -1111,10 +1111,10 @@
         "release_message": ""
     },
     "https://github.com/mdp/rotp": {
-        "created_at": "2011-02-13 18:20:59",
+        "created_at": "2023-08-30 18:52:51",
         "description": "Ruby One Time Password library",
-        "commit_date": "2023-08-30 19:25:56",
-        "commit_message": "chore: Add the .gem file to release for easier publishing in an MFA world (#133)",
+        "commit_date": "2024-01-09 14:43:55",
+        "commit_message": "Bump google-github-actions/release-please-action from 3 to 4 (#136)\n\nBumps [google-github-actions/release-please-action](https://github.com/google-github-actions/release-please-action) from 3 to 4.\r\n- [Release notes](https://github.com/google-github-actions/release-please-action/releases)\r\n- [Changelog](https://github.com/google-github-actions/release-please-action/blob/main/CHANGELOG.md)\r\n- [Commits](https://github.com/google-github-actions/release-please-action/compare/v3...v4)\r\n\r\n---\r\nupdated-dependencies:\r\n- dependency-name: google-github-actions/release-please-action\r\n  dependency-type: direct:production\r\n  update-type: version-update:semver-major\r\n...\r\n\r\nSigned-off-by: dependabot[bot] <support@github.com>\r\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
         "release_tag": "v6.3.0",
         "release_date": "2023-08-30 18:53:08",
         "release_message": "## [6.3.0](https://github.com/mdp/rotp/compare/v6.2.2...v6.3.0) (2023-08-30)\n\n\n### Features\n\n* Allow for non-standard provisioning URI params, eg. image/icon ([#91](https://github.com/mdp/rotp/issues/91)) ([45d8aac](https://github.com/mdp/rotp/commit/45d8aac8356424897faf3a0dbda59f88b22df775))"
@@ -1398,7 +1398,7 @@
         "release_message": ""
     },
     "https://github.com/pingc0y/URLFinder": {
-        "created_at": "2022-06-06 10:17:00",
+        "created_at": "2023-09-09 14:01:45",
         "description": "一款快速、全面、易用的页面信息提取工具，可快速发现和提取页面中的JS、URL和敏感信息。",
         "commit_date": "2023-09-09 14:01:45",
         "commit_message": "2023/9/9更新",
@@ -4232,9 +4232,9 @@
     },
     "https://github.com/dark-kingA/superSearchPlus": {
         "created_at": "2022-10-04 10:08:42",
-        "description": "谷歌插件版本- superSearchPlus是聚合型信息收集插件，支持综合查询，资产测绘查询，信息收集 敏感信息提取 js资源扫描 目录扫描 vue组件扫描 整合了目前常见的资产测绘平台 同时支持数据导出",
-        "commit_date": "2023-08-20 05:06:09",
-        "commit_message": "更新 兼容最新谷歌浏览器",
+        "description": "superSearchPlus是聚合型信息收集插件，支持综合查询，资产测绘查询，信息收集 敏感信息提取 js资源扫描 目录扫描 vue组件扫描 整合了目前常见的资产测绘平台 专为白帽子提供快速侦测目标。",
+        "commit_date": "2023-12-25 03:45:35",
+        "commit_message": "更新",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -4624,13 +4624,13 @@
         "release_message": "Compiled for .NET 4.6 on 8/16/18."
     },
     "https://github.com/zksync-sdk/zksync2-python": {
-        "created_at": "2022-05-19 10:19:07",
-        "description": "",
-        "commit_date": "2023-08-18 13:06:29",
-        "commit_message": "docs: add changelog",
+        "created_at": "2024-02-18 21:20:02",
+        "description": null,
+        "commit_date": "2024-04-28 22:39:09",
+        "commit_message": "ci(tests): trigger test on push against `main` and `beta`",
         "release_tag": "v0.6.0",
-        "release_date": "2023-07-07 11:36:04",
-        "release_message": "Add support for account abstraction and paymaster features:\r\n\r\n- Add smart account deployment with create opcode.\r\n- Add smart account deployment with create2 opcode.\r\n- Support Paymaster parameters in EIP712 Transactions. Paymaster features can be used with EIP712 Transactions.\r\n"
+        "release_date": "2024-02-18 21:20:04",
+        "release_message": "This release is also available on:\n- `v1.1.0`\n---\n# [1.1.0](https://github.com/zksync-sdk/zksync2-python/compare/v1.0.0...v1.1.0) (2024-02-18)\n\n\n### Features\n\n* paymster withdraw and transfer support ([66f7761](https://github.com/zksync-sdk/zksync2-python/commit/66f7761bf4a1677ed50a6bf995e0fde6515b76b7))\n* **provider:** add zks_logProof ([6d48dff](https://github.com/zksync-sdk/zksync2-python/commit/6d48dff8e7e81709b637d2117ba6a2c843e9d740))\n\n\n\n"
     },
     "https://github.com/hayasec/360SafeBrowsergetpass": {
         "created_at": "2020-11-19 08:42:03",
@@ -4864,7 +4864,7 @@
     },
     "https://github.com/nftscripts/zksync": {
         "created_at": "2023-06-14 11:44:22",
-        "description": "",
+        "description": null,
         "commit_date": "2023-08-14 14:33:28",
         "commit_message": "Update requirements.txt",
         "release_tag": "",
@@ -5438,7 +5438,7 @@
         "release_message": ""
     },
     "https://github.com/1n7erface/Template": {
-        "created_at": "2022-04-01 17:26:22",
+        "created_at": "2023-06-17 10:39:54",
         "description": "Next generation RedTeam heuristic intranet scanning | 下一代RedTeam启发式内网扫描",
         "commit_date": "2023-09-16 16:50:54",
         "commit_message": "Update README.md",
@@ -5693,13 +5693,13 @@
         "release_message": "1. 批量扫描的异步操作的实现方式优化，由多线程改为redis+celery实现\r\n      * main web后端\r\n      * nginx web前端\r\n      * db mysql数据库\r\n      * redis redis数据库用于消息队列\r\n2. 最低并发数量改为了CPU核心数目\r\n3. 将数据库data文件直接写入了包中，无需再加载sql文件，sql文件数据量较大，避免低配置机器导入sql时间过长\r\n      * 仅支持linux，其他OS（mac、windows）请删掉data文件夹内的内容\r\n4. django日志位于./main/log，nginx日志位于./nginx/log"
     },
     "https://github.com/snail007/goproxy": {
-        "created_at": "2017-09-11 11:10:28",
+        "created_at": "2024-04-24 02:52:47",
         "description": "🔥  Proxy is a high performance HTTP(S) proxies, SOCKS5 proxies,WEBSOCKET, TCP, UDP proxy server implemented by golang. Now, it supports chain-style proxies,nat forwarding in different lan,TCP/UDP port forwarding, SSH forwarding.Proxy是golang实现的高性能http,https,websocket,tcp,socks5代理服务器,支持内网穿透,链式代理,通讯加密,智能HTTP,SOCKS5代理,黑白名单,限速,限流量,限连接数,跨平台,KCP支持,认证API。",
-        "commit_date": "2023-10-24 04:45:51",
-        "commit_message": "Update ISSUE_TEMPLATE.md",
+        "commit_date": "2024-05-24 15:22:19",
+        "commit_message": "update",
         "release_tag": "v14.1",
-        "release_date": "2023-12-13 05:17:50",
-        "release_message": "1、sps/socks新增--udp-compat参数，用于打开socks5 udp功能的兼容模式，兼容某些不遵守socks5 RFC 1928 规范的socks5客户端。\r\n2、sps/socks新增--udp-gc参数，用来设置UDP最大空闲时间，超过这个时间，UDP会被释放。"
+        "release_date": "2024-04-29 00:40:36",
+        "release_message": "1、HTTP(S)/SOCKS5/SPS代理修复本地认证异常，建议升级。"
     },
     "https://github.com/jiansiting/Decryption-Tools": {
         "created_at": "2019-05-27 15:39:00",
@@ -5933,7 +5933,7 @@
         "release_message": ""
     },
     "https://github.com/sechelper/slcx": {
-        "created_at": "2023-08-04 15:16:12",
+        "created_at": "2023-08-05 07:41:55",
         "description": "端口转发工具，绕过流量安全检测。",
         "commit_date": "2023-08-05 07:52:12",
         "commit_message": "update ssh login port",
@@ -5997,8 +5997,8 @@
     "https://github.com/mandiant/commando-vm": {
         "created_at": "2019-03-26 22:36:32",
         "description": "Complete Mandiant Offensive VM (Commando VM), a fully customizable Windows-based pentesting virtual machine distribution. commandovm@mandiant.com",
-        "commit_date": "2023-10-03 19:02:49",
-        "commit_message": "Installer updates (#306)\n\n* Update 3.1\r\n\r\n---------\r\n\r\nCo-authored-by: Alex | NoSecurity <72961537+nos3curity@users.noreply.github.com>",
+        "commit_date": "2024-04-15 18:31:30",
+        "commit_message": "Merge pull request #322 from mandiant/add-categoriesList\n\nadded categories.md file",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -18476,7 +18476,7 @@
         "release_message": ""
     },
     "https://github.com/wikiZ/RedGuard": {
-        "created_at": "2022-05-08 04:02:33",
+        "created_at": "2023-08-20 17:18:41",
         "description": "RedGuard is a C2 front flow control tool,Can avoid Blue Teams,AVs,EDRs check.",
         "commit_date": "2023-09-19 11:06:40",
         "commit_message": "Update README.md",
@@ -20588,13 +20588,13 @@
         "release_message": ""
     },
     "https://github.com/obsidianforensics/hindsight": {
-        "created_at": "2014-05-22 03:25:06",
+        "created_at": "2023-03-29 23:21:04",
         "description": "Web browser forensics for Google Chrome/Chromium",
         "release_tag": "v2023.03",
         "release_date": "2023-03-29 23:41:39",
         "release_message": "This is the first release in a while and it's a relatively minor one. It's mainly bug fixes and updating the version detection for Chrome versions that have come out since the last release. I hope to have time to work on a more substantial update in the future, but for now, here's **v2023.03**!\r\n\r\n## What's Changed\r\n### 🛠️ Minor Changes & Fixes\r\n* Add Session Storage records to SQLite output by @obsidianforensics in https://github.com/obsidianforensics/hindsight/pull/119\r\n* Update built list of HSTS `host` hashes to include domains from cookies by @obsidianforensics in https://github.com/obsidianforensics/hindsight/pull/121\r\n* Fix some packaging issues (line endings, including lib files, other small fixes) by @obsidianforensics in https://github.com/obsidianforensics/hindsight/pull/122\r\n* Fix bug where when a version rollback occurs more than once, it doesn… by @obsidianforensics in https://github.com/obsidianforensics/hindsight/pull/138\r\n* Fixes issue 125, where failing to decode an extension manifest caused… by @obsidianforensics in https://github.com/obsidianforensics/hindsight/pull/139\r\n### Other Changes\r\n* Account for relocated files in newer Chrome versions (97-100) by @obsidianforensics in https://github.com/obsidianforensics/hindsight/pull/124\r\n* Update README.md by @obsidianforensics in https://github.com/obsidianforensics/hindsight/pull/132\r\n* Update version detection to include Chrome 101-111 by @obsidianforensics in https://github.com/obsidianforensics/hindsight/pull/140\r\n* Update Hindsight version prior to release and remove Unfurl plugin (u… by @obsidianforensics in https://github.com/obsidianforensics/hindsight/pull/142\r\n\r\n\r\n**Full Changelog**: https://github.com/obsidianforensics/hindsight/compare/v2021.12...v2023.03\r\n\r\n## Both the GUI and command line versions of this release are available as:\r\n* compiled exes attached to this release or in the dist/ folder\r\n* .py versions are available by `pip install pyhindsight` or by downloading/cloning the GitHub repo.",
-        "commit_date": "2023-08-29 02:20:32",
-        "commit_message": "Merge pull request #157 from obsidianforensics/visit-id\n\nIn a URLItem, replace the url_id property with visit_id. Update outpu…"
+        "commit_date": "2024-05-09 22:22:17",
+        "commit_message": "Merge pull request #175 from ryneeverett/sqlite-view-v0.2.0\n\nsqlite-view: 0.1.8 -> 0.2.0"
     },
     "https://github.com/SummitRoute/csp_security_mistakes": {
         "created_at": "2021-11-28 21:23:16",
@@ -22861,8 +22861,8 @@
     "https://github.com/duyet/bruteforce-database": {
         "created_at": "2015-10-04 14:55:41",
         "description": "Bruteforce database",
-        "commit_date": "2023-08-19 12:30:28",
-        "commit_message": "Update FUNDING.yml",
+        "commit_date": "2024-03-02 15:10:09",
+        "commit_message": "Merge pull request #56 from duyet/renovate/actions-checkout-4.x\n\nchore(deps): update actions/checkout action to v4",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -23327,13 +23327,13 @@
         "release_message": ""
     },
     "https://github.com/soxoj/maigret": {
-        "created_at": "",
-        "description": "",
-        "commit_date": "2023-12-04 17:25:32",
-        "commit_message": "Added Telegram bot link (#1321)",
+        "created_at": "2022-09-03 11:30:24",
+        "description": "🕵️‍♂️ Collect a dossier on a person by username from thousands of sites",
+        "commit_date": "2024-05-24 12:51:27",
+        "commit_message": "Fixed 3 sites, disabed 3, added  (#1539)\n\n* Fixed/Disabled sites. Update requirements.txt\r\n\r\nfixed_sites: AllRecipes, Linktree, CreativeMarket, ImgInn, Shutterstock, Contently\r\n\r\ndisabled_sites: Forums.ea.com. CrunchyRoll, Windy, MetaCritic, InfosecInstitute, Armchairgm.fandom.com, Bleach.fandom.com\r\n\r\nUpdate requirements to prevent dependency conflicts.\r\n\r\n* Update requirements.txt\r\n\r\nUpdate requirements.txt to prevent dependency conflicts\r\n\r\n* Update requirements.txt\r\n\r\n* Update sites.md\r\n\r\n* fixed_sites: Armchairgm.fandom.com, Bleach.fandom.com, Battleraprus. disabled_sites: MicrosoftTechNet, club.cnews.ru, Scorcher\r\n\r\n* fixed_sites: Armchairgm.fandom.com, Bleach.fandom.com, Battleraprus. disabled_sites: MicrosoftTechNet, club.cnews.ru, Scorcher\r\n\r\n* fixed 2 sites, disabled 22 sites, and added 1 site\r\n\r\n* fixed 3 sites, disabled 28, added 4 sites\r\n\r\n* update sites.md\r\n\r\n* Added 2 more sites\r\n\r\n* fixed 3 sites, disabled 3 sites, added 1 site\r\n\r\n* fix Twitch. Update snapcraft.yaml. Add pyproject.toml. Remove setup.py, requirements.txt, test-requirements.txt, as they are already specified in pyproject.toml\r\n\r\n* fix Twitch. Update snapcraft.yaml. Add pyproject.toml. Remove setup.py, requirements.txt, test-requirements.txt, as they are already specified in pyproject.toml\r\n\r\n* fix Twitch. Update snapcraft.yaml. Add pyproject.toml. Remove setup.py, requirements.txt, test-requirements.txt, as they are already specified in pyproject.toml\r\n\r\n* fix Twitch. Update snapcraft.yaml. Add pyproject.toml. Remove setup.py, requirements.txt, test-requirements.txt, as they are already specified in pyproject.toml\r\n\r\n* Update sites.md\r\n\r\n* fix Twitch. Update snapcraft.yaml. Add pyproject.toml. Remove setup.py, requirements.txt, test-requirements.txt, as they are already specified in pyproject.toml\r\n\r\n* Update sites.md\r\n\r\n* fix forums.drom.ru\r\n\r\n* Add EduGeek\r\n\r\n* Add EduGeek\r\n\r\n* Update python-package.yml\r\n\r\nFix dependency installation\r\n\r\n* Update python-package.yml\r\n\r\n* Update python-package.yml",
         "release_tag": "",
-        "release_date": "",
-        "release_message": ""
+        "release_date": "2022-09-03 11:31:06",
+        "release_message": "## What's Changed\r\n* Fixed some false positives by @soxoj in https://github.com/soxoj/maigret/pull/433\r\n* Drop Python 3.6 support by @soxoj in https://github.com/soxoj/maigret/pull/434\r\n* Bump xhtml2pdf from 0.2.5 to 0.2.7 by @dependabot in https://github.com/soxoj/maigret/pull/409\r\n* Bump reportlab from 3.6.6 to 3.6.9 by @dependabot in https://github.com/soxoj/maigret/pull/403\r\n* Bump markupsafe from 2.0.1 to 2.1.1 by @dependabot in https://github.com/soxoj/maigret/pull/389\r\n* Bump pycountry from 22.1.10 to 22.3.5 by @dependabot in https://github.com/soxoj/maigret/pull/384\r\n* Bump pypdf2 from 1.26.0 to 1.27.4 by @dependabot in https://github.com/soxoj/maigret/pull/438\r\n* Update GH actions by @soxoj in https://github.com/soxoj/maigret/pull/439\r\n* Bump tqdm from 4.63.0 to 4.64.0 by @dependabot in https://github.com/soxoj/maigret/pull/440\r\n* Bump jinja2 from 3.0.3 to 3.1.1 by @dependabot in https://github.com/soxoj/maigret/pull/441\r\n* Bump soupsieve from 2.3.1 to 2.3.2 by @dependabot in https://github.com/soxoj/maigret/pull/436\r\n* Bump pypdf2 from 1.26.0 to 1.27.4 by @dependabot in https://github.com/soxoj/maigret/pull/442\r\n* Bump pyvis from 0.1.9 to 0.2.0 by @dependabot in https://github.com/soxoj/maigret/pull/443\r\n* Bump pypdf2 from 1.27.4 to 1.27.6 by @dependabot in https://github.com/soxoj/maigret/pull/448\r\n* Bump typing-extensions from 4.1.1 to 4.2.0 by @dependabot in https://github.com/soxoj/maigret/pull/447\r\n* Bump soupsieve from 2.3.2 to 2.3.2.post1 by @dependabot in https://github.com/soxoj/maigret/pull/444\r\n* Bump pypdf2 from 1.27.6 to 1.27.7 by @dependabot in https://github.com/soxoj/maigret/pull/449\r\n* Bump pypdf2 from 1.27.7 to 1.27.8 by @dependabot in https://github.com/soxoj/maigret/pull/450\r\n* XMind 8 report warning and some docs update by @soxoj in https://github.com/soxoj/maigret/pull/452\r\n* False positive fixes 24.04.22 by @soxoj in https://github.com/soxoj/maigret/pull/455\r\n* Bump pypdf2 from 1.27.8 to 1.27.9 by @dependabot in https://github.com/soxoj/maigret/pull/456\r\n* Bump pytest from 7.0.1 to 7.1.2 by @dependabot in https://github.com/soxoj/maigret/pull/457\r\n* Bump jinja2 from 3.1.1 to 3.1.2 by @dependabot in https://github.com/soxoj/maigret/pull/460\r\n* Ubisoft forums addition by @fen0s in https://github.com/soxoj/maigret/pull/461\r\n* Add BYOND, Figma, BeatStars by @fen0s in https://github.com/soxoj/maigret/pull/462\r\n* fix Figma username definition, add a bunch of sites by @fen0s in https://github.com/soxoj/maigret/pull/464\r\n* Bump pypdf2 from 1.27.9 to 1.27.10 by @dependabot in https://github.com/soxoj/maigret/pull/465\r\n* Bump pypdf2 from 1.27.10 to 1.27.12 by @dependabot in https://github.com/soxoj/maigret/pull/466\r\n* Sites fixes 05 05 22 by @soxoj in https://github.com/soxoj/maigret/pull/469\r\n* Bump pyvis from 0.2.0 to 0.2.1 by @dependabot in https://github.com/soxoj/maigret/pull/472\r\n* Social analyzer websites, also fixing presense strs by @fen0s in https://github.com/soxoj/maigret/pull/471\r\n* Updated logic of false positive risk estimating by @soxoj in https://github.com/soxoj/maigret/pull/475\r\n* Improved usability of external progressbar func by @soxoj in https://github.com/soxoj/maigret/pull/476\r\n* New sites added, some tags/rank update by @soxoj in https://github.com/soxoj/maigret/pull/477\r\n* Added new sites by @soxoj in https://github.com/soxoj/maigret/pull/480\r\n* Added new forums, updated ranks, some utils improvements by @soxoj in https://github.com/soxoj/maigret/pull/481\r\n* Disabled sites with false positives results by @soxoj in https://github.com/soxoj/maigret/pull/482\r\n* Bump certifi from 2021.10.8 to 2022.5.18.1 by @dependabot in https://github.com/soxoj/maigret/pull/488\r\n* Bump psutil from 5.9.0 to 5.9.1 by @dependabot in https://github.com/soxoj/maigret/pull/490\r\n* Bump pypdf2 from 1.27.12 to 1.28.1 by @dependabot in https://github.com/soxoj/maigret/pull/491\r\n* Bump pypdf2 from 1.28.1 to 1.28.2 by @dependabot in https://github.com/soxoj/maigret/pull/493\r\n* added and fixed some websites in data.json by @kustermariocoding in https://github.com/soxoj/maigret/pull/494\r\n* Bump pypdf2 from 1.28.2 to 2.0.0 by @dependabot in https://github.com/soxoj/maigret/pull/504\r\n* Bump pefile from 2021.9.3 to 2022.5.30 by @dependabot in https://github.com/soxoj/maigret/pull/499\r\n* Updated sites list, added disabled Anilist by @soxoj in https://github.com/soxoj/maigret/pull/502\r\n* Bump lxml from 4.8.0 to 4.9.0 by @dependabot in https://github.com/soxoj/maigret/pull/503\r\n* Compatibility with Python 10 by @soxoj in https://github.com/soxoj/maigret/pull/509\r\n* feat: add *.log & *.bak files to gitignore in https://github.com/soxoj/maigret/pull/511\r\n* fix some sites and delete abandoned by @fen0s in https://github.com/soxoj/maigret/pull/526\r\n* Fixesjulyfirst by @fen0s in https://github.com/soxoj/maigret/pull/533\r\n* yazbel, aboutcar, zhihu by @fen0s in https://github.com/soxoj/maigret/pull/531\r\n* Fixes july third by @fen0s in https://github.com/soxoj/maigret/pull/535\r\n* Update data.json by @fen0s in https://github.com/soxoj/maigret/pull/539\r\n* Update data.json by @fen0s in https://github.com/soxoj/maigret/pull/540\r\n* Bump reportlab from 3.6.9 to 3.6.11 by @dependabot in https://github.com/soxoj/maigret/pull/543\r\n* Bump requests from 2.27.1 to 2.28.1 by @dependabot in https://github.com/soxoj/maigret/pull/530\r\n* Bump pypdf2 from 2.0.0 to 2.5.0 by @dependabot in https://github.com/soxoj/maigret/pull/542\r\n* Bump xhtml2pdf from 0.2.7 to 0.2.8 by @dependabot in https://github.com/soxoj/maigret/pull/522\r\n* Bump lxml from 4.9.0 to 4.9.1 by @dependabot in https://github.com/soxoj/maigret/pull/538\r\n* disable yandex music + set utf8 encoding by @fen0s in https://github.com/soxoj/maigret/pull/562\r\n* fix false positives by @fen0s in https://github.com/soxoj/maigret/pull/577\r\n* disable Instagram, fix two false positives by @fen0s in https://github.com/soxoj/maigret/pull/578\r\n* Bump certifi from 2022.5.18.1 to 2022.6.15 by @dependabot in https://github.com/soxoj/maigret/pull/551\r\n* August15 by @fen0s in https://github.com/soxoj/maigret/pull/591\r\n* Bump pytest-httpserver from 1.0.4 to 1.0.5 by @dependabot in https://github.com/soxoj/maigret/pull/583\r\n* Bump typing-extensions from 4.2.0 to 4.3.0 by @dependabot in https://github.com/soxoj/maigret/pull/549\r\n* Bump colorama from 0.4.4 to 0.4.5 by @dependabot in https://github.com/soxoj/maigret/pull/548\r\n* Bump chardet from 4.0.0 to 5.0.0 by @dependabot in https://github.com/soxoj/maigret/pull/550\r\n* Bump cloudscraper from 1.2.60 to 1.2.63 by @dependabot in https://github.com/soxoj/maigret/pull/600\r\n* Bump flake8 from 4.0.1 to 5.0.4 by @dependabot in https://github.com/soxoj/maigret/pull/598\r\n* Bump attrs from 21.4.0 to 22.1.0 by @dependabot in https://github.com/soxoj/maigret/pull/597\r\n* Bump pytest-asyncio from 0.18.2 to 0.19.0 by @dependabot in https://github.com/soxoj/maigret/pull/601\r\n* Bump pypdf2 from 2.5.0 to 2.10.4 by @dependabot in https://github.com/soxoj/maigret/pull/606\r\n* Bump pytest from 7.1.2 to 7.1.3 by @dependabot in https://github.com/soxoj/maigret/pull/613\r\n* Update sites.md -Gitmemory.com suppression by @C3n7ral051nt4g3ncy in https://github.com/soxoj/maigret/pull/610\r\n* Bump cloudscraper from 1.2.63 to 1.2.64 by @dependabot in https://github.com/soxoj/maigret/pull/614\r\n* Bump pycountry from 22.1.10 to 22.3.5 by @dependabot in https://github.com/soxoj/maigret/pull/607\r\n* add ProtonMail, disable 3 broken sites by @fen0s in https://github.com/soxoj/maigret/pull/619\r\n* Bump tqdm from 4.64.0 to 4.64.1 by @dependabot in https://github.com/soxoj/maigret/pull/618\r\n* Bump to 0.4.4 by @soxoj in https://github.com/soxoj/maigret/pull/621\r\n\r\n## New Contributors\r\n* @fen0s made their first contribution in https://github.com/soxoj/maigret/pull/461\r\n* @C3n7ral051nt4g3ncy made their first contribution in https://github.com/soxoj/maigret/pull/610\r\n\r\n**Full Changelog**: https://github.com/soxoj/maigret/compare/v0.4.3...v0.4.4"
     },
     "https://github.com/uknowsec/SharpCheckInfo": {
         "created_at": "2019-10-30 06:25:55",
@@ -23473,8 +23473,8 @@
     "https://github.com/Mr-xn/Penetration_Testing_POC": {
         "created_at": "2019-07-24 03:37:55",
         "description": "渗透测试有关的POC、EXP、脚本、提权、小工具等---About penetration-testing python-script poc getshell csrf xss cms php-getshell domainmod-xss csrf-webshell cobub-razor cve rce sql sql-poc poc-exp bypass oa-getshell cve-cms",
-        "commit_message": "add CVE-2024-23897、CVE-20CVE-2024-020424-21887、CVE-2024-0204、\n\nmssql攻防探究、Struts2VulsScanTools：Struts2全版本漏洞检测工具 19.21",
-        "commit_date": "2024-01-28 13:10:06"
+        "commit_message": "add 新版RCE宝典、Python Flask内存马的另辟途径、内网渗透-委派攻击详解以及IOT漏洞挖掘等教程",
+        "commit_date": "2024-05-08 14:30:04"
     },
     "https://github.com/qianxiao996/R-Knife": {
         "created_at": "2023-02-22 05:05:41",
@@ -25190,8 +25190,8 @@
         "description": "首页"
     },
     "http://www.practicalcryptography.com/ciphers/adfgx-cipher/": {
-        "status_code": 200,
-        "description": "Practical Cryptography"
+        "status_code": 500,
+        "description": "500 Internal Server Error"
     },
     "https://www.guballa.de/vigenere-solver": {
         "status_code": 200,
@@ -25630,8 +25630,8 @@
     "https://github.com/Mr-xn/RedTeam_BlueTeam_HW": {
         "created_at": "2020-12-07 13:15:49",
         "description": "红蓝对抗以及护网相关工具和资料，内存shellcode（cs+msf）和内存马查杀工具",
-        "commit_message": "add Struts2_19.21.jar",
-        "commit_date": "2024-01-28 13:16:12"
+        "commit_message": "add 利用Yara快速狩猎内存中的威胁",
+        "commit_date": "2024-05-08 14:28:53"
     },
     "https://github.com/eth-sri/securify2": {
         "created_at": "2020-01-22 15:03:58",
@@ -27072,7 +27072,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "20.161.78.2属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "20.97.191.96属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
