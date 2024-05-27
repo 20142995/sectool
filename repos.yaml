@@ -424,11 +424,6 @@
             Java反编译:
                 - https://github.com/MountCloud/JavaDecompileTool-GUI
                 - https://github.com/Ppsoft1991/CodeReviewTools
-            js逆向:
-                OB解混淆:
-                    - https://tool.yuanrenxue.cn/decode_obfuscator
-                瑞数:
-                    - https://github.com/R0A1NG/Botgate_bypass
             pyc逆向:
                 - https://c5r.app/tools/pyc-decompiler
                 - https://ctfever.uniiem.com/tools/pyc-decompiler
@@ -494,6 +489,8 @@
                         - https://github.com/xiaokp7/TongdaOATool
                         - https://github.com/xinyu2428/TDOA_RCE
                 产品or组件or框架漏洞:
+                    ActiveMQ:
+                        - https://github.com/JaneMandy/ActiveMQ_RCE_Pro_Max
                     Apache Airflow:
                         - https://github.com/Mr-xn/CVE-2022-40127
                     Apache Dubbo:
@@ -658,6 +655,8 @@
                         - https://github.com/swisskyrepo/Wordpresscan
                     帆软:
                         - https://github.com/yecp181/Frchannel
+                    禅道:
+                        - https://github.com/charonlight/ZentaoExploitGUI
                     若依:
                         - https://github.com/charonlight/RuoYiExploitGUI
                 信息泄露漏洞:
@@ -901,6 +900,7 @@
                     - https://github.com/ycdxsb/PocOrExp_in_Github
                     - https://github.com/zhzyker/exphub
                 综合:
+                    - https://github.com/P1nganD/Rookie
                     - https://github.com/pureqh/Hyacinth
                 编辑器漏洞:
                     UEditor:
@@ -1400,6 +1400,7 @@
             资产测绘采集:
                 - https://github.com/ExpLangcn/InfoSearchAll
                 - https://github.com/G3et/Search_Viewer
+                - https://github.com/H-Limbus/NoMoney
                 - https://github.com/HHa1ey/TKHunter
                 - https://github.com/Kento-Sec/AsamF
                 - https://github.com/burpheart/koko-moni
@@ -2071,6 +2072,8 @@
                         - https://c5r.app/tools/pseudo-encrypted-zip-check
                         - https://ctfever.uniiem.com/tools/pseudo-encrypted-zip-check
                         - https://github.com/442048209as/ZipCenOp
+                    ZIP明文攻击:
+                        - https://github.com/keyunluo/pkcrack
                 图片:
                     png_LSB隐写:
                         - https://github.com/7thSamurai/steganography
@@ -2107,6 +2110,7 @@
                     - https://github.com/webraybtl/webshell_detect
                 哥斯拉(Godzilla)流量取证:
                     - https://github.com/webraybtl/webshell_detect
+                    - https://github.com/nocultrue/Deco_Godzilla
         威胁情报中心:
             - https://ti.360.cn/
             - https://ti.sangfor.com.cn/analysis-platform
@@ -2115,6 +2119,44 @@
             APT攻击检测:
                 - https://github.com/Neo23x0/Fenrir
                 - https://github.com/Neo23x0/Loki
+            DevSecOps:
+                - https://github.com/HXSecurity/DongTai/
+                - https://github.com/chaitin/veinmind-tools/
+                - https://github.com/murphysecurity/murphysec/
+                - https://lgtm.com
+                - https://rasp.baidu.com/doc/install/iast.html
+            GitHub监控:
+                - https://github.com/0xbug/Hawkeye
+                - https://github.com/4x99/code6
+                - https://github.com/FeeiCN/GSIL
+                - https://github.com/MiSecurity/x-patrol
+                - https://github.com/VKSRC/Github-Monitor
+                - https://github.com/neal1991/gshark
+                - https://www.gitguardian.com/
+            HIDS:
+                - https://github.com/0xrawsec/whids
+                - https://github.com/DianrongSecurity/AgentSmith-HIDS
+                - https://github.com/mozilla/MozDef
+                - https://github.com/ysrc/yulong-hids
+                - https://osquery.io/
+                - https://securityonion.net/
+                - https://suricata-ids.org
+                - https://www.dictionary.com/browse/moloch
+                - https://www.la-samhna.de/
+                - https://www.ossec.net
+                - https://www.snort.org
+            SIEM_SOC:
+                - https://github.com/apache/metron
+                - https://github.com/jeffbryner/MozDef
+                - https://github.com/smarttang/w3a_SOC
+                - https://siemonster.com/
+                - https://www.alienvault.com/products/ossim
+                - https://www.prelude-siem.org/
+            WAF:
+                - https://github.com/C4o/Juggler
+                - https://github.com/loveshell/ngx_lua_waf
+                - https://github.com/xsec-lab/x-waf
+                - https://rasp.baidu.com
             Web应用防火墙:
                 - https://github.com/chaitin/safeline
                 - https://github.com/starjun/openstar
@@ -2162,10 +2204,35 @@
                 - https://github.com/theSecHunter/Hades
             主机入侵防御:
                 - https://github.com/wecooperate/iDefender
+            企业云盘:
+                - https://filerun.com/
+                - https://github.com/KOHGYLW/kiftd
+                - https://github.com/filebrowser/filebrowser/releases/latest
+                - https://kodcloud.com/
+                - https://nextcloud.com/
+                - https://owncloud.com/products/
+                - https://www.seafile.com/home/
             堡垒机:
                 - https://github.com/jumpserver/jumpserver
+                - https://github.com/jumpserver/jumpserver
+                - https://github.com/jx-sec/jxotp
+                - https://github.com/liftoff/GateOne
+                - https://github.com/triaquae/CrazyEye
+                - https://tp4a.com/
+                - https://www.tosec.com.cn/
             威胁检测:
                 - https://github.com/RoomaSec/RmEye
+            安全开发:
+                - https://github.com/Tencent/secguide
+                - https://github.com/momosecurity/rhizobia_J
+                - https://github.com/momosecurity/rhizobia_P
+                - https://github.com/openstack/bandit/releases/
+            安全运维:
+                - https://code.google.com/archive/p/opendlp/
+                - https://github.com/HandsomeOne/Scout
+                - https://github.com/cuckoosandbox/cuckoo
+                - https://github.com/qunarcorp/open_dnsdb
+                - https://github.com/ytisf/theZoo
             欺骗防御:
                 - https://github.com/4ra1n/mysql-fake-server
                 - https://github.com/BeichenDream/MysqlT
@@ -2179,6 +2246,14 @@
                 - https://github.com/mushorg/conpot
                 - https://github.com/seccome/Ehoney
                 - https://github.com/wendell1224/ide-honeypot
+            漏洞管理:
+                - https://gitee.com/gy071089/SecurityManageFramwork
+                - https://github.com/233sec/laravel-src
+                - https://github.com/DefectDojo/django-DefectDojo
+                - https://github.com/creditease-sec/insight
+                - https://github.com/jeffzh3ng/Fuxi-Scanner
+                - https://github.com/martinzhou2015/SRCMS
+                - https://github.com/ysrc/xunfeng
             相关资源:
                 - https://github.com/AnyeDuke/Enterprise-Security-Skill
                 - https://github.com/FeeiCN/Security-PPT
@@ -2186,6 +2261,50 @@
                 - https://github.com/mangenotwork/website-monitor
             网络安全大模型:
                 - https://github.com/Clouditera/secgpt
+            网络流量分析:
+                - https://www.kismetwireless.net/
+                - https://www.zeek.org
+            自动化代码审计:
+                - https://find-sec-bugs.github.io/
+                - https://github.com/WhaleShark-Team/cobra
+                - https://github.com/yingshang/banruo
+                - https://github.com/zsdlove/Hades
+                - https://sourceforge.net/projects/visualcodegrepp/
+            蜜罐技术:
+                - https://github.com/DinoTools/dionaea
+                - https://github.com/cowrie/cowrie
+                - https://github.com/desaster/kippo
+                - https://github.com/dtag-dev-sec/tpotce
+                - https://github.com/gbrindisi/wordpot
+                - https://github.com/hacklcx/HFish
+                - https://github.com/honeynet/beeswarm
+                - https://github.com/jordan-wright/elastichoney
+                - https://github.com/mushorg/conpot
+                - https://github.com/mushorg/glastopf
+                - https://github.com/p1r06u3/opencanary_web
+                - https://github.com/threatstream/shockpot
+            资产管理:
+                - https://docs.saltstack.com/en/latest/
+                - https://github.com/Cryin/AssetsView
+                - https://github.com/Tencent/bk-cmdb
+                - https://github.com/bongmu/OpsManage
+                - https://www.ansible.com/
+            钓鱼网站系统:
+                - https://github.com/SecurityPaper/mail_fishing
+                - https://github.com/gophish/gophish
+                - https://github.com/hacklcx/HFish
+                - https://github.com/p1r06u3/phishing
+                - https://github.com/rsmusllp/king-phisher
+                - https://github.com/thelinuxchoice/blackeye
+                - https://www.phishingfrenzy.com/
+            风控系统:
+                - https://gitee.com/freshday/radar
+                - https://github.com/momosecurity/aswan
+                - https://github.com/sunpeak/riskcontrol
+                - https://github.com/threathunterX/nebula
+                - https://github.com/youseries/urule
+                - https://github.com/ysrc/Liudao
+                - https://www.drools.org
         安全检查:
             基线:
                 - https://github.com/Amulab/CAudit
@@ -2205,7 +2324,9 @@
                     - https://github.com/mornone/webshell-find-tools
                     - https://github.com/virink/as_scanwebshell
                     - https://www.shellpub.com/
+                    - https://github.com/10000Tigers/BlueHound
                 内存马查杀:
+                    - https://github.com/10000Tigers/BlueHound
                     - https://github.com/4ra1n/shell-analyzer
                     - https://github.com/LandGrey/copagent
                     - https://github.com/alibaba/arthas
@@ -2540,9 +2661,21 @@
             - https://github.com/microsoftarchive/redis
             - https://github.com/tporadowski/redis
 逆向:
+    cookie加密:
+        瑞数:
+            - https://github.com/R0A1NG/Botgate_bypass
     js逆向:
+        OB解混淆:
+            - https://tool.yuanrenxue.cn/decode_obfuscator
         RPC:
             - https://github.com/jxhczhl/JsRpc
             - https://github.com/yint-tech/sekiro-open
         cookie hook:
             - https://github.com/JSREI/js-cookie-monitor-debugger-hook
+        webpack:
+            - https://gitcode.net/zjq592767809/webpack_ast
+        验证码:
+            极验:
+                - https://github.com/daisixuan/Geetest-AST-
+                - https://github.com/nmsdss/JiYan-Geetest
+                - https://github.com/nmsdss/JiYanSlide4
