@@ -520,8 +520,8 @@
     "https://github.com/knownsec/404StarLink": {
         "created_at": "2020-11-17 08:10:18",
         "description": "404StarLink - 推荐优质、有意义、有趣、坚持维护的安全开源项目",
-        "commit_message": "weekly update at 2024-05-20",
-        "commit_date": "2024-05-20 04:15:34"
+        "commit_message": "weekly update at 2024-05-27",
+        "commit_date": "2024-05-27 03:15:27"
     },
     "https://github.com/gwen001/github-subdomains": {
         "created_at": "2020-07-24 06:54:29",
@@ -7647,8 +7647,8 @@
     "https://github.com/openwall/john": {
         "created_at": "2011-12-16 19:43:47",
         "description": "John the Ripper jumbo - advanced offline password cracker, which supports hundreds of hash and cipher types, and runs on many operating systems, CPUs, GPUs, and even some FPGAs",
-        "commit_message": "diskcryptor: use macro to avoid converting uc to vla",
-        "commit_date": "2024-05-07 20:07:56"
+        "commit_message": "Shuffle external mode: Optimization: Don't rewrite unchanged part",
+        "commit_date": "2024-05-27 20:21:07"
     },
     "https://github.com/shimmeris/SCFProxy": {
         "created_at": "2021-04-18 11:21:43",
@@ -10488,8 +10488,8 @@
     "https://github.com/BishopFox/sliver": {
         "created_at": "2024-02-28 19:43:18",
         "description": "Adversary Emulation Framework",
-        "commit_message": "Merge pull request #1696 from BishopFox/b516dependabot/go_modules/github.com/tetratelabs/wazero-1.7.2\n\nBump github.com/tetratelabs/wazero from 1.7.1 to 1.7.2",
-        "commit_date": "2024-05-21 21:32:56",
+        "commit_message": "Merge pull request #1693 from BishopFox/981ddependabot/go_modules/google.golang.org/grpc-1.64.0\n\nBump google.golang.org/grpc from 1.63.2 to 1.64.0",
+        "commit_date": "2024-05-22 18:48:45",
         "release_date": "2024-02-28 20:00:27",
         "release_message": "Fix for DNS C2, and other small backports. Hoping to have a v1.6 release soon with many more updates!"
     },
@@ -19286,8 +19286,8 @@
     "https://github.com/jumpserver/jumpserver": {
         "created_at": "2024-05-16 08:22:16",
         "description": "JumpServer 是广受欢迎的开源堡垒机，是符合 4A 规范的专业运维安全审计系统。",
-        "commit_message": "perf: dates_metrics api speed (#13266)\n\nCo-authored-by: feng <1304903146@qq.com>",
-        "commit_date": "2024-05-22 07:25:38",
+        "commit_message": "perf: perm tree search",
+        "commit_date": "2024-05-27 10:05:21",
         "release_date": "2024-05-16 09:53:04",
         "release_message": "# 一、安装和升级\r\n\r\n## 1.1 在线方式 ✈️\r\n\r\n仅需两步快速安装 JumpServer：\r\n\r\n1. 准备一台 4核8G （最低）且可以访问互联网的 64 位 Linux 主机；\r\n2. 以 root 用户执行如下命令一键安装 JumpServer。\r\n\r\n国内用户\r\n``` sh\r\ncurl -sSL https://resource.fit2cloud.com/jumpserver/jumpserver/releases/latest/download/quick_start.sh | bash\r\n```\r\n\r\n海外用户\r\n``` sh\r\ncurl -sSL https://github.com/jumpserver/jumpserver/releases/latest/download/quick_start.sh | bash\r\n```\r\n\r\n## 1.2 离线方式 🚢\r\n\r\n[离线安装包下载地址](https://community.fit2cloud.com/#/download/jumpserver/v3-10-10)\r\n\r\n详细安装和升级文档请参考：[完整文档](https://docs.jumpserver.org/zh/v3/) \r\n\r\n\r\n# 二、更新日志\r\n\r\n## 2.1 功能优化 🚀 \r\n\r\n- perf: 优化支持云同步任务完成后自动删除云端已释放的资产【企业版】\r\n- perf: 优化当资产总数 `> 5000` 时延迟 `20s` 刷新用户授权树（之前 `> 2000`）\r\n- perf: 优化 Web 资产详情自动代填的信息显示\r\n- perf: 优化资产树节点支持拖拽操作\r\n- perf: 优化创建、更新用户时的 MFA 选项根据系统设置全局状态配合显示\r\n- perf: 优化 Luna 页面资产连接按钮不可点击时提示原因\r\n- perf: 优化连接 Windows 资产全屏显示不完整的问题（Lion）\r\n- perf: 优化 Panda 组件支持使用自签名证书连接 Core 服务（Panda）【企业版】\r\n- perf: 优化账号密钥使用长度为 8192 位的密钥时列表加载慢的问题\r\n\r\n## 2.2 问题修复 🐛\r\n\r\n- fix: 修复 `v2` 升级 `v3` 版本时系统用户 `su_from` 没有同步的问题\r\n- fix: 修复 `v2` 升级 `v3` 版本时授权中手动登录系统用户会显示为空字符串的问题\r\n- fix: 修复 `SESSION_EXPIRE_AT_BROWSER_CLOSE` 配置开启后用户重置 MFA 失败的问题\r\n- fix: 修复 Chrome 远程应用加载多个插件失败的问题\r\n- fix: 修复社区版本使用过程中偶尔会出现资源创建按钮不可点击的问题\r\n- fix: 修复 MySQL 数据库 Kill Session 失败的问题（Magnus）【企业版】\r\n- fix: 修复 SQL Server 数据库使用微软客户端连接失败的问题（Magnus）【企业版】\r\n- fix: 修复 ChatAI 显示异常问题（Kael）（All-in-One）\r\n- fix: 修复云同步任务针对火山引擎云服务商只能同步一页的问题【企业版】\r\n- fix: 修复批量传输下载的文件名为 `undefined` 的问题\r\n- fix: 修复 LDAP 服务端修改用户 OU 组织结构后无法登录的问题\r\n- fix: 修复导出 CSV 文件属性值前缀为 `0` 时不显示的问题\r\n- fix: 修复 LDAP 定时同步任务不执行的问题\r\n- fix: 修复华为交换机执行命令报错的问题\r\n- fix: 修复用户会话过期提示 `500` 的问题\r\n- fix: 修复创建 es 命令存储后返回页面不正确的问题\r\n- fix: 修复快捷命令使用 `mysql` 模块不支持在 MariaDB 数据库上执行命令的问题"
     },
@@ -22555,12 +22555,12 @@
         "release_message": "1、新增自行实现的HTTP请求方法，支持代理模式，方便错误排查\r\n2、重写myjsdati.java类，删除实现接口"
     },
     "https://github.com/10cks/fofaEX": {
-        "created_at": "2024-01-25 03:23:01",
+        "created_at": "2024-05-10 12:30:07",
         "description": "FOFA EX 是一款基于fofa api（也可导入鹰图、夸克文件）实现的红队综合利用工具，可基于模板把工具作为插件进行集成，自动化进行资产探测，目前提供的插件功能如下：探活、 nuclei 模板扫描、IP反查域名、域名反查 ICP 备案、dismap 指纹扫描",
-        "commit_message": "Merge remote-tracking branch 'origin/master'",
-        "commit_date": "2024-05-10 12:30:07",
-        "release_date": "2024-01-25 03:26:17",
-        "release_message": "# 更新\r\n\r\n1. 提供资产探测流程执行自动化\r\n2. 提供更多的插件：[插件下载地址](https://github.com/10cks/fofaEX_PublicPlugins)\r\n3. 提供打开文件支持更多格式（csv/json/xlsx），数据与插件直接对接，可执行自动化\r\n\r\n# bug 修复\r\n\r\n修复mac设置问题"
+        "commit_message": "update\n\nSigned-off-by: 10cks <1195011908@qq.com>",
+        "commit_date": "2024-05-26 06:14:17",
+        "release_date": "2024-05-25 12:52:57",
+        "release_message": "新增官方语法示例面板：\r\n\r\n![image](https://github.com/10cks/fofaEX/assets/47177550/e86a6187-39b8-4dac-8b64-0ae231ac14cf)\r\n"
     },
     "https://github.com/session-replay-tools/tcpburn": {
         "created_at": "2013-09-09 06:13:56",
@@ -24879,7 +24879,7 @@
     },
     "https://www.d99net.net/": {
         "status_code": 200,
-        "description": "Dܷǽ"
+        "description": "D"
     },
     "http://www.ctftools.com/": {
         "status_code": 200,
@@ -25602,8 +25602,8 @@
     "https://github.com/zaproxy/zaproxy": {
         "created_at": "2024-05-07 17:05:30",
         "description": "The ZAP core project",
-        "commit_message": "Grpc: gRPC-web-text constant added in NameValuePair (#8493)\n\nAdd a constant for the new type.\r\n\r\nSigned-off-by: amitpanwar789 <amitpanwar02705@gmail.com>",
-        "commit_date": "2024-05-17 11:23:32",
+        "commit_message": "Merge pull request #8496 from thc202/fix/variantpath-ex",
+        "commit_date": "2024-05-20 19:18:06",
         "release_date": "2024-05-07 17:39:14",
         "release_message": "Release notes: https://www.zaproxy.org/docs/desktop/releases/2.15.0/\r\n\r\n---\r\n| File | Checksum (SHA-256) |\r\n|---|---|\r\n| [ZAP_2.15.0.dmg](https://github.com/zaproxy/zaproxy/releases/download/v2.15.0/ZAP_2.15.0.dmg) | `ae025403e46cdefff013cd0c3b88d8edc5a183a76daa63cb62c7c629005337a5` |\r\n| [ZAP_2.15.0_aarch64.dmg](https://github.com/zaproxy/zaproxy/releases/download/v2.15.0/ZAP_2.15.0_aarch64.dmg) | `4426253f4702bbd5fb4779bcf4d62490b2c10ec851c4ebc94ced8f156d2e5509` |\r\n| [ZAP_2.15.0_Core.zip](https://github.com/zaproxy/zaproxy/releases/download/v2.15.0/ZAP_2.15.0_Core.zip) | `e3cf30ad526e4f3fb8a228e1d5e02da0389b2ec7436b989bb28f959703380bf5` |\r\n| [ZAP_2.15.0_Crossplatform.zip](https://github.com/zaproxy/zaproxy/releases/download/v2.15.0/ZAP_2.15.0_Crossplatform.zip) | `05d3932a1affb0ab7987664677134709982ca3837a0b0f0e16f9aeb391933341` |\r\n| [ZAP_2.15.0_Linux.tar.gz](https://github.com/zaproxy/zaproxy/releases/download/v2.15.0/ZAP_2.15.0_Linux.tar.gz) | `6410e196baab458a9204e29aafb5745fca003a2a6c0386f2c6e5c04b67621fa7` |\r\n| [ZAP_2_15_0_unix.sh](https://github.com/zaproxy/zaproxy/releases/download/v2.15.0/ZAP_2_15_0_unix.sh) | `3d976a197b7f71c52c8b8b2e9f06b988384845fb854b637ebb8be0e4cb38112f` |\r\n| [ZAP_2_15_0_windows-x32.exe](https://github.com/zaproxy/zaproxy/releases/download/v2.15.0/ZAP_2_15_0_windows-x32.exe) | `114953f29647a5e4e5774b338f2271d6149711e9222e0b92b11be3a35b812478` |\r\n| [ZAP_2_15_0_windows.exe](https://github.com/zaproxy/zaproxy/releases/download/v2.15.0/ZAP_2_15_0_windows.exe) | `28b348dd65116ddabbbbd98b7f84864a0bb0f98d656266f2f08bfd010ae51c57` |\r\n| [bom.json](https://github.com/zaproxy/zaproxy/releases/download/v2.15.0/bom.json) | `04f3e148aaa406cd7f31f2be8d3ef282e16e852233da85de13aacb3a173f4740` |\r\n"
     },
@@ -27072,7 +27072,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "74.249.21.249属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "52.157.4.80属于美国 加利福尼亚 圣何塞 微软云 数据中心_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
@@ -27271,8 +27271,8 @@
         "description": "Find Missing Patches"
     },
     "https://www.pan131.com/": {
-        "status_code": 500,
-        "description": "500 Internal Server Error"
+        "status_code": 200,
+        "description": "百度云搜索,百度网盘云盘资源搜索引擎 - 盘131"
     },
     "http://whois.alexa.cn/": {
         "status_code": 200,
@@ -27295,8 +27295,8 @@
         "description": "登录"
     },
     "https://www.lingfengyun.com/": {
-        "status_code": 200,
-        "description": "十大网盘搜索引擎 - 凌风云"
+        "status_code": 403,
+        "description": "403 - ֹ: ʱܾ"
     },
     "https://censys.io/": {
         "status_code": 200,
@@ -28317,5 +28317,57 @@
     "https://www.ansible.com/": {
         "status_code": 200,
         "description": "Homepage | Ansible Collaborative"
+    },
+    "https://github.com/cowrie/cowrie": {
+        "created_at": "2023-01-09 15:18:42",
+        "description": "Cowrie SSH/Telnet Honeypot https://cowrie.readthedocs.io",
+        "commit_message": "Bump pre-commit from 3.5.0 to 3.7.1 (#2175)\n\nBumps [pre-commit](https://github.com/pre-commit/pre-commit) from 3.5.0 to 3.7.1.\r\n- [Release notes](https://github.com/pre-commit/pre-commit/releases)\r\n- [Changelog](https://github.com/pre-commit/pre-commit/blob/main/CHANGELOG.md)\r\n- [Commits](https://github.com/pre-commit/pre-commit/compare/v3.5.0...v3.7.1)\r\n\r\n---\r\nupdated-dependencies:\r\n- dependency-name: pre-commit\r\n  dependency-type: direct:development\r\n  update-type: version-update:semver-minor\r\n...\r\n\r\nSigned-off-by: dependabot[bot] <support@github.com>\r\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
+        "commit_date": "2024-05-23 07:26:42",
+        "release_date": "2023-01-09 15:19:22",
+        "release_message": "Release 2.5.0\r\n*************\r\n\r\n* Datadog output module (Fred Baguelin <frederic.baguelin@datadoghq.com>)\r\n* General improvements to shell expansion handling\r\n* New version of Twisted supported\r\n* Python 3.11 support\r\n* Pypy 3.9 support\r\n* Add session type to Telegram output"
+    },
+    "https://github.com/martinzhou2015/SRCMS": {
+        "created_at": "2015-07-30 23:38:20",
+        "description": "SRCMS企业应急响应与缺陷管理系统",
+        "commit_message": "Update README.md",
+        "commit_date": "2019-10-11 12:05:38"
+    },
+    "https://github.com/desaster/kippo": {
+        "created_at": "2014-05-27 20:40:43",
+        "description": "Kippo - SSH Honeypot",
+        "commit_message": "Merge pull request #242 from desaster/dockerfile\n\nadd Dockerfile & docker-compose.yml",
+        "commit_date": "2023-08-26 17:39:53",
+        "release_date": "2014-05-27 20:55:49",
+        "release_message": "tag release now that we've moved to github\n"
+    },
+    "https://github.com/SecurityPaper/mail_fishing": {
+        "created_at": "2018-06-15 10:31:16",
+        "description": "甲方安全工程师必备，内部钓鱼系统",
+        "commit_message": "修改网址",
+        "commit_date": "2022-01-15 16:12:54",
+        "release_date": "2018-06-26 06:31:41",
+        "release_message": "功能实现"
+    },
+    "https://github.com/jeffbryner/MozDef": {
+        "created_at": "2016-12-18 23:07:16",
+        "description": "MozDef: The Mozilla Defense Platform",
+        "commit_message": "Merge pull request #3 from mozilla/master\n\nsync Mozilla-mozdef",
+        "commit_date": "2020-02-19 19:15:42"
+    },
+    "https://github.com/threathunterX/nebula": {
+        "created_at": "2019-03-14 08:36:19",
+        "description": "\"星云\"业务风控系统，主工程",
+        "commit_message": "Doc(README): Modify datetime",
+        "commit_date": "2023-07-28 04:05:39",
+        "release_date": "2019-03-29 09:47:49",
+        "release_message": "Nebula 1.1.2：\r\n1.  解決CPU占用率過高問題\r\n2.  解決风险事件管理无数据的問題\r\n3.  解決無法創建用户和用户组的問題\r\n4.  解決監控大屏没有風險事件數據的問題"
+    },
+    "https://github.com/smarttang/w3a_SOC": {
+        "created_at": "2022-06-05 17:06:25",
+        "description": "元豚科技 - 基于日志安全分析做切入，做最好用的「云原生安全运维工作台」",
+        "commit_message": "Update README.md\n\n修改Readme",
+        "commit_date": "2024-05-23 07:33:41",
+        "release_date": "2022-06-05 17:08:31",
+        "release_message": "主要更新：\r\n - 增加LDAP登录的支持，两类用户并行。\r\n - 增加LDAP登录配置，在「控制台」、「用户管理」可配置。 \r\n - 增加修改、删除站点配置的能力。\r\n - 修复后端BUG-17个。\r\n - 优化新建告警规则前端页面。\r\n\r\n老用户更新：\r\n - 请执行更新SQL，影响忽略不计。(参考附件SQL)\r\n\r\nMac Osx - m1:\r\nregistry.cn-beijing.aliyuncs.com/aidolphins_com/w3a-dashboard:v1.0.15-m1\r\nregistry.cn-beijing.aliyuncs.com/aidolphins_com/w3a-openapi:v1.0.15-m1\r\nregistry.cn-beijing.aliyuncs.com/aidolphins_com/w3a-workapi:v1.0.15-m1\r\nregistry.cn-beijing.aliyuncs.com/aidolphins_com/w3a-agent:v1.0.15-m1\r\nregistry.cn-beijing.aliyuncs.com/aidolphins_com/w3a-frontend:v1.0.15-m1\r\n\r\nCentOS:\r\nregistry.cn-beijing.aliyuncs.com/aidolphins_com/w3a-dashboard:v1.0.15\r\nregistry.cn-beijing.aliyuncs.com/aidolphins_com/w3a-openapi:v1.0.15\r\nregistry.cn-beijing.aliyuncs.com/aidolphins_com/w3a-workapi:v1.0.15\r\nregistry.cn-beijing.aliyuncs.com/aidolphins_com/w3a-agent:v1.0.15\r\nregistry.cn-beijing.aliyuncs.com/aidolphins_com/w3a-frontend:v1.0.15"
     }
 }
