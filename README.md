@@ -42,7 +42,7 @@
 - <img src="https://favicon.qqsuu.cn/www.atoolbox.net" alt="" style="height: 20px;"> [ADFGX密码加密/解密 - 一个工具箱 - 好用的在线工具都在这里！](http://www.atoolbox.net/Tool.php?Id=918) 
 - <img src="https://favicon.qqsuu.cn/www.hiencode.com" alt="" style="height: 20px;"> [CTF在线工具-在线ADFGVX密码加密|在线ADFGVX密码解密|ADFGVX密码算法|ADFGVX Cipher](http://www.hiencode.com/adfgvx.html) 
 - <img src="https://favicon.qqsuu.cn/www.hiencode.com" alt="" style="height: 20px;"> [CTF在线工具-在线ADFGX密码加密|在线ADFGX密码解密|ADFGX密码算法|ADFGX Cipher](http://www.hiencode.com/adfgx.html) 
-- <img src="https://favicon.qqsuu.cn/www.practicalcryptography.com" alt="" style="height: 20px;"> [500 Internal Server Error](http://www.practicalcryptography.com/ciphers/adfgx-cipher/) 
+- <img src="https://favicon.qqsuu.cn/www.practicalcryptography.com" alt="" style="height: 20px;"> [Practical Cryptography](http://www.practicalcryptography.com/ciphers/adfgx-cipher/) 
 - <img src="https://favicon.qqsuu.cn/ctf.bugku.com" alt="" style="height: 20px;"> [ADFGX密码 - Bugku CTF](https://ctf.bugku.com/tool/adfgx) 
 #### AES加解密
 - <img src="https://favicon.qqsuu.cn/tool.chacuo.net" alt="" style="height: 20px;"> [在线AES加密解密、AES在线加密解密、AES encryption and decryption--查错网](http://tool.chacuo.net/cryptaes) 
@@ -102,10 +102,10 @@
 - <img src="https://favicon.qqsuu.cn/www.66zan.cn" alt="" style="height: 20px;"> [在线DES加密,DES解密工具-在线工具箱](http://www.66zan.cn/desencrypt/) 
 - <img src="https://favicon.qqsuu.cn/www.sojson.com" alt="" style="height: 20px;"> [在线DES加密 | DES解密- 在线工具](https://www.sojson.com/encrypt_des.html) 
 #### CryptoJS RC4加解密
-- <img src="https://favicon.qqsuu.cn/www.66zan.cn" alt="" style="height: 20px;"> [在线RC4加密,RC4解密工具-在线工具箱](http://www.66zan.cn/rc4encrypt/) 
+- <img src="https://favicon.qqsuu.cn/www.66zan.cn" alt="" style="height: 20px;"> [www.66zan.cn](http://www.66zan.cn/rc4encrypt/) 
 - <img src="https://favicon.qqsuu.cn/www.sojson.com" alt="" style="height: 20px;"> [在线RC4加密 | RC4解密- 在线工具](https://www.sojson.com/encrypt_rc4.html) 
 #### CryptoJS Rabbit加解密
-- <img src="https://favicon.qqsuu.cn/www.66zan.cn" alt="" style="height: 20px;"> [在线Rabbit加密,Rabbit解密工具-在线工具箱](http://www.66zan.cn/rabbitencrypt/) 
+- <img src="https://favicon.qqsuu.cn/www.66zan.cn" alt="" style="height: 20px;"> [www.66zan.cn](http://www.66zan.cn/rabbitencrypt/) 
 - <img src="https://favicon.qqsuu.cn/www.sojson.com" alt="" style="height: 20px;"> [在线Rabbit加密 | Rabbit解密- 在线工具](https://www.sojson.com/encrypt_rabbit.html) 
 #### CryptoJS TripleDes加解密
 - <img src="https://favicon.qqsuu.cn/www.66zan.cn" alt="" style="height: 20px;"> [在线TripleDES加密,TripleDES解密工具-在线工具箱](http://www.66zan.cn/tripledes/) 
@@ -491,7 +491,7 @@
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [TongDa-OA](https://github.com/OA-HUNTER/TongDa-OA) 通达OA一些漏洞点
 ##### 产品or组件or框架漏洞
 ###### ActiveMQ
-- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [ActiveMQ_RCE_Pro_Max](https://github.com/JaneMandy/ActiveMQ_RCE_Pro_Max) 
+- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [ActiveMQ_RCE_Pro_Max](https://github.com/JaneMandy/ActiveMQ_RCE_Pro_Max) CVE-2023-46604
 ###### Apache Airflow
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [CVE-2022-40127](https://github.com/Mr-xn/CVE-2022-40127) Apache Airflow < 2.4.0 DAG  example_bash_operator RCE POC
 ###### Apache Dubbo
@@ -657,7 +657,7 @@
 ###### 帆软
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [Frchannel](https://github.com/yecp181/Frchannel) 帆软bi反序列化漏洞利用工具
 ###### 禅道
-- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [ZentaoExploitGUI](https://github.com/charonlight/ZentaoExploitGUI) 
+- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [ZentaoExploitGUI](https://github.com/charonlight/ZentaoExploitGUI) 禅道最新身份认证绕过漏洞利用工具
 ###### 若依
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [RuoYiExploitGUI](https://github.com/charonlight/RuoYiExploitGUI) 若依最新定时任务SQL注入可导致RCE漏洞的一键利用工具
 ##### 信息泄露漏洞
@@ -1019,8 +1019,8 @@
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [webvulscan](https://github.com/dermotblair/webvulscan) Web Application Vulnerability Scanner.
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [leakScan](https://github.com/Skycrab/leakScan) 在线漏洞扫描
 ##### 口令爆破
-- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [crackq](https://github.com/f0cker/crackq) CrackQ: A Python Hashcat cracking queue system
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [john](https://github.com/openwall/john) John the Ripper jumbo - advanced offline password cracker, which supports hund...
+- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [crackq](https://github.com/f0cker/crackq) CrackQ: A Python Hashcat cracking queue system
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [blasting](https://github.com/gubeihc/blasting) 
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [bruteforce-database](https://github.com/duyet/bruteforce-database) Bruteforce database
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [GoMapEnum](https://github.com/nodauf/GoMapEnum) User enumeration and password bruteforce on Azure, ADFS, OWA, O365, Teams...
@@ -1178,7 +1178,7 @@
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [reverseip_py](https://github.com/yuyudhn/reverseip_py) Domain Parser for IPAddress.com Reverse IP Lookup
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [iplookup v1.1](https://github.com/Lengso/iplookup) IP反查域名
 - <img src="https://favicon.qqsuu.cn/s.tool.chinaz.com" alt="" style="height: 20px;"> [网站IP查询_IP反查域名_同IP网站查询 - 站长工具](http://s.tool.chinaz.com/same) 
-- <img src="https://favicon.qqsuu.cn/dns.aizhan.com" alt="" style="height: 20px;"> [20.97.191.96属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网](https://dns.aizhan.com/) 
+- <img src="https://favicon.qqsuu.cn/dns.aizhan.com" alt="" style="height: 20px;"> [20.109.38.197属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网](https://dns.aizhan.com/) 
 - <img src="https://favicon.qqsuu.cn/dnslytics.com" alt="" style="height: 20px;"> [Reverse IP - Find websites hosted on the same IP address, server or subnet](https://dnslytics.com/reverse-ip) 
 - <img src="https://favicon.qqsuu.cn/hackertarget.com" alt="" style="height: 20px;"> [Reverse IP Lookup, Find Hosts Sharing an IP | HackerTarget.com](https://hackertarget.com/reverse-ip-lookup/) 
 - <img src="https://favicon.qqsuu.cn/rapiddns.io" alt="" style="height: 20px;"> [Subdomain - RapidDNS Rapid DNS Information Collection](https://rapiddns.io/sameip) 
@@ -1350,7 +1350,7 @@
 - <img src="https://favicon.qqsuu.cn/search.chongbuluo.com" alt="" style="height: 20px;"> [虫部落快搜 - 搜索快人一步](https://search.chongbuluo.com/) 
 - <img src="https://favicon.qqsuu.cn/www.dalipan.com" alt="" style="height: 20px;"> [大力盘 - 网盘搜索引擎](https://www.dalipan.com/#/) 
 - <img src="https://favicon.qqsuu.cn/www.lingfengyun.com" alt="" style="height: 20px;"> [十大网盘搜索引擎 - 凌风云](https://www.lingfengyun.com/) 
-- <img src="https://favicon.qqsuu.cn/www.pan131.com" alt="" style="height: 20px;"> [500 Internal Server Error](https://www.pan131.com/) 
+- <img src="https://favicon.qqsuu.cn/www.pan131.com" alt="" style="height: 20px;"> [百度云搜索,百度网盘云盘资源搜索引擎 - 盘131](https://www.pan131.com/) 
 #### 网站信息
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [Web-SurvivalScan](https://github.com/AabyssZG/Web-SurvivalScan) 对Web渗透项目资产进行快速存活验证
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [waybackurls v0.1.0](https://github.com/tomnomnom/waybackurls) Fetch all the URLs that the Wayback Machine knows about for a do...
@@ -2110,8 +2110,8 @@
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [webshell_detect](https://github.com/webraybtl/webshell_detect) webshell_detect
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [DecodeSomeJSPWebshell v1.2](https://github.com/minhangxiaohui/DecodeSomeJSPWebshell) 冰蝎、哥斯拉 jsp webshell通信流量解密器
 ##### 哥斯拉(Godzilla)流量取证
+- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [Deco_Godzilla](https://github.com/nocultrue/Deco_Godzilla) 解密哥斯拉所有类型流量
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [webshell_detect](https://github.com/webraybtl/webshell_detect) webshell_detect
-- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [Deco_Godzilla](https://github.com/nocultrue/Deco_Godzilla) 
 ### 威胁情报中心
 - <img src="https://favicon.qqsuu.cn/ti.360.cn" alt="" style="height: 20px;"> [360安全大脑](https://ti.360.cn/) 
 - <img src="https://favicon.qqsuu.cn/ti.sangfor.com.cn" alt="" style="height: 20px;"> [ti.sangfor.com.cn](https://ti.sangfor.com.cn/analysis-platform) 
@@ -2124,40 +2124,40 @@
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [DongTai/](https://github.com/HXSecurity/DongTai/) 
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [veinmind-tools/](https://github.com/chaitin/veinmind-tools/) 
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [murphysec/](https://github.com/murphysecurity/murphysec/) 
-- <img src="https://favicon.qqsuu.cn/lgtm.com" alt="" style="height: 20px;"> [lgtm.com](https://lgtm.com) 
-- <img src="https://favicon.qqsuu.cn/rasp.baidu.com" alt="" style="height: 20px;"> [rasp.baidu.com](https://rasp.baidu.com/doc/install/iast.html) 
+- <img src="https://favicon.qqsuu.cn/lgtm.com" alt="" style="height: 20px;"> [The next step for LGTM.com: GitHub code scanning! - The GitHub Blog](https://lgtm.com) 
+- <img src="https://favicon.qqsuu.cn/rasp.baidu.com" alt="" style="height: 20px;"> [安装灰盒扫描工具 - OpenRASP 官方文档 - 开源自适应安全产品](https://rasp.baidu.com/doc/install/iast.html) 
 #### GitHub监控
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [code6 1.6.4](https://github.com/4x99/code6) 码小六 - GitHub 代码泄露监控系统
-- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [Hawkeye](https://github.com/0xbug/Hawkeye) 
+- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [Hawkeye](https://github.com/0xbug/Hawkeye) GitHub 泄露监控系统(GitHub Sensitive Information Leakage Monitor Spider)
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [GSIL](https://github.com/FeeiCN/GSIL) 
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [x-patrol](https://github.com/MiSecurity/x-patrol) 
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [Github-Monitor](https://github.com/VKSRC/Github-Monitor) 
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [gshark](https://github.com/neal1991/gshark) 
-- <img src="https://favicon.qqsuu.cn/www.gitguardian.com" alt="" style="height: 20px;"> [www.gitguardian.com](https://www.gitguardian.com/) 
+- <img src="https://favicon.qqsuu.cn/www.gitguardian.com" alt="" style="height: 20px;"> [GitGuardian: Git Security Scanning & Secrets Detection](https://www.gitguardian.com/) 
 #### HIDS
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [whids](https://github.com/0xrawsec/whids) 
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [AgentSmith-HIDS](https://github.com/DianrongSecurity/AgentSmith-HIDS) 
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [MozDef](https://github.com/mozilla/MozDef) 
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [yulong-hids](https://github.com/ysrc/yulong-hids) 
-- <img src="https://favicon.qqsuu.cn/osquery.io" alt="" style="height: 20px;"> [osquery.io](https://osquery.io/) 
-- <img src="https://favicon.qqsuu.cn/securityonion.net" alt="" style="height: 20px;"> [securityonion.net](https://securityonion.net/) 
+- <img src="https://favicon.qqsuu.cn/osquery.io" alt="" style="height: 20px;"> [Osquery](https://osquery.io/) 
+- <img src="https://favicon.qqsuu.cn/securityonion.net" alt="" style="height: 20px;"> [Security Onion Solutions](https://securityonion.net/) 
 - <img src="https://favicon.qqsuu.cn/suricata-ids.org" alt="" style="height: 20px;"> [suricata-ids.org](https://suricata-ids.org) 
-- <img src="https://favicon.qqsuu.cn/www.dictionary.com" alt="" style="height: 20px;"> [www.dictionary.com](https://www.dictionary.com/browse/moloch) 
-- <img src="https://favicon.qqsuu.cn/www.la-samhna.de" alt="" style="height: 20px;"> [www.la-samhna.de](https://www.la-samhna.de/) 
-- <img src="https://favicon.qqsuu.cn/www.ossec.net" alt="" style="height: 20px;"> [www.ossec.net](https://www.ossec.net) 
-- <img src="https://favicon.qqsuu.cn/www.snort.org" alt="" style="height: 20px;"> [www.snort.org](https://www.snort.org) 
+- <img src="https://favicon.qqsuu.cn/www.dictionary.com" alt="" style="height: 20px;"> [MOLOCH Definition & Meaning | Dictionary.com](https://www.dictionary.com/browse/moloch) 
+- <img src="https://favicon.qqsuu.cn/www.la-samhna.de" alt="" style="height: 20px;"> [Samhain Labs](https://www.la-samhna.de/) 
+- <img src="https://favicon.qqsuu.cn/www.ossec.net" alt="" style="height: 20px;"> [OSSEC - World's Most Widely Used Host Intrusion Detection System - HIDS](https://www.ossec.net) 
+- <img src="https://favicon.qqsuu.cn/www.snort.org" alt="" style="height: 20px;"> [Snort - Network Intrusion Detection & Prevention System](https://www.snort.org) 
 #### SIEM_SOC
+- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [w3a_SOC](https://github.com/smarttang/w3a_SOC) 元豚科技 - 基于日志安全分析做切入，做最好用的「云原生安全运维工作台」
+- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [MozDef](https://github.com/jeffbryner/MozDef) MozDef: The Mozilla Defense Platform
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [metron](https://github.com/apache/metron) 
-- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [MozDef](https://github.com/jeffbryner/MozDef) 
-- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [w3a_SOC](https://github.com/smarttang/w3a_SOC) 
-- <img src="https://favicon.qqsuu.cn/siemonster.com" alt="" style="height: 20px;"> [siemonster.com](https://siemonster.com/) 
-- <img src="https://favicon.qqsuu.cn/www.alienvault.com" alt="" style="height: 20px;"> [www.alienvault.com](https://www.alienvault.com/products/ossim) 
-- <img src="https://favicon.qqsuu.cn/www.prelude-siem.org" alt="" style="height: 20px;"> [www.prelude-siem.org](https://www.prelude-siem.org/) 
+- <img src="https://favicon.qqsuu.cn/siemonster.com" alt="" style="height: 20px;"> [Home - SIEMonster](https://siemonster.com/) 
+- <img src="https://favicon.qqsuu.cn/www.alienvault.com" alt="" style="height: 20px;"> [Access Denied](https://www.alienvault.com/products/ossim) 
+- <img src="https://favicon.qqsuu.cn/www.prelude-siem.org" alt="" style="height: 20px;"> [Overview - PRELUDE SIEM - UNITY 360](https://www.prelude-siem.org/) 
 #### WAF
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [Juggler](https://github.com/C4o/Juggler) A system that may trick hackers.  针对黑客的拟态欺骗系统。
-- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [ngx_lua_waf](https://github.com/loveshell/ngx_lua_waf) 
+- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [ngx_lua_waf](https://github.com/loveshell/ngx_lua_waf) ngx_lua_waf是一个基于lua-nginx-module(openresty)的web应用防火墙
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [x-waf](https://github.com/xsec-lab/x-waf) 
-- <img src="https://favicon.qqsuu.cn/rasp.baidu.com" alt="" style="height: 20px;"> [rasp.baidu.com](https://rasp.baidu.com) 
+- <img src="https://favicon.qqsuu.cn/rasp.baidu.com" alt="" style="height: 20px;"> [开源应用运行时自我保护解决方案 - OpenRASP - 百度安全](https://rasp.baidu.com) 
 #### Web应用防火墙
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [safeline](https://github.com/chaitin/safeline) 一款足够简单、足够好用、足够强的免费 WAF。基于业界领先的语义引擎检测技术，作为反向代理接入，保护你的网站不受黑客攻击。 A free WAF t...
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [openstar](https://github.com/starjun/openstar) lua waf,nginx+lua,openresty,luajit,waf+,cdn,nginx
@@ -2206,33 +2206,33 @@
 #### 主机入侵防御
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [iDefender](https://github.com/wecooperate/iDefender) iDefender（冰盾 - 终端主动防御系统）
 #### 企业云盘
-- <img src="https://favicon.qqsuu.cn/filerun.com" alt="" style="height: 20px;"> [filerun.com](https://filerun.com/) 
+- <img src="https://favicon.qqsuu.cn/filerun.com" alt="" style="height: 20px;"> [FileRun - Selfhosted File Sync and Share](https://filerun.com/) 
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [kiftd](https://github.com/KOHGYLW/kiftd) 
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [filebrowser/releases/latest](https://github.com/filebrowser/filebrowser/releases/latest) 
-- <img src="https://favicon.qqsuu.cn/kodcloud.com" alt="" style="height: 20px;"> [kodcloud.com](https://kodcloud.com/) 
-- <img src="https://favicon.qqsuu.cn/nextcloud.com" alt="" style="height: 20px;"> [nextcloud.com](https://nextcloud.com/) 
-- <img src="https://favicon.qqsuu.cn/owncloud.com" alt="" style="height: 20px;"> [owncloud.com](https://owncloud.com/products/) 
-- <img src="https://favicon.qqsuu.cn/www.seafile.com" alt="" style="height: 20px;"> [www.seafile.com](https://www.seafile.com/home/) 
+- <img src="https://favicon.qqsuu.cn/kodcloud.com" alt="" style="height: 20px;"> [可道云-私有云存储&协同办公平台_企业网盘_企业云盘_网盘_云盘](https://kodcloud.com/) 
+- <img src="https://favicon.qqsuu.cn/nextcloud.com" alt="" style="height: 20px;"> [Nextcloud - Open source content collaboration platform](https://nextcloud.com/) 
+- <img src="https://favicon.qqsuu.cn/owncloud.com" alt="" style="height: 20px;"> [Product overview: ownCloud file sync and share](https://owncloud.com/products/) 
+- <img src="https://favicon.qqsuu.cn/www.seafile.com" alt="" style="height: 20px;"> [Seafile - 开源的企业私有网盘 私有云存储软件 企业维基 知识管理](https://www.seafile.com/home/) 
 #### 堡垒机
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [jumpserver](https://github.com/jumpserver/jumpserver) JumpServer 是广受欢迎的开源堡垒机，是符合 4A 规范的专业运维安全审计系统。
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [jumpserver](https://github.com/jumpserver/jumpserver) JumpServer 是广受欢迎的开源堡垒机，是符合 4A 规范的专业运维安全审计系统。
-- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [jxotp](https://github.com/jx-sec/jxotp) 
-- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [GateOne](https://github.com/liftoff/GateOne) 
-- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [CrazyEye](https://github.com/triaquae/CrazyEye) 
-- <img src="https://favicon.qqsuu.cn/tp4a.com" alt="" style="height: 20px;"> [tp4a.com](https://tp4a.com/) 
-- <img src="https://favicon.qqsuu.cn/www.tosec.com.cn" alt="" style="height: 20px;"> [www.tosec.com.cn](https://www.tosec.com.cn/) 
+- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [jxotp](https://github.com/jx-sec/jxotp) 企业SSH登陆双因素认证系统
+- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [GateOne](https://github.com/liftoff/GateOne) Gate One is an HTML5-powered terminal emulator and SSH client
+- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [CrazyEye](https://github.com/triaquae/CrazyEye) OpenSource IT Automation Software
+- <img src="https://favicon.qqsuu.cn/tp4a.com" alt="" style="height: 20px;"> [走向成功  - Teleport，高效易用的堡垒机](https://tp4a.com/) 
+- <img src="https://favicon.qqsuu.cn/www.tosec.com.cn" alt="" style="height: 20px;"> [中远麒麟堡垒机_堡垒机_一键安装支持多云及动态口令数据库审计的堡垒机_官网](https://www.tosec.com.cn/) 
 #### 威胁检测
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [RmEye v0.0.4](https://github.com/RoomaSec/RmEye) 戎码之眼是一个window上的基于att&ck模型的威胁监控工具.有效检测常见的未知威胁与已知威胁.防守方的利剑
 #### 安全开发
-- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [secguide](https://github.com/Tencent/secguide) 
+- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [secguide](https://github.com/Tencent/secguide) 面向开发人员梳理的代码安全指南
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [rhizobia_J](https://github.com/momosecurity/rhizobia_J) 
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [rhizobia_P](https://github.com/momosecurity/rhizobia_P) 
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [bandit/releases/](https://github.com/openstack/bandit/releases/) 
 #### 安全运维
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [theZoo v0.60](https://github.com/ytisf/theZoo) A repository of LIVE malwares for your own joy and pleasure. theZoo is...
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [cuckoo 2.0.6](https://github.com/cuckoosandbox/cuckoo) Cuckoo Sandbox is an automated dynamic malware analysis system
-- <img src="https://favicon.qqsuu.cn/code.google.com" alt="" style="height: 20px;"> [code.google.com](https://code.google.com/archive/p/opendlp/) 
-- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [Scout](https://github.com/HandsomeOne/Scout) 
+- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [Scout](https://github.com/HandsomeOne/Scout) 可能是东半球最灵活的 URL 监控系统
+- <img src="https://favicon.qqsuu.cn/code.google.com" alt="" style="height: 20px;"> [Google Code Archive - Long-term storage for Google Code Project Hosting.](https://code.google.com/archive/p/opendlp/) 
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [open_dnsdb](https://github.com/qunarcorp/open_dnsdb) 
 #### 欺骗防御
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [DecoyMini](https://github.com/decoymini/DecoyMini) 🐝 A highly scalable, safe, free enterprise honeypots 一款高可扩展、安全、免费的企业级蜜罐系统
@@ -2248,13 +2248,13 @@
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [WhetherMysqlSham v1.0](https://github.com/BeichenDream/WhetherMysqlSham) 检测目标Mysql数据库是不是蜜罐
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [Juggler](https://github.com/C4o/Juggler) A system that may trick hackers.  针对黑客的拟态欺骗系统。
 #### 漏洞管理
+- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [django-DefectDojo](https://github.com/DefectDojo/django-DefectDojo)  DevSecOps, ASPM, Vulnerability Management. All on one platform.
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [xunfeng v0.1.1](https://github.com/ysrc/xunfeng) 巡风是一款适用于企业内网的漏洞快速应急，巡航扫描系统。
-- <img src="https://favicon.qqsuu.cn/gitee.com" alt="" style="height: 20px;"> [gitee.com](https://gitee.com/gy071089/SecurityManageFramwork) 
+- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [SRCMS](https://github.com/martinzhou2015/SRCMS) SRCMS企业应急响应与缺陷管理系统
+- <img src="https://favicon.qqsuu.cn/gitee.com" alt="" style="height: 20px;"> [SecurityManageFramwork: 企业内网安全管理平台，可用于企业内部的安全管理。 本平台旨在帮助安全人员少，业务线繁杂，周期巡检困难，自动化程度低的甲...](https://gitee.com/gy071089/SecurityManageFramwork) 
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [laravel-src](https://github.com/233sec/laravel-src) 
-- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [django-DefectDojo](https://github.com/DefectDojo/django-DefectDojo) 
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [insight](https://github.com/creditease-sec/insight) 
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [Fuxi-Scanner](https://github.com/jeffzh3ng/Fuxi-Scanner) 
-- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [SRCMS](https://github.com/martinzhou2015/SRCMS) 
 #### 相关资源
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [Security-PPT](https://github.com/FeeiCN/Security-PPT) Security-related Slide Presentation & Security Research Report（大安全各领域各...
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [Enterprise-Security-Skill](https://github.com/AnyeDuke/Enterprise-Security-Skill) 用于记录企业安全规划，建设，运营，攻防的相关资源
@@ -2263,49 +2263,49 @@
 #### 网络安全大模型
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [secgpt](https://github.com/Clouditera/secgpt) SecGPT网络安全大模型
 #### 网络流量分析
-- <img src="https://favicon.qqsuu.cn/www.kismetwireless.net" alt="" style="height: 20px;"> [www.kismetwireless.net](https://www.kismetwireless.net/) 
-- <img src="https://favicon.qqsuu.cn/www.zeek.org" alt="" style="height: 20px;"> [www.zeek.org](https://www.zeek.org) 
+- <img src="https://favicon.qqsuu.cn/www.kismetwireless.net" alt="" style="height: 20px;"> [Kismet - Wi-Fi, Bluetooth, RF, and more](https://www.kismetwireless.net/) 
+- <img src="https://favicon.qqsuu.cn/www.zeek.org" alt="" style="height: 20px;"> [The Zeek Network Security Monitor](https://www.zeek.org) 
 #### 自动化代码审计
-- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [Hades](https://github.com/zsdlove/Hades) Static code auditing system
-- <img src="https://favicon.qqsuu.cn/find-sec-bugs.github.io" alt="" style="height: 20px;"> [find-sec-bugs.github.io](https://find-sec-bugs.github.io/) 
-- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [cobra](https://github.com/WhaleShark-Team/cobra) 
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [banruo](https://github.com/yingshang/banruo) 
+- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [Hades](https://github.com/zsdlove/Hades) Static code auditing system
+- <img src="https://favicon.qqsuu.cn/find-sec-bugs.github.io" alt="" style="height: 20px;"> [Find Security Bugs](https://find-sec-bugs.github.io/) 
+- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [cobra](https://github.com/WhaleShark-Team/cobra) 
 - <img src="https://favicon.qqsuu.cn/sourceforge.net" alt="" style="height: 20px;"> [VisualCodeGrepper V2.3.2 download | SourceForge.net](https://sourceforge.net/projects/visualcodegrepp/) 
 #### 蜜罐技术
+- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [cowrie](https://github.com/cowrie/cowrie) Cowrie SSH/Telnet Honeypot https://cowrie.readthedocs.io
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [HFish](https://github.com/hacklcx/HFish) 安全、可靠、简单、免费的企业级蜜罐
+- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [glastopf](https://github.com/mushorg/glastopf) Web Application Honeypot
+- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [kippo](https://github.com/desaster/kippo) Kippo - SSH Honeypot
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [conpot Release_0.6.0](https://github.com/mushorg/conpot) ICS/SCADA honeypot
-- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [dionaea](https://github.com/DinoTools/dionaea) 
-- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [cowrie](https://github.com/cowrie/cowrie) 
-- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [kippo](https://github.com/desaster/kippo) 
+- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [opencanary_web](https://github.com/p1r06u3/opencanary_web) The web management platform of honeypot
+- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [dionaea](https://github.com/DinoTools/dionaea) Home of the dionaea honeypot
+- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [elastichoney](https://github.com/jordan-wright/elastichoney) A Simple Elasticsearch Honeypot
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [tpotce](https://github.com/dtag-dev-sec/tpotce) 
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [wordpot](https://github.com/gbrindisi/wordpot) 
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [beeswarm](https://github.com/honeynet/beeswarm) 
-- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [elastichoney](https://github.com/jordan-wright/elastichoney) 
-- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [glastopf](https://github.com/mushorg/glastopf) 
-- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [opencanary_web](https://github.com/p1r06u3/opencanary_web) 
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [shockpot](https://github.com/threatstream/shockpot) 
 #### 资产管理
 - <img src="https://favicon.qqsuu.cn/docs.saltstack.com" alt="" style="height: 20px;"> [docs.saltstack.com](https://docs.saltstack.com/en/latest/) 
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [AssetsView](https://github.com/Cryin/AssetsView) 
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [bk-cmdb](https://github.com/Tencent/bk-cmdb) 
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [OpsManage](https://github.com/bongmu/OpsManage) 
-- <img src="https://favicon.qqsuu.cn/www.ansible.com" alt="" style="height: 20px;"> [www.ansible.com](https://www.ansible.com/) 
+- <img src="https://favicon.qqsuu.cn/www.ansible.com" alt="" style="height: 20px;"> [Homepage | Ansible Collaborative](https://www.ansible.com/) 
 #### 钓鱼网站系统
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [HFish](https://github.com/hacklcx/HFish) 安全、可靠、简单、免费的企业级蜜罐
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [gophish v0.12.1](https://github.com/gophish/gophish) Open-Source Phishing Toolkit
-- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [mail_fishing](https://github.com/SecurityPaper/mail_fishing) 
+- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [mail_fishing](https://github.com/SecurityPaper/mail_fishing) 甲方安全工程师必备，内部钓鱼系统
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [phishing](https://github.com/p1r06u3/phishing) 
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [king-phisher](https://github.com/rsmusllp/king-phisher) 
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [blackeye](https://github.com/thelinuxchoice/blackeye) 
 - <img src="https://favicon.qqsuu.cn/www.phishingfrenzy.com" alt="" style="height: 20px;"> [www.phishingfrenzy.com](https://www.phishingfrenzy.com/) 
 #### 风控系统
-- <img src="https://favicon.qqsuu.cn/gitee.com" alt="" style="height: 20px;"> [gitee.com](https://gitee.com/freshday/radar) 
-- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [aswan](https://github.com/momosecurity/aswan) 
-- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [riskcontrol](https://github.com/sunpeak/riskcontrol) 
-- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [nebula](https://github.com/threathunterX/nebula) 
+- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [nebula](https://github.com/threathunterX/nebula) "星云"业务风控系统，主工程
+- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [aswan](https://github.com/momosecurity/aswan) 陌陌风控系统静态规则引擎，零基础简易便捷的配置多种复杂规则，实时高效管控用户异常行为。
+- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [riskcontrol](https://github.com/sunpeak/riskcontrol) 轻量级JAVA实时业务风控系统框架
+- <img src="https://favicon.qqsuu.cn/gitee.com" alt="" style="height: 20px;"> [radar: 实时风控引擎(Risk Engine)，自定义规则引擎(Rule Script)，完美支持中文，适用于反欺诈(Anti-fraud)应用场景，开箱即用！...](https://gitee.com/freshday/radar) 
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [urule](https://github.com/youseries/urule) 
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [Liudao](https://github.com/ysrc/Liudao) 
-- <img src="https://favicon.qqsuu.cn/www.drools.org" alt="" style="height: 20px;"> [www.drools.org](https://www.drools.org) 
+- <img src="https://favicon.qqsuu.cn/www.drools.org" alt="" style="height: 20px;"> [Drools - Drools - Business Rules Management System (Java™, Open Source)](https://www.drools.org) 
 ### 安全检查
 #### 基线
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [DependencyCheck](https://github.com/jeremylong/DependencyCheck) OWASP dependency-check is a software composition analysis utility t...
@@ -2454,7 +2454,7 @@
 - <img src="https://favicon.qqsuu.cn/sec.huazhu.com" alt="" style="height: 20px;"> [华住安全响应中心 | Huazhu Security Response Center](https://sec.huazhu.com/) 
 - <img src="https://favicon.qqsuu.cn/sec.ly.com" alt="" style="height: 20px;"> [首页 | 同程旅行安全应急响应中心](https://sec.ly.com/) 
 - <img src="https://favicon.qqsuu.cn/sec.meizu.com" alt="" style="height: 20px;"> [魅族安全中心](https://sec.meizu.com/) 
-- <img src="https://favicon.qqsuu.cn/sec.vip.com" alt="" style="height: 20px;"> [VSRC首页-唯品会信息安全中心](https://sec.vip.com/) 
+- <img src="https://favicon.qqsuu.cn/sec.vip.com" alt="" style="height: 20px;"> [sec.vip.com](https://sec.vip.com/) 
 - <img src="https://favicon.qqsuu.cn/sec.wacai.com" alt="" style="height: 20px;"> [挖财安全应急响应中心](https://sec.wacai.com/) 
 - <img src="https://favicon.qqsuu.cn/sec.wifi.com" alt="" style="height: 20px;"> [WIFI万能钥匙安全响应中心](https://sec.wifi.com/) 
 - <img src="https://favicon.qqsuu.cn/sec.xiaomi.com" alt="" style="height: 20px;"> [小米安全中心](https://sec.xiaomi.com/) 
@@ -2674,9 +2674,9 @@
 ### cookie hook
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [js-cookie-monitor-debugger-hook](https://github.com/JSREI/js-cookie-monitor-debugger-hook) js cookie逆向利器：js cookie变动监控可视化工具 & js cookie hook打条件断点
 ### webpack
-- <img src="https://favicon.qqsuu.cn/gitcode.net" alt="" style="height: 20px;"> [gitcode.net](https://gitcode.net/zjq592767809/webpack_ast) 
+- <img src="https://favicon.qqsuu.cn/gitcode.net" alt="" style="height: 20px;"> [渔滒 / webpack_ast ·  GitCode](https://gitcode.net/zjq592767809/webpack_ast) 
 ### 验证码
 #### 极验
+- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [JiYanSlide4](https://github.com/nmsdss/JiYanSlide4) 四代极验滑块
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [Geetest-AST-](https://github.com/daisixuan/Geetest-AST-) 
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [JiYan-Geetest](https://github.com/nmsdss/JiYan-Geetest) 
-- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [JiYanSlide4](https://github.com/nmsdss/JiYanSlide4) 
