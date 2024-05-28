@@ -11726,13 +11726,13 @@
         "release_message": "* Address issue where a test server may return an HTTP error during upload or download\r\n* Address issue where `ignore_ids` may be empty or have empty values "
     },
     "https://github.com/projectdiscovery/katana": {
-        "created_at": "2021-01-02 16:56:05",
+        "created_at": "2024-03-26 08:48:48",
         "description": "A next-generation crawling and spidering framework.",
-        "commit_date": "2023-09-14 17:20:42",
-        "commit_message": "version update",
+        "commit_date": "2024-03-28 10:30:15",
+        "commit_message": "Merge pull request #826 from zy9ard3/main\n\nAdded Missed Flag of New Feature ( -e ) in README.md",
         "release_tag": "v1.0.4",
-        "release_date": "2023-09-14 17:35:36",
-        "release_message": "<!-- Release notes generated using configuration in .github/release.yml at main -->\r\n\r\n## What's Changed\r\n\r\n### 🎉 New Features\r\n* Added support for custom regex on field scope `-fs` option by @c3l3si4n in https://github.com/projectdiscovery/katana/pull/571\r\n```bash\r\nkatana -fs '(company-staging.io|company.com)' -u company.com\r\n```\r\n* Added option to disable redirects by @WigzyDev in https://github.com/projectdiscovery/katana/pull/588\r\n```console\r\n   -dr, -disable-redirects  disable following redirects (default false)\r\n```\r\n* Added `-resume` crawl option by @dogancanbakir in https://github.com/projectdiscovery/katana/pull/538\r\n```console\r\n   -resume string  resume crawl using resume.cfg\r\n```\r\n### 🐞 Bug Fixes\r\n* Fixed issue with `-match-regex` option by @dogancanbakir in https://github.com/projectdiscovery/katana/pull/565\r\n* Fixed headless options parsing issue by @dogancanbakir in https://github.com/projectdiscovery/katana/pull/564\r\n* Fixed missing `ExtractRelativeEndpoints()` in `scriptJSFileRegexParser()` by @0x123456789 in https://github.com/projectdiscovery/katana/pull/587\r\n\r\n### Other Changes\r\n* Added build deps for `go-tree-sitter` -> `tree-sitter` by @dogancanbakir in https://github.com/projectdiscovery/katana/pull/547\r\n* Added readme syntax highlight by @apriil15 in https://github.com/projectdiscovery/katana/pull/553\r\n\r\n## New Contributors\r\n* @apriil15 made their first contribution in https://github.com/projectdiscovery/katana/pull/553\r\n* @0x123456789 made their first contribution in https://github.com/projectdiscovery/katana/pull/587\r\n* @c3l3si4n made their first contribution in https://github.com/projectdiscovery/katana/pull/571\r\n* @WigzyDev made their first contribution in https://github.com/projectdiscovery/katana/pull/588\r\n\r\n**Full Changelog**: https://github.com/projectdiscovery/katana/compare/v1.0.3...v1.0.4"
+        "release_date": "2024-03-26 09:21:33",
+        "release_message": "<!-- Release notes generated using configuration in .github/release.yml at main -->\r\n\r\n## What's Changed\r\n### 🎉 New Features\r\n* **Introduced passive crawling** by @dogancanbakir in https://github.com/projectdiscovery/katana/pull/781\r\n```\r\n   -ps, -passive  enable passive sources to discover target endpoints\r\n   -pss, -passive-source string[]  passive source to use for url discovery (waybackarchive,commoncrawl,alienvault)\r\n```\r\n#### Example:\r\n```console\r\nkatana -u tesla.com -passive -f qurl\r\n...\r\nhttps://static-assets-pay.tesla.com/api/payment-schema/creditcard?countrycode=dk\r\nhttps://static-assets-pay.tesla.com/api/paymenttypes/?clientlibrary=payment-website\r\nhttps://tradepartnertickets.tesla.com/dist/main.css?029b26e9be3aef4fc82c\r\nhttps://tradepartnertickets.tesla.com/dist/vendors.vendors.css?029b26e9be3aef4fc82c\r\nhttps://workforce.tesla.com/auth/callback?code=na_921f11c72db1d416c2fb624ea94ab5e1bad5f803\r\n...\r\n...\r\n...\r\n[INF] Found 208114 endpoints for https://tesla.com in 2m11.65937825s (commoncrawl: 128, alienvault: 1615, waybackarchive: 206371)\r\n```\r\n\r\n* Introduced option to exclude targets to crawl by @dogancanbakir in https://github.com/projectdiscovery/katana/pull/731\r\n```\r\n   -e, -exclude string[]  exclude host matching specified filter ('cdn', 'private-ips', cidr, ip, regex)\r\n```\r\n\r\n\r\n### 🐞 Bug Fixes\r\n* Fixed issue with headless redirect by @Mzack9999 in https://github.com/projectdiscovery/katana/pull/823\r\n* Fixed issue with filter and match functionality (SDK) by @dogancanbakir in https://github.com/projectdiscovery/katana/pull/775\r\n* Fixed issue with `-kf` option to skip if the maximum depth is exceeded by @dogancanbakir in https://github.com/projectdiscovery/katana/pull/799\r\n\r\n### Other Changes\r\n* Added conditional support to include go-tree-sitter in build process by @RamanaReddy0M in https://github.com/projectdiscovery/katana/pull/814\r\n* Fixed nil pointer check by @dogancanbakir in https://github.com/projectdiscovery/katana/pull/773\r\n* Fixed error check on hybrid request parsing by @niudaii in https://github.com/projectdiscovery/katana/pull/804\r\n* Updated jsluice to new version with more results by @Ice3man543 in https://github.com/projectdiscovery/katana/pull/695\r\n* Updated jsluice by @geeknik in https://github.com/projectdiscovery/katana/pull/800\r\n\r\n## New Contributors\r\n* @beac0n5 made their first contribution in https://github.com/projectdiscovery/katana/pull/732\r\n* @toufik-airane made their first contribution in https://github.com/projectdiscovery/katana/pull/736\r\n* @niudaii made their first contribution in https://github.com/projectdiscovery/katana/pull/804\r\n* @geeknik made their first contribution in https://github.com/projectdiscovery/katana/pull/800\r\n\r\n**Full Changelog**: https://github.com/projectdiscovery/katana/compare/v1.0.5...v1.1.0"
     },
     "https://github.com/WayzDev/Kage": {
         "created_at": "",
@@ -19099,10 +19099,10 @@
         "release_message": ""
     },
     "https://github.com/vanhauser-thc/thc-hydra": {
-        "created_at": "2014-04-24 14:45:37",
+        "created_at": "2023-06-12 08:05:41",
         "description": "hydra",
-        "commit_date": "2023-08-13 11:07:10",
-        "commit_message": "support -W for modules that use libarries",
+        "commit_date": "2024-04-01 12:18:47",
+        "commit_message": "update oracle url",
         "release_tag": "v9.5",
         "release_date": "2023-06-12 08:06:10",
         "release_message": "Release 9.5\r\n* http-form:\r\n  - The help for http-form was wrong. the condition variable must always be\r\n    the *last* parameter, not the third\r\n  - Proxy support was not working correctly\r\n* smb2: fix for updated libsmb2 which resulted in correct guessing attempts\r\n  not being detected\r\n* smtp: break early if the server does not allow authentication\r\n* rdp: detect more return codes that say a user is disabled etc."
@@ -22510,8 +22510,8 @@
         "release_message": ""
     },
     "https://github.com/HKEcho5213/HKEcho_Nacos": {
-        "created_at": "",
-        "description": "",
+        "created_at": "2023-12-07 07:55:27",
+        "description": null,
         "commit_date": "2023-12-07 14:13:43",
         "commit_message": "Update README.md",
         "release_tag": "",
@@ -23573,7 +23573,7 @@
         "commit_date": "2024-04-23 06:40:40"
     },
     "https://github.com/charonlight/NacosExploitGUI": {
-        "created_at": "2024-01-01 10:38:50",
+        "created_at": "2024-01-14 05:49:03",
         "description": "Nacos漏洞综合利用GUI工具，集成了默认口令漏洞、SQL注入漏洞、身份认证绕过漏洞、反序列化漏洞的检测及其利用",
         "commit_message": "Update README.md",
         "commit_date": "2024-01-14 05:49:03",
@@ -24101,8 +24101,8 @@
     "https://github.com/tib36/PhishingBook": {
         "created_at": "2023-04-20 11:58:15",
         "description": "红蓝对抗：钓鱼演练资源汇总&备忘录",
-        "commit_date": "2023-11-18 07:27:37",
-        "commit_message": "Update README.md",
+        "commit_date": "2024-05-23 10:20:28",
+        "commit_message": "日常更新",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -24412,8 +24412,8 @@
         "description": "魅族安全中心"
     },
     "https://sec.vip.com/": {
-        "status_code": 503,
-        "description": ""
+        "status_code": 200,
+        "description": "VSRC首页-唯品会信息安全中心"
     },
     "https://sec.wacai.com/": {
         "status_code": 200,
@@ -27072,7 +27072,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "20.109.38.197属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "52.234.38.242属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
@@ -27514,7 +27514,7 @@
     },
     "http://www.66zan.cn/rc4encrypt/": {
         "status_code": 200,
-        "description": ""
+        "description": "在线RC4加密,RC4解密工具-在线工具箱"
     },
     "https://330k.github.io/misc_tools/unicode_steganography.html": {
         "status_code": 200,
@@ -27550,7 +27550,7 @@
     },
     "http://www.66zan.cn/rabbitencrypt/": {
         "status_code": 200,
-        "description": ""
+        "description": "在线Rabbit加密,Rabbit解密工具-在线工具箱"
     },
     "https://yuanfux.github.io/zero-width-web/": {
         "status_code": 200,
@@ -28477,5 +28477,13 @@
         "description": "轻量级JAVA实时业务风控系统框架",
         "commit_message": "Update pom.xml",
         "commit_date": "2020-09-16 03:07:00"
+    },
+    "https://github.com/youseries/urule": {
+        "created_at": "2018-11-21 05:51:48",
+        "description": "URULE是一款基于RETE算法的纯Java规则引擎，提供规则集、决策表、决策树、评分卡，规则流等各种规则表现工具及基于网页的可视化设计器，可快速开发出各种复杂业务规则。",
+        "commit_message": "版本升级",
+        "commit_date": "2021-01-05 02:28:10",
+        "release_date": "2018-11-21 05:55:00",
+        "release_message": "### 改进的功能\r\n* 优化完善相关功能"
     }
 }
