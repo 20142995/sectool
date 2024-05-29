@@ -1103,9 +1103,9 @@
     },
     "https://github.com/Mr-Aur0ra/RSA": {
         "created_at": "2019-08-07 02:28:11",
-        "description": "",
-        "commit_date": "2022-08-22 15:31:16",
-        "commit_message": "Delete PKCS1_OAEP模式的RSA directory",
+        "description": null,
+        "commit_date": "2024-02-01 09:10:00",
+        "commit_message": "Add files via upload",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -1362,7 +1362,7 @@
         "release_message": ""
     },
     "https://github.com/smxiazi/NEW_xp_CAPTCHA": {
-        "created_at": "2021-04-23 12:39:15",
+        "created_at": "2022-09-05 02:06:51",
         "description": "xp_CAPTCHA(瞎跑 白嫖版) burp 验证码 识别 burp插件",
         "commit_date": "2022-10-27 08:04:03",
         "commit_message": "Update README.md",
@@ -13045,7 +13045,7 @@
         "release_message": "Some fixes in wildcard dns stuff\n"
     },
     "https://github.com/Zhuoyuan1/navicat_password_decrypt": {
-        "created_at": "2022-01-15 07:54:55",
+        "created_at": "2022-10-19 03:38:21",
         "description": "忘记navicat密码时,此工具可以帮您查看密码",
         "commit_date": "2022-10-19 03:38:21",
         "commit_message": "Update README.md",
@@ -17220,13 +17220,13 @@
         "release_message": ""
     },
     "https://github.com/dwisiswant0/apkleaks": {
-        "created_at": "2020-05-29 21:26:13",
+        "created_at": "2024-05-17 12:22:24",
         "description": "Scanning APK file for URIs, endpoints & secrets.",
-        "commit_date": "2023-02-10 12:54:03",
-        "commit_message": "docs: update readme",
+        "commit_date": "2024-05-17 16:30:38",
+        "commit_message": "chore: add virtual env to `.gitignore`\n\nSigned-off-by: Dwi Siswanto <git@dw1.io>",
         "release_tag": "v2.6.1",
-        "release_date": "2021-08-10 16:12:06",
-        "release_message": "# Changelog\r\n\r\n## Patch\r\n\r\n- Remove trailing comma (hotfix #52)"
+        "release_date": "2024-05-17 12:27:21",
+        "release_message": "## What's Changed\r\n* :bug: Fix can't work in kali using relative path by @pad0van in https://github.com/dwisiswant0/apkleaks/pull/57\r\n* support python3.12 by @branchvincent in https://github.com/dwisiswant0/apkleaks/pull/81\r\n\r\n## New Contributors\r\n* @pad0van made their first contribution in https://github.com/dwisiswant0/apkleaks/pull/57\r\n* @branchvincent made their first contribution in https://github.com/dwisiswant0/apkleaks/pull/81\r\n\r\n**Full Changelog**: https://github.com/dwisiswant0/apkleaks/compare/v2.6.1...v2.6.2"
     },
     "https://github.com/3gstudent/Invoke-BuildAnonymousSMBServer": {
         "created_at": "2021-07-10 01:23:43",
@@ -23477,7 +23477,7 @@
         "commit_date": "2024-05-08 14:30:04"
     },
     "https://github.com/qianxiao996/R-Knife": {
-        "created_at": "2023-02-22 05:05:41",
+        "created_at": "2023-06-30 02:53:55",
         "description": "R-Knife 综合渗透工具箱",
         "commit_date": "2023-06-30 02:53:55",
         "commit_message": "v1.2",
@@ -24412,8 +24412,8 @@
         "description": "魅族安全中心"
     },
     "https://sec.vip.com/": {
-        "status_code": 200,
-        "description": "VSRC首页-唯品会信息安全中心"
+        "status_code": 503,
+        "description": ""
     },
     "https://sec.wacai.com/": {
         "status_code": 200,
@@ -27074,7 +27074,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "20.161.78.49属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "172.183.115.227属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
