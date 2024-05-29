@@ -3154,12 +3154,12 @@
         "release_message": ""
     },
     "https://github.com/joke2k/faker": {
-        "created_at": "2024-05-13 16:05:03",
+        "created_at": "2024-05-28 14:20:09",
         "description": "Faker is a Python package that generates fake data for you.",
-        "commit_message": "Bump version: 25.1.0 → 25.2.0",
-        "commit_date": "2024-05-13 16:05:03",
-        "release_date": "2024-05-13 16:05:31",
-        "release_message": "See [CHANGELOG.md](https://github.com/joke2k/faker/blob/refs/tags/v25.2.0/CHANGELOG.md)."
+        "commit_message": "Bump version: 25.2.0 → 25.3.0",
+        "commit_date": "2024-05-28 14:20:09",
+        "release_date": "2024-05-28 14:20:38",
+        "release_message": "See [CHANGELOG.md](https://github.com/joke2k/faker/blob/refs/tags/v25.3.0/CHANGELOG.md)."
     },
     "https://github.com/NHPT/Xray_Cracked": {
         "created_at": "2022-08-10 13:51:19",
@@ -3841,8 +3841,8 @@
     "https://github.com/neuvector/neuvector": {
         "created_at": "2024-04-08 17:28:21",
         "description": null,
-        "commit_message": "Merge pull request #1356 from becitsthere/main\n\nNVSHAS-9058: Fix exception of rest API call",
-        "commit_date": "2024-05-24 23:40:26",
+        "commit_message": "Merge pull request #1365 from becitsthere/main\n\nNVSHAS-9055: continue parsing embedded jar files after parsing manife…",
+        "commit_date": "2024-05-28 23:53:25",
         "release_date": "2024-04-08 17:57:52",
         "release_message": "**Full Changelog**: https://github.com/neuvector/neuvector/compare/v5.3.1...v5.3.2"
     },
@@ -8566,8 +8566,8 @@
     "https://github.com/nomi-sec/PoC-in-GitHub": {
         "created_at": "2019-12-08 13:03:54",
         "description": "📡 PoC auto collect from GitHub. ⚠️ Be careful Malware.",
-        "commit_message": "Auto Update 2024/05/26 00:28:45",
-        "commit_date": "2024-05-26 00:28:45"
+        "commit_message": "Auto Update 2024/05/29 00:29:16",
+        "commit_date": "2024-05-29 00:29:16"
     },
     "https://github.com/Ridter/CVE-2017-11882": {
         "created_at": "2017-11-21 05:55:53",
@@ -12895,7 +12895,7 @@
         "release_message": ""
     },
     "https://github.com/volatilityfoundation/volatility3": {
-        "created_at": "2014-01-26 18:09:20",
+        "created_at": "2024-01-31 21:21:20",
         "description": "Volatility 3.0 development",
         "commit_message": "Merge pull request #1147 from eve-mem/windows_handles_debug_logging\n\nWindows: add extra debugging messages to handles plugin",
         "commit_date": "2024-05-16 22:09:24",
@@ -16079,13 +16079,13 @@
         "release_message": ""
     },
     "https://github.com/projectdiscovery/nuclei-templates": {
-        "created_at": "2024-05-10 10:24:47",
+        "created_at": "2024-05-23 12:55:11",
         "description": "Community curated list of templates for the nuclei engine to find security vulnerabilities.",
-        "commit_date": "2024-05-17 07:40:59",
-        "commit_message": "Auto Template Signing [Fri May 17 07:40:59 UTC 2024] :robot:",
+        "commit_date": "2024-05-28 16:37:06",
+        "commit_message": "Syncing Templates",
         "release_tag": "v9.6.9",
-        "release_date": "2024-05-10 10:58:42",
-        "release_message": "### 🔥 Release Highlights 🔥\r\n\r\n- http/cves/2024/CVE-2024-23917.yaml by @iamnoooob,@rootxharsh,@pdresearch 🔥\r\n- http/cves/2024/CVE-2024-27956.yaml by @DhiyaneshDK 🔥\r\n- http/cves/2024/CVE-2024-2876.yaml by @iamnoooob,@rootxharsh,@pdresearch 🔥\r\n- http/cves/2024/CVE-2024-3136.yaml by @iamnoooob,@rootxharsh,@pdresearch 🔥\r\n- http/cves/2024/CVE-2024-31848.yaml by @pussycat0x 🔥\r\n- http/cves/2024/CVE-2024-4040.yaml by @DhiyaneshDK,@pussycat0x 🔥\r\n- http/cves/2023/CVE-2023-2227.yaml by @ritikchaddha,@princechaddha 🔥\r\n- http/cves/2023/CVE-2023-31446.yaml by @DhiyaneshDk 🔥\r\n- http/cves/2023/CVE-2023-43208.yaml by @princechaddha 🔥\r\n- http/cves/2023/CVE-2023-6989.yaml by @Kazgangap 🔥\r\n- http/cves/2019/CVE-2019-7139.yaml by @MaStErChO 🔥\r\n\r\n### What's Changed\r\n#### New Templates Added: `65` | CVEs Added: `41` | First-time contributions: `3`\r\n\r\n- http/cves/2024/CVE-2024-0235.yaml by @princechaddha\r\n- http/cves/2024/CVE-2024-0881.yaml by @Kazgangap\r\n- http/cves/2024/CVE-2024-1183.yaml by @DhiyaneshDK\r\n- http/cves/2024/CVE-2024-22927.yaml by @ritikchaddha\r\n- http/cves/2024/CVE-2024-2340.yaml by @t3l3machus\r\n- http/cves/2024/CVE-2024-23917.yaml by @iamnoooob,@rootxharsh,@pdresearch 🔥\r\n- http/cves/2024/CVE-2024-24131.yaml by @DhiyaneshDK\r\n- http/cves/2024/CVE-2024-27956.yaml by @DhiyaneshDK 🔥\r\n- http/cves/2024/CVE-2024-2876.yaml by @iamnoooob,@rootxharsh,@pdresearch 🔥\r\n- http/cves/2024/CVE-2024-3136.yaml by @iamnoooob,@rootxharsh,@pdresearch 🔥\r\n- http/cves/2024/CVE-2024-31621.yaml by @DhiyaneshDK\r\n- http/cves/2024/CVE-2024-31848.yaml by @pussycat0x 🔥\r\n- http/cves/2024/CVE-2024-31849.yaml by @DhiyaneshDK\r\n- http/cves/2024/CVE-2024-31850.yaml by @DhiyaneshDK\r\n- http/cves/2024/CVE-2024-31851.yaml by @DhiyaneshDK\r\n- http/cves/2024/CVE-2024-32399.yaml by @DhiyaneshDK\r\n- http/cves/2024/CVE-2024-32640.yaml by @iamnoooob,@rootxharsh,@pdresearch\r\n- http/cves/2024/CVE-2024-32651.yaml by @edoardottt\r\n- http/cves/2024/CVE-2024-33575.yaml by @Kazgangap\r\n- http/cves/2024/CVE-2024-33724.yaml by @Kazgangap\r\n- http/cves/2024/CVE-2024-4040.yaml by @DhiyaneshDK,@pussycat0x 🔥\r\n- http/cves/2024/CVE-2024-4348.yaml by @Kazgangap\r\n- http/cves/2023/CVE-2023-1892.yaml by @ritikchaddha,@princechaddha\r\n- http/cves/2023/CVE-2023-2227.yaml by @ritikchaddha,@princechaddha 🔥\r\n- http/cves/2023/CVE-2023-27032.yaml by @MaStErChO\r\n- http/cves/2023/CVE-2023-2948.yaml by @ritikchaddha,@princechaddha\r\n- http/cves/2023/CVE-2023-2949.yaml by @ritikchaddha,@princechaddha\r\n- http/cves/2023/CVE-2023-31446.yaml by @DhiyaneshDk 🔥\r\n- http/cves/2023/CVE-2023-32077.yaml by @iamnoooob,@rootxharsh,@pdresearch\r\n- http/cves/2023/CVE-2023-38964.yaml by @ritikchaddha\r\n- http/cves/2023/CVE-2023-43208.yaml by @princechaddha 🔥\r\n- http/cves/2023/CVE-2023-44812.yaml by @ritikchaddha\r\n- http/cves/2023/CVE-2023-4521.yaml by @princechaddha\r\n- http/cves/2023/CVE-2023-45375.yaml by @MaStErChO\r\n- http/cves/2023/CVE-2023-46347.yaml by @MaStErChO\r\n- http/cves/2023/CVE-2023-4973.yaml by @ritikchaddha,@princechaddha\r\n- http/cves/2023/CVE-2023-5003.yaml by @Kazgangap\r\n- http/cves/2023/CVE-2023-6389.yaml by @Kazgangap\r\n- http/cves/2023/CVE-2023-6989.yaml by @Kazgangap 🔥\r\n- http/cves/2019/CVE-2019-7139.yaml by @MaStErChO 🔥\r\n- http/cves/2015/CVE-2015-4455.yaml by @MaStErChO\r\n- http/vulnerabilities/citrix/citrix-oob-memory-read.yaml by @ice3man\r\n- http/vulnerabilities/prestashop/prestashop-cartabandonmentpro-file-upload.yaml by @MaStErChO\r\n- http/vulnerabilities/titan/titannit-web-rce.yaml by @DhiyaneshDk\r\n- http/vulnerabilities/vbulletin/vbulletin-search-sqli.yaml by @MaStErChO\r\n- http/default-logins/crushftp/crushftp-anonymous-login.yaml by @pussycat0x\r\n- http/default-logins/crushftp/crushftp-default-login.yaml by @pussycat0x\r\n- http/default-logins/soplanning/soplanning-default-login.yaml by @Kazgangap\r\n- http/misconfiguration/installer/eyoucms-installer.yaml by @ritikchaddha\r\n- http/misconfiguration/installer/sabnzbd-installer.yaml by @DhiyaneshDk\r\n- http/misconfiguration/microsoft/ms-exchange-local-domain.yaml by @userdehghani\r\n- http/misconfiguration/titannit-web-exposure.yaml by @DhiyaneshDk\r\n- http/takeovers/squadcast-takeover.yaml by @philippedelteil\r\n- http/exposed-panels/bmc/bmc-remedy-sso-panel.yaml by @righettod\r\n- http/exposed-panels/bonobo-server-panel.yaml by @bhutch\r\n- http/exposed-panels/cassia-bluetooth-gateway-panel.yaml by @DhiyaneshDk\r\n- http/exposed-panels/cyberchef-panel.yaml by @rxerium\r\n- http/exposed-panels/femtocell-panel.yaml by @DhiyaneshDk\r\n- http/exposed-panels/monitorr-panel.yaml by @ritikchaddha\r\n- http/exposed-panels/openwebui-panel.yaml by @rxerium\r\n- http/exposed-panels/teamforge-panel.yaml by @lstatro\r\n- http/exposed-panels/tixeo-panel.yaml by @righettod\r\n- http/exposed-panels/umami-panel.yaml by @userdehghani\r\n- network/detection/aix-websm-detect.yaml by @righettod\r\n- network/detection/bluecoat-telnet-proxy-detect.yaml by @righettod\r\n\r\n## New Contributors\r\n* @theMiddleBlue made their first contribution in https://github.com/projectdiscovery/nuclei-templates/pull/9637\r\n* @userdehghani made their first contribution in https://github.com/projectdiscovery/nuclei-templates/pull/9666\r\n* @jason3e7 made their first contribution in https://github.com/projectdiscovery/nuclei-templates/pull/9731\r\n\r\n**Full Changelog**: https://github.com/projectdiscovery/nuclei-templates/compare/v9.8.5...v9.8.6"
+        "release_date": "2024-05-23 15:02:21",
+        "release_message": "### 🔥 Release Highlights 🔥\r\n\r\n- [CVE-2024-0200] Github Enterprise - Authenticated RCE (@iamnoooob, @rootxharsh, @pdresearch) [critical] 🔥\r\n- [CVE-2024-4956] Sonatype Nexus Repository Manager 3 - Local File Inclusion (@ritikchaddha) [high] 🔥\r\n- [CVE-2024-0195] SpiderFlow Crawler Platform - Remote Code Execution (@pussycat0x) [critical] 🔥\r\n- [CVE-2023-43374] Hoteldruid v3.0.5 - SQL Injection (@ritikchaddha) [critical] 🔥\r\n\r\n### What's Changed\r\n#### New Templates Added: `62` | CVEs Added: `16` | First-time contributions: `3`\r\n\r\n- [CVE-2024-33288] Prison Management System - SQL Injection Authentication Bypass (@Kazgangap) [high]\r\n- [CVE-2024-4956] Sonatype Nexus Repository Manager 3 - Local File Inclusion (@ritikchaddha) [high] 🔥\r\n- [CVE-2024-3097] NextGEN Gallery <= 3.59 - Missing Authorization to Unauth Information Disclosure (@DhiyanesDK) [medium]\r\n- [CVE-2024-1561] Gradio Applications - Local File Read (@Diablo) [high]\r\n- [CVE-2024-0200] Github Enterprise - Authenticated RCE (@iamnoooob, @rootxharsh, @pdresearch) [critical] 🔥\r\n- [CVE-2024-0195] SpiderFlow Crawler Platform - Remote Code Execution (@pussycat0x) [critical] 🔥\r\n- [CVE-2023-45855] qdPM 9.2 - Directory Traversal (@DhiyaneshDk) [high]\r\n- [CVE-2023-44813] mooSocial v.3.1.8 - Cross-Site Scripting (@ritikchaddha) [medium]\r\n- [CVE-2023-43374] Hoteldruid v3.0.5 - SQL Injection (@ritikchaddha) [critical] 🔥\r\n- [CVE-2023-36347] POS Codekop v2.0 - Broken Authentication (@princechaddha) [high]\r\n- [CVE-2023-36284] QloApps 1.6.0 - SQL Injection (@ritikchaddha) [high]\r\n- [CVE-2023-35158] XWiki - Cross-Site Scripting (@ritikchaddha) [medium]\r\n- [CVE-2023-29827] Embedded JavaScript(EJS) 3.1.6 - Template Injection (@ritikchaddha) [critical]\r\n- [CVE-2023-6065] Quttera Web Malware Scanner <= 3.4.1.48 - Sensitive Data Exposure (@Kazgangap) [medium]\r\n- [CVE-2023-5991] Hotel Booking Lite < 4.8.5 - Arbitrary File Download & Deletion (@Kazgangap) [critical]\r\n- [CVE-2023-4542] D-Link DAR-8000-10 - Command Injection (@pussycat0x) [critical]\r\n- [CNVD-2017-06001] Dahua DSS - SQL Injection (@napgh0st, @ritikchaddha) [high]\r\n- [softether-vpn-default-login] SoftEther VPN Admin Console - Default Login (@bhutch) [high]\r\n- [ackee-panel] Ackee Panel - Detect (@userdehghani) [info]\r\n- [craftercms-panel] CrafterCMS Login Panel - Detect (@righettod) [info]\r\n- [easyvista-panel] EasyVista Login Panel - Detect (@righettod) [info]\r\n- [f5-next-central-manager] F5 Next Central Manager Panel - Detect (@EgemenKochisarli) [info]\r\n- [ghost-panel] Ghost Panel - Detect (@userdehghani) [info]\r\n- [matomo-panel] Matomo Panel - Detect (@Arr0way, @userdehghani) [info]\r\n- [microfocus-lifecycle-panel] Micro Focus Application Lifecycle Management - Panel (@righettod) [info]\r\n- [n8n-panel] n8n Panel - Detect (@userdehghani) [info]\r\n- [nocodb-panel] NocoDB Panel - Detect (@userdehghani) [info]\r\n- [oracle-ebusiness-panel] Oracle E-Business Suite Login Panel - Detect (@righettod) [info]\r\n- [pocketbase-panel] PocketBase Panel - Detect (@userdehghani) [info]\r\n- [qlikview-accesspoint-panel] QlikView AccessPoint Login Panel - Detect (@righettod) [info]\r\n- [tiny-rss-panel] Tiny RSS Panel - Detect (@userdehghani) [info]\r\n- [unleash-panel] Unleash Panel - Detect (@userdehghani) [info]\r\n- [tpot-honeypot-detect] T-Pot Honeypot - Detect (@rxerium) [info]\r\n- [imgproxy-unauth] Imgproxy Unauthorized Access (@userdehghani) [low]\r\n- [custom-xoops-installer] XOOPS Custom - Installation (@DhiyaneshDK) [high]\r\n- [easy-viserlabs-installer] Easy Installer by ViserLab - Exposure (@DhiyaneshDk) [high]\r\n- [forgejo-installer] Forgejo Installation Page - Exposure (@DhiyaneshDk) [high]\r\n- [froxlor-installer] Froxlor Server Management - Installer (@DhiyaneshDK) [high]\r\n- [growi-installer] GROWI Installer - Exposure (@DhiyaneshDk) [high]\r\n- [ids-skills-installer] IDP Skills Installer - Exposure (@DhiyaneshDk) [high]\r\n- [moosocial-installer] mooSocial Installation - Exposure (@ritikchaddha) [high]\r\n- [octoprint-installer] OctoPrint Installation Page - Exposure (@DhiyaneshDk) [high]\r\n- [openfire-setup] Openfire Setup - Exposure (@DhiyaneshDk) [high]\r\n- [phpmyfaq-installer] phpMyFAQ Installation - Exposure (@ritikchaddha) [high]\r\n- [qloapps-installer] QloApps - Installation (@ritikchaddha) [high]\r\n- [trilium-notes-installer] Trilium Notes Installer - Exposure (@DhiyaneshDk) [high]\r\n- [wiki-js-installer] Wiki.js Setup - Exposure (@DhiyaneshDk) [high]\r\n- [xbackbone-installer] XBackBone Installer - Exposure (@DhiyaneshDk) [high]\r\n- [unigui-server-monitor-exposure] UniGUI Server Monitor Panel - Exposure (@serrapa) [low]\r\n- [apache-answer-detect] Apache Answer - Detection (@omranisecurity) [info]\r\n- [boa-web-server] Boa Web Server - Detect (@johnk3r) [info]\r\n- [craftercms-detect] CrafterCMS - Detect (@righettod) [info]\r\n- [imgproxy-detect] Imgproxy Detect (@userdehghani) [info]\r\n- [meilisearch-detect] Meilisearch - Detect (@userdehghani) [info]\r\n- [microfocus-iprint-detect] Micro Focus iPrint Appliance - Detect (@righettod) [info]\r\n- [statamic-detect] Statamic - Detect (@geeknik) [info]\r\n- [tinyproxy-detect] Tinyproxy - Detect (@bhutch) [info]\r\n- [uni-gui-framework] UniGUI Framework - Detect (@serrapa) [info]\r\n- [wp-bricks-builder-theme] WordPress Bricks Builder Theme Version (@Anonymous) [info]\r\n- [castel-digital-sqli] Castel Digital - Authentication Bypass (@Kazgangap) [high]\r\n- [tendat-credential] Tendat Router Credential - Exposure (@pussycat0x) [high]\r\n- [checkpoint-firewall-enum] Check Point Firewall - Detect (@pussycat0x) [info]\r\n\r\n## New Contributors\r\n* @x676f64 made their first contribution in https://github.com/projectdiscovery/nuclei-templates/pull/9690\r\n* @Ahsraeisi made their first contribution in https://github.com/projectdiscovery/nuclei-templates/pull/9793\r\n* @jmac774 made their first contribution in https://github.com/projectdiscovery/nuclei-templates/pull/9844\r\n\r\n**Full Changelog**: https://github.com/projectdiscovery/nuclei-templates/compare/v9.8.6...v9.8.7"
     },
     "https://github.com/trustedsec/trevorc2": {
         "created_at": "2017-10-27 15:59:28",
@@ -22640,8 +22640,8 @@
     "https://github.com/whyour/qinglong": {
         "created_at": "2021-03-13 15:21:04",
         "description": "支持 Python3、JavaScript、Shell、Typescript 的定时任务管理平台（Timed task management platform supporting Python3, JavaScript, Shell, Typescript）",
-        "commit_message": "PushMe 通知支持自建服务 (#2358)",
-        "commit_date": "2024-05-15 14:38:25"
+        "commit_message": "更新版本 v2.17.5",
+        "commit_date": "2024-05-25 10:24:34"
     },
     "https://github.com/nelenkov/android-backup-extractor": {
         "created_at": "2022-08-09 06:34:28",
@@ -24340,8 +24340,8 @@
         "description": "补天 - 企业和白帽子共赢的漏洞响应平台，帮助企业建立SRC"
     },
     "https://dxysrc.vulbox.com/": {
-        "status_code": 200,
-        "description": "漏洞盒子 | 丁香园安全应急响应中心（DXYSRC）"
+        "status_code": 404,
+        "description": "漏洞盒子 - 企业SRC，快速为企业建立SRC漏洞响应平台"
     },
     "https://fsrc.fuiou.com/home/index.html": {
         "status_code": 404,
@@ -24352,8 +24352,8 @@
         "description": "平安安全应急响应中心"
     },
     "https://kysrc.vulbox.com/": {
-        "status_code": 200,
-        "description": "漏洞盒子 | 金山云安全应急响应中心（KYSRC）"
+        "status_code": 404,
+        "description": "漏洞盒子 - 企业SRC，快速为企业建立SRC漏洞响应平台"
     },
     "https://llsrc.huolala.cn/#/home": {
         "status_code": 200,
@@ -24361,11 +24361,11 @@
     },
     "https://lsrc.vulbox.com/": {
         "status_code": 200,
-        "description": "漏洞盒子 | 联想集团安全应急响应中心"
+        "description": "维护中"
     },
     "https://lxsrc.vulbox.com/": {
-        "status_code": 200,
-        "description": "漏洞盒子 | 乐信集团安全应急响应中心"
+        "status_code": 404,
+        "description": "漏洞盒子 - 企业SRC，快速为企业建立SRC漏洞响应平台"
     },
     "https://megvii.huoxian.cn/": {
         "status_code": 200,
@@ -24384,8 +24384,8 @@
         "description": "补天-漏洞_安全|系统漏洞_IoT|APP漏洞_移动|工控漏洞"
     },
     "https://qssrc.vulbox.com/": {
-        "status_code": 200,
-        "description": "漏洞盒子 | 轻松筹安全应急响应中心（QSSRC）"
+        "status_code": 404,
+        "description": "漏洞盒子 - 企业SRC，快速为企业建立SRC漏洞响应平台"
     },
     "https://sec.cainiao.com/": {
         "status_code": 200,
@@ -24714,12 +24714,12 @@
         "description": "BOSS直聘安全应急响应中心"
     },
     "https://tdsrc.vulbox.com/": {
-        "status_code": 200,
-        "description": "漏洞盒子 | 同盾安全应急响应中心"
+        "status_code": 404,
+        "description": "漏洞盒子 - 企业SRC，快速为企业建立SRC漏洞响应平台"
     },
     "https://weaversrc.vulbox.com/": {
-        "status_code": 200,
-        "description": "漏洞盒子 | 泛微安全应急响应中心（WEAVERSRC）"
+        "status_code": 404,
+        "description": "漏洞盒子 - 企业SRC，快速为企业建立SRC漏洞响应平台"
     },
     "https://www.hikvision.com/cn/support/CybersecurityCenter/": {
         "status_code": 200,
@@ -25828,8 +25828,8 @@
     "https://github.com/securego/gosec": {
         "created_at": "2024-05-14 13:36:59",
         "description": "Go security checker",
-        "commit_message": "Use the proper logic when disabling the go module version\n\nSigned-off-by: Cosmin Cojocar <cosmin@cojocar.ch>",
-        "commit_date": "2024-05-22 08:31:43",
+        "commit_message": "Fix nosec when applied to a block\n\nHandle properly nosec directive when applied to a block or as a single\nline on a multi-line issue.\n\nSigned-off-by: Cosmin Cojocar <cosmin@cojocar.ch>",
+        "commit_date": "2024-05-28 10:54:05",
         "release_date": "2024-05-14 13:42:29",
         "release_message": "## Changelog\n* 6fbd381 Catch os.ModePerm permissions in os.WriteFile\n* dc5e5a9 Add a unit test to detect the false negative in rule G306 for os.ModePerm permissions\n* 417a44c Add filepath.EvalSymlinks to clean functions in rule G304\n* d34f8b7 chore(deps): update all dependencies\n* 8658b8e Update Go to version 2.22.3 in CI and release\n* d3b2359 chore(deps): update module golang.org/x/text to v0.15.0\n* cf29d54 chore(deps): update all dependencies\n* 09d62bd chore(deps): update module github.com/onsi/gomega to v1.33.0\n* 3b23ec8 Update to go 1.22.2\n* 31009c3 chore(deps): update all dependencies\n* daf6f67 chore(deps): update module github.com/onsi/ginkgo/v2 to v2.17.1\n* e27f442 chore(deps): update all dependencies\n* 5513615 fix(helpers/goversion): get from go.mod\n* 43b8b75 chore: fix function name\n* accd7a1 chore(deps): update all dependencies\n* 48aa72e Format the imports using the gci tool\n* b6df69c Fixup: delete unused variable\n* ccb0a08 Fix test: update test to comply with the spec of generated sources\n* 3a0ea51 Refactor: use standard function to check if a file is generated\n* 11c3252 Fix lint warnings\n* be378e6 Add support for math/rand/v2 added in Go 1.22\n* 36878a9 Skip the G601 tests for Go version 1.22\n* 903c75b Update go version to 1.22.1 and 1.21.8\n* f25ccd9 Ignore 'implicit memory aliasing' rule for Go 1.22+\n* 582e91a chore(deps): update all dependencies\n* 198a40c chore(deps): update module golang.org/x/tools to v0.18.0\n* c824a5d fix(hardcoded): remove duplicated `Stripe API Key`\n* d13d7da Update gosec version to v2.19.0 in the Github action\n\n"
     },
@@ -26251,8 +26251,8 @@
     "https://github.com/X1r0z/JNDIMap": {
         "created_at": "2023-11-06 12:42:03",
         "description": "JNDI 注入利用工具, 支持 RMI 和 LDAP 协议, 包含多种高版本 JDK 绕过方式 | A JNDI injection exploit tool that supports RMI and LDAP protocols, including a variety of methods to bypass higher-version JDK",
-        "commit_message": "style: 修改路由名称\n\n将原 FromPath 路由的名称修改为 FromFile",
-        "commit_date": "2024-05-15 10:24:46"
+        "commit_message": "feat: H2 JDBC 支持反弹 Shell\n\n1. H2 JDBC 的 Java 和 JavaScript 路由支持反弹 Shell\n2. 修改部分 Controller 的包名",
+        "commit_date": "2024-05-26 14:10:26"
     },
     "https://github.com/dzonerzy/goWAPT": {
         "created_at": "2017-12-05 19:32:43",
@@ -27074,7 +27074,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "40.76.238.213属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "13.77.77.76属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
@@ -28089,8 +28089,8 @@
     "https://github.com/wy876/wiki": {
         "created_at": "2023-12-31 07:18:18",
         "description": "漏洞文库 wiki.wy876.cn",
-        "commit_message": "Update _sidebar.md",
-        "commit_date": "2024-05-19 04:04:08"
+        "commit_message": "Update I_Doc_View任意文件上传漏洞.md",
+        "commit_date": "2024-05-26 12:04:19"
     },
     "https://github.com/R0A1NG/Botgate_bypass": {
         "created_at": "2024-04-25 09:47:00",
@@ -28135,8 +28135,8 @@
     "https://github.com/honmashironeko/sqlmap-gui": {
         "created_at": "2024-05-16 05:59:27",
         "description": "基于SQLmap工具进行汉化，并提供GUI界面",
-        "commit_message": "Add files via upload",
-        "commit_date": "2024-05-17 03:36:57",
+        "commit_message": "v1.6",
+        "commit_date": "2024-05-22 04:19:26",
         "release_date": "2024-05-16 06:03:12",
         "release_message": "1、更改 批量扫描URL 功能逻辑，从 -m 按顺序扫描URL，修改为 -u 扫描，并同时进行并发执行，可实现5个sqlmap同时扫描，并在扫描完成后开启新的扫描进程，保证持续5个进程扫描。\r\n\r\n2、更改工具更新思路，不再强制更换文件，采用检测更新并提醒存在新的更新的方式。\r\n\r\n3、区分开python、python3、Windows和Mac、Linux的固定文件，不再统一到一个py文件中。"
     },
@@ -28493,5 +28493,17 @@
         "description": "JAVA安全SDK及编码规范",
         "commit_message": "readme",
         "commit_date": "2019-06-20 04:09:46"
+    },
+    "https://github.com/ysrc/Liudao": {
+        "created_at": "2016-12-19 06:03:42",
+        "description": "“六道”实时业务风控系统",
+        "commit_message": "update fastjson version",
+        "commit_date": "2018-10-28 09:39:05"
+    },
+    "https://github.com/creditease-sec/insight": {
+        "created_at": "2018-03-29 03:04:45",
+        "description": "洞察-宜信集应用系统资产管理、漏洞全生命周期管理、安全知识库管理三位一体的平台。",
+        "commit_message": "Update README.md",
+        "commit_date": "2021-01-12 03:02:14"
     }
 }
