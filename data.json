@@ -27074,7 +27074,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "20.102.46.181属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "172.183.131.143属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
@@ -28547,5 +28547,55 @@
         "description": "Honeypot deployment made easy",
         "commit_message": "Update README.rst",
         "commit_date": "2019-03-13 10:42:57"
+    },
+    "https://github.com/qunarcorp/open_dnsdb": {
+        "created_at": "2019-01-22 02:05:53",
+        "description": "OpenDnsdb 是去哪儿网OPS团队开源的基于Python语言的DNS管理系统",
+        "commit_message": "Merge pull request #52 from charlesxs/dev\n\nfix: 修复dns更新备份时用户名和用户组写死的问题",
+        "commit_date": "2020-12-02 10:33:46"
+    },
+    "https://github.com/10000Tigers/BlueHound": {
+        "created_at": "2022-06-24 05:44:19",
+        "description": "BlueHound is a GUI based scanner program for hunting threats on host.It supports scanning files for webshell,suspicious PE files injected in memory and CobaltStrike's beacon in memory.",
+        "commit_message": "update readme",
+        "commit_date": "2022-06-24 08:01:47",
+        "release_date": "2022-07-07 11:17:29",
+        "release_message": "BlueHound 是一款GUI版本主机威胁狩猎工具。支持上机/离线扫描webshell、CobaltStrike的beacon程序扫描以及内存扫描，基于.NET 4.6编译"
+    },
+    "https://github.com/momosecurity/rhizobia_P": {
+        "created_at": "2019-05-21 10:39:10",
+        "description": "PHP安全SDK及编码规范",
+        "commit_message": "2019-0620 readme更新",
+        "commit_date": "2019-06-20 04:08:07",
+        "release_date": "2019-05-21 10:39:56",
+        "release_message": ""
+    },
+    "https://github.com/MiSecurity/x-patrol": {
+        "created_at": "2018-05-25 11:53:27",
+        "description": "github泄露扫描系统",
+        "commit_message": "[#] codesearch仓库改名适配",
+        "commit_date": "2019-05-13 04:23:03",
+        "release_date": "2018-02-06 04:20:00",
+        "release_message": "提供linux 和macos的二进制版本\r\n"
+    },
+    "https://github.com/H-Limbus/NoMoney": {
+        "created_at": "2023-03-05 04:53:27",
+        "description": "NoMoney 是一款集成了fofa，zoomeye(钟馗之眼)，censys，奇安信的鹰图平台，360quake，且完全免费的信息收集工具。fofa 和 zoomeye借助爬虫实现，其余平台利用各自的api进行信息收集。",
+        "commit_message": "v1",
+        "commit_date": "2024-03-23 14:42:07"
+    },
+    "https://github.com/rsmusllp/king-phisher": {
+        "created_at": "2019-09-24 17:13:43",
+        "description": "Phishing Campaign Toolkit",
+        "commit_message": "Update README.md",
+        "commit_date": "2022-11-07 16:21:41",
+        "release_date": "2019-09-24 18:10:16",
+        "release_message": "* Add support to select visible columns for tables in the Campaign tab\r\n* Add support for printing pipenv running output in real time\r\n* Windows build will now install PyPI requirements for plugins during installation\r\n* Multiple bug fixes\r\n\r\nMSI Build Hashes:\r\n```\r\nmd5: 7b31e812bbb5cff462d8fc6c1ab147b4\r\nsha1: ae460a46b985a55c9e704006dee12341acd00858\r\nsha512: 9edff03aeb4755780f6f7c0b8fc926e80e1495b996e42d7a0572ecb63d42e2c0de17d597c26e3d8106b22e7e7703bf51ab034c95b38933a603b593641bae992f\r\n```"
+    },
+    "https://github.com/VKSRC/Github-Monitor": {
+        "created_at": "2018-12-11 06:38:37",
+        "description": "Github Sensitive Information Leakage Monitor(Github信息泄漏监控系统)",
+        "commit_message": "Merge pull request #120 from TuuuNya/master\n\nbugfix: 修复由于GithubToken格式变更导致的bug",
+        "commit_date": "2021-08-10 11:38:09"
     }
 }
