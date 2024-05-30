@@ -1077,9 +1077,9 @@
     },
     "https://github.com/Threekiii/Vulnerability-Wiki": {
         "created_at": "2024-03-07 09:30:14",
-        "description": "基于 docsify 部署，目前漏洞数量 1000+",
-        "commit_message": "update Dockerfile",
-        "commit_date": "2024-05-10 06:37:59",
+        "description": "基于 docsify 快速部署 Awesome-POC 中的漏洞文档",
+        "commit_message": "update",
+        "commit_date": "2024-05-29 03:28:10",
         "release_date": "2024-04-01 03:17:43",
         "release_message": "2023.04.01 重构目录，此为重构前 release。重构后目录如下：\r\n```\r\ndirs = {\r\n    'oa':'OA漏洞',\r\n    'cms': 'CMS漏洞',\r\n    'framework': '开发框架漏洞',\r\n    'iot': '网络设备漏洞',\r\n    'language': '开发语言漏洞',\r\n    'os': '操作系统漏洞',\r\n    'webapp': 'Web应用漏洞',\r\n    'middleware': '中间件漏洞',\r\n    'database': '数据库漏洞',\r\n    'cloud': '云安全漏洞',\r\n    'others':'其他漏洞'\r\n}\r\n```"
     },
@@ -3258,11 +3258,11 @@
         "release_message": ""
     },
     "https://github.com/bytedance/Elkeid": {
-        "created_at": "2024-05-15 06:48:13",
+        "created_at": "2024-05-24 04:22:45",
         "description": "Elkeid is an open source solution that can meet the security requirements of various workloads such as hosts, containers and K8s, and serverless. It is derived from ByteDance's internal best practices.",
-        "commit_message": "Merge pull request #612 from bytedance/fix-link-path\n\nfix link path not exist",
-        "commit_date": "2024-05-17 11:00:48",
-        "release_date": "2024-05-15 09:10:57",
+        "commit_message": "Merge pull request #625 from bytedance/fix-java-command\n\nfix jvm command status",
+        "commit_date": "2024-05-28 02:19:24",
+        "release_date": "2024-05-27 04:05:41",
         "release_message": ""
     },
     "https://github.com/knownsec/ct": {
@@ -3841,8 +3841,8 @@
     "https://github.com/neuvector/neuvector": {
         "created_at": "2024-04-08 17:28:21",
         "description": null,
-        "commit_message": "Merge pull request #1365 from becitsthere/main\n\nNVSHAS-9055: continue parsing embedded jar files after parsing manife…",
-        "commit_date": "2024-05-28 23:53:25",
+        "commit_message": "Merge pull request #1369 from becitsthere/main\n\nNVSHAS-9064: /scan/image/<id> API should return scan result by image id",
+        "commit_date": "2024-05-29 22:15:06",
         "release_date": "2024-04-08 17:57:52",
         "release_message": "**Full Changelog**: https://github.com/neuvector/neuvector/compare/v5.3.1...v5.3.2"
     },
@@ -3924,12 +3924,12 @@
         "release_message": "## Changelog\n* c06f467e6 chore: downgrade trivy-checks and trivy-aws\n* df4f7604a build: use main package instead of main.go (#6766)\n* bf7a8ede3 chore(deps): bump the common group across 1 directory with 29 updates (#6756)\n* acb22c60a chore(deps): bump the aws group with 8 updates (#6738)\n* 9a3510ffd chore(deps): bump the docker group with 2 updates (#6739)\n* 7806b37e2 ci: add `generic` dir to deb deploy script (#6636)\n\n"
     },
     "https://github.com/anchore/grype": {
-        "created_at": "2024-05-09 20:41:38",
+        "created_at": "2024-05-28 17:53:19",
         "description": "A vulnerability scanner for container images and filesystems",
-        "commit_message": "feat: add config command (#1876)\n\nSigned-off-by: Keith Zantow <kzantow@gmail.com>",
-        "commit_date": "2024-05-23 19:18:37",
-        "release_date": "2024-05-09 20:49:23",
-        "release_message": "### Additional Changes\n\n- update Syft to v1.4.1 [[#1855](https://github.com/anchore/grype/pull/1855) @anchore-actions-token-generator]\n\n**[(Full Changelog)](https://github.com/anchore/grype/compare/v0.77.3...v0.77.4)**\n\n"
+        "commit_message": "update syft to v1.5.0 (#1897)\n\nSigned-off-by: Alex Goodman <wagoodman@users.noreply.github.com>",
+        "commit_date": "2024-05-28 17:37:10",
+        "release_date": "2024-05-28 18:01:12",
+        "release_message": "### Added Features\n\n- add config command [[#1876](https://github.com/anchore/grype/pull/1876) @kzantow]\n\n### Bug Fixes\n\n- ask catalog for package, rather than type asserting [[#1857](https://github.com/anchore/grype/pull/1857) @willmurphyscode]\n- Disable TUI for simple commands [[#1872](https://github.com/anchore/grype/pull/1872) @wagoodman]\n- False Positive: CVE-2023-42282  not affected in SUSE ecosystem [[#1813](https://github.com/anchore/grype/issues/1813)]\n- False positive GHSA-jr9c-h74f-2v28/CVE-2022-0905 reported for Non-vulnerable Gitea version [[#1416](https://github.com/anchore/grype/issues/1416)]\n\n### Additional Changes\n\n- Update syft to v1.5.0 [[#1897](https://github.com/anchore/grype/pull/1897) @wagoodman]\n\n**[(Full Changelog)](https://github.com/anchore/grype/compare/v0.77.4...v0.78.0)**\n\n"
     },
     "https://github.com/Metarget/metarget": {
         "created_at": "2021-04-09 04:20:47",
@@ -4113,8 +4113,8 @@
     "https://github.com/vulhub/vulhub": {
         "created_at": "2017-04-09 10:13:13",
         "description": "Pre-Built Vulnerable Environments Based on Docker-Compose",
-        "commit_message": "Merge pull request #529 from vulhub/pdfjs-cve-2024-4367\n\nAdded PDF.js CVE-2024-4367",
-        "commit_date": "2024-05-24 14:32:16"
+        "commit_message": "Merge pull request #532 from vulhub/showdoc-cnvd-2020-26585\n\nAdded ShowDoc file upload CNVD-2020-26585",
+        "commit_date": "2024-05-29 11:39:03"
     },
     "https://github.com/zhuifengshaonianhanlu/pikachu": {
         "created_at": "2018-07-24 08:21:19",
@@ -4461,8 +4461,8 @@
     "https://github.com/MobSF/Mobile-Security-Framework-MobSF": {
         "created_at": "2024-03-24 21:56:26",
         "description": "Mobile Security Framework (MobSF) is an automated, all-in-one mobile application (Android/iOS/Windows) pen-testing, malware analysis and security assessment framework capable of performing static and dynamic analysis.",
-        "commit_message": "Update auto-comment.yml",
-        "commit_date": "2024-05-04 03:08:42",
+        "commit_message": "[HOTFIX] Support AAB with MobSF, Convert AAB to APK, Fixes #2387 (#2391)\n\n* AAB to APK conversion\r\n* relative urls fix for recent scan",
+        "commit_date": "2024-05-25 03:46:23",
         "release_date": "2024-03-25 18:20:18",
         "release_message": "### v3.9.7 Beta Changelog\r\n\r\n- Features or Enhancements\r\n   - iOS Dynamic Analyzer with Corellium\r\n   - Dynamic Analysis refactoring for Android and iOS\r\n   - Exposed iOS Dynamic Analysis REST APIs\r\n   - Added more helper Frida Scripts for Android and iOS Dynamic Analyzer\r\n   - Frida support improvements Injected Frida Code View, Injection, Spawn, Attach and Session\r\n   - Corellium Reverse SSH connection support\r\n   - Enhancements to ARC and Stack Canary Checks in Mach-O Parsing\r\n   - Frida RPC Hooks support\r\n   - Frida Script QA\r\n   - Runtime Executable Tampering Detection\r\n   - iOS Dynamic Analysis REST API Docs\r\n   - Global Datatables Export as PDF, CSV, XLS, Copy and Print\r\n   - Corellium custom host domain support\r\n   - Huge improvements in Static Analysis report generation page rendering for APKs/IPAs with large amount of data by @JPSxzy8 \r\n   -  Scan independent library file (.so, .dylib, Framework dylib) from APK/IPA Static Analysis Report\r\n   -  Library analysis refactored relative path helper for Django template.\r\n   - Re-introduced RELRO checks for Android, added Dart binary check to avoid Flutter false positives.\r\n   - Improved stripped debug symbol check for ELF and MachO using native OS tools such as nm and objdump when available.\r\n   - Merge iOS Framework and Dylib Analysis.\r\n   - SAST Performance improvements\r\n   - Android API Analysis rule QA\r\n   - Apksigner.jar fallback for signature parsing\r\n   - Simplify MobSF `scan` REST API\r\n   - Support for analysis of iOS Frameworks\r\n   - Android SVG icon parsing improvments\r\n   - Icon analysis refactor and support jpeg and webp icons\r\n   - Github action QA\r\n   - iOS merge findings from swift and objective c rules with same rule identifier. Fixes #2287 \r\n   - iOS Binary analysis, sort regex matches. Fixes #2252\r\n   - Framework dylibs with no extensions to skip PIE checks. Fixes #2307\r\n   - Select correct network_security config. Fixes #2049\r\n   - Android Manifest Analysis added support for detecting task hijacking (StrandHogg 1.0 and StrandHogg 2.0) . Fixes #2124\r\n   - Added new manifest analysis rule to warn on apps targeting older Android OS\r\n   - Updated severity of findings\r\n   - UI improvement for AppSec dashboard to show a loader\r\n   - UI changes in Static Analysis to collapse large no of files in API and Code Analysis for better real estate\r\n   - Improved certificate file analysis for android, jar, aar, and iOS\r\n   - AppLink asset json check multithreading performance improvements\r\n   - Code QA and ruleset improvements with ChatGPT\r\n   - Fixes #2324 , Bug in parsing DSA Public Key parameters for fingerprint calculation.\r\n   - AssetLink check QA\r\n   - Remove Androguard dependency use only features required by MobSF\r\n   \r\n - Security\r\n   -  Arbitrary file writes on Windows with apktool fixed\r\n   -  Fixed an LFI reported by @0x33c0unt\r\n   -  Fixed SSRF in AppLinks and Firebase database checks\r\n     \r\n## What's Changed\r\n* Performance Improvements on SAST by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2251\r\n* add apksigner.jar for reading signatures by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2254\r\n* [HOTFIX] add jar by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2255\r\n* Bump Frida to address crash on M1 Mac by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2258\r\n* Simplify Scan API by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2259\r\n* [HOTFIX] iOS Framework Analysis + Multiple Feature QA by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2260\r\n* [HOTFIX] Support webp for icon by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2267\r\n* fixed that the icon cannot be found by @ohyeah521 in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2265\r\n* [HOTFIX] Allow jpeg icons by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2268\r\n* Fix jadx and apktool failure due to JDK changes by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2269\r\n* [HOTFIX][EFR] Priority Bug Fixes by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2275\r\n* update apktool to 2.9.0 by @superpoussin22 in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2278\r\n* Build(deps): Bump django from 4.1.12 to 4.1.13 by @dependabot in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2282\r\n* iOS Dynamic Analysis with Corellium by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2194\r\n* Dynamic Analysis Improvements Android & iOS by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2295\r\n* Dec 2023 QA by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2297\r\n* [HOTFIX] More Android & iOS Frida Scripts by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2299\r\n* [HOTFIX] Android script loading,  frida injected code view, paramiko SSH issues by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2300\r\n* Enhancements to ARC and Stack Canary Checks in Mach-O Parsing by @cpuu in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2284\r\n* [HOTFIX] RPC hook suggestions + Bug Fix by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2301\r\n* update apktool to 2.9.1 by @superpoussin22 in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2304\r\n* [EFR] QA Request by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2306\r\n* Bug Fixes + Improvements by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2307\r\n* ChatGPT Permission Mapping + Improved Description by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2308\r\n* Windows Python tempfile permission error fix by @ohyeah521 in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2309\r\n* Multiple Features Improved or Added by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2310\r\n* Malware Permission Check for Android by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2313\r\n* [HOTFIX] Bug Fix and QA by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2315\r\n* Using multithreading to improve code efficiency by @ohyeah521 in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2319\r\n* GPT Goodness by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2318\r\n* Update SECURITY.md by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2323\r\n* [HOTFIX][SECURITY] Fix an LFI, DSA Pub Key parsing bug and dependencies  by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2326\r\n* Filter out invalid links by @ohyeah521 in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2322\r\n* [SECURITY] Fix Arbitrary file writes on Windows by @superpoussin22 in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2328\r\n* Runtime Exec Tampering Detection, iOS Dynamic REST APIs, Datatables Export  by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2339\r\n* MOBSF_CORELLIUM_API_DOMAIN Update by @HackJJ in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2347\r\n* poetry pyqt5 fixes by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2362\r\n* Remove Androguard dependency use only features required by MobSF by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2363\r\n* Optimize rendering of big lists by @JPSxzy8 in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2351\r\n* Update SECURITY.md by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2364\r\n* Update SECURITY.md by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2365\r\n* Resolve the situation where the function name is bytes by @ohyeah521 in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2367\r\n\r\n## New Contributors\r\n* @cpuu made their first contribution in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2284\r\n* @HackJJ made their first contribution in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2347\r\n* @JPSxzy8 made their first contribution in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2351\r\n\r\n**Full Changelog**: https://github.com/MobSF/Mobile-Security-Framework-MobSF/compare/v3.7.6...v3.9.7"
     },
@@ -4529,8 +4529,8 @@
     "https://github.com/rockbenben/ChatGPT-Shortcut": {
         "created_at": "2024-05-06 09:37:59",
         "description": "🚀💪Maximize your efficiency and productivity, support for English,中文,Español,العربية. 让生产力加倍的AI快捷指令。更有效地定制、保存和分享自己的提示词。在提示词分享社区中，轻松找到适用于不同场景的指令。",
-        "commit_message": "refactor: remove unused import of Loadable",
-        "commit_date": "2024-05-06 09:37:59",
+        "commit_message": "chroe: update deps",
+        "commit_date": "2024-05-28 01:09:02",
         "release_date": "2024-05-06 10:40:32",
         "release_message": "**Full Changelog**: https://github.com/rockbenben/ChatGPT-Shortcut/compare/v3.2.0...v3.2.1"
     },
@@ -23292,12 +23292,12 @@
         "release_message": "Bug fixes (#40/#41)\r\nUpdated nvidia docker config/images and flask-login"
     },
     "https://github.com/sulab999/AppMessenger": {
-        "created_at": "2024-04-01 03:27:36",
-        "description": "一款适用于以APP病毒分析、APP漏洞挖掘、APP开发、HW行动/红队/渗透测试团队为场景的移动端(Android、iOS)辅助分析工具",
+        "created_at": "2024-05-23 10:01:40",
+        "description": "一款适用于以APP病毒分析、APP漏洞挖掘、APP开发、HW行动/红队/渗透测试团队为场景的移动端(Android、iOS、鸿蒙)辅助分析工具",
         "commit_message": "Update version",
-        "commit_date": "2024-05-15 09:23:27",
-        "release_date": "2024-05-15 09:22:12",
-        "release_message": "1、修复解析bug\r\n2、优化检测提示"
+        "commit_date": "2024-05-24 03:17:02",
+        "release_date": "2024-05-24 03:13:52",
+        "release_message": "1、新增鸿蒙hap解析"
     },
     "https://github.com/pandasec888/taowu-cobalt_strike": {
         "created_at": "2020-07-05 10:13:00",
@@ -24340,8 +24340,8 @@
         "description": "补天 - 企业和白帽子共赢的漏洞响应平台，帮助企业建立SRC"
     },
     "https://dxysrc.vulbox.com/": {
-        "status_code": 404,
-        "description": "漏洞盒子 - 企业SRC，快速为企业建立SRC漏洞响应平台"
+        "status_code": 200,
+        "description": "漏洞盒子 | 丁香园安全应急响应中心（DXYSRC）"
     },
     "https://fsrc.fuiou.com/home/index.html": {
         "status_code": 404,
@@ -24352,8 +24352,8 @@
         "description": "平安安全应急响应中心"
     },
     "https://kysrc.vulbox.com/": {
-        "status_code": 404,
-        "description": "漏洞盒子 - 企业SRC，快速为企业建立SRC漏洞响应平台"
+        "status_code": 200,
+        "description": "漏洞盒子 | 金山云安全应急响应中心（KYSRC）"
     },
     "https://llsrc.huolala.cn/#/home": {
         "status_code": 200,
@@ -24361,11 +24361,11 @@
     },
     "https://lsrc.vulbox.com/": {
         "status_code": 200,
-        "description": "维护中"
+        "description": "漏洞盒子 | 联想集团安全应急响应中心"
     },
     "https://lxsrc.vulbox.com/": {
-        "status_code": 404,
-        "description": "漏洞盒子 - 企业SRC，快速为企业建立SRC漏洞响应平台"
+        "status_code": 200,
+        "description": "漏洞盒子 | 乐信集团安全应急响应中心"
     },
     "https://megvii.huoxian.cn/": {
         "status_code": 200,
@@ -24384,8 +24384,8 @@
         "description": "补天-漏洞_安全|系统漏洞_IoT|APP漏洞_移动|工控漏洞"
     },
     "https://qssrc.vulbox.com/": {
-        "status_code": 404,
-        "description": "漏洞盒子 - 企业SRC，快速为企业建立SRC漏洞响应平台"
+        "status_code": 200,
+        "description": "漏洞盒子 | 轻松筹安全应急响应中心（QSSRC）"
     },
     "https://sec.cainiao.com/": {
         "status_code": 200,
@@ -24412,8 +24412,8 @@
         "description": "魅族安全中心"
     },
     "https://sec.vip.com/": {
-        "status_code": 503,
-        "description": ""
+        "status_code": 200,
+        "description": "VSRC首页-唯品会信息安全中心"
     },
     "https://sec.wacai.com/": {
         "status_code": 200,
@@ -24714,12 +24714,12 @@
         "description": "BOSS直聘安全应急响应中心"
     },
     "https://tdsrc.vulbox.com/": {
-        "status_code": 404,
-        "description": "漏洞盒子 - 企业SRC，快速为企业建立SRC漏洞响应平台"
+        "status_code": 200,
+        "description": "漏洞盒子 | 同盾安全应急响应中心"
     },
     "https://weaversrc.vulbox.com/": {
-        "status_code": 404,
-        "description": "漏洞盒子 - 企业SRC，快速为企业建立SRC漏洞响应平台"
+        "status_code": 200,
+        "description": "漏洞盒子 | 泛微安全应急响应中心（WEAVERSRC）"
     },
     "https://www.hikvision.com/cn/support/CybersecurityCenter/": {
         "status_code": 200,
@@ -27074,7 +27074,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "172.183.115.227属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "40.76.119.175属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
@@ -27779,10 +27779,10 @@
     "https://github.com/T4y1oR/RingQ": {
         "created_at": "2024-05-15 10:18:33",
         "description": "一款后渗透免杀工具，助力每一位像我这样的脚本小子快速实现免杀，支持bypass 360 火绒 Windows Defender",
-        "commit_message": "Update RingQ.exe",
-        "commit_date": "2024-05-17 08:43:33",
+        "commit_message": "20240528 RingQ v2.0",
+        "commit_date": "2024-05-28 06:11:40",
         "release_date": "2024-05-11 09:27:43",
-        "release_message": "2024.05.11-17 RingQ.exe 360 QVM202查杀 已更新，此报毒大家尝试更换图标，添加签名即可。\r\nReleases新增RingQ.exe原编译出main.exe文件，方便大家自定义修改降熵，如持续出现QVM202 后续考虑发布专项bypass QVM202"
+        "release_message": "**具体使用方法 参考README.md**\r\n\r\n2024.05.28 更新两种加载方式，远程加载and绝对路径加载\r\n\r\n2024.05.27 360QVM202报毒 已更新\r\n\r\n2024.05.24 RingQ 360QVM202报毒 已更新，Create火绒报毒 已更新，QVM250失效 已更新\r\n\r\n2024.05.23 360QVM202报毒 已更新，火绒报毒mimikatz 已更新\r\n\r\n2024.05.22 QVM250发布，bypass 360QVM202 持续报毒 生成后的文件多执行几次脚本 (开源项目有效期短)\r\n\r\n2024.05.14-21 360QVM202报毒 已更新，这个报毒自行更换图标，添加签名... 如果持续出现这个问题，多点star出个专项bypass QVM202脚本 Releases新增RingQ.exe原编译出的main.exe文件，方便大家自定义修改降熵\r\n\r\n2024.05.11 项目发布，微步纯绿 企业360云沙箱 火绒 卡巴斯基 没传VT是为了能大家能用久点，大家随意"
     },
     "https://github.com/digininja/DVWA": {
         "created_at": "2023-06-11 11:35:15",
@@ -28603,5 +28603,11 @@
         "description": "极验一键通过模式与滑动模式-float JS逆向破解",
         "commit_message": "Update README.md",
         "commit_date": "2022-06-26 08:37:48"
+    },
+    "https://github.com/P1nganD/Rookie": {
+        "created_at": "2024-05-20 05:49:25",
+        "description": "漏洞扫描",
+        "commit_message": "Update README.md",
+        "commit_date": "2024-05-22 10:57:42"
     }
 }
