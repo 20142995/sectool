@@ -5420,12 +5420,12 @@
         "release_message": ""
     },
     "https://github.com/esrrhs/pingtunnel": {
-        "created_at": "",
-        "description": "",
-        "commit_date": "2023-11-29 03:52:29",
-        "commit_message": "update",
+        "created_at": "2023-11-29 03:44:01",
+        "description": "Pingtunnel is a tool that send TCP/UDP traffic over ICMP",
+        "commit_date": "2024-04-20 03:02:42",
+        "commit_message": "Merge pull request #62 from esrrhs/dependabot/go_modules/golang.org/x/net-0.23.0\n\nBump golang.org/x/net from 0.19.0 to 0.23.0",
         "release_tag": "",
-        "release_date": "",
+        "release_date": "2023-11-29 03:52:00",
         "release_message": ""
     },
     "https://github.com/TideSec/TideFinger": {
@@ -22546,7 +22546,7 @@
         "release_message": ""
     },
     "https://github.com/bit4woo/reCAPTCHA": {
-        "created_at": "2017-11-01 06:28:09",
+        "created_at": "2020-06-13 09:33:13",
         "description": "reCAPTCHA = REcognize CAPTCHA: A Burp Suite Extender that recognize CAPTCHA and use for intruder payload 自动识别图形验证码并用于burp intruder爆破模块的插件",
         "commit_date": "2023-11-23 07:25:00",
         "commit_message": "Update .gitignore",
@@ -23363,8 +23363,8 @@
         "release_message": "Upgrade to use the latest versions of python, django and other dependencies as of Jun 2022"
     },
     "https://github.com/xiaokp7/TongdaOATool": {
-        "created_at": "2023-05-07 15:41:04",
-        "description": "通达OA漏洞利用工具",
+        "created_at": "2023-09-16 19:08:08",
+        "description": "通达OA漏洞检测工具",
         "commit_date": "2023-09-16 20:17:53",
         "commit_message": "更新 README.md",
         "release_tag": "v1.3",
@@ -23601,8 +23601,8 @@
     "https://github.com/SexyBeast233/SecDictionary": {
         "created_at": "2023-02-20 07:02:05",
         "description": "实战沉淀字典",
-        "commit_date": "2023-11-13 01:54:02",
-        "commit_message": "密码字典整理推送 增肥全量密码",
+        "commit_date": "2024-05-28 06:42:54",
+        "commit_message": "敏感词，用于源码过滤codeql、rg、find过滤文本使用",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -24854,8 +24854,8 @@
         "description": "The Rootkit Hunter project"
     },
     "http://dnslog.pw/login": {
-        "status_code": 200,
-        "description": "登录 - DNSlog System"
+        "status_code": 500,
+        "description": "OperationalError\n          at /login"
     },
     "http://www.jsons.cn/rabbitencrypt/": {
         "status_code": 200,
@@ -27065,8 +27065,8 @@
         "description": "Cyber Defense Search Engine | ONYPHE"
     },
     "http://www.soupan.info/": {
-        "status_code": 502,
-        "description": "502 Bad Gateway"
+        "status_code": 200,
+        "description": "网盘搜索引擎 - 搜盘网"
     },
     "https://tools.emailhippo.com/": {
         "status_code": 200,
@@ -27074,7 +27074,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "172.183.107.252属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "4.227.114.101属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
@@ -27209,8 +27209,8 @@
         "description": "TideFinger  潮汐指纹 TideFinger  潮汐指纹"
     },
     "http://dnslog.pw/": {
-        "status_code": 200,
-        "description": "登录 - DNSlog System"
+        "status_code": 500,
+        "description": "OperationalError\n          at /login"
     },
     "https://findthatlead.com/en": {
         "status_code": 200,
@@ -28633,5 +28633,13 @@
         "description": "A Wordpress Honeypot",
         "commit_message": "Merge pull request #13 from lcashdol/patch-3\n\nCreate fake password file to feed to requestor",
         "commit_date": "2018-10-16 14:54:36"
+    },
+    "https://github.com/mozilla/MozDef": {
+        "created_at": "2019-10-04 16:39:17",
+        "description": "DEPRECATED - MozDef: Mozilla Enterprise Defense Platform",
+        "commit_message": "Add decom notice to readme (#1727)",
+        "commit_date": "2021-11-02 16:41:59",
+        "release_date": "2019-10-04 16:40:07",
+        "release_message": "### Added\r\n- Alerts can be turned on/off via web ui\r\n- GeoModel alert to compare locations and determine if travel is possible\r\n- New Query model (SubnetMatch) to match documents on ip and subnets\r\n- LDAP Bruteforce Alert \r\n- Make target (lint) for running pep8 checks against codebase\r\n- Uptycs alert event cron script\r\n\r\n### Fixed\r\n- Modified regex statements to be proper python3 statements\r\n- Auth0 script to consume new depnote events\r\n\r\n### Changed\r\n- Moved benchmark and examples directory into scripts directory with sample ingest scripts"
     }
 }
