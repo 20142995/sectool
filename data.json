@@ -802,13 +802,13 @@
         "release_message": "泛微e-mobile-sql注入rce\r\n综合安防文件上传RCE * 2\r\n用友nc jsInovke-RCE\r\n大华文件上传RCE\r\n畅捷通反序列化RCE\r\n深信服应用交付系统RCE"
     },
     "https://github.com/knownsec/pocsuite3": {
-        "created_at": "2019-03-15 07:01:04",
+        "created_at": "2024-02-20 07:11:01",
         "description": "pocsuite3 is an open-sourced remote vulnerability testing framework developed by the Knownsec 404 Team.",
-        "commit_date": "2023-07-26 21:18:59",
-        "commit_message": "Merge pull request #375 from 13ph03nix/fix/urllib3-hook\n\nBug fixes & improvements",
+        "commit_date": "2024-04-30 05:56:11",
+        "commit_message": "feat:During batch scanning, too many targets cause the output results to exceed the display range.",
         "release_tag": "v2.0.5",
-        "release_date": "2023-07-26 21:22:17",
-        "release_message": "* 修复 urllib3 更新导致 requests hook 失效的问题 #368 #373 \r\n* 优化 DSL 表达式执行 #372\r\n* 将 mmh3 设置为可选依赖 #359 \r\n* 优化检查更新\r\n\r\n---\r\n\r\n* fix hook failure due to urllib3 update #368 #373\r\n* optimize DSL expression execution #372\r\n* making mmh3 an optional dependency #359\r\n* disable mandatory updates\r\n"
+        "release_date": "2024-02-20 07:23:05",
+        "release_message": ""
     },
     "https://github.com/murphysecurity/murphysec": {
         "created_at": "2023-05-15 12:21:31",
@@ -1264,7 +1264,7 @@
         "release_message": "1. 添加url黑明单\r\n2. 添加右键`Send to Passive Scan Client`手动转发\r\n\r\nthx @i11us0ry "
     },
     "https://github.com/c0ny1/sqlmap4burp-plus-plus": {
-        "created_at": "2019-08-10 11:34:38",
+        "created_at": "2019-11-07 05:50:04",
         "description": "sqlmap4burp++是一款兼容Windows，mac，linux多个系统平台的Burp与sqlmap联动插件",
         "commit_date": "2019-11-07 05:50:04",
         "commit_message": "修改版本号为0.2",
@@ -1427,8 +1427,8 @@
     "https://github.com/threedr3am/dubbo-exp": {
         "created_at": "2021-12-26 04:52:47",
         "description": "dubbo学习demo，之前删了，重新上传。",
-        "commit_date": "2022-10-12 08:48:36",
-        "commit_message": "update README.md",
+        "commit_date": "2024-01-08 12:47:16",
+        "commit_message": "Update DubboProtocol.java\n\n支持命令参数dubbo-response配置",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -1931,7 +1931,7 @@
         "release_message": "- 新增蓝凌、用友、万户部分漏洞\r\n- 修复部分漏洞误报\r\n- 修复asp上传内容\r\n- 优化部分代码\r\n- 取消密码"
     },
     "https://github.com/Acmesec/Sylas": {
-        "created_at": "2022-01-05 10:16:09",
+        "created_at": "2022-10-09 11:06:28",
         "description": "新一代子域名主/被动收集工具 - Subdomain automatic/passive collection tool",
         "commit_date": "2022-10-09 11:06:28",
         "commit_message": "update to 1.1.1\n\nupdate to 1.1.1",
@@ -2891,9 +2891,9 @@
     },
     "https://github.com/Cuerz/PoC-ExP": {
         "created_at": "2022-07-18 01:35:04",
-        "description": "【漏洞Poc知识库】一个网络安全爱好者对网络上一些已知漏洞payload的收录，持续更新。并编写了利用脚本，可用于日常学习或批量的src漏洞挖掘",
-        "commit_date": "2022-09-23 05:22:17",
-        "commit_message": "安恒明御防火墙未授权",
+        "description": "【漏洞Poc知识库】一个网络安全爱好者对网络上一些漏洞poc的收录。",
+        "commit_date": "2023-08-23 08:52:02",
+        "commit_message": "UPDATE README",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -5526,13 +5526,13 @@
         "release_message": "1.修复可能的卡死情况\r\n2.修复可能因为waf 拦截而导致的卡顿\r\n3. 无POC 更新"
     },
     "https://github.com/kunwu2023/kunwu": {
-        "created_at": "2023-05-12 02:23:36",
+        "created_at": "2023-05-12 06:46:06",
         "description": "kunwu是新一代webshell检测引擎，使用了内置了模糊规则、污点分析模拟执行、机器学习三种高效的检测策略",
-        "commit_date": "2023-05-30 03:10:23",
-        "commit_message": "更新微信二维码",
+        "commit_date": "2024-02-21 02:21:45",
+        "commit_message": "Update README.md",
         "release_tag": "0.1.0",
         "release_date": "2023-05-12 07:30:33",
-        "release_message": "20230516:\r\n1.修复了Gui启动报错的问题\r\n2.优化了输出结果\r\n\r\n20230519:\r\n1.优化的云端引擎的检出速度\r\n\r\n20230619:\r\n1.优化webshell gui性能占用"
+        "release_message": "20230516:\r\n1.修复了Gui启动报错的问题\r\n2.优化了输出结果\r\n\r\n20230519:\r\n1.优化的云端引擎的检出速度\r\n\r\n20230619:\r\n1.优化webshell gui性能占用\r\n\r\n20231120:\r\n1.修复一些cli的已知问题"
     },
     "https://github.com/L-codes/Neo-reGeorg": {
         "created_at": "2019-07-08 14:25:42",
@@ -6130,7 +6130,7 @@
     "https://github.com/TideSec/BypassAntiVirus": {
         "created_at": "2019-12-16 06:26:32",
         "description": "远控免杀系列文章及配套工具，汇总测试了互联网上的几十种免杀工具、113种白名单免杀方式、8种代码编译免杀、若干免杀实战技术，并对免杀效果进行了一一测试，为远控的免杀和杀软对抗免杀提供参考。",
-        "commit_date": "2022-08-23 08:00:46",
+        "commit_date": "2024-01-12 01:00:28",
         "commit_message": "Update",
         "release_tag": "",
         "release_date": "",
@@ -24135,7 +24135,7 @@
         "release_message": ""
     },
     "https://github.com/yanghaoi/ridhijack": {
-        "created_at": "2021-12-09 08:46:41",
+        "created_at": "2021-12-09 10:39:24",
         "description": "通过C/C++实现的 Windows RID Hijacking persistence technique (RID劫持 影子账户 账户克隆).",
         "commit_date": "2021-12-22 05:38:43",
         "commit_message": "Update README.md",
@@ -27074,7 +27074,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "4.227.114.101属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "20.51.159.38属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
