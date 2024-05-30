@@ -27074,7 +27074,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "40.76.119.175属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "20.161.78.230属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
@@ -28609,5 +28609,17 @@
         "description": "漏洞扫描",
         "commit_message": "Update README.md",
         "commit_date": "2024-05-22 10:57:42"
+    },
+    "https://github.com/FeeiCN/GSIL": {
+        "created_at": "2017-10-11 10:14:57",
+        "description": "GitHub Sensitive Information Leakage（GitHub敏感信息泄露监控）",
+        "commit_message": "Update README-zh.md",
+        "commit_date": "2023-11-28 09:50:29"
+    },
+    "https://github.com/xsec-lab/x-waf": {
+        "created_at": "2016-08-05 01:59:28",
+        "description": "适用于中小企业的云waf",
+        "commit_message": "update rules",
+        "commit_date": "2017-11-23 10:03:50"
     }
 }
