@@ -7935,13 +7935,13 @@
         "release_message": ""
     },
     "https://github.com/jxhczhl/JsRpc": {
-        "created_at": "2024-04-22 12:26:54",
+        "created_at": "2024-05-27 07:47:03",
         "description": "远程调用(rpc)浏览器方法，免去抠代码补环境",
-        "commit_date": "2024-04-22 15:17:25",
-        "commit_message": "调整文档记录位置",
+        "commit_date": "2024-05-27 07:47:03",
+        "commit_message": "update ssl",
         "release_tag": "v1.02",
-        "release_date": "2024-04-22 12:46:47",
-        "release_message": "其他版本可自行编译一下~\r\n\r\n☺️"
+        "release_date": "2024-05-27 07:49:56",
+        "release_message": "ssl证书小问题修复\r\n\r\n其他版本可自行编译一下~\r\n\r\n\r\n😁"
     },
     "https://github.com/nanshihui/PocCollect": {
         "created_at": "2016-06-21 07:45:12",
@@ -23110,8 +23110,8 @@
     "https://github.com/fingerprintjs/fingerprintjs": {
         "created_at": "2024-04-24 07:04:55",
         "description": "Browser fingerprinting library. Accuracy of this version is 40-60%, accuracy of the commercial Fingerprint Identification is 99.5%. V4 of this library is BSL licensed.",
-        "commit_message": "Bump the version to 4.3.0 (#1001)",
-        "commit_date": "2024-04-24 07:04:55",
+        "commit_message": "docs(README): clarify community description (#1006)",
+        "commit_date": "2024-05-30 14:56:12",
         "release_date": "2024-04-24 07:10:03",
         "release_message": "- fix: A minus sign missing in the \"timezone\" entropy source fallback (#986)\r\n- fix: The geometry and text images in the \"canvas\" entropy source are swapped (#990). They were swapped mistakenly in v4.1.0."
     },
@@ -27065,8 +27065,8 @@
         "description": "Cyber Defense Search Engine | ONYPHE"
     },
     "http://www.soupan.info/": {
-        "status_code": 200,
-        "description": "网盘搜索引擎 - 搜盘网"
+        "status_code": 502,
+        "description": "502 Bad Gateway"
     },
     "https://tools.emailhippo.com/": {
         "status_code": 200,
@@ -27074,7 +27074,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "20.55.15.20属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "172.183.130.196属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
@@ -27102,7 +27102,7 @@
     },
     "https://whois.aizhan.com/": {
         "status_code": 200,
-        "description": "站长工具_whois查询工具_爱站网"
+        "description": ""
     },
     "https://rapiddns.io/sameip": {
         "status_code": 200,
