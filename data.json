@@ -26301,7 +26301,7 @@
         "release_message": ""
     },
     "https://github.com/charonlight/RuoYiExploitGUI": {
-        "created_at": "2024-03-03 13:01:32",
+        "created_at": "2024-03-03 13:00:06",
         "description": "若依最新定时任务SQL注入可导致RCE漏洞的一键利用工具",
         "commit_message": "Update README.md",
         "commit_date": "2024-03-03 13:01:32",
@@ -27065,8 +27065,8 @@
         "description": "Cyber Defense Search Engine | ONYPHE"
     },
     "http://www.soupan.info/": {
-        "status_code": 502,
-        "description": "502 Bad Gateway"
+        "status_code": 200,
+        "description": "网盘搜索引擎 - 搜盘网"
     },
     "https://tools.emailhippo.com/": {
         "status_code": 200,
@@ -27074,7 +27074,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "172.183.130.196属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "4.227.115.1属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
@@ -27102,7 +27102,7 @@
     },
     "https://whois.aizhan.com/": {
         "status_code": 200,
-        "description": ""
+        "description": "站长工具_whois查询工具_爱站网"
     },
     "https://rapiddns.io/sameip": {
         "status_code": 200,
@@ -28641,5 +28641,11 @@
         "commit_date": "2021-11-02 16:41:59",
         "release_date": "2019-10-04 16:40:07",
         "release_message": "### Added\r\n- Alerts can be turned on/off via web ui\r\n- GeoModel alert to compare locations and determine if travel is possible\r\n- New Query model (SubnetMatch) to match documents on ip and subnets\r\n- LDAP Bruteforce Alert \r\n- Make target (lint) for running pep8 checks against codebase\r\n- Uptycs alert event cron script\r\n\r\n### Fixed\r\n- Modified regex statements to be proper python3 statements\r\n- Auth0 script to consume new depnote events\r\n\r\n### Changed\r\n- Moved benchmark and examples directory into scripts directory with sample ingest scripts"
+    },
+    "https://github.com/bongmu/OpsManage": {
+        "created_at": "2018-04-03 05:12:06",
+        "description": "自动化运维平台: 代码及应用部署CI/CD、资产管理CMDB、计划任务管理平台、SQL审核|回滚、任务调度",
+        "commit_message": "update",
+        "commit_date": "2018-04-09 05:30:52"
     }
 }
