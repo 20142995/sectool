@@ -113,7 +113,7 @@
         "release_message": "#22 "
     },
     "https://github.com/Moxin1044/qsnctf-python": {
-        "created_at": "2023-01-01 01:56:43",
+        "created_at": "2023-08-26 02:35:55",
         "description": "青少年CTF的Python包，方便大家调用一些CTF常用功能。",
         "commit_date": "2023-08-26 02:35:55",
         "commit_message": "build( Version ): ⬆️ 0.0.8.10",
@@ -1852,13 +1852,13 @@
         "release_message": "*修复部分漏洞空格解析错误bug.\r\n*代码优化.\r\n"
     },
     "https://github.com/1y0n/AV_Evasion_Tool": {
-        "created_at": "2020-04-24 01:11:09",
+        "created_at": "2023-12-08 07:35:10",
         "description": "掩日 - 免杀执行器生成工具",
-        "commit_date": "2023-08-23 06:25:21",
+        "commit_date": "2023-12-08 07:35:10",
         "commit_message": "Update README.md",
         "release_tag": "20230823",
-        "release_date": "2023-08-23 06:23:07",
-        "release_message": "1. 效果优化"
+        "release_date": "2023-12-08 07:41:35",
+        "release_message": "1. 效果优化\r\n2. 现在可以自由选择tdm-gcc或者tcc生成loader"
     },
     "https://github.com/hanc00l/nemo_go": {
         "created_at": "2024-02-01 00:34:56",
@@ -22798,7 +22798,7 @@
     "https://github.com/81NewArk/StupidOCR": {
         "created_at": "2023-01-18 14:25:36",
         "description": "验证码识别",
-        "commit_date": "2023-08-31 12:33:55",
+        "commit_date": "2024-05-30 03:08:21",
         "commit_message": "Update StupidOCR.py",
         "release_tag": "",
         "release_date": "",
@@ -25580,12 +25580,12 @@
         "release_message": "# 概述\r\n\r\n```\r\n██╗  ██╗ █████╗ ██████╗ ██████╗ ██╗   ██╗    ███╗   ██╗███████╗██╗    ██╗██╗   ██╗███████╗ █████╗ ██████╗ \r\n██║  ██║██╔══██╗██╔══██╗██╔══██╗╚██╗ ██╔╝    ████╗  ██║██╔════╝██║    ██║╚██╗ ██╔╝██╔════╝██╔══██╗██╔══██╗\r\n███████║███████║██████╔╝██████╔╝ ╚████╔╝     ██╔██╗ ██║█████╗  ██║ █╗ ██║ ╚████╔╝ █████╗  ███████║██████╔╝\r\n██╔══██║██╔══██║██╔═══╝ ██╔═══╝   ╚██╔╝      ██║╚██╗██║██╔══╝  ██║███╗██║  ╚██╔╝  ██╔══╝  ██╔══██║██╔══██╗\r\n██║  ██║██║  ██║██║     ██║        ██║       ██║ ╚████║███████╗╚███╔███╔╝   ██║   ███████╗██║  ██║██║  ██║\r\n╚═╝  ╚═╝╚═╝  ╚═╝╚═╝     ╚═╝        ╚═╝       ╚═╝  ╚═══╝╚══════╝ ╚══╝╚══╝    ╚═╝   ╚══════╝╚═╝  ╚═╝╚═╝  ╚═╝\r\n                         [+] SpringBoot-Scan V2.51-2024年 龙年新春贺岁版\r\n```\r\n\r\n光阴如梭，又是一年新春佳节，历经两百次的迭代更新，`SpringBoot-Scan` 在多场实战考验中战功赫赫，收获了1K多的Star~\r\n元旦更新了 `V2.40版本-龙年元旦贺岁版` ，年关将至，我们又更新了 `V2.51版本-龙年新春贺岁版`，对批量信息泄露扫描进行并发处理。感谢一路走来各位师傅给我的反馈和支持，祝各位师傅在新的一年事业有成、马到成功！\r\n\r\n```\r\n工具用法如下：\r\n        对单一URL进行信息泄露扫描:         python3 SpringBoot-Scan.py -u http://example.com/\r\n        读取目标TXT进行批量信息泄露扫描:    python3 SpringBoot-Scan.py -uf url.txt\r\n        对单一URL进行漏洞扫描:             python3 SpringBoot-Scan.py -v http://example.com/\r\n        读取目标TXT进行批量漏洞扫描：      python3 SpringBoot-Scan.py -vf url.txt\r\n        扫描并下载SpringBoot敏感文件:      python3 SpringBoot-Scan.py -d http://example.com/\r\n        使用HTTP代理并自动进行连通性测试:    python3 SpringBoot-Scan.py -p <代理IP:端口>\r\n        从TXT文件中导入自定义HTTP头部:       python3 SpringBoot-Scan.py -t header.txt\r\n        通过ZoomEye密钥进行API下载数据:      python3 SpringBoot-Scan.py -z <ZoomEye的API-KEY>\r\n        通过Fofa密钥进行API下载数据:         python3 SpringBoot-Scan.py -f <Fofa的API-KEY>\r\n        通过Hunter密钥进行API下载数据:       python3 SpringBoot-Scan.py -y <Hunter的API-KEY>\r\n```\r\n\r\n# 更新日志\r\n\r\n- **感谢 [`@Fkalis`](https://github.com/FFR66) 师傅，对批量信息泄露扫描进行并发处理，提高 `-uf` 参数的扫描速度**\r\n- **优化了相关的工作流，对部分冗余的代码进行优化**\r\n- **优化了输出提示，对部分内容的输出结果进行优化**\r\n- **V2.51版本-龙年新春贺岁版专门进行了打包，可以直接用可执行文件进行操作啦~**"
     },
     "https://github.com/abc123info/Struts2VulsScanTools": {
-        "created_at": "2024-01-27 11:40:11",
+        "created_at": "2024-02-02 07:12:42",
         "description": "1、点击“检测漏洞”，会自动检测该URL是否存在S2-001、S2-005、S2-009、S2-013、S2-016、S2-019、S2-020/021、S2-032、S2-037、DevMode、S2-045/046、S2-052、S2-048、S2-053、S2-057、S2-061、S2相关log4j2十余种漏洞。  2、“批量验证”，（为防止批量geshell，此功能已经删除，并不再开发）。  3、S2-020、S2-021仅提供漏洞扫描功能，因漏洞利用exp很大几率造成网站访问异常，本程序暂不提供。  4、对于需要登录的页面，请勾选“设置全局Cookie值”，并填好相应的Cookie，程序每次发包都会带上Cookie。  5、作者对不同的struts2漏洞测试语句做了大量修改，执行",
         "commit_message": "Update README.md",
-        "commit_date": "2024-02-02 07:12:42",
-        "release_date": "2024-01-27 11:57:29",
-        "release_message": "2023.07.30 解决mac系统兼容性问题，解决软件界面在不同jdk下大小显示不一样问题。\r\n2023.07.20 对每一个文本输入框添加右键撤销功能。\r\n2023.07.19 对所有文本框输入框添加右键复制、粘贴、全选、删除功能。解决Mac系统的兼容性问题。\r\n2023.02.18 新增一条检测Struts2调试模式的语句。\r\n2022.08.12 修正漏洞检测逻辑，修复bug。\r\n2022.06.15 优化S2-061检测逻辑，加入插入点设置。\r\n2022.06.08 重点优化log4j2漏洞探测功能，更正检测payload错误。\r\n2022.05.30 优化检测payload中content参数与网站正常应用参数重合，造成的误报问题。\r\n2022.05.23 加入S2-061/S2-062漏洞检测与执行命令功能。\r\n2022.05.01 界面整体改版，加入部分AWT组件。"
+        "commit_date": "2024-05-23 07:16:14",
+        "release_date": "2024-05-23 07:15:02",
+        "release_message": "2024.05.23 解决S2-045-2检测payload极端情况下误报问题。"
     },
     "https://github.com/birdhan/SecurityTools": {
         "created_at": "2022-03-07 07:52:37",
@@ -27074,7 +27074,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "4.227.115.1属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "20.75.95.46属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
