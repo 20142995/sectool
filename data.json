@@ -1282,7 +1282,7 @@
         "release_message": ""
     },
     "https://github.com/burpheart/koko-moni": {
-        "created_at": "2023-03-13 14:40:22",
+        "created_at": "2023-03-13 14:49:04",
         "description": "一个网络空间搜索引擎监控平台，可定时进行资产信息爬取，及时发现新增资产，本项目聚合了 Fofa、Hunter、Quake、Zoomeye 和 Threatbook 的数据源，并对获取到的数据进行去重与清洗",
         "commit_date": "2023-04-19 13:35:30",
         "commit_message": "Update readme.md",
@@ -1895,7 +1895,7 @@
         "release_message": "1、代码整体重构\r\n2、增加了与佛论禅、百家姓编码、核心价值观编码、a1z26密码、棋盘密码、jother\r\n3、删除了一兼操作\r\n4、增加了密文分析功能、批量解密功能\r\n5、增加了自动寻找flag功能\r\n6、插件增加了打开ui输入框框功能。\r\n\r\n部分代码来自：https://github.com/ht0Ruial/TomatoTools  特此感谢！"
     },
     "https://github.com/Margular/frida-skeleton": {
-        "created_at": "2018-05-18 11:49:23",
+        "created_at": "2019-12-20 13:11:28",
         "description": "基于frida的安卓hook框架，提供了很多frida自身不支持的功能，将hook安卓变成简单便捷，人人都会的事情",
         "commit_date": "2022-12-10 08:09:05",
         "commit_message": "Update CHANGELOG.md",
@@ -2165,10 +2165,10 @@
         "release_message": ""
     },
     "https://github.com/shmilylty/OneForAll": {
-        "created_at": "2018-12-10 09:43:37",
+        "created_at": "2022-07-10 10:14:49",
         "description": "OneForAll是一款功能强大的子域收集工具",
-        "commit_date": "2023-04-17 01:34:19",
-        "commit_message": "Merge pull request #308 from mastomii/adding-massdns-linux-aarch64\n\nadding \"massdns-linux-aarch64\"",
+        "commit_date": "2024-04-19 06:10:40",
+        "commit_message": "Merge pull request #367 from ywgdjryf/patch-1\n\nUpdate mx.py",
         "release_tag": "v0.4.5",
         "release_date": "2022-07-10 10:16:29",
         "release_message": "## [0.4.5](https://github.com/shmilylty/oneforall/releases/tag/v0.4.5) - 2022-07-10\r\n- 修复了#254"
@@ -2613,7 +2613,7 @@
         "release_message": ""
     },
     "https://github.com/NS-Sp4ce/AliyunAccessKeyTools": {
-        "created_at": "2021-07-14 07:13:00",
+        "created_at": "2021-07-14 07:19:34",
         "description": "阿里云AccessKey泄漏利用工具",
         "commit_date": "2021-07-16 00:52:34",
         "commit_message": "Update README.md",
@@ -2701,7 +2701,7 @@
         "release_message": "- Fixes #8 "
     },
     "https://github.com/knownsec/Kunyu": {
-        "created_at": "2021-07-28 04:18:21",
+        "created_at": "2022-04-21 02:15:13",
         "description": "Kunyu, more efficient corporate asset collection",
         "commit_date": "2022-04-21 02:15:13",
         "commit_message": "Merge pull request #55 from wikiZ/main\n\nUpdate Kunyu Version 1.7.2",
@@ -3409,13 +3409,13 @@
         "release_message": "#### features\r\n1. 增加 nmap局域网扫描结果解析，包括mac地址和设备类型\r\n2. 增加 检测结果-web信息新增http响应头信息和原始响应，及url链接显示\r\n3. 检测结果-漏洞 可新增漏洞\r\n4. 资产管理新增应用系统\r\n5. 新增分类管理，包含公司部门人员和标签综合分类\r\n6. 主机/域名，增加应用系统显示，子域名编辑\r\n7. 资产ip、端口drawer，新增应用系统显示\r\n8. 新增ip标签，端口标签\r\n9. 增加企业微信群机器人通知\r\n10. 增加钉钉群机器人、企微群机器人发送测试消息功能，增加发送测试邮件功能\r\n11. 增加IM消息，邮件发送日志，可在提醒日志查看（包括异常信息）\r\n12. 增加高危资产推送，实时推送到企微群和钉钉群\r\n#### optimize\r\n1. 优化404页面显示\r\n2. 优化通知设置页面\r\n3. 优化IM实时通知\r\n#### bug fixes\r\n1. 修复 JavaSambaWeakPass无法使用的问题\r\n2. 修复 域名不规范时，ip端口信息无法入库问题\r\n3. 修复 httpp任务可能无法结束的问题\r\n#### alter\r\n1. ip项目组相关信息，移动到资产管理\r\n#### remove\r\n1. 移除插件-代码编辑器\r\n2. 检测结果，移除url页面\r\n3. HTTPElasticsearchUnauth插件，去除http服务\r\n\r\n[2.0.28升级到2.1](https://github.com/er10yi/MagiCude/wiki/Update-Guide#v2028%E6%9B%B4%E6%96%B0%E5%88%B0v21)"
     },
     "https://github.com/rebeyond/Behinder": {
-        "created_at": "2018-09-26 01:11:17",
+        "created_at": "2023-08-15 14:28:52",
         "description": "“冰蝎”动态二进制加密网站管理客户端",
-        "commit_date": "2022-08-23 02:50:39",
-        "commit_message": "Update README.md\n\n新增传输协议详解参考链接",
+        "commit_date": "2023-08-15 14:28:52",
+        "commit_message": "Create SECURITY.md",
         "release_tag": "Behinder_v4.0.6",
-        "release_date": "2022-11-28 17:47:44",
-        "release_message": "\r\n### 2022.11.28 v4.0.6 更新日志\r\n\r\n1.修复了Tomcat10中内存马植入无法连接的问题；\r\n2.修复了asp版本内置传输协议的连接问题；\r\n3.修复了传输协议在恢复默认时会出现错误的问题；\r\n4.内置了Javafx库，修复了各类因为Javafx环境无法运行的问题；\r\n5.修复了客户端兼容性问题，客户端兼容Java8至Java19；\r\n6.新增“默认”连接模式，兼容冰蝎3默认服务端；\r\n7.其他的一些优化。\r\n"
+        "release_date": "2023-08-24 11:31:46",
+        "release_message": "\r\n### 2023.8.24 v4.1【t00ls专版】 更新日志\r\n\r\n1.新增ashx类型支持；\r\n2.优化了客户端运行环境的兼容性，支持JDK8~JDK20\r\n3.优化了传输协议增删改查操作逻辑；\r\n4.修复了某些JDK环境下运行卡顿的问题；\r\n5.修复了传输协议下拉框显示异常的问题；\r\n6.修复了自定义Cookie异常的问题；\r\n7.优化了php老版本的兼容性；\r\n8.修复了文件上传结束后句柄未释放的问题；\r\n9.修复了php文件管理中文乱码的问题；\r\n10.内存马shellcode注入前增加了CPU架构判断；\r\n11.更新了内置的javafx框架版本；\r\n12.增加了服务端对Java 5的支持。\r\n\r\n"
     },
     "https://github.com/graynjo/Heimdallr": {
         "created_at": "",
@@ -3813,10 +3813,10 @@
         "release_message": ""
     },
     "https://github.com/wgpsec/fofa_viewer": {
-        "created_at": "2021-04-14 05:16:06",
+        "created_at": "2023-06-27 13:38:48",
         "description": "A simple FOFA client written in JavaFX.  Made by WgpSec, Maintained by f1ashine.",
-        "commit_date": "2023-06-27 13:38:48",
-        "commit_message": "修复CI",
+        "commit_date": "2024-01-21 13:43:00",
+        "commit_message": "Update README.md",
         "release_tag": "1.1.13",
         "release_date": "2023-06-27 13:43:22",
         "release_message": "fix-bug:\r\n1. 解决添加规则的报错问题\r\noptimize :\r\n1. 考虑到有师傅会把jar包打包成app，因此将日志路径修改为用户目录下"
@@ -10540,7 +10540,7 @@
     },
     "https://github.com/mbechler/marshalsec": {
         "created_at": "2017-05-22 11:43:57",
-        "description": "",
+        "description": null,
         "commit_date": "2022-12-11 17:30:28",
         "commit_message": "Merge pull request #38 from JLLeitschuh/feat/JLL/UnicastRemoteObjectGadget-SnakeYAML\n\nAdd UnicastRemoteObject payload to SnakeYAML",
         "release_tag": "",
@@ -16011,7 +16011,7 @@
         "release_message": ""
     },
     "https://github.com/mozillazg/go-pinyin": {
-        "created_at": "2014-11-09 14:04:33",
+        "created_at": "2023-05-14 12:02:23",
         "description": "汉字转拼音",
         "commit_date": "2023-05-14 12:01:59",
         "commit_message": "v0.20.0",
@@ -17290,7 +17290,7 @@
         "release_message": ""
     },
     "https://github.com/lzzbb/Adinfo": {
-        "created_at": "2022-09-10 03:09:36",
+        "created_at": "2022-09-16 07:49:23",
         "description": "域信息收集工具",
         "commit_date": "2022-09-16 07:49:23",
         "commit_message": "Add files via upload",
@@ -21657,7 +21657,7 @@
         "commit_message": "Update Main.java"
     },
     "https://github.com/Ch1ngg/WebLogicPasswordDecryptorUi": {
-        "created_at": "2016-07-02 10:51:18",
+        "created_at": "2020-12-03 04:26:51",
         "description": "解密weblogic AES或DES加密方法",
         "release_tag": "v2.0",
         "release_date": "2020-12-03 04:28:44",
@@ -22980,10 +22980,10 @@
         "release_message": "* 添加了请求包相应包匹配选项"
     },
     "https://github.com/LasCC/HackTools": {
-        "created_at": "2020-06-22 21:42:16",
+        "created_at": "2023-03-11 14:59:09",
         "description": "The all-in-one browser extension for offensive security professionals 🛠",
-        "commit_date": "2023-03-11 14:59:09",
-        "commit_message": "Merge pull request #133 from LasCC/dev\n\nVersion 0.5.0",
+        "commit_date": "2024-05-22 20:24:19",
+        "commit_message": "Update README.md",
         "release_tag": "0.5.0",
         "release_date": "2023-03-11 15:07:46",
         "release_message": "# Version 0.5.0\r\n\r\nThe new update is out! 🤩\r\n\r\n- Completely redesign the revershell component\r\n- New transfert methods component\r\n- Fix the MSF Builder component\r\n\r\n## Installation Steps :\r\n\r\n### Chrome\r\n- Extract **dist.zip** (you will obtain a folder named **dist**)\r\n- In your chromium based web-browser upload the folder as an unpacked Extension ***check the repo readme.md***\r\n\r\n**NEW** Link to the Chrome extension : https://chrome.google.com/webstore/detail/hack-tools/cmbndhnoonmghfofefkcccljbkdpamhi\r\n\r\n---\r\n\r\n### Firefox\r\n\r\nhttps://addons.mozilla.org/fr/firefox/addon/hacktools/\r\n\r\nOr install it as a temporary plugin in Firefox in the page `about:debugging#/runtime/this-firefox` by selecting the manifest inside **dist**\r\n\r\n---\r\n\r\n### Instructions to build for Safari\r\n\r\nCreate a safari web extension project using the command below. This is to be run once.\r\n\r\n```bash\r\nxcrun safari-web-extension-coverter [path_to_dist_folder]\r\n```\r\n\r\nFollow the instructions to create the project the default language should be Swift.\r\n\r\n- Build project.\r\n- Open Safari and enable unsigned extensions; Develop → Allow Unsigned Extensions.\r\n- Open Safari → Preferences → Extensions and enable Hack-Tools\r\n- Click on the extension icon and switch to full screen mode.\r\n\r\n**Full Changelog**: https://github.com/LasCC/Hack-Tools/pull/133\r\n"
@@ -23077,8 +23077,8 @@
     "https://github.com/yhy0/AVByPass": {
         "created_at": "2020-12-25 12:07:00",
         "description": "一款Web在线自动免杀工具",
-        "commit_date": "2021-08-27 09:05:54",
-        "commit_message": "Update README.md",
+        "commit_date": "2024-03-01 09:40:37",
+        "commit_message": "Update urls.py",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -23805,7 +23805,7 @@
         "release_message": ""
     },
     "https://github.com/Inf0secRabbit/BadAssMacros": {
-        "created_at": "2021-07-25 15:20:02",
+        "created_at": "2021-07-25 20:29:38",
         "description": "BadAssMacros - C# based automated Malicous Macro Generator.",
         "commit_date": "2021-08-08 15:57:01",
         "commit_message": "Added Examples",
@@ -27074,7 +27074,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "20.75.95.46属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "20.172.29.189属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
