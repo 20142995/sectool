@@ -1026,8 +1026,8 @@
     "https://github.com/sml2h3/ddddocr": {
         "created_at": "2021-07-14 09:00:06",
         "description": "带带弟弟 通用验证码识别OCR pypi版",
-        "commit_date": "2023-08-30 13:24:01",
-        "commit_message": "修复pillow的版本引用问题",
+        "commit_date": "2024-05-28 09:37:31",
+        "commit_message": "Update README.md",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -1156,7 +1156,7 @@
         "release_message": "依赖/data/Meterpreter.class"
     },
     "https://github.com/Kento-Sec/AsamF": {
-        "created_at": "2022-08-03 03:52:09",
+        "created_at": "2023-06-02 06:01:14",
         "description": "AsamF是集成Fofa、Quake、Hunter、Shodan、Zoomeye、Chinaz、0.zone及爱企查的一站式企业信息资产收集、网络资产测绘工具。",
         "commit_date": "2023-08-24 15:08:14",
         "commit_message": "Update README.md",
@@ -6155,7 +6155,7 @@
         "release_message": "# 3.7.0 / 2024-02-26\r\n\r\n**General**\r\n\r\n- Add ability for users to generate social share links after solving a challenge\r\n  - After solving a challenge users can click a \"share\" button which can generate Twitter, Facebook, LinkedIn links\r\n- Add Scoreboard Brackets feature to have multiple sub-scoreboards within the main scoreboard\r\n  - Admins can add a bracket for users/teams which must be selected during the registration process. Within the scoreboard, accounts can be organized by bracket in addition to seeing the full list\r\n- Calculate a files sha1sum on upload for future local change detection purposes\r\n- Allow API clients (CTFd, ctfcli, etc) to control the location of an uploaded file\r\n- Allow challenge CSVs to contain JSON in the hints and flags columns so that admins can import more complex data\r\n- Fix issue where hints could not be unlocked during freeze time\r\n- Use the CTF name to be the default index page name\r\n\r\n**API**\r\n\r\n- Add `bracket_name` and `bracket_id` to `/api/v1/scoreboard`\r\n- Add `sha1sum` to `GET /api/v1/files`\r\n- Add `location` to `POST /api/v1/files`\r\n\r\n**Plugins**\r\n\r\n- Add ability to control the link target for a page (i.e. open in a new tab) via `register_user_page_menu_bar()`\r\n- Add `uploaders.open()` to open a file from an uploader\r\n- Adds the optional path field to the `Uploaders.upload()` method to control where files get uploaded to\r\n\r\n**Themes**\r\n\r\n- Allow customization of the `<meta>` tag & page title via template files\r\n- Exposes `unix_time_to_utc()` as a Jinja filter\r\n\r\n**Admin Panel**\r\n\r\n- Migrate Admin Panel from webpack to Vite\r\n- Adds Alpine to Admin Panel for plugins to use to add interactivity\r\n\r\n**Deployment**\r\n\r\n- Update base image to `python:3.11-slim-bookworm`\r\n- Added prefix option to S3 uploader under `AWS_S3_CUSTOM_PREFIX`\r\n  - This allows CTFd to store files under a folder of an S3 bucket\r\n- Raise exception if a built-in config is defined in the extra config section in config.ini\r\n- CTFd will wait for an import to complete before starting\r\n  - This tries to address issues where starting CTFd during an import can interfere with the import\r\n- Add Pillow version 10.1.0 as a dependency\r\n- Update boto3 version to 1.34.39\r\n- Update isort version to 5.13.2\r\n- Update dataset version to 1.6.2"
     },
     "https://github.com/Gu-f/CTFd_chinese_CN": {
-        "created_at": "2019-09-06 07:17:53",
+        "created_at": "2022-02-23 06:40:51",
         "description": "对CTFd平台各版本的汉化记录。key:中文、汉化、翻译、chinese、CN、CTFd",
         "commit_date": "2023-09-16 07:11:09",
         "commit_message": "Update README.md",
@@ -22501,8 +22501,8 @@
         "release_message": ""
     },
     "https://github.com/l3yx/jdwp-codeifier": {
-        "created_at": "",
-        "description": "",
+        "created_at": "2023-11-24 10:46:46",
+        "description": "基于 jdwp-shellifier 的进阶JDWP漏洞利用脚本（动态执行Java/Js代码并获得回显）",
         "commit_date": "2023-12-06 07:45:48",
         "commit_message": "修改README",
         "release_tag": "",
@@ -22772,8 +22772,8 @@
     "https://github.com/mangenotwork/website-monitor": {
         "created_at": "2023-09-12 08:05:25",
         "description": "网站监测平台。支持分布式监控与测试web项目,拥有接口测试,压力测试,渗透测试,请求调试功能,内置dns查询,证书查询,Whois查询,Ping,扫描等工具",
-        "commit_date": "2023-11-09 10:21:58",
-        "commit_message": ".",
+        "commit_date": "2024-03-20 10:01:04",
+        "commit_message": "Merge branch 'main' of https://github.com/mangenotwork/website-monitor into main",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -23742,9 +23742,9 @@
         "release_message": "新增了十几二十个POC吧我并没有细数，更新细节可见于doc/coding.md文件，最近一直忙于项目，空余时间也用在学习JAVA，所以没有什么精力去思考oFx的后续前进方向，如果按照最初批量验证这一期望，那么我已经做到了，接下来只需要勤恳地填充POC即可，但随着POC的增多，我其实不是很满意现在oFx在单个目标漏扫上的表现（速度比较慢），也许我会将oFx单拎出来一个功能，也许是重开一个项目，就像我在每个POC里都有预留attack方法这个伏笔一样（在我看来oFx要实现批量漏洞利用需要一个统一的利用手段标准和痕迹匿名性，总之现在的构思和积累还不成熟，我从不满足于只做简单的漏洞验证），总之拭目以待吧，没有大的更新，我是不会数3的（此处致敬G胖）。"
     },
     "https://github.com/gh0stkey/Web-Fuzzing-Box": {
-        "created_at": "",
-        "description": "",
-        "commit_date": "2023-12-06 03:42:01",
+        "created_at": "2021-01-01 16:21:16",
+        "description": "Web Fuzzing Box - Web 模糊测试字典与一些Payloads，主要包含：弱口令暴力破解、目录以及文件枚举、Web漏洞...",
+        "commit_date": "2024-04-16 11:08:09",
         "commit_message": "Update",
         "release_tag": "",
         "release_date": "",
@@ -26529,8 +26529,8 @@
     "https://github.com/cyberark/KubiScan": {
         "created_at": "2023-06-22 22:01:15",
         "description": "A tool to scan Kubernetes cluster for risky permissions",
-        "commit_message": "Merge pull request #73 from 2niknatan/master\n\nFixing CVE file so the script won't crash",
-        "commit_date": "2024-02-07 11:36:30",
+        "commit_message": "Merge pull request #75 from regevnoam1/CVE-Update\n\nUpdated CVE.json",
+        "commit_date": "2024-05-29 09:10:13",
         "release_date": "2023-06-27 12:48:45",
         "release_message": "\r\n- [Replaced](https://github.com/cyberark/KubiScan/commit/b2985817691c366567e5cdcf93339f33f32f135c) Added support to match case match case with if else to support Python versions below 3.10 (#69 by @kamal2222ahmed)\r\n- Failed chmod when not specifying AWS info (#66 & #67 by @elreydetoda)\r\n- Adding support to AKS and options to CVE scan (#65 by @2niknatan)\r\n- Adding CVE scan and unittest (#64 by @2niknatan)\r\n- Adding flags (`-o`, `-q`, `-j` and `-nc`) to enhance the output (#63 by @2niknatan)\r\n- Changing the risky pods function  (#62 by @2niknatan)\r\n- Adding unit tests (#55 by @2niknatan)\r\n- Supporting eks in docker container (#54 by @2niknatan)\r\n- Printing error message when no kind was entered to '-aars' flag (#53 by @2niknatan)\r\n- Fixing duplicates in '-rp' flag (#52  & #50)\r\n- Fix typo in api_client.py (#51 by @AlonBenHorin)\r\n- Fixing '-rp' flag by adding logic so it can print several Service Accounts (#49 by @2niknatan)\r\n- Adding [secret creation to support version](https://github.com/cyberark/KubiScan/commit/194fcaf026b3e9f56fdf9a2f9e0867d621ff5191) +1.24\r\n- Fixing hang in some environments (#47 by @2niknatan)\r\n- Fixing the path to '/opt/kubiscan/config_bak' like in the Dockerfile (#46 by @2niknatan)\r\n- Adding an environment variable to docker file, fixing -td flag and catching exceptions and adding tag to docker image (#45 by @2niknatan)\r\n- [Update docker_run.sh](https://github.com/cyberark/KubiScan/commit/f71e71062112bac38dab57ce8811432379d6dc0e) \r\n- Adding catch exception and fix non existing key bug (#41 by @AlonBenHorin)\r\n- Fixing pull request #18 and adding bash script to run a container (#40 by @AlonBenHorin)\r\n- Minor [change](https://github.com/cyberark/KubiScan/commit/70faf47530cd488c46cb655f2d5ceee701ef7801) in the check for running inside a container\r\n- Added [support](https://github.com/cyberark/KubiScan/commit/c97d268de36ec964503e64ff9ff48130144bf4fd) to kubeconfig in the API client (by @g3rzi)\r\n- Simplify dockerfile + Parameterize paths (#18 by @vidbina)  \r\n\r\n"
     },
@@ -27074,7 +27074,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "20.55.46.112属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "20.75.94.35属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
@@ -27301,8 +27301,8 @@
         "description": "十大网盘搜索引擎 - 凌风云"
     },
     "https://censys.io/": {
-        "status_code": 503,
-        "description": "Site is offline"
+        "status_code": 200,
+        "description": "Attack Surface Management and Threat Hunting Solutions | Censys"
     },
     "https://www.whois.com/whois/": {
         "status_code": 200,
