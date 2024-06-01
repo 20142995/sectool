@@ -1201,7 +1201,7 @@
         "release_message": ""
     },
     "https://github.com/ghealer/GUI_Tools": {
-        "created_at": "2021-09-06 14:07:05",
+        "created_at": "2022-01-10 07:24:50",
         "description": "一个由各种图形化渗透工具组成的工具集",
         "commit_date": "2023-04-03 02:20:44",
         "commit_message": "Update README.md",
@@ -1210,13 +1210,13 @@
         "release_message": "关于 CobaltStrike4.3 存在后门一事的情况说明\r\n- 收到反馈工具包内 CobaltStrike4.3 存在后门情况，工具下载于某苁，下载完未进行后门审查，可能存在未知安全风险，建议所有已安装人员删除旧版本，并进行全盘查杀病毒。\r\n- 修复办法：将工具包内 CobaltStrike4.3 删除，使用火绒或其他病毒查杀软件进行全盘病毒查杀，并监测系统进程与网络连接情况，发现异常进程及连接及时清理；下载 V1.1 更新包进行替换。再次建议在虚拟机里运行本程序下的工具\r\n\r\n[关于 MDUT 里面存在的\"后门\" hta 文件](https://www.yuque.com/u21224612/nezuig/sxmhkz)\r\n\r\n2022年1月10日 V1.1（重大安全风险，强制更新）\r\n- 删除 CobaltStrike4.3\r\n- 删除 CobaltStrike4.3 插件，后续会以文库的形式更新插件包\r\n- 删除 Burp_Suite_Professional_v2021.8\r\n- 新增原版 CobaltStrike4.4 ，破解方式为[CSAgent](https://github.com/Twi1ight/CSAgent)\r\n- 新增原版 BurpSuite_Pro_v2021.10.3 ，破解方式为[BurpLoaderKeygen](https://github.com/h3110w0r1d-y/BurpLoaderKeygen)"
     },
     "https://github.com/ExpLangcn/InfoSearchAll": {
-        "created_at": "",
-        "description": "",
-        "commit_date": "2023-06-20 09:06:26",
+        "created_at": "2022-06-09 10:38:30",
+        "description": "为了方便安全从业人员在使用网络测绘平台进行信息搜集时的效率，本程序集合了多个网络测绘平台，可以快速在多个网络测绘平台搜索信息并且合并展示及导出。",
+        "commit_date": "2023-11-29 06:39:39",
         "commit_message": "Update README.md",
         "release_tag": "",
-        "release_date": "",
-        "release_message": ""
+        "release_date": "2022-06-16 08:39:08",
+        "release_message": "**2022.6.16**\r\n\r\n- 多线程查询 - 修复卡顿问题 #1 \r\n- 统一语法支持 #2 \r\n- 多语法组合查询支持 #2 \r\n- JDK8适配 #6 \r\n\r\n**注：由于三个平台的部分语法不同，所以无法统一查询，例如你可以使用FOFA的语法进行查询，但是你使用了Quake没有的语法那么就不会显示Quake的结果，其他平台同理，程序默认使用FOFA语法，你在搜索框输入FOFA语法，程序会转换成其他平台的语法进行联合查询，当然你也可以使用其他平台语法。**"
     },
     "https://github.com/axcheron/pyvmx-cracker": {
         "created_at": "2018-10-03 21:53:36",
@@ -1792,7 +1792,7 @@
     "https://github.com/wyzxxz/aksk_tool": {
         "created_at": "2021-07-05 10:21:36",
         "description": "AK资源管理工具，阿里云/腾讯云/华为云/AWS/UCLOUD/京东云/百度云/七牛云存储  AccessKey AccessKeySecret，利用AK获取资源信息和操作资源，ECS/CVM/E2/UHOST/ECI/BCC执行命令，OSS/COS/S3/BOS管理，RDS/DB管理，域名管理，添加RAM/CAM/IAM账号等",
-        "commit_date": "2023-04-24 09:21:41",
+        "commit_date": "2024-05-21 02:58:17",
         "commit_message": "Update README.md",
         "release_tag": "",
         "release_date": "",
@@ -3444,7 +3444,7 @@
         "release_message": ""
     },
     "https://github.com/gyyyy/ZoomEye-go": {
-        "created_at": "2021-01-21 10:22:58",
+        "created_at": "2021-03-11 07:51:56",
         "description": "The Golang SDK and CLI of ZoomEye@Knownsec by gyyyy.",
         "commit_date": "2021-03-31 08:51:25",
         "commit_message": "add: version and history command",
@@ -3643,7 +3643,7 @@
         "release_message": ""
     },
     "https://github.com/liamg/traitor": {
-        "created_at": "2021-01-24 10:50:15",
+        "created_at": "2022-03-09 13:56:22",
         "description": ":arrow_up: :skull_and_crossbones: :fire: Automatic Linux privesc via exploitation of low-hanging fruit e.g. gtfobins, pwnkit, dirty pipe, +w docker.sock",
         "commit_date": "2023-03-07 22:06:41",
         "commit_message": "Create antispam.yml (#113)",
@@ -3881,7 +3881,7 @@
         "release_message": ""
     },
     "https://github.com/KimJun1010/WeblogicTool": {
-        "created_at": "2023-04-16 11:49:15",
+        "created_at": "2023-07-06 16:05:15",
         "description": "WeblogicTool，GUI漏洞利用工具，支持漏洞检测、命令执行、内存马注入、密码解密等（深信服深蓝实验室天威战队强力驱动）",
         "commit_date": "2023-07-06 16:05:15",
         "commit_message": "Update README.md",
@@ -3890,10 +3890,10 @@
         "release_message": "更新记录\r\n\r\n- 修复CVE_2020_14882特殊环境下漏报问题\r\n- 修复CVE_2018_2894工作目录路径问题"
     },
     "https://github.com/aquasecurity/kube-hunter": {
-        "created_at": "2018-07-18 14:39:06",
+        "created_at": "2022-05-13 09:49:12",
         "description": "Hunt for security weaknesses in Kubernetes clusters",
-        "commit_date": "2022-09-04 06:39:33",
-        "commit_message": "update logo (#520)",
+        "commit_date": "2024-03-19 12:30:55",
+        "commit_message": "fix: resolved severity discrepancy between kube-hunter report and docs for khv043 (#551)",
         "release_tag": "v0.6.8",
         "release_date": "2022-05-18 11:07:11",
         "release_message": "Remove scapy usage (#500)\r\n\r\n* removed arp and dns hunters usage due to it's violations of the scapy GPL2 license\r\n\r\n* added installation of arp and dns hunters to Dockerfile\r\n\r\n* added explicit new version to plugins in dockerfile installation\r\n\r\n* ignore B020 flake8\r\n\r\nFix: Removed automatic import of handler object (#506)\r\n\r\n* removed automatic import of handler object in events package and renamed handler.py to event_handler.py to solve name collision"
@@ -5546,8 +5546,8 @@
     "https://github.com/lele8/SharpDBeaver": {
         "created_at": "2023-07-11 09:22:34",
         "description": "DBeaver数据库密码解密工具",
-        "commit_date": "2023-07-11 09:46:13",
-        "commit_message": "first commit",
+        "commit_date": "2023-11-29 07:50:48",
+        "commit_message": "Add specified custom path",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -5598,7 +5598,7 @@
         "release_message": ""
     },
     "https://github.com/Rvn0xsy/PassDecode-jar": {
-        "created_at": "2021-07-29 08:51:36",
+        "created_at": "2021-07-29 08:52:34",
         "description": "帆软/致远密码解密工具",
         "commit_date": "2021-07-29 08:52:34",
         "commit_message": "first commit",
@@ -5837,8 +5837,8 @@
     "https://github.com/sml2h3/dddd_trainer": {
         "created_at": "2022-01-25 02:52:24",
         "description": "ddddocr训练工具",
-        "commit_date": "2022-09-26 07:26:52",
-        "commit_message": "Update __init__.py",
+        "commit_date": "2023-09-26 03:46:44",
+        "commit_message": "添加ddddocr beta版的checkpoint以供大佬们研究",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -6425,10 +6425,10 @@
         "release_message": "修改上一版本无法爆破key有概率失败问题，原因是pyjwt库的特性headers头部无法默认顺序无法修改，需要修改pyjwt源码一部分内容。参考链接：https://blog.csdn.net/m0_46261074/article/details/104165261"
     },
     "https://github.com/frankthetank-music/Acropalypse-Multi-Tool": {
-        "created_at": "2023-05-08 14:09:26",
+        "created_at": "2023-05-30 14:27:31",
         "description": "Easily detect and restore Acropalypse vulnerable PNG and GIF files with simple Python GUI.",
-        "commit_date": "2023-05-30 14:38:32",
-        "commit_message": "Update README.md",
+        "commit_date": "2024-03-27 13:22:48",
+        "commit_message": "added Docker instructions to README.md",
         "release_tag": "v1.0.0",
         "release_date": "2023-05-30 14:29:19",
         "release_message": "Initial Release of the Acropalypse Multi Tool:\r\n\r\nEasily restore PNG and GIF files that have fallen victim to the Acropalypse CVE from 2023. This all-in-one solution effectively recovers image data accidentially stored in cropped screenshots by Google Pixel phones or Windows Snipping Tool, and can search and detect vulnerable images within local folders.\r\n\r\nCVE-2023-28303 https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-28303\r\nCVE-2023-21036 https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-21036"
@@ -7372,7 +7372,7 @@
         "release_message": ""
     },
     "https://github.com/hvqzao/burp-wildcard": {
-        "created_at": "2020-12-28 18:33:35",
+        "created_at": "2015-08-28 21:10:28",
         "description": "Burp extension intended to compact Burp extension tabs by hijacking them to own tab.",
         "commit_date": "2020-12-28 18:33:35",
         "commit_message": "Adding support to new themes",
@@ -15187,13 +15187,13 @@
         "release_message": "增加UUID免杀方法"
     },
     "https://github.com/gh0stkey/CaA": {
-        "created_at": "2020-12-02 06:55:56",
+        "created_at": "2024-04-23 09:06:06",
         "description": "CaA - BurpSuite Collector and Analyzer",
-        "commit_date": "2022-09-30 09:17:43",
-        "commit_message": "Version: 0.5 Update",
+        "commit_date": "2024-05-06 03:37:50",
+        "commit_message": "Update issue templates",
         "release_tag": "0.5",
-        "release_date": "2022-09-30 09:20:03",
-        "release_message": "CaA 0.5 更新内容：\r\n1. 重定义配置文件路径为当前用户根目录下的CaA目录。"
+        "release_date": "2024-04-23 09:44:42",
+        "release_message": "CaA Beta 0.9 更新内容：\r\n1. 优化SQLite数据库操作性能；\r\n2. 新增Fuzzer - Value - Rename功能。"
     },
     "https://github.com/3gstudent/List-RDP-Connections-History": {
         "created_at": "2018-03-15 00:07:16",
@@ -16791,7 +16791,7 @@
         "release_message": ""
     },
     "https://github.com/ReFirmLabs/binwalk": {
-        "created_at": "2013-11-15 20:45:40",
+        "created_at": "2023-02-01 16:15:53",
         "description": "Firmware Analysis Tool",
         "commit_date": "2023-02-01 16:15:53",
         "commit_message": "Merge pull request #617 from QKaiser/fix-pfs-path-traversal\n\nfix path traversal in PFS extractor script",
@@ -19038,7 +19038,7 @@
         "release_message": ""
     },
     "https://github.com/ilmila/J2EEScan": {
-        "created_at": "2015-04-01 06:43:44",
+        "created_at": "2021-06-17 05:44:11",
         "description": "J2EEScan is a plugin for Burp Suite Proxy. The goal of this plugin is to improve the test coverage during web application penetration tests on J2EE applications.",
         "commit_date": "2021-06-17 06:38:27",
         "commit_message": "Merge pull request #29 from ilmila/dependabot/maven/junit-junit-4.13.1\n\nBump junit from 4.12 to 4.13.1",
@@ -20799,7 +20799,7 @@
         "commit_message": "Update README.md"
     },
     "https://github.com/zhutougg/LandrayDES": {
-        "created_at": "2020-12-21 06:23:16",
+        "created_at": "2020-12-21 06:54:42",
         "description": "蓝凌OA的前后台密码的加解密工具",
         "release_tag": "V1",
         "release_date": "2020-12-21 06:56:19",
@@ -23967,7 +23967,7 @@
         "release_message": ""
     },
     "https://github.com/ezshine/wxapkg-convertor": {
-        "created_at": "2020-10-31 17:36:28",
+        "created_at": "2021-01-26 02:23:58",
         "description": "一个反编译微信小程序的工具，仓库也收集各种微信小程序/小游戏.wxapkg文件",
         "commit_date": "2021-09-18 02:22:41",
         "commit_message": "Update README.md",
@@ -25848,7 +25848,7 @@
         "release_message": "**v1.1**\r\n>\r\n> 20240307\r\n>\r\n> - 常规安全检查 -> 进程部分添加 OpenArk\r\n> - 常见问题的解决办法部分添加恶意文件被删除章节\r\n>\r\n> 20240306\r\n>\r\n> - 应急响应事件流程的挖矿病毒、远控后门部分添加 OpenArk 工具\r\n> - 应急响应事件流程的挖矿病毒、远控后门、非持续性事件等部分添加内存搜索字符串步骤\r\n> - 常规安全检查阶段添加近期活动检查\r\n> - 系统日志分析部分添加额外的 RDP 相关日志\r\n> - 小技巧章节添加 0x03 内存中搜索字符串章节\r\n> - 常规安全检查 -> 服务程序 -> 注册表部分完善用于二进制签名验证的 Powershell 脚本的实现逻辑\r\n> - 常规安全检查 -> 服务程序 -> 进阶性排查部分完善用于二进制签名验证的 Powershell 脚本的实现逻辑\r\n> - 常规安全检查 -> COM 劫持部分完善用于二进制签名验证的 Powershell 脚本的实现逻辑\r\n> - 常规安全检查 -> Winsock NSP 部分完善用于二进制签名验证的 Powershell 脚本的实现逻辑\r\n>\r\n> 20240305\r\n>\r\n> - 常规安全检查阶段添加 Windows Defender 日志检查\r\n> - 修复 知识点附录 -> 0x10 谁决定计划任务的执行结果章节的文字错误\r\n> - 小技巧 -> 0x01 查找文件章节添加`dir`、`forfiles`、`Powershell` 查找文件以及 `Everything` 语法\r\n> - 知识点附录添加 0x15 Everything 语法\r\n> - 事前准备 -> 0x02 工具准备章节添加 `OpenArk`、`LastActivityView`\r\n>\r\n> 20240304\r\n>\r\n> - 进行部分文字美化，例如将 powershell 修改为 Powershell\r\n>\r\n> 20240206\r\n>\r\n> - 修复挖矿病毒和远控后门章节的寻找恶意样本过程中文字错误\r\n> - 威胁分析部分将 PCHunter 修改为安芯网盾未知威胁文件检测系统"
     },
     "https://github.com/Tuhinshubhra/CMSeeK": {
-        "created_at": "2020-07-24 21:29:02",
+        "created_at": "2018-06-14 00:15:51",
         "description": "CMS Detection and Exploitation suite - Scan WordPress, Joomla, Drupal and over 180 other CMSs",
         "commit_message": "Merge pull request #171 from h4ckzard/patch-2",
         "commit_date": "2023-07-03 12:17:19",
@@ -27074,7 +27074,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "20.75.94.35属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "172.183.122.157属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
