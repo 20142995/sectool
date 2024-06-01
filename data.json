@@ -580,8 +580,8 @@
     "https://github.com/shadow1ng/fscan": {
         "created_at": "2024-05-11 08:09:14",
         "description": "一款内网综合扫描工具，方便一键自动化、全方位漏扫扫描。",
-        "commit_message": "优化报错处理",
-        "commit_date": "2024-05-11 08:09:14",
+        "commit_message": "降级go-ora到v2.5.29,避免混淆工具编译失败",
+        "commit_date": "2024-05-27 08:00:33",
         "release_date": "2024-05-11 08:51:48",
         "release_message": "小更新，优化报错处理。避免部分扫描模块报错后导致的程序退出\r\nlinux(amd64)默认使用fscan\r\nwindows(x64)默认使用fscan.exe即可"
     },
@@ -1001,7 +1001,7 @@
         "created_at": "2024-04-15 15:55:15",
         "description": "iDefender（冰盾 - 终端主动防御系统）",
         "commit_message": "update",
-        "commit_date": "2024-05-04 13:43:10",
+        "commit_date": "2024-05-27 16:01:33",
         "release_date": "2024-05-04 13:40:56",
         "release_message": "\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n### 4.2.0.0\r\n\r\n主要优化使用体验和BUG修复，重要版本，建议更新！\r\n\r\n- iMonitorSDK\r\n  - 添加进程篡改事件（Process Hollowing、Process Doppelganging、Process Ghosting 等）\r\n  - 添加镜像篡改事件 （傀儡进程、内存篡改）\r\n  - 添加跨进程模块加载事件\r\n  - 优化远程注入（支持识别注入的动态库路径）\r\n  - 文件隐藏支持进程白名单\r\n  - 进程信息添加原始文件名字段\r\n  - 修复自保护导致FontCache打不开被保护进程问题\r\n- 内置规则\r\n  - 添加增强防御忽略名单\r\n  - **添加资源管理器加固（可以拦截APC注入到explorer.exe)**\r\n  - **添加远程线程注入检测（支持识别注入的动态库路径）**\r\n  - 添加进程文件篡改检测\r\n  - 添加远程镜像注入检测\r\n  - 添加进程内存篡改检测\r\n  - 添加父进程伪造检测\r\n  - 修复一些误报\r\n- 第三方规则\r\n  - 精简优化、减少误报\r\n- 拦截记录\r\n  - 日历添加今日按钮\r\n  - 支持记住上次调整的宽度\r\n  - 拦截记录添加信任进程目标组合\r\n- 询问弹窗\r\n  - 修复信任的命令行取错成数字签名问题\r\n  - 优化弹窗速度和位置计算\r\n- 规则编辑\r\n  - 参数支持多选复制\r\n  - 修复操作目标拖曳后导致操作丢失的问题\r\n- 响应动作\r\n  - 添加询问（默认结束进程）选项\r\n- 规则模板\r\n  - 添加屏幕截图模板\r\n  - 添加设备操作拦截模板（高级规则）\r\n- 规则市场\r\n  - **导入的规则支持增量更新（合并信任列表）**\r\n- 其他\r\n  - **添加专业版功能**\r\n  - 优化启动性能\r\n  - 优化规则编辑性能\r\n  - 开启密码保护后，退出需要输入密码\r\n\r\n- 修复和优化\r\n\r\n  - **修复特定场景下内存泄漏问题**\r\n\r\n  - 修复开启密码保护，开机会弹密码框的问题\r\n\r\n  - 修复参数零宽字符导致匹配失败问题\r\n\r\n  - 修复跟360的兼容性问题\r\n\r\n  - 修复数据库被锁导致无法正常写入拦截记录的问题\r\n\r\n  - 进程创建记录详情里面添加命令行\r\n\r\n  - 修复Server2008R2服务管理器列表为空的问题\r\n\r\n  - 修复结束进程过程还有对应进程事件的问题\r\n\r\n  - 优化Classes注册表项的重定向问题\r\n\r\n  - 其他问题修复和使用优化\r\n\r\n\r\n\r\n\r\n\r\n\r\n下载： https://trustsing.com/idefender/#_4-2-0-0\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n"
     },
@@ -4555,8 +4555,8 @@
     "https://github.com/baidu/dperf": {
         "created_at": "2023-10-10 05:07:32",
         "description": "dperf is a 100Gbps network load tester.",
-        "commit_message": "Merge pull request #449 from pengjianzhang/main\n\nneighbor discovery timeout is 60 seconds",
-        "commit_date": "2024-05-20 11:06:01",
+        "commit_message": "Merge pull request #454 from pengjianzhang/main\n\n1. disable ack; 2. configure retransmit timeout",
+        "commit_date": "2024-05-30 07:46:30",
         "release_date": "2023-10-10 05:33:22",
         "release_message": "## v1.6.0 - 2023-10-10\r\n### Added\r\n\r\n- dperf server returns large payload\r\n\r\n- you can use the default l3 or l3l4 rss algorithm\r\n\r\n### Changed\r\n\r\n- minimun local port range(lport_range) can be set to 1\r\n\r\n- optimization: remove useless sockets outside lport_range\r\n\r\n- move docs to dperf.org\r\n\r\n- adjust jumbo MTU\r\n\r\n### Fixed\r\n\r\n- fix: negative number of udp connections\r\n\r\n- print more information when startup fails\r\n    - not enough ports available\r\n    - error message of server ip numbers\r\n\r\n- spelling errors and expression issues\r\n\r\n    thanks digger-yu, CChuancey, zrmin\r\n\r\n- fix: find port id\r\n\r\n- fix: create new connection after \"duration\" time\r\n\r\n    thanks zrgtester\r\n\r\n- fix: http_host or http_path can only be configured when http is enabled\r\n\r\n- fix: dperf make error on dpdk-18.11\r\n\r\n    thanks amberlipp"
     },
@@ -6336,8 +6336,8 @@
     "https://github.com/audacity/audacity": {
         "created_at": "2024-04-24 10:55:07",
         "description": "Audio Editor                                     ",
-        "commit_message": "Reflect changes in source tree",
-        "commit_date": "2024-05-17 19:39:59",
+        "commit_message": "Merge pull request #6560 from igorkorsukov/au4/play_start_indent\n\n[AU4] added indent a starting position",
+        "commit_date": "2024-05-31 21:12:53",
         "release_date": "2024-04-24 16:21:57",
         "release_message": " This is a hotfix release. It fixes the following bugs:\r\n \r\n   * #6322 Fixed a crash on launch on macOS 11 and older.\r\n   * #6324 Fixed the update notification looking for alpha versions instead of release versions.\r\n   * #6321 Fixed a freeze when using macros on multiple files."
     },
@@ -6496,12 +6496,12 @@
         "release_message": "# 更新日志\r\n\r\n- 优化了脚本流程，减少了部分代码\r\n- 增加了校验模块，根据PNG文件头校验是否为PNG图片\r\n- 新增宽高判断，对于宽高正常的PNG图片，做出提示\r\n- 无需再改后缀名，直接导出PNG后缀的文件"
     },
     "https://github.com/ImageMagick/ImageMagick": {
-        "created_at": "2024-05-05 15:53:27",
+        "created_at": "2024-05-25 12:22:12",
         "description": "🧙‍♂️ ImageMagick 7",
-        "commit_message": "Removed fuzzers that check a specific method because they only tend to find issues in decoders.",
-        "commit_date": "2024-05-20 15:45:39",
-        "release_date": "2024-05-05 19:08:31",
-        "release_message": "## What's Changed\n* Fix GIF ICC profile reading. (https://github.com/ImageMagick/ImageMagick/issues/7281) by @njdoyle in https://github.com/ImageMagick/ImageMagick/pull/7282\n* uhdr.c: add support for rgb inputs by @aayushsoni111 in https://github.com/ImageMagick/ImageMagick/pull/7273\n\n\n**Full Changelog**: https://github.com/ImageMagick/ImageMagick/compare/7.1.1-31...7.1.1-32"
+        "commit_message": "Bump azure/trusted-signing-action from 0.3.18 to 0.3.19 (#7348)\n\nBumps [azure/trusted-signing-action](https://github.com/azure/trusted-signing-action) from 0.3.18 to 0.3.19.\r\n- [Release notes](https://github.com/azure/trusted-signing-action/releases)\r\n- [Commits](https://github.com/azure/trusted-signing-action/compare/v0.3.18...v0.3.19)\r\n\r\n---\r\nupdated-dependencies:\r\n- dependency-name: azure/trusted-signing-action\r\n  dependency-type: direct:production\r\n  update-type: version-update:semver-patch\r\n...\r\n\r\nSigned-off-by: dependabot[bot] <support@github.com>\r\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
+        "commit_date": "2024-05-27 04:34:16",
+        "release_date": "2024-05-25 15:33:57",
+        "release_message": "## What's Changed\n* Fix typo by @kmilos in https://github.com/ImageMagick/ImageMagick/pull/7294\n* Bump azure/trusted-signing-action from 0.3.16 to 0.3.18 by @dependabot in https://github.com/ImageMagick/ImageMagick/pull/7325\n* Bump caphyon/advinst-github-action from 1.1 to 2.0 by @dependabot in https://github.com/ImageMagick/ImageMagick/pull/7326\n\n\n**Full Changelog**: https://github.com/ImageMagick/ImageMagick/compare/7.1.1-32...7.1.1-33"
     },
     "https://github.com/Ch1ngg/JWTPyCrack": {
         "created_at": "2019-09-05 07:55:21",
@@ -16081,8 +16081,8 @@
     "https://github.com/projectdiscovery/nuclei-templates": {
         "created_at": "2024-05-23 12:55:11",
         "description": "Community curated list of templates for the nuclei engine to find security vulnerabilities.",
-        "commit_date": "2024-05-28 16:37:06",
-        "commit_message": "Syncing Templates",
+        "commit_date": "2024-05-31 18:30:29",
+        "commit_message": "Auto Template Signing [Fri May 31 18:30:28 UTC 2024] :robot:",
         "release_tag": "v9.6.9",
         "release_date": "2024-05-23 15:02:21",
         "release_message": "### 🔥 Release Highlights 🔥\r\n\r\n- [CVE-2024-0200] Github Enterprise - Authenticated RCE (@iamnoooob, @rootxharsh, @pdresearch) [critical] 🔥\r\n- [CVE-2024-4956] Sonatype Nexus Repository Manager 3 - Local File Inclusion (@ritikchaddha) [high] 🔥\r\n- [CVE-2024-0195] SpiderFlow Crawler Platform - Remote Code Execution (@pussycat0x) [critical] 🔥\r\n- [CVE-2023-43374] Hoteldruid v3.0.5 - SQL Injection (@ritikchaddha) [critical] 🔥\r\n\r\n### What's Changed\r\n#### New Templates Added: `62` | CVEs Added: `16` | First-time contributions: `3`\r\n\r\n- [CVE-2024-33288] Prison Management System - SQL Injection Authentication Bypass (@Kazgangap) [high]\r\n- [CVE-2024-4956] Sonatype Nexus Repository Manager 3 - Local File Inclusion (@ritikchaddha) [high] 🔥\r\n- [CVE-2024-3097] NextGEN Gallery <= 3.59 - Missing Authorization to Unauth Information Disclosure (@DhiyanesDK) [medium]\r\n- [CVE-2024-1561] Gradio Applications - Local File Read (@Diablo) [high]\r\n- [CVE-2024-0200] Github Enterprise - Authenticated RCE (@iamnoooob, @rootxharsh, @pdresearch) [critical] 🔥\r\n- [CVE-2024-0195] SpiderFlow Crawler Platform - Remote Code Execution (@pussycat0x) [critical] 🔥\r\n- [CVE-2023-45855] qdPM 9.2 - Directory Traversal (@DhiyaneshDk) [high]\r\n- [CVE-2023-44813] mooSocial v.3.1.8 - Cross-Site Scripting (@ritikchaddha) [medium]\r\n- [CVE-2023-43374] Hoteldruid v3.0.5 - SQL Injection (@ritikchaddha) [critical] 🔥\r\n- [CVE-2023-36347] POS Codekop v2.0 - Broken Authentication (@princechaddha) [high]\r\n- [CVE-2023-36284] QloApps 1.6.0 - SQL Injection (@ritikchaddha) [high]\r\n- [CVE-2023-35158] XWiki - Cross-Site Scripting (@ritikchaddha) [medium]\r\n- [CVE-2023-29827] Embedded JavaScript(EJS) 3.1.6 - Template Injection (@ritikchaddha) [critical]\r\n- [CVE-2023-6065] Quttera Web Malware Scanner <= 3.4.1.48 - Sensitive Data Exposure (@Kazgangap) [medium]\r\n- [CVE-2023-5991] Hotel Booking Lite < 4.8.5 - Arbitrary File Download & Deletion (@Kazgangap) [critical]\r\n- [CVE-2023-4542] D-Link DAR-8000-10 - Command Injection (@pussycat0x) [critical]\r\n- [CNVD-2017-06001] Dahua DSS - SQL Injection (@napgh0st, @ritikchaddha) [high]\r\n- [softether-vpn-default-login] SoftEther VPN Admin Console - Default Login (@bhutch) [high]\r\n- [ackee-panel] Ackee Panel - Detect (@userdehghani) [info]\r\n- [craftercms-panel] CrafterCMS Login Panel - Detect (@righettod) [info]\r\n- [easyvista-panel] EasyVista Login Panel - Detect (@righettod) [info]\r\n- [f5-next-central-manager] F5 Next Central Manager Panel - Detect (@EgemenKochisarli) [info]\r\n- [ghost-panel] Ghost Panel - Detect (@userdehghani) [info]\r\n- [matomo-panel] Matomo Panel - Detect (@Arr0way, @userdehghani) [info]\r\n- [microfocus-lifecycle-panel] Micro Focus Application Lifecycle Management - Panel (@righettod) [info]\r\n- [n8n-panel] n8n Panel - Detect (@userdehghani) [info]\r\n- [nocodb-panel] NocoDB Panel - Detect (@userdehghani) [info]\r\n- [oracle-ebusiness-panel] Oracle E-Business Suite Login Panel - Detect (@righettod) [info]\r\n- [pocketbase-panel] PocketBase Panel - Detect (@userdehghani) [info]\r\n- [qlikview-accesspoint-panel] QlikView AccessPoint Login Panel - Detect (@righettod) [info]\r\n- [tiny-rss-panel] Tiny RSS Panel - Detect (@userdehghani) [info]\r\n- [unleash-panel] Unleash Panel - Detect (@userdehghani) [info]\r\n- [tpot-honeypot-detect] T-Pot Honeypot - Detect (@rxerium) [info]\r\n- [imgproxy-unauth] Imgproxy Unauthorized Access (@userdehghani) [low]\r\n- [custom-xoops-installer] XOOPS Custom - Installation (@DhiyaneshDK) [high]\r\n- [easy-viserlabs-installer] Easy Installer by ViserLab - Exposure (@DhiyaneshDk) [high]\r\n- [forgejo-installer] Forgejo Installation Page - Exposure (@DhiyaneshDk) [high]\r\n- [froxlor-installer] Froxlor Server Management - Installer (@DhiyaneshDK) [high]\r\n- [growi-installer] GROWI Installer - Exposure (@DhiyaneshDk) [high]\r\n- [ids-skills-installer] IDP Skills Installer - Exposure (@DhiyaneshDk) [high]\r\n- [moosocial-installer] mooSocial Installation - Exposure (@ritikchaddha) [high]\r\n- [octoprint-installer] OctoPrint Installation Page - Exposure (@DhiyaneshDk) [high]\r\n- [openfire-setup] Openfire Setup - Exposure (@DhiyaneshDk) [high]\r\n- [phpmyfaq-installer] phpMyFAQ Installation - Exposure (@ritikchaddha) [high]\r\n- [qloapps-installer] QloApps - Installation (@ritikchaddha) [high]\r\n- [trilium-notes-installer] Trilium Notes Installer - Exposure (@DhiyaneshDk) [high]\r\n- [wiki-js-installer] Wiki.js Setup - Exposure (@DhiyaneshDk) [high]\r\n- [xbackbone-installer] XBackBone Installer - Exposure (@DhiyaneshDk) [high]\r\n- [unigui-server-monitor-exposure] UniGUI Server Monitor Panel - Exposure (@serrapa) [low]\r\n- [apache-answer-detect] Apache Answer - Detection (@omranisecurity) [info]\r\n- [boa-web-server] Boa Web Server - Detect (@johnk3r) [info]\r\n- [craftercms-detect] CrafterCMS - Detect (@righettod) [info]\r\n- [imgproxy-detect] Imgproxy Detect (@userdehghani) [info]\r\n- [meilisearch-detect] Meilisearch - Detect (@userdehghani) [info]\r\n- [microfocus-iprint-detect] Micro Focus iPrint Appliance - Detect (@righettod) [info]\r\n- [statamic-detect] Statamic - Detect (@geeknik) [info]\r\n- [tinyproxy-detect] Tinyproxy - Detect (@bhutch) [info]\r\n- [uni-gui-framework] UniGUI Framework - Detect (@serrapa) [info]\r\n- [wp-bricks-builder-theme] WordPress Bricks Builder Theme Version (@Anonymous) [info]\r\n- [castel-digital-sqli] Castel Digital - Authentication Bypass (@Kazgangap) [high]\r\n- [tendat-credential] Tendat Router Credential - Exposure (@pussycat0x) [high]\r\n- [checkpoint-firewall-enum] Check Point Firewall - Detect (@pussycat0x) [info]\r\n\r\n## New Contributors\r\n* @x676f64 made their first contribution in https://github.com/projectdiscovery/nuclei-templates/pull/9690\r\n* @Ahsraeisi made their first contribution in https://github.com/projectdiscovery/nuclei-templates/pull/9793\r\n* @jmac774 made their first contribution in https://github.com/projectdiscovery/nuclei-templates/pull/9844\r\n\r\n**Full Changelog**: https://github.com/projectdiscovery/nuclei-templates/compare/v9.8.6...v9.8.7"
@@ -25602,8 +25602,8 @@
     "https://github.com/zaproxy/zaproxy": {
         "created_at": "2024-05-07 17:05:30",
         "description": "The ZAP core project",
-        "commit_message": "Merge pull request #8496 from thc202/fix/variantpath-ex",
-        "commit_date": "2024-05-20 19:18:06",
+        "commit_message": "Merge pull request #8507 from thc202/hsqldb/update",
+        "commit_date": "2024-05-31 10:45:07",
         "release_date": "2024-05-07 17:39:14",
         "release_message": "Release notes: https://www.zaproxy.org/docs/desktop/releases/2.15.0/\r\n\r\n---\r\n| File | Checksum (SHA-256) |\r\n|---|---|\r\n| [ZAP_2.15.0.dmg](https://github.com/zaproxy/zaproxy/releases/download/v2.15.0/ZAP_2.15.0.dmg) | `ae025403e46cdefff013cd0c3b88d8edc5a183a76daa63cb62c7c629005337a5` |\r\n| [ZAP_2.15.0_aarch64.dmg](https://github.com/zaproxy/zaproxy/releases/download/v2.15.0/ZAP_2.15.0_aarch64.dmg) | `4426253f4702bbd5fb4779bcf4d62490b2c10ec851c4ebc94ced8f156d2e5509` |\r\n| [ZAP_2.15.0_Core.zip](https://github.com/zaproxy/zaproxy/releases/download/v2.15.0/ZAP_2.15.0_Core.zip) | `e3cf30ad526e4f3fb8a228e1d5e02da0389b2ec7436b989bb28f959703380bf5` |\r\n| [ZAP_2.15.0_Crossplatform.zip](https://github.com/zaproxy/zaproxy/releases/download/v2.15.0/ZAP_2.15.0_Crossplatform.zip) | `05d3932a1affb0ab7987664677134709982ca3837a0b0f0e16f9aeb391933341` |\r\n| [ZAP_2.15.0_Linux.tar.gz](https://github.com/zaproxy/zaproxy/releases/download/v2.15.0/ZAP_2.15.0_Linux.tar.gz) | `6410e196baab458a9204e29aafb5745fca003a2a6c0386f2c6e5c04b67621fa7` |\r\n| [ZAP_2_15_0_unix.sh](https://github.com/zaproxy/zaproxy/releases/download/v2.15.0/ZAP_2_15_0_unix.sh) | `3d976a197b7f71c52c8b8b2e9f06b988384845fb854b637ebb8be0e4cb38112f` |\r\n| [ZAP_2_15_0_windows-x32.exe](https://github.com/zaproxy/zaproxy/releases/download/v2.15.0/ZAP_2_15_0_windows-x32.exe) | `114953f29647a5e4e5774b338f2271d6149711e9222e0b92b11be3a35b812478` |\r\n| [ZAP_2_15_0_windows.exe](https://github.com/zaproxy/zaproxy/releases/download/v2.15.0/ZAP_2_15_0_windows.exe) | `28b348dd65116ddabbbbd98b7f84864a0bb0f98d656266f2f08bfd010ae51c57` |\r\n| [bom.json](https://github.com/zaproxy/zaproxy/releases/download/v2.15.0/bom.json) | `04f3e148aaa406cd7f31f2be8d3ef282e16e852233da85de13aacb3a173f4740` |\r\n"
     },
@@ -27074,7 +27074,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "20.172.29.189属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "172.200.207.2属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
@@ -28011,8 +28011,8 @@
     "https://github.com/javaweb-sec/javaweb-sec": {
         "created_at": "2021-03-22 07:29:49",
         "description": null,
-        "commit_message": "修改oss URL",
-        "commit_date": "2024-05-08 07:02:36"
+        "commit_message": "修改图片URL地址",
+        "commit_date": "2024-05-28 07:07:04"
     },
     "https://github.com/santoru/shcheck": {
         "created_at": "2024-05-17 20:32:27",
@@ -28187,8 +28187,8 @@
         "release_message": "Please consult the [Upgrade notes in the documentation ](https://documentation.defectdojo.com/getting_started/upgrading/) for specific instructions for this release, and general upgrade instructions. Below is an automatically generated list of all PRs merged since the previous release.\r\n\r\n## Changes since 2.34.3\r\n- :bug: fix SARIF, issue #10191 @manuel-sommer (#10200)\r\n- :bug: reset description in progpilot after each finding @manuel-sommer (#10210)\r\n\r\n## 🐛 Bug Fixes\r\n\r\n- Test_Import: Correct exception for multiple findings in the same object @Maffooch (#10226)\r\n\r\n## 🖌 Updates in UI\r\n\r\n- Make endpoint names visible in reports @dogboat (#10230)\r\n"
     },
     "https://gitee.com/gy071089/SecurityManageFramwork": {
-        "status_code": 200,
-        "description": "SecurityManageFramwork: 企业内网安全管理平台，可用于企业内部的安全管理。 本平台旨在帮助安全人员少，业务线繁杂，周期巡检困难，自动化程度低的甲方，更好的实现企业内部的安全管理。  新版已发布"
+        "status_code": 502,
+        "description": "502 Bad Gateway"
     },
     "https://rasp.baidu.com": {
         "status_code": 200,
@@ -28249,8 +28249,8 @@
         "description": "The Zeek Network Security Monitor"
     },
     "https://gitee.com/freshday/radar": {
-        "status_code": 200,
-        "description": "radar: 实时风控引擎(Risk Engine)，自定义规则引擎(Rule Script)，完美支持中文，适用于反欺诈(Anti-fraud)应用场景，开箱即用！！！移动互联网时代的风险管理利器，你 Get 到了吗？"
+        "status_code": 502,
+        "description": "502 Bad Gateway"
     },
     "https://www.la-samhna.de/": {
         "status_code": 200,
