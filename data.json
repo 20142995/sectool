@@ -1641,8 +1641,8 @@
     "https://github.com/xzajyjs/ThunderSearch": {
         "created_at": "2023-09-12 17:45:36",
         "description": "小而美【支持Fofa、Shodan、Hunter、Zoomeye、Quake网络空间搜索引擎】闪电搜索器；GUI图形化(Mac/Windows)渗透测试信息搜集工具；资产搜集引擎；hw红队工具hvv",
-        "commit_date": "2024-04-13 11:18:37",
-        "commit_message": "fix tk/tcl bug on Mac",
+        "commit_date": "2024-05-22 02:54:28",
+        "commit_message": "Update requirements.txt",
         "release_tag": "",
         "release_date": "2023-09-12 17:55:11",
         "release_message": "- 新增页面自适应, 针对Windows的HiDPI进行优化\r\n- 完善英文支持\r\n- 修复Mac平台Sonoma中存在的界面卡顿bug\r\n---\r\n- Added page adaptation, optimized for Windows HiDPI\r\n- Improve English support\r\n- Fix the bug in Sonoma on Mac that window elements not responding to the mouse cursor\r\n---\r\n> MD5 (ThunderSearch_darwin_universal.dmg) = 7c07043dadc135c3f662d235a2668a3b\r\nMD5 (ThunderSearch_win.zip) = ab1b385c836a7903d2c2075c37e9feb9\r\nMac版密码: `Hi!j3@/J`\r\npassword of the `dmg` on Mac: `Hi!j3@/J`"
@@ -22919,7 +22919,7 @@
         "release_message": ""
     },
     "https://github.com/SuxueCode/WechatBakTool": {
-        "created_at": "2024-04-20 02:01:11",
+        "created_at": "2023-08-12 01:20:59",
         "description": "基于C#的微信PC版聊天记录备份工具，提供图形界面，解密微信数据库并导出聊天记录。",
         "commit_message": "v0.9.7.5 Release！\n1.支持3.9.10.19版本",
         "commit_date": "2024-04-20 02:01:11",
@@ -25356,7 +25356,7 @@
         "commit_date": "2020-06-21 01:31:59"
     },
     "https://github.com/j3ssie/Osmedeus": {
-        "created_at": "2018-11-10 04:17:18",
+        "created_at": "2024-04-04 11:59:37",
         "description": "A Workflow Engine for Offensive Security",
         "commit_message": "v4.6.4: Update dependencies",
         "commit_date": "2024-04-04 11:59:37",
@@ -27074,7 +27074,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "172.200.207.2属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "172.183.132.24属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
@@ -28187,8 +28187,8 @@
         "release_message": "Please consult the [Upgrade notes in the documentation ](https://documentation.defectdojo.com/getting_started/upgrading/) for specific instructions for this release, and general upgrade instructions. Below is an automatically generated list of all PRs merged since the previous release.\r\n\r\n## Changes since 2.34.3\r\n- :bug: fix SARIF, issue #10191 @manuel-sommer (#10200)\r\n- :bug: reset description in progpilot after each finding @manuel-sommer (#10210)\r\n\r\n## 🐛 Bug Fixes\r\n\r\n- Test_Import: Correct exception for multiple findings in the same object @Maffooch (#10226)\r\n\r\n## 🖌 Updates in UI\r\n\r\n- Make endpoint names visible in reports @dogboat (#10230)\r\n"
     },
     "https://gitee.com/gy071089/SecurityManageFramwork": {
-        "status_code": 502,
-        "description": "502 Bad Gateway"
+        "status_code": 200,
+        "description": "SecurityManageFramwork: 企业内网安全管理平台，可用于企业内部的安全管理。 本平台旨在帮助安全人员少，业务线繁杂，周期巡检困难，自动化程度低的甲方，更好的实现企业内部的安全管理。  新版已发布"
     },
     "https://rasp.baidu.com": {
         "status_code": 200,
@@ -28249,8 +28249,8 @@
         "description": "The Zeek Network Security Monitor"
     },
     "https://gitee.com/freshday/radar": {
-        "status_code": 502,
-        "description": "502 Bad Gateway"
+        "status_code": 200,
+        "description": "radar: 实时风控引擎(Risk Engine)，自定义规则引擎(Rule Script)，完美支持中文，适用于反欺诈(Anti-fraud)应用场景，开箱即用！！！移动互联网时代的风险管理利器，你 Get 到了吗？"
     },
     "https://www.la-samhna.de/": {
         "status_code": 200,
