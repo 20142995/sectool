@@ -20784,8 +20784,8 @@
     "https://github.com/ffffffff0x/f8x": {
         "created_at": "2022-09-03 18:18:17",
         "description": "红/蓝队环境自动化部署工具 | Red/Blue team environment automation deployment tool",
-        "commit_message": "update awvs",
-        "commit_date": "2024-03-25 02:20:14",
+        "commit_message": "add pupy_custom_port(2024/05/31)",
+        "commit_date": "2024-05-31 09:30:41",
         "release_date": "2022-09-03 18:37:29",
         "release_message": "### [1.6.2] - 2022-9-4\r\n\r\n**兼容性**\r\n* 支持 CentOS 9 Stream\r\n* 支持 Fedora 36\r\n\r\n**功能添加**\r\n* -k 选项添加 iprange/dnsx/MoreFind\r\n* 添加 -wpscan 选项\r\n* 添加 -cs45 选项\r\n* 添加 -interactsh 选项\r\n* 添加 -merlin 选项\r\n* 添加 -msf 选项\r\n* 添加 -pupy 选项\r\n* 添加 -rg 选项\r\n* 添加 -sliver 选项\r\n* 添加 -sliver-client 选项\r\n* 添加 -sps 选项\r\n* 添加 -TerraformGoat 选项\r\n* 添加 -TerraformGoat 选项\r\n* 添加 -upgrade 选项\r\n\r\n**功能修改与优化**\r\n* 优化对docker环境的判断\r\n* 添加了对ruby的检测\r\n* 优化了对keytool工具的判断"
     },
@@ -26301,7 +26301,7 @@
         "release_message": ""
     },
     "https://github.com/charonlight/RuoYiExploitGUI": {
-        "created_at": "2024-03-03 13:00:06",
+        "created_at": "2024-03-03 13:01:32",
         "description": "若依最新定时任务SQL注入可导致RCE漏洞的一键利用工具",
         "commit_message": "Update README.md",
         "commit_date": "2024-03-03 13:01:32",
@@ -27074,7 +27074,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "172.183.132.24属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "20.55.46.112属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
@@ -27301,8 +27301,8 @@
         "description": "十大网盘搜索引擎 - 凌风云"
     },
     "https://censys.io/": {
-        "status_code": 200,
-        "description": "Attack Surface Management and Threat Hunting Solutions | Censys"
+        "status_code": 503,
+        "description": "Site is offline"
     },
     "https://www.whois.com/whois/": {
         "status_code": 200,
@@ -27821,7 +27821,7 @@
         "commit_date": "2022-10-08 07:14:02"
     },
     "https://github.com/httpie/cli": {
-        "created_at": "2023-05-19 21:41:26",
+        "created_at": "2012-02-25 12:39:13",
         "description": "🥧 HTTPie CLI  — modern, user-friendly command-line HTTP client for the API era. JSON support, colors, sessions, downloads, plugins & more.",
         "commit_message": "Re-add conditional colorama dependency\n\n#1553",
         "commit_date": "2024-03-18 15:53:23",
