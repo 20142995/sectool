@@ -3231,8 +3231,8 @@
         "release_message": ""
     },
     "https://github.com/komomon/Komo": {
-        "created_at": "",
-        "description": "",
+        "created_at": "2022-09-27 07:23:05",
+        "description": "🚀Komo, a comprehensive asset collection and vulnerability scanning tool. Komo 一个综合资产收集和漏洞扫描工具，集成了20余款工具，通过多种方式对子域进行获取，收集域名邮箱，进行存活探测，域名指纹识别，域名反查ip，ip端口扫描，web服务链接爬取并发送给xray，对web服务进行POC漏洞扫描，对主机进行主机漏洞扫描。",
         "commit_date": "2023-11-30 12:31:13",
         "commit_message": "Update requirement.txt",
         "release_tag": "",
@@ -6058,7 +6058,7 @@
     },
     "https://github.com/private-null/Intranet-tools": {
         "created_at": "2023-09-14 06:36:09",
-        "description": "",
+        "description": null,
         "commit_date": "2023-09-15 04:31:07",
         "commit_message": "Add files via upload",
         "release_tag": "",
@@ -12126,13 +12126,13 @@
         "release_message": ""
     },
     "https://github.com/A-D-Team/grafanaExp": {
-        "created_at": "2021-12-07 15:11:34",
+        "created_at": "2024-03-28 08:42:15",
         "description": "A exploit tool for Grafana Unauthorized arbitrary file reading vulnerability (CVE-2021-43798), it can burst plugins / extract secret_key / decrypt data_source info automatic.",
-        "commit_date": "2023-11-07 02:48:45",
-        "commit_message": "add source code",
+        "commit_date": "2024-03-28 08:42:15",
+        "commit_message": "fix bug and rebuild it",
         "release_tag": "V1.1",
-        "release_date": "2021-12-08 13:29:24",
-        "release_message": "1. fix https \r\n2. add darwin elf\r\n3. add bypass nginx"
+        "release_date": "2024-03-28 08:46:27",
+        "release_message": "1. fix macos binary\r\n2. add windows / darwin_arm binary\r\n3. fix code path error"
     },
     "https://github.com/wudicainiao/proxyshell-for-exchange_workload": {
         "created_at": "2021-08-25 06:06:28",
@@ -22703,12 +22703,12 @@
         "release_message": "# 2024-05-15\r\n\r\n![PyPI](https://img.shields.io/badge/Pypi-v24.5.15-brightgreen)\r\n\r\n## 🐛 修复\r\n\r\n- 修复「爱奇艺」签到失效的问题\r\n"
     },
     "https://github.com/Safe3/CVS": {
-        "created_at": "",
-        "description": "",
+        "created_at": "2023-12-26 10:44:17",
+        "description": "Powerful and customizable vulnerability scanner based on VDSL, which can replace Nessus or Nuclei, etc. 万象通用漏洞扫描器，支持强大的PoC脚本语言、先进易用的PoC开发和调试IDE、现代化无需等待OOB服务器。可替代Nessus和Nuclei等漏洞扫描产品。",
         "commit_date": "2023-12-26 10:44:17",
         "commit_message": "Update VDSL_CN.md",
         "release_tag": "",
-        "release_date": "",
+        "release_date": "2023-12-30 11:48:27",
         "release_message": ""
     },
     "https://github.com/twindb/undrop-for-innodb": {
@@ -22762,12 +22762,12 @@
         "release_message": ""
     },
     "https://github.com/Janhsu/oday": {
-        "created_at": "2024-01-01 22:57:54",
+        "created_at": "2024-02-01 14:34:55",
         "description": "javafx编写的poc管理工具和漏洞扫描的小工具",
         "commit_message": "Update README.md",
-        "commit_date": "2024-02-01 14:34:55",
-        "release_date": "2024-01-30 15:18:01",
-        "release_message": "### 1.3.4更新\r\n\r\n#### 1.又又又修复了一些bug。\r\n\r\n#### 2.增加了几个添加POC时使用的占位关键字：\r\n1.使用HexDecode{{内容}}可在发包时将{{}}内的内容进行16进制数据解码;适配于反序列化等漏洞。如图：\r\n<img width=\"750\" alt=\"image\" src=\"https://github.com/Janhsu/oday/assets/62692103/9abbdffe-9e38-47ba-8146-a0ef22157199\">\r\n\r\n2.使用Base64Decode{{内容}}可在发包时将{{}}内的内容进行base64数据解码;适配于压缩包上传等漏洞。如图：\r\n<img width=\"750\" alt=\"image\" src=\"https://github.com/Janhsu/oday/assets/62692103/702398c2-dbd6-4cb5-b6d4-f41045fc1c07\">\r\n\r\n3.使用{{RequestUrl}}可在发包时替换成当前请求的url;适配于某些需要refer头或者请求路径中需要当前拼接请求URL的情况。如图：\r\n<img width=\"750\" alt=\"image\" src=\"https://github.com/Janhsu/oday/assets/62692103/6b771d48-7fd9-4ab4-a711-e788630f7b9c\">\r\n\r\n4.使用{{RemoteHttpLog}}可在发包时替换成设置里设置的httplog地址。适用于命令执行不回显的情况。如图：\r\n<img width=\"750\" alt=\"image\" src=\"https://github.com/Janhsu/oday/assets/62692103/103358b6-82b5-4526-8190-b0f0cc51a0e4\">\r\n\r\n#### 3.简易的httplog服务在压缩包内，vps上部署即可，使用方式：\r\n<img width=\"742\" alt=\"image\" src=\"https://github.com/Janhsu/oday/assets/62692103/e3f3d0a5-8e6c-437e-bfda-ac60124ed2fe\">\r\n再在设置里填你部署的vps的地址和端口\r\n<img width=\"500\" alt=\"image\" src=\"https://github.com/Janhsu/oday/assets/62692103/0ba9661d-b098-4142-849f-a2cd8d18460d\">\r\n\r\n\r\n#### 4.之前的版本需要修改本地db文件：使用navicat打开db文件，设计oday_config表结构，在request_timeout下面添加httplog_address字段：\r\n<img width=\"785\" alt=\"image\" src=\"https://github.com/Janhsu/oday/assets/62692103/91d2ae79-00a0-4481-a208-21b4a697981d\">\r\n注意，之前的数据表内还有server_address、version_timestamp、finger_timestamp字段，可以直接删除，最后表结构如上图所示即可。"
+        "commit_date": "2024-05-21 11:51:26",
+        "release_date": "2024-05-21 11:45:41",
+        "release_message": "### Oday1.4.2更新\r\n#### 陆陆续续修了一些bug，更新了一些新功能，加了500多个常用OA和CMS的POC和100多个常见指纹\r\n主要更新：\r\n\r\n- 1.指纹库录入格式改变。\r\n- 2.增加了JNDI注入漏洞使用远程ldap检测方法，使用https://github.com/r00tSe7en/JNDIMonitor在VPS进行默认端口的部署，设置里填写VPS的IP即可\r\n- 3.增加了需要请求远程文件的漏洞检测方法，VPS用Python起一个文件服务，将地址填入到设置里即可。\r\n- 4.其他更新不一一列举，大家多多使用鼠标右键点击试试。添加POC时点击感叹号图标有一些提示和例子。\r\n- 5.修了一堆bug，记不得哪些了，不列举了。\r\n\r\n各位师傅的反馈有看到，有些已经修了或者实现了，有些可能我暂时能力无法解决实现，请见谅。。。。。。\r\n至于其他的拉群交流啥的，本人比较社恐，通过github平台交流挺好的。\r\n本人开发水平不专业，难免问题多，再次感谢各位师傅使用提意见提Bug。"
     },
     "https://github.com/mangenotwork/website-monitor": {
         "created_at": "2023-09-12 08:05:25",
@@ -26325,8 +26325,8 @@
     "https://github.com/AabyssZG/Web-SurvivalScan": {
         "created_at": "2023-12-21 06:01:17",
         "description": "对Web渗透项目资产进行快速存活验证",
-        "commit_message": "Update README.md",
-        "commit_date": "2023-12-21 06:01:17",
+        "commit_message": "Update Web-SurvivalScan.py",
+        "commit_date": "2024-04-18 01:51:51",
         "release_date": "2023-12-21 06:02:37",
         "release_message": "# 更新日志\r\n\r\n- 新增支持批量访问固定路径（验证简单漏洞的时候巨有效）\r\n- 优化了部分工作流\r\n\r\n**如果这个工具帮助到了你，欢迎赏个Star~哈哈**"
     },
@@ -27074,7 +27074,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "40.76.119.173属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "4.227.115.1属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
