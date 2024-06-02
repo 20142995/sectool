@@ -4006,8 +4006,8 @@
     "https://github.com/WebGoat/WebGoat": {
         "created_at": "2023-12-05 10:21:15",
         "description": "WebGoat is a deliberately insecure application",
-        "commit_message": "chore: upgrade checkout out to v4 (#1781)",
-        "commit_date": "2024-03-25 21:27:56",
+        "commit_message": "fix: Success if only Smith earn most salary (#1744)\n\n* Update labels\r\n\r\n* Update Java\r\n\r\n* Update Test\r\n\r\n---------\r\n\r\nCo-authored-by: René Zubcevic <rene@zubcevic.com>",
+        "commit_date": "2024-06-01 08:50:38",
         "release_date": "2023-12-05 10:23:50",
         "release_message": "## Version v2023.8 \r\n\r\n### 🚀 New functionality\r\n\r\n- Consistent environment values and url references (#1677)\r\n- Show directly requested file in requests overview\r\n- Show creating time in file upload overview\r\n\r\n ### 🐞 Bug fixes\r\n\r\n- Fix startup message (#1687)\r\n- Fix/state of software supply chain links (#1683)\r\n- Fix WebWolf UI (#1686)\r\n\r\n### 🔄 Technical tasks\r\n\r\n- bump actions/setup-java from 3 to 4 (#1690)\r\n- bump commons-io:commons-io from 2.14.0 to 2.15.1 (#1689)\r\n- bump com.diffplug.spotless:spotless-maven-plugin (#1688)\r\n   \r\n Full change log: https://github.com/WebGoat/WebGoat/compare/v2023.5...v2023.8  \r\n\r\n\r\n Team WebGoat\r\n"
     },
@@ -24412,8 +24412,8 @@
         "description": "魅族安全中心"
     },
     "https://sec.vip.com/": {
-        "status_code": 503,
-        "description": ""
+        "status_code": 200,
+        "description": "VSRC首页-唯品会信息安全中心"
     },
     "https://sec.wacai.com/": {
         "status_code": 200,
@@ -26241,7 +26241,7 @@
         "commit_date": "2016-02-24 10:22:11"
     },
     "https://github.com/sma11new/Pyke-Shiro": {
-        "created_at": "2024-03-12 08:25:39",
+        "created_at": "2024-03-02 00:39:24",
         "description": "复杂请求下的Shiro反序列化利用工具",
         "commit_message": "更新README",
         "commit_date": "2024-03-12 08:37:49",
@@ -27074,7 +27074,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "172.183.52.203属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "40.76.119.173属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
