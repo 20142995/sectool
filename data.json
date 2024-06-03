@@ -1880,8 +1880,8 @@
     "https://github.com/hiroi-sora/Umi-OCR": {
         "created_at": "2024-04-04 09:43:57",
         "description": "OCR software, free and offline. 开源、免费的离线OCR软件。支持截屏/批量导入图片，PDF文档识别，排除水印/页眉页脚，扫描/生成二维码。内置多国语言库。",
-        "commit_message": "新功能：命令行 --screenshot 允许指定屏幕坐标，自动静默截图 (#452)\n示例： umi-ocr --screenshot screen=0 rect=0,100,500,200",
-        "commit_date": "2024-05-24 15:18:56",
+        "commit_message": "修Bug：若原文档已加密，则OCR结果无法保存为PDF文件。",
+        "commit_date": "2024-06-01 10:07:54",
         "release_date": "2024-03-29 13:29:20",
         "release_message": "# 两周年 & 两万星星撒花！\r\n\r\nCelebrating the two-year anniversary of this project and reaching 20k stars!\r\n\r\n<details>\r\n<summary>作者的话</summary>\r\n\r\n两年前，有个人试图寻找一个免费的、无需注册、开箱即用、支持批量处理且不限制数量的OCR软件。可惜，当时没有软件满足他的需求。于是，他一拍脑袋，花了几个日夜，自己写了个软件原型。那就是 Umi-OCR [v1.0](https://github.com/hiroi-sora/Umi-OCR/releases/tag/v1.0) 。\r\n\r\n没想到这个项目还挺受大家欢迎，于是他就一直维护更新下去。在用户的建议下，Umi 的功能越来越丰富，有了截图，现代化UI，二维码，PDF识别，HTTP接口……从1k行代码的小demo，历经两年迭代，到如今20k+行；Umi 逐渐变成一个较为成熟完整的项目。\r\n\r\n未来，Umi 会继续完善现有功能、开发新的功能。受限于作者的业余时间和精力，项目更新的速度可能不会很快，还请给予耐心。本项目始终在稳步前进，历史上大多数Issues反馈和请求，最终都落到了实处。\r\n\r\n（下一步，我将对软件底层的插件机制做出较大的调整和重构，以便为表格识别、图片翻译、原生Linux支持 等大型功能铺平道路。）\r\n\r\n感谢各位用户、开发者、翻译者的支持。感谢我自己的坚持。\r\n\r\n—— by hiroi-sora\r\n\r\n---\r\n\r\n</details>\r\n\r\n\r\n## v2.1.1 主要更新 / Changelog\r\n\r\n- 修复：`Windows7` 及 `核心数<=2的CPU` 无法进行文档识别的Bug。\r\n- 新增：批量文档识别允许指定忽略区域的页数范围。\r\n- 新增：命令行`--path`允许传入多个图片或文件夹。👉[命令行手册](https://github.com/hiroi-sora/Umi-OCR/blob/main/docs/README_CLI.md)\r\n- 新增：新的命令行、HTTP接口：识别/生成二维码图像。👉[HTTP手册](https://github.com/hiroi-sora/Umi-OCR/blob/main/docs/README_HTTP.md)\r\n- 优化：双栏面板会记忆左右折叠状态。\r\n- 完善 繁+英+日 界面本地化翻译。感谢 [翻译人员](https://github.com/hiroi-sora/Umi-OCR?tab=readme-ov-file#%E8%BD%AF%E4%BB%B6%E6%9C%AC%E5%9C%B0%E5%8C%96%E7%BF%BB%E8%AF%91) 。\r\n\r\n<details>\r\n<summary>次要更新：（点击展开）</summary>\r\n\r\n- 新增：命令行新指令 `--output`, `--output_append`, `--clip` 。\r\n- 新增：清空全部识别记录的快捷键。 (#420)\r\n- 新增：截图预览 删除图片显示的选项和快捷键。 (#427)\r\n- 优化：开始菜单/开机自启快捷方式，默认放置于用户目录下，避免请求管理员权限。 (#428)\r\n- 优化：保存双层PDF，在没有新文本写入时的处理逻辑。 (#416)\r\n- 优化：PDF解析时，提取原有文本行的逻辑更准确。\r\n- 修复：Esc取消截图的消息传递错误。 (#402)\r\n- 修复：文档`整页强制OCR`模式下，提高小尺寸页面的渲染精度。\r\n- UI：优化一些提示，修复一些渲染问题，美化一些视觉效果。\r\n\r\n</details>\r\n\r\n#### Windows7 用户注意： [常见问题及修复方法](https://github.com/hiroi-sora/Umi-OCR/issues/447)\r\n\r\n---\r\n\r\n### 配置文件迁移 / Configuration file migration\r\n\r\nUmi-OCR v2 用户升级时，将旧版软件的`UmiOCR-data/.settings`拷贝到新版相同位置即可。\r\n\r\nCopy the `UmiOCR-data/.settings` from the old version of the software to the same location in the new version.\r\n\r\n### 下载说明 / Download Instructions\r\n\r\n不同版本仅OCR引擎插件不同，其它功能完全一致。\r\n均支持 win7 x64 及以上的系统，附带多国语言识别库。\r\n\r\n`.7z.exe`为自解压包，可以用压缩软件打开，也可以在没有安装压缩软件的电脑上直接双击解压。\r\n\r\n### Paddle 引擎插件版\r\n\r\n（性能好，速度快，占用率高，适合高配机器。**不兼容奔腾、赛扬、凌动CPU**）\r\n\r\n**重要提示：如果执行OCR时报错 `0xc0000142`、`[Error] OCR init fail`，大概率是CPU不兼容Paddle，请换用Rapid版本。**\r\n\r\n**Umi-OCR_Paddle_v2.1.0.7z.exe** （129MB）\r\nSHA256: `53e144b07c3ddfc1038e16926912de75c8212840c84cd56713f9e93ecc22e753`\r\n\r\n### Rapid 引擎插件版\r\n\r\n（速度稍慢，内存占用低，适合低配机器，兼容性好）\r\n\r\n**Umi-OCR_Rapid_v2.1.0.7z.exe** （97.1MB）\r\nSHA256: `09f10d04bd1915ad67a76e57e54adad781a295e8bbf64c7a3e7207f056cafee6`\r\n\r\n## 更多插件 / Plugins\r\n\r\n前往 [Umi-OCR_插件仓库](https://github.com/hiroi-sora/Umi-OCR_plugins) ，下载更多OCR插件，获取`离线数学公式识别`等附加功能。\r\n\r\nVisit the [Umi-OCR_Plugins](https://github.com/hiroi-sora/Umi-OCR_plugins) to download more OCR plugins and acquire additional features such as `Offline Mathematical Formula Recognition`.\r\n\r\n---\r\n\r\n更多下载途径： [蓝奏云](https://hiroi-sora.lanzoul.com/s/umi-ocr) | [SourceForge](https://sourceforge.net/projects/umi-ocr/files/v2.1.1/) | [Scoop](https://scoop.sh/#/apps?q=umi-ocr)\r\n\r\n[![Download Umi-OCR](https://a.fsdn.com/con/app/sf-download-button)](https://sourceforge.net/projects/umi-ocr/files/v2.1.1/)"
     },
@@ -3016,8 +3016,8 @@
     "https://github.com/zan8in/afrog": {
         "created_at": "2024-04-30 08:00:52",
         "description": "A Security Tool for Bug Bounty, Pentest and Red Teaming.",
-        "commit_message": "update poc & fix oob ceye validate bug",
-        "commit_date": "2024-05-11 07:12:08",
+        "commit_message": "update readme",
+        "commit_date": "2024-05-30 08:56:51",
         "release_date": "2024-04-30 08:06:32",
         "release_message": "修复一个BUG，该BUG导致在Linux环境内使用 -ap 命令时，指定路径全部转为小写，从而无法正常工作。\r\nFix a bug where the -ap command cannot be used due to all specified paths being converted to lowercase within the Linux environment."
     },
@@ -3916,10 +3916,10 @@
         "release_message": "## Network Flight Simulator v2.5.0 (2023-07-31)\r\n\r\nThis release add a new `cleartext` module, which generates random cleartext traffic on some common ports.\r\n\r\n## Enjoy!\r\n\r\n"
     },
     "https://github.com/aquasecurity/trivy": {
-        "created_at": "2024-05-24 11:30:40",
+        "created_at": "2019-04-11 01:01:07",
         "description": "Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more",
-        "commit_message": "fix: close settings.xml (#6768)\n\nSigned-off-by: guoguangwu <guoguangwug@gmail.com>",
-        "commit_date": "2024-05-24 13:50:34",
+        "commit_message": "chore(deps): bump alpine from 3.19.1 to 3.20.0 in the docker group (#6835)\n\nSigned-off-by: dependabot[bot] <support@github.com>\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
+        "commit_date": "2024-06-02 17:57:31",
         "release_date": "2024-05-24 12:21:40",
         "release_message": "## Changelog\n* c06f467e6 chore: downgrade trivy-checks and trivy-aws\n* df4f7604a build: use main package instead of main.go (#6766)\n* bf7a8ede3 chore(deps): bump the common group across 1 directory with 29 updates (#6756)\n* acb22c60a chore(deps): bump the aws group with 8 updates (#6738)\n* 9a3510ffd chore(deps): bump the docker group with 2 updates (#6739)\n* 7806b37e2 ci: add `generic` dir to deb deploy script (#6636)\n\n"
     },
@@ -7647,8 +7647,8 @@
     "https://github.com/openwall/john": {
         "created_at": "2011-12-16 19:43:47",
         "description": "John the Ripper jumbo - advanced offline password cracker, which supports hundreds of hash and cipher types, and runs on many operating systems, CPUs, GPUs, and even some FPGAs",
-        "commit_message": "Shuffle external mode: Optimization: Don't rewrite unchanged part",
-        "commit_date": "2024-05-27 20:21:07"
+        "commit_message": "Shuffle external mode: Further optimizations for limited length",
+        "commit_date": "2024-05-30 18:33:48"
     },
     "https://github.com/shimmeris/SCFProxy": {
         "created_at": "2021-04-18 11:21:43",
@@ -10158,7 +10158,7 @@
         "created_at": "2020-02-04 09:30:48",
         "description": "致力于成为中文区命中率最高的广告过滤列表，实现精确的广告屏蔽和隐私保护。anti-AD现已支持AdGuardHome，dnsmasq， Surge，Pi-Hole，smartdns等网络组件。完全兼容常见的广告过滤工具所支持的各种广告过滤列表格式",
         "commit_message": "Auto renew the anti-AD list.",
-        "commit_date": "2024-05-25 18:33:57",
+        "commit_date": "2024-06-01 18:34:25",
         "release_date": "2020-02-04 09:32:25",
         "release_message": "- 引入无效域名、无效hosts剔除机制，大幅提升各过滤列表命中率\r\n- 为了更好的支持pi-hole，加入一个新的全域名列表 - `anti-ad-domains.txt`\r\n- 根据网友 [@xlighting2017](https://github.com/privacy-protection-tools/anti-AD/issues/29) 建议，更新surge到新的格式\r\n- 引入数个新的配置参数，对输出结果精确控制\r\n- 若干bug和逻辑修复"
     },
@@ -12883,7 +12883,7 @@
         "created_at": "2011-08-30 06:13:20",
         "description": "Metasploit Framework",
         "commit_message": "automatic module_metadata_base.json update",
-        "commit_date": "2024-05-21 19:15:48"
+        "commit_date": "2024-05-31 17:58:12"
     },
     "https://github.com/PowerDNS/pdns": {
         "created_at": "2013-04-26 11:16:49",
@@ -16081,8 +16081,8 @@
     "https://github.com/projectdiscovery/nuclei-templates": {
         "created_at": "2024-05-23 12:55:11",
         "description": "Community curated list of templates for the nuclei engine to find security vulnerabilities.",
-        "commit_date": "2024-05-31 18:30:29",
-        "commit_message": "Auto Template Signing [Fri May 31 18:30:28 UTC 2024] :robot:",
+        "commit_date": "2024-06-02 18:58:34",
+        "commit_message": "Auto Generated Templates Checksum [Sun Jun  2 18:58:34 UTC 2024] :robot:",
         "release_tag": "v9.6.9",
         "release_date": "2024-05-23 15:02:21",
         "release_message": "### 🔥 Release Highlights 🔥\r\n\r\n- [CVE-2024-0200] Github Enterprise - Authenticated RCE (@iamnoooob, @rootxharsh, @pdresearch) [critical] 🔥\r\n- [CVE-2024-4956] Sonatype Nexus Repository Manager 3 - Local File Inclusion (@ritikchaddha) [high] 🔥\r\n- [CVE-2024-0195] SpiderFlow Crawler Platform - Remote Code Execution (@pussycat0x) [critical] 🔥\r\n- [CVE-2023-43374] Hoteldruid v3.0.5 - SQL Injection (@ritikchaddha) [critical] 🔥\r\n\r\n### What's Changed\r\n#### New Templates Added: `62` | CVEs Added: `16` | First-time contributions: `3`\r\n\r\n- [CVE-2024-33288] Prison Management System - SQL Injection Authentication Bypass (@Kazgangap) [high]\r\n- [CVE-2024-4956] Sonatype Nexus Repository Manager 3 - Local File Inclusion (@ritikchaddha) [high] 🔥\r\n- [CVE-2024-3097] NextGEN Gallery <= 3.59 - Missing Authorization to Unauth Information Disclosure (@DhiyanesDK) [medium]\r\n- [CVE-2024-1561] Gradio Applications - Local File Read (@Diablo) [high]\r\n- [CVE-2024-0200] Github Enterprise - Authenticated RCE (@iamnoooob, @rootxharsh, @pdresearch) [critical] 🔥\r\n- [CVE-2024-0195] SpiderFlow Crawler Platform - Remote Code Execution (@pussycat0x) [critical] 🔥\r\n- [CVE-2023-45855] qdPM 9.2 - Directory Traversal (@DhiyaneshDk) [high]\r\n- [CVE-2023-44813] mooSocial v.3.1.8 - Cross-Site Scripting (@ritikchaddha) [medium]\r\n- [CVE-2023-43374] Hoteldruid v3.0.5 - SQL Injection (@ritikchaddha) [critical] 🔥\r\n- [CVE-2023-36347] POS Codekop v2.0 - Broken Authentication (@princechaddha) [high]\r\n- [CVE-2023-36284] QloApps 1.6.0 - SQL Injection (@ritikchaddha) [high]\r\n- [CVE-2023-35158] XWiki - Cross-Site Scripting (@ritikchaddha) [medium]\r\n- [CVE-2023-29827] Embedded JavaScript(EJS) 3.1.6 - Template Injection (@ritikchaddha) [critical]\r\n- [CVE-2023-6065] Quttera Web Malware Scanner <= 3.4.1.48 - Sensitive Data Exposure (@Kazgangap) [medium]\r\n- [CVE-2023-5991] Hotel Booking Lite < 4.8.5 - Arbitrary File Download & Deletion (@Kazgangap) [critical]\r\n- [CVE-2023-4542] D-Link DAR-8000-10 - Command Injection (@pussycat0x) [critical]\r\n- [CNVD-2017-06001] Dahua DSS - SQL Injection (@napgh0st, @ritikchaddha) [high]\r\n- [softether-vpn-default-login] SoftEther VPN Admin Console - Default Login (@bhutch) [high]\r\n- [ackee-panel] Ackee Panel - Detect (@userdehghani) [info]\r\n- [craftercms-panel] CrafterCMS Login Panel - Detect (@righettod) [info]\r\n- [easyvista-panel] EasyVista Login Panel - Detect (@righettod) [info]\r\n- [f5-next-central-manager] F5 Next Central Manager Panel - Detect (@EgemenKochisarli) [info]\r\n- [ghost-panel] Ghost Panel - Detect (@userdehghani) [info]\r\n- [matomo-panel] Matomo Panel - Detect (@Arr0way, @userdehghani) [info]\r\n- [microfocus-lifecycle-panel] Micro Focus Application Lifecycle Management - Panel (@righettod) [info]\r\n- [n8n-panel] n8n Panel - Detect (@userdehghani) [info]\r\n- [nocodb-panel] NocoDB Panel - Detect (@userdehghani) [info]\r\n- [oracle-ebusiness-panel] Oracle E-Business Suite Login Panel - Detect (@righettod) [info]\r\n- [pocketbase-panel] PocketBase Panel - Detect (@userdehghani) [info]\r\n- [qlikview-accesspoint-panel] QlikView AccessPoint Login Panel - Detect (@righettod) [info]\r\n- [tiny-rss-panel] Tiny RSS Panel - Detect (@userdehghani) [info]\r\n- [unleash-panel] Unleash Panel - Detect (@userdehghani) [info]\r\n- [tpot-honeypot-detect] T-Pot Honeypot - Detect (@rxerium) [info]\r\n- [imgproxy-unauth] Imgproxy Unauthorized Access (@userdehghani) [low]\r\n- [custom-xoops-installer] XOOPS Custom - Installation (@DhiyaneshDK) [high]\r\n- [easy-viserlabs-installer] Easy Installer by ViserLab - Exposure (@DhiyaneshDk) [high]\r\n- [forgejo-installer] Forgejo Installation Page - Exposure (@DhiyaneshDk) [high]\r\n- [froxlor-installer] Froxlor Server Management - Installer (@DhiyaneshDK) [high]\r\n- [growi-installer] GROWI Installer - Exposure (@DhiyaneshDk) [high]\r\n- [ids-skills-installer] IDP Skills Installer - Exposure (@DhiyaneshDk) [high]\r\n- [moosocial-installer] mooSocial Installation - Exposure (@ritikchaddha) [high]\r\n- [octoprint-installer] OctoPrint Installation Page - Exposure (@DhiyaneshDk) [high]\r\n- [openfire-setup] Openfire Setup - Exposure (@DhiyaneshDk) [high]\r\n- [phpmyfaq-installer] phpMyFAQ Installation - Exposure (@ritikchaddha) [high]\r\n- [qloapps-installer] QloApps - Installation (@ritikchaddha) [high]\r\n- [trilium-notes-installer] Trilium Notes Installer - Exposure (@DhiyaneshDk) [high]\r\n- [wiki-js-installer] Wiki.js Setup - Exposure (@DhiyaneshDk) [high]\r\n- [xbackbone-installer] XBackBone Installer - Exposure (@DhiyaneshDk) [high]\r\n- [unigui-server-monitor-exposure] UniGUI Server Monitor Panel - Exposure (@serrapa) [low]\r\n- [apache-answer-detect] Apache Answer - Detection (@omranisecurity) [info]\r\n- [boa-web-server] Boa Web Server - Detect (@johnk3r) [info]\r\n- [craftercms-detect] CrafterCMS - Detect (@righettod) [info]\r\n- [imgproxy-detect] Imgproxy Detect (@userdehghani) [info]\r\n- [meilisearch-detect] Meilisearch - Detect (@userdehghani) [info]\r\n- [microfocus-iprint-detect] Micro Focus iPrint Appliance - Detect (@righettod) [info]\r\n- [statamic-detect] Statamic - Detect (@geeknik) [info]\r\n- [tinyproxy-detect] Tinyproxy - Detect (@bhutch) [info]\r\n- [uni-gui-framework] UniGUI Framework - Detect (@serrapa) [info]\r\n- [wp-bricks-builder-theme] WordPress Bricks Builder Theme Version (@Anonymous) [info]\r\n- [castel-digital-sqli] Castel Digital - Authentication Bypass (@Kazgangap) [high]\r\n- [tendat-credential] Tendat Router Credential - Exposure (@pussycat0x) [high]\r\n- [checkpoint-firewall-enum] Check Point Firewall - Detect (@pussycat0x) [info]\r\n\r\n## New Contributors\r\n* @x676f64 made their first contribution in https://github.com/projectdiscovery/nuclei-templates/pull/9690\r\n* @Ahsraeisi made their first contribution in https://github.com/projectdiscovery/nuclei-templates/pull/9793\r\n* @jmac774 made their first contribution in https://github.com/projectdiscovery/nuclei-templates/pull/9844\r\n\r\n**Full Changelog**: https://github.com/projectdiscovery/nuclei-templates/compare/v9.8.6...v9.8.7"
@@ -27074,7 +27074,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "104.209.211.120属于美国 弗吉尼亚 博伊顿 微软云 数据中心_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "52.238.25.1属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
@@ -27787,8 +27787,8 @@
     "https://github.com/digininja/DVWA": {
         "created_at": "2023-06-11 11:35:15",
         "description": "Damn Vulnerable Web Application (DVWA)",
-        "commit_message": "Update README.md\n\nAdded PHP version requirements.",
-        "commit_date": "2024-05-17 16:56:56",
+        "commit_message": "Merge pull request #636 from basbodart/session-fixation\n\nRegenerate session id only on impossible level",
+        "commit_date": "2024-05-31 13:11:43",
         "release_date": "2023-06-11 11:39:10",
         "release_message": "Easy built in support for containers by @hoang-himself ."
     },
@@ -27845,8 +27845,8 @@
     "https://github.com/ngc660sec/NGCBot": {
         "created_at": "2024-01-02 07:07:54",
         "description": "一个基于✨HOOK机制的微信机器人，支持🌱安全新闻定时推送【FreeBuf，先知，安全客，奇安信攻防社区】，👯Kfc文案，⚡备案查询，⚡手机号归属地查询，⚡WHOIS信息查询，🎉星座查询，⚡天气查询，🌱摸鱼日历，⚡微步威胁情报查询， 🐛美女视频，⚡美女图片，👯帮助菜单。📫 支持积分功能，⚡支持自动拉人，⚡检测广告，🌱自动群发，👯Ai回复，😄自定义程度丰富，小白也可轻松上手！",
-        "commit_message": "删除失效的接口\n\n删除失效的接口",
-        "commit_date": "2024-05-22 07:28:13",
+        "commit_message": "修复拉人进群一点小问题\n\n修复拉人进群一点小问题",
+        "commit_date": "2024-05-28 04:54:34",
         "release_date": "2024-01-02 07:24:40",
         "release_message": "### NGCBot V2.0龙年贺岁版更新！\r\n新增更多功能\r\n更快！更多！更全！\r\n最新请查看Readme\r\n\r\n### 注意：由于新版本采用不同框架，所以不能跟以前版本互通！！\r\n\r\n## 注意：请直接Git代码：https://github.com/ngc660sec/NGCBot.git\r\n## release只提供微信安装包\r\n\r\n"
     },
