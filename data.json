@@ -122,7 +122,7 @@
         "release_message": "### 说明\r\n本次根据Issues提升了依赖PyExecJS的版本，由原先的**PyExecJS 1.5.1**直升到了**PyExecJS2 1.6.1**。\r\n已经安装的用户可以使用`python3 -m pip install -U qsnctf` 进行更新，目前版本为0.0.8.10。\r\n如果在使用过程中有其他的问题，您可使用Issues提交。"
     },
     "https://github.com/jdr2021/wxapkgUnpack": {
-        "created_at": "2023-02-19 17:30:27",
+        "created_at": "2023-02-19 17:34:45",
         "description": "wxapkg解密解包工具，提供C#和wxappUnpacker两个版本的解包，并提取JS中的URL和IP。",
         "commit_date": "2023-02-19 18:06:05",
         "commit_message": "Update README.md",
@@ -739,7 +739,7 @@
         "release_message": "- Generated code coverage metrics\r\n- Added and excluded local `build-scripts` via `.gitignore`\r\n- Formatted recon info/error messages\r\n- Improved the target URL parser\r\n- Refined `isaws()` function"
     },
     "https://github.com/ja9er/Gofreeproxy": {
-        "created_at": "2022-08-26 07:36:32",
+        "created_at": "2022-09-06 02:34:40",
         "description": "自用的动态代理小工具",
         "commit_date": "2023-01-06 03:43:37",
         "commit_message": "Update readme.md",
@@ -1318,13 +1318,13 @@
         "release_message": ""
     },
     "https://github.com/winezer0/passive-scan-client-plus": {
-        "created_at": "2020-12-14 11:04:41",
-        "description": "burpsuite passive-scan-client 插件维护分支",
-        "commit_date": "2023-02-06 03:07:24",
-        "commit_message": "update readme",
+        "created_at": "2024-04-17 08:40:31",
+        "description": "burpsuite passive-scan-client 插件持续维护分支 v2024",
+        "commit_date": "2024-06-02 13:43:56",
+        "commit_message": "Update passive-scan-client.iml",
         "release_tag": "v0.4.12.0",
-        "release_date": "2023-02-02 09:53:04",
-        "release_message": "修改黑名单HOST匹配为黑名单URL匹配，\r\n场景：\r\n1、用于不扫描delete|logout|remove等指定的关键字的url\r\n2、不扫描指定的域名，如google.com\r\n\r\n\r\n添加一个fastjosn2.0版本的psc，仅修改了依赖版本"
+        "release_date": "2024-04-17 08:51:15",
+        "release_message": "移除自动列宽调试代码，该代码仅适合以前的列数，现在会报错"
     },
     "https://github.com/projectdiscovery/subfinder": {
         "created_at": "2024-03-27 21:55:17",
@@ -1488,7 +1488,7 @@
         "release_message": ""
     },
     "https://github.com/weujieytt/HostHeaderAttack": {
-        "created_at": "2022-02-23 13:59:36",
+        "created_at": "2023-04-28 15:04:16",
         "description": "检测host头攻击的Burpsuite被动扫描插件，Burpsuite passive scanning plugin responsible for detecting host header attack",
         "commit_date": "2023-04-28 15:04:16",
         "commit_message": "Update HostAttackScanner.java",
@@ -1701,10 +1701,10 @@
         "release_message": "- 优化：修复 FOFA Pro 无法访问"
     },
     "https://github.com/4ra1n/shell-analyzer": {
-        "created_at": "2023-02-04 07:31:02",
-        "description": "Java内存马查杀GUI工具，实时动态分析，支持本地和远程查杀",
-        "commit_date": "2023-06-03 16:53:13",
-        "commit_message": "Create LICENSE",
+        "created_at": "2023-02-14 08:58:25",
+        "description": "已集成到 jar-analyzer 中 https://github.com/jar-analyzer/jar-analyzer",
+        "commit_date": "2023-12-19 06:05:20",
+        "commit_message": "Update README.md",
         "release_tag": "0.1",
         "release_date": "2023-02-14 09:00:35",
         "release_message": "提供了三个`jar`文件：\r\n- `agent.jar`是核心文件，请保持与`gui.jar`或`remote.jar`同目录\r\n- `gui.jar`是GUI客户端，本地和远程分析都需要\r\n- `remote.jar`用于远程分析，本地分析无需下载"
@@ -1745,7 +1745,7 @@
         "release_message": "Fixed tool selector implementation."
     },
     "https://github.com/BeichenDream/MysqlT": {
-        "created_at": "2019-05-19 15:20:04",
+        "created_at": "2021-01-29 09:26:51",
         "description": "伪造Myslq服务端,并利用Mysql逻辑漏洞来获取客户端的任意文件反击攻击者",
         "commit_date": "2022-04-24 07:53:04",
         "commit_message": "同步",
@@ -1808,10 +1808,10 @@
         "release_message": "Cansina is now a pip package. You can install it through pip."
     },
     "https://github.com/yqcs/heartsk_community": {
-        "created_at": "2022-05-31 07:56:05",
+        "created_at": "2022-05-31 15:24:02",
         "description": "Hearts K-企业资产发现与脆弱性检查工具，自动化资产信息收集与漏洞扫描",
-        "commit_date": "2022-06-15 01:25:33",
-        "commit_message": "update",
+        "commit_date": "2023-12-25 09:51:18",
+        "commit_message": "Update README.md",
         "release_tag": "LOWBUG@Latest",
         "release_date": "2022-06-13 04:57:18",
         "release_message": "Hearts K 代号”LOW BUG“版本发布！！🎉🎉\r\n\r\n1.0.0更新内容：\r\n0x01、UI更新，兼容不同尺寸显示、黑暗皮肤、英、繁体文本\r\n0x02、信息收集初版上线，支持从互联网检索子域名、关键词数据\r\n0x03、脆弱性检测上线，支持扫描子域名、脆弱性目录、资产信息收集、基线检测、Nday验证\r\n0x04、支持自定义JSON、YAML、GO 三种类型插件\r\n0x05、内置测试版License及公钥文件\r\n\r\n1.0.1更新内容：\r\n新增favicon.ico显示\r\n新增插件\r\n优化手机尺寸UI\r\n优化目录扫描UI\r\n优化Linux低权限扫描逻辑\r\n修复资产收集任务创建失败BUG\r\n\r\n1.0.2更新内容：\r\n更新CEL语法\r\n更新UI\r\n修复HTTP代理错误\r\n优化服务端性能\r\n追加更新2022-6-14：修复出现多条主机BUG\r\n...\r\n\r\n联系微信/加群：jiuyan-yqcs\r\n文档及官网：http://heartsk.com/"
@@ -2030,7 +2030,7 @@
         "release_message": "1、修复log4j poc编码问题\r\n2、修复dnslog平台请求错误的问题\r\n3、其他bug修复"
     },
     "https://github.com/CTF-MissFeng/bayonet": {
-        "created_at": "2020-02-15 02:03:04",
+        "created_at": "2020-03-04 13:47:26",
         "description": "bayonet是一款src资产管理系统，从子域名、端口服务、漏洞、爬虫等一体化的资产管理系统",
         "commit_date": "2020-05-16 03:54:09",
         "commit_message": "说明更新",
@@ -2692,8 +2692,8 @@
         "release_message": ""
     },
     "https://github.com/filedescriptor/untrusted-types": {
-        "created_at": "2020-11-15 09:49:44",
-        "description": "",
+        "created_at": "2021-10-12 17:37:56",
+        "description": null,
         "commit_date": "2021-10-12 17:37:56",
         "commit_message": "URL encode settings redirect",
         "release_tag": "1.1.1",
@@ -2728,7 +2728,7 @@
         "release_message": ""
     },
     "https://github.com/shack2/SNETCracker": {
-        "created_at": "2018-09-13 09:31:04",
+        "created_at": "2019-07-15 16:28:18",
         "description": "超级弱口令检查工具是一款Windows平台的弱口令审计工具，支持批量多线程检查，可快速发现弱密码、弱口令账号，密码支持和用户名结合进行检查，大大提高成功率，支持自定义服务端口和字典。",
         "commit_date": "2019-08-01 05:56:13",
         "commit_message": "Update README.md",
@@ -3277,8 +3277,8 @@
     "https://github.com/pablocelayes/rsa-wiener-attack": {
         "created_at": "2014-02-19 07:03:46",
         "description": "A Python implementation of the Wiener attack on RSA public-key encryption scheme.",
-        "commit_date": "2017-02-25 17:52:55",
-        "commit_message": "Merge pull request #3 from hideov/master\n\nchanged recursions into loops to allow 4096-bit moduli",
+        "commit_date": "2024-02-24 15:44:22",
+        "commit_message": "Merge pull request #5 from FanchenBao/fanchen.bao.left_to_right_convergent_and_pytest\n\nFanchen.bao.left to right convergent and pytest",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -4505,7 +4505,7 @@
     "https://github.com/dalinvip/Awesome-ChatGPT": {
         "created_at": "2023-02-06 11:57:37",
         "description": "ChatGPT资料汇总学习，持续更新......",
-        "commit_date": "2023-07-07 02:24:11",
+        "commit_date": "2023-12-12 06:50:10",
         "commit_message": "Update README.md",
         "release_tag": "",
         "release_date": "",
@@ -9283,10 +9283,10 @@
         "release_message": ""
     },
     "https://github.com/ytisf/theZoo": {
-        "created_at": "2014-01-09 18:55:35",
+        "created_at": "2014-12-13 19:52:35",
         "description": "A repository of LIVE malwares for your own joy and pleasure. theZoo is a project created to make the possibility of malware analysis open and available to the public.",
-        "commit_date": "2023-05-06 13:34:51",
-        "commit_message": "Merge pull request #197 from Danik2343/master\n\nFix for Python 3",
+        "commit_date": "2024-04-05 05:49:39",
+        "commit_message": "db -> 1712294860000\n\nDB update to include mustag panda, reddelta, earth praeta, earth krahang, ghoset, lockbit & more",
         "release_tag": "v0.60",
         "release_date": "2014-12-14 15:02:36",
         "release_message": "Change Log for v0.60:\n- Moved DB to SQLite3.\n- Searching overhaul to a freestyle fashion.\n- Fixed \"get\" command.\n- More & more malwares.\n"
@@ -15178,7 +15178,7 @@
         "release_message": ""
     },
     "https://github.com/lengjibo/FourEye": {
-        "created_at": "2020-12-11 01:29:58",
+        "created_at": "2021-01-26 06:21:10",
         "description": "AV Evasion Tool For Red Team Ops",
         "commit_date": "2021-12-08 11:55:14",
         "commit_message": "Update functions.py",
@@ -22581,7 +22581,7 @@
         "release_message": ""
     },
     "https://github.com/zha0gongz1/Three-EyedRaven": {
-        "created_at": "2023-06-24 08:26:28",
+        "created_at": "2023-07-04 10:08:41",
         "description": "内网探测工具(Internal network detection tool that not contain any exploit code)",
         "commit_date": "2023-08-07 10:20:27",
         "commit_message": "SMB服务识别时异常处理",
@@ -24117,7 +24117,7 @@
         "release_message": "release"
     },
     "https://github.com/amaz1ngday/fastjson-exp": {
-        "created_at": "2022-03-15 09:10:12",
+        "created_at": "2022-03-15 09:17:39",
         "description": "fastjson利用，支持tomcat、spring回显，哥斯拉内存马；回显利用链为dhcp、ibatis、c3p0。",
         "commit_date": "2022-03-15 09:51:11",
         "commit_message": "Update README.md",
@@ -27074,7 +27074,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "40.76.119.1属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "52.238.25.54属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
@@ -27573,7 +27573,7 @@
         "description": "Tupper's Formula Tools"
     },
     "https://github.com/Ggasdfg321/shiro_check": {
-        "created_at": "2022-10-01 16:41:29",
+        "created_at": "2023-01-30 03:52:37",
         "description": "批量对存在Shiro框架的目标爆破Key",
         "commit_message": "Update shiro.go",
         "commit_date": "2023-01-30 03:52:37",
