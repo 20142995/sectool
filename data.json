@@ -1058,7 +1058,7 @@
         "release_message": "## What's Changed\n* Revert \"chore(deps): bump axios from 0.21.4 to 0.28.0 in /gui\" by @Gaojianli in https://github.com/v2rayA/v2rayA/pull/1321\n\n\n**Full Changelog**: https://github.com/v2rayA/v2rayA/compare/v2.2.5...v2.2.5.1"
     },
     "https://github.com/silentsignal/burp-text4shell": {
-        "created_at": "2022-10-18 15:07:57",
+        "created_at": "2022-10-18 15:08:41",
         "description": "Text4Shell scanner for Burp Suite",
         "commit_date": "2022-10-27 10:47:36",
         "commit_message": "added gradle-wrapper.jar\n\nthis makes build instructions work after clone without further steps\n\nfixes gh-1, thanks @vikrantk365",
@@ -1817,7 +1817,7 @@
         "release_message": "Hearts K 代号”LOW BUG“版本发布！！🎉🎉\r\n\r\n1.0.0更新内容：\r\n0x01、UI更新，兼容不同尺寸显示、黑暗皮肤、英、繁体文本\r\n0x02、信息收集初版上线，支持从互联网检索子域名、关键词数据\r\n0x03、脆弱性检测上线，支持扫描子域名、脆弱性目录、资产信息收集、基线检测、Nday验证\r\n0x04、支持自定义JSON、YAML、GO 三种类型插件\r\n0x05、内置测试版License及公钥文件\r\n\r\n1.0.1更新内容：\r\n新增favicon.ico显示\r\n新增插件\r\n优化手机尺寸UI\r\n优化目录扫描UI\r\n优化Linux低权限扫描逻辑\r\n修复资产收集任务创建失败BUG\r\n\r\n1.0.2更新内容：\r\n更新CEL语法\r\n更新UI\r\n修复HTTP代理错误\r\n优化服务端性能\r\n追加更新2022-6-14：修复出现多条主机BUG\r\n...\r\n\r\n联系微信/加群：jiuyan-yqcs\r\n文档及官网：http://heartsk.com/"
     },
     "https://github.com/TheKingOfDuck/burpFakeIP": {
-        "created_at": "2019-06-05 07:24:35",
+        "created_at": "2021-09-24 08:11:08",
         "description": "服务端配置错误情况下用于伪造ip地址进行测试的Burp Suite插件",
         "commit_date": "2022-09-29 09:12:23",
         "commit_message": "Update Config.java",
@@ -2323,7 +2323,7 @@
         "release_message": "增加：\r\n1.工具框中增加自定义菜单，可以存放更多工具或者文件\r\n\r\n优化：\r\n1.配置文件采用ini类型，并在工具中提供修改按钮，修改好后重启工具生效。\r\n2.可自定义配置尽量覆盖工具内部所有控件。（相比较上一版）\r\n3.解决分辨率问题，屏幕大小问题，提供控制台调试信息（python  gui.py）参考，方便自己动手调整。"
     },
     "https://github.com/xiaokp7/Tomcat_PUT_GUI_EXP": {
-        "created_at": "2023-03-10 16:26:45",
+        "created_at": "2023-03-13 03:10:05",
         "description": "Tomcat PUT方法任意文件写入（CVE-2017-12615）exp",
         "commit_date": "2023-03-14 07:39:41",
         "commit_message": "Create README.md",
@@ -4941,13 +4941,13 @@
         "release_message": ""
     },
     "https://github.com/hahwul/jwt-hack": {
-        "created_at": "2020-07-02 16:17:09",
+        "created_at": "2024-05-21 14:48:57",
         "description": "🔩 jwt-hack is tool for hacking / security testing to JWT. Supported for En/decoding JWT, Generate payload for JWT attack and very fast cracking(dict/brutefoce)",
-        "commit_date": "2023-05-06 07:33:26",
-        "commit_message": "Update go.yml",
+        "commit_date": "2024-05-21 14:48:57",
+        "commit_message": "Update",
         "release_tag": "v1.1.2",
-        "release_date": "2021-12-24 17:00:39",
-        "release_message": "## Changelog\n\n* 16aece1 tap v1.1.2\n* 2287327 Update test code\n* 2431c56 Update go version\n* 92652fb Update .goreleaser.yml\n* 8c5b38f Merge branch 'main' of https://github.com/hahwul/jwt-hack\n* edb7e60 Fixed CVE-2020-26160\n\n"
+        "release_date": "2024-05-21 15:01:06",
+        "release_message": "## Changelog\r\n* 252aef4 Update go.yml\r\n* f11f27c Update go.mod dependencies\r\n* 8c8db1e Update docker-publish.yml\r\n* 25dce8c Update docker-publish.yml\r\n* 77b785e Update README.md\r\n* e3a2d67 Update README.md\r\n* 69f14ae Update\r\n* 32e486b Update\r\n* 335a7e8 Support Windows ARM64\r\n* 3673d5e Migrate jwt-go to golang-jwt\r\n* 06674f0 Merge pull request #37 from hahwul/bump-to-go-packages\r\n* 814d1ea Merge pull request #34 from isacaya/test\r\n* 6b6c920 Merge pull request #33 from hahwul/bump-to-cosign\r\n* 501b241 Merge pull request #32 from hahwul/dependabot/go_modules/golang.org/x/sys-0.1.0\r\n* ec8cad1 Merge pull request #31 from ScriptIdiot/patch-1\r\n* cea10a3 Create docker-publish.yml\r\n* 6955ce1 Bump to go min go version (1.17 to 1.21)\r\n* c83c10a Bump golang.org/x/sys from 0.0.0-20220114195835-da31bd327af9 to 0.1.0\r\n* b13c58b Add logic related to 'max' flag by @isacaya \r\n* 06fb757 Add arm64 docker image builder\r\n\r\n"
     },
     "https://github.com/hahwul/dalfox": {
         "created_at": "2024-01-28 15:43:33",
@@ -5580,13 +5580,13 @@
         "release_message": "v0.1.2 增加通过txt批量查询\r\n"
     },
     "https://github.com/al0ne/LinuxCheck": {
-        "created_at": "2018-12-17 13:13:16",
+        "created_at": "2024-05-09 16:02:29",
         "description": "Linux应急处置/信息搜集/漏洞检测工具，支持基础配置/网络流量/任务计划/环境变量/用户信息/Services/bash/恶意文件/内核Rootkit/SSH/Webshell/挖矿文件/挖矿进程/供应链/服务器风险等13类70+项检查",
-        "commit_date": "2023-02-16 14:15:27",
-        "commit_message": "Merge pull request #10 from hoochanlon/master\n\nUpdate README.md",
+        "commit_date": "2024-05-09 16:02:29",
+        "commit_message": "Update README.md",
         "release_tag": "V2.3",
-        "release_date": "2021-10-19 12:40:19",
-        "release_message": "更新日期：2021年10月17日\r\n - 添加Ntpclient/WorkMiner/TeamTNT挖矿木马检测\r\n - 添加Rootkit模块检测逻辑\r\n - 添加Python pip投毒检测\r\n - 添加$HOME/.profile查看\r\n - 添加服务器风险检查(Redis)"
+        "release_date": "2024-05-09 16:04:27",
+        "release_message": "更新日志：2024年4月20日\r\n\r\n- 调整输出为Markdown报告\r\n- 弃用ag，还是使用Linux原生的grep命令，避免额外安装\r\n- 优化代码格式，不在每条都要tee -a\r\n- 更新Webshell检测逻辑\r\n- 更新authorized_keys检测逻辑\r\n- 服务器风险检查添加JDWP和Python HTTP Server检查\r\n- 添加Docker 容器检测\r\n- 添加PAM后门检测\r\n- 添加本地报告上传能力，应对批量机器应急的情况。"
     },
     "https://github.com/inconshreveable/ngrok": {
         "created_at": "2013-03-20 09:37:43",
@@ -24412,8 +24412,8 @@
         "description": "魅族安全中心"
     },
     "https://sec.vip.com/": {
-        "status_code": 503,
-        "description": ""
+        "status_code": 200,
+        "description": "VSRC首页-唯品会信息安全中心"
     },
     "https://sec.wacai.com/": {
         "status_code": 200,
@@ -27074,7 +27074,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "20.172.6.166属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "20.51.207.134属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
