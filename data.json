@@ -22621,12 +22621,12 @@
         "commit_date": "2024-01-17 00:16:06"
     },
     "https://github.com/yisier/nps": {
-        "created_at": "2024-02-27 08:57:47",
+        "created_at": "2024-06-01 14:25:27",
         "description": "在 0.26.10 版本的基础上修改而来的 ",
-        "commit_message": "Update README.md",
-        "commit_date": "2024-03-18 05:50:02",
-        "release_date": "2024-02-27 09:06:01",
-        "release_message": "  ***新增***：nps.conf 新增 `tls_bridge_port=8025` 参数，当 `tls_enable=true` 时，nps 会监听8025端口，作为 tls 的连接端口。  \r\n客户端可以选择连接 tls 端口或者非 tls 端口： `npc.exe  -server=xxx:8024 -vkey=xxx` 或 `npc.exe  -server=xxx:8025 -vkey=xxx -tls_enable=true`\r\n  "
+        "commit_message": "v0.26.19",
+        "commit_date": "2024-06-01 14:25:27",
+        "release_date": "2024-06-01 14:46:30",
+        "release_message": " - golang 版本升级到 1.22.\r\n  - 增加自动https，自动将http 重定向（301）到 https.  \r\n  - 客户端命令行方式启动支持多个隧道ID，使用逗号拼接，示例：`npc -server=xxx:8024 -vkey=ytkpyr0er676m0r7,iwnbjfbvygvzyzzt` .\r\n  - 移除 nps.conf 参数 `https_just_proxy` , 调整 https 处理逻辑，如果上传了 https 证书，则由nps负责SSL (此方式可以获取真实IP)，\r\n      否则走端口转发模式（使用本地证书,nps 获取不到真实IP）， 如下图所示。    \r\n    ![image](image/new/https.png)"
     },
     "https://github.com/hoto/jenkins-credentials-decryptor": {
         "created_at": "2019-04-30 16:12:21",
@@ -24412,8 +24412,8 @@
         "description": "魅族安全中心"
     },
     "https://sec.vip.com/": {
-        "status_code": 200,
-        "description": "VSRC首页-唯品会信息安全中心"
+        "status_code": 503,
+        "description": ""
     },
     "https://sec.wacai.com/": {
         "status_code": 200,
@@ -25134,8 +25134,8 @@
         "description": "与佛论禅"
     },
     "http://www.factordb.com/index.php": {
-        "status_code": 502,
-        "description": "502 Proxy Error"
+        "status_code": 200,
+        "description": "factordb.com"
     },
     "https://www.sojson.com/encrypt_rabbit.html": {
         "status_code": 200,
@@ -26241,7 +26241,7 @@
         "commit_date": "2016-02-24 10:22:11"
     },
     "https://github.com/sma11new/Pyke-Shiro": {
-        "created_at": "2024-03-12 08:25:39",
+        "created_at": "2024-03-02 00:39:24",
         "description": "复杂请求下的Shiro反序列化利用工具",
         "commit_message": "更新README",
         "commit_date": "2024-03-12 08:37:49",
@@ -27074,7 +27074,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "172.190.111.158属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "20.172.2.111属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
