@@ -10312,7 +10312,7 @@
         "release_message": ""
     },
     "https://github.com/jaeles-project/jaeles": {
-        "created_at": "2023-07-08 08:31:55",
+        "created_at": "2019-11-15 04:57:24",
         "description": "The Swiss Army knife for automated Web Application Testing",
         "commit_date": "2023-08-21 06:43:36",
         "commit_message": "Adding Makefile",
@@ -21027,7 +21027,7 @@
         "commit_message": "Merge pull request #67 from StackExchange/tlim_newmod\n\nREADME.md: Announce new fork"
     },
     "https://github.com/Jrohy/trojan": {
-        "created_at": "2020-02-22 11:28:01",
+        "created_at": "2023-09-24 15:12:14",
         "description": "trojan多用户管理部署程序, 支持web页面管理",
         "release_tag": "v2.15.3",
         "release_date": "2023-09-24 15:13:40",
@@ -22736,13 +22736,13 @@
         "commit_date": "2024-05-27 10:55:24"
     },
     "https://github.com/harlamism/IdaClu": {
-        "created_at": "",
-        "description": "",
-        "commit_date": "2023-12-12 16:05:22",
-        "commit_message": ":ok_hand: IMPROVE: add winapi class sub-plugin",
+        "created_at": "2024-03-09 03:45:07",
+        "description": "IdaClu is a version agnostic IDA Pro plugin for grouping similar functions. Pick an existing grouping algorithm or create your own.",
+        "commit_date": "2024-03-19 08:22:58",
+        "commit_message": ":ok_hand: IMPROVE: add project funding",
         "release_tag": "",
-        "release_date": "",
-        "release_message": ""
+        "release_date": "2024-03-09 22:04:17",
+        "release_message": "### Sub-plugin pack.\r\n\r\n#### Bugfixes\r\n##### general\r\n- incorrect dummy prefix handling\r\n- out of sync filters for _post filter_ sub-plugins\r\n- duplicate function prefixing with \"user\" and \"plugin\" separator symbols\r\n- unable to pick and apply the \"none\" color\r\n- broken prefix parsing resulting in out-of-bounds error (#2)\r\n\r\n##### plugins\r\n- out of sync label change for _post-filter_ sub-plugins\r\n\r\n##### compatibility\r\n- broken filter state in IDA v6.x\r\n\r\n#### Improvements\r\n##### general\r\n- user-defined prefix support\r\n- exclusive prefix filtering UI-toggle (`PREFIXES (E)`)\r\n- prefix and folder usage counters\r\n- enhanced function chunk handling\r\n\r\n##### plugins\r\n- add new _Distinct Prefixes_ sub-plugin to _Filter Analysis_ group\r\n- add new _Yara Rules_ group with _Yara Match_ sub-plugin\r\n- obfuscation detection sub-plugin set merged to _Obfuscation Detection_ group (#1)\r\n- add new _Complex Arithmetic Expressions_ sub-plugin to _Obfuscation Detection_ group\r\n- add wrapper function detection feature to _Xref Analysis/Xref Source_ sub-plugin\r\n- add _Windows API_ classification sub-plugins to _Constant Analysis_ group\r\n"
     },
     "https://github.com/0x7eTeam/0x7eTeamTools": {
         "created_at": "2024-01-24 12:09:42",
@@ -23015,7 +23015,7 @@
         "release_message": "- Gf potential removed\r\n- New API leaks search included\r\n- Fix for dontgo403\r\n- Fix for smuggler"
     },
     "https://github.com/Raghavd3v/CRLFsuite": {
-        "created_at": "2022-03-31 02:23:29",
+        "created_at": "2022-08-16 18:05:29",
         "description": "The most powerful CRLF injection (HTTP Response Splitting) scanner.",
         "commit_date": "2023-10-17 04:27:23",
         "commit_message": "Update README.md",
@@ -23822,8 +23822,8 @@
         "release_message": "## Commits\n- b73e835: update README.md (Y4er)"
     },
     "https://github.com/rm1984/IMAPLoginTester": {
-        "created_at": "",
-        "description": "",
+        "created_at": "2020-12-18 13:58:13",
+        "description": "A simple Python script that reads a text file with lots of e-mails and passwords, and tries to check if those credentials are valid by trying to login on IMAP servers.",
         "commit_date": "2023-12-14 13:13:41",
         "commit_message": "minor fixes",
         "release_tag": "",
@@ -23978,8 +23978,8 @@
     "https://github.com/MvsCode/frps-onekey": {
         "created_at": "2023-10-28 01:47:01",
         "description": " Frps 一键安装脚本&管理脚本",
-        "commit_date": "2023-10-28 01:47:01",
-        "commit_message": "更新 install-frps.sh",
+        "commit_date": "2024-06-02 12:29:33",
+        "commit_message": "Update README.md",
         "release_tag": "v0.53.2",
         "release_date": "2024-04-13 15:30:13",
         "release_message": ""
@@ -25390,12 +25390,12 @@
         "commit_date": "2016-03-10 20:42:27"
     },
     "https://github.com/deepfence/SecretScanner": {
-        "created_at": "2024-01-08 09:59:20",
+        "created_at": "2024-04-25 13:56:48",
         "description": ":unlock: :unlock: Find secrets and passwords in container images and file systems :unlock: :unlock:",
-        "commit_message": "Update dependencies",
-        "commit_date": "2024-01-08 09:59:20",
-        "release_date": "2024-03-15 11:05:20",
-        "release_message": "## What's Changed\r\n* [arm64] arch aware docker build by @tomaszjonak in https://github.com/deepfence/SecretScanner/pull/110\r\n* [arm64] separate build tags from vectorscan ones by @tomaszjonak in https://github.com/deepfence/SecretScanner/pull/111\r\n* [lint] Add golangci-lint automation + fix existing issues by @tomaszjonak in https://github.com/deepfence/SecretScanner/pull/112\r\n* Update go.mod by @aishwaryasabane in https://github.com/deepfence/SecretScanner/pull/114\r\n\r\n## New Contributors\r\n* @tomaszjonak made their first contribution in https://github.com/deepfence/SecretScanner/pull/110\r\n* @aishwaryasabane made their first contribution in https://github.com/deepfence/SecretScanner/pull/114\r\n\r\n**Full Changelog**: https://github.com/deepfence/SecretScanner/compare/v2.0.1...v2.1.1"
+        "commit_message": "update vessel to v0.12.3",
+        "commit_date": "2024-05-06 10:13:12",
+        "release_date": "2024-04-30 10:42:55",
+        "release_message": ""
     },
     "https://github.com/n4xh4ck5/CMSsc4n": {
         "created_at": "2017-06-19 18:29:16",
@@ -27074,7 +27074,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "20.172.2.111属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "20.172.6.166属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
