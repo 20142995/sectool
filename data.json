@@ -1718,7 +1718,7 @@
         "release_message": "## 🔥 Feature\r\n* feat(veinmind-trace): add veinmind-trace plugin for detecting attack trace in container  by @DVKunion in #253 \r\n* feat(veinmind-backdoor): refactor backdoor go plugin  by @ek1ng in #252 \r\n* feat(veinmind-backdoor): add rootkit scan by @l2yyd5 in #256 \r\n\r\n## 📒 Others\r\n* chore(veinmind-backdoor): disabled python plugin and instead of go plugin by @DVKunion in #257 \r\n* chore(libveinmind): update libveinmind 1.9.42 by @DVKunion in #258 \r\n\r\n## 🎉 New Contributors\r\n* @l2yyd5 made their first contribution in #256 \r\n\r\n**Full Changelog**: https://github.com/chaitin/veinmind-tools/compare/v2.1.4...v2.1.5"
     },
     "https://github.com/cdk-team/CDK": {
-        "created_at": "2024-05-19 09:32:53",
+        "created_at": "2020-11-05 09:18:51",
         "description": "📦  Make security testing of K8s, Docker, and Containerd easier.",
         "commit_date": "2024-05-19 09:32:53",
         "commit_message": "Merge pull request #99 from cdk-team/neargle-dev\n\nFeat(tool): add netstat，Like \"netstat -antup\" command.",
@@ -2917,12 +2917,12 @@
         "release_message": ""
     },
     "https://github.com/dbeaver/dbeaver": {
-        "created_at": "2024-05-17 10:04:57",
+        "created_at": "2024-05-30 16:00:59",
         "description": "Free universal database tool and SQL client",
         "commit_message": "CB-5030. Add exception to log (#29269)\n\n* CB-5030.  fix postgres backup handler\r\n---------\r\n\r\nCo-authored-by: kseniaguzeeva <112612526+kseniaguzeeva@users.noreply.github.com>\r\nCo-authored-by: Aleksandr Skoblikov <aleksandr.skoblikov@dbeaver.com>",
         "commit_date": "2024-05-31 10:20:27",
-        "release_date": "2024-05-19 15:22:19",
-        "release_message": "\n                - SQL Editor:\n                    - Smart mode for statement delimiter was improved\n                    - Default option for the setting 'Blank line is statement delimiter' was changed to 'Always'\n                    - Cursor behavior during autocompletion was improved\n                    - Code highlighting issue with a quoted identifier in case of no connection was fixed\n                    - High CPU usage for large script was fixed\n                - Metadata Editor:\n                    - Highlighting for created entities was changed to green\n                    - Virtual foreign keys: reference table container selector was fixed\n                - Database Navigator: CTRL+C and other shortcuts behavior after the application startup were fixed\n                - AI (extension): custom scope performance was improved\n                - General:\n                    - Opening editors for files with special symbols in names was fixed\n                    - Portable distribution of the application was fixed (config files location)\n                    - Licensing for some source files was fixed\n                - Eclipse plugin: new database objects create was fix\n                - Databases\n                    - DuckDB: Spatial data visualization support was added\n                    - Oracle:\n                        - Partition type display was added\n                        - Materialized view refresh was fixed\n                    - SQL Server: Default IDENTITY was changed to (1,1) (thanks to @Sgierek106)\n                    - Vertica: LOOP - END LOOP as a block and DECLARE were added to the syntax analyser\n            "
+        "release_date": "2024-06-02 17:15:23",
+        "release_message": "                Changes since 24.0.5:\r\n                - SQL Editor: issue with extra linefeed during autocompletion was fixed\r\n                - Data Editor: loading data when fast scrolling using the keyboard was fixed\r\n                - Database tasks:\r\n                    - Maximum execution time option was added\r\n                    - Tasks running from non-default workspace was fixed\r\n                - Connectivity:\r\n                    - 'Azure AD' was renamed to 'Microsoft Entra ID'\r\n                    - Links to database support documentation were added for many databases\r\n                    - Automatical termination of the shell command script 'Before connect' was fixed\r\n                - General:\r\n                    - Crash when closing detached editor tab in another window was fixed\r\n                    - 'Restore default' for Metadata read, Client identification settings was fixed\r\n                    - .projects and .settings folders became findable in Projects when the application is used as an Eclipse plugin\r\n                    - Truncated notifications were fixed\r\n                - Projects:\r\n                    - Disconnecting a database from the Project view was fixed\r\n                    - Opening a bookmark after changing the application language was fixed (thanks to @SASUKE38)\r\n                - ERD: loading diagrams for drivers with broken foreign keys support was fixed\r\n                - Database Navigator:\r\n                    - Color of the table statistics was changed to visible in the dark theme and became configurable\r\n                    - Deleting connection option in the context menu was renamed to 'Delete connection'\r\n                - Databases:\r\n                    - CrateDB: table DDL was fixed\r\n                    - Databricks: authentication with personal access token was added\r\n                    - DB2i: procedure creation was fixed\r\n                    - DuckDB: aliases autocompletion was fixed\r\n                    - H2: foreign keys presentation was fixed\r\n                    - Oracle: JSON data type support was improved\r\n                    - PostgreSQL: support of fully qualified names in DDL was fixed\r\n                - Localization:\r\n                    - German localization was updated (thanks to @maxbobse)\r\n            "
     },
     "https://github.com/zema1/yarx": {
         "created_at": "2021-11-11 09:43:21",
@@ -6299,12 +6299,12 @@
         "release_message": ""
     },
     "https://github.com/WerWolv/ImHex": {
-        "created_at": "2024-03-23 09:15:12",
+        "created_at": "2024-06-03 20:22:33",
         "description": "🔍 A Hex Editor for Reverse Engineers, Programmers and people who value their retinas when working at 3 AM.",
-        "commit_message": "git: remove unused name matrix parameter from Ubuntu builds (#1701)",
-        "commit_date": "2024-05-23 13:57:44",
-        "release_date": "2024-03-23 10:06:55",
-        "release_message": "## Improvements\r\n- ImHex properly enters low power mode on Linux again now\r\n- Unifont characters are now being loaded at their native size to make them crisp like the Western characters\r\n- The splash screen is not being scaled weirdly anymore now\r\n- Added a hint when the advanced data information section didn't yield any result\r\n\r\n## Bug Fixes\r\n- Fixed linking to libyara. This should resolve issues with e.g the AUR version not starting anymore\r\n- Fixed issues with the auto updater on Windows\r\n- Fixed view providers not being saved to project files correctly\r\n- Fixed highlighting not updating correctly when changing Bookmark regions\r\n- Fixed crash upload setting not being disabled correctly when choosing \"Deny\" in the initial popup\r\n- Fixed custom base address issues with the data inspector and copy as array options\r\n- Fixed advanced data information not showing up correctly\r\n- Fixed selection being removed sometimes when right clicking it\r\n- Fixed infinite loop when exporting a selection to a file\r\n- Fixed control characters ending up in log files\r\n- Fixed a crash when opening an unopenable file\r\n\r\n## Pattern Language\r\n- Fixed various issues with the virtual file system\r\n- Fixed data decompression functions not extracting the entire data\r\n\r\n# Previous Changelog\r\n\r\n![image](https://github.com/WerWolv/ImHex/assets/10835354/57bfaec2-779e-4701-b1a5-f03da7815da3)\r\n\r\n## Additions\r\n- **All main menu entries now have pretty icons**\r\n- **Added Myers' diffing algorithm to the diff view**\r\n    - This algorithm can display insertions and removals as well as modifications\r\n    - Huge thanks to the maintainer of Malcat!\r\n- **Added option to customize toolbar icons**\r\n- **Added a much improved Out of the Box experience when first starting up ImHex**\r\n- **Added many new hash algorithms**\r\n    - This includes basic sum checksums, Snefru, Haval, various SHA versions, Keccak, RIPEMD, many CRC presets and many more\r\n- **Greatly improved the data information view**\r\n    - Sections can now be switched on and off\r\n    - Magic information now includes more than one entry if there's multiple concatenated files\r\n    - The Digram and Layered distribution graphs now perform a lot better\r\n    - There's now built-in yara rules that are being run on files to detect compilers, programming languages and more for executables\r\n- **Greatly improved the pattern editor**\r\n    - Thanks a lot to @paxcut \r\n    - This adds support for find and replace, better highlighting and many other smaller things\r\n- **Added Mini Map to the Hex Editor**\r\n    - This can be enabled by clicking on the map icon in the hex editor footer\r\n    - There's also config options when right clicking that icon\r\n- **Added `Edit -> Jump to -> Pattern` option to jump directly from hex editor highlights to patterns**\r\n    - Clicking on patterns in the pattern data view also jumps to their definition in the pattern editor now\r\n- **Added a font picker to the settings**\r\n- **Added option to highlight parent pattern regions in the hex editor when hovering over them**\r\n- Added support for searching for other string encodings and endianess. Thanks a lot to @PerikiyoXD \r\n- Added a pretty drag-n-drop overlay when dragging files onto ImHex\r\n- Added support for virtual file systems through the pattern language\r\n- Added option to keep ImHex always on top of other windows\r\n- Added option to use ImHex in fullscreen mode\r\n- Added support for switching to other providers through the command palette\r\n- Added a setting to always show all provider tabs, even if there's only one\r\n- Added option to export a selection to a file\r\n- Added a comments column to the pattern data view. It can be enabled by right clicking on the table header and selecting it there\r\n- Added option to turn off borderless window mode\r\n- Added option to export the results of the find view to a file\r\n- Added option to disable command palette button in header\r\n- Added a search bar to the file chooser popup\r\n- Added support for opening multiple files at once\r\n- Added support for macOS's Right click -> Open with option\r\n\r\n## Improvements\r\n- **ImHex now uses Atomic File I/O instead of mapping files into memory**\r\n    - This solves various issues where certain files couldn't be opened, files on network drives not working well and more\r\n- **macOS M1 build now only requires macOS 12.1 instead of 14.0 to run**\r\n- Bookmark moving now uses ImGui's native drag n drop feature\r\n- Syncing pattern language source code between providers should work better now\r\n- Custom encodings that don't have multi-byte values now display immediately when selected\r\n- The macOS build now uses a custom titlebar\r\n- ImHex windows are now being unfocused properly if the main window loses focus\r\n    - No more blinking cursors when ImHex is in the background!\r\n- Overwriting individual characters in the edit mode of the hex editor now works much better\r\n- Copy-Paste now works correctly in the Web version of ImHex. Thanks a lot to @exsilium \r\n- The find popup now remembers its content\r\n- The crash restore popup doesn't show anymore now if there's nothing to restore\r\n- Opening the same file multiple times is no longer possible now\r\n\r\n## Bug Fixes\r\n- **Fixed signing issues with macOS builds**\r\n- **Fixed CTRL + S not removing red highlights of bytes**\r\n- Fixed address bound checks in Edit -> Jump to option\r\n- Fixed menu bar collapsing into hamburger menu even if there's enough space\r\n- Fixed RGBA8 data processor node not setting output buffer correctly\r\n- Fixed provider information in information view always showing infos about the current provider instead of about the analyzed provider\r\n- Fixed issues when using certain window management tools on Windows\r\n- Fixed crashes when launching ImHex with file arguments\r\n- Fixed crash when trying to use too many hex editor rows\r\n- Fixed native theme detection of Linux. Thanks to @iTrooz \r\n- Fixed issues where workspaces are not correctly saved sometimes\r\n- Fixed issues where default magic database wasn't being bundled correctly\r\n- Fixed crashes when loading very old settings files\r\n- Fixed data inspector not updating correctly when the underlying data changed\r\n- Fixed a crash when specifying invalid hash parameters in the hashing view\r\n- Fixed additional folder paths not being loaded from the config file correctly\r\n- Fixed data inspector showing two negative signs sometimes\r\n- Fixed various issues with non-zero base addresses\r\n\r\n## Pattern Language\r\n- **Huge refactor of the Preprocessor, Lexer and Parser**\r\n    - Massive thanks to @jumanji144\r\n    - Compile errors are a lot more helpful now and include more context information\r\n- **Added support for `import` statements**\r\n    - Massive thanks to @jumanji144\r\n- **Added stacktrace to runtime errors**\r\n- Patterns can now be placed inside of custom sections from within other types\r\n- Pattern formatters now properly respect a patterns visibility\r\n    - This means hidden patterns don't end up in exported json, yaml or html files anymore\r\n- Fixed writing to big endian bitfield entries\r\n- Changing pattern setting now re-evaluates the code if auto evaluation is enabled\r\n\r\n<br/>\r\n\r\n<p align=\"center\">If you like my work, please consider supporting me on GitHub Sponsors, Patreon or PayPal. Thanks a lot!</p>\r\n<p align=\"center\">\r\n<a href=\"https://github.com/sponsors/WerWolv\"><img src=\"https://werwolv.net/assets/github_banner.png\" alt=\"GitHub donate button\" /> </a>\r\n<a href=\"https://www.patreon.com/werwolv\"><img src=\"https://c5.patreon.com/external/logo/become_a_patron_button.png\" alt=\"Patreon donate button\" /> </a>\r\n<a href=\"https://werwolv.net/donate\"><img src=\"https://werwolv.net/assets/paypal_banner.png\" alt=\"PayPal donate button\" /> </a>\r\n</p"
+        "commit_message": "build: Bumped version to 1.35.0-WIP",
+        "commit_date": "2024-06-03 21:06:28",
+        "release_date": "2024-06-03 20:53:33",
+        "release_message": "## Additions\r\n\r\n- **Added simple insert mode to hex editor**\r\n- **Small files are now loaded into memory**\r\n    - This means other applications can now open files while they're open in ImHex\r\n    - When external changes are detected, ImHex will ask if you want to reload the file\r\n    - For clarification, ImHex always opened files with full share permissions even before but basically no other programs do it so they still complain about the file being locked.\r\n- **Added a new ImHex Logo to the Welcome screen**\r\n- Added Hungarian translations (#1683)\r\n- Updated Simplified Chinese translation (#1610)\r\n- Added plain text and similar bytes regions to byte types diagram\r\n- Added full pattern path to hex editor hover tooltip\r\n- Added Display destination address in goto popup\r\n- Added provider information to search bar hover tooltip\r\n- Added support for shift-selecting multiple find view occurrences\r\n- Added table pattern visualizer\r\n- Added short forms for commonly used CLI commands\r\n- Added `--verbose` command line option to enable debug logs\r\n- Allow workspaces to be deleted the same way as layouts\r\n- Allow full magic analysis, removed unidentified data from magic report\r\n- Added a link to the \"Find\" view in the search popup (#1665)\r\n\r\n- ## Improvements\r\n- Added support for DWM immersive dark mode on Windows (#1636)\r\n- The Window is now less prone to flickering during resizes on Windows\r\n- Double clicking on the title bar in macOS now correctly maximizes the window again (#1689)\r\n- The window now doesn't \"rubber band\" anymore while resizing on macOS (#1690)\r\n- Added warning about using fractional scaling with default font\r\n- Menu bar items now don't collapse entirely anymore if there's not enough space\r\n- Allow providers to be closed quicker after being opened\r\n- The pattern data filter now behaves much more intuitively\r\n- Convert all hex editor popups to floating, movable windows (#1658)\r\n- Don't move hex editor scroll position when jumping to address that's on-screen (#1660)\r\n- The accept pattern popup now opens faster and closes correctly\r\n- Make main menu bar not collapse completely when there's not enough space\r\n- Right click menus now open much faster and feel less sluggish\r\n- Make unsaved changes popup behave more like in other applications\r\n- Better UI and UX for the hex editor footer\r\n\r\n## Bug Fixes\r\n\r\n- Fixed loading custom fonts from paths with unicode characters not working\r\n- Fixed workspaces not being deletable correctly in all cases\r\n- Fixed crash when having path set in user folder settings page\r\n- Fixed icon size being off when using fractional scaling with default font\r\n- Fixed empty tooltip showing when hovering over search bar in welcome screen\r\n- Fixed insert mode cursor not being visible\r\n- Fixed window scaling defaulting to 1.0x instead of Native\r\n- Fixed settings sometimes being reset on shutdown\r\n- Fixed icon text input boxes being wider than expected\r\n- Fixed visual glitches with highlights and selections in the hex editor view\r\n- Fixed loading of custom data processor nodes\r\n- Fixed locking layout not working correctly\r\n- Fixed textEditor line numbers were still partially rendered despite mShowLineNumbers being set to false (#1669)\r\n- Fixed edit -> Jump To -> Current Pattern not always resetting request correctly\r\n- Fixed not being able to close certain modal popups with the close button on the title bar (#1659)\r\n- Fixed multiple file reload popups stacking on top of each other (#1654)\r\n- Fixed text editor cursor not showing up anymore\r\n- Fixed command palette losing focus when pressing Alt\r\n- Fixed frame rate getting unlocked when inputs are being processed (#1632)\r\n- Fixed selectable text behaving weirdly when selecting\r\n- Fixed buffer display data processor node being way too wide\r\n- Fixed exporting selection doesn't export last byte\r\n- Fixed missing window icon under wayland (#1633)\r\n- Fixed cell highlighting in hex editor view overlapping at non-integer scale factors\r\n- Fixed main window being hard to resize when bytes are selected in the hex editor view\r\n- Fixed diff table in diffing view displaying incorrect end address (#1627)\r\n- Fixed store hanging when updating all entries in some cases\r\n- Fixed highlight and tooltip flickering when hovering over highlighted patterns\r\n- Fixed icons not being fractionally scaled anymore\r\n- Fixed settings being overwritten sometimes on crash\r\n- Fixed unifont characters being scaled wrongly\r\n- Fixed settings values being uninitialized by default\r\n- Fixed crash on some platforms due to empty main menu bar\r\n- Fixed memory leak when closing ImHex\r\n- Fixed file changed popup showing up when saving memory mapped file\r\n\r\n## Pattern Language \r\n\r\n- Fixed many many many crashes during parsing\r\n- `in` variable values now persistent between parser runs again\r\n- `out` variable values are now selectable and copyable in pattern editor\r\n- Added support for `#undef`\r\n- Preprocessing now works on a token level instead of on character level which makes it behave much more like expected\r\n- Custom types can now be `null`-initialized\r\n- Added `std::file::create_directories()` function\r\n\r\n<br/>\r\n\r\n<p align=\"center\">If you like my work, please consider supporting me on GitHub Sponsors, Patreon or PayPal. Thanks a lot!</p>\r\n<p align=\"center\">\r\n<a href=\"https://github.com/sponsors/WerWolv\"><img src=\"https://werwolv.net/assets/github_banner.png\" alt=\"GitHub donate button\" /> </a>\r\n<a href=\"https://www.patreon.com/werwolv\"><img src=\"https://c5.patreon.com/external/logo/become_a_patron_button.png\" alt=\"Patreon donate button\" /> </a>\r\n<a href=\"https://werwolv.net/donate\"><img src=\"https://werwolv.net/assets/paypal_banner.png\" alt=\"PayPal donate button\" /> </a>\r\n</p"
     },
     "https://github.com/JarlPenguin/BeCyIconGrabberPortable": {
         "created_at": "2018-05-04 19:26:22",
@@ -6412,8 +6412,8 @@
     "https://github.com/arch3rPro/PST-Bucket": {
         "created_at": "2023-04-24 06:49:11",
         "description": "Scoop-Buket for Penetration Suite Toolkit",
-        "commit_message": "yakit: Update to version 1.3.3-sp1",
-        "commit_date": "2024-05-17 16:31:42"
+        "commit_message": "afrog: Update to version 3.0.6",
+        "commit_date": "2024-06-03 08:30:55"
     },
     "https://github.com/Aiyflowers/JWT_GUI": {
         "created_at": "2023-07-01 07:09:25",
@@ -7669,12 +7669,12 @@
         "release_message": ""
     },
     "https://github.com/locustio/locust": {
-        "created_at": "2024-05-06 15:11:31",
+        "created_at": "2024-05-23 05:46:47",
         "description": "Write scalable load tests in plain Python 🚗💨",
-        "commit_message": "Run make frontend_build PR #2717",
-        "commit_date": "2024-05-21 13:17:02",
-        "release_date": "2024-05-06 15:12:23",
-        "release_message": "## What's Changed\r\n* Small cleanup: mypy type-ignore and dev deps by @tdadela in https://github.com/locustio/locust/pull/2684\r\n* Fix various spelling errors using codespell by @cyberw in https://github.com/locustio/locust/pull/2687\r\n* Allow worker process to run with --run-time specified, just log a warning about it being ignored by @Sawiq in https://github.com/locustio/locust/pull/2685\r\n* fix: Ensure locust does not crash when an User class has no task by @hangonlyra in https://github.com/locustio/locust/pull/2696\r\n* Simplify how locustfiles are found (using -f). Don’t automatically append .py by @DennisKrone in https://github.com/locustio/locust/pull/2655\r\n* Dispatch/user distribution calculation using Kullback-Leibler divergence by @tdadela in https://github.com/locustio/locust/pull/2686\r\n* Use deque for tasks in taskset instead of plain list by @cyberw in https://github.com/locustio/locust/pull/2698\r\n* refactor: replace deprecated utcfromtimestamp function by @tdadela in https://github.com/locustio/locust/pull/2700\r\n* refactor(WindowsKeyPoller): change implementation of captured_chars  by @tdadela in https://github.com/locustio/locust/pull/2701\r\n* annotate return types of a few functions to enable more mypy check by @tdadela in https://github.com/locustio/locust/pull/2702\r\n\r\n## New Contributors\r\n* @Sawiq made their first contribution in https://github.com/locustio/locust/pull/2685\r\n* @hangonlyra made their first contribution in https://github.com/locustio/locust/pull/2696\r\n\r\n**Full Changelog**: https://github.com/locustio/locust/compare/2.26.0...2.27.0"
+        "commit_message": "Fix incorrect error message detection for https requests introduced in 84ada19a22b076ee52060a94561ad3f968251b44",
+        "commit_date": "2024-05-27 17:03:43",
+        "release_date": "2024-05-23 05:47:15",
+        "release_message": "## What's Changed\r\n* Remove legacy UI by @andrewbaldwin44 in https://github.com/locustio/locust/pull/2703\r\n* Logging: Only print hostname instead of FQDN by @cyberw in https://github.com/locustio/locust/pull/2705\r\n* WebUI: update users, spawn_rate, host and run_time in `parsed_options` (for LoadShapes that might access it) by @raulparada in https://github.com/locustio/locust/pull/2656\r\n* Update Stats History on HTML Report by @andrewbaldwin44 in https://github.com/locustio/locust/pull/2709\r\n* Lower log levels for exceptions in flask by @cyberw in https://github.com/locustio/locust/pull/2711\r\n* Stop HTML escaping errors for /stats/requests endpoint by @cyberw in https://github.com/locustio/locust/pull/2710\r\n* Stop quoting error messages an extra time in distributed mode by @cyberw in https://github.com/locustio/locust/pull/2712\r\n* Give better error message if User subclass doesnt call base constructor by @cyberw in https://github.com/locustio/locust/pull/2713\r\n* Dont enable ipv6 for zmq if no ipv6 stack exists by @cyberw in https://github.com/locustio/locust/pull/2715\r\n* Pin the headers to the top of the window by @JavierUhagon in https://github.com/locustio/locust/pull/2717\r\n\r\n## New Contributors\r\n* @raulparada made their first contribution in https://github.com/locustio/locust/pull/2656\r\n* @JavierUhagon made their first contribution in https://github.com/locustio/locust/pull/2717\r\n\r\n**Full Changelog**: https://github.com/locustio/locust/compare/2.27.0...2.28.0"
     },
     "https://github.com/Wh04m1001/IFaultrepElevatedDataCollectionUAC": {
         "created_at": "2022-10-14 21:40:59",
@@ -19789,7 +19789,7 @@
         "release_tag": "2023.2",
         "release_date": "2024-02-16 15:57:18",
         "release_message": "First release of 2024!\r\n🎉 This release includes [multiple updates](https://github.com/danielmiessler/SecLists/compare/2023.4...2024.1) from the community =)\r\n🥇 Thank you everyone <3\r\n\r\nShout-out to: @cosad3s, @molangning, @barisbogdan, @righettod, @davidmcduffie001, @legik, @StellarSand, @zerbaliy3v, @jhaddix, @emmanuel-londono, @Ghoreish , @denandz and @ErdemOzgen.",
-        "commit_date": "2024-05-22 00:19:47",
+        "commit_date": "2024-06-04 00:20:15",
         "commit_message": "[Github Action] Automated trickest wordlists update."
     },
     "https://github.com/maaaaz/impacket-examples-windows": {
@@ -22779,12 +22779,12 @@
         "release_message": ""
     },
     "https://github.com/qiwentaidi/Slack": {
-        "created_at": "2024-05-10 16:31:15",
+        "created_at": "2024-05-30 10:59:27",
         "description": "一款Go Wails实现的渗透测试工具，功能涵盖网站扫描、端口扫描、企业信息收集、空间引擎搜索等，希望能帮助你少让你少开几个应用测试",
-        "commit_message": "1",
-        "commit_date": "2024-05-13 15:20:37",
-        "release_date": "2024-05-10 16:35:30",
-        "release_message": "新增：\r\n1、重构网站扫描功能，目前能够完全适配全运算指纹匹配规则，指纹增加风险等级显示，引擎完全替换成Nuclei外置，使用时需要确保Nuclei正确安装。\r\n2、更新POC和指纹等信息到0.0.5\r\n旧版的指纹规则与POC已舍弃，请移除原有的配置文件确保新的配置文件可以自动更新！！！\r\n\r\n指纹由原来的2000+升级到8000+\r\nPOC由AFROG全面更新为Nuclei\r\n感谢dddd项目的大力支持！！！\r\n2、增加底部面包屑以及将日志功能模块移至底部右侧\r\n\r\n优化：\r\n1、空间引擎批量搜索标签页显示过长\r\n2、原Fscan内容提取模块更名为数据处理，增加数据去重功能\r\n3、JSFinder模块重构界面并新增颜色标注、右键菜单栏功能、爬取增加多线程\r\n4、侧边栏图标及文字增大\r\n5、微信API模块重构页面，并增加部分API查询功能，如查询域名信息等\r\n6、微信公众号查询显示内容优化，可以直接显示LOGO以及公众号二维码\r\n\r\n修复：\r\n1、目录扫描自定义请求头导致程序退出问题\r\n2、微信公众号资产导出时列表头内容不一致问题\r\n3、鹰图前后端ICON搜索MD5不一致问题\r\n4、旧版本解压配置文件差异\r\n\r\n下个版本：\r\n1、会增加端口SYN模式扫描\r\n"
+        "commit_message": "修复反弹shell模块数据显示异常",
+        "commit_date": "2024-05-31 10:46:17",
+        "release_date": "2024-05-30 11:19:19",
+        "release_message": "新增：\r\n1、首页新增导航功能，分为应用导航和在线导航\r\n2、druid session提取功能\r\n3、网站扫描增加WAF检测\r\n4、端口扫描增加syn扫描模式\r\n\r\n优化：\r\n1、编码转换模块更改为调用CyberCher环境，可选择本地或者远程加载\r\n\r\n修复：\r\n1、网站icon请求地址没有正确匹配\r\n2、全漏洞扫描执行命令过长导致无法扫描，已将-t 参数值改为文件夹\r\n3、公司子公司/域名查询为标记响应式数据，导致结果不显示\r\n4、代理池模块表格高度错误\r\n5、FOFA、鹰图在存在两个分页查询时，第一个分页翻页内容会查询出错\r\n6、端口扫描结束按钮状态不发生改变\r\n"
     },
     "https://github.com/horizon3ai/CVE-2023-27524": {
         "created_at": "2023-04-25 04:59:05",
@@ -24101,8 +24101,8 @@
     "https://github.com/tib36/PhishingBook": {
         "created_at": "2023-04-20 11:58:15",
         "description": "红蓝对抗：钓鱼演练资源汇总&备忘录",
-        "commit_date": "2024-05-23 10:20:28",
-        "commit_message": "日常更新",
+        "commit_date": "2024-06-02 06:44:38",
+        "commit_message": "日常整理",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -24227,8 +24227,8 @@
     "https://github.com/jeremylong/DependencyCheck": {
         "created_at": "2024-05-15 09:29:26",
         "description": "OWASP dependency-check is a software composition analysis utility that detects publicly disclosed vulnerabilities in application dependencies.",
-        "commit_message": "fix: skip pyproject.toml unless it contains `tool.poetry` before ensuring lockfiles (#6681)\n\nCo-authored-by: Max Gipson <max.gipson.ctr@teambespin.us>",
-        "commit_date": "2024-05-25 10:51:30",
+        "commit_message": "build(deps): bump org.apache.maven.shared:maven-dependency-tree from 3.2.1 to 3.3.0 (#6706)\n\nSigned-off-by: dependabot[bot] <support@github.com>\r\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
+        "commit_date": "2024-06-03 11:16:07",
         "release_date": "2024-05-15 10:00:16",
         "release_message": "Refer to the [CHANGELOG.md](https://github.com/jeremylong/DependencyCheck/blob/main/CHANGELOG.md#change-log) for information about improvements and upgrade notes."
     },
@@ -25134,8 +25134,8 @@
         "description": "与佛论禅"
     },
     "http://www.factordb.com/index.php": {
-        "status_code": 200,
-        "description": "factordb.com"
+        "status_code": 502,
+        "description": "502 Proxy Error"
     },
     "https://www.sojson.com/encrypt_rabbit.html": {
         "status_code": 200,
@@ -27057,8 +27057,8 @@
         "description": "Find out what websites are built with - Wappalyzer"
     },
     "http://www.skymem.info/": {
-        "status_code": 500,
-        "description": "Internal Server Error"
+        "status_code": 200,
+        "description": "Find email addresses of companies and people - Skymem"
     },
     "https://www.onyphe.io/": {
         "status_code": 200,
@@ -27074,7 +27074,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "52.238.25.54属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "172.190.111.158属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
@@ -27273,8 +27273,8 @@
         "description": "Find Missing Patches"
     },
     "https://www.pan131.com/": {
-        "status_code": 500,
-        "description": "500 Internal Server Error"
+        "status_code": 200,
+        "description": "百度云搜索,百度网盘云盘资源搜索引擎 - 盘131"
     },
     "http://whois.alexa.cn/": {
         "status_code": 200,
@@ -27779,10 +27779,10 @@
     "https://github.com/T4y1oR/RingQ": {
         "created_at": "2024-05-15 10:18:33",
         "description": "一款后渗透免杀工具，助力每一位像我这样的脚本小子快速实现免杀，支持bypass 360 火绒 Windows Defender",
-        "commit_message": "20240528 RingQ v2.0",
-        "commit_date": "2024-05-28 06:11:40",
+        "commit_message": "Update RingQ.exe",
+        "commit_date": "2024-06-02 06:39:11",
         "release_date": "2024-05-11 09:27:43",
-        "release_message": "**具体使用方法 参考README.md**\r\n\r\n2024.05.28 更新两种加载方式，远程加载and绝对路径加载\r\n\r\n2024.05.27 360QVM202报毒 已更新\r\n\r\n2024.05.24 RingQ 360QVM202报毒 已更新，Create火绒报毒 已更新，QVM250失效 已更新\r\n\r\n2024.05.23 360QVM202报毒 已更新，火绒报毒mimikatz 已更新\r\n\r\n2024.05.22 QVM250发布，bypass 360QVM202 持续报毒 生成后的文件多执行几次脚本 (开源项目有效期短)\r\n\r\n2024.05.14-21 360QVM202报毒 已更新，这个报毒自行更换图标，添加签名... 如果持续出现这个问题，多点star出个专项bypass QVM202脚本 Releases新增RingQ.exe原编译出的main.exe文件，方便大家自定义修改降熵\r\n\r\n2024.05.11 项目发布，微步纯绿 企业360云沙箱 火绒 卡巴斯基 没传VT是为了能大家能用久点，大家随意"
+        "release_message": "**具体使用方法 参考README.md**\r\n\r\n**[已开源](https://github.com/T4y1oR/RingQ/tree/main/RingQ)，放心食用，Releases编译后的RingQ.exe是经过bypass QVM202的  ~~帮助懒惰的脚本小子~~**  \r\n\r\n**如不放心可自行编译使用[QVM250](https://github.com/T4y1oR/RingQ/tree/main/QVM250)即可**"
     },
     "https://github.com/digininja/DVWA": {
         "created_at": "2023-06-11 11:35:15",
