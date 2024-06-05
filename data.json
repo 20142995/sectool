@@ -24412,8 +24412,8 @@
         "description": "魅族安全中心"
     },
     "https://sec.vip.com/": {
-        "status_code": 503,
-        "description": ""
+        "status_code": 200,
+        "description": "VSRC首页-唯品会信息安全中心"
     },
     "https://sec.wacai.com/": {
         "status_code": 200,
@@ -26241,7 +26241,7 @@
         "commit_date": "2016-02-24 10:22:11"
     },
     "https://github.com/sma11new/Pyke-Shiro": {
-        "created_at": "2024-03-02 00:39:24",
+        "created_at": "2024-03-12 08:25:39",
         "description": "复杂请求下的Shiro反序列化利用工具",
         "commit_message": "更新README",
         "commit_date": "2024-03-12 08:37:49",
@@ -27074,7 +27074,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "52.234.38.35属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "172.183.53.140属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
@@ -27109,8 +27109,8 @@
         "description": "Subdomain - RapidDNS Rapid DNS Information Collection"
     },
     "http://wooyun.2xss.cc/index.php": {
-        "status_code": 200,
-        "description": "乌云网镜像丨乌云知识库丨Wooyun镜像丨乌云漏洞平台"
+        "status_code": 502,
+        "description": "502 Bad Gateway"
     },
     "http://tools.sbbbb.cn/tiquan/": {
         "status_code": 200,
