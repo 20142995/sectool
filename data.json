@@ -3831,7 +3831,7 @@
         "release_message": ""
     },
     "https://github.com/aquasecurity/kube-bench": {
-        "created_at": "2024-04-18 06:59:19",
+        "created_at": "2017-06-19 13:27:02",
         "description": "Checks whether Kubernetes is deployed according to security best practices as defined in the CIS Kubernetes Benchmark",
         "commit_message": "build(deps): bump golang from 1.22.1 to 1.22.2 (#1596)\n\nBumps golang from 1.22.1 to 1.22.2.\r\n\r\n---\r\nupdated-dependencies:\r\n- dependency-name: golang\r\n  dependency-type: direct:production\r\n  update-type: version-update:semver-patch\r\n...\r\n\r\nSigned-off-by: dependabot[bot] <support@github.com>\r\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
         "commit_date": "2024-05-03 16:35:58",
@@ -22440,12 +22440,12 @@
         "release_message": ""
     },
     "https://github.com/GZTimeWalker/GZCTF": {
-        "created_at": "2024-04-22 19:24:05",
+        "created_at": "2024-06-02 21:03:46",
         "description": "The GZ::CTF project, an open source CTF platform.",
-        "commit_message": "New Crowdin updates (#282)",
-        "commit_date": "2024-04-30 18:33:42",
-        "release_date": "2024-04-22 19:37:03",
-        "release_message": "## [0.19.3](https://github.com/GZTimeWalker/GZCTF/compare/v0.19.2..v0.19.3) - 2024-04-22\r\n\r\n> [!IMPORTANT]\r\n> \r\n>  **BREAK CHANGES (from v0.18): CONFIG CHANGES**\r\n> \r\n> - **I18n Support: use `LC_ALL` instead of `LANG` environment variable**\r\n> - **Observability: support opentelemetry / prometheus / metrics / tracing**\r\n\r\n### 🐛 Bug Fixes\r\n\r\n- **(excel)** deal with `Single` exceptions - ([5947ee](https://github.com/GZTimeWalker/GZCTF/commit/5947ee)) by **GZTime**\r\n- **(frontend)** unable to renew as expected - ([daa9a5](https://github.com/GZTimeWalker/GZCTF/commit/daa9a5)) by **GZTime**\r\n- **(mail)** DO NOT use `IStringLocalizer` after construction - ([fe589a](https://github.com/GZTimeWalker/GZCTF/commit/fe589a)) by **GZTime**\r\n\r\n---\r\n\r\n**Changelog**: https://github.com/GZTimeWalker/GZCTF/blob/HEAD/CHANGELOG.md\r\n**Commits**: https://github.com/GZTimeWalker/GZCTF/compare/v0.19.2...v0.19.3"
+        "commit_message": "chore(ci): use match for tag",
+        "commit_date": "2024-06-03 16:53:52",
+        "release_date": "2024-06-02 21:10:24",
+        "release_message": "## [0.20.6](https://github.com/GZTimeWalker/GZCTF/compare/v0.20.5..v0.20.6) - 2024-06-02\r\n\r\n> [!IMPORTANT]\r\n> \r\n>  ### What's changed\r\n> \r\n> - **Upgrade to v0.20.6 for react-pdf v9.0.0 and pdf-js v4.3.136.**\r\n> - **You can now custom the theme color and logo used by GZCTF!**\r\n> - **Better SEO for your site! Including description & site image!**\r\n> - **Preventing XSS with nonce-based Content-Security-Policy.**\r\n\r\n### ⛰️ Features\r\n\r\n- support docker basic auth - ([12418d](https://github.com/GZTimeWalker/GZCTF/commit/12418d)) by **GZTime**\r\n- darken pdf in dark mode - ([418343](https://github.com/GZTimeWalker/GZCTF/commit/418343)) by **GZTime**\r\n\r\n### 🎨 Styling\r\n\r\n- challenge page - ([a8254e](https://github.com/GZTimeWalker/GZCTF/commit/a8254e)) by **GZTime**\r\n---\r\n\r\n**Changelog**: https://github.com/GZTimeWalker/GZCTF/blob/HEAD/CHANGELOG.md\r\n**Commits**: https://github.com/GZTimeWalker/GZCTF/compare/v0.20.5...v0.20.6"
     },
     "https://github.com/savior-only/Spring_All_Reachable": {
         "created_at": "2022-10-29 03:28:55",
@@ -23007,12 +23007,12 @@
         "release_message": ""
     },
     "https://github.com/six2dez/reconftw": {
-        "created_at": "2024-01-19 13:44:42",
+        "created_at": "2024-06-04 09:30:29",
         "description": "reconFTW is a tool designed to perform automated recon on a target domain by running the best set of tools to perform scanning and finding out vulnerabilities",
-        "commit_message": "Merge pull request #876 from six2dez/dev\n\nFix filename for oshi",
-        "commit_date": "2024-05-02 22:58:15",
-        "release_date": "2024-01-19 13:46:39",
-        "release_message": "- Gf potential removed\r\n- New API leaks search included\r\n- Fix for dontgo403\r\n- Fix for smuggler"
+        "commit_message": "Merge pull request #882 from six2dez/dev\n\nDev",
+        "commit_date": "2024-06-04 09:30:29",
+        "release_date": "2024-06-04 09:38:24",
+        "release_message": "## Highlights\r\n- API leak checks SwaggerSpy and porch-pirate\r\n- 3rd parties misconfigs with misconfig-mapper\r\n- JS sourcemaps check with sourcemapper and jsluice\r\n- IP geolocation info\r\n- oshi.at for sending huge results zip files\r\n- Improved trufflehog detection\r\n- Updated mind map\r\n- IIS short names added\r\n- Password leaks with LeakSearch\r\n- PPfuzz replaced by ppmap\r\n- Brutespray and nomore403 updated\r\n- Nucleus fuzzing parameters\r\n- Added p1radup\r\n\r\n## What's Changed\r\n* fix apileaks by @six2dez in https://github.com/six2dez/reconftw/pull/813\r\n* swaggerspy fix by @six2dez in https://github.com/six2dez/reconftw/pull/814\r\n* swaggerspy output by @six2dez in https://github.com/six2dez/reconftw/pull/816\r\n* Fix capitalization Mantra -> mantra by @kleozzy in https://github.com/six2dez/reconftw/pull/820\r\n* Fix Apileak paths by @kleozzy in https://github.com/six2dez/reconftw/pull/822\r\n* Dev by @six2dez in https://github.com/six2dez/reconftw/pull/823\r\n* Dev by @six2dez in https://github.com/six2dez/reconftw/pull/825\r\n* trufflehog arguments fix by @six2dez in https://github.com/six2dez/reconftw/pull/826\r\n* Dev by @six2dez in https://github.com/six2dez/reconftw/pull/830\r\n* fix geoinfo - git update - web mode by @six2dez in https://github.com/six2dez/reconftw/pull/832\r\n* Dev by @six2dez in https://github.com/six2dez/reconftw/pull/834\r\n* comment by @six2dez in https://github.com/six2dez/reconftw/pull/835\r\n* Dev by @six2dez in https://github.com/six2dez/reconftw/pull/840\r\n* Merge 20240227 by @rt-bast in https://github.com/six2dez/reconftw/pull/838\r\n* Dev by @six2dez in https://github.com/six2dez/reconftw/pull/841\r\n* Fix installer by @six2dez in https://github.com/six2dez/reconftw/pull/843\r\n* push wapiti installer by @six2dez in https://github.com/six2dez/reconftw/pull/844\r\n* Dev by @six2dez in https://github.com/six2dez/reconftw/pull/847\r\n* Dev by @six2dez in https://github.com/six2dez/reconftw/pull/848\r\n* final fix? maybe by @six2dez in https://github.com/six2dez/reconftw/pull/849\r\n* Tool installation fixes mainly by @kleozzy in https://github.com/six2dez/reconftw/pull/853\r\n* Fix brutespray Calling by @kleozzy in https://github.com/six2dez/reconftw/pull/860\r\n* Dev by @six2dez in https://github.com/six2dez/reconftw/pull/861\r\n* Fix nuclei fuzzing by @kleozzy in https://github.com/six2dez/reconftw/pull/862\r\n* fix iis shortname scanner dir creations by @kleozzy in https://github.com/six2dez/reconftw/pull/864\r\n* Optimize vuln scan speed and efficiency by @kleozzy in https://github.com/six2dez/reconftw/pull/866\r\n* fix the fuzzparams function with the -fuzz flag by @j0hnZ3RA in https://github.com/six2dez/reconftw/pull/865\r\n* Dev by @six2dez in https://github.com/six2dez/reconftw/pull/867\r\n* Alot of fixes + ffufpostprocessing by @kleozzy in https://github.com/six2dez/reconftw/pull/868\r\n* Add soft flag for p1radup to allow same host different path by @kleozzy in https://github.com/six2dez/reconftw/pull/869\r\n* Detecting arm systems that are not RPIs by @Marmeus in https://github.com/six2dez/reconftw/pull/870\r\n* Dev by @six2dez in https://github.com/six2dez/reconftw/pull/872\r\n* fix 3rd parties var by @six2dez in https://github.com/six2dez/reconftw/pull/874\r\n* transfer.sh replaced with oshi.at by @six2dez in https://github.com/six2dez/reconftw/pull/875\r\n* Fix filename for oshi by @six2dez in https://github.com/six2dez/reconftw/pull/876\r\n* Dev by @six2dez in https://github.com/six2dez/reconftw/pull/882\r\n\r\n## New Contributors\r\n* @rt-bast made their first contribution in https://github.com/six2dez/reconftw/pull/838\r\n* @j0hnZ3RA made their first contribution in https://github.com/six2dez/reconftw/pull/865\r\n* @Marmeus made their first contribution in https://github.com/six2dez/reconftw/pull/870\r\n\r\n**Full Changelog**: https://github.com/six2dez/reconftw/compare/v2.8.1...v2.9"
     },
     "https://github.com/Raghavd3v/CRLFsuite": {
         "created_at": "2022-08-16 18:05:29",
@@ -27074,7 +27074,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "172.190.111.195属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "52.234.38.35属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
