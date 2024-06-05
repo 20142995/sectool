@@ -730,10 +730,10 @@
         "release_message": "首页增加每月统计\r\n业务系统增加高中低统计\r\n修复相关bug"
     },
     "https://github.com/0x48piraj/Jiraffe": {
-        "created_at": "2020-02-07 13:26:33",
+        "created_at": "2021-05-08 12:37:38",
         "description": "One stop place for exploiting Jira instances in your proximity",
-        "commit_date": "2021-05-08 12:37:38",
-        "commit_message": "patch+bump: refactored exploits, recon-utils; generated code-coverage metrics",
+        "commit_date": "2023-11-04 08:01:24",
+        "commit_message": "Merge pull request #12 from 0x48piraj/dependabot/pip/requests-2.31.0\n\nbuild(deps): bump requests from 2.20.0 to 2.31.0",
         "release_tag": "v2.0.6",
         "release_date": "2021-05-08 12:44:46",
         "release_message": "- Generated code coverage metrics\r\n- Added and excluded local `build-scripts` via `.gitignore`\r\n- Formatted recon info/error messages\r\n- Improved the target URL parser\r\n- Refined `isaws()` function"
@@ -1093,10 +1093,10 @@
         "release_message": ""
     },
     "https://github.com/Hypdncy/NessusToReport": {
-        "created_at": "2020-06-26 19:35:43",
+        "created_at": "2023-03-19 19:00:15",
         "description": "Nessus扫描报告自动化生成工具",
-        "commit_date": "2023-05-30 06:51:06",
-        "commit_message": "删除部分信息",
+        "commit_date": "2024-05-09 13:31:32",
+        "commit_message": "去除翻译失败的情况",
         "release_tag": "v1.2",
         "release_date": "2023-03-20 01:13:02",
         "release_message": ""
@@ -1569,7 +1569,7 @@
         "release_message": ""
     },
     "https://github.com/zR00t1/ImageStrike": {
-        "created_at": "2021-11-13 15:18:37",
+        "created_at": "2021-12-23 12:17:44",
         "description": "ImageStrike是一款用于CTF中图片隐写的综合利用工具",
         "commit_date": "2022-07-19 01:38:30",
         "commit_message": "Update README.md",
@@ -2719,7 +2719,7 @@
         "release_message": ""
     },
     "https://github.com/handbye/base64encode": {
-        "created_at": "2021-04-01 06:36:50",
+        "created_at": "2021-04-01 07:18:38",
         "description": "burpsuite POST数据包base64编码插件",
         "commit_date": "2021-07-02 08:35:12",
         "commit_message": "update readme",
@@ -4084,7 +4084,7 @@
         "release_message": ""
     },
     "https://github.com/tongcheng-security-team/NextScan": {
-        "created_at": "2023-03-17 05:47:33",
+        "created_at": "2023-06-30 12:25:44",
         "description": "飞刃是一套完整的企业级黑盒漏洞扫描系统，集成漏洞扫描、漏洞管理、扫描资产、爬虫等服务。 拥有强大的漏洞检测引擎和丰富的插件库，覆盖多种漏洞类型和应用程序框架。",
         "commit_date": "2023-05-05 09:39:23",
         "commit_message": "添加群聊",
@@ -4249,7 +4249,7 @@
         "release_message": ""
     },
     "https://github.com/yuanyuanxiang/SimpleRemoter": {
-        "created_at": "2019-01-05 12:23:14",
+        "created_at": "2019-03-29 02:40:08",
         "description": "基于gh0st的远程控制器：实现了终端管理、进程管理、窗口管理、远程桌面、文件管理、语音管理、视频管理、服务管理、注册表管理等功能，优化全部代码及整理排版，修复内存泄漏缺陷，程序运行稳定。项目代码仅限于学习和交流用途。",
         "commit_date": "2021-03-14 12:55:22",
         "commit_message": "style: 更新zlib为不带ASMINF编译的静态库",
@@ -5213,7 +5213,7 @@
         "release_message": "01.添加项目Dockerfile\r\n02.修正上传路径，删除多余代码\r\n03.解决Pass-14无法上传jpg图片问题\r\n04.解决Pass-19 Linux下无法使用CVE-2017-15715绕过上传限制问题\r\n05.自动更新版权时间 \r\n06.实现\"显示源码\"按钮点击后自动修改名称\r\n07.添加Pass-20\r\n08.添加文件包含漏洞，方便执行图片马\r\n09.修正logo跳转链接的bug和设置版权链接新窗口打开\r\n10.添加上传出错提示\r\n11.通过重命名上传文件来防止xxx.php.xxx可突破3,5,6,8,10等多个Pass \r\n12.修复后缀大小写绕过，空格绕过，点绕过和::$DATA绕过可以突破Pass19的Bug\r\n13.添加.pht后缀到黑名单\r\n14.修正可上传非图片内容,图片后缀的文件来绕过Pass16的Bug\r\n15.将prism.js动态加载插件改为本地引入\r\n16.使项目支持自动调整其所在路径，无需手动配置\r\n17.修复窗口缩小页面会变形的问题\r\n18.优化当前菜单按下效果的实现代码"
     },
     "https://github.com/woodpecker-framework/woodpecker-framework-release": {
-        "created_at": "2020-10-24 08:19:47",
+        "created_at": "2023-01-08 09:11:17",
         "description": "高危漏洞精准检测与深度利用框架",
         "commit_date": "2023-01-08 09:11:17",
         "commit_message": "更新README",
@@ -5285,7 +5285,7 @@
         "release_message": ""
     },
     "https://github.com/0x727/CloneX_0x727": {
-        "created_at": "2021-08-16 06:46:28",
+        "created_at": "2021-09-03 09:08:01",
         "description": "进行克隆用户、添加用户等账户防护安全检测的轻巧工具",
         "commit_date": "2021-09-03 09:08:01",
         "commit_message": "update readmeupdate readmeinit",
@@ -5490,8 +5490,8 @@
         "release_message": ""
     },
     "https://github.com/alex-sector/dns2tcp": {
-        "created_at": "2017-11-23 11:19:53",
-        "description": "",
+        "created_at": "2017-11-23 14:55:04",
+        "description": null,
         "commit_date": "2017-11-23 14:59:37",
         "commit_message": "Merge pull request #1 from alex-sector/0.5\n\n0.5",
         "release_tag": "v0.5.2",
@@ -8735,13 +8735,13 @@
         "release_message": ""
     },
     "https://github.com/travisfoley/dfirtriage": {
-        "created_at": "2016-04-22 01:15:25",
+        "created_at": "2024-04-23 23:05:22",
         "description": "Digital forensic acquisition tool for Windows based incident response.",
-        "commit_date": "2021-10-29 17:21:14",
-        "commit_message": "Update README.md\n\nminor updates",
+        "commit_date": "2024-04-23 23:05:22",
+        "commit_message": "Update README.md",
         "release_tag": "",
-        "release_date": "",
-        "release_message": ""
+        "release_date": "2024-05-07 13:55:15",
+        "release_message": "## What’s new in v6.0?\r\n\r\n\r\n**Output restructure**\r\n\r\n- Reorganized the output files and directories in a more logical manner\r\n\r\n**Logging total run time**\r\n\r\n- added total run time to the run log file (runlog.txt)\r\n\r\n**Bug fixes**\r\n\r\n- non-zero exit status 1 when ntuser.dat is missing from a user profile directory\r\n- now only attempts to pull locked files from user profile directories where an ntuser.dat file exists\r\n\r\n**Added arguments for individual system artifacts**\r\n\r\n- breaking up the system file acquisition option into individual artifacts cuts down on the total file size when you are only wanting one and not all 3.\r\n` -sdb, --srumdb` (srum database), `-hf, --hiberfil` (hiberfil.sys), `-p, --pagefile` (pagefile.sys)\r\n\r\n**Improved executable file hashing capabilites**\r\n\r\n- Hashes all .dll and .exe files on the OS drive. Recommended to disable A/V realtime scanning when using the hash arguments.\r\n\r\n**Running process details**\r\n\r\n- improved the running process information to include PID, PPID, process name, command executed to launch the process, and files opened by the process.\r\n\r\n**Bitlocker key dump**\r\n\r\n- to dump OS drive bitlocker key information you can now pass the `-bl` or `--bitlocker` argument on the command line\r\n\r\n**Memory acquisition no longer default action**\r\n\r\n- to acquire memory you must pass the `-m` or `--memory` argument on the command line\r\n\r\n**User prompt removed from end of execution**\r\n\r\n- no longer need to designate the `-hl` or `--headless` argument to bypass the ending user prompt, script will run to completion, clean up, and exit with no user intervention.\r\n\r\n**Windows firewall**\r\n\r\n- dumping Windows firewall configuration\r\n- default parsing of key firewall events\r\n- pulling full firewall event log (EVTX) with `-elf` argument\r\n\r\n**Improved user account report**\r\n\r\n- creating a more detailed user account report that includes account SIDs and last logon time.\r\n\r\n**dtfind - admin requirement removed**\r\n\r\n- removed the requirement for admin permissions to run dtfind\r\n\r\n**3rd party tools update**\r\n\r\n- core.ir toolset has been updated with current tool versions\r\n\r\n**External IP**\r\n\r\n- Grabs endpoint external IP address\r\n\r\n**PowerShell**\r\n\r\n- Now acquires Powershell history for commands ran by SYSTEM\r\n- Full Powershell EVTX file is now pulled with `-elf`, `--evtlogfiles` argument\r\n\r\n**System Information**\r\n\r\n- New system and networked data collected in WLAN report\r\n\r\n\r\n**Event Logs**\r\n\r\n- Acquires virtual drive (VHD) drive mount events from VHD operations event log\r\n- New event log events added to default collection.\r\n- Pulling full Powershell and Firewall event logs with `-elf`, `--evtlogfiles` argument\r\n\r\n**Application event log**\r\n\r\n- WER events for application crashes only (1001)\r\n- User logging on with temporary profile (1511)\r\n- Cannot create profile using temporary profile (1518)\r\n- Application error events, similar to WER/1001. These include full path to faulting EXE/Module (1000)\r\n- Application crash/hang events, similar to WER/1001. These include full path to faulting EXE/Module (1002)\r\n\r\n**Security event log**\r\n\r\n- Replay attack (4649)\r\n- Kerberos TGT request (4768)\r\n- Kerberos service ticket requested (4769)\r\n- Kerberos service ticket renewal (4770)\r\n- Kerberos pre-authentication failed (4771)\r\n- Workstation locked (4800)\r\n- Workstation unlocked (4801)\r\n- Screensaver was invoked (4802)\r\n- Screensaver was dismissed (4803)\r\n- An attempt was made to change an account's password (4723)\r\n- A user account was disabled (4725)\r\n- A user account was deleted (4726)\r\n- Group creations (4727, 4731, 4754)\r\n- Group member removals (4729, 4733, 4757)\r\n- Group changes (4735, 4737, 4755, 4764)\r\n- A user account was locked out (4740)\r\n- A computer account was created (4741)\r\n- A computer account was changed (4742)\r\n- A computer account was deleted (4743)\r\n- SID history (4765, 4766)\r\n- A user account was unlocked (4767)\r\n- ACL set on accounts (4780)\r\n- System time was changed (4616)\r\n- Kerberos service ticket was denied (4821)\r\n- NTLM authentication failed (4822, 4823)\r\n- Kerberos pre-authentication failed (4824)\r\n- Certificate Services received a certificate request (4886)\r\n- Certificate Services approved a certificate request (4887)\r\n- A Certificate Services template was updated (4899)\r\n- Certificate Services template security was updated (4900)\r\n- Kerberos policy was changed (4713)\r\n- An operation was performed on an object (4662)\r\n\r\n**Powershell event log**\r\n\r\n- PowerShell executes block activity (4103)\r\n- Remote Command (4104)\r\n\r\n**Windows Firewall event log**\r\n\r\nLocal Modifications (Levels 0, 2, 4) (2004, 2005, 2006, 2009, 2033)"
     },
     "https://github.com/OWASP/Amass": {
         "created_at": "",
@@ -9522,7 +9522,7 @@
         "release_message": "## 0.33.0  (2023-04-03, `a80e5fd61076`)\r\n\r\n### Known problems\r\n\r\n- _Startup hang with Firefox running in a container (e.g. snap, flatpak):_\r\n\r\n  When Firefox is packaged inside a container (like the default Firefox browser\r\n  shipped with Ubuntu 22.04), it may see a different filesystem to the host.\r\n  This can affect access to the generated profile directory, which may result\r\n  in a hang when starting Firefox. Workarounds are listed in the geckodriver\r\n  [usage documentation](https://firefox-source-docs.mozilla.org/testing/geckodriver/Usage.html#Running-Firefox-in-an-container-based-package).\r\n\r\n- _Potential hang with `moz:debuggerAddress` capability set to `true`:_\r\n\r\n  After enabling the site-isolation feature in Firefox with geckodriver 0.32.1\r\n  some WebDriver clients like Selenium that use the Chrome DevTools Protocol (CDP)\r\n  by default for logging events could trigger a hang in Firefox's experimental CDP\r\n  implementation. The fix for this problem will be shipped with Firefox 112.\r\n  Until then the following Firefox preferences should be set:\r\n\r\n  - `fission.bfcacheInParent: false`\r\n  - `fission.webContentIsolationStrategy: 0`\r\n\r\n### Added\r\n\r\n- Support for [Get Computed Label](https://w3c.github.io/webdriver/#get-computed-label) and [Get Computed Role](https://w3c.github.io/webdriver/#get-computed-role)\r\n\r\n  The command `Get Computed Label` returns the accessibility label (sometimes\r\n  also referred to as Accessible Name), which is a short string that labels the\r\n  function of the control (e.g. the string \"Comment\" or \"Sign In\" on a button).\r\n\r\n  The command `Get Computed Role` returns the reserved token value (in ARIA,\r\n  button, heading, etc.) that describes the type of control or content in the\r\n  element.\r\n\r\n  Note that the minimum required Firefox version is 113.0.\r\n\r\n- Support for [Find Element From Shadow Root](https://w3c.github.io/webdriver/#dfn-find-element-from-shadow-root) and [Find Elements From Shadow Root](https://w3c.github.io/webdriver/#dfn-find-elements-from-shadow-root)\r\n\r\n  The commands allow a lookup of individual elements or collections of elements\r\n  within an open or closed Shadow DOM. All location strategies except `Tag name` and\r\n  `XPath selector` are currently supported.\r\n\r\n  Note that the minimum required Firefox version is 113.0.\r\n\r\n### Changed\r\n\r\n- The Mozilla specific capability `moz:useNonSpecCompliantPointerOrigin` has been\r\n  marked as deprecated. Its removal is planned for the Firefox 116.0 release.\r\n"
     },
     "https://github.com/greycodee/wechat-backup": {
-        "created_at": "2022-06-14 15:06:22",
+        "created_at": "2022-07-30 14:56:17",
         "description": "微信聊天记录持久化备份本地硬盘，释放手机存储空间。",
         "commit_date": "2023-06-22 13:34:20",
         "commit_message": "Update README.md",
@@ -24412,8 +24412,8 @@
         "description": "魅族安全中心"
     },
     "https://sec.vip.com/": {
-        "status_code": 503,
-        "description": ""
+        "status_code": 200,
+        "description": "VSRC首页-唯品会信息安全中心"
     },
     "https://sec.wacai.com/": {
         "status_code": 200,
@@ -25134,8 +25134,8 @@
         "description": "与佛论禅"
     },
     "http://www.factordb.com/index.php": {
-        "status_code": 502,
-        "description": "502 Proxy Error"
+        "status_code": 200,
+        "description": "factordb.com"
     },
     "https://www.sojson.com/encrypt_rabbit.html": {
         "status_code": 200,
@@ -25848,7 +25848,7 @@
         "release_message": "**v1.1**\r\n>\r\n> 20240307\r\n>\r\n> - 常规安全检查 -> 进程部分添加 OpenArk\r\n> - 常见问题的解决办法部分添加恶意文件被删除章节\r\n>\r\n> 20240306\r\n>\r\n> - 应急响应事件流程的挖矿病毒、远控后门部分添加 OpenArk 工具\r\n> - 应急响应事件流程的挖矿病毒、远控后门、非持续性事件等部分添加内存搜索字符串步骤\r\n> - 常规安全检查阶段添加近期活动检查\r\n> - 系统日志分析部分添加额外的 RDP 相关日志\r\n> - 小技巧章节添加 0x03 内存中搜索字符串章节\r\n> - 常规安全检查 -> 服务程序 -> 注册表部分完善用于二进制签名验证的 Powershell 脚本的实现逻辑\r\n> - 常规安全检查 -> 服务程序 -> 进阶性排查部分完善用于二进制签名验证的 Powershell 脚本的实现逻辑\r\n> - 常规安全检查 -> COM 劫持部分完善用于二进制签名验证的 Powershell 脚本的实现逻辑\r\n> - 常规安全检查 -> Winsock NSP 部分完善用于二进制签名验证的 Powershell 脚本的实现逻辑\r\n>\r\n> 20240305\r\n>\r\n> - 常规安全检查阶段添加 Windows Defender 日志检查\r\n> - 修复 知识点附录 -> 0x10 谁决定计划任务的执行结果章节的文字错误\r\n> - 小技巧 -> 0x01 查找文件章节添加`dir`、`forfiles`、`Powershell` 查找文件以及 `Everything` 语法\r\n> - 知识点附录添加 0x15 Everything 语法\r\n> - 事前准备 -> 0x02 工具准备章节添加 `OpenArk`、`LastActivityView`\r\n>\r\n> 20240304\r\n>\r\n> - 进行部分文字美化，例如将 powershell 修改为 Powershell\r\n>\r\n> 20240206\r\n>\r\n> - 修复挖矿病毒和远控后门章节的寻找恶意样本过程中文字错误\r\n> - 威胁分析部分将 PCHunter 修改为安芯网盾未知威胁文件检测系统"
     },
     "https://github.com/Tuhinshubhra/CMSeeK": {
-        "created_at": "2018-06-14 00:15:51",
+        "created_at": "2020-07-24 21:29:02",
         "description": "CMS Detection and Exploitation suite - Scan WordPress, Joomla, Drupal and over 180 other CMSs",
         "commit_message": "Merge pull request #171 from h4ckzard/patch-2",
         "commit_date": "2023-07-03 12:17:19",
@@ -27074,7 +27074,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "20.172.5.44属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "172.183.131.128属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
@@ -27109,8 +27109,8 @@
         "description": "Subdomain - RapidDNS Rapid DNS Information Collection"
     },
     "http://wooyun.2xss.cc/index.php": {
-        "status_code": 502,
-        "description": "502 Bad Gateway"
+        "status_code": 200,
+        "description": "乌云网镜像丨乌云知识库丨Wooyun镜像丨乌云漏洞平台"
     },
     "http://tools.sbbbb.cn/tiquan/": {
         "status_code": 200,
@@ -27516,7 +27516,7 @@
     },
     "http://www.66zan.cn/rc4encrypt/": {
         "status_code": 200,
-        "description": ""
+        "description": "在线RC4加密,RC4解密工具-在线工具箱"
     },
     "https://330k.github.io/misc_tools/unicode_steganography.html": {
         "status_code": 200,
@@ -27532,7 +27532,7 @@
     },
     "http://www.66zan.cn/aesencrypt/": {
         "status_code": 200,
-        "description": ""
+        "description": "AES加解密工具,AES加密解密在线工具-在线工具箱"
     },
     "https://www.sojson.com/encrypt_des.html": {
         "status_code": 200,
@@ -27548,7 +27548,7 @@
     },
     "http://www.66zan.cn/desencrypt/": {
         "status_code": 200,
-        "description": ""
+        "description": "在线DES加密,DES解密工具-在线工具箱"
     },
     "http://www.66zan.cn/rabbitencrypt/": {
         "status_code": 200,
@@ -27737,7 +27737,7 @@
         "commit_date": "2018-05-04 23:24:58"
     },
     "https://github.com/FeeiCN/Cobra": {
-        "created_at": "2018-04-02 03:32:29",
+        "created_at": "2016-04-15 08:41:15",
         "description": "Source Code Security Audit (源代码安全审计)",
         "commit_message": "Update README.md",
         "commit_date": "2021-06-09 23:53:17",
