@@ -31,7 +31,7 @@
 - <img src="https://favicon.qqsuu.cn/www.rapidtables.org" alt="" style="height: 20px;"> [十六进制到ASCII | 十六进制到文本字符串转换器](https://www.rapidtables.org/zh-CN/convert/number/hex-to-ascii.html) 
 - <img src="https://favicon.qqsuu.cn/www.sojson.com" alt="" style="height: 20px;"> [16进制转换，16进制转换文本字符串，在线16进制转换 | 在线工具](https://www.sojson.com/hexadecimal.html) 
 #### 3DES加解密
-- <img src="https://favicon.qqsuu.cn/tool.chacuo.net" alt="" style="height: 20px;"> [在线3DES加密解密、3DES在线加密解密、3DES encryption and decryption--查错网](http://tool.chacuo.net/crypt3des) 
+- <img src="https://favicon.qqsuu.cn/tool.chacuo.net" alt="" style="height: 20px;"> [出错了---查错IT网](http://tool.chacuo.net/crypt3des) 
 #### A1z26密码
 - <img src="https://favicon.qqsuu.cn/www.hiencode.com" alt="" style="height: 20px;"> [CTF在线工具-在线A1z26加密|在线A1z26解密|A1z26密码算法|Keyword Cipher](http://www.hiencode.com/a1z26.html) 
 #### AAencode颜文字
@@ -118,7 +118,7 @@
 #### DNA基因序列编码
 - <img src="https://favicon.qqsuu.cn/skaminsky115.github.io" alt="" style="height: 20px;"> [DNA to mRNA to Protein Converter](https://skaminsky115.github.io/nac/DNA-mRNA-Protein_Converter.html) 
 #### DSA密钥对
-- <img src="https://favicon.qqsuu.cn/web.chacuo.net" alt="" style="height: 20px;"> [在线DSA密钥对、DSA公钥私钥对生成、DSA Key pair create、生成DSA密钥对--查错网](http://web.chacuo.net/netdsakeypair) 
+- <img src="https://favicon.qqsuu.cn/web.chacuo.net" alt="" style="height: 20px;"> [出错了---查错IT网](http://web.chacuo.net/netdsakeypair) 
 #### Escape编码
 - <img src="https://favicon.qqsuu.cn/www.hiencode.com" alt="" style="height: 20px;"> [CTF在线工具-在线Escape编码|在线Escape解码](http://www.hiencode.com/escape.html) 
 #### Gost加解密
@@ -153,19 +153,19 @@
 #### Mimetypes
 - <img src="https://favicon.qqsuu.cn/www.hiencode.com" alt="" style="height: 20px;"> [CTF在线工具-Mimetypes|http消息头应用类型](http://www.hiencode.com/mimetypes.html) 
 #### PKCS#1转PKCS8
-- <img src="https://favicon.qqsuu.cn/tool.chacuo.net" alt="" style="height: 20px;"> [在线RSA PKCS#1 转 PKCS8格式私钥、convert pkcs8 to pkcs#1 private key--查错网](http://tool.chacuo.net/cryptrsapkcs1pkcs8) 
+- <img src="https://favicon.qqsuu.cn/tool.chacuo.net" alt="" style="height: 20px;"> [出错了---查错IT网](http://tool.chacuo.net/cryptrsapkcs1pkcs8) 
 #### Porta密码
 - <img src="https://favicon.qqsuu.cn/www.hiencode.com" alt="" style="height: 20px;"> [CTF在线工具-在线Porta密码加密|在线Porta密码解密|Porta密码算法|Porta Cipher](http://www.hiencode.com/porta.html) 
 #### Punycode
 - <img src="https://favicon.qqsuu.cn/www.hiencode.com" alt="" style="height: 20px;"> [CTF在线工具-在线Punycode编码|Punycode解码|Punycode编码原理|Punycode编码算法](http://www.hiencode.com/punycode.html) 
 #### Quoted-printable
-- <img src="https://favicon.qqsuu.cn/web.chacuo.net" alt="" style="height: 20px;"> [Quoted-printable编码|Quoted-printable解码|Quoted-printable编码原理介绍--查错网](http://web.chacuo.net/charsetquotedprintable/) 
+- <img src="https://favicon.qqsuu.cn/web.chacuo.net" alt="" style="height: 20px;"> [出错了---查错IT网](http://web.chacuo.net/charsetquotedprintable/) 
 #### Quoted编码
 - <img src="https://favicon.qqsuu.cn/www.hiencode.com" alt="" style="height: 20px;"> [CTF在线工具-在线Quoted-printable编码|在线Quoted-printable编码|邮件编码|mail编码](http://www.hiencode.com/quoted.html) 
 #### RC2加解密
 - <img src="https://favicon.qqsuu.cn/tool.chacuo.net" alt="" style="height: 20px;"> [在线RC2加密解密、RC2在线加密解密、RC2 encryption and decryption--查错网](http://tool.chacuo.net/cryptrc2) 
 #### RC4加解密
-- <img src="https://favicon.qqsuu.cn/tool.chacuo.net" alt="" style="height: 20px;"> [在线RC4加密解密、RC4在线加密解密、RC4 encryption and decryption--查错网](http://tool.chacuo.net/cryptrc4) 
+- <img src="https://favicon.qqsuu.cn/tool.chacuo.net" alt="" style="height: 20px;"> [出错了---查错IT网](http://tool.chacuo.net/cryptrc4) 
 - <img src="https://favicon.qqsuu.cn/www.hiencode.com" alt="" style="height: 20px;"> [CTF在线工具-RC4在线加解密|RC4在线加密|RC4在线解密|RC4 encryption|RC4 decryption](http://www.hiencode.com/rc4.html) 
 #### RC5加解密
 - <img src="https://favicon.qqsuu.cn/tool.chacuo.net" alt="" style="height: 20px;"> [在线RC5加密解密、RC5在线加密解密、RC5 encryption and decryption--查错网](http://tool.chacuo.net/cryptrc5) 
@@ -178,9 +178,9 @@
 #### RSA密钥对
 - <img src="https://favicon.qqsuu.cn/web.chacuo.net" alt="" style="height: 20px;"> [在线生成非对称加密公钥私钥对、在线生成公私钥对、RSA Key pair create、生成RSA密钥对--查错网](http://web.chacuo.net/netrsakeypair) 
 #### RSA私钥密码修改
-- <img src="https://favicon.qqsuu.cn/tool.chacuo.net" alt="" style="height: 20px;"> [在线RSA私钥密码添加修改、添加修改RSA私钥密码、rsa private key password modify--查错网](http://tool.chacuo.net/cryptrsapassmodify) 
+- <img src="https://favicon.qqsuu.cn/tool.chacuo.net" alt="" style="height: 20px;"> [出错了---查错IT网](http://tool.chacuo.net/cryptrsapassmodify) 
 #### RSA私钥密码清除
-- <img src="https://favicon.qqsuu.cn/tool.chacuo.net" alt="" style="height: 20px;"> [在线RSA私钥密码清除、删除RSA私钥密码、rsa private key password removal--查错网](http://tool.chacuo.net/cryptrsapassclear) 
+- <img src="https://favicon.qqsuu.cn/tool.chacuo.net" alt="" style="height: 20px;"> [出错了---查错IT网](http://tool.chacuo.net/cryptrsapassclear) 
 #### RSA私钥解析
 - <img src="https://favicon.qqsuu.cn/www.hiencode.com" alt="" style="height: 20px;"> [CTF在线工具-在线私钥解析|在线私钥提取|私钥在线破解|私钥信息提取](http://www.hiencode.com/priv_asys.html) 
 #### RSA综合工具
@@ -197,7 +197,7 @@
 - <img src="https://favicon.qqsuu.cn/tool.chacuo.net" alt="" style="height: 20px;"> [RSA公私钥分解 Exponent、Modulus，Rsa公私钥指数、系数(模数)分解--查错网](http://tool.chacuo.net/cryptrsakeyparse) 
 #### Serpent（蛇）加解密
 - <img src="https://favicon.qqsuu.cn/serpent.online-domain-tools.com" alt="" style="height: 20px;"> [Serpent Encryption – Easily encrypt or decrypt strings or files](http://serpent.online-domain-tools.com/) 
-- <img src="https://favicon.qqsuu.cn/tool.chacuo.net" alt="" style="height: 20px;"> [在线Serpent加密解密、Serpent在线加密解密、Serpent encryption and decryption--查错网](http://tool.chacuo.net/cryptserpent) 
+- <img src="https://favicon.qqsuu.cn/tool.chacuo.net" alt="" style="height: 20px;"> [出错了---查错IT网](http://tool.chacuo.net/cryptserpent) 
 #### Sojson.v4解密
 - <img src="https://favicon.qqsuu.cn/ctf.bugku.com" alt="" style="height: 20px;"> [Sojson v4 解密 - Bugku CTF](https://ctf.bugku.com/tool/sojson4) 
 #### Sojson.v5（jsjiami.com.v5）解密
@@ -213,7 +213,7 @@
 #### UTF-8与GBK编码转换
 - <img src="https://favicon.qqsuu.cn/www.atoolbox.net" alt="" style="height: 20px;"> [UTF-8与GBK编码转换 - 一个工具箱 - 好用的在线工具都在这里！](http://www.atoolbox.net/Tool.php?Id=1066) 
 #### UUencode
-- <img src="https://favicon.qqsuu.cn/web.chacuo.net" alt="" style="height: 20px;"> [在线UUencode编码|在线UUencode解码|UU编码|UU解码|UUencode编码原理介绍--查错网](http://web.chacuo.net/charsetuuencode) 
+- <img src="https://favicon.qqsuu.cn/web.chacuo.net" alt="" style="height: 20px;"> [出错了---查错IT网](http://web.chacuo.net/charsetuuencode) 
 - <img src="https://favicon.qqsuu.cn/www.hiencode.com" alt="" style="height: 20px;"> [CTF在线工具-在线UUencode编码|UU编码|UUencode解码|UUencode编码原理|UUencode编码算法](http://www.hiencode.com/uu.html) 
 #### UUencode加解密
 - <img src="https://favicon.qqsuu.cn/ctf.bugku.com" alt="" style="height: 20px;"> [UUencode加密/解密 - Bugku CTF](https://ctf.bugku.com/tool/uuencode) 
@@ -324,7 +324,7 @@
 #### 校验RSA密钥对
 - <img src="https://favicon.qqsuu.cn/tool.chacuo.net" alt="" style="height: 20px;"> [在线RSA公私密钥校验、RSA公私密钥检查、Online RSA public-private key verification--查错网](http://tool.chacuo.net/cryptrsakeyvalid) 
 #### 模数生成Rsa公钥
-- <img src="https://favicon.qqsuu.cn/tool.chacuo.net" alt="" style="height: 20px;"> [由Exponent(指数)、Modulus(模数)生成Rsa 公钥 public key--查错网](http://tool.chacuo.net/cryptrsamodulus2pkey) 
+- <img src="https://favicon.qqsuu.cn/tool.chacuo.net" alt="" style="height: 20px;"> [出错了---查错IT网](http://tool.chacuo.net/cryptrsamodulus2pkey) 
 #### 滚动密钥密码
 - <img src="https://favicon.qqsuu.cn/www.hiencode.com" alt="" style="height: 20px;"> [CTF在线工具-在线滚动密钥加密|在线滚动密钥解密|滚动密钥密码算法|Running Key Cipher](http://www.hiencode.com/runkey.html) 
 #### 猪圈密码(共济会密码)
@@ -346,7 +346,7 @@
 - <img src="https://favicon.qqsuu.cn/ctf.bugku.com" alt="" style="height: 20px;"> [核心价值观编码 - Bugku CTF](https://ctf.bugku.com/tool/cvecode) 
 - <img src="https://favicon.qqsuu.cn/ctfever.uniiem.com" alt="" style="height: 20px;"> [CTFever Toolkit by uniiem](https://ctfever.uniiem.com/tools/core-values-cipher) 
 #### 私钥中提取公钥
-- <img src="https://favicon.qqsuu.cn/tool.chacuo.net" alt="" style="height: 20px;"> [RSA非对称加密从私钥中获取公钥、Get the public key from the private key--查错网](http://tool.chacuo.net/cryptgetpubkey) 
+- <img src="https://favicon.qqsuu.cn/tool.chacuo.net" alt="" style="height: 20px;"> [出错了---查错IT网](http://tool.chacuo.net/cryptgetpubkey) 
 #### 程序代码空白隐藏
 - <img src="https://favicon.qqsuu.cn/ideone.com" alt="" style="height: 20px;"> [Online Compiler and IDE >> C/C++, Java, PHP, Python, Perl and 70+ other compilers a...](https://ideone.com/) 
 #### 简单换位密码
@@ -881,7 +881,7 @@
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [Report_Public](https://github.com/DVPNET/Report_Public)  DVPNET 公开漏洞知识库
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [yougar0.github.io](https://github.com/heise5yuetian/yougar0.github.io) 漏洞知识库
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [VulWiki](https://github.com/Ares-X/VulWiki) VulWiki
-- <img src="https://favicon.qqsuu.cn/wooyun.2xss.cc" alt="" style="height: 20px;"> [502 Bad Gateway](http://wooyun.2xss.cc/index.php) 
+- <img src="https://favicon.qqsuu.cn/wooyun.2xss.cc" alt="" style="height: 20px;"> [乌云网镜像丨乌云知识库丨Wooyun镜像丨乌云漏洞平台](http://wooyun.2xss.cc/index.php) 
 - <img src="https://favicon.qqsuu.cn/peiqi.wgpsec.org" alt="" style="height: 20px;"> [操作系统漏洞 | PeiQi文库](https://peiqi.wgpsec.org/wiki/system/) 
 - <img src="https://favicon.qqsuu.cn/wiki.teamssix.com" alt="" style="height: 20px;"> [关于文库 | T Wiki](https://wiki.teamssix.com/About/) 
 ##### 漏洞检测利用仓库
@@ -925,9 +925,9 @@
 #### 漏洞发现库
 ##### 中间件&框架漏洞扫描
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [Artillery v1.0_20220519](https://github.com/Weik1/Artillery) JAVA 插件化漏洞扫描器，Gui基于javafx。POC 目前集成 Weblogic、Tomcat、Shiro、Sp...
+- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [Jiraffe v2.0.6](https://github.com/0x48piraj/Jiraffe) One stop place for exploiting Jira instances in your proximity
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [weblogic-infodetector 0.2.4](https://github.com/woodpecker-appstore/weblogic-infodetector) woodpecker框架weblogic信息探测插件
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [WeblogicScan](https://github.com/rabbitmask/WeblogicScan) Weblogic一键漏洞检测工具，V1.5，更新时间：20200730
-- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [Jiraffe v2.0.6](https://github.com/0x48piraj/Jiraffe) One stop place for exploiting Jira instances in your proximity
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [wprecon](https://github.com/attacker-codeninja/wprecon) Hello! Welcome. Wprecon (Wordpress Recon), is a vulnerability recognition t...
 ##### 代码审计
 ###### go
@@ -974,9 +974,9 @@
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [code6 1.6.4](https://github.com/4x99/code6) 码小六 - GitHub 代码泄露监控系统
 ##### 半自动漏洞扫描
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [reconftw](https://github.com/six2dez/reconftw) reconFTW is a tool designed to perform automated recon on a target domain ...
+- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [nuclei](https://github.com/projectdiscovery/nuclei) Fast and customizable vulnerability scanner based on simple YAML based DSL.
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [prismx](https://github.com/yqcs/prismx) :: 棱镜 X · 自动化企业网络安全风险检测、漏洞扫描工具。
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [afrog](https://github.com/zan8in/afrog) A Security Tool for Bug Bounty, Pentest and Red Teaming.
-- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [nuclei](https://github.com/projectdiscovery/nuclei) Fast and customizable vulnerability scanner based on simple YAML based DSL.
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [tsunami-security-scanner](https://github.com/google/tsunami-security-scanner) Tsunami is a general purpose network security scanner with...
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [faraday](https://github.com/infobyte/faraday) Open Source Vulnerability Management Platform
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [Jie](https://github.com/yhy0/Jie) Jie stands out as a comprehensive security assessment and exploitation tool met...
@@ -1072,8 +1072,8 @@
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [yasuo](https://github.com/0xsauby/yasuo) A ruby script that scans for vulnerable & exploitable 3rd-party web applicati...
 ##### 漏洞扫描
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [retire.js](https://github.com/retirejs/retire.js) scanner detecting the use of JavaScript libraries with known vulnerabilit...
-- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [vuls](https://github.com/future-architect/vuls) Agent-less vulnerability scanner for Linux, FreeBSD, Container, WordPress, Pro...
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [cloudsploit](https://github.com/aquasecurity/cloudsploit) Cloud Security Posture Management (CSPM)
+- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [vuls](https://github.com/future-architect/vuls) Agent-less vulnerability scanner for Linux, FreeBSD, Container, WordPress, Pro...
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [shcheck](https://github.com/santoru/shcheck) A basic tool to check security headers of a website
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [oss-fuzz](https://github.com/google/oss-fuzz) OSS-Fuzz - continuous fuzzing for open source software.
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [nikto](https://github.com/sullo/nikto) Nikto web server scanner
@@ -1178,7 +1178,7 @@
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [reverseip_py](https://github.com/yuyudhn/reverseip_py) Domain Parser for IPAddress.com Reverse IP Lookup
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [iplookup v1.1](https://github.com/Lengso/iplookup) IP反查域名
 - <img src="https://favicon.qqsuu.cn/s.tool.chinaz.com" alt="" style="height: 20px;"> [网站IP查询_IP反查域名_同IP网站查询 - 站长工具](http://s.tool.chinaz.com/same) 
-- <img src="https://favicon.qqsuu.cn/dns.aizhan.com" alt="" style="height: 20px;"> [172.183.53.140属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网](https://dns.aizhan.com/) 
+- <img src="https://favicon.qqsuu.cn/dns.aizhan.com" alt="" style="height: 20px;"> [172.183.112.126属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网](https://dns.aizhan.com/) 
 - <img src="https://favicon.qqsuu.cn/dnslytics.com" alt="" style="height: 20px;"> [Reverse IP - Find websites hosted on the same IP address, server or subnet](https://dnslytics.com/reverse-ip) 
 - <img src="https://favicon.qqsuu.cn/hackertarget.com" alt="" style="height: 20px;"> [Reverse IP Lookup, Find Hosts Sharing an IP | HackerTarget.com](https://hackertarget.com/reverse-ip-lookup/) 
 - <img src="https://favicon.qqsuu.cn/rapiddns.io" alt="" style="height: 20px;"> [Subdomain - RapidDNS Rapid DNS Information Collection](https://rapiddns.io/sameip) 
@@ -1401,8 +1401,8 @@
 #### 资产测绘采集
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [ThunderSearch](https://github.com/xzajyjs/ThunderSearch) 小而美【支持Fofa、Shodan、Hunter、Zoomeye、Quake网络空间搜索引擎】闪电搜索器；GUI图形化(Mac/Windo...
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [NoMoney](https://github.com/H-Limbus/NoMoney) NoMoney 是一款集成了fofa，zoomeye(钟馗之眼)，censys，奇安信的鹰图平台，360quake，且完全免费的信息收集工具。fofa...
-- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [InfoSearchAll](https://github.com/ExpLangcn/InfoSearchAll) 为了方便安全从业人员在使用网络测绘平台进行信息搜集时的效率，本程序集合了多个网络测绘平台，可以快速在多个网络测绘平台搜索信息并且合并展示及导出。
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [Search_Viewer v3.0](https://github.com/G3et/Search_Viewer) 集Fofa、Hunter鹰图、Shodan、360 quake、Zoomeye 钟馗之眼、censys 为一体的空间测绘gui图...
+- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [InfoSearchAll](https://github.com/ExpLangcn/InfoSearchAll) 为了方便安全从业人员在使用网络测绘平台进行信息搜集时的效率，本程序集合了多个网络测绘平台，可以快速在多个网络测绘平台搜索信息并且合并展示及导出。
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [0_zone_tool](https://github.com/wkend/0_zone_tool) 零零信安api信息系统查询脚本
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [ones v1.0.4](https://github.com/ffffffff0x/ones) 可用于多个网络资产测绘引擎 API 的命令行查询工具
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [AsamF v0.2.5](https://github.com/Kento-Sec/AsamF) AsamF是集成Fofa、Quake、Hunter、Shodan、Zoomeye、Chinaz、0.zone及爱企查的一站式企业信息资产收集...
@@ -1618,8 +1618,8 @@
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [sunlogin_rce new](https://github.com/Mr-xn/sunlogin_rce) 向日葵 RCE
 ### 相关资源
 #### 代理池
-- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [proxy_pool 2.4.1](https://github.com/jhao104/proxy_pool) Python ProxyPool for web spider
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [mubeng v0.14.1](https://github.com/kitabisa/mubeng) An incredibly fast proxy checker & IP rotator with ease.
+- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [proxy_pool 2.4.1](https://github.com/jhao104/proxy_pool) Python ProxyPool for web spider
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [Venom-Transponder](https://github.com/z-bool/Venom-Transponder) 毒液流量转发器：自动化捡洞/打点/跳板必备神器，支持联动URL爬虫、各种被动扫描器。
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [ProxyPoolxSocks v1.2](https://github.com/Anyyy111/ProxyPoolxSocks) ☁️Socks代理池服务端自动化搭建工具☁️
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [go_proxy_pool 2022.11.22](https://github.com/pingc0y/go_proxy_pool) 无环境依赖开箱即用的代理IP池
@@ -1706,9 +1706,9 @@
 ###### 插件仓库
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [BurpSuite-collections](https://github.com/Mr-xn/BurpSuite-collections) 有关burpsuite的插件(非商店),文章以及使用技巧的收集(此项目不再提供burpsuite破解文件,如需要请在博客m...
 ###### 未分类
-- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [passive-scan-client-plus v0.4.12.0](https://github.com/winezer0/passive-scan-client-plus) burpsuite passive-scan-client 插件持续维护分支 v2024
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [blackboxprotobuf](https://github.com/nccgroup/blackboxprotobuf) Blackbox Protobuf is a set of tools for working with encoded Proto...
-- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [CaA 0.5](https://github.com/gh0stkey/CaA) CaA - BurpSuite Collector and Analyzer
+- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [passive-scan-client-plus v0.4.12.0](https://github.com/winezer0/passive-scan-client-plus) burpsuite passive-scan-client 插件持续维护分支 v2024
+- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [CaA 0.5](https://github.com/gh0stkey/CaA) CaA - Collector and Analyzer, Insight into information, exploring with inte...
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [Brida v0.6pre](https://github.com/federicodotta/Brida) The new bridge between Burp Suite and Frida!
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [awesome-burp-extensions](https://github.com/snoopysecurity/awesome-burp-extensions) A curated list of amazingly awesome Burp Extensions
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [OneScan v1.4.0](https://github.com/vaycore/OneScan) OneScan是递归目录扫描的BurpSuite插件
@@ -2381,9 +2381,9 @@
 - <img src="https://favicon.qqsuu.cn/www.microsoft.com" alt="" style="height: 20px;"> [Download Log Parser 2.2 from Official Microsoft Download Center](https://www.microsoft.com/en-us/download/details.aspx?id=24659) 
 - <img src="https://favicon.qqsuu.cn/www.nirsoft.net" alt="" style="height: 20px;"> [FullEventLogView - Event Log Viewer for Windows 11 / 10 / 8 / 7 / Vista](https://www.nirsoft.net/utils/full_event_log_view.html) 
 ###### 信息采集
+- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [dfirtriage](https://github.com/travisfoley/dfirtriage) Digital forensic acquisition tool for Windows based incident response.
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [winlog](https://github.com/i11us0ry/winlog) 一款基于go的windows信息收集工具，主要收集目标机器rdp端口、mstsc远程连接记录、mstsc密码和安全事件中4624、4625登录事件记录
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [FireKylin v1.4.0](https://github.com/MountCloud/FireKylin) 🔥火麒麟-网络安全应急响应工具(系统痕迹采集)Cybersecurity emergency response tool.👍👍👍
-- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [dfirtriage](https://github.com/travisfoley/dfirtriage) Digital forensic acquisition tool for Windows based incident response.
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [sysmon-config](https://github.com/SwiftOnSecurity/sysmon-config) Sysmon configuration file template with default high-quality event tr...
 ###### 其他
 - <img src="https://favicon.qqsuu.cn/docs.microsoft.com" alt="" style="height: 20px;"> [Sysinternals 实用工具 - Sysinternals | Microsoft Learn](https://docs.microsoft.com/zh-cn/sysinternals/downloads/) 
