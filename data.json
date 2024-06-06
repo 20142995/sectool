@@ -3833,8 +3833,8 @@
     "https://github.com/aquasecurity/kube-bench": {
         "created_at": "2017-06-19 13:27:02",
         "description": "Checks whether Kubernetes is deployed according to security best practices as defined in the CIS Kubernetes Benchmark",
-        "commit_message": "build(deps): bump golang from 1.22.1 to 1.22.2 (#1596)\n\nBumps golang from 1.22.1 to 1.22.2.\r\n\r\n---\r\nupdated-dependencies:\r\n- dependency-name: golang\r\n  dependency-type: direct:production\r\n  update-type: version-update:semver-patch\r\n...\r\n\r\nSigned-off-by: dependabot[bot] <support@github.com>\r\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
-        "commit_date": "2024-05-03 16:35:58",
+        "commit_message": "build(deps): bump alpine from 3.19.1 to 3.20.0 (#1621)\n\nBumps alpine from 3.19.1 to 3.20.0.\r\n\r\n---\r\nupdated-dependencies:\r\n- dependency-name: alpine\r\n  dependency-type: direct:production\r\n  update-type: version-update:semver-minor\r\n...\r\n\r\nSigned-off-by: dependabot[bot] <support@github.com>\r\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
+        "commit_date": "2024-05-31 14:28:56",
         "release_date": "2024-04-18 07:10:01",
         "release_message": "## Changelog\n* d2d3e72 Currently, certain commands involve retrieving all node names or pods and then executing additional commands in a loop, resulting in a time complexity linearly proportional to the number of nodes. (#1597)\n* dc8f4d3 build(deps): bump github.com/aws/aws-sdk-go-v2 from 1.25.2 to 1.26.0 (#1589)\n* 45afbd7 build(deps): bump github.com/aws/aws-sdk-go-v2/config (#1577)\n* 73e1377 build(deps): bump github.com/jackc/pgx/v5 from 5.4.3 to 5.5.4 (#1586)\n* dc74416 build(deps): bump golang from 1.22.0 to 1.22.1 (#1583)\n* 65c484e build(deps): bump k8s.io/client-go from 0.29.1 to 0.29.3 (#1587)\n\n"
     },
@@ -15188,7 +15188,7 @@
     },
     "https://github.com/gh0stkey/CaA": {
         "created_at": "2024-04-23 09:06:06",
-        "description": "CaA - BurpSuite Collector and Analyzer",
+        "description": "CaA - Collector and Analyzer, Insight into information, exploring with intelligence in a thousand ways.",
         "commit_date": "2024-05-06 03:37:50",
         "commit_message": "Update issue templates",
         "release_tag": "0.5",
@@ -26891,8 +26891,8 @@
         "description": "在线Gost加密解密、Gost在线加密解密、Gost encryption and decryption--查错网"
     },
     "http://web.chacuo.net/netdsakeypair": {
-        "status_code": 200,
-        "description": "在线DSA密钥对、DSA公钥私钥对生成、DSA Key pair create、生成DSA密钥对--查错网"
+        "status_code": 502,
+        "description": "出错了---查错IT网"
     },
     "http://www.hiencode.com/keyword.html": {
         "status_code": 200,
@@ -27074,7 +27074,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "172.183.77.240属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "172.183.112.126属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
@@ -27109,8 +27109,8 @@
         "description": "Subdomain - RapidDNS Rapid DNS Information Collection"
     },
     "http://wooyun.2xss.cc/index.php": {
-        "status_code": 502,
-        "description": "502 Bad Gateway"
+        "status_code": 200,
+        "description": "乌云网镜像丨乌云知识库丨Wooyun镜像丨乌云漏洞平台"
     },
     "http://tools.sbbbb.cn/tiquan/": {
         "status_code": 200,
