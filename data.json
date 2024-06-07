@@ -2836,13 +2836,13 @@
         "release_message": "本版本大更新，主要添加 **延时分块发送器** (sleep chunked sender)\r\n\r\n1. 实现socket发包分块并在界面显示进度信息\r\n2. 调整package结构删除无用HttpURLConnClient\r\n3. 调整第二排界面控件\r\n4. 解决request数据包比较大时，sleep send client界面显示比较卡的问题\r\n5. 解决多个Sleep send client共用一个发送记录\r\n6. 解决计算分块范围和耗时范围不准确问题，以及设置分块和延时控件最小值不能大于最大值\r\n7. 实现代理设置，修复https判断错误bug\r\n8. 添加sleep send client错误信息的显示\r\n9. 修复由于Transfer-Encoding: chunked大小写不敏感导致判断不严谨问题\r\n10. 让send sleep client显示连接和发送头阶段的错误信息\r\n11. 让sleep send client退出时将后台发包线程也退出\r\n12. 给sleep send client添加进度条\r\n13. 设置sleep send client的发送按钮在完成发送后恢复名称为Start\r\n14. 引入单元测试，删除调无用的IMessageEditorController接口实现\r\n15. 将最后一步读取response，作为进度条显示的一部分\r\n16. 解决延时分块传输最后一个分块长度计算错误问题\r\n17. 重新明确已经发送分块和发送时间这两个概念\r\n18. 解决socket模拟Http发包,读response不完整问题\r\n19. 实现sleep send client分块日志表格按照比例显示列宽\r\n20. 将sleep send client模块改名为sleep chunked sender"
     },
     "https://github.com/tpt11fb/AttackTomcat": {
-        "created_at": "2022-11-13 11:01:41",
+        "created_at": "2022-11-13 11:38:03",
         "description": "Tomcat常见漏洞GUI利用工具。CVE-2017-12615 PUT文件上传漏洞、tomcat-pass-getshell 弱认证部署war包、弱口令爆破、CVE-2020-1938 Tomcat AJP文件读取/包含",
         "commit_date": "2022-11-15 09:05:50",
         "commit_message": "Create README.md",
         "release_tag": "V1",
-        "release_date": "2022-11-13 11:40:50",
-        "release_message": ""
+        "release_date": "2023-09-05 12:59:25",
+        "release_message": "请下载TomcatPass.zip\r\n1、CVE-2017-12615 PUT文件上传漏洞\r\n2、tomcat-pass-getshell 弱认证部署war包\r\n3、弱口令爆破\r\n4、CVE-2020-1938 Tomcat 文件读取/包含"
     },
     "https://github.com/tarunkant/Gopherus": {
         "created_at": "2018-08-11 20:18:39",
@@ -3162,7 +3162,7 @@
         "release_message": "See [CHANGELOG.md](https://github.com/joke2k/faker/blob/refs/tags/v25.3.0/CHANGELOG.md)."
     },
     "https://github.com/NHPT/Xray_Cracked": {
-        "created_at": "2022-08-10 13:51:19",
+        "created_at": "2023-04-24 06:48:58",
         "description": "Update Xray1.9.11 Cracked for Windows,Linux and Mac OS.",
         "commit_date": "2023-04-24 06:48:58",
         "commit_message": "Update README.md",
@@ -3206,7 +3206,7 @@
         "release_message": ""
     },
     "https://github.com/BishopFox/GadgetProbe": {
-        "created_at": "2020-02-17 23:31:29",
+        "created_at": "2020-01-21 19:45:18",
         "description": "Probe endpoints consuming Java serialized objects to identify classes, libraries, and library versions on remote Java classpaths.",
         "commit_date": "2021-02-19 18:47:05",
         "commit_message": "Update README.md",
@@ -3240,7 +3240,7 @@
         "release_message": ""
     },
     "https://github.com/EdgeSecurityTeam/EHole": {
-        "created_at": "2021-01-15 05:51:57",
+        "created_at": "2023-06-14 03:08:05",
         "description": "EHole(棱洞)3.0 重构版-红队重点攻击系统指纹探测工具",
         "commit_date": "2023-06-14 03:08:05",
         "commit_message": "Update",
@@ -4012,7 +4012,7 @@
         "release_message": "## Version v2023.8 \r\n\r\n### 🚀 New functionality\r\n\r\n- Consistent environment values and url references (#1677)\r\n- Show directly requested file in requests overview\r\n- Show creating time in file upload overview\r\n\r\n ### 🐞 Bug fixes\r\n\r\n- Fix startup message (#1687)\r\n- Fix/state of software supply chain links (#1683)\r\n- Fix WebWolf UI (#1686)\r\n\r\n### 🔄 Technical tasks\r\n\r\n- bump actions/setup-java from 3 to 4 (#1690)\r\n- bump commons-io:commons-io from 2.14.0 to 2.15.1 (#1689)\r\n- bump com.diffplug.spotless:spotless-maven-plugin (#1688)\r\n   \r\n Full change log: https://github.com/WebGoat/WebGoat/compare/v2023.5...v2023.8  \r\n\r\n\r\n Team WebGoat\r\n"
     },
     "https://github.com/psiinon/bodgeit": {
-        "created_at": "2015-03-12 17:03:32",
+        "created_at": "2014-09-26 13:30:50",
         "description": "The BodgeIt Store is a vulnerable web application which is currently aimed at people who are new to pen testing. ",
         "commit_date": "2018-01-08 20:27:03",
         "commit_message": "Merge pull request #21 from bkimminich/patch-1\n\nImprove layout of deprecation remark",
@@ -5357,7 +5357,7 @@
         "release_message": "New Release Info : [APT-HUNTER V3.0 : Rebuilt with Multiprocessing and new cool features](https://shells.systems/apt-hunter-v3-0-rebuilt-with-multiprocessing-and-new-cool-features/)"
     },
     "https://github.com/FunnyWolf/pystinger": {
-        "created_at": "2019-09-29 05:23:54",
+        "created_at": "2021-03-13 02:55:49",
         "description": "Bypass firewall for traffic forwarding using webshell 一款使用webshell进行流量转发的出网工具",
         "commit_date": "2021-09-29 13:13:36",
         "commit_message": "Optimize code execution process",
@@ -5977,7 +5977,7 @@
         "release_message": ""
     },
     "https://github.com/JamesHoi/PuzzleSolver": {
-        "created_at": "2021-04-26 02:27:38",
+        "created_at": "2021-04-26 08:36:00",
         "description": "一款专门为CTF比赛设计的拼图工具",
         "commit_date": "2021-04-27 10:49:31",
         "commit_message": "Update README.md",
@@ -9229,7 +9229,7 @@
         "release_message": ""
     },
     "https://github.com/c0ny1/jsEncrypter": {
-        "created_at": "2017-12-16 13:57:46",
+        "created_at": "2019-11-22 14:00:47",
         "description": "一个用于前端加密Fuzz的Burp Suite插件",
         "commit_date": "2020-03-06 08:35:33",
         "commit_message": "是README符合最新版本",
@@ -20389,7 +20389,7 @@
         "commit_message": "Merge branch 'master' of github.com:dylanaraps/neofetch"
     },
     "https://github.com/boy-hack/go-strip": {
-        "created_at": "2021-06-25 07:33:42",
+        "created_at": "2021-09-11 07:46:56",
         "description": "清除Go编译时自带的信息",
         "release_tag": "v3.0",
         "release_date": "2022-07-15 10:35:15",
@@ -27074,7 +27074,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "74.249.5.226属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "20.172.5.211属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
@@ -27293,8 +27293,8 @@
         "description": "Detect which CMS a site is using - What CMS?"
     },
     "http://eyes.sh": {
-        "status_code": 200,
-        "description": "登录"
+        "status_code": 504,
+        "description": "504 Gateway Time-out"
     },
     "https://www.lingfengyun.com/": {
         "status_code": 200,
@@ -28249,8 +28249,8 @@
         "description": "The Zeek Network Security Monitor"
     },
     "https://gitee.com/freshday/radar": {
-        "status_code": 502,
-        "description": "502 Bad Gateway"
+        "status_code": 200,
+        "description": "radar: 实时风控引擎(Risk Engine)，自定义规则引擎(Rule Script)，完美支持中文，适用于反欺诈(Anti-fraud)应用场景，开箱即用！！！移动互联网时代的风险管理利器，你 Get 到了吗？"
     },
     "https://www.la-samhna.de/": {
         "status_code": 200,
