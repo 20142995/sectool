@@ -1026,7 +1026,7 @@
     "https://github.com/sml2h3/ddddocr": {
         "created_at": "2021-07-14 09:00:06",
         "description": "带带弟弟 通用验证码识别OCR pypi版",
-        "commit_date": "2024-05-28 09:37:31",
+        "commit_date": "2024-06-06 04:05:40",
         "commit_message": "Update README.md",
         "release_tag": "",
         "release_date": "",
@@ -3183,7 +3183,7 @@
         "created_at": "2023-12-18 03:28:33",
         "description": "一个攻防知识仓库 Red Teaming and Offensive Security",
         "commit_message": "update README.md",
-        "commit_date": "2024-05-17 09:15:29",
+        "commit_date": "2024-06-04 09:21:49",
         "release_date": "2023-12-18 03:31:30",
         "release_message": ""
     },
@@ -7671,8 +7671,8 @@
     "https://github.com/locustio/locust": {
         "created_at": "2024-05-23 05:46:47",
         "description": "Write scalable load tests in plain Python 🚗💨",
-        "commit_message": "Fix incorrect error message detection for https requests introduced in 84ada19a22b076ee52060a94561ad3f968251b44",
-        "commit_date": "2024-05-27 17:03:43",
+        "commit_message": "Merge pull request #2733 from plaindocs/sam-dev-docs\n\nMention installing Locust in Building the Docs",
+        "commit_date": "2024-06-06 09:39:03",
         "release_date": "2024-05-23 05:47:15",
         "release_message": "## What's Changed\r\n* Remove legacy UI by @andrewbaldwin44 in https://github.com/locustio/locust/pull/2703\r\n* Logging: Only print hostname instead of FQDN by @cyberw in https://github.com/locustio/locust/pull/2705\r\n* WebUI: update users, spawn_rate, host and run_time in `parsed_options` (for LoadShapes that might access it) by @raulparada in https://github.com/locustio/locust/pull/2656\r\n* Update Stats History on HTML Report by @andrewbaldwin44 in https://github.com/locustio/locust/pull/2709\r\n* Lower log levels for exceptions in flask by @cyberw in https://github.com/locustio/locust/pull/2711\r\n* Stop HTML escaping errors for /stats/requests endpoint by @cyberw in https://github.com/locustio/locust/pull/2710\r\n* Stop quoting error messages an extra time in distributed mode by @cyberw in https://github.com/locustio/locust/pull/2712\r\n* Give better error message if User subclass doesnt call base constructor by @cyberw in https://github.com/locustio/locust/pull/2713\r\n* Dont enable ipv6 for zmq if no ipv6 stack exists by @cyberw in https://github.com/locustio/locust/pull/2715\r\n* Pin the headers to the top of the window by @JavierUhagon in https://github.com/locustio/locust/pull/2717\r\n\r\n## New Contributors\r\n* @raulparada made their first contribution in https://github.com/locustio/locust/pull/2656\r\n* @JavierUhagon made their first contribution in https://github.com/locustio/locust/pull/2717\r\n\r\n**Full Changelog**: https://github.com/locustio/locust/compare/2.27.0...2.28.0"
     },
@@ -7731,11 +7731,11 @@
         "release_message": ""
     },
     "https://github.com/yaklang/yakit": {
-        "created_at": "2024-05-24 07:35:31",
+        "created_at": "2024-05-31 07:59:33",
         "description": "Cyber Security ALL-IN-ONE Platform",
-        "commit_message": "v1.3.3-sp2",
-        "commit_date": "2024-05-24 07:35:31",
-        "release_date": "2024-05-24 07:55:15",
+        "commit_message": "feat(third-party-config): support set space-engine domain (#1708)",
+        "commit_date": "2024-06-06 02:20:50",
+        "release_date": "2024-05-31 08:22:29",
         "release_message": ""
     },
     "https://github.com/bartblaze/Yara-rules": {
@@ -12895,12 +12895,12 @@
         "release_message": ""
     },
     "https://github.com/volatilityfoundation/volatility3": {
-        "created_at": "2024-01-31 21:21:20",
+        "created_at": "2024-05-29 19:24:06",
         "description": "Volatility 3.0 development",
-        "commit_message": "Merge pull request #1147 from eve-mem/windows_handles_debug_logging\n\nWindows: add extra debugging messages to handles plugin",
-        "commit_date": "2024-05-16 22:09:24",
-        "release_date": "2024-01-31 21:35:24",
-        "release_message": "* New Layers:\r\n  * Amazon S3 support\r\n  * Google Cloud Storage support\r\n* New plugins:\r\n  * `linux.vmayarascan`\r\n  * `windows.mftscan.ads`\r\n* New features:\r\n  * Dumping of Elf files added to the `elfs` plugin\r\n* Improvements to ELF support\r\n* Bugfixes to registry support\r\n* Documentation improvements\r\n* Better support for remote ISF directories"
+        "commit_message": "Core: Bump to 2.7.1",
+        "commit_date": "2024-05-29 19:44:04",
+        "release_date": "2024-05-29 19:45:32",
+        "release_message": "* New plugins: \r\n  - `windows.iat`\r\n  - `windows.truecrypt`\r\n  - `linux.library_list`\r\n  - `mac.dmesg`\r\n* Support for configuration files for common CLI options\r\n* `windows.driverirp`: Report IRP entries that point inside a hidden module\r\n* `windows.thrdscan`: Improvements\r\n* `linux.kmsg`: Supports older kernels\r\n* `mac.maps`: Add process dump support\r\n* Support for Python 3.12"
     },
     "https://github.com/7dog7/bottleneckOsmosis": {
         "created_at": "2019-06-03 04:16:06",
@@ -23108,12 +23108,12 @@
         "release_message": ""
     },
     "https://github.com/fingerprintjs/fingerprintjs": {
-        "created_at": "2024-04-24 07:04:55",
+        "created_at": "2024-06-05 08:20:58",
         "description": "Browser fingerprinting library. Accuracy of this version is 40-60%, accuracy of the commercial Fingerprint Identification is 99.5%. V4 of this library is BSL licensed.",
-        "commit_message": "docs(README): clarify community description (#1006)",
-        "commit_date": "2024-05-30 14:56:12",
-        "release_date": "2024-04-24 07:10:03",
-        "release_message": "- fix: A minus sign missing in the \"timezone\" entropy source fallback (#986)\r\n- fix: The geometry and text images in the \"canvas\" entropy source are swapped (#990). They were swapped mistakenly in v4.1.0."
+        "commit_message": "Bump the version to 4.4.1 (#1010)",
+        "commit_date": "2024-06-05 08:20:58",
+        "release_date": "2024-06-05 08:21:27",
+        "release_message": "- fix: A console warning regarding `AudioContext` (#1009)\r\n\r\nThis release will change fingerprints for some visitors."
     },
     "https://github.com/inbug-team/Log4j_RCE_Tool": {
         "created_at": "2021-12-11 02:04:37",
@@ -25178,8 +25178,8 @@
         "description": "360网络空间测绘 — 因为看见，所以安全"
     },
     "http://web.chacuo.net/charsetxxencode": {
-        "status_code": 200,
-        "description": "在线XXencode编码|在线XXencode解码|XX编码|XX解码|XXencode编码原理介绍--查错网"
+        "status_code": 502,
+        "description": "出错了---查错IT网"
     },
     "https://fofa.info/": {
         "status_code": 200,
@@ -25580,12 +25580,12 @@
         "release_message": "# 概述\r\n\r\n```\r\n██╗  ██╗ █████╗ ██████╗ ██████╗ ██╗   ██╗    ███╗   ██╗███████╗██╗    ██╗██╗   ██╗███████╗ █████╗ ██████╗ \r\n██║  ██║██╔══██╗██╔══██╗██╔══██╗╚██╗ ██╔╝    ████╗  ██║██╔════╝██║    ██║╚██╗ ██╔╝██╔════╝██╔══██╗██╔══██╗\r\n███████║███████║██████╔╝██████╔╝ ╚████╔╝     ██╔██╗ ██║█████╗  ██║ █╗ ██║ ╚████╔╝ █████╗  ███████║██████╔╝\r\n██╔══██║██╔══██║██╔═══╝ ██╔═══╝   ╚██╔╝      ██║╚██╗██║██╔══╝  ██║███╗██║  ╚██╔╝  ██╔══╝  ██╔══██║██╔══██╗\r\n██║  ██║██║  ██║██║     ██║        ██║       ██║ ╚████║███████╗╚███╔███╔╝   ██║   ███████╗██║  ██║██║  ██║\r\n╚═╝  ╚═╝╚═╝  ╚═╝╚═╝     ╚═╝        ╚═╝       ╚═╝  ╚═══╝╚══════╝ ╚══╝╚══╝    ╚═╝   ╚══════╝╚═╝  ╚═╝╚═╝  ╚═╝\r\n                         [+] SpringBoot-Scan V2.51-2024年 龙年新春贺岁版\r\n```\r\n\r\n光阴如梭，又是一年新春佳节，历经两百次的迭代更新，`SpringBoot-Scan` 在多场实战考验中战功赫赫，收获了1K多的Star~\r\n元旦更新了 `V2.40版本-龙年元旦贺岁版` ，年关将至，我们又更新了 `V2.51版本-龙年新春贺岁版`，对批量信息泄露扫描进行并发处理。感谢一路走来各位师傅给我的反馈和支持，祝各位师傅在新的一年事业有成、马到成功！\r\n\r\n```\r\n工具用法如下：\r\n        对单一URL进行信息泄露扫描:         python3 SpringBoot-Scan.py -u http://example.com/\r\n        读取目标TXT进行批量信息泄露扫描:    python3 SpringBoot-Scan.py -uf url.txt\r\n        对单一URL进行漏洞扫描:             python3 SpringBoot-Scan.py -v http://example.com/\r\n        读取目标TXT进行批量漏洞扫描：      python3 SpringBoot-Scan.py -vf url.txt\r\n        扫描并下载SpringBoot敏感文件:      python3 SpringBoot-Scan.py -d http://example.com/\r\n        使用HTTP代理并自动进行连通性测试:    python3 SpringBoot-Scan.py -p <代理IP:端口>\r\n        从TXT文件中导入自定义HTTP头部:       python3 SpringBoot-Scan.py -t header.txt\r\n        通过ZoomEye密钥进行API下载数据:      python3 SpringBoot-Scan.py -z <ZoomEye的API-KEY>\r\n        通过Fofa密钥进行API下载数据:         python3 SpringBoot-Scan.py -f <Fofa的API-KEY>\r\n        通过Hunter密钥进行API下载数据:       python3 SpringBoot-Scan.py -y <Hunter的API-KEY>\r\n```\r\n\r\n# 更新日志\r\n\r\n- **感谢 [`@Fkalis`](https://github.com/FFR66) 师傅，对批量信息泄露扫描进行并发处理，提高 `-uf` 参数的扫描速度**\r\n- **优化了相关的工作流，对部分冗余的代码进行优化**\r\n- **优化了输出提示，对部分内容的输出结果进行优化**\r\n- **V2.51版本-龙年新春贺岁版专门进行了打包，可以直接用可执行文件进行操作啦~**"
     },
     "https://github.com/abc123info/Struts2VulsScanTools": {
-        "created_at": "2024-02-02 07:12:42",
+        "created_at": "2024-05-23 07:16:14",
         "description": "1、点击“检测漏洞”，会自动检测该URL是否存在S2-001、S2-005、S2-009、S2-013、S2-016、S2-019、S2-020/021、S2-032、S2-037、DevMode、S2-045/046、S2-052、S2-048、S2-053、S2-057、S2-061、S2相关log4j2十余种漏洞。  2、“批量验证”，（为防止批量geshell，此功能已经删除，并不再开发）。  3、S2-020、S2-021仅提供漏洞扫描功能，因漏洞利用exp很大几率造成网站访问异常，本程序暂不提供。  4、对于需要登录的页面，请勾选“设置全局Cookie值”，并填好相应的Cookie，程序每次发包都会带上Cookie。  5、作者对不同的struts2漏洞测试语句做了大量修改，执行",
         "commit_message": "Update README.md",
         "commit_date": "2024-05-23 07:16:14",
-        "release_date": "2024-05-23 07:15:02",
-        "release_message": "2024.05.23 解决S2-045-2检测payload极端情况下误报问题。"
+        "release_date": "2024-06-05 05:52:38",
+        "release_message": "2024.06.05 大幅度更改判断漏洞存在与否的关键字，将Top、123、webpath、88888888等替换为随机字符。\r\n2024.06.01 解决Struts2 XSS漏洞检测bug。"
     },
     "https://github.com/birdhan/SecurityTools": {
         "created_at": "2022-03-07 07:52:37",
@@ -26639,8 +26639,8 @@
         "description": "CTFever Toolkit by uniiem"
     },
     "http://tool.chacuo.net/cryptrsaprikey": {
-        "status_code": 200,
-        "description": "在线RSA私钥加密解密、RSA private key encryption and decryption--查错网"
+        "status_code": 502,
+        "description": "出错了---查错IT网"
     },
     "http://www.atoolbox.net/Tool.php?Id=918": {
         "status_code": 200,
@@ -26767,8 +26767,8 @@
         "description": "BASE91编码解码 - Bugku CTF"
     },
     "http://tool.chacuo.net/cryptrsakeyparse": {
-        "status_code": 200,
-        "description": "RSA公私钥分解 Exponent、Modulus，Rsa公私钥指数、系数(模数)分解--查错网"
+        "status_code": 502,
+        "description": "出错了---查错IT网"
     },
     "http://www.hiencode.com/railfence.html": {
         "status_code": 200,
@@ -26799,8 +26799,8 @@
         "description": "出错了---查错IT网"
     },
     "http://tool.chacuo.net/cryptaes": {
-        "status_code": 200,
-        "description": "在线AES加密解密、AES在线加密解密、AES encryption and decryption--查错网"
+        "status_code": 502,
+        "description": "出错了---查错IT网"
     },
     "https://ctf.bugku.com/tool/base16": {
         "status_code": 200,
@@ -26875,8 +26875,8 @@
         "description": "CTF在线工具-在线HTML编码|在线HTML解码"
     },
     "http://tool.chacuo.net/cryptrsakeyvalid": {
-        "status_code": 200,
-        "description": "在线RSA公私密钥校验、RSA公私密钥检查、Online RSA public-private key verification--查错网"
+        "status_code": 502,
+        "description": "出错了---查错IT网"
     },
     "http://www.hiencode.com/caes.html": {
         "status_code": 200,
@@ -26971,8 +26971,8 @@
         "description": "CTF在线工具-在线base58编码|在线base58解码|base58编码|base58解码|base58check"
     },
     "http://web.chacuo.net/netrsakeypair": {
-        "status_code": 200,
-        "description": "在线生成非对称加密公钥私钥对、在线生成公私钥对、RSA Key pair create、生成RSA密钥对--查错网"
+        "status_code": 502,
+        "description": "出错了---查错IT网"
     },
     "http://www.atoolbox.net/Tool.php?Id=932": {
         "status_code": 200,
@@ -27074,7 +27074,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "172.183.122.145属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "20.161.78.59属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
@@ -27655,8 +27655,8 @@
     "https://github.com/Leon406/ToolsFx": {
         "created_at": "2024-04-29 03:16:29",
         "description": "基于kotlin+tornadoFx的跨平台密码学工具箱.包含编解码,编码转换,加解密, 哈希,MAC,签名,大数运算,压缩,二维码功能,ctf等实用功能,支持插件",
-        "commit_message": "Merge remote-tracking branch 'origin/dev' into dev",
-        "commit_date": "2024-05-24 07:00:21",
+        "commit_message": "chore(deps): update dependency gradle to v8.8",
+        "commit_date": "2024-06-01 14:14:41",
         "release_date": "2024-04-29 12:06:21",
         "release_message": "已开通打赏渠道,入口不会嵌入软件中\r\n想支持作者,可在README或者个人github主页打赏\r\n\r\n再次感谢 naonaonao 师傅支持！\r\n\r\n## What's Changed\r\n* v1.17.0 by @Leon406 in https://github.com/Leon406/ToolsFx/pull/163\r\n* fix(deps): update dependency org.seleniumhq.selenium:selenium-java to v4.13.0 by @renovate in https://github.com/Leon406/ToolsFx/pull/165\r\n* fix(deps): update dependency com.github.luben:zstd-jni to v1.5.5-6 by @renovate in https://github.com/Leon406/ToolsFx/pull/166\r\n* fix(deps): update dependency androidx.collection:collection-ktx to v1.3.0 by @renovate in https://github.com/Leon406/ToolsFx/pull/167\r\n* chore(deps): update dependency gradle to v8.4 by @renovate in https://github.com/Leon406/ToolsFx/pull/168\r\n* fix(deps): update dependency org.mockito:mockito-core to v5.6.0 by @renovate in https://github.com/Leon406/ToolsFx/pull/169\r\n* fix(deps): update dependency org.seleniumhq.selenium:selenium-java to v4.14.0 by @renovate in https://github.com/Leon406/ToolsFx/pull/170\r\n* fix(deps): update dependency org.seleniumhq.selenium:selenium-java to v4.14.1 by @renovate in https://github.com/Leon406/ToolsFx/pull/171\r\n* fix(deps): update dependency org.xerial:sqlite-jdbc to v3.43.2.0 by @renovate in https://github.com/Leon406/ToolsFx/pull/172\r\n* fix(deps): update dependency org.xerial:sqlite-jdbc to v3.43.2.1 by @renovate in https://github.com/Leon406/ToolsFx/pull/173\r\n* fix(deps): update dependency org.jsoup:jsoup to v1.16.2 by @renovate in https://github.com/Leon406/ToolsFx/pull/174\r\n* fix(deps): update dependency org.jetbrains.kotlin:kotlin-reflect to v1.9.20 by @renovate in https://github.com/Leon406/ToolsFx/pull/177\r\n* fix(deps): update dependency org.xerial:sqlite-jdbc to v3.43.2.2 by @renovate in https://github.com/Leon406/ToolsFx/pull/176\r\n* fix(deps): update dependency com.github.luben:zstd-jni to v1.5.5-7 by @renovate in https://github.com/Leon406/ToolsFx/pull/175\r\n* chore(deps): update detektver to v1.23.3 by @renovate in https://github.com/Leon406/ToolsFx/pull/178\r\n* fix(deps): update dependency com.github.luben:zstd-jni to v1.5.5-9 by @renovate in https://github.com/Leon406/ToolsFx/pull/179\r\n* fix(deps): update dependency com.github.luben:zstd-jni to v1.5.5-10 by @renovate in https://github.com/Leon406/ToolsFx/pull/180\r\n* fix(deps): update dependency org.seleniumhq.selenium:selenium-java to v4.15.0 by @renovate in https://github.com/Leon406/ToolsFx/pull/181\r\n* fix(deps): update dependency org.mockito:mockito-core to v5.7.0 by @renovate in https://github.com/Leon406/ToolsFx/pull/182\r\n* fix(deps): update dependency dnsjava:dnsjava to v3.5.3 by @renovate in https://github.com/Leon406/ToolsFx/pull/183\r\n* fix(deps): update dependency cn.hutool:hutool-all to v5.8.23 by @renovate in https://github.com/Leon406/ToolsFx/pull/184\r\n* fix(deps): update dependency org.xerial:sqlite-jdbc to v3.44.0.0 by @renovate in https://github.com/Leon406/ToolsFx/pull/185\r\n* fix(deps): update dependency org.bouncycastle:bcprov-jdk18on to v1.77 by @renovate in https://github.com/Leon406/ToolsFx/pull/186\r\n* fix(deps): update dependency org.jetbrains.kotlinx:kotlinx-serialization-json to v1.6.1 by @renovate in https://github.com/Leon406/ToolsFx/pull/187\r\n* fix(deps): update dependency org.apache.commons:commons-compress to v1.25.0 by @renovate in https://github.com/Leon406/ToolsFx/pull/188\r\n* fix(deps): update kotlin monorepo to v1.9.21 by @renovate in https://github.com/Leon406/ToolsFx/pull/189\r\n* chore(deps): update detektver to v1.23.4 by @renovate in https://github.com/Leon406/ToolsFx/pull/190\r\n* fix(deps): update dependency org.xerial:sqlite-jdbc to v3.44.1.0 by @renovate in https://github.com/Leon406/ToolsFx/pull/191\r\n* fix(deps): update dependency org.jsoup:jsoup to v1.17.1 by @renovate in https://github.com/Leon406/ToolsFx/pull/192\r\n* chore(deps): update actions/setup-java action to v4 by @renovate in https://github.com/Leon406/ToolsFx/pull/194\r\n* chore(deps): update dependency gradle to v8.5 by @renovate in https://github.com/Leon406/ToolsFx/pull/193\r\n* fix(deps): update dependency org.jetbrains.kotlinx:kotlinx-serialization-json to v1.6.2 by @renovate in https://github.com/Leon406/ToolsFx/pull/195\r\n* fix(deps): update dependency com.github.luben:zstd-jni to v1.5.5-11 by @renovate in https://github.com/Leon406/ToolsFx/pull/196\r\n* fix(deps): update dependency org.mockito:mockito-core to v5.8.0 by @renovate in https://github.com/Leon406/ToolsFx/pull/197\r\n* chore(deps): update dependency com.diffplug.spotless to v6.23.2 by @renovate in https://github.com/Leon406/ToolsFx/pull/198\r\n* chore(deps): update dependency com.diffplug.spotless to v6.23.3 by @renovate in https://github.com/Leon406/ToolsFx/pull/199\r\n* fix(deps): update dependency org.seleniumhq.selenium:selenium-java to v4.16.0 by @renovate in https://github.com/Leon406/ToolsFx/pull/200\r\n* fix(deps): update dependency org.seleniumhq.selenium:selenium-java to v4.16.1 by @renovate in https://github.com/Leon406/ToolsFx/pull/201\r\n* fix(deps): update dependency net.java.dev.jna:jna-platform to v5.14.0 by @renovate in https://github.com/Leon406/ToolsFx/pull/202\r\n* chore(deps): update github/codeql-action action to v3 by @renovate in https://github.com/Leon406/ToolsFx/pull/203\r\n* chore(deps): update actions/upload-artifact action to v4 by @renovate in https://github.com/Leon406/ToolsFx/pull/204\r\n* fix(deps): update dependency org.javassist:javassist to v3.30.1-ga by @renovate in https://github.com/Leon406/ToolsFx/pull/205\r\n* fix(deps): update dependency org.java-websocket:java-websocket to v1.5.5 by @renovate in https://github.com/Leon406/ToolsFx/pull/206\r\n* fix(deps): update kotlin monorepo to v1.9.22 by @renovate in https://github.com/Leon406/ToolsFx/pull/207\r\n* fix(deps): update dependency cn.hutool:hutool-all to v5.8.24 by @renovate in https://github.com/Leon406/ToolsFx/pull/208\r\n* fix(deps): update dependency org.javassist:javassist to v3.30.2-ga by @renovate in https://github.com/Leon406/ToolsFx/pull/209\r\n* fix(deps): update dependency org.jsoup:jsoup to v1.17.2 by @renovate in https://github.com/Leon406/ToolsFx/pull/210\r\n* fix(deps): update dependency cn.hutool:hutool-all to v5.8.25 by @renovate in https://github.com/Leon406/ToolsFx/pull/211\r\n* fix(deps): update dependency org.mockito:mockito-core to v5.9.0 by @renovate in https://github.com/Leon406/ToolsFx/pull/212\r\n* chore(deps): update dependency com.diffplug.spotless to v6.24.0 by @renovate in https://github.com/Leon406/ToolsFx/pull/213\r\n* chore(deps): update actions/cache action to v4 by @renovate in https://github.com/Leon406/ToolsFx/pull/214\r\n* fix(deps): update dependency org.xerial:sqlite-jdbc to v3.45.0.0 by @renovate in https://github.com/Leon406/ToolsFx/pull/215\r\n* chore(deps): update dependency com.diffplug.spotless to v6.25.0 by @renovate in https://github.com/Leon406/ToolsFx/pull/216\r\n* fix(deps): update dependency org.seleniumhq.selenium:selenium-java to v4.17.0 by @renovate in https://github.com/Leon406/ToolsFx/pull/217\r\n* fix(deps): update dependency org.mockito:mockito-core to v5.10.0 by @renovate in https://github.com/Leon406/ToolsFx/pull/219\r\n* fix(deps): update dependency androidx.collection:collection-ktx to v1.4.0 by @renovate in https://github.com/Leon406/ToolsFx/pull/218\r\n* fix(deps): update dependency com.google.zxing:javase to v3.5.3 by @renovate in https://github.com/Leon406/ToolsFx/pull/223\r\n* fix(deps): update dependency org.xerial:sqlite-jdbc to v3.45.1.0 by @renovate in https://github.com/Leon406/ToolsFx/pull/224\r\n* chore(deps): update detektver to v1.23.5 by @renovate in https://github.com/Leon406/ToolsFx/pull/225\r\n* chore(deps): update dependency gradle to v8.6 by @renovate in https://github.com/Leon406/ToolsFx/pull/226\r\n* fix(deps): update dependency org.java-websocket:java-websocket to v1.5.6 by @renovate in https://github.com/Leon406/ToolsFx/pull/227\r\n* fix(deps): update dependency cn.hutool:hutool-all to v5.8.26 by @renovate in https://github.com/Leon406/ToolsFx/pull/228\r\n* fix(deps): update coroutinever to v1.8.0 by @renovate in https://github.com/Leon406/ToolsFx/pull/229\r\n* fix(deps): update dependency org.jetbrains.kotlinx:kotlinx-serialization-json to v1.6.3 by @renovate in https://github.com/Leon406/ToolsFx/pull/230\r\n* fix(deps): update dependency org.apache.commons:commons-compress to v1.26.0 by @renovate in https://github.com/Leon406/ToolsFx/pull/231\r\n* fix(deps): update dependency org.seleniumhq.selenium:selenium-java to v4.18.0 by @renovate in https://github.com/Leon406/ToolsFx/pull/232\r\n* fix(deps): update dependency org.seleniumhq.selenium:selenium-java to v4.18.1 by @renovate in https://github.com/Leon406/ToolsFx/pull/233\r\n* fix(deps): update dependency org.mockito:mockito-core to v5.11.0 by @renovate in https://github.com/Leon406/ToolsFx/pull/234\r\n* fix(deps): update kotlin monorepo to v1.9.23 by @renovate in https://github.com/Leon406/ToolsFx/pull/235\r\n* fix(deps): update dependency org.apache.commons:commons-compress to v1.26.1 by @renovate in https://github.com/Leon406/ToolsFx/pull/236\r\n* fix(deps): update dependency org.xerial:sqlite-jdbc to v3.45.2.0 by @renovate in https://github.com/Leon406/ToolsFx/pull/237\r\n* chore(deps): update dependency gradle to v8.7 by @renovate in https://github.com/Leon406/ToolsFx/pull/238\r\n* chore(deps): update detektver to v1.23.6 by @renovate in https://github.com/Leon406/ToolsFx/pull/239\r\n* fix(deps): update dependency com.github.luben:zstd-jni to v1.5.6-1 by @renovate in https://github.com/Leon406/ToolsFx/pull/241\r\n* fix(deps): update dependency org.seleniumhq.selenium:selenium-java to v4.19.0 - autoclosed by @renovate in https://github.com/Leon406/ToolsFx/pull/240\r\n* fix(deps): update dependency cn.hutool:hutool-all to v5.8.27 by @renovate in https://github.com/Leon406/ToolsFx/pull/242\r\n* fix(deps): update dependency org.seleniumhq.selenium:selenium-java to v4.19.1 by @renovate in https://github.com/Leon406/ToolsFx/pull/243\r\n* fix(deps): update dependency com.github.luben:zstd-jni to v1.5.6-2 by @renovate in https://github.com/Leon406/ToolsFx/pull/244\r\n* fix(deps): update dependency org.bouncycastle:bcprov-jdk18on to v1.78 by @renovate in https://github.com/Leon406/ToolsFx/pull/245\r\n* fix(deps): update dependency org.xerial:sqlite-jdbc to v3.45.3.0 by @renovate in https://github.com/Leon406/ToolsFx/pull/247\r\n* fix(deps): update dependency org.bouncycastle:bcprov-jdk18on to v1.78.1 by @renovate in https://github.com/Leon406/ToolsFx/pull/249\r\n* fix(deps): update dependency com.github.luben:zstd-jni to v1.5.6-3 by @renovate in https://github.com/Leon406/ToolsFx/pull/250\r\n* fix(deps): update dependency org.seleniumhq.selenium:selenium-java to v4.20.0 by @renovate in https://github.com/Leon406/ToolsFx/pull/251\r\n\r\n\r\n**Full Changelog**: https://github.com/Leon406/ToolsFx/compare/v1.17.0...v1.18.0"
     },
@@ -28001,12 +28001,12 @@
         "release_message": "This is a hot-fix release, see [v3.0.9 release notes](https://github.com/kubescape/kubescape/releases/tag/v3.0.9).\r\n\r\n## 🐞 Fixed issues\r\n* Fix scanning repo by @dwertent in https://github.com/kubescape/kubescape/pull/1680\r\n\r\n**Full Changelog**: https://github.com/kubescape/kubescape/compare/v3.0.9...v3.0.10"
     },
     "https://github.com/zema1/watchvuln": {
-        "created_at": "2024-04-29 06:12:34",
+        "created_at": "2024-06-04 12:16:45",
         "description": "一个高价值漏洞采集与推送服务 | collect valueable vulnerability and push it",
-        "commit_message": "Merge pull request #82 from zema1/feat-diff\n\nfeat: diff mode",
-        "commit_date": "2024-05-09 11:42:44",
-        "release_date": "2024-04-29 06:20:57",
-        "release_message": "> 所有二进制由 Github Action 自动构建并自动上传，请放心使用\r\n> Docker 用户请手动 `docker pull zemal/watchvuln:latest`\r\n\r\n\r\n\r\n### 变更\r\n\r\n- 改进微步数据源推送策略，降低古董漏洞推送数量\r\n"
+        "commit_message": "Merge pull request #85 from zema1/feat-filter-list\n\nfeat: add product filter list",
+        "commit_date": "2024-06-04 12:16:45",
+        "release_date": "2024-06-04 12:28:35",
+        "release_message": "> 所有二进制由 Github Action 自动构建并自动上传，请放心使用\r\n> Docker 用户请手动 `docker pull zemal/watchvuln:latest`\r\n\r\n\r\n### 新增\r\n\r\n- 支持白名单关键词过滤, 用于只推送包含白名单关键词的漏洞, 通过 `-wf` 或者环境变量 `WHITELIST_FILE`\r\n  指定 [#84](https://github.com/zema1/watchvuln/issues/84)\r\n- 支持黑名单关键词过滤, 用于过滤包含黑名单关键词的漏洞, 通过 `-bf` 或者环境变量 `BLACKLIST_FILE` 指定\r\n\r\n"
     },
     "https://github.com/javaweb-sec/javaweb-sec": {
         "created_at": "2021-03-22 07:29:49",
