@@ -5668,13 +5668,13 @@
         "release_message": "**Changelog**\r\n- Feature: Obtains current login screen instead of simply showing the default\r\n- Feature: Minize all windows to hide tools with the 'Always On Top' setting\r\n- Bugfix: Updated font of labels to Segoe UI Light (Issue #1)\r\n- Release now contains two binaries: one that writes to a file and the other one which only writes to console"
     },
     "https://github.com/alexandreborges/malwoverview": {
-        "created_at": "2018-09-08 02:08:49",
+        "created_at": "2024-05-20 15:49:17",
         "description": "Malwoverview is a first response tool used for threat hunting and offers intel information from Virus Total, Hybrid Analysis, URLHaus, Polyswarm, Malshare, Alien Vault, Malpedia, Malware Bazaar, ThreatFox, Triage, InQuest and it is able to scan Android devices against VT.",
-        "commit_date": "2023-10-29 18:49:03",
+        "commit_date": "2024-05-21 18:18:00",
         "commit_message": "Malwoverview",
         "release_tag": "v5.4.2",
-        "release_date": "2023-10-29 18:50:38",
-        "release_message": "Malwoverview 5.4.2"
+        "release_date": "2024-05-21 18:19:37",
+        "release_message": "Malwoverview 5.4.4"
     },
     "https://github.com/Bywalks/DarkAngel/": {
         "created_at": "",
@@ -6025,9 +6025,9 @@
         "created_at": "2024-01-05 02:10:41",
         "description": "蓝队分析研判工具箱，功能包括内存马反编译分析、各种代码格式化、网空资产测绘功能、溯源辅助、解密冰蝎流量、解密哥斯拉流量、解密Shiro/CAS/Log4j2的攻击payload、IP/端口连接分析、各种编码/解码功能、蓝队分析常用网址、java反序列化数据包分析、Java类名搜索、Fofa搜索、Hunter搜索等。",
         "commit_message": "Update README.md",
-        "commit_date": "2024-01-05 02:10:41",
-        "release_date": "2024-01-05 02:10:15",
-        "release_message": "2024.01.05 修正\"反序列化数据包分析\"功能的变量未初始化导致解析错误。\r\n2024.01.03 修正\"查询ip对应物理地址\"功能，直接输入ip列表也可以查询物理地址。"
+        "commit_date": "2024-06-05 10:15:56",
+        "release_date": "2024-06-05 10:15:16",
+        "release_message": "2024.06.05 增加对哥斯拉3.x~4.x请求包、返回包的解密结果生成二进制文件功能，解决流量中掺杂附件的问题。\r\n2024.06.04 修复\"网空资产测绘\"功能的多个bug，添加对域名搜索功能。"
     },
     "https://github.com/yutianqaq/impacket-gui": {
         "created_at": "2023-09-01 10:27:31",
@@ -9777,7 +9777,7 @@
         "release_message": "## csprecon v0.0.8 🥳\r\n\r\n**Discover new target domains using Content Security Policy**\r\n```console\r\nsudo snap install csprecon\r\n```\r\n```console\r\ngo install github.com/edoardottt/csprecon/cmd/csprecon@latest\r\n```\r\n\r\n- Makefile\r\n- Dependencies update\r\n- Tests\r\n- Linting\r\n- Minor fixes and changes\r\n\r\nIf you encounter a problem, just open an [issue](https://github.com/edoardottt/csprecon/issues)"
     },
     "https://github.com/Nekmo/dirhunt": {
-        "created_at": "2018-01-05 01:05:51",
+        "created_at": "2022-05-16 00:32:49",
         "description": "Find web directories without bruteforce",
         "commit_date": "2023-08-14 15:52:22",
         "commit_message": "Bump version: 0.9.0 → 1.0.0",
@@ -24412,8 +24412,8 @@
         "description": "魅族安全中心"
     },
     "https://sec.vip.com/": {
-        "status_code": 200,
-        "description": "VSRC首页-唯品会信息安全中心"
+        "status_code": 503,
+        "description": ""
     },
     "https://sec.wacai.com/": {
         "status_code": 200,
@@ -25730,12 +25730,12 @@
         "commit_date": "2023-07-23 11:53:29"
     },
     "https://github.com/m-sec-org/EZ": {
-        "created_at": "2023-12-29 04:07:16",
+        "created_at": "2024-04-10 02:45:51",
         "description": "EZ是一款集信息收集、端口扫描、服务暴破、URL爬虫、指纹识别、被动扫描为一体的跨平台漏洞扫描器。",
-        "commit_message": "🎉 update readme",
-        "commit_date": "2023-12-29 04:07:16",
-        "release_date": "2024-02-28 07:53:33",
-        "release_message": "## 1.8.7 更新记录\r\n1. HawkX爬虫引擎更新，页面分析更加精细化, 完善部分场景下的 POST流量捕获\r\n2. 爬虫结果新增报文详情页面\r\n3. 爬虫结果新增URL导出功能\r\n4. 移除HTML漏洞报告导出的数量限制\r\n5. 越权插件鉴权方式配置修改为headers\r\n6. EZ Web表单暴破插件新增字典文件配置"
+        "commit_message": "Update README.md",
+        "commit_date": "2024-04-10 02:45:51",
+        "release_date": "2024-06-05 08:14:27",
+        "release_message": "## 1.8.9 更新记录\r\n1. 修复webscan主动扫描没结束就提前退出的问题\r\n2. ez-helper新增漏洞等级多选过滤\r\n3. ez-helper新增自定义漏洞等级通知\r\n4. ez web优化某些情况下httpinfo超时问题\r\n5. ez web资产分拣新增C段统计功能\r\n6. ez web创建任务提交参数优化"
     },
     "https://github.com/kvesta/vesta": {
         "created_at": "2024-04-03 12:43:11",
@@ -27074,7 +27074,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "172.183.91.167属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "74.249.5.226属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
@@ -28249,8 +28249,8 @@
         "description": "The Zeek Network Security Monitor"
     },
     "https://gitee.com/freshday/radar": {
-        "status_code": 200,
-        "description": "radar: 实时风控引擎(Risk Engine)，自定义规则引擎(Rule Script)，完美支持中文，适用于反欺诈(Anti-fraud)应用场景，开箱即用！！！移动互联网时代的风险管理利器，你 Get 到了吗？"
+        "status_code": 502,
+        "description": "502 Bad Gateway"
     },
     "https://www.la-samhna.de/": {
         "status_code": 200,
