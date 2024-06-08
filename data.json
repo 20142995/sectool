@@ -24412,8 +24412,8 @@
         "description": "魅族安全中心"
     },
     "https://sec.vip.com/": {
-        "status_code": 503,
-        "description": ""
+        "status_code": 200,
+        "description": "VSRC首页-唯品会信息安全中心"
     },
     "https://sec.wacai.com/": {
         "status_code": 200,
@@ -27019,8 +27019,8 @@
     "https://github.com/leonteale/pentestpackage": {
         "created_at": "2014-04-25 00:29:27",
         "description": "a package of Pentest scripts I have made or  commonly use",
-        "commit_message": "Merge pull request #12 from leonteale/dependabot/npm_and_yarn/dev-mightnotworkyet/Suggester/es5-ext-0.10.64\n\nBump es5-ext from 0.10.62 to 0.10.64 in /dev-mightnotworkyet/Suggester",
-        "commit_date": "2024-04-02 10:25:59"
+        "commit_message": "Update fresh_install_automated_changes.sh\n\nMajor Changes:\r\nRemoved Parrot OS Options:\r\n\r\nThe script now only supports Kali Linux.\r\nError Handling:\r\n\r\nAdded error handling functions to prompt the user to retry, skip, or exit the script if a step fails.\r\nOutput Colors:\r\n\r\nEnhanced the script with colored output for better readability using ANSI escape codes.\r\nReorganization:\r\n\r\nReorganized the script to ensure tasks are performed in a logical order.",
+        "commit_date": "2024-06-06 09:39:20"
     },
     "https://github.com/f4cknet/pyhackme": {
         "created_at": "2023-11-03 13:50:55",
@@ -27074,7 +27074,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "13.86.225.52属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "13.88.99.128属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
