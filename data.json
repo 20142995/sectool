@@ -524,7 +524,7 @@
         "commit_date": "2024-06-03 02:44:12"
     },
     "https://github.com/gwen001/github-subdomains": {
-        "created_at": "2020-07-24 06:54:29",
+        "created_at": "2023-02-09 13:53:02",
         "description": "Find subdomains on GitHub.",
         "commit_date": "2023-03-28 15:47:04",
         "commit_message": "readme",
@@ -712,7 +712,7 @@
         "release_message": "修复了一处dnslog.cn超时过短,导致使用者网卡时老是显示dnslog超时的错误\r\n\r\n建议更新!!!!"
     },
     "https://github.com/AngelKitty/stegosaurus": {
-        "created_at": "2018-11-05 05:27:13",
+        "created_at": "2019-10-07 13:15:43",
         "description": "A steganography tool for embedding payloads within Python bytecode.",
         "commit_date": "2019-10-07 13:15:43",
         "commit_message": "build && create binary file",
@@ -1167,8 +1167,8 @@
     "https://github.com/BaizeSec/bylibrary": {
         "created_at": "2020-10-20 12:47:33",
         "description": "白阁文库是白泽Sec安全团队维护的一个漏洞POC和EXP公开项目",
-        "commit_date": "2022-08-15 14:27:05",
-        "commit_message": "update",
+        "commit_date": "2023-10-12 08:51:28",
+        "commit_message": "Update 团队简介.md\n\nLast update, at least for now",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -1967,13 +1967,13 @@
         "release_message": ""
     },
     "https://github.com/makoto56/penetration-suite-toolkit": {
-        "created_at": "2021-09-03 00:47:14",
+        "created_at": "2022-12-11 11:22:06",
         "description": "本项目制作的初衷是帮助渗透新手快速搭建工作环境，工欲善其事，必先利其器。",
-        "commit_date": "2022-12-11 11:22:06",
+        "commit_date": "2024-04-22 03:34:00",
         "commit_message": "Update README.md",
         "release_tag": "v4.0",
-        "release_date": "2022-04-05 16:46:01",
-        "release_message": "Penetration Suite Toolkit v4.0：\r\n链接：https://pan.baidu.com/s/1yyHd7jYrNdnzlZe9dl3gdw?pwd=vb5a\r\n\r\n全套虚拟机镜像：\r\n链接：https://pan.xunlei.com/s/VN2xlbB9pxTo0bWdgdg5vXUtA1?pwd=fvp3\r\n\r\n软件安装包：\r\n链接：https://pan.xunlei.com/s/VNIof2IDw2PX34Uz9zaiPDK-A1?pwd=sfn6"
+        "release_date": "2024-04-18 09:51:59",
+        "release_message": "Penetration Suite Toolkit v5.0：\r\n链接：https://pan.baidu.com/s/1NuMveYWy3BOGBUsu5Ztlbg?pwd=8tje\r\n注：由于部分用户反馈 ova 文件导入失败，现重新上传压缩包版本，解压后打开 vmx 文件即用。\r\n\r\n全套虚拟机镜像：\r\n链接：https://pan.xunlei.com/s/VN2xlbB9pxTo0bWdgdg5vXUtA1?pwd=fvp3"
     },
     "https://github.com/bit4woo/knife": {
         "created_at": "2024-05-06 10:51:08",
@@ -2174,7 +2174,7 @@
         "release_message": "## [0.4.5](https://github.com/shmilylty/oneforall/releases/tag/v0.4.5) - 2022-07-10\r\n- 修复了#254"
     },
     "https://github.com/jweny/pocassistdb": {
-        "created_at": "2021-06-16 09:56:49",
+        "created_at": "2021-07-09 10:11:13",
         "description": "database of pocassist（漏洞库）",
         "commit_date": "2021-07-09 10:11:13",
         "commit_message": "Update db for 1.0.2",
@@ -5553,7 +5553,7 @@
         "release_message": ""
     },
     "https://github.com/urbanadventurer/WhatWeb": {
-        "created_at": "2010-09-30 10:00:30",
+        "created_at": "2021-01-15 14:48:22",
         "description": "Next generation web scanner",
         "commit_date": "2022-02-05 15:10:40",
         "commit_message": "Whitespace",
@@ -5942,13 +5942,13 @@
         "release_message": "23年8月5号更新\r\n- 新增随机生成服务端证书，进一步去除特征\r\n- 修改帮助信息\r\n"
     },
     "https://github.com/Schira4396/VcenterKiller": {
-        "created_at": "2022-10-04 03:39:27",
+        "created_at": "2023-12-06 15:18:55",
         "description": "一款针对Vcenter的综合利用工具，包含目前最主流的CVE-2021-21972、CVE-2021-21985以及CVE-2021-22005、One Access的CVE-2022-22954、CVE-2022-22972/31656以及log4j，提供一键上传webshell，命令执行或者上传公钥使用SSH免密连接",
-        "commit_date": "2022-12-15 04:07:21",
-        "commit_message": "v1.3.6",
+        "commit_date": "2024-04-25 06:09:38",
+        "commit_message": "Update README.md",
         "release_tag": "v1.3.6",
-        "release_date": "2022-12-15 04:06:45",
-        "release_message": "优化"
+        "release_date": "2023-12-06 15:30:57",
+        "release_message": "add proxy"
     },
     "https://github.com/yggo/SmartBIAttackTool": {
         "created_at": "2023-07-08 10:04:31",
@@ -17856,7 +17856,7 @@
         "release_message": ""
     },
     "https://github.com/langligelang/CAS_EXP": {
-        "created_at": "2020-07-16 02:13:17",
+        "created_at": "2020-07-15 13:56:21",
         "description": "CAS 硬编码 远程代码执行漏洞",
         "commit_date": "2020-07-31 06:51:11",
         "commit_message": "初始化提交",
@@ -23309,7 +23309,7 @@
         "release_message": ""
     },
     "https://github.com/22XploiterCrew-Team/WpCrack": {
-        "created_at": "2020-11-09 12:46:31",
+        "created_at": "2021-05-18 10:46:28",
         "description": "WpCrack is an audit and brute force tool used to remotely test WordPress blogging software",
         "commit_date": "2023-03-16 13:38:52",
         "commit_message": "Update WpCrack.py\n\nadded Content-Type for requests",
@@ -24412,8 +24412,8 @@
         "description": "魅族安全中心"
     },
     "https://sec.vip.com/": {
-        "status_code": 503,
-        "description": ""
+        "status_code": 200,
+        "description": "VSRC首页-唯品会信息安全中心"
     },
     "https://sec.wacai.com/": {
         "status_code": 200,
@@ -27074,7 +27074,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "52.159.137.0属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "20.75.95.96属于美国 弗吉尼亚 博伊顿 微软云 数据中心_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
@@ -27273,8 +27273,8 @@
         "description": "Find Missing Patches"
     },
     "https://www.pan131.com/": {
-        "status_code": 504,
-        "description": "504 Gateway Time-out"
+        "status_code": 200,
+        "description": "百度云搜索,百度网盘云盘资源搜索引擎 - 盘131"
     },
     "http://whois.alexa.cn/": {
         "status_code": 200,
