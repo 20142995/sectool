@@ -1922,13 +1922,13 @@
         "release_message": "1、清除任务名称存在的标点符号，以确保能在Windows下创建文件。\r\n2、以导出数据的风险等级命名保存文件。"
     },
     "https://github.com/cseroad/Exp-Tools": {
-        "created_at": "2023-10-15 07:28:21",
+        "created_at": "2024-02-20 09:21:44",
         "description": "一款集成高危漏洞exp的实用性工具",
-        "commit_date": "2024-02-20 09:21:44",
+        "commit_date": "2024-06-07 07:46:45",
         "commit_message": "Update README.md",
         "release_tag": "v1.2.3",
-        "release_date": "2024-02-20 09:19:12",
-        "release_message": "- 新增蓝凌、用友、万户部分漏洞\r\n- 修复部分漏洞误报\r\n- 修复asp上传内容\r\n- 优化部分代码\r\n- 取消密码"
+        "release_date": "2024-06-07 07:46:02",
+        "release_message": "- 新增广联达oa漏洞\r\n- 修复部分漏洞误报\r\n- 新增帆软报表漏洞导致jar包体积变大\r\n- 优化部分代码"
     },
     "https://github.com/Acmesec/Sylas": {
         "created_at": "2022-10-09 11:06:28",
@@ -23958,10 +23958,10 @@
         "release_message": ""
     },
     "https://github.com/0x783kb/Security-operation-book": {
-        "created_at": "",
-        "description": "",
-        "commit_date": "2023-11-30 04:52:56",
-        "commit_message": "Update T1190-Exchange-ProxyLogon利用行为检测.md",
+        "created_at": "2019-07-10 08:44:30",
+        "description": "常见的黑客行为监测特征及方法，涵盖端点和流量，未包含PowerShell和Sysmon。预祝运营生活愉快！",
+        "commit_date": "2024-06-07 06:36:21",
+        "commit_message": "6月7日大版本更新，统一数据源格式、场景名称等",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -24412,8 +24412,8 @@
         "description": "魅族安全中心"
     },
     "https://sec.vip.com/": {
-        "status_code": 200,
-        "description": "VSRC首页-唯品会信息安全中心"
+        "status_code": 503,
+        "description": ""
     },
     "https://sec.wacai.com/": {
         "status_code": 200,
@@ -25678,8 +25678,8 @@
     "https://github.com/1N3/Sn1per": {
         "created_at": "2023-07-29 16:36:08",
         "description": "Attack Surface Management Platform",
-        "commit_message": "Update README.md",
-        "commit_date": "2023-10-30 22:25:30",
+        "commit_message": "Update sniper",
+        "commit_date": "2024-05-29 21:09:56",
         "release_date": "2023-07-29 16:40:37",
         "release_message": "## CHANGELOG:\r\n* v9.2 - Added Tomba.io API integration via OSINT mode (Credit: @benemohamed)\r\n* v9.2 - Fixed issue with gau tool not installing and updated GAU setting in confs\r\n* v9.2 - Updated python2 to python3\r\n* v9.2 - Removed Slurp tool\r\n* v9.2 - Added BlackArch Dockerfile (Credit: @AnonymousWP)\r\n* v9.2 - Updated DockerFile to latest Kali release (Credit: @AnonymousWP)"
     },
@@ -27074,7 +27074,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "13.88.99.128属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "52.159.137.0属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
@@ -27273,8 +27273,8 @@
         "description": "Find Missing Patches"
     },
     "https://www.pan131.com/": {
-        "status_code": 200,
-        "description": "百度云搜索,百度网盘云盘资源搜索引擎 - 盘131"
+        "status_code": 504,
+        "description": "504 Gateway Time-out"
     },
     "http://whois.alexa.cn/": {
         "status_code": 200,
@@ -27675,8 +27675,8 @@
         "description": "一款针对CTF竞赛MISC的工具~",
         "commit_message": "更新: README.md",
         "commit_date": "2024-02-11 11:04:42",
-        "release_date": "2024-05-10 02:02:15",
-        "release_message": "PS：由于有人公开号召逆向我软件的所有代码，所以本人目前停止后续版本的分享！\r\n\r\n🆕2024.5.3终止 `Lv60` 免费入群\r\n🐧交流群：`761594154` ，群等级 `Lv60` 以上（包括`Lv60`）可以免费拿软件；如果不想要活跃群去获得软件，当然可以走捷径，捐赠 `50` ，后续本人有时间软件会继续更新。\r\n\r\n```\r\nVersion 2.0.6 更新日志：\r\n1）新增：\r\n  `流量处理` 功能区 `Behinder`, `Godzilla`, `BruteForceTraffic` 添加 `按钮Url解码````\r\n```\r\n\r\n效果图：\r\n<img width=\"752\" alt=\"ad97f524755b88c0eccd508e3c06f3d2\" src=\"https://github.com/Byxs20/PuzzleSolver/assets/64669718/5724df90-095a-4ef8-ab30-972794a34faa\">"
+        "release_date": "2024-05-31 05:13:40",
+        "release_message": "PS：由于有人公开号召逆向我软件的所有代码，所以本人目前停止后续版本的分享！\r\n\r\n🆕2024.5.3终止 `Lv60` 免费入群\r\n🐧交流群：`761594154` ，群等级 `Lv60` 以上（包括`Lv60`）可以免费拿软件；如果不想要活跃群去获得软件，当然可以走捷径，捐赠 `50` ，后续本人有时间软件会继续更新。\r\n\r\n```\r\nVersion 2.0.9 更新日志：\r\n1）新增：\r\n  `config.yaml` 中 添加主题设置，默认使用黑色主题，需要白色主题请修改 `config.yaml`\r\n  `流量处理` 功能区 添加 `JavaDecompile` 功能 (反编译Base64编码后的Java_Class文件)\r\n\r\n2）修复：\r\n  `流量处理` 功能区 `Behinder`, `Godzilla`, `BruteForceTraffic` 修复 `未选中文件不会出现默认右键菜单`\r\n```\r\n![image](https://github.com/Byxs20/PuzzleSolver/assets/64669718/161171b2-d123-477f-a054-8a12aeefabf6)\r\n"
     },
     "https://ctfever.uniiem.com/tools/pseudo-encrypted-zip-check": {
         "status_code": 200,
