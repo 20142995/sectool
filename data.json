@@ -62,8 +62,8 @@
     "https://github.com/pppscn/SmsForwarder": {
         "created_at": "2024-04-18 02:17:02",
         "description": "短信转发器——监控Android手机短信、来电、APP通知，并根据指定规则转发到其他手机：钉钉群自定义机器人、钉钉企业内机器人、企业微信群机器人、飞书机器人、企业微信应用消息、邮箱、bark、webhook、Telegram机器人、Server酱、PushPlus、手机短信等。包括主动控制服务端与客户端，让你轻松远程发短信、查短信、查通话、查话簿、查电量等。（V3.0 新增）PS.这个APK主要是学习与自用，如有BUG请提ISSUE，同时欢迎大家提PR指正",
-        "commit_message": "优化：`webhook`通道`webParam`分割键值对方式 #472",
-        "commit_date": "2024-05-23 07:38:22",
+        "commit_message": "优化：`自动任务` 触发条件 `充电状态` 的提示语 (#480)\n\n* update strings.xml\r\n\r\n* update strings.xml\r\n\r\n* update strings.xml\r\n\r\n* update strings.xml\r\n\r\n* update fragment_tasks_condition_charge.xml",
+        "commit_date": "2024-06-03 13:38:56",
         "release_date": "2024-04-18 02:45:39",
         "release_message": "致敬 `遥遥领先` **先锋计划**，迎接 `SmsForwarder` **预览体验计划**，领先与体验并驾齐驱！\r\n\r\n---\r\n\r\n【强烈建议】`v3.3.0` 用户升级\r\n\r\n【重点推荐】`自动任务·快捷指令`，轻松自动化，助您事半功倍，更多时间享受亲情陪伴！（v3.3+）\r\n\r\n\r\n---\r\n\r\n### 【注意】\r\n\r\n* `v3.2.0` 去除了 `mmkv` 依赖，采用 `SharedPreferences` 来保存配置，如果从低于 `v3.2.0`  升级后请重新配置，具体原因参见 [Issue #245](https://github.com/pppscn/SmsForwarder/issues/245)\r\n\r\n* 升级完毕后，建议离线导出配置（客户端>一键换新机>离线模式>导出），完全卸载干净全新安装后再导入配置（可以避免一些莫名其妙的玄学问题，例如：耗电异常）\r\n\r\n---\r\n\r\n### 更新日志\r\n\r\n修复：`定时任务`的`Cron表达式`输入非法时导致FC #407\r\n修复：Frpclib未下载时，自动任务添加启停frpc app自动重启 #402\r\n修复：WiFi平板（没有GPS芯片）无法启用`GPS定位服务` #391\r\n修复：错误的 URL 有效性验证正则表达式（兼容IPv6） #286\r\n修复：多个自启动的Frpc无法同时自动启动Bug\r\n修复：疑似`ResUtils.getString`导致FC #426\r\n修复：在线更新失败时手动下载页面地址\r\n修复：转发规则自定义发送通道顺序失效（将`List<T>`按照`instr`的顺序排序） #422\r\n修复：自动任务触发条件在测试倒计时没结束前返回导致app自动重启 #394\r\n修复：自动任务电池状态中充电器任意无法触发 #395\r\n新增：`{{IP_LIST}}`变量标签用于获取`本机所有IP地址列表`（排除环回地址） #I9CVLZ\r\n新增：`通用设置`增加按钮直接跳转`一键换新机`·`离线模式`\r\n新增：Frp内网穿透·编辑配置时语法高亮\r\n新增：发送通道`电子邮箱`支持`S/MIME`或`OpenPGP`加密 #417\r\n新增：监听`Screen`事件`延迟执行时再次校验` #399\r\n新增：两个常用标签`网络状态`(`{{NET_TYPE}}`)和`简单电池信息`(`{{BATTERY_INFO_SIMPLE}}`) #439\r\n新增：免打扰(禁用转发)时间段记录日志（配合`自动任务`实现延时发送） #411\r\n新增：是否加入SmsF预览体验计划（在线更新每周构建版） #416\r\n新增：转发日志增加筛选器方便搜索/批量删除 #433\r\n新增：自动任务·快捷指令 —— 触发条件：短信广播、通话广播、APP通知 #385 #389\r\n新增：自动任务·快捷指令 —— 触发条件：蓝牙设备（状态变化、设备发现、连接断开） #388\r\n新增：自动任务·快捷指令 —— 执行动作：播放警报 #385\r\n新增：自动任务·快捷指令 —— 执行动作：启停任务 #389\r\n新增：自动任务·快捷指令 —— 执行动作：重发消息\r\n优化：`{{BATTERY_PCT}}`保留2位小数\r\n优化：`Android 5.0`以下`TLS协议`&`明文传输` #427 #390 #274 #197\r\n优化：`build.gradle`脚本，编译前后自动清理\r\n优化：`Webhook` 非 `HTTP 200` 应答时仍可以指定 `成功应答关键字` #234\r\n优化：`发送通道`参数默认值（避免反序列化时空指针）\r\n优化：`一换新新机`·`还原设置`时保留本机的`设备名称`和`SIM卡主键/备注`\r\n优化：`自动任务`触发条件`网络状态`：仅`Android 10`(含) 以上显示`数据卡槽`选项 #429\r\n优化：`自动任务`触发条件`网络状态`：延迟5秒获取WiFi名称（给够搜索信号时间） #429\r\n优化：`自动任务·快捷指令` —— 执行动作：`发送短信`支持插入`变量标签`（标签适用场景参见 wiki附录3） #441\r\n优化：Frpc默认配置采用toml格式\r\n优化：部分手机通知栏异常显示两条常驻通知 #392\r\n优化：多语言切换时枚举常量自动切换语言\r\n优化：发送通道`Webhook`支持http/socks5代理\r\n优化：放宽`Url`和`UrlScheme`的正则校验限制 #431\r\n优化：服务端应答`Http 204 No Content`时特殊处理（更新日志状态为成功） #234\r\n优化：服务端应答`HTTP Status 201-299`时特殊处理（更新日志状态为成功） #234\r\n优化：改进IPv6正则表达式（避免`{{IPV6}}`替换为空）\r\n优化：监听`Screen`事件细分`On/Off/Locked/Unlocked` #399\r\n优化：进入`通用设置`时`再次检查`是否已授权`已开启功能`的`必需权限`\r\n优化：判断Frpclib是否已经初始化\r\n优化：权限检查机制判断（适配 OPPO 应用权限受阻跳转优化方案）\r\n优化：以`Base64`形式保存证书（同时兼容`文件路径`形式） #437\r\n优化：自定义模板可用变量标签支持正则替换 #421 #423\r\n优化：自定义模板可用变量统一成英文标签\r\n优化：自定义模板增加`{{IPV4}}``{{IPV6}}`标签 #398\r\n优化：自定义模板增加`{{定位信息_经度}}`/`{{定位信息_纬度}}`/`{{定位信息_地址}}`三个标签 #400\r\n升级：AgentWeb依赖（解决存在的内存泄漏问题）\r\n升级：frpclib 到 `v0.57.0`\r\n升级：XAOP 依赖\r\n升级：XUI 到 `dev-1.2.2`\r\n升级：XUpdate 到 `2.1.5` （兼容Android 12 & 完善日志）\r\n升级：依赖版本\r\n整理：code review & 精简无用资源\r\n回退：`{{通知Scheme}}`(英文系统`{{SCHEME}}`)标签以获取应用通知的`Scheme` #272 #276（无解，去除多余代码）\r\n\r\n还有一些细微调整参见`github`提交记录\r\n\r\n---\r\n\r\n### APK版本说明：\r\n* universal（10XXXX）: 通用版（不在乎安装包大小/懒得选就用这个版本，包含以下4种CPU架构so）\r\n* armeabi-v7a（20XXXX）: 32位ARM设备（备用机首选）\r\n* arm64-v8a（30XXXX）: 64位ARM设备（主流旗舰机）\r\n* x86（40XXXX）: 32位Intel设备\r\n* x86_64（50XXXX）: 64/32位Intel设备"
     },
@@ -1079,7 +1079,7 @@
         "created_at": "2024-03-07 09:30:14",
         "description": "基于 docsify 快速部署 Awesome-POC 中的漏洞文档",
         "commit_message": "update",
-        "commit_date": "2024-05-29 03:28:10",
+        "commit_date": "2024-06-04 08:06:48",
         "release_date": "2024-04-01 03:17:43",
         "release_message": "2023.04.01 重构目录，此为重构前 release。重构后目录如下：\r\n```\r\ndirs = {\r\n    'oa':'OA漏洞',\r\n    'cms': 'CMS漏洞',\r\n    'framework': '开发框架漏洞',\r\n    'iot': '网络设备漏洞',\r\n    'language': '开发语言漏洞',\r\n    'os': '操作系统漏洞',\r\n    'webapp': 'Web应用漏洞',\r\n    'middleware': '中间件漏洞',\r\n    'database': '数据库漏洞',\r\n    'cloud': '云安全漏洞',\r\n    'others':'其他漏洞'\r\n}\r\n```"
     },
@@ -1718,7 +1718,7 @@
         "release_message": "## 🔥 Feature\r\n* feat(veinmind-trace): add veinmind-trace plugin for detecting attack trace in container  by @DVKunion in #253 \r\n* feat(veinmind-backdoor): refactor backdoor go plugin  by @ek1ng in #252 \r\n* feat(veinmind-backdoor): add rootkit scan by @l2yyd5 in #256 \r\n\r\n## 📒 Others\r\n* chore(veinmind-backdoor): disabled python plugin and instead of go plugin by @DVKunion in #257 \r\n* chore(libveinmind): update libveinmind 1.9.42 by @DVKunion in #258 \r\n\r\n## 🎉 New Contributors\r\n* @l2yyd5 made their first contribution in #256 \r\n\r\n**Full Changelog**: https://github.com/chaitin/veinmind-tools/compare/v2.1.4...v2.1.5"
     },
     "https://github.com/cdk-team/CDK": {
-        "created_at": "2020-11-05 09:18:51",
+        "created_at": "2024-05-19 09:32:53",
         "description": "📦  Make security testing of K8s, Docker, and Containerd easier.",
         "commit_date": "2024-05-19 09:32:53",
         "commit_message": "Merge pull request #99 from cdk-team/neargle-dev\n\nFeat(tool): add netstat，Like \"netstat -antup\" command.",
@@ -3831,7 +3831,7 @@
         "release_message": ""
     },
     "https://github.com/aquasecurity/kube-bench": {
-        "created_at": "2017-06-19 13:27:02",
+        "created_at": "2024-04-18 06:59:19",
         "description": "Checks whether Kubernetes is deployed according to security best practices as defined in the CIS Kubernetes Benchmark",
         "commit_message": "build(deps): bump alpine from 3.19.1 to 3.20.0 (#1621)\n\nBumps alpine from 3.19.1 to 3.20.0.\r\n\r\n---\r\nupdated-dependencies:\r\n- dependency-name: alpine\r\n  dependency-type: direct:production\r\n  update-type: version-update:semver-minor\r\n...\r\n\r\nSigned-off-by: dependabot[bot] <support@github.com>\r\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
         "commit_date": "2024-05-31 14:28:56",
@@ -8566,8 +8566,8 @@
     "https://github.com/nomi-sec/PoC-in-GitHub": {
         "created_at": "2019-12-08 13:03:54",
         "description": "📡 PoC auto collect from GitHub. ⚠️ Be careful Malware.",
-        "commit_message": "Auto Update 2024/05/29 00:29:16",
-        "commit_date": "2024-05-29 00:29:16"
+        "commit_message": "Auto Update 2024/06/08 00:29:06",
+        "commit_date": "2024-06-08 00:29:06"
     },
     "https://github.com/Ridter/CVE-2017-11882": {
         "created_at": "2017-11-21 05:55:53",
@@ -24412,8 +24412,8 @@
         "description": "魅族安全中心"
     },
     "https://sec.vip.com/": {
-        "status_code": 503,
-        "description": ""
+        "status_code": 200,
+        "description": "VSRC首页-唯品会信息安全中心"
     },
     "https://sec.wacai.com/": {
         "status_code": 200,
@@ -25062,8 +25062,8 @@
         "description": "在线加密/解密，对称加密/非对称加密"
     },
     "http://web.chacuo.net/charsetuuencode": {
-        "status_code": 502,
-        "description": "出错了---查错IT网"
+        "status_code": 200,
+        "description": "在线UUencode编码|在线UUencode解码|UU编码|UU解码|UUencode编码原理介绍--查错网"
     },
     "https://lesuobingdu.360.cn/": {
         "status_code": 200,
@@ -25178,8 +25178,8 @@
         "description": "360网络空间测绘 — 因为看见，所以安全"
     },
     "http://web.chacuo.net/charsetxxencode": {
-        "status_code": 502,
-        "description": "出错了---查错IT网"
+        "status_code": 200,
+        "description": "在线XXencode编码|在线XXencode解码|XX编码|XX解码|XXencode编码原理介绍--查错网"
     },
     "https://fofa.info/": {
         "status_code": 200,
@@ -25214,8 +25214,8 @@
         "description": "操作系统漏洞 | PeiQi文库"
     },
     "http://web.chacuo.net/charsetquotedprintable/": {
-        "status_code": 502,
-        "description": "出错了---查错IT网"
+        "status_code": 200,
+        "description": "Quoted-printable编码|Quoted-printable解码|Quoted-printable编码原理介绍--查错网"
     },
     "http://www.hiencode.com/uu.html": {
         "status_code": 200,
@@ -25698,12 +25698,12 @@
         "release_message": ""
     },
     "https://github.com/Anduin2017/HowToCook": {
-        "created_at": "2022-07-12 17:14:59",
+        "created_at": "2024-06-02 05:56:34",
         "description": "程序员在家做饭方法指南。Programmer's guide about how to cook at home (Simplified Chinese only).",
         "commit_message": "[ci skip] Automatic file changes/fix",
-        "commit_date": "2024-05-19 16:34:26",
-        "release_date": "2022-07-14 10:35:06",
-        "release_message": ""
+        "commit_date": "2024-06-06 17:14:28",
+        "release_date": "2024-06-02 05:57:16",
+        "release_message": "## What's Changed\r\n* fix: 修正柱候牛腩配比过量 by @14n2 in https://github.com/Anduin2017/HowToCook/pull/1079\r\n* Update 厨房准备.md by @lhDream in https://github.com/Anduin2017/HowToCook/pull/1080\r\n* 麻婆豆腐补充，添加可选用料牛肉与花椒油/藤椒油 by @tian3rd in https://github.com/Anduin2017/HowToCook/pull/1084\r\n* 做便当还是在家吃皆宜的小菜，咖喱肥牛~ by @HEXDude in https://github.com/Anduin2017/HowToCook/pull/1082\r\n* 草莓冰淇淋 by @XiaoSanchez in https://github.com/Anduin2017/HowToCook/pull/1093\r\n* Feature/河南蒸面条(挂面) by @venicid in https://github.com/Anduin2017/HowToCook/pull/1094\r\n* Create 雷椒皮蛋.md by @AuryanZ in https://github.com/Anduin2017/HowToCook/pull/1095\r\n* 扬州炒饭 by @AuryanZ in https://github.com/Anduin2017/HowToCook/pull/1097\r\n* 错别字改正 by @AuryanZ in https://github.com/Anduin2017/HowToCook/pull/1100\r\n* 新增“葱油桂鱼做法” by @taiziye in https://github.com/Anduin2017/HowToCook/pull/1108\r\n* 《扬州炒饭》笔误修正 by @DreamVoid in https://github.com/Anduin2017/HowToCook/pull/1110\r\n* 添加荷兰豆炒腊肠 by @caotingv in https://github.com/Anduin2017/HowToCook/pull/1114\r\n* 统一名称（糖拌西红柿） by @MeowShe in https://github.com/Anduin2017/HowToCook/pull/1117\r\n* Update 蒸水蛋.md by @haolian123 in https://github.com/Anduin2017/HowToCook/pull/1118\r\n* Update 草莓冰淇淋.md by @ibin7777 in https://github.com/Anduin2017/HowToCook/pull/1119\r\n* 石凉粉(冰粉)制作方法 by @BubblingXuYijie in https://github.com/Anduin2017/HowToCook/pull/1124\r\n* 增加成品照片，并恰当了一些用词 by @guoyd233 in https://github.com/Anduin2017/HowToCook/pull/1120\r\n* 发现一个更好用的菜包 by @AuryanZ in https://github.com/Anduin2017/HowToCook/pull/1129\r\n* 添加去腥的方法和解释 by @yuxiaoyuan0406 in https://github.com/Anduin2017/HowToCook/pull/1130\r\n* feat: 冬瓜酿肉的做法 by @sappan in https://github.com/Anduin2017/HowToCook/pull/1136\r\n* Create 反沙芋头.md by @HUANGXUEZHI97 in https://github.com/Anduin2017/HowToCook/pull/1156\r\n* 顾银垚的家常菜——小炒鸡肝，推荐给喜欢吃肝的人。 by @Mtouyao in https://github.com/Anduin2017/HowToCook/pull/1158\r\n* remove redundant sauce in recipe by @juanli16 in https://github.com/Anduin2017/HowToCook/pull/1160\r\n* 烤茄子：补上没有提到被使用的蒜蓉 by @FiveYellowMice in https://github.com/Anduin2017/HowToCook/pull/1168\r\n* Update 油焖大虾.md by @hoooou in https://github.com/Anduin2017/HowToCook/pull/1169\r\n* Fix typo by @ArtieLiu in https://github.com/Anduin2017/HowToCook/pull/1173\r\n* fix typo by @FirokOtaku in https://github.com/Anduin2017/HowToCook/pull/1174\r\n* 添加蛋煎糍粑菜谱 by @hello2gethub in https://github.com/Anduin2017/HowToCook/pull/1175\r\n* 补充白菜猪肉炖粉条缺失操作 by @Guyiiyu in https://github.com/Anduin2017/HowToCook/pull/1177\r\n* Create 杀猪菜.md by @laddzhao in https://github.com/Anduin2017/HowToCook/pull/1161\r\n* 玉米排骨汤 by @0xAiKang in https://github.com/Anduin2017/HowToCook/pull/1165\r\n* Create 山西过油肉.md by @kk007kangkai in https://github.com/Anduin2017/HowToCook/pull/1166\r\n* 添加火腿饭团的做法 by @nopespace in https://github.com/Anduin2017/HowToCook/pull/1180\r\n* 修复英文标点 by @sunranlb in https://github.com/Anduin2017/HowToCook/pull/1183\r\n* Update 咖啡椰奶冻 by @nopespace in https://github.com/Anduin2017/HowToCook/pull/1184\r\n* 青椒土豆炒肉 by @qpwmio in https://github.com/Anduin2017/HowToCook/pull/1182\r\n* 修复错别字 by @sunranlb in https://github.com/Anduin2017/HowToCook/pull/1185\r\n* 添加注意事项：微波炉不能加热含水量较高视频，可能造成事故 by @Foxbaaaaat in https://github.com/Anduin2017/HowToCook/pull/1187\r\n* Update 厨房准备.md by @NotFlyLoongQaQ in https://github.com/Anduin2017/HowToCook/pull/1189\r\n* 修复标点和格式错误 by @sunranlb in https://github.com/Anduin2017/HowToCook/pull/1193\r\n* Feature: add template of comment system by @ArtieLiu in https://github.com/Anduin2017/HowToCook/pull/1192\r\n* 删除微波炉危害相关文字 by @sunranlb in https://github.com/Anduin2017/HowToCook/pull/1195\r\n* 将烧饼更名至芝麻烧饼 by @30266-Official in https://github.com/Anduin2017/HowToCook/pull/1196\r\n* 优化标点格式 by @sunranlb in https://github.com/Anduin2017/HowToCook/pull/1197\r\n* 优化文案 by @sunranlb in https://github.com/Anduin2017/HowToCook/pull/1198\r\n* 优化标点 by @sunranlb in https://github.com/Anduin2017/HowToCook/pull/1199\r\n* 优化文案 by @sunranlb in https://github.com/Anduin2017/HowToCook/pull/1200\r\n* fix typo in 豆角焖面.md by @DingJunyao in https://github.com/Anduin2017/HowToCook/pull/1202\r\n* 优化标点 by @sunranlb in https://github.com/Anduin2017/HowToCook/pull/1203\r\n* 小炒藕丁 by @IotaHydrae in https://github.com/Anduin2017/HowToCook/pull/1206\r\n* 本人计划分区整理一些中国地方特色菜谱，因无法另区分种类，所以约调整了一下RE的种类名文本大小。之后我的内容单独分区，不影响其他。 by @YOGEMOW in https://github.com/Anduin2017/HowToCook/pull/1207\r\n* 删除前后矛盾的文案 by @sunranlb in https://github.com/Anduin2017/HowToCook/pull/1220\r\n* 新增加了两个菜式 by @ReadyToStrike in https://github.com/Anduin2017/HowToCook/pull/1234\r\n* 添加肉饼炖蛋的做法 by @wsj20010128 in https://github.com/Anduin2017/HowToCook/pull/1240\r\n* Update 啤酒鸭's recipe by @NanamiNakano in https://github.com/Anduin2017/HowToCook/pull/1249\r\n* 椒盐排条 by @Molyuu in https://github.com/Anduin2017/HowToCook/pull/1252\r\n* Update 食品安全.md : 新增蘑菇类食品安全内容 by @JChaooo in https://github.com/Anduin2017/HowToCook/pull/1253\r\n* Update 食品安全.md by @Anduin2017 in https://github.com/Anduin2017/HowToCook/pull/1254\r\n* 增加一小条做菜安全 by @littlewhitecloud in https://github.com/Anduin2017/HowToCook/pull/1255\r\n* 添加了排骨苦瓜汤 by @qq836838507 in https://github.com/Anduin2017/HowToCook/pull/1245\r\n* [微波炉 | 注意事项] 的修改 by @B23oprt in https://github.com/Anduin2017/HowToCook/pull/1259\r\n* 酸梅汤计算未列出红豆蔻量 by @ikrong in https://github.com/Anduin2017/HowToCook/pull/1265\r\n* 蒸箱鸡蛋羹 by @Sydney2580 in https://github.com/Anduin2017/HowToCook/pull/1274\r\n* Create 黔式腊肠娃娃菜.md by @TinaSprunt in https://github.com/Anduin2017/HowToCook/pull/1281\r\n* Yuxiaoyuan0406 food safety by @yuxiaoyuan0406 in https://github.com/Anduin2017/HowToCook/pull/1282\r\n* [枝竹羊腩煲] 添加了枝竹羊腩煲的菜谱 by @jyyy03 in https://github.com/Anduin2017/HowToCook/pull/1283\r\n* 增加玛格丽特饼干菜谱 by @mushroom0322 in https://github.com/Anduin2017/HowToCook/pull/1286\r\n* Update 微波炉鸡蛋羹.md by @PikuZheng in https://github.com/Anduin2017/HowToCook/pull/1290\r\n* Add 微波炉荷包蛋 by @Karllzy in https://github.com/Anduin2017/HowToCook/pull/1293\r\n* 葱花需要最后熄火前放入，而不是炒西红柿汁时候放入，不然葱花会老 by @zyimm in https://github.com/Anduin2017/HowToCook/pull/1294\r\n* Added new dish by @ReadyToStrike in https://github.com/Anduin2017/HowToCook/pull/1297\r\n* 芥末黄油罗氏虾 by @HUANGXUEZHI97 in https://github.com/Anduin2017/HowToCook/pull/1302\r\n* 陈皮排骨汤 by @HUANGXUEZHI97 in https://github.com/Anduin2017/HowToCook/pull/1305\r\n* feat(dessert): add scone by @fksad in https://github.com/Anduin2017/HowToCook/pull/1310\r\n* Feat/add scallion oil by @fksad in https://github.com/Anduin2017/HowToCook/pull/1312\r\n* Feat/add panacotta by @fksad in https://github.com/Anduin2017/HowToCook/pull/1311\r\n* Feat/add pineapple coffee cocktail by @fksad in https://github.com/Anduin2017/HowToCook/pull/1313\r\n* 尖叫牛蛙的做法更新 by @NocoldBob in https://github.com/Anduin2017/HowToCook/pull/1320\r\n* feat:老妈蹄花 by @MoonerHigh in https://github.com/Anduin2017/HowToCook/pull/1322\r\n* 香辣鸡爪煲的实现 by @MoonerHigh in https://github.com/Anduin2017/HowToCook/pull/1323\r\n* 简便快速好喝的饮品 by @JStone2934 in https://github.com/Anduin2017/HowToCook/pull/1321\r\n\r\n## New Contributors\r\n* @lhDream made their first contribution in https://github.com/Anduin2017/HowToCook/pull/1080\r\n* @HEXDude made their first contribution in https://github.com/Anduin2017/HowToCook/pull/1082\r\n* @venicid made their first contribution in https://github.com/Anduin2017/HowToCook/pull/1094\r\n* @AuryanZ made their first contribution in https://github.com/Anduin2017/HowToCook/pull/1095\r\n* @taiziye made their first contribution in https://github.com/Anduin2017/HowToCook/pull/1108\r\n* @DreamVoid made their first contribution in https://github.com/Anduin2017/HowToCook/pull/1110\r\n* @caotingv made their first contribution in https://github.com/Anduin2017/HowToCook/pull/1114\r\n* @MeowShe made their first contribution in https://github.com/Anduin2017/HowToCook/pull/1117\r\n* @haolian123 made their first contribution in https://github.com/Anduin2017/HowToCook/pull/1118\r\n* @ibin7777 made their first contribution in https://github.com/Anduin2017/HowToCook/pull/1119\r\n* @BubblingXuYijie made their first contribution in https://github.com/Anduin2017/HowToCook/pull/1124\r\n* @guoyd233 made their first contribution in https://github.com/Anduin2017/HowToCook/pull/1120\r\n* @sappan made their first contribution in https://github.com/Anduin2017/HowToCook/pull/1136\r\n* @HUANGXUEZHI97 made their first contribution in https://github.com/Anduin2017/HowToCook/pull/1156\r\n* @Mtouyao made their first contribution in https://github.com/Anduin2017/HowToCook/pull/1158\r\n* @juanli16 made their first contribution in https://github.com/Anduin2017/HowToCook/pull/1160\r\n* @FiveYellowMice made their first contribution in https://github.com/Anduin2017/HowToCook/pull/1168\r\n* @hoooou made their first contribution in https://github.com/Anduin2017/HowToCook/pull/1169\r\n* @ArtieLiu made their first contribution in https://github.com/Anduin2017/HowToCook/pull/1173\r\n* @FirokOtaku made their first contribution in https://github.com/Anduin2017/HowToCook/pull/1174\r\n* @hello2gethub made their first contribution in https://github.com/Anduin2017/HowToCook/pull/1175\r\n* @Guyiiyu made their first contribution in https://github.com/Anduin2017/HowToCook/pull/1177\r\n* @laddzhao made their first contribution in https://github.com/Anduin2017/HowToCook/pull/1161\r\n* @0xAiKang made their first contribution in https://github.com/Anduin2017/HowToCook/pull/1165\r\n* @kk007kangkai made their first contribution in https://github.com/Anduin2017/HowToCook/pull/1166\r\n* @nopespace made their first contribution in https://github.com/Anduin2017/HowToCook/pull/1180\r\n* @sunranlb made their first contribution in https://github.com/Anduin2017/HowToCook/pull/1183\r\n* @qpwmio made their first contribution in https://github.com/Anduin2017/HowToCook/pull/1182\r\n* @Foxbaaaaat made their first contribution in https://github.com/Anduin2017/HowToCook/pull/1187\r\n* @NotFlyLoongQaQ made their first contribution in https://github.com/Anduin2017/HowToCook/pull/1189\r\n* @30266-Official made their first contribution in https://github.com/Anduin2017/HowToCook/pull/1196\r\n* @DingJunyao made their first contribution in https://github.com/Anduin2017/HowToCook/pull/1202\r\n* @IotaHydrae made their first contribution in https://github.com/Anduin2017/HowToCook/pull/1206\r\n* @YOGEMOW made their first contribution in https://github.com/Anduin2017/HowToCook/pull/1207\r\n* @wsj20010128 made their first contribution in https://github.com/Anduin2017/HowToCook/pull/1240\r\n* @NanamiNakano made their first contribution in https://github.com/Anduin2017/HowToCook/pull/1249\r\n* @Molyuu made their first contribution in https://github.com/Anduin2017/HowToCook/pull/1252\r\n* @JChaooo made their first contribution in https://github.com/Anduin2017/HowToCook/pull/1253\r\n* @littlewhitecloud made their first contribution in https://github.com/Anduin2017/HowToCook/pull/1255\r\n* @qq836838507 made their first contribution in https://github.com/Anduin2017/HowToCook/pull/1245\r\n* @B23oprt made their first contribution in https://github.com/Anduin2017/HowToCook/pull/1259\r\n* @ikrong made their first contribution in https://github.com/Anduin2017/HowToCook/pull/1265\r\n* @Sydney2580 made their first contribution in https://github.com/Anduin2017/HowToCook/pull/1274\r\n* @TinaSprunt made their first contribution in https://github.com/Anduin2017/HowToCook/pull/1281\r\n* @jyyy03 made their first contribution in https://github.com/Anduin2017/HowToCook/pull/1283\r\n* @mushroom0322 made their first contribution in https://github.com/Anduin2017/HowToCook/pull/1286\r\n* @PikuZheng made their first contribution in https://github.com/Anduin2017/HowToCook/pull/1290\r\n* @Karllzy made their first contribution in https://github.com/Anduin2017/HowToCook/pull/1293\r\n* @zyimm made their first contribution in https://github.com/Anduin2017/HowToCook/pull/1294\r\n* @fksad made their first contribution in https://github.com/Anduin2017/HowToCook/pull/1310\r\n* @NocoldBob made their first contribution in https://github.com/Anduin2017/HowToCook/pull/1320\r\n* @MoonerHigh made their first contribution in https://github.com/Anduin2017/HowToCook/pull/1322\r\n* @JStone2934 made their first contribution in https://github.com/Anduin2017/HowToCook/pull/1321\r\n\r\n**Full Changelog**: https://github.com/Anduin2017/HowToCook/compare/1.3.0...1.3.1"
     },
     "https://github.com/ron190/jsql-injection": {
         "created_at": "2012-07-18 18:07:09",
@@ -25982,8 +25982,8 @@
     "https://github.com/ProbiusOfficial/CTF-OS": {
         "created_at": "2024-04-02 18:46:51",
         "description": "【Hello CTF】专为CTF比赛封装的虚拟机，基于工具集封装多个版本和系统，更多选择，开箱即用。比赛愉快！",
-        "commit_message": "Update README.md",
-        "commit_date": "2024-05-25 10:35:53",
+        "commit_message": "Merge pull request #33 from n-WN/patch-1\n\nUpdate README.md Password",
+        "commit_date": "2024-05-31 10:29:02",
         "release_date": "2024-04-03 00:06:07",
         "release_message": "![ArchLinux](https://github.com/ProbiusOfficial/CTF-OS/assets/41804496/3c0ffba3-bb65-4c5c-8090-d457d74d33e7)\r\n\r\n## 发版说明\r\n\r\n该版本为beta测试第二版，也是最接近正式版Windows版本的系统。\r\n\r\n系统基于 WIndows 10 22H2 10.0.19045.3803 镜像制作，使用 软媒魔方 和 Dism++ 进行了部分优化和精简，内置 Ubuntu 22.04.3 on WSL2 / Arch Linux on WSL2 子系统。\r\n\r\n> [!Warning]\r\n>\r\n> 本系统完全开源免费，如您在获取本系统的过程中有遇到付费情况，请及时向我反馈并且举报！\r\n>\r\n> 如果您不熟悉CTF，建议阅读我们的项目: [Hello-CTF](https://hello-ctf.com/) 的相关文章.\r\n\r\n下载地址\r\n\r\n百度云盘 : https://pan.baidu.com/s/1KqwZFCUiRz-yMeXFQSUBog?pwd=dysa\r\n备用链接 : https://pan.baidu.com/s/1GHGehbQk-kQELIiqM-G6bg?pwd=tjos \r\n**[2024-04-05 01:13:02 更新]** 添加了适用于 PD(Parallels Desktop)_x86 的虚拟机版本，您现在可以在 Intel 芯片的Mac 上运行CTF-OS了，感谢 **ShadowCui** 师傅的帮助ww\r\n- **[New]** HelloCTFOS_WSL2_PVM_x86.7z\r\n- HelloCTFOS_WSL2_VMX_x86.7z\r\n\r\n备用链接：\r\n- https://pan.baidu.com/s/1bEsDhPNf4c3tYrW_6l9Bgw?pwd=e348  （VMX_x86 版本） \r\n- https://pan.baidu.com/s/1BR8VTuMasu4veAbim82RQA?pwd=b9kk （PVM_x86 版本）\r\n\r\nOneDrive : https://1drv.ms/u/s!Ajm4g5jo4eENg23kg7Af6AX8ehOO?e=4G6Twf (VMX_x86 版本)\r\n\r\n（由于镜像大小原因，暂只提供 OneDrive 和 百度云盘 下载地址，欢迎师傅们在issue中提交其他渠道下载地址以进行分流）\r\n\r\n大小: 34595457537 字节 (32 GiB)\r\n\r\nSHA256 数据校验_VMX_x86 : e2f64938bbd0b1984faa02e017fc11b30e77dcb8c854b4bb7deca20b7e14aea2-00000002\r\n\r\nSHA256数据校验_PVM_x86 : 20b7375fde04b8e21f1b730b11a869a47ea136418433a479e6445e5f2afb4775\r\n\r\n## 特别鸣谢\r\n\r\n在此版系统中得到了几位师傅的大力支持，在这里特表感谢:\r\n\r\nroderick01 (@RoderickChan) / Cain (@CainYzb) 师傅对PWN环境配置的答疑和帮助.\r\n\r\nB.M.K 师傅对逆向环境配置的帮助.\r\n\r\nLov3 (@n-WN) 师傅对密码学环境配置的大力支持，以及其对Mac ARM架构的规划 (即将发版 :p)\r\n\r\n陈橘墨(@Randark-JMT) 被我用刀架着的情况下终于招了取证相关环境的配置清单.\r\n\r\n## 系统信息\r\n\r\nWindows Password: hello-ctf.com\r\n\r\nUbuntu / Arch Password: ctfos\r\n\r\n## Update\r\n\r\n依据 issue 更新完善了剩余环境。\r\n\r\n修复了上个版本中 冰蝎 打开时报错的问题.\r\n\r\n密码学增加了Arch系统，并部署最新版本的SageMath.\r\n\r\n升级WSL1系统为WSL2.\r\n\r\nUbuntu WSL2 系统添加了PWN环境.\r\n\r\n> [!Note]\r\n>\r\n> 注意，虽然WSL2具有完整内核，但是其内核并非原生，故只能解决一些入门赛题，可能会出现不可预料的问题，CTF-OS 在正式版本时会同时发行专用于PWN的Linux系统，敬请期待后续发版.\r\n\r\n配置了逆向环境和所需工具 —— 注意，由于安卓逆向需求的虚拟机会占用大量存储空间，而且考虑到大多数师傅暂时不会有安卓动调需求，安卓逆向只配置了部分工具。\r\n\r\nMISC工具增加完善了各类型的隐写工具，添加了取证工具.\r\n\r\n更多差异请查阅Detail部分的软件列表，注意由于某些原因，部分软件不会注明.\\\r\n\r\n## Detail\r\n\r\n### 子系统信息\r\n\r\n**子系统密码** : `ctfos`\r\n\r\n```\r\nWSL 版本： 2.1.5.0\r\n内核版本： 5.15.146.1-2\r\nWSLg 版本： 1.0.60\r\nMSRDC 版本： 1.2.5105\r\nDirect3D 版本： 1.611.1-81528511\r\nDXCore 版本： 10.0.25131.1002-220531-1700.rs-onecore-base2-hyp\r\nWindows 版本： 10.0.19045.3803\r\n```\r\n\r\n> [!Warning]\r\n>\r\n> 由于WSL1于WSL2的区别，您在虚拟机使用WSL2中需要在VM的处理器设置中启用 `虚拟化的 Intel VT-x/EPT 或 AMD-V/RVI(V)`，该选项会与宿主机的Linux子系统相关服务(也就是HV相关服务)冲突，这会导致您可能无法在宿主机上正常使用WSL以及其他HV相关服务.\r\n>\r\n> 如果您想继续在宿主机中使用WSL，请对该系统的WSL2进行降级，并且完全关闭**虚拟机的HV服务**.\r\n\r\n![image](https://github.com/ProbiusOfficial/CTF-OS/assets/41804496/2d1c4ead-b35c-43fb-9827-61d71670c794)\r\n\r\n### Windows 信息\r\n\r\n#### 系统环境\r\n\r\n```\r\nPython 3.8.2rc2 (tags/v3.8.2rc2:777ba07, Feb 18 2020, 09:11:15) [MSC v.1916 64 bit (AMD64)]\r\nJava 环境 jdk-1.8 (build 1.8.0_401-b10)\r\nPHP 7.3.4\r\nMySQL 5.7.26\r\nNginx 1.15.11\r\nApache 2.4.39\r\nMsys2-x86_64-20240113 \r\ngcc 13.2.0 @msys2\r\n```\r\n\r\n#### 系统工具\r\n\r\n| 工具名称        | 版本         | 源                                                           |\r\n| --------------- | ------------ | ------------------------------------------------------------ |\r\n| PHPStudy        | v8.1.1.3     | [xp.cn](https://www.xp.cn/)                                  |\r\n| PixPin          | v1.7.5.0     | [pixpinapp.com](https://pixpinapp.com/)                      |\r\n| Dism++          | v10.1.1002.2 | [GitHub](https://github.com/Chuyu-Team/Dism-Multi-language/releases/tag/v10.1.1002.2) |\r\n| Everything      |              | [voidtools.com](https://www.voidtools.com/zh-cn/)            |\r\n| 分区助手        |              | [disktool.cn](https://www.disktool.cn/)                      |\r\n| PCmast-软媒魔方 |              | [ruanmei.com](https://mofang.ruanmei.com/)                   |\r\n\r\n#### Web\r\n\r\n| 工具名称      | 版本      | 源                                                           |\r\n| ------------- | --------- | ------------------------------------------------------------ |\r\n| Yakit         |           | [yaklang.com](https://yaklang.com/)                          |\r\n| BurpSuite     | v2024.1.1 | [52pojie.cn](https://www.52pojie.cn//thread-1544866-1-1.html) |\r\n| Behinder_v4.1 |           | [GitHub](https://github.com/rebeyond/Behinder/releases/tag/Behinder_v4.1【t00ls专版】) |\r\n| Godzilla      | v4.0.1    | [GitHub](https://github.com/BeichenDream/Godzilla/releases/tag/v4.0.1-godzilla) |\r\n| Ysoserial     | v0.0.6    | [GitHub](https://github.com/frohoff/ysoserial/releases/tag/v0.0.6) |\r\n| jar-analyzer  | v2.12     | [GitHub](https://github.com/jar-analyzer/jar-analyzer/releases/tag/2.12) |\r\n\r\n#### 文件Hex / 编辑\r\n\r\n| 工具名称               | 版本    | 源                                                           |\r\n| ---------------------- | ------- | ------------------------------------------------------------ |\r\n| ImHex                  | v1.33.0 | [GitHub](https://github.com/WerWolv/ImHex/releases/tag/v1.33.0) |\r\n| 010EditorWin64Portable | 14.0    | [52pojie.cn](https://www.52pojie.cn/thread-1863194-1-4.html) |\r\n\r\n#### 隐写相关\r\n\r\n| 工具名称                   | 版本   | 源                                                           |\r\n| -------------------------- | ------ | ------------------------------------------------------------ |\r\n| Tweakpng                   | v1.4.6 | [entropymine.com](https://entropymine.com/jason/tweakpng/)   |\r\n| stegdetect-0.4-for-Windows |        | Unknown                                                      |\r\n| WaterMark                  |        | [52pojie.cn](https://www.52pojie.cn/)                        |\r\n| z3                         | 4.12.6 | [GitHub](https://github.com/Z3Prover/z3/releases/tag/z3-4.12.6) |\r\n\r\n#### MISC 综合工具\r\n\r\n| 工具名称                                                     | 版本   | 源                                                           |\r\n| ------------------------------------------------------------ | ------ | ------------------------------------------------------------ |\r\n| 随波逐流CTF编码工具 / 随波逐流 OCR识别工具 / 随波逐流224种编码图 |        | [1o1o.xyz](http://1o1o.xyz/index.html)                       |\r\n| CTFCrackTools                                                | v4.0.7 | [GitHub](https://github.com/0Chencc/CTFCrackTools/releases/tag/4.0.7) |\r\n| Puzzle Solver                                                | v1.0.4 | [GitHub](https://github.com/Byxs20/PuzzleSolver/releases)    |\r\n\r\n#### 取证分析\r\n\r\n| 工具名称            | 版本                 | 源                                                           |\r\n| ------------------- | -------------------- | ------------------------------------------------------------ |\r\n| Wireshark           | 4.2.3-x64.exe        | [wireshark.org](https://www.wireshark.org/download.html)     |\r\n| LovelyMem           |                      | [GitHub](https://github.com/Tokeii0/LovelyMem/releases/tag/v0.2) |\r\n| BlueTeamTools       | v0.92                | [GitHub](https://github.com/abc123info/BlueTeamTools/releases/tag/v0.92) |\r\n| PasswareKitForensic | v2020 汉化 By Tokeii | NULL                                                         |\r\n| autopsy             | v4.21.0              | [GitHub](https://github.com/sleuthkit/autopsy/releases/tag/autopsy-4.21.0) |\r\n| Volatility3         | v3-2.5.2             | [GitHub](https://github.com/volatilityfoundation/volatility3) |\r\n| Volatility2         | v2.6                 | [GitHub](https://github.com/volatilityfoundation/volatility) |\r\n| WinHex              | v20.5                | [x-ways.net](https://www.x-ways.net/winhex/index-m.html)     |\r\n| X-Ways_Forensics    | v20.5                | [x-ways.net](https://www.x-ways.net/winhex/index-m.html)     |\r\n\r\n#### 密码学\r\n\r\n| 工具名称                                                   | 版本                                   | 源                                                   |\r\n| ---------------------------------------------------------- | -------------------------------------- | ---------------------------------------------------- |\r\n| CTF_AES加解密工具 / 国密SM4加解密工具 / 轩禹CTF_RSA工具3.6 |                                        | [bilibili.com](https://space.bilibili.com/317479700) |\r\n| ciphey                                                     | v5.14.0                                | @pip                                                 |\r\n| Z3求解器                                                   |                                        |                                                      |\r\n| SageMath(On WSL Arch)                                      | version 10.3, Release Date: 2024-03-19 | [sagemath.org](https://www.sagemath.org/)            |\r\n\r\n#### 二进制\r\n\r\n| 工具名称               | 版本                         | 源                                                           |\r\n| ---------------------- | ---------------------------- | ------------------------------------------------------------ |\r\n| IDA Pro                | v8.3                         | [52pojie.cn](https://down.52pojie.cn/Tools/Disassemblers/)   |\r\n| x64dbg                 |                              | [x64dbg.com](https://x64dbg.com/)                            |\r\n| exeinfope              | v0.0.8.3                     | [GitHub](https://github.com/ExeinfoASL/ASL/releases)         |\r\n| dnspy                  | v6.1.8                       | [GitHub](https://github.com/dnSpy/dnSpy/releases/tag/v6.1.8) |\r\n| dnSpyEX/dnSpy          | v6.5.0                       | [GitHub](https://github.com/dnSpyEx/dnSpy/releases/tag/v6.5.0) |\r\n| Ghidra                 | v11.0.2                      | [GitHub](https://github.com/NationalSecurityAgency/ghidra/releases/tag/Ghidra_11.0.2_build) |\r\n| Resource Hacker        | v5.2.7                       | [angusj.com](https://www.angusj.com/resourcehacker/)         |\r\n| 吾爱破解专用版Ollydbg  |                              | [52pojie.cn](https://down.52pojie.cn/Tools/Debuggers/)       |\r\n| Windbg                 | v10.0.22621.2428             | [52pojie.cn](https://down.52pojie.cn/Tools/Debuggers/)       |\r\n| Cheat Engine           | v7.5                         | [cheatengine.org](https://www.cheatengine.org/)              |\r\n| LuaDec (On WSL Ubuntu) | 2.2 rev: 895d923 for Lua 5.1 | [GitHub](https://github.com/viruscamp/luadec)                |\r\n| angrop (Python)        |                              | pip                                                          |\r\n\r\n#### PWN\r\n\r\n该部分环境安装于 WSL Ubuntu 22.04.3 LTS. `/home/helloctfos/pwnenv/`\r\n\r\n| 工具名称      | 工具信息                                            | 安装方式(源)                                                 |\r\n| ------------- | --------------------------------------------------- | ------------------------------------------------------------ |\r\n| vim文本编辑器 | 文本编辑器                                          | `sudo apt install vim`                                       |\r\n| git           | 开源的分布式版本控制系统                            | `sudo apt install git`                                       |\r\n| gcc           | GNU编译器套件                                       | `sudo apt install gcc`                                       |\r\n| python3-pip   | Python 包管理工具                                   | `sudo apt install python3-pip`                               |\r\n| qemu          | 处理器模拟器                                        | `sudo apt-get install qemu-user qemu-system`                 |\r\n| gdb-multiarch | gdb客户端进行调试的通用客户端                       | `sudo apt-get install gdb-multiarch`                         |\r\n| Pwntools      | CTF框架和开发库                                     | `git clone https://github.com/Gallopsled/pwntools.git` and other install commands |\r\n| gdb插件       | 包括peda、pwndbg、gef、Pwngdb                       | Cloning from respective repositories and setup               |\r\n| ROPgadget     | 在二进制文件中搜索小工具                            | `sudo pip3 install capstone` and `git clone https://github.com/JonathanSalwan/ROPgadget.git` |\r\n| one_gadget    | 查找ELF文件中的execve(’/bin/sh’, NULL, NULL)        | `sudo apt install ruby` and `sudo gem install one_gadget`    |\r\n| seccomp-tools | 分析CTF pwn挑战中的seccomp沙盒                      | `sudo gem install seccomp-tools`                             |\r\n| LibcSearcher  | 在泄露了Libc中的某一个函数地址后辅助工具            | `git clone https://github.com/lieanu/LibcSearcher.git`       |\r\n| patchelf      | 修改现有ELF可执行文件和库的工具                     | `sudo apt install patchelf`                                  |\r\n| ARM PWN       | ARM软件包，具备ARM交叉编译gcc与ARM程序动态链接库    | `sudo apt-get install gcc-arm-linux-gnueabi` and other ARM packages |\r\n| MIPS PWN      | MIPS软件包，具备MIPS交叉编译gcc与MIPS程序动态链接库 | `sudo apt-get install gcc-mips-linux-gnu` and other MIPS packages |\r\n\r\n\r\n#### 安卓\r\n\r\n| 工具名称                   | 版本             | 源                                                           |\r\n| -------------------------- | ---------------- | ------------------------------------------------------------ |\r\n| ADB                        | v35.0.1-11580240 | [google](https://dl.google.com/android/repository/platform-tools-latest-windows.zip) |\r\n| GDA-android-reversing-Tool | v4.10            | [GitHub](https://github.com/charles2gan/GDA-android-reversing-Tool/releases/tag/GDA4.10) |\r\n| jadx-gui                   | v1.4.7           | [GitHub](https://github.com/skylot/jadx/releases/tag/v1.4.7) |\r\n\r\n#### 漏洞利用\r\n\r\n| 工具名称                         | 版本   | 源                                                           |\r\n| -------------------------------- | ------ | ------------------------------------------------------------ |\r\n| Struts2_19.21.jar                |        | [GitHub](https://github.com/abc123info/Struts2VulsScanTools) |\r\n| ThinkphpGUI                      | 1.3    | [GitHub](https://github.com/Lotus6/ThinkphpGUI/releases/tag/1.3) |\r\n| thinkphp_gui_tools               |        | [GitHub](https://github.com/bewhale/thinkphp_gui_tools)      |\r\n| ShiroExploit-Deprecated          | v2.51  | [GitHub](https://github.com/feihong-cs/ShiroExploit-Deprecated/releases/tag/v2.51) |\r\n| ThinkPHP综合利用工具ShiroExploit | v2.4.2           | [GitHub](https://github.com/bewhale/thinkphp_gui_tools/releases/tag/v2.4.2) |\r\n\r\n## Demo\r\n\r\n![image](https://github.com/ProbiusOfficial/CTF-OS/assets/41804496/2ff13425-b2cb-4b96-a7eb-a3651a5afc82)\r\n\r\n![image](https://github.com/ProbiusOfficial/CTF-OS/assets/41804496/486f3989-8437-40c8-a20b-f75fca423556)\r\n\r\n## NEW Wallpaper\r\n\r\n![image](https://github.com/ProbiusOfficial/CTF-OS/assets/41804496/9e023623-8055-45cf-bfb3-67cc9398b713)\r\n\r\n## 赞助我们？\r\n\r\n<p float=\"left\">\r\n  <img src=\"https://nssctf.wdf.ink//img/WDTJ/202404030130413.png\" width=\"28%\" />\r\n  <img src=\"https://nssctf.wdf.ink//img/WDTJ/202404030131244.png\" width=\"28%\" />\r\n</p>\r\n您的赞助将帮助我们完善项目ww\r\n\r\n请在备注中注明，以便我们在项目中公开向您表示感谢.\r\n\r\n## End.\r\n\r\n![image](https://github.com/ProbiusOfficial/CTF-OS/assets/41804496/8b3a714f-afd7-4416-9b41-edd1344618c3)\r\n\r\n"
     },
@@ -26505,8 +26505,8 @@
         "description": "CTF在线工具-DES在线加解密|DES在线加密|DES在线解密|DES encryption|DES decryption"
     },
     "http://tool.chacuo.net/cryptserpent": {
-        "status_code": 502,
-        "description": "出错了---查错IT网"
+        "status_code": 200,
+        "description": "在线Serpent加密解密、Serpent在线加密解密、Serpent encryption and decryption--查错网"
     },
     "http://www.atoolbox.net/Tool.php?Id=1090": {
         "status_code": 200,
@@ -26519,8 +26519,8 @@
         "commit_date": "2017-12-06 10:55:25"
     },
     "http://tool.chacuo.net/cryptrsapassmodify": {
-        "status_code": 502,
-        "description": "出错了---查错IT网"
+        "status_code": 200,
+        "description": "在线RSA私钥密码添加修改、添加修改RSA私钥密码、rsa private key password modify--查错网"
     },
     "http://www.hiencode.com/four.html": {
         "status_code": 200,
@@ -26583,8 +26583,8 @@
         "description": "CTF在线工具-在线埃特巴什码加密|在线埃特巴什码解密|埃特巴什码算法|Atbash Cipher"
     },
     "http://tool.chacuo.net/cryptcast": {
-        "status_code": 502,
-        "description": "出错了---查错IT网"
+        "status_code": 200,
+        "description": "在线Cast加密解密、Cast在线加密解密、Cast encryption and decryption--查错网"
     },
     "https://ctf.bugku.com/tool/railfence": {
         "status_code": 200,
@@ -26607,8 +26607,8 @@
         "description": "CTFever Toolkit by uniiem"
     },
     "http://tool.chacuo.net/cryptrsamodulus2pkey": {
-        "status_code": 502,
-        "description": "出错了---查错IT网"
+        "status_code": 200,
+        "description": "由Exponent(指数)、Modulus(模数)生成Rsa 公钥 public key--查错网"
     },
     "http://www.hiencode.com/vigenere.html": {
         "status_code": 200,
@@ -26639,8 +26639,8 @@
         "description": "CTFever Toolkit by uniiem"
     },
     "http://tool.chacuo.net/cryptrsaprikey": {
-        "status_code": 502,
-        "description": "出错了---查错IT网"
+        "status_code": 200,
+        "description": "在线RSA私钥加密解密、RSA private key encryption and decryption--查错网"
     },
     "http://www.atoolbox.net/Tool.php?Id=918": {
         "status_code": 200,
@@ -26655,8 +26655,8 @@
         "description": "BASE85编码解码 - Bugku CTF"
     },
     "http://tool.chacuo.net/cryptrc2": {
-        "status_code": 502,
-        "description": "出错了---查错IT网"
+        "status_code": 200,
+        "description": "在线RC2加密解密、RC2在线加密解密、RC2 encryption and decryption--查错网"
     },
     "http://www.hiencode.com/simple.html": {
         "status_code": 200,
@@ -26679,16 +26679,16 @@
         "description": "CTF在线工具-在线私钥解析|在线私钥提取|私钥在线破解|私钥信息提取"
     },
     "http://tool.chacuo.net/cryptrsapkcs1pkcs8": {
-        "status_code": 502,
-        "description": "出错了---查错IT网"
+        "status_code": 200,
+        "description": "在线RSA PKCS#1 转 PKCS8格式私钥、convert pkcs8 to pkcs#1 private key--查错网"
     },
     "https://ctf.bugku.com/tool/sojson5": {
         "status_code": 200,
         "description": "Sojson v5 解密 - Bugku CTF"
     },
     "http://tool.chacuo.net/cryptrsapassclear": {
-        "status_code": 502,
-        "description": "出错了---查错IT网"
+        "status_code": 200,
+        "description": "在线RSA私钥密码清除、删除RSA私钥密码、rsa private key password removal--查错网"
     },
     "http://www.hiencode.com/a1z26.html": {
         "status_code": 200,
@@ -26715,8 +26715,8 @@
         "description": "CTF在线工具-在线Gronsfeld密码加密|在线Gronsfeld密码解密|Gronsfeld密码算法|Gronsfeld Cipher"
     },
     "http://tool.chacuo.net/crypttwofish": {
-        "status_code": 502,
-        "description": "出错了---查错IT网"
+        "status_code": 200,
+        "description": "在线Twofish加密解密、Twofish在线加密解密、Twofish encryption and decryption--查错网"
     },
     "http://www.hiencode.com/base92.html": {
         "status_code": 200,
@@ -26735,8 +26735,8 @@
         "description": "Base62编码/解码 - 一个工具箱 - 好用的在线工具都在这里！"
     },
     "http://tool.chacuo.net/cryptxtea": {
-        "status_code": 502,
-        "description": "出错了---查错IT网"
+        "status_code": 200,
+        "description": "在线Xtea加密解密、Xtea在线加密解密、Xtea encryption and decryption--查错网"
     },
     "http://www.hiencode.com/mimetypes.html": {
         "status_code": 200,
@@ -26767,8 +26767,8 @@
         "description": "BASE91编码解码 - Bugku CTF"
     },
     "http://tool.chacuo.net/cryptrsakeyparse": {
-        "status_code": 502,
-        "description": "出错了---查错IT网"
+        "status_code": 200,
+        "description": "RSA公私钥分解 Exponent、Modulus，Rsa公私钥指数、系数(模数)分解--查错网"
     },
     "http://www.hiencode.com/railfence.html": {
         "status_code": 200,
@@ -26779,8 +26779,8 @@
         "description": "随机密码和密钥生成器 - 一个工具箱 - 好用的在线工具都在这里！"
     },
     "http://tool.chacuo.net/cryptchacha20": {
-        "status_code": 502,
-        "description": "出错了---查错IT网"
+        "status_code": 200,
+        "description": "在线chacha20加密解密、chacha20在线加密解密、chacha20 encryption and decryption--查错网"
     },
     "https://ctf.bugku.com/tool/base62": {
         "status_code": 200,
@@ -26795,12 +26795,12 @@
         "description": "BASE64编码解码 - Bugku CTF"
     },
     "http://tool.chacuo.net/crypt3des": {
-        "status_code": 502,
-        "description": "出错了---查错IT网"
+        "status_code": 200,
+        "description": "在线3DES加密解密、3DES在线加密解密、3DES encryption and decryption--查错网"
     },
     "http://tool.chacuo.net/cryptaes": {
-        "status_code": 502,
-        "description": "出错了---查错IT网"
+        "status_code": 200,
+        "description": "在线AES加密解密、AES在线加密解密、AES encryption and decryption--查错网"
     },
     "https://ctf.bugku.com/tool/base16": {
         "status_code": 200,
@@ -26835,16 +26835,16 @@
         "description": "CTF在线工具-在线Porta密码加密|在线Porta密码解密|Porta密码算法|Porta Cipher"
     },
     "http://tool.chacuo.net/cryptrc5": {
-        "status_code": 502,
-        "description": "出错了---查错IT网"
+        "status_code": 200,
+        "description": "在线RC5加密解密、RC5在线加密解密、RC5 encryption and decryption--查错网"
     },
     "http://www.hiencode.com/base91.html": {
         "status_code": 200,
         "description": "CTF在线工具-在线base91编码|在线base91解码|base91编码|base91解码"
     },
     "http://tool.chacuo.net/cryptrijndael": {
-        "status_code": 502,
-        "description": "出错了---查错IT网"
+        "status_code": 200,
+        "description": "在线Rijndael加密解密、Rijndael在线加密解密、Rijndael encryption and decryption--查错网"
     },
     "http://www.hiencode.com/morse.html": {
         "status_code": 200,
@@ -26863,8 +26863,8 @@
         "description": "CTF在线工具-在线查看HTTP/HTTPS响应消息头|HTTP Response"
     },
     "http://tool.chacuo.net/cryptgetpubkey": {
-        "status_code": 502,
-        "description": "出错了---查错IT网"
+        "status_code": 200,
+        "description": "RSA非对称加密从私钥中获取公钥、Get the public key from the private key--查错网"
     },
     "https://ctf.bugku.com/tool/cvecode": {
         "status_code": 200,
@@ -26875,8 +26875,8 @@
         "description": "CTF在线工具-在线HTML编码|在线HTML解码"
     },
     "http://tool.chacuo.net/cryptrsakeyvalid": {
-        "status_code": 502,
-        "description": "出错了---查错IT网"
+        "status_code": 200,
+        "description": "在线RSA公私密钥校验、RSA公私密钥检查、Online RSA public-private key verification--查错网"
     },
     "http://www.hiencode.com/caes.html": {
         "status_code": 200,
@@ -26887,20 +26887,20 @@
         "description": "Brainfuck/OoK加密解密 - Bugku CTF"
     },
     "http://tool.chacuo.net/cryptgost": {
-        "status_code": 502,
-        "description": "出错了---查错IT网"
+        "status_code": 200,
+        "description": "在线Gost加密解密、Gost在线加密解密、Gost encryption and decryption--查错网"
     },
     "http://web.chacuo.net/netdsakeypair": {
-        "status_code": 502,
-        "description": "出错了---查错IT网"
+        "status_code": 200,
+        "description": "在线DSA密钥对、DSA公钥私钥对生成、DSA Key pair create、生成DSA密钥对--查错网"
     },
     "http://www.hiencode.com/keyword.html": {
         "status_code": 200,
         "description": "CTF在线工具-在线关键字加密|在线关键字解密|关键字密码算法|Keyword Cipher"
     },
     "http://tool.chacuo.net/cryptrc4": {
-        "status_code": 502,
-        "description": "出错了---查错IT网"
+        "status_code": 200,
+        "description": "在线RC4加密解密、RC4在线加密解密、RC4 encryption and decryption--查错网"
     },
     "http://www.atoolbox.net/Tool.php?Id=920": {
         "status_code": 200,
@@ -26947,8 +26947,8 @@
         "description": "百家姓加密/解密 - 一个工具箱 - 好用的在线工具都在这里！"
     },
     "http://tool.chacuo.net/cryptblowfish": {
-        "status_code": 502,
-        "description": "出错了---查错IT网"
+        "status_code": 200,
+        "description": "在线Blowfish加密解密、Blowfish在线加密解密、Blowfish encryption and decryption--查错网"
     },
     "http://www.atoolbox.net/Tool.php?Id=935": {
         "status_code": 200,
@@ -26971,16 +26971,16 @@
         "description": "CTF在线工具-在线base58编码|在线base58解码|base58编码|base58解码|base58check"
     },
     "http://web.chacuo.net/netrsakeypair": {
-        "status_code": 502,
-        "description": "出错了---查错IT网"
+        "status_code": 200,
+        "description": "在线生成非对称加密公钥私钥对、在线生成公私钥对、RSA Key pair create、生成RSA密钥对--查错网"
     },
     "http://www.atoolbox.net/Tool.php?Id=932": {
         "status_code": 200,
         "description": "Base58编码/解码 - 一个工具箱 - 好用的在线工具都在这里！"
     },
     "http://tool.chacuo.net/cryptrc6": {
-        "status_code": 502,
-        "description": "出错了---查错IT网"
+        "status_code": 200,
+        "description": "在线RC6加密解密、RC6在线加密解密、RC6 encryption and decryption--查错网"
     },
     "http://www.hiencode.com/rot13.html": {
         "status_code": 200,
@@ -27074,7 +27074,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "20.172.5.211属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "20.102.47.1属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
@@ -27093,8 +27093,8 @@
         "description": "Reverse IP Lookup - All Names Hosted at an IP - DomainTools"
     },
     "https://www.webscan.cc/": {
-        "status_code": 200,
-        "description": "同IP网站查询,C段查询,IP反查域名,在线C段,旁站工具 - WebScan"
+        "status_code": 500,
+        "description": ""
     },
     "https://gofile.io/": {
         "status_code": 200,
@@ -27293,8 +27293,8 @@
         "description": "Detect which CMS a site is using - What CMS?"
     },
     "http://eyes.sh": {
-        "status_code": 504,
-        "description": "504 Gateway Time-out"
+        "status_code": 200,
+        "description": "登录"
     },
     "https://www.lingfengyun.com/": {
         "status_code": 200,
