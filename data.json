@@ -29,8 +29,8 @@
     "https://github.com/RsaCtfTool/RsaCtfTool": {
         "created_at": "2015-03-07 17:29:33",
         "description": "RSA attack tool (mainly for ctf) - retrieve private key from weak public key and/or uncipher data",
-        "commit_message": "Merge pull request #479 from mechtifs/master\n\nFix some issues when longs are provided",
-        "commit_date": "2024-05-05 02:54:15"
+        "commit_message": "Update number_theory.py: add is_lucas function",
+        "commit_date": "2024-06-07 22:32:04"
     },
     "https://github.com/admintony/svnExploit": {
         "created_at": "2018-02-06 09:43:26",
@@ -4624,13 +4624,13 @@
         "release_message": "Compiled for .NET 4.6 on 8/16/18."
     },
     "https://github.com/zksync-sdk/zksync2-python": {
-        "created_at": "2024-02-18 21:20:02",
+        "created_at": "2024-06-07 11:52:49",
         "description": null,
-        "commit_date": "2024-04-28 22:39:09",
-        "commit_message": "ci(tests): trigger test on push against `main` and `beta`",
+        "commit_date": "2024-06-07 11:52:49",
+        "commit_message": "1.2.0 version bump [skip ci]\n\n# [1.2.0](https://github.com/zksync-sdk/zksync2-python/compare/v1.1.0...v1.2.0) (2024-06-07)\n\n### Bug Fixes\n\n* fix abi contract cache ([81b9e4c](https://github.com/zksync-sdk/zksync2-python/commit/81b9e4c8bec9cd2fc258669edeb8012ccafa0c80))\n* non zero gas limit in options breaks transfer function ([d739a60](https://github.com/zksync-sdk/zksync2-python/commit/d739a604f7ff43bc372586377d861d66745980b4))\n* zks_l1_chain_id not returning int type ([0ebd1b8](https://github.com/zksync-sdk/zksync2-python/commit/0ebd1b8499d22b1c83a1051b77a461841e1a4f0d))\n\n### Features\n\n* provide support for Bridgehub ([dabbfc0](https://github.com/zksync-sdk/zksync2-python/commit/dabbfc0c95f11e79e6683101b20fae3c851506e8))",
         "release_tag": "v0.6.0",
-        "release_date": "2024-02-18 21:20:04",
-        "release_message": "This release is also available on:\n- `v1.1.0`\n---\n# [1.1.0](https://github.com/zksync-sdk/zksync2-python/compare/v1.0.0...v1.1.0) (2024-02-18)\n\n\n### Features\n\n* paymster withdraw and transfer support ([66f7761](https://github.com/zksync-sdk/zksync2-python/commit/66f7761bf4a1677ed50a6bf995e0fde6515b76b7))\n* **provider:** add zks_logProof ([6d48dff](https://github.com/zksync-sdk/zksync2-python/commit/6d48dff8e7e81709b637d2117ba6a2c843e9d740))\n\n\n\n"
+        "release_date": "2024-06-07 11:52:52",
+        "release_message": "This release is also available on:\n- `v1.2.0`\n---\n# [1.2.0](https://github.com/zksync-sdk/zksync2-python/compare/v1.1.0...v1.2.0) (2024-06-07)\n\n\n### Bug Fixes\n\n* fix abi contract cache ([81b9e4c](https://github.com/zksync-sdk/zksync2-python/commit/81b9e4c8bec9cd2fc258669edeb8012ccafa0c80))\n* non zero gas limit in options breaks transfer function ([d739a60](https://github.com/zksync-sdk/zksync2-python/commit/d739a604f7ff43bc372586377d861d66745980b4))\n* zks_l1_chain_id not returning int type ([0ebd1b8](https://github.com/zksync-sdk/zksync2-python/commit/0ebd1b8499d22b1c83a1051b77a461841e1a4f0d))\n\n\n### Features\n\n* provide support for Bridgehub ([dabbfc0](https://github.com/zksync-sdk/zksync2-python/commit/dabbfc0c95f11e79e6683101b20fae3c851506e8))\n\n\n\n"
     },
     "https://github.com/hayasec/360SafeBrowsergetpass": {
         "created_at": "2020-11-19 08:42:03",
@@ -24412,8 +24412,8 @@
         "description": "魅族安全中心"
     },
     "https://sec.vip.com/": {
-        "status_code": 503,
-        "description": ""
+        "status_code": 200,
+        "description": "VSRC首页-唯品会信息安全中心"
     },
     "https://sec.wacai.com/": {
         "status_code": 200,
@@ -27074,7 +27074,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "13.87.243.32属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "20.75.95.33属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
