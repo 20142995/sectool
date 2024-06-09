@@ -3022,13 +3022,13 @@
         "release_message": "修复一个BUG，该BUG导致在Linux环境内使用 -ap 命令时，指定路径全部转为小写，从而无法正常工作。\r\nFix a bug where the -ap command cannot be used due to all specified paths being converted to lowercase within the Linux environment."
     },
     "https://github.com/moonD4rk/HackBrowserData": {
-        "created_at": "2020-06-18 03:24:31",
-        "description": "Decrypt passwords/cookies/history/bookmarks from the browser. 一款可全平台运行的浏览器数据导出解密工具。",
-        "commit_date": "2023-10-02 14:37:42",
-        "commit_message": "chore: update Go version and dependencies for builds\n\n- Update Go version from `1.20` to `1.21` in go.mod, .github/workflows/build.yml, and .github/workflows/lint.yml",
+        "created_at": "2024-01-09 12:57:42",
+        "description": "Extract and decrypt browser data, supporting multiple data types, runnable on various operating systems (macOS, Windows, Linux).",
+        "commit_date": "2024-04-12 12:06:04",
+        "commit_message": "chore(deps): bump crazy-max/ghaction-xgo from 2 to 3\n\nBumps [crazy-max/ghaction-xgo](https://github.com/crazy-max/ghaction-xgo) from 2 to 3.\n- [Release notes](https://github.com/crazy-max/ghaction-xgo/releases)\n- [Commits](https://github.com/crazy-max/ghaction-xgo/compare/v2...v3)\n\n---\nupdated-dependencies:\n- dependency-name: crazy-max/ghaction-xgo\n  dependency-type: direct:production\n  update-type: version-update:semver-major\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>",
         "release_tag": "v0.4.4",
-        "release_date": "2022-08-16 11:59:57",
-        "release_message": "## Changes\r\n- fix: find Chrome cookie file failed on windows @moonD4rk (#162)\r\n- deploy: update more check on CI @moonD4rk (#160)\r\n- refactor: formate code by golangci-lint @moonD4rk (#159)\r\n- fix: can not access the file Error when compress results @slimwang (#156)"
+        "release_date": "2024-01-09 13:14:30",
+        "release_message": "## What's Changed\r\n\r\n## 🚀 Features\r\n* feat: add sogou and dc browser by @BeichenDream in https://github.com/moonD4rk/HackBrowserData/pull/180\r\n* feat: format project layout by @moonD4rk in https://github.com/moonD4rk/HackBrowserData/pull/199\r\n* feat: add full-export browsing data option by @moonD4rk in https://github.com/moonD4rk/HackBrowserData/pull/200\r\n* feat: support Arc browser for macOS by @moonD4rk in https://github.com/moonD4rk/HackBrowserData/pull/220\r\n* feat: improve extension parsing by @stevenlele in https://github.com/moonD4rk/HackBrowserData/pull/235\r\n\r\n\r\n## 🐛 Bug Fixes\r\n* fix: log error & remove deprecated linter by @carr0t2 in https://github.com/moonD4rk/HackBrowserData/pull/171\r\n* fix: handle error if run binary failed by @moonD4rk in https://github.com/moonD4rk/HackBrowserData/pull/177\r\n* fix: issue of data missing caused by title being null by @zhe6652 in https://github.com/moonD4rk/HackBrowserData/pull/191\r\n* fix: the bug that the command line Usage prompt is incomplete by @slark-yuxj in https://github.com/moonD4rk/HackBrowserData/pull/196\r\n* fix: wrong log caller skip level by @moonD4rk in https://github.com/moonD4rk/HackBrowserData/pull/198\r\n* fix: Bug fixes in firefox file walk by @a-urth in https://github.com/moonD4rk/HackBrowserData/pull/229\r\n* fix: warn if failed to decrypt master key by @stevenlele in https://github.com/moonD4rk/HackBrowserData/pull/234\r\n* fix: Improve error handling in browsing data and file copying functions by @moonD4rk in https://github.com/moonD4rk/HackBrowserData/pull/261\r\n\r\n\r\n## ♻️ Chore & Refactor\r\n* refactor: optimize JSON indent output format by @stevenlele in https://github.com/moonD4rk/HackBrowserData/pull/236\r\n* refactor: add provider software folder and check linters by @moonD4rk in https://github.com/moonD4rk/HackBrowserData/pull/172\r\n* chore: upgrade go mod, remove json iterator dep by @moonD4rk in https://github.com/moonD4rk/HackBrowserData/pull/178\r\n* chore: upgrade package dependencies by @moonD4rk in https://github.com/moonD4rk/HackBrowserData/pull/197\r\n* chore: update logo filetype by @moonD4rk in https://github.com/moonD4rk/HackBrowserData/pull/227\r\n* chore: use better bytes comparison method by @testwill in https://github.com/moonD4rk/HackBrowserData/pull/257\r\n\r\n\r\n\r\n## New Contributors\r\n* @carr0t2 made their first contribution in https://github.com/moonD4rk/HackBrowserData/pull/171\r\n* @BeichenDream made their first contribution in https://github.com/moonD4rk/HackBrowserData/pull/180\r\n* @zhe6652 made their first contribution in https://github.com/moonD4rk/HackBrowserData/pull/191\r\n* @slark-yuxj made their first contribution in https://github.com/moonD4rk/HackBrowserData/pull/196\r\n* @a-urth made their first contribution in https://github.com/moonD4rk/HackBrowserData/pull/229\r\n* @stevenlele made their first contribution in https://github.com/moonD4rk/HackBrowserData/pull/235\r\n* @testwill made their first contribution in https://github.com/moonD4rk/HackBrowserData/pull/257\r\n\r\n\r\n**Full Changelog**: https://github.com/moonD4rk/HackBrowserData/compare/v0.4.4...v0.4.5"
     },
     "https://github.com/CYJoe-Cyclone/PenetrationTesttips": {
         "created_at": "2021-10-15 02:14:12",
@@ -6191,7 +6191,7 @@
         "release_message": "### 更新日志 \r\n1.  新增对 Tomcat Agent 注入内存马的支持 [#4]\r\n2.  新增对 SpringBoot(SpringMVC) Agent 注入内存马的支持 [#4]"
     },
     "https://github.com/lemonlove7/dirsearch_bypass403": {
-        "created_at": "2023-05-05 07:23:53",
+        "created_at": "2023-09-01 08:43:00",
         "description": "目录扫描+JS文件中提取URL和子域+403状态绕过+指纹识别",
         "commit_date": "2023-09-07 09:08:29",
         "commit_message": "Update README.md",
@@ -22870,8 +22870,8 @@
     "https://github.com/momosecurity/FindSomething": {
         "created_at": "2020-09-12 08:47:31",
         "description": "基于chrome、firefox插件的被动式信息泄漏检测工具",
-        "commit_message": "ver:2.0.17 (#43)\n\n## [2.0.17]-2024-01-13\r\n感谢 喂草。、 向上 对内存占用问题的反馈。\r\n感谢 FREE2E! 对.jsp后缀错误分拣到静态路径区问题的反馈。\r\n### 变更\r\n- 因为旧版本收集到的数据会永久存在localStorage中，导致在每次存取数据时出现内存暴增的问题。本次增加了对数据的过期逻辑，7天未访问的url数据将会过期。\r\n- 配置页新增了“清除缓存”操作，用户可手动清除缓存。\r\n- 补充了.tw的顶级域。\r\n\r\n### 修复\r\n- 修复了对.jsp后缀错误分拣到静态路径区的问题。",
-        "commit_date": "2024-01-24 13:29:51"
+        "commit_message": "v2.0.18 (#47)\n\n## [2.0.18]-2024-05-16\r\n感谢 天明、 cloud-jie 针对WebInfoHunter的建议。\r\n感谢 cloud-jie 对iframe 问题的反馈。\r\n### 添加\r\n- 新增了对 iframe 页面的检索。\r\n- 新增了ARL项目中WebInfoHunter工具的部分敏感信息的正则，感谢ARL项目。",
+        "commit_date": "2024-05-19 12:52:28"
     },
     "https://github.com/reto18052015/YingJiXiangYing": {
         "created_at": "2023-02-05 06:07:25",
@@ -27074,7 +27074,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "20.81.158.166属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "20.172.5.87属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
