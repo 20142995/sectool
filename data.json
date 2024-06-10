@@ -7910,8 +7910,8 @@
     "https://github.com/eryajf/Thanks-Mirror": {
         "created_at": "2022-05-07 15:08:23",
         "description": "整理记录各个包管理器，系统镜像，以及常用软件的好用镜像，Thanks Mirror。     走过路过，如觉不错，麻烦点个赞👆🌟",
-        "commit_date": "2023-09-28 13:00:26",
-        "commit_message": "添加chsrc的推荐",
+        "commit_date": "2024-06-07 14:49:29",
+        "commit_message": "update readme",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -19931,13 +19931,13 @@
         "release_message": ""
     },
     "https://github.com/skylot/jadx": {
-        "created_at": "2013-03-18 17:08:21",
+        "created_at": "2024-04-20 17:06:30",
         "description": "Dex to Java decompiler",
         "release_tag": "v1.4.7",
-        "release_date": "2023-04-20 15:45:18",
-        "release_message": "### Features\r\n\r\n- [core] Inline lambdas by instance field (#1800)\r\n- [plugins] Allow to load classes using input stream or byte array in jadx-input plugin (#1457)\r\n\r\n\r\n### Bug Fixes\r\n\r\n- [core] Restore missing type parameter declarations (#1800)\r\n- [core] Filter invalid chars in app name for gradle export (PR #1813)\r\n- [core] Correct args shift for instance invoke-custom (#1816)\r\n- [core] Additional checks to forbid inline of null consts (#1828)\r\n- [core] Use strict patterns for synthetic methods inline (#1829)\r\n- [res] Resolve manifest decoding error `Expected strings start` (#1797)(PR #1798)\r\n- [res] Handle RES_TABLE_TYPE_OVERLAY (#1748) (PR #1804)\r\n- [res] Parsing of sparse RES_TABLE_TYPE_TYPE and RES_TABLE_TYPE_STAGED_ALIAS chunks (#1806 #1803)(PR #1807)\r\n- [res] Resolve int hex attributes\r\n- [res] Resolve custom attributes\r\n- [res] Resolve declare-styleable atrributes\r\n- [res] Set empty parent for styles without a parent, remove duplicated code\r\n- [xml] Use parent attribute only for styles (PR #1815)\r\n- [gui] Search constant fields usage in all classes (#1801)\r\n- [gui] Redirect jump from search for inlined classes\r\n- [gui] Show skipped resources count during search (#1808)\r\n- [gui] Update Messages_zh_CN.properties (PR #1811)\r\n- [debugger] Process UI updates in correct thread (#1796)\r\n- [cli] Make enum CLI arguments match documented format (PR #1787)\r\n\r\n**Full Changelog**: https://github.com/skylot/jadx/compare/v1.4.6...v1.4.7\r\n\r\n### Download files:\r\n- [jadx-gui-1.4.7-with-jre-win.zip](https://github.com/skylot/jadx/releases/download/v1.4.7/jadx-gui-1.4.7-with-jre-win.zip) - jadx-gui with bundled JRE\r\n- [jadx-gui-1.4.7-no-jre-win.exe](https://github.com/skylot/jadx/releases/download/v1.4.7/jadx-gui-1.4.7-no-jre-win.exe) - jadx-gui single exe (system JRE must be installed)\r\n- [jadx-1.4.7.zip](https://github.com/skylot/jadx/releases/download/v1.4.7/jadx-1.4.7.zip) - cross-platform cli and gui bundle (system JRE must be installed)\r\n\r\nFor system JRE the latest version is always preferred, download at [oracle.com](https://www.oracle.com/java/technologies/downloads/#jdk20-windows)",
-        "commit_date": "2023-11-16 17:48:08",
-        "commit_message": "feat: allow to set zip max entries count using env var (#1751)"
+        "release_date": "2024-04-20 18:47:46",
+        "release_message": "### Main features\r\n\r\n- Added support for:\r\n  - Scripting, uses Kotlin, check [short guide](https://github.com/skylot/jadx/wiki/Jadx-scripts-guide)\r\n  - External plugins, [guide](https://github.com/skylot/jadx/wiki/Jadx-plugins-guide)\r\n  Both features in preview state, API is stable but limited (especially in UI customizations)\r\n- Jadx GUI:\r\n  - Improved code cache, allow use common directory, view/delete exist caches in preferences\r\n  - jadx-gui configuration moved into plain json files in system config directory\r\n  - Allow to set custom shortcuts\r\n  - Tabs drag and drop reorder support\r\n  - Hex-viewer for binary asset files\r\n  - Add 'go to main activity' action\r\n- Other:\r\n  - Java 11+ is required now\r\n  - Parse and use Kotlin metadata for renames\r\n  - Add support for XApk files\r\n  - Allow to move class to another package\r\n  - Support jsr/ret opcodes (java-input) \r\n- A lot of bug fixes ... and regressions :rofl:\r\n\r\n**Full Changelog**: https://github.com/skylot/jadx/compare/v1.4.7...v1.5.0\r\n\r\n### Download files:\r\n- [jadx-gui-1.5.0-with-jre-win.zip](https://github.com/skylot/jadx/releases/download/v1.5.0/jadx-gui-1.5.0-with-jre-win.zip) - jadx-gui with bundled JRE\r\n- [jadx-gui-1.5.0-no-jre-win.exe](https://github.com/skylot/jadx/releases/download/v1.5.0/jadx-gui-1.5.0-no-jre-win.exe) - jadx-gui single exe (system JRE must be installed)\r\n- [jadx-1.5.0.zip](https://github.com/skylot/jadx/releases/download/v1.5.0/jadx-1.5.0.zip) - cross-platform cli and gui bundle (system JRE must be installed)\r\n\r\nFor system JRE the latest version is always preferred, Java 11+ is required, download at [oracle.com](https://www.oracle.com/java/technologies/downloads/#jdk21-windows)\r\n",
+        "commit_date": "2024-05-19 16:47:35",
+        "commit_message": "fix(gui): support filtering files with multiple extensions in file dialog (PR #2185)\n\n* fix(gui): support filtering files with multiple extensions in file dialog\r\n\r\n* lint"
     },
     "https://github.com/bluefrostsecurity/CVE-2019-1215": {
         "created_at": "2020-01-06 22:34:16",
@@ -22814,7 +22814,7 @@
         "release_message": "主要更新:\r\n1. 增加IPV6扫描支持，支持IPV6 CIDR段以及使用`-`的解析\r\n2. 增加WebLogic `t3`以及`iiop`协议信息扫描`t3scan`，用法参考[https://github.com/P1-Team/AlliN#t3scan](https://github.com/P1-Team/AlliN#t3scan)\r\n3. 对subscan,   sfscan增加`-f`文件支持，支持文件输出需要查询的子域名。参考 #15 ，感谢 @JackeyLov5\r\n4. 删除在subscan里面的bing search模块\r\n---\r\n| md5 | filename |\r\n| --- | --- |\r\n| c5735923f16b80bc0f302d7243375b6d |  AlliN.exe |\r\n| c7b552f77c3c9564bc931f53709edc5a | AlliN |"
     },
     "https://github.com/78778443/QingScan": {
-        "created_at": "2021-12-06 02:49:49",
+        "created_at": "2022-12-01 09:14:08",
         "description": "一个漏洞扫描器粘合剂,添加目标后30款工具自动调用；支持 web扫描、系统扫描、子域名收集、目录扫描、主机扫描、主机发现、组件识别、URL爬虫、XRAY扫描、AWVS自动扫描、POC批量验证，SSH批量测试、vulmap。",
         "commit_date": "2023-11-25 14:53:39",
         "commit_message": "修正部分代码",
@@ -27074,7 +27074,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "172.183.107.221属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "172.183.82.197属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
