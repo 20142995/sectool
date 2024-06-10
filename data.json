@@ -3260,8 +3260,8 @@
     "https://github.com/bytedance/Elkeid": {
         "created_at": "2024-05-24 04:22:45",
         "description": "Elkeid is an open source solution that can meet the security requirements of various workloads such as hosts, containers and K8s, and serverless. It is derived from ByteDance's internal best practices.",
-        "commit_message": "Merge pull request #625 from bytedance/fix-java-command\n\nfix jvm command status",
-        "commit_date": "2024-05-28 02:19:24",
+        "commit_message": "Merge pull request #633 from bytedance/feai-python-m\n\nfeat python m flag inspect",
+        "commit_date": "2024-06-07 08:13:52",
         "release_date": "2024-05-27 04:05:41",
         "release_message": ""
     },
@@ -4113,8 +4113,8 @@
     "https://github.com/vulhub/vulhub": {
         "created_at": "2017-04-09 10:13:13",
         "description": "Pre-Built Vulnerable Environments Based on Docker-Compose",
-        "commit_message": "Merge pull request #532 from vulhub/showdoc-cnvd-2020-26585\n\nAdded ShowDoc file upload CNVD-2020-26585",
-        "commit_date": "2024-05-29 11:39:03"
+        "commit_message": "improve POC for ShowDoc sqli",
+        "commit_date": "2024-06-04 11:47:46"
     },
     "https://github.com/zhuifengshaonianhanlu/pikachu": {
         "created_at": "2018-07-24 08:21:19",
@@ -4740,8 +4740,8 @@
     "https://github.com/0x727/ObserverWard": {
         "created_at": "2024-03-22 09:26:54",
         "description": "侦查守卫(ObserverWard)指纹识别工具Community web fingerprint identification tool ",
-        "commit_message": "rename",
-        "commit_date": "2024-05-29 07:13:03",
+        "commit_message": "Merge pull request #292 from 0x727/dependabot/cargo/cached-0.51.3\n\nBump cached from 0.50.0 to 0.51.3",
+        "commit_date": "2024-06-04 05:17:42",
         "release_date": "2024-03-22 09:27:13",
         "release_message": ""
     },
@@ -6463,8 +6463,8 @@
     "https://github.com/horsicq/DIE-engine": {
         "created_at": "2023-12-28 19:55:00",
         "description": "DIE engine",
-        "commit_message": "Update module: XFileInfo 2024-06-09",
-        "commit_date": "2024-06-08 23:14:57",
+        "commit_message": "Update module: XFileInfo 2024-06-10",
+        "commit_date": "2024-06-09 23:31:18",
         "release_date": "2023-12-28 21:22:21",
         "release_message": "Please see the file [CHANGELOG](https://github.com/horsicq/Detect-It-Easy/blob/master/changelog.txt) for a detailed list of changes.\r\n\r\n\r\n| Asset / File | Description / Host OS |\r\n| ----------- | ----------- |\r\n| [die_sourcecode_3.09.tar.gz](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_sourcecode_3.09.tar.gz) | Source code tarball |\r\n| [Detect_It_Easy-3.09-x86_64.AppImage](https://github.com/horsicq/DIE-engine/releases/download/3.09/Detect_It_Easy-3.09-x86_64.AppImage) | Portable version for Linux [How to run](https://github.com/horsicq/Detect-It-Easy/blob/master/docs/RUN.md) |\r\n| [die_3.09_Debian_10_amd64.deb](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_Debian_10_amd64.deb) | Installer for Debian 10 |\r\n| [die_3.09_Debian_11_amd64.deb](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_Debian_11_amd64.deb) | Installer for Debian 11 |\r\n| [die_3.09_Debian_12_amd64.deb](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_Debian_12_amd64.deb) | Installer for Debian 12 |\r\n| [die_3.09_Ubuntu_14.04_amd64.deb](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_Ubuntu_14.04_amd64.deb) | Installer for Ubuntu 14.04 |\r\n| [die_3.09_Ubuntu_16.04_amd64.deb](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_Ubuntu_16.04_amd64.deb) | Installer for Ubuntu 16.04 |\r\n| [die_3.09_Ubuntu_18.04_amd64.deb](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_Ubuntu_18.04_amd64.deb) | Installer for Ubuntu 18.04 |\r\n| [die_3.09_Ubuntu_20.04_amd64.deb](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_Ubuntu_20.04_amd64.deb) | Installer for Ubuntu 20.04 |\r\n| [die_3.09_Ubuntu_22.04_amd64.deb](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_Ubuntu_22.04_amd64.deb) | Installer for Ubuntu 22.04 |\r\n| [die_3.09_Ubuntu_22.10_amd64.deb](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_Ubuntu_22.10_amd64.deb) | Installer for Ubuntu 22.10 |\r\n| [die_3.09_Ubuntu_23.04_amd64.deb](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_Ubuntu_23.04_amd64.deb) | Installer for Ubuntu 23.04 |\r\n| [die_3.09_Ubuntu_23.10_amd64.deb](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_Ubuntu_23.10_amd64.deb) | Installer for Ubuntu 23.10 |\r\n| [die_3.09_Kali_2023.4_amd64](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_Kali_2023.4_amd64) | Installer for Kali 2023.4 |\r\n| [die_3.09_Parrot_5.3_amd64.deb](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_Parrot_5.3_amd64.deb) | Installer for Parrot 5.3 |\r\n| [die_3.09_portable_Ubuntu_20.04_amd64.tar.gz](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_portable_Ubuntu_20.04_amd64.tar.gz) | Portable version for Ubuntu 20.04 |\r\n| [detect-it-easy-3.09-1-x86_64.pkg.tar.zst](https://github.com/horsicq/DIE-engine/releases/download/3.09/detect-it-easy-3.09-1-x86_64.pkg.tar.zst) | Installer for Arch Linux |\r\n| [die_mac_3.09_x86_64.pkg](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_mac_3.09_x86_64.pkg) | Installer for macOS |\r\n| [die_mac_qt6_3.09_arm64.pkg](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_mac_qt6_3.09_arm64.pkg) | Installer for macOS Qt6 M1 processor|\r\n| [die_mac_portable_3.09_x86_64.zip](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_mac_portable_3.09_x86_64.zip) | Portable version for macOS |\r\n| [die_win32_portable_3.09_x86.zip](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_win32_portable_3.09_x86.zip) | Portable version for x86 Win32 (Win7-Win11)|\r\n| [die_win64_portable_3.09_x64.zip](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_win64_portable_3.09_x64.zip) | Portable version for x64 Win64 (Win7-Win11) |\r\n| [die_winxp_portable_3.09_x86.zip](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_winxp_portable_3.09_x86.zip) | Portable version for Windows XP (WinXP-Win11) |\r\n\r\n\r\nExperimental versions - There may be bugs in the GUI\r\n\r\n| Asset / File | Description / Host OS |\r\n| ----------- | ----------- |\r\n| [die_win64_qt6_portable_3.09_x64.zip](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_win64_qt6_portable_3.09_x64.zip) | Portable version for x64 Win64 Qt6 (Win10-Win11)|\r\n"
     },
@@ -8566,8 +8566,8 @@
     "https://github.com/nomi-sec/PoC-in-GitHub": {
         "created_at": "2019-12-08 13:03:54",
         "description": "📡 PoC auto collect from GitHub. ⚠️ Be careful Malware.",
-        "commit_message": "Auto Update 2024/06/08 00:29:06",
-        "commit_date": "2024-06-08 00:29:06"
+        "commit_message": "Auto Update 2024/06/10 00:29:30",
+        "commit_date": "2024-06-10 00:29:30"
     },
     "https://github.com/Ridter/CVE-2017-11882": {
         "created_at": "2017-11-21 05:55:53",
@@ -16079,13 +16079,13 @@
         "release_message": ""
     },
     "https://github.com/projectdiscovery/nuclei-templates": {
-        "created_at": "2024-05-23 12:55:11",
+        "created_at": "2024-06-09 19:45:54",
         "description": "Community curated list of templates for the nuclei engine to find security vulnerabilities.",
-        "commit_date": "2024-06-05 18:27:08",
-        "commit_message": "Auto Template Signing [Wed Jun  5 18:27:07 UTC 2024] :robot:",
+        "commit_date": "2024-06-09 22:15:36",
+        "commit_message": "Auto Template Signing [Sun Jun  9 22:15:35 UTC 2024] :robot:",
         "release_tag": "v9.6.9",
-        "release_date": "2024-05-23 15:02:21",
-        "release_message": "### 🔥 Release Highlights 🔥\r\n\r\n- [CVE-2024-0200] Github Enterprise - Authenticated RCE (@iamnoooob, @rootxharsh, @pdresearch) [critical] 🔥\r\n- [CVE-2024-4956] Sonatype Nexus Repository Manager 3 - Local File Inclusion (@ritikchaddha) [high] 🔥\r\n- [CVE-2024-0195] SpiderFlow Crawler Platform - Remote Code Execution (@pussycat0x) [critical] 🔥\r\n- [CVE-2023-43374] Hoteldruid v3.0.5 - SQL Injection (@ritikchaddha) [critical] 🔥\r\n\r\n### What's Changed\r\n#### New Templates Added: `62` | CVEs Added: `16` | First-time contributions: `3`\r\n\r\n- [CVE-2024-33288] Prison Management System - SQL Injection Authentication Bypass (@Kazgangap) [high]\r\n- [CVE-2024-4956] Sonatype Nexus Repository Manager 3 - Local File Inclusion (@ritikchaddha) [high] 🔥\r\n- [CVE-2024-3097] NextGEN Gallery <= 3.59 - Missing Authorization to Unauth Information Disclosure (@DhiyanesDK) [medium]\r\n- [CVE-2024-1561] Gradio Applications - Local File Read (@Diablo) [high]\r\n- [CVE-2024-0200] Github Enterprise - Authenticated RCE (@iamnoooob, @rootxharsh, @pdresearch) [critical] 🔥\r\n- [CVE-2024-0195] SpiderFlow Crawler Platform - Remote Code Execution (@pussycat0x) [critical] 🔥\r\n- [CVE-2023-45855] qdPM 9.2 - Directory Traversal (@DhiyaneshDk) [high]\r\n- [CVE-2023-44813] mooSocial v.3.1.8 - Cross-Site Scripting (@ritikchaddha) [medium]\r\n- [CVE-2023-43374] Hoteldruid v3.0.5 - SQL Injection (@ritikchaddha) [critical] 🔥\r\n- [CVE-2023-36347] POS Codekop v2.0 - Broken Authentication (@princechaddha) [high]\r\n- [CVE-2023-36284] QloApps 1.6.0 - SQL Injection (@ritikchaddha) [high]\r\n- [CVE-2023-35158] XWiki - Cross-Site Scripting (@ritikchaddha) [medium]\r\n- [CVE-2023-29827] Embedded JavaScript(EJS) 3.1.6 - Template Injection (@ritikchaddha) [critical]\r\n- [CVE-2023-6065] Quttera Web Malware Scanner <= 3.4.1.48 - Sensitive Data Exposure (@Kazgangap) [medium]\r\n- [CVE-2023-5991] Hotel Booking Lite < 4.8.5 - Arbitrary File Download & Deletion (@Kazgangap) [critical]\r\n- [CVE-2023-4542] D-Link DAR-8000-10 - Command Injection (@pussycat0x) [critical]\r\n- [CNVD-2017-06001] Dahua DSS - SQL Injection (@napgh0st, @ritikchaddha) [high]\r\n- [softether-vpn-default-login] SoftEther VPN Admin Console - Default Login (@bhutch) [high]\r\n- [ackee-panel] Ackee Panel - Detect (@userdehghani) [info]\r\n- [craftercms-panel] CrafterCMS Login Panel - Detect (@righettod) [info]\r\n- [easyvista-panel] EasyVista Login Panel - Detect (@righettod) [info]\r\n- [f5-next-central-manager] F5 Next Central Manager Panel - Detect (@EgemenKochisarli) [info]\r\n- [ghost-panel] Ghost Panel - Detect (@userdehghani) [info]\r\n- [matomo-panel] Matomo Panel - Detect (@Arr0way, @userdehghani) [info]\r\n- [microfocus-lifecycle-panel] Micro Focus Application Lifecycle Management - Panel (@righettod) [info]\r\n- [n8n-panel] n8n Panel - Detect (@userdehghani) [info]\r\n- [nocodb-panel] NocoDB Panel - Detect (@userdehghani) [info]\r\n- [oracle-ebusiness-panel] Oracle E-Business Suite Login Panel - Detect (@righettod) [info]\r\n- [pocketbase-panel] PocketBase Panel - Detect (@userdehghani) [info]\r\n- [qlikview-accesspoint-panel] QlikView AccessPoint Login Panel - Detect (@righettod) [info]\r\n- [tiny-rss-panel] Tiny RSS Panel - Detect (@userdehghani) [info]\r\n- [unleash-panel] Unleash Panel - Detect (@userdehghani) [info]\r\n- [tpot-honeypot-detect] T-Pot Honeypot - Detect (@rxerium) [info]\r\n- [imgproxy-unauth] Imgproxy Unauthorized Access (@userdehghani) [low]\r\n- [custom-xoops-installer] XOOPS Custom - Installation (@DhiyaneshDK) [high]\r\n- [easy-viserlabs-installer] Easy Installer by ViserLab - Exposure (@DhiyaneshDk) [high]\r\n- [forgejo-installer] Forgejo Installation Page - Exposure (@DhiyaneshDk) [high]\r\n- [froxlor-installer] Froxlor Server Management - Installer (@DhiyaneshDK) [high]\r\n- [growi-installer] GROWI Installer - Exposure (@DhiyaneshDk) [high]\r\n- [ids-skills-installer] IDP Skills Installer - Exposure (@DhiyaneshDk) [high]\r\n- [moosocial-installer] mooSocial Installation - Exposure (@ritikchaddha) [high]\r\n- [octoprint-installer] OctoPrint Installation Page - Exposure (@DhiyaneshDk) [high]\r\n- [openfire-setup] Openfire Setup - Exposure (@DhiyaneshDk) [high]\r\n- [phpmyfaq-installer] phpMyFAQ Installation - Exposure (@ritikchaddha) [high]\r\n- [qloapps-installer] QloApps - Installation (@ritikchaddha) [high]\r\n- [trilium-notes-installer] Trilium Notes Installer - Exposure (@DhiyaneshDk) [high]\r\n- [wiki-js-installer] Wiki.js Setup - Exposure (@DhiyaneshDk) [high]\r\n- [xbackbone-installer] XBackBone Installer - Exposure (@DhiyaneshDk) [high]\r\n- [unigui-server-monitor-exposure] UniGUI Server Monitor Panel - Exposure (@serrapa) [low]\r\n- [apache-answer-detect] Apache Answer - Detection (@omranisecurity) [info]\r\n- [boa-web-server] Boa Web Server - Detect (@johnk3r) [info]\r\n- [craftercms-detect] CrafterCMS - Detect (@righettod) [info]\r\n- [imgproxy-detect] Imgproxy Detect (@userdehghani) [info]\r\n- [meilisearch-detect] Meilisearch - Detect (@userdehghani) [info]\r\n- [microfocus-iprint-detect] Micro Focus iPrint Appliance - Detect (@righettod) [info]\r\n- [statamic-detect] Statamic - Detect (@geeknik) [info]\r\n- [tinyproxy-detect] Tinyproxy - Detect (@bhutch) [info]\r\n- [uni-gui-framework] UniGUI Framework - Detect (@serrapa) [info]\r\n- [wp-bricks-builder-theme] WordPress Bricks Builder Theme Version (@Anonymous) [info]\r\n- [castel-digital-sqli] Castel Digital - Authentication Bypass (@Kazgangap) [high]\r\n- [tendat-credential] Tendat Router Credential - Exposure (@pussycat0x) [high]\r\n- [checkpoint-firewall-enum] Check Point Firewall - Detect (@pussycat0x) [info]\r\n\r\n## New Contributors\r\n* @x676f64 made their first contribution in https://github.com/projectdiscovery/nuclei-templates/pull/9690\r\n* @Ahsraeisi made their first contribution in https://github.com/projectdiscovery/nuclei-templates/pull/9793\r\n* @jmac774 made their first contribution in https://github.com/projectdiscovery/nuclei-templates/pull/9844\r\n\r\n**Full Changelog**: https://github.com/projectdiscovery/nuclei-templates/compare/v9.8.6...v9.8.7"
+        "release_date": "2024-06-09 19:53:52",
+        "release_message": "### 🔥 Release Highlights 🔥\r\n\r\n[CVE-2024-4577] PHP CGI - Argument Injection (@Hüseyin TINTAŞ, @sw0rk17, @securityforeveryone, @pdresearch) [critical]\r\n\r\n## What's Changed\r\n* Lorex Favicon Hash by @rxerium in https://github.com/projectdiscovery/nuclei-templates/pull/10001\r\n* add cve-2024-4577 by @Kazgangap in https://github.com/projectdiscovery/nuclei-templates/pull/9997\r\n\r\n\r\n**Full Changelog**: https://github.com/projectdiscovery/nuclei-templates/compare/v9.8.8...v9.8.9"
     },
     "https://github.com/trustedsec/trevorc2": {
         "created_at": "2017-10-27 15:59:28",
@@ -19286,8 +19286,8 @@
     "https://github.com/jumpserver/jumpserver": {
         "created_at": "2024-05-16 08:22:16",
         "description": "JumpServer 是广受欢迎的开源堡垒机，是符合 4A 规范的专业运维安全审计系统。",
-        "commit_message": "perf: perm tree search",
-        "commit_date": "2024-05-27 10:05:21",
+        "commit_message": "fix: 账号备份，云同步定时任务不执行",
+        "commit_date": "2024-06-07 10:33:46",
         "release_date": "2024-05-16 09:53:04",
         "release_message": "# 一、安装和升级\r\n\r\n## 1.1 在线方式 ✈️\r\n\r\n仅需两步快速安装 JumpServer：\r\n\r\n1. 准备一台 4核8G （最低）且可以访问互联网的 64 位 Linux 主机；\r\n2. 以 root 用户执行如下命令一键安装 JumpServer。\r\n\r\n国内用户\r\n``` sh\r\ncurl -sSL https://resource.fit2cloud.com/jumpserver/jumpserver/releases/latest/download/quick_start.sh | bash\r\n```\r\n\r\n海外用户\r\n``` sh\r\ncurl -sSL https://github.com/jumpserver/jumpserver/releases/latest/download/quick_start.sh | bash\r\n```\r\n\r\n## 1.2 离线方式 🚢\r\n\r\n[离线安装包下载地址](https://community.fit2cloud.com/#/download/jumpserver/v3-10-10)\r\n\r\n详细安装和升级文档请参考：[完整文档](https://docs.jumpserver.org/zh/v3/) \r\n\r\n\r\n# 二、更新日志\r\n\r\n## 2.1 功能优化 🚀 \r\n\r\n- perf: 优化支持云同步任务完成后自动删除云端已释放的资产【企业版】\r\n- perf: 优化当资产总数 `> 5000` 时延迟 `20s` 刷新用户授权树（之前 `> 2000`）\r\n- perf: 优化 Web 资产详情自动代填的信息显示\r\n- perf: 优化资产树节点支持拖拽操作\r\n- perf: 优化创建、更新用户时的 MFA 选项根据系统设置全局状态配合显示\r\n- perf: 优化 Luna 页面资产连接按钮不可点击时提示原因\r\n- perf: 优化连接 Windows 资产全屏显示不完整的问题（Lion）\r\n- perf: 优化 Panda 组件支持使用自签名证书连接 Core 服务（Panda）【企业版】\r\n- perf: 优化账号密钥使用长度为 8192 位的密钥时列表加载慢的问题\r\n\r\n## 2.2 问题修复 🐛\r\n\r\n- fix: 修复 `v2` 升级 `v3` 版本时系统用户 `su_from` 没有同步的问题\r\n- fix: 修复 `v2` 升级 `v3` 版本时授权中手动登录系统用户会显示为空字符串的问题\r\n- fix: 修复 `SESSION_EXPIRE_AT_BROWSER_CLOSE` 配置开启后用户重置 MFA 失败的问题\r\n- fix: 修复 Chrome 远程应用加载多个插件失败的问题\r\n- fix: 修复社区版本使用过程中偶尔会出现资源创建按钮不可点击的问题\r\n- fix: 修复 MySQL 数据库 Kill Session 失败的问题（Magnus）【企业版】\r\n- fix: 修复 SQL Server 数据库使用微软客户端连接失败的问题（Magnus）【企业版】\r\n- fix: 修复 ChatAI 显示异常问题（Kael）（All-in-One）\r\n- fix: 修复云同步任务针对火山引擎云服务商只能同步一页的问题【企业版】\r\n- fix: 修复批量传输下载的文件名为 `undefined` 的问题\r\n- fix: 修复 LDAP 服务端修改用户 OU 组织结构后无法登录的问题\r\n- fix: 修复导出 CSV 文件属性值前缀为 `0` 时不显示的问题\r\n- fix: 修复 LDAP 定时同步任务不执行的问题\r\n- fix: 修复华为交换机执行命令报错的问题\r\n- fix: 修复用户会话过期提示 `500` 的问题\r\n- fix: 修复创建 es 命令存储后返回页面不正确的问题\r\n- fix: 修复快捷命令使用 `mysql` 模块不支持在 MariaDB 数据库上执行命令的问题"
     },
@@ -21943,8 +21943,8 @@
     "https://github.com/apache/logging-log4j2": {
         "created_at": "2024-03-10 19:05:47",
         "description": "Apache Log4j 2 is a versatile, feature-rich, efficient logging API and backend for Java.",
-        "commit_message": "Update `org.assertj:assertj-core` to version `3.26.0` (#2618)",
-        "commit_date": "2024-05-27 09:42:07",
+        "commit_message": "Fix random NullPointer test failure\n\n[ERROR] Errors:\n[ERROR] org.apache.logging.log4j.core.filter.HttpThreadContextMapFilterTest.filterTest\n[ERROR]   Run 1: HttpThreadContextMapFilterTest.after:108 NullPointer\nCannot invoke \"org.apache.logging.log4j.core.LoggerContext.stop()\"\nbecause \"org.apache.logging.log4j.core.filter.HttpThreadContextMapFilterTest.loggerContext\"\nis null\n[ERROR]   Run 2: HttpThreadContextMapFilterTest.filterTest Test\nexecution #2 (of up to 5) failed ~> will retry in 10 ms...\n[",
+        "commit_date": "2024-06-09 18:14:25",
         "release_date": "2024-03-10 19:24:14",
         "release_message": "This release contains several small fixes and some dependency updates.\r\n\r\n### Changed\r\n\r\n* Improve performance of `CloseableThreadContext#closeMap()` (#2296)\r\n\r\n### Fixed\r\n\r\n* Fix handling of `LoggerContextAware` lookups (#2309)\r\n* Fix NPE in `PatternProcessor` for a `UNIX_MILLIS` pattern (#2346)\r\n* Fix that parameterized message formatting doesn't throw an exception when there are insufficient number of parameters (#2343)\r\n* Fix `StatusLogger` log level filtering when debug mode is enabled (#2337)\r\n* Add `log4j2.StatusLogger.dateFormatZone` system property to set the time-zone `StatusLogger` uses to format `java.time.Instant`. Without this, formatting patterns accessing to time-zone-specific fields (e.g., year-of-era) cause failures. (#2322)\r\n* Fix `StatusLogger` to correctly read `log4j2.StatusLogger.properties` resource (#2354)\r\n* Fix stack overflow in `StatusLogger` (#2322)\r\n\r\n### Updated\r\n\r\n* Update `jakarta.activation:jakarta.activation-api` to version `2.1.3` (#2335)\r\n* Update `jakarta.mail:jakarta.mail-api` to version `2.1.3` (#2348)\r\n* Update `org.apache.commons:commons-compress` to version `1.26.0` (#2304)\r\n* Update `org.apache.commons:commons-dbcp2` to version `2.12.0` (#2344)\r\n* Update `org.apache.kafka:kafka-clients` to version `3.7.0` (#2326)\r\n* Update `org.eclipse.angus:angus-activation` to version `2.0.2` (#2336)\r\n* Update `org.eclipse.angus:jakarta.mail` to version `2.0.3` (#2349)\r\n"
     },
@@ -22440,7 +22440,7 @@
         "release_message": ""
     },
     "https://github.com/GZTimeWalker/GZCTF": {
-        "created_at": "2024-06-02 21:03:46",
+        "created_at": "2022-03-08 13:01:42",
         "description": "The GZ::CTF project, an open source CTF platform.",
         "commit_message": "chore(ci): use match for tag",
         "commit_date": "2024-06-03 16:53:52",
@@ -24412,8 +24412,8 @@
         "description": "魅族安全中心"
     },
     "https://sec.vip.com/": {
-        "status_code": 200,
-        "description": "VSRC首页-唯品会信息安全中心"
+        "status_code": 503,
+        "description": ""
     },
     "https://sec.wacai.com/": {
         "status_code": 200,
@@ -25676,7 +25676,7 @@
         "commit_date": "2018-09-20 13:00:13"
     },
     "https://github.com/1N3/Sn1per": {
-        "created_at": "2015-09-06 15:47:38",
+        "created_at": "2023-07-29 16:36:08",
         "description": "Attack Surface Management Platform",
         "commit_message": "Update sniper",
         "commit_date": "2024-05-29 21:09:56",
@@ -27074,7 +27074,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "20.172.5.87属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "20.172.0.36属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
