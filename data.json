@@ -1801,8 +1801,8 @@
     "https://github.com/deibit/cansina": {
         "created_at": "2023-09-23 22:39:48",
         "description": "Web Content Discovery Tool",
-        "commit_date": "2023-09-29 10:44:30",
-        "commit_message": "Update README.md",
+        "commit_date": "2024-06-07 08:15:17",
+        "commit_message": "Update README.md\n\nadded stars history",
         "release_tag": "1.0.0",
         "release_date": "2023-09-23 22:51:08",
         "release_message": "Cansina is now a pip package. You can install it through pip."
@@ -3813,13 +3813,13 @@
         "release_message": ""
     },
     "https://github.com/wgpsec/fofa_viewer": {
-        "created_at": "2023-06-27 13:38:48",
+        "created_at": "2024-06-10 05:23:36",
         "description": "A simple FOFA client written in JavaFX.  Made by WgpSec, Maintained by f1ashine.",
-        "commit_date": "2024-01-21 13:43:00",
-        "commit_message": "Update README.md",
+        "commit_date": "2024-06-10 05:23:36",
+        "commit_message": "Merge remote-tracking branch 'origin/master'",
         "release_tag": "1.1.13",
-        "release_date": "2023-06-27 13:43:22",
-        "release_message": "fix-bug:\r\n1. 解决添加规则的报错问题\r\noptimize :\r\n1. 考虑到有师傅会把jar包打包成app，因此将日志路径修改为用户目录下"
+        "release_date": "2024-06-10 05:27:33",
+        "release_message": "更新记录：\r\n- 更换easyexcel为hutool-poi，优化导出excel样式\r\n- 修复windows环境下的报错\r\n- 基于fofa api配置更新相关字段查询，启用连续查询接口"
     },
     "https://github.com/dhsdshdhk/stegpy": {
         "created_at": "2018-08-22 20:51:57",
@@ -4467,7 +4467,7 @@
         "release_message": "### v3.9.7 Beta Changelog\r\n\r\n- Features or Enhancements\r\n   - iOS Dynamic Analyzer with Corellium\r\n   - Dynamic Analysis refactoring for Android and iOS\r\n   - Exposed iOS Dynamic Analysis REST APIs\r\n   - Added more helper Frida Scripts for Android and iOS Dynamic Analyzer\r\n   - Frida support improvements Injected Frida Code View, Injection, Spawn, Attach and Session\r\n   - Corellium Reverse SSH connection support\r\n   - Enhancements to ARC and Stack Canary Checks in Mach-O Parsing\r\n   - Frida RPC Hooks support\r\n   - Frida Script QA\r\n   - Runtime Executable Tampering Detection\r\n   - iOS Dynamic Analysis REST API Docs\r\n   - Global Datatables Export as PDF, CSV, XLS, Copy and Print\r\n   - Corellium custom host domain support\r\n   - Huge improvements in Static Analysis report generation page rendering for APKs/IPAs with large amount of data by @JPSxzy8 \r\n   -  Scan independent library file (.so, .dylib, Framework dylib) from APK/IPA Static Analysis Report\r\n   -  Library analysis refactored relative path helper for Django template.\r\n   - Re-introduced RELRO checks for Android, added Dart binary check to avoid Flutter false positives.\r\n   - Improved stripped debug symbol check for ELF and MachO using native OS tools such as nm and objdump when available.\r\n   - Merge iOS Framework and Dylib Analysis.\r\n   - SAST Performance improvements\r\n   - Android API Analysis rule QA\r\n   - Apksigner.jar fallback for signature parsing\r\n   - Simplify MobSF `scan` REST API\r\n   - Support for analysis of iOS Frameworks\r\n   - Android SVG icon parsing improvments\r\n   - Icon analysis refactor and support jpeg and webp icons\r\n   - Github action QA\r\n   - iOS merge findings from swift and objective c rules with same rule identifier. Fixes #2287 \r\n   - iOS Binary analysis, sort regex matches. Fixes #2252\r\n   - Framework dylibs with no extensions to skip PIE checks. Fixes #2307\r\n   - Select correct network_security config. Fixes #2049\r\n   - Android Manifest Analysis added support for detecting task hijacking (StrandHogg 1.0 and StrandHogg 2.0) . Fixes #2124\r\n   - Added new manifest analysis rule to warn on apps targeting older Android OS\r\n   - Updated severity of findings\r\n   - UI improvement for AppSec dashboard to show a loader\r\n   - UI changes in Static Analysis to collapse large no of files in API and Code Analysis for better real estate\r\n   - Improved certificate file analysis for android, jar, aar, and iOS\r\n   - AppLink asset json check multithreading performance improvements\r\n   - Code QA and ruleset improvements with ChatGPT\r\n   - Fixes #2324 , Bug in parsing DSA Public Key parameters for fingerprint calculation.\r\n   - AssetLink check QA\r\n   - Remove Androguard dependency use only features required by MobSF\r\n   \r\n - Security\r\n   -  Arbitrary file writes on Windows with apktool fixed\r\n   -  Fixed an LFI reported by @0x33c0unt\r\n   -  Fixed SSRF in AppLinks and Firebase database checks\r\n     \r\n## What's Changed\r\n* Performance Improvements on SAST by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2251\r\n* add apksigner.jar for reading signatures by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2254\r\n* [HOTFIX] add jar by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2255\r\n* Bump Frida to address crash on M1 Mac by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2258\r\n* Simplify Scan API by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2259\r\n* [HOTFIX] iOS Framework Analysis + Multiple Feature QA by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2260\r\n* [HOTFIX] Support webp for icon by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2267\r\n* fixed that the icon cannot be found by @ohyeah521 in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2265\r\n* [HOTFIX] Allow jpeg icons by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2268\r\n* Fix jadx and apktool failure due to JDK changes by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2269\r\n* [HOTFIX][EFR] Priority Bug Fixes by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2275\r\n* update apktool to 2.9.0 by @superpoussin22 in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2278\r\n* Build(deps): Bump django from 4.1.12 to 4.1.13 by @dependabot in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2282\r\n* iOS Dynamic Analysis with Corellium by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2194\r\n* Dynamic Analysis Improvements Android & iOS by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2295\r\n* Dec 2023 QA by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2297\r\n* [HOTFIX] More Android & iOS Frida Scripts by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2299\r\n* [HOTFIX] Android script loading,  frida injected code view, paramiko SSH issues by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2300\r\n* Enhancements to ARC and Stack Canary Checks in Mach-O Parsing by @cpuu in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2284\r\n* [HOTFIX] RPC hook suggestions + Bug Fix by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2301\r\n* update apktool to 2.9.1 by @superpoussin22 in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2304\r\n* [EFR] QA Request by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2306\r\n* Bug Fixes + Improvements by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2307\r\n* ChatGPT Permission Mapping + Improved Description by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2308\r\n* Windows Python tempfile permission error fix by @ohyeah521 in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2309\r\n* Multiple Features Improved or Added by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2310\r\n* Malware Permission Check for Android by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2313\r\n* [HOTFIX] Bug Fix and QA by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2315\r\n* Using multithreading to improve code efficiency by @ohyeah521 in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2319\r\n* GPT Goodness by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2318\r\n* Update SECURITY.md by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2323\r\n* [HOTFIX][SECURITY] Fix an LFI, DSA Pub Key parsing bug and dependencies  by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2326\r\n* Filter out invalid links by @ohyeah521 in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2322\r\n* [SECURITY] Fix Arbitrary file writes on Windows by @superpoussin22 in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2328\r\n* Runtime Exec Tampering Detection, iOS Dynamic REST APIs, Datatables Export  by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2339\r\n* MOBSF_CORELLIUM_API_DOMAIN Update by @HackJJ in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2347\r\n* poetry pyqt5 fixes by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2362\r\n* Remove Androguard dependency use only features required by MobSF by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2363\r\n* Optimize rendering of big lists by @JPSxzy8 in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2351\r\n* Update SECURITY.md by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2364\r\n* Update SECURITY.md by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2365\r\n* Resolve the situation where the function name is bytes by @ohyeah521 in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2367\r\n\r\n## New Contributors\r\n* @cpuu made their first contribution in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2284\r\n* @HackJJ made their first contribution in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2347\r\n* @JPSxzy8 made their first contribution in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2351\r\n\r\n**Full Changelog**: https://github.com/MobSF/Mobile-Security-Framework-MobSF/compare/v3.7.6...v3.9.7"
     },
     "https://github.com/gand3lf/semgrepper": {
-        "created_at": "2023-04-26 08:25:39",
+        "created_at": "2022-11-04 08:58:52",
         "description": "An extension to use Semgrep inside Burp Suite.",
         "commit_date": "2023-08-28 09:28:41",
         "commit_message": "Merge pull request #9 from tghosth/clarify-running\n\nUpdate README.md with tutorial",
@@ -22466,7 +22466,7 @@
         "release_message": ""
     },
     "https://github.com/m-sec-org/d-eyes": {
-        "created_at": "2023-11-06 08:26:25",
+        "created_at": "2023-11-08 08:09:48",
         "description": "D-Eyes为M-SEC社区一款检测与响应工具",
         "commit_date": "2023-11-08 08:09:48",
         "commit_message": "doc(d-eyes): add README.MD",
@@ -22573,7 +22573,7 @@
     },
     "https://github.com/hackvens/CoercedPotato": {
         "created_at": "2023-10-02 14:11:04",
-        "description": "",
+        "description": null,
         "commit_date": "2023-11-03 20:58:16",
         "commit_message": "Implementation of random Namedpipe name in order to avoid detection :D",
         "release_tag": "",
@@ -23682,13 +23682,13 @@
         "release_message": ""
     },
     "https://github.com/sensepost/gowitness": {
-        "created_at": "",
-        "description": "",
-        "commit_date": "2023-12-19 15:30:55",
-        "commit_message": "(chore) cleanup dockerfile",
+        "created_at": "2023-10-29 11:00:04",
+        "description": "🔍 gowitness - a golang, web screenshot utility using Chrome Headless",
+        "commit_date": "2024-04-10 03:36:01",
+        "commit_message": "Fix typos in UI templates (#219)",
         "release_tag": "",
-        "release_date": "",
-        "release_message": ""
+        "release_date": "2023-10-29 11:11:30",
+        "release_message": "## What's Changed\r\n* html a-tag unclosed bug fixed by @gorgiaxx in https://github.com/sensepost/gowitness/pull/187\r\n* Fix database file path location parser by @mr-pmillz in https://github.com/sensepost/gowitness/pull/188\r\n* fix: typo by @testwill in https://github.com/sensepost/gowitness/pull/201\r\n* (fix) MarshalJSON spells with one \"l\" by @alexandear in https://github.com/sensepost/gowitness/pull/198\r\n* Fixing the missing port issue with Nessus  by @quentinpraz in https://github.com/sensepost/gowitness/pull/191\r\n\r\n## New Contributors\r\n* @gorgiaxx made their first contribution in https://github.com/sensepost/gowitness/pull/187\r\n* @mr-pmillz made their first contribution in https://github.com/sensepost/gowitness/pull/188\r\n* @testwill made their first contribution in https://github.com/sensepost/gowitness/pull/201\r\n* @alexandear made their first contribution in https://github.com/sensepost/gowitness/pull/198\r\n* @quentinpraz made their first contribution in https://github.com/sensepost/gowitness/pull/191\r\n\r\n**Full Changelog**: https://github.com/sensepost/gowitness/compare/2.5.0...2.5.1\r\n\r\n```\r\n1edfe2209731e68621006b3cc0376d6a4b97e85e  gowitness-2.5.1-darwin-amd64\r\n3c817d57d704a3de1dcb084a59b77e684dddb154  gowitness-2.5.1-darwin-arm64\r\n19c75086ac90ae2891f24fa89d76c84748eb3d06  gowitness-2.5.1-linux-amd64\r\n105ecb560afccd5f29fe1d748c32862848f556df  gowitness-2.5.1-linux-arm64\r\ne893957658f560911864eeecec606c0cd9ea8e05  gowitness-2.5.1-linux-armv7\r\n32315a0b50ccd4e28b941a4b0121200b6625eb9e  gowitness-2.5.1-windows-amd64.exe\r\n```"
     },
     "https://github.com/qi4L/JYso": {
         "created_at": "2024-05-29 08:13:04",
@@ -27074,7 +27074,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "52.234.38.240属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "20.97.191.52属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
