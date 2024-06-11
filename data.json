@@ -775,13 +775,13 @@
         "release_message": "PortForward 的功能如下：\r\n1. 支持 tcp/udp 协议层的端口转发\r\n2. 支持级联\r\n3. 支持正向/反向连接模式\r\n4. 支持多通道\r\n5. 支持 ipv6"
     },
     "https://github.com/xiecat/fofax": {
-        "created_at": "2021-12-14 10:01:58",
+        "created_at": "2023-12-21 12:39:45",
         "description": "fofax is a command line query tool based on the API of https://fofa.info/, simple is the best!",
-        "commit_date": "2023-06-20 01:26:33",
-        "commit_message": "这是一个临时版本替换type字段",
+        "commit_date": "2024-04-01 09:26:11",
+        "commit_message": "Update parser.go",
         "release_tag": "v0.1.44",
-        "release_date": "2023-04-24 03:23:34",
-        "release_message": "## Changelog\r\n* 修复更新时如果网络有问题可能引发异常问题 #29 。修改弃用函数\r\n\r\n\r\n"
+        "release_date": "2023-12-21 12:44:08",
+        "release_message": "## Changelog\r\n* 本版本支持直接使用 FOFA Key 登录。同时兼容 FOFA email 字段在使用时会有提示( FOFA API 已经废弃 `email` 字段。)\r\n\r\n"
     },
     "https://github.com/ScarecrowSec/WiKi": {
         "created_at": "2021-07-10 15:17:58",
@@ -1657,7 +1657,7 @@
         "release_message": "v1.1\r\n    ★新增存活预判（当目标无法连接3次自动撤销任务）\r\n    ★新增首页爬虫（只抓取首页的目录进行二次扫描）\r\n    ★新增文件存储（可以保存扫描结果到指定文位置）\r\n    ★新增跳过大小（可以设定要忽略的页面大小，min-max）\r\n    ★新增GET模式关键字词组过滤（使用GET模式和关闭自定义404才会生效，可以忽略包含指定关键词的页面）\r\n    ★默认参数和值初始化更加科学合理（不合理的设置会导致目标产生CC或者漏报）\r\n    ★优化扫描速度（比1.0提升速度大概5-10倍，通过maxspeed参数控制速度最大值）\r\n    ★优化内存占用（1000/s内存占用10-30M左右）\r\n\r\nv1.0\r\n    ★支持修改UserAgent\r\n    ★支持开启和关闭自定义404识别\r\n    ★支持控速\r\n    ★支持fuzz和字典扫描模式\r\n    ★支持字典变量"
     },
     "https://github.com/ww23/BlindWatermark": {
-        "created_at": "2018-07-19 11:59:44",
+        "created_at": "2019-03-18 12:23:50",
         "description": "Java 盲水印",
         "commit_date": "2020-04-05 14:08:06",
         "commit_message": "Change to use the API in the org.opencv namespace",
@@ -1843,7 +1843,7 @@
         "release_message": "【2024-5-7】 0.24.6\r\n1.增加多个接口，建议和最新服务端codereg.py一起使用，接口类型如下：\r\n纯整数0-9\r\n纯小写英文a-z\r\n纯大写英文A-Z\r\n小写英文a-z + 大写英文A-Z\r\n小写英文a-z + 整数0-9\r\n大写英文A-Z + 整数0-9\r\n小写英文a-z + 大写英文A-Z + 整数0-9\r\n自定义字符串库(ranges传参)\r\n"
     },
     "https://github.com/xfiftyone/STS2G": {
-        "created_at": "2020-01-17 02:17:24",
+        "created_at": "2020-01-17 03:15:16",
         "description": "Struts2漏洞扫描利用工具 - Golang版. Struts2 Scanner Written in Golang",
         "commit_date": "2022-01-10 14:04:39",
         "commit_message": "Update README.md",
@@ -3284,7 +3284,7 @@
         "release_message": ""
     },
     "https://github.com/ysrc/xunfeng": {
-        "created_at": "2016-12-19 03:56:36",
+        "created_at": "2017-09-29 11:45:37",
         "description": "巡风是一款适用于企业内网的漏洞快速应急，巡航扫描系统。",
         "commit_date": "2021-03-16 14:07:11",
         "commit_message": "Create codeql-analysis.yml",
@@ -3741,7 +3741,7 @@
         "release_message": ""
     },
     "https://github.com/NickstaDB/BaRMIe": {
-        "created_at": "2017-09-24 18:54:12",
+        "created_at": "2017-09-28 22:34:34",
         "description": "Java RMI enumeration and attack tool.",
         "commit_date": "2017-09-28 22:37:50",
         "commit_message": "Added JMX deserialization attack and improved some exception handling.",
@@ -3848,9 +3848,9 @@
     },
     "https://github.com/lijiejie/BBScan": {
         "created_at": "2020-04-19 12:11:50",
-        "description": "A fast vulnerability scanner",
-        "commit_date": "2023-02-13 11:22:44",
-        "commit_message": "Merge pull request #54 from PSoul/patch-2\n\nPython >= 3.10* loop 需要修改",
+        "description": "A fast vulnerability scanner helps pentesters pinpoint possibly vulnerable targets from a large number of web servers",
+        "commit_date": "2024-05-28 02:28:53",
+        "commit_message": "fix",
         "release_tag": "v1.5",
         "release_date": "2022-06-21 07:32:24",
         "release_message": "This is the last version that support python2.7"
@@ -6522,7 +6522,7 @@
         "release_message": ""
     },
     "https://github.com/akkuman/pppoe-intercept": {
-        "created_at": "2019-05-13 07:38:30",
+        "created_at": "2019-06-12 14:03:18",
         "description": "用来模拟中间人拦截 pppoe 拨号过程的账号密码",
         "commit_date": "2019-06-12 14:03:18",
         "commit_message": ":memo: Update README.md",
@@ -15628,7 +15628,7 @@
         "release_message": ""
     },
     "https://github.com/wagiro/BurpBounty": {
-        "created_at": "2018-05-30 12:51:50",
+        "created_at": "2021-09-02 10:30:30",
         "description": "Burp Bounty (Scan Check Builder in BApp Store) is a extension of Burp Suite that allows you, in a quick and simple way, to improve the active and passive scanner by means of personalized rules through a very intuitive graphical interface.",
         "commit_date": "2023-03-27 06:42:05",
         "commit_message": "Merge pull request #115 from ayadim/patch-1\n\nImproving the regex to ignore false positive",
@@ -17856,7 +17856,7 @@
         "release_message": ""
     },
     "https://github.com/langligelang/CAS_EXP": {
-        "created_at": "2020-07-15 13:56:21",
+        "created_at": "2020-07-16 02:13:17",
         "description": "CAS 硬编码 远程代码执行漏洞",
         "commit_date": "2020-07-31 06:51:11",
         "commit_message": "初始化提交",
@@ -23581,13 +23581,13 @@
         "release_message": "poc优化"
     },
     "https://github.com/ki9mu/ARL-plus-docker": {
-        "created_at": "2022-04-15 08:37:51",
-        "description": "基于斗象灯塔ARL修改后的版本。相比原版，增加了OneForAll、中央数据库，修改了altDns",
-        "commit_date": "2022-11-21 02:49:00",
+        "created_at": "2024-05-24 15:20:27",
+        "description": "基于ARL-V2.6.2修改后的版本",
+        "commit_date": "2024-06-10 10:18:45",
         "commit_message": "Update README.md",
         "release_tag": "2.8.0",
-        "release_date": "2022-10-14 09:23:40",
-        "release_message": "# 基于新版ARL2.5.2版本开发ARL-plus2.8.0\r\n支持nuclei等\r\n# 新增ALT_IP\r\n### 配置\r\nconfig-docker.yaml最后，增加ALT_IP功能，可以手动开启或者禁用\r\n### 详解\r\ndistance参数为ip间距。\r\n如：发现了IP：192.168.1.6和192.168.1.9。ALT_IP开启设置distance大于3。\r\n将会扫描IP：192.168.1.7,192.168.1.8两个IP。\r\nPS：该设置较大极易引起误报，如果发生误报自己调小distance即可\r\n\r\n# 移除Oneforall、子域名共享等功能\r\n2.5.2代码重构了，太难了，不能复用，重写吧"
+        "release_date": "2024-05-24 15:22:35",
+        "release_message": "# 基于新版ARL2.6.2版本开发\r\n1. 中央数据库\r\n2. 修改了rabbitmq的超时时间\r\n3. 没了...(有需求提issue，视情况开发)"
     },
     "https://github.com/lemonlove7/0_zone": {
         "created_at": "2022-09-01 05:35:49",
@@ -27074,7 +27074,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "20.97.191.52属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "20.75.95.195属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
@@ -27544,7 +27544,7 @@
     },
     "http://www.66zan.cn/tripledes/": {
         "status_code": 200,
-        "description": "在线TripleDES加密,TripleDES解密工具-在线工具箱"
+        "description": ""
     },
     "http://www.66zan.cn/desencrypt/": {
         "status_code": 200,
@@ -27552,7 +27552,7 @@
     },
     "http://www.66zan.cn/rabbitencrypt/": {
         "status_code": 200,
-        "description": "在线Rabbit加密,Rabbit解密工具-在线工具箱"
+        "description": ""
     },
     "https://yuanfux.github.io/zero-width-web/": {
         "status_code": 200,
@@ -28199,7 +28199,7 @@
         "description": "Snort - Network Intrusion Detection & Prevention System"
     },
     "https://github.com/loveshell/ngx_lua_waf": {
-        "created_at": "2016-01-10 14:45:34",
+        "created_at": "2013-03-23 10:15:27",
         "description": "ngx_lua_waf是一个基于lua-nginx-module(openresty)的web应用防火墙",
         "commit_message": "filter some post data\n\nthanks for bajief",
         "commit_date": "2016-04-06 04:17:47",
