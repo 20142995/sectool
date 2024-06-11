@@ -196,8 +196,8 @@
     "https://github.com/ycdxsb/PocOrExp_in_Github": {
         "created_at": "2021-04-13 05:46:16",
         "description": "聚合Github上已有的Poc或者Exp，CVE信息来自CVE官网。Auto Collect Poc Or Exp from Github by CVE ID.",
-        "commit_message": "update 2024-06-02 07:22:09",
-        "commit_date": "2024-06-01 23:22:09"
+        "commit_message": "update 2024-06-11 08:08:30",
+        "commit_date": "2024-06-11 00:08:30"
     },
     "https://github.com/1n7erface/RequestTemplate": {
         "created_at": "",
@@ -5642,12 +5642,12 @@
         "release_message": ""
     },
     "https://github.com/fatedier/frp": {
-        "created_at": "2024-05-07 10:09:24",
+        "created_at": "2024-05-31 06:35:08",
         "description": "A fast reverse proxy to help you expose a local server behind a NAT or firewall to the internet.",
-        "commit_message": "fix ini configuration default values (#4250)",
-        "commit_date": "2024-05-30 02:36:30",
-        "release_date": "2024-05-07 10:15:36",
-        "release_message": "### Notable Changes\n\nWe have optimized the heartbeat mechanism when tcpmux is enabled (enabled by default). The default value of `heartbeatInterval` has been adjusted to -1. This update ensures that when tcpmux is active, the client does not send additional heartbeats to the server. Since tcpmux incorporates its own heartbeat system, this change effectively reduces unnecessary data consumption, streamlining communication efficiency between client and server.\n\nWhen connecting to frps versions older than v0.39.0 might encounter compatibility issues due to changes in the heartbeat mechanism. As a temporary workaround, setting the `heartbeatInterval` to 30 can help maintain stable connectivity with these older versions. We recommend updating to the latest frps version to leverage full functionality and improvements.\n\n### Features\n\n* Show tcpmux proxies on the frps dashboard.\n* `http` proxy can modify the response header. For example, `responseHeaders.set.foo = \"bar\"` will add a new header `foo: bar` to the response.\n\n### Fixes\n\n* When an HTTP proxy request times out, it returns 504 instead of 404 now.\n\n"
+        "commit_message": "add sponsor (#4265)",
+        "commit_date": "2024-06-05 08:53:29",
+        "release_date": "2024-05-31 06:41:10",
+        "release_message": "### Fixes\n\n* Fixed an issue where HTTP/2 was not enabled for https2http and https2https plugins.\n* Fixed the issue where the default values of INI configuration parameters are inconsistent with other configuration formats.\n\n### Changes\n\n* Updated the default value of `transport.tcpMuxKeepaliveInterval` from 60 to 30.\n* On the Android platform, the Google DNS server is used only when the default DNS server cannot be obtained.\n\n"
     },
     "https://github.com/gentilkiwi/mimikatz": {
         "created_at": "2022-09-19 12:57:55",
@@ -6148,8 +6148,8 @@
     "https://github.com/CTFd/CTFd": {
         "created_at": "2024-06-01 01:13:49",
         "description": "CTFs as you need them",
-        "commit_date": "2024-06-01 01:13:49",
-        "commit_message": "Mark 3.7.1 (#2549)\n\n# 3.7.1 / 2024-05-31\r\n\r\n**Admin Panel**\r\n\r\n- The styling of the Config Panel has been updated to better organize different settings\r\n- When switching user modes via the Admin Panel, all teams will now be removed\r\n- Fix issues where importing CSVs comprised of JSON entries would fail\r\n- Add `serializeJSON` function back into the Admin Panel\r\n\r\n**API**\r\n\r\n- The `/api/v1/exports/raw` API endpoint has been added to allow for exports to be generated via the API\r\n- Update the ScoreboardDetail endpoint (`/api/v1/scoreboard/top/<count>`) to return account URL, score, and bracket\r\n- Add a query parameter to ScoreboardDetail endpoint (`/api/v1/scoreboard/top/<count>`) to filter by bracket\r\n- Return `function` field for DynamicValue challenges data read\r\n\r\n**General**\r\n\r\n- Add Italian and Vietnamese languages\r\n- Switch to Crowdin for translations\r\n\r\n**Themes**\r\n\r\n- Add `defer` parameter to `Assets.js()` to allow controlling the defer attribute of inserted `<script>` tags\r\n\r\n**Plugins**\r\n\r\n- Plugins can now define a `config` entry in `config.json` to define a template to embed into the Config Panel\r\n- Add the `make_cache_key_with_query_string` to allow for caching based on query string arguments\r\n\r\n**Deployment**\r\n\r\n- MariaDB version provided in docker-compose.yml has been updated to `10.11`\r\n- Static assets (theme files, static files) will now return a Cache-Control header with a `max-age` of 3600\r\n- Add the `/debug` endpoint to show CTFd debugging information\r\n  - Currently showing the IP address that CTFd is seeing for the request and the request headers\r\n  - `/debug` will only be enabled if the `SAFE_MODE` config is enabled",
+        "commit_date": "2024-06-09 21:06:20",
+        "commit_message": "Improve the way that the Admin Panel detects modern themes and fallbacks the challenge preview behavior (#2555)",
         "release_tag": "",
         "release_date": "2024-06-01 07:03:04",
         "release_message": "# 3.7.1 / 2024-05-31\r\n\r\n**Admin Panel**\r\n\r\n- The styling of the Config Panel has been updated to better organize different settings\r\n- When switching user modes via the Admin Panel, all teams will now be removed\r\n- Fix issues where importing CSVs comprised of JSON entries would fail\r\n- Add `serializeJSON` function back into the Admin Panel\r\n\r\n**API**\r\n\r\n- The `/api/v1/exports/raw` API endpoint has been added to allow for exports to be generated via the API\r\n- Update the ScoreboardDetail endpoint (`/api/v1/scoreboard/top/<count>`) to return account URL, score, and bracket\r\n- Add a query parameter to ScoreboardDetail endpoint (`/api/v1/scoreboard/top/<count>`) to filter by bracket\r\n- Return `function` field for DynamicValue challenges data read\r\n\r\n**General**\r\n\r\n- Add Italian and Vietnamese languages\r\n- Switch to Crowdin for translations\r\n\r\n**Themes**\r\n\r\n- Add `defer` parameter to `Assets.js()` to allow controlling the defer attribute of inserted `<script>` tags\r\n\r\n**Plugins**\r\n\r\n- Plugins can now define a `config` entry in `config.json` to define a template to embed into the Config Panel\r\n- Add the `make_cache_key_with_query_string` to allow for caching based on query string arguments\r\n\r\n**Deployment**\r\n\r\n- MariaDB version provided in docker-compose.yml has been updated to `10.11`\r\n- Static assets (theme files, static files) will now return a Cache-Control header with a `max-age` of 3600\r\n- Add the `/debug` endpoint to show CTFd debugging information\r\n  - Currently showing the IP address that CTFd is seeing for the request and the request headers\r\n  - `/debug` will only be enabled if the `SAFE_MODE` config is enabled"
@@ -6336,8 +6336,8 @@
     "https://github.com/audacity/audacity": {
         "created_at": "2024-04-24 10:55:07",
         "description": "Audio Editor                                     ",
-        "commit_message": "[AU4] Enabled blank preferences dialog",
-        "commit_date": "2024-06-04 13:15:48",
+        "commit_message": "Merge pull request #6609 from saintmatthieu/6510-limiter-attenuation-meter\n\n6510 limiter attenuation meter",
+        "commit_date": "2024-06-10 13:36:50",
         "release_date": "2024-04-24 16:21:57",
         "release_message": " This is a hotfix release. It fixes the following bugs:\r\n \r\n   * #6322 Fixed a crash on launch on macOS 11 and older.\r\n   * #6324 Fixed the update notification looking for alpha versions instead of release versions.\r\n   * #6321 Fixed a freeze when using macros on multiple files."
     },
@@ -6412,8 +6412,8 @@
     "https://github.com/arch3rPro/PST-Bucket": {
         "created_at": "2023-04-24 06:49:11",
         "description": "Scoop-Buket for Penetration Suite Toolkit",
-        "commit_message": "yakit: Update to version 1.3.3-sp5",
-        "commit_date": "2024-06-07 16:33:02"
+        "commit_message": "pagodo: Update to version 2.6.4",
+        "commit_date": "2024-06-09 01:44:22"
     },
     "https://github.com/Aiyflowers/JWT_GUI": {
         "created_at": "2023-07-01 07:09:25",
@@ -12883,7 +12883,7 @@
         "created_at": "2011-08-30 06:13:20",
         "description": "Metasploit Framework",
         "commit_message": "automatic module_metadata_base.json update",
-        "commit_date": "2024-05-31 17:58:12"
+        "commit_date": "2024-06-10 21:58:09"
     },
     "https://github.com/PowerDNS/pdns": {
         "created_at": "2013-04-26 11:16:49",
@@ -15432,8 +15432,8 @@
     "https://github.com/containerd/containerd": {
         "created_at": "2024-06-05 02:06:10",
         "description": "An open and reliable container runtime",
-        "commit_message": "Merge pull request #10291 from ktock/push-platform-conf\n\nTransfer: Push: Enable to specify platforms",
-        "commit_date": "2024-06-05 21:28:09",
+        "commit_message": "Merge pull request #10304 from AkihiroSuda/ci-add-back-rocky8\n\nCI: add back EL 8",
+        "commit_date": "2024-06-10 16:50:15",
         "release_date": "2024-06-05 02:34:55",
         "release_message": "Welcome to the v1.7.18 release of containerd!\n\nThe eighteenth patch release for containerd 1.7 contains various updates along\nwith an updated version of Go. Go 1.22.4 and 1.21.11 include a fix for a symlink\ntime of check to time of use race condition during directory removal.\n\n### Highlights\n\n* Update Go version to 1.21.11 ([#10298](https://github.com/containerd/containerd/pull/10298))\n* Remove uses of `platforms.Platform` alias ([#10277](https://github.com/containerd/containerd/pull/10277))\n* Migrate log imports to `github.com/containerd/log` ([#10269](https://github.com/containerd/containerd/pull/10269))\n* Migrate errdefs package to `github.com/containerd/errdefs` ([#10266](https://github.com/containerd/containerd/pull/10266))\n* Fix usage of \"unknown\" platform ([#10261](https://github.com/containerd/containerd/pull/10261))\n\nPlease try out the release binaries and report any issues at\nhttps://github.com/containerd/containerd/issues.\n\n### Contributors\n\n* Derek McGowan\n* Sebastiaan van Stijn\n* Akhil Mohan\n* Austin Vazquez\n* Phil Estes\n\n### Changes\n<details><summary>16 commits</summary>\n<p>\n\n* Prepare release notes for v1.7.18 ([#10301](https://github.com/containerd/containerd/pull/10301))\n  * [`9426aab62`](https://github.com/containerd/containerd/commit/9426aab62b6496ad93edb7e08b8655bb92d3a84b) Prepare release notes for v1.7.18\n* Update Go version to 1.21.11 ([#10298](https://github.com/containerd/containerd/pull/10298))\n  * [`cdd3ea913`](https://github.com/containerd/containerd/commit/cdd3ea913586c6e3d1098416a5cded136d761456) Update Go version to 1.21.11\n* Remove uses of `platforms.Platform` alias ([#10277](https://github.com/containerd/containerd/pull/10277))\n  * [`1e3c662d6`](https://github.com/containerd/containerd/commit/1e3c662d6c2bd0eafdcd402a32324e84d5f0498b) [release/1.7] remove uses of platforms.Platform alias\n* Migrate log imports to `github.com/containerd/log` ([#10269](https://github.com/containerd/containerd/pull/10269))\n  * [`0af6825b1`](https://github.com/containerd/containerd/commit/0af6825b1e64d56ffd72f801c4fb1224f888c367) migrate logs imports to github.com/containerd/log module\n* Migrate errdefs package to `github.com/containerd/errdefs` ([#10266](https://github.com/containerd/containerd/pull/10266))\n  * [`308341a44`](https://github.com/containerd/containerd/commit/308341a4464bd723630d3df19a5df20aa252af9f) replace uses of github.com/containerd/containerd/errdefs\n  * [`47ff8cfce`](https://github.com/containerd/containerd/commit/47ff8cfce0768d4f4c98ad05bd72e8f9ad8dfb5c) migrate errdefs package to github.com/containerd/errdefs module\n* Fix usage of \"unknown\" platform ([#10261](https://github.com/containerd/containerd/pull/10261))\n  * [`f4d11912a`](https://github.com/containerd/containerd/commit/f4d11912a77c1e15db200aed7481d45bd12b5eb1) core/image: fix usage of \"unknown\" platform\n* Explicitly set release latest to true ([#10265](https://github.com/containerd/containerd/pull/10265))\n  * [`5b0480009`](https://github.com/containerd/containerd/commit/5b0480009c5f4ee1f8a80cbe7aae22642867ee25) Explicitly set release latest to true\n  * [`d669b100d`](https://github.com/containerd/containerd/commit/d669b100d5337150d7f9a170de55ac7d2d7ec24c) build(deps): bump softprops/action-gh-release from 1 to 2\n</p>\n</details>\n\n### Changes from containerd/errdefs\n<details><summary>6 commits</summary>\n<p>\n\n* Add common files ([containerd/errdefs#1](https://github.com/containerd/errdefs/pull/1))\n  * [`78f3494`](https://github.com/containerd/errdefs/commit/78f3494a77384f066cd3457e1dfa1bda180f180d) Add Github actions configuration\n  * [`46f1770`](https://github.com/containerd/errdefs/commit/46f1770bd5e80699a13fa107e0d5b195d1db9db4) Add go.mod configuration\n  * [`959121a`](https://github.com/containerd/errdefs/commit/959121a299905905fed65b533f72a7ee36786301) Add README.md\n* Add LICENSE ([containerd/errdefs#2](https://github.com/containerd/errdefs/pull/2))\n  * [`33a2275`](https://github.com/containerd/errdefs/commit/33a2275efb9a92237b9a8e7f41c31672f3293ccb) Add LICENSE\n</p>\n</details>\n\n### Dependency Changes\n\n* **github.com/containerd/errdefs**              v0.1.0 **_new_**\n* **google.golang.org/genproto**                 b8732ec3820d -> e6e6cdab5c13\n* **google.golang.org/genproto/googleapis/api**  b8732ec3820d -> 007df8e322eb\n* **google.golang.org/genproto/googleapis/rpc**  b8732ec3820d -> d307bd883b97\n\nPrevious release can be found at [v1.7.17](https://github.com/containerd/containerd/releases/tag/v1.7.17)\n"
     },
@@ -24540,8 +24540,8 @@
         "description": "快手安全应急响应中心"
     },
     "https://security.kugou.com/": {
-        "status_code": 200,
-        "description": "首页 | 酷狗安全应急响应中心"
+        "status_code": 504,
+        "description": "504 Gateway Time-out"
     },
     "https://security.liepin.com/": {
         "status_code": 200,
@@ -25412,8 +25412,8 @@
     "https://github.com/leondz/garak": {
         "created_at": "2024-05-10 13:22:31",
         "description": "LLM vulnerability scanner",
-        "commit_message": "Tutorial for contributing a generator (#688)\n\n* tidy up contributing doc, start guide on writing generators\r\n\r\n* add more explanations in inheritance & default sections\r\n\r\n* first v of generator writing guide; tidy up replicate\r\n\r\n* black should follow lowest supported py ver\r\n\r\n* typo\r\n\r\nCo-authored-by: Jeffrey Martin <jemartin@nvidia.com>\r\nSigned-off-by: Leon Derczynski <leonderczynski@gmail.com>\r\n\r\n* clarify extent of py ver support\r\n\r\nCo-authored-by: Jeffrey Martin <jemartin@nvidia.com>\r\nSigned-off-by: Leon Derczynski <leonderczynski@gmail.com>\r\n\r\n* example of listing plugins\r\n\r\nCo-authored-by: Jeffrey Martin <jemartin@nvidia.com>\r\nSigned-off-by: Leon Derczynski <leonderczynski@gmail.com>\r\n\r\n* note to create custom test\r\n\r\n---------\r\n\r\nSigned-off-by: Leon Derczynski <leonderczynski@gmail.com>\r\nCo-authored-by: Jeffrey Martin <jemartin@nvidia.com>",
-        "commit_date": "2024-05-17 11:11:44",
+        "commit_message": "utilize GarakException in cli (#730)\n\n* when a plugin fails to load raise `GarakException`\r\n* log the exception trace when error handling in `cli`\r\n\r\nSigned-off-by: Jeffrey Martin <jemartin@nvidia.com>",
+        "commit_date": "2024-06-10 14:04:31",
         "release_date": "2024-05-10 13:41:33",
         "release_message": "## What's Changed\r\n\r\ngarak's 1st birthday! 🎂\r\n\r\nHeadlines in this birthday release:\r\n* Multimodal support! LLaVa + FigStep - HUGE thanks to @DavidLee528 \r\n* LiteLLM generator support - thanks to @Tien-Cheng!\r\n* DoNotAnswer probe for prompts an LLM should decline - thanks to @AhsanAyub!\r\n* LangChain Serve generator support - thanks to @GustavFredrikson!\r\n* Support for NIM generators, NVIDIA Inference Microservices\r\n* OpenAI abstraction with parallelisation support\r\n* Windows compatibility enhanced, with optional testing in the workflow\r\n* Hugging Face speedup\r\n\r\n### plugins\r\n* LiteLLM generator by @Tien-Cheng in https://github.com/leondz/garak/pull/572\r\n* Support for using 'langchain serve' endpoints by @GustavFredrikson in https://github.com/leondz/garak/pull/588\r\n* Enable parallel OpenAI calls by @jmartin-tech in https://github.com/leondz/garak/pull/645\r\n* Multi-modal Jailbreaking Attack on LLaVA by @DavidLee528 in https://github.com/leondz/garak/pull/587\r\n* bump openai module version to match paths in latest litellm by @leondz in https://github.com/leondz/garak/pull/664\r\n* generator: NIM by @leondz in https://github.com/leondz/garak/pull/637\r\n* Probe: Do Not Answer by @AhsanAyub in https://github.com/leondz/garak/pull/608\r\n\r\n### architecture\r\n* change supported pythons to 3.10-3.12 by @leondz in https://github.com/leondz/garak/pull/503\r\n* add more detailed TAP docs by @leondz in https://github.com/leondz/garak/pull/504\r\n* add multiple-result aggregator by @leondz in https://github.com/leondz/garak/pull/505\r\n* add post buff hook by @erickgalinkin in https://github.com/leondz/garak/pull/506\r\n* Add fleshed-out docs to all probes by @leondz in https://github.com/leondz/garak/pull/507\r\n* add bibtex under citation info in readme by @leondz in https://github.com/leondz/garak/pull/511\r\n* define broad test, all probes, 1 gen per by @leondz in https://github.com/leondz/garak/pull/514\r\n* Feature/taxonomy payloads by @leondz in https://github.com/leondz/garak/pull/519\r\n* include paraphrasing in broad conf by @leondz in https://github.com/leondz/garak/pull/521\r\n* choose whether buffing will also include the original prompt by @leondz in https://github.com/leondz/garak/pull/523\r\n* add config var for capping max # buffed prompts to add per buff by @leondz in https://github.com/leondz/garak/pull/526\r\n* document Probe.probe(); skip a buff hook if no buffs by @leondz in https://github.com/leondz/garak/pull/527\r\n* add type hints to base.Probe; fix base probe rst by @leondz in https://github.com/leondz/garak/pull/528\r\n* Bump datasets package by @shubhobm in https://github.com/leondz/garak/pull/536\r\n* Add ConversationalPipeline for huggingface models by @erickgalinkin in https://github.com/leondz/garak/pull/539\r\n* add generator for supporting openai module v0.x by @leondz in https://github.com/leondz/garak/pull/553\r\n* Update README.md by @erickgalinkin in https://github.com/leondz/garak/pull/558\r\n* Minor typo in FAQ by @jmartin-tech in https://github.com/leondz/garak/pull/562\r\n* Add additional error message when __doc__ is None type by @DavidLee528 in https://github.com/leondz/garak/pull/566\r\n* shared constant & string literal by @jmartin-tech in https://github.com/leondz/garak/pull/571\r\n* Spelling corrections for multiple locations by @jmartin-tech in https://github.com/leondz/garak/pull/564\r\n* Reduce Huggingface GPU utilization by @erickgalinkin in https://github.com/leondz/garak/pull/567\r\n* skip `verbose` flag in secondary parser by @jmartin-tech in https://github.com/leondz/garak/pull/576\r\n* Added project twitter link and corrected a grammatic error by @codebrain001 in https://github.com/leondz/garak/pull/578\r\n* Convert GGML to expect GGUF format by @jmartin-tech in https://github.com/leondz/garak/pull/581\r\n* Update workflows: CLA asst bump, PR & manual testing by @leondz in https://github.com/leondz/garak/pull/591\r\n* add test de-duping using skip-duplicate-actions by @leondz in https://github.com/leondz/garak/pull/597\r\n* Remove `#!` entries from files not intended as executables by @jmartin-tech in https://github.com/leondz/garak/pull/612\r\n* Further align shebangs with code that has executable entry points by @leondz in https://github.com/leondz/garak/pull/613\r\n* interactive mode intro by @leondz in https://github.com/leondz/garak/pull/614\r\n* add tests for `ggml` generator by @jmartin-tech in https://github.com/leondz/garak/pull/618\r\n* add var for generator context_len and populate this for some generators by @leondz in https://github.com/leondz/garak/pull/616\r\n* allow generators.Base.generate() to take an optional param specifying generation count by @leondz in https://github.com/leondz/garak/pull/600\r\n* Enable windows tests as github action by @jmartin-tech in https://github.com/leondz/garak/pull/626\r\n* add on-demand macos testing by @leondz in https://github.com/leondz/garak/pull/631\r\n* macOS test install from correct path by @jmartin-tech in https://github.com/leondz/garak/pull/633\r\n* consolidate test file cleanup by @jmartin-tech in https://github.com/leondz/garak/pull/634\r\n* bump discord link by @leondz in https://github.com/leondz/garak/pull/648\r\n* meta the arguments a bit for GET vs other request types by @jmartin-tech in https://github.com/leondz/garak/pull/640\r\n\r\n### stability\r\n* fail gracefully if nvcf rejects input; compact zalgo prompts by @leondz in https://github.com/leondz/garak/pull/509\r\n* log & skip past NVCF 4xx errors by @leondz in https://github.com/leondz/garak/pull/533\r\n* fix empty autodan prompts & poor detector behaviour by @leondz in https://github.com/leondz/garak/pull/534\r\n* Fix AutoDAN issues by @erickgalinkin in https://github.com/leondz/garak/pull/537\r\n* fix bad nonetype handling in atkgen probe by @leondz in https://github.com/leondz/garak/pull/538\r\n* Division by zero error fixed in HTML report generation by @CoderMayhem in https://github.com/leondz/garak/pull/545\r\n* cap cohere lib version by @leondz in https://github.com/leondz/garak/pull/569\r\n* rm deprecated model from example by @leondz in https://github.com/leondz/garak/pull/575\r\n* Attack fixes by @erickgalinkin in https://github.com/leondz/garak/pull/555\r\n* More regex as string literal by @jmartin-tech in https://github.com/leondz/garak/pull/586\r\n* Bugfix/action dedupe by @leondz in https://github.com/leondz/garak/pull/598\r\n* wrap cli exec to gracefully catch keyboard exit signal by @jmartin-tech in https://github.com/leondz/garak/pull/603\r\n* Enforce warning output for `garak` classes. by @jmartin-tech in https://github.com/leondz/garak/pull/605\r\n* bump hf transformers v to avoid transformers#30076 by @leondz in https://github.com/leondz/garak/pull/636\r\n* update avidtools to remove typing reference by @jmartin-tech in https://github.com/leondz/garak/pull/639\r\n* torch v bump by @leondz in https://github.com/leondz/garak/pull/649\r\n* Pause FigStepTiny by @leondz in https://github.com/leondz/garak/pull/652\r\n* Bugfix/visual jailbreak pause by @leondz in https://github.com/leondz/garak/pull/653\r\n* limit push test to main by @jmartin-tech in https://github.com/leondz/garak/pull/661\r\n* Update MANIFEST.in so all resources are installed by @JKL98ISR in https://github.com/leondz/garak/pull/660\r\n* handle extant but closed `hitlogfile` file by @leondz in https://github.com/leondz/garak/pull/665\r\n\r\n\r\n## New Contributors\r\n* @CoderMayhem made their first contribution in https://github.com/leondz/garak/pull/545\r\n* @jmartin-tech made their first contribution in https://github.com/leondz/garak/pull/562\r\n* @codebrain001 made their first contribution in https://github.com/leondz/garak/pull/578\r\n* @Tien-Cheng made their first contribution in https://github.com/leondz/garak/pull/572\r\n* @GustavFredrikson made their first contribution in https://github.com/leondz/garak/pull/588\r\n* @JKL98ISR made their first contribution in https://github.com/leondz/garak/pull/660\r\n* @AhsanAyub made their first contribution in https://github.com/leondz/garak/pull/608\r\n\r\n**Full Changelog**: https://github.com/leondz/garak/compare/v0.9.0.12...v0.9.0.13"
     },
@@ -25428,8 +25428,8 @@
     "https://github.com/google/oss-fuzz": {
         "created_at": "2016-07-20 19:39:50",
         "description": "OSS-Fuzz - continuous fuzzing for open source software.",
-        "commit_message": "Add additional reviewers for OSS-fuzz reports for CHIP (#11969)\n\nThis adds folks that are in the security incident report team outside of\r\ngoogle - they should also have access to fuzzing reports.",
-        "commit_date": "2024-05-17 17:33:37"
+        "commit_message": "[cups] Migrate harness to upstream OpenPrinting project (#12036)\n\nThe OpenPrinting project under the Linux Foundation has initiated the\r\n[OpenPrinting fuzzing](https://github.com/OpenPrinting/fuzzing)\r\nrepository to officially maintain OSS-Fuzz testing tasks. This PR\r\nincludes following updates:\r\n\r\n1. Migration of the existing CUPS fuzzing harness to the upstream\r\nOpenPrinting/fuzzing project.\r\n2. Updated of CUPS mailing contact list and configuration setting.\r\n\r\nAll harness building related changes has been locally tested and\r\nverified.\r\n\r\nWe deeply appreciate the contributions from @pkillarjun for his initial\r\nintegration of the CUPS project into OSS-Fuzz and his support during\r\nthis migration. However, OpenPrinting has decided to move the corpus,\r\nfuzzing harnesses, and build scripts into the repository under its\r\norganisation and maintainance. In addition, the bug reports will be\r\nfirstly processed by OpenPrinting's security team and not by the initial\r\ncontributor, who is not part of the organisation. These two measures\r\nwill minimise the security risks and still maintaining the ability of\r\nopen source fellows to participate in the development.\r\n\r\nCC @tillkamppeter @iosifache\r\n\r\n---------\r\n\r\nSigned-off-by: TTFISH <jiongchiyu@gmail.com>",
+        "commit_date": "2024-06-10 17:13:05"
     },
     "https://github.com/nmalcolm/Inventus": {
         "created_at": "2017-08-28 11:48:02",
@@ -26311,8 +26311,8 @@
     "https://github.com/bit4woo/Fiora": {
         "created_at": "2022-01-01 12:16:03",
         "description": "Fiora：漏洞PoC框架Nuclei的图形版。快捷搜索PoC、一键运行Nuclei。即可作为独立程序运行，也可作为burp插件使用。",
-        "commit_message": "Update LineEntryMenu.java",
-        "commit_date": "2024-05-14 11:05:55",
+        "commit_message": "update",
+        "commit_date": "2024-06-01 05:41:03",
         "release_date": "2022-01-01 12:16:56",
         "release_message": "该项目为PoC框架nuclei提供图形界面，实现快速搜索、一键运行等功能，提升nuclei的使用体验。"
     },
@@ -27074,7 +27074,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "172.190.111.156属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "74.249.5.224属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
@@ -28249,8 +28249,8 @@
         "description": "The Zeek Network Security Monitor"
     },
     "https://gitee.com/freshday/radar": {
-        "status_code": 502,
-        "description": "错误网关 (502)"
+        "status_code": 200,
+        "description": "radar: 实时风控引擎(Risk Engine)，自定义规则引擎(Rule Script)，完美支持中文，适用于反欺诈(Anti-fraud)应用场景，开箱即用！！！移动互联网时代的风险管理利器，你 Get 到了吗？"
     },
     "https://www.la-samhna.de/": {
         "status_code": 200,
