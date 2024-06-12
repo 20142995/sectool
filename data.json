@@ -27074,7 +27074,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "20.51.198.144属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "172.183.37.89属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
@@ -27265,8 +27265,8 @@
         "description": "Just a moment..."
     },
     "https://www.sqlsec.com/tools.html": {
-        "status_code": 523,
-        "description": "www.sqlsec.com | 523: Origin is unreachable"
+        "status_code": 200,
+        "description": "安全小公举 | 国光"
     },
     "https://patchchecker.com/": {
         "status_code": 200,
@@ -27548,7 +27548,7 @@
     },
     "http://www.66zan.cn/desencrypt/": {
         "status_code": 200,
-        "description": "在线DES加密,DES解密工具-在线工具箱"
+        "description": ""
     },
     "http://www.66zan.cn/rabbitencrypt/": {
         "status_code": 200,
@@ -27589,12 +27589,12 @@
         "release_message": "Added a lot of yummy ports! Fixed some minor bug - information about IP count was wrong by 2 hosts."
     },
     "https://github.com/Arinue/CTF-NetA": {
-        "created_at": "2024-05-09 02:41:44",
+        "created_at": "2024-05-30 14:30:53",
         "description": "CTF-NetA是一款专门针对CTF比赛的网络流量分析工具，可以对常见的网络流量进行分析，快速自动获取flag。",
         "commit_message": "Update README.md",
-        "commit_date": "2024-05-09 02:41:44",
-        "release_date": "2024-05-10 07:02:45",
-        "release_message": "v1.2.6 20240510\r\n1.添加http协议中传输hex编码后的文件内容检测，并自动保存\r\n2.加入上个版本打包缺失的profile.yaml文件\r\n3.取消启动时自动检测更新\r\n"
+        "commit_date": "2024-06-11 02:30:55",
+        "release_date": "2024-06-05 09:35:04",
+        "release_message": "v1.5.0 20240605\r\n1.更新部分UI布局\r\n2.支持antsword rsa加密流量解密,需在【设置】中先设置公钥\r\n3.增加了授权错误提示！"
     },
     "https://jiji.pro/yygq.js/": {
         "status_code": 200,
