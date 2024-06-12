@@ -936,7 +936,7 @@
         "release_message": ""
     },
     "https://github.com/Vicl1fe/HackTools": {
-        "created_at": "2022-07-01 03:11:03",
+        "created_at": "2023-06-07 02:55:02",
         "description": "提高渗透测试效率。#Burp插件##渗透测试##小工具#",
         "commit_date": "2023-06-07 02:55:02",
         "commit_message": "Add",
@@ -1675,9 +1675,9 @@
         "release_message": ""
     },
     "https://github.com/gobysec/Goby": {
-        "created_at": "2019-06-03 07:56:11",
+        "created_at": "2021-11-22 11:19:16",
         "description": "Attack surface mapping",
-        "commit_date": "2023-03-17 11:35:53",
+        "commit_date": "2024-02-29 09:48:14",
         "commit_message": "Update README.md",
         "release_tag": "Beta2.2.0",
         "release_date": "2023-01-17 10:55:12",
@@ -1826,7 +1826,7 @@
         "release_message": "fix bug。"
     },
     "https://github.com/bit4woo/domain_hunter": {
-        "created_at": "2017-07-26 17:14:26",
+        "created_at": "2020-08-28 02:48:23",
         "description": "A Burp Suite Extension that try to find all sub-domain, similar-domain and related-domain of an organization automatically! 基于流量自动收集整个企业或组织的子域名、相似域名、相关域名的burp插件",
         "commit_date": "2022-01-16 07:42:41",
         "commit_message": "Update README.md",
@@ -4932,7 +4932,7 @@
         "release_message": "![image](https://github.com/rustdesk/rustdesk/assets/71636191/83754a64-31b8-47f0-8570-da22207759a9)\r\n\r\nx86-64: [Windows](https://github.com/rustdesk/rustdesk/releases/download/1.2.3-2/rustdesk-1.2.3-2-x86_64.exe) | [Ubuntu](https://github.com/rustdesk/rustdesk/releases/download/1.2.3-2/rustdesk-1.2.3-2-x86_64.deb) | [Mac](https://github.com/rustdesk/rustdesk/releases/download/1.2.3-2/rustdesk-1.2.3-2-x86_64.dmg) | [AppImage](https://github.com/rustdesk/rustdesk/releases/download/1.2.3-2/rustdesk-1.2.3-2-x86_64.AppImage) | [Flatpak](https://github.com/rustdesk/rustdesk/releases/download/1.2.3-2/rustdesk-1.2.3-2-x86_64.flatpak)\r\nAArch64 (ARM64):  [Ubuntu](https://github.com/rustdesk/rustdesk/releases/download/1.2.3-2/rustdesk-1.2.3-2-aarch64.deb) | [Android](https://github.com/rustdesk/rustdesk/releases/download/1.2.3-2/rustdesk-1.2.3-2-aarch64-signed.apk) | [Mac](https://github.com/rustdesk/rustdesk/releases/download/1.2.3-2/rustdesk-1.2.3-2-aarch64.dmg) | [AppImage](https://github.com/rustdesk/rustdesk/releases/download/1.2.3-2/rustdesk-1.2.3-2-aarch64.AppImage)\r\nx86-32: [Windows](https://github.com/rustdesk/rustdesk/releases/download/1.2.3-2/rustdesk-1.2.3-2-x86-sciter.exe)\r\n\r\nMore: [check below please](#)\r\n\r\n> **For the latest features, check out the [Nightly Build](https://github.com/rustdesk/rustdesk/releases/tag/nightly)**\r\n\r\n# Changelog\r\n\r\nThis release only fixes a [bug](https://github.com/fufesou/rustdesk/wiki/How-to-delete-the-wrong-certificate-stores-in-%22certmgr.msc%22) introduced in [1.2.3-1](https://github.com/rustdesk/rustdesk/releases/tag/1.2.3-1). \r\n\r\n"
     },
     "https://github.com/chenjj/CORScanner": {
-        "created_at": "2018-05-06 05:57:09",
+        "created_at": "2021-04-12 19:12:33",
         "description": "🎯 Fast CORS misconfiguration vulnerabilities scanner",
         "commit_date": "2021-11-25 07:25:11",
         "commit_message": "Update README.md",
@@ -5535,13 +5535,13 @@
         "release_message": "20230516:\r\n1.修复了Gui启动报错的问题\r\n2.优化了输出结果\r\n\r\n20230519:\r\n1.优化的云端引擎的检出速度\r\n\r\n20230619:\r\n1.优化webshell gui性能占用\r\n\r\n20231120:\r\n1.修复一些cli的已知问题"
     },
     "https://github.com/L-codes/Neo-reGeorg": {
-        "created_at": "2019-07-08 14:25:42",
+        "created_at": "2024-01-16 06:37:36",
         "description": "Neo-reGeorg is a project that seeks to aggressively refactor reGeorg",
-        "commit_date": "2023-07-09 09:31:18",
-        "commit_message": "push v5.1.0",
+        "commit_date": "2024-01-24 04:41:14",
+        "commit_message": "Merge pull request #90 from wat4r/master\n\nadd csharp template",
         "release_tag": "v5.1.0",
-        "release_date": "2023-07-09 09:34:50",
-        "release_message": "```python\r\n* 新特征\r\n    1. 新增 `--request-template` 参数，用于设置请求模板，规避流量检测\r\n* 修复\r\n    1. 更新 `-r` 参数的文档说明\r\n```"
+        "release_date": "2024-01-16 06:39:11",
+        "release_message": "```python\r\n* 新特征\r\n    1. 新增 `--php` 参数，默认根据 --url 设置的 URL 判断是否 .php 后缀使用 PHP 连接方式，特殊情况下可手工使用 --php 指定为 PHP 的连接方式\r\n```"
     },
     "https://github.com/lele8/SharpDBeaver": {
         "created_at": "2023-07-11 09:22:34",
@@ -5729,10 +5729,10 @@
         "release_message": ""
     },
     "https://github.com/seccome/Ehoney": {
-        "created_at": "2021-06-03 09:57:27",
+        "created_at": "2022-09-30 16:42:28",
         "description": "安全、快捷、高交互、企业级的蜜罐管理系统，护网；支持多种协议蜜罐、蜜签、诱饵等功能。A safe, fast, highly interactive and enterprise level honeypot management system, supports multiple protocol honeypots, honeytokens, baits and other functions.",
-        "commit_date": "2022-11-17 14:10:40",
-        "commit_message": "fix: dingding bugs",
+        "commit_date": "2023-10-17 06:52:50",
+        "commit_message": "Update README.md",
         "release_tag": "v3.0.0",
         "release_date": "2022-09-30 16:57:32",
         "release_message": "1、替代redis、relay-agent、filetraceservice 等优化和精简组件\r\n2、支持自定义蜜罐\r\n3、优化探针以及交互模式\r\n4、优化几乎所有数据结构\r\n5、优化部署脚本(非常丝滑的体验)\r\n6、优化协议代理\r\n此版本是在大量社区同学的反馈下进行的一次重构；主要目的是降低Ehoney学习成本、运维成本；良好的数据结构、交互模式和项目结构能够提供非常的好的稳定性；我们的目标是让社区同学放心的部署到生产环境；\r\n注意!!!\r\n由于本次更新几乎涉及所有数据结构的更新需要删除历史数据既 /var/lib/ehoney-db-data/ 文件夹\r\nps: 由于时间问题本次更新暂不支持windows探针(很快就能上线啦)； "
@@ -8216,7 +8216,7 @@
         "release_message": ""
     },
     "https://github.com/AntSwordProject/AntSword-Loader": {
-        "created_at": "2018-08-25 08:18:06",
+        "created_at": "2019-04-24 07:31:41",
         "description": "AntSword 加载器",
         "commit_date": "2019-06-17 02:57:28",
         "commit_message": "Git LFS 带宽限制,下载链接改为 Release 页",
@@ -19497,7 +19497,7 @@
         "commit_message": "Update exploit.c"
     },
     "https://github.com/0xHJK/dumpall": {
-        "created_at": "2019-10-19 13:42:55",
+        "created_at": "2022-05-08 14:31:17",
         "description": "一款信息泄漏利用工具，适用于.git/.svn/.DS_Store泄漏和目录列出",
         "release_tag": "v0.4.0",
         "release_date": "2022-05-08 14:45:00",
@@ -27074,7 +27074,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "20.109.39.21属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "13.88.170.224属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
