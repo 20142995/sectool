@@ -6342,7 +6342,7 @@
         "release_message": " This is a hotfix release. It fixes the following bugs:\r\n \r\n   * #6322 Fixed a crash on launch on macOS 11 and older.\r\n   * #6324 Fixed the update notification looking for alpha versions instead of release versions.\r\n   * #6321 Fixed a freeze when using macros on multiple files."
     },
     "https://github.com/0Chencc/CTFCrackTools": {
-        "created_at": "2022-11-16 22:23:09",
+        "created_at": "2016-08-26 08:19:35",
         "description": "China's first CTFTools framework.中国国内首个CTF工具框架,旨在帮助CTFer快速攻克难关",
         "commit_date": "2024-03-26 08:58:33",
         "commit_message": "Merge pull request #47 from y1nsei/patch-1\n\nUpdate PythonFunc.kt",
@@ -24412,8 +24412,8 @@
         "description": "魅族安全中心"
     },
     "https://sec.vip.com/": {
-        "status_code": 200,
-        "description": "VSRC首页-唯品会信息安全中心"
+        "status_code": 503,
+        "description": ""
     },
     "https://sec.wacai.com/": {
         "status_code": 200,
@@ -27074,7 +27074,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "172.183.37.89属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "13.90.174.192属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
@@ -27548,7 +27548,7 @@
     },
     "http://www.66zan.cn/desencrypt/": {
         "status_code": 200,
-        "description": ""
+        "description": "在线DES加密,DES解密工具-在线工具箱"
     },
     "http://www.66zan.cn/rabbitencrypt/": {
         "status_code": 200,
