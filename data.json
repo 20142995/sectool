@@ -3222,13 +3222,13 @@
         "release_message": ""
     },
     "https://github.com/F6JO/RouteVulScan": {
-        "created_at": "",
-        "description": "",
-        "commit_date": "2023-12-25 08:40:10",
-        "commit_message": "Update Config_yaml.yaml",
+        "created_at": "2024-06-01 15:04:28",
+        "description": "Burpsuite - Route Vulnerable Scanning 递归式被动检测脆弱路径的burp插件",
+        "commit_date": "2024-06-01 15:04:28",
+        "commit_message": "update 1.5.3",
         "release_tag": "",
-        "release_date": "",
-        "release_message": ""
+        "release_date": "2024-06-01 15:07:44",
+        "release_message": "2024-03-07 主动请求添加自定义请求头功能，需同步打开Head按钮使用"
     },
     "https://github.com/komomon/Komo": {
         "created_at": "2022-09-27 07:23:05",
@@ -4240,7 +4240,7 @@
         "release_message": ""
     },
     "https://github.com/niudaii/zpscan": {
-        "created_at": "2022-09-16 03:03:20",
+        "created_at": "2023-03-21 05:47:49",
         "description": "一个有点好用的信息收集工具。A somewhat useful information gathering tool.",
         "commit_date": "2023-09-06 04:26:00",
         "commit_message": "fix: jsjump",
@@ -17738,13 +17738,13 @@
         "release_message": ""
     },
     "https://github.com/commixproject/commix": {
-        "created_at": "2015-03-20 08:38:26",
+        "created_at": "2024-01-19 06:40:42",
         "description": "Automated All-in-One OS Command Injection Exploitation Tool.",
-        "commit_date": "2023-11-16 06:40:58",
-        "commit_message": "Minor improvement regarding Windows-based payloads for semiblind (i.e. \"file-based\") technique (i.e. command execution output).",
+        "commit_date": "2024-06-11 04:22:42",
+        "commit_message": "Minor code refactoring",
         "release_tag": "v3.8",
-        "release_date": "2023-08-14 08:46:05",
-        "release_message": "* Fixed: Multiple bug-fixes regarding several reported unhandled exceptions.\r\n* Revised: Minor improvement regarding parsing raw HTTP request from a file (i.e. `-r` option).\r\n* Revised: Minor improvement regarding dynamic code evaluation technique (i.e. command execution output).\r\n* Added: Translation for [README.md](https://github.com/commixproject/commix/blob/master/doc/translations/README-fa-FA.md) in Farsi(Persian) (via @verfosec)\r\n* Fixed: Minor bug-fix regarding `--skip-empty` flag, for skipping the testing of the parameter(s) with empty value(s).\r\n* Revised: Minor improvement regarding tamper script \"uninitializedvariable.py\", for adding randomly generated uninitialized bash variables between the characters of each command of the generated payloads.\r\n* Revised: Minor improvement regarding skipping further tests involving target that an injection point has already been detected.\r\n* Revised: Minor code refactoring regarding multiple tamper scripts (i.e. \"backslashes.py\", \"dollaratsigns.py\", \"doublequotes.py\", \"singlequotes.py\", \"uninitializedvariable.py\").\r\n* Added: New tamper script \"rev.py\" that reverses (characterwise) the user-supplied operating system commands (for \\*nix targets).\r\n* Fixed: Minor bug-fix regarding checking for similarity in provided parameter(s) name(s) and value(s).\r\n* Fixed: Minor bug-fix regarding forcing usage of SSL/HTTPS requests toward the target (i.e. `--force-ssl` flag).\r\n* Fixed: Minor bug-fix regarding setting custom output directory path (i.e. `--output-dir` option).\r\n* Added: Support for `Bearer` HTTP authentication type.\r\n* Revised: Minor improvement regarding tamper script \"xforwardedfor.py\" (that appends a fake HTTP header `X-Forwarded-For`).\r\n* Fixed: Minor bug-fix regarding not ignoring specified injection technique(s) when `--ignore-session` or `--flush-session` options are set.\r\n* Replaced: The `--dependencies` option has been replaced with `--ignore-dependencies`, regarding ignoring all required third-party library dependencies.\r\n* Added: New option `--alert` to run host OS command(s) when injection point is found."
+        "release_date": "2024-01-19 06:44:15",
+        "release_message": "* Fixed: Multiple bug-fixes regarding several reported unhandled exceptions.\r\n* Revised: Minor improvement regarding logging user-supplied command(s) (i.e. `--os-cmd` option) to a file.\r\n* Revised: Improvement regarding parsing HTTP requests through Tor HTTP proxy (i.e. `--tor` switch).\r\n* Added: New (hidden) option `--ignore-stdin` regarding ignoring STDIN input. (via @n00b-bot)\r\n* Revised: Minor improvement regarding successfully completing the scanning process (i.e. in case that parameters with anti-CSRF tokens are omitted). (via @xerxoria)\r\n* Revised: Minor improvement regarding Windows-based payloads for semiblind (i.e. \"file-based\") technique (i.e. command execution output).\r\n* Revised: Minor improvement in semiblind (i.e. \"file-based\") technique, regarding defining the URL where the execution output of an injected payload is shown.\r\n* Added: New switch `--ignore-proxy` to ignore the system default HTTP proxy.\r\n* Revised: Minor improvement regarding parsing HTTP requests through HTTP proxy (i.e. `--proxy` option).\r\n* Added: New switch `--smart` for conducting through tests only in case of positive heuristic(s).\r\n* Added: Translation for [README.md](https://github.com/commixproject/commix/blob/master/doc/translations/README-tr-TR.md) in Turkish. (via @Kazgangap)\r\n* Revised: Minor improvement regarding parsing SOAP/XML POST data.\r\n\r\n_Note: For more check the [detailed changeset](https://github.com/commixproject/commix/compare/v3.8...v3.9)._"
     },
     "https://github.com/rootsecdev/Azure-Red-Team": {
         "created_at": "2020-03-14 12:02:14",
@@ -24412,8 +24412,8 @@
         "description": "魅族安全中心"
     },
     "https://sec.vip.com/": {
-        "status_code": 503,
-        "description": ""
+        "status_code": 200,
+        "description": "VSRC首页-唯品会信息安全中心"
     },
     "https://sec.wacai.com/": {
         "status_code": 200,
@@ -27074,7 +27074,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "13.90.174.192属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "20.109.39.21属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
