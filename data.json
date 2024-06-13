@@ -1578,10 +1578,10 @@
         "release_message": "### 2021.12.23 V0.2  更新日志\r\n 新增：\r\n1、png图片的IDAT检测\r\n2、Stegpy带密码的隐写\r\n3、Steghide\r\n4、Foremost\r\n5、IPTC、XMP图片数据\r\n\r\n优化：\r\n1、盲水印隐写部分代码\r\n2、重写strings可打印字符"
     },
     "https://github.com/i11us0ry/goon": {
-        "created_at": "2023-12-25 09:05:24",
+        "created_at": "2021-06-28 15:31:50",
         "description": "goon,集合了fscan和kscan等优秀工具功能的扫描爆破工具。功能包含：ip探活、port扫描、web指纹扫描、title扫描、压缩文件扫描、fofa获取、ms17010、mssql、mysql、postgres、redis、ssh、smb、rdp、telnet、tomcat等爆破以及如netbios探测等功能。",
-        "commit_date": "2024-02-22 12:49:15",
-        "commit_message": "Delete flag.go",
+        "commit_date": "2024-06-02 15:50:48",
+        "commit_message": "Update README.md",
         "release_tag": "v3.5",
         "release_date": "2023-12-27 09:13:03",
         "release_message": "- 2023年12月25日 v3.6\r\n    - 新增 -ping 选项，调用ping探活ip，适用于非root/admin权限情况\r\n    - 新增 -no 选项，不保存文件，适用于linux下报错open too many files\r\n    - title、finger扫描可以直接输入domain和url\r\n    - 爆破类支持输入ip、ip段和127.0.0.1:6379格式数据"
@@ -27074,7 +27074,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "172.183.91.174属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "13.83.123.149属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
