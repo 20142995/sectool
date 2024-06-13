@@ -3367,8 +3367,8 @@
     "https://github.com/bit4woo/domain_hunter_pro": {
         "created_at": "2023-04-18 00:03:06",
         "description": "domain_hunter的高级版本，SRC挖洞、HW打点之必备！自动化资产收集；快速Title获取；外部工具联动；等等",
-        "commit_message": "Merge pull request #56 from bit4woo/dependabot/maven/org.jsoup-jsoup-1.15.3\n\nBump org.jsoup:jsoup from 1.14.3 to 1.15.3",
-        "commit_date": "2024-05-03 10:19:52",
+        "commit_message": "fix bug #65 高版本Burp中插件UI加载失败问题",
+        "commit_date": "2024-06-05 04:13:18",
         "release_date": "2023-04-18 00:34:58",
         "release_message": "全局：\r\n多个bug修复\r\n布局模式优化\r\n基础方法实现逻辑优化\r\n\r\n右键菜单：\r\n“Do Search”提供主动在制定请求中进行搜索的能力，比如在某企业邮箱的流量中搜索以提取邮箱地址\r\n“Add Request And Comment”右键菜单添逻辑优化，修复一个bug\r\n“Send To Tool Panel”右键菜单处理逻辑优化，可合并发送多个数据包内容\r\n\r\nDomain面板：\r\nroot domain的comments逻辑更新\r\n提供多个网络搜索引擎的后台自动搜索功能\r\nroot domain双击，自动在浏览器中访问\r\n修改目标根域名删除失败的bug\r\n显示序号，以便在排序后恢复原始顺序\r\n\r\nTool面板：\r\n重写JTextArea的paste函数，避免大内容导致程序卡死\r\nJTextArea支持输入文件，而程序处理其内容。\r\n文本取提供简单的历史记录功能\r\nJSON提取逻辑优化\r\n新增多个功能，比如排序\r\n优化URL提取逻辑，避免遗漏没有以/开头的path\r\n\r\nTitle面板中：\r\n端口扫描命令生成逻辑优化\r\n备注和IP内容的显示优化，显示前排序\r\n备注添加逻辑优化\r\n给手动添加的记录添加已知的IP和CNAME、CertInfo\r\n搜索功能增强，支持对数字型字段进行大于、小于、等于等搜索\r\n添加多个搜索实例，以便用户熟悉搜索语法\r\n新增“Do Request Item Again”菜单，对DNS记录或无响应的数据包进行再次请求"
     },
@@ -4950,7 +4950,7 @@
         "release_message": "## Changelog\r\n* 252aef4 Update go.yml\r\n* f11f27c Update go.mod dependencies\r\n* 8c8db1e Update docker-publish.yml\r\n* 25dce8c Update docker-publish.yml\r\n* 77b785e Update README.md\r\n* e3a2d67 Update README.md\r\n* 69f14ae Update\r\n* 32e486b Update\r\n* 335a7e8 Support Windows ARM64\r\n* 3673d5e Migrate jwt-go to golang-jwt\r\n* 06674f0 Merge pull request #37 from hahwul/bump-to-go-packages\r\n* 814d1ea Merge pull request #34 from isacaya/test\r\n* 6b6c920 Merge pull request #33 from hahwul/bump-to-cosign\r\n* 501b241 Merge pull request #32 from hahwul/dependabot/go_modules/golang.org/x/sys-0.1.0\r\n* ec8cad1 Merge pull request #31 from ScriptIdiot/patch-1\r\n* cea10a3 Create docker-publish.yml\r\n* 6955ce1 Bump to go min go version (1.17 to 1.21)\r\n* c83c10a Bump golang.org/x/sys from 0.0.0-20220114195835-da31bd327af9 to 0.1.0\r\n* b13c58b Add logic related to 'max' flag by @isacaya \r\n* 06fb757 Add arm64 docker image builder\r\n\r\n"
     },
     "https://github.com/hahwul/dalfox": {
-        "created_at": "2024-01-28 15:43:33",
+        "created_at": "2020-04-12 07:04:10",
         "description": "🌙🦊 Dalfox is a powerful open-source XSS scanner and utility focused on automation.",
         "commit_message": "Merge pull request #549 from hahwul/dev\n\nDependencies upgrade",
         "commit_date": "2024-04-30 14:49:24",
@@ -22475,12 +22475,12 @@
         "release_message": ""
     },
     "https://github.com/LC044/WeChatMsg": {
-        "created_at": "2024-05-10 11:13:38",
+        "created_at": "2024-05-10 12:14:41",
         "description": "提取微信聊天记录，将其导出成HTML、Word、Excel文档永久保存，对聊天记录进行分析生成年度聊天报告，用聊天数据训练专属于个人的AI聊天助手",
         "commit_message": "更新群二维码",
         "commit_date": "2024-05-10 12:14:41",
-        "release_date": "2024-05-10 11:42:09",
-        "release_message": "注意：留痕2.0.9与之前的版本不兼容，更新软件需要重新解析数据\r\n# 新增功能\r\n## 支持导出群聊指定成员聊天记录\r\n![image.png](https://cdn.nlark.com/yuque/0/2024/png/42745842/1715329535978-71302463-d3a2-4cab-93b2-3e65344babd5.png#averageHue=%23e6eff6&clientId=uf801ba53-6094-4&from=paste&height=258&id=u3f6a6f7c&originHeight=258&originWidth=221&originalType=binary&ratio=1&rotation=0&showTitle=false&size=11140&status=done&style=none&taskId=ub1675841-8de3-4125-819b-05333856864&title=&width=221)\r\n![image.png](https://cdn.nlark.com/yuque/0/2024/png/42745842/1715329599096-2cef7510-3080-4bac-825d-3a4aaea7d96f.png#averageHue=%23ecf2f8&clientId=uf801ba53-6094-4&from=paste&height=763&id=u45c4558c&originHeight=763&originWidth=802&originalType=binary&ratio=1&rotation=0&showTitle=false&size=62737&status=done&style=none&taskId=ue12e6687-7109-428a-a70c-37d87bac62a&title=&width=802)\r\n## xlsx新增音乐分享\r\n# 功能调整\r\n## 下线朋友圈导出功能\r\n由于微信更新，朋友圈图片无法导出显示，为了提升用户体验，我们决定下线朋友圈导出功能，如有新的解决方案会再次上线。\r\n同时为了满足用户保存自己朋友圈的需求，保留了导出自己朋友圈的功能，但是图片无法导出。\r\n# 优化\r\n## 群聊显示企业微信联系人头像和昵称\r\n![image.png](https://cdn.nlark.com/yuque/0/2024/png/42745842/1715330837765-5f33e9d2-cf43-4300-bfc1-f08214d1f778.png#averageHue=%23ede8e5&clientId=uf801ba53-6094-4&from=paste&height=82&id=BgYFL&originHeight=82&originWidth=289&originalType=binary&ratio=1&rotation=0&showTitle=false&size=10228&status=done&style=none&taskId=u1f6d7ddc-26a2-4d74-858e-afe8d7daa3e&title=&width=289)\r\n## 更换语音与转文字之间的位置\r\n显示与微信效果一致\r\n![image.png](https://cdn.nlark.com/yuque/0/2024/png/42745842/1715331635904-7a530a97-00c8-4bba-b057-2aa157e95170.png#averageHue=%23f5f5f4&clientId=uf801ba53-6094-4&from=paste&height=117&id=iYdLX&originHeight=117&originWidth=250&originalType=binary&ratio=1&rotation=0&showTitle=false&size=5838&status=done&style=none&taskId=u543a7364-efa3-4053-911f-4199a6418de&title=&width=250)\r\n## 解析数据后自动加载，无需重新启动\r\n## 修复群聊导出Word找不到头像的bug\r\n## 修复合并转发消息导致HTML报错问题\r\n\r\n\r\n"
+        "release_date": "2024-05-18 10:51:02",
+        "release_message": "# 新功能\r\n## 双人聊天分析报告\r\n我们设计了明亮系和暗黑系两大视觉主题，每个主题包含了6种颜色主题，一共12个主题。\r\n### 520特别版\r\n520马上到了，礼物还没准备好？快来选一份心仪的主题送给ta吧！\r\n明亮系\r\n![card1.png](https://cdn.nlark.com/yuque/0/2024/png/42745842/1715998709686-843de86e-5e21-4b52-b724-d66946a0e0b0.png#averageHue=%2380cfd8&clientId=ue2b90bd8-cb2d-4&from=paste&height=400&id=ub6c2e2ec&originHeight=1600&originWidth=900&originalType=binary&ratio=1&rotation=0&showTitle=false&size=871291&status=done&style=none&taskId=u8d9b895c-36d5-420c-892a-93dde37149c&title=&width=225)![card2.png](https://cdn.nlark.com/yuque/0/2024/png/42745842/1715998709691-0de86c7a-baad-47e7-ba26-598ed7edad53.png#averageHue=%2340595b&clientId=ue2b90bd8-cb2d-4&from=paste&height=400&id=ud0693ed9&originHeight=1600&originWidth=900&originalType=binary&ratio=1&rotation=0&showTitle=false&size=777401&status=done&style=none&taskId=u259302d3-53d9-4acf-b642-56edb806ad4&title=&width=225)![card3.png](https://cdn.nlark.com/yuque/0/2024/png/42745842/1715998709657-b9eea3de-09d0-4d3b-bb16-cf5eb88962fb.png#averageHue=%23c6ced4&clientId=ue2b90bd8-cb2d-4&from=paste&height=400&id=u2bc4d309&originHeight=1600&originWidth=900&originalType=binary&ratio=1&rotation=0&showTitle=false&size=788449&status=done&style=none&taskId=u2947fcc4-19d2-4b6b-b4a6-8209f61969e&title=&width=225)![card4.png](https://cdn.nlark.com/yuque/0/2024/png/42745842/1715998709595-0abdc7a5-f4dc-43d6-9f77-a2c7087b7aa6.png#averageHue=%23677e65&clientId=ue2b90bd8-cb2d-4&from=paste&height=400&id=u98c70cda&originHeight=1600&originWidth=900&originalType=binary&ratio=1&rotation=0&showTitle=false&size=762373&status=done&style=none&taskId=u43980f9a-8eac-4eec-bf1c-2c577e34d53&title=&width=225)![card5.png](https://cdn.nlark.com/yuque/0/2024/png/42745842/1715998709600-fadf17b8-633f-4ce4-853d-5469119875d3.png#averageHue=%23bfee92&clientId=ue2b90bd8-cb2d-4&from=paste&height=400&id=ue812475b&originHeight=1600&originWidth=900&originalType=binary&ratio=1&rotation=0&showTitle=false&size=790301&status=done&style=none&taskId=u8a9fb815-bfb7-4d9c-aed1-859ef1c47ee&title=&width=225)![card6.png](https://cdn.nlark.com/yuque/0/2024/png/42745842/1715998709965-24f04091-9cd3-4d0b-83b8-1f58aaa2a6c3.png#averageHue=%23cebbe4&clientId=ue2b90bd8-cb2d-4&from=paste&height=400&id=udd29c58e&originHeight=1600&originWidth=900&originalType=binary&ratio=1&rotation=0&showTitle=false&size=678783&status=done&style=none&taskId=u86dd86bc-dab4-4c98-a2b2-4ccb6b687c5&title=&width=225)\r\n暗黑系\r\n![card1.png](https://cdn.nlark.com/yuque/0/2024/png/42745842/1715998763785-c8b74357-f525-4cad-9be3-018549b452c6.png#averageHue=%234d6c37&clientId=ue2b90bd8-cb2d-4&from=paste&height=400&id=u8cdc46aa&originHeight=1600&originWidth=900&originalType=binary&ratio=1&rotation=0&showTitle=false&size=871113&status=done&style=none&taskId=ue8bd6363-53ef-4be9-9af0-9f60d3ec7b8&title=&width=225)![card2.png](https://cdn.nlark.com/yuque/0/2024/png/42745842/1715998763782-5f026b72-3d98-4dd0-ad30-c7113e26f7ce.png#averageHue=%23243c2a&clientId=ue2b90bd8-cb2d-4&from=paste&height=400&id=u3be67b0d&originHeight=1600&originWidth=900&originalType=binary&ratio=1&rotation=0&showTitle=false&size=778246&status=done&style=none&taskId=u1a2e4ede-4105-40a2-bc47-f988e1e67ed&title=&width=225)![card3.png](https://cdn.nlark.com/yuque/0/2024/png/42745842/1715998763773-63844857-0f7a-4b12-be77-9cb2f6edf331.png#averageHue=%230c211a&clientId=ue2b90bd8-cb2d-4&from=paste&height=400&id=uf58eba76&originHeight=1600&originWidth=900&originalType=binary&ratio=1&rotation=0&showTitle=false&size=789797&status=done&style=none&taskId=u68f01686-2ebd-4f9c-92be-584e54c24ac&title=&width=225)![card4.png](https://cdn.nlark.com/yuque/0/2024/png/42745842/1715998763775-18ebda80-eab1-471c-998d-6db2defff061.png#averageHue=%23177275&clientId=ue2b90bd8-cb2d-4&from=paste&height=400&id=ub2b4f1dc&originHeight=1600&originWidth=900&originalType=binary&ratio=1&rotation=0&showTitle=false&size=762107&status=done&style=none&taskId=uf7757197-510b-4e6c-a2e4-96d25e90d57&title=&width=225)![card5.png](https://cdn.nlark.com/yuque/0/2024/png/42745842/1715998763798-ab70985c-db3d-42fd-b2c1-4cf9cbd7cfbb.png#averageHue=%233e106c&clientId=ue2b90bd8-cb2d-4&from=paste&height=400&id=u61867918&originHeight=1600&originWidth=900&originalType=binary&ratio=1&rotation=0&showTitle=false&size=791119&status=done&style=none&taskId=u9e6b22f5-2b39-4aa2-8f19-38e778bf5fc&title=&width=225)![card6.png](https://cdn.nlark.com/yuque/0/2024/png/42745842/1715998764121-4b3e1883-62ef-47e3-94bf-13cd06f5e15e.png#averageHue=%231b3a17&clientId=ue2b90bd8-cb2d-4&from=paste&height=400&id=u14e10718&originHeight=1600&originWidth=900&originalType=binary&ratio=1&rotation=0&showTitle=false&size=678478&status=done&style=none&taskId=u89d86b94-12b0-4db0-8929-a488b06c926&title=&width=225)\r\n### 普通版\r\n明亮系\r\n![card1.png](https://cdn.nlark.com/yuque/0/2024/png/42745842/1715998849278-f71aa791-d2bd-4f12-8c3b-d58076f8e2de.png#averageHue=%2380ced7&clientId=ue2b90bd8-cb2d-4&from=paste&height=400&id=u5a33b397&originHeight=1600&originWidth=900&originalType=binary&ratio=1&rotation=0&showTitle=false&size=869176&status=done&style=none&taskId=u7f840f4d-06f1-48c0-8eba-8d82107eaf1&title=&width=225)![card2.png](https://cdn.nlark.com/yuque/0/2024/png/42745842/1715998849266-6ea16819-e548-4082-b8a0-c87c7cbe9297.png#averageHue=%233f595b&clientId=ue2b90bd8-cb2d-4&from=paste&height=400&id=ua35d9c10&originHeight=1600&originWidth=900&originalType=binary&ratio=1&rotation=0&showTitle=false&size=780997&status=done&style=none&taskId=uff17fefd-0a07-48a1-a5a5-562888b3e45&title=&width=225)![card3.png](https://cdn.nlark.com/yuque/0/2024/png/42745842/1715998849264-b4d5e27b-b6b7-4082-9ac0-d450ee456bda.png#averageHue=%23c7ced4&clientId=ue2b90bd8-cb2d-4&from=paste&height=400&id=u4f80fca7&originHeight=1600&originWidth=900&originalType=binary&ratio=1&rotation=0&showTitle=false&size=787059&status=done&style=none&taskId=u0b309900-864f-40a8-a640-8cf6e5a7c03&title=&width=225)![card4.png](https://cdn.nlark.com/yuque/0/2024/png/42745842/1715998849264-ff75657e-6828-47da-92de-a11c06abe76e.png#averageHue=%23647c63&clientId=ue2b90bd8-cb2d-4&from=paste&height=400&id=ub9a543d3&originHeight=1600&originWidth=900&originalType=binary&ratio=1&rotation=0&showTitle=false&size=768165&status=done&style=none&taskId=u0cef07be-21be-47a0-83fe-e5b3d3616d9&title=&width=225)![card5.png](https://cdn.nlark.com/yuque/0/2024/png/42745842/1715998849272-f5317f7e-850a-4cef-8905-c0963ede19c6.png#averageHue=%23bfed92&clientId=ue2b90bd8-cb2d-4&from=paste&height=400&id=u5e318e49&originHeight=1600&originWidth=900&originalType=binary&ratio=1&rotation=0&showTitle=false&size=788416&status=done&style=none&taskId=ue005c1e9-e785-460b-9ec7-ea6d3f5efd0&title=&width=225)![card6.png](https://cdn.nlark.com/yuque/0/2024/png/42745842/1715998849636-66fea7f9-4ca7-4c93-8945-eb5ed6bd1f7a.png#averageHue=%23cdbae3&clientId=ue2b90bd8-cb2d-4&from=paste&height=400&id=ufafdbe78&originHeight=1600&originWidth=900&originalType=binary&ratio=1&rotation=0&showTitle=false&size=679824&status=done&style=none&taskId=u38149dc3-011d-443f-84e3-bf374092ac4&title=&width=225)\r\n暗黑系\r\n![card1.png](https://cdn.nlark.com/yuque/0/2024/png/42745842/1715998878905-4663e29d-2b8c-4e74-8128-b054d5540e88.png#averageHue=%234d6c38&clientId=ue2b90bd8-cb2d-4&from=paste&height=400&id=u51615a49&originHeight=1600&originWidth=900&originalType=binary&ratio=1&rotation=0&showTitle=false&size=868130&status=done&style=none&taskId=u87408531-94ae-455c-8720-9916a820e2a&title=&width=225)![card2.png](https://cdn.nlark.com/yuque/0/2024/png/42745842/1715998878874-4b012189-0620-43ce-afb2-3e6ccbcdf870.png#averageHue=%23243c2a&clientId=ue2b90bd8-cb2d-4&from=paste&height=400&id=u2a4425d9&originHeight=1600&originWidth=900&originalType=binary&ratio=1&rotation=0&showTitle=false&size=779976&status=done&style=none&taskId=uf3a00982-ac8a-4c08-b904-e7b8ef5b14b&title=&width=225)![card3.png](https://cdn.nlark.com/yuque/0/2024/png/42745842/1715998878878-231ef2be-41cb-47d9-98b6-d5784b1a8ab0.png#averageHue=%230d221a&clientId=ue2b90bd8-cb2d-4&from=paste&height=400&id=udcfa8df1&originHeight=1600&originWidth=900&originalType=binary&ratio=1&rotation=0&showTitle=false&size=787135&status=done&style=none&taskId=ufd32baa7-fbeb-47f1-835b-ee60f4bb12e&title=&width=225)![card4.png](https://cdn.nlark.com/yuque/0/2024/png/42745842/1715998878870-68555104-5d92-4c19-b4e3-9cdcac6da5b1.png#averageHue=%23177275&clientId=ue2b90bd8-cb2d-4&from=paste&height=400&id=ue95265c7&originHeight=1600&originWidth=900&originalType=binary&ratio=1&rotation=0&showTitle=false&size=767696&status=done&style=none&taskId=u14b81557-171c-4e5e-8d86-056c56c72c1&title=&width=225)![card5.png](https://cdn.nlark.com/yuque/0/2024/png/42745842/1715998878895-e86381c8-c065-415a-b471-9213d61f70c8.png#averageHue=%233f106c&clientId=ue2b90bd8-cb2d-4&from=paste&height=400&id=u198ac6d8&originHeight=1600&originWidth=900&originalType=binary&ratio=1&rotation=0&showTitle=false&size=788201&status=done&style=none&taskId=u44e40857-499a-4a48-a2ba-85d61fe6e70&title=&width=225)![card6.png](https://cdn.nlark.com/yuque/0/2024/png/42745842/1715998879238-fb3a3b76-a996-454f-a5c7-75d13f3e4a6c.png#averageHue=%231c3a17&clientId=ue2b90bd8-cb2d-4&from=paste&height=400&id=u8a46c94b&originHeight=1600&originWidth=900&originalType=binary&ratio=1&rotation=0&showTitle=false&size=679433&status=done&style=none&taskId=u50d2db96-9842-4fc6-8fcf-42a52f5ca25&title=&width=225)\r\n## 个人全部聊天分析报告\r\n这时候有人就要问了，单身狗怎么办？我们的口号是：一个人也能玩出花样，不是你优秀而是我精彩。所以我们特地准备了个人聊天报告，无论你是“留言满天下”还是“沉默代表我态度”，在这里都能收获一个只属于你的荣誉称号。\r\n明亮系\r\n![card1.png](https://cdn.nlark.com/yuque/0/2024/png/42745842/1715999143080-5f2e5955-f4b0-41d2-96a7-af50cb66aab8.png#averageHue=%2380cfd8&clientId=ue2b90bd8-cb2d-4&from=paste&height=400&id=u4172b56a&originHeight=1600&originWidth=900&originalType=binary&ratio=1&rotation=0&showTitle=false&size=905412&status=done&style=none&taskId=ub2dd1dcb-97c7-4e9f-9e59-332330b7b1c&title=&width=225)![card2.png](https://cdn.nlark.com/yuque/0/2024/png/42745842/1715999143112-9b4aea54-4549-4a4a-95f6-93b11a5031b5.png#averageHue=%2392a7c2&clientId=ue2b90bd8-cb2d-4&from=paste&height=400&id=ub34b116d&originHeight=1600&originWidth=900&originalType=binary&ratio=1&rotation=0&showTitle=false&size=819101&status=done&style=none&taskId=ud17b70c3-04a3-49c6-801c-22fbaf1536b&title=&width=225)![card3.png](https://cdn.nlark.com/yuque/0/2024/png/42745842/1715999143195-12121260-e493-43dc-8a99-eb60ebb2246a.png#averageHue=%23c6cfd5&clientId=ue2b90bd8-cb2d-4&from=paste&height=400&id=u1a323997&originHeight=1600&originWidth=900&originalType=binary&ratio=1&rotation=0&showTitle=false&size=827323&status=done&style=none&taskId=u9913551e-e629-46b0-8fa2-b16f65a83a5&title=&width=225)![card4.png](https://cdn.nlark.com/yuque/0/2024/png/42745842/1715999143130-4a81cdbf-f6bc-4279-ba70-8b7b7e0e9a1c.png#averageHue=%23eef4e9&clientId=ue2b90bd8-cb2d-4&from=paste&height=400&id=u2e2aca7b&originHeight=1600&originWidth=900&originalType=binary&ratio=1&rotation=0&showTitle=false&size=806310&status=done&style=none&taskId=u59b2eedd-4379-40ab-acee-35595ce7a3d&title=&width=225)![card5.png](https://cdn.nlark.com/yuque/0/2024/png/42745842/1715999143212-f7b54113-6839-48da-9ced-2096384f36fc.png#averageHue=%23bfed92&clientId=ue2b90bd8-cb2d-4&from=paste&height=400&id=u5093f14f&originHeight=1600&originWidth=900&originalType=binary&ratio=1&rotation=0&showTitle=false&size=826726&status=done&style=none&taskId=udac8e24b-70a1-417d-8fff-d4d5dbb2f36&title=&width=225)![card6.png](https://cdn.nlark.com/yuque/0/2024/png/42745842/1715999143499-b807c16f-d2a5-4686-82dd-501df0ba3252.png#averageHue=%23cabae3&clientId=ue2b90bd8-cb2d-4&from=paste&height=400&id=ufc95501e&originHeight=1600&originWidth=900&originalType=binary&ratio=1&rotation=0&showTitle=false&size=720675&status=done&style=none&taskId=u19a3704a-1564-43ab-86bb-bfbdb4682cd&title=&width=225)\r\n暗黑系\r\n![card1.png](https://cdn.nlark.com/yuque/0/2024/png/42745842/1715999187045-d0a83280-650d-4499-af96-06713755532a.png#averageHue=%234e6e32&clientId=ue2b90bd8-cb2d-4&from=paste&height=400&id=ue5367fd2&originHeight=1600&originWidth=900&originalType=binary&ratio=1&rotation=0&showTitle=false&size=905377&status=done&style=none&taskId=u8e7006cf-db9f-4734-a6f1-24b60e4575a&title=&width=225)![card2.png](https://cdn.nlark.com/yuque/0/2024/png/42745842/1715999187080-8ba7c1ad-7f34-4cf6-acc8-91976ca3def1.png#averageHue=%23233b28&clientId=ue2b90bd8-cb2d-4&from=paste&height=400&id=u5c44118e&originHeight=1600&originWidth=900&originalType=binary&ratio=1&rotation=0&showTitle=false&size=819613&status=done&style=none&taskId=u79ddbc8a-87d1-4436-989c-240a4dce4a0&title=&width=225)![card3.png](https://cdn.nlark.com/yuque/0/2024/png/42745842/1715999187077-2b7850ef-0212-4b7f-9530-6f038f062b06.png#averageHue=%230d221a&clientId=ue2b90bd8-cb2d-4&from=paste&height=400&id=uc65ad0f0&originHeight=1600&originWidth=900&originalType=binary&ratio=1&rotation=0&showTitle=false&size=827812&status=done&style=none&taskId=uee44be32-b30e-4b3e-bbbc-fd72774a33b&title=&width=225)![card4.png](https://cdn.nlark.com/yuque/0/2024/png/42745842/1715999187041-3533981b-774f-45f3-bd55-f8639088f44a.png#averageHue=%23177275&clientId=ue2b90bd8-cb2d-4&from=paste&height=400&id=uafaa1d2c&originHeight=1600&originWidth=900&originalType=binary&ratio=1&rotation=0&showTitle=false&size=807724&status=done&style=none&taskId=ud7d0ce2c-2d24-499d-a919-f4ebd57946b&title=&width=225)![card5.png](https://cdn.nlark.com/yuque/0/2024/png/42745842/1715999187024-7534c7c0-94f4-4d03-aa8e-4de7c48b5465.png#averageHue=%233e116d&clientId=ue2b90bd8-cb2d-4&from=paste&height=400&id=udc8430dc&originHeight=1600&originWidth=900&originalType=binary&ratio=1&rotation=0&showTitle=false&size=827132&status=done&style=none&taskId=uea03958c-4d4d-4876-89d7-bc7cd94cadf&title=&width=225)![card6.png](https://cdn.nlark.com/yuque/0/2024/png/42745842/1715999187421-ee158ca4-c5c7-4020-bdc4-6f16d806f626.png#averageHue=%231d3a17&clientId=ue2b90bd8-cb2d-4&from=paste&height=400&id=uf7f68993&originHeight=1600&originWidth=900&originalType=binary&ratio=1&rotation=0&showTitle=false&size=721377&status=done&style=none&taskId=u40c58d62-08ef-4b14-a785-e99bcd908cc&title=&width=225)\r\n## 新增设置每个PDF的消息数量和同时打印数\r\n![image.png](https://cdn.nlark.com/yuque/0/2024/png/42745842/1716004073224-70956393-a72f-4ff8-bfd1-5c2047f94535.png#averageHue=%23ebf2f7&clientId=ue2b90bd8-cb2d-4&from=paste&height=512&id=u3ac7ded2&originHeight=512&originWidth=725&originalType=binary&ratio=1&rotation=0&showTitle=false&size=30660&status=done&style=none&taskId=u5d3922c2-4073-49df-96b1-25906ee45e2&title=&width=725)\r\n## 其他\r\n\r\n- 获取信息增加弹窗提示\r\n- PDF增加群公告\r\n- 修复一些其他bug\r\n"
     },
     "https://github.com/netero1010/ClipboardHistoryThief": {
         "created_at": "2023-04-15 07:08:48",
@@ -23209,7 +23209,7 @@
     },
     "https://github.com/djytmdj/Network-security-study-notes": {
         "created_at": "2023-07-25 06:13:25",
-        "description": "主要记录网络安全学习笔记，包含WEB基础、提权、APP渗透、内网横向移动、工具学习等",
+        "description": "主要记录网络安全学习笔记，包含WEB安全、提权、APP渗透、内网渗透、横向移动、红队、工具学习等",
         "commit_message": "Update README.md",
         "commit_date": "2024-05-13 07:23:29"
     },
@@ -24412,8 +24412,8 @@
         "description": "魅族安全中心"
     },
     "https://sec.vip.com/": {
-        "status_code": 503,
-        "description": ""
+        "status_code": 200,
+        "description": "VSRC首页-唯品会信息安全中心"
     },
     "https://sec.wacai.com/": {
         "status_code": 200,
@@ -24758,8 +24758,8 @@
         "description": "电报码在线翻译（国际摩尔斯电码及中文电码） - 千千秀字"
     },
     "http://www.hiencode.com/aaencode.html": {
-        "status_code": 200,
-        "description": "CTF在线工具-在线AAencode编码|AA编码|AAencode解码|AAencode编码原理|AAencode编码算法"
+        "status_code": 502,
+        "description": "502 Bad Gateway"
     },
     "https://www.shellpub.com/": {
         "status_code": 200,
@@ -24810,8 +24810,8 @@
         "description": "[~]#棱角 ::Edge.Forum*"
     },
     "http://ctf.ssleye.com/pigpen.html": {
-        "status_code": 200,
-        "description": "CTF在线工具-在线猪圈密码加密|在线猪圈密码解密|猪圈密码算法|Pigpen Cipher"
+        "status_code": 504,
+        "description": "404 Not Found"
     },
     "https://www.qqxiuzi.cn/bianma/rot5-13-18-47.php": {
         "status_code": 404,
@@ -24838,8 +24838,8 @@
         "description": "Overview - Process Hacker"
     },
     "http://www.hiencode.com/bubble.html": {
-        "status_code": 200,
-        "description": "CTF在线工具-在线BubbleBabble编码|Bubble编码|BubbleBabble解码|BubbleBabble编码原理|BubbleBabble编码算法"
+        "status_code": 504,
+        "description": "404 Not Found"
     },
     "http://rootkiter.com/Termite/": {
         "status_code": 200,
@@ -24866,16 +24866,16 @@
         "description": "Sysinternals 实用工具 - Sysinternals | Microsoft Learn"
     },
     "http://www.hiencode.com/jsfuck.html": {
-        "status_code": 200,
-        "description": "CTF在线工具-在线JSfuck加密|在线JSfuck解密|JSfuck|JSfuck原理|JSfuck算法"
+        "status_code": 504,
+        "description": "404 Not Found"
     },
     "https://the-x.cn/encodings/Hex.aspx": {
         "status_code": 200,
         "description": "HEX转字符 十六进制转字符  hex gb2312 gbk utf8 汉字内码转换 - The X 在线工具"
     },
     "http://www.hiencode.com/xxencode.html": {
-        "status_code": 200,
-        "description": "CTF在线工具-在线XXencode编码|XX编码|XXencode解码|XXencode编码原理|XXencode编码算法"
+        "status_code": 504,
+        "description": "404 Not Found"
     },
     "https://www.d99net.net/": {
         "status_code": 200,
@@ -24914,16 +24914,16 @@
         "description": "希尔(Hill Cipher)加密/解密 - Bugku CTF"
     },
     "http://www.hiencode.com/": {
-        "status_code": 200,
-        "description": "CTF在线工具-CTF工具|CTF编码|CTF密码学|CTF加解密|程序员工具|在线编解码"
+        "status_code": 504,
+        "description": "404 Not Found"
     },
     "https://www.boxentriq.com/code-breaking/affine-cipher": {
         "status_code": 200,
         "description": "Affine Cipher (online tool) | Boxentriq"
     },
     "http://www.hiencode.com/jjencode.html": {
-        "status_code": 200,
-        "description": "CTF在线工具-在线JJencode编码|JJ编码|JJencode解码|JJencode编码原理|JJencode编码算法"
+        "status_code": 504,
+        "description": "404 Not Found"
     },
     "https://ctf.bugku.com/tool/base100": {
         "status_code": 200,
@@ -24942,8 +24942,8 @@
         "description": "Triple DES(3DES)加密/解密 - Bugku CTF"
     },
     "http://ctf.ssleye.com/tapcode.html": {
-        "status_code": 200,
-        "description": "CTF在线工具-在线敲击码|敲击码编码|敲击码算法|tap code"
+        "status_code": 504,
+        "description": "404 Not Found"
     },
     "http://utf-8.jp/public/aaencode.html": {
         "status_code": 200,
@@ -24982,12 +24982,12 @@
         "description": "Unicode Steganography with Zero-Width Characters"
     },
     "http://www.hiencode.com/brain.html": {
-        "status_code": 200,
-        "description": "CTF在线工具-在线Brainfuck加密|在线Brainfuck解密|Brainfuck|Brainfuck原理|Brainfuck算法"
+        "status_code": 504,
+        "description": "404 Not Found"
     },
     "http://www.hiencode.com/cvencode.html": {
-        "status_code": 200,
-        "description": "CTF在线工具-在线核心价值观编码|核心价值观编码算法|Core Values Encoder"
+        "status_code": 504,
+        "description": "404 Not Found"
     },
     "https://www.microsoft.com/en-us/download/details.aspx?id=24659": {
         "status_code": 200,
@@ -25162,8 +25162,8 @@
         "description": "新约佛论禅/佛曰加密 - 萌研社 - PcMoe!"
     },
     "http://www.hiencode.com/ppencode.html": {
-        "status_code": 200,
-        "description": "CTF在线工具-在线PPencode编码|PP编码|PPencode编码原理|PPencode编码算法"
+        "status_code": 504,
+        "description": "404 Not Found"
     },
     "https://zb3.me/malbolge-tools/": {
         "status_code": 200,
@@ -25218,16 +25218,16 @@
         "description": "Quoted-printable编码|Quoted-printable解码|Quoted-printable编码原理介绍--查错网"
     },
     "http://www.hiencode.com/uu.html": {
-        "status_code": 200,
-        "description": "CTF在线工具-在线UUencode编码|UU编码|UUencode解码|UUencode编码原理|UUencode编码算法"
+        "status_code": 504,
+        "description": "404 Not Found"
     },
     "https://ctf.bugku.com/tool/todousharp": {
         "status_code": 200,
         "description": "与佛论禅密码 - Bugku CTF"
     },
     "http://www.hiencode.com/handycode.html": {
-        "status_code": 200,
-        "description": "CTF在线工具-在线handycode编码|handycode编码|handycode解码|handycode编码原理|handycode编码算法"
+        "status_code": 504,
+        "description": "404 Not Found"
     },
     "https://smallpdf.com/cn": {
         "status_code": 200,
@@ -26501,8 +26501,8 @@
         "commit_date": "2016-06-26 03:11:52"
     },
     "http://www.hiencode.com/cdes.html": {
-        "status_code": 200,
-        "description": "CTF在线工具-DES在线加解密|DES在线加密|DES在线解密|DES encryption|DES decryption"
+        "status_code": 504,
+        "description": "404 Not Found"
     },
     "http://tool.chacuo.net/cryptserpent": {
         "status_code": 200,
@@ -26523,8 +26523,8 @@
         "description": "在线RSA私钥密码添加修改、添加修改RSA私钥密码、rsa private key password modify--查错网"
     },
     "http://www.hiencode.com/four.html": {
-        "status_code": 200,
-        "description": "CTF在线工具-在线四方密码加密|在线四方密码解密|四方密码算法|Foursquare Cipher"
+        "status_code": 504,
+        "description": "404 Not Found"
     },
     "https://github.com/cyberark/KubiScan": {
         "created_at": "2023-06-22 22:01:15",
@@ -26539,24 +26539,24 @@
         "description": "CTFever Toolkit by uniiem"
     },
     "http://www.hiencode.com/hex.html": {
-        "status_code": 200,
-        "description": "CTF在线工具-Hex在线编码|Hex在线解码|十六进制编码转换"
+        "status_code": 504,
+        "description": "404 Not Found"
     },
     "https://ctf.bugku.com/tool/base92": {
         "status_code": 200,
         "description": "BASE92编码解码 - Bugku CTF"
     },
     "http://www.hiencode.com/caesar.html": {
-        "status_code": 200,
-        "description": "CTF在线工具-在线凯撒密码加密|在线凯撒密码解密|凯撒密码算法|Caesar Cipher"
+        "status_code": 504,
+        "description": "404 Not Found"
     },
     "https://c5r.app/tools/bin-extractor": {
         "status_code": 200,
         "description": "CTFever Toolkit by uniiem"
     },
     "http://www.hiencode.com/cencode.html": {
-        "status_code": 200,
-        "description": "CTF在线工具-ASCII编码转换|Unicode编码转换|Native编码转换|UTF-16|UTF-32"
+        "status_code": 504,
+        "description": "404 Not Found"
     },
     "https://github.com/wafinfo/DecryptTools": {
         "created_at": "2024-03-20 05:16:49",
@@ -26567,8 +26567,8 @@
         "release_message": "DecryptTools【T00ls专版】"
     },
     "http://www.hiencode.com/hash.html": {
-        "status_code": 200,
-        "description": "CTF在线工具-哈希计算|MD5、SHA1、SHA256、SHA384、SHA512、RIPEMD、RIPEMD160"
+        "status_code": 504,
+        "description": "404 Not Found"
     },
     "http://www.atoolbox.net/Tool.php?Id=1089": {
         "status_code": 200,
@@ -26579,8 +26579,8 @@
         "description": "CTFever Toolkit by uniiem"
     },
     "http://www.hiencode.com/atbash.html": {
-        "status_code": 200,
-        "description": "CTF在线工具-在线埃特巴什码加密|在线埃特巴什码解密|埃特巴什码算法|Atbash Cipher"
+        "status_code": 504,
+        "description": "404 Not Found"
     },
     "http://tool.chacuo.net/cryptcast": {
         "status_code": 200,
@@ -26591,16 +26591,16 @@
         "description": "栅栏加密/解密 - Bugku CTF"
     },
     "http://www.hiencode.com/affine.html": {
-        "status_code": 200,
-        "description": "CTF在线工具-在线仿射密码加密|在线仿射密码解密|仿射密码算法|Affine Cipher"
+        "status_code": 504,
+        "description": "404 Not Found"
     },
     "http://www.hiencode.com/base62.html": {
-        "status_code": 200,
-        "description": "CTF在线工具-在线base62编码|在线base62解码|base62编码|base62解码"
+        "status_code": 504,
+        "description": "404 Not Found"
     },
     "http://www.hiencode.com/beaufort.html": {
-        "status_code": 200,
-        "description": "CTF在线工具-在线博福特密码加密|在线博福特密码解密|博福特密码算法|Beaufort Cipher"
+        "status_code": 504,
+        "description": "404 Not Found"
     },
     "https://c5r.app/tools/brain-fuck": {
         "status_code": 200,
@@ -26611,20 +26611,20 @@
         "description": "由Exponent(指数)、Modulus(模数)生成Rsa 公钥 public key--查错网"
     },
     "http://www.hiencode.com/vigenere.html": {
-        "status_code": 200,
-        "description": "CTF在线工具-在线维吉尼亚密码加密|在线维吉尼亚解密|维吉尼亚密码算法|Vigenere Cipher"
+        "status_code": 504,
+        "description": "404 Not Found"
     },
     "http://www.atoolbox.net/Tool.php?Id=1027": {
         "status_code": 200,
         "description": "与佛论禅加密/解密 - 一个工具箱 - 好用的在线工具都在这里！"
     },
     "http://www.hiencode.com/tdes.html": {
-        "status_code": 200,
-        "description": "CTF在线工具-Triple DES在线加解密|Triple DES在线加密|Triple DES在线解密|Triple DES encryption|Triple DES decryption"
+        "status_code": 504,
+        "description": "404 Not Found"
     },
     "http://www.hiencode.com/adfgx.html": {
-        "status_code": 200,
-        "description": "CTF在线工具-在线ADFGX密码加密|在线ADFGX密码解密|ADFGX密码算法|ADFGX Cipher"
+        "status_code": 504,
+        "description": "404 Not Found"
     },
     "http://www.atoolbox.net/Tool.php?Id=931": {
         "status_code": 200,
@@ -26647,8 +26647,8 @@
         "description": "ADFGX密码加密/解密 - 一个工具箱 - 好用的在线工具都在这里！"
     },
     "http://www.hiencode.com/runkey.html": {
-        "status_code": 200,
-        "description": "CTF在线工具-在线滚动密钥加密|在线滚动密钥解密|滚动密钥密码算法|Running Key Cipher"
+        "status_code": 504,
+        "description": "404 Not Found"
     },
     "https://ctf.bugku.com/tool/base85": {
         "status_code": 200,
@@ -26659,24 +26659,24 @@
         "description": "在线RC2加密解密、RC2在线加密解密、RC2 encryption and decryption--查错网"
     },
     "http://www.hiencode.com/simple.html": {
-        "status_code": 200,
-        "description": "CTF在线工具-在线简单换位密码加密|在线简单换位解密|简单换位密码算法|Simple Substitution Cipher"
+        "status_code": 504,
+        "description": "404 Not Found"
     },
     "https://ctf.bugku.com/tool/vigenere": {
         "status_code": 200,
         "description": "维吉尼亚加密/解密 - Bugku CTF"
     },
     "http://www.hiencode.com/pub_asys.html": {
-        "status_code": 200,
-        "description": "SSL在线工具-公钥解析"
+        "status_code": 504,
+        "description": "404 Not Found"
     },
     "http://www.hiencode.com/pigpen.html": {
-        "status_code": 200,
-        "description": "CTF在线工具-在线猪圈密码加密|在线猪圈密码解密|猪圈密码算法|Pigpen Cipher"
+        "status_code": 504,
+        "description": "404 Not Found"
     },
     "http://www.hiencode.com/priv_asys.html": {
-        "status_code": 200,
-        "description": "CTF在线工具-在线私钥解析|在线私钥提取|私钥在线破解|私钥信息提取"
+        "status_code": 504,
+        "description": "404 Not Found"
     },
     "http://tool.chacuo.net/cryptrsapkcs1pkcs8": {
         "status_code": 200,
@@ -26691,40 +26691,40 @@
         "description": "在线RSA私钥密码清除、删除RSA私钥密码、rsa private key password removal--查错网"
     },
     "http://www.hiencode.com/a1z26.html": {
-        "status_code": 200,
-        "description": "CTF在线工具-在线A1z26加密|在线A1z26解密|A1z26密码算法|Keyword Cipher"
+        "status_code": 504,
+        "description": "404 Not Found"
     },
     "http://www.hiencode.com/rc4.html": {
-        "status_code": 200,
-        "description": "CTF在线工具-RC4在线加解密|RC4在线加密|RC4在线解密|RC4 encryption|RC4 decryption"
+        "status_code": 504,
+        "description": "404 Not Found"
     },
     "http://www.hiencode.com/base85.html": {
-        "status_code": 200,
-        "description": "CTF在线工具-在线base85编码|在线base85解码|base85编码|base85解码"
+        "status_code": 504,
+        "description": "404 Not Found"
     },
     "http://www.hiencode.com/base64.html": {
-        "status_code": 200,
-        "description": "CTF在线工具-在线base编码|在线base解码|base16编码|base32编码|base64编码"
+        "status_code": 504,
+        "description": "404 Not Found"
     },
     "http://www.atoolbox.net/Tool.php?Id=919": {
         "status_code": 200,
         "description": "同音替代密码加密/解密 - 一个工具箱 - 好用的在线工具都在这里！"
     },
     "http://www.hiencode.com/gronsfeld.html": {
-        "status_code": 200,
-        "description": "CTF在线工具-在线Gronsfeld密码加密|在线Gronsfeld密码解密|Gronsfeld密码算法|Gronsfeld Cipher"
+        "status_code": 504,
+        "description": "404 Not Found"
     },
     "http://tool.chacuo.net/crypttwofish": {
         "status_code": 200,
         "description": "在线Twofish加密解密、Twofish在线加密解密、Twofish encryption and decryption--查错网"
     },
     "http://www.hiencode.com/base92.html": {
-        "status_code": 200,
-        "description": "CTF在线工具-在线base92编码|在线base92解码|base92编码|base92解码"
+        "status_code": 504,
+        "description": "404 Not Found"
     },
     "http://www.hiencode.com/colum.html": {
-        "status_code": 200,
-        "description": "CTF在线工具-在线列移位密码加密|在线列移位密码解密|列移位密码算法|Columnar Transposition Cipher"
+        "status_code": 504,
+        "description": "404 Not Found"
     },
     "http://www.atoolbox.net/Tool.php?Id=934": {
         "status_code": 200,
@@ -26739,28 +26739,28 @@
         "description": "在线Xtea加密解密、Xtea在线加密解密、Xtea encryption and decryption--查错网"
     },
     "http://www.hiencode.com/mimetypes.html": {
-        "status_code": 200,
-        "description": "CTF在线工具-Mimetypes|http消息头应用类型"
+        "status_code": 504,
+        "description": "404 Not Found"
     },
     "http://www.hiencode.com/base36w.html": {
-        "status_code": 200,
-        "description": "CTF在线工具-在线base36编码|在线base36解码|base36编码|base36解码"
+        "status_code": 504,
+        "description": "404 Not Found"
     },
     "http://www.hiencode.com/escape.html": {
-        "status_code": 200,
-        "description": "CTF在线工具-在线Escape编码|在线Escape解码"
+        "status_code": 504,
+        "description": "404 Not Found"
     },
     "https://tool.yuanrenxue.cn/decode_obfuscator": {
         "status_code": 200,
         "description": "解混淆测试版"
     },
     "http://www.hiencode.com/url.html": {
-        "status_code": 200,
-        "description": "CTF在线工具-在线URL编码|URL解码"
+        "status_code": 504,
+        "description": "404 Not Found"
     },
     "http://www.hiencode.com/playfair.html": {
-        "status_code": 200,
-        "description": "CTF在线工具-在线普莱菲尔密码加密|在线普莱菲尔密码解密|普莱菲尔密码算法|Playfair Cipher"
+        "status_code": 504,
+        "description": "404 Not Found"
     },
     "https://ctf.bugku.com/tool/base91": {
         "status_code": 200,
@@ -26771,8 +26771,8 @@
         "description": "RSA公私钥分解 Exponent、Modulus，Rsa公私钥指数、系数(模数)分解--查错网"
     },
     "http://www.hiencode.com/railfence.html": {
-        "status_code": 200,
-        "description": "CTF在线工具-在线栅栏密码加密|在线栅栏密码解密|栅栏密码算法|Railfence Cipher"
+        "status_code": 504,
+        "description": "404 Not Found"
     },
     "http://www.atoolbox.net/Tool.php?Id=921": {
         "status_code": 200,
@@ -26787,8 +26787,8 @@
         "description": "BASE62编码解码 - Bugku CTF"
     },
     "http://www.hiencode.com/autokey.html": {
-        "status_code": 200,
-        "description": "CTF在线工具-在线自动密钥密码加密|在线自动密钥密码解密|自动密钥密码算法|Autokey Cipher"
+        "status_code": 504,
+        "description": "404 Not Found"
     },
     "https://ctf.bugku.com/tool/base64": {
         "status_code": 200,
@@ -26815,8 +26815,8 @@
         "description": "ADFGX密码 - Bugku CTF"
     },
     "http://www.hiencode.com/tapcode.html": {
-        "status_code": 200,
-        "description": "CTF在线工具-在线敲击码|敲击码编码|敲击码算法|tap code"
+        "status_code": 504,
+        "description": "404 Not Found"
     },
     "https://ctf.bugku.com/tool/uuencode": {
         "status_code": 200,
@@ -26831,24 +26831,24 @@
         "description": "CTFever Toolkit by uniiem"
     },
     "http://www.hiencode.com/porta.html": {
-        "status_code": 200,
-        "description": "CTF在线工具-在线Porta密码加密|在线Porta密码解密|Porta密码算法|Porta Cipher"
+        "status_code": 504,
+        "description": "404 Not Found"
     },
     "http://tool.chacuo.net/cryptrc5": {
         "status_code": 200,
         "description": "在线RC5加密解密、RC5在线加密解密、RC5 encryption and decryption--查错网"
     },
     "http://www.hiencode.com/base91.html": {
-        "status_code": 200,
-        "description": "CTF在线工具-在线base91编码|在线base91解码|base91编码|base91解码"
+        "status_code": 504,
+        "description": "404 Not Found"
     },
     "http://tool.chacuo.net/cryptrijndael": {
         "status_code": 200,
         "description": "在线Rijndael加密解密、Rijndael在线加密解密、Rijndael encryption and decryption--查错网"
     },
     "http://www.hiencode.com/morse.html": {
-        "status_code": 200,
-        "description": "CTF在线工具-在线莫尔斯电码编码|在线莫尔斯电码解码|莫尔斯电码算法|Morse"
+        "status_code": 504,
+        "description": "404 Not Found"
     },
     "https://c5r.app/tools/pseudo-encrypted-zip-check": {
         "status_code": 200,
@@ -26859,8 +26859,8 @@
         "description": "BASE58编码解码 - Bugku CTF"
     },
     "http://www.hiencode.com/web_socket.html": {
-        "status_code": 200,
-        "description": "CTF在线工具-在线查看HTTP/HTTPS响应消息头|HTTP Response"
+        "status_code": 504,
+        "description": "404 Not Found"
     },
     "http://tool.chacuo.net/cryptgetpubkey": {
         "status_code": 200,
@@ -26871,16 +26871,16 @@
         "description": "核心价值观编码 - Bugku CTF"
     },
     "http://www.hiencode.com/html_en.html": {
-        "status_code": 200,
-        "description": "CTF在线工具-在线HTML编码|在线HTML解码"
+        "status_code": 504,
+        "description": "404 Not Found"
     },
     "http://tool.chacuo.net/cryptrsakeyvalid": {
         "status_code": 200,
         "description": "在线RSA公私密钥校验、RSA公私密钥检查、Online RSA public-private key verification--查错网"
     },
     "http://www.hiencode.com/caes.html": {
-        "status_code": 200,
-        "description": "CTF在线工具-AES在线加解密|AES在线加密|AES在线解密|AES encryption|AES decryption"
+        "status_code": 504,
+        "description": "404 Not Found"
     },
     "https://ctf.bugku.com/tool/brainfuck": {
         "status_code": 200,
@@ -26895,8 +26895,8 @@
         "description": "在线DSA密钥对、DSA公钥私钥对生成、DSA Key pair create、生成DSA密钥对--查错网"
     },
     "http://www.hiencode.com/keyword.html": {
-        "status_code": 200,
-        "description": "CTF在线工具-在线关键字加密|在线关键字解密|关键字密码算法|Keyword Cipher"
+        "status_code": 504,
+        "description": "404 Not Found"
     },
     "http://tool.chacuo.net/cryptrc4": {
         "status_code": 200,
@@ -26911,36 +26911,36 @@
         "description": "Base16编码/解码 - 一个工具箱 - 好用的在线工具都在这里！"
     },
     "http://www.hiencode.com/baconian.html": {
-        "status_code": 200,
-        "description": "CTF在线工具-在线培根密码加密|在线培根密码解密|培根密码算法|Baconian Cipher"
+        "status_code": 504,
+        "description": "404 Not Found"
     },
     "http://www.hiencode.com/quoted.html": {
-        "status_code": 200,
-        "description": "CTF在线工具-在线Quoted-printable编码|在线Quoted-printable编码|邮件编码|mail编码"
+        "status_code": 504,
+        "description": "404 Not Found"
     },
     "http://www.hiencode.com/adfgvx.html": {
-        "status_code": 200,
-        "description": "CTF在线工具-在线ADFGVX密码加密|在线ADFGVX密码解密|ADFGVX密码算法|ADFGVX Cipher"
+        "status_code": 504,
+        "description": "404 Not Found"
     },
     "http://www.atoolbox.net/Tool.php?Id=993": {
         "status_code": 200,
         "description": "恩尼格玛密码机密码加密/解密 - 一个工具箱 - 好用的在线工具都在这里！"
     },
     "http://www.hiencode.com/http_head.html": {
-        "status_code": 200,
-        "description": "CTF在线工具-在线查看HTTP/HTTPS响应消息头|HTTP Response"
+        "status_code": 502,
+        "description": "502 Bad Gateway"
     },
     "http://www.atoolbox.net/Tool.php?Id=936": {
         "status_code": 200,
         "description": "Base100编码/解码 - 一个工具箱 - 好用的在线工具都在这里！"
     },
     "http://www.hiencode.com/jinzhi.html": {
-        "status_code": 200,
-        "description": "CTF在线工具-ASCII与进制转换|任意进制转换|ASCII、2进制、8进制、10进制、16进制"
+        "status_code": 504,
+        "description": "404 Not Found"
     },
     "http://www.hiencode.com/punycode.html": {
-        "status_code": 200,
-        "description": "CTF在线工具-在线Punycode编码|Punycode解码|Punycode编码原理|Punycode编码算法"
+        "status_code": 504,
+        "description": "404 Not Found"
     },
     "http://www.atoolbox.net/Tool.php?Id=1050": {
         "status_code": 200,
@@ -26955,8 +26955,8 @@
         "description": "Base91编码/解码 - 一个工具箱 - 好用的在线工具都在这里！"
     },
     "http://www.hiencode.com/bifid.html": {
-        "status_code": 200,
-        "description": "CTF在线工具-在线双密码加密|在线双密码解密|双密码算法|Bifid Cipher"
+        "status_code": 504,
+        "description": "404 Not Found"
     },
     "https://ctf.bugku.com/tool/base32": {
         "status_code": 200,
@@ -26967,8 +26967,8 @@
         "description": "Type7密码加密/解密 - 一个工具箱 - 好用的在线工具都在这里！"
     },
     "http://www.hiencode.com/base58w.html": {
-        "status_code": 200,
-        "description": "CTF在线工具-在线base58编码|在线base58解码|base58编码|base58解码|base58check"
+        "status_code": 504,
+        "description": "404 Not Found"
     },
     "http://web.chacuo.net/netrsakeypair": {
         "status_code": 200,
@@ -26983,8 +26983,8 @@
         "description": "在线RC6加密解密、RC6在线加密解密、RC6 encryption and decryption--查错网"
     },
     "http://www.hiencode.com/rot13.html": {
-        "status_code": 200,
-        "description": "CTF在线工具-在线Rot13密码加密|在线Rot13密码解密|Rot13密码算法|Rot13 Cipher"
+        "status_code": 504,
+        "description": "404 Not Found"
     },
     "https://github.com/LinWin-Cloud/Easy-DDOS": {
         "created_at": "2024-02-12 12:34:14",
@@ -27074,7 +27074,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "172.200.199.165属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "172.203.161.81属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
@@ -27467,12 +27467,12 @@
         "commit_date": "2020-05-27 08:36:02"
     },
     "https://github.com/efchatz/pandora": {
-        "created_at": "2024-04-30 18:44:00",
+        "created_at": "2024-06-12 16:15:35",
         "description": "A red team tool that assists into extracting/dumping master credentials and/or entries from different password managers.",
-        "commit_message": "Delete headers/core/FindPlugin.h",
-        "commit_date": "2024-04-30 18:44:00",
-        "release_date": "2024-04-30 18:44:57",
-        "release_message": "Delete duplicate file"
+        "commit_message": "Update README.md",
+        "commit_date": "2024-06-12 16:15:35",
+        "release_date": "2024-06-12 16:16:53",
+        "release_message": "Include a Repetitiveness example in the Roboform app."
     },
     "https://github.com/ARPSyndicate/kenzer-templates": {
         "created_at": "2020-09-18 21:03:28",
