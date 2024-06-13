@@ -6342,7 +6342,7 @@
         "release_message": " This is a hotfix release. It fixes the following bugs:\r\n \r\n   * #6322 Fixed a crash on launch on macOS 11 and older.\r\n   * #6324 Fixed the update notification looking for alpha versions instead of release versions.\r\n   * #6321 Fixed a freeze when using macros on multiple files."
     },
     "https://github.com/0Chencc/CTFCrackTools": {
-        "created_at": "2016-08-26 08:19:35",
+        "created_at": "2022-11-16 22:23:09",
         "description": "China's first CTFTools framework.中国国内首个CTF工具框架,旨在帮助CTFer快速攻克难关",
         "commit_date": "2024-03-26 08:58:33",
         "commit_message": "Merge pull request #47 from y1nsei/patch-1\n\nUpdate PythonFunc.kt",
@@ -24248,7 +24248,7 @@
         "release_message": ""
     },
     "https://github.com/bcvgh/daydayEXP": {
-        "created_at": "2024-02-04 09:33:59",
+        "created_at": "2023-08-18 01:21:53",
         "description": "支持自定义Poc文件的图形化漏洞利用工具",
         "commit_message": "Update README.md",
         "commit_date": "2024-03-26 07:52:06",
@@ -24758,8 +24758,8 @@
         "description": "电报码在线翻译（国际摩尔斯电码及中文电码） - 千千秀字"
     },
     "http://www.hiencode.com/aaencode.html": {
-        "status_code": 502,
-        "description": "502 Bad Gateway"
+        "status_code": 200,
+        "description": "CTF在线工具-在线AAencode编码|AA编码|AAencode解码|AAencode编码原理|AAencode编码算法"
     },
     "https://www.shellpub.com/": {
         "status_code": 200,
@@ -24810,8 +24810,8 @@
         "description": "[~]#棱角 ::Edge.Forum*"
     },
     "http://ctf.ssleye.com/pigpen.html": {
-        "status_code": 504,
-        "description": "404 Not Found"
+        "status_code": 200,
+        "description": "CTF在线工具-在线猪圈密码加密|在线猪圈密码解密|猪圈密码算法|Pigpen Cipher"
     },
     "https://www.qqxiuzi.cn/bianma/rot5-13-18-47.php": {
         "status_code": 404,
@@ -24838,8 +24838,8 @@
         "description": "Overview - Process Hacker"
     },
     "http://www.hiencode.com/bubble.html": {
-        "status_code": 504,
-        "description": "404 Not Found"
+        "status_code": 200,
+        "description": "CTF在线工具-在线BubbleBabble编码|Bubble编码|BubbleBabble解码|BubbleBabble编码原理|BubbleBabble编码算法"
     },
     "http://rootkiter.com/Termite/": {
         "status_code": 200,
@@ -24866,16 +24866,16 @@
         "description": "Sysinternals 实用工具 - Sysinternals | Microsoft Learn"
     },
     "http://www.hiencode.com/jsfuck.html": {
-        "status_code": 504,
-        "description": "404 Not Found"
+        "status_code": 200,
+        "description": "CTF在线工具-在线JSfuck加密|在线JSfuck解密|JSfuck|JSfuck原理|JSfuck算法"
     },
     "https://the-x.cn/encodings/Hex.aspx": {
         "status_code": 200,
         "description": "HEX转字符 十六进制转字符  hex gb2312 gbk utf8 汉字内码转换 - The X 在线工具"
     },
     "http://www.hiencode.com/xxencode.html": {
-        "status_code": 504,
-        "description": "404 Not Found"
+        "status_code": 200,
+        "description": "CTF在线工具-在线XXencode编码|XX编码|XXencode解码|XXencode编码原理|XXencode编码算法"
     },
     "https://www.d99net.net/": {
         "status_code": 200,
@@ -24914,16 +24914,16 @@
         "description": "希尔(Hill Cipher)加密/解密 - Bugku CTF"
     },
     "http://www.hiencode.com/": {
-        "status_code": 504,
-        "description": "404 Not Found"
+        "status_code": 200,
+        "description": "CTF在线工具-CTF工具|CTF编码|CTF密码学|CTF加解密|程序员工具|在线编解码"
     },
     "https://www.boxentriq.com/code-breaking/affine-cipher": {
         "status_code": 200,
         "description": "Affine Cipher (online tool) | Boxentriq"
     },
     "http://www.hiencode.com/jjencode.html": {
-        "status_code": 504,
-        "description": "404 Not Found"
+        "status_code": 200,
+        "description": "CTF在线工具-在线JJencode编码|JJ编码|JJencode解码|JJencode编码原理|JJencode编码算法"
     },
     "https://ctf.bugku.com/tool/base100": {
         "status_code": 200,
@@ -24942,8 +24942,8 @@
         "description": "Triple DES(3DES)加密/解密 - Bugku CTF"
     },
     "http://ctf.ssleye.com/tapcode.html": {
-        "status_code": 504,
-        "description": "404 Not Found"
+        "status_code": 200,
+        "description": "CTF在线工具-在线敲击码|敲击码编码|敲击码算法|tap code"
     },
     "http://utf-8.jp/public/aaencode.html": {
         "status_code": 200,
@@ -24982,12 +24982,12 @@
         "description": "Unicode Steganography with Zero-Width Characters"
     },
     "http://www.hiencode.com/brain.html": {
-        "status_code": 504,
-        "description": "404 Not Found"
+        "status_code": 200,
+        "description": "CTF在线工具-在线Brainfuck加密|在线Brainfuck解密|Brainfuck|Brainfuck原理|Brainfuck算法"
     },
     "http://www.hiencode.com/cvencode.html": {
-        "status_code": 504,
-        "description": "404 Not Found"
+        "status_code": 200,
+        "description": "CTF在线工具-在线核心价值观编码|核心价值观编码算法|Core Values Encoder"
     },
     "https://www.microsoft.com/en-us/download/details.aspx?id=24659": {
         "status_code": 200,
@@ -25162,8 +25162,8 @@
         "description": "新约佛论禅/佛曰加密 - 萌研社 - PcMoe!"
     },
     "http://www.hiencode.com/ppencode.html": {
-        "status_code": 504,
-        "description": "404 Not Found"
+        "status_code": 200,
+        "description": "CTF在线工具-在线PPencode编码|PP编码|PPencode编码原理|PPencode编码算法"
     },
     "https://zb3.me/malbolge-tools/": {
         "status_code": 200,
@@ -25218,16 +25218,16 @@
         "description": "Quoted-printable编码|Quoted-printable解码|Quoted-printable编码原理介绍--查错网"
     },
     "http://www.hiencode.com/uu.html": {
-        "status_code": 504,
-        "description": "404 Not Found"
+        "status_code": 200,
+        "description": "CTF在线工具-在线UUencode编码|UU编码|UUencode解码|UUencode编码原理|UUencode编码算法"
     },
     "https://ctf.bugku.com/tool/todousharp": {
         "status_code": 200,
         "description": "与佛论禅密码 - Bugku CTF"
     },
     "http://www.hiencode.com/handycode.html": {
-        "status_code": 504,
-        "description": "404 Not Found"
+        "status_code": 200,
+        "description": "CTF在线工具-在线handycode编码|handycode编码|handycode解码|handycode编码原理|handycode编码算法"
     },
     "https://smallpdf.com/cn": {
         "status_code": 200,
@@ -26501,8 +26501,8 @@
         "commit_date": "2016-06-26 03:11:52"
     },
     "http://www.hiencode.com/cdes.html": {
-        "status_code": 504,
-        "description": "404 Not Found"
+        "status_code": 200,
+        "description": "CTF在线工具-DES在线加解密|DES在线加密|DES在线解密|DES encryption|DES decryption"
     },
     "http://tool.chacuo.net/cryptserpent": {
         "status_code": 200,
@@ -26523,8 +26523,8 @@
         "description": "在线RSA私钥密码添加修改、添加修改RSA私钥密码、rsa private key password modify--查错网"
     },
     "http://www.hiencode.com/four.html": {
-        "status_code": 504,
-        "description": "404 Not Found"
+        "status_code": 200,
+        "description": "CTF在线工具-在线四方密码加密|在线四方密码解密|四方密码算法|Foursquare Cipher"
     },
     "https://github.com/cyberark/KubiScan": {
         "created_at": "2023-06-22 22:01:15",
@@ -26539,24 +26539,24 @@
         "description": "CTFever Toolkit by uniiem"
     },
     "http://www.hiencode.com/hex.html": {
-        "status_code": 504,
-        "description": "404 Not Found"
+        "status_code": 200,
+        "description": "CTF在线工具-Hex在线编码|Hex在线解码|十六进制编码转换"
     },
     "https://ctf.bugku.com/tool/base92": {
         "status_code": 200,
         "description": "BASE92编码解码 - Bugku CTF"
     },
     "http://www.hiencode.com/caesar.html": {
-        "status_code": 504,
-        "description": "404 Not Found"
+        "status_code": 200,
+        "description": "CTF在线工具-在线凯撒密码加密|在线凯撒密码解密|凯撒密码算法|Caesar Cipher"
     },
     "https://c5r.app/tools/bin-extractor": {
         "status_code": 200,
         "description": "CTFever Toolkit by uniiem"
     },
     "http://www.hiencode.com/cencode.html": {
-        "status_code": 504,
-        "description": "404 Not Found"
+        "status_code": 200,
+        "description": "CTF在线工具-ASCII编码转换|Unicode编码转换|Native编码转换|UTF-16|UTF-32"
     },
     "https://github.com/wafinfo/DecryptTools": {
         "created_at": "2024-03-20 05:16:49",
@@ -26567,8 +26567,8 @@
         "release_message": "DecryptTools【T00ls专版】"
     },
     "http://www.hiencode.com/hash.html": {
-        "status_code": 504,
-        "description": "404 Not Found"
+        "status_code": 200,
+        "description": "CTF在线工具-哈希计算|MD5、SHA1、SHA256、SHA384、SHA512、RIPEMD、RIPEMD160"
     },
     "http://www.atoolbox.net/Tool.php?Id=1089": {
         "status_code": 200,
@@ -26579,8 +26579,8 @@
         "description": "CTFever Toolkit by uniiem"
     },
     "http://www.hiencode.com/atbash.html": {
-        "status_code": 504,
-        "description": "404 Not Found"
+        "status_code": 200,
+        "description": "CTF在线工具-在线埃特巴什码加密|在线埃特巴什码解密|埃特巴什码算法|Atbash Cipher"
     },
     "http://tool.chacuo.net/cryptcast": {
         "status_code": 200,
@@ -26591,16 +26591,16 @@
         "description": "栅栏加密/解密 - Bugku CTF"
     },
     "http://www.hiencode.com/affine.html": {
-        "status_code": 504,
-        "description": "404 Not Found"
+        "status_code": 200,
+        "description": "CTF在线工具-在线仿射密码加密|在线仿射密码解密|仿射密码算法|Affine Cipher"
     },
     "http://www.hiencode.com/base62.html": {
-        "status_code": 504,
-        "description": "404 Not Found"
+        "status_code": 200,
+        "description": "CTF在线工具-在线base62编码|在线base62解码|base62编码|base62解码"
     },
     "http://www.hiencode.com/beaufort.html": {
-        "status_code": 504,
-        "description": "404 Not Found"
+        "status_code": 200,
+        "description": "CTF在线工具-在线博福特密码加密|在线博福特密码解密|博福特密码算法|Beaufort Cipher"
     },
     "https://c5r.app/tools/brain-fuck": {
         "status_code": 200,
@@ -26611,20 +26611,20 @@
         "description": "由Exponent(指数)、Modulus(模数)生成Rsa 公钥 public key--查错网"
     },
     "http://www.hiencode.com/vigenere.html": {
-        "status_code": 504,
-        "description": "404 Not Found"
+        "status_code": 200,
+        "description": "CTF在线工具-在线维吉尼亚密码加密|在线维吉尼亚解密|维吉尼亚密码算法|Vigenere Cipher"
     },
     "http://www.atoolbox.net/Tool.php?Id=1027": {
         "status_code": 200,
         "description": "与佛论禅加密/解密 - 一个工具箱 - 好用的在线工具都在这里！"
     },
     "http://www.hiencode.com/tdes.html": {
-        "status_code": 504,
-        "description": "404 Not Found"
+        "status_code": 200,
+        "description": "CTF在线工具-Triple DES在线加解密|Triple DES在线加密|Triple DES在线解密|Triple DES encryption|Triple DES decryption"
     },
     "http://www.hiencode.com/adfgx.html": {
-        "status_code": 504,
-        "description": "404 Not Found"
+        "status_code": 200,
+        "description": "CTF在线工具-在线ADFGX密码加密|在线ADFGX密码解密|ADFGX密码算法|ADFGX Cipher"
     },
     "http://www.atoolbox.net/Tool.php?Id=931": {
         "status_code": 200,
@@ -26647,8 +26647,8 @@
         "description": "ADFGX密码加密/解密 - 一个工具箱 - 好用的在线工具都在这里！"
     },
     "http://www.hiencode.com/runkey.html": {
-        "status_code": 504,
-        "description": "404 Not Found"
+        "status_code": 200,
+        "description": "CTF在线工具-在线滚动密钥加密|在线滚动密钥解密|滚动密钥密码算法|Running Key Cipher"
     },
     "https://ctf.bugku.com/tool/base85": {
         "status_code": 200,
@@ -26659,24 +26659,24 @@
         "description": "在线RC2加密解密、RC2在线加密解密、RC2 encryption and decryption--查错网"
     },
     "http://www.hiencode.com/simple.html": {
-        "status_code": 504,
-        "description": "404 Not Found"
+        "status_code": 200,
+        "description": "CTF在线工具-在线简单换位密码加密|在线简单换位解密|简单换位密码算法|Simple Substitution Cipher"
     },
     "https://ctf.bugku.com/tool/vigenere": {
         "status_code": 200,
         "description": "维吉尼亚加密/解密 - Bugku CTF"
     },
     "http://www.hiencode.com/pub_asys.html": {
-        "status_code": 504,
-        "description": "404 Not Found"
+        "status_code": 200,
+        "description": "SSL在线工具-公钥解析"
     },
     "http://www.hiencode.com/pigpen.html": {
-        "status_code": 504,
-        "description": "404 Not Found"
+        "status_code": 200,
+        "description": "CTF在线工具-在线猪圈密码加密|在线猪圈密码解密|猪圈密码算法|Pigpen Cipher"
     },
     "http://www.hiencode.com/priv_asys.html": {
-        "status_code": 504,
-        "description": "404 Not Found"
+        "status_code": 200,
+        "description": "CTF在线工具-在线私钥解析|在线私钥提取|私钥在线破解|私钥信息提取"
     },
     "http://tool.chacuo.net/cryptrsapkcs1pkcs8": {
         "status_code": 200,
@@ -26691,40 +26691,40 @@
         "description": "在线RSA私钥密码清除、删除RSA私钥密码、rsa private key password removal--查错网"
     },
     "http://www.hiencode.com/a1z26.html": {
-        "status_code": 504,
-        "description": "404 Not Found"
+        "status_code": 200,
+        "description": "CTF在线工具-在线A1z26加密|在线A1z26解密|A1z26密码算法|Keyword Cipher"
     },
     "http://www.hiencode.com/rc4.html": {
-        "status_code": 504,
-        "description": "404 Not Found"
+        "status_code": 200,
+        "description": "CTF在线工具-RC4在线加解密|RC4在线加密|RC4在线解密|RC4 encryption|RC4 decryption"
     },
     "http://www.hiencode.com/base85.html": {
-        "status_code": 504,
-        "description": "404 Not Found"
+        "status_code": 200,
+        "description": "CTF在线工具-在线base85编码|在线base85解码|base85编码|base85解码"
     },
     "http://www.hiencode.com/base64.html": {
-        "status_code": 504,
-        "description": "404 Not Found"
+        "status_code": 200,
+        "description": "CTF在线工具-在线base编码|在线base解码|base16编码|base32编码|base64编码"
     },
     "http://www.atoolbox.net/Tool.php?Id=919": {
         "status_code": 200,
         "description": "同音替代密码加密/解密 - 一个工具箱 - 好用的在线工具都在这里！"
     },
     "http://www.hiencode.com/gronsfeld.html": {
-        "status_code": 504,
-        "description": "404 Not Found"
+        "status_code": 200,
+        "description": "CTF在线工具-在线Gronsfeld密码加密|在线Gronsfeld密码解密|Gronsfeld密码算法|Gronsfeld Cipher"
     },
     "http://tool.chacuo.net/crypttwofish": {
         "status_code": 200,
         "description": "在线Twofish加密解密、Twofish在线加密解密、Twofish encryption and decryption--查错网"
     },
     "http://www.hiencode.com/base92.html": {
-        "status_code": 504,
-        "description": "404 Not Found"
+        "status_code": 200,
+        "description": "CTF在线工具-在线base92编码|在线base92解码|base92编码|base92解码"
     },
     "http://www.hiencode.com/colum.html": {
-        "status_code": 504,
-        "description": "404 Not Found"
+        "status_code": 200,
+        "description": "CTF在线工具-在线列移位密码加密|在线列移位密码解密|列移位密码算法|Columnar Transposition Cipher"
     },
     "http://www.atoolbox.net/Tool.php?Id=934": {
         "status_code": 200,
@@ -26739,28 +26739,28 @@
         "description": "在线Xtea加密解密、Xtea在线加密解密、Xtea encryption and decryption--查错网"
     },
     "http://www.hiencode.com/mimetypes.html": {
-        "status_code": 504,
-        "description": "404 Not Found"
+        "status_code": 200,
+        "description": "CTF在线工具-Mimetypes|http消息头应用类型"
     },
     "http://www.hiencode.com/base36w.html": {
-        "status_code": 504,
-        "description": "404 Not Found"
+        "status_code": 200,
+        "description": "CTF在线工具-在线base36编码|在线base36解码|base36编码|base36解码"
     },
     "http://www.hiencode.com/escape.html": {
-        "status_code": 504,
-        "description": "404 Not Found"
+        "status_code": 200,
+        "description": "CTF在线工具-在线Escape编码|在线Escape解码"
     },
     "https://tool.yuanrenxue.cn/decode_obfuscator": {
         "status_code": 200,
         "description": "解混淆测试版"
     },
     "http://www.hiencode.com/url.html": {
-        "status_code": 504,
-        "description": "404 Not Found"
+        "status_code": 200,
+        "description": "CTF在线工具-在线URL编码|URL解码"
     },
     "http://www.hiencode.com/playfair.html": {
-        "status_code": 504,
-        "description": "404 Not Found"
+        "status_code": 200,
+        "description": "CTF在线工具-在线普莱菲尔密码加密|在线普莱菲尔密码解密|普莱菲尔密码算法|Playfair Cipher"
     },
     "https://ctf.bugku.com/tool/base91": {
         "status_code": 200,
@@ -26771,8 +26771,8 @@
         "description": "RSA公私钥分解 Exponent、Modulus，Rsa公私钥指数、系数(模数)分解--查错网"
     },
     "http://www.hiencode.com/railfence.html": {
-        "status_code": 504,
-        "description": "404 Not Found"
+        "status_code": 200,
+        "description": "CTF在线工具-在线栅栏密码加密|在线栅栏密码解密|栅栏密码算法|Railfence Cipher"
     },
     "http://www.atoolbox.net/Tool.php?Id=921": {
         "status_code": 200,
@@ -26787,8 +26787,8 @@
         "description": "BASE62编码解码 - Bugku CTF"
     },
     "http://www.hiencode.com/autokey.html": {
-        "status_code": 504,
-        "description": "404 Not Found"
+        "status_code": 200,
+        "description": "CTF在线工具-在线自动密钥密码加密|在线自动密钥密码解密|自动密钥密码算法|Autokey Cipher"
     },
     "https://ctf.bugku.com/tool/base64": {
         "status_code": 200,
@@ -26815,8 +26815,8 @@
         "description": "ADFGX密码 - Bugku CTF"
     },
     "http://www.hiencode.com/tapcode.html": {
-        "status_code": 504,
-        "description": "404 Not Found"
+        "status_code": 200,
+        "description": "CTF在线工具-在线敲击码|敲击码编码|敲击码算法|tap code"
     },
     "https://ctf.bugku.com/tool/uuencode": {
         "status_code": 200,
@@ -26831,24 +26831,24 @@
         "description": "CTFever Toolkit by uniiem"
     },
     "http://www.hiencode.com/porta.html": {
-        "status_code": 504,
-        "description": "404 Not Found"
+        "status_code": 200,
+        "description": "CTF在线工具-在线Porta密码加密|在线Porta密码解密|Porta密码算法|Porta Cipher"
     },
     "http://tool.chacuo.net/cryptrc5": {
         "status_code": 200,
         "description": "在线RC5加密解密、RC5在线加密解密、RC5 encryption and decryption--查错网"
     },
     "http://www.hiencode.com/base91.html": {
-        "status_code": 504,
-        "description": "404 Not Found"
+        "status_code": 200,
+        "description": "CTF在线工具-在线base91编码|在线base91解码|base91编码|base91解码"
     },
     "http://tool.chacuo.net/cryptrijndael": {
         "status_code": 200,
         "description": "在线Rijndael加密解密、Rijndael在线加密解密、Rijndael encryption and decryption--查错网"
     },
     "http://www.hiencode.com/morse.html": {
-        "status_code": 504,
-        "description": "404 Not Found"
+        "status_code": 200,
+        "description": "CTF在线工具-在线莫尔斯电码编码|在线莫尔斯电码解码|莫尔斯电码算法|Morse"
     },
     "https://c5r.app/tools/pseudo-encrypted-zip-check": {
         "status_code": 200,
@@ -26859,8 +26859,8 @@
         "description": "BASE58编码解码 - Bugku CTF"
     },
     "http://www.hiencode.com/web_socket.html": {
-        "status_code": 504,
-        "description": "404 Not Found"
+        "status_code": 200,
+        "description": "CTF在线工具-在线查看HTTP/HTTPS响应消息头|HTTP Response"
     },
     "http://tool.chacuo.net/cryptgetpubkey": {
         "status_code": 200,
@@ -26871,16 +26871,16 @@
         "description": "核心价值观编码 - Bugku CTF"
     },
     "http://www.hiencode.com/html_en.html": {
-        "status_code": 504,
-        "description": "404 Not Found"
+        "status_code": 200,
+        "description": "CTF在线工具-在线HTML编码|在线HTML解码"
     },
     "http://tool.chacuo.net/cryptrsakeyvalid": {
         "status_code": 200,
         "description": "在线RSA公私密钥校验、RSA公私密钥检查、Online RSA public-private key verification--查错网"
     },
     "http://www.hiencode.com/caes.html": {
-        "status_code": 504,
-        "description": "404 Not Found"
+        "status_code": 200,
+        "description": "CTF在线工具-AES在线加解密|AES在线加密|AES在线解密|AES encryption|AES decryption"
     },
     "https://ctf.bugku.com/tool/brainfuck": {
         "status_code": 200,
@@ -26895,8 +26895,8 @@
         "description": "在线DSA密钥对、DSA公钥私钥对生成、DSA Key pair create、生成DSA密钥对--查错网"
     },
     "http://www.hiencode.com/keyword.html": {
-        "status_code": 504,
-        "description": "404 Not Found"
+        "status_code": 200,
+        "description": "CTF在线工具-在线关键字加密|在线关键字解密|关键字密码算法|Keyword Cipher"
     },
     "http://tool.chacuo.net/cryptrc4": {
         "status_code": 200,
@@ -26911,36 +26911,36 @@
         "description": "Base16编码/解码 - 一个工具箱 - 好用的在线工具都在这里！"
     },
     "http://www.hiencode.com/baconian.html": {
-        "status_code": 504,
-        "description": "404 Not Found"
+        "status_code": 200,
+        "description": "CTF在线工具-在线培根密码加密|在线培根密码解密|培根密码算法|Baconian Cipher"
     },
     "http://www.hiencode.com/quoted.html": {
-        "status_code": 504,
-        "description": "404 Not Found"
+        "status_code": 200,
+        "description": "CTF在线工具-在线Quoted-printable编码|在线Quoted-printable编码|邮件编码|mail编码"
     },
     "http://www.hiencode.com/adfgvx.html": {
-        "status_code": 504,
-        "description": "404 Not Found"
+        "status_code": 200,
+        "description": "CTF在线工具-在线ADFGVX密码加密|在线ADFGVX密码解密|ADFGVX密码算法|ADFGVX Cipher"
     },
     "http://www.atoolbox.net/Tool.php?Id=993": {
         "status_code": 200,
         "description": "恩尼格玛密码机密码加密/解密 - 一个工具箱 - 好用的在线工具都在这里！"
     },
     "http://www.hiencode.com/http_head.html": {
-        "status_code": 502,
-        "description": "502 Bad Gateway"
+        "status_code": 200,
+        "description": "CTF在线工具-在线查看HTTP/HTTPS响应消息头|HTTP Response"
     },
     "http://www.atoolbox.net/Tool.php?Id=936": {
         "status_code": 200,
         "description": "Base100编码/解码 - 一个工具箱 - 好用的在线工具都在这里！"
     },
     "http://www.hiencode.com/jinzhi.html": {
-        "status_code": 504,
-        "description": "404 Not Found"
+        "status_code": 200,
+        "description": "CTF在线工具-ASCII与进制转换|任意进制转换|ASCII、2进制、8进制、10进制、16进制"
     },
     "http://www.hiencode.com/punycode.html": {
-        "status_code": 504,
-        "description": "404 Not Found"
+        "status_code": 200,
+        "description": "CTF在线工具-在线Punycode编码|Punycode解码|Punycode编码原理|Punycode编码算法"
     },
     "http://www.atoolbox.net/Tool.php?Id=1050": {
         "status_code": 200,
@@ -26955,8 +26955,8 @@
         "description": "Base91编码/解码 - 一个工具箱 - 好用的在线工具都在这里！"
     },
     "http://www.hiencode.com/bifid.html": {
-        "status_code": 504,
-        "description": "404 Not Found"
+        "status_code": 200,
+        "description": "CTF在线工具-在线双密码加密|在线双密码解密|双密码算法|Bifid Cipher"
     },
     "https://ctf.bugku.com/tool/base32": {
         "status_code": 200,
@@ -26967,8 +26967,8 @@
         "description": "Type7密码加密/解密 - 一个工具箱 - 好用的在线工具都在这里！"
     },
     "http://www.hiencode.com/base58w.html": {
-        "status_code": 504,
-        "description": "404 Not Found"
+        "status_code": 200,
+        "description": "CTF在线工具-在线base58编码|在线base58解码|base58编码|base58解码|base58check"
     },
     "http://web.chacuo.net/netrsakeypair": {
         "status_code": 200,
@@ -26983,8 +26983,8 @@
         "description": "在线RC6加密解密、RC6在线加密解密、RC6 encryption and decryption--查错网"
     },
     "http://www.hiencode.com/rot13.html": {
-        "status_code": 504,
-        "description": "404 Not Found"
+        "status_code": 200,
+        "description": "CTF在线工具-在线Rot13密码加密|在线Rot13密码解密|Rot13密码算法|Rot13 Cipher"
     },
     "https://github.com/LinWin-Cloud/Easy-DDOS": {
         "created_at": "2024-02-12 12:34:14",
@@ -27074,7 +27074,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "172.203.161.81属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "172.183.91.174属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
