@@ -1001,7 +1001,7 @@
         "created_at": "2024-04-15 15:55:15",
         "description": "iDefender（冰盾 - 终端主动防御系统）",
         "commit_message": "update",
-        "commit_date": "2024-06-02 02:17:15",
+        "commit_date": "2024-06-10 16:08:54",
         "release_date": "2024-05-04 13:40:56",
         "release_message": "\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n### 4.2.0.0\r\n\r\n主要优化使用体验和BUG修复，重要版本，建议更新！\r\n\r\n- iMonitorSDK\r\n  - 添加进程篡改事件（Process Hollowing、Process Doppelganging、Process Ghosting 等）\r\n  - 添加镜像篡改事件 （傀儡进程、内存篡改）\r\n  - 添加跨进程模块加载事件\r\n  - 优化远程注入（支持识别注入的动态库路径）\r\n  - 文件隐藏支持进程白名单\r\n  - 进程信息添加原始文件名字段\r\n  - 修复自保护导致FontCache打不开被保护进程问题\r\n- 内置规则\r\n  - 添加增强防御忽略名单\r\n  - **添加资源管理器加固（可以拦截APC注入到explorer.exe)**\r\n  - **添加远程线程注入检测（支持识别注入的动态库路径）**\r\n  - 添加进程文件篡改检测\r\n  - 添加远程镜像注入检测\r\n  - 添加进程内存篡改检测\r\n  - 添加父进程伪造检测\r\n  - 修复一些误报\r\n- 第三方规则\r\n  - 精简优化、减少误报\r\n- 拦截记录\r\n  - 日历添加今日按钮\r\n  - 支持记住上次调整的宽度\r\n  - 拦截记录添加信任进程目标组合\r\n- 询问弹窗\r\n  - 修复信任的命令行取错成数字签名问题\r\n  - 优化弹窗速度和位置计算\r\n- 规则编辑\r\n  - 参数支持多选复制\r\n  - 修复操作目标拖曳后导致操作丢失的问题\r\n- 响应动作\r\n  - 添加询问（默认结束进程）选项\r\n- 规则模板\r\n  - 添加屏幕截图模板\r\n  - 添加设备操作拦截模板（高级规则）\r\n- 规则市场\r\n  - **导入的规则支持增量更新（合并信任列表）**\r\n- 其他\r\n  - **添加专业版功能**\r\n  - 优化启动性能\r\n  - 优化规则编辑性能\r\n  - 开启密码保护后，退出需要输入密码\r\n\r\n- 修复和优化\r\n\r\n  - **修复特定场景下内存泄漏问题**\r\n\r\n  - 修复开启密码保护，开机会弹密码框的问题\r\n\r\n  - 修复参数零宽字符导致匹配失败问题\r\n\r\n  - 修复跟360的兼容性问题\r\n\r\n  - 修复数据库被锁导致无法正常写入拦截记录的问题\r\n\r\n  - 进程创建记录详情里面添加命令行\r\n\r\n  - 修复Server2008R2服务管理器列表为空的问题\r\n\r\n  - 修复结束进程过程还有对应进程事件的问题\r\n\r\n  - 优化Classes注册表项的重定向问题\r\n\r\n  - 其他问题修复和使用优化\r\n\r\n\r\n\r\n\r\n\r\n\r\n下载： https://trustsing.com/idefender/#_4-2-0-0\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n"
     },
@@ -1978,8 +1978,8 @@
     "https://github.com/bit4woo/knife": {
         "created_at": "2024-05-06 10:51:08",
         "description": "A burp extension that add some useful function to  Context Menu 添加一些右键菜单让burp用起来更顺畅",
-        "commit_date": "2024-05-22 11:13:12",
-        "commit_message": "update",
+        "commit_date": "2024-06-03 05:17:06",
+        "commit_message": "中文Tab分页显示",
         "release_tag": "v2.2",
         "release_date": "2024-05-06 10:55:56",
         "release_message": "FindUrlAndRequest菜单功能更新\r\n新增2个菜单：CopyJsOfThisSite、ChangeToUploadRequest\r\n代码优化，修复多个bug\r\n将SQLMap和Nmap等执行命令的功能合并为 “run cmd”功能，支持添加自定义命令\r\nChineseTab重写，支持语法高亮和自动换行，方便阅读\r\n支持配置项搜索和多选操作"
@@ -3258,11 +3258,11 @@
         "release_message": ""
     },
     "https://github.com/bytedance/Elkeid": {
-        "created_at": "2024-05-24 04:22:45",
+        "created_at": "2024-06-12 07:18:26",
         "description": "Elkeid is an open source solution that can meet the security requirements of various workloads such as hosts, containers and K8s, and serverless. It is derived from ByteDance's internal best practices.",
         "commit_message": "Merge pull request #633 from bytedance/feai-python-m\n\nfeat python m flag inspect",
         "commit_date": "2024-06-07 08:13:52",
-        "release_date": "2024-05-27 04:05:41",
+        "release_date": "2024-06-12 07:31:40",
         "release_message": ""
     },
     "https://github.com/knownsec/ct": {
@@ -3916,12 +3916,12 @@
         "release_message": "## Network Flight Simulator v2.5.0 (2023-07-31)\r\n\r\nThis release add a new `cleartext` module, which generates random cleartext traffic on some common ports.\r\n\r\n## Enjoy!\r\n\r\n"
     },
     "https://github.com/aquasecurity/trivy": {
-        "created_at": "2019-04-11 01:01:07",
+        "created_at": "2024-06-10 08:34:00",
         "description": "Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more",
-        "commit_message": "chore(deps): bump alpine from 3.19.1 to 3.20.0 in the docker group (#6835)\n\nSigned-off-by: dependabot[bot] <support@github.com>\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
-        "commit_date": "2024-06-02 17:57:31",
-        "release_date": "2024-05-24 12:21:40",
-        "release_message": "## Changelog\n* c06f467e6 chore: downgrade trivy-checks and trivy-aws\n* df4f7604a build: use main package instead of main.go (#6766)\n* bf7a8ede3 chore(deps): bump the common group across 1 directory with 29 updates (#6756)\n* acb22c60a chore(deps): bump the aws group with 8 updates (#6738)\n* 9a3510ffd chore(deps): bump the docker group with 2 updates (#6739)\n* 7806b37e2 ci: add `generic` dir to deb deploy script (#6636)\n\n"
+        "commit_message": "feat(sbom): migrate to `CycloneDX v1.6` (#6903)",
+        "commit_date": "2024-06-11 07:41:07",
+        "release_date": "2024-06-10 10:41:06",
+        "release_message": "## Changelog\n* a3caf0658 release: v0.52.1 [release/v0.52] (#6877)\n* 01dbb42ae fix(nodejs): fix infinite loop when package link from `package-lock.json` file is broken [backport: release/v0.52] (#6888)\n* f186d22bf fix(sbom): don't overwrite `srcEpoch` when decoding SBOM files [backport: release/v0.52] (#6881)\n* 093c0ae02 fix(python): compare pkg names from `poetry.lock` and `pyproject.toml` in lowercase [backport: release/v0.52] (#6878)\n* 6bfda7602 Merge pull request #6879 from aquasecurity/backport-pr-6864-to-release/v0.52\n* 53850c8b2 docs: explain how VEX is applied (#6864)\n* 221196202 Merge pull request #6875 from aquasecurity/backport-pr-6857-to-release/v0.52\n* a614b693d fix(nodejs): fix infinity loops for `pnpm` with cyclic imports (#6857)\n\n"
     },
     "https://github.com/anchore/grype": {
         "created_at": "2024-05-28 17:53:19",
@@ -5644,8 +5644,8 @@
     "https://github.com/fatedier/frp": {
         "created_at": "2024-05-31 06:35:08",
         "description": "A fast reverse proxy to help you expose a local server behind a NAT or firewall to the internet.",
-        "commit_message": "add sponsor (#4265)",
-        "commit_date": "2024-06-05 08:53:29",
+        "commit_message": "Add http2http client plugin with hostHeaderRewrite and requestHeaders support (#4275)",
+        "commit_date": "2024-06-12 09:30:10",
         "release_date": "2024-05-31 06:41:10",
         "release_message": "### Fixes\n\n* Fixed an issue where HTTP/2 was not enabled for https2http and https2https plugins.\n* Fixed the issue where the default values of INI configuration parameters are inconsistent with other configuration formats.\n\n### Changes\n\n* Updated the default value of `transport.tcpMuxKeepaliveInterval` from 60 to 30.\n* On the Android platform, the Google DNS server is used only when the default DNS server cannot be obtained.\n\n"
     },
@@ -7669,12 +7669,12 @@
         "release_message": ""
     },
     "https://github.com/locustio/locust": {
-        "created_at": "2024-05-23 05:46:47",
+        "created_at": "2024-06-07 18:24:59",
         "description": "Write scalable load tests in plain Python 🚗💨",
-        "commit_message": "Merge pull request #2733 from plaindocs/sam-dev-docs\n\nMention installing Locust in Building the Docs",
-        "commit_date": "2024-06-06 09:39:03",
-        "release_date": "2024-05-23 05:47:15",
-        "release_message": "## What's Changed\r\n* Remove legacy UI by @andrewbaldwin44 in https://github.com/locustio/locust/pull/2703\r\n* Logging: Only print hostname instead of FQDN by @cyberw in https://github.com/locustio/locust/pull/2705\r\n* WebUI: update users, spawn_rate, host and run_time in `parsed_options` (for LoadShapes that might access it) by @raulparada in https://github.com/locustio/locust/pull/2656\r\n* Update Stats History on HTML Report by @andrewbaldwin44 in https://github.com/locustio/locust/pull/2709\r\n* Lower log levels for exceptions in flask by @cyberw in https://github.com/locustio/locust/pull/2711\r\n* Stop HTML escaping errors for /stats/requests endpoint by @cyberw in https://github.com/locustio/locust/pull/2710\r\n* Stop quoting error messages an extra time in distributed mode by @cyberw in https://github.com/locustio/locust/pull/2712\r\n* Give better error message if User subclass doesnt call base constructor by @cyberw in https://github.com/locustio/locust/pull/2713\r\n* Dont enable ipv6 for zmq if no ipv6 stack exists by @cyberw in https://github.com/locustio/locust/pull/2715\r\n* Pin the headers to the top of the window by @JavierUhagon in https://github.com/locustio/locust/pull/2717\r\n\r\n## New Contributors\r\n* @raulparada made their first contribution in https://github.com/locustio/locust/pull/2656\r\n* @JavierUhagon made their first contribution in https://github.com/locustio/locust/pull/2717\r\n\r\n**Full Changelog**: https://github.com/locustio/locust/compare/2.27.0...2.28.0"
+        "commit_message": "Merge pull request #2759 from andrewbaldwin44/bugfix/2753\n\nAdd JavaScript to MIME types for Windows Operating Systems",
+        "commit_date": "2024-06-10 19:25:50",
+        "release_date": "2024-06-07 18:53:11",
+        "release_message": "## What's Changed\r\n* Show Reset Button when Test is Stopped by @andrewbaldwin44 in https://github.com/locustio/locust/pull/2726\r\n* Ensure spawning_complete only happens once on workers by @cyberw in https://github.com/locustio/locust/pull/2728\r\n* Improve confusing log messages if someone accidentally accesses the Web UI over HTTPS by @cyberw in https://github.com/locustio/locust/pull/2727\r\n* The time of the downloaded HTML report is not correct by @andrewbaldwin44 in https://github.com/locustio/locust/pull/2729\r\n* Use requests 2.32.2 or higher for Python 3.12 by @cyberw in https://github.com/locustio/locust/pull/2730\r\n* Docs: Upgrade Sphinx to latest version (7.3.7) by @plaindocs in https://github.com/locustio/locust/pull/2732\r\n* Docs: Fix theme by @plaindocs in https://github.com/locustio/locust/pull/2735\r\n* Docs: Fix sphinx and theme upgrade by @plaindocs in https://github.com/locustio/locust/pull/2736\r\n* Add date and zoom to charts in web UI by @andrewbaldwin44 in https://github.com/locustio/locust/pull/2731\r\n* Docs: Fix API TOC by @plaindocs in https://github.com/locustio/locust/pull/2737\r\n* Modify timestamp generation to remove deprecation warning by @JavierUhagon in https://github.com/locustio/locust/pull/2738\r\n* Add Logging to download_locustfile_from_master by @andrewbaldwin44 in https://github.com/locustio/locust/pull/2749\r\n* Mention installing Locust in Building the Docs by @plaindocs in https://github.com/locustio/locust/pull/2733\r\n* Docs: Import wiki to docs by @plaindocs in https://github.com/locustio/locust/pull/2734\r\n* Send logs from workers to master and improve log viewer tab in the Web UI by @andrewbaldwin44 in https://github.com/locustio/locust/pull/2750\r\n\r\n## New Contributors\r\n* @plaindocs made their first contribution in https://github.com/locustio/locust/pull/2732\r\n\r\n**Full Changelog**: https://github.com/locustio/locust/compare/2.28.0...2.29.0"
     },
     "https://github.com/Wh04m1001/IFaultrepElevatedDataCollectionUAC": {
         "created_at": "2022-10-14 21:40:59",
@@ -18781,8 +18781,8 @@
     "https://github.com/sajjadium/ctf-archives": {
         "created_at": "2021-06-10 16:53:52",
         "description": " CTF Archives: Collection of CTF Challenges.",
-        "commit_message": "SAS challs",
-        "commit_date": "2024-05-19 04:32:24"
+        "commit_message": "R3CTF challs",
+        "commit_date": "2024-06-10 01:09:13"
     },
     "https://github.com/KaLendsi/CVE-2022-21882": {
         "created_at": "2022-01-27 03:44:10",
@@ -24412,8 +24412,8 @@
         "description": "魅族安全中心"
     },
     "https://sec.vip.com/": {
-        "status_code": 200,
-        "description": "VSRC首页-唯品会信息安全中心"
+        "status_code": 503,
+        "description": ""
     },
     "https://sec.wacai.com/": {
         "status_code": 200,
@@ -25022,8 +25022,8 @@
         "description": "栅栏密码在线加密解密 - 千千秀字"
     },
     "https://wiki.teamssix.com/About/": {
-        "status_code": 436,
-        "description": ""
+        "status_code": 200,
+        "description": "关于文库 | T Wiki"
     },
     "https://www.nirsoft.net/utils/full_event_log_view.html": {
         "status_code": 200,
@@ -25650,8 +25650,8 @@
     "https://github.com/future-architect/vuls": {
         "created_at": "2024-05-17 10:11:51",
         "description": "Agent-less vulnerability scanner for Linux, FreeBSD, Container, WordPress, Programming language libraries, Network devices",
-        "commit_message": "chore(deps): bump github.com/aws/aws-sdk-go from 1.53.0 to 1.53.9 (#1934)\n\nBumps [github.com/aws/aws-sdk-go](https://github.com/aws/aws-sdk-go) from 1.53.0 to 1.53.9.\r\n- [Release notes](https://github.com/aws/aws-sdk-go/releases)\r\n- [Commits](https://github.com/aws/aws-sdk-go/compare/v1.53.0...v1.53.9)\r\n\r\n---\r\nupdated-dependencies:\r\n- dependency-name: github.com/aws/aws-sdk-go\r\n  dependency-type: indirect\r\n  update-type: version-update:semver-patch\r\n...\r\n\r\nSigned-off-by: dependabot[bot] <support@github.com>\r\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
-        "commit_date": "2024-05-24 10:31:37",
+        "commit_message": "chore(deps): bump github.com/Azure/azure-sdk-for-go/sdk/azidentity (#1964)\n\nBumps [github.com/Azure/azure-sdk-for-go/sdk/azidentity](https://github.com/Azure/azure-sdk-for-go) from 1.5.2 to 1.6.0.\r\n- [Release notes](https://github.com/Azure/azure-sdk-for-go/releases)\r\n- [Changelog](https://github.com/Azure/azure-sdk-for-go/blob/main/documentation/release.md)\r\n- [Commits](https://github.com/Azure/azure-sdk-for-go/compare/sdk/internal/v1.5.2...sdk/azcore/v1.6.0)\r\n\r\n---\r\nupdated-dependencies:\r\n- dependency-name: github.com/Azure/azure-sdk-for-go/sdk/azidentity\r\n  dependency-type: indirect\r\n...\r\n\r\nSigned-off-by: dependabot[bot] <support@github.com>\r\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
+        "commit_date": "2024-06-12 13:02:50",
         "release_date": "2024-05-21 01:54:42",
         "release_message": "This release includes a bug fix and a few additional features.\r\n\r\n## New feature\r\n\r\n* Now modularity label is added in the scan result for Red Hat like OSes\r\n  - This fixed https://github.com/future-architect/vuls/issues/1915\r\n  - feat(scanner/redhat): each package has modularitylabel by @MaineK00n in https://github.com/future-architect/vuls/pull/1381\r\n* Vendor severity and every CVSS information are added to `cveContents`\r\n  - This fixed https://github.com/future-architect/vuls/issues/1919\r\n  - Both detector and trivy-to-vuls command are changed in similar way\r\n  - feat(detector, contrib/trivy-to-vuls): collect vendor severity and cvss by @MaineK00n in https://github.com/future-architect/vuls/pull/1921\r\n\r\n## (Potential) Incompatibilities\r\n\r\n* `enabledDnfModules` element no more exists in scanner results\r\n  - By https://github.com/future-architect/vuls/pull/1381\r\n* In elements in `cveContents` originated from trivy, `type` fields are changed from `trivy` to `trivy:nvd` / `trivy:ghsa` etc.\r\n  - By https://github.com/future-architect/vuls/pull/1921\r\n\r\n## Bug fixes\r\n* fix(gost/debian): show all severities that appeared by @MaineK00n in https://github.com/future-architect/vuls/pull/1914\r\n\r\n## Misc Changes\r\n\r\n* chore(deps): bump github.com/emersion/go-smtp from 0.21.1 to 0.21.2 by @dependabot in https://github.com/future-architect/vuls/pull/1918\r\n* chore(deps): bump github.com/aquasecurity/trivy from 0.50.1 to 0.51.1 by @dependabot in https://github.com/future-architect/vuls/pull/1912\r\n\r\n\r\n**Full Changelog**: https://github.com/future-architect/vuls/compare/v0.25.3...v0.25.4"
     },
@@ -27074,7 +27074,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "13.88.170.224属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "172.200.199.165属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
