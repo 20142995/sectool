@@ -4950,7 +4950,7 @@
         "release_message": "## Changelog\r\n* 252aef4 Update go.yml\r\n* f11f27c Update go.mod dependencies\r\n* 8c8db1e Update docker-publish.yml\r\n* 25dce8c Update docker-publish.yml\r\n* 77b785e Update README.md\r\n* e3a2d67 Update README.md\r\n* 69f14ae Update\r\n* 32e486b Update\r\n* 335a7e8 Support Windows ARM64\r\n* 3673d5e Migrate jwt-go to golang-jwt\r\n* 06674f0 Merge pull request #37 from hahwul/bump-to-go-packages\r\n* 814d1ea Merge pull request #34 from isacaya/test\r\n* 6b6c920 Merge pull request #33 from hahwul/bump-to-cosign\r\n* 501b241 Merge pull request #32 from hahwul/dependabot/go_modules/golang.org/x/sys-0.1.0\r\n* ec8cad1 Merge pull request #31 from ScriptIdiot/patch-1\r\n* cea10a3 Create docker-publish.yml\r\n* 6955ce1 Bump to go min go version (1.17 to 1.21)\r\n* c83c10a Bump golang.org/x/sys from 0.0.0-20220114195835-da31bd327af9 to 0.1.0\r\n* b13c58b Add logic related to 'max' flag by @isacaya \r\n* 06fb757 Add arm64 docker image builder\r\n\r\n"
     },
     "https://github.com/hahwul/dalfox": {
-        "created_at": "2020-04-12 07:04:10",
+        "created_at": "2024-01-28 15:43:33",
         "description": "🌙🦊 Dalfox is a powerful open-source XSS scanner and utility focused on automation.",
         "commit_message": "Merge pull request #549 from hahwul/dev\n\nDependencies upgrade",
         "commit_date": "2024-04-30 14:49:24",
@@ -8579,13 +8579,13 @@
         "release_message": ""
     },
     "https://github.com/PyCQA/bandit": {
-        "created_at": "2024-03-08 15:19:40",
+        "created_at": "2024-06-12 22:17:21",
         "description": "Bandit is a tool designed to find common security issues in Python code.",
-        "commit_date": "2024-05-10 10:10:38",
-        "commit_message": "Ensure sarif extra is included as part of doc build (#1139)\n\nThe doc build nowadays runs via the readthedocs.yaml file. So\nthe requirements for building those docs need to include sarif\nin order to correctly build the sarif formatter doc.\n\nFixes: #1138\n\nSigned-off-by: Eric Brown <eric_wade_brown@yahoo.com>",
+        "commit_date": "2024-06-12 22:17:21",
+        "commit_message": "Support `configfile` in `.bandit` file (#1052)\n\n* Support `(--)config` in `.bandit` file\r\n\r\n* Use `configfile` instead of `config`\r\n\r\n---------\r\n\r\nCo-authored-by: Eric Brown <ericwb@users.noreply.github.com>",
         "release_tag": "1.7.5",
-        "release_date": "2024-03-08 19:21:11",
-        "release_message": "## What's Changed\r\n* Incorrect tag naming in readme by @lukehinds in https://github.com/PyCQA/bandit/pull/1105\r\n* Utilize PyPI's trusted publishing by @ericwb in https://github.com/PyCQA/bandit/pull/1107\r\n* Bump sigstore/cosign-installer from 3.3.0 to 3.4.0 by @dependabot in https://github.com/PyCQA/bandit/pull/1109\r\n* Add 1.7.7 to versions of bug template by @ericwb in https://github.com/PyCQA/bandit/pull/1110\r\n* Use datetime to avoid updating copyright year by @ericwb in https://github.com/PyCQA/bandit/pull/1112\r\n* filter data is safe for tarfile extractall by @etienneschalk in https://github.com/PyCQA/bandit/pull/1111\r\n* Bump docker/setup-buildx-action from 3.0.0 to 3.1.0 by @dependabot in https://github.com/PyCQA/bandit/pull/1115\r\n* [B605] Add functions that are vulnerable to shell injection. by @shihai1991 in https://github.com/PyCQA/bandit/pull/1116\r\n* Add a SARIF output formatter by @ericwb in https://github.com/PyCQA/bandit/pull/1113\r\n\r\n## New Contributors\r\n* @etienneschalk made their first contribution in https://github.com/PyCQA/bandit/pull/1111\r\n* @shihai1991 made their first contribution in https://github.com/PyCQA/bandit/pull/1116\r\n\r\n**Full Changelog**: https://github.com/PyCQA/bandit/compare/1.7.7...1.7.8"
+        "release_date": "2024-06-12 22:19:26",
+        "release_message": "## What's Changed\r\n* Bump docker/build-push-action from 5.1.0 to 5.2.0 by @dependabot in https://github.com/PyCQA/bandit/pull/1117\r\n* [pre-commit.ci] pre-commit autoupdate by @pre-commit-ci in https://github.com/PyCQA/bandit/pull/1119\r\n* New logo for Bandit based on raccoon by @ericwb in https://github.com/PyCQA/bandit/pull/1121\r\n* Start testing on Python 3.13 by @ericwb in https://github.com/PyCQA/bandit/pull/1122\r\n* Bump docker/build-push-action from 5.2.0 to 5.3.0 by @dependabot in https://github.com/PyCQA/bandit/pull/1123\r\n* Bump docker/setup-buildx-action from 3.1.0 to 3.2.0 by @dependabot in https://github.com/PyCQA/bandit/pull/1124\r\n* Bump docker/login-action from 3.0.0 to 3.1.0 by @dependabot in https://github.com/PyCQA/bandit/pull/1125\r\n* [pre-commit.ci] pre-commit autoupdate by @pre-commit-ci in https://github.com/PyCQA/bandit/pull/1126\r\n* [pre-commit.ci] pre-commit autoupdate by @pre-commit-ci in https://github.com/PyCQA/bandit/pull/1127\r\n* Bump docker/setup-buildx-action from 3.2.0 to 3.3.0 by @dependabot in https://github.com/PyCQA/bandit/pull/1130\r\n* [pre-commit.ci] pre-commit autoupdate by @pre-commit-ci in https://github.com/PyCQA/bandit/pull/1131\r\n* Bump sigstore/cosign-installer from 3.4.0 to 3.5.0 by @dependabot in https://github.com/PyCQA/bandit/pull/1132\r\n* [pre-commit.ci] pre-commit autoupdate by @pre-commit-ci in https://github.com/PyCQA/bandit/pull/1133\r\n* Updates banner logo so it renders well in dark mode by @ericwb in https://github.com/PyCQA/bandit/pull/1134\r\n* [pre-commit.ci] pre-commit autoupdate by @pre-commit-ci in https://github.com/PyCQA/bandit/pull/1135\r\n* Add a sponsor section to README by @ericwb in https://github.com/PyCQA/bandit/pull/1137\r\n* Ensure sarif extra is included as part of doc build by @ericwb in https://github.com/PyCQA/bandit/pull/1139\r\n* Bump docker/login-action from 3.1.0 to 3.2.0 by @dependabot in https://github.com/PyCQA/bandit/pull/1142\r\n* [pre-commit.ci] pre-commit autoupdate by @pre-commit-ci in https://github.com/PyCQA/bandit/pull/1143\r\n* [pre-commit.ci] pre-commit autoupdate by @pre-commit-ci in https://github.com/PyCQA/bandit/pull/1145\r\n* Guard against empty call argument list by @ericwb in https://github.com/PyCQA/bandit/pull/1146\r\n* Bump docker/build-push-action from 5.3.0 to 5.4.0 by @dependabot in https://github.com/PyCQA/bandit/pull/1144\r\n* Support `configfile` in `.bandit` file by @bersbersbers in https://github.com/PyCQA/bandit/pull/1052\r\n\r\n## New Contributors\r\n* @pre-commit-ci made their first contribution in https://github.com/PyCQA/bandit/pull/1119\r\n* @bersbersbers made their first contribution in https://github.com/PyCQA/bandit/pull/1052\r\n\r\n**Full Changelog**: https://github.com/PyCQA/bandit/compare/1.7.8...1.7.9"
     },
     "https://github.com/dwisiswant0/go-dork": {
         "created_at": "2020-07-13 20:15:18",
@@ -27074,7 +27074,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "172.183.37.95属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "172.190.111.192属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
@@ -27102,7 +27102,7 @@
     },
     "https://whois.aizhan.com/": {
         "status_code": 200,
-        "description": ""
+        "description": "站长工具_whois查询工具_爱站网"
     },
     "https://rapiddns.io/sameip": {
         "status_code": 200,
