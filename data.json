@@ -24036,8 +24036,8 @@
         "release_message": ""
     },
     "https://github.com/lemono0/FastJsonParty": {
-        "created_at": "",
-        "description": "",
+        "created_at": "2023-08-15 09:29:27",
+        "description": "FastJson全版本Docker漏洞环境(涵盖1.2.47/1.2.68/1.2.80等版本)，主要包括JNDI注入及高版本绕过、waf绕过、文件读写、原生反序列化、利用链探测绕过、不出网利用等。从黑盒的角度覆盖FastJson深入利用",
         "commit_date": "2023-12-15 02:14:44",
         "commit_message": "Add 1268 WriteFile RCE",
         "release_tag": "",
@@ -27074,7 +27074,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "20.55.223.229属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "20.102.46.215属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
