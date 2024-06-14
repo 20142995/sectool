@@ -1176,8 +1176,8 @@
     "https://github.com/zangcc/Aazhen-RexHa": {
         "created_at": "2022-02-28 10:37:45",
         "description": "自研JavaFX图形化漏洞扫描工具，支持扫描的漏洞分别是： ThinkPHP-2.x-RCE， ThinkPHP-5.0.23-RCE， ThinkPHP5.0.x-5.0.23通杀RCE， ThinkPHP5-SQL注入&敏感信息泄露， ThinkPHP 3.x 日志泄露NO.1， ThinkPHP 3.x 日志泄露NO.2， ThinkPHP 5.x 数据库信息泄露的漏洞检测，以及批量检测的功能。漏洞POC基本适用ThinkPHP全版本漏洞。",
-        "commit_date": "2023-03-27 07:38:18",
-        "commit_message": "Update README.md",
+        "commit_date": "2024-03-17 06:20:44",
+        "commit_message": "Update yunsee_verify_65f6871d8cd89.txt",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -3066,13 +3066,13 @@
         "release_message": "<!-- Release notes generated using configuration in .github/release.yml at main -->\r\n\r\n## What's Changed\r\n### 🐞 Bug Fixes\r\n* **Fixed multiple bug fixes** + **performance improvements** by @tarunKoyalwar in https://github.com/projectdiscovery/nuclei/pull/5148\r\n* **Fixed more goroutine leaks** by @Ice3man543 in https://github.com/projectdiscovery/nuclei/pull/5188\r\n* Fixed issue network interface selection in case of multiple interface by @Mzack9999 in https://github.com/projectdiscovery/nuclei/pull/5186\r\n* Fixed issue with ssl protocol in case of multi request by @Mzack9999 in https://github.com/projectdiscovery/nuclei/pull/5203\r\n\r\nIssues closed in release - https://github.com/projectdiscovery/nuclei/milestone/58?closed=1\r\n\r\n**Full Changelog**: https://github.com/projectdiscovery/nuclei/compare/v3.2.7...v3.2.8"
     },
     "https://github.com/sleeyax/burp-awesome-tls": {
-        "created_at": "2022-01-24 00:30:26",
-        "description": "Fixes Burp Suite's poor TLS stack. Bypass WAF, spoof any browser.",
-        "commit_date": "2023-06-22 21:36:19",
-        "commit_message": "Create FUNDING.yml",
+        "created_at": "2024-05-01 22:28:19",
+        "description": "Burp extension to evade TLS fingerprinting. Bypass WAF, spoof any browser.",
+        "commit_date": "2024-05-01 22:28:19",
+        "commit_message": "Merge pull request #70 from sleeyax/chore/update-dependencies",
         "release_tag": "v1.1.0",
-        "release_date": "2023-06-21 20:06:59",
-        "release_message": "## Changelog\r\n\r\n### Added\r\n- Custom TLS fingerprint support by @VovkoO (#29) "
+        "release_date": "2024-05-01 22:50:24",
+        "release_message": "## Fixed\r\n* Updated go dependencies (most importantly UTLS) to fix #69 by @sleeyax in https://github.com/sleeyax/burp-awesome-tls/pull/70\r\n\r\n**Full Changelog**: https://github.com/sleeyax/burp-awesome-tls/compare/v1.2.1...v1.2.2"
     },
     "https://github.com/passer-W/FinalShell-Decoder": {
         "created_at": "2022-04-06 07:11:25",
@@ -4162,13 +4162,13 @@
         "release_message": "初版"
     },
     "https://github.com/winezer0/whatweb-plus": {
-        "created_at": "2021-08-09 04:40:58",
+        "created_at": "2024-05-08 06:37:21",
         "description": "whatweb 增强版  8000+插件（提供windows可执行文件）",
-        "commit_date": "2023-05-25 11:44:40",
-        "commit_message": "Update README.md",
+        "commit_date": "2024-05-08 06:37:21",
+        "commit_message": "0.5.5.20",
         "release_tag": "v0.5.5.19.fix",
-        "release_date": "2023-05-14 12:54:57",
-        "release_message": "修复kali下 ruby 3.1.2 下提示 join(nil，\"whatweb\")报错\r\n\r\n注意windows环境下不受影响,可以不进行更新"
+        "release_date": "2024-05-08 07:22:17",
+        "release_message": "1、优化代码逻辑\r\n\r\n2、将url前后缀的添加放在添加协议头之前进行处理\r\n\r\n3、添加默认插件,避免啥都没有\r\n```\r\nwhatweb-0.5.5.20.exe www.baidu.com\r\n[*] Load Default Plugin Dirs: [\"/__enclose_io_memfs__/local/plugins\"]\r\nhttp://www.baidu.com [302 Found] IP[183.2.172.42], Title[302 Found], http-server[BWS/1.1], length[154]\r\nhttps://www.baidu.com/ [200 OK] IP[183.2.172.185], Title[百度一下，你就知道], http-server[BWS/1.1], lengt\r\nh[404752]\r\nhttp://www.baidu.com/baidu.html?from=noscript [200 OK] IP[183.2.172.42], Title[百度一下，你就知道], http-\r\nserver[Apache], length[2857]\r\nhttps://www.baidu.com [200 OK] IP[183.2.172.185], Title[百度一下，你就知道], http-server[BWS/1.1], length\r\n[404821]\r\n```\r\n\r\n\r\n4、添加自定义环境变量指定Whatweb基础路径，便于寻找插件目录\r\n```\r\n# 添加自定义环境变量指定的路径\r\nif ENV['WHATWEB_ROOT']\r\n  $load_path_plugins << ENV['WHATWEB_ROOT']\r\nend\r\n```"
     },
     "https://github.com/corunb/Dirscan": {
         "created_at": "2022-10-13 06:30:38",
@@ -5322,7 +5322,7 @@
     },
     "https://github.com/iagox86/dnscat2": {
         "created_at": "2013-01-04 23:15:55",
-        "description": "",
+        "description": null,
         "commit_date": "2022-01-03 20:48:20",
         "commit_message": "Merge pull request #167 from mrtolino/master\n\nFixes warnings for capturing the given block using Kernel#proc",
         "release_tag": "",
@@ -18857,7 +18857,7 @@
         "release_message": ""
     },
     "https://github.com/alibaba/fastjson": {
-        "created_at": "2011-11-03 06:58:52",
+        "created_at": "2022-05-23 00:55:52",
         "description": "FASTJSON 2.0.x has been released, faster and more secure, recommend you upgrade.",
         "commit_date": "2023-05-12 06:16:03",
         "commit_message": "Update README.md",
@@ -27074,7 +27074,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "20.102.46.215属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "172.183.51.244属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
