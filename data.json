@@ -196,8 +196,8 @@
     "https://github.com/ycdxsb/PocOrExp_in_Github": {
         "created_at": "2021-04-13 05:46:16",
         "description": "聚合Github上已有的Poc或者Exp，CVE信息来自CVE官网。Auto Collect Poc Or Exp from Github by CVE ID.",
-        "commit_message": "update 2024-06-11 08:08:30",
-        "commit_date": "2024-06-11 00:08:30"
+        "commit_message": "update 2024-06-14 07:20:51",
+        "commit_date": "2024-06-13 23:20:51"
     },
     "https://github.com/1n7erface/RequestTemplate": {
         "created_at": "",
@@ -520,8 +520,8 @@
     "https://github.com/knownsec/404StarLink": {
         "created_at": "2020-11-17 08:10:18",
         "description": "404StarLink - 推荐优质、有意义、有趣、坚持维护的安全开源项目",
-        "commit_message": "weekly update at 2024-06-03",
-        "commit_date": "2024-06-03 02:44:12"
+        "commit_message": "weekly update at 2024-06-12",
+        "commit_date": "2024-06-12 02:06:14"
     },
     "https://github.com/gwen001/github-subdomains": {
         "created_at": "2023-02-09 13:53:02",
@@ -2919,9 +2919,9 @@
     "https://github.com/dbeaver/dbeaver": {
         "created_at": "2024-05-30 16:00:59",
         "description": "Free universal database tool and SQL client",
-        "commit_message": "dbeaver/pro#2928 BigQuery types mapping (#34300)\n\n* dbeaver/pro#2928 BigQuery types mapping\r\n\r\n* dbeaver/pro#2928 Typo fix",
-        "commit_date": "2024-06-07 12:53:59",
-        "release_date": "2024-06-02 17:15:23",
+        "commit_message": "Update FireBird driver to 5.0.4 (#34345)\n\nCo-authored-by: MashaKorax <84867187+MashaKorax@users.noreply.github.com>",
+        "commit_date": "2024-06-13 17:13:09",
+        "release_date": "2024-06-09 10:47:37",
         "release_message": "                Changes since 24.0.5:\r\n                - SQL Editor: issue with extra linefeed during autocompletion was fixed\r\n                - Data Editor: loading data when fast scrolling using the keyboard was fixed\r\n                - Database tasks:\r\n                    - Maximum execution time option was added\r\n                    - Tasks running from non-default workspace was fixed\r\n                - Connectivity:\r\n                    - 'Azure AD' was renamed to 'Microsoft Entra ID'\r\n                    - Links to database support documentation were added for many databases\r\n                    - Automatical termination of the shell command script 'Before connect' was fixed\r\n                - General:\r\n                    - Crash when closing detached editor tab in another window was fixed\r\n                    - 'Restore default' for Metadata read, Client identification settings was fixed\r\n                    - .projects and .settings folders became findable in Projects when the application is used as an Eclipse plugin\r\n                    - Truncated notifications were fixed\r\n                - Projects:\r\n                    - Disconnecting a database from the Project view was fixed\r\n                    - Opening a bookmark after changing the application language was fixed (thanks to @SASUKE38)\r\n                - ERD: loading diagrams for drivers with broken foreign keys support was fixed\r\n                - Database Navigator:\r\n                    - Color of the table statistics was changed to visible in the dark theme and became configurable\r\n                    - Deleting connection option in the context menu was renamed to 'Delete connection'\r\n                - Databases:\r\n                    - CrateDB: table DDL was fixed\r\n                    - Databricks: authentication with personal access token was added\r\n                    - DB2i: procedure creation was fixed\r\n                    - DuckDB: aliases autocompletion was fixed\r\n                    - H2: foreign keys presentation was fixed\r\n                    - Oracle: JSON data type support was improved\r\n                    - PostgreSQL: support of fully qualified names in DDL was fixed\r\n                - Localization:\r\n                    - German localization was updated (thanks to @maxbobse)\r\n            "
     },
     "https://github.com/zema1/yarx": {
@@ -3901,8 +3901,8 @@
     "https://github.com/quay/clair": {
         "created_at": "2024-05-01 16:55:34",
         "description": "Vulnerability Static Analysis for Containers",
-        "commit_message": "build(deps): bump github.com/rs/zerolog from 1.32.0 to 1.33.0\n\nBumps [github.com/rs/zerolog](https://github.com/rs/zerolog) from 1.32.0 to 1.33.0.\n- [Commits](https://github.com/rs/zerolog/compare/v1.32.0...v1.33.0)\n\n---\nupdated-dependencies:\n- dependency-name: github.com/rs/zerolog\n  dependency-type: direct:production\n  update-type: version-update:semver-minor\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>",
-        "commit_date": "2024-05-29 21:55:07",
+        "commit_message": "build(deps): bump golang.org/x/net from 0.25.0 to 0.26.0\n\nBumps [golang.org/x/net](https://github.com/golang/net) from 0.25.0 to 0.26.0.\n- [Commits](https://github.com/golang/net/compare/v0.25.0...v0.26.0)\n\n---\nupdated-dependencies:\n- dependency-name: golang.org/x/net\n  dependency-type: direct:production\n  update-type: version-update:semver-minor\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>",
+        "commit_date": "2024-06-10 23:43:12",
         "release_date": "2024-05-01 16:59:42",
         "release_message": "<a name=\"unreleased\"></a>\r\n## [Unreleased]\r\n\r\n\r\n<a name=\"v4.7.4\"></a>\r\n## [v4.7.4] - 2024-05-01\r\n\r\n### NOTE\r\n[The default layer download location has changed](https://github.com/quay/clair/blob/release-4.7/Documentation/howto/deployment.md#disk-usage-considerations)\r\n\r\n### Claircore\r\n- tarfs: follow hardlinks in `ReadFile`\r\n  <details>\r\n  This makes `fs.ReadFile` work as expected when opening hardlinks.\r\n  </details>\r\n\r\n- debian: update how \"source\" packages are handled\r\n  <details>\r\n  Previously, the Updater parsed metadata from the repository to try to\r\n  record only \"binary\" packages. This was inaccurate and, with the new\r\n  dpkg handling, now unneeded. The new approach should be more accurate.\r\n  </details>\r\n\r\n- dpkg: improve Source handling\r\n  <details>\r\n  The dpkg handling machinery now correctly records source packages and\r\n  versions. Previously, version differences between a source package and\r\n  the resulting binary package(s) were incorrect if the versions were not\r\n  identical.\r\n  </details>\r\n\r\n- libindex: add `O_TMPFILE` fallback logic\r\n  <details>\r\n  After discovering that some common deployment methods are incompatible with\r\n  using the `O_TMPFILE` `open(2)` flag, a fallback path has been added. The\r\n  changes also move the default location of where temporary files are downloaded\r\n  to, to better align with the layout recommended by systemd.\r\n  \r\n  Please see [the documentation] for specifics.\r\n  \r\n  [the documentation]: https://pkg.go.dev/github.com/quay/claircore/libindex@v1.5.\r\n  26-0.20240325212310-fedb9d327aa7#NewRemoteFetchArena\r\n  </details>\r\n\r\n- osv: parse database_specific severity when no CVSS severity is defined\r\n  <details>\r\n  Occasionally there are OSV advisories that don't include any severity\r\n  information in the `.severity` object but they do contain a severity in\r\n  the `.database_specific` object. This change attempts to parse that\r\n  severity if we don't get a severity from the native `.severity` object.\r\n  </details>\r\n\r\n### Build(Deps)\r\n- [3ebd889c](https://github.com/quay/clair/commit/3ebd889cb37603e071ba0d8fb8ba631702b13414): bump peter-evans/create-pull-request from 6.0.0 to 6.0.1\r\n- [b7566a0f](https://github.com/quay/clair/commit/b7566a0feedc5de0227a5bfd6e2921014ec68704): bump peter-evans/create-pull-request from 5.0.2 to 6.0.0\r\n- [4db2f09b](https://github.com/quay/clair/commit/4db2f09be2330e4dc9061dc2e9d44d8979b8c34d): bump actions/cache from 3 to 4\r\n- [6cef8311](https://github.com/quay/clair/commit/6cef8311255b024dd3a1fc0a70f7edf38969906c): bump actions/upload-artifact from 3 to 4\r\n- [5ed80215](https://github.com/quay/clair/commit/5ed80215fa17adb7e72ba3d9267368474afd411e): bump actions/download-artifact from 3 to 4\r\n- [c9e1f56b](https://github.com/quay/clair/commit/c9e1f56b224f25aacd5df861563006520e63297b): bump actions/setup-go from 4 to 5\r\n- [3ab3de55](https://github.com/quay/clair/commit/3ab3de558380fff38b8503de914c1b9c0611c4c8): bump actions/stale from 8 to 9\r\n- [591188f0](https://github.com/quay/clair/commit/591188f0a877b81878209be4b9185d4cb7c404f3): bump docker/setup-buildx-action from 2 to 3\r\n- [7ef6ef6b](https://github.com/quay/clair/commit/7ef6ef6b7587386b80cef9fbe7269b0083c8f039): bump docker/login-action from 2 to 3\r\n- [5597e7cc](https://github.com/quay/clair/commit/5597e7ccb94c113cc8344e8289be886049b23f63): bump docker/build-push-action from 4 to 5\r\n- [14d7f2b4](https://github.com/quay/clair/commit/14d7f2b4927fa9e4debc9005fb6dc620a6a47833): bump docker/setup-qemu-action from 2 to 3\r\n- [1204db98](https://github.com/quay/clair/commit/1204db98853cdfdce7790f3d3276d4617e4e3000): bump actions/checkout from 3 to 4\r\n### Chore\r\n- [4170798b](https://github.com/quay/clair/commit/4170798b6d464be0b8f74b1979785a17ad71dbd0): 4.7.4 changelog bump\r\n- [96dc6074](https://github.com/quay/clair/commit/96dc60748b492df1cb4af3761c9c44c10266ed09): Add merge step when creating release binaries\r\n- [a1c7eb7c](https://github.com/quay/clair/commit/a1c7eb7c8cce687e12fcc056be1acacbdc608a31): update go version for release\r\n- [6eeb9393](https://github.com/quay/clair/commit/6eeb9393b539cf49a10c42e247b833ce7e040607): update claircore to v1.5.27\r\n- [809dd5ab](https://github.com/quay/clair/commit/809dd5ab474994eb9a32599f4257437fde995064): update go version\r\n### Cicd\r\n- [e6378d03](https://github.com/quay/clair/commit/e6378d0333085a072cf73bfa32228af24b710b05): add container version skew check\r\n- [2ba3ecc0](https://github.com/quay/clair/commit/2ba3ecc0a66679dcd82f7015695db5b2a3f0c02a): update testing workflow\r\n- [ae135c49](https://github.com/quay/clair/commit/ae135c4956358d6c18109438b6e59170100787ea): don't upload workspace on failure\r\n- [7222dc88](https://github.com/quay/clair/commit/7222dc88d4fe919cc2b88e2fe7587061a881b794): change version specifiers to be major-version only\r\n### Clairctl\r\n- [2a2ba37f](https://github.com/quay/clair/commit/2a2ba37f6404e377d702e50f78bccd172b08b03f): warn when range requests are not honored\r\n### Dockerfile\r\n- [5547b96a](https://github.com/quay/clair/commit/5547b96aeff795da43fbc6e2dc8ec7b5dda7691d): remove sh loop\r\n### Docs\r\n- [3753415b](https://github.com/quay/clair/commit/3753415b4e2b6bc9b63a940b8b2101d82ab523ef): add mention of disk space path and usage\r\n### Httptransport\r\n- [c6df986f](https://github.com/quay/clair/commit/c6df986fddfe5121b6fd9dbfff0ccca35c55cb71): GET vuln report returns 404 when indexing in-progress\r\n### Initialize\r\n- [9828576a](https://github.com/quay/clair/commit/9828576af20c966e0dbe99bbac68d3e80b07baa1): use defaults for NewRemoteFetcher\r\n\r\n[Unreleased]: https://github.com/quay/clair/compare/v4.7.4...HEAD\r\n[v4.7.4]: https://github.com/quay/clair/compare/v4.7.3...v4.7.4\r\n"
     },
@@ -3924,10 +3924,10 @@
         "release_message": "## Changelog\n* a3caf0658 release: v0.52.1 [release/v0.52] (#6877)\n* 01dbb42ae fix(nodejs): fix infinite loop when package link from `package-lock.json` file is broken [backport: release/v0.52] (#6888)\n* f186d22bf fix(sbom): don't overwrite `srcEpoch` when decoding SBOM files [backport: release/v0.52] (#6881)\n* 093c0ae02 fix(python): compare pkg names from `poetry.lock` and `pyproject.toml` in lowercase [backport: release/v0.52] (#6878)\n* 6bfda7602 Merge pull request #6879 from aquasecurity/backport-pr-6864-to-release/v0.52\n* 53850c8b2 docs: explain how VEX is applied (#6864)\n* 221196202 Merge pull request #6875 from aquasecurity/backport-pr-6857-to-release/v0.52\n* a614b693d fix(nodejs): fix infinity loops for `pnpm` with cyclic imports (#6857)\n\n"
     },
     "https://github.com/anchore/grype": {
-        "created_at": "2024-05-28 17:53:19",
+        "created_at": "2020-05-26 13:44:38",
         "description": "A vulnerability scanner for container images and filesystems",
-        "commit_message": "update syft to v1.5.0 (#1897)\n\nSigned-off-by: Alex Goodman <wagoodman@users.noreply.github.com>",
-        "commit_date": "2024-05-28 17:37:10",
+        "commit_message": "chore(deps): bump actions/checkout from 4.1.6 to 4.1.7 (#1941)\n\nBumps [actions/checkout](https://github.com/actions/checkout) from 4.1.6 to 4.1.7.\r\n- [Release notes](https://github.com/actions/checkout/releases)\r\n- [Changelog](https://github.com/actions/checkout/blob/main/CHANGELOG.md)\r\n- [Commits](https://github.com/actions/checkout/compare/a5ac7e51b41094c92402da3b24376905380afc29...692973e3d937129bcbf40652eb9f2f61becf3332)\r\n\r\n---\r\nupdated-dependencies:\r\n- dependency-name: actions/checkout\r\n  dependency-type: direct:production\r\n  update-type: version-update:semver-patch\r\n...\r\n\r\nSigned-off-by: dependabot[bot] <support@github.com>\r\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
+        "commit_date": "2024-06-13 21:16:02",
         "release_date": "2024-05-28 18:01:12",
         "release_message": "### Added Features\n\n- add config command [[#1876](https://github.com/anchore/grype/pull/1876) @kzantow]\n\n### Bug Fixes\n\n- ask catalog for package, rather than type asserting [[#1857](https://github.com/anchore/grype/pull/1857) @willmurphyscode]\n- Disable TUI for simple commands [[#1872](https://github.com/anchore/grype/pull/1872) @wagoodman]\n- False Positive: CVE-2023-42282  not affected in SUSE ecosystem [[#1813](https://github.com/anchore/grype/issues/1813)]\n- False positive GHSA-jr9c-h74f-2v28/CVE-2022-0905 reported for Non-vulnerable Gitea version [[#1416](https://github.com/anchore/grype/issues/1416)]\n\n### Additional Changes\n\n- Update syft to v1.5.0 [[#1897](https://github.com/anchore/grype/pull/1897) @wagoodman]\n\n**[(Full Changelog)](https://github.com/anchore/grype/compare/v0.77.4...v0.78.0)**\n\n"
     },
@@ -6362,8 +6362,8 @@
     "https://github.com/ufrisk/MemProcFS": {
         "created_at": "2024-03-03 11:07:17",
         "description": "MemProcFS",
-        "commit_message": "Version 5.9.17",
-        "commit_date": "2024-06-03 22:03:52",
+        "commit_message": "Version 5.9.18",
+        "commit_date": "2024-06-13 17:51:07",
         "release_date": "2024-03-03 11:08:21",
         "release_message": "* Bug fixes.\r\n* Module improvements: ntfs, procinfo, web.\r\n* C# API: improvements.\r\n* Java API: support for java.lang.foreign (JDK21+) for efficient memory accesses.\r\n* Linux PCIe FPGA performance improvements.\r\n* FindEvil: Triggered Yara rules are now shown.\r\n* FindEvil: AV detections from Windows Defender residing on the analyzed system.\r\n* Python API: new functionality (multi-read, type-read) and improved scatter read performance.\r\n* Support for Proxmox memory dump files.\r\n\r\nFor previous release builds see the [release archive](https://github.com/ufrisk/MemProcFS/releases/tag/v5_archive)."
     },
@@ -22362,12 +22362,12 @@
         "release_message": ""
     },
     "https://github.com/xaoyaoo/PyWxDump": {
-        "created_at": "2024-05-19 08:48:23",
+        "created_at": "2024-06-12 01:54:40",
         "description": "获取微信账号信息(昵称/账号/手机/邮箱/数据库密钥/wxid)；PC微信数据库读取、解密脚本；聊天记录查看工具；聊天记录导出为html(包含语音图片)。支持多账户信息获取，支持所有微信版本。",
-        "commit_message": "增加说明",
-        "commit_date": "2024-05-19 08:47:49",
-        "release_date": "2024-05-19 08:53:24",
-        "release_message": "[Auto Release] Update PyWxDump to refs/tags/v3.0.24\n详细更新日志请查看 [CHANGELOG.md](https://github.com/xaoyaoo/PyWxDump/blob/master/doc/CHANGELOG.md)\n"
+        "commit_message": "UPDATE CHANGELOG.md",
+        "commit_date": "2024-06-12 02:01:22",
+        "release_date": "2024-06-12 02:00:08",
+        "release_message": "[Auto Release] Update PyWxDump to refs/tags/v3.0.28\n详细更新日志请查看 [CHANGELOG.md](https://github.com/xaoyaoo/PyWxDump/blob/master/doc/CHANGELOG.md)\n"
     },
     "https://github.com/Pizz33/Qianji": {
         "created_at": "2023-11-15 03:33:53",
@@ -25828,8 +25828,8 @@
     "https://github.com/securego/gosec": {
         "created_at": "2024-05-14 13:36:59",
         "description": "Go security checker",
-        "commit_message": "Fix nosec when applied to a block\n\nHandle properly nosec directive when applied to a block or as a single\nline on a multi-line issue.\n\nSigned-off-by: Cosmin Cojocar <cosmin@cojocar.ch>",
-        "commit_date": "2024-05-28 10:54:05",
+        "commit_message": "Update to go versions to 1.21.11 and 1.22.4\n\nSigned-off-by: Cosmin Cojocar <cosmin@cojocar.ch>",
+        "commit_date": "2024-06-11 19:47:56",
         "release_date": "2024-05-14 13:42:29",
         "release_message": "## Changelog\n* 6fbd381 Catch os.ModePerm permissions in os.WriteFile\n* dc5e5a9 Add a unit test to detect the false negative in rule G306 for os.ModePerm permissions\n* 417a44c Add filepath.EvalSymlinks to clean functions in rule G304\n* d34f8b7 chore(deps): update all dependencies\n* 8658b8e Update Go to version 2.22.3 in CI and release\n* d3b2359 chore(deps): update module golang.org/x/text to v0.15.0\n* cf29d54 chore(deps): update all dependencies\n* 09d62bd chore(deps): update module github.com/onsi/gomega to v1.33.0\n* 3b23ec8 Update to go 1.22.2\n* 31009c3 chore(deps): update all dependencies\n* daf6f67 chore(deps): update module github.com/onsi/ginkgo/v2 to v2.17.1\n* e27f442 chore(deps): update all dependencies\n* 5513615 fix(helpers/goversion): get from go.mod\n* 43b8b75 chore: fix function name\n* accd7a1 chore(deps): update all dependencies\n* 48aa72e Format the imports using the gci tool\n* b6df69c Fixup: delete unused variable\n* ccb0a08 Fix test: update test to comply with the spec of generated sources\n* 3a0ea51 Refactor: use standard function to check if a file is generated\n* 11c3252 Fix lint warnings\n* be378e6 Add support for math/rand/v2 added in Go 1.22\n* 36878a9 Skip the G601 tests for Go version 1.22\n* 903c75b Update go version to 1.22.1 and 1.21.8\n* f25ccd9 Ignore 'implicit memory aliasing' rule for Go 1.22+\n* 582e91a chore(deps): update all dependencies\n* 198a40c chore(deps): update module golang.org/x/tools to v0.18.0\n* c824a5d fix(hardcoded): remove duplicated `Stripe API Key`\n* d13d7da Update gosec version to v2.19.0 in the Github action\n\n"
     },
@@ -27074,7 +27074,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "40.76.238.210属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "172.183.37.95属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
@@ -27102,7 +27102,7 @@
     },
     "https://whois.aizhan.com/": {
         "status_code": 200,
-        "description": "站长工具_whois查询工具_爱站网"
+        "description": ""
     },
     "https://rapiddns.io/sameip": {
         "status_code": 200,
@@ -27923,8 +27923,8 @@
     "https://github.com/aquasecurity/cloudsploit": {
         "created_at": "2024-05-28 15:05:15",
         "description": "Cloud Security Posture Management (CSPM)",
-        "commit_message": "Merge pull request #2023 from aquasecurity/bundles_sync/29_05\n\nsyncing with saas",
-        "commit_date": "2024-05-28 15:05:15",
+        "commit_message": "Merge pull request #2026 from AkhtarAmir/fixing-node-os-error\n\nfixing-node-os-error",
+        "commit_date": "2024-06-08 11:31:17",
         "release_date": "2024-06-05 17:26:10",
         "release_message": "CloudSploit version 3.5.0 introduces the most latest version on 2024-05-28. The update includes  new plugins for  Azure, AWS with the hotfixes and enhancements in the existing plugins. The details are as follows.\r\n______________________________\r\n\r\n## New Plugins\r\n### [AWS](https://github.com/aquasecurity/cloudsploit/tree/master/plugins/aws)\r\n**Bedrock**\r\n\r\n- AWS Bedrock In Use\r\n\r\n**Neptune**\r\n- Neptune Database IAM Authentication Enabled\r\n- Neptune Database Deletion Protection Enabled\r\n- Neptune Database Multiple AZ\r\n- Neptune Database Instance Backup Retention\r\n\r\n**DocumentDB**\r\n- DocumentDB Has Tags\r\n- DocumentDB Cluster Deletion Protection\r\n\r\n**SQS**\r\n- SQS Has Tags\r\n\r\n**WAFV2**\r\n\r\n- Web ACL Logging Enabled\r\n\r\n\r\n### [Azure](https://github.com/aquasecurity/cloudsploit/tree/master/plugins/azure)\r\n\r\n**Batch Account**\r\n- Batch Account CMK Encrypted\r\n\r\n**App Configuration**\r\n- App Configuration Access Key Authentication Disabled\r\n\r\n\r\n**Container App**\r\n- Container Apps Volume Mount Configured\r\n- Container Apps Has Tags\r\n\r\n**Cosmos DB**\r\n- Cosmos DB Local Authentication Disabled\r\n\r\n**DataBricks**\r\n- Databricks Workspace Managed Disk CMK Encrypted\r\n- Databricks Workspace Has Tags\r\n\r\n**Event Hub**\r\n- Event Hubs Namespace Has Tags\r\n- Event Hubs Namespace Diagnostic Logs\r\n- Event Hub Namespace Local Auth Disabled\r\n- Event Hubs Namespace Managed Identity\r\n\r\n**Front Door**\r\n- Front Door Managed Identity Enabled\r\n\r\n**Machine Learning**\r\n- Machine Learning Workspace Has Tags\r\n- Machine Learning Workspace Public Access Disabled\r\n- Machine Learning Workspace Diagnostic Logs\r\n\r\n**Log Alerts**\r\n- PostgreSQL Flexible Server Logging Enabled\r\n\r\n**PostgreSQL Server**\r\n- PostgreSQL FLexible Server Log Duration Enabled\r\n\r\n\r\n\r\n\r\n## Hot fixes and enhancements\r\n### Aws\r\n **KMS Key Rotation** \r\n     Key rotation feature is only available on key type SYMMETRIC_DEFAULT , updated the plugin to produce passing results for the key \r\n     type that does not have key rotation feature available.\r\n\r\n\r\n2. **ELBv2 TLS Version and Cipher Header Enabled**\r\n        Updated the plugin logic to check that TLS version and Cipher should be disabled in headers. Enabling these headers may leak \r\n        sensitive information, so updating the plugin to check the TLS version and Cipher header should not be enabled. Updated the title, \r\n        description and output message . The plugin title is renamed to ELBv2 TLS Version and Cipher Header Disabled.\r\n\r\n3. **EKS Kubernetes Version**\r\n       Modified the depreciation date for EKS versions. For list of updated EKS versions, refer \r\n       https://docs.aws.amazon.com/eks/latest/userguide/kubernetes-versions.html \r\n\r\n4. **EKS Latest Platform Version**\r\n        Modified the depreciation date and latest platform version for EKS versions. For list of updated latest platform, refer to \r\n        https://docs.aws.amazon.com/eks/latest/userguide/platform-versions.html\r\n\r\n5. **Lambda Old Runtimes**\r\n        Modified the end of life dates for lambda runtimes versions. For list of updated end of life dates for lambda runtimes versions, \r\n        refer , https://docs.aws.amazon.com/lambda/latest/dg/lambda-runtimes.html#runtime-support-policy\r\n\r\n\r\n### Azure \r\n1. **Load Balancer Public IP**\r\n      Revised title, description, more info, recommended actions, and output message of the plugin to ensure that Azure Load Balancers \r\n      are public to meet your organization's security compliance and availability needs. The plugin title is renamed to **Public Load \r\n      Balancer**.\r\n\r\n2. **PostgreSQL Flexible Server Version**\r\n        Earlier, the plugin was checking for the latest version, which was 13. Modified the latest version of the flexible server from 13 to 16.\r\n\r\n3. **Microsoft Support Operations Auditing Enabled**\r\n        Updated the plugin to produce unknown results if it’s unable to get audit policies, previously it was producing failed results if there \r\n        were no audit policies in data.\r\n\r\n\r\n4.    Previously, the following plugins were responsible for checking the diagnostic logs of blob, queue, and table for both V1 and V2 \r\n        storage account types. But as in V1 (premium) type the diagnostic logs can only be enabled for that specific storage account kind \r\n        service, so updated the plugins to produce pass results if the storage account type is premium.\r\n\r\n**Storage Account Blob Service Logging Enabled\r\nStorage Account Queue Service Logging Enabled\r\nStorage Account Table Service Logging Enabled**\r\n\r\n\r\n\r\n### Google\r\n1. **PostgreSQL Latest Version**\r\n       Earlier, the plugin checking for the latest version, which was 14. Modified the latest version of PostgreSQL server from 14 to 15."
     },
@@ -27993,12 +27993,12 @@
         "commit_date": "2023-05-15 03:59:15"
     },
     "https://github.com/kubescape/kubescape": {
-        "created_at": "2024-05-07 06:16:20",
+        "created_at": "2024-05-26 13:28:30",
         "description": "Kubescape is an open-source Kubernetes security platform for your IDE, CI/CD pipelines, and clusters. It includes risk analysis, security, compliance, and misconfiguration scanning, saving Kubernetes users and administrators precious time, effort, and resources.",
-        "commit_message": "Merge pull request #1685 from kubescape/fixfix\n\nfix yamlhandler deleting too many lines during fix",
-        "commit_date": "2024-05-23 08:19:02",
-        "release_date": "2024-05-07 06:55:04",
-        "release_message": "This is a hot-fix release, see [v3.0.9 release notes](https://github.com/kubescape/kubescape/releases/tag/v3.0.9).\r\n\r\n## 🐞 Fixed issues\r\n* Fix scanning repo by @dwertent in https://github.com/kubescape/kubescape/pull/1680\r\n\r\n**Full Changelog**: https://github.com/kubescape/kubescape/compare/v3.0.9...v3.0.10"
+        "commit_message": "Merge pull request #1695 from kubescape/rulename\n\nupdate exceptions docs - ruleName not supported",
+        "commit_date": "2024-06-11 08:41:15",
+        "release_date": "2024-05-27 21:21:40",
+        "release_message": "## 🐞 Fixed issues\r\n* Mask all container data by @dwertent in https://github.com/kubescape/kubescape/pull/1683\r\n* fix yaml handler deleting too many lines during fix by @matthyx in https://github.com/kubescape/kubescape/pull/1685\r\n* Fix scanning unsupported clouds by @dwertent in https://github.com/kubescape/kubescape/pull/1688\r\n\r\n\r\n**Full Changelog**: https://github.com/kubescape/kubescape/compare/v3.0.10...v3.0.11"
     },
     "https://github.com/zema1/watchvuln": {
         "created_at": "2024-06-04 12:16:45",
