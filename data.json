@@ -1079,7 +1079,7 @@
         "created_at": "2024-03-07 09:30:14",
         "description": "基于 docsify 快速部署 Awesome-POC 中的漏洞文档",
         "commit_message": "update",
-        "commit_date": "2024-06-04 08:06:48",
+        "commit_date": "2024-06-13 03:36:46",
         "release_date": "2024-04-01 03:17:43",
         "release_message": "2023.04.01 重构目录，此为重构前 release。重构后目录如下：\r\n```\r\ndirs = {\r\n    'oa':'OA漏洞',\r\n    'cms': 'CMS漏洞',\r\n    'framework': '开发框架漏洞',\r\n    'iot': '网络设备漏洞',\r\n    'language': '开发语言漏洞',\r\n    'os': '操作系统漏洞',\r\n    'webapp': 'Web应用漏洞',\r\n    'middleware': '中间件漏洞',\r\n    'database': '数据库漏洞',\r\n    'cloud': '云安全漏洞',\r\n    'others':'其他漏洞'\r\n}\r\n```"
     },
@@ -1878,12 +1878,12 @@
         "release_message": "修复服务器开启端口问题"
     },
     "https://github.com/hiroi-sora/Umi-OCR": {
-        "created_at": "2022-03-28 04:01:46",
+        "created_at": "2024-06-03 13:16:33",
         "description": "OCR software, free and offline. 开源、免费的离线OCR软件。支持截屏/批量导入图片，PDF文档识别，排除水印/页眉页脚，扫描/生成二维码。内置多国语言库。",
-        "commit_message": "修Bug：若原文档已加密，则OCR结果无法保存为PDF文件。",
-        "commit_date": "2024-06-01 10:07:54",
-        "release_date": "2024-03-29 13:29:20",
-        "release_message": "# 两周年 & 两万星星撒花！\r\n\r\nCelebrating the two-year anniversary of this project and reaching 20k stars!\r\n\r\n<details>\r\n<summary>作者的话</summary>\r\n\r\n两年前，有个人试图寻找一个免费的、无需注册、开箱即用、支持批量处理且不限制数量的OCR软件。可惜，当时没有软件满足他的需求。于是，他一拍脑袋，花了几个日夜，自己写了个软件原型。那就是 Umi-OCR [v1.0](https://github.com/hiroi-sora/Umi-OCR/releases/tag/v1.0) 。\r\n\r\n没想到这个项目还挺受大家欢迎，于是他就一直维护更新下去。在用户的建议下，Umi 的功能越来越丰富，有了截图，现代化UI，二维码，PDF识别，HTTP接口……从1k行代码的小demo，历经两年迭代，到如今20k+行；Umi 逐渐变成一个较为成熟完整的项目。\r\n\r\n未来，Umi 会继续完善现有功能、开发新的功能。受限于作者的业余时间和精力，项目更新的速度可能不会很快，还请给予耐心。本项目始终在稳步前进，历史上大多数Issues反馈和请求，最终都落到了实处。\r\n\r\n（下一步，我将对软件底层的插件机制做出较大的调整和重构，以便为表格识别、图片翻译、原生Linux支持 等大型功能铺平道路。）\r\n\r\n感谢各位用户、开发者、翻译者的支持。感谢我自己的坚持。\r\n\r\n—— by hiroi-sora\r\n\r\n---\r\n\r\n</details>\r\n\r\n\r\n## v2.1.1 主要更新 / Changelog\r\n\r\n- 修复：`Windows7` 及 `核心数<=2的CPU` 无法进行文档识别的Bug。\r\n- 新增：批量文档识别允许指定忽略区域的页数范围。\r\n- 新增：命令行`--path`允许传入多个图片或文件夹。👉[命令行手册](https://github.com/hiroi-sora/Umi-OCR/blob/main/docs/README_CLI.md)\r\n- 新增：新的命令行、HTTP接口：识别/生成二维码图像。👉[HTTP手册](https://github.com/hiroi-sora/Umi-OCR/blob/main/docs/README_HTTP.md)\r\n- 优化：双栏面板会记忆左右折叠状态。\r\n- 完善 繁+英+日 界面本地化翻译。感谢 [翻译人员](https://github.com/hiroi-sora/Umi-OCR?tab=readme-ov-file#%E8%BD%AF%E4%BB%B6%E6%9C%AC%E5%9C%B0%E5%8C%96%E7%BF%BB%E8%AF%91) 。\r\n\r\n<details>\r\n<summary>次要更新：（点击展开）</summary>\r\n\r\n- 新增：命令行新指令 `--output`, `--output_append`, `--clip` 。\r\n- 新增：清空全部识别记录的快捷键。 (#420)\r\n- 新增：截图预览 删除图片显示的选项和快捷键。 (#427)\r\n- 优化：开始菜单/开机自启快捷方式，默认放置于用户目录下，避免请求管理员权限。 (#428)\r\n- 优化：保存双层PDF，在没有新文本写入时的处理逻辑。 (#416)\r\n- 优化：PDF解析时，提取原有文本行的逻辑更准确。\r\n- 修复：Esc取消截图的消息传递错误。 (#402)\r\n- 修复：文档`整页强制OCR`模式下，提高小尺寸页面的渲染精度。\r\n- UI：优化一些提示，修复一些渲染问题，美化一些视觉效果。\r\n\r\n</details>\r\n\r\n#### Windows7 用户注意： [常见问题及修复方法](https://github.com/hiroi-sora/Umi-OCR/issues/447)\r\n\r\n---\r\n\r\n### 配置文件迁移 / Configuration file migration\r\n\r\nUmi-OCR v2 用户升级时，将旧版软件的`UmiOCR-data/.settings`拷贝到新版相同位置即可。\r\n\r\nCopy the `UmiOCR-data/.settings` from the old version of the software to the same location in the new version.\r\n\r\n### 下载说明 / Download Instructions\r\n\r\n不同版本仅OCR引擎插件不同，其它功能完全一致。\r\n均支持 win7 x64 及以上的系统，附带多国语言识别库。\r\n\r\n`.7z.exe`为自解压包，可以用压缩软件打开，也可以在没有安装压缩软件的电脑上直接双击解压。\r\n\r\n### Paddle 引擎插件版\r\n\r\n（性能好，速度快，占用率高，适合高配机器。**不兼容奔腾、赛扬、凌动CPU**）\r\n\r\n**重要提示：如果执行OCR时报错 `0xc0000142`、`[Error] OCR init fail`，大概率是CPU不兼容Paddle，请换用Rapid版本。**\r\n\r\n**Umi-OCR_Paddle_v2.1.0.7z.exe** （129MB）\r\nSHA256: `53e144b07c3ddfc1038e16926912de75c8212840c84cd56713f9e93ecc22e753`\r\n\r\n### Rapid 引擎插件版\r\n\r\n（速度稍慢，内存占用低，适合低配机器，兼容性好）\r\n\r\n**Umi-OCR_Rapid_v2.1.0.7z.exe** （97.1MB）\r\nSHA256: `09f10d04bd1915ad67a76e57e54adad781a295e8bbf64c7a3e7207f056cafee6`\r\n\r\n## 更多插件 / Plugins\r\n\r\n前往 [Umi-OCR_插件仓库](https://github.com/hiroi-sora/Umi-OCR_plugins) ，下载更多OCR插件，获取`离线数学公式识别`等附加功能。\r\n\r\nVisit the [Umi-OCR_Plugins](https://github.com/hiroi-sora/Umi-OCR_plugins) to download more OCR plugins and acquire additional features such as `Offline Mathematical Formula Recognition`.\r\n\r\n---\r\n\r\n更多下载途径： [蓝奏云](https://hiroi-sora.lanzoul.com/s/umi-ocr) | [SourceForge](https://sourceforge.net/projects/umi-ocr/files/v2.1.1/) | [Scoop](https://scoop.sh/#/apps?q=umi-ocr)\r\n\r\n[![Download Umi-OCR](https://a.fsdn.com/con/app/sf-download-button)](https://sourceforge.net/projects/umi-ocr/files/v2.1.1/)"
+        "commit_message": "Translations update from Hosted Weblate (#557)\n\n* Added translation using Weblate (Portuguese)\r\n\r\n* Translated using Weblate (Portuguese)\r\n\r\nCurrently translated at 0.0% (0 of 449 strings)\r\n\r\nTranslation: Umi-OCR/UI\r\nTranslate-URL: https://hosted.weblate.org/projects/umi-ocr/ui/pt/\r\n\r\n* Translated using Weblate (English (United States))\r\n\r\nCurrently translated at 97.9% (440 of 449 strings)\r\n\r\nTranslation: Umi-OCR/UI\r\nTranslate-URL: https://hosted.weblate.org/projects/umi-ocr/ui/en_US/\r\n\r\n---------\r\n\r\nCo-authored-by: Marcos i <ultramarkorj9@gmail.com>",
+        "commit_date": "2024-06-13 03:59:08",
+        "release_date": "2024-06-03 13:46:15",
+        "release_message": "[English](https://github-com.translate.goog/hiroi-sora/Umi-OCR/releases/tag/v2.1.2?_x_tr_sl=zh-CN&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=wapp)\r\n\r\n## v2.1.2 主要更新\r\n\r\n- 新增：批量任务（图片、文档）支持 **暂停任务** 。只要不退出软件，在待机/休眠后可以恢复任务。\r\n- 新增：文档任务支持保存为 **单层纯文本PDF** 。\r\n- 新增：HTTP OCR接口 允许设置 **忽略区域** 参数。👉 [文档](https://github.com/hiroi-sora/Umi-OCR/blob/main/docs/README_HTTP.md#1-%E5%9B%BE%E7%89%87ocrbase64-%E8%AF%86%E5%88%AB%E6%8E%A5%E5%8F%A3)\r\n- 新增：HTTP 二维码接口 允许设置 **图像预处理** 参数。👉 [文档](https://github.com/hiroi-sora/Umi-OCR/blob/main/docs/README_HTTP.md#/api/qrcode)\r\n- 新增：命令行`--screenshot`允许 **指定屏幕范围** ，自动进行截图。👉 [文档](https://github.com/hiroi-sora/Umi-OCR/blob/main/docs/README_CLI.md#ocr%E6%8C%87%E4%BB%A4)\r\n- 修复：文档内容提取和写入时的坐标旋转、比例适配问题。\r\n- 修复：截图预览 & 记录面板中，跨区块复制文本时，尾块的复制字数不正确。\r\n- 修复：文档识别 整页强制OCR 模式下，无法进行任务。（2024.6.5紧急修复）\r\n- 优化：批量文档标签页，拖入大量文件、提交大批任务时的性能和流畅度。\r\n- 优化：文档任务保存的文件名规则。\r\n- UI：优化一些布局，调整一些文本，美化一些视觉效果。\r\n\r\n#### Windows7 用户注意： [常见问题及修复方法](https://github.com/hiroi-sora/Umi-OCR/issues/447)\r\n\r\n---\r\n\r\n新开通了赞助方式 [爱发电](https://afdian.net/a/hiroi-sora) ，有意愿的用户可以支持一下~\r\n\r\nUmi-OCR 保证始终 **开源** 和 **完全免费** 。所有需要付费/注册/关注才能下载的渠道均 **不是** 我们发布的渠道，请注意辨别。\r\n\r\n---\r\n\r\n### 配置文件迁移\r\n\r\nUmi-OCR v2 用户升级时，将旧版软件的`UmiOCR-data/.settings`拷贝到新版相同位置即可。\r\n\r\n### 下载说明\r\n\r\n不同版本仅OCR引擎插件不同，其它功能完全一致。\r\n均支持 win7 x64 及以上的系统，附带多国语言识别库。\r\n\r\n`.7z.exe`为自解压包，可以用压缩软件打开，也可以在没有安装压缩软件的电脑上直接双击解压。\r\n\r\n### Paddle 引擎插件版\r\n\r\n（性能好，速度快，占用率高，适合高配机器。**不兼容奔腾、赛扬、凌动CPU**）\r\n\r\n**重要提示：如果执行OCR时报错 `0xc0000142`、`[Error] OCR init fail`，大概率是CPU不兼容Paddle，请换用Rapid版本。**\r\n\r\n**Umi-OCR_Paddle_v2.1.2.7z.exe** （128.5MB）\r\nSHA256: `6dce23ea7f95a2ffb9415f8f5bb588df75ddf90abdcbbb972cc38fe2dbbfc70d`\r\n\r\n### Rapid 引擎插件版\r\n\r\n（速度稍慢，内存占用低，适合低配机器，兼容性好）\r\n\r\n**Umi-OCR_Rapid_v2.1.2.7z.exe** （97.1MB）\r\nSHA256: `879484ca912814702c30ba4dc0d9a5afff1ba0457c2fca2825ef7ea7adcde7b4`\r\n\r\n## 更多插件\r\n\r\n前往 [Umi-OCR_插件仓库](https://github.com/hiroi-sora/Umi-OCR_plugins) ，下载更多OCR插件，获取`离线数学公式识别`等附加功能。\r\n\r\n---\r\n\r\n更多下载途径： [蓝奏云](https://hiroi-sora.lanzoul.com/s/umi-ocr) | [SourceForge](https://sourceforge.net/projects/umi-ocr/files/v2.1.2/) | [Scoop](https://scoop.sh/#/apps?q=umi-ocr)\r\n\r\n[![Download Umi-OCR](https://a.fsdn.com/con/app/sf-download-button)](https://sourceforge.net/projects/umi-ocr/files/v2.1.2/)"
     },
     "https://github.com/qianxiao996/CTF-Tools": {
         "created_at": "2022-07-21 08:40:01",
@@ -3014,12 +3014,12 @@
         "release_message": "- Added SNI support\r\n- Minor fixed and improvements"
     },
     "https://github.com/zan8in/afrog": {
-        "created_at": "2024-04-30 08:00:52",
+        "created_at": "2024-06-11 01:48:32",
         "description": "A Security Tool for Bug Bounty, Pentest and Red Teaming.",
-        "commit_message": "update readme",
-        "commit_date": "2024-05-30 08:56:51",
-        "release_date": "2024-04-30 08:06:32",
-        "release_message": "修复一个BUG，该BUG导致在Linux环境内使用 -ap 命令时，指定路径全部转为小写，从而无法正常工作。\r\nFix a bug where the -ap command cannot be used due to all specified paths being converted to lowercase within the Linux environment."
+        "commit_message": "update pocs",
+        "commit_date": "2024-06-12 00:32:14",
+        "release_date": "2024-06-11 01:53:16",
+        "release_message": "新增 OOB 平台：recvsuit，使用命令：`-oob revsuit`\r\nafrog-config.yaml 新增配置：\r\n![image](https://github.com/zan8in/afrog/assets/4088460/857b5edd-c265-4ebc-9269-62d1275e96b4)\r\n\r\n> token: 密钥（参考 revsuit 教程）\r\ndns_domain: 记录 dns log 的域名\r\nhttp_url: 记录 http log 的 url\r\napi_url: revsuit 的验证接口（参考 revsuit 教程）\r\n\r\n官网：https://github.com/Li4n0/revsuit\r\n教程：稍后加入 wiki "
     },
     "https://github.com/moonD4rk/HackBrowserData": {
         "created_at": "2024-01-09 12:57:42",
@@ -3367,8 +3367,8 @@
     "https://github.com/bit4woo/domain_hunter_pro": {
         "created_at": "2023-04-18 00:03:06",
         "description": "domain_hunter的高级版本，SRC挖洞、HW打点之必备！自动化资产收集；快速Title获取；外部工具联动；等等",
-        "commit_message": "fix bug #65 高版本Burp中插件UI加载失败问题",
-        "commit_date": "2024-06-05 04:13:18",
+        "commit_message": "Update ToolPanel.java",
+        "commit_date": "2024-06-14 11:37:39",
         "release_date": "2023-04-18 00:34:58",
         "release_message": "全局：\r\n多个bug修复\r\n布局模式优化\r\n基础方法实现逻辑优化\r\n\r\n右键菜单：\r\n“Do Search”提供主动在制定请求中进行搜索的能力，比如在某企业邮箱的流量中搜索以提取邮箱地址\r\n“Add Request And Comment”右键菜单添逻辑优化，修复一个bug\r\n“Send To Tool Panel”右键菜单处理逻辑优化，可合并发送多个数据包内容\r\n\r\nDomain面板：\r\nroot domain的comments逻辑更新\r\n提供多个网络搜索引擎的后台自动搜索功能\r\nroot domain双击，自动在浏览器中访问\r\n修改目标根域名删除失败的bug\r\n显示序号，以便在排序后恢复原始顺序\r\n\r\nTool面板：\r\n重写JTextArea的paste函数，避免大内容导致程序卡死\r\nJTextArea支持输入文件，而程序处理其内容。\r\n文本取提供简单的历史记录功能\r\nJSON提取逻辑优化\r\n新增多个功能，比如排序\r\n优化URL提取逻辑，避免遗漏没有以/开头的path\r\n\r\nTitle面板中：\r\n端口扫描命令生成逻辑优化\r\n备注和IP内容的显示优化，显示前排序\r\n备注添加逻辑优化\r\n给手动添加的记录添加已知的IP和CNAME、CertInfo\r\n搜索功能增强，支持对数字型字段进行大于、小于、等于等搜索\r\n添加多个搜索实例，以便用户熟悉搜索语法\r\n新增“Do Request Item Again”菜单，对DNS记录或无响应的数据包进行再次请求"
     },
@@ -6498,8 +6498,8 @@
     "https://github.com/ImageMagick/ImageMagick": {
         "created_at": "2024-05-25 12:22:12",
         "description": "🧙‍♂️ ImageMagick 7",
-        "commit_message": "Bump azure/trusted-signing-action from 0.3.18 to 0.3.19 (#7348)\n\nBumps [azure/trusted-signing-action](https://github.com/azure/trusted-signing-action) from 0.3.18 to 0.3.19.\r\n- [Release notes](https://github.com/azure/trusted-signing-action/releases)\r\n- [Commits](https://github.com/azure/trusted-signing-action/compare/v0.3.18...v0.3.19)\r\n\r\n---\r\nupdated-dependencies:\r\n- dependency-name: azure/trusted-signing-action\r\n  dependency-type: direct:production\r\n  update-type: version-update:semver-patch\r\n...\r\n\r\nSigned-off-by: dependabot[bot] <support@github.com>\r\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
-        "commit_date": "2024-05-27 04:34:16",
+        "commit_message": "latest autoconf update",
+        "commit_date": "2024-06-11 23:44:53",
         "release_date": "2024-05-25 15:33:57",
         "release_message": "## What's Changed\n* Fix typo by @kmilos in https://github.com/ImageMagick/ImageMagick/pull/7294\n* Bump azure/trusted-signing-action from 0.3.16 to 0.3.18 by @dependabot in https://github.com/ImageMagick/ImageMagick/pull/7325\n* Bump caphyon/advinst-github-action from 1.1 to 2.0 by @dependabot in https://github.com/ImageMagick/ImageMagick/pull/7326\n\n\n**Full Changelog**: https://github.com/ImageMagick/ImageMagick/compare/7.1.1-32...7.1.1-33"
     },
@@ -7647,8 +7647,8 @@
     "https://github.com/openwall/john": {
         "created_at": "2011-12-16 19:43:47",
         "description": "John the Ripper jumbo - advanced offline password cracker, which supports hundreds of hash and cipher types, and runs on many operating systems, CPUs, GPUs, and even some FPGAs",
-        "commit_message": "Shuffle external mode: Further optimizations for limited length",
-        "commit_date": "2024-05-30 18:33:48"
+        "commit_message": "ClearQuest format: Treat characters as unsigned\n\nSee #802",
+        "commit_date": "2024-06-12 20:25:59"
     },
     "https://github.com/shimmeris/SCFProxy": {
         "created_at": "2021-04-18 11:21:43",
@@ -22440,12 +22440,12 @@
         "release_message": ""
     },
     "https://github.com/GZTimeWalker/GZCTF": {
-        "created_at": "2022-03-08 13:01:42",
+        "created_at": "2024-06-13 20:46:06",
         "description": "The GZ::CTF project, an open source CTF platform.",
-        "commit_message": "chore(ci): use match for tag",
-        "commit_date": "2024-06-03 16:53:52",
-        "release_date": "2024-06-02 21:10:24",
-        "release_message": "## [0.20.6](https://github.com/GZTimeWalker/GZCTF/compare/v0.20.5..v0.20.6) - 2024-06-02\r\n\r\n> [!IMPORTANT]\r\n> \r\n>  ### What's changed\r\n> \r\n> - **Upgrade to v0.20.6 for react-pdf v9.0.0 and pdf-js v4.3.136.**\r\n> - **You can now custom the theme color and logo used by GZCTF!**\r\n> - **Better SEO for your site! Including description & site image!**\r\n> - **Preventing XSS with nonce-based Content-Security-Policy.**\r\n\r\n### ⛰️ Features\r\n\r\n- support docker basic auth - ([12418d](https://github.com/GZTimeWalker/GZCTF/commit/12418d)) by **GZTime**\r\n- darken pdf in dark mode - ([418343](https://github.com/GZTimeWalker/GZCTF/commit/418343)) by **GZTime**\r\n\r\n### 🎨 Styling\r\n\r\n- challenge page - ([a8254e](https://github.com/GZTimeWalker/GZCTF/commit/a8254e)) by **GZTime**\r\n---\r\n\r\n**Changelog**: https://github.com/GZTimeWalker/GZCTF/blob/HEAD/CHANGELOG.md\r\n**Commits**: https://github.com/GZTimeWalker/GZCTF/compare/v0.20.5...v0.20.6"
+        "commit_message": "fix(frontend): overflow for challenge modal, again",
+        "commit_date": "2024-06-14 16:28:15",
+        "release_date": "2024-06-13 20:48:10",
+        "release_message": "## [0.20.8](https://github.com/GZTimeWalker/GZCTF/compare/v0.20.7..v0.20.8) - 2024-06-13\r\n\r\n### ⛰️ Features\r\n\r\n- **(frontend)** upgrade marked to v13 with custom extension - ([43f908](https://github.com/GZTimeWalker/GZCTF/commit/43f908)) by **GZTime**\r\n\r\n### 🐛 Bug Fixes\r\n\r\n- **(frontend)** unexpected indentation in markdown render (#304) - ([0861e7](https://github.com/GZTimeWalker/GZCTF/commit/0861e7)) by **埃拉**\r\n- **(game)** access to disabled challenges - ([440e15](https://github.com/GZTimeWalker/GZCTF/commit/440e15)) by **GZTime**\r\n- overflow for some challenges - ([6b44ef](https://github.com/GZTimeWalker/GZCTF/commit/6b44ef)) by **GZTime**\r\n\r\n---\r\n\r\n**Changelog**: https://github.com/GZTimeWalker/GZCTF/blob/HEAD/CHANGELOG.md\r\n**Commits**: https://github.com/GZTimeWalker/GZCTF/compare/v0.20.7...v0.20.8"
     },
     "https://github.com/savior-only/Spring_All_Reachable": {
         "created_at": "2023-06-01 09:12:40",
@@ -23693,8 +23693,8 @@
     "https://github.com/qi4L/JYso": {
         "created_at": "2024-05-29 08:13:04",
         "description": "It can be either a JNDIExploit or a ysoserial.",
-        "commit_message": "Add constructor",
-        "commit_date": "2024-05-29 08:13:04",
+        "commit_message": "Update issue templates",
+        "commit_date": "2024-06-05 04:46:41",
         "release_date": "2024-05-29 08:17:49",
         "release_message": "# 给回显类添加构造函数写法版本\r\n类加载时，同名类只会执行一次静态代码，搞得每次执行都要打一遍\r\n如果打的构造类方法，就可以打一次就一直用\r\n# 修复JNDI模式下TomcatBypass路由失效问题"
     },
@@ -24227,8 +24227,8 @@
     "https://github.com/jeremylong/DependencyCheck": {
         "created_at": "2024-05-15 09:29:26",
         "description": "OWASP dependency-check is a software composition analysis utility that detects publicly disclosed vulnerabilities in application dependencies.",
-        "commit_message": "build(deps): bump org.apache.maven.shared:maven-dependency-tree from 3.2.1 to 3.3.0 (#6706)\n\nSigned-off-by: dependabot[bot] <support@github.com>\r\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
-        "commit_date": "2024-06-03 11:16:07",
+        "commit_message": "build(deps): bump org.apache.maven.plugins:maven-javadoc-plugin from 3.6.3 to 3.7.0 (#6724)\n\nSigned-off-by: dependabot[bot] <support@github.com>\r\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
+        "commit_date": "2024-06-14 10:32:39",
         "release_date": "2024-05-15 10:00:16",
         "release_message": "Refer to the [CHANGELOG.md](https://github.com/jeremylong/DependencyCheck/blob/main/CHANGELOG.md#change-log) for information about improvements and upgrade notes."
     },
@@ -24763,7 +24763,7 @@
     },
     "https://www.shellpub.com/": {
         "status_code": 200,
-        "description": "SHELLPUB.COM 专注查杀，永久免费"
+        "description": "SHELLPUB.COM"
     },
     "https://www.qqxiuzi.cn/bianma/wenbenjiami.php?s=yinyue": {
         "status_code": 200,
@@ -27074,7 +27074,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "172.183.51.244属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "52.238.27.71属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
