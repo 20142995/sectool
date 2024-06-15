@@ -748,13 +748,13 @@
         "release_message": "优化显示，修复卡顿的bug，增加控制参数，修复mac读取配置文件的问题"
     },
     "https://github.com/vladko312/SSTImap": {
-        "created_at": "2022-06-15 06:27:32",
+        "created_at": "2024-01-06 22:46:06",
         "description": "Automatic SSTI detection tool with interactive interface",
-        "commit_date": "2023-06-01 22:42:34",
-        "commit_message": "Version 1.1.4 (Improvements)\n\nAdded functionality for loading and saving URLs and forms\r\nAdded a way to set blind injection delay and response logging without config\r\nNow you can set delay between requests\r\nRandom user agent now works during crawling\r\nRandom user agent is now chosen for every request\r\nAdded custom plugins to gitignore\r\nFixed a bug with default False values\r\nFixed some bugs with the crawler\r\n\r\nA minor update with simple improvements and fixes",
+        "commit_date": "2024-05-10 19:17:12",
+        "commit_message": "Version 1.2.1 (Improvements)\n\nAdded generic payloads for template engines wrapping base language\r\nAdded a way to skip dedicated payloads for such generic engines\r\n - Speeds up detection but might miss complex contexts\r\nBlind exploitation now lowers the delay after confirmation\r\nAdded a way to start interactive detection from command line\r\nAdded a suggestion to use interactive mode\r\nFixed detection when os command execution returns extra newline\r\nFixed JSON request body support\r\nFixed some bugs with JS and PHP payloads\r\n\r\nA minor update with simple improvements and fixes",
         "release_tag": "v1.1",
-        "release_date": "2023-04-16 22:40:19",
-        "release_message": "- Crawler and form detection (by @fantesykikachu)\r\n- New template engine added: Cheetah\r\n- Automatic import for engine modules\r\n- Interactive module reloading capability\r\n- Full support for Python 3.11\r\n- Replaced telnetlib with a custom TCP client"
+        "release_date": "2024-01-06 22:54:43",
+        "release_message": "- New payload for Twig exploiting [CVE-2022-23614](https://github.com/advisories/GHSA-5mv2-rx3q-4w2v)\r\n> Old payload renamed to Twig_v1\r\n> Alternate payload: legacy/Twig_filter\r\n- Request body type support: \r\n> form: URLencoded form data (default)\r\n> json: JSON data\r\n> text: Plain text data\r\n> fromhex: Binary data encoded as HEX\r\n- Blind detection now uses separate longer time for verification and exploitation\r\n> Detected blind injections are now verified to produce less false positives\r\n> Warning is printed if detected delays vary more than expected\r\n- Improved some payloads by removing unused closures\r\n- Added a way to specify expected target system shell\r\n- URLs without params are no longer treated as forms by default\r\n- Added clarity with text and colors\r\n- Fixed some bugs"
     },
     "https://github.com/xxcdd/docker_nessus_unlimited": {
         "created_at": "2021-02-06 02:32:44",
@@ -1283,7 +1283,7 @@
     },
     "https://github.com/burpheart/koko-moni": {
         "created_at": "2023-03-13 14:49:04",
-        "description": "一个网络空间搜索引擎监控平台，可定时进行资产信息爬取，及时发现新增资产，本项目聚合了 Fofa、Hunter、Quake、Zoomeye 和 Threatbook 的数据源，并对获取到的数据进行去重与清洗",
+        "description": "一个基于网络空间搜索引擎的攻击面管理平台，可定时进行资产信息爬取，及时发现新增资产，本项目聚合了 Fofa、Hunter、Quake、Zoomeye 和 Threatbook 的数据源，并对获取到的数据进行去重与清洗",
         "commit_date": "2023-04-19 13:35:30",
         "commit_message": "Update readme.md",
         "release_tag": "v0.0.1",
@@ -1300,7 +1300,7 @@
         "release_message": ""
     },
     "https://github.com/smallfox233/ExpToPocsuite3": {
-        "created_at": "2022-09-30 15:47:25",
+        "created_at": "2023-01-09 07:27:17",
         "description": "goby exp批量转换为pocsuite3 exp脚本",
         "commit_date": "2023-01-09 07:27:17",
         "commit_message": "Update README.md",
@@ -1994,13 +1994,13 @@
         "release_message": "- Added zoom to image\r\n- Added drag&drop zone for files\r\n- Added \"all\" option to channel planes in \"Data Extract\"\r\n- Added horizontal scrolling (Shift+Mousewheel)"
     },
     "https://github.com/13exp/SpringBoot-Scan-GUI": {
-        "created_at": "2023-02-08 13:09:31",
+        "created_at": "2023-11-27 16:03:37",
         "description": "",
-        "commit_date": "2023-02-15 02:40:09",
-        "commit_message": "Delete targets.txt",
+        "commit_date": "2023-11-27 16:03:37",
+        "commit_message": "Add files via upload",
         "release_tag": "v1.2.2",
-        "release_date": "2023-02-15 02:41:43",
-        "release_message": "针对CVE-2022-22965，增加shell验证减少误报，新增加操作系统识别功能，若需使用，可从菜单【更多】，前往nmap下载使用，识别仅支持单地址"
+        "release_date": "2023-11-27 16:15:04",
+        "release_message": "- 新增2023 JeeSpringCloud 任意文件上传漏洞\r\n- 新增2021 SnakeYAML_RCE 漏洞\r\n- 新增2020 Jolokia配置不当导致RCE漏洞\r\n- 新增CVE-2021-21234 (任意文件读取漏洞)\r\n- 支持配合BurpSuite进行抓包测试\r\n- 支持批量验证代理节点，自动检测节点状态，并保存清洗后的文件\r\n- 集成Fofa资产测绘功能\r\n- 完全随机的User-Agent请求头\r\n- 解决了不同操作系统下的路径问题，程序不再开发对应的操作系统版本"
     },
     "https://github.com/s7ckTeam/Glass": {
         "created_at": "2021-01-06 10:14:30",
@@ -2012,13 +2012,13 @@
         "release_message": ""
     },
     "https://github.com/silentsignal/burp-requests": {
-        "created_at": "2015-09-25 11:25:32",
+        "created_at": "2024-03-07 08:58:57",
         "description": "Copy as requests plugin for Burp Suite",
-        "commit_date": "2020-02-06 13:39:42",
-        "commit_message": "bumped version to v0.2.4",
+        "commit_date": "2024-03-07 08:57:51",
+        "commit_message": "bumped version to v0.2.5",
         "release_tag": "v0.2.4",
-        "release_date": "2020-02-06 13:41:34",
-        "release_message": "Fixed encoding empty JSON objects, thanks to @Tare05 for reporting it."
+        "release_date": "2024-03-07 09:01:04",
+        "release_message": "Fixed a bug that parsed requests with a colon (`:`) in the path incorrectly (#3)"
     },
     "https://github.com/EASY233/BpScan": {
         "created_at": "2022-11-23 03:56:16",
@@ -2475,7 +2475,7 @@
         "release_message": "# python app.py"
     },
     "https://github.com/zhzyker/vulmap": {
-        "created_at": "2020-10-09 06:34:36",
+        "created_at": "2021-09-01 02:58:00",
         "description": "Vulmap 是一款 web 漏洞扫描和验证工具, 可对 webapps 进行漏洞扫描, 并且具备漏洞验证功能",
         "commit_date": "2022-04-13 13:23:54",
         "commit_message": "fofa.info",
@@ -2536,7 +2536,7 @@
         "release_message": ""
     },
     "https://github.com/tr0uble-mAker/POC-bomber": {
-        "created_at": "2021-11-26 04:21:02",
+        "created_at": "2023-06-09 13:07:59",
         "description": "利用大量高威胁poc/exp快速获取目标权限，用于渗透和红队快速打点",
         "commit_date": "2023-06-09 13:20:09",
         "commit_message": "红队版本 poc-bomber v3.0.0 redteam",
@@ -3111,7 +3111,7 @@
         "release_message": ""
     },
     "https://github.com/nszy007/CN_Nessus_Plugins_Interface": {
-        "created_at": "2022-02-10 07:56:50",
+        "created_at": "2022-02-10 08:16:58",
         "description": "nessus插件中文查询接口",
         "commit_date": "2023-03-05 02:02:20",
         "commit_message": "20230301",
@@ -3550,7 +3550,7 @@
         "release_message": ""
     },
     "https://github.com/z2p/sweetPotato": {
-        "created_at": "2022-09-25 17:46:39",
+        "created_at": "2023-04-29 20:00:15",
         "description": "基于burpsuite的资产分析工具",
         "commit_date": "2023-04-29 20:11:02",
         "commit_message": "change readme",
@@ -5756,7 +5756,7 @@
         "release_message": "中文：\r\n1：*特大更新，集成FireDog病毒检测引擎，支持进程内存、进程路径、进程链接库以及自定义路径病毒检测。\r\n2：*特大更新，对界面的美观程度做了优化。\r\n3：修复windows agent在采集系统日志（事件）时内存占用过高问题。\r\n4：内置与当前版本配套的FireDogEditor。\r\nEnglish：\r\n1: * extra large update, integrated with firedog virus detection engine, supports process memory, process path, process link library and custom path virus detection.\r\n2: * extra large update to optimize the beauty of the interface.\r\n3: Fix the problem that windows agent occupies too much memory when collecting system logs (events).\r\n4: Built in FireDogEditor with the current version."
     },
     "https://github.com/shmilylty/SharpHostInfo": {
-        "created_at": "2022-09-08 14:19:36",
+        "created_at": "2022-09-09 08:47:46",
         "description": "SharpHostInfo是一款快速探测内网主机信息工具（深信服深蓝实验室天威战队强力驱动）",
         "commit_date": "2022-12-15 12:49:17",
         "commit_message": "typos",
@@ -5776,8 +5776,8 @@
     "https://github.com/fofapro/vulfocus": {
         "created_at": "2020-04-14 04:25:43",
         "description": "🚀Vulfocus 是一个漏洞集成平台，将漏洞环境 docker 镜像，放入即可使用，开箱即用。",
-        "commit_date": "2023-05-31 03:45:48",
-        "commit_message": "Update issue templates",
+        "commit_date": "2024-03-11 03:29:59",
+        "commit_message": "repalce wechat",
         "release_tag": "v0.3.2.11",
         "release_date": "2021-11-05 12:29:10",
         "release_message": "更新时间：2021-11-05\r\n\r\n- 更新12个镜像\r\n- 开放镜像API\r\n- 新增已启动镜像标签\r\n- 修复首页分类标签重复问题\r\n- 修改镜像启动后现实域名不在显示IP\r\n- 修复注册页面与登录页面背景图不统一问题\r\n- 优化一键获取镜像信息504问题\r\n- 优化页面样式"
@@ -22064,11 +22064,11 @@
         "commit_message": "merge #225, adds torrent upload (via upload button and drag and drop), add SPACE pause/play, auto format a few files"
     },
     "https://github.com/nccgroup/LoggerPlusPlus": {
-        "created_at": "2014-05-02 23:00:42",
+        "created_at": "2023-12-05 12:57:20",
         "description": "Advanced Burp Suite Logging Extension",
         "release_tag": "v3.20.0",
-        "release_date": "2023-06-02 20:42:30",
-        "release_message": "## Commits\n- 2ebcd72: Add CodeQL workflow (Jorge) [#161](https://github.com/nccgroup/LoggerPlusPlus/pull/161)\n- 641b38a: Increment CURRENT_COLUMN_VERSION to account for PathQuery (Louis Dion-Marcil) [#162](https://github.com/nccgroup/LoggerPlusPlus/pull/162)\n- 5711889: Add new PathQuery column representing /path?query (Louis Dion-Marcil) [#162](https://github.com/nccgroup/LoggerPlusPlus/pull/162)\n- 8cc7e60: fix JMenu bug caused by failed JFrame retrieval (Alex Wardle) [#165](https://github.com/nccgroup/LoggerPlusPlus/pull/165)\n- 3c98d2c: avoid unnecessary updates to the message editor (Alex Wardle) [#165](https://github.com/nccgroup/LoggerPlusPlus/pull/165)\n- 0b0da49: Upgrade to Montoya API (Corey) [#178](https://github.com/nccgroup/LoggerPlusPlus/pull/178)\n- 885cf6f: Update dependencies. Add test class. (Corey)\n- 33e20c8: Make PathQuery column hidden by default (Corey Arthur) [#162](https://github.com/nccgroup/LoggerPlusPlus/pull/162)\n- dfc6c3f: Merge branch 'master' into v3 (Corey) [#178](https://github.com/nccgroup/LoggerPlusPlus/pull/178)\n- a7ed919: Update burp frame grabber to use new API (Corey) [#178](https://github.com/nccgroup/LoggerPlusPlus/pull/178)\n- b775231: Add request and body length fields (Corey) [#178](https://github.com/nccgroup/LoggerPlusPlus/pull/178)\n- 63e833c: Update column version (Corey) [#178](https://github.com/nccgroup/LoggerPlusPlus/pull/178)\n- d893283: Change in regex to meet current ZAP format (Jose Selvi) [#169](https://github.com/nccgroup/LoggerPlusPlus/pull/169)\n- 8a732ca: Delete deprecated logging appender (Corey) [#171](https://github.com/nccgroup/LoggerPlusPlus/pull/171)\n- bf5c2aa: Update Java Version (Corey) [#171](https://github.com/nccgroup/LoggerPlusPlus/pull/171)\n- cf30670: Remove hard Burp jar dependency for test class (Corey) [#171](https://github.com/nccgroup/LoggerPlusPlus/pull/171)\n- c717c02: Merge branch 'master' into master (Corey Arthur) [#169](https://github.com/nccgroup/LoggerPlusPlus/pull/169)\n- cfdee7c: Revert to comment response matching method. (Corey) [#172](https://github.com/nccgroup/LoggerPlusPlus/pull/172)\n- 0513e3c: Merge branch 'master' into bugfix-166 (Corey Arthur) [#172](https://github.com/nccgroup/LoggerPlusPlus/pull/172)\n- 7b57f9a: Merge branch 'master' into montoya (Corey) [#178](https://github.com/nccgroup/LoggerPlusPlus/pull/178)\n- 1d97ff6: Update gradle to use montoya utilities API. (Corey) [#178](https://github.com/nccgroup/LoggerPlusPlus/pull/178)\n- 7e9d7fc: Update README.md (Corey Arthur) [#173](https://github.com/nccgroup/LoggerPlusPlus/pull/173)\n- 7aaf1bf: Update for Montoya V1 (Corey) [#178](https://github.com/nccgroup/LoggerPlusPlus/pull/178)\n- 48667ce: Add tag pills with toggle switch (Corey) [#178](https://github.com/nccgroup/LoggerPlusPlus/pull/178)\n- 70fa963: Moar inheritence (Corey) [#178](https://github.com/nccgroup/LoggerPlusPlus/pull/178)\n- c7f1854: Tag bugfixes (Corey) [#178](https://github.com/nccgroup/LoggerPlusPlus/pull/178)\n- cb3e196: Merge branch 'feature-bettertags' into develop (Corey) [#178](https://github.com/nccgroup/LoggerPlusPlus/pull/178)\n- 756f4a2: Add feature to not log entries matching a filter. (Corey) [#178](https://github.com/nccgroup/LoggerPlusPlus/pull/178)\n- d46c85c: Better recursion detection. (Corey) [#178](https://github.com/nccgroup/LoggerPlusPlus/pull/178)\n- 693f5e6: Log to console when loaded via classpath (Corey) [#178](https://github.com/nccgroup/LoggerPlusPlus/pull/178)\n- c1f25b3: Better logging (Corey) [#178](https://github.com/nccgroup/LoggerPlusPlus/pull/178)\n- b524490: Fix error when doNotLog filter is null. (Corey) [#178](https://github.com/nccgroup/LoggerPlusPlus/pull/178)\n- 0e5e214: Remove unused debug logging (Corey) [#178](https://github.com/nccgroup/LoggerPlusPlus/pull/178)\n- fb67ba2: Fix loading of log filter from preferences (Corey) [#178](https://github.com/nccgroup/LoggerPlusPlus/pull/178)\n- b624552: Upgrade Montoya API + add additional debug logging to log processor. (Corey) [#178](https://github.com/nccgroup/LoggerPlusPlus/pull/178)\n- c35cdfe: Update Elastic exporter to ElasticSearch 8.7 (Corey) [#178](https://github.com/nccgroup/LoggerPlusPlus/pull/178)\n- 65b3839: Update utilities version (Corey) [#178](https://github.com/nccgroup/LoggerPlusPlus/pull/178)\n- 5fbba2f: Update Montoya version, use montoya menu bar, set default doNotLog filter (Corey) [#178](https://github.com/nccgroup/LoggerPlusPlus/pull/178)\n- 05a14f3: Fix Burp History Import (Corey) [#178](https://github.com/nccgroup/LoggerPlusPlus/pull/178)\n- 8adc11a: Finally fix grepper never finishing... (Corey) [#178](https://github.com/nccgroup/LoggerPlusPlus/pull/178)\n- 3f80f87: Increment version (Corey) [#178](https://github.com/nccgroup/LoggerPlusPlus/pull/178)\n- a0ab1a8: Remove debug logging. (Corey) [#178](https://github.com/nccgroup/LoggerPlusPlus/pull/178)\n- a0d9e13: Merge branch 'master' into develop (Corey Arthur) [#178](https://github.com/nccgroup/LoggerPlusPlus/pull/178)\n- fc6a124: Update releases.yaml (Corey Arthur) [#179](https://github.com/nccgroup/LoggerPlusPlus/pull/179)\n- 2a6e4bb: Update releases.yaml (Corey Arthur) [#181](https://github.com/nccgroup/LoggerPlusPlus/pull/181)\n- 3670480: Update releases.yaml (Corey Arthur)\n- 39d48e8: Create prerelease.yaml (Corey Arthur)",
+        "release_date": "2023-12-05 13:00:31",
+        "release_message": "## Commits\n- 100137b: Add tag import/export (Corey)\n- 14ac567: Fixes #183 (Corey)\n- 6f39503: Fix Grep results toString. (Corey)\n- dd09c15: Implement #186 (Corey)\n- 12ad2fa: Additional logging when preference deserialization fails. Closes #188 (Corey)\n- 0497c55: Add import from exported json button & the import function logic (William Lam) [#195](https://github.com/nccgroup/LoggerPlusPlus/pull/195)\n- 3dcf9a4: Fix typo (William Lam) [#195](https://github.com/nccgroup/LoggerPlusPlus/pull/195)\n- 46f34a7: Merge branch 'nccgroup:master' into feature-import-from-json (William Lam) [#195](https://github.com/nccgroup/LoggerPlusPlus/pull/195)\n- 8b9781a: Implements #157 (Corey)\n- 1a7e505: Small cleanup (Corey)\n- 05fa4c0: Upgrade Montoya API version (Corey)\n- f6970e4: Integrate JavaCC plugin (Corey)\n- 4ae99b7: Partial implementation for #109. Thanks to @justinsteven. (Corey)\n- a208679: Merge branch 'feature-import-from-json' of https://github.com/blackphreak/LoggerPlusPlus into develop (Corey)\n- 19aefdf: Fixes to #PR195 (Corey) [#195](https://github.com/nccgroup/LoggerPlusPlus/pull/195)\n- 02373ad: Merge remote-tracking branch 'origin/develop' into develop (Corey)\n- 76e7fc6: Fixes #196 (Corey)\n- 589e5f5: Prevent imports being forced to auto exporters (Corey)\n- b630d53: Display message on successful/failed ZAP import (Corey)\n- bc8a894: Fix request line not being included in request headers (Corey)\n- b44e7c8: Fixes #202 (Corey)\n- 7ea57cd: Fix InScope Column Title (Corey)\n- 6217398: Increment version (Corey)",
         "commit_date": "2023-06-05 15:36:27",
         "commit_message": "Add tag import/export"
     },
@@ -23354,7 +23354,7 @@
         "release_message": ""
     },
     "https://github.com/dwagon/Hostinfo": {
-        "created_at": "2014-03-21 22:32:47",
+        "created_at": "2022-06-15 23:13:20",
         "description": "Host Information Database for Unix Sysadmins",
         "commit_date": "2023-01-25 04:58:39",
         "commit_message": "Merge pull request #69 from dwagon/upvers\n\nUp version",
@@ -27074,7 +27074,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "20.42.106.78属于美国 弗吉尼亚 斯特灵 微软云 数据中心_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "20.81.159.82属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
@@ -28649,5 +28649,9 @@
         "description": "自动化运维平台: 代码及应用部署CI/CD、资产管理CMDB、计划任务管理平台、SQL审核|回滚、任务调度",
         "commit_message": "update",
         "commit_date": "2018-04-09 05:30:52"
+    },
+    "https://github.com/ysrc/yulong-hids": {
+        "commit_message": "fix file name check keyerror in map resultdata, thx @zhujiahao",
+        "commit_date": "2020-06-29 15:38:15"
     }
 }
