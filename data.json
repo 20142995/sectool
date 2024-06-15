@@ -372,8 +372,8 @@
     "https://github.com/lal0ne/vulnerability": {
         "created_at": "2022-01-20 02:48:42",
         "description": "收集、整理、修改互联网上公开的漏洞POC",
-        "commit_message": "CVE-2024-32640",
-        "commit_date": "2024-05-10 02:52:19"
+        "commit_message": "CVE-2024-2961",
+        "commit_date": "2024-06-13 07:39:41"
     },
     "https://github.com/CTF-MissFeng/GoScan": {
         "created_at": "2020-12-13 11:08:12",
@@ -22924,7 +22924,7 @@
         "commit_message": "v0.9.7.5 Release！\n1.支持3.9.10.19版本",
         "commit_date": "2024-04-20 02:01:11",
         "release_date": "2024-04-20 02:03:10",
-        "release_message": "1.支持3.9.10.19版本\r\n2.批量导出支持时间范围选中（0.9.7.4版本实现）"
+        "release_message": "1.支持3.9.10.19，3.9.10.27版本\r\n2.批量导出支持时间范围选中（0.9.7.4版本实现）"
     },
     "https://github.com/bdamele/icmpsh": {
         "created_at": "2011-04-15 10:04:12",
@@ -24412,8 +24412,8 @@
         "description": "魅族安全中心"
     },
     "https://sec.vip.com/": {
-        "status_code": 200,
-        "description": "VSRC首页-唯品会信息安全中心"
+        "status_code": 503,
+        "description": ""
     },
     "https://sec.wacai.com/": {
         "status_code": 200,
@@ -27074,7 +27074,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "52.238.27.71属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "20.172.29.176属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
