@@ -196,8 +196,8 @@
     "https://github.com/ycdxsb/PocOrExp_in_Github": {
         "created_at": "2021-04-13 05:46:16",
         "description": "聚合Github上已有的Poc或者Exp，CVE信息来自CVE官网。Auto Collect Poc Or Exp from Github by CVE ID.",
-        "commit_message": "update 2024-06-14 07:20:51",
-        "commit_date": "2024-06-13 23:20:51"
+        "commit_message": "update 2024-06-16 08:18:41",
+        "commit_date": "2024-06-16 00:18:41"
     },
     "https://github.com/1n7erface/RequestTemplate": {
         "created_at": "",
@@ -3017,7 +3017,7 @@
         "created_at": "2024-06-11 01:48:32",
         "description": "A Security Tool for Bug Bounty, Pentest and Red Teaming.",
         "commit_message": "update pocs",
-        "commit_date": "2024-06-12 00:32:14",
+        "commit_date": "2024-06-15 07:12:31",
         "release_date": "2024-06-11 01:53:16",
         "release_message": "新增 OOB 平台：recvsuit，使用命令：`-oob revsuit`\r\nafrog-config.yaml 新增配置：\r\n![image](https://github.com/zan8in/afrog/assets/4088460/857b5edd-c265-4ebc-9269-62d1275e96b4)\r\n\r\n> token: 密钥（参考 revsuit 教程）\r\ndns_domain: 记录 dns log 的域名\r\nhttp_url: 记录 http log 的 url\r\napi_url: revsuit 的验证接口（参考 revsuit 教程）\r\n\r\n官网：https://github.com/Li4n0/revsuit\r\n教程：稍后加入 wiki "
     },
@@ -4553,12 +4553,12 @@
         "release_message": ""
     },
     "https://github.com/baidu/dperf": {
-        "created_at": "2023-10-10 05:07:32",
+        "created_at": "2024-06-05 10:43:58",
         "description": "dperf is a 100Gbps network load tester.",
-        "commit_message": "Merge pull request #454 from pengjianzhang/main\n\n1. disable ack; 2. configure retransmit timeout",
-        "commit_date": "2024-05-30 07:46:30",
-        "release_date": "2023-10-10 05:33:22",
-        "release_message": "## v1.6.0 - 2023-10-10\r\n### Added\r\n\r\n- dperf server returns large payload\r\n\r\n- you can use the default l3 or l3l4 rss algorithm\r\n\r\n### Changed\r\n\r\n- minimun local port range(lport_range) can be set to 1\r\n\r\n- optimization: remove useless sockets outside lport_range\r\n\r\n- move docs to dperf.org\r\n\r\n- adjust jumbo MTU\r\n\r\n### Fixed\r\n\r\n- fix: negative number of udp connections\r\n\r\n- print more information when startup fails\r\n    - not enough ports available\r\n    - error message of server ip numbers\r\n\r\n- spelling errors and expression issues\r\n\r\n    thanks digger-yu, CChuancey, zrmin\r\n\r\n- fix: find port id\r\n\r\n- fix: create new connection after \"duration\" time\r\n\r\n    thanks zrgtester\r\n\r\n- fix: http_host or http_path can only be configured when http is enabled\r\n\r\n- fix: dperf make error on dpdk-18.11\r\n\r\n    thanks amberlipp"
+        "commit_message": "Merge pull request #456 from pengjianzhang/main\n\nupdate changelog",
+        "commit_date": "2024-06-05 10:43:58",
+        "release_date": "2024-06-05 10:58:44",
+        "release_message": "## v1.7.0 - 2024-06-06\r\n\r\nAfter more than six months, the 1.7.0 version has finally been released. [Pengfei Zhang](https://github.com/zhangpengfei-xyz) contributed many features to this version. Thank you, Pengfei Zhang, for making dperf more powerful. We welcome more developers to join us and make dperf even better.\r\n\r\n### Added\r\n\r\n- send http post requests\r\n\r\n- dpdk pdump\r\n\r\n    thanks ZhangPengfei\r\n\r\n- fast_close: use RST to close connections\r\n\r\n- support DPDK-23.11 and DPDK-24\r\n\r\n- enable simd512\r\n\r\n- disable ack\r\n\r\n- configure retransmit timeout\r\n\r\n### Changed\r\n\r\n- config DPDK log level\r\n\r\n- clear_screen: dperf can clear screen output and make the screen cleaner\r\n\r\n- static linking\r\n\r\n    thanks ZhangPengfei\r\n\r\n### Fixed\r\n\r\n- dpdk cleanup\r\n\r\n    thanks ZhangPengfei\r\n\r\n- CFLAGS override\r\n\r\n    thanks ZhangPengfei\r\n\r\n- missspell\r\n\r\n    thanks ZhangPengfei\r\n\r\n- don't clear sequences in time-wait state"
     },
     "https://github.com/7thSamurai/steganography": {
         "created_at": "2022-10-18 18:40:17",
@@ -4626,8 +4626,8 @@
     "https://github.com/zksync-sdk/zksync2-python": {
         "created_at": "2024-06-07 11:52:49",
         "description": null,
-        "commit_date": "2024-06-07 11:52:49",
-        "commit_message": "1.2.0 version bump [skip ci]\n\n# [1.2.0](https://github.com/zksync-sdk/zksync2-python/compare/v1.1.0...v1.2.0) (2024-06-07)\n\n### Bug Fixes\n\n* fix abi contract cache ([81b9e4c](https://github.com/zksync-sdk/zksync2-python/commit/81b9e4c8bec9cd2fc258669edeb8012ccafa0c80))\n* non zero gas limit in options breaks transfer function ([d739a60](https://github.com/zksync-sdk/zksync2-python/commit/d739a604f7ff43bc372586377d861d66745980b4))\n* zks_l1_chain_id not returning int type ([0ebd1b8](https://github.com/zksync-sdk/zksync2-python/commit/0ebd1b8499d22b1c83a1051b77a461841e1a4f0d))\n\n### Features\n\n* provide support for Bridgehub ([dabbfc0](https://github.com/zksync-sdk/zksync2-python/commit/dabbfc0c95f11e79e6683101b20fae3c851506e8))",
+        "commit_date": "2024-06-11 11:40:02",
+        "commit_message": "docs(README): fix broken link to official documentation",
         "release_tag": "v0.6.0",
         "release_date": "2024-06-07 11:52:52",
         "release_message": "This release is also available on:\n- `v1.2.0`\n---\n# [1.2.0](https://github.com/zksync-sdk/zksync2-python/compare/v1.1.0...v1.2.0) (2024-06-07)\n\n\n### Bug Fixes\n\n* fix abi contract cache ([81b9e4c](https://github.com/zksync-sdk/zksync2-python/commit/81b9e4c8bec9cd2fc258669edeb8012ccafa0c80))\n* non zero gas limit in options breaks transfer function ([d739a60](https://github.com/zksync-sdk/zksync2-python/commit/d739a604f7ff43bc372586377d861d66745980b4))\n* zks_l1_chain_id not returning int type ([0ebd1b8](https://github.com/zksync-sdk/zksync2-python/commit/0ebd1b8499d22b1c83a1051b77a461841e1a4f0d))\n\n\n### Features\n\n* provide support for Bridgehub ([dabbfc0](https://github.com/zksync-sdk/zksync2-python/commit/dabbfc0c95f11e79e6683101b20fae3c851506e8))\n\n\n\n"
@@ -4926,10 +4926,10 @@
     "https://github.com/rustdesk/rustdesk": {
         "created_at": "2024-04-07 06:31:09",
         "description": "An open-source remote desktop, and alternative to TeamViewer.",
-        "commit_message": "Update fa.rs (#8141)",
-        "commit_date": "2024-05-25 01:58:53",
+        "commit_message": "update sk.rs (#8364)",
+        "commit_date": "2024-06-15 08:03:56",
         "release_date": "2024-04-07 08:12:13",
-        "release_message": "![image](https://github.com/rustdesk/rustdesk/assets/71636191/83754a64-31b8-47f0-8570-da22207759a9)\r\n\r\nx86-64: [Windows](https://github.com/rustdesk/rustdesk/releases/download/1.2.3-2/rustdesk-1.2.3-2-x86_64.exe) | [Ubuntu](https://github.com/rustdesk/rustdesk/releases/download/1.2.3-2/rustdesk-1.2.3-2-x86_64.deb) | [Mac](https://github.com/rustdesk/rustdesk/releases/download/1.2.3-2/rustdesk-1.2.3-2-x86_64.dmg) | [AppImage](https://github.com/rustdesk/rustdesk/releases/download/1.2.3-2/rustdesk-1.2.3-2-x86_64.AppImage) | [Flatpak](https://github.com/rustdesk/rustdesk/releases/download/1.2.3-2/rustdesk-1.2.3-2-x86_64.flatpak)\r\nAArch64 (ARM64):  [Ubuntu](https://github.com/rustdesk/rustdesk/releases/download/1.2.3-2/rustdesk-1.2.3-2-aarch64.deb) | [Android](https://github.com/rustdesk/rustdesk/releases/download/1.2.3-2/rustdesk-1.2.3-2-aarch64-signed.apk) | [Mac](https://github.com/rustdesk/rustdesk/releases/download/1.2.3-2/rustdesk-1.2.3-2-aarch64.dmg) | [AppImage](https://github.com/rustdesk/rustdesk/releases/download/1.2.3-2/rustdesk-1.2.3-2-aarch64.AppImage)\r\nx86-32: [Windows](https://github.com/rustdesk/rustdesk/releases/download/1.2.3-2/rustdesk-1.2.3-2-x86-sciter.exe)\r\n\r\nMore: [check below please](#)\r\n\r\n> **For the latest features, check out the [Nightly Build](https://github.com/rustdesk/rustdesk/releases/tag/nightly)**\r\n\r\n# Changelog\r\n\r\nThis release only fixes a [bug](https://github.com/fufesou/rustdesk/wiki/How-to-delete-the-wrong-certificate-stores-in-%22certmgr.msc%22) introduced in [1.2.3-1](https://github.com/rustdesk/rustdesk/releases/tag/1.2.3-1). \r\n\r\n"
+        "release_message": "![image](https://github.com/rustdesk/rustdesk/assets/71636191/83754a64-31b8-47f0-8570-da22207759a9)\r\n\r\n| Architecture | Windows | Ubuntu | Mac | AppImage | Flatpak | Android |\r\n|--------------|---------|--------|-----|----------|---------|---------|\r\n| x86-64 (64-bit) | [Download](https://github.com/rustdesk/rustdesk/releases/download/1.2.3-2/rustdesk-1.2.3-2-x86_64.exe) | [Download](https://github.com/rustdesk/rustdesk/releases/download/1.2.3-2/rustdesk-1.2.3-2-x86_64.deb) | [Download](https://github.com/rustdesk/rustdesk/releases/download/1.2.3-2/rustdesk-1.2.3-2-x86_64.dmg) | [Download](https://github.com/rustdesk/rustdesk/releases/download/1.2.3-2/rustdesk-1.2.3-2-x86_64.AppImage) | [Download](https://github.com/rustdesk/rustdesk/releases/download/1.2.3-2/rustdesk-1.2.3-2-x86_64.flatpak) | - |\r\n| x86-32 (32-bit) | [Download](https://github.com/rustdesk/rustdesk/releases/download/1.2.3-2/rustdesk-1.2.3-2-x86-sciter.exe) | - | - | - | - | - |\r\n| AArch64 (ARM64) | - | [Download](https://github.com/rustdesk/rustdesk/releases/download/1.2.3-2/rustdesk-1.2.3-2-aarch64.deb) | [Download](https://github.com/rustdesk/rustdesk/releases/download/1.2.3-2/rustdesk-1.2.3-2-aarch64.dmg) | [Download](https://github.com/rustdesk/rustdesk/releases/download/1.2.3-2/rustdesk-1.2.3-2-aarch64.AppImage) | - | [Download](https://github.com/rustdesk/rustdesk/releases/download/1.2.3-2/rustdesk-1.2.3-2-aarch64-signed.apk) |\r\n| ARMv7 (32-bit) | - | [Download](https://github.com/rustdesk/rustdesk/releases/download/1.2.3-2/rustdesk-1.2.3-2-armv7-sciter.deb) | - | - | - | [Download](https://github.com/rustdesk/rustdesk/releases/download/1.2.3-2/rustdesk-1.2.3-2-armv7-signed.apk) |\r\n\r\nMore: [check below please](#)\r\n\r\n> **For the latest features, check out the [Nightly Build](https://github.com/rustdesk/rustdesk/releases/tag/nightly)**\r\n\r\n# Changelog\r\n\r\nThis release only fixes a [bug](https://github.com/fufesou/rustdesk/wiki/How-to-delete-the-wrong-certificate-stores-in-%22certmgr.msc%22) introduced in [1.2.3-1](https://github.com/rustdesk/rustdesk/releases/tag/1.2.3-1). \r\n\r\n"
     },
     "https://github.com/chenjj/CORScanner": {
         "created_at": "2021-04-12 19:12:33",
@@ -5186,13 +5186,13 @@
         "release_message": "Issues: https://github.com/alibaba/arthas/milestone/50?closed=1\r\n\r\n* arthas-spring-boot-starter support spring boot3. #2524\r\n* upgrade spring-boot 2 to 2.7.15, spring boot 3 to 3.1.7\r\n* upgrade bytekit to 0.0.9 (#2775)\r\n* fix not use arthasHome when constructing ArthasAgent(#2544)\r\n* fix AnsiLog static init may error. #2740\r\n* sysenv/sysprop command sorted by key #2619 (#2652)\r\n* upgrade bytebuddy to 1.14.11\r\n* UserStat support agentId (#2501)"
     },
     "https://github.com/projectdiscovery/wappalyzergo": {
-        "created_at": "2024-06-09 00:25:40",
+        "created_at": "2024-06-16 00:25:08",
         "description": "A high performance go implementation of Wappalyzer Technology Detection Library",
-        "commit_date": "2024-06-09 00:25:40",
-        "commit_message": "Weekly fingerprints update [Sun Jun  9 00:25:40 UTC 2024] :robot:",
+        "commit_date": "2024-06-16 00:25:08",
+        "commit_message": "Weekly fingerprints update [Sun Jun 16 00:25:07 UTC 2024] :robot:",
         "release_tag": "v0.0.109",
-        "release_date": "2024-06-09 00:25:57",
-        "release_message": "### [0.1.4](https://github.com/projectdiscovery/wappalyzergo/compare/v0.1.3...v0.1.4) (2024-06-09)"
+        "release_date": "2024-06-16 00:25:24",
+        "release_message": "### [0.1.6](https://github.com/projectdiscovery/wappalyzergo/compare/v0.1.5...v0.1.6) (2024-06-16)"
     },
     "https://github.com/cseroad/Webshell_Generate": {
         "created_at": "2022-05-19 05:27:44",
@@ -6022,12 +6022,12 @@
         "release_message": "![文件头检测加载文件后 (小)](https://github.com/ffffffff0x/BerylEnigma/assets/16266917/f652ebd2-c329-47d1-a468-cbbd1a33a52a)\r\n![文件头检测面板02 (小)](https://github.com/ffffffff0x/BerylEnigma/assets/16266917/4c58ac56-84b8-4f8e-81e1-01cfeeddee36)\r\n\r\n```\r\n+ 文件头检测模块\r\n\r\n- 时间戳视图文件命名问题\r\n- 对称加密使用错误加密器问题\r\n```\r\n\r\n详情见 [BE工具的文件头检测功能](https://ryuzu.blog.ffffffff0x.com/post/be%E5%B7%A5%E5%85%B7%E7%9A%84%E6%96%87%E4%BB%B6%E5%A4%B4%E6%A3%80%E6%B5%8B%E5%8A%9F%E8%83%BD/)"
     },
     "https://github.com/abc123info/BlueTeamTools": {
-        "created_at": "2024-01-05 02:10:41",
+        "created_at": "2024-06-05 10:15:56",
         "description": "蓝队分析研判工具箱，功能包括内存马反编译分析、各种代码格式化、网空资产测绘功能、溯源辅助、解密冰蝎流量、解密哥斯拉流量、解密Shiro/CAS/Log4j2的攻击payload、IP/端口连接分析、各种编码/解码功能、蓝队分析常用网址、java反序列化数据包分析、Java类名搜索、Fofa搜索、Hunter搜索等。",
         "commit_message": "Update README.md",
         "commit_date": "2024-06-05 10:15:56",
-        "release_date": "2024-06-05 10:15:16",
-        "release_message": "2024.06.05 增加对哥斯拉3.x~4.x请求包、返回包的解密结果生成二进制文件功能，解决流量中掺杂附件的问题。\r\n2024.06.04 修复\"网空资产测绘\"功能的多个bug，添加对域名搜索功能。"
+        "release_date": "2024-06-15 01:48:10",
+        "release_message": "2024.06.15 增加对ip地址列表批量查地址功能。\r\n2024.06.14 增加对天蝎webshell的Java、PHP、NET、ASP的解密。\r\n2024.06.14 增加对16进制hex编码的内存马反编译功能。"
     },
     "https://github.com/yutianqaq/impacket-gui": {
         "created_at": "2023-09-01 10:27:31",
@@ -19936,8 +19936,8 @@
         "release_tag": "v1.4.7",
         "release_date": "2024-04-20 18:47:46",
         "release_message": "### Main features\r\n\r\n- Added support for:\r\n  - Scripting, uses Kotlin, check [short guide](https://github.com/skylot/jadx/wiki/Jadx-scripts-guide)\r\n  - External plugins, [guide](https://github.com/skylot/jadx/wiki/Jadx-plugins-guide)\r\n  Both features in preview state, API is stable but limited (especially in UI customizations)\r\n- Jadx GUI:\r\n  - Improved code cache, allow use common directory, view/delete exist caches in preferences\r\n  - jadx-gui configuration moved into plain json files in system config directory\r\n  - Allow to set custom shortcuts\r\n  - Tabs drag and drop reorder support\r\n  - Hex-viewer for binary asset files\r\n  - Add 'go to main activity' action\r\n- Other:\r\n  - Java 11+ is required now\r\n  - Parse and use Kotlin metadata for renames\r\n  - Add support for XApk files\r\n  - Allow to move class to another package\r\n  - Support jsr/ret opcodes (java-input) \r\n- A lot of bug fixes ... and regressions :rofl:\r\n\r\n**Full Changelog**: https://github.com/skylot/jadx/compare/v1.4.7...v1.5.0\r\n\r\n### Download files:\r\n- [jadx-gui-1.5.0-with-jre-win.zip](https://github.com/skylot/jadx/releases/download/v1.5.0/jadx-gui-1.5.0-with-jre-win.zip) - jadx-gui with bundled JRE\r\n- [jadx-gui-1.5.0-no-jre-win.exe](https://github.com/skylot/jadx/releases/download/v1.5.0/jadx-gui-1.5.0-no-jre-win.exe) - jadx-gui single exe (system JRE must be installed)\r\n- [jadx-1.5.0.zip](https://github.com/skylot/jadx/releases/download/v1.5.0/jadx-1.5.0.zip) - cross-platform cli and gui bundle (system JRE must be installed)\r\n\r\nFor system JRE the latest version is always preferred, Java 11+ is required, download at [oracle.com](https://www.oracle.com/java/technologies/downloads/#jdk21-windows)\r\n",
-        "commit_date": "2024-05-19 16:47:35",
-        "commit_message": "fix(gui): support filtering files with multiple extensions in file dialog (PR #2185)\n\n* fix(gui): support filtering files with multiple extensions in file dialog\r\n\r\n* lint"
+        "commit_date": "2024-06-14 17:52:31",
+        "commit_message": "fix(gui): update Messages_zh_CN.properties (PR #2203)\n\nsync new texts."
     },
     "https://github.com/bluefrostsecurity/CVE-2019-1215": {
         "created_at": "2020-01-06 22:34:16",
@@ -23009,8 +23009,8 @@
     "https://github.com/six2dez/reconftw": {
         "created_at": "2024-06-04 09:30:29",
         "description": "reconFTW is a tool designed to perform automated recon on a target domain by running the best set of tools to perform scanning and finding out vulnerabilities",
-        "commit_message": "Merge pull request #882 from six2dez/dev\n\nDev",
-        "commit_date": "2024-06-04 09:30:29",
+        "commit_message": "Merge pull request #884 from six2dez/dev\n\nUpdated amass v3 config.ini",
+        "commit_date": "2024-06-06 08:21:11",
         "release_date": "2024-06-04 09:38:24",
         "release_message": "## Highlights\r\n- API leak checks SwaggerSpy and porch-pirate\r\n- 3rd parties misconfigs with misconfig-mapper\r\n- JS sourcemaps check with sourcemapper and jsluice\r\n- IP geolocation info\r\n- oshi.at for sending huge results zip files\r\n- Improved trufflehog detection\r\n- Updated mind map\r\n- IIS short names added\r\n- Password leaks with LeakSearch\r\n- PPfuzz replaced by ppmap\r\n- Brutespray and nomore403 updated\r\n- Nucleus fuzzing parameters\r\n- Added p1radup\r\n\r\n## What's Changed\r\n* fix apileaks by @six2dez in https://github.com/six2dez/reconftw/pull/813\r\n* swaggerspy fix by @six2dez in https://github.com/six2dez/reconftw/pull/814\r\n* swaggerspy output by @six2dez in https://github.com/six2dez/reconftw/pull/816\r\n* Fix capitalization Mantra -> mantra by @kleozzy in https://github.com/six2dez/reconftw/pull/820\r\n* Fix Apileak paths by @kleozzy in https://github.com/six2dez/reconftw/pull/822\r\n* Dev by @six2dez in https://github.com/six2dez/reconftw/pull/823\r\n* Dev by @six2dez in https://github.com/six2dez/reconftw/pull/825\r\n* trufflehog arguments fix by @six2dez in https://github.com/six2dez/reconftw/pull/826\r\n* Dev by @six2dez in https://github.com/six2dez/reconftw/pull/830\r\n* fix geoinfo - git update - web mode by @six2dez in https://github.com/six2dez/reconftw/pull/832\r\n* Dev by @six2dez in https://github.com/six2dez/reconftw/pull/834\r\n* comment by @six2dez in https://github.com/six2dez/reconftw/pull/835\r\n* Dev by @six2dez in https://github.com/six2dez/reconftw/pull/840\r\n* Merge 20240227 by @rt-bast in https://github.com/six2dez/reconftw/pull/838\r\n* Dev by @six2dez in https://github.com/six2dez/reconftw/pull/841\r\n* Fix installer by @six2dez in https://github.com/six2dez/reconftw/pull/843\r\n* push wapiti installer by @six2dez in https://github.com/six2dez/reconftw/pull/844\r\n* Dev by @six2dez in https://github.com/six2dez/reconftw/pull/847\r\n* Dev by @six2dez in https://github.com/six2dez/reconftw/pull/848\r\n* final fix? maybe by @six2dez in https://github.com/six2dez/reconftw/pull/849\r\n* Tool installation fixes mainly by @kleozzy in https://github.com/six2dez/reconftw/pull/853\r\n* Fix brutespray Calling by @kleozzy in https://github.com/six2dez/reconftw/pull/860\r\n* Dev by @six2dez in https://github.com/six2dez/reconftw/pull/861\r\n* Fix nuclei fuzzing by @kleozzy in https://github.com/six2dez/reconftw/pull/862\r\n* fix iis shortname scanner dir creations by @kleozzy in https://github.com/six2dez/reconftw/pull/864\r\n* Optimize vuln scan speed and efficiency by @kleozzy in https://github.com/six2dez/reconftw/pull/866\r\n* fix the fuzzparams function with the -fuzz flag by @j0hnZ3RA in https://github.com/six2dez/reconftw/pull/865\r\n* Dev by @six2dez in https://github.com/six2dez/reconftw/pull/867\r\n* Alot of fixes + ffufpostprocessing by @kleozzy in https://github.com/six2dez/reconftw/pull/868\r\n* Add soft flag for p1radup to allow same host different path by @kleozzy in https://github.com/six2dez/reconftw/pull/869\r\n* Detecting arm systems that are not RPIs by @Marmeus in https://github.com/six2dez/reconftw/pull/870\r\n* Dev by @six2dez in https://github.com/six2dez/reconftw/pull/872\r\n* fix 3rd parties var by @six2dez in https://github.com/six2dez/reconftw/pull/874\r\n* transfer.sh replaced with oshi.at by @six2dez in https://github.com/six2dez/reconftw/pull/875\r\n* Fix filename for oshi by @six2dez in https://github.com/six2dez/reconftw/pull/876\r\n* Dev by @six2dez in https://github.com/six2dez/reconftw/pull/882\r\n\r\n## New Contributors\r\n* @rt-bast made their first contribution in https://github.com/six2dez/reconftw/pull/838\r\n* @j0hnZ3RA made their first contribution in https://github.com/six2dez/reconftw/pull/865\r\n* @Marmeus made their first contribution in https://github.com/six2dez/reconftw/pull/870\r\n\r\n**Full Changelog**: https://github.com/six2dez/reconftw/compare/v2.8.1...v2.9"
     },
@@ -23292,12 +23292,12 @@
         "release_message": "Bug fixes (#40/#41)\r\nUpdated nvidia docker config/images and flask-login"
     },
     "https://github.com/sulab999/AppMessenger": {
-        "created_at": "2024-05-23 10:01:40",
+        "created_at": "2024-05-24 03:17:02",
         "description": "一款适用于以APP病毒分析、APP漏洞挖掘、APP开发、HW行动/红队/渗透测试团队为场景的移动端(Android、iOS、鸿蒙)辅助分析工具",
         "commit_message": "Update version",
-        "commit_date": "2024-05-24 03:17:02",
-        "release_date": "2024-05-24 03:13:52",
-        "release_message": "1、新增鸿蒙hap解析"
+        "commit_date": "2024-06-14 07:26:32",
+        "release_date": "2024-06-14 07:25:42",
+        "release_message": "1、优化hap包解析"
     },
     "https://github.com/pandasec888/taowu-cobalt_strike": {
         "created_at": "2020-07-05 10:13:00",
@@ -27074,7 +27074,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "20.81.159.82属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "13.91.69.163属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
