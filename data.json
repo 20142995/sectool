@@ -1138,7 +1138,7 @@
         "release_message": "1. fix bugs."
     },
     "https://github.com/smxiazi/xia_Liao": {
-        "created_at": "2022-08-30 11:43:26",
+        "created_at": "2022-12-01 01:47:51",
         "description": "xia Liao（瞎料）burp插件 用于Windows在线进程/杀软识别 与 web渗透注册时，快速生成需要的资料用来填写，资料包含：姓名、手机号、身份证、统一社会信用代码、组织机构代码、银行卡，以及各类web语言的hello world输出和生成弱口令字典等。",
         "commit_date": "2022-12-01 01:47:51",
         "commit_message": "Update README.md",
@@ -1237,7 +1237,7 @@
         "release_message": ""
     },
     "https://github.com/A0WaQ4/BurpCRLFScan": {
-        "created_at": "2022-11-22 09:18:54",
+        "created_at": "2022-12-20 08:16:44",
         "description": "使用java编写的CRLF-Injection-burp被动扫描插件",
         "commit_date": "2022-12-20 08:16:10",
         "commit_message": "1.4",
@@ -3724,9 +3724,9 @@
     },
     "https://github.com/20142995/portscan": {
         "created_at": "2023-04-08 05:10:33",
-        "description": "",
-        "commit_date": "2023-04-08 05:12:18",
-        "commit_message": "1",
+        "description": "用于进行端口扫描的工具。它能够根据输入的目标和端口范围，对目标主机的指定端口进行扫描，并输出扫描结果。同时，它还支持多线程扫描，以提高扫描效率。扫描结果可以保存在CSV文件中，方便后续分析和处理。",
+        "commit_date": "2024-04-06 07:34:35",
+        "commit_message": "Update portscan_v4.py",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -3795,7 +3795,7 @@
         "release_message": "1、解决了Hostname为内网IP时连接失败问题\r\n2、解决了因为目标JDK版本原因利用失败问题"
     },
     "https://github.com/BishopFox/rmiscout": {
-        "created_at": "2020-04-16 21:04:31",
+        "created_at": "2020-12-08 12:51:04",
         "description": "RMIScout uses wordlist and bruteforce strategies to enumerate Java RMI functions and exploit RMI parameter unmarshalling vulnerabilities",
         "commit_date": "2020-12-08 12:51:04",
         "commit_message": "Update to 1.4",
@@ -5020,7 +5020,7 @@
         "release_message": "## Changelog\n* ae2221d feat: handle `http.ErrServerClosed` when interrupted (#227)\n* b2266f9 fix: NIL pointer deref in `onRequest` (#226)\n\n"
     },
     "https://github.com/a1phaboy/FastjsonScan": {
-        "created_at": "2022-09-05 19:14:17",
+        "created_at": "2022-09-20 15:13:06",
         "description": "Fastjson扫描器，可识别版本、依赖库、autoType状态等。A tool to distinguish fastjson ,version and dependency",
         "commit_date": "2022-10-07 18:08:32",
         "commit_message": "fix 逻辑处理",
@@ -17452,7 +17452,7 @@
         "release_message": "Update SppExtComObjHook.dll to give the generated KMS ePID accurate CSVLK date\r\nAdd support for Office 2021\r\nAdd new fix for Office C2R non-genuine banner\r\nImplement vNextDiag.ps1 functions for Check Activation Status [wmic]\r\nEnhance Office C2R detection for vNext subscriptions\r\nEnhance Office C2R-R2V conversion\r\nDifferentiate activated C2R, failed C2R-R2V or Retail MSI\r\nFix issue where mixed Office 2016 with 2019/2021 can lead to skip C2R-R2V conversion\r\nFix issue where if older AutoRenewal is installed, activation could fail\r\nAdd support for Windows 10/11 CloudEdition / N\r\nFix External mode activation\r\nFix: Office C2R 'Get genuine' banner\r\nAdd support for Windows 10 ARM64\r\ndetect WOW64 process and relaunch from native x64 cmd.exe\r\nchanged default local KMS_IP to 0.0.0.0\r\nupdated SppExtComObjHook.dll to support Server 2021 CSVLK\r\nadded Server 2021 GVLKs\r\nadded partial support for Office 2021 Preview\r\nadded NoAcquireGT registry policy for Win10 build 14393\r\nstart sppsvc/osppsvc manually before running wmic query\r\nenhanced Win10 EditionID detection for non-Volume capable editions\r\nAdd: proper detection for Windows 7 ESU KMS licenses, activation is disabled/skipped for now\r\nAdd: verify SppExtComObjHook.dll/registry if activation fails\r\nAdd: WS 2019 ServerTurbine gVLK\r\nAdd: new faster color method for Windows 10 v1511 and later\r\nFix: KMS-not-supported message will not be shown for supported editions in case of errors\r\nRemove: KMS DnsPublishing/HostCaching commands\r\nUpdate: faster reg.exe commands to set/clear KMS IP/Port\r\nUpdate: better detection for Windows evaluation editions\r\nUpdate: enhanced detection and differentiate info for non supported Office\r\nUpdate: Read Me with detailed supported Windows editions\r\nUpdate: few other code improvements and fixes\r\nfixed typo in C2R-R2V procedure\r\nEnhanced Auto C2R-R2V\r\nShow specific message for error 0xC004F035 on Windows 7\r\nAdd: call RefreshLicenseStatus after installing key\r\nUpdate: auto C2R-R2V, check status [wmic]\r\nUpdate: ReadMe to show characters limitations in batch scripts paths\r\nUpdate: handle paths with special or non-ascii characters\r\nUpdate: auto elevation code to prevent loop\r\nUpdate: cmd switches relation with manual options\r\nUpdate: check status [vbs] to avoid duplication\r\nUpdate: check status [wmic] to show expiration date"
     },
     "https://github.com/shack2/Struts2VulsTools": {
-        "created_at": "2019-08-01 06:16:35",
+        "created_at": "2019-09-24 17:17:50",
         "description": "Struts2系列漏洞检查工具",
         "commit_date": "2019-09-24 17:17:50",
         "commit_message": "Create README.md",
@@ -23942,7 +23942,7 @@
         "release_message": "新增HttpBody替换功能"
     },
     "https://github.com/novysodope/RMI_Inj_MemShell": {
-        "created_at": "2022-06-28 10:56:23",
+        "created_at": "2023-01-06 08:43:48",
         "description": "rmi打内存马工具，适用于目标用不了ldap的情况",
         "commit_date": "2023-07-12 04:53:15",
         "commit_message": "Update README.md",
@@ -24412,8 +24412,8 @@
         "description": "魅族安全中心"
     },
     "https://sec.vip.com/": {
-        "status_code": 200,
-        "description": "VSRC首页-唯品会信息安全中心"
+        "status_code": 503,
+        "description": ""
     },
     "https://sec.wacai.com/": {
         "status_code": 200,
@@ -27074,7 +27074,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "40.76.119.160属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "52.159.137.3属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
