@@ -3603,8 +3603,8 @@
     "https://github.com/taomujian/linbing": {
         "created_at": "2022-05-14 14:32:28",
         "description": "本系统是对Web中间件和Web框架进行自动化渗透的一个系统,根据扫描选项去自动化收集资产,然后进行POC扫描,POC扫描时会根据指纹选择POC插件去扫描,POC插件扫描用异步方式扫描.前端采用vue技术,后端采用python fastapi.",
-        "commit_date": "2024-05-01 11:53:51",
-        "commit_message": "2024.5.1",
+        "commit_date": "2024-06-10 14:38:00",
+        "commit_message": "2024.6.10",
         "release_tag": "v3.0",
         "release_date": "2023-06-18 09:08:03",
         "release_message": ""
@@ -27074,7 +27074,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "20.109.38.205属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "20.51.198.157属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
@@ -28169,12 +28169,12 @@
         "release_message": "注意exe可执行文件在当前目录下运行"
     },
     "https://github.com/kong030813/Z-Godzilla_ekp": {
-        "created_at": "2024-03-29 09:18:51",
+        "created_at": "2024-06-12 01:49:12",
         "description": "哥斯拉webshell管理工具二次开发规避流量检测设备",
         "commit_message": "Update README.md",
-        "commit_date": "2024-05-08 06:03:59",
-        "release_date": "2024-05-03 06:51:05",
-        "release_message": "1.支持ASPX,JSP,PHP的流量特征修改\r\n2.支持原版的哥斯拉马连接（后续推出生成即免杀）"
+        "commit_date": "2024-06-12 01:49:12",
+        "release_date": "2024-06-12 02:51:47",
+        "release_message": "1.更新aspx生成即免杀\r\n2.更新流量随机html title\r\n"
     },
     "https://www.tosec.com.cn/": {
         "status_code": 200,
@@ -28423,7 +28423,7 @@
         "release_message": "Initial Release\n"
     },
     "https://github.com/charonlight/ZentaoExploitGUI": {
-        "created_at": "2024-04-28 13:39:09",
+        "created_at": "2024-04-28 12:39:52",
         "description": "禅道最新身份认证绕过漏洞利用工具",
         "commit_message": "Add files via upload",
         "commit_date": "2024-04-28 13:39:09",
