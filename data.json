@@ -2466,7 +2466,7 @@
         "release_message": "1. 添加对iiop协议是否被过滤的检测"
     },
     "https://github.com/dbgee/pentest_report": {
-        "created_at": "2023-04-10 09:19:56",
+        "created_at": "2023-04-10 09:24:09",
         "description": "A pentest reporter generator",
         "commit_date": "2023-04-10 09:58:30",
         "commit_message": "code clean",
@@ -4207,7 +4207,7 @@
         "release_message": "新增：反沙箱、隐藏窗口、Bypass UAC\r\n地址：zTian.red"
     },
     "https://github.com/L10nK1n6/LazyDog": {
-        "created_at": "2023-03-02 05:14:03",
+        "created_at": "2023-03-20 08:09:42",
         "description": "LazyDog是一款通过网络空间测绘引擎读取资产并进行指纹识别的工具",
         "commit_date": "2023-03-20 09:17:48",
         "commit_message": "Fix bug\n\n小问题",
@@ -5925,9 +5925,9 @@
     },
     "https://github.com/ffffffff0x/1earn": {
         "created_at": "2019-03-30 10:44:28",
-        "description": "暂停维护 | ffffffff0x 团队维护的安全知识框架,内容包括不仅限于 web安全、工控安全、取证、应急、蓝队设施部署、后渗透、Linux安全、各类靶机writup",
-        "commit_date": "2022-12-21 08:41:12",
-        "commit_message": "update 2022年12月21日 星期三 16时41分12秒 CST",
+        "description": "ffffffff0x 团队维护的安全知识框架,内容包括不仅限于 web安全、工控安全、取证、应急、蓝队设施部署、后渗透、Linux安全、各类靶机writup",
+        "commit_date": "2024-06-06 02:54:19",
+        "commit_message": "Merge pull request #16 from Fplyth0ner-Combie/master\n\nUpdate Responder欺骗.md",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -18328,8 +18328,8 @@
     "https://github.com/x1hy9/WeChatUserDB": {
         "created_at": "2022-06-05 15:13:50",
         "description": "GetWeChat DBPassword&&UserInfo(获取PC数据库密码以及相关微信用户信息支持多系统数据库解密)",
-        "commit_date": "2022-07-24 07:31:29",
-        "commit_message": "Update requirements.txt",
+        "commit_date": "2023-12-12 03:23:59",
+        "commit_message": "Update README.md",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -23161,7 +23161,7 @@
         "release_message": ""
     },
     "https://github.com/exp1orer/JNDI-Inject-Exploit": {
-        "created_at": "2021-12-26 05:56:36",
+        "created_at": "2021-12-29 03:21:43",
         "description": "解决FastJson、Jackson、Log4j2、原生JNDI注入漏洞的高版本JDKBypass利用，探测本地可用反序列化gadget达到命令执行、回显命令执行、内存马注入",
         "commit_date": "2022-01-26 07:17:30",
         "commit_message": "Update README.md",
@@ -24412,8 +24412,8 @@
         "description": "魅族安全中心"
     },
     "https://sec.vip.com/": {
-        "status_code": 200,
-        "description": "VSRC首页-唯品会信息安全中心"
+        "status_code": 503,
+        "description": ""
     },
     "https://sec.wacai.com/": {
         "status_code": 200,
@@ -27074,7 +27074,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "172.183.88.178属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "172.183.107.27属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
