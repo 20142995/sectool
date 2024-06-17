@@ -4219,7 +4219,7 @@
         "created_at": "2021-10-13 11:34:53",
         "description": "v2ray节点、免费节点、免费v2ray节点、最新公益免费v2ray节点订阅地址、免费v2ray节点每日更新、免费ss/v2ray/trojan节点、freefq ",
         "commit_message": "update",
-        "commit_date": "2024-06-11 12:39:11"
+        "commit_date": "2024-06-16 12:36:49"
     },
     "https://github.com/QAX-A-Team/sharpwmi": {
         "created_at": "2020-04-08 05:50:21",
@@ -4529,8 +4529,8 @@
     "https://github.com/rockbenben/ChatGPT-Shortcut": {
         "created_at": "2024-05-06 09:37:59",
         "description": "🚀💪Maximize your efficiency and productivity, support for English,中文,Español,العربية. 让生产力加倍的AI快捷指令。更有效地定制、保存和分享自己的提示词。在提示词分享社区中，轻松找到适用于不同场景的指令。",
-        "commit_message": "chroe: update deps",
-        "commit_date": "2024-05-28 01:09:02",
+        "commit_message": "Revert \"refactor(components): comments & share\"\n\nThis reverts commit 171d5f8cec81af7594c8eea5085eb971a22bce14.",
+        "commit_date": "2024-06-07 08:58:05",
         "release_date": "2024-05-06 10:40:32",
         "release_message": "**Full Changelog**: https://github.com/rockbenben/ChatGPT-Shortcut/compare/v3.2.0...v3.2.1"
     },
@@ -8566,8 +8566,8 @@
     "https://github.com/nomi-sec/PoC-in-GitHub": {
         "created_at": "2019-12-08 13:03:54",
         "description": "📡 PoC auto collect from GitHub. ⚠️ Be careful Malware.",
-        "commit_message": "Auto Update 2024/06/12 00:29:24",
-        "commit_date": "2024-06-12 00:29:24"
+        "commit_message": "Auto Update 2024/06/17 00:29:13",
+        "commit_date": "2024-06-17 00:29:13"
     },
     "https://github.com/Ridter/CVE-2017-11882": {
         "created_at": "2017-11-21 05:55:53",
@@ -19784,12 +19784,12 @@
         "commit_message": "Rule for Spring4Shell"
     },
     "https://github.com/danielmiessler/SecLists": {
-        "created_at": "2024-02-16 15:55:59",
+        "created_at": "2024-06-11 16:56:11",
         "description": "SecLists is the security tester's companion. It's a collection of multiple types of lists used during security assessments, collected in one place. List types include usernames, passwords, URLs, sensitive data patterns, fuzzing payloads, web shells, and many more.",
         "release_tag": "2023.2",
-        "release_date": "2024-02-16 15:57:18",
-        "release_message": "First release of 2024!\r\n🎉 This release includes [multiple updates](https://github.com/danielmiessler/SecLists/compare/2023.4...2024.1) from the community =)\r\n🥇 Thank you everyone <3\r\n\r\nShout-out to: @cosad3s, @molangning, @barisbogdan, @righettod, @davidmcduffie001, @legik, @StellarSand, @zerbaliy3v, @jhaddix, @emmanuel-londono, @Ghoreish , @denandz and @ErdemOzgen.",
-        "commit_date": "2024-06-04 00:20:15",
+        "release_date": "2024-06-11 17:01:58",
+        "release_message": "Second release of 2024!\r\n🎉 This release includes [multiple updates](https://github.com/danielmiessler/SecLists/compare/2024.1...2024.2) from the community =)\r\n🥇 Thank you everyone <3\r\n\r\nShout-out to: @molangning, @ashtonhogan, @Sevada797, @emmanuel-londono, @exploide, @emmanuelgautier, @riramar, @ItsIgnacioPortal, @0xjv, @YouFoundAlpha, @danielmiessler, @righettod, @adeadfed, @spaze, @CodeVIP123 & @BrandonW6000",
+        "commit_date": "2024-06-17 00:09:56",
         "commit_message": "[Github Action] Automated trickest wordlists update."
     },
     "https://github.com/maaaaz/impacket-examples-windows": {
@@ -24412,8 +24412,8 @@
         "description": "魅族安全中心"
     },
     "https://sec.vip.com/": {
-        "status_code": 503,
-        "description": ""
+        "status_code": 200,
+        "description": "VSRC首页-唯品会信息安全中心"
     },
     "https://sec.wacai.com/": {
         "status_code": 200,
@@ -27074,7 +27074,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "52.159.137.3属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "20.109.38.205属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
@@ -28089,8 +28089,8 @@
     "https://github.com/wy876/wiki": {
         "created_at": "2023-12-31 07:18:18",
         "description": "漏洞文库 wiki.wy876.cn",
-        "commit_message": "Update I_Doc_View任意文件上传漏洞.md",
-        "commit_date": "2024-05-26 12:04:19"
+        "commit_message": "Update _sidebar.md",
+        "commit_date": "2024-06-08 05:01:38"
     },
     "https://github.com/R0A1NG/Botgate_bypass": {
         "created_at": "2024-04-25 09:47:00",
