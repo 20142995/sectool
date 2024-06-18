@@ -62,8 +62,8 @@
     "https://github.com/pppscn/SmsForwarder": {
         "created_at": "2024-04-18 02:17:02",
         "description": "短信转发器——监控Android手机短信、来电、APP通知，并根据指定规则转发到其他手机：钉钉群自定义机器人、钉钉企业内机器人、企业微信群机器人、飞书机器人、企业微信应用消息、邮箱、bark、webhook、Telegram机器人、Server酱、PushPlus、手机短信等。包括主动控制服务端与客户端，让你轻松远程发短信、查短信、查通话、查话簿、查电量等。（V3.0 新增）PS.这个APK主要是学习与自用，如有BUG请提ISSUE，同时欢迎大家提PR指正",
-        "commit_message": "优化：`自动任务` 触发条件 `充电状态` 的提示语 (#480)\n\n* update strings.xml\r\n\r\n* update strings.xml\r\n\r\n* update strings.xml\r\n\r\n* update strings.xml\r\n\r\n* update fragment_tasks_condition_charge.xml",
-        "commit_date": "2024-06-03 13:38:56",
+        "commit_message": "修复：`蓝牙服务未开启`时提示语 (#483)",
+        "commit_date": "2024-06-17 02:49:43",
         "release_date": "2024-04-18 02:45:39",
         "release_message": "致敬 `遥遥领先` **先锋计划**，迎接 `SmsForwarder` **预览体验计划**，领先与体验并驾齐驱！\r\n\r\n---\r\n\r\n【强烈建议】`v3.3.0` 用户升级\r\n\r\n【重点推荐】`自动任务·快捷指令`，轻松自动化，助您事半功倍，更多时间享受亲情陪伴！（v3.3+）\r\n\r\n\r\n---\r\n\r\n### 【注意】\r\n\r\n* `v3.2.0` 去除了 `mmkv` 依赖，采用 `SharedPreferences` 来保存配置，如果从低于 `v3.2.0`  升级后请重新配置，具体原因参见 [Issue #245](https://github.com/pppscn/SmsForwarder/issues/245)\r\n\r\n* 升级完毕后，建议离线导出配置（客户端>一键换新机>离线模式>导出），完全卸载干净全新安装后再导入配置（可以避免一些莫名其妙的玄学问题，例如：耗电异常）\r\n\r\n---\r\n\r\n### 更新日志\r\n\r\n修复：`定时任务`的`Cron表达式`输入非法时导致FC #407\r\n修复：Frpclib未下载时，自动任务添加启停frpc app自动重启 #402\r\n修复：WiFi平板（没有GPS芯片）无法启用`GPS定位服务` #391\r\n修复：错误的 URL 有效性验证正则表达式（兼容IPv6） #286\r\n修复：多个自启动的Frpc无法同时自动启动Bug\r\n修复：疑似`ResUtils.getString`导致FC #426\r\n修复：在线更新失败时手动下载页面地址\r\n修复：转发规则自定义发送通道顺序失效（将`List<T>`按照`instr`的顺序排序） #422\r\n修复：自动任务触发条件在测试倒计时没结束前返回导致app自动重启 #394\r\n修复：自动任务电池状态中充电器任意无法触发 #395\r\n新增：`{{IP_LIST}}`变量标签用于获取`本机所有IP地址列表`（排除环回地址） #I9CVLZ\r\n新增：`通用设置`增加按钮直接跳转`一键换新机`·`离线模式`\r\n新增：Frp内网穿透·编辑配置时语法高亮\r\n新增：发送通道`电子邮箱`支持`S/MIME`或`OpenPGP`加密 #417\r\n新增：监听`Screen`事件`延迟执行时再次校验` #399\r\n新增：两个常用标签`网络状态`(`{{NET_TYPE}}`)和`简单电池信息`(`{{BATTERY_INFO_SIMPLE}}`) #439\r\n新增：免打扰(禁用转发)时间段记录日志（配合`自动任务`实现延时发送） #411\r\n新增：是否加入SmsF预览体验计划（在线更新每周构建版） #416\r\n新增：转发日志增加筛选器方便搜索/批量删除 #433\r\n新增：自动任务·快捷指令 —— 触发条件：短信广播、通话广播、APP通知 #385 #389\r\n新增：自动任务·快捷指令 —— 触发条件：蓝牙设备（状态变化、设备发现、连接断开） #388\r\n新增：自动任务·快捷指令 —— 执行动作：播放警报 #385\r\n新增：自动任务·快捷指令 —— 执行动作：启停任务 #389\r\n新增：自动任务·快捷指令 —— 执行动作：重发消息\r\n优化：`{{BATTERY_PCT}}`保留2位小数\r\n优化：`Android 5.0`以下`TLS协议`&`明文传输` #427 #390 #274 #197\r\n优化：`build.gradle`脚本，编译前后自动清理\r\n优化：`Webhook` 非 `HTTP 200` 应答时仍可以指定 `成功应答关键字` #234\r\n优化：`发送通道`参数默认值（避免反序列化时空指针）\r\n优化：`一换新新机`·`还原设置`时保留本机的`设备名称`和`SIM卡主键/备注`\r\n优化：`自动任务`触发条件`网络状态`：仅`Android 10`(含) 以上显示`数据卡槽`选项 #429\r\n优化：`自动任务`触发条件`网络状态`：延迟5秒获取WiFi名称（给够搜索信号时间） #429\r\n优化：`自动任务·快捷指令` —— 执行动作：`发送短信`支持插入`变量标签`（标签适用场景参见 wiki附录3） #441\r\n优化：Frpc默认配置采用toml格式\r\n优化：部分手机通知栏异常显示两条常驻通知 #392\r\n优化：多语言切换时枚举常量自动切换语言\r\n优化：发送通道`Webhook`支持http/socks5代理\r\n优化：放宽`Url`和`UrlScheme`的正则校验限制 #431\r\n优化：服务端应答`Http 204 No Content`时特殊处理（更新日志状态为成功） #234\r\n优化：服务端应答`HTTP Status 201-299`时特殊处理（更新日志状态为成功） #234\r\n优化：改进IPv6正则表达式（避免`{{IPV6}}`替换为空）\r\n优化：监听`Screen`事件细分`On/Off/Locked/Unlocked` #399\r\n优化：进入`通用设置`时`再次检查`是否已授权`已开启功能`的`必需权限`\r\n优化：判断Frpclib是否已经初始化\r\n优化：权限检查机制判断（适配 OPPO 应用权限受阻跳转优化方案）\r\n优化：以`Base64`形式保存证书（同时兼容`文件路径`形式） #437\r\n优化：自定义模板可用变量标签支持正则替换 #421 #423\r\n优化：自定义模板可用变量统一成英文标签\r\n优化：自定义模板增加`{{IPV4}}``{{IPV6}}`标签 #398\r\n优化：自定义模板增加`{{定位信息_经度}}`/`{{定位信息_纬度}}`/`{{定位信息_地址}}`三个标签 #400\r\n升级：AgentWeb依赖（解决存在的内存泄漏问题）\r\n升级：frpclib 到 `v0.57.0`\r\n升级：XAOP 依赖\r\n升级：XUI 到 `dev-1.2.2`\r\n升级：XUpdate 到 `2.1.5` （兼容Android 12 & 完善日志）\r\n升级：依赖版本\r\n整理：code review & 精简无用资源\r\n回退：`{{通知Scheme}}`(英文系统`{{SCHEME}}`)标签以获取应用通知的`Scheme` #272 #276（无解，去除多余代码）\r\n\r\n还有一些细微调整参见`github`提交记录\r\n\r\n---\r\n\r\n### APK版本说明：\r\n* universal（10XXXX）: 通用版（不在乎安装包大小/懒得选就用这个版本，包含以下4种CPU架构so）\r\n* armeabi-v7a（20XXXX）: 32位ARM设备（备用机首选）\r\n* arm64-v8a（30XXXX）: 64位ARM设备（主流旗舰机）\r\n* x86（40XXXX）: 32位Intel设备\r\n* x86_64（50XXXX）: 64/32位Intel设备"
     },
@@ -3258,11 +3258,11 @@
         "release_message": ""
     },
     "https://github.com/bytedance/Elkeid": {
-        "created_at": "2024-06-12 07:18:26",
+        "created_at": "2024-06-17 09:18:49",
         "description": "Elkeid is an open source solution that can meet the security requirements of various workloads such as hosts, containers and K8s, and serverless. It is derived from ByteDance's internal best practices.",
         "commit_message": "Merge pull request #633 from bytedance/feai-python-m\n\nfeat python m flag inspect",
         "commit_date": "2024-06-07 08:13:52",
-        "release_date": "2024-06-12 07:31:40",
+        "release_date": "2024-06-17 09:32:16",
         "release_message": ""
     },
     "https://github.com/knownsec/ct": {
@@ -6412,8 +6412,8 @@
     "https://github.com/arch3rPro/PST-Bucket": {
         "created_at": "2023-04-24 06:49:11",
         "description": "Scoop-Buket for Penetration Suite Toolkit",
-        "commit_message": "pagodo: Update to version 2.6.4",
-        "commit_date": "2024-06-09 01:44:22"
+        "commit_message": "winscp-zh: Update to version 6.3.4",
+        "commit_date": "2024-06-17 16:32:31"
     },
     "https://github.com/Aiyflowers/JWT_GUI": {
         "created_at": "2023-07-01 07:09:25",
@@ -22362,12 +22362,12 @@
         "release_message": ""
     },
     "https://github.com/xaoyaoo/PyWxDump": {
-        "created_at": "2024-06-12 01:54:40",
+        "created_at": "2024-06-17 02:33:05",
         "description": "获取微信账号信息(昵称/账号/手机/邮箱/数据库密钥/wxid)；PC微信数据库读取、解密脚本；聊天记录查看工具；聊天记录导出为html(包含语音图片)。支持多账户信息获取，支持所有微信版本。",
-        "commit_message": "UPDATE CHANGELOG.md",
-        "commit_date": "2024-06-12 02:01:22",
-        "release_date": "2024-06-12 02:00:08",
-        "release_message": "[Auto Release] Update PyWxDump to refs/tags/v3.0.28\n详细更新日志请查看 [CHANGELOG.md](https://github.com/xaoyaoo/PyWxDump/blob/master/doc/CHANGELOG.md)\n"
+        "commit_message": "wx 3.9.11.17支持",
+        "commit_date": "2024-06-17 02:33:05",
+        "release_date": "2024-06-17 02:39:02",
+        "release_message": "[Auto Release] Update PyWxDump to refs/tags/v3.0.29\n详细更新日志请查看 [CHANGELOG.md](https://github.com/xaoyaoo/PyWxDump/blob/master/doc/CHANGELOG.md)\n"
     },
     "https://github.com/Pizz33/Qianji": {
         "created_at": "2023-11-15 03:33:53",
@@ -24412,8 +24412,8 @@
         "description": "魅族安全中心"
     },
     "https://sec.vip.com/": {
-        "status_code": 503,
-        "description": ""
+        "status_code": 200,
+        "description": "VSRC首页-唯品会信息安全中心"
     },
     "https://sec.wacai.com/": {
         "status_code": 200,
@@ -25602,8 +25602,8 @@
     "https://github.com/zaproxy/zaproxy": {
         "created_at": "2024-05-07 17:05:30",
         "description": "The ZAP core project",
-        "commit_message": "Merge pull request #8507 from thc202/hsqldb/update",
-        "commit_date": "2024-05-31 10:45:07",
+        "commit_message": "Merge pull request #8520 from ricekot/fix-duplicate-id\n\nFix duplicate scan rule ID",
+        "commit_date": "2024-06-17 06:03:10",
         "release_date": "2024-05-07 17:39:14",
         "release_message": "Release notes: https://www.zaproxy.org/docs/desktop/releases/2.15.0/\r\n\r\n---\r\n| File | Checksum (SHA-256) |\r\n|---|---|\r\n| [ZAP_2.15.0.dmg](https://github.com/zaproxy/zaproxy/releases/download/v2.15.0/ZAP_2.15.0.dmg) | `ae025403e46cdefff013cd0c3b88d8edc5a183a76daa63cb62c7c629005337a5` |\r\n| [ZAP_2.15.0_aarch64.dmg](https://github.com/zaproxy/zaproxy/releases/download/v2.15.0/ZAP_2.15.0_aarch64.dmg) | `4426253f4702bbd5fb4779bcf4d62490b2c10ec851c4ebc94ced8f156d2e5509` |\r\n| [ZAP_2.15.0_Core.zip](https://github.com/zaproxy/zaproxy/releases/download/v2.15.0/ZAP_2.15.0_Core.zip) | `e3cf30ad526e4f3fb8a228e1d5e02da0389b2ec7436b989bb28f959703380bf5` |\r\n| [ZAP_2.15.0_Crossplatform.zip](https://github.com/zaproxy/zaproxy/releases/download/v2.15.0/ZAP_2.15.0_Crossplatform.zip) | `05d3932a1affb0ab7987664677134709982ca3837a0b0f0e16f9aeb391933341` |\r\n| [ZAP_2.15.0_Linux.tar.gz](https://github.com/zaproxy/zaproxy/releases/download/v2.15.0/ZAP_2.15.0_Linux.tar.gz) | `6410e196baab458a9204e29aafb5745fca003a2a6c0386f2c6e5c04b67621fa7` |\r\n| [ZAP_2_15_0_unix.sh](https://github.com/zaproxy/zaproxy/releases/download/v2.15.0/ZAP_2_15_0_unix.sh) | `3d976a197b7f71c52c8b8b2e9f06b988384845fb854b637ebb8be0e4cb38112f` |\r\n| [ZAP_2_15_0_windows-x32.exe](https://github.com/zaproxy/zaproxy/releases/download/v2.15.0/ZAP_2_15_0_windows-x32.exe) | `114953f29647a5e4e5774b338f2271d6149711e9222e0b92b11be3a35b812478` |\r\n| [ZAP_2_15_0_windows.exe](https://github.com/zaproxy/zaproxy/releases/download/v2.15.0/ZAP_2_15_0_windows.exe) | `28b348dd65116ddabbbbd98b7f84864a0bb0f98d656266f2f08bfd010ae51c57` |\r\n| [bom.json](https://github.com/zaproxy/zaproxy/releases/download/v2.15.0/bom.json) | `04f3e148aaa406cd7f31f2be8d3ef282e16e852233da85de13aacb3a173f4740` |\r\n"
     },
@@ -27074,7 +27074,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "172.183.107.27属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "20.55.213.189属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
@@ -27971,12 +27971,12 @@
         "release_message": ""
     },
     "https://github.com/xnl-h4ck3r/GAP-Burp-Extension": {
-        "created_at": "2024-05-21 20:42:56",
+        "created_at": "2024-05-26 23:27:39",
         "description": "Burp Extension to find potential endpoints, parameters, and generate a custom target wordlist",
-        "commit_message": "v5.2 - see CHANGELOG.md",
-        "commit_date": "2024-05-21 20:42:56",
-        "release_date": "2024-05-21 20:44:31",
-        "release_message": "  - Changed\r\n\r\n    - Fix bug where \"sus\" parameters wouldn't be shown at all in the `Potential param` pane if the option to `Report \"sus\" params` issues was not selected.\r\n    - Change `REGEX_JSNESTED` (used by the `Javascript variables and constants` option) to also get params from nested objects that start with `dataLayer.push(`.\r\n    - Improve the description for `Javascript variables and constants` in the `GAP Help.md`."
+        "commit_message": "v5.3 - see CHANGELOG.md",
+        "commit_date": "2024-05-26 23:27:39",
+        "release_date": "2024-05-26 23:30:41",
+        "release_message": "  - Changed\r\n\r\n    - Change `REGEX_JSNESTED` (used by the `Javascript variables and constants` option) to also get params from nested objects that start with `JSON.stringify(`."
     },
     "https://github.com/nodauf/GoMapEnum": {
         "created_at": "2022-02-16 14:08:36",
@@ -27995,8 +27995,8 @@
     "https://github.com/kubescape/kubescape": {
         "created_at": "2024-05-26 13:28:30",
         "description": "Kubescape is an open-source Kubernetes security platform for your IDE, CI/CD pipelines, and clusters. It includes risk analysis, security, compliance, and misconfiguration scanning, saving Kubernetes users and administrators precious time, effort, and resources.",
-        "commit_message": "Merge pull request #1695 from kubescape/rulename\n\nupdate exceptions docs - ruleName not supported",
-        "commit_date": "2024-06-11 08:41:15",
+        "commit_message": "Merge pull request #1697 from kubescape/dependabot/go_modules/httphandler/github.com/Azure/azure-sdk-for-go/sdk/azidentity-1.6.0\n\nBump github.com/Azure/azure-sdk-for-go/sdk/azidentity from 1.5.1 to 1.6.0 in /httphandler",
+        "commit_date": "2024-06-17 12:01:50",
         "release_date": "2024-05-27 21:21:40",
         "release_message": "## 🐞 Fixed issues\r\n* Mask all container data by @dwertent in https://github.com/kubescape/kubescape/pull/1683\r\n* fix yaml handler deleting too many lines during fix by @matthyx in https://github.com/kubescape/kubescape/pull/1685\r\n* Fix scanning unsupported clouds by @dwertent in https://github.com/kubescape/kubescape/pull/1688\r\n\r\n\r\n**Full Changelog**: https://github.com/kubescape/kubescape/compare/v3.0.10...v3.0.11"
     },
