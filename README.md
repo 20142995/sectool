@@ -495,7 +495,7 @@
 ###### Apache Airflow
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [CVE-2022-40127](https://github.com/Mr-xn/CVE-2022-40127) Apache Airflow < 2.4.0 DAG  example_bash_operator RCE POC
 ###### Apache Dubbo
-- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [dubbo-exp](https://github.com/threedr3am/dubbo-exp) dubbo学习demo，之前删了，重新上传。
+- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [dubbo-exp](https://github.com/threedr3am/dubbo-exp) dubbo快速利用exp，基本上老版本覆盖100%。
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [Dubbo-Scan v1.0.1](https://github.com/YYHYlh/Dubbo-Scan) 一款让你不只在dubbo-sample、vulhub或者其他测试环境里检测和利用成功的Apache Dubbo  漏洞检测工具。
 ###### Apache Log4j
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [logging-log4j2](https://github.com/apache/logging-log4j2) Apache Log4j 2 is a versatile, feature-rich, efficient logging API a...
@@ -712,7 +712,7 @@
 ###### DNSLOG平台
 - <img src="https://favicon.qqsuu.cn/ceye.io" alt="" style="height: 20px;"> [CEYE - Monitor service for security testing](http://ceye.io) 
 - <img src="https://favicon.qqsuu.cn/dnslog.pw" alt="" style="height: 20px;"> [登录 - DNSlog System](http://dnslog.pw/) 
-- <img src="https://favicon.qqsuu.cn/dnslog.pw" alt="" style="height: 20px;"> [登录 - DNSlog System](http://dnslog.pw/login) 
+- <img src="https://favicon.qqsuu.cn/dnslog.pw" alt="" style="height: 20px;"> [Server Error (500)](http://dnslog.pw/login) 
 - <img src="https://favicon.qqsuu.cn/eyes.sh" alt="" style="height: 20px;"> [登录](http://eyes.sh) 
 - <img src="https://favicon.qqsuu.cn/www.dnslog.cn" alt="" style="height: 20px;"> [DNSLog Platform](http://www.dnslog.cn) 
 - <img src="https://favicon.qqsuu.cn/app.interactsh.com" alt="" style="height: 20px;"> [Interactsh | Web Client](https://app.interactsh.com/#/) 
@@ -1020,10 +1020,10 @@
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [leakScan](https://github.com/Skycrab/leakScan) 在线漏洞扫描
 ##### 口令爆破
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [john](https://github.com/openwall/john) John the Ripper jumbo - advanced offline password cracker, which supports hund...
+- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [bruteforce-database](https://github.com/duyet/bruteforce-database) Bruteforce database
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [crackq](https://github.com/f0cker/crackq) CrackQ: A Python Hashcat cracking queue system
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [blasting](https://github.com/gubeihc/blasting) 
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [thc-hydra v9.5](https://github.com/vanhauser-thc/thc-hydra) hydra
-- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [bruteforce-database](https://github.com/duyet/bruteforce-database) Bruteforce database
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [GoMapEnum](https://github.com/nodauf/GoMapEnum) User enumeration and password bruteforce on Azure, ADFS, OWA, O365, Teams...
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [IMAPLoginTester](https://github.com/rm1984/IMAPLoginTester) A simple Python script that reads a text file with lots of e-mails ...
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [mass-bruter](https://github.com/opabravo/mass-bruter) Mass bruteforce authentication of network protocols
@@ -1100,10 +1100,10 @@
 - <img src="https://favicon.qqsuu.cn/blog.topsec.com.cn" alt="" style="height: 20px;"> [天融信阿尔法实验室](http://blog.topsec.com.cn/ad_lab/alphafuzzer/) 
 - <img src="https://favicon.qqsuu.cn/llvm.org" alt="" style="height: 20px;"> [libFuzzer – a library for coverage-guided fuzz testing. — LLVM 19.0.0git documentat...](http://llvm.org/docs/LibFuzzer.html) 
 ##### 漏洞扫描框架
+- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [zaproxy](https://github.com/zaproxy/zaproxy) The ZAP core project
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [pentestpackage](https://github.com/leonteale/pentestpackage) a package of Pentest scripts I have made or  commonly use
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [yakit](https://github.com/yaklang/yakit) Cyber Security ALL-IN-ONE Platform
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [Fiora](https://github.com/bit4woo/Fiora) Fiora：漏洞PoC框架Nuclei的图形版。快捷搜索PoC、一键运行Nuclei。即可作为独立程序运行，也可作为burp插件使用。
-- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [zaproxy](https://github.com/zaproxy/zaproxy) The ZAP core project
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [oFx](https://github.com/bigblackhat/oFx) 漏洞批量验证框架
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [oday](https://github.com/Janhsu/oday) javafx编写的poc管理工具和漏洞扫描的小工具
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [pocsuite3 v2.0.5](https://github.com/knownsec/pocsuite3) pocsuite3 is an open-sourced remote vulnerability testing framewor...
@@ -1178,13 +1178,13 @@
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [reverseip_py](https://github.com/yuyudhn/reverseip_py) Domain Parser for IPAddress.com Reverse IP Lookup
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [iplookup v1.1](https://github.com/Lengso/iplookup) IP反查域名
 - <img src="https://favicon.qqsuu.cn/s.tool.chinaz.com" alt="" style="height: 20px;"> [网站IP查询_IP反查域名_同IP网站查询 - 站长工具](http://s.tool.chinaz.com/same) 
-- <img src="https://favicon.qqsuu.cn/dns.aizhan.com" alt="" style="height: 20px;"> [52.254.83.49属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网](https://dns.aizhan.com/) 
+- <img src="https://favicon.qqsuu.cn/dns.aizhan.com" alt="" style="height: 20px;"> [20.161.76.224属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网](https://dns.aizhan.com/) 
 - <img src="https://favicon.qqsuu.cn/dnslytics.com" alt="" style="height: 20px;"> [Reverse IP - Find websites hosted on the same IP address, server or subnet](https://dnslytics.com/reverse-ip) 
 - <img src="https://favicon.qqsuu.cn/hackertarget.com" alt="" style="height: 20px;"> [Reverse IP Lookup, Find Hosts Sharing an IP | HackerTarget.com](https://hackertarget.com/reverse-ip-lookup/) 
 - <img src="https://favicon.qqsuu.cn/rapiddns.io" alt="" style="height: 20px;"> [Subdomain - RapidDNS Rapid DNS Information Collection](https://rapiddns.io/sameip) 
 - <img src="https://favicon.qqsuu.cn/reverseip.domaintools.com" alt="" style="height: 20px;"> [Reverse IP Lookup - All Names Hosted at an IP - DomainTools](https://reverseip.domaintools.com/) 
 - <img src="https://favicon.qqsuu.cn/site.ip138.com" alt="" style="height: 20px;"> [域名查iP 域名解析 iP查询网站 iP反查域名 iP反查网站 同一iP网站 同iP网站域名iP查询](https://site.ip138.com/) 
-- <img src="https://favicon.qqsuu.cn/tools.ipip.net" alt="" style="height: 20px;"> [专业精准的IP库服务商_IPIP](https://tools.ipip.net/ipdomain.php) 
+- <img src="https://favicon.qqsuu.cn/tools.ipip.net" alt="" style="height: 20px;"> [tools.ipip.net | 525: SSL handshake failed](https://tools.ipip.net/ipdomain.php) 
 - <img src="https://favicon.qqsuu.cn/viewdns.info" alt="" style="height: 20px;"> [Just a moment...](https://viewdns.info/reverseip/) 
 - <img src="https://favicon.qqsuu.cn/www.webscan.cc" alt="" style="height: 20px;"> [同IP网站查询,C段查询,IP反查域名,在线C段,旁站工具 - WebScan](https://www.webscan.cc/) 
 - <img src="https://favicon.qqsuu.cn/www.yougetsignal.com" alt="" style="height: 20px;"> [Reverse IP Lookup - Find Other Web Sites Hosted on a Web Server](https://www.yougetsignal.com/tools/web-sites-on-web-server/) 
@@ -1891,13 +1891,13 @@
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [TranSec](https://github.com/TianWen-Lab/TranSec) Internet of Vehicles Penetration testing OS.车联网渗透测试系统，开箱即用的测试环境，包含上百个常见用于车联...
 #### 知识库
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [Security-operation-book](https://github.com/0x783kb/Security-operation-book) 常见的黑客行为监测特征及方法，涵盖端点和流量，未包含PowerShell和Sysmon。预祝运营生活愉快！
+- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [1earn](https://github.com/ffffffff0x/1earn) ffffffff0x 团队维护的安全知识框架,内容包括不仅限于 web安全、工控安全、取证、应急、蓝队设施部署、后渗透、Linux安全、各类靶机writup
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [Awesome-Redteam](https://github.com/Threekiii/Awesome-Redteam) 一个攻防知识仓库 Red Teaming and Offensive Security
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [Network-security-study-notes](https://github.com/djytmdj/Network-security-study-notes) 主要记录网络安全学习笔记，包含WEB安全、提权、APP渗透、内网渗透、横向移动、红队、工具学习等
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [Vuln-List](https://github.com/wwl012345/Vuln-List) (持续更新)对网上出现的各种OA、中间件、CMS等漏洞进行整理，主要包括漏洞介绍、漏洞影响版本以及漏洞POC/EXP等，并且会持续更新。
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [SecurityInterviewGuide](https://github.com/FeeiCN/SecurityInterviewGuide) 网络信息安全从业者面试指南
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [Pentools-wiki](https://github.com/ProbiusOfficial/Pentools-wiki) 先是渗透工具合集，其次是wiki，做点不一样的x
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [Intranet_Penetration_Tips](https://github.com/Ridter/Intranet_Penetration_Tips) 2018年初整理的一些内网渗透TIPS，后面更新的慢，所以整理出来希望跟小伙伴们一起更新维护~
-- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [1earn](https://github.com/ffffffff0x/1earn) 暂停维护 | ffffffff0x 团队维护的安全知识框架,内容包括不仅限于 web安全、工控安全、取证、应急、蓝队设施部署、后渗透、Linux安全、各类...
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [PenetrationTesttips](https://github.com/CYJoe-Cyclone/PenetrationTesttips) 渗透测试Tips - Version1.3
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [CS-checklist v1.0](https://github.com/theLSA/CS-checklist) PC客户端（C-S架构）渗透测试checklist / Client side(C-S) penetration checklist
 ### 社工
@@ -2016,10 +2016,10 @@
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [Sharp-dumpkey 1](https://github.com/Ormicron/Sharp-dumpkey) 基于C#实现的获取微信数据库密钥的小工具
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [WeChatMsg](https://github.com/LC044/WeChatMsg) 提取微信聊天记录，将其导出成HTML、Word、Excel文档永久保存，对聊天记录进行分析生成年度聊天报告，用聊天数据训练专属于个人的AI聊天助手
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [WechatBakTool](https://github.com/SuxueCode/WechatBakTool) 基于C#的微信PC版聊天记录备份工具，提供图形界面，解密微信数据库并导出聊天记录。
+- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [WeChatUserDB](https://github.com/x1hy9/WeChatUserDB) GetWeChat DBPassword&&UserInfo(获取PC数据库密码以及相关微信用户信息支持多系统数据库解密)
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [SharpWxDump](https://github.com/AdminTest0/SharpWxDump) 微信客户端取证，可获取用户个人信息(昵称/账号/手机/邮箱/数据库密钥(用来解密聊天记录))；支持获取多用户信息，不定期更新新版本偏移，目前支...
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [wechat-backup v1.0.0](https://github.com/greycodee/wechat-backup) 微信聊天记录持久化备份本地硬盘，释放手机存储空间。
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [GoWxDump v1.0.12](https://github.com/SpenserCai/GoWxDump) SharpWxDump的Go语言版。微信客户端取证，获取信息(微信号、手机号、昵称)，微信聊天记录分析(Top N聊天的人、统计聊天...
-- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [WeChatUserDB](https://github.com/x1hy9/WeChatUserDB) GetWeChat DBPassword&&UserInfo(获取PC数据库密码以及相关微信用户信息支持多系统数据库解密)
 ##### 浏览器取证
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [hindsight v2023.03](https://github.com/obsidianforensics/hindsight) Web browser forensics for Google Chrome/Chromium
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [HackBrowserData v0.4.4](https://github.com/moonD4rk/HackBrowserData) Extract and decrypt browser data, supporting multiple data t...
