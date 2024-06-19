@@ -430,7 +430,7 @@
         "release_message": "重构为web版\r\n\r\n添加功能:\r\n1. 多行执行命令\r\n2. 上线CS"
     },
     "https://github.com/synacktiv/HopLa": {
-        "created_at": "2021-05-06 11:01:23",
+        "created_at": "2021-05-12 16:21:29",
         "description": " HopLa Burp Suite Extender plugin -  Adds autocompletion support and useful payloads in Burp Suite",
         "commit_date": "2021-05-12 16:21:29",
         "commit_message": "Some fixes on side effects & completion more in bash style",
@@ -1407,10 +1407,10 @@
         "release_message": "修复 -ff 重复验证问题\r\n修复 自动识别协议bug"
     },
     "https://github.com/0x727/ShuiZe_0x727": {
-        "created_at": "2021-07-28 11:34:10",
+        "created_at": "2021-08-03 09:44:07",
         "description": "信息收集自动化工具",
-        "commit_date": "2022-08-31 09:01:58",
-        "commit_message": "调用ObserverWard扫描指纹",
+        "commit_date": "2024-06-13 09:24:47",
+        "commit_message": "update",
         "release_tag": "v1.0",
         "release_date": "2021-08-03 10:31:54",
         "release_message": ""
@@ -1756,7 +1756,7 @@
     "https://github.com/wyzxxz/shiro_rce_tool": {
         "created_at": "2020-01-07 10:47:41",
         "description": "shiro 反序列 命令执行辅助检测工具",
-        "commit_date": "2022-12-28 02:37:14",
+        "commit_date": "2024-05-21 02:57:22",
         "commit_message": "Update README.md",
         "release_tag": "",
         "release_date": "",
@@ -2084,7 +2084,7 @@
         "release_message": ""
     },
     "https://github.com/a1phaboy/JsonDetect": {
-        "created_at": "2022-09-16 05:30:12",
+        "created_at": "2022-09-16 06:31:05",
         "description": "A burp Extender to detect json, include fastjson,jackson,gson",
         "commit_date": "2022-09-22 03:09:07",
         "commit_message": "添加在发送dns payload时会进行报错检测",
@@ -2334,8 +2334,8 @@
     "https://github.com/lijiejie/swagger-exp": {
         "created_at": "2021-03-23 06:46:21",
         "description": "A Swagger API Exploit",
-        "commit_date": "2023-04-21 06:44:01",
-        "commit_message": "Merge pull request #13 from lanyi1998/master\n\nfeat:support mac",
+        "commit_date": "2024-06-07 10:24:44",
+        "commit_message": "fix",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -4696,7 +4696,7 @@
         "release_message": ""
     },
     "https://github.com/Mob2003/rakshasa": {
-        "created_at": "2023-03-22 03:27:46",
+        "created_at": "2023-04-22 12:51:42",
         "description": "基于go编写的跨平台、稳定、隐秘的多级代理内网穿透工具",
         "commit_date": "2023-04-23 06:50:02",
         "commit_message": "Update README.md",
@@ -5080,13 +5080,13 @@
         "release_message": ""
     },
     "https://github.com/ticarpi/jwt_tool": {
-        "created_at": "2017-01-23 21:13:50",
+        "created_at": "2024-05-28 21:47:05",
         "description": ":snake: A toolkit for testing, tweaking and cracking JSON Web Tokens",
-        "commit_date": "2022-09-09 11:00:11",
-        "commit_message": "Update README.md",
+        "commit_date": "2024-05-28 21:47:05",
+        "commit_message": "Update for v2.2.7",
         "release_tag": "v2.2.6",
-        "release_date": "2022-09-09 08:21:09",
-        "release_message": "jwt_tool v2.2.6\r\n[+] Fixed alg issue in prompt (thanks @jwutzke)\r\n[+] Implemented a no-redirect option to avoid 301/302 ambiguous results (`-nr`/`--no-redirect`) (thanks @TheREK3R)\r\n[+] Improved some JWKS/kid handling\r\n[+] Fixed non-ASCII password issue on Playbook Scan\r\nBugfixes"
+        "release_date": "2024-05-28 21:50:59",
+        "release_message": "jwt_tool v2.2.7\r\n[+] Fixed Python 3.12 support (thanks @JJK96)\r\n[+] Implemented (-r/--request) 'sqlmap style' request import mode (thanks @rbrown256)"
     },
     "https://github.com/Tas9er/UEditorGetShell": {
         "created_at": "2021-05-12 02:55:16",
@@ -7618,7 +7618,7 @@
         "release_message": ""
     },
     "https://github.com/cyberark/DLLSpy": {
-        "created_at": "2019-03-11 17:28:53",
+        "created_at": "2019-03-14 14:58:36",
         "description": "DLL Hijacking Detection Tool",
         "commit_date": "2019-03-14 14:58:36",
         "commit_message": "Merge pull request #1 from cyberark/CleanMaster\n\nFirst Commit",
@@ -16452,7 +16452,7 @@
         "release_message": ""
     },
     "https://github.com/HXSecurity/TerraformGoat": {
-        "created_at": "2022-04-28 09:28:27",
+        "created_at": "2022-11-30 08:16:23",
         "description": "TerraformGoat is HXSecurity research lab's \"Vulnerable by Design\" multi cloud deployment tool.",
         "commit_date": "2022-11-30 08:16:23",
         "commit_message": "Merge pull request #107 from teamssix/main\n\ndoc: update tencent cloud",
@@ -21847,8 +21847,8 @@
         "release_tag": "",
         "release_date": "",
         "release_message": "",
-        "commit_date": "2022-05-30 06:51:49",
-        "commit_message": "移除冗余代码"
+        "commit_date": "2023-07-11 02:45:29",
+        "commit_message": "更新版本号1.4.0"
     },
     "https://github.com/NS-Sp4ce/Weaver-OA-E-cology-Database-Leak": {
         "created_at": "2019-10-27 11:17:39",
@@ -23066,7 +23066,7 @@
         "release_message": ""
     },
     "https://github.com/Cl0udG0d/SZhe_Scan": {
-        "created_at": "2020-03-30 15:13:51",
+        "created_at": "2022-04-01 09:03:38",
         "description": "碎遮SZhe_Scan Web漏洞扫描器，基于python Flask框架，对输入的域名/IP进行全面的信息搜集，漏洞扫描，可自主添加POC",
         "commit_date": "2022-12-04 05:27:18",
         "commit_message": "Update README.md",
@@ -23590,13 +23590,13 @@
         "release_message": "# 基于新版ARL2.6.2版本开发\r\n1. 中央数据库\r\n2. 修改了rabbitmq的超时时间\r\n3. 没了...(有需求提issue，视情况开发)"
     },
     "https://github.com/lemonlove7/0_zone": {
-        "created_at": "2022-09-01 05:35:49",
+        "created_at": "2024-06-05 03:58:36",
         "description": "0_zone_zpi脚本",
-        "commit_date": "2022-09-01 05:40:19",
-        "commit_message": "Update README.md",
+        "commit_date": "2024-06-05 03:58:36",
+        "commit_message": "Update zone_api.py",
         "release_tag": "v1.0",
-        "release_date": "2022-09-01 05:39:23",
-        "release_message": "windows版本v1.0"
+        "release_date": "2024-06-05 03:59:36",
+        "release_message": "api语法变更"
     },
     "https://github.com/SexyBeast233/SecDictionary": {
         "created_at": "2023-02-20 07:02:05",
@@ -24412,8 +24412,8 @@
         "description": "魅族安全中心"
     },
     "https://sec.vip.com/": {
-        "status_code": 503,
-        "description": ""
+        "status_code": 200,
+        "description": "VSRC首页-唯品会信息安全中心"
     },
     "https://sec.wacai.com/": {
         "status_code": 200,
@@ -27074,7 +27074,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "172.183.113.96属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "172.183.107.240属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
@@ -27258,7 +27258,7 @@
     },
     "https://www.storytrain.info/": {
         "status_code": 200,
-        "description": "用户认证 - 云短信 - 短信接收"
+        "description": "短信接收 - 云短信 - 第1页 - 在线短信接收"
     },
     "https://sms-activate.org/": {
         "status_code": 403,
