@@ -3768,7 +3768,7 @@
         "release_message": ""
     },
     "https://github.com/20142995/fofa_GUI": {
-        "created_at": "2021-03-14 04:24:47",
+        "created_at": "2024-03-26 12:59:03",
         "description": null,
         "commit_date": "2024-04-08 12:46:39",
         "commit_message": "update by 4.8",
@@ -5133,7 +5133,7 @@
         "release_message": "## Bug Fixes\r\n* #2190 -  Maintainability - Improved CI workflow\r\n* #2185 - Could not minify JavaScript file: web_ui_all\r\n## Enchancements\r\n* #2205 - Modules - Apache Tomcat Examples Default Install Exploit\r\n* #2157 -  Maintainability - Implement GitHub Actions and added confirmation step to PRs\r\n* #2190 -  Maintainability - Improved CI workflow: \r\n  * Refactor Rakefile to accommodate Browserstack implementation\r\n  * Installer improvements\r\n  * Test suite performance improvements\r\n* #2199  - Enhancement - Check for update on launch works with beef-xss kali package install\r\n\r\n**Full Changelog**: https://github.com/beefproject/beef/compare/v0.5.3.0...v0.5.4.0"
     },
     "https://github.com/MrEmpy/Mantra": {
-        "created_at": "2024-04-01 17:55:03",
+        "created_at": "2023-01-31 01:47:53",
         "description": "「🔑」A tool used to hunt down API key leaks in JS files and pages",
         "commit_date": "2024-04-15 14:53:05",
         "commit_message": "New regex",
@@ -27074,7 +27074,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "13.83.123.148属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "52.157.3.105属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
@@ -27258,7 +27258,7 @@
     },
     "https://www.storytrain.info/": {
         "status_code": 200,
-        "description": "短信接收 - 云短信 - 第1页 - 在线短信接收"
+        "description": "用户认证 - 云短信 - 短信接收"
     },
     "https://sms-activate.org/": {
         "status_code": 403,
