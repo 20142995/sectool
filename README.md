@@ -712,7 +712,7 @@
 ###### DNSLOG平台
 - <img src="https://favicon.qqsuu.cn/ceye.io" alt="" style="height: 20px;"> [CEYE - Monitor service for security testing](http://ceye.io) 
 - <img src="https://favicon.qqsuu.cn/dnslog.pw" alt="" style="height: 20px;"> [登录 - DNSlog System](http://dnslog.pw/) 
-- <img src="https://favicon.qqsuu.cn/dnslog.pw" alt="" style="height: 20px;"> [Server Error (500)](http://dnslog.pw/login) 
+- <img src="https://favicon.qqsuu.cn/dnslog.pw" alt="" style="height: 20px;"> [登录 - DNSlog System](http://dnslog.pw/login) 
 - <img src="https://favicon.qqsuu.cn/eyes.sh" alt="" style="height: 20px;"> [登录](http://eyes.sh) 
 - <img src="https://favicon.qqsuu.cn/www.dnslog.cn" alt="" style="height: 20px;"> [DNSLog Platform](http://www.dnslog.cn) 
 - <img src="https://favicon.qqsuu.cn/app.interactsh.com" alt="" style="height: 20px;"> [Interactsh | Web Client](https://app.interactsh.com/#/) 
@@ -737,7 +737,7 @@
 - <img src="https://favicon.qqsuu.cn/temp-mail.org" alt="" style="height: 20px;"> [Just a moment...](https://temp-mail.org/) 
 - <img src="https://favicon.qqsuu.cn/tools.emailhippo.com" alt="" style="height: 20px;"> [Free Email Address Verifier: Verify An Email Address In Real Time | emailhippo.com](https://tools.emailhippo.com/) 
 - <img src="https://favicon.qqsuu.cn/www.snapmail.cc" alt="" style="height: 20px;"> [Snapmail - The fastest way to test email!](https://www.snapmail.cc/) 
-- <img src="https://favicon.qqsuu.cn/www.storytrain.info" alt="" style="height: 20px;"> [短信接收 - 云短信 - 第1页 - 在线短信接收](https://www.storytrain.info/) 
+- <img src="https://favicon.qqsuu.cn/www.storytrain.info" alt="" style="height: 20px;"> [用户认证 - 云短信 - 短信接收](https://www.storytrain.info/) 
 ###### 反弹shell
 - <img src="https://favicon.qqsuu.cn/forum.ywhack.com" alt="" style="height: 20px;"> [[~]#棱角 ::Edge.Forum*](https://forum.ywhack.com/shell.php) 
 ###### 文件下载
@@ -973,6 +973,7 @@
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [gshark](https://github.com/madneal/gshark) Scan for sensitive information easily and effectively.
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [code6 1.6.4](https://github.com/4x99/code6) 码小六 - GitHub 代码泄露监控系统
 ##### 半自动漏洞扫描
+- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [QingScan v1.8.0](https://github.com/78778443/QingScan) 一个漏洞扫描器粘合剂,添加目标后30款工具自动调用；支持 web扫描、系统扫描、子域名收集、目录扫描、主机扫描、主机发现、组件识别、U...
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [afrog](https://github.com/zan8in/afrog) A Security Tool for Bug Bounty, Pentest and Red Teaming.
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [reconftw](https://github.com/six2dez/reconftw) reconFTW is a tool designed to perform automated recon on a target domain ...
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [nuclei](https://github.com/projectdiscovery/nuclei) Fast and customizable vulnerability scanner based on simple YAML based DSL.
@@ -984,7 +985,6 @@
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [EZ](https://github.com/m-sec-org/EZ) EZ是一款集信息收集、端口扫描、服务暴破、URL爬虫、指纹识别、被动扫描为一体的跨平台漏洞扫描器。
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [Osmedeus](https://github.com/j3ssie/Osmedeus) A Workflow Engine for Offensive Security
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [xray 1.9.11](https://github.com/chaitin/xray) 一款完善的安全评估工具，支持常见 web 安全问题扫描和自定义 poc | 使用之前务必先阅读文档
-- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [QingScan v1.8.0](https://github.com/78778443/QingScan) 一个漏洞扫描器粘合剂,添加目标后30款工具自动调用；支持 web扫描、系统扫描、子域名收集、目录扫描、主机扫描、主机发现、组件识别、U...
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [ApolloScanner](https://github.com/b0bac/ApolloScanner) 自动化巡航扫描框架（可用于红队打点评估）
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [AttackSurfaceMapper](https://github.com/superhedgy/AttackSurfaceMapper) AttackSurfaceMapper is a tool that aims to automate the reconna...
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [jaeles beta-v0.17.1](https://github.com/jaeles-project/jaeles) The Swiss Army knife for automated Web Application Testing
@@ -1178,13 +1178,13 @@
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [reverseip_py](https://github.com/yuyudhn/reverseip_py) Domain Parser for IPAddress.com Reverse IP Lookup
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [iplookup v1.1](https://github.com/Lengso/iplookup) IP反查域名
 - <img src="https://favicon.qqsuu.cn/s.tool.chinaz.com" alt="" style="height: 20px;"> [网站IP查询_IP反查域名_同IP网站查询 - 站长工具](http://s.tool.chinaz.com/same) 
-- <img src="https://favicon.qqsuu.cn/dns.aizhan.com" alt="" style="height: 20px;"> [20.161.76.224属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网](https://dns.aizhan.com/) 
+- <img src="https://favicon.qqsuu.cn/dns.aizhan.com" alt="" style="height: 20px;"> [52.157.3.105属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网](https://dns.aizhan.com/) 
 - <img src="https://favicon.qqsuu.cn/dnslytics.com" alt="" style="height: 20px;"> [Reverse IP - Find websites hosted on the same IP address, server or subnet](https://dnslytics.com/reverse-ip) 
 - <img src="https://favicon.qqsuu.cn/hackertarget.com" alt="" style="height: 20px;"> [Reverse IP Lookup, Find Hosts Sharing an IP | HackerTarget.com](https://hackertarget.com/reverse-ip-lookup/) 
 - <img src="https://favicon.qqsuu.cn/rapiddns.io" alt="" style="height: 20px;"> [Subdomain - RapidDNS Rapid DNS Information Collection](https://rapiddns.io/sameip) 
 - <img src="https://favicon.qqsuu.cn/reverseip.domaintools.com" alt="" style="height: 20px;"> [Reverse IP Lookup - All Names Hosted at an IP - DomainTools](https://reverseip.domaintools.com/) 
 - <img src="https://favicon.qqsuu.cn/site.ip138.com" alt="" style="height: 20px;"> [域名查iP 域名解析 iP查询网站 iP反查域名 iP反查网站 同一iP网站 同iP网站域名iP查询](https://site.ip138.com/) 
-- <img src="https://favicon.qqsuu.cn/tools.ipip.net" alt="" style="height: 20px;"> [tools.ipip.net | 525: SSL handshake failed](https://tools.ipip.net/ipdomain.php) 
+- <img src="https://favicon.qqsuu.cn/tools.ipip.net" alt="" style="height: 20px;"> [专业精准的IP库服务商_IPIP](https://tools.ipip.net/ipdomain.php) 
 - <img src="https://favicon.qqsuu.cn/viewdns.info" alt="" style="height: 20px;"> [Just a moment...](https://viewdns.info/reverseip/) 
 - <img src="https://favicon.qqsuu.cn/www.webscan.cc" alt="" style="height: 20px;"> [同IP网站查询,C段查询,IP反查域名,在线C段,旁站工具 - WebScan](https://www.webscan.cc/) 
 - <img src="https://favicon.qqsuu.cn/www.yougetsignal.com" alt="" style="height: 20px;"> [Reverse IP Lookup - Find Other Web Sites Hosted on a Web Server](https://www.yougetsignal.com/tools/web-sites-on-web-server/) 
@@ -1416,7 +1416,7 @@
 - <img src="https://favicon.qqsuu.cn/app.snov.io" alt="" style="height: 20px;"> [Snov.io](https://app.snov.io/) 
 - <img src="https://favicon.qqsuu.cn/connect.clearbit.com" alt="" style="height: 20px;"> [Find any email address with Clearbit Connect](https://connect.clearbit.com/) 
 - <img src="https://favicon.qqsuu.cn/findthatlead.com" alt="" style="height: 20px;"> [FindThatLead - B2B Lead Generation Done in seconds](https://findthatlead.com/en) 
-- <img src="https://favicon.qqsuu.cn/hunter.io" alt="" style="height: 20px;"> [Find email addresses in seconds • Hunter (Email Hunter)](https://hunter.io/) 
+- <img src="https://favicon.qqsuu.cn/hunter.io" alt="" style="height: 20px;"> [Find email addresses and send cold emails • Hunter](https://hunter.io/) 
 - <img src="https://favicon.qqsuu.cn/phonebook.cz" alt="" style="height: 20px;"> [Phonebook.cz - Intelligence X](https://phonebook.cz/) 
 - <img src="https://favicon.qqsuu.cn/souyouxiang.com" alt="" style="height: 20px;"> [搜邮箱 | 搜邮箱](https://souyouxiang.com/) 
 ### 后渗透
@@ -1997,8 +1997,8 @@
 ##### vmx加密破解
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [pyvmx-cracker](https://github.com/axcheron/pyvmx-cracker) Simple tool to crack VMware VMX encryption passwords
 ##### 主机账号
-- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [mimikatz 2.2.0-20220919](https://github.com/gentilkiwi/mimikatz) A little tool to play with Windows security
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [LaZagne v2.4.5](https://github.com/AlessandroZ/LaZagne) Credentials recovery project
+- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [mimikatz 2.2.0-20220919](https://github.com/gentilkiwi/mimikatz) A little tool to play with Windows security
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [RegRipper3.0](https://github.com/keydet89/RegRipper3.0) RegRipper3.0
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [Hostinfo 3.0.0](https://github.com/dwagon/Hostinfo) Host Information Database for Unix Sysadmins
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [win-brute-logon](https://github.com/DarkCoderSc/win-brute-logon) Crack any Microsoft Windows users password without any privilege (G...
@@ -2159,7 +2159,7 @@
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [ngx_lua_waf](https://github.com/loveshell/ngx_lua_waf) ngx_lua_waf是一个基于lua-nginx-module(openresty)的web应用防火墙
 - <img src="https://favicon.qqsuu.cn/rasp.baidu.com" alt="" style="height: 20px;"> [开源应用运行时自我保护解决方案 - OpenRASP - 百度安全](https://rasp.baidu.com) 
 #### Web应用防火墙
-- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [safeline](https://github.com/chaitin/safeline) A simple, lightweight, and secure WAF. Developed based on Nginx and connec...
+- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [safeline](https://github.com/chaitin/safeline) A web security gateway, serve as a reverse proxy to protect your websites ...
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [openstar](https://github.com/starjun/openstar) lua waf,nginx+lua,openresty,luajit,waf+,cdn,nginx
 #### web靶场
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [vulhub](https://github.com/vulhub/vulhub) Pre-Built Vulnerable Environments Based on Docker-Compose
