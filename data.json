@@ -3559,12 +3559,12 @@
         "release_message": "# 更新日志\r\n## version1.6\r\n### 新增\r\n1. 已识别组件的目录扫描优化（使用特定字典且会进行关键字验证，例如识别到是WebLogic会自动去访问/console，并进行关键字验证）\r\n\r\n### 优化\r\n1. 脆弱性分析增加过滤，不会对所有类型进行分析（例如jpg）\r\n2. 优化和增加部份指纹\r\n3. 默认开启已识别组件的目录扫描"
     },
     "https://github.com/f0ng/autoDecoder": {
-        "created_at": "2024-05-05 15:14:14",
+        "created_at": "2024-05-17 02:40:33",
         "description": "Burp插件，根据自定义来达到对数据包的处理（适用于加解密、爆破等），类似mitmproxy，不同点在于经过了burp中转，在自动加解密的基础上，不影响APP、网站加解密正常逻辑等。",
         "commit_message": "Update FAQ.md",
         "commit_date": "2024-05-17 02:40:33",
-        "release_date": "2024-05-05 15:17:27",
-        "release_message": "## 2024.5.5 更新0.40\r\n1. 修复sm4加解密bug(base64)\r\n2. 增加密文关键字对响应体的判断"
+        "release_date": "2024-06-15 09:47:53",
+        "release_message": "## 2024.6.15 更新0.40\r\n1. sm2密文编码为base64不生效\r\n2. 修复iv置空导致报错问题\r\n感谢微信群师傅@.: :.  @NLEG 师傅反馈"
     },
     "https://github.com/funkyoummp/BurpSuiteCn": {
         "created_at": "",
@@ -27074,7 +27074,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "40.67.141.250属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "13.83.123.148属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
@@ -28145,8 +28145,8 @@
     "https://github.com/iknowjason/Awesome-CloudSec-Labs": {
         "created_at": "2023-04-28 11:12:33",
         "description": "Awesome free cloud native security learning labs.  Includes CTF, self-hosted workshops, guided vulnerability labs, and research labs. ",
-        "commit_message": "Merge pull request #6 from wilcosec/main\n\nContained.af is no longer hosted by the author.",
-        "commit_date": "2024-05-16 13:11:17"
+        "commit_message": "Merge pull request #8 from tarihub/main",
+        "commit_date": "2024-06-12 03:21:08"
     },
     "https://github.com/w-digital-scanner/w9scan": {
         "created_at": "2018-01-23 08:29:18",
