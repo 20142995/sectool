@@ -580,8 +580,8 @@
     "https://github.com/shadow1ng/fscan": {
         "created_at": "2024-05-11 08:09:14",
         "description": "一款内网综合扫描工具，方便一键自动化、全方位漏扫扫描。",
-        "commit_message": "降级go-ora到v2.5.29,避免混淆工具编译失败",
-        "commit_date": "2024-05-27 08:00:33",
+        "commit_message": "GitHub action go-version: 1.20.14",
+        "commit_date": "2024-06-15 09:10:56",
         "release_date": "2024-05-11 08:51:48",
         "release_message": "小更新，优化报错处理。避免部分扫描模块报错后导致的程序退出\r\nlinux(amd64)默认使用fscan\r\nwindows(x64)默认使用fscan.exe即可"
     },
@@ -813,8 +813,8 @@
     "https://github.com/murphysecurity/murphysec": {
         "created_at": "2023-05-15 12:21:31",
         "description": "An open source tool focused on software supply chain security. 墨菲安全专注于软件供应链安全，具备专业的软件成分分析（SCA）、漏洞检测、专业漏洞库。",
-        "commit_message": "fix(cargo): open Cargo.lock or cargo.lock",
-        "commit_date": "2024-05-22 07:18:34",
+        "commit_message": "fix(yarn): WIP, online & dev",
+        "commit_date": "2024-06-17 11:12:29",
         "release_date": "2023-05-15 12:52:58",
         "release_message": "Support NPM lockfile v3 "
     },
@@ -1026,8 +1026,8 @@
     "https://github.com/sml2h3/ddddocr": {
         "created_at": "2021-07-14 09:00:06",
         "description": "带带弟弟 通用验证码识别OCR pypi版",
-        "commit_date": "2024-06-06 04:05:40",
-        "commit_message": "Update README.md",
+        "commit_date": "2024-06-19 14:03:16",
+        "commit_message": "修复numpy大版本更新导致的问题",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -1122,8 +1122,8 @@
     "https://github.com/gchq/CyberChef": {
         "created_at": "2024-06-11 17:07:28",
         "description": "The Cyber Swiss Army Knife - a web app for encryption, encoding, compression and data analysis",
-        "commit_date": "2024-06-11 23:01:11",
-        "commit_message": "Merge pull request #1200 from AlfredBerg/master",
+        "commit_date": "2024-06-17 23:35:50",
+        "commit_message": "Merge pull request #1834 from eltociear/patch-1",
         "release_tag": "v10.5.2",
         "release_date": "2024-06-11 17:17:57",
         "release_message": "See the [CHANGELOG](https://github.com/gchq/CyberChef/blob/master/CHANGELOG.md) and [commit messages](https://github.com/gchq/CyberChef/commits/master) for details."
@@ -4527,7 +4527,7 @@
         "commit_date": "2024-04-25 23:22:49"
     },
     "https://github.com/rockbenben/ChatGPT-Shortcut": {
-        "created_at": "2024-05-06 09:37:59",
+        "created_at": "2023-02-24 12:53:49",
         "description": "🚀💪Maximize your efficiency and productivity, support for English,中文,Español,العربية. 让生产力加倍的AI快捷指令。更有效地定制、保存和分享自己的提示词。在提示词分享社区中，轻松找到适用于不同场景的指令。",
         "commit_message": "Revert \"refactor(components): comments & share\"\n\nThis reverts commit 171d5f8cec81af7594c8eea5085eb971a22bce14.",
         "commit_date": "2024-06-07 08:58:05",
@@ -6412,8 +6412,8 @@
     "https://github.com/arch3rPro/PST-Bucket": {
         "created_at": "2023-04-24 06:49:11",
         "description": "Scoop-Buket for Penetration Suite Toolkit",
-        "commit_message": "winscp-zh: Update to version 6.3.4",
-        "commit_date": "2024-06-17 16:32:31"
+        "commit_message": "easysrv: Update to version 3.8.1",
+        "commit_date": "2024-06-19 16:32:03"
     },
     "https://github.com/Aiyflowers/JWT_GUI": {
         "created_at": "2023-07-01 07:09:25",
@@ -6498,8 +6498,8 @@
     "https://github.com/ImageMagick/ImageMagick": {
         "created_at": "2024-05-25 12:22:12",
         "description": "🧙‍♂️ ImageMagick 7",
-        "commit_message": "latest autoconf update",
-        "commit_date": "2024-06-11 23:44:53",
+        "commit_message": "Corrected setting the offset for the seek operation to fix issue when reading xbm files with information between the width/height define and data (#7406)",
+        "commit_date": "2024-06-19 05:14:56",
         "release_date": "2024-05-25 15:33:57",
         "release_message": "## What's Changed\n* Fix typo by @kmilos in https://github.com/ImageMagick/ImageMagick/pull/7294\n* Bump azure/trusted-signing-action from 0.3.16 to 0.3.18 by @dependabot in https://github.com/ImageMagick/ImageMagick/pull/7325\n* Bump caphyon/advinst-github-action from 1.1 to 2.0 by @dependabot in https://github.com/ImageMagick/ImageMagick/pull/7326\n\n\n**Full Changelog**: https://github.com/ImageMagick/ImageMagick/compare/7.1.1-32...7.1.1-33"
     },
@@ -8581,8 +8581,8 @@
     "https://github.com/PyCQA/bandit": {
         "created_at": "2024-06-12 22:17:21",
         "description": "Bandit is a tool designed to find common security issues in Python code.",
-        "commit_date": "2024-06-12 22:17:21",
-        "commit_message": "Support `configfile` in `.bandit` file (#1052)\n\n* Support `(--)config` in `.bandit` file\r\n\r\n* Use `configfile` instead of `config`\r\n\r\n---------\r\n\r\nCo-authored-by: Eric Brown <ericwb@users.noreply.github.com>",
+        "commit_date": "2024-06-17 16:02:23",
+        "commit_message": "Bump docker/build-push-action from 5.4.0 to 6.0.0 (#1147)\n\n* Bump docker/build-push-action from 5.4.0 to 6.0.0\r\n\r\nBumps [docker/build-push-action](https://github.com/docker/build-push-action) from 5.4.0 to 6.0.0.\r\n- [Release notes](https://github.com/docker/build-push-action/releases)\r\n- [Commits](https://github.com/docker/build-push-action/compare/ca052bb54ab0790a636c9b5f226502c73d547a25...c382f710d39a5bb4e430307530a720f50c2d3318)\r\n\r\n---\r\nupdated-dependencies:\r\n- dependency-name: docker/build-push-action\r\n  dependency-type: direct:production\r\n  update-type: version-update:semver-major\r\n...\r\n\r\nSigned-off-by: dependabot[bot] <support@github.com>\r\n\r\n* Update .github/workflows/build-publish-image.yml\r\n\r\n---------\r\n\r\nSigned-off-by: dependabot[bot] <support@github.com>\r\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>\r\nCo-authored-by: Eric Brown <ericwb@users.noreply.github.com>",
         "release_tag": "1.7.5",
         "release_date": "2024-06-12 22:19:26",
         "release_message": "## What's Changed\r\n* Bump docker/build-push-action from 5.1.0 to 5.2.0 by @dependabot in https://github.com/PyCQA/bandit/pull/1117\r\n* [pre-commit.ci] pre-commit autoupdate by @pre-commit-ci in https://github.com/PyCQA/bandit/pull/1119\r\n* New logo for Bandit based on raccoon by @ericwb in https://github.com/PyCQA/bandit/pull/1121\r\n* Start testing on Python 3.13 by @ericwb in https://github.com/PyCQA/bandit/pull/1122\r\n* Bump docker/build-push-action from 5.2.0 to 5.3.0 by @dependabot in https://github.com/PyCQA/bandit/pull/1123\r\n* Bump docker/setup-buildx-action from 3.1.0 to 3.2.0 by @dependabot in https://github.com/PyCQA/bandit/pull/1124\r\n* Bump docker/login-action from 3.0.0 to 3.1.0 by @dependabot in https://github.com/PyCQA/bandit/pull/1125\r\n* [pre-commit.ci] pre-commit autoupdate by @pre-commit-ci in https://github.com/PyCQA/bandit/pull/1126\r\n* [pre-commit.ci] pre-commit autoupdate by @pre-commit-ci in https://github.com/PyCQA/bandit/pull/1127\r\n* Bump docker/setup-buildx-action from 3.2.0 to 3.3.0 by @dependabot in https://github.com/PyCQA/bandit/pull/1130\r\n* [pre-commit.ci] pre-commit autoupdate by @pre-commit-ci in https://github.com/PyCQA/bandit/pull/1131\r\n* Bump sigstore/cosign-installer from 3.4.0 to 3.5.0 by @dependabot in https://github.com/PyCQA/bandit/pull/1132\r\n* [pre-commit.ci] pre-commit autoupdate by @pre-commit-ci in https://github.com/PyCQA/bandit/pull/1133\r\n* Updates banner logo so it renders well in dark mode by @ericwb in https://github.com/PyCQA/bandit/pull/1134\r\n* [pre-commit.ci] pre-commit autoupdate by @pre-commit-ci in https://github.com/PyCQA/bandit/pull/1135\r\n* Add a sponsor section to README by @ericwb in https://github.com/PyCQA/bandit/pull/1137\r\n* Ensure sarif extra is included as part of doc build by @ericwb in https://github.com/PyCQA/bandit/pull/1139\r\n* Bump docker/login-action from 3.1.0 to 3.2.0 by @dependabot in https://github.com/PyCQA/bandit/pull/1142\r\n* [pre-commit.ci] pre-commit autoupdate by @pre-commit-ci in https://github.com/PyCQA/bandit/pull/1143\r\n* [pre-commit.ci] pre-commit autoupdate by @pre-commit-ci in https://github.com/PyCQA/bandit/pull/1145\r\n* Guard against empty call argument list by @ericwb in https://github.com/PyCQA/bandit/pull/1146\r\n* Bump docker/build-push-action from 5.3.0 to 5.4.0 by @dependabot in https://github.com/PyCQA/bandit/pull/1144\r\n* Support `configfile` in `.bandit` file by @bersbersbers in https://github.com/PyCQA/bandit/pull/1052\r\n\r\n## New Contributors\r\n* @pre-commit-ci made their first contribution in https://github.com/PyCQA/bandit/pull/1119\r\n* @bersbersbers made their first contribution in https://github.com/PyCQA/bandit/pull/1052\r\n\r\n**Full Changelog**: https://github.com/PyCQA/bandit/compare/1.7.8...1.7.9"
@@ -12883,7 +12883,7 @@
         "created_at": "2011-08-30 06:13:20",
         "description": "Metasploit Framework",
         "commit_message": "automatic module_metadata_base.json update",
-        "commit_date": "2024-06-10 21:58:09"
+        "commit_date": "2024-06-19 18:11:17"
     },
     "https://github.com/PowerDNS/pdns": {
         "created_at": "2013-04-26 11:16:49",
@@ -21943,8 +21943,8 @@
     "https://github.com/apache/logging-log4j2": {
         "created_at": "2024-03-10 19:05:47",
         "description": "Apache Log4j 2 is a versatile, feature-rich, efficient logging API and backend for Java.",
-        "commit_message": "Upgrade Equinox version",
-        "commit_date": "2024-06-18 12:46:48",
+        "commit_message": "Synchronize OSGi test names with `main`",
+        "commit_date": "2024-06-19 13:35:50",
         "release_date": "2024-03-10 19:24:14",
         "release_message": "This release contains several small fixes and some dependency updates.\r\n\r\n### Changed\r\n\r\n* Improve performance of `CloseableThreadContext#closeMap()` (#2296)\r\n\r\n### Fixed\r\n\r\n* Fix handling of `LoggerContextAware` lookups (#2309)\r\n* Fix NPE in `PatternProcessor` for a `UNIX_MILLIS` pattern (#2346)\r\n* Fix that parameterized message formatting doesn't throw an exception when there are insufficient number of parameters (#2343)\r\n* Fix `StatusLogger` log level filtering when debug mode is enabled (#2337)\r\n* Add `log4j2.StatusLogger.dateFormatZone` system property to set the time-zone `StatusLogger` uses to format `java.time.Instant`. Without this, formatting patterns accessing to time-zone-specific fields (e.g., year-of-era) cause failures. (#2322)\r\n* Fix `StatusLogger` to correctly read `log4j2.StatusLogger.properties` resource (#2354)\r\n* Fix stack overflow in `StatusLogger` (#2322)\r\n\r\n### Updated\r\n\r\n* Update `jakarta.activation:jakarta.activation-api` to version `2.1.3` (#2335)\r\n* Update `jakarta.mail:jakarta.mail-api` to version `2.1.3` (#2348)\r\n* Update `org.apache.commons:commons-compress` to version `1.26.0` (#2304)\r\n* Update `org.apache.commons:commons-dbcp2` to version `2.12.0` (#2344)\r\n* Update `org.apache.kafka:kafka-clients` to version `3.7.0` (#2326)\r\n* Update `org.eclipse.angus:angus-activation` to version `2.0.2` (#2336)\r\n* Update `org.eclipse.angus:jakarta.mail` to version `2.0.3` (#2349)\r\n"
     },
@@ -24412,8 +24412,8 @@
         "description": "魅族安全中心"
     },
     "https://sec.vip.com/": {
-        "status_code": 200,
-        "description": "VSRC首页-唯品会信息安全中心"
+        "status_code": 503,
+        "description": ""
     },
     "https://sec.wacai.com/": {
         "status_code": 200,
@@ -25135,7 +25135,7 @@
     },
     "http://www.factordb.com/index.php": {
         "status_code": 200,
-        "description": "factordb.com"
+        "description": ""
     },
     "https://www.sojson.com/encrypt_rabbit.html": {
         "status_code": 200,
@@ -25182,8 +25182,8 @@
         "description": "在线XXencode编码|在线XXencode解码|XX编码|XX解码|XXencode编码原理介绍--查错网"
     },
     "https://fofa.info/": {
-        "status_code": 200,
-        "description": "网络空间测绘，网络空间安全搜索引擎，网络空间搜索引擎，安全态势感知 - FOFA网络空间测绘系统"
+        "status_code": 502,
+        "description": "502 Bad Gateway"
     },
     "http://security.wanmei.com/": {
         "status_code": 200,
@@ -27074,7 +27074,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "172.183.107.240属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "20.97.191.102属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
@@ -27516,7 +27516,7 @@
     },
     "http://www.66zan.cn/rc4encrypt/": {
         "status_code": 200,
-        "description": "在线RC4加密,RC4解密工具-在线工具箱"
+        "description": ""
     },
     "https://330k.github.io/misc_tools/unicode_steganography.html": {
         "status_code": 200,
@@ -27548,7 +27548,7 @@
     },
     "http://www.66zan.cn/desencrypt/": {
         "status_code": 200,
-        "description": "在线DES加密,DES解密工具-在线工具箱"
+        "description": ""
     },
     "http://www.66zan.cn/rabbitencrypt/": {
         "status_code": 200,
@@ -27787,8 +27787,8 @@
     "https://github.com/digininja/DVWA": {
         "created_at": "2023-06-11 11:35:15",
         "description": "Damn Vulnerable Web Application (DVWA)",
-        "commit_message": "Merge pull request #636 from basbodart/session-fixation\n\nRegenerate session id only on impossible level",
-        "commit_date": "2024-05-31 13:11:43",
+        "commit_message": "Update install instructions\n\nAdded a warning about running other people's code without reviewing it.",
+        "commit_date": "2024-06-13 14:24:16",
         "release_date": "2023-06-11 11:39:10",
         "release_message": "Easy built in support for containers by @hoang-himself ."
     },
@@ -28095,8 +28095,8 @@
     "https://github.com/R0A1NG/Botgate_bypass": {
         "created_at": "2024-04-25 09:47:00",
         "description": "绕过瑞数waf的动态验证机制，实现请求包重放，理论支持不同网站环境使用，如网页、小程序、APP等。",
-        "commit_message": "update",
-        "commit_date": "2024-05-24 03:06:12",
+        "commit_message": "Update mitmdump.py",
+        "commit_date": "2024-06-14 04:50:09",
         "release_date": "2024-04-25 09:48:48",
         "release_message": "v2.1，此处不为最新版本，下载最新版本请直接git下载"
     },
