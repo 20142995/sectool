@@ -102,7 +102,7 @@
 - <img src="https://favicon.qqsuu.cn/www.66zan.cn" alt="" style="height: 20px;"> [在线DES加密,DES解密工具-在线工具箱](http://www.66zan.cn/desencrypt/) 
 - <img src="https://favicon.qqsuu.cn/www.sojson.com" alt="" style="height: 20px;"> [在线DES加密 | DES解密- 在线工具](https://www.sojson.com/encrypt_des.html) 
 #### CryptoJS RC4加解密
-- <img src="https://favicon.qqsuu.cn/www.66zan.cn" alt="" style="height: 20px;"> [在线RC4加密,RC4解密工具-在线工具箱](http://www.66zan.cn/rc4encrypt/) 
+- <img src="https://favicon.qqsuu.cn/www.66zan.cn" alt="" style="height: 20px;"> [www.66zan.cn](http://www.66zan.cn/rc4encrypt/) 
 - <img src="https://favicon.qqsuu.cn/www.sojson.com" alt="" style="height: 20px;"> [在线RC4加密 | RC4解密- 在线工具](https://www.sojson.com/encrypt_rc4.html) 
 #### CryptoJS Rabbit加解密
 - <img src="https://favicon.qqsuu.cn/www.66zan.cn" alt="" style="height: 20px;"> [在线Rabbit加密,Rabbit解密工具-在线工具箱](http://www.66zan.cn/rabbitencrypt/) 
@@ -174,7 +174,7 @@
 #### ROT编解码
 - <img src="https://favicon.qqsuu.cn/www.qqxiuzi.cn" alt="" style="height: 20px;"> [404 Not Found](https://www.qqxiuzi.cn/bianma/rot5-13-18-47.php) 
 #### RSA大数分解
-- <img src="https://favicon.qqsuu.cn/www.factordb.com" alt="" style="height: 20px;"> [www.factordb.com](http://www.factordb.com/index.php) 
+- <img src="https://favicon.qqsuu.cn/www.factordb.com" alt="" style="height: 20px;"> [factordb.com](http://www.factordb.com/index.php) 
 #### RSA密钥对
 - <img src="https://favicon.qqsuu.cn/web.chacuo.net" alt="" style="height: 20px;"> [在线生成非对称加密公钥私钥对、在线生成公私钥对、RSA Key pair create、生成RSA密钥对--查错网](http://web.chacuo.net/netrsakeypair) 
 #### RSA私钥密码修改
@@ -835,6 +835,7 @@
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [JYso](https://github.com/qi4L/JYso) It can be either a JNDIExploit or a ysoserial.
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [Xtools](https://github.com/chasingboy/Xtools) Xtools 是一款 Sublime Text 插件，同时是一款简单的资产处理、命令行调用工具。
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [JNDIMap](https://github.com/X1r0z/JNDIMap) JNDI 注入利用工具, 支持 RMI 和 LDAP 协议, 包含多种高版本 JDK 绕过方式 | A JNDI injection exploit ...
+- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [ysoserial v0.0.6](https://github.com/frohoff/ysoserial) A proof-of-concept tool for generating payloads that exploit unsaf...
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [ysomap](https://github.com/wh1t3p1g/ysomap) A helpful Java Deserialization exploit framework.
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [ysoserial](https://github.com/Y4er/ysoserial) ysoserial修改版，着重修改ysoserial.payloads.util.Gadgets.createTemplatesImpl使其可以通...
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [DNSlog-GO master](https://github.com/lanyi1998/DNSlog-GO) DNSLog-GO 是一款golang编写的监控 DNS 解析记录的工具，自带WEB界面 / DNSLog-GO is a moni...
@@ -853,7 +854,6 @@
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [JNDIExploit v1.4](https://github.com/WhiteHSBG/JNDIExploit) 对原版https://github.com/feihong-cs/JNDIExploit 进行了实用化修改
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [JNDIExploit 1.1](https://github.com/0x727/JNDIExploit) 一款用于JNDI注入利用的工具，大量参考/引用了Rogue JNDI项目的代码，支持直接植入内存shell，并集成了常见的bypass...
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [jndi_tool](https://github.com/wyzxxz/jndi_tool) JNDI服务利用工具 RMI/LDAP，支持部分场景回显、内存shell，高版本JDK场景下利用等，fastjson rce命令执行，log4j ...
-- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [ysoserial v0.0.6](https://github.com/frohoff/ysoserial) A proof-of-concept tool for generating payloads that exploit unsaf...
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [Gopherus](https://github.com/tarunkant/Gopherus) This tool generates gopher link for exploiting SSRF and gaining RCE in var...
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [JNDI-Inject-Exploit v0.2](https://github.com/exp1orer/JNDI-Inject-Exploit) 解决FastJson、Jackson、Log4j2、原生JNDI注入漏洞的高版本JDKBypass利用，探测本地可用...
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [JNDI-Exploit-Kit](https://github.com/pimps/JNDI-Exploit-Kit) JNDI-Exploitation-Kit（A modified version of the great JNDI-Injecti...
@@ -1178,7 +1178,7 @@
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [reverseip_py](https://github.com/yuyudhn/reverseip_py) Domain Parser for IPAddress.com Reverse IP Lookup
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [iplookup v1.1](https://github.com/Lengso/iplookup) IP反查域名
 - <img src="https://favicon.qqsuu.cn/s.tool.chinaz.com" alt="" style="height: 20px;"> [网站IP查询_IP反查域名_同IP网站查询 - 站长工具](http://s.tool.chinaz.com/same) 
-- <img src="https://favicon.qqsuu.cn/dns.aizhan.com" alt="" style="height: 20px;"> [172.183.91.162属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网](https://dns.aizhan.com/) 
+- <img src="https://favicon.qqsuu.cn/dns.aizhan.com" alt="" style="height: 20px;"> [20.172.6.167属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网](https://dns.aizhan.com/) 
 - <img src="https://favicon.qqsuu.cn/dnslytics.com" alt="" style="height: 20px;"> [Reverse IP - Find websites hosted on the same IP address, server or subnet](https://dnslytics.com/reverse-ip) 
 - <img src="https://favicon.qqsuu.cn/hackertarget.com" alt="" style="height: 20px;"> [Reverse IP Lookup, Find Hosts Sharing an IP | HackerTarget.com](https://hackertarget.com/reverse-ip-lookup/) 
 - <img src="https://favicon.qqsuu.cn/rapiddns.io" alt="" style="height: 20px;"> [Subdomain - RapidDNS Rapid DNS Information Collection](https://rapiddns.io/sameip) 
@@ -1336,7 +1336,7 @@
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [nili](https://github.com/niloofarkheirkhah/nili) Nili is a Tool for Network Scan, Man in the Middle, Protocol Reverse Engineeri...
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [LNScan](https://github.com/sowish/LNScan) 详细的内部网络信息扫描器
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [network_backdoor_scanner](https://github.com/lcatro/network_backdoor_scanner) This is a backdoor about discover network device ,and it c...
-- <img src="https://favicon.qqsuu.cn/coolaf.com" alt="" style="height: 20px;"> [在线端口检测,端口扫描,端口开放检查-在线工具-postjson](http://coolaf.com/tool/port) 
+- <img src="https://favicon.qqsuu.cn/coolaf.com" alt="" style="height: 20px;"> [502 Bad Gateway](http://coolaf.com/tool/port) 
 - <img src="https://favicon.qqsuu.cn/tool.cc" alt="" style="height: 20px;"> [在线端口扫描,IP/服务器端口在线扫描 - TooL.cc](http://tool.cc/port/) 
 #### 综合
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [Slack](https://github.com/qiwentaidi/Slack) 一款Go Wails实现的渗透测试工具，功能涵盖网站扫描、端口扫描、企业信息收集、空间引擎搜索等，希望能帮助你少让你少开几个应用测试
@@ -1550,7 +1550,7 @@
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [NetDLLSpy](https://github.com/Ivan1ee/NetDLLSpy) .NET后渗透下的权限维持，附下载DLL
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [webshell](https://github.com/backlion/webshell) 这是一些常用的webshell
 ##### 免杀
-- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [RingQ](https://github.com/T4y1oR/RingQ) 一款后渗透免杀工具，助力每一位像我这样的脚本小子快速实现免杀，支持bypass 360 火绒 Windows Defender
+- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [RingQ](https://github.com/T4y1oR/RingQ) 一款后渗透免杀工具，助力每一位像我这样的脚本小子快速实现免杀，支持bypass AV/EDR 360 火绒 Windows Defender Shellc...
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [AVByPass](https://github.com/yhy0/AVByPass) 一款Web在线自动免杀工具
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [Qianji](https://github.com/Pizz33/Qianji) 千机-红队免杀木马自动生成器  Bypass defender、火绒、360等国内主流杀软 随机加密混淆shellcode快速生成免杀马
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [BypassAntiVirus](https://github.com/TideSec/BypassAntiVirus) 远控免杀系列文章及配套工具，汇总测试了互联网上的几十种免杀工具、113种白名单免杀方式、8种代码编译免杀、若干免杀实战技术，并对免杀效...
@@ -1814,8 +1814,8 @@
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [EventLogMaster](https://github.com/QAX-A-Team/EventLogMaster) Cobalt Strike插件 - RDP日志取证&清除
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [csbruter](https://github.com/ryanohoro/csbruter) Cobalt Strike team server password brute force tool
 ##### fofa
-- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [fofa_viewer 1.1.13](https://github.com/wgpsec/fofa_viewer) A simple FOFA client written in JavaFX.  Made by WgpSec, Maintai...
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [fofaEX](https://github.com/10cks/fofaEX) FOFA EX 是一款基于fofa api（也可导入鹰图、夸克文件）实现的红队综合利用工具，可基于模板把工具作为插件进行集成，自动化进行资产探测，目前提...
+- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [fofa_viewer 1.1.13](https://github.com/wgpsec/fofa_viewer) A simple FOFA client written in JavaFX.  Made by WgpSec, Maintai...
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [fofa_GUI v1.0.0](https://github.com/20142995/fofa_GUI) 
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [fofax v0.1.44](https://github.com/xiecat/fofax) fofax is a command line query tool based on the API of https://fofa.i...
 ##### frida
@@ -1966,10 +1966,10 @@
 ### 取证
 #### USB取证
 ##### 键盘流量
+- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [UsbKbCracker](https://github.com/P001water/UsbKbCracker) CTF中常见键盘流量解密脚本
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [USBFlow_Soer](https://github.com/y1shiny1shin/USBFlow_Soer) 
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [UsbKeyboardDataHacker](https://github.com/WangYihang/UsbKeyboardDataHacker) USB键盘流量包取证工具 , 用于恢复用户的击键信息
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [UsbKeyboard_Mouse_Hacker_Gui](https://github.com/Mumuzi7179/UsbKeyboard_Mouse_Hacker_Gui) 自带GUI的一键解鼠标流量/键盘流量小工具
-- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [UsbKbCracker](https://github.com/P001water/UsbKbCracker) CTF中常见键盘流量解密脚本
 ##### 鼠标流量
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [USB-Mouse-Pcap-Visualizer](https://github.com/WangYihang/USB-Mouse-Pcap-Visualizer) USB mouse traffic packet forensic tool, mainly used to dr...
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [UsbMiceDataHacker](https://github.com/WangYihang/UsbMiceDataHacker) USB鼠标流量包取证工具 , 主要用于绘制鼠标移动以及拖动轨迹
@@ -2198,7 +2198,7 @@
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [xssed](https://github.com/aj00200/xssed) A set of XSS vulnerable PHP scripts for testing
 - <img src="https://favicon.qqsuu.cn/dvwa.co.uk" alt="" style="height: 20px;"> [dvwa.co.uk](https://dvwa.co.uk/) 
 - <img src="https://favicon.qqsuu.cn/hackmyvm.eu" alt="" style="height: 20px;"> [HackMyVM | Anonymous](https://hackmyvm.eu/anon/) 
-- <img src="https://favicon.qqsuu.cn/www.pentesterlab.com" alt="" style="height: 20px;"> [PentesterLab: Learn Web App Pentesting!](https://www.pentesterlab.com/exercises/web_for_pentester/course) 
+- <img src="https://favicon.qqsuu.cn/www.pentesterlab.com" alt="" style="height: 20px;"> [PentesterLab: Free Web for Pentester Exercise !](https://www.pentesterlab.com/exercises/web_for_pentester/course) 
 #### 主机入侵检测
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [Elkeid](https://github.com/bytedance/Elkeid) Elkeid is an open source solution that can meet the security requirements of...
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [Hades](https://github.com/theSecHunter/Hades) Hades is an cross-platform HIDS with kernel-space data collection.
@@ -2236,10 +2236,10 @@
 - <img src="https://favicon.qqsuu.cn/code.google.com" alt="" style="height: 20px;"> [Google Code Archive - Long-term storage for Google Code Project Hosting.](https://code.google.com/archive/p/opendlp/) 
 #### 欺骗防御
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [DecoyMini](https://github.com/decoymini/DecoyMini) 🐝 A highly scalable, safe, free enterprise honeypots 一款高可扩展、安全、免费的企业级蜜罐系统
+- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [conpot Release_0.6.0](https://github.com/mushorg/conpot) ICS/SCADA honeypot
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [HFish](https://github.com/hacklcx/HFish) 安全、可靠、简单、免费的企业级蜜罐
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [Ehoney v3.0.0](https://github.com/seccome/Ehoney) 安全、快捷、高交互、企业级的蜜罐管理系统，护网；支持多种协议蜜罐、蜜签、诱饵等功能。A safe, fast, highly intera...
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [mysql-fake-server 0.0.4](https://github.com/4ra1n/mysql-fake-server) MySQL Fake Server (纯Java实现，支持GUI版和命令行版，提供Dockerfile，支持多种常见J...
-- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [conpot Release_0.6.0](https://github.com/mushorg/conpot) ICS/SCADA honeypot
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [CS_fakesubmit](https://github.com/LiAoRJ/CS_fakesubmit) 一个可以伪装上线Cobaltstrike的脚本
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [ide-honeypot](https://github.com/wendell1224/ide-honeypot) 一款针对于IDE的反制蜜罐 IDE-honeypot
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [MysqlT v1.0](https://github.com/BeichenDream/MysqlT) 伪造Myslq服务端,并利用Mysql逻辑漏洞来获取客户端的任意文件反击攻击者
@@ -2273,10 +2273,10 @@
 - <img src="https://favicon.qqsuu.cn/sourceforge.net" alt="" style="height: 20px;"> [VisualCodeGrepper V2.3.2 download | SourceForge.net](https://sourceforge.net/projects/visualcodegrepp/) 
 #### 蜜罐技术
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [cowrie](https://github.com/cowrie/cowrie) Cowrie SSH/Telnet Honeypot https://cowrie.readthedocs.io
+- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [conpot Release_0.6.0](https://github.com/mushorg/conpot) ICS/SCADA honeypot
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [HFish](https://github.com/hacklcx/HFish) 安全、可靠、简单、免费的企业级蜜罐
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [glastopf](https://github.com/mushorg/glastopf) Web Application Honeypot
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [kippo](https://github.com/desaster/kippo) Kippo - SSH Honeypot
-- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [conpot Release_0.6.0](https://github.com/mushorg/conpot) ICS/SCADA honeypot
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [opencanary_web](https://github.com/p1r06u3/opencanary_web) The web management platform of honeypot
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [dionaea](https://github.com/DinoTools/dionaea) Home of the dionaea honeypot
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [beeswarm](https://github.com/honeynet/beeswarm) Honeypot deployment made easy
@@ -2419,7 +2419,7 @@
 #### 网络层面
 ##### IP信息
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [GeoIP2-CN](https://github.com/Hackl0us/GeoIP2-CN) 小巧精悍、准确、实用 GeoIP2 数据库
-- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [SelfIPAdressQuery](https://github.com/outmansec/SelfIPAdressQuery) 
+- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [SelfIPAdressQuery](https://github.com/outmansec/SelfIPAdressQuery) 一款基于javafx的自有IP地址查询工具(适用于重保、蓝队、攻防演习等场景)
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [china-operator-ip](https://github.com/gaoyifan/china-operator-ip) 中国运营商IPv4/IPv6地址库-每日更新
 ### 应急响应中心
 - <img src="https://favicon.qqsuu.cn/dhsrc.dhgate.com" alt="" style="height: 20px;"> [DHSRC        安全应急响应中心](http://dhsrc.dhgate.com/) 
