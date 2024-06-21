@@ -5668,13 +5668,13 @@
         "release_message": "**Changelog**\r\n- Feature: Obtains current login screen instead of simply showing the default\r\n- Feature: Minize all windows to hide tools with the 'Always On Top' setting\r\n- Bugfix: Updated font of labels to Segoe UI Light (Issue #1)\r\n- Release now contains two binaries: one that writes to a file and the other one which only writes to console"
     },
     "https://github.com/alexandreborges/malwoverview": {
-        "created_at": "2024-05-20 15:49:17",
+        "created_at": "2024-06-19 16:26:25",
         "description": "Malwoverview is a first response tool used for threat hunting and offers intel information from Virus Total, Hybrid Analysis, URLHaus, Polyswarm, Malshare, Alien Vault, Malpedia, Malware Bazaar, ThreatFox, Triage, InQuest and it is able to scan Android devices against VT.",
-        "commit_date": "2024-05-21 18:18:00",
+        "commit_date": "2024-06-19 16:26:25",
         "commit_message": "Malwoverview",
         "release_tag": "v5.4.2",
-        "release_date": "2024-05-21 18:19:37",
-        "release_message": "Malwoverview 5.4.4"
+        "release_date": "2024-06-19 16:38:45",
+        "release_message": "Malwoverview 5.4.5"
     },
     "https://github.com/Bywalks/DarkAngel/": {
         "created_at": "",
@@ -24412,8 +24412,8 @@
         "description": "魅族安全中心"
     },
     "https://sec.vip.com/": {
-        "status_code": 200,
-        "description": "VSRC首页-唯品会信息安全中心"
+        "status_code": 503,
+        "description": ""
     },
     "https://sec.wacai.com/": {
         "status_code": 200,
@@ -27074,7 +27074,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "20.55.15.17属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "172.183.138.160属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
@@ -27093,8 +27093,8 @@
         "description": "Reverse IP Lookup - All Names Hosted at an IP - DomainTools"
     },
     "https://www.webscan.cc/": {
-        "status_code": 200,
-        "description": "同IP网站查询,C段查询,IP反查域名,在线C段,旁站工具 - WebScan"
+        "status_code": 500,
+        "description": ""
     },
     "https://gofile.io/": {
         "status_code": 200,
@@ -28523,12 +28523,12 @@
         "commit_date": "2019-11-09 16:53:39"
     },
     "https://github.com/KOHGYLW/kiftd": {
-        "created_at": "2023-09-13 03:07:38",
+        "created_at": "2024-06-18 23:54:51",
         "description": "sky driver & cloud driver open source server application : kiftd . welcome to the home page: https://kohgylw.github.io/ to quick start——kiftd是一款专门面向个人、团队和小型组织的私有网盘系统。轻量、开源、完善。无论是在家庭、学校还是在办公室，您都能立刻开始使用它！了解更多请访问官方网站：",
-        "commit_message": "更新了README.md中的官网地址",
-        "commit_date": "2024-05-11 09:17:37",
-        "release_date": "2023-09-14 02:07:34",
-        "release_message": "### 新版本v1.1.1\r\n_本次更新为常规更新，修复了一些已知问题并进一步提高了稳定性，推荐所有用户升级。_\r\n+ 优化了文件体积显示，现在大文件的体积可以自动换算为GB或TB单位了。\r\n+ 优化了文件搜索功能，现在可以进行英文大小写模糊搜索了。\r\n+ 优化了剪切和复制操作，使其操作逻辑更贴合主流操作系统中的“剪切板”逻辑。\r\n+ 解决了文件功能中存在的Java高版本兼容性问题。"
+        "commit_message": "update to v1.2.0-release",
+        "commit_date": "2024-06-18 23:54:51",
+        "release_date": "2024-06-19 08:42:06",
+        "release_message": "### 新版本v1.2.0\r\n_本次更新增加了一些用户期待的新功能，并对已知的问题进行了修复，进一步增强kiftd的使用体验。推荐所有用户升级。_\r\n+ 文件体积的单位现在精确到Byte了。\r\n+ 新增了文件夹体积的统计功能，统计结果会显示在文件夹的“详细信息...”窗口中。\r\n+ 在账户配置中新增了“超级权限”设置，具备该权限的账户将无视权限和分组设定，可执行一切操作并可访问任何文件夹（包括“仅创建者”文件夹）。\r\n+ 新增了扩展存储区的移出功能，方便您在删除某个扩展存储区前，将其中的全部数据移出至本地文件夹内留档。\r\n+ 进一步完善了移动权限的安全性：当仅有移动“m”权限时，用户可执行“复制”操作；若同时具备删除“d”权限，才可以进行“剪切”操作。这一设计是为了避免使用者先将某个文件从一个原本不具备删除权限的文件夹内移动到一个具备删除权限的文件夹内再将其删除。\r\n+ 新增了导入账户设置项：在账户配置文件中，可通过“import.account=?”设置项为“文件”功能中的导入操作设定“创建者”。\r\n+ 进一步优化了图形界面下的“文件”功能：现在可以通过点击表头对文件列表进行排序了。\r\n+ 进一步优化了图形界面下的“文件”功能：现在双击文件列表中的文件可以快速预览它了。\r\n+ 进一步优化了命令模式下的“文件”功能：现在可以通过“ls -l”显示所有项目的详细信息了。\r\n+ 修复了某些情况下使用“文件”功能进行导入文件时可能出现“卡死”的问题。\r\n+ 其他一些细节优化。"
     },
     "https://github.com/0xrawsec/whids": {
         "created_at": "2021-02-25 22:07:36",
