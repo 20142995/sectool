@@ -13376,13 +13376,13 @@
         "release_message": ""
     },
     "https://github.com/ozzi-/JWT4B": {
-        "created_at": "2024-01-08 14:29:02",
+        "created_at": "2024-06-14 10:38:43",
         "description": "JWT Support for Burp ",
-        "commit_date": "2024-01-08 14:29:02",
-        "commit_message": "bump",
+        "commit_date": "2024-06-17 05:31:00",
+        "commit_message": "ignore burp api",
         "release_tag": "2.3",
-        "release_date": "2024-01-08 14:31:08",
-        "release_message": "Fixed: Cookie data HTML not rendered within Intercept tab\r\nHTML rendering has been disabled within Burp extensions and needs to be re-enabled on a per-component basis.\r\n\r\nThanks https://github.com/DolphFlynn for the PR"
+        "release_date": "2024-06-14 12:22:11",
+        "release_message": "* improve: Using Burp Montaya API \r\n\r\n* improve: header detection now checks all headers that start with \"Bearer\"\r\n\r\n* fix: jwts in cookies that contain a = (valid b64) now parsed correctly\r\n\r\n* fix: prevent resign key field to break on small window sizes\r\n\r\n* cleaning up about tab"
     },
     "https://github.com/alibaba/nacos": {
         "created_at": "2018-06-15 06:49:27",
@@ -16046,7 +16046,7 @@
     },
     "https://github.com/jackzhenguo/python-small-examples": {
         "created_at": "2019-11-17 01:47:01",
-        "description": "告别枯燥，致力于打造 Python 实用小例子，更多Python良心教程见 Python中文网 http://www.zglg.work",
+        "description": "告别枯燥，致力于打造 Python 实用小例子，更多Python良心教程见 Python中文网 https://www.zglg.work",
         "commit_date": "2023-09-03 23:57:38",
         "commit_message": "Update README.md",
         "release_tag": "",
@@ -18364,8 +18364,8 @@
     "https://github.com/hacklcx/HFish": {
         "created_at": "2019-08-07 05:01:28",
         "description": "安全、可靠、简单、免费的企业级蜜罐",
-        "commit_message": "update the image of joinus",
-        "commit_date": "2024-01-29 05:18:10"
+        "commit_message": "update joinus.png",
+        "commit_date": "2024-06-19 02:30:05"
     },
     "https://github.com/michenriksen/aquatone": {
         "created_at": "2015-11-19 11:30:12",
@@ -24412,8 +24412,8 @@
         "description": "魅族安全中心"
     },
     "https://sec.vip.com/": {
-        "status_code": 200,
-        "description": "VSRC首页-唯品会信息安全中心"
+        "status_code": 503,
+        "description": ""
     },
     "https://sec.wacai.com/": {
         "status_code": 200,
@@ -27074,7 +27074,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "20.172.6.167属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "52.238.29.138属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
@@ -27516,7 +27516,7 @@
     },
     "http://www.66zan.cn/rc4encrypt/": {
         "status_code": 200,
-        "description": ""
+        "description": "在线RC4加密,RC4解密工具-在线工具箱"
     },
     "https://330k.github.io/misc_tools/unicode_steganography.html": {
         "status_code": 200,
@@ -27552,7 +27552,7 @@
     },
     "http://www.66zan.cn/rabbitencrypt/": {
         "status_code": 200,
-        "description": "在线Rabbit加密,Rabbit解密工具-在线工具箱"
+        "description": ""
     },
     "https://yuanfux.github.io/zero-width-web/": {
         "status_code": 200,
