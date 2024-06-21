@@ -334,7 +334,7 @@
         "release_message": ""
     },
     "https://github.com/xinyu2428/TDOA_RCE": {
-        "created_at": "2021-03-01 07:18:29",
+        "created_at": "2021-03-01 08:07:31",
         "description": "通达OA综合利用工具",
         "commit_date": "2021-03-17 08:51:32",
         "commit_message": "更新v11.7版本另一条利用链",
@@ -2925,7 +2925,7 @@
         "release_message": "                Changes since 24.0.5:\r\n                - SQL Editor: issue with extra linefeed during autocompletion was fixed\r\n                - Data Editor: loading data when fast scrolling using the keyboard was fixed\r\n                - Database tasks:\r\n                    - Maximum execution time option was added\r\n                    - Tasks running from non-default workspace was fixed\r\n                - Connectivity:\r\n                    - 'Azure AD' was renamed to 'Microsoft Entra ID'\r\n                    - Links to database support documentation were added for many databases\r\n                    - Automatical termination of the shell command script 'Before connect' was fixed\r\n                - General:\r\n                    - Crash when closing detached editor tab in another window was fixed\r\n                    - 'Restore default' for Metadata read, Client identification settings was fixed\r\n                    - .projects and .settings folders became findable in Projects when the application is used as an Eclipse plugin\r\n                    - Truncated notifications were fixed\r\n                - Projects:\r\n                    - Disconnecting a database from the Project view was fixed\r\n                    - Opening a bookmark after changing the application language was fixed (thanks to @SASUKE38)\r\n                - ERD: loading diagrams for drivers with broken foreign keys support was fixed\r\n                - Database Navigator:\r\n                    - Color of the table statistics was changed to visible in the dark theme and became configurable\r\n                    - Deleting connection option in the context menu was renamed to 'Delete connection'\r\n                - Databases:\r\n                    - CrateDB: table DDL was fixed\r\n                    - Databricks: authentication with personal access token was added\r\n                    - DB2i: procedure creation was fixed\r\n                    - DuckDB: aliases autocompletion was fixed\r\n                    - H2: foreign keys presentation was fixed\r\n                    - Oracle: JSON data type support was improved\r\n                    - PostgreSQL: support of fully qualified names in DDL was fixed\r\n                - Localization:\r\n                    - German localization was updated (thanks to @maxbobse)\r\n            "
     },
     "https://github.com/zema1/yarx": {
-        "created_at": "2021-11-11 09:43:21",
+        "created_at": "2021-11-30 08:37:42",
         "description": "An awesome reverse engine for xray poc. | 一个自动化根据 xray poc 生成对应靶站的工具",
         "commit_date": "2023-03-22 05:37:07",
         "commit_message": "feat: update dep (#12)\n\n* feat: update dep\r\n\r\n* feat: update workflow",
@@ -3382,7 +3382,7 @@
         "release_message": "修复了秋季更新的几个bug,增加了`networkconnect`和`FileCreateTimeChange`的ds,增加了`brc4`的检测"
     },
     "https://github.com/d3vilbug/HackBar": {
-        "created_at": "2018-09-02 16:04:20",
+        "created_at": "2021-04-13 16:35:45",
         "description": "HackBar plugin for Burpsuite",
         "commit_date": "2021-04-15 11:26:55",
         "commit_message": "Update README.md",
@@ -4032,8 +4032,8 @@
     "https://github.com/stamparm/DSVW": {
         "created_at": "2015-11-20 16:15:01",
         "description": "Damn Small Vulnerable Web",
-        "commit_date": "2021-07-22 16:02:49",
-        "commit_message": "Merge pull request #10 from secure-delivery/master\n\nCorrected OWASP URLs.",
+        "commit_date": "2023-07-24 10:31:44",
+        "commit_message": "Merge pull request #18 from The-Debarghya/improvement\n\nEasier & optimized docker deployment",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -4077,8 +4077,8 @@
     "https://github.com/0verSp4ce/DoraBox": {
         "created_at": "2017-11-28 13:08:36",
         "description": "DoraBox - Basic Web Vulnerability Training ",
-        "commit_date": "2021-12-24 04:58:09",
-        "commit_message": "Update",
+        "commit_date": "2023-07-15 10:02:15",
+        "commit_message": "Delete css directory",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -22563,7 +22563,7 @@
         "release_message": "新增官方语法示例面板：\r\n\r\n![image](https://github.com/10cks/fofaEX/assets/47177550/e86a6187-39b8-4dac-8b64-0ae231ac14cf)\r\n"
     },
     "https://github.com/session-replay-tools/tcpburn": {
-        "created_at": "2013-09-09 06:13:56",
+        "created_at": "2015-06-26 02:40:26",
         "description": "The most powerful tool for stress testing of Internet server applications",
         "commit_date": "2019-07-14 09:20:34",
         "commit_message": "Update README.md",
@@ -24412,8 +24412,8 @@
         "description": "魅族安全中心"
     },
     "https://sec.vip.com/": {
-        "status_code": 503,
-        "description": ""
+        "status_code": 200,
+        "description": "VSRC首页-唯品会信息安全中心"
     },
     "https://sec.wacai.com/": {
         "status_code": 200,
@@ -27074,7 +27074,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "52.238.29.138属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "40.118.240.247属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
@@ -27552,7 +27552,7 @@
     },
     "http://www.66zan.cn/rabbitencrypt/": {
         "status_code": 200,
-        "description": ""
+        "description": "在线Rabbit加密,Rabbit解密工具-在线工具箱"
     },
     "https://yuanfux.github.io/zero-width-web/": {
         "status_code": 200,
