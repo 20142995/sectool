@@ -1050,12 +1050,12 @@
         "release_message": "## What's Changed\r\n* refactor: reduce setOptions function call by @ninoseki in https://github.com/ninoseki/mitaka/pull/805\r\n* Renew neverthrow integration by @ninoseki in https://github.com/ninoseki/mitaka/pull/806\r\n* feat: add reachability check by @ninoseki in https://github.com/ninoseki/mitaka/pull/807\r\n* Refactoring by @ninoseki in https://github.com/ninoseki/mitaka/pull/812\r\n* v2.1.1 by @ninoseki in https://github.com/ninoseki/mitaka/pull/813\r\n\r\n\r\n**Full Changelog**: https://github.com/ninoseki/mitaka/compare/v2.1.0...v2.1.1"
     },
     "https://github.com/v2rayA/v2rayA": {
-        "created_at": "2024-03-02 14:57:25",
+        "created_at": "2024-06-21 11:53:32",
         "description": "A web GUI client of Project V which supports VMess, VLESS, SS, SSR, Trojan, Tuic and Juicity protocols. 🚀",
-        "commit_message": "Merge pull request #1195 from wnxd/sing-tun\n\nAdd tun mode with sing-tun",
-        "commit_date": "2024-04-14 14:41:22",
-        "release_date": "2024-03-02 15:03:35",
-        "release_message": "## What's Changed\n* Revert \"chore(deps): bump axios from 0.21.4 to 0.28.0 in /gui\" by @Gaojianli in https://github.com/v2rayA/v2rayA/pull/1321\n\n\n**Full Changelog**: https://github.com/v2rayA/v2rayA/compare/v2.2.5...v2.2.5.1"
+        "commit_message": "ci: fix winget uploading",
+        "commit_date": "2024-06-21 12:19:04",
+        "release_date": "2024-06-21 12:17:16",
+        "release_message": "## What's Changed\n* chore(deps): bump golang.org/x/net from 0.18.0 to 0.23.0 in /service by @dependabot in https://github.com/v2rayA/v2rayA/pull/1381\n\n\n**Full Changelog**: https://github.com/v2rayA/v2rayA/compare/v2.2.5.5...v2.2.5.6"
     },
     "https://github.com/silentsignal/burp-text4shell": {
         "created_at": "2022-10-18 15:08:41",
@@ -22919,7 +22919,7 @@
         "release_message": ""
     },
     "https://github.com/SuxueCode/WechatBakTool": {
-        "created_at": "2024-04-20 02:01:11",
+        "created_at": "2023-08-12 01:20:59",
         "description": "基于C#的微信PC版聊天记录备份工具，提供图形界面，解密微信数据库并导出聊天记录。",
         "commit_message": "v0.9.7.5 Release！\n1.支持3.9.10.19版本",
         "commit_date": "2024-04-20 02:01:11",
@@ -24248,7 +24248,7 @@
         "release_message": ""
     },
     "https://github.com/bcvgh/daydayEXP": {
-        "created_at": "2023-08-18 01:21:53",
+        "created_at": "2024-02-04 09:33:59",
         "description": "支持自定义Poc文件的图形化漏洞利用工具",
         "commit_message": "Update README.md",
         "commit_date": "2024-03-26 07:52:06",
@@ -27074,7 +27074,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "172.183.122.247属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "20.81.159.196属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
@@ -27093,8 +27093,8 @@
         "description": "Reverse IP Lookup - All Names Hosted at an IP - DomainTools"
     },
     "https://www.webscan.cc/": {
-        "status_code": 200,
-        "description": "同IP网站查询,C段查询,IP反查域名,在线C段,旁站工具 - WebScan"
+        "status_code": 500,
+        "description": ""
     },
     "https://gofile.io/": {
         "status_code": 200,
