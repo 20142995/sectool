@@ -1852,7 +1852,7 @@
         "release_message": "*修复部分漏洞空格解析错误bug.\r\n*代码优化.\r\n"
     },
     "https://github.com/1y0n/AV_Evasion_Tool": {
-        "created_at": "2023-12-08 07:35:10",
+        "created_at": "2020-04-24 01:11:09",
         "description": "掩日 - 免杀执行器生成工具",
         "commit_date": "2023-12-08 07:35:10",
         "commit_message": "Update README.md",
@@ -3349,8 +3349,8 @@
     "https://github.com/FelisCatus/SwitchyOmega": {
         "created_at": "2018-08-27 03:42:07",
         "description": "Manage and switch between multiple proxies quickly & easily.",
-        "commit_date": "2024-02-23 04:02:04",
-        "commit_message": "Translated using Weblate (Chinese (Simplified))\n\nCurrently translated at 100.0% (350 of 350 strings)",
+        "commit_date": "2024-06-22 00:09:19",
+        "commit_message": "Translated using Weblate (Persian)\n\nCurrently translated at 99.1% (347 of 350 strings)",
         "release_tag": "v2.5.20",
         "release_date": "2018-08-27 04:03:14",
         "release_message": ":thinking:  **What happened in v2.5.21? See https://github.com/FelisCatus/SwitchyOmega/issues/2007#issuecomment-653838710**\r\n\r\n### What's new\r\n\r\n- This update contains bug fixes for Chromium only. Firefox users do not need to update.\r\n- Fix some compatibility issues on very old Chromium-based browsers (e.g. Chromium 31).\r\n- Fix some bugs introduced in refactoring, allowing external profile detection to work again.\r\n- Fix \"show external profile\" setting reverting itself to enabled.\r\n\r\n:beetle: In case of issues, please right click on the extension icon and select \"Report Issue\" from the menu so that I can locate and fix the issue more quickly.\r\n\r\n### Installation\r\n\r\n:large_blue_circle: **Users of Chromium and Chromium-based browsers:** Please install from [Chrome Web Store](https://chrome.google.com/webstore/detail/padekgcemlokbadohgkifijomclgjgif).\r\n\r\n:red_circle: **Users of Mozilla Firefox and other Mozilla-based browsers:** Please install from [Mozilla Add-Ons](https://addons.mozilla.org/en-US/firefox/addon/switchyomega/). (See Firefox Support below for supported versions.)\r\n\r\nIf you cannot install from the links above, or prefer a manual installation:\r\n\r\nThe packaged CRX file below can be installed in Chromium. Please [google for installation instructions](https://www.google.com/search?q=how%20to%20load%20crx%20files%20in%20chrome) on how to install it.\r\n\r\nThe packaged XPI file below can be installed in Firefox. Please [google for installation instructions](https://www.google.com/search?q=how%20to%20install%20xpi%20files%20in%20firefox) on how to install it.\r\n\r\n### Firefox Support\r\n\r\n* Firefox >= 60: Shiny `browser.proxy.onRequest` API. SwitchyOmega just added support recently so please let us know if you experience issues.\r\n* Firefox >= 55: Deprecated. Legacy `browser.proxy.register` API. We do not provide any support for these versions. **Please upgrade your browser before filing issues.**\r\n    * HTTP/HTTPS/SOCKS5 Authentication and SOCKS5 Remote DNS will only work in some versions (>= 2017-09-18).\r\n* Firefox <= 54: WONT WORK. Back-porting is not possible due to lack of support in proxy API.\r\n\r\n### 更新内容\r\n\r\n- 这次更新只含有 Chromium 平台的 bug 修复， Firefox 用户无需更新。\r\n- 修复非常古老的基于 Chromium 浏览器上的一些兼容性问题。（例如 Chromium 31.）\r\n- 修复重构导致的外部情景模式 bug. 现在外部情景模式应该可以正常工作了。\r\n- 修复 “显示外部情景模式” 设置总会重置到“启用”的错误。 \r\n\r\n:beetle: 如遇到问题，请使用图标右键菜单的“反馈问题”功能提交错误报告，以便开发者及时修复，谢谢。\r\n\r\n### 安装\r\n\r\n:large_blue_circle: **Chromium 或基于 Chromium 的浏览器用户：** 请从 [Chrome 应用商店](https://chrome.google.com/webstore/detail/padekgcemlokbadohgkifijomclgjgif) 安装。\r\n\r\n:red_circle: **Mozilla Firefox 或者基于 Mozilla 的其他浏览器用户：** 请从 [Mozilla Add-Ons](https://addons.mozilla.org/en-US/firefox/addon/switchyomega/) 安装。（见下方 Firefox 支持的版本说明。）\r\n\r\n如果您无法从以上链接安装，请继续阅读以下说明。 \r\n\r\n下方的 CRX 安装包可用于 Chromium. 关于下载后如何安装，您可以[谷歌一下](https://www.google.com/search?q=Chrome%E5%8A%A0%E8%BD%BDcrx)，或者看看[百度经验怎么说](http://jingyan.baidu.com/article/d621e8da18f8372865913fdc.html)。\r\n\r\n下方的 XPI 安装包可用于 Firefox. 关于下载后如何安装，您可以[谷歌一下](https://www.google.com/search?q=Chrome%E5%8A%A0%E8%BD%BDcrx)。\r\n\r\n### Firefox 支持\r\n\r\n* Firefox >= 60: 崭新的 `browser.proxy.onRequest` API. SwitchyOmega 最近才支持此功能，因此如遇到问题请及时反馈。\r\n* Firefox >= 55: 过时的 `browser.proxy.register` API. 我们不会再对这些版本提供技术支持。  **请先更新浏览器，再反馈任何问题。**\r\n    * HTTP/HTTPS/SOCKS5 认证以及 SOCKS5 远程 DNS 只在某些版本中可以工作 (>= 2017-09-18).\r\n* Firefox <= 54: 无法工作。由于这些版本没有代理 API ，我们无法向后兼容这些版本。"
@@ -22705,8 +22705,8 @@
     "https://github.com/Safe3/CVS": {
         "created_at": "2023-12-26 10:44:17",
         "description": "Powerful and customizable vulnerability scanner based on VDSL, which can replace Nessus or Nuclei, etc. 万象通用漏洞扫描器，支持强大的PoC脚本语言、先进易用的PoC开发和调试IDE、现代化无需等待OOB服务器。可替代Nessus和Nuclei等漏洞扫描产品。",
-        "commit_date": "2023-12-26 10:44:17",
-        "commit_message": "Update VDSL_CN.md",
+        "commit_date": "2024-06-22 01:24:15",
+        "commit_message": "Update library_CN.md",
         "release_tag": "",
         "release_date": "2023-12-30 11:48:27",
         "release_message": ""
@@ -22971,7 +22971,7 @@
         "release_message": ""
     },
     "https://github.com/Lotus6/AutoRepeater": {
-        "created_at": "2023-09-02 08:48:57",
+        "created_at": "2023-09-10 10:49:00",
         "description": "Burp插件，自动化挖掘SSRF，Redirect，Sqli漏洞，自定义匹配参数",
         "commit_date": "2023-09-10 14:08:43",
         "commit_message": "Update README.md\n\nV1.1",
@@ -27074,7 +27074,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "20.81.159.196属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "172.183.39.66属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
@@ -27093,8 +27093,8 @@
         "description": "Reverse IP Lookup - All Names Hosted at an IP - DomainTools"
     },
     "https://www.webscan.cc/": {
-        "status_code": 500,
-        "description": ""
+        "status_code": 200,
+        "description": "同IP网站查询,C段查询,IP反查域名,在线C段,旁站工具 - WebScan"
     },
     "https://gofile.io/": {
         "status_code": 200,
