@@ -196,8 +196,8 @@
     "https://github.com/ycdxsb/PocOrExp_in_Github": {
         "created_at": "2021-04-13 05:46:16",
         "description": "聚合Github上已有的Poc或者Exp，CVE信息来自CVE官网。Auto Collect Poc Or Exp from Github by CVE ID.",
-        "commit_message": "update 2024-06-16 08:18:41",
-        "commit_date": "2024-06-16 00:18:41"
+        "commit_message": "update 2024-06-22 07:28:06",
+        "commit_date": "2024-06-21 23:28:06"
     },
     "https://github.com/1n7erface/RequestTemplate": {
         "created_at": "",
@@ -226,13 +226,13 @@
         "release_message": "## Changelog\n* 10ddfd1 fix: modernc.org/sqlite 不支持 win 386\n\n"
     },
     "https://github.com/gh0stkey/HaE": {
-        "created_at": "2024-05-30 08:01:25",
+        "created_at": "2024-06-19 14:20:46",
         "description": "HaE - Highlighter and Extractor, Empower ethical hacker for efficient operations.",
-        "commit_date": "2024-05-30 08:01:25",
-        "commit_message": "Version: 3.2.1 Update",
+        "commit_date": "2024-06-19 14:20:46",
+        "commit_message": "Version: 3.2.2 Update",
         "release_tag": "2.4.6",
-        "release_date": "2024-05-30 08:02:15",
-        "release_message": "## 更新内容\r\n\r\n1. 修复多屏时HaE的信息窗口不跟随问题；\r\n2. 修复Databoard删除数据后空数据列表保留问题；\r\n3. 优化Databoard数据查询体验，增加底部数据加载等待条；\r\n4. 优化Databoard数据导出、导入功能，支持大数据内容的处理。\r\n\r\n## 成员变更\r\n\r\n1.考虑到 @vaycore 在HaE项目中的杰出贡献，项目组第一作者建议将其提名为第三位作者。目前该建议已经过项目组评审并获得确认。"
+        "release_date": "2024-06-19 14:32:06",
+        "release_message": "## 更新内容\r\n\r\n1. 修复Databoard长时间查询界面错乱问题；\r\n2. 修复Databoard在Windows下复制截断问题；\r\n3. 修复Databoard查询数据数量随机问题；\r\n4. 优化Databoard清空数据逻辑；\r\n5. 优化HTTP消息处理逻辑。\r\n\r\n## 致谢信息\r\n\r\n1. 感谢1wtbb及时反馈问题并协助测试。"
     },
     "https://github.com/kelvinBen/AppInfoScanner": {
         "created_at": "2020-07-22 01:19:17",
@@ -2919,8 +2919,8 @@
     "https://github.com/dbeaver/dbeaver": {
         "created_at": "2024-05-30 16:00:59",
         "description": "Free universal database tool and SQL client",
-        "commit_message": "dbeaver/dbeaver#33392 List/search Altibase server properties (#34177)\n\n* dbeaver/dbeaver#33392 Add Altibase v$property viewer\r\n\r\n* dbeaver/dbeaver#33392 Formatting: tab to space\r\n\r\n* Update plugins/org.jkiss.dbeaver.ext.altibase/src/org/jkiss/dbeaver/ext/altibase/model/AltibaseProperty.java\r\n\r\nRemove redundant spaces\r\n\r\nCo-authored-by: Elizabeth <Kuzenkova.El@yandex.ru>\r\n\r\n* Add NotNull annotation\r\n\r\nCo-authored-by: ShadelessFox <35821147+ShadelessFox@users.noreply.github.com>\r\n\r\n* Update plugins/org.jkiss.dbeaver.ext.altibase/src/org/jkiss/dbeaver/ext/altibase/model/AltibaseProperty.java\r\n\r\nCo-authored-by: ShadelessFox <35821147+ShadelessFox@users.noreply.github.com>\r\n\r\n* dbeaver/dbeaver#33392 Code updates upon ShadelessFox 1st review.\r\n\r\n* dbeaver#33392 Commit missed code updates.\r\n\r\n* dbeaver/dbeaver#33392 tab to spaces\r\n\r\n* dbeaver/dbeaver#33392 tab to spaces\r\n\r\n* dbeaver/dbeaver#33392 Resolve a conflict by CB-2070 DBException\r\nrefactoring (#34344)\r\n\r\n---------\r\n\r\nCo-authored-by: Elizabeth <Kuzenkova.El@yandex.ru>\r\nCo-authored-by: ShadelessFox <35821147+ShadelessFox@users.noreply.github.com>\r\nCo-authored-by: Dziyana <31996417+uslss@users.noreply.github.com>",
-        "commit_date": "2024-06-18 16:27:05",
+        "commit_message": "dbeaver/dbeaver-infra#74 add generator scripts and move rcp-gen.properties to product repos (#34263)\n\n* dbeaver/dbeaver-infra#74 add generator scripts and move rcp-gen.properties to product repos\r\n\r\n* dbeaver/dbeaver-infra#74 add copyright config to generator CE\r\n\r\n* dbeaver/dbeaver-infra#74 move to .ide/idea instead\r\n\r\n* dbeaver/dbeaver-infra#74 formatting\r\n\r\n* dbeaver/dbeaver-infra#74 update vscode configs and rename rcp-gen.properties to osgi-app.properties\r\n\r\n* dbeaver/dbeaver-infra#74 add tests\r\n\r\n* dbeaver/dbeaver-infra#74 generate workspace per osgi-app.properties file\r\n\r\n* dbeaver/dbeaver-infra#74 remove workspace from naming\r\n\r\n---------\r\n\r\nCo-authored-by: Serge Rider <serge@jkiss.org>",
+        "commit_date": "2024-06-21 08:55:42",
         "release_date": "2024-06-09 10:47:37",
         "release_message": "                Changes since 24.0.5:\r\n                - SQL Editor: issue with extra linefeed during autocompletion was fixed\r\n                - Data Editor: loading data when fast scrolling using the keyboard was fixed\r\n                - Database tasks:\r\n                    - Maximum execution time option was added\r\n                    - Tasks running from non-default workspace was fixed\r\n                - Connectivity:\r\n                    - 'Azure AD' was renamed to 'Microsoft Entra ID'\r\n                    - Links to database support documentation were added for many databases\r\n                    - Automatical termination of the shell command script 'Before connect' was fixed\r\n                - General:\r\n                    - Crash when closing detached editor tab in another window was fixed\r\n                    - 'Restore default' for Metadata read, Client identification settings was fixed\r\n                    - .projects and .settings folders became findable in Projects when the application is used as an Eclipse plugin\r\n                    - Truncated notifications were fixed\r\n                - Projects:\r\n                    - Disconnecting a database from the Project view was fixed\r\n                    - Opening a bookmark after changing the application language was fixed (thanks to @SASUKE38)\r\n                - ERD: loading diagrams for drivers with broken foreign keys support was fixed\r\n                - Database Navigator:\r\n                    - Color of the table statistics was changed to visible in the dark theme and became configurable\r\n                    - Deleting connection option in the context menu was renamed to 'Delete connection'\r\n                - Databases:\r\n                    - CrateDB: table DDL was fixed\r\n                    - Databricks: authentication with personal access token was added\r\n                    - DB2i: procedure creation was fixed\r\n                    - DuckDB: aliases autocompletion was fixed\r\n                    - H2: foreign keys presentation was fixed\r\n                    - Oracle: JSON data type support was improved\r\n                    - PostgreSQL: support of fully qualified names in DDL was fixed\r\n                - Localization:\r\n                    - German localization was updated (thanks to @maxbobse)\r\n            "
     },
@@ -3154,12 +3154,12 @@
         "release_message": ""
     },
     "https://github.com/joke2k/faker": {
-        "created_at": "2024-05-28 14:20:09",
+        "created_at": "2024-06-20 14:45:46",
         "description": "Faker is a Python package that generates fake data for you.",
-        "commit_message": "Bump version: 25.2.0 → 25.3.0",
-        "commit_date": "2024-05-28 14:20:09",
-        "release_date": "2024-05-28 14:20:38",
-        "release_message": "See [CHANGELOG.md](https://github.com/joke2k/faker/blob/refs/tags/v25.3.0/CHANGELOG.md)."
+        "commit_message": "Bump version: 25.9.0 → 25.9.1",
+        "commit_date": "2024-06-20 14:45:45",
+        "release_date": "2024-06-20 14:46:59",
+        "release_message": "See [CHANGELOG.md](https://github.com/joke2k/faker/blob/refs/tags/v25.9.1/CHANGELOG.md)."
     },
     "https://github.com/NHPT/Xray_Cracked": {
         "created_at": "2023-04-24 06:48:58",
@@ -4924,7 +4924,7 @@
         "release_message": "Code has been heavily refactored.\r\n\r\nSamples have been checked and improved.\r\nTool can be easily extended and upgraded.\r\n\r\nThe core functionality remained the same."
     },
     "https://github.com/rustdesk/rustdesk": {
-        "created_at": "2024-04-07 06:31:09",
+        "created_at": "2020-09-28 15:36:08",
         "description": "An open-source remote desktop, and alternative to TeamViewer.",
         "commit_message": "update sk.rs (#8364)",
         "commit_date": "2024-06-15 08:03:56",
@@ -6301,8 +6301,8 @@
     "https://github.com/WerWolv/ImHex": {
         "created_at": "2024-06-03 20:22:33",
         "description": "🔍 A Hex Editor for Reverse Engineers, Programmers and people who value their retinas when working at 3 AM.",
-        "commit_message": "build: Bumped version to 1.35.0-WIP",
-        "commit_date": "2024-06-03 21:06:28",
+        "commit_message": "impr: Better background opacity for the digital signal visualizer",
+        "commit_date": "2024-06-20 20:33:55",
         "release_date": "2024-06-03 20:53:33",
         "release_message": "## Additions\r\n\r\n- **Added simple insert mode to hex editor**\r\n- **Small files are now loaded into memory**\r\n    - This means other applications can now open files while they're open in ImHex\r\n    - When external changes are detected, ImHex will ask if you want to reload the file\r\n    - For clarification, ImHex always opened files with full share permissions even before but basically no other programs do it so they still complain about the file being locked.\r\n- **Added a new ImHex Logo to the Welcome screen**\r\n- Added Hungarian translations (#1683)\r\n- Updated Simplified Chinese translation (#1610)\r\n- Added plain text and similar bytes regions to byte types diagram\r\n- Added full pattern path to hex editor hover tooltip\r\n- Added Display destination address in goto popup\r\n- Added provider information to search bar hover tooltip\r\n- Added support for shift-selecting multiple find view occurrences\r\n- Added table pattern visualizer\r\n- Added short forms for commonly used CLI commands\r\n- Added `--verbose` command line option to enable debug logs\r\n- Allow workspaces to be deleted the same way as layouts\r\n- Allow full magic analysis, removed unidentified data from magic report\r\n- Added a link to the \"Find\" view in the search popup (#1665)\r\n\r\n- ## Improvements\r\n- Added support for DWM immersive dark mode on Windows (#1636)\r\n- The Window is now less prone to flickering during resizes on Windows\r\n- Double clicking on the title bar in macOS now correctly maximizes the window again (#1689)\r\n- The window now doesn't \"rubber band\" anymore while resizing on macOS (#1690)\r\n- Added warning about using fractional scaling with default font\r\n- Menu bar items now don't collapse entirely anymore if there's not enough space\r\n- Allow providers to be closed quicker after being opened\r\n- The pattern data filter now behaves much more intuitively\r\n- Convert all hex editor popups to floating, movable windows (#1658)\r\n- Don't move hex editor scroll position when jumping to address that's on-screen (#1660)\r\n- The accept pattern popup now opens faster and closes correctly\r\n- Make main menu bar not collapse completely when there's not enough space\r\n- Right click menus now open much faster and feel less sluggish\r\n- Make unsaved changes popup behave more like in other applications\r\n- Better UI and UX for the hex editor footer\r\n\r\n## Bug Fixes\r\n\r\n- Fixed loading custom fonts from paths with unicode characters not working\r\n- Fixed workspaces not being deletable correctly in all cases\r\n- Fixed crash when having path set in user folder settings page\r\n- Fixed icon size being off when using fractional scaling with default font\r\n- Fixed empty tooltip showing when hovering over search bar in welcome screen\r\n- Fixed insert mode cursor not being visible\r\n- Fixed window scaling defaulting to 1.0x instead of Native\r\n- Fixed settings sometimes being reset on shutdown\r\n- Fixed icon text input boxes being wider than expected\r\n- Fixed visual glitches with highlights and selections in the hex editor view\r\n- Fixed loading of custom data processor nodes\r\n- Fixed locking layout not working correctly\r\n- Fixed textEditor line numbers were still partially rendered despite mShowLineNumbers being set to false (#1669)\r\n- Fixed edit -> Jump To -> Current Pattern not always resetting request correctly\r\n- Fixed not being able to close certain modal popups with the close button on the title bar (#1659)\r\n- Fixed multiple file reload popups stacking on top of each other (#1654)\r\n- Fixed text editor cursor not showing up anymore\r\n- Fixed command palette losing focus when pressing Alt\r\n- Fixed frame rate getting unlocked when inputs are being processed (#1632)\r\n- Fixed selectable text behaving weirdly when selecting\r\n- Fixed buffer display data processor node being way too wide\r\n- Fixed exporting selection doesn't export last byte\r\n- Fixed missing window icon under wayland (#1633)\r\n- Fixed cell highlighting in hex editor view overlapping at non-integer scale factors\r\n- Fixed main window being hard to resize when bytes are selected in the hex editor view\r\n- Fixed diff table in diffing view displaying incorrect end address (#1627)\r\n- Fixed store hanging when updating all entries in some cases\r\n- Fixed highlight and tooltip flickering when hovering over highlighted patterns\r\n- Fixed icons not being fractionally scaled anymore\r\n- Fixed settings being overwritten sometimes on crash\r\n- Fixed unifont characters being scaled wrongly\r\n- Fixed settings values being uninitialized by default\r\n- Fixed crash on some platforms due to empty main menu bar\r\n- Fixed memory leak when closing ImHex\r\n- Fixed file changed popup showing up when saving memory mapped file\r\n\r\n## Pattern Language \r\n\r\n- Fixed many many many crashes during parsing\r\n- `in` variable values now persistent between parser runs again\r\n- `out` variable values are now selectable and copyable in pattern editor\r\n- Added support for `#undef`\r\n- Preprocessing now works on a token level instead of on character level which makes it behave much more like expected\r\n- Custom types can now be `null`-initialized\r\n- Added `std::file::create_directories()` function\r\n\r\n<br/>\r\n\r\n<p align=\"center\">If you like my work, please consider supporting me on GitHub Sponsors, Patreon or PayPal. Thanks a lot!</p>\r\n<p align=\"center\">\r\n<a href=\"https://github.com/sponsors/WerWolv\"><img src=\"https://werwolv.net/assets/github_banner.png\" alt=\"GitHub donate button\" /> </a>\r\n<a href=\"https://www.patreon.com/werwolv\"><img src=\"https://c5.patreon.com/external/logo/become_a_patron_button.png\" alt=\"Patreon donate button\" /> </a>\r\n<a href=\"https://werwolv.net/donate\"><img src=\"https://werwolv.net/assets/paypal_banner.png\" alt=\"PayPal donate button\" /> </a>\r\n</p"
     },
@@ -23929,8 +23929,8 @@
     "https://github.com/hansmach1ne/lfimap": {
         "created_at": "2021-02-26 04:11:33",
         "description": "Local File Inclusion discovery and exploitation tool",
-        "commit_message": "Run code formatting tool 'black' on the repo to clean the code.",
-        "commit_date": "2024-06-17 01:36:33"
+        "commit_message": "Merge pull request #71 from nrathaus/fix_filter\n\nMultiple fixes in filter.py",
+        "commit_date": "2024-06-20 20:30:24"
     },
     "https://github.com/MaskCyberSecurityTeam/BurpHttpHelper": {
         "created_at": "2023-01-22 05:16:24",
@@ -24412,8 +24412,8 @@
         "description": "魅族安全中心"
     },
     "https://sec.vip.com/": {
-        "status_code": 200,
-        "description": "VSRC首页-唯品会信息安全中心"
+        "status_code": 503,
+        "description": ""
     },
     "https://sec.wacai.com/": {
         "status_code": 200,
@@ -26093,11 +26093,11 @@
         "commit_date": "2016-01-02 11:04:22"
     },
     "https://github.com/deepfence/ThreatMapper": {
-        "created_at": "2020-02-06 10:30:09",
+        "created_at": "2024-06-21 14:29:15",
         "description": "Open Source Cloud Native Application Protection Platform (CNAPP)",
-        "commit_message": "Update listing with threatintel-2024-06-06_00-02-40",
-        "commit_date": "2024-06-06 00:14:44",
-        "release_date": "2024-05-31 00:12:57",
+        "commit_message": "Update listing with threatintel-2024-06-22_00-02-25",
+        "commit_date": "2024-06-22 00:13:33",
+        "release_date": "2024-06-22 00:13:29",
         "release_message": ""
     },
     "https://github.com/BlackHole1/autoFindXssAndCsrf": {
@@ -27074,7 +27074,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "40.118.240.247属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "20.109.38.144属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
@@ -27093,8 +27093,8 @@
         "description": "Reverse IP Lookup - All Names Hosted at an IP - DomainTools"
     },
     "https://www.webscan.cc/": {
-        "status_code": 200,
-        "description": "同IP网站查询,C段查询,IP反查域名,在线C段,旁站工具 - WebScan"
+        "status_code": 500,
+        "description": ""
     },
     "https://gofile.io/": {
         "status_code": 200,
@@ -27655,8 +27655,8 @@
     "https://github.com/Leon406/ToolsFx": {
         "created_at": "2024-04-29 03:16:29",
         "description": "基于kotlin+tornadoFx的跨平台密码学工具箱.包含编解码,编码转换,加解密, 哈希,MAC,签名,大数运算,压缩,二维码功能,ctf等实用功能,支持插件",
-        "commit_message": "fix(deps): update dependency org.jetbrains.kotlinx:kotlinx-serialization-json to v1.7.0",
-        "commit_date": "2024-06-09 03:15:52",
+        "commit_message": "fix(deps): update dependency org.seleniumhq.selenium:selenium-java to v4.22.0",
+        "commit_date": "2024-06-21 03:31:12",
         "release_date": "2024-04-29 12:06:21",
         "release_message": "已开通打赏渠道,入口不会嵌入软件中\r\n想支持作者,可在README或者个人github主页打赏\r\n\r\n再次感谢 naonaonao 师傅支持！\r\n\r\n## What's Changed\r\n* v1.17.0 by @Leon406 in https://github.com/Leon406/ToolsFx/pull/163\r\n* fix(deps): update dependency org.seleniumhq.selenium:selenium-java to v4.13.0 by @renovate in https://github.com/Leon406/ToolsFx/pull/165\r\n* fix(deps): update dependency com.github.luben:zstd-jni to v1.5.5-6 by @renovate in https://github.com/Leon406/ToolsFx/pull/166\r\n* fix(deps): update dependency androidx.collection:collection-ktx to v1.3.0 by @renovate in https://github.com/Leon406/ToolsFx/pull/167\r\n* chore(deps): update dependency gradle to v8.4 by @renovate in https://github.com/Leon406/ToolsFx/pull/168\r\n* fix(deps): update dependency org.mockito:mockito-core to v5.6.0 by @renovate in https://github.com/Leon406/ToolsFx/pull/169\r\n* fix(deps): update dependency org.seleniumhq.selenium:selenium-java to v4.14.0 by @renovate in https://github.com/Leon406/ToolsFx/pull/170\r\n* fix(deps): update dependency org.seleniumhq.selenium:selenium-java to v4.14.1 by @renovate in https://github.com/Leon406/ToolsFx/pull/171\r\n* fix(deps): update dependency org.xerial:sqlite-jdbc to v3.43.2.0 by @renovate in https://github.com/Leon406/ToolsFx/pull/172\r\n* fix(deps): update dependency org.xerial:sqlite-jdbc to v3.43.2.1 by @renovate in https://github.com/Leon406/ToolsFx/pull/173\r\n* fix(deps): update dependency org.jsoup:jsoup to v1.16.2 by @renovate in https://github.com/Leon406/ToolsFx/pull/174\r\n* fix(deps): update dependency org.jetbrains.kotlin:kotlin-reflect to v1.9.20 by @renovate in https://github.com/Leon406/ToolsFx/pull/177\r\n* fix(deps): update dependency org.xerial:sqlite-jdbc to v3.43.2.2 by @renovate in https://github.com/Leon406/ToolsFx/pull/176\r\n* fix(deps): update dependency com.github.luben:zstd-jni to v1.5.5-7 by @renovate in https://github.com/Leon406/ToolsFx/pull/175\r\n* chore(deps): update detektver to v1.23.3 by @renovate in https://github.com/Leon406/ToolsFx/pull/178\r\n* fix(deps): update dependency com.github.luben:zstd-jni to v1.5.5-9 by @renovate in https://github.com/Leon406/ToolsFx/pull/179\r\n* fix(deps): update dependency com.github.luben:zstd-jni to v1.5.5-10 by @renovate in https://github.com/Leon406/ToolsFx/pull/180\r\n* fix(deps): update dependency org.seleniumhq.selenium:selenium-java to v4.15.0 by @renovate in https://github.com/Leon406/ToolsFx/pull/181\r\n* fix(deps): update dependency org.mockito:mockito-core to v5.7.0 by @renovate in https://github.com/Leon406/ToolsFx/pull/182\r\n* fix(deps): update dependency dnsjava:dnsjava to v3.5.3 by @renovate in https://github.com/Leon406/ToolsFx/pull/183\r\n* fix(deps): update dependency cn.hutool:hutool-all to v5.8.23 by @renovate in https://github.com/Leon406/ToolsFx/pull/184\r\n* fix(deps): update dependency org.xerial:sqlite-jdbc to v3.44.0.0 by @renovate in https://github.com/Leon406/ToolsFx/pull/185\r\n* fix(deps): update dependency org.bouncycastle:bcprov-jdk18on to v1.77 by @renovate in https://github.com/Leon406/ToolsFx/pull/186\r\n* fix(deps): update dependency org.jetbrains.kotlinx:kotlinx-serialization-json to v1.6.1 by @renovate in https://github.com/Leon406/ToolsFx/pull/187\r\n* fix(deps): update dependency org.apache.commons:commons-compress to v1.25.0 by @renovate in https://github.com/Leon406/ToolsFx/pull/188\r\n* fix(deps): update kotlin monorepo to v1.9.21 by @renovate in https://github.com/Leon406/ToolsFx/pull/189\r\n* chore(deps): update detektver to v1.23.4 by @renovate in https://github.com/Leon406/ToolsFx/pull/190\r\n* fix(deps): update dependency org.xerial:sqlite-jdbc to v3.44.1.0 by @renovate in https://github.com/Leon406/ToolsFx/pull/191\r\n* fix(deps): update dependency org.jsoup:jsoup to v1.17.1 by @renovate in https://github.com/Leon406/ToolsFx/pull/192\r\n* chore(deps): update actions/setup-java action to v4 by @renovate in https://github.com/Leon406/ToolsFx/pull/194\r\n* chore(deps): update dependency gradle to v8.5 by @renovate in https://github.com/Leon406/ToolsFx/pull/193\r\n* fix(deps): update dependency org.jetbrains.kotlinx:kotlinx-serialization-json to v1.6.2 by @renovate in https://github.com/Leon406/ToolsFx/pull/195\r\n* fix(deps): update dependency com.github.luben:zstd-jni to v1.5.5-11 by @renovate in https://github.com/Leon406/ToolsFx/pull/196\r\n* fix(deps): update dependency org.mockito:mockito-core to v5.8.0 by @renovate in https://github.com/Leon406/ToolsFx/pull/197\r\n* chore(deps): update dependency com.diffplug.spotless to v6.23.2 by @renovate in https://github.com/Leon406/ToolsFx/pull/198\r\n* chore(deps): update dependency com.diffplug.spotless to v6.23.3 by @renovate in https://github.com/Leon406/ToolsFx/pull/199\r\n* fix(deps): update dependency org.seleniumhq.selenium:selenium-java to v4.16.0 by @renovate in https://github.com/Leon406/ToolsFx/pull/200\r\n* fix(deps): update dependency org.seleniumhq.selenium:selenium-java to v4.16.1 by @renovate in https://github.com/Leon406/ToolsFx/pull/201\r\n* fix(deps): update dependency net.java.dev.jna:jna-platform to v5.14.0 by @renovate in https://github.com/Leon406/ToolsFx/pull/202\r\n* chore(deps): update github/codeql-action action to v3 by @renovate in https://github.com/Leon406/ToolsFx/pull/203\r\n* chore(deps): update actions/upload-artifact action to v4 by @renovate in https://github.com/Leon406/ToolsFx/pull/204\r\n* fix(deps): update dependency org.javassist:javassist to v3.30.1-ga by @renovate in https://github.com/Leon406/ToolsFx/pull/205\r\n* fix(deps): update dependency org.java-websocket:java-websocket to v1.5.5 by @renovate in https://github.com/Leon406/ToolsFx/pull/206\r\n* fix(deps): update kotlin monorepo to v1.9.22 by @renovate in https://github.com/Leon406/ToolsFx/pull/207\r\n* fix(deps): update dependency cn.hutool:hutool-all to v5.8.24 by @renovate in https://github.com/Leon406/ToolsFx/pull/208\r\n* fix(deps): update dependency org.javassist:javassist to v3.30.2-ga by @renovate in https://github.com/Leon406/ToolsFx/pull/209\r\n* fix(deps): update dependency org.jsoup:jsoup to v1.17.2 by @renovate in https://github.com/Leon406/ToolsFx/pull/210\r\n* fix(deps): update dependency cn.hutool:hutool-all to v5.8.25 by @renovate in https://github.com/Leon406/ToolsFx/pull/211\r\n* fix(deps): update dependency org.mockito:mockito-core to v5.9.0 by @renovate in https://github.com/Leon406/ToolsFx/pull/212\r\n* chore(deps): update dependency com.diffplug.spotless to v6.24.0 by @renovate in https://github.com/Leon406/ToolsFx/pull/213\r\n* chore(deps): update actions/cache action to v4 by @renovate in https://github.com/Leon406/ToolsFx/pull/214\r\n* fix(deps): update dependency org.xerial:sqlite-jdbc to v3.45.0.0 by @renovate in https://github.com/Leon406/ToolsFx/pull/215\r\n* chore(deps): update dependency com.diffplug.spotless to v6.25.0 by @renovate in https://github.com/Leon406/ToolsFx/pull/216\r\n* fix(deps): update dependency org.seleniumhq.selenium:selenium-java to v4.17.0 by @renovate in https://github.com/Leon406/ToolsFx/pull/217\r\n* fix(deps): update dependency org.mockito:mockito-core to v5.10.0 by @renovate in https://github.com/Leon406/ToolsFx/pull/219\r\n* fix(deps): update dependency androidx.collection:collection-ktx to v1.4.0 by @renovate in https://github.com/Leon406/ToolsFx/pull/218\r\n* fix(deps): update dependency com.google.zxing:javase to v3.5.3 by @renovate in https://github.com/Leon406/ToolsFx/pull/223\r\n* fix(deps): update dependency org.xerial:sqlite-jdbc to v3.45.1.0 by @renovate in https://github.com/Leon406/ToolsFx/pull/224\r\n* chore(deps): update detektver to v1.23.5 by @renovate in https://github.com/Leon406/ToolsFx/pull/225\r\n* chore(deps): update dependency gradle to v8.6 by @renovate in https://github.com/Leon406/ToolsFx/pull/226\r\n* fix(deps): update dependency org.java-websocket:java-websocket to v1.5.6 by @renovate in https://github.com/Leon406/ToolsFx/pull/227\r\n* fix(deps): update dependency cn.hutool:hutool-all to v5.8.26 by @renovate in https://github.com/Leon406/ToolsFx/pull/228\r\n* fix(deps): update coroutinever to v1.8.0 by @renovate in https://github.com/Leon406/ToolsFx/pull/229\r\n* fix(deps): update dependency org.jetbrains.kotlinx:kotlinx-serialization-json to v1.6.3 by @renovate in https://github.com/Leon406/ToolsFx/pull/230\r\n* fix(deps): update dependency org.apache.commons:commons-compress to v1.26.0 by @renovate in https://github.com/Leon406/ToolsFx/pull/231\r\n* fix(deps): update dependency org.seleniumhq.selenium:selenium-java to v4.18.0 by @renovate in https://github.com/Leon406/ToolsFx/pull/232\r\n* fix(deps): update dependency org.seleniumhq.selenium:selenium-java to v4.18.1 by @renovate in https://github.com/Leon406/ToolsFx/pull/233\r\n* fix(deps): update dependency org.mockito:mockito-core to v5.11.0 by @renovate in https://github.com/Leon406/ToolsFx/pull/234\r\n* fix(deps): update kotlin monorepo to v1.9.23 by @renovate in https://github.com/Leon406/ToolsFx/pull/235\r\n* fix(deps): update dependency org.apache.commons:commons-compress to v1.26.1 by @renovate in https://github.com/Leon406/ToolsFx/pull/236\r\n* fix(deps): update dependency org.xerial:sqlite-jdbc to v3.45.2.0 by @renovate in https://github.com/Leon406/ToolsFx/pull/237\r\n* chore(deps): update dependency gradle to v8.7 by @renovate in https://github.com/Leon406/ToolsFx/pull/238\r\n* chore(deps): update detektver to v1.23.6 by @renovate in https://github.com/Leon406/ToolsFx/pull/239\r\n* fix(deps): update dependency com.github.luben:zstd-jni to v1.5.6-1 by @renovate in https://github.com/Leon406/ToolsFx/pull/241\r\n* fix(deps): update dependency org.seleniumhq.selenium:selenium-java to v4.19.0 - autoclosed by @renovate in https://github.com/Leon406/ToolsFx/pull/240\r\n* fix(deps): update dependency cn.hutool:hutool-all to v5.8.27 by @renovate in https://github.com/Leon406/ToolsFx/pull/242\r\n* fix(deps): update dependency org.seleniumhq.selenium:selenium-java to v4.19.1 by @renovate in https://github.com/Leon406/ToolsFx/pull/243\r\n* fix(deps): update dependency com.github.luben:zstd-jni to v1.5.6-2 by @renovate in https://github.com/Leon406/ToolsFx/pull/244\r\n* fix(deps): update dependency org.bouncycastle:bcprov-jdk18on to v1.78 by @renovate in https://github.com/Leon406/ToolsFx/pull/245\r\n* fix(deps): update dependency org.xerial:sqlite-jdbc to v3.45.3.0 by @renovate in https://github.com/Leon406/ToolsFx/pull/247\r\n* fix(deps): update dependency org.bouncycastle:bcprov-jdk18on to v1.78.1 by @renovate in https://github.com/Leon406/ToolsFx/pull/249\r\n* fix(deps): update dependency com.github.luben:zstd-jni to v1.5.6-3 by @renovate in https://github.com/Leon406/ToolsFx/pull/250\r\n* fix(deps): update dependency org.seleniumhq.selenium:selenium-java to v4.20.0 by @renovate in https://github.com/Leon406/ToolsFx/pull/251\r\n\r\n\r\n**Full Changelog**: https://github.com/Leon406/ToolsFx/compare/v1.17.0...v1.18.0"
     },
@@ -27845,8 +27845,8 @@
     "https://github.com/ngc660sec/NGCBot": {
         "created_at": "2024-01-02 07:07:54",
         "description": "一个基于✨HOOK机制的微信机器人，支持🌱安全新闻定时推送【FreeBuf，先知，安全客，奇安信攻防社区】，👯Kfc文案，⚡备案查询，⚡手机号归属地查询，⚡WHOIS信息查询，🎉星座查询，⚡天气查询，🌱摸鱼日历，⚡微步威胁情报查询， 🐛美女视频，⚡美女图片，👯帮助菜单。📫 支持积分功能，⚡支持自动拉人，⚡检测广告，🌱自动群发，👯Ai回复，😄自定义程度丰富，小白也可轻松上手！",
-        "commit_message": "修复一处报错\n\n修复一处报错",
-        "commit_date": "2024-06-03 14:14:03",
+        "commit_message": "修复一处小Bug",
+        "commit_date": "2024-06-20 15:02:55",
         "release_date": "2024-01-02 07:24:40",
         "release_message": "### NGCBot V2.0龙年贺岁版更新！\r\n新增更多功能\r\n更快！更多！更全！\r\n最新请查看Readme\r\n\r\n### 注意：由于新版本采用不同框架，所以不能跟以前版本互通！！\r\n\r\n## 注意：请直接Git代码：https://github.com/ngc660sec/NGCBot.git\r\n## release只提供微信安装包\r\n\r\n"
     },
