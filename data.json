@@ -131,7 +131,7 @@
         "release_message": ""
     },
     "https://github.com/euphrat1ca/LayerDomainFinder": {
-        "created_at": "2019-07-17 07:46:03",
+        "created_at": "2019-07-17 07:34:49",
         "description": "Layer子域名挖掘机",
         "commit_date": "2019-07-17 07:46:03",
         "commit_message": "1\n\n1",
@@ -4315,7 +4315,7 @@
         "release_message": ""
     },
     "https://github.com/D0g3-Lab/H1ve": {
-        "created_at": "2019-11-22 03:46:11",
+        "created_at": "2020-03-25 11:59:37",
         "description": "An Easy / Quick / Cheap Integrated Platform",
         "commit_date": "2020-11-25 14:01:11",
         "commit_message": "Merge pull request #55 from Threezh1/patch-1\n\n修复`ctfd-matrix-scoreboard`的Matrix页面出现Internal Server Error问题",
@@ -5195,13 +5195,13 @@
         "release_message": "### [0.1.6](https://github.com/projectdiscovery/wappalyzergo/compare/v0.1.5...v0.1.6) (2024-06-16)"
     },
     "https://github.com/cseroad/Webshell_Generate": {
-        "created_at": "2022-05-19 05:27:44",
+        "created_at": "2023-06-19 03:21:09",
         "description": "用于生成各类免杀webshell",
-        "commit_date": "2023-06-19 03:21:09",
+        "commit_date": "2024-03-04 02:44:14",
         "commit_message": "Update README.md",
         "release_tag": "v1.2.3",
-        "release_date": "2023-06-19 03:10:18",
-        "release_message": "1、优化部分免杀代码\r\n2、支持特殊字符密码"
+        "release_date": "2024-03-04 02:41:12",
+        "release_message": "- 优化部分代码免杀\r\n- jsp部分通过OrderClassLoaders类调用defineClass方法"
     },
     "https://github.com/c0ny1/upload-labs": {
         "created_at": "2019-01-28 16:22:36",
@@ -21169,7 +21169,7 @@
         "commit_message": "Merge pull request #1 from worldsproject/master\n\nSmall changes to make it work on Python3"
     },
     "https://github.com/cuckoosandbox/cuckoo": {
-        "created_at": "2011-09-07 12:12:38",
+        "created_at": "2018-06-07 21:12:12",
         "description": "Cuckoo Sandbox is an automated dynamic malware analysis system",
         "release_tag": "2.0.6",
         "release_date": "2018-06-07 22:12:06",
@@ -26016,7 +26016,8 @@
         "commit_date": "2019-03-24 11:35:24",
         "created_at": "2019-02-18 15:04:10",
         "release_date": "2019-02-18 15:07:55",
-        "release_message": "Blisqy now supports fuzzing for Time-based Blind SQL Injection on HTTP Headers and the main functionalities (fuzzing and exploitation) separated to independent files for portability."
+        "release_message": "Blisqy now supports fuzzing for Time-based Blind SQL Injection on HTTP Headers and the main functionalities (fuzzing and exploitation) separated to independent files for portability.",
+        "description": "Version 0.2 - Exploit Time-based blind-SQL injection in HTTP-Headers (MySQL/MariaDB)."
     },
     "https://github.com/microsoftarchive/redis": {
         "created_at": "2016-07-01 13:21:27",
@@ -27074,7 +27075,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "172.183.39.66属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "20.51.206.98属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
