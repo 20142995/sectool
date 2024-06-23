@@ -5133,7 +5133,7 @@
         "release_message": "## Bug Fixes\r\n* #2190 -  Maintainability - Improved CI workflow\r\n* #2185 - Could not minify JavaScript file: web_ui_all\r\n## Enchancements\r\n* #2205 - Modules - Apache Tomcat Examples Default Install Exploit\r\n* #2157 -  Maintainability - Implement GitHub Actions and added confirmation step to PRs\r\n* #2190 -  Maintainability - Improved CI workflow: \r\n  * Refactor Rakefile to accommodate Browserstack implementation\r\n  * Installer improvements\r\n  * Test suite performance improvements\r\n* #2199  - Enhancement - Check for update on launch works with beef-xss kali package install\r\n\r\n**Full Changelog**: https://github.com/beefproject/beef/compare/v0.5.3.0...v0.5.4.0"
     },
     "https://github.com/MrEmpy/Mantra": {
-        "created_at": "2023-01-31 01:47:53",
+        "created_at": "2024-04-01 17:55:03",
         "description": "「🔑」A tool used to hunt down API key leaks in JS files and pages",
         "commit_date": "2024-04-15 14:53:05",
         "commit_message": "New regex",
@@ -23684,8 +23684,8 @@
     "https://github.com/sensepost/gowitness": {
         "created_at": "2023-10-29 11:00:04",
         "description": "🔍 gowitness - a golang, web screenshot utility using Chrome Headless",
-        "commit_date": "2024-04-10 03:36:01",
-        "commit_message": "Fix typos in UI templates (#219)",
+        "commit_date": "2024-06-18 07:55:06",
+        "commit_message": "(chore) bump deps and golang version",
         "release_tag": "",
         "release_date": "2023-10-29 11:11:30",
         "release_message": "## What's Changed\r\n* html a-tag unclosed bug fixed by @gorgiaxx in https://github.com/sensepost/gowitness/pull/187\r\n* Fix database file path location parser by @mr-pmillz in https://github.com/sensepost/gowitness/pull/188\r\n* fix: typo by @testwill in https://github.com/sensepost/gowitness/pull/201\r\n* (fix) MarshalJSON spells with one \"l\" by @alexandear in https://github.com/sensepost/gowitness/pull/198\r\n* Fixing the missing port issue with Nessus  by @quentinpraz in https://github.com/sensepost/gowitness/pull/191\r\n\r\n## New Contributors\r\n* @gorgiaxx made their first contribution in https://github.com/sensepost/gowitness/pull/187\r\n* @mr-pmillz made their first contribution in https://github.com/sensepost/gowitness/pull/188\r\n* @testwill made their first contribution in https://github.com/sensepost/gowitness/pull/201\r\n* @alexandear made their first contribution in https://github.com/sensepost/gowitness/pull/198\r\n* @quentinpraz made their first contribution in https://github.com/sensepost/gowitness/pull/191\r\n\r\n**Full Changelog**: https://github.com/sensepost/gowitness/compare/2.5.0...2.5.1\r\n\r\n```\r\n1edfe2209731e68621006b3cc0376d6a4b97e85e  gowitness-2.5.1-darwin-amd64\r\n3c817d57d704a3de1dcb084a59b77e684dddb154  gowitness-2.5.1-darwin-arm64\r\n19c75086ac90ae2891f24fa89d76c84748eb3d06  gowitness-2.5.1-linux-amd64\r\n105ecb560afccd5f29fe1d748c32862848f556df  gowitness-2.5.1-linux-arm64\r\ne893957658f560911864eeecec606c0cd9ea8e05  gowitness-2.5.1-linux-armv7\r\n32315a0b50ccd4e28b941a4b0121200b6625eb9e  gowitness-2.5.1-windows-amd64.exe\r\n```"
@@ -24412,8 +24412,8 @@
         "description": "魅族安全中心"
     },
     "https://sec.vip.com/": {
-        "status_code": 503,
-        "description": ""
+        "status_code": 200,
+        "description": "VSRC首页-唯品会信息安全中心"
     },
     "https://sec.wacai.com/": {
         "status_code": 200,
@@ -27075,7 +27075,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "13.91.68.95属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "172.183.77.192属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
@@ -27135,7 +27135,7 @@
     },
     "https://hunter.io/": {
         "status_code": 200,
-        "description": "Trouver des emails en quelques secondes • Hunter (Email Hunter)"
+        "description": "Find email addresses and send cold emails • Hunter"
     },
     "https://www.wenshushu.cn/": {
         "status_code": 200,
