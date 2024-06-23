@@ -5898,12 +5898,12 @@
         "release_message": ""
     },
     "https://github.com/github/codeql-cli-binaries": {
-        "created_at": "2024-05-17 16:58:57",
+        "created_at": "2024-06-12 16:58:46",
         "description": "Binaries for the CodeQL CLI",
-        "commit_message": "Merge pull request #175 from github/dbartol/changelog-2.17.3\n\nUpdate CHANGELOG.md",
-        "commit_date": "2024-05-17 16:58:57",
-        "release_date": "2024-05-17 17:01:15",
-        "release_message": "### Improvements\r\n\r\n- The language server that our IDE integration is built on now defaults to fine-grained dependency tracking for incremental error-checking after file changes. This slightly improves the latency of refreshing errors after local source code edits and will enable significant speedups in the future.\r\n- We now properly handle globs (such as `folder/**/*.py`) in `paths` configuration to specify what files to include for Python analysis (see documentation [here](https://docs.github.com/en/code-security/code-scanning/creating-an-advanced-setup-for-code-scanning/customizing-your-advanced-setup-for-code-scanning#specifying-directories-to-scan)).\r\n- TRAP import (a part of `codeql database create` and `codeql database finalize`) now supports allocating 2^32 IDs during the import process. The previous limit was 2^31 IDs.\r\n\r\nFor more information about the changes included in this release, see the [CodeQL CLI changelog](https://github.com/github/codeql-cli-binaries/blob/HEAD/CHANGELOG.md).\r\n\r\nYou can download _either_ the `codeql-PLATFORM.zip` for your platform, _or_ the generic `codeql.zip` which contains binaries for all supported platforms. Please ignore the additional \"source code\" downloads below the `.zip` artifacts.\r\n\r\nThis release is compatible with the CodeQL language packs from [`github/codeql@codeql-cli/v2.17.3`](https://github.com/github/codeql/tree/codeql-cli/v2.17.3).\r\n"
+        "commit_message": "Merge pull request #177 from github/coadaflorin/changelog-corrections-2.17.4\n\nQuick fix to the 2.17.4 changelog",
+        "commit_date": "2024-06-19 18:21:27",
+        "release_date": "2024-06-12 17:14:25",
+        "release_message": "### Breaking changes\r\n\r\n- All the commands that output SARIF will output a minified version to reduce the size.\r\n  The `codeql database analyze`, `codeql database interpret-results`, `codeql generate query-help`, and `codeql bqrs interpret` commands support the option `--no-sarif-minify` to output a pretty printed SARIF file.\r\n\r\n- A number of breaking changes have been made to the `semmle-extractor-options`\r\n  functionality available for C and C++ CodeQL tests, removing various flags that don't work well in the context of tests.\r\n  These do not affect the creation of databases through the CodeQL CLI,\r\n  or when calling the C/C++ extractor directly with the `--mimic` or `--linker` flags.\r\n\r\n### Improvements\r\n\r\n- `codeql generate log-summary` now reports completed pipeline runs that\r\n  are part of an incomplete recursive predicate.\r\n\r\n### Miscellaneous\r\n\r\n- The OWASP Java HTML Sanitizer library used by the CodeQL CLI for internal\r\n  documentation generation commands has been updated to version\r\n  [20240325.1](https://github.com/OWASP/java-html-sanitizer/releases/tag/release-20240325.1).\r\n\r\nFor more information about the changes included in this release, see the [CodeQL CLI changelog](https://github.com/github/codeql-cli-binaries/blob/HEAD/CHANGELOG.md).\r\n\r\nYou can download _either_ the `codeql-PLATFORM.zip` for your platform, _or_ the generic `codeql.zip` which contains binaries for all supported platforms. Please ignore the additional \"source code\" downloads below the `.zip` artifacts.\r\n\r\nThis release is compatible with the CodeQL language packs from [`github/codeql@codeql-cli/v2.17.5`](https://github.com/github/codeql/tree/codeql-cli/v2.17.5).\r\n"
     },
     "https://github.com/Ascotbe/HackerMind": {
         "created_at": "2019-02-21 01:03:39",
@@ -17569,8 +17569,8 @@
     "https://github.com/laramies/theHarvester": {
         "created_at": "2024-03-17 20:13:30",
         "description": "E-mails, subdomains and names Harvester - OSINT ",
-        "commit_date": "2024-05-23 21:28:27",
-        "commit_message": "Bump types-requests from 2.32.0.20240521 to 2.32.0.20240523\n\nBumps [types-requests](https://github.com/python/typeshed) from 2.32.0.20240521 to 2.32.0.20240523.\n- [Commits](https://github.com/python/typeshed/commits)\n\n---\nupdated-dependencies:\n- dependency-name: types-requests\n  dependency-type: direct:development\n  update-type: version-update:semver-patch\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>",
+        "commit_date": "2024-06-17 17:31:09",
+        "commit_message": "Merge pull request #1760 from PeterDaveHello/patch-1",
         "release_tag": "4.4.4",
         "release_date": "2024-03-17 20:20:19",
         "release_message": "## Package Maintainer Changes\r\nWe have dropped using pyppeteer and moved to using PlayWright https://playwright.dev/ for the screenshot module\r\n\r\n## Dev Changes:\r\nMoved away from isort,black and flake8 for ruff for linting and formatting as ruff can do all that and more, not to mention is crazy fast.\r\n\r\n## What's Changed\r\n* chore(deps): bump fastapi from 0.109.0 to 0.109.1 in /requirements by @dependabot in https://github.com/laramies/theHarvester/pull/1649\r\n* chore(deps): bump slowapi from 0.1.8 to 0.1.9 by @dependabot in https://github.com/laramies/theHarvester/pull/1651\r\n* chore(deps): bump fastapi from 0.109.1 to 0.109.2 by @dependabot in https://github.com/laramies/theHarvester/pull/1652\r\n* chore(deps-dev): bump pydantic from 2.5.3 to 2.6.1 by @dependabot in https://github.com/laramies/theHarvester/pull/1650\r\n* chore(deps-dev): bump pytest-asyncio from 0.23.4 to 0.23.5 by @dependabot in https://github.com/laramies/theHarvester/pull/1654\r\n* chore(deps): bump netaddr from 0.10.1 to 1.1.0 by @dependabot in https://github.com/laramies/theHarvester/pull/1659\r\n* chore(deps-dev): bump black from 24.1.1 to 24.2.0 by @dependabot in https://github.com/laramies/theHarvester/pull/1656\r\n* chore(deps): bump uvicorn from 0.27.0.post1 to 0.27.1 by @dependabot in https://github.com/laramies/theHarvester/pull/1658\r\n* chore(deps): bump setuptools from 69.0.3 to 69.1.0 by @dependabot in https://github.com/laramies/theHarvester/pull/1655\r\n* chore(deps): bump dnspython from 2.5.0 to 2.6.0 by @dependabot in https://github.com/laramies/theHarvester/pull/1661\r\n* chore(deps): bump aiosqlite from 0.19.0 to 0.20.0 by @dependabot in https://github.com/laramies/theHarvester/pull/1667\r\n* Fix ip-address parsing for IPv6 addresses by @jeffguy in https://github.com/laramies/theHarvester/pull/1670\r\n* chore(deps): bump netaddr from 1.1.0 to 1.2.1 by @dependabot in https://github.com/laramies/theHarvester/pull/1665\r\n* chore(deps): bump dnspython from 2.6.0 to 2.6.1 by @dependabot in https://github.com/laramies/theHarvester/pull/1663\r\n* chore(deps): bump setuptools from 69.1.0 to 69.1.1 by @dependabot in https://github.com/laramies/theHarvester/pull/1668\r\n* chore(deps): bump fastapi from 0.109.2 to 0.110.0 by @dependabot in https://github.com/laramies/theHarvester/pull/1671\r\n* chore(deps-dev): bump pytest from 7.4.4 to 8.0.2 by @dependabot in https://github.com/laramies/theHarvester/pull/1672\r\n* chore(deps): bump python-dateutil from 2.8.2 to 2.9.0.post0 by @dependabot in https://github.com/laramies/theHarvester/pull/1674\r\n* chore(deps): bump playwright from 1.41.2 to 1.42.0 by @dependabot in https://github.com/laramies/theHarvester/pull/1676\r\n* chore(deps-dev): bump ruff from 0.3.0 to 0.3.1 by @dependabot in https://github.com/laramies/theHarvester/pull/1677\r\n* chore(deps-dev): bump pytest from 8.0.2 to 8.1.1 by @dependabot in https://github.com/laramies/theHarvester/pull/1687\r\n* chore(deps-dev): bump types-requests from 2.31.0.6 to 2.31.0.20240311 by @dependabot in https://github.com/laramies/theHarvester/pull/1686\r\n* chore(deps-dev): bump ruff from 0.3.1 to 0.3.2 by @dependabot in https://github.com/laramies/theHarvester/pull/1682\r\n* chore(deps-dev): bump mypy from 1.8.0 to 1.9.0 by @dependabot in https://github.com/laramies/theHarvester/pull/1680\r\n* chore(deps-dev): bump types-python-dateutil from 2.8.19.20240106 to 2.8.19.20240311 by @dependabot in https://github.com/laramies/theHarvester/pull/1685\r\n* chore(deps): bump uvicorn from 0.27.1 to 0.28.0 by @dependabot in https://github.com/laramies/theHarvester/pull/1681\r\n* chore(deps-dev): bump types-pyyaml from 6.0.12.12 to 6.0.12.20240311 by @dependabot in https://github.com/laramies/theHarvester/pull/1684\r\n* chore(deps-dev): bump wheel from 0.42.0 to 0.43.0 by @dependabot in https://github.com/laramies/theHarvester/pull/1683\r\n* chore(deps-dev): bump pytest-asyncio from 0.23.5 to 0.23.5.post1 by @dependabot in https://github.com/laramies/theHarvester/pull/1679\r\n* chore(deps-dev): bump ruff from 0.3.2 to 0.3.3 by @dependabot in https://github.com/laramies/theHarvester/pull/1689\r\n* chore(deps): bump setuptools from 69.1.1 to 69.2.0 by @dependabot in https://github.com/laramies/theHarvester/pull/1688\r\n* chore(deps-dev): bump types-python-dateutil from 2.8.19.20240311 to 2.9.0.20240315 by @dependabot in https://github.com/laramies/theHarvester/pull/1690\r\n\r\n## New Contributors\r\n* @jeffguy made their first contribution in https://github.com/laramies/theHarvester/pull/1670\r\n\r\n**Full Changelog**: https://github.com/laramies/theHarvester/compare/4.5.1...4.6.0"
@@ -27075,7 +27075,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "172.183.161.194属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "13.91.68.95属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
@@ -27135,7 +27135,7 @@
     },
     "https://hunter.io/": {
         "status_code": 200,
-        "description": "Find email addresses and send cold emails • Hunter"
+        "description": "Trouver des emails en quelques secondes • Hunter (Email Hunter)"
     },
     "https://www.wenshushu.cn/": {
         "status_code": 200,
@@ -28424,7 +28424,7 @@
         "release_message": "Initial Release\n"
     },
     "https://github.com/charonlight/ZentaoExploitGUI": {
-        "created_at": "2024-04-28 12:39:52",
+        "created_at": "2024-04-28 13:39:09",
         "description": "禅道最新身份认证绕过漏洞利用工具",
         "commit_message": "Add files via upload",
         "commit_date": "2024-04-28 13:39:09",
