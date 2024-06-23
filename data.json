@@ -520,8 +520,8 @@
     "https://github.com/knownsec/404StarLink": {
         "created_at": "2020-11-17 08:10:18",
         "description": "404StarLink - 推荐优质、有意义、有趣、坚持维护的安全开源项目",
-        "commit_message": "weekly update at 2024-06-12",
-        "commit_date": "2024-06-12 02:06:14"
+        "commit_message": "weekly update at 2024-06-17",
+        "commit_date": "2024-06-17 02:58:36"
     },
     "https://github.com/gwen001/github-subdomains": {
         "created_at": "2023-02-09 13:53:02",
@@ -3222,13 +3222,13 @@
         "release_message": ""
     },
     "https://github.com/F6JO/RouteVulScan": {
-        "created_at": "2024-06-01 15:04:28",
+        "created_at": "2024-06-14 14:49:26",
         "description": "Burpsuite - Route Vulnerable Scanning 递归式被动检测脆弱路径的burp插件",
-        "commit_date": "2024-06-01 15:04:28",
-        "commit_message": "update 1.5.3",
+        "commit_date": "2024-06-14 14:49:26",
+        "commit_message": "update 1.5.4",
         "release_tag": "",
-        "release_date": "2024-06-01 15:07:44",
-        "release_message": "2024-03-07 主动请求添加自定义请求头功能，需同步打开Head按钮使用"
+        "release_date": "2024-06-14 14:55:28",
+        "release_message": "2024-06-14 修复了一个路径分割的小bug\r\n2024-06-14 修复1.5.3增加自定义head头后原主动递归扫描失效的问题"
     },
     "https://github.com/komomon/Komo": {
         "created_at": "2022-09-27 07:23:05",
@@ -3901,8 +3901,8 @@
     "https://github.com/quay/clair": {
         "created_at": "2024-05-01 16:55:34",
         "description": "Vulnerability Static Analysis for Containers",
-        "commit_message": "build(deps): bump golang.org/x/net from 0.25.0 to 0.26.0\n\nBumps [golang.org/x/net](https://github.com/golang/net) from 0.25.0 to 0.26.0.\n- [Commits](https://github.com/golang/net/compare/v0.25.0...v0.26.0)\n\n---\nupdated-dependencies:\n- dependency-name: golang.org/x/net\n  dependency-type: direct:production\n  update-type: version-update:semver-minor\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>",
-        "commit_date": "2024-06-10 23:43:12",
+        "commit_message": "chore: fix some comments\n\nSigned-off-by: zoupingshi <hellocatty@tom.com>",
+        "commit_date": "2024-06-21 17:06:19",
         "release_date": "2024-05-01 16:59:42",
         "release_message": "<a name=\"unreleased\"></a>\r\n## [Unreleased]\r\n\r\n\r\n<a name=\"v4.7.4\"></a>\r\n## [v4.7.4] - 2024-05-01\r\n\r\n### NOTE\r\n[The default layer download location has changed](https://github.com/quay/clair/blob/release-4.7/Documentation/howto/deployment.md#disk-usage-considerations)\r\n\r\n### Claircore\r\n- tarfs: follow hardlinks in `ReadFile`\r\n  <details>\r\n  This makes `fs.ReadFile` work as expected when opening hardlinks.\r\n  </details>\r\n\r\n- debian: update how \"source\" packages are handled\r\n  <details>\r\n  Previously, the Updater parsed metadata from the repository to try to\r\n  record only \"binary\" packages. This was inaccurate and, with the new\r\n  dpkg handling, now unneeded. The new approach should be more accurate.\r\n  </details>\r\n\r\n- dpkg: improve Source handling\r\n  <details>\r\n  The dpkg handling machinery now correctly records source packages and\r\n  versions. Previously, version differences between a source package and\r\n  the resulting binary package(s) were incorrect if the versions were not\r\n  identical.\r\n  </details>\r\n\r\n- libindex: add `O_TMPFILE` fallback logic\r\n  <details>\r\n  After discovering that some common deployment methods are incompatible with\r\n  using the `O_TMPFILE` `open(2)` flag, a fallback path has been added. The\r\n  changes also move the default location of where temporary files are downloaded\r\n  to, to better align with the layout recommended by systemd.\r\n  \r\n  Please see [the documentation] for specifics.\r\n  \r\n  [the documentation]: https://pkg.go.dev/github.com/quay/claircore/libindex@v1.5.\r\n  26-0.20240325212310-fedb9d327aa7#NewRemoteFetchArena\r\n  </details>\r\n\r\n- osv: parse database_specific severity when no CVSS severity is defined\r\n  <details>\r\n  Occasionally there are OSV advisories that don't include any severity\r\n  information in the `.severity` object but they do contain a severity in\r\n  the `.database_specific` object. This change attempts to parse that\r\n  severity if we don't get a severity from the native `.severity` object.\r\n  </details>\r\n\r\n### Build(Deps)\r\n- [3ebd889c](https://github.com/quay/clair/commit/3ebd889cb37603e071ba0d8fb8ba631702b13414): bump peter-evans/create-pull-request from 6.0.0 to 6.0.1\r\n- [b7566a0f](https://github.com/quay/clair/commit/b7566a0feedc5de0227a5bfd6e2921014ec68704): bump peter-evans/create-pull-request from 5.0.2 to 6.0.0\r\n- [4db2f09b](https://github.com/quay/clair/commit/4db2f09be2330e4dc9061dc2e9d44d8979b8c34d): bump actions/cache from 3 to 4\r\n- [6cef8311](https://github.com/quay/clair/commit/6cef8311255b024dd3a1fc0a70f7edf38969906c): bump actions/upload-artifact from 3 to 4\r\n- [5ed80215](https://github.com/quay/clair/commit/5ed80215fa17adb7e72ba3d9267368474afd411e): bump actions/download-artifact from 3 to 4\r\n- [c9e1f56b](https://github.com/quay/clair/commit/c9e1f56b224f25aacd5df861563006520e63297b): bump actions/setup-go from 4 to 5\r\n- [3ab3de55](https://github.com/quay/clair/commit/3ab3de558380fff38b8503de914c1b9c0611c4c8): bump actions/stale from 8 to 9\r\n- [591188f0](https://github.com/quay/clair/commit/591188f0a877b81878209be4b9185d4cb7c404f3): bump docker/setup-buildx-action from 2 to 3\r\n- [7ef6ef6b](https://github.com/quay/clair/commit/7ef6ef6b7587386b80cef9fbe7269b0083c8f039): bump docker/login-action from 2 to 3\r\n- [5597e7cc](https://github.com/quay/clair/commit/5597e7ccb94c113cc8344e8289be886049b23f63): bump docker/build-push-action from 4 to 5\r\n- [14d7f2b4](https://github.com/quay/clair/commit/14d7f2b4927fa9e4debc9005fb6dc620a6a47833): bump docker/setup-qemu-action from 2 to 3\r\n- [1204db98](https://github.com/quay/clair/commit/1204db98853cdfdce7790f3d3276d4617e4e3000): bump actions/checkout from 3 to 4\r\n### Chore\r\n- [4170798b](https://github.com/quay/clair/commit/4170798b6d464be0b8f74b1979785a17ad71dbd0): 4.7.4 changelog bump\r\n- [96dc6074](https://github.com/quay/clair/commit/96dc60748b492df1cb4af3761c9c44c10266ed09): Add merge step when creating release binaries\r\n- [a1c7eb7c](https://github.com/quay/clair/commit/a1c7eb7c8cce687e12fcc056be1acacbdc608a31): update go version for release\r\n- [6eeb9393](https://github.com/quay/clair/commit/6eeb9393b539cf49a10c42e247b833ce7e040607): update claircore to v1.5.27\r\n- [809dd5ab](https://github.com/quay/clair/commit/809dd5ab474994eb9a32599f4257437fde995064): update go version\r\n### Cicd\r\n- [e6378d03](https://github.com/quay/clair/commit/e6378d0333085a072cf73bfa32228af24b710b05): add container version skew check\r\n- [2ba3ecc0](https://github.com/quay/clair/commit/2ba3ecc0a66679dcd82f7015695db5b2a3f0c02a): update testing workflow\r\n- [ae135c49](https://github.com/quay/clair/commit/ae135c4956358d6c18109438b6e59170100787ea): don't upload workspace on failure\r\n- [7222dc88](https://github.com/quay/clair/commit/7222dc88d4fe919cc2b88e2fe7587061a881b794): change version specifiers to be major-version only\r\n### Clairctl\r\n- [2a2ba37f](https://github.com/quay/clair/commit/2a2ba37f6404e377d702e50f78bccd172b08b03f): warn when range requests are not honored\r\n### Dockerfile\r\n- [5547b96a](https://github.com/quay/clair/commit/5547b96aeff795da43fbc6e2dc8ec7b5dda7691d): remove sh loop\r\n### Docs\r\n- [3753415b](https://github.com/quay/clair/commit/3753415b4e2b6bc9b63a940b8b2101d82ab523ef): add mention of disk space path and usage\r\n### Httptransport\r\n- [c6df986f](https://github.com/quay/clair/commit/c6df986fddfe5121b6fd9dbfff0ccca35c55cb71): GET vuln report returns 404 when indexing in-progress\r\n### Initialize\r\n- [9828576a](https://github.com/quay/clair/commit/9828576af20c966e0dbe99bbac68d3e80b07baa1): use defaults for NewRemoteFetcher\r\n\r\n[Unreleased]: https://github.com/quay/clair/compare/v4.7.4...HEAD\r\n[v4.7.4]: https://github.com/quay/clair/compare/v4.7.3...v4.7.4\r\n"
     },
@@ -4527,7 +4527,7 @@
         "commit_date": "2024-04-25 23:22:49"
     },
     "https://github.com/rockbenben/ChatGPT-Shortcut": {
-        "created_at": "2023-02-24 12:53:49",
+        "created_at": "2024-05-06 09:37:59",
         "description": "🚀💪Maximize your efficiency and productivity, support for English,中文,Español,العربية. 让生产力加倍的AI快捷指令。更有效地定制、保存和分享自己的提示词。在提示词分享社区中，轻松找到适用于不同场景的指令。",
         "commit_message": "Revert \"refactor(components): comments & share\"\n\nThis reverts commit 171d5f8cec81af7594c8eea5085eb971a22bce14.",
         "commit_date": "2024-06-07 08:58:05",
@@ -7671,8 +7671,8 @@
     "https://github.com/locustio/locust": {
         "created_at": "2024-06-07 18:24:59",
         "description": "Write scalable load tests in plain Python 🚗💨",
-        "commit_message": "move note to correct place in docs",
-        "commit_date": "2024-06-16 17:51:16",
+        "commit_message": "Merge pull request #2765 from andrewbaldwin44/bugfix/2250\n\nOption to Skip Monkey Patching with LOCUST_SKIP_MONKEY_PATCH",
+        "commit_date": "2024-06-21 19:44:50",
         "release_date": "2024-06-07 18:53:11",
         "release_message": "## What's Changed\r\n* Show Reset Button when Test is Stopped by @andrewbaldwin44 in https://github.com/locustio/locust/pull/2726\r\n* Ensure spawning_complete only happens once on workers by @cyberw in https://github.com/locustio/locust/pull/2728\r\n* Improve confusing log messages if someone accidentally accesses the Web UI over HTTPS by @cyberw in https://github.com/locustio/locust/pull/2727\r\n* The time of the downloaded HTML report is not correct by @andrewbaldwin44 in https://github.com/locustio/locust/pull/2729\r\n* Use requests 2.32.2 or higher for Python 3.12 by @cyberw in https://github.com/locustio/locust/pull/2730\r\n* Docs: Upgrade Sphinx to latest version (7.3.7) by @plaindocs in https://github.com/locustio/locust/pull/2732\r\n* Docs: Fix theme by @plaindocs in https://github.com/locustio/locust/pull/2735\r\n* Docs: Fix sphinx and theme upgrade by @plaindocs in https://github.com/locustio/locust/pull/2736\r\n* Add date and zoom to charts in web UI by @andrewbaldwin44 in https://github.com/locustio/locust/pull/2731\r\n* Docs: Fix API TOC by @plaindocs in https://github.com/locustio/locust/pull/2737\r\n* Modify timestamp generation to remove deprecation warning by @JavierUhagon in https://github.com/locustio/locust/pull/2738\r\n* Add Logging to download_locustfile_from_master by @andrewbaldwin44 in https://github.com/locustio/locust/pull/2749\r\n* Mention installing Locust in Building the Docs by @plaindocs in https://github.com/locustio/locust/pull/2733\r\n* Docs: Import wiki to docs by @plaindocs in https://github.com/locustio/locust/pull/2734\r\n* Send logs from workers to master and improve log viewer tab in the Web UI by @andrewbaldwin44 in https://github.com/locustio/locust/pull/2750\r\n\r\n## New Contributors\r\n* @plaindocs made their first contribution in https://github.com/locustio/locust/pull/2732\r\n\r\n**Full Changelog**: https://github.com/locustio/locust/compare/2.28.0...2.29.0"
     },
@@ -15432,8 +15432,8 @@
     "https://github.com/containerd/containerd": {
         "created_at": "2024-06-05 02:06:10",
         "description": "An open and reliable container runtime",
-        "commit_message": "Merge pull request #10304 from AkihiroSuda/ci-add-back-rocky8\n\nCI: add back EL 8",
-        "commit_date": "2024-06-10 16:50:15",
+        "commit_message": "Merge pull request #10366 from thaJeztah/api_update_deps\n\napi: update github.com/containerd/ttrpc v1.2.5 to be aligned with containerd",
+        "commit_date": "2024-06-21 13:34:55",
         "release_date": "2024-06-05 02:34:55",
         "release_message": "Welcome to the v1.7.18 release of containerd!\n\nThe eighteenth patch release for containerd 1.7 contains various updates along\nwith an updated version of Go. Go 1.22.4 and 1.21.11 include a fix for a symlink\ntime of check to time of use race condition during directory removal.\n\n### Highlights\n\n* Update Go version to 1.21.11 ([#10298](https://github.com/containerd/containerd/pull/10298))\n* Remove uses of `platforms.Platform` alias ([#10277](https://github.com/containerd/containerd/pull/10277))\n* Migrate log imports to `github.com/containerd/log` ([#10269](https://github.com/containerd/containerd/pull/10269))\n* Migrate errdefs package to `github.com/containerd/errdefs` ([#10266](https://github.com/containerd/containerd/pull/10266))\n* Fix usage of \"unknown\" platform ([#10261](https://github.com/containerd/containerd/pull/10261))\n\nPlease try out the release binaries and report any issues at\nhttps://github.com/containerd/containerd/issues.\n\n### Contributors\n\n* Derek McGowan\n* Sebastiaan van Stijn\n* Akhil Mohan\n* Austin Vazquez\n* Phil Estes\n\n### Changes\n<details><summary>16 commits</summary>\n<p>\n\n* Prepare release notes for v1.7.18 ([#10301](https://github.com/containerd/containerd/pull/10301))\n  * [`9426aab62`](https://github.com/containerd/containerd/commit/9426aab62b6496ad93edb7e08b8655bb92d3a84b) Prepare release notes for v1.7.18\n* Update Go version to 1.21.11 ([#10298](https://github.com/containerd/containerd/pull/10298))\n  * [`cdd3ea913`](https://github.com/containerd/containerd/commit/cdd3ea913586c6e3d1098416a5cded136d761456) Update Go version to 1.21.11\n* Remove uses of `platforms.Platform` alias ([#10277](https://github.com/containerd/containerd/pull/10277))\n  * [`1e3c662d6`](https://github.com/containerd/containerd/commit/1e3c662d6c2bd0eafdcd402a32324e84d5f0498b) [release/1.7] remove uses of platforms.Platform alias\n* Migrate log imports to `github.com/containerd/log` ([#10269](https://github.com/containerd/containerd/pull/10269))\n  * [`0af6825b1`](https://github.com/containerd/containerd/commit/0af6825b1e64d56ffd72f801c4fb1224f888c367) migrate logs imports to github.com/containerd/log module\n* Migrate errdefs package to `github.com/containerd/errdefs` ([#10266](https://github.com/containerd/containerd/pull/10266))\n  * [`308341a44`](https://github.com/containerd/containerd/commit/308341a4464bd723630d3df19a5df20aa252af9f) replace uses of github.com/containerd/containerd/errdefs\n  * [`47ff8cfce`](https://github.com/containerd/containerd/commit/47ff8cfce0768d4f4c98ad05bd72e8f9ad8dfb5c) migrate errdefs package to github.com/containerd/errdefs module\n* Fix usage of \"unknown\" platform ([#10261](https://github.com/containerd/containerd/pull/10261))\n  * [`f4d11912a`](https://github.com/containerd/containerd/commit/f4d11912a77c1e15db200aed7481d45bd12b5eb1) core/image: fix usage of \"unknown\" platform\n* Explicitly set release latest to true ([#10265](https://github.com/containerd/containerd/pull/10265))\n  * [`5b0480009`](https://github.com/containerd/containerd/commit/5b0480009c5f4ee1f8a80cbe7aae22642867ee25) Explicitly set release latest to true\n  * [`d669b100d`](https://github.com/containerd/containerd/commit/d669b100d5337150d7f9a170de55ac7d2d7ec24c) build(deps): bump softprops/action-gh-release from 1 to 2\n</p>\n</details>\n\n### Changes from containerd/errdefs\n<details><summary>6 commits</summary>\n<p>\n\n* Add common files ([containerd/errdefs#1](https://github.com/containerd/errdefs/pull/1))\n  * [`78f3494`](https://github.com/containerd/errdefs/commit/78f3494a77384f066cd3457e1dfa1bda180f180d) Add Github actions configuration\n  * [`46f1770`](https://github.com/containerd/errdefs/commit/46f1770bd5e80699a13fa107e0d5b195d1db9db4) Add go.mod configuration\n  * [`959121a`](https://github.com/containerd/errdefs/commit/959121a299905905fed65b533f72a7ee36786301) Add README.md\n* Add LICENSE ([containerd/errdefs#2](https://github.com/containerd/errdefs/pull/2))\n  * [`33a2275`](https://github.com/containerd/errdefs/commit/33a2275efb9a92237b9a8e7f41c31672f3293ccb) Add LICENSE\n</p>\n</details>\n\n### Dependency Changes\n\n* **github.com/containerd/errdefs**              v0.1.0 **_new_**\n* **google.golang.org/genproto**                 b8732ec3820d -> e6e6cdab5c13\n* **google.golang.org/genproto/googleapis/api**  b8732ec3820d -> 007df8e322eb\n* **google.golang.org/genproto/googleapis/rpc**  b8732ec3820d -> d307bd883b97\n\nPrevious release can be found at [v1.7.17](https://github.com/containerd/containerd/releases/tag/v1.7.17)\n"
     },
@@ -16081,11 +16081,11 @@
     "https://github.com/projectdiscovery/nuclei-templates": {
         "created_at": "2024-06-09 19:45:54",
         "description": "Community curated list of templates for the nuclei engine to find security vulnerabilities.",
-        "commit_date": "2024-06-09 22:15:36",
-        "commit_message": "Auto Template Signing [Sun Jun  9 22:15:35 UTC 2024] :robot:",
+        "commit_date": "2024-06-23 00:21:12",
+        "commit_message": "Auto WordPress Plugins Update [Sun Jun 23 00:21:12 UTC 2024] :robot:",
         "release_tag": "v9.6.9",
         "release_date": "2024-06-09 19:53:52",
-        "release_message": "### 🔥 Release Highlights 🔥\r\n\r\n[CVE-2024-4577] PHP CGI - Argument Injection (@Hüseyin TINTAŞ, @sw0rk17, @securityforeveryone, @pdresearch) [critical]\r\n\r\n## What's Changed\r\n* Lorex Favicon Hash by @rxerium in https://github.com/projectdiscovery/nuclei-templates/pull/10001\r\n* add cve-2024-4577 by @Kazgangap in https://github.com/projectdiscovery/nuclei-templates/pull/9997\r\n\r\n\r\n**Full Changelog**: https://github.com/projectdiscovery/nuclei-templates/compare/v9.8.8...v9.8.9"
+        "release_message": "### 🔥 Release Highlights 🔥\r\n\r\n[CVE-2024-4577] PHP CGI - Argument Injection (@Hüseyin TINTAŞ, @sw0rk17, @s4e-garage, @pdresearch) [critical]\r\n\r\n## What's Changed\r\n* Lorex Favicon Hash by @rxerium in https://github.com/projectdiscovery/nuclei-templates/pull/10001\r\n* add cve-2024-4577 by @Kazgangap in https://github.com/projectdiscovery/nuclei-templates/pull/9997\r\n\r\n\r\n**Full Changelog**: https://github.com/projectdiscovery/nuclei-templates/compare/v9.8.8...v9.8.9"
     },
     "https://github.com/trustedsec/trevorc2": {
         "created_at": "2017-10-27 15:59:28",
@@ -22442,8 +22442,8 @@
     "https://github.com/GZTimeWalker/GZCTF": {
         "created_at": "2024-06-13 20:46:06",
         "description": "The GZ::CTF project, an open source CTF platform.",
-        "commit_message": "fix(frontend): overflow for challenge modal, again",
-        "commit_date": "2024-06-14 16:28:15",
+        "commit_message": "fix: remove captcha key on boot (#306)",
+        "commit_date": "2024-06-20 14:33:48",
         "release_date": "2024-06-13 20:48:10",
         "release_message": "## [0.20.8](https://github.com/GZTimeWalker/GZCTF/compare/v0.20.7..v0.20.8) - 2024-06-13\r\n\r\n### ⛰️ Features\r\n\r\n- **(frontend)** upgrade marked to v13 with custom extension - ([43f908](https://github.com/GZTimeWalker/GZCTF/commit/43f908)) by **GZTime**\r\n\r\n### 🐛 Bug Fixes\r\n\r\n- **(frontend)** unexpected indentation in markdown render (#304) - ([0861e7](https://github.com/GZTimeWalker/GZCTF/commit/0861e7)) by **埃拉**\r\n- **(game)** access to disabled challenges - ([440e15](https://github.com/GZTimeWalker/GZCTF/commit/440e15)) by **GZTime**\r\n- overflow for some challenges - ([6b44ef](https://github.com/GZTimeWalker/GZCTF/commit/6b44ef)) by **GZTime**\r\n\r\n---\r\n\r\n**Changelog**: https://github.com/GZTimeWalker/GZCTF/blob/HEAD/CHANGELOG.md\r\n**Commits**: https://github.com/GZTimeWalker/GZCTF/compare/v0.20.7...v0.20.8"
     },
@@ -24412,8 +24412,8 @@
         "description": "魅族安全中心"
     },
     "https://sec.vip.com/": {
-        "status_code": 200,
-        "description": "VSRC首页-唯品会信息安全中心"
+        "status_code": 503,
+        "description": ""
     },
     "https://sec.wacai.com/": {
         "status_code": 200,
@@ -27075,7 +27075,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "20.51.206.98属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "172.183.161.194属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
@@ -27094,8 +27094,8 @@
         "description": "Reverse IP Lookup - All Names Hosted at an IP - DomainTools"
     },
     "https://www.webscan.cc/": {
-        "status_code": 200,
-        "description": "同IP网站查询,C段查询,IP反查域名,在线C段,旁站工具 - WebScan"
+        "status_code": 522,
+        "description": "www.webscan.cc | 522: Connection timed out"
     },
     "https://gofile.io/": {
         "status_code": 200,
