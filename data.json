@@ -149,12 +149,12 @@
         "release_message": ""
     },
     "https://github.com/whwlsfb/JDumpSpider": {
-        "created_at": "2022-01-05 07:30:39",
+        "created_at": "2024-03-08 05:32:04",
         "description": "HeapDump敏感信息提取工具",
-        "commit_date": "2023-04-06 03:11:35",
-        "commit_message": "add export path arg.\nadd all string export spider.",
+        "commit_date": "2024-03-08 05:32:04",
+        "commit_message": "update.",
         "release_tag": "dev-20230406T031230",
-        "release_date": "2023-04-06 03:12:32",
+        "release_date": "2024-03-08 05:32:44",
         "release_message": ""
     },
     "https://github.com/XTeam-Wing/Vulcan": {
@@ -235,7 +235,7 @@
         "release_message": "## 更新内容\r\n\r\n1. 修复Databoard长时间查询界面错乱问题；\r\n2. 修复Databoard在Windows下复制截断问题；\r\n3. 修复Databoard查询数据数量随机问题；\r\n4. 优化Databoard清空数据逻辑；\r\n5. 优化HTTP消息处理逻辑。\r\n\r\n## 致谢信息\r\n\r\n1. 感谢1wtbb及时反馈问题并协助测试。"
     },
     "https://github.com/kelvinBen/AppInfoScanner": {
-        "created_at": "2020-07-22 01:19:17",
+        "created_at": "2022-10-23 08:30:23",
         "description": "一款适用于以HW行动/红队/渗透测试团队为场景的移动端(Android、iOS、WEB、H5、静态网站)信息收集扫描工具，可以帮助渗透测试工程师、攻击队成员、红队成员快速收集到移动端或者静态WEB站点中关键的资产信息并提供基本的信息输出,如：Title、Domain、CDN、指纹信息、状态信息等。",
         "commit_date": "2022-12-18 11:33:34",
         "commit_message": "Merge pull request #30 from kelvinBen/v1.0.9.1\n\nadd \"识别到壳后自动进行脱壳处理\"",
@@ -2039,7 +2039,7 @@
         "release_message": "1：加入了WAF、CDN、ip归属地识别，进行自动跳过，节约了扫描时间\r\n2：加入了异步socket常规端口探测功能、nmap探测功能、防止shodan探测不完整\r\n3：数据表进行了关联，新增且优化了web页面设计\r\n4：爬虫采集到的子域名再次入库，URL探测支持二级目录扫描\r\n5：子域名、端口扫描、URL扫描、爬虫模块整合到一个项目以便关联\r\n6：修复了一些bug\r\n\r\n请git clone下载，release版本为旧版本"
     },
     "https://github.com/nccgroup/BurpSuiteHTTPSmuggler": {
-        "created_at": "2018-07-03 07:47:58",
+        "created_at": "2018-07-04 08:39:50",
         "description": "A Burp Suite extension to help pentesters to bypass WAFs or test their effectiveness using a number of techniques",
         "commit_date": "2019-05-04 06:15:41",
         "commit_message": "Update README.md",
@@ -2385,8 +2385,8 @@
         "release_message": ""
     },
     "https://github.com/chaitin/rad": {
-        "created_at": "2020-08-12 01:55:30",
-        "description": "",
+        "created_at": "2021-04-30 12:14:50",
+        "description": null,
         "commit_date": "2021-04-30 12:14:50",
         "commit_message": "Update README.md",
         "release_tag": "1.0",
@@ -2980,8 +2980,8 @@
     "https://github.com/arthaud/git-dumper": {
         "created_at": "2017-03-31 03:39:53",
         "description": "A tool to dump a git repository from a website",
-        "commit_date": "2022-05-07 04:39:31",
-        "commit_message": "Support more recent version of dulwich (thanks to #33)",
+        "commit_date": "2024-03-17 19:47:44",
+        "commit_message": "Fix syntax error in git_dumper.py script\n\nCorrected syntax error in the environment variable assignment\nto resolve the unmatched '[' in the f-string.",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -5267,7 +5267,7 @@
         "release_message": "首个可用版本"
     },
     "https://github.com/Goqi/Erfrp": {
-        "created_at": "2022-04-18 00:16:59",
+        "created_at": "2022-11-18 00:55:07",
         "description": "Erfrp-frp二开-免杀与隐藏",
         "commit_date": "2022-12-04 10:46:57",
         "commit_message": "Update",
@@ -13825,13 +13825,13 @@
         "release_message": ""
     },
     "https://github.com/s0md3v/Arjun": {
-        "created_at": "2018-03-01 13:44:06",
+        "created_at": "2024-04-13 04:57:04",
         "description": "HTTP parameter discovery suite.",
-        "commit_date": "2022-12-23 06:14:37",
-        "commit_message": "Update LICENSE",
+        "commit_date": "2024-06-05 18:01:34",
+        "commit_message": "Merge pull request #212 from jojonas/empty_factors\n\nFix a bug with empty factors",
         "release_tag": "2.2.1",
-        "release_date": "2022-09-11 11:41:06",
-        "release_message": "- hotfix for a breaking bug"
+        "release_date": "2024-04-13 04:59:36",
+        "release_message": "- Fixed arjun getting stuck infinitely on some URLs"
     },
     "https://github.com/0nise/CVE-2020-1938": {
         "created_at": "",
@@ -22404,7 +22404,7 @@
         "release_message": ""
     },
     "https://github.com/b1ackc4t/MarsCTF": {
-        "created_at": "2022-08-09 09:56:56",
+        "created_at": "2022-06-05 11:32:47",
         "description": "Vue+Springboot开发的CTF学习平台，提供动态靶机、学习模块、writeup模块等等CTF平台的核心功能。提供docker版本",
         "commit_date": "2022-08-09 12:20:31",
         "commit_message": "调整一些默认配置",
@@ -23214,7 +23214,7 @@
         "commit_date": "2024-05-13 07:23:29"
     },
     "https://github.com/gyxuehu/EwoMail": {
-        "created_at": "2017-03-23 16:09:51",
+        "created_at": "2021-08-31 13:32:49",
         "description": "EwoMail是基于Linux的企业邮箱服务器，集成了众多优秀稳定的组件，是一个快速部署、简单高效、多语言、安全稳定的邮件解决方案",
         "commit_date": "2021-09-24 08:29:58",
         "commit_message": "完善配置",
@@ -24412,8 +24412,8 @@
         "description": "魅族安全中心"
     },
     "https://sec.vip.com/": {
-        "status_code": 503,
-        "description": ""
+        "status_code": 200,
+        "description": "VSRC首页-唯品会信息安全中心"
     },
     "https://sec.wacai.com/": {
         "status_code": 200,
@@ -27075,7 +27075,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "52.159.136.151属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "172.183.147.113属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
@@ -27310,8 +27310,8 @@
         "description": "Free Whois Lookup - Whois IP Search & Whois Domain Lookup | Whois.com"
     },
     "https://i.hacking8.com/tiquan": {
-        "status_code": 500,
-        "description": "Internal Server Error"
+        "status_code": 502,
+        "description": "502 Bad Gateway"
     },
     "https://dnsdb.io/": {
         "status_code": 526,
