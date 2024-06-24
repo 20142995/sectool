@@ -4809,7 +4809,7 @@
         "release_message": ""
     },
     "https://github.com/babysor/MockingBird": {
-        "created_at": "2021-08-07 03:53:39",
+        "created_at": "2021-10-23 02:25:43",
         "description": "🚀AI拟声: 5秒内克隆您的声音并生成任意语音内容 Clone a voice in 5 seconds to generate arbitrary speech in real-time",
         "commit_date": "2023-09-05 15:15:04",
         "commit_message": "Skip embedding (#950)\n\n* Skip embedding\r\n\r\n* Skip earlier\r\n\r\n* Remove unused paramater\r\n\r\n* Pass param",
@@ -19214,8 +19214,8 @@
     "https://github.com/bitsadmin/wesng": {
         "created_at": "2019-03-02 15:25:40",
         "description": "Windows Exploit Suggester - Next Generation",
-        "commit_date": "2023-11-10 18:52:14",
-        "commit_message": "Updated 20231110",
+        "commit_date": "2024-06-23 12:13:09",
+        "commit_message": "Updated 20240623",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -27075,7 +27075,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "172.183.115.226属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "20.172.28.129属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
@@ -27110,8 +27110,8 @@
         "description": "Subdomain - RapidDNS Rapid DNS Information Collection"
     },
     "http://wooyun.2xss.cc/index.php": {
-        "status_code": 502,
-        "description": "502 Bad Gateway"
+        "status_code": 200,
+        "description": "乌云网镜像丨乌云知识库丨Wooyun镜像丨乌云漏洞平台"
     },
     "http://tools.sbbbb.cn/tiquan/": {
         "status_code": 200,
@@ -27310,8 +27310,8 @@
         "description": "Free Whois Lookup - Whois IP Search & Whois Domain Lookup | Whois.com"
     },
     "https://i.hacking8.com/tiquan": {
-        "status_code": 502,
-        "description": "502 Bad Gateway"
+        "status_code": 404,
+        "description": "404 Not Found"
     },
     "https://dnsdb.io/": {
         "status_code": 526,
