@@ -2943,7 +2943,7 @@
         "release_message": "# 更新说明\r\n1. 新增越权漏洞案例，包含水平、垂直越权。\r\n2. 增加XSS过滤难度\r\n3. 增加SPEL和SSTI结果输出\r\n4. 新增压缩文件自解压案例\r\n\r\n# TODO\r\n- [x] 越权漏洞\r\n\r\n# 如何更新\r\n1. 将 ElectricRat-docker.zip 中的 ElectricRat.war 覆盖之前的 war 包。\r\n2. 重启 docker。`sudo docker restart electricrat-web`\r\n3. 稍等片刻后，访问 `http://127.0.0.1:12666/ElectricRat/` "
     },
     "https://github.com/knownsec/shellcodeloader": {
-        "created_at": "2020-11-25 05:52:11",
+        "created_at": "2020-12-01 05:43:45",
         "description": "shellcodeloader",
         "commit_date": "2020-12-02 05:51:58",
         "commit_message": "Update Readme.md",
@@ -24412,8 +24412,8 @@
         "description": "魅族安全中心"
     },
     "https://sec.vip.com/": {
-        "status_code": 200,
-        "description": "VSRC首页-唯品会信息安全中心"
+        "status_code": 503,
+        "description": ""
     },
     "https://sec.wacai.com/": {
         "status_code": 200,
@@ -27075,7 +27075,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "52.225.77.103属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "20.102.46.225属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
@@ -27549,7 +27549,7 @@
     },
     "http://www.66zan.cn/desencrypt/": {
         "status_code": 200,
-        "description": ""
+        "description": "在线DES加密,DES解密工具-在线工具箱"
     },
     "http://www.66zan.cn/rabbitencrypt/": {
         "status_code": 200,
