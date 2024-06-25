@@ -2218,12 +2218,12 @@
         "release_message": ""
     },
     "https://github.com/epi052/feroxbuster": {
-        "created_at": "2024-04-27 00:18:37",
+        "created_at": "2024-06-16 19:56:56",
         "description": "A fast, simple, recursive content discovery tool written in Rust.",
-        "commit_message": "docs: add soutzis as a contributor for bug (#1133)\n\n* docs: update README.md [skip ci]\r\n\r\n* docs: update .all-contributorsrc [skip ci]\r\n\r\n---------\r\n\r\nCo-authored-by: allcontributors[bot] <46447321+allcontributors[bot]@users.noreply.github.com>",
-        "commit_date": "2024-04-27 00:18:37",
-        "release_date": "2024-04-27 11:08:21",
-        "release_message": "## What's Changed\r\n* 1105 - improve json logs for post processing by @epi052 in https://github.com/epi052/feroxbuster/pull/1114\r\n* 1097 - included configuration field in state file by @epi052 in https://github.com/epi052/feroxbuster/pull/1114\r\n* 1118 - using --data implies POST HTTP verb by @epi052 in https://github.com/epi052/feroxbuster/pull/1114\r\n* 1122 - fixed mishandling of whitespace for supplied request headers by @epi052 in https://github.com/epi052/feroxbuster/pull/1114\r\n\r\n**Full Changelog**: https://github.com/epi052/feroxbuster/compare/v2.10.2...v2.10.3"
+        "commit_message": "url now conflicts with parallel (#1174)",
+        "commit_date": "2024-06-19 13:34:45",
+        "release_date": "2024-06-16 20:03:28",
+        "release_message": "## What's Changed\r\n* `--filter-regex` now looks at headers in addition to response body by @epi052 in https://github.com/epi052/feroxbuster/pull/1142\r\n* clarified wording for headers in `ferox-config.toml` by @JulianGR in https://github.com/epi052/feroxbuster/pull/1152\r\n* added winget releaser workflow by @sitiom in https://github.com/epi052/feroxbuster/pull/1155\r\n* scan management menu now shows the estimated time left to scan by @epi052 in https://github.com/epi052/feroxbuster/pull/1142\r\n* made `--cookies` parsing more robust by @epi052 in https://github.com/epi052/feroxbuster/pull/1142\r\n* added ARM build for mac (`aarch64-macos`) to releases by @epi052 in https://github.com/epi052/feroxbuster/pull/1142\r\n* fixed an issue where estimated time to complete would show `0s` before the scan was finished by @epi052 in https://github.com/epi052/feroxbuster/pull/1142  \r\n\r\n## New Contributors\r\n* @JulianGR made their first contribution in https://github.com/epi052/feroxbuster/pull/1152\r\n* @sitiom made their first contribution in https://github.com/epi052/feroxbuster/pull/1155\r\n\r\n## Special thanks :pray: \r\n\r\nThe following folks submitted bugs, PRs, and feature requests (in no particular order). They're the real MVPs.\r\n\r\n* @JulianGR \r\n* @L1-0\r\n* @sitiom \r\n* @wikamp-collaborator\r\n* @sa7mon\r\n* @swordfish0x0\r\n\r\n**Full Changelog**: https://github.com/epi052/feroxbuster/compare/v2.10.3...v2.10.4"
     },
     "https://github.com/dzxs/Xdecrypt": {
         "created_at": "2017-12-08 08:52:14",
@@ -5067,8 +5067,8 @@
     "https://github.com/FreeRDP/FreeRDP": {
         "created_at": "2024-04-22 09:18:53",
         "description": "FreeRDP is a free remote desktop protocol library and clients",
-        "commit_message": "Merge pull request #10213 from akallabeth/thread-prio\n\nThread prio",
-        "commit_date": "2024-05-24 14:02:49",
+        "commit_message": "Merge pull request #10299 from akallabeth/tzid-fix\n\nTzid fix",
+        "commit_date": "2024-06-24 13:04:48",
         "release_date": "2024-04-22 09:26:39",
         "release_message": "This release eliminates a bunch of issues detected during oss-fuzz runs.\r\nThe test coverage was increased and detected issues eliminates, so an update\r\nis highly recommended.\r\n\r\nNoteworthy changes:\r\n* Lots of fixes for oss-fuzz reports\r\n* Timezone detection fixes (#10106)\r\n* SDL key remapping support (#10103)\r\n* Improved help (#10099)\r\n* FreeBSD epoll detection fix (#10097)"
     },
@@ -24412,8 +24412,8 @@
         "description": "魅族安全中心"
     },
     "https://sec.vip.com/": {
-        "status_code": 503,
-        "description": ""
+        "status_code": 200,
+        "description": "VSRC首页-唯品会信息安全中心"
     },
     "https://sec.wacai.com/": {
         "status_code": 200,
@@ -27075,7 +27075,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "74.249.13.190属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "20.55.214.167属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
@@ -27282,8 +27282,8 @@
         "description": "Whois域名注册信息查询"
     },
     "http://hunter.qianxin.com/": {
-        "status_code": 200,
-        "description": "鹰图平台"
+        "status_code": 502,
+        "description": "Error"
     },
     "https://whois.aliyun.com/": {
         "status_code": 200,
