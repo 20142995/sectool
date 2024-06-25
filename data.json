@@ -520,8 +520,8 @@
     "https://github.com/knownsec/404StarLink": {
         "created_at": "2020-11-17 08:10:18",
         "description": "404StarLink - 推荐优质、有意义、有趣、坚持维护的安全开源项目",
-        "commit_message": "weekly update at 2024-06-17",
-        "commit_date": "2024-06-17 02:58:36"
+        "commit_message": "weekly update at 2024-06-24",
+        "commit_date": "2024-06-24 02:24:55"
     },
     "https://github.com/gwen001/github-subdomains": {
         "created_at": "2023-02-09 13:53:02",
@@ -2195,7 +2195,7 @@
         "created_at": "2024-01-31 00:46:17",
         "description": "一个漏洞POC知识库 目前数量 1000+",
         "commit_message": "update",
-        "commit_date": "2024-05-29 03:28:28",
+        "commit_date": "2024-06-13 03:36:23",
         "release_date": "2024-03-27 14:28:44",
         "release_message": "2023.04.01 重构目录，合并 [Vulhub-Reproduce](https://github.com/Threekiii/Vulhub-Reproduce) 与本仓库。此为合并前 release。"
     },
@@ -2666,12 +2666,12 @@
         "release_message": ""
     },
     "https://github.com/madneal/gshark": {
-        "created_at": "2024-03-23 10:23:15",
+        "created_at": "2024-05-19 07:24:32",
         "description": "Scan for sensitive information easily and effectively.",
-        "commit_message": "Update README.md",
-        "commit_date": "2024-06-14 15:54:25",
-        "release_date": "2024-03-23 10:42:35",
-        "release_message": "## Fixed\r\n\r\n* 修复数据库初始化的问题\r\n* 修复 Postman 搜索结果格式\r\n* 前端组件安全升级"
+        "commit_message": "Merge pull request #208 from madneal/dependabot/npm_and_yarn/web/braces-3.0.3\n\nBump braces from 3.0.2 to 3.0.3 in /web",
+        "commit_date": "2024-06-21 13:47:42",
+        "release_date": "2024-06-22 04:21:47",
+        "release_message": "## Fixed\r\n\r\n* 组件依赖升级\r\n* 修复 API 列表排序问题\r\n* 移除任务列表"
     },
     "https://github.com/kozmer/log4j-shell-poc": {
         "created_at": "2021-12-10 23:19:28",
@@ -3901,8 +3901,8 @@
     "https://github.com/quay/clair": {
         "created_at": "2024-05-01 16:55:34",
         "description": "Vulnerability Static Analysis for Containers",
-        "commit_message": "chore: fix some comments\n\nSigned-off-by: zoupingshi <hellocatty@tom.com>",
-        "commit_date": "2024-06-21 17:06:19",
+        "commit_message": "Dockerfile: add `GOTOOLCHAIN`\n\nChanges in go1.21 means the build recipe here was doing the wrong thing.\nThis should restore the expected behavior of using the toolchain present\nin the container.\n\nSigned-off-by: Hank Donnay <hdonnay@redhat.com>",
+        "commit_date": "2024-06-24 19:52:56",
         "release_date": "2024-05-01 16:59:42",
         "release_message": "<a name=\"unreleased\"></a>\r\n## [Unreleased]\r\n\r\n\r\n<a name=\"v4.7.4\"></a>\r\n## [v4.7.4] - 2024-05-01\r\n\r\n### NOTE\r\n[The default layer download location has changed](https://github.com/quay/clair/blob/release-4.7/Documentation/howto/deployment.md#disk-usage-considerations)\r\n\r\n### Claircore\r\n- tarfs: follow hardlinks in `ReadFile`\r\n  <details>\r\n  This makes `fs.ReadFile` work as expected when opening hardlinks.\r\n  </details>\r\n\r\n- debian: update how \"source\" packages are handled\r\n  <details>\r\n  Previously, the Updater parsed metadata from the repository to try to\r\n  record only \"binary\" packages. This was inaccurate and, with the new\r\n  dpkg handling, now unneeded. The new approach should be more accurate.\r\n  </details>\r\n\r\n- dpkg: improve Source handling\r\n  <details>\r\n  The dpkg handling machinery now correctly records source packages and\r\n  versions. Previously, version differences between a source package and\r\n  the resulting binary package(s) were incorrect if the versions were not\r\n  identical.\r\n  </details>\r\n\r\n- libindex: add `O_TMPFILE` fallback logic\r\n  <details>\r\n  After discovering that some common deployment methods are incompatible with\r\n  using the `O_TMPFILE` `open(2)` flag, a fallback path has been added. The\r\n  changes also move the default location of where temporary files are downloaded\r\n  to, to better align with the layout recommended by systemd.\r\n  \r\n  Please see [the documentation] for specifics.\r\n  \r\n  [the documentation]: https://pkg.go.dev/github.com/quay/claircore/libindex@v1.5.\r\n  26-0.20240325212310-fedb9d327aa7#NewRemoteFetchArena\r\n  </details>\r\n\r\n- osv: parse database_specific severity when no CVSS severity is defined\r\n  <details>\r\n  Occasionally there are OSV advisories that don't include any severity\r\n  information in the `.severity` object but they do contain a severity in\r\n  the `.database_specific` object. This change attempts to parse that\r\n  severity if we don't get a severity from the native `.severity` object.\r\n  </details>\r\n\r\n### Build(Deps)\r\n- [3ebd889c](https://github.com/quay/clair/commit/3ebd889cb37603e071ba0d8fb8ba631702b13414): bump peter-evans/create-pull-request from 6.0.0 to 6.0.1\r\n- [b7566a0f](https://github.com/quay/clair/commit/b7566a0feedc5de0227a5bfd6e2921014ec68704): bump peter-evans/create-pull-request from 5.0.2 to 6.0.0\r\n- [4db2f09b](https://github.com/quay/clair/commit/4db2f09be2330e4dc9061dc2e9d44d8979b8c34d): bump actions/cache from 3 to 4\r\n- [6cef8311](https://github.com/quay/clair/commit/6cef8311255b024dd3a1fc0a70f7edf38969906c): bump actions/upload-artifact from 3 to 4\r\n- [5ed80215](https://github.com/quay/clair/commit/5ed80215fa17adb7e72ba3d9267368474afd411e): bump actions/download-artifact from 3 to 4\r\n- [c9e1f56b](https://github.com/quay/clair/commit/c9e1f56b224f25aacd5df861563006520e63297b): bump actions/setup-go from 4 to 5\r\n- [3ab3de55](https://github.com/quay/clair/commit/3ab3de558380fff38b8503de914c1b9c0611c4c8): bump actions/stale from 8 to 9\r\n- [591188f0](https://github.com/quay/clair/commit/591188f0a877b81878209be4b9185d4cb7c404f3): bump docker/setup-buildx-action from 2 to 3\r\n- [7ef6ef6b](https://github.com/quay/clair/commit/7ef6ef6b7587386b80cef9fbe7269b0083c8f039): bump docker/login-action from 2 to 3\r\n- [5597e7cc](https://github.com/quay/clair/commit/5597e7ccb94c113cc8344e8289be886049b23f63): bump docker/build-push-action from 4 to 5\r\n- [14d7f2b4](https://github.com/quay/clair/commit/14d7f2b4927fa9e4debc9005fb6dc620a6a47833): bump docker/setup-qemu-action from 2 to 3\r\n- [1204db98](https://github.com/quay/clair/commit/1204db98853cdfdce7790f3d3276d4617e4e3000): bump actions/checkout from 3 to 4\r\n### Chore\r\n- [4170798b](https://github.com/quay/clair/commit/4170798b6d464be0b8f74b1979785a17ad71dbd0): 4.7.4 changelog bump\r\n- [96dc6074](https://github.com/quay/clair/commit/96dc60748b492df1cb4af3761c9c44c10266ed09): Add merge step when creating release binaries\r\n- [a1c7eb7c](https://github.com/quay/clair/commit/a1c7eb7c8cce687e12fcc056be1acacbdc608a31): update go version for release\r\n- [6eeb9393](https://github.com/quay/clair/commit/6eeb9393b539cf49a10c42e247b833ce7e040607): update claircore to v1.5.27\r\n- [809dd5ab](https://github.com/quay/clair/commit/809dd5ab474994eb9a32599f4257437fde995064): update go version\r\n### Cicd\r\n- [e6378d03](https://github.com/quay/clair/commit/e6378d0333085a072cf73bfa32228af24b710b05): add container version skew check\r\n- [2ba3ecc0](https://github.com/quay/clair/commit/2ba3ecc0a66679dcd82f7015695db5b2a3f0c02a): update testing workflow\r\n- [ae135c49](https://github.com/quay/clair/commit/ae135c4956358d6c18109438b6e59170100787ea): don't upload workspace on failure\r\n- [7222dc88](https://github.com/quay/clair/commit/7222dc88d4fe919cc2b88e2fe7587061a881b794): change version specifiers to be major-version only\r\n### Clairctl\r\n- [2a2ba37f](https://github.com/quay/clair/commit/2a2ba37f6404e377d702e50f78bccd172b08b03f): warn when range requests are not honored\r\n### Dockerfile\r\n- [5547b96a](https://github.com/quay/clair/commit/5547b96aeff795da43fbc6e2dc8ec7b5dda7691d): remove sh loop\r\n### Docs\r\n- [3753415b](https://github.com/quay/clair/commit/3753415b4e2b6bc9b63a940b8b2101d82ab523ef): add mention of disk space path and usage\r\n### Httptransport\r\n- [c6df986f](https://github.com/quay/clair/commit/c6df986fddfe5121b6fd9dbfff0ccca35c55cb71): GET vuln report returns 404 when indexing in-progress\r\n### Initialize\r\n- [9828576a](https://github.com/quay/clair/commit/9828576af20c966e0dbe99bbac68d3e80b07baa1): use defaults for NewRemoteFetcher\r\n\r\n[Unreleased]: https://github.com/quay/clair/compare/v4.7.4...HEAD\r\n[v4.7.4]: https://github.com/quay/clair/compare/v4.7.3...v4.7.4\r\n"
     },
@@ -17740,8 +17740,8 @@
     "https://github.com/commixproject/commix": {
         "created_at": "2024-01-19 06:40:42",
         "description": "Automated All-in-One OS Command Injection Exploitation Tool.",
-        "commit_date": "2024-06-11 04:22:42",
-        "commit_message": "Minor code refactoring",
+        "commit_date": "2024-06-24 05:47:19",
+        "commit_message": "Code refactoring",
         "release_tag": "v3.8",
         "release_date": "2024-01-19 06:44:15",
         "release_message": "* Fixed: Multiple bug-fixes regarding several reported unhandled exceptions.\r\n* Revised: Minor improvement regarding logging user-supplied command(s) (i.e. `--os-cmd` option) to a file.\r\n* Revised: Improvement regarding parsing HTTP requests through Tor HTTP proxy (i.e. `--tor` switch).\r\n* Added: New (hidden) option `--ignore-stdin` regarding ignoring STDIN input. (via @n00b-bot)\r\n* Revised: Minor improvement regarding successfully completing the scanning process (i.e. in case that parameters with anti-CSRF tokens are omitted). (via @xerxoria)\r\n* Revised: Minor improvement regarding Windows-based payloads for semiblind (i.e. \"file-based\") technique (i.e. command execution output).\r\n* Revised: Minor improvement in semiblind (i.e. \"file-based\") technique, regarding defining the URL where the execution output of an injected payload is shown.\r\n* Added: New switch `--ignore-proxy` to ignore the system default HTTP proxy.\r\n* Revised: Minor improvement regarding parsing HTTP requests through HTTP proxy (i.e. `--proxy` option).\r\n* Added: New switch `--smart` for conducting through tests only in case of positive heuristic(s).\r\n* Added: Translation for [README.md](https://github.com/commixproject/commix/blob/master/doc/translations/README-tr-TR.md) in Turkish. (via @Kazgangap)\r\n* Revised: Minor improvement regarding parsing SOAP/XML POST data.\r\n\r\n_Note: For more check the [detailed changeset](https://github.com/commixproject/commix/compare/v3.8...v3.9)._"
@@ -22798,8 +22798,8 @@
     "https://github.com/81NewArk/StupidOCR": {
         "created_at": "2023-01-18 14:25:36",
         "description": "验证码识别",
-        "commit_date": "2024-05-30 03:08:21",
-        "commit_message": "Update StupidOCR.py",
+        "commit_date": "2024-06-09 12:23:44",
+        "commit_message": "Delete assets",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -23110,8 +23110,8 @@
     "https://github.com/fingerprintjs/fingerprintjs": {
         "created_at": "2024-06-05 08:20:58",
         "description": "Browser fingerprinting library. Accuracy of this version is 40-60%, accuracy of the commercial Fingerprint Identification is 99.5%. V4 of this library is BSL licensed.",
-        "commit_message": "Bump the version to 4.4.1 (#1010)",
-        "commit_date": "2024-06-05 08:20:58",
+        "commit_message": "Bump braces from 3.0.2 to 3.0.3 (#1012)\n\nBumps [braces](https://github.com/micromatch/braces) from 3.0.2 to 3.0.3.\r\n- [Changelog](https://github.com/micromatch/braces/blob/master/CHANGELOG.md)\r\n- [Commits](https://github.com/micromatch/braces/compare/3.0.2...3.0.3)\r\n\r\n---\r\nupdated-dependencies:\r\n- dependency-name: braces\r\n  dependency-type: indirect\r\n...\r\n\r\nSigned-off-by: dependabot[bot] <support@github.com>\r\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
+        "commit_date": "2024-06-16 10:35:32",
         "release_date": "2024-06-05 08:21:27",
         "release_message": "- fix: A console warning regarding `AudioContext` (#1009)\r\n\r\nThis release will change fingerprints for some visitors."
     },
@@ -24412,8 +24412,8 @@
         "description": "魅族安全中心"
     },
     "https://sec.vip.com/": {
-        "status_code": 200,
-        "description": "VSRC首页-唯品会信息安全中心"
+        "status_code": 503,
+        "description": ""
     },
     "https://sec.wacai.com/": {
         "status_code": 200,
@@ -27075,7 +27075,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "20.172.28.129属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "74.249.13.190属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
@@ -27593,7 +27593,7 @@
         "created_at": "2024-06-20 02:17:14",
         "description": "CTF-NetA是一款专门针对CTF比赛的网络流量分析工具，可以对常见的网络流量进行分析，快速自动获取flag。",
         "commit_message": "Update README.md",
-        "commit_date": "2024-06-20 02:17:14",
+        "commit_date": "2024-06-21 06:16:10",
         "release_date": "2024-06-20 02:18:25",
         "release_message": "v1.5.4 20240615\r\n1.修复哥斯拉和冰蝎webshell解密中多处bug\r\n2.支持将主题配置保存到配置文件\r\n3.针对icmp协议中部分题目要求seq排序的情况，导出icmp.seq作为序号参照\r\n"
     },
