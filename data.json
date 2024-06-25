@@ -775,7 +775,7 @@
         "release_message": "PortForward 的功能如下：\r\n1. 支持 tcp/udp 协议层的端口转发\r\n2. 支持级联\r\n3. 支持正向/反向连接模式\r\n4. 支持多通道\r\n5. 支持 ipv6"
     },
     "https://github.com/xiecat/fofax": {
-        "created_at": "2023-12-21 12:39:45",
+        "created_at": "2021-12-14 10:01:58",
         "description": "fofax is a command line query tool based on the API of https://fofa.info/, simple is the best!",
         "commit_date": "2024-04-01 09:26:11",
         "commit_message": "Update parser.go",
@@ -22919,7 +22919,7 @@
         "release_message": ""
     },
     "https://github.com/SuxueCode/WechatBakTool": {
-        "created_at": "2023-08-12 01:20:59",
+        "created_at": "2024-04-20 02:01:11",
         "description": "基于C#的微信PC版聊天记录备份工具，提供图形界面，解密微信数据库并导出聊天记录。",
         "commit_message": "v0.9.7.5 Release！\n1.支持3.9.10.19版本",
         "commit_date": "2024-04-20 02:01:11",
@@ -27075,7 +27075,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "20.55.214.167属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "13.83.1.210属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
@@ -27282,8 +27282,8 @@
         "description": "Whois域名注册信息查询"
     },
     "http://hunter.qianxin.com/": {
-        "status_code": 502,
-        "description": "Error"
+        "status_code": 200,
+        "description": "鹰图平台"
     },
     "https://whois.aliyun.com/": {
         "status_code": 200,
