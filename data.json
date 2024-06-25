@@ -6283,8 +6283,8 @@
     "https://github.com/guofei9987/blind_watermark": {
         "created_at": "2021-12-18 14:23:02",
         "description": "Blind&Invisible Watermark ，图片盲水印，提取水印无须原图！",
-        "commit_date": "2023-11-18 06:38:25",
-        "commit_message": "Merge pull request #121 from semikonductor/master\n\nUpdate bwm_core.py",
+        "commit_date": "2024-06-23 12:29:59",
+        "commit_message": "Merge pull request #137 from Keycatowo/master\n\nFix logical error in image size check",
         "release_tag": "0.2.1",
         "release_date": "2022-01-11 12:32:05",
         "release_message": "- highly enhanced the performance against attacks"
@@ -27075,7 +27075,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "13.83.1.210属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "52.225.77.103属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
@@ -27549,7 +27549,7 @@
     },
     "http://www.66zan.cn/desencrypt/": {
         "status_code": 200,
-        "description": "在线DES加密,DES解密工具-在线工具箱"
+        "description": ""
     },
     "http://www.66zan.cn/rabbitencrypt/": {
         "status_code": 200,
@@ -27618,10 +27618,10 @@
         "description": "CacheSleuth - Brainfuck & Ook! Code"
     },
     "https://github.com/alwaystest18/cdnChecker": {
-        "created_at": "2023-04-01 13:46:43",
+        "created_at": "2024-03-12 11:38:49",
         "description": "A tool to detect CDN for given domains",
-        "commit_message": "修复windows下\\r\\n换行导致的bug",
-        "commit_date": "2024-03-12 11:38:49",
+        "commit_message": "调整参数",
+        "commit_date": "2024-06-15 00:41:43",
         "release_date": "2024-03-12 13:31:27",
         "release_message": "## Changelog\n* 834fa86 修复windows下\\r\\n换行导致的bug\n* 761a311 有效dns低于20时不再退出程序,改为仅提醒\n* a7d831a 修复某些dns解析域名ip为dns自身ip导致的误报\n* d5b665c update cdn cname list\n* e7dd9d5 增加自动打包\n* 38f8ce2 update dns server\n* 986e826 优化程序内存占用\n* 0fee227 增加常见问题补充\n* 94da415 Merge branch 'master' of github.com:alwaystest18/cdnChecker\n* a799a5d 增加域名+ip的内容输出，方便根据ip反查对应域名\n* 0ff7a8a Update README.md\n* 10415e3 增加域名+ip的内容输出，方便根据ip反查对应域名\n* 7892e91 update cdn cname\n* 6b3da78 Merge branch 'master' of github.com:alwaystest18/cdnChecker\n* f0f1cb2 update cdn cname\n* 1086bcb Update README.md\n* fd1c77e Update README.md\n* 14325a6 Update README.md\n* 360369a Update README.md\n* 2a92e52 Create README.md\n* 2bfa8c9 v1.0\n\n"
     },
