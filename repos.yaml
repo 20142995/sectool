@@ -283,6 +283,7 @@
             同音替代密码:
                 - http://www.atoolbox.net/Tool.php?Id=919
             哈希解密:
+                - https://hashes.com/en/decrypt/hash
                 - https://www.cmd5.com
                 - https://www.onlinehashcrack.com/
             哈希计算:
@@ -577,6 +578,7 @@
                     Grafana:
                         - https://github.com/A-D-Team/grafanaExp
                     Hikvision:
+                        - https://github.com/MInggongK/Hikvision-
                         - https://github.com/baogod404/HikvisionDecode
                     IIS:
                         - https://github.com/abc123info/iis7.5-10.x-ShortNameFuzz
@@ -653,6 +655,8 @@
                     wordpress:
                         - https://github.com/Jamalc0m/wphunter
                         - https://github.com/swisskyrepo/Wordpresscan
+                    大华:
+                        - https://github.com/MInggongK/dahuaExploitGUI
                     帆软:
                         - https://github.com/yecp181/Frchannel
                     禅道:
@@ -827,6 +831,7 @@
                         Nginx:
                             - https://github.com/stark0de/nginxpwner
                 漏洞利用框架:
+                    - https://github.com/mifine666/miscan
                     - https://github.com/woodpecker-framework/woodpecker-framework-release
                 漏洞利用辅助:
                     - https://github.com/0x727/JNDIExploit
@@ -1293,6 +1298,7 @@
                 - https://github.com/VMsec/ihoneyBakFileScan_Modify
                 - https://github.com/Xyntax/DirBrute
                 - https://github.com/aipengjie/sensitivefilescan
+                - https://github.com/ax1sX/RouteCheck-Alpha
                 - https://github.com/blackye/webdirdig
                 - https://github.com/chainreactors/spray
                 - https://github.com/chainreactors/urlfounder
@@ -1421,6 +1427,7 @@
         后渗透:
             代理转发:
                 - http://rootkiter.com/Termite/
+                - https://github.com/DVKunion/SeaMoon
                 - https://github.com/FunnyWolf/pystinger
                 - https://github.com/Goqi/Erfrp
                 - https://github.com/L-codes/Neo-reGeorg
@@ -2246,6 +2253,8 @@
                 - https://github.com/mushorg/conpot
                 - https://github.com/seccome/Ehoney
                 - https://github.com/wendell1224/ide-honeypot
+            漏洞情报管理平台:
+                - https://github.com/menglike/bug_search
             漏洞管理:
                 - https://gitee.com/gy071089/SecurityManageFramwork
                 - https://github.com/233sec/laravel-src
@@ -2256,7 +2265,9 @@
                 - https://github.com/ysrc/xunfeng
             相关资源:
                 - https://github.com/AnyeDuke/Enterprise-Security-Skill
+                - https://github.com/Bypass007/Safety-Project-Collection
                 - https://github.com/FeeiCN/Security-PPT
+                - https://github.com/birdhan/SecurityProduct
             网站监测:
                 - https://github.com/mangenotwork/website-monitor
             网络安全大模型:
@@ -2545,6 +2556,8 @@
         其他:
             - https://github.com/mozillazg/go-pinyin
     Python:
+        GUI框架:
+            - https://github.com/Akascape/py-window-styles
         其他:
             - https://github.com/TomSchimansky/CustomTkinter
             - https://github.com/jackfrued/Python-100-Days
@@ -2557,6 +2570,8 @@
         - https://github.com/zhengjim/camille
     MySQL实时监控工具:
         - https://github.com/TheKingOfDuck/MySQLMonitor
+    Windows快捷启动工具:
+        - https://dawnlauncher.com/
     chatgpt:
         - https://github.com/LangLangShanDeNanKe/chatgpt
         - https://github.com/dalinvip/Awesome-ChatGPT
@@ -2586,6 +2601,8 @@
     压测工具:
         - https://github.com/LinWin-Cloud/Easy-DDOS
         - https://github.com/locustio/locust
+    大语言模型:
+        - https://github.com/THUDM/ChatGLM3
     安全思维脑图:
         - https://github.com/Ascotbe/HackerMind
     定时任务管理平台:
@@ -2594,6 +2611,10 @@
         - https://github.com/ngc660sec/NGCBot
     恶意网络流量模拟:
         - https://github.com/alphasoc/flightsim
+    抓包软件:
+        - https://reqable.com/zh-CN/
+        - https://www.charlesproxy.com/
+        - https://www.httpdebugger.com/
     报告模板:
         - https://github.com/awake1t/HackReport
     按键精灵:
@@ -2602,6 +2623,10 @@
         - https://github.com/dbeaver/dbeaver
     文字识别:
         - https://github.com/hiroi-sora/Umi-OCR
+    本地知识库:
+        - https://github.com/Mintplex-Labs/anything-llm
+        - https://github.com/chatchat-space/Langchain-Chatchat
+        - https://github.com/netease-youdao/QAnything
     机器学习:
         - https://github.com/mdbloice/Augmentor
         - https://github.com/sml2h3/dddd_trainer
