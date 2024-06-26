@@ -24412,8 +24412,8 @@
         "description": "魅族安全中心"
     },
     "https://sec.vip.com/": {
-        "status_code": 503,
-        "description": ""
+        "status_code": 200,
+        "description": "VSRC首页-唯品会信息安全中心"
     },
     "https://sec.wacai.com/": {
         "status_code": 200,
@@ -27075,7 +27075,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "13.83.1.213属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "20.97.191.178属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
@@ -27502,8 +27502,8 @@
     "https://github.com/google/tsunami-security-scanner": {
         "created_at": "2024-04-29 13:08:59",
         "description": "Tsunami is a general purpose network security scanner with an extensible plugin system for detecting high severity vulnerabilities with high confidence.",
-        "commit_message": "fix remaining build & run issues for python server integration.\n\nPiperOrigin-RevId: 636615848\nChange-Id: I0a8dbd7878bb1a0f4a4c4dc8e8ca5dcdb0e07190",
-        "commit_date": "2024-05-23 18:22:50",
+        "commit_message": "Merge pull request #113 from W0ngL1:dev_hive_deps\n\nPiperOrigin-RevId: 644272223\nChange-Id: I1bf9db5885f768fc6b093803af9179f65c77a087",
+        "commit_date": "2024-06-18 07:11:43",
         "release_date": "2024-04-29 13:28:19",
         "release_message": "- Add an option to the HTTP client to be able to specify a custom user-agent;\r\n- Compatibility improvements."
     },
