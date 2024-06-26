@@ -4441,13 +4441,13 @@
         "release_message": ""
     },
     "https://github.com/Anyyy111/ProxyPoolxSocks": {
-        "created_at": "2023-05-15 08:07:49",
+        "created_at": "2023-12-01 16:48:15",
         "description": "☁️Socks代理池服务端自动化搭建工具☁️",
-        "commit_date": "2023-06-07 23:53:40",
-        "commit_message": "2023.6.08",
+        "commit_date": "2023-12-01 16:48:15",
+        "commit_message": "v1.3 12.02",
         "release_tag": "v1.2",
-        "release_date": "2023-06-07 08:59:36",
-        "release_message": "更新了代理池定时任务参数：detectTime，用于检测并更新代理池可用的代理，程序会隔一段时间重新检测可用节点，以免节点过期。详细参考Readme"
+        "release_date": "2023-12-01 16:49:08",
+        "release_message": "**Date: 2023/12/01 Version: v1.3**\r\n\r\n1.经反映，优化了客户端连接过多导致日志文件存储过大的问题，现在可以在config.py设置日志文件最大大小（默认20mb）， **存储大小超过了设定的文件大小会断开日志记录**；将日志文件名字修改的更明显了。\r\n\r\n2.修改了**检测节点**这个功能的逻辑，原先检测节点的逻辑是将node.txt里的节点拿去检测，现在修改成将已经检测好的节点进行二次检测。这样的好处是检测快，当然也可以通过修改代码的方式改成原先的模式，在run.py里我已经写好了**注释**\r\n\r\n3.新Logo！浅蓝皮肤变好康了，添加了version（我宣布v1.3是最好用的版本）\r\n\r\n~~4.更新了更新日志 优化了亿个细节~~\r\n\r\n有任何bug和Issue可以向我提出，惊人的是这个项目Star还挺多，希望各位师傅可以多多推广 多点点Star！ o.O"
     },
     "https://github.com/grimlockx/ADCSKiller": {
         "created_at": "2023-05-19 06:51:41",
@@ -5456,10 +5456,10 @@
         "release_message": ""
     },
     "https://github.com/BloodHoundAD/BloodHound": {
-        "created_at": "2016-04-17 18:36:14",
+        "created_at": "2023-05-23 14:32:44",
         "description": "Six Degrees of Domain Admin",
-        "commit_date": "2023-08-08 21:48:35",
-        "commit_message": "Update index.rst",
+        "commit_date": "2024-02-09 22:50:22",
+        "commit_message": "Merge pull request #688 from christophetd/use-jwt-from-az-cli-2\n\nAdd instructions to use the JWT from the az cli",
         "release_tag": "v4.3.1",
         "release_date": "2023-05-23 17:06:23",
         "release_message": "## What's Changed\r\n* Adding abuse guidance from UNIX-like hosts by @ShutdownRepo in https://github.com/BloodHoundAD/BloodHound/pull/625\r\n* small typo: whisper -> whisker by @chadduffey in https://github.com/BloodHoundAD/BloodHound/pull/629\r\n* Update wording to \"acceptable\" terms by @cln-io in https://github.com/BloodHoundAD/BloodHound/pull/609\r\n* Fix Wrong Statements In Azure Post Processing setGlobalAdminHighValue & setPrivRoleAdminHighValue by @lbrauns in https://github.com/BloodHoundAD/BloodHound/pull/595\r\n* Fix edgeIncluded label partially clickable by @CravateRouge in https://github.com/BloodHoundAD/BloodHound/pull/597\r\n* Kerberoastable user with most priv query fix by @DoubtfulJerboa in https://github.com/BloodHoundAD/BloodHound/pull/606\r\n* Update sharphound.rst with up-to-date link by @Japillow in https://github.com/BloodHoundAD/BloodHound/pull/631\r\n* Remove .bin extension from instruction by @JonasBK in https://github.com/BloodHoundAD/BloodHound/pull/640\r\n* Minor Update of Neo4J Compatible Version to 4.4.19 by @kaydaskalakis in https://github.com/BloodHoundAD/BloodHound/pull/659\r\n* Added import of \"Group Types\" and \"Membership Rule\" for AZGroups by @ahazu in https://github.com/BloodHoundAD/BloodHound/pull/647\r\n* Update linux.rst - Fixed installation documentation to get correct version of neo4j by @angry-bender in https://github.com/BloodHoundAD/BloodHound/pull/622\r\n* Blood hound documentation update by @LuemmelSec in https://github.com/BloodHoundAD/BloodHound/pull/664\r\n* Contribution of the DumpSMSAPassword edge with its documentation by @simondotsh in https://github.com/BloodHoundAD/BloodHound/pull/626\r\n* 4.3.1 by @JonasBK in https://github.com/BloodHoundAD/BloodHound/pull/668\r\n\r\n## New Contributors\r\n* @ShutdownRepo made their first contribution in https://github.com/BloodHoundAD/BloodHound/pull/625\r\n* @chadduffey made their first contribution in https://github.com/BloodHoundAD/BloodHound/pull/629\r\n* @cln-io made their first contribution in https://github.com/BloodHoundAD/BloodHound/pull/609\r\n* @lbrauns made their first contribution in https://github.com/BloodHoundAD/BloodHound/pull/595\r\n* @CravateRouge made their first contribution in https://github.com/BloodHoundAD/BloodHound/pull/597\r\n* @DoubtfulJerboa made their first contribution in https://github.com/BloodHoundAD/BloodHound/pull/606\r\n* @Japillow made their first contribution in https://github.com/BloodHoundAD/BloodHound/pull/631\r\n* @kaydaskalakis made their first contribution in https://github.com/BloodHoundAD/BloodHound/pull/659\r\n* @ahazu made their first contribution in https://github.com/BloodHoundAD/BloodHound/pull/647\r\n* @angry-bender made their first contribution in https://github.com/BloodHoundAD/BloodHound/pull/622\r\n* @LuemmelSec made their first contribution in https://github.com/BloodHoundAD/BloodHound/pull/664\r\n\r\n**Full Changelog**: https://github.com/BloodHoundAD/BloodHound/compare/v4.3.0...v4.3.1"
@@ -7600,7 +7600,7 @@
         "release_message": ""
     },
     "https://github.com/0x727/SqlKnife_0x727": {
-        "created_at": "2021-08-02 03:14:02",
+        "created_at": "2021-10-22 06:18:03",
         "description": "适合在命令行中使用的轻巧的SQL Server数据库安全检测工具",
         "commit_date": "2021-10-22 06:18:03",
         "commit_message": "修复了下载执行功能的bug",
@@ -18368,7 +18368,7 @@
         "commit_date": "2024-06-19 02:30:05"
     },
     "https://github.com/michenriksen/aquatone": {
-        "created_at": "2015-11-19 11:30:12",
+        "created_at": "2019-05-19 09:07:56",
         "description": "A Tool for Domain Flyovers",
         "commit_date": "2019-05-19 09:07:52",
         "commit_message": "Releasing v1.7.0",
@@ -23178,7 +23178,7 @@
         "release_message": ""
     },
     "https://github.com/0-sec/zero-crack": {
-        "created_at": "2021-05-12 01:27:13",
+        "created_at": "2021-05-12 02:03:08",
         "description": "webapps crack tools",
         "commit_date": "2021-05-12 02:03:08",
         "commit_message": "Update requirements.txt",
@@ -23796,7 +23796,7 @@
         "release_message": ""
     },
     "https://github.com/r3curs1v3-pr0xy/vajra": {
-        "created_at": "2021-03-12 17:05:47",
+        "created_at": "2021-03-28 15:19:23",
         "description": "Vajra is a highly customizable target and scope based automated web hacking framework to automate boring recon tasks and same scans for multiple target during web applications penetration testing.",
         "commit_date": "2021-10-29 10:43:47",
         "commit_message": "Update critical.txt",
@@ -27075,7 +27075,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "172.190.111.168属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "138.91.70.178属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
@@ -27517,7 +27517,7 @@
     },
     "http://www.66zan.cn/rc4encrypt/": {
         "status_code": 200,
-        "description": ""
+        "description": "在线RC4加密,RC4解密工具-在线工具箱"
     },
     "https://330k.github.io/misc_tools/unicode_steganography.html": {
         "status_code": 200,
