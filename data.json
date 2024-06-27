@@ -1880,8 +1880,8 @@
     "https://github.com/hiroi-sora/Umi-OCR": {
         "created_at": "2024-06-03 13:16:33",
         "description": "OCR software, free and offline. 开源、免费的离线OCR软件。支持截屏/批量导入图片，PDF文档识别，排除水印/页眉页脚，扫描/生成二维码。内置多国语言库。",
-        "commit_message": "Translations update from Hosted Weblate (#557)\n\n* Added translation using Weblate (Portuguese)\r\n\r\n* Translated using Weblate (Portuguese)\r\n\r\nCurrently translated at 0.0% (0 of 449 strings)\r\n\r\nTranslation: Umi-OCR/UI\r\nTranslate-URL: https://hosted.weblate.org/projects/umi-ocr/ui/pt/\r\n\r\n* Translated using Weblate (English (United States))\r\n\r\nCurrently translated at 97.9% (440 of 449 strings)\r\n\r\nTranslation: Umi-OCR/UI\r\nTranslate-URL: https://hosted.weblate.org/projects/umi-ocr/ui/en_US/\r\n\r\n---------\r\n\r\nCo-authored-by: Marcos i <ultramarkorj9@gmail.com>",
-        "commit_date": "2024-06-13 03:59:08",
+        "commit_message": "update Readme",
+        "commit_date": "2024-06-21 04:10:37",
         "release_date": "2024-06-03 13:46:15",
         "release_message": "[English](https://github-com.translate.goog/hiroi-sora/Umi-OCR/releases/tag/v2.1.2?_x_tr_sl=zh-CN&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=wapp)\r\n\r\n## v2.1.2 主要更新\r\n\r\n- 新增：批量任务（图片、文档）支持 **暂停任务** 。只要不退出软件，在待机/休眠后可以恢复任务。\r\n- 新增：文档任务支持保存为 **单层纯文本PDF** 。\r\n- 新增：HTTP OCR接口 允许设置 **忽略区域** 参数。👉 [文档](https://github.com/hiroi-sora/Umi-OCR/blob/main/docs/README_HTTP.md#1-%E5%9B%BE%E7%89%87ocrbase64-%E8%AF%86%E5%88%AB%E6%8E%A5%E5%8F%A3)\r\n- 新增：HTTP 二维码接口 允许设置 **图像预处理** 参数。👉 [文档](https://github.com/hiroi-sora/Umi-OCR/blob/main/docs/README_HTTP.md#/api/qrcode)\r\n- 新增：命令行`--screenshot`允许 **指定屏幕范围** ，自动进行截图。👉 [文档](https://github.com/hiroi-sora/Umi-OCR/blob/main/docs/README_CLI.md#ocr%E6%8C%87%E4%BB%A4)\r\n- 修复：文档内容提取和写入时的坐标旋转、比例适配问题。\r\n- 修复：截图预览 & 记录面板中，跨区块复制文本时，尾块的复制字数不正确。\r\n- 修复：文档识别 整页强制OCR 模式下，无法进行任务。（2024.6.5紧急修复）\r\n- 优化：批量文档标签页，拖入大量文件、提交大批任务时的性能和流畅度。\r\n- 优化：文档任务保存的文件名规则。\r\n- UI：优化一些布局，调整一些文本，美化一些视觉效果。\r\n\r\n#### Windows7 用户注意： [常见问题及修复方法](https://github.com/hiroi-sora/Umi-OCR/issues/447)\r\n\r\n---\r\n\r\n新开通了赞助方式 [爱发电](https://afdian.net/a/hiroi-sora) ，有意愿的用户可以支持一下~\r\n\r\nUmi-OCR 保证始终 **开源** 和 **完全免费** 。所有需要付费/注册/关注才能下载的渠道均 **不是** 我们发布的渠道，请注意辨别。\r\n\r\n---\r\n\r\n### 配置文件迁移\r\n\r\nUmi-OCR v2 用户升级时，将旧版软件的`UmiOCR-data/.settings`拷贝到新版相同位置即可。\r\n\r\n### 下载说明\r\n\r\n不同版本仅OCR引擎插件不同，其它功能完全一致。\r\n均支持 win7 x64 及以上的系统，附带多国语言识别库。\r\n\r\n`.7z.exe`为自解压包，可以用压缩软件打开，也可以在没有安装压缩软件的电脑上直接双击解压。\r\n\r\n### Paddle 引擎插件版\r\n\r\n（性能好，速度快，占用率高，适合高配机器。**不兼容奔腾、赛扬、凌动CPU**）\r\n\r\n**重要提示：如果执行OCR时报错 `0xc0000142`、`[Error] OCR init fail`，大概率是CPU不兼容Paddle，请换用Rapid版本。**\r\n\r\n**Umi-OCR_Paddle_v2.1.2.7z.exe** （128.5MB）\r\nSHA256: `6dce23ea7f95a2ffb9415f8f5bb588df75ddf90abdcbbb972cc38fe2dbbfc70d`\r\n\r\n### Rapid 引擎插件版\r\n\r\n（速度稍慢，内存占用低，适合低配机器，兼容性好）\r\n\r\n**Umi-OCR_Rapid_v2.1.2.7z.exe** （97.1MB）\r\nSHA256: `879484ca912814702c30ba4dc0d9a5afff1ba0457c2fca2825ef7ea7adcde7b4`\r\n\r\n## 更多插件\r\n\r\n前往 [Umi-OCR_插件仓库](https://github.com/hiroi-sora/Umi-OCR_plugins) ，下载更多OCR插件，获取`离线数学公式识别`等附加功能。\r\n\r\n---\r\n\r\n更多下载途径： [蓝奏云](https://hiroi-sora.lanzoul.com/s/umi-ocr) | [SourceForge](https://sourceforge.net/projects/umi-ocr/files/v2.1.2/) | [Scoop](https://scoop.sh/#/apps?q=umi-ocr)\r\n\r\n[![Download Umi-OCR](https://a.fsdn.com/con/app/sf-download-button)](https://sourceforge.net/projects/umi-ocr/files/v2.1.2/)"
     },
@@ -5186,13 +5186,13 @@
         "release_message": "Issues: https://github.com/alibaba/arthas/milestone/50?closed=1\r\n\r\n* arthas-spring-boot-starter support spring boot3. #2524\r\n* upgrade spring-boot 2 to 2.7.15, spring boot 3 to 3.1.7\r\n* upgrade bytekit to 0.0.9 (#2775)\r\n* fix not use arthasHome when constructing ArthasAgent(#2544)\r\n* fix AnsiLog static init may error. #2740\r\n* sysenv/sysprop command sorted by key #2619 (#2652)\r\n* upgrade bytebuddy to 1.14.11\r\n* UserStat support agentId (#2501)"
     },
     "https://github.com/projectdiscovery/wappalyzergo": {
-        "created_at": "2024-06-16 00:25:08",
+        "created_at": "2024-06-23 00:24:39",
         "description": "A high performance go implementation of Wappalyzer Technology Detection Library",
-        "commit_date": "2024-06-16 00:25:08",
-        "commit_message": "Weekly fingerprints update [Sun Jun 16 00:25:07 UTC 2024] :robot:",
+        "commit_date": "2024-06-23 00:24:39",
+        "commit_message": "Weekly fingerprints update [Sun Jun 23 00:24:39 UTC 2024] :robot:",
         "release_tag": "v0.0.109",
-        "release_date": "2024-06-16 00:25:24",
-        "release_message": "### [0.1.6](https://github.com/projectdiscovery/wappalyzergo/compare/v0.1.5...v0.1.6) (2024-06-16)"
+        "release_date": "2024-06-23 00:24:56",
+        "release_message": "### [0.1.8](https://github.com/projectdiscovery/wappalyzergo/compare/v0.1.7...v0.1.8) (2024-06-23)"
     },
     "https://github.com/cseroad/Webshell_Generate": {
         "created_at": "2023-06-19 03:21:09",
@@ -5644,8 +5644,8 @@
     "https://github.com/fatedier/frp": {
         "created_at": "2024-05-31 06:35:08",
         "description": "A fast reverse proxy to help you expose a local server behind a NAT or firewall to the internet.",
-        "commit_message": "Add http2http client plugin with hostHeaderRewrite and requestHeaders support (#4275)",
-        "commit_date": "2024-06-12 09:30:10",
+        "commit_message": "update sponsors (#4303)",
+        "commit_date": "2024-06-26 06:51:34",
         "release_date": "2024-05-31 06:41:10",
         "release_message": "### Fixes\n\n* Fixed an issue where HTTP/2 was not enabled for https2http and https2https plugins.\n* Fixed the issue where the default values of INI configuration parameters are inconsistent with other configuration formats.\n\n### Changes\n\n* Updated the default value of `transport.tcpMuxKeepaliveInterval` from 60 to 30.\n* On the Android platform, the Google DNS server is used only when the default DNS server cannot be obtained.\n\n"
     },
@@ -6146,13 +6146,13 @@
         "release_message": "## Changelog\n### Features\n* c185df8 feat: implemented JavaScript code beautification for HTML files\n* 6ce2b40 feat: allows disabling of code beautification with global flag '--disable-beautify'\n### Bug fixes\n* 7e273d6 fix: fix flag '--disable-beautify'\n\n"
     },
     "https://github.com/CTFd/CTFd": {
-        "created_at": "2024-06-01 01:13:49",
+        "created_at": "2024-06-18 16:01:54",
         "description": "CTFs as you need them",
-        "commit_date": "2024-06-09 21:06:20",
-        "commit_message": "Improve the way that the Admin Panel detects modern themes and fallbacks the challenge preview behavior (#2555)",
+        "commit_date": "2024-06-21 13:49:19",
+        "commit_message": "Update language references and compile new PO files (#2561)",
         "release_tag": "",
-        "release_date": "2024-06-01 07:03:04",
-        "release_message": "# 3.7.1 / 2024-05-31\r\n\r\n**Admin Panel**\r\n\r\n- The styling of the Config Panel has been updated to better organize different settings\r\n- When switching user modes via the Admin Panel, all teams will now be removed\r\n- Fix issues where importing CSVs comprised of JSON entries would fail\r\n- Add `serializeJSON` function back into the Admin Panel\r\n\r\n**API**\r\n\r\n- The `/api/v1/exports/raw` API endpoint has been added to allow for exports to be generated via the API\r\n- Update the ScoreboardDetail endpoint (`/api/v1/scoreboard/top/<count>`) to return account URL, score, and bracket\r\n- Add a query parameter to ScoreboardDetail endpoint (`/api/v1/scoreboard/top/<count>`) to filter by bracket\r\n- Return `function` field for DynamicValue challenges data read\r\n\r\n**General**\r\n\r\n- Add Italian and Vietnamese languages\r\n- Switch to Crowdin for translations\r\n\r\n**Themes**\r\n\r\n- Add `defer` parameter to `Assets.js()` to allow controlling the defer attribute of inserted `<script>` tags\r\n\r\n**Plugins**\r\n\r\n- Plugins can now define a `config` entry in `config.json` to define a template to embed into the Config Panel\r\n- Add the `make_cache_key_with_query_string` to allow for caching based on query string arguments\r\n\r\n**Deployment**\r\n\r\n- MariaDB version provided in docker-compose.yml has been updated to `10.11`\r\n- Static assets (theme files, static files) will now return a Cache-Control header with a `max-age` of 3600\r\n- Add the `/debug` endpoint to show CTFd debugging information\r\n  - Currently showing the IP address that CTFd is seeing for the request and the request headers\r\n  - `/debug` will only be enabled if the `SAFE_MODE` config is enabled"
+        "release_date": "2024-06-18 21:34:27",
+        "release_message": "# 3.7.2 / 2024-06-18\r\n\r\n**Security**\r\n\r\n- Patches an issue where on certain browsers flags could be leaked with admin interaction on a malicious page\r\n\r\n**API**\r\n\r\n- Disable returning 404s in listing pages with pagination\r\n  - Instead of returning 404 these pages will now return 200\r\n  - For API endpoints, the response will be a 200 with an empty listing instead of a 404\r\n\r\n**Deployment**\r\n\r\n- CTFd will now add the `Cross-Origin-Opener-Policy` response header to all responses with the default value of `same-origin-allow-popups`\r\n- Add `CROSS_ORIGIN_OPENER_POLICY` setting to control the `Cross-Origin-Opener-Policy` header"
     },
     "https://github.com/Gu-f/CTFd_chinese_CN": {
         "created_at": "2022-02-23 06:40:51",
@@ -6336,8 +6336,8 @@
     "https://github.com/audacity/audacity": {
         "created_at": "2024-04-24 10:55:07",
         "description": "Audio Editor                                     ",
-        "commit_message": "Merge pull request #6609 from saintmatthieu/6510-limiter-attenuation-meter\n\n6510 limiter attenuation meter",
-        "commit_date": "2024-06-10 13:36:50",
+        "commit_message": "[AU4] Fixed timeline context menu checkmarks",
+        "commit_date": "2024-06-26 14:35:08",
         "release_date": "2024-04-24 16:21:57",
         "release_message": " This is a hotfix release. It fixes the following bugs:\r\n \r\n   * #6322 Fixed a crash on launch on macOS 11 and older.\r\n   * #6324 Fixed the update notification looking for alpha versions instead of release versions.\r\n   * #6321 Fixed a freeze when using macros on multiple files."
     },
@@ -19789,7 +19789,7 @@
         "release_tag": "2023.2",
         "release_date": "2024-06-11 17:01:58",
         "release_message": "Second release of 2024!\r\n🎉 This release includes [multiple updates](https://github.com/danielmiessler/SecLists/compare/2024.1...2024.2) from the community =)\r\n🥇 Thank you everyone <3\r\n\r\nShout-out to: @molangning, @ashtonhogan, @Sevada797, @emmanuel-londono, @exploide, @emmanuelgautier, @riramar, @ItsIgnacioPortal, @0xjv, @YouFoundAlpha, @danielmiessler, @righettod, @adeadfed, @spaze, @CodeVIP123 & @BrandonW6000",
-        "commit_date": "2024-06-21 00:09:01",
+        "commit_date": "2024-06-27 00:09:31",
         "commit_message": "[Github Action] Automated trickest wordlists update."
     },
     "https://github.com/maaaaz/impacket-examples-windows": {
@@ -25094,8 +25094,8 @@
         "description": "[~]#棱角 ::Edge.Forum*"
     },
     "https://rapiddns.io/subdomain": {
-        "status_code": 500,
-        "description": "500 Internal Server Error"
+        "status_code": 200,
+        "description": "Subdomain - RapidDNS Rapid DNS Information Collection"
     },
     "http://www.zhongguosou.com/zonghe/moErSiCodeConverter.aspx": {
         "status_code": 200,
@@ -27075,7 +27075,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "172.183.131.102属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "172.183.161.198属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
