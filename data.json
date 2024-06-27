@@ -4494,13 +4494,13 @@
         "release_message": "1. 新增代理源 **FreeProxyList**; (2022-07-21)\r\n2. 新增代理源 **FateZero**; (2022-08-01)\r\n3. 新增代理属性 ``region``; (2022-08-16)"
     },
     "https://github.com/r0oth3x49/ghauri": {
-        "created_at": "2024-05-17 10:28:03",
+        "created_at": "2024-06-05 01:41:55",
         "description": "An advanced cross-platform tool that automates the process of detecting and exploiting SQL injection security flaws",
-        "commit_date": "2024-05-17 10:28:03",
-        "commit_message": "updated code quality, fixed issue with --ignore-code, bumped version 1.3.2..",
+        "commit_date": "2024-06-05 01:41:55",
+        "commit_message": "fixed issue with post data properly encoding in ASP based targets, bumped version 1.3.4",
         "release_tag": "",
-        "release_date": "2024-05-17 10:31:51",
-        "release_message": "### Fixes\r\n - fixed issue with `--ignore-code` switch as it was not processing any http status codes provided."
+        "release_date": "2024-06-05 01:43:59",
+        "release_message": "### Fixes\r\n - fixed issue with post data encoding in case of ASP based targets.."
     },
     "https://github.com/dalinvip/Awesome-ChatGPT": {
         "created_at": "2023-02-06 11:57:37",
@@ -22695,7 +22695,7 @@
         "commit_date": "2024-01-11 02:16:37"
     },
     "https://github.com/Sitoi/dailycheckin": {
-        "created_at": "2021-05-26 01:35:16",
+        "created_at": "2024-05-15 01:55:46",
         "description": "基于「Docker」/「青龙面板」/「群晖」的每日签到脚本（支持多账号）签到列表: ｜爱奇艺｜全民K歌｜有道云笔记｜百度贴吧｜Bilibili｜V2EX｜AcFun｜什么值得买｜阿里云盘｜i茅台申购｜小米运动｜百度搜索资源平台｜恩山论坛｜奥拉星｜",
         "commit_message": "⬆️ 升级(__version__.py)：更新版本号从24.3.19到24.5.15\n  📝 添加文档(2024-05-15.mdx)：添加新的版本发布记录\n  ✨ 功能(_meta.json)：在meta数据中添加新的版本日期\n  💡 更新注释(theme.config.tsx)：更新发布横幅的链接和文本",
         "commit_date": "2024-05-15 01:55:46",
@@ -27075,7 +27075,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "172.183.161.198属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "172.183.107.136属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
@@ -28690,5 +28690,25 @@
     "https://reqable.com/zh-CN/": {
         "status_code": 200,
         "description": "先进API生产力工具 | Reqable"
+    },
+    "https://github.com/THUDM/ChatGLM3": {
+        "created_at": "2023-10-26 06:22:47",
+        "description": "ChatGLM3 series: Open Bilingual Chat LLMs | 开源双语对话语言模型",
+        "commit_message": "Merge pull request #1274 from zRzRzRzRzRzRzR/main\n\nupdate",
+        "commit_date": "2024-06-20 08:09:04"
+    },
+    "https://github.com/menglike/bug_search": {
+        "created_at": "2024-06-13 07:47:31",
+        "description": "一款免费开源的漏洞情报系统",
+        "commit_message": "Update README.md",
+        "commit_date": "2024-06-13 07:55:06",
+        "release_date": "2024-06-13 07:51:03",
+        "release_message": "更新数据源"
+    },
+    "https://github.com/Akascape/py-window-styles": {
+        "created_at": "2023-06-19 14:30:52",
+        "description": "Customize your python UI window with awesome pre-built windows 11 themes.",
+        "commit_message": "Update README.md",
+        "commit_date": "2024-06-04 04:26:16"
     }
 }
