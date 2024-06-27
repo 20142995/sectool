@@ -846,13 +846,13 @@
         "release_message": ""
     },
     "https://github.com/vaycore/OneScan": {
-        "created_at": "2023-02-14 01:59:45",
+        "created_at": "2024-06-06 13:06:15",
         "description": "OneScan是递归目录扫描的BurpSuite插件",
-        "commit_date": "2023-11-07 16:04:17",
-        "commit_message": "更新版本号为1.4.0；更新说明文档和部分截图",
+        "commit_date": "2024-06-07 03:21:20",
+        "commit_message": "修复：加载 Payload Processing 配置时因未检测 merge 变量导致安装插件报错的问题",
         "release_tag": "v1.4.0",
-        "release_date": "2023-11-07 16:10:39",
-        "release_message": "1.4.0 版本发布，版本更新内容如下\r\n\r\n### 新增\r\n\r\n- 新增 `Payload Processing` 开关，用于控制 `Payload Processing` 功能的启用与禁用\r\n- 数据看板的 `From` 字段新增 `Process` 来源显示（表示 `Payload Processing` 处理后的数据包）\r\n\r\n### 优化\r\n\r\n- 增强 `Payload Processing` 功能，可添加多条规则，每条规则处理完成后会单独发起请求\r\n- 优化 Databoard 数据看板的过滤功能，将过滤规则存储到配置文件中\r\n- 删除 Databoard 数据看板中的 `Merge Payload Processing` 开关\r\n"
+        "release_date": "2024-06-06 13:12:21",
+        "release_message": "1.6.5 版本发布，版本更新内容如下\r\n\r\n### 新增\r\n\r\n- 主动扫描新增 `Use payload scan` 菜单项，可以选择使用其它 Payload 扫描\r\n\r\n### 优化\r\n\r\n- 增强 Payload Processing 功能（重新启用合并请求选项、新增条件检查规则）\r\n- 优化数据看板 From 字段的内容展示\r\n\r\n### 修复\r\n\r\n- 修复 BurpSuite 界面设置为深色主题后，字体颜色不兼容的问题\r\n- 修复 BurpSuite 界面设置的字体字号过大时，过滤规则对话框中的 `Add filter` 和 `Clear` 按钮不可见的问题\r\n\r\n"
     },
     "https://github.com/ianxtianxt/SharpDecryptPwd": {
         "created_at": "2019-10-12 11:43:26",
@@ -3453,7 +3453,7 @@
         "release_message": "1. 配置文件后缀由.yaml变更为.yml（请手动修改已存在的配置文件名称）\r\n1. 修复module name不正确导致无法导入问题\r\n1. 在多页查询时进行配合和数据总量的判断，限制maxPage最大值"
     },
     "https://github.com/LoRexxar/Kunlun-M": {
-        "created_at": "2022-06-23 08:45:41",
+        "created_at": "2017-09-07 06:25:58",
         "description": "KunLun-M是一个完全开源的静态白盒扫描工具，支持PHP、JavaScript的语义扫描，基础安全、组件安全扫描，Chrome Ext\\Solidity的基础扫描。",
         "commit_date": "2023-10-25 03:49:28",
         "commit_message": "Merge pull request #240 from LoRexxar/develop\n\nfix bug",
@@ -27075,7 +27075,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "172.183.51.112属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "172.183.39.79属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
