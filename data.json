@@ -1852,7 +1852,7 @@
         "release_message": "*修复部分漏洞空格解析错误bug.\r\n*代码优化.\r\n"
     },
     "https://github.com/1y0n/AV_Evasion_Tool": {
-        "created_at": "2020-04-24 01:11:09",
+        "created_at": "2023-12-08 07:35:10",
         "description": "掩日 - 免杀执行器生成工具",
         "commit_date": "2023-12-08 07:35:10",
         "commit_message": "Update README.md",
@@ -24412,8 +24412,8 @@
         "description": "魅族安全中心"
     },
     "https://sec.vip.com/": {
-        "status_code": 503,
-        "description": ""
+        "status_code": 200,
+        "description": "VSRC首页-唯品会信息安全中心"
     },
     "https://sec.wacai.com/": {
         "status_code": 200,
@@ -25504,8 +25504,8 @@
     "https://github.com/Tib3rius/AutoRecon": {
         "created_at": "2019-03-01 23:50:14",
         "description": "AutoRecon is a multi-threaded network reconnaissance tool which performs automated enumeration of services.",
-        "commit_message": "Bugfix\n\nFixes list concatenation issue in #217",
-        "commit_date": "2024-01-23 06:15:42"
+        "commit_message": "Update dirbuster.txt",
+        "commit_date": "2024-06-10 22:45:52"
     },
     "https://github.com/OneSourceCat/phpvulhunter": {
         "created_at": "2015-01-11 14:48:06",
@@ -27075,7 +27075,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "40.75.123.101属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "172.190.111.147属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
@@ -27095,7 +27095,7 @@
     },
     "https://www.webscan.cc/": {
         "status_code": 200,
-        "description": "同IP网站查询,C段查询,IP反查域名,在线C段,旁站工具 - WebScan"
+        "description": ""
     },
     "https://gofile.io/": {
         "status_code": 200,
@@ -27202,8 +27202,8 @@
         "description": "Voice"
     },
     "https://app.tmp.link/": {
-        "status_code": 200,
-        "description": "TMPLINK"
+        "status_code": 522,
+        "description": "www.tmp.link | 522: Connection timed out"
     },
     "http://finger.tidesec.net/": {
         "status_code": 200,
@@ -27888,8 +27888,8 @@
     "https://github.com/find-sec-bugs/find-sec-bugs": {
         "created_at": "2024-02-26 05:35:21",
         "description": "The SpotBugs plugin for security audits of Java web applications and Android applications. (Also work with Kotlin, Groovy and Scala projects)",
-        "commit_message": "Merge pull request #729 from gtoison/upgrade-build-to-jdk-11\n\nUpgrade the build to run on JDK 11",
-        "commit_date": "2024-02-29 18:32:20",
+        "commit_message": "Merge pull request #734 from cheeghi/feature/jakarta-support\n\nAdd support for jakarta",
+        "commit_date": "2024-06-27 14:27:18",
         "release_date": "2024-02-26 06:27:32",
         "release_message": "\r\n---------------------------\r\n\r\n**Implemented enhancements:**\r\n\r\n- Java 21 Support [\\#723](https://github.com/find-sec-bugs/find-sec-bugs/issues/723)\r\n\r\n**Closed issues:**\r\n\r\n- SpringEntityLeakDetector crashes with array types [\\#679](https://github.com/find-sec-bugs/find-sec-bugs/issues/679)\r\n- Java 17 not working [\\#678](https://github.com/find-sec-bugs/find-sec-bugs/issues/678)\r\n- Detect usage of Apache BeanUtils.copyProperties as dangerous [\\#601](https://github.com/find-sec-bugs/find-sec-bugs/issues/601)\r\n\r\n**Merged pull requests:**\r\n\r\n- Upgrade SpotBugs to 4.8.3 [\\#725](https://github.com/find-sec-bugs/find-sec-bugs/pull/725) ([gtoison](https://github.com/gtoison))\r\n- Updates to handle string-building taint with invokedynamic concatenation in JDK \\> 8 [\\#713](https://github.com/find-sec-bugs/find-sec-bugs/pull/713) ([jbindel](https://github.com/jbindel))\r\n- taint-config files java-lang.txt and scala.txt propagate taint from character types [\\#712](https://github.com/find-sec-bugs/find-sec-bugs/pull/712) ([jbindel](https://github.com/jbindel))\r\n- Add GCM-SIV to authenticated cipher mode list [\\#710](https://github.com/find-sec-bugs/find-sec-bugs/pull/710) ([mzcu](https://github.com/mzcu))\r\n- Fix IMPROPER\\_UNICODE rule description [\\#707](https://github.com/find-sec-bugs/find-sec-bugs/pull/707) ([Vampire](https://github.com/Vampire))\r\n- Update messages.xml [\\#700](https://github.com/find-sec-bugs/find-sec-bugs/pull/700) ([jasonparallel](https://github.com/jasonparallel))\r\n- Fixing typo in docs [\\#699](https://github.com/find-sec-bugs/find-sec-bugs/pull/699) ([kdowbecki](https://github.com/kdowbecki))\r\n- Verbose source line locations report [\\#691](https://github.com/find-sec-bugs/find-sec-bugs/pull/691) ([oxeye-gal](https://github.com/oxeye-gal))\r\n- Adding workaround for JDK \\> 8 invokedynamic tainting [\\#690](https://github.com/find-sec-bugs/find-sec-bugs/pull/690) ([oxeye-gal](https://github.com/oxeye-gal))\r\n- JstlExpressionWhiteLister now allows custom regular expressions [\\#686](https://github.com/find-sec-bugs/find-sec-bugs/pull/686) ([jbindel](https://github.com/jbindel))\r\n- fix: added \"cash account\" to the safe words, not a SHA password [\\#683](https://github.com/find-sec-bugs/find-sec-bugs/pull/683) ([gtoison](https://github.com/gtoison))\r\n- Add Detector for XXE in XML SchemaFactory [\\#682](https://github.com/find-sec-bugs/find-sec-bugs/pull/682) ([exceptionfactory](https://github.com/exceptionfactory))\r\n- Add Detector for XXE in XML Validator [\\#681](https://github.com/find-sec-bugs/find-sec-bugs/pull/681) ([exceptionfactory](https://github.com/exceptionfactory))\r\n- fix: handle arrays in SignatureParserWithGeneric [\\#680](https://github.com/find-sec-bugs/find-sec-bugs/pull/680) ([gtoison](https://github.com/gtoison))\r\n- New detector for potential XML injection [\\#663](https://github.com/find-sec-bugs/find-sec-bugs/pull/663) ([baloghadamsoftware](https://github.com/baloghadamsoftware))\r\n- Detect usage of Apache BeanUtils as dangerous \\#601 [\\#629](https://github.com/find-sec-bugs/find-sec-bugs/pull/629) ([marcelel](https://github.com/marcelel))\r\n"
     },
