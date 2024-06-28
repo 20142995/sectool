@@ -372,8 +372,8 @@
     "https://github.com/lal0ne/vulnerability": {
         "created_at": "2022-01-20 02:48:42",
         "description": "收集、整理、修改互联网上公开的漏洞POC",
-        "commit_message": "CVE-2024-2961",
-        "commit_date": "2024-06-13 07:39:41"
+        "commit_message": "CVE-2024-5806",
+        "commit_date": "2024-06-27 05:39:19"
     },
     "https://github.com/CTF-MissFeng/GoScan": {
         "created_at": "2020-12-13 11:08:12",
@@ -3058,12 +3058,12 @@
         "release_message": "#### 0x01 功能增加\r\n* 添加验证码识别接口json和xml格式的匹配方式\r\n* 将Intruder模块调用验证码识别过程改为后台线程执行，防止burp卡住\r\n\r\n#### 0x02 Bug修复\r\n* 添加显示和隐藏Intruder模块识别结果,以便在极端情况下节省内存资源,防止burp卡住"
     },
     "https://github.com/projectdiscovery/nuclei": {
-        "created_at": "2024-05-24 22:34:50",
+        "created_at": "2024-06-16 14:12:35",
         "description": "Fast and customizable vulnerability scanner based on simple YAML based DSL.",
-        "commit_message": "Merge pull request #5248 from projectdiscovery/dependabot/go_modules/dev/github.com/projectdiscovery/useragent-0.0.54",
-        "commit_date": "2024-06-03 06:48:17",
-        "release_date": "2024-05-24 22:44:27",
-        "release_message": "<!-- Release notes generated using configuration in .github/release.yml at main -->\r\n\r\n## What's Changed\r\n### 🐞 Bug Fixes\r\n* **Fixed multiple bug fixes** + **performance improvements** by @tarunKoyalwar in https://github.com/projectdiscovery/nuclei/pull/5148\r\n* **Fixed more goroutine leaks** by @Ice3man543 in https://github.com/projectdiscovery/nuclei/pull/5188\r\n* Fixed issue network interface selection in case of multiple interface by @Mzack9999 in https://github.com/projectdiscovery/nuclei/pull/5186\r\n* Fixed issue with ssl protocol in case of multi request by @Mzack9999 in https://github.com/projectdiscovery/nuclei/pull/5203\r\n\r\nIssues closed in release - https://github.com/projectdiscovery/nuclei/milestone/58?closed=1\r\n\r\n**Full Changelog**: https://github.com/projectdiscovery/nuclei/compare/v3.2.7...v3.2.8"
+        "commit_message": "Clustering performance improvements (#5319)\n\n* Clustering performance improvements\r\n\r\n* IsClusterable filters out beforehand, update test to mirror that\r\n\r\n* inverse IsClusterable\r\nThis makes much more sense\r\n\r\n* HashMap based clustering\r\n\r\n* furthur improvements to clustering\r\n\r\n---------\r\n\r\nCo-authored-by: Tarun Koyalwar <tarun@projectdiscovery.io>",
+        "commit_date": "2024-06-27 07:44:43",
+        "release_date": "2024-06-16 14:53:37",
+        "release_message": "<!-- Release notes generated using configuration in .github/release.yml at main -->\r\n\r\n## What's Changed\r\n### 🎉 New Features\r\n* **Fuzzing feature enhancements** by @Ice3man543 in https://github.com/projectdiscovery/nuclei/pull/5139\r\n\t- Added `part: request` to fuzz all the keys in request with fuzzing templates.\r\n\t- Added `-fuzz-aggression` CLI option to control fuzz aggression via template.\r\n\t- Added `-fuzz-param-frequency` option to control counter for skipping uninteresting parameter.\r\n\t- Added `-display-fuzz-points` option to display fuzzing points (for debugging).\r\n* **PDCP Team ID input support** via environment variable to upload results into team account by @tarunKoyalwar in https://github.com/projectdiscovery/nuclei/pull/5295\r\n```console\r\nexport PDCP_TEAM_ID=cphlrbmnr2khg33n6ik1\r\n```\r\n> [!NOTE]\r\n> Team ID is optional input and can be obtained from https://cloud.projectdiscovery.io/settings/team. If provided, results will be uploaded to the team account instead of your personal account.\r\n\r\n### 🐞 Bug Fixes\r\n* **Fixed slow scan for hosts blocked WAF or getting timed out** by @Mzack9999 in https://github.com/projectdiscovery/nuclei/pull/5275\r\n* **Fixed issues with multi-thread execution** by @Mzack9999 in https://github.com/projectdiscovery/nuclei/pull/5187\r\n* Fixed panic on failed raw request by @tarunKoyalwar in https://github.com/projectdiscovery/nuclei/pull/5230\r\n* Fixed `ExecuteCallbackWithCtx` to use the context that was provided by @doug-threatmate in https://github.com/projectdiscovery/nuclei/pull/5236\r\n* Fixed nil deref err in reporting by @dogancanbakir in https://github.com/projectdiscovery/nuclei/pull/5283\r\n* Fixed `types.RequestResponse` url field `UnmarshalJSON` by @LazyMaple in https://github.com/projectdiscovery/nuclei/pull/5267\r\n* Fixed tempalte validation by @RamanaReddy0M in https://github.com/projectdiscovery/nuclei/pull/5261\r\n* Fixed severity filter for per tracker reporting filters by @Ice3man543 in https://github.com/projectdiscovery/nuclei/pull/5297\r\n\r\n### Other Changes\r\n* Added Spanish translation of README by @MachadoOtto in https://github.com/projectdiscovery/nuclei/pull/5242\r\n* Added Japanese translation of README by @eltociear in https://github.com/projectdiscovery/nuclei/pull/5259\r\n* Added timestamp in error log (`-elog`) with `-ts` option by @oscarintherocks in https://github.com/projectdiscovery/nuclei/pull/5292\r\n\r\n## New Contributors\r\n* @doug-threatmate made their first contribution in https://github.com/projectdiscovery/nuclei/pull/5236\r\n* @MachadoOtto made their first contribution in https://github.com/projectdiscovery/nuclei/pull/5242\r\n* @eltociear made their first contribution in https://github.com/projectdiscovery/nuclei/pull/5259\r\n* @oscarintherocks made their first contribution in https://github.com/projectdiscovery/nuclei/pull/5292\r\n* @LazyMaple made their first contribution in https://github.com/projectdiscovery/nuclei/pull/5267\r\n\r\n**Full Changelog**: https://github.com/projectdiscovery/nuclei/compare/v3.2.8...v3.2.9"
     },
     "https://github.com/sleeyax/burp-awesome-tls": {
         "created_at": "2024-05-01 22:28:19",
@@ -3154,12 +3154,12 @@
         "release_message": ""
     },
     "https://github.com/joke2k/faker": {
-        "created_at": "2024-06-25 19:28:30",
+        "created_at": "2024-06-26 21:17:07",
         "description": "Faker is a Python package that generates fake data for you.",
-        "commit_message": "Bump version: 25.9.1 → 25.9.2",
-        "commit_date": "2024-06-25 19:28:30",
-        "release_date": "2024-06-25 19:29:02",
-        "release_message": "See [CHANGELOG.md](https://github.com/joke2k/faker/blob/refs/tags/v25.9.2/CHANGELOG.md)."
+        "commit_message": "Bump version: 25.9.2 → 26.0.0",
+        "commit_date": "2024-06-26 21:17:07",
+        "release_date": "2024-06-26 21:17:46",
+        "release_message": "See [CHANGELOG.md](https://github.com/joke2k/faker/blob/refs/tags/v26.0.0/CHANGELOG.md)."
     },
     "https://github.com/NHPT/Xray_Cracked": {
         "created_at": "2023-04-24 06:48:58",
@@ -22938,8 +22938,8 @@
     "https://github.com/yhy0/Jie": {
         "created_at": "2024-05-20 14:48:28",
         "description": "Jie stands out as a comprehensive security assessment and exploitation tool meticulously crafted for web applications. Its robust suite of features encompasses vulnerability scanning, information gathering, and exploitation, elevating it to an indispensable toolkit for both security professionals and penetration testers. 挖洞辅助工具(漏洞扫描、信息收集)",
-        "commit_message": "feat api 路径收集去除图片类路径",
-        "commit_date": "2024-06-02 16:35:10",
+        "commit_message": "fix output.IPInfoList 并发错误",
+        "commit_date": "2024-06-15 15:32:06",
         "release_date": "2024-05-20 14:51:57",
         "release_message": "## Changelog\n* 0c4342a fix bug\n* 6e151ad update README.md\n* acae19e feat bbscan 扫描时对比扫描中识别到的指纹\n* da4ac5f feat bbscan 使用协程池\n* 26b1e37 fix env check\n* a29679e feat 一些优化;re2 更新\n* 5cda22d update go.mod\n* fcc2c9d feat 增加请求参数收集;请求/返回存在敏感参数识别\n* c88dbb0 feat add --nps to skip nmap\\masscan env check(Disable port scan)\n\n"
     },
@@ -23734,12 +23734,12 @@
         "release_message": "加入多线程和爬虫功能"
     },
     "https://github.com/bigblackhat/oFx": {
-        "created_at": "2021-09-30 08:07:03",
+        "created_at": "2024-06-14 05:21:29",
         "description": "漏洞批量验证框架",
         "commit_message": "2.26.5\n\n## version 2.26.5\n\n----------------\n新增：\n* ``JimuReport FreeMarker 服务端模板注入命令执行（CVE-2023-4450）``",
         "commit_date": "2024-06-14 05:21:29",
-        "release_date": "2021-10-02 15:53:28",
-        "release_message": "新增了十几二十个POC吧我并没有细数，更新细节可见于doc/coding.md文件，最近一直忙于项目，空余时间也用在学习JAVA，所以没有什么精力去思考oFx的后续前进方向，如果按照最初批量验证这一期望，那么我已经做到了，接下来只需要勤恳地填充POC即可，但随着POC的增多，我其实不是很满意现在oFx在单个目标漏扫上的表现（速度比较慢），也许我会将oFx单拎出来一个功能，也许是重开一个项目，就像我在每个POC里都有预留attack方法这个伏笔一样（在我看来oFx要实现批量漏洞利用需要一个统一的利用手段标准和痕迹匿名性，总之现在的构思和积累还不成熟，我从不满足于只做简单的漏洞验证），总之拭目以待吧，没有大的更新，我是不会数3的（此处致敬G胖）。"
+        "release_date": "2024-06-14 15:07:25",
+        "release_message": "一个稳定版"
     },
     "https://github.com/gh0stkey/Web-Fuzzing-Box": {
         "created_at": "2021-01-01 16:21:16",
@@ -23960,8 +23960,8 @@
     "https://github.com/0x783kb/Security-operation-book": {
         "created_at": "2019-07-10 08:44:30",
         "description": "常见的黑客行为监测特征及方法，涵盖端点和流量，未包含PowerShell和Sysmon。预祝运营生活愉快！",
-        "commit_date": "2024-06-07 06:36:21",
-        "commit_message": "6月7日大版本更新，统一数据源格式、场景名称等",
+        "commit_date": "2024-06-18 03:53:59",
+        "commit_message": "Update README.md",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -24412,8 +24412,8 @@
         "description": "魅族安全中心"
     },
     "https://sec.vip.com/": {
-        "status_code": 200,
-        "description": "VSRC首页-唯品会信息安全中心"
+        "status_code": 503,
+        "description": ""
     },
     "https://sec.wacai.com/": {
         "status_code": 200,
@@ -27075,7 +27075,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "172.183.39.79属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "40.75.123.101属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
@@ -28096,8 +28096,8 @@
     "https://github.com/R0A1NG/Botgate_bypass": {
         "created_at": "2024-04-25 09:47:00",
         "description": "绕过瑞数waf的动态验证机制，实现请求包重放，理论支持不同网站环境使用，如网页、小程序、APP等。",
-        "commit_message": "Update mitmdump.py",
-        "commit_date": "2024-06-14 04:50:09",
+        "commit_message": "update",
+        "commit_date": "2024-06-26 03:41:44",
         "release_date": "2024-04-25 09:48:48",
         "release_message": "v2.1，此处不为最新版本，下载最新版本请直接git下载"
     },
@@ -28117,9 +28117,9 @@
     },
     "https://github.com/milu001/sm234_decrypt_gui": {
         "created_at": "2024-04-03 07:32:11",
-        "description": "sm234_decrypt_gui",
+        "description": "国密SM系列加解密图形化GUI工具，支持sm2加密，sm2解密，sm3加密，sm4加密，sm4解密，sm4支持多种填充方式，输入输出支持hex与base64。不依赖网络，适合内网使用",
         "commit_message": "Update README.md",
-        "commit_date": "2024-06-14 09:18:01",
+        "commit_date": "2024-06-20 02:37:13",
         "release_date": "2024-06-14 07:22:04",
         "release_message": "SM2加解密\r\nSM3计算，大小写\r\nSM4加解密，支持了PKCS7、PKCS5、Zero、Ansix923、ISO10126填充方式"
     },
@@ -28726,5 +28726,19 @@
         "commit_date": "2024-06-27 02:32:13",
         "release_date": "2024-06-23 09:34:01",
         "release_message": "增加了大华智慧园区综合管理平台sendFaceInfo模块检测\r\n增加了大华智慧园区综合管理平台deleteFtp模块检测\r\n增加了大华EIMS-capture_handle模块检测\r\n增加了大华智能物联综合管理平台random模块检测\r\n增加了大华智慧园区综合管理平台ipms模块检测"
+    },
+    "https://github.com/birdhan/SecurityProduct": {
+        "created_at": "2018-12-30 07:55:40",
+        "description": "开源安全产品源码，IDS、IPS、WAF、蜜罐等",
+        "commit_message": "Update README.md",
+        "commit_date": "2024-06-11 08:03:36"
+    },
+    "https://github.com/chatchat-space/Langchain-Chatchat": {
+        "created_at": "2024-06-20 23:24:32",
+        "description": "Langchain-Chatchat（原Langchain-ChatGLM, Qwen 与 Llama 等）基于 Langchain 与 ChatGLM 等语言模型的 RAG 与 Agent 应用 | Langchain-Chatchat (formerly langchain-ChatGLM), local knowledge based LLM (like ChatGLM, Qwen and Llama) RAG and Agent app with langchain ",
+        "commit_message": "Merge pull request #4319 from kwunhang/v0.3.0_master\n\nfix: fix the problem when Milvus is used as knowledge base",
+        "commit_date": "2024-06-27 13:59:12",
+        "release_date": "2024-06-20 23:27:17",
+        "release_message": "## 重要提示\r\nLangchain-Chatchat v0.3.0 相比 0.2.x 有较大项目结构变动，但知识库的源文件与向量库仍可与前序版本通用，建议参考项目 README.md 中 `快速上手` 章节内容进行新版本部署。\r\n\r\n------\r\n## 新增功能\r\n* Langchain-Chatchat Python 库现已发布至 Pypi，可通过 pip install langchain-chatchat 方式直接安装； \r\n* 替换原有 FastChat 模型推理框架，支持 Xinference、Ollama、One API 等多种模型推理与在线 API 框架的接入；\r\n* 所有 Chat 接口修改为与 OpenAI API 形式对齐，真正实现 OpenAI API In, OpenAI API Out；\r\n* 重构 Agent 功能，针对 GLM 和 Qwen 模型进行适配优化；\r\n* 新增 ArXiv 文献对话、Wolfram 对话、文生图等多种 Agent 可调用工具；\r\n* 更新知识库问答功能，支持 Ensemble Retriever 接入，并将在后续接入更多不同类型 Retriever；\r\n* 更新 Streamlit WebUI，支持模型推理框架选择、对话管理、工具选择等多种新功能；\r\n* 增加 Text2SQL 工具，支持 SQLAlchemy 大部分数据库，支持特定表、智能判定表与 Read-Only 模式，支持对表名进行额外说明；\r\n* 新增 chatchat、chatchat-config、chatchat-kb 命令，支持通过命令行进行项目配置、知识库重构与项目启动；\r\n* 更多细节更新，期待你的探索发现！\r\n\r\n## 新晋贡献者\r\n* @yhfgyyf made their first contribution in https://github.com/chatchat-space/Langchain-Chatchat/pull/2630\r\n* @HALIndex made their first contribution in https://github.com/chatchat-space/Langchain-Chatchat/pull/2591\r\n* @596192804 made their first contribution in https://github.com/chatchat-space/Langchain-Chatchat/pull/2013\r\n* @Lijia0 made their first contribution in https://github.com/chatchat-space/Langchain-Chatchat/pull/2480\r\n* @xyhshen made their first contribution in https://github.com/chatchat-space/Langchain-Chatchat/pull/2648\r\n* @MSZheng20 made their first contribution in https://github.com/chatchat-space/Langchain-Chatchat/pull/2688\r\n* @showmecodett made their first contribution in https://github.com/chatchat-space/Langchain-Chatchat/pull/2740\r\n* @songpb made their first contribution in https://github.com/chatchat-space/Langchain-Chatchat/pull/2816\r\n* @fengyaojieTTT made their first contribution in https://github.com/chatchat-space/Langchain-Chatchat/pull/2919\r\n* @criwits made their first contribution in https://github.com/chatchat-space/Langchain-Chatchat/pull/2949\r\n* @wusongbai139 made their first contribution in https://github.com/chatchat-space/Langchain-Chatchat/pull/2960\r\n* @thinklover made their first contribution in https://github.com/chatchat-space/Langchain-Chatchat/pull/2892\r\n* @hollowdjj made their first contribution in https://github.com/chatchat-space/Langchain-Chatchat/pull/3155\r\n* @dignfei made their first contribution in https://github.com/chatchat-space/Langchain-Chatchat/pull/3276\r\n* @Sumkor made their first contribution in https://github.com/chatchat-space/Langchain-Chatchat/pull/3324\r\n* @oslijunw made their first contribution in https://github.com/chatchat-space/Langchain-Chatchat/pull/3404\r\n* @liudichen made their first contribution in https://github.com/chatchat-space/Langchain-Chatchat/pull/3407\r\n* @srszzw made their first contribution in https://github.com/chatchat-space/Langchain-Chatchat/pull/3508\r\n* @RoceoRobin made their first contribution in https://github.com/chatchat-space/Langchain-Chatchat/pull/3585\r\n* @yuehua-s made their first contribution in https://github.com/chatchat-space/Langchain-Chatchat/pull/3664\r\n* @LOGIC-10 made their first contribution in https://github.com/chatchat-space/Langchain-Chatchat/pull/3108\r\n* @saliven1970 made their first contribution in https://github.com/chatchat-space/Langchain-Chatchat/pull/3458\r\n* @dengpeng777 made their first contribution in https://github.com/chatchat-space/Langchain-Chatchat/pull/3574\r\n* @FJiangArthur made their first contribution in https://github.com/chatchat-space/Langchain-Chatchat/pull/3340\r\n* @Kudoryafuka3 made their first contribution in https://github.com/chatchat-space/Langchain-Chatchat/pull/3804\r\n* @An0nymous0 made their first contribution in https://github.com/chatchat-space/Langchain-Chatchat/pull/3564\r\n* @pearjelly made their first contribution in https://github.com/chatchat-space/Langchain-Chatchat/pull/3912\r\n* @qqlww1987 made their first contribution in https://github.com/chatchat-space/Langchain-Chatchat/pull/3203\r\n* @vegetablest made their first contribution in https://github.com/chatchat-space/Langchain-Chatchat/pull/4048\r\n* @selfuppen made their first contribution in https://github.com/chatchat-space/Langchain-Chatchat/pull/3873\r\n* @BestLemoon made their first contribution in https://github.com/chatchat-space/Langchain-Chatchat/pull/3887\r\n* @liuchuan01 made their first contribution in https://github.com/chatchat-space/Langchain-Chatchat/pull/3206\r\n* @momomobinx made their first contribution in https://github.com/chatchat-space/Langchain-Chatchat/pull/3477\r\n* @gzYou made their first contribution in https://github.com/chatchat-space/Langchain-Chatchat/pull/3821\r\n* @klaus-xiong made their first contribution in https://github.com/chatchat-space/Langchain-Chatchat/pull/3926\r\n* @weank1984 made their first contribution in https://github.com/chatchat-space/Langchain-Chatchat/pull/4135\r\n* @zhenlong-zhu made their first contribution in https://github.com/chatchat-space/Langchain-Chatchat/pull/3229\r\n\r\n**Full Changelog**: https://github.com/chatchat-space/Langchain-Chatchat/compare/v0.2.10...v0.3.0"
     }
 }
