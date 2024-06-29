@@ -4275,8 +4275,8 @@
     "https://github.com/Awrrays/FrameVul": {
         "created_at": "2022-04-04 05:54:00",
         "description": "POC集合，框架nday漏洞利用",
-        "commit_message": "Update and rename readme to readme.md",
-        "commit_date": "2024-01-04 09:26:20"
+        "commit_message": "Update README.md",
+        "commit_date": "2024-06-17 02:39:42"
     },
     "https://github.com/admintony/Prepare-for-AWD": {
         "created_at": "2017-11-10 10:50:00",
@@ -23900,7 +23900,7 @@
         "release_message": "调用chatGPT进行代码审计。"
     },
     "https://github.com/W01fh4cker/VcenterKit": {
-        "created_at": "2023-04-27 04:09:57",
+        "created_at": "2023-09-04 15:21:20",
         "description": "Vcenter综合渗透利用工具包 | Vcenter Comprehensive Penetration and Exploitation Toolkit",
         "commit_date": "2023-11-01 06:51:57",
         "commit_message": "Update README.md",
@@ -26376,8 +26376,8 @@
     "https://github.com/vvmdx/Sec-Interview-4-2023": {
         "created_at": "2022-02-18 07:36:35",
         "description": "一个2023届毕业生在毕业前持续更新、收集的安全岗面试题及面试经验分享~",
-        "commit_message": "update.总共138篇了",
-        "commit_date": "2024-03-16 10:21:18"
+        "commit_message": "update: 推荐一个社群",
+        "commit_date": "2024-06-27 07:28:41"
     },
     "https://github.com/smartdec/smartcheck": {
         "created_at": "2019-01-10 14:42:29",
@@ -27075,7 +27075,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "20.51.159.36属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "20.168.23.52属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
