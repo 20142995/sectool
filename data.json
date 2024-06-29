@@ -1727,7 +1727,7 @@
         "release_message": "Release Date: 2024-05-19\n\n## :scroll: Changelog\n\n### :bomb: Exploits \n\n* Feat(exp): adapt docker devicemapper file system when get docker rootfs\n\n\n\n### :toolbox: Tools\n\n* 增加查看网络连接信息\n* Fix(eva): long standing timeout in discovery k8s apiserver with sa, error msg: GET, ...connection timed out\n\n### :sparkles: Others\n\n* Feat(tool docs): add netstat document\n* Fix(cgroup): latter part slice len error (#87)\n* Chore: os.SEEK_END has been deprecated since Go 1.7\n* Feat(exp): adapt docker devicemapper file system when get docker rootfs\n\n## :key: Hash Table\n\n|SHA256|EXECTUE FILE|\n|---|---|\n|64b40a70b232b7e23a187a11c52ef8d8b7f3e16a5b869af16b390cbbe4aab935|cdk_darwin_amd64\n4c7260ac051907d12896054145fe103f9ea06de3bb2f04f0aab953dff32028de|cdk_linux_386\n2c757f0065c167e633318ff8d43cb85cf936eae2db224f4e066098f4a8cb324a|cdk_linux_386_thin\n197c42343c75fbbb7d77f3aaa92e04e43ddec927887e889197db72fcff5e9df4|cdk_linux_386_thin_upx\n17b096ff5df1b612abc12887e65fae97280533bfe058ce6becb9c0920f4d4c42|cdk_linux_386_upx\nd7f0690e41786270f345ff4851fd4b239631d4c1e7a6b9f74ad139565cbdb2ed|cdk_linux_amd64\n13f42e004a25be9ba99aee3396a1d810026d7750d1e199774c5ba8410b15ae30|cdk_linux_amd64_thin\ncdac5cd3d0ff424315da3e233a79f72663c26e53fc4ac2e5031ea08154630514|cdk_linux_amd64_thin_upx\nccbc5c84af4045835e6b001cdf845d63802e081cbb97d9625c12d8d0f9b6f852|cdk_linux_amd64_upx\n896b8d804debd233200375a5b7c1218d5b8bf5f53aaaa685b9d411c0770e27d4|cdk_linux_arm\n381448682cb5ea5ff1bc8bfd3462e637da0445fc74fdb60e0de5e11d8c2dc90d|cdk_linux_arm64\n2b92652d4909d39e12fc9320188f9e834b82f80d3aba92dea4267608f3543861|cdk_linux_arm64_thin|\n"
     },
     "https://github.com/hack2fun/Gscan": {
-        "created_at": "2020-01-11 15:57:24",
+        "created_at": "2020-01-11 15:58:49",
         "description": "Gscan is a high concurrency scanner based on golang",
         "commit_date": "2020-01-12 01:25:03",
         "commit_message": "Update README.md\n\nchange some descriptions",
@@ -5348,13 +5348,13 @@
         "release_message": ""
     },
     "https://github.com/ahmedkhlief/APT-Hunter": {
-        "created_at": "2020-12-26 21:52:41",
+        "created_at": "2024-02-06 18:29:48",
         "description": "APT-Hunter is Threat Hunting tool for windows event logs which made by purple team mindset to provide detect APT movements hidden in the sea of windows event logs to decrease the time to uncover suspicious activity",
-        "commit_date": "2023-05-07 14:26:57",
-        "commit_message": "Update to Version 3.1-beta",
+        "commit_date": "2024-02-06 18:29:48",
+        "commit_message": "update to 3.2",
         "release_tag": "V3.0",
-        "release_date": "2023-01-29 06:23:20",
-        "release_message": "New Release Info : [APT-HUNTER V3.0 : Rebuilt with Multiprocessing and new cool features](https://shells.systems/apt-hunter-v3-0-rebuilt-with-multiprocessing-and-new-cool-features/)"
+        "release_date": "2024-02-06 18:37:38",
+        "release_message": "Fix reported issues with reports not generated , timezone not used . also added new feature to create directory for profile output"
     },
     "https://github.com/FunnyWolf/pystinger": {
         "created_at": "2021-03-13 02:55:49",
@@ -5571,13 +5571,13 @@
         "release_message": ""
     },
     "https://github.com/SiJiDo/IEyes": {
-        "created_at": "2022-01-20 07:09:04",
+        "created_at": "2022-08-18 08:50:42",
         "description": "icp备案查询",
-        "commit_date": "2022-08-18 08:50:42",
-        "commit_message": "update",
+        "commit_date": "2023-09-01 04:23:43",
+        "commit_message": "Add files via upload\n\nfix bug",
         "release_tag": "v0.1.2",
-        "release_date": "2022-08-18 08:28:56",
-        "release_message": "v0.1.2 增加通过txt批量查询\r\n"
+        "release_date": "2023-09-01 04:12:42",
+        "release_message": "修复近期天眼查爬取失败的bug，添加了正常的user-agent头，换电脑了没有怎么配置go的环境，顺手就编译了windows，linux，mac的三个二进制文件，如果有其他版本需要，进入main文件夹后go build编译即可"
     },
     "https://github.com/al0ne/LinuxCheck": {
         "created_at": "2024-05-09 16:02:29",
@@ -5747,7 +5747,7 @@
         "release_message": ""
     },
     "https://github.com/MountCloud/FireKylin": {
-        "created_at": "2021-05-21 06:30:05",
+        "created_at": "2021-12-19 17:28:06",
         "description": "🔥火麒麟-网络安全应急响应工具(系统痕迹采集)Cybersecurity emergency response tool.👍👍👍",
         "commit_date": "2021-12-19 17:28:06",
         "commit_message": "v1.4.0",
@@ -5826,7 +5826,7 @@
         "release_message": ""
     },
     "https://github.com/Yamato-Security/WELA": {
-        "created_at": "2021-05-13 22:33:21",
+        "created_at": "2021-12-24 23:41:16",
         "description": "WELA (Windows Event Log Analyzer): The Swiss Army knife for Windows Event Logs! ゑ羅（ウェラ）",
         "commit_date": "2023-02-03 23:43:57",
         "commit_message": "Merge pull request #100 from Yamato-Security/92-describe-sigma-rule-in-wela-not-update-in-readme\n\nadd sigma rule support in wela not update in readme",
@@ -22563,7 +22563,7 @@
         "release_message": "新增官方语法示例面板：\r\n\r\n![image](https://github.com/10cks/fofaEX/assets/47177550/e86a6187-39b8-4dac-8b64-0ae231ac14cf)\r\n"
     },
     "https://github.com/session-replay-tools/tcpburn": {
-        "created_at": "2015-06-26 02:40:26",
+        "created_at": "2013-09-09 06:13:56",
         "description": "The most powerful tool for stress testing of Internet server applications",
         "commit_date": "2019-07-14 09:20:34",
         "commit_message": "Update README.md",
@@ -23725,7 +23725,7 @@
         "release_message": "gosint V1.0.3"
     },
     "https://github.com/k3rwin/log4j2-intranet-scan": {
-        "created_at": "2021-12-24 09:32:16",
+        "created_at": "2022-01-27 05:50:14",
         "description": "log4j2内网扫描",
         "commit_date": "2022-03-16 05:13:18",
         "commit_message": "fix",
@@ -26004,7 +26004,7 @@
         "release_message": "### Fuzzy detection option added [-f or --fuzzy]\r\n- Added -f or --fuzzy flag to enable fuzzy detection of partial XSS reflections in HTML source code.\r\n- Uses the FuzzyWuzzy Python library for this feature. \r\n- Additional changes include a new detect_xss() method to allow easier improvements to this feature in the future.\r\n- Flag is optional, so users who are not interested in this feature should not be impacted by these changes.\r\n### Documentation and more comments\r\n- Docstrings were added to methods and more comments were included to explain the fuzzy detection additions"
     },
     "https://github.com/stampery/mongoaudit": {
-        "created_at": "2016-11-24 14:43:31",
+        "created_at": "2020-05-24 00:16:40",
         "description": "🔥 A powerful MongoDB auditing and pentesting tool 🔥",
         "commit_message": "Update installation steps",
         "commit_date": "2020-12-02 23:31:25",
@@ -27075,7 +27075,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "20.168.23.52属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "20.55.86.178属于美国 弗吉尼亚 斯特灵 微软云 数据中心_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
@@ -28752,5 +28752,13 @@
         "description": "The all-in-one Desktop & Docker AI application with full RAG and AI Agent capabilities.",
         "commit_message": "Deprecate `.isSafe` moderation (#1790)\n\nAdd type defs to helpers",
         "commit_date": "2024-06-28 22:32:30"
+    },
+    "https://github.com/mifine666/miscan": {
+        "created_at": "2024-06-19 07:30:57",
+        "description": "一款简单好用的漏洞管理工具，支持本地和协作两种模式。",
+        "commit_message": "Update README.md",
+        "commit_date": "2024-06-24 01:06:10",
+        "release_date": "2024-06-21 13:52:30",
+        "release_message": "1、支持本地和协作两种模式的漏洞管理\r\n2、支持多URL的漏洞批量检测"
     }
 }
