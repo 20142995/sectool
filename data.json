@@ -2502,7 +2502,7 @@
         "release_message": ""
     },
     "https://github.com/rtcatc/Packer-Fuzzer": {
-        "created_at": "2020-09-30 20:21:15",
+        "created_at": "2022-06-19 15:47:07",
         "description": "Packer Fuzzer is a fast and efficient scanner for security detection of websites constructed by javascript module bundler such as Webpack. ",
         "commit_date": "2024-05-24 11:06:24",
         "commit_message": "v1.4.16 update config",
@@ -23284,7 +23284,7 @@
         "release_message": ""
     },
     "https://github.com/f0cker/crackq": {
-        "created_at": "2023-12-29 13:27:37",
+        "created_at": "2019-09-18 12:40:58",
         "description": "CrackQ: A Python Hashcat cracking queue system",
         "commit_message": "Update bug_report.md",
         "commit_date": "2024-05-24 08:01:19",
@@ -27075,7 +27075,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "172.183.50.157属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "20.55.15.80属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
@@ -27402,8 +27402,8 @@
     "https://github.com/sullo/nikto": {
         "created_at": "2023-12-03 16:16:14",
         "description": "Nikto web server scanner",
-        "commit_message": "Merge pull request #827 from Proto1337/master\n\nBump Alpine version in Dockerfile",
-        "commit_date": "2024-05-08 00:15:22",
+        "commit_message": "One more ADCS tests",
+        "commit_date": "2024-06-27 14:27:56",
         "release_date": "2023-12-03 19:00:51",
         "release_message": "Nikto 2.5.0 has now been promoted to release and the master branch!\r\n\r\n**Note: [Breaking changes](https://github.com/sullo/nikto/wiki/2.5.0-Potentially-Breaking-Changes) to JSON and XML output may have occurred. If you rely on these formats please test before upgrading.**\r\n\r\nThis version contains hundreds of updates over several years, including the highlights below. \r\n- IPv6 support (thanks to @richardleach)\r\n- Updated `db_checks` format uses multiple reference\r\n- Hundreds of OSVDB and BID references replaced\r\n- Removal of some very old and false-positive prone tests\r\n- Decode Netscaler cookies (thanks to @canberkpolat)\r\n- Add `-usecookies` flag to send received cookies with subsequent requests\r\n- Add `-followredirects` flag to signal 3xx responses should be fetched and tested\r\n- Add `-noslash` to remove trailing slash from directories\r\n- Check for indexing on redirect paths\r\n- Alert on `alt-svc` header\r\n- Hundreds of bug fixes, test updates and enhancements, and other optimization changes\r\n\r\nYou can start using Nikto 2.5.0 by performing a `git pull` from the master branch, cloning the repository again, or [downloading the zip file](https://github.com/sullo/nikto/archive/refs/heads/master.zip).\r\n\r\nAs always, if you encounter bugs or problems, please [open an issue](https://github.com/sullo/nikto/issues/new/choose).\r\n\r\n![image](https://github.com/sullo/nikto/assets/1474884/796062af-7cb1-404c-9c0c-720d110d62c7 )\r\n"
     },
@@ -28740,5 +28740,11 @@
         "commit_date": "2024-06-27 13:59:12",
         "release_date": "2024-06-20 23:27:17",
         "release_message": "## 重要提示\r\nLangchain-Chatchat v0.3.0 相比 0.2.x 有较大项目结构变动，但知识库的源文件与向量库仍可与前序版本通用，建议参考项目 README.md 中 `快速上手` 章节内容进行新版本部署。\r\n\r\n------\r\n## 新增功能\r\n* Langchain-Chatchat Python 库现已发布至 Pypi，可通过 pip install langchain-chatchat 方式直接安装； \r\n* 替换原有 FastChat 模型推理框架，支持 Xinference、Ollama、One API 等多种模型推理与在线 API 框架的接入；\r\n* 所有 Chat 接口修改为与 OpenAI API 形式对齐，真正实现 OpenAI API In, OpenAI API Out；\r\n* 重构 Agent 功能，针对 GLM 和 Qwen 模型进行适配优化；\r\n* 新增 ArXiv 文献对话、Wolfram 对话、文生图等多种 Agent 可调用工具；\r\n* 更新知识库问答功能，支持 Ensemble Retriever 接入，并将在后续接入更多不同类型 Retriever；\r\n* 更新 Streamlit WebUI，支持模型推理框架选择、对话管理、工具选择等多种新功能；\r\n* 增加 Text2SQL 工具，支持 SQLAlchemy 大部分数据库，支持特定表、智能判定表与 Read-Only 模式，支持对表名进行额外说明；\r\n* 新增 chatchat、chatchat-config、chatchat-kb 命令，支持通过命令行进行项目配置、知识库重构与项目启动；\r\n* 更多细节更新，期待你的探索发现！\r\n\r\n## 新晋贡献者\r\n* @yhfgyyf made their first contribution in https://github.com/chatchat-space/Langchain-Chatchat/pull/2630\r\n* @HALIndex made their first contribution in https://github.com/chatchat-space/Langchain-Chatchat/pull/2591\r\n* @596192804 made their first contribution in https://github.com/chatchat-space/Langchain-Chatchat/pull/2013\r\n* @Lijia0 made their first contribution in https://github.com/chatchat-space/Langchain-Chatchat/pull/2480\r\n* @xyhshen made their first contribution in https://github.com/chatchat-space/Langchain-Chatchat/pull/2648\r\n* @MSZheng20 made their first contribution in https://github.com/chatchat-space/Langchain-Chatchat/pull/2688\r\n* @showmecodett made their first contribution in https://github.com/chatchat-space/Langchain-Chatchat/pull/2740\r\n* @songpb made their first contribution in https://github.com/chatchat-space/Langchain-Chatchat/pull/2816\r\n* @fengyaojieTTT made their first contribution in https://github.com/chatchat-space/Langchain-Chatchat/pull/2919\r\n* @criwits made their first contribution in https://github.com/chatchat-space/Langchain-Chatchat/pull/2949\r\n* @wusongbai139 made their first contribution in https://github.com/chatchat-space/Langchain-Chatchat/pull/2960\r\n* @thinklover made their first contribution in https://github.com/chatchat-space/Langchain-Chatchat/pull/2892\r\n* @hollowdjj made their first contribution in https://github.com/chatchat-space/Langchain-Chatchat/pull/3155\r\n* @dignfei made their first contribution in https://github.com/chatchat-space/Langchain-Chatchat/pull/3276\r\n* @Sumkor made their first contribution in https://github.com/chatchat-space/Langchain-Chatchat/pull/3324\r\n* @oslijunw made their first contribution in https://github.com/chatchat-space/Langchain-Chatchat/pull/3404\r\n* @liudichen made their first contribution in https://github.com/chatchat-space/Langchain-Chatchat/pull/3407\r\n* @srszzw made their first contribution in https://github.com/chatchat-space/Langchain-Chatchat/pull/3508\r\n* @RoceoRobin made their first contribution in https://github.com/chatchat-space/Langchain-Chatchat/pull/3585\r\n* @yuehua-s made their first contribution in https://github.com/chatchat-space/Langchain-Chatchat/pull/3664\r\n* @LOGIC-10 made their first contribution in https://github.com/chatchat-space/Langchain-Chatchat/pull/3108\r\n* @saliven1970 made their first contribution in https://github.com/chatchat-space/Langchain-Chatchat/pull/3458\r\n* @dengpeng777 made their first contribution in https://github.com/chatchat-space/Langchain-Chatchat/pull/3574\r\n* @FJiangArthur made their first contribution in https://github.com/chatchat-space/Langchain-Chatchat/pull/3340\r\n* @Kudoryafuka3 made their first contribution in https://github.com/chatchat-space/Langchain-Chatchat/pull/3804\r\n* @An0nymous0 made their first contribution in https://github.com/chatchat-space/Langchain-Chatchat/pull/3564\r\n* @pearjelly made their first contribution in https://github.com/chatchat-space/Langchain-Chatchat/pull/3912\r\n* @qqlww1987 made their first contribution in https://github.com/chatchat-space/Langchain-Chatchat/pull/3203\r\n* @vegetablest made their first contribution in https://github.com/chatchat-space/Langchain-Chatchat/pull/4048\r\n* @selfuppen made their first contribution in https://github.com/chatchat-space/Langchain-Chatchat/pull/3873\r\n* @BestLemoon made their first contribution in https://github.com/chatchat-space/Langchain-Chatchat/pull/3887\r\n* @liuchuan01 made their first contribution in https://github.com/chatchat-space/Langchain-Chatchat/pull/3206\r\n* @momomobinx made their first contribution in https://github.com/chatchat-space/Langchain-Chatchat/pull/3477\r\n* @gzYou made their first contribution in https://github.com/chatchat-space/Langchain-Chatchat/pull/3821\r\n* @klaus-xiong made their first contribution in https://github.com/chatchat-space/Langchain-Chatchat/pull/3926\r\n* @weank1984 made their first contribution in https://github.com/chatchat-space/Langchain-Chatchat/pull/4135\r\n* @zhenlong-zhu made their first contribution in https://github.com/chatchat-space/Langchain-Chatchat/pull/3229\r\n\r\n**Full Changelog**: https://github.com/chatchat-space/Langchain-Chatchat/compare/v0.2.10...v0.3.0"
+    },
+    "https://github.com/Bypass007/Safety-Project-Collection": {
+        "created_at": "2019-04-09 01:43:21",
+        "description": "收集一些比较优秀的开源安全项目，以帮助甲方安全从业人员构建企业安全能力。",
+        "commit_message": "Update README.md",
+        "commit_date": "2022-04-11 05:34:01"
     }
 }
