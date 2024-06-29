@@ -26232,8 +26232,8 @@
     "https://github.com/cliffe/secgen": {
         "created_at": "2015-01-29 16:33:04",
         "description": "Create randomly insecure VMs",
-        "commit_message": "Merge pull request #313 from JD2344/gnu-screen\n\nGnu screen priv esc module",
-        "commit_date": "2024-04-29 10:54:18"
+        "commit_message": "Jboss_remoting_unified_invoker_rce flags location, for #315",
+        "commit_date": "2024-06-26 13:13:41"
     },
     "https://github.com/shengqi158/weak_password_detect": {
         "created_at": "2013-01-24 09:30:06",
@@ -27075,7 +27075,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "20.55.15.80属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "20.51.159.36属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
@@ -28746,5 +28746,11 @@
         "description": "收集一些比较优秀的开源安全项目，以帮助甲方安全从业人员构建企业安全能力。",
         "commit_message": "Update README.md",
         "commit_date": "2022-04-11 05:34:01"
+    },
+    "https://github.com/Mintplex-Labs/anything-llm": {
+        "created_at": "2023-06-04 02:29:14",
+        "description": "The all-in-one Desktop & Docker AI application with full RAG and AI Agent capabilities.",
+        "commit_message": "Deprecate `.isSafe` moderation (#1790)\n\nAdd type defs to helpers",
+        "commit_date": "2024-06-28 22:32:30"
     }
 }
