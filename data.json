@@ -1863,8 +1863,8 @@
     "https://github.com/hanc00l/nemo_go": {
         "created_at": "2024-02-01 00:34:56",
         "description": "Nemo是用来进行自动化信息收集的一个简单平台，通过集成常用的信息收集工具和技术，实现对内网及互联网资产信息的自动收集，提高隐患排查和渗透测试的工作效率。",
-        "commit_message": "Update: 去除fingerprintx的ssh协议结果中的algo字段",
-        "commit_date": "2024-04-11 07:51:59",
+        "commit_message": "Update：增加nemo任务的自动化测试（大部份功能可测试，需配合nemo_test项目的模拟环境）",
+        "commit_date": "2024-06-27 13:11:33",
         "release_date": "2024-02-01 00:53:23",
         "release_message": "### Update\r\n\r\n- 集成飞书知识库，详细使用方法请参考[飞书知识库](docs/wiki_feishu.md)；数据库新增了wiki表，从v2.11升级需导入wiki.sql；\r\n- 在web后台查看acceelog日志；\r\n- web的配置管理拆分为Server端和Worker端；\r\n- 更新nuclei的poc；\r\n\r\n### Thirdparty版本\r\n\r\n- Httpx：1.3.9\r\n- Subfinder：2.6.4\r\n- Nuclei：3.1.7\r\n- Gogo: 2.11.12\r\n- Goby：2.8.8\r\n- Xray：1.9.11\r\n- fingerprintx：1.1.13（fork and fixed by [hanc00l](https://github.com/hanc00l/fingerprintx))\r\n"
     },
@@ -24233,12 +24233,12 @@
         "release_message": "Refer to the [CHANGELOG.md](https://github.com/jeremylong/DependencyCheck/blob/main/CHANGELOG.md#change-log) for information about improvements and upgrade notes."
     },
     "https://github.com/mrknow001/API-Explorer": {
-        "created_at": "2024-01-24 06:26:49",
+        "created_at": "2024-06-26 05:07:32",
         "description": "API接口管理工具(目前内置微信公众号、微信小程序、企业微信)",
         "commit_message": "Update README.md",
-        "commit_date": "2024-04-11 02:39:52",
-        "release_date": "2024-01-24 06:30:12",
-        "release_message": "**v1.0.1更新内容**\r\n\r\n1. 取消不能输入特殊字符\r\n\r\n**TIPS**\r\n打包exe分两版\r\n一个是文件大启动速度快(zip)\r\n一个是文件小启动速度慢(exe)\r\nPS：Python通病，实在想不到什么办法打包出来的exe又快又小\r\n用不起的改下兼容性，改成win7或者win8\r\n\r\n需要将写好接口配置的数据库放在程序同目录下，数据库下载链接：https://github.com/mrknow001/API-Explorer/blob/main/ApiInfo.db"
+        "commit_date": "2024-06-26 05:47:01",
+        "release_date": "2024-06-26 05:09:16",
+        "release_message": "**v2.0.0更新内容**\r\n\r\n1. 更新飞书接口，使用ApiInfo2.0.db数据库，不过也兼容原来的数据库文件\r\n2. 增加自定义接口，可运用于私有化环境\r\n\r\n**TIPS**\r\n打包exe分两版\r\n一个是文件大启动速度快(zip)\r\n一个是文件小启动速度慢(exe)\r\nPS：Python通病，实在想不到什么办法打包出来的exe又快又小\r\n用不起的改下兼容性，改成win7或者win8\r\n\r\n需要将写好接口配置的数据库放在程序同目录下，数据库下载链接：https://github.com/mrknow001/API-Explorer/blob/main/ApiInfo2.0.db\r\n\r\n**Full Changelog**: https://github.com/mrknow001/API-Explorer/compare/v2.0.0...v2.0.0"
     },
     "https://github.com/x364e3ab6/AWVS-13-SCAN-PLUS": {
         "created_at": "",
@@ -24412,8 +24412,8 @@
         "description": "魅族安全中心"
     },
     "https://sec.vip.com/": {
-        "status_code": 200,
-        "description": "VSRC首页-唯品会信息安全中心"
+        "status_code": 503,
+        "description": ""
     },
     "https://sec.wacai.com/": {
         "status_code": 200,
@@ -27075,7 +27075,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "20.172.5.34属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "52.225.76.189属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
@@ -28760,5 +28760,13 @@
         "commit_date": "2024-06-24 01:06:10",
         "release_date": "2024-06-21 13:52:30",
         "release_message": "1、支持本地和协作两种模式的漏洞管理\r\n2、支持多URL的漏洞批量检测"
+    },
+    "https://github.com/MInggongK/Hikvision-": {
+        "created_at": "2024-06-21 14:32:44",
+        "description": "Hikvision综合漏洞利用工具",
+        "commit_message": "Update README.md",
+        "commit_date": "2024-06-24 09:07:18",
+        "release_date": "2024-06-21 14:39:23",
+        "release_message": "增加了批量指纹识别功能\r\n增加了Hikvision综合安防管理平台orgManage模块检测\r\n增加了Hikvision综合安防管理平台files模块检测"
     }
 }
