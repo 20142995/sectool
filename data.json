@@ -387,8 +387,8 @@
     "https://github.com/boy-hack/ksubdomain": {
         "created_at": "2022-03-31 05:45:50",
         "description": "Subdomain enumeration tool, asynchronous dns packets, use pcap to scan 1600,000 subdomains in 1 second",
-        "commit_date": "2022-06-15 09:27:52",
-        "commit_message": "Merge branch 'main' of https://github.com/boy-hack/ksubdomain",
+        "commit_date": "2024-06-21 17:06:14",
+        "commit_message": "添加域名枚举测试用例",
         "release_tag": "v1.9.5",
         "release_date": "2022-03-31 05:47:14",
         "release_message": ""
@@ -721,7 +721,7 @@
         "release_message": ""
     },
     "https://github.com/CTF-MissFeng/report": {
-        "created_at": "2021-06-27 15:03:37",
+        "created_at": "2021-06-30 05:46:36",
         "description": "乙方渗透测试漏洞报告管理系统",
         "commit_date": "2021-06-30 05:46:36",
         "commit_message": "Delete .DS_Store",
@@ -2511,7 +2511,7 @@
         "release_message": "- v1.4 2022/06/19\r\n\r\n  1. 修复了若干会导致扫描器异常运行的Bug;\r\n\r\n  2. 移除废弃的python扩展内容;\r\n\r\n  3. 优化了HTML报告，现可显示API返回内容长度，并可进行排序;\r\n\r\n  4. 添加了POST和GET请求切换机制；\r\n\r\n  5. 添加了Content-Type请求头的自定义功能;\r\n\r\n  6. 添加了POST请求时的数据内容自定义功能;\r\n\r\n  7. 添加了自定义Api服务器地址的功能。"
     },
     "https://github.com/yunxu1/dnsub": {
-        "created_at": "2020-03-21 12:06:52",
+        "created_at": "2020-05-07 10:22:32",
         "description": "dnsub一款好用且强大的子域名扫描工具",
         "commit_date": "2021-04-08 07:06:24",
         "commit_message": "readme",
@@ -4171,10 +4171,10 @@
         "release_message": "1、优化代码逻辑\r\n\r\n2、将url前后缀的添加放在添加协议头之前进行处理\r\n\r\n3、添加默认插件,避免啥都没有\r\n```\r\nwhatweb-0.5.5.20.exe www.baidu.com\r\n[*] Load Default Plugin Dirs: [\"/__enclose_io_memfs__/local/plugins\"]\r\nhttp://www.baidu.com [302 Found] IP[183.2.172.42], Title[302 Found], http-server[BWS/1.1], length[154]\r\nhttps://www.baidu.com/ [200 OK] IP[183.2.172.185], Title[百度一下，你就知道], http-server[BWS/1.1], lengt\r\nh[404752]\r\nhttp://www.baidu.com/baidu.html?from=noscript [200 OK] IP[183.2.172.42], Title[百度一下，你就知道], http-\r\nserver[Apache], length[2857]\r\nhttps://www.baidu.com [200 OK] IP[183.2.172.185], Title[百度一下，你就知道], http-server[BWS/1.1], length\r\n[404821]\r\n```\r\n\r\n\r\n4、添加自定义环境变量指定Whatweb基础路径，便于寻找插件目录\r\n```\r\n# 添加自定义环境变量指定的路径\r\nif ENV['WHATWEB_ROOT']\r\n  $load_path_plugins << ENV['WHATWEB_ROOT']\r\nend\r\n```"
     },
     "https://github.com/corunb/Dirscan": {
-        "created_at": "2022-10-13 06:30:38",
+        "created_at": "2023-08-13 00:50:23",
         "description": "Dirscan是一款由go编写的高性能、高并发的目录扫描器，现在已经支持GET、HEAD、递归扫描、代理、爬虫等功能功能,后续努力实现更多功能。",
-        "commit_date": "2023-08-13 00:50:23",
-        "commit_message": "v1.5.2-修复递归扫描已知bug",
+        "commit_date": "2023-12-04 03:41:24",
+        "commit_message": "Create LICENSE",
         "release_tag": "v.1.5.2",
         "release_date": "2023-08-13 00:53:11",
         "release_message": "v1.5.2-修复递归扫描已知bug"
@@ -20310,7 +20310,7 @@
         "release_message": ""
     },
     "https://github.com/almandin/fuxploider": {
-        "created_at": "2017-07-14 09:30:06",
+        "created_at": "2018-03-01 17:53:13",
         "description": "File upload vulnerability scanner and exploitation tool.",
         "release_tag": "v1.0",
         "release_date": "2018-03-01 17:56:04",
@@ -22563,7 +22563,7 @@
         "release_message": "新增官方语法示例面板：\r\n\r\n![image](https://github.com/10cks/fofaEX/assets/47177550/e86a6187-39b8-4dac-8b64-0ae231ac14cf)\r\n"
     },
     "https://github.com/session-replay-tools/tcpburn": {
-        "created_at": "2013-09-09 06:13:56",
+        "created_at": "2015-06-26 02:40:26",
         "description": "The most powerful tool for stress testing of Internet server applications",
         "commit_date": "2019-07-14 09:20:34",
         "commit_message": "Update README.md",
@@ -23873,7 +23873,7 @@
         "commit_date": "2023-12-28 01:49:30"
     },
     "https://github.com/TryGOTry/DogCs4.4": {
-        "created_at": "2022-06-29 07:16:17",
+        "created_at": "2022-10-09 14:13:43",
         "description": "cs4.4修改去特征狗狗版(美化ui,去除特征,自带bypass核晶截图等..)",
         "commit_date": "2023-01-17 05:07:24",
         "commit_message": "Update README.md",
@@ -27075,7 +27075,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "20.55.213.180属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "20.171.122.39属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
@@ -27095,7 +27095,7 @@
     },
     "https://www.webscan.cc/": {
         "status_code": 200,
-        "description": ""
+        "description": "同IP网站查询,C段查询,IP反查域名,在线C段,旁站工具 - WebScan"
     },
     "https://gofile.io/": {
         "status_code": 200,
