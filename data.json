@@ -2791,13 +2791,13 @@
         "release_message": "Please note that previous CPH configuration files are incompatible with this release."
     },
     "https://github.com/G3et/Search_Viewer": {
-        "created_at": "2023-11-12 06:55:05",
+        "created_at": "2024-03-07 08:39:05",
         "description": "集Fofa、Hunter鹰图、Shodan、360 quake、Zoomeye 钟馗之眼、censys 为一体的空间测绘gui图形界面化工具，支持一键采集爬取和导出fofa、shodan等数据，方便快捷查看",
-        "commit_date": "2024-03-07 08:39:05",
+        "commit_date": "2024-06-15 08:19:03",
         "commit_message": "Update README.MD",
         "release_tag": "v3.0",
-        "release_date": "2024-03-07 08:12:30",
-        "release_message": "版本：v4.0 2024/3/6\r\n\r\n注：由于C++编写iconhash无法和官方iconhash对应 采用python写的 预编译在工具中 会在temp创建临时文件iconhash.exe 因此可能会出现杀软误报问题！\r\n\r\n·去除Censys\r\n\r\n·使用QT C++重构该项目\r\n\r\n·新增回车查询、右键打开浏览器、导出可自选路径、支持缩放、支持全选\r\n\r\n·修复查询过大闪退问题\r\n\r\n·修复已知BUG\r\n\r\n·新增翻页按钮"
+        "release_date": "2024-06-15 08:12:37",
+        "release_message": "版本：v4.1 2024/6/15\r\n\r\n·fofa界面搜索不再覆盖,每次查询有新窗口,双击可关闭\r\n\r\n·修复查询时页码问题\r\n\r\n·fofa新增排序,新增多个字段\r\n\r\n·新增自定义域名"
     },
     "https://github.com/Lotus6/ThinkphpGUI": {
         "created_at": "2021-11-30 14:41:47",
@@ -3453,7 +3453,7 @@
         "release_message": "1. 配置文件后缀由.yaml变更为.yml（请手动修改已存在的配置文件名称）\r\n1. 修复module name不正确导致无法导入问题\r\n1. 在多页查询时进行配合和数据总量的判断，限制maxPage最大值"
     },
     "https://github.com/LoRexxar/Kunlun-M": {
-        "created_at": "2017-09-07 06:25:58",
+        "created_at": "2022-06-23 08:45:41",
         "description": "KunLun-M是一个完全开源的静态白盒扫描工具，支持PHP、JavaScript的语义扫描，基础安全、组件安全扫描，Chrome Ext\\Solidity的基础扫描。",
         "commit_date": "2023-10-25 03:49:28",
         "commit_message": "Merge pull request #240 from LoRexxar/develop\n\nfix bug",
@@ -27075,7 +27075,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "52.234.38.42属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "52.238.29.200属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
@@ -27095,7 +27095,7 @@
     },
     "https://www.webscan.cc/": {
         "status_code": 200,
-        "description": "同IP网站查询,C段查询,IP反查域名,在线C段,旁站工具 - WebScan"
+        "description": ""
     },
     "https://gofile.io/": {
         "status_code": 200,
@@ -27135,7 +27135,7 @@
     },
     "https://hunter.io/": {
         "status_code": 200,
-        "description": "Trouver des emails en quelques secondes • Hunter (Email Hunter)"
+        "description": "Find email addresses and send cold emails • Hunter"
     },
     "https://www.wenshushu.cn/": {
         "status_code": 200,
