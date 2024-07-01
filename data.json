@@ -196,8 +196,8 @@
     "https://github.com/ycdxsb/PocOrExp_in_Github": {
         "created_at": "2021-04-13 05:46:16",
         "description": "聚合Github上已有的Poc或者Exp，CVE信息来自CVE官网。Auto Collect Poc Or Exp from Github by CVE ID.",
-        "commit_message": "update 2024-06-22 07:28:06",
-        "commit_date": "2024-06-21 23:28:06"
+        "commit_message": "update 2024-07-01 07:44:32",
+        "commit_date": "2024-06-30 23:44:32"
     },
     "https://github.com/1n7erface/RequestTemplate": {
         "created_at": "",
@@ -1880,8 +1880,8 @@
     "https://github.com/hiroi-sora/Umi-OCR": {
         "created_at": "2024-06-03 13:16:33",
         "description": "OCR software, free and offline. 开源、免费的离线OCR软件。支持截屏/批量导入图片，PDF文档识别，排除水印/页眉页脚，扫描/生成二维码。内置多国语言库。",
-        "commit_message": "update Readme",
-        "commit_date": "2024-06-21 04:10:37",
+        "commit_message": "update linux_api",
+        "commit_date": "2024-06-27 09:09:54",
         "release_date": "2024-06-03 13:46:15",
         "release_message": "[English](https://github-com.translate.goog/hiroi-sora/Umi-OCR/releases/tag/v2.1.2?_x_tr_sl=zh-CN&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=wapp)\r\n\r\n## v2.1.2 主要更新\r\n\r\n- 新增：批量任务（图片、文档）支持 **暂停任务** 。只要不退出软件，在待机/休眠后可以恢复任务。\r\n- 新增：文档任务支持保存为 **单层纯文本PDF** 。\r\n- 新增：HTTP OCR接口 允许设置 **忽略区域** 参数。👉 [文档](https://github.com/hiroi-sora/Umi-OCR/blob/main/docs/README_HTTP.md#1-%E5%9B%BE%E7%89%87ocrbase64-%E8%AF%86%E5%88%AB%E6%8E%A5%E5%8F%A3)\r\n- 新增：HTTP 二维码接口 允许设置 **图像预处理** 参数。👉 [文档](https://github.com/hiroi-sora/Umi-OCR/blob/main/docs/README_HTTP.md#/api/qrcode)\r\n- 新增：命令行`--screenshot`允许 **指定屏幕范围** ，自动进行截图。👉 [文档](https://github.com/hiroi-sora/Umi-OCR/blob/main/docs/README_CLI.md#ocr%E6%8C%87%E4%BB%A4)\r\n- 修复：文档内容提取和写入时的坐标旋转、比例适配问题。\r\n- 修复：截图预览 & 记录面板中，跨区块复制文本时，尾块的复制字数不正确。\r\n- 修复：文档识别 整页强制OCR 模式下，无法进行任务。（2024.6.5紧急修复）\r\n- 优化：批量文档标签页，拖入大量文件、提交大批任务时的性能和流畅度。\r\n- 优化：文档任务保存的文件名规则。\r\n- UI：优化一些布局，调整一些文本，美化一些视觉效果。\r\n\r\n#### Windows7 用户注意： [常见问题及修复方法](https://github.com/hiroi-sora/Umi-OCR/issues/447)\r\n\r\n---\r\n\r\n新开通了赞助方式 [爱发电](https://afdian.net/a/hiroi-sora) ，有意愿的用户可以支持一下~\r\n\r\nUmi-OCR 保证始终 **开源** 和 **完全免费** 。所有需要付费/注册/关注才能下载的渠道均 **不是** 我们发布的渠道，请注意辨别。\r\n\r\n---\r\n\r\n### 配置文件迁移\r\n\r\nUmi-OCR v2 用户升级时，将旧版软件的`UmiOCR-data/.settings`拷贝到新版相同位置即可。\r\n\r\n### 下载说明\r\n\r\n不同版本仅OCR引擎插件不同，其它功能完全一致。\r\n均支持 win7 x64 及以上的系统，附带多国语言识别库。\r\n\r\n`.7z.exe`为自解压包，可以用压缩软件打开，也可以在没有安装压缩软件的电脑上直接双击解压。\r\n\r\n### Paddle 引擎插件版\r\n\r\n（性能好，速度快，占用率高，适合高配机器。**不兼容奔腾、赛扬、凌动CPU**）\r\n\r\n**重要提示：如果执行OCR时报错 `0xc0000142`、`[Error] OCR init fail`，大概率是CPU不兼容Paddle，请换用Rapid版本。**\r\n\r\n**Umi-OCR_Paddle_v2.1.2.7z.exe** （128.5MB）\r\nSHA256: `6dce23ea7f95a2ffb9415f8f5bb588df75ddf90abdcbbb972cc38fe2dbbfc70d`\r\n\r\n### Rapid 引擎插件版\r\n\r\n（速度稍慢，内存占用低，适合低配机器，兼容性好）\r\n\r\n**Umi-OCR_Rapid_v2.1.2.7z.exe** （97.1MB）\r\nSHA256: `879484ca912814702c30ba4dc0d9a5afff1ba0457c2fca2825ef7ea7adcde7b4`\r\n\r\n## 更多插件\r\n\r\n前往 [Umi-OCR_插件仓库](https://github.com/hiroi-sora/Umi-OCR_plugins) ，下载更多OCR插件，获取`离线数学公式识别`等附加功能。\r\n\r\n---\r\n\r\n更多下载途径： [蓝奏云](https://hiroi-sora.lanzoul.com/s/umi-ocr) | [SourceForge](https://sourceforge.net/projects/umi-ocr/files/v2.1.2/) | [Scoop](https://scoop.sh/#/apps?q=umi-ocr)\r\n\r\n[![Download Umi-OCR](https://a.fsdn.com/con/app/sf-download-button)](https://sourceforge.net/projects/umi-ocr/files/v2.1.2/)"
     },
@@ -3183,7 +3183,7 @@
         "created_at": "2023-12-18 03:28:33",
         "description": "一个攻防知识仓库 Red Teaming and Offensive Security",
         "commit_message": "update README.md",
-        "commit_date": "2024-06-04 09:21:49",
+        "commit_date": "2024-06-20 09:37:32",
         "release_date": "2023-12-18 03:31:30",
         "release_message": ""
     },
@@ -3924,12 +3924,12 @@
         "release_message": "## Changelog\n* 8709d4f9c release: v0.52.2 [release/v0.52] (#6896)\n* a4b8ad767 ci: use `ubuntu-latest-m` runner [backport: release/v0.52] (#6933)\n* 2b711bc26 chore(deps): bump github.com/Azure/azure-sdk-for-go/sdk/azidentity from 1.5.2 to 1.6.0 [backport: release/v0.52] (#6919)\n* 191d31ef8 test: bump docker API to 1.45  [backport: release/v0.52] (#6922)\n* 3f5874c8a ci: bump `github.com/goreleaser/goreleaser` to `v2.0.0` [backport: release/v0.52] (#6893)\n* 8f8c76a2a fix(debian): take installed files from the origin layer [backport: release/v0.52] (#6892)\n\n"
     },
     "https://github.com/anchore/grype": {
-        "created_at": "2020-05-26 13:44:38",
+        "created_at": "2024-06-17 19:33:29",
         "description": "A vulnerability scanner for container images and filesystems",
-        "commit_message": "chore(deps): bump actions/checkout from 4.1.6 to 4.1.7 (#1941)\n\nBumps [actions/checkout](https://github.com/actions/checkout) from 4.1.6 to 4.1.7.\r\n- [Release notes](https://github.com/actions/checkout/releases)\r\n- [Changelog](https://github.com/actions/checkout/blob/main/CHANGELOG.md)\r\n- [Commits](https://github.com/actions/checkout/compare/a5ac7e51b41094c92402da3b24376905380afc29...692973e3d937129bcbf40652eb9f2f61becf3332)\r\n\r\n---\r\nupdated-dependencies:\r\n- dependency-name: actions/checkout\r\n  dependency-type: direct:production\r\n  update-type: version-update:semver-patch\r\n...\r\n\r\nSigned-off-by: dependabot[bot] <support@github.com>\r\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
-        "commit_date": "2024-06-13 21:16:02",
-        "release_date": "2024-05-28 18:01:12",
-        "release_message": "### Added Features\n\n- add config command [[#1876](https://github.com/anchore/grype/pull/1876) @kzantow]\n\n### Bug Fixes\n\n- ask catalog for package, rather than type asserting [[#1857](https://github.com/anchore/grype/pull/1857) @willmurphyscode]\n- Disable TUI for simple commands [[#1872](https://github.com/anchore/grype/pull/1872) @wagoodman]\n- False Positive: CVE-2023-42282  not affected in SUSE ecosystem [[#1813](https://github.com/anchore/grype/issues/1813)]\n- False positive GHSA-jr9c-h74f-2v28/CVE-2022-0905 reported for Non-vulnerable Gitea version [[#1416](https://github.com/anchore/grype/issues/1416)]\n\n### Additional Changes\n\n- Update syft to v1.5.0 [[#1897](https://github.com/anchore/grype/pull/1897) @wagoodman]\n\n**[(Full Changelog)](https://github.com/anchore/grype/compare/v0.77.4...v0.78.0)**\n\n"
+        "commit_message": "chore: pin new sign installer to commit sha (#1966)\n\nSigned-off-by: Christopher Phillips <32073428+spiffcs@users.noreply.github.com>",
+        "commit_date": "2024-06-26 20:13:03",
+        "release_date": "2024-06-17 19:41:30",
+        "release_message": "### Updates\r\n\r\n- update CI to install golang at the latest version [[#1949](https://github.com/anchore/grype/pull/1949) @spiffcs]\r\n- Grype is now built with the latest version of Golang at v1.22.x. This resolves a few security findings that would have been flagged against the v0.79.0 binary for using an older version of the Golang standard library.\r\n\r\n**[(Full Changelog)](https://github.com/anchore/grype/compare/v0.79.0...v0.79.1)**\r\n\r\n"
     },
     "https://github.com/Metarget/metarget": {
         "created_at": "2021-12-31 07:57:37",
@@ -25602,8 +25602,8 @@
     "https://github.com/zaproxy/zaproxy": {
         "created_at": "2024-05-07 17:05:30",
         "description": "The ZAP core project",
-        "commit_message": "Merge pull request #8520 from ricekot/fix-duplicate-id\n\nFix duplicate scan rule ID",
-        "commit_date": "2024-06-17 06:03:10",
+        "commit_message": "Merge pull request #8534 from thc202/pscan/remove-soft-uninstall",
+        "commit_date": "2024-06-27 09:46:41",
         "release_date": "2024-05-07 17:39:14",
         "release_message": "Release notes: https://www.zaproxy.org/docs/desktop/releases/2.15.0/\r\n\r\n---\r\n| File | Checksum (SHA-256) |\r\n|---|---|\r\n| [ZAP_2.15.0.dmg](https://github.com/zaproxy/zaproxy/releases/download/v2.15.0/ZAP_2.15.0.dmg) | `ae025403e46cdefff013cd0c3b88d8edc5a183a76daa63cb62c7c629005337a5` |\r\n| [ZAP_2.15.0_aarch64.dmg](https://github.com/zaproxy/zaproxy/releases/download/v2.15.0/ZAP_2.15.0_aarch64.dmg) | `4426253f4702bbd5fb4779bcf4d62490b2c10ec851c4ebc94ced8f156d2e5509` |\r\n| [ZAP_2.15.0_Core.zip](https://github.com/zaproxy/zaproxy/releases/download/v2.15.0/ZAP_2.15.0_Core.zip) | `e3cf30ad526e4f3fb8a228e1d5e02da0389b2ec7436b989bb28f959703380bf5` |\r\n| [ZAP_2.15.0_Crossplatform.zip](https://github.com/zaproxy/zaproxy/releases/download/v2.15.0/ZAP_2.15.0_Crossplatform.zip) | `05d3932a1affb0ab7987664677134709982ca3837a0b0f0e16f9aeb391933341` |\r\n| [ZAP_2.15.0_Linux.tar.gz](https://github.com/zaproxy/zaproxy/releases/download/v2.15.0/ZAP_2.15.0_Linux.tar.gz) | `6410e196baab458a9204e29aafb5745fca003a2a6c0386f2c6e5c04b67621fa7` |\r\n| [ZAP_2_15_0_unix.sh](https://github.com/zaproxy/zaproxy/releases/download/v2.15.0/ZAP_2_15_0_unix.sh) | `3d976a197b7f71c52c8b8b2e9f06b988384845fb854b637ebb8be0e4cb38112f` |\r\n| [ZAP_2_15_0_windows-x32.exe](https://github.com/zaproxy/zaproxy/releases/download/v2.15.0/ZAP_2_15_0_windows-x32.exe) | `114953f29647a5e4e5774b338f2271d6149711e9222e0b92b11be3a35b812478` |\r\n| [ZAP_2_15_0_windows.exe](https://github.com/zaproxy/zaproxy/releases/download/v2.15.0/ZAP_2_15_0_windows.exe) | `28b348dd65116ddabbbbd98b7f84864a0bb0f98d656266f2f08bfd010ae51c57` |\r\n| [bom.json](https://github.com/zaproxy/zaproxy/releases/download/v2.15.0/bom.json) | `04f3e148aaa406cd7f31f2be8d3ef282e16e852233da85de13aacb3a173f4740` |\r\n"
     },
@@ -25658,8 +25658,8 @@
     "https://github.com/cve-search/cve-search": {
         "created_at": "2024-04-16 13:52:41",
         "description": "cve-search - a tool to perform local searches for known vulnerabilities",
-        "commit_message": "Avoid dependency conflicts with CveXplore (#1101)",
-        "commit_date": "2024-06-15 07:28:17",
+        "commit_message": "Pass MongoDB configuration to CveXplore (#1107)",
+        "commit_date": "2024-06-29 14:35:54",
         "release_date": "2024-04-16 13:58:04",
         "release_message": "## v5.0.3 (2024-04-16)\r\n\r\n### Changes\r\n\r\n* [changelog] updated for release 5.0.2. [Alexandre Dulaunoy]\r\n\r\n### Other\r\n\r\n* Update requirements.txt. [PT]\r\n for https://github.com/cve-search/CveXplore/commit/6a6edc7240e6e10d7178e2ad3801897adc69409a\r\n\r\n\r\n"
     },
@@ -27075,7 +27075,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "20.171.122.39属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "172.183.112.126属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
@@ -27095,7 +27095,7 @@
     },
     "https://www.webscan.cc/": {
         "status_code": 200,
-        "description": "同IP网站查询,C段查询,IP反查域名,在线C段,旁站工具 - WebScan"
+        "description": ""
     },
     "https://gofile.io/": {
         "status_code": 200,
