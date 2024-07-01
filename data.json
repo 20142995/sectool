@@ -1067,13 +1067,13 @@
         "release_message": "Initial release"
     },
     "https://github.com/Yong-An-Dang/nuclei-plus": {
-        "created_at": "2024-05-08 14:36:48",
+        "created_at": "2024-06-26 15:18:44",
         "description": "Functional enhancement based on nuclei",
-        "commit_date": "2024-05-08 15:11:12",
-        "commit_message": "自动跳过格式不正确的模板\n\nv7.1.4",
+        "commit_date": "2024-06-26 15:32:59",
+        "commit_message": "Release v7.1.7",
         "release_tag": "v7.0.0",
-        "release_date": "2024-05-08 15:07:21",
-        "release_message": "### :bug: 修复\r\n- 修复模板格式不正确导致加载不出模板列表的问题 #29 #25\r\n\r\n**Full Changelog**: https://github.com/Yong-An-Dang/nuclei-plus/compare/v7.1.3...v7.1.4"
+        "release_date": "2024-06-26 15:22:41",
+        "release_message": "### ⭐ 优化\r\n- 运行终端（Running Panel）优化（字体及输出）\r\n- 模板编辑面板优化，自动识别文件编码，避免模板文件编码不一致导致的乱码现\r\n- 优化初始配置参（终端字体大小及行间距）\r\n\r\n**Full Changelog**: https://github.com/Yong-An-Dang/nuclei-plus/compare/v7.1.4...v7.1.7"
     },
     "https://github.com/Threekiii/Vulnerability-Wiki": {
         "created_at": "2024-03-07 09:30:14",
@@ -3833,8 +3833,8 @@
     "https://github.com/aquasecurity/kube-bench": {
         "created_at": "2024-04-18 06:59:19",
         "description": "Checks whether Kubernetes is deployed according to security best practices as defined in the CIS Kubernetes Benchmark",
-        "commit_message": "build(deps): bump alpine from 3.19.1 to 3.20.0 (#1621)\n\nBumps alpine from 3.19.1 to 3.20.0.\r\n\r\n---\r\nupdated-dependencies:\r\n- dependency-name: alpine\r\n  dependency-type: direct:production\r\n  update-type: version-update:semver-minor\r\n...\r\n\r\nSigned-off-by: dependabot[bot] <support@github.com>\r\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
-        "commit_date": "2024-05-31 14:28:56",
+        "commit_message": "build(deps): bump goreleaser/goreleaser-action from 5 to 6 (#1628)\n\nBumps [goreleaser/goreleaser-action](https://github.com/goreleaser/goreleaser-action) from 5 to 6.\r\n- [Release notes](https://github.com/goreleaser/goreleaser-action/releases)\r\n- [Commits](https://github.com/goreleaser/goreleaser-action/compare/v5...v6)\r\n\r\n---\r\nupdated-dependencies:\r\n- dependency-name: goreleaser/goreleaser-action\r\n  dependency-type: direct:production\r\n  update-type: version-update:semver-major\r\n...\r\n\r\nSigned-off-by: dependabot[bot] <support@github.com>\r\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
+        "commit_date": "2024-06-29 12:53:49",
         "release_date": "2024-04-18 07:10:01",
         "release_message": "## Changelog\n* d2d3e72 Currently, certain commands involve retrieving all node names or pods and then executing additional commands in a loop, resulting in a time complexity linearly proportional to the number of nodes. (#1597)\n* dc8f4d3 build(deps): bump github.com/aws/aws-sdk-go-v2 from 1.25.2 to 1.26.0 (#1589)\n* 45afbd7 build(deps): bump github.com/aws/aws-sdk-go-v2/config (#1577)\n* 73e1377 build(deps): bump github.com/jackc/pgx/v5 from 5.4.3 to 5.5.4 (#1586)\n* dc74416 build(deps): bump golang from 1.22.0 to 1.22.1 (#1583)\n* 65c484e build(deps): bump k8s.io/client-go from 0.29.1 to 0.29.3 (#1587)\n\n"
     },
@@ -23204,8 +23204,8 @@
     "https://github.com/RVC-Boss/GPT-SoVITS": {
         "created_at": "2024-01-14 18:05:21",
         "description": "1 min voice data can also be used to train a good TTS model! (few shot voice cloning)",
-        "commit_message": "Update english.py (#1106)\n\ncopy but not ref the phones list becoz it will be extend later, if not do so,it will affect the self.cmu dict values.",
-        "commit_date": "2024-05-21 15:36:56"
+        "commit_message": "fix: 移除多余 my_utils.py (#1189) (#1251)\n\n* fix: 移除多余 my_utils.py (#1189)\r\n\r\n* feat: update my_utils",
+        "commit_date": "2024-06-29 14:57:01"
     },
     "https://github.com/djytmdj/Network-security-study-notes": {
         "created_at": "2023-07-25 06:13:25",
@@ -24412,8 +24412,8 @@
         "description": "魅族安全中心"
     },
     "https://sec.vip.com/": {
-        "status_code": 503,
-        "description": ""
+        "status_code": 200,
+        "description": "VSRC首页-唯品会信息安全中心"
     },
     "https://sec.wacai.com/": {
         "status_code": 200,
@@ -25572,12 +25572,12 @@
         "commit_date": "2016-10-06 14:49:45"
     },
     "https://github.com/AabyssZG/SpringBoot-Scan": {
-        "created_at": "2024-01-29 06:54:21",
+        "created_at": "2024-06-29 04:40:25",
         "description": "针对SpringBoot的开源渗透框架，以及Spring相关高危漏洞利用工具",
         "commit_message": "Update README.md",
-        "commit_date": "2024-05-19 09:38:36",
-        "release_date": "2024-01-29 08:18:28",
-        "release_message": "# 概述\r\n\r\n```\r\n██╗  ██╗ █████╗ ██████╗ ██████╗ ██╗   ██╗    ███╗   ██╗███████╗██╗    ██╗██╗   ██╗███████╗ █████╗ ██████╗ \r\n██║  ██║██╔══██╗██╔══██╗██╔══██╗╚██╗ ██╔╝    ████╗  ██║██╔════╝██║    ██║╚██╗ ██╔╝██╔════╝██╔══██╗██╔══██╗\r\n███████║███████║██████╔╝██████╔╝ ╚████╔╝     ██╔██╗ ██║█████╗  ██║ █╗ ██║ ╚████╔╝ █████╗  ███████║██████╔╝\r\n██╔══██║██╔══██║██╔═══╝ ██╔═══╝   ╚██╔╝      ██║╚██╗██║██╔══╝  ██║███╗██║  ╚██╔╝  ██╔══╝  ██╔══██║██╔══██╗\r\n██║  ██║██║  ██║██║     ██║        ██║       ██║ ╚████║███████╗╚███╔███╔╝   ██║   ███████╗██║  ██║██║  ██║\r\n╚═╝  ╚═╝╚═╝  ╚═╝╚═╝     ╚═╝        ╚═╝       ╚═╝  ╚═══╝╚══════╝ ╚══╝╚══╝    ╚═╝   ╚══════╝╚═╝  ╚═╝╚═╝  ╚═╝\r\n                         [+] SpringBoot-Scan V2.51-2024年 龙年新春贺岁版\r\n```\r\n\r\n光阴如梭，又是一年新春佳节，历经两百次的迭代更新，`SpringBoot-Scan` 在多场实战考验中战功赫赫，收获了1K多的Star~\r\n元旦更新了 `V2.40版本-龙年元旦贺岁版` ，年关将至，我们又更新了 `V2.51版本-龙年新春贺岁版`，对批量信息泄露扫描进行并发处理。感谢一路走来各位师傅给我的反馈和支持，祝各位师傅在新的一年事业有成、马到成功！\r\n\r\n```\r\n工具用法如下：\r\n        对单一URL进行信息泄露扫描:         python3 SpringBoot-Scan.py -u http://example.com/\r\n        读取目标TXT进行批量信息泄露扫描:    python3 SpringBoot-Scan.py -uf url.txt\r\n        对单一URL进行漏洞扫描:             python3 SpringBoot-Scan.py -v http://example.com/\r\n        读取目标TXT进行批量漏洞扫描：      python3 SpringBoot-Scan.py -vf url.txt\r\n        扫描并下载SpringBoot敏感文件:      python3 SpringBoot-Scan.py -d http://example.com/\r\n        使用HTTP代理并自动进行连通性测试:    python3 SpringBoot-Scan.py -p <代理IP:端口>\r\n        从TXT文件中导入自定义HTTP头部:       python3 SpringBoot-Scan.py -t header.txt\r\n        通过ZoomEye密钥进行API下载数据:      python3 SpringBoot-Scan.py -z <ZoomEye的API-KEY>\r\n        通过Fofa密钥进行API下载数据:         python3 SpringBoot-Scan.py -f <Fofa的API-KEY>\r\n        通过Hunter密钥进行API下载数据:       python3 SpringBoot-Scan.py -y <Hunter的API-KEY>\r\n```\r\n\r\n# 更新日志\r\n\r\n- **感谢 [`@Fkalis`](https://github.com/FFR66) 师傅，对批量信息泄露扫描进行并发处理，提高 `-uf` 参数的扫描速度**\r\n- **优化了相关的工作流，对部分冗余的代码进行优化**\r\n- **优化了输出提示，对部分内容的输出结果进行优化**\r\n- **V2.51版本-龙年新春贺岁版专门进行了打包，可以直接用可执行文件进行操作啦~**"
+        "commit_date": "2024-06-29 04:40:25",
+        "release_date": "2024-06-29 04:43:37",
+        "release_message": "# 概述\r\n\r\n```\r\n工具用法如下：\r\n        对单一URL进行信息泄露扫描:         python3 SpringBoot-Scan.py -u http://example.com/\r\n        读取目标TXT进行批量信息泄露扫描:    python3 SpringBoot-Scan.py -uf url.txt\r\n        对单一URL进行漏洞扫描:             python3 SpringBoot-Scan.py -v http://example.com/\r\n        读取目标TXT进行批量漏洞扫描：      python3 SpringBoot-Scan.py -vf url.txt\r\n        扫描并下载SpringBoot敏感文件:      python3 SpringBoot-Scan.py -d http://example.com/\r\n        使用HTTP代理并自动进行连通性测试:    python3 SpringBoot-Scan.py -p <代理IP:端口>\r\n        从TXT文件中导入自定义HTTP头部:       python3 SpringBoot-Scan.py -t header.txt\r\n        通过ZoomEye密钥进行API下载数据:      python3 SpringBoot-Scan.py -z <ZoomEye的API-KEY>\r\n        通过Fofa密钥进行API下载数据:         python3 SpringBoot-Scan.py -f <Fofa的API-KEY>\r\n        通过Hunter密钥进行API下载数据:       python3 SpringBoot-Scan.py -y <Hunter的API-KEY>\r\n```\r\n\r\n# 更新日志\r\n\r\n- **解决了 `name 'u' is not defined` 的报错**\r\n- **优化了一些其他Bug**\r\n- **准备对一些 `Issues` 提出的问题进行进一步的处理**"
     },
     "https://github.com/abc123info/Struts2VulsScanTools": {
         "created_at": "2024-05-23 07:16:14",
@@ -27075,7 +27075,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "172.183.112.126属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "172.183.53.131属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
@@ -28165,9 +28165,9 @@
         "created_at": "2024-05-16 07:58:56",
         "description": "自研的利用JavaFX技术编写的针对于Thinkphp框架的图形化漏洞扫描工具，漏洞包括多版本的命令执行和日志泄露",
         "commit_message": "Update README.md",
-        "commit_date": "2024-05-16 07:58:56",
-        "release_date": "2024-05-16 09:37:32",
-        "release_message": "注意exe可执行文件在当前目录下运行"
+        "commit_date": "2024-06-28 09:31:32",
+        "release_date": "2024-06-28 09:28:07",
+        "release_message": "更新：对误报做了一些优化"
     },
     "https://github.com/kong030813/Z-Godzilla_ekp": {
         "created_at": "2024-06-12 01:49:12",
