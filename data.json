@@ -4006,8 +4006,8 @@
     "https://github.com/WebGoat/WebGoat": {
         "created_at": "2023-12-05 10:21:15",
         "description": "WebGoat is a deliberately insecure application",
-        "commit_message": "fix: Success if only Smith earn most salary (#1744)\n\n* Update labels\r\n\r\n* Update Java\r\n\r\n* Update Test\r\n\r\n---------\r\n\r\nCo-authored-by: René Zubcevic <rene@zubcevic.com>",
-        "commit_date": "2024-06-01 08:50:38",
+        "commit_message": "chore: bump docker/build-push-action from 5.4.0 to 6.1.0 (#1832)\n\nBumps [docker/build-push-action](https://github.com/docker/build-push-action) from 5.4.0 to 6.1.0.\r\n- [Release notes](https://github.com/docker/build-push-action/releases)\r\n- [Commits](https://github.com/docker/build-push-action/compare/v5.4.0...v6.1.0)\r\n\r\n---\r\nupdated-dependencies:\r\n- dependency-name: docker/build-push-action\r\n  dependency-type: direct:production\r\n  update-type: version-update:semver-major\r\n...\r\n\r\nSigned-off-by: dependabot[bot] <support@github.com>\r\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>\r\nCo-authored-by: René Zubcevic <rene@zubcevic.com>",
+        "commit_date": "2024-06-29 08:16:10",
         "release_date": "2023-12-05 10:23:50",
         "release_message": "## Version v2023.8 \r\n\r\n### 🚀 New functionality\r\n\r\n- Consistent environment values and url references (#1677)\r\n- Show directly requested file in requests overview\r\n- Show creating time in file upload overview\r\n\r\n ### 🐞 Bug fixes\r\n\r\n- Fix startup message (#1687)\r\n- Fix/state of software supply chain links (#1683)\r\n- Fix WebWolf UI (#1686)\r\n\r\n### 🔄 Technical tasks\r\n\r\n- bump actions/setup-java from 3 to 4 (#1690)\r\n- bump commons-io:commons-io from 2.14.0 to 2.15.1 (#1689)\r\n- bump com.diffplug.spotless:spotless-maven-plugin (#1688)\r\n   \r\n Full change log: https://github.com/WebGoat/WebGoat/compare/v2023.5...v2023.8  \r\n\r\n\r\n Team WebGoat\r\n"
     },
@@ -23473,8 +23473,8 @@
     "https://github.com/Mr-xn/Penetration_Testing_POC": {
         "created_at": "2019-07-24 03:37:55",
         "description": "渗透测试有关的POC、EXP、脚本、提权、小工具等---About penetration-testing python-script poc getshell csrf xss cms php-getshell domainmod-xss csrf-webshell cobub-razor cve rce sql sql-poc poc-exp bypass oa-getshell cve-cms",
-        "commit_message": "add 新版RCE宝典、Python Flask内存马的另辟途径、内网渗透-委派攻击详解以及IOT漏洞挖掘等教程",
-        "commit_date": "2024-05-08 14:30:04"
+        "commit_message": "Update README.md",
+        "commit_date": "2024-06-27 15:44:44"
     },
     "https://github.com/qianxiao996/R-Knife": {
         "created_at": "2023-06-30 02:53:55",
@@ -27075,7 +27075,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "172.190.111.207属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "4.227.114.177属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
@@ -27094,8 +27094,8 @@
         "description": "Reverse IP Lookup - All Names Hosted at an IP - DomainTools"
     },
     "https://www.webscan.cc/": {
-        "status_code": 500,
-        "description": ""
+        "status_code": 200,
+        "description": "同IP网站查询,C段查询,IP反查域名,在线C段,旁站工具 - WebScan"
     },
     "https://gofile.io/": {
         "status_code": 200,
