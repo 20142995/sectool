@@ -27075,7 +27075,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "4.227.114.177属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "172.183.32.43属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
@@ -27290,8 +27290,8 @@
         "description": "whois查询_域名查询_域名交易_阿里云企航(原万网)-阿里云"
     },
     "https://whatcms.org/": {
-        "status_code": 200,
-        "description": "Detect which CMS a site is using - What CMS?"
+        "status_code": 403,
+        "description": "Just a moment..."
     },
     "http://eyes.sh": {
         "status_code": 200,
