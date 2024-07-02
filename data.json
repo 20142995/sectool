@@ -3514,10 +3514,10 @@
         "release_message": "fix problems running on windows."
     },
     "https://github.com/SafeGroceryStore/MDUT": {
-        "created_at": "2020-12-30 02:49:31",
+        "created_at": "2022-05-24 05:04:07",
         "description": "MDUT - Multiple Database Utilization Tools",
-        "commit_date": "2022-10-13 05:34:29",
-        "commit_message": "Merge pull request #53 from ren-jq101/main\n\nfix(sec): upgrade fastjson to 1.2.83",
+        "commit_date": "2023-09-22 04:28:28",
+        "commit_message": "Update ShellUtil.java",
         "release_tag": "v2.1.1",
         "release_date": "2022-06-22 13:11:44",
         "release_message": "## 2022/05/24 - `v2.1.1`\r\n### 核心\r\n* 优化逻辑代码\r\n* 更改用户协议窗口\r\n* 重构 Http Tunnel 生成界面\r\n\r\n### Mysql\r\n* 修正 Mysql 某些时候错误不弹窗\r\n\r\n### Mssql\r\n* 将依赖包重新替换为 jTDS (Microsoft 官方驱动太多问题)\r\n\r\n### Oracle\r\n* 增加oracle 单独上传功能\r\n\r\n### Redis\r\n* 优化内部代码\r\n* 再次修复 Redis 测试连接错误信息返回连接成功 Bug\r\n* 增加反弹shell功能 (不推荐使用影响生产环境)\r\n* 修复 Redis 某些时候错误不弹窗\r\n* 增强 `替换 SSH 公钥` 功能\r\n\r\nSHA256 | FileName \r\n:---:|:---:\r\n83142c0ba2d67bbda5a09eaeff080ebe0de0c1679543a12cb3b2c0273394d78b|Multiple.Database.Utilization.Tools-2.1.1-jar\r\n2e0927addab69b361b9fea22fc72d69796aefe48760f043932bbb3a5b699d533|Multiple.Database.Utilization.Tools-2.1.1.zip"
@@ -3786,8 +3786,8 @@
         "release_message": "程序使用需要安装.NET Framework 4.0\r\n\r\n快速扫描：\r\n\t直接读取整\r\n\r\n个响应头的全部数据，速度比较快，缺点是无法对付404错误页面状态码也是200的情况。\r\n关键字扫描：\r\n\t直接读取整个响应头和响应主体的全部数据，因为404页面可能很长，所以读文档内容会浪费时间，\r\n\t相对来说速度较慢，优点是可以对付404错误页面状态码是200的情况，但需要设置合理的404页面的标志关键词或者200页面的标志关键词。\r\n\t建议设置一段英文字符的关键词，不要设置中文，因为编码如果未正确解析就会导致设置的关键字无效。\r\n\r\n排除响应长度大于小于或者等于某个长度的情况，默认值是-2，就是排除响应长度小于-2的情况，如果某个404页面时固定长度，就可以设置排除这个长度。\r\n\r\n文档类型限制，如果只需要提示某种文档类型，可以设置类型为指定的开头的字符，例如扫描压缩包，同都是application/xxx，所以可以设置文档类型为application，不是application开头的响内容都不会提示。\r\n\r\n程序下面dic目录为默认的字典文件，默认字典较多，特别是dir、php、asp都是几十万的字典，min目录为小字典目录，字典相对较少，便于快速扫描。\r\n\t\r\n\t\r\n更新记录：\r\n20180821\r\n优化字典，增加小目录，界面可选择小目录或大目录。\r\n\r\n20180816\r\n优化字典，增加小目录，采集了一批新的程序文件路径加入，增加响应长度和响应文档类型过滤，修复几个bug。\r\n\r\n20180814\r\n重新优化字典，优化程序发包效率，修复几个bug。\r\n\r\n20180813\r\n优化程序发包效率，发包速度大量提高，修复几个bug。\r\n\r\n20180810\r\n优化程序，重构界面。"
     },
     "https://github.com/A-D-Team/attackRmi": {
-        "created_at": "2021-12-03 03:22:10",
-        "description": "",
+        "created_at": "2021-12-03 03:23:24",
+        "description": null,
         "commit_date": "2021-12-30 08:06:46",
         "commit_message": "update readme",
         "release_tag": "v2.0",
@@ -21587,7 +21587,7 @@
         "commit_message": "Index updated"
     },
     "https://github.com/bigsizeme/fastjson-check": {
-        "created_at": "2021-10-27 08:20:29",
+        "created_at": "2021-10-27 08:37:08",
         "description": "fastjson 被动扫描、不出网payload生成",
         "release_tag": "beta",
         "release_date": "2021-10-27 08:42:52",
@@ -27075,7 +27075,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "172.183.32.43属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "20.55.46.124属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
@@ -27094,8 +27094,8 @@
         "description": "Reverse IP Lookup - All Names Hosted at an IP - DomainTools"
     },
     "https://www.webscan.cc/": {
-        "status_code": 200,
-        "description": "同IP网站查询,C段查询,IP反查域名,在线C段,旁站工具 - WebScan"
+        "status_code": 500,
+        "description": ""
     },
     "https://gofile.io/": {
         "status_code": 200,
