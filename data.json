@@ -26560,12 +26560,12 @@
         "description": "CTF在线工具-ASCII编码转换|Unicode编码转换|Native编码转换|UTF-16|UTF-32"
     },
     "https://github.com/wafinfo/DecryptTools": {
-        "created_at": "2024-03-20 05:16:49",
+        "created_at": "2024-07-01 08:43:59",
         "description": "DecryptTools-综合解密",
-        "commit_message": "Merge branch 'main' of https://github.com/wafinfo/DecryptTools",
-        "commit_date": "2024-04-25 07:20:53",
-        "release_date": "2024-04-25 07:09:02",
-        "release_message": "DecryptTools【T00ls专版】"
+        "commit_message": "解密工具 V2.4",
+        "commit_date": "2024-07-01 08:43:59",
+        "release_date": "2024-07-01 08:49:10",
+        "release_message": "修复 Windows打开DecryptTools工具全屏问题。\r\n增加 致远OA  全文件解密功能。\r\n增加 致远OA  /2.4数据库密码解密功能。\r\n更新 致远OA  配置文件描述。\r\n删除 用友用户 密码爆破功能。\r\n增加 用友NC65 密码加密功能。\r\n增加 用友YonBip 密码加密功能。\r\n增加 用友NCCLOUD 密码加密功能。\r\n更新 用友 配置文件信息添加更详细后渗透利用方式。\r\n更新 海康威视综合安防平台(iSecure)  配置文件描述，添加更细节化后渗透利用。\r\n更改 名SpingENC为Jasypt并添加两种解密。\r\n更新 Jasypt 配置文件信息描述。\r\n调整UI。"
     },
     "http://www.hiencode.com/hash.html": {
         "status_code": 200,
@@ -27075,7 +27075,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "172.190.111.155属于荷兰 北荷兰省 阿姆斯特丹 微软云 数据中心_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "13.91.68.164属于美国 加利福尼亚 圣何塞 微软云 数据中心_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
@@ -27095,7 +27095,7 @@
     },
     "https://www.webscan.cc/": {
         "status_code": 200,
-        "description": ""
+        "description": "同IP网站查询,C段查询,IP反查域名,在线C段,旁站工具 - WebScan"
     },
     "https://gofile.io/": {
         "status_code": 200,
@@ -27290,8 +27290,8 @@
         "description": "whois查询_域名查询_域名交易_阿里云企航(原万网)-阿里云"
     },
     "https://whatcms.org/": {
-        "status_code": 403,
-        "description": "Just a moment..."
+        "status_code": 200,
+        "description": "Detect which CMS a site is using - What CMS?"
     },
     "http://eyes.sh": {
         "status_code": 200,
@@ -28248,8 +28248,8 @@
         "description": "GitGuardian: Git Security Scanning & Secrets Detection"
     },
     "https://www.zeek.org": {
-        "status_code": 429,
-        "description": "WordPress.com 429 Error"
+        "status_code": 200,
+        "description": "The Zeek Network Security Monitor"
     },
     "https://gitee.com/freshday/radar": {
         "status_code": 200,
