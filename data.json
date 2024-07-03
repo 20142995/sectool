@@ -1033,7 +1033,7 @@
         "release_message": ""
     },
     "https://github.com/knownsec/ksubdomain": {
-        "created_at": "2020-08-21 07:29:04",
+        "created_at": "2021-01-12 09:46:18",
         "description": "无状态子域名爆破工具",
         "commit_date": "2022-02-07 06:18:30",
         "commit_message": "Update readme.md",
@@ -1273,10 +1273,10 @@
         "release_message": "[+] 解决sqlmap路径存在空格情况下命令执行失败问题\r\n[+] 解决某些情况中文可能会乱码导致执行命令失败问题"
     },
     "https://github.com/WangYihang/Platypus": {
-        "created_at": "2018-08-14 08:59:09",
+        "created_at": "2021-07-16 18:40:29",
         "description": ":hammer: A modern multiple reverse shell sessions manager written in go",
-        "commit_date": "2023-08-16 02:43:03",
-        "commit_message": "build(deps): bump word-wrap from 1.2.3 to 1.2.4 in /web/frontend (#196)\n\nBumps [word-wrap](https://github.com/jonschlinkert/word-wrap) from 1.2.3 to 1.2.4.\r\n- [Release notes](https://github.com/jonschlinkert/word-wrap/releases)\r\n- [Commits](https://github.com/jonschlinkert/word-wrap/compare/1.2.3...1.2.4)\r\n\r\n---\r\nupdated-dependencies:\r\n- dependency-name: word-wrap\r\n  dependency-type: indirect\r\n...\r\n\r\nSigned-off-by: dependabot[bot] <support@github.com>\r\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
+        "commit_date": "2024-04-11 06:25:15",
+        "commit_message": "build(deps): bump qs from 6.5.2 to 6.12.0 in /web/frontend (#218)\n\nBumps [qs](https://github.com/ljharb/qs) from 6.5.2 to 6.12.0.\r\n- [Changelog](https://github.com/ljharb/qs/blob/main/CHANGELOG.md)\r\n- [Commits](https://github.com/ljharb/qs/compare/v6.5.2...v6.12.0)\r\n\r\n---\r\nupdated-dependencies:\r\n- dependency-name: qs\r\n  dependency-type: indirect\r\n...\r\n\r\nSigned-off-by: dependabot[bot] <support@github.com>\r\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
         "release_tag": "v1.5.0",
         "release_date": "2021-07-16 18:45:19",
         "release_message": ""
@@ -3075,7 +3075,7 @@
         "release_message": "## Fixed\r\n* Updated go dependencies (most importantly UTLS) to fix #69 by @sleeyax in https://github.com/sleeyax/burp-awesome-tls/pull/70\r\n\r\n**Full Changelog**: https://github.com/sleeyax/burp-awesome-tls/compare/v1.2.1...v1.2.2"
     },
     "https://github.com/passer-W/FinalShell-Decoder": {
-        "created_at": "2022-04-06 07:11:25",
+        "created_at": "2022-04-06 07:21:53",
         "description": "FinallShell 密码解密GUI工具",
         "commit_date": "2022-04-11 11:34:42",
         "commit_message": "Update ReadMe.md",
@@ -4476,7 +4476,7 @@
         "release_message": "Minor update.\r\nNews:\r\n- improve support for MacOS\r\n- include support for WSL\r\n- improve \"Issue Detail\" section\r\n- bug fixing"
     },
     "https://github.com/safe6Sec/proxyServer": {
-        "created_at": "2021-05-15 07:28:12",
+        "created_at": "2020-07-20 12:43:40",
         "description": "本项目其实就是个简单的代理服务器，把代理池集成进来来了。",
         "commit_date": "2020-10-30 03:21:30",
         "commit_message": "增加代理稳定性",
@@ -5564,8 +5564,8 @@
     "https://github.com/ClownQq/YDArk": {
         "created_at": "2019-10-08 03:30:28",
         "description": "X64内核小工具",
-        "commit_date": "2023-01-10 09:45:53",
-        "commit_message": "1.0.3.1:\n1.Added support for Windows10 19045\n2.Added support for Windows11 22621\n3.disable process hide\n4.Optimize file traversal",
+        "commit_date": "2024-01-18 05:30:09",
+        "commit_message": "1.0.3.3:\n1.Added support for Windows11 22631\n2.Repair driver module tab bsod\n3.Optimize hal information",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -5684,7 +5684,7 @@
         "release_message": ""
     },
     "https://github.com/b1ackc4t/14Finger": {
-        "created_at": "2022-05-09 02:11:03",
+        "created_at": "2022-05-17 00:46:57",
         "description": "功能齐全的Web指纹识别和分享平台,基于vue3+django前后端分离的web架构，并集成了长亭出品的rad爬虫的功能，内置了一万多条互联网开源的指纹信息。",
         "commit_date": "2022-07-17 02:08:28",
         "commit_message": "优化",
@@ -23318,8 +23318,8 @@
         "release_message": ""
     },
     "https://github.com/broken5/bscan": {
-        "created_at": "2021-02-10 07:25:42",
-        "description": "",
+        "created_at": "2022-05-27 02:40:23",
+        "description": null,
         "commit_date": "2021-02-18 10:42:49",
         "commit_message": "Update README.md",
         "release_tag": "sylas-0.1",
@@ -27075,7 +27075,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "20.97.191.179属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "20.97.189.18属于美国 弗吉尼亚 博伊顿 微软云 数据中心_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
@@ -27095,7 +27095,7 @@
     },
     "https://www.webscan.cc/": {
         "status_code": 200,
-        "description": "同IP网站查询,C段查询,IP反查域名,在线C段,旁站工具 - WebScan"
+        "description": ""
     },
     "https://gofile.io/": {
         "status_code": 200,
@@ -28248,8 +28248,8 @@
         "description": "GitGuardian: Git Security Scanning & Secrets Detection"
     },
     "https://www.zeek.org": {
-        "status_code": 200,
-        "description": "The Zeek Network Security Monitor"
+        "status_code": 429,
+        "description": "WordPress.com 429 Error"
     },
     "https://gitee.com/freshday/radar": {
         "status_code": 200,
