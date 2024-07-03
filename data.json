@@ -22980,7 +22980,7 @@
         "release_message": "* 添加了请求包相应包匹配选项"
     },
     "https://github.com/LasCC/HackTools": {
-        "created_at": "2023-03-11 14:59:09",
+        "created_at": "2020-06-22 21:42:16",
         "description": "The all-in-one browser extension for offensive security professionals 🛠",
         "commit_date": "2024-05-22 20:24:19",
         "commit_message": "Update README.md",
@@ -27075,7 +27075,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "74.249.14.213属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "172.190.111.155属于荷兰 北荷兰省 阿姆斯特丹 微软云 数据中心_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
@@ -27095,7 +27095,7 @@
     },
     "https://www.webscan.cc/": {
         "status_code": 200,
-        "description": "同IP网站查询,C段查询,IP反查域名,在线C段,旁站工具 - WebScan"
+        "description": ""
     },
     "https://gofile.io/": {
         "status_code": 200,
@@ -28248,8 +28248,8 @@
         "description": "GitGuardian: Git Security Scanning & Secrets Detection"
     },
     "https://www.zeek.org": {
-        "status_code": 200,
-        "description": "The Zeek Network Security Monitor"
+        "status_code": 429,
+        "description": "WordPress.com 429 Error"
     },
     "https://gitee.com/freshday/radar": {
         "status_code": 200,
@@ -28714,8 +28714,8 @@
     "https://github.com/ax1sX/RouteCheck-Alpha": {
         "created_at": "2024-05-13 02:55:43",
         "description": "A Java Route Collection Tool",
-        "commit_message": "Add UnionServletFactAnalyzer; Optimize JAXRSFactAnalyzer, SOAPUnionFactAnalyzer, SpringMVCAnnotationFactAnalyzer and Fix some bugs",
-        "commit_date": "2024-05-13 02:55:43",
+        "commit_message": "optimize actionChain",
+        "commit_date": "2024-07-02 02:20:11",
         "release_date": "2024-05-13 03:04:29",
         "release_message": "This release only supports java source code scanning which contains \"/WEB-INF/\" directory structure"
     },
