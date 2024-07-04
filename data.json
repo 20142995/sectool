@@ -372,8 +372,8 @@
     "https://github.com/lal0ne/vulnerability": {
         "created_at": "2022-01-20 02:48:42",
         "description": "收集、整理、修改互联网上公开的漏洞POC",
-        "commit_message": "CVE-2024-5806",
-        "commit_date": "2024-06-27 05:39:19"
+        "commit_message": "CVE-2024-36401",
+        "commit_date": "2024-07-03 02:02:30"
     },
     "https://github.com/CTF-MissFeng/GoScan": {
         "created_at": "2020-12-13 11:08:12",
@@ -2195,7 +2195,7 @@
         "created_at": "2024-01-31 00:46:17",
         "description": "一个漏洞POC知识库 目前数量 1000+",
         "commit_message": "update",
-        "commit_date": "2024-06-13 03:36:23",
+        "commit_date": "2024-07-02 07:42:19",
         "release_date": "2024-03-27 14:28:44",
         "release_message": "2023.04.01 重构目录，合并 [Vulhub-Reproduce](https://github.com/Threekiii/Vulhub-Reproduce) 与本仓库。此为合并前 release。"
     },
@@ -6498,8 +6498,8 @@
     "https://github.com/ImageMagick/ImageMagick": {
         "created_at": "2024-06-23 15:34:28",
         "description": "🧙‍♂️ ImageMagick 7",
-        "commit_message": "beta release",
-        "commit_date": "2024-06-23 16:59:20",
+        "commit_message": "-outdir deprecated",
+        "commit_date": "2024-07-02 14:44:17",
         "release_date": "2024-06-23 20:47:31",
         "release_message": "## What's Changed\n* Bump azure/trusted-signing-action from 0.3.18 to 0.3.19 by @dependabot in https://github.com/ImageMagick/ImageMagick/pull/7348\n* Fix a typo in `convert` deprecation warning by @CvX in https://github.com/ImageMagick/ImageMagick/pull/7383\n* Bump azure/trusted-signing-action from 0.3.19 to 0.3.20 by @dependabot in https://github.com/ImageMagick/ImageMagick/pull/7388\n* Updated FontConfig query to include font index, fixing (#7374) by @michaelgroves in https://github.com/ImageMagick/ImageMagick/pull/7409\n\n## New Contributors\n* @CvX made their first contribution in https://github.com/ImageMagick/ImageMagick/pull/7383\n* @michaelgroves made their first contribution in https://github.com/ImageMagick/ImageMagick/pull/7409\n\n**Full Changelog**: https://github.com/ImageMagick/ImageMagick/compare/7.1.1-33...7.1.1-34"
     },
@@ -12883,7 +12883,7 @@
         "created_at": "2011-08-30 06:13:20",
         "description": "Metasploit Framework",
         "commit_message": "automatic module_metadata_base.json update",
-        "commit_date": "2024-06-19 18:11:17"
+        "commit_date": "2024-07-03 18:47:21"
     },
     "https://github.com/PowerDNS/pdns": {
         "created_at": "2013-04-26 11:16:49",
@@ -12897,8 +12897,8 @@
     "https://github.com/volatilityfoundation/volatility3": {
         "created_at": "2024-05-29 19:24:06",
         "description": "Volatility 3.0 development",
-        "commit_message": "Merge pull request #1178 from dgmcdona/dgmcdona/windows_poolscan_layer_bug\n\nWindows: fixes scanner bug for versions < win10",
-        "commit_date": "2024-06-23 10:08:39",
+        "commit_message": "Merge pull request #1172 from volatilityfoundation/threads\n\nAdd threads and suspicious_threads plugins. Condense code for re-use",
+        "commit_date": "2024-07-03 20:05:11",
         "release_date": "2024-05-29 19:45:32",
         "release_message": "* New plugins: \r\n  - `windows.iat`\r\n  - `windows.truecrypt`\r\n  - `linux.library_list`\r\n  - `mac.dmesg`\r\n* Support for configuration files for common CLI options\r\n* `windows.driverirp`: Report IRP entries that point inside a hidden module\r\n* `windows.thrdscan`: Improvements\r\n* `linux.kmsg`: Supports older kernels\r\n* `mac.maps`: Add process dump support\r\n* Support for Python 3.12"
     },
@@ -19286,8 +19286,8 @@
     "https://github.com/jumpserver/jumpserver": {
         "created_at": "2024-06-19 11:38:34",
         "description": "An open-source PAM tool alternative to CyberArk.  广受欢迎的开源堡垒机。",
-        "commit_message": "perf: ansible version and set user lang",
-        "commit_date": "2024-06-28 10:59:44",
+        "commit_message": "chore: Update README.md",
+        "commit_date": "2024-07-03 14:56:08",
         "release_date": "2024-06-20 01:46:10",
         "release_message": "# 一、安装和升级\r\n\r\n## 1.1 在线方式 ✈️\r\n\r\n仅需两步快速安装 JumpServer：\r\n\r\n1. 准备一台 4核8G （最低）且可以访问互联网的 64 位 Linux 主机；\r\n2. 以 root 用户执行如下命令一键安装 JumpServer。\r\n\r\n国内用户\r\n``` sh\r\ncurl -sSL https://resource.fit2cloud.com/jumpserver/jumpserver/releases/latest/download/quick_start.sh | bash\r\n```\r\n\r\n海外用户\r\n``` sh\r\ncurl -sSL https://github.com/jumpserver/jumpserver/releases/latest/download/quick_start.sh | bash\r\n```\r\n\r\n## 1.2 离线方式 🚢\r\n\r\n[离线安装包下载地址](https://community.fit2cloud.com/#/download/jumpserver/v3-10-11)\r\n\r\n详细安装和升级文档请参考：[完整文档](https://docs.jumpserver.org/zh/v3/) \r\n\r\n\r\n# 二、更新日志\r\n\r\n## 2.1 新增功能 🌱\r\n\r\n- feat: 支持纳管 `Dameng` 数据库【企业版】\r\n- feat: 支持命令存储 `Elasticsearch version 8` 数据库\r\n- feat: 支持批量测试资产可连接性\r\n\r\n## 2.2 功能优化 🚀 \r\n\r\n- perf: 优化禁用 `SSH Client` 的设置后，所有通过 `ssh`、`sftp` 和 `telnet` 协议进行的会话连接将不再显示客户端的连接方式\r\n- perf: 优化支持配置大文件上传的临时目录（`FILE_UPLOAD_TEMP_DIR`）\r\n- perf: 优化仪表盘加载速度\r\n- perf: 优化使用随机策略获取标签匹配的远程应用发布机\r\n- perf: 优化移除 `django-rest-swagger` 依赖库（感谢[@Moraxyc](https://github.com/jumpserver/jumpserver/issues/13300)）\r\n- perf: 优化当所有应用发布机不可用时，资产连接弹窗中禁用远程应用连接按钮\r\n- perf: 优化用户操作日志资源显示没有翻译的问题\r\n- perf: 优化账号列表不显示 `params` 属性字段\r\n- perf: 优化资产硬件信息显示为 `-` 的问题\r\n- perf: 优化录像上传到转码服务后及时删除录像（Lion）\r\n- perf: 优化账号权限导致部分模式的表和视图无法查询的问题（Chen）\r\n- perf: 优化升级 `Spring Boot` 版本到 `3.3.0` ，解决低版本存在漏洞的问题（Chen）\r\n- perf: 优化用户登录后的重置密码页面对密码进行加密传输\r\n\r\n## 2.3 问题修复 🐛\r\n\r\n- fix: 修复克隆资产时没有同时克隆账号的问题\r\n- fix: 修复用户登录报错刷新浏览器后依旧报错的问题（登录超时，请重新登录）\r\n- fix: 修复系统任务手动执行时报错的问题\r\n- fix: 修复 `Windows` 资产同步删除账号失败的问题\r\n- fix: 修复所有用户都可查看 `Celery` 任务执行日志的问题（只有管理员、审计员、运行用户可查看）\r\n- fix: 修复用户授权树搜索不生效的问题\r\n- fix: 修复 `v2` 升级 `v3` 版本时超过 `10000` 数量的授权账号没有同步成功的问题\r\n- fix: 修复 `OAuth2` 认证方式可以跳过 `仅允许存在用户登录` 的限制策略\r\n- fix: 修复 `LDAP` 定时同步任务消息通知不到所有人的问题\r\n- fix: 修复资源选择组件动态搜索无资源后不再显示资源的问题\r\n- fix: 修复 `Crontab` 组件设置分钟不生效的问题\r\n- fix: 修复使用 `SFTP` 工具连接资产时经常断开的问题（KoKo）\r\n- fix: 修复账号备份、云同步定时任务不执行的问题【企业版】\r\n- fix: 修复 `Oracle` 数据库探活导致内存不释放的问题（Magnus）【企业版】\r\n- fix: 修复金山云同步校验失败的问题【企业版】\r\n"
     },
@@ -22440,12 +22440,12 @@
         "release_message": ""
     },
     "https://github.com/GZTimeWalker/GZCTF": {
-        "created_at": "2024-06-13 20:46:06",
+        "created_at": "2024-06-30 09:11:54",
         "description": "The GZ::CTF project, an open source CTF platform.",
-        "commit_message": "fix: remove captcha key on boot (#306)",
-        "commit_date": "2024-06-20 14:33:48",
-        "release_date": "2024-06-13 20:48:10",
-        "release_message": "## [0.20.8](https://github.com/GZTimeWalker/GZCTF/compare/v0.20.7..v0.20.8) - 2024-06-13\r\n\r\n### ⛰️ Features\r\n\r\n- **(frontend)** upgrade marked to v13 with custom extension - ([43f908](https://github.com/GZTimeWalker/GZCTF/commit/43f908)) by **GZTime**\r\n\r\n### 🐛 Bug Fixes\r\n\r\n- **(frontend)** unexpected indentation in markdown render (#304) - ([0861e7](https://github.com/GZTimeWalker/GZCTF/commit/0861e7)) by **埃拉**\r\n- **(game)** access to disabled challenges - ([440e15](https://github.com/GZTimeWalker/GZCTF/commit/440e15)) by **GZTime**\r\n- overflow for some challenges - ([6b44ef](https://github.com/GZTimeWalker/GZCTF/commit/6b44ef)) by **GZTime**\r\n\r\n---\r\n\r\n**Changelog**: https://github.com/GZTimeWalker/GZCTF/blob/HEAD/CHANGELOG.md\r\n**Commits**: https://github.com/GZTimeWalker/GZCTF/compare/v0.20.7...v0.20.8"
+        "commit_message": "chore(deps): update",
+        "commit_date": "2024-07-03 04:26:03",
+        "release_date": "2024-06-30 09:13:48",
+        "release_message": "## [0.20.9](https://github.com/GZTimeWalker/GZCTF/compare/v0.20.8..v0.20.9) - 2024-06-30\r\n\r\n### ⛰️ Features\r\n\r\n- Remove redundant Telemetry.Enable config - ([66d337](https://github.com/GZTimeWalker/GZCTF/commit/66d337)) by **Steven He**\r\n\r\n### 🐛 Bug Fixes\r\n\r\n- optimize ChallengeModal scroll area component (#308) - ([8f24da](https://github.com/GZTimeWalker/GZCTF/commit/8f24da)) by **AdBean**\r\n- remove captcha key on boot (#306) - ([e66939](https://github.com/GZTimeWalker/GZCTF/commit/e66939)) by **GZTime**\r\n- remove workaround for Prometheus - ([c779b1](https://github.com/GZTimeWalker/GZCTF/commit/c779b1)) by **Steven He**\r\n- **(frontend)** overflow for challenge modal, again - ([cfe526](https://github.com/GZTimeWalker/GZCTF/commit/cfe526)) by **GZTime**\r\n\r\n---\r\n\r\n**Changelog**: https://github.com/GZTimeWalker/GZCTF/blob/HEAD/CHANGELOG.md\r\n**Commits**: https://github.com/GZTimeWalker/GZCTF/compare/v0.20.8...v0.20.9"
     },
     "https://github.com/savior-only/Spring_All_Reachable": {
         "created_at": "2023-06-01 09:12:40",
@@ -23929,8 +23929,8 @@
     "https://github.com/hansmach1ne/lfimap": {
         "created_at": "2021-02-26 04:11:33",
         "description": "Local File Inclusion discovery and exploitation tool",
-        "commit_message": "Merge pull request #87 from nrathaus/fix_http_headers\n\nMultiple fixes to httpHeaders.py",
-        "commit_date": "2024-06-23 12:01:38"
+        "commit_message": "Fixed exploit to reverse shell via -i module. #107",
+        "commit_date": "2024-07-02 23:57:17"
     },
     "https://github.com/MaskCyberSecurityTeam/BurpHttpHelper": {
         "created_at": "2023-01-22 05:16:24",
@@ -24412,8 +24412,8 @@
         "description": "魅族安全中心"
     },
     "https://sec.vip.com/": {
-        "status_code": 200,
-        "description": "VSRC首页-唯品会信息安全中心"
+        "status_code": 503,
+        "description": ""
     },
     "https://sec.wacai.com/": {
         "status_code": 200,
@@ -27075,7 +27075,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "20.97.189.18属于美国 弗吉尼亚 博伊顿 微软云 数据中心_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "20.55.14.166属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
@@ -27094,7 +27094,7 @@
         "description": "Reverse IP Lookup - All Names Hosted at an IP - DomainTools"
     },
     "https://www.webscan.cc/": {
-        "status_code": 200,
+        "status_code": 500,
         "description": ""
     },
     "https://gofile.io/": {
@@ -28248,8 +28248,8 @@
         "description": "GitGuardian: Git Security Scanning & Secrets Detection"
     },
     "https://www.zeek.org": {
-        "status_code": 429,
-        "description": "WordPress.com 429 Error"
+        "status_code": 200,
+        "description": "The Zeek Network Security Monitor"
     },
     "https://gitee.com/freshday/radar": {
         "status_code": 200,
@@ -28326,8 +28326,8 @@
     "https://github.com/cowrie/cowrie": {
         "created_at": "2023-01-09 15:18:42",
         "description": "Cowrie SSH/Telnet Honeypot https://cowrie.readthedocs.io",
-        "commit_message": "Bump setuptools from 70.0.0 to 70.1.0 in /docs (#2212)\n\nBumps [setuptools](https://github.com/pypa/setuptools) from 70.0.0 to 70.1.0.\r\n- [Release notes](https://github.com/pypa/setuptools/releases)\r\n- [Changelog](https://github.com/pypa/setuptools/blob/main/NEWS.rst)\r\n- [Commits](https://github.com/pypa/setuptools/compare/v70.0.0...v70.1.0)\r\n\r\n---\r\nupdated-dependencies:\r\n- dependency-name: setuptools\r\n  dependency-type: direct:production\r\n  update-type: version-update:semver-minor\r\n...\r\n\r\nSigned-off-by: dependabot[bot] <support@github.com>\r\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
-        "commit_date": "2024-06-25 05:14:46",
+        "commit_message": "#1756 / added-support-for-h-flag-in-ls-comand (#2220)\n\n* feat: add support for human-readable file sizes in ls command\r\n* updated test cases",
+        "commit_date": "2024-06-28 13:29:52",
         "release_date": "2023-01-09 15:19:22",
         "release_message": "Release 2.5.0\r\n*************\r\n\r\n* Datadog output module (Fred Baguelin <frederic.baguelin@datadoghq.com>)\r\n* General improvements to shell expansion handling\r\n* New version of Twisted supported\r\n* Python 3.11 support\r\n* Pypy 3.9 support\r\n* Add session type to Telegram output"
     },
@@ -28698,7 +28698,7 @@
         "commit_date": "2024-06-20 08:09:04"
     },
     "https://github.com/menglike/bug_search": {
-        "created_at": "2024-06-13 07:47:31",
+        "created_at": "2023-01-08 12:06:07",
         "description": "一款免费开源的漏洞情报系统",
         "commit_message": "Update README.md",
         "commit_date": "2024-06-13 07:55:06",
