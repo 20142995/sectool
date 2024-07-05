@@ -1008,8 +1008,8 @@
     "https://github.com/Mr-xn/BurpSuite-collections": {
         "created_at": "2020-01-25 02:07:37",
         "description": "有关burpsuite的插件(非商店),文章以及使用技巧的收集(此项目不再提供burpsuite破解文件,如需要请在博客mrxn.net下载)---Collection of burpsuite plugins (non-stores), articles and tips for using Burpsuite, no crack version file",
-        "commit_date": "2024-05-08 14:30:27",
-        "commit_message": "add 编写burp插件实现数据包自定义修改",
+        "commit_date": "2024-07-01 12:48:07",
+        "commit_message": "Update README.md\n\nadd BurpAppletPentester: 微信小程序Wx_SessionKey加解密插件",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -24412,8 +24412,8 @@
         "description": "魅族安全中心"
     },
     "https://sec.vip.com/": {
-        "status_code": 503,
-        "description": ""
+        "status_code": 200,
+        "description": "VSRC首页-唯品会信息安全中心"
     },
     "https://sec.wacai.com/": {
         "status_code": 200,
@@ -27075,7 +27075,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "20.51.198.151属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "20.97.191.33属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
@@ -27095,7 +27095,7 @@
     },
     "https://www.webscan.cc/": {
         "status_code": 200,
-        "description": "同IP网站查询,C段查询,IP反查域名,在线C段,旁站工具 - WebScan"
+        "description": ""
     },
     "https://gofile.io/": {
         "status_code": 200,
@@ -27103,7 +27103,7 @@
     },
     "https://whois.aizhan.com/": {
         "status_code": 200,
-        "description": ""
+        "description": "站长工具_whois查询工具_爱站网"
     },
     "https://rapiddns.io/sameip": {
         "status_code": 200,
@@ -27202,8 +27202,8 @@
         "description": "Voice"
     },
     "https://app.tmp.link/": {
-        "status_code": 200,
-        "description": "TMPLINK"
+        "status_code": 403,
+        "description": "Just a moment..."
     },
     "http://finger.tidesec.net/": {
         "status_code": 200,
@@ -27266,8 +27266,8 @@
         "description": "Just a moment..."
     },
     "https://www.sqlsec.com/tools.html": {
-        "status_code": 200,
-        "description": "安全小公举 | 国光"
+        "status_code": 403,
+        "description": "Just a moment..."
     },
     "https://patchchecker.com/": {
         "status_code": 200,
@@ -28248,8 +28248,8 @@
         "description": "GitGuardian: Git Security Scanning & Secrets Detection"
     },
     "https://www.zeek.org": {
-        "status_code": 200,
-        "description": "The Zeek Network Security Monitor"
+        "status_code": 429,
+        "description": "WordPress.com 429 Error"
     },
     "https://gitee.com/freshday/radar": {
         "status_code": 200,
