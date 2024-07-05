@@ -1843,7 +1843,7 @@
         "release_message": "【2024-5-7】 0.24.6\r\n1.增加多个接口，建议和最新服务端codereg.py一起使用，接口类型如下：\r\n纯整数0-9\r\n纯小写英文a-z\r\n纯大写英文A-Z\r\n小写英文a-z + 大写英文A-Z\r\n小写英文a-z + 整数0-9\r\n大写英文A-Z + 整数0-9\r\n小写英文a-z + 大写英文A-Z + 整数0-9\r\n自定义字符串库(ranges传参)\r\n"
     },
     "https://github.com/xfiftyone/STS2G": {
-        "created_at": "2020-01-17 03:15:16",
+        "created_at": "2020-01-17 02:17:24",
         "description": "Struts2漏洞扫描利用工具 - Golang版. Struts2 Scanner Written in Golang",
         "commit_date": "2022-01-10 14:04:39",
         "commit_message": "Update README.md",
@@ -2827,7 +2827,7 @@
         "release_message": "增加了几种回显payload，增加了基于Filter（需要对冰蝎客户端pageContext进行改造）和servlet（部分环境需要把参数据进行URL转码）内存冰蝎的支持。"
     },
     "https://github.com/c0ny1/chunked-coding-converter": {
-        "created_at": "2019-03-14 23:45:20",
+        "created_at": "2021-08-21 01:05:05",
         "description": "Burp suite 分块传输辅助插件",
         "commit_date": "2021-11-13 08:17:25",
         "commit_message": "解决抖动延时，随机时间无法到达最大值问题",
@@ -27075,7 +27075,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "20.55.46.116属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "52.234.38.47属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
@@ -27266,8 +27266,8 @@
         "description": "Just a moment..."
     },
     "https://www.sqlsec.com/tools.html": {
-        "status_code": 403,
-        "description": "Just a moment..."
+        "status_code": 200,
+        "description": "安全小公举 | 国光"
     },
     "https://patchchecker.com/": {
         "status_code": 200,
@@ -27332,8 +27332,8 @@
         "commit_date": "2021-05-10 04:28:14"
     },
     "https://who.cx/": {
-        "status_code": 200,
-        "description": "WHO.CX - Whois查询"
+        "status_code": 403,
+        "description": "Just a moment..."
     },
     "https://github.com/zer0h/httpscan": {
         "created_at": "2016-03-29 11:03:21",
