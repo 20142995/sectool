@@ -5942,7 +5942,7 @@
         "release_message": "23年8月5号更新\r\n- 新增随机生成服务端证书，进一步去除特征\r\n- 修改帮助信息\r\n"
     },
     "https://github.com/Schira4396/VcenterKiller": {
-        "created_at": "2023-12-06 15:18:55",
+        "created_at": "2022-10-04 03:39:27",
         "description": "一款针对Vcenter的综合利用工具，包含目前最主流的CVE-2021-21972、CVE-2021-21985以及CVE-2021-22005、One Access的CVE-2022-22954、CVE-2022-22972/31656以及log4j，提供一键上传webshell，命令执行或者上传公钥使用SSH免密连接",
         "commit_date": "2024-04-25 06:09:38",
         "commit_message": "Update README.md",
@@ -5962,8 +5962,8 @@
     "https://github.com/zema1/suo5": {
         "created_at": "2024-04-28 11:07:36",
         "description": "一款高性能 HTTP 代理隧道工具 | A high-performance http proxy tunneling tool",
-        "commit_message": "fix: tls: no renegotiation (#55)",
-        "commit_date": "2024-04-28 11:07:36",
+        "commit_message": "fix: wails build",
+        "commit_date": "2024-07-01 13:21:43",
         "release_date": "2024-04-30 12:02:01",
         "release_message": "Server 端从这里获取 https://github.com/zema1/suo5/tree/v1.2.0/assets ，不同版本的 Server 端请不要混用，否则会有不兼容连不上的问题\r\n\r\n> 带 gui 的版本是界面版，不带 gui 的为命令行版\r\n> 所有编译由 Github Action 自动构建并自动上传，请放心使用\r\n\r\n### 修复\r\n\r\n- 修复部分网站 `TLS` 连接失败的问题  #55 \r\n- 更新部分依赖至最新版"
     },
@@ -24412,8 +24412,8 @@
         "description": "魅族安全中心"
     },
     "https://sec.vip.com/": {
-        "status_code": 200,
-        "description": "VSRC首页-唯品会信息安全中心"
+        "status_code": 503,
+        "description": ""
     },
     "https://sec.wacai.com/": {
         "status_code": 200,
@@ -24818,8 +24818,8 @@
         "description": "404 Not Found"
     },
     "https://dig.pm": {
-        "status_code": 200,
-        "description": "DNSLOG Platform"
+        "status_code": 403,
+        "description": "Just a moment..."
     },
     "https://www.callback.red": {
         "status_code": 200,
@@ -27075,7 +27075,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "20.97.191.33属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "20.109.39.176属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
@@ -27266,8 +27266,8 @@
         "description": "Just a moment..."
     },
     "https://www.sqlsec.com/tools.html": {
-        "status_code": 403,
-        "description": "Just a moment..."
+        "status_code": 200,
+        "description": "安全小公举 | 国光"
     },
     "https://patchchecker.com/": {
         "status_code": 200,
@@ -27332,8 +27332,8 @@
         "commit_date": "2021-05-10 04:28:14"
     },
     "https://who.cx/": {
-        "status_code": 403,
-        "description": "Just a moment..."
+        "status_code": 200,
+        "description": "WHO.CX - Whois查询"
     },
     "https://github.com/zer0h/httpscan": {
         "created_at": "2016-03-29 11:03:21",
@@ -28248,8 +28248,8 @@
         "description": "GitGuardian: Git Security Scanning & Secrets Detection"
     },
     "https://www.zeek.org": {
-        "status_code": 429,
-        "description": "WordPress.com 429 Error"
+        "status_code": 200,
+        "description": "The Zeek Network Security Monitor"
     },
     "https://gitee.com/freshday/radar": {
         "status_code": 200,
@@ -28664,12 +28664,12 @@
         "release_message": "# 🎉🎉🎉QAnything v1.4.1 发布!\r\n\r\n## 全新发布v1.4.1\r\n\r\n## 新特性\r\n### Docker版本-[master分支](https://github.com/netease-youdao/QAnything/tree/master)\r\n* 支持其他与OpenAI-API兼容的大模型服务，包含ollama，通义千问DashScope等\r\n* 支持多卡推理\r\n* 修复使用OpenAI-API时提示找不到whl文件的问题\r\n### Python版本-[qanything-python分支](https://github.com/netease-youdao/QAnything/tree/qanything-python)\r\n* 支持其他与OpenAI-API兼容的大模型服务，包含ollama，通义千问DashScope等\r\n* PDF文件解析效果优化（包含表格效果）\r\n* 修复部分Linux系统（比如centos7）glibc版本过低时无法启动的问题（onnxruntime-gpu[cuda12.x]自动切换为onnxruntime）\r\n* 修复Mac下embedding和rerank速度异常慢的问题\r\n* 修复部分问答无数据来源的问题\r\n* 前端支持联网检索结果直接点击跳转\r\n* 优化OCR，速度和效果提升；且首次启动时无需下载ocr模型，启动时间优化至60秒内\r\n* 支持无显卡Linux机器启动纯CPU版，优化使用cpu模式或OpenAI-API接口调用大模型时的资源占用\r\n\r\n## 新贡献者\r\n* @WuErPing 在 https://github.com/netease-youdao/QAnything/pull/322 进行了首次贡献"
     },
     "https://github.com/DVKunion/SeaMoon": {
-        "created_at": "2024-04-11 07:52:56",
+        "created_at": "2024-07-01 06:33:14",
         "description": "月海 (Sea Moon) 是一款 FaaS/BaaS 实现的 Serverless 网络工具",
-        "commit_message": "fix: compile error (#86)",
-        "commit_date": "2024-04-17 07:24:57",
-        "release_date": "2024-04-11 08:18:20",
-        "release_message": "# SeaMoon 2.0.0\r\n\r\n2.0.0 版本终于算是完成了一个小的里程碑，打出来第一个版本，在稳定性和使用上可能还是有一定的问题，预计在几个版本内实现fix。\r\n\r\n## ❤️ What's New\r\n*  🎨 refactor: 重构了整体的架构，优化客户端使用\r\n*  🎨 refaotr: 优化服务端日志结构代码\r\n* ✨ feat: 支持了 vmess / ss / vless 等加密协议\r\n* ✨ feat: 支持了 clash / shadowrocket 客户端一键导入\r\n* ✨ feat: 支持了客户端登录认证\r\n* ✨ feat: 支持了客户端服务流量统计、测速等常用功能。\r\n* 🔧 fix(ci)：重新拆分了 ci，支持 2.0 特性外增加了可读性。\r\n* 📝 docs：手册 2.0 版本更新\r\n* .... 更多功能更新欢迎下载试用体验\r\n\r\n## What's Changed\r\n\r\n* fcde201 Merge pull request #61 from DVKunion/2.0-dev\r\n* ff358b7 feat: add issue templates (#80)\r\n* 32144e7 fix: some bugs and docs update (#83)\r\n* 2bcec2e fix: update ci action (#84)\r\n\r\n**Full Changelog**: https://github.com/DVKunion/SeaMoon/compare/1.2.0-beta.2...2.0.0"
+        "commit_message": "fix: change tecent api_gw to http sfc url  (#92)\n\n* chore: update LICENSE info\r\n\r\n* fix: tencent scf url",
+        "commit_date": "2024-07-01 06:33:14",
+        "release_date": "2024-07-01 06:40:39",
+        "release_message": "# SeaMoon 2.0.1\r\n\r\n2.0.1 主要解决腾讯云的更新问题，以及一些其他的小修复\r\n\r\n## ❤️ What's New\r\n*  🔧 fix:  修正了ci打包时没有带上commit信息的问题\r\n*  🔧 fix：修正了一处编译错误\r\n* 🔧 fix：修复腾讯云弃用 api_gw 导致的触发器失败问题\r\n* 📝 chore：license 更新\r\n\r\n## What's Changed\r\n* 99adf1a fix: change tecent api_gw to http sfc url  (#92)\r\n* e933b3f fix: ci && structure changes (#85)\r\n* 6910fe3 fix: compile error (#86)\r\n\r\n**Full Changelog**: https://github.com/DVKunion/SeaMoon/compare/2.0.0...2.0.1"
     },
     "https://dawnlauncher.com/": {
         "status_code": 200,
