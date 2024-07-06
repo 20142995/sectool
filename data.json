@@ -642,7 +642,7 @@
     "https://github.com/ph4ntonn/Stowaway": {
         "created_at": "2024-03-29 07:21:43",
         "description": "👻Stowaway -- Multi-hop Proxy Tool for pentesters",
-        "commit_date": "2024-05-20 08:29:25",
+        "commit_date": "2024-07-01 18:07:24",
         "commit_message": "Update README",
         "release_tag": "v2.1",
         "release_date": "2024-03-29 07:36:22",
@@ -2622,7 +2622,7 @@
         "release_message": ""
     },
     "https://github.com/maurosoria/dirsearch": {
-        "created_at": "2022-10-04 05:43:00",
+        "created_at": "2013-04-30 15:57:40",
         "description": "Web path scanner",
         "commit_message": "Merge pull request #1373 from drego85/patch-16\n\nAdded \"sign\" and Sort",
         "commit_date": "2024-05-11 11:29:28",
@@ -4740,8 +4740,8 @@
     "https://github.com/0x727/ObserverWard": {
         "created_at": "2024-03-22 09:26:54",
         "description": "侦查守卫(ObserverWard)指纹识别工具Community web fingerprint identification tool ",
-        "commit_message": "Merge pull request #292 from 0x727/dependabot/cargo/cached-0.51.3\n\nBump cached from 0.50.0 to 0.51.3",
-        "commit_date": "2024-06-04 05:17:42",
+        "commit_message": "Merge pull request #299 from 0x727/dependabot/cargo/cached-0.51.4\n\nBump cached from 0.51.3 to 0.51.4",
+        "commit_date": "2024-07-01 07:40:21",
         "release_date": "2024-03-22 09:27:13",
         "release_message": ""
     },
@@ -22980,7 +22980,7 @@
         "release_message": "* 添加了请求包相应包匹配选项"
     },
     "https://github.com/LasCC/HackTools": {
-        "created_at": "2020-06-22 21:42:16",
+        "created_at": "2023-03-11 14:59:09",
         "description": "The all-in-one browser extension for offensive security professionals 🛠",
         "commit_date": "2024-05-22 20:24:19",
         "commit_message": "Update README.md",
@@ -23976,13 +23976,13 @@
         "release_message": ""
     },
     "https://github.com/MvsCode/frps-onekey": {
-        "created_at": "2023-10-28 01:47:01",
-        "description": " Frps 一键安装脚本&管理脚本",
-        "commit_date": "2024-06-02 12:29:33",
-        "commit_message": "Update README.md",
+        "created_at": "2024-06-19 14:19:24",
+        "description": "frp server configuration deploy&manage script (frp服务端安装&管理脚本)",
+        "commit_date": "2024-06-26 06:20:34",
+        "commit_message": "Merge pull request #112 from mvscode/dev\n\nDev",
         "release_tag": "v0.53.2",
-        "release_date": "2024-04-13 15:30:13",
-        "release_message": ""
+        "release_date": "2024-06-20 07:37:42",
+        "release_message": "## What's Changed\r\n* Dev by @MvsCode in https://github.com/MvsCode/frps-onekey/pull/103\r\n* Update install-frps.sh by @MvsCode in https://github.com/MvsCode/frps-onekey/pull/104\r\n* Dev by @MvsCode in https://github.com/MvsCode/frps-onekey/pull/106\r\n* Dev by @MvsCode in https://github.com/MvsCode/frps-onekey/pull/107\r\n* Update install-frps.sh by @MvsCode in https://github.com/MvsCode/frps-onekey/pull/108\r\n* Add files via upload by @MvsCode in https://github.com/MvsCode/frps-onekey/pull/110\r\n\r\n\r\n**Full Changelog**: https://github.com/MvsCode/frps-onekey/compare/v0.53.2...v0.58.1"
     },
     "https://github.com/iSafeBlue/fastjson-autotype-bypass-demo": {
         "created_at": "2020-05-10 05:41:03",
@@ -25190,8 +25190,8 @@
         "description": "首页"
     },
     "http://www.practicalcryptography.com/ciphers/adfgx-cipher/": {
-        "status_code": 500,
-        "description": "500 Internal Server Error"
+        "status_code": 200,
+        "description": "Practical Cryptography"
     },
     "https://www.guballa.de/vigenere-solver": {
         "status_code": 200,
@@ -27075,7 +27075,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "20.57.14.27属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "172.183.84.70属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
