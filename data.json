@@ -217,13 +217,13 @@
         "release_message": "本项目已存档"
     },
     "https://github.com/akkuman/rotateproxy": {
-        "created_at": "2021-10-18 02:10:27",
+        "created_at": "2024-01-24 05:46:55",
         "description": "利用fofa搜索socks5开放代理进行代理池轮切的工具",
-        "commit_date": "2023-02-13 06:04:33",
-        "commit_message": "fix: modernc.org/sqlite 不支持 win 386",
+        "commit_date": "2024-01-24 05:46:55",
+        "commit_message": "fix: reduce SQLITE_BUSY",
         "release_tag": "v0.7.2",
-        "release_date": "2023-02-13 06:07:53",
-        "release_message": "## Changelog\n* 10ddfd1 fix: modernc.org/sqlite 不支持 win 386\n\n"
+        "release_date": "2024-01-24 05:49:51",
+        "release_message": "## Changelog\n* 743f91d fix: reduce SQLITE_BUSY\n\n"
     },
     "https://github.com/gh0stkey/HaE": {
         "created_at": "2024-06-19 14:20:46",
@@ -1533,7 +1533,7 @@
         "release_message": ""
     },
     "https://github.com/rastating/wordpress-exploit-framework": {
-        "created_at": "2015-11-27 22:13:52",
+        "created_at": "2018-10-06 13:56:35",
         "description": "A Ruby framework designed to aid in the penetration testing of WordPress systems. ",
         "commit_date": "2019-11-24 19:04:43",
         "commit_message": "Update README.md",
@@ -4711,7 +4711,7 @@
         "commit_date": "2024-06-24 04:19:10"
     },
     "https://github.com/JDArmy/SharpXDecrypt": {
-        "created_at": "2022-02-23 03:12:42",
+        "created_at": "2022-02-25 10:06:14",
         "description": "Xshell全版本密码恢复工具",
         "commit_date": "2023-06-08 09:27:22",
         "commit_message": "Merge pull request #4 from qiluoluo/Ki1ro\n\n解决Sessions下存在文件夹导致部分存在于文件夹的xsh文件无法识别的问题 by qiluoluo",
@@ -4773,10 +4773,10 @@
         "release_message": ""
     },
     "https://github.com/wgpsec/tig": {
-        "created_at": "2021-03-10 05:50:42",
+        "created_at": "2022-03-04 02:11:24",
         "description": "Threat Intelligence Gathering 威胁情报收集，旨在提高蓝队拿到攻击 IP 后对其进行威胁情报信息收集的效率。",
-        "commit_date": "2022-07-05 12:33:45",
-        "commit_message": "doc: update readme",
+        "commit_date": "2023-08-10 13:58:08",
+        "commit_message": "Update README.md",
         "release_tag": "v0.5.4",
         "release_date": "2022-03-04 02:12:05",
         "release_message": "* 修复了 fofa 接口失效的问题"
@@ -20923,13 +20923,13 @@
         "commit_message": "Merge pull request #6 from magefred/master\n\nModify pom.xml: add scope=test to junit-jupiter-api"
     },
     "https://github.com/EnableSecurity/wafw00f": {
-        "created_at": "2014-05-14 17:08:16",
+        "created_at": "2022-07-17 05:07:45",
         "description": "WAFW00F allows one to identify and fingerprint Web Application Firewall (WAF) products protecting a website.",
         "release_tag": "v2.2.0",
         "release_date": "2022-07-17 05:15:47",
         "release_message": "This release brings the following features to the repository:\r\n- New features like docker support and output format fixes.\r\n- Several new bug fixes and stability to the existing code.\r\n- Few new WAF detections.",
-        "commit_date": "2023-06-04 13:46:55",
-        "commit_message": "Added trigger URL in response (#182)\n\n* added url in return value\r\n\r\n* keep same format\r\n\r\n* added sort_keys"
+        "commit_date": "2024-06-23 13:08:42",
+        "commit_message": "updated copyright (#204)"
     },
     "https://github.com/GDSSecurity/Windows-Exploit-Suggester": {
         "created_at": "",
@@ -27075,7 +27075,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "172.183.106.50属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "13.83.123.150属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
