@@ -3932,7 +3932,7 @@
         "release_message": "### Bug Fixes\n\n- use location `RealPath` not `String()` for match sorting [[#1950](https://github.com/anchore/grype/pull/1950) @luhring]\n\n**[(Full Changelog)](https://github.com/anchore/grype/compare/v0.79.1...v0.79.2)**\n\n"
     },
     "https://github.com/Metarget/metarget": {
-        "created_at": "2021-12-31 07:57:37",
+        "created_at": "2021-04-09 04:20:47",
         "description": "Metarget is a framework providing automatic constructions of vulnerable infrastructures.",
         "commit_date": "2024-04-09 12:32:59",
         "commit_message": "Merge pull request #130 from moui0/master\n\nadd cve-2017-1000353, cve-2018-1000861, cve-2024-23897",
@@ -25050,8 +25050,8 @@
         "description": ""
     },
     "https://www.fujieace.com/hacker/tools/yujian.html": {
-        "status_code": 200,
-        "description": "御剑后台扫描工具下载、安装、使用教程 - 付杰博客"
+        "status_code": 502,
+        "description": "502 Bad Gateway"
     },
     "https://n.shellpub.com/": {
         "status_code": 200,
@@ -27075,7 +27075,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "172.183.84.70属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "172.190.111.249属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
