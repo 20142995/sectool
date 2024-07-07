@@ -797,8 +797,8 @@
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [tplmap v0.5](https://github.com/epinna/tplmap) Server-Side Template Injection and Code Injection Detection and Exploit...
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [ssti-payload](https://github.com/VikasVarshney/ssti-payload) SSTI Payload Generator
 ###### XSS
-- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [beef](https://github.com/beefproject/beef) The Browser Exploitation Framework Project
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [dalfox](https://github.com/hahwul/dalfox) 🌙🦊 Dalfox is a powerful open-source XSS scanner and utility focused on autom...
+- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [beef](https://github.com/beefproject/beef) The Browser Exploitation Framework Project
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [domdig](https://github.com/fcavallarin/domdig) DOM XSS scanner for Single Page Applications
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [shuriken](https://github.com/shogunlab/shuriken) Cross-Site Scripting (XSS) command line tool for testing lists of XSS payl...
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [xssplatform](https://github.com/78778443/xssplatform) 一个经典的XSS渗透管理平台
@@ -1183,7 +1183,7 @@
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [reverseip_py](https://github.com/yuyudhn/reverseip_py) Domain Parser for IPAddress.com Reverse IP Lookup
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [iplookup v1.1](https://github.com/Lengso/iplookup) IP反查域名
 - <img src="https://favicon.qqsuu.cn/s.tool.chinaz.com" alt="" style="height: 20px;"> [网站IP查询_IP反查域名_同IP网站查询 - 站长工具](http://s.tool.chinaz.com/same) 
-- <img src="https://favicon.qqsuu.cn/dns.aizhan.com" alt="" style="height: 20px;"> [172.190.111.249属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网](https://dns.aizhan.com/) 
+- <img src="https://favicon.qqsuu.cn/dns.aizhan.com" alt="" style="height: 20px;"> [172.190.111.247属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网](https://dns.aizhan.com/) 
 - <img src="https://favicon.qqsuu.cn/dnslytics.com" alt="" style="height: 20px;"> [Reverse IP - Find websites hosted on the same IP address, server or subnet](https://dnslytics.com/reverse-ip) 
 - <img src="https://favicon.qqsuu.cn/hackertarget.com" alt="" style="height: 20px;"> [Reverse IP Lookup, Find Hosts Sharing an IP | HackerTarget.com](https://hackertarget.com/reverse-ip-lookup/) 
 - <img src="https://favicon.qqsuu.cn/rapiddns.io" alt="" style="height: 20px;"> [Subdomain - RapidDNS Rapid DNS Information Collection](https://rapiddns.io/sameip) 
@@ -1197,8 +1197,8 @@
 #### IP定位
 - <img src="https://favicon.qqsuu.cn/www.ipuu.net" alt="" style="height: 20px;"> [IPUU - IP地址查询|我的IP地址](https://www.ipuu.net/Home) 
 #### WAF识别
-- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [WhatWaf](https://github.com/Ekultek/WhatWaf) Detect and bypass web application firewalls and protection systems
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [wafw00f v2.2.0](https://github.com/EnableSecurity/wafw00f) WAFW00F allows one to identify and fingerprint Web Application Firew...
+- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [WhatWaf](https://github.com/Ekultek/WhatWaf) Detect and bypass web application firewalls and protection systems
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [identYwaf](https://github.com/stamparm/identYwaf) Blind WAF identification tool
 #### WHOIS查询
 - <img src="https://favicon.qqsuu.cn/whois.alexa.cn" alt="" style="height: 20px;"> [Whois域名注册信息查询](http://whois.alexa.cn/) 
@@ -1263,9 +1263,9 @@
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [wxapkg-convertor 1.0.1](https://github.com/ezshine/wxapkg-convertor) 一个反编译微信小程序的工具，仓库也收集各种微信小程序/小游戏.wxapkg文件
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [pc_wxapkg_decrypt 0.1](https://github.com/BlackTrace/pc_wxapkg_decrypt) windows pc端wxpkg文件解密（非解包）
 #### 指纹识别
+- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [fingerprintjs](https://github.com/fingerprintjs/fingerprintjs) Browser fingerprinting library. Accuracy of this version is 40-60%, a...
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [ObserverWard](https://github.com/0x727/ObserverWard) 侦查守卫(ObserverWard)指纹识别工具Community web fingerprint identification tool 
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [wappalyzergo v0.0.109](https://github.com/projectdiscovery/wappalyzergo) A high performance go implementation of Wappalyzer Technology...
-- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [fingerprintjs](https://github.com/fingerprintjs/fingerprintjs) Browser fingerprinting library. Accuracy of this version is 40-60%, a...
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [AlliN v2.4.2](https://github.com/P1-Team/AlliN) A flexible scanner
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [whatweb-plus v0.5.5.19.fix](https://github.com/winezer0/whatweb-plus) whatweb 增强版  8000+插件（提供windows可执行文件）
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [FingerprintHub](https://github.com/0x727/FingerprintHub) 侦查守卫(ObserverWard)的指纹库
@@ -1324,7 +1324,7 @@
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [DirBrute](https://github.com/Xyntax/DirBrute) 多线程WEB目录爆破工具 [Multi-thread WEB directory blasting tool(with dics inside) ]
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [httpscan](https://github.com/zer0h/httpscan) 一个爬虫式的网段Web主机发现小工具 # A HTTP Service detector with a crawler from IP/CIDR
 - <img src="https://favicon.qqsuu.cn/pan.baidu.com" alt="" style="height: 20px;"> [release_免费高速下载|百度网盘-分享无限制](http://pan.baidu.com/s/1pLjaQKF) 
-- <img src="https://favicon.qqsuu.cn/www.fujieace.com" alt="" style="height: 20px;"> [502 Bad Gateway](https://www.fujieace.com/hacker/tools/yujian.html) 
+- <img src="https://favicon.qqsuu.cn/www.fujieace.com" alt="" style="height: 20px;"> [御剑后台扫描工具下载、安装、使用教程 - 付杰博客](https://www.fujieace.com/hacker/tools/yujian.html) 
 #### 端口扫描
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [AutoRecon](https://github.com/Tib3rius/AutoRecon) AutoRecon is a multi-threaded network reconnaissance tool which performs ...
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [naabu](https://github.com/projectdiscovery/naabu) A fast port scanner written in go with a focus on reliability and simplicity....
@@ -1356,7 +1356,7 @@
 - <img src="https://favicon.qqsuu.cn/search.chongbuluo.com" alt="" style="height: 20px;"> [虫部落快搜 - 搜索快人一步](https://search.chongbuluo.com/) 
 - <img src="https://favicon.qqsuu.cn/www.dalipan.com" alt="" style="height: 20px;"> [大力盘 - 网盘搜索引擎](https://www.dalipan.com/#/) 
 - <img src="https://favicon.qqsuu.cn/www.lingfengyun.com" alt="" style="height: 20px;"> [十大网盘搜索引擎 - 凌风云](https://www.lingfengyun.com/) 
-- <img src="https://favicon.qqsuu.cn/www.pan131.com" alt="" style="height: 20px;"> [百度云搜索,百度网盘云盘资源搜索引擎 - 盘131](https://www.pan131.com/) 
+- <img src="https://favicon.qqsuu.cn/www.pan131.com" alt="" style="height: 20px;"> [500 Internal Server Error](https://www.pan131.com/) 
 #### 网站信息
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [Web-SurvivalScan](https://github.com/AabyssZG/Web-SurvivalScan) 对Web渗透项目资产进行快速存活验证
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [waybackurls v0.1.0](https://github.com/tomnomnom/waybackurls) Fetch all the URLs that the Wayback Machine knows about for a do...
@@ -1526,8 +1526,8 @@
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [Kernelhub v1.1](https://github.com/Ascotbe/Kernelhub) :palm_tree:Linux、macOS、Windows Kernel privilege escalation vulnerabi...
 #### 权限维持
 ##### Shell管理
-- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [java-memshell-generator-release v1.0.7.beta3](https://github.com/pen4uin/java-memshell-generator-release) 一款支持高度自定义的 Java 内存马生成工具
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [Platypus v1.5.0](https://github.com/WangYihang/Platypus) :hammer: A modern multiple reverse shell sessions manager written i...
+- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [java-memshell-generator-release v1.0.7.beta3](https://github.com/pen4uin/java-memshell-generator-release) 一款支持高度自定义的 Java 内存马生成工具
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [Webshell_Generate v1.2.3](https://github.com/cseroad/Webshell_Generate) 用于生成各类免杀webshell
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [As-Exploits](https://github.com/yzddmr6/As-Exploits) 中国蚁剑后渗透框架
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [Behinder Behinder_v4.0.6](https://github.com/rebeyond/Behinder) “冰蝎”动态二进制加密网站管理客户端
@@ -1626,11 +1626,11 @@
 ### 相关资源
 #### 代理池
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [proxy_pool 2.4.1](https://github.com/jhao104/proxy_pool) Python ProxyPool for web spider
+- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [rotateproxy v0.7.2](https://github.com/akkuman/rotateproxy) 利用fofa搜索socks5开放代理进行代理池轮切的工具
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [mubeng v0.14.1](https://github.com/kitabisa/mubeng) An incredibly fast proxy checker & IP rotator with ease.
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [ProxyPoolxSocks v1.2](https://github.com/Anyyy111/ProxyPoolxSocks) ☁️Socks代理池服务端自动化搭建工具☁️
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [Venom-Transponder](https://github.com/z-bool/Venom-Transponder) 毒液流量转发器：自动化捡洞/打点/跳板必备神器，支持联动URL爬虫、各种被动扫描器。
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [go_proxy_pool 2022.11.22](https://github.com/pingc0y/go_proxy_pool) 无环境依赖开箱即用的代理IP池
-- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [rotateproxy v0.7.2](https://github.com/akkuman/rotateproxy) 利用fofa搜索socks5开放代理进行代理池轮切的工具
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [Gofreeproxy v0.1](https://github.com/ja9er/Gofreeproxy) 自用的动态代理小工具
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [Auto_proxy](https://github.com/Mustard404/Auto_proxy) 利用IP地址池进行自动切换Http代理，防止IP封禁。
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [proxyServer v1.0](https://github.com/safe6Sec/proxyServer) 本项目其实就是个简单的代理服务器，把代理池集成进来来了。
@@ -2465,7 +2465,7 @@
 - <img src="https://favicon.qqsuu.cn/sec.huazhu.com" alt="" style="height: 20px;"> [华住安全响应中心 | Huazhu Security Response Center](https://sec.huazhu.com/) 
 - <img src="https://favicon.qqsuu.cn/sec.ly.com" alt="" style="height: 20px;"> [首页 | 同程旅行安全应急响应中心](https://sec.ly.com/) 
 - <img src="https://favicon.qqsuu.cn/sec.meizu.com" alt="" style="height: 20px;"> [魅族安全中心](https://sec.meizu.com/) 
-- <img src="https://favicon.qqsuu.cn/sec.vip.com" alt="" style="height: 20px;"> [VSRC首页-唯品会信息安全中心](https://sec.vip.com/) 
+- <img src="https://favicon.qqsuu.cn/sec.vip.com" alt="" style="height: 20px;"> [sec.vip.com](https://sec.vip.com/) 
 - <img src="https://favicon.qqsuu.cn/sec.wacai.com" alt="" style="height: 20px;"> [挖财安全应急响应中心](https://sec.wacai.com/) 
 - <img src="https://favicon.qqsuu.cn/sec.wifi.com" alt="" style="height: 20px;"> [WIFI万能钥匙安全响应中心](https://sec.wifi.com/) 
 - <img src="https://favicon.qqsuu.cn/sec.xiaomi.com" alt="" style="height: 20px;"> [小米安全中心](https://sec.xiaomi.com/) 
@@ -2662,8 +2662,8 @@
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [tcpburn 1.0.0](https://github.com/session-replay-tools/tcpburn) The most powerful tool for stress testing of Internet server applicat...
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [WebBench](https://github.com/EZLippi/WebBench) Webbench是Radim Kolar在1997年写的一个在linux下使用的非常简单的网站压测工具。它使用fork()模拟多个客户端同时访问我们...
 ## 语音合成
-- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [GPT-SoVITS](https://github.com/RVC-Boss/GPT-SoVITS) 1 min voice data can also be used to train a good TTS model! (few shot v...
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [OpenVoice](https://github.com/myshell-ai/OpenVoice) Instant voice cloning by MyShell.
+- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [GPT-SoVITS](https://github.com/RVC-Boss/GPT-SoVITS) 1 min voice data can also be used to train a good TTS model! (few shot v...
 ## 软件及系统国内镜像
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [Thanks-Mirror](https://github.com/eryajf/Thanks-Mirror) 整理记录各个包管理器，系统镜像，以及常用软件的好用镜像，Thanks Mirror。     走过路过，如觉不错，麻烦点个赞👆🌟
 ## 远程软件
