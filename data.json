@@ -3856,12 +3856,12 @@
         "release_message": "BBScan 3.0"
     },
     "https://github.com/anchore/syft": {
-        "created_at": "2024-05-09 19:45:42",
+        "created_at": "2024-06-24 15:43:58",
         "description": "CLI tool and library for generating a Software Bill of Materials from container images and filesystems",
-        "commit_message": "feat: Add Lua cataloger (#2613)\n\nSigned-off-by: Laurent Goderre <laurent.goderre@docker.com>",
-        "commit_date": "2024-05-24 20:56:34",
-        "release_date": "2024-05-09 19:52:26",
-        "release_message": "### Bug Fixes\n\n- Fix redundant package deletions when considering ELF packages [[#2862](https://github.com/anchore/syft/pull/2862) @wagoodman]\n\n**[(Full Changelog)](https://github.com/anchore/syft/compare/v1.4.0...v1.4.1)**\n\n"
+        "commit_message": "Infer the package type from ELF package notes (#3008)\n\n* fix ELF package types to be honored\r\n\r\nSigned-off-by: Alex Goodman <wagoodman@users.noreply.github.com>\r\n\r\n* prefer OS packages over binary packages when there are duplicates\r\n\r\nSigned-off-by: Alex Goodman <wagoodman@users.noreply.github.com>\r\n\r\n---------\r\n\r\nSigned-off-by: Alex Goodman <wagoodman@users.noreply.github.com>",
+        "commit_date": "2024-07-02 20:07:08",
+        "release_date": "2024-06-24 15:51:42",
+        "release_message": "### Added Features\n\n- Add CycloneDX 1.6 Support [[#2974](https://github.com/anchore/syft/issues/2974) [#2978](https://github.com/anchore/syft/pull/2978) @ragaskar]\n\n### Bug Fixes\n\n- Fixed the detection of arangodb 3.12 [[#2979](https://github.com/anchore/syft/pull/2979) @LaurentGoderre]\n- Syft tries to create the cache directory at a location that has no permission [[#2984](https://github.com/anchore/syft/issues/2984) [#2985](https://github.com/anchore/syft/pull/2985) @kzantow]\n\n**[(Full Changelog)](https://github.com/anchore/syft/compare/v1.7.0...v1.8.0)**\n\n"
     },
     "https://github.com/chaitin/safeline": {
         "created_at": "2024-06-20 10:10:32",
@@ -5049,8 +5049,8 @@
     "https://github.com/swisskyrepo/SSRFmap": {
         "created_at": "2018-10-15 19:08:26",
         "description": "Automatic SSRF fuzzer and exploitation tool",
-        "commit_date": "2024-05-31 10:53:06",
-        "commit_message": "Merge pull request #47 from swisskyrepo/dependabot/pip/flask-2.3.2\n\nBump flask from 1.0.2 to 2.3.2",
+        "commit_date": "2024-06-10 12:57:57",
+        "commit_message": "Merge pull request #53 from swisskyrepo/v2\n\nV2 - Fixes and new module axfr",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -27075,7 +27075,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "13.90.174.194属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "20.55.14.240属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
@@ -27134,8 +27134,8 @@
         "description": "搜邮箱 | 搜邮箱"
     },
     "https://hunter.io/": {
-        "status_code": 200,
-        "description": "Find email addresses and send cold emails • Hunter"
+        "status_code": 500,
+        "description": "500 Internal Server Error • Hunter"
     },
     "https://www.wenshushu.cn/": {
         "status_code": 200,
@@ -27274,8 +27274,8 @@
         "description": "Find Missing Patches"
     },
     "https://www.pan131.com/": {
-        "status_code": 200,
-        "description": "百度云搜索,百度网盘云盘资源搜索引擎 - 盘131"
+        "status_code": 500,
+        "description": "500 Internal Server Error"
     },
     "http://whois.alexa.cn/": {
         "status_code": 200,
