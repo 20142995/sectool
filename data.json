@@ -1120,12 +1120,12 @@
         "release_message": "## [6.3.0](https://github.com/mdp/rotp/compare/v6.2.2...v6.3.0) (2023-08-30)\n\n\n### Features\n\n* Allow for non-standard provisioning URI params, eg. image/icon ([#91](https://github.com/mdp/rotp/issues/91)) ([45d8aac](https://github.com/mdp/rotp/commit/45d8aac8356424897faf3a0dbda59f88b22df775))"
     },
     "https://github.com/gchq/CyberChef": {
-        "created_at": "2024-06-11 17:07:28",
+        "created_at": "2024-06-21 13:12:37",
         "description": "The Cyber Swiss Army Knife - a web app for encryption, encoding, compression and data analysis",
-        "commit_date": "2024-06-17 23:35:50",
-        "commit_message": "Merge pull request #1834 from eltociear/patch-1",
+        "commit_date": "2024-06-21 13:14:59",
+        "commit_message": "Merge branch 'master' of github.com:gchq/CyberChef",
         "release_tag": "v10.5.2",
-        "release_date": "2024-06-11 17:17:57",
+        "release_date": "2024-06-21 13:22:29",
         "release_message": "See the [CHANGELOG](https://github.com/gchq/CyberChef/blob/master/CHANGELOG.md) and [commit messages](https://github.com/gchq/CyberChef/commits/master) for details."
     },
     "https://github.com/NeoTheCapt/PowerScanner": {
@@ -23108,12 +23108,12 @@
         "release_message": ""
     },
     "https://github.com/fingerprintjs/fingerprintjs": {
-        "created_at": "2024-06-05 08:20:58",
+        "created_at": "2024-07-03 13:17:53",
         "description": "Browser fingerprinting library. Accuracy of this version is 40-60%, accuracy of the commercial Fingerprint Identification is 99.5%. V4 of this library is BSL licensed.",
-        "commit_message": "Bump braces from 3.0.2 to 3.0.3 (#1012)\n\nBumps [braces](https://github.com/micromatch/braces) from 3.0.2 to 3.0.3.\r\n- [Changelog](https://github.com/micromatch/braces/blob/master/CHANGELOG.md)\r\n- [Commits](https://github.com/micromatch/braces/compare/3.0.2...3.0.3)\r\n\r\n---\r\nupdated-dependencies:\r\n- dependency-name: braces\r\n  dependency-type: indirect\r\n...\r\n\r\nSigned-off-by: dependabot[bot] <support@github.com>\r\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
-        "commit_date": "2024-06-16 10:35:32",
-        "release_date": "2024-06-05 08:21:27",
-        "release_message": "- fix: A console warning regarding `AudioContext` (#1009)\r\n\r\nThis release will change fingerprints for some visitors."
+        "commit_message": "Bump the version to 4.4.2 (#1015)",
+        "commit_date": "2024-07-03 13:17:53",
+        "release_date": "2024-07-03 13:24:00",
+        "release_message": "- Optimize the performance by tweaking the event loop releasing (#1014)"
     },
     "https://github.com/inbug-team/Log4j_RCE_Tool": {
         "created_at": "2021-12-11 02:04:37",
@@ -25412,8 +25412,8 @@
     "https://github.com/leondz/garak": {
         "created_at": "2024-05-10 13:22:31",
         "description": "LLM vulnerability scanner",
-        "commit_message": "BEAST Attack Implementation (#728)\n\n* Add BEAST attack implementation. Move gcg.txt out of its own folder. Create resources.common with commonly used attributes. Fix typo in generate_gcg.py. Rename gcg.py to suffix.py to encompass other similar attacks.\r\n\r\n* Remove advbench data. Create function to download/load advbench data. Refactor gcg to use new functionality.\r\n\r\n* Add chat templating and system prompt to beast_attack.py. Add progress bars. Catch case where advbench directory doesn't exist.\r\n\r\n* Add size parameter to load_advbench() in common.py. Add format_chat function and catch case where tokenizer does not support. Fix get_perplexity. Fix evaluate. Add score_candidates function. Apply black.\r\n\r\n* Rename rejection_strings using CONSTANT variable naming convention. Remove duplicate invocation of `Path`. Denote methods in beast_attack.py as private. Fix _evaluate method to deal with generator returns properly.\r\n\r\n* Replace print statement with logging.\r\n\r\n* Rename garak.probes.gcg.rst to garak.probes.suffix.rst.\r\n\r\n* Fix rename in docs; rename SUFFIX_PATH to GCG_SUFFIX_PATH in suffix.py\r\n\r\n* Update garak/probes/suffix.py\r\n\r\nCo-authored-by: Jeffrey Martin <jemartin@nvidia.com>\r\nSigned-off-by: Erick Galinkin <erick.galinkin@gmail.com>\r\n\r\n* Update garak/resources/beast/__init__.py\r\n\r\nFix copyright date\r\n\r\nCo-authored-by: Leon Derczynski <leonderczynski@gmail.com>\r\nSigned-off-by: Erick Galinkin <erick.galinkin@gmail.com>\r\n\r\n* Update garak/resources/beast/beast_attack.py\r\n\r\nCo-authored-by: Leon Derczynski <leonderczynski@gmail.com>\r\nSigned-off-by: Erick Galinkin <erick.galinkin@gmail.com>\r\n\r\n* Update garak/resources/beast/beast_attack.py\r\n\r\nAdd description to progress bar.\r\n\r\nCo-authored-by: Leon Derczynski <leonderczynski@gmail.com>\r\nSigned-off-by: Erick Galinkin <erick.galinkin@gmail.com>\r\n\r\n* Relocate imports to reduce load cost.\r\n\r\n* Update garak/probes/suffix.py\r\n\r\nCo-authored-by: Jeffrey Martin <jemartin@nvidia.com>\r\nSigned-off-by: Erick Galinkin <erick.galinkin@gmail.com>\r\n\r\n---------\r\n\r\nSigned-off-by: Erick Galinkin <erick.galinkin@gmail.com>\r\nCo-authored-by: Jeffrey Martin <jemartin@nvidia.com>\r\nCo-authored-by: Leon Derczynski <leonderczynski@gmail.com>",
-        "commit_date": "2024-06-28 13:58:08",
+        "commit_message": "move REST generator exception into garak.exceptions (#779)",
+        "commit_date": "2024-07-05 15:31:40",
         "release_date": "2024-05-10 13:41:33",
         "release_message": "## What's Changed\r\n\r\ngarak's 1st birthday! 🎂\r\n\r\nHeadlines in this birthday release:\r\n* Multimodal support! LLaVa + FigStep - HUGE thanks to @DavidLee528 \r\n* LiteLLM generator support - thanks to @Tien-Cheng!\r\n* DoNotAnswer probe for prompts an LLM should decline - thanks to @AhsanAyub!\r\n* LangChain Serve generator support - thanks to @GustavFredrikson!\r\n* Support for NIM generators, NVIDIA Inference Microservices\r\n* OpenAI abstraction with parallelisation support\r\n* Windows compatibility enhanced, with optional testing in the workflow\r\n* Hugging Face speedup\r\n\r\n### plugins\r\n* LiteLLM generator by @Tien-Cheng in https://github.com/leondz/garak/pull/572\r\n* Support for using 'langchain serve' endpoints by @GustavFredrikson in https://github.com/leondz/garak/pull/588\r\n* Enable parallel OpenAI calls by @jmartin-tech in https://github.com/leondz/garak/pull/645\r\n* Multi-modal Jailbreaking Attack on LLaVA by @DavidLee528 in https://github.com/leondz/garak/pull/587\r\n* bump openai module version to match paths in latest litellm by @leondz in https://github.com/leondz/garak/pull/664\r\n* generator: NIM by @leondz in https://github.com/leondz/garak/pull/637\r\n* Probe: Do Not Answer by @AhsanAyub in https://github.com/leondz/garak/pull/608\r\n\r\n### architecture\r\n* change supported pythons to 3.10-3.12 by @leondz in https://github.com/leondz/garak/pull/503\r\n* add more detailed TAP docs by @leondz in https://github.com/leondz/garak/pull/504\r\n* add multiple-result aggregator by @leondz in https://github.com/leondz/garak/pull/505\r\n* add post buff hook by @erickgalinkin in https://github.com/leondz/garak/pull/506\r\n* Add fleshed-out docs to all probes by @leondz in https://github.com/leondz/garak/pull/507\r\n* add bibtex under citation info in readme by @leondz in https://github.com/leondz/garak/pull/511\r\n* define broad test, all probes, 1 gen per by @leondz in https://github.com/leondz/garak/pull/514\r\n* Feature/taxonomy payloads by @leondz in https://github.com/leondz/garak/pull/519\r\n* include paraphrasing in broad conf by @leondz in https://github.com/leondz/garak/pull/521\r\n* choose whether buffing will also include the original prompt by @leondz in https://github.com/leondz/garak/pull/523\r\n* add config var for capping max # buffed prompts to add per buff by @leondz in https://github.com/leondz/garak/pull/526\r\n* document Probe.probe(); skip a buff hook if no buffs by @leondz in https://github.com/leondz/garak/pull/527\r\n* add type hints to base.Probe; fix base probe rst by @leondz in https://github.com/leondz/garak/pull/528\r\n* Bump datasets package by @shubhobm in https://github.com/leondz/garak/pull/536\r\n* Add ConversationalPipeline for huggingface models by @erickgalinkin in https://github.com/leondz/garak/pull/539\r\n* add generator for supporting openai module v0.x by @leondz in https://github.com/leondz/garak/pull/553\r\n* Update README.md by @erickgalinkin in https://github.com/leondz/garak/pull/558\r\n* Minor typo in FAQ by @jmartin-tech in https://github.com/leondz/garak/pull/562\r\n* Add additional error message when __doc__ is None type by @DavidLee528 in https://github.com/leondz/garak/pull/566\r\n* shared constant & string literal by @jmartin-tech in https://github.com/leondz/garak/pull/571\r\n* Spelling corrections for multiple locations by @jmartin-tech in https://github.com/leondz/garak/pull/564\r\n* Reduce Huggingface GPU utilization by @erickgalinkin in https://github.com/leondz/garak/pull/567\r\n* skip `verbose` flag in secondary parser by @jmartin-tech in https://github.com/leondz/garak/pull/576\r\n* Added project twitter link and corrected a grammatic error by @codebrain001 in https://github.com/leondz/garak/pull/578\r\n* Convert GGML to expect GGUF format by @jmartin-tech in https://github.com/leondz/garak/pull/581\r\n* Update workflows: CLA asst bump, PR & manual testing by @leondz in https://github.com/leondz/garak/pull/591\r\n* add test de-duping using skip-duplicate-actions by @leondz in https://github.com/leondz/garak/pull/597\r\n* Remove `#!` entries from files not intended as executables by @jmartin-tech in https://github.com/leondz/garak/pull/612\r\n* Further align shebangs with code that has executable entry points by @leondz in https://github.com/leondz/garak/pull/613\r\n* interactive mode intro by @leondz in https://github.com/leondz/garak/pull/614\r\n* add tests for `ggml` generator by @jmartin-tech in https://github.com/leondz/garak/pull/618\r\n* add var for generator context_len and populate this for some generators by @leondz in https://github.com/leondz/garak/pull/616\r\n* allow generators.Base.generate() to take an optional param specifying generation count by @leondz in https://github.com/leondz/garak/pull/600\r\n* Enable windows tests as github action by @jmartin-tech in https://github.com/leondz/garak/pull/626\r\n* add on-demand macos testing by @leondz in https://github.com/leondz/garak/pull/631\r\n* macOS test install from correct path by @jmartin-tech in https://github.com/leondz/garak/pull/633\r\n* consolidate test file cleanup by @jmartin-tech in https://github.com/leondz/garak/pull/634\r\n* bump discord link by @leondz in https://github.com/leondz/garak/pull/648\r\n* meta the arguments a bit for GET vs other request types by @jmartin-tech in https://github.com/leondz/garak/pull/640\r\n\r\n### stability\r\n* fail gracefully if nvcf rejects input; compact zalgo prompts by @leondz in https://github.com/leondz/garak/pull/509\r\n* log & skip past NVCF 4xx errors by @leondz in https://github.com/leondz/garak/pull/533\r\n* fix empty autodan prompts & poor detector behaviour by @leondz in https://github.com/leondz/garak/pull/534\r\n* Fix AutoDAN issues by @erickgalinkin in https://github.com/leondz/garak/pull/537\r\n* fix bad nonetype handling in atkgen probe by @leondz in https://github.com/leondz/garak/pull/538\r\n* Division by zero error fixed in HTML report generation by @CoderMayhem in https://github.com/leondz/garak/pull/545\r\n* cap cohere lib version by @leondz in https://github.com/leondz/garak/pull/569\r\n* rm deprecated model from example by @leondz in https://github.com/leondz/garak/pull/575\r\n* Attack fixes by @erickgalinkin in https://github.com/leondz/garak/pull/555\r\n* More regex as string literal by @jmartin-tech in https://github.com/leondz/garak/pull/586\r\n* Bugfix/action dedupe by @leondz in https://github.com/leondz/garak/pull/598\r\n* wrap cli exec to gracefully catch keyboard exit signal by @jmartin-tech in https://github.com/leondz/garak/pull/603\r\n* Enforce warning output for `garak` classes. by @jmartin-tech in https://github.com/leondz/garak/pull/605\r\n* bump hf transformers v to avoid transformers#30076 by @leondz in https://github.com/leondz/garak/pull/636\r\n* update avidtools to remove typing reference by @jmartin-tech in https://github.com/leondz/garak/pull/639\r\n* torch v bump by @leondz in https://github.com/leondz/garak/pull/649\r\n* Pause FigStepTiny by @leondz in https://github.com/leondz/garak/pull/652\r\n* Bugfix/visual jailbreak pause by @leondz in https://github.com/leondz/garak/pull/653\r\n* limit push test to main by @jmartin-tech in https://github.com/leondz/garak/pull/661\r\n* Update MANIFEST.in so all resources are installed by @JKL98ISR in https://github.com/leondz/garak/pull/660\r\n* handle extant but closed `hitlogfile` file by @leondz in https://github.com/leondz/garak/pull/665\r\n\r\n\r\n## New Contributors\r\n* @CoderMayhem made their first contribution in https://github.com/leondz/garak/pull/545\r\n* @jmartin-tech made their first contribution in https://github.com/leondz/garak/pull/562\r\n* @codebrain001 made their first contribution in https://github.com/leondz/garak/pull/578\r\n* @Tien-Cheng made their first contribution in https://github.com/leondz/garak/pull/572\r\n* @GustavFredrikson made their first contribution in https://github.com/leondz/garak/pull/588\r\n* @JKL98ISR made their first contribution in https://github.com/leondz/garak/pull/660\r\n* @AhsanAyub made their first contribution in https://github.com/leondz/garak/pull/608\r\n\r\n**Full Changelog**: https://github.com/leondz/garak/compare/v0.9.0.12...v0.9.0.13"
     },
@@ -25630,8 +25630,8 @@
     "https://github.com/Mr-xn/RedTeam_BlueTeam_HW": {
         "created_at": "2020-12-07 13:15:49",
         "description": "红蓝对抗以及护网相关工具和资料，内存shellcode（cs+msf）和内存马查杀工具",
-        "commit_message": "Update hw相关项目.md\n\nadd Whoamifuck: 一款由shell编写的检测入侵用户的工具",
-        "commit_date": "2024-06-28 13:56:47"
+        "commit_message": "Update hw相关项目.md\n\nadd EvilPot: 一个专门用于让扫描器产生误报的靶场(蜜罐)",
+        "commit_date": "2024-07-04 12:07:31"
     },
     "https://github.com/eth-sri/securify2": {
         "created_at": "2020-01-22 15:03:58",
@@ -27075,7 +27075,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "13.83.123.150属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "13.90.174.194属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
@@ -28182,7 +28182,7 @@
         "description": "中远麒麟堡垒机_堡垒机_一键安装支持多云及动态口令数据库审计的堡垒机_官网"
     },
     "https://github.com/DefectDojo/django-DefectDojo": {
-        "created_at": "2024-06-24 18:14:55",
+        "created_at": "2015-02-19 17:53:47",
         "description": " DevSecOps, ASPM, Vulnerability Management. All on one platform.",
         "commit_message": "Merge pull request #10449 from DefectDojo/release/2.35.4\n\nRelease: Merge release into master from: release/2.35.4",
         "commit_date": "2024-06-24 18:05:48",
@@ -28720,12 +28720,12 @@
         "release_message": "This release only supports java source code scanning which contains \"/WEB-INF/\" directory structure"
     },
     "https://github.com/MInggongK/dahuaExploitGUI": {
-        "created_at": "2024-06-23 09:31:22",
+        "created_at": "2024-06-27 02:43:11",
         "description": "dahua综合漏洞利用工具",
-        "commit_message": "Upload by PicGo",
-        "commit_date": "2024-06-27 02:32:13",
-        "release_date": "2024-06-23 09:34:01",
-        "release_message": "增加了大华智慧园区综合管理平台sendFaceInfo模块检测\r\n增加了大华智慧园区综合管理平台deleteFtp模块检测\r\n增加了大华EIMS-capture_handle模块检测\r\n增加了大华智能物联综合管理平台random模块检测\r\n增加了大华智慧园区综合管理平台ipms模块检测"
+        "commit_message": "Update README.md",
+        "commit_date": "2024-06-27 02:56:01",
+        "release_date": "2024-06-27 02:46:28",
+        "release_message": "优化了一键检测\r\n优化了自定义上传模块\r\n优化了批量检测线程执行"
     },
     "https://github.com/birdhan/SecurityProduct": {
         "created_at": "2018-12-30 07:55:40",
