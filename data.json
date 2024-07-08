@@ -2448,13 +2448,13 @@
         "release_message": "redis主从复制rce和lua沙箱逃逸rce快速利用"
     },
     "https://github.com/metaStor/SpringScan": {
-        "created_at": "2022-04-09 04:51:10",
+        "created_at": "2023-11-13 10:34:45",
         "description": "SpringScan 漏洞检测 Burp插件",
-        "commit_date": "2022-06-22 05:17:06",
-        "commit_message": "CVE-2022-22947加入常见目录/prod-api",
+        "commit_date": "2023-11-14 01:31:15",
+        "commit_message": "update ignore",
         "release_tag": "V1.7",
-        "release_date": "2022-06-22 05:19:38",
-        "release_message": "## 支持检测漏洞\r\n\r\n- [x] Spring Core RCE (**CVE-2022-22965**)\r\n- [x] Spring Cloud Function SpEL RCE (**CVE-2022-22963**)\r\n- [x] Spring Cloud GateWay SPEL RCE (**CVE-2022-22947**)\r\n\r\n## 回连平台\r\n\r\n- [x] Dnglog\r\n- [x] BurpCollaboratorClient\r\n- [x] Ceye\r\n- [x] Digpm (默认)\r\n- [ ] 支持自定义回连平台\r\n\r\n## 插件情况\r\n\r\n|    **回显检测**     | **回连检测**  |\r\n|:---------------:| :----:  |\r\n| Spring Core RCE | Spring Core RCE |\r\n|        Spring Cloud GateWay SPEL RCE         | Spring Cloud Function SpEL RCE |\r\n\r\n## 更新细节\r\n[+] CVE-2022-22947加入常见目录/prod-api"
+        "release_date": "2023-11-13 16:05:16",
+        "release_message": "## 支持检测漏洞\r\n\r\n- [x] Spring Core RCE (**CVE-2022-22965**)\r\n- [x] Spring Cloud Function SpEL RCE (**CVE-2022-22963**)\r\n- [x] Spring Cloud GateWay SPEL RCE (**CVE-2022-22947**)\r\n\r\n## 回连平台\r\n\r\n- [x] Dnglog (默认)\r\n- [x] BurpCollaboratorClient\r\n- [x] Ceye\r\n- [ ] Digpm\r\n- [ ] 支持自定义回连平台\r\n\r\n## 插件情况\r\n\r\n|             **回显检测**             |             **回连检测**              |\r\n|:--------------------------------:|:---------------------------------:|\r\n| Spring Core RCE (CVE-2022-22965) | Spring Core RCE (CVE-2022-22965)  |\r\n| Spring Cloud GateWay SPEL RCE (CVE-2022-22947) | Spring Cloud Function SpEL RCE （CVE-2022-22963） |\r\n\r\n## 更新细节\r\n[+] 优化漏洞检测逻辑减少无效发包，从而防止了请求过多导致被回连平台ban\r\n[+] 优化CVE-2022-22963准确率\r\n[+] 解决扫描结果一直显示等待的问题\r\n[+] 支持显示多个漏洞结果\r\n[-] 暂时删除Digdm平台的支持"
     },
     "https://github.com/woodpecker-appstore/weblogic-infodetector": {
         "created_at": "2022-03-23 08:33:43",
@@ -3669,7 +3669,7 @@
         "release_message": ""
     },
     "https://github.com/wgpsec/CreateHiddenAccount": {
-        "created_at": "2022-01-16 10:18:50",
+        "created_at": "2022-01-18 05:15:26",
         "description": "A tool for creating hidden accounts using the registry || 一个使用注册表创建隐藏帐户的工具",
         "commit_date": "2022-04-29 10:06:03",
         "commit_message": "Merge pull request #5 from wgpsec/add-license-1\n\nCreate LICENSE",
@@ -27075,7 +27075,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "52.238.28.183属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "52.238.29.131属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
