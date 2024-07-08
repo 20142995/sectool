@@ -3024,8 +3024,8 @@
     "https://github.com/moonD4rk/HackBrowserData": {
         "created_at": "2024-01-09 12:57:42",
         "description": "Extract and decrypt browser data, supporting multiple data types, runnable on various operating systems (macOS, Windows, Linux).",
-        "commit_date": "2024-04-12 12:06:04",
-        "commit_message": "chore(deps): bump crazy-max/ghaction-xgo from 2 to 3\n\nBumps [crazy-max/ghaction-xgo](https://github.com/crazy-max/ghaction-xgo) from 2 to 3.\n- [Release notes](https://github.com/crazy-max/ghaction-xgo/releases)\n- [Commits](https://github.com/crazy-max/ghaction-xgo/compare/v2...v3)\n\n---\nupdated-dependencies:\n- dependency-name: crazy-max/ghaction-xgo\n  dependency-type: direct:production\n  update-type: version-update:semver-major\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>",
+        "commit_date": "2024-07-07 01:30:40",
+        "commit_message": "chore: update contributors [skip ci]",
         "release_tag": "v0.4.4",
         "release_date": "2024-01-09 13:14:30",
         "release_message": "## What's Changed\r\n\r\n## 🚀 Features\r\n* feat: add sogou and dc browser by @BeichenDream in https://github.com/moonD4rk/HackBrowserData/pull/180\r\n* feat: format project layout by @moonD4rk in https://github.com/moonD4rk/HackBrowserData/pull/199\r\n* feat: add full-export browsing data option by @moonD4rk in https://github.com/moonD4rk/HackBrowserData/pull/200\r\n* feat: support Arc browser for macOS by @moonD4rk in https://github.com/moonD4rk/HackBrowserData/pull/220\r\n* feat: improve extension parsing by @stevenlele in https://github.com/moonD4rk/HackBrowserData/pull/235\r\n\r\n\r\n## 🐛 Bug Fixes\r\n* fix: log error & remove deprecated linter by @carr0t2 in https://github.com/moonD4rk/HackBrowserData/pull/171\r\n* fix: handle error if run binary failed by @moonD4rk in https://github.com/moonD4rk/HackBrowserData/pull/177\r\n* fix: issue of data missing caused by title being null by @zhe6652 in https://github.com/moonD4rk/HackBrowserData/pull/191\r\n* fix: the bug that the command line Usage prompt is incomplete by @slark-yuxj in https://github.com/moonD4rk/HackBrowserData/pull/196\r\n* fix: wrong log caller skip level by @moonD4rk in https://github.com/moonD4rk/HackBrowserData/pull/198\r\n* fix: Bug fixes in firefox file walk by @a-urth in https://github.com/moonD4rk/HackBrowserData/pull/229\r\n* fix: warn if failed to decrypt master key by @stevenlele in https://github.com/moonD4rk/HackBrowserData/pull/234\r\n* fix: Improve error handling in browsing data and file copying functions by @moonD4rk in https://github.com/moonD4rk/HackBrowserData/pull/261\r\n\r\n\r\n## ♻️ Chore & Refactor\r\n* refactor: optimize JSON indent output format by @stevenlele in https://github.com/moonD4rk/HackBrowserData/pull/236\r\n* refactor: add provider software folder and check linters by @moonD4rk in https://github.com/moonD4rk/HackBrowserData/pull/172\r\n* chore: upgrade go mod, remove json iterator dep by @moonD4rk in https://github.com/moonD4rk/HackBrowserData/pull/178\r\n* chore: upgrade package dependencies by @moonD4rk in https://github.com/moonD4rk/HackBrowserData/pull/197\r\n* chore: update logo filetype by @moonD4rk in https://github.com/moonD4rk/HackBrowserData/pull/227\r\n* chore: use better bytes comparison method by @testwill in https://github.com/moonD4rk/HackBrowserData/pull/257\r\n\r\n\r\n\r\n## New Contributors\r\n* @carr0t2 made their first contribution in https://github.com/moonD4rk/HackBrowserData/pull/171\r\n* @BeichenDream made their first contribution in https://github.com/moonD4rk/HackBrowserData/pull/180\r\n* @zhe6652 made their first contribution in https://github.com/moonD4rk/HackBrowserData/pull/191\r\n* @slark-yuxj made their first contribution in https://github.com/moonD4rk/HackBrowserData/pull/196\r\n* @a-urth made their first contribution in https://github.com/moonD4rk/HackBrowserData/pull/229\r\n* @stevenlele made their first contribution in https://github.com/moonD4rk/HackBrowserData/pull/235\r\n* @testwill made their first contribution in https://github.com/moonD4rk/HackBrowserData/pull/257\r\n\r\n\r\n**Full Changelog**: https://github.com/moonD4rk/HackBrowserData/compare/v0.4.4...v0.4.5"
@@ -5942,7 +5942,7 @@
         "release_message": "23年8月5号更新\r\n- 新增随机生成服务端证书，进一步去除特征\r\n- 修改帮助信息\r\n"
     },
     "https://github.com/Schira4396/VcenterKiller": {
-        "created_at": "2022-10-04 03:39:27",
+        "created_at": "2023-12-06 15:18:55",
         "description": "一款针对Vcenter的综合利用工具，包含目前最主流的CVE-2021-21972、CVE-2021-21985以及CVE-2021-22005、One Access的CVE-2022-22954、CVE-2022-22972/31656以及log4j，提供一键上传webshell，命令执行或者上传公钥使用SSH免密连接",
         "commit_date": "2024-04-25 06:09:38",
         "commit_message": "Update README.md",
@@ -24412,8 +24412,8 @@
         "description": "魅族安全中心"
     },
     "https://sec.vip.com/": {
-        "status_code": 503,
-        "description": ""
+        "status_code": 200,
+        "description": "VSRC首页-唯品会信息安全中心"
     },
     "https://sec.wacai.com/": {
         "status_code": 200,
@@ -27075,7 +27075,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "172.200.199.190属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "20.55.14.240属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
