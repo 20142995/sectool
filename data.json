@@ -4494,13 +4494,13 @@
         "release_message": "1. 新增代理源 **FreeProxyList**; (2022-07-21)\r\n2. 新增代理源 **FateZero**; (2022-08-01)\r\n3. 新增代理属性 ``region``; (2022-08-16)"
     },
     "https://github.com/r0oth3x49/ghauri": {
-        "created_at": "2024-06-05 01:41:55",
+        "created_at": "2024-07-05 11:17:36",
         "description": "An advanced cross-platform tool that automates the process of detecting and exploiting SQL injection security flaws",
-        "commit_date": "2024-06-05 01:41:55",
-        "commit_message": "fixed issue with post data properly encoding in ASP based targets, bumped version 1.3.4",
+        "commit_date": "2024-07-05 11:17:36",
+        "commit_message": "updated readme file..",
         "release_tag": "",
-        "release_date": "2024-06-05 01:43:59",
-        "release_message": "### Fixes\r\n - fixed issue with post data encoding in case of ASP based targets.."
+        "release_date": "2024-07-05 11:21:14",
+        "release_message": "## Features\r\n - Added feature for table entries count. switch: `--count`\r\n\r\n## Fixes\r\n - Fixed issue with ignoring `--skip-urlencode` switch for cookies.\r\n - improved boolean based detection \r\n - improved retry mechanism"
     },
     "https://github.com/dalinvip/Awesome-ChatGPT": {
         "created_at": "2023-02-06 11:57:37",
@@ -27075,7 +27075,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "172.183.91.4属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "172.200.199.190属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
@@ -28248,8 +28248,8 @@
         "description": "GitGuardian: Git Security Scanning & Secrets Detection"
     },
     "https://www.zeek.org": {
-        "status_code": 200,
-        "description": "The Zeek Network Security Monitor"
+        "status_code": 429,
+        "description": "WordPress.com 429 Error"
     },
     "https://gitee.com/freshday/radar": {
         "status_code": 200,
