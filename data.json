@@ -4707,8 +4707,8 @@
     "https://github.com/zaivanza/all-in-one-v2": {
         "created_at": "2023-04-29 09:03:49",
         "description": null,
-        "commit_message": "add proxy to exchange_withdraw",
-        "commit_date": "2024-06-24 04:19:10"
+        "commit_message": "fix opbnb",
+        "commit_date": "2024-07-05 12:42:35"
     },
     "https://github.com/JDArmy/SharpXDecrypt": {
         "created_at": "2022-02-25 10:06:14",
@@ -12304,8 +12304,8 @@
     "https://github.com/zoujingli/ThinkAdmin": {
         "created_at": "2017-02-13 07:00:14",
         "description": "基于 ThinkPHP6 的极简后台管理系统，内置注解权限、异步多任务、应用插件生态等，支持类 PaaS 更新公共模块和应用插件，插件可本地化定制开发。",
-        "commit_message": "升级插件代码",
-        "commit_date": "2024-07-02 03:45:37"
+        "commit_message": "更新登录统计",
+        "commit_date": "2024-07-06 02:01:22"
     },
     "https://github.com/mubix/netview": {
         "created_at": "2012-08-31 01:27:02",
@@ -17569,8 +17569,8 @@
     "https://github.com/laramies/theHarvester": {
         "created_at": "2024-03-17 20:13:30",
         "description": "E-mails, subdomains and names Harvester - OSINT ",
-        "commit_date": "2024-06-17 17:31:09",
-        "commit_message": "Merge pull request #1760 from PeterDaveHello/patch-1",
+        "commit_date": "2024-07-05 22:35:57",
+        "commit_message": "Bump ruff from 0.5.0 to 0.5.1\n\nBumps [ruff](https://github.com/astral-sh/ruff) from 0.5.0 to 0.5.1.\n- [Release notes](https://github.com/astral-sh/ruff/releases)\n- [Changelog](https://github.com/astral-sh/ruff/blob/main/CHANGELOG.md)\n- [Commits](https://github.com/astral-sh/ruff/compare/0.5.0...0.5.1)\n\n---\nupdated-dependencies:\n- dependency-name: ruff\n  dependency-type: direct:development\n  update-type: version-update:semver-patch\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>",
         "release_tag": "4.4.4",
         "release_date": "2024-03-17 20:20:19",
         "release_message": "## Package Maintainer Changes\r\nWe have dropped using pyppeteer and moved to using PlayWright https://playwright.dev/ for the screenshot module\r\n\r\n## Dev Changes:\r\nMoved away from isort,black and flake8 for ruff for linting and formatting as ruff can do all that and more, not to mention is crazy fast.\r\n\r\n## What's Changed\r\n* chore(deps): bump fastapi from 0.109.0 to 0.109.1 in /requirements by @dependabot in https://github.com/laramies/theHarvester/pull/1649\r\n* chore(deps): bump slowapi from 0.1.8 to 0.1.9 by @dependabot in https://github.com/laramies/theHarvester/pull/1651\r\n* chore(deps): bump fastapi from 0.109.1 to 0.109.2 by @dependabot in https://github.com/laramies/theHarvester/pull/1652\r\n* chore(deps-dev): bump pydantic from 2.5.3 to 2.6.1 by @dependabot in https://github.com/laramies/theHarvester/pull/1650\r\n* chore(deps-dev): bump pytest-asyncio from 0.23.4 to 0.23.5 by @dependabot in https://github.com/laramies/theHarvester/pull/1654\r\n* chore(deps): bump netaddr from 0.10.1 to 1.1.0 by @dependabot in https://github.com/laramies/theHarvester/pull/1659\r\n* chore(deps-dev): bump black from 24.1.1 to 24.2.0 by @dependabot in https://github.com/laramies/theHarvester/pull/1656\r\n* chore(deps): bump uvicorn from 0.27.0.post1 to 0.27.1 by @dependabot in https://github.com/laramies/theHarvester/pull/1658\r\n* chore(deps): bump setuptools from 69.0.3 to 69.1.0 by @dependabot in https://github.com/laramies/theHarvester/pull/1655\r\n* chore(deps): bump dnspython from 2.5.0 to 2.6.0 by @dependabot in https://github.com/laramies/theHarvester/pull/1661\r\n* chore(deps): bump aiosqlite from 0.19.0 to 0.20.0 by @dependabot in https://github.com/laramies/theHarvester/pull/1667\r\n* Fix ip-address parsing for IPv6 addresses by @jeffguy in https://github.com/laramies/theHarvester/pull/1670\r\n* chore(deps): bump netaddr from 1.1.0 to 1.2.1 by @dependabot in https://github.com/laramies/theHarvester/pull/1665\r\n* chore(deps): bump dnspython from 2.6.0 to 2.6.1 by @dependabot in https://github.com/laramies/theHarvester/pull/1663\r\n* chore(deps): bump setuptools from 69.1.0 to 69.1.1 by @dependabot in https://github.com/laramies/theHarvester/pull/1668\r\n* chore(deps): bump fastapi from 0.109.2 to 0.110.0 by @dependabot in https://github.com/laramies/theHarvester/pull/1671\r\n* chore(deps-dev): bump pytest from 7.4.4 to 8.0.2 by @dependabot in https://github.com/laramies/theHarvester/pull/1672\r\n* chore(deps): bump python-dateutil from 2.8.2 to 2.9.0.post0 by @dependabot in https://github.com/laramies/theHarvester/pull/1674\r\n* chore(deps): bump playwright from 1.41.2 to 1.42.0 by @dependabot in https://github.com/laramies/theHarvester/pull/1676\r\n* chore(deps-dev): bump ruff from 0.3.0 to 0.3.1 by @dependabot in https://github.com/laramies/theHarvester/pull/1677\r\n* chore(deps-dev): bump pytest from 8.0.2 to 8.1.1 by @dependabot in https://github.com/laramies/theHarvester/pull/1687\r\n* chore(deps-dev): bump types-requests from 2.31.0.6 to 2.31.0.20240311 by @dependabot in https://github.com/laramies/theHarvester/pull/1686\r\n* chore(deps-dev): bump ruff from 0.3.1 to 0.3.2 by @dependabot in https://github.com/laramies/theHarvester/pull/1682\r\n* chore(deps-dev): bump mypy from 1.8.0 to 1.9.0 by @dependabot in https://github.com/laramies/theHarvester/pull/1680\r\n* chore(deps-dev): bump types-python-dateutil from 2.8.19.20240106 to 2.8.19.20240311 by @dependabot in https://github.com/laramies/theHarvester/pull/1685\r\n* chore(deps): bump uvicorn from 0.27.1 to 0.28.0 by @dependabot in https://github.com/laramies/theHarvester/pull/1681\r\n* chore(deps-dev): bump types-pyyaml from 6.0.12.12 to 6.0.12.20240311 by @dependabot in https://github.com/laramies/theHarvester/pull/1684\r\n* chore(deps-dev): bump wheel from 0.42.0 to 0.43.0 by @dependabot in https://github.com/laramies/theHarvester/pull/1683\r\n* chore(deps-dev): bump pytest-asyncio from 0.23.5 to 0.23.5.post1 by @dependabot in https://github.com/laramies/theHarvester/pull/1679\r\n* chore(deps-dev): bump ruff from 0.3.2 to 0.3.3 by @dependabot in https://github.com/laramies/theHarvester/pull/1689\r\n* chore(deps): bump setuptools from 69.1.1 to 69.2.0 by @dependabot in https://github.com/laramies/theHarvester/pull/1688\r\n* chore(deps-dev): bump types-python-dateutil from 2.8.19.20240311 to 2.9.0.20240315 by @dependabot in https://github.com/laramies/theHarvester/pull/1690\r\n\r\n## New Contributors\r\n* @jeffguy made their first contribution in https://github.com/laramies/theHarvester/pull/1670\r\n\r\n**Full Changelog**: https://github.com/laramies/theHarvester/compare/4.5.1...4.6.0"
@@ -22703,13 +22703,13 @@
         "release_message": "# 2024-05-15\r\n\r\n![PyPI](https://img.shields.io/badge/Pypi-v24.5.15-brightgreen)\r\n\r\n## 🐛 修复\r\n\r\n- 修复「爱奇艺」签到失效的问题\r\n"
     },
     "https://github.com/Safe3/CVS": {
-        "created_at": "2024-06-29 02:30:59",
+        "created_at": "2024-06-30 14:30:19",
         "description": "Powerful and customizable vulnerability scanner based on VDSL, which can replace Nessus or Nuclei, etc. 万象通用漏洞扫描器，支持强大的PoC脚本语言、先进易用的PoC开发和调试IDE、现代化无需等待OOB服务器。可替代Nessus和Nuclei等漏洞扫描产品。",
-        "commit_date": "2024-06-29 03:59:36",
+        "commit_date": "2024-06-30 14:30:19",
         "commit_message": "Update README.md",
         "release_tag": "",
-        "release_date": "2024-06-29 02:42:53",
-        "release_message": "1. Support nuclei\r\n2. Some bugs fixed"
+        "release_date": "2024-07-01 08:25:04",
+        "release_message": "1. Fix senluo domains enumerating bug"
     },
     "https://github.com/twindb/undrop-for-innodb": {
         "created_at": "2015-07-02 03:55:27",
@@ -22936,12 +22936,12 @@
         "release_message": ""
     },
     "https://github.com/yhy0/Jie": {
-        "created_at": "2024-05-20 14:48:28",
+        "created_at": "2024-07-05 15:57:27",
         "description": "Jie stands out as a comprehensive security assessment and exploitation tool meticulously crafted for web applications. Its robust suite of features encompasses vulnerability scanning, information gathering, and exploitation, elevating it to an indispensable toolkit for both security professionals and penetration testers. 挖洞辅助工具(漏洞扫描、信息收集)",
-        "commit_message": "fix output.IPInfoList 并发错误",
-        "commit_date": "2024-06-15 15:32:06",
-        "release_date": "2024-05-20 14:51:57",
-        "release_message": "## Changelog\n* 0c4342a fix bug\n* 6e151ad update README.md\n* acae19e feat bbscan 扫描时对比扫描中识别到的指纹\n* da4ac5f feat bbscan 使用协程池\n* 26b1e37 fix env check\n* a29679e feat 一些优化;re2 更新\n* 5cda22d update go.mod\n* fcc2c9d feat 增加请求参数收集;请求/返回存在敏感参数识别\n* c88dbb0 feat add --nps to skip nmap\\masscan env check(Disable port scan)\n\n"
+        "commit_message": "fix 修复一些死锁问题；katana 爬虫goroutine泄露；其他问题",
+        "commit_date": "2024-07-05 15:57:27",
+        "release_date": "2024-07-05 16:04:34",
+        "release_message": "## Changelog\n* 2836308 fix 修复一些死锁问题；katana 爬虫goroutine泄露；其他问题\n* 11abb0e fix output.IPInfoList 并发错误\n* 32d0010 feat api 路径收集去除图片类路径\n* 6e2c347 取消布尔类 sql 注入检测；只保留启发式报错检测\n* 6b7dd16 nuclei archive del cdn check\n\n"
     },
     "https://github.com/TryGOTry/CobaltStrike_Cat_4.5": {
         "created_at": "2023-04-21 07:30:24",
@@ -23204,8 +23204,8 @@
     "https://github.com/RVC-Boss/GPT-SoVITS": {
         "created_at": "2024-01-14 18:05:21",
         "description": "1 min voice data can also be used to train a good TTS model! (few shot voice cloning)",
-        "commit_message": "fix: 移除多余 my_utils.py (#1189) (#1251)\n\n* fix: 移除多余 my_utils.py (#1189)\r\n\r\n* feat: update my_utils",
-        "commit_date": "2024-06-29 14:57:01"
+        "commit_message": "Update Changelog_CN.md",
+        "commit_date": "2024-07-07 13:42:27"
     },
     "https://github.com/djytmdj/Network-security-study-notes": {
         "created_at": "2023-07-25 06:13:25",
@@ -25708,8 +25708,8 @@
     "https://github.com/ron190/jsql-injection": {
         "created_at": "2012-07-18 18:07:09",
         "description": "jSQL Injection is a Java application for automatic SQL database injection.",
-        "commit_message": "Update news and readme",
-        "commit_date": "2024-06-23 10:11:15"
+        "commit_message": "Add docker and integration tests for Vertica\n\n- Improve Vertica schema query and fix field casting\n- Fix Vertica/Postgres fingerprint collision\n- Increase engines clone list",
+        "commit_date": "2024-07-07 23:02:41"
     },
     "https://github.com/0xbug/SQLiScanner": {
         "created_at": "2016-08-28 06:06:32",
@@ -27075,7 +27075,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "104.45.205.73属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "172.183.91.4属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
@@ -27502,8 +27502,8 @@
     "https://github.com/google/tsunami-security-scanner": {
         "created_at": "2024-04-29 13:08:59",
         "description": "Tsunami is a general purpose network security scanner with an extensible plugin system for detecting high severity vulnerabilities with high confidence.",
-        "commit_message": "Merge pull request #113 from W0ngL1:dev_hive_deps\n\nPiperOrigin-RevId: 644272223\nChange-Id: I1bf9db5885f768fc6b093803af9179f65c77a087",
-        "commit_date": "2024-06-18 07:11:43",
+        "commit_message": "Add hashes to requirements.txt file and require them for the advanced quick start shell script.\n\nPiperOrigin-RevId: 649414192\nChange-Id: I664d211bd16ad472a4bb735941230008ef847d27",
+        "commit_date": "2024-07-04 14:59:18",
         "release_date": "2024-04-29 13:28:19",
         "release_message": "- Add an option to the HTTP client to be able to specify a custom user-agent;\r\n- Compatibility improvements."
     },
@@ -28182,12 +28182,12 @@
         "description": "中远麒麟堡垒机_堡垒机_一键安装支持多云及动态口令数据库审计的堡垒机_官网"
     },
     "https://github.com/DefectDojo/django-DefectDojo": {
-        "created_at": "2015-02-19 17:53:47",
+        "created_at": "2024-07-01 15:29:41",
         "description": " DevSecOps, ASPM, Vulnerability Management. All on one platform.",
-        "commit_message": "Merge pull request #10449 from DefectDojo/release/2.35.4\n\nRelease: Merge release into master from: release/2.35.4",
-        "commit_date": "2024-06-24 18:05:48",
-        "release_date": "2024-06-24 18:24:41",
-        "release_message": "Please consult the [Upgrade notes in the documentation ](https://documentation.defectdojo.com/getting_started/upgrading/) for specific instructions for this release, and general upgrade instructions. Below is an automatically generated list of all PRs merged since the previous release.\r\n\r\n## Changes since 2.35.3\r\n- :bug: fix acunetix360 NoneType object #10435 @manuel-sommer (#10440)\r\n- Fix create notification for group of findings @ccronca (#10433)\r\n- :bug: fix qualys webapp scan request body @manuel-sommer (#10422)\r\n\r\n## 🚀 General features and enhancements\r\n\r\n- Finding Reports: Support string based filtering @Maffooch (#10426)\r\n\r\n## 🚀 API features and enhancements\r\n\r\n- Finding Reports: Support string based filtering @Maffooch (#10426)\r\n\r\n## 🖌 Updates in UI\r\n\r\n- Finding Reports: Support string based filtering @Maffooch (#10426)\r\n"
+        "commit_message": "Merge pull request #10484 from DefectDojo/release/2.36.0\n\nRelease: Merge release into master from: release/2.36.0",
+        "commit_date": "2024-07-01 15:29:16",
+        "release_date": "2024-07-01 15:38:46",
+        "release_message": "Please consult the [Upgrade notes in the documentation ](https://documentation.defectdojo.com/getting_started/upgrading/) for specific instructions for this release, and general upgrade instructions. Below is an automatically generated list of all PRs merged since the previous release.\r\n\r\n## Changes since 2.35.0\r\n- The Jira environment is built using only existing endpoints @ccronca (#10428)\r\n- Ruff: Add safe S* rules, fix order for EXE @kiblik (#10084)\r\n- Ruff: add and fix INP @kiblik (#10089)\r\n- fix(Risk_Acceptance): Remove redundancy in strings of Treatments @kiblik (#10361)\r\n- :bug: fix acunetix360 NoneType object #10435 @manuel-sommer (#10440)\r\n- Shuffle tests @kiblik (#10335)\r\n- Ruff: add T10 @kiblik (#10087)\r\n- Ruff: add more safe TRY rules @kiblik (#10114)\r\n- Fix create notification for group of findings @ccronca (#10433)\r\n- :bug: fix qualys webapp scan request body @manuel-sommer (#10422)\r\n- fix(loc): Do not use _(...) in combination with format @kiblik (#10407)\r\n- fix: slack address on issue template @fcecagno (#10411)\r\n- :bug: fix Nonetype in Acunetix, #10370 @manuel-sommer (#10381)\r\n- Upgrade Django to 4.2.13 @kiblik (#9493)\r\n- Rest Framework Tests: Isolate tests by request type @Maffooch (#10387)\r\n- Entrypoint Scripts: Add container level breakouts to prevent doom loopings @Maffooch (#10374)\r\n- fix(imp-options): Wrong type-checker in validate_api_scan_configuration @kiblik (#10345)\r\n- Use Postgres in rest-framework-tests @kiblik (#9885)\r\n- :bug: fix netsparker issue #10311 @manuel-sommer (#10312)\r\n\r\n## 🚩 Changes to `settings.dist.py` / `local_settings.py`\r\n\r\n- ✨  add deepfence threatmapper @manuel-sommer (#9688)\r\n- Enhance Kubescape parser @a-ruff (#10369)\r\n- :bug: fix trivy operator deduplication setting @manuel-sommer (#10389)\r\n\r\n## 🚀 General features and enhancements\r\n\r\n- Finding Reports: Support string based filtering @Maffooch (#10426)\r\n\r\n## 🚀 API features and enhancements\r\n\r\n- Ruff: add and fix RSE @kiblik (#10093)\r\n- feat(api - user contact): Add all user data @kiblik (#10416)\r\n- Finding Reports: Support string based filtering @Maffooch (#10426)\r\n- openapi fix: allow last_login to be null @cedricbu (#10360)\r\n- Mark UserProfile properties user_contact_info and global_role as optional @sfowl (#10314)\r\n\r\n## 🐛 Bug Fixes\r\n\r\n- Jira Finding Group Templates: Correct object links @Maffooch (#10393)\r\n- Async Importer: Correct typing bug with `DD_ASYNC_FINDING_IMPORT` enabled @Maffooch (#10373)\r\n- String Filtering: Correct Typo For Reviewers @Maffooch (#10353)\r\n- Importer: Correct `add_findings_to_auto_group` args @Maffooch (#10351)\r\n- String Filtering: Support ID matching for links on listing pages @Maffooch (#10352)\r\n\r\n## 🖌 Updates in UI\r\n\r\n- Bugfix -> Dev: Release 2.36.0 @Maffooch (#10483)\r\n- Metrics performance improvements @dogboat (#10446)\r\n- fix(passwords): Merge clean location of login related templates @kiblik (#10340)\r\n- feat(email notif): Scan_added - put findings to `<details>` @kiblik (#10253)\r\n- Finding Reports: Support string based filtering @Maffooch (#10426)\r\n- Jira Finding Group Templates: Correct object links @Maffooch (#10393)\r\n\r\n## 🧰 Maintenance\r\n\r\n- Bump boto3 from 1.34.132 to 1.34.135 @dependabot (#10470)\r\n- Bump redis from 5.0.6 to 5.0.7 @dependabot (#10465)\r\n- Bump debugpy from 1.8.1 to 1.8.2 @dependabot (#10457)\r\n- Bump boto3 from 1.34.131 to 1.34.132 @dependabot (#10452)\r\n- Bump coverage from 7.5.3 to 7.5.4 @dependabot (#10447)\r\n- Bump nginx from `69f8c2c` to `a45ee5d` @dependabot (#10448)\r\n- chore(deps): update redis:7.2.5-alpine docker digest from 7.2.5 to 7.2.5-alpine (docker-compose.yml) @renovate (#10444)\r\n- chore(deps): update postgres:16.3-alpine docker digest from 16.3 to 16.3-alpine (docker-compose.yml) @renovate (#10441)\r\n- chore(deps): update redis:7.2.5-alpine docker digest from 7.2.5 to 7.2.5-alpine (docker-compose.yml) @renovate (#10442)\r\n- Bump boto3 from 1.34.130 to 1.34.131 @dependabot (#10443)\r\n- chore(deps): update postgres:16.3-alpine docker digest from 16.3 to 16.3-alpine (docker-compose.yml) @renovate (#10439)\r\n- chore(deps): update dependency ruff from 0.4.9 to v0.4.10 (requirements-lint.txt) @renovate (#10438)\r\n- chore(deps): update postgres:16.3-alpine docker digest from 16.3 to 16.3-alpine (docker-compose.yml) @renovate (#10427)\r\n- Bump sqlalchemy from 2.0.30 to 2.0.31 @dependabot (#10432)\r\n- Bump boto3 from 1.34.128 to 1.34.130 @dependabot (#10436)\r\n- Bump boto3 from 1.34.127 to 1.34.128 @dependabot (#10425)\r\n- Update docker/build-push-action action from v5 to v6 (.github/workflows/release-x-manual-docker-containers.yml) @renovate (#10413)\r\n- Bump boto3 from 1.34.126 to 1.34.127 @dependabot (#10415)\r\n- Bump django-crispy-forms from 2.0 to 2.2 @dependabot (#10414)\r\n- Bump django-debug-toolbar from 4.3.0 to 4.4.2 @dependabot (#10274)\r\n- Bump django-filter from 23.5 to 24.2 @dependabot (#9993)\r\n- Update dependency ruff from 0.4.8 to v0.4.9 (requirements-lint.txt) @renovate (#10406)\r\n- Bump packageurl-python from 0.15.0 to 0.15.1 @dependabot (#10403)\r\n- Bump boto3 from 1.34.125 to 1.34.126 @dependabot (#10404)\r\n- Bump redis from 5.0.5 to 5.0.6 @dependabot (#10405)\r\n- Update gcr.io/cloudsql-docker/gce-proxy Docker tag from 1.35.3 to v1.35.4 (helm/defectdojo/values.yaml) @renovate (#10394)\r\n- Bump openpyxl from 3.1.3 to 3.1.4 @dependabot (#10397)\r\n- Bump boto3 from 1.34.123 to 1.34.125 @dependabot (#10398)\r\n- Bump braces from 3.0.2 to 3.0.3 in /docs @dependabot (#10376)\r\n- Bump boto3 from 1.34.120 to 1.34.123 @dependabot (#10380)\r\n- Bump boto3 from 1.34.119 to 1.34.120 @dependabot (#10349)\r\n- chore(deps): update helm release rabbitmq from 14.3.3 to ~14.4.0 (helm/defectdojo/chart.yaml) @renovate (#10347)\r\n- Bump redis from 5.0.4 to 5.0.5 @dependabot (#10350)\r\n- chore(deps): update postgres:16.3-alpine docker digest from 16.3 to 16.3-alpine (docker-compose.yml) @renovate (#10337)\r\n- Bump cryptography from 42.0.7 to 42.0.8 @dependabot (#10341)\r\n- chore(deps): update dependency ruff from 0.4.7 to v0.4.8 (requirements-lint.txt) @renovate (#10344)\r\n- Bump boto3 from 1.34.118 to 1.34.119 @dependabot (#10342)\r\n- chore(deps): update postgres:16.3-alpine docker digest from 16.3 to 16.3-alpine (docker-compose.yml) - autoclosed @renovate (#10327)\r\n- Bump drf-spectacular-sidecar from 2024.5.1 to 2024.6.1 @dependabot (#10329)\r\n- Bump uwsgi from 2.0.25.1 to 2.0.26 @dependabot (#10331)\r\n- Bump boto3 from 1.34.117 to 1.34.118 @dependabot (#10330)\r\n"
     },
     "https://gitee.com/gy071089/SecurityManageFramwork": {
         "status_code": 200,
