@@ -775,7 +775,7 @@
         "release_message": "PortForward 的功能如下：\r\n1. 支持 tcp/udp 协议层的端口转发\r\n2. 支持级联\r\n3. 支持正向/反向连接模式\r\n4. 支持多通道\r\n5. 支持 ipv6"
     },
     "https://github.com/xiecat/fofax": {
-        "created_at": "2021-12-14 10:01:58",
+        "created_at": "2023-12-21 12:39:45",
         "description": "fofax is a command line query tool based on the API of https://fofa.info/, simple is the best!",
         "commit_date": "2024-04-01 09:26:11",
         "commit_message": "Update parser.go",
@@ -27075,7 +27075,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "20.55.14.240属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "52.238.28.183属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
@@ -28248,8 +28248,8 @@
         "description": "GitGuardian: Git Security Scanning & Secrets Detection"
     },
     "https://www.zeek.org": {
-        "status_code": 429,
-        "description": "WordPress.com 429 Error"
+        "status_code": 200,
+        "description": "The Zeek Network Security Monitor"
     },
     "https://gitee.com/freshday/radar": {
         "status_code": 200,
