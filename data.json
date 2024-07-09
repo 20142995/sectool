@@ -3562,7 +3562,7 @@
         "created_at": "2024-05-17 02:40:33",
         "description": "Burp插件，根据自定义来达到对数据包的处理（适用于加解密、爆破等），类似mitmproxy，不同点在于经过了burp中转，在自动加解密的基础上，不影响APP、网站加解密正常逻辑等。",
         "commit_message": "Update FAQ.md",
-        "commit_date": "2024-05-17 02:40:33",
+        "commit_date": "2024-07-05 01:58:03",
         "release_date": "2024-06-15 09:47:53",
         "release_message": "## 2024.6.15 更新0.40\r\n1. sm2密文编码为base64不生效\r\n2. 修复iv置空导致报错问题\r\n感谢微信群师傅@.: :.  @NLEG 师傅反馈"
     },
@@ -5080,7 +5080,7 @@
         "release_message": ""
     },
     "https://github.com/ticarpi/jwt_tool": {
-        "created_at": "2024-05-28 21:47:05",
+        "created_at": "2017-01-23 21:13:50",
         "description": ":snake: A toolkit for testing, tweaking and cracking JSON Web Tokens",
         "commit_date": "2024-05-28 21:47:05",
         "commit_message": "Update for v2.2.7",
@@ -6025,9 +6025,9 @@
         "created_at": "2024-06-05 10:15:56",
         "description": "蓝队分析研判工具箱，功能包括内存马反编译分析、各种代码格式化、网空资产测绘功能、溯源辅助、解密冰蝎流量、解密哥斯拉流量、解密Shiro/CAS/Log4j2的攻击payload、IP/端口连接分析、各种编码/解码功能、蓝队分析常用网址、java反序列化数据包分析、Java类名搜索、Fofa搜索、Hunter搜索等。",
         "commit_message": "Update README.md",
-        "commit_date": "2024-06-05 10:15:56",
-        "release_date": "2024-06-15 01:48:10",
-        "release_message": "2024.06.15 增加对ip地址列表批量查地址功能。\r\n2024.06.14 增加对天蝎webshell的Java、PHP、NET、ASP的解密。\r\n2024.06.14 增加对16进制hex编码的内存马反编译功能。"
+        "commit_date": "2024-07-08 05:33:23",
+        "release_date": "2024-07-08 04:48:39",
+        "release_message": "2024.07.08 修复冰蝎webshell计算key功能得到的值非16位的bug(存在的md5前导零bug)。"
     },
     "https://github.com/yutianqaq/impacket-gui": {
         "created_at": "2023-09-01 10:27:31",
@@ -22607,12 +22607,12 @@
         "release_message": "- 开发框架由.Net Framework 4.0切换为.Net 8\r\n- 采用R2R发布,运行环境已集成到exe中\r\n- 界面上的细小调整\r\n- SHA1: 2AAF1F0DFB7C2ABA175475D834CFCC48A3BB79A8\r\n\r\n由于框架跨度较大，可能会存在BUG。欢迎提交issue"
     },
     "https://github.com/yqcs/prismx": {
-        "created_at": "2024-04-15 04:59:10",
+        "created_at": "2024-07-02 07:57:11",
         "description": ":: 棱镜 X · 自动化企业网络安全风险检测、漏洞扫描工具。",
-        "commit_message": "Add files via upload",
-        "commit_date": "2024-05-30 09:04:46",
-        "release_date": "2024-04-15 05:12:48",
-        "release_message": "  - 精简nuclei引擎，现在体积更小了\r\n  - 修复Windows7下运行崩溃bug\r\n  - 新增溯源辅助工具，一键收集日志数据\r\n  - 解决扫描目标过多导致web卡顿问题\r\n \r\ntips:需要单独下载lib.zip和built.zip文件并在可执行程序的同级目录解压 \r\n  **此次更新涉及数据库，需替换数据库文件**\r\n\r\n\r\n"
+        "commit_message": "1.2.5发布",
+        "commit_date": "2024-07-02 11:45:16",
+        "release_date": "2024-07-02 08:27:35",
+        "release_message": "## 棱镜 X 1.2.5 发布\r\n\r\n- 优化远程管理功能，新增双击编辑文件\r\n- 修复扫描任务手动暂停、结束卡住问题\r\n- 内置 Nuclei POC\r\n- 本次更新内置永久基础授权（Blue），延期高级授权（Red）\r\n\r\nTips:本次更新需更新数据库"
     },
     "https://github.com/TomSchimansky/CustomTkinter": {
         "created_at": "2021-03-04 17:24:00",
@@ -24412,8 +24412,8 @@
         "description": "魅族安全中心"
     },
     "https://sec.vip.com/": {
-        "status_code": 503,
-        "description": ""
+        "status_code": 200,
+        "description": "VSRC首页-唯品会信息安全中心"
     },
     "https://sec.wacai.com/": {
         "status_code": 200,
@@ -27075,7 +27075,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "52.238.25.0属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "20.172.24.210属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
