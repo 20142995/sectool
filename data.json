@@ -2341,12 +2341,12 @@
         "release_message": ""
     },
     "https://github.com/FunnyWolf/Viper": {
-        "created_at": "2024-05-09 01:51:24",
+        "created_at": "2024-07-08 08:47:19",
         "description": "Attack Surface Management & Red Team Simulation Platform 互联网攻击面管理&红队模拟平台",
-        "commit_message": "update 2024-05-08-17-00-11",
-        "commit_date": "2024-05-09 01:56:10",
-        "release_date": "2024-05-09 01:52:27",
-        "release_message": "### 优化\r\n\r\n- 调整`互联网攻击面`整体架构\r\n- 优化`网络资产`搜索功能\r\n- 优化`互联网攻击面`数据存储效率\r\n- 适配Quake新API接口\r\n\r\n### Bugfix\r\n\r\n- fix 模块无法使用新建立的监听问题\r\n- fix 无法使用`反溯源`\r\n- fix 主机性能不足时新建监听超时问题"
+        "commit_message": "update version 2.3.1",
+        "commit_date": "2024-07-08 08:47:19",
+        "release_date": "2024-07-08 08:48:13",
+        "release_message": "### 新功能\r\n\r\n- 新增`V-GPT`,AI驱动的攻击型智能体框架\r\n- 新增`数据分析智能体` `数据分析多角色智能体`模块\r\n- 新增`OpenAI`集成\r\n\r\n### 优化\r\n\r\n- 调整`平台设置`部分UI\r\n\r\n### Bugfix\r\n\r\n- fix https://github.com/FunnyWolf/Viper/issues/217\r\n- fix https://github.com/FunnyWolf/Viper/issues/218"
     },
     "https://github.com/kost/dvcs-ripper": {
         "created_at": "2012-10-23 04:55:18",
@@ -26324,7 +26324,7 @@
         "commit_date": "2024-05-04 03:03:51"
     },
     "https://github.com/AabyssZG/Web-SurvivalScan": {
-        "created_at": "2023-04-03 07:29:49",
+        "created_at": "2023-12-21 06:01:17",
         "description": "对Web渗透项目资产进行快速存活验证",
         "commit_message": "Update Web-SurvivalScan.py",
         "commit_date": "2024-04-18 01:51:51",
@@ -27075,7 +27075,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "20.172.24.210属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "40.76.119.146属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
@@ -28248,8 +28248,8 @@
         "description": "GitGuardian: Git Security Scanning & Secrets Detection"
     },
     "https://www.zeek.org": {
-        "status_code": 200,
-        "description": "The Zeek Network Security Monitor"
+        "status_code": 429,
+        "description": "WordPress.com 429 Error"
     },
     "https://gitee.com/freshday/radar": {
         "status_code": 200,
