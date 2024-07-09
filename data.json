@@ -624,8 +624,8 @@
     "https://github.com/jackfrued/Python-100-Days": {
         "created_at": "2018-03-01 16:05:52",
         "description": "Python - 100天从新手到大师",
-        "commit_date": "2023-02-05 16:59:39",
-        "commit_message": "更新了README.md",
+        "commit_date": "2024-05-30 10:30:37",
+        "commit_message": "修改了README文件",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -2863,7 +2863,7 @@
         "release_message": "添加内容是为了支持SpringBootExploit工具，是定制版的服务端。\r\n\r\n1. 启动方式：java -jar  JNDIExploit-1.2-SNAPSHOT.jar 默认绑定127.0.0.1 LDAP 绑定 1389 HTTP Server 绑定3456\r\n2. 根目录下BehinderFilter.class是内存马 /ateam 密码是ateamnb \r\n3. 根目录下Calc.class是但计算器\r\n4. data/behinder3.jar 是为了支持SnakYaml RCE\r\n5. 添加HTTPServer处理更多的请求，为了更好支持SpringBootExploit工具\r\n6. 将文件放在data目录下，通过HTTPServer可以访问文件内容如同python的HTTPServer"
     },
     "https://github.com/AbelChe/cola_dnslog": {
-        "created_at": "2022-07-30 09:30:31",
+        "created_at": "2023-02-04 12:23:27",
         "description": "Cola Dnslog v1.3.2 更加强大的dnslog平台/无回显漏洞探测辅助平台 完全开源 dnslog httplog ldaplog rmilog 支持dns http ldap rmi等协议 提供API调用方式便于与其他工具结合 支持钉钉机器人、Bark等提醒 支持docker一键部署 后端完全使用python实现 前端基于vue-element-admin二开",
         "commit_date": "2023-02-06 04:48:56",
         "commit_message": "Merge pull request #26 from AbelChe/1.3.2\n\nfix webserver 404",
@@ -3874,8 +3874,8 @@
     "https://github.com/stamparm/identYwaf": {
         "created_at": "2019-01-10 11:27:58",
         "description": "Blind WAF identification tool",
-        "commit_date": "2022-01-13 21:41:53",
-        "commit_message": "Update LICENSE",
+        "commit_date": "2024-06-25 08:15:37",
+        "commit_message": "Adding entry for Vercel WAF",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -26752,8 +26752,8 @@
         "description": "CTF在线工具-在线Escape编码|在线Escape解码"
     },
     "https://tool.yuanrenxue.cn/decode_obfuscator": {
-        "status_code": 502,
-        "description": "502 Bad Gateway"
+        "status_code": 200,
+        "description": "解混淆测试版"
     },
     "http://www.hiencode.com/url.html": {
         "status_code": 200,
@@ -27075,7 +27075,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "172.183.154.113属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "20.171.70.61属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
@@ -27095,7 +27095,7 @@
     },
     "https://www.webscan.cc/": {
         "status_code": 404,
-        "description": ""
+        "description": "Not Found"
     },
     "https://gofile.io/": {
         "status_code": 200,
