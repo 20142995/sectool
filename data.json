@@ -813,8 +813,8 @@
     "https://github.com/murphysecurity/murphysec": {
         "created_at": "2023-05-15 12:21:31",
         "description": "An open source tool focused on software supply chain security. 墨菲安全专注于软件供应链安全，具备专业的软件成分分析（SCA）、漏洞检测、专业漏洞库。",
-        "commit_message": "fix(yarn): WIP, online & dev",
-        "commit_date": "2024-06-17 11:12:29",
+        "commit_message": "fix: MPS_DISABLED_INSPECTORS -> MPS_ENABLED_INSPECTORS",
+        "commit_date": "2024-07-05 11:00:31",
         "release_date": "2023-05-15 12:52:58",
         "release_message": "Support NPM lockfile v3 "
     },
@@ -2668,8 +2668,8 @@
     "https://github.com/madneal/gshark": {
         "created_at": "2024-05-19 07:24:32",
         "description": "Scan for sensitive information easily and effectively.",
-        "commit_message": "Merge pull request #208 from madneal/dependabot/npm_and_yarn/web/braces-3.0.3\n\nBump braces from 3.0.2 to 3.0.3 in /web",
-        "commit_date": "2024-06-21 13:47:42",
+        "commit_message": "Merge pull request #211 from madneal/dependabot/go_modules/server/github.com/hashicorp/go-retryablehttp-0.7.7\n\nBump github.com/hashicorp/go-retryablehttp from 0.6.8 to 0.7.7 in /server",
+        "commit_date": "2024-06-30 00:48:40",
         "release_date": "2024-06-22 04:21:47",
         "release_message": "## Fixed\r\n\r\n* 组件依赖升级\r\n* 修复 API 列表排序问题\r\n* 移除任务列表"
     },
@@ -2917,12 +2917,12 @@
         "release_message": ""
     },
     "https://github.com/dbeaver/dbeaver": {
-        "created_at": "2024-06-18 16:27:05",
+        "created_at": "2024-07-05 11:58:29",
         "description": "Free universal database tool and SQL client",
-        "commit_message": "#23377 Add `right` and `left` to the list of non-reserved keywords (#34395)\n\nCo-authored-by: Dziyana <31996417+uslss@users.noreply.github.com>",
-        "commit_date": "2024-07-01 16:00:53",
-        "release_date": "2024-06-23 16:52:09",
-        "release_message": "\n                - AI: GPT-4o model was supported\n                - SQL Editor:\n                    - Auto-save editor setting was enabled by default\n                    - ILIKE keyword was supported\n                    - Support for unsigned numbers in GROUP BY clause was added\n                    - Syntax highlighting and outline viewer support parameter changes in SQL Processing settings\n                    - Links to the SQL Editor and Visual Query Builder were added to the Context menu\n                    - Buttons in the right toolbar were renamed\n                    - Print mode in ER Diagrams and Execution plan was fixed\n                    - Saving Diagram outside the workspace was fixed\n                - Data Editor:\n                    - Information about table unique key is displayed in the grid\n                    - BETWEEN and LIKE keywords were added to filetr autocomplection\n                - Data transfer:\n                    - Export of data with backticks was fixed (thanks to @diashalabi)\n                    - Export of binary columns in JSON format was fixed\n                - General:\n                    - Ability to restore default settings was fixed in SQL Editor Formatting settings, SQL Editor settings, SQL Editor Commit type, Error handling settings, and Hex Editor default width\n                    - Creating a view from the UI was fixed\n                    - Buttons display when creating new dashboard was fixed\n                    - New table creation was fixed\n                - The following drivers were updated:\n                    - Firebird to version 5.0.4\n                    - Redshift to 2.1.0.29\n                    - Informix to 4.50.JC10W1\n                - Databases\n                    - Altibase: Search for server properties was added (thanks to @zennken)\n                    - BigQuery: Ability to see bytes billed in Statistics panel in the Data Editor was added\n                    - Cubrid:\n                        - Execution plan coloring was enhanced (thanks to @hwany7seo)\n                        - Ability to create a table via UI was added (thanks to @longhaseng52)\n                        - DDL display for a view was added together with the ability to display the list of indexes, synonyms, serials, triggers, and procedures (thanks to @longhaseng52)\n                        - Ping query for keep connection alive was added (thanks to @rathana-pvs)\n                        - Partition display was added (thanks to @rathana-pvs)\n                    - PostgreSQL:\n                        - If database field in connection settings is empty, user name is used as a database name\n                        - Work of 'Use fully qualified names' setting was fixed for views\n                    - Redis: Key settings were fixed\n                    - Redshift: Constraint creation was fixed\n                    - Vertica: Stored procedures handling in SQL Editor was fixed\n            "
+        "commit_message": "CB-3487. Add sync event for drivers (#34561)\n\n* CB-3487. Add sync event for drivers\r\n\r\n* CB-3487. Added syncronized between cloudbeaver and TE\r\n\r\n* CB-3487. Fix checkstyle\r\n\r\n* CB-3487. Fix un-delete sync\r\n\r\n* CB-3487. Moved to method\r\n\r\n---------\r\n\r\nCo-authored-by: Ainur <ainur.iagudin@dbeaver.com>\r\nCo-authored-by: kseniaguzeeva <112612526+kseniaguzeeva@users.noreply.github.com>",
+        "commit_date": "2024-07-08 14:06:02",
+        "release_date": "2024-07-07 16:27:06",
+        "release_message": "\n                - SQL Editor:\n                    - Performance in Smart mode of Blank line as a statement delimiter was enhanced\n                    - Ability to show all SQL scripts from the main toolbar was added\n                    - Syntax highlighting for functions with multiple arguments was fixed\n                    - SQL datatype color use was corrected\n                    - DROP statement support was added to Outline\n                - Metadata Editor: Foreign Key creation dialog UIX was improved\n                - Data Editor:\n                    - Indication of the table read-only/editable mode was added\n                    - Information about active unique key used for data edit was added\n                    - Customise and Save filter buttons were moved to the dropdown\n                    - Issue with too small Result Set Order/Filter Settings window was resolved\n                    - Rollback timer flickering was fixed\n                - Query Manager: information about database schema and catalog was added to the detailed record view\n                - Simple Structure Compare: issue with long file names was resolved\n                - Connectivity:\n                    - Issue with default SSH connection timeout was resolved\n                    - Driver downloading problem reporting was fixed\n                - General:\n                    - Incorrect button behavior in the confirmation dialog was fixed\n                    - Security credential encryption was enhanced (thanks to @longhaseng52)\n                    - Toolbar and Data Editor background on the Dark theme was improved\n                    - Smart commit mode indication was fixed\n                    - Issue with metadata cache reading was resolved\n                    - Automatic resize of connection dialog and tasks dialogs was fixed\n                - Databases:\n                    - Clickhouse:\n                        - Complex structures handling was fixed\n                        - Clickhouse driver was updated to version 0.6.1\n                    - CUBRID: 'db_server' information was added to the Database Navigator\n                    - Oracle: Connection error in the application downloaded from the Microsoft Store was fixed\n                    - PostgreSQL: Dollar-quoted string parsing was fixed\n                    - SQL Server:\n                        - Issue with resultset primary key detection was resolved\n                        - Duplicated output when running stored procedures was fixed\n                        - NTLM Authentication was fixed\n                        - Datetime datatype representation was fixed\n            "
     },
     "https://github.com/zema1/yarx": {
         "created_at": "2021-11-30 08:37:42",
@@ -7669,12 +7669,12 @@
         "release_message": ""
     },
     "https://github.com/locustio/locust": {
-        "created_at": "2024-06-07 18:24:59",
+        "created_at": "2024-06-25 10:40:48",
         "description": "Write scalable load tests in plain Python 🚗💨",
-        "commit_message": "Merge pull request #2765 from andrewbaldwin44/bugfix/2250\n\nOption to Skip Monkey Patching with LOCUST_SKIP_MONKEY_PATCH",
-        "commit_date": "2024-06-21 19:44:50",
-        "release_date": "2024-06-07 18:53:11",
-        "release_message": "## What's Changed\r\n* Show Reset Button when Test is Stopped by @andrewbaldwin44 in https://github.com/locustio/locust/pull/2726\r\n* Ensure spawning_complete only happens once on workers by @cyberw in https://github.com/locustio/locust/pull/2728\r\n* Improve confusing log messages if someone accidentally accesses the Web UI over HTTPS by @cyberw in https://github.com/locustio/locust/pull/2727\r\n* The time of the downloaded HTML report is not correct by @andrewbaldwin44 in https://github.com/locustio/locust/pull/2729\r\n* Use requests 2.32.2 or higher for Python 3.12 by @cyberw in https://github.com/locustio/locust/pull/2730\r\n* Docs: Upgrade Sphinx to latest version (7.3.7) by @plaindocs in https://github.com/locustio/locust/pull/2732\r\n* Docs: Fix theme by @plaindocs in https://github.com/locustio/locust/pull/2735\r\n* Docs: Fix sphinx and theme upgrade by @plaindocs in https://github.com/locustio/locust/pull/2736\r\n* Add date and zoom to charts in web UI by @andrewbaldwin44 in https://github.com/locustio/locust/pull/2731\r\n* Docs: Fix API TOC by @plaindocs in https://github.com/locustio/locust/pull/2737\r\n* Modify timestamp generation to remove deprecation warning by @JavierUhagon in https://github.com/locustio/locust/pull/2738\r\n* Add Logging to download_locustfile_from_master by @andrewbaldwin44 in https://github.com/locustio/locust/pull/2749\r\n* Mention installing Locust in Building the Docs by @plaindocs in https://github.com/locustio/locust/pull/2733\r\n* Docs: Import wiki to docs by @plaindocs in https://github.com/locustio/locust/pull/2734\r\n* Send logs from workers to master and improve log viewer tab in the Web UI by @andrewbaldwin44 in https://github.com/locustio/locust/pull/2750\r\n\r\n## New Contributors\r\n* @plaindocs made their first contribution in https://github.com/locustio/locust/pull/2732\r\n\r\n**Full Changelog**: https://github.com/locustio/locust/compare/2.28.0...2.29.0"
+        "commit_message": "remove old, incorrect comment",
+        "commit_date": "2024-07-06 22:11:17",
+        "release_date": "2024-06-25 10:41:20",
+        "release_message": "## What's Changed\r\n* Add JavaScript to MIME types for Windows Operating Systems by @andrewbaldwin44 in https://github.com/locustio/locust/pull/2759\r\n* Option to Skip Monkey Patching with LOCUST_SKIP_MONKEY_PATCH by @andrewbaldwin44 in https://github.com/locustio/locust/pull/2765\r\n* Httpsession requests typing by @tdadela in https://github.com/locustio/locust/pull/2699\r\n* HttpSession: Improve error message when someone forgot to pass catch_response=True + small optimization by @cyberw in https://github.com/locustio/locust/pull/2762\r\n* Add proxy support for FastHttpUser by @NicoAdrian in https://github.com/locustio/locust/pull/2758\r\n\r\n## New Contributors\r\n* @NicoAdrian made their first contribution in https://github.com/locustio/locust/pull/2758\r\n\r\n**Full Changelog**: https://github.com/locustio/locust/compare/2.29.0...2.29.1"
     },
     "https://github.com/Wh04m1001/IFaultrepElevatedDataCollectionUAC": {
         "created_at": "2022-10-14 21:40:59",
@@ -19284,12 +19284,12 @@
         "commit_message": "Merge pull request #5 from ar7z1/fix-link-to-microsoft-advisory\n\nFix link to Microsoft advisory"
     },
     "https://github.com/jumpserver/jumpserver": {
-        "created_at": "2024-06-19 11:38:34",
+        "created_at": "2024-07-03 11:21:23",
         "description": "An open-source PAM tool alternative to CyberArk.  广受欢迎的开源堡垒机。",
-        "commit_message": "chore: Update README.md",
-        "commit_date": "2024-07-03 14:56:08",
-        "release_date": "2024-06-20 01:46:10",
-        "release_message": "# 一、安装和升级\r\n\r\n## 1.1 在线方式 ✈️\r\n\r\n仅需两步快速安装 JumpServer：\r\n\r\n1. 准备一台 4核8G （最低）且可以访问互联网的 64 位 Linux 主机；\r\n2. 以 root 用户执行如下命令一键安装 JumpServer。\r\n\r\n国内用户\r\n``` sh\r\ncurl -sSL https://resource.fit2cloud.com/jumpserver/jumpserver/releases/latest/download/quick_start.sh | bash\r\n```\r\n\r\n海外用户\r\n``` sh\r\ncurl -sSL https://github.com/jumpserver/jumpserver/releases/latest/download/quick_start.sh | bash\r\n```\r\n\r\n## 1.2 离线方式 🚢\r\n\r\n[离线安装包下载地址](https://community.fit2cloud.com/#/download/jumpserver/v3-10-11)\r\n\r\n详细安装和升级文档请参考：[完整文档](https://docs.jumpserver.org/zh/v3/) \r\n\r\n\r\n# 二、更新日志\r\n\r\n## 2.1 新增功能 🌱\r\n\r\n- feat: 支持纳管 `Dameng` 数据库【企业版】\r\n- feat: 支持命令存储 `Elasticsearch version 8` 数据库\r\n- feat: 支持批量测试资产可连接性\r\n\r\n## 2.2 功能优化 🚀 \r\n\r\n- perf: 优化禁用 `SSH Client` 的设置后，所有通过 `ssh`、`sftp` 和 `telnet` 协议进行的会话连接将不再显示客户端的连接方式\r\n- perf: 优化支持配置大文件上传的临时目录（`FILE_UPLOAD_TEMP_DIR`）\r\n- perf: 优化仪表盘加载速度\r\n- perf: 优化使用随机策略获取标签匹配的远程应用发布机\r\n- perf: 优化移除 `django-rest-swagger` 依赖库（感谢[@Moraxyc](https://github.com/jumpserver/jumpserver/issues/13300)）\r\n- perf: 优化当所有应用发布机不可用时，资产连接弹窗中禁用远程应用连接按钮\r\n- perf: 优化用户操作日志资源显示没有翻译的问题\r\n- perf: 优化账号列表不显示 `params` 属性字段\r\n- perf: 优化资产硬件信息显示为 `-` 的问题\r\n- perf: 优化录像上传到转码服务后及时删除录像（Lion）\r\n- perf: 优化账号权限导致部分模式的表和视图无法查询的问题（Chen）\r\n- perf: 优化升级 `Spring Boot` 版本到 `3.3.0` ，解决低版本存在漏洞的问题（Chen）\r\n- perf: 优化用户登录后的重置密码页面对密码进行加密传输\r\n\r\n## 2.3 问题修复 🐛\r\n\r\n- fix: 修复克隆资产时没有同时克隆账号的问题\r\n- fix: 修复用户登录报错刷新浏览器后依旧报错的问题（登录超时，请重新登录）\r\n- fix: 修复系统任务手动执行时报错的问题\r\n- fix: 修复 `Windows` 资产同步删除账号失败的问题\r\n- fix: 修复所有用户都可查看 `Celery` 任务执行日志的问题（只有管理员、审计员、运行用户可查看）\r\n- fix: 修复用户授权树搜索不生效的问题\r\n- fix: 修复 `v2` 升级 `v3` 版本时超过 `10000` 数量的授权账号没有同步成功的问题\r\n- fix: 修复 `OAuth2` 认证方式可以跳过 `仅允许存在用户登录` 的限制策略\r\n- fix: 修复 `LDAP` 定时同步任务消息通知不到所有人的问题\r\n- fix: 修复资源选择组件动态搜索无资源后不再显示资源的问题\r\n- fix: 修复 `Crontab` 组件设置分钟不生效的问题\r\n- fix: 修复使用 `SFTP` 工具连接资产时经常断开的问题（KoKo）\r\n- fix: 修复账号备份、云同步定时任务不执行的问题【企业版】\r\n- fix: 修复 `Oracle` 数据库探活导致内存不释放的问题（Magnus）【企业版】\r\n- fix: 修复金山云同步校验失败的问题【企业版】\r\n"
+        "commit_message": "perf: Translate (#13633)\n\nCo-authored-by: feng <1304903146@qq.com>",
+        "commit_date": "2024-07-08 07:43:56",
+        "release_date": "2024-07-04 02:17:23",
+        "release_message": "## ✨JumpServer v4.0.0 is now available!  ✨ \r\n\r\nOn the 10th anniversary of the JumpServer open-source project, we released the v4.0 milestone version. JumpServer v4.0 is optimized for world-wide users especially.\r\n\r\nJumpServer v4.0 is a better open-source Privileged Access Management (PAM) tool that provides DevOps and IT teams with on-demand and secure access to SSH, RDP, Kubernetes, Database and RemoteApp endpoints through a Web Browser.\r\n\r\n![JumpServer Overview](https://github.com/jumpserver/jumpserver/assets/32935519/94252236-d666-4f91-8bf8-1f0c4cf1798c)\r\n\r\n## 🚀 Quick Start\r\n\r\nPrepare a clean Linux Server ( 64 bit, >= 4c8g )\r\n\r\n```\r\ncurl -sSL https://github.com/jumpserver/jumpserver/releases/latest/download/quick_start.sh | bash\r\n```\r\n\r\nAccess JumpServer in your browser at `http://your-ip/`, `admin`/`ChangeMe`"
     },
     "https://github.com/random-robbie/cve-2020-0688": {
         "created_at": "2020-02-25 23:44:16",
@@ -23684,8 +23684,8 @@
     "https://github.com/sensepost/gowitness": {
         "created_at": "2023-10-29 11:00:04",
         "description": "🔍 gowitness - a golang, web screenshot utility using Chrome Headless",
-        "commit_date": "2024-06-18 07:55:06",
-        "commit_message": "(chore) bump deps and golang version",
+        "commit_date": "2024-06-28 08:22:19",
+        "commit_message": "(feat) bump dependencies",
         "release_tag": "",
         "release_date": "2023-10-29 11:11:30",
         "release_message": "## What's Changed\r\n* html a-tag unclosed bug fixed by @gorgiaxx in https://github.com/sensepost/gowitness/pull/187\r\n* Fix database file path location parser by @mr-pmillz in https://github.com/sensepost/gowitness/pull/188\r\n* fix: typo by @testwill in https://github.com/sensepost/gowitness/pull/201\r\n* (fix) MarshalJSON spells with one \"l\" by @alexandear in https://github.com/sensepost/gowitness/pull/198\r\n* Fixing the missing port issue with Nessus  by @quentinpraz in https://github.com/sensepost/gowitness/pull/191\r\n\r\n## New Contributors\r\n* @gorgiaxx made their first contribution in https://github.com/sensepost/gowitness/pull/187\r\n* @mr-pmillz made their first contribution in https://github.com/sensepost/gowitness/pull/188\r\n* @testwill made their first contribution in https://github.com/sensepost/gowitness/pull/201\r\n* @alexandear made their first contribution in https://github.com/sensepost/gowitness/pull/198\r\n* @quentinpraz made their first contribution in https://github.com/sensepost/gowitness/pull/191\r\n\r\n**Full Changelog**: https://github.com/sensepost/gowitness/compare/2.5.0...2.5.1\r\n\r\n```\r\n1edfe2209731e68621006b3cc0376d6a4b97e85e  gowitness-2.5.1-darwin-amd64\r\n3c817d57d704a3de1dcb084a59b77e684dddb154  gowitness-2.5.1-darwin-arm64\r\n19c75086ac90ae2891f24fa89d76c84748eb3d06  gowitness-2.5.1-linux-amd64\r\n105ecb560afccd5f29fe1d748c32862848f556df  gowitness-2.5.1-linux-arm64\r\ne893957658f560911864eeecec606c0cd9ea8e05  gowitness-2.5.1-linux-armv7\r\n32315a0b50ccd4e28b941a4b0121200b6625eb9e  gowitness-2.5.1-windows-amd64.exe\r\n```"
@@ -24412,8 +24412,8 @@
         "description": "魅族安全中心"
     },
     "https://sec.vip.com/": {
-        "status_code": 200,
-        "description": "VSRC首页-唯品会信息安全中心"
+        "status_code": 503,
+        "description": ""
     },
     "https://sec.wacai.com/": {
         "status_code": 200,
@@ -25700,8 +25700,8 @@
     "https://github.com/Anduin2017/HowToCook": {
         "created_at": "2024-06-17 14:03:33",
         "description": "程序员在家做饭方法指南。Programmer's guide about how to cook at home (Simplified Chinese only).",
-        "commit_message": "Fix：煮泡面水量修改 (#1340)",
-        "commit_date": "2024-06-20 07:28:00",
+        "commit_message": "Update 食品安全.md to fix #1355",
+        "commit_date": "2024-07-06 05:03:40",
         "release_date": "2024-06-17 14:03:41",
         "release_message": "## What's Changed\r\n\r\n* 添加了每道菜的难度星级和按照难度索引的功能\r\n* 添加了 Docker 部署 和 PDF 部署的支持 by @Anduin2017 \r\n* Update readme-generate.js by @YufeiJ1ao in https://github.com/Anduin2017/HowToCook/pull/1329\r\n* feat:添加关于炸小酥肉的做法 by @coder-lib in https://github.com/Anduin2017/HowToCook/pull/1332\r\n* 修正小酥肉的语文语法 by @Anduin2017 in https://github.com/Anduin2017/HowToCook/pull/1333\r\n* Update 西红柿牛腩.md by @xiaohei417 in https://github.com/Anduin2017/HowToCook/pull/1334\r\n* add recipe for winter melon punch by @aytchhh in https://github.com/Anduin2017/HowToCook/pull/1336\r\n\r\n## New Contributors\r\n* @YufeiJ1ao made their first contribution in https://github.com/Anduin2017/HowToCook/pull/1329\r\n* @coder-lib made their first contribution in https://github.com/Anduin2017/HowToCook/pull/1332\r\n* @xiaohei417 made their first contribution in https://github.com/Anduin2017/HowToCook/pull/1334\r\n* @aytchhh made their first contribution in https://github.com/Anduin2017/HowToCook/pull/1336\r\n\r\n**Full Changelog**: https://github.com/Anduin2017/HowToCook/compare/1.3.1...1.4.0"
     },
@@ -27075,7 +27075,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "52.238.29.131属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "52.238.25.0属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
@@ -27780,8 +27780,8 @@
     "https://github.com/T4y1oR/RingQ": {
         "created_at": "2024-05-11 09:26:22",
         "description": "一款后渗透免杀工具，助力每一位像我这样的脚本小子快速实现免杀，支持bypass AV/EDR 360 火绒 Windows Defender Shellcode Loader",
-        "commit_message": "20240624",
-        "commit_date": "2024-06-24 14:11:51",
+        "commit_message": "Update 20240708",
+        "commit_date": "2024-07-08 12:11:15",
         "release_date": "2024-05-11 09:27:43",
         "release_message": "**具体使用方法 参考README.md**\r\n\r\n**[已开源](https://github.com/T4y1oR/RingQ/tree/main/RingQ)，放心食用，Releases编译后的RingQ.exe是经过bypass QVM202的  ~~帮助懒惰的脚本小子~~**  \r\n\r\n**如不放心可自行编译使用[QVM250](https://github.com/T4y1oR/RingQ/tree/main/QVM250)即可**"
     },
@@ -28165,7 +28165,7 @@
         "created_at": "2024-05-16 07:58:56",
         "description": "自研的利用JavaFX技术编写的针对于Thinkphp框架的图形化漏洞扫描工具，漏洞包括多版本的命令执行和日志泄露",
         "commit_message": "Update README.md",
-        "commit_date": "2024-06-28 09:31:32",
+        "commit_date": "2024-07-02 09:50:31",
         "release_date": "2024-06-28 09:28:07",
         "release_message": "更新：对误报做了一些优化"
     },
@@ -28694,8 +28694,8 @@
     "https://github.com/THUDM/ChatGLM3": {
         "created_at": "2023-10-26 06:22:47",
         "description": "ChatGLM3 series: Open Bilingual Chat LLMs | 开源双语对话语言模型",
-        "commit_message": "Merge pull request #1274 from zRzRzRzRzRzRzR/main\n\nupdate",
-        "commit_date": "2024-06-20 08:09:04"
+        "commit_message": "Merge pull request #1283 from pandong2011/fix-rf-checkpoint\n\n[fix#1272]Fix performance of resume from checkpoint",
+        "commit_date": "2024-07-04 06:00:28"
     },
     "https://github.com/menglike/bug_search": {
         "created_at": "2024-06-13 07:47:31",
