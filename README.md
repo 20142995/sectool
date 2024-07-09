@@ -980,12 +980,12 @@
 ##### 半自动漏洞扫描
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [Jie](https://github.com/yhy0/Jie) Jie stands out as a comprehensive security assessment and exploitation tool met...
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [tsunami-security-scanner](https://github.com/google/tsunami-security-scanner) Tsunami is a general purpose network security scanner with...
+- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [prismx](https://github.com/yqcs/prismx) :: 棱镜 X · 自动化企业网络安全风险检测、漏洞扫描工具。
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [nuclei](https://github.com/projectdiscovery/nuclei) Fast and customizable vulnerability scanner based on simple YAML based DSL.
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [QingScan v1.8.0](https://github.com/78778443/QingScan) 一个漏洞扫描器粘合剂,添加目标后30款工具自动调用；支持 web扫描、系统扫描、子域名收集、目录扫描、主机扫描、主机发现、组件识别、U...
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [Sn1per](https://github.com/1N3/Sn1per) Attack Surface Management Platform
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [afrog](https://github.com/zan8in/afrog) A Security Tool for Bug Bounty, Pentest and Red Teaming.
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [reconftw](https://github.com/six2dez/reconftw) reconFTW is a tool designed to perform automated recon on a target domain ...
-- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [prismx](https://github.com/yqcs/prismx) :: 棱镜 X · 自动化企业网络安全风险检测、漏洞扫描工具。
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [faraday](https://github.com/infobyte/faraday) Open Source Vulnerability Management Platform
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [EZ](https://github.com/m-sec-org/EZ) EZ是一款集信息收集、端口扫描、服务暴破、URL爬虫、指纹识别、被动扫描为一体的跨平台漏洞扫描器。
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [Osmedeus](https://github.com/j3ssie/Osmedeus) A Workflow Engine for Offensive Security
@@ -1183,7 +1183,7 @@
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [reverseip_py](https://github.com/yuyudhn/reverseip_py) Domain Parser for IPAddress.com Reverse IP Lookup
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [iplookup v1.1](https://github.com/Lengso/iplookup) IP反查域名
 - <img src="https://favicon.qqsuu.cn/s.tool.chinaz.com" alt="" style="height: 20px;"> [网站IP查询_IP反查域名_同IP网站查询 - 站长工具](http://s.tool.chinaz.com/same) 
-- <img src="https://favicon.qqsuu.cn/dns.aizhan.com" alt="" style="height: 20px;"> [20.55.14.240属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网](https://dns.aizhan.com/) 
+- <img src="https://favicon.qqsuu.cn/dns.aizhan.com" alt="" style="height: 20px;"> [40.76.119.146属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网](https://dns.aizhan.com/) 
 - <img src="https://favicon.qqsuu.cn/dnslytics.com" alt="" style="height: 20px;"> [Reverse IP - Find websites hosted on the same IP address, server or subnet](https://dnslytics.com/reverse-ip) 
 - <img src="https://favicon.qqsuu.cn/hackertarget.com" alt="" style="height: 20px;"> [Reverse IP Lookup, Find Hosts Sharing an IP | HackerTarget.com](https://hackertarget.com/reverse-ip-lookup/) 
 - <img src="https://favicon.qqsuu.cn/rapiddns.io" alt="" style="height: 20px;"> [Subdomain - RapidDNS Rapid DNS Information Collection](https://rapiddns.io/sameip) 
@@ -1289,9 +1289,9 @@
 - <img src="https://favicon.qqsuu.cn/www.yunsee.cn" alt="" style="height: 20px;"> [yunsee.cn-2.0](https://www.yunsee.cn/) 
 #### 目录扫描
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [RouteCheck-Alpha](https://github.com/ax1sX/RouteCheck-Alpha) A Java Route Collection Tool
+- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [gowitness](https://github.com/sensepost/gowitness) 🔍 gowitness - a golang, web screenshot utility using Chrome Headless
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [spray v0.9.1](https://github.com/chainreactors/spray) Next Generation HTTP Dir/File Fuzz Tool
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [feroxbuster](https://github.com/epi052/feroxbuster) A fast, simple, recursive content discovery tool written in Rust.
-- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [gowitness](https://github.com/sensepost/gowitness) 🔍 gowitness - a golang, web screenshot utility using Chrome Headless
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [cansina 1.0.0](https://github.com/deibit/cansina) Web Content Discovery Tool
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [Arjun 2.2.1](https://github.com/s0md3v/Arjun) HTTP parameter discovery suite.
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [BBScan v1.5](https://github.com/lijiejie/BBScan) A fast vulnerability scanner helps pentesters pinpoint possibly vulnera...
@@ -1685,11 +1685,11 @@
 ###### 其他
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [burp-api-drops](https://github.com/bit4woo/burp-api-drops) burp插件开发指南
 ###### 功能拓展
+- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [autoDecoder](https://github.com/f0ng/autoDecoder) Burp插件，根据自定义来达到对数据包的处理（适用于加解密、爆破等），类似mitmproxy，不同点在于经过了burp中转，在自动加解密的基础...
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [captcha-killer-modified](https://github.com/f0ng/captcha-killer-modified) captcha-killer的修改版，支持关键词识别base64编码的图片，添加免费ocr库，用于验证码爆破，适配新版...
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [HaE 2.4.6](https://github.com/gh0stkey/HaE) HaE - Highlighter and Extractor, Empower ethical hacker for efficient ope...
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [knife v2.2](https://github.com/bit4woo/knife) A burp extension that add some useful function to  Context Menu 添加一些右键菜单...
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [GAP-Burp-Extension](https://github.com/xnl-h4ck3r/GAP-Burp-Extension) Burp Extension to find potential endpoints, parameters, and gene...
-- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [autoDecoder](https://github.com/f0ng/autoDecoder) Burp插件，根据自定义来达到对数据包的处理（适用于加解密、爆破等），类似mitmproxy，不同点在于经过了burp中转，在自动加解密的基础...
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [burp-requests v0.2.4](https://github.com/silentsignal/burp-requests) Copy as requests plugin for Burp Suite
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [reCAPTCHA v1.0](https://github.com/bit4woo/reCAPTCHA) reCAPTCHA = REcognize CAPTCHA: A Burp Suite Extender that recognize ...
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [http-request-smuggler](https://github.com/portswigger/http-request-smuggler) 
@@ -1773,6 +1773,7 @@
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [BypassPro v2.4.1](https://github.com/0x727/BypassPro) 对权限绕过自动化bypass的burpsuite插件
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [RouteVulScan](https://github.com/F6JO/RouteVulScan) Burpsuite - Route Vulnerable Scanning 递归式被动检测脆弱路径的burp插件
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [HostScan](https://github.com/hy0jer/HostScan) 一款支持检测host头攻击的burp suite插件
+- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [SpringScan V1.7](https://github.com/metaStor/SpringScan) SpringScan 漏洞检测 Burp插件
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [burp-log4shell v0.2.4](https://github.com/silentsignal/burp-log4shell) Log4Shell scanner for Burp Suite
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [semgrepper v1.3](https://github.com/gand3lf/semgrepper) An extension to use Semgrep inside Burp Suite.
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [log4j2burpscanner 0.25.0](https://github.com/f0ng/log4j2burpscanner) CVE-2021-44228 Log4j2 BurpSuite Scanner,Customize ceye.io ...
@@ -1782,7 +1783,6 @@
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [JsonDetect v1.0](https://github.com/a1phaboy/JsonDetect) A burp Extender to detect json, include fastjson,jackson,gson
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [BurpShiroPassiveScan BurpShiroPassiveScan-2.0.0](https://github.com/pmiaowu/BurpShiroPassiveScan) 一款基于BurpSuite的被动式shiro检测插件
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [BurpFastJsonScan BurpFastJsonScan-2.2.2](https://github.com/pmiaowu/BurpFastJsonScan) 一款基于BurpSuite的被动式FastJson检测插件
-- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [SpringScan V1.7](https://github.com/metaStor/SpringScan) SpringScan 漏洞检测 Burp插件
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [BurpBountyPlus 3](https://github.com/ggg4566/BurpBountyPlus) BurpBounty 魔改版本
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [PowerScanner 1.1.3](https://github.com/NeoTheCapt/PowerScanner) 面向HW的红队半自动扫描器
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [Log4j-check](https://github.com/bigsizeme/Log4j-check) log4J burp被扫插件、CVE-2021-44228、支持dnclog.cn和burp内置DNS、可配合JNDIExploit生成pay...
