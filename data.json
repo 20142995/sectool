@@ -1978,8 +1978,8 @@
     "https://github.com/bit4woo/knife": {
         "created_at": "2024-05-06 10:51:08",
         "description": "A burp extension that add some useful function to  Context Menu 添加一些右键菜单让burp用起来更顺畅",
-        "commit_date": "2024-06-03 05:17:06",
-        "commit_message": "中文Tab分页显示",
+        "commit_date": "2024-06-29 03:12:57",
+        "commit_message": "update",
         "release_tag": "v2.2",
         "release_date": "2024-05-06 10:55:56",
         "release_message": "FindUrlAndRequest菜单功能更新\r\n新增2个菜单：CopyJsOfThisSite、ChangeToUploadRequest\r\n代码优化，修复多个bug\r\n将SQLMap和Nmap等执行命令的功能合并为 “run cmd”功能，支持添加自定义命令\r\nChineseTab重写，支持语法高亮和自动换行，方便阅读\r\n支持配置项搜索和多选操作"
@@ -3479,7 +3479,7 @@
         "release_message": ""
     },
     "https://github.com/Ormicron/chatViewTool": {
-        "created_at": "2022-06-16 07:52:19",
+        "created_at": "2022-06-16 07:51:00",
         "description": "基于Java实现的图形化微信聊天记录解密查看器",
         "commit_date": "2024-05-20 06:18:51",
         "commit_message": "Update README.md",
@@ -4113,8 +4113,8 @@
     "https://github.com/vulhub/vulhub": {
         "created_at": "2017-04-09 10:13:13",
         "description": "Pre-Built Vulnerable Environments Based on Docker-Compose",
-        "commit_message": "improve POC for ShowDoc sqli",
-        "commit_date": "2024-06-04 11:47:46"
+        "commit_message": "Merge pull request #540 from vulhub/geoserver-cve-2024-36401\n\nadded GeoServer CVE-2024-36401",
+        "commit_date": "2024-07-02 18:02:32"
     },
     "https://github.com/zhuifengshaonianhanlu/pikachu": {
         "created_at": "2018-07-24 08:21:19",
@@ -4529,8 +4529,8 @@
     "https://github.com/rockbenben/ChatGPT-Shortcut": {
         "created_at": "2024-05-06 09:37:59",
         "description": "🚀💪Maximize your efficiency and productivity, support for English,中文,Español,العربية. 让生产力加倍的AI快捷指令。更有效地定制、保存和分享自己的提示词。在提示词分享社区中，轻松找到适用于不同场景的指令。",
-        "commit_message": "Revert \"refactor(components): comments & share\"\n\nThis reverts commit 171d5f8cec81af7594c8eea5085eb971a22bce14.",
-        "commit_date": "2024-06-07 08:58:05",
+        "commit_message": "chore(deps): bump ws from 7.5.9 to 7.5.10 (#52)\n\nBumps [ws](https://github.com/websockets/ws) from 7.5.9 to 7.5.10.\r\n- [Release notes](https://github.com/websockets/ws/releases)\r\n- [Commits](https://github.com/websockets/ws/compare/7.5.9...7.5.10)\r\n\r\n---\r\nupdated-dependencies:\r\n- dependency-name: ws\r\n  dependency-type: indirect\r\n...\r\n\r\nSigned-off-by: dependabot[bot] <support@github.com>\r\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
+        "commit_date": "2024-06-23 23:05:28",
         "release_date": "2024-05-06 10:40:32",
         "release_message": "**Full Changelog**: https://github.com/rockbenben/ChatGPT-Shortcut/compare/v3.2.0...v3.2.1"
     },
@@ -4555,8 +4555,8 @@
     "https://github.com/baidu/dperf": {
         "created_at": "2024-06-05 10:43:58",
         "description": "dperf is a 100Gbps network load tester.",
-        "commit_message": "Merge pull request #456 from pengjianzhang/main\n\nupdate changelog",
-        "commit_date": "2024-06-05 10:43:58",
+        "commit_message": "Merge pull request #465 from chcchc88/main\n\nfix: resolve compilation errors",
+        "commit_date": "2024-07-08 11:02:49",
         "release_date": "2024-06-05 10:58:44",
         "release_message": "## v1.7.0 - 2024-06-06\r\n\r\nAfter more than six months, the 1.7.0 version has finally been released. [Pengfei Zhang](https://github.com/zhangpengfei-xyz) contributed many features to this version. Thank you, Pengfei Zhang, for making dperf more powerful. We welcome more developers to join us and make dperf even better.\r\n\r\n### Added\r\n\r\n- send http post requests\r\n\r\n- dpdk pdump\r\n\r\n    thanks ZhangPengfei\r\n\r\n- fast_close: use RST to close connections\r\n\r\n- support DPDK-23.11 and DPDK-24\r\n\r\n- enable simd512\r\n\r\n- disable ack\r\n\r\n- configure retransmit timeout\r\n\r\n### Changed\r\n\r\n- config DPDK log level\r\n\r\n- clear_screen: dperf can clear screen output and make the screen cleaner\r\n\r\n- static linking\r\n\r\n    thanks ZhangPengfei\r\n\r\n### Fixed\r\n\r\n- dpdk cleanup\r\n\r\n    thanks ZhangPengfei\r\n\r\n- CFLAGS override\r\n\r\n    thanks ZhangPengfei\r\n\r\n- missspell\r\n\r\n    thanks ZhangPengfei\r\n\r\n- don't clear sequences in time-wait state"
     },
@@ -24412,8 +24412,8 @@
         "description": "魅族安全中心"
     },
     "https://sec.vip.com/": {
-        "status_code": 200,
-        "description": "VSRC首页-唯品会信息安全中心"
+        "status_code": 503,
+        "description": ""
     },
     "https://sec.wacai.com/": {
         "status_code": 200,
@@ -27075,7 +27075,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "20.42.106.67属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "20.55.118.242属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
@@ -28248,8 +28248,8 @@
         "description": "GitGuardian: Git Security Scanning & Secrets Detection"
     },
     "https://www.zeek.org": {
-        "status_code": 200,
-        "description": "The Zeek Network Security Monitor"
+        "status_code": 429,
+        "description": "WordPress.com 429 Error"
     },
     "https://gitee.com/freshday/radar": {
         "status_code": 200,
