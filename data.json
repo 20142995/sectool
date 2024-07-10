@@ -1079,7 +1079,7 @@
         "created_at": "2024-03-07 09:30:14",
         "description": "基于 docsify 快速部署 Awesome-POC 中的漏洞文档",
         "commit_message": "update",
-        "commit_date": "2024-06-13 03:36:46",
+        "commit_date": "2024-07-04 08:47:41",
         "release_date": "2024-04-01 03:17:43",
         "release_message": "2023.04.01 重构目录，此为重构前 release。重构后目录如下：\r\n```\r\ndirs = {\r\n    'oa':'OA漏洞',\r\n    'cms': 'CMS漏洞',\r\n    'framework': '开发框架漏洞',\r\n    'iot': '网络设备漏洞',\r\n    'language': '开发语言漏洞',\r\n    'os': '操作系统漏洞',\r\n    'webapp': 'Web应用漏洞',\r\n    'middleware': '中间件漏洞',\r\n    'database': '数据库漏洞',\r\n    'cloud': '云安全漏洞',\r\n    'others':'其他漏洞'\r\n}\r\n```"
     },
@@ -7731,11 +7731,11 @@
         "release_message": ""
     },
     "https://github.com/yaklang/yakit": {
-        "created_at": "2024-07-05 08:03:10",
+        "created_at": "2024-07-01 08:10:36",
         "description": "Cyber Security ALL-IN-ONE Platform",
-        "commit_message": "feat(global-config):add dbsavesync config (#1761)",
-        "commit_date": "2024-07-05 02:38:16",
-        "release_date": "2024-07-05 08:40:51",
+        "commit_message": "Luoluo/feat/linux and mac build (#1785)\n\n* cib打包mac和Linux\r\n\r\n* feat:mac 解压内置引擎区分arch\r\n\r\n* feat:下载引擎和社区版mac和linux区分arm64和amd64\r\n\r\n* feat:asyncFetchCheckYaklangSource:区分arm64和amd64\r\n\r\n* feat:抽离校验引擎是否为官方的方法为getCheckTextUrl;feat:检测引擎版本升级的立即更新区分arm64和amd64\r\n\r\n* feat:getCheckTextUrl增加获取可用域的逻辑，使用可用域\r\n\r\n* doc:ci取消上传yakit-version.txt的注释",
+        "commit_date": "2024-07-08 06:44:29",
+        "release_date": "2024-07-01 08:38:18",
         "release_message": ""
     },
     "https://github.com/bartblaze/Yara-rules": {
@@ -19936,8 +19936,8 @@
         "release_tag": "v1.4.7",
         "release_date": "2024-04-20 18:47:46",
         "release_message": "### Main features\r\n\r\n- Added support for:\r\n  - Scripting, uses Kotlin, check [short guide](https://github.com/skylot/jadx/wiki/Jadx-scripts-guide)\r\n  - External plugins, [guide](https://github.com/skylot/jadx/wiki/Jadx-plugins-guide)\r\n  Both features in preview state, API is stable but limited (especially in UI customizations)\r\n- Jadx GUI:\r\n  - Improved code cache, allow use common directory, view/delete exist caches in preferences\r\n  - jadx-gui configuration moved into plain json files in system config directory\r\n  - Allow to set custom shortcuts\r\n  - Tabs drag and drop reorder support\r\n  - Hex-viewer for binary asset files\r\n  - Add 'go to main activity' action\r\n- Other:\r\n  - Java 11+ is required now\r\n  - Parse and use Kotlin metadata for renames\r\n  - Add support for XApk files\r\n  - Allow to move class to another package\r\n  - Support jsr/ret opcodes (java-input) \r\n- A lot of bug fixes ... and regressions :rofl:\r\n\r\n**Full Changelog**: https://github.com/skylot/jadx/compare/v1.4.7...v1.5.0\r\n\r\n### Download files:\r\n- [jadx-gui-1.5.0-with-jre-win.zip](https://github.com/skylot/jadx/releases/download/v1.5.0/jadx-gui-1.5.0-with-jre-win.zip) - jadx-gui with bundled JRE\r\n- [jadx-gui-1.5.0-no-jre-win.exe](https://github.com/skylot/jadx/releases/download/v1.5.0/jadx-gui-1.5.0-no-jre-win.exe) - jadx-gui single exe (system JRE must be installed)\r\n- [jadx-1.5.0.zip](https://github.com/skylot/jadx/releases/download/v1.5.0/jadx-1.5.0.zip) - cross-platform cli and gui bundle (system JRE must be installed)\r\n\r\nFor system JRE the latest version is always preferred, Java 11+ is required, download at [oracle.com](https://www.oracle.com/java/technologies/downloads/#jdk21-windows)\r\n",
-        "commit_date": "2024-06-14 17:52:31",
-        "commit_message": "fix(gui): update Messages_zh_CN.properties (PR #2203)\n\nsync new texts."
+        "commit_date": "2024-07-08 21:17:06",
+        "commit_message": "fix(build): do not wrap jar in launch4j (#2186)"
     },
     "https://github.com/bluefrostsecurity/CVE-2019-1215": {
         "created_at": "2020-01-06 22:34:16",
@@ -22468,8 +22468,8 @@
     "https://github.com/m-sec-org/d-eyes": {
         "created_at": "2024-06-27 02:39:35",
         "description": "D-Eyes为M-SEC社区一款检测与响应工具",
-        "commit_date": "2024-06-27 02:39:35",
-        "commit_message": "fix(readme): fix build",
+        "commit_date": "2024-07-09 09:04:14",
+        "commit_message": "fix: add version",
         "release_tag": "v1.1.0",
         "release_date": "2024-06-27 05:44:25",
         "release_message": ""
@@ -25828,8 +25828,8 @@
     "https://github.com/securego/gosec": {
         "created_at": "2024-05-14 13:36:59",
         "description": "Go security checker",
-        "commit_message": "Added more rules\n\n* Rule G406 responsible for the usage of deprecated MD4 and RIPEMD160 added.\n* Rules G506, G507 responsible for tracking the usage of the already mentioned libraries added.\n* Slight changes in the Makefile(`make clean` wasn't removing all expected files)\n* Added license to `analyzer_test.go`",
-        "commit_date": "2024-06-25 11:18:27",
+        "commit_message": "Update to go 1.22.5 and 1.21.12\n\nChange-Id: I3334016ed2714ce4aed959d7f19a33e220c000e4\nSigned-off-by: Cosmin Cojocar <ccojocar@google.com>",
+        "commit_date": "2024-07-08 14:00:12",
         "release_date": "2024-05-14 13:42:29",
         "release_message": "## Changelog\n* 6fbd381 Catch os.ModePerm permissions in os.WriteFile\n* dc5e5a9 Add a unit test to detect the false negative in rule G306 for os.ModePerm permissions\n* 417a44c Add filepath.EvalSymlinks to clean functions in rule G304\n* d34f8b7 chore(deps): update all dependencies\n* 8658b8e Update Go to version 2.22.3 in CI and release\n* d3b2359 chore(deps): update module golang.org/x/text to v0.15.0\n* cf29d54 chore(deps): update all dependencies\n* 09d62bd chore(deps): update module github.com/onsi/gomega to v1.33.0\n* 3b23ec8 Update to go 1.22.2\n* 31009c3 chore(deps): update all dependencies\n* daf6f67 chore(deps): update module github.com/onsi/ginkgo/v2 to v2.17.1\n* e27f442 chore(deps): update all dependencies\n* 5513615 fix(helpers/goversion): get from go.mod\n* 43b8b75 chore: fix function name\n* accd7a1 chore(deps): update all dependencies\n* 48aa72e Format the imports using the gci tool\n* b6df69c Fixup: delete unused variable\n* ccb0a08 Fix test: update test to comply with the spec of generated sources\n* 3a0ea51 Refactor: use standard function to check if a file is generated\n* 11c3252 Fix lint warnings\n* be378e6 Add support for math/rand/v2 added in Go 1.22\n* 36878a9 Skip the G601 tests for Go version 1.22\n* 903c75b Update go version to 1.22.1 and 1.21.8\n* f25ccd9 Ignore 'implicit memory aliasing' rule for Go 1.22+\n* 582e91a chore(deps): update all dependencies\n* 198a40c chore(deps): update module golang.org/x/tools to v0.18.0\n* c824a5d fix(hardcoded): remove duplicated `Stripe API Key`\n* d13d7da Update gosec version to v2.19.0 in the Github action\n\n"
     },
@@ -27075,7 +27075,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "20.171.70.61属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "20.42.106.67属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
@@ -27095,7 +27095,7 @@
     },
     "https://www.webscan.cc/": {
         "status_code": 404,
-        "description": "Not Found"
+        "description": ""
     },
     "https://gofile.io/": {
         "status_code": 200,
@@ -28268,8 +28268,8 @@
         "description": "Drools - Drools - Business Rules Management System (Java™, Open Source)"
     },
     "https://www.dictionary.com/browse/moloch": {
-        "status_code": 200,
-        "description": "MOLOCH Definition & Meaning | Dictionary.com"
+        "status_code": 404,
+        "description": "Moloch Definition & Meaning | Dictionary.com"
     },
     "https://securityonion.net/": {
         "status_code": 200,
