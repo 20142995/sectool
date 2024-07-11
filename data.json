@@ -980,7 +980,7 @@
         "release_message": ""
     },
     "https://github.com/LittleBear4/OA-EXPTOOL": {
-        "created_at": "2022-10-13 12:31:21",
+        "created_at": "2023-08-21 03:13:34",
         "description": "OA综合利用工具，集合将近20款OA漏洞批量扫描",
         "commit_date": "2023-10-28 04:46:18",
         "commit_message": "Update README.md",
@@ -18476,13 +18476,13 @@
         "release_message": ""
     },
     "https://github.com/wikiZ/RedGuard": {
-        "created_at": "2023-08-20 17:18:41",
+        "created_at": "2024-06-18 12:33:35",
         "description": "RedGuard is a C2 front flow control tool,Can avoid Blue Teams,AVs,EDRs check.",
-        "commit_date": "2023-09-19 11:06:40",
-        "commit_message": "Update README.md",
+        "commit_date": "2024-06-18 12:33:35",
+        "commit_message": "Optimized the problem of requesting regional restriction matching errors",
         "release_tag": "23.08.21",
-        "release_date": "2023-08-20 17:32:49",
-        "release_message": "## [23.08.21.0113] - 2023-08-21\r\n### Added\r\n- Custom Delete Response Fields\r\n- Added Header Host information in log output\r\n- Solved the wrong package problem"
+        "release_date": "2024-06-18 12:47:04",
+        "release_message": "## [24.06.18.2001] - 2024-06-18\r\n### Update\r\n- Optimized the problem of requesting regional restriction matching errors"
     },
     "https://github.com/jas502n/CVE-2019-7238": {
         "created_at": "2019-05-21 13:16:02",
@@ -21027,7 +21027,7 @@
         "commit_message": "Merge pull request #67 from StackExchange/tlim_newmod\n\nREADME.md: Announce new fork"
     },
     "https://github.com/Jrohy/trojan": {
-        "created_at": "2023-09-24 15:12:14",
+        "created_at": "2020-02-22 11:28:01",
         "description": "trojan多用户管理部署程序, 支持web页面管理",
         "release_tag": "v2.15.3",
         "release_date": "2023-09-24 15:13:40",
@@ -24248,12 +24248,12 @@
         "release_message": ""
     },
     "https://github.com/bcvgh/daydayEXP": {
-        "created_at": "2024-02-04 09:33:59",
+        "created_at": "2024-03-26 07:52:06",
         "description": "支持自定义Poc文件的图形化漏洞利用工具",
         "commit_message": "Update README.md",
         "commit_date": "2024-03-26 07:52:06",
-        "release_date": "2024-02-04 10:03:26",
-        "release_message": "更新：\r\n1.新增了反序列化模块。\r\n2.支持批量URL漏洞检测，漏洞情况导出，自定义线程数。\r\n3.支持了{{字符串数据:Base64Encode}}、{{Hex编码后的数据:HexDecode}}等写法，参考nuclei、YAKIT。\r\n4.优化了部分代码，如占位符逻辑优化，面板输出优化等，"
+        "release_date": "2024-06-27 07:35:59",
+        "release_message": "解压zip包，运行start.bat即可使用。（jdk11版本需要修改bat脚本内应用名称）"
     },
     "https://github.com/KrystianLi/ExchangeOWA": {
         "created_at": "2023-05-22 10:47:08",
@@ -27075,7 +27075,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "13.83.221.177属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "20.171.75.100属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
@@ -27302,8 +27302,8 @@
         "description": "十大网盘搜索引擎 - 凌风云"
     },
     "https://censys.io/": {
-        "status_code": 503,
-        "description": "Site is offline"
+        "status_code": 200,
+        "description": "Attack Surface Management and Threat Hunting Solutions | Censys"
     },
     "https://www.whois.com/whois/": {
         "status_code": 200,
