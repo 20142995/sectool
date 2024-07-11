@@ -5624,10 +5624,10 @@
         "release_message": "## Impacket 0.11.0:\r\nProject's main page at https://www.coresecurity.com/core-labs/open-source-tools/impacket\r\n\r\nChangeLog for 0.11.0:\r\n1. Library improvements \r\n    * Added new Kerberos error codes (@ly4k).\r\n\t* Added `[MS-TSTS]` Terminal Services Terminal Server Runtime Interface Protocol implementation (@nopernik).\r\n    * Changed the setting up for new SSL connections (@mpgn, @CT-H00K and @0xdeaddood).\r\n    * Added a callback function to smbserver for incoming authentications (@p0dalirius).\r\n    * Fix crash in winregistry (@laxa)\r\n    * Fixes in IDispatch derived classes in comev implementation (@NtAlexio2)\r\n    * Fix CVE-2020-17049 in ccache.py (@godylockz)\r\n    * Smbserver: Added SMB2_FILE_ALLOCATION_INFO type determination (@JerAxxxxxxx)\r\n    * tds: Fixed python3 incompatibility when receiving over TLS socket (@exploide)\r\n    * crypto: Ensure passwords are utf-8 encoded before deriving Kerberos keys (@jojonas)\r\n    * ese: Fixed python3 incompatibility when reading from db (@alexisbalbachan)\r\n    * ldap queries: Escaped characters are now correctly parsed (@alexisbalbachan)\r\n    * Support SASL authentication in ldap protocol (@NtAlexio2)\r\n\r\n2. Examples improvements\r\n    * [GetADUsers.py](examples/GetADUsers.py), [GetNPUsers.py](examples/GetNPUsers.py), [GetUserSPNs.py](examples/GetUserSPNs.py) and [findDelegation.py](examples/findDelegation.py):\r\n      * Added dc-host option to connect to specific KDC using its FQDN or NetBIOS name (@rmaksimov and @0xdeaddood).\r\n    * [GetNPUsers.py](examples/GetNPUsers.py)\r\n      * Printing TGT in stdout despite -outputfile parameter (@alexisbalbachan and @Zamanry)\r\n      * Fixed output hash format for AES128/256 (etype 17/18) (@erasmusc)\r\n    * [GetUserSPNs.py](examples/GetUserSPNs.py):\r\n      * Added LDAP paged search (@ThePirateWhoSmellsOfSunflowers and @SAERXCIT).\r\n      * Added a -stealth flag to remove the SPN filter from the LDAP query (@clavoillotte).\r\n      * Improved searchFilter (@ShutdownRepo)\r\n      * Use LDAP paged search (@ThePirateWhoSmellsOfSunflowers)\r\n    * [psexec.py](examples/psexec.py):\r\n      * Added support for name customization using a custom binary file (@Dramelac).\r\n    * [smbexec.py](examples/smbexec.py):\r\n      * Security fixes for privilege escalation vulnerabilities (@bugch3ck).\r\n      * Fixed python3 compatibility issues, added workaround TCP over NetBIOS being disabled (@ljrk0)\r\n    * [secretsdump.py](examples/secretsdump.py):\r\n      * Added a new option to extract only NTDS.DIT data for specific users based on an LDAP filter (@snovvcrash).\r\n      * Security fixes for privilege escalation vulnerabilities (@bugch3ck).  \r\n    * [mssqlclient.py](examples/mssqlclient.py):\r\n      * Added multiple new commands. Now supports xp_dirtree execution (@Mayfly277, @trietend and @TurtleARM).\r\n    * [ntlmrelayx.py](examples/ntlmrelayx.py):\r\n      * Added ability to trigger SQLShell when running ntlmrelayx in interactive mode (@sploutchy).\r\n      * Added filter option to the socks command in ntlmrelayx CLI (@shoxxdj)\r\n      * Added ability to register DNS records through LDAP.\r\n    * [addcomputer.py](examples/addcomputer.py), [rbcd.py](examples/rbcd.py):\r\n      * Allow weak TLS ciphers for LDAP connections (@AdrianVollmer)\r\n    * [Get-GPPPassword.py](examples/Get-GPPPassword.py):\r\n      * Better handling of various XML files in Group Policy Preferences (@p0dalirius)\r\n    * [smbclient.py](examples/smbclient.py):\r\n      * Added recursive file listing (@Sq00ky)\r\n    * [ticketer.py](examples/ticketer.py):\r\n      * Ticket duration is now specified in hours instead of days (@Dramelac)\r\n      * Added extra-pac implementation (@Dramelac)\r\n\r\n3. New examples\r\n    * [net.py](examples/net.py) Implementation of windows net.exe builtin tool (@NtAlexio2)\r\n    * [changepasswd.py](examples/changepasswd.py) New example that allows password changing or reseting through multiple protocols (@Alef-Burzmali, @snovvcrash, @bransh, @api0cradle and @p0dalirius)\r\n    * [DumpNTLMInfo.py](examples/DumpNTLMInfo.py) New example that dumps remote host information in ntlm authentication model, without credentials. For SMB protocols v1, v2 and v3. (@NtAlexio2)\r\n    \r\nAs always, thanks a lot to all these contributors that make this library better every day (up to now):\r\n\r\n@ly4k @nopernik @snovvcrash @ShutdownRepo @kiwids0220 @mpgn @CT-H00K @rmaksimov @arossert @aevy-syn @tirkarthi @p0dalirius @Dramelac @Mayfly277 @S3cur3Th1sSh1t @nobbd @AdrianVollmer @trietend @TurtleARM @ThePirateWhoSmellsOfSunflowers @SAERXCIT @clavoillotte @Marshall-Hallenbeck @sploutchy @almandin @rtpt-alexanderneumann @JerAxxxxxxx @NtAlexio2 @laxa @godylockz @exploide @jojonas @Zamanry @erasmusc @bugch3ck @ljrk0 @Sq00ky @shoxxdj @Alef-Burzmali @bransh @api0cradle @alexisbalbachan @0xdeaddood @sanmopre\r\n"
     },
     "https://github.com/OpenEthan/SMSBoom": {
-        "created_at": "2021-08-10 05:58:42",
-        "description": "短信轰炸/短信测压/ | 一个健壮免费的python短信轰炸程序，专门炸坏蛋蛋，百万接口，多线程全自动添加有效接口，支持异步协程百万并发，全免费的短信轰炸工具！！hongkonger开发全网首发！！",
-        "commit_date": "2023-07-07 10:19:26",
-        "commit_message": "Merge pull request #269 from ChanaLii/patch-1\n\nUpdate api.json",
+        "created_at": "2022-07-07 13:36:06",
+        "description": "SMSBoom - Deprecate: Due to judicial reasons, the repository has been suspended!",
+        "commit_date": "2024-03-20 03:30:32",
+        "commit_message": "Delete img/smsboom-logo.png\n\nDelete related pictures.",
         "release_tag": "main",
         "release_date": "2022-07-07 13:55:30",
         "release_message": "## Fix: https://github.com/OpenEthan/SMSBoom/issues/95\r\n1. Optimize the get proxy\r\n\r\n## New features\r\n1. 支持使用代理IP。#59\r\n2. 支持多綫程、異步協程、單綫程運行。\r\n3. 支持設置轟炸次數（波束）\r\n4. 性能優化。\r\n5. 多語言版本。（CH、EN）\r\n\r\n從 2022/7/7 日起，原項目轉手由我開發，謝謝大家支持，如項目有 Bug，請到 Issue 処提出。\r\nby Ethan."
@@ -6416,7 +6416,7 @@
         "commit_date": "2024-07-01 16:32:12"
     },
     "https://github.com/Aiyflowers/JWT_GUI": {
-        "created_at": "2023-07-01 07:09:25",
+        "created_at": "2023-07-08 05:50:33",
         "description": "基于pyqt5和pyjwt实现的jwt加解密爆破一体化工具(ps:其实是水的python课设)",
         "commit_date": "2023-07-24 12:26:10",
         "commit_message": "补充使用方法",
@@ -6708,7 +6708,7 @@
         "release_message": ""
     },
     "https://github.com/xiaoyunjie/Shell_Script": {
-        "created_at": "2019-03-28 13:58:22",
+        "created_at": "2021-05-06 08:48:52",
         "description": "Linux系统的安全，通过脚本对Linux系统进行一键检测和一键加固",
         "commit_date": "2022-08-08 01:19:36",
         "commit_message": "优化",
@@ -7953,7 +7953,7 @@
         "release_message": ""
     },
     "https://github.com/theLSA/CS-checklist": {
-        "created_at": "2019-09-11 17:02:19",
+        "created_at": "2020-08-09 09:02:00",
         "description": "PC客户端（C-S架构）渗透测试checklist / Client side(C-S) penetration checklist",
         "commit_date": "2020-08-09 09:45:11",
         "commit_message": "Update README.md",
@@ -17148,7 +17148,7 @@
         "release_message": "Some example variations are included. All should have the same MD5: `3cebbe60d91ce760409bbe513593e401`"
     },
     "https://github.com/ffffffff0x/AboutSecurity": {
-        "created_at": "2019-12-07 14:55:41",
+        "created_at": "2020-12-31 02:12:53",
         "description": "Everything for pentest. | 用于渗透测试的 payload 和 bypass 字典.",
         "commit_date": "2023-01-09 12:14:59",
         "commit_message": "update",
@@ -23347,8 +23347,8 @@
     "https://github.com/drtychai/wordlists": {
         "created_at": "2018-10-26 20:42:03",
         "description": "Aggregated wordlist pulled from commonly used tools for discovery, enumeration, fuzzing, and exploitation.",
-        "commit_date": "2020-12-30 19:55:41",
-        "commit_message": "fuzzdb submodule added",
+        "commit_date": "2024-06-25 19:26:12",
+        "commit_message": "Update fasttrack.txt",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -24412,8 +24412,8 @@
         "description": "魅族安全中心"
     },
     "https://sec.vip.com/": {
-        "status_code": 200,
-        "description": "VSRC首页-唯品会信息安全中心"
+        "status_code": 503,
+        "description": ""
     },
     "https://sec.wacai.com/": {
         "status_code": 200,
@@ -27075,7 +27075,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "20.171.75.100属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "52.159.137.231属于美国 加利福尼亚 圣克拉拉 微软云 数据中心_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
@@ -27259,7 +27259,7 @@
     },
     "https://www.storytrain.info/": {
         "status_code": 200,
-        "description": "用户认证 - 云短信 - 短信接收"
+        "description": "短信接收 - 云短信 - 第1页 - 在线短信接收"
     },
     "https://sms-activate.org/": {
         "status_code": 403,
