@@ -24854,8 +24854,8 @@
         "description": "The Rootkit Hunter project"
     },
     "http://dnslog.pw/login": {
-        "status_code": 500,
-        "description": "Server Error (500)"
+        "status_code": 200,
+        "description": "登录 - DNSlog System"
     },
     "http://www.jsons.cn/rabbitencrypt/": {
         "status_code": 200,
@@ -27075,7 +27075,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "20.55.214.169属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "172.183.51.77属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
@@ -27210,8 +27210,8 @@
         "description": "TideFinger  潮汐指纹 TideFinger  潮汐指纹"
     },
     "http://dnslog.pw/": {
-        "status_code": 500,
-        "description": "Server Error (500)"
+        "status_code": 200,
+        "description": "登录 - DNSlog System"
     },
     "https://findthatlead.com/en": {
         "status_code": 200,
@@ -27302,8 +27302,8 @@
         "description": "十大网盘搜索引擎 - 凌风云"
     },
     "https://censys.io/": {
-        "status_code": 503,
-        "description": "Site is offline"
+        "status_code": 200,
+        "description": "Attack Surface Management and Threat Hunting Solutions | Censys"
     },
     "https://www.whois.com/whois/": {
         "status_code": 200,
@@ -27676,8 +27676,8 @@
         "description": "一款针对CTF竞赛MISC的工具~",
         "commit_message": "更新: README.md",
         "commit_date": "2024-02-11 11:04:42",
-        "release_date": "2024-05-31 05:13:40",
-        "release_message": "PS：由于有人公开号召逆向我软件的所有代码，所以本人目前停止后续版本的分享！\r\n\r\n🆕2024.5.3终止 `Lv60` 免费入群\r\n🐧交流群：`761594154` ，群等级 `Lv60` 以上（包括`Lv60`）可以免费拿软件；如果不想要活跃群去获得软件，当然可以走捷径，捐赠 `50` ，后续本人有时间软件会继续更新。\r\n\r\n```\r\nVersion 2.0.9 更新日志：\r\n1）新增：\r\n  `config.yaml` 中 添加主题设置，默认使用黑色主题，需要白色主题请修改 `config.yaml`\r\n  `流量处理` 功能区 添加 `JavaDecompile` 功能 (反编译Base64编码后的Java_Class文件)\r\n\r\n2）修复：\r\n  `流量处理` 功能区 `Behinder`, `Godzilla`, `BruteForceTraffic` 修复 `未选中文件不会出现默认右键菜单`\r\n```\r\n![image](https://github.com/Byxs20/PuzzleSolver/assets/64669718/161171b2-d123-477f-a054-8a12aeefabf6)\r\n"
+        "release_date": "2024-07-09 15:36:50",
+        "release_message": "PS：由于有人公开号召逆向我软件的所有代码，所以本人目前停止后续版本的分享！\r\n\r\n🆕2024.5.3终止 `Lv60` 免费入群\r\n🐧交流群：`761594154` ，群等级 `Lv60` 以上（包括`Lv60`）可以免费拿软件；如果不想要活跃群去获得软件，当然可以走捷径，捐赠 `50` ，后续本人有时间软件会继续更新。\r\n\r\n```\r\nVersion 2.1.0 更新日志：\r\n1）新增：\r\n  `config.yaml` 中 添加置信度设置\r\n\r\n2）修复：\r\n  `图像处理` 功能区 `ImageTools` 的功能 `像素值转图像` 修复通道颜色一直变化问题\r\n  `图像处理` 功能区 `ImageTools` 的两个功能 `打开txt` 按钮的提示类型不对\r\n\r\n3）优化：\r\n  `图像处理` 功能区 `ImageTools` 的功能 `cloacked_pixel` 向下兼容 Windows7 版本\r\n  `图像处理` 功能区 `BruteForceImage` 的功能 `cloacked_pixel` 向下兼容 Windows7 版本\r\n  `流量处理` 功能区 `Behinder` 和 `Godzilla` 的功能 向下兼容 Windows7 版本\r\n```"
     },
     "https://ctfever.uniiem.com/tools/pseudo-encrypted-zip-check": {
         "status_code": 200,
