@@ -1120,7 +1120,7 @@
         "release_message": "## [6.3.0](https://github.com/mdp/rotp/compare/v6.2.2...v6.3.0) (2023-08-30)\n\n\n### Features\n\n* Allow for non-standard provisioning URI params, eg. image/icon ([#91](https://github.com/mdp/rotp/issues/91)) ([45d8aac](https://github.com/mdp/rotp/commit/45d8aac8356424897faf3a0dbda59f88b22df775))"
     },
     "https://github.com/gchq/CyberChef": {
-        "created_at": "2024-06-21 13:12:37",
+        "created_at": "2016-11-28 10:34:07",
         "description": "The Cyber Swiss Army Knife - a web app for encryption, encoding, compression and data analysis",
         "commit_date": "2024-06-21 13:14:59",
         "commit_message": "Merge branch 'master' of github.com:gchq/CyberChef",
@@ -3841,8 +3841,8 @@
     "https://github.com/neuvector/neuvector": {
         "created_at": "2024-07-10 00:21:43",
         "description": null,
-        "commit_message": "Merge pull request #1456 from williamlin-suse/main\n\nNVSHAS-7447: Rancher RBAC integration with NeuVector",
-        "commit_date": "2024-07-11 00:16:13",
+        "commit_message": "Merge pull request #1462 from williamlin-suse/main\n\nNVSHAS-8700: rancher ad user is unable to login neuvector sometimes",
+        "commit_date": "2024-07-11 19:45:00",
         "release_date": "2024-07-10 21:57:39",
         "release_message": ""
     },
@@ -3916,12 +3916,12 @@
         "release_message": "## Network Flight Simulator v2.5.0 (2023-07-31)\r\n\r\nThis release add a new `cleartext` module, which generates random cleartext traffic on some common ports.\r\n\r\n## Enjoy!\r\n\r\n"
     },
     "https://github.com/aquasecurity/trivy": {
-        "created_at": "2024-06-14 08:08:03",
+        "created_at": "2024-07-01 11:28:03",
         "description": "Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more",
-        "commit_message": "fix(sbom): fix panic when scanning SBOM file without root component into SBOM format (#7051)",
-        "commit_date": "2024-06-28 09:45:06",
-        "release_date": "2024-06-14 09:14:32",
-        "release_message": "## Changelog\n* 8709d4f9c release: v0.52.2 [release/v0.52] (#6896)\n* a4b8ad767 ci: use `ubuntu-latest-m` runner [backport: release/v0.52] (#6933)\n* 2b711bc26 chore(deps): bump github.com/Azure/azure-sdk-for-go/sdk/azidentity from 1.5.2 to 1.6.0 [backport: release/v0.52] (#6919)\n* 191d31ef8 test: bump docker API to 1.45  [backport: release/v0.52] (#6922)\n* 3f5874c8a ci: bump `github.com/goreleaser/goreleaser` to `v2.0.0` [backport: release/v0.52] (#6893)\n* 8f8c76a2a fix(debian): take installed files from the origin layer [backport: release/v0.52] (#6892)\n\n"
+        "commit_message": "docs(misconf): add info about limitations for terraform plan json (#7143)",
+        "commit_date": "2024-07-10 22:22:17",
+        "release_date": "2024-07-01 12:16:03",
+        "release_message": "## ⚡Release highlights and summary⚡\r\n\r\n👉 https://github.com/aquasecurity/trivy/discussions/7061 \r\n\r\n## Changelog\r\nhttps://github.com/aquasecurity/trivy/blob/main/CHANGELOG.md#0530-2024-07-01"
     },
     "https://github.com/anchore/grype": {
         "created_at": "2024-07-02 15:43:34",
@@ -4006,8 +4006,8 @@
     "https://github.com/WebGoat/WebGoat": {
         "created_at": "2023-12-05 10:21:15",
         "description": "WebGoat is a deliberately insecure application",
-        "commit_message": "chore: bump docker/build-push-action from 5.4.0 to 6.1.0 (#1832)\n\nBumps [docker/build-push-action](https://github.com/docker/build-push-action) from 5.4.0 to 6.1.0.\r\n- [Release notes](https://github.com/docker/build-push-action/releases)\r\n- [Commits](https://github.com/docker/build-push-action/compare/v5.4.0...v6.1.0)\r\n\r\n---\r\nupdated-dependencies:\r\n- dependency-name: docker/build-push-action\r\n  dependency-type: direct:production\r\n  update-type: version-update:semver-major\r\n...\r\n\r\nSigned-off-by: dependabot[bot] <support@github.com>\r\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>\r\nCo-authored-by: René Zubcevic <rene@zubcevic.com>",
-        "commit_date": "2024-06-29 08:16:10",
+        "commit_message": "chore: bump org.eclipse.jetty.ee10:jetty-ee10-bom (#1840)\n\nBumps [org.eclipse.jetty.ee10:jetty-ee10-bom](https://github.com/jetty/jetty.project) from 12.0.10 to 12.0.11.\r\n- [Release notes](https://github.com/jetty/jetty.project/releases)\r\n- [Commits](https://github.com/jetty/jetty.project/compare/jetty-12.0.10...jetty-12.0.11)\r\n\r\n---\r\nupdated-dependencies:\r\n- dependency-name: org.eclipse.jetty.ee10:jetty-ee10-bom\r\n  dependency-type: direct:production\r\n  update-type: version-update:semver-patch\r\n...\r\n\r\nSigned-off-by: dependabot[bot] <support@github.com>\r\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
+        "commit_date": "2024-07-10 10:14:45",
         "release_date": "2023-12-05 10:23:50",
         "release_message": "## Version v2023.8 \r\n\r\n### 🚀 New functionality\r\n\r\n- Consistent environment values and url references (#1677)\r\n- Show directly requested file in requests overview\r\n- Show creating time in file upload overview\r\n\r\n ### 🐞 Bug fixes\r\n\r\n- Fix startup message (#1687)\r\n- Fix/state of software supply chain links (#1683)\r\n- Fix WebWolf UI (#1686)\r\n\r\n### 🔄 Technical tasks\r\n\r\n- bump actions/setup-java from 3 to 4 (#1690)\r\n- bump commons-io:commons-io from 2.14.0 to 2.15.1 (#1689)\r\n- bump com.diffplug.spotless:spotless-maven-plugin (#1688)\r\n   \r\n Full change log: https://github.com/WebGoat/WebGoat/compare/v2023.5...v2023.8  \r\n\r\n\r\n Team WebGoat\r\n"
     },
@@ -4926,8 +4926,8 @@
     "https://github.com/rustdesk/rustdesk": {
         "created_at": "2024-06-23 03:39:44",
         "description": "An open-source remote desktop application designed for self-hosting, as an alternative to TeamViewer.",
-        "commit_message": "fix: build ios (#8570)\n\nld: Undefined symbols:\r\n     _kSecMatchSubjectWholeString, referenced from:\r\n         security_framework::item::ItemSearchOptions::search::he568de2b0004b0c0 in liblibrustdesk.a[872](security_framework-88ef6afe340eb2ab.security_framework.e4562ffe63567184-cgu.0.rcgu.o)\r\n\r\nTODO:\r\n\r\nThere's also a warning after commit \"2116fec20b5a2165df97e329c156baf308668efc\".\r\nNo idea how to fix it. But it does not stop building.\r\n\r\nld: warning: Could not find or use auto-linked framework 'CoreAudioTypes': framework 'CoreAudioTypes' not found\r\n\r\nSigned-off-by: fufesou <linlong1266@gmail.com>",
-        "commit_date": "2024-07-02 07:37:45",
+        "commit_message": "fix: ubuntu 18.04, service, Exec format error (#8680)\n\nSigned-off-by: fufesou <linlong1266@gmail.com>",
+        "commit_date": "2024-07-11 15:13:41",
         "release_date": "2024-06-23 03:59:11",
         "release_message": "![image](https://github.com/rustdesk/rustdesk/assets/71636191/83754a64-31b8-47f0-8570-da22207759a9)\r\n\r\n| Architecture | Windows | Ubuntu | Mac | Android | Flatpak | AppImage | iOS |\r\n|--------------|---------|--------|-----|----------|---------|---------|---------|\r\n| x86-64 (64-bit) | [EXE](https://github.com/rustdesk/rustdesk/releases/download/1.2.6/rustdesk-1.2.6-x86_64.exe) &nbsp; [MSI](https://github.com/rustdesk/rustdesk/releases/download/1.2.6/rustdesk-1.2.6-x86_64.msi) | [Download](https://github.com/rustdesk/rustdesk/releases/download/1.2.6/rustdesk-1.2.6-x86_64.deb) | [Download](https://github.com/rustdesk/rustdesk/releases/download/1.2.6/rustdesk-1.2.6-x86_64.dmg) |  | [Download](https://github.com/rustdesk/rustdesk/releases/download/1.2.6/rustdesk-1.2.6-x86_64.flatpak) | [Download](https://github.com/rustdesk/rustdesk/releases/download/1.2.6/rustdesk-1.2.6-x86_64.AppImage) |\r\n| AArch64 (ARM64) |  | [Download](https://github.com/rustdesk/rustdesk/releases/download/1.2.6/rustdesk-1.2.6-aarch64.deb) | [Download](https://github.com/rustdesk/rustdesk/releases/download/1.2.6/rustdesk-1.2.6-aarch64.dmg) | [Download](https://github.com/rustdesk/rustdesk/releases/download/1.2.6/rustdesk-1.2.6-aarch64-signed.apk) | [Download](https://github.com/rustdesk/rustdesk/releases/download/1.2.6/rustdesk-1.2.6-aarch64.flatpak) |  [Download](https://github.com/rustdesk/rustdesk/releases/download/1.2.6/rustdesk-1.2.6-aarch64.AppImage)  | [TestFlight](https://testflight.apple.com/join/KBG9EsZW)\r\n| ARMv7 (32-bit) |  | [Download](https://github.com/rustdesk/rustdesk/releases/download/1.2.6/rustdesk-1.2.6-armv7-sciter.deb) |  |  [Download](https://github.com/rustdesk/rustdesk/releases/download/1.2.6/rustdesk-1.2.6-armv7-signed.apk) |  |  |\r\n| x86-32 (32-bit) | [Download](https://github.com/rustdesk/rustdesk/releases/download/1.2.6/rustdesk-1.2.6-x86-sciter.exe) |  |  |  |  |  |\r\n\r\n\r\n## For more downloads (Fedora / Arch Linux / Suse): [check below please](#)\r\n\r\n## For the latest features: [check out the nightly build](https://github.com/rustdesk/rustdesk/releases/tag/nightly)\r\n\r\n <details>\r\n <summary>Changelog</summary>\r\n\r\n- win, linux remove desktop wallpaper https://github.com/rustdesk/rustdesk/pull/5990\r\n- dual screen dual windows support https://github.com/rustdesk/rustdesk/pull/5945 https://github.com/rustdesk/rustdesk/pull/6064\r\n- write log on android to external storage for audit https://github.com/rustdesk/rustdesk/pull/6076\r\n- fix https://github.com/rustdesk/rustdesk/issues/6071, https://github.com/rustdesk/rustdesk/pull/6093, https://github.com/rustdesk/rustdesk/discussions/6091, https://github.com/rustdesk/rustdesk/issues/6002, https://github.com/rustdesk/rustdesk/issues/6181, https://github.com/rustdesk/rustdesk/issues/6232, https://github.com/rustdesk/rustdesk/issues/6495, https://github.com/rustdesk/rustdesk/pull/6557, https://github.com/rustdesk/rustdesk/discussions/6453, https://github.com/rustdesk/rustdesk/issues/616, https://github.com/rustdesk/rustdesk/pull/6603, https://github.com/rustdesk/rustdesk/pull/6617, https://github.com/rustdesk/rustdesk/issues/5986, https://github.com/rustdesk/rustdesk/pull/7319, https://github.com/rustdesk/rustdesk/pull/7217, https://github.com/rustdesk/rustdesk/issues/4118\r\n- fix wayland: https://github.com/rustdesk/rustdesk/issues/5193, https://github.com/rustdesk/rustdesk/issues/6116, https://github.com/rustdesk/rustdesk/pull/6675, https://github.com/rustdesk/rustdesk/pull/6628\r\n- improve auto reconnect, https://github.com/rustdesk/rustdesk/pull/6125\r\n- add autocomplete in id input box, https://github.com/rustdesk/rustdesk/pull/6040\r\n- add av1 record, https://github.com/rustdesk/rustdesk/pull/6084 (a little back compatibility break introduced here, <1.2.4 can not record >=1.2.4)\r\n- single peer per row/list view https://github.com/rustdesk/rustdesk/pull/6165\r\n- add virtual display manually, https://github.com/rustdesk/rustdesk/pull/6199\r\n- add i444 support https://github.com/rustdesk/rustdesk/pull/6229, still not true color, need further job.\r\n- mobile uri https://github.com/rustdesk/rustdesk/pull/6266\r\n- physical keyboard to android support https://github.com/rustdesk/rustdesk/pull/6097\r\n- connect to devices on the other self-host or public server https://github.com/rustdesk/rustdesk/issues/6198\r\n- more Kaspersky compliances https://github.com/rustdesk/rustdesk/pull/6303 & https://github.com/rustdesk/rustdesk/pull/6333\r\n- new privacy mode 2 https://github.com/rustdesk/rustdesk/pull/6406, and enhanced mode 1 https://github.com/rustdesk/rustdesk/pull/6470\r\n- android wake lock, https://github.com/rustdesk/rustdesk/pull/6515\r\n- add keyboard input source 2 as a fallback, https://github.com/rustdesk/rustdesk/pull/6561\r\n- clipboard sharing for Wayland, https://github.com/rustdesk/rustdesk/pull/6586\r\n- swap left-right mouse, https://github.com/rustdesk/rustdesk/discussions/910\r\n- new zero copy mode hareware codec for Windows https://github.com/rustdesk/rustdesk/pull/6778\r\n- 2FA https://github.com/rustdesk/rustdesk/discussions/3212\r\n- add mac Retina display support: https://github.com/rustdesk/rustdesk/pull/7269\r\n- add support of connecting to specific Windows session, https://github.com/rustdesk/rustdesk/pull/7184\r\n- support KDE Plasma 6, https://github.com/rustdesk/rustdesk/pull/7389\r\n- add only allowing connection if rustdesk window open, https://github.com/rustdesk/rustdesk/discussions/7033\r\n- shared address book, https://github.com/rustdesk/rustdesk/pull/7229\r\n- Auto Screen-switch / Mouse follow, https://github.com/rustdesk/rustdesk/discussions/7437\r\n- http/https proxy, https://github.com/rustdesk/rustdesk/pull/7600\r\n- msi，https://github.com/rustdesk/rustdesk/pull/7688\r\n- hardware codec support for Android https://github.com/rustdesk/rustdesk/pull/8028\r\n- add voice call for Android, https://github.com/rustdesk/rustdesk/pull/8037\r\n- floating window of Android, https://github.com/rustdesk/rustdesk/pull/8268\r\n </details>\r\n\r\nhttps://www.reddit.com/r/rustdesk/comments/1dmllb4/rustdesk_126_released/\r\n\r\n"
     },
@@ -6496,10 +6496,10 @@
         "release_message": "# 更新日志\r\n\r\n- 优化了脚本流程，减少了部分代码\r\n- 增加了校验模块，根据PNG文件头校验是否为PNG图片\r\n- 新增宽高判断，对于宽高正常的PNG图片，做出提示\r\n- 无需再改后缀名，直接导出PNG后缀的文件"
     },
     "https://github.com/ImageMagick/ImageMagick": {
-        "created_at": "2015-05-17 20:07:50",
+        "created_at": "2024-06-23 15:34:28",
         "description": "🧙‍♂️ ImageMagick 7",
-        "commit_message": "-outdir deprecated",
-        "commit_date": "2024-07-02 14:44:17",
+        "commit_message": "Changes due to upgrade of libheif.",
+        "commit_date": "2024-07-11 19:19:15",
         "release_date": "2024-06-23 20:47:31",
         "release_message": "## What's Changed\n* Bump azure/trusted-signing-action from 0.3.18 to 0.3.19 by @dependabot in https://github.com/ImageMagick/ImageMagick/pull/7348\n* Fix a typo in `convert` deprecation warning by @CvX in https://github.com/ImageMagick/ImageMagick/pull/7383\n* Bump azure/trusted-signing-action from 0.3.19 to 0.3.20 by @dependabot in https://github.com/ImageMagick/ImageMagick/pull/7388\n* Updated FontConfig query to include font index, fixing (#7374) by @michaelgroves in https://github.com/ImageMagick/ImageMagick/pull/7409\n\n## New Contributors\n* @CvX made their first contribution in https://github.com/ImageMagick/ImageMagick/pull/7383\n* @michaelgroves made their first contribution in https://github.com/ImageMagick/ImageMagick/pull/7409\n\n**Full Changelog**: https://github.com/ImageMagick/ImageMagick/compare/7.1.1-33...7.1.1-34"
     },
@@ -24412,8 +24412,8 @@
         "description": "魅族安全中心"
     },
     "https://sec.vip.com/": {
-        "status_code": 503,
-        "description": ""
+        "status_code": 200,
+        "description": "VSRC首页-唯品会信息安全中心"
     },
     "https://sec.wacai.com/": {
         "status_code": 200,
@@ -25658,8 +25658,8 @@
     "https://github.com/cve-search/cve-search": {
         "created_at": "2024-04-16 13:52:41",
         "description": "cve-search - a tool to perform local searches for known vulnerabilities",
-        "commit_message": "Quick fix for sort_dir not working in free queries. (#1109)\n\n* Quick fix for sort_dir not working in free queries.\r\n\r\n* Update lib/DatabasePlugins/mongodb.py\r\n\r\nCovering all undefined cases of sort_dir\r\n\r\nCo-authored-by: Esa Jokinen <58781154+oh2fih@users.noreply.github.com>\r\n\r\n---------\r\n\r\nCo-authored-by: Giuseppe Crea <g.crea@consorziometis.it>\r\nCo-authored-by: Esa Jokinen <58781154+oh2fih@users.noreply.github.com>",
-        "commit_date": "2024-07-02 06:13:25",
+        "commit_message": "Retire db_mgmt_[source].py (#1113)\n\n* Replaced by db_updater.py -s capec\r\n\r\n* Replaced by db_updater.py -s cpe\r\n\r\n* Replaced by db_updater.py -s cwe\r\n\r\n* Replaced by db_updater.py -s cve\r\n\r\n* Replaced by db_updater.py -s via4\r\n\r\n* Update documentation\r\n\r\n* Update SystemD db_init service to retire legacy init",
+        "commit_date": "2024-07-05 09:19:17",
         "release_date": "2024-04-16 13:58:04",
         "release_message": "## v5.0.3 (2024-04-16)\r\n\r\n### Changes\r\n\r\n* [changelog] updated for release 5.0.2. [Alexandre Dulaunoy]\r\n\r\n### Other\r\n\r\n* Update requirements.txt. [PT]\r\n for https://github.com/cve-search/CveXplore/commit/6a6edc7240e6e10d7178e2ad3801897adc69409a\r\n\r\n\r\n"
     },
@@ -27075,7 +27075,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "52.159.137.231属于美国 加利福尼亚 圣克拉拉 微软云 数据中心_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "20.172.24.210属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
@@ -27314,8 +27314,8 @@
         "description": "404 Not Found"
     },
     "https://dnsdb.io/": {
-        "status_code": 526,
-        "description": "www.dnsdb.io | 526: Invalid SSL certificate"
+        "status_code": 522,
+        "description": "www.dnsdb.io | 522: Connection timed out"
     },
     "https://tools.ipip.net/ipdomain.php": {
         "status_code": 200,
