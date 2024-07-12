@@ -2165,7 +2165,7 @@
         "release_message": ""
     },
     "https://github.com/shmilylty/OneForAll": {
-        "created_at": "2018-12-10 09:43:37",
+        "created_at": "2022-07-10 10:14:49",
         "description": "OneForAll是一款功能强大的子域收集工具",
         "commit_date": "2024-04-19 06:10:40",
         "commit_message": "Merge pull request #367 from ywgdjryf/patch-1\n\nUpdate mx.py",
@@ -5997,8 +5997,8 @@
     "https://github.com/mandiant/commando-vm": {
         "created_at": "2019-03-26 22:36:32",
         "description": "Complete Mandiant Offensive VM (Commando VM), a fully customizable Windows-based pentesting virtual machine distribution. commandovm@mandiant.com",
-        "commit_date": "2024-04-15 18:31:30",
-        "commit_message": "Merge pull request #322 from mandiant/add-categoriesList\n\nadded categories.md file",
+        "commit_date": "2024-07-11 17:21:35",
+        "commit_message": "Merge pull request #324 from Menn1s/main\n\nFixed win11arm victim detection in install.ps1",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -24854,8 +24854,8 @@
         "description": "The Rootkit Hunter project"
     },
     "http://dnslog.pw/login": {
-        "status_code": 200,
-        "description": "登录 - DNSlog System"
+        "status_code": 500,
+        "description": "Server Error (500)"
     },
     "http://www.jsons.cn/rabbitencrypt/": {
         "status_code": 200,
@@ -25392,8 +25392,8 @@
     "https://github.com/deepfence/SecretScanner": {
         "created_at": "2024-04-25 13:56:48",
         "description": ":unlock: :unlock: Find secrets and passwords in container images and file systems :unlock: :unlock:",
-        "commit_message": "update vessel to v0.12.3",
-        "commit_date": "2024-05-06 10:13:12",
+        "commit_message": "update config and remove dead code",
+        "commit_date": "2024-07-11 08:24:31",
         "release_date": "2024-04-30 10:42:55",
         "release_message": ""
     },
@@ -27075,7 +27075,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "40.76.254.129属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "20.55.214.169属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
@@ -27210,8 +27210,8 @@
         "description": "TideFinger  潮汐指纹 TideFinger  潮汐指纹"
     },
     "http://dnslog.pw/": {
-        "status_code": 200,
-        "description": "登录 - DNSlog System"
+        "status_code": 500,
+        "description": "Server Error (500)"
     },
     "https://findthatlead.com/en": {
         "status_code": 200,
@@ -27302,8 +27302,8 @@
         "description": "十大网盘搜索引擎 - 凌风云"
     },
     "https://censys.io/": {
-        "status_code": 200,
-        "description": "Attack Surface Management and Threat Hunting Solutions | Censys"
+        "status_code": 503,
+        "description": "Site is offline"
     },
     "https://www.whois.com/whois/": {
         "status_code": 200,
