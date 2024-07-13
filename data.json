@@ -813,8 +813,8 @@
     "https://github.com/murphysecurity/murphysec": {
         "created_at": "2023-05-15 12:21:31",
         "description": "An open source tool focused on software supply chain security. 墨菲安全专注于软件供应链安全，具备专业的软件成分分析（SCA）、漏洞检测、专业漏洞库。",
-        "commit_message": "fix: MPS_DISABLED_INSPECTORS -> MPS_ENABLED_INSPECTORS",
-        "commit_date": "2024-07-05 11:00:31",
+        "commit_message": "feat: luarocks",
+        "commit_date": "2024-07-12 08:57:56",
         "release_date": "2023-05-15 12:52:58",
         "release_message": "Support NPM lockfile v3 "
     },
@@ -1880,8 +1880,8 @@
     "https://github.com/hiroi-sora/Umi-OCR": {
         "created_at": "2024-06-03 13:16:33",
         "description": "OCR software, free and offline. 开源、免费的离线OCR软件。支持截屏/批量导入图片，PDF文档识别，排除水印/页眉页脚，扫描/生成二维码。内置多国语言库。",
-        "commit_message": "http OCR接口：data.format=\"text\"时，不拼接 末位文本块的间隔符",
-        "commit_date": "2024-07-05 09:04:36",
+        "commit_message": "Update api_doc.md",
+        "commit_date": "2024-07-11 06:05:38",
         "release_date": "2024-06-03 13:46:15",
         "release_message": "[English](https://github-com.translate.goog/hiroi-sora/Umi-OCR/releases/tag/v2.1.2?_x_tr_sl=zh-CN&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=wapp)\r\n\r\n## v2.1.2 主要更新\r\n\r\n- 新增：批量任务（图片、文档）支持 **暂停任务** 。只要不退出软件，在待机/休眠后可以恢复任务。\r\n- 新增：文档任务支持保存为 **单层纯文本PDF** 。\r\n- 新增：HTTP OCR接口 允许设置 **忽略区域** 参数。👉 [文档](https://github.com/hiroi-sora/Umi-OCR/blob/main/docs/README_HTTP.md#1-%E5%9B%BE%E7%89%87ocrbase64-%E8%AF%86%E5%88%AB%E6%8E%A5%E5%8F%A3)\r\n- 新增：HTTP 二维码接口 允许设置 **图像预处理** 参数。👉 [文档](https://github.com/hiroi-sora/Umi-OCR/blob/main/docs/README_HTTP.md#/api/qrcode)\r\n- 新增：命令行`--screenshot`允许 **指定屏幕范围** ，自动进行截图。👉 [文档](https://github.com/hiroi-sora/Umi-OCR/blob/main/docs/README_CLI.md#ocr%E6%8C%87%E4%BB%A4)\r\n- 修复：文档内容提取和写入时的坐标旋转、比例适配问题。\r\n- 修复：截图预览 & 记录面板中，跨区块复制文本时，尾块的复制字数不正确。\r\n- 修复：文档识别 整页强制OCR 模式下，无法进行任务。（2024.6.5紧急修复）\r\n- 优化：批量文档标签页，拖入大量文件、提交大批任务时的性能和流畅度。\r\n- 优化：文档任务保存的文件名规则。\r\n- UI：优化一些布局，调整一些文本，美化一些视觉效果。\r\n\r\n#### Windows7 用户注意： [常见问题及修复方法](https://github.com/hiroi-sora/Umi-OCR/issues/447)\r\n\r\n---\r\n\r\n新开通了赞助方式 [爱发电](https://afdian.net/a/hiroi-sora) ，有意愿的用户可以支持一下~\r\n\r\nUmi-OCR 保证始终 **开源** 和 **完全免费** 。所有需要付费/注册/关注才能下载的渠道均 **不是** 我们发布的渠道，请注意辨别。\r\n\r\n---\r\n\r\n### 配置文件迁移\r\n\r\nUmi-OCR v2 用户升级时，将旧版软件的`UmiOCR-data/.settings`拷贝到新版相同位置即可。\r\n\r\n### 下载说明\r\n\r\n不同版本仅OCR引擎插件不同，其它功能完全一致。\r\n均支持 win7 x64 及以上的系统，附带多国语言识别库。\r\n\r\n`.7z.exe`为自解压包，可以用压缩软件打开，也可以在没有安装压缩软件的电脑上直接双击解压。\r\n\r\n### Paddle 引擎插件版\r\n\r\n（性能好，速度快，占用率高，适合高配机器。**不兼容奔腾、赛扬、凌动CPU**）\r\n\r\n**重要提示：如果执行OCR时报错 `0xc0000142`、`[Error] OCR init fail`，大概率是CPU不兼容Paddle，请换用Rapid版本。**\r\n\r\n**Umi-OCR_Paddle_v2.1.2.7z.exe** （128.5MB）\r\nSHA256: `6dce23ea7f95a2ffb9415f8f5bb588df75ddf90abdcbbb972cc38fe2dbbfc70d`\r\n\r\n### Rapid 引擎插件版\r\n\r\n（速度稍慢，内存占用低，适合低配机器，兼容性好）\r\n\r\n**Umi-OCR_Rapid_v2.1.2.7z.exe** （97.1MB）\r\nSHA256: `879484ca912814702c30ba4dc0d9a5afff1ba0457c2fca2825ef7ea7adcde7b4`\r\n\r\n## 更多插件\r\n\r\n前往 [Umi-OCR_插件仓库](https://github.com/hiroi-sora/Umi-OCR_plugins) ，下载更多OCR插件，获取`离线数学公式识别`等附加功能。\r\n\r\n---\r\n\r\n更多下载途径： [蓝奏云](https://hiroi-sora.lanzoul.com/s/umi-ocr) | [SourceForge](https://sourceforge.net/projects/umi-ocr/files/v2.1.2/) | [Scoop](https://scoop.sh/#/apps?q=umi-ocr)\r\n\r\n[![Download Umi-OCR](https://a.fsdn.com/con/app/sf-download-button)](https://sourceforge.net/projects/umi-ocr/files/v2.1.2/)"
     },
@@ -2919,8 +2919,8 @@
     "https://github.com/dbeaver/dbeaver": {
         "created_at": "2024-07-05 11:58:29",
         "description": "Free universal database tool and SQL client",
-        "commit_message": "CB-3487. Add sync event for drivers (#34561)\n\n* CB-3487. Add sync event for drivers\r\n\r\n* CB-3487. Added syncronized between cloudbeaver and TE\r\n\r\n* CB-3487. Fix checkstyle\r\n\r\n* CB-3487. Fix un-delete sync\r\n\r\n* CB-3487. Moved to method\r\n\r\n---------\r\n\r\nCo-authored-by: Ainur <ainur.iagudin@dbeaver.com>\r\nCo-authored-by: kseniaguzeeva <112612526+kseniaguzeeva@users.noreply.github.com>",
-        "commit_date": "2024-07-08 14:06:02",
+        "commit_message": "P2 repo build fix",
+        "commit_date": "2024-07-12 15:19:54",
         "release_date": "2024-07-07 16:27:06",
         "release_message": "\n                - SQL Editor:\n                    - Performance in Smart mode of Blank line as a statement delimiter was enhanced\n                    - Ability to show all SQL scripts from the main toolbar was added\n                    - Syntax highlighting for functions with multiple arguments was fixed\n                    - SQL datatype color use was corrected\n                    - DROP statement support was added to Outline\n                - Metadata Editor: Foreign Key creation dialog UIX was improved\n                - Data Editor:\n                    - Indication of the table read-only/editable mode was added\n                    - Information about active unique key used for data edit was added\n                    - Customise and Save filter buttons were moved to the dropdown\n                    - Issue with too small Result Set Order/Filter Settings window was resolved\n                    - Rollback timer flickering was fixed\n                - Query Manager: information about database schema and catalog was added to the detailed record view\n                - Simple Structure Compare: issue with long file names was resolved\n                - Connectivity:\n                    - Issue with default SSH connection timeout was resolved\n                    - Driver downloading problem reporting was fixed\n                - General:\n                    - Incorrect button behavior in the confirmation dialog was fixed\n                    - Security credential encryption was enhanced (thanks to @longhaseng52)\n                    - Toolbar and Data Editor background on the Dark theme was improved\n                    - Smart commit mode indication was fixed\n                    - Issue with metadata cache reading was resolved\n                    - Automatic resize of connection dialog and tasks dialogs was fixed\n                - Databases:\n                    - Clickhouse:\n                        - Complex structures handling was fixed\n                        - Clickhouse driver was updated to version 0.6.1\n                    - CUBRID: 'db_server' information was added to the Database Navigator\n                    - Oracle: Connection error in the application downloaded from the Microsoft Store was fixed\n                    - PostgreSQL: Dollar-quoted string parsing was fixed\n                    - SQL Server:\n                        - Issue with resultset primary key detection was resolved\n                        - Duplicated output when running stored procedures was fixed\n                        - NTLM Authentication was fixed\n                        - Datetime datatype representation was fixed\n            "
     },
@@ -3367,8 +3367,8 @@
     "https://github.com/bit4woo/domain_hunter_pro": {
         "created_at": "2024-06-29 03:16:31",
         "description": "domain_hunter的高级版本，SRC挖洞、HW打点之必备！自动化资产收集；快速Title获取；外部工具联动；等等",
-        "commit_message": "update",
-        "commit_date": "2024-06-29 10:06:38",
+        "commit_message": "Update ToolPanel.java",
+        "commit_date": "2024-07-12 10:26:41",
         "release_date": "2024-06-29 03:49:14",
         "release_message": "全局：\r\n基础依赖包更新，包括URL、域名、邮箱、等基础函数\r\n多个bug修复，功能优化\r\n数据加载和保存逻辑优化更新\r\n\r\ntitle面板\r\n**1、【重点】显示favicon，更容易判断资产类型，方便进行同类资产搜索**\r\n2、搜索功能增强，新增部分应用特征\r\n3、获取cert信息逻辑增强\r\n4、重复记录标记功能\r\n5、“删除非目标记录”逻辑更新\r\n6、网段汇算逻辑排除CDN IP\r\n7、逻辑优化+DNS查询加强\r\n\r\ntool面板\r\n1、智能识别SuperJTextArea的内容是否为文件\r\n2、工具面板多个功能新增或更新\r\n3、使用BackGroundButton改造按钮功能实现，避免UI卡死\r\n\r\nSearch面板\r\n**1、【重点】新增Search面板，集成fofa、hunter等资产搜索引擎**\r\n\r\nconfig面板\r\n1、更新配置数据结果，方便添加删除配置项"
     },
@@ -3901,8 +3901,8 @@
     "https://github.com/quay/clair": {
         "created_at": "2024-05-01 16:55:34",
         "description": "Vulnerability Static Analysis for Containers",
-        "commit_message": "Dockerfile: add `GOTOOLCHAIN`\n\nChanges in go1.21 means the build recipe here was doing the wrong thing.\nThis should restore the expected behavior of using the toolchain present\nin the container.\n\nSigned-off-by: Hank Donnay <hdonnay@redhat.com>",
-        "commit_date": "2024-06-24 19:52:56",
+        "commit_message": "build(deps): bump github.com/google/go-containerregistry\n\nBumps [github.com/google/go-containerregistry](https://github.com/google/go-containerregistry) from 0.19.2 to 0.20.0.\n- [Release notes](https://github.com/google/go-containerregistry/releases)\n- [Changelog](https://github.com/google/go-containerregistry/blob/main/.goreleaser.yml)\n- [Commits](https://github.com/google/go-containerregistry/compare/v0.19.2...v0.20.0)\n\n---\nupdated-dependencies:\n- dependency-name: github.com/google/go-containerregistry\n  dependency-type: direct:production\n  update-type: version-update:semver-minor\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>",
+        "commit_date": "2024-07-09 19:34:23",
         "release_date": "2024-05-01 16:59:42",
         "release_message": "<a name=\"unreleased\"></a>\r\n## [Unreleased]\r\n\r\n\r\n<a name=\"v4.7.4\"></a>\r\n## [v4.7.4] - 2024-05-01\r\n\r\n### NOTE\r\n[The default layer download location has changed](https://github.com/quay/clair/blob/release-4.7/Documentation/howto/deployment.md#disk-usage-considerations)\r\n\r\n### Claircore\r\n- tarfs: follow hardlinks in `ReadFile`\r\n  <details>\r\n  This makes `fs.ReadFile` work as expected when opening hardlinks.\r\n  </details>\r\n\r\n- debian: update how \"source\" packages are handled\r\n  <details>\r\n  Previously, the Updater parsed metadata from the repository to try to\r\n  record only \"binary\" packages. This was inaccurate and, with the new\r\n  dpkg handling, now unneeded. The new approach should be more accurate.\r\n  </details>\r\n\r\n- dpkg: improve Source handling\r\n  <details>\r\n  The dpkg handling machinery now correctly records source packages and\r\n  versions. Previously, version differences between a source package and\r\n  the resulting binary package(s) were incorrect if the versions were not\r\n  identical.\r\n  </details>\r\n\r\n- libindex: add `O_TMPFILE` fallback logic\r\n  <details>\r\n  After discovering that some common deployment methods are incompatible with\r\n  using the `O_TMPFILE` `open(2)` flag, a fallback path has been added. The\r\n  changes also move the default location of where temporary files are downloaded\r\n  to, to better align with the layout recommended by systemd.\r\n  \r\n  Please see [the documentation] for specifics.\r\n  \r\n  [the documentation]: https://pkg.go.dev/github.com/quay/claircore/libindex@v1.5.\r\n  26-0.20240325212310-fedb9d327aa7#NewRemoteFetchArena\r\n  </details>\r\n\r\n- osv: parse database_specific severity when no CVSS severity is defined\r\n  <details>\r\n  Occasionally there are OSV advisories that don't include any severity\r\n  information in the `.severity` object but they do contain a severity in\r\n  the `.database_specific` object. This change attempts to parse that\r\n  severity if we don't get a severity from the native `.severity` object.\r\n  </details>\r\n\r\n### Build(Deps)\r\n- [3ebd889c](https://github.com/quay/clair/commit/3ebd889cb37603e071ba0d8fb8ba631702b13414): bump peter-evans/create-pull-request from 6.0.0 to 6.0.1\r\n- [b7566a0f](https://github.com/quay/clair/commit/b7566a0feedc5de0227a5bfd6e2921014ec68704): bump peter-evans/create-pull-request from 5.0.2 to 6.0.0\r\n- [4db2f09b](https://github.com/quay/clair/commit/4db2f09be2330e4dc9061dc2e9d44d8979b8c34d): bump actions/cache from 3 to 4\r\n- [6cef8311](https://github.com/quay/clair/commit/6cef8311255b024dd3a1fc0a70f7edf38969906c): bump actions/upload-artifact from 3 to 4\r\n- [5ed80215](https://github.com/quay/clair/commit/5ed80215fa17adb7e72ba3d9267368474afd411e): bump actions/download-artifact from 3 to 4\r\n- [c9e1f56b](https://github.com/quay/clair/commit/c9e1f56b224f25aacd5df861563006520e63297b): bump actions/setup-go from 4 to 5\r\n- [3ab3de55](https://github.com/quay/clair/commit/3ab3de558380fff38b8503de914c1b9c0611c4c8): bump actions/stale from 8 to 9\r\n- [591188f0](https://github.com/quay/clair/commit/591188f0a877b81878209be4b9185d4cb7c404f3): bump docker/setup-buildx-action from 2 to 3\r\n- [7ef6ef6b](https://github.com/quay/clair/commit/7ef6ef6b7587386b80cef9fbe7269b0083c8f039): bump docker/login-action from 2 to 3\r\n- [5597e7cc](https://github.com/quay/clair/commit/5597e7ccb94c113cc8344e8289be886049b23f63): bump docker/build-push-action from 4 to 5\r\n- [14d7f2b4](https://github.com/quay/clair/commit/14d7f2b4927fa9e4debc9005fb6dc620a6a47833): bump docker/setup-qemu-action from 2 to 3\r\n- [1204db98](https://github.com/quay/clair/commit/1204db98853cdfdce7790f3d3276d4617e4e3000): bump actions/checkout from 3 to 4\r\n### Chore\r\n- [4170798b](https://github.com/quay/clair/commit/4170798b6d464be0b8f74b1979785a17ad71dbd0): 4.7.4 changelog bump\r\n- [96dc6074](https://github.com/quay/clair/commit/96dc60748b492df1cb4af3761c9c44c10266ed09): Add merge step when creating release binaries\r\n- [a1c7eb7c](https://github.com/quay/clair/commit/a1c7eb7c8cce687e12fcc056be1acacbdc608a31): update go version for release\r\n- [6eeb9393](https://github.com/quay/clair/commit/6eeb9393b539cf49a10c42e247b833ce7e040607): update claircore to v1.5.27\r\n- [809dd5ab](https://github.com/quay/clair/commit/809dd5ab474994eb9a32599f4257437fde995064): update go version\r\n### Cicd\r\n- [e6378d03](https://github.com/quay/clair/commit/e6378d0333085a072cf73bfa32228af24b710b05): add container version skew check\r\n- [2ba3ecc0](https://github.com/quay/clair/commit/2ba3ecc0a66679dcd82f7015695db5b2a3f0c02a): update testing workflow\r\n- [ae135c49](https://github.com/quay/clair/commit/ae135c4956358d6c18109438b6e59170100787ea): don't upload workspace on failure\r\n- [7222dc88](https://github.com/quay/clair/commit/7222dc88d4fe919cc2b88e2fe7587061a881b794): change version specifiers to be major-version only\r\n### Clairctl\r\n- [2a2ba37f](https://github.com/quay/clair/commit/2a2ba37f6404e377d702e50f78bccd172b08b03f): warn when range requests are not honored\r\n### Dockerfile\r\n- [5547b96a](https://github.com/quay/clair/commit/5547b96aeff795da43fbc6e2dc8ec7b5dda7691d): remove sh loop\r\n### Docs\r\n- [3753415b](https://github.com/quay/clair/commit/3753415b4e2b6bc9b63a940b8b2101d82ab523ef): add mention of disk space path and usage\r\n### Httptransport\r\n- [c6df986f](https://github.com/quay/clair/commit/c6df986fddfe5121b6fd9dbfff0ccca35c55cb71): GET vuln report returns 404 when indexing in-progress\r\n### Initialize\r\n- [9828576a](https://github.com/quay/clair/commit/9828576af20c966e0dbe99bbac68d3e80b07baa1): use defaults for NewRemoteFetcher\r\n\r\n[Unreleased]: https://github.com/quay/clair/compare/v4.7.4...HEAD\r\n[v4.7.4]: https://github.com/quay/clair/compare/v4.7.3...v4.7.4\r\n"
     },
@@ -4219,7 +4219,7 @@
         "created_at": "2021-10-13 11:34:53",
         "description": "v2ray节点、免费节点、免费v2ray节点、最新公益免费v2ray节点订阅地址、免费v2ray节点每日更新、免费ss/v2ray/trojan节点、freefq ",
         "commit_message": "update",
-        "commit_date": "2024-06-16 12:36:49"
+        "commit_date": "2024-07-12 12:39:57"
     },
     "https://github.com/QAX-A-Team/sharpwmi": {
         "created_at": "2020-04-08 05:50:21",
@@ -6336,8 +6336,8 @@
     "https://github.com/audacity/audacity": {
         "created_at": "2024-04-24 10:55:07",
         "description": "Audio Editor                                     ",
-        "commit_message": "[AU4] Fixed timeline context menu checkmarks",
-        "commit_date": "2024-06-26 14:35:08",
+        "commit_message": "[AU4] Moved play cursor to the top of the timeline ruler",
+        "commit_date": "2024-07-11 15:31:55",
         "release_date": "2024-04-24 16:21:57",
         "release_message": " This is a hotfix release. It fixes the following bugs:\r\n \r\n   * #6322 Fixed a crash on launch on macOS 11 and older.\r\n   * #6324 Fixed the update notification looking for alpha versions instead of release versions.\r\n   * #6321 Fixed a freeze when using macros on multiple files."
     },
@@ -6360,12 +6360,12 @@
         "release_message": ""
     },
     "https://github.com/ufrisk/MemProcFS": {
-        "created_at": "2024-03-03 11:07:17",
+        "created_at": "2024-07-11 22:30:52",
         "description": "MemProcFS",
-        "commit_message": "Version 5.9.18",
-        "commit_date": "2024-06-13 17:51:07",
-        "release_date": "2024-03-03 11:08:21",
-        "release_message": "* Bug fixes.\r\n* Module improvements: ntfs, procinfo, web.\r\n* C# API: improvements.\r\n* Java API: support for java.lang.foreign (JDK21+) for efficient memory accesses.\r\n* Linux PCIe FPGA performance improvements.\r\n* FindEvil: Triggered Yara rules are now shown.\r\n* FindEvil: AV detections from Windows Defender residing on the analyzed system.\r\n* Python API: new functionality (multi-read, type-read) and improved scatter read performance.\r\n* Support for Proxmox memory dump files.\r\n\r\nFor previous release builds see the [release archive](https://github.com/ufrisk/MemProcFS/releases/tag/v5_archive)."
+        "commit_message": "Version 5.10",
+        "commit_date": "2024-07-11 22:30:52",
+        "release_date": "2024-07-11 22:36:39",
+        "release_message": "* Support for Windows 11 24H2 release.\r\n* Bug fixes.\r\n* Added named _SECTION objects to VAD map.\r\n* `-memmap auto` improvements.\r\n* Hibernation file support.\r\n* FindEvil: UM APC detection. Thanks [@thejanit0r](https://github.com/thejanit0r) for the contribution.\r\n* [Sysinfo module](https://github.com/ufrisk/MemProcFS/wiki/FS_Sys_Sysinfo) for easy-to-read system information.\r\n* [Eventlog module](https://github.com/ufrisk/MemProcFS/wiki/FS_Misc_Eventlog) for convenient access to event log files.\r\n* Binary search API now allows for up to 16M search terms (up from previous 16).\r\n* Prefetch parsing.\r\n\r\nFor previous release builds see the [release archive](https://github.com/ufrisk/MemProcFS/releases/tag/v5_archive)."
     },
     "https://github.com/ProbiusOfficial/Pentools-wiki": {
         "created_at": "2023-06-23 20:11:28",
@@ -8566,8 +8566,8 @@
     "https://github.com/nomi-sec/PoC-in-GitHub": {
         "created_at": "2019-12-08 13:03:54",
         "description": "📡 PoC auto collect from GitHub. ⚠️ Be careful Malware.",
-        "commit_message": "Auto Update 2024/07/11 00:29:12",
-        "commit_date": "2024-07-11 00:29:12"
+        "commit_message": "Auto Update 2024/07/13 00:29:02",
+        "commit_date": "2024-07-13 00:29:02"
     },
     "https://github.com/Ridter/CVE-2017-11882": {
         "created_at": "2017-11-21 05:55:53",
@@ -17740,8 +17740,8 @@
     "https://github.com/commixproject/commix": {
         "created_at": "2024-01-19 06:40:42",
         "description": "Automated All-in-One OS Command Injection Exploitation Tool.",
-        "commit_date": "2024-06-24 05:47:19",
-        "commit_message": "Code refactoring",
+        "commit_date": "2024-07-09 04:17:54",
+        "commit_message": "Minor update regarding specific payloads",
         "release_tag": "v3.8",
         "release_date": "2024-01-19 06:44:15",
         "release_message": "* Fixed: Multiple bug-fixes regarding several reported unhandled exceptions.\r\n* Revised: Minor improvement regarding logging user-supplied command(s) (i.e. `--os-cmd` option) to a file.\r\n* Revised: Improvement regarding parsing HTTP requests through Tor HTTP proxy (i.e. `--tor` switch).\r\n* Added: New (hidden) option `--ignore-stdin` regarding ignoring STDIN input. (via @n00b-bot)\r\n* Revised: Minor improvement regarding successfully completing the scanning process (i.e. in case that parameters with anti-CSRF tokens are omitted). (via @xerxoria)\r\n* Revised: Minor improvement regarding Windows-based payloads for semiblind (i.e. \"file-based\") technique (i.e. command execution output).\r\n* Revised: Minor improvement in semiblind (i.e. \"file-based\") technique, regarding defining the URL where the execution output of an injected payload is shown.\r\n* Added: New switch `--ignore-proxy` to ignore the system default HTTP proxy.\r\n* Revised: Minor improvement regarding parsing HTTP requests through HTTP proxy (i.e. `--proxy` option).\r\n* Added: New switch `--smart` for conducting through tests only in case of positive heuristic(s).\r\n* Added: Translation for [README.md](https://github.com/commixproject/commix/blob/master/doc/translations/README-tr-TR.md) in Turkish. (via @Kazgangap)\r\n* Revised: Minor improvement regarding parsing SOAP/XML POST data.\r\n\r\n_Note: For more check the [detailed changeset](https://github.com/commixproject/commix/compare/v3.8...v3.9)._"
@@ -25050,8 +25050,8 @@
         "description": ""
     },
     "https://www.fujieace.com/hacker/tools/yujian.html": {
-        "status_code": 200,
-        "description": "御剑后台扫描工具下载、安装、使用教程 - 付杰博客"
+        "status_code": 403,
+        "description": "Just a moment..."
     },
     "https://n.shellpub.com/": {
         "status_code": 200,
@@ -25130,8 +25130,8 @@
         "description": "潮影在线免杀平台"
     },
     "http://www.keyfc.net/bbs/tools/tudoucode.aspx": {
-        "status_code": 200,
-        "description": "与佛论禅"
+        "status_code": 500,
+        "description": "对路径“D:\\iis\\keyfc\\wwwroot\\BBS\\config\\general.config”的访问被拒绝。"
     },
     "http://www.factordb.com/index.php": {
         "status_code": 200,
@@ -27075,7 +27075,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "20.171.78.149属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "52.159.137.4属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
@@ -28248,8 +28248,8 @@
         "description": "GitGuardian: Git Security Scanning & Secrets Detection"
     },
     "https://www.zeek.org": {
-        "status_code": 200,
-        "description": "The Zeek Network Security Monitor"
+        "status_code": 429,
+        "description": "WordPress.com 429 Error"
     },
     "https://gitee.com/freshday/radar": {
         "status_code": 200,
@@ -28750,8 +28750,8 @@
     "https://github.com/Mintplex-Labs/anything-llm": {
         "created_at": "2023-06-04 02:29:14",
         "description": "The all-in-one Desktop & Docker AI application with full RAG and AI Agent capabilities.",
-        "commit_message": "Deprecate `.isSafe` moderation (#1790)\n\nAdd type defs to helpers",
-        "commit_date": "2024-06-28 22:32:30"
+        "commit_message": "[REFACTOR] Refactor window path location for settings sidebar (#1856)\n\nuse useLocation hook instead of href for window location",
+        "commit_date": "2024-07-11 22:57:41"
     },
     "https://github.com/mifine666/miscan": {
         "created_at": "2024-06-19 07:30:57",
