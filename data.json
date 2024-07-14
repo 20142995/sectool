@@ -1052,8 +1052,8 @@
     "https://github.com/v2rayA/v2rayA": {
         "created_at": "2024-06-21 11:53:32",
         "description": "A web GUI client of Project V which supports VMess, VLESS, SS, SSR, Trojan, Tuic and Juicity protocols. 🚀",
-        "commit_message": "ci: fix winget uploading",
-        "commit_date": "2024-06-21 12:19:04",
+        "commit_message": "ci: fix Docker image tag uploading",
+        "commit_date": "2024-07-10 13:05:12",
         "release_date": "2024-06-21 12:17:16",
         "release_message": "## What's Changed\n* chore(deps): bump golang.org/x/net from 0.18.0 to 0.23.0 in /service by @dependabot in https://github.com/v2rayA/v2rayA/pull/1381\n\n\n**Full Changelog**: https://github.com/v2rayA/v2rayA/compare/v2.2.5.5...v2.2.5.6"
     },
@@ -1978,8 +1978,8 @@
     "https://github.com/bit4woo/knife": {
         "created_at": "2024-05-06 10:51:08",
         "description": "A burp extension that add some useful function to  Context Menu 添加一些右键菜单让burp用起来更顺畅",
-        "commit_date": "2024-06-29 03:12:57",
-        "commit_message": "update",
+        "commit_date": "2024-07-13 10:45:41",
+        "commit_message": "MIME type作为路径黑名单",
         "release_tag": "v2.2",
         "release_date": "2024-05-06 10:55:56",
         "release_message": "FindUrlAndRequest菜单功能更新\r\n新增2个菜单：CopyJsOfThisSite、ChangeToUploadRequest\r\n代码优化，修复多个bug\r\n将SQLMap和Nmap等执行命令的功能合并为 “run cmd”功能，支持添加自定义命令\r\nChineseTab重写，支持语法高亮和自动换行，方便阅读\r\n支持配置项搜索和多选操作"
@@ -3831,12 +3831,12 @@
         "release_message": ""
     },
     "https://github.com/aquasecurity/kube-bench": {
-        "created_at": "2024-04-18 06:59:19",
+        "created_at": "2024-07-02 07:35:49",
         "description": "Checks whether Kubernetes is deployed according to security best practices as defined in the CIS Kubernetes Benchmark",
-        "commit_message": "build(deps): bump goreleaser/goreleaser-action from 5 to 6 (#1628)\n\nBumps [goreleaser/goreleaser-action](https://github.com/goreleaser/goreleaser-action) from 5 to 6.\r\n- [Release notes](https://github.com/goreleaser/goreleaser-action/releases)\r\n- [Commits](https://github.com/goreleaser/goreleaser-action/compare/v5...v6)\r\n\r\n---\r\nupdated-dependencies:\r\n- dependency-name: goreleaser/goreleaser-action\r\n  dependency-type: direct:production\r\n  update-type: version-update:semver-major\r\n...\r\n\r\nSigned-off-by: dependabot[bot] <support@github.com>\r\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
-        "commit_date": "2024-06-29 12:53:49",
-        "release_date": "2024-04-18 07:10:01",
-        "release_message": "## Changelog\n* d2d3e72 Currently, certain commands involve retrieving all node names or pods and then executing additional commands in a loop, resulting in a time complexity linearly proportional to the number of nodes. (#1597)\n* dc8f4d3 build(deps): bump github.com/aws/aws-sdk-go-v2 from 1.25.2 to 1.26.0 (#1589)\n* 45afbd7 build(deps): bump github.com/aws/aws-sdk-go-v2/config (#1577)\n* 73e1377 build(deps): bump github.com/jackc/pgx/v5 from 5.4.3 to 5.5.4 (#1586)\n* dc74416 build(deps): bump golang from 1.22.0 to 1.22.1 (#1583)\n* 65c484e build(deps): bump k8s.io/client-go from 0.29.1 to 0.29.3 (#1587)\n\n"
+        "commit_message": "build(deps): bump golang from 1.22.2 to 1.22.4 (#1629)\n\nBumps golang from 1.22.2 to 1.22.4.\r\n\r\n---\r\nupdated-dependencies:\r\n- dependency-name: golang\r\n  dependency-type: direct:production\r\n  update-type: version-update:semver-patch\r\n...\r\n\r\nSigned-off-by: dependabot[bot] <support@github.com>\r\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
+        "commit_date": "2024-07-04 05:46:34",
+        "release_date": "2024-07-02 07:46:45",
+        "release_message": "## Changelog\n* 7027b6b Add CIS kubernetes CIS-1.9 for k8s v1.27 - v1.29 (#1617)\n* ed51191 Replace custom k3s etcd script checks with vanilla grep checks (#1601)\n* 0f8dfaf Statically link binaries and remove debug information (#1615)\n* d8fc376 build(deps): bump alpine from 3.19.1 to 3.20.0 (#1621)\n* 2a8615b build(deps): bump golang from 1.22.1 to 1.22.2 (#1596)\n* 8710274 build(deps): bump goreleaser/goreleaser-action from 5 to 6 (#1628)\n\n"
     },
     "https://github.com/neuvector/neuvector": {
         "created_at": "2024-07-10 00:21:43",
@@ -3864,12 +3864,12 @@
         "release_message": "### Added Features\n\n- Add CycloneDX 1.6 Support [[#2974](https://github.com/anchore/syft/issues/2974) [#2978](https://github.com/anchore/syft/pull/2978) @ragaskar]\n\n### Bug Fixes\n\n- Fixed the detection of arangodb 3.12 [[#2979](https://github.com/anchore/syft/pull/2979) @LaurentGoderre]\n- Syft tries to create the cache directory at a location that has no permission [[#2984](https://github.com/anchore/syft/issues/2984) [#2985](https://github.com/anchore/syft/pull/2985) @kzantow]\n\n**[(Full Changelog)](https://github.com/anchore/syft/compare/v1.7.0...v1.8.0)**\n\n"
     },
     "https://github.com/chaitin/safeline": {
-        "created_at": "2024-06-20 10:10:32",
+        "created_at": "2024-07-10 08:04:30",
         "description": "A web security gateway, serve as a reverse proxy to protect your websites from attacks and exploits.",
-        "commit_message": "feat: 6.1.3",
-        "commit_date": "2024-06-21 11:53:16",
-        "release_date": "2024-06-20 12:17:52",
-        "release_message": "### 优化\r\n* 动态防护社区版支持 5 个，专业版支持 50 个\r\n* 简化动态防护配置，移除 启用/禁用 操作，现在直接选防护资源即可。\r\n  * 注意：历史版本禁用了动态防护，但同时选了若干资源的，升级后会移除这些资源的选择\r\n* 优化站点详情 UI 交互，现在可以在详情页编辑站点配置、一键防护配置了\r\n* 修复站点处于观察模式时，有时补充规则仍会被拦截的问题\r\n* 优化后台服务在重启的过程中，控制台的报错提示\r\n* 修复升级有可能出现 tengine 无法启动，以及安装完也可能无法保存站点，提示 “ca md too weak” 的问题\r\n* 优化其他 UI 交互细节，修复其他一些已知问题"
+        "commit_message": "Update README.md",
+        "commit_date": "2024-07-12 08:04:59",
+        "release_date": "2024-07-11 09:30:44",
+        "release_message": "Improvements:\r\n* Pro version allows adding multiple users in Sites Auth:\r\n* Allow modifying the default user name ([#957](https://github.com/chaitin/SafeLine/issues/957))\r\n* Add site name to pop-up window when deleting a site ([#943](https://github.com/chaitin/SafeLine/issues/943))\r\n* Dynamic\r\n    * HTML encryption determines whether to encrypt based on response Body instead of Content-Type\r\n    * Quick encryption in pro version does not show the SafeLine logo\r\n* \"Limit High-frequency Attack\"  also count Blacklist interception ([#817](https://github.com/chaitin/SafeLine/issues/817))\r\n* \"Search Engine Spider IP\"  updates automatically every day\r\n* Upstream health check does not alarm when get http code 401 or 405 ([#973](https://github.com/chaitin/SafeLine/issues/973))\r\n\r\nFixes:\r\n* Revoke of the Rate limited IP is invalid sometimes\r\n* Challenge may be cached by CDN and cause an infinite loop\r\n* The site title and icon may be updated inaccurately during daily update"
     },
     "https://github.com/stamparm/identYwaf": {
         "created_at": "2019-01-10 11:27:58",
@@ -3926,8 +3926,8 @@
     "https://github.com/anchore/grype": {
         "created_at": "2024-07-02 15:43:34",
         "description": "A vulnerability scanner for container images and filesystems",
-        "commit_message": "chore(deps): bump actions/upload-artifact from 4.3.3 to 4.3.4 (#1977)",
-        "commit_date": "2024-07-05 16:45:07",
+        "commit_message": "chore(deps): bump gorm.io/gorm from 1.25.10 to 1.25.11 (#1985)\n\nBumps [gorm.io/gorm](https://github.com/go-gorm/gorm) from 1.25.10 to 1.25.11.\r\n- [Release notes](https://github.com/go-gorm/gorm/releases)\r\n- [Commits](https://github.com/go-gorm/gorm/compare/v1.25.10...v1.25.11)\r\n\r\n---\r\nupdated-dependencies:\r\n- dependency-name: gorm.io/gorm\r\n  dependency-type: direct:production\r\n  update-type: version-update:semver-patch\r\n...\r\n\r\nSigned-off-by: dependabot[bot] <support@github.com>\r\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
+        "commit_date": "2024-07-11 18:39:52",
         "release_date": "2024-07-02 15:52:41",
         "release_message": "### Bug Fixes\n\n- use location `RealPath` not `String()` for match sorting [[#1950](https://github.com/anchore/grype/pull/1950) @luhring]\n\n**[(Full Changelog)](https://github.com/anchore/grype/compare/v0.79.1...v0.79.2)**\n\n"
     },
@@ -5067,8 +5067,8 @@
     "https://github.com/FreeRDP/FreeRDP": {
         "created_at": "2024-07-08 09:00:33",
         "description": "FreeRDP is a free remote desktop protocol library and clients",
-        "commit_message": "Merge pull request #10369 from abenson/fixi686AVX\n\nlibfreerdp: fix cmake typo",
-        "commit_date": "2024-07-10 07:02:35",
+        "commit_message": "Merge pull request #10374 from akallabeth/drive_fix\n\n[channels,rdpdr] fix drive redirection hotplug",
+        "commit_date": "2024-07-12 06:47:59",
         "release_date": "2024-07-08 09:11:26",
         "release_message": "Bugfix release for 3.6.2 issues reported\r\n\r\n## Noteworthy changes:\r\n* fix a graphics regression (#10352)\r\n* workaround for a protocol bug of older FreeRDP based servers (#10358)\r\n* fix possible NULL dereference in command line parser (#10348)\r\n* fix intrinsics detection (#10346, #10350)\r\n\r\nFor a complete and detailed change log since the last release run:\r\ngit log 3.6.3...3.6.2\r\n\r\n## New Contributors\r\n* @Frederick888 made their first contribution in https://github.com/FreeRDP/FreeRDP/pull/10348\r\n\r\n**Full Changelog**: https://github.com/FreeRDP/FreeRDP/compare/3.6.2...3.6.3"
     },
@@ -7647,8 +7647,8 @@
     "https://github.com/openwall/john": {
         "created_at": "2011-12-16 19:43:47",
         "description": "John the Ripper jumbo - advanced offline password cracker, which supports hundreds of hash and cipher types, and runs on many operating systems, CPUs, GPUs, and even some FPGAs",
-        "commit_message": "SM3 format: Add second test vector\n\nfrom https://datatracker.ietf.org/doc/html/draft-sca-cfrg-sm3#appendix-C.3",
-        "commit_date": "2024-06-29 19:00:12"
+        "commit_message": "Update DYNAMIC doc with new formats",
+        "commit_date": "2024-07-11 18:18:14"
     },
     "https://github.com/shimmeris/SCFProxy": {
         "created_at": "2021-04-18 11:21:43",
@@ -19284,12 +19284,12 @@
         "commit_message": "Merge pull request #5 from ar7z1/fix-link-to-microsoft-advisory\n\nFix link to Microsoft advisory"
     },
     "https://github.com/jumpserver/jumpserver": {
-        "created_at": "2024-07-03 11:21:23",
+        "created_at": "2024-07-11 07:56:55",
         "description": "An open-source PAM tool alternative to CyberArk.  广受欢迎的开源堡垒机。",
-        "commit_message": "perf: Translate (#13633)\n\nCo-authored-by: feng <1304903146@qq.com>",
-        "commit_date": "2024-07-08 07:43:56",
+        "commit_message": "perf: remove receptor",
+        "commit_date": "2024-07-12 10:38:26",
         "release_date": "2024-07-04 02:17:23",
-        "release_message": "## ✨JumpServer v4.0.0 is now available!  ✨ \r\n\r\nOn the 10th anniversary of the JumpServer open-source project, we released the v4.0 milestone version. JumpServer v4.0 is optimized for world-wide users especially.\r\n\r\nJumpServer v4.0 is a better open-source Privileged Access Management (PAM) tool that provides DevOps and IT teams with on-demand and secure access to SSH, RDP, Kubernetes, Database and RemoteApp endpoints through a Web Browser.\r\n\r\n![JumpServer Overview](https://github.com/jumpserver/jumpserver/assets/32935519/94252236-d666-4f91-8bf8-1f0c4cf1798c)\r\n\r\n## 🚀 Quick Start\r\n\r\nPrepare a clean Linux Server ( 64 bit, >= 4c8g )\r\n\r\n```\r\ncurl -sSL https://github.com/jumpserver/jumpserver/releases/latest/download/quick_start.sh | bash\r\n```\r\n\r\nAccess JumpServer in your browser at `http://your-ip/`, `admin`/`ChangeMe`"
+        "release_message": "## ✨JumpServer v4.0.0 is now available!  ✨ \r\n\r\nOn the 10th anniversary of the JumpServer open-source project, we released the v4.0 milestone version. JumpServer v4.0 is optimized for world-wide users especially.\r\n\r\nJumpServer v4.0 is a better open-source Privileged Access Management (PAM) tool that provides DevOps and IT teams with on-demand and secure access to SSH, RDP, Kubernetes, Database and RemoteApp endpoints through a Web Browser.\r\n\r\n![JumpServer Overview](https://github.com/jumpserver/jumpserver/assets/32935519/94252236-d666-4f91-8bf8-1f0c4cf1798c)\r\n\r\n## 🚀 Quick Start\r\n\r\nPrepare a clean Linux Server ( 64 bit, >= 4c8g )\r\n\r\n```\r\ncurl -sSL https://github.com/jumpserver/jumpserver/releases/download/v4.0.0/quick_start.sh | bash\r\n```\r\n\r\nAccess JumpServer in your browser at `http://your-jumpserver-ip/`\r\n- Username: `admin`\r\n- Password: `ChangeMe`"
     },
     "https://github.com/random-robbie/cve-2020-0688": {
         "created_at": "2020-02-25 23:44:16",
@@ -22732,8 +22732,8 @@
     "https://github.com/shufflewzc/faker3": {
         "created_at": "2022-01-31 21:21:40",
         "description": null,
-        "commit_message": "update",
-        "commit_date": "2024-07-02 15:09:46"
+        "commit_message": "Update Rebels_H.js",
+        "commit_date": "2024-07-13 15:13:49"
     },
     "https://github.com/harlamism/IdaClu": {
         "created_at": "2024-03-09 03:45:07",
@@ -25050,8 +25050,8 @@
         "description": ""
     },
     "https://www.fujieace.com/hacker/tools/yujian.html": {
-        "status_code": 403,
-        "description": "Just a moment..."
+        "status_code": 200,
+        "description": "御剑后台扫描工具下载、安装、使用教程 - 付杰博客"
     },
     "https://n.shellpub.com/": {
         "status_code": 200,
@@ -25130,8 +25130,8 @@
         "description": "潮影在线免杀平台"
     },
     "http://www.keyfc.net/bbs/tools/tudoucode.aspx": {
-        "status_code": 500,
-        "description": "对路径“D:\\iis\\keyfc\\wwwroot\\BBS\\config\\general.config”的访问被拒绝。"
+        "status_code": 200,
+        "description": "与佛论禅"
     },
     "http://www.factordb.com/index.php": {
         "status_code": 200,
@@ -27075,7 +27075,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "20.57.14.24属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "20.161.78.14属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
@@ -28694,8 +28694,8 @@
     "https://github.com/THUDM/ChatGLM3": {
         "created_at": "2023-10-26 06:22:47",
         "description": "ChatGLM3 series: Open Bilingual Chat LLMs | 开源双语对话语言模型",
-        "commit_message": "Merge pull request #1283 from pandong2011/fix-rf-checkpoint\n\n[fix#1272]Fix performance of resume from checkpoint",
-        "commit_date": "2024-07-04 06:00:28"
+        "commit_message": "Merge pull request #1287 from zRzRzRzRzRzRzR/main\n\ndiscord",
+        "commit_date": "2024-07-10 06:19:57"
     },
     "https://github.com/menglike/bug_search": {
         "created_at": "2024-06-13 07:47:31",
@@ -28734,7 +28734,7 @@
         "commit_date": "2024-06-11 08:03:36"
     },
     "https://github.com/chatchat-space/Langchain-Chatchat": {
-        "created_at": "2024-06-20 23:24:32",
+        "created_at": "2023-03-31 12:12:45",
         "description": "Langchain-Chatchat（原Langchain-ChatGLM, Qwen 与 Llama 等）基于 Langchain 与 ChatGLM 等语言模型的 RAG 与 Agent 应用 | Langchain-Chatchat (formerly langchain-ChatGLM), local knowledge based LLM (like ChatGLM, Qwen and Llama) RAG and Agent app with langchain ",
         "commit_message": "Merge pull request #4319 from kwunhang/v0.3.0_master\n\nfix: fix the problem when Milvus is used as knowledge base",
         "commit_date": "2024-06-27 13:59:12",
