@@ -27075,7 +27075,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "20.49.54.9属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "52.159.136.150属于美国 加利福尼亚 圣克拉拉 微软_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
@@ -27822,12 +27822,12 @@
         "commit_date": "2022-10-08 07:14:02"
     },
     "https://github.com/httpie/cli": {
-        "created_at": "2023-05-19 21:41:26",
+        "created_at": "2024-07-10 14:20:38",
         "description": "🥧 HTTPie CLI  — modern, user-friendly command-line HTTP client for the API era. JSON support, colors, sessions, downloads, plugins & more.",
-        "commit_message": "Re-add conditional colorama dependency\n\n#1553",
-        "commit_date": "2024-03-18 15:53:23",
-        "release_date": "2023-05-19 21:43:34",
-        "release_message": "- Fixed compatibility with `urllib3` 2.0.0. ([#1499](https://github.com/httpie/httpie/issues/1499))\r\n\r\n---\r\n \r\n→ Join our Discord community: https://httpie.io/discord\r\n→ Install HTTPie: https://httpie.io/docs/cli/installation\r\n→ Learn more: https://httpie.io"
+        "commit_message": "Cleanup",
+        "commit_date": "2024-07-10 14:24:03",
+        "release_date": "2024-07-10 14:23:37",
+        "release_message": "- Fix SSL connections by pinning the `requests` version to `2.31.0`. (#1583, #1581)\r\n- Make it possible to [unset](https://httpie.io/docs/cli/default-request-headers) the `User-Agent` and `Accept-Encoding` request headers. ([#1502](https://github.com/httpie/cli/issues/1502))"
     },
     "https://github.com/liqzz/vultrap": {
         "created_at": "2024-05-10 07:11:07",
@@ -28248,8 +28248,8 @@
         "description": "GitGuardian: Git Security Scanning & Secrets Detection"
     },
     "https://www.zeek.org": {
-        "status_code": 429,
-        "description": "WordPress.com 429 Error"
+        "status_code": 200,
+        "description": "The Zeek Network Security Monitor"
     },
     "https://gitee.com/freshday/radar": {
         "status_code": 200,
