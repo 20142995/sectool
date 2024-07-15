@@ -3120,7 +3120,7 @@
         "release_message": ""
     },
     "https://github.com/4ra1n/super-xray": {
-        "created_at": "2022-11-18 14:52:09",
+        "created_at": "2023-05-19 10:31:19",
         "description": "Web漏洞扫描工具XRAY的GUI启动器",
         "commit_date": "2023-05-19 11:02:17",
         "commit_message": "code",
@@ -4881,7 +4881,7 @@
         "release_message": "nothing"
     },
     "https://github.com/shmilylty/netspy": {
-        "created_at": "2022-01-01 14:20:27",
+        "created_at": "2022-02-11 03:10:27",
         "description": "netspy是一款快速探测内网可达网段工具（深信服深蓝实验室天威战队强力驱动）",
         "commit_date": "2022-05-12 06:38:37",
         "commit_message": "typo",
@@ -5375,13 +5375,13 @@
         "release_message": ""
     },
     "https://github.com/j3ers3/Hello-Java-Sec": {
-        "created_at": "2021-07-04 05:32:27",
+        "created_at": "2023-10-18 09:50:22",
         "description": "☕️ Java Security，安全编码和代码审计",
-        "commit_date": "2023-01-03 08:25:42",
-        "commit_message": "Merge pull request #10 from k4n5ha0/patch-2\n\nUpdate IDOR2.java",
+        "commit_date": "2023-10-18 09:50:22",
+        "commit_message": "💥 Java Sec",
         "release_tag": "1.10",
-        "release_date": "2022-12-29 08:12:34",
-        "release_message": "- 新增XPath注入\r\n- 新增越权漏洞\r\n- 新增thymeleaf模版注入\r\n- 新增JNDI ldap rmi server\r\n- 新增JWT弱口令\r\n- 修复SSRF问题\r\n- 修复XSS转义问题\r\n- 替换日志框架修复codeql无法识别问题\r\n- 一堆bug修复"
+        "release_date": "2023-10-18 09:58:09",
+        "release_message": "- [A] 新增CORS\r\n- [A] 新增CSV注入\r\n- [A] 新增存储型XSS\r\n- [F] bug修复"
     },
     "https://github.com/wafinfo/TeamViewer": {
         "created_at": "2021-10-16 07:32:42",
@@ -27075,7 +27075,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "52.159.136.150属于美国 加利福尼亚 圣克拉拉 微软_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "20.102.46.179属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
