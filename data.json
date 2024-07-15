@@ -27075,7 +27075,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "20.55.118.243属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "20.55.118.253属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
@@ -28709,7 +28709,7 @@
         "created_at": "2023-06-19 14:30:52",
         "description": "Customize your python UI window with awesome pre-built windows 11 themes.",
         "commit_message": "Update README.md",
-        "commit_date": "2024-06-04 04:26:16"
+        "commit_date": "2024-07-12 06:54:24"
     },
     "https://github.com/ax1sX/RouteCheck-Alpha": {
         "created_at": "2024-05-13 02:55:43",
