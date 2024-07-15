@@ -1318,13 +1318,13 @@
         "release_message": ""
     },
     "https://github.com/winezer0/passive-scan-client-plus": {
-        "created_at": "2020-12-14 11:04:41",
+        "created_at": "2024-06-30 07:28:34",
         "description": "burpsuite passive-scan-client 插件持续维护分支 v2024",
         "commit_date": "2024-06-30 07:34:53",
         "commit_message": "Update maven.yml",
         "release_tag": "v0.4.12.0",
-        "release_date": "2024-04-17 08:51:15",
-        "release_message": "移除自动列宽调试代码，该代码仅适合以前的列数，现在会报错"
+        "release_date": "2024-06-30 07:37:50",
+        "release_message": "1、简单优化代码逻辑\r\n2、实现自动编译打包工作流适配\r\n\r\njar包下载：jdk8在burp2024.5 适配通过，更高版本应该也适配\r\nhttps://github.com/winezer0/passive-scan-client-plus/actions/runs/9730338277/artifacts/1652431330\r\n\r\n"
     },
     "https://github.com/projectdiscovery/subfinder": {
         "created_at": "2024-03-27 21:55:17",
@@ -1880,8 +1880,8 @@
     "https://github.com/hiroi-sora/Umi-OCR": {
         "created_at": "2024-06-03 13:16:33",
         "description": "OCR software, free and offline. 开源、免费的离线OCR软件。支持截屏/批量导入图片，PDF文档识别，排除水印/页眉页脚，扫描/生成二维码。内置多国语言库。",
-        "commit_message": "Update api_doc.md",
-        "commit_date": "2024-07-11 06:05:38",
+        "commit_message": "update docs",
+        "commit_date": "2024-07-13 15:35:28",
         "release_date": "2024-06-03 13:46:15",
         "release_message": "[English](https://github-com.translate.goog/hiroi-sora/Umi-OCR/releases/tag/v2.1.2?_x_tr_sl=zh-CN&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=wapp)\r\n\r\n## v2.1.2 主要更新\r\n\r\n- 新增：批量任务（图片、文档）支持 **暂停任务** 。只要不退出软件，在待机/休眠后可以恢复任务。\r\n- 新增：文档任务支持保存为 **单层纯文本PDF** 。\r\n- 新增：HTTP OCR接口 允许设置 **忽略区域** 参数。👉 [文档](https://github.com/hiroi-sora/Umi-OCR/blob/main/docs/README_HTTP.md#1-%E5%9B%BE%E7%89%87ocrbase64-%E8%AF%86%E5%88%AB%E6%8E%A5%E5%8F%A3)\r\n- 新增：HTTP 二维码接口 允许设置 **图像预处理** 参数。👉 [文档](https://github.com/hiroi-sora/Umi-OCR/blob/main/docs/README_HTTP.md#/api/qrcode)\r\n- 新增：命令行`--screenshot`允许 **指定屏幕范围** ，自动进行截图。👉 [文档](https://github.com/hiroi-sora/Umi-OCR/blob/main/docs/README_CLI.md#ocr%E6%8C%87%E4%BB%A4)\r\n- 修复：文档内容提取和写入时的坐标旋转、比例适配问题。\r\n- 修复：截图预览 & 记录面板中，跨区块复制文本时，尾块的复制字数不正确。\r\n- 修复：文档识别 整页强制OCR 模式下，无法进行任务。（2024.6.5紧急修复）\r\n- 优化：批量文档标签页，拖入大量文件、提交大批任务时的性能和流畅度。\r\n- 优化：文档任务保存的文件名规则。\r\n- UI：优化一些布局，调整一些文本，美化一些视觉效果。\r\n\r\n#### Windows7 用户注意： [常见问题及修复方法](https://github.com/hiroi-sora/Umi-OCR/issues/447)\r\n\r\n---\r\n\r\n新开通了赞助方式 [爱发电](https://afdian.net/a/hiroi-sora) ，有意愿的用户可以支持一下~\r\n\r\nUmi-OCR 保证始终 **开源** 和 **完全免费** 。所有需要付费/注册/关注才能下载的渠道均 **不是** 我们发布的渠道，请注意辨别。\r\n\r\n---\r\n\r\n### 配置文件迁移\r\n\r\nUmi-OCR v2 用户升级时，将旧版软件的`UmiOCR-data/.settings`拷贝到新版相同位置即可。\r\n\r\n### 下载说明\r\n\r\n不同版本仅OCR引擎插件不同，其它功能完全一致。\r\n均支持 win7 x64 及以上的系统，附带多国语言识别库。\r\n\r\n`.7z.exe`为自解压包，可以用压缩软件打开，也可以在没有安装压缩软件的电脑上直接双击解压。\r\n\r\n### Paddle 引擎插件版\r\n\r\n（性能好，速度快，占用率高，适合高配机器。**不兼容奔腾、赛扬、凌动CPU**）\r\n\r\n**重要提示：如果执行OCR时报错 `0xc0000142`、`[Error] OCR init fail`，大概率是CPU不兼容Paddle，请换用Rapid版本。**\r\n\r\n**Umi-OCR_Paddle_v2.1.2.7z.exe** （128.5MB）\r\nSHA256: `6dce23ea7f95a2ffb9415f8f5bb588df75ddf90abdcbbb972cc38fe2dbbfc70d`\r\n\r\n### Rapid 引擎插件版\r\n\r\n（速度稍慢，内存占用低，适合低配机器，兼容性好）\r\n\r\n**Umi-OCR_Rapid_v2.1.2.7z.exe** （97.1MB）\r\nSHA256: `879484ca912814702c30ba4dc0d9a5afff1ba0457c2fca2825ef7ea7adcde7b4`\r\n\r\n## 更多插件\r\n\r\n前往 [Umi-OCR_插件仓库](https://github.com/hiroi-sora/Umi-OCR_plugins) ，下载更多OCR插件，获取`离线数学公式识别`等附加功能。\r\n\r\n---\r\n\r\n更多下载途径： [蓝奏云](https://hiroi-sora.lanzoul.com/s/umi-ocr) | [SourceForge](https://sourceforge.net/projects/umi-ocr/files/v2.1.2/) | [Scoop](https://scoop.sh/#/apps?q=umi-ocr)\r\n\r\n[![Download Umi-OCR](https://a.fsdn.com/con/app/sf-download-button)](https://sourceforge.net/projects/umi-ocr/files/v2.1.2/)"
     },
@@ -3014,12 +3014,12 @@
         "release_message": "- Added SNI support\r\n- Minor fixed and improvements"
     },
     "https://github.com/zan8in/afrog": {
-        "created_at": "2024-06-11 01:48:32",
+        "created_at": "2024-07-08 07:37:43",
         "description": "A Security Tool for Bug Bounty, Pentest and Red Teaming.",
-        "commit_message": "update pocs",
-        "commit_date": "2024-06-18 02:29:53",
-        "release_date": "2024-06-11 01:53:16",
-        "release_message": "新增 OOB 平台：recvsuit，使用命令：`-oob revsuit`\r\nafrog-config.yaml 新增配置：\r\n![image](https://github.com/zan8in/afrog/assets/4088460/857b5edd-c265-4ebc-9269-62d1275e96b4)\r\n\r\n> token: 密钥（参考 revsuit 教程）\r\ndns_domain: 记录 dns log 的域名\r\nhttp_url: 记录 http log 的 url\r\napi_url: revsuit 的验证接口（参考 revsuit 教程）\r\n\r\n官网：https://github.com/Li4n0/revsuit\r\n教程：稍后加入 wiki "
+        "commit_message": "update version 3.0.8",
+        "commit_date": "2024-07-08 07:37:24",
+        "release_date": "2024-07-08 07:42:49",
+        "release_message": "优化：在Debug模式下，调整漏洞条目位置至Debug请求数据的底部。\r\n优化：-Target 命令现在能够自动从读取的文件内资产中去除左右两侧的空格。[#132](https://github.com/zan8in/afrog/issues/132)\r\nBUG:  修复了一个BUG，该BUG导致当使用 \r\n-H \"Cookie: xxx:yyy:zzz\" 形式的命令行参数传递包含多个冒号的Cookie时，自定义Cookie无法被正确解析和应用。[#132](https://github.com/zan8in/afrog/issues/132)\r\n自定义多个 Header 命令：\r\n`afrog -t example.com -H \"X-Forwarded-For: 1.1.1.1\" -H \"Cookie: JSESSION=xxx;\" -H \"Authorization: X:Y:Z\"`"
     },
     "https://github.com/moonD4rk/HackBrowserData": {
         "created_at": "2024-01-09 12:57:42",
@@ -5186,13 +5186,13 @@
         "release_message": "Issues: https://github.com/alibaba/arthas/milestone/50?closed=1\r\n\r\n* arthas-spring-boot-starter support spring boot3. #2524\r\n* upgrade spring-boot 2 to 2.7.15, spring boot 3 to 3.1.7\r\n* upgrade bytekit to 0.0.9 (#2775)\r\n* fix not use arthasHome when constructing ArthasAgent(#2544)\r\n* fix AnsiLog static init may error. #2740\r\n* sysenv/sysprop command sorted by key #2619 (#2652)\r\n* upgrade bytebuddy to 1.14.11\r\n* UserStat support agentId (#2501)"
     },
     "https://github.com/projectdiscovery/wappalyzergo": {
-        "created_at": "2024-06-23 00:24:39",
+        "created_at": "2024-07-14 00:26:13",
         "description": "A high performance go implementation of Wappalyzer Technology Detection Library",
-        "commit_date": "2024-06-23 00:24:39",
-        "commit_message": "Weekly fingerprints update [Sun Jun 23 00:24:39 UTC 2024] :robot:",
+        "commit_date": "2024-07-14 00:26:13",
+        "commit_message": "Weekly fingerprints update [Sun Jul 14 00:26:13 UTC 2024] :robot:",
         "release_tag": "v0.0.109",
-        "release_date": "2024-06-23 00:24:56",
-        "release_message": "### [0.1.8](https://github.com/projectdiscovery/wappalyzergo/compare/v0.1.7...v0.1.8) (2024-06-23)"
+        "release_date": "2024-07-14 00:26:31",
+        "release_message": "### [0.1.10](https://github.com/projectdiscovery/wappalyzergo/compare/v0.1.9...v0.1.10) (2024-07-14)"
     },
     "https://github.com/cseroad/Webshell_Generate": {
         "created_at": "2023-06-19 03:21:09",
@@ -19936,8 +19936,8 @@
         "release_tag": "v1.4.7",
         "release_date": "2024-04-20 18:47:46",
         "release_message": "### Main features\r\n\r\n- Added support for:\r\n  - Scripting, uses Kotlin, check [short guide](https://github.com/skylot/jadx/wiki/Jadx-scripts-guide)\r\n  - External plugins, [guide](https://github.com/skylot/jadx/wiki/Jadx-plugins-guide)\r\n  Both features in preview state, API is stable but limited (especially in UI customizations)\r\n- Jadx GUI:\r\n  - Improved code cache, allow use common directory, view/delete exist caches in preferences\r\n  - jadx-gui configuration moved into plain json files in system config directory\r\n  - Allow to set custom shortcuts\r\n  - Tabs drag and drop reorder support\r\n  - Hex-viewer for binary asset files\r\n  - Add 'go to main activity' action\r\n- Other:\r\n  - Java 11+ is required now\r\n  - Parse and use Kotlin metadata for renames\r\n  - Add support for XApk files\r\n  - Allow to move class to another package\r\n  - Support jsr/ret opcodes (java-input) \r\n- A lot of bug fixes ... and regressions :rofl:\r\n\r\n**Full Changelog**: https://github.com/skylot/jadx/compare/v1.4.7...v1.5.0\r\n\r\n### Download files:\r\n- [jadx-gui-1.5.0-with-jre-win.zip](https://github.com/skylot/jadx/releases/download/v1.5.0/jadx-gui-1.5.0-with-jre-win.zip) - jadx-gui with bundled JRE\r\n- [jadx-gui-1.5.0-no-jre-win.exe](https://github.com/skylot/jadx/releases/download/v1.5.0/jadx-gui-1.5.0-no-jre-win.exe) - jadx-gui single exe (system JRE must be installed)\r\n- [jadx-1.5.0.zip](https://github.com/skylot/jadx/releases/download/v1.5.0/jadx-1.5.0.zip) - cross-platform cli and gui bundle (system JRE must be installed)\r\n\r\nFor system JRE the latest version is always preferred, Java 11+ is required, download at [oracle.com](https://www.oracle.com/java/technologies/downloads/#jdk21-windows)\r\n",
-        "commit_date": "2024-07-08 21:17:06",
-        "commit_message": "fix(build): do not wrap jar in launch4j (#2186)"
+        "commit_date": "2024-07-12 17:39:17",
+        "commit_message": "fix(quark): fix automated installation and check exit code of executed external commands (#2119)(PR #2216)"
     },
     "https://github.com/bluefrostsecurity/CVE-2019-1215": {
         "created_at": "2020-01-06 22:34:16",
@@ -22607,12 +22607,12 @@
         "release_message": "- 开发框架由.Net Framework 4.0切换为.Net 8\r\n- 采用R2R发布,运行环境已集成到exe中\r\n- 界面上的细小调整\r\n- SHA1: 2AAF1F0DFB7C2ABA175475D834CFCC48A3BB79A8\r\n\r\n由于框架跨度较大，可能会存在BUG。欢迎提交issue"
     },
     "https://github.com/yqcs/prismx": {
-        "created_at": "2024-07-02 07:57:11",
+        "created_at": "2024-07-13 13:30:39",
         "description": ":: 棱镜 X · 自动化企业网络安全风险检测、漏洞扫描工具。",
-        "commit_message": "1.2.5发布",
-        "commit_date": "2024-07-02 11:45:16",
-        "release_date": "2024-07-02 08:27:35",
-        "release_message": "## 棱镜 X 1.2.5 发布\r\n\r\n- 优化远程管理功能，新增双击编辑文件\r\n- 修复扫描任务手动暂停、结束卡住问题\r\n- 内置 Nuclei POC\r\n- 本次更新内置永久基础授权（Blue），延期高级授权（Red）\r\n\r\nTips:本次更新需更新数据库"
+        "commit_message": "1.2.8发布",
+        "commit_date": "2024-07-13 13:30:39",
+        "release_date": "2024-07-13 14:07:32",
+        "release_message": " -优化远程控制程序被误报毒问题\r\n- 优化 UI 界面\r\n- 新增 POC & EXP\r\n- 优化邮件测试功能\r\n本次更新无需替换数据库，但为了良好体验，仍建议替换数据库文件"
     },
     "https://github.com/TomSchimansky/CustomTkinter": {
         "created_at": "2021-03-04 17:24:00",
@@ -23751,10 +23751,10 @@
         "release_message": ""
     },
     "https://github.com/chainreactors/spray": {
-        "created_at": "2024-06-23 08:59:44",
+        "created_at": "2022-09-08 07:53:07",
         "description": "Next Generation HTTP Dir/File Fuzz Tool",
-        "commit_date": "2024-06-24 06:40:36",
-        "commit_message": "Merge pull request #41 from chainreactors/dev\n\nmerge v0.9.8",
+        "commit_date": "2024-07-04 07:40:23",
+        "commit_message": "Merge pull request #45 from chainreactors/dev\n\nrm same status with random baseline filter",
         "release_tag": "v0.9.1",
         "release_date": "2024-06-23 09:06:16",
         "release_message": "## Changelog\r\n* [fix] 修复多个解析输入值的bug \r\n* [fix] fix wappalyzer panic  #35 \r\n* [fix] fix socks auth not work bug @sakurakishiro \r\n* [fix] fix expr not work bug #36 \r\n* [fix] fix checkpool bar thread safe bug\r\n* [fix] fix NewBaseline panic @7ten7 \r\n* [fix] 修复 words更新导致的 `--prefix`, `--suffix`, `--extension`, `--bak` 失效的bug #39 \r\n"
@@ -23929,8 +23929,8 @@
     "https://github.com/hansmach1ne/lfimap": {
         "created_at": "2021-02-26 04:11:33",
         "description": "Local File Inclusion discovery and exploitation tool",
-        "commit_message": "Fixed exploit to reverse shell via -i module. #107",
-        "commit_date": "2024-07-02 23:57:17"
+        "commit_message": "Merge pull request #103 from nrathaus/add_test_rfi\n\nImprove the tests, optimize `lfimap_cleanup` call without the need of 'stats' argument.",
+        "commit_date": "2024-07-05 23:49:56"
     },
     "https://github.com/MaskCyberSecurityTeam/BurpHttpHelper": {
         "created_at": "2023-01-22 05:16:24",
@@ -24412,8 +24412,8 @@
         "description": "魅族安全中心"
     },
     "https://sec.vip.com/": {
-        "status_code": 503,
-        "description": ""
+        "status_code": 200,
+        "description": "VSRC首页-唯品会信息安全中心"
     },
     "https://sec.wacai.com/": {
         "status_code": 200,
@@ -27075,7 +27075,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "20.75.95.162属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "20.55.118.243属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
@@ -28720,12 +28720,12 @@
         "release_message": "This release only supports java source code scanning which contains \"/WEB-INF/\" directory structure"
     },
     "https://github.com/MInggongK/dahuaExploitGUI": {
-        "created_at": "2024-06-27 02:43:11",
+        "created_at": "2024-07-12 07:43:04",
         "description": "dahua综合漏洞利用工具",
         "commit_message": "Update README.md",
-        "commit_date": "2024-06-27 02:56:01",
-        "release_date": "2024-06-27 02:46:28",
-        "release_message": "优化了一键检测\r\n优化了自定义上传模块\r\n优化了批量检测线程执行"
+        "commit_date": "2024-07-12 07:47:12",
+        "release_date": "2024-07-14 01:18:09",
+        "release_message": "增加了大华智能物联综合管理平台env模块检测\r\n增加了大华ICC智能物联综合管理平台readpic模块检测\r\n增加了大华DSS数字监控系统任意文件读取模块检测"
     },
     "https://github.com/birdhan/SecurityProduct": {
         "created_at": "2018-12-30 07:55:40",
