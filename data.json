@@ -4527,12 +4527,12 @@
         "commit_date": "2024-04-25 23:22:49"
     },
     "https://github.com/rockbenben/ChatGPT-Shortcut": {
-        "created_at": "2024-05-06 09:37:59",
+        "created_at": "2024-07-11 00:34:38",
         "description": "🚀💪Maximize your efficiency and productivity, support for English,中文,Español,العربية. 让生产力加倍的AI快捷指令。更有效地定制、保存和分享自己的提示词。在提示词分享社区中，轻松找到适用于不同场景的指令。",
-        "commit_message": "chore(deps): bump ws from 7.5.9 to 7.5.10 (#52)\n\nBumps [ws](https://github.com/websockets/ws) from 7.5.9 to 7.5.10.\r\n- [Release notes](https://github.com/websockets/ws/releases)\r\n- [Commits](https://github.com/websockets/ws/compare/7.5.9...7.5.10)\r\n\r\n---\r\nupdated-dependencies:\r\n- dependency-name: ws\r\n  dependency-type: indirect\r\n...\r\n\r\nSigned-off-by: dependabot[bot] <support@github.com>\r\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
-        "commit_date": "2024-06-23 23:05:28",
-        "release_date": "2024-05-06 10:40:32",
-        "release_message": "**Full Changelog**: https://github.com/rockbenben/ChatGPT-Shortcut/compare/v3.2.0...v3.2.1"
+        "commit_message": "fix(ci): error docker action",
+        "commit_date": "2024-07-11 06:25:05",
+        "release_date": "2024-07-11 03:42:46",
+        "release_message": "**Full Changelog**: https://github.com/rockbenben/ChatGPT-Shortcut/compare/v3.2.1...v3.2.3"
     },
     "https://github.com/LangLangShanDeNanKe/chatgpt": {
         "created_at": "2023-03-15 12:39:55",
@@ -4926,8 +4926,8 @@
     "https://github.com/rustdesk/rustdesk": {
         "created_at": "2024-06-23 03:39:44",
         "description": "An open-source remote desktop application designed for self-hosting, as an alternative to TeamViewer.",
-        "commit_message": "fix: ubuntu 18.04, service, Exec format error (#8680)\n\nSigned-off-by: fufesou <linlong1266@gmail.com>",
-        "commit_date": "2024-07-11 15:13:41",
+        "commit_message": "mobile virtual display, resolution menu, proxy setting (#8717)\n\n1. Merge code of mobile and desktop virtual display menu.\r\n2. Mobile add seperate resolution menu, only support changing\r\n   resolutions.\r\n3. Android add proxy setting\r\n\r\nSigned-off-by: 21pages <sunboeasy@gmail.com>",
+        "commit_date": "2024-07-15 10:53:14",
         "release_date": "2024-06-23 03:59:11",
         "release_message": "![image](https://github.com/rustdesk/rustdesk/assets/71636191/83754a64-31b8-47f0-8570-da22207759a9)\r\n\r\n| Architecture | Windows | Ubuntu | Mac | Android | Flatpak | AppImage | iOS |\r\n|--------------|---------|--------|-----|----------|---------|---------|---------|\r\n| x86-64 (64-bit) | [EXE](https://github.com/rustdesk/rustdesk/releases/download/1.2.6/rustdesk-1.2.6-x86_64.exe) &nbsp; [MSI](https://github.com/rustdesk/rustdesk/releases/download/1.2.6/rustdesk-1.2.6-x86_64.msi) | [Download](https://github.com/rustdesk/rustdesk/releases/download/1.2.6/rustdesk-1.2.6-x86_64.deb) | [Download](https://github.com/rustdesk/rustdesk/releases/download/1.2.6/rustdesk-1.2.6-x86_64.dmg) |  | [Download](https://github.com/rustdesk/rustdesk/releases/download/1.2.6/rustdesk-1.2.6-x86_64.flatpak) | [Download](https://github.com/rustdesk/rustdesk/releases/download/1.2.6/rustdesk-1.2.6-x86_64.AppImage) |\r\n| AArch64 (ARM64) |  | [Download](https://github.com/rustdesk/rustdesk/releases/download/1.2.6/rustdesk-1.2.6-aarch64.deb) | [Download](https://github.com/rustdesk/rustdesk/releases/download/1.2.6/rustdesk-1.2.6-aarch64.dmg) | [Download](https://github.com/rustdesk/rustdesk/releases/download/1.2.6/rustdesk-1.2.6-aarch64-signed.apk) | [Download](https://github.com/rustdesk/rustdesk/releases/download/1.2.6/rustdesk-1.2.6-aarch64.flatpak) |  [Download](https://github.com/rustdesk/rustdesk/releases/download/1.2.6/rustdesk-1.2.6-aarch64.AppImage)  | [TestFlight](https://testflight.apple.com/join/KBG9EsZW)\r\n| ARMv7 (32-bit) |  | [Download](https://github.com/rustdesk/rustdesk/releases/download/1.2.6/rustdesk-1.2.6-armv7-sciter.deb) |  |  [Download](https://github.com/rustdesk/rustdesk/releases/download/1.2.6/rustdesk-1.2.6-armv7-signed.apk) |  |  |\r\n| x86-32 (32-bit) | [Download](https://github.com/rustdesk/rustdesk/releases/download/1.2.6/rustdesk-1.2.6-x86-sciter.exe) |  |  |  |  |  |\r\n\r\n\r\n## For more downloads (Fedora / Arch Linux / Suse): [check below please](#)\r\n\r\n## For the latest features: [check out the nightly build](https://github.com/rustdesk/rustdesk/releases/tag/nightly)\r\n\r\n <details>\r\n <summary>Changelog</summary>\r\n\r\n- win, linux remove desktop wallpaper https://github.com/rustdesk/rustdesk/pull/5990\r\n- dual screen dual windows support https://github.com/rustdesk/rustdesk/pull/5945 https://github.com/rustdesk/rustdesk/pull/6064\r\n- write log on android to external storage for audit https://github.com/rustdesk/rustdesk/pull/6076\r\n- fix https://github.com/rustdesk/rustdesk/issues/6071, https://github.com/rustdesk/rustdesk/pull/6093, https://github.com/rustdesk/rustdesk/discussions/6091, https://github.com/rustdesk/rustdesk/issues/6002, https://github.com/rustdesk/rustdesk/issues/6181, https://github.com/rustdesk/rustdesk/issues/6232, https://github.com/rustdesk/rustdesk/issues/6495, https://github.com/rustdesk/rustdesk/pull/6557, https://github.com/rustdesk/rustdesk/discussions/6453, https://github.com/rustdesk/rustdesk/issues/616, https://github.com/rustdesk/rustdesk/pull/6603, https://github.com/rustdesk/rustdesk/pull/6617, https://github.com/rustdesk/rustdesk/issues/5986, https://github.com/rustdesk/rustdesk/pull/7319, https://github.com/rustdesk/rustdesk/pull/7217, https://github.com/rustdesk/rustdesk/issues/4118\r\n- fix wayland: https://github.com/rustdesk/rustdesk/issues/5193, https://github.com/rustdesk/rustdesk/issues/6116, https://github.com/rustdesk/rustdesk/pull/6675, https://github.com/rustdesk/rustdesk/pull/6628\r\n- improve auto reconnect, https://github.com/rustdesk/rustdesk/pull/6125\r\n- add autocomplete in id input box, https://github.com/rustdesk/rustdesk/pull/6040\r\n- add av1 record, https://github.com/rustdesk/rustdesk/pull/6084 (a little back compatibility break introduced here, <1.2.4 can not record >=1.2.4)\r\n- single peer per row/list view https://github.com/rustdesk/rustdesk/pull/6165\r\n- add virtual display manually, https://github.com/rustdesk/rustdesk/pull/6199\r\n- add i444 support https://github.com/rustdesk/rustdesk/pull/6229, still not true color, need further job.\r\n- mobile uri https://github.com/rustdesk/rustdesk/pull/6266\r\n- physical keyboard to android support https://github.com/rustdesk/rustdesk/pull/6097\r\n- connect to devices on the other self-host or public server https://github.com/rustdesk/rustdesk/issues/6198\r\n- more Kaspersky compliances https://github.com/rustdesk/rustdesk/pull/6303 & https://github.com/rustdesk/rustdesk/pull/6333\r\n- new privacy mode 2 https://github.com/rustdesk/rustdesk/pull/6406, and enhanced mode 1 https://github.com/rustdesk/rustdesk/pull/6470\r\n- android wake lock, https://github.com/rustdesk/rustdesk/pull/6515\r\n- add keyboard input source 2 as a fallback, https://github.com/rustdesk/rustdesk/pull/6561\r\n- clipboard sharing for Wayland, https://github.com/rustdesk/rustdesk/pull/6586\r\n- swap left-right mouse, https://github.com/rustdesk/rustdesk/discussions/910\r\n- new zero copy mode hareware codec for Windows https://github.com/rustdesk/rustdesk/pull/6778\r\n- 2FA https://github.com/rustdesk/rustdesk/discussions/3212\r\n- add mac Retina display support: https://github.com/rustdesk/rustdesk/pull/7269\r\n- add support of connecting to specific Windows session, https://github.com/rustdesk/rustdesk/pull/7184\r\n- support KDE Plasma 6, https://github.com/rustdesk/rustdesk/pull/7389\r\n- add only allowing connection if rustdesk window open, https://github.com/rustdesk/rustdesk/discussions/7033\r\n- shared address book, https://github.com/rustdesk/rustdesk/pull/7229\r\n- Auto Screen-switch / Mouse follow, https://github.com/rustdesk/rustdesk/discussions/7437\r\n- http/https proxy, https://github.com/rustdesk/rustdesk/pull/7600\r\n- msi，https://github.com/rustdesk/rustdesk/pull/7688\r\n- hardware codec support for Android https://github.com/rustdesk/rustdesk/pull/8028\r\n- add voice call for Android, https://github.com/rustdesk/rustdesk/pull/8037\r\n- floating window of Android, https://github.com/rustdesk/rustdesk/pull/8268\r\n </details>\r\n\r\nhttps://www.reddit.com/r/rustdesk/comments/1dmllb4/rustdesk_126_released/\r\n\r\n"
     },
@@ -6148,8 +6148,8 @@
     "https://github.com/CTFd/CTFd": {
         "created_at": "2024-06-18 16:01:54",
         "description": "CTFs as you need them",
-        "commit_date": "2024-06-21 13:49:19",
-        "commit_message": "Update language references and compile new PO files (#2561)",
+        "commit_date": "2024-07-11 19:27:18",
+        "commit_message": "Fix issue where challenge solves would not respect account visibility (#2570)",
         "release_tag": "",
         "release_date": "2024-06-18 21:34:27",
         "release_message": "# 3.7.2 / 2024-06-18\r\n\r\n**Security**\r\n\r\n- Patches an issue where on certain browsers flags could be leaked with admin interaction on a malicious page\r\n\r\n**API**\r\n\r\n- Disable returning 404s in listing pages with pagination\r\n  - Instead of returning 404 these pages will now return 200\r\n  - For API endpoints, the response will be a 200 with an empty listing instead of a 404\r\n\r\n**Deployment**\r\n\r\n- CTFd will now add the `Cross-Origin-Opener-Policy` response header to all responses with the default value of `same-origin-allow-popups`\r\n- Add `CROSS_ORIGIN_OPENER_POLICY` setting to control the `Cross-Origin-Opener-Policy` header"
@@ -12531,8 +12531,8 @@
     "https://github.com/rocky/python-uncompyle6": {
         "created_at": "2024-03-16 07:49:17",
         "description": "A cross-version Python bytecode decompiler",
-        "commit_message": "Spelling corrections",
-        "commit_date": "2024-07-10 17:31:39",
+        "commit_message": "Handle long dict litereals in 3.4- better...\n\nBracket in pseudo op COLLECTION_START ... BUILD_xx",
+        "commit_date": "2024-07-15 14:01:32",
         "release_date": "2024-03-16 07:56:18",
         "release_message": "Lots of changes major changes. track xdis API has changes.\r\n\r\nSeparate Phases more clearly:\r\n* disassembly\r\n* tokenization\r\n* parsing\r\n* abstracting to AST (more is done in newer projects)\r\n* printing\r\n\r\nAlthough we do not decompile bytecode greater than 3.8, code supports running from up to 3.12.\r\n\r\nMany bugs fixed.\r\n\r\nA lot of Linting and coding style modernization.\r\n\r\nWork done in preparation for Blackhat Asia 2024\r\n"
     },
@@ -22779,12 +22779,12 @@
         "release_message": ""
     },
     "https://github.com/qiwentaidi/Slack": {
-        "created_at": "2024-06-28 16:48:53",
+        "created_at": "2024-07-04 16:31:25",
         "description": "一款Go Wails实现的渗透测试工具，功能涵盖网站扫描、端口扫描、企业信息收集、空间引擎搜索等，希望能帮助你少让你少开几个应用测试",
-        "commit_message": "完成linux文件自更新",
-        "commit_date": "2024-07-02 14:10:21",
-        "release_date": "2024-06-28 17:08:07",
-        "release_message": "新增:\r\n1、Quake空间搜索\r\n2、DingDing AKSK利用\r\n3、数据处理新增URL和域名提取，去重分割字符可自定义\r\n4、域名查询增加IP历史解析、子域名信息\r\n\r\n修复:\r\n1、目录扫描多次执行，排除长度状态未重置\r\n2、目录扫描查看响应包跟随选择的扫描请求方式不再是GET\r\n3、JSFinder在某些情况下获取到元素为underfind导致页面异常显示\r\n\r\n优化:\r\n1、JS爬取分离手机号、身份证显示，以及删除无关字符\r\n2、域名查询功能改为一件查询所有（CDN、IP历史解析、备案信息、子域名）\r\n\r\n本次编译增加dev调试模式版本，下载dev模式可以在右键进入web控制台查看异常报错信息"
+        "commit_message": "修复一些bug",
+        "commit_date": "2024-07-15 02:57:14",
+        "release_date": "2024-07-04 16:54:31",
+        "release_message": "新增:\r\n1、客户端自更新功能，Mac会下载dmg包，需要用户关闭应用再安装，Windows\\Linux正常安装重启\r\n2、目录扫描字典可以多选\r\n\r\n修复:\r\n1、部分用户无法使用复制功能\r\n2、mac用户编译完.app应用nuclei环境变量错误问题\r\n3、公司名称查域名beiancha反爬问题\r\n\r\n\r\n优化:\r\n1、字典管理目前在设置页面\r\n2、优化更新提示，目前检测到更新左下角更新图标上会有new字段\r\n3、更新fofa查询框界面\r\n4、CDN批量查询功能回归\r\n5、更新企业信息查询界面，增加企业状态显示"
     },
     "https://github.com/horizon3ai/CVE-2023-27524": {
         "created_at": "2023-04-25 04:59:05",
@@ -23204,8 +23204,8 @@
     "https://github.com/RVC-Boss/GPT-SoVITS": {
         "created_at": "2024-01-14 18:05:21",
         "description": "1 min voice data can also be used to train a good TTS model! (few shot voice cloning)",
-        "commit_message": "Update Changelog_CN.md",
-        "commit_date": "2024-07-07 13:42:27"
+        "commit_message": "Clean Path (#1299)\n\n* clean path\r\n\r\n* clean path",
+        "commit_date": "2024-07-13 11:17:46"
     },
     "https://github.com/djytmdj/Network-security-study-notes": {
         "created_at": "2023-07-25 06:13:25",
@@ -23751,13 +23751,13 @@
         "release_message": ""
     },
     "https://github.com/chainreactors/spray": {
-        "created_at": "2022-09-08 07:53:07",
+        "created_at": "2024-07-04 07:18:46",
         "description": "Next Generation HTTP Dir/File Fuzz Tool",
         "commit_date": "2024-07-04 07:40:23",
         "commit_message": "Merge pull request #45 from chainreactors/dev\n\nrm same status with random baseline filter",
         "release_tag": "v0.9.1",
-        "release_date": "2024-06-23 09:06:16",
-        "release_message": "## Changelog\r\n* [fix] 修复多个解析输入值的bug \r\n* [fix] fix wappalyzer panic  #35 \r\n* [fix] fix socks auth not work bug @sakurakishiro \r\n* [fix] fix expr not work bug #36 \r\n* [fix] fix checkpool bar thread safe bug\r\n* [fix] fix NewBaseline panic @7ten7 \r\n* [fix] 修复 words更新导致的 `--prefix`, `--suffix`, `--extension`, `--bak` 失效的bug #39 \r\n"
+        "release_date": "2024-07-04 07:39:56",
+        "release_message": "## Changelog\r\n* [feature] **重构spray的输出, 现在的输出格式更加整齐与高效.  感谢多位师傅的提供的建议, 特别是@DuoKeBei 提供的建议**\r\n![image](https://github.com/chainreactors/spray/assets/29176200/99763a57-c51b-4f20-919e-28102706ba16)\r\n* [feature] **新支持ehole与goby的指纹引擎, 现在指纹引擎有fingers(默认), `ehole,fingerprinthub,goby,wappalyzer` (通过`--finger`打开), 并自动聚合指纹.**\r\n* [feature] 支持`-j/--json` 输出json格式的\r\n* [feature] support cpe,wfn,uri 三种关于指纹的输出\r\n* [enhance] 删除了一个自动过滤的规则, 该规则导致与随机页面相同的所有页面都被过滤\r\n* [enhance] 优化了信息收集阶段的性能\r\n* [enhance] 优化了多出代码结构\r\n* [fix] 修复超过缓冲区的body 读取失败的bug, (与gogo中相同)\r\n\r\n**Full Changelog**: https://github.com/chainreactors/spray/compare/v0.9.8...v0.9.9"
     },
     "https://github.com/TD0U/WeaverScan": {
         "created_at": "2022-12-30 12:45:33",
@@ -23976,13 +23976,13 @@
         "release_message": ""
     },
     "https://github.com/MvsCode/frps-onekey": {
-        "created_at": "2024-06-19 14:19:24",
+        "created_at": "2024-06-26 06:20:34",
         "description": "frp server configuration deploy&manage script (frp服务端安装&管理脚本)",
         "commit_date": "2024-06-26 06:20:34",
         "commit_message": "Merge pull request #112 from mvscode/dev\n\nDev",
         "release_tag": "v0.53.2",
-        "release_date": "2024-06-20 07:37:42",
-        "release_message": "## What's Changed\r\n* Dev by @MvsCode in https://github.com/MvsCode/frps-onekey/pull/103\r\n* Update install-frps.sh by @MvsCode in https://github.com/MvsCode/frps-onekey/pull/104\r\n* Dev by @MvsCode in https://github.com/MvsCode/frps-onekey/pull/106\r\n* Dev by @MvsCode in https://github.com/MvsCode/frps-onekey/pull/107\r\n* Update install-frps.sh by @MvsCode in https://github.com/MvsCode/frps-onekey/pull/108\r\n* Add files via upload by @MvsCode in https://github.com/MvsCode/frps-onekey/pull/110\r\n\r\n\r\n**Full Changelog**: https://github.com/MvsCode/frps-onekey/compare/v0.53.2...v0.58.1"
+        "release_date": "2024-07-15 06:09:12",
+        "release_message": "[frp_0.59.0_linux_amd64.tar.gz](https://github.com/user-attachments/files/16230526/frp_0.59.0_linux_amd64.tar.gz)\r\n"
     },
     "https://github.com/iSafeBlue/fastjson-autotype-bypass-demo": {
         "created_at": "2020-05-10 05:41:03",
@@ -24412,8 +24412,8 @@
         "description": "魅族安全中心"
     },
     "https://sec.vip.com/": {
-        "status_code": 200,
-        "description": "VSRC首页-唯品会信息安全中心"
+        "status_code": 503,
+        "description": ""
     },
     "https://sec.wacai.com/": {
         "status_code": 200,
@@ -25708,8 +25708,8 @@
     "https://github.com/ron190/jsql-injection": {
         "created_at": "2012-07-18 18:07:09",
         "description": "jSQL Injection is a Java application for automatic SQL database injection.",
-        "commit_message": "Add docker and integration tests for Vertica\n\n- Improve Vertica schema query and fix field casting\n- Fix Vertica/Postgres fingerprint collision\n- Increase engines clone list",
-        "commit_date": "2024-07-07 23:02:41"
+        "commit_message": "Update README.md",
+        "commit_date": "2024-07-15 17:26:05"
     },
     "https://github.com/0xbug/SQLiScanner": {
         "created_at": "2016-08-28 06:06:32",
@@ -27075,7 +27075,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "20.102.46.179属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "52.234.27.7属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
