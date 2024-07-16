@@ -24991,7 +24991,7 @@
     },
     "https://www.microsoft.com/en-us/download/details.aspx?id=24659": {
         "status_code": 200,
-        "description": "Download Log Parser 2.2 from Official Microsoft Download Center"
+        "description": "Page not found"
     },
     "https://www.ifm.net.nz/cookbooks/passwordcracker.html": {
         "status_code": 200,
@@ -25094,8 +25094,8 @@
         "description": "[~]#棱角 ::Edge.Forum*"
     },
     "https://rapiddns.io/subdomain": {
-        "status_code": 500,
-        "description": "500 Internal Server Error"
+        "status_code": 200,
+        "description": "Subdomain - RapidDNS Rapid DNS Information Collection"
     },
     "http://www.zhongguosou.com/zonghe/moErSiCodeConverter.aspx": {
         "status_code": 200,
@@ -25840,12 +25840,12 @@
         "commit_date": "2023-09-09 06:56:34"
     },
     "https://github.com/Just-Hack-For-Fun/Windows-INCIDENT-RESPONSE-COOKBOOK": {
-        "created_at": "2024-02-03 12:50:13",
+        "created_at": "2024-07-10 05:23:16",
         "description": "Windows 应急响应手册",
-        "commit_message": "用户反馈列表\n\n截至文件上传日期",
-        "commit_date": "2024-03-07 09:42:47",
-        "release_date": "2024-03-07 09:40:08",
-        "release_message": "**v1.1**\r\n>\r\n> 20240307\r\n>\r\n> - 常规安全检查 -> 进程部分添加 OpenArk\r\n> - 常见问题的解决办法部分添加恶意文件被删除章节\r\n>\r\n> 20240306\r\n>\r\n> - 应急响应事件流程的挖矿病毒、远控后门部分添加 OpenArk 工具\r\n> - 应急响应事件流程的挖矿病毒、远控后门、非持续性事件等部分添加内存搜索字符串步骤\r\n> - 常规安全检查阶段添加近期活动检查\r\n> - 系统日志分析部分添加额外的 RDP 相关日志\r\n> - 小技巧章节添加 0x03 内存中搜索字符串章节\r\n> - 常规安全检查 -> 服务程序 -> 注册表部分完善用于二进制签名验证的 Powershell 脚本的实现逻辑\r\n> - 常规安全检查 -> 服务程序 -> 进阶性排查部分完善用于二进制签名验证的 Powershell 脚本的实现逻辑\r\n> - 常规安全检查 -> COM 劫持部分完善用于二进制签名验证的 Powershell 脚本的实现逻辑\r\n> - 常规安全检查 -> Winsock NSP 部分完善用于二进制签名验证的 Powershell 脚本的实现逻辑\r\n>\r\n> 20240305\r\n>\r\n> - 常规安全检查阶段添加 Windows Defender 日志检查\r\n> - 修复 知识点附录 -> 0x10 谁决定计划任务的执行结果章节的文字错误\r\n> - 小技巧 -> 0x01 查找文件章节添加`dir`、`forfiles`、`Powershell` 查找文件以及 `Everything` 语法\r\n> - 知识点附录添加 0x15 Everything 语法\r\n> - 事前准备 -> 0x02 工具准备章节添加 `OpenArk`、`LastActivityView`\r\n>\r\n> 20240304\r\n>\r\n> - 进行部分文字美化，例如将 powershell 修改为 Powershell\r\n>\r\n> 20240206\r\n>\r\n> - 修复挖矿病毒和远控后门章节的寻找恶意样本过程中文字错误\r\n> - 威胁分析部分将 PCHunter 修改为安芯网盾未知威胁文件检测系统"
+        "commit_message": "Windows 应急响应手册v1.2",
+        "commit_date": "2024-07-10 05:23:16",
+        "release_date": "2024-07-10 05:26:29",
+        "release_message": "**v1.2** - 20240710\r\n\r\n- **修复了 Windows 平台无法查看目录或显示空白的问题**\r\n- **修复了PDF版手册无法搜索以及复制乱码的问题**\r\n- 添加 MSSQL 事件排查流程\r\n- 添加钓鱼事件排查流程\r\n- 添加 badusb 投毒事件排查流程\r\n- 添加了隧道事件 -> 0x08 隧道处置流程\r\n- 完善了勒索病毒处置流程\r\n- 完善了服务程序 -> 11. 进阶性排查 中二进制校验脚本\r\n- 常规安全检查章节添加了 0x02 证书排查章节\r\n- 小技巧章节添加了 0x04 查找文件占用小工具 IObit Unlocker\r\n- 小技巧章节添加了 0x05 内网文件传输工具\r\n- 远控后门 ->流量检测->地址诱骗章节完善了修改 hosts 部分描述，添加了图片示例\r\n- 添加了日志分析工具 —— FullEventLogView \r\n- 添加了编解码与文本对比工具 —— He3 \r\n- 添加了流量监控工具 Netsh、Wireshark"
     },
     "https://github.com/Tuhinshubhra/CMSeeK": {
         "created_at": "2020-07-24 21:29:02",
@@ -27075,7 +27075,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "20.84.127.19属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "172.183.161.204属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
@@ -27106,8 +27106,8 @@
         "description": "站长工具_whois查询工具_爱站网"
     },
     "https://rapiddns.io/sameip": {
-        "status_code": 500,
-        "description": "500 Internal Server Error"
+        "status_code": 200,
+        "description": "Subdomain - RapidDNS Rapid DNS Information Collection"
     },
     "http://wooyun.2xss.cc/index.php": {
         "status_code": 200,
