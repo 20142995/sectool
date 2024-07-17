@@ -1861,12 +1861,12 @@
         "release_message": "1. 效果优化\r\n2. 现在可以自由选择tdm-gcc或者tcc生成loader"
     },
     "https://github.com/hanc00l/nemo_go": {
-        "created_at": "2024-02-01 00:34:56",
+        "created_at": "2024-07-02 07:59:26",
         "description": "Nemo是用来进行自动化信息收集的一个简单平台，通过集成常用的信息收集工具和技术，实现对内网及互联网资产信息的自动收集，提高隐患排查和渗透测试的工作效率。",
-        "commit_message": "Update：增加nemo任务的自动化测试（大部份功能可测试，需配合nemo_test项目的模拟环境）",
-        "commit_date": "2024-06-27 13:11:33",
-        "release_date": "2024-02-01 00:53:23",
-        "release_message": "### Update\r\n\r\n- 集成飞书知识库，详细使用方法请参考[飞书知识库](docs/wiki_feishu.md)；数据库新增了wiki表，从v2.11升级需导入wiki.sql；\r\n- 在web后台查看acceelog日志；\r\n- web的配置管理拆分为Server端和Worker端；\r\n- 更新nuclei的poc；\r\n\r\n### Thirdparty版本\r\n\r\n- Httpx：1.3.9\r\n- Subfinder：2.6.4\r\n- Nuclei：3.1.7\r\n- Gogo: 2.11.12\r\n- Goby：2.8.8\r\n- Xray：1.9.11\r\n- fingerprintx：1.1.13（fork and fixed by [hanc00l](https://github.com/hanc00l/fingerprintx))\r\n"
+        "commit_message": "Update: 增加server_install.sh和worker_install.sh脚本，辅助在VPS安装nemo",
+        "commit_date": "2024-07-09 03:56:15",
+        "release_date": "2024-07-02 08:25:48",
+        "release_message": "## v2.13.0\r\n\r\n2024-7-2\r\n\r\n### Update\r\n\r\n- 增加对部份任务的自动化测试（配合发布的nemo_test使用）\r\n- 集成基于[MiniChat](https://github.com/okhanyu/minichat)的轻量级团队在线沟通工具（支持消息、文件上传分享，关闭后自动销毁历史记录）\r\n- 增加对任务结果过滤的调整参数\r\n- 更新部份thirdparty和qqwry.dat\r\n\r\n### Thirdparty版本（更新）\r\n- \r\n- Httpx：1.6.2 （当前最新的1.6.5的无法正常屏幕截图）\r\n- Subfinder：2.6.6\r\n- Nuclei：3.2.9\r\n- Gogo: 2.13.1"
     },
     "https://github.com/yuyan-sec/RedisEXP": {
         "created_at": "2024-06-10 07:29:58",
@@ -1883,7 +1883,7 @@
         "commit_message": "update docs",
         "commit_date": "2024-07-13 15:35:28",
         "release_date": "2024-06-03 13:46:15",
-        "release_message": "[English](https://github-com.translate.goog/hiroi-sora/Umi-OCR/releases/tag/v2.1.2?_x_tr_sl=zh-CN&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=wapp)\r\n\r\n## v2.1.2 主要更新\r\n\r\n- 新增：批量任务（图片、文档）支持 **暂停任务** 。只要不退出软件，在待机/休眠后可以恢复任务。\r\n- 新增：文档任务支持保存为 **单层纯文本PDF** 。\r\n- 新增：HTTP OCR接口 允许设置 **忽略区域** 参数。👉 [文档](https://github.com/hiroi-sora/Umi-OCR/blob/main/docs/README_HTTP.md#1-%E5%9B%BE%E7%89%87ocrbase64-%E8%AF%86%E5%88%AB%E6%8E%A5%E5%8F%A3)\r\n- 新增：HTTP 二维码接口 允许设置 **图像预处理** 参数。👉 [文档](https://github.com/hiroi-sora/Umi-OCR/blob/main/docs/README_HTTP.md#/api/qrcode)\r\n- 新增：命令行`--screenshot`允许 **指定屏幕范围** ，自动进行截图。👉 [文档](https://github.com/hiroi-sora/Umi-OCR/blob/main/docs/README_CLI.md#ocr%E6%8C%87%E4%BB%A4)\r\n- 修复：文档内容提取和写入时的坐标旋转、比例适配问题。\r\n- 修复：截图预览 & 记录面板中，跨区块复制文本时，尾块的复制字数不正确。\r\n- 修复：文档识别 整页强制OCR 模式下，无法进行任务。（2024.6.5紧急修复）\r\n- 优化：批量文档标签页，拖入大量文件、提交大批任务时的性能和流畅度。\r\n- 优化：文档任务保存的文件名规则。\r\n- UI：优化一些布局，调整一些文本，美化一些视觉效果。\r\n\r\n#### Windows7 用户注意： [常见问题及修复方法](https://github.com/hiroi-sora/Umi-OCR/issues/447)\r\n\r\n---\r\n\r\n新开通了赞助方式 [爱发电](https://afdian.net/a/hiroi-sora) ，有意愿的用户可以支持一下~\r\n\r\nUmi-OCR 保证始终 **开源** 和 **完全免费** 。所有需要付费/注册/关注才能下载的渠道均 **不是** 我们发布的渠道，请注意辨别。\r\n\r\n---\r\n\r\n### 配置文件迁移\r\n\r\nUmi-OCR v2 用户升级时，将旧版软件的`UmiOCR-data/.settings`拷贝到新版相同位置即可。\r\n\r\n### 下载说明\r\n\r\n不同版本仅OCR引擎插件不同，其它功能完全一致。\r\n均支持 win7 x64 及以上的系统，附带多国语言识别库。\r\n\r\n`.7z.exe`为自解压包，可以用压缩软件打开，也可以在没有安装压缩软件的电脑上直接双击解压。\r\n\r\n### Paddle 引擎插件版\r\n\r\n（性能好，速度快，占用率高，适合高配机器。**不兼容奔腾、赛扬、凌动CPU**）\r\n\r\n**重要提示：如果执行OCR时报错 `0xc0000142`、`[Error] OCR init fail`，大概率是CPU不兼容Paddle，请换用Rapid版本。**\r\n\r\n**Umi-OCR_Paddle_v2.1.2.7z.exe** （128.5MB）\r\nSHA256: `6dce23ea7f95a2ffb9415f8f5bb588df75ddf90abdcbbb972cc38fe2dbbfc70d`\r\n\r\n### Rapid 引擎插件版\r\n\r\n（速度稍慢，内存占用低，适合低配机器，兼容性好）\r\n\r\n**Umi-OCR_Rapid_v2.1.2.7z.exe** （97.1MB）\r\nSHA256: `879484ca912814702c30ba4dc0d9a5afff1ba0457c2fca2825ef7ea7adcde7b4`\r\n\r\n## 更多插件\r\n\r\n前往 [Umi-OCR_插件仓库](https://github.com/hiroi-sora/Umi-OCR_plugins) ，下载更多OCR插件，获取`离线数学公式识别`等附加功能。\r\n\r\n---\r\n\r\n更多下载途径： [蓝奏云](https://hiroi-sora.lanzoul.com/s/umi-ocr) | [SourceForge](https://sourceforge.net/projects/umi-ocr/files/v2.1.2/) | [Scoop](https://scoop.sh/#/apps?q=umi-ocr)\r\n\r\n[![Download Umi-OCR](https://a.fsdn.com/con/app/sf-download-button)](https://sourceforge.net/projects/umi-ocr/files/v2.1.2/)"
+        "release_message": "[English](https://github-com.translate.goog/hiroi-sora/Umi-OCR/releases/tag/v2.1.2?_x_tr_sl=zh-CN&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=wapp)\r\n\r\n## v2.1.2 主要更新\r\n\r\n- 新增：批量任务（图片、文档）支持 **暂停任务** 。只要不退出软件，在待机/休眠后可以恢复任务。\r\n- 新增：文档任务支持保存为 **单层纯文本PDF** 。\r\n- 新增：HTTP OCR接口 允许设置 **忽略区域** 参数。👉 [文档](https://github.com/hiroi-sora/Umi-OCR/blob/main/docs/README_HTTP.md#1-%E5%9B%BE%E7%89%87ocrbase64-%E8%AF%86%E5%88%AB%E6%8E%A5%E5%8F%A3)\r\n- 新增：HTTP 二维码接口 允许设置 **图像预处理** 参数。👉 [文档](https://github.com/hiroi-sora/Umi-OCR/blob/main/docs/README_HTTP.md#/api/qrcode)\r\n- 新增：命令行`--screenshot`允许 **指定屏幕范围** ，自动进行截图。👉 [文档](https://github.com/hiroi-sora/Umi-OCR/blob/main/docs/README_CLI.md#ocr%E6%8C%87%E4%BB%A4)\r\n- 修复：文档内容提取和写入时的坐标旋转、比例适配问题。\r\n- 修复：截图预览 & 记录面板中，跨区块复制文本时，尾块的复制字数不正确。\r\n- 修复：文档识别 整页强制OCR 模式下，无法进行任务。（2024.6.5紧急修复）\r\n- 优化：批量文档标签页，拖入大量文件、提交大批任务时的性能和流畅度。\r\n- 优化：文档任务保存的文件名规则。\r\n- UI：优化一些布局，调整一些文本，美化一些视觉效果。\r\n\r\n#### Windows7 用户注意： [常见问题及修复方法](https://github.com/hiroi-sora/Umi-OCR/issues/447)\r\n#### Linux 用户：可尝试使用 [最新测试版本](https://github.com/hiroi-sora/Umi-OCR/releases)\r\n\r\n---\r\n\r\n新开通了赞助方式 [爱发电](https://afdian.net/a/hiroi-sora) ，有意愿的用户可以支持一下~\r\n\r\nUmi-OCR 保证始终 **开源** 和 **完全免费** 。所有需要付费/注册/关注才能下载的渠道均 **不是** 我们发布的渠道，请注意辨别。\r\n\r\n---\r\n\r\n### 配置文件迁移\r\n\r\nUmi-OCR v2 用户升级时，将旧版软件的`UmiOCR-data/.settings`拷贝到新版相同位置即可。\r\n\r\n### 下载说明\r\n\r\n不同版本仅OCR引擎插件不同，其它功能完全一致。\r\n均支持 win7 x64 及以上的系统，附带多国语言识别库。\r\n\r\n`.7z.exe`为自解压包，可以用压缩软件打开，也可以在没有安装压缩软件的电脑上直接双击解压。\r\n\r\n### Paddle 引擎插件版\r\n\r\n（性能好，速度快，占用率高，适合高配机器。**不兼容奔腾、赛扬、凌动CPU**）\r\n\r\n**重要提示：如果执行OCR时报错 `0xc0000142`、`[Error] OCR init fail`，大概率是CPU不兼容Paddle，请换用Rapid版本。**\r\n\r\n**Umi-OCR_Paddle_v2.1.2.7z.exe** （128.5MB）\r\nSHA256: `6dce23ea7f95a2ffb9415f8f5bb588df75ddf90abdcbbb972cc38fe2dbbfc70d`\r\n\r\n### Rapid 引擎插件版\r\n\r\n（速度稍慢，内存占用低，适合低配机器，兼容性好）\r\n\r\n**Umi-OCR_Rapid_v2.1.2.7z.exe** （97.1MB）\r\nSHA256: `879484ca912814702c30ba4dc0d9a5afff1ba0457c2fca2825ef7ea7adcde7b4`\r\n\r\n## 更多插件\r\n\r\n前往 [Umi-OCR_插件仓库](https://github.com/hiroi-sora/Umi-OCR_plugins) ，下载更多OCR插件，获取`离线数学公式识别`等附加功能。\r\n\r\n---\r\n\r\n更多下载途径： [蓝奏云](https://hiroi-sora.lanzoul.com/s/umi-ocr) | [SourceForge](https://sourceforge.net/projects/umi-ocr/files/v2.1.2/) | [Scoop](https://scoop.sh/#/apps?q=umi-ocr)\r\n\r\n[![Download Umi-OCR](https://a.fsdn.com/con/app/sf-download-button)](https://sourceforge.net/projects/umi-ocr/files/v2.1.2/)"
     },
     "https://github.com/qianxiao996/CTF-Tools": {
         "created_at": "2022-07-21 08:40:01",
@@ -3349,8 +3349,8 @@
     "https://github.com/FelisCatus/SwitchyOmega": {
         "created_at": "2018-08-27 03:42:07",
         "description": "Manage and switch between multiple proxies quickly & easily.",
-        "commit_date": "2024-06-22 00:09:19",
-        "commit_message": "Translated using Weblate (Persian)\n\nCurrently translated at 99.1% (347 of 350 strings)",
+        "commit_date": "2024-07-15 07:09:20",
+        "commit_message": "Translated using Weblate (Chinese (Literary))\n\nCurrently translated at 6.0% (21 of 350 strings)",
         "release_tag": "v2.5.20",
         "release_date": "2018-08-27 04:03:14",
         "release_message": ":thinking:  **What happened in v2.5.21? See https://github.com/FelisCatus/SwitchyOmega/issues/2007#issuecomment-653838710**\r\n\r\n### What's new\r\n\r\n- This update contains bug fixes for Chromium only. Firefox users do not need to update.\r\n- Fix some compatibility issues on very old Chromium-based browsers (e.g. Chromium 31).\r\n- Fix some bugs introduced in refactoring, allowing external profile detection to work again.\r\n- Fix \"show external profile\" setting reverting itself to enabled.\r\n\r\n:beetle: In case of issues, please right click on the extension icon and select \"Report Issue\" from the menu so that I can locate and fix the issue more quickly.\r\n\r\n### Installation\r\n\r\n:large_blue_circle: **Users of Chromium and Chromium-based browsers:** Please install from [Chrome Web Store](https://chrome.google.com/webstore/detail/padekgcemlokbadohgkifijomclgjgif).\r\n\r\n:red_circle: **Users of Mozilla Firefox and other Mozilla-based browsers:** Please install from [Mozilla Add-Ons](https://addons.mozilla.org/en-US/firefox/addon/switchyomega/). (See Firefox Support below for supported versions.)\r\n\r\nIf you cannot install from the links above, or prefer a manual installation:\r\n\r\nThe packaged CRX file below can be installed in Chromium. Please [google for installation instructions](https://www.google.com/search?q=how%20to%20load%20crx%20files%20in%20chrome) on how to install it.\r\n\r\nThe packaged XPI file below can be installed in Firefox. Please [google for installation instructions](https://www.google.com/search?q=how%20to%20install%20xpi%20files%20in%20firefox) on how to install it.\r\n\r\n### Firefox Support\r\n\r\n* Firefox >= 60: Shiny `browser.proxy.onRequest` API. SwitchyOmega just added support recently so please let us know if you experience issues.\r\n* Firefox >= 55: Deprecated. Legacy `browser.proxy.register` API. We do not provide any support for these versions. **Please upgrade your browser before filing issues.**\r\n    * HTTP/HTTPS/SOCKS5 Authentication and SOCKS5 Remote DNS will only work in some versions (>= 2017-09-18).\r\n* Firefox <= 54: WONT WORK. Back-porting is not possible due to lack of support in proxy API.\r\n\r\n### 更新内容\r\n\r\n- 这次更新只含有 Chromium 平台的 bug 修复， Firefox 用户无需更新。\r\n- 修复非常古老的基于 Chromium 浏览器上的一些兼容性问题。（例如 Chromium 31.）\r\n- 修复重构导致的外部情景模式 bug. 现在外部情景模式应该可以正常工作了。\r\n- 修复 “显示外部情景模式” 设置总会重置到“启用”的错误。 \r\n\r\n:beetle: 如遇到问题，请使用图标右键菜单的“反馈问题”功能提交错误报告，以便开发者及时修复，谢谢。\r\n\r\n### 安装\r\n\r\n:large_blue_circle: **Chromium 或基于 Chromium 的浏览器用户：** 请从 [Chrome 应用商店](https://chrome.google.com/webstore/detail/padekgcemlokbadohgkifijomclgjgif) 安装。\r\n\r\n:red_circle: **Mozilla Firefox 或者基于 Mozilla 的其他浏览器用户：** 请从 [Mozilla Add-Ons](https://addons.mozilla.org/en-US/firefox/addon/switchyomega/) 安装。（见下方 Firefox 支持的版本说明。）\r\n\r\n如果您无法从以上链接安装，请继续阅读以下说明。 \r\n\r\n下方的 CRX 安装包可用于 Chromium. 关于下载后如何安装，您可以[谷歌一下](https://www.google.com/search?q=Chrome%E5%8A%A0%E8%BD%BDcrx)，或者看看[百度经验怎么说](http://jingyan.baidu.com/article/d621e8da18f8372865913fdc.html)。\r\n\r\n下方的 XPI 安装包可用于 Firefox. 关于下载后如何安装，您可以[谷歌一下](https://www.google.com/search?q=Chrome%E5%8A%A0%E8%BD%BDcrx)。\r\n\r\n### Firefox 支持\r\n\r\n* Firefox >= 60: 崭新的 `browser.proxy.onRequest` API. SwitchyOmega 最近才支持此功能，因此如遇到问题请及时反馈。\r\n* Firefox >= 55: 过时的 `browser.proxy.register` API. 我们不会再对这些版本提供技术支持。  **请先更新浏览器，再反馈任何问题。**\r\n    * HTTP/HTTPS/SOCKS5 认证以及 SOCKS5 远程 DNS 只在某些版本中可以工作 (>= 2017-09-18).\r\n* Firefox <= 54: 无法工作。由于这些版本没有代理 API ，我们无法向后兼容这些版本。"
@@ -3429,8 +3429,8 @@
     "https://github.com/yogeshojha/rengine": {
         "created_at": "2024-06-22 09:49:42",
         "description": "reNgine is an automated reconnaissance framework for web applications with a focus on highly configurable streamlined recon process via Engines, recon data correlation and organization, continuous monitoring, backed by a database, and simple yet intuitive User Interface. reNgine makes it easy for penetration testers to gather reconnaissance with minimal configuration and with the help of reNgine's correlation, it just makes recon effortless.",
-        "commit_message": "Update README.md",
-        "commit_date": "2024-06-22 09:49:42",
+        "commit_message": "Merge pull request #1308 from yogeshojha/1176-bug-error-creating-eyewitness-screenshots-with-a-non-standard-url\n\nAdded validators to validate URL fixes #1176",
+        "commit_date": "2024-07-14 11:22:59",
         "release_date": "2024-06-22 09:50:52",
         "release_message": "reNgine 2.1.0 :rocket: \r\n\r\n## What's Changed\r\n* ARM support\r\n* Add LLM Toolkit by @yogeshojha in https://github.com/yogeshojha/rengine/pull/1259\r\n* use django-env by @fopina in https://github.com/yogeshojha/rengine/pull/1230\r\n* Add Lark to notifications. by @iuime in https://github.com/yogeshojha/rengine/pull/1137\r\n* Added restart: always to redis container by @null-ref-0000 in https://github.com/yogeshojha/rengine/pull/1275\r\n* Dockerfile cleanup: reduce image size 3x by @sa7mon in https://github.com/yogeshojha/rengine/pull/1212\r\n* Support for ARM-based platforms and remove obsolete composer version by @metehan-arslan in https://github.com/yogeshojha/rengine/pull/1242\r\n* Fix importing CIDR blocks by @pbehnke in https://github.com/yogeshojha/rengine/pull/1205\r\n* Added SAN extension to the generated certs by @michschl in https://github.com/yogeshojha/rengine/pull/1282\r\n* Release/2.1.0 by @yogeshojha in https://github.com/yogeshojha/rengine/pull/1147\r\n* Dockerfile Build Multiple Platforms by @vncloudsco in https://github.com/yogeshojha/rengine/pull/1210\r\n\r\n## New Contributors\r\n* @fopina made their first contribution in https://github.com/yogeshojha/rengine/pull/1230\r\n* @iuime made their first contribution in https://github.com/yogeshojha/rengine/pull/1137\r\n* @null-ref-0000 made their first contribution in https://github.com/yogeshojha/rengine/pull/1275\r\n* @sa7mon made their first contribution in https://github.com/yogeshojha/rengine/pull/1212\r\n* @metehan-arslan made their first contribution in https://github.com/yogeshojha/rengine/pull/1242\r\n* @pbehnke made their first contribution in https://github.com/yogeshojha/rengine/pull/1205\r\n* @michschl made their first contribution in https://github.com/yogeshojha/rengine/pull/1282\r\n* @vncloudsco made their first contribution in https://github.com/yogeshojha/rengine/pull/1210\r\n\r\n**Full Changelog**: https://github.com/yogeshojha/rengine/compare/v2.0.6...v2.1.0"
     },
@@ -4926,8 +4926,8 @@
     "https://github.com/rustdesk/rustdesk": {
         "created_at": "2024-06-23 03:39:44",
         "description": "An open-source remote desktop application designed for self-hosting, as an alternative to TeamViewer.",
-        "commit_message": "mobile virtual display, resolution menu, proxy setting (#8717)\n\n1. Merge code of mobile and desktop virtual display menu.\r\n2. Mobile add seperate resolution menu, only support changing\r\n   resolutions.\r\n3. Android add proxy setting\r\n\r\nSigned-off-by: 21pages <sunboeasy@gmail.com>",
-        "commit_date": "2024-07-15 10:53:14",
+        "commit_message": "F-Droid: enable hwcodec for future builds (#8726)\n\nSigned-off-by: Vasyl Gello <vasek.gello@gmail.com>",
+        "commit_date": "2024-07-16 08:35:10",
         "release_date": "2024-06-23 03:59:11",
         "release_message": "![image](https://github.com/rustdesk/rustdesk/assets/71636191/83754a64-31b8-47f0-8570-da22207759a9)\r\n\r\n| Architecture | Windows | Ubuntu | Mac | Android | Flatpak | AppImage | iOS |\r\n|--------------|---------|--------|-----|----------|---------|---------|---------|\r\n| x86-64 (64-bit) | [EXE](https://github.com/rustdesk/rustdesk/releases/download/1.2.6/rustdesk-1.2.6-x86_64.exe) &nbsp; [MSI](https://github.com/rustdesk/rustdesk/releases/download/1.2.6/rustdesk-1.2.6-x86_64.msi) | [Download](https://github.com/rustdesk/rustdesk/releases/download/1.2.6/rustdesk-1.2.6-x86_64.deb) | [Download](https://github.com/rustdesk/rustdesk/releases/download/1.2.6/rustdesk-1.2.6-x86_64.dmg) |  | [Download](https://github.com/rustdesk/rustdesk/releases/download/1.2.6/rustdesk-1.2.6-x86_64.flatpak) | [Download](https://github.com/rustdesk/rustdesk/releases/download/1.2.6/rustdesk-1.2.6-x86_64.AppImage) |\r\n| AArch64 (ARM64) |  | [Download](https://github.com/rustdesk/rustdesk/releases/download/1.2.6/rustdesk-1.2.6-aarch64.deb) | [Download](https://github.com/rustdesk/rustdesk/releases/download/1.2.6/rustdesk-1.2.6-aarch64.dmg) | [Download](https://github.com/rustdesk/rustdesk/releases/download/1.2.6/rustdesk-1.2.6-aarch64-signed.apk) | [Download](https://github.com/rustdesk/rustdesk/releases/download/1.2.6/rustdesk-1.2.6-aarch64.flatpak) |  [Download](https://github.com/rustdesk/rustdesk/releases/download/1.2.6/rustdesk-1.2.6-aarch64.AppImage)  | [TestFlight](https://testflight.apple.com/join/KBG9EsZW)\r\n| ARMv7 (32-bit) |  | [Download](https://github.com/rustdesk/rustdesk/releases/download/1.2.6/rustdesk-1.2.6-armv7-sciter.deb) |  |  [Download](https://github.com/rustdesk/rustdesk/releases/download/1.2.6/rustdesk-1.2.6-armv7-signed.apk) |  |  |\r\n| x86-32 (32-bit) | [Download](https://github.com/rustdesk/rustdesk/releases/download/1.2.6/rustdesk-1.2.6-x86-sciter.exe) |  |  |  |  |  |\r\n\r\n\r\n## For more downloads (Fedora / Arch Linux / Suse): [check below please](#)\r\n\r\n## For the latest features: [check out the nightly build](https://github.com/rustdesk/rustdesk/releases/tag/nightly)\r\n\r\n <details>\r\n <summary>Changelog</summary>\r\n\r\n- win, linux remove desktop wallpaper https://github.com/rustdesk/rustdesk/pull/5990\r\n- dual screen dual windows support https://github.com/rustdesk/rustdesk/pull/5945 https://github.com/rustdesk/rustdesk/pull/6064\r\n- write log on android to external storage for audit https://github.com/rustdesk/rustdesk/pull/6076\r\n- fix https://github.com/rustdesk/rustdesk/issues/6071, https://github.com/rustdesk/rustdesk/pull/6093, https://github.com/rustdesk/rustdesk/discussions/6091, https://github.com/rustdesk/rustdesk/issues/6002, https://github.com/rustdesk/rustdesk/issues/6181, https://github.com/rustdesk/rustdesk/issues/6232, https://github.com/rustdesk/rustdesk/issues/6495, https://github.com/rustdesk/rustdesk/pull/6557, https://github.com/rustdesk/rustdesk/discussions/6453, https://github.com/rustdesk/rustdesk/issues/616, https://github.com/rustdesk/rustdesk/pull/6603, https://github.com/rustdesk/rustdesk/pull/6617, https://github.com/rustdesk/rustdesk/issues/5986, https://github.com/rustdesk/rustdesk/pull/7319, https://github.com/rustdesk/rustdesk/pull/7217, https://github.com/rustdesk/rustdesk/issues/4118\r\n- fix wayland: https://github.com/rustdesk/rustdesk/issues/5193, https://github.com/rustdesk/rustdesk/issues/6116, https://github.com/rustdesk/rustdesk/pull/6675, https://github.com/rustdesk/rustdesk/pull/6628\r\n- improve auto reconnect, https://github.com/rustdesk/rustdesk/pull/6125\r\n- add autocomplete in id input box, https://github.com/rustdesk/rustdesk/pull/6040\r\n- add av1 record, https://github.com/rustdesk/rustdesk/pull/6084 (a little back compatibility break introduced here, <1.2.4 can not record >=1.2.4)\r\n- single peer per row/list view https://github.com/rustdesk/rustdesk/pull/6165\r\n- add virtual display manually, https://github.com/rustdesk/rustdesk/pull/6199\r\n- add i444 support https://github.com/rustdesk/rustdesk/pull/6229, still not true color, need further job.\r\n- mobile uri https://github.com/rustdesk/rustdesk/pull/6266\r\n- physical keyboard to android support https://github.com/rustdesk/rustdesk/pull/6097\r\n- connect to devices on the other self-host or public server https://github.com/rustdesk/rustdesk/issues/6198\r\n- more Kaspersky compliances https://github.com/rustdesk/rustdesk/pull/6303 & https://github.com/rustdesk/rustdesk/pull/6333\r\n- new privacy mode 2 https://github.com/rustdesk/rustdesk/pull/6406, and enhanced mode 1 https://github.com/rustdesk/rustdesk/pull/6470\r\n- android wake lock, https://github.com/rustdesk/rustdesk/pull/6515\r\n- add keyboard input source 2 as a fallback, https://github.com/rustdesk/rustdesk/pull/6561\r\n- clipboard sharing for Wayland, https://github.com/rustdesk/rustdesk/pull/6586\r\n- swap left-right mouse, https://github.com/rustdesk/rustdesk/discussions/910\r\n- new zero copy mode hareware codec for Windows https://github.com/rustdesk/rustdesk/pull/6778\r\n- 2FA https://github.com/rustdesk/rustdesk/discussions/3212\r\n- add mac Retina display support: https://github.com/rustdesk/rustdesk/pull/7269\r\n- add support of connecting to specific Windows session, https://github.com/rustdesk/rustdesk/pull/7184\r\n- support KDE Plasma 6, https://github.com/rustdesk/rustdesk/pull/7389\r\n- add only allowing connection if rustdesk window open, https://github.com/rustdesk/rustdesk/discussions/7033\r\n- shared address book, https://github.com/rustdesk/rustdesk/pull/7229\r\n- Auto Screen-switch / Mouse follow, https://github.com/rustdesk/rustdesk/discussions/7437\r\n- http/https proxy, https://github.com/rustdesk/rustdesk/pull/7600\r\n- msi，https://github.com/rustdesk/rustdesk/pull/7688\r\n- hardware codec support for Android https://github.com/rustdesk/rustdesk/pull/8028\r\n- add voice call for Android, https://github.com/rustdesk/rustdesk/pull/8037\r\n- floating window of Android, https://github.com/rustdesk/rustdesk/pull/8268\r\n </details>\r\n\r\nhttps://www.reddit.com/r/rustdesk/comments/1dmllb4/rustdesk_126_released/\r\n\r\n"
     },
@@ -22466,13 +22466,13 @@
         "release_message": ""
     },
     "https://github.com/m-sec-org/d-eyes": {
-        "created_at": "2024-06-27 02:39:35",
+        "created_at": "2024-07-09 09:04:14",
         "description": "D-Eyes为M-SEC社区一款检测与响应工具",
-        "commit_date": "2024-07-09 09:04:14",
-        "commit_message": "fix: add version",
+        "commit_date": "2024-07-10 06:39:49",
+        "commit_message": "doc(d-eyes): update requirement",
         "release_tag": "v1.1.0",
-        "release_date": "2024-06-27 05:44:25",
-        "release_message": ""
+        "release_date": "2024-07-12 05:35:40",
+        "release_message": "1. 修复本地扫描panic问题\r\n2. 优化扫描速度\r\n3. de fs 增加-e选项用以排除路径\r\n\r\n## 已知问题\r\nWindows系统下，输入路径相关参数时需要区分大小写，否则会造成误报，建议输入路径时直接复制粘贴， 或使用拖拽对应的文件夹到终端的方式来输入\r\n\r\n"
     },
     "https://github.com/LC044/WeChatMsg": {
         "created_at": "2024-06-13 02:01:08",
@@ -23108,12 +23108,12 @@
         "release_message": ""
     },
     "https://github.com/fingerprintjs/fingerprintjs": {
-        "created_at": "2024-07-03 13:17:53",
+        "created_at": "2024-07-11 12:35:49",
         "description": "Browser fingerprinting library. Accuracy of this version is 40-60%, accuracy of the commercial Fingerprint Identification is 99.5%. V4 of this library is BSL licensed.",
-        "commit_message": "Bump the version to 4.4.2 (#1015)",
-        "commit_date": "2024-07-03 13:17:53",
-        "release_date": "2024-07-03 13:24:00",
-        "release_message": "- Optimize the performance by tweaking the event loop releasing (#1014)"
+        "commit_message": "Bump the version to 4.4.3 (#1018)",
+        "commit_date": "2024-07-11 12:35:49",
+        "release_date": "2024-07-11 12:52:48",
+        "release_message": "- fix: An unwanted `Feature policy 'Payment' check failed...` console error in cross-origin iframes in Safari (#1017)"
     },
     "https://github.com/inbug-team/Log4j_RCE_Tool": {
         "created_at": "2021-12-11 02:04:37",
@@ -24826,8 +24826,8 @@
         "description": "CallBack.Red Dns、Http、Rmi、Ldap Log、CmdtoDNSLog"
     },
     "https://www.seebug.org/": {
-        "status_code": 200,
-        "description": "知道创宇 Seebug 漏洞平台 - 洞悉漏洞，让你掌握前沿漏洞情报！"
+        "status_code": 502,
+        "description": "502 Bad Gateway"
     },
     "https://www.bugku.com/tools/jsfuck/": {
         "status_code": 200,
@@ -24991,7 +24991,7 @@
     },
     "https://www.microsoft.com/en-us/download/details.aspx?id=24659": {
         "status_code": 200,
-        "description": "Page not found"
+        "description": "Download Log Parser 2.2 from Official Microsoft Download Center"
     },
     "https://www.ifm.net.nz/cookbooks/passwordcracker.html": {
         "status_code": 200,
@@ -25428,8 +25428,8 @@
     "https://github.com/google/oss-fuzz": {
         "created_at": "2016-07-20 19:39:50",
         "description": "OSS-Fuzz - continuous fuzzing for open source software.",
-        "commit_message": "bitcoin-core: Temporarily disable AFL, fix build (#12152)\n\nIt's broken anyway, so might as well give\r\nhttps://github.com/google/oss-fuzz/issues/12142#issuecomment-2204027194\r\na try.\r\n\r\n---------\r\n\r\nCo-authored-by: MarcoFalke <6399679+MarcoFalke@users.noreply.github.com>",
-        "commit_date": "2024-07-05 16:58:22"
+        "commit_message": "giflib: ignore LPM coverage (#12230)\n\nThis is to direct OSS-Fuzz-gen away from non-interesting targets",
+        "commit_date": "2024-07-16 13:14:43"
     },
     "https://github.com/nmalcolm/Inventus": {
         "created_at": "2017-08-28 11:48:02",
@@ -27075,7 +27075,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "20.55.46.205属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "52.225.77.103属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
@@ -28248,8 +28248,8 @@
         "description": "GitGuardian: Git Security Scanning & Secrets Detection"
     },
     "https://www.zeek.org": {
-        "status_code": 429,
-        "description": "WordPress.com 429 Error"
+        "status_code": 200,
+        "description": "The Zeek Network Security Monitor"
     },
     "https://gitee.com/freshday/radar": {
         "status_code": 200,
@@ -28750,8 +28750,8 @@
     "https://github.com/Mintplex-Labs/anything-llm": {
         "created_at": "2023-06-04 02:29:14",
         "description": "The all-in-one Desktop & Docker AI application with full RAG and AI Agent capabilities.",
-        "commit_message": "[REFACTOR] Refactor window path location for settings sidebar (#1856)\n\nuse useLocation hook instead of href for window location",
-        "commit_date": "2024-07-11 22:57:41"
+        "commit_message": "[FEAT] Prisma injection validation (#1874)\n\ncheck all prisma models/model usage and patch any potential sql injection vulns",
+        "commit_date": "2024-07-16 23:40:05"
     },
     "https://github.com/mifine666/miscan": {
         "created_at": "2024-06-19 07:30:57",
