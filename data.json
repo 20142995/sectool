@@ -21027,7 +21027,7 @@
         "commit_message": "Merge pull request #67 from StackExchange/tlim_newmod\n\nREADME.md: Announce new fork"
     },
     "https://github.com/Jrohy/trojan": {
-        "created_at": "2020-02-22 11:28:01",
+        "created_at": "2023-09-24 15:12:14",
         "description": "trojan多用户管理部署程序, 支持web页面管理",
         "release_tag": "v2.15.3",
         "release_date": "2023-09-24 15:13:40",
@@ -24412,8 +24412,8 @@
         "description": "魅族安全中心"
     },
     "https://sec.vip.com/": {
-        "status_code": 200,
-        "description": "VSRC首页-唯品会信息安全中心"
+        "status_code": 503,
+        "description": ""
     },
     "https://sec.wacai.com/": {
         "status_code": 200,
@@ -27075,7 +27075,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "52.157.5.225属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "172.183.77.198属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
@@ -28248,8 +28248,8 @@
         "description": "GitGuardian: Git Security Scanning & Secrets Detection"
     },
     "https://www.zeek.org": {
-        "status_code": 200,
-        "description": "The Zeek Network Security Monitor"
+        "status_code": 429,
+        "description": "WordPress.com 429 Error"
     },
     "https://gitee.com/freshday/radar": {
         "status_code": 200,
