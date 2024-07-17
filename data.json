@@ -1044,8 +1044,8 @@
     "https://github.com/ninoseki/mitaka": {
         "created_at": "2024-05-18 08:49:54",
         "description": "A browser extension for OSINT search",
-        "commit_message": "Merge pull request #813 from ninoseki/v2.1.1\n\nv2.1.1",
-        "commit_date": "2024-05-18 08:49:54",
+        "commit_message": "Merge pull request #815 from ninoseki/renovate/ts-jest-29.x-lockfile\n\nchore(deps): update dependency ts-jest to v29.2.2",
+        "commit_date": "2024-07-15 07:36:12",
         "release_date": "2024-05-18 08:52:41",
         "release_message": "## What's Changed\r\n* refactor: reduce setOptions function call by @ninoseki in https://github.com/ninoseki/mitaka/pull/805\r\n* Renew neverthrow integration by @ninoseki in https://github.com/ninoseki/mitaka/pull/806\r\n* feat: add reachability check by @ninoseki in https://github.com/ninoseki/mitaka/pull/807\r\n* Refactoring by @ninoseki in https://github.com/ninoseki/mitaka/pull/812\r\n* v2.1.1 by @ninoseki in https://github.com/ninoseki/mitaka/pull/813\r\n\r\n\r\n**Full Changelog**: https://github.com/ninoseki/mitaka/compare/v2.1.0...v2.1.1"
     },
@@ -22623,8 +22623,8 @@
     "https://github.com/yisier/nps": {
         "created_at": "2024-06-04 07:46:15",
         "description": "在 0.26.10 版本的基础上修改而来的 ",
-        "commit_message": "darwin arm64",
-        "commit_date": "2024-06-04 07:46:15",
+        "commit_message": "配置文件多了空格",
+        "commit_date": "2024-06-04 10:03:02",
         "release_date": "2024-06-04 07:53:42",
         "release_message": "  - golang 版本升级到 1.22.\r\n  - 增加自动https，自动将http 重定向（301）到 https.  \r\n  - 客户端命令行方式启动支持多个隧道ID，使用逗号拼接，示例：`npc -server=xxx:8024 -vkey=ytkpyr0er676m0r7,iwnbjfbvygvzyzzt` .\r\n  - 移除 nps.conf 参数 `https_just_proxy` , 调整 https 处理逻辑，如果上传了 https 证书，则由nps负责SSL (此方式可以获取真实IP)，\r\n      否则走端口转发模式（使用本地证书,nps 获取不到真实IP）， 如下图所示。    \r\n    ![image](image/new/https.png)"
     },
@@ -24826,8 +24826,8 @@
         "description": "CallBack.Red Dns、Http、Rmi、Ldap Log、CmdtoDNSLog"
     },
     "https://www.seebug.org/": {
-        "status_code": 502,
-        "description": "502 Bad Gateway"
+        "status_code": 200,
+        "description": "知道创宇 Seebug 漏洞平台 - 洞悉漏洞，让你掌握前沿漏洞情报！"
     },
     "https://www.bugku.com/tools/jsfuck/": {
         "status_code": 200,
@@ -27075,7 +27075,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "52.225.77.103属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "52.238.29.200属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
