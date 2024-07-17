@@ -24826,8 +24826,8 @@
         "description": "CallBack.Red Dns、Http、Rmi、Ldap Log、CmdtoDNSLog"
     },
     "https://www.seebug.org/": {
-        "status_code": 200,
-        "description": "知道创宇 Seebug 漏洞平台 - 洞悉漏洞，让你掌握前沿漏洞情报！"
+        "status_code": 502,
+        "description": "502 Bad Gateway"
     },
     "https://www.bugku.com/tools/jsfuck/": {
         "status_code": 200,
@@ -27075,7 +27075,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "52.238.29.200属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "52.157.5.225属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
