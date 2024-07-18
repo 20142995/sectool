@@ -23559,7 +23559,7 @@
     },
     "https://github.com/t3l3machus/Villain": {
         "created_at": "2022-10-25 22:02:59",
-        "description": "Villain is a C2 framework that can handle multiple TCP socket & HoaxShell-based reverse shells, enhance their functionality with additional features (commands, utilities etc) and share them among connected sibling servers (Villain instances running on different machines).",
+        "description": "Villain is a high level stage 0/1 C2 framework that can handle multiple TCP socket & HoaxShell-based reverse shells, enhance their functionality with additional features (commands, utilities) and share them among connected sibling servers (Villain instances running on different machines).",
         "commit_date": "2023-12-19 13:39:05",
         "commit_message": "Update README.md",
         "release_tag": "",
@@ -27075,7 +27075,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "20.51.206.11属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "172.183.131.31属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
