@@ -5853,7 +5853,7 @@
         "release_message": ""
     },
     "https://github.com/fupinglee/Calculate_Captcha": {
-        "created_at": "2022-01-20 00:21:45",
+        "created_at": "2022-01-21 00:25:44",
         "description": "计算验证码生成器，用于训练使用",
         "commit_date": "2022-01-21 00:25:44",
         "commit_message": "update README.md",
@@ -27075,7 +27075,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "172.183.131.31属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "172.183.132.98属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
