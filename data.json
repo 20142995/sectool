@@ -3258,11 +3258,11 @@
         "release_message": ""
     },
     "https://github.com/bytedance/Elkeid": {
-        "created_at": "2024-04-24 10:15:24",
+        "created_at": "2024-07-17 06:51:47",
         "description": "Elkeid is an open source solution that can meet the security requirements of various workloads such as hosts, containers and K8s, and serverless. It is derived from ByteDance's internal best practices.",
         "commit_message": "FIXME: compilation warnings of unsed functions\n\nexecveat realted hooking are only for kernels after 3.19\n\nSigned-off-by: shenping.matt <shenping.matt@bytedance.com>",
         "commit_date": "2024-07-11 07:46:23",
-        "release_date": "2024-07-09 15:14:38",
+        "release_date": "2024-07-17 07:57:33",
         "release_message": ""
     },
     "https://github.com/knownsec/ct": {
@@ -8566,8 +8566,8 @@
     "https://github.com/nomi-sec/PoC-in-GitHub": {
         "created_at": "2019-12-08 13:03:54",
         "description": "📡 PoC auto collect from GitHub. ⚠️ Be careful Malware.",
-        "commit_message": "Auto Update 2024/07/13 00:29:02",
-        "commit_date": "2024-07-13 00:29:02"
+        "commit_message": "Auto Update 2024/07/18 00:29:23",
+        "commit_date": "2024-07-18 00:29:23"
     },
     "https://github.com/Ridter/CVE-2017-11882": {
         "created_at": "2017-11-21 05:55:53",
@@ -18364,8 +18364,8 @@
     "https://github.com/hacklcx/HFish": {
         "created_at": "2019-08-07 05:01:28",
         "description": "安全、可靠、简单、免费的企业级蜜罐",
-        "commit_message": "update joinus.png",
-        "commit_date": "2024-06-19 02:30:05"
+        "commit_message": "modify version info again and again and again!",
+        "commit_date": "2024-07-16 05:35:28"
     },
     "https://github.com/michenriksen/aquatone": {
         "created_at": "2019-05-19 09:07:56",
@@ -21941,10 +21941,10 @@
         "commit_message": "[+] postb.in => requestbin.net"
     },
     "https://github.com/apache/logging-log4j2": {
-        "created_at": "2013-06-12 07:00:19",
+        "created_at": "2024-03-10 19:05:47",
         "description": "Apache Log4j 2 is a versatile, feature-rich, efficient logging API and backend for Java.",
-        "commit_message": "Disable PTS",
-        "commit_date": "2024-06-26 08:41:21",
+        "commit_message": "Typo in Spring Boot 2 Lookup",
+        "commit_date": "2024-07-17 20:56:30",
         "release_date": "2024-03-10 19:24:14",
         "release_message": "This release contains several small fixes and some dependency updates.\r\n\r\n### Changed\r\n\r\n* Improve performance of `CloseableThreadContext#closeMap()` (#2296)\r\n\r\n### Fixed\r\n\r\n* Fix handling of `LoggerContextAware` lookups (#2309)\r\n* Fix NPE in `PatternProcessor` for a `UNIX_MILLIS` pattern (#2346)\r\n* Fix that parameterized message formatting doesn't throw an exception when there are insufficient number of parameters (#2343)\r\n* Fix `StatusLogger` log level filtering when debug mode is enabled (#2337)\r\n* Add `log4j2.StatusLogger.dateFormatZone` system property to set the time-zone `StatusLogger` uses to format `java.time.Instant`. Without this, formatting patterns accessing to time-zone-specific fields (e.g., year-of-era) cause failures. (#2322)\r\n* Fix `StatusLogger` to correctly read `log4j2.StatusLogger.properties` resource (#2354)\r\n* Fix stack overflow in `StatusLogger` (#2322)\r\n\r\n### Updated\r\n\r\n* Update `jakarta.activation:jakarta.activation-api` to version `2.1.3` (#2335)\r\n* Update `jakarta.mail:jakarta.mail-api` to version `2.1.3` (#2348)\r\n* Update `org.apache.commons:commons-compress` to version `1.26.0` (#2304)\r\n* Update `org.apache.commons:commons-dbcp2` to version `2.12.0` (#2344)\r\n* Update `org.apache.kafka:kafka-clients` to version `3.7.0` (#2326)\r\n* Update `org.eclipse.angus:angus-activation` to version `2.0.2` (#2336)\r\n* Update `org.eclipse.angus:jakarta.mail` to version `2.0.3` (#2349)\r\n"
     },
@@ -22443,7 +22443,7 @@
         "created_at": "2024-06-30 09:11:54",
         "description": "The GZ::CTF project, an open source CTF platform.",
         "commit_message": "chore(deps): update",
-        "commit_date": "2024-07-03 04:26:03",
+        "commit_date": "2024-07-09 15:24:53",
         "release_date": "2024-06-30 09:13:48",
         "release_message": "## [0.20.9](https://github.com/GZTimeWalker/GZCTF/compare/v0.20.8..v0.20.9) - 2024-06-30\r\n\r\n### ⛰️ Features\r\n\r\n- Remove redundant Telemetry.Enable config - ([66d337](https://github.com/GZTimeWalker/GZCTF/commit/66d337)) by **Steven He**\r\n\r\n### 🐛 Bug Fixes\r\n\r\n- optimize ChallengeModal scroll area component (#308) - ([8f24da](https://github.com/GZTimeWalker/GZCTF/commit/8f24da)) by **AdBean**\r\n- remove captcha key on boot (#306) - ([e66939](https://github.com/GZTimeWalker/GZCTF/commit/e66939)) by **GZTime**\r\n- remove workaround for Prometheus - ([c779b1](https://github.com/GZTimeWalker/GZCTF/commit/c779b1)) by **Steven He**\r\n- **(frontend)** overflow for challenge modal, again - ([cfe526](https://github.com/GZTimeWalker/GZCTF/commit/cfe526)) by **GZTime**\r\n\r\n---\r\n\r\n**Changelog**: https://github.com/GZTimeWalker/GZCTF/blob/HEAD/CHANGELOG.md\r\n**Commits**: https://github.com/GZTimeWalker/GZCTF/compare/v0.20.8...v0.20.9"
     },
@@ -23684,7 +23684,7 @@
     "https://github.com/sensepost/gowitness": {
         "created_at": "2023-10-29 11:00:04",
         "description": "🔍 gowitness - a golang, web screenshot utility using Chrome Headless",
-        "commit_date": "2024-06-28 08:22:19",
+        "commit_date": "2024-07-15 13:18:06",
         "commit_message": "(feat) bump dependencies",
         "release_tag": "",
         "release_date": "2023-10-29 11:11:30",
@@ -24854,8 +24854,8 @@
         "description": "The Rootkit Hunter project"
     },
     "http://dnslog.pw/login": {
-        "status_code": 200,
-        "description": "登录 - DNSlog System"
+        "status_code": 500,
+        "description": "Server Error (500)"
     },
     "http://www.jsons.cn/rabbitencrypt/": {
         "status_code": 200,
@@ -25428,8 +25428,8 @@
     "https://github.com/google/oss-fuzz": {
         "created_at": "2016-07-20 19:39:50",
         "description": "OSS-Fuzz - continuous fuzzing for open source software.",
-        "commit_message": "giflib: ignore LPM coverage (#12230)\n\nThis is to direct OSS-Fuzz-gen away from non-interesting targets",
-        "commit_date": "2024-07-16 13:14:43"
+        "commit_message": "Add libzip to GraphicsMagick build (#12239)\n\nAdd libzip to GraphicsMagick build and anchor the base directory.",
+        "commit_date": "2024-07-17 22:05:30"
     },
     "https://github.com/nmalcolm/Inventus": {
         "created_at": "2017-08-28 11:48:02",
@@ -25602,8 +25602,8 @@
     "https://github.com/zaproxy/zaproxy": {
         "created_at": "2024-05-07 17:05:30",
         "description": "The ZAP core project",
-        "commit_message": "Merge pull request #8539 from psiinon/itests/fix-57",
-        "commit_date": "2024-07-01 13:45:48",
+        "commit_message": "Merge pull request #8560 from thc202/rm-warn-nashorn",
+        "commit_date": "2024-07-16 09:44:24",
         "release_date": "2024-05-07 17:39:14",
         "release_message": "Release notes: https://www.zaproxy.org/docs/desktop/releases/2.15.0/\r\n\r\n---\r\n| File | Checksum (SHA-256) |\r\n|---|---|\r\n| [ZAP_2.15.0.dmg](https://github.com/zaproxy/zaproxy/releases/download/v2.15.0/ZAP_2.15.0.dmg) | `ae025403e46cdefff013cd0c3b88d8edc5a183a76daa63cb62c7c629005337a5` |\r\n| [ZAP_2.15.0_aarch64.dmg](https://github.com/zaproxy/zaproxy/releases/download/v2.15.0/ZAP_2.15.0_aarch64.dmg) | `4426253f4702bbd5fb4779bcf4d62490b2c10ec851c4ebc94ced8f156d2e5509` |\r\n| [ZAP_2.15.0_Core.zip](https://github.com/zaproxy/zaproxy/releases/download/v2.15.0/ZAP_2.15.0_Core.zip) | `e3cf30ad526e4f3fb8a228e1d5e02da0389b2ec7436b989bb28f959703380bf5` |\r\n| [ZAP_2.15.0_Crossplatform.zip](https://github.com/zaproxy/zaproxy/releases/download/v2.15.0/ZAP_2.15.0_Crossplatform.zip) | `05d3932a1affb0ab7987664677134709982ca3837a0b0f0e16f9aeb391933341` |\r\n| [ZAP_2.15.0_Linux.tar.gz](https://github.com/zaproxy/zaproxy/releases/download/v2.15.0/ZAP_2.15.0_Linux.tar.gz) | `6410e196baab458a9204e29aafb5745fca003a2a6c0386f2c6e5c04b67621fa7` |\r\n| [ZAP_2_15_0_unix.sh](https://github.com/zaproxy/zaproxy/releases/download/v2.15.0/ZAP_2_15_0_unix.sh) | `3d976a197b7f71c52c8b8b2e9f06b988384845fb854b637ebb8be0e4cb38112f` |\r\n| [ZAP_2_15_0_windows-x32.exe](https://github.com/zaproxy/zaproxy/releases/download/v2.15.0/ZAP_2_15_0_windows-x32.exe) | `114953f29647a5e4e5774b338f2271d6149711e9222e0b92b11be3a35b812478` |\r\n| [ZAP_2_15_0_windows.exe](https://github.com/zaproxy/zaproxy/releases/download/v2.15.0/ZAP_2_15_0_windows.exe) | `28b348dd65116ddabbbbd98b7f84864a0bb0f98d656266f2f08bfd010ae51c57` |\r\n| [bom.json](https://github.com/zaproxy/zaproxy/releases/download/v2.15.0/bom.json) | `04f3e148aaa406cd7f31f2be8d3ef282e16e852233da85de13aacb3a173f4740` |\r\n"
     },
@@ -25698,7 +25698,7 @@
         "release_message": ""
     },
     "https://github.com/Anduin2017/HowToCook": {
-        "created_at": "2024-06-17 14:03:33",
+        "created_at": "2020-02-29 10:43:49",
         "description": "程序员在家做饭方法指南。Programmer's guide about how to cook at home (Simplified Chinese only).",
         "commit_message": "Update 食品安全.md to fix #1355",
         "commit_date": "2024-07-06 05:03:40",
@@ -25828,8 +25828,8 @@
     "https://github.com/securego/gosec": {
         "created_at": "2024-05-14 13:36:59",
         "description": "Go security checker",
-        "commit_message": "Update to go 1.22.5 and 1.21.12\n\nChange-Id: I3334016ed2714ce4aed959d7f19a33e220c000e4\nSigned-off-by: Cosmin Cojocar <ccojocar@google.com>",
-        "commit_date": "2024-07-08 14:00:12",
+        "commit_message": "chore(deps): update dependency babel-standalone to v7.24.8",
+        "commit_date": "2024-07-15 07:13:59",
         "release_date": "2024-05-14 13:42:29",
         "release_message": "## Changelog\n* 6fbd381 Catch os.ModePerm permissions in os.WriteFile\n* dc5e5a9 Add a unit test to detect the false negative in rule G306 for os.ModePerm permissions\n* 417a44c Add filepath.EvalSymlinks to clean functions in rule G304\n* d34f8b7 chore(deps): update all dependencies\n* 8658b8e Update Go to version 2.22.3 in CI and release\n* d3b2359 chore(deps): update module golang.org/x/text to v0.15.0\n* cf29d54 chore(deps): update all dependencies\n* 09d62bd chore(deps): update module github.com/onsi/gomega to v1.33.0\n* 3b23ec8 Update to go 1.22.2\n* 31009c3 chore(deps): update all dependencies\n* daf6f67 chore(deps): update module github.com/onsi/ginkgo/v2 to v2.17.1\n* e27f442 chore(deps): update all dependencies\n* 5513615 fix(helpers/goversion): get from go.mod\n* 43b8b75 chore: fix function name\n* accd7a1 chore(deps): update all dependencies\n* 48aa72e Format the imports using the gci tool\n* b6df69c Fixup: delete unused variable\n* ccb0a08 Fix test: update test to comply with the spec of generated sources\n* 3a0ea51 Refactor: use standard function to check if a file is generated\n* 11c3252 Fix lint warnings\n* be378e6 Add support for math/rand/v2 added in Go 1.22\n* 36878a9 Skip the G601 tests for Go version 1.22\n* 903c75b Update go version to 1.22.1 and 1.21.8\n* f25ccd9 Ignore 'implicit memory aliasing' rule for Go 1.22+\n* 582e91a chore(deps): update all dependencies\n* 198a40c chore(deps): update module golang.org/x/tools to v0.18.0\n* c824a5d fix(hardcoded): remove duplicated `Stripe API Key`\n* d13d7da Update gosec version to v2.19.0 in the Github action\n\n"
     },
@@ -27075,7 +27075,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "40.76.181.126属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "20.109.38.37属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
@@ -27210,8 +27210,8 @@
         "description": "TideFinger  潮汐指纹 TideFinger  潮汐指纹"
     },
     "http://dnslog.pw/": {
-        "status_code": 200,
-        "description": "登录 - DNSlog System"
+        "status_code": 500,
+        "description": "Server Error (500)"
     },
     "https://findthatlead.com/en": {
         "status_code": 200,
@@ -27994,12 +27994,12 @@
         "commit_date": "2023-05-15 03:59:15"
     },
     "https://github.com/kubescape/kubescape": {
-        "created_at": "2024-05-26 13:28:30",
+        "created_at": "2024-07-15 14:49:07",
         "description": "Kubescape is an open-source Kubernetes security platform for your IDE, CI/CD pipelines, and clusters. It includes risk analysis, security, compliance, and misconfiguration scanning, saving Kubernetes users and administrators precious time, effort, and resources.",
-        "commit_message": "Merge pull request #1702 from kubescape/dependabot/go_modules/httphandler/github.com/hashicorp/go-retryablehttp-0.7.7\n\nBump github.com/hashicorp/go-retryablehttp from 0.7.5 to 0.7.7 in /httphandler",
-        "commit_date": "2024-06-25 08:19:43",
-        "release_date": "2024-05-27 21:21:40",
-        "release_message": "## 🐞 Fixed issues\r\n* Mask all container data by @dwertent in https://github.com/kubescape/kubescape/pull/1683\r\n* fix yaml handler deleting too many lines during fix by @matthyx in https://github.com/kubescape/kubescape/pull/1685\r\n* Fix scanning unsupported clouds by @dwertent in https://github.com/kubescape/kubescape/pull/1688\r\n\r\n\r\n**Full Changelog**: https://github.com/kubescape/kubescape/compare/v3.0.10...v3.0.11"
+        "commit_message": "Merge pull request #1717 from kubescape/documentation_ugrades\n\nDocumentation ugrades",
+        "commit_date": "2024-07-15 14:49:07",
+        "release_date": "2024-07-15 16:12:13",
+        "release_message": "## What's Changed\r\n* Simplify the concurrency in http handler for scan. by @ttimonen in https://github.com/kubescape/kubescape/pull/1710\r\n* use proper params in pager call by @matthyx in https://github.com/kubescape/kubescape/pull/1713\r\n* update docs by @dwertent in https://github.com/kubescape/kubescape/pull/1450\r\n* fix generated ValidatingAdmissionPolicyBinding by @matthyx in https://github.com/kubescape/kubescape/pull/1716\r\n* Documentation ugrades by @idohuber in https://github.com/kubescape/kubescape/pull/1717\r\n\r\n## New Contributors\r\n* @ttimonen made their first contribution in https://github.com/kubescape/kubescape/pull/1710\r\n* @idohuber made their first contribution in https://github.com/kubescape/kubescape/pull/1717\r\n\r\n**Full Changelog**: https://github.com/kubescape/kubescape/compare/v3.0.13...v3.0.14"
     },
     "https://github.com/zema1/watchvuln": {
         "created_at": "2024-06-04 12:16:45",
@@ -28248,8 +28248,8 @@
         "description": "GitGuardian: Git Security Scanning & Secrets Detection"
     },
     "https://www.zeek.org": {
-        "status_code": 429,
-        "description": "WordPress.com 429 Error"
+        "status_code": 200,
+        "description": "The Zeek Network Security Monitor"
     },
     "https://gitee.com/freshday/radar": {
         "status_code": 200,
@@ -28734,12 +28734,12 @@
         "commit_date": "2024-06-11 08:03:36"
     },
     "https://github.com/chatchat-space/Langchain-Chatchat": {
-        "created_at": "2023-03-31 12:12:45",
+        "created_at": "2024-07-12 14:29:12",
         "description": "Langchain-Chatchat（原Langchain-ChatGLM, Qwen 与 Llama 等）基于 Langchain 与 ChatGLM 等语言模型的 RAG 与 Agent 应用 | Langchain-Chatchat (formerly langchain-ChatGLM), local knowledge based LLM (like ChatGLM, Qwen and Llama) RAG and Agent app with langchain ",
-        "commit_message": "Merge pull request #4319 from kwunhang/v0.3.0_master\n\nfix: fix the problem when Milvus is used as knowledge base",
-        "commit_date": "2024-06-27 13:59:12",
-        "release_date": "2024-06-20 23:27:17",
-        "release_message": "## 重要提示\r\nLangchain-Chatchat v0.3.0 相比 0.2.x 有较大项目结构变动，但知识库的源文件与向量库仍可与前序版本通用，建议参考项目 README.md 中 `快速上手` 章节内容进行新版本部署。\r\n\r\n------\r\n## 新增功能\r\n* Langchain-Chatchat Python 库现已发布至 Pypi，可通过 pip install langchain-chatchat 方式直接安装； \r\n* 替换原有 FastChat 模型推理框架，支持 Xinference、Ollama、One API 等多种模型推理与在线 API 框架的接入；\r\n* 所有 Chat 接口修改为与 OpenAI API 形式对齐，真正实现 OpenAI API In, OpenAI API Out；\r\n* 重构 Agent 功能，针对 GLM 和 Qwen 模型进行适配优化；\r\n* 新增 ArXiv 文献对话、Wolfram 对话、文生图等多种 Agent 可调用工具；\r\n* 更新知识库问答功能，支持 Ensemble Retriever 接入，并将在后续接入更多不同类型 Retriever；\r\n* 更新 Streamlit WebUI，支持模型推理框架选择、对话管理、工具选择等多种新功能；\r\n* 增加 Text2SQL 工具，支持 SQLAlchemy 大部分数据库，支持特定表、智能判定表与 Read-Only 模式，支持对表名进行额外说明；\r\n* 新增 chatchat、chatchat-config、chatchat-kb 命令，支持通过命令行进行项目配置、知识库重构与项目启动；\r\n* 更多细节更新，期待你的探索发现！\r\n\r\n## 新晋贡献者\r\n* @yhfgyyf made their first contribution in https://github.com/chatchat-space/Langchain-Chatchat/pull/2630\r\n* @HALIndex made their first contribution in https://github.com/chatchat-space/Langchain-Chatchat/pull/2591\r\n* @596192804 made their first contribution in https://github.com/chatchat-space/Langchain-Chatchat/pull/2013\r\n* @Lijia0 made their first contribution in https://github.com/chatchat-space/Langchain-Chatchat/pull/2480\r\n* @xyhshen made their first contribution in https://github.com/chatchat-space/Langchain-Chatchat/pull/2648\r\n* @MSZheng20 made their first contribution in https://github.com/chatchat-space/Langchain-Chatchat/pull/2688\r\n* @showmecodett made their first contribution in https://github.com/chatchat-space/Langchain-Chatchat/pull/2740\r\n* @songpb made their first contribution in https://github.com/chatchat-space/Langchain-Chatchat/pull/2816\r\n* @fengyaojieTTT made their first contribution in https://github.com/chatchat-space/Langchain-Chatchat/pull/2919\r\n* @criwits made their first contribution in https://github.com/chatchat-space/Langchain-Chatchat/pull/2949\r\n* @wusongbai139 made their first contribution in https://github.com/chatchat-space/Langchain-Chatchat/pull/2960\r\n* @thinklover made their first contribution in https://github.com/chatchat-space/Langchain-Chatchat/pull/2892\r\n* @hollowdjj made their first contribution in https://github.com/chatchat-space/Langchain-Chatchat/pull/3155\r\n* @dignfei made their first contribution in https://github.com/chatchat-space/Langchain-Chatchat/pull/3276\r\n* @Sumkor made their first contribution in https://github.com/chatchat-space/Langchain-Chatchat/pull/3324\r\n* @oslijunw made their first contribution in https://github.com/chatchat-space/Langchain-Chatchat/pull/3404\r\n* @liudichen made their first contribution in https://github.com/chatchat-space/Langchain-Chatchat/pull/3407\r\n* @srszzw made their first contribution in https://github.com/chatchat-space/Langchain-Chatchat/pull/3508\r\n* @RoceoRobin made their first contribution in https://github.com/chatchat-space/Langchain-Chatchat/pull/3585\r\n* @yuehua-s made their first contribution in https://github.com/chatchat-space/Langchain-Chatchat/pull/3664\r\n* @LOGIC-10 made their first contribution in https://github.com/chatchat-space/Langchain-Chatchat/pull/3108\r\n* @saliven1970 made their first contribution in https://github.com/chatchat-space/Langchain-Chatchat/pull/3458\r\n* @dengpeng777 made their first contribution in https://github.com/chatchat-space/Langchain-Chatchat/pull/3574\r\n* @FJiangArthur made their first contribution in https://github.com/chatchat-space/Langchain-Chatchat/pull/3340\r\n* @Kudoryafuka3 made their first contribution in https://github.com/chatchat-space/Langchain-Chatchat/pull/3804\r\n* @An0nymous0 made their first contribution in https://github.com/chatchat-space/Langchain-Chatchat/pull/3564\r\n* @pearjelly made their first contribution in https://github.com/chatchat-space/Langchain-Chatchat/pull/3912\r\n* @qqlww1987 made their first contribution in https://github.com/chatchat-space/Langchain-Chatchat/pull/3203\r\n* @vegetablest made their first contribution in https://github.com/chatchat-space/Langchain-Chatchat/pull/4048\r\n* @selfuppen made their first contribution in https://github.com/chatchat-space/Langchain-Chatchat/pull/3873\r\n* @BestLemoon made their first contribution in https://github.com/chatchat-space/Langchain-Chatchat/pull/3887\r\n* @liuchuan01 made their first contribution in https://github.com/chatchat-space/Langchain-Chatchat/pull/3206\r\n* @momomobinx made their first contribution in https://github.com/chatchat-space/Langchain-Chatchat/pull/3477\r\n* @gzYou made their first contribution in https://github.com/chatchat-space/Langchain-Chatchat/pull/3821\r\n* @klaus-xiong made their first contribution in https://github.com/chatchat-space/Langchain-Chatchat/pull/3926\r\n* @weank1984 made their first contribution in https://github.com/chatchat-space/Langchain-Chatchat/pull/4135\r\n* @zhenlong-zhu made their first contribution in https://github.com/chatchat-space/Langchain-Chatchat/pull/3229\r\n\r\n**Full Changelog**: https://github.com/chatchat-space/Langchain-Chatchat/compare/v0.2.10...v0.3.0"
+        "commit_message": "更新 README.md",
+        "commit_date": "2024-07-15 04:41:21",
+        "release_date": "2024-07-12 15:23:05",
+        "release_message": "## 重要提示\r\n\r\nLangchain-Chatchat v0.3.1 中命令行调用方式发生调整，请依据项目 README 进行操作；知识库的源文件与向量库仍可与前序版本通用，建议参考项目 README.md 中 快速上手 章节内容进行新版本部署。\r\n\r\n------\r\n\r\n## 新增功能\r\n\r\n* 所有配置项改成 yaml 配置文件，改为命令行执行 chatchat init 初始化项目配置，需要本地文件中修改配置，配置项修改后即时生效，无需重启项目 by @liunux4odoo in https://github.com/chatchat-space/Langchain-Chatchat/pull/4421\r\n* chatchat init 可以直接指定 Xinference API 地址、LLM 模型、Embedding 模型，一步完成知识库初始 by @liunux4odoo in https://github.com/chatchat-space/Langchain-Chatchat/pull/4425\r\n* 新增 RAG 对话页面，包含知识库对话、文件对话、搜索引擎对话 by @liunux4odoo @imClumsyPanda in https://github.com/chatchat-space/Langchain-Chatchat/pull/4471\r\n* 调整对话界面按钮布局，对话输入框左右分别设置\"模型配置\"与\"清空对话\"按钮 by @imClumsyPanda @liunux4odoo \r\n* 支持 searx 搜索引擎 by @liunux4odoo in https://github.com/chatchat-space/Langchain-Chatchat/pull/4476\r\n* 支持 GLM-4V、Qwen-VL 等 Vision 模型接入进行图片对话 by @liunux4odoo in https://github.com/chatchat-space/Langchain-Chatchat/pull/4421\r\n* 使用 Xinference 接入本地模型时，支持自动检测已启动模型，无需手动填写模型名称 by @imClumsyPanda @liunux4odoo in https://github.com/chatchat-space/Langchain-Chatchat/pull/4421\r\n* Agent 可调用工具中增加了维基百科搜索、高德地图天气查询、高德地图POI搜索 by @yhfgyyf in https://github.com/chatchat-space/Langchain-Chatchat/pull/4419\r\n* Agent 工具新增 text2promql by @yuehua-s in https://github.com/chatchat-space/Langchain-Chatchat/pull/4399\r\n* 增加 dockerfile 并更新 README 中关于 docker 部署的操作介绍 by @yuehua-s in https://github.com/chatchat-space/Langchain-Chatchat/pull/4271 and https://github.com/chatchat-space/Langchain-Chatchat/pull/4274\r\n* 新增 Agent 添加工具操作说明 by @zRzRzRzRzRzRzR in https://github.com/chatchat-space/Langchain-Chatchat/pull/4484\r\n* 新增数据库对话配置说明 by @srszzw in https://github.com/chatchat-space/Langchain-Chatchat/pull/4475\r\n* 添加 Agent & Chat API 接口调用的说明，修正知识库检索bug by @liunux4odoo in https://github.com/chatchat-space/Langchain-Chatchat/pull/4341\r\n* 增加知识库初始化时对 Ctrl+C 中止操作的支持 by @liunux4odoo in https://github.com/chatchat-space/Langchain-Chatchat/pull/4352\r\n* 增加 Pypi 发布自动化操作 by @glide-the in https://github.com/chatchat-space/Langchain-Chatchat/pull/4260\r\n* 增加不同系统部署环境测试 by @glide-the in https://github.com/chatchat-space/Langchain-Chatchat/pull/4480\r\n\r\n\r\n## 问题修复\r\n* 在 readme 中增加对 windows 下创建知识库卡住的说明与解决办法 by @liunux4odoo in https://github.com/chatchat-space/Langchain-Chatchat/pull/4330\r\n* 统一搜索引擎与本地知识库返回格式，修改 WEBUI 渲染上下文方式 by @liunux4odoo in https://github.com/chatchat-space/Langchain-Chatchat/pull/4344\r\n* 修复文生图工具 by @liunux4odoo in https://github.com/chatchat-space/Langchain-Chatchat/pull/4349\r\n* 修复 Milvus 作为知识库时可能发生的错误 by @kwunhang in https://github.com/chatchat-space/Langchain-Chatchat/pull/4319\r\n* 修复 max_tokens 问题 by @yuehua-s in https://github.com/chatchat-space/Langchain-Chatchat/pull/4355\r\n* 修改api文档中手动输入工具参数的说明 by @srszzw in https://github.com/chatchat-space/Langchain-Chatchat/pull/4367\r\n* 解决text2sql对GLM的兼容，即temperature不能设置为0 by @srszzw in https://github.com/chatchat-space/Langchain-Chatchat/pull/4370\r\n* 解决es数据库删除时只能删除50条数据的BUG by @YangSuoze in https://github.com/chatchat-space/Langchain-Chatchat/pull/4351\r\n* 解决天气、text2Sql Agent 运行报错的BUG by @21Janur in https://github.com/chatchat-space/Langchain-Chatchat/pull/4336\r\n* 修复知识库对话中的bug by @srszzw in https://github.com/chatchat-space/Langchain-Chatchat/pull/4468\r\n* fix: action model initialize error by @liunux4odoo in https://github.com/chatchat-space/Langchain-Chatchat/pull/4347\r\n\r\n## New Contributors\r\n* @kwunhang made their first contribution in https://github.com/chatchat-space/Langchain-Chatchat/pull/4319\r\n* @YangSuoze made their first contribution in https://github.com/chatchat-space/Langchain-Chatchat/pull/4351\r\n* @21Janur made their first contribution in https://github.com/chatchat-space/Langchain-Chatchat/pull/4336\r\n\r\n**Full Changelog**: https://github.com/chatchat-space/Langchain-Chatchat/compare/v0.3.0...v0.3.1"
     },
     "https://github.com/Bypass007/Safety-Project-Collection": {
         "created_at": "2019-04-09 01:43:21",
