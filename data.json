@@ -1008,8 +1008,8 @@
     "https://github.com/Mr-xn/BurpSuite-collections": {
         "created_at": "2020-01-25 02:07:37",
         "description": "有关burpsuite的插件(非商店),文章以及使用技巧的收集(此项目不再提供burpsuite破解文件,如需要请在博客mrxn.net下载)---Collection of burpsuite plugins (non-stores), articles and tips for using Burpsuite, no crack version file",
-        "commit_date": "2024-07-01 12:48:07",
-        "commit_message": "Update README.md\n\nadd BurpAppletPentester: 微信小程序Wx_SessionKey加解密插件",
+        "commit_date": "2024-07-18 12:32:36",
+        "commit_message": "Update README.md\n\nadd Galaxy: HTTP请求&响应全加密加签 场景下，高效的对明文报文查看、编辑和扫描",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -1079,7 +1079,7 @@
         "created_at": "2024-03-07 09:30:14",
         "description": "基于 docsify 快速部署 Awesome-POC 中的漏洞文档",
         "commit_message": "update",
-        "commit_date": "2024-07-04 08:47:41",
+        "commit_date": "2024-07-18 02:46:44",
         "release_date": "2024-04-01 03:17:43",
         "release_message": "2023.04.01 重构目录，此为重构前 release。重构后目录如下：\r\n```\r\ndirs = {\r\n    'oa':'OA漏洞',\r\n    'cms': 'CMS漏洞',\r\n    'framework': '开发框架漏洞',\r\n    'iot': '网络设备漏洞',\r\n    'language': '开发语言漏洞',\r\n    'os': '操作系统漏洞',\r\n    'webapp': 'Web应用漏洞',\r\n    'middleware': '中间件漏洞',\r\n    'database': '数据库漏洞',\r\n    'cloud': '云安全漏洞',\r\n    'others':'其他漏洞'\r\n}\r\n```"
     },
@@ -1863,8 +1863,8 @@
     "https://github.com/hanc00l/nemo_go": {
         "created_at": "2024-07-02 07:59:26",
         "description": "Nemo是用来进行自动化信息收集的一个简单平台，通过集成常用的信息收集工具和技术，实现对内网及互联网资产信息的自动收集，提高隐患排查和渗透测试的工作效率。",
-        "commit_message": "Update: 增加server_install.sh和worker_install.sh脚本，辅助在VPS安装nemo",
-        "commit_date": "2024-07-09 03:56:15",
+        "commit_message": "Update: 修复导入资产的一个影响速度的代码bug（不影响功能）",
+        "commit_date": "2024-07-18 08:24:50",
         "release_date": "2024-07-02 08:25:48",
         "release_message": "## v2.13.0\r\n\r\n2024-7-2\r\n\r\n### Update\r\n\r\n- 增加对部份任务的自动化测试（配合发布的nemo_test使用）\r\n- 集成基于[MiniChat](https://github.com/okhanyu/minichat)的轻量级团队在线沟通工具（支持消息、文件上传分享，关闭后自动销毁历史记录）\r\n- 增加对任务结果过滤的调整参数\r\n- 更新部份thirdparty和qqwry.dat\r\n\r\n### Thirdparty版本（更新）\r\n- \r\n- Httpx：1.6.2 （当前最新的1.6.5的无法正常屏幕截图）\r\n- Subfinder：2.6.6\r\n- Nuclei：3.2.9\r\n- Gogo: 2.13.1"
     },
@@ -3864,12 +3864,12 @@
         "release_message": "### Added Features\n\n- Add CycloneDX 1.6 Support [[#2974](https://github.com/anchore/syft/issues/2974) [#2978](https://github.com/anchore/syft/pull/2978) @ragaskar]\n\n### Bug Fixes\n\n- Fixed the detection of arangodb 3.12 [[#2979](https://github.com/anchore/syft/pull/2979) @LaurentGoderre]\n- Syft tries to create the cache directory at a location that has no permission [[#2984](https://github.com/anchore/syft/issues/2984) [#2985](https://github.com/anchore/syft/pull/2985) @kzantow]\n\n**[(Full Changelog)](https://github.com/anchore/syft/compare/v1.7.0...v1.8.0)**\n\n"
     },
     "https://github.com/chaitin/safeline": {
-        "created_at": "2024-07-10 08:04:30",
+        "created_at": "2024-07-16 02:16:54",
         "description": "A web security gateway, serve as a reverse proxy to protect your websites from attacks and exploits.",
         "commit_message": "Update README.md",
-        "commit_date": "2024-07-12 08:04:59",
-        "release_date": "2024-07-11 09:30:44",
-        "release_message": "Improvements:\r\n* Pro version allows adding multiple users in Sites Auth:\r\n* Allow modifying the default user name ([#957](https://github.com/chaitin/SafeLine/issues/957))\r\n* Add site name to pop-up window when deleting a site ([#943](https://github.com/chaitin/SafeLine/issues/943))\r\n* Dynamic\r\n    * HTML encryption determines whether to encrypt based on response Body instead of Content-Type\r\n    * Quick encryption in pro version does not show the SafeLine logo\r\n* \"Limit High-frequency Attack\"  also count Blacklist interception ([#817](https://github.com/chaitin/SafeLine/issues/817))\r\n* \"Search Engine Spider IP\"  updates automatically every day\r\n* Upstream health check does not alarm when get http code 401 or 405 ([#973](https://github.com/chaitin/SafeLine/issues/973))\r\n\r\nFixes:\r\n* Revoke of the Rate limited IP is invalid sometimes\r\n* Challenge may be cached by CDN and cause an infinite loop\r\n* The site title and icon may be updated inaccurately during daily update"
+        "commit_date": "2024-07-16 02:16:54",
+        "release_date": "2024-07-18 11:08:26",
+        "release_message": "## Improvements:\r\n* Dashboard add the Interception counts caused by different reasons, such as attack blocking and Rate Limiting\r\n* Custom Rules add 'Source IP' - 'Not In CIDR' ([#980](https://github.com/chaitin/SafeLine/issues/980))\r\n* Site Upstream allow Underline in hostname ([#985](https://github.com/chaitin/SafeLine/issues/985))\r\n\r\n## Fixes:\r\n* TOTP username of the Built-in user does not appear correctly when it's modified\r\n* The content of AI Analysis is sometimes formatted incorrectly"
     },
     "https://github.com/stamparm/identYwaf": {
         "created_at": "2019-01-10 11:27:58",
@@ -3918,18 +3918,18 @@
     "https://github.com/aquasecurity/trivy": {
         "created_at": "2024-07-01 11:28:03",
         "description": "Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more",
-        "commit_message": "docs(misconf): add info about limitations for terraform plan json (#7143)",
-        "commit_date": "2024-07-10 22:22:17",
+        "commit_message": "chore(deps): bump goreleaser from `v2.0.0` to `v2.1.0` (#7162)",
+        "commit_date": "2024-07-16 07:44:10",
         "release_date": "2024-07-01 12:16:03",
         "release_message": "## ⚡Release highlights and summary⚡\r\n\r\n👉 https://github.com/aquasecurity/trivy/discussions/7061 \r\n\r\n## Changelog\r\nhttps://github.com/aquasecurity/trivy/blob/main/CHANGELOG.md#0530-2024-07-01"
     },
     "https://github.com/anchore/grype": {
-        "created_at": "2024-07-02 15:43:34",
+        "created_at": "2024-07-15 12:57:42",
         "description": "A vulnerability scanner for container images and filesystems",
-        "commit_message": "chore(deps): bump gorm.io/gorm from 1.25.10 to 1.25.11 (#1985)\n\nBumps [gorm.io/gorm](https://github.com/go-gorm/gorm) from 1.25.10 to 1.25.11.\r\n- [Release notes](https://github.com/go-gorm/gorm/releases)\r\n- [Commits](https://github.com/go-gorm/gorm/compare/v1.25.10...v1.25.11)\r\n\r\n---\r\nupdated-dependencies:\r\n- dependency-name: gorm.io/gorm\r\n  dependency-type: direct:production\r\n  update-type: version-update:semver-patch\r\n...\r\n\r\nSigned-off-by: dependabot[bot] <support@github.com>\r\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
-        "commit_date": "2024-07-11 18:39:52",
-        "release_date": "2024-07-02 15:52:41",
-        "release_message": "### Bug Fixes\n\n- use location `RealPath` not `String()` for match sorting [[#1950](https://github.com/anchore/grype/pull/1950) @luhring]\n\n**[(Full Changelog)](https://github.com/anchore/grype/compare/v0.79.1...v0.79.2)**\n\n"
+        "commit_message": "chore: request artifact in issue template (#1996)\n\n* chore: request artifact in issue template\r\n\r\nSigned-off-by: Will Murphy <will.murphy@anchore.com>\r\n\r\n* Apply suggestions from code review\r\n\r\nCo-authored-by: Alex Goodman <wagoodman@users.noreply.github.com>\r\nSigned-off-by: William Murphy <willmurphyscode@users.noreply.github.com>\r\n\r\n* Update .github/ISSUE_TEMPLATE/bug_report.md\r\n\r\nCo-authored-by: Alex Goodman <wagoodman@users.noreply.github.com>\r\nSigned-off-by: William Murphy <willmurphyscode@users.noreply.github.com>\r\n\r\n---------\r\n\r\nSigned-off-by: Will Murphy <will.murphy@anchore.com>\r\nSigned-off-by: William Murphy <willmurphyscode@users.noreply.github.com>\r\nCo-authored-by: Alex Goodman <wagoodman@users.noreply.github.com>",
+        "commit_date": "2024-07-18 21:17:06",
+        "release_date": "2024-07-15 13:05:27",
+        "release_message": "### Bug Fixes\n\n- correct logic checking cpe target software component against package type [[#1658](https://github.com/anchore/grype/pull/1658) @westonsteimel]\n\n### Additional Changes\n\n- update Syft to v1.9.0 [[#1986](https://github.com/anchore/grype/pull/1986) @anchore-actions-token-generator]\n\n**[(Full Changelog)](https://github.com/anchore/grype/compare/v0.79.2...v0.79.3)**\n\n"
     },
     "https://github.com/Metarget/metarget": {
         "created_at": "2021-12-31 07:57:37",
@@ -4555,8 +4555,8 @@
     "https://github.com/baidu/dperf": {
         "created_at": "2024-06-05 10:43:58",
         "description": "dperf is a 100Gbps network load tester.",
-        "commit_message": "Merge pull request #465 from chcchc88/main\n\nfix: resolve compilation errors",
-        "commit_date": "2024-07-08 11:02:49",
+        "commit_message": "Merge pull request #469 from pengjianzhang/main\n\nfix: readme",
+        "commit_date": "2024-07-19 01:00:14",
         "release_date": "2024-06-05 10:58:44",
         "release_message": "## v1.7.0 - 2024-06-06\r\n\r\nAfter more than six months, the 1.7.0 version has finally been released. [Pengfei Zhang](https://github.com/zhangpengfei-xyz) contributed many features to this version. Thank you, Pengfei Zhang, for making dperf more powerful. We welcome more developers to join us and make dperf even better.\r\n\r\n### Added\r\n\r\n- send http post requests\r\n\r\n- dpdk pdump\r\n\r\n    thanks ZhangPengfei\r\n\r\n- fast_close: use RST to close connections\r\n\r\n- support DPDK-23.11 and DPDK-24\r\n\r\n- enable simd512\r\n\r\n- disable ack\r\n\r\n- configure retransmit timeout\r\n\r\n### Changed\r\n\r\n- config DPDK log level\r\n\r\n- clear_screen: dperf can clear screen output and make the screen cleaner\r\n\r\n- static linking\r\n\r\n    thanks ZhangPengfei\r\n\r\n### Fixed\r\n\r\n- dpdk cleanup\r\n\r\n    thanks ZhangPengfei\r\n\r\n- CFLAGS override\r\n\r\n    thanks ZhangPengfei\r\n\r\n- missspell\r\n\r\n    thanks ZhangPengfei\r\n\r\n- don't clear sequences in time-wait state"
     },
@@ -5997,8 +5997,8 @@
     "https://github.com/mandiant/commando-vm": {
         "created_at": "2019-03-26 22:36:32",
         "description": "Complete Mandiant Offensive VM (Commando VM), a fully customizable Windows-based pentesting virtual machine distribution. commandovm@mandiant.com",
-        "commit_date": "2024-07-11 17:21:35",
-        "commit_message": "Merge pull request #324 from Menn1s/main\n\nFixed win11arm victim detection in install.ps1",
+        "commit_date": "2024-07-12 16:19:30",
+        "commit_message": "Merge pull request #325 from Menn1s/add-win11arm-detection-gui\n\nAdd ARM detection to the GUI",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -19214,8 +19214,8 @@
     "https://github.com/bitsadmin/wesng": {
         "created_at": "2019-03-02 15:25:40",
         "description": "Windows Exploit Suggester - Next Generation",
-        "commit_date": "2024-06-23 12:13:09",
-        "commit_message": "Updated 20240623",
+        "commit_date": "2024-07-13 13:02:52",
+        "commit_message": "Updated 20240713",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -21943,8 +21943,8 @@
     "https://github.com/apache/logging-log4j2": {
         "created_at": "2024-03-10 19:05:47",
         "description": "Apache Log4j 2 is a versatile, feature-rich, efficient logging API and backend for Java.",
-        "commit_message": "Typo in Spring Boot 2 Lookup",
-        "commit_date": "2024-07-17 20:56:30",
+        "commit_message": "Broken relative links after migration",
+        "commit_date": "2024-07-18 18:52:01",
         "release_date": "2024-03-10 19:24:14",
         "release_message": "This release contains several small fixes and some dependency updates.\r\n\r\n### Changed\r\n\r\n* Improve performance of `CloseableThreadContext#closeMap()` (#2296)\r\n\r\n### Fixed\r\n\r\n* Fix handling of `LoggerContextAware` lookups (#2309)\r\n* Fix NPE in `PatternProcessor` for a `UNIX_MILLIS` pattern (#2346)\r\n* Fix that parameterized message formatting doesn't throw an exception when there are insufficient number of parameters (#2343)\r\n* Fix `StatusLogger` log level filtering when debug mode is enabled (#2337)\r\n* Add `log4j2.StatusLogger.dateFormatZone` system property to set the time-zone `StatusLogger` uses to format `java.time.Instant`. Without this, formatting patterns accessing to time-zone-specific fields (e.g., year-of-era) cause failures. (#2322)\r\n* Fix `StatusLogger` to correctly read `log4j2.StatusLogger.properties` resource (#2354)\r\n* Fix stack overflow in `StatusLogger` (#2322)\r\n\r\n### Updated\r\n\r\n* Update `jakarta.activation:jakarta.activation-api` to version `2.1.3` (#2335)\r\n* Update `jakarta.mail:jakarta.mail-api` to version `2.1.3` (#2348)\r\n* Update `org.apache.commons:commons-compress` to version `1.26.0` (#2304)\r\n* Update `org.apache.commons:commons-dbcp2` to version `2.12.0` (#2344)\r\n* Update `org.apache.kafka:kafka-clients` to version `3.7.0` (#2326)\r\n* Update `org.eclipse.angus:angus-activation` to version `2.0.2` (#2336)\r\n* Update `org.eclipse.angus:jakarta.mail` to version `2.0.3` (#2349)\r\n"
     },
@@ -24340,8 +24340,8 @@
         "description": "补天 - 企业和白帽子共赢的漏洞响应平台，帮助企业建立SRC"
     },
     "https://dxysrc.vulbox.com/": {
-        "status_code": 200,
-        "description": "漏洞盒子 | 丁香园安全应急响应中心（DXYSRC）"
+        "status_code": 404,
+        "description": "漏洞盒子 - 企业SRC，快速为企业建立SRC漏洞响应平台"
     },
     "https://fsrc.fuiou.com/home/index.html": {
         "status_code": 404,
@@ -24352,16 +24352,16 @@
         "description": "平安安全应急响应中心"
     },
     "https://kysrc.vulbox.com/": {
-        "status_code": 200,
-        "description": "漏洞盒子 | 金山云安全应急响应中心（KYSRC）"
+        "status_code": 404,
+        "description": "漏洞盒子 - 企业SRC，快速为企业建立SRC漏洞响应平台"
     },
     "https://llsrc.huolala.cn/#/home": {
         "status_code": 200,
         "description": "货拉拉安全应急响应中心"
     },
     "https://lsrc.vulbox.com/": {
-        "status_code": 200,
-        "description": "漏洞盒子 | 联想集团安全应急响应中心"
+        "status_code": 404,
+        "description": "漏洞盒子 - 企业SRC，快速为企业建立SRC漏洞响应平台"
     },
     "https://lxsrc.vulbox.com/": {
         "status_code": 200,
@@ -24718,8 +24718,8 @@
         "description": "漏洞盒子 | 同盾安全应急响应中心"
     },
     "https://weaversrc.vulbox.com/": {
-        "status_code": 200,
-        "description": "漏洞盒子 | 泛微安全应急响应中心（WEAVERSRC）"
+        "status_code": 404,
+        "description": "漏洞盒子 - 企业SRC，快速为企业建立SRC漏洞响应平台"
     },
     "https://www.hikvision.com/cn/support/CybersecurityCenter/": {
         "status_code": 200,
@@ -24854,8 +24854,8 @@
         "description": "The Rootkit Hunter project"
     },
     "http://dnslog.pw/login": {
-        "status_code": 500,
-        "description": "Server Error (500)"
+        "status_code": 200,
+        "description": "登录 - DNSlog System"
     },
     "http://www.jsons.cn/rabbitencrypt/": {
         "status_code": 200,
@@ -27075,7 +27075,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "172.183.132.98属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "52.234.40.19属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
@@ -27210,8 +27210,8 @@
         "description": "TideFinger  潮汐指纹 TideFinger  潮汐指纹"
     },
     "http://dnslog.pw/": {
-        "status_code": 500,
-        "description": "Server Error (500)"
+        "status_code": 200,
+        "description": "登录 - DNSlog System"
     },
     "https://findthatlead.com/en": {
         "status_code": 200,
@@ -27517,7 +27517,7 @@
     },
     "http://www.66zan.cn/rc4encrypt/": {
         "status_code": 200,
-        "description": "在线RC4加密,RC4解密工具-在线工具箱"
+        "description": ""
     },
     "https://330k.github.io/misc_tools/unicode_steganography.html": {
         "status_code": 200,
@@ -27533,7 +27533,7 @@
     },
     "http://www.66zan.cn/aesencrypt/": {
         "status_code": 200,
-        "description": "AES加解密工具,AES加密解密在线工具-在线工具箱"
+        "description": ""
     },
     "https://www.sojson.com/encrypt_des.html": {
         "status_code": 200,
@@ -27549,7 +27549,7 @@
     },
     "http://www.66zan.cn/desencrypt/": {
         "status_code": 200,
-        "description": "在线DES加密,DES解密工具-在线工具箱"
+        "description": ""
     },
     "http://www.66zan.cn/rabbitencrypt/": {
         "status_code": 200,
